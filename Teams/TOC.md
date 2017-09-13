@@ -12,7 +12,7 @@
 ## [Interaction entre Skype Entreprise et Microsoft Teams](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
 ## [Mettre Microsoft Teams à niveau](Upgrade_to_Microsoft_Teams.md)
 
-# PLAN
+# Planifier
 ## [Présentation d'un déploiement de Microsoft Teams](Overview_of_a_Microsoft_Teams_deployment.md)
 ## [Planifier les groupes Office 365 lors de la création d'équipes dans Microsoft Teams](Plan_for_Office_365_groups_when_creating_teams_in_Microsoft_Teams.md)
 ## [Préparer le réseau de votre organisation pour Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
@@ -27,7 +27,7 @@
 ## [Utiliser T-Bot pour aider les utilisateurs à utiliser Microsoft Teams](Use_T-Bot_to_help_users_with_Microsoft_Teams.md)
 
 
-# Gérer les délégués
+# Gérer
 ## [Obtenir des clients pour Microsoft Teams](Get_clients_for_Microsoft_Teams.md)
 ## [Configurer Microsoft Teams dans votre organisation Office 365](Set_up_Microsoft_Teams_in_your_Office_365_organization.md)
 ## [Gérer l'accès des utilisateurs à Microsoft Teams](Manage_user_access_to_Microsoft_Teams.md)
