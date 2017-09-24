@@ -17,6 +17,6 @@ ms.lasthandoff: 09/20/2017
 <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
 ======================================
 
-Espace réservé pour la migration de l'article SOC : https://support.office.com/en-us/article/Guest-access-in-Microsoft-Teams-bd4cdeec-4044-4b4b-9df1-beb139013a3f
+Espace réservé pour la migration de l'article SOC : https://support.office.com/fr-fr/article/Guest-access-in-Microsoft-Teams-bd4cdeec-4044-4b4b-9df1-beb139013a3f
 
 
