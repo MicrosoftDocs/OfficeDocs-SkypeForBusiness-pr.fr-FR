@@ -14,9 +14,9 @@ ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/20/2017
 ---
-<a name="manage-guest-access-in-microsoft-teams"></a><span data-ttu-id="50413-103">Gérer l'accès invité dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="50413-103">Manage guest access in Microsoft Teams</span></span>
+<a name="manage-guest-access-in-microsoft-teams"></a><span data-ttu-id="c8d9a-103">Gérer l'accès invité dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c8d9a-103">Manage guest access in Microsoft Teams</span></span>
 ======================================
 
-<span data-ttu-id="50413-104">Espace réservé pour la migration de l'article SOC : https://support.office.com/en-us/article/Guest-access-in-Microsoft-Teams-bd4cdeec-4044-4b4b-9df1-beb139013a3f</span><span class="sxs-lookup"><span data-stu-id="50413-104">Placeholder for migration of SOC article: https://support.office.com/en-us/article/Guest-access-in-Microsoft-Teams-bd4cdeec-4044-4b4b-9df1-beb139013a3f</span></span>
+<span data-ttu-id="c8d9a-104">Espace réservé pour la migration de l'article SOC : https://support.office.com/fr-fr/article/Guest-access-in-Microsoft-Teams-bd4cdeec-4044-4b4b-9df1-beb139013a3f</span><span class="sxs-lookup"><span data-stu-id="c8d9a-104">Placeholder for migration of SOC article: https://support.office.com/en-us/article/Guest-access-in-Microsoft-Teams-bd4cdeec-4044-4b4b-9df1-beb139013a3f</span></span>
 
 
