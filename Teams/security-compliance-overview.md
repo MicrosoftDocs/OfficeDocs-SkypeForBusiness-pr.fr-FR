@@ -4,26 +4,26 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Ce document présente les fonctionnalités de sécurité et de conformité de Microsoft Teams, notamment les fonctions d'audit, de rapport, de recherche de contenu de conformité, eDiscovery, etc."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f86344671c0a8e2d800540b609afed18ab74d25b
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 3321dee954b9861054886677b2835c689035888c
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
 
 Microsoft Teams est conçu sur le cloud d'entreprise à très grande échelle Office 365, fournissant à nos clients les fonctionnalités de sécurité avancée et de conformité qu'ils attendent.
 
-Microsoft Teams est conforme au niveau C à son lancement. Cela comprend les normes suivantes : ISO 27001, ISO 27018, SSAE16 SOC 1 et SOC 2, HIPAA, et les clauses contractuelles types de l'UE (EUMC). Dans son cadre de conformité, Microsoft classe les applications et services Office 365 en quatre catégories. Chaque catégorie est définie par des conditions de conformité spécifiques qui doivent être satisfaites par tout service Office 365, ou tout service Microsoft associé appartenant à ladite catégorie.
+Teams est conforme au niveau C à son lancement. Cela comprend les normes suivantes : ISO 27001, ISO 27018, SSAE16 SOC 1 et SOC 2, HIPAA, et les clauses contractuelles types de l'UE (EUMC). Dans son cadre de conformité, Microsoft classe les applications et services Office 365 en quatre catégories. Chaque catégorie est définie par des conditions de conformité spécifiques qui doivent être satisfaites par tout service Office 365, ou tout service Microsoft associé appartenant à ladite catégorie.
 
 Les services qui appartiennent aux catégories de conformité C et D, et qui se soumettent à des conditions de conformité applicables au secteur sont activés par défaut. Les services qui appartiennent aux catégories A et B sont dotés de commandes qui permettent leur activation ou désactivation au niveau de toute l'organisation. Pour obtenir plus d'informations, consultez le document sur le [cadre de conformité aux normes et réglementations du secteur](https://go.microsoft.com/fwlink/?linkid=855777). Microsoft Teams prend également en charge la conformité à la Cloud Security Alliance.
 
-Microsoft Teams applique également l'authentification à deux facteurs au niveau de l'équipe et de l'organisation, l'authentification unique via Active Directory et le chiffrement des données en transit ou au repos. Les fichiers sont stockés dans un emplacement SharePoint et protégés par le chiffrement SharePoint. Les notes sont stockées dans un emplacement OneNote et protégées par le chiffrement OneNote.
+Teams applique également l'authentification à deux facteurs au niveau de l'équipe et de l'organisation, l'authentification unique via Active Directory et le chiffrement des données en transit ou au repos. Les fichiers sont stockés dans un emplacement SharePoint et protégés par le chiffrement SharePoint. Les notes sont stockées dans un emplacement OneNote et protégées par le chiffrement OneNote.
 
 Nous avons également ajouté la prise en charge de la recherche dans les journaux d'audit, eDiscovery et la conservation légale pour les canaux, les conversations et les fichiers ainsi que la gestion des applications mobiles avec Microsoft Intune.
 
@@ -41,7 +41,7 @@ Ces outils résident dans le Portail de sécurité et de conformité Office 365
 
     -   La découverte électronique représente l'aspect électronique de l'identification, la collecte et la production d'informations stockées électroniquement (ESI) en réponse à une demande dans le cadre d'une action en justice ou d'une enquête judiciaire.
 
-    -   Les fonctionnalités incluent la gestion des cas, la conservation, la recherche, l'analyse et l'exportation de données Microsoft Teams. Les données comprennent les conversations, la messagerie et les fichiers.
+    -   Les fonctionnalités incluent la gestion des cas, la conservation, la recherche, l'analyse et l'exportation de données Teams. Les données comprennent les conversations, la messagerie et les fichiers.
 
     -   Les clients peuvent utiliser la fonctionnalité eDiscovery en place ou la fonctionnalité [eDiscovery avancée](https://support.office.com/en-us/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)
 
@@ -71,11 +71,10 @@ La figure ci-après présente le flux de travail de données Teams vers Exchange
 ![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 
-| | |
-|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image2.png)<br>Important</br>    |La découverte de contenu Teams peut prendre jusqu'à 24 heures.         |
+> [!IMPORTANT]
+> La découverte de contenu Teams peut prendre jusqu'à 24 heures.
 
-De plus, Microsoft envisage de fournir les fonctionnalités de sécurité suivantes pour Microsoft Teams. Lorsqu'elles seront disponibles, des instructions d'utilisation seront fournies aux clients :
+De plus, Microsoft envisage de fournir les fonctionnalités de sécurité suivantes pour Teams. Lorsqu'elles seront disponibles, des instructions d'utilisation seront fournies aux clients :
 
 -   Stratégie de rétention en fonction du client
 
@@ -120,11 +119,11 @@ La recherche de contenu et eDiscovery ne requièrent pas l'activation dans le Ce
 <a name="location-of-data-in-microsoft-teams"></a>Emplacement des données dans Microsoft Teams
 -----------------------------------
 
-Les données dans Microsoft Teams résident dans la région d'affinité du client. Actuellement, Microsoft Teams prend en charge les régions Amériques, EMEA et APAC. À l'avenir, Microsoft Teams proposera la prise en charge de GoLocal, grâce à laquelle les données resteront dans le pays du client, et pas seulement dans sa région. Restez informé des futures mises à jour grâce à la [*feuille de route Office 365*](https://go.microsoft.com/fwlink/?linkid=855778).
+Les données dans Teams résident dans la région d'affinité du client. Actuellement, Teams prend en charge les régions Amériques, EMEA et APAC. À l'avenir, Teams proposera la prise en charge de GoLocal, grâce à laquelle les données resteront dans le pays du client, et pas seulement dans sa région. Restez informé des futures mises à jour grâce à la [*feuille de route Office 365*](https://go.microsoft.com/fwlink/?linkid=855778).
 
 <a name="privacy-in-microsoft-teams"></a>Confidentialité dans Microsoft Teams
 --------------------------
 
 En tant que client Office 365, vous possédez et contrôlez vos données. Microsoft utilise vos données uniquement pour vous fournir le service auquel vous avez souscrit. En tant que fournisseur de services, nous n'analysons pas vos messages électroniques, vos documents ou vos équipes à des fins publicitaires ou non liées au service. Microsoft n'a pas accès au contenu chargé. Tout comme avec OneDrive Entreprise et SharePoint Online, les données des utilisateurs appartiennent au client.
 
-Obtenez plus d'informations sur la confidentialité et la sécurité dans le [*Centre de gestion de la confidentialité Office 365*](https://go.microsoft.com/fwlink/?linkid=855779). Microsoft Teams suit les mêmes recommandations et principes que le Centre de gestion de la confidentialité.
+Obtenez plus d'informations sur la confidentialité et la sécurité dans le [*Centre de gestion de la confidentialité Office 365*](https://go.microsoft.com/fwlink/?linkid=855779). Teams suit les mêmes recommandations et principes que le Centre de gestion de la confidentialité.

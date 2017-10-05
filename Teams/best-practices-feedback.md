@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Découvrez les méthodes recommandées de demande de commentaires des utilisateurs dans Microsoft Teams pour assurer la meilleure expérience d'équipe possible."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e18661ddc03e0085bdbc502cb2ce9f447d6f27ac
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: d69eadf88d0e102e460ec4c0ae9718dd57296c1c
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Recommandation de méthodes de demande de commentaires des utilisateurs dans Microsoft Teams
 ===========================================================

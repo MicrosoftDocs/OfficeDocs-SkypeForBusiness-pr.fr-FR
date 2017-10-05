@@ -4,17 +4,18 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Découvrez les décisions que vous devez prendre lors de la planification de groupes Office 365, par exemple la création de groupes privés ou publics, l'utilisation du client Teams ou de la console Web d'administration Office 365 et la fourniture d'informations à vos équipes sur l'utilisation des conversations."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 82ca7b83962325437216c5fa832ae4fd06fd0034
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 2f2267542d9b582416c219d01f40e7853ec24ae8
+ms.sourcegitcommit: 1bc2abb2acabe0357d3770284b2710ed9c7f59ee
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/23/2017
 ---
-### <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planifier les groupes Office 365 lors de la création d'équipes dans Microsoft Teams
+<a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planifier les groupes Office 365 lors de la création d'équipes dans Microsoft Teams
+==========================================================
 
 Lors de votre prise de décision sur la création de groupes Office 365 ou d'équipes, tenez compte de l'objectif de la création de l'équipe, des membres qui pourront y accéder et des résultats à obtenir. Soyez particulièrement attentif au nombre de canaux que vous créez, car les membres peuvent se retrouver rapidement dépassés par des informations dispersées dans un nombre excessif de canaux.
 

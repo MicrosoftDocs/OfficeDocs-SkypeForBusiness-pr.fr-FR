@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Découvrez la procédure de configuration d'un déploiement de Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: aed20591afa8a53aad13ee537497aff398b4c24e
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: e582be2aeab3724fa70cc7c2f242538384d0f1c9
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Présentation d'un déploiement de Microsoft Teams
 ========================================
@@ -38,7 +38,7 @@ Voici un exemple de la configuration d'une structure d'équipe / de canal vous p
 
 |Nom de l'équipe |Canaux  |Onglets  |
 |---------|---------|---------|
-|Déploiement des équipes<br></br>Membres :<ul><li>Organisateur du projet</li><li>Analyste commercial</li><li>Gestionnaire de projets</li><li>Professionnel informatique pour la collaboration</li><li>Professionnel informatique pour la mise en réseau</li><li>Responsable de l'adoption </li><li>Responsable du support</li></ul>Propriétaires : <ul><li>Gestionnaire de projets</li><li>Professionnel informatique pour la collaboration</li></ul>      |Planification et préparation<br></br> Adoption<br></br> Lancement<br></br> support<br></br> Aperçus<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Lien ver la page Web du guide pratique de Microsoft Teams ([www.SuccessWithTeams.com](https://go.microsoft.com/fwlink/?linkid=854396)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
+|Déploiement des équipes<br></br>Membres :<ul><li>Organisateur du projet</li><li>Analyste commercial</li><li>Gestionnaire de projets</li><li>Professionnel informatique pour la collaboration</li><li>Professionnel informatique pour la mise en réseau</li><li>Responsable de l'adoption </li><li>Responsable du support</li></ul>Propriétaires : <ul><li>Gestionnaire de projets</li><li>Professionnel informatique pour la collaboration</li></ul>      |Planification et préparation<br></br> Adoption<br></br> Lancement<br></br> support<br></br> Aperçus<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Lien ver la page Web du guide pratique de Microsoft Teams ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
 
 Cette configuration se présenterait comme suit dans Microsoft Teams :
 
@@ -53,4 +53,4 @@ Cette configuration se présenterait comme suit dans Microsoft Teams :
 
  
 
-*Pour effectuer le suivi de ces points de décision, n'hésitez pas à télécharger le résumé des points de décision.*
+*Pour effectuer le suivi de ces points de décision, n'hésitez pas à télécharger le [résumé des points de décision](https://www.microsoft.com/en-us/download/55981).*

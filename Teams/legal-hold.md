@@ -6,18 +6,18 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Découvrez comment placer un utilisateur ou une équipe Microsoft Teams en conservation légale à l'aide du portail de sécurité et de conformité et quels sont les éléments nécessaires à une conservation légale en fonction des données requises."
+description: "Découvrez comment placer un utilisateur ou une équipe Microsoft Teams en conservation légale à l'aide du Centre de sécurité et de conformité et quels sont les éléments nécessaires à une conservation légale en fonction des données requises."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 473454728abbb588638185d5004219cf90cad302
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 694a24127dfb366c0b0dac62624cb4baf175eb66
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
 ==================================================
 
-Pour placer un utilisateur ou une équipe en conservation légale, accédez au [Portail de sécurité et de conformité](https://go.microsoft.com/fwlink/?linkid=854628). Lors de la création d'un cas, l'option permettant de placer des boîtes aux lettres ou des sites en conservation vous est présentée.
+Pour placer un utilisateur ou une équipe en conservation légale, accédez au [Centre de sécurité et de conformité](https://go.microsoft.com/fwlink/?linkid=854628). Lors de la création d'un cas, l'option permettant de placer des boîtes aux lettres ou des sites en conservation vous est présentée.
 
 |||
 |---------|---------|

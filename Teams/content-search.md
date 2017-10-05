@@ -4,22 +4,22 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: tutorial
+ms.topic: article
 ms.service: msteams
 description: "Découvrez la recherche de contenu dans Microsoft Teams et comment effectuer des recherches dans les conversations de canal dans Exchange, les chargements/modifications de fichier dans SharePoint, et OneNote également."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1da6cb82c1e88ed1517ad16109cbc4c126aa2f1c
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 39f293f7ffd754fbb22271685859f81c10df5b06
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Utilisation de la recherche de contenu dans Microsoft Teams
 =====================================
 
-La recherche de contenu fournit une méthode ad hoc pour interroger les informations Microsoft Teams à partir d'Exchange, SharePoint et OneDrive Entreprise.
+La recherche de contenu fournit une méthode ad hoc pour interroger les informations Microsoft Teams à partir d'Exchange, SharePoint Online et OneDrive Entreprise.
 
-Dans l'exemple ci-après, nous avons créé une **recherche de contenu**. Puis, nous avons sélectionné la boîte aux lettres Manufacturing Specs et le site SharePoint Manufacturing Specs. Nous pouvons ainsi effectuer des recherches dans les conversations de canal dans Exchange, les chargements/modifications de fichier dans SharePoint, et OneNote également.
+Dans l'exemple ci-après, nous avons créé une **recherche de contenu**. Puis, nous avons sélectionné la boîte aux lettres Manufacturing Specs et le site SharePoint Manufacturing Specs. Nous pouvons ainsi effectuer des recherches dans les conversations de canal dans Exchange, les chargements/modifications de fichier dans SharePoint Online, et OneNote également.
 
 ![](media/Use_Content_Search_in_Microsoft_Teams_image1.png)
 

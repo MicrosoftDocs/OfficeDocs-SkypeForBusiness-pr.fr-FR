@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Découvrez comment élaborer une stratégie de gestion des modifications pour Microsoft Teams par le biais de l'identification de vos intervenants clés, des objectifs de l'entreprise, des mesures de réussite et la gestion de votre campagne."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 27786cf97a7fa7b53c77594a108f89b6cfb2ce48
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 97f835f60777b5c6c907790fabc76dfaeeb1e268
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Élaborer une stratégie de gestion des modifications pour Microsoft Teams
 =======================================================
