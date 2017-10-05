@@ -4,27 +4,27 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: tutorial
+ms.topic: article
 ms.service: msteams
 description: "Découvrez la recherche de contenu dans Microsoft Teams et comment effectuer des recherches dans les conversations de canal dans Exchange, les chargements/modifications de fichier dans SharePoint, et OneNote également."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1da6cb82c1e88ed1517ad16109cbc4c126aa2f1c
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 39f293f7ffd754fbb22271685859f81c10df5b06
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
-<a name="use-content-search-in-microsoft-teams"></a><span data-ttu-id="c2f59-103">Utilisation de la recherche de contenu dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c2f59-103">Use Content Search in Microsoft Teams</span></span>
+<a name="use-content-search-in-microsoft-teams"></a><span data-ttu-id="b4e2c-103">Utilisation de la recherche de contenu dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="b4e2c-103">Use Content Search in Microsoft Teams</span></span>
 =====================================
 
-<span data-ttu-id="c2f59-104">La recherche de contenu fournit une méthode ad hoc pour interroger les informations Microsoft Teams à partir d'Exchange, SharePoint et OneDrive Entreprise.</span><span class="sxs-lookup"><span data-stu-id="c2f59-104">Content Search provides an ad-hoc way to query Microsoft Teams information spanning Exchange, SharePoint and OneDrive for Business.</span></span>
+<span data-ttu-id="b4e2c-104">La recherche de contenu fournit une méthode ad hoc pour interroger les informations Microsoft Teams à partir d'Exchange, SharePoint Online et OneDrive Entreprise.</span><span class="sxs-lookup"><span data-stu-id="b4e2c-104">Content Search provides an ad-hoc way to query Microsoft Teams information spanning Exchange, SharePoint and OneDrive for Business.</span></span>
 
-<span data-ttu-id="c2f59-p101">Dans l'exemple ci-après, nous avons créé une **recherche de contenu**. Puis, nous avons sélectionné la boîte aux lettres Manufacturing Specs et le site SharePoint Manufacturing Specs. Nous pouvons ainsi effectuer des recherches dans les conversations de canal dans Exchange, les chargements/modifications de fichier dans SharePoint, et OneNote également.</span><span class="sxs-lookup"><span data-stu-id="c2f59-p101">In the example below, we created a new **Content Search**. Then, we selected the Manufacturing Specs mailbox and Manufacturing Specs SharePoint site. This allows us to search against Channel chats from Exchange, File uploads/modifications from SharePoint and OneNote changes as well.</span></span>
+<span data-ttu-id="b4e2c-p101">Dans l'exemple ci-après, nous avons créé une **recherche de contenu**. Puis, nous avons sélectionné la boîte aux lettres Manufacturing Specs et le site SharePoint Manufacturing Specs. Nous pouvons ainsi effectuer des recherches dans les conversations de canal dans Exchange, les chargements/modifications de fichier dans SharePoint Online, et OneNote également.</span><span class="sxs-lookup"><span data-stu-id="b4e2c-p101">In the example below, we created a new **Content Search**. Then, we selected the Manufacturing Specs mailbox and Manufacturing Specs SharePoint site. This allows us to search against Channel chats from Exchange, File uploads/modifications from SharePoint and OneNote changes as well.</span></span>
 
 ![](media/Use_Content_Search_in_Microsoft_Teams_image1.png)
 
-<span data-ttu-id="c2f59-p102">Vous pouvez également ajouter des critères d'interrogation à la **recherche de contenu** pour affiner les résultats renvoyés. Dans l'exemple ci-dessous, nous avons recherché des emplacements Exchange et SharePoint pour l'équipe Manufacturing Specs team dans lesquels les mots clés **New Factory Specs** ont été utilisés.</span><span class="sxs-lookup"><span data-stu-id="c2f59-p102">You can also add query criteria to the **Content Search** to narrow down the results returned. For example, below we wanted to search both Exchange and SharePoint locations for the Manufacturing Specs team to look for content where the keywords “**New Factory Specs”** were used.</span></span>
+<span data-ttu-id="b4e2c-p102">Vous pouvez également ajouter des critères d'interrogation à la **recherche de contenu** pour affiner les résultats renvoyés. Dans l'exemple ci-dessous, nous avons recherché des emplacements Exchange et SharePoint pour l'équipe Manufacturing Specs team dans lesquels les mots clés **New Factory Specs** ont été utilisés.</span><span class="sxs-lookup"><span data-stu-id="b4e2c-p102">You can also add query criteria to the **Content Search** to narrow down the results returned. For example, below we wanted to search both Exchange and SharePoint locations for the Manufacturing Specs team to look for content where the keywords “**New Factory Specs”** were used.</span></span>
 
 ![](media/Use_Content_Search_in_Microsoft_Teams_image2.png)
 
-<span data-ttu-id="c2f59-p103">Après avoir sélectionné des conditions de recherche, vous pouvez exporter un rapport ou les données vers votre ordinateur à des fins d'analyse. Pour plus d'informations sur l'utilisation de la recherche de contenu, consultez [ce](https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a?ui=en-US&rs=en-US&ad=US&fromAR=1) lien.</span><span class="sxs-lookup"><span data-stu-id="c2f59-p103">After adding search conditions should you choose to, you can then export a report or the data to your computer for analysis. For more information on how to use Content Search, review [this](https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a?ui=en-US&rs=en-US&ad=US&fromAR=1) link.</span></span>
+<span data-ttu-id="b4e2c-p103">Après avoir sélectionné des conditions de recherche, vous pouvez exporter un rapport ou les données vers votre ordinateur à des fins d'analyse. Pour plus d'informations sur l'utilisation de la recherche de contenu, consultez [ce](https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a?ui=en-US&rs=en-US&ad=US&fromAR=1) lien.</span><span class="sxs-lookup"><span data-stu-id="b4e2c-p103">After adding search conditions should you choose to, you can then export a report or the data to your computer for analysis. For more information on how to use Content Search, review [this](https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a?ui=en-US&rs=en-US&ad=US&fromAR=1) link.</span></span>
