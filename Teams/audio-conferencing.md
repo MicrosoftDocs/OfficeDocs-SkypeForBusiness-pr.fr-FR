@@ -609,7 +609,7 @@ Après avoir vérifié l’admissibilité de votre organisation à obtenir le se
 </tr>
 <tr class="even">
 <td align="left">100 Cyberport Road</td>
-<td align="left">RAS de Hong Kong</td>
+<td align="left">Hong Kong R.A.S.</td>
 <td align="left">Conférence PSTN héritée</td>
 </tr>
 <tr class="odd">
@@ -880,7 +880,7 @@ Pour les utilisateurs à qui une licence d’audioconférence a été attribuée
 
 -   des numéros de pont de téléconférence définis manuellement pour chaque utilisateur.
 
-Des numéros de pont de téléconférence spécifiques aux utilisateurs sont généralement utiles dans les organisations mondiales ou à l’échelle du pays où les utilisateurs sont distribués et doivent fournir des numéros locaux comme numéros de pont de téléconférence par défaut dans les invitations aux réunions.
+Des numéros de pont de téléconférence spécifiques aux utilisateurs sont généralement utiles dans les organisations mondiales ou à l'échelle du pays ou de la région où les utilisateurs sont distribués et doivent fournir des numéros locaux comme numéros de pont de téléconférence par défaut dans les invitations aux réunions.
 
 Les participants qui rejoignent les réunions depuis des villes ou pays différents peuvent rechercher les numéros supplémentaires configurés au niveau du client, mais ces numéros n’apparaissent pas dans les invitations aux réunions. Les invitations aux réunions fournissent un lien qui dirige les participants vers la page des numéros à composer pour la conférence Teams afin qui leur permet de rechercher les numéros de pont de téléconférence les plus proches disponibles pour leur emplacement.
 
@@ -1078,7 +1078,7 @@ _Tableau 12 - exemple d’affectations de paramètres de pont de téléconfére
 
 Un [Plan de numérotation](https://support.office.com/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b), une fonctionnalité de système téléphonique d’Office 365, est un ensemble de règles de normalisation qui convertit les numéros de téléphone composés dans un autre format (généralement le format [E.164](https://go.microsoft.com/fwlink/?linkid=859014)) pour l’autorisation et le routage des appels. Le service d’audioconférence utilise les mêmes fonctionnalités que le système téléphonique pour convertir les numéros de téléphone en scénarios de numéros composés depuis la conférence.
 
-Un plan de numérotation permet aux utilisateurs de composer des numéros de téléphone comme ils le font habituellement, par exemple en omettant l’indicatif régional pour les appels locaux, l’indicatif du pays pour les appels nationaux ou même en composant un numéro court lorsqu’ils passent un appel depuis une conférence.
+Un plan de numérotation permet aux utilisateurs de composer des numéros de téléphone comme ils le font habituellement, par exemple en omettant l'indicatif régional pour les appels locaux, l'indicatif du pays ou de la région pour les appels nationaux ou même en composant un numéro court lorsqu'ils passent un appel depuis une conférence.
 
 La fonctionnalité de système téléphonique d’Office 365 comporte deux types de plans de numérotation :
 

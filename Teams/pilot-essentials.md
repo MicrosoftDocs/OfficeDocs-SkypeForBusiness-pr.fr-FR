@@ -192,7 +192,7 @@ En fonction de vos conclusions, nous vous recommandons quelques voies que votre 
 <li>Intégrité réseau satisfaisante</li></ul></td>
 <td align="left"><p>Déploiement de Teams et Skype Entreprise côte à côte pour certains/tous les scénarios disponibles. Pour faciliter la courbe d'apprentissage, nous conseillons vivement de déployer les fonctionnalités progressivement, non de manière simultanée.</p>
 <p>Pour en savoir plus sur l'[exécution côte à côte de Skype Entreprise et Teams](guidance-SkypeforBusiness.md) :</p>
-<p>téléchargez les <a href="https://go.microsoft.com/fwlink/?linkid=859044">modèles de préparation des utilisateurs</a> pour simplifier la communication avec vos utilisateurs finaux concernant leur nouvelle expérience d'utilisation conjointe.</p></td>
+<p>téléchargez les <a href="https://go.microsoft.com/fwlink/?linkid=859044">modèles de préparation des utilisateurs</a> pour simplifier la communication avec vos utilisateurs finaux concernant leur nouvelle expérience d'utilisation côte à côte.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><ul><li>Au moins 80 % des utilisateurs conviennent que Teams peut remplacer Skype Entreprise sur la base des cas d'utilisation et scénarios</li>
@@ -200,7 +200,7 @@ En fonction de vos conclusions, nous vous recommandons quelques voies que votre 
 <li>Intégrité réseau satisfaisante</li></ul></td>
 <td align="left"><p>Déploiement côte à côte de Teams et Skype Entreprise pour tous les scénarios, encourager les utilisateurs à privilégier Teams lorsque cela est possible. En outre, contactez votre équipe des comptes ou le Support Microsoft pour les informer de la préparation de votre organisation au passage à Teams.</p>
 <p>Pour en savoir plus sur l'[exécution côte à côte de Skype Entreprise et Teams](guidance-SkypeforBusiness.md) :</p>
-<p>téléchargez les <a href="https://go.microsoft.com/fwlink/?linkid=859044">modèles de préparation des utilisateurs</a> pour simplifier la communication avec vos utilisateurs concernant leur nouvelle expérience d'utilisation conjointe.</p></td>
+<p>téléchargez les <a href="https://go.microsoft.com/fwlink/?linkid=859044">modèles de préparation des utilisateurs</a> pour simplifier la communication avec vos utilisateurs concernant leur nouvelle expérience d'utilisation côte à côte.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><ul><li>moins de 80 % des participants conviennent que Teams peut être utilisé avec Skype Entreprise</li>
