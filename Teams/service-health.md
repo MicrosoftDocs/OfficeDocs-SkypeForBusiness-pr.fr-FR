@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Il est recommandé de vérifier l'intégrité du service Teams ainsi que d'autres composants Office 365 tels que Exchange, SharePoint, et OneDrive Entreprise."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 807fec0c7f5b076f07ffb365ef650930f9263408
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 20f3fe0a33d8f3e2b527094dd53532a06379d979
+ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/28/2017
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Vérifier l'intégrité du service pour Microsoft Teams
 ===========================================

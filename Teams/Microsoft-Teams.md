@@ -3,11 +3,11 @@ layout: HubPage
 hide_bc: True
 title: "Documentation de Microsoft Teams et guide pratique"
 description: "Documentation de Microsoft Teams et guide pratique"
-ms.openlocfilehash: 2771d9223db2b695ca4bc985e39830545e02652e
-ms.sourcegitcommit: 1bc2abb2acabe0357d3770284b2710ed9c7f59ee
+ms.openlocfilehash: 8de4d4b699a2d82bff424557e1746e1c1c9b80c5
+ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2017
+ms.lasthandoff: 09/28/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://fasttrack.microsoft.com/office">
+                                <a href="http://skypeandteams.fasttrack.microsoft.com/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -88,7 +88,7 @@ ms.lasthandoff: 09/23/2017
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Déploiement de la fonctionnalité vocale cloud</h3>
-                                                    <p>Configurer vos systèmes téléphoniques, plans d’appels et l’audioconférence dans Teams</p>
+                                                    <p>Configurer l'audioconférence dans Teams</p>
                                                 </div>
                                             </div>
                                         </div>

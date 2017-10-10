@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Guide pratique pour le déploiement de l’audioconférence dans Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: cf50e6468bdf4fc96419d39fbc889c5b5a220a8d
-ms.sourcegitcommit: e0efee5350da54a1f1ae1c317f8613652c820bc6
+ms.openlocfilehash: 5442f5bf11540f5429566bc683afaeb3a24ff4ac
+ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2017
+ms.lasthandoff: 09/28/2017
 ---
 <a name="audio-conferencing-in-microsoft-teams"></a>Audioconférence dans Microsoft Teams
 =====================================
@@ -20,7 +20,7 @@ ms.lasthandoff: 09/25/2017
 > [!IMPORTANT]
 > L’audioconférence est en préversion publique. Elle est disponible pour les utilisateurs précoces et les utilisateurs de la préversion et est susceptible d’être modifiée lors de sa publication ou mise à jour.
 
-L’audioconférence dans Office 365 (appelée auparavant Conférence PSTN) permet aux participants de rejoindre vos réunions depuis n’importe quel téléphone. Cette fonction est maintenant disponible dans Microsoft Teams, et permet aux utilisateurs de rejoindre des réunions Teams en utilisant leurs téléphones. Le guide pratique dans cet article vous dirige étape par étape à travers le parcours du client FastTrack Office 365 pour l’audioconférence : planifier, intégrer et générer une valeur ajoutée.
+L’audioconférence dans Office 365 (appelée auparavant Conférence PSTN) permet aux participants de rejoindre vos réunions depuis n’importe quel téléphone. Cette fonction est maintenant disponible dans Microsoft Teams, en préversion publique, et permet aux utilisateurs de rejoindre des réunions Teams en utilisant leurs téléphones. Le guide pratique dans cet article vous dirige étape par étape à travers le parcours du client FastTrack Office 365 pour l’audioconférence : planifier, intégrer et générer une valeur ajoutée.
 
 Voici les avantages de [l’audioconférence](https://go.microsoft.com/fwlink/?linkid=858992) dans Office 365.
 
@@ -754,7 +754,7 @@ _Tableau 8 - exemple de liste d’attributions de licences pour les organisateu
 <thead>
 <tr class="header">
 <th align="left">Montant déclencheur</th>
-<td align="left">400 $</td>
+<td align="left">400 $</td>
 </tr>
 <tr class="header">
 <th align="left">Montant de la recharge automatique</th>

@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 description: "Forum aux questions sur le passage de Skype Entreprise à Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 459f4971b1727cc777f1acfd5748a10dd36658ed
-ms.sourcegitcommit: 2c4e56908f2ba5ce9c99e6cb6867961e08b2daf8
+ms.openlocfilehash: 11b01e3ad0797f697775b3459d9925527baec856
+ms.sourcegitcommit: 769d817c2d487ea8b5f4339acef21d5f1ff137d3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2017
+ms.lasthandoff: 10/04/2017
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>FAQ - Transition de Skype Entreprise à Microsoft Teams
 ==========================================================
 
-<a name="uc-vision"></a>Vision concernant les UC
----------
+<a name="intelligent-communications-vision"></a>Vision des communications intelligentes
+----------------------------------
 
 ### <a name="what-is-microsofts-new-vision-for-intelligent-communications-aka-unified-communications-vision"></a>Quelle est la nouvelle vision des Communications intelligentes (également appelée vision des Communications unifiées) ? 
 
@@ -114,9 +114,7 @@ Les périphériques de salle de réunion sont essentiels à notre approche d'esp
 
 ### <a name="will-the-latest-generation-of-skype-room-systems-support-meetings-in-teams"></a>La dernière génération de la solution Skype Room Systems prendra-t-elle en charge les réunions dans Teams ?
 
-Les périphériques de salle de réunion sont essentiels à notre approche d'espace de travail moderne et nous maintenons cette lancée avec Skype Room Systems. À Ignite, Lenovo a annoncé
-
-la prise en charge des réunions dans Teams par Skype Rooms Systems. Initialement, la solution Skype Room Systems prendra en charge la participation aux réunions en un simple clic ainsi que la plupart des fonctionnalités Skype Room Systems, excepté la prise en charge du double écran et les périphériques vidéo panoramiques. Les doubles écrans et périphériques panoramiques feront l'objet de publications ultérieures.
+Les périphériques de salle de réunion sont essentiels à notre approche d'espace de travail moderne et nous maintenons cette lancée avec Skype Room Systems. Initialement, la solution Skype Room Systems prendra en charge la participation aux réunions en un simple clic ainsi que la plupart des fonctionnalités Skype Room Systems, excepté la prise en charge du double écran et les périphériques vidéo panoramiques. Les doubles écrans et périphériques panoramiques feront l'objet de publications ultérieures.
 
 ### <a name="will-skype-room-systems-v1-be-updated-to-support-microsoft-teams-meetings"></a>La version V1 de Skype Room Systems sera-t-elle mise à jour pour prendre en charge les réunions Microsoft Teams ? 
 
@@ -126,3 +124,6 @@ Les périphériques de salle de réunion sont essentiels à notre approche d'esp
 
 Microsoft prévoit de lancer un nouveau portail d'administration destiné aux professionnels informatiques qui sera disponible dans le Centre d'administration d'Office 365. Tout comme la Console d'administration Skype Entreprise, ce nouveau portail constituera un emplacement unique pour gérer nos nouvelles expériences. La version initiale du portail, prévue pour début 2018, est conçue pour prendre en charge l'administration par le biais d'un modèle de stratégie adapté aux entreprises pour les utilisateurs de Teams uniquement, et remplacera l'interface d'administration actuelle de Teams. Grâce à ce portail, nous pourrons créer des stratégies de présence personnalisée, de conversation, d'application, de réunion et vocale et les affecter aux utilisateurs de Teams. 
 
+### <a name="can-i-use-microsoft-teams-on-surface-hub"></a>Puis-je utiliser Microsoft Teams sur Surface Hub ?
+
+Désormais, de nombreuses options de Teams fonctionnent sur Surface Hub depuis le navigateur Edge. Connectez-vous depuis l'écran d'accueil de votre Surface Hub, ouvrez Edge, puis saisissez **teams.microsoft.com** pour accéder à vos équipes, vos canaux, vos conversations et vos réunions. Surface Hub prend en charge les réunions Teams et nous nous réjouissons de partager avec vous d'autres informations relatives à des options intégrées de Teams supplémentaires disponibles sur Surface Hub.   

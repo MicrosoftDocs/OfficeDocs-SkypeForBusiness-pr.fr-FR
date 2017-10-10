@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Guide d’utilisation de Skype Entreprise et Microsoft Teams côte à côte"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ee7c44bcfe2e451684f4cd9ce6402d8781dc6535
-ms.sourcegitcommit: e0efee5350da54a1f1ae1c317f8613652c820bc6
+ms.openlocfilehash: 760fa47db7965e0c2a74b01ae25f1d23d37d3180
+ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2017
+ms.lasthandoff: 09/28/2017
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Activer Microsoft Teams côte à côte avec Skype Entreprise 
 =============================================================
@@ -223,7 +223,7 @@ Une phase pilote réussie de Teams pour la collaboration et la conversation priv
 <tr class="header">
 <td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
 <p>Remarque</p></td>
-<td align="left">Pendant la phase pilote, et pendant la phase deux lorsque la conversation privée est activée, un utilisateur de Teams qui discute avec un utilisateur de Skype Entreprise ne pourra pas effectuer les opérations suivantes :<br><br>
+<td align="left">Pendant la phase pilote, et pendant la phase deux lorsque la conversation privée est activée, un utilisateur de Teams qui discute avec un utilisateur de Skype Entreprise ne pourra pas effectuer les opérations suivantes :<br>
 - Lancer un appel vidéo à partir d'une session de conversation<br>
 - Transférer des fichiers <br>
 - Lancer un appel de groupe à partir de la session de conversation<br>

@@ -8,42 +8,41 @@ ms.topic: article
 ms.service: msteams
 description: "L'accès invité dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes extérieures en leur accordant l'accès aux équipes et aux canaux."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e8cce3faa65de9c0cbd5ffdbb4cb4a6f43a1229d
-ms.sourcegitcommit: 1bc2abb2acabe0357d3770284b2710ed9c7f59ee
+ms.openlocfilehash: f440e1d67166931365a24cb18e855a179fc532ef
+ms.sourcegitcommit: 34abc255257716ab135e8eda7b07f8abb55a6bc7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2017
+ms.lasthandoff: 10/02/2017
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
 ======================================
 
-
-# <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 
 L'accès invité dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes extérieures en leur accordant l'accès aux équipes et aux canaux. Un invité est une personne qui n'est ni un employé, ni un étudiant ni un membre de votre organisation. Il ne dispose pas d'aucun compte scolaire ni professionnel lié à votre organisation. Il peut par exemple s'agir de partenaires, sous-traitants, fournisseurs ou consultants.
   
     
     
 
-Les organisations qui utilisent Microsoft Teams peuvent fournir à leurs partenaires un accès externe aux équipes, documents dans les canaux, ressources, conversations et applications, tout en conservant le contrôle total de leurs propres données d'entreprise.
-Microsoft Teams est basé sur les groupes Office 365 et offre un nouveau moyen pour accéder aux ressources partagées d'un groupe Office 365. Microsoft Teams est la meilleure solution de conversation permanente parmi les membres d'un groupe ou d'une équipe. Les groupes Office 365 sont un service disponible sous la forme d'un abonnement inter-applications qui donne accès à un ensemble de ressources partagées, telles qu'un site SharePoint ou un tableau de bord Power BI, pour permettre à l'équipe de collaborer efficacement et en toute sécurité.
+Les organisations qui utilisent Teams peuvent fournir à leurs partenaires un accès externe aux équipes, documents dans les canaux, ressources, conversations et applications, tout en conservant le contrôle total de leurs propres données d'entreprise.
+
+Teams est basé sur les groupes Office 365 et offre un nouveau moyen pour accéder aux ressources partagées d'un groupe Office 365. Teams est la meilleure solution de conversation permanente parmi les membres d'un groupe ou d'une équipe. Les groupes Office 365 sont un service disponible sous la forme d'un abonnement inter-applications qui donne accès à un ensemble de ressources partagées, telles qu'un site SharePoint ou un tableau de bord Power BI, pour permettre à l'équipe de collaborer efficacement et en toute sécurité.
   
     
     
 
-### <a name="how-a-guest-joins-a-team"></a>Comment un invité rejoint une équipe
+## <a name="how-a-guest-joins-a-team"></a>Comment un invité rejoint une équipe
 
 
   
     
     
-Dans Microsoft Teams, le propriétaire d'une équipe peut ajouter et gérer des invités dans ses équipes via le client Web ou de bureau. Seuls les utilisateurs disposant d'une adresse de messagerie correspondant à un compte scolaire ou professionnel Azure Active Directory ou Office 365 peuvent être ajoutés en tant qu'utilisateurs invités.
+Dans Teams, le propriétaire d'une équipe peut ajouter et gérer des invités dans ses équipes via le client Web ou de bureau. Seuls les utilisateurs disposant d'une adresse de messagerie correspondant à un compte scolaire ou professionnel Azure Active Directory ou Office 365 peuvent être ajoutés en tant qu'utilisateurs invités.
   
     
     
 
 > [!NOTE]
-> Pour permettre aux invités de rejoindre une équipe, l'administrateur doit d'abord activer l'accès invité dans Microsoft Teams. Pour cela, [connectez-vous à ](https://portal.office.com/adminportal/home) à l'aide de votre compte d'administrateur global Office 365. Puis, sélectionnez **Paramètres** > **Services &amp; compléments** > **Microsoft Teams**. Sélectionnez **Invité** sous la section **Sélectionnez le type d'utilisateur/licence que vous souhaitez configurer**, puis sélectionnez **Activé** sous la section **Activer/désactiver Microsoft Teams pour tous les utilisateurs de ce type**. L'application des paramètres peut prendre jusqu'à une heure. Pour plus d'informations, reportez-vous à la section « Activer ou désactiver l'accès invité de Microsoft Teams » dans l'onglet Gérer de cet article. 
+> Pour permettre aux invités de rejoindre une équipe, l'administrateur doit d'abord activer l'accès invité dans Teams. Pour cela, [connectez-vous à ](https://portal.office.com/adminportal/home) à l'aide de votre compte d'administrateur global Office 365. Puis, sélectionnez **Paramètres** > **Services &amp; compléments** > **Microsoft Teams**. Sélectionnez **Invité** sous la section **Sélectionnez le type d'utilisateur/licence que vous souhaitez configurer**, puis sélectionnez **Activé** sous la section **Activer/désactiver Microsoft Teams pour tous les utilisateurs de ce type**. L'application des paramètres peut prendre jusqu'à une heure. Pour plus d'informations, reportez-vous à la section « Activer ou désactiver l'accès invité de Microsoft Teams » dans l'onglet Gérer de cet article. 
   
     
     
@@ -59,10 +58,10 @@ Voici comment un invité devient membre d'une équipe :
 - **Étape 2** L'administrateur d'Office 365 ou le propriétaire de l'équipe peut gérer les fonctionnalités requises pour l'invité. Par exemple, il peut l'autoriser à ajouter ou supprimer des canaux, ou désactiver son accès aux fichiers.
     
   
-- **Étape 3** L'invité reçoit un e-mail de bienvenue du propriétaire de l'équipe, l'invitant à rejoindre l'équipe. Après avoir accepté l'invitation, l'invité peut [participer à l'équipe et aux canaux](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), recevoir des messages des canaux et y répondre, [accéder aux fichiers dans les canaux](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), et participer aux conversations. Lors de l'utilisation de Microsoft Teams, une combinaison de texte et d'icônes donne à tous les membres de l'équipe une indication claire de la participation des invités dans une équipe Pour plus d'informations, consultez la rubrique [À quoi ressemble l'expérience des invités](#guestexp).
+- **Étape 3** L'invité reçoit un e-mail de bienvenue du propriétaire de l'équipe, l'invitant à rejoindre l'équipe. Après avoir accepté l'invitation, l'invité peut [participer à l'équipe et aux canaux](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), recevoir des messages des canaux et y répondre, [accéder aux fichiers dans les canaux](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), et participer aux conversations. Lors de l'utilisation de Teams, une combinaison de texte et d'icônes donne à tous les membres de l'équipe une indication claire de la participation des invités dans une équipe Pour plus d'informations, consultez la rubrique [À quoi ressemble l'expérience des invités](#guestexp).
     
   
-Les invités peuvent quitter l'équipe à tout moment via les clients Web ou de bureau Microsoft Teams. Pour plus d'informations, reportez-vous à l'article [Comment quitter une équipe ?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
+Les invités peuvent quitter l'équipe à tout moment via les clients Web ou de bureau Teams. Pour plus d'informations, reportez-vous à l'article [Comment quitter une équipe ?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
   
     
     
@@ -74,7 +73,7 @@ Les invités peuvent quitter l'équipe à tout moment via les clients Web ou de 
     
 
 <a name="guestexp"></a>
-### <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
+## <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 
 Lorsqu'un invité est convié à rejoindre une équipe, il reçoit un e-mail de bienvenue incluant des informations sur l'équipe et sur les activités à venir maintenant qu'il est membre. Pour pouvoir accéder à l'équipe et à ses canaux, il doit au préalable valider l'invitation dans l'e-mail.
   
@@ -108,7 +107,6 @@ Le tableau suivant compare la fonctionnalité de Microsoft Teams disponible pou
 
 |**Fonctionnalité dans Teams**|**Utilisateur de Teams dans l'organisation**|**Utilisateur invité**|
 |:-----|:-----|:-----|
-||||
 |Créer un canal  <br/>  *Les propriétaires d'équipe contrôlent ce paramètre.*  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |Participer à une conversation privée  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |Participer à une conversation dans un canal  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
@@ -128,36 +126,36 @@ Le tableau suivant compare la fonctionnalité de Microsoft Teams disponible pou
 > Les administrateurs d'Office 365 contrôlent les fonctionnalités disponibles pour les invités. 
   
     
-###<a name="manage-guests"></a>Gérer les invités
+## <a name="manage-guests"></a>Gérer les invités
 
 
 L'accès invité est fourni avec tous les abonnements Office 365 Business Premium, Office 365 Entreprise et Office 365 Education. Aucune licence Office 365 supplémentaire n'est requise.
   
     
     
-L'accès invité de Microsoft Teams est un paramètre de niveau client et est désactivé par défaut. Les administrateurs peuvent gérer l'accès invité via le centre d'administration d'Office 365. Pour plus d'informations, reportez-vous aux rubriques [Gérer l'accès invité à Microsoft Teams](#manageguest) et [Contrôler l'accès invité à Microsoft Teams](#controlguest).
+L'accès invité de Teams est un paramètre de niveau client et est désactivé par défaut. Les administrateurs peuvent gérer l'accès invité via le centre d'administration d'Office 365. Pour plus d'informations, reportez-vous aux rubriques [Gérer l'accès invité à Microsoft Teams](#manageguest) et [Contrôler l'accès invité à Microsoft Teams](#controlguest).
   
     
     
 
 > [!NOTE]
-> Le paramètre client de l'accès invité Microsoft Teams empêche uniquement les invités de se connecter. Les propriétaires d'équipe pourront convier d'autres invités et ajouter les utilisateurs invités du répertoire existant dans leurs équipes respectives. Pour rappel, Microsoft Teams respecte toujours les paramètres externes Azure Active Directory pour permettre ou empêcher l'ajout d'utilisateurs invités au client. 
+> Le paramètre client de l'accès invité Teams empêche uniquement les invités de se connecter. Les propriétaires d'équipe pourront convier d'autres invités et ajouter les utilisateurs invités du répertoire existant dans leurs équipes respectives. Pour rappel, Teams respecte toujours les paramètres externes Azure Active Directory pour permettre ou empêcher l'ajout d'utilisateurs invités au client. 
   
     
     
 
-Vous pouvez également utiliser le portail Azure Active Directory pour gérer les invités et leur accès aux ressources Office 365 et Microsoft Teams. L'accès invité Microsoft Teams utilise les fonctionnalités de collaboration entre entreprises (B2B) d'Azure Active Directory comme infrastructure sous-jacente pour stocker les informations relatives aux principes de sécurité telles que les propriétés d'identité, l'appartenance à un groupe et les paramètres d'authentification multifacteur. Pour en savoir plus sur Azure Active Directory B2B, reportez-vous aux rubriques [Qu'est-ce que Azure AD B2B Collaboration ?](https://go.microsoft.com/fwlink/p/?linkid=853011) et [Forums aux questions sur Azure Active Directory B2B Collaboration](https://go.microsoft.com/fwlink/p/?linkid=853020).
+Vous pouvez également utiliser le portail Azure Active Directory pour gérer les invités et leur accès aux ressources Office 365 et Teams. L'accès invité Teams utilise les fonctionnalités de collaboration entre entreprises (B2B) d'Azure Active Directory comme infrastructure sous-jacente pour stocker les informations relatives aux principes de sécurité telles que les propriétés d'identité, l'appartenance à un groupe et les paramètres d'authentification multifacteur. Pour en savoir plus sur Azure Active Directory B2B, reportez-vous aux rubriques [Qu'est-ce que Azure AD B2B Collaboration ?](https://go.microsoft.com/fwlink/p/?linkid=853011) et [Forums aux questions sur Azure Active Directory B2B Collaboration](https://go.microsoft.com/fwlink/p/?linkid=853020).
   
     
     
 
 #### <a name="related-key-services-and-dependencies"></a>Services clés associés et dépendances
 
-Microsoft Teams repose sur SharePoint Online et OneDrive Entreprise pour stocker les fichiers et les documents des canaux et des conversations. De plus, Microsoft Teams s'appuie sur les groupes Office 365 pour stocker les appartenances aux équipes et les autres propriétés telles que les paramètres de classification des données des équipes.
+Teams repose sur SharePoint Online et OneDrive Entreprise pour stocker les fichiers et les documents des canaux et des conversations. De plus, Teams s'appuie sur les groupes Office 365 pour stocker les appartenances aux équipes et les autres propriétés telles que les paramètres de classification des données des équipes.
   
     
     
-Pour activer l'expérience complète de l'accès invité Microsoft Teams, les administrateurs d'Office 365 doivent sélectionner **Activé** pour les paramètres suivants :
+Pour activer l'expérience complète de l'accès invité Teams, les administrateurs d'Office 365 doivent sélectionner **Activé** pour les paramètres suivants :
   
     
     
@@ -184,51 +182,28 @@ Pour activer l'expérience complète de l'accès invité Microsoft Teams, les a
     
      ![Connectez-vous à Office 365, accédez au Centre d'administration d'Office 365, accédez aux Paramètres, puis sélectionnez Services &amp; compléments.](media/99e676d4-5b48-4525-9556-547031fa37d9.png)
   
-
-  
+ 
 
   
 3. Sélectionnez **Microsoft Teams**.
     
      ![La capture d'écran illustre l'option du complément Microsoft Teams, sélectionnée dans le centre d'administration d'Office 365.](media/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
   
-
-  
-
   
 4. Dans **Sélectionnez le type d'utilisateur/licence que vous souhaitez configurer**, sélectionnez **Invité**.
     
-    
   
-    
-    
 ![La capture d'écran du complément Microsoft Teams illustre la licence Invité sélectionnée et l'option Microsoft Teams définie sur Activé.](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
   
-    
-    
-
-  
-    
-    
-
-  
-    
-    
-
-    
   
 5. Définissez la bascule près de l'option **Activer/désactiver Microsoft Teams pour tous les utilisateurs de ce type** sur **Activé** pour activer Microsoft Teams et l'accès invité à votre organisation et sélectionnez **Enregistrer**. 
     
   
-
 > [!NOTE]
 > L'application des paramètres peut prendre jusqu'à une heure. 
   
     
-    
-
-
-#### <a name="control-adding-guest-users-to-microsoft-teams-and-office-365-groups"></a>Contrôler l'ajout d'utilisateurs invités aux groupes Microsoft Teams et Office 365
+## <a name="control-adding-guest-users-to-microsoft-teams-and-office-365-groups"></a>Contrôler l'ajout d'utilisateurs invités aux groupes Microsoft Teams et Office 365
 <a name="bkmk_ControlAddingGuestUsers"> </a>
 
 
@@ -254,21 +229,10 @@ Pour activer l'expérience complète de l'accès invité Microsoft Teams, les a
     
 ![La capture d'écran illustre le panneau Groupes d'Office 365 avec les options activées pour permettre aux membres du groupe de l'extérieur de l'organisation d'accéder au contenu du groupe, et aux propriétaires d'ajouter au groupe des personnes externes à l'organisation.](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
   
-    
-    
-
   
-    
-    
-
-  
-    
-    
-
-    
   
 <a name="controlguest"> </a>
-### <a name="turn-on-or-off-the-sharing-option-for-office-365"></a>Activer ou désactiver l'option de partage pour Office 365
+## <a name="turn-on-or-off-the-sharing-option-for-office-365"></a>Activer ou désactiver l'option de partage pour Office 365
 
 
 L'option de partage permet d'ajouter des invités à votre organisation. Elle est activée par défaut. Pour connaître la procédure de désactivation de l'option de partage, reportez-vous à la rubrique [Activer ou désactiver l'option de partage](https://support.office.com/en-us/article/Turn-on-or-off-the-Sharing-option-7c713d74-a144-4eab-92e7-d50df526ff96#bkmk_beforeyoubegin).
@@ -279,11 +243,8 @@ L'option de partage permet d'ajouter des invités à votre organisation. Elle es
 > [!IMPORTANT]
 > Si vous désactivez l'option de partage, l'accès invité n'est pas disponible. 
   
-    
-    
 
-
-#### <a name="use-powershell-to-control-guest-access"></a>Utiliser PowerShell pour contrôler l'accès invité
+## <a name="use-powershell-to-control-guest-access"></a>Utiliser PowerShell pour contrôler l'accès invité
 <a name="bkmk_UsePowerShell"> </a>
 
 En plus d'utiliser le Centre d'administration d'Office 365 et le portail d'Azure Active Directory, vous pouvez utiliser Windows PowerShell pour contrôler l'accès invité. PowerShell permet d'effectuer les opérations suivantes :
@@ -326,7 +287,7 @@ Vous pouvez également utiliser PowerShell pour autoriser ou bloquer un utilisat
   
     
 
-#### <a name="invite-guest-users"></a>Convier des utilisateurs invités
+## <a name="invite-guest-users"></a>Convier des utilisateurs invités
 <a name="bkmk_UsePowerShell"> </a>
 
 Un propriétaire d'équipe ou un administrateur d'Office 365 peut [convier un utilisateur invité à rejoindre une équipe](https://support.office.com/en-us/article/invite-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoiaddateammember) individuellement. Toutefois, les administrateurs ne peuvent pas utiliser le Centre d'administration d'Office 365 ni le portail d'Azure Active Directory pour inviter plusieurs invités à la fois. Pour convier des invités de manière centrale, pensez à utiliser la version préliminaire d'Azure Active Directory B2B Collaboration. Pour plus d'informations, reportez-vous à la rubrique [À propos de la version préliminaire d'Azure AD B2B Collaboration](https://go.microsoft.com/fwlink/p/?linkid=853011).
@@ -334,14 +295,14 @@ Un propriétaire d'équipe ou un administrateur d'Office 365 peut [convier un u
     
     
 
-#### <a name="edit-guest-user-information"></a>Modifier les informations d'un utilisateur invité
+## <a name="edit-guest-user-information"></a>Modifier les informations d'un utilisateur invité
 <a name="bkmk_UsePowerShell"> </a>
 
 Actuellement, vous ne pouvez pas modifier les informations des invités à partir du Centre d'administration d'Office 365 ni du Centre d'administration d'Exchange. Pour modifier les comptes des invités (le nom d'affichage ou la photo de profil par exemple), accédez à votre portail Azure Active Directory. Pour plus d'informations, reportez-vous à la rubrique [Comprendre l'identité Office 365 et Azure Active Directory](https://support.office.com/en-us/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
   
     
     
-### <a name="frequently-asked-questions-for-admins"></a>Questions les plus fréquentes pour les administrateurs
+## <a name="frequently-asked-questions-for-admins"></a>Questions les plus fréquentes pour les administrateurs
 <a name="bkmk_UsePowerShell"> </a>
 
 Voici quelques questions que les administrateurs d'Office 365 se posent fréquemment au sujet de l'invitation de contacts à rejoindre une équipe dans Microsoft Teams.
