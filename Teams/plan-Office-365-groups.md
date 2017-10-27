@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez les décisions que vous devez prendre lors de la planification de groupes Office 365, par exemple la création de groupes privés ou publics, l'utilisation du client Teams ou de la console Web d'administration Office 365 et la fourniture d'informations à vos équipes sur l'utilisation des conversations."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: db36bec549473429d0991693a81562558ff620d6
-ms.sourcegitcommit: a2b4959e05010ef90a7d4bfd4e96fb59ceace541
+ms.openlocfilehash: c4829acbe141e1ed82b30819cf5d95846f114165
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2017
+ms.lasthandoff: 10/22/2017
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planifier les groupes Office 365 lors de la création d'équipes dans Microsoft Teams
 ==========================================================
@@ -21,7 +21,7 @@ Lors de votre prise de décision sur la création de groupes Office 365 ou d'é
 
 Deux scénarios peuvent être débattus concernant la planification de groupes Office 365 et leur impact sur Microsoft Teams ou inversement :
 
--   Premier scénario : certains clients pouvant disposer d'investissements dans des groupes, nous prenons actuellement en charge les groupes privés et publics comptant moins de 999 membres. Comme indiqué précédemment, vous souhaitez gérer l'appartenance des membres à une équipe à l'aide du client Teams au lieu de la console Web d'administration Office 365. Dans ce scénario, si des personnes sont habituées à utiliser les threads de conversation dans les groupes Office 365, il convient de noter qu'une conversation de groupe repose essentiellement sur l'échange d'e-mails, ce qui est différent des messages de conversations dans un canal d'équipe. Informez vos collègues sur cette différence et suggérez-leur d'adopter le format de messagerie le plus flexible dans Teams, par rapport à l'envoi d'e-mail à l'aide d'Outlook ou OWA.
+-   Premier scénario : certains clients pouvant disposer d'investissements dans des groupes, nous prenons actuellement en charge les groupes privés et publics comptant moins de 2 500 membres. Comme indiqué précédemment, vous souhaitez gérer l'appartenance des membres à une équipe à l'aide du client Teams au lieu de la console Web d'administration Office 365. Dans ce scénario, si des personnes sont habituées à utiliser les threads de conversation dans les groupes Office 365, il convient de noter qu'une conversation de groupe repose essentiellement sur l'échange d'e-mails, ce qui est différent des messages de conversations dans un canal d'équipe. Informez vos collègues sur cette différence et suggérez-leur d'adopter le format de messagerie le plus flexible dans Teams, par rapport à l'envoi d'e-mail à l'aide d'Outlook ou OWA.
 
 -   Deuxième scénario : pour les clients ne disposant pas de groupe défini dans Office 365, vous pouvez en créer un via le portail d'administration Office 365, le site web de Teams, ou les clients de bureau. Comme indiqué précédemment, gérez les appartenances futures au groupe Office 365 à l'aide du client Teams. L'appartenance à une équipe définissant également l'appartenance aux groupes Office 365, vous devez préparer vos collègues à ce changement.
 

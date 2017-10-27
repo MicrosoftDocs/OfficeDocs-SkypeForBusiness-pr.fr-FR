@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment préparer et gérer votre réseau pour Microsoft Teams. Les informations comprennent la configuration réseau requise, la condition requise en matière de bande passante ainsi que des remarques supplémentaires."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9572b6ff52631bc41b57c8a4a44191ee79caee8e
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 79e7cd9e9ebef793c138e9482c7bc56c692e4ed1
+ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/21/2017
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams
 =================================================
@@ -29,7 +29,7 @@ Cela affecte le réseau sur deux niveaux : le trafic est acheminé des clients 
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Important    |Actuellement, il n'existe aucune parité des fonctionnalités pour ce qui est du multimédia en temps réel entre les clients. Les clients de bureau (Windows/Mac) prennent en charge les communications P2P ainsi que le média de conférence (y compris le partage de bureau) tandis que les clients mobiles prennent uniquement en charge les communications audio P2P.         |
+|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Important    |Les réunions sont actuellement prises en charge sur les appareils iOS et Android, mais pas sur les appareils Windows (disponible très prochainement).       |
 
 Pour bénéficier d'une expérience optimale avec le multimédia en temps réel dans Microsoft Teams, la configuration réseau requise pour Office 365 doit être satisfaite (pour plus de détails, consultez la source suivante : [Qualité multimédia  et performances de connectivité réseau dans Skype Entreprise Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US) )
 

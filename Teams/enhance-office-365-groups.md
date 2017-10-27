@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment améliorer les groupes Office 365 avec Microsoft Teams en invitant une liste de distribution à rejoindre une équipe, en ajoutant des groupes de sécurité à extension messagerie, etc."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 55f979fbc07465cd56b9ee3c27f799d4b4e54767
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: c39a1098e15f8656dad71ea85d069a46c642d73c
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/22/2017
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Améliorer les groupes Office 365 existants avec Microsoft Teams
 =======================================================
 
-Les utilisateurs Microsoft Teams peuvent améliorer un groupe Office 365 existant à l'aide de la fonctionnalité Microsoft Teams. L'amélioration d'un groupe Office 365 public est possible si le nombre de membres est inférieur ou égal à 999.
+Les utilisateurs Microsoft Teams peuvent améliorer un groupe Office 365 existant à l'aide de la fonctionnalité Microsoft Teams. L'amélioration d'un groupe Office 365 public est possible si le nombre de membres est inférieur ou égal à 2 500.
 
 Pour cela, les utilisateurs doivent réaliser le processus de création d'une équipe dans le client Microsoft Teams. Sélectionnez **« Oui, ajouter la fonctionnalité Microsoft Teams »** au bas de l'écran, puis choisissez le groupe que vous voulez améliorer avec avec Microsoft Teams. Les membres du groupe existant seront automatiquement ajoutés à l'équipe en tant que membres.
 

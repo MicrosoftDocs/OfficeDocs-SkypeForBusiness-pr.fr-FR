@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez Microsoft teams, son infrastructure et son utilisation avec Office 365."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 319b2483b12e130fe6de48bc5b311d79362dddf7
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: b19e75db5f83403c7381046595d07e445a13cb0d
+ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/21/2017
 ---
 <a name="overview-of-microsoft-teams"></a>Présentation de Microsoft Teams
 ===========================
@@ -107,3 +107,11 @@ Voici quelques scénarios d'utilisation courants pour chaque application dans Of
 -   Site d'équipe SharePoint puissant automatiquement fourni pour chaque équipe Microsoft Teams pour le stockage de fichiers, l'actualité de l'équipe, les pages, les listes, et plus encore.
 
 -   Consultez [Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams](SharePoint-OneDrive-interact.md)
+
+## <a name="what-happened-to-the-teams-admin-faq"></a>Qu’est devenue la FAQ Microsoft Teams dédiée aux administrateurs ?
+
+Bien que cette FAQ dédiée aux administrateurs ait été d’une grande aide lors du lancement de Microsoft Teams, c’est rapidement devenu un véritable « fourre-tout ». Nous avons donc décidé d’y mettre fin pour incorporer les précieuses informations qu’elle renfermait dans la présente documentation de Microsoft Teams. Vous retrouverez donc l’intégralité du contenu de la FAQ dans ce document, mais en contexte.
+
+Si vous ne trouviez toutefois pas de réponse à vos questions, n’hésitez pas à nous en faire part via la section **Commentaires** ci-dessous. Nous ferons notre possible pour vous répondre sous 24 heures.
+
+Par ailleurs, il existe **toujours** une FAQ relative à la [transition de Skype Entreprise vers Microsoft Teams](FAQ-journey.md). 

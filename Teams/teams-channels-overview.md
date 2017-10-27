@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez la variété d'équipes, de canaux et d'applications disponibles pour des exigences très variées, telles que les opérations financières, la planification d'événements, les ventes, etc."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 36ccd06e1a26d273c285a77e1fa86ca03d6b2698
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 1c73bc8aed92557e3a18837d6f252ce0590c5ad1
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/22/2017
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 =================================================
@@ -23,7 +23,7 @@ Commençons par réfléchir sur l'organisation de chaque équipe avec Microsoft�
 
     -   Les équipes peuvent être créées de manière privée pour des utilisateurs invités uniquement.
 
-    -   Les équipes peuvent également être créées pour être publiques et ouvertes à tous les utilisateurs dans une organisation (jusqu'à 999 membres).
+    -   Les équipes peuvent également être créées pour être publiques et ouvertes à tous les utilisateurs d’une organisation (jusqu'à 2 500 membres).
 
 -   Les **canaux** sont des sections dédiées dans une équipe pour stocker des conversations organisées par sujets, projets, disciplines spécifiques ; à votre équipe de décider !
 

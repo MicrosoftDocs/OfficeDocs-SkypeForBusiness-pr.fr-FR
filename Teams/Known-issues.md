@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 560edb7454e923577633e21be9d4938a81cccd52
-ms.sourcegitcommit: a32e7860a34918198ab9fa388f5bb217c15f9e6c
+ms.openlocfilehash: 55e1dea54b9cf6dd73e6739991b1e4ff6cf57943
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 10/22/2017
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
  [Aide de Microsoft Teams](microsoft-teams-help.md) > [Bureau et web](microsoft-teams-help.md#BKMK_DesktopAndWeb) > Problèmes connus pour Microsoft Teams Mise à jour : 14 septembre 2017 
@@ -33,10 +33,10 @@ Le tableau suivant présente les problèmes connus pour Microsoft Teams.
 |Différences d'affichage dans le client Teams mobile  <br/> |Les équipes s'affichent dans l'ordre alphabétique et les canaux ne peuvent pas être réduits sur le client mobile.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
 |La liste des espaces de travail n'est pas triée par ordre alphabétique.  <br/> |Les utilisateurs qui passent d'un espace de travail à un autre lors de l'ajout d'un onglet PowerBI sont invités à choisir celui qu'ils souhaitent activer parmi une liste non classée par ordre alphabétique.  <br/> |Aucune solution.  <br/> ||
 |La barre de défilement disparaît quand des rapports sont sélectionnés.  <br/> |Les utilisateurs qui ajoutent des rapports PowerBI ne peuvent pas faire défiler une liste plus longue que la taille d'un écran de rapports sans perdre leur barre de défilement.  <br/> |Utilisez les flèches vers le haut et vers le bas pour faire défiler la liste.  <br/> ||
-|Impossible d'ajouter plus de cinq utilisateurs à la fois  <br/> |Les équipes publiques ne prennent pas en charge l'ajout de plus de cinq utilisateurs à la fois. La limite reste fixée à 999 membres au total.  <br/> |Un prochain correctif résoudra ce problème.  <br/> |13.03.2017  <br/> |
+|Impossible d'ajouter plus de cinq utilisateurs à la fois  <br/> |Les équipes publiques ne prennent pas en charge l'ajout de plus de cinq utilisateurs à la fois. La limite reste fixée à 2 500 membres au total.  <br/> |Un prochain correctif résoudra ce problème.  <br/> |13.03.2017  <br/> |
 |Pas d'accès externe à l'espace de travail de Teams  <br/> |L'accès externe n'est actuellement pas disponible, mais l'accès invité figure sur la feuille de route de Microsoft Teams pour août 2017.  <br/> |Aucune solution.  <br/> |02.11.2016  <br/> |
 |Les utilisateurs n'arrivent pas à créer une équipe.  <br/> |Votre entreprise peut avoir défini une politique limitant les personnes qui peuvent créer des groupes ou des équipes Office 365.  <br/> |Consultez votre administrateur informatique pour comprendre la politique de votre entreprise en matière de création de groupes et d'équipes.  <br/> |13.03.2017  <br/> |
-|Maximum de 999 membres par équipe  <br/> |Chaque équipe Microsoft Team peut accueillir un maximum de 999 membres.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
+|Maximum de 2500 membres par équipe  <br/> |Chaque équipe Microsoft Team peut accueillir un maximum de 2500 membres.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
 |La suppression d'une équipe supprime également le groupe associé à celle-ci  <br/> |Il est possible que les utilisateurs ne réalisent pas que le groupe Office 365 sous-jacent est supprimé lorsque l'équipe est supprimée. En outre, si le groupe Office 365 sous-jacent est supprimé, l'équipe l'est également.  <br/> |Les langues supplémentaire dans Microsoft Teams fournissent cette information à l'utilisateur. Cette information n'est pas disponible dans l'interface Groupes Office 365.  <br/> |13.03.2017  <br/> |
 |L'archivage des boîtes aux lettres de groupe (stockage supplémetaire) n'est pas activé.  <br/> |Dans le Centre de sécurité et conformité Office 365, les administrateurs généraux n'ont pas la possibilité d'activer l'archivage pour les boîtes aux lettres de groupe. Cela est possible uniquement pour les boîtes aux lettres utilisateur.  <br/> |Si la capacité de la boîte aux lettres de groupe est presque atteinte, prenez contact avec le support de Microsof Office pour augmenter la capacité.  <br/> |01.02.2017  <br/> |
 |Les utilisateurs sur site de Skype Entreprise ne reçoivent pas mes messages  <br/> |Les messages ne sont pas acheminés lorsque les utilisateurs de Microsoft Teams essayent d'envoyer un message à une autre personne qui utilise Skype Entreprise sur site.  <br/> | L'interopérabilité entre Teams et les utilisateurs hébergés sur Skype Entreprise Online est prise en charge. Les utilisateurs de Teams peuvent envoyer des conversations en tête-à-tête à des personnes qui n’utilisent pas Teams à l'aide de Skype Entreprise Online. <br/> L'interopérabilité entre Teams et les utilisateurs hébergés sur Skype Entreprise sur site n'est pas prise en charge. Les utilisateurs de Teams ne peuvent pas envoyer de conversations en tête à tête à des utilisateurs qui utilisent Skype Entreprise sur site.  <br/> |02.11.2016  <br/> |

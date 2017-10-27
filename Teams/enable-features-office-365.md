@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez toutes les fonctionnalités Microsoft Teams que vous pouvez activer dans votre organisation Office 365, y compris des paramètres à l'échelle du client, des intégrations de messagerie, des applications, le stockage cloud et bien d'autres."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f61e0618f81e0eb8921ceb27d989c609f01356a4
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: e789e83e02f226d09c67fece89b72ed52aee5711
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/22/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Activer les fonctionnalités Microsoft Teams dans votre organisation Office 365
 ======================================================
@@ -102,7 +102,7 @@ REMARQUE : Vous ne pouvez pas créer d'équipe à l'aide du tableau de bord Gro
 
 Par défaut, chaque utilisateur peut créer une équipe ou un groupe. Les utilisateurs peuvent créer des équipes en sélectionnant Équipes sur le côté gauche du client Microsoft Teams (client de bureau ou application Web), puis en choisissant Créer une équipe dans la partie inférieure du client, sous la liste d'équipes.
 
-Par défaut, un client Office 365 peut actuellement contenir 500 000 équipes au maximum. Un administrateur global peut créer un nombre illimité d'équipes. Un utilisateur peut créer 250 équipes. Un propriétaire d'équipe peut ajouter 999 membres à une équipe.
+Par défaut, un client Office 365 peut actuellement contenir 500 000 équipes au maximum. Un administrateur global peut créer un nombre illimité d'équipes. Un utilisateur peut créer 250 équipes. Un propriétaire d'équipe peut ajouter 2 500 membres à une équipe.
 
 ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
 

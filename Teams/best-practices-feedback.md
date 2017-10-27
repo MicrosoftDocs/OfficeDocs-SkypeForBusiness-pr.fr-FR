@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez les méthodes recommandées de demande de commentaires des utilisateurs dans Microsoft Teams pour assurer la meilleure expérience d'équipe possible."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d69eadf88d0e102e460ec4c0ae9718dd57296c1c
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: b3e495052ddf8b8e1642d9b740107338165aaa35
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/22/2017
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Recommandation de méthodes de demande de commentaires des utilisateurs dans Microsoft Teams
 ===========================================================
 
 L'adoption d'une nouvelle expérience de collaboration consiste à modifier le comportement de vos utilisateurs. Le changement du comportement des personnes requiert des formations, des encouragements et des exemples positifs. Il est également essentiel pour les personnes de se sentir écoutées pendant la transition. Si vous avez déjà établi des méthodes de demande de commentaires qui ont fait leurs preuves dans votre organisation, envisagez de les étendre pour inclure votre implémentation de Teams. Si ce n'est pas le cas, envisagez d'appliquer l'une des approches suivantes :
 
--   Création d'une équipe publique dans Microsoft Teams que tout utilisateur peut rejoindre pour fournir des commentaire sur son expérience (n'oubliez pas que les groupes publics sont actuellement limités à 999 utilisateurs)
+-   Création d'une équipe publique dans Microsoft Teams que tout utilisateur peut rejoindre pour fournir des commentaire sur son expérience (n'oubliez pas que les groupes publics sont actuellement limités à 2 500 utilisateurs)
 
 -   Utilisation de Yammer pour mettre en place une communauté ouverte pour fournir des meilleures pratique et un support.
 
