@@ -14,19 +14,19 @@ ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/25/2017
 ---
-<a name="videos-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="d0a13-103">Vidéos : audioconférence dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d0a13-103">Videos: Audio Conferencing in Microsoft Teams</span></span>
+<a name="videos-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="f9aeb-103">Vidéos : audioconférence dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="f9aeb-103">Videos: Audio Conferencing in Microsoft Teams</span></span>
 =============================================
 
-<span data-ttu-id="d0a13-104">Ne ratez pas la vidéo [Audioconférence dans Microsoft Teams](audio-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="d0a13-104">Don't miss [Audio Conferencing in Microsoft Teams](audio-conferencing.md).</span></span>
+<span data-ttu-id="f9aeb-104">Ne ratez pas la vidéo [Audioconférence dans Microsoft Teams](audio-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="f9aeb-104">Don't miss [Audio Conferencing in Microsoft Teams](audio-conferencing.md).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="d0a13-105">L’audioconférence était appelée auparavant Conférence RTC</span><span class="sxs-lookup"><span data-stu-id="d0a13-105">Audio Conferencing was formerly known as PSTN Conferencing</span></span>
+> <span data-ttu-id="f9aeb-105">L’audioconférence était appelée auparavant Conférence RTC</span><span class="sxs-lookup"><span data-stu-id="f9aeb-105">Audio Conferencing was formerly known as PSTN Conferencing</span></span>
 
 
 |  |  |
 |---------|---------|
-| <span data-ttu-id="d0a13-106">Présentation de l’audioconférence</span><span class="sxs-lookup"><span data-stu-id="d0a13-106">Introduction to Audio Conferencing</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/AGPvaW4Vg0o" frameborder="0" allowfullscreen></iframe>   |
-| <span data-ttu-id="d0a13-107">Planifier l’audioconférence</span><span class="sxs-lookup"><span data-stu-id="d0a13-107">Plan for Audio Conferencing</span></span>  | <iframe width="350" height="200" src="https://www.youtube.com/embed/AWbuvcWcYIc" frameborder="0" allowfullscreen></iframe>   |
-| <span data-ttu-id="d0a13-108">Transfert de numéros pour l’audioconférence</span><span class="sxs-lookup"><span data-stu-id="d0a13-108">Number porting for Audio Conferencing</span></span> | <iframe width="350" height="200" src="https://www.youtube.com/embed/5k0C21KAsns" frameborder="0" allowfullscreen></iframe>  |
+| <span data-ttu-id="f9aeb-106">Présentation de l’audioconférence</span><span class="sxs-lookup"><span data-stu-id="f9aeb-106">Introduction to Audio Conferencing</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/AGPvaW4Vg0o" frameborder="0" allowfullscreen></iframe>   |
+| <span data-ttu-id="f9aeb-107">Planifier l’audioconférence</span><span class="sxs-lookup"><span data-stu-id="f9aeb-107">Plan for Audio Conferencing</span></span>  | <iframe width="350" height="200" src="https://www.youtube.com/embed/AWbuvcWcYIc" frameborder="0" allowfullscreen></iframe>   |
+| <span data-ttu-id="f9aeb-108">Transfert de numéros pour l’audioconférence</span><span class="sxs-lookup"><span data-stu-id="f9aeb-108">Number porting for Audio Conferencing</span></span> | <iframe width="350" height="200" src="https://www.youtube.com/embed/5k0C21KAsns" frameborder="0" allowfullscreen></iframe>  |
 
 
