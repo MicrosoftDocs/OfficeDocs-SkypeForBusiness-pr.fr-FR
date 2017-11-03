@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment récupérer des données Microsoft Teams à partir du journal d'audit."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 558db88d32229fcaef70ea5278d7437fbea92198
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 90de6c2267eb2828f2f681287d4b43c001d0ceb4
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 ==================================================
@@ -34,9 +34,9 @@ Avant de pouvoir examiner les activités d'audit, la fonctionnalité d'audit doi
 
 | |  |
 |---------|---------|
-|![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Important     |Les données d'audit sont uniquement disponibles à partir du point d'activation de la fonctionnalité d'audit.         |
+|![Capture d'écran de la page d'accueil du Centre de sécurité et de conformité.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Important     |Les données d'audit sont uniquement disponibles à partir du point d'activation de la fonctionnalité d'audit.         |
 
-![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
+![Capture d'écran de la page de recherche des journaux d'audit du Centre de sécurité et de conformité.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
 
 À présent, passons à la récupération des données Microsoft Teams à partir du journal d'audit :
 
@@ -44,7 +44,7 @@ Avant de pouvoir examiner les activités d'audit, la fonctionnalité d'audit doi
 
     a.  Microsoft Teams a défini des activités d'audit qui peuvent être sélectionnées comme indiqué ci-après.
 
-![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+![Capture d'écran de la page de recherche des journaux d'audit du Centre de sécurité et de conformité.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
 
 2.  Une fois les activités qui vous intéressent sélectionnées, fournissez une plage de dates et des utilisateurs pour lesquels vous souhaitez récupérer les informations Microsoft Teams. Cliquez sur **Rechercher** pour récupérer les résultats.
 
@@ -53,4 +53,4 @@ Avant de pouvoir examiner les activités d'audit, la fonctionnalité d'audit doi
 
 |  | |
 |---------|---------|
-|![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Important |Si la fonction d'audit n'a pas été préalablement activée, vous devez l'activer pour obtenir des données dans le journal d'audit.         |
+|![Icône Point d'exclamation.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Important |Si la fonction d'audit n'a pas été préalablement activée, vous devez l'activer pour obtenir des données dans le journal d'audit.         |

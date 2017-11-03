@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez l'interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams, comme le stockage de fichiers de conversation privée, et la relation entre l'équipe, le canal et la bibliothèque de documents."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: cf971714c1ad3b797c181f982ea8688bf8c73977
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 1ea55116faa7a998a3b2db0828972424ce3acef8
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
 =============================================================================
@@ -29,8 +29,8 @@ Voici un exemple de relations entre une équipe, un canal et une bibliothèque d
 
 Pour chaque équipe, un site SharePoint et le dossier par défaut *Documents partagés* sont créés. Chaque canal, y compris le canal **Général** par défaut de l'équipe, dispose d'un dossier sous le dossier *Documents partagés*.
 
-![](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
+![Diagramme des dossiers de documents partagés dans SharePoint Online pour une équipe et ses canaux dans Microsoft Teams.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
 Pour chaque utilisateur, le dossier OneDrive *Fichiers de conversation Microsoft Teams* est utilisé pour stocker tous les fichiers partagés dans les conversations avec d'autres utilisateurs (en tête-à-tête ou de groupe), avec les autorisations configurées pour limiter l'accès aux utilisateurs concernés uniquement.
 
-![](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+![Diagramme du dossier OneDrive nommé Fichiers de conversation Microsoft Teams pour les conversations de chaque utilisateur.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)

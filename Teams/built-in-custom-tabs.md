@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment utiliser les onglets intégrés et personnalisés pour inclure des fonctionnalités telles des conversations, des fichiers, des mappages, et plus encore."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2ba0e5d8897b7c77aa4fd9c319c9a77fcf2129b9
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 377ad8a0746d958e3a7a3341cce3773e9bd122f9
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Utiliser les onglets intégrés et personnalisés dans Microsoft Teams
 ==================================================
@@ -23,13 +23,13 @@ Les onglets permettent aux membres d'équipe d'accéder à des services sur une 
 
 -   Fichiers
 
-![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+![Capture d'écran de la section Conversation de l'équipe Marketing.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
 
 1.  Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à chaque canal, pour faciliter l'intégration de leurs services cloud.
 
 2.  Des fichiers Excel, PowerPoint, Word et PDF peuvent être chargés dans l'**onglet Fichiers** avant de les convertir en onglets. De même, tout fichier existant chargé peut être converti en onglet en un simple clic, tel qu'illustré ci-après.
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
+    ![Capture d'écran de l'onglet Fichiers avec un fichier PowerPoint sélectionné.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
 3.  Pour ajouter un site Web, l'URL doit commencer par le **préfixe https,** de manière à préserver la sécurité des informations échangées.
 
@@ -37,11 +37,11 @@ Les onglets permettent aux membres d'équipe d'accéder à des services sur une 
 
 5.  Lorsqu'un onglet personnalisé est ajouté à un canal, une **conversation Onglet** est créée et permet aux membres d'équipe de mener des débats ciblés sur le contenu.
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
+    ![Capture d'écran d'un onglet personnalisé avec une conversation dans un onglet sur le côté droit de la fenêtre.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 6.  Des onglets supplémentaires peuvent être ajoutés aux canaux pour aider les utilisateurs à accéder facilement et à gérer les données avec lesquelles ils interagissent ou qu'ils utilisent fréquemment. Il peut s'agir d'un rapport Power BI, d'un tableau de bord, ou même d'un canal vidéo [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) dans lequel des vidéos de formation peuvent être publiées.
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+    ![Trois captures d'écran de différents contenus dans des onglets.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-tabs"></a>Développer des onglets personnalisés
 -------------------
@@ -50,4 +50,4 @@ En plus des onglets intégrés, les organisations peuvent facilement concevoir e
 
 Microsoft Developer Network fournit des [instructions détaillées ](https://go.microsoft.com/fwlink/?linkid=855786) sur la conception et la création de vos propres onglets, ainsi que sur le téléchargement et le déploiement d'[exemples d'onglets](https://go.microsoft.com/fwlink/?linkid=855787) développés par Microsoft.
 
-![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
+![Capture d'écran d'un onglet personnalisé d'exemple dans Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)

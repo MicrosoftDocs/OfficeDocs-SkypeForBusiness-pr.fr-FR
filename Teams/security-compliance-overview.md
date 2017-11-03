@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Ce document présente les fonctionnalités de sécurité et de conformité de Microsoft Teams, notamment les fonctions d'audit, de rapport, de recherche de contenu de conformité, eDiscovery, etc."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 3321dee954b9861054886677b2835c689035888c
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: d42457165fae8e23181d7e7f4fe50ea30938dfd3
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
@@ -68,7 +68,7 @@ Ces outils résident dans le Portail de sécurité et de conformité Office 365
 
 La figure ci-après présente le flux de travail de données Teams vers Exchange et SharePoint.
 
-![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+![Diagramme du flux de travail de données Teams vers Exchange et SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 
 > [!IMPORTANT]
@@ -87,8 +87,8 @@ De plus, Microsoft envisage de fournir les fonctionnalités de sécurité suivan
 
 | | | |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Point de décision         |De quelles fonctionnalités de sécurité et de conformité votre organisation a-t-elle besoin ? Votre organisation dispose-t-elle des licences requises pour satisfaire les besoins en matière de sécurité et de conformité ?         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Étapes suivantes         |Documentez les fonctionnalités de sécurité et de conformité dans le tableau ci-dessous.         |
+|![Icône Point de décision.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Point de décision         |De quelles fonctionnalités de sécurité et de conformité votre organisation a-t-elle besoin ? Votre organisation dispose-t-elle des licences requises pour satisfaire les besoins en matière de sécurité et de conformité ?         |
+|![Icône Étapes suivantes.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Étapes suivantes         |Documentez les fonctionnalités de sécurité et de conformité dans le tableau ci-dessous.         |
 
 <a name="licensing"></a>Licences
 ---------------
@@ -109,8 +109,8 @@ En ce qui concerne les fonctionnalités de protection des informations, les abon
 
 | |  |  |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Point de décision         |Votre organisation dispose-t-elle des licences requises pour satisfaire les besoins en matière de sécurité et de conformité ?         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Étapes suivantes         |Consultez les licences actuelles de votre organisation pour confirmer que les besoins en matière de sécurité et de conformité sont satisfaits.         |
+|![Icône Point de décision.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Point de décision         |Votre organisation dispose-t-elle des licences requises pour satisfaire les besoins en matière de sécurité et de conformité ?         |
+|![Icône Étapes suivantes.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Étapes suivantes         |Consultez les licences actuelles de votre organisation pour confirmer que les besoins en matière de sécurité et de conformité sont satisfaits.         |
 
 Avant d'activer ces fonctionnalités, assurez-vous d'avoir accès au Centre de sécurité et de conformité dans le Centre d'administration Office 365. Par défaut, les administrateurs de clients y ont accès.
 

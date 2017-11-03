@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment assigner des rôles et des autorisations de propriétaire et de membre d'équipe dans Microsoft Teams, notamment des autorisations de création d'équipes."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1ccb0ff3216464aca5a17c3bebeb0e259929e798
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 086f054ff5af2326d106ce5c2088a50106a76462
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Assigner des rôles et des autorisations dans Microsoft Teams
 ===============================================
@@ -40,7 +40,7 @@ Le tableau ci-après présente les différences d'autorisations entre un propri�
 
 | | |
 |---------|---------|
-|![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Remarque     |Les propriétaires peuvent nommer d'autres membres en tant que propriétaires à l'aide de l'option Afficher les équipes. Une équipe peut compter 10 propriétaires maximum.         |
+|![Icône Ampoule.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Remarque     |Les propriétaires peuvent nommer d'autres membres en tant que propriétaires à l'aide de l'option Afficher les équipes. Une équipe peut compter 10 propriétaires maximum.         |
 
 <a name="permissions-to-create-teams"></a>Autorisations de créations d'équipes
 ---------------------------
@@ -89,5 +89,5 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
 ||||
 |---------|---------|---------|
-| ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Point de décision         |Les utilisateurs Microsoft Teams pourront-ils créer des équipes (recommandé) ?         |
-| ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Étapes suivantes         |Modifiez les autorisations par défaut des utilisateurs autorisés à créer des groupes Office 365 si vous devez limiter les autorisations de création d'équipes.         |
+| ![Icône Point de décision.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Point de décision         |Les utilisateurs Microsoft Teams pourront-ils créer des équipes (recommandé) ?         |
+| ![Icône Étapes suivantes.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Étapes suivantes         |Modifiez les autorisations par défaut des utilisateurs autorisés à créer des groupes Office 365 si vous devez limiter les autorisations de création d'équipes.         |

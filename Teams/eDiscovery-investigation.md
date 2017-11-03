@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez les actions à entreprendre et le moment opportun pour mener une recherche eDiscovery, par exemple lorsque vous devez soumettre toutes les informations stockées électroniquement dans le cadre d'une procédure juridique."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 52827781811e991df30250adb353ba90a7b333d6
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: c9650604a65975058d10e2ca73eaadc985c73495
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 ============================
@@ -25,8 +25,6 @@ Toutes les conversations en tête-à-tête et de groupe sont journalisées via l
 
 2.  Les données Microsoft Teams apparaîtront comme **messages instantanés ou conversations** dans le fichier Excel, ou vous pouvez monter le **.PST** dans Outlook.
 
-    a.  Lors du montage du .PST pour l'équipe, notez que toutes les conversations sont conservées dans le dossier Conversation de l'équipe sous l'historique des conversations. Le titre du message s'aligne sur l'équipe et le canal. Si vous examinez l'image ci-dessous, vous pouvez voir le message de Bob dans le canal Project 7 de l'équipe Manufacturing Specs.
-
-![](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+    a.  Lors du montage du .PST pour l'équipe, notez que toutes les conversations sont conservées dans le dossier Conversation de l'équipe sous l'historique des conversations. Le titre du message s'aligne sur l'équipe et le canal. Si vous examinez l'image ci-dessous, vous pouvez voir le message de Bob dans le canal Project 7 de l'équipe Manufacturing Specs. ![Capture d'écran d'un dossier Conversation de l'équipe dans la boîte de réception d'un utilisateur dans Outlook.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
 3.  Pour afficher les conversations privées dans la boîte aux lettres d'un utilisateur, accédez au dossier Conversation de l'équipe sous l'historique des conversations.

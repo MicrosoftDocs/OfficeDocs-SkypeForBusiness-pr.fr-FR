@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez Microsoft teams, son infrastructure et son utilisation avec Office 365."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b19e75db5f83403c7381046595d07e445a13cb0d
-ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
+ms.openlocfilehash: 10d4297f8b4cfcf3bf28a2a64177f078130166eb
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-microsoft-teams"></a>Présentation de Microsoft Teams
 ===========================
@@ -63,7 +63,7 @@ Les besoins des groupes divergent en fonction de leur rôle et de leur mode de t
 
 Voici quelques scénarios d'utilisation courants pour chaque application dans Office 365. Pour obtenir des instructions détaillées, rendez-vous dans la [Bibliothèque de productivité FastTrack](https://go.microsoft.com/fwlink/?linkid=854630).
 
-![](media/Overview_of_Microsoft_Teams_image1.png)
+![Icône Microsoft Teams.](media/Overview_of_Microsoft_Teams_image1.png)
 
 -   Utilisée par les utilisateurs et les équipes pour collaborer en temps réel dans le même groupe de membres
 
@@ -71,7 +71,7 @@ Voici quelques scénarios d'utilisation courants pour chaque application dans Of
 
 -   Permet aux utilisateur de se connecter à une large gamme d'outils dans leur espace de travail (Planificateur, Power BI, GitHub, etc.)
 
-![](media/Overview_of_Microsoft_Teams_image2.png)
+![Icône Microsoft Outlook.](media/Overview_of_Microsoft_Teams_image2.png)
 
 -   Pour les utilisateurs qui préfèrent collaborer dans l'environnement de messagerie familier et/ou de manière plus formelle et structurée
 
@@ -79,7 +79,7 @@ Voici quelques scénarios d'utilisation courants pour chaque application dans Of
 
 -   Contacte les utilisateurs hors des organisations ou groupes de travail immédiats
 
-![](media/Overview_of_Microsoft_Teams_image3.png)
+![Icône Yammer.](media/Overview_of_Microsoft_Teams_image3.png)
 
 -   Permet de connecter les utilisateurs dans l'organisation pour former des communautés spécialisées et partager des meilleures pratiques
 
@@ -89,7 +89,7 @@ Voici quelques scénarios d'utilisation courants pour chaque application dans Of
 
 -   Encourage vos intervenants de première ligne à partager et recevoir des connaissances et compétences
 
-![](media/Overview_of_Microsoft_Teams_image4.png)
+![Icône Skype Entreprise.](media/Overview_of_Microsoft_Teams_image4.png)
 
 -   Utilisée pour la communication et la collaboration internes et externes en temps réel avec les clients/partenaires
 
@@ -98,9 +98,9 @@ Voici quelques scénarios d'utilisation courants pour chaque application dans Of
 -   Fournit la fonctionnalité téléphonique d'entreprise
 
 
-![](media/Overview_of_Microsoft_Teams_image5.png)
+![Icône Microsoft SharePoint.](media/Overview_of_Microsoft_Teams_image5.png)
 
--   Utilisée pour les sites et portails (par ex., actualité de l'entreprise, recherche et documentation de collaboration)
+-   Utilisée pour les sites et portails (par ex., actualité de l'entreprise, recherche et documentation de collaboration).
 
 -   Implémente l'automatisation des processus métiers dans des bibliothèques de documents et listes d'informations en intégrant Microsoft Flow et PowerApps
 

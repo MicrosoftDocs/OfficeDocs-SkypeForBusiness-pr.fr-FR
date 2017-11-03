@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Les connecteurs permettent à votre équipe de rester informée en fournissant directement à votre canal du contenu et des mises à jour provenant des services que vous utilisez fréquemment."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 08f2526686c894e44193fb53d51f9f59d6960279
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 0b5bc5e3d78b9810a8f1db43122a0e4c877035a7
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Utiliser des connecteurs Office 365 et personnalisés dans Microsoft Teams
 =======================================================
@@ -27,19 +27,19 @@ Actuellement, les connecteurs peuvent être ajoutés à l'aide des clients de bu
 
 1.  Pour ajouter un connecteur à un canal, cliquez sur les **points de suspension (…),** à droite du nom du canal, puis sur **Connecteurs.**
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    ![Capture d'écran de l'interface Teams avec un nom de canal sélectionné et l'option Connecteurs sélectionnée.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2.  Les utilisateurs peuvent effectuer une sélection parmi divers connecteurs disponibles, puis cliquer sur **Ajouter**.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    ![Capture d'écran de la boîte de dialogue Connecteurs affichant les connecteurs disponibles pour être ajoutés.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3.  Renseignez les informations requises pour le connecteur sélectionné et cliquez sur **Enregistrer**. Chaque connecteur nécessite un ensemble d'informations pour fonctionner correctement et certains peuvent également requérir l'ouverture d'une session au service à l'aide des liens fournis dans la page de configuration du connecteur.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+    ![Capture d'écran de la page de configuration du connecteur RSS.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
 
 4.  Les données fournies par le connecteur sont automatiquement publiées dans le canal.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+    ![Capture d'écran de l'interface Teams affichant une conversation dans un canal.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-connectors"></a>Développer des connecteurs personnalisés
 -----------------------------
@@ -48,18 +48,18 @@ Développer des connecteurs personnalisés pouvant être intégrés à vos appli
 
 1.  Ajoutez le **webhook entrant** comme tout autre connecteur.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
+    ![Capture d'écran avec l'option d'ajout du connecteur Webhook entrant.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
 
 2.  Pour créer un webhook, spécifiez un **nom**, mettez à jour l'image du webhook si nécessaire et cliquez sur **Créer**.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
+    ![Capture d'écran de la page de configuration du connecteur Webhook entrant. ](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
 
 3.  Les applications qui envoient des données vers ce canal requièrent l'URL du connecteur webhook. Une **URL unique** est créée lors de la création du **webhook**. Partagez cette URL avec vos développeurs, pour leur permettre de configurer leurs applications pour envoyer des données lorsque nécessaire.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
+    ![Capture d'écran de l'URL unique du Webhook.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
 
 4.  Lorsqu'une application externe envoie des données vers un connecteur, le message s'affiche dans la liste de conversations du canal sous forme de message spécial appelé **Carte de connecteur**.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
+    ![Capture d'écran de l'interface Teams affichant un message Carte de connecteur.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
 
 Les développeurs peuvent configurer leurs applications pour créer ces cartes, en envoyant une demande HTTP avec une charge JSON simple à l'adresse de webhook d'une équipe Microsoft, qui est une URL unique de ce point de terminaison fournie par l'assistant. Vos développeurs peuvent consulter l'article [Prise en main des connecteurs Office 365 pour Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855783), sur la page Microsoft Developer Network, pour obtenir des instructions détaillées et des exemples de connecteur. D'autres ressources telles que l'article [Connecter aux applications à vos groupes dans Outlook](https://support.office.com/en-us/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) et le [Centre de développement Office de Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855784) sont également disponibles.

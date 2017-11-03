@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment autoriser et activer des applications dans Microsoft Teams, y compris le chargement de version test d'applications externes."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 19ed683382cd06d0b0c33686391e012f35f35fc4
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 33907b6e63d621bb0de48b38161d75f08c6dda4e
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Paramètres d'administration pour les applications dans Microsoft Teams
 ==========================================
@@ -37,4 +37,4 @@ Seuls les propriétaires ou membres d'équipes autorisés peuvent charger la ver
 
 Pour en savoir plus sur le chargement de version test d'applications dans Microsoft Teams, rendez-vous sur la page : [Side loading your app in a team (Chargement de la version test de votre application dans une équipe)](https://go.microsoft.com/fwlink/?linkid=854631).
 
-![](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png)
+![Capture d'écran de la section Applications des paramètres Microsoft Teams.](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png)

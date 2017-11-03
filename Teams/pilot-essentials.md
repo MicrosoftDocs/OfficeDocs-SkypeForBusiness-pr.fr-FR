@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conseils pour lancer un projet pilote pour à utiliser Microsoft Teams et découvrir tout ce que le client peut offrir à votre organisation tout en conservant Skype Entreprise."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4340e3fa6b6ebdaf20105cfa568d17d9d3802b4e
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: c78e687535a47e5a267e087b39253c793b4b3d8a
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Projet pilote d'utilisation de Microsoft Teams avec Skype Entreprise
 ============================================
@@ -32,7 +32,7 @@ Adaptée aux clients de Skype Entreprise actuels, la présente ressource fourni
 
 Conçu dans le but d'établir la préparation organisationnelle, un projet pilote consiste en une validation réaliste des ressources et procédures requises à plus large échelle avant le déploiement dans votre organisation.  Pour obtenir les résultats les plus pratiques, le programme pilote doit simuler le mode de communication et de collaboration actuel des utilisateurs, pour déterminer le scénario de déploiement idéal de Skype Entreprise et Microsoft Teams. Si votre organisation envisage d'exécuter Skype Entreprise et Teams côte à côte ou de passer ultérieurement à Teams, un projet pilote peut permettre d'identifier la bonne voie à suivre pour votre organisation. *Commençons !*
 
-![](media/pilot_essentials_image3.png)
+![Diagramme des étapes du processus pour un projet pilote.](media/pilot_essentials_image3.png)
 
 ## <a name="step-one-define-your-pilot-program-logistics"></a>Étape 1 : Définissez le cadre de votre programme pilote
 

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Guide pratique pour le déploiement de l’audioconférence dans Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5442f5bf11540f5429566bc683afaeb3a24ff4ac
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: c6791646b58111a9785430b6541c57972a15ab20
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="audio-conferencing-in-microsoft-teams"></a>Audioconférence dans Microsoft Teams
 =====================================
@@ -638,8 +638,7 @@ _Tableau 7 - exemple de liste d’habilitations de sites pour le service d’au
 [La licence pour l’audioconférence](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7?ui=en-US&rs=en-US&ad=US), appelée auparavant Licence de conférence PSTN Skype Entreprise, est disponible dans le cadre des plans d’abonnement Office 365 E5, ou en tant que complément des plans d’abonnement Office 365 E1 ou Office 365 E3.
 
 > [!NOTE]
-> La conférence PSTN ou rendez-vous dans Teams ne prend pas en charge les<sup></sup>-fournisseurs de service d’audioconférence tiers (ACP).
-> <br>Si vous utilisez déjà la conférence PSTN Skype Entreprise Online, vous pouvez bénéficier immédiatement de l’audioconférence dans Teams.
+> La conférence PSTN ou rendez-vous dans Teams ne prend pas en charge les<sup></sup>-fournisseurs de service d’audioconférence tiers (ACP). <br>Si vous utilisez déjà la conférence PSTN Skype Entreprise Online, vous pouvez bénéficier immédiatement de l’audioconférence dans Teams.
 
 Pour fournir des numéros gratuits de pont de téléconférence et pour prendre en charge les appels de téléconférence vers des numéros internationaux, vous devez configurer des [crédits de communication](https://support.office.com/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) pour votre organisation.
 
@@ -1098,7 +1097,7 @@ La fonctionnalité de système téléphonique d’Office 365 comporte deux type
 
 Le plan de numérotation efficace affecté aux utilisateurs est la combinaison du plan de numérotation de service (basé sur l’emplacement d’utilisation d’Office 365 des utilisateurs) et du plan de numérotation de client (il peut s’agir d’un plan de numérotation de client.global ou d'un plan de numérotation d’utilisateurs du client).
 
-![](media/audio_conferencing_image8.png)
+![Le tableau présente trois combinaisons de plans de numérotation de client et de service.](media/audio_conferencing_image8.png)
 
 Il existe 25 règles de normalisation au maximum dans chaque plan de numérotation de client, et le double emploi des règles de normalisation déjà disponibles dans le plan de numérotation de service doit donc être évité.
 

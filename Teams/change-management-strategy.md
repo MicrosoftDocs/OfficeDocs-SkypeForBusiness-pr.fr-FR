@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment élaborer une stratégie de gestion des modifications pour Microsoft Teams par le biais de l'identification de vos intervenants clés, des objectifs de l'entreprise, des mesures de réussite et la gestion de votre campagne."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 97f835f60777b5c6c907790fabc76dfaeeb1e268
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: faa2bf8247c4b4a3fc8827011423f8205e5c6b35
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Élaborer une stratégie de gestion des modifications pour Microsoft Teams
 =======================================================
@@ -48,16 +48,16 @@ La première règle d'une adoption réussie, consiste à créer une équipe dyna
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |Les **responsables exécutifs** sont les principaux dirigeants de l'organisation et leur participation est essentielle à l'adoption des employés. Ils exercent l'influence la plus marquée sur la culture de l'entreprise et peuvent activement communiquer les valeurs et avantages d'une nouvelle technologie et méthode.         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Les **propriétaires de service** sont chargés de s'assurer que les employés utilisent le service et en tirent parti. Il est important de désigner des propriétaires de service dans votre organisation pour assurer la réalisation des objectifs définis pour Office 365.         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obtenir l'appui de chaque utilisateur dans une organisation représente un véritable défi. Les **champions** peuvent contribuer à la réussite de ce défi et jouer un rôle important dans l'adoption d'Office 365. Ils disposent de connaissances, sont déterminés à approfondir leurs compétences et sont disposés à offrir un encadrement et une assistance. Ils aident à faire d'Office 365 une réalité dans leur service ou équipe.         |
+|![Icône Responsables exécutifs.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |Les **responsables exécutifs** sont les principaux dirigeants de l'organisation et leur participation est essentielle à l'adoption des employés. Ils exercent l'influence la plus marquée sur la culture de l'entreprise et peuvent activement communiquer les valeurs et avantages d'une nouvelle technologie et méthode.         |
+|![Icône Propriétaires de service.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Les **propriétaires de service** sont chargés de s'assurer que les employés utilisent le service et en tirent parti. Il est important de désigner des propriétaires de service dans votre organisation pour assurer la réalisation des objectifs définis pour Office 365.         |
+|![Icône Champions.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obtenir l'appui de chaque utilisateur dans une organisation représente un véritable défi. Les **champions** peuvent contribuer à la réussite de ce défi et jouer un rôle important dans l'adoption d'Office 365. Ils disposent de connaissances, sont déterminés à approfondir leurs compétences et sont disposés à offrir un encadrement et une assistance. Ils aident à faire d'Office 365 une réalité dans leur service ou équipe.         |
 
 Nous recommandons d'organiser des réunions périodiques des intervenants pour les tenir informés de l'avancement de votre programme. La formation d'un conseil de collaboration permettant d'échanger et de débattre peut être un outil utile basé sur la culture de votre entreprise.
 
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Conseil    |Les personnes les plus récalcitrantes au changement peuvent devenir vos meilleurs alliés dans le cadre d'un déploiement de cette nature. Nous vous encourageons à entamer un dialogue avec ces personnes le plus tôt possible et de manière fréquente pour connaître leurs préoccupations et questions. Souvent, leurs commentaires sont constructifs et peuvent contribuer à la réussite de votre campagne.         |
+|![Icône Conseil.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Conseil    |Les personnes les plus récalcitrantes au changement peuvent devenir vos meilleurs alliés dans le cadre d'un déploiement de cette nature. Nous vous encourageons à entamer un dialogue avec ces personnes le plus tôt possible et de manière fréquente pour connaître leurs préoccupations et questions. Souvent, leurs commentaires sont constructifs et peuvent contribuer à la réussite de votre campagne.         |
 
 <a name="user-profiles"></a>Profils utilisateur
 -------------
@@ -71,7 +71,7 @@ Comprendre le déroulement du travail quotidien de vos utilisateurs vous permett
 
 Identifier les personnes qui peuvent devenir vos champions de collaboration vous permet de former une équipe de soutien élargie pour votre implémentation. Créez une communauté et fournissez-lui un premier aperçu et des commentaires concernant vos projets. Tout investissement réalisé dans cette communauté, que ce soit en termes de temps, d'attention ou de récompense aura un effet sur votre implémentation qui bénéficiera de son soutien et son implication.
 
-![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
+![Graphique des actions qu'un champion peut effectuer.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
 
 Pour apprendre à créer un programme champion, choisissez [Créer un programme champion](https://go.microsoft.com/fwlink/?linkid=854665).
 

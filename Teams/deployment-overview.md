@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez la procédure de configuration d'un déploiement de Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e5cebc5102cb8a5e43b4542eba0817efe36ac5e4
-ms.sourcegitcommit: a32e7860a34918198ab9fa388f5bb217c15f9e6c
+ms.openlocfilehash: 3ed2ee9377c871b36407c5777f0829e9cd71ade3
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Présentation d'un déploiement de Microsoft Teams
 ========================================
@@ -31,7 +31,7 @@ Un processus typique d'installation de Microsoft Teams peut se présenter comme
 
 5.  Affinez et utilisez la stratégie et les apprentissages pour un lancement plus étendu.
 
-![](media/Overview_of_a_Microsoft_Teams_deployment_image1.png)
+![Diagramme des étapes du parcours de Teams : Évaluation technique et juridique, Évaluer/Préparer, Projet informatique pilote et enfin Lancement.](media/Overview_of_a_Microsoft_Teams_deployment_image1.png)
 
 Pendant le processus, l'une des premières utilisations de Microsoft Teams dans votre environnement est le projet informatique pilote. Envisagez d'utiliser ce groupe pilote pour aider votre équipe à planifier, présenter, utiliser Microsoft Teams et prendre contact avec les utilisateurs de l'entreprise.
 
@@ -44,13 +44,13 @@ Voici un exemple de la configuration d'une structure d'équipe / de canal vous p
 
 Cette configuration se présenterait comme suit dans Microsoft Teams :
 
-![](media/Overview_of_a_Microsoft_Teams_deployment_image2.png)
+![Présentation d'une équipe et de ses canaux dans Microsoft Teams](media/Overview_of_a_Microsoft_Teams_deployment_image2.png)
 
 
 ||||
 |---------|---------|---------|
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |Point de décision         |Quels canaux et équipes voulez-vous d'abord créer pour votre projet informatique pilote ?         |
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |Étapes suivantes         |Documentez vos équipes/canaux initiaux pour votre projet informatique pilote.         |
+|![Icône Point de décision.](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |Point de décision         |Quels canaux et équipes voulez-vous d'abord créer pour votre projet informatique pilote ?         |
+|![Icône Étapes suivantes.](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |Étapes suivantes         |Documentez vos équipes/canaux initiaux pour votre projet informatique pilote.         |
 
 
  

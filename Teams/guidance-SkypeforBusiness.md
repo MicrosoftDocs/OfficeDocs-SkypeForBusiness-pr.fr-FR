@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Guide d’utilisation de Skype Entreprise et Microsoft Teams côte à côte"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 760fa47db7965e0c2a74b01ae25f1d23d37d3180
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: b1a635fe4abb607064a0e26240ed58715fa43a8d
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Activer Microsoft Teams côte à côte avec Skype Entreprise 
 =============================================================
@@ -33,7 +33,7 @@ De manière générale, il existe deux parcours du client côte à côte princip
 
     Le service informatique contrôle l’expérience côte à côte, et présente Teams aux utilisateurs progressivement en leur présentant d’abord un nouvel espace de travail en collaboration basé sur la conversation avec des expériences de conversation privée puis de réunion, et enfin les expériences d’appels dans Teams.
 
-![](media/guidance_SkypeforBusiness_image1.png)
+![Diagramme de deux parcours du client côte-à-côte : Géré et non géré.](media/guidance_SkypeforBusiness_image1.png)
 
 <a name="side-by-side-benefits-and-considerations"></a>Avantages et inconvénients de l’expérience côte à côte
 ----------------------------------------
@@ -103,7 +103,7 @@ Chaque parcours présente des avantages et des inconvénients à évaluer pour d
 ---------------------------------------
 
 
-![](media/guidance_SkypeforBusiness_image4.png)
+![Diagramme de parcours du client côte à côte non géré.](media/guidance_SkypeforBusiness_image4.png)
 
 Dans un parcours du client côte à côte non géré, Teams est présenté comme solution de collaboration (espace de travail basé sur les conversations, canaux, applications, intégration avec les autres charges de travail Office 365, etc.) qui implique un logiciel client et un client Web sur les ordinateurs de bureau (PC ou Mac) et les appareils mobiles.
 
@@ -123,7 +123,7 @@ Ce parcours du client côte à côte peut s’appliquer à votre organisation, l
 <a name="managed-side-by-side-customer-journey"></a>Parcours du client côte à côte géré
 -------------------------------------
 
-![](media/guidance_SkypeforBusiness_image2.png)
+![Diagramme de parcours du client côte à côte géré.](media/guidance_SkypeforBusiness_image2.png)
 
 Un parcours du client côte à côte géré est la solution si l’organisation souhaite avoir plus de contrôle sur la manière dont Teams est introduit.
 

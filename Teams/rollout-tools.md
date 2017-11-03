@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez les outils qui vous aideront à lancer Microsoft Teams tels que des modèles d'e-mail, des guides de prise en main, un kit de réussite des clients, et plus encore."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d1b55c00109f60005fe7813bcfb82c4e56ed5aef
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: db70e78e57895497183d20e99282ccc1e7654e1d
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Obtenir des outils d'assistance pour le lancement de Microsoft Teams
 =================================================
@@ -27,6 +27,6 @@ Microsoft Teams est conçu pour favoriser la collaboration et associe la simpli
 
 ||||
 |---------|---------|---------|
-|![](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image1.png)     | Point de décision        | <ul><li>Quelle est votre stratégie de gestion des modifications ?</li><li>Comment votre organisation traite-t-elle la gestion des modifications pour d'autres lancements de technologie ?</li><li>Qui sont vos responsables exécutifs, champions, propriétaires de service/administrateurs informatiques qui influenceront la réussite de Teams dans votre organisation ?</li><li>Quel sera votre groupe pilote ?</li></ul>  |
-|![](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image2.png)     |Étapes suivantes | <ul><li>Élaborez une stratégie de gestion des modifications et d'adoption pour Microsoft Teams à l'aide des meilleures pratiques.</li><li>Présentez le kit de réussite des clients et les guides de prise en main aux champions et responsables d'équipe pour commencer à créer une équipe interne de champions pour Microsoft Teams.</li></ul> |
+|![Icône Point de décision.](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image1.png)     | Point de décision        | <ul><li>Quelle est votre stratégie de gestion des modifications ?</li><li>Comment votre organisation traite-t-elle la gestion des modifications pour d'autres lancements de technologie ?</li><li>Qui sont vos responsables exécutifs, champions, propriétaires de service/administrateurs informatiques qui influenceront la réussite de Teams dans votre organisation ?</li><li>Quel sera votre groupe pilote ?</li></ul>  |
+|![Icône Étapes suivantes.](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image2.png)     |Étapes suivantes | <ul><li>Élaborez une stratégie de gestion des modifications et d'adoption pour Microsoft Teams à l'aide des meilleures pratiques.</li><li>Présentez le kit de réussite des clients et les guides de prise en main aux champions et responsables d'équipe pour commencer à créer une équipe interne de champions pour Microsoft Teams.</li></ul> |
 

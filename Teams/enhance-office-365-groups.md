@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment améliorer les groupes Office 365 avec Microsoft Teams en invitant une liste de distribution à rejoindre une équipe, en ajoutant des groupes de sécurité à extension messagerie, etc."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c39a1098e15f8656dad71ea85d069a46c642d73c
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: 80e76b5dbdaddaca2d4c917e33a3d0870626042e
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Améliorer les groupes Office 365 existants avec Microsoft Teams
 =======================================================
@@ -24,11 +24,11 @@ Pour cela, les utilisateurs doivent réaliser le processus de création d'une é
 
 |  |  |
 |---------|---------|
-|![](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image1.png)<br></br>Important     |Seuls les propriétaires de groupe Office 365 sont autorisés à améliorer un groupe existant avec Microsoft Teams.         |
+|![Icône Important.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image1.png)<br></br>Important     |Seuls les propriétaires de groupe Office 365 sont autorisés à améliorer un groupe existant avec Microsoft Teams.         |
 
 Les utilisateurs peuvent également inviter une liste de distribution à rejoindre une équipe et les membres de cette liste seront alors ajoutés à l'équipe. Il s'agit d'une synchronisation unique : aucune modification apportée ultérieurement à la liste de distribution ne sera répliquée dans Teams. 
 
-![](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
+![Captures d'écran d'une séquence présentant l'invitation d'une liste de distribution et de ses membres à une équipe.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 
 Vous pouvez également ajouter des groupes de sécurité à extension messagerie en tant que membres d'une équipe. En revanche, si par la suite vous ajoutez des membres au groupe de sécurité, ils ne seront pas automatiquement ajoutés à l'équipe. Vous devez ajouter les nouveaux membres séparément ou ajouter à nouveau le groupe de sécurité à l'équipe. Si vous ajoutez à nouveau le groupe de sécurité, la fonction de déduplication vérifie que les membres n'ont été ajoutés qu'une seule fois.
 
