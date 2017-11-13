@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Ce document présente les fonctionnalités de sécurité et de conformité de Microsoft Teams, notamment les fonctions d'audit, de rapport, de recherche de contenu de conformité, eDiscovery, etc."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d42457165fae8e23181d7e7f4fe50ea30938dfd3
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 6cca28ee5cd96d24e4b0da0a29748e0cf383eb0c
+ms.sourcegitcommit: a315fbbb6a5337c32c9312550ee05fd9185020db
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/02/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
@@ -119,7 +119,14 @@ La recherche de contenu et eDiscovery ne requièrent pas l'activation dans le Ce
 <a name="location-of-data-in-microsoft-teams"></a>Emplacement des données dans Microsoft Teams
 -----------------------------------
 
-Les données dans Teams résident dans la région d'affinité du client. Actuellement, Teams prend en charge les régions Amériques, EMEA et APAC. À l'avenir, Teams proposera la prise en charge de GoLocal, grâce à laquelle les données resteront dans le pays du client, et pas seulement dans sa région. Restez informé des futures mises à jour grâce à la [*feuille de route Office 365*](https://go.microsoft.com/fwlink/?linkid=855778).
+Les données dans Teams résident dans la région d'affinité du client. Actuellement, Teams prend en charge les régions Amériques, EMEA et APAC. 
+
+En date du 1 novembre 2017, Teams offre la résidence des données au Royaume-Uni, pour les nouveaux clients uniquement. Tout client qui ne possédait pas d'utilisateur unique inscrit dans Microsoft Teams est considéré comme un nouveau client.
+
+> [!NOTE]
+> Les clients existants du Royaume-Uni resteront dans la région EMEA, jusqu'à la publication d'un plan de migration (prévue pour 2018).
+
+Pour plus d'informations, consultez [l'article de blog](https://go.microsoft.com/fwlink/p/?linkid=862275) de la communauté technique Microsoft Teams relatif au lancement de la résidence de données au Royaume-Uni.
 
 <a name="privacy-in-microsoft-teams"></a>Confidentialité dans Microsoft Teams
 --------------------------
