@@ -2,17 +2,17 @@
 title: "Ajouter des bots à des conversations et des canaux privés dans Microsoft Teams | Support Microsoft"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Découvrez comment ajouter des bots dans Microsoft Teams pour des conversations et des canaux privés, créer des bots personnalisés et charger une version test de votre propre bot pour une conversation privée."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b1473a621f9f40ef3220546988db0635721acb7c
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 1ada4bbc135498abe62fa721ad6814f1f67fb841
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Ajouter des bots à des conversations et des canaux privés dans Microsoft Teams
 ==========================================================
@@ -60,7 +60,7 @@ Les bots peuvent être testés à l'aide de l'[émulateur Bot Framework](https:/
 <a name="side-load-your-own-bot-for-private-chat"></a>Chargement de version test de votre propre bot pour une conversation privée
 ---------------------------------------
 
-1.  Lorsque vous avez créé votre bot, accédez à la [page](https://go.microsoft.com/fwlink/?linkid=854374) de **tableau de bord du bot** que vous avez développé et sous **Détails**, copiez l'**ID d'application Microsoft**.
+1.  Lorsque vous avez créé votre bot, accédez à la [page](https://go.microsoft.com/fwlink/?linkid=854374) de **tableau de bord**  du bot que vous avez développé et sous **Détails**, copiez l'**ID d'application Microsoft**.
 
 ![Capture d'écran de la page détaillée d'un bot avec l'ID d'application Microsoft mis en évidence.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 

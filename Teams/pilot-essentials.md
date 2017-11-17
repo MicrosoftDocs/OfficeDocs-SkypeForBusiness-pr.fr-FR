@@ -2,17 +2,17 @@
 title: "Projet pilote d'utilisation de Microsoft Teams avec Skype Entreprise"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Conseils pour lancer un projet pilote pour à utiliser Microsoft Teams et découvrir tout ce que le client peut offrir à votre organisation tout en conservant Skype Entreprise."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c78e687535a47e5a267e087b39253c793b4b3d8a
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 563ade26ec8e9a86806751b19f36548560a264f1
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Projet pilote d'utilisation de Microsoft Teams avec Skype Entreprise
 ============================================
@@ -79,7 +79,7 @@ Un programme pilote formel doit définir la voie à suivre et inclure une équip
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Action suivante :</strong><ul><li>Formez votre équipe pour le programme pilote.</li><li>Établissez les scénarios d'entreprise et les fonctionnalités que vous testerez dans le cadre de votre projet pilote.</li><li>Finalisez vos critères de réussite et objectifs.</li><li>Établissez la chronologie de votre projet pilote.</li></ul></td>
+<td align="left"><strong>Actions suivantes :</strong><ul><li>Formez votre équipe pour le programme pilote.</li><li>Établissez les scénarios d'entreprise et les fonctionnalités que vous testerez dans le cadre de votre projet pilote.</li><li>Finalisez vos critères de réussite et objectifs.</li><li>Établissez la chronologie de votre projet pilote.</li></ul></td>
 </tr>
 </thead>
 <tbody>
@@ -141,7 +141,11 @@ Informer les participants de l'expérience, du calendrier et des motifs du progr
 
 Une fois votre cadre entièrement défini, vous êtes désormais prêt à lancer votre programme pilote. Exécuter votre projet pilote inclut de communiquer avec les participants, de surveiller votre réseau/l'utilisation pour assurer l'intégrité de la qualité, recueillir les commentaires, et examiner les questions des tickets de support technique liés à Teams.
 
-Voici une proposition de déroulement d'un projet pilote sur 30 jours :
+> [!IMPORTANT]
+> Teams est activé par défaut, mais avant de commencer votre projet pilote, assurez-vous que Teams est activé pour tous les utilisateurs pilotes. Pour obtenir de l’aide, consultez la rubrique [Activer les fonctionnalités Microsoft Teams dans votre organisation Office 365](enable-features-office-365.md).
+> 
+
+Voici une suggestion de calendrier pour un projet pilote de 30 jours :
 
 -   Une semaine avant le lancement du projet pilote : Envoyer une communication initiale aux participants
 

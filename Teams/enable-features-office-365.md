@@ -2,28 +2,29 @@
 title: "Activer les fonctionnalités Microsoft Teams dans votre organisation Office 365 | Support Microsoft"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Découvrez toutes les fonctionnalités Microsoft Teams que vous pouvez activer dans votre organisation Office 365, y compris des paramètres à l'échelle du client, des intégrations de messagerie, des applications, le stockage cloud et bien d'autres."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a336d04bf8a296e608eb80796d16ba1f7dc3ed74
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 7c626acc5e9fe4d19d7198ea023df155ff427f40
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Activer les fonctionnalités Microsoft Teams dans votre organisation Office 365
 ======================================================
 
-Microsoft Teams dispose de multiples paramètres qui peuvent être activés ou désactivés au niveau du client. Lorsque Microsoft Teams est activé pour le client, tous les utilisateurs pour lesquels Microsoft Teams est également activé hériteront des paramètres du niveau client.
+Microsoft Teams dispose de multiples paramètres qui peuvent être activés ou désactivés au niveau du client. Lorsque Teams est activé pour le client, tous les utilisateurs pour lesquels Teams est également activé hériteront des paramètres du niveau client.
 
-Voici une liste des fonctionnalités qu'un administrateur Office 365 peut activer ou désactiver dans Microsoft Teams.
+Voici une liste des fonctionnalités qu'un administrateur Office 365 peut activer ou désactiver dans Teams.
 
 Sauf indication contraire, une option est activée par défaut.
 
-Note : Un administrateur Office 365 peut désactiver Microsoft Teams à tout moment via le Centre d'administration Office 365. Notez que la vignette de Microsoft Teams s'affichera toujours pour les utilisateurs disposant de licences actives pour l'application même si vous la désactivez. Pour plus d'informations sur la suppression de licences, reportez-vous à la rubrique Gestion de l'accès des utilisateurs aux licences Microsoft Teams. Une fois l'application désactivée, l'accès à partir du client Microsoft Teams est bloqué, mais les données disponibles au moyen d'autres clients et services restent accessibles, telles que les fichiers disponibles via SharePoint et OneDrive. Toutes les données restent en place à moins que les équipes aient été explicitement supprimées.
+> [!NOTE]
+> Un administrateur Office 365 peut désactiver Microsoft Teams à tout moment via le Centre d'administration Office 365. Notez que la vignette de Microsoft Teams s'affichera toujours pour les utilisateurs disposant de licences actives pour l'application même si vous la désactivez. Pour plus d'informations sur la suppression de licences, reportez-vous à la rubrique [Gestion de l'accès des utilisateurs à Microsoft Teams](user-access.md). Une fois l'application désactivée, l'accès à partir du client Teams est bloqué, mais les données disponibles au moyen d'autres clients et services restent accessibles, telles que les fichiers disponibles via SharePoint et OneDrive. Toutes les données restent en place à moins que les équipes aient été explicitement supprimées.
 
 <a name="tenant-wide-settings"></a>Paramètres à l'échelle du client 
 ---------------------

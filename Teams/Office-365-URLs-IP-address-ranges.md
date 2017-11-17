@@ -2,17 +2,17 @@
 title: "URL et plages d'adresses IP Office 365 | Support Microsoft"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Découvrez comment configurer des URL et plages d'adresses IP Office 365, contourner le proxy de transfert lorsque cela est possible pour les connexions au service Microsoft Teams, et les conditions requises pour les stratégies de mise en réseau et de sécurité."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a226a2d541119c61a3538c86f3502defb739147d
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 4f356a19ee7df9bd7a21867fdcbff6087a5b4aaa
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>URL et plages d'adresses IP Office 365
 =====================================

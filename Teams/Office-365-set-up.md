@@ -2,28 +2,33 @@
 title: "Configurer Microsoft Teams dans votre organisation Office 365| Support Microsoft"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Découvrez comment configurer Microsoft Teams dans votre organisation Office 365."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 8dafe7ce0f6531f37c85b0fa0bea7c824b276ed2
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 4ff25a452f2ce493bdb1ae8d556f08584d32d669
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Configurer Microsoft Teams dans votre organisation Office 365
 ======================================================
 
-Par défaut, Microsoft Teams est activé pour les organisations qui n'ont pas essayé la version d'évaluation de Microsoft Teams. Dans le cas d'organisations qui ont testé la version d'évaluation, le paramètre demeure tel qu'il était défini préalablement à la disponibilité générale de Microsoft Teams.
+Par défaut, Teams est activé pour toutes les organisations. Si vous utilisiez Teams lors de la période d’évaluation, sa configuration reste identique à celle que vous aviez définie pendant sa période d’évaluation.
 
-En tant qu’administrateur de votre organisation, vous pouvez affecter des licences pour contrôler l'accès par utilisateur à Microsoft Teams. Vous pouvez également choisir les sources de contenu qui peuvent être utilisées dans Microsoft Teams. Consultez [Paramètres de l’administrateur de Microsoft Teams](https://support.office.com/article/3966a3f5-7e0f-4ea9-a402-41888f455ba2) pour obtenir plus d’informations.
 
-Les organisations qui souhaitent modifier l'activation ou non de Microsoft Teams peuvent appliquer la procédure ci-dessous à leur client Office 365 :
+En tant qu’administrateur de votre organisation, vous pouvez affecter des licences pour contrôler l'accès par utilisateur à Teams. Vous pouvez également choisir les sources de contenu qui peuvent être utilisées dans Teams. Pour plus d'informations, consultez la rubrique [Paramètres de l’administrateur de Microsoft Teams](https://support.office.com/article/3966a3f5-7e0f-4ea9-a402-41888f455ba2).
 
-1.  Connectez-vous au [Centre d'administration Office 365](https://go.microsoft.com/fwlink/?linkid=854665) avec un compte disposant de privilèges d'administrateur général.
+Pour en savoir plus sur la gestion des licences individuelles, consultez la rubrique [Licence Office 365 pour Microsoft Teams](Office-365-licensing.md).
+
+
+## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>Activer ou désactiver Teams pour l’ensemble de l’organisation
+
+
+1.  Connectez-vous au [Centre d'administration Office 365](https://go.microsoft.com/fwlink/?linkid=854614) avec un compte disposant de privilèges d'administrateur général.
 
 2.  Accédez à **Paramètres** > **Services et compléments**.
 
@@ -33,11 +38,10 @@ Les organisations qui souhaitent modifier l'activation ou non de Microsoft Team
 
     ![Capture d'écran de la plage Services et compléments avec Microsoft Teams sélectionné.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-4.  Pour activer Microsoft Teams pour l'organisation, définissez le **commutateur** sur **Activé**, puis cliquez sur **Enregistrer**.
+4.  Pour activer Teams pour l’organisation, définissez le commutateur sur **Activé**, puis cliquez sur **Enregistrer**.
 
     ![Captures d'écran de la page de paramètres Microsoft Teams affichant la bascule sur Activé pour activer Microsoft Teams.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
 
 
-|  | |
-|---------|---------|
-|![Icône Note.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.png)<br></br>Remarque     |La fonctionnalité de niveau client permettant de contrôler le statut Activé/Désactivé de Microsoft Teams est temporaire et sera supprimée ultérieurement. Pour le moment, l'accès à Microsoft Teams est contrôlé via l'octroi de licence de niveau utilisateur uniquement.         |
+> [!NOTE]
+> Le contrôle au niveau client du statut Activé/Désactivé de Teams est temporaire et sera supprimée ultérieurement. Pour le moment, l'accès à Teams est contrôlé via l'octroi d’une licence de niveau utilisateur uniquement. 
