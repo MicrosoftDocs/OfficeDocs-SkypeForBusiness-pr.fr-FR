@@ -1,19 +1,19 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: 54891050d68ca655fb353b7a425e3ded19e5b91d
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f2ed48030033436cecebb73e6cafba2d8494b6ed
+ms.sourcegitcommit: 3a85439009e9b3f85d5757c63db82d4ba3b622df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/15/2017
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Bienvenue dans le contenu Office de docs.microsoft.com
-## <a name="h2-header"></a>En-tête H2
+## <a name="this-is-a-level-2-heading"></a>Il s'agit d'un titre de niveau 2
 ### <a name="h3-header"></a>En-tête H3
 
 *italique*
 **gras** texte [voici un lien](Office-365-groups.md)
 
-texte alternatif
+![texte alternatif](media/Overview-Microsoft-Teams-image1.png)
 1. élément 2
 2. élément 3
 3. élément 4

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conseils pour lancer un projet pilote pour à utiliser Microsoft Teams et découvrir tout ce que le client peut offrir à votre organisation tout en conservant Skype Entreprise."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 563ade26ec8e9a86806751b19f36548560a264f1
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 4cfbf9fa1e5f06281564e5e9fa61e66aaa9090b3
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/16/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Projet pilote d'utilisation de Microsoft Teams avec Skype Entreprise
 ============================================
@@ -109,7 +109,7 @@ En vue d'une validation optimale, envisagez d'inclure 2 à 5 % de votre base d'
 
 ## <a name="step-three-design-your-test-plan-and-feedback-survey"></a>Étape 3 : Concevez votre plan de test et une enquête de retour d'expérience
 
-Une expérience pilote fructueuse fournit à vos participants des tâches clairement définies à réaliser et un mécanisme de transmission de commentaires. Votre organisation peut choisir de tester toutes les fonctionnalités à la fois, ou d'appliquer une approche progressive (par ex. : collaboration, puis réunions, puis conversations et appels). Une enquête prédéfinie permet de capturer et d'évaluer facilement les résultats du projet pilote et doit s'appuyer sur les scénarios/fonctionnalités du plan de test.
+Une expérience pilote fructueuse fournit à vos participants des tâches clairement définies à réaliser et un mécanisme de transmission de commentaires. Regroupez des tâches pour présenter vos scénarios de situation réelle à vos utilisateurs et leur pertinences dans leurs activités quotidiennes. Votre organisation peut choisir de tester toutes les fonctionnalités à la fois, ou d'appliquer une approche progressive (par ex. : première collaboration pilote, puis réunions, puis conversations et appels). Veillez à ouvrir un canal de commentaires pour suivre l'avancement et évaluer les résultats. Une enquête prédéfinie permet de capturer et d'évaluer facilement les résultats du projet pilote et doit s'appuyer sur les scénarios/fonctionnalités du plan de test.
 
 <table>
 <thead>

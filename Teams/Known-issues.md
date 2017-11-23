@@ -3,25 +3,28 @@ title: "Problèmes connus pour Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 11/15/2017
 ms.topic: article
 ms.service: msteams
 description: "Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0f90929f2af5d72df5851d25a2456b4613fd5613
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: a065472b87ee61a7f910741beadb97ebfbb2ed5c
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/16/2017
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
- [Aide de Microsoft Teams](microsoft-teams-help.md) > [Bureau et web](microsoft-teams-help.md#BKMK_DesktopAndWeb) > Problèmes connus pour Microsoft Teams Mise à jour : 14 septembre 2017 
   
 Le tableau suivant présente les problèmes connus pour Microsoft Teams.
 ## 
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
+|Les clients des pays de l'UE et de la région APAC reçoivent une erreur lorsqu'ils ajoutent un utilisateur invité à partir d'un autre client.    <br/> | Les clients des pays de l'UE et de la région APAC subissent un retard de réplication entre Microsoft Teams et Azure Active Directory. Lorsqu'un utilisateur d'un client d'un pays de l'UE ou de la région APAC tente d'ajouter un utilisateur invité d'un autre client, il reçoit un message d'erreur indiquant de réessayer.   <br/> |Cliquez sur le bouton Réessayer pour ajouter l'utilisateur invité.  <br/> |08/11/2017  <br/> |
+|Lorsque vous tentez d'ouvrir Teams sur Internet Explorer ou Edge, une boucle se produit ou le programme se bloque et ne se connecte pas.   <br/> | Votre organisation utilises la fonction de sites approuvés dans Internet Explorer et l'application Web Teams n'est pas correctement journalisée car les sites approuvés pour Teams ne sont pas autorisés. <br/>|Dans les paramètres d'IE, effectuez les modifications suivantes à l'aide de droits d'administrateur ou d'un objet de stratégie de groupe :<br/><ol><li>SousOptions Internet &gt; Confidentialité &gt; Avancé, acceptez les cookies internes et tiers et sélectionnez la case Toujours autoriser les cookies de la session.</li><li>Cliquez sur Options Internet &gt; Sites approuvés &gt; Sites, et ajoutez les adresses suivantes :<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>REMARQUE</b> : Validez et autorisez toujours les URL approuvées pour Teams et les conditions requises figurant dans le document suivant : [URL et plages d'adresses IP Office 365](httpds://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).   <br/> <br/>|11/11/2017  <br/> |
+|Le chargement de photos dans Teams n'est pas bloqué dans OWA/Outlook comme le requiert la stratégie   <br/> | Teams permet aux utilisateurs de charger des photos directement dans Office 365, en dépit des paramètres de stratégie définis pour empêcher cette action dans OWA.   <br/> <br/> ||16/10/2017  <br/> |
+|Une URL Teams contenant des paramètres est tronquée après la redirection de la connexion  <br/> | Dans Internet Explorer et Edge, lorsque vous ouvrez un lien de fichier partagé dans une application Web Teams pour la première fois après votre connexion, vous êtes redirigé vers le document incorrect. Si vous êtes déjà connectés à l'application Web Teams et que vous cliquez sur le lien de fichier partagé, cela fonctionne comme prévu.   <br/> <br/> ||11/10/2017  <br/> |
 |Prise en charge du client web par Safari  <br/> |Les utilisateurs qui essayent d'ouvrir le client web de Microsoft Teams dans Safari sont redirigés pour télécharger le client de bureau. Microsoft étudie la prise en charge de Safari et communiquera les mises à jour au moyen de la Feuille de route d'Office 365.  <br/> |Utilisez les navigateurs pris en charge : Microsoft Edge 12+, Internet Explorer 11+, Firefox 47.0+ et Chrome 51.0+.  <br/> |02.11.2016  <br/> |
 |Les utilisateurs ne peuvent pas recréer un nom de canal préexistant.  <br/> |Une fois qu'un nom de canal a été défini, même si le canal est supprimé, le nom ne peut pas être réutilisé. Notre système conserve ces données pour des raisons de protection des informations.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
 |Impossible d'insérer des autocollants depuis l'application mobile  <br/> |Vous ne pouvez pas utiliser des autocollants depuis les applications mobiles.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
