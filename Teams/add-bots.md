@@ -44,7 +44,7 @@ Il existe deux méthodes pour intégrer un bot aux conversations et canaux priv�
 
 5.  De même, pour utiliser un bot dans le canal d'une équipe, cliquez simplement sur **Afficher l'équipe et les bots**. Vous pouvez rechercher d'autres bots ici.
 
-6.  À tout moment, un bot peut être supprimé de l'équipe. Cliquez simplement sur **Afficher l'équipe et les bots,** pour afficher tous les bots puis **supprimez ** celui de votre choix.
+6.  À tout moment, un bot peut être supprimé de l'équipe. Cliquez simplement sur **Afficher l'équipe et les bots,** pour afficher tous les bots puis **supprimez** celui de votre choix.
 
 ![Capture d'écran de l'onglet Bots qui affiche la description d'AzureBot.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image4.png)
 
