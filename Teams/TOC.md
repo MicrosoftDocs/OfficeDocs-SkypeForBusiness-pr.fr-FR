@@ -85,4 +85,6 @@
 ## [Dépannage des problèmes de connectivité avec le client Microsoft Teams](connectivity-issues.md)
 ## [Utiliser des fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
 
+
 # [Documentation destinée aux développeurs pour Teams](https://docs.microsoft.com/microsoftteams/platform)
+

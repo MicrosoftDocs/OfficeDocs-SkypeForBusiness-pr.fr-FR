@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez toutes les fonctionnalités Microsoft Teams que vous pouvez activer dans votre organisation Office 365, y compris des paramètres à l'échelle du client, des intégrations de messagerie, des applications, le stockage cloud et bien d'autres."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7c626acc5e9fe4d19d7198ea023df155ff427f40
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: e2235756e77c3e27c1eeee9fd22decb5e0e4e062
+ms.sourcegitcommit: db47b9f4955150859bc35ab9d078fa3ab66b5faa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/20/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Activer les fonctionnalités Microsoft Teams dans votre organisation Office 365
 ======================================================
@@ -110,8 +110,6 @@ Par défaut, un client Office 365 peut actuellement contenir 500 000 équipes
 Les canaux sont des sous-catégories d'équipes. Chacun des membres de l'équipe peut ajouter des canaux et participer à des conversations dans un canal. Vous pouvez créer un canal pour une activité ou un service. Les conversations, fichiers et pages wiki sont propres à chaque canal, mais tous les membres de l'équipe peuvent les afficher.
 
 ### <a name="calls-and-meetings"></a>Appels et réunions
-
-Les canaux sont des sous-catégories d'équipes. Chacun des membres de l'équipe peut ajouter des canaux et participer à des conversations dans un canal. Vous pouvez créer un canal pour une activité ou un service. Les conversations, fichiers et pages wiki sont propres à chaque canal, mais tous les membres de l'équipe peuvent les afficher.
 
 La section **Appels et réunions** vous permet de configurer les paramètres suivants pour votre organisation :
 
