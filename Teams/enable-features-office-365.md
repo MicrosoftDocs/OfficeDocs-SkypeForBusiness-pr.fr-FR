@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez toutes les fonctionnalités Microsoft Teams que vous pouvez activer dans votre organisation Office 365, y compris des paramètres à l'échelle du client, des intégrations de messagerie, des applications, le stockage cloud et bien d'autres."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e2235756e77c3e27c1eeee9fd22decb5e0e4e062
-ms.sourcegitcommit: db47b9f4955150859bc35ab9d078fa3ab66b5faa
+ms.openlocfilehash: c785e554034cd87fd27f5137f206c8dc0e5f972a
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Activer les fonctionnalités Microsoft Teams dans votre organisation Office 365
 ======================================================
@@ -56,7 +56,7 @@ Activez cette fonctionnalité pour permettre aux utilisateurs d'envoyer un e-mai
 
 La section Intégration de la messagerie vous permet de configurer les paramètres suivants pour votre organisation :
 
-   ![Capture d'écran de la section Intégration de la messagerie dans les paramètres à l'échelle du client.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
+   ![Capture d'écran de la section Intégration de la messagerie dans les paramètres à l'échelle du client.](media/QS-edu-email-integration.png)
 
 -   **Autoriser les utilisateurs à envoyer des e-mails aux canaux :** Lorsque ce paramètre est activé, des hooks de messagerie sont activés et les utilisateurs peuvent publier des messages dans un canal en envoyant un e-mail à l'adresse de messagerie du canal Microsoft Teams.
 
