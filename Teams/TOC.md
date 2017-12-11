@@ -63,6 +63,7 @@
 ## [3 - Activer Teams avec Skype Entreprise](guidance-SkypeforBusiness.md)
 ## [4 - Apporter de la valeur grâce à l'adoption par les utilisateurs](continue-journey.md)
 ## [FAQ - Vision autour de Skype Entreprise et Teams](FAQ-journey.md)
+## [Didacticiel : Transition de Skype Entreprise à Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
 # Vidéos et formation
 ## [Préparation à Microsoft Teams pour les administrateurs informatiques](ITAdmin-readiness.md)
