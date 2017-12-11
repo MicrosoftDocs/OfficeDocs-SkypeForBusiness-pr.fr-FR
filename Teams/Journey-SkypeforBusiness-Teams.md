@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Tout ce que vous devez savoir sur la transition de Skype Entreprise Online vers Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fa3f44cf32f18383ed1258d768050d7494afe865
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 7616975c9395b6fa1219deb576b7ceff29d89bb7
+ms.sourcegitcommit: 5814969da48133214d2f9ea04d6790ebe102d691
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/01/2017
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Transition de Skype Entreprise à Microsoft Teams
 ==================================================
@@ -20,6 +20,8 @@ ms.lasthandoff: 11/08/2017
 Dans la perspective des [communications intelligentes](https://aka.ms/intelligentcommunicationsblog) de Microsoft d'offrir des expériences d'appel et de réunion, Microsoft intègre actuellement les fonctionnalités de Skype Entreprise à Teams. Celles-ci seront disponibles petit à petit, afin que Teams devienne l'unique expérience client. Microsoft apprécie vivement de vous compter parmi ses clients et, en tant que tel, nous vous aiderons à chaque étape  de votre passage vers Teams. Nous savons que le changement demande du temps, c'est pourquoi nous vous recommandons d'explorer Teams dès aujourd'hui pour découvrir les avantages qu'il peut offrir à votre organisation, tout en continuant à utiliser Skype Entreprise. 
 
 Consultez [la feuille de route de Teams](https://aka.ms/TeamsRoadmap) pour rester informé des nouveautés relatives à ce produit et définir le meilleur moment pour que votre organisation fasse la transition.
+
+La [feuille de route de l'évolution des fonctionnalités entre Skype Entreprise et Microsoft Teams](https://aka.ms/skype2teamsroadmap) est un formidable outil pour rester informé lors de la transition de Skype Entreprise à Teams. Il s'agit d'un fichier au format PDF (pour l'instant uniquement disponible en anglais) à télécharger indiquant les fonctionnalités que Microsoft souhaite récupérer de Skype Entreprise pour Teams.
 
 Pour obtenir des résultats optimaux, nous vous conseillons de suivre les instructions pour :
 
@@ -35,7 +37,11 @@ Pour obtenir des résultats optimaux, nous vous conseillons de suivre les instru
 
  
 ### <a name="see-also"></a>Voir aussi
+[Didacticiel : Transition de Skype Entreprise à Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+
 [FAQ - Vision autour de Skype Entreprise et Teams](FAQ-journey.md)
+
+[Feuille de route de l'évolution des fonctionnalités entre Skype Entreprise et Microsoft Teams](https://aka.ms/skype2teamsroadmap)
 
 
 

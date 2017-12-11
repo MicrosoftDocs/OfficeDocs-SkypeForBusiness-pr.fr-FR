@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Forum aux questions sur le passage de Skype Entreprise à Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ffb09f4ef21828a8f0613bfa9402aa69263237d6
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 4303b59bb7044af57973fa1606338f5c4f6e2e5e
+ms.sourcegitcommit: 5814969da48133214d2f9ea04d6790ebe102d691
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/01/2017
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>FAQ - Transition de Skype Entreprise à Microsoft Teams
 ==========================================================
@@ -31,6 +31,8 @@ Les utilisateurs travaillant de plus en plus en équipe, il nous est apparu oppo
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>Les clients doivent-ils passer de Skype Enteprise Online à Teams à une date précise ? 
 
 Nous mettrons à disposition notre feuille de route pour Microsoft Teams, de sorte que les clients puissent évaluer les fonctionnalités de Teams par rapport à leurs besoins et planifier leur transition vers Teams. Les clients peuvent définir le calendrier qui leur convient au mieux pour passer à Teams.
+
+La [feuille de route de l'évolution des fonctionnalités entre Skype Entreprise et Microsoft Teams](https://aka.ms/skype2teamsroadmap) est un formidable outil pour rester informé lors de la transition de Skype Entreprise à Teams. Il s'agit d'un fichier au format PDF (pour l'instant uniquement disponible en anglais) à télécharger indiquant les fonctionnalités que Microsoft souhaite récupérer de Skype Entreprise pour Teams.
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Qu'adviendra-t-il de Skype Entreprise Server ? 
 
