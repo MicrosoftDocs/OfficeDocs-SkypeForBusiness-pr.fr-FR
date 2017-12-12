@@ -57,7 +57,7 @@ Vous devez être un [À propos des rôles d'administrateur Office 365](https://s
     
 ## Vous voulez utiliser Windows PowerShell ?
 
-Pour automatiser cette étape, vous pouvez utiliser les applets de commande [Set-Csonlinedialinconferencingservicenumberhttp://go.Microsoft.com/fwlink/?LinkId=617689 ](https://go.microsoft.com/fwlink/?LinkId=617689) et[Get-CsOnlineDialInConferencingLanguagesSupported ](https://go.microsoft.com/fwlink/?LinkId=617684) .
+Pour automatiser cette étape, vous pouvez utiliser les applets de commande [Set-Csonlinedialinconferencingservicenumber ](https://go.microsoft.com/fwlink/?LinkId=617689) et [Get-CsOnlineDialInConferencingLanguagesSupported ](https://go.microsoft.com/fwlink/?LinkId=617684) .
   
 Pour plus d'informations, voir Utilisation de Windows PowerShell pour effectuer courantes Skype entreprise Online tâches de gestion de[](https://go.microsoft.com/fwlink/?LinkId=525038)
   
