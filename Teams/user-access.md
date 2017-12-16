@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment activer ou désactiver le niveau d'accès par utilisateur."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 252dfa4c739fddd152c54a38dff71255706bb1ef
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 5bf8a487a7931ff91e754c1e84839b75535ca3c9
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gérer l'accès des utilisateurs à Microsoft Teams
 =====================================
@@ -21,9 +21,10 @@ Au niveau utilisateur, l'accès à Microsoft Teams peut être activé ou désac
 
 Actuellement, hormis l'affection ou la suppression de licence, il n'existe aucune option de stratégie, ni sous-ensemble de fonctionnalités, permettant d'activer ou de désactiver Microsoft Teams de manière individuelle.
 
-| | |
-|---------|---------|
-|![Icône Note.](media/Manage_user_access_to_Microsoft_Teams_image1.png)<br></br>Remarque |Microsoft recommande d'activer Microsoft Teams pour tous les utilisateurs dans l'entreprise de manière à pouvoir créer des équipes organiques pour des projets et autres initiatives dynamiques. Même dans le cas de groupes pilote, il peut toujours être utile d'activer Microsoft Teams pour tous les utilisateurs, tout en ciblant uniquement les communications au groupe pilote d'utilisateurs. |
+
+
+> [!NOTE]
+>Microsoft recommande d'activer Microsoft Teams pour tous les utilisateurs dans l'entreprise de manière à pouvoir créer des équipes organiques pour des projets et autres initiatives dynamiques. Même dans le cas de groupes pilote, il peut toujours être utile d'activer Microsoft Teams pour tous les utilisateurs, tout en ciblant uniquement les communications au groupe pilote d'utilisateurs.
 
 Les licences Microsoft Teams de niveau utilisateur sont directement gérées via les interfaces de gestion utilisateur du centre d'administration Office 365. Un administrateur peut affecter des licences aux nouveaux utilisateurs lors de la création de comptes utilisateur ou à des utilisateurs disposant déjà d'un compte. L'administrateur doit disposer de droits d'administrateur général Office 365 ou d'administrateur de gestion des utilisateurs pour gérer les licences Microsoft Teams.
 

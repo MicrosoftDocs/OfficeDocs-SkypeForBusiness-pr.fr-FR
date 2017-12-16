@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment élaborer une stratégie de gestion des modifications pour Microsoft Teams par le biais de l'identification de vos intervenants clés, des objectifs de l'entreprise, des mesures de réussite et la gestion de votre campagne."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7fb8c2f7804cd51ac74bcc06878572e0c2c605ad
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: ec0bea3c69ba9931727d9917246f71920d09cc7e
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Élaborer une stratégie de gestion des modifications pour Microsoft Teams
 =======================================================
@@ -55,9 +55,10 @@ La première règle d'une adoption réussie, consiste à créer une équipe dyna
 Nous recommandons d'organiser des réunions périodiques des intervenants pour les tenir informés de l'avancement de votre programme. La formation d'un conseil de collaboration permettant d'échanger et de débattre peut être un outil utile basé sur la culture de votre entreprise.
 
 
-|  |  |
-|---------|---------|
-|![Icône Conseil.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Conseil    |Les personnes les plus récalcitrantes au changement peuvent devenir vos meilleurs alliés dans le cadre d'un déploiement de cette nature. Nous vous encourageons à entamer un dialogue avec ces personnes le plus tôt possible et de manière fréquente pour connaître leurs préoccupations et questions. Souvent, leurs commentaires sont constructifs et peuvent contribuer à la réussite de votre campagne.         |
+
+
+> [!TIP]
+> Les personnes les plus récalcitrantes au changement peuvent devenir vos meilleurs alliés dans le cadre d'un déploiement de cette nature. Nous vous encourageons à entamer un dialogue avec ces personnes le plus tôt possible et de manière fréquente pour connaître leurs préoccupations et questions. Souvent, leurs commentaires sont constructifs et peuvent contribuer à la réussite de votre campagne.
 
 <a name="user-profiles"></a>Profils utilisateur
 -------------

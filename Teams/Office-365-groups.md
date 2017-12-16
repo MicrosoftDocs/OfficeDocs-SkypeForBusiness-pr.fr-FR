@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment utiliser Groupes Office 365 et les adhésions de groupe avec Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 15989e5a846aa3bdf94f17218105d56336c8cfb9
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 2d6851a0c7ac44a5738ac4ee8de8f92bf257a77b
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Groupes Office 365 et Microsoft Teams
 =====================================
@@ -26,10 +26,11 @@ Un administrateur Office 365 peut définir un groupe Office 365, ajouter des m
 
 Lors de la création d'une équipe Microsoft Teams, vous créez en arrière-plan un groupe Office 365 avec la bibliothèque de documents SharePoint et le bloc-notes OneNote associés, ainsi que des liens vers d'autres applications Office 365 cloud. Si l'utilisateur qui crée l'équipe est propriétaire d'un groupe Office 365 public ou privé existant, il peut ajouter la fonctionnalité Teams au groupe. Un canal Général contenant des messages, documents OneNote ainsi que d'autres objets est ainsi créé par défaut. La vue de la bibliothèque de documents du canal affichera le dossier Général représentant le canal dans l'équipe. Plus important encore, si vous créez votre propre structure de dossiers dans une bibliothèque de documents, **elle ne se propage pas** dans Teams en tant que canal ; elle se propage uniquement de Teams à SharePoint pour le moment.
 
-|||
-|---------|---------|
-|  ![Icône Note.](media/Understand_Office_365_groups_and_Microsoft_Teams_image1.png) Remarque    |La suppression d'un groupe Office 365 supprimera l'alias de boîte aux lettres pour les conversations permanentes Outlook/OWA et les invitations aux réunions Teams ; le site SharePoint sera également marqué pour suppression. L'action de suppression d'une équipe prend effet après environ 20 minutes. Lorsque vous supprimez une équipe du client Teams, tous les autres membres ne peuvent plus l'afficher. Si vous supprimez un membre d'un groupe Office 365 qui disposait de la fonctionnalité Teams activée, il pourra encore afficher l'équipe pendant environ une heure avant sa suppression effective du client Teams.         |
 
+
+
+> [!NOTE]
+> La suppression d'un groupe Office 365 supprimera l'alias de boîte aux lettres pour les conversations permanentes Outlook/OWA et les invitations aux réunions Teams ; le site SharePoint sera également marqué pour suppression. L'action de suppression d'une équipe prend effet après environ 20 minutes. Lorsque vous supprimez une équipe du client Teams, tous les autres membres ne peuvent plus l'afficher. Si vous supprimez un membre d'un groupe Office 365 qui disposait de la fonctionnalité Teams activée, il pourra encore afficher l'équipe pendant environ une heure avant sa suppression effective du client Teams.
 
 <a name="group-membership"></a>Adhésion à un groupe
 ----------------
