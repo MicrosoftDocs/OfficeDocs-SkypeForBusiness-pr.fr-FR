@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Tout ce que vous devez savoir sur la transition de Skype Entreprise Online vers Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7616975c9395b6fa1219deb576b7ceff29d89bb7
-ms.sourcegitcommit: 5814969da48133214d2f9ea04d6790ebe102d691
+ms.openlocfilehash: a16bcc0f4c99b174edfa0f8e61002324833ce383
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Transition de Skype Entreprise à Microsoft Teams
 ==================================================
@@ -40,6 +40,7 @@ Pour obtenir des résultats optimaux, nous vous conseillons de suivre les instru
 [Didacticiel : Transition de Skype Entreprise à Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
 [FAQ - Vision autour de Skype Entreprise et Teams](FAQ-journey.md)
+[Feuille de route de l'évolution des fonctionnalités entre Skype Entreprise et Microsoft Teams](https://aka.ms/skype2teamsroadmap)
 
 [Feuille de route de l'évolution des fonctionnalités entre Skype Entreprise et Microsoft Teams](https://aka.ms/skype2teamsroadmap)
 

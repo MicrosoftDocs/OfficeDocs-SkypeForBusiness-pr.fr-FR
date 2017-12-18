@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment configurer Microsoft Teams dans votre organisation Office 365."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4ff25a452f2ce493bdb1ae8d556f08584d32d669
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f8db61d7ca8e183cce04cb993a40541c70e5e516
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Configurer Microsoft Teams dans votre organisation Office 365
 ======================================================
@@ -38,9 +38,9 @@ Pour en savoir plus sur la gestion des licences individuelles, consultez la rubr
 
     ![Capture d'écran de la plage Services et compléments avec Microsoft Teams sélectionné.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-4.  Pour activer Teams pour l’organisation, définissez le commutateur sur **Activé**, puis cliquez sur **Enregistrer**.
+4.  Pour activer Teams pour l'organisation, utilisez l'outil de sélection de licences et sélectionnez toutes les licences. Ensuite, définissez l'option sur **Activé** et cliquez sur **Enregistrer**.
 
-    ![Captures d'écran de la page de paramètres Microsoft Teams affichant la bascule sur Activé pour activer Microsoft Teams.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
+    ![Captures d'écran de la page de paramètres Microsoft Teams affichant la bascule sur Activé pour activer Microsoft Teams.](media/Services-and-addins-control-Microsoft-Teams.PNG)
 
 
 > [!NOTE]

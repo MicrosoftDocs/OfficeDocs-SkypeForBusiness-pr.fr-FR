@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Activer ou désactiver la fonctionnalité d’accès invité dans Microsoft Teams"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a996f7cc9154d04870e4dea00da950d340de16e2
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 208d82b1e40b86f17d6ff412a20ed917a1fe6ff0
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activer ou désactiver l'accès invité de Microsoft Teams
 ======================================
@@ -57,5 +57,9 @@ Les paramètres d'invité sont définis dans Azure Active Directory. Il faut e
   
 5. Définissez la bascule près de l'option **Activer/désactiver Microsoft Teams pour tous les utilisateurs de ce type** sur **Activé** pour activer Microsoft Teams et l'accès invité à votre organisation et sélectionnez **Enregistrer**. 
     
-  
+ Regardez les vidéos suivantes pour plus de détails à propos de l'accès invité :  
 
+|  |  |
+|---------|---------|
+| Activation de l'accès invité dans Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7T54KmlIHQk" frameborder="0" allowfullscreen></iframe>   |
+ | Ajout d'invités dans Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 

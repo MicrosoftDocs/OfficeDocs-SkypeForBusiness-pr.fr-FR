@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment utiliser les différents clients disponibles pour Microsoft Teams, notamment les clients Web, de bureau (Windows et Mac) et mobiles (Android, iOS, et Windows Phone)."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b127b0bd5c0e1f1b8f438c1955d1f028977118f0
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f555208aba849b77d648e5e9561d0daf3ba199b3
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 ===========================
@@ -22,7 +22,7 @@ Microsoft Teams dispose de clients Web, de bureau (Windows et Mac) et mobiles (
 <a name="web-client"></a>Client Web 
 ----------------
 
-Le client Web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) est complet et fonctionnel, et peut être utilisé par divers navigateurs. À ce stade, le client Web ne prend pas en charge les communications en temps réel (c'est-à-dire les réunions et les appels en tête-à-tête). Le navigateur doit également être configuré de manière à autoriser les cookies tiers.
+Le client Web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) est complet et fonctionnel, et peut être utilisé par divers navigateurs. À ce stade, le seul client Web à prendre en charge les communications en temps réel (c'est-à-dire les réunions et les appels en tête-à-tête) est Microsoft Edge. Le navigateur doit également être configuré de manière à autoriser les cookies tiers.
 
 Aucun plug-in ni téléchargement n'est requis pour utiliser Microsoft Teams à l'aide d'un navigateur Web.
 

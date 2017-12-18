@@ -51,11 +51,11 @@
 ## [Utiliser PowerShell pour contrôler l'accès invité à une équipe](guest-access-PowerShell.md)
 
 
-# [Déploiement de la fonctionnalité vocale cloud](cloud-voice-deployment.md)
+# [Voix cloud](cloud-voice-deployment.md)
 ## [Audioconférence](audio-conferencing.md)
 ### [Concevoir](audio-conferencing.md#Envision_AudioConferencing)
-### [Planifier](audio-conferencing.md#Planning_AudioConferencing)
-### [Vidéos - Audioconférence dans Teams](audio-conferencing-videos.md)
+## Vidéos
+### [Audioconférence](audio-conferencing-videos.md)
 
 # [Transition de Skype Entreprise à Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Améliorer votre environnement Skype Entreprise actuel pour Teams](prepare-teams.md)
@@ -85,6 +85,7 @@
 ## [Vérifier l'intégrité du service pour Microsoft Teams](service-health.md)
 ## [Dépannage des problèmes de connectivité avec le client Microsoft Teams](connectivity-issues.md)
 ## [Utiliser des fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
+
 
 
 # [Documentation destinée aux développeurs pour Teams](https://docs.microsoft.com/microsoftteams/platform)
