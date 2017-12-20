@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Conseils pour lancer un projet pilote pour à utiliser Microsoft Teams et découvrir tout ce que le client peut offrir à votre organisation tout en conservant Skype Entreprise."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4cfbf9fa1e5f06281564e5e9fa61e66aaa9090b3
-ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 3da1c9b80564e518fd2fb8648658b6fb91985e05
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Projet pilote d'utilisation de Microsoft Teams avec Skype Entreprise
 ============================================
