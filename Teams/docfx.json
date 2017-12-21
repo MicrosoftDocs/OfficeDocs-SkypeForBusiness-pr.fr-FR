@@ -15,6 +15,10 @@
         ]
       }
     ],
+    "globalMetadata": {
+      "ROBOTS": "INDEX, FOLLOW",
+      "bilingual_type": "hover over"
+    },
     "resource": [
       {
         "files": [
