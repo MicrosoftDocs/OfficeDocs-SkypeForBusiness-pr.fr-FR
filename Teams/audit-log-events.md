@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment récupérer des données Microsoft Teams à partir du journal d'audit."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9d1a1c274ace1e680f890d7fe8abdea52886b073
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: b63f6b88d950038ec2e40e7b32eb74bc551cbdf1
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 ==================================================
@@ -32,9 +32,10 @@ La liste complète des événements Office 365 est relativement étendue et dis
 Avant de pouvoir examiner les activités d'audit, la fonctionnalité d'audit doit d'abord être activée. Pour activer la fonctionnalité d'audit, accédez au Centre d'administration *Sécurité et Conformité*. Sous *Rechercher une activité*, cliquez sur **Démarrer l'enregistrement**. Après 24 heures, les données d'audit seront disponibles via *Recherche du journal d'audit* située sous l'onglet *Recherche et examen*.
 
 
-| |  |
-|---------|---------|
-|![Capture d'écran de la page d'accueil du Centre de sécurité et de conformité.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Important     |Les données d'audit sont uniquement disponibles à partir du point d'activation de la fonctionnalité d'audit.         |
+> [!IMPORTANT]
+> Les données d'audit sont uniquement disponibles à partir du point d'activation de la fonctionnalité d'audit.
+
+
 
 ![Capture d'écran de la page de recherche des journaux d'audit du Centre de sécurité et de conformité.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
 
@@ -51,6 +52,7 @@ Avant de pouvoir examiner les activités d'audit, la fonctionnalité d'audit doi
 3.  Vous pouvez exporter ces informations au format Excel et les filtrer en fonction de vos besoins.
 
 
-|  | |
-|---------|---------|
-|![Icône Point d'exclamation.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Important |Si la fonction d'audit n'a pas été préalablement activée, vous devez l'activer pour obtenir des données dans le journal d'audit.         |
+> [!IMPORTANT]
+> Si la fonction d'audit n'a pas été préalablement activée, vous devez l'activer pour obtenir des données dans le journal d'audit.
+
+

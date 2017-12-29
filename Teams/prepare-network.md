@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez comment préparer et gérer votre réseau pour Microsoft Teams. Les informations comprennent la configuration réseau requise, la condition requise en matière de bande passante ainsi que des remarques supplémentaires."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 399a0a6ed6ac5bfabeac97f41e82e0237bca0b74
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 64d7ba35e8882fc0baa3522e1a5779b3e7ef8aaf
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams
 =================================================
@@ -27,9 +27,10 @@ Microsoft Teams associe trois types de trafic :
 
 Cela affecte le réseau sur deux niveaux : le trafic est acheminé des clients Microsoft Teams directement pour les communications P2P et le trafic est acheminé entre l'environnement Office 365 et les clients Microsoft Teams dans le cas des réunions. Pour assurer un flux optimal, le trafic doit pouvoir être acheminé à la fois entre les segments réseau (par ex. : entre des sites sur le réseau WAN) et entre les sites réseau et Office 365. Si les ports appropriés ne sont pas ouverts ou que des ports spécifiques sont activement bloqués, cela risque de dégrader la qualité de l'expérience.
 
-|  |  |
-|---------|---------|
-|![Icône Important.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Important    |Les réunions sont actuellement prises en charge sur les appareils iOS et Android, mais pas sur les appareils Windows (disponible très prochainement).       |
+
+
+> [!IMPORTANT]
+> Les réunions sont actuellement prises en charge sur les appareils iOS et Android, mais pas sur les appareils Windows (disponible très prochainement).
 
 Pour bénéficier d'une expérience optimale avec le multimédia en temps réel dans Microsoft Teams, la configuration réseau requise pour Office 365 doit être satisfaite (pour plus de détails, consultez la source suivante : [Qualité multimédia  et performances de connectivité réseau dans Skype Entreprise Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US) )
 
@@ -47,9 +48,10 @@ Les deux segments réseau de définition (Client vers Microsoft Edge et périph
 
 Pour tester les deux segments réseau, vous pouvez utiliser un outil d'évaluation de réseau (source : [https://www.microsoft.com/en-us/download/details.aspx?id=53885](https://go.microsoft.com/fwlink/?linkid=855799)). Cet outil peut être déployé sur le PC client directement et sur un PC/ordinateur portable connecté au périphérique réseau client. La documentation de l'outil est limitée, mais vous trouverez plus de détails sur son utilisation en consultant le document suivant : [Évaluation de la disponibilité réseau](https://go.microsoft.com/fwlink/?linkid=855800). En exécutant l'outil d'évaluation de la disponibilité réseau, vous pouvez valider la disponibilité de votre réseau pour exécuter des applications multimédia en temps réel, telles que Microsoft Teams.
 
-|  |  |
-|---------|---------|
-|![Icône Note.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Remarque    |Il s'agit de la même évaluation de disponibilité réseau recommandée pour les clients qui souhaitent déployer correctement Skype Entreprise.         |
+
+
+> [!NOTE]
+> Il s'agit de la même évaluation de disponibilité réseau recommandée pour les clients qui souhaitent déployer correctement Skype Entreprise.
 
 <a name="bandwidth-requirements"></a>Condition requise pour la bande passante
 ----------
@@ -58,9 +60,10 @@ Les calculs de bande passante pour Microsoft Teams sont complexes et une calcul
 
 Le contenu ci-après peut être utilisé comme informations générales supplémentaires ; il est toutefois recommandé aux clients d'utiliser la [calculatrice de bande passante](https://aka.ms/bwcalc) pour effectuer le suivi de leurs besoins.
 
-|  |  |
-|---------|---------|
-|![Icône Note.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Remarque    |Si la bande passante requise n'est pas disponible, la pile multimédia de Microsoft Teams dégradera la qualité de la session audio/vidéo session pour s'adapter à la quantité de bande passante disponible plus faible, ce qui affectera la qualité de l'appel ou de la réunion. Le client Microsoft Teams tentera de privilégier la qualité de l'audio plutôt que la vidéo. C'est pourquoi il est très important de disposer de la bande passante requise.       |
+
+
+> [!IMPORTANT]
+>Si la bande passante requise n'est pas disponible, la pile multimédia de Microsoft Teams dégradera la qualité de la session audio/vidéo session pour s'adapter à la quantité de bande passante disponible plus faible, ce qui affectera la qualité de l'appel ou de la réunion. Le client Microsoft Teams tentera de privilégier la qualité de l'audio plutôt que la vidéo. C'est pourquoi il est très important de disposer de la bande passante requise.
 
 
 |Activité  |Bande passante de téléchargement  |Bande passante de chargement  |Flux du trafic |
