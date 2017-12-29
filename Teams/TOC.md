@@ -8,7 +8,11 @@
 ## [Groupes Office 365 et Microsoft Teams](Office-365-groups.md)
 ## [Interaction entre Exchange et Microsoft Teams](Exchange-Teams-interact.md)
 ## [Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams](SharePoint-OneDrive-interact.md)
+## [Interopérabilité entre Teams et Skype Entreprise](Teams-and-SkypeforBusiness-interoperability.md)
 
+# [Guides de démarrage rapide](quick-start-guides.md)
+## [Guide de démarrage rapide : guide de planification de Teams](quick-start-enable-Teams.md)
+## [Configurer les forfaits d'appels](configuring-teams-calling-quickstartguide.md)
 
 # Planifier
 ## [Présentation d'un déploiement de Microsoft Teams](deployment-overview.md)
@@ -54,10 +58,14 @@
 # [Voix cloud](cloud-voice-deployment.md)
 ## [Audioconférence](audio-conferencing.md)
 ### [Concevoir](audio-conferencing.md#Envision_AudioConferencing)
+## [Système téléphonique avec forfaits d’appels](phone-system-with-calling-plans.md)
+### [Concevoir](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
+## Guides de démarrage rapide
+### [Configurer les forfaits d'appels](configuring-teams-calling-quickstartguide.md)
 ## Vidéos
 ### [Audioconférence](audio-conferencing-videos.md)
 
-# [Transition de Skype Entreprise à Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
+# [Transition de Skype Entreprise à Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Améliorer votre environnement Skype Entreprise actuel pour Teams](prepare-teams.md)
 ## [2 - Manipuler Teams conjointement à Skype Entreprise](pilot-essentials.md)
 ## [3 - Activer Teams avec Skype Entreprise](guidance-SkypeforBusiness.md)
