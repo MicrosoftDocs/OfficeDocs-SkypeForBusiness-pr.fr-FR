@@ -127,4 +127,4 @@ Pour créer la stratégie d'interopérabilité de Teams comme indiqué ci-dessus
 
 [Référence de l'applet de commande PowerShell de Skype Entreprise](https://docs.microsoft.com/powershell/module/skype)
 
-[Teams PowerShell cmdlet reference](https://docs.microsoft.com/powershell/module/teams)
+[Référence de l'applet de commande PowerShell de Teams](https://docs.microsoft.com/powershell/module/teams)
