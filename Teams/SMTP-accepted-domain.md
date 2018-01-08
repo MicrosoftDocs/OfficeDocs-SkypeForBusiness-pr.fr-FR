@@ -1,5 +1,5 @@
 ---
-title: "Ajouter le domaine SMTP de Microsoft Teams comme domaine accepté dans Exchange Online | Support Microsoft"
+title: "Ajouter le domaine SMTP de Microsoft Teams comme domaine accepté dans Exchange Online"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Découvrez comment ajouter le domaine SMTP de Microsoft Teams comme domaine accepté dans Exchange Online pour envoyer des notifications aux membres d'équipe."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: eed3eb36ae53b7306c0a46e1bccb14286b5af3a8
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 70795d466059233f09bf1eeb61c9a977a311936e
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-accepted-domain-in-exchange-online"></a>Ajouter le domaine SMTP de Microsoft Teams comme domaine accepté dans Exchange Online 
 =============================================================================

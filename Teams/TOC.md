@@ -1,6 +1,6 @@
 
 # Prise en main
-## [Présentation de Microsoft Teams](Teams-Overview.md)
+## [Présentation de Teams](Teams-Overview.md)
 ## [Vérifier la préparation de votre environnement pour Microsoft Teams](environment-readiness.md)
 ## [Licence Office 365 pour Microsoft Teams](Office-365-licensing.md)
 ## [Présentation des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md)
@@ -10,25 +10,26 @@
 ## [Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams](SharePoint-OneDrive-interact.md)
 ## [Interopérabilité entre Teams et Skype Entreprise](Teams-and-SkypeforBusiness-interoperability.md)
 
-# [Guides de démarrage rapide](quick-start-guides.md)
+# [Guides de démarrage rapide pour les administrateurs de Teams](quick-start-guides.md)
 ## [Guide de démarrage rapide : guide de planification de Teams](quick-start-enable-Teams.md)
 ## [Configurer les forfaits d'appels](configuring-teams-calling-quickstartguide.md)
+## [Guide de démarrage rapide - Teams pour l’éducation](Teams-quick-start-edu.yml)
 
 # Planifier
-## [Présentation d'un déploiement de Microsoft Teams](deployment-overview.md)
+## [Présentation d'un déploiement de Teams](deployment-overview.md)
 ## [Planifier les groupes Office 365 lors de la création d'équipes dans Microsoft Teams](plan-Office-365-groups.md)
 ## [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
 ## [URL et plages d'adresses IP Office 365](Office-365-URLs-IP-address-ranges.md)
-## [Kit d'atelier de planification et guide pratique pour Microsoft Teams](planning-workshop-practical-guide.md)
+## [Kit d'atelier : planifier, livrer et exécuter Teams](planning-workshop-practical-guide.md)
 
 # Adopter
-## [Élaborer une stratégie de gestion des modifications pour Microsoft Teams](change-management-strategy.md)
+## [Élaborer une stratégie de gestion des modifications pour Teams](change-management-strategy.md)
 ## [Recommandation de méthodes de demande de commentaires des utilisateurs dans Microsoft Teams](best-practices-feedback.md)
 ## [Obtenir des outils d'assistance pour le lancement de Microsoft Teams](rollout-tools.md)
 ## [Utiliser T-Bot pour aider les utilisateurs à utiliser Microsoft Teams](T-Bot.md)
 
 # Gérer
-## [Obtenir des clients pour Microsoft Teams](get-clients.md)
+## [Obtenir des clients pour Teams](get-clients.md)
 ## [Configurer Microsoft Teams dans votre organisation Office 365](Office-365-set-up.md)
 ## [Assigner des rôles et des autorisations dans Microsoft Teams](assign-roles-permissions.md)
 ## [Activer les fonctionnalités Microsoft Teams dans votre organisation Office 365](enable-features-office-365.md)
@@ -65,7 +66,7 @@
 ## Vidéos
 ### [Audioconférence](audio-conferencing-videos.md)
 
-# [Transition de Skype Entreprise à Teams](Journey-SkypeforBusiness-Teams.md)
+# [Transition de Skype Entreprise à Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Améliorer votre environnement Skype Entreprise actuel pour Teams](prepare-teams.md)
 ## [2 - Manipuler Teams conjointement à Skype Entreprise](pilot-essentials.md)
 ## [3 - Activer Teams avec Skype Entreprise](guidance-SkypeforBusiness.md)
@@ -80,7 +81,7 @@
 
 # Sécurité et conformité
 ## [Présentation de la sécurité et de la conformité dans Microsoft Teams](security-compliance-overview.md)
-## [Modèles et authentification d'identité dans Microsoft Teams](identify-models-authentication.md)
+## [Modèles d'identité et authentification dans Teams](identify-models-authentication.md)
 ## [Rechercher des événements Microsoft Teams dans le journal d'audit](audit-log-events.md)
 ## [Mener une recherche eDiscovery de contenu dans Microsoft Teams](eDiscovery-investigation.md)
 ## [Utilisation de la recherche de contenu dans Microsoft Teams](content-search.md)
@@ -94,7 +95,8 @@
 ## [Dépannage des problèmes de connectivité avec le client Microsoft Teams](connectivity-issues.md)
 ## [Utiliser des fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
 
-
+# Teams pour l’éducation
+## [Guide de démarrage rapide pour les administrateurs : Teams pour l’éducation](Teams-quick-start-edu.yml)
 
 # [Documentation destinée aux développeurs pour Teams](https://docs.microsoft.com/microsoftteams/platform)
 

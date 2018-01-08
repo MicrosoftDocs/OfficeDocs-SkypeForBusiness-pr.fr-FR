@@ -1,35 +1,37 @@
 ---
-title: "Activer les fonctionnalités Microsoft Teams dans votre organisation Office 365 | Support Microsoft"
+title: "Activer les fonctionnalités de Microsoft Teams dans votre organisation Office 365"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Découvrez toutes les fonctionnalités Microsoft Teams que vous pouvez activer dans votre organisation Office 365, y compris des paramètres à l'échelle du client, des intégrations de messagerie, des applications, le stockage cloud et bien d'autres."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c785e554034cd87fd27f5137f206c8dc0e5f972a
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+description: "Découvrez toutes les fonctionnalités de Microsoft Teams que vous pouvez activer dans votre organisation Office 365, y compris des paramètres à l'échelle du client, des intégrations de messagerie, des applications, le stockage cloud et bien d'autres."
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: d6a4a8d10e20b57df16fac3c7ffeba0bacd64d2e
+ms.sourcegitcommit: 19d7af5d60276c0a1ca3e01588b91c34a3fd0f92
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/22/2017
 ---
-<a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Activer les fonctionnalités Microsoft Teams dans votre organisation Office 365
+<a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Activer les fonctionnalités de Microsoft Teams dans votre organisation Office 365
 ======================================================
 
-Microsoft Teams dispose de multiples paramètres qui peuvent être activés ou désactivés au niveau du client. Lorsque Teams est activé pour le client, tous les utilisateurs pour lesquels Teams est également activé hériteront des paramètres du niveau client.
+Microsoft Teams dispose de multiples paramètres qui peuvent être activés ou désactivés au niveau du client Office 365. Lorsque Teams est activé pour un client, tous les utilisateurs pour lesquels Teams est également activé hériteront des paramètres du niveau client.
 
 Voici une liste des fonctionnalités qu'un administrateur Office 365 peut activer ou désactiver dans Teams.
 
 Sauf indication contraire, une option est activée par défaut.
 
 > [!NOTE]
-> Un administrateur Office 365 peut désactiver Microsoft Teams à tout moment via le Centre d'administration Office 365. Notez que la vignette de Microsoft Teams s'affichera toujours pour les utilisateurs disposant de licences actives pour l'application même si vous la désactivez. Pour plus d'informations sur la suppression de licences, reportez-vous à la rubrique [Gestion de l'accès des utilisateurs à Microsoft Teams](user-access.md). Une fois l'application désactivée, l'accès à partir du client Teams est bloqué, mais les données disponibles au moyen d'autres clients et services restent accessibles, telles que les fichiers disponibles via SharePoint et OneDrive. Toutes les données restent en place à moins que les équipes aient été explicitement supprimées.
+> Un administrateur d’Office 365 peut désactiver Microsoft Teams à tout moment via le Centre d'administration Office 365. Notez que la vignette de Microsoft Teams s'affichera toujours pour les utilisateurs disposant de licences actives pour l'application même si vous la désactivez. Pour plus d'informations sur la suppression de licences, reportez-vous à la rubrique [Gestion de l'accès des utilisateurs à Microsoft Teams](user-access.md). Une fois l'application désactivée, l'accès à partir du client Teams est bloqué, mais les données disponibles au moyen d'autres clients et services restent accessibles, telles que les fichiers disponibles via SharePoint et OneDrive. Toutes les données restent en place à moins que les équipes aient été explicitement supprimées.
 
-<a name="tenant-wide-settings"></a>Paramètres à l'échelle du client 
+<a name="office-365-tenant-wide-settings"></a>Paramètres à l'échelle du client Office 365 
 ---------------------
 
 Dans **Paramètres à l'échelle du client**, vous pouvez activer ou désactiver des options sous les sections Général, Intégration de messagerie, Applications et Stockage cloud personnalisé.
+
+Pour modifier les **paramètres à l'échelle du client** de Teams, accédez au Centre d’administration Office 365. Sélectionnez **Paramètres** > **Services et compléments** > **Microsoft Teams**.
 
 ### <a name="general"></a>Général
 
@@ -43,31 +45,31 @@ La section Général vous permet de configurer les paramètres suivants pour vot
 
     ![Capture d'écran d'un organigramme.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
 
--   **Utiliser Skype Entreprise pour les destinataires qui ne disposent pas de Microsoft Teams :** Lorsque ce paramètre est activé, il permet aux utilisateurs Microsoft Teams de contacter d'autres utilisateurs pour lesquels Microsoft Teams n'est pas activé via Skype Entreprise.
+-   **Utiliser Skype Entreprise pour les destinataires qui ne disposent pas de Teams :** lorsque ce paramètre est activé, il permet aux utilisateurs de Teams de contacter d'autres utilisateurs dans l’organisation pour lesquels Teams n'est pas activé via Skype Entreprise.
 
--   **Autoriser les messages d'aide proactifs de T-Bot :** Lorsque ce paramètre est activé, T-bot lancera une session de conversation privée avec les utilisateurs pour les orienter dans l'utilisation de Microsoft Teams.
+-   **Autoriser les messages d'aide proactifs de T-Bot :** lorsque ce paramètre est activé, T-bot lancera une session de conversation privée avec les utilisateurs pour les orienter dans l'utilisation de Teams.
 
-    ![Capture d'écran de la section T-Bot dans l'interface Microsoft Teams.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
+    ![Capture d'écran de la section T-Bot dans l'interface de Teams.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
 
 <a name="email-integration"></a>Intégration de la messagerie
 -----------------
 
-Activez cette fonctionnalité pour permettre aux utilisateurs d'envoyer un e-mail à un canal dans Microsoft Teams, à l'aide de l'adresse de messagerie du canal. Les utilisateurs peuvent réaliser cette action pour tous les canaux appartenant à une équipe dont ils sont propriétaires. Ils peuvent également envoyer un e-mail à tous les canaux d'une équipe pour laquelle l'ajout de connecteurs a été activé pour ses membres. De plus, même si un utilisateur n'a pas l'autorisation de créer une adresse de messagerie de canal, si un autre utilisateur qui la possède crée cette adresse, le premier pourra y avoir accès par le menu de l'\<icône plus\> de ce canal.
+Activez cette fonctionnalité pour que les utilisateurs puissent envoyer des e-mails à un canal dans Teams, en utilisant l’adresse de messagerie du canal. Les utilisateurs peuvent envoyer des e-mails pour tous les canaux appartenant à une équipe dont ils sont propriétaires. Ils peuvent également envoyer des e-mails à n’importe quel canal dans une équipe pour laquelle la fonction d’ajout de connecteurs est activée pour les membres de l’équipe. De plus, même si un utilisateur n’est pas autorisé à créer une adresse de messagerie de canal, si une personne qui dispose de cette autorisation crée cette adresse, l’utilisateur pourra y avoir accès depuis le menu de l’\<icône plus\> de ce canal.
 
 La section Intégration de la messagerie vous permet de configurer les paramètres suivants pour votre organisation :
 
    ![Capture d'écran de la section Intégration de la messagerie dans les paramètres à l'échelle du client.](media/QS-edu-email-integration.png)
 
--   **Autoriser les utilisateurs à envoyer des e-mails aux canaux :** Lorsque ce paramètre est activé, des hooks de messagerie sont activés et les utilisateurs peuvent publier des messages dans un canal en envoyant un e-mail à l'adresse de messagerie du canal Microsoft Teams.
+-   **Autoriser les utilisateurs à envoyer des e-mails aux canaux :** lorsque ce paramètre est activé, des hooks de messagerie sont activés et les utilisateurs peuvent publier des messages dans un canal en envoyant un e-mail à l'adresse de messagerie du canal Teams.
 
 > Pour rechercher l'adresse de messagerie d'un canal, cliquez sur **Plus d'options** près du nom du canal, puis sélectionnez **Obtenir l'adresse de messagerie**.
 
--   **Liste des utilisateurs restreints :** Les domaines d'expéditeurs peuvent être limités pour garantir que seuls les domaines SMTP autorisés peuvent envoyer des e-mails aux canaux Microsoft Teams.
+-   **Liste des utilisateurs restreints :** les domaines d'expéditeurs peuvent être limités pour garantir que seuls les domaines SMTP autorisés peuvent envoyer des e-mails aux canaux Teams.
 
 <a name="apps"></a>Applications
 ----
 
-Les applications dans Microsoft Teams sont particulièrement pratiques pour intégrer les outils et services dont votre équipe a besoin directement dans un canal ou une conversation.
+Les applications dans Teams sont particulièrement pratiques pour intégrer les outils et services dont votre équipe a besoin directement dans un canal ou une conversation.
 
 La section **Applications** vous permet de configurer les paramètres suivants pour votre organisation :
 
@@ -81,7 +83,7 @@ La section **Applications** vous permet de configurer les paramètres suivants p
 <a name="custom-cloud-storage"></a>Stockage cloud personnalisé
 --------------------
 
-Actuellement, les options de stockage cloud dans Microsoft Teams incluent Box, Dropbox, Google Drive et ShareFile. Les utilisateurs peuvent charger et partager des fichiers à partir de services de stockage cloud dans les canaux et conversations Microsoft Teams. Cliquez ou appuyez sur le commutateur près des fournisseurs de stockage cloud que votre organisation souhaite utiliser.
+Actuellement, les options de stockage cloud dans Teams incluent Box, Dropbox, Google Drive et ShareFile. Les utilisateurs peuvent charger et partager des fichiers à partir de services de stockage cloud dans les canaux et conversations Teams. Cliquez ou appuyez sur le commutateur situé en regard des fournisseurs de stockage cloud que votre organisation souhaite utiliser.
 
 ![Capture d'écran de la section Stockage cloud personnalisé.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
@@ -97,11 +99,12 @@ Une équipe rassemble un groupe de personnes qui travaillent ensemble pour attei
 
 En tant qu'administrateur, vous pouvez gérer les propriétaires et membres d'équipe à l'aide du tableau de bord Groupes dans le portail du Centre d'administration Office 365. Dans la section Équipes et canaux, cliquez sur le lien **Utiliser le tableau de bord Groupes dans le centre d'administration Office 365 pour gérer les équipes**.
 
-Vous pouvez décider quels utilisateurs de votre organisation peuvent créer des équipes dans Microsoft Teams. Les mêmes paramètres de création définis par des groupes Office 365 s'appliquent à Microsoft Teams. Pour plus d'informations sur la gestion des groupes Office 365, reportez-vous aux articles [Créer un groupe Office 365 dans le Centre d'administration](https://support.office.com/en-us/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f) et [Gérer les utilisateurs qui peuvent créer des groupes Office 365](https://support.office.com/en-us/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+Vous pouvez décider quels utilisateurs de votre organisation peuvent créer des équipes dans Teams.  Les mêmes paramètres de création définis par des groupes Office 365 s'appliquent à Teams. Pour plus d'informations sur la gestion des groupes Office 365, consultez les rubriques [Créer des groupes Office 365](https://support.office.com/en-us/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f) et [Gérer les utilisateurs qui peuvent créer des groupes Office 365](https://support.office.com/en-us/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
-REMARQUE : Vous ne pouvez pas créer d'équipe à l'aide du tableau de bord Groupes. Les équipes doivent être créées à l'aide du client de bureau ou de l'application Web Microsoft Teams.
+> [!NOTE]
+> Vous ne pouvez pas créer d’équipes depuis le tableau de bord Groupes. Les équipes doivent être créées à l'aide du client de bureau ou de l'application Web Teams.
 
-Par défaut, chaque utilisateur peut créer une équipe ou un groupe. Les utilisateurs peuvent créer des équipes en sélectionnant Équipes sur le côté gauche du client Microsoft Teams (client de bureau ou application Web), puis en choisissant Créer une équipe dans la partie inférieure du client, sous la liste d'équipes.
+Par défaut, chaque utilisateur peut créer une équipe ou un groupe. Sélectionnez **Équipes** dans la partie gauche du client Teams (client de bureau ou application Web), puis l’option **Créer et rejoindre une équipe** dans la partie inférieure du client, sous la liste des clients.
 
 Par défaut, un client Office 365 peut actuellement contenir 500 000 équipes au maximum. Un administrateur global peut créer un nombre illimité d'équipes. Un utilisateur peut créer 250 équipes. Un propriétaire d'équipe peut ajouter 2 500 membres à une équipe.
 

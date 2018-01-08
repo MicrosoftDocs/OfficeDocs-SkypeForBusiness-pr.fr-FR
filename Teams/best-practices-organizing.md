@@ -1,23 +1,26 @@
 ---
-title: "Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams | Microsoft Support"
+title: "Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Découvrez les meilleures pratiques d'organisation d'équipe dans Microsoft Teams pour la structuration de votre équipe basée sur vos besoins spécifiques."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 936d5132fb71563f1f8b2fff5561084c4201425a
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+description: "Découvrez les meilleures pratiques d'organisation d'équipe dans Microsoft Teams pour répondre aux besoins de votre organisation."
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 37b40af804193039cc2c2a8b5fa37a4547b896b0
+ms.sourcegitcommit: 5ab90d4bd39bf45198ef73d0fd45dd3d8baa6acb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/21/2017
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams
 ======================================================
 
-Avant de créer une équipe, il est recommandé de réfléchir sur l'objectif, le projet ou l'élément de travail, ainsi que sur les personnes ou groupes de l'organisation qui peuvent y contribuer en collaboration (soyez sélectif lors de l'ajout de personnes et de groupes pour atteindre l'objectif). Une fois l'équipe créée, ajoutez ces personnes/groupes pour initier la collaboration. Cela peut être utile de configurer plusieurs propriétaires pour chaque équipe (voir [*Gestion des équipes*](https://support.office.com/en-US/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)).
+> [!TIP]
+> Avez-vous une meilleure pratique ou un conseil d’utilisation de Teams ? Partagez-le dans la section **Commentaires** à la fin de cet article.
+
+Avant de créer une équipe, il est recommandé de réfléchir sur l'objectif, le projet ou l'élément de travail, ainsi que sur les personnes ou groupes de l'organisation qui peuvent y contribuer en collaboration. Une fois l'équipe créée, ajoutez ces personnes/groupes pour initier la collaboration. Il peut être utile de désigner plusieurs propriétaires de chaque équipe - consultez la rubrique [*Gestion des équipes*](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 Vous pouvez commencer avec un petit nombre de membres pour échanger des idées à mesure que vous poursuivez votre progression, puis ajouter d'autres personnes/groupes au fur et à mesure. Lorsque vous ajoutez d'autres personnes/groupes avec Microsoft Teams, ils peuvent rapidement être informés des points déjà débattus, car les conversations et les fichiers sont disponibles pour les utilisateurs à tout moment. Essayez d'éviter de créer différentes équipes avec les mêmes membres, car cela ne contribuerait pas à atteindre les résultats escomptés. Outlook est un outil idéal pour partager ce type de communications au niveau d'un groupe.
 

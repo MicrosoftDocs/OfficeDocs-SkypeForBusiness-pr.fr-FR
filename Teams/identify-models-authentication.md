@@ -1,5 +1,5 @@
 ---
-title: "Modèles et authentification d'identité dans Microsoft Teams | Support Microsoft"
+title: "Modèles d’identité et authentification dans Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,14 +7,13 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Découvrez les différents modèles d'identité dans Microsoft Teams tels que Identité de cloud, Identité synchronisée, et Identité fédérée. Ce document contient également des informations sur l'authentification multifacteur."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9047c359d2148154576b806304e1b8067fb7510b
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: b3976a23bc4e165b5a21c99c57356428d0e6767b
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
-<a name="identity-models-and-authentication-in-microsoft-teams"></a>Modèles et authentification d'identité dans Microsoft Teams
+<a name="identity-models-and-authentication-in-microsoft-teams"></a>Modèles d’identité et authentification dans Microsoft Teams
 ==========================================
 
 Microsoft Teams prend en charge tous les modèles d'identité disponibles avec Office 365. Les modèles d'identité pris en charge sont les suivants :

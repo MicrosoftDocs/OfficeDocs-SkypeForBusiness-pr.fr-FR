@@ -7,12 +7,12 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "Découvrez la fonctionnalité Microsoft Teams disponible pour les utilisateurs invités."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 596d0dd3bb754e6f6c983beb9ba62d775768d252
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 7ce64b92d5b51c7bfc154b955ed0c9c5ea1bab99
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -57,7 +57,7 @@ Le tableau suivant compare la fonctionnalité de Microsoft Teams disponible pou
 |Partager un fichier dans une conversation  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Ajouter des applications (onglets, bots ou connecteurs)  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Créer des stratégies d'accès invité qui s'appliquent à l'ensemble du client et aux équipes/canaux  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Inviter un utilisateur en dehors du domaine du client Office 365  <br/> ||![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Inviter un utilisateur en dehors du domaine du client Office 365 <br/>  *Les propriétaires d'équipe contrôlent ce paramètre.*  <br/> <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Créer une équipe  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Rechercher et rejoindre une équipe publique  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Afficher l'organigramme  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||

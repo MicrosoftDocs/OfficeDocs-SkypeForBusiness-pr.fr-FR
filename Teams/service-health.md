@@ -1,5 +1,5 @@
 ---
-title: "Vérifier l'intégrité du service pour Microsoft Teams | Support Microsoft"
+title: "Vérifier l'intégrité du service pour Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Il est recommandé de vérifier l'intégrité du service Teams ainsi que d'autres composants Office 365 tels que Exchange, SharePoint, et OneDrive Entreprise."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 498a878bc231b8071d76308d4537210a74f9011f
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 25f25347e78751104da9574a5e9d3932da82e2a7
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Vérifier l'intégrité du service pour Microsoft Teams
 ===========================================

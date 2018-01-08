@@ -1,5 +1,5 @@
 ---
-title: "Obtenir des clients pour Microsoft Teams| Support Microsoft"
+title: "Obtenir des clients pour Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Découvrez comment utiliser les différents clients disponibles pour Microsoft Teams, notamment les clients Web, de bureau (Windows et Mac) et mobiles (Android, iOS, et Windows Phone)."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fa0e91acd0847ab7b37113383348cb8be9a7a1c6
-ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
+ms.openlocfilehash: 8037d765e304aa6e950fdd0b9b5ad55079ec1700
+ms.sourcegitcommit: 19d7af5d60276c0a1ca3e01588b91c34a3fd0f92
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/16/2017
+ms.lasthandoff: 12/22/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 ===========================
@@ -24,7 +23,7 @@ Microsoft Teams dispose de clients Web, de bureau (Windows et Mac) et mobiles (
 
 Le client Web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) est complet et fonctionnel, et peut être utilisé par divers navigateurs. À ce stade, le client Web ne prend pas en charge les communications en temps réel (c'est-à-dire les réunions et les appels en tête-à-tête). Le navigateur doit également être configuré de manière à autoriser les cookies tiers. 
 
-Aucun plug-in ni téléchargement n'est requis pour utiliser Microsoft Teams à l'aide d'un navigateur Web.
+Aucun plug-in ni téléchargement n'est requis pour exécuter Teams dans un navigateur Web.
 
 Le client Web détecte la version du navigateur en se connectant à [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) et en cas de version non prise en charge, il bloquera l'accès à l'interface Web et recommandera de télécharger le client de bureau ou l'application mobile.
 
@@ -58,7 +57,7 @@ Les administrateurs informatiques peuvent utiliser la méthode de leur choix pou
 
 > [!NOTE]
 > La distribution du client via ces systèmes sert uniquement à l'installation initiale des clients Microsoft Teams, non pour les mises à jour futures.
-       |
+
 
 #### <a name="windows"></a>Windows
 
