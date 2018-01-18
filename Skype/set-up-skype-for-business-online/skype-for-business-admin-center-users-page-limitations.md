@@ -1,0 +1,43 @@
+---
+title: Limitations de page Skype pour les utilisateurs de Business Online Administration center
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
+ms.assetid: 0a24c1d1-11e3-4971-a90d-4c3e69ef165f
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.UsersCountLimitationWarning
+ms.custom: Setup
+description: "Apprenez à travailler dans les limites de Skype pour l’affichage de l’administrateur Business en ligne des utilisateurs. "
+ms.openlocfilehash: fddc126f2c4e9397c1285833f1a3ad444d9ed2ed
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
+---
+# <a name="skype-for-business-online-admin-center-users-page-limitations"></a><span data-ttu-id="0d774-103">Limitations de page Skype pour les utilisateurs de Business Online Administration center</span><span class="sxs-lookup"><span data-stu-id="0d774-103">Skype for Business Online admin center users page limitations</span></span>
+
+<span data-ttu-id="0d774-104">Pour des raisons de performances le **Skype pour Business admin center**affiche les 1 000 premiers utilisateurs dans votre liste d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="0d774-104">For performance reasons the **Skype for Business admin center**displays the first 1,000 users in your user list.</span></span> <span data-ttu-id="0d774-105">Si vous avez plus de 1 000 utilisateurs, utilisez le **filtre**![filtre](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) **recherche**et![recherche](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) pour rechercher les personnes spécifiques que vous recherchez.</span><span class="sxs-lookup"><span data-stu-id="0d774-105">If you have more than 1,000 users, use **Filter**![Filter](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) and **Search**![Search](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) to find the specific people you're looking for.</span></span>
+  
+## <a name="bulk-editing"></a><span data-ttu-id="0d774-106">Modification en bloc</span><span class="sxs-lookup"><span data-stu-id="0d774-106">Bulk editing</span></span>
+<span data-ttu-id="0d774-107"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="0d774-107"></span></span>
+
+1. <span data-ttu-id="0d774-108">Sélectionnez les 1 000 premiers utilisateurs — ou tout le monde retournée par votre filtre ou une recherche, en cochant la case en regard du **nom d’affichage** en haut de la liste.</span><span class="sxs-lookup"><span data-stu-id="0d774-108">Select the first 1,000 users—or everyone returned by your filter or search—by checking the box next to **Display name** at the top of the list.</span></span>
+    
+2. <span data-ttu-id="0d774-109">Cliquez sur **Modifier**![modifier](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).</span><span class="sxs-lookup"><span data-stu-id="0d774-109">Click **Edit**![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).</span></span>
+    
+<span data-ttu-id="0d774-110">Vous pouvez modifier le nombre d’utilisateurs à afficher sur chaque page avec le contrôle en bas de la liste :</span><span class="sxs-lookup"><span data-stu-id="0d774-110">You can change the number of users shown on each page with the control at the bottom of the list:</span></span>
+  
+![Les utilisateurs de navigation pour modifier le nombre d’utilisateurs sur la page page](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
+  
+## <a name="related-topics"></a><span data-ttu-id="0d774-112">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="0d774-112">Related topics</span></span>
+[<span data-ttu-id="0d774-113">Configurer Skype Entreprise Online</span><span class="sxs-lookup"><span data-stu-id="0d774-113">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+
+[<span data-ttu-id="0d774-114">Permettent d’ajouter des contacts de Skype Skype pour les utilisateurs professionnels</span><span class="sxs-lookup"><span data-stu-id="0d774-114">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
