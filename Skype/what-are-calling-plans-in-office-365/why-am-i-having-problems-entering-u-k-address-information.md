@@ -1,111 +1,114 @@
 ---
-title: "Pourquoi je n'arrive pas à entrer une adresse hors des États-Unis ?"
+title: "Pourquoi ai-je des problèmes pour entrer au Royaume-Uni informations d’adresse ?"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.CivicAddressGBSyntaxError
-ms.prod: office-online-server
-localization_priority: Normal
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: e2376646-f0d6-4d33-a8fd-68ecbd46fb7a
-description: "Voici quelques raisons pourquoi vous pouvez rencontrer des difficultés votre adresse ou les adresses pour valider correctement dans le (Royaume-Uni)."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.CivicAddressGBSyntaxError
+ms.custom: Calling Plans
+description: "Voici quelques raisons pourquoi vous pouvez rencontrer des problèmes de mise en route de votre adresse ou les adresses de valider correctement dans la (Royaume-Uni)."
+ms.openlocfilehash: 7752a6d0f1ff802b8b54ec70f8d51ba1a7f286ea
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Pourquoi ai-je des problèmes pour entrer au Royaume-Uni informations d’adresse ?
 
-# Pourquoi je n'arrive pas à entrer une adresse hors des États-Unis ?
+Voici quelques raisons pourquoi vous pouvez rencontrer des problèmes de mise en route de votre adresse ou les adresses de valider correctement dans la (Royaume-Uni).
+  
+## <a name="whats-wrong-with-the-company-name"></a>Quel est le problème avec le nom de la société ?
 
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Si vous rencontrez un problème, entrez le nom de la société, n’oubliez pas :
   
-Voici quelques raisons pourquoi vous pouvez rencontrer des difficultés votre adresse ou les adresses pour valider correctement dans le (Royaume-Uni).
-  
-## Problèmes avec le nom de l'entreprise.
-
-Si vous rencontrez un problème entrer le nom de société, n'oubliez pas :
-  
-- Il peut avoir des lettres, des chiffres et des caractères spéciaux suivants :, / - +. « &amp; « _
+- Il peut avoir des lettres, des chiffres et des caractères spéciaux suivants :, / - +. ' &amp; " _ 
     
     > [!CAUTION]
-    > Dans la (Royaume-Uni), le nom de société ne peuvent pas porter le signe +. 
+    > Dans la (Royaume-Uni), le nom de la société ne peut pas avoir le signe +. 
   
-- Il doit comporter au maximum 80 caractères.
-    
-- Il ne peut pas commencer par un caractère spécial. 
-    
-## Problèmes avec le numéro de la maison.
-
-Si vous rencontrez un problème en entrant le numéro de maison, n'oubliez pas :
-  
-- Il peut avoir des lettres, des chiffres et des caractères spéciaux suivants :-/]
-    
-- Il doit commencer par un chiffre.
-    
-- Il doit comporter au maximum 20 caractères.
-    
-- Il peut avoir une majuscule ou minuscule.
-    
-## Problèmes avec le nom de la maison.
-
-Si vous rencontrez un problème entrer le nom de la salle, n'oubliez pas :
-  
-- Il peut comporter des lettres, des chiffres et les caractères spéciaux suivants : , / - + . ' &amp; " _
-    
-- Il doit comporter au maximum 50 caractères.
+- Elle doit être de 80 caractères ou moins.
     
 - Il ne peut pas commencer par un caractère spécial.
     
-## Problèmes avec l'adresse.
+## <a name="whats-wrong-with-the-house-number"></a>Quel est le problème avec le numéro de la maison ?
 
-Si vous rencontrez un problème entrer le nom de la rue, n'oubliez pas :
+Si vous rencontrez un problème en entrant le numéro de la maison, n’oubliez pas :
   
-- Il peut avoir des lettres, des chiffres et des caractères spéciaux suivants :, / - +. « &amp; « _
+- Il peut avoir des lettres, des chiffres et des caractères spéciaux suivants :-/]
     
-- Il doit comporter au maximum 50 caractères.
+- Il doit commencer par un chiffre.
     
-- Elle ne peut pas commencer par un caractère spécial. 
+- Elle doit être de 20 caractères ou moins.
     
-## Problèmes avec la ville ou le village.
+- Il peut avoir une majuscule ou une minuscule.
+    
+## <a name="whats-wrong-with-the-house-name"></a>Quel est le problème avec le nom de la maison ?
 
-Si vous rencontrez un problème entrer le nom de la ville ou ville, n'oubliez pas :
+Si vous rencontrez un problème, entrez le nom de la maison, n’oubliez pas :
   
-- Il peut avoir des lettres, des chiffres et des caractères spéciaux suivants :, / - +. « &amp; « _
+- Elle peut comporter des lettres, des chiffres et des caractères spéciaux suivants :, / - +. ' &amp; " _
     
-- Il doit comporter au maximum 50 caractères.
+- Elle doit être de 50 caractères ou moins.
+    
+- Il ne peut pas commencer par un caractère spécial.
+    
+## <a name="whats-wrong-with-the-street-name"></a>Quel est le problème avec le nom de la rue ?
+
+Si vous rencontrez un problème, entrez le nom de la rue, gardez à l’esprit :
+  
+- Il peut avoir des lettres, des chiffres et des caractères spéciaux suivants :, / - +. ' &amp; " _ 
+    
+- Elle doit être de 50 caractères ou moins.
     
 - Il ne peut pas commencer par un caractère spécial. 
     
-## Problèmes avec le code postal.
+## <a name="whats-wrong-with-the-city-or-town"></a>Quel est le problème avec la ville ou du village ?
 
-Si vous rencontrez un problème entrer le code postal, n'oubliez pas :
+Si vous rencontrez un problème, entrez le nom de la ville ou du Village, n’oubliez pas :
   
-- Il peut être lettres, des nombres ou des espaces.
+- Il peut avoir des lettres, des chiffres et des caractères spéciaux suivants :, / - +. ' &amp; " _
     
-- Il doit comporter des lettres 8 au maximum, y compris les nombres et des espaces.
+- Elle doit être de 50 caractères ou moins.
     
-- **N'oubliez pas que si vous êtes dans la (Royaume-Uni)**, vous **devez** placer le code postal dans un des formats suivants, où la lettre A = caractère de A à Z, le signe # = un nombre compris entre 0 à 9 et les _ (caractère de soulignement) = un espace vide. Voici quelques exemples :
+- Il ne peut pas commencer par un caractère spécial. 
+    
+## <a name="whats-wrong-with-the-postal-code"></a>Quel est le problème avec le code postal ?
+
+Si vous rencontrez un problème de saisie du code postal, n’oubliez pas :
+  
+- Il peut uniquement avoir des espaces, des chiffres ou des lettres.
+    
+- Il doit être inférieur ou égal à 8 lettres, chiffres et espaces compris.
+    
+- **N’oubliez pas que si vous êtes dans la (Royaume-Uni)**, vous **devez** placer le code postal dans un des formats suivants, où la lettre A = les caractères A-Z, le signe # = un nombre compris entre 0-9 et les _ (souligné) = un espace vide. Voici quelques exemples :
     
 |**Format**|**Exemple**|
 |:-----|:-----|
-|AA#A_#AA  <br/> |EC3B 2BD  <br/> |
-|A#A_#AA  <br/> |E1W 1AP  <br/> |
-|A#_#AA  <br/> |F1 2AG  <br/> |
-|A##_#AA  <br/> |C44 8HT  <br/> |
-|AA#_#AA  <br/> |DR3 6HG  <br/> |
-|AA##_#AA  <br/> |FN35 1TH  <br/> |
-   
-## 
-<a name="MT_Footer"> </a>
+|AA #A_ #AA  <br/> |2BD DE EC3B  <br/> |
+|UN A_ # #AA  <br/> |E1W 1AP  <br/> |
+|UN _ # #AA  <br/> |2AG DE LA F1  <br/> |
+|UN _ ## #AA  <br/> |C44 8HT  <br/> |
+|AA #_ #AA  <br/> |DR3 6HG  <br/> |
+|CA-## _ #AA  <br/> |1ÈME DE FN35  <br/> |
 
 > [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
-## Voir aussi
-<a name="MT_Footer"> </a>
+> Si vous avez besoin obtenir des numéros de téléphone supplémentaires que cela, veuillez [contacter le support technique pour les produits d’entreprise - aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-#### 
+   
+## <a name="related-topics"></a>Rubriques connexes
+[Transfert de questions courantes des numéros de téléphone](transferring-phone-numbers-common-questions.md)
+
+[Différents types de numéros de téléphone utilisés pour les Plans d’appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
-  
-[Période de sortant gratuit de audio conférence](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype pour Business Online : étiquette de décharge de responsabilité d’appel d’urgence](https://go.microsoft.com/fwlink/?LinkID=692099)

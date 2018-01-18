@@ -1,81 +1,115 @@
 ---
-title: "Rapport d'utilisation de la conférence RTC Skype Entreprise"
+title: "Rapport d’utilisation de TLS"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/24/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 74eda791-c41f-4fd9-ae0b-913342e7ab04
-description: "La nouvelle Skype pour la zone Centre d'administration entreprise rapports affiche vous appel audio conférence activité et de votre organisation. Il permet d'Explorer les rapports vous donner un aperçu plus précis sur les activités de chaque utilisateur. Par exemple, vous pouvez utiliser le rapport Skype pour plus d'informations métier PSTN l'utilisation pour voir le nombre de minutes passé dans les appels entrant/sortant et des coûts pour ces appels. Vous pouvez afficher les détails de l'utilisation de l'Audio conférence PSTN, y compris le coût de l'appel afin que vous puissiez comprendre l'utilisation de votre et appelez les détails de facturation pour déterminer l'utilisation au sein de votre organisation."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Reporting
+description: "Le nouveau Skype pour zone de rapports d’entreprise Admin Center affiche vous appelant et audio conférence activité dans votre organisation. Il vous permet de vous y plonger le rapports pour vous fournir des informations plus précises sur les activités de chaque utilisateur. Par exemple, vous pouvez utiliser le Skype pour le rapport de détails de l’utilisation de Business RTPC pour voir le nombre de minutes passé dans les appels entrant et sortant et le coût de ces appels. Vous pouvez afficher les détails de l’utilisation d’Audio conférence PSTN, y compris le coût de l’appel afin que vous pouvez comprendre votre utilisation et appeler les détails de facturation pour déterminer l’utilisation au sein de votre organisation."
+ms.openlocfilehash: 99a57109ca7e6fa1d9933174de7d5cf9209efdfc
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="pstn-usage-report"></a>Rapport d’utilisation de TLS
 
-# Rapport d'utilisation de la conférence RTC Skype Entreprise
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Le nouveau Skype pour la zone Centre d’administration Business **rapports** affiche vous appelant et audio conférence activité dans votre organisation. Il vous permet de vous y plonger le rapports pour vous fournir des informations plus précises sur les activités de chaque utilisateur. Par exemple, vous pouvez utiliser le rapport **Skype pour plus de détails Business RTPC** pour voir le nombre de minutes passé dans les appels entrant et sortant et le coût de ces appels. Vous pouvez afficher les détails de l’utilisation d’Audio conférence PSTN, y compris le coût de l’appel afin que vous pouvez comprendre votre utilisation et appeler les détails de facturation pour déterminer l’utilisation au sein de votre organisation.
   
-La nouvelle Skype pour la zone Centre d'administration entreprise **rapports** affiche vous appel audio conférence activité et de votre organisation. Il permet d'Explorer les rapports vous donner un aperçu plus précis sur les activités de chaque utilisateur. Par exemple, vous pouvez utiliser le rapport **Skype pour plus d'informations métier PSTN l'utilisation** pour voir le nombre de minutes passé dans les appels entrant/sortant et des coûts pour ces appels. Vous pouvez afficher les détails de l'utilisation de l'Audio conférence PSTN, y compris le coût de l'appel afin que vous puissiez comprendre l'utilisation de votre et appelez les détails de facturation pour déterminer l'utilisation au sein de votre organisation.
+Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour les rapports supplémentaires qui sont disponibles.
   
- Consultez la[Rapports d'activité dans le Centre d'administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour plus d'informations sur les rapports disponibles.
-  
-Ce rapport ainsi que l'autres Skype pour les rapports d'entreprise obtenir des informations détaillées sur l'activité notamment l'appel de l'utilisation au sein de votre organisation. Ces informations sont très utiles lorsque vous avez une solution, planification et la création d'autres entreprises décisions pour votre organisation et de configuration de la [Que sont les Communications crédits ?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md).
+Ce rapport, ainsi que l’autre Skype pour les rapports d’entreprise, vous donne des détails sur l’activité, y compris l’utilisation de l’appel au sein de votre organisation. Ces informations sont très utiles lorsque vous étudie, de planification et effectuer d’autres activités des décisions pour votre entreprise et pour configurer les [crédits de Communications](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
   
 > [!NOTE]
 > Vous pouvez afficher tous les rapports Skype Entreprise lorsque vous vous connectez en tant qu'administrateur du centre d'administration Office 365. 
   
-## Comment obtenir les rapports sur les détails d'utilisation PSTN de Skype Entreprise
+## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Comment obtenir les rapports sur les détails d'utilisation PSTN de Skype Entreprise
 
-1. Accédez au **Centre d'administration Office 365** > cliquez sur **Centre d'administration** > puis cliquez sur **Skype centre d'administration Business**
-    
-2. À partir de la Skype centre d'administration entreprise > Sélectionner des **rapports** à partir du menu de gauche, puis cliquez sur **Détails de l'utilisation PSTN.**
+- Accédez au **Centre d’administration Office 365** > **Admin centres** > **Skype pour le centre d’administration Business** > **rapports** > **les détails de l’utilisation de TLS**.
     
     > [!NOTE]
     > En fonction de l'abonnement Office 365 que vous avez souscrit, tous les produits et les rapports présentés dans cet article ne seront peut-être pas disponibles. 
   
-## Interpréter le rapport d'utilisation PSTN de Skype Entreprise
+## <a name="interpret-the-skype-for-business-pstn-usage-report"></a>Interpréter le rapport d'utilisation PSTN de Skype Entreprise
 
-Vous pouvez obtenir un affichage à Skype l'utilisateur pour réduire l'utilisation métier PSTN en recherchant dans chacune des colonnes qui sont affichent.
+Vous pouvez vous connaître l'utilisation PSTN Skype Entreprise d'un utilisateur en consultant chacune des colonnes qui sont affichées.
   
 Voici une illustration du rapport.
   
-![Skype for Business PSTN usage report.](../images/d3fee22a-a163-45c5-921a-45191288e0c8.png)
-  
-## 
+![Rapport d'utilisation de la conférence RTC Skype Entreprise](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
 
-|||
-|:-----|:-----|
-|**1** <br/> | Le tableau indique une analyse de l'utilisation PSTN tous les par utilisateur. Ceci affiche tous les utilisateurs ayant Skype entreprise affectée ainsi que leur utilisation PSTN. Vous pouvez ajouter/supprimer des colonnes à la table. <br/> **ID d'appel** est l'ID de l'appel pour un appel. Il s'agit d'un identificateur unique pour l'appel est utilisé lors de l'appel du service technique Microsoft. <br/> **ID de l'utilisateur** est le nom de connexion de l'utilisateur. <br/> **Numéro de téléphone** est le Skype pour le numéro de téléphone professionnel qui a reçu l'appel pour les appels entrants ou le numéro composé pour les appels sortants. <br/> **Emplacement de l'utilisateur** est le pays/région où se trouve l'utilisateur. <br/> **ID d'appelant** est le numéro de téléphone de l'appelant (ID de l'appelant) pour les appels entrants, le numéro à partir duquel provient l'appel ou la Skype pour numéro Professionnel d'où provient l'appel pour les appels sortants. <br/> **Type d'appel** est si l'appel était un PSTN entrant ou sortant d'appel et le type d'appel tel qu'un appel placé par un utilisateur ou d'une conférence audio. Les types d'appel que vous voyiez sont : <br/> **Types d'appel vous appelez Plan** <br/> **user_in** (l'utilisateur reçoit un appel PSTN entrant) <br/> **user_out** (l'utilisateur a placé un appel PSTN sortant) <br/> **user_out_conf** (l'utilisateur ajouté 2 ou plusieurs participants PSTN à l'appel par exemple une téléconférence 3-moyen) <br/> **user_out_transfer** (l'utilisateur transférez l'appel vers un numéro PSTN) <br/> **user_out_forwarding** (l'utilisateur transféré l'appel vers un numéro PSTN) <br/> **Types d'appel de services d'audioconférence** <br/> **conf_in** (un appel entrant vers le pont de conférence Audio) <br/> **conf_out** (un appel sortant du pont de conférence Audio généralement pour ajouter un numéro PSTN à la conférence) <br/>  Applications de communications unifiées (UCAP) <br/> **ucap_in** (un appel entrant vers l'application de communications unifiées comme file d'attente standard ou appel automatique) <br/> **ucap_out** (un appel sortant de l'application de communications unifiées comme file d'attente standard ou appel automatique) <br/> **Numéros nationaux et internationaux** indique si l'appel a été placée a été considéré comme appels nationaux (au sein d'une pays/région) ou international (en dehors d'une pays/région) basé sur l'emplacement de l'utilisateur. <br/> **Composé de destination** est le nom de la destination de pays/région composé comme France, Allemagne ou aux États-Unis (États-Unis). <br/> **Nombre** est le type de numéro de téléphone à partir de numéro de téléphone d'un utilisateur, un numéro d'appel gratuit service ou le numéro payant. <br/> **Heure de début (UTC)** est l'heure à laquelle l'appel a commencé. <br/> **Durée** indique le temps de connexion de l'appel. <br/> **ConfID** est l'ID de conférence de la conférence audio. <br/> **Frais** est la somme d'argent ou de coût de l'appel qui est facturée à votre compte. <br/> **Devise** est le type de devise qui est utilisée pour calculer le coût de l'appel. <br/> **Fonction** est la licence utilisée pour l'appel. Les types de licences que vous voyiez sont : <br/> **MCOPSTNPP** - Communications crédits <br/> **MCOPSTN1** - appels nationaux appelant planifier (min 3000 US / plans min 1200 l'Union européenne) <br/> **MCOPSTN2** - Plan internationaux <br/> **MCOPSTN5** - appels nationaux appelant Plan (plan d'appel min 120) <br/> **MCOMEETADD** - services d'audioconférence <br/> **MCOMEETACPEA** - rémunération par Minute services d'audioconférence <br/> |
-|**2** <br/> |Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes. <br/> |
-|**3** <br/> |Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur le bouton **Exporter vers Excel**.  <br/> Cela permet d'exporter les données de tous les utilisateurs et vous permet de trier et de filtrer plus simplement pour une analyse plus approfondie. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.  <br/> |
+***
+![Numéro 1](../images/sfbcallout1.png)<br/>La table affiche une répartition de l’utilisation de TLS tous par utilisateur. Affiche tous les utilisateurs qui ont Skype pour entreprise affectée ainsi que leur utilisation RTPC. Vous pouvez ajouter/supprimer des colonnes à la table.
+*    **ID d’appel** est l’identifiant d’appel pour un appel. Il s’agit d’un identificateur unique pour l’appel qui est utilisé lors de l’appel du service de support de Microsoft.
+*    **ID de l'utilisateur** est le nom de connexion de l'utilisateur.
+*    **Numéro de téléphone** est le Skype pour le numéro de téléphone professionnel qui a reçu l’appel pour les appels entrants ou le numéro composé pour les appels sortants.
+*    **Emplacement de l’utilisateur** est le pays ou la région où se trouve l’utilisateur.
+*    **ID de l’appelant** est un numéro de téléphone de l’appelant (ID de l’appelant) pour les appels entrants, le numéro à partir duquel provient l’appel ou le Skype pour le numéro d’entreprise d'où provient l’appel pour les appels sortants.
+*    **Type d’appel** est si l’appel a été appeler d’un RTPC entrant ou sortant et le type de l’appel comme un appel placé par un utilisateur ou une conférence audio. Les types d’appels que vous pouvez voir sont : 
+
+     **Types de Plan d’appel d’appel** 
+     *    **user_in** (l’utilisateur a reçu un appel entrant de RTPC) 
+     *    **user_out** (l’utilisateur a placé un appel RTC sortant) 
+     *    **user_out_conf** (l’utilisateur ajouté 2 ou plusieurs participants de RTC de l’appel comme un appel de conférence 3 voies) 
+     *    **user_out_transfer** (l’utilisateur transféré l’appel à un numéro RTC) 
+     *    **user_out_forwarding** (l’utilisateur transmis à l’appel d’un numéro RTC)
+
+     **Types d’appel de conférence audio**
+     *    **conf_in** (c’est un appel entrant vers le pont de conférence de données Audio) 
+     *    **conf_out** (un appel sortant à partir de la passerelle audioconférence généralement à ajouter un numéro RTC à la conférence)
+
+     **Applications de Communication unifiée (UCAP)** 
+     *    **ucap_in** (un appel entrant à l’application de communications unifiées comme file d’attente de surveillance ou d’appel automatique) 
+     *    **ucap_out** (un appel sortant à partir de l’application de communications unifiées comme file d’attente de surveillance ou d’appel automatique)
+*     
+     **Internes et internationaux** vous indique si l’appel qui a été placé a été considérée comme intérieurs (au sein d’un pays/une région) ou internationaux (en dehors d’un pays/une région) basée sur l’emplacement de l’utilisateur. 
+*    **Composé de destination** est le nom de la destination de pays/région est composé par exemple de la France, en Allemagne ou les États-Unis (US). 
+*    **Type de numéro** est le type de numéro de téléphone d’un numéro de téléphone d’un utilisateur, un service ou un numéro d’appel gratuit.  
+*    **Heure de début (UTC)** est l'heure à laquelle l'appel a commencé. 
+*    **Durée** indique le temps de connexion de l'appel.  
+*    **ConfID** est l’ID de la conférence audio de la conférence. 
+*    **Les frais** sont le montant d’argent ou de coût de l’appel est facturé à votre compte. 
+*    **La devise** est le type de devise utilisé pour calculer le coût de l’appel. 
+*    **Fonction** est la licence utilisée pour l’appel. Les types de licences que vous pouvez voir sont les suivantes : 
+     *    **MCOPSTNPP** - crédits de Communications <br/> **MCOPSTN1** - intérieur appelant Plan (3000 min US / 1200 min de l’Union européenne envisage) 
+     *    **MCOPSTN2** - Plan d’appel International 
+     *    **MCOPSTN5** - intérieur appelant Plan (plan d’appel 120 min) 
+     *    **MCOMEETADD** - conférence Audio
+     *    **MCOMEETACPEA** - paie par Minute audioconférence 
+***
+![Numéro 2](../images/sfbcallout2.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes.
+ ***
+![Numéro 3](../images/sfbcallout3.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur le bouton **Exporter vers Excel**. <br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.
    
-## Autres rapports d'activité Skype Entreprise
+## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
 
-- [Rapport d'activité Skype Entreprise](skype-for-business-activity-report.md) Vous pouvez voir combien vos utilisateurs utilisent égal à égal, d'organisation et participé sessions de conférence.
+- [Skype pour le rapport d’activité commerciale](activity-report.md) Vous pouvez voir combien vos utilisateurs sont à l’aide de peer-to-peer, d’organisation et participé aux sessions de conférence.
     
-- [Skype pour le rapport d'utilisation entreprise appareil](skype-for-business-device-usage-report.md) Vous pouvez pour afficher les périphériques, y compris les systèmes d'exploitation Windows et les appareils mobiles qui ont la Skype entreprise App installé et que vous l'utilisez pour la messagerie instantanée et les réunions.
+- [Skype pour le rapport d’utilisation du périphérique Business](device-usage-report.md) Vous pouvez pour voir les périphériques, y compris les systèmes d’exploitation basés sur Windows et les périphériques mobiles qui ont le Skype pour application métier installé et sont en servent pour la messagerie instantanée et des réunions.
     
-- [Rapport d'activité d'organisateur de conférences Skype Entreprise](skype-for-business-conference-organizer-activity-report.md) Vous pouvez voir combien vos utilisateurs sont organisation des conférences qui utilisent la messagerie instantanée, audio/vidéo, partage d'applications, Web, /dial arrière - 3ème partie et /dial out : Microsoft.
+- [Skype pour le rapport d’activité commerciale conférence organisateur](conference-organizer-activity-report.md) Vous pouvez voir combien vos utilisateurs sont organiser des conférences qui utilisent la messagerie instantanée, audio/vidéo, partage d’applications, Web, /dial out - 3ème partie et /dial, Microsoft.
     
-- [Rapport d'activité de participation à des conférences Skype Entreprise Online](skype-for-business-conference-participant-activity-report.md) Vous pouvez consulter le partage d'application audio/vidéo, messagerie instantanée, nombre, Web et les appels sortants audioconférences sont en cours participé.
+- [Skype Business conférence participant rapport d’activité](conference-participant-activity-report.md) Vous pouvez voir le partage d’applications audio/vidéo, messagerie instantanée, le nombre, le Web et l’accès à des conférences audio sont en cours participés.
     
-- [Rapport d'activité P2P Skype Entreprise](skype-for-business-peer-to-peer-activity-report.md) Vous pouvez voir combien vos utilisateurs sont à l'aide de messagerie instantanée, audio/vidéo, partage d'application et transfert de fichiers.
+- [Skype Business - to-peer rapport d’activité](peer-to-peer-activity-report.md) Vous pouvez voir combien vos utilisateurs sont à l’aide de messagerie instantanée, audio/vidéo, partage d’applications et le transfert de fichiers.
     
-- [Skype pour les utilisateurs professionnels bloqués rapport](skype-for-business-users-blocked-report.md) Vous pouvez voir les utilisateurs de votre organisation qui ont été bloqués d'effectuer des appels PSTN.
-    
-- [Skype pour les utilisateurs professionnels bloqués rapport](skype-for-business-users-blocked-report.md) Vous pouvez afficher des détails sur le type de média en cours d'utilisation, la durée de la session, le client utilisé et l'URL de conférence.
-    
-## Rubriques connexes
+- [Skype pour les utilisateurs professionnels bloqué rapport](users-blocked-report.md) Vous pouvez voir les utilisateurs de votre organisation qui ont été bloqués d’effectuer les appels RTPC.
 
-[Rapports d'activité dans le Centre d'administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
-  
-## 
-<a name="MT_Footer"> </a>
+- [Skype pour rapport de pools minute RTC de l’entreprise](pstn-minute-pools-report.md) , vous pouvez voir le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
+- [Skype pour le rapport de détails de session de Business](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel de l’utilisateur.
+    
+## <a name="related-topics"></a>Rubriques connexes
+[Rapports sur les activités dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
 

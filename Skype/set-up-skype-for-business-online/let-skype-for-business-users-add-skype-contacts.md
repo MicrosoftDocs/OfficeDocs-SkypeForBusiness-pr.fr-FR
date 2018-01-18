@@ -1,116 +1,101 @@
 ---
-title: "Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype"
+title: "Permettent d’ajouter des contacts de Skype Skype pour les utilisateurs professionnels"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/13/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_Skype4B_Online_Top
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
 ms.assetid: 08666236-1894-42ae-8846-e49232bbc460
-
-description: "See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
+- LIL_Placement
+description: "Voir comment permettre aux personnes qui sont à l’aide de Skype pour contact professionnel Skype pour les utilisateurs professionnels à partir de l’extérieur de votre organisation et de les ajouter à leur liste de contacts. "
+ms.openlocfilehash: 1add1f6e907613d1ac536c92b57cfce7f3cdaf66
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="let-skype-for-business-users-add-skype-contacts"></a>Permettent d’ajouter des contacts de Skype Skype pour les utilisateurs professionnels
 
-# Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype
+Avec Skype pour les entreprises, les utilisateurs peuvent rechercher et des messages instantanés avec tout le monde qui utilisent Skype, l’application gratuite ! Cet article explique ce qu’il faut faire, ils peuvent ajouter des contacts de Skype. 
+  
+Vous devez disposer [des autorisations d’administration](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) dans Office 365 pour cela.
+  
+1. Connectez-vous avec votre compte d’administrateur Office 365 à [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage).
+    
+2. Dans le centre d’administration Office 365, accédez aux **Centres d’administration** > **Skype pour les entreprises**. 
+    
+    ![Choisissez le Skype pour le centre d’administration commerciale.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
+  
+3. Dans le **Skype pour le centre d’administration Business**, choisissez **organisation** > **les communications externes**. 
+    
+4. Par défaut, les utilisateurs peuvent communiquer avec tous les autres personnes dans le monde qui utilisent Skype pour les entreprises (en supposant que votre pare-feu a été configuré pour cela). 
+    
+    ![Choisissez de laisser personnes utilisent Skype pour les entreprises à communiquer avec Skype.](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
+  
+    Si vous souhaitez que vos utilisateurs de converser avec des utilisateurs de Skype, mais vous ne voulez discuter avec d’autres personnes utiliser Skype pour entreprise, cliquez **sur uniquement pour les domaines autorisés**. Lorsque vous activez le contact avec les utilisateurs de Skype, skype.com est automatiquement ajouté comme un domaine autorisé dans les coulisses. 
+    
+    Si vous souhaitez autoriser le contact à partir de toutes les autres entreprises dans le monde à l’aide de Skype pour les entreprises, à l’exception de celles spécifiques, choisissez **sur domaines bloqués à l’exception de**et choisissez **+** pour ajouter ces domaines. Tout le monde sera en mesure de vous contacter, à l’exception des personnes sur ces domaines spécifiques. (Certaines entreprises peuvent choisir cette option, par exemple, si elles sont en cas de litige et que vous doivent vous assurer n’est aucun contact avec d’autres activités).
+    
+5. Cliquez sur **Autoriser les utilisateurs à utiliser Skype pour entreprise de communiquer avec des utilisateurs de Skype en dehors de votre organisation**. 
+    
+6.  Si vous utilisez le pare-feu Windows, Skype pour entreprise ouvre automatiquement les ports requis.
+    
+    Si votre organisation utilise une autre solution pour limiter les ordinateurs de votre réseau de se connecter à Internet, assurez-vous que les ordinateurs clients sont en mesure d’accéder à toutes les [adresses IP et des URL](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) pour la connectivité de Skype et recherche dans l’annuaire Skype. Vous devrez peut-être en les ajoutant à la sortie de liste verte dans la configuration de votre infrastructure de pare-feu ou de proxy.
+    
+7. **Attendre jusqu'à 24 heures pour tester**. Chaque fois que vous modifiez les paramètres de communication externe, il peut prendre jusqu'à 24 heures pour que les modifications à remplir dans tous les centres de données.
+    
+8. Montrez à vos utilisateurs comment rechercher et ajouter des contacts de Skype à leur liste de Skype pour contacts professionnels. Les pointer à la [recherche des personnes dans Skype pour les entreprises](https://support.office.com/en-us/article/b12500ef-e37f-4d22-aade-c11277e53f19).
+    
+## <a name="test-and-troubleshoot"></a>Tester et résoudre les problèmes
 
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Pour tester votre installation, vous avez besoin d’un contact sur Skype qui n’est pas derrière un pare-feu de votre entreprise. Ils peuvent être signés Skype à l’aide d’un compte Gmail, Outlook.com compte ou tout autre type de compte de messagerie.
   
-Avec Skype Entreprise, vos utilisateurs peuvent rechercher et contacter par messagerie instantanéet toute personne utilisant Skype, l'application gratuite ! Cet article vous indique comment procéder pour leur permettre d'ajouter des contacts Skype. 
+1. Après que vous modifiez vos paramètres de communication externe, **attendre jusqu'à 24 heures de TEST**.
+    
+2. Se déconnecter de Skype pour entreprise et puis connectez-vous à nouveau pour voir l’option de recherche dans l’annuaire de Skype. 
+    
+    ![Lorsque le répertoire de Skype est mis en surbrillance, vous pouvez rechercher pour les personnes qui ont des comptes de Skype.](../images/76ee9fab-1ac3-4f4a-9569-f5f2606dbb7a.png)
   
-Vous devez disposer des [À propos des rôles d'administrateur Office 365](about-office-365-admin-roles.md) dans Office 365 pour effectuer cette action.
-  
-1. Connectez-vous à l'aide de votre Office 365 compte d'administrateur sur [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage).
+3. Rechercher votre contact dans Skype dans Skype pour les entreprises et envoyer une demande de conversation. 
     
-2. Dans le Centre d'administration Office 365, allez dans **Centres d'administration** > **Skype Entreprise**. 
+    Si vous obtenez le message qu’il n’a pas pu être envoyée en raison de la stratégie de l’entreprise, vous devez vérifier vos [paramètres de pare-feu](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
     
-    ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
-  
-3. Dans la **Centre d'administration Skype Entreprise**, cliquez sur **organisation** > **communications externes**.
+4. Un autre moyen de tester si le problème est votre pare-feu pour atteindre un emplacement wifi pas derrière le pare-feu comme un café et permet d’envoyer une demande à votre Skype Skype pour les entreprises contact à la conversation. 
     
-4. Par défaut, vos utilisateurs peuvent communiquer avec quiconque utilisant Skype Entreprise (si la configuration de votre pare-feu le permet). 
+  - **Si vous avez envoyé votre contact Skype une demande et ils jamais reçu**, demandez-lui de vous envoyer une demande de conversation. Si le problème a été établi une connexion entre Skype et Skype pour les entreprises, qui souvent le résout.
     
-    ![Choose Let people use Skype for Business to communicate with Skype.](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
-  
-    Si vous souhaitez autoriser vos utilisateurs à communiquer avec des contacts Skype, mais pas ceux utilisant Skype Entreprise, sélectionnez **Activé uniquement pour les domaines autorisés**. Lorsque vous autorisez le contact avec des utilisateurs Skype, skype.com est automatiquement ajouté à la liste des domaine autorisés à l'arrière-plan. 
+  - Si le message est transmis par le biais de café, mais pas lorsque vous êtes au travail, vous savez que le problème est maintenant votre firewall. 
     
-    Pour autoriser la communication avec toutes les organisations à travers le monde utilisant Skype Entreprise, excepté certaines d'entre elles, sélectionnez **Activer sauf pour les domaines bloqués** et sélectionnez **+** pour ajouter ces domaines. Tout le monde pourra vous contacter, sauf les personnes appartenant aux domaines spécifiques. Cette option peut être choisie par certaines entreprises si, par exemple, elles sont en litige et doivent s'assurer qu'aucun contact n'a lieu avec l'autre entreprise.
-    
-5. Choisissez **Autoriser les utilisateurs à employer Skype Entreprise pour communiquer avec des utilisateurs Skype extérieurs à votre organisation**. 
-    
-6. Si vous utilisez le pare-feu Windows, Skype Entreprise ouvre automatiquement les ports nécessaires. 
-    
-    Si votre organisation utilise une autre solution pour restreindre l'accès à Internet des ordinateurs de votre réseau, assurez-vous que vos ordinateurs clients puissent accéder à toutes les [URL et plages d'adresses IP Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) pour la connectivité Skype et la recherche dans l'annuaire Skype. Il vous faudra peut-être les ajouter à la liste autorisée dans votre pare-feu ou la configuration de votre infrastructure proxy.
-    
-7. **ATTENDEZ JUSQU'À 24 HEURES POUR EFFECTUER UN TEST**. Chaque fois que vous modifiez les paramètres de communications externes, jusqu'à 24 heures peuvent être nécessaires pour que les modifications soient appliquées à tous les centres de données.
-    
-8. Montrez à vos utilisateurs comment rechercher et ajouter des contacts Skype à leur liste des contacts Skype Entreprise. Dirigez-les vers [Rechercher des personnes dans Skype Entreprise](https://support.office.com/article/b12500ef-e37f-4d22-aade-c11277e53f19).
-    
-## Test et dépannage
+## <a name="what-you-can-and-cant-do"></a>Vous pouvez et ne pouvez pas faire
 
-Pour tester votre configuration, vous devez disposer d'un contact qui ne soit pas situé derrière le pare-feu de votre entreprise. Il peut se connecter à Skype à l'aide d'un compte Gmail, Outlook.com, ou de tout autre type de compte de messagerie.
-  
-1. Une fois vos paramètres de communication externe modifiés, **ATTENDEZ JUSQU'À 24 HEURES POUR EFFECTUER UN TEST**.
+- **Skype pour le commerce sur Mac** n’a pas la possibilité de rechercher et de communiquer avec des contacts Skype.
     
-2. Déconnectez-vous de Skype Entreprise, puis reconnectez-vous pour afficher l'option de recherche dans l'annuaire Skype. 
+- Alors que vous pouvez rechercher et trouver des utilisateurs de Skype, ils ne peuvent pas rechercher et trouver Skype pour les utilisateurs professionnels. Vous devez leur envoyer une demande de contact, et ils doivent se connecter sur Skype et accepter avant de pouvoir les messages instantanés avec eux. 
     
-    ![When Skype Directory is highlighted, you can search for people who have Skype accounts.](../images/76ee9fab-1ac3-4f4a-9569-f5f2606dbb7a.png)
-  
-3. Dans Skype Entreprise, recherchez votre contact Skype et envoyer une demande de discussion. 
+- Il n’est pas possible d’autoriser la connectivité PIC avec d’autres fournisseurs de messagerie instantanée tels que Google ou Facebook. Vous ne pouvez pas utiliser Skype pour entreprise pour envoyer des messages de texte de téléphone cellulaire.
     
-    Si votre message ne peut pas être envoyé en raison d'une stratégie de votre société, vous devez réviser les [URL et plages d'adresses IP Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
-    
-4. Une autre solution permettant de vérifier si le problème se situe au niveau de votre pare-feu consiste à utiliser Skype Entreprise à partir d'un emplacement Wi-Fi non situé derrière votre pare-feu, par exemple un café, pour envoyer une demande de conversation à votre contact Skype. 
-    
-  - **Si votre contact Skype ne reçoit pas votre demande**, demandez-lui de vous envoyer une demande de conversation. Si le problème était lié à l'établissement de connexion entre Skype et Skype Entreprise, cela permettra de le résoudre.
-    
-  - Si le message a pu être envoyé depuis le café et non depuis votre bureau, vous savez alors que le problème est lié à votre pare-feu. 
-    
-## Opérations possibles et impossibles
+## <a name="what-features-are-available-when-adding-skype-contacts"></a>Quelles fonctionnalités sont disponibles lors de l’ajout de contacts de Skype ?
 
-- **Skype EntrepriseSur Mac**, vous ne pouvez pas rechercher et communiquer avec les contacts Skype.
-    
-- Pendant que vous pouvez rechercher et trouver des utilisateurs Skype, ils ne peuvent pas rechercher et trouver des utilisateurs Skype Entreprise. Vous avez leur envoyer une demande de contact, et ils doivent se connecter à Skype et accepter, avant de pouvoir par messagerie instantanée avec eux.
-    
-- Il est impossible d'autoriser la connexion par MI avec d'autres fournisseurs de MI, tels que Google ou Facebook. Vous ne pouvez pas utiliser Skype Entreprise pour envoyer des SMS.
-    
-## Quelles sont les fonctionnalités disponibles lorsque les utilisateurs ajoutent des contacts Skype ?
-
-contacts Skype connectés avec leur propre compte Microsoft (anciennement Windows Live ID) accessible certaines, mais pas en totalité, fonctionnalités lorsqu'ils sont à parler à vos utilisateurs Skype Entreprise.
+Contacts Skype connecté avec son compte Microsoft (anciennement Windows Live ID) peuvent obtenir certains, mais pas la totalité des fonctionnalités lorsqu’ils communiquent avec votre Skype pour les utilisateurs professionnels.
   
-|**Fonctions disponibles pour les contacts Skype**|**Fonctions non disponibles pour les contacts Skype**|
+|**Disponible avec les contacts Skype**|**Non disponibles avec les contacts Skype**|
 |:-----|:-----|
-| Conversations vidéo <br/>  Messagerie instantanée de personne à personne <br/>  Présence <br/> | Conversations à plusieurs par messagerie instantanée <br/>  Conversions audio et vidéo avec trois personnes au minimum <br/>  Partage du Bureau et de programme <br/> |
+| Conversations vidéo <br/>  Messagerie instantanée personne à personne <br/>  Présence <br/> | Conversations de messagerie instantanée multiparties <br/>  Conversations audio et vidéo avec trois ou plusieurs personnes <br/>  Postes de travail et le partage d’un programme <br/> |
    
-## 
-
- *Mise à jour : jeudi 23 mars 2017* 
-  
-||
-|:-----|
-|![Petit icône de LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **Vous débutez dans Office 365 ?**         Découvrez les cours vidéo gratuits destinés aux administrateurs **Office 365 et aux professionnels de l'informatique**, proposés par LinkedIn Learning. |
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
-## Voir aussi
-<a name="MT_Footer"> </a>
-
-#### 
+## <a name="related-topics"></a>Rubriques connexes
 
 [Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise](allow-users-to-contact-external-skype-for-business-users.md)
   
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
-

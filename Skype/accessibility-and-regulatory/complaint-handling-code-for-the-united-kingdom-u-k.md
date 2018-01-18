@@ -1,21 +1,32 @@
 ---
-title: "Appels RTC Skype Entreprise - Code de traitement des réclamations pour le Royaume-Uni"
+title: "Réclamation de code de gestion pour le (Royaume-Uni)"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 9/20/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
-description: "Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Legal
+description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
+ms.openlocfilehash: eb98b00f7301e29a0a0039f78bd86b4bcfa999c5
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>Réclamation de code de gestion pour le (Royaume-Uni)
 
-# Appels RTC Skype Entreprise - Code de traitement des réclamations pour le Royaume-Uni
-
-Ce Code s'applique aux petites entreprises (organisations ne comportant pas plus de 10 employés) du Royaume-Uni dans le cadre du service d'appels RTC Skype Entreprise (le « Service ») et conformément à la législation sur les communications du Royaume-Uni. D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
+Ce Code s’applique aux petites entreprises (entreprises de moins de 10 employés) dans le Royaume-Uni (UK) concernant le service de Plan d’appel de Office 365 (le « Service ») conformément aux règlements de communications au Royaume-Uni. Autre Skype pour les services sont régis par votre contrat de service avec Microsoft et les autres conditions applicables à l’utilisation d’un service donné.
   
-## Comment porter réclamation
+## <a name="how-to-make-a-complaint"></a>Comment porter réclamation
 
 La satisfaction des clients est une priorité pour Skype Entreprise. Toutefois, si pour une raison ou une autre vous n'êtes pas satisfait du Service, vous pouvez porter réclamation par téléphone ou en ligne :
   
@@ -23,7 +34,7 @@ La satisfaction des clients est une priorité pour Skype Entreprise. Toutefois, 
     
 - En ligne : Connectez-vous au Centre d'administration Office 365 et soumettez une demande de service en sélectionnant **Nouvelle demande de service** sous **Support**. 
     
-## Délais
+## <a name="timelines"></a>Délais
 
 Si vous portez réclamation par téléphone pendant les heures d'ouverture normales, vous parlerez en direct à un représentant de Skype Entreprise, qui tentera de résoudre le problème au cours de l'appel.
   
@@ -33,9 +44,9 @@ Si le représentant de Skype Entreprise n'est pas en mesure de résoudre le prob
   
 Skype Entreprise a pour objectif de résoudre toutes les réclamations liées au Service dans les sept (7) jours ouvrables suivant réception. 
   
-Si vous n'êtes pas satisfait de la manière dont votre réclamation concernant le Service est gérée, vous pouvez demander au représentant de Skype Entreprise traitant votre réclamation, par téléphone ou par e-mail, de la faire remonter conformément à votre accord de service. Microsoft évaluera la réclamation dans les sept (7) jours suivant réception.
+Si vous êtes satisfait de la manière dont votre plainte concernant le Service est géré, vous pouvez demander le Skype pour représentant commercial gère votre plainte, par téléphone ou par e-mail, d’élever la réclamation conformément à votre contrat de service. Microsoft évalue la plainte dans les sept (7) jours de la réception.
   
-## Résolution alternative des litiges
+## <a name="alternative-dispute-resolution"></a>Résolution alternative des litiges
 
 Si votre réclamation concernant le Service n'est pas résolue après huit (8) semaines suivant la soumission ou si vous recevez une lettre de notre part indiquant que nous avons pris une décision finale, vous pouvez transférer votre réclamation à Ombudsman Services, qui est une partie tierce autorisée par Ofcom à traiter les réclamations concernant les services de communications. Nous vous informerons également, par courrier, de la disponibilité de ces services de résolution alternative des litiges. 
   
@@ -45,9 +56,9 @@ Toutes les réclamations doivent être envoyées à Ombudsman Services dans les 
   
 Les étapes à suivre pour transférer une réclamation à Ombudsman Services sont indiquées sur le [site Web](http://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809) d'Ombudsman Services.
   
-Vous pouvez contacter Ombudsman Services en remplissant un formulaire de contact sur leur site Web ou en appelant, en envoyant une lettre ou en envoyant un e-mail :
+Vous pouvez atteindre le médiateur Services en remplissant un formulaire de contact sur le site Web des Services de médiateur ou par téléphone, lettre ou courrier électronique :
   
-- Formulaire de contact : [https://www.ombudsman-services.org/contact-us-communications.html](https://www.ombudsman-services.org/contact-us-communications.mdl)
+- Formulaire de contact : [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
     
 - Téléphone : 0330 440 1614
     
@@ -65,6 +76,8 @@ Vous pouvez contacter Ombudsman Services en remplissant un formulaire de contact
     
     Warrington
     
-    WA4 6WU
+    6WU DE WA4
     
 
+## <a name="related-topics"></a>Rubriques connexes
+[Pays et région de disponibilité pour les conférences Audio et les Plans d’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

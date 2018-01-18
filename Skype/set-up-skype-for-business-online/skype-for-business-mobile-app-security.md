@@ -1,38 +1,43 @@
 ---
-title: "Skype pour la sécurité de l'application mobile d'entreprise"
-ms.author: kenwith
-author: kenwith
-ms.date: 3/21/2017
-ms.audience: ITPro
-ms.topic: concetpual
-ms.prod: office-online-server
-localization_priority: Normal
+title: "Skype pour la sécurité de mobile application métier"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: d2be8c74-3ba2-4b2d-9807-634904e1f0e8
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Apprenez à configurer la sécurité d’une application mobile pour vos utilisateurs. "
+ms.openlocfilehash: bc80434cb29f6d2133ce99e9a583cb388fc7b1b3
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="skype-for-business-mobile-app-security"></a>Skype pour la sécurité de mobile application métier
 
-# Skype pour la sécurité de l'application mobile d'entreprise
+## <a name="skype-for-business-client-security"></a>Skype pour la sécurité du Client entreprise
 
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
-  
-## Sécurité client Skype Entreprise
-
-Cet article contient des informations relatives au chiffrement des données dans les applications mobiles Skype Entreprise.
+Cet article décrit les informations de chiffrement de données sur Skype pour les applications métier mobiles.
   
 |||||
 |:-----|:-----|:-----|:-----|
-||**Nom d'utilisateur/Mot de passe** <br/> |**Données de l'application (conversations, liste des contacts, réunions)** <br/> |**Journaux de diagnostic** <br/> |
-|**Android** <br/> |Nous conservons des informations d'authentification dans Android Accounts. Ces données sont également chiffrées avant leur enregistrement. Le chiffrement s'effectue au moyen de l'algorithme « **AES/CBC/PKCS5Padding** ». <br/> |Elles sont conservées dans une base de données SQL à l'aide d'une bibliothèque nommée [sqlcipher](https://www.zetetic.net/sqlcipher/design/). Nous utilisons leur algorithme par défaut, à savoir AES 256 bits, en mode CBC. Les données statiques sont toujours chiffrées dans le fichier de base de données et non chiffrées uniquement lors de leur transit dans la mémoire volatile et dans les piles d'appels de l'application. De plus, les fichiers de la messagerie vocale sont également chiffrés au moyen de la même méthode que le nom d'utilisateur et le mot de passe (ils ne sont pas stockés dans la base de données). Les messages vocaux sont déchiffrés sur le disque de façon temporaire pour permettre leur lecture.  <br/> |Cette information n'est pas chiffrée.  <br/> |
-|**iOS** <br/> |La combinaison nom d'utilisateur/mot de passe n'est PAS chiffrée dans le trousseau. Toutefois, le trousseau lui-même est chiffré.  <br/> |Nous utilisons déjà le système de protection des données [NSFileProtectionCompleteUntilFirstUserAuthentication](https://developer.apple.com/reference/foundation/fileprotectiontype/1616633-completeuntilfirstuserauthentica) pour tous les fichiers stockés dans l'application. Cela signifie que les fichiers sont chiffrés jusqu'à ce que l'utilisateur déverrouille l'appareil pour la première fois après son redémarrage. <br/> |Cette information n'est pas chiffrée.  <br/> |
-|**Windows Phone** <br/> |Windows Phone utilise DPAPI (API de protection des données) pour sécuriser les mots de passe dans Windows. Il me semble que la méthode de chiffrement utilisée est AES. Windows n'offre pas la possibilité de configurer la taille de la clé (ou la méthode). Il faut s'en remettre à ce que DPAPI propose. Cette méthode utilise le TPM de l'appareil pour sécuriser les clés propres à l'utilisateur et à l'appareil. Notez que les clés DPAPI ne sont pas propres à l'application.  <br/> |Les données d'application Windows Phone sont protégées par [DPAP](https://msdn.microsoft.com/en-us/library/windows/apps/hh487164%28v=vs.105%29.aspx)I, à l'instar des informations d'authentification. Selon le niveau de détail souhaité, puisque certaines informations de l'index pour les données d'application sont protégées par un chiffrement AES (pas DPAPI) pour éviter le salting, nous pouvons donc les consulter sans procéder au déchiffrement et la clé est à son tour protégée par DPAPI. Les données mises en cache peuvent être lues par n'importe quelle méthode par le même téléphone, si celui-ci est en mesure d'accéder à notre dossier de données. Le chiffrement Windows ne protège pas des tentatives d'accès via le bac à sable, uniquement des tentatives d'accès externes.  <br/> |Cette information n'est pas chiffrée.  <br/> |
+||**Nom d’utilisateur/mot de passe** <br/> |**Données de l’application (Conversations,<br/> liste, réunions de contacts)** <br/> |**Journaux de diagnostic** <br/> |
+|**Android** <br/> |Nous stockons les informations d’identification de comptes Android. Nous avons également crypter des informations d’identification avant de les enregistrer dans les comptes. Nous utilisons des « **AES/CBC/PKCS5Padding** » algorithme pour le chiffrement. <br/> |Nous stocker dans une base de données SQL cryptée à l’aide d’une bibliothèque appelée [sqlcipher](https://www.zetetic.net/sqlcipher/design/). Nous utilisons leur algorithme par défaut de 256 bits AES en mode CBC. Les données au repos sont toujours chiffrées dans le fichier de base de données et sont uniquement non chiffrées en transit à l’intérieur de piles de mémoire et appelez volatiles de l’application. Nous avons également chiffrer les fichiers de messagerie vocale à l’aide de la même méthode en tant que nom d’utilisateur et mot de passe cryptage (ils ne sont pas stockés dans la base de données). Messages vocaux est temporairement non cryptées sur le disque pour autoriser la lecture.  <br/> |Ces informations ne sont pas cryptées.  <br/> |
+|**e/s** <br/> |Nous ne pas crypter le nom d’utilisateur/mot de passe dans le trousseau. La chaîne de clé est cryptée, toutefois, sur son propre.  <br/> |Nous utilisons déjà indicateur de protection de données [NSFileProtectionCompleteUntilFirstUserAuthentication](https://developer.apple.com/reference/foundation/fileprotectiontype/1616633-completeuntilfirstuserauthentica) sur tous les fichiers dans le stockage de l’application. Cela signifie que les fichiers dans le stockage d’application seraient être cryptés jusqu'à ce que l’utilisateur déverrouille le périphérique pour la première fois après le redémarrage du périphérique. <br/> |Ces informations ne sont pas cryptées.  <br/> |
+|**Windows Phone** <br/> |Windows Phone utilise DPAPI (API de Protection des données) dans Windows pour sécuriser les mots de passe. Je pense que le schéma de cryptage utilisé est AES. Windows ne nous donne pas une option pour configurer le taille de clé (ou le schéma), il est tout ce que donne la DPAPI. Il utilise le périphérique module de plateforme sécurisée pour sécuriser des clés qui sont spécifiques à l’utilisateur et d’un périphérique. Notez que les clés DPAPI ne sont pas spécifiques à l’application.  <br/> |WP App Data protégées avec [DPAP](https://msdn.microsoft.com/en-us/library/windows/apps/hh487164%28v=vs.105%29.aspx), vous plaisent la Réf.. En fonction de la quantité de détails que nous, les informations d’index pour les données de l’application est protégé par le cryptage AES (non DPAPI) afin d’éviter le salage, donc nous pouvons rechercher sans décryptage, et cette clé est ensuite protégée par DPAPI. Données mises en cache peuvent être lus par n’importe quel processus à partir du téléphone même, en supposant qu’il peut atteindre notre dossier de données. Chiffrement Windows ne protège pas contre la violation de sandbox, tente d’accès externe uniquement.  <br/> |Ces informations ne sont pas cryptées.  <br/> |
    
-Remarque : veuillez consulter la [documentation publique suivante](https://docs.microsoft.com/fr-fr/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) pour les fonctionnalités relatives à l'application du PIN de l'appareil sur chacune des plateformes mobiles susmentionnées.
+**Remarque :** Veuillez consulter [cette documentation publique](https://docs.microsoft.com/en-us/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) pour application de broche de périphérique disponible sur chacune des plates-formes mobiles ci-dessus
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Rubriques connexes
+[Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
-
+[Permettent d’ajouter des contacts de Skype Skype pour les utilisateurs professionnels](let-skype-for-business-users-add-skype-contacts.md)

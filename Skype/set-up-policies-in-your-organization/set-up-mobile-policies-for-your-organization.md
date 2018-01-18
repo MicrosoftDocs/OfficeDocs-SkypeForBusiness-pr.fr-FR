@@ -1,31 +1,39 @@
 ---
-title: "Configurer des stratégies mobiles pour votre organisation"
+title: "Configurer les stratégies mobiles pour votre organisation"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: beea47b2-7b9a-4b28-92d0-af65d80cd00f
-description: "Vous pouvez configurer la façon dont vos utilisateurs se connecteront à Skype entreprise Online à l'aide de la Skype entreprise App sur les appareils mobiles, par exemple une fonctionnalité qui permet aux utilisateurs d'émission et réception d'appels téléphoniques sur leur téléphone mobile à l'aide de son numéro de téléphone professionnel au lieu de leur nu téléphone mobile bre. Mobilité stratégies peuvent également être utilisées pour exiger des connexions Wi-Fi lorsque effectuer ou de recevoir des appels."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Vous pouvez définir comment les utilisateurs se connectent à Skype pour entreprise en ligne à l’aide de la Skype pour application métier sur des périphériques mobiles, comme une fonctionnalité qui permet aux utilisateurs d’effectuer et de recevoir des appels sur leur téléphone mobile à l’aide de leur numéro de téléphone de travail au lieu de leur nu téléphone mobile bre. Mobilité stratégies peuvent également être utilisées pour exiger des connexions Wi-Fi pendant ou recevoir des appels."
+ms.openlocfilehash: 0772091e33043ed9ce5019b5c26ec8857d158260
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="set-up-mobile-policies-for-your-organization"></a>Configurer les stratégies mobiles pour votre organisation
 
-# Configurer des stratégies mobiles pour votre organisation
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Vous pouvez définir comment les utilisateurs se connectent à Skype pour entreprise en ligne à l’aide de la Skype pour application métier sur des périphériques mobiles, comme une fonctionnalité qui permet aux utilisateurs d’effectuer et de recevoir des appels sur leur téléphone mobile à l’aide de leur numéro de téléphone de travail au lieu de leur nu téléphone mobile bre. Mobilité stratégies peuvent également être utilisées pour exiger des connexions Wi-Fi pendant ou recevoir des appels.
   
-Vous pouvez configurer la façon dont vos utilisateurs se connecteront à Skype entreprise Online à l'aide de la Skype entreprise App sur les appareils mobiles, par exemple une fonctionnalité qui permet aux utilisateurs d'émission et réception d'appels téléphoniques sur leur téléphone mobile à l'aide de son numéro de téléphone professionnel au lieu de leur nu téléphone mobile bre. Mobilité stratégies peuvent également être utilisées pour exiger des connexions Wi-Fi lorsque effectuer ou de recevoir des appels.
+Paramètres de stratégie mobile peuvent être configurés au moment de la que création d’une stratégie, ou vous pouvez utiliser l’applet de commande **Set-CsMobilityPolicy** pour modifier les paramètres d’une stratégie existante.
   
-Paramètres de stratégie mobile peuvent être configurés au moment de la que création d'une stratégie, ou vous pouvez utiliser l'applet de commande **Set-CsMobilityPolicy** pour modifier les paramètres d'une stratégie existante.
-  
-## Définir vos stratégies mobiles
+## <a name="set-your-mobile-policies"></a>Définir vos stratégies mobiles
 
 > [!NOTE]
-> Pour tous les paramètres de stratégie mobile dans Skype Entreprise Online, vous devez utiliser Windows PowerShell et vous **ne pouvez pas utiliser** le **Skype centre d'administration entreprise**. 
+> Pour tous les paramètres de stratégie mobile dans Skype pour professionnels en ligne, vous devez utiliser Windows PowerShell et vous **ne pouvez pas utiliser** le **Skype pour le centre d’administration commerciale**. 
   
-### Vérifier et démarrer Windows PowerShell
+### <a name="verify-and-start-windows-powershell"></a>Vérifier et démarrer Windows PowerShell
 
 - **Vérifiez que vous exécutez la version 3.0 ou une version ultérieure de Windows PowerShell**
     
@@ -37,106 +45,81 @@ Paramètres de stratégie mobile peuvent être configurés au moment de la que c
     
 4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
     
-    Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+    Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
     
 - **Démarrez une session Windows PowerShell**
     
-1. Dans le **menu Démarrer**, recherchez **Windows PowerShell**.
+1. À partir du **Menu Démarrer**de > **de Windows PowerShell**.
     
 2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
     
     > [!NOTE]
     > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
-  
-> 
-  ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+
+  ```      
+    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
   ```
 
-> 
-  ```
-  $credential = Get-Credential
-  ```
+  Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [connexion à Skype pour entreprise en ligne à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
 
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
+### <a name="require-a-wifi-connection-for-video-for-a-user"></a>Exiger d'un utilisateur une connexion Wi-Fi pour les vidéos
 
-> 
-  ```
-  Import-PSSession $session
-  ```
-
-    Pour plus d'informations sur le démarrage de Windows PowerShell, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou[Connexion à Skype Entreprise Online à l'aide de Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
-    
-### Exiger d'un utilisateur une connexion Wi-Fi pour les vidéos
-
-- Pour créer une nouvelle stratégie de ces paramètres, exécutez :
-    
+- Pour créer une nouvelle stratégie pour ces paramètres, exécutez :
 > 
   ```
   New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
   ```
-
-    En savoir plus sur l'applet de commande [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx).
+  Reportez-vous à la section plus d’informations sur l’applet de commande [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) .
     
-- Pour accorder à la nouvelle stratégie que vous avez créé pour tous les utilisateurs de votre organisation, exécutez :
-    
+- Pour accorder à la nouvelle stratégie que vous avez créé pour tous les utilisateurs de votre organisation, exécutez :
 > 
   ```
   Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
   ```
-
-    En savoir plus sur l'applet de commande [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx).
+  Reportez-vous à la section plus d’informations sur l’applet de commande [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) .
     
-Si vous avez déjà créé une stratégie, vous pouvez utiliser l'applet de commande [Set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) pour apporter des modifications à la stratégie existante et ensuite utiliser l'applet de commande[Grant CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) pour appliquer le paramètre à vos utilisateurs.
+  Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de commande [Set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) pour apporter des modifications à la stratégie existante et ensuite utiliser l’applet de commande[Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) pour appliquer le paramétrage à vos utilisateurs.
   
-### Empêcher un utilisateur d'utiliser l'application Skype Entreprise
+### <a name="prevent-a-user-from-using-the-skype-for-business-app"></a>Empêcher un utilisateur d'utiliser l'application Skype Entreprise
 
-- Pour créer une nouvelle stratégie de ces paramètres, exécutez :
+- Pour créer une nouvelle stratégie pour ces paramètres, exécutez :
+```
+New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
+```
+  Reportez-vous à la section plus d’informations sur l’applet de commande [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) .
     
-> 
-  ```
-  New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
-  ```
-
-    En savoir plus sur l'applet de commande [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx).
-    
-- Pour autoriser la nouvelle stratégie que vous avez créé à Amos marbre, exécutez :
-    
+- Pour accorder à la nouvelle stratégie que vous avez créé pour Amos marbre, exécutez :  
 > 
   ```
   Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
   ```
-
-    En savoir plus sur l'applet de commande [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx).
+  Reportez-vous à la section plus d’informations sur l’applet de commande [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) .
     
-Si vous avez déjà créé une stratégie, vous pouvez utiliser l'applet de commande [Set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) pour apporter des modifications à la stratégie existante et ensuite utiliser l'applet de commande[Grant CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) pour appliquer le paramètre à vos utilisateurs.
+  Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de commande [Set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) pour apporter des modifications à la stratégie existante et ensuite utiliser l’applet de commande [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) pour appliquer le paramétrage à vos utilisateurs.
   
-### Empêcher un utilisateur de passer des appels de voix sur IP au moyen d'un appareil mobile
+### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>Empêcher un utilisateur de passer des appels de voix sur IP au moyen d'un appareil mobile
 
-- Pour créer une nouvelle stratégie de ces paramètres, exécutez :
-    
+- Pour créer une nouvelle stratégie pour ces paramètres, exécutez :
 > 
   ```
   New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
   ```
-
-    En savoir plus sur l'applet de commande [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx).
+  Reportez-vous à la section plus d’informations sur l’applet de commande [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) .
     
-- Pour accorder à la nouvelle stratégie que vous avez créé pour tous les utilisateurs de votre organisation, exécutez :
-    
+- Pour accorder à la nouvelle stratégie que vous avez créé pour tous les utilisateurs de votre organisation, exécutez :
 > 
   ```
   Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
   ```
 
-    En savoir plus sur l'applet de commande [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx).
+  Reportez-vous à la section plus d’informations sur l’applet de commande [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) .
     
-Si vous avez déjà créé une stratégie, vous pouvez utiliser l'applet de commande [Set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) pour apporter des modifications à la stratégie existante et ensuite utiliser l'applet de commande[Grant CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) pour appliquer le paramètre à vos utilisateurs.
+Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de commande [Set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) pour apporter des modifications à la stratégie existante et ensuite utiliser l’applet de commande[Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) pour appliquer le paramétrage à vos utilisateurs.
   
-## Vous souhaitez en savoir plus sur Windows PowerShell ?
+## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
 - Windows PowerShell permet de gérer les utilisateurs et ce qu'ils sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
@@ -150,12 +133,14 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l'applet de comm
     
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Utiliser Windows PowerShell pour les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Rubriques connexes
+[Créer des stratégies d’accès externe personnalisée](create-custom-external-access-policies.md)
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
+[Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)
+
+[Définir des stratégies de client pour votre organisation](set-up-client-policies-for-your-organization.md)
+
+[Définir des stratégies de conférence dans votre organisation](set-up-conferencing-policies-for-your-organization.md)
 

@@ -1,67 +1,64 @@
 ---
-title: "Déplacement de fournisseur de services d'audioconférence d'un utilisateur à Microsoft"
+title: "Déplacement du fournisseur de conférence audio d’un utilisateur à Microsoft"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.PSTNConferencingEnableUsers
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 3a518241-1ecc-406a-93a1-d2653eecc0f5
-description: "Change your Skype for Business users from third-party audio conferencing providers (ACP) to a Microsoft dial-in conferencing provider. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.PSTNConferencingEnableUsers
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Modifier votre Skype pour les utilisateurs professionnels à partir des fournisseurs de conférence audio de tiers (ACP) à un fournisseur de conférence à distance dans Microsoft. "
+ms.openlocfilehash: 79697299ce2c3e3fa398150cd300e305ef0c672a
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="moving-a-users-audio-conferencing-provider-to-microsoft"></a>Déplacement du fournisseur de conférence audio d’un utilisateur à Microsoft
 
-# Déplacement de fournisseur de services d'audioconférence d'un utilisateur à Microsoft
+Pour utiliser la conférence Audio dans Office 365 avec Skype pour les entreprises et les Teams de Microsoft, les utilisateurs de votre organisation doivent disposer d’une licence de **Conférence Audio** affectée ainsi que leur fournisseur de conférence audio doivent être définies à Microsoft. Pour obtenir plus d’informations sur les licences et son coût, reportez-vous à la section [Essayez ou achetez audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365.md) .
+  
+## <a name="to-move-a-users-audio-conferencing-provider-to-microsoft"></a>Pour déplacer un fournisseur de conférence audio d’un utilisateur à Microsoft
 
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Si une licence de **Conférence Audio** est affectée à un utilisateur qui ne possède pas un fournisseur de conférence audio, le fournisseur de l’utilisateur est automatiquement configurée à Microsoft et vous n’avez rien à faire. Si l’utilisateur avait déjà un fournisseur de conférence audio, vous devez modifier le fournisseur de l’utilisateur à Microsoft après l’attribution d’une licence de **Conférence Audio** .
   
-Pour utiliser les services d'audioconférence dans Office 365 avec Skype entreprise et Teams Microsoft, les utilisateurs de votre organisation qu'il soit nécessaire d'avoir une licence de ** Conférence Audio** affectée ainsi que leur fournisseur de services d'audioconférence doivent être définies à Microsoft. Pour obtenir plus d'informations sur les licences et combien coûte, voir[Utiliser ou acheter audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365.md) .
-  
-## Pour déplacer un fournisseur de services d'audioconférence d'un utilisateur à Microsoft
-
-Si une licence de **Conférence Audio** est affectée à un utilisateur qui n'a pas un fournisseur de services d'audioconférence, fournisseur de l'utilisateur n'est automatiquement affectée à Microsoft et vous n'avez rien à faire. Si l'utilisateur possède déjà un fournisseur de services d'audioconférence, vous devez modifier le fournisseur de l'utilisateur à Microsoft après affectant une licence de **Conférence Audio**.
-  
-Pour définir Microsoft comme le fournisseur de services d'audioconférence pour un utilisateur possédant une licence de **Conférence Audio** affectées mais utilise un autre fournisseur de services d'audioconférence, procédez comme suit :
+Pour définir Microsoft comme le fournisseur de conférence audio pour un utilisateur qui dispose d’une licence de **Conférence Audio** affecté mais utilise un autre fournisseur de conférence audio, procédez comme suit :
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
 2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans la **Skype centre d'administration entreprise**, accédez à **audioconférence**.
+3. Dans le **Skype pour le centre d’administration Business**, passez à **l’audioconférence**.
     
-4. Si vous voyez une bannière qui vous avertit qu'il existe d'autres utilisateurs qui possèdent une **Téléconférence Audio** licence attribuée, mais n'avez pas Microsoft définir en tant que leur fournisseur de services d'audioconférence encore, cliquez sur **Cliquez ici pour les déplacer**. Si vous ne voyez pas la bannière, dans le **Skype centre d'administration Business** cliquez sur **utilisateurs**, puis sélectionnez le filtre **utilisateurs prêts à être déplacés vers audioconférence**.
+4. Si vous voyez une bannière qui vous avertit qu’il existe des utilisateurs qui ont une **Conférence Audio** licence affectés mais n’avez pas Microsoft défini comme leur fournisseur de conférence audio pour l’instant, cliquez sur **Cliquez ici pour les déplacer**. Si vous ne voyez pas la bannière, dans le **Skype pour le centre d’administration Business** cliquez sur **utilisateurs**et puis sélectionnez le filtre **prête à être déplacée à l’Audio conférence des utilisateurs** .
     
-5. Sélectionnez les utilisateurs à déplacer et puis, dans le volet Action, cliquez sur **Modifier**.
+5. Sélectionnez les utilisateurs que vous souhaitez déplacer, puis dans le volet Actions, cliquez sur **Modifier**.
     
-6. Sélectionnez **Microsoft** dans la liste **nom du fournisseur**.
+6. Sélectionnez **Microsoft** dans la liste **nom du fournisseur** .
     
     > [!NOTE]
-    > Lorsque le fournisseur de services d'audioconférence d'un utilisateur est modifié à Microsoft, les informations de conférence audio de l'utilisateur sont modifiées. Si vous avez besoin conserver ces informations, veuillez noter ce numéro quelque part avant de modifier le fournisseur d'un des utilisateurs. 
+    > Lorsque le fournisseur de conférence audio d’un utilisateur est modifié à Microsoft, les informations de conférence audio de l’utilisateur change. Si vous avez besoin de conserver ces informations, veuillez l’enregistrer ailleurs avant de modifier le fournisseur d’un des utilisateurs. 
   
 7. Cliquez sur **Enregistrer**.
     
-## Informations supplémentaires
+## <a name="what-else-should-i-know"></a>Informations supplémentaires
 
-- Si vous sélectionnez l'utilisateur dans la liste, vous pouvez afficher les informations de conférence audio par défaut de l'utilisateur, mais vous ne pourrez pas voir les services d'audioconférence code confidentiel. Vous pouvez réinitialiser la code confidentiel d'un utilisateur de conférence audio, cliquez sur **Réinitialiser**.
+- Si vous sélectionnez l’utilisateur dans la liste, vous pouvez afficher les informations de conférence audio par défaut de l’utilisateur, mais vous ne pourrez pas voir la code PIN de conférence audio. Vous pouvez réinitialiser la code PIN d’un utilisateur de conférence audio en cliquant sur **Réinitialiser**.
     
-- Si vous souhaitez modifier les paramètres de conférence audio pour un utilisateur, vous pouvez sélectionner l'utilisateur dans la liste puis cliquez sur **Modifier** et apportez vos modifications dans la page **Propriétés**.
+- Si vous souhaitez modifier les paramètres de conférence audio pour un utilisateur, vous pouvez sélectionnez l’utilisateur dans la liste puis cliquez sur **Modifier** et apportez vos modifications dans la page de **Propriétés** . 
     
-## Rubriques connexes
+## <a name="related-topics"></a>Rubriques connexes
 
-[Conférence rendez-vous dans Office 365](../misctopics/dial-in-conferencing-in-office-365.md)
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
+[Configurer l’audioconférence pour Skype Entreprise et Microsoft Teams](set-up-audio-conferencing.md)
   
 

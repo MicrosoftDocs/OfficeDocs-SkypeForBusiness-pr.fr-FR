@@ -1,84 +1,83 @@
 ---
-title: "Afficher la liste des numéros de conférence Audio"
+title: "Afficher la liste des numéros d’audioconférence"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 2d6b4ed4-e12b-4691-8405-fae720d69425
-description: "Learn how to look up your dial-in conferencing numbers from within Skype for Business. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Découvrez comment rechercher vos numéros de conférence à distance à partir de Skype pour les entreprises. "
+ms.openlocfilehash: 45e4dd113845c9c565162c4ef3047df83e1aeb43
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="see-a-list-of-audio-conferencing-numbers"></a>Afficher la liste des numéros d’audioconférence
 
-# Afficher la liste des numéros de conférence Audio
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Lorsque vous configurez une conférence Audio pour Skype pour les utilisateurs professionnels et Teams de Microsoft, vous pouvez afficher les numéros de téléphone qui sont à leur disposition pour les conférences audio. Cette liste offre tous les numéros de téléphone de conférence audio sont disponibles pour votre organisation.
   
-Lorsque vous définissez la conférence Audio pour Skype pour les utilisateurs professionnels et Teams Microsoft, vous pouvez afficher les numéros de téléphone disponibles pour les pour les conférences audio. Cette liste offre tous les numéros de téléphone de conférence audio qui sont disponibles pour votre organisation.
-  
- **Recherchez prix ?** Consultez les[tarifs pour les conférences Audio](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+ **La recherche de prix ?** Consultez la [tarification pour les conférences Audio](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **Il n'est pas une ressource qui contient une liste de tous les numéros d'accès pour les conférences Audio.** Si vous cherchez à déterminer s'il existe des numéros de téléphone rendez-vous disponibles dans votre région ou pays/région, accédez à **Skype centre d'administration entreprise** > **vocale** > **Numéros de téléphone**, cliquez sur **Ajouter**, puis cliquez sur **Nouveaux numéros de Service**. Utilisez les listes de **Pays/région**, état/la région et **Ville** pour filtrer la recherche.> En outre, si vous recherchez des numéros de service gratuit, sélectionnez **numéro gratuit** à partir de l'état/région liste.
+> **Il n’existe pas une ressource qui contient une liste de tous les numéros d’appel à distance pour les conférences Audio.** Si vous souhaitez pour voir s’il existe les numéros de téléphone disponibles dans votre région ou votre pays/région, accédez à **Skype pour le centre d’administration Business** > **vocale** > de**Numéros de téléphone**, cliquez sur **Ajouter**, puis cliquez sur **nouveau Service Numéros**. Utilisez les listes de **Pays/région**, état/région de ****et **Ville** pour filtrer votre recherche. En outre, si vous recherchez des numéros de service gratuit, sélectionnez **numéro gratuit** à partir de l’état/région **** liste.
   
-Si le numéro de téléphone qu'un seul est disponible dans votre organisation, il servira le numéro par défaut pour l'ensemble de vos utilisateurs. Lorsque plusieurs numéros de téléphone sont disponibles, vous pouvez sélectionner le numéro de téléphone par défaut pour chaque utilisateur. Ce numéro par défaut sera inclus dans Skype Entreprise et les invitations aux réunions Teams Microsoft.
+Si uniquement un numéro de téléphone est disponible dans votre organisation, il sera utilisé comme numéro par défaut pour tous vos utilisateurs. Lorsque plusieurs numéros de téléphone sont disponibles, vous pouvez sélectionner le numéro de téléphone par défaut pour chaque utilisateur. Ce numéro par défaut figureront dans Skype pour les invitations aux réunions d’entreprise et Teams de Microsoft.
   
-Vous pouvez voir [Définir les numéros de téléphone de conférence Audio pour les organisateurs comprises dans les invitations de réunion](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md) pour modifier le numéro de téléphone pour un seul utilisateur.
+Vous pouvez voir [le téléphone numéros inclus sur invite](set-the-phone-numbers-included-on-invites.md) à modifier le numéro de téléphone pour un seul utilisateur.
   
 > [!NOTE]
-> Les numéros d'accès nationaux sont réservés à votre entreprise et sont les seuls à pouvoir être définis comme numéros de téléphone par défaut. En revanche, les numéros d'accès internationaux peuvent être partagés par plusieurs entreprises. 
+> Numéros d’accès nationaux sont dédiées à votre entreprise et sont les seules qui peuvent être définies sous la forme d’un numéro de téléphone par défaut. Toutefois, les numéros d’accès internationales peuvent être partagés par plusieurs organisations. 
   
-## Pour afficher vos numéros de téléphone de services d'audioconférence
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Pour afficher vos numéros de téléphone de conférence audio
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
 2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans la **Centre d'administration Skype Entreprise**, dans le volet de navigation gauche, accédez à la **conférence Audio** > **pont Microsoft**, puis :
+3. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **pont de Microsoft**, puis :
     
-  - Vous pouvez afficher les numéros de téléphone disponibles pour les services d'audioconférence.
+  - Vous pouvez afficher les numéros de téléphone qui sont disponibles pour la conférence audio.
     
-  - Vous pouvez également afficher l'emplacement et les langues principales et secondaires qui seront utilisés par les services d'audioconférence standard automatiquement chaque année.
+  - Vous pouvez également afficher l’emplacement et les langues principales et secondaires qui seront utilisés par la fonction d’audioconférence automatiquement surveillance.
     
 > [!NOTE]
-> Vous pouvez accéder à la **conférence Audio** > **utilisateurs** et sélectionnez Propriétés de l'utilisateur à modifier la valeur par défaut numéroter en choisissant un nouveau numéro dans la liste de nombres disponibles dans votre organisation. Voir[Définir les numéros de téléphone de conférence Audio pour les organisateurs comprises dans les invitations de réunion](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md). 
+> Vous pouvez accéder à **l’audioconférence** > **utilisateurs** et sélectionnez nombre de propriétés de l’utilisateur de modifier la valeur par défaut en sélectionnant un nouveau numéro dans la liste des numéros disponibles dans votre organisation. Voir [invite les inclure sur des numéros de téléphone](set-the-phone-numbers-included-on-invites.md). 
   
-## Comment utiliser Windows PowerShell pour gérer cette fonction ?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
-- Pour gagner du temps ou automatiser ce processus, vous pouvez utiliser l'applet de commande [Get-Csonlinedialinconferencingservicenumberhttp://go.Microsoft.com/fwlink/?LinkId=617689](https://go.microsoft.com/fwlink/?LinkId=617691) .
+- Pour gagner du temps ou d’automatiser cette action, vous pouvez utiliser l’applet de commande [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) .
     
-- Windows PowerShell est tout sur la gestion des utilisateurs et les utilisateurs qui sont autorisés ou pas faire. Avec Windows PowerShell, vous pouvez gérer Office 365 à l'aide d'un point unique d'administration qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour commencer à utiliser Windows PowerShell, voir les rubriques suivantes :
+- Windows PowerShell est la gestion des utilisateurs et les utilisateurs qui sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 à l’aide d’un unique point d’administration qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
-  - [Pourquoi vous devez utiliser Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
-  - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Six raisons d'utiliser Windows PowerShell pour gérer Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell offre de nombreux avantages dans vitesse, simplicité et la productivité sur qu'à l'aide du centre d'administration Office 365, tels que lorsque vous devez apporter des modifications de paramètre pour de nombreux utilisateurs en même temps. En savoir plus sur les avantages suivants dans les rubriques suivantes :
+- Windows PowerShell offre de nombreux avantages de vitesse, de simplicité et de productivité, plutôt seulement le centre d’administration d’Office 365, par exemple lorsque vous devez apporter des modifications de paramètre pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
-  - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Présentation de Windows PowerShell et de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Utiliser Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Utiliser Windows PowerShell pour les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). 
+    > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## Rubriques connexes
+## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
+[Configurer l’audioconférence pour Skype Entreprise et Microsoft Teams](set-up-audio-conferencing.md)
   
 

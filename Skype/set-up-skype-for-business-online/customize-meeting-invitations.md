@@ -1,75 +1,73 @@
 ---
 title: "Personnaliser les invitations aux réunions"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/10/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.MeetingInvitation
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 9af52080-dd56-4b66-b056-41ed1a7aaae3
-description: "Customize Skype meeting invitations with graphic logos, help and legal URLs, and footer text. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.MeetingInvitation
+ms.custom: Setup
+description: "Personnaliser les invitations aux réunions de Skype avec graphiques logos, aide et URL juridiques et texte de pied de page. "
+ms.openlocfilehash: bb0b49c910a105e7fffc8180832aca1bb1c051c0
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
-# Personnaliser les invitations aux réunions
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+En tant qu’administrateur, vous pouvez vous assurer que tous les Skype pour les invitations aux réunions d’entreprise incluent des informations utiles, vos utilisateurs risquent d’avoir, par exemple des liens vers votre site Web de support et de responsabilité, le logo de votre société et tout autre texte que vous souhaitez inclure. 
   
-En tant qu'administrateur, vous pouvez vous assurer que toutes les invitations Skype Entreprise incluent des informations utiles que vos utilisateurs aient besoin, tels que des liens vers votre site Web de support et de responsabilité, le logo de votre société et du texte à inclure.
-  
-## Conseils pour la création d'un logo pour les invitations aux réunions
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Conseils pour la création d’un logo pour les invitations aux réunions
 <a name="__top"> </a>
 
-1. Créez une image d'une taille maximale de 188 pixels de largeur par 30 pixels de hauteur (c'est assez petit).
+1. Créer une image qui n’est pas plus de 188 pixels de large sur 30 pixels en hauteur (il est relativement petite).
     
-2. Enregistrez l'image au format JPG.
+2. Enregistrer l’image au format JPG.
     
-3. Enregistrer l'image dans un emplacement central qui peut accéder à tout le monde dans votre entreprise, par exemple un partage réseau, partagé dossier OneDrive entreprise, Dropbox, etc..
+3. Stocker l’image dans un emplacement central qui peuvent accéder à toutes les personnes de votre entreprise, tel qu’un partage réseau, OneDrive partagé pour le dossier Professionnel, échange, etc..
     
-    Vous pouvez maintenant l'ajouter à vos invitations aux réunions. Voir les étapes suivantes.
+    Maintenant vous pouvez l’ajouter à vos invitations à une réunion. Consultez les étapes suivantes.
     
-## Personnaliser les invitations aux réunions
+## <a name="customize-your-meeting-invitations"></a>Personnaliser vos invitations à une réunion
 <a name="__top"> </a>
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Dans la Centre d'administration Office 365, cliquez sur **Centre d'administration** > **Skype Entreprise**.
+2. Le centre d’administration Office 365, choisissez **administration centres** > **Skype pour les entreprises**.
     
-3. Dans le centre d'administration de Skype Entreprise, choisissez **Réunions en ligne**. 
+3. Dans le Skype pour le centre d’administration Business, choisissez **des réunions en ligne**. 
     
-4. Remplissez les zones suivantes :
+4. Complétez les zones suivantes :
     
-    ![Here's what it might look like when you complete the form to customize your meeting invitations.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png)
+    ![Voici à quoi il pourrait ressembler quand vous remplissez le formulaire pour personnaliser vos invitations à une réunion.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+
+   **URL de logo :** Entrez l’URL où se trouve votre logo. N’oubliez pas qu’il doit être au format JPG ! 
+ 
+   **URL d’aide :** Si votre organisation dispose d’un site Web que vous souhaitez faire atteindre s’ils ont des problèmes, tapez l’URL ici. 
+
+   **Juridique URL :** Si votre organisation possède un site juridique que vous souhaitez faire atteindre s’ils ont des problèmes d’ordre légales, tapez l’URL ici.
+    
+   **Texte de pied de page :** Permet d’entrer une note que le texte qui convient à vos utilisateurs.  
   
-|**Option**|**Description**|
-|:-----|:-----|
-|**URL du logo** <br/> |Entrez l'URL où se trouve votre logo. N'oubliez pas qu'il doit être au format JPG !  <br/> |
-|**URL de l'aide** <br/> |Si votre organisation possède un site Web de support que vous souhaitez faire atteindre s'ils ont des problèmes, entrez l'URL ici.  <br/> |
-|**URL des informations légales** <br/> |Si votre organisation possède un site Web juridique que vous souhaitez faire atteindre s'ils ont des questions juridiques, entrez l'URL ici.  <br/> |
-|**Texte du pied de page** <br/> |Entrez un bas de page exclusivement textuel approprié pour vos utilisateurs.  <br/> |
    
-5. Sélectionnez **Save (Enregistrer)**.
+5. Cliquez sur **Enregistrer**.
     
-6. L'application des modifications dans l'ensemble des services Office 365 prendra environ une heure. Accédez ensuite à Outlook et planifiez une réunion Skype pour voir comment se présentent les modifications apportées. 
+6. Attendez une heure pour que vos modifications sont remplies pour tous les services d’Office 365. Aller à Outlook, puis planifier une réunion Skype pour obtenir un aperçu de vos modifications. 
     
-    ![Here's what a custom invitation looks like, without the graphic](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![Voici une invitation personnalisée aspect, sans le graphique](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Rubriques connexes
+<a name="__top"> </a>
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
-## Voir aussi
-<a name="MT_Footer"> </a>
 
-#### 
-
-[Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Configurer l’audioconférence pour Skype Entreprise et Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
 

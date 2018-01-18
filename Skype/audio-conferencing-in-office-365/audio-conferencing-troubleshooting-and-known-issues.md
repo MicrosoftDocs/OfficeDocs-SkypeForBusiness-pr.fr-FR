@@ -2,62 +2,60 @@
 title: "Résolution des problèmes audio de conférence et les problèmes connus"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 72979911-5319-4de2-a275-4dd9a0f44fe6
-
-description: "Get a list of known isses when using Microsoft as their dial-in conference provider, status, and some work arounds. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Obtenir une liste des problèmes connus lors de l’utilisation de Microsoft en tant que son fournisseur de conférences, l’état et des solutions de contournement. "
+ms.openlocfilehash: 2ceeb81de346b15ea606d1c343e34aa300b2cf59
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Résolution des problèmes audio de conférence et les problèmes connus
 
-# Résolution des problèmes audio de conférence et les problèmes connus
+ **Cet article est pour Skype pour les utilisateurs professionnels et Teams de Microsoft comme leur fournisseur de conférence audio à l’aide de Microsoft. Il ne s’applique pas aux clients qui utilisent un fournisseur de conférence audio de tiers (ACP).**
+  
+## <a name="troubleshooting-and-known-issues"></a>Problèmes connus et dépannage
 
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Conférence audio qui utilise Microsoft comme le fournisseur de conférence audio présente des problèmes en cours qui sont suivis et activement examinée et seront éventuellement résolus lorsque la fonction est mis à jour dans les futures mises à jour d’Office 365.
   
- **Cet article concerne Skype pour les utilisateurs d'entreprise et Teams Microsoft à l'aide de Microsoft en tant que leur fournisseur de services d'audioconférence. Il ne s'applique pas aux clients qui utilisent un fournisseur de services d'audioconférence tiers (ACP).**
+Pour l’instant, l’utiliser comme référence lorsque vous dépannez des problèmes potentiels avec la mise en route d’audioconférence de configurer et de travail pour les personnes utilisant le Skype pour les applications d’entreprise ou Teams de Microsoft dans votre organisation.
   
-## Problèmes connus et résolution des problèmes
+### <a name="microsoft-teams-app"></a>Les équipes Microsoft app
 
-Mises à jour d'Office 365 de services d'audioconférence qui utilise Microsoft, comme le fournisseur de services d'audioconférence présente des problèmes en cours qui sont suivies et activement examinée et seront potentiellement résolus lorsque la fonctionnalité est mis à jour à l'avenir.
-  
-Pour l'instant, utilisez la documentation comme référence lorsque vous résolvez des problèmes potentiels liés à l'obtention de configurer les conférences Audio et à l'utilisation pour les personnes qui utilisent le Skype pour les applications d'entreprise ou Microsoft Teams dans votre organisation.
-  
-### Application permet aux équipes de Microsoft
-
-|**Problème**|**Comportement/symptômes**|**Solution connue**|**Date de la détection**|
+|**Problème**|**Comportement/problèmes**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Les appelants PSTN avec la même « De » nombre apparaissent en tant que le même utilisateur dans la liste de la réunion.  <br/> |Lorsque plusieurs appelants PSTN participer à une réunion, et leurs ID d'appelant est masqués sous la forme d'un nombre unique, ils seront affiche-t-il comme un seul appelant dans la liste des participants.  <br/> |Il n'existe aucune solution.  <br/> |9/25/2017  <br/> |
-|Panneau informations de réunion n'apparaît pas intermittente.  <br/> |Panneau informations de réunion peut ne pas affiche dans le client équipes lorsque vous essayant d'utilisateurs Rechercher numéros de téléphone de pont de conférence ou ID de conférence.  <br/> |Examiner les détails de la réunion ou un calendrier Outlook pour afficher les numéros de téléphone de pont de conférence ou ID de conférence.  <br/> |9/25/2017  <br/> |
-|Invitations aux réunions à partir d'Outlook Add-in affichent des caractères incorrects en coordonnées PSTN pour les paramètres régionaux non-US.  <br/> |Lors de la planification de réunions privées avec Outlook Add-in pour Microsoft Teams sur un ordinateur des paramètres régionaux non-US, PSTN coordonnées peuvent contenir des caractères incorrects.  <br/> |Il n'existe aucune solution.  <br/> |9/25/2017  <br/> |
-|Appels sortants doit utiliser au moins 5 chiffres.  <br/> |Les utilisateurs essaient établir une connexion à partir d'une réunion nécessaire de taper en chiffres 5 ou plus, même si la règle de normalisation de plan de numérotation n'est pas disponible pour normaliser chiffres courte à E.164.  <br/> |Appels sortants en tapant son numéro DID complet ou le format de nombre local au lieu de numéro de poste interne.  <br/> |9/25/2017  <br/> |
-|Appel sortant contrôle n'apparaît pas intermittente.  <br/> |Appels sortants contrôle ne peuvent pas être visibles à partir du panneau informations sur la réunion.  <br/> |Il n'existe aucune solution.  <br/> |9/25/2017  <br/> |
-|ID de conférence statique ne pas pris en charge pour les réunions Teams Microsoft.  <br/> |Si l'administrateur remplace le paramètre par défaut à partir de l'ID de conférence dynamique à l'ID de conférence statique, ce paramètre ne prend effet pour les réunions Teams Microsoft. Voir [Utilisation d'identificateurs dynamiques audioconférence dans votre organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Il n'existe aucune solution.  <br/> |9/25/2017  <br/> |
+|Appelants RTPC avec le même numéro « de » sont indiquées par le même utilisateur dans la liste de la réunion.  <br/> |Lorsque plusieurs appelants de RTPC joindre une réunion, et leurs ID de l’appelant est masqués sous la forme d’un nombre unique, ils s’affichent sous la forme d’un seul appelant dans la liste de la réunion.  <br/> |Aucune solution.  <br/> |9/25/2017  <br/> |
+|Panneau d’informations de réunion n’est pas visible par intermittence.  <br/> |Panneau d’informations de réunion peut ne pas affiche dans le client des équipes lorsque les utilisateurs tentent de rechercher numéros de téléphone de conférence pont ou ID de conférence.  <br/> |Examinez les détails de la réunion ou le calendrier d’Outlook pour afficher les numéros de téléphone de conférence pont ou ID de conférence.  <br/> |9/25/2017  <br/> |
+|Des invitations de réunion à partir d’Outlook Add-in affichent des caractères illisibles dans coordonnées RTPC pour des paramètres régionaux non américains.  <br/> |Lors de la planification des conférences privées à l’aide de complément Outlook pour Microsoft Teams sur un ordinateur avec les paramètres régionaux de hors des États-Unis, RTPC coordonnées peuvent contenir des caractères incorrects.  <br/> |Aucune solution.  <br/> |9/25/2017  <br/> |
+|Numérotation doit utiliser au moins 5 chiffres.  <br/> |Utilisateurs qui tentent d’établir une connexion depuis une réunion devront de taper des chiffres 5 ou plus, même si la règle de normalisation de plan de numérotation n’est disponible pour normaliser les chiffres court à E.164.  <br/> |Appels sortants en tapant la complète numéro DID ou le format de numéro local au lieu du numéro de poste interne.  <br/> |9/25/2017  <br/> |
+|Appels sortants de contrôle n’est pas visible par intermittence.  <br/> |Appels sortants de contrôle n’est peut-être pas visible dans le panneau d’informations sur la réunion.  <br/> |Aucune solution.  <br/> |9/25/2017  <br/> |
+|ID de conférence statique non pris en charge pour les réunions de Teams de Microsoft.  <br/> |Si l’administrateur substitue le paramètre par défaut de l’ID de conférence dynamique pour l’ID de conférence statique, ce paramètre ne prend effet pour les réunions de Teams de Microsoft. Reportez-vous [à l’aide de l’audioconférence dynamique d’ID dans votre organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Aucune solution.  <br/> |9/25/2017  <br/> |
    
-### Skype entreprise App
+### <a name="skype-for-business-app"></a>Skype pour l’application d’entreprise
 
-|**Problème**|**Comportement/symptômes**|**Solution connue**|**Date de la détection**|
+|**Problème**|**Comportement/problèmes**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Notifications d'entrée et de sortie sont activées au démarrage d'une réunion, mais qu'ils sont désactivés peu après le début de la réunion.  <br/> |Par défaut, les notifications d'entrée et de sortie sont désactivées pour les réunions dans laquelle participants participer depuis les deux Skype pour les applications métier et quand ils se connectent. Vous pouvez activer les annonces dans les **Options de réunion Skype** dans le Skype entreprise App. Pour une réunion où tous les participants se connectent et participer à une réunion, les notifications d'entrée et de sortie sont activées par défaut que la liste des participants n'est pas disponible pour tous les participants. Lorsque une réunion a démarré avec uniquement les participants dans l'entrée de l'appel et les notifications de fermeture seront activées, mais quand un participant jointures à l'aide d'un Skype entreprise App, les notifications seront désactivés. Lorsque désactivée, les notifications peuvent être activées à l'aide de **Options de réunion Skype** dans le Skype entreprise App. <br/> |Il n'existe aucune solution.  <br/> |8/30/2017  <br/> |
-|Si un utilisateur est configuré la première fois par attribué une licence E5, il est possible pour le message électronique de bienvenue audioconférence ne pas être remis à l'utilisateur si la boîte aux lettres n'est pas activée.  <br/> |Dans ce cas, vous pouvez toujours renvoyer les informations de conférence audio de l'utilisateur à l'aide de **conférence Audio** dans la Skype centre d'administration entreprise ou à l'aide de PowerShell. Voir[Activer ou désactiver l'envoi de messages électroniques lorsque modifient les paramètres de conférence Audio](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md).  <br/> > [!NOTE]> Afin de renvoyer les services d'audioconférence code confidentiel à l'utilisateur, le code confidentiel doit être réinitialisé. Cela peut également être exécuté à l'aide de **conférence Audio** dans la Skype centre d'administration entreprise ou à l'aide de PowerShell.          |Il n'existe aucune solution.  <br/> |8/30/2017  <br/> |
-|Services d'audioconférence appels peuvent prendre jusqu'à 24 heures pour afficher dans les rapports d'utilisation.  <br/> |Nous cherchons transférer à améliorer cette zone de service futures mises à jour.  <br/> |Il n'existe aucune solution.  <br/> |8/30/2017  <br/> |
-|Lorsqu'un appelant appelle un pont de conférence une fois que la réunion a été verrouillée par un utilisateur Skype Entreprise, il n'est pas une notification dans l'application Skype Entreprise indiquant que l'utilisateur se trouve dans la salle d'attente.  <br/> |Cette fonctionnalité est actuellement à l'étude, mais nous avons recueilli les derniers commentaires afin de la mettre en œuvre dans les prochaines mises à jour de service.  <br/> |Il n'existe aucune solution.  <br/> |8/30/2017  <br/> |
+|Notifications d’entrée et de sortie sont activées lorsque la réunion démarre, mais qu’ils sont désactivés peu après le démarrage de la réunion.  <br/> |Par défaut, les notifications d’entrée et de sortie sont désactivées pour les réunions en cas de participation de participants à partir de deux Skype pour les applications métier et lorsqu’ils se connectent. Vous pouvez activer les annonces dans les **Options de la réunion Skype** dans le Skype pour l’application d’entreprise. Pour une réunion, où tous les participants à se connecteront et participer à une réunion, les notifications d’entrée et de sortie sont activées par défaut que la liste des participants n’est pas disponible pour tous les participants. Lorsqu’une réunion a démarré avec uniquement les participants dans l’entrée de l’appel et notifications de sortie seront activées, mais un participant jointures à l’aide d’un Skype pour une application métier, les notifications doivent être mis hors tension. Mise hors tension, les notifications peuvent être activées à l’aide de **Skype Options d’une réunion** dans le Skype pour l’application d’entreprise. <br/> |Aucune solution.  <br/> |8/30/2017  <br/> |
+|Si un utilisateur est mis en service la première fois par une licence E5 assignée, il est possible de l’e-mail de bienvenue d’audioconférence à ne pas être remis à l’utilisateur si la boîte aux lettres n’est pas activée.  <br/> |Dans ce cas, vous pouvez toujours renvoyer les informations de conférence audio de l’utilisateur à l’aide **d’audioconférence** dans le Skype pour Business admin center ou à l’aide de PowerShell. Reportez-vous à la section [Activer ou désactiver l’envoi de messages électroniques lors de la modifient des paramètres d’audioconférence](enable-or-disable-sending-emails-when-their-settings-change.md).  <br/> **Remarque :** Pour renvoyer la code PIN de conférence audio à l’utilisateur, le code confidentiel doit être réinitialisé. Il est également possible à l’aide **d’audioconférence** dans le Skype pour le centre d’administration Business ou à l’aide de PowerShell.          |Aucune solution.  <br/> |8/30/2017  <br/> |
+|Appels de conférence audio peuvent prendre jusqu'à 24 heures pour afficher dans les rapports d’utilisation.  <br/> |Nous attendons avec impatience améliorer de cette zone service futures mises à jour.  <br/> |Aucune solution.  <br/> |8/30/2017  <br/> |
+|Lorsque l’appelant tente de se connecte à un pont de conférence après que la réunion a été verrouillée par un Skype pour l’utilisateur professionnel, il n’est pas une notification dans le Skype indication d’application métier que l’utilisateur attend dans la salle d’attente.  <br/> |C’est actuellement à la conception, mais nous avons les commentaires en ce qui concerne la prise en charge de cette fonctionnalité dans les futurs service mises à jour.  <br/> |Aucune solution.  <br/> |8/30/2017  <br/> |
    
-## Rubriques connexes
+## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
+[Configurer l’audioconférence pour Skype Entreprise et Microsoft Teams](set-up-audio-conferencing.md)
   
 

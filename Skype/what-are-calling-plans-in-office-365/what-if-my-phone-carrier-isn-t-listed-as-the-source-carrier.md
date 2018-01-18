@@ -1,46 +1,44 @@
 ---
-title: "Que se passe-t-il si mon opérateur de téléphonie n'est pas répertorié en tant que le support source ?"
+title: "Que se passe-t-il si mon opérateur de téléphonie n’est pas répertorié en tant que le support source ?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderDetailPanelWhois
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: a8315746-0d17-4c75-ae37-eab82532a3d8
-description: "Learn what to do if your carrier isn't listed in Skype for Business."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderDetailPanelWhois
+ms.custom: Calling Plans
+description: "Apprenez quoi faire si votre opérateur n’est pas répertorié dans Skype pour les entreprises. "
+ms.openlocfilehash: 71a2ba5fd3a91a4ac31586020dd11af3086dcf48
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Que se passe-t-il si mon opérateur de téléphonie n’est pas répertorié en tant que le support source ?
 
-# Que se passe-t-il si mon opérateur de téléphonie n'est pas répertorié en tant que le support source ?
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Il est un peu compliqué lorsque vous voyez que le nom de votre opérateur n’est pas répertorié. Dans la plupart des cas, si le fournisseur de services ou le transporteur est différent, sans doute que les numéros de téléphone sur que sont transférés sont détenues par un transporteur ou un autre fournisseur de services. Il peut arriver lorsque le fournisseur de services ou le transporteur qui est répertorié peut être différent de votre fournisseur de service en cours parce que votre fournisseur de service actuel peut fonctionner avec un fournisseur de service tiers. 
   
-Lorsque que le nom de votre opérateur n'est pas répertorié, il est un peu confus. Dans la plupart des cas, si le fournisseur de services ou un opérateur est différent, sans doute que les numéros de téléphone que vous transférez sur appartiennent à un autre fournisseur de services ou carrier. Il peut arriver lorsque le fournisseur de services ou carrier répertorié peut être différent de votre fournisseur de service en cours parce que votre fournisseur de services en cours peut-être fonctionner avec un fournisseur de services tiers.
+Voici un exemple :
   
-Par exemple :
-  
-- Si vous transférez un numéro de votre opérateur Skype Entreprise, le Niveau 3 peut être répertorié.
+- Si vous portez nombre de Skype comme votre transporteur, vous pouvez voir le que niveau3 répertoriés.
     
- **Pour obtenir des instructions étape par étape terminées, voir [Transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).**
-  
-## 
-<a name="MT_Footer"> </a>
+ **Pour des instructions complètes, voir [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md).**
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
-## Voir aussi
-<a name="MT_Footer"> </a>
+    > [!NOTE]
+    > Si vous avez besoin obtenir des numéros de téléphone supplémentaires que cela, veuillez [contacter le support technique pour les produits d’entreprise - aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-#### 
+  
+## <a name="related-topics"></a>Rubriques connexes
+[Transfert de questions courantes des numéros de téléphone](transferring-phone-numbers-common-questions.md)
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
-  
-[Période de sortant gratuit de audio conférence](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype pour Business Online : étiquette de décharge de responsabilité d’appel d’urgence](https://go.microsoft.com/fwlink/?LinkID=692099)

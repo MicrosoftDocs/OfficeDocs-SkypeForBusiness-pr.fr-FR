@@ -1,34 +1,36 @@
 ---
-title: "Le plan de service de l'utilisateur Skype Entreprise Online n'est pas valide"
-ms.author: TONYSMIT
+title: "Skype de l’utilisateur pour le plan de services professionnels en ligne n’est pas valide"
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.ServicePlanNotValid
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 3631967e-d342-4a8a-905d-9b65d2ab554b
-description: "See where to assign a valid service plan for a user after a Skype for Business Online service plan isn't valid error. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.ServicePlanNotValid
+ms.custom: Setup
+description: "Consultez la rubrique affecter un plan de service valides d’un utilisateur après qu’un Skype pour le plan de services professionnels en ligne n’est pas valide. "
+ms.openlocfilehash: 276ec94eda2cdc721085e8605ccaa6bbb61d5f55
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Skype de l’utilisateur pour le plan de services professionnels en ligne n’est pas valide
 
-# Le plan de service de l'utilisateur Skype Entreprise Online n'est pas valide
+Désolé, le Skype pour en ligne Business plan de service affecté à cet utilisateur n’est pas reconnu ou n’est pas valide.
+  
+Accédez au **Centre d’administration Office 365** > **utilisateurs actifs** et affecter un service valide plan pour cet utilisateur.
 
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
-  
-Désolé, le plan de services Skype Entreprise Online assigné à cet utilisateur n'est pas reconnu ou n'est pas valide.
-  
-Accédez au **Centre d'administration Office 365** > **utilisateurs actifs** et assignez un service valide plan à cet utilisateur.
-  
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Rubriques connexes
+[Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
+[Permettent d’ajouter des contacts de Skype Skype pour les utilisateurs professionnels](let-skype-for-business-users-add-skype-contacts.md)
   
 

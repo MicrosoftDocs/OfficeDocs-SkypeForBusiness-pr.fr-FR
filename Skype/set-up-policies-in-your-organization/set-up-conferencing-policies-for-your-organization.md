@@ -1,35 +1,43 @@
 ---
-title: "Configurer des stratégies de conférence pour votre organisation"
+title: "Définir des stratégies de conférence pour votre organisation"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 9957722b-b542-49ad-8ec8-5569df7fb08b
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
 description: "La fonctionnalité Conférence est une partie importante de Skype Entreprise Online : elle permet à des groupes d'utilisateurs de se retrouver en ligne pour visionner des diapositives et des vidéos, partager des applications, échanger des fichiers, communiquer et collaborer."
+ms.openlocfilehash: 6ccfdd3e5153a7b22d26fb492690da0e476fe9ee
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="set-up-conferencing-policies-for-your-organization"></a>Définir des stratégies de conférence pour votre organisation
 
-# Configurer des stratégies de conférence pour votre organisation
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+[] La fonctionnalité Conférence est une partie importante de Skype Entreprise Online : elle permet à des groupes d'utilisateurs de se retrouver en ligne pour visionner des diapositives et des vidéos, partager des applications, échanger des fichiers, communiquer et collaborer.
   
-La fonctionnalité Conférence est une partie importante de Skype Entreprise Online : elle permet à des groupes d'utilisateurs de se retrouver en ligne pour visionner des diapositives et des vidéos, partager des applications, échanger des fichiers, communiquer et collaborer.
+Il est important pour vous de garder le contrôle des paramètres de conférence et des conférences. Dans certains cas, il peut y avoir des problèmes de sécurité : par défaut, tout le monde, y compris les utilisateurs non authentifiés peut participer aux réunions et enregistrer des diapositives ou des documents distribués lors de ces réunions. En outre, il peut être occasionnelles problèmes juridiques. Par exemple, par défaut, les participants à la réunion sont autorisés pour faire des annotations sur le contenu partagé ; Toutefois, ces annotations ne sont pas enregistrées lors de la réunion est archivée. Si votre organisation est tenue de conserver un enregistrement de toutes les communications électroniques, vous pouvez souhaiter désactiver les annotations. 
   
-Il est important de conserver le contrôle des paramètres de conférence et les conférences. Dans certains cas, il peut y avoir des problèmes de sécurité : par défaut, tout le monde, y compris les utilisateurs non authentifiés peut participer aux réunions et enregistrer des diapositives ou documents distribuées pendant les réunions. Par ailleurs, il peut être minimes questions juridiques. Par exemple, par défaut, les participants à la réunion sont autorisés à effectuer des annotations sur le contenu partagé ; Toutefois, ces annotations ne sont pas enregistrées lors de l'archivage de la réunion. Si votre organisation est nécessaire pour garder une trace de toutes les communications électroniques, vous souhaiterez peut-être désactiver les annotations.
+Dans Skype pour professionnels en ligne, les conférences sont gérées à l’aide de stratégies de la conférence. Les stratégies de conférence déterminent les fonctionnalités qui peuvent être utilisées dans une conférence, y compris tous les éléments à partir ou non la conférence peut inclure IP audio et vidéo pour le nombre maximal de personnes qui peuvent participer à une réunion. Stratégies de conférence peuvent être configurées au niveau de la portée globale ou à l’étendue de chaque utilisateur. Ainsi, les administrateurs avec une grande flexibilité lorsqu’il s’agit de décider quelles fonctionnalités seront disponibles pour les utilisateurs.
   
-Conférences sont gérées dans Skype Entreprise Online, en utilisant des stratégies de conférence. Stratégies de conférence déterminent les fonctionnalités pouvant être utilisées dans une conférence, y compris tous les éléments à partir d'ou non la conférence peut inclure IP audio et vidéo pour le nombre maximal de personnes qui peuvent participer à une réunion. Stratégies de conférence peuvent être configurées à la portée globale ou à l'étendue par utilisateur. Cela fournit des administrateurs avec une grande flexibilité lorsqu'il s'agit de décider des capacités seront disponibles pour les utilisateurs.
+Les paramètres de stratégie peuvent être configurés au moment de la que création d’une stratégie, ou vous pouvez utiliser l’applet de commande **Set-CsConferencingPolicy** pour modifier les paramètres d’une stratégie existante.
   
-Paramètres de stratégie peuvent être configurés au moment de la que création d'une stratégie, ou vous pouvez utiliser l'applet de commande **Set-CsConferencingPolicy** pour modifier les paramètres d'une stratégie existante.
-  
-## Définir vos stratégies de conférence
+## <a name="set-your-conferencing-policies"></a>Définir vos stratégies de conférence
 
 > [!NOTE]
-> Pour tous les paramètres de stratégie de conférence dans Skype Entreprise Online, vous devez utiliser Windows PowerShell et vous **ne pouvez pas utiliser** le **Skype centre d'administration entreprise**. 
+> Pour tous les paramètres de stratégie de conférence dans Skype pour professionnels en ligne, vous devez utiliser Windows PowerShell et vous **ne pouvez pas utiliser** le **Skype pour le centre d’administration commerciale**. 
   
-### Vérifier et démarrer Windows PowerShell
+### <a name="verify-and-start-windows-powershell"></a>Vérifier et démarrer Windows PowerShell
 
 - **Vérifiez que vous exécutez la version 3.0 ou une version ultérieure de Windows PowerShell**
     
@@ -41,106 +49,83 @@ Paramètres de stratégie peuvent être configurés au moment de la que créatio
     
 4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
     
-    Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+    Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
     
 - **Démarrez une session Windows PowerShell**
     
-1. Dans le **menu Démarrer**, recherchez **Windows PowerShell**.
+1. À partir du **Menu Démarrer**de > **de Windows PowerShell**.
     
 2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
     
     > [!NOTE]
     > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
-  
-> 
-  ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+
+  ```      
+    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
   ```
 
-> 
-  ```
-  $credential = Get-Credential
-  ```
-
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
-  Import-PSSession $session
-  ```
-
-    Pour plus d'informations sur le démarrage de Windows PowerShell, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou[Connexion à Skype Entreprise Online à l'aide de Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+  Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [connexion à Skype pour entreprise en ligne à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
-### Bloquer les transferts de fichiers et le partage de bureau pendant les réunions
+### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Bloquer les transferts de fichiers et le partage de bureau pendant les réunions
 
-- Pour créer une nouvelle stratégie de ces paramètres, exécutez :
-    
+- Pour créer une nouvelle stratégie pour ces paramètres, exécutez :
 > 
   ```
   New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
   ```
-
-    En savoir plus sur l'applet de commande [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx).
+  Reportez-vous à la section plus d’informations sur l’applet de commande [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
     
-- Pour accorder à la nouvelle stratégie que vous avez créé à tous les utilisateurs de votre organisation, exécutez :
-    
+- Pour accorder à la nouvelle stratégie que vous avez créé pour tous les utilisateurs de votre organisation, exécutez :
 > 
   ```
   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
   ```
-
-    En savoir plus sur l'applet de commande [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx).
+  Reportez-vous à la section plus d’informations sur l’applet de commande [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
     
-Si vous avez déjà créé une stratégie, vous pouvez utiliser l'applet de commande [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) pour apporter des modifications à la stratégie existante et ensuite utiliser l'applet de commande[Grant CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) pour appliquer la paramètres pour vos utilisateurs.
+  Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de commande [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) pour apporter des modifications à la stratégie existante et ensuite utiliser l’applet de commande[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) pour appliquer les paramètres de vos utilisateurs.
   
-### Bloquer l'enregistrement des conférences et empêcher les participants à la réunion anonyme
+### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>Bloquer l’enregistrement des conférences et d’empêcher les participants de la réunion anonyme
 
-- Pour créer une nouvelle stratégie de ces paramètres, exécutez :
-    
+- Pour créer une nouvelle stratégie pour ces paramètres, exécutez : 
 > 
   ```
   New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
   ```
-
-    En savoir plus sur l'applet de commande [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx).
+Reportez-vous à la section plus d’informations sur l’applet de commande [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
     
-- Pour autoriser la nouvelle stratégie que vous avez créé à Amos marbre, exécutez :
-    
+- Pour accorder à la nouvelle stratégie que vous avez créé pour Amos marbre, exécutez :
 > 
   ```
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
   ```
-
-    En savoir plus sur l'applet de commande [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx).
+Reportez-vous à la section plus d’informations sur l’applet de commande [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
     
-Si vous avez déjà créé une stratégie, vous pouvez utiliser l'applet de commande [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) pour apporter des modifications à la stratégie existante et ensuite utiliser l'applet de commande[Grant CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) pour appliquer la paramètres pour vos utilisateurs.
+Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de commande [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) pour apporter des modifications à la stratégie existante et ensuite utiliser l’applet de commande [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) pour appliquer les paramètres de vos utilisateurs.
   
-### Empêcher les participants anonymes d'enregistrer les réunions et les utilisateurs externes d'enregistrer le contenu des réunions
+### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Empêcher les participants anonymes d'enregistrer les réunions et les utilisateurs externes d'enregistrer le contenu des réunions
 
-- Pour créer une nouvelle stratégie de ces paramètres, exécutez :
-    
+- Pour créer une nouvelle stratégie pour ces paramètres, exécutez :  
 > 
   ```
   New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
   ```
-
-    En savoir plus sur l'applet de commande [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx).
+Reportez-vous à la section plus d’informations sur l’applet de commande [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
     
-- Pour accorder à la nouvelle stratégie que vous avez créé pour tous les utilisateurs de votre organisation, exécutez :
+- Pour accorder à la nouvelle stratégie que vous avez créé pour tous les utilisateurs de votre organisation, exécutez :
     
 > 
   ```
   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
   ```
 
-    En savoir plus sur l'applet de commande [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx).
+Reportez-vous à la section plus d’informations sur l’applet de commande [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
     
-Si vous avez déjà créé une stratégie, vous pouvez utiliser l'applet de commande [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) pour apporter des modifications à la stratégie existante et ensuite utiliser l'applet de commande[Grant CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) pour appliquer la paramètres pour vos utilisateurs.
+Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de commande [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) pour apporter des modifications à la stratégie existante et ensuite utiliser l’applet de commande[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) pour appliquer les paramètres de vos utilisateurs.
   
-## Vous souhaitez en savoir plus sur Windows PowerShell ?
+## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
 - Windows PowerShell permet de gérer les utilisateurs et ce qu'ils sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
@@ -154,12 +139,11 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l'applet de comm
     
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
-## 
-<a name="MT_Footer"> </a>
+  - [Utiliser Windows PowerShell pour les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
+## <a name="related-topics"></a>Rubriques connexes
+[Créer des stratégies d’accès externe personnalisée](create-custom-external-access-policies.md)
 
+[Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)
+
+[Définir des stratégies de client pour votre organisation](set-up-client-policies-for-your-organization.md)

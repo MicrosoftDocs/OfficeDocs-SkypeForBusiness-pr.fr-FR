@@ -1,45 +1,42 @@
 ---
-title: "Modifier les paramètres de diffusion de réunion Skype"
+title: "Apporter des modifications aux paramètres de la diffusion de réunion Skype pour votre organisation"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/13/2017
-ms.audience: End User
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.BroadcastMeetings
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 8e46e857-f046-4e87-a633-0d7fb88d66d5
-description: "Vous pouvez activer la diffusion de réunion Skype et modifier les paramètres et les politiques de ces réunions."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.BroadcastMeetings
+ms.custom: SMB
+description: "Vous pouvez activer la diffusion de réunion Skype et apporter des modifications aux paramètres et les stratégies de ces réunions."
+ms.openlocfilehash: dd47a5352ce5ef65b5c1c16ea41eadbc44b2b89f
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Apporter des modifications aux paramètres de la diffusion de réunion Skype pour votre organisation
 
-# Modifier les paramètres de diffusion de réunion Skype
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Vous pouvez activer la diffusion de réunion Skype et apporter des modifications aux paramètres et les stratégies de ces réunions.
   
-Vous pouvez activer la diffusion de réunion Skype et modifier les paramètres et les politiques de ces réunions.
-  
-- **Activer une diffusion de réunion Skype** Active la diffusion de réunion Skype.Une fois que vous avez activé la diffusion de réunion Skype, vous devez[Configurer votre réseau pour la Diffusion de réunion Skype](set-up-your-network-for-skype-meeting-broadcast.md). Effectuez cela si vous souhaitez organiser des webinaires ou d'autres diffusions pour des personnes externes à votre entreprise. 
+- **Activer la diffusion de réunion Skype** Permet la diffusion de réunion Skype. Après avoir activé la diffusion de réunion Skype, vous devez [configurer votre réseau de diffusion de réunion Skype](set-up-your-network-for-skype-meeting-broadcast.md). Effectuez cette étape si vous souhaitez maintenir des conférences Web et autres émissions pour les personnes à l’extérieur de votre entreprise. 
     
-- **Fonctionnalités d'activer l'aperçu de diffusion de réunion Skype pour mon organisation** La Skype pour les programmes de client entreprise vous permettent d'accéder au plus tôt à nouveaux produits et fonctionnalités. Votre organisation vous donne un aperçu de ce qui se passe et la possibilité de tester les nouvelles fonctionnalités dans votre propre environnement et envoyer des commentaires avant la sortie de versions préliminaires produit au public.[Skype pour présentation Business](https://www.skypepreview.com/)
+- **Fonctionnalités d’activer l’aperçu de la diffusion de réunion Skype pour mon organisation** Le Skype pour les programmes de client d’entreprise vous fournissent un accès précoce aux nouveaux produits et fonctionnalités. Ainsi, votre organisation jetez un œil sur les nouveautés et la possibilité de tester les nouvelles fonctionnalités dans votre propre environnement et fournir des commentaires avant la sortie des builds de produit pour le grand public.<br/>[Skype pour l’aperçu de l’entreprise](https://www.skypepreview.com/)
     
-- **Permettre aux organisateurs pour planifier des réunions anonymes** Cela permet aux organisateurs de faire légendes et traduction pour diffuser des réunions.
+- **Permettre aux organisateurs d’organiser des réunions anonymes** Ceci permet aux organisateurs de faire légendes et traduction pour les réunions de diffusion.
     
-- **Autoriser diffuser des réunions à être enregistrées** Cela permet à toutes les réunions que vous avez devant être enregistrés par le présentateur ou l'organisateur.
+- **Autoriser les réunions diffusion à enregistrer** Cela permet à n’importe quel vous devez être enregistrées par le présentateur ou l’organisateur de réunions.
     
-- **Support technique prend en charge les URL des participants** Entrez un lien pour les participants de diffusion de réunion à utiliser s'ils ont besoin d'aide se connecter ou participation à une réunion de diffusion.
+- **Service d’assistance prend en charge les URL pour les participants** Entrez un lien pour les participants de diffusion à utiliser si besoin d’aide pour se connecter ou d’assister à une session de diffusion.
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Rubriques connexes
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
-## Voir aussi
-<a name="MT_Footer"> </a>
-
-#### 
-
-[Configurer votre réseau pour la Diffusion de réunion Skype](set-up-your-network-for-skype-meeting-broadcast.md)
+[Configurer votre réseau de diffusion de réunion Skype](set-up-your-network-for-skype-meeting-broadcast.md)
 

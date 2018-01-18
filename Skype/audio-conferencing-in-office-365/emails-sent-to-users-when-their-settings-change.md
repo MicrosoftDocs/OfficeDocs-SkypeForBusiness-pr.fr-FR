@@ -1,167 +1,163 @@
 ---
-title: "Messages électroniques qui sont envoyés automatiquement aux utilisateurs lorsque leurs paramètres de conférence Audio modifier"
+title: "E-mails envoyés aux utilisateurs lors de la modifient de leurs paramètres"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/10/2017
-ms.audience: Admin
-ms.topic: reference
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 1b46da6d-f93a-4cc0-9ae8-af765935b007
-description: "Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "En savoir plus sur les informations est envoyé automatiquement aux utilisateurs par courrier électronique lors de la modifient de leurs paramètres d’accès à la conférence. "
+ms.openlocfilehash: a7746018a03a69e429eb8a5df4c68c17f29a97df
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="emails-sent-to-users-when-their-settings-change"></a>E-mails envoyés aux utilisateurs lors de la modifient de leurs paramètres
 
-# Messages électroniques qui sont envoyés automatiquement aux utilisateurs lorsque leurs paramètres de conférence Audio modifier
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+E-mails seront automatiquement envoyées aux utilisateurs qui sont [activés pour la conférence Audio](set-up-audio-conferencing.md) à l’aide de Microsoft en tant que le fournisseur de conférence audio.
   
-Messages électroniques seront automatiquement envoyés aux utilisateurs qui sont [Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md) à l'aide de Microsoft comme fournisseur de services d'audioconférence.
+Par défaut, il existe quatre types de courrier électronique qui sera envoyé aux utilisateurs qui sont activés pour l’audioconférence. Toutefois, si vous souhaitez limiter le nombre d’e-mails envoyés aux utilisateurs, vous pouvez désactiver. Conférence audio dans Office 365 enverra un courriel à vos utilisateurs de messagerie lorsque :
   
-Par défaut, il existe quatre types de message électronique qui sera envoyé à vos utilisateurs configurés pour les conférences Audio. Toutefois, si vous voulez limiter le nombre de messages électroniques envoyés aux utilisateurs, vous pouvez désactiver. Services d'audioconférence dans Office 365 vous envoie un courrier électronique à vos utilisateurs de messagerie quand :
-  
-- **Une licence de conférence Audio est affectée à leur ou lorsque vous modifiez le fournisseur de services d'audioconférence à Microsoft.**
+- **Une licence de conférence Audio est affectée ou lorsque vous modifiez le fournisseur de conférence audio à Microsoft.**
     
-    Ce message électronique inclut l'ID de conférence, le numéro de téléphone de conférence par défaut pour les réunions, les services d'audioconférence code confidentiel pour l'utilisateur et les instructions et lien pour utiliser le Skype pour entreprise Online réunion outil mises à jour qui permet de mettre à jour les réunions existantes pour la utilisateur. Voir [Attribuez Skype pour les entreprises et Microsoft Teams des licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou[Affecter Microsoft comme fournisseur de services d'audioconférence](assign-microsoft-as-the-audio-conferencing-provider.md).
+     Ce message électronique inclut l’ID de conférence, le numéro de téléphone de conférence par défaut pour les réunions, la conférence audio de code PIN pour l’utilisateur et les instructions et lien à utiliser le Skype pour entreprise en ligne réunion mise à jour outil qui sert à mettre à jour des réunions existantes pour le utilisateur. Consultez [Affecter un Skype pour les professionnels et les équipes Microsoft des licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [Affecter de Microsoft en tant que le fournisseur de conférence audio](assign-microsoft-as-the-audio-conferencing-provider.md).
     
     > [!NOTE]
-    > Si votre organisation a été activée pour les identifiants de conférence dynamique, toutes les réunions d'un utilisateur qu'ils planifient aura identifiants de conférence unique. Vous pouvez configurer [Utilisation d'identificateurs dynamiques audioconférence dans votre organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
+    > Si votre organisation a été activée pour l’ID de conférence dynamique, toutes les réunions d’un utilisateur qu’ils planifient aura conférence unique ID. Vous pouvez définir des [codes dynamiques d’audioconférence de votre organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
   
-    Voici un exemple de ce courrier électronique :
+    Voici un exemple du courriel :
     
-     ![Skype for Business Verify License](../images/17913e03-8b4a-4563-b58d-2f09b65fbcaa.png)
+     ![Skype pour entreprise vérifier la licence](../images/audio-conferencing-user-enabled.png)
   
-    Vous trouverez plus d'informations sur Skype pour les licences d'entreprise en regardant [Skype pour les entreprises et Microsoft Teams module complémentaire licences](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+    Vous trouverez plus d’informations sur Skype pour les licences d’entreprise voir [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestionnaire de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
-- **L'ID de conférence ou le numéro de téléphone par défaut d'une conférence pour un utilisateur change.**
+- **L’ID ou la valeur par défaut conférence numéro de téléconférence de modifications de l’utilisateur.**
     
-    Ce courrier électronique contient l'ID de conférence, numéro de téléphone de conférence par défaut et les instructions et lien pour utiliser le Skype entreprise Online réunion mise à jour outil servant à mettre à jour les réunions existantes pour l'utilisateur. Mais ce courrier électronique n'inclut pas services d'audioconférence de l'utilisateur code confidentiel. Voir [Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user.md).
+    Cet e-mail contient l’ID de conférence, numéro de téléphone de conférence par défaut et les instructions et lien pour utiliser le Skype Business en ligne réunion mise à jour outil qui sert à mettre à jour les réunions existantes de l’utilisateur. Mais cet e-mail n’inclut pas de conférence code PIN de l’utilisateur. Consultez [Réinitialiser un ID de conférence pour un utilisateur](reset-a-conference-id-for-a-user.md).
     
     > [!NOTE]
-    > Si votre organisation a été activée pour les identifiants de conférence dynamique, toutes les réunions d'un utilisateur qu'ils planifient aura identifiants de conférence unique. Vous pouvez configurer [Utilisation d'identificateurs dynamiques audioconférence dans votre organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
+    > Si votre organisation a été activée pour l’ID de conférence dynamique, toutes les réunions d’un utilisateur qu’ils planifient aura conférence unique ID. Vous pouvez définir des [codes dynamiques d’audioconférence de votre organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
   
-    Voici un exemple de ce courrier électronique :
+    Voici un exemple du courriel :
     
-     ![Les informations de la conférence rendez-vous ont été modifiées.](../images/d6d3e028-d9fb-48c4-97c0-a73d6ade5ea3.png)
+     ![Info de l’appel de conférence a changé.](../images/audio-conferencing-info-change.png)
   
-- **Les services d'audioconférence code confidentiel d'un utilisateur est réinitialisé.**
+- **La conférence audio code PIN d’un utilisateur est réinitialisée.**
     
-    Ce courrier électronique contient des services d'audioconférence de l'organisateur code confidentiel, l'ID de conférence existant et numéro de téléphone de conférence par défaut pour l'utilisateur. Voir [Réinitialiser le code confidentiel conférence Audio pour un utilisateur](reset-the-audio-conferencing-pin-for-a-user.md).
+    Cet e-mail contient conférence téléphonique l’organisateur de la PIN, ID de conférence existante et numéro de téléphone de conférence par défaut pour l’utilisateur. Les utilisateurs recevront un courrier électronique avec leur code confidentiel lorsqu'ils seront activés pour la conférence rendez-vous ou lorsque le code confidentiel sera réinitialisé. Si vous avez désactivé l'envoi automatique de courriers électroniques, aucun message de réinitialisation du code confidentiel ne sera envoyé à l'utilisateur, ce qui vous obligera à réinitialiser manuellement le code confidentiel. Le code confidentiel ne sera affiché qu'après avoir été réinitialisé. Lorsqu'il s'affiche après la réinitialisation, le code confidentiel n'apparaît dans les propriétés de l'utilisateur que sous la forme *****.
     
     > [!NOTE]
-    > Si votre organisation a été activée pour les identifiants de conférence dynamique, toutes les réunions d'un utilisateur qu'ils planifient aura identifiants de conférence unique. Vous pouvez configurer [Utilisation d'identificateurs dynamiques audioconférence dans votre organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
+    > Si votre organisation a été activée pour l’ID de conférence dynamique, toutes les réunions d’un utilisateur qu’ils planifient aura conférence unique ID. Vous pouvez définir des [codes dynamiques d’audioconférence de votre organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
   
-    Voici un exemple de ce courrier électronique :
+    Voici un exemple du courriel :
     
-     ![Le code confidentiel de la conférence rendez-vous a été modifié.](../images/df8df4f8-d11f-41b8-9187-99e66a88831b.png)
+     ![Modification de la broche dans l’accès à la conférence.](../images/audio-conferencing-pin-has-changed.png)
   
-- **Licence d'un utilisateur est supprimée ou lorsque le fournisseur de services d'audioconférence change de Microsoft autre fournisseur ou aucun.**
+- **Licence d’un utilisateur est supprimée ou lorsque le fournisseur de conférence audio remplace Microsoft autre fournisseur ou aucun.**
     
-    Cela se produit lorsque la licence de **Conférence Audio** est supprimée à partir d'un utilisateur ou lorsque vous modifiez le fournisseur de services d'audioconférence d'un utilisateur de Microsoft à un fournisseur de services d'audioconférence tiers ou lorsque vous définissez le fournisseur sur **Aucun**. Ce courrier électronique contient des instructions et des informations pour l'utilisateur à utiliser la Skype pour entreprise Online Meeting Update Tool pour supprimer des informations spécifiques de services d'audioconférence, telles que la valeur par défaut ID de conférence téléphone numéro ou une téléconférence.
+    Cela se produit lorsque la licence de **Conférence Audio** est supprimée d’un utilisateur ou lors de la modification d’un utilisateur, le fournisseur de conférence audio de Microsoft pour un fournisseur de conférence audio de tiers ou lors de la définition du fournisseur sur **Aucun**. Cet e-mail contient des instructions et des informations pour l’utilisateur d’utiliser le Skype pour l’outil de mise à jour de réunion en ligne Professionnel pour supprimer des informations spécifiques de conférence audio, comme le code par défaut conférence téléphonique numéro ou une conférence.
     
-    Voir [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) ou[Affecter un tiers comme fournisseur de services d'audioconférence](assign-a-third-party-as-the-audio-conferencing-provider.md).
+    Voir [attribuer ou supprimer des licences pour Office 365 pour professionnels](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc) ou [affecter un tiers que le fournisseur de conférence audio](assign-a-third-party-as-the-audio-conferencing-provider.md).
     
-    Voici un exemple de ce courrier électronique :
+    Voici un exemple du courriel :
     
-     ![La fonctionnalité Conférence rendez-vous est désactivée.](../images/4ebc8ae6-b516-452e-8d27-6177e145daba.png)
+     ![Conférences à distance est désactivée.](../images/audio-conferencing-turned-off.png)
   
-## Modifier les courriers électroniques qui leur sont envoyés
+## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Modifier les messages électroniques qui sont envoyés à leur
 
-Vous pouvez apporter des modifications à la messagerie électronique qui est automatiquement envoyé aux utilisateurs, y compris l'adresse de messagerie et le nom d'affichage qui est inclus dans les informations de contact  *à partir de*  . Par défaut, l'expéditeur des e-mails sera d'Office 365, mais vous pouvez modifier l'adresse de messagerie et nom complet à l'aide de Windows PowerShell et l'applet de commande[Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . Pour apporter des modifications à l'adresse de messagerie qui envoie le message électronique aux utilisateurs, vous devez :
+Vous pouvez apporter des modifications à l’e-mail est automatiquement envoyé aux utilisateurs, y compris l’adresse de messagerie et le nom complet est inclus dans les informations de contact *à partir de* . Par défaut, l’expéditeur des e-mails sera d’Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom complet à l’aide de Windows PowerShell et l’applet de commande [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . Pour apporter des modifications à l’adresse de messagerie qui envoie le courrier électronique aux utilisateurs, vous devez :
   
 - entrer l'adresse électronique dans le paramètre À _SendEmailFromAddress_;
     
 - entrer le nom d'affichage associé à l'adresse électronique dans le paramètre  _SendEmailFromDisplayName_.
     
-- définir le paramètre  _SendEmailOverride_ sur _True_;
+- Définissez le paramètre _SendEmailOverride_ sur _True_.
     
-Vous pouvez apporter des modifications à la messagerie électronique envoyé aux utilisateurs, telles que l'adresse de messagerie, le message électronique est envoyé à partir d'et le nom d'affichage pour la messagerie, en cours d'exécution :
+Vous pouvez apporter des modifications à l’e-mail envoyé aux utilisateurs, telles que l’adresse e-mail que le courrier électronique est envoyé à partir d’et le nom complet de l’e-mail, en exécutant :
   
 ```
 Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble -SendEmailFromDisplayName "Amos Marble"
 ```
 
 > [!NOTE]
-> Si vous souhaitez modifier les informations de l'adresse électronique, vous devez vous assurer que les stratégies de courrier électronique entrant de votre environnement autorisent les messages électroniques provenant de l'adresse personnalisée de l'expéditeur indiquée. > Si vous décidez de remplacer les informations de contact dans le champ  *De*  , vous devez vérifier que les courriers électroniques sont envoyés correctement aux utilisateurs. À cet effet, vous pouvez effectuer un envoi test avec un utilisateur de votre organisation.
+>  Si vous souhaitez modifier les informations d’adresse de messagerie, vous avez besoin pour vous assurer que les stratégies de courrier électronique entrant de votre environnement autorisent les e-mails provenant de personnalisé spécifié à partir de l’adresse. Si vous décidez de remplacer les informations *de* contact, vous devez vérifier que les messages électroniques sont correctement envoyés aux utilisateurs. Pour cela, vous pouvez ce test avec un utilisateur de votre organisation.
   
-Vous pouvez utiliser l'applet de commande [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) pour gérer d'autres paramètres pour votre organisation, notamment la messagerie.
+Si vous souhaitez modifier les informations de l'adresse électronique, vous devez vous assurer que les stratégies de courrier électronique entrant de votre entreprise autorisent les messages électroniques provenant de l'adresse électronique personnalisée.
   
-## Comment procéder si vous ne souhaitez pas leur envoyer de courriers électroniques ?
+## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Que se passe-t-il si vous ne voulez pas e-mail à envoyer à leur ?
 
-Lorsque vous désactivez l'envoi d'e-mails à des utilisateurs, messagerie ne seront pas envoyée même lorsqu'un utilisateur obtient attribué une licence. Dans ce cas, l'ID de conférence, par défaut numéro de téléphone de conférence et, surtout, son code confidentiel audioconférence ne seront pas envoyée à l'utilisateur. Dans ce cas, vous devez indiquer à l'utilisateur en leur envoyant un courrier électronique distinct ou par téléphone.
+Lorsque vous désactivez envoi d’e-mails aux utilisateurs, courrier électronique ne seront pas envoyée même lorsqu’un utilisateur est affecté à une licence. Dans ce cas, l’ID de la conférence, par défaut le numéro de téléphone de conférence et, plus important encore, leur code PIN de conférence audio ne seront pas envoyée à l’utilisateur. Lorsque cela se produit, vous devez indiquer à l’utilisateur en lui envoyant un autre courrier électronique ou par téléphone.
   
-Par défaut, messages électroniques sont envoyés à vos utilisateurs, mais si vous souhaitez empêcher de réception de courrier électronique pour les conférences audio, vous pouvez utiliser la Skype pour le centre d'administration entreprise ou Windows PowerShell.
+Par défaut, e-mail sera envoyé à vos utilisateurs, mais si vous voulez les empêcher la réception de courrier électronique pour les conférences audio, vous pouvez utiliser le Skype pour le centre d’administration Business ou Windows PowerShell. 
   
- **À l'aide de la Skype centre d'administration Business**
+ Le Centre d'administration Skype Entreprise ou Windows PowerShell permet d'activer ou de désactiver l'envoi de courrier électronique aux utilisateurs.
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-3. Dans la **Centre d'administration Skype Entreprise**, dans le volet de navigation gauche, accédez à la **conférence Audio** > **paramètres du pont Microsoft**.
+3. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **paramètres de pont de Microsoft**.
     
-4. Dans la page **paramètres du pont Microsoft**, activez ou désactivez **Envoyer automatiquement les messages électroniques pour les utilisateurs si leurs paramètres de services d'audioconférence sont modifiés**.
+4. Dans la page **paramètres du pont Microsoft** , activez ou désactivez la **Envoyer automatiquement des e-mails aux utilisateurs si leurs paramètres de conférence audio changent**. 
     
-5. Cliquez sur **Enregistrer**.
+5. Cliquez sur **Enregistrer**. 
     
- **Utilisation de Windows PowerShell**
+ Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.
   
-1. Pour désactiver l'envoi de courrier électronique à tous vos utilisateurs, exécutez la commande suivante :
+1. Exécutez la commande suivante pour désactiver l’envoi de courrier électronique tous les utilisateurs :
     
   ```
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
-Vous pouvez utiliser l'applet de commande [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) pour gérer d'autres paramètres pour votre organisation, notamment la messagerie.
+Si vous souhaitez modifier les informations de l'adresse électronique, vous devez vous assurer que les stratégies de courrier électronique entrant de votre entreprise autorisent les messages électroniques provenant de l'adresse électronique personnalisée.
   
-## Que devez-vous savoir d'autre sur les courriers électroniques ?
+## <a name="what-else-should-you-know-about-this-email"></a>Que devez-vous savoir d'autre sur les courriers électroniques ?
 
-- Pour activer sur plus et désactiver automatiquement envoyer des messages à vos utilisateurs, voir [Activer ou désactiver l'envoi de messages électroniques lorsque modifient les paramètres de conférence Audio](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md).
+- Pour une activation sur plus et désactivation est envoyé automatiquement à vos utilisateurs, voir [Activer ou désactiver l’envoi de messages électroniques lors de la modifient des paramètres d’audioconférence](enable-or-disable-sending-emails-when-their-settings-change.md).
     
-- Parfois, les utilisateurs perdent leurs informations audio et vous devez être en mesure de leur envoyer toutes leurs informations audio pour les. Vous pouvez le faire à l'aide de la Skype centre d'administration Business et cliquer sur **Envoyer les informations de conférence par courrier électronique** sous les propriétés de services d'audioconférence pour un utilisateur. Voir[Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio](send-an-email-to-a-user-with-their-audio-conferencing-information.md). Toutefois, cette information n'inclut pas les services d'audioconférence code confidentiel.
+- Parfois, les utilisateurs perdent leurs informations audio et vous devez être en mesure de les envoyer toutes leurs informations audio pour les. Vous pouvez effectuer cette opération en cliquant sur **Envoyer par courrier électronique, les informations de conférence** sous les propriétés de téléconférence audio pour un utilisateur utilisant le Skype pour le centre d’administration de Business. Si vous procédez ainsi, le message envoyé ne contient pas le code confidentiel, mais uniquement l'ID de conférence et le numéro de téléphone de la conférence. Toutefois, ces informations n’incluent pas la code PIN de conférence audio.
     
-    Voici un exemple du courrier électronique qui sera envoyé aux utilisateurs :
+    Voici un exemple du courriel qui sera envoyé à leur :
     
      ![Courrier électronique de conférence rendez-vous](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
   
-## Comment utiliser Windows PowerShell pour gérer cette fonction ?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
-- Par défaut, l'expéditeur des e-mails sera d'Office 365, mais vous pouvez modifier l'adresse de messagerie et nom complet à l'aide de Windows PowerShell et l'applet de commande [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) .
+- Par défaut, l’expéditeur des e-mails sera d’Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom complet à l’aide de Windows PowerShell et l’applet de commande [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) .
     
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+- Windows PowerShell est la gestion des utilisateurs et les utilisateurs qui sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 à l’aide d’un unique point d’administration qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
-  - [Pourquoi vous devez utiliser Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
-  - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Six raisons d'utiliser Windows PowerShell pour gérer Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell offre de nombreux avantages dans vitesse, simplicité et la productivité sur qu'à l'aide du centre d'administration Office 365, tels que lorsque vous devez apporter des modifications de paramètre pour de nombreux utilisateurs en même temps. En savoir plus sur les avantages suivants dans les rubriques suivantes :
+- Windows PowerShell offre de nombreux avantages de vitesse, de simplicité et de productivité, plutôt seulement le centre d’administration d’Office 365, par exemple lorsque vous devez apporter des modifications de paramètre pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
     
-  - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Présentation de Windows PowerShell et de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Utiliser Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Utiliser Windows PowerShell pour les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). 
+    > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Rubriques connexes
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
+[Activer ou désactiver l’envoi de messages électroniques lors de la modifient des paramètres de conférence de données Audio](enable-or-disable-sending-emails-when-their-settings-change.md)
   
-## Voir aussi
-<a name="MT_Footer"> </a>
-
-#### 
-
-[Activer ou désactiver l'envoi de messages électroniques lorsque modifient les paramètres de conférence Audio](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md)
-  
-[Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio](send-an-email-to-a-user-with-their-audio-conferencing-information.md)
+[Envoyer un e-mail à un utilisateur avec les informations d’audioconférence](send-an-email-to-a-user-with-their-dial-in-information.md)
 

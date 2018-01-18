@@ -1,40 +1,44 @@
 ---
-title: "Conserver les fichiers volumineux joints à un Skype entreprise"
+title: "En conservant les fichiers volumineux attachés à un Skype pour une réunion d’affaires"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/7/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 12203a1a-4a9f-4838-88c5-3740ea16ed8d
-description: "Vous pouvez joindre des fichiers à une réunion Skype Entreprise, les participants peuvent ensuite ouvrir et téléchargement. Fichiers joints aux réunions Skype Entreprise sont conservés dans les boîtes aux lettres d'un participant dont boîte aux lettres est placé sur litige maintenez la touche, comporte une stratégie de rétention Office 365 ou est placé sur une suspension associée à un cas eDiscovery dans le Centre de sécurité et conformité Office 365. Ce contenu est enregistré dans les dossiers d'Éléments récupérables des participants dans leur boîte aux lettres."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Vous pouvez joindre des fichiers à un Skype pour une réunion d’affaires, les participants peuvent ensuite ouvrir et téléchargement. Fichiers joints à Skype pour les réunions d’entreprise sont conservés dans les boîtes aux lettres de tout participant à une boîte aux lettres est placée sur Litigation Hold, comporte une stratégie de rétention Office 365 ou est placé sur une suspension associée à un cas d’e-Discovery dans la sécurité pour Microsoft Office 365 &amp; Centre de conformité. Ce contenu est enregistré dans les dossiers des éléments récupérables participants dans leurs boîtes aux lettres."
+ms.openlocfilehash: bf6a3d0df568a043bc569d78ca0942682e936158
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>En conservant les fichiers volumineux attachés à un Skype pour une réunion d’affaires
 
-# Conserver les fichiers volumineux joints à un Skype entreprise
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Vous pouvez joindre des fichiers à un Skype pour une réunion d’affaires, les participants peuvent ensuite ouvrir et téléchargement. Fichiers joints à Skype pour les réunions d’entreprise sont conservés dans les boîtes aux lettres de tout participant à une boîte aux lettres est placée sur Litigation Hold, comporte une stratégie de rétention Office 365 ou est placé sur une suspension associée à un cas d’e-Discovery dans la sécurité pour Microsoft Office 365 &amp; Centre de conformité. Ce contenu est enregistré dans les dossiers des **Éléments récupérables** participants dans leurs boîtes aux lettres.
   
-Vous pouvez joindre des fichiers à une réunion Skype Entreprise, les participants peuvent ensuite ouvrir et téléchargement. Fichiers joints aux réunions Skype Entreprise sont conservés dans les boîtes aux lettres d'un participant dont boîte aux lettres est placé sur litige maintenez la touche, comporte une stratégie de rétention Office 365 ou est placé sur une suspension associée à un cas eDiscovery dans le Centre de sécurité et conformité Office 365. Ce contenu est enregistré dans les dossiers **d'Éléments récupérables** des participants dans leur boîte aux lettres.
-  
-Les fichiers qui sont conservés dans les boîtes aux lettres en attente sont indexés et par conséquent peuvent être recherchés lors de l'exécution d'une recherche de contenu dans les Centre de sécurité et conformité lors de la recherche de boîte aux lettres d'un participant. Toutefois, les fichiers joints qui sont supérieures à 39 Mo sont Fractionner en deux ou plusieurs fichiers plus petits et enregistrement en tant que fichiers compressés (.zip). Le  *contenu*  de ces fichiers de petite taille n'est pas indexé pour la recherche et ne peut pas être retourné dans une recherche de contenu. Toutefois, les *métadonnées*  de ces fichiers (par exemple, le nom de fichier et l'auteur) sont indexé pour la recherche et peuvent être renvoyés dans une recherche de contenu.
+Les fichiers qui sont conservés dans des boîtes aux lettres en attente sont indexés et peuvent par conséquent être recherchés lors de l’exécution d’une recherche de contenu de sécurité &amp; centre de conformité lors de la recherche de boîte aux lettres d’un participant. Toutefois, les fichiers joints de plus de 39 Mo sont fractionnées en plusieurs fichiers plus petits et enregistrement comme des fichiers compressés (.zip). Le *contenu* de ces petits fichiers n’est pas indexée pour la recherche et ne peut pas être retourné dans une recherche de contenu. Toutefois, les *métadonnées* de ces fichiers (par exemple, le nom de fichier et l’auteur) sont indexés pour la recherche et peuvent être retournés dans une recherche de contenu.
   
 > [!NOTE]
-> Si la boîte aux lettres est pleine ou l'administrateur client a configuré MaxSendSize est inférieure à 39 Mo, téléchargés fichier de données ne sont pas conservées du tout. La valeur par défaut MaxSendSize est de 150 Mo, mais les administrateurs client peuvent configurer MaxSendSize pour soit aussi petite que 1 Mo. 
+> Si la boîte aux lettres est pleine ou l’administration des clients a configuré MaxSendSize inférieure à 39 Mo, téléchargé le fichier de données ne sont pas conservées à tout. MaxSendSize par défaut est de 150 Mo, mais les administrateurs de clients peuvent configurer MaxSendSize pour être aussi petits que 1 Mo. 
   
-Boîtes aux lettres qui ne sont pas en attente n'ont pas toutes les données réunion enregistrées. Par exemple, dans une réunion de trois personnes dans lequel les boîtes aux lettres de deux participants sont marqués pour la rétention, les données de la réunion sont enregistrées dans les boîtes aux lettres de ces deux participants, mais pas à la boîte aux lettres du participant tiers, dont boîte aux lettres n'est pas sur Maintenez la touche.
+Boîtes aux lettres qui ne sont pas en attente n’aura pas de données de réunion enregistrées. Par exemple, lors d’une réunion de trois personnes dans dont les boîtes aux lettres de deux participants sont marqués pour la rétention, les données de la réunion sont enregistrées dans les boîtes aux lettres de ces deux participants, mais pas à la boîte aux lettres du participant tiers, boîte aux lettres n’est pas sur Maintenez.
   
-## Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
+[Créer des stratégies d’accès externe personnalisée](create-custom-external-access-policies.md)
 
-[Exécuter une recherche de contenu dans le centre de conformité &amp; sécurité Office 365](https://support.office.com/article/61852fd9-fe8a-4880-a339-cb19ed3bff4a .aspx)
-  
-[Éléments non indexés dans recherche de contenu dans Office 365](https://support.office.com/article/d1691de4-ca0d-446f-a0d0-373a4fc8487b)
-  
-## 
-<a name="MT_Footer"> </a>
+[Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
+[Définir des stratégies de client pour votre organisation](set-up-client-policies-for-your-organization.md)
 
+[Définir des stratégies de conférence dans votre organisation](set-up-conferencing-policies-for-your-organization.md)
+  

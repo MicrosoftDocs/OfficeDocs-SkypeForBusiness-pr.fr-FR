@@ -1,64 +1,73 @@
 ---
-title: "Quelles sont les standards automatiques système téléphonique ?"
+title: "Que sont les surveillances du système téléphonique ?"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
-description: "Learn what Phone System (Cloud PBX) auto attendents are and how to use them. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
+description: "Découvrez les surveillances automatiques le système téléphonique (PBX nuage) et comment les utiliser. "
+ms.openlocfilehash: 4208e152661cb322aaea804c185dd09be86b606d
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-are-phone-system-auto-attendants"></a>Que sont les surveillances du système téléphonique ?
 
-# Quelles sont les standards automatiques système téléphonique ?
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Système de téléphone dans Office 365 surveillances peuvent servir à créer un système de menus de votre organisation qui permet aux appelants d’internes et externes passent par un système de menus de localiser et de placer ou de transférer des appels vers les utilisateurs de la société ou les départements de votre organisation.
   
-Système téléphonique dans Office 365 standards automatiques pouvant être utilisées pour créer un système de menus pour votre organisation qui permet aux appelants internes et externes se déplacer parmi un système de menus localiser et placer ou transférer des appels aux utilisateurs de la société ou départements de votre organisation.
+Lorsque les personnes appellent, ils sont présentés avec une série d’invites vocales qui les aident à effectuer un appel à un utilisateur ou recherchez une personne de votre organisation et puis placez un appel à cet utilisateur. Un standard automatique est une série d’invites vocales ou un fichier audio que les appelants entendront un opérateur humain lorsqu’ils appellent une organisation. La surveillance automatique permet aux appelants de parcourir le système de menus, passer des appels, ou rechercher des utilisateurs à l’aide d’un clavier de téléphone (DTMF) ou entrées à l’aide de la reconnaissance vocale de la voix. 
   
-Lorsque vous appellent de personnes, elles sont présentées avec une série d'invites vocales qui leur permettent de passer un appel à un utilisateur ou recherchez une personne de votre organisation, puis placez un appel à cet utilisateur. Un standard automatique est une série d'invites vocales ou un fichier audio que les appelants entendront au lieu d'un opérateur humain lorsqu'ils participer à une organisation. Un standard automatique permet aux appelants parcourir le système de menus, passer des appels, ou recherchez des utilisateurs à l'aide d'un clavier de téléphone (DTMF) ou entrées à l'aide de la reconnaissance vocale de la voix.
+Pour configurer un standard automatique pour le système de téléphone dans Office 365, consultez [configurer une surveillance automatique de système téléphonique](set-up-a-phone-system-auto-attendant.md).
   
-Pour configurer un standard automatique pour le système téléphonique dans Office 365, accédez [Configurer un standard automatique de système téléphonique](set-up-a-phone-system-auto-attendant.md).
-  
-Un standard automatique de système téléphonique comporte les fonctionnalités suivantes :
+Une surveillance automatique de système téléphonique présente les caractéristiques suivantes :
   
 - Il propose des messages d'accueil spécifiques de l'entreprise ou à vocation informative.
     
 - Il propose des menus d'entreprise personnalisés. Vous pouvez personnaliser ces menus afin de disposer de plusieurs niveaux.
     
-- Il propose recherche dans l'annuaire qui permet aux personnes qui rejoignent pour effectuer une recherche dans l'annuaire l'organisation un nom.
+- Il fournit la recherche dans l’annuaire qui permet aux utilisateurs qui passent des appels dans pour rechercher le répertoire de l’organisation pour un nom.
     
-- Il permet à une personne qui dans les appels à atteindre ou laisser un message d'une personne de votre organisation.
+- Permet à une personne qui appelle atteindre ou laisser un message à une personne de votre organisation.
     
-## Mise en route
+## <a name="getting-started"></a>Mise en route
 
 Avant de commencer à utiliser les standards automatiques, il est impératif de noter les points suivants :
   
-- Votre organisation doit avoir (au minimum) une licence entreprise E3 plus **Système téléphonique** ou une licence entreprise E5. Le nombre de licences utilisateur **Système téléphonique** affectés impacts le nombre de service aux nombres qui est disponible à utiliser pour les standards automatiques. Le nombre de standards automatiques que vous pouvez avoir dépend du nombre **Système téléphonique** et **Audioconférence** des licences qui sont affectées dans votre organisation. Pour en savoir plus sur les licences, accédez[Skype pour les entreprises et Microsoft Teams module complémentaire licences](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Une licence Enterprise E3 et **Système téléphonique** ou une licence Enterprise E5, votre organisation doit avoir (au minimum). Le nombre de licences d’utilisateur **Système téléphonique** qui sont affectés des impacts sur le nombre de service des numéros est disponible pour être utilisés pour les standards automatiques. Le nombre de surveillances automatiques que vous pouvez avoir est dépendant sur les licences de **Système téléphonique** et **Les conférences Audio** numériques qui vous sont affectées dans votre organisation. Pour en savoir plus sur les licences, consultez [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestionnaire de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
-    > Pour rediriger les appels vers un opérateur ou une option de menu est un utilisateur en ligne avec une licence **Système téléphonique**, vous devez les activer pour Enterprise Voice ou leur affecter des Plans de l'appel. Voir [Attribuez Skype pour les entreprises et Microsoft Teams des licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Vous pouvez également utiliser Windows PowerShell. Par exemple exécuter :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Pour rediriger les appels à un opérateur ou une option de menu est un utilisateur en ligne avec une licence de **Système téléphonique** , vous devez les activer pour Voix Entreprise ou de leur attribuer des Plans d’appel. Reportez-vous à la section[Affecter un Skype pour les professionnels et les équipes Microsoft des licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Vous pouvez également utiliser Windows PowerShell. Par exemple exécuter :`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- Pour obtenir et utiliser des numéros de service gratuit pour vos standards automatiques, vous devez configurer les Communications crédits. Pour ce faire, voir [Que sont les Communications crédits ?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) et[Configurer les Communications crédits pour votre organisation](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+- Pour obtenir et utiliser des numéros de service gratuit pour votre surveillances automatiques, vous devez configurer les crédits de Communications. Pour ce faire, reportez-vous à la section [que sont les crédits de Communications ?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) et [configurer les crédits de Communications pour votre organisation](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
     
     > [!IMPORTANT]
     > Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués à des standards automatiques. Seuls les numéros de téléphone gratuits et payants peuvent être utilisés. 
   
-## Présentation de la fonctionnalité
+## <a name="feature-overview"></a>Présentation de la fonctionnalité
 
-### Numérotation par nom
+### <a name="dial-by-name"></a>Numérotation par nom
 
-Numérotation par nom est une fonctionnalité d'un standard automatique qui est appelé recherche dans l'annuaire. Il active les personnes qui appellent votre standard automatique à permet d'entrer un nom complet ou partiel permet de rechercher répertoire de société, localisez la personne qui et avez puis transférer l'appel vers ces signets à voix (reconnaissance vocale) ou leur pavé numérique du téléphone (DTMF). Si vous disposez Skype entreprise Online utilisateurs, **ils ne sont pas obligatoires pour qu'un numéro de téléphone ou ont l'appel d'offre affectés, mais ils doivent avoir une licence **Système téléphonique**** pour les rendre accessibles lorsqu'ils effectuent une recherche à l'aide de numérotation par son nom. Numérotation par nom pourront même rechercher et transférer des appels vers Skype pour les utilisateurs d'entreprise Online qui sont hébergés dans différents pays ou régions pour les organisations multinationales.
+Numérotation par nom est une fonctionnalité de surveillance automatique appelé recherche dans l’annuaire. Il permet les personnes qui appellent votre automatique du service de surveillance permet d’entrer un nom complet ou partiel à rechercher le répertoire de la société, recherchez la personne et ont ensuite de transférer l’appel vers les voix (reconnaissance vocale) ou à leur clavier de téléphone (DTMF). Si vous avez Skype pour les utilisateurs professionnels en ligne, **ils ne sont pas tenus d’avoir un numéro de téléphone ou Plans d’appel de leur avez affecté aucune, mais ils doivent disposer d’une licence de système téléphonique** pour les rendre accessibles lorsqu’ils effectuent une recherche à l’aide de l’accès par nom. Accès par nom de sera encore en mesure de rechercher et de transférer les appels Skype pour des utilisateurs professionnels en ligne qui sont hébergés dans différents pays ou régions pour les multinationales.
   
 > [!CAUTION]
-> Déploiements sur site d'utilisateurs de Lync Server 2010 ne sont pas répertoriés dans l'annuaire lorsqu'une personne recherche pour eux. 
+> Les déploiements sur site des utilisateurs de Lync Server 2010 n’apparaît pas dans le répertoire lorsqu’une personne recherche les. 
   
-### Taille de l'annuaire maximale
+### <a name="maximum-directory-size"></a>Taille de l'annuaire maximale
 
-Il n'existe aucune limite sur la taille d'Active Directory pour lesquels Dial par nom est pris en charge lors de l'utilisation du pavé numérique du téléphone pour rechercher pour entrer des noms partielles ou complètes (prénom nom et également nom + prénom). Toutefois, la taille maximale pour le nom qu'un standard automatique unique peut prendre en charge à l'aide de la reconnaissance nom avec la voix est 80 000 utilisateurs.
+Il n’existe aucune limite sur la taille de Active Directory pour lequel l’accès par nom est pris en charge lors de l’utilisation du pavé numérique du téléphone pour effectuer une recherche partielle ou totale des noms (FirstName LastName et également nom + prénom). Toutefois, la taille de liste maximale pour le nom qu’une surveillance automatique unique peut prendre en charge à l’aide de la reconnaissance du nom avec la reconnaissance vocale est de 80 000 utilisateurs.
   
 ||||
 |:-----|:-----|:-----|
@@ -67,11 +76,11 @@ Il n'existe aucune limite sur la taille d'Active Directory pour lesquels Dial pa
 |Voix (entrée vocale)  <br/> |Prénom  <br/> Nom  <br/> Prénom + nom  <br/> Nom + prénom  <br/> |80 000 utilisateurs  <br/> |
    
 > [!NOTE]
-> Si vous utilisez numérotation par nom avec la voix de reconnaissance, mais Active Directory de votre organisation est supérieure à 80 000 utilisateurs et vous n'avez pas limité la portée de numérotation par un nom à l'aide de la fonctionnalité de numérotation étendue, numérotation par nom fonctionnera toujours pour vos interlocuteurs à l'aide d'un clavier de téléphone , et entrées vocales seront disponibles pour tous les autres scénarios. Vous pouvez utiliser la fonctionnalité étendue de numérotation pour affiner les noms sont accessibles en modifiant l'étendue de numérotation par un nom pour un standard automatique particulier. 
+> Si vous utilisez une connexion par nom avec la voix de reconnaissance, mais Active Directory de votre organisation est supérieure à 80 000 utilisateurs et vous n’avez pas limité la portée de l’accès à distance par un nom à l’aide de la fonctionnalité d’accès à portée, à distance par nom continuera à fonctionner pour vos appelants à l’aide d’un clavier de téléphone , et les entrées vocales sera disponibles pour tous les autres scénarios. Vous pouvez utiliser la fonctionnalité d’étendue de l’accès à distance pour réduire au minimum les noms qui sont accessibles par la modification de la portée de l’accès par nom pour une surveillance automatique particulier. 
   
-### Numérotation par nom - Entrée de clavier téléphonique (DTMF)
+### <a name="dial-by-name---keypad-dtmf-entry"></a>Numérotation par nom - Entrée de clavier téléphonique (DTMF)
 
-Personnes se connectant permet de communiquer aux utilisateurs en spécifiant soit le nom complet ou partiel de la personne qu'il tente d'atteindre numérotation par son nom. La bonne chose est qu'il existe différents formats qui peuvent être utilisés lorsque le nom est entré.
+Personnes se connectant pouvez utiliser numérotation par nom d’atteindre des utilisateurs en indiquant soit le nom complet ou partiel de la personne qu’il tente d’atteindre. La bonne chose est qu’il existe différents formats qui peuvent être utilisés lorsque le nom est entré.
   
 Lorsqu'ils recherchent dans l'annuaire de votre organisation, les utilisateurs peuvent utiliser la touche 0 (zéro) pour indiquer un espace entre le prénom et le nom ou vice versa. Lorsqu'ils saisissent le nom, ils seront invités à terminer leur entrée de clavier par la touche # (dièse). Par exemple : « Après avoir saisi le nom de la personne que vous voulez joindre, appuyez sur #. » Si la recherche renvoie plusieurs noms, l'appelant pourra en sélectionner un parmi une liste.
   
@@ -88,7 +97,7 @@ Les employés peuvent rechercher des noms dans votre organisation à l'aide des 
 |Prénom + nom  <br/> |Partiel  <br/> |Mar0Amos#  <br/> |Appuyez sur 1 pour Amos Marble  <br/> Appuyez sur 2 pour Amos Marcus  <br/> |
 |Nom + prénom  <br/> |Partiel  <br/> |Mar0Am#  <br/> |Appuyez sur 1 pour Amos Marble  <br/> Appuyez sur 2 pour Amos Marcus  <br/> |
    
-Il existe plusieurs caractères spéciaux qui sont utilisés lorsque vous recherchez des personnes à l'aide d'un clavier téléphonique. Par exemple, l'utilisateur est invité à utiliser dièse (#), tandis que la touche zéro (0) est utilisé pour un espace entre les noms. En appuyant sur la touche étoile (*) répète la liste des noms à la personne correspondants.
+Il existe plusieurs caractères spéciaux qui sont utilisés lorsque vous recherchez des personnes à l’aide d’un clavier de téléphone. Par exemple, la personne sera demandée pour utiliser la touche dièse (#), tandis que la touche zéro (0) est utilisée pour un espace de noms. Appuyez sur la touche étoile (*), la liste de correspondance de noms à la personne sera répété.
   
 |||
 |:-----|:-----|
@@ -97,11 +106,11 @@ Il existe plusieurs caractères spéciaux qui sont utilisés lorsque vous recher
 |0 (zéro)  <br/> |Espace entre les noms  <br/> |
 |* (touche étoile)  <br/> |Répétition de la liste de correspondances de noms  <br/> |
    
-### Numérotation par nom - Reconnaissance vocale de nom
+### <a name="dial-by-name---name-recognition-with-speech"></a>Numérotation par nom - Reconnaissance vocale de nom
 
-Personnes rechercher d'autres personnes dans leur organisation à l'aide de la voix (reconnaissance vocale). Ils également communiquer avec tout le monde dans Active Directory de la société en indiquant le nom de la personne qu'ils vous recherchez. À l'aide d'entrées vocales peut reconnaître les noms dans différents formats, y compris le prénom, nom, prénom nom, ou nom + prénom.
+Personnes peuvent rechercher d’autres utilisateurs de leur entreprise à l’aide de la voix (reconnaissance vocale). Ils peuvent également atteindre n’importe qui dans Active Directory la société en prononçant le nom de la personne qu’ils tentent de localiser. À l’aide d’entrées vocales peut reconnaître les noms dans différents formats, y compris les FirstName, LastName, FirstName LastName, ou nom + prénom.
   
-Lorsque vous activez la reconnaissance vocale pour un standard automatique, entrée pavé numérique du téléphone (DTMF) ne sont pas désactivée, les deux types d'entrée peuvent être utilisée. Entrée du clavier téléphonique ne peut pas être désactivée et peut être utilisée à tout moment, même si la reconnaissance vocale est activée sur le standard automatique.
+Lorsque vous activez la reconnaissance vocale pour la surveillance automatique, entrée de clavier de téléphone (DTMF) ne sont pas désactivée, les deux types d’entrée peuvent être utilisée. Entrée de clavier de téléphone ne peut pas être désactivée et peut être utilisée à tout moment, même si la reconnaissance vocale est activée sur le standard automatique.
   
 Comme avec l'entrée de clavier téléphonique, si la recherche renvoie plusieurs noms, l'appelant pourra en sélectionner un parmi une liste.
   
@@ -116,9 +125,9 @@ Les appelants peuvent prononcer les noms dans les formats suivants :
 |Nom  <br/> |Complet  <br/> |Marble  <br/> |Appuyez sur 1 ou dites 1 pour Amos Marble  <br/> Appuyez sur 2 ou dites 1 pour Ben Marble  <br/> |
    
 > [!NOTE]
-> Il peut prendre jusqu'à 36 heures pour un utilisateur pour que leur nom apparaît dans le répertoire pour les appels par nom avec la reconnaissance vocale. 
+> Il peut prendre jusqu'à 36 heures pour un nouvel utilisateur pour que leur nom répertorié dans l’annuaire pour l’accès par nom avec la reconnaissance vocale. 
   
-### Prise en charge des langues
+### <a name="language-support"></a>Prise en charge des langues
 
 Les langues suivantes sont disponibles pour la synthèse vocale :
   
@@ -146,7 +155,7 @@ La reconnaissance vocale pour les standards automatiques est disponible pour les
 |Anglais (É.U.)  <br/> |Espagnol (ES)  <br/> |
 |Français (CA)  <br/> |Espagnol (MX)  <br/> |
    
-Les commandes vocales suivantes sont disponibles dans les quatorze (14﻿) langues prises en charge par la reconnaissance vocale :
+Les commandes vocales suivantes sont disponibles dans les quatorze (14) langues prises en charge par la reconnaissance vocale :
   
 |||
 |:-----|:-----|
@@ -167,103 +176,96 @@ Les commandes vocales suivantes sont disponibles dans les quatorze (14﻿) langu
 |Huit  <br/> |Correspond à appuyer sur 8.  <br/> |
 |Neuf  <br/> |Correspond à appuyer sur 9.  <br/> |
    
-### Utilisation de l'option opérateur
+### <a name="using-the-operator-option"></a>Utilisation de l'option opérateur
 
 L'utilisation de l'opérateur d'un standard automatique est un paramètre facultatif qui permet à l'appelant de contacter une personne.
   
 La touche 0 et la commande vocale « Opérateur » (dans toutes les langues prises en charge par la reconnaissance vocale) sont affectées à l'opérateur par défaut.
   
 > [!NOTE]
-> Vous pouvez définir le bouton qui a été basculé pour l' **opérateur** à une autre clé à l'aide des **Options du Menu**. 
+> Vous pouvez définir le bouton qui est basculé vers une clé différente pour l' **opérateur** à l’aide des **Options de Menu**. 
   
 Vous pouvez définir l'opérateur comme suit :
   
-- Un Skype pour entreprise Online utilisateur disposant d'un **Système téléphonique** licence qui est activé pour voix entreprise ou leur a l'appel d'offre affecté. Vous pouvez le configurer vers le haut pour la personne appelant peut être envoyée vers la messagerie vocale. Pour ce faire, sélectionnez une **personne de votre société** et définissez les appels soient automatiquement transférés directement vers la messagerie vocale de cette personne.
+- Un Skype pour Business Online utilisateur qui dispose d’un **Système téléphonique** de licence qui est activé de Voix Entreprise ou a les Plans d’appel attribuée. Vous pouvez configurer afin que la personne l’appel peut être envoyée à la messagerie vocale. Pour ce faire, sélectionnez une **personne dans votre entreprise** et définir les appels de cette personne à être transféré directement vers la messagerie vocale.
     
     > [!NOTE]
-    > Les utilisateurs hébergés en local à l'aide de Lync Server 2010 ne peut pas être utilisé comme un opérateur. 
+    > Les utilisateurs hébergés sur site à l’aide de Lync Server 2010 ne peut pas être utilisé comme un opérateur. 
   
 - Un autre standard automatique configuré dans votre organisation
     
-- N'importe quel appel file d'attente existante qui a été configurée dans votre organisation. Pour en savoir plus sur les files d'appel, voir [Créer une file d'attente des appels système téléphonique](create-a-phone-system-call-queue.md).
+- Tout appel de file d’attente existante qui est définie dans votre organisation. Pour plus d’informations sur les files d’attente de l’appel, consultez [créer une file d’attente des appels système téléphonique](create-a-phone-system-call-queue.md).
     
-### Heures d'ouverture et traitement des appels
+### <a name="business-hours-and-call-handling"></a>Heures d'ouverture et traitement des appels
 
-Les heures de bureau sont définies sur chaque standard automatique. Si les heures de bureau ne sont pas définies, tous les jours et toutes les heures dans la journée sont considérés comme les heures de bureau, car un calendrier 24/7 est défini par défaut. Heures de travail peut être définies avec des sauts de dans le temps pendant la journée et toutes les heures qui ne sont pas définies comme les heures de bureau sont considérés comme en continu. Vous pouvez définir différentes options de gestion d'appel entrantes et le message d'accueil différents (qui est facultatif), puis deux peuvent être définies pour les heures de bureau et en continu.
+Les heures sont définies sur chaque surveillance automatique. Si les heures de bureau ne sont pas définies, tous les jours et les heures dans la journée sont considérées comme les heures de bureau, car une planification de 24 x 7 est définie par défaut. Les heures peuvent être définies avec des sauts dans le temps au cours de la journée et toutes les heures qui ne sont pas définis comme les heures de bureau sont considérés comme en continu. Vous pouvez définir différentes options de gestion des appels entrantes et les salutations différentes (qui sont facultatifs), et les deux peuvent être définies pour les heures de bureau et en continu.
   
-Chaque standard automatique comporte les options de gestion des appels pouvant être définies :
+Chaque surveillance automatique a gestion d’appel les options qui peuvent être définies :
   
 - Vous pouvez définir la déconnexion de l'appel juste après le message d'accueil.
     
 - Vous pouvez également :
     
-  - Rediriger l'appel vers un Skype pour entreprise Online utilisateur possédant une licence de **Système téléphonique** est activé voix entreprise ou a l'appel d'offre attribuée. Vous pouvez le configurer vers le haut pour la personne appelant peut être envoyée vers la messagerie vocale. Pour ce faire, sélectionnez une **personne de votre société** et définissez les appels soient automatiquement transférés directement vers la messagerie vocale de cette personne.
+  - Redirection d’appel vers un Skype pour Business Online utilisateur qui dispose d’une licence de **Système téléphonique** est activée en Voix Entreprise ou a les Plans d’appel attribuée. Vous pouvez configurer afin que la personne l’appel peut être envoyée à la messagerie vocale. Pour ce faire, sélectionnez une **personne dans votre entreprise** et définir les appels de cette personne à être transféré directement vers la messagerie vocale.
     
     > [!NOTE]
-    > Les utilisateurs hébergés en local à l'aide de Lync Server 2010 ne sont pas pris en charge. 
+    > Les utilisateurs hébergés sur site à l’aide de Lync Server 2010 ne sont pas pris en charge. 
   
-  - Rediriger l'appel vers une file d'attente d'appel. Pour en savoir plus sur les files d'appel, voir [Créer une file d'attente des appels système téléphonique](create-a-phone-system-call-queue.md).
+  - Redirection d’appel vers une file d’attente d’appel. Pour plus d’informations sur les files d’attente de l’appel, consultez [créer une file d’attente des appels système téléphonique](create-a-phone-system-call-queue.md).
     
-  - Rediriger l'appel vers un autre standard automatique que vous avez configuré
+  - Redirection d’appel vers un autre standard automatique que vous avez configurées.
     
 - Créer des options de menu et activer une invite de menu pour l'appelant. Par exemple : « Appuyez sur 1 pour contacter le département des ventes, appuyez sur 2 pour contacter le département des services. Pour contacter l'opérateur, appuyez sur 0 à tout moment. »
     
-### Options de menu
+### <a name="menu-options"></a>Options de menu
 
-Standards automatiques de système téléphonique permettent de créer des invites de menu (« appuyez sur 1 pour les ventes, appuyez sur 2 pour les Services ») et définir les options de menu à acheminer les appels en fonction de ce que l'utilisateur sélectionne. Configuration des options de menu pour un standard automatique permet à une organisation de fournir un guide interactif pour obtenir la personne à leur destination plus rapidement, sans avoir recours à un opérateur humain pour traiter les appels entrants. Menu invites peuvent être créés à l'aide de synthèse vocale (invites générées par le système) ou en téléchargeant un fichier audio qui a été enregistré. La reconnaissance vocale utilise les commandes vocales pour naviguer mains libres, mais les personnes se connectant pouvez également utiliser le pavé numérique du téléphone pour naviguer dans les menus.
+Surveillances automatiques de système téléphonique vous permettent de créer des invites de menu (« appuyez sur 1 pour les ventes, appuyez sur 2 pour les Services ») et de définir les options de menu à acheminer les appels en fonction de ce que l’utilisateur sélectionne. Configuration des options de menu pour la surveillance automatique permet à une organisation de fournir un guide interactif pour obtenir la personne vers leur destination plus rapide, sans passer par un opérateur humain pour traiter les appels entrants. Invites de menu peuvent être créés à l’aide de conversion vocale du texte (généré par le système à l’écran) ou en téléchargeant un fichier audio qui a été enregistré. La reconnaissance vocale utilise les commandes vocales pour naviguer de mains-libres, mais les personnes se connectant pouvez également utiliser le pavé numérique du téléphone pour naviguer dans les menus.
   
-Touches 0 à 9 peuvent être affectées aux **Options de Menu** dans un standard automatique à l'aide de la Skype centre d'administration entreprise. Différents jeux d'options de menu peuvent être créés pour les heures de bureau et après les heures, et vous pouvez activer ou désactiver la numérotation par nom dans les **Options du Menu**. Touches peuvent être mappées pour transférer les appels vers :
+Touches 0 à 9 peuvent avoir sur **Les Options de Menu** dans un standard automatique à l’aide de la Skype pour le centre d’administration Business. Différents jeux d’options de menu peuvent être créés pour les heures de bureau et après les heures, et vous pouvez activer ou désactiver la numérotation par un nom dans **Menu Options**. Les clés peuvent être mappés pour transférer les appels vers :
   
-- Un opérateur qui est mappé principales 0 par défaut. Toutefois, il peut être réaffecter à une autre touche ou supprimé du menu.
+- Un opérateur qui est mappé à la clé 0 par défaut. Toutefois, il peut être réaffecté à n’importe quelle autre touche ou retiré du menu.
     
-- Une file d'attente de l'appel.
+- Une file d’attente de l’appel.
     
-- Un autre standard automatique. Menus à plusieurs niveaux peuvent être configurés en pointant une **Option de Menu** de standard un automatique sur un autre standard automatique avec son propre jeu d'Options de Menu qui s'appelle un standard automatique « imbriquée ».
+- Un autre standard automatique. Menus multi-niveaux permet de configurer en pointant une **Option de Menu** dans la surveillance un automatique à un autre standard automatique avec son propre jeu d’Options de Menu, qui est appelé une surveillance automatique « imbriquées ».
     
-- Un Skype pour entreprise Online utilisateur disposant d'un **Système téléphonique** licence qui est activé pour voix entreprise ou leur a l'appel d'offre affecté. Vous pouvez le configurer vers le haut pour la personne appelant peut être envoyée vers la messagerie vocale. Pour ce faire, sélectionnez une **personne de votre société** et définissez les appels soient automatiquement transférés directement vers la messagerie vocale de cette personne.
+- Un Skype pour Business Online utilisateur qui dispose d’un **Système téléphonique** de licence qui est activé de Voix Entreprise ou a les Plans d’appel attribuée. Vous pouvez configurer afin que la personne l’appel peut être envoyée à la messagerie vocale. Pour ce faire, sélectionnez une **personne dans votre entreprise** et définir les appels de cette personne à être transféré directement vers la messagerie vocale.
     
     > [!NOTE]
-    > Les utilisateurs hébergés en local à l'aide de Lync Server 2010 ne peuvent pas être utilisé dans les **Options de Menu**. 
+    > Les utilisateurs hébergés sur site à l’aide de Lync Server 2010 ne peut pas être utilisé dans les **Options de Menu**. 
   
-Le nom de chaque option de menu devient un mot clé reconnaissance vocale si la reconnaissance vocale a été activée. Par exemple, appelants pouvant dites « Un » pour sélectionner l'option de menu mappée à clé 1, ou qu'ils peuvent simplement dites « Ventes » pour sélectionner l'option de menu même nommée « Ventes ».
+Le nom de chaque option de menu devient un mot clé de la reconnaissance vocale si la reconnaissance vocale n’a pas été activée. Par exemple, appelants peuvent dire "Un" pour sélectionner l’option de menu mappée à la clé 1, ou ils peuvent dire « Ventes » pour sélectionner la même option de menu nommée « Sales ».
   
-Pour configurer un standard automatique et des options de menu, cliquez [Configurer un standard automatique de système téléphonique](set-up-a-phone-system-auto-attendant.md).
+Pour configurer un standard automatique et les options de menu, consultez [configurer une surveillance automatique de système téléphonique](set-up-a-phone-system-auto-attendant.md).
   
-### Obtention de numéros de service pour un standard automatique
+### <a name="getting-service-numbers-for-an-auto-attendant"></a>Obtention de numéros de service pour un standard automatique
 
-Avant de pouvoir créer et configurer vos standards automatiques, vous devrez obtenir ou transférer votre numéro payant existant ou un service gratuit nombres. Une fois que vous obtenez le numéro payant ou gratuit service des numéros de téléphone, ils seront affichent dans la **Skype centre d'administration entreprise** > **vocale** > **numéros de téléphone** et l'est de **type numérique** répertorié être répertoriée en tant que **Service - gratuit**. Pour obtenir vos numéros de service, voir les [Obtention des numéros de téléphone des services Skype Entreprise](getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md) ou, si vous souhaitez transférer et numéro de service existant, voir[Transférer des numéros de téléphone vers Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
+Avant de pouvoir créer et paramétrer des surveillances automatiques de votre, vous devrez obtenir ou transférer votre numéro payant existant ou un service gratuit numéros. Une fois que vous obtenez le numéro payant ou les numéros de téléphone de service gratuit, ils apparaîtront dans le **Skype pour le centre d’administration Business** > **vocale** > **les numéros de téléphone**et la volonté de **type nombre** répertorié comme **Service - numéro gratuit **. Pour obtenir vos numéros de service, voir [numéros de téléphone de service de mise en route pour Skype pour les entreprises et les équipes de Microsoft](getting-service-phone-numbers.md) ou, si vous souhaitez de transfert et le numéro de service existant, consultez le [transfert vers Office 365, les numéros de téléphone](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
-> Si vous êtes en dehors des États-Unis, vous ne pouvez pas utiliser le Skype centre d'administration entreprise pour obtenir des numéros de service. Accédez [Gérer les numéros de téléphone pour votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) à la place pour apprendre à le faire.
+> Si vous résidez hors des États-Unis, vous ne pouvez pas utiliser le Skype pour Business admin center pour obtenir les numéros de service. Allez [Gérer les numéros de téléphone pour votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) à la place pour voir comment le faire.
   
-## Modification des ID de l'appelant de l'utilisateur pour être numéro de téléphone d'un appel la file d'attente
+## <a name="changing-the-users-caller-id-to-be-a-call-queues-phone-number"></a>Modification de l’ID de l’utilisateur appelant pour être le numéro de téléphone d’une file d’attente appel
 
-Vous pouvez protéger identité d'un utilisateur en modifiant leur ID d'appelant pour les appels sortants à appel en attente à la place en créant une stratégie à l'aide de l'applet de commande **New-CallingLineIdentity**.
+Vous pouvez protéger l’identité d’un utilisateur en modifiant à la place de leur ID de l’appelant pour les appels sortants d’une file d’attente de l’appel en créant une stratégie à l’aide de l’applet de commande **New-CallingLineIdentity** .
   
-Pour ce faire, exécutez :
+Pour ce faire, exécutez la commande :
   
 ```
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
-Ensuite, appliquer la stratégie à l'utilisateur à l'aide de l'applet de commande **Grant-CallingLineIdentity**. Pour ce faire, exécutez :
+Ensuite, appliquer la stratégie à l’utilisateur à l’aide de l’applet de commande **Grant-CallingLineIdentity** . Pour ce faire, exécutez la commande :
   
 ```
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-Vous pouvez obtenir plus d'informations sur la façon de modifier les paramètres d'ID de l'appelant dans votre organisation [Comment utiliser un ID d'appelant dans votre organisation](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
+Vous pouvez obtenir plus d’informations sur la façon de modifier les paramètres d’ID de l’appelant dans votre organisation, [ID de l’appelant utilisation dans votre organisation](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
   
-## Rubriques connexes
+## <a name="related-topics"></a>Rubriques connexes
+[Voici ce que vous obtenez avec système de téléphone dans Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Voici ce que vous obtenez avec système téléphonique dans Office 365](here-s-what-you-get-with-phone-system-in-office-365.md)
-  
-[Configurer l'appel d'offre](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
-  
-## 
-<a name="MT_Footer"> </a>
+[Numéros de téléphone de service lors de l’obtention de Skype pour les entreprises et les Teams Microsoft](getting-service-phone-numbers.md)
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
-
+[Pays et région de disponibilité pour les conférences Audio et les Plans d’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

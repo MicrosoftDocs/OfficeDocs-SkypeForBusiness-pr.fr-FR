@@ -1,45 +1,46 @@
 ---
-title: "Que dois-je indiquer dans le numéro de compte ?"
+title: "Que dois-je placer le numéro de compte ?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderAccountInfoAccountNumber
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 7c477cc4-78e7-4a1f-ac3c-ac63151f9cf7
-description: "See what you should put as an account number into Skype for Business, and where you can find that. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderAccountInfoAccountNumber
+ms.custom: Calling Plans
+description: "Voir ce que vous devez placer sous la forme d’un numéro de compte dans Skype pour les entreprises et où vous pouvez trouver que. "
+ms.openlocfilehash: 71a6661292d2af385b5102e8b4549d1ca399966d
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-should-i-put-in-for-the-account-number"></a>Que dois-je placer le numéro de compte ?
 
-# Que dois-je indiquer dans le numéro de compte ?
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
-  
-En règle générale, vous pouvez trouver le numéro de compte sur n'importe quel facture ou facture que vous avez à partir de votre fournisseur de services ou opérateur ou vous pouvez vous connecter au site Web de votre opérateur. Si vous ne connaissez pas le numéro de compte, vous pouvez contacter votre fournisseur de services ou carrier pour afficher cette liste.
+En général, vous pouvez trouver le numéro de compte sur une facture ou facture que vous avez votre fournisseur de services ou le transporteur, ou vous pouvez vous connecter au site Web de votre opérateur. Si vous ne connaissez pas le numéro de compte, vous pouvez contacter votre fournisseur de services ou le transporteur pour l’obtenir.
   
 > [!CAUTION]
-> Il est important que vous vérifiez que vous n'utilisez des espaces, des tirets ou des traits d'union lorsque vous entrez votre numéro de compte fournisseur ou carrier service. 
+>  Il est important de vous assurer que vous n’utilisez des espaces, des tirets ou des traits d’union lors de la saisie de votre numéro de compte de transporteur ou de fournisseur de service.
   
- **Pour obtenir des instructions étape par étape terminées, voir [Transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).**
-  
-## 
-<a name="MT_Footer"> </a>
+ **Pour des instructions complètes, voir [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md).**
 
 > [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
+> Si vous avez besoin obtenir des numéros de téléphone supplémentaires que cela, veuillez [contacter le support technique pour les produits d’entreprise - aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
-## Voir aussi
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Rubriques connexes
+[Transfert de questions courantes des numéros de téléphone](transferring-phone-numbers-common-questions.md)
 
-#### 
+[Différents types de numéros de téléphone utilisés pour les Plans d’appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
-  
-[Période de sortant gratuit de audio conférence](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
+
+[Skype pour Business Online : étiquette de décharge de responsabilité d’appel d’urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+
 

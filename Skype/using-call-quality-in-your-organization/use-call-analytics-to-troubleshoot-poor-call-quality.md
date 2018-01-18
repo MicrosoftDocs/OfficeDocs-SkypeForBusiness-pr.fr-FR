@@ -1,77 +1,76 @@
 ---
-title: "Qualité des appels utilisation appeler Analytique pour résoudre un problème Skype pour les entreprises"
+title: "Qualité des appels Analytique d’appeler utiliser pour résoudre les problèmes de mauvaise Skype pour entreprise"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 6/22/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.prod: office-online-server
-localization_priority: Normal
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
-description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Skype for Business calls and meetings."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Analytique d’appeler plus d’informations sur les périphériques, les réseaux et connectivité permet de résoudre les problèmes utilisateur Skype pour les réunions et les appels de l’entreprise."
+ms.openlocfilehash: 043c7eac6099f23217c155ad91bf818aa4e57892
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>Qualité des appels Analytique d’appeler utiliser pour résoudre les problèmes de mauvaise Skype pour entreprise
 
-# Qualité des appels utilisation appeler Analytique pour résoudre un problème Skype pour les entreprises
+Appel Analytique vous aide à résoudre les problèmes de connexion ou d’appel Skype pour les entreprises. Appel Analytique affiche des informations détaillées sur les périphériques, les réseaux et connectivité pour les appels et les réunions de chaque utilisateur de votre Skype pour le compte de l’entreprise. Si la génération, du site et client informations ont été ajoutées pour appeler Analytique, elle s’affiche également pour chaque appel et la session. Les informations disponibles via l’appel d’Analytique peuvent vous aider à déterminer pourquoi un utilisateur avait un appel médiocre ou expérience de la réunion. 
+  
+    > [!NOTE]
+    > Call Analytics is currently in preview. Text and images described here may not match your experience. 
+  
+## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>Résoudre les problèmes de qualité d’appel à l’aide d’appeler l’Analytique
 
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Le niveau d’autorisation qui vous sont assigné détermine le type d’informations que vous avez accès à en appeler un Analytique :
   
-Appel Analytique vous aide à résoudre les problèmes de connexion ou appel avec Skype Entreprise. Appel Analytique affiche des informations détaillées sur les appareils, réseaux et connectivité pour les appels et les réunions de chaque utilisateur dans votre compte Skype Entreprise. Si la génération, du site et du client informations ont été ajoutées à appeler Analytique, elle s'affiche également pour chaque appel et la session. Informations disponibles via un appel Analytique peuvent vous aider à identifier pourquoi un utilisateur a un appel mauvaise ou expérience de la réunion.
-  
-> [!NOTE]
-> Appel Analytique est en cours d'aperçu. Texte et les images ci-dessus peut ne pas correspondent votre expérience. 
-  
-## Résoudre les problèmes de qualité d'appel à l'aide d'appeler Analytique
-
-Le niveau d'autorisation attribué détermine le type d'informations que vous avez accès dans appeler Analytique :
-  
-- **Skype pour l'administrateur d'entreprise**: vous avez accès à toutes les informations dans appeler Analytique et dans le centre d'administration Skype Entreprise.
+- **Skype pour l’administration de l’entreprise**: vous avez accès à toutes les informations dans Analytique d’appel et le Skype pour le centre d’administration de l’entreprise.
     
-- **Agent de support technique avec des autorisations de niveau 1**: vous voyez un jeu de données dans appeler Analytique limité. Vous pouvez résoudre les appels, mais vous devez remettre les problèmes liés aux réunions à un agent de niveau 2. Vous n'avez pas l'accès au reste du centre d'administration Skype Entreprise.
+- **Agent de support technique avec les autorisations de niveau 1**: affiche un ensemble limité de données Analytique d’appeler. Vous pouvez résoudre des appels, mais vous allez remettre les problèmes liés aux réunions d’un agent de niveau 2. Vous n’avez pas accès au reste de la Skype pour le centre d’administration de l’entreprise.
     
-- **Agent de support technique avec des autorisations de niveau 2**: vous voir toutes les données disponibles dans appeler Analytique et peut vous aider à résoudre des problèmes d'appels et réunions. Vous n'avez pas l'accès au reste du centre d'administration Skype Entreprise.
+- **Agent de support technique avec les autorisations de niveau 2**: vous voir toutes les données disponibles dans l’appel d’Analytique et peut aider à résoudre les problèmes avec les appels et les réunions. Vous n’avez pas accès au reste de la Skype pour le centre d’administration de l’entreprise.
     
-Consultez votre administrateur Skype Entreprise si vous avez besoin d'aide avec des autorisations.
+Consultez votre Skype pour l’administration de l’entreprise, si vous avez besoin d’aide avec les autorisations.
   
- **Ouvrez Analytique appeler tant qu'agent de support technique de niveau 1 ou de niveau 2**
+ **Analytique d’appeler ouvert comme un agent de support technique de niveau 1 ou niveau 2**
   
-1. Accédez à [https://adminportal.services.skypeforbusiness.com](https://adminportal.services.skypeforbusiness.com)et puis connectez-vous avec votre nom d'utilisateur et mot de passe.
+1. Accédez au centre d’administration Office 365 et vous connecter en utilisant votre compte de travail ou l’école. Dans votre navigateur web passez à *https://adminportal.services.skypeforbusiness.com*.
     
-2. Dans la **Recherche de l'utilisateur**, commencez à taper le nom ou sip l'adresse de l'utilisateur dont vous souhaitez résoudre les problèmes, puis sélectionnez l'utilisateur dans la liste les appels.
+2. **Recherche d’utilisateur**, commencez à taper une adresse sip ou nom de l’utilisateur dont vous souhaitez résoudre les problèmes et puis sélectionnez l’utilisateur dans la liste les appels.
     
-    ![Screenshot of the User Search box of Call Analytics in the Skype for Business Admin Center.](../images/db52efc5-dac1-4623-ba72-41e42f0a0fb4.png)
+    ![Capture d’écran de la zone de recherche de l’utilisateur d’appeler l’Analytique dans le Skype pour Business Admin Center.](../images/db52efc5-dac1-4623-ba72-41e42f0a0fb4.png)
   
-3. Dans l' **historique des appels**, sélectionnez l'appel ou une réunion que vous souhaitez résoudre les problèmes.
+3. Dans l' **historique des appels**, sélectionnez l’appel ou la réunion que vous souhaitez dépanner.
     
-    ![Screenshot shows the call history page for a user with information such as the user's contact details, a summary of the 7-day quality and activity for meetings and calls, and an overview of dates and times, recipients, and audio quality,](../images/aef80e09-3b37-46db-8e7b-8cf71712349b.png)
+    ![Capture d’écran montre la page de l’historique des appels pour un utilisateur avec des informations telles que les informations de contact de l’utilisateur, un résumé de la qualité de 7 jours et l’activité pour les réunions et les appels et une vue d’ensemble des dates et des heures, les destinataires et qualité audio,](../images/aef80e09-3b37-46db-8e7b-8cf71712349b.png)
   
-4. Sélectionnez l'onglet **Avancé** et consultez ensuite les éléments jaunes et rouges qui indiquent des problèmes de connexion ou de qualité médiocre appel.
+4. Sélectionnez l’onglet **Avancé** , puis recherchez des éléments jaunes et rouges qui indiquent des problèmes de connexion ou de qualité médiocre d’appel.
     
-    Dans les détails de la session pour chaque appel ou une réunion, problèmes secondaires s'affichent en jaune. (Par exemple, dans l'écran suivant, les valeurs sont en jaune pour gigue moyenne, gigue Max et les taux de perte de paquets moyenne.) Si un élément est jaune, il est en dehors de la plage normale et il peut contribuer au problème, mais il n'est probablement pas la cause du problème principale. Si un élément est rouge, il s'agit d'un problème important, et il est probablement la principale raison de la qualité des appels mauvaise pour cette session.
+    Dans les détails de la session pour chaque appel ou d’une réunion, des problèmes mineurs s’affichent en jaune. (Par exemple, dans l’écran suivant, les valeurs sont en jaune pour variation moyenne, variation de Max et les taux de perte de paquet moyenne.) Si un élément est jaune, elle est en dehors de la plage normale et il contribue au problème, mais il n’est probablement pas la cause principale du problème. Si quelque chose est rouge, il s’agit d’un problème important, et il est probable que la cause principale de la qualité médiocre d’appel pour cette session. 
     
-    ![Screenshot shows the Advanced tab of a user's Call history with the Inbound network section expanded to reveal that the data for average jitter, max jitter, and average packet loss rate are shown in a yellow color, meaning they are minor issues.](../images/13f314ce-97cf-4bd0-a147-14b177d07040.png)
+    ![Capture d’écran montre l’onglet Avancé de l’historique des appels de l’utilisateur avec la section réseau entrant de développé pour afficher que les données de la variation moyenne, max variation et taux de perte de paquet moyenne sont affichées dans une couleur jaune, ce qui signifie qu’ils sont des problèmes mineurs.](../images/13f314ce-97cf-4bd0-a147-14b177d07040.png)
   
-Rarement, qualité des données de l'expérience n'est pas reçue pour les sessions audio. Souvent cela est dû à la suppression de l'appel et la connexion avec le client de fin. Dans ce cas, le niveau de session est « non disponible ».
+Dans de rares cas, la qualité de données d’expérience n’est pas reçue pour les sessions audio. Cela est souvent dû par la suppression de l’appel et la connexion avec le client termine. Lorsque cela se produit, la session est « non disponible ».
   
-Pour les sessions audio qui n'ont pas la qualité des données de l'expérience (QoE), le tableau suivant décrit les principaux problèmes éligibles une session en tant que « médiocre ».
+Pour les sessions audio qui n’ont pas la qualité de données d’expérience (QoE), le tableau suivant décrit les principaux problèmes qui relèvent d’une session en tant que « médiocre ».
   
-|**Problème**|**Domaine**|**Description**|
+|**Problème**|**Zone**|**Description**|
 |:-----|:-----|:-----|
-|Appeler le programme d'installation  <br/> |Session  <br/> |Le code d'erreur Ms-diagnostic 20 à 29 indique la configuration des appels a échoué. L'utilisateur n'a pas pu participer à l'appel ou une réunion.  <br/> |
-|Réseau audio classées mauvaise appel  <br/> |Session  <br/> |Problèmes de qualité de réseau se sont produites dans des zones tels que la perte de paquets, gigue, dégradation NMOS, RTT, ou masquées ratio. Pour plus d'informations sur les conditions d'utilisation pour classer les appels médiocres, voir ce [billet de blog Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
-|Périphérique ne fonctionne ne pas  <br/> |Appareil  <br/> | Un périphérique ne fonctionne pas correctement. Périphérique ne fonctionne ne pas ratios est les suivantes : <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
+|Appelez le programme d’installation  <br/> |Session  <br/> |Le code d’erreur Ms-diag 20 à 29 indique l’échec de la configuration de l’appel. L’utilisateur n’a pas pu joindre l’appel ou la réunion.  <br/> |
+|Réseau audio classées appel médiocre  <br/> |Session  <br/> |Problèmes de qualité de réseau ont été rencontrées dans les domaines de gigue, perte de paquets, de dégradation NMOS, RTT, ou masquées de rapport. Pour plus d’informations sur les conditions utilisées pour classifier les appels médiocres, consultez ce [blog Microsoft valider](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
+|Périphérique ne fonctionne ne pas  <br/> |DISPOSITIF  <br/> | Un périphérique ne fonctionne pas correctement. Périphérique ne fonctionne ne pas ratios est les suivantes : <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Rubriques connexes
+[Paramétrer Skype pour Analytique d’appeler commerciale](set-up-call-analytics.md)
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
-## Voir aussi
-<a name="MT_Footer"> </a>
-
-#### 
-
-[Configurer Skype pour les entreprises appeler Analytique](set-up-skype-for-business-call-analytics.md)
+[Quelle est la différence entre appeler une Analytique et appelez le tableau de bord qualité ?](difference-between-call-analytics-and-call-quality-dashboard.md)
 

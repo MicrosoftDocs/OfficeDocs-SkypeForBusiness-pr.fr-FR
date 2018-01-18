@@ -2,35 +2,41 @@
 title: "Obtention de numéros de téléphone pour Skype Entreprise Online"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/13/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 91f2d947-45fc-4fab-bd8b-2e313531c477
-
-description: "Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
+description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
+ms.openlocfilehash: 9e6dcc33b2a9bf57282c309bbfa065a8204e103e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="getting-phones-for-skype-for-business-online"></a>Obtention de numéros de téléphone pour Skype Entreprise Online
 
-# Obtention de numéros de téléphone pour Skype Entreprise Online
+Skype pour Business Online qualifie et prend en charge les téléphones de bureau pour les utilisateurs qui bénéficient d’un téléphone traditionnel, plutôt que d’utiliser le Skype pour application métier. Cette rubrique couvre les téléphones et les versions de microprogramme pris en charge pour une utilisation dans Skype pour entreprise en ligne et d’autres informations qui peuvent vous aider lorsque vous paramétrez des téléphones portables dans votre organisation.
+  
+Pour obtenir les dernières mises à jour et la plupart des informations à jour sur les périphériques pris en charge, consultez le [Skype pour catalogue de dispositif de professionnels](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+  
+## <a name="supported-phones"></a>Téléphones pris en charge
 
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'[avertissement](91f2d947-45fc-4fab-bd8b-2e313531c477.md#MT_Footer).  
+Pour Skype pour les utilisateurs professionnels en ligne, vous pouvez choisir parmi plusieurs modèles dans le *certifié pour Skype pour les téléphones de l’entreprise* et téléphones Lync Phone Edition (LPE) en cours d’exécution dans le Skype pour catégorie Business Online dans la [Skype pour dispositif d’entreprise Catalogue](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
-Skype entreprise Online étant et prend en charge les téléphones de bureau pour les utilisateurs qui souhaitent bénéficient d'un téléphone traditionnel, plutôt que d'utiliser la Skype entreprise App. Cette rubrique couvre les téléphones et les versions de microprogramme pris en charge pour une utilisation dans Skype entreprise Online et autres informations qui peuvent vous aider à lorsque vous configurez téléphones de votre organisation.
+Microsoft est en partenariat et en étroite collaboration avec Polycom, Yealink et AudioCodes de développer et de certifier un large éventail de périphériques par le biais du programme de téléphone IP (PIP) partenaire pour le système de téléphone dans Office 365 et Skype pour Business Server.
   
-Pour obtenir les dernières mises à jour et la plupart des informations récentes sur les appareils mobiles pris en charge, voir la [Skype pour les entreprises appareil Catalogue](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
-  
-## Téléphones pris en charge
-
-Pour Skype pour les utilisateurs professionnels en ligne, vous pouvez choisir parmi plusieurs modèles au sein de la  *certifié pour Skype pour les téléphones Business*  et téléphones exécutant Lync Phone Edition (LPE) répertorié sous la Skype entreprise Online catégorie dans la[Skype pour les entreprises APPAREIL Catalogue](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
-  
-Microsoft est un partenariat et en étroite collaboration avec Polycom Yealink et AudioCodes pour développer et certifier un large éventail de périphériques via le programme de téléphone IP (PIP) partenaire pour le système téléphonique dans Office 365 et Skype entreprise Server.
-  
-Lors de la commande Nouveau téléphones pour Skype entreprise, il est important de téléphones dotés de l'  *ID de produit approprié*  . Ces ID de produit garantit que les téléphones que vous recevez ont la Skype entreprise Online version qualifiée déjà installé.
+Lors de la commande Nouveau téléphones pour Skype pour les entreprises, il est important de téléphones dotés de l' *ID de produit de droite*. Ces ID de produit garantit que les téléphones que vous recevez ont le Skype pour Business Online version qualifiée est déjà installée.
   
 |||
 |:-----|:-----|
@@ -39,18 +45,18 @@ Lors de la commande Nouveau téléphones pour Skype entreprise, il est important
 |Yealink  <br/> |SIP-TXXG Édition Skype Entreprise  <br/> |
 |AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
    
-Pour plus de détails sur les téléphones Polycom, reportez-vous à la page [Voice Solutions for Microsoft](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.mdl).
+Pour plus de détails sur les téléphones Polycom, reportez-vous à la page [Voice Solutions for Microsoft](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
   
-Pour plus d'informations sur les téléphones Yealink, voir [Skype pour les téléphones IP Business](http://www.yealink.com/solution_7.mdl)
+Pour plus de détails sur les téléphones de Yealink, consultez [Skype pour les téléphones IP Business](http://www.yealink.com/products_top_2.html)
   
-Pour plus d'informations sur les téléphones AudioCodes, voir [Skype pour les téléphones IP entreprise](http://www.audiocodes.com/products/skype-for-business-compatible-ip-phone).
+Pour plus de détails sur les téléphones de AudioCodes, consultez [Skype pour les téléphones IP Business](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
-> Lync Phone Edition est pris en charge avec Skype entreprise Online. Prise en charge standard de plateforme LPE terminé avril/10/2014, avec prise en charge étendue jusqu'à avril/11/2023 pour aligner sur la politique de support de Lync Server 2013. Pour plus d'informations sur le cycle de vie LPE, voir [Politique de support Microsoft](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) . Modèles de Lettrine LPE ne sont pas pris en charge avec Skype entreprise Online.
+> Lync Phone Edition est pris en charge avec Skype pour l’activité en ligne. Le support standard de plate-forme LPE a pris fin en avril/10/2014, avec une prise en charge étendue jusqu’au 11/avril/2023 pour s’aligner avec le cycle de vie du support produit de Microsoft Lync Server 2013. Consultez la [Politique de support Microsoft](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) pour plus d’informations sur le cycle de vie LPE. Modèles de LPE CAP ne sont pas pris en charge avec Skype pour l’activité en ligne.
   
-## Microprogrammes pris en charge
+## <a name="supported-firmware"></a>Microprogrammes pris en charge
 
-Il s'agit de la version logicielle minimale requise pour les téléphones pris en charge pour l'utiliser avec un système téléphonique dans Office 365 :
+Il s’agit de la version logicielle minimale requise pour les téléphones pris en charge travailler avec un système téléphonique dans Office 365 :
   
 ||||
 |:-----|:-----|:-----|
@@ -63,23 +69,23 @@ Il s'agit de la version logicielle minimale requise pour les téléphones pris e
 > [!NOTE]
 > Les téléphones Lync Phone Edition (LPE) configurés pour votre déploiement local doivent être mis à jour avec la version minimale ou ultérieure du microprogramme avant la migration des utilisateurs vers Skype Entreprise Online. Si vous migrez vos utilisateurs du déploiement local vers Skype Entreprise Online avant de mettre à jour le microprogramme sur les téléphones, ces utilisateurs ne pourront pas se connecter à Skype Entreprise Online avec leurs téléphones. 
   
-## Licences requises
+## <a name="required-licenses"></a>Licences requises
 
-Skype entreprise Online ne nécessite une licence Microsoft supplémentaire autre que les licences utilisateur. Pour en savoir plus sur les licences utilisateur requise, voir [Skype pour les entreprises et Microsoft Teams module complémentaire licences](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Skype pour Business Online ne nécessite pas une licence Microsoft supplémentaire autres que les licences utilisateur. Pour en savoir plus sur les licences utilisateur, voir [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestionnaire de licences](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-Le fabricant de gestion des licences de modèles peut-être varier entre ouvrir SIP et Skype pour microprogramme entreprise certifiés. Si vous soyez réaffectation un modèle certifié avec un microprogramme SIP ouvert, vous devez vérifier la configuration requise de licence microprogramme auprès du fabricant.
+Modèles de licence des fabricant peuvent varier entre ouvrir SIP et Skype pour obtenir un microprogramme certifiés de l’entreprise. Si vous sont réaffectation un modèle certifié avec un firmware SIP ouvert, vous devez vérifier les conditions de licence du firmware avec le fabricant.
   
-## Ensemble des fonctionnalités pour téléphones connectés Skype Entreprise Online
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>Ensemble des fonctionnalités pour téléphones connectés Skype Entreprise Online
 
-Pour les fonctionnalités de périphérique complet et fonctionnalités, vérifiez les guides fabricant.
+Pour des fonctions et des fonctionnalités de périphérique complet, consultez les guides du fabricant.
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Fonctionnalité** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
 |Se connecter à l'aide des informations de connexion de l'utilisateur  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Se connecter via un PC (couplage), Windows uniquement  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Se connecter à l'aide de (connexion Web)  <br/> > [!NOTE]> Consultez la matrice de prise en charge dans le guide de déploiement.           |Oui  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Participer à une réunion d'un simple clic  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
+|Se connecter à l'aide de (connexion Web)  <br/>  <br/> **Remarque :** Consultez la matrice de prise en charge dans le guide de déploiement.           |Oui  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Cliquez sur Joindre une réunion  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Cliquer pour marquer un numéro (couplage)  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Contrôles de réunion  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Messagerie vocale visuelle  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
@@ -87,24 +93,22 @@ Pour les fonctionnalités de périphérique complet et fonctionnalités, vérifi
 |Mise à jour de l'appareil  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Provisionnement intrabande  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |QoE  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Chargement de journaux  <br/> > [!NOTE]> Pour l'instant, tous les journaux sont téléchargés vers l'équipe de Support Microsoft uniquement ; client l'accès aux journaux d'appels téléphoniques ne sont pas encore disponibles.           |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
+|Chargement de journaux  <br/> <br/> **Remarque :** Actuellement, tous les journaux sont téléchargés à l’équipe de Support de Microsoft accès des clients aux journaux téléphoniques ne sont pas encore disponibles.           |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Authentification moderne  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Numéros d'urgence multiples  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |Oui  <br/> |
-|Intégration du calendrier Exchange*  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> > [!NOTE]> Requiert le service de connexion PC           |
+|Intégration du calendrier Exchange*  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> <br/> **Remarque :** Nécessite l’attache de PC           |
 |Intégration de la présence  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Annuaire d'entreprise  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Délégation  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Intégration de l'image des contacts  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |
 ||||||
    
-## Informations supplémentaires
-
+## <a name="what-else-should-you-know"></a>Informations supplémentaires
 Pour obtenir des instructions de configuration détaillées, consultez la page [Déploiement de téléphones Skype Entreprise Online](deploying-skype-for-business-online-phones.md).
-  
-## 
-<a name="MT_Footer"> </a>
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
+## <a name="related-topics"></a>Rubriques connexes
+[Numéros de téléphone de service lors de l’obtention de Skype pour les entreprises et les Teams Microsoft](../getting-service-phone-numbers.md)
 
+[Voici ce que vous obtenez avec système de téléphone dans Office 365](../here-s-what-you-get-with-phone-system.md)
+
+[Pays et région de disponibilité pour les conférences Audio et les Plans d’appel](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

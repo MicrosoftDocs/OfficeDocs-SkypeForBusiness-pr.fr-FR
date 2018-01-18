@@ -1,46 +1,48 @@
 ---
-title: "Gérer Skype pour les organisations entreprise Online à l'aide de la Skype pour Business Connector en ligne"
+title: "Gérer Skype pour les entreprises commerciales en ligne"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 5/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
 ms.assetid: c71f0d4d-5b6b-40ac-bc4a-6b97c05a121a
-description: "Use Windows PowerShell and the Get-CsTenant and Get-CsTenantLicensingConfiguration cmdlets to get information about your Skype for Business Online tenant."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: PowerShell
+description: "Utiliser Windows PowerShell et les applets de commande Get-CsTenant et Get-CsTenantLicensingConfiguration pour obtenir des informations sur votre Skype pour clients d’entreprise en ligne."
+ms.openlocfilehash: cab693fa153eae99ac605981112a30ec09f49920
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="manage-skype-for-business-online-organizations"></a>Gérer Skype pour les entreprises commerciales en ligne
 
-# Gérer Skype pour les organisations entreprise Online à l'aide de la Skype pour Business Connector en ligne
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Vous trouverez des informations sur votre Skype pour clients d’entreprise en ligne à l’aide des applets de commande **Get-CsTenant** et **Get-CsTenantLicensingConfiguration** .
   
-Vous trouverez des informations à propos de votre client Skype Entreprise Online en utilisant les applets de commande **Get-CsTenant** et **Get-CsTenantLicensingConfiguration**.
-  
-## Gérer les Skype pour les clients entreprise Online
+## <a name="manage-skype-for-business-online-tenants"></a>Gérer Skype pour locataires Business en ligne
 
-Pour renvoyer des informations sur votre client Skype Entreprise Online, appelez l'applet de commande [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) sans paramètres supplémentaires.
+Pour retourner des informations sur votre Skype pour clients d’entreprise en ligne, appelez l’applet de commande [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) sans paramètres supplémentaires.
   
 ```
 Get-CsTenant
 ```
 
-Pour renvoyer simplement le client nom et l'ID, utilisez cette commande.
+Pour retourner uniquement les clients nom et ID, utilisez cette commande.
   
 ```
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-La valeur du paramètre  _TenantID_ est nécessaire lors de l'exécution des applets de commande tels que[Définir CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) et[Jeu CsTenantFederationConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849602).
+La valeur du paramètre _TenantID_ est obligatoire lors de l’exécution d’applets de commande [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) des [CsTenantFederationConfiguration de l’ensemble](https://technet.microsoft.com/en-us/library/jj994080.aspx).
   
-Pour rechercher des informations sur les informations relatives aux licences pour le client spécifié sont disponibles dans le centre d'administration Skype Entreprise Online, utilisez l'applet de commande [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .
+Pour savoir si les informations de licence pour le client spécifié sont disponibles dans le Skype pour Business Online Centre d’administration, utilisez l’applet de commande [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .
   
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
-
+## <a name="related-topics"></a>Rubriques connexes
+[Configurer votre ordinateur pour Skype pour la gestion d’entreprise en ligne à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

@@ -2,27 +2,33 @@
 title: "Activer ou désactiver les commentaires client sur Skype Entreprise"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 35562b48-1da1-4081-8a3a-033d0f1986b2
-description: "Cette fonctionnalité est en aperçu pour le moment et pourrait être modifié à sa sortie ou lors d'une mise à jour."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Vous pouvez activer votre Skype pour les utilisateurs professionnels à utiliser le Skype intégrée pour outil de commentaires d’application métier pour permettre aux utilisateurs de signaler des problèmes et fournir des commentaires directement à Microsoft à propos de leur expérience."
+ms.openlocfilehash: 72a72a7ac71f3d6e7707ce2a70109b9432f034f7
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Activer ou désactiver les commentaires client sur Skype Entreprise
 
-# Activer ou désactiver les commentaires client sur Skype Entreprise
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
-  
- **Cette fonctionnalité est en aperçu pour le moment et pourrait être modifié à sa sortie ou lors d'une mise à jour.**
-  
-Vous pouvez activer votre Skype pour les utilisateurs professionnels à utiliser la Skype intégrée pour l'outil de commentaires de l'application métier pour permettre aux utilisateurs de signaler des problèmes et fournir des commentaires directement à Microsoft à propos de leur expérience.
+Vous pouvez activer votre Skype pour les utilisateurs professionnels à utiliser le Skype intégrée pour outil de commentaires d’application métier pour permettre aux utilisateurs de signaler des problèmes et fournir des commentaires directement à Microsoft à propos de leur expérience. 
   
 ![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
-Utilisez cet outil, un utilisateur pour copier les journaux de l'application sur leur appareil pour aider Microsoft à mieux identifier et résoudre les problèmes qu'ils peuvent avoir.
+À l’aide de cet outil, un utilisateur peut copier les journaux de l’application sur leur périphérique pour aider Microsoft à mieux étudier et résoudre les problèmes qu’ils pourraient avoir. 
   
 ![Skype for Business client reporting.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
@@ -30,10 +36,10 @@ Vous pouvez également utiliser le paramètre  _EnableOnlineFeedbackScreenshot_,
   
 ![Skype for Business client reporting form.](../images/d859578d-8116-4d4b-a08f-c0cae28b8b76.png)
   
-> [!SECURITY NOTE]
-> Les journaux collectées par l'outil de commentaires de l'application seront stockés pour un maximum de 90 jours aux États-Unis pendant le problème est en cours d'étude. Pour cette raison, n'activez cet outil de commentaires si cela ne respecte pas la règle de protection des données de votre organisation. 
+> [!IMPORTANT]
+> Les journaux collectées par l’outil d’évaluation de l’application seront stockées pour un maximum de 90 jours aux États-Unis pendant le problème est en cours d’étude. De ce fait, n’activez cet outil d’évaluation si cela enfreint la règle de protection des données de votre organisation. 
   
-## Vérifier et démarrer Windows PowerShell
+## <a name="verify-and-start-windows-powershell"></a>Vérifier et démarrer Windows PowerShell
 
 - **Vérifiez que vous exécutez la version 3.0 ou une version ultérieure de Windows PowerShell**
     
@@ -45,51 +51,33 @@ Vous pouvez également utiliser le paramètre  _EnableOnlineFeedbackScreenshot_,
     
 4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
     
-    Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
     
 - **Démarrez une session Windows PowerShell**
     
-1. Dans le **menu Démarrer**, recherchez **Windows PowerShell**.
+1. À partir du **Menu Démarrer**de > **de Windows PowerShell**.
     
 2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
     
     > [!NOTE]
     > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
-  
 > 
   ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
   ```
-
-> 
-  ```
-  $credential = Get-Credential
-  ```
-
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
-  Import-PSSession $session
-  ```
-
-    Pour plus d'informations sur le démarrage de Windows PowerShell, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou[Connexion à Skype Entreprise Online à l'aide de Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+Pour plus d'informations sur le démarrage de Windows PowerShell, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou[Connexion à Skype Entreprise Online à l'aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
-## Activer l'outil de commentaires client de l'application pour tous les utilisateurs au sein de votre organisation
+## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>Activer l'outil de commentaires client de l'application pour tous les utilisateurs au sein de votre organisation
 
-Pour activer les commentaires de création de rapports pour les utilisateurs de votre organisation et lui permettre d'envoyer des captures d'écran de périphérique, exécutez :
-  
+Pour activer les commentaires pour les utilisateurs de votre organisation et leur permettre de faire des captures d’écran de périphérique, exécutez :
 > 
   ```
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true
-
   ```
-
-## Vous souhaitez en savoir plus sur Windows PowerShell ?
-
+## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 - Windows PowerShell permet de gérer les utilisateurs et ce qu'ils sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
@@ -103,11 +91,8 @@ Pour activer les commentaires de création de rapports pour les utilisateurs de 
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
-## 
-<a name="MT_Footer"> </a>
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
+## <a name="related-topics"></a>Rubriques connexes
+[Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
+[Permettent d’ajouter des contacts de Skype Skype pour les utilisateurs professionnels](let-skype-for-business-users-add-skype-contacts.md)

@@ -1,143 +1,146 @@
 ---
-title: "Configurer et dépanner Skype pour la délégation entreprise Online"
+title: "Configurer et dépanner Skype pour la délégation d’entreprise en ligne"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/23/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: e676b911-5f82-41d8-b4ce-3d0d45c3cd04
-description: "Cet article explique comment configurer et dépanner Skype pour la délégation entreprise Online. Cet article vous donne des conseils pour les recommandations de configuration, les meilleures pratiques et les étapes de dépannage."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Cet article explique comment configurer et dépanner Skype pour la délégation d’activité en ligne. Cet article vous donne des conseils pour des recommandations sur le paramétrage, les meilleures pratiques et les étapes de dépannage."
+ms.openlocfilehash: bf3bf61a633366408e2584a89dfee9ad771ce78e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurer et dépanner Skype pour la délégation d’entreprise en ligne
 
-# Configurer et dépanner Skype pour la délégation entreprise Online
-
-> [!IMPORTANT]
-> Cet article a été traduit automatiquement, voir l'avertissement.  
+Cet article explique comment configurer et dépanner Skype pour la délégation d’activité en ligne. Cet article vous donne des conseils pour des recommandations sur le paramétrage, les meilleures pratiques et les étapes de dépannage.
   
-Cet article explique comment configurer et dépanner Skype pour la délégation entreprise Online. Cet article vous donne des conseils pour les recommandations de configuration, les meilleures pratiques et les étapes de dépannage.
-  
-## Instructions et configuration requise
+## <a name="guidelines-and-requirements"></a>Instructions et conditions
 
-### Instructions pour la délégation
+### <a name="guidelines-for-delegation"></a>Instructions pour la délégation
 
-La configuration et la prise de délégation fonctionne correctement varie selon que vous les recommandations suivantes :
+Paramétrage et mise en route de la délégation fonctionne correctement dépendant de vous les recommandations suivantes :
   
-- Vous devez utiliser le Skype entreprise 2015 complète client avec les dernières mises à jour ou la Skype entreprise 2016 complète client.
+- Vous devez utiliser le Skype pour client complet d’entreprise 2015 avec les dernières mises à jour ou le Skype pour le client complet de 2016 de l’entreprise.
     
 - Vous devez utiliser le client Outlook 2013 avec les dernières mises à jour ou le client Outlook 2016.
     
-- Assurez-vous que la personne qui a délégué et ordinateurs délégué ont un profil de messagerie Outlook qui est le principal ou le profil par défaut. Ce profil de messagerie doit contenir qu'un seul compte.
+- Assurez-vous que la personne qui a délégué et délégué ordinateurs ont un profil de messagerie Outlook est le principal ou le profil par défaut. Ce profil de messagerie doit contenir qu’un seul compte.
     
-- Skype entreprise pour la personne qui a délégué et le délégué doit être utilisateurs en ligne. En outre, les boîtes aux lettres Exchange Server pour chaque compte doit être en ligne ou tous deux être en local.
+- Skype pour les entreprises de la personne qui a délégué et du délégué doit être des utilisateurs en ligne. En outre, les boîtes aux lettres Exchange Server pour chaque compte doit soit tous les deux être en ligne ou sur site.
     
-- La personne qui a délégué et le délégué doivent être à l'aide de la même version principale d'Outlook.
+- La personne qui a délégué et le délégué doivent utiliser la même version principale de Microsoft Outlook.
     
-- La valeur d'attribut **EnableExchangeDelegateSync** doit être définie sur **true** dans la stratégie client. Vous pouvez vérifier ce paramètre en exécutant l'applet de commande **Get-CSClientPolicy** dans le Skype entreprise Online PowerShell module.
+- La valeur de l’attribut **EnableExchangeDelegateSync** doit être définie à **true** dans la stratégie du client. Vous pouvez vérifier ce paramètre en exécutant l’applet de commande **Get-CSClientPolicy** dans le Skype pour module de Business Online PowerShell.
     
-- La personne qui a délégué et le délégué doivent être connectés à Skype entreprise et Outlook en même temps sur différents postes de travail.
+- La personne qui a délégué et le délégué doivent être connectés à Skype pour les entreprises et Outlook en même temps sur les stations de travail différentes.
     
-- Boîtes aux lettres partagées ne sont pas pris en charge pour Skype entreprise Online délégation. C'est parce que la boîte aux lettres partagée n'a pas la liste de contrôle d'accès **sendonbehalf** (et).
+- Boîtes aux lettres partagées ne sont pas pris en charge pour Skype pour la délégation d’activité en ligne. C’est parce que la boîte aux lettres partagée n’a pas la liste de contrôle d’accès (ACL) **sendonbehalf** .
     
-### Skype pour la prise en charge de la version entreprise client
+### <a name="skype-for-business-client-version-support"></a>Skype pour la prise en charge de la version Business client
 
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
-|**Lync/Skype entreprise simple**|
-|:-----|
-|**Skype Entreprise 2015**|
-|:-----|
-|**Skype Entreprise 2016**|
-|:-----|
+|**Lync/Skype pour Client de base d’entreprise**| Non pris en charge |Non pris en charge
+|**Skype pour entreprise 2015**|Pris en charge| Pris en charge|
+|**Skype pour entreprise 2016**|Pris en charge| Pris en charge|
+
    
-### Conditions de licence
+### <a name="licensing-requirements"></a>Conditions de licence
 
 **Scénario de licence entreprise E3**
 
-|****Licence****|****Clients****|****Remarques****|
+|**Licence**|**Clients**|**Remarques**|
 |:-----|:-----|:-----|
-|Entreprise E3  <br/> |Lync 2013 (Skype entreprise 2015) utilisé avec Outlook 2013 ou Outlook 2016  <br/> Skype pour 2016 entreprise utilisée avec Outlook 2013 ou Outlook 2016  <br/> |Skype entreprise base client non prises en charge la délégation.  <br/> Pour les clients Mac, vous pouvez déléguer des appels, mais pas dans les réunions.  <br/> |
-|Entreprise E3 avec Office 365 téléphone système + xCalling Office 365 Plan  <br/> |Lync 2013 (Skype entreprise 2015) utilisé avec Outlook 2013 ou Outlook 2016  <br/> Skype pour 2016 entreprise utilisée avec Outlook 2013 ou Outlook 2016  <br/> Lync pour Mac 2011  <br/> |Skype entreprise base client non prises en charge la délégation.  <br/> Pour les clients Mac, vous pouvez déléguer des appels, mais pas dans les réunions.  <br/> |
+|Entreprise E3  <br/> |Lync 2013 (Skype pour entreprise 2015) utilisé avec Outlook 2013 ou Outlook 2016  <br/> Skype pour 2016 Business utilisé avec Outlook 2013 ou Outlook 2016  <br/> |Skype pour client de base d’entreprise ne prend pas en charge la délégation.  <br/> Pour les clients Mac, vous pouvez déléguer des appels mais pas des réunions.  <br/> |
+|E3 Enterprise avec Office 365 téléphone système + d’Office 365, xCalling Plan  <br/> |Lync 2013 (Skype pour entreprise 2015) utilisé avec Outlook 2013 ou Outlook 2016  <br/> Skype pour 2016 Business utilisé avec Outlook 2013 ou Outlook 2016  <br/> Lync pour Mac 2011  <br/> |Skype pour client de base d’entreprise ne prend pas en charge la délégation.  <br/> Pour les clients Mac, vous pouvez déléguer des appels mais pas des réunions.  <br/> |
    
 **Scénario de licence entreprise E5**
 
-|****Licence****|****Clients****|****Remarques****|
+|**Licence**|**Clients**|**Remarques**|
 |:-----|:-----|:-----|
-|Entreprise E5  <br/> |Lync 2013 (Skype entreprise 2015) utilisé avec Outlook 2013 ou Outlook 2016.  <br/> Skype pour 2016 entreprise utilisée avec Outlook 2013 ou Outlook 2016  <br/> |Skype entreprise base client non prises en charge la délégation.  <br/> Pour les clients Mac, vous pouvez déléguer des appels, mais pas dans les réunions.  <br/> |
-|Entreprise E5 plus offre Office 365 pour appeler  <br/> |Skype entreprise pour Mac 2016  <br/> Lync 2013 (Skype entreprise 2015) utilisé avec Outlook 2013 ou Outlook 2016  <br/> Skype pour 2016 entreprise utilisée avec Outlook 2013 ou Outlook 2016  <br/> Lync pour Mac 2011  <br/> |Skype entreprise base client non prises en charge la délégation.  <br/> Pour les clients Mac, vous pouvez déléguer des appels, mais pas dans les réunions.  <br/> |
+|E5 de l’entreprise  <br/> |Lync 2013 (Skype pour entreprise 2015) utilisé avec 2016 d’Outlook ou d’Outlook 2013.  <br/> Skype pour 2016 Business utilisé avec Outlook 2013 ou Outlook 2016  <br/> |Skype pour client de base d’entreprise ne prend pas en charge la délégation.  <br/> Pour les clients Mac, vous pouvez déléguer des appels mais pas des réunions.  <br/> |
+|E5 de l’entreprise plus de Plan d’appel de Office 365  <br/> |Skype pour entreprise pour Mac 2016  <br/> Lync 2013 (Skype pour entreprise 2015) utilisé avec Outlook 2013 ou Outlook 2016  <br/> Skype pour 2016 Business utilisé avec Outlook 2013 ou Outlook 2016  <br/> Lync pour Mac 2011  <br/> |Skype pour client de base d’entreprise ne prend pas en charge la délégation.  <br/> Pour les clients Mac, vous pouvez déléguer des appels mais pas des réunions.  <br/> |
    
-## Configurer et vérifier la délégation
+## <a name="set-up-and-verify-delegation"></a>Permet de paramétrer et de vérifier la délégation
 
-Pour configurer Skype pour la délégation entreprise Online, procédez comme suit :
+Pour paramétrer Skype pour la délégation d’entreprise en ligne, procédez comme suit :
   
-### Pour les clients Windows
+### <a name="for-windows-clients"></a>Pour les clients Windows
 
- **Onglet de transfert d'appel**
+ **Onglet de transfert d’appel**
   
-1. Sélectionnez **Outils** > **Options** > **paramètres de transfert d'appel**.
+1. Sélectionnez **Outils** > **Options** > **appeler le transfert des paramètres**.
     
-2. Sélectionnez **Modifier mes membres délégués**.
+2. Sélectionnez **Modifier les membres de mon délégué**.
     
-3. Sélectionnez **Ajouter**, sélectionnez le délégué que vous souhaitez ajouter, puis **OK**.
+3. Sélectionnez **Ajouter**et sélectionnez le délégué que vous souhaitez ajouter puis sélectionnez **OK**.
     
- **Aucun onglet transfert d'appel**
+ **Aucun onglet transfert d’appel**
   
-1. Dans Outlook, sélectionnez **fichier** > **Paramètres du compte** > **Accès délégué** > **Ajouter**.
+1. Dans Outlook, sélectionnez le **fichier** > **Les paramètres du compte** > **Accès délégué** > **Ajouter**.
     
-2. Recherchez et ajoutez le nom de la personne qui va agir en tant que délégué.
+2. Recherchez, puis ajoutez le nom de la personne qui va être le délégué.
     
-3. Sélectionnez le menu **calendrier**, puis **éditeur (peut lire, créer et modifier des éléments)**.
+3. Sélectionnez le menu **calendrier** , puis sélectionnez **éditeur (peut lire, créer et modifier des éléments)**.
     
-### Pour les clients Mac - Lync
+### <a name="for-mac-clients---lync"></a>Pour les clients Mac - Lync
 
- **Onglet de transfert d'appel**
+ **Onglet de transfert d’appel**
   
-- Si le client ne possède un onglet de **Transfert d'appel** dont le lien **Modifier mes membres délégués** et que la personne qui a délégué se trouve sur un ordinateur Mac, la personne qui a délégué doit se connecter à un ordinateur fonctionnant sous Windows afin de configurer la délégation. C'est parce que les clients Mac ne peut pas faire connexions MAPI, et il s'agit d'une obligation d'établir Skype pour la délégation d'entreprise à partir d'Outlook.
+- Si le client n’a pas un onglet **Transfert d’appel** qui a le lien **Modifier les membres de mon délégué** et que la personne se trouve sur un ordinateur Mac, la personne doit vous connecter à un ordinateur fonctionnant sous Windows pour configurer la délégation. C’est parce que les clients Mac ne peut pas effectuer de connexions MAPI, et il s’agit d’une exigence pour établir Skype pour la délégation d’entreprise à partir d’Outlook.
     
-### Vérification de réussite
+### <a name="verify-success"></a>Vérifiez le succès
 
-Si le programme d'installation a réussi, le délégué doit voir que **vous avez été ajouté en tant que délégué pour < nom >** message et que la **personne dont je gère les appels** création du groupe. La personne qui a délégué doit s'afficher que le groupe **délégués** est créé.
+Si l’installation est réussie, le délégué doit s’afficher **que vous avez été ajouté en tant que délégué pour < nom >** message et que le groupe de **personnes je gérer les appels pour** est créé. La personne qui a délégué doit voir que le groupe de **délégués** est créé.
   
 > [!NOTE]
-> Autorisations de délégation s'affichent généralement dans les 30 minutes au processus d'installation. Toutefois, ce processus peut prendre jusqu'à 24 heures. 
+> Autorisations de délégation apparaissent généralement dans les 30 minutes au processus d’installation. Toutefois, ce processus peut prendre jusqu'à 24 heures. 
   
-## Résolution des problèmes
+## <a name="troubleshooting"></a>Identification et résolution des problèmes
 
-### Problèmes courants
+### <a name="common-issues"></a>Problèmes courants
 
-> **Problème 1** L'entrée de délégué continue à apparaître dans le groupe **personne dont je gère les appels** après que la personne qui a délégué a supprimé le délégué à partir du client Outlook.
+- > **Problème 1** L’entrée de délégué continue d’apparaître dans le groupe **I gérer les appels pour les personnes** après que la personne a retiré le délégué du client Outlook.
     
-    **Solution 1** Dans Skype entreprise, cliquez sur le délégué dans le groupe **délégués** et puis sélectionnez **Supprimer du groupe**.
+  - > **Résolution 1** Sur le Skype pour client d’entreprise, droit le délégué dans le groupe de **délégués** et sélectionnez **Supprimer du groupe**.
     
-> **Problème 2** Une fois l'accès délégué est accordé via le client Outlook, le groupe **personne dont je gère les appels** ni le message de confirmation s'affichent pour le délégué.
+- > **Problème 2** Une fois l’accès délégué est accordé via le client Outlook, le message de confirmation, ni le groupe **I gérer les appels pour les personnes** s’affichent pour le délégué.
     
-    **Résolution 2** Supprimer la délégation à partir du client Outlook, patientez environ 15 minutes pour la réplication, et ajoutez à nouveau le délégué.
+  - > **Résolution 2** Supprimer la délégation à partir du client Outlook, et attendre environ 15 minutes pour la réplication, puis ajoutez de nouveau le délégué.
     
-### Autres problèmes courants
+### <a name="other-common-issues"></a>Autres problèmes courants
 
-- Délégation ne fonctionne pas si le seuil de 25 personnes qui délèguent et 25 délégués est dépassé.
+- Délégation ne fonctionne pas si le seuil de personnes qui 25 délèguent et 25 délégués est dépassé.
     
-- La Skype entreprise base client n'est pas pris en charge.
+- Le Skype pour client de base d’entreprise n’est pas pris en charge.
     
     > [!NOTE]
-    > Si vous installez la Skype entreprise base client, il vous sera supprimer et rompre délégation. 
+    > Si vous installez le Skype pour client de base d’entreprise, il supprime et rompre la délégation. 
   
-- Si la valeur **Status MAPI** n'est pas **OK**, assurez-vous que les valeurs **SIP** et **SMTP** correspondent.
+- Si la valeur **d’État de MAPI** n’est pas **OK**, assurez-vous que les valeurs de **SIP** et **SMTP** correspondent.
     
     > [!NOTE]
-    > Il peut prendre plusieurs minutes pour que le statut MAPI à afficher en tant que **OK** une fois que vous commencez Skype entreprise et Outlook.
+    > Elle peut prendre plusieurs minutes pour que le statut MAPI à afficher comme **OK** une fois que vous démarrez pour la première fois Skype pour les entreprises et Outlook.
   
-- Création d'un groupe de sécurité et en ajoutant des autorisations de délégation pour ce groupe de sécurité n'est pas pris en charge.
+- Création d’un groupe de sécurité et d’ajout des autorisations de délégation pour ce groupe de sécurité n’est pas pris en charge.
     
-- MAPI n'est pas disponible. Voir [Erreur « MAPI non disponible » dans Skype entreprise 2016 client](https://support.microsoft.com/en-us/help/3147130).
+- MAPI n’est pas disponible. Voir [l’Erreur « MAPI non disponible » dans Skype pour client d’entreprise 2016](https://support.microsoft.com/en-us/help/3147130).
     
-- La boîte aux lettres Exchange Online n'est pas accessible par le biais du Skype entreprise. Si cela se produit, exécutez le [test de connectivité Outlook](https://testconnectivity.microsoft.com/) pour vous assurer qu'il passe.
+- La boîte aux lettres Exchange Online n’est pas accessible via le Skype pour client d’entreprise. Si cela se produit, exécuter le [test de connectivité Outlook](https://testconnectivity.microsoft.com/) afin de vous assurer qu’il passe.
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Rubriques connexes
+[Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **Avertissement traduction automatique**: cet article a été traduit par un ordinateur, sans intervention humaine. Microsoft propose cette traduction automatique pour offrir aux personnes ne maîtrisant pas l'anglais l'accès au contenu relatif aux produits, services et technologies Microsoft. Comme cet article a été traduit automatiquement, il risque de contenir des erreurs de grammaire, de syntaxe ou de terminologie.
-  
-
+[Permettent d’ajouter des contacts de Skype Skype pour les utilisateurs professionnels](let-skype-for-business-users-add-skype-contacts.md)
