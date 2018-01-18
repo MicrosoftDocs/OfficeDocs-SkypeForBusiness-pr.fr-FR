@@ -1,5 +1,5 @@
 ---
-title: "Disponibilité en Serbie"
+title: Availability in Serbia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,67 +18,67 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour la Serbie.
+description: Here are the Office 365 services for Skype for Business and Microsoft Teams available for Serbia.
 ms.openlocfilehash: a5d6fbd9bfe746709ea0c98d1e4df901ec623def
 ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/02/2018
 ---
-# <a name="availability-in-serbia"></a>Disponibilité en Serbie
+# <a name="availability-in-serbia"></a>Availability in Serbia
 
-[Recherche d’un autre pays ou une région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou en savoir plus sur la disponibilité de pays et de région pour les conférences Audio et les plans d’appel.
+[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour la Serbie.
+Here are the Office 365 services for Skype for Business and Microsoft Teams available for Serbia.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les conférences Audio n’est disponible à l’achat ?  <br/> |Oui  <br/> |
-|Numéros de téléphone sont automatiquement affectées pour les conférences Audio ?  <br/> |Non  <br/> |
-|Fonctionnalité de connexion à l’aide de l’appel de fonctionnalité m'  <br/> |Non disponibles  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Oui  <br/> |
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Non  <br/> |
+|Dial-out capability using the Call Me feature  <br/> |Non disponibles  <br/> |
    
-## <a name="phone-system"></a>Système de téléphone
+## <a name="phone-system"></a>Phone System
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Système de téléphone n’est disponible à l’achat ?  <br/> |Oui  <br/> |
-| Surveillances automatiques <br/> |Disponibles  <br/> |
-|Files d’attente de l’appel  <br/> |Disponibles  <br/> |
+|Is Phone System available for purchase?  <br/> |Oui  <br/> |
+| Auto attendants <br/> |Disponibles  <br/> |
+|Call queues  <br/> |Disponibles  <br/> |
 |Messagerie vocale  <br/> |Disponibles  <br/> |
    
-## <a name="calling-plans"></a>Plans d’appel
+## <a name="calling-plans"></a>Calling Plans
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Plans d’appel sont disponibles à l’achat ?  <br/> |Non  <br/> |
-|Minutes disponibles pour les Plans d’appel  <br/> |Non applicable  <br/> |
-|Peut effectuer des appels sortants ?  <br/> |Non applicable  <br/> |
+|Calling Plans are available to purchase?  <br/> |Non  <br/> |
+|Minutes available for Calling Plans  <br/> |Non applicable  <br/> |
+|Can make outbound calls to?  <br/> |Non applicable  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Numéro payant et numéros de téléphone gratuits pour les services
+## <a name="toll-and-toll-free-numbers-for-services"></a>Toll and toll-free numbers for services
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les majuscules ou les grandes villes, vous obtenez les numéros payants pour ?  <br/> |Non applicable  <br/> |
-|Sont des numéros payants disponibles ?  <br/> |Non  <br/> |
-|Sont des numéros gratuits disponibles ?  <br/> |Oui  <br/> |
+|What capitals or major cities can you get toll numbers for?  <br/> |Non applicable  <br/> |
+|Are toll numbers available?  <br/> |Non  <br/> |
+|Are toll-free numbers available?  <br/> |Oui  <br/> |
    
- Si vous voulez obtenir le numéro et les numéros de téléphone pour les conférences Audio, les standards automatiques et les files d’attente d’appel, voir [numéros de téléphone de service de mise en route pour Skype pour les entreprises et les équipes de Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+ If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Crédits de communication
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Crédits de Communications ne sont disponibles ?  <br/> |Oui  <br/> |
+|Are Communications Credits available?  <br/> |Oui  <br/> |
    
-Si vous souhaitez les définir, consultez [configurer les crédits de Communications pour votre organisation](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+If you want to set them up, see [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Numéros de téléphone de service lors de l’obtention de Skype pour les entreprises et les Teams Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Pays et région de disponibilité pour les conférences Audio et les Plans d’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 
 

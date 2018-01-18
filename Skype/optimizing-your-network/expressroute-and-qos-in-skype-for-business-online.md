@@ -145,59 +145,59 @@ Nous avons défini trois personnages pour Dewey Law LLC., ' Exécutif/partenaire
   
  **Les personnages et les profils d’utilisation (« Personnage » feuille de calcul - colonnes A à P)**
   
-|**Personnage**|**Messagerie instantanée/présence**|**P2P audio**|**Vidéo de P2P**|**Audio de la conférence**|**Conférence vidéo**|**Partage du bureau**|**Audioconférence**|**Lync 2010 RTV_Type**|**Remote Users**|**Lync 2013 stereo audio**|**Lync 2013 video quality**|**Comportement d’utilisateurs Lync 2013 pour la fenêtre de la vidéo P2P**|**Utilisation des vues multiples de Lync 2013**|
+|**Personnage**|**Messagerie instantanée/présence**|**P2P audio**|**Vidéo de P2P**|**Audio de la conférence**|**Conférence vidéo**|**Partage du bureau**|**Audioconférence**|**Lync 2010 RTV_Type**|**Utilisateurs distants**|**Audio stéréo de Lync 2013**|**Qualité de vidéo Lync 2013**|**Comportement d’utilisateurs Lync 2013 pour la fenêtre de la vidéo P2P**|**Utilisation des vues multiples de Lync 2013**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Direction / partenaire  <br/> |Élevée  <br/> |Moyenne  <br/> |Low  <br/> |Moyenne  <br/> |Moyenne  <br/> |Aucun  <br/> |Moyenne  <br/> |CAF  <br/> |0%  <br/> |0%  <br/> |Best  <br/> |Par défaut  <br/> |Par défaut  <br/> |
-|Associer / Paralegal  <br/> |Élevée  <br/> |Moyenne  <br/> |Low  <br/> |Moyenne  <br/> |Élevée  <br/> |Élevée  <br/> |Moyenne  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Moyenne  <br/> |Par défaut  <br/> |Par défaut  <br/> |
-|IT admins  <br/> |Élevée  <br/> |Moyenne  <br/> |Aucun  <br/> |Faible  <br/> |Aucun   <br/> |Aucun  <br/> |Moyenne  <br/> |CAF  <br/> |0%  <br/> |0%  <br/> |Moyenne  <br/> |Par défaut  <br/> |Par défaut  <br/> |
+|Direction / partenaire  <br/> |Élevée  <br/> |Moyenne  <br/> |Faible  <br/> |Moyenne  <br/> |Moyenne  <br/> |Aucun  <br/> |Moyenne  <br/> |CAF  <br/> |0%  <br/> |0%  <br/> |Meilleur  <br/> |Par défaut  <br/> |Par défaut  <br/> |
+|Associer / Paralegal  <br/> |Élevée  <br/> |Moyenne  <br/> |Faible  <br/> |Moyenne  <br/> |Élevée  <br/> |Élevée  <br/> |Moyenne  <br/> |CAF  <br/> |0%  <br/> |0%  <br/> |Moyenne  <br/> |Par défaut  <br/> |Par défaut  <br/> |
+|Administrateurs informatiques  <br/> |Élevée  <br/> |Moyenne  <br/> |Aucun  <br/> |Faible  <br/> |Aucun   <br/> |Aucun  <br/> |Moyenne  <br/> |CAF  <br/> |0%  <br/> |0%  <br/> |Moyenne  <br/> |Par défaut  <br/> |Par défaut  <br/> |
    
 Vous devez entrer les informations dans la table de la **Distribution des utilisateurs en positions et d’emplacements** ci-dessus dans la feuille de calcul « Sites » de la Lync 2010 et Calculatrice de bande passante 2013. Comme le nombre d’utilisateurs dans les bureaux régionaux est identique, ils sont définis pour un 'Site' et indiqués qu’il existait trois instances de celui-ci. A effectuer la même opération pour les succursales de grandes et petites il y a eu 24 à 50 utilisateurs dans les sites, respectivement.
   
-Après avoir spécifié les paramètres pour chaque personnage, vous devez entrer le nombre d’utilisateurs dans chaque personnage sur chaque site dans la feuille de calcul « Sites ». Le nombre total d’utilisateurs pour tous les sites est automatiquement mis à jour. Dans la mesure où les utilisateurs ne sont pas à l’emplacement d’Office 365, ils doivent tous être saisis dans les lignes « Succursales » de la feuille de calcul. The Lync 2010 and 2013 Bandwidth Calculator then populates the 'Best Effort Class', 'Data Traffic Class' and 'Real-time traffic class' columns in the 'WAN BW per QoS traffic class' table. This is shown in the data in the table below.
+Après avoir spécifié les paramètres pour chaque personnage, vous devez entrer le nombre d’utilisateurs dans chaque personnage sur chaque site dans la feuille de calcul « Sites ». Le nombre total d’utilisateurs pour tous les sites est automatiquement mis à jour. Dans la mesure où les utilisateurs ne sont pas à l’emplacement d’Office 365, ils doivent tous être saisis dans les lignes « Succursales » de la feuille de calcul. Le Lync 2010 et Calculatrice de bande passante 2013 remplit ensuite 'Meilleur Effort Class', 'Classe de trafic de données' et les 'classe de trafic en temps réel' colonnes de la table « BW WAN par classe de trafic QoS ». Cela est indiqué dans les données dans le tableau ci-dessous.
   
 > [!TIP]
->  The full spreadsheet also includes the maximum number of simultaneous sessions for each application, but we deleted those columns to save space.
+>  La feuille de calcul complète inclut également le nombre maximal de sessions simultanées pour chaque application, mais nous avons supprimé les colonnes pour économiser de l’espace.
   
- **Personas by site - ('Sites' Worksheet- Columns A, D, I and AI through AX)**
+ **Personnages par site - (« Sites » feuille de calcul - colonnes A, D, I et AI via AX)**
   
-|**Nom du site**|**Total Users in Site**|**Ce type de Sites total**|**Profil de l’utilisateur 1**|**L’utilisateur du profil 1**|**Profil de l’utilisateur 2**|**L’utilisateur du profil 2**|**User Profile 3**|**User's of Profile 3**|
+|**Nom du site**|**Nombre total d’utilisateurs dans le Site**|**Ce type de Sites total**|**Profil de l’utilisateur 1**|**L’utilisateur du profil 1**|**Profil de l’utilisateur 2**|**L’utilisateur du profil 2**|**Profil de l’utilisateur 3**|**L’utilisateur du profil 3**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Headquarters  <br/> |1070  <br/> |1  <br/> |Executive/Partner  <br/> |170  <br/> |Associate/Paralegal  <br/> |700  <br/> |Administrateurs informatiques  <br/> |200  <br/> |
+|Siège social  <br/> |1070  <br/> |1  <br/> |Exécutif/partenaire  <br/> |170  <br/> |Associer/Paralegal  <br/> |700  <br/> |Administrateurs informatiques  <br/> |200  <br/> |
 |Bureaux régionaux  <br/> |345  <br/> |3  <br/> |Exécutif/partenaire  <br/> |60  <br/> |Associer/Paralegal  <br/> |225  <br/> |Administrateur informatique  <br/> |60  <br/> |
-|Large branch offices  <br/> |70  <br/> |24  <br/> |Executive/Partner  <br/> |11  <br/> |Associate/Paralegal  <br/> |50  <br/> |IT admin  <br/> |9  <br/> |
-|Small branch offices  <br/> |36  <br/> |50  <br/> |Executive/Partner  <br/> |6  <br/> |Associate/Paralegal  <br/> |25  <br/> |IT admin  <br/> |1  <br/> |
+|Bureaux de succursales de taille importante  <br/> |70  <br/> |24  <br/> |Exécutif/partenaire  <br/> |11  <br/> |Associer/Paralegal  <br/> |50  <br/> |Administrateur informatique  <br/> |9  <br/> |
+|Petites succursales  <br/> |36  <br/> |50  <br/> |Exécutif/partenaire  <br/> |6  <br/> |Associer/Paralegal  <br/> |25  <br/> |Administrateur informatique  <br/> |1  <br/> |
    
  **Bande passante requise par l’application par site en Kbits/s (« Feuille de calcul Sites »-colonnes A et BQ par le biais de saut de ligne)**
   
-|**Site**|**Pic de SIP / bande passante de messagerie instantanée**|**Pic de bande passante Intersite homologue Audio**|**Pic de bande passante vidéo de poste Intersite**|**Peak Audio Conferencing bandwidth**|**Peak Video Conferencing bandwidth**|**Peak WAN Share bandwidth**|**Peak WAN bandwidth for PSTN Calls**|
+|**Site**|**Pic de SIP / bande passante de messagerie instantanée**|**Pic de bande passante Intersite homologue Audio**|**Pic de bande passante vidéo de poste Intersite**|**Pic de bande passante audioconférence**|**Pic de bande passante vidéo conférence**|**Pic de bande passante WAN partage**|**Pic de bande passante WAN pour les appels RTPC**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Headquarters  <br/> |1070  <br/> |525.30  <br/> |560.00  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |
-|Regional Offices  <br/> |345  <br/> |185.40  <br/> |560.00  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |
-|Large Branches  <br/> |70  <br/> |92.70  <br/> |560.00  <br/> |102.00  <br/> |600.00  <br/> |384.00  <br/> |216.30  <br/> |
-|Small Branches  <br/> |36  <br/> |119.40  <br/> |560.00  <br/> |76.50  <br/> |600.00  <br/> |384.00  <br/> |123.60  <br/> |
+|Siège social  <br/> |1070  <br/> |525.30  <br/> |560.00  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |
+|Bureaux régionaux  <br/> |345  <br/> |185.40  <br/> |560.00  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |
+|Branches de grande taille  <br/> |70  <br/> |92.70  <br/> |560.00  <br/> |102,00  <br/> |600,00 €  <br/> |384.00  <br/> |216.30  <br/> |
+|Petites succursales  <br/> |36  <br/> |119.40  <br/> |560.00  <br/> |76.50  <br/> |600,00 €  <br/> |384.00  <br/> |123.60  <br/> |
    
-Probably the most important columns in the spreadsheet are those that describe the WAN bandwidth by QoS class. This is shown in the table below. This data summarizes the information you will need to provide to the network service provider to order the access connection at each of your sites. When calculating total bandwidth, please remember to multiply the bandwidth for each type of branch sites by the number of sites of the same type. To connect with your ExpressRoute network services partner, you can see [Azure ExpressRoute]( https://go.microsoft.com/fwlink/?LinkId=690283).
+Probablement les colonnes les plus importantes dans la feuille de calcul sont celles qui décrivent la bande passante WAN par classe de qualité de service. Ceci est illustré dans le tableau ci-dessous. Ces données résume les informations que vous devez fournir au fournisseur de services réseau pour commander la connexion d’accès à chacun de vos sites. Lors du calcul de la bande passante totale, pensez à multiplier la bande passante pour chaque type de sites distants par le nombre de sites du même type. Pour vous connecter avec votre partenaire de services réseau ExpressRoute, vous pouvez voir [Azure ExpressRoute]( https://go.microsoft.com/fwlink/?LinkId=690283).
   
-It is very important that you don't exceed the bandwidth in the voice or 'Expedited Forwarding' (EF) class of service. A random set of packets will be discarded so rather than reducing the quality of a single call or group of calls, all of the calls in progress can be impacted. It is also important that only voice be marked with the DSCP for EF (i.e. DSCP = 46) or the voice queue could overflow when of non-voice traffic is added.
+Il est très important que vous ne dépassez pas la bande passante de la voix ou le « Expedited transfert » (EF) de classe de service. Un ensemble aléatoire de paquets est ignoré par conséquent, au lieu de réduire la qualité d’un appel unique ou d’un groupe d’appels, tous les appels en cours peuvent être affectées. Il est également important que les voix seulement soit marquée avec le DSCP pour EF (c'est-à-dire DSCP = 46) ou de la file d’attente de voix pourrait provoquer un dépassement lors de l’ajout d’un trafic non-voix.
   
 > [!TIP]
->  Again, while the EF class of service offers the best performance guarantee, if you exceed the defined bandwidth, any additional packets will immediately be discarded.
+>  Encore une fois, tandis que la classe EF de service offre la meilleure garantie de bonne exécution, si vous dépassez la bande passante définie, tous les paquets supplémentaires immédiatement seront ignorées.
   
- **Aggregate bandwidth per site by QoS traffic class - ('Sites' Worksheet- Columns A and ML through MR)**
+ **Bande passante globale par site par classe de trafic QoS - (« Sites » feuille de calcul - colonnes A et ML par résonance magnétique)**
   
-|**Nom du site**|**Classe de meilleur effort (DSCP 0)**|**Data traffic class (DSCP custom)**|**Real-time traffic class (DSCP 34, AF41)**|**Priority traffic class (DSCP 46, EF)**|
+|**Nom du site**|**Classe de meilleur effort (DSCP 0)**|**Classe de trafic de données (DSCP personnalisé)**|**Classe de trafic en temps réel (DSCP 34, AF41)**|**Classe de priorité du trafic (DSCP 46, EF)**|
 |:-----|:-----|:-----|:-----|:-----|
-|Headquarters  <br/> |0,00  <br/> |5764.80  <br/> |3200.00  <br/> |3953.10  <br/> |
-|Regional Offices  <br/> |0,00  <br/> |2033.60  <br/> |1880.00  <br/> |1336.50  <br/> |
+|Siège social  <br/> |0,00  <br/> |5764.80  <br/> |3200.00  <br/> |3953.10  <br/> |
+|Bureaux régionaux  <br/> |0,00  <br/> |2033.60  <br/> |1880.00  <br/> |1336.50  <br/> |
 |Branches de grande taille  <br/> |0,00  <br/> |486.40  <br/> |1160.00  <br/> |411.00  <br/> |
-|Small Branches  <br/> |0,00  <br/> |438.40  <br/> |1160.00  <br/> |319.50  <br/> |
+|Petites succursales  <br/> |0,00  <br/> |438.40  <br/> |1160.00  <br/> |319.50  <br/> |
    
 ### <a name="putting-your-plan-into-action"></a>Mettre votre projet en action
 
-We can calculate the total bandwidth that will traverse the WAN and the amount of bandwidth that will traverse ExpressRoute, using the bandwidth estimates from the **Per application Per site** table above. The portion of traffic that traverses ExpressRoute excludes the inter-site peer bandwidth.
+Nous pouvons calculer la bande passante totale qui va parcourir le réseau WAN et la quantité de bande passante ne parcourt pas ExpressRoute, à l’aide de la bande passante des estimations à partir de la table **par application et par site** ci-dessus. La partie du trafic qui traverse ExpressRoute exclut la bande passante entre les sites homologue.
 
  
-|**Site**|**Peak SIP / IM bandwidth**|**Peak Audio Conferencing bandwidth**|**Peak Video Conferencing bandwidth**|**Peak WAN Share bandwidth**|**Pic de bande passante WAN pour les appels RTPC**|**Nombre total de ExpressRoute<br/>le trafic par classe de site<br/>(c'est-à-dire total<br/>fois le nombre de sites)**|
+|**Site**|**Pic de SIP / bande passante de messagerie instantanée**|**Pic de bande passante audioconférence**|**Pic de bande passante vidéo conférence**|**Pic de bande passante WAN partage**|**Pic de bande passante WAN pour les appels RTPC**|**Nombre total de ExpressRoute<br/>le trafic par classe de site<br/>(c'est-à-dire total<br/>fois le nombre de sites)**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Siège social** <br/> |1,070  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |11361.80  <br/> |
 |**Bureaux régionaux** <br/> |345  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |8704.20  <br/> |
