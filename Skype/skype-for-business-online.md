@@ -1,10 +1,10 @@
 ---
-title: "Skype pour l’administration en ligne de Business"
-description: "Découvrez comment gérer Skype pour l’activité en ligne pour votre organisation."
+title: "Administration de Skype Entreprise Online"
+description: "Découvrez comment gérer Skype Entreprise Online pour votre organisation."
 services: skype-for-business-online-admin
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: 
 ms.service: skype-for-business-online-admin
@@ -12,15 +12,15 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: c7778d27290cbadc2e6bdbbae7f43442bf2d385d
-ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
-ms.translationtype: MT
+ms.openlocfilehash: 3de4ba1e928dfef92a259738507a94a279e9ca1e
+ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2017
+ms.lasthandoff: 01/23/2018
 ---
-# <a name="skype-for-business-online-admin"></a>Skype pour l’administration en ligne de Business
+# <a name="skype-for-business-online-admin"></a>Administration de Skype Entreprise Online
 
-Découvrez comment gérer Skype pour l’activité en ligne pour votre organisation.
+Découvrez comment gérer Skype Entreprise Online pour votre organisation.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -34,7 +34,7 @@ Découvrez comment gérer Skype pour l’activité en ligne pour votre organisat
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Mise en route avec Skype pour entreprise</h3>
+                        <h3>Prise en main de Skype Entreprise</h3>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@ Découvrez comment gérer Skype pour l’activité en ligne pour votre organisat
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Nous sommes là pour vous aider</h3>
+                        <h3>Nous sommes là pour vous aider !</h3>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@ Découvrez comment gérer Skype pour l’activité en ligne pour votre organisat
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Vous avez besoin d’aide pour vous connecter sur Skype pour les entreprises ?</h3>
+                        <h3>Avez-vous besoin d’aide pour vous connecter à Skype Entreprise ?</h3>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@ Découvrez comment gérer Skype pour l’activité en ligne pour votre organisat
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Résolution des problèmes liés à Skype Entreprise Online</h3>
+                        <h3>Résolution des problèmes liés à Skype Entreprise Online</h3>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@ Découvrez comment gérer Skype pour l’activité en ligne pour votre organisat
 
 ---
 
-<h2>Articles proposés</h2>
+<h2>Articles recommandés</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -125,7 +125,7 @@ Découvrez comment gérer Skype pour l’activité en ligne pour votre organisat
                 <div class="card">
                     <div class="cardText">
                         <h3>Audioconférence</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Conférence audio dans Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Gérer les paramètres de l’audioconférence pour mon organisation</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Questions courantes des conférences audio</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Comparaison de fournisseurs de conférence audio</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Si les conférences Audio est disponible dans votre pays/région</a></p>
+                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Audioconférence dans Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Gestion des paramètres d'audioconférence de mon organisation</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Questions fréquentes à propos de l'audioconférence</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Comparer les fournisseurs de service d'audioconférence</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Consulter la disponibilité de l'audioconférence dans votre pays/région</a></p>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@ Découvrez comment gérer Skype pour l’activité en ligne pour votre organisat
                 <div class="card">
                     <div class="cardText">
                         <h3>Configurer</h3>
-                        <p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">Configurer Skype Entreprise Online</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">Permettent d’ajouter des contacts de Skype Skype pour les utilisateurs professionnels</a></p>
+                        <p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">Configurer Skype Entreprise Online</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype</a></p>
                      </div>
                 </div>
             </div>
@@ -148,8 +148,8 @@ Découvrez comment gérer Skype pour l’activité en ligne pour votre organisat
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Licence de module complémentaire</h3>
-                        <p>Pour en savoir plus, reportez-vous à la rubrique <a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Conférence rendez-vous dans Office 365</a>.</p><p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits">Que sont les crédits de Communications ?</a></p>
+                        <h3>Licence de compléments</h3>
+                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Licences de compléments pour Skype Entreprise et Microsoft Teams</a></p><p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits">Qu'est-ce que les crédits de communication ?</a></p>
                     </div>
                 </div>
             </div>
@@ -160,8 +160,8 @@ Découvrez comment gérer Skype pour l’activité en ligne pour votre organisat
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Plans d’appel</h3>
-                        <p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365">Quels sont les Plans d’appel dans Office 365 ?</a></p><p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans">Configurer des forfaits d'appels</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Si l’appel de Plans sont disponibles dans votre pays/région</a></p>
+                        <h3>Offres d'appels</h3>
+                        <p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365">Qu'est-ce que les offres d'appels dans Office 365 ?</a></p><p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans">Configurer des offres d'appels</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Consulter la disponibilité des offres d'appels dans votre pays/région</a></p>
                     </div>
                 </div>
             </div>
@@ -172,8 +172,8 @@ Découvrez comment gérer Skype pour l’activité en ligne pour votre organisat
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Système de téléphone</h3>
-                        <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365">Quel est le système téléphonique dans Office 365 ?</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system">Voici ce que vous obtenez avec système de téléphone dans Office 365</a></p>
+                        <h3>Système téléphonique</h3>
+                        <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365">Qu'est-ce que le système téléphonique dans Office 365 ?</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system">Voici les avantages du système téléphonique dans Office 365</a></p>
                </div>
                 </div>
             </div>
@@ -184,8 +184,8 @@ Découvrez comment gérer Skype pour l’activité en ligne pour votre organisat
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Améliorer la qualité des appels et de la vidéo</h3>
-                        <p><a href="https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771">Résolution des problèmes de connexion dans Skype Entreprise</a></p><p><a href="https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc">Résolution des problèmes audio et vidéo dans Skype Entreprise</a></p><p><a href="https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802">Le réglage de Skype des performances commerciales en ligne</a></p>
+                        <h3>Améliorer la qualité de la vidéo et des appels</h3>
+                        <p><a href="https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771">Résolution des problèmes de connexion dans Skype Entreprise</a></p><p><a href="https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc">Dépannage audio et vidéo dans Skype Entreprise</a></p><p><a href="https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802">Régler les performances pour Skype Entreprise Online</a></p>
                     </div>
                 </div>
             </div>
