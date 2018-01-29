@@ -7,11 +7,11 @@ ms.date: 12/20/2017
 ms.topic: article
 ms.service: msteams
 description: "Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams"
-ms.openlocfilehash: b4335a9d3f85b00706b7f6d61c9b232f01193abe
-ms.sourcegitcommit: 18b1af39d6d2cd0e7f2d270dcd844e06c9075ae6
+ms.openlocfilehash: 32eb38ed3e90a3a57f789b2ba5c4566d2a52e115
+ms.sourcegitcommit: f332028d01a15272da0b09c6d751dbf227cb2d30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
   
@@ -52,6 +52,6 @@ Le tableau suivant présente les problèmes connus pour Microsoft Teams.
 |Impossible d'enregistrer la photo de profil  <br/> |Les utilisateurs ne peuvent pas enregistrer leur photo de profil lorsque la boîte aux lettres Exchange est hébergée sur site.  <br/> |Aucune solution.  <br/> |28.02.2017  <br/> |
 |Réunions non disponibles  <br/> |La fonctionnalité et l'icône Réunion ne sont pas disponibles lorsque la boîte aux lettres Exchange est hébergée sur site.  <br/> |Effectuez une mise à niveau vers Exchange 2016 CU3 ou une version suivante pour le déploiement sur site.  <br/> |28.02.2017  <br/> |
 |L'archivage des boîtes aux lettres de groupe (stockage supplémetaire) n'est pas activé.  <br/> |Dans le Centre de sécurité et conformité Office 365, les administrateurs généraux n'ont pas la possibilité d'activer l'archivage pour les boîtes aux lettres de groupe. Cela est possible uniquement pour les boîtes aux lettres utilisateur.  <br/> |Si la capacité de la boîte aux lettres de groupe est presque atteinte, prenez contact avec le support de Microsof Office pour augmenter la capacité.  <br/> |01.02.2017  <br/> |
-|Prise en charge du client web par Safari  <br/> |Les utilisateurs qui essayent d'ouvrir le client web de Microsoft Teams dans Safari sont redirigés pour télécharger le client de bureau. Microsoft étudie la prise en charge de Safari et communiquera les mises à jour au moyen de la Feuille de route d'Office 365.  <br/> |Utilisez les navigateurs pris en charge : Microsoft Edge 12+, Internet Explorer 11+, Firefox 55+ et Chrome 51.0+.  <br/> |02.11.2016  <br/> |  
+|Prise en charge du client web par Safari  <br/> |Les utilisateurs qui essayent d'ouvrir le client web de Microsoft Teams dans Safari sont redirigés pour télécharger le client de bureau. Microsoft étudie la prise en charge de Safari et communiquera les mises à jour au moyen de [la Feuille de route de Teams](http://aka.ms/TeamsRoadmap).  <br/> |Utilisez les navigateurs pris en charge, qui incluent : Internet Explorer 11, Microsoft Edge, la dernière version de Chrome et la dernière version de Firefox.  <br/> |02.11.2016  <br/> |  
 |Des membres de l'équipe ne peuvent pas être contactés pour des réunions ponctuelles.  <br/> |Les réunions ponctuelles sont prises en charge si les deux personnes utilisent la dernière application. Les réunions ne sont pas encore prises en charge dans l'application Windows Phone.  <br/> |Téléchargez et installez la dernière application iOS, Android ou de bureau pour rejoindre la réunion.  <br/> |02.11.2016  <br/> |
 |Les utilisateurs sur site de Skype Entreprise ne reçoivent pas mes messages  <br/> |Les messages ne sont pas acheminés lorsque les utilisateurs de Microsoft Teams essayent d'envoyer un message à une autre personne qui utilise Skype Entreprise sur site.  <br/> | L'interopérabilité entre Teams et les utilisateurs hébergés sur Skype Entreprise Online est prise en charge. Les utilisateurs de Teams peuvent envoyer des conversations en tête-à-tête à des personnes qui n’utilisent pas Teams à l'aide de Skype Entreprise Online. <br/> L'interopérabilité entre Teams et les utilisateurs hébergés sur Skype Entreprise sur site n'est pas prise en charge. Les utilisateurs de Teams ne peuvent pas envoyer de conversations en tête à tête à des utilisateurs qui utilisent Skype Entreprise sur site.  <br/> |02.11.2016  <br/> |

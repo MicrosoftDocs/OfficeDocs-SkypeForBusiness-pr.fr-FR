@@ -7,11 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Découvrez comment utiliser les différents clients disponibles pour Microsoft Teams, notamment les clients Web, de bureau (Windows et Mac) et mobiles (Android, iOS, et Windows Phone)."
-ms.openlocfilehash: 2f07ba9fc8c7f08adf608c5d3a0708e680967632
-ms.sourcegitcommit: 18b1af39d6d2cd0e7f2d270dcd844e06c9075ae6
+ms.openlocfilehash: c10dde0e2893bc11f1d5a01eed1c30ed37ff30a0
+ms.sourcegitcommit: 6ddf8daf3aa1f43c67cb5a57721cb01a9c409f7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/18/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 ===========================
@@ -27,20 +27,12 @@ Aucun plug-in ni téléchargement n'est requis pour exécuter Teams dans un navi
 
 Le client Web détecte la version du navigateur en se connectant à [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) et en cas de version non prise en charge, il bloquera l'accès à l'interface Web et recommandera de télécharger le client de bureau ou l'application mobile.
 
-Microsoft Teams prend en charge les versions et navigateurs suivants :
-
--   **Edge** : 12+
-
--   **Internet Explorer :** 11+
-
--   **Chrome** : 51.0+
-
--   **Firefox** : 55+
-
-
+<a name="internet-browser-support"></a>Prise en charge du navigateur Internet
+------------------------------
+Teams prend en charge les navigateurs suivants : Internet Explorer 11, Microsoft Edge, la dernière version de Chrome et la dernière version de Firefox.
 
 > [!NOTE]
-> La prise en charge de Safari sera bientôt disponible.
+> Safari n'est pas pris en charge actuellement. Consultez la [Feuille de route de Teams](http://aka.ms/TeamsRoadmap) pour en savoir plus sur les nouvelles fonctionnalités dans Teams. Les utilisateurs qui essayent d’ouvrir Teams sur Safari seront dirigés vers le téléchargement du client de bureau Teams.
 
 <a name="desktop-clients"></a>Clients de bureau
 ------------------------
