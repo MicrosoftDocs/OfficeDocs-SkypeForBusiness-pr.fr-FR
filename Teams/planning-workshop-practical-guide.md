@@ -1,23 +1,29 @@
 ---
-title: "Kit d'atelier : planifier, livrer et exécuter Microsoft Teams"
+title: "Outils et ateliers : planifier, fournir et utiliser Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
-description: "Outils de planification et kit d'atelier pour aider un administrateur à prendre en main Microsoft Teams"
+description: "Outils de planification, ateliers et kits de prise en main pour aider un administrateur à prendre en main Microsoft Teams"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0142ced9edd10a64f142e0f8dbb4f92d79593214
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: e14c16ddd71114e90af15174266f14bbbbc5982e
+ms.sourcegitcommit: 6f5fc17ffdc1ef3b3eec42e17f7bebda88cb000b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/24/2018
 ---
-<a name="workshop-kit-plan-deliver-and-operate-microsoft-teams"></a>Kit d'atelier : planifier, livrer et exécuter Microsoft Teams
+<a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>Outils et ateliers : planifier, fournir et utiliser Microsoft Teams
 =============================================================
 
 Téléchargez ces outils pour vous orienter dans la planification, la livraison et l'exécution de Microsoft Teams dans votre organisation.
+
+- [Kit de prise en main de Microsoft Teams](http://microsoft.com/en-us/download/56505) 
+    
+    Dans ce guide, vous trouverez des conseils pour tirer le meilleur parti de Teams pour les différentes fonctions de votre organisation, comme le marketing, les ventes, la finance, les ressources humaines, les technologies de l'information, l'ingénierie et la gestion de projets.
+
+
 
 - [Guide de démarrage rapide : Activation réussie de Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
     
