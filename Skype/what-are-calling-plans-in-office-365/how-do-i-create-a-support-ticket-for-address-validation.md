@@ -1,107 +1,109 @@
 ---
-title: "Comment pour créer un ticket de support pour la validation de l’adresse ?"
+title: "Comment puis-je créer un ticket d'assistance pour la validation d'une adresse ?"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6e7c4964-b7b4-4f87-af00-220a2cd5a1c2
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
-description: "Validation de l’adresse est une partie importante de la configuration de l’appel de Plans dans Office 365. Il fournit une adresse d’appel d’urgence qui peut être utilisée par les services d’intervention d’urgence à un utilisateur de votre organisation."
-ms.openlocfilehash: e1f4cfe276f50b80f66a1d20d5c38a18b15b2071
-ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
-ms.translationtype: MT
+description: "La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence."
+ms.openlocfilehash: 3d6ab2d8b21b3ea2a85b3d7a2379cd5589cb392c
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2017
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Comment pour créer un ticket de support pour la validation de l’adresse ?
+# <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Comment puis-je créer un ticket d'assistance pour la validation d'une adresse ?
 
-Validation de l’adresse est une partie importante de la configuration de l’appel de Plans dans Office 365. Il fournit une adresse d’appel d’urgence qui peut être utilisée par les services d’intervention d’urgence à un utilisateur de votre organisation. La méthode est basée sur la taille de votre organisation.
+La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence. La procédure dépend de la taille de votre organisation.
 
 > [!NOTE]
-> Si vous avez besoin obtenir des numéros de téléphone supplémentaires que cela, veuillez [contacter le support technique pour les produits d’entreprise - aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 
-## <a name="for-organizations-150-or-less-follow-these-steps"></a>Pour les organisations inférieur ou égal à 150, procédez comme suit
-1. Dans le **Centre d’administration Office 365**, choisissez **besoin d’aide**?
-2. Dans la **avez besoin d’aide ?** volet, dites-nous ce dont vous avez besoin aide, puis cliquez sur **obtenir de l’aide**.
-3. Si les résultats dans la section **solutions de vue** ne vous aide, choisissez une des opérations suivantes :
-    - **Laissez-nous vous appeler (recommandé)**: confirmer votre numéro de contact, puis appuyez sur à **M’appeler**. Le temps d’attente prévu pour un appel de retour est indiqué dans la **avez besoin d’aide ?** volet.
-    - **Envoyez-nous un e-mail**: confirmer votre adresse e-mail, puis cliquez sur **Envoyer**. Le temps de réponse appel est indiqué dans la **avez besoin d’aide ?** volet.
+## <a name="for-organizations-150-or-less-follow-these-steps"></a>Pour les organisations comprenant 150 personnes au maximum, suivez la procédure suivante
+1. Dans le **Centre d'administration d'Office 365**, sélectionnez **Besoin d'aide ?**
+2. Dans le volet **Besoin d'aide ?**, indiquez-nous pour quel élément vous avez besoin d'aide et sélectionnez **Aide**.
+3. Si les résultats dans la section **Afficher les solutions** ne vous apportent aucune aide, sélectionnez une des options suivantes :
+    - **Laissez-nous vous appeler (recommandé)** : confirmez votre numéro de contact et appuyez sur **M'appeler**. Le temps d'attente prévu pour un rappel est indiqué dans le volet **Besoin d'aide ?**.
+    - **Envoyez-nous un e-mail** : confirmez votre adresse de messagerie et sélectionnez **Envoyer**. Le temps de réponse est indiqué dans le volet **Besoin d'aide ?**.
 
-## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Pour les organisations avec plus de 150 utilisateurs, créez une demande de service pour valider une adresse en cas d’urgence
+## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Pour les organisations comprenant plus de 150 personnes, créez une demande de service pour valider une adresse d'urgence
 
-1. Connectez-vous en tant qu'administrateur à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à Office 365 en tant qu'administrateur à l'aide de votre compte professionnel ou scolaire.
     
-2. Dans le centre d’administration d’Office 365, dans la navigation de gauche, cliquez sur **prise en charge** > **nouvelle demande de service**.
+2. Dans le Centre d'administration d'Office 365, dans le volet de navigation de gauche, cliquez sur **Support** > **Nouvelle demande de service**.
     
-3. **Demandes de Service**, cliquez sur **Ajouter**.
+3. Sous **Demandes de service**, cliquez sur **Ajouter**.
     
 4. Dans la page **Créer une demande de service**, cliquez sur **Collaboration en ligne**.
     
-5. Sur la page **d’identifier le problème** , sélectionnez et entrez dans le format suivant :
+5. Dans la page **Identifier le problème**, sélectionnez et renseignez les éléments suivants :
     
-  - **Fonction :** Sélectionnez **intérieur appelant le Plan** ou **Plan national et International**.
+  - **Fonctionnalité :** sélectionnez **Forfait d'appels national** et/ou **Forfait d'appels national et international**.
     
-  - **Problème :** Permet d’entrer **l’appel d’urgence**.
+  - **Symptôme :** entrez **Appels d'urgence**.
     
-  - **Résumé du problème :** Entrez la **validation de l’adresse**.
+  - **Récapitulatif du problème :** entrez **Validation d'adresse**.
     
-  - **Informations sur le problème :** Entrez les détails relatifs à l’adresse (s) que vous souhaitez valider comme le :
+  - **Détails du problème :** entrez les détails relatifs à la ou aux adresses que vous souhaitez valider tels que :
     
       - Numéro de rue
     
-      - Nom de la rue
+      - Nom de rue
     
       - Ville
     
       - Pays ou région
     
     > [!IMPORTANT]
-    > **Placez le pays ou la région où nous offrent des Plans d’appel dans Office 365 que vous tentez de valider une adresse de secours dans lorsque vous affectez un numéro de téléphone.**
+    > **Entrez le pays ou la région dans lequel ou laquelle se trouvent les forfaits d'appels dans Office 365 que vous souhaitez valider comme adresse d'urgence lorsque vous attribuez un numéro de téléphone.**
   
-      - Postal ou un code postal
+      - Code postal
     
-6. Cliquez sur **Page suivante**, puis cliquez sur **Oui, continuer** pour continuer.
+6. Cliquez sur la page **Suivant**, puis cliquez sur **Oui, continuer** pour continuer.
     
-7. Dans la page **Ajouter des détails**, sélectionnez et entrez les informations suivantes :
+7. Dans la page **Ajouter des détails**, sélectionnez et entrez les informations suivantes :
     
-  - **Votre service n’est pas disponible ?** Cliquez sur **non**.
+  - **Votre service est-il disponible ?** Sélectionnez **Non**.
     
-  - **Combien d’utilisateurs est affectés ?** Permet de sélectionner **certains utilisateurs**.
+  - **Combien d'utilisateurs sont affectés ?** Sélectionnez **Certains utilisateurs**.
     
-  - **Entrer une adresse de messagerie d’une personne affectée par ce problème** ou laissez ce champ vide.
+  - **Entrez l'adresse de messagerie d'une personne affectée par ce problème** ou laissez ce champ vide.
     
-  - **Sélectionnez le (s) vous souhaitez répertorier**
+  - **Sélectionnez le ou les domaines à répertorier**
     
-  - **Joindre un fichier** si vous avez plusieurs adresses dont vous avez besoin de validation.
+  - **Joignez un fichier** si plusieurs adresses doivent être validées.
     
   - Cliquez sur **Suivant**.
     
   - Entrez votre numéro de téléphone de contact.
     
-8. Passez en revue les informations, puis cliquez sur **soumettre une demande**.
+8. Passez en revue les informations, puis cliquez sur **Envoyer la demande**.
     
 > [!TIP]
-> Le numéro de référence sera répertorié dans la page **Demandes de service** du Centre d'administration Office 365.
+> Le numéro de référence sera répertorié dans la page **Demandes de service** du Centre d'administration d'Office 365.
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Transfert de questions courantes des numéros de téléphone](transferring-phone-numbers-common-questions.md)
+[Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
 
-[Différents types de numéros de téléphone utilisés pour les Plans d’appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Gérer les numéros de téléphone pour votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Gérer des numéros de téléphone pour votre entreprise](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype pour Business Online : étiquette de décharge de responsabilité d’appel d’urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)

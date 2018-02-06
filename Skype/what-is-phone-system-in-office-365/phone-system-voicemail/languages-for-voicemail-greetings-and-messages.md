@@ -1,65 +1,69 @@
 ---
-title: Langues pour les messages et les salutations de messagerie vocale
+title: Langues pour les messages d'accueil et les messages de la messagerie vocale
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: wasseemh
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 4a57e3d0-8b08-494f-a195-b44afa9cbc0d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Phone System
-description: "Découvrez les langues que vous pouvez définir dans Skype pour l’entreprise pour les messages du système par défaut. "
-ms.openlocfilehash: eec5a3d7ea647d0b88a0244c11a682def5c80547
-ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
-ms.translationtype: MT
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
+description: "Découvrez quelles langues vous pouvez configurer dans Skype Entreprise pour les messages système par défaut. "
+ms.openlocfilehash: 256bc49c67ffbbfc4a503ffaf621cd4bb82b0c07
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2017
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="languages-for-voicemail-greetings-and-messages"></a>Langues pour les messages et les salutations de messagerie vocale
+# <a name="languages-for-voicemail-greetings-and-messages"></a>Langues pour les messages d'accueil et les messages de la messagerie vocale
 
-Vous pouvez paramétrer Skype pour entreprise de lire sa messagerie vocale de système de salutation dans une des langues répertoriées dans le tableau.
+Vous pouvez configurer Skype Entreprise pour que l'application lise les messages d'accueil de sa messagerie vocale dans l'une des langues répertoriées dans ce tableau.
   
-Pour modifier la langue utilisée par Skype pour les entreprises de greetings de messagerie vocale de système, consultez [Modifier la langue par défaut pour la messagerie vocale d’accueil et dans les e-mails de votre organisation](change-the-default-language-for-greetings-and-emails.md).
+Pour modifier la langue que Skype Entreprise utilise pour les messages d'accueil de la messagerie vocale, reportez-vous à la rubrique [Modifier la langue par défaut des messages d'accueil de la messagerie vocale et des courriers électroniques dans votre organisation](change-the-default-language-for-greetings-and-emails.md).
   
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Langue** <br/> |**Pays/Région** <br/> |**Code de langue** <br/> |**Disponible pour un utilisateur pour le voir dans le courrier électronique ?** <br/> |**Cette option est disponible lorsque l’utilisateur appelle ?** <br/> |**Transcription disponible ?** <br/> |
-|Catalan  <br/> |Catalan  <br/> |CA-ES  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|**Langue** <br/> |**Pays/région** <br/> |**Code langue** <br/> |**Disponible pour qu'un utilisateur la voie dans un courrier électronique ?** <br/> |**Disponible lorsque l'utilisateur appelle ?** <br/> |**Transcription disponible ?** <br/> |
+|Catalan  <br/> |Catalan  <br/> |ca-ES  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Chinois (simplifié)  <br/> |Chine  <br/> |zh-hans  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Chinois (Hong Kong)  <br/> |Chine  <br/> |zh-hk  <br/> |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.  <br/> | Oui <br/> |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.  <br/> |
-|Chinois (traditionnel)  <br/> |Taïwan  <br/> |zh-hant.  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Chinois (Hong Kong R.A.S.)  <br/> |Chine  <br/> |zh-hk  <br/> |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.  <br/> | Oui <br/> |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.  <br/> |
+|Chinois (traditionnel)  <br/> |Taïwan  <br/> |zh-hant  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Danois  <br/> |Danemark  <br/> |da-DK  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Néerlandais  <br/> |Pays-Bas  <br/> |NL-NL  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Anglais  <br/> |Australie  <br/> |en-AU  <br/> |Oui, mais l’anglais américain (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l’anglais américain (en-US) est utilisé.  <br/> |
-|Anglais  <br/> |Canada  <br/> |fr-CA  <br/> |Oui, mais l’anglais américain (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l’anglais américain (en-US) est utilisé.  <br/> |
-|Anglais  <br/> |Inde  <br/> |en pouces  <br/> |Oui, mais l’anglais américain (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l’anglais américain (en-US) est utilisé.  <br/> |
-|Anglais  <br/> |Royaume-Uni  <br/> |en-GB  <br/> |Oui, mais l’anglais américain (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l’anglais américain (en-US) est utilisé.  <br/> |
+|Néerlandais  <br/> |Pays-Bas  <br/> |nl-NL  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Anglais  <br/> |Australie  <br/> |en-AU  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
+|Anglais  <br/> |Canada  <br/> |en-CA  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
+|Anglais  <br/> |Inde  <br/> |en-IN  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
+|Anglais  <br/> |Royaume-Uni  <br/> |en-GB  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
 |Anglais  <br/> |États-Unis  <br/> |en-US  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Finnois  <br/> |Finlande  <br/> |Fi-Fl  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Français  <br/> |Canada  <br/> |fr-CA  <br/> |Oui, mais le Français de France (fr-FR) est utilisé.  <br/> |Oui  <br/> |Oui, mais le Français de France (fr-FR) est utilisé.  <br/> |
+|Finnois  <br/> |Finlande  <br/> |fi-FI  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Français  <br/> |Canada  <br/> |fr-CA  <br/> |Mais le français de France (fr-FR) est utilisé.  <br/> |Oui  <br/> |Mais le français de France (fr-FR) est utilisé.  <br/> |
 |Français  <br/> |France  <br/> |fr-FR  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Allemand  <br/> |Allemagne  <br/> |de-DE  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Italien  <br/> |Italie  <br/> |IT-IT  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Japonais  <br/> |Japon  <br/> |ja-JP.  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Coréen  <br/> |Coréen  <br/> |Ko-KR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Norvégien (Bokmal)  <br/> |Norvège  <br/> |Nb-NO  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Polonais  <br/> |Pologne  <br/> |PL-PL  <br/> |Oui  <br/> | Oui <br/> |Non  <br/> |
+|Italien  <br/> |Italie  <br/> |it-IT  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
+|Japonais  <br/> |Japon  <br/> |ja-JP  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Coréen  <br/> |Coréen  <br/> |ko-KR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Norvégien  <br/> |Norvège  <br/> |nb-NO  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Polonais  <br/> |Pologne  <br/> |pl-PL  <br/> |Oui  <br/> | Oui <br/> |Non  <br/> |
 |Portugais  <br/> |Brésil  <br/> |pt-BR  <br/> |Oui, mais le portugais du Portugal (pt-PT) est utilisé.  <br/> |Oui  <br/> |Oui  <br/> |
 |Portugais  <br/> |Portugal  <br/> |pt-PT  <br/> |Oui  <br/> |Oui  <br/> |Oui, mais le portugais du Brésil (pt-BR) est utilisé.  <br/> |
 |Russe  <br/> |Russie  <br/> |ru-RU  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Espagnol  <br/> |Espagne  <br/> |es-ES  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Espagnol  <br/> |Mexique  <br/> |es-MX  <br/> |Oui, mais que l’Espagne, espagnol (es-ES) est utilisée.  <br/> |Oui  <br/> |Oui, mais que l’Espagne, espagnol (es-ES) est utilisée.  <br/> |
+|Espagnol  <br/> |Mexique  <br/> |es-MX  <br/> |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.  <br/> |
 |Suédois  <br/> |Suède  <br/> |sv-SE  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
    
 ## <a name="related-topics"></a>Rubriques connexes
-[Pays et région de disponibilité pour les conférences Audio et les Plans d’appel](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Voici ce que vous obtenez avec système de téléphone dans Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
+[Voici les avantages du système téléphonique dans Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
   

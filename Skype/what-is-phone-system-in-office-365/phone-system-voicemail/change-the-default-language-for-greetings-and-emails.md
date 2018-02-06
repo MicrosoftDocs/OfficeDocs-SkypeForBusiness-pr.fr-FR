@@ -1,72 +1,76 @@
 ---
-title: "Changer la langue par défaut pour des salutations et des e-mails"
+title: "Modifier la langue par défaut des messages d'accueil et des courriers électroniques"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: wasseemh
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Phone System
-description: 'Learn how to setup Skype for Busineses to use another language for your organization''s default voicemail greeting. '
-ms.openlocfilehash: cfbdcfec46a79c6fcef2aff970a05837460f6e72
-ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
-ms.translationtype: MT
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
+description: "Découvrez comment configurer Skype Entreprise afin d’utiliser une autre langue pour le message d’accueil vocal par défaut de votre organisation. "
+ms.openlocfilehash: 1c311436ed9010ea20598aac6a55b4806fe18abb
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2017
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="change-the-default-language-for-greetings-and-emails"></a>Changer la langue par défaut pour des salutations et des e-mails
+# <a name="change-the-default-language-for-greetings-and-emails"></a>Modifier la langue par défaut des messages d'accueil et des courriers électroniques
 
-Si vous êtes un [administrateur global d’Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), vous pouvez configurer Skype pour entreprise de lire sa messagerie vocale par défaut que de salutation dans une autre langue. Le message d’accueil système par défaut est quelque chose comme, « veuillez laisser un message pour John Smith. Après la tonalité, veuillez enregistrer votre message. Lorsque vous avez terminé l’enregistrement, raccrocher, ou appuyez sur la touche dièse pour plus d’options. » 
+Si vous êtes un [administrateur général d'Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), vous pouvez configurer Skype Entreprise pour que l'application lise le message d'accueil de sa messagerie vocale dans une autre langue. Le message d'accueil système par défaut ressemble à celui-ci : « Veuillez laisser un message pour John Smith. Enregistrez votre message après le signal sonore. À la fin de l'enregistrement, raccrochez ou appuyez sur la touche dièse pour plus d'options. » 
   
- **Tout d'abord, lisez cette information importante :**
+ **Tout d'abord, lisez cette information importante :**
   
-- **Les langues qui sont disponibles sont déterminées par l’emplacement de votre organisation**. Par exemple, si votre organisation est située aux États-Unis, vous pouvez définir la langue par défaut pour l’anglais ou espagnol. Si votre organisation est située au Canada, vous pouvez choisir entre l’anglais et le Français. Pour une liste des langues prises en charge, consultez [langages de greetings de messagerie vocale et des messages Skype pour les entreprises](languages-for-voicemail-greetings-and-messages.md).
+- **Les langues disponibles sont déterminées par l'emplacement de votre organisation**. Par exemple, si votre organisation est située aux États-Unis, vous pouvez configurer la langue par défaut sur l'anglais ou l'espagnol. Si votre organisation est située au Canada, vous avez le choix entre l'anglais et le français. Pour obtenir la liste des langues prises en charge, consultez la rubrique [Langues pour les messages et les messages d'accueil de la messagerie vocale de Skype Entreprise](languages-for-voicemail-greetings-and-messages.md).
     
 - **Vous ne pouvez pas modifier la langue pour une seule personne de l'organisation.** Vous pouvez uniquement modifier la langue du message d'accueil pour l'ensemble des utilisateurs de votre organisation.
     
     > [!NOTE]
-    > Les utilisateurs peuvent modifier leurs propres au moyen de leurs paramètres de salutation après leur connectent. 
+    > Les utilisateurs peuvent modifier leur propre langue du message d'accueil par le biais de leurs paramètres après s'être connectés. 
   
-- **Voulez-vous enregistrer le message sortant de la messagerie vocale ?** Reportez-vous à la section [Skype de vérifier les options de la messagerie vocale d’entreprise](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
+- **Vous voulez enregistrer un message d'accueil personnel ?** Reportez-vous à la rubrique [Consultation de la messagerie vocale et des options de Skype Entreprise](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
     
-## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Modification de la langue pour l'ensemble des utilisateurs de votre organisation
+## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Modifier la langue du système pour l'ensemble des utilisateurs de votre organisation
 
-1. Connectez-vous avec votre compte [d’administrateur global d’Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) à[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Connectez-vous à l'aide de votre compte [d'administrateur général du portail Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) à l'adresse[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
-2. Dans le centre d’administration, cliquez sur **paramètres** > **profil d’organisation**. 
+2. Dans le Centre d'administration, sélectionnez **Paramètres** > **Profil de l'organisation**. 
     
-     ![Choose Settings and then choose Organization profile.](../../images/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![Sélectionnez Paramètres, puis Profil de l'organisation.](../../images/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. Choisissez **Modifier**.
     
-    ![Choose Edit.](../../images/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
+    ![Choisissez Modifier.](../../images/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
   
-4. Sélectionnez une langue dans la liste **langue de favoris** dans votre organisation.
+4. Sélectionnez une langue dans la liste **Langue préférée** pour l'ensemble des utilisateurs de votre organisation.
     
 5. Cliquez sur **Enregistrer**.
     
 ## <a name="related-articles-for-the-admin"></a>Articles connexes pour l'administrateur
 
-- [Quels sont les Plans d’appel dans Office 365 ?](../../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
+- [Qu'est-ce que les offres d'appels dans Office 365 ?](../../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
     
-- [Configurer des forfaits d'appels](../../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
+- [Configurer des offres d'appels](../../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
     
-- [Système de téléphone plan dans Office 365 avec la connectivité RTPC local dans Skype pour Business Server 2015 ou Lync Server 2013](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Planification du système téléphonique d'Office 365 avec la connectivité PSTN locale dans Skype Entreprise Server 2015 ou Lync Server 2013](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [Changer la langue d'affichage et le fuseau horaire dans Office 365 pour les entreprises](https://support.office.com/en-us/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+- [Changer la langue d'affichage et le fuseau horaire dans Office 365 pour les entreprises](https://support.office.com/en-us/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
-- [Ajouter une langue ou définir les préférences de langue dans Office 2010 et les versions ultérieures](https://support.office.com/en-us/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d))
+- [Ajouter une langue ou définir les préférences de langue dans Office 2010 et les versions ultérieures](https://support.office.com/en-us/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d))
     
-- [Activer ou modifier une langue de disposition du clavier](https://support.office.com/en-us/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
+- [Activer ou modifier la langue de disposition du clavier dans Office](https://support.office.com/en-us/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
 

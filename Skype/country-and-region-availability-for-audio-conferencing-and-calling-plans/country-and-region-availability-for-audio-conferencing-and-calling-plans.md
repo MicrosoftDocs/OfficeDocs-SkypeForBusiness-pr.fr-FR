@@ -1,34 +1,40 @@
 ---
-title: "Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays"
+title: "Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
+ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
+ms.date: 01/24/2018
 ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
+- Strat_SB_PSTN
 - LIL_Placement
-description: "Vous pouvez sélectionner un pays ou une région pour consulter la disponibilité de l'audioconférence, du système téléphonique, des offres d'appel, des crédits de communication ainsi que des numéros payants et gratuits."
-ms.openlocfilehash: c1d378a37850d8fdb9fb8d4cda68cedb929ba204
-ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
+description: "Vous pouvez sélectionner un pays ou une région pour consulter la disponibilité de l'audioconférence, du système téléphonique, des forfaits d'appel, des crédits de communication ainsi que des numéros payants et gratuits."
+ms.openlocfilehash: 2024b5df01cd1cfa787883fa3b2337500b2dea61
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays
+# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays
 
-Vous pouvez sélectionner un pays ou une région pour consulter la disponibilité de l'audioconférence, du système téléphonique, des offres d'appel et des crédits de communication.
+Vous pouvez sélectionner un pays ou une région pour consulter la disponibilité de l'audioconférence, du système téléphonique, des forfaits d'appels et des crédits de communication.
+
+> [!Note]
+> Si vous recherchez une feuille de calcul avec tous les pays et régions, téléchargez et enregistrez la [feuille de calcul de tous les pays et régions](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/downloads/country-region-availabilty/country-and-region-availability-(v.01242018)-(en.us).xlsx?raw=true).
 
 ## <a name="select-your-country-or-region-to-see-whats-available-for-you"></a>Sélectionnez votre pays ou votre région pour découvrir les fonctionnalités disponibles.
 
@@ -47,7 +53,7 @@ Vous pouvez sélectionner un pays ou une région pour consulter la disponibilit�
 > - [Canada](availability-in-canada.md)
 > - [Chili](availability-in-chile.md)
 > - [Chine](availability-in-china.md)
-> - [Colombie](availability-in-columbia.md)
+> - [Colombie](availability-in-colombia.md)
 > - [Costa Rica](availability-in-costa-rica.md)
 > - [Croatie](availability-in-croatia.md)
 > - [Chypre](availability-in-cyprus.md)
@@ -153,9 +159,9 @@ Passer un appel sortant depuis une réunion vers un autre pays ou une autre rég
 > Au cours de la période de lancement, les utilisateurs de toutes les organisations peuvent passer un appel sortant à l’aide de la fonctionnalité M’appeler ou en ajoutant d’autres personnes à une réunion pour leur permettre d’y participer vers l’un des pays suivants sans frais supplémentaires, cette possibilité étant toutefois soumise à la [période d'appel sortant gratuite pour l'audioconférence](../accessibility-and-regulatory/complimentary-dial-out-period.md). 
   
 ### <a name="phone-system"></a>Système téléphonique
-Avec le système téléphonique, vous pouvez créer des standards automatiques et des files d'attente (avec un numéro gratuit ou payant) pour répondre aux appels entrants de votre organisation et, lorsque vous ajoutez une offre d'appels pour les utilisateurs, ceux-ci peuvent se servir de Skype Entreprise pour réaliser des tâches de contrôle d'appel de base, telles que passer, recevoir, ou transférer des appels, ou encore désactiver ou activer le son des appels. Les utilisateurs du **système téléphonique** peuvent cliquer sur un nom dans leur carnet d’adresses pour que Skype Entreprise appelle cette personne. Pour émettre et recevoir des appels, les utilisateurs du **système téléphonique** peuvent utiliser leur appareil mobile, un casque avec un ordinateur portable ou un PC ou l’un des nombreux téléphones IP compatibles avec Skype Entreprise.
+Avec le système téléphonique, vous pouvez créer des standards automatiques et des files d'attente (avec un numéro gratuit ou payant) pour répondre aux appels entrants de votre organisation et, lorsque vous ajoutez un forfait d'appels pour les utilisateurs, ceux-ci peuvent se servir de Skype Entreprise pour réaliser des tâches de contrôle d'appel de base, telles que passer, recevoir, ou transférer des appels, ou encore désactiver ou activer le son des appels. Les utilisateurs du **système téléphonique** peuvent cliquer sur un nom dans leur carnet d’adresses pour que Skype Entreprise appelle cette personne. Pour émettre et recevoir des appels, les utilisateurs du **système téléphonique** peuvent utiliser leur appareil mobile, un casque avec un ordinateur portable ou un PC ou l’un des nombreux téléphones IP compatibles avec Skype Entreprise.
 
-Outre obtenir des numéros de téléphone pour des utilisateurs individuels à partir d’Office 365, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou payants pour des services tels que l'audioconférence (pour les ponts de conférence), les standards automatiques et les files d'attente. Il s'agit des numéros de service appelés. Consultez [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) pour obtenir des numéros de téléphone. Mais, pour vos utilisateurs, une fois que vous leur avez attribué une offre d'appels, vous pouvez leur attribuer un numéro de téléphone utilisateur, afin qu'ils puissent passer et recevoir des appels. Vous pouvez trouver ces numéros de téléphone [ici](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). Vous pouvez également accéder à la rubrique [Attribuer, modifier ou supprimer un numéro de téléphone pour un utilisateur](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md). 
+Outre obtenir des numéros de téléphone pour des utilisateurs individuels à partir d’Office 365, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou payants pour des services tels que l'audioconférence (pour les ponts de conférence), les standards automatiques et les files d'attente. Il s'agit des numéros de service appelés. Consultez [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) pour obtenir des numéros de téléphone. Mais, pour vos utilisateurs, une fois que vous leur avez attribué un forfait d'appels, vous pouvez leur attribuer un numéro de téléphone utilisateur, afin qu'ils puissent passer et recevoir des appels. Vous pouvez trouver ces numéros de téléphone [ici](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). Vous pouvez également accéder à la rubrique [Attribuer, modifier ou supprimer un numéro de téléphone pour un utilisateur](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md). 
 
 [Tarifs pour le système téléphonique](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
 
@@ -164,10 +170,10 @@ Outre obtenir des numéros de téléphone pour des utilisateurs individuels à p
 
 Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une région et les services disponibles.
 
-### <a name="calling-plans"></a>Offres d'appels
-Avec le système téléphonique, une offre d'appels permet aux utilisateurs de passer et de recevoir des appels téléphoniques. Vous devez d'abord obtenir le numéro de téléphone (pas un numéro de service) d'un utilisateur (abonné) à attribuer à l'utilisateur, puis lui assigner une offre d'appels. Deux types d'offres d'appels sont disponibles : **nationaux** ainsi que **nationaux et internationaux**. Consultez [Qu'est-ce que les offres d'appels ?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) pour en savoir plus.
+### <a name="calling-plans"></a>Forfaits d'appels
+Avec le système téléphonique, un forfait d'appels permet aux utilisateurs de passer et de recevoir des appels téléphoniques. Vous devez d'abord obtenir le numéro de téléphone (pas un numéro de service) d'un utilisateur (abonné) à attribuer à l'utilisateur, puis lui attribuer un forfait d'appels. Deux types de forfaits d'appels sont disponibles : **Nationaux** et **Nationaux et internationaux**. Consultez [Qu'est-ce que les forfaits d'appels ?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) pour en savoir plus.
 
-Vous pouvez aussi consulter [Système téléphonique et licences d'offres d'appels](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) pour obtenir des informations à propos des licences.
+Vous pouvez aussi consulter [Système téléphonique et licences de forfaits d'appels](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) pour obtenir des informations à propos des licences.
 
 > [!NOTE]
 > Le pays/la région dépend de l'emplacement de la licence de l'utilisateur dans le **Centre d'administration Office 365** > **Utilisateurs actifs** et **non** sur l'adresse de facturation répertoriée dans le **Profil de l'organisation** dans le **Centre d'administration Office 365**. 
@@ -176,7 +182,7 @@ Vous pouvez aussi consulter [Système téléphonique et licences d'offres d'appe
 
 Outre obtenir des numéros de téléphone pour des utilisateurs individuels à partir d’Office 365, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou payants pour des services tels que l'audioconférence (pour les ponts de conférence), les standards automatiques et les files d'attente. Il s'agit des numéros de service appelés.
   
-Voici une liste des capitales et des principales villes pour lesquelles vous pouvez obtenir des numéros de service payants à utiliser pour l'audioconférence et les offres d'appels. Vous pouvez obtenir des numéros de service payants à partir de ces lieux au moyen du **centre d'administration de Skype Entreprise**.
+Voici une liste des capitales et des principales villes pour lesquelles vous pouvez obtenir des numéros de service payants à utiliser pour l'audioconférence et les forfaits d'appels. Vous pouvez obtenir des numéros de service payants à partir de ces lieux au moyen du **centre d'administration de Skype Entreprise**.
   
   
 Si vous souhaitez obtenir un numéro de service payant ou gratuit, vous pouvez consulter [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams.](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) Si vous avez déjà un numéro de service payant ou gratuit que vous souhaitez transférer vers un autre opérateur, consultez [Gérer les numéros de téléphone de votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
@@ -185,9 +191,9 @@ Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une 
 
 ### <a name="communications-credits"></a>Crédits de communication
 
-Nous vous recommandons de configurer les crédits de communication pour vos utilisateurs d'audioconférence et d'offres d'appel qui ont besoin de pouvoir passer des appels sortants vers **n'importe quel endroit**. Beaucoup de régions/pays sont inclus, mais il est possible que certains ne soient pas compris dans vos abonnements d'offres d'appels ou d'audioconférence.
+Nous vous recommandons de configurer les crédits de communication pour vos utilisateurs d'audioconférence et de forfaits d'appels qui ont besoin de pouvoir passer des appels sortants vers **n'importe quel endroit**. Beaucoup de régions/pays sont inclus, mais il est possible que certains ne soient pas compris dans vos abonnements de forfaits d'appels ou d'audioconférence.
   
-Si vous ne configurez pas de crédits de communication, n'attribuez pas une licence aux utilisateurs et que vous manquez de minutes pour votre organisation (selon votre offre d'appel ou d'audioconférence ou votre pays/région), ils ne pourront pas passer d'appels ou d'appels sortants depuis les réunions. Vous pouvez obtenir plus d'informations, y compris les montants des fonds recommandés, en consultant [Qu'est-ce que les crédits de communication ?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
+Si vous ne configurez pas de crédits de communication, n'attribuez pas une licence aux utilisateurs et que vous manquez de minutes pour votre organisation (selon votre forfait d'appels ou d'audioconférence ou votre pays/région), ils ne pourront pas passer d'appels ou d'appels sortants depuis les réunions. Vous pouvez obtenir plus d'informations, y compris les montants des fonds recommandés, en consultant [Qu'est-ce que les crédits de communication ?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
 
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
 
