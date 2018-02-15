@@ -6,20 +6,23 @@ manager: lolaj
 ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara, lolaj, rowille
 description: "Outils de planification, ateliers et kits de prise en main pour aider un administrateur à prendre en main Microsoft Teams"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e14c16ddd71114e90af15174266f14bbbbc5982e
-ms.sourcegitcommit: 6f5fc17ffdc1ef3b3eec42e17f7bebda88cb000b
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cf4b7dad507ee10743df986ca6c489af2bf165b3
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/15/2018
 ---
 <a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>Outils et ateliers : planifier, fournir et utiliser Microsoft Teams
 =============================================================
 
 Téléchargez ces outils pour vous orienter dans la planification, la livraison et l'exécution de Microsoft Teams dans votre organisation.
 
-- [Kit de prise en main de Microsoft Teams](http://microsoft.com/en-us/download/56505) 
+- [Kit de prise en main de Microsoft Teams](http://microsoft.com/download/56505) 
     
     Dans ce guide, vous trouverez des conseils pour tirer le meilleur parti de Teams pour les différentes fonctions de votre organisation, comme le marketing, les ventes, la finance, les ressources humaines, les technologies de l'information, l'ingénierie et la gestion de projets.
 

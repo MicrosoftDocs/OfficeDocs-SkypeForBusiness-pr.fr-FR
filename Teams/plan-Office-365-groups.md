@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "Découvrez les décisions que vous devez prendre lors de la planification de groupes Office 365, par exemple la création de groupes privés ou publics, l'utilisation du client Teams ou de la console Web d'administration Office 365 et la fourniture d'informations à vos équipes sur l'utilisation des conversations."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 330cb6e8eb572fc2fb4141a2cea8a0ad6055d309
-ms.sourcegitcommit: 9861cc3eca070ef1c6b7375896ae1978a438c772
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 2b421d2a87a6c70f1d663366b65a47d35260b484
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/15/2018
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planifier les groupes Office 365 lors de la création d'équipes dans Microsoft Teams
 ==========================================================
@@ -37,8 +39,8 @@ Pour plus d'informations, consultez la rubrique [Stratégie de nom de groupes Of
 
 Les articles suivants vous permettront de trouver du contenu approprié sur la préparation et l'adoption pour vos groupes Office 365 :
 
--   [Tirer le meilleur avec groupes Office 365 dans Outlook](https://support.office.com/en-us/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
+-   [Tirer le meilleur avec groupes Office 365 dans Outlook](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
 <!-- -->
 
--   [Gérer l'appartenance aux groupes dans le Centre d'administration Office 365](https://support.office.com/en-us/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [Gérer l'appartenance aux groupes dans le Centre d'administration Office 365](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)

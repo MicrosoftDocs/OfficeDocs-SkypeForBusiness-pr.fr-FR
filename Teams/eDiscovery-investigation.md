@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: anach
 description: "Découvrez les actions à entreprendre et le moment opportun pour mener une recherche eDiscovery, par exemple lorsque vous devez soumettre toutes les informations stockées électroniquement dans le cadre d'une procédure juridique."
-ms.openlocfilehash: 8746e08e6714902ee6923286c79861321916dd6d
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 9ee252bc114ec7972506b8fa6408fcaa33d20a73
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 ============================
@@ -20,7 +23,7 @@ Les grandes entreprises sont souvent impliquées dans procédure juridiques avec
 
 Toutes les conversations en tête-à-tête et de groupe sont journalisées via les boîtes aux lettres de chaque utilisateur et tous les messages de canal sont journalisés via la boîte aux lettres du groupe représentant l'équipe. Les fichiers chargés sont couverts par la fonctionnalité eDiscovery pour SharePoint Online et OneDrive Entreprise.
 
-1.  Pour mener une recherche eDiscovery dans le contenu Microsoft Teams, consultez [ce](https://support.office.com/en-us/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da?ui=en-US&rs=en-US&ad=US#step1) lien.
+1.  Pour mener une recherche eDiscovery dans le contenu Microsoft Teams, consultez [ce](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da?ui=en-US&rs=en-US&ad=US#step1) lien.
 
 2.  Les données Microsoft Teams apparaîtront comme **messages instantanés ou conversations** dans le fichier Excel, ou vous pouvez monter le **.PST** dans Outlook.
 

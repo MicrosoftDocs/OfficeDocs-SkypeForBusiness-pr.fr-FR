@@ -7,22 +7,24 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "T-Bot est un bot avec lequel les utilisateurs peuvent interagir, lui poser des questions sur l'utilisation de Microsoft Teams et obtenir des réponses sur un grand nombre de thèmes."
-ms.openlocfilehash: 448b378721b7a295e22f129e93c727572a33aaed
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: a641c05b1c2efa0f095e1de46309397435d1b4c3
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="use-t-bot-to-help-users-with-microsoft-teams"></a>Utiliser T-Bot pour aider les utilisateurs à utiliser Microsoft Teams
 ============================================
 
-Pour obtenir de l'aide lors de l'utilisation de Microsoft Teams, veillez à ce que vos utilisateurs et champions se familiarisent avec [T-Bot](https://support.office.com/en-us/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#bkmk_bots). T-Bot est un bot avec lequel les utilisateurs peuvent interagir, lui poser des questions sur l'utilisation de Microsoft Teams et obtenir des réponses sur un grand nombre de thèmes.
+Pour obtenir de l'aide lors de l'utilisation de Microsoft Teams, veillez à ce que vos utilisateurs et champions se familiarisent avec [T-Bot](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#bkmk_bots). T-Bot est un bot avec lequel les utilisateurs peuvent interagir, lui poser des questions sur l'utilisation de Microsoft Teams et obtenir des réponses sur un grand nombre de thèmes.
 
 ![Capture d'écran de la page T-Bot dans Microsoft Teams.](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image1.png)
 
 ![Capture d'écran de la réponse T-Bot à une question d'utilisateur.](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image2.png)
 
-Microsoft Teams fournit un support des langues localisées pour T-Bot et le contenu d’aide. De nouvelles langues sont régulièrement ajoutées. Pour obtenir la liste actualisée des langues prises en charge, reportez-vous à l'article [Langues prises en charge par Microsoft Teams pour le contenu d’aide](https://support.office.com/en-us/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).
+Microsoft Teams fournit un support des langues localisées pour T-Bot et le contenu d’aide. De nouvelles langues sont régulièrement ajoutées. Pour obtenir la liste actualisée des langues prises en charge, reportez-vous à l'article [Langues prises en charge par Microsoft Teams pour le contenu d’aide](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).
 
 T-Bot fournit également des méthodes d'assistance alternatives pour les utilisateurs qui préfèrent rechercher du contenu au lieu de poser des questions à un bot.
 
