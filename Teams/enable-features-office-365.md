@@ -3,27 +3,35 @@ title: "Activer les fonctionnalités de Microsoft Teams dans votre organisation
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 01/29/2018
 ms.topic: article
 ms.service: msteams
-description: "Découvrez toutes les fonctionnalités de Microsoft Teams que vous pouvez activer dans votre organisation Office 365, y compris des paramètres à l'échelle du client, des intégrations de messagerie, des applications, le stockage cloud et bien d'autres."
+ms.reviewer: ritikag
+description: "Découvrez toutes les fonctionnalités de Microsoft Teams que vous pouvez activer ou désactiver dans votre organisation Office 365, y compris les paramètres à l'échelle du client, l'intégration de la messagerie, les applications, le stockage cloud et bien d'autres."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d6a4a8d10e20b57df16fac3c7ffeba0bacd64d2e
-ms.sourcegitcommit: 19d7af5d60276c0a1ca3e01588b91c34a3fd0f92
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 8d91d166651cce5adf0ff07a19b29b90047e98e0
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Activer les fonctionnalités de Microsoft Teams dans votre organisation Office 365
 ======================================================
 
 Microsoft Teams dispose de multiples paramètres qui peuvent être activés ou désactivés au niveau du client Office 365. Lorsque Teams est activé pour un client, tous les utilisateurs pour lesquels Teams est également activé hériteront des paramètres du niveau client.
 
-Voici une liste des fonctionnalités qu'un administrateur Office 365 peut activer ou désactiver dans Teams.
+Voici la liste des fonctionnalités qu'un administrateur Office 365 peut activer ou désactiver dans Teams. 
 
 Sauf indication contraire, une option est activée par défaut.
 
-> [!NOTE]
+> [!NOTE] 
+> Pour gérer les paramètres d'administration dans Teams, accédez au Centre d'administration Office 365 et ouvrez **Paramètres** > **Services et compléments**, puis sélectionnez **Microsoft Teams**. Si vous êtes connecté en tant qu’administrateur d’Office 365, ce lien vous dirige sur cette option : 
+>  
+> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
+
+> [!IMPORTANT]
 > Un administrateur d’Office 365 peut désactiver Microsoft Teams à tout moment via le Centre d'administration Office 365. Notez que la vignette de Microsoft Teams s'affichera toujours pour les utilisateurs disposant de licences actives pour l'application même si vous la désactivez. Pour plus d'informations sur la suppression de licences, reportez-vous à la rubrique [Gestion de l'accès des utilisateurs à Microsoft Teams](user-access.md). Une fois l'application désactivée, l'accès à partir du client Teams est bloqué, mais les données disponibles au moyen d'autres clients et services restent accessibles, telles que les fichiers disponibles via SharePoint et OneDrive. Toutes les données restent en place à moins que les équipes aient été explicitement supprimées.
 
 <a name="office-365-tenant-wide-settings"></a>Paramètres à l'échelle du client Office 365 
@@ -39,51 +47,61 @@ La section Général vous permet de configurer les paramètres suivants pour vot
 
 > ![Capture d'écran de la section Général dans les paramètres à l'échelle du client.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
 
--   **Afficher l'organigramme dans le profil personnel :** Lorsque ce paramètre est activé, il affiche l'icône de l'organigramme dans la carte de visite de l'utilisateur ; les détails de l'organigramme apparaissent en cliquant sur cette icône.
+-   **Afficher l'organigramme dans le profil personnel :** lorsque ce paramètre est activé, il affiche l'icône de l'organigramme dans la carte de visite de l'utilisateur ; les détails de l'organigramme apparaissent en cliquant sur cette icône.
 
     ![Capture d'écran de l'icône d'organigramme d'une carte de visite d'un utilisateur.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image2.png)
 
     ![Capture d'écran d'un organigramme.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
 
--   **Utiliser Skype Entreprise pour les destinataires qui ne disposent pas de Teams :** lorsque ce paramètre est activé, il permet aux utilisateurs de Teams de contacter d'autres utilisateurs dans l’organisation pour lesquels Teams n'est pas activé via Skype Entreprise.
+-  **Utiliser Skype Entreprise pour les destinataires qui ne disposent pas de Teams :** lorsque ce paramètre est activé, les conversations Teams apparaissent automatiquement dans Skype Entreprise pour les utilisateurs pour lesquels Teams n'est pas activé.  
 
--   **Autoriser les messages d'aide proactifs de T-Bot :** lorsque ce paramètre est activé, T-bot lancera une session de conversation privée avec les utilisateurs pour les orienter dans l'utilisation de Teams.
+-   **Autoriser les messages d'aide proactifs de T-Bot :** lorsque ce paramètre est activé, T-bot lancera une session de conversation privée avec les utilisateurs pour les aider à utiliser Teams.
 
     ![Capture d'écran de la section T-Bot dans l'interface de Teams.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
 
 <a name="email-integration"></a>Intégration de la messagerie
 -----------------
 
-Activez cette fonctionnalité pour que les utilisateurs puissent envoyer des e-mails à un canal dans Teams, en utilisant l’adresse de messagerie du canal. Les utilisateurs peuvent envoyer des e-mails pour tous les canaux appartenant à une équipe dont ils sont propriétaires. Ils peuvent également envoyer des e-mails à n’importe quel canal dans une équipe pour laquelle la fonction d’ajout de connecteurs est activée pour les membres de l’équipe. De plus, même si un utilisateur n’est pas autorisé à créer une adresse de messagerie de canal, si une personne qui dispose de cette autorisation crée cette adresse, l’utilisateur pourra y avoir accès depuis le menu de l’\<icône plus\> de ce canal.
+Activez cette fonctionnalité pour que les utilisateurs puissent envoyer des e-mails à un canal dans Teams, en utilisant l’adresse de messagerie du canal. Les utilisateurs peuvent envoyer des e-mails pour tous les canaux appartenant à une équipe dont ils sont propriétaires. Ils peuvent également envoyer des e-mails à n’importe quel canal dans une équipe pour laquelle la fonction d’ajout de connecteurs est activée pour les membres de l’équipe. De plus, même si un utilisateur n'est pas autorisé à créer une adresse de messagerie de canal, si une personne qui dispose de cette autorisation crée cette adresse, l'utilisateur pourra y avoir accès depuis le menu **Plus d'options** de ce canal.
 
-La section Intégration de la messagerie vous permet de configurer les paramètres suivants pour votre organisation :
+Configurez les paramètres d'**intégration de la messagerie** suivants pour votre organisation : 
 
    ![Capture d'écran de la section Intégration de la messagerie dans les paramètres à l'échelle du client.](media/QS-edu-email-integration.png)
 
--   **Autoriser les utilisateurs à envoyer des e-mails aux canaux :** lorsque ce paramètre est activé, des hooks de messagerie sont activés et les utilisateurs peuvent publier des messages dans un canal en envoyant un e-mail à l'adresse de messagerie du canal Teams.
+-   **Autoriser les utilisateurs à envoyer des e-mails aux canaux :** lorsque ce paramètre est activé, des hooks de messagerie sont activés et les utilisateurs peuvent publier des messages dans un canal en envoyant un e-mail à l'adresse de messagerie du canal Teams. 
 
-> Pour rechercher l'adresse de messagerie d'un canal, cliquez sur **Plus d'options** près du nom du canal, puis sélectionnez **Obtenir l'adresse de messagerie**.
+ 
+-   **Autoriser les utilisateurs à envoyer des e-mails aux canaux :** lorsque ce paramètre est activé, des hooks de messagerie sont activés et les utilisateurs peuvent publier des messages dans un canal en envoyant un e-mail à l'adresse de messagerie du canal Teams. 
+
+    Pour rechercher l'adresse de messagerie d'un canal, cliquez sur le menu **Plus d'options** du canal, puis sélectionnez **Obtenir l'adresse de messagerie**. 
 
 -   **Liste des utilisateurs restreints :** les domaines d'expéditeurs peuvent être limités pour garantir que seuls les domaines SMTP autorisés peuvent envoyer des e-mails aux canaux Teams.
 
 <a name="apps"></a>Applications
 ----
 
-Les applications dans Teams sont particulièrement pratiques pour intégrer les outils et services dont votre équipe a besoin directement dans un canal ou une conversation.
+Les applications sont des onglets, des connecteurs, des bots ou n'importe quelle combinaison de ces éléments, fournis par un service tiers. Des stratégies d'administration de Teams peuvent être configurées dans le Centre d'administration Office 365 pour contrôler l'autorisation d'applications tierces externes. Ces stratégies vous permettent de spécifier les applications autorisées et non autorisées, le comportement d'une nouvelle application externe, ainsi que l'autorisation du chargement de version test d'applications. 
 
-La section **Applications** vous permet de configurer les paramètres suivants pour votre organisation :
+La section **Applications** vous permet de configurer les paramètres suivants pour votre organisation : 
 
 ![Capture d'écran de la section Applications.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
 
--   **Autoriser les applications externes dans Microsoft Teams :** Lorsque ce paramètre est activé, les utilisateurs peuvent ajouter des onglets et des bots disponibles pour le client Office 365.
-![Capture d'écran de la commande Autoriser les applications externes dans la section Applications.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
+- **Autoriser les applications externes dans Microsoft Teams :** lorsque cette option est activée, les utilisateurs peuvent ajouter des onglets et des bots disponibles pour le client Office 365. 
+ 
+    ![Capture d'écran de la commande Autoriser les applications externes dans la section Applications.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
 
--   **Autoriser le chargement des versions de test d'applications externes :** Lorsque ce paramètre est activé, les utilisateurs peuvent installer et activer des bots et onglets personnalisés.
+- **Activer les applications externes nouvelles par défaut** : lorsque cette option est activée, les utilisateurs peuvent activer les nouvelles applications dès qu'elles sont ajoutées au catalogue d'applications Teams. Désactivez cette option si vous souhaitez contrôler les nouvelles applications. Bien sûr, si vous la désactivez, n'oubliez pas de vérifier régulièrement les nouvelles applications afin que votre organisation ne passe pas à côté de nouvelles applications intéressantes. 
+
+- **Autoriser le chargement des versions de test d'applications externes :** lorsque cette option est activée, les utilisateurs peuvent installer et activer des bots et onglets personnalisés. 
+
+Pour en savoir plus, consultez la rubrique [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md). 
+
+
 
 <a name="custom-cloud-storage"></a>Stockage cloud personnalisé
 --------------------
 
-Actuellement, les options de stockage cloud dans Teams incluent Box, Dropbox, Google Drive et ShareFile. Les utilisateurs peuvent charger et partager des fichiers à partir de services de stockage cloud dans les canaux et conversations Teams. Cliquez ou appuyez sur le commutateur situé en regard des fournisseurs de stockage cloud que votre organisation souhaite utiliser.
+Actuellement, les options de stockage cloud dans Teams incluent Box, Dropbox, Google Drive et ShareFile. Les utilisateurs peuvent charger et partager des fichiers à partir de services de stockage cloud dans les canaux et conversations Teams. Activez l'option pour les fournisseurs de stockage cloud que votre organisation souhaite utiliser. 
 
 ![Capture d'écran de la section Stockage cloud personnalisé.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
@@ -97,7 +115,9 @@ Dans **Paramètres utilisateur par licence**, vous pouvez activer ou désactiver
 
 Une équipe rassemble un groupe de personnes qui travaillent ensemble pour atteindre leurs objectifs. Les équipes peuvent être dynamiques dans le cadre d'activités de projet (par exemple, pour lancer un produit ou créer un centre de crise numérique). Les équipes peuvent également être continues et refléter la structure interne de votre organisation.
 
-En tant qu'administrateur, vous pouvez gérer les propriétaires et membres d'équipe à l'aide du tableau de bord Groupes dans le portail du Centre d'administration Office 365. Dans la section Équipes et canaux, cliquez sur le lien **Utiliser le tableau de bord Groupes dans le centre d'administration Office 365 pour gérer les équipes**.
+Le nombre maximal d'équipes qu'un client Office 365 peut comprendre est actuellement de 500 000. Un administrateur général peut créer un nombre illimité d'équipes. Un utilisateur peut créer 250 équipes. Un propriétaire d'équipe peut ajouter 2 500 membres à une équipe.
+
+En tant qu'administrateur, vous pouvez gérer les propriétaires et les membres d'équipe à l'aide du tableau de bord Groupes dans le Centre d'administration Office 365. Pour en savoir plus, cliquez sur **Utiliser le tableau de bord Groupes dans le Centre d'administration Office 365 pour gérer les équipes** sous l'option **Équipes et canaux**.
 
 Vous pouvez décider quels utilisateurs de votre organisation peuvent créer des équipes dans Teams.  Les mêmes paramètres de création définis par des groupes Office 365 s'appliquent à Teams. Pour plus d'informations sur la gestion des groupes Office 365, consultez les rubriques [Créer des groupes Office 365](https://support.office.com/en-us/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f) et [Gérer les utilisateurs qui peuvent créer des groupes Office 365](https://support.office.com/en-us/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
@@ -106,59 +126,55 @@ Vous pouvez décider quels utilisateurs de votre organisation peuvent créer des
 
 Par défaut, chaque utilisateur peut créer une équipe ou un groupe. Sélectionnez **Équipes** dans la partie gauche du client Teams (client de bureau ou application Web), puis l’option **Créer et rejoindre une équipe** dans la partie inférieure du client, sous la liste des clients.
 
-Par défaut, un client Office 365 peut actuellement contenir 500 000 équipes au maximum. Un administrateur global peut créer un nombre illimité d'équipes. Un utilisateur peut créer 250 équipes. Un propriétaire d'équipe peut ajouter 2 500 membres à une équipe.
-
 ![Capture d'écran des Paramètres utilisateur dans la section de licence.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
 
 Les canaux sont des sous-catégories d'équipes. Chacun des membres de l'équipe peut ajouter des canaux et participer à des conversations dans un canal. Vous pouvez créer un canal pour une activité ou un service. Les conversations, fichiers et pages wiki sont propres à chaque canal, mais tous les membres de l'équipe peuvent les afficher.
 
-### <a name="calls-and-meetings"></a>Appels et réunions
+## <a name="calls-and-meetings"></a>Appels et réunions
 
-La section **Appels et réunions** vous permet de configurer les paramètres suivants pour votre organisation :
+Configurez les paramètres d'**appels et de réunions** suivants pour votre organisation :
 
-> ![Capture d'écran de la section Appels et réunions.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
-
--   **Autoriser la planification de réunions privées :** Lorsque ce paramètre est activé, les utilisateurs peuvent planifier des réunions privées qui n'apparaîtront dans aucun canal.
-
--   **Autoriser les réunions ad hoc de canal :**
-
--   **Autoriser la planification de réunions de canal :** Lorsque ce paramètre est activé, les utilisateurs peuvent planifier une réunion pour un canal à laquelle les membres pourront facilement participer en un clic.
-
--   **Autoriser la vidéo dans les réunions :** Spécifie si l'utilisation de la vidéo est autorisée dans les réunions.
-
--   **Autoriser le partage d'écran dans les réunions :** Spécifie si le partage d'écran est autorisé dans les réunions.
-
--   **Autoriser les appels privés :** Lorsque ce paramètre est activé, les utilisateurs peuvent passer des appels privés.
+![Capture d'écran de la section Appels et réunions.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
 
 Une réunion peut inclure 80 personnes maximum. Une conversation privée peut compter 20 membres, y compris l'utilisateur qui en est à l'origine.
 
-### <a name="messaging"></a>Messagerie 
+-   **Autoriser la planification de réunions privées** : lorsque ce paramètre est activé, les utilisateurs peuvent planifier des réunions privées qui n'apparaîtront dans aucun canal.
+
+-   **Autoriser les réunions ad-hoc de canal**
+
+-   **Autoriser la planification de réunions de canal** : lorsque ce paramètre est activé, les utilisateurs peuvent planifier une réunion pour un canal à laquelle les membres pourront facilement participer en un clic.
+
+-   **Autoriser la vidéo dans les réunions** : spécifie si l'utilisation de la vidéo est autorisée dans les réunions.
+
+-   **Autoriser le partage d'écran dans les réunions** : spécifie si le partage d'écran est autorisé dans les réunions.
+
+-   **Autoriser les appels privés** : lorsque ce paramètre est activé, les utilisateurs peuvent passer des appels privés.
+
+## <a name="messaging"></a>Messagerie 
 
 La section Messagerie vous permet de configurer les paramètres suivants pour votre organisation :
 
 ![Capture d'écran de la section Messagerie.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image10.png)
 
--   **Activer Giphy pour permettre aux utilisateurs d'ajouter des images GIF aux conversations :** Lorsque ce paramètre est activé, les utilisateurs peuvent utiliser des images animées dans les conversations.
+-   **Activer Giphy pour permettre aux utilisateurs d'ajouter des images animées aux conversations** : lorsque ce paramètre est activé, les utilisateurs peuvent utiliser des images animées dans les conversations.
 
-    -   **Contrôle d'accès au contenu :** Lorsque les images animées sont activées, vous pouvez appliquer un contrôle d'accès au contenu pour limiter l'affichage dans les conversations en fonction du type d'images animées. Les options de contrôle d'accès au contenu disponibles sont les suivantes :
+-   **Contrôle d'accès au contenu** : lorsque les images animées sont activées, vous pouvez appliquer un contrôle d'accès au contenu pour limiter l'affichage dans les conversations en fonction du type d'images animées. Les options de contrôle d'accès au contenu disponibles sont les suivantes :
 
-        -   Aucune restriction
+    -   Aucune restriction
+    -   Modéré (valeur par défaut)
+    -   Strict
 
-        -   Modéré (valeur par défaut)
+-   **Activer les mèmes pour permettre aux utilisateurs de les modifier et de les ajouter aux conversations** : lorsque ce paramètre est activé, les utilisateurs peuvent utiliser des mèmes Internet pour publier des messages amusants.
 
-        -   Strict
+-   **Activer les autocollants pour permettre aux utilisateurs de les modifier et de les ajouter aux conversations** : lorsque ce paramètre est activé, les utilisateurs peuvent publier des images avec un texte modifiable pour attirer l'attention des membres d'un canal.
 
--   **Activer les mèmes pour permettre aux utilisateurs de les modifier et de les ajouter aux conversations :** Lorsque ce paramètre est activé, les utilisateurs peuvent utiliser des mèmes Internet pour publier des messages amusants.
+-   **Autoriser les propriétaires à supprimer tous les messages** : lorsque ce paramètre est activé, les propriétaires de canal peuvent supprimer tous les messages d'un canal.
 
--   **Activer les autocollants pour permettre aux utilisateurs de les modifier et de les ajouter aux conversations :** Lorsque ce paramètre est activé, les utilisateurs peuvent publier des images avec un texte modifiable pour attirer l'attention des membres d'un canal.
+-   **Autoriser les utilisateurs à modifier leurs propres messages** : lorsque ce paramètre est activé, les utilisateurs peuvent modifier leurs propres messages.
 
--   **Autoriser les propriétaires à supprimer tous les messages :** Lorsque ce paramètre est activé, les propriétaires de canal peuvent supprimer tous les messages d'un canal.
+-   **Autoriser les utilisateurs à supprimer leurs propres messages** : lorsque ce paramètre est activé, les utilisateurs peuvent supprimer leurs propres messages.
 
--   **Autoriser les utilisateurs à modifier leurs propres messages :** Lorsque ce paramètre est activé, les utilisateurs peuvent modifier leurs propres messages.
-
--   **Autoriser les utilisateurs à supprimer leurs propres messages :** Lorsque ce paramètre est activé, les utilisateurs peuvent supprimer leurs propres messages.
-
--   **Autoriser les utilisateurs à discuter en privé :** Lorsque ce paramètre est activé, les utilisateurs peuvent mener des conversations privées visibles uniquement pour les personnes qui y participent, non pour tous les membres de l'équipe.
+-   **Autoriser les utilisateurs à discuter en privé** : lorsque ce paramètre est activé, les utilisateurs peuvent mener des conversations privées visibles uniquement pour les personnes qui y participent, non pour tous les membres de l'équipe.
 
 
 | |  |  |

@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 10/05/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: MyAdvisor, dearbeen
 description: "Tout ce que vous devez savoir sur la transition de Skype Entreprise Online vers Microsoft Teams."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: af0204d5eb1edd7b58aee5c8f913a8b5404b295f
-ms.sourcegitcommit: 02403b6dc6e0a9a0a590fbf41fa8a552d2f29e1f
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: f006e0a26fc2899da0c3cebc7aa100c0a910c739
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Transition de Skype Entreprise à Microsoft Teams
 ==================================================
@@ -21,7 +24,7 @@ Dans la perspective des [communications intelligentes](https://aka.ms/intelligen
 
 Consultez [la feuille de route de Teams](https://aka.ms/TeamsRoadmap) pour rester informé des nouveautés relatives à ce produit et définir le meilleur moment pour que votre organisation fasse la transition.
 
-La [feuille de route de l'évolution des fonctionnalités entre Skype Entreprise et Microsoft Teams](https://aka.ms/skype2teamsroadmap) est un formidable outil pour rester informé lors de la transition de Skype Entreprise à Teams. Il s'agit d'un fichier au format PDF (pour l'instant uniquement disponible en anglais) à télécharger indiquant les fonctionnalités que Microsoft souhaite récupérer de Skype Entreprise pour Teams.
+La [feuille de route de l'évolution des fonctionnalités entre Skype Entreprise et Teams](https://aka.ms/skype2teamsroadmap) est un formidable outil pour rester informé lors de la transition de Skype Entreprise à Teams. Il s'agit d'un fichier au format PDF (pour l'instant uniquement disponible en anglais) à télécharger indiquant les fonctionnalités que Microsoft souhaite récupérer de Skype Entreprise pour Teams.
 
 Pour obtenir des résultats optimaux, nous vous conseillons de suivre les instructions pour :
 
