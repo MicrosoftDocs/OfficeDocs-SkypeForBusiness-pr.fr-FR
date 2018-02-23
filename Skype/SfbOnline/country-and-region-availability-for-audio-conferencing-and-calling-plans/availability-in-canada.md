@@ -1,0 +1,86 @@
+---
+title: "Disponibilité au Canada"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: mikedav, jastark, oscarr
+ms.date: 02/06/2018
+ms.topic: article
+ms.assetid: 44ac6f2b-e566-45bf-acc6-24b5184f1554
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: None
+ms.custom:
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: "Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada."
+ms.openlocfilehash: 19bd588ec12256512d7007b378db4c79ee4e2c20
+ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/09/2018
+---
+# <a name="availability-in-canada"></a>Disponibilité au Canada
+
+[Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
+
+Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada.
+  
+## <a name="audio-conferencing"></a>Audioconférence
+
+|**Fonctionnalité**|**Détails**|
+|:-----|:-----|
+|L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour Toronto. Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponibles  <br/> |
+   
+## <a name="phone-system"></a>Système téléphonique
+
+|**Fonctionnalité**|**Détails**|
+|:-----|:-----|
+|Le système téléphonique est-il disponible à l'achat ?  <br/> |Oui  <br/> |
+| Standards automatiques <br/> |Disponibles  <br/> |
+|Files d'attente des appels  <br/> |Disponibles  <br/> |
+|Messagerie vocale  <br/> |Disponibles  <br/> |
+
+## <a name="calling-plans"></a>Forfaits d'appels
+> [!IMPORTANT]
+> Pour le Canada, disponible uniquement pour les clients de la version préliminaire et les utilisateurs précoces. Pour plus d’informations, consultez les [Programmes de version bêta de Skype](https://www.skypepreview.com).
+    
+|**Fonctionnalité**|**Détails**|
+|:-----|:-----|
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
+|Minutes disponibles pour les forfaits d'appels  <br/> |3000 minutes nationales ou 600 minutes internationales (en fonction de ce qui arrive en premier par mois civil). <br/> |
+|Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+   
+## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
+
+|**Fonctionnalité**|**Détails**|
+|:-----|:-----|
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | Calgary <br/>  Montréal <br/>  Toronto <br/>  Vancouver <br/>  Winnipeg <br/> |
+|Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
+|Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
+   
+ Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+  
+## <a name="communications-credits"></a>Crédits de communication
+
+|**Fonctionnalité**|**Détails**|
+|:-----|:-----|
+|Les crédits de communication sont-ils disponibles ?  <br/> |Oui  <br/> |
+   
+Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+  
+## <a name="related-topics"></a>Rubriques connexes
+
+[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+
+[Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
