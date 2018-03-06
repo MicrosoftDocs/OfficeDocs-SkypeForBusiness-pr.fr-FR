@@ -2,18 +2,18 @@
 title: "Utiliser des fichiers journaux pour le dépannage de Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Découvrez les journaux de débogage, des médias et du bureau générés par Microsoft Teams, où les trouver et comment ils peuvent vous assister dans vos opérations de dépannage."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bef400cd5838848a0eb25f709e930611fac9ed6d
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 51cac5707b6465b2de4c1c69fdd430914769bb91
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser des fichiers journaux pour le dépannage de Microsoft Teams
 =================================================
@@ -40,7 +40,7 @@ Le tableau suivant présente les différents clients et les journaux associés. 
 |Android     |-         |-         |-         |
 |Windows Phone     |-         |-         |-         |
 
-Pour obtenir une liste complète des systèmes d'exploitation et navigateurs pris en charge, consultez la [FAQ de Microsoft Teams](https://support.office.com/en-US/article/Frequently-asked-questions-about-Microsoft-Teams-%E2%80%93-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc).
+Pour obtenir la liste complète des systèmes d’exploitation et navigateurs pris en charge, consultez la rubrique [Obtenir des clients pour Microsoft Teams](get-clients.md).
 
 <a name="debug-logs"></a>Journaux de débogage
 ---------------------------

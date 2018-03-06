@@ -2,18 +2,20 @@
 title: "Formation à Microsoft Teams pour les administrateurs"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Vidéos de formation présentant Microsoft Teams et expliquant aux administrateurs comment planifier, déployer et exécuter Microsoft Teams."
+ms.custom:
+- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 550c306e80bcb76dc9c232bb3152b4514c3f7332
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
+ms.openlocfilehash: 1f5c37becb8fd82953e07dc948e82a51b7c9cf6e
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 ==================================
@@ -32,7 +34,7 @@ Découvrez Teams et encouragez son utilisation dans votre organisation. Vérifie
 | Présentation détaillée de l'accès invité <br>Session cloud avec Laith Al et Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | e-Discovery dans Microsoft Teams <br> Session cloud avec Ansuman Acharya et Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Teams : Introduction par étapes sur l'utilisation, l'activation et la gestion de l'expérience <br> Session Microsoft Mechanics avec Dan Stevenson et Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
-
+| Gestion de l’expérience des applications dans Microsoft Teams <br> Session cloud avec Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 
 

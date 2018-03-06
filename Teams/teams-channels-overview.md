@@ -2,7 +2,7 @@
 title: "Présentation des équipes et des canaux dans Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,16 +10,16 @@ description: "Découvrez la variété d'équipes, de canaux et d'applications di
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a35e8f7412240fdf3ecc7161a2f79441f9051ec2
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: b9586a321c74cdb3d16bf78cf8b63c67b1e46a05
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 =================================================
 
-Commençons par réfléchir sur l'organisation de chaque équipe avec Microsoft Teams :
+Commençons par nous pencher sur la façon dont Microsoft Teams permet aux équipes individuelles de s’auto-organiser et de collaborer dans différents scénarios d’entreprise.
 
 -   Une **équipe** regroupe des personnes, du contenu et des outils autour d'un projet ou d'une tâche spécifique au sein d'une organisation.
 
@@ -31,13 +31,16 @@ Commençons par réfléchir sur l'organisation de chaque équipe avec Microsoft�
 
     -   Les canaux d'une équipe sont des endroits où chaque membre dans l'équipe peut mener des conversations ouvertes. Les discussions privées ne sont accessibles qu'aux personnes qui participent à cette conversation.
 
-    -   Les canaux peuvent être étendus à l'aide d'applications comprenant des onglets, des connecteurs et des bots.
-
-![Diagramme d'une hiérarchie de l'organisation des équipes et des canaux dans Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
-
-Pour faire adopter Microsoft Teams par les utilisateurs, une activité clé de planification initiale consiste à mener une réflexion sur l'amélioration de la collaboration dans le travail quotidien grâce à Microsoft Teams.
+    -   Les canaux peuvent être développés avec des applications qui incluent des onglets, des connecteurs et des robots qui leur apporteront une valeur ajoutée pour les membres de l’équipe.
+    
+Prenez cinq minutes pour découvrir les meilleures pratiques pour organiser des équipes, des canaux et des onglets dans cette vidéo :
+|  |  |
+|---------|---------|
+| 5 minutes pour configurer des équipes, des canaux et des onglets   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
 
 Par défaut, tous les utilisateurs sont autorisés à créer une équipe dans Microsoft Teams. (Pour modifier ces autorisations, consultez la rubrique [Assigner des rôles et des autorisations dans Microsoft Teams](assign-roles-permissions.md).) Les utilisateurs d'un groupe Office 365 existant peuvent également contribuer à des améliorations avec la fonctionnalité Microsoft Teams.
+
+Pour faire adopter Microsoft Teams par les utilisateurs, une activité clé de planification initiale consiste à mener une réflexion sur l'amélioration de la collaboration dans le travail quotidien grâce à Microsoft Teams. Discutez avec les utilisateurs et aidez-les à sélectionner les scénarios d’entreprise dans lesquels ils collaborent actuellement de manière fragmentée.  Rassemblez-les dans un canal avec les onglets pertinents qui les aideront à effectuer leur travail. Un des cas d’utilisation les plus puissants de Teams est un processus inter-organisationnel. 
 
 <a name="sample-team-set-up"></a>Exemple de configuration d'équipe
 ------------------
@@ -59,4 +62,8 @@ Microsoft Teams permet d'aplanir efficacement les silos organisationnels et de 
 |Logistique     |Opérations d'entrepôt<br></br>Maintenance des véhicules<br></br>Registre des conducteurs         |Service météo<br></br>Perturbations de déplacement / trafic<br></br>Planificateur<br></br>Tubot<br></br>UPS Bot         |
 |RH     |Gestion des compétences<br></br>Recrutement<br></br>Planification de l'évaluation des performances<br></br>Éthique         |Outil de RH<br></br>Sites d'offres d'emploi externes<br></br>Growbot         |
 |Inter-organisationnel <br></br>Équipe virtuelle |Stratégie<br></br>Développement des effectifs<br></br>Concurrence et recherche         |Power BI<br></br>Microsoft Stream         |
+
+Il est possible de créer des équipes alignées sur la structure de l’organisation.  Cette option convient surtout aux responsables qui souhaitent encourager l’état d’esprit, avoir des évaluations spécifiques aux équipes, clarifier le processus d'intégration des employés, discuter des plans de gestion du personnel et accroître la visibilité auprès d'une main-d'œuvre diversifiée.  
+
+![Diagramme d'une hiérarchie de l'organisation des équipes et des canaux dans Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png
 

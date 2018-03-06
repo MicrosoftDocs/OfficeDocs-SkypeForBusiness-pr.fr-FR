@@ -2,7 +2,7 @@
 title: "Interopérabilité entre Microsoft Teams et Skype Entreprise"
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lolaj
+manager: serdars
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ description: "Découvrez le fonctionnement de l'interopérabilité entre Teams e
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08954783a3e0aaf8ae6b54c621ea21c67df6208e
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: ca1391aed7279bfb45adeca159b2a3aed6bcee30
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="microsoft-teams-and-skype-for-business-interoperability"></a>Interopérabilité entre Microsoft Teams et Skype Entreprise
 =======================================================
@@ -53,7 +53,7 @@ L'interopérabilité se caractérise comme suit :
 ![Interopérabilité des appels dans Teams](media/Interop_calling_experience_from_Teams.png)<br>
 
 > [!NOTE]
-> Du point de vue des utilisateurs de Skype Entreprise, les conversations et les appels de/vers Teams s'afficheront comme des conversations et appels de base dans Skype Entreprise. Consultez la section sur les [Restrictions de l'interopérabilité](#interop-experiences-limitations) pour en savoir plus.
+> Du point de vue des utilisateurs de Skype Entreprise, les conversations et les appels de ou vers Teams s'afficheront comme des conversations et appels de base dans Skype Entreprise. Consultez la section sur les [Restrictions de l'interopérabilité](#interop-experiences-limitations) pour en savoir plus.
 
 > [!IMPORTANT]
 > La présence unifiée entre Teams et Skype Entreprise n'est actuellement pas prise en charge, ce qui signifie que Teams et Skype Entreprise affichent leurs propres états de présence. Pour connaître la date de disponibilité de la présence unifiée, consultez la [Feuille de route de l'évolution des fonctionnalités entre Skype Entreprise et Microsoft Teams](https://aka.ms/skype2teamsroadmap).

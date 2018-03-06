@@ -2,7 +2,7 @@
 title: "Outils et ateliers : planifier, fournir et utiliser Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
@@ -11,24 +11,24 @@ description: "Outils de planification, ateliers et kits de prise en main pour ai
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf4b7dad507ee10743df986ca6c489af2bf165b3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ecb8c4f893f3bbced59331349e432883d0cb7953
+ms.sourcegitcommit: 9094c87dec3f8d7d05c7e879d357a6ed428d7cdf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>Outils et ateliers : planifier, fournir et utiliser Microsoft Teams
 =============================================================
 
 Téléchargez ces outils pour vous orienter dans la planification, la livraison et l'exécution de Microsoft Teams dans votre organisation.
 
-- [Kit de prise en main de Microsoft Teams](http://microsoft.com/download/56505) 
+- [Kit de prise en main de Microsoft Teams](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
     
-    Dans ce guide, vous trouverez des conseils pour tirer le meilleur parti de Teams pour les différentes fonctions de votre organisation, comme le marketing, les ventes, la finance, les ressources humaines, les technologies de l'information, l'ingénierie et la gestion de projets.
+    Ce kit contient un éventail de présentations, de modèles d’e-mail, de conseils et astuces et d’affiches que vous pouvez utiliser pour déployer Teams dans votre organisation. Il inclut deux guides de démarrage rapide : un pour les administrateurs informatiques et un pour les responsables d’équipe. Utilisez ces ressources pour tirer le meilleur parti de Teams pour les différentes fonctions de votre organisation, comme le marketing, les ventes, la finance, les ressources humaines, les technologies de l'information, l'ingénierie et la gestion de projets.
 
 
 
-- [Guide de démarrage rapide : Activation réussie de Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
+- [Guide de démarrage rapide pour les administrateurs](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
     
     Ce document présente les cinq phases d'implémentation d'une activation réussie de Teams. Il se termine par un questionnaire de planification technique qui recueille des informations sur l'environnement Office 365 actuel de votre organisation. Ces informations permettront au responsable de l'atelier de personnaliser sa présentation. Le questionnaire recueille également vos décisions et les étapes suivant l'atelier.
 

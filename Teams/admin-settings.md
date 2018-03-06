@@ -2,20 +2,22 @@
 title: "Paramètres d'administration pour les applications dans Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/29/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: "Découvrez comment autoriser et activer des applications dans Microsoft Teams, y compris le chargement de version test d'applications externes."
+ms.custom:
+- NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cdca98cca13ffb49575b808a5cfa82f784d1752
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 0fb8d7680338ebda68624a765068d4c386ea46b3
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Paramètres d'administration pour les applications dans Microsoft Teams
 ==========================================
@@ -26,6 +28,12 @@ Les applications sont des onglets, des connecteurs et des bots ou toute combinai
 > Pour gérer les paramètres d’administration dans Teams, accédez au centre d’administration Office 365 et ouvrez l’option **Paramètres** > **Services et compléments**, puis sélectionnez **Microsoft Teams**. Si vous êtes connecté en tant qu’administrateur d’Office 365, ce lien vous dirige sur cette option :
 > 
 > https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+
+Pour en savoir plus sur les paramètres d’administration, regardez la vidéo suivante : 
+ 
+|  |  |
+|---------|---------|
+| Gestion de l’expérience des applications dans Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 ## <a name="allow-external-apps-in-teams"></a>Autoriser les applications externes dans Teams
 

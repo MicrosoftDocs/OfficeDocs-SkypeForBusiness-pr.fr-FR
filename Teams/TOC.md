@@ -20,6 +20,7 @@
 ## [Présentation d'un déploiement de Teams](deployment-overview.md)
 ## [Planifier les groupes Office 365 lors de la création d'équipes dans Microsoft Teams](plan-Office-365-groups.md)
 ## [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
+## [Qualité de service (QoS) dans Teams](QoS-in-Teams.md)
 ## [URL et plages d'adresses IP Office 365](Office-365-URLs-IP-address-ranges.md)
 ## [Outils et ateliers : planifier, fournir et utiliser Teams](planning-workshop-practical-guide.md)
 
@@ -61,9 +62,7 @@
 
 # [Voix cloud](cloud-voice-deployment.md)
 ## [Audioconférence](audio-conferencing.md)
-### [Concevoir](audio-conferencing.md#Envision_AudioConferencing)
 ## [Système téléphonique avec forfaits d’appels](phone-system-with-calling-plans.md)
-### [Planifier](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
 ## Forfaits d'appels
 ### [Guide de démarrage rapide : configurer les forfaits d'appels](configuring-teams-calling-quickstartguide.md)
 ### [Découvrir les appels dans Teams](Tutorial-Calling-in-Teams.yml)
@@ -98,6 +97,7 @@
 ## [Vérifier l'intégrité du service pour Microsoft Teams](service-health.md)
 ## [Dépannage des problèmes de connectivité avec le client Microsoft Teams](connectivity-issues.md)
 ## [Utiliser des fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
+
 
 # Teams pour l’éducation
 ## [Guide de démarrage rapide pour les administrateurs : Teams pour l’éducation](Teams-quick-start-edu.yml)

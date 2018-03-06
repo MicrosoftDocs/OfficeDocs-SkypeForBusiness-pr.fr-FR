@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: d2576d254865e7f97ff614cc80689d952d8a3997
-ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
+ms.openlocfilehash: b58c4759fc66bd9f573123bebf1772609a7a79e2
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Bienvenue dans le contenu Office de docs.microsoft.com
 ## <a name="this-is-a-level-2-heading"></a>Il s'agit d'un titre de niveau 2
@@ -19,16 +19,18 @@ ms.lasthandoff: 01/17/2018
 3. élément 4
 
 
+basculer vers le fichier test
 
 
+Il est possible d’amener à consulter un tableau de repères contenant une liste à puces utilisant des symboles HTML et seulement la balise de saut de ligne :
 
-sasdfsdf para1
+| Cellule d’en-tête1 | Cellule d’en-tête2 |
+| ---          | ---          |
+| Cellule de contenu |texte d'introduction <br>&nbsp;&nbsp;&nbsp; &bull;&nbsp;&nbsp; élément de liste1<br> &nbsp;&nbsp;&nbsp; &bull;&nbsp;&nbsp; élément de liste2     |
+| Cellule de contenu | Cellule de contenu |
 
-para2
-
-**para3**
-
-
+<p>J’afficherai &#9744;</p>
+<p>J’afficherai &#x2610;</p>
 
 
 Le contenu Microsoft Teams est désormais disponible.
