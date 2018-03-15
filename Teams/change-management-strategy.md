@@ -9,32 +9,36 @@ ms.service: msteams
 description: "Découvrez comment élaborer une stratégie de gestion des modifications pour Microsoft Teams par le biais de l'identification de vos intervenants clés, des objectifs de l'entreprise, des mesures de réussite et la gestion de votre campagne."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af8b09f9799de676e3af389448a9f851ef558a7b
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 73fa7f0decc5080166e85049bb7619b9b3c29ad5
+ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/01/2018
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Élaborer une stratégie de gestion des modifications pour Microsoft Teams
 =======================================================
 
-Une stratégie de gestion des modifications à des fins de sensibilisation des utilisateurs finaux et d'adoption de nouvelles technologies est essentiel à la réussite du lancement de toute technologie dans une organisation. L'exécution réussie de cette phase du déploiement assurera l'adoption par les utilisateurs et leur satisfaction de la nouvelle expérience.
+Une stratégie de gestion des modifications à des fins de sensibilisation des utilisateurs finaux et d'adoption de nouvelles technologies est essentielle à la réussite du lancement de toute technologie dans une organisation. L'exécution réussie de cette phase assurera l'adoption par les utilisateurs et leur satisfaction de la nouvelle expérience.  Les étapes identifiées ci-dessous peuvent être modifiées en fonction de la taille de votre organisation, mais garantir un niveau de communication soutenu avec les parties prenantes, les champions, les administrateurs informatiques et les utilisateurs est essentiel pour permettre un changement réussi.  
 
-Nous avons identifié les meilleures pratiques essentielles dans ce domaine :
+Meilleures pratiques de gestion des modifications pour Teams :
 
-1.  Identifier vos intervenants clés et les utilisateurs cibles
+1.  identifier les profils de vos parties prenantes clés, champions et utilisateurs ;
 
-2.  Identifier et sélectionner les objectifs de l'entreprise
+2.  identifier et sélectionner vos scénarios d’application professionnelle ;
 
-3.  Concevoir, lancer et gérer votre campagne d'adoption, entre autres via :
+3.  réaliser un projet pilote incluant les utilisateurs professionnels, les champions et les professionnels des technologies de l’information.  
 
-    a.  Des documents de sensibilisation destinés aux employés, tels que des affiches, une signalétique numérique et des événements
+4.  Concevoir, lancer et gérer votre campagne d'adoption : Téléchargez notre [Kit de réussite des clients](https://aka.ms/TeamsSuccessKit) comme point de départ. Une bonne campagne d’adoption inclut les éléments suivants :
 
-    b.  L'incorporation d'informations d'auto-assistance et de formation disponibles à un emplacement unique
+    a.  Des documents de sensibilisation internes tels que des affiches, une signalétique numérique et des événements
 
-    c.  La sélection de mesures de réussite
+    b.  Des informations d'auto-assistance et de formation disponibles à un emplacement unique
+    
+    c.  Un mécanisme de commentaires défini
 
-4.  Créer un programme champion
+    d.  Des mesures de réussite prédéfinies (adoption de la solution, vues des principaux supports, participation à des cours)
+
+4.  Créer un programme d’adoption avec votre déploiement de service
 
 5.  Fournir une méthode de retour d'expérience standard
 
@@ -42,10 +46,10 @@ Nous avons identifié les meilleures pratiques essentielles dans ce domaine :
 
 7.  Adapter vos messages et méthodes en fonction des commentaires, recommencer
 
-<a name="identify-key-stakeholders-users-and-champions"></a>Identifier les intervenants clés, les utilisateurs et les champions
+<a name="identify-key-stakeholders-champions-and-user-profiles"></a>Identifier les profils des parties prenantes clés, champions et utilisateurs
 -----------------------------------------------
 
-La première règle d'une adoption réussie, consiste à créer une équipe dynamique composée des intervenants clés et des personnes qui peuvent exercer une influence sur les autres. Une stratégie d'adoption réussie commence avec une équipe composée de personnes engagées qui représentent les différents secteurs de votre organisation. Les intervenants clés incluent les rôles de responsable exécutif, de propriétaire de service, de professionnel informatique et de champion.
+La première règle d'une adoption réussie consiste à créer une équipe dynamique composée des intervenants clés et des personnes qui peuvent exercer une influence sur les autres. Une stratégie d'adoption réussie commence avec une équipe composée de personnes engagées qui représentent les différents départements de votre organisation. Les parties prenantes clés incluent les responsables exécutifs, les propriétaires de service, les professionnels des technologies de l’information et les champions.
 
 |  |  |
 |---------|---------|
@@ -77,22 +81,22 @@ Identifier les personnes qui peuvent devenir vos champions de collaboration vous
 
 Pour apprendre à créer un programme champion, choisissez [Créer un programme champion](https://go.microsoft.com/fwlink/?linkid=854665).
 
-<a name="identify-and-select-your-business-outcomes-and-success-measures"></a>Identifier et sélectionner les objectifs de l'entreprise et les mesures de réussite
+<a name="identify-and-select-your-business-scenarios"></a>Identifier et sélectionner vos scénarios d’application professionnelle
 ---------------------------------------------------------------
 
-Une fois vos intervenants principaux et segments d'utilisateurs identifiés, définir les objectifs de l'entreprise sera d'autant plus facile. Voici quelques exemples d'objectifs à atteindre :
+Une fois vos parties prenantes clés et segments d'utilisateurs identifiés, identifier vos scénarios d’application professionnelle sera d'autant plus facile. Voici quelques exemples d’objectifs à atteindre :
 
--   Valoriser vos employés
+-   Simplifier le processus de vente
 
--   Transformer vos produits
+-   Accélérer la résolution des problèmes des clients
 
--   Fidéliser vos clients
+-   Renforcer l’implication des employés
 
--   Optimiser vos opérations
+-   Raccourcir les cycles de développement des produits
 
-Vos commerciaux rencontrent-ils des problèmes de coordination pour offrir une excellente expérience ? Une meilleure coordination est-elle nécessaire pour fournir votre produit ou service ? Qu'en est-il de l'expérience des ressources humaines pour vos propres employés ? Chaque organisation définira ses propres priorités. Nous vous recommandons d'en sélectionner au maximum 3 à traiter dans vos projets pilotes initiaux.
+Votre personnel des ventes a-t-il du mal à se coordonner pour fournir une très bonne expérience ? Avez-vous besoin d'une meilleure coordination dans la fourniture de votre produit ou service ? Qu’en est-il des expériences liées aux ressources humaines (RH) pour vos propres employés ? Chaque organisation trouvera ses priorités propres. Nous recommandons de sélectionner trois priorités au maximum à cibler dans vos phases pilotes initiales et d’inclure des utilisateurs et des professionnels commerciaux de ces organisations spécifiques. 
 
-Il convient également de prendre en compte les utilisateurs qui seront engagés dans ces scénarios. Sont-ils enclins au changement ? Sont-il mobiles ou sédentaires ? Quelle est leur proximité par rapport à la plateforme des responsables exécutifs et des champions qui les aideront, font-ils partie d'une communauté et disposent-ils de méthodes de communication que vous pouvez utiliser pour promouvoir ce changement ?
+Il convient également de prendre en compte les utilisateurs qui sont intégrés dans ces scénarios. Sont-ils enclins au changement ? S’agit-il d’utilisateurs mobiles ou sédentaires ? Quelle est leur proximité par rapport à la plateforme des responsables exécutifs et des champions qui les aideront, font-ils partie d'une communauté et disposent-ils de méthodes de communication que vous pouvez utiliser pour promouvoir ce changement ?  
 
 Les projets technologiques sont en prise à des difficultés lorsque l'attention accordée aux conditions de gestion des modifications est faible ou nulle. Suivez les recommandations suivantes pour optimiser vos chances de réussite.
 
@@ -109,11 +113,11 @@ Vos phases pilotes doivent respecter des étapes minimum :
 
 -   Tenir des réunions planifiées régulières pour tenir informés les intervenants du projet
 
--   Utiliser une méthode d'évaluation pour recueillir des informations auprès des personnes qui participent au projet pilote. Les entreprises peuvent utiliser un canal public dans Microsoft Teams pour permettre aux utilisateurs de participer et de fournir leurs commentaires.
+-   Choisissez une méthode de rétroaction pour collecter des informations auprès des personnes qui participent au projet pilote. Les entreprises de plus petite taille peuvent utiliser un canal public dans Teams pour permettre aux utilisateurs de participer et de fournir leurs commentaires. Dans les organisations plus grandes, pensez à lancer une communauté Yammer pour fournir un support technique.  
 
 -   Mettez à disposition des documents d'auto-assistance, notamment des vidéos sur le produit.
 
--   Tenez une réunion de lancement rassemblant les utilisateurs pilotes pour les motiver. Ne sous-estimez pas l'importance de la création d'un sens de la communauté avec enthousiasme.
+-   Organisez une réunion de lancement avec les utilisateurs pilotes pour les motiver. Ne sous-estimez pas l’importance de créer un sentiment de communauté.
 
 Une fois les phases pilotes initiales terminées, les étapes mentionnées plus haut peuvent être étendues à l'ensemble de l'organisation. En fonction de sa taille, cela peut prendre un certain temps et peut être abordé par phases par région, profil utilisateur ou organisation. Il est très efficace d'utiliser le don professionnel des communicants dans le cadre de ce déploiement élargi. Nous recommandons d'impliquer ces personnes dès le début et de manière fréquente à mesure que vous utilisez ou concevez vos propres [documents pour l'adoption de la technologie](https://go.microsoft.com/fwlink/?linkid=854598).
 
@@ -130,3 +134,21 @@ Comme dans toute campagne de communications et d'adoption, vous voudrez identifi
 -   Vues de vos vidéos de formation
 
 -   Assistance aux sessions de formation
+
+<a name="measure-and-share-success"></a>Mesurer et partager la réussite
+-------------------------------------------------
+
+Votre équipe du projet doit comprendre des administrateurs informatiques de votre organisation. Ces personnes auront accès aux rapports d’utilisation de Microsoft Teams Office 365 qui sont intégrés dans l’expérience du portail d’administration d’Office 365. Ces informations peuvent montrer l’utilisation de Microsoft Teams dans votre entreprise. Nous recommandons également d’obtenir des commentaires directement auprès de vos utilisateurs sur leur expérience de Teams et leurs autres idées d’utilisation. Partager ces exemples concrets de l'intérieur de votre entreprise est extrêmement utile pour parvenir à un changement soutenu au fil du temps avec votre communauté d’utilisateurs.  
+
+Vous trouverez des informations complémentaires sur les rapports d’utilisation de Microsoft Teams dans le portail d’administration d’Office 365 [ici](https://support.office.com/en-us/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+
+> [!TIP]
+> Utilisez votre équipe publique ou votre communauté Yammer pour collecter des données d’utilisation. Partagez-les en utilisant la balise #TeamsStories afin de les récupérer facilement.  Partagez une #TeamsStory par mois sur votre intranet pour mettre en avant les employés qui adhèrent au changement afin d’accroître la productivité et la collaboration dans votre environnement.  
+
+## <a name="ongoing-adoption"></a>Adoption permanente
+
+Encourager le changement dans une organisation est une activité permanente, pas un événement. Votre réunion de lancement n’est que le début d’un processus permettant aux personnes de collaborer de manière plus efficace. Il est important de planifier des moments dans ce processus qui mettent en avant vos réussites, d’introduire de nouvelles fonctionnalités et de vous rattacher à votre stratégie de services Office 365 globale, que votre département informatique élaborera. Vous assurer que vos utilisateurs sont impliqués au lieu d’être surchargés réduira leur lassitude face au changement et les aidera à abandonner leurs anciennes habitudes - comme les pièces jointes aux e-mails - pour adopter une nouvelle approche, comme stocker les documents dans le cloud.
+
+Partagez vos questions sur l’adoption du service Teams et Office 365 dans la [communauté Encourager l’adoption](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) sur le site de la communauté technique Microsoft. Nous sommes toujours ravis de communiquer avec vous et de vous aider dans votre processus d’adoption.  
+
+

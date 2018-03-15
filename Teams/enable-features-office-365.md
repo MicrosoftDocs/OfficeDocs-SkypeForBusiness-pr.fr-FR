@@ -13,11 +13,11 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad7af6222430f3cd3109ca76ce919a3342b959c8
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 87871cb46c1b9e584308b75376622473a3131888
+ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 <a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Activer les fonctionnalités de Microsoft Teams dans votre organisation Office 365
 ======================================================
@@ -82,7 +82,7 @@ Configurez les paramètres d'**intégration de la messagerie** suivants pour vot
 <a name="apps"></a>Applications
 ----
 
-Les applications sont des onglets, des connecteurs, des bots ou n'importe quelle combinaison de ces éléments, fournis par un service tiers. Des stratégies d'administration de Teams peuvent être configurées dans le Centre d'administration Office 365 pour contrôler l'autorisation d'applications tierces externes. Ces stratégies vous permettent de spécifier les applications autorisées et non autorisées, le comportement d'une nouvelle application externe, ainsi que l'autorisation du chargement de version test d'applications. 
+Les applications sont des onglets, des connecteurs et des bots ou toute combinaison de ces éléments, fournis par un service tiers. Des stratégies d'administration Teams peuvent être configurées dans le Centre d'administration Office 365 pour contrôler l'autorisation d'applications tierces externes. Ces stratégies vous permettent de spécifier les applications autorisées et non autorisées, le comportement d'une nouvelle application externe, ainsi que l'autorisation du chargement de version test d'applications. 
 
 La section **Applications** vous permet de configurer les paramètres suivants pour votre organisation : 
 
@@ -142,7 +142,7 @@ Une réunion peut inclure 80 personnes maximum. Une conversation privée peut c
 
 -   **Autoriser la planification de réunions privées** : lorsque ce paramètre est activé, les utilisateurs peuvent planifier des réunions privées qui n'apparaîtront dans aucun canal.
 
--   **Autoriser les réunions ad-hoc de canal**
+-   **Autoriser les réunions ad-hoc de canal** : lorsque ce paramètre est activé, les utilisateurs peuvent démarrer rapidement une réunion pour un canal qui a été créé à une fin immédiate ou spécifique.
 
 -   **Autoriser la planification de réunions de canal** : lorsque ce paramètre est activé, les utilisateurs peuvent planifier une réunion pour un canal à laquelle les membres pourront facilement participer en un clic.
 
