@@ -23,10 +23,10 @@ ms.custom:
 - Calling Plans
 description: "Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada."
 ms.openlocfilehash: 19bd588ec12256512d7007b378db4c79ee4e2c20
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="availability-in-canada"></a>Disponibilité au Canada
 
