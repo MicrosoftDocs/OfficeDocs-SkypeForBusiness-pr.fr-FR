@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 02/06/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -24,11 +24,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Les instructions pour obtenir des numéros de téléphone pour les utilisateurs de Skype Entreprise et Microsoft Teams sont différentes selon le pays ou la région. Suivez le lien d’accès à votre pays ou région ci-dessous pour obtenir les informations nécessaires."
-ms.openlocfilehash: 600d1370d0823c0cf5efab0c75ce0f26d6867828
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: 01c6f3bbb01d74d021594612561d035163378ba5
+ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gérer les numéros de téléphone de votre organisation
 Il existe trois façons d’obtenir des utilisateurs et des services (appel payant et gratuit) numéros pour votre organisation.
@@ -37,7 +37,7 @@ Il existe trois façons d’obtenir des utilisateurs et des services (appel paya
 - Transférer, ou « port » vos numéros existants sur nous.
 
 > [!IMPORTANT]
-> Impossible d’obtenir de **Belgique, l’Irlande, Allemagne et les pays-bas**, nouveaux numéros de téléphone téléphone à l’aide de la **Skype pour Business admin center**; Vous devez télécharger et remplir un formulaire.
+> Impossible d’obtenir de **Belgique, l’Irlande, Allemagne et les pays-bas**, nouveaux numéros de téléphone téléphone à l’aide de la **Skype pour Business admin center**; Vous devez télécharger et remplir un formulaire. Pour les nouveaux numéros de téléphone en Australie, consultez [Services de voix Telstra](http://aka.ms/TelstraVoicePlan). 
 
 ***
 Si vous connaissez les types de formulaires que vous cherchez à utiliser la liste déroulante pour sélectionner le pays/la région où vous obtenez des numéros.

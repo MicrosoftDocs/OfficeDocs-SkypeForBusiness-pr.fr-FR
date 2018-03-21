@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour l’Australie."
-ms.openlocfilehash: 7cc3be9976f0a581618cc93b835fceadab302717
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: 4552e465531ddbb331a0b0226b427ac44de1c558
+ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="availability-in-australia"></a>Disponibilité en Australie
 
@@ -47,7 +47,7 @@ Voici les services Office 365 pour Skype pour les entreprises et les Teams Micro
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Le système téléphonique est-il disponible à l'achat ?  <br/> |Oui  <br/> |
-| Standards automatiques <br/> |Disponibles  <br/> |
+|Standards automatiques <br/> |Disponibles  <br/> |
 |Files d'attente des appels  <br/> |Disponibles  <br/> |
 |Messagerie vocale  <br/> |Disponibles  <br/> |
    
@@ -57,7 +57,7 @@ Voici les services Office 365 pour Skype pour les entreprises et les Teams Micro
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui, voir [Services de Telstra](http://aka.ms/TelstraVoicePlan).  <br/> |
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui, consultez [Les Services de téléphonie Telstra](http://aka.ms/TelstraVoicePlan).  <br/> |
 |Minutes disponibles pour les forfaits d'appels  <br/> |Reportez-vous à la section [Services de Telstra](http://aka.ms/TelstraVoicePlan). <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Reportez-vous à la section [Services de Telstra](http://aka.ms/TelstraVoicePlan). <br/> |
 
@@ -69,7 +69,7 @@ Voici les services Office 365 pour Skype pour les entreprises et les Teams Micro
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    
-Si vous voulez obtenir le numéro payant et numéros de téléphone pour les standards automatiques et les files d’attente de l’appel, voir [Services de Telstra](http://aka.ms/TelstraVoicePlan). Pour la conférence audio, [Veuillez nous contacter](mailto:ptnapac@microsoft.com).
+Si vous voulez obtenir le numéro payant et numéros de téléphone pour les standards automatiques et les files d’attente de l’appel, voir [Services de voix Telstra](http://aka.ms/TelstraVoicePlan). Pour les numéros de service conférence audio, [Veuillez nous contacter](mailto:ptnapac@microsoft.com).
   
 ## <a name="communications-credits"></a>Crédits de communication
 
