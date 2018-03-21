@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Ce résumé de Skype pour les paramètres organisation et utilisateur d’entreprise peut vous aider à en savoir plus sur la connectivité PIC, les invitations aux réunions, l’enregistrement des appels et des réunions et bien plus encore.  "
-ms.openlocfilehash: 0f9bbf7e24d268cb4690212fc3f70abfd024c871
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e537074bea8d8243cbb4d951580c4432620ce539
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Résumé des paramètres Skype Entreprise Online
 
@@ -56,3 +56,6 @@ Le **Skype pour le centre d’administration métier** inclut des paramètres po
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

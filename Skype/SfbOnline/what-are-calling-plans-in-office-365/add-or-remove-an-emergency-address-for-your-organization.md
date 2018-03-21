@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f954c67c-b73c-4473-b6cd-a0fbcd0fd4c9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: a147b349cdd201cc585e557f3996d166caf4454d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 4bde1e825df6425f25fe9dbf41873e6b3b932507
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Ajout ou suppression d'une adresse d'urgence pour votre organisation
 
@@ -74,4 +76,7 @@ Pour savoir comment obtenir un Plan d’appel et son coût, consultez [Skype pou
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

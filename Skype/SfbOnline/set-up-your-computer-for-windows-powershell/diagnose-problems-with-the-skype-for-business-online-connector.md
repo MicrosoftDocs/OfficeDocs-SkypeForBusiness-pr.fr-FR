@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: "Résoudre les problèmes de création d’une session PowerShell à distance pour se connecter sur Skype pour professionnels en ligne, y compris l’Import-Module, shell simultanée, Live ID et erreurs d’autorisation."
-ms.openlocfilehash: 80062caae67eca24f47e1deb764121aef96ba30f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 2cc01ae6eac349d76b3b30e9b16d0b55ff3d0ad8
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostiquer les problèmes de connexion avec le Skype pour Business Connector d’en ligne
 
@@ -145,3 +145,5 @@ Bien que chaque administrateur est autorisé à avoir trois connexions simultan�
 ## <a name="related-topics"></a>Rubriques connexes
 [Configurer votre ordinateur pour Skype pour la gestion d’entreprise en ligne à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

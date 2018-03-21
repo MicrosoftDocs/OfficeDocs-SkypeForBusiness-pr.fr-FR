@@ -20,11 +20,11 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: "Apprenez à configurer des numéros de téléphone lorsque vous les porter à Skype pour les entreprises. "
-ms.openlocfilehash: c68a42838021c9f8a564b55dbac078af07d9031b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a7364c5ebf72730179c6848dc79172f4f971ff6a
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>Comment dois-je entrer les numéros de téléphone ?
 
@@ -96,4 +96,7 @@ Lorsque vous procédez au portage des numéros de téléphone, vous devez les en
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

@@ -20,11 +20,11 @@ ms.custom:
 - Legal
 hideEdit: 
 description: "Clients peuvent utiliser Office 365 audioconférence et Plan d’appel de Office 365 est autorisé dans le Skype pour en ligne RTPC Services utilisent les conditions commerciales et le contrat de licence en volume du client."
-ms.openlocfilehash: fac5ad1e413d62669e1ed23e6ea19f1c51ea3017
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: b029cd33c0dd58bf287704a3c1a1d4f7d1c98b5b
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audio conférence gratuite à distance période
 
@@ -88,3 +88,6 @@ Avantage supplémentaire pour les clients qui adoptent nos services d’audiocon
   
 ## <a name="related-topics"></a>Rubriques connexes
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

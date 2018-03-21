@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Les éléments suivants sont fréquemment posées sur le transfert des numéros de téléphone à Skype pour les entreprises. Après avoir examiné les réponses, vous devez être prêt à créer une commande de port et de transférer vos numéros de téléphone. Voir les numéros de téléphone de transfert vers Office 365 pour obtenir des instructions."
-ms.openlocfilehash: a7b6b9ea1b028f6578b13f29706c25fb182befc1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 3fe34a7c38fb8be206b0e3812674255d0593d188
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Transfert de questions courantes des numéros de téléphone
 
@@ -62,7 +64,7 @@ En général, vous pouvez transférer n'importe quel numéro de téléphone qui 
     
 - des numéros de téléphone VoIP provenant d'un fournisseur de téléphone, comme Vonage ou RingCentral.
     
-- Skype pour les numéros de téléphone professionnels hybride. Si vous souhaitez transférer ces numéros, vous devez envoyer à nous à <ptn@microsoft.com>.
+- Skype pour les numéros de téléphone professionnels hybride. Si vous souhaitez transférer ces numéros, vous devez envoyer à <ptn@microsoft.com>.
     
  **ÉLÉMENTS IMPOSSIBLES À TRANSFÉRER**:
   
@@ -117,7 +119,7 @@ Voici des informations supplémentaires concernant l'envoi des demandes de trans
     
 - Les **numéros de téléphone gratuits** incluant l'un des indicatifs suivants : 800, 844, 855, 866, 877 et 888 ; ces indicatifs ne peuvent pas être inclus dans une demande de transfert de numéro avec d'autres types de numéros. Pour porter ces numéros d’appel payant, vous devez [soumettre manuellement une demande de service personnalisé](manually-submit-a-custom-service-request.md); ils ne peuvent pas être présentés dans la Skype pour le centre d’administration Business. Reportez-vous à la section [Gérer les numéros de téléphone pour votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
-    Il est très important d'utiliser le LOA approprié pour le pays et le type de numéros de téléphone que vous souhaitez transférer. Vous pouvez télécharger les LOA [Télécharger un courrier dʼautorisation](download-a-letter-of-authorization-loa.md). Reportez-vous à la section [Gérer les numéros de téléphone pour votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+    Il est très important d'utiliser le LOA approprié pour le pays et le type de numéros de téléphone que vous souhaitez transférer. Vous pouvez télécharger la lettre d’accord que vous devez [Télécharger la lettre d’autorisation (LOA) dont vous avez besoin ici](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
 - Les **numéros de téléphone mobile** nécessitent un code confidentiel pour autoriser le transfert. Ils doivent donc faire l'objet d'une demande de transfert de numéro distincte.
     
@@ -174,6 +176,7 @@ Pour transférer ou *port des* numéros de téléphone à partir de Skype pour e
 
 [Conditions générales relatives aux appels d'urgence](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

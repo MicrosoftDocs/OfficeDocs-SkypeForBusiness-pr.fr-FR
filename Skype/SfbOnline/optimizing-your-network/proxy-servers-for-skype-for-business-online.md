@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: "Cet article vous orientera dans l'utilisation d'un serveur proxy avec Skype ºEntreprise."
-ms.openlocfilehash: 19c12ed4265c6549f00b54b3463215702d3ced2b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 29438474524c7c1e518fb3130fdaf436e562d76e
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Serveurs proxy pour Skype Entreprise Online
 
@@ -76,3 +76,6 @@ Reportez-vous au lien suivant si Bluecoat Proxy fait partie de la topologie de v
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Optimisation de votre réseau pour Skype Entreprise Online](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

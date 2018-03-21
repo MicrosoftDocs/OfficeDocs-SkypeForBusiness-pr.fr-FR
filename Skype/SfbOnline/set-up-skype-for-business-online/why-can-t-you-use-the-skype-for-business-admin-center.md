@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Découvrez ce que pouvez et ne pouvez pas utiliser dans Skype pour Business admin center et d’autres fonctionnalités lorsque votre service est en cours de migration vers un autre centre de données de Microsoft. "
-ms.openlocfilehash: b310bdc431edb890002bebd8d79271c78b841b38
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e9d0f2b56ebe11ef95b59ff125434dcf3dd4574d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Impossible d’utiliser le Skype pour le centre d’administration Business Online maintenant ?
 
@@ -67,3 +67,6 @@ Assurer. Alors que nous allons migrer votre Skype pour service d’entreprise en
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

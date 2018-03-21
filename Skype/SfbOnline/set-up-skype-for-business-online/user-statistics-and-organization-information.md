@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Découvrez les statistiques utilisateur Skype Entreprise disponibles, telles que le nombre d’utilisateurs activés, d’utilisateurs pour lesquels la conférence est activée ou d’utilisateurs pour lesquels Office 365 est activé."
-ms.openlocfilehash: 9a3336c061b69b951d2ec8cb6b927dd9115c7b7c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 371e1eabb7979dc805f2a4473040a491f3950352
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="user-statistics-and-organization-information"></a>Statistiques utilisateur et informations sur l’organisation
 
@@ -60,3 +60,6 @@ Le tableau de bord Skype Entreprise vous donne un aperçu de la configuration d
 [Autoriser les utilisateurs de Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

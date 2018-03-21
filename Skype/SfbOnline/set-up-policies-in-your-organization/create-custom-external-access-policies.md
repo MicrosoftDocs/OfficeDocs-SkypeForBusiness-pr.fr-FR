@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Skype pour entreprise en ligne vous permet de vous permet de créer des stratégies d’accès externes supplémentaires. Contrairement aux stratégies de client ou de conférence, où vous pouvez avoir plusieurs combinaisons, il existe trois stratégies prédéfinies accès externe qui peuvent couvrir la plupart des scénarios."
-ms.openlocfilehash: 7a5e347f3f9629f603544ad9ab06e11d4b649868
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 8ed4549aa1b32ccfb13bda559394e6aa79ab47ed
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="create-custom-external-access-policies"></a>Créer des stratégies d’accès externe personnalisée
 
@@ -115,3 +115,6 @@ Pour ce faire, exécutez la commande :
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)
 
 [Définir des stratégies de conférence dans votre organisation](set-up-conferencing-policies-for-your-organization.md)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

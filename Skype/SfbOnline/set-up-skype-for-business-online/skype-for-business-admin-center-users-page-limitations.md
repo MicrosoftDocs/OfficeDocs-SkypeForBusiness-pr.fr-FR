@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Apprenez à travailler dans les limites de Skype pour l’affichage de l’administrateur Business en ligne des utilisateurs. "
-ms.openlocfilehash: b7154c8b8aae4f8f28cd2ebc9e70d1c966507db8
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 7f7189536d1c859b25eb6cacb3fc75c57995d464
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Limitations de page Skype pour les utilisateurs de Business Online Administration center
 
@@ -44,3 +44,6 @@ Vous pouvez modifier le nombre d’utilisateurs à afficher sur chaque page avec
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

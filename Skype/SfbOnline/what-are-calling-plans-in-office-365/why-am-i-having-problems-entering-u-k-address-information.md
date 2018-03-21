@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "Voici quelques raisons pourquoi vous pouvez rencontrer des problèmes de mise en route de votre adresse ou les adresses de valider correctement dans la (Royaume-Uni)."
-ms.openlocfilehash: 6f77a9f69751df04d995c098768d99d85a6e2c70
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e012de9ba4371063bc16e2896a5bd4e3b8814a4d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Pourquoi ai-je des problèmes pour entrer au Royaume-Uni informations d’adresse ?
 
@@ -116,4 +116,7 @@ Si vous rencontrez un problème de saisie du code postal, n’oubliez pas :
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

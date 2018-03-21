@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Consultez la rubrique affecter un plan de service valides d’un utilisateur après qu’un Skype pour le plan de services professionnels en ligne n’est pas valide. "
-ms.openlocfilehash: d109386134afdca9641eac6b5f9c9b2aad1f45c1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e40f82aa22a003c53c982b3185db3a71fcbf271f
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Skype de l’utilisateur pour le plan de services professionnels en ligne n’est pas valide
 
@@ -36,4 +36,5 @@ Accédez au **Centre d’administration Office 365** > **utilisateurs actifs** e
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
   
-
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

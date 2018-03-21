@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Vous pouvez définir comment les utilisateurs se connectent à Skype pour entreprise en ligne à l’aide de la Skype pour application métier sur des périphériques mobiles, comme une fonctionnalité qui permet aux utilisateurs d’effectuer et de recevoir des appels sur leur téléphone mobile à l’aide de leur numéro de téléphone de travail au lieu de leur nu téléphone mobile bre. Des stratégies de mobilité peuvent également être utilisées pour exiger des connexions Wi-Fi lorsque les utilisateurs passent ou reçoivent des appels."
-ms.openlocfilehash: 904da369a4218b0b41112c97a1fed9de03c47c3b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 33978ca8e9a83ebe35342da169a01b1bfe53785b
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Configurer les stratégies mobiles pour votre organisation
 
@@ -145,3 +145,5 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de co
 
 [Définir des stratégies de conférence dans votre organisation](set-up-conferencing-policies-for-your-organization.md)
 
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

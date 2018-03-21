@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Découvrez comment configurer le mode de confidentialité à vos utilisateurs afin qu’ils peuvent mieux contrôler comment les personnes voient leur disponibilité. "
-ms.openlocfilehash: c548a0b85b4b458472da0d9196ac0271a92a16c2
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6a50370afb0e35873536162c9db28e4d75eed96e
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="configure-presence-privacy-mode"></a>Configurer le mode de confidentialité de présence
 
@@ -44,3 +44,6 @@ Le Skype pour le paramètre de présence commerciale en ligne permet à des gens
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

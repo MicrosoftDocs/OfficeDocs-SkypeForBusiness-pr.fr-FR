@@ -4,12 +4,14 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
+ms.date: 03/13/2018
 ms.topic: article
 ms.assetid: 4a57e3d0-8b08-494f-a195-b44afa9cbc0d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: "Découvrez quelles langues vous pouvez configurer dans Skype Entreprise pour les messages système par défaut. "
-ms.openlocfilehash: 256bc49c67ffbbfc4a503ffaf621cd4bb82b0c07
-ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
-ms.translationtype: HT
+ms.openlocfilehash: bb1a4d1caaf7b2d85fa00804288eadc2588997e1
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Langues pour les messages d'accueil et les messages de la messagerie vocale
 
@@ -61,9 +63,12 @@ Pour modifier la langue que Skype Entreprise utilise pour les messages d'accuei
 |Espagnol  <br/> |Espagne  <br/> |es-ES  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Espagnol  <br/> |Mexique  <br/> |es-MX  <br/> |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.  <br/> |
 |Suédois  <br/> |Suède  <br/> |sv-SE  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Turc  <br/> |Turquie  <br/> |tr-TR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
    
 ## <a name="related-topics"></a>Rubriques connexes
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Voici les avantages du système téléphonique dans Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
   
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

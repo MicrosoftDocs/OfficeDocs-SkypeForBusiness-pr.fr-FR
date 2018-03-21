@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles en Colombie."
-ms.openlocfilehash: 3b4c9250b47f63ee8c745d47211068fdc52bfce1
-ms.sourcegitcommit: 9f185be910855f6312344ea906e96e5e6449cf4c
-ms.translationtype: HT
+ms.openlocfilehash: d96f2c22ea80d10b411dd5a43355aed1aca6e80d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="availability-in-colombia"></a>Disponibilité en Colombie
 
@@ -83,4 +83,5 @@ Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les c
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

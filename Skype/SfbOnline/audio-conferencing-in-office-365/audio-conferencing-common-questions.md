@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "Voici quelques-unes des principales questions que nous recevons de nos clients qui souhaitent utiliser l’audioconférence."
-ms.openlocfilehash: 512b0d1ed52513323aba6152011663d912f07c40
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e699cd6a8c481df892114af5365866df8169019e
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="audio-conferencing-common-questions"></a>Questions courantes des conférences audio
 
@@ -156,4 +158,3 @@ Planification d’une réunion qui est joints par tous les participants à l’a
   
 [Numéros de téléphone pour l'audioconférence](phone-numbers-for-audio-conferencing.md)
   
-

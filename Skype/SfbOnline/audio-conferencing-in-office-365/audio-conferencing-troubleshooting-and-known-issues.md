@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 72979911-5319-4de2-a275-4dd9a0f44fe6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "Obtenir une liste des problèmes connus lors de l’utilisation de Microsoft en tant que son fournisseur de conférences, l’état et des solutions de contournement. "
-ms.openlocfilehash: 9e566d0ba9f07aeecca222ef586f301b1cd6cf5f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6d10e797ef052cafc22555b26a27a1aaeae1fc76
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Résolution des problèmes audio de conférence et les problèmes connus
 
@@ -46,6 +48,7 @@ Pour l’instant, l’utiliser comme référence lorsque vous dépannez des prob
 |Numérotation doit utiliser au moins 5 chiffres.  <br/> |Utilisateurs qui tentent d’établir une connexion depuis une réunion devront de taper des chiffres 5 ou plus, même si la règle de normalisation de plan de numérotation n’est disponible pour normaliser les chiffres court à E.164.  <br/> |Appels sortants en tapant la complète numéro DID ou le format de numéro local au lieu du numéro de poste interne.  <br/> |9/25/2017  <br/> |
 |Appels sortants de contrôle n’est pas visible par intermittence.  <br/> |Appels sortants de contrôle n’est peut-être pas visible dans le panneau d’informations sur la réunion.  <br/> |Aucune solution.  <br/> |9/25/2017  <br/> |
 |ID de conférence statique non pris en charge pour les réunions de Teams de Microsoft.  <br/> |Si l’administrateur substitue le paramètre par défaut de l’ID de conférence dynamique pour l’ID de conférence statique, ce paramètre ne prend effet pour les réunions de Teams de Microsoft. Reportez-vous [à l’aide de l’audioconférence dynamique d’ID dans votre organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Aucune solution.  <br/> |9/25/2017  <br/> |
+|Réunion de RTPC coordonnées ne sont pas disponibles pour Skype pour les utilisateurs professionnels sur site  <br/> |Si l’utilisateur est un Skype pour professionnels sur site utilisateur, assigné avec Skype pour Business Online, audioconférence et des licences d’équipes, toutes les conférences planifiées à l’aide des équipes n’incluent pas les coordonnées de la réunion de RTPC. <br/> |Aucune solution.  <br/> |2/1/2018  <br/> |
    
 ### <a name="skype-for-business-app"></a>Skype pour l’application d’entreprise
 
@@ -59,5 +62,3 @@ Pour l’instant, l’utiliser comme référence lorsque vous dépannez des prob
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing.md)
-  
-

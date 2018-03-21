@@ -20,7 +20,7 @@ ms.custom:
 - Legal
 description: "Ceci est le contenu qui doit être publié pour répondre aux exigences d’accessibilité, la conformité et réglementaires pour Skype pour entreprise en ligne en France. "
 ms.openlocfilehash: 1585f6b03efb75454c18024ae68c8068156a07d6
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/19/2018

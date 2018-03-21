@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "Découvrez pourquoi vous devez ajouter une personne qui peut apporter des modifications au compte lorsque vous utilisez l’Assistant Nouvelle commande de Port numéro Local."
-ms.openlocfilehash: f12bb42b3ae74f0d487e25f935c2c129545008c1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: f4ee09d0d76e76b5b52277362b3ea2f5aa725315
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="authorized-person-on-the-account"></a>Personne autorisée sur le compte
 
@@ -48,4 +48,7 @@ Dans l’Assistant **Nouvelle commande de Port numéro Local** , vous devez entr
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

@@ -20,11 +20,11 @@ ms.custom:
 - Legal
 hideEdit: 
 description: "De proposer à ses utilisateurs expériences accessibles est au cœur de la mission que s'est fixée Microsoft : permettre à chaque personne et à chaque organisation de la planète d'accomplir davantage, aptitudes de ses quelles que alignez-le. Microsoft un proposer le plaisir de, avec Skype Entreprise, un certaine accessibilité de d 'accessibilité qui s'inscrivent dans son engagement fort pour l' nombre de solutions et l'inclusion numérique."
-ms.openlocfilehash: 723746dcc61335f3eb0b655b51d177e804ab4166
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 45cc85ba3cca82a2f7064da0718dc56d0cc88df5
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-in-france"></a>Solutions d’accessibilité pour Skype pour entreprise en ligne en France
 
@@ -73,3 +73,5 @@ Verser à aider ses clients à évaluer l'accessibilité de Skype Entreprise, Mi
 ## <a name="related-topics"></a>Rubriques connexes
 [Déclaration de conformité pour l'accessibilité de Skype Entreprise Online en France](accessibility-declaration-of-conformance-in-france.md)
 
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

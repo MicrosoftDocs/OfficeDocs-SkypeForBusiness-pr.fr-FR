@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "Le nouveau Skype pour zone de rapports d’entreprise Admin Center affiche vous appelant et audio conférence activité dans votre organisation. Il vous permet de vous y plonger le rapports pour vous fournir des informations plus précises sur les activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails de l’utilisation d’Audio conférence PSTN, y compris le coût de l’appel afin que vous pouvez comprendre votre utilisation et appeler les détails de facturation pour déterminer l’utilisation au sein de votre organisation."
-ms.openlocfilehash: af7e33bc2cdc69d244eed1574ef5a075884f550d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 887d9e2e9e9daa614ca593551c2b9eb746c45cce
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="pstn-usage-report"></a>Rapport d’utilisation de TLS
 
@@ -91,8 +91,10 @@ Voici une illustration du rapport.
 ***
 ![Numéro 2](../images/sfbcallout2.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes.
  ***
-![Numéro 3](../images/sfbcallout3.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur le bouton **Exporter vers Excel**. <br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.
-   
+![Numéro 3](../images/sfbcallout3.png)<br/>Vous pouvez également exporter des données dans un onglet séparé par des fichier Excel, en cliquant sur le bouton **Exporter vers Excel** . <br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. 
+    > [!Note] 
+    > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
+
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
 
 - [Skype pour le rapport d’activité commerciale](activity-report.md) Vous pouvez voir combien vos utilisateurs sont à l’aide de peer-to-peer, d’organisation et participé aux sessions de conférence.
@@ -114,4 +116,5 @@ Voici une illustration du rapport.
 ## <a name="related-topics"></a>Rubriques connexes
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
-
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

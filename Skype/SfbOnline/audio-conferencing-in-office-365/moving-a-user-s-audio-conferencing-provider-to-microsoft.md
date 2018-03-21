@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 3a518241-1ecc-406a-93a1-d2653eecc0f5
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,11 +23,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Change your Skype for Business users from third-party audio conferencing providers (ACP) to a Microsoft dial-in conferencing provider. '
-ms.openlocfilehash: 8df53a27f3dc0934411284c373206fc4b6dcf41a
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e28fb11d757265aa74eb559a9d9f4c26661ac26c
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="moving-a-users-audio-conferencing-provider-to-microsoft"></a>Déplacement de fournisseur de services d'audioconférence d'un utilisateur à Microsoft
 
@@ -63,5 +65,4 @@ Pour définir Microsoft comme le fournisseur de conférence audio pour un utilis
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing.md)
-  
 

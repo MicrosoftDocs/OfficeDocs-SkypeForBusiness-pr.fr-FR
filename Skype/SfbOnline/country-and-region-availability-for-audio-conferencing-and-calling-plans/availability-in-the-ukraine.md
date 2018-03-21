@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour l’Ukraine."
-ms.openlocfilehash: e36d73cbe9948858e4a8a1d29608956ea66493c7
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 9f7ca9e1d846bb1336e46891a6cd306377a6296c
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="availability-in-the-ukraine"></a>Disponibilité de l’Ukraine
 
@@ -83,5 +83,6 @@ Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les c
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
 

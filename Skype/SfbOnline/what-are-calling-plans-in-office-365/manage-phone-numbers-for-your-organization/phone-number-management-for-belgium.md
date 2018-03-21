@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: ee10dde6-55ab-4141-92ca-dc97d8ca67f9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone en Belgique pour Skype Entreprise Online et Microsoft Teams."
-ms.openlocfilehash: 0a030135dd4c3aeb55c82437dcfbe16380296d2e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 7d5f5212a147b90317c39059a21d1a461845df86
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="phone-number-management-for-belgium"></a>Gestion des numéros de téléphone pour la Belgique
 
@@ -34,7 +36,8 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Téléchargez les formulaires corrects et envoyez-les-nous.**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d'utilisateur.  <br/> |En Belgique, vous ne pouvez pas obtenir de numéros de téléphone pour votre organisation à l'aide du Centre d'administration de Skype Entreprise. Vous devez envoyer une demande de nouveaux numéros de téléphone. Téléchargez un des formulaires suivants : <br/> [Demande de nouveaux numéros de téléphone pour la Belgique (numéros géographiques) (v.3.0)(de-be).](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(de-be).pdf) <br/> [Demande de nouveaux numéros de téléphone pour la Belgique (numéros géographiques) (v.3.0)(fr-be).](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(fr-be).pdf) <br/> [Demande de nouveaux numéros de téléphone pour la Belgique (numéros géographiques) (v.3.0)(nl-be).](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(nl-be).pdf) <br/>  Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
+|Obtenir les nouveaux numéros de téléphone des utilisateurs qui ne figurent pas dans le Skype pour Business admin center.   <br/> |En Belgique, vous ne pouvez pas obtenir de numéros de téléphone pour votre organisation à l'aide du Centre d'administration de Skype Entreprise. Vous devez envoyer une demande de nouveaux numéros de téléphone. Téléchargez un des formulaires suivants : <br/> [Demande de nouveaux numéros de téléphone pour la Belgique (numéros géographiques) (v.3.0)(de-be).](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(de-be).pdf) <br/> [Demande de nouveaux numéros de téléphone pour la Belgique (numéros géographiques) (v.3.0)(fr-be).](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(fr-be).pdf) <br/> [Demande de nouveaux numéros de téléphone pour la Belgique (numéros géographiques) (v.3.0)(nl-be).](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(nl-be).pdf) <br/>  Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
+|Obtenir les nouveaux numéros de téléphone de service qui ne figurent pas dans le Skype pour Business admin center. <br/> |Pour les numéros de service en dehors des États-Unis, veuillez [télécharger ce formulaire](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf), remplir les extraire et les [Envoyer pour nous](mailto:ptneu@microsoft.com).
 |Vous devez obtenir des numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez un des formulaires suivants : <br/> [Courrier d'autorisation (LOA) pour la Belgique (numéros géographiques) (v.1.0)(nl-be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl-be).pdf) <br/> [Courrier d'autorisation (LOA) pour la Belgique (numéros géographiques) (v.1.0)(fr-be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr-be).pdf) <br/> [Courrier d'autorisation (LOA) pour la Belgique (numéros géographiques) (v.1.0)(de-be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de-be).pdf) <br/> <br/>   Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/> |
 |Vous devez publier/annuler la publication des numéros de téléphone dans l'annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication.      <br/> |
 |Vous devez remplacer le numéro d'un utilisateur par un numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
@@ -46,4 +49,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

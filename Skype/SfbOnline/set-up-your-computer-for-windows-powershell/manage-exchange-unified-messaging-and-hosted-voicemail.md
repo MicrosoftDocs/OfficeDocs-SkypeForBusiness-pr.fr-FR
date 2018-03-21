@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: "Utiliser PowerShell pour gérer des fonctionnalités de la messagerie unifiée Exchange telles que de Standard automatique et l’accès abonné et hébergé de messagerie vocale dans Skype pour l’activité en ligne."
-ms.openlocfilehash: 98a7847f6d8ec5bebd1889aef57298bd36696918
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: cc4904768cbb7f6bbcbbd9921efebfe7d4765c55
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Gérer la messagerie unifiée Exchange et hébergé de messagerie vocale
 
@@ -39,3 +39,6 @@ Les applets de commande suivant peut être utilisé pour gérer la messagerie un
 
 ## <a name="related-topics"></a>Rubriques connexes
 [Configurer votre ordinateur pour Skype pour la gestion d’entreprise en ligne à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+
+## <a name="feedback"></a>Commentaires ?
+Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
