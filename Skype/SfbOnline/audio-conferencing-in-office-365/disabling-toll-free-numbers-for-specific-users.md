@@ -1,0 +1,56 @@
+---
+title: "Désactivation des numéros verts pour des utilisateurs spécifiques"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: oscarr
+ms.date: 02/23/2018
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Les administrateurs peuvent contrôler comment les organisateurs peuvent utiliser des numéros de téléphone gratuits pour leurs réunions."
+ms.openlocfilehash: fb4b0f8725608928e686307845871b4f5c1976d9
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/16/2018
+---
+# <a name="disabling-toll-free-numbers-for-specific-users"></a><span data-ttu-id="ada31-103">Désactivation des numéros verts pour des utilisateurs spécifiques</span><span class="sxs-lookup"><span data-stu-id="ada31-103">Disabling toll-free numbers for specific users</span></span>
+
+<span data-ttu-id="ada31-104">Si votre organisation a des numéros gratuits dans son Microsoft Audio Conferencing Bridge, vous pouvez autoriser ou empêcher leur utilisation dans les réunions des organisateurs spécifiques.</span><span class="sxs-lookup"><span data-stu-id="ada31-104">If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.</span></span>  
+
+<span data-ttu-id="ada31-105">Par défaut, tous les utilisateurs de votre organisation sont activés pour l’utilisation de numéros de téléphone gratuits, ce qui signifie que ces numéros, le cas échéant, peut être utilisé par les participants pour joindre leurs réunions.</span><span class="sxs-lookup"><span data-stu-id="ada31-105">By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings.</span></span> <span data-ttu-id="ada31-106">S’il ne s’agit pas d’un comportement souhaitable pour certains utilisateurs de votre organisation, vous pouvez interdire aux utilisateurs spécifiques à l’aide de ces numéros dans leurs réunions via un contrôle d’activation numéro gratuit.</span><span class="sxs-lookup"><span data-stu-id="ada31-106">If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control.</span></span> 
+
+<span data-ttu-id="ada31-107">Lorsque les numéros verts sont désactivées pour un organisateur donné :</span><span class="sxs-lookup"><span data-stu-id="ada31-107">When toll-free numbers are disabled for a given organizer:</span></span> 
+ - <span data-ttu-id="ada31-108">Un numéro d’appel gratuit sera n’est plus inclus dans son ou son invite.</span><span class="sxs-lookup"><span data-stu-id="ada31-108">A toll-free number will no longer be included in his or her meeting invites.</span></span> 
+ - <span data-ttu-id="ada31-109">Numéros gratuits ne sont plus apparaît sur la page « Trouver un numéro local » qui est référencée dans son ou son invite.</span><span class="sxs-lookup"><span data-stu-id="ada31-109">Toll-free numbers will no longer be listed on the "Find a local number" page that is referenced in his or her meeting invites.</span></span> 
+ - <span data-ttu-id="ada31-110">Les participants ne pourra pas participer à la conférence de l’organisateur donné si elles composer un numéro gratuit de l’organisation.</span><span class="sxs-lookup"><span data-stu-id="ada31-110">Participants won't be able to join the meeting of the given organizer if they dial any toll-free number of the organization.</span></span> 
+ - <span data-ttu-id="ada31-111">Toutes les réunions de l’organisateur seront automatiquement replanifiées, et le numéro d’appel gratuit sera supprimé à partir de ceux-ci.</span><span class="sxs-lookup"><span data-stu-id="ada31-111">All meetings of the organizer will be automatically rescheduled, and the toll-free number will be removed from them.</span></span>  
+
+    > [!IMPORTANT]
+    > <span data-ttu-id="ada31-112">Cela renvoie toutes les invitations de messagerie de l’organisateur à tous les participants de ces réunions.</span><span class="sxs-lookup"><span data-stu-id="ada31-112">This will resend all of the email invites of the organizer to all the participants of those meetings.</span></span> 
+
+ - <span data-ttu-id="ada31-113">Les participants peuvent continuer de participation à des réunions de la bibliothèque multimédia à l’aide des numéros payants.</span><span class="sxs-lookup"><span data-stu-id="ada31-113">Participants can continue joining meetings of the organizer using toll numbers.</span></span> 
+
+## <a name="disabling-toll-free-numbers-for-specific-users-using-the-skype-for-business-admin-center"></a><span data-ttu-id="ada31-114">Désactivation des numéros verts pour des utilisateurs spécifiques à l’aide de la Skype pour Business admin center</span><span class="sxs-lookup"><span data-stu-id="ada31-114">Disabling toll-free numbers for specific users using the Skype for Business admin center</span></span> 
+ 1. <span data-ttu-id="ada31-115">Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.</span><span class="sxs-lookup"><span data-stu-id="ada31-115">Go to the **Office 365 admin center** > **Skype for Business**.</span></span> 
+ 2. <span data-ttu-id="ada31-116">Dans le Skype pour Business admin center dans la navigation de gauche, accédez à **audioconférence** > **les utilisateurs**et sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.</span><span class="sxs-lookup"><span data-stu-id="ada31-116">In the Skype for Business admin center, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.</span></span> 
+ 3. <span data-ttu-id="ada31-117">Dans le volet Action, cliquez sur **Modifier**.</span><span class="sxs-lookup"><span data-stu-id="ada31-117">In the Action pane, click **Edit**.</span></span> 
+ 4. <span data-ttu-id="ada31-118">Activez ou désactivez **Autoriser l’utilisation des numéros de téléphone gratuits pour assister aux réunions de cet utilisateur**.</span><span class="sxs-lookup"><span data-stu-id="ada31-118">Check or clear **Allow using toll-free numbers to join the meetings of this user**.</span></span> 
+ 5. <span data-ttu-id="ada31-119">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="ada31-119">Click **Save**.</span></span> 
+ 
+## <a name="disabling-toll-free-numbers-for-specific-users-using-powershell"></a><span data-ttu-id="ada31-120">Désactivation des numéros verts pour des utilisateurs spécifiques à l’aide de PowerShell</span><span class="sxs-lookup"><span data-stu-id="ada31-120">Disabling toll-free numbers for specific users using PowerShell</span></span>  
+
+<span data-ttu-id="ada31-121">Vous pouvez utiliser le paramètre AllowTollFreeDialIn de l’applet de commande Set-CsOnlineDialInConferencingUser pour activer ou désactiver ce contrôle.</span><span class="sxs-lookup"><span data-stu-id="ada31-121">You can use the AllowTollFreeDialIn parameter of the Set-CsOnlineDialInConferencingUser cmdlet to enable or disable this control.</span></span> <span data-ttu-id="ada31-122">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="ada31-122">For example:</span></span> 
+
+ - <span data-ttu-id="ada31-123">User@contoso.com Set-CsOnlineDialInConferencingUser-AllowTollFreeDialIn $false</span><span class="sxs-lookup"><span data-stu-id="ada31-123">Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false</span></span>
