@@ -1,24 +1,26 @@
 ---
-title: "Guide pratique pour l’audioconférence dans Microsoft Teams"
+title: Guide pratique pour l’audioconférence dans Microsoft Teams
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 12/22/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
-description: "Guide pratique pour la planification, le déploiement et la gestion de l’audioconférence dans Microsoft Teams avec l'infrastructure Planifier (Programmer), Intégrer (Fournir), Générer une valeur ajoutée (Utiliser)."
+description: Guide pratique pour la planification, le déploiement et la gestion de l’audioconférence dans Microsoft Teams avec l'infrastructure Planifier (Programmer), Intégrer (Fournir), Générer une valeur ajoutée (Utiliser).
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f845be7ddf83605adad119f7efa53725033a7823
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: cb41f929f477a058ee8c811f357caa6ff3de62ac
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Guide pratique pour l’audioconférence dans Microsoft Teams
 ============================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 L’audioconférence dans Office 365 permet aux participants de rejoindre vos réunions Teams depuis n’importe quel téléphone.
 
@@ -359,7 +361,7 @@ Vous pouvez également configurer comment les utilisateurs non authentifiés son
 Des configurations supplémentaires pouvant être appliquées pour chaque utilisateur sont disponibles pour contrôler l’utilisation de numéros de pont de téléconférence gratuits et les appels depuis une conférence.
 
 > [!NOTE]
-> Ces contrôles liés au coût ne sont disponibles actuellement que pour les utilisateurs précoces. Vous pouvez inscrire votre organisation au programme d’évaluation depuis la page [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013).
+> Ces contrôles liés au coût ne sont disponibles actuellement que pour les utilisateurs précoces. Vous pouvez inscrire votre organisation dans le programme Aperçu à partir de [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013).
 
 Ces contrôles vous permettent de déterminer si les organisateurs de réunions peuvent fournir des numéros de pont de téléconférence gratuits pour les réunions qu’ils organisent, et de contrôler si les participants peuvent composer des numéros depuis les réunions qu'ils ont organisées. Les niveaux de contrôle sont les suivants : ne pas autoriser la composition de numéros, autoriser uniquement la composition de numéros nationaux, autoriser la composition de numéros nationaux et internationaux.
 

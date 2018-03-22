@@ -1,23 +1,25 @@
 ---
-title: "Rechercher des événements Microsoft Teams dans le journal d'audit"
+title: Rechercher des événements Microsoft Teams dans le journal d'audit
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/22/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: "Découvrez comment récupérer des données Microsoft Teams à partir du journal d'audit d’Office 365."
+description: Découvrez comment récupérer des données Microsoft Teams à partir du journal d'audit d’Office 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f0fa9f55e10d3f2f9b29287b292878c3c2b5b4a
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 2ddf413f192941598f617ea10a755a2c23abd3f7
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 ==================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Le journal d’audit peut vous aider à vérifier des activités spécifiques dans les services Office 365. Pour Teams, voici certaines des activités qui sont vérifiées :
 
@@ -33,7 +35,7 @@ Pour la liste complète des activités qui sont vérifiées dans Office 365, co
 
 ## <a name="turn-on-auditing-in-teams"></a>Activer l’audit dans Teams
 
-Pour consulter les données d’audit, vous devez au préalable activer la fonctionnalité d’audit dans le **Centre de sécurité et de conformité**(https://protection.office.com). Pour obtenir de l’aide sur la fonctionnalité d’audit, consultez la rubrique [Activer ou désactiver la recherche du journal d’audit d’Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Vous pouvez consulter les données d’audit, vous devez activer la première de l’audit dans la **sécurité et le centre de conformité**(https://protection.office.com). Pour obtenir de l’aide sur la fonctionnalité d’audit, consultez la rubrique [Activer ou désactiver la recherche du journal d’audit d’Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 
 > [!IMPORTANT]

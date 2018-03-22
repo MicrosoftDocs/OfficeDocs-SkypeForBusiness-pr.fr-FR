@@ -1,5 +1,5 @@
 ---
-title: "Activer Microsoft Teams côte à côte avec Skype Entreprise"
+title: Activer Microsoft Teams côte à côte avec Skype Entreprise
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: "Guide d’utilisation de Skype Entreprise et Microsoft Teams côte à côte"
+description: Guide d’utilisation de Skype Entreprise et Microsoft Teams côte à côte
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66e21cb6e170785c336f4737cd61596d33ae305e
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 27e6f4449f4568f9777be92c8520215721154e2f
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Activer Microsoft Teams côte à côte avec Skype Entreprise 
 =============================================================
@@ -183,7 +183,7 @@ Microsoft Teams a été conçu essentiellement autour de la conversation perman
 
 Étant donné que, par défaut, Teams est activé pour les utilisateurs dans votre organisation disposant d'une licence d’abonnement à Office 365 éligible, la version pilote de Teams impliquera de désactiver la licence Teams de tous les utilisateurs qui ne font pas partie du groupe pilote.
 
-Pour orienter la solution de collaboration et de conversation privée sur la version de Teams, et pour réduire la confusion des utilisateurs due aux fonctionnalités qui se superposent avec Skype Entreprise, vous pouvez modifier les paramètres suivants au niveau du client Office 365. Pour modifier ces paramètres Office 365, consultez la rubrique [Configurer Microsoft Teams dans votre organisation Office 365](Office-365-set-up.md).
+Pour orienter la solution de collaboration et de conversation privée sur la version de Teams, et pour réduire la confusion des utilisateurs due aux fonctionnalités qui se superposent avec Skype Entreprise, vous pouvez modifier les paramètres suivants au niveau du client Office 365. Pour modifier ces paramètres d’Office 365, voir [fonctionnalités de gérer des équipes de Microsoft dans votre organisation d’Office 365](enable-features-office-365.md).
 
 <table>
 <thead>

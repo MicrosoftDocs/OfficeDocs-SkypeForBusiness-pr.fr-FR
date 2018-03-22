@@ -1,25 +1,27 @@
 ---
-title: "Ajouter un invité à une équipe"
+title: Ajouter un invité à une équipe
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 10/23/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "Découvrez les outils disponibles pour qu'un administrateur ajoute de nouveaux utilisateurs invités à une organisation, y compris les clients web et de bureau de Microsoft Teams et le portail de collaboration Azure Active Directory B2B."
+description: Découvrez les outils disponibles pour qu'un administrateur ajoute de nouveaux utilisateurs invités à une organisation, y compris les clients web et de bureau de Microsoft Teams et le portail de collaboration Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b885aec6cfd2ca40603a195009b6e001c7e7226e
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: e84c8f29416f94b78b287275cd473388931105ea
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="add-a-guest-to-a-team"></a>Ajouter un invité à une équipe
 =====================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Seuls les utilisateurs disposant d'une adresse de messagerie correspondant à un compte scolaire ou professionnel Azure Active Directory ou Office 365 peuvent être ajoutés en tant qu'utilisateurs invités.
+Toute personne disposant d’un compte de messagerie professionnels et particuliers, tels que Outlook, Gmail ou autres, peut participer en tant qu’invité dans des équipes.
 
 
 En tant qu'administrateur, vous pouvez ajouter un nouvel utilisateur invité à l'organisation de deux manières : 
@@ -32,7 +34,7 @@ Azure Active Directory B2B Collaboration permet aux organisations d'imposer l'
 
 
 
-Les invités que vous avez déjà ajoutés via des groupes Azure Active Directory B2B, Office 365 ou SharePoint Online sont déjà prêts. L'administrateur Office 365 ou un propriétaire d'équipe peut les ajouter dans ses équipes respectives. Si une équipe est déjà rattachée à un groupe Office 365 et qu'un invité est ajouté au groupe, l'invité obtient l'accès à l'équipe. L'ajout d'un invité via le groupe Office 365 ne génère pas d'e-mail d'invitation, un membre de l'équipe devra donc l'en informer.
+Vous avez déjà ajouté via Azure Active Directory B2B, Office 365 groupes ou SharePoint Online les utilisateurs invités sont prêts à l’emploi. L'administrateur Office 365 ou un propriétaire d'équipe peut les ajouter dans ses équipes respectives. Si une équipe est déjà rattachée à un groupe Office 365 et qu'un invité est ajouté au groupe, l'invité obtient l'accès à l'équipe. L'ajout d'un invité via le groupe Office 365 ne génère pas d'e-mail d'invitation, un membre de l'équipe devra donc l'en informer.
 
 > [!NOTE]
 > Les invités sont soumis aux mêmes limites des services [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) et [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019).

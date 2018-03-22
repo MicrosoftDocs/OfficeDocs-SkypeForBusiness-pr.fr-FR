@@ -1,5 +1,5 @@
 ---
-title: "Guide de démarrage rapide : guide de planification de Microsoft Teams"
+title: 'Guide de démarrage rapide : guide de planification de Microsoft Teams'
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
-description: "Utilisez ce guide pour vous aider à planifier, implémenter et adopter Microsoft Teams dans votre organisation."
+description: Utilisez ce guide pour vous aider à planifier, implémenter et adopter Microsoft Teams dans votre organisation.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7111e5aea9869a99ffec76f7da655f1ac0261aa8
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: ce2ac8ff38f5f051a3e288efede53efa4dc0c6e5
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Guide de démarrage rapide : guide de planification de Microsoft Teams
 ==========================================================
@@ -44,7 +44,7 @@ Regardez cette courte vidéo avec des conseils pratiques à prendre en compte lo
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Si Microsoft Teams n’est pas activé dans votre client Office 365 et que vous êtes un administrateur d’Office 365, suivez les instructions de notre article [Installer Microsoft Teams dans votre Office 365](office-365-set-up.md) pour vous assurer que vos utilisateurs ont accès à l’application.
+Si Teams de Microsoft n’est pas activée dans le client Office 365 et que vous êtes un Office 365 administrateur de suivre les instructions dans notre article de [gérer l’accès des utilisateurs à des équipes](user-access.md) afin de garantir aux utilisateurs ont accès à l’application.
 
 ## <a name="step-3-complete-technical-planning"></a>Étape 3 : effectuer une planification technique
 

@@ -1,26 +1,28 @@
 ---
-title: "Paramètres d'administration pour les applications dans Microsoft Teams"
+title: Paramètres d'administration pour les applications dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/29/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: "Découvrez comment autoriser et activer des applications dans Microsoft Teams, y compris le chargement de version test d'applications externes."
+description: Découvrez comment autoriser et activer des applications dans Microsoft Teams, y compris le chargement de version test d'applications externes.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fb8d7680338ebda68624a765068d4c386ea46b3
-ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
-ms.translationtype: HT
+ms.openlocfilehash: 58fb8598f8e63aa3e8abc943dcffde64452da462
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Paramètres d'administration pour les applications dans Microsoft Teams
 ==========================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Les applications sont des onglets, des connecteurs et des bots ou toute combinaison de ces éléments, fournis par un service tiers. Des stratégies d'administration Teams peuvent être configurées dans le Centre d'administration Office 365 pour contrôler l'autorisation d'applications tierces externes. Ces stratégies vous permettent de spécifier les applications autorisées et non autorisées, le comportement d'une nouvelle application externe, ainsi que l'autorisation du chargement de version test d'applications.
 
@@ -51,7 +53,8 @@ Le chargement de version test consiste à ajouter un application à Teams en cha
 
 Seuls les propriétaires ou membres d'équipes autorisés peuvent charger la version test d'une application dans Teams.  
 
-![Capture d'écran de la section Applications des paramètres Microsoft Teams.](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png) 
+![Capture d’écran de la section applications de développé dans les paramètres clients.](media/Admin_settings_for_apps_in_Microsoft_Teams_image2.png)
+
 
 ## <a name="creating-and-uploading-app-packages"></a>Création et chargement de packages d'application 
 

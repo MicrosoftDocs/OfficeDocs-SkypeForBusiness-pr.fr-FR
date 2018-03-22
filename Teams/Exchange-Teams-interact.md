@@ -1,5 +1,5 @@
 ---
-title: "Interaction entre Exchange et Microsoft Teams"
+title: Interaction entre Exchange et Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
-description: "Découvrez les fonctionnalités communes entre Microsoft Teams et les différentes configurations d'Exchange, telles que la création et l'adhésion à des équipes, la création de canaux, et plus encore."
+description: Découvrez les fonctionnalités communes entre Microsoft Teams et les différentes configurations d'Exchange, telles que la création et l'adhésion à des équipes, la création de canaux, et plus encore.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7da92ce791349994474c76fe736a06ddcd67999
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: ea3162de2ff5ab5e4aa15fe63545382f1c48378d
+ms.sourcegitcommit: d70e5a5e7d05a2226c1d011895fb12187d73fad0
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/17/2018
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams 
 =========================================
@@ -53,6 +53,11 @@ Informations complémentaires :
 
 -   Dans Microsoft Teams, les fonctions de sécurité et de conformité, telles que eDiscovery, la recherche de contenu, l'archivage et la conservation légale sont plus efficaces dans les environnements Exchange Online et SharePoint Online. Dans le cas de conversations de canal, les messages sont journalisés dans la boîte aux lettres du groupe dans Exchange Online et peuvent être utilisés par eDiscovery. Si SharePoint Online et OneDrive Entreprise (avec un compte professionnel ou scolaire) sont activés pour les utilisateurs dans l'organisation, ces fonctionnalités de conformité sont également disponibles pour l'ensemble des fichiers dans Teams.
 
-**Important :**   les utilisateurs participant à des conversations figurant dans la liste de conversations dans Microsoft Teams doivent disposer d'une boîte aux lettres Exchange Online (dans le cloud) pour permettre à l'administrateur de rechercher des conversations. Cela est dû au fait que les conversations figurant dans la liste de conversations sont stockées dans les boîtes aux lettres basées sur le cloud des participants aux conversations. Si un participant à une conversation n'a pas de boîte aux lettres Exchange Online, l'administrateur ne pourra pas rechercher ni placer des conversations en conservation. Par exemple, dans un déploiement hybride Exchange, les utilisateurs disposant de boîtes aux lettres sur site peuvent participer à des conversations figurant dans la liste de conversations dans Microsoft Teams. Toutefois dans ce cas, le contenu de ces conversations ne peut pas faire l'objet de recherche ni être placé en conservation, car les utilisateurs ne disposent pas de boîte aux lettres basée sur le cloud. Pour plus d'informations sur la recherche de contenu et Microsoft Teams, reportez-vous à l'article [Effectuer une recherche de contenu dans le Centre de sécurité et de conformité d’Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+> [!NOTE]
+> Actuellement, si votre organisation a des exigences de conformité exigeant que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres sur site Exchange.
 
-**Conseil :**   Pour obtenir des informations sur l'utilisation d'Azure AD Connect à des fins de synchronisation avec Azure Active Directory, reportez-vous à l'article [*Intégrer des répertoires locaux à Azure Active Directory*](https://go.microsoft.com/fwlink/?linkid=854600).
+> [!IMPORTANT]
+  Les utilisateurs de participent à des conversations qui font partie de la liste de discussion dans Microsoft Teams doivent avoir une Exchange Online (en nuage) boîte aux lettres d’un administrateur pour rechercher des conversations. C’est parce que les conversations qui font partie de la liste de discussion sont stockées dans les boîtes aux lettres en nuage de participants à la conversation. Si un participant de la conversation n’est pas une boîte aux lettres Exchange Online, l’administrateur ne sera en mesure de rechercher ou de placer un blocage sur des conversations. Par exemple, dans un déploiement hybride d’Exchange, les utilisateurs avec boîtes aux lettres de sur site peuvent être en mesure de participer à des conversations qui font partie de la liste de discussion dans Teams de Microsoft. Toutefois, dans ce cas, le contenu de ces conversations n’est pas disponible pour la recherche et ne peut pas être mis en blocage car les utilisateurs ne disposent de boîtes aux lettres basés sur le cloud. Pour plus d’informations sur les recherches de contenu et de Teams de Microsoft, consultez [exécution d’une recherche de contenu de la sécurité pour Microsoft Office 365 et le centre de conformité](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+
+> [!TIP]
+  Pour plus d’informations sur l’utilisation d’Azure Connect d’Active Directory à synchroniser avec Azure Active Directory, voir [*intégration des identités avec Azure Active Directory local*](https://go.microsoft.com/fwlink/?linkid=854600).

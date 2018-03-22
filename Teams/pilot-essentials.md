@@ -1,20 +1,20 @@
 ---
-title: "Projet pilote d'utilisation de Microsoft Teams avec Skype Entreprise"
+title: Projet pilote d'utilisation de Microsoft Teams avec Skype Entreprise
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
-description: "Conseils pour lancer un projet pilote pour à utiliser Microsoft Teams et découvrir tout ce que le client peut offrir à votre organisation tout en conservant Skype Entreprise."
+description: Conseils pour lancer un projet pilote pour à utiliser Microsoft Teams et découvrir tout ce que le client peut offrir à votre organisation tout en conservant Skype Entreprise.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5c764212d439ef7e3592b52b841e2b531265ec7
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 386221bfc8a3249ef4c902605171e636f8a48f40
+ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/20/2018
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Projet pilote d'utilisation de Microsoft Teams avec Skype Entreprise
 ============================================
@@ -102,7 +102,7 @@ En vue d'une validation optimale, envisagez d'inclure 2 à 5 % de votre base d'
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Action suivante :</strong> Identifiez votre ou vos groupes de test pilote.</td>
+<td align="left"><strong>Action suivante :</strong> Identifiez vos groupes de test pilote à l’aide de [Sélectionner les utilisateurs du projet pilote d’équipes](https://review.docs.microsoft.com/en-us/MicrosoftTeams/select-users-for-your-teams-pilot?branch=cloudvoice-working) de conseils.</td>
 </tr>
 </thead>
 <tbody>
@@ -126,7 +126,9 @@ Une expérience pilote fructueuse fournit à vos participants des tâches claire
 
 ## <a name="step-four-create-your-communications"></a>Étape 4 : Créez vos communications
 
-Informer les participants de l'expérience, du calendrier et des motifs du programme pilote, et leur expliquer ce que vous attendez d'eux sont des points essentiels à la réussite de votre projet. En vue de susciter l'enthousiasme et une participation maximale, assurez-vous d'inclure des messages d'intérêt pour les utilisateurs finaux lorsque vous communiquez avec les participants au programme pilote. De plus, incluez des liens vers des formations et une assistance dans vos communications, pour permettre aux utilisateurs d'obtenir des informations supplémentaires à mesure qu'ils progressent dans le projet pilote.
+Informer les participants de l'expérience, du calendrier et des motifs du programme pilote, et leur expliquer ce que vous attendez d'eux sont des points essentiels à la réussite de votre projet. En vue de susciter l'enthousiasme et une participation maximale, assurez-vous d'inclure des messages d'intérêt pour les utilisateurs finaux lorsque vous communiquez avec les participants au programme pilote.
+
+De plus, incluez des liens vers des formations et une assistance dans vos communications, pour permettre aux utilisateurs d'obtenir des informations supplémentaires à mesure qu'ils progressent dans le projet pilote. Une rubrique d’aide bonne à inclure est [commutateur aux équipes de Skype pour les entreprises](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), qui présente certaines fonctionnalités familières, ainsi que quelques nouvelles fonctionnalités qui sont disponibles uniquement dans Microsoft Teams.
 
 <table>
 <thead>
@@ -144,7 +146,7 @@ Informer les participants de l'expérience, du calendrier et des motifs du progr
 Une fois votre cadre entièrement défini, vous êtes désormais prêt à lancer votre programme pilote. Exécuter votre projet pilote inclut de communiquer avec les participants, de surveiller votre réseau/l'utilisation pour assurer l'intégrité de la qualité, recueillir les commentaires, et examiner les questions des tickets de support technique liés à Teams.
 
 > [!IMPORTANT]
-> Teams est activé par défaut, mais avant de commencer votre projet pilote, assurez-vous que Teams est activé pour tous les utilisateurs pilotes. Pour obtenir de l’aide, consultez la rubrique [Activer les fonctionnalités Microsoft Teams dans votre organisation Office 365](enable-features-office-365.md).
+> Teams est activé par défaut, mais avant de commencer votre projet pilote, assurez-vous que Teams est activé pour tous les utilisateurs pilotes. Pour obtenir ceci, lisez [gérer l’accès des utilisateurs à des équipes](user-access.md).
 > 
 
 Voici une suggestion de calendrier pour un projet pilote de 30 jours :

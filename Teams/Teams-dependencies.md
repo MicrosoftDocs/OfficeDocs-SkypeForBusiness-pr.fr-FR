@@ -1,5 +1,5 @@
 ---
-title: "Autoriser l'accès invité dans Microsoft Teams"
+title: Autoriser l'accès invité dans Microsoft Teams
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
@@ -7,14 +7,14 @@ ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
 ms.reviwer: laal
-description: "Gérez les fonctionnalités d’accès invité dans Microsoft Teams par le biais de quatre niveaux d’autorisation différents."
+description: Gérez les fonctionnalités d’accès invité dans Microsoft Teams par le biais de quatre niveaux d’autorisation différents.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19d7bd54e63e67dc02a116cbd06cdfec9de4e180
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: fe399bb7b28f834575aeff344ff3fc4cca1b5dae
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autoriser l'accès invité dans Microsoft Teams
 ===========================================
@@ -40,21 +40,23 @@ Ces différents niveaux d’autorisation vous donnent de la flexibilité pour co
 
 Avec la collaboration entre entreprises (B2B) Azure AD, l’envoi d'invitations à des utilisateurs invités éventuels n’est pas restreint aux administrateurs de clients. Vous pouvez à la place utiliser des stratégies pour déléguer l’envoi des invitations aux utilisateurs dont les rôles les autorisent à envoyer des invitations.
 
-Les paramètres des invitations s’appliquent au niveau du client et contrôlent l’expérience utilisateur au niveau du répertoire, du client et de l’application.
+Les paramètres des invitations s’appliquent au niveau du client et contrôlent l’expérience utilisateur au niveau du répertoire, du client et de l’application. Au minimum pour prendre en charge des invités, **peuvent inviter des membres** doit être définie à **Oui**.
 
 
 ![Capture d’écran des paramètres utilisateurs dans le portail Azure Active Directory.](media/teams_dependencies_image2.png)
 
+Annonce Azure comprend les paramètres suivants pour configurer des utilisateurs externes :
+- **Autorisations de l’utilisateur invité sont limitées**: **Oui** signifie que les invités n’ont l’autorisation pour certaines tâches de répertoire, tel que d’énumérer les utilisateurs, les groupes ou les autres ressources de répertoire. En outre, invités ne peut pas être affectées à des rôles administratifs dans votre répertoire. **No** signifie que vos invités disposent du même accès aux données de l’annuaire qui ont des utilisateurs normaux dans votre répertoire.
+- **Administrateurs et utilisateurs dans le rôle d’émetteur de l’invitation invité peuvent inviter**: **Oui** signifie que les administrateurs et utilisateurs dans le rôle « Émetteur de l’invitation invité » sera en mesure d’invités au locataire. **No** signifie les administrateurs et les utilisateurs ne peuvent pas invités au locataire.
+- **Les membres peuvent inviter**: **Oui** signifie que les membres non-admin de votre répertoire peuvent invités de collaborer sur les ressources sécurisées par votre annonce d’Azure, tels que les sites SharePoint ou ressources Azure. **No** signifie que seuls les administrateurs peuvent inviter vos invités dans votre répertoire.
+- **Invités peuvent inviter**: **Oui** signifie qu’invités dans votre répertoire peuvent eux-mêmes inviter des autres invités pour collaborer sur des ressources sécurisées par votre annonce d’Azure, tels que les sites SharePoint ou ressources Azure. **No** signifie que vos invités ne peut pas inviter d’autres invités pour collaborer avec votre organisation.
+ 
 
-Vous pouvez définir les stratégies d’invitation suivantes :
-- Désactiver les invitations.
-- Seuls les administrateurs et les utilisateurs ayant le rôle d’hôte peuvent inviter des participants.
-- Les administrateurs, le rôle d’hôte et les membres peuvent inviter des participants.
-- Tous les utilisateurs, y compris les invités, peuvent inviter des participants. (Il s’agit de la stratégie par défaut pour les clients.)
 
+> [!NOTE]
+> Vous pouvez également gérer les domaines peuvent être invités à vos clients en tant qu’invités. Voir [Autoriser/bloquer l’accès invité à des groupes d’Office 365](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da). 
 
 ##<a name="microsoft-teams"></a>Microsoft Teams
-
 Dans Microsoft Teams, vous pouvez contrôler si l’expérience invité est activée ou désactivée pour votre organisation. Ce paramètre est désactivé par défaut et s’applique au niveau du client pour Microsoft Teams uniquement.
 
 

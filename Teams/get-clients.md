@@ -1,56 +1,51 @@
 ---
-title: "Obtenir des clients pour Microsoft Teams"
+title: Obtenir des clients pour Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
-description: "Découvrez comment utiliser les différents clients disponibles pour Microsoft Teams, notamment les clients Web, de bureau (Windows et Mac) et mobiles (Android, iOS, et Windows Phone)."
+description: Découvrez comment utiliser les différents clients disponibles pour Microsoft Teams, notamment les clients Web, de bureau (Windows et Mac) et mobiles (Android, iOS, et Windows Phone).
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2208ed21eb2db33f8d8ff90af97caa5b4912dfd
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 6cc06497da95f6c9e0f4e6a39d851125922e8b31
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 ===========================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Microsoft Teams dispose de clients Web, de bureau (Windows et Mac) et mobiles (Android, iOS et Windows Phone). Ces clients requièrent une connexion Internet active et ne prennent pas en charge le mode hors connexion.
 
 <a name="web-client"></a>Client Web 
 ----------------
 
-Le client Web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) est complet et fonctionnel, et peut être utilisé par divers navigateurs. À ce stade, le client Web ne prend pas en charge les communications en temps réel (c'est-à-dire les réunions et les appels en tête-à-tête). Le navigateur doit également être configuré de manière à autoriser les cookies tiers. 
+Le client web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) est un client complet, fonctionnel qui peut être utilisé à partir d’une gamme de navigateurs. À ce stade, le client Web ne prend pas en charge les communications en temps réel (c'est-à-dire les réunions et les appels en tête-à-tête). Le navigateur doit également être configuré de manière à autoriser les cookies tiers. 
 
 Aucun plug-in ni téléchargement n'est requis pour exécuter Teams dans un navigateur Web.
 
-Le client Web détecte la version du navigateur en se connectant à [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) et en cas de version non prise en charge, il bloquera l'accès à l'interface Web et recommandera de télécharger le client de bureau ou l'application mobile.
+Le client Web exécute la détection de version du navigateur lors de la connexion à [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) et, si une version de navigateur non prise en charge est détectée, il bloque l’accès à l’interface Web et l’utilisateur à télécharger le client ordinateur de bureau ou une application mobile.
 
 <a name="internet-browser-support"></a>Prise en charge du navigateur Internet
 ------------------------------
-Microsoft Teams prend en charge les versions de navigateur suivantes : 
-- Internet Explorer 11
-- Microsoft Edge
-- La dernière version de Chrome et les deux versions précédentes
-- La dernière version de Firefox et les deux versions précédentes
-
-> [!NOTE]
-> Safari n'est pas pris en charge actuellement. Consultez la [Feuille de route de Teams](http://aka.ms/TeamsRoadmap) pour en savoir plus sur les nouvelles fonctionnalités dans Teams. Les utilisateurs qui essayent d’ouvrir Teams sur Safari seront dirigés vers le téléchargement du client de bureau Teams.
+[!INCLUDE [browser-support](includes/browser-support.md)]
 
 <a name="desktop-clients"></a>Clients de bureau
 ------------------------
 
-Le client de bureau Microsoft Teams est une application autonome qui ne fait actuellement pas partie d'Office Pro Plus. Microsoft Teams est disponible pour Windows (7+), versions 32 bits et 64 bits, et MacOS (10.10+).
+Le client de bureau Microsoft Teams est une application autonome et actuellement ne fait pas partie d’Office Pro Plus. Équipes est disponible pour Windows (7 +), les versions 32 bits et de 64 bits et MacOS (10.10 +). Sous Windows, les équipes nécessite .NET framework 4.5 ou version ultérieure ; le programme d’installation d’équipes vous permet de l’installer pour vous si vous ne l’avez pas.
 
-Les clients de bureau fournissent la prise en charge de communications en temps réel (audio, vidéo, et partage de contenu) pour les réunions d'équipe, les appels de groupes et les appels en tête-à-tête.
+Les postes de travail clients fournissent la prise en charge des communications en temps réel (partage de contenu audio et vidéo) pour les réunions d’équipe, les appels en tête-à-tête groupe appelant et privé.
 
-Les clients de bureau peuvent être téléchargés et installés par les utilisateurs finaux directement à partir de [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) s'ils disposent des autorisations locales appropriées (les droits d'administration ne sont pas requis pour installer le client Teams sur un PC, mais le sont pour un Mac).
+Clients de bureau peuvent être téléchargés et installés par l’utilisateur final directement à partir de [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) s’ils ont les autorisations locales appropriées (droits d’administrateur ne sont pas requis pour installer le client des équipes sur un PC, mais sont nécessaires sur un Mac).
 
 Les administrateurs informatiques peuvent utiliser la méthode de leur choix pour distribuer les fichiers d'installation sur les ordinateurs de leur organisation telle que System Center Configuration Manager (Windows) ou Casper Suite (MacOS).
 

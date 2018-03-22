@@ -1,20 +1,20 @@
 ---
-title: "Générer une valeur ajoutée avec Microsoft Teams en incitant les utilisateurs à l’adopter"
+title: Générer une valeur ajoutée avec Microsoft Teams en incitant les utilisateurs à l’adopter
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-description: "Guide pour continuer votre parcours de remplacement de Skype Entreprise par Microsoft Teams."
+description: Guide pour continuer votre parcours de remplacement de Skype Entreprise par Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b897a4de7358faf01bb2c79835a5d7254c88dca
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 2162fdf8a942c9a45949c52efaf4fc9b70b76b00
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="drive-value-with-microsoft-teams-through-user-adoption"></a>Générer une valeur ajoutée avec Microsoft Teams en incitant les utilisateurs à l’adopter
 ================================================================
@@ -35,7 +35,7 @@ Microsoft met tout en oeuvre pour vous fournir un guide pratique adapté afin de
 - Vous n’êtes pas familiarisé avec l’adoption et la gestion des changements ? Utilisez le [Guide d’adoption d’Office 365](https://go.microsoft.com/fwlink/?linkid=859045)
 
 
-## <a name="get-your-organizaton-ready-for-your-future-move-to-teams"></a>Préparer votre organisation au futur passage à Teams
+## <a name="get-your-organization-ready-for-your-future-move-to-teams"></a>Préparez-vous votre organisation de passer ultérieurement à des équipes
 
 - Utiliser la [Feuille de route](https://go.microsoft.com/fwlink/?linkid=859047) pour réaliser votre parcours vers Teams
 
