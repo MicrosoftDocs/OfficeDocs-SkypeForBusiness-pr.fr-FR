@@ -1,0 +1,2 @@
+> [!NOTE]
+> Le contrôle au niveau client du statut Activé/Désactivé de Teams est temporaire et sera supprimé d’ici mai 2018. Pour le moment, l'accès à Teams est contrôlé via l'octroi d’une licence de niveau utilisateur uniquement. Pour en savoir plus, reportez-vous à la rubrique [Gestion de l'accès des utilisateurs à Microsoft Teams](../user-access.md).
