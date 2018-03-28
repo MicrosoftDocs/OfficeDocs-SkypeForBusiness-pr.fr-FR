@@ -1,7 +1,10 @@
 Microsoft Teams prend en charge les versions de navigateur suivantes : 
 - Internet Explorer 11
 - Microsoft Edge
+  - Appel et réunions sur RS2 de bord ou versions ultérieures
 - La dernière version de Chrome et les deux versions précédentes
+  - L’appel de prise en charge sur 59 de Chrome ou version ultérieure
+  - Prise en charge des réunions à venir
 - La dernière version de Firefox et les deux versions précédentes
 
 > [!NOTE]

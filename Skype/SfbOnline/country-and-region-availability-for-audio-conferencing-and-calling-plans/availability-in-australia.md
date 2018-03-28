@@ -1,5 +1,5 @@
 ---
-title: "Disponibilité en Australie"
+title: Disponibilité en Australie
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour l’Australie."
-ms.openlocfilehash: 4552e465531ddbb331a0b0226b427ac44de1c558
-ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
+description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour l’Australie.
+ms.openlocfilehash: ec5ac53fc0688aeb6ed960f64c5ffb35ceb216f9
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="availability-in-australia"></a>Disponibilité en Australie
 
@@ -53,13 +53,13 @@ Voici les services Office 365 pour Skype pour les entreprises et les Teams Micro
    
 ## <a name="calling-plans"></a>Forfaits d'appels
 > [!IMPORTANT]
-> L’Australie n’est disponible pour l’aperçu et les premiers clients de premiers convertis. Pour plus d’informations, consultez [Telstra voix](http://aka.ms/TelstraVoicePlan). 
+> Actuellement disponible uniquement pour l’aperçu et adoption précoce en Australie. Pour plus d’informations, reportez-vous à la section [Telstra appelant pour Office 365](http://aka.ms/TelstraVoicePlan). 
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui, consultez [Les Services de téléphonie Telstra](http://aka.ms/TelstraVoicePlan).  <br/> |
-|Minutes disponibles pour les forfaits d'appels  <br/> |Reportez-vous à la section [Services de Telstra](http://aka.ms/TelstraVoicePlan). <br/> |
-|Est-il possible de passer des appels sortants ?  <br/> |Reportez-vous à la section [Services de Telstra](http://aka.ms/TelstraVoicePlan). <br/> |
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui, voir [Appel de Telstra pour Office 365](http://aka.ms/TelstraVoicePlan).  <br/> |
+|Minutes disponibles pour les forfaits d'appels  <br/> |Voir [appel de Telstra pour Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
+|Est-il possible de passer des appels sortants ?  <br/> |Voir [appel de Telstra pour Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
@@ -69,7 +69,7 @@ Voici les services Office 365 pour Skype pour les entreprises et les Teams Micro
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    
-Si vous voulez obtenir le numéro payant et numéros de téléphone pour les standards automatiques et les files d’attente de l’appel, voir [Services de voix Telstra](http://aka.ms/TelstraVoicePlan). Pour les numéros de service conférence audio, [Veuillez nous contacter](mailto:ptnapac@microsoft.com).
+Si vous voulez obtenir le numéro payant et numéros de téléphone pour les standards automatiques et les files d’attente de l’appel, voir [Appel de Telstra pour Office 365](http://aka.ms/TelstraVoicePlan). Pour les numéros de service conférence audio, [Veuillez nous contacter](mailto:ptnapac@microsoft.com).
   
 ## <a name="communications-credits"></a>Crédits de communication
 

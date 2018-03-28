@@ -11,11 +11,11 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7157f412cc28e44b6149b74a12be98a717496b8f
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: a2dbb006fa9e44d1f2f08efc716063c1c6b1540c
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 ==================================
@@ -28,8 +28,9 @@ Découvrez Teams et encouragez son utilisation dans votre organisation. Vérifie
 |  |  |
 |---------|---------|
 | [Didacticiel : Transition de Skype Entreprise à Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Tout ce que vous devez savoir sur la transition de Skype Entreprise Online vers Teams.  |
-| [Guide de démarrage rapide : administrateurs de Microsoft Teams pour l’éducation](teams-quick-start-edu.yml) |Pour les administrateurs informatiques dans l’enseignement, déployez Teams dans votre organisation.   |
-[Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams](configuring-teams-calling-quickstartguide.md)| Guide de démarrage rapide pour la configuration des forfaits d'appels dans Teams. |
+| [Didacticiel : La conférence Audio dans des équipes](Tutorial-Audio-Conferencing.yml) | Cette formation interactive vous guide tout au long de conférence Audio dans des équipes. |
+| [Démarrage rapide : Teams de Microsoft pour les administrateurs de la formation](teams-quick-start-edu.yml) |Pour les administrateurs informatiques dans l’enseignement, déployez Teams dans votre organisation.   |
+| [Démarrage rapide : configuration des Plans d’appel dans Microsoft Teams](configuring-teams-calling-quickstartguide.md)| Guide de démarrage rapide pour la configuration des forfaits d'appels dans Teams. |
 | [Didacticiel : Découvrir les appels dans Teams](tutorial-calling-in-teams.yml)  |  Cette formation présente les fonctionnalités d'appel dans Teams, qui sont fournies par la fonctionnalité de système téléphonique dans Office 365. Elle décrit la planification technique nécessaire pour implémenter le système téléphonique, la procédure de configuration et la surveillance de l'utilisation et de la qualité des appels dans votre implémentation.  |
 | [Vidéos sur l'audioconférence](audio-conferencing-videos.md) |Vidéos de présentation de l’audioconférence dans Teams pour l’administrateur informatique.  |
 | [Didacticiel : Réunions dans Teams](tutorial-meetings-in-teams.yml) | Cette formation présente les réunions d’équipes. Il couvre les fonctions de réunion, ainsi que les exigences et les considérations de planification. |

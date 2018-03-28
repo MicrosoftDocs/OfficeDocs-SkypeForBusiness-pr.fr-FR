@@ -13,11 +13,11 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b556a7293ecd6c6158a3fb1f7e882fa87defbc45
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: cbbd2cad0b84ccdcc887d5bcdf272c1556c9c546
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 <a name="overview-of-microsoft-teams"></a>Présentation de Microsoft Teams
 ===========================
@@ -122,6 +122,6 @@ Voici quelques scénarios d'utilisation courants pour chaque application dans Of
 
 Bien que cette FAQ dédiée aux administrateurs ait été d’une grande aide lors du lancement de Microsoft Teams, c’est rapidement devenu un véritable « fourre-tout ». Nous avons donc décidé d’y mettre fin pour incorporer les précieuses informations qu’elle renfermait dans la présente documentation de Microsoft Teams. Vous retrouverez donc l’intégralité du contenu de la FAQ dans ce document, mais en contexte.
 
-Si vous ne trouviez toutefois pas de réponse à vos questions, n’hésitez pas à nous en faire part via la section **Commentaires** ci-dessous. Nous ferons notre possible pour vous répondre sous 24 heures.
+Si vous recherchez quelque chose que vous ne pouvez pas trouver ici, Merci d’indiquer à son sujet dans la section **commentaires** ci-dessous. Nous essayons de répondre à vos commentaires dans les 24 heures.
 
 Par ailleurs, il existe **toujours** une FAQ relative à la [transition de Skype Entreprise vers Microsoft Teams](FAQ-journey.md). 
