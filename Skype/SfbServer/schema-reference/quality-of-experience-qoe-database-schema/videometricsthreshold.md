@@ -1,0 +1,43 @@
+---
+title: Table de VideoMetricsThreshold
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+ms.date: 2/1/2018
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
+description: La table VideoMetricsThreshold contient des valeurs optimales et acceptables pour les métriques de qualité utilisées avec les appels vidéo.
+ms.openlocfilehash: 7f9901151503889c57a74c6b49e5c9a84e276333
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="videometricsthreshold-table"></a>Table de VideoMetricsThreshold
+ 
+La table VideoMetricsThreshold contient des valeurs optimales et acceptables pour les métriques de qualité utilisées avec les appels vidéo.
+  
+|**Colonne**|**Type de données**|**Index de la clé**|**Détails**|
+|:-----|:-----|:-----|:-----|
+|**CallType** <br/> |int  <br/> |Principal  <br/> |Type d’appel qui a été placé.  <br/> |
+|**VideoPostFECPLROptimal** <br/> |Decimal(5,2)  <br/> ||La valeur par défaut est de 0,05.  <br/> |
+|**VideoPostFECPLRAcceptable** <br/> |Decimal(5,2)  <br/> ||La valeur par défaut est de 0,10.  <br/> |
+|**VideoLocalFrameLostPercentageAverageOptimal** <br/> |Decimal(5,2)  <br/> ||La valeur par défaut est 5.0.  <br/> |
+|**VideoLocalFrameLostPercentageAverageAcceptable** <br/> |Decimal(5,2)  <br/> ||La valeur par défaut est 10.0.  <br/> |
+|**RecvFrameRateAverageOptimal** <br/> |Decimal(9,4)  <br/> ||La valeur par défaut est 12.0000.  <br/> |
+|**RecvFramerateAverageAcceptable** <br/> |Decimal(9,4)  <br/> ||La valeur par défaut est 7.0000.  <br/> |
+|**LowFrameRateCallPercentOptimal** <br/> |Decimal(5,2)  <br/> ||La valeur par défaut est 5.0.  <br/> |
+|LowFrameRateCallPercentAcceptable *** <br/> |Decimal(5,2)  <br/> ||La valeur par défaut est 10,0 /  <br/> |
+|**LowResolutionCallPercentOptimal** <br/> |Decimal(5,2)  <br/> ||La valeur par défaut est 5.0.  <br/> |
+|**LowResolutionCallPercentAcceptable** <br/> |Decimal(5,2)  <br/> ||La valeur par défaut est 10.0.  <br/> |
+|**VideoPacketLossRateOptimal** <br/> |foat  <br/> ||La valeur par défaut est de 0,05.  <br/> |
+|**VideoPacketLossRateAcceptable** <br/> |float  <br/> ||La valeur par défaut est de 0,10.  <br/> |
+|**VideoFrameRateAvgOptimal** <br/> |float  <br/> ||La valeur par défaut est 12.  <br/> |
+|**VideoFrameRateAvgAcceptable** <br/> |float  <br/> ||La valeur par défaut est 7.  <br/> |
+|**DynamicCapabilityPercentOptimal** <br/> |Decimal(5,2)  <br/> ||La valeur par défaut s’élève à 5,00.  <br/> |
+|**DynamicCapabilityPercentAcceptable** <br/> |Decimal(5,2)  <br/> ||La valeur par défaut est de 10,00.  <br/> |
+   
+

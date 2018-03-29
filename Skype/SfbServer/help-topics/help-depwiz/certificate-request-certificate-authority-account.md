@@ -1,0 +1,10 @@
+---
+titre : « Demande de certificat (autorité de certificat compte) » ms.author : jambirk auteur : Gestionnaire de jambirk : serdars ms.date : ms.audience du 17/11/2014 : ITPro ms.topic : article de f1_keywords :
+- ms.lync.dep.DeployCertRequestCAAccount ms.prod : localization_priority de Skype pour entreprise itpro : ms.assetid Normal : 6251322d-ac36-4760-b467-bcd543af22aa description : « pour soumettre une demande, votre autorité de certification (CA) peut-être nécessiter les informations d’identification autres que celles de l’utilisateur que vous êtes connecté en tant que. Pour autoriser une demande de certificat en tant qu’autre utilisateur, activez les case à cocher spécifier autres informations d’identification de l’autorité de certification et tapez le nom d’utilisateur ou d’un domaine pour un utilisateur qui peut demander le certificat. Dans la zone de texte mot de passe, tapez le mot de passe de l’utilisateur que vous avez spécifié. Le nom d’utilisateur et le mot de passe sont ensuite envoyés dans le cadre de la demande de certificat, mais pas dans la demande réelle de certificat à une autorité de certification en ligne. »
+---
+
+# <a name="certificate-request-certificate-authority-account"></a>Demande de certificat (autorité de certificat compte)
+ 
+Pour soumettre une demande, votre autorité de certification (CA) peut nécessiter des informations d’identification autres que celles de l’utilisateur que vous êtes connecté en tant que. Pour autoriser une demande de certificat en tant qu’autre utilisateur, activez la case à cocher **spécifier les informations d’identification alternatives pour l’autorité de certification**, puis tapez le nom d’utilisateur ou d’un _domaine_\ _nom d’utilisateur_ pour un utilisateur qui peut demander le certificat . Dans la zone de texte **mot de passe** , tapez le mot de passe de l’utilisateur que vous avez spécifié. Le nom d’utilisateur et le mot de passe sont ensuite envoyés dans le cadre de la demande de certificat, mais pas dans la demande réelle de certificat à une autorité de certification en ligne.
+  
+

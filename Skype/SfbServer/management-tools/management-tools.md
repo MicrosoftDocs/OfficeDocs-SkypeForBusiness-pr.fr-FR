@@ -1,0 +1,49 @@
+---
+title: Outils de gestion Skype Entreprise Server 2015
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 12/20/2016
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
+description: 'Résumé : Découvrez les outils de gestion de service dans Skype pour Business Server 2015.'
+ms.openlocfilehash: 7cd0ba452b0f018cc18a2063d75cda96a46ddd9d
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="skype-for-business-server-2015-management-tools"></a>Outils de gestion Skype Entreprise Server 2015
+ 
+**Résumé :** Obtenir des informations sur les outils de gestion de service dans Skype pour Business Server 2015.
+  
+Skype pour le logiciel de communication Business Server 2015 (anciennement Lync Server), offre la messagerie instantanée (MI), de présence, de conférence et de solutions de téléphonie qui prennent en charge les besoins de la collaboration de l’échelle de l’entreprise. Les outils servant à gérer ces services sont à la fois flexibles et puissants. 
+  
+## <a name="skype-for-business-server-2015-tools"></a>Outils du serveur Skype Entreprise 2015
+
+||**Contenu**|**Description**|
+|:-----|:-----|:-----|
+||[Méthodologie tableau de bord qualité appel de Microsoft, en version 1.5](https://go.microsoft.com/fwlink/p/?LinkId=615208) (téléchargement .zip) <br/> [Comptabilisation CQM de Skype pour entreprise](https://go.microsoft.com/fwlink/p/?LinkID=617898) <br/> [Comptabilisation CQM de Lync 2013](https://go.microsoft.com/fwlink/p/?LinkId=391841) <br/> |Une version mise à jour de la carte de performance méthodologie de qualité appeler (CQM) de Microsoft Lync Server et Skype pour Business Server 2015. Vous pouvez utiliser la carte de performance (scorecard) CQM pour mettre en œuvre la méthodologie de qualité des appels (CQM), une manière globale de définir de façon systématique et déclarer la qualité des appels en fonction des méthodes décrites dans le guide de mise en réseau. CQM divise un Lync et Skype pour la mise en œuvre de l’entreprise dans des zones discrètes dix qui impact qualité, définition des cibles et un plan de conversion pour chacun d’eux. CQM est une infrastructure pour s’attaquer à des problèmes de qualité d’appel, vous pouvez modifier ou étendre pour traiter des conditions particulières de votre réseau  <br/> L’affiche CQM peut vous aider à en savoir plus sur CQM, la méthodologie de qualité appeler pour Lync et Skype pour entreprise qui vous permet de trouver et d’éliminer les problèmes ayant une incidence sur appel de qualité et une expérience utilisateur de Lync / Skype pour des implémentations en entreprise qui comprennent des voix entreprise fonctionnalités.  <br/> |
+|![icône tableau de bord](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Appelez le tableau de bord qualité](https://go.microsoft.com/fwlink/p/?LinkId=534842) <br/> |Le tableau de bord de la qualité des appels (CQD) est un portail Web permettant de créer et d’organiser des rapports rapidement en se fondant sur les données Qualité de l’expérience (QoE) provenant de votre environnement Skype Entreprise ou Lync. Le CQD déploie un cube SSAS afin de regrouper les données dans la base de données QoEMetrics, permettant ainsi aux utilisateurs de créer et de modifier des rapports et d’en consulter les mises à jour en temps réel. En outre, le CQD expose les API Web, ce qui donne aux utilisateurs les moyens de programmer les données de cube à utiliser dans les tableaux de bord personnalisés.  <br/> |
+|![icône de KHI](../media/8759b767-b689-4a95-94a5-5b27c5688688.png)|[Ressources KHI](https://go.microsoft.com/fwlink/p/?LinkId=534843) <br/> |Les indicateurs d’intégrité clés (KHI) sont des compteurs de performances ayant des seuils recommandés dont l’objectif est de révéler les problèmes risquant d’altérer l’expérience utilisateur. Le Guide KHI aborde les étapes d’exploitation et de restauration permettant de préserver l’intégrité d’un déploiement. Il inclut également un exemple de script PowerShell permettant de configurer les collecteurs de données KHI, ainsi qu’un classeur de définitions et d’analyses permettant d’analyser les données de performance KHI.  <br/> |
+|![icône tableau de bord](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Gestionnaire de statistiques pour Skype pour Business Server 2015](statistics-manager/statistics-manager.md) <br/> |StatsMan est une solution de tableau de bord permettant de consulter des calculs KHI en temps réel, ainsi que des graphiques de performance agrégés sur l’ensemble de votre infrastructure. Le tableau de bord peut être utilisé pour mettre en évidence des problèmes de performances persistants, consulter les résultats d’une modification planifiée dans votre environnement, suivre la résolution de pannes et bien plus encore. Prêts à l’emploi, il est configuré avec les seuils KHI à partir des ressources KHI et peut être personnalisé pour répondre aux besoins spécifiques de votre déploiement.  <br/> |
+|![icône tableau de bord](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Skype pour les outils du Kit de ressources Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=52631) <br/> |Les outils du Kit de ressources Skype Entreprise Server 2015 sont fournis pour simplifier l’exécution de certaines tâches de routine pour les administrateurs qui déploient et gèrent Skype for Business Server 2015.   <br/> |
+|![icône réseau](../media/c74d45da-b10f-43c9-aa80-b1935f45c3ee.png)|[Guide de mise en réseau](https://go.microsoft.com/fwlink/p/?LinkID=390677) <br/> |Logiciel de communications Microsoft Lync Server 2013 et Skype Entreprise 2015 permettant les appels audio/vidéo P2P et offrant des services de conférence et de collaboration ; s’appuie sur une infrastructure réseau optimisée et fiable pour offrir des sessions multimédias haute qualité entre les clients. Le guide de mise en réseau guide fournit un modèle de gestion de l’infrastructure réseau pour Skype Entreprise et Lync, composé de trois phases (planification, suivi, et résolution des problèmes). Ces phases peuvent s’appliquer à des déploiements Lync ou Skype Entreprise nouveaux ou existants. La récente mise à jour du guide de mise en réseau concernait Lync/Skype en mode Wi-Fi et la configuration de stratégie de qualité de service.  <br/> |
+|![icône Presse-Papiers](../media/2e0c9c21-cd2a-4db5-8cb7-d2c0b1b159b7.png)|[Service de journalisation centralisée dans Skype pour entreprise 2015](centralized-logging-service/centralized-logging-service.md) <br/> |Le Service de journalisation centralisée est un puissant outil de dépannage pour des problèmes de petites ou grandes, à partir de l’analyse des causes premières des problèmes de performances. Tous les exemples sont affichés à l’aide de la Skype pour Business Server Management Shell. L’aide est disponible pour l’outil de ligne de commande via l’outil lui-même, mais il existe un ensemble limité de fonctions que vous pouvez exécuter à partir de la ligne de commande. À l’aide de Skype pour Business Server Management Shell, vous avez accès à un ensemble beaucoup plus volumineux et plus configurable de fonctionnalités, qui doit toujours être votre premier choix.  <br/> |
+|![Icône SCOM](../media/3a7601cb-dd2f-4606-8a3b-07c7abdc091a.png)|[Gérer Skype pour 2015 de serveur d’entreprise à l’aide du pack de gestion de SCOM](use-scom-management-pack/use-scom-management-pack.md) <br/> |À l’aide de Skype Business Server 2015 des Packs de gestion, vous pouvez identifier et résoudre les problèmes potentiels de manière proactive. De cette façon, le Skype pour les Packs de gestion Business Server 2015 étendre les fonctionnalités de System Center Operations Manager.  <br/> |
+|![icône tableau de bord](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Skype pour outil de planification Business Server 2015](planning-tool/planning-tool.md) <br/> |L’outil de planification de Skype Entreprise 2015 contient des instructions permettant de planifier votre topologie.  <br/> |
+|![icône tableau de bord](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Skype pour le calculateur de planification de capacité du serveur 2015 Business](capacity-planning-calculator.md) <br/> |Le calculateur de planification de la capacité Skype Entreprise Server 2015 vous aide à modéliser une topologie correspondant aux besoins de votre organisation.  <br/> |
+|![icône réseau](../media/c74d45da-b10f-43c9-aa80-b1935f45c3ee.png)|[Skype pour Business Server 2015 Stress et l’outil performances](stress-and-performance-tool/stress-and-performance-tool.md) <br/> |Cet outil permet d’effectuer une série de tests de performances avec charge d’utilisateur pour votre environnement Skype Entreprise Server 2015. Des exemples de scripts sont fournis avec l’outil pour répondre à vos besoins uniques en matière d’environnement.  <br/> |
+   
+## <a name="see-also"></a>Voir aussi
+
+#### 
+
+[Outils de Lync Server 2013](https://technet.microsoft.com/en-us/library/dn163598%28v=ocs.15%29.aspx)
+  
+[Outils de Lync Server 2010](https://technet.microsoft.com/en-us/library/dn145002%28v=ocs.14%29.aspx)
+

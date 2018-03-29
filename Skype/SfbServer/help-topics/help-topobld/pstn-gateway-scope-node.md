@@ -1,0 +1,37 @@
+---
+title: Nœud d’étendue de la passerelle PSTN
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 3/26/2015
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.tb.PstnGatewayScopeNode
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
+description: 'Ce nœud affiche le nom de domaine pleinement qualifié (FQDN), associé à serveur de médiation et d’autres informations de base sur cette passerelle de réseau téléphonique public commuté. Vous pouvez effectuer les actions suivantes :'
+ms.openlocfilehash: 4b9d34a9decb2989bd82ce5b1c97b10d2b8ad992
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="pstn-gateway-scope-node"></a>Nœud d’étendue de la passerelle PSTN
+ 
+Ce nœud affiche le nom de domaine pleinement qualifié (FQDN), associé à serveur de médiation et d’autres informations de base sur cette passerelle de réseau téléphonique public commuté. Vous pouvez effectuer les actions suivantes :
+  
+- **Modifier les propriétés** : affiche la page **Modifier les propriétés** pour cette passerelle, dans laquelle vous pouvez modifier le nom de domaine complet (si la topologie n’est pas encore publiée), le port d’écoute, le protocole de transport et l’adresse IP du média de remplacement.
+    
+- **Supprimer** : supprime le serveur de la topologie.
+    
+Outre ces options, vous pouvez effectuer les tâches générales suivantes :
+  
+- **Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.
+    
+- **Afficher** : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.
+    
+- **Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.
+    
+

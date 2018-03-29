@@ -1,0 +1,58 @@
+---
+title: Stratégie de mobilité de clients
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.ClientMobilityPolicyMain
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
+description: La page de stratégie de ClientsMobility affiche les stratégies de mobilité disponibles dans votre déploiement.
+ms.openlocfilehash: 27fe7bd4d92591ae3ff35f225a2841d576d03d7a
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="clients-mobility-policy"></a>Clients : Stratégie de mobilité
+ 
+La page **Stratégie de mobilité** de **Clients** affiche les stratégies de mobilité disponibles dans votre déploiement.
+  
+## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
+
+Vous pouvez effectuer les tâches suivantes dans la page **Stratégie de mobilité** :
+  
+- Afficher les stratégies de mobilité existant
+    
+- Créer une nouvelle stratégie de mobilité
+    
+- Modifier une stratégie de mobilité
+    
+## <a name="ui-reference"></a>Référence d’interface utilisateur
+
+Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
+  
+### 
+
+- **Champ de recherche** Tapez une chaîne dans la zone de texte pour filtrer les stratégies affichées.
+    
+- **Nouveau** Cliquez sur **Nouveau**, puis sélectionnez **Site** ou **utilisateur** pour créer une nouvelle stratégie de mobilité.
+    
+- **Modifier** Sélectionnez une stratégie, puis cliquez sur **Modifier** pour modifier les propriétés de la stratégie sélectionnée.
+    
+- **Actualiser** Actualise la liste des stratégies s’affichée. Lorsque vous cliquez sur **Actualiser**, la chaîne de filtrage est désactivée et toutes les stratégies existantes sont affichent.
+    
+Pour plus d’informations sur la configuration des stratégies de mobilité, consultez [Configuration de la stratégie de mobilité](http://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
+  
+## <a name="see-also"></a>Voir aussi
+
+#### 
+
+[Planification de la mobilité](http://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+  
+[Déploiement de mobilité](http://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+

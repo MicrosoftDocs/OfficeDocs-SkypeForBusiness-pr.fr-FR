@@ -1,0 +1,81 @@
+---
+title: Exemples de requêtes de base de données de conversation permanente
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
+description: Cette section contient des exemples de requêtes pour la base de données de conversation permanent.
+ms.openlocfilehash: 1e2d457a31061dcfb3c332a067069cbd4a8a9ebd
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="sample-persistent-chat-database-queries"></a>Exemples de requêtes de base de données de conversation permanente
+ 
+Cette section contient des exemples de requêtes pour la base de données de conversation permanent.
+  
+L’exemple suivant permet d’obtenir la liste de vos salles de conversation permanent plus actives après une certaine date.
+  
+```
+SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
+  FROM tblChat, tblNode
+  WHERE channelId = nodeID AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
+  GROUP BY nodeName
+  ORDER BY ChatMessages DESC
+
+```
+
+L’exemple suivant permet d’obtenir la liste de vos utilisateurs les plus actifs après une certaine date.
+  
+```
+SELECT prinName as Name, count(*) as ChatMessages
+  FROM tblChat, tblPrincipal
+  WHERE prinID = userId AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
+  GROUP BY prinName
+  ORDER BY ChatMessages DESC
+
+```
+
+L’exemple suivant permet d’obtenir une liste de toutes les personnes qui soit qu’il a envoyé un message avec « Hello World ».
+  
+```
+SELECT nodeName as ChatRoom, prinName as Name, content as Message
+  FROM tblChat, tblNode, tblPrincipal
+  WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
+```
+
+L’exemple suivant permet d’obtenir une liste des appartenances aux groupes pour une entité de certains.
+  
+```
+SELECT prinName as Name    
+  FROM tblPrincipalAffiliations as pa, tblPrincipal
+  where principalID = 7 and affiliationID = prinID
+```
+
+L’exemple suivant permet d’obtenir une liste d’un utilisateur, Jane Dow, est un membre direct de chaque salle de conversation.
+  
+```
+SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
+  FROM tblPrincipalRole, tblPrincipal, tblNode
+  WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
+```
+
+L’exemple suivant permet d’obtenir une liste des invitations à laquelle un utilisateur a été.
+  
+```
+SELECT prinName
+      ,nodeName
+      ,invID   
+      ,createdOn
+  FROM tblPrincipalInvites as inv, tblPrincipal as p, tblNode as n
+  where inv.prinID = 5 AND inv.prinID = p.prinID and inv.nodeID = n.nodeID
+  ORDER BY invID DESC
+```
+
+
