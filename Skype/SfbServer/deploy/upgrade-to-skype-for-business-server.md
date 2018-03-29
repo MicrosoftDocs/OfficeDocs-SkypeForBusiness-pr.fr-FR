@@ -1,0 +1,246 @@
+---
+title: Mise à niveau vers Skype Entreprise Server 2015
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 7/14/2016
+ms.audience: ITPro
+ms.topic: get-started-article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.custom: Strat_SB_Admin
+ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
+description: 'Résumé : Apprenez à mettre à niveau à partir de Lync Server 2013 Skype pour Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour 2015 de serveur d’entreprise depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: f3c451e0c1590daab2c6576964c1e1ce5ec3c4ec
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="upgrade-to-skype-for-business-server-2015"></a><span data-ttu-id="426b1-104">Mise à niveau vers Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="426b1-104">Upgrade to Skype for Business Server 2015</span></span>
+ 
+<span data-ttu-id="426b1-105">**Résumé :** Découvrez comment mettre à niveau à partir de Lync Server 2013 Skype pour Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="426b1-105">**Summary:** Learn how to upgrade from Lync Server 2013 to Skype for Business Server 2015.</span></span> <span data-ttu-id="426b1-106">Téléchargez une version d’évaluation gratuite de Skype pour 2015 de serveur d’entreprise à partir du [Centre d’évaluation de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).</span><span class="sxs-lookup"><span data-stu-id="426b1-106">Download a free trial of Skype for Business Server 2015 from the  [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).</span></span>
+  
+<span data-ttu-id="426b1-107">Utilisez les procédures de ce document pour mettre à niveau à partir de Lync Server 2013 à Skype pour Business Server 2015 pour le Générateur de topologies Business Server et la nouvelle fonctionnalité de mise à niveau sur Place à l’aide de la Skype.</span><span class="sxs-lookup"><span data-stu-id="426b1-107">Use the procedures in this document to upgrade from Lync Server 2013 to Skype for Business Server 2015 by using the Skype for Business Server Topology Builder and the new In-Place Upgrade feature.</span></span> <span data-ttu-id="426b1-108">Si vous souhaitez mettre à niveau à partir de Lync Server 2010 ou Office Communications Server 2007 R2, consultez le [Plan de mise à niveau vers Skype pour Business Server 2015](../plan-your-deployment/upgrade.md).</span><span class="sxs-lookup"><span data-stu-id="426b1-108">If you want to upgrade from Lync Server 2010 or Office Communications Server 2007 R2, see [Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md).</span></span>
+  
+## <a name="upgrade-from-lync-server-2013"></a><span data-ttu-id="426b1-109">Mise à niveau à partir de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="426b1-109">Upgrade from Lync Server 2013</span></span>
+
+<span data-ttu-id="426b1-110">Mise à niveau de Microsoft Lync Server 2013 à Skype pour Business Server 2015 implique l’installation des logiciels requis, à l’aide de la Skype pour le Générateur de topologies Business Server pour mettre à niveau les bases de données dans le pool et à l’aide de la Skype pour la mise à niveau de Business Server Place sur chaque le associé au pool de serveurs.</span><span class="sxs-lookup"><span data-stu-id="426b1-110">Upgrading Lync Server 2013 to Skype for Business Server 2015 involves installing prerequisite software, using the Skype for Business Server Topology Builder to upgrade databases in the pool, and using the Skype for Business Server In-Place Upgrade on each of the servers associated with the pool.</span></span> <span data-ttu-id="426b1-111">Pour terminer la mise à niveau, aller à travers les huit étapes dans cette rubrique.</span><span class="sxs-lookup"><span data-stu-id="426b1-111">To complete the upgrade, go through the eight steps in this topic.</span></span>
+  
+### <a name="before-you-begin"></a><span data-ttu-id="426b1-112">Avant de commencer</span><span class="sxs-lookup"><span data-stu-id="426b1-112">Before you begin</span></span>
+
+- <span data-ttu-id="426b1-113">Réviser le [Plan de mise à niveau vers Skype pour Business Server 2015](../plan-your-deployment/upgrade.md).</span><span class="sxs-lookup"><span data-stu-id="426b1-113">Review [Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md).</span></span>
+    
+- <span data-ttu-id="426b1-114">Examinez la [configuration serveur requise pour Skype pour Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="426b1-114">Review [Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md).</span></span>
+    
+- <span data-ttu-id="426b1-115">[Installer les composants requis pour Skype pour Business Server 2015](install/install-prerequisites.md) .</span><span class="sxs-lookup"><span data-stu-id="426b1-115">[Install prerequisites for Skype for Business Server 2015](install/install-prerequisites.md) .</span></span>
+    
+- <span data-ttu-id="426b1-116">[Installer Skype pour Business Server 2015](install/install.md) .</span><span class="sxs-lookup"><span data-stu-id="426b1-116">[Install Skype for Business Server 2015](install/install.md) .</span></span>
+    
+### <a name="step-1-install-administrator-tools-and-download-topology"></a><span data-ttu-id="426b1-117">Étape 1 : Installer les outils d’administrateur et télécharger la topologie</span><span class="sxs-lookup"><span data-stu-id="426b1-117">Step 1: Install Administrator tools and download topology</span></span>
+
+1. <span data-ttu-id="426b1-118">Se connecter à l’ordinateur dans la topologie Lync OCSCore ou tous les autres composants Lync installés n’est pas.</span><span class="sxs-lookup"><span data-stu-id="426b1-118">Connect to computer in the topology that does not have Lync OCSCore or any other Lync components installed.</span></span>
+    
+2. <span data-ttu-id="426b1-119">À partir de Skype pour le support d’installation Business Server 2015, exécutez **Setup.exe** à partir de **OCS_Volume\Setup\AMD64**.</span><span class="sxs-lookup"><span data-stu-id="426b1-119">From Skype for Business Server 2015 installation media, run **Setup.exe** from **OCS_Volume\Setup\AMD64**.</span></span> 
+    
+3. <span data-ttu-id="426b1-120">Cliquez sur **Installer**.</span><span class="sxs-lookup"><span data-stu-id="426b1-120">Click **Install**.</span></span> 
+    
+4. <span data-ttu-id="426b1-121">Acceptez les termes du contrat de licence.</span><span class="sxs-lookup"><span data-stu-id="426b1-121">Accept the license agreement.</span></span>
+    
+5. <span data-ttu-id="426b1-122">Dans l’Assistant Déploiement, cliquez sur **Installer les outils d’administrateur**, puis suivez les étapes d’installation.</span><span class="sxs-lookup"><span data-stu-id="426b1-122">On the Deployment Wizard, click **Install Administrator tools**, and follow the steps to install.</span></span>
+    
+     ![Capture d’écran de l’Assistant Déploiement avec lien Installer les outils d’administrateur.](../media/5bbac2d6-a5b3-42b4-a243-7bcf2b04477a.png)
+  
+6. <span data-ttu-id="426b1-124">À partir de l’écran de démarrage de Windows, ouvrez Skype pour le Générateur de topologies Business Server.</span><span class="sxs-lookup"><span data-stu-id="426b1-124">From the Windows Start screen, open Skype for Business Server Topology Builder.</span></span>
+    
+7. <span data-ttu-id="426b1-125">Cliquez sur **Télécharger la topologie à partir d’un déploiement existant**, puis sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="426b1-125">Click **Download topology from existing deployment**, and click **Next**.</span></span>
+    
+8. <span data-ttu-id="426b1-126">Entrez un nom pour la topologie, puis cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="426b1-126">Enter a name for the topology, and click **Save**.</span></span>
+    
+9. <span data-ttu-id="426b1-127">Accédez à l’emplacement où vous avez enregistré la topologie, puis effectuez une copie de la topologie.</span><span class="sxs-lookup"><span data-stu-id="426b1-127">Go to location where you saved the topology, and make a copy of the topology.</span></span>
+    
+### <a name="step-2-upgrade-and-publish-topology-using-topology-builder"></a><span data-ttu-id="426b1-128">Étape 2 : mise à niveau et publication de la topologie à l’aide du Générateur de topologie</span><span class="sxs-lookup"><span data-stu-id="426b1-128">Step 2: Upgrade and publish topology using Topology Builder</span></span>
+
+<span data-ttu-id="426b1-129">Avant de commencer le processus de mise à niveau, tous les services est indispensable pour les mise à niveau des pools.</span><span class="sxs-lookup"><span data-stu-id="426b1-129">Before you start the upgrade process, all services must be running for the pools you plan to upgrade.</span></span> <span data-ttu-id="426b1-130">Les changements de la topologie pourront ainsi être répliqués dans la base de données locale des serveurs dans le pool.</span><span class="sxs-lookup"><span data-stu-id="426b1-130">This is so the topology changes will be replicated to the local database of the servers in the pool.</span></span>
+  
+> [!IMPORTANT]
+>  <span data-ttu-id="426b1-131">Enregistrez une copie de votre fichier de topologie avant la mise à niveau.</span><span class="sxs-lookup"><span data-stu-id="426b1-131">Save a copy of your topology file before you upgrade.</span></span> <span data-ttu-id="426b1-132">Une fois que vous mettez à niveau, vous ne pourrez pas rétrograder la topologie. > Si vos services sur les mêmes serveurs que vos bases de données, comme le Chat persistant service est sur le même serveur que la base de données Chat persistant, ignorez cette étape et passez à l’étape 4.</span><span class="sxs-lookup"><span data-stu-id="426b1-132">After you upgrade, you will not be able to downgrade the topology.>  If your services are on the same servers as your databases, like the Persistent Chat service is on the same server as the Persistent Chat database, skip this step, and go to step 4.</span></span> <span data-ttu-id="426b1-133">Après avoir arrêté les services, exécutez le programme de mise à niveau sur place sur chaque serveur pour effectuer la mise à niveau vers les bases de données locales.</span><span class="sxs-lookup"><span data-stu-id="426b1-133">After you stop the services, run the In-Place Upgrade setup on each server to upgrade the local databases.</span></span>
+  
+> [!NOTE]
+> <span data-ttu-id="426b1-p107">Si la topologie comporte une base de données principale mise en miroir, les bases de données principale et en miroir s’affichent **lorsque vous publiez la topologie** à l’aide du générateur de topologie. Vérifiez que toutes les bases de données sont exécutées dans la base de données principale et veillez à sélectionner la base de données principale et non la base de données miroir lors de la publication de la topologie, autrement un avertissement s’affichera après la publication de la topologie.</span><span class="sxs-lookup"><span data-stu-id="426b1-p107">If the topology has a back-end database that is mirrored then you will see both the Principal and the Mirrored databases show up **when you publish the topology** using Topology Builder. Make sure all of the databases are running on the Principal and only select the Principal, not the mirror, when publishing the topology otherwise you will see a warning after publishing the topology.</span></span>
+  
+<span data-ttu-id="426b1-136">Choisissez une des options ci-dessous pour mettre à jour et publier une nouvelle topologie à l’aide de la Skype pour le Générateur de topologies Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="426b1-136">Pick one of the options below to upgrade and publish a new topology by using the Skype for Business Server 2015 Topology Builder.</span></span> <span data-ttu-id="426b1-137">Après avoir effectué ces étapes et publié la topologie mise à jour, passez à l’Étape 3 de cette rubrique.</span><span class="sxs-lookup"><span data-stu-id="426b1-137">After you complete the steps and publish the updated topology, move to Step 3 in this topic.</span></span>
+  
+#### <a name="option-1-upgrade-an-isolated-front-end-pool-and-associated-archiving-and-monitoring-stores"></a><span data-ttu-id="426b1-138">Option 1 : Mettre à niveau un pool frontal isolé et les magasins d’archivage et de surveillance associés</span><span class="sxs-lookup"><span data-stu-id="426b1-138">Option 1: Upgrade an isolated Front End pool and associated Archiving and Monitoring stores</span></span>
+
+<span data-ttu-id="426b1-139">Si le pool que vous mettez à niveau a une dépendance des magasins d’archivage et de surveillance, quand vous utilisez les étapes suivantes, le magasin d’archivage et de surveillance est aussi mis à niveau.</span><span class="sxs-lookup"><span data-stu-id="426b1-139">If the pool you're upgrading has an Archiving and Monitoring store dependency, when you use the following steps, the Archiving and Monitoring store will be upgraded as well.</span></span>
+  
+1. <span data-ttu-id="426b1-140">Dans le Générateur de topologies, avec le bouton droit à un pool Lync Server 2013, sélectionnez **mise à niveau vers Skype pour Business Server 2015**et suivez les étapes.</span><span class="sxs-lookup"><span data-stu-id="426b1-140">In Topology Builder, right-click a Lync Server 2013 pool, select **Upgrade to Skype for Business Server 2015**, and follow the steps.</span></span> 
+    
+     ![Capture d’écran du menu contextuel présentant l’option de mise à niveau vers Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
+  
+2. <span data-ttu-id="426b1-142">Dans le Générateur de topologies, cliquez sur **Action** > **topologie de publication** ou **d’Action** > **topologie** > **Publier**.</span><span class="sxs-lookup"><span data-stu-id="426b1-142">In Topology Builder, click **Action** > **Publish topology** or **Action** > **Topology** > **Publish**.</span></span> 
+    
+     ![Capture d’écran du menu Action avec l’option Publier la topologie dans le Générateur de topologie.](../media/d6712634-9205-401f-a0b0-3ea096ca51bf.png)
+  
+3. <span data-ttu-id="426b1-144">Au cours de la publication, choisissez d’installer une base de données dans le magasin d’archivage et de surveillance.</span><span class="sxs-lookup"><span data-stu-id="426b1-144">During publishing, choose to install a database on the Archiving and Monitoring store.</span></span>
+    
+#### <a name="option-2-upgrade-front-end-pool-without-upgrading-archiving-and-monitoring-stores"></a><span data-ttu-id="426b1-145">L’option 2 : Pool de mise à niveau frontal sans mettre à niveau l’archivage et la surveillance des banques</span><span class="sxs-lookup"><span data-stu-id="426b1-145">Option 2: Upgrade Front End pool without upgrading Archiving and Monitoring stores</span></span>
+
+<span data-ttu-id="426b1-p109">Si vous utilisez les étapes suivantes, l’archivage et la surveillance pour le pool sélectionné sont désactivées. Le pool n’aura pas de magasins d’archivage et de surveillance après la mise à niveau.</span><span class="sxs-lookup"><span data-stu-id="426b1-p109">If you use the following steps, archiving and monitoring for the selected pool are disabled. The pool will not have Archiving and Monitoring stores after the upgrade.</span></span>
+  
+1. <span data-ttu-id="426b1-148">Dans le Générateur de topologies, sélectionnez le pool Lync Server 2013 que vous souhaitez mettre à niveau.</span><span class="sxs-lookup"><span data-stu-id="426b1-148">In Topology Builder, select the Lync Server 2013 pool that you want to upgrade.</span></span>
+    
+2. <span data-ttu-id="426b1-149">Supprimez la dépendance pour les magasins de surveillance et d’archivage de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="426b1-149">Remove the dependency to the Lync Server 2013 Archiving and Monitoring stores.</span></span> 
+    
+   - <span data-ttu-id="426b1-150">Accédez à **l’Action** > **Modifier les propriétés**.</span><span class="sxs-lookup"><span data-stu-id="426b1-150">Go to **Action** > **Edit properties**.</span></span>
+    
+   - <span data-ttu-id="426b1-151">Désactivez la case à cocher **Archivage**.</span><span class="sxs-lookup"><span data-stu-id="426b1-151">Clear the **Archiving** check box.</span></span>
+    
+     ![Capture d’écran de la boîte de dialogue Modifier les paramètres qui contient la case à cocher Archivage.](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
+  
+   - <span data-ttu-id="426b1-153">Désactivez la case à cocher **Surveillance**.</span><span class="sxs-lookup"><span data-stu-id="426b1-153">Clear the **Monitoring** check box.</span></span>
+    
+     ![Capture d’écran de la boîte de dialogue Modifier les paramètres qui contient la case à cocher Surveillance.](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
+  
+3. <span data-ttu-id="426b1-155">Droit du pool Lync Server 2013, sélectionnez **mise à niveau vers Skype pour Business Server 2015**et suivez les étapes.</span><span class="sxs-lookup"><span data-stu-id="426b1-155">Right-click the Lync Server 2013 pool, select **Upgrade to Skype for Business Server 2015**, and follow the steps.</span></span> 
+    
+     ![Capture d’écran du menu contextuel présentant l’option de mise à niveau vers Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
+  
+4. <span data-ttu-id="426b1-157">Dans le Générateur de topologies, cliquez sur **Action** > **topologie de publication** ou **d’Action** > **topologie** > **Publier**.</span><span class="sxs-lookup"><span data-stu-id="426b1-157">In Topology Builder, click **Action** > **Publish topology** or **Action** > **Topology** > **Publish**.</span></span> 
+    
+#### <a name="option-3-upgrade-front-end-pool-and-associated-it-to-new-skype-for-business-server-2015-archiving-and-monitoring-stores"></a><span data-ttu-id="426b1-158">Option 3 : Pool mise à niveau de Front-End et l’associer à nouveau Skype pour les magasins de surveillance et d’archivage d’entreprise serveur 2015</span><span class="sxs-lookup"><span data-stu-id="426b1-158">Option 3: Upgrade Front End pool and associated it to new Skype for Business Server 2015 Archiving and Monitoring stores</span></span>
+
+<span data-ttu-id="426b1-159">Si vous utilisez les étapes suivantes, l’archivage et la surveillance s’arrêteront dans le magasin précédent et commenceront dans le nouveau magasin que vous avez créé.</span><span class="sxs-lookup"><span data-stu-id="426b1-159">If you use the following steps, archiving and monitoring will stop in the previous store and start in the new store you've created.</span></span> 
+  
+1. <span data-ttu-id="426b1-160">Dans le Générateur de topologies, sélectionnez le pool Lync Server 2013 que vous souhaitez mettre à niveau.</span><span class="sxs-lookup"><span data-stu-id="426b1-160">In Topology Builder, select the Lync Server 2013 pool that you want to upgrade.</span></span> 
+    
+2. <span data-ttu-id="426b1-161">Supprimez la dépendance pour les magasins de surveillance et d’archivage de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="426b1-161">Remove the dependency to the Lync Server 2013 Archiving and Monitoring stores.</span></span> 
+    
+   - <span data-ttu-id="426b1-162">Accédez à **l’Action** > **Modifier les propriétés**.</span><span class="sxs-lookup"><span data-stu-id="426b1-162">Go to **Action** > **Edit properties**.</span></span>
+    
+   - <span data-ttu-id="426b1-163">Désactivez la case à cocher **Archivage**.</span><span class="sxs-lookup"><span data-stu-id="426b1-163">Clear the **Archiving** check box.</span></span>
+    
+     ![Capture d’écran de la boîte de dialogue Modifier les paramètres qui contient la case à cocher Archivage.](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
+  
+   - <span data-ttu-id="426b1-165">Désactivez la case à cocher **Surveillance**.</span><span class="sxs-lookup"><span data-stu-id="426b1-165">Clear the **Monitoring** check box.</span></span>
+    
+     ![Capture d’écran de la boîte de dialogue Modifier les paramètres qui contient la case à cocher Surveillance.](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
+  
+3. <span data-ttu-id="426b1-167">Droit du pool Lync Server 2013, sélectionnez **mise à niveau vers Skype pour Business Server 2015**et suivez les étapes.</span><span class="sxs-lookup"><span data-stu-id="426b1-167">Right-click the Lync Server 2013 pool, select **Upgrade to Skype for Business Server 2015**, and follow the steps.</span></span> 
+    
+     ![Capture d’écran du menu contextuel présentant l’option de mise à niveau vers Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
+  
+4. <span data-ttu-id="426b1-169">Créez un nouveau magasin SQL pour l’archivage.</span><span class="sxs-lookup"><span data-stu-id="426b1-169">Create a new SQL store for Archiving.</span></span> 
+    
+   - <span data-ttu-id="426b1-170">Sélectionnez **l’Action**et le pool > **Modifier les propriétés**.</span><span class="sxs-lookup"><span data-stu-id="426b1-170">Select the pool and **Action** > **Edit properties**.</span></span> 
+    
+   -  <span data-ttu-id="426b1-171">Activez la case à cocher **Archivage**.</span><span class="sxs-lookup"><span data-stu-id="426b1-171">Select the **Archiving** check box.</span></span>
+    
+   - <span data-ttu-id="426b1-172">Cliquez sur **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="426b1-172">Click **New**.</span></span>
+    
+     ![Capture d’écran de la boîte de dialogue Modifier les paramètres figurant le bouton Nouveau dans la section Archivage.](../media/3a4a18e7-8251-4736-837c-2b486f64f896.png)
+  
+5. <span data-ttu-id="426b1-174">Créez un nouveau magasin SQL pour la surveillance.</span><span class="sxs-lookup"><span data-stu-id="426b1-174">Create a new SQL store for Monitoring.</span></span> 
+    
+   - <span data-ttu-id="426b1-175">Sélectionnez **l’Action**et le pool > **Modifier les propriétés**.</span><span class="sxs-lookup"><span data-stu-id="426b1-175">Select the pool and **Action** > **Edit properties**.</span></span> 
+    
+   -  <span data-ttu-id="426b1-176">Activez la case à cocher **Surveillance**.</span><span class="sxs-lookup"><span data-stu-id="426b1-176">Select the **Monitoring** check box.</span></span>
+    
+   - <span data-ttu-id="426b1-177">Cliquez sur **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="426b1-177">Click **New**.</span></span>
+    
+     ![Capture d’écran de la boîte de dialogue Modifier les paramètres figurant le bouton Nouveau dans la section Surveillance.](../media/729c72a7-0068-4e0d-99dc-e480a6bfbf1d.png)
+  
+6. <span data-ttu-id="426b1-179">Dans le Générateur de topologies, cliquez sur **Action** > **topologie de publication** ou **d’Action** > **topologie** > **Publier**.</span><span class="sxs-lookup"><span data-stu-id="426b1-179">In Topology Builder, click **Action** > **Publish topology** or **Action** > **Topology** > **Publish**.</span></span> 
+    
+7. <span data-ttu-id="426b1-180">Au cours de la publication, choisissez d’installer la base de données dans le magasin d’archivage et de surveillance.</span><span class="sxs-lookup"><span data-stu-id="426b1-180">During publishing, choose to install the database on the new Archiving and Monitoring store.</span></span>
+    
+### <a name="step-3-wait-for-replication"></a><span data-ttu-id="426b1-181">Étape 3 : Attendre la réplication</span><span class="sxs-lookup"><span data-stu-id="426b1-181">Step 3: Wait for replication</span></span>
+
+<span data-ttu-id="426b1-182">Laissez à la réplication le temps de publier la topologie mise à jour vers tous les serveurs de l’environnement.</span><span class="sxs-lookup"><span data-stu-id="426b1-182">Give replication some time to publish the updated topology to all the servers in the environment.</span></span>
+  
+### <a name="step-4-stop-all-services-in-pool-to-be-upgraded"></a><span data-ttu-id="426b1-183">Étape 4 : Arrêter les services dans le pool à mettre à niveau</span><span class="sxs-lookup"><span data-stu-id="426b1-183">Step 4: Stop all services in pool to be upgraded</span></span>
+
+<span data-ttu-id="426b1-184">Sur chaque serveur qui prend en charge le pool que vous allez mettre à niveau, exécutez l’applet de commande suivant dans PowerShell :</span><span class="sxs-lookup"><span data-stu-id="426b1-184">On each server that is servicing the pool that you're going to upgrade, run the following cmdlet in PowerShell:</span></span>
+  
+```
+Disable-CsComputer -Scorch
+```
+
+<span data-ttu-id="426b1-185">Nous recommandons l’utilisation de CsComputer-désactiver, car vous devrez peut-être redémarrer le serveur au cours du processus de mise à niveau sur Place.</span><span class="sxs-lookup"><span data-stu-id="426b1-185">We recommend using Disable-CsComputer because you may need to reboot the server during the In-Place Upgrade process.</span></span> <span data-ttu-id="426b1-186">Si vous utilisez Stop-CsWindowsService, certains services peuvent redémarrer automatiquement après un redémarrage.</span><span class="sxs-lookup"><span data-stu-id="426b1-186">If you use Stop-CsWindowsService, some services may restart automatically after a reboot.</span></span> <span data-ttu-id="426b1-187">Cela peut entraîner l’échec de la mise à niveau sur place.</span><span class="sxs-lookup"><span data-stu-id="426b1-187">This may cause the In-Place Upgrade to fail.</span></span>
+  
+### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a><span data-ttu-id="426b1-188">Étape 5 : Mettre à niveau les pools frontaux et les serveurs des pools non frontaux</span><span class="sxs-lookup"><span data-stu-id="426b1-188">Step 5: Upgrade Front End pools and non-Front End pool servers</span></span>
+
+> [!NOTE]
+>  <span data-ttu-id="426b1-189">Avant l’installation, mise à niveau de toutes les nouvelles conditions préalables requises pour Skype pour Business Server 2015 qui incluent : > au moins 32 Go d’espace libre avant de tenter une mise à niveau.</span><span class="sxs-lookup"><span data-stu-id="426b1-189">Before upgrading please install all new prerequisites required for Skype for Business Server 2015 which include:>  At least 32GB of free space before attempting an upgrade.</span></span> <span data-ttu-id="426b1-190">En outre, assurez-vous que le lecteur est un lecteur fixe local et n’est pas connecté par USB ou Firewire, est formaté avec le système de fichiers NTFS, n’est pas compressé et ne contient-elle pas un fichier de page. > PowerShell version 6.2.9200.0 ou ultérieure. > la plus récente de Lync Server 2013 Mise à jour cumulative installée. > SQL Server 2012 SP1 installé. > la base de connaissances suivant l’installé (installé automatiquement si vous utilisez Microsoft Update) : > Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)</span><span class="sxs-lookup"><span data-stu-id="426b1-190">In addition, make sure that the drive is a fixed local drive, is not connected by USB or Firewire, is formatted with NTFS file system, is not compressed, and does not contain a page file.>  PowerShell version 6.2.9200.0 or later.>  The latest Lync Server 2013 Cumulative Update installed.>  SQL Server 2012 SP1 installed.>  The following KB's installed (installed automatically if using Microsoft Update):>  Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)>  Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)>  Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)</span></span>
+  
+<span data-ttu-id="426b1-191">Utilisez In situ de mise à niveau sur chaque serveur pour mettre à jour le pool frontal, bord pool, serveur de médiation et le pool de Chat persistant.</span><span class="sxs-lookup"><span data-stu-id="426b1-191">Use the In-Place Upgrade on each server to update the Front End pool, Edge pool, Mediation server, and the Persistent Chat pool.</span></span>
+  
+1. <span data-ttu-id="426b1-192">Sur chaque serveur, exécutez **Setup.exe** à partir de **OCS_Volume\Setup\amd64** sur le Skype pour le support d’installation Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="426b1-192">On each server, run **Setup.exe** from **OCS_Volume\Setup\amd64** on the Skype for Business Server 2015 installation media.</span></span>
+    
+2. <span data-ttu-id="426b1-193">Acceptez le contrat de licence et suivez les instructions de mise à niveau sur Place.</span><span class="sxs-lookup"><span data-stu-id="426b1-193">Accept the license agreement and follow the prompts for the In-Place Upgrade.</span></span>
+    
+3. <span data-ttu-id="426b1-194">Répétez ces étapes pour chaque serveur dans le pool de Front-End et sur chaque serveur du pool Front-End.</span><span class="sxs-lookup"><span data-stu-id="426b1-194">Repeat these steps for each server in the Front End pool and on each non-Front End pool server.</span></span>
+    
+> [!NOTE]
+> <span data-ttu-id="426b1-195">Vous pouvez être invité à redémarrer le serveur au cours de la mise à niveau sur Place.</span><span class="sxs-lookup"><span data-stu-id="426b1-195">You might be prompted to reboot the server during the In-Place Upgrade.</span></span> <span data-ttu-id="426b1-196">C'est d'accord.</span><span class="sxs-lookup"><span data-stu-id="426b1-196">That's ok.</span></span> <span data-ttu-id="426b1-197">Après le redémarrage, mise à niveau en Place continueront où il s’était arrêté.</span><span class="sxs-lookup"><span data-stu-id="426b1-197">After you reboot, the In-Place Upgrade will continue from where it left off.</span></span> 
+  
+<span data-ttu-id="426b1-198">Lorsque la mise à niveau sur place réussit, le message suivant s’affiche.</span><span class="sxs-lookup"><span data-stu-id="426b1-198">When the In-Place Upgrade completes successfully, you see the following message.</span></span>
+  
+![Capture d’écran montrant que la mise à niveau sur place a réussi.](../media/2f52cb50-9bb4-4714-a982-9c7a0865f78a.png)
+  
+### <a name="step-6-restart-services-on-all-upgraded-servers"></a><span data-ttu-id="426b1-200">Étape 6 : Redémarrer les services sur tous les serveurs mis à niveau</span><span class="sxs-lookup"><span data-stu-id="426b1-200">Step 6: Restart services on all upgraded servers</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="426b1-201">Avant de redémarrer les services, assurez-vous que %ProgramData%\WindowsFabric n’existe pas sur tous les serveurs frontaux.</span><span class="sxs-lookup"><span data-stu-id="426b1-201">Before restarting the services, please make sure %ProgramData%\WindowsFabric doesn't exist on all Front End Servers.</span></span> <span data-ttu-id="426b1-202">S’il existe, supprimez-le avant de démarrer les services.</span><span class="sxs-lookup"><span data-stu-id="426b1-202">If it exists, delete it before starting the services.</span></span> 
+  
+- <span data-ttu-id="426b1-203">Une fois que vous avez mis à niveau tous les serveurs dans le pool frontal, redémarrez les services à l’aide de la commande PowerShell suivante :</span><span class="sxs-lookup"><span data-stu-id="426b1-203">After you've upgraded all servers in the Front End pool, restart the services by using the following PowerShell command:</span></span> 
+    
+  ```
+  Start-CsPool
+  ```
+
+    > [!NOTE]
+    > <span data-ttu-id="426b1-p114">Si un redémarrage système déjà en attente est nécessaire avant le lancement d’une procédure de mise à niveau sur place, la mise à niveau sur place ne vous demandera alors pas de redémarrer à la fin de l’installation. Des exceptions d’assembly seront alors levées concernant le premier serveur frontal lorsque vous tenterez de démarrer des services à l’aide de l’applet de commande Start-CSPool. Pour résoudre ces erreurs, redémarrez tous les serveurs du pool et réexécutez l’applet de commande.</span><span class="sxs-lookup"><span data-stu-id="426b1-p114">If there is already a pending system reboot needed before you start running In-Place Upgrade, then In-Place Upgrade won't ask you to reboot at the end of the installation. This will cause some assembly exceptions to be thrown against the first Front End server when you try to start services using the Start-CSPool cmdlet. To resolve these errors, reboot all of the servers in the pool and run the cmdlet again.</span></span> 
+  
+- <span data-ttu-id="426b1-207">Sur les serveurs du pool non frontal, redémarrez les services en utilisant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="426b1-207">On the non-Front End pool servers, restart the services by using the following command:</span></span>
+    
+  ```
+  Start-CsWindowsService
+  ```
+
+<span data-ttu-id="426b1-208">Après avoir cliqué sur **OK** sur la page de mise à niveau sur place, le rappel suivant s’affiche vous invitant à compléter le reste de l’étape.</span><span class="sxs-lookup"><span data-stu-id="426b1-208">After you click **OK** on the In-Place Upgrade page, you'll see the following reminder to complete this step.</span></span>
+  
+![Capture d’écran montrant les étapes qui suivent la mise à niveau sur place réussie.](../media/6a7236b6-9ef9-4df3-8682-b0e4021810f9.png)
+  
+### <a name="step-7-verify-skype-for-business-functionality-works"></a><span data-ttu-id="426b1-210">Étape 7 : Vérification de Skype pour works de fonctionnalités d’entreprise</span><span class="sxs-lookup"><span data-stu-id="426b1-210">Step 7: Verify Skype for Business functionality works</span></span>
+
+<span data-ttu-id="426b1-211">Pour vous assurer de que la mise à niveau a réussi, pour le pool qui a été mis à niveau, Skype pour entreprise pour vous assurer que la fonctionnalité de test fonctionne comme prévu.</span><span class="sxs-lookup"><span data-stu-id="426b1-211">To make sure the upgrade was successful, for the pool that was upgraded, test Skype for Business to make sure the functionality is working as expected.</span></span> 
+  
+### <a name="step-8-upgrade-secondary-pools"></a><span data-ttu-id="426b1-212">Étape 8 : Mettre à niveau les pools secondaires</span><span class="sxs-lookup"><span data-stu-id="426b1-212">Step 8: Upgrade secondary pools</span></span>
+
+<span data-ttu-id="426b1-213">Répétez les étapes de cette rubrique pour mettre à niveau les autres pools de votre environnement.</span><span class="sxs-lookup"><span data-stu-id="426b1-213">Repeat the steps in this topic to upgrade any additional pools that you have in your environment.</span></span>
+  
+## <a name="troubleshoot-issues-with-the-in-place-upgrade"></a><span data-ttu-id="426b1-214">Résoudre les problèmes de la mise à niveau sur place</span><span class="sxs-lookup"><span data-stu-id="426b1-214">Troubleshoot issues with the In-Place Upgrade</span></span>
+
+<span data-ttu-id="426b1-215">Si la mise à niveau sur place échoue, un message tel que celui qui figure sur l’image suivante peut s’afficher.</span><span class="sxs-lookup"><span data-stu-id="426b1-215">If the In-Place Upgrade fails, you might see a message similar to what's in the following image.</span></span> 
+  
+![Capture d’écran montrant l’échec de la mise à niveau sur place à cause de la non-installation d’une mise à jour cumulative obligatoire.](../media/f84db06b-0841-45a9-870d-7ba4b5a463d5.png)
+  
+<span data-ttu-id="426b1-p115">Examinez le message complet au bas de la page pour vous aider à résoudre le problème. Cliquez sur **Afficher les journaux** pour obtenir plus de détails.</span><span class="sxs-lookup"><span data-stu-id="426b1-p115">Review the full message at the bottom of the page to help you troubleshoot the issue. Click **View logs** to get more detail.</span></span>
+  
+<span data-ttu-id="426b1-219">Si In situ de mise à niveau échoue sur le **niveau de préparation de mise à niveau de vérification** ou ** l’installation des composants requis manquant **, assurez-vous que le serveur dispose de la plus récente de Windows Server, Lync Server et mises à jour SQL Server appliquées, et tous les logiciels requis et rôles installé.</span><span class="sxs-lookup"><span data-stu-id="426b1-219">If the In-Place Upgrade fails on **Verifying upgrade readiness** or ** Installing missing prerequisites**, make sure the server has all the latest Windows Server, Lync Server, and SQL Server updates applied, and all the required software and roles are installed.</span></span> <span data-ttu-id="426b1-220">Pour obtenir une liste de ce qui est nécessaire, reportez-vous à la section [configuration serveur requise pour Skype pour Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) et [installer les composants requis pour Skype pour Business Server 2015](install/install-prerequisites.md).</span><span class="sxs-lookup"><span data-stu-id="426b1-220">For a list of what's required, see [Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Install prerequisites for Skype for Business Server 2015](install/install-prerequisites.md).</span></span>
+  
+## <a name="see-also"></a><span data-ttu-id="426b1-221">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="426b1-221">See also</span></span>
+
+#### 
+
+[<span data-ttu-id="426b1-222">Plan de mise à niveau vers Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="426b1-222">Plan to upgrade to Skype for Business Server 2015</span></span>](../plan-your-deployment/upgrade.md)
+  
+[<span data-ttu-id="426b1-223">Configuration serveur requise pour Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="426b1-223">Server requirements for Skype for Business Server 2015</span></span>](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+  
+[<span data-ttu-id="426b1-224">Installez les composants requis pour Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="426b1-224">Install prerequisites for Skype for Business Server 2015</span></span>](install/install-prerequisites.md)
+  
+[<span data-ttu-id="426b1-225">Installer Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="426b1-225">Install Skype for Business Server 2015</span></span>](install/install.md)
+

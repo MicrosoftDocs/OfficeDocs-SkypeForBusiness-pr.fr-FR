@@ -1,0 +1,251 @@
+---
+title: Configuration d’une console Skype Room Systems v2
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 2/14/2018
+ms.audience: ITPro
+ms.topic: get-started-article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.custom: Strat_SB_Admin
+ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
+description: Cet article décrit l’installation de la console Skype Room Systems v2 et de ses périphériques.
+ms.openlocfilehash: 6ca029fa7f5560dfdfebd789938d9b53ff2e9abc
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="configure-a-skype-room-systems-v2-console"></a><span data-ttu-id="1bf24-103">Configuration d’une console Skype Room Systems v2</span><span class="sxs-lookup"><span data-stu-id="1bf24-103">Configure a Skype Room Systems v2 console</span></span>
+ 
+<span data-ttu-id="1bf24-104">Cet article décrit l’installation de la console Skype Room Systems v2 et de ses périphériques.</span><span class="sxs-lookup"><span data-stu-id="1bf24-104">This article describes how to set up the Skype Room Systems v2 console device and its peripherals.</span></span>
+  
+<span data-ttu-id="1bf24-105">Vous devez uniquement effectuer ces étapes si le Skype nécessaire pour les comptes entreprise et Exchange ont déjà été créé et testé comme décrit dans le [déploiement de systèmes de salle Skype v2](room-systems-v2.md).</span><span class="sxs-lookup"><span data-stu-id="1bf24-105">You should only perform these steps if the necessary Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Skype Room Systems v2](room-systems-v2.md).</span></span> <span data-ttu-id="1bf24-106">Vous devez le matériel et les logiciels décrits dans les [exigences en matière de systèmes de salle Skype v2](../../plan-your-deployment/clients-and-devices/requirements.md).</span><span class="sxs-lookup"><span data-stu-id="1bf24-106">You will need the hardware and software described in [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).</span></span> <span data-ttu-id="1bf24-107">Cette rubrique contient les sections suivantes :</span><span class="sxs-lookup"><span data-stu-id="1bf24-107">This topic contains the following sections:</span></span>
+  
+- [<span data-ttu-id="1bf24-108">Préparation de l’image d’installation</span><span class="sxs-lookup"><span data-stu-id="1bf24-108">Prepare the installation image</span></span>](console.md#Prep_Image)
+    
+- [<span data-ttu-id="1bf24-109">Installer un certificat d’autorité de certification privé sur le périphérique de tablette</span><span class="sxs-lookup"><span data-stu-id="1bf24-109">Install a private CA certificate on the tablet device</span></span>](console.md#Certs)
+    
+- [<span data-ttu-id="1bf24-110">Installer Windows 10 et l’application de console de systèmes de salle Skype v2</span><span class="sxs-lookup"><span data-stu-id="1bf24-110">Install Windows 10 and the Skype Room Systems v2 console app </span></span>](console.md#Reimage)
+   
+- [<span data-ttu-id="1bf24-111">Paramétrage initial de la Console</span><span class="sxs-lookup"><span data-stu-id="1bf24-111">Initial set up of the Console </span></span>](console.md#Initial)
+    
+- [<span data-ttu-id="1bf24-112">Salle de Skype du pré-déploiement systèmes v2</span><span class="sxs-lookup"><span data-stu-id="1bf24-112">Skype Room Systems v2 Deployment Checklist</span></span>](console.md#Checklist)
+    
+> [!NOTE]
+> <span data-ttu-id="1bf24-113">Systèmes de salle Skype v2 ne fonctionne que dans un Skype correctement configuré pour l’environnement d’entreprise où les comptes de périphérique sont configurés correctement, comme décrit dans le [déploiement de systèmes de salle Skype v2](room-systems-v2.md).</span><span class="sxs-lookup"><span data-stu-id="1bf24-113">Skype Room Systems v2 will only work in a properly configured Skype for Business environment where the device accounts are set up correctly as described in [Deploy Skype Room Systems v2](room-systems-v2.md).</span></span> 
+  
+## <a name="prepare-the-installation-image"></a><span data-ttu-id="1bf24-114">Préparation de l’image d’installation</span><span class="sxs-lookup"><span data-stu-id="1bf24-114">Prepare the installation image</span></span>
+<span data-ttu-id="1bf24-115"><a name="Prep_Image"> </a></span><span class="sxs-lookup"><span data-stu-id="1bf24-115"></span></span>
+
+<span data-ttu-id="1bf24-116">L’installation de l’application v2 de systèmes de salle Skype sur une Surface Pro ou une Surface Pro des 4 nécessite un périphérique de stockage USB avec moins de 32 Go de mémoire mis en forme comme un disque FAT32.</span><span class="sxs-lookup"><span data-stu-id="1bf24-116">Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requires a USB storage device with at least 32GB of memory formatted as a FAT32 disk.</span></span> <span data-ttu-id="1bf24-117">Il ne doit y avoir aucun autre fichier sur le périphérique, les fichiers existants sur le périphérique de stockage USB seront perdues.</span><span class="sxs-lookup"><span data-stu-id="1bf24-117">There should be no other files on the device, any existing files on the USB storage will be lost.</span></span> 
+  
+> [!NOTE]
+> <span data-ttu-id="1bf24-118">Si vous ne créez pas l’image de votre console conformément à ces instructions, cela entraînera probablement un comportement inattendu.</span><span class="sxs-lookup"><span data-stu-id="1bf24-118">Failure to create your console image according to these instructions will likely result in unexpected behavior.</span></span> <span data-ttu-id="1bf24-119">(Version 1607) mise à jour pour l’entreprise anniversaire de Windows 10 n’est plus pris en charge pour la création d’images systèmes de salle Skype v2.</span><span class="sxs-lookup"><span data-stu-id="1bf24-119">Windows 10 Enterprise Anniversary Update (Version 1607) is no longer supported for Skype Room Systems v2 image creation.</span></span> 
+  
+> [!NOTE]
+> <span data-ttu-id="1bf24-120">Un v2 Skype salle systèmes existants avec Windows 10 entreprise anniversaire mise à jour de déplacement vers des systèmes de salle Skype v2 mise à jour 3 par le Windows Store fonctionnera, mais une nouvelle installation doit être effectuée comme décrit ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="1bf24-120">An existing Skype Room Systems v2 with Windows 10 Enterprise Anniversary Update moving to Skype Room Systems v2 update 3 by way of the Windows Store will work, but a new installation should be done as described below.</span></span> 
+  
+1. <span data-ttu-id="1bf24-121">Télécharger le [package MSU pour KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).</span><span class="sxs-lookup"><span data-stu-id="1bf24-121">Download the [MSU for KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).</span></span>
+2. <span data-ttu-id="1bf24-122">Téléchargez le [script de CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).</span><span class="sxs-lookup"><span data-stu-id="1bf24-122">Download the [CreateSrsMedia.ps1 script](https://go.microsoft.com/fwlink/?linkid=867842).</span></span>
+3. <span data-ttu-id="1bf24-123">Placez le package MSU pour KB4056892 dans le même répertoire que le script CreateSrsMedia.ps1.</span><span class="sxs-lookup"><span data-stu-id="1bf24-123">Place the MSU for KB4056892 in the same directory as the CreateSrsMedia.ps1 script.</span></span>
+4. <span data-ttu-id="1bf24-124">Exécutez le script CreateSrsMedia.ps1 à partir d’une invite de commandes avec élévation de privilèges sur un ordinateur Windows 10.</span><span class="sxs-lookup"><span data-stu-id="1bf24-124">Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.</span></span>
+
+
+<span data-ttu-id="1bf24-125">Suivez les instructions du script pour créer une disquette d’installation de systèmes de salle Skype v2 USB.</span><span class="sxs-lookup"><span data-stu-id="1bf24-125">Follow the script's instructions to create a Skype Room Systems v2 USB setup disk.</span></span> <span data-ttu-id="1bf24-126">Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur et passez à [10 de Windows Installer et l’application de console v2 Skype salle de systèmes ](console.md#Reimage).</span><span class="sxs-lookup"><span data-stu-id="1bf24-126">When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Skype Room Systems v2 console app ](console.md#Reimage).</span></span>
+    
+## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a><span data-ttu-id="1bf24-127">Installation de Windows 10 et de l’application de console Skype Room Systems v2 </span><span class="sxs-lookup"><span data-stu-id="1bf24-127">Install Windows 10 and the Skype Room Systems v2 console app</span></span>
+<span data-ttu-id="1bf24-128"><a name="Reimage"> </a></span><span class="sxs-lookup"><span data-stu-id="1bf24-128"></span></span>
+
+<span data-ttu-id="1bf24-129">Vous devrez désormais appliquer l’image que vous avez créée.</span><span class="sxs-lookup"><span data-stu-id="1bf24-129">You now need to apply the image you've created.</span></span> <span data-ttu-id="1bf24-130">Le Tablet PC s’exécute sous la forme d’une solution matérielle-logicielle, et l’utilisateur par défaut est fixé à exécuter uniquement l’application v2 de systèmes de salle de Skype.</span><span class="sxs-lookup"><span data-stu-id="1bf24-130">The tablet will run as an appliance and the default user will be set to only run the Skype Room Systems v2 app.</span></span> 
+  
+1. <span data-ttu-id="1bf24-131">La tablette doit être connectée à une source d’alimentation.</span><span class="sxs-lookup"><span data-stu-id="1bf24-131">The tablet should be connected to a power source.</span></span> <span data-ttu-id="1bf24-132">Commencez par l’arrêter complètement.</span><span class="sxs-lookup"><span data-stu-id="1bf24-132">Start from a completely powered-off state.</span></span> <span data-ttu-id="1bf24-133">Si nécessaire, appuyez sur le bouton d’alimentation et maintenez-le enfoncé jusqu’à ce que la tablette s’éteigne.</span><span class="sxs-lookup"><span data-stu-id="1bf24-133">If necessary, press and keep pressing the Power button until the tablet switches off.</span></span>
+    
+2. <span data-ttu-id="1bf24-134">Connectez votre disque USB d’installation à la tablette.</span><span class="sxs-lookup"><span data-stu-id="1bf24-134">Plug your USB Setup disk into the tablet.</span></span>
+    
+3. <span data-ttu-id="1bf24-135">Appuyez sur le bouton de diminution du volume (-) de la tablette et maintenez-le enfoncé.</span><span class="sxs-lookup"><span data-stu-id="1bf24-135">Press and continue to hold the volume down (-) button on the tablet.</span></span> 
+    
+4. <span data-ttu-id="1bf24-136">Appuyez sur le bouton d’alimentation de la tablette, puis relâchez-le.</span><span class="sxs-lookup"><span data-stu-id="1bf24-136">Press and release the power button on the tablet.</span></span>
+    
+5. <span data-ttu-id="1bf24-137">Une fois l’installation Windows démarrée, relâchez le bouton de diminution du volume (-).</span><span class="sxs-lookup"><span data-stu-id="1bf24-137">Once Windows setup is booted, release the volume down (-) button.</span></span>
+    
+6. <span data-ttu-id="1bf24-138">Lorsque le périphérique v2 de systèmes de salle Skype démarre pour la première fois, son comportement dépend de la version de Sysprep.exe est utilisée dans le fichier AutoUnattend.xml (voir l’étape 7 de [préparer l’image d’installation](console.md#Prep_Image)) :</span><span class="sxs-lookup"><span data-stu-id="1bf24-138">When the Skype Room Systems v2 device starts for the first time, its behavior will depend on which version of Sysprep.exe is used in the AutoUnattend.xml file (see step 7 of [Prepare the installation image](console.md#Prep_Image)):</span></span>
+    
+   - <span data-ttu-id="1bf24-p107">Si la version /shutdown de la commande est activée, le système procède à l’installation et, éventuellement, à l’arrêt. Une fois arrêté, vous pouvez démarrer sur un support externe contenant Windows PE et utiliser DISM pour installer des packs de langue, appliquer des images, capturer votre image de référence de l’ordinateur ou effectuer d’autres actions..</span><span class="sxs-lookup"><span data-stu-id="1bf24-p107">If the /shutdown version of the command was enabled, the system will proceed with installation and eventually shut down. Once it is shut down, you may boot to external media containing Windows PE and use DISM to install language packs, apply images, capture your reference image from the machine, or perform other actions.</span></span>
+    
+   - <span data-ttu-id="1bf24-141">Si la version /reboot de la commande est activée, le système procède à l’installation et demande éventuellement à l’utilisateur de sélectionner les paramètres locaux.</span><span class="sxs-lookup"><span data-stu-id="1bf24-141">If the /reboot version of the command was enabled, the system will proceed with installation, and eventually ask the user to select their locale settings.</span></span> <span data-ttu-id="1bf24-142">Après avoir effectué cette sélection, le périphérique v2 de systèmes de salle Skype démarre son processus de démarrage initial.</span><span class="sxs-lookup"><span data-stu-id="1bf24-142">After making this selection, the Skype Room Systems v2 device will boot into its initial startup process.</span></span> <span data-ttu-id="1bf24-143">Consultez [Configuration initiale de la console ](console.md#Initial).</span><span class="sxs-lookup"><span data-stu-id="1bf24-143">See [Initial set up of the Console ](console.md#Initial)</span></span>
+    
+<span data-ttu-id="1bf24-144">Une fois le système éteint ou redémarré, vous pouvez retirer le disque d’installation USB en toute sécurité.</span><span class="sxs-lookup"><span data-stu-id="1bf24-144">After the system has shut down or rebooted, it is safe to remove the USB Setup Disk.</span></span> <span data-ttu-id="1bf24-145">À ce stade, vous pouvez placer la tablette dans le dock et connecter les périphériques requis pour votre salle de réunion.</span><span class="sxs-lookup"><span data-stu-id="1bf24-145">At this point, you can place the tablet in the dock and attach the peripherals needed for your meeting room.</span></span> <span data-ttu-id="1bf24-146">Reportez-vous aux instructions de fabricant.</span><span class="sxs-lookup"><span data-stu-id="1bf24-146">Refer to the manufacturer instructions.</span></span>
+  
+ 
+### <a name="selecting-a-language-in-creators-update"></a><span data-ttu-id="1bf24-147">Sélection de la langue pour la mise à jour de Creator</span><span class="sxs-lookup"><span data-stu-id="1bf24-147">Selecting a language in Creator's Update</span></span>
+
+<span data-ttu-id="1bf24-148">Mise à jour de l’auteur, vous devez utiliser le script ApplyCurrentRegionAndLanguage.ps1 dans des scénarios où la sélection de la langue implicite ne fournit pas l’utilisateur avec la langue de l’application réelle qu’ils souhaitent (par exemple, ils l’application à élaborer en Français, mais il est prochaine en anglais).</span><span class="sxs-lookup"><span data-stu-id="1bf24-148">In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 script in scenarios where implicit language selection does not provide the user with the actual application language they want (e.g., they want the app to come up in French, but it's coming up in English).</span></span>
+  
+> [!NOTE]
+> <span data-ttu-id="1bf24-149">Les instructions suivantes s'appliquent aux périphériques créés à l'aide de la mise à jour de Windows Creator.</span><span class="sxs-lookup"><span data-stu-id="1bf24-149">The following instructions work only for devices created using Windows Creator's Update.</span></span> <span data-ttu-id="1bf24-150">Les systèmes hérités/commercialisés qui n'ont pas fait correctement l'objet d'une nouvelle image pour leur nouveau système de provisionnement ne pourront pas utiliser ces instructions, mais ne requièrent pas une intervention manuelle (La version anniversaire vous permet de sélectionner la langue de l'application lors de la configuration.).</span><span class="sxs-lookup"><span data-stu-id="1bf24-150">Legacy/in-market systems that have not been re-imaged properly to the new provisioning system will not be able to use these instructions, but should also not suffer from the initial issue that requires this manual intervention (Anniversary Edition let you pick your app language explicitly as part of setup).</span></span> 
+  
+### <a name="to-apply-your-desired-language"></a><span data-ttu-id="1bf24-151">Pour appliquer la langue de votre choix</span><span class="sxs-lookup"><span data-stu-id="1bf24-151">To apply your desired language</span></span>
+
+1. <span data-ttu-id="1bf24-152">Passez en mode Administrateur.</span><span class="sxs-lookup"><span data-stu-id="1bf24-152">Switch to Admin mode.</span></span>
+    
+2. <span data-ttu-id="1bf24-153">Sélectionnez le menu Démarrer.</span><span class="sxs-lookup"><span data-stu-id="1bf24-153">Select the Start menu.</span></span>
+    
+3. <span data-ttu-id="1bf24-154">Sélectionnez l'icône d'engrenage pour lancer l'application **Paramètres** .</span><span class="sxs-lookup"><span data-stu-id="1bf24-154">Select the gear icon to launch the **Settings** app.</span></span>
+    
+4. <span data-ttu-id="1bf24-155">Sélectionnez **temps &amp; langue**.</span><span class="sxs-lookup"><span data-stu-id="1bf24-155">Select **Time &amp; language**.</span></span>
+    
+5. <span data-ttu-id="1bf24-156">Sélectionnez **région &amp; langue**.</span><span class="sxs-lookup"><span data-stu-id="1bf24-156">Select **Region &amp; language**.</span></span>
+    
+6. <span data-ttu-id="1bf24-157">Sélectionnez **Ajouter une langue**.</span><span class="sxs-lookup"><span data-stu-id="1bf24-157">Select **Add a language**.</span></span>
+    
+7. <span data-ttu-id="1bf24-158">Sélectionnez la langue que vous souhaitez ajouter.</span><span class="sxs-lookup"><span data-stu-id="1bf24-158">Select the language you wish to add.</span></span>
+    
+8. <span data-ttu-id="1bf24-159">Sélectionnez la langue que vous venez d’ajouter à la liste « Langues ».</span><span class="sxs-lookup"><span data-stu-id="1bf24-159">Select the language you just added to the "Languages" list.</span></span>
+    
+9. <span data-ttu-id="1bf24-160">Sélectionnez **Définir par défaut**.</span><span class="sxs-lookup"><span data-stu-id="1bf24-160">Select **Set as default**.</span></span>
+    
+10. <span data-ttu-id="1bf24-161">Pour supprimer une langue :</span><span class="sxs-lookup"><span data-stu-id="1bf24-161">For any languages you wish to remove:</span></span>
+    
+    <span data-ttu-id="1bf24-162">a.</span><span class="sxs-lookup"><span data-stu-id="1bf24-162">a.</span></span> <span data-ttu-id="1bf24-163">Sélectionnez la langue que vous souhaitez supprimer.</span><span class="sxs-lookup"><span data-stu-id="1bf24-163">Select the language you wish to remove.</span></span>
+    
+    <span data-ttu-id="1bf24-164">b.</span><span class="sxs-lookup"><span data-stu-id="1bf24-164">b.</span></span> <span data-ttu-id="1bf24-165">Sélectionnez **Supprimer**.</span><span class="sxs-lookup"><span data-stu-id="1bf24-165">Select **Remove**.</span></span>
+    
+11. <span data-ttu-id="1bf24-166">Lancez une invite de commande avec élévation de privilèges.</span><span class="sxs-lookup"><span data-stu-id="1bf24-166">Start an elevated command prompt.</span></span>
+    
+12. <span data-ttu-id="1bf24-167">Exécutez la commande suivante : </span><span class="sxs-lookup"><span data-stu-id="1bf24-167">Run the following command:</span></span> 
+    
+    <span data-ttu-id="1bf24-168">powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1</span><span class="sxs-lookup"><span data-stu-id="1bf24-168">powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1</span></span>
+    
+13. <span data-ttu-id="1bf24-169">Redémarrez le système.</span><span class="sxs-lookup"><span data-stu-id="1bf24-169">Restart the system.</span></span>
+    
+<span data-ttu-id="1bf24-170">Langage de votre choix est maintenant appliqué au périphérique v2 Skype salle systèmes.</span><span class="sxs-lookup"><span data-stu-id="1bf24-170">Your desired language is now applied to the Skype Room Systems v2 device.</span></span>
+## <a name="initial-set-up-of-the-console"></a><span data-ttu-id="1bf24-171">Configuration initiale de la console </span><span class="sxs-lookup"><span data-stu-id="1bf24-171">Initial set up of the Console</span></span>
+<span data-ttu-id="1bf24-172"><a name="Initial"> </a></span><span class="sxs-lookup"><span data-stu-id="1bf24-172"></span></span>
+
+<span data-ttu-id="1bf24-173">Une fois que Windows est installé, l’application v2 de systèmes de salle Skype iront dans son processus d’installation initial lors de son démarrage suivant ou si l’option /reboot a été choisie.</span><span class="sxs-lookup"><span data-stu-id="1bf24-173">After Windows is installed, the Skype Room Systems v2 app will go into its initial Setup process when it is started next or if the /reboot option was chosen.</span></span>
+  
+1. <span data-ttu-id="1bf24-p113">L’écran Compte d’utilisateur apparaît. Saisissez l’adresse de connexion Skype (au format utilisateur@domaine) du compte de la salle qui sera utilisé avec l’appareil.</span><span class="sxs-lookup"><span data-stu-id="1bf24-p113">The User Account screen appears. Enter the Skype sign-in address (in user@domain format) of the room account to be used with the device.</span></span>
+    
+2. <span data-ttu-id="1bf24-176">Saisissez le mot de passe du compte de la salle dé réunion, puis saisissez-le à nouveau à des fins de vérification.</span><span class="sxs-lookup"><span data-stu-id="1bf24-176">Enter the password for the room account, and re-enter it to verify.</span></span>
+    
+3. <span data-ttu-id="1bf24-177">Sous « Configurer le domaine », définissez le nom de domaine complet pour le Skype pour Business Server.</span><span class="sxs-lookup"><span data-stu-id="1bf24-177">Under "Configure Domain," set the FQDN for the Skype for Business Server.</span></span> <span data-ttu-id="1bf24-178">Si le Skype pour le domaine SIP de l’entreprise est différent à partir du domaine Exchange de l’utilisateur, entrez le domaine Exchange dans ce champ.</span><span class="sxs-lookup"><span data-stu-id="1bf24-178">If the Skype for Business SIP domain is different from the Exchange domain of the user, enter the Exchange domain in this field.</span></span>
+    
+4. <span data-ttu-id="1bf24-179">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="1bf24-179">Click **Next**.</span></span>
+    
+5. <span data-ttu-id="1bf24-180">Sélectionnez les périphériques indiqués sur l’écran des fonctionnalités, puis cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="1bf24-180">Select the indicated devices on the Features screen and click **Next**.</span></span> <span data-ttu-id="1bf24-181">Le défaut est d’avoir la partage d’écran automatique activé alors que les noms de réunion masqués sont désactivés.</span><span class="sxs-lookup"><span data-stu-id="1bf24-181">The default is to have Auto Screen sharing set to On and Hide meeting names set to Off.</span></span> <span data-ttu-id="1bf24-182">Les appareils à sélectionner sont les suivants :</span><span class="sxs-lookup"><span data-stu-id="1bf24-182">The devices to select are:</span></span>
+    
+   - <span data-ttu-id="1bf24-183">Microphone pour les conférences : le microphone par défaut  pour cette salle de conférence.</span><span class="sxs-lookup"><span data-stu-id="1bf24-183">Microphone for Conferencing: the default microphone for this conference room.</span></span>
+    
+   - <span data-ttu-id="1bf24-184">Haut-parleur pour les conférences : le haut-parleur par défaut pour les conférences. </span><span class="sxs-lookup"><span data-stu-id="1bf24-184">Speaker for Conferencing: the default speaker for conferencing.</span></span> 
+    
+   - <span data-ttu-id="1bf24-185">Haut-parleur par défaut : le haut-parleur utilisé pour l’audio à partir de la réception HDMI.</span><span class="sxs-lookup"><span data-stu-id="1bf24-185">Default Speaker: the speaker used for audio from the HDMI ingest.</span></span>
+    
+    <span data-ttu-id="1bf24-p116">Chaque option possède un menu déroulant d’options à sélectionner. Vous devez effectuer une sélection pour chaque appareil.</span><span class="sxs-lookup"><span data-stu-id="1bf24-p116">Each item has a drop-down menu of options to select from. You must make a selection for each device.</span></span>
+    
+6. <span data-ttu-id="1bf24-188">Cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="1bf24-188">Click **Finish**.</span></span>
+    
+<span data-ttu-id="1bf24-189">L’application doit démarrer immédiatement la connexion à Skype pour Business Server 2015 avec les informations d’identification ci-dessus et doit également commencer à synchroniser son calendrier avec Exchange à l’aide de ces mêmes informations d’identification.</span><span class="sxs-lookup"><span data-stu-id="1bf24-189">The app should immediately start signing in to Skype for Business Server 2015 with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials.</span></span> <span data-ttu-id="1bf24-190">Pour plus d’informations sur l’utilisation de l’application, reportez-vous à l' [aide de systèmes de salle Skype version 2](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).</span><span class="sxs-lookup"><span data-stu-id="1bf24-190">For details on using the app, refer to the [Skype Room Systems version 2 help](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).</span></span>
+  
+> [!IMPORTANT]
+> <span data-ttu-id="1bf24-191">Systèmes de salle Skype v2 s’appuie sur la présence de matériel de console certifiées (la Logitech SmartDock).</span><span class="sxs-lookup"><span data-stu-id="1bf24-191">Skype Room Systems v2 relies on the presence of certified console hardware (the Logitech SmartDock).</span></span> <span data-ttu-id="1bf24-192">Même une image correctement créée contenant l’application v2 de Skype salle systèmes chargée sur une Surface Pro des 4 ou Surface Pro ne démarre pas après la procédure d’installation initiale, sauf si le matériel de console est détecté.</span><span class="sxs-lookup"><span data-stu-id="1bf24-192">Even a correctly created image containing the Skype Room Systems v2 app loaded on a Surface Pro 4 or Surface Pro will not boot past the initial setup procedure unless the console hardware is detected.</span></span> 
+  
+> [!NOTE]
+> <span data-ttu-id="1bf24-193">Certains utilisateurs non anglophones auront peut-être besoin d’un clavier physique connecté à la console lors de l’installation initiale.</span><span class="sxs-lookup"><span data-stu-id="1bf24-193">Some non-English language users may need a physical keyboard connected to the Console during initial setup in the event that symbols are not supported on the touch keyboard.</span></span> 
+  
+### <a name="install-a-private-ca-certificate-on-the-tablet-device"></a><span data-ttu-id="1bf24-194">Installation d’un certificat d’une autorité de certification privée sur la tablette</span><span class="sxs-lookup"><span data-stu-id="1bf24-194">Install a private CA certificate on the tablet device</span></span>
+<span data-ttu-id="1bf24-195"><a name="Certs"> </a></span><span class="sxs-lookup"><span data-stu-id="1bf24-195"></span></span>
+
+<span data-ttu-id="1bf24-196">Le périphérique de v2 Skype salle systèmes doit approuver les certificats utilisés par le Skype pour l’entreprise et les serveurs Exchange à que se connecte.</span><span class="sxs-lookup"><span data-stu-id="1bf24-196">The Skype Room Systems v2 device needs to trust the certificates used by the Skype for Business and Exchange servers it connects to.</span></span> <span data-ttu-id="1bf24-197">Dans un environnement O365, cette opération est effectuée de manière automatique, car ces serveurs utilisent des autorités de certification publiques automatiquement approuvées par Windows 10.</span><span class="sxs-lookup"><span data-stu-id="1bf24-197">For O365 this is done automatically, since these servers are using public Certificate Authorities and these are automatically trusted by Windows 10.</span></span> <span data-ttu-id="1bf24-198">Dans le cas où l’autorité de certification est privée, par exemple un déploiement sur site avec Active Directory et l’autorité de certification Windows, vous pouvez ajouter le certificat au périphérique v2 Skype salle systèmes de deux façons :</span><span class="sxs-lookup"><span data-stu-id="1bf24-198">In a case where the Certificate Authority is private, for instance an on-premises deployment with Active Directory and the Windows Certificate Authority, you can add the certificate to the Skype Room Systems v2 device in a couple of ways:</span></span>
+  
+- <span data-ttu-id="1bf24-199">Vous pouvez connecter l’appareil à Active Directory qui ajoutera automatiquement les certificats requis, car l’autorité de certification est publiée dans Active Directory (option de déploiement ordinaire).</span><span class="sxs-lookup"><span data-stu-id="1bf24-199">You can join the device to Active Directory and that will automatically add the required certificates given the Certificate Authority is published to Active Directory (normal deployment option).</span></span>
+    
+- <span data-ttu-id="1bf24-p120">Vous pouvez installer le certificat manuellement après le processus de création d’image. Avant cela, vous devez terminer la [configuration initiale de la console ](console.md#Initial). </span><span class="sxs-lookup"><span data-stu-id="1bf24-p120">You can install the certificate manually after the imaging process. Before you do this, you must complete [Initial set up of the Console ](console.md#Initial).</span></span> 
+    
+### <a name="to-manually-install-the-certificate"></a><span data-ttu-id="1bf24-202">Pour installer manuellement le certificat </span><span class="sxs-lookup"><span data-stu-id="1bf24-202">To manually install the certificate</span></span>
+
+1. <span data-ttu-id="1bf24-203">Téléchargez le certificat d’AC sur votre ordinateur, puis enregistrez-le sur "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer".</span><span class="sxs-lookup"><span data-stu-id="1bf24-203">Download the CA certificate to your computer and save it to "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer".</span></span>
+    
+2. <span data-ttu-id="1bf24-204">Placez la Surface 4 en mode administrateur (voir [gestion de dispositif et mode Admin](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)).</span><span class="sxs-lookup"><span data-stu-id="1bf24-204">Place the Surface 4 in admin mode (see [Admin mode and device management](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)).</span></span>
+    
+3. <span data-ttu-id="1bf24-205">Exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="1bf24-205">Run the following command:</span></span>
+    
+  ```
+  certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
+  ```
+
+### <a name="join-an-active-directory-domain-optional"></a><span data-ttu-id="1bf24-206">Joindre un domaine Active Directory (facultatif)</span><span class="sxs-lookup"><span data-stu-id="1bf24-206">Join an Active Directory Domain (Optional)</span></span>
+<span data-ttu-id="1bf24-207"><a name="Certs"> </a></span><span class="sxs-lookup"><span data-stu-id="1bf24-207"></span></span>
+
+<span data-ttu-id="1bf24-208">Vous pouvez joindre des périphériques v2 de systèmes de salle Skype à votre domaine.</span><span class="sxs-lookup"><span data-stu-id="1bf24-208">You can join Skype Room Systems v2 devices to your domain.</span></span> <span data-ttu-id="1bf24-209">Périphériques de v2 Skype salle systèmes doivent être placés dans une unité d’organisation distincte à partir de vos postes de travail PC, car de nombreuses stratégies de station de travail ne sont pas compatibles avec les systèmes de salle Skype v2.</span><span class="sxs-lookup"><span data-stu-id="1bf24-209">Skype Room Systems v2 devices should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Skype Room Systems v2.</span></span> <span data-ttu-id="1bf24-210">Un exemple courant sont les stratégies de mot de passe qui empêchent les systèmes de salle Skype v2 de démarrer automatiquement.</span><span class="sxs-lookup"><span data-stu-id="1bf24-210">A common example are password enforcement policies that will prevent Skype Room Systems v2 from starting up automatically.</span></span> <span data-ttu-id="1bf24-211">Pour plus d’informations sur la gestion des paramètres d’objet stratégie de groupe, reportez-vous à [Gérer les systèmes de salle Skype v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).</span><span class="sxs-lookup"><span data-stu-id="1bf24-211">For information about the management of GPO settings, please refer to [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).</span></span> 
+  
+### <a name="to-join-skype-room-system-v2-to-a-domain"></a><span data-ttu-id="1bf24-212">Pour joindre Skype Room Systems v2 à un domaine</span><span class="sxs-lookup"><span data-stu-id="1bf24-212">To join Skype Room System v2 to a domain</span></span>
+
+1. <span data-ttu-id="1bf24-213">Connexion à la console de l’administrateur de compte (voir [gestion de dispositif et mode Admin](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)).</span><span class="sxs-lookup"><span data-stu-id="1bf24-213">Sign into the console from the admin account (see [Admin mode and device management](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)).</span></span>
+    
+2. <span data-ttu-id="1bf24-214">Lancez l’invite de commande Powershell avec élévation de privilèges.</span><span class="sxs-lookup"><span data-stu-id="1bf24-214">Launch elevated Powershell command prompt.</span></span>
+    
+3. <span data-ttu-id="1bf24-215">Saisissez la commande suivante dans Powershell :</span><span class="sxs-lookup"><span data-stu-id="1bf24-215">Enter the following command in Powershell:</span></span>
+    
+  ```
+  Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
+  ```
+
+<span data-ttu-id="1bf24-216">Par exemple, si votre domaine complet est Redmond.corp.Microsoft.com et si vous souhaitez que vos périphériques v2 de systèmes de salle Skype dans une « salle de Skype systèmes v2 » unité d’organisation qui est un enfant d’une unité d’organisation « ressources », la commande sera :</span><span class="sxs-lookup"><span data-stu-id="1bf24-216">For example, if your fully qualified domain is redmond.corp.microsoft.com and you want your Skype Room Systems v2 devices to be in a "Skype Room Systems v2" OU that is a child of a "Resources" OU, the command will be:</span></span>
+  
+```
+Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_System,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
+```
+
+ <span data-ttu-id="1bf24-217">Si vous souhaitez renommer l’ordinateur lors de l’intégration à un domaine, utilisez l’indicateur - NewName suivi par le nouveau nom de l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="1bf24-217">If you would like to rename the computer when joining it to a domain, use the -NewName flag followed by the computer's new name.</span></span>
+  
+## <a name="skype-room-systems-v2-deployment-checklist"></a><span data-ttu-id="1bf24-218">Liste de vérification du déploiement de Skype Room Systems v2</span><span class="sxs-lookup"><span data-stu-id="1bf24-218">Skype Room Systems v2 Deployment Checklist</span></span>
+<span data-ttu-id="1bf24-219"><a name="Checklist"> </a></span><span class="sxs-lookup"><span data-stu-id="1bf24-219"></span></span>
+
+<span data-ttu-id="1bf24-220">Utilisez la liste de vérification suivante lors de la vérification finale de la configuration complète de la console et de ses périphériques :</span><span class="sxs-lookup"><span data-stu-id="1bf24-220">Use the following checklist while doing a final verification that the console device and all its peripherals are fully configured:</span></span>
+  
+<span data-ttu-id="1bf24-221">**Paramètres de l’application**</span><span class="sxs-lookup"><span data-stu-id="1bf24-221">**Application Settings**</span></span>
+
+|||
+|:-----|:-----|
+|<span data-ttu-id="1bf24-222">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-222">☐</span></span>  <br/> |<span data-ttu-id="1bf24-223">Le nom de compte et le numéro de téléphone de la salle de réunion (si la fonction PSTN est activée) sont correctement affichés dans la partie supérieure droite de l’écran de la console.</span><span class="sxs-lookup"><span data-stu-id="1bf24-223">Room account name and phone # (if PSTN enabled) are correctly displayed in top right of console screen</span></span>  <br/> |
+|<span data-ttu-id="1bf24-224">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-224">☐</span></span>  <br/> |<span data-ttu-id="1bf24-225">Le nom de l’ordinateur Windows est correctement défini (utile pour l’administration à distance).</span><span class="sxs-lookup"><span data-stu-id="1bf24-225">Windows computer name is set correctly (useful for remote administration)</span></span>  <br/> |
+|<span data-ttu-id="1bf24-226">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-226">☐</span></span>  <br/> |<span data-ttu-id="1bf24-227">Le mot de passe du compte de l’administrateur est défini et vérifié.</span><span class="sxs-lookup"><span data-stu-id="1bf24-227">Administrator account password set and verified</span></span>  <br/> |
+|<span data-ttu-id="1bf24-228">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-228">☐</span></span>  <br/> |<span data-ttu-id="1bf24-229">Toutes les mises à jour de Surface Pro 4 ou Surface Pro Systems ont été appliquées.</span><span class="sxs-lookup"><span data-stu-id="1bf24-229">All Surface Pro 4 or Surface Pro System Updates have been applied</span></span>  <br/> |
+   
+<span data-ttu-id="1bf24-230">**Périphériques audio/vidéo**</span><span class="sxs-lookup"><span data-stu-id="1bf24-230">**Audio/Video Peripherals**</span></span>
+
+|||
+|:-----|:-----|
+|<span data-ttu-id="1bf24-231">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-231">☐</span></span>  <br/> |<span data-ttu-id="1bf24-232">La version du microprogramme de la caméra est correcte (le cas échéant).</span><span class="sxs-lookup"><span data-stu-id="1bf24-232">Camera peripheral firmware version is correct (if applicable)</span></span>  <br/> |
+|<span data-ttu-id="1bf24-233">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-233">☐</span></span>  <br/> |<span data-ttu-id="1bf24-234">Appareil photo fonctionnel et positionnée de manière optimale</span><span class="sxs-lookup"><span data-stu-id="1bf24-234">Camera functional and positioned optimally</span></span>  <br/> |
+|<span data-ttu-id="1bf24-235">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-235">☐</span></span>  <br/> |<span data-ttu-id="1bf24-236">Les paramètres des périphériques de lecture et de communication par défaut sont définis sur les périphériques audio choisis.</span><span class="sxs-lookup"><span data-stu-id="1bf24-236">Settings for Playback Default Device and Playback Default Communications Device set to intended audio peripheral</span></span>  <br/> |
+|<span data-ttu-id="1bf24-237">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-237">☐</span></span>  <br/> |<span data-ttu-id="1bf24-238">Les paramètres du périphérique d’enregistrement de communication par défaut est défini sur le périphérique audio choisi.</span><span class="sxs-lookup"><span data-stu-id="1bf24-238">Settings for Recording Default Communication Device set to the intended audio peripheral</span></span>  <br/> |
+|<span data-ttu-id="1bf24-239">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-239">☐</span></span>  <br/> |<span data-ttu-id="1bf24-240">La version du microprogramme du périphérique audio est correcte (le cas échéant).</span><span class="sxs-lookup"><span data-stu-id="1bf24-240">Audio peripheral firmware version is correct (if applicable)</span></span>  <br/> |
+|<span data-ttu-id="1bf24-241">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-241">☐</span></span>  <br/> |<span data-ttu-id="1bf24-242">Le périphérique d’entrée audio est fonctionnel et positionné de manière optimale.</span><span class="sxs-lookup"><span data-stu-id="1bf24-242">Audio input device functional and optimally positioned</span></span>  <br/> |
+|<span data-ttu-id="1bf24-243">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-243">☐</span></span>  <br/> |<span data-ttu-id="1bf24-244">Le périphérique de sortie audio est fonctionnel et positionné de manière optimale.</span><span class="sxs-lookup"><span data-stu-id="1bf24-244">Audio output device functional and optimally positioned</span></span>  <br/> |
+   
+<span data-ttu-id="1bf24-245">**Station d’accueil**</span><span class="sxs-lookup"><span data-stu-id="1bf24-245">**Dock**</span></span>
+
+|||
+|:-----|:-----|
+|<span data-ttu-id="1bf24-246">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-246">☐</span></span>  <br/> |<span data-ttu-id="1bf24-247">Les câbles sont sécurisés et ne sont pas pincés.</span><span class="sxs-lookup"><span data-stu-id="1bf24-247">Cables are secure and not pinched</span></span>  <br/> |
+|<span data-ttu-id="1bf24-248">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-248">☐</span></span>  <br/> |<span data-ttu-id="1bf24-249">La réception audio via HDMI est fonctionnelle.</span><span class="sxs-lookup"><span data-stu-id="1bf24-249">Audio ingest over HDMI is functional</span></span>  <br/> |
+|<span data-ttu-id="1bf24-250">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-250">☐</span></span>  <br/> |<span data-ttu-id="1bf24-251">La réception vidéo via HDMI est fonctionnelle.</span><span class="sxs-lookup"><span data-stu-id="1bf24-251">Video ingest over HDMI is functional</span></span>  <br/> |
+|<span data-ttu-id="1bf24-252">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-252">☐</span></span>  <br/> |<span data-ttu-id="1bf24-253">Le dock peut pivoter librement.</span><span class="sxs-lookup"><span data-stu-id="1bf24-253">Dock can swivel freely</span></span>  <br/> |
+|<span data-ttu-id="1bf24-254">☐</span><span class="sxs-lookup"><span data-stu-id="1bf24-254">☐</span></span>  <br/> |<span data-ttu-id="1bf24-255">La luminosité de l’affichage est acceptable pour l’environnement.</span><span class="sxs-lookup"><span data-stu-id="1bf24-255">Display brightness is acceptable for environment</span></span>  <br/> |
+   
+## <a name="see-also"></a><span data-ttu-id="1bf24-256">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1bf24-256">See also</span></span>
+<span data-ttu-id="1bf24-257"><a name="Checklist"> </a></span><span class="sxs-lookup"><span data-stu-id="1bf24-257"></span></span>
+
+#### 
+
+[<span data-ttu-id="1bf24-258">Plan de salle de Skype systèmes v2</span><span class="sxs-lookup"><span data-stu-id="1bf24-258">Plan for Skype Room Systems v2</span></span>](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+  
+[<span data-ttu-id="1bf24-259">Déployer Skype salle systèmes v2</span><span class="sxs-lookup"><span data-stu-id="1bf24-259">Deploy Skype Room Systems v2</span></span>](room-systems-v2.md)
+  
+[<span data-ttu-id="1bf24-260">Configurer une console v2 de systèmes de salle de Skype</span><span class="sxs-lookup"><span data-stu-id="1bf24-260">Configure a Skype Room Systems v2 console</span></span>](console.md)
+  
+[<span data-ttu-id="1bf24-261">Gérer l’espace de Skype systèmes v2</span><span class="sxs-lookup"><span data-stu-id="1bf24-261">Manage Skype Room Systems v2</span></span>](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+
