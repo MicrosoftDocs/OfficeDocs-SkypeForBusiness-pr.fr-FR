@@ -20,11 +20,11 @@ ms.custom:
 - Legal
 hideEdit: 
 description: "Ceci est le contenu qui doit être publié pour répondre aux exigences d’accessibilité, la conformité et réglementaires pour Skype pour entreprise en ligne en France. "
-ms.openlocfilehash: 65f2fd1ce748c80bcb6a448ea0d12e8099051078
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: e7898502544b9a72be42f29751356c09d08d9e7d
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="accessibility-declaration-of-conformance-for-skype-for-business-online-in-france"></a>Déclaration d’accessibilité de conformité pour Skype pour l’activité en ligne en France
 
@@ -221,5 +221,3 @@ Le présent document est fourni à titre indicatif. MICROSOFT NOU FOURNIT AUCUNE
 ## <a name="related-topics"></a>Rubriques connexes
 [Solutions pour l'accessibilité de Skype Entreprise Online en France](accessibility-solutions-in-france.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
