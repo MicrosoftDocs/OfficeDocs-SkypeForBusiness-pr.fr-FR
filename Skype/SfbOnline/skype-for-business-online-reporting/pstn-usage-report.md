@@ -1,5 +1,5 @@
 ---
-title: "Rapport d’utilisation de TLS"
+title: Rapport d’utilisation de TLS
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Le nouveau Skype pour zone de rapports d’entreprise Admin Center affiche vous appelant et audio conférence activité dans votre organisation. Il vous permet de vous y plonger le rapports pour vous fournir des informations plus précises sur les activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails de l’utilisation d’Audio conférence PSTN, y compris le coût de l’appel afin que vous pouvez comprendre votre utilisation et appeler les détails de facturation pour déterminer l’utilisation au sein de votre organisation."
-ms.openlocfilehash: 887d9e2e9e9daa614ca593551c2b9eb746c45cce
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Le nouveau Skype pour zone de rapports d’entreprise Admin Center affiche vous appelant et audio conférence activité dans votre organisation. Il vous permet de vous y plonger le rapports pour vous fournir des informations plus précises sur les activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails de l’utilisation d’Audio conférence PSTN, y compris le coût de l’appel afin que vous pouvez comprendre votre utilisation et appeler les détails de facturation pour déterminer l’utilisation au sein de votre organisation.
+ms.openlocfilehash: c71987882d9c09549a2efb194fa284afaf534f78
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="pstn-usage-report"></a>Rapport d’utilisation de TLS
 
@@ -116,5 +116,5 @@ Voici une illustration du rapport.
 ## <a name="related-topics"></a>Rubriques connexes
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

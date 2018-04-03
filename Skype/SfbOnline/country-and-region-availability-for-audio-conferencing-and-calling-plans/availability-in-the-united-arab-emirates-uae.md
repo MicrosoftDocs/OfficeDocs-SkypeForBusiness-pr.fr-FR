@@ -1,5 +1,5 @@
 ---
-title: "Disponibilité dans les Émirats arabes unis (Émirats Arabes Unis)"
+title: Disponibilité dans les Émirats arabes unis (Émirats Arabes Unis)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponibles pour les Émirats Arabes Unis."
-ms.openlocfilehash: 84df65cf9b4190ef49281048db5bc4fcc930f5a2
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponibles pour les Émirats Arabes Unis.
+ms.openlocfilehash: 85f8ade0686e29d2138a8c2827843cd07b500d39
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>Disponibilité dans les Émirats arabes unis (Émirats Arabes Unis)
 
@@ -83,5 +83,5 @@ Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les c
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

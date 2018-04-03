@@ -1,5 +1,5 @@
 ---
-title: "Conférence audio de langues prises en charge"
+title: Conférence audio de langues prises en charge
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: a144a5a0b97420c4fcd11891ebda716c05e0d21b
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: 93b30845180ce36cdf3decd50cd58f1494a553e5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-supported-languages"></a>Conférence audio de langues prises en charge
 
@@ -111,6 +111,6 @@ Si vous cherchez à certains pays ou régions ayant des numéros de téléphone 
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing.md)
+[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Statistiques utilisateur et informations sur l’organisation"
+title: Statistiques utilisateur et informations sur l’organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 - ms.lync.lac.DashboardUserStatistics
 ms.custom:
 - Setup
-description: "Découvrez les statistiques utilisateur Skype Entreprise disponibles, telles que le nombre d’utilisateurs activés, d’utilisateurs pour lesquels la conférence est activée ou d’utilisateurs pour lesquels Office 365 est activé."
-ms.openlocfilehash: 371e1eabb7979dc805f2a4473040a491f3950352
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Découvrez les statistiques utilisateur Skype Entreprise disponibles, telles que le nombre d’utilisateurs activés, d’utilisateurs pour lesquels la conférence est activée ou d’utilisateurs pour lesquels Office 365 est activé.
+ms.openlocfilehash: 29fe9f5aad88e7eb394d09316d5c37c4d6531687
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="user-statistics-and-organization-information"></a>Statistiques utilisateur et informations sur l’organisation
 
@@ -36,7 +36,7 @@ Le tableau de bord Skype Entreprise vous donne un aperçu de la configuration d
 |:-----|:-----|
 |**Propriété** <br/> |**Comment la modifier** <br/> |
 |Utilisateurs de Skype Entreprise Online  <br/> |Pour ajouter ou bloquer des utilisateurs de l’application Skype Entreprise, reportez-vous à la rubrique [Attribuer ou supprimer des licences Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) ou [Retirer des licences à des utilisateurs dans Office 365 pour les entreprises](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1).  <br/> Pour obtenir la liste complète des étapes à suivre lorsqu’un utilisateur quitte votre entreprise, consultez la rubrique [Supprimer un ancien employé d’Office 365](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1).  <br/> |
-|Utilisateurs pour lesquels l’audioconférence est activée  <br/> |Pour activer l’audioconférence pour les utilisateurs, reportez-vous à la rubrique [Configurer l’audioconférence pour Skype Entreprise et Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).  <br/> |
+|Utilisateurs pour lesquels l’audioconférence est activée  <br/> |Pour permettre aux utilisateurs pour les conférences Audio, reportez-vous à la section [Essayez ou achetez audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).  <br/> |
 |Utilisateurs dans le cloud  <br/> |Nombre d’utilisateurs de Skype Entreprise Online ayant des comptes Office 365.  <br/> Pour ajouter des personnes à votre abonnement Office 365 (autrement dit, créer des comptes Office 365 pour eux), consultez la rubrique [Ajouter des utilisateurs individuellement ou en bloc dans Office 365 - Centre d’administration](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).  <br/> |
 |Utilisateurs synchronisés et hébergés en ligne  <br/> |Nombre d’utilisateurs hybrides créés dans un déploiement sur site de Skype Entreprise Server mais synchronisés avec Office 365.  <br/> Pour configurer une connectivité hybride Skype Entreprise, reportez-vous à la rubrique [Déployer une connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](https://technet.microsoft.com/en-us/library/jj204669.aspx).  <br/> |
    
@@ -61,5 +61,5 @@ Le tableau de bord Skype Entreprise vous donne un aperçu de la configuration d
 
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

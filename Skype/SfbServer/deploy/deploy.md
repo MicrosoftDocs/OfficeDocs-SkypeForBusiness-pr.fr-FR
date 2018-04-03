@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 'Résumé : Les liens ci-dessous pour savoir comment installer et configurer Skype pour Business Server 2015 et mise à niveau des versions précédentes de Lync Server.'
-ms.openlocfilehash: d628c6a8c3e942c61d19f4ddfce1f45337110587
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: abce331272dc457bf3444281b810a1e571b1a545
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>Déployer Skype Entreprise Server 2015
  
@@ -59,6 +59,7 @@ Les ressources suivantes sur la planification de Skype pour Business Server sont
 |:-----|:-----|:-----|
 |![Icône TechCenter](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype pour Business Server pour les professionnels de l’informatique](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visitez le TechCenter et les centres de ressources pour accéder aux vidéos, aux sites communautaires, à la documentation, aux téléchargements et plus encore.  <br/> |
 |![Icône du contenu de développeur](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Plate-forme de développement de Skype](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Permet de rechercher des ressources pour les développeurs de Skype pour Business Server, y compris des exemples de code, de formation et de kits de développement logiciel.  <br/> |
-|![Icône des actualités, blogs, etc.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Gestion des modifications et adoption](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs de l’Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Blog technique d’Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Blog de l’équipe Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Restez à jour avec des actualités, des équipes qui créent et document Skype pour Business Server.  <br/> |
+|![Icône des actualités, blogs, etc.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Gestion des modifications et adoption](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs de l’Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> 
+[Blog de l’équipe Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Restez à jour avec des actualités, des équipes qui créent et document Skype pour Business Server.  <br/> |
    
 

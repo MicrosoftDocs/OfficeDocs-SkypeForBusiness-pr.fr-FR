@@ -1,5 +1,5 @@
 ---
-title: "Ajouter des fonds et la gestion des crédits de Communications"
+title: Ajouter des fonds et la gestion des crédits de Communications
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "Apprenez à payer pour les crédits de Communication (consommation RTPC) pour les services Skype et de voir les plans pour conserver vos utilisateurs avec un accès de système de téléphone continue. "
-ms.openlocfilehash: a53c2e1f92437afa134a26f7203cb36c7714219a
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: 'Apprenez à payer pour les crédits de Communication (consommation RTPC) pour les services Skype et de voir les plans pour conserver vos utilisateurs avec un accès de système de téléphone continue. '
+ms.openlocfilehash: c9eb2cb23b4d7be58970a28c928d7c839c30db4b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Ajouter des fonds et la gestion des crédits de Communications
 
@@ -84,13 +84,11 @@ Pour obtenir un tableau avec la licence ou les licences que vous avez besoin pou
 
 - [Configurer Skype Entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Définir des Plans d’appel](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) et [Appel de Plans pour Office 365](calling-plans-for-office-365.md)
         
 - [Configurer le connecteur de nuage](https://technet.microsoft.com/en-us/library/mt605228.aspx) et [Télécharger le connecteur de nuage](https://aka.ms/CloudConnectorInstaller)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

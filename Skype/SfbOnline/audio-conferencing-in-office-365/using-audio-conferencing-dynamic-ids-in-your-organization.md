@@ -1,5 +1,5 @@
 ---
-title: "À l’aide des ID dynamiques d’audioconférence de votre organisation"
+title: À l’aide des ID dynamiques d’audioconférence de votre organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Le service Conférence de données Audio est mis à jour pour fournir chaque Skype pour une réunion commerciale et Teams de Microsoft avec l’ID de conférence différent. ID de conférence dynamiques représentent une amélioration notable sur la conférence static ID, car ils permettent de :"
-ms.openlocfilehash: c4158537f7c36299a82df92d3c6ced6cb6189315
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 'Le service Conférence de données Audio est mis à jour pour fournir chaque Skype pour une réunion commerciale et Teams de Microsoft avec l’ID de conférence différent. ID de conférence dynamiques représentent une amélioration notable sur la conférence static ID, car ils permettent de :'
+ms.openlocfilehash: 418e6f486b8108791930c7843bfed8bdc56e83ef
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="using-audio-conferencing-dynamic-ids-in-your-organization"></a>À l’aide des ID dynamiques d’audioconférence de votre organisation
 
@@ -62,6 +62,4 @@ Ces exemples vous montrent la nouvelle expérience pour deux Skype pour les réu
 
 - [Configurer Skype Entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing.md)
-    
-- Pour en savoir plus, reportez-vous à la rubrique [Conférence rendez-vous dans Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- [Licences de compléments pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)

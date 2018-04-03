@@ -1,5 +1,5 @@
 ---
-title: "Rapport d’activité de peer-to-peer"
+title: Rapport d’activité de peer-to-peer
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: ebf1336fb45cbbb6d0b9d6044fb5ae389c2b9dab
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: d78161a49afdd8d5021d6d8df10bdca717100fc9
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="peer-to-peer-activity-report"></a>Rapport d’activité de peer-to-peer
 
@@ -118,5 +118,5 @@ Si les stratégies de votre organisation vous empêche l’affichage des rapport
 ## <a name="related-topics"></a>Rubriques connexes
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

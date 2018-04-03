@@ -1,5 +1,5 @@
 ---
-title: "Présentation de la demande de transfert"
+title: Présentation de la demande de transfert
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderOverview
 ms.custom:
 - Calling Plans
-description: "Consultez notre courte présentation sur le transfert dans Skype Entreprise de numéros de téléphone gérés par un fournisseur de services. "
-ms.openlocfilehash: b8d23fa0a13fe577ac05808784e80ea74a560afb
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Consultez notre courte présentation sur le transfert dans Skype Entreprise de numéros de téléphone gérés par un fournisseur de services. '
+ms.openlocfilehash: 503c160e11eaab62b815f0f66a13a30546f6dfd6
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="port-order-overview"></a>Présentation de la demande de transfert
 
@@ -49,3 +49,5 @@ Après avoir transféré vos numéros de téléphone vers Skype Entreprise Onl
 
 [Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+  
+ 

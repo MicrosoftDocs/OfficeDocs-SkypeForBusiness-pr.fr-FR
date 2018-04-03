@@ -1,5 +1,5 @@
 ---
-title: "Personne autorisée sur le compte"
+title: Personne autorisée sur le compte
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAuthorizingPerson
 ms.custom:
 - Calling Plans
-description: "Découvrez pourquoi vous devez ajouter une personne qui peut apporter des modifications au compte lorsque vous utilisez l’Assistant Nouvelle commande de Port numéro Local."
-ms.openlocfilehash: f4ee09d0d76e76b5b52277362b3ea2f5aa725315
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Découvrez pourquoi vous devez ajouter une personne qui peut apporter des modifications au compte lorsque vous utilisez l’Assistant Nouvelle commande de Port numéro Local.
+ms.openlocfilehash: 9d0b49828be9bc87443ba77ae8daf7ba16270b42
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="authorized-person-on-the-account"></a>Personne autorisée sur le compte
 
@@ -48,7 +48,7 @@ Dans l’Assistant **Nouvelle commande de Port numéro Local** , vous devez entr
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

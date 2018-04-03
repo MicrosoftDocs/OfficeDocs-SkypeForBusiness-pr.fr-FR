@@ -1,5 +1,5 @@
 ---
-title: "Permettre aux utilisateurs d'enregistrer leurs audioconférences ou visioconférences"
+title: Permettre aux utilisateurs d'enregistrer leurs audioconférences ou visioconférences
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords:
 - O365P_RecordingDesc
 ms.custom:
 - Setup
-description: 'How to turn on recording for audio and video conferences, and learn what is and isn''t included in recordings. '
-ms.openlocfilehash: 9c8f3107272eaad7911c86f6b914a67bed3902ee
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
+ms.openlocfilehash: bbf9eb07354be68467968265e1a714e2090272b9
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Permettre aux utilisateurs d'enregistrer leurs audioconférences ou visioconférences
 
@@ -47,5 +47,5 @@ Pour plus d’informations, consultez [Lync enregistrement enregistrer et publie
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

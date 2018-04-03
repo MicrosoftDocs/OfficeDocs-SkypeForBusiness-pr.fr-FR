@@ -1,5 +1,5 @@
 ---
-title: "Disponibilité au Portugal"
+title: Disponibilité au Portugal
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponibles pour le Portugal.
-ms.openlocfilehash: c6c0fce28b98996376ad5171775c11c59b9744db
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e4c4823e55cdb739ea93295a238a170eca97c1ae
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-portugal"></a>Disponibilité au Portugal
 
@@ -83,5 +83,6 @@ Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les c
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 
 

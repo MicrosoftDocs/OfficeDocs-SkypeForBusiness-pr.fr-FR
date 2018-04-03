@@ -1,5 +1,5 @@
 ---
-title: "Téléchargez et installez le Skype pour module de Business Connector d’en ligne"
+title: Téléchargez et installez le Skype pour module de Business Connector d’en ligne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,16 +16,16 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: "Télécharger, installer et puis utiliser le Skype pour Business Connector d’en ligne pour créer une session à distance de Windows PowerShell qui se connecte à Skype pour entreprise en ligne. "
-ms.openlocfilehash: 4b4f611cae3ca46629de42b122ef4e9238402c98
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Télécharger, installer et puis utiliser le Skype pour Business Connector d’en ligne pour créer une session à distance de Windows PowerShell qui se connecte à Skype pour entreprise en ligne. '
+ms.openlocfilehash: e4aea93e8c14f172b8fd19420d8a02f584a18dde
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Téléchargez et installez le Skype pour module de Business Connector d’en ligne
 
-Le Skype pour module de Business Connector d’en ligne comprend l’applet de commande **New-CsOnlineSession** , ce qui vous permet de créer une session à distance de Windows PowerShell qui se connecte à Skype pour entreprise en ligne. Ce module est pris en charge uniquement sur les ordinateurs 64 bits (pour plus d’informations, voir [configurer votre ordinateur pour Skype pour la gestion de l’entreprise en ligne à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md) ), peut être téléchargé à partir de Microsoft Download Center au [https:// www.Microsoft.com/en-us/download/details.aspx?id=39366](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Téléchargez le fichier SkypeOnlinePowershell.exe et puis procédez comme suit :
+Le Skype pour module de Business Connector d’en ligne comprend l’applet de commande **New-CsOnlineSession** , ce qui vous permet de créer une session à distance de Windows PowerShell qui se connecte à Skype pour entreprise en ligne. Ce module est pris en charge uniquement sur les ordinateurs 64 bits (pour plus d’informations, voir [configurer votre ordinateur pour Skype pour la gestion de l’entreprise en ligne à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md) ), peut être téléchargé à partir de Microsoft Download Center au [https://www.microsoft.com/en-us/download/details.aspx?id=39366](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Téléchargez le fichier SkypeOnlinePowershell.exe et puis procédez comme suit :
   
 1. Double-cliquez sur le fichier **SkypeOnlinePowershell.exe** .
     
@@ -60,5 +60,5 @@ Pour vérifier le numéro de version du module connecteur qui est actuellement i
 ## <a name="related-topics"></a>Rubriques connexes
 [Configurer votre ordinateur pour Skype pour la gestion d’entreprise en ligne à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

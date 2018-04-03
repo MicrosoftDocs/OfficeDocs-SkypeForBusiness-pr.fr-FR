@@ -1,5 +1,5 @@
 ---
-title: "Mise sous tension et à l’aide du tableau de bord qualité appeler"
+title: Mise sous tension et à l’aide du tableau de bord qualité appeler
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 - ms.lync.lac.ToolsCallQualityDashboard
 ms.custom:
 - Reporting
-description: "Découvrez comment activer et utiliser le Skype pour entreprise en ligne appeler tableau de bord qualité et obtenir des rapports de synthèse de la qualité des appels. "
-ms.openlocfilehash: d2cbcf0a7acdfebd3ba3fb1a2cc109d32f4213a9
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Découvrez comment activer et utiliser le Skype pour entreprise en ligne appeler tableau de bord qualité et obtenir des rapports de synthèse de la qualité des appels. '
+ms.openlocfilehash: 5e1bf4a112e36761c18a11d3173b263002ad5e3f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Mise sous tension et à l’aide d’appeler le tableau de bord qualité pour Microsoft Teams et Skype pour professionnels en ligne
 
@@ -249,3 +249,6 @@ Si vous souhaitez afficher les dimensions et les mesures pour un seul type de su
 [Permet de résoudre les problèmes d’appel de médiocre qualité Analytique d’appeler](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Différence entre l’appel Analytique et tableau de bord qualité appel ?](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+  
+ 

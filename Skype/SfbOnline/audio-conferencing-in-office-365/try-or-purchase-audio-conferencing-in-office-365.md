@@ -1,5 +1,5 @@
 ---
-title: "Essayez ou achetez audioconférence dans Office 365"
+title: Essayez ou achetez audioconférence dans Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Voir comment essayer ou acheter des licences d’Audio conférence (conférence PSTN) pour Office 365 organiser des conférences téléphoniques et que les utilisateurs peuvent se connecter. "
-ms.openlocfilehash: ff46a3285a2db4e901388cc3b5dd5bc8045ccfb5
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 'Voir comment essayer ou acheter des licences d’Audio conférence (conférence PSTN) pour Office 365 organiser des conférences téléphoniques et que les utilisateurs peuvent se connecter. '
+ms.openlocfilehash: 1dda3a2ecc24e512e9d614b42292233471525805
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365"></a>Essayez ou achetez audioconférence dans Office 365
 
@@ -75,7 +75,7 @@ Si vous êtes un client de Volume et de la gestion des licences, vous pouvez obt
   
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Étape 2 : Définir le fournisseur de conférence audio pour les personnes qui avance ou planifient des réunions
 
-Lorsque vous attribuez une licence **d’Audio conférence** pour les personnes de votre organisation qui avance ou planifier des réunions, ils sont tous haut et prête à fonctionner ! (Vous n’avez pas à définir leur fournisseur de conférence audio.) Mais si vous avez des utilisateurs qui ont été à l’aide d’un fournisseur de conférence audio de tiers (ACP), vous devez [déplacer le fournisseur de conférence audio d’un utilisateur à Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md).
+Lorsque vous attribuez une licence **d’Audio conférence** pour les personnes de votre organisation qui avance ou planifier des réunions, ils sont tous haut et prête à fonctionner ! (Vous n’avez pas à définir leur fournisseur de conférence audio.) 
   
 > [!NOTE]
 > Si vous souhaitez utiliser un ACP tiers, choisissez **audioconférence** > **pont de Microsoft**. Au bas de la page, cliquez sur **Si vous souhaitez configurer un fournisseur de services d'audioconférence tiers, cliquez ici**. 

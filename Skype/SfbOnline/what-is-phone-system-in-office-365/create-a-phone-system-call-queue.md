@@ -1,5 +1,5 @@
 ---
-title: "Créer une file d’attente des appels système téléphonique"
+title: Créer une file d’attente des appels système téléphonique
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 784033005882eeca105fd59a543ce9d1009ea84f
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
+ms.openlocfilehash: a6eac4b7fec191d9e897f41e3c32b270ab21abcf
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente des appels système téléphonique
 
@@ -245,5 +245,5 @@ Voici les applets de commande requis pour gérer une file d'attente d'appels.
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

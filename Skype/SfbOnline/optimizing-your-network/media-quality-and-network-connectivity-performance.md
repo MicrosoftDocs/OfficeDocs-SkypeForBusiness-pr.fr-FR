@@ -1,5 +1,5 @@
 ---
-title: "Qualité du support et des performances pour la connectivité réseau"
+title: Qualité du support et des performances pour la connectivité réseau
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "Cette rubrique définit l’ensemble des exigences de performances réseau pour Skype pour les services professionnels en ligne, et comment vous pouvez utiliser Internet ou ExpressRoute pour la connectivité entre votre réseau et vos Skype pour entreprise en ligne en fonction de votre évaluation du réseau connectivité. Si vous avez décidé de déployer d’Azure ExpressRoute pour une connectivité dédiée à Office 365, ce document fournit également des conseils sur la planification de vos connexions ExpressRoute dans Skype différent pour des scénarios de déploiement professionnel en ligne."
-ms.openlocfilehash: 84ff8bee6790991d18118e533909a15397fb9e33
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Cette rubrique définit l’ensemble des exigences de performances réseau pour Skype pour les services professionnels en ligne, et comment vous pouvez utiliser Internet ou ExpressRoute pour la connectivité entre votre réseau et vos Skype pour entreprise en ligne en fonction de votre évaluation du réseau connectivité. Si vous avez décidé de déployer d’Azure ExpressRoute pour une connectivité dédiée à Office 365, ce document fournit également des conseils sur la planification de vos connexions ExpressRoute dans Skype différent pour des scénarios de déploiement professionnel en ligne.
+ms.openlocfilehash: 11808a2462fff5ec5c3d6472d060dbba698735f3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Média qualité et les performances de connectivité réseau dans Skype pour l’activité en ligne
 
@@ -341,5 +341,5 @@ Vous trouverez ci-dessous une autre option de déploiement de Contoso. Dans ce c
 
 [ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online](expressroute-and-qos-in-skype-for-business-online.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

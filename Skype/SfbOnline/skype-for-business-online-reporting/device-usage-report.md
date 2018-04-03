@@ -1,5 +1,5 @@
 ---
-title: "Rapport d’utilisation du dispositif"
+title: Rapport d’utilisation du dispositif
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - O365E_ReportsS4BClients
 ms.custom:
 - Reporting
-description: "Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, le Skype pour le rapport d’utilisation de dispositif de Business vous permet de voir les périphériques, y compris les systèmes d’exploitation basés sur Windows et les périphériques mobiles, qui ont la Skype pour application métier installé et sont en servent pour la messagerie instantanée et des réunions. Consultez les rapports d’activité dans le centre d’administration Office 365 pour en savoir plus."
-ms.openlocfilehash: 717439a6829445c48984458ac31f65f63779fa77
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, le Skype pour le rapport d’utilisation de dispositif de Business vous permet de voir les périphériques, y compris les systèmes d’exploitation basés sur Windows et les périphériques mobiles, qui ont la Skype pour application métier installé et sont en servent pour la messagerie instantanée et des réunions. Consultez les rapports d’activité dans le centre d’administration Office 365 pour en savoir plus.
+ms.openlocfilehash: ce749a1439a0cab0edcc0bdd85b34ff0b462bad8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="device-usage-report"></a>Rapport d’utilisation du dispositif
 
@@ -109,5 +109,5 @@ Si les stratégies de votre organisation vous empêche l’affichage des rapport
 ## <a name="related-topics"></a>Rubriques connexes
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

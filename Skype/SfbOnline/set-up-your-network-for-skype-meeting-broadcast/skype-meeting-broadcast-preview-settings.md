@@ -1,5 +1,5 @@
 ---
-title: "Paramètres d’aperçu de la diffusion de réunion Skype"
+title: Paramètres d’aperçu de la diffusion de réunion Skype
 mms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 - ms.lync.lac.BroadcastMeetingsPreview
 ms.custom:
 - SMB
-description: "Le Skype pour le programme d’évaluation client entreprise fournit un accès précoce aux nouveaux produits et fonctionnalités. Il permet à votre organisation obtenir un aperçu de ce qui arrive, tester les nouvelles fonctionnalités dans votre propre environnement et fournir des commentaires avant la sortie des builds de produit pour le grand public. Pour en savoir plus, reportez-vous à la section Skype pour l’aperçu de l’entreprise."
-ms.openlocfilehash: 1c5d066fa7a5237ff0e4f49c9f615bbe64b55c67
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Le Skype pour le programme d’évaluation client entreprise fournit un accès précoce aux nouveaux produits et fonctionnalités. Il permet à votre organisation obtenir un aperçu de ce qui arrive, tester les nouvelles fonctionnalités dans votre propre environnement et fournir des commentaires avant la sortie des builds de produit pour le grand public. Pour en savoir plus, reportez-vous à la section Skype pour l’aperçu de l’entreprise.
+ms.openlocfilehash: f304b84babd9a536df5af15ac49837e4bd44b156
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Paramètres d’aperçu de la diffusion de réunion Skype
 
@@ -35,5 +35,5 @@ Le Skype pour le programme d’évaluation client entreprise fournit un accès p
   
 [Configurer Skype Entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

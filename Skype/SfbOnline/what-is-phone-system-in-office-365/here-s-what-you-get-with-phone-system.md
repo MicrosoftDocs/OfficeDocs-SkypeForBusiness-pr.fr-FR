@@ -1,5 +1,5 @@
 ---
-title: "Voici ce que vous obtenez avec système de téléphone dans Office 365"
+title: Voici ce que vous obtenez avec système de téléphone dans Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: aa7dfb85a212aef17effa45e8a194e018f595448
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
+ms.openlocfilehash: e1e1319bd9dd5ba92f19fb0b30b9806417c84f7d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici ce que vous obtenez avec système de téléphone dans Office 365
 
@@ -100,5 +100,5 @@ Consultez ces articles pour planifier et configurer le système téléphonique d
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

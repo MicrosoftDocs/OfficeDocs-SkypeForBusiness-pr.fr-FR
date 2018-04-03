@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 94a167dad9ab745993315450717e7efc7c5e00bc
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 4ddd99dec5e8c283741380b68e01ef97363fda85
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Test de votre installation de Skype Entreprise Online
 
@@ -33,7 +33,7 @@ Voici ce dont vous aurez besoin :
     
 - Un ordinateur pour chaque compte test. Configurez-les à l'image d'un ordinateur standard au sein de votre organisation.
     
-- Un compte avec un fournisseur de services d'audioconférence pour Skype Entreprise Online. Pour en savoir plus, consultez la rubrique [Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).
+- Un compte avec un fournisseur de services d'audioconférence pour Skype Entreprise Online. 
     
 ## <a name="what-do-you-want-to-do"></a>Que voulez-vous faire ?
 
@@ -73,8 +73,6 @@ Pour permettre un accès téléphonique aux réunions Skype Entreprise Online co
 - Un code de conférence et un code confidentiel (PIN) pour chaque utilisateur de votre organisation qui planifie ou anime des réunions.
     
 Une fois que vous avez configuré vos utilisateurs pour l'audioconférence, ceux-ci reçoivent un courrier électronique automatisé contenant les numéros de connexion et le code de conférence. Ces informations sont également ajoutées automatiquement aux nouvelles demandes de réunion Skype Entreprise.
-  
-Pour plus d'informations, consultez la rubrique [Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md). 
   
  **Pour ajouter des informations d'audioconférence au compte de l'un de vos utilisateurs test**
   
@@ -140,3 +138,6 @@ Vous ne parvenez pas à vous connecter ? Accédez à [Dépannage des problèmes 
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+
+  
+ 

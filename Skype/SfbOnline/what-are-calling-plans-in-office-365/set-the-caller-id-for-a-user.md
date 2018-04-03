@@ -1,5 +1,5 @@
 ---
-title: "Définir l'ID d'appelant d'un utilisateur"
+title: Définir l'ID d'appelant d'un utilisateur
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Le système téléphonique dans Office 365 fournit un ID de l’appelant par défaut qui est le numéro attribué à l’utilisateur. Vous pouvez modifier ou bloquer l'ID d'appelant (également appelé ID de ligne d'appel). Pour plus d’informations sur l’utilisation des ID de l’appelant dans votre organisation en continu, ID de l’appelant utilisation dans votre organisation."
-ms.openlocfilehash: 241f75b50a0e874fc4b11213cc80e99f166da937
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Le système téléphonique dans Office 365 fournit un ID de l’appelant par défaut qui est le numéro attribué à l’utilisateur. Vous pouvez modifier ou bloquer l'ID d'appelant (également appelé ID de ligne d'appel). Pour plus d’informations sur l’utilisation des ID de l’appelant dans votre organisation en continu, ID de l’appelant utilisation dans votre organisation.
+ms.openlocfilehash: 07fc6db1a161f8eca83ea601e1a8f5d70e1f1d5e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Définir l'ID d'appelant d'un utilisateur
 Le système téléphonique dans Office 365 fournit un ID de l’appelant par défaut qui est le numéro attribué à l’utilisateur. Vous pouvez modifier ou bloquer l'ID d'appelant (également appelé ID de ligne d'appel). Pour plus d’informations sur l’utilisation des ID de l’appelant dans votre organisation à partir de [l’ID de l’appelant utilisable dans votre organisation](how-can-caller-id-be-used-in-your-organization.md).
@@ -186,7 +186,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

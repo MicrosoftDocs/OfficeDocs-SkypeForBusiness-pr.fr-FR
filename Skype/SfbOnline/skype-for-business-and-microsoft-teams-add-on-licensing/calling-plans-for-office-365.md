@@ -1,5 +1,5 @@
 ---
-title: "Plans d’appel pour Office 365"
+title: Plans d’appel pour Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,11 +26,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 53898ee5c2ac46deca22e8ea0bbfbd327868dfb3
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 3643819eb5d085580164b837d70250e79bd464f3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="calling-plans-for-office-365"></a>Plans d’appel pour Office 365
 
@@ -57,7 +57,7 @@ Pour plus d’informations sur les limites d’utilisation et les conditions d�
     ![Lorsque vous achetez vos licences de Cloud PBX, vous verrez une option pour acheter un plan d’appel de voix.](../images/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > En fonction de votre plan, vous devrez peut-être acheter d’autres modules complémentaires avant d’acheter les licences de système téléphonique. Pour plus d’informations, consultez [les licences supplémentaires nécessaires pour acheter pour bénéficier de fonctionnalités supplémentaires ?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_whichaddons)
+    > En fonction de votre plan, vous devrez peut-être acheter d’autres modules complémentaires avant d’acheter les licences de système téléphonique. Pour plus d’informations, consultez « Options de licence en fonction de votre plan » dans [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestionnaire de licences](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 2. Après l’avoir acheté des licences du système téléphonique, vous pouvez acheter le Plan d’appel en se connectant au **Centre d’administration Office 365**, choisissez **facturation** > **services d’achat** > **abonnements de module complémentaire**et cliquez sur **Acheter maintenant**. Vous verrez que l’appel de Plans il.
     
@@ -99,8 +99,6 @@ Voici plusieurs articles qui expliquent comment définir vos Plans d’appel :
 
 - [Configurer Skype Entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Configurer des forfaits d'appels](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
@@ -109,5 +107,5 @@ Voici plusieurs articles qui expliquent comment définir vos Plans d’appel :
     
 - [Configurer le connecteur de nuage](https://technet.microsoft.com/en-us/library/mt605228.aspx) et [Télécharger le connecteur de nuage](https://aka.ms/CloudConnectorInstaller)
   
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

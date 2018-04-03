@@ -1,5 +1,5 @@
 ---
-title: "Quel est mon numéro de téléphone de facturation ?"
+title: Quel est mon numéro de téléphone de facturation ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoBTN
 ms.custom:
 - Calling Plans
-description: "Découvrez ce qui est votre Skype pour entreprise, numéro de téléphone de facturation et où aller pour obtenir des instructions étape par étape comment transférer un numéro."
-ms.openlocfilehash: 9ec02914e9ad8e097f701efc9d86ed26d612cbe5
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Découvrez ce qui est votre Skype pour entreprise, numéro de téléphone de facturation et où aller pour obtenir des instructions étape par étape comment transférer un numéro.
+ms.openlocfilehash: 3cfb34fb26a55a756d910a417da030df2dba64a0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-is-my-billing-telephone-number"></a>Quel est mon numéro de téléphone de facturation ?
 
@@ -44,7 +44,7 @@ Le numéro de téléphone de facturation (BTN) est le numéro de téléphone pri
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

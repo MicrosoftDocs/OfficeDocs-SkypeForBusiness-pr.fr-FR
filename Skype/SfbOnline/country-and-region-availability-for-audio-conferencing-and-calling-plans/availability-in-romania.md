@@ -1,5 +1,5 @@
 ---
-title: "Disponibilité de la Roumanie"
+title: Disponibilité de la Roumanie
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour la Roumanie.
-ms.openlocfilehash: 0f05ddef3ec8afddf7d752e0375767d282128e0d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e617459b3afaa1e96c2179cfd9c6ea04aaa3288c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-romania"></a>Disponibilité de la Roumanie
 
@@ -83,5 +83,6 @@ Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les c
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 
 

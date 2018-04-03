@@ -1,5 +1,5 @@
 ---
-title: "Utilisation d'un appel sortant pour permettre à d'autres personnes de participer à une conférence"
+title: Utilisation d'un appel sortant pour permettre à d'autres personnes de participer à une conférence
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 3c2db9a5-3a19-4e19-b59e-8e5587f25d31
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 3bceef26b1858e4fa750953db08767f77041311c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 1dc1fb9b97381eed3a078e64fb408095df414f6d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a>Utilisation d'un appel sortant pour permettre à d'autres personnes de participer à une conférence
 
@@ -48,11 +50,10 @@ La mise en conférence n'est disponible que vers certains pays ou certaines rég
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur les conférences rendez-vous ?
 
-- La conférence rendez-vous, également appelée « conférence RTC », n'est pas disponible pour toutes les organisations Office 365.
+[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- Pour en savoir plus, reportez-vous à la rubrique [Conférence rendez-vous dans Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- [Licences de compléments pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Installer Skype Entreprise](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
-

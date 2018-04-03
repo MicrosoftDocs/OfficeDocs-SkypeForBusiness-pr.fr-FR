@@ -1,5 +1,5 @@
 ---
-title: "Définir les langues du standard automatique pour les conférences Audio"
+title: Définir les langues du standard automatique pour les conférences Audio
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Découvrez comment sélectionner les langues de surveillance automatique audioconférence pour un numéro d’audioconférence."
-ms.openlocfilehash: c352609926a7bc6bf7f72015447ba9f7ae115487
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: Découvrez comment sélectionner les langues de surveillance automatique audioconférence pour un numéro d’audioconférence.
+ms.openlocfilehash: e7c4adb2129a737ec34e5641a9724bdab665cd23
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Définir les langues du standard automatique pour les conférences Audio
 
@@ -72,4 +72,4 @@ Pour plus d’informations, reportez-vous [à l’aide de Windows PowerShell à 
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing.md)
+[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -1,5 +1,5 @@
 ---
-title: "Comment dois-je entrer les numéros de téléphone ?"
+title: Comment dois-je entrer les numéros de téléphone ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
-description: "Apprenez à configurer des numéros de téléphone lorsque vous les porter à Skype pour les entreprises. "
-ms.openlocfilehash: a7364c5ebf72730179c6848dc79172f4f971ff6a
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Apprenez à configurer des numéros de téléphone lorsque vous les porter à Skype pour les entreprises. '
+ms.openlocfilehash: 68fe698612c095e657dab56723df7de6eb13b858
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>Comment dois-je entrer les numéros de téléphone ?
 
@@ -96,7 +96,7 @@ Lorsque vous procédez au portage des numéros de téléphone, vous devez les en
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

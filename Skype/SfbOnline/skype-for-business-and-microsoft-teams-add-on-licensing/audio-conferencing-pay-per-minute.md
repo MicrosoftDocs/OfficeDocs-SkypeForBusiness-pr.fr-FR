@@ -1,5 +1,5 @@
 ---
-title: "Audio conférence paie par minute"
+title: Audio conférence paie par minute
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "Outre la licence par utilisateur Audio conférence standard, les organisations de Volume et de la gestion des licences peuvent choisir une offre de la paie par minute pour activer les fonctionnalités d’audioconférence pour leurs organisations."
-ms.openlocfilehash: 53d42e74893056cdb39ebdd7a7334764c4f0aa8d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Outre la licence par utilisateur Audio conférence standard, les organisations de Volume et de la gestion des licences peuvent choisir une offre de la paie par minute pour activer les fonctionnalités d’audioconférence pour leurs organisations.
+ms.openlocfilehash: 4fbf487a0a20476bfc05f2287478e51871d3c899
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audio conférence paie par minute
 
@@ -65,9 +67,8 @@ Pour activer la paie par minute Audio conférence pour les utilisateurs de votre
 - [Tarification des Plans d’appel](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>Rubriques connexes
-
-La conférence rendez-vous, également appelée « conférence RTC », n'est pas disponible pour toutes les organisations Office 365.
   
-Pour en savoir plus, reportez-vous à la rubrique [Conférence rendez-vous dans Office 365](skype-for-business-and-microsoft-teams-add-on-licensing.md).
+[Licences de compléments pour Skype Entreprise et Microsoft Teams](skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-
+  
+ 

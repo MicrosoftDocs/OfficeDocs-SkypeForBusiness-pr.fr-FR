@@ -1,5 +1,5 @@
 ---
-title: "Réclamation de code de gestion pour le (Royaume-Uni)"
+title: Réclamation de code de gestion pour le (Royaume-Uni)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 3a75a9900907963db52c659631fe99e07a7c6ec8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 1c67d16704f93d256a66595ffacdd4ed70c5b439
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>Réclamation de code de gestion pour le (Royaume-Uni)
 
@@ -62,7 +62,7 @@ Les étapes à suivre pour transférer une réclamation à Ombudsman Services so
   
 Vous pouvez atteindre le médiateur Services en remplissant un formulaire de contact sur le site Web des Services de médiateur ou par téléphone, lettre ou courrier électronique :
   
-- Formulaire de contact : [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
+- Formulaire de contact : [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
     
 - Téléphone : 0330 440 1614
     
@@ -86,5 +86,3 @@ Vous pouvez atteindre le médiateur Services en remplissant un formulaire de con
 ## <a name="related-topics"></a>Rubriques connexes
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

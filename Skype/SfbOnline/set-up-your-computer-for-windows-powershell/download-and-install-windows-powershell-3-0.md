@@ -1,5 +1,5 @@
 ---
-title: "Téléchargez et installez Windows PowerShell 3.0"
+title: Téléchargez et installez Windows PowerShell 3.0
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 - LIL_Placement
-description: "Télécharger, installer et Windows PowerShell 3.0 permet de créer une session PowerShell distante qui se connecte à Skype pour entreprise en ligne."
-ms.openlocfilehash: 28f4db7492c233f5cfa16137d77ed8e0dc4a6572
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Télécharger, installer et Windows PowerShell 3.0 permet de créer une session PowerShell distante qui se connecte à Skype pour entreprise en ligne.
+ms.openlocfilehash: 56e0c885d25510156b7336e63f83c89c29b07fb4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="download-and-install-windows-powershell-30"></a>Téléchargez et installez Windows PowerShell 3.0
 
@@ -150,5 +150,5 @@ Si l’authentification de base a été définie sur true, vous êtes prêt à u
 ## <a name="related-topics"></a>Rubriques connexes
 [Configurer votre ordinateur pour Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

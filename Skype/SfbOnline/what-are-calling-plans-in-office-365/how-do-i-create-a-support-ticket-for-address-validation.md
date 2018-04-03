@@ -1,5 +1,5 @@
 ---
-title: "Comment puis-je créer un ticket d'assistance pour la validation d'une adresse ?"
+title: Comment puis-je créer un ticket d'assistance pour la validation d'une adresse ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
-description: "La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence."
-ms.openlocfilehash: 9c5da69771db1d0ab743d865c3171018a0298fee
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
+ms.openlocfilehash: 0ee6e41a067c23b862c6e971cbfe39df1b97fbe7
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Comment puis-je créer un ticket d'assistance pour la validation d'une adresse ?
 
@@ -108,5 +108,5 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
 
 [Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Gestion des numéros de téléphone pour les Pays-Bas"
+title: Gestion des numéros de téléphone pour les Pays-Bas
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f3b75104-bdb9-435a-bec5-9858db9df402
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone aux Pays-Bas pour Skype Entreprise Online et Microsoft Teams."
-ms.openlocfilehash: ce6381433733fff8750f175f6e4473ab29be7926
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone aux Pays-Bas pour Skype Entreprise Online et Microsoft Teams.
+ms.openlocfilehash: 5f7912f76439082ccd3078f649d1ebab329bcb2a
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Gestion des numéros de téléphone pour les Pays-Bas
 
@@ -34,7 +36,8 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d'utilisateur.  <br/> | Téléchargez le formulaire [Demande de nouveaux numéros de téléphone pour les Pays-Bas (numéros géographiques) (v.3.0)(nl-nl)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl-nl).pdf) <br/>  <br/>  Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
+|Obtenir les nouveaux numéros de téléphone des utilisateurs qui ne figurent pas dans le Skype pour Business admin center.   <br/> | Téléchargez le formulaire [Demande de nouveaux numéros de téléphone pour les Pays-Bas (numéros géographiques) (v.3.0)(nl-nl)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl-nl).pdf) <br/>  <br/>  Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
+|Obtenir les nouveaux numéros de téléphone de service qui ne figurent pas dans le Skype pour Business admin center. <br/> |Pour les numéros de service en dehors des États-Unis, veuillez [télécharger ce formulaire](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf), remplir les extraire et les [Envoyer pour nous](mailto:ptneu@microsoft.com).
 |Vous devez obtenir des numéros de téléphone qui nous sont transférés.  <br/> |Téléchargez un des formulaires suivants : <br/> [Courrier d'autorisation (LOA) pour les Pays-Bas (numéros géographiques) (v.2.0)(nl.nl)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl-nl).pdf) <br/> [Courrier d'autorisation (LOA) pour les Pays-Bas (numéros non géographiques) (v.2.0)(nl-nl)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl-nl).pdf) <br/> <br/>  Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
 |Vous devez publier/annuler la publication des numéros de téléphone dans l'annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
 |Vous devez remplacer le numéro d'un utilisateur par un numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
@@ -48,3 +51,5 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 
 [Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+  
+ 

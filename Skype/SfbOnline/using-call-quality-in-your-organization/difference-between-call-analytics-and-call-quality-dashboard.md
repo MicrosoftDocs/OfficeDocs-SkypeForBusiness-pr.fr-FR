@@ -1,5 +1,5 @@
 ---
-title: "Quelle est la différence entre appeler une Analytique et appelez le tableau de bord qualité ?"
+title: Quelle est la différence entre appeler une Analytique et appelez le tableau de bord qualité ?
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Apprenez à appeler l’Analytique et appelez le tableau de bord qualité et quand les utiliser pour surveiller et résoudre les problèmes de qualité de l’appel dans Skype pour les entreprises."
-ms.openlocfilehash: 6c8eb372388ae42863292dbf00a70c5ddd19118d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Apprenez à appeler l’Analytique et appelez le tableau de bord qualité et quand les utiliser pour surveiller et résoudre les problèmes de qualité de l’appel dans Skype pour les entreprises.
+ms.openlocfilehash: 934b0cfec28fa4a67e1dad699db504bda25b2978
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="whats-the-difference-between-call-analytics-and-call-quality-dashboard"></a>Quelle est la différence entre appeler une Analytique et appelez le tableau de bord qualité ?
 
@@ -65,5 +65,5 @@ Pour plus d’informations sur CQD, voir [activation et à l’aide d’appel de
 
 [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels Skype Entreprise](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Ce Skype pour la fonctionnalité d’entreprise en ligne n’est pas activée."
+title: Ce Skype pour la fonctionnalité d’entreprise en ligne n’est pas activée.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
 - Setup
-description: "Rechercher les causes possibles et des suggestions d’action lorsque vous obtenez un Skype pour la fonctionnalité d’entreprise en ligne n’est pas une erreur activée. "
-ms.openlocfilehash: e6b025ad9e53d520a5e79c380de80e71c5f0fe04
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Rechercher les causes possibles et des suggestions d’action lorsque vous obtenez un Skype pour la fonctionnalité d’entreprise en ligne n’est pas une erreur activée. '
+ms.openlocfilehash: 5d0167ed53f5396d3d048815986dea7600f9182f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Ce Skype pour la fonctionnalité d’entreprise en ligne n’est pas activée.
 
@@ -40,5 +40,5 @@ Désolé, il semble que l’utilisateur n’est pas autorisé pour cette fonctio
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

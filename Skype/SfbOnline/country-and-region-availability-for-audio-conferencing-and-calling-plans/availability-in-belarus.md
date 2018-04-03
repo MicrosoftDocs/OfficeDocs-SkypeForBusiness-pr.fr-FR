@@ -1,5 +1,5 @@
 ---
-title: "Disponibilité du Belarus"
+title: Disponibilité du Belarus
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour le Belarus.
-ms.openlocfilehash: 246336e9646046f176bf8390d0bf84888991698a
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 4ee54f90d3539adde31a3c6db09adea2a19db4b3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-belarus"></a>Disponibilité du Belarus
 
@@ -82,3 +82,4 @@ Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les c
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+

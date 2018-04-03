@@ -1,5 +1,5 @@
 ---
-title: "Optimiser votre réseau"
+title: Optimiser votre réseau
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "Les conditions requises suivantes sont particulièrement importantes pour la garantie de l'intégrité et du bon fonctionnement à long terme de l'ensemble des fonctionnalités Skype Entreprise Online que vous configurez pour votre organisation. Ce document s'adresse aux utilisateurs occupant un poste très technique, mais nous savons que tous les utilisateurs ne le sont pas. Si vous avez besoin d'aide pour configurer Skype Entreprise Online, vous devez lire ce document pour vous familiariser avec les éléments que vous devez prendre en compte. Il vous fournira également certains points sur lesquels échanger lorsque vous collaborez avec le Microsoft FastTrack Center, vos équipes Microsoft Services et de comptes Microsoft, ou avec des partenaires Microsoft pour savoir comment répondre à ces exigences."
-ms.openlocfilehash: f5328705e79a44828a9787f35c0526f4b2e0ea35
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Les conditions requises suivantes sont particulièrement importantes pour la garantie de l'intégrité et du bon fonctionnement à long terme de l'ensemble des fonctionnalités Skype Entreprise Online que vous configurez pour votre organisation. Ce document s'adresse aux utilisateurs occupant un poste très technique, mais nous savons que tous les utilisateurs ne le sont pas. Si vous avez besoin d'aide pour configurer Skype Entreprise Online, vous devez lire ce document pour vous familiariser avec les éléments que vous devez prendre en compte. Il vous fournira également certains points sur lesquels échanger lorsque vous collaborez avec le Microsoft FastTrack Center, vos équipes Microsoft Services et de comptes Microsoft, ou avec des partenaires Microsoft pour savoir comment répondre à ces exigences.
+ms.openlocfilehash: 7817929f89731e13b09f5a6287493ea322b223d1
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Optimisation de votre réseau pour Skype Entreprise Online
 
@@ -147,4 +147,5 @@ Pour obtenir une image plus claire de l’utilisation d’une expérience audio 
 
 [ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online](expressroute-and-qos-in-skype-for-business-online.md)
   
-
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "E-mails envoyés aux utilisateurs lors de la modifient de leurs paramètres"
+title: E-mails envoyés aux utilisateurs lors de la modifient de leurs paramètres
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: f6155938c94270cff2defccf2db641a18e6cb68d
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: f504e9b807afb4a587a9d6f13baf69a3c5b9db68
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>E-mails envoyés aux utilisateurs lors de la modifient de leurs paramètres
 
@@ -73,7 +73,7 @@ Par défaut, il existe quatre types de courrier électronique qui sera envoyé a
     
     Cela se produit lorsque la licence de **Conférence Audio** est supprimée d’un utilisateur ou lors de la modification d’un utilisateur, le fournisseur de conférence audio de Microsoft pour un fournisseur de conférence audio de tiers ou lors de la définition du fournisseur sur **Aucun**. Cet e-mail contient des instructions et des informations pour l’utilisateur d’utiliser le Skype pour l’outil de mise à jour de réunion en ligne Professionnel pour supprimer des informations spécifiques de conférence audio, comme le code par défaut conférence téléphonique numéro ou une conférence.
     
-    Voir [attribuer ou supprimer des licences pour Office 365 pour professionnels](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc) ou [affecter un tiers que le fournisseur de conférence audio](assign-a-third-party-as-the-audio-conferencing-provider.md).
+    Consultez la rubrique [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc).
     
     Voici un exemple de ce courrier électronique :
     

@@ -1,5 +1,5 @@
 ---
-title: "Déclaration d’accessibilité de conformité en France"
+title: Déclaration d’accessibilité de conformité en France
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "Ceci est le contenu qui doit être publié pour répondre aux exigences d’accessibilité, la conformité et réglementaires pour Skype pour entreprise en ligne en France. "
+hideEdit: true
+description: 'Ceci est le contenu qui doit être publié pour répondre aux exigences d’accessibilité, la conformité et réglementaires pour Skype pour entreprise en ligne en France. '
 ms.openlocfilehash: e7898502544b9a72be42f29751356c09d08d9e7d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="accessibility-declaration-of-conformance-for-skype-for-business-online-in-france"></a>Déclaration d’accessibilité de conformité pour Skype pour l’activité en ligne en France
 

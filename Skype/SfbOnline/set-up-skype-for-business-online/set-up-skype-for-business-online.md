@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
-description: "Apprenez à configurer votre domaine, utilisateurs, messagerie instantanée et présence pour votre organisation installer Skype pour les entreprises. Consultez également le paramétrage de conférence audio, système téléphonique et Plans d’appel et diffusion de réunion de Skype. "
-ms.openlocfilehash: 122ff43fd13a2bd9e2207d9e4e1c2b6e5d8be2a8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Apprenez à configurer votre domaine, utilisateurs, messagerie instantanée et présence pour votre organisation installer Skype pour les entreprises. Consultez également le paramétrage de conférence audio, système téléphonique et Plans d’appel et diffusion de réunion de Skype. '
+ms.openlocfilehash: ad0608dbb637b4b2343bf39d47b2beea0ca9e12c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurer Skype Entreprise Online
   
@@ -130,8 +130,6 @@ Avant de configurer davantage de fonctionnalités, assurez-vous que vous avez de
 
 Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Skype Entreprise inclut la fonction d'audioconférence pour cette situation ! Il est possible de rejoindre des réunions Skype Entreprise en utilisant un téléphone au lieu de l'application Skype Entreprise sur un appareil mobile ou un PC.
   
-Pour connaître la procédure, consultez la rubrique [Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md) dans Office 365.
-  
 ### <a name="set-up-phone-system-and-the-calling-plans-in-office-365"></a>Configurer le système téléphonique Office 365 et l'offre d'appels Office 365
 
 La fonction de système téléphonique dans Office 365 fournit un système téléphonique pour votre entreprise. Les appels passés vers d'autres utilisateurs de Skype Entreprise dans votre organisation sont gratuits, et vos employés peuvent recevoir des messages vocaux provenant d'autres employés ou de l'extérieur de l'entreprise. Voici les avantages du système téléphonique.
@@ -152,7 +150,7 @@ Voici un aperçu des étapes requises pour configurer Diffusion de réunion Skyp
     
 3. [Configurer votre réseau de diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md): Si vous souhaitez hôte séminaires et autres diffusions avec les participants à l’extérieur de votre organisation, vous devez configurer votre réseau.
     
-4. [Planifier une diffusion de réunion Skype](http://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) et avoir une [jointure de diffusion d’une réunion de Skype](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): Assurez-vous que le travail de diffusion des réunions par la planification d’une diffusion de réunion Skype à *https://portal.broadcast.skype.com* et le fait que quelqu'un essaie de participer à la de la réunion.
+4. [Planifier une diffusion de réunion Skype](http://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) et avoir une [jointure de diffusion d’une réunion de Skype](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): Assurez-vous que la diffusion des réunions de travail par la planification d’une diffusion de réunion Skype à *https://portal.broadcast.skype.com* et tentez de joindre la réunion puis à une personne.
     
 ## <a name="learn-about-network-connectivity-requirements"></a>Autres informations relatives à la connectivité réseau
 <a name="bkmk_more"> </a>
@@ -177,5 +175,5 @@ La qualité de l'image, du son et du partage d'applications dans Skype Entrepris
 
 [Planifier une connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](https://go.microsoft.com/fwlink/p/?linkid=400791)
   
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Pratiques de collecte des données"
+title: Pratiques de collecte des données
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "Microsoft collecte les données de recensement et d’utilisation erreur afin de comprendre comment est utilisé Skype pour les entreprises et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations de produit."
+hideEdit: true
+description: Microsoft collecte les données de recensement et d’utilisation erreur afin de comprendre comment est utilisé Skype pour les entreprises et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations de produit.
 ms.openlocfilehash: f58a5650da1b6f489c63fdb5e5870321e0f06727
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype pour les pratiques de collection des données métier et Teams de Microsoft
 

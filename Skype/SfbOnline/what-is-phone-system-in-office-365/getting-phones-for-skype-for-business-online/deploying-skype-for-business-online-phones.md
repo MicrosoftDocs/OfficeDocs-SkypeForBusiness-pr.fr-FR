@@ -1,5 +1,5 @@
 ---
-title: "Déploiement de téléphones Skype Entreprise Online"
+title: Déploiement de téléphones Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, mettre à jour si nécessaire, attribuer des licences et configurer les paramètres de Skype pour les téléphones professionnels en ligne"
-ms.openlocfilehash: c6321222cdd3f6a5214ff17ac950da397b73baf9
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
+description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, mettre à jour si nécessaire, attribuer des licences et configurer les paramètres de Skype pour les téléphones professionnels en ligne
+ms.openlocfilehash: ee6f8e0b892b8cef1c70c7bc01ba7e7d9c4cb8e8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Déploiement de téléphones Skype Entreprise Online
 
@@ -40,7 +40,7 @@ Dans tous les types d’entreprises, un numéro de téléphone permet aux utilis
 
 Avant de commencer, il est pertinent de télécharger les guides d'administration et les manuels de téléphone du fabricant.
   
-- Pour les téléphones de Polycom, voir [Polycom Deployment Guide] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
+- Pour les téléphones de Polycom, consultez le [Guide de déploiement de Polycom] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
     
 - Pour les téléphones Yealink, consultez [Skype Yealink à Solution téléphones SIP HD](http://www.yealink.com/products_top_2.html).
     
@@ -226,5 +226,5 @@ BToE peut être configuré pour fonctionner en deux modes : *manuel* et *automa
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

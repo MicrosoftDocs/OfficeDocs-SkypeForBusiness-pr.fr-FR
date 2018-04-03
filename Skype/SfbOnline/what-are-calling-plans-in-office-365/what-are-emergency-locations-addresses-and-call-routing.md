@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
-ms.openlocfilehash: 3dfc02ef5c5316e8767512e57d1f98eae9f57a06
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 8aceaab0c54b42555c31f14883973fdab3c854fd
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>Que sont les emplacements d'urgence, les adresses de secours et le routage des appels ?
 
@@ -75,7 +75,7 @@ Emplacements et adresses d’urgence sont utilisés au cours du processus d’ac
 
 [Conditions générales relatives aux appels d'urgence](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

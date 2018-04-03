@@ -1,5 +1,5 @@
 ---
-title: "Résolution des problèmes de Skype pour les erreurs de connexion en ligne Business pour les administrateurs"
+title: Résolution des problèmes de Skype pour les erreurs de connexion en ligne Business pour les administrateurs
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Découvrez les causes courantes de Skype pour Business Online-erreurs de connexion et de travail grâce à la résolution de ces problèmes. "
-ms.openlocfilehash: a30375b54db5ef02756253e9419c2cb54f8f2f8b
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Découvrez les causes courantes de Skype pour Business Online-erreurs de connexion et de travail grâce à la résolution de ces problèmes. '
+ms.openlocfilehash: 26541918db9598cbdaf9d61e52806da94bae9d46
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Résolution des problèmes de Skype pour les erreurs de connexion en ligne Business pour les administrateurs
 
@@ -215,5 +215,5 @@ Pour résoudre les problèmes de Skype pour les erreurs de connexion en ligne Bu
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

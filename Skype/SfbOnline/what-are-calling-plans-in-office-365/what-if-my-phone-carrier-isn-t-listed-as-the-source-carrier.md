@@ -1,5 +1,5 @@
 ---
-title: "Que se passe-t-il si mon opérateur de téléphonie n’est pas répertorié en tant que le support source ?"
+title: Que se passe-t-il si mon opérateur de téléphonie n’est pas répertorié en tant que le support source ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderDetailPanelWhois
 ms.custom:
 - Calling Plans
-description: "Apprenez quoi faire si votre opérateur n’est pas répertorié dans Skype pour les entreprises. "
-ms.openlocfilehash: da9f5603c477f67b68ed02b00434b10318de31c8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Apprenez quoi faire si votre opérateur n’est pas répertorié dans Skype pour les entreprises. '
+ms.openlocfilehash: 7ca5b0b959066dec5841862ac9270dcc023aecd4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Que se passe-t-il si mon opérateur de téléphonie n’est pas répertorié en tant que le support source ?
 
@@ -46,7 +46,7 @@ Voici un exemple :
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

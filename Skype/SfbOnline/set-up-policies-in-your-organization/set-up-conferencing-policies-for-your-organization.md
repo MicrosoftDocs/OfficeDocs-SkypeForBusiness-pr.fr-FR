@@ -1,5 +1,5 @@
 ---
-title: "Définir des stratégies de conférence pour votre organisation"
+title: Définir des stratégies de conférence pour votre organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "La fonctionnalité Conférence est une partie importante de Skype Entreprise Online : elle permet à des groupes d'utilisateurs de se retrouver en ligne pour visionner des diapositives et des vidéos, partager des applications, échanger des fichiers, communiquer et collaborer."
-ms.openlocfilehash: 7e2540bc043476ca2a768c701b93c2ce8d6a4431
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 6005789d4be479ea4fd39f74fb950600c640bbb5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Définir des stratégies de conférence pour votre organisation
 
@@ -149,5 +149,5 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de co
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

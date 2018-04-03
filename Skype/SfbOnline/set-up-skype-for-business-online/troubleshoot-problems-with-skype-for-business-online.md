@@ -1,5 +1,5 @@
 ---
-title: "Résolution des problèmes liés à Skype Entreprise Online"
+title: Résolution des problèmes liés à Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: de36db163387d7edf08f1c7a98f7555f208b00f9
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 40e6811df0ad920daa6d974e222b659da5c5b97d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Résolution des problèmes liés à Skype Entreprise Online
 
@@ -86,5 +86,5 @@ En tant qu'administrateur pour Office 365 pour les entreprises, vous pouvez cont
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

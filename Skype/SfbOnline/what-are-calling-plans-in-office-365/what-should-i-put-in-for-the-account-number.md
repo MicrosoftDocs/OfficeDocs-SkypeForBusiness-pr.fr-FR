@@ -1,5 +1,5 @@
 ---
-title: "Que dois-je placer le numéro de compte ?"
+title: Que dois-je placer le numéro de compte ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAccountNumber
 ms.custom:
 - Calling Plans
-description: "Voir ce que vous devez placer sous la forme d’un numéro de compte dans Skype pour les entreprises et où vous pouvez trouver que. "
-ms.openlocfilehash: a56413aaf7d4bbb5924b4c3744bc899fcb5ddeef
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Voir ce que vous devez placer sous la forme d’un numéro de compte dans Skype pour les entreprises et où vous pouvez trouver que. '
+ms.openlocfilehash: 14a95d5f4061216fbf0dfef077bdac9ac4294206
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-should-i-put-in-for-the-account-number"></a>Que dois-je placer le numéro de compte ?
 
@@ -46,7 +46,7 @@ En général, vous pouvez trouver le numéro de compte sur une facture ou factur
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Envoyer un e-mail à un utilisateur avec les informations d’accès à distance"
+title: Envoyer un e-mail à un utilisateur avec les informations d’accès à distance
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Envoyer à vos utilisateurs un message électronique avec leurs informations de conférence audio."
-ms.openlocfilehash: 70533de9fbf942a6ff7bd00f3998ede9f43ff96a
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: Envoyer à vos utilisateurs un message électronique avec leurs informations de conférence audio.
+ms.openlocfilehash: f1e4ddd06011d7eb85253e06d6b7de775a207683
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio
 
@@ -114,4 +114,4 @@ Voici un exemple de l’e-mail envoyé :
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing.md)
+[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

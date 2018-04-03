@@ -1,5 +1,5 @@
 ---
-title: "Période d’accès gratuit"
+title: Période d’accès gratuit
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "Clients peuvent utiliser Office 365 audioconférence et Plan d’appel de Office 365 est autorisé dans le Skype pour en ligne RTPC Services utilisent les conditions commerciales et le contrat de licence en volume du client."
+hideEdit: true
+description: Clients peuvent utiliser Office 365 audioconférence et Plan d’appel de Office 365 est autorisé dans le Skype pour en ligne RTPC Services utilisent les conditions commerciales et le contrat de licence en volume du client.
 ms.openlocfilehash: fac5ad1e413d62669e1ed23e6ea19f1c51ea3017
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audio conférence gratuite à distance période
 

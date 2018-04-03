@@ -1,5 +1,5 @@
 ---
-title: "Que dois-je placer le nom de la société ?"
+title: Que dois-je placer le nom de la société ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoCompanyName
 ms.custom:
 - Calling Plans
-description: "Les éléments à ajouter pour la société dans Skype pour les entreprises et où vous pouvez les trouver. "
-ms.openlocfilehash: 3bde0daaebdaf6a3f615629c2d23f083e84e6465
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Les éléments à ajouter pour la société dans Skype pour les entreprises et où vous pouvez les trouver. '
+ms.openlocfilehash: 9664879695a79a485b034667feff2c4486878bae
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-should-i-put-in-for-the-company-name"></a>Que dois-je placer le nom de la société ?
 
@@ -44,7 +44,7 @@ C’est le nom de votre société ou organisation. Le nom de la société est li
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

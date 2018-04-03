@@ -1,5 +1,5 @@
 ---
-title: "Bloqué des licences utilisateur pour diffusion de réunion Skype"
+title: Bloqué des licences utilisateur pour diffusion de réunion Skype
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,16 +17,16 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: "Malheureusement, il y a certaines licences utilisateur qui sont bloquées lorsque utilisateur accéder à https://broadcast.skype.com et à utiliser la diffusion de réunion Skype. Si un utilisateur voit ce message, ils ont une des licences bloqués qui leur sont affectées. Si vous voulez les utiliser, les affecter une autre licence d’Office 365."
-ms.openlocfilehash: 946e073183f52af84adbbf5f727282f487db07c3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Malheureusement, il y a certaines licences utilisateur qui sont bloquées lorsque l’utilisateur accéder au https://broadcast.skype.com et souhaitez utiliser Skype réunion de diffusion. Si un utilisateur voit ce message, ils ont une des licences bloqués qui leur sont affectées. Si vous voulez les utiliser, les affecter une autre licence d’Office 365.
+ms.openlocfilehash: 59b00fd9b7557177994a1d4279756c56aa5ba613
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Bloqué des licences utilisateur pour diffusion de réunion Skype
 
-Malheureusement, il y a certaines licences utilisateur qui sont bloqués lorsque les utilisateurs allez à https://broadcast.skype.com et want utiliser la diffusion de réunion Skype. Si un utilisateur voit ce message, ils ont une des licences bloqués qui leur sont affectées. Si vous voulez les utiliser, les affecter une autre licence d’Office 365.
+Malheureusement, il y a certaines licences utilisateur qui sont bloqués lorsque les utilisateurs accèdent à https://broadcast.skype.com et souhaitez utiliser Skype réunion de diffusion. Si un utilisateur voit ce message, ils ont une des licences bloqués qui leur sont affectées. Si vous voulez les utiliser, les affecter une autre licence d’Office 365.
   
  *« Votre stratégie d’entreprise ne vous permet pas d’utiliser la diffusion de réunion Skype. Vérifiez avec votre administrateur système pour vous assurer que le service est activé et que vous disposez de la bonne licence. »* 
   
@@ -69,3 +69,6 @@ Diffusion de réunion Skype sera bloquée si une des licences utilisateur suivan
 [Présentation de Windows PowerShell et de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   
 [Configurer Skype Entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+
+  
+ 

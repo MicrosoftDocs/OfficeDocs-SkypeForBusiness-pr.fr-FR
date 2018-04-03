@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: ec34b528ed31f78e3c6075f357ff96c702371514
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: c1528d1ec28dd940b5b696dd03f9c389f6d16844
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="code-of-practice-for-the-united-kingdom-uk"></a>Code de bonne pratique pour la (Royaume-Uni)
 
@@ -114,7 +114,7 @@ Un numéroteur Internet, similaire à un virus informatique, est un logiciel pou
   
 ### <a name="phonepayplus"></a>PhonepayPlus
 
-Tous les Fournisseurs de services doivent s'enregistrer auprès de PhonepayPlus, un organisme indépendant approuvé par Ofcom. PhonepayPlus régule les Services à tarif surtaxé et examine les réclamations déposées par les clients. Tous les fournisseurs de Service doivent respecter le Code de PhonepayPlus des pratiques, qui se trouve à [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice). Si un Fournisseur viole le Code de pratique, PhonepayPlus peut :
+Tous les Fournisseurs de services doivent s'enregistrer auprès de PhonepayPlus, un organisme indépendant approuvé par Ofcom. PhonepayPlus régule les Services à tarif surtaxé et examine les réclamations déposées par les clients. Tous les Fournisseurs de services doivent adhérer au Code de pratique de PhonepayPlus, qui figure sur le site [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice). Si un Fournisseur viole le Code de pratique, PhonepayPlus peut :
   
 - Demander à une partie de remédier à une faille
     
@@ -124,7 +124,7 @@ Tous les Fournisseurs de services doivent s'enregistrer auprès de PhonepayPlus,
     
 ### <a name="service-provider-contact-information"></a>Coordonnées des Fournisseurs de services
 
-Pour trouver les informations de contact pour un fournisseur de services, vous pouvez utiliser l’outil de #NumberChecker des PhonepayPlus à [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry). Si vous pensez qu'un Service à tarif surtaxé vous a été facturé à tort, contactez le Fournisseur de services directement.
+Pour trouver les coordonnées d'un Fournisseur de services, vous pouvez utiliser l'outil #NumberChecker de PhonepayPlus, disponible sur le site [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry). Si vous pensez qu'un Service à tarif surtaxé vous a été facturé à tort, contactez le Fournisseur de services directement.
   
 ### <a name="complaints"></a>Réclamations
 
@@ -132,7 +132,7 @@ Si vous souhaitez porter réclamation contre un Fournisseur de services auprès 
   
 - Téléphone : 0300 30 300 20 (09h30 - 17h00 du lundi au vendredi)
     
-- Une enquête en ligne : [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
+- Demande en ligne : [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
     
 ### <a name="dispute-resolution"></a>Résolution des litiges
 
@@ -148,5 +148,3 @@ Les tarifs des Services de traduction nationaux, des Numéros personnels et des 
 ## <a name="related-topics"></a>Rubriques connexes
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).

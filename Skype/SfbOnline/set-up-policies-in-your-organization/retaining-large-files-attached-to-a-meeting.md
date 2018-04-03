@@ -1,5 +1,5 @@
 ---
-title: "En conservant les fichiers volumineux attachés à un Skype pour une réunion d’affaires"
+title: En conservant les fichiers volumineux attachés à un Skype pour une réunion d’affaires
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Vous pouvez joindre des fichiers à un Skype pour une réunion d’affaires, les participants peuvent ensuite ouvrir et téléchargement. Fichiers joints à Skype pour les réunions d’entreprise sont conservés dans les boîtes aux lettres de tout participant à une boîte aux lettres est placée sur Litigation Hold, comporte une stratégie de rétention Office 365 ou est placé sur une suspension associée à un cas d’e-Discovery dans la sécurité pour Microsoft Office 365 &amp; Centre de conformité. Ce contenu est enregistré dans les dossiers des éléments récupérables participants dans leurs boîtes aux lettres."
-ms.openlocfilehash: fb20055106362143b5c4573115e095637d873599
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Vous pouvez joindre des fichiers à un Skype pour une réunion d’affaires, les participants peuvent ensuite ouvrir et téléchargement. Fichiers joints à Skype pour les réunions d’entreprise sont conservés dans les boîtes aux lettres de tout participant à une boîte aux lettres est placée sur Litigation Hold, comporte une stratégie de rétention Office 365 ou est placé sur une suspension associée à un cas d’e-Discovery dans la sécurité pour Microsoft Office 365 &amp; Centre de conformité. Ce contenu est enregistré dans les dossiers des éléments récupérables participants dans leurs boîtes aux lettres.
+ms.openlocfilehash: c2f032a34cc5de604bb5437554add885c29645a0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>En conservant les fichiers volumineux attachés à un Skype pour une réunion d’affaires
 
@@ -44,5 +44,5 @@ Boîtes aux lettres qui ne sont pas en attente n’aura pas de données de réun
 
 [Définir des stratégies de conférence dans votre organisation](set-up-conferencing-policies-for-your-organization.md)
   
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

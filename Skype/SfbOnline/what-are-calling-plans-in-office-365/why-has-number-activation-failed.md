@@ -1,5 +1,5 @@
 ---
-title: "Pourquoi l’activation numérique a échoué ?"
+title: Pourquoi l’activation numérique a échoué ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.NumberActivationStateFailed
 ms.custom:
 - Calling Plans
-description: "La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence."
-ms.openlocfilehash: 45f2d6d93630d4f858fc3531f530ac0f030c5aac
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
+ms.openlocfilehash: 0da05c5cdcc3c0c28d92d44d7433ec1a1abcabce
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-has-number-activation-failed"></a>Pourquoi l’activation numérique a échoué ?
 La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Si pour une raison quelconque, un numéro de téléphone n’est pas activé en raison de la validation de l’adresse, vous devez créer une demande de service. La procédure dépend de la taille de votre organisation.
@@ -104,7 +104,7 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

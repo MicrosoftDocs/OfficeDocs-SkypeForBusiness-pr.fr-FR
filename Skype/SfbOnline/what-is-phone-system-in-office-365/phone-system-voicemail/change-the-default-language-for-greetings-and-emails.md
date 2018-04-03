@@ -1,15 +1,17 @@
 ---
-title: "Modifier la langue par défaut des messages d'accueil et des courriers électroniques"
+title: Modifier la langue par défaut des messages d'accueil et des courriers électroniques
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
+ms.date: 03/13/2018
 ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Découvrez comment configurer Skype Entreprise afin d’utiliser une autre langue pour le message d’accueil vocal par défaut de votre organisation. "
-ms.openlocfilehash: 1c311436ed9010ea20598aac6a55b4806fe18abb
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Découvrez comment configurer Skype Entreprise afin d’utiliser une autre langue pour le message d’accueil vocal par défaut de votre organisation. '
+ms.openlocfilehash: 7b8e289a36c4642f37035158977b677174a8b95b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Modifier la langue par défaut des messages d'accueil et des courriers électroniques
 
@@ -40,10 +42,12 @@ Si vous êtes un [administrateur général d'Office 365](https://support.office
     > Les utilisateurs peuvent modifier leur propre langue du message d'accueil par le biais de leurs paramètres après s'être connectés. 
   
 - **Vous voulez enregistrer un message d'accueil personnel ?** Reportez-vous à la rubrique [Consultation de la messagerie vocale et des options de Skype Entreprise](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
-    
-## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Modifier la langue du système pour l'ensemble des utilisateurs de votre organisation
 
-1. Connectez-vous à l'aide de votre compte [d'administrateur général du portail Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) à l'adresse[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+- **Vous souhaitez modifier la langue invite de messagerie vocale ?** Accédez à [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) et choisir une nouvelle langue sous **Langue d’invite**.
+    
+## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Modification de la langue pour l'ensemble des utilisateurs de votre organisation
+
+1. Connectez-vous à votre compte [d’administrateur global d’Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) à[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
 2. Dans le Centre d'administration, sélectionnez **Paramètres** > **Profil de l'organisation**. 
     
@@ -73,4 +77,5 @@ Si vous êtes un [administrateur général d'Office 365](https://support.office
     
 - [Activer ou modifier la langue de disposition du clavier dans Office](https://support.office.com/en-us/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
-
+  
+ 

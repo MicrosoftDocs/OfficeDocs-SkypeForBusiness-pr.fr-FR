@@ -1,5 +1,5 @@
 ---
-title: "Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays"
+title: Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 - LIL_Placement
-description: "Vous pouvez sélectionner un pays ou une région pour consulter la disponibilité de l'audioconférence, du système téléphonique, des forfaits d'appel, des crédits de communication ainsi que des numéros payants et gratuits."
-ms.openlocfilehash: b332830b2b53637af84a2154d346396e74d55622
-ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
+description: Vous pouvez sélectionner un pays ou une région pour consulter la disponibilité de l'audioconférence, du système téléphonique, des forfaits d'appel, des crédits de communication ainsi que des numéros payants et gratuits.
+ms.openlocfilehash: ee9e98da987d1d1ad78282bb6cd299e33542ad85
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays
 
@@ -202,5 +202,5 @@ Si vous ne configurez pas de crédits de communication, n'attribuez pas une lice
 ## <a name="related-topics"></a>Rubriques connexes
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

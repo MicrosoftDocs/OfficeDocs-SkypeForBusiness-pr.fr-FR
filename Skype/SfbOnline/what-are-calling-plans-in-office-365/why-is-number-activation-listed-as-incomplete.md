@@ -1,5 +1,5 @@
 ---
-title: "Pourquoi l’activation numérique est répertoriée comme incomplète ?"
+title: Pourquoi l’activation numérique est répertoriée comme incomplète ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.NumberActivationStateIncomplete
 ms.custom:
 - Calling Plans
-description: "La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence."
-ms.openlocfilehash: de5228e90e6d3f6d20b67e7fdba14734f10cf05b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
+ms.openlocfilehash: 6297fe3badaf933a62230f51b41066d18c0c04e3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Pourquoi l’activation numérique est répertoriée comme incomplète ?
 
@@ -106,3 +106,6 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
 [Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.UsersCountLimitationWarning
 ms.custom:
 - Setup
-description: "Apprenez à travailler dans les limites de Skype pour l’affichage de l’administrateur Business en ligne des utilisateurs. "
-ms.openlocfilehash: 7f7189536d1c859b25eb6cacb3fc75c57995d464
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Apprenez à travailler dans les limites de Skype pour l’affichage de l’administrateur Business en ligne des utilisateurs. '
+ms.openlocfilehash: 13b5a6f8aa838b7a2ff21b10d488f5569792c385
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Limitations de page Skype pour les utilisateurs de Business Online Administration center
 
@@ -45,5 +45,5 @@ Vous pouvez modifier le nombre d’utilisateurs à afficher sur chaque page avec
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

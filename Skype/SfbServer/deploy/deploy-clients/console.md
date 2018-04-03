@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit l’installation de la console Skype Room Systems v2 et de ses périphériques.
-ms.openlocfilehash: 6ca029fa7f5560dfdfebd789938d9b53ff2e9abc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6e2ec8384387cefd074342abb3da316288af1f0f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configuration d’une console Skype Room Systems v2
  
@@ -70,13 +70,9 @@ Vous devrez désormais appliquer l’image que vous avez créée. Le Tablet PC s
     
 5. Une fois l’installation Windows démarrée, relâchez le bouton de diminution du volume (-).
     
-6. Lorsque le périphérique v2 de systèmes de salle Skype démarre pour la première fois, son comportement dépend de la version de Sysprep.exe est utilisée dans le fichier AutoUnattend.xml (voir l’étape 7 de [préparer l’image d’installation](console.md#Prep_Image)) :
+6. Le système s’arrête une fois l’installation terminée.
     
-   - Si la version /shutdown de la commande est activée, le système procède à l’installation et, éventuellement, à l’arrêt. Une fois arrêté, vous pouvez démarrer sur un support externe contenant Windows PE et utiliser DISM pour installer des packs de langue, appliquer des images, capturer votre image de référence de l’ordinateur ou effectuer d’autres actions..
-    
-   - Si la version /reboot de la commande est activée, le système procède à l’installation et demande éventuellement à l’utilisateur de sélectionner les paramètres locaux. Après avoir effectué cette sélection, le périphérique v2 de systèmes de salle Skype démarre son processus de démarrage initial. Consultez [Configuration initiale de la console ](console.md#Initial).
-    
-Une fois le système éteint ou redémarré, vous pouvez retirer le disque d’installation USB en toute sécurité. À ce stade, vous pouvez placer la tablette dans le dock et connecter les périphériques requis pour votre salle de réunion. Reportez-vous aux instructions de fabricant.
+Une fois que le système est arrêté, il est recommandé à retirer la disquette d’installation USB. À ce stade, vous pouvez placer la tablette dans le dock et connecter les périphériques requis pour votre salle de réunion. Reportez-vous aux instructions de fabricant.
   
  
 ### <a name="selecting-a-language-in-creators-update"></a>Sélection de la langue pour la mise à jour de Creator

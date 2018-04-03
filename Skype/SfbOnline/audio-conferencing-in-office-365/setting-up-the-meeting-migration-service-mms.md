@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Service de Migration (MMS) de réunion est un Skype pour service d’entreprise qui s’exécute en arrière-plan et met automatiquement à jour Skype pour les réunions d’entreprise et Teams de Microsoft pour les utilisateurs. MMS est conçu pour éliminer le besoin pour les utilisateurs d’exécuter l’outil de Migration de réunion mise à jour de leur Skype pour les réunions d’entreprise et Teams de Microsoft."
-ms.openlocfilehash: 0ad7daac2a9edd8c548d97819435563a0643e74a
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: Service de Migration (MMS) de réunion est un Skype pour service d’entreprise qui s’exécute en arrière-plan et met automatiquement à jour Skype pour les réunions d’entreprise et Teams de Microsoft pour les utilisateurs. MMS est conçu pour éliminer le besoin pour les utilisateurs d’exécuter l’outil de Migration de réunion mise à jour de leur Skype pour les réunions d’entreprise et Teams de Microsoft.
+ms.openlocfilehash: 46f7c0223c88b7a4a3aa3a553e14df85ce86835d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Configuration de Meeting Migration Service (MMS)
 
@@ -294,4 +294,4 @@ Pour plus d'informations sur le démarrage de Windows PowerShell, voir [Se conne
     
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing.md)
+[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -1,5 +1,5 @@
 ---
-title: "Personnaliser les invitations aux réunions"
+title: Personnaliser les invitations aux réunions
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.MeetingInvitation
 ms.custom:
 - Setup
-description: "Personnaliser les invitations aux réunions de Skype avec graphiques logos, aide et URL juridiques et texte de pied de page. "
-ms.openlocfilehash: 9d53c59b574cd21333c8749ee2868e918f6bbe6f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Personnaliser les invitations aux réunions de Skype avec graphiques logos, aide et URL juridiques et texte de pied de page. '
+ms.openlocfilehash: 202669b67cb8feb3af7216a2faf9400a014da88e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
@@ -70,6 +70,7 @@ En tant qu’administrateur, vous pouvez vous assurer que tous les Skype pour le
 ## <a name="related-topics"></a>Rubriques connexes
 <a name="__top"> </a>
 
+[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-
+  
+ 

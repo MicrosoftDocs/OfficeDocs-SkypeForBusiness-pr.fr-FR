@@ -1,5 +1,5 @@
 ---
-title: "Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype"
+title: Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,11 +18,11 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 961fc75aec1c01cbee3199c4c576a42e2c626849
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: c9867478474bd344674b1392af4d909931760b8c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype
 
@@ -30,7 +30,7 @@ Avec Skype Entreprise, vos utilisateurs peuvent rechercher et contacter par mess
   
 Pour cela, vous devez disposer [d’autorisations d’administrateur](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) dans Office 365.
   
-1. Connectez-vous à l’aide de votre compte d’administrateur Office 365 à l’adresse [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage).
+1. Connectez-vous à l'aide de votre Office 365 compte d'administrateur sur [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage).
     
 2. Dans le Centre d'administration Office 365, allez dans **Centres d'administration** > **Skype Entreprise**. 
     
@@ -102,5 +102,5 @@ Les contacts Skype connectés avec leur compte Microsoft (anciennement Windows 
   
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

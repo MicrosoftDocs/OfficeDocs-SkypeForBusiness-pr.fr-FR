@@ -1,5 +1,5 @@
 ---
-title: "Gestion des numéros de téléphone pour le Canada"
+title: Gestion des numéros de téléphone pour le Canada
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone au Canada pour Skype Entreprise Online et Microsoft Teams."
-ms.openlocfilehash: aefcda10cc00a3ce24e831c2b6dd5a0b162f7158
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone au Canada pour Skype Entreprise Online et Microsoft Teams.
+ms.openlocfilehash: 149905af1521c4fa9eabb028d5aa80d8bb92729b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="phone-number-management-for-canada"></a>Gestion des numéros de téléphone pour le Canada
 > [!IMPORTANT]
@@ -51,7 +51,7 @@ Vous devez remplacer le numéro d'un utilisateur par un numéro de service.  <br
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

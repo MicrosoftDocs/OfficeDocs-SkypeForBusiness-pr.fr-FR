@@ -1,5 +1,5 @@
 ---
-title: "Définir votre code confidentiel pour le transfert des numéros à un fournisseur de services"
+title: Définir votre code confidentiel pour le transfert des numéros à un fournisseur de services
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Pour transférer ou à un autre fournisseur de services de téléphone ou le transporteur de port des numéros de téléphone de Skype pour professionnels en ligne, vous devez définir manuellement un code confidentiel. Après avoir défini le code confidentiel, vous devez inclure lorsque vous demandez un numéro de téléphone par le port."
-ms.openlocfilehash: 03e2e0ca76ea434e2458f1dec4a236996a19f7aa
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Pour transférer ou à un autre fournisseur de services de téléphone ou le transporteur de port des numéros de téléphone de Skype pour professionnels en ligne, vous devez définir manuellement un code confidentiel. Après avoir défini le code confidentiel, vous devez inclure lorsque vous demandez un numéro de téléphone par le port.
+ms.openlocfilehash: f4ff20f4252686d047b3e9d83cf8beb4b3a9daae
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Définir votre code confidentiel pour le transfert des numéros à un fournisseur de services
 
@@ -73,6 +75,7 @@ Voici certaines des informations spécifiques sur cette broche que vous devez sa
 
 [Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+  
+ 
   
 

@@ -1,5 +1,5 @@
 ---
-title: "Afficher, modifier et réinitialiser l'ID de conférence affecté à un utilisateur"
+title: Afficher, modifier et réinitialiser l'ID de conférence affecté à un utilisateur
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Learn how to assign a conference ID to a user in Skype for Business and what the conference ID''s parameters should be. '
-ms.openlocfilehash: b542e764d0b8b1587c34e78a54612410cd72a3bd
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: "Learn how to assign a conference ID to a user in Skype for Business and what the conference ID's parameters should be. "
+ms.openlocfilehash: 12fe2b0f425f58dca8272f5f0536ba5393b2f76c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="see-change-and-reset-a-conference-id-assigned-to-a-user"></a>Afficher, modifier et réinitialiser l'ID de conférence affecté à un utilisateur
 
@@ -108,7 +108,6 @@ Vous pouvez réinitialiser un ID de conférence d’un utilisateur si, par exemp
     
 - L’ID de conférence pour tous vos utilisateurs de conférence audio sera 7 chiffres par défaut et le nombre de chiffres ne peut pas être modifié.
     
-- Si l’utilisateur est déplacé à partir de Microsoft en tant que le fournisseur de conférence audio à un fournisseur de conférence audio de tiers ou le fournisseur de conférence audio est défini sur **Aucun**, l’ID de conférence ne fonctionneront plus. Reportez-vous à la section [affecter un comme fournisseur de conférence audio tiers](assign-a-third-party-as-the-audio-conferencing-provider.md) ou le [déplacement de fournisseur de conférence audio d’un utilisateur à Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md).
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
@@ -128,5 +127,5 @@ Vous pouvez réinitialiser un ID de conférence d’un utilisateur si, par exemp
     
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing.md)
+[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

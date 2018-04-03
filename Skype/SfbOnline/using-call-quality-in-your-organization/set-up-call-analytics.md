@@ -1,12 +1,12 @@
 ---
-title: "Paramétrer Skype pour Analytique d’appeler commerciale"
+title: Paramétrer Skype pour Analytique d’appeler commerciale
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.date: 01/22/2018
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Configurer et utiliser des Analytique d’appel pour identifier et résoudre les problèmes de Skype pour les problèmes de qualité d’appel Business et Teams de Microsoft."
-ms.openlocfilehash: 81d3f88bf04fa63aaa5857e2056aaf429e7ffcd4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Configurer et utiliser des Analytique d’appel pour identifier et résoudre les problèmes de Skype pour les problèmes de qualité d’appel Business et Teams de Microsoft.
+ms.openlocfilehash: 0169d8e2008ce0d87f4ee666663d4d8ccb71d1b8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Paramétrer Skype pour Analytique d’appeler commerciale
 
@@ -72,7 +72,7 @@ Agents de support technique de niveau 1 traite les problèmes de qualité de l�
     
      ![Capture d’écran montre les autorisations pour la page d’appeler l’Analytique avec les options pour les autorisations de niveau 1 et niveau 2.](../images/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
   
- Les utilisateurs avec un de ces niveaux d’autorisation accéder à appeler l’Analytique via l' URL dédié *https://adminportal.services.skypeforbusiness.com*.
+ Les utilisateurs disposant d’un de ces niveaux d’autorisation accèdent à appeler l’Analytique via l’URL dédié *https://adminportal.services.skypeforbusiness.com*.
   
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Télécharger un fichier .tsv ou .csv pour ajouter la création d’un site et le client les informations
 <a name="BKMK_UploadFiles"> </a>
@@ -91,3 +91,6 @@ Si vous créez le fichier .tsv ou .csv à partir de zéro, voir le [format et la
 [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels Skype Entreprise](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [En quoi l'analyse des appels et le tableau de bord de qualité des appels sont-ils différents ?](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+  
+ 

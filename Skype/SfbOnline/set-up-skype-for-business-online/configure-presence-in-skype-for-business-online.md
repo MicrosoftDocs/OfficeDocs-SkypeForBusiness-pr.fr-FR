@@ -1,5 +1,5 @@
 ---
-title: "Configuration de la présence dans Skype Entreprise Online"
+title: Configuration de la présence dans Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: 65a2281a43b67f718104bddc414693ead50cbfb5
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: ee1bd75326ba758918b647e43d40d571c093d543
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Configuration de la présence dans Skype Entreprise Online
 
@@ -55,5 +55,5 @@ Pour plus d’informations sur ce que vos utilisateurs peuvent modifier dans Sky
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

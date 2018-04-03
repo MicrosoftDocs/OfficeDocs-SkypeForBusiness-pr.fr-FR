@@ -1,5 +1,5 @@
 ---
-title: "Résolution des problèmes audio de conférence et les problèmes connus"
+title: Résolution des problèmes audio de conférence et les problèmes connus
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Obtenir une liste des problèmes connus lors de l’utilisation de Microsoft en tant que son fournisseur de conférences, l’état et des solutions de contournement. "
-ms.openlocfilehash: 6d10e797ef052cafc22555b26a27a1aaeae1fc76
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 'Obtenir une liste des problèmes connus lors de l’utilisation de Microsoft en tant que son fournisseur de conférences, l’état et des solutions de contournement. '
+ms.openlocfilehash: 3748c6f60c04ea34f327eb371ba16f112a124287
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Résolution des problèmes audio de conférence et les problèmes connus
 
@@ -61,4 +61,4 @@ Pour l’instant, l’utiliser comme référence lorsque vous dépannez des prob
    
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing.md)
+[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

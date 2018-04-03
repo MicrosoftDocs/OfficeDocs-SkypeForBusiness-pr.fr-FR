@@ -1,5 +1,5 @@
 ---
-title: "Gérer Skype pour les entreprises commerciales en ligne"
+title: Gérer Skype pour les entreprises commerciales en ligne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: "Utiliser Windows PowerShell et les applets de commande Get-CsTenant et Get-CsTenantLicensingConfiguration pour obtenir des informations sur votre Skype pour clients d’entreprise en ligne."
-ms.openlocfilehash: 6461a15baeed3bf3fde0ee79dc24f7863eaabd02
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Utiliser Windows PowerShell et les applets de commande Get-CsTenant et Get-CsTenantLicensingConfiguration pour obtenir des informations sur votre Skype pour clients d’entreprise en ligne.
+ms.openlocfilehash: 53043fbf623ce2cc7342bf5ac7b32c363927def5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Gérer Skype pour les entreprises commerciales en ligne
 
@@ -48,5 +48,5 @@ Pour savoir si les informations de licence pour le client spécifié sont dispon
 ## <a name="related-topics"></a>Rubriques connexes
 [Configurer votre ordinateur pour Skype pour la gestion d’entreprise en ligne à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

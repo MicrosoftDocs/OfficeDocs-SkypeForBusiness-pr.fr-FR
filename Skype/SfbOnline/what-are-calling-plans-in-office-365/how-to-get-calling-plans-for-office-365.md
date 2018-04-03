@@ -1,5 +1,5 @@
 ---
-title: "Plans d’appel pour Office 365"
+title: Plans d’appel pour Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,11 +26,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 8bf23449421dabcc310bba5792e1b1c8dbb534a1
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 573d8b58c156ec707f88bf4e3ee0d8ac8764e6f3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="calling-plans-for-office-365"></a>Plans d’appel pour Office 365
 
@@ -99,8 +99,6 @@ Voici plusieurs articles qui expliquent comment définir vos Plans d’appel :
 
 - [Configurer Skype Entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Configurer des forfaits d'appels](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
@@ -109,5 +107,5 @@ Voici plusieurs articles qui expliquent comment définir vos Plans d’appel :
     
 - [Configurer le connecteur de nuage](https://technet.microsoft.com/en-us/library/mt605228.aspx) et [Télécharger le connecteur de nuage](https://aka.ms/CloudConnectorInstaller)
   
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

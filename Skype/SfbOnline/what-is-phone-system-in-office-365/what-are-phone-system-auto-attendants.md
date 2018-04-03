@@ -1,5 +1,5 @@
 ---
-title: "Que sont les surveillances du système téléphonique ?"
+title: Que sont les surveillances du système téléphonique ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Découvrez les surveillances automatiques le système téléphonique (PBX nuage) et comment les utiliser. "
-ms.openlocfilehash: 0c2478be3256d63a80263f70a1a70e6f2eaef3b3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Découvrez les surveillances automatiques le système téléphonique (PBX nuage) et comment les utiliser. '
+ms.openlocfilehash: a1253419bdd321efd99a4ea375655d52f154b6ab
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>Que sont les surveillances du système téléphonique ?
 
@@ -271,3 +273,6 @@ Vous pouvez obtenir plus d’informations sur la façon de modifier les paramèt
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](getting-service-phone-numbers.md)
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Qualité des appels Analytique d’appeler utiliser pour résoudre les problèmes de mauvaise Skype pour entreprise"
+title: Qualité des appels Analytique d’appeler utiliser pour résoudre les problèmes de mauvaise Skype pour entreprise
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Analytique d’appeler plus d’informations sur les périphériques, les réseaux et connectivité permet de résoudre les problèmes utilisateur Skype pour les réunions et les appels de l’entreprise."
-ms.openlocfilehash: cbb728c14c58393a5ec71cc538ad958ba58fb947
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Analytique d’appeler plus d’informations sur les périphériques, les réseaux et connectivité permet de résoudre les problèmes utilisateur Skype pour les réunions et les appels de l’entreprise.
+ms.openlocfilehash: b7f900509506433bd2c863fb6c0c33c4f71f2ab5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>Qualité des appels Analytique d’appeler utiliser pour résoudre les problèmes de mauvaise Skype pour entreprise
 
@@ -46,7 +46,7 @@ Consultez votre Skype pour l’administration de l’entreprise, si vous avez be
   
  **Analytique d’appeler ouvert comme un agent de support technique de niveau 1 ou niveau 2**
   
-1. Accédez au centre d’administration Office 365 et vous connecter en utilisant votre compte de travail ou l’école. Dans votre navigateur web passez à *https://adminportal.services.skypeforbusiness.com*.
+1. Accédez au centre d’administration Office 365 et vous connecter en utilisant votre compte de travail ou l’école. Dans votre navigateur web accédez à *https://adminportal.services.skypeforbusiness.com*.
     
 2. **Recherche d’utilisateur**, commencez à taper une adresse sip ou nom de l’utilisateur dont vous souhaitez résoudre les problèmes et puis sélectionnez l’utilisateur dans la liste les appels.
     
@@ -77,5 +77,5 @@ Pour les sessions audio qui n’ont pas la qualité de données d’expérience 
 
 [En quoi l'analyse des appels et le tableau de bord de qualité des appels sont-ils différents ?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

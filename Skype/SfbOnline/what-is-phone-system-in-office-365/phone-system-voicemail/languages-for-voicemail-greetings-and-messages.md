@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Découvrez quelles langues vous pouvez configurer dans Skype Entreprise pour les messages système par défaut. "
-ms.openlocfilehash: bb1a4d1caaf7b2d85fa00804288eadc2588997e1
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+description: 'Découvrez quelles langues vous pouvez configurer dans Skype Entreprise pour les messages système par défaut. '
+ms.openlocfilehash: bcb8f00910c0ce15c0e9a1da6e008bc2008cbfad
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Langues pour les messages d'accueil et les messages de la messagerie vocale
 
@@ -70,5 +70,5 @@ Pour modifier la langue que Skype Entreprise utilise pour les messages d'accuei
 
 [Voici les avantages du système téléphonique dans Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
   
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

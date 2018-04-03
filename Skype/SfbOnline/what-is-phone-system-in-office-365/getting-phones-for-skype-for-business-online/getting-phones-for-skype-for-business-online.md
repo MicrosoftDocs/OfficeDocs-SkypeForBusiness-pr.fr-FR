@@ -1,5 +1,5 @@
 ---
-title: "Obtention de numéros de téléphone pour Skype Entreprise Online"
+title: Obtention de numéros de téléphone pour Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: 3e2bd88c6165e349634cace3ccb68fc5265ac170
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
+ms.openlocfilehash: de220c3ce9ab2fd17fb65589d721f41a7bc0ebb2
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtention de numéros de téléphone pour Skype Entreprise Online
 
@@ -117,5 +117,5 @@ Pour obtenir des instructions de configuration détaillées, consultez la page [
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

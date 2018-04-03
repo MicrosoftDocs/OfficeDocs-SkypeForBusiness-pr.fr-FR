@@ -1,5 +1,5 @@
 ---
-title: "Skype pour la sécurité de mobile application métier"
+title: Skype pour la sécurité de mobile application métier
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Apprenez à configurer la sécurité d’une application mobile pour vos utilisateurs. "
-ms.openlocfilehash: 150eb50c4e2c57b3e51b9400d9fdb79d49990174
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Apprenez à configurer la sécurité d’une application mobile pour vos utilisateurs. '
+ms.openlocfilehash: b3d75f9d5d4dc0b5e9cc76ee9dfd56bf9002ef6d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Skype pour la sécurité de mobile application métier
 
@@ -42,3 +42,6 @@ Cet article contient des informations relatives au chiffrement des données dans
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Diagnostiquer les problèmes de connexion avec le Skype pour Business Connector d’en ligne"
+title: Diagnostiquer les problèmes de connexion avec le Skype pour Business Connector d’en ligne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: "Résoudre les problèmes de création d’une session PowerShell à distance pour se connecter sur Skype pour professionnels en ligne, y compris l’Import-Module, shell simultanée, Live ID et erreurs d’autorisation."
-ms.openlocfilehash: b98acefed673c08f6b986055fafef82847902f1a
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Résoudre les problèmes de création d’une session PowerShell à distance pour se connecter sur Skype pour professionnels en ligne, y compris l’Import-Module, shell simultanée, Live ID et erreurs d’autorisation.
+ms.openlocfilehash: 6a400aa6e3ee201ec65df3e9844cac1e7313f653
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostiquer les problèmes de connexion avec le Skype pour Business Connector d’en ligne
 
@@ -65,7 +65,7 @@ Le Skype pour module de Business Connector d’en ligne peut être exécuté que
   
   - **Erreur**: *le Module d’importation : la version de PowerShell chargé est « 2.0 ». Le module « D:\\Program Files\\fichiers communs\\Microsoft Lync Server 2013\\Modules\\LyncOnlineConnector\\LyncOnlineConnector.psd1' nécessite une version de PowerShell minimale de « 3.0 ». Veuillez vérifier l’installation de PowerShell et essayez à nouveau.*
 
-- **Résolution**: la seule façon de résoudre ce problème est d’installer Windows PowerShell 3.0 qui est disponible dans Microsoft Download Center au [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
+- **Résolution**: la seule façon de résoudre ce problème est d’installer Windows PowerShell 3.0, qui est disponible à partir de Microsoft Download Center au [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
   
 ## <a name="failed-to-connect-to-live-id-server"></a>Impossible de se connecter à Live ID serveur
 <a name="BKMKFailedConnect"> </a>
@@ -83,7 +83,7 @@ Il existe généralement trois raisons pourquoi votre tentative de connexion peu
     Start-Service "msoidsvc"
     ```
 
-    Si le service est en cours d’exécution, vous pouvez rencontrer des problèmes avec la connexion réseau entre votre ordinateur et le serveur de l’authentification Microsoft Live ID. Pour ce faire, ouvrez Internet Explorer et accédez à [https://login.microsoftonline.com/.](https://login.microsoftonline.com/.) Essayez de vous connecter à Office 365 à partir de là. En cas d’échec, vous rencontrez probablement des problèmes de connexion réseau.
+    Si le service est en cours d’exécution, vous pouvez rencontrer des problèmes avec la connexion réseau entre votre ordinateur et le serveur de l’authentification Microsoft Live ID. Pour ce faire, ouvrez Internet Explorer et accédez à [ https://login.microsoftonline.com/.](https://login.microsoftonline.com/.) Essayez de vous connecter à Office 365 à partir de là. En cas d’échec, vous rencontrez probablement des problèmes de connexion réseau.
   
     Moins fréquemment, il est possible que l’URI de connexion pour Microsoft Live ID de l’authentification de serveur a été configuré pour une valeur incorrecte. Si vous avez déjà déterminé que l’Assistant de connexion est en cours d’exécution et que vous ne rencontrez pas de problèmes de connectivité réseau, cela peut être le problème. Dans ce cas, contactez le Support de Office 365.
   
@@ -129,7 +129,7 @@ Pour utiliser PowerShell pour gérer Skype pour professionnels en ligne, la prop
 
 Chaque administrateur est autorisé à un maximum de trois connexions à distance simultanées à Skype pour l’activité en ligne. Si vous avez trois connexions PowerShell distantes des et en cours d’exécution, toute tentative d’effectuer une quatrième simultanées connexion échoue, le message d’erreur suivant :
 
-- **Erreur**: *Nouveau-PSSession : [admin.vdomain.com] connexion à un serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : service de la gestion ne peut pas traiter la demande. Le nombre maximal de shells simultanées pour cet utilisateur a été dépassé. Fermez les environnements existants ou augmenter le quota de cet utilisateur. Pour plus d’informations, consultez la [dépannage à distance de](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **Erreur**: *Nouveau-PSSession : [admin.vdomain.com] connexion à un serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : service de la gestion ne peut pas traiter la demande. Le nombre maximal de shells simultanées pour cet utilisateur a été dépassé. Fermez les environnements existants ou augmenter le quota de cet utilisateur. Pour plus d’informations, consultez la [dépannage à distance] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Résolution**: la seule façon de résoudre ce problème est de fermer une ou plusieurs des connexions précédentes. Lorsque vous avez terminé un Skype pour session Business en ligne, nous vous recommandons d’utiliser l’applet de commande **Remove-PSSession** pour mettre fin à la session. Cela vous aidera à éviter ce problème.
   
@@ -138,10 +138,12 @@ Chaque administrateur est autorisé à un maximum de trois connexions à distanc
 
 Bien que chaque administrateur est autorisé à avoir trois connexions simultanées à un Skype pour clients d’entreprise en ligne, aucun mono-utilisateur n’est autorisé à avoir de plus de neuf connexions simultanées. Par exemple, trois administrateurs peuvent avoir chacun trois sessions ouvertes. Si un administrateur quatrième tente d’établir une connexion (soit un total de 10 connexions simultanées), cette tentative échoue, le message d’erreur suivant :
   
-- **Erreur**: *Nouveau-PSSession : [admin.vdomain.com] connexion à un serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : service de la gestion ne peut pas traiter la demande. Le nombre maximal de shells simultanées pour ce client a été dépassé. Fermez les environnements existants ou augmenter le quota pour ce client. Pour plus d’informations, consultez la [dépannage à distance de](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **Erreur**: *Nouveau-PSSession : [admin.vdomain.com] connexion à un serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : service de la gestion ne peut pas traiter la demande. Le nombre maximal de shells simultanées pour ce client a été dépassé. Fermez les environnements existants ou augmenter le quota pour ce client. Pour plus d’informations, consultez la [dépannage à distance] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Résolution**: la seule façon de résoudre ce problème est de fermer une ou plusieurs des connexions précédentes. Lorsque vous avez terminé un Skype pour session Business en ligne, nous vous recommandons d’utiliser l’applet de commande **Remove-PSSession** pour mettre fin à cette session. Cela vous aidera à éviter ce problème.  
  
 ## <a name="related-topics"></a>Rubriques connexes
 [Configurer votre ordinateur pour Skype pour la gestion d’entreprise en ligne à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
+  
+ 

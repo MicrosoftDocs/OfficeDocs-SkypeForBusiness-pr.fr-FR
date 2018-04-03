@@ -1,5 +1,5 @@
 ---
-title: "Transfert de questions courantes des numéros de téléphone"
+title: Transfert de questions courantes des numéros de téléphone
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Les éléments suivants sont fréquemment posées sur le transfert des numéros de téléphone à Skype pour les entreprises. Après avoir examiné les réponses, vous devez être prêt à créer une commande de port et de transférer vos numéros de téléphone. Voir les numéros de téléphone de transfert vers Office 365 pour obtenir des instructions."
-ms.openlocfilehash: 3fe34a7c38fb8be206b0e3812674255d0593d188
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Les éléments suivants sont fréquemment posées sur le transfert des numéros de téléphone à Skype pour les entreprises. Après avoir examiné les réponses, vous devez être prêt à créer une commande de port et de transférer vos numéros de téléphone. Voir les numéros de téléphone de transfert vers Office 365 pour obtenir des instructions.
+ms.openlocfilehash: ce62365c337d94c05c7ca1b3ff1703cb39086f97
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Transfert de questions courantes des numéros de téléphone
 
@@ -176,7 +176,7 @@ Pour transférer ou *port des* numéros de téléphone à partir de Skype pour e
 
 [Conditions générales relatives aux appels d'urgence](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité relative aux appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

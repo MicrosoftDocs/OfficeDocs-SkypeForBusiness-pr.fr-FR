@@ -1,5 +1,5 @@
 ---
-title: "Gérer les paramètres de l’audioconférence pour un utilisateur"
+title: Gérer les paramètres de l’audioconférence pour un utilisateur
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "En tant qu’un administrateur Office 365, vous pouvez modifier les paramètres Audio conférence, tel que le fournisseur, d’appel payant par défaut numéro gratuit, ID de conférence ou code confidentiel : pour un utilisateur individuel dans votre organisation. Si vous souhaitez modifier les paramètres de votre organisation, voir la conférence Audio de gérer les paramètres de mon organisation."
-ms.openlocfilehash: 47a52e9dc6fd4327e68ad829aea8c77978fe53b5
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 'En tant qu’un administrateur Office 365, vous pouvez modifier les paramètres Audio conférence, tel que le fournisseur, d’appel payant par défaut numéro gratuit, ID de conférence ou code confidentiel : pour un utilisateur individuel dans votre organisation. Si vous souhaitez modifier les paramètres de votre organisation, voir la conférence Audio de gérer les paramètres de mon organisation.'
+ms.openlocfilehash: cf9db4b2191b7b8152dc5c831b098de4143402b9
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user"></a>Gérer les paramètres de l’audioconférence pour un utilisateur
 
@@ -58,8 +58,6 @@ En tant qu’un administrateur Office 365, vous pouvez modifier les paramètres 
    
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Gérer les paramètres d'audioconférence de mon organisation](manage-the-audio-conferencing-settings-for-my-organization.md)
+[Gestion des paramètres d'audioconférence de mon organisation](manage-the-audio-conferencing-settings-for-my-organization.md)
 
-[Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing.md)
-  
 [Questions fréquentes à propos de l'audioconférence](audio-conferencing-common-questions.md)

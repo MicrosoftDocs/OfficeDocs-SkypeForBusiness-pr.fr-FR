@@ -1,5 +1,5 @@
 ---
-title: "Numéros de téléphone pour les conférences Audio"
+title: Numéros de téléphone pour les conférences Audio
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,11 +23,11 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned.
-ms.openlocfilehash: f8eb49a20e3eff89bd7d930c94da3afd872814dc
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: ade506afab015745fa1f7e9c71aa8e636492c04e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="phone-numbers-for-audio-conferencing"></a>Numéros de téléphone pour les conférences Audio
 
@@ -88,4 +88,4 @@ Pour afficher la liste de ces pays/régions qui ont des numéros de téléphone 
    
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing.md)
+[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -1,5 +1,5 @@
 ---
-title: "Rapport d’activité organisateur de la conférence"
+title: Rapport d’activité organisateur de la conférence
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 5765234e4ef4fd931e6b8433bbd4d721cb23421a
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 3c980c7f72113ab1cd013902904405ea981ea560
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="conference-organizer-activity-report"></a>Rapport d’activité organisateur de la conférence
 
@@ -120,5 +120,5 @@ Si les stratégies de votre organisation vous empêche l’affichage des rapport
 ## <a name="related-topics"></a>Rubriques connexes
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

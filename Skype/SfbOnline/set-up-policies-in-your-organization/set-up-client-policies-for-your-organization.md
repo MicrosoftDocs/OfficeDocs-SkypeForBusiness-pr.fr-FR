@@ -1,5 +1,5 @@
 ---
-title: "Définir des stratégies de client pour votre organisation"
+title: Définir des stratégies de client pour votre organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Les stratégies de client permettent d'identifier les fonctionnalités de Skype Entreprise Online mises à la disposition des utilisateurs. Par exemple, vous pouvez octroyer à certains utilisateurs le droit de transférer des fichiers tout en refusant ce droit à d'autres utilisateurs."
-ms.openlocfilehash: 82fa2c828af9aed01652870ea5d3db02ca8248c3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Les stratégies de client permettent d'identifier les fonctionnalités de Skype Entreprise Online mises à la disposition des utilisateurs. Par exemple, vous pouvez octroyer à certains utilisateurs le droit de transférer des fichiers tout en refusant ce droit à d'autres utilisateurs.
+ms.openlocfilehash: 2cf7507e4616d54982d8baaf4388ee5830ae64da
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Définir des stratégies de client pour votre organisation
 
@@ -152,3 +152,6 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de co
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)
 
 [Définir des stratégies de conférence dans votre organisation](set-up-conferencing-policies-for-your-organization.md)
+
+  
+ 

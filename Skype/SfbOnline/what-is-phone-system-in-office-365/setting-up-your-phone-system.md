@@ -1,5 +1,5 @@
 ---
-title: "Configuration de système téléphonique de votre organisation"
+title: Configuration de système téléphonique de votre organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Découvrez comment configurer le système téléphonique (PBX Cloud) pour votre organisation. "
-ms.openlocfilehash: dfecf35e4e10f74adfcb4d237e4f03c72048ed68
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: 'Découvrez comment configurer le système téléphonique (PBX Cloud) pour votre organisation. '
+ms.openlocfilehash: a9715797284f08c3d7f2ecbf3ba45a9269a5e0e0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configuration de système téléphonique de votre organisation
 
@@ -183,11 +183,7 @@ Pour les questions fréquemment posées à propos des conférences de données A
     
     - **Tiers en tant que votre fournisseur de conférence audio**: Si vous êtes dans un pays où la conférence Audio dans Office 365 n’est pas disponible, la qualité de service n’est pas idéale en raison de son emplacement ou vous avez un contrat existant, choisissez un audio tiers fournisseur de la conférence. Pour rechercher un fournisseur, accédez à [Microsoft PinPoint](http://go.microsoft.com/fwlink/?LinkId=797530).
  
-2.  Affectez le fournisseur de conférence audio pour les personnes qui avance ou planifient des réunions. Procédez selon l'une des méthodes suivantes : 
-
-    - [Affectation de Microsoft en tant que le fournisseur de conférence audio](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
-    
-    - [Affecter un comme fournisseur de conférence audio tiers](../audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md).
+2.  Affectez le fournisseur de conférence audio pour les personnes qui avance ou planifient des réunions. Reportez-vous à la section [Affecter de Microsoft en tant que le fournisseur de conférence audio](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
 
 3. Permet de paramétrer des invitations aux réunions. Les étapes suivantes sont facultatives, mais beaucoup d’administrateurs comme les exécuter : 
   
@@ -280,5 +276,5 @@ Vous devez configurer les crédits de Communications, si vous souhaitez utiliser
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

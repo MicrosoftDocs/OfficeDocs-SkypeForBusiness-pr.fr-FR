@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 11cadb26-534d-41db-af6b-1f648edfd907
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,15 +22,15 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
-ms.openlocfilehash: 59463441b6b99b8ad0e7a45c57de6b5d41ace49c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ade701fffc4281110bc3e639ed0c291e27d1e846
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
-Selon le nombre d’emplacements physiques de votre organisation, vous pouvez créer des emplacements d’urgence pour les bâtiments, les sols et les bureaux pour créer une adresse d’urgence plus spécifique. Consultez [Quels sont les emplacements en cas d’urgence, des adresses et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md) pour plus d’informations.
+Selon le nombre d’emplacements physiques de votre organisation, vous pouvez créer des emplacements d’urgence pour les bâtiments, les sols et les bureaux pour créer une adresse d’urgence plus spécifique. Consultez [Quels sont les emplacements en cas d’urgence, des adresses et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md) pour plus d’informations. 
   
 Pour savoir comment obtenir un Plan d’appel et leur coût, consultez [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestionnaire de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -87,3 +89,4 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez [Skype po
 [Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
 
   
+ 

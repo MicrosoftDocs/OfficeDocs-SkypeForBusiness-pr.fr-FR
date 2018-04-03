@@ -1,5 +1,5 @@
 ---
-title: "Apporter des modifications aux paramètres de la diffusion de réunion Skype pour votre organisation"
+title: Apporter des modifications aux paramètres de la diffusion de réunion Skype pour votre organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:
 - SMB
-description: "Vous pouvez activer la diffusion de réunion Skype et apporter des modifications aux paramètres et les stratégies de ces réunions."
-ms.openlocfilehash: b61a03178086699a8b5fc27ebc00f1c6b6f72021
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Vous pouvez activer la diffusion de réunion Skype et apporter des modifications aux paramètres et les stratégies de ces réunions.
+ms.openlocfilehash: 26b5173ad911632a1a36b499e9f617f6848c2345
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Apporter des modifications aux paramètres de la diffusion de réunion Skype pour votre organisation
 
@@ -43,5 +43,5 @@ Vous pouvez activer la diffusion de réunion Skype et apporter des modifications
 
 [Configurer votre réseau pour la diffusion de réunion Skype](set-up-your-network-for-skype-meeting-broadcast.md)
 
-## <a name="feedback"></a>Commentaires ?
-Pour fournir des commentaires sur le produit ou pour nous faire savoir comment nous faisons, consultez [Skype pour les commentaires de l’entreprise](https://www.skypefeedback.com).
+  
+ 

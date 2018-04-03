@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Le nouveau Skype pour zone de rapports d’entreprise Admin Center affiche vous appelant et audio conférence activité dans votre organisation. Il vous permet de vous y plonger le rapports pour vous fournir des informations plus précises sur les activités de chaque utilisateur. Par exemple, vous pouvez utiliser le Skype pour rapport de pools minute Business RTPC pour voir le nombre de minutes consommées au cours du mois en cours au sein de votre organisation."
-ms.openlocfilehash: f0cb22187fe8b791ef143524eeae6b453f89f4f4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Le nouveau Skype pour zone de rapports d’entreprise Admin Center affiche vous appelant et audio conférence activité dans votre organisation. Il vous permet de vous y plonger le rapports pour vous fournir des informations plus précises sur les activités de chaque utilisateur. Par exemple, vous pouvez utiliser le Skype pour rapport de pools minute Business RTPC pour voir le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
+ms.openlocfilehash: 3db3e0394bc7af9394b4b6988bc28fbaa1da42a5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="pstn-minute-pools-report"></a>Rapport de pools minute RTPC
 
@@ -92,4 +92,6 @@ Voici une illustration du rapport.
     
 ## <a name="related-topics"></a>Rubriques connexes
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+
   
+   
