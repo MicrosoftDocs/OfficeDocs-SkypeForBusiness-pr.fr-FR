@@ -1,5 +1,5 @@
 ---
-title: "Configurer la conférence Audio pour Skype entreprise et Teams Microsoft"
+title: Configurer la conférence Audio pour Skype entreprise et Teams Microsoft
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 - LIL_Placement
-description: "Apprenez à configurer les conférences audio ou accès à distance pour les personnes de votre entreprise qui ont besoin de joindre des conférences téléphoniques à l’aide d’un téléphone. "
+description: 'Apprenez à configurer les conférences audio ou accès à distance pour les personnes de votre entreprise qui ont besoin de joindre des conférences téléphoniques à l’aide d’un téléphone. '
 ms.openlocfilehash: 4d82de668ec31f1664fb05202979dd6df94bda2b
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Configurer la conférence Audio pour Skype entreprise et Teams Microsoft
 

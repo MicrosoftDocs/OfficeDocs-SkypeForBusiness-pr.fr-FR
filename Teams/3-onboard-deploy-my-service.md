@@ -11,13 +11,15 @@ description: Téléchargez le manuel d’activation de Site pour planifier votre
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ddccd9c52e25ae9d0069119641aa7e8a8077d56
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: f59b7568f5ec0d3d9b6ef3b04f4094b222d0702b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="deploy-my-service"></a>Déployer mon service
+
+Cet article donne une vue d’ensemble de la configuration requise pour le déploiement des services en nuage voix correctement. En suivant les conseils pour le déploiement de services de téléphonie de nuage, vous pouvez vous assurer vous avec succès toutes les exigences de compte et fournir des résultats répétables.
 
 ## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Manuel de prise en charge de site pour les charges de travail Teams de Microsoft voice
 

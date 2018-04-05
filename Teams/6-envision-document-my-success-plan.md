@@ -11,13 +11,15 @@ description: Choisissez un modèle de déploiement, développer une matrice (RAC
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8352608eca00062ed2b8dbdce4682e7bdd437351
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 70ed024e606e7419a5cd2645cb60ef487fa72982
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="document-my-success-plan"></a>Mon plan de réussite de documents
+
+Cet article donne une vue d’ensemble de la configuration requise pour documenter correctement votre déploiement vocal de nuage. En définissant et en documentant tous les points de décision et les étapes suivantes lors de la planification de votre déploiement de voix de nuage, vous pouvez vous assurer toutes les parties prenantes et membres de l’équipe sont alignés sur la fourniture des résultats. 
 
 ## <a name="execution-planning"></a>Exécution de la planification 
 

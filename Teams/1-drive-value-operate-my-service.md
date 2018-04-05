@@ -11,13 +11,15 @@ description: Les tâches et activités requises pour la gestion des équipes ser
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f8abb573203bcb3f0292604c3b439f5903aa221
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 308ca6bd3ea0dcd847756392d8db721b48aa8d08
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="operate-my-service"></a>Utiliser mon service
+
+Cet article donne une vue d’ensemble de la configuration requise pour l’exploitation avec succès les services vocaux de cloud pour votre organisation. Par vos services de voix de nuage de fonctionnement correctement, vous saurez que vous fournissez une expérience de haute qualité et fiable pour votre organisation.
 
 ## <a name="introduction-to-the-operations-guide"></a>Introduction au Guide d’exploitation
 

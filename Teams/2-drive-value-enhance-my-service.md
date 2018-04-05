@@ -11,13 +11,15 @@ description: Évaluer régulièrement les opportunités pour améliorer le servi
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00fa4db5a2e25cf2a258f85328653f6a28f476d5
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 0c10f4da1c6619ae0f17976a8039c2a77eaadab6
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="enhance-my-service"></a>Améliorer mon service
+
+Cet article donne une vue d’ensemble de la configuration requise pour obtenir le meilleur parti de cloud services vocaux pour votre organisation. En analysant en permanence les capacités de service cloud voix, vous pouvez être sûr que vous fournit le plus de valeur pour votre organisation.
 
 ## <a name="enhance-my-service-overview"></a>Améliorer la présentation de mon service
 Une fois que vous avez déployé avec succès audioconférence ou système téléphonique avec les Plans d’appel de services dans votre organisation et utilisez le service avec la qualité et la fiabilité, l’étape suivante consiste à évaluer régulièrement la si vous avez de possibilités de se améliorer vos services.

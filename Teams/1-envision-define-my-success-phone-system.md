@@ -11,17 +11,15 @@ description: Mesurer les résultats de votre système téléphonique avec appel 
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9883fb04c70d07a0249d2390b894bba3d491ec04
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 23e471e7917ee188d0c4e601a59c53087ad2f9e0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="define-my-success"></a>Définir ma réussite
 
-## <a name="introduction"></a>Introduction
-
-Ce contenu fournit une vue d’ensemble de la configuration requise pour la définition correcte de la réussite du déploiement du système téléphonique avec appel de Plans pour votre organisation. En définissant correctement votre réussite, vous pouvez mesurer les résultats de la mesure que vous avancez dans votre déploiement et vérifier que les résultats que vous obtenez sont les résultats que vous souhaitez.
+Cet article donne une vue d’ensemble de la configuration requise pour définir la réussite du déploiement du système téléphonique avec appel de Plans pour votre organisation. En définissant correctement les succès ressemble à, vous pouvez mesurer les résultats de la mesure que vous avancez dans votre déploiement et vérifier que les résultats que vous obtenez sont ceux que vous le souhaitez.
 
 <!--ENDOFSECTION-->
 

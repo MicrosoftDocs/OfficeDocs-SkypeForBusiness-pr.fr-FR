@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Découvrez comment sélectionner les langues de surveillance automatique audioconférence pour un numéro d’audioconférence.
-ms.openlocfilehash: e7c4adb2129a737ec34e5641a9724bdab665cd23
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 4cd40a54c90559d3886b737b8e9f66f02346358f
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Définir les langues du standard automatique pour les conférences Audio
 
@@ -39,22 +39,33 @@ Choisir une langue principale et jusqu'à quatre langues secondaires. La langue 
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir la conférence langues de surveillance automatique
 
+**À l’aide de Skype les équipes Microsoft pour Business Admin Center**
+
+1. Dans la navigation de gauche, accédez à des **réunions** > **Les ponts de conférence**.
+
+2. Sélectionnez le numéro de téléphone de conférence audio à partir de la liste, puis en haut de la page, cliquez sur **Modifier**.
+
+3. Dans le volet de droite, choisissez la langue par défaut et les autres langues. 
+ 
+    > [!NOTE]
+    > Les autres langues prises en charge par défaut sont répertoriées. L’ordre dans lequel vous les sélectionnez dans les listes sera l’ordre des langues présentée aux appelants. 
+
+4. Cliquez sur **Appliquer**.
+
+**À l’aide de Skype pour les entreprises en ligne**
+
 Vous devez être un [administrateur global de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou un [Skype pour l’administrateur d’entreprise](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) pour effectuer cette étape.
-  
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+1. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **l’audioconférence**, puis cliquez sur **pont de Microsoft**.
     
-3. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **l’audioconférence**, puis cliquez sur **pont de Microsoft**.
+2. Sélectionnez le numéro de téléphone de conférence audio à partir de la liste et dans le volet Actions, cliquez sur **langues**. 
     
-4. Sélectionnez le numéro de téléphone de conférence audio à partir de la liste et dans le volet Actions, cliquez sur **langues**. 
-    
-5. Dans la page **définir les langues** , cliquez sur la liste **langue principale** pour afficher la liste complète des langues disponibles. Si vous le souhaitez, cliquez sur chacune des listes de **langues secondaires** pour sélectionner la langue secondaire.
+3. Dans la page **définir les langues** , cliquez sur la liste **langue principale** pour afficher la liste complète des langues disponibles. Si vous le souhaitez, cliquez sur chacune des listes de **langues secondaires** pour sélectionner la langue secondaire.
     
     > [!NOTE]
     > La langue principale et les langues secondaires prises en charge sont répertoriées. L’ordre dans lequel vous les sélectionnez dans les listes sera l’ordre des langues présentée aux appelants. 
   
-6. Cliquez sur **Enregistrer**.
+4. Cliquez sur **Enregistrer**.
     
 ## <a name="want-else-should-i-know"></a>Informations supplémentaires
 

@@ -3,7 +3,7 @@
 
 ## [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## Audioconférence dans Office 365 
+## [Audioconférence dans Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md)  
 ### [Affecter Microsoft comme fournisseur de services d'audioconférence](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Questions fréquentes à propos de l'audioconférence](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [Langues prises en charge pour l'audioconférence](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -26,6 +26,7 @@
 ### [Afficher une liste d'utilisateurs pour lesquels l'audioconférence est activée](../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)
 ### [Envoyer à un utilisateur un message électronique qui contient ses informations de connexion](../audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information.md)
 ### [Définir la longueur de code confidentiel pour les réunions d'audioconférence](../audio-conferencing-in-office-365/set-the-PIN-length-for-audio-conferencing-meetings.md)
+### [Configurer l'audioconférence](../audio-conferencing-in-office-365//set-up-audio-conferencing.md)
 ### [Définir les langues du standard automatique](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)
 ### [Définir les numéros de téléphone inclus dans les invitations](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)
 ### [Configuration de Meeting Migration Service (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)

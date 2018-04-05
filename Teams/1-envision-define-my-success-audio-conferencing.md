@@ -11,17 +11,15 @@ description: Mesurer les résultats de votre déploiement d’audioconférence e
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b0b40dd3b8a034d655a14e0dd905f8a9a3c0ec
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 80af34d827ecc1646e85f7a8db4593dbf446ed30
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="define-my-success"></a>Définir ma réussite
 
-## <a name="introduction"></a>Introduction
-
-Ce contenu fournit une vue d’ensemble de la configuration requise pour la définition correcte de la réussite du déploiement des services de conférence Audio pour votre organisation. En définissant correctement votre réussite, vous pouvez mesurer les résultats de la mesure que vous avancez dans votre déploiement et vérifier que les résultats que vous obtenez sont les résultats que vous souhaitez.
+Cet article donne une vue d’ensemble de la configuration requise pour définir la réussite du déploiement des services de conférence Audio pour votre organisation. En définissant correctement les succès ressemble à, vous pouvez mesurer les résultats de la mesure que vous avancez dans votre déploiement et vérifier que les résultats que vous obtenez sont ceux que vous le souhaitez.
 
 <!--ENDOFSECTION-->
 

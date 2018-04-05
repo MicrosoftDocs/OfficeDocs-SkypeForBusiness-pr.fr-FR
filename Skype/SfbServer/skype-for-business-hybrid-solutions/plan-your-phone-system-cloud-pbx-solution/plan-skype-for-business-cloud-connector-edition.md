@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenez des informations sur la version Cloud Connector de Skype Entreprise, un ensemble de machines virtuelles (VM) qui met en œuvre une connectivité PSTN locale avec un système téléphonique d'Office 365 (Cloud PBX).
-ms.openlocfilehash: f69becbd25ad00ca4353c0b287f2abcc43bdecfd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5c175a09a83d8fb5fe3267329c63075b450a9b1f
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planification pour Skype Entreprise, version Cloud Connector
  
@@ -412,9 +412,8 @@ Dans ce cas tous les supports du point de terminaison dans internet circulent di
 
 L’ordinateur hôte doit être en mesure d’atteindre des ressources externes pour installer, mettre à jour et gérer avec succès les connecteur de nuage. Le tableau suivant indique les destinations et ports nécessaires entre l’ordinateur hôte et les ressources externes. 
   
-||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Direction  <br/> |Adresse IP source  <br/> |Adresse IP de destination  <br/> |Port source  <br/> |Port de destination  <br/> |Protocole  <br/> |Objectif  <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Sortant  <br/> |Nuage connecteur HIPS  <br/> |indifférente  <br/> |indifférente  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Sortant  <br/> |Nuage connecteur HIPS  <br/> |indifférente  <br/> |indifférente  <br/> |80, 443  <br/> |TCP  <br/> |Liste de révocation de certificats (CRL)  <br/> |
 |Sortant  <br/> |Hôte de Connectorr de nuage IPs  <br/> |indifférente  <br/> |indifférente  <br/> |80, 443  <br/> |TCP  <br/> |Mise à jour du connecteur de nuage  <br/> Skype Entreprise Online  <br/> Administrateur PowerShell  <br/> Windows Update  <br/> |

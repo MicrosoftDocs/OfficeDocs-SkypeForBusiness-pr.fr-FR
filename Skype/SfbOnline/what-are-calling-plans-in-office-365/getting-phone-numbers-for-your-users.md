@@ -22,21 +22,23 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: 94d68c9caa11057393be66ca38c465f39fad9d7a
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: dc75a47f9e2de6c124675b4ae2cd9f3a9ff17036
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
 [] Avant d'autoriser les utilisateurs de votre organisation à passer et à recevoir des appels téléphoniques, vous devez obtenir vos numéros de téléphone par l'entremise du centre d'administration de Skype Entreprise.
   
-Vous pouvez obtenir des numéros de deux façons différentes pour vos utilisateurs :
-  
-- Obtenir de nouveaux numéros à l'aide du centre d'administration de Skype Entreprise
+Il existe trois façons d’obtenir de nouveaux numéros d’utilisateur :
+
+- **Utilisez le Skype pour le centre d’administration commerciale.** Pour certains pays ou certaines régions, vous pouvez obtenir les numéros de vos utilisateurs à l’aide de la Skype pour le centre d’administration Business, consultez [obtenir les numéros de téléphone pour vos utilisateurs.](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md).
     
-- Transfert de vos numéros existants du fournisseur de services ou de l'opérateur de téléphonie actuel.
+- **Port vos numéros existants.** Vous pouvez le port ou transférer des numéros existants de votre opérateur de téléphonie ou votre fournisseur de service actuel vers Office 365. Consultez le [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md) ou [gérer des numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour plus d’informations pour vous aider à effectuer cette opération.  
+  
+- **Utilisez un formulaire de demande de nouveaux numéros.** Parfois (en fonction de votre pays/région) vous ne pourrez pas obtenir vos numéros de téléphone de nouveau à l’aide de la Skype pour le centre d’administration Business, ou vous devez les numéros de téléphone spécifiques ou des codes de zone. Dans ce cas, vous devez télécharger un formulaire et nous le renvoyer. Pour plus d’informations, voir [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
     
 Vous devez utiliser la page **Nouveaux numéros** pour afficher, rechercher et acquérir ces numéros. Vous pouvez effectuer une recherche par **Pays/Région,** **État** et par **Ville**, puis entrer le nombre de numéros de téléphone dont vous aurez besoin pour vos utilisateurs.
   

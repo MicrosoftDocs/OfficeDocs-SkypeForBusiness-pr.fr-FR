@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Résumé : Passez en revue les considérations de simples URL dans cette rubrique avant d’implémenter des enregistrements DNS pour Skype pour Business Server 2015.'
-ms.openlocfilehash: 989ea4f518c1917311759158bbe29355f400138b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 87346a7c4c03837e5ebfdf0143cdb7c786f0e43b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server-2015"></a>Configuration DNS requise pour simples URL dans Skype pour Business Server 2015
  
@@ -63,9 +63,8 @@ Si vous utilisez cette option, vous avez besoin un enregistrement A DNS distinct
   
 **Option d’attribution de noms URL simple 1**
 
-|||
-|:-----|:-----|
 |**URL simple** <br/> |**Exemple** <br/> |
+|:-----|:-----|
 |Meet  <br/> |https://meet.contoso.com, https://meet.fabrikam.com, et ainsi de suite (un pour chaque domaine SIP de votre organisation)  <br/> |
 |Rendez-vous  <br/> |https://dialin.contoso.com  <br/> |
 |Admin  <br/> |https://admin.contoso.com  <br/> |
@@ -74,9 +73,8 @@ Avec l’Option 2, URL simples sont basés sur le nom de domaine SfB2015.contoso
   
 **Option d’attribution de noms URL simple 2**
 
-|||
-|:-----|:-----|
 |**URL simple** <br/> |**Exemple** <br/> |
+|:-----|:-----|
 |Meet  <br/> |https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet, et ainsi de suite (un pour chaque domaine SIP de votre organisation)  <br/> |
 |Rendez-vous  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |Admin  <br/> |https://SfB2015.contoso.com/Admin  <br/> |
@@ -85,9 +83,8 @@ L’option 3 est particulièrement utile si vous possédez plusieurs domaines SI
   
 **Option d’attribution de noms URL simple 3**
 
-|||
-|:-----|:-----|
 |**URL simple** <br/> |**Exemple** <br/> |
+|:-----|:-----|
 |Meet  <br/> |https://SfB2015.contoso.com/contosoSIPdomain/Meet  <br/> https://SfB2015.contoso.com/fabrikamSIPdomain/Meet  <br/> |
 |Rendez-vous  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |Admin  <br/> |https://SfB2015.contoso.com/Admin  <br/> |

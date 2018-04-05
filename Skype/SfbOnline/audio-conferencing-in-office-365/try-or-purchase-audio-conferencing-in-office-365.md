@@ -23,11 +23,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Voir comment essayer ou acheter des licences d’Audio conférence (conférence PSTN) pour Office 365 organiser des conférences téléphoniques et que les utilisateurs peuvent se connecter. '
-ms.openlocfilehash: 1dda3a2ecc24e512e9d614b42292233471525805
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: eec26ca81cf9ee29d0d341720c2fdb353038a1e1
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365"></a>Essayez ou achetez audioconférence dans Office 365
 
@@ -75,10 +75,7 @@ Si vous êtes un client de Volume et de la gestion des licences, vous pouvez obt
   
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Étape 2 : Définir le fournisseur de conférence audio pour les personnes qui avance ou planifient des réunions
 
-Lorsque vous attribuez une licence **d’Audio conférence** pour les personnes de votre organisation qui avance ou planifier des réunions, ils sont tous haut et prête à fonctionner ! (Vous n’avez pas à définir leur fournisseur de conférence audio.) 
-  
-> [!NOTE]
-> Si vous souhaitez utiliser un ACP tiers, choisissez **audioconférence** > **pont de Microsoft**. Au bas de la page, cliquez sur **Si vous souhaitez configurer un fournisseur de services d'audioconférence tiers, cliquez ici**. 
+Lorsque vous attribuez une licence **d’Audio conférence** pour les personnes de votre organisation qui avance ou planifier des réunions, ils sont tous haut et prête à fonctionner ! (Vous n’avez pas à définir leur fournisseur de conférence audio.)  
   
 ## <a name="step-3-other-admin-tasks"></a>Étape 3 : Autres tâches d’administration
 

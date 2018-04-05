@@ -1,5 +1,5 @@
 ---
-title: "Activer ou désactiver les annonces d'entrée et de sortie des réunions"
+title: Activer ou désactiver les annonces d'entrée et de sortie des réunions
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: ca109a1e6a1538c6561e8f5a6e29bd0f70cf5efe
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: 0e15116061d35af39e8010c8e079395aaa7c4a8b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Activer ou désactiver les annonces d'entrée et de sortie des réunions
 
@@ -36,19 +36,31 @@ Le pont de conférence répond à un appel d’un utilisateur qui appelle à une
   
 ## <a name="setting-meeting-join-options"></a>Définir les options de participation à une réunion
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+**À l’aide de Skype les équipes Microsoft pour Business Admin Center**
+
+1. Dans la navigation de gauche, accédez à des **réunions** > **Les ponts de conférence**. 
+
+2. En haut de la page de **Ponts de conférence** , cliquez sur **Paramètres du pont**. 
+
+3. Dans le volet **paramètres du pont** , activer ou désactiver **Activer l’accès à la réunion et de quitter des notifications pour être activée**. Cette fonctionnalité est sélectionnée par défaut. Si vous le désactivez, les utilisateurs qui ont déjà joint la réunion ne serez pas avertis lorsque quelqu'un entre ou quitte la réunion.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+4. Sous **type d’annonce d’entrée et de sortie**, sélectionnez **les noms ou les numéros de téléphone** ou des **tonalités**.
     
-3. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **paramètres de pont de Microsoft**.
+5. Activer ou désactiver des **appelants de demander d’enregistrer leur nom avant de rejoindre la réunion**.
     
-4. Sous **l’expérience de jointure de la réunion**, activez ou désactivez **Activer l’accès à la réunion et de quitter des notifications pour être activée**. Cette fonctionnalité est sélectionnée par défaut. Si vous le désactivez, les utilisateurs qui ont déjà joint la réunion ne serez pas avertis lorsque quelqu'un entre ou quitte la réunion.
+6. Après avoir apporté vos modifications, cliquez sur **Appliquer**.
+
+Le Centre d'administration Skype Entreprise ou Windows PowerShell permet d'activer ou de désactiver l'envoi de courrier électronique aux utilisateurs.
     
-5. Sous **type d’annonce d’entrée et de sortie**, sélectionnez **les noms ou les numéros de téléphone** ou des **tonalités**.
+1. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **paramètres de pont de Microsoft**.
     
-6. Activez ou désactivez des **appelants de demander d’enregistrer leur nom avant de rejoindre la réunion**.
+2. Sous **l’expérience de jointure de la réunion**, activez ou désactivez **Activer l’accès à la réunion et de quitter des notifications pour être activée**. Cette fonctionnalité est sélectionnée par défaut. Si vous le désactivez, les utilisateurs qui ont déjà joint la réunion ne serez pas avertis lorsque quelqu'un entre ou quitte la réunion.
     
-7. Une fois que vous avez effectué vos modifications, cliquez sur **Enregistrer**.
+3. Sous **type d’annonce d’entrée et de sortie**, sélectionnez **les noms ou les numéros de téléphone** ou des **tonalités**.
+    
+4. Activez ou désactivez des **appelants de demander d’enregistrer leur nom avant de rejoindre la réunion**.
+    
+5. Une fois que vous avez effectué vos modifications, cliquez sur **Enregistrer**.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 

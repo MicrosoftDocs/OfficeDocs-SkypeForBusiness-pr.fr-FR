@@ -11,13 +11,15 @@ description: Choisissez les applications client équipes, le plan de la qualité
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d15d000098a1970c7e3f471d6fec8be202f26ae
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 866395a4dd58016c0989ec4b34f602877251d021
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-my-users-experience"></a>Plan d’expérience de mes utilisateurs
+
+Cet article donne une vue d’ensemble de la configuration requise pour identifier correctement les éléments de votre déploiement des services cloud voix qui affectent directement d’expérience de vos utilisateurs. En préparant pour ces éléments avant le déploiement, vous augmentez vos chances d’avec succès en fournissant une expérience de haute qualité et fiable pour les utilisateurs. 
 
 ## <a name="client-deployment"></a>Déploiement du client
 

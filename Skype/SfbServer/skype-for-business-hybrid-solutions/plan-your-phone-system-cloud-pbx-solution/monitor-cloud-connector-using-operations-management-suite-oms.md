@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lisez cette rubrique pour savoir comment surveiller votre version de connecteur de nuage 2.1 et d’un déploiement ultérieur à l’aide de Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 5e03504f27eadbb235c1b5c84e8c7a19d66aea7d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8cb454cfcb61bb11e0545ab5ff7dd45d1403ce55
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Surveiller le connecteur Cloud à l’aide de la Suite de gestion des opérations (OMS)
  
@@ -221,9 +221,8 @@ Pour identifier les problèmes avec les journaux des événements et des compteu
     
 Le tableau suivant répertorie les services que Microsoft vous recommande de surveillance en répertoriant les ID d’événement arrêter et démarrer :
   
-|||||
-|:-----|:-----|:-----|:-----|
 |Nom du service  <br/> |Rôle du serveur cible  <br/> |Arrêter l’ID d’événement  <br/> |ID de l’événement de début  <br/> |
+|:-----|:-----|:-----|:-----|
 |RTCMEDSRV  <br/> |Serveur de médiation  <br/> |25003  <br/> |25002  <br/> |
 |RTCSRV  <br/> |Serveur Edge  <br/> |12289  <br/> |12288  <br/> |
 |RTCMRAUTH  <br/> |Serveur Edge  <br/> |19003  <br/> |19002  <br/> |
@@ -231,9 +230,8 @@ Le tableau suivant répertorie les services que Microsoft vous recommande de sur
    
 Le tableau suivant répertorie les problèmes de réseau, Microsoft vous recommande de surveillance :
   
-||||||
-|:-----|:-----|:-----|:-----|:-----|
 |Nom du moniteur  <br/> |Rôle du serveur cible  <br/> |Expression de l’ID d’événement de réussite  <br/> |Expression de l’ID d’événement d’erreur  <br/> |Exemple de défaillance  <br/> |
+|:-----|:-----|:-----|:-----|:-----|
 |Serveur de médiation pour Échec de connectivité de passerelle  <br/> |Serveur de médiation  <br/> |25062 || 25002  <br/> |25061  <br/> |Échec de MS PING (option) passerelle  <br/> |
 |Serveur de médiation pour passerelle appeler Échec d’achèvement  <br/> |Serveur de médiation  <br/> |25064 || 25002  <br/> |25063  <br/> |Échec de MS, essayez de faire appel à la passerelle  <br/> |
 |Problèmes réseau critiques.  <br/> |Serveur Edge  <br/> |14353 || 12288  <br/> |14624  <br/> |Le transport TLS n’a pas pu démarrer sur l’adresse IP locale 192.168.231.14 sur le port 5061  <br/> |

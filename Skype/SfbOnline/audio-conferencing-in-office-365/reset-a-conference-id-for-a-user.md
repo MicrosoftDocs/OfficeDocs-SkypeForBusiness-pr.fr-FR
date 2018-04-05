@@ -1,5 +1,5 @@
 ---
-title: "Réinitialiser l'ID de conférence d'un utilisateur"
+title: Réinitialiser l'ID de conférence d'un utilisateur
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 6e12242c-55f7-4bf4-90d7-0f36c0326b8e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Learn the steps to reset a user''s meeting conference ID, and get links to meeting update and migration tools. '
-ms.openlocfilehash: ba76f3afb5d92dadc66d09e07aa16d3589f57e4d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
+ms.openlocfilehash: 6cc73876d188f1ae00ec267e14af4771ded7b957
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>Réinitialiser l'ID de conférence d'un utilisateur
 
@@ -39,16 +41,24 @@ ID de conférence sont définies uniquement automatiquement uniquement pour Skyp
   
 ## <a name="resetting-the-conference-id-for-a-user"></a>Réinitialisation de l’ID de conférence pour un utilisateur
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+**À l’aide de Skype les équipes Microsoft pour Business Admin Center**
+
+1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+
+2. En haut de la page, cliquez sur **Modifier**.
+
+3. Cliquez sur le menu en regard de **Ponts de conférence**, puis cliquez sur **Réinitialiser l’id de la conférence** dans la liste déroulante.
+
+2. Dans la fenêtre **Réinitialiser l’id de la conférence** , cliquez sur **Ok**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Par défaut, les e-mails sont envoyés aux utilisateurs, mais cela peut être désactivée.   
+
+Le Centre d'administration Skype Entreprise ou Windows PowerShell permet d'activer ou de désactiver l'envoi de courrier électronique aux utilisateurs.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+1. Dans le **Skype pour Business admin center**, cliquez sur **les conférences Audio** > **les utilisateurs**, sélectionnez un utilisateur, puis cliquez sur **Réinitialiser**dans le volet Actions, sous **ID de conférence** .
     
-3. Dans le **Skype pour Business admin center**, cliquez sur **les conférences Audio** > **les utilisateurs**, sélectionnez un utilisateur, puis cliquez sur **Réinitialiser**dans le volet Actions, sous **ID de conférence** .
+2. Dans le **Réinitialiser l’ID de conférence ?** la fenêtre, cliquez sur **Oui**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Par défaut, les e-mails sont envoyés aux utilisateurs, mais cela peut être désactivée.
     
-4. Dans le **Réinitialiser l’ID de conférence ?** la fenêtre, cliquez sur **Oui**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Par défaut, les e-mails sont envoyés aux utilisateurs, mais cela peut être désactivée.
-    
-    > [!NOTE]
-    > Une fois l'ID de conférence réinitialisé, un message électronique contenant le nouvel ID de conférence est envoyé à l'utilisateur. Ce message électronique est envoyé à son adresse électronique principale, généralement la boîte aux lettres Office 365. Le message électronique contient le nouvel ID de conférence, le ou les numéros de téléphone et les instructions d'utilisation de l'outil de mise à jour des réunions Skype Entreprise pour mettre à jour les réunions existantes. 
+> [!NOTE]
+> Une fois l'ID de conférence réinitialisé, un message électronique contenant le nouvel ID de conférence est envoyé à l'utilisateur. Ce message électronique est envoyé à son adresse électronique principale, généralement la boîte aux lettres Office 365. Le message électronique contient le nouvel ID de conférence, le ou les numéros de téléphone et les instructions d'utilisation de l'outil de mise à jour des réunions Skype Entreprise pour mettre à jour les réunions existantes. 
   
 ## <a name="what-else-should-i-know"></a>Informations supplémentaires
 

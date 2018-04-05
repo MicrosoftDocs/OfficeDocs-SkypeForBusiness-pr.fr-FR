@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode contient l’arborescence d’objets (avec les nœuds de catégorie ou de la salle de conversation) comme géré dans le panneau de commande et des applets de commande d’administration.
-ms.openlocfilehash: b743453225fda70db18a7bc616a5f7b647d5ebff
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0b5e752856272ad7021666822694cd27bb3660ee
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="tblnode"></a>tblNode
  
@@ -34,7 +34,6 @@ tblNode contient l’arborescence d’objets (avec les nœuds de catégorie ou d
 |connecté  <br/> |bit  <br/> | Pour les catégories : <br/>  True si l’historique de conversation. <br/>  False si l’historique de conversation est désactivée. <br/>  Pour les salles : <br/>  Valeur null. <br/> |
 |filePost  <br/> |bit  <br/> | Pour les catégories : <br/>  True si les téléchargements de fichiers sont autorisés. <br/>  False si les téléchargements de fichiers ne sont pas autorisées. <br/>  Pour les salles : <br/>  Valeur null. <br/> |
 |désactivé  <br/> |bits, non null  <br/> |True si la salle de conversation est désactivée. S’applique uniquement aux salles de conversation. (False pour les catégories).  <br/> |
-|||
 |comportement  <br/> |smallint, non null  <br/> | Comportement (recherché dans la table de EnumValue) : <br/>  4 : Normal (salles de conversation normales). <br/>  5 : auditorium (salles de conversation auditorium, uniquement les présentateurs peuvent contribuer). <br/>  S’applique uniquement aux salles de conversation. <br/> |
 |visibilité  <br/> |smallint, non null  <br/> | Visibilité (recherchée sur EnumValue table) : <br/>  2 : privé <br/>  3 : portée <br/>  6 : ouverture <br/>  S’applique uniquement aux salles de conversation. <br/> |
 |siopID  <br/> |GUID  <br/> |Complément GUID si un complément est associé à cette salle de conversation. (Catégories n’ont pas de modules complémentaires).  <br/> Les informations de complément sont recherchées dans le tableau de SiopWhiteList.  <br/> |

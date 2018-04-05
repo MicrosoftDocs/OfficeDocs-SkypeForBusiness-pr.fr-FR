@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Découvrez comment prendre en charge la résilience vocale dans Skype pour Business Server Voix Entreprise, à des sites centraux et de succursales. Options de site de succursale incluent le déploiement Survivable Branch Appliances ou Survivable Branch Servers.
-ms.openlocfilehash: a4ce7e01ef93ef7bfca2357b65b315b4be5c6781
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4303df46b7430ec8a7e3891baec7f9ff99d85480
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>Planification de la résilience de Voix Entreprise dans Skype Entreprise Server 2015
  
@@ -87,9 +87,8 @@ Les conditions préalables et recommandations suivantes, relatives à l’implé
 
 Skype pour Business Server repose sur les composants d’infrastructure et de logiciels suivants afin de garantir la résilience vocale :
   
-|||
-|:-----|:-----|
 |**Composant** <br/> |**Fonction** <br/> |
+|:-----|:-----|
 |DNS  <br/> |Résolution des enregistrements SRV et des enregistrements A pour la connectivité serveur-serveur et serveur-client  <br/> |
 |Exchange et services web Exchange (EWS)  <br/> |Stockage des contacts ; données de calendrier  <br/> |
 |Messagerie unifiée Exchange et services web Exchange  <br/> |Journaux des appels, liste des messages vocaux, messagerie vocale  <br/> |

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Consultez cette rubrique pour découvrir comment attribuer des stratégies de conférence pour Skype Room System.
-ms.openlocfilehash: 73ab8f48bc399f4478b0a9c22aceb68d7a54a11b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 07ce5031bd053837d69d3ed3da27aabb344c3a65
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Stratégie de conférence pour les comptes Skype Room System
  
@@ -24,9 +24,8 @@ Consultez cette rubrique pour découvrir comment attribuer des stratégies de co
 
 La stratégie de conférence affectée au compte système local de Skype doit présenter certaines caractéristiques. La plupart du temps, le client Skype espace système joint à une réunion planifiée, et par conséquent la conférence de l’organisateur de la réunion affectera la conférence. Toutefois, dans Skype pour Business Server, certaines fonctionnalités dépendent de configuration sa. Par exemple, si les stratégies du participant permet une résolution vidéo maximale de 1080p, les participants rencontrer cette fonctionnalité vidéo de résolution supérieure à la conférence même si la stratégie de l’organisateur ne l’autorise. Le tableau suivant décrit plusieurs paramètres dont vous devez être informé lors de la configuration des stratégies de conférence pour les comptes Skype espace système dans votre organisation. 
   
-||||
-|:-----|:-----|:-----|
 |Fonctionnalité  <br/> |Valeur  <br/> |Commentaire  <br/> |
+|:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |Doivent être remplies pour l’audio du système de salle de Skype  <br/> |
 |AllowIPVideo  <br/> |TRUE  <br/> |Doivent être remplies pour son système de salle Skype fonctionne dans les sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
 |AllowMultiView  <br/> |TRUE  <br/> |Permet de système de salle Skype restituer des vues multiples, plusieurs flux de données vidéo  <br/> |

@@ -11,20 +11,22 @@ description: Choisissez dans les plans d’appel et les licences, configurer des
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38e382992f3170f16718eac8d2c6f0902dbaff3b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 4b7b1aaff60d6aa35fa10334c8d55e6a057eccaf
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
+
+Pour planifier la mise en oeuvre technique de système téléphonique avec appel de PLans, vous devez effectuer une série de décisions de service à l’avance pour mieux préparer votre organisation pour implémenter une solution qui répond à vos besoins métier bien définis.
 
 ## <a name="calling-in-teams"></a>Appel dans Teams
 
 Avec Microsoft Teams, vos utilisateurs peuvent émettre et recevoir des appels téléphoniques vers ou depuis le réseau téléphonique public commuté (RTPC). Vos utilisateurs peuvent utiliser leurs propres numéros de téléphone dédiés pour passer et recevoir des appels nationaux et internationaux à partir d’applications clientes équipes, avec des fonctionnalités avancées qui incluent des messages vocaux et appel d’urgence (911 amélioré).
 
 > [!NOTE]
-> Le planning actualisé des équipes pour identifier les fonctionnalités de conférence Audio d’équipes dans la portée de votre déploiement, vous pouvez trouver à <https://aka.ms/skype2teamsroadmap>.
+> Le planning actualisé des équipes pour identifier les équipes Phone System avec envisagez d’appeler des fonctions dans la portée de votre déploiement, vous pouvez trouver à <https://aka.ms/skype2teamsroadmap>.
 
 ## <a name="phone-system-in-teams"></a>Système de téléphone dans les équipes
 

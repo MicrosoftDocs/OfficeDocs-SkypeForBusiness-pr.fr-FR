@@ -10,11 +10,11 @@ description: Conseils pour lancer un projet pilote pour à utiliser Microsoft T
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 386221bfc8a3249ef4c902605171e636f8a48f40
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: ccb09692991eeacc43d035389d245a0735030f1c
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Projet pilote d'utilisation de Microsoft Teams avec Skype Entreprise
 ============================================
@@ -199,7 +199,7 @@ En fonction de vos conclusions, nous vous recommandons quelques voies que votre 
 <br>- et -<br><br>
 <li>Intégrité réseau satisfaisante</li></ul></td>
 <td align="left"><p>Déploiement de Teams et Skype Entreprise côte à côte pour certains/tous les scénarios disponibles. Pour faciliter la courbe d'apprentissage, nous conseillons vivement de déployer les fonctionnalités progressivement, non de manière simultanée.</p>
-<p>Pour en savoir plus sur l'[exécution côte à côte de Skype Entreprise et Teams](guidance-SkypeforBusiness.md) :</p>
+<p>Pour en savoir plus sur [parcours de mise à niveau et coexistence de Skype pour les entreprises et les équipes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
 <p>téléchargez les <a href="https://go.microsoft.com/fwlink/?linkid=859044">modèles de préparation des utilisateurs</a> pour simplifier la communication avec vos utilisateurs finaux concernant leur nouvelle expérience d'utilisation côte à côte.</p></td>
 </tr>
 <tr class="odd">
@@ -207,7 +207,7 @@ En fonction de vos conclusions, nous vous recommandons quelques voies que votre 
 <br>- et -<br><br>
 <li>Intégrité réseau satisfaisante</li></ul></td>
 <td align="left"><p>Déploiement côte à côte de Teams et Skype Entreprise pour tous les scénarios, encourager les utilisateurs à privilégier Teams lorsque cela est possible. En outre, contactez votre équipe des comptes ou le Support Microsoft pour les informer de la préparation de votre organisation au passage à Teams.</p>
-<p>Pour en savoir plus sur l'[exécution côte à côte de Skype Entreprise et Teams](guidance-SkypeforBusiness.md) :</p>
+<p>Pour en savoir plus sur [parcours de mise à niveau et coexistence de Skype pour les entreprises et les équipes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
 <p>téléchargez les <a href="https://go.microsoft.com/fwlink/?linkid=859044">modèles de préparation des utilisateurs</a> pour simplifier la communication avec vos utilisateurs concernant leur nouvelle expérience d'utilisation côte à côte.</p></td>
 </tr>
 <tr class="even">

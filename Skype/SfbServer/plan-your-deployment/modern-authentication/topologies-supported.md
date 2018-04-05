@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: Cet article établit la liste des topologies en ligne et en local prises en charge avec l'authentification moderne dans Skype Entreprise, et des fonctionnalités de sécurité qui s'appliquent à chacune des topologies.
-ms.openlocfilehash: 13721b9d489b85fa6895469310240eebccc180ec
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a6be001bf1aeeeba9823c291ee9726c33ec9009a
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Topologies de Skype Entreprise prises en charge avec l'authentification moderne
  
@@ -73,9 +73,8 @@ Pour commencer, nous allons aborder l'authentification moderne avec Skype Entrep
 > [!IMPORTANT]
 > Êtes-vous prêt à configurer l’authentification modernes dans Skype pour entreprise en ligne ? La procédure d’activation de cette fonctionnalité est [ici](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx). 
   
-|||||
-|:-----|:-----|:-----|:-----|
 |Nom de la topologie  <br/> |Exemple  <br/> |Description%  <br/> |Pris en charge  <br/> |
+|:-----|:-----|:-----|:-----|
 |Dans le cloud uniquement  <br/> |![Prise en charge de la topologie SFB avec MA, cloud uniquement.](../../media/4d19b47f-8257-4a6f-9dab-0755206f7c52.PNG)Utilisateurs hébergés/boîtes aux lettres situées : en ligne   <br/> |MA est activée pour EXO et SFBO.  <br/> Le serveur d'autorisation est donc Azure AD.  <br/> |Plusieurs facteurs d’authentification (AMF), authentification (CBA), l’accès conditionnel (CA) basée sur le certificat Client / Mobile Application Management (MAM) avec Intune. \*  <br/> |
 |En local uniquement  <br/> |![Prise en charge de la topologie SFB avec MA, sur site uniquement.](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)Utilisateurs hébergés/boîtes aux lettres situées : en local  <br/> |MA est activée pour SFB local.  <br/> Le serveur d'autorisation est donc ADFS.  <br/> Pour plus d’informations, consultez [cet article.](https://technet.microsoft.com/en-us/library/mt710548.aspx) <br/> |MFA (Windows Desktop uniquement - les mobiles clients ne sont pas pris en charge). Aucune fonctionnalité d'intégration Exchange.  <br/> |
    
@@ -84,9 +83,8 @@ Pour commencer, nous allons aborder l'authentification moderne avec Skype Entrep
   
 Les topologies mixtes impliquent des combinaisons d'hybrides de SFB à domaine séparé. Les topologies mixtes actuellement prises en charge sont les suivantes :
   
-|||||
-|:-----|:-----|:-----|:-----|
 |Nom de la topologie  <br/> |Exemple  <br/> |Description%  <br/> |Pris en charge   <br/> |
+|:-----|:-----|:-----|:-----|
 |Mixte 1  <br/> |![Prise en charge de la topologie SFB avec MA, mixte 1 (EXO + SFB).](../../media/7b2e607a-c83a-4bb3-9b48-a43566516129.PNG)           <br/> Utilisateurs hébergés/boîtes aux lettres situées : EXO et SFB  <br/> |MA n'est pas activée pour SFB, aucune fonctionnalité MA SFB n'est disponible pour cette topologie.  <br/> |Aucune fonctionnalité MA pour SFB.  <br/> |
 |Mixte 2  <br/> |![Prise en charge de la topologie mixte MA-S4B 2, SFBO plus MA exécuté avec EXCH sur site.](../../media/247a985d-39cd-4c16-a19e-b8b65207d82e.PNG)           <br/> Utilisateurs hébergés/boîtes aux lettres situées : EXCH et SFBO  <br/> |MA concerne sur SFBO uniquement. Le serveur d’autorisation est AD Azure pour les utilisateurs hébergés dans SFBO, mais Active Directory pour EXCH sur site.  <br/> |Autorité de certification AMF, CBA, / MAM avec Intune.\*  <br/> |
 |Mixte 3  <br/> |![Prise en charge de MA avec SFB, EXO avec MA local, plus EXCH et SFB sur site.](../../media/772dc261-c041-4a96-90d0-fd0b5124decf.PNG)           <br/> Utilisateurs hébergés/boîtes aux lettres situées : EXO + SFB ou EXCH + SFB  <br/> |Aucune fonctionnalité MA SFB n'est disponible pour cette topologie  <br/> |Aucune fonctionnalité MA pour SFB.  <br/> |

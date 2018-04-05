@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: b4244647674f25a10b6ca447a6ee8b4d23b36a9f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 7c6f0e70780b04e75be52ead1eaf08602bcba003
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>Démarrer une conférence Audio par téléphone sans code confidentiel
 
@@ -38,19 +38,29 @@ Un code confidentiel n’est pas obligatoire pour l’organisateur de la réunio
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Autorisation ou refus des appelants anonymes à participer à une réunion
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+**À l’aide de Skype les équipes Microsoft pour Business Admin Center**
+
+1. Dans la navigation de gauche, cliquez sur **utilisateurs**. 
+
+2. Sélectionnez un utilisateur dans la liste, puis cliquez sur **Modifier** en haut de la page. 
+
+3. Cliquez sur le menu en regard de **Ponts de conférence**, puis cliquez sur **Modifier**.
+
+4. Dans le volet de **fournisseur de pont de conférence** , activer ou désactiver les appelants d’autoriser non authentifié **pour être les premiers dans une réunion. Si non, puis ils attendra dans la salle d’attente jusqu'à ce qu’un utilisateur authentifié de jointures**.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+4. Cliquez sur **Appliquer**. 
+
+Le Centre d'administration Skype Entreprise ou Windows PowerShell permet d'activer ou de désactiver l'envoi de courrier électronique aux utilisateurs.
     
-3. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **les utilisateurs**. 
+1. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **les utilisateurs**. 
     
-4. Dans la liste, sélectionnez l’utilisateur et dans le volet Actions, cliquez sur **Modifier**. 
+2. Dans la liste, sélectionnez l’utilisateur et dans le volet Actions, cliquez sur **Modifier**. 
     
-5. Sur la page de propriétés de l’utilisateur, sous **options de la réunion**, activez ou désactivez les appelants d’autoriser non authentifié **pour être les premiers dans une réunion. Si non, puis ils attendra dans la salle d’attente jusqu'à ce qu’un utilisateur authentifié de jointures**.
+3. Sur la page de propriétés de l’utilisateur, sous **options de la réunion**, activez ou désactivez les appelants d’autoriser non authentifié **pour être les premiers dans une réunion. Si non, puis ils attendra dans la salle d’attente jusqu'à ce qu’un utilisateur authentifié de jointures**.
     
-6. Cliquez sur **Enregistrer**. 
+4. Cliquez sur **Enregistrer**. 
     
- **Pour activer ou désactiver des appelants anonymes à toutes les réunions de l’utilisateur à l’aide de Windows Powershell**
+ **Utilisation de Windows Powershell**
   
 - Exécutez la commande suivante : 
     
@@ -82,15 +92,15 @@ Un code confidentiel n’est pas obligatoire pour l’organisateur de la réunio
     
   - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
-  - [Six raisons d'utiliser Windows PowerShell pour gérer Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Les meilleures façons de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell offre de nombreux avantages de vitesse, de simplicité et de productivité sur uniquement en utilisant le centre d’administration d’Office 365, par exemple lorsque vous devez apporter des modifications de paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
     
-  - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Présentation de Windows PowerShell et de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-    [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+    [Utiliser Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Utiliser Windows PowerShell pour les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).

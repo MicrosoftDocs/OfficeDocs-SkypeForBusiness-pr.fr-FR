@@ -1,5 +1,5 @@
 ---
-title: "Modifier les paramètres d’un pont de conférence de données Audio"
+title: Modifier les paramètres d’un pont de conférence de données Audio
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that''s used to prompt callers and gather names and pins for meeting organizers when they''re not using Skype for Business clients. '
-ms.openlocfilehash: f37af15b4ab66eb5765cccbdba63b3bb6bb14597
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: "Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business clients. "
+ms.openlocfilehash: d9b80b06a3c52c6ec386a0e5052f1bb71f914650
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont de conférence de données Audio
 
@@ -32,20 +34,42 @@ Lorsque vous configurez une conférence Audio dans Office 365, vous recevrez des
   
 Le pont de conférence répond à un appel et vous demande de l’appelant avec des invites vocales à l’aide d’un fichier auto réunion standard, puis, selon vos paramètres, peut lire les notifications, demandez les appelants pour enregistrer leur nom et contrôler les paramètres de code PIN. Broches sont indiquées pour les organisateurs de la réunion pour pouvoir démarrer une réunion lorsqu’ils sont ne sont pas à l’aide un Skype pour application métier ou Teams de Microsoft.
 
-    > [!IMPORTANT]
-    > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
+  > [!IMPORTANT]
+  > Un code PIN n’est requis pour la réunion lorsqu’un Skype pour l’utilisateur d’application métier ou Teams de Microsoft n’a pas déjà commencée. Si tout le monde appelle à la réunion, le code PIN est nécessaire pour l’organisateur de la réunion démarrer la réunion. 
   
-## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont de conférence audio
+## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont de conférence audio 
+
+### <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>À l’aide de Skype les équipes Microsoft pour Business Admin Center
+
+1. Dans la navigation de gauche, accédez à des **réunions** > **Les ponts de conférence**. 
+
+2. En haut de la page de **Ponts de conférence** , cliquez sur **Paramètres du pont**. 
+
+3. Dans le volet **paramètres du pont** , sélectionnez : 
+  - **Activer l’accès à la réunion et de quitter des notifications pour être activé** Si vous désactivez cette option, les utilisateurs qui ont déjà joint la réunion ne serez pas avertis lorsque quelqu'un entre ou quitte la réunion.
+    
+    Lorsque vous sélectionnez **Activer l’accès à la réunion et de quitter des notifications pour être activé**, vous pouvez sélectionner ces options dans la liste **type d’annonce d’entrée et de sortie** :
+    
+  - **Les noms ou les numéros de téléphone** Lorsque les utilisateurs se connecter à une réunion, son numéro de téléphone sera lu lorsqu’ils joignent l’il.
+    
+  - **Tonalités** Lorsque les utilisateurs se connecter à une réunion, un signal audio est lu lorsqu’ils joignent l’il.
+      
+  - **Appelants de demander d’enregistrer leur nom avant de rejoindre la réunion** Si vous désactivez cette option, les appelants ne vous demandera d’enregistrer leur nom avant de participer à une réunion.
+
+4. Pour définir la longueur du code confidentiel pour les réunions, sélectionnez le nombre de chiffres que vous souhaitez pour le code confidentiel dans la liste **longueur du code confidentiel** .
+
+5. Pour spécifier s’il faut envoyer un courrier électronique à vos utilisateurs, activer ou désactiver les **Envoyer automatiquement des e-mails aux utilisateurs si leur configuration d’audioconférence change**.
+    Pour plus d’informations, reportez-vous à la section [E-mails envoyés automatiquement aux utilisateurs lors de la modifient de leurs paramètres d’audioconférence](emails-sent-to-users-when-their-settings-change.md) .
+ 
+6. Cliquez sur **Appliquer**. 
+
+### <a name="using-skype-for-business-online"></a>À l’aide de Skype pour les entreprises en ligne
 
  **Configurer l’expérience de réunion lorsque les appelants de joindre une réunion**
-  
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+1. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation gauche atteindre **audioconférence** > **paramètres de pont de Microsoft**.
     
-3. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation gauche atteindre **audioconférence** > **paramètres de pont de Microsoft**.
-    
-4. Dans la page **paramètres du pont Microsoft** , sous **rencontrer de jointure de la réunion**, sélectionnez :
+2. Dans la page **paramètres du pont Microsoft** , sous **rencontrer de jointure de la réunion**, sélectionnez :
     
   - **Activer ou désactiver les annonces d'entrée et de sortie des réunions**: cette option est sélectionnée par défaut. Si vous désactivez la case à cocher, les utilisateurs qui ont déjà joint la réunion ne serez pas avertis lorsque quelqu'un entre ou quitte la réunion.
     
@@ -60,7 +84,7 @@ Le pont de conférence répond à un appel et vous demande de l’appelant avec 
   
   - **Demander aux appelants d'enregistrer leur nom avant de participer à la réunion**: cette option est sélectionnée par défaut. Si vous désactivez la case à cocher, les appelants ne vous demandera d’enregistrer leur nom avant de participer à une réunion.
     
-5. Une fois que vous avez effectué vos modifications, cliquez sur **Enregistrer**.
+3. Une fois que vous avez effectué vos modifications, cliquez sur **Enregistrer**.
     
 Reportez-vous à la rubrique **Modification des paramètres d'un pont de conférence rendez-vous Microsoft**.
   
@@ -110,5 +134,4 @@ Reportez-vous à la rubrique **Modification des paramètres d'un pont de confér
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](set-up-audio-conferencing.md)
-
+[Configurer l'audioconférence](set-up-audio-conferencing.md)

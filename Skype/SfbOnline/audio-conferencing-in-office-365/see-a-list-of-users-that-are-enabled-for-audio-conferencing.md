@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: c58a8e2475b1b41e02d0abced47fcc9d076d5f25
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 4f019a3ffc8b30de0a5d57a882bd2cdcb78f0508
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>Afficher la liste des utilisateurs activés pour les conférences Audio
 
@@ -34,11 +34,13 @@ Après avoir activé Skype pour les utilisateurs professionnels ou Teams de Micr
   
 ## <a name="viewing-a-list-of-users"></a>Afficher une liste d'utilisateurs
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+**À l’aide de Skype les équipes Microsoft pour Business Admin Center**
+
+- Dans la navigation de gauche, cliquez sur **utilisateurs**.
+
+Le Centre d'administration Skype Entreprise ou Windows PowerShell permet d'activer ou de désactiver l'envoi de courrier électronique aux utilisateurs.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
-    
-3. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **les utilisateurs**.
+- Dans la navigation de gauche, accédez à **audioconférence** > **les utilisateurs**.
     
 ## <a name="what-else-should-i-know"></a>Informations supplémentaires
 

@@ -1,5 +1,5 @@
 ---
-title: "Désactivation des numéros verts pour des utilisateurs spécifiques"
+title: Désactivation des numéros verts pour des utilisateurs spécifiques
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Les administrateurs peuvent contrôler comment les organisateurs peuvent utiliser des numéros de téléphone gratuits pour leurs réunions."
-ms.openlocfilehash: fb4b0f8725608928e686307845871b4f5c1976d9
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: Les administrateurs peuvent contrôler comment les organisateurs peuvent utiliser des numéros de téléphone gratuits pour leurs réunions.
+ms.openlocfilehash: d0b7703f4dd518caa5ffb339282c5a7bbac4daa3
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactivation des numéros verts pour des utilisateurs spécifiques
 
@@ -42,14 +42,31 @@ Lorsque les numéros verts sont désactivées pour un organisateur donné :
 
  - Les participants peuvent continuer de participation à des réunions de la bibliothèque multimédia à l’aide des numéros payants. 
 
-## <a name="disabling-toll-free-numbers-for-specific-users-using-the-skype-for-business-admin-center"></a>Désactivation des numéros verts pour des utilisateurs spécifiques à l’aide de la Skype pour Business admin center 
- 1. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**. 
- 2. Dans le Skype pour Business admin center dans la navigation de gauche, accédez à **audioconférence** > **les utilisateurs**et sélectionnez l’utilisateur dans la liste des utilisateurs disponibles. 
- 3. Dans le volet Action, cliquez sur **Modifier**. 
- 4. Activez ou désactivez **Autoriser l’utilisation des numéros de téléphone gratuits pour assister aux réunions de cet utilisateur**. 
- 5. Cliquez sur **Enregistrer**. 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactivation des numéros verts pour des utilisateurs spécifiques 
+
+**À l’aide de Skype les équipes Microsoft pour Business Admin Center**
+
+1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+
+2. En haut de la page, cliquez sur **Modifier**.
+
+3. Cliquez sur le menu en regard de **Ponts de conférence**, puis cliquez sur **Modifier** dans la liste déroulante.
+
+4. Dans le volet de **fournisseur de pont de conférence** , désactivez **Autoriser à l’aide des numéros d’appel gratuits dans le pont de conférence de l’organisation à assister aux réunions de cet utilisateur**. 
+
+5. Cliquez sur **Appliquer.** 
+
+Le Centre d'administration Skype Entreprise ou Windows PowerShell permet d'activer ou de désactiver l'envoi de courrier électronique aux utilisateurs.
+
+1. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **les utilisateurs**et sélectionnez l’utilisateur dans la liste des utilisateurs disponibles. 
+
+2. Dans le volet Action, cliquez sur **Modifier**. 
+
+3. Désactivez **Autoriser à l’aide de numéros de téléphone gratuits pour assister aux réunions de cet utilisateur**. 
  
-## <a name="disabling-toll-free-numbers-for-specific-users-using-powershell"></a>Désactivation des numéros verts pour des utilisateurs spécifiques à l’aide de PowerShell  
+4. Cliquez sur **Enregistrer**. 
+ 
+**Utilisation de PowerShell**  
 
 Vous pouvez utiliser le paramètre AllowTollFreeDialIn de l’applet de commande Set-CsOnlineDialInConferencingUser pour activer ou désactiver ce contrôle. Par exemple : 
 

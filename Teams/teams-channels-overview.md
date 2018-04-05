@@ -1,20 +1,20 @@
 ---
-title: "Présentation des équipes et des canaux dans Microsoft Teams"
+title: Présentation des équipes et des canaux dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Découvrez la variété d'équipes, de canaux et d'applications disponibles pour des exigences très variées, telles que les opérations financières, la planification d'événements, les ventes, etc."
+description: Découvrez la variété d'équipes, de canaux et d'applications disponibles pour des exigences très variées, telles que les opérations financières, la planification d'événements, les ventes, etc.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849eade2acc91286a0d2f78b2d0289432e8ef52c
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: a3e614cc7ad1f4e803ef6d725eba68a699fb7477
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 =================================================
@@ -52,7 +52,7 @@ Prenez cinq minutes pour découvrir les meilleures pratiques pour organiser des 
 
 Par défaut, tous les utilisateurs sont autorisés à créer une équipe dans Microsoft Teams. (Pour modifier ces autorisations, consultez la rubrique [Attribuer des rôles et des autorisations dans Teams](assign-roles-permissions.md).) Les utilisateurs d'un groupe Office 365 existant peuvent également contribuer à des améliorations avec la fonctionnalité Teams.
 
-Pour faire adopter Microsoft Teams par les utilisateurs, une activité clé de planification initiale consiste à mener une réflexion sur l'amélioration de la collaboration dans le travail quotidien grâce à Teams. Discutez avec les utilisateurs et aidez-les à sélectionner les scénarios d’entreprise dans lesquels ils collaborent actuellement de manière fragmentée.  Rassemblez-les dans un canal avec les onglets pertinents qui les aideront à effectuer leur travail. Un des cas d’utilisation les plus puissants de Teams est un processus inter-organisationnel. 
+Pour faire adopter Microsoft Teams par les utilisateurs, une activité clé de planification initiale consiste à mener une réflexion sur l'amélioration de la collaboration dans le travail quotidien grâce à Teams. Discutez avec les personnes et les aider à sélectionner des scénarios d’entreprise où ils collaborent actuellement de manière fragmentée.  Rassemblez-les dans un canal avec les onglets pertinents qui les aideront à effectuer leur travail. Un des cas d’utilisation les plus puissants de Teams est un processus inter-organisationnel. 
 
 <a name="sample-team-set-up"></a>Exemple de configuration d'équipe
 ------------------

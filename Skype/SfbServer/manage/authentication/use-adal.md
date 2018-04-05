@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: Cet article explique comment utiliser une authentification moderne (qui est basé sur la bibliothèque de l’authentification Active Directory (ADAL) et OAuth 2.0) se trouve dans le 2016 mars mise à jour Cumulative pour Skype pour les entreprises de Skype pour Business Server 2015.
-ms.openlocfilehash: efd0e35ce92143e9fb5fda03301eb51d2926c979
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9ef430f770b0b5d2ee22f2744e95b6df47fa95b9
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Comment utiliser l’authentification moderne (ADAL) avec Skype Entreprise
  
@@ -120,9 +120,8 @@ Pour activer l’authentification modernes pour Exchange Online, vous devez exé
     
 - Définissez ces clés de Registre pour chaque périphérique ou ordinateur sur lequel vous souhaitez activer l’authentification moderne. Vous aurez besoin d’un objet GPO dans les grandes organisations. Pour plus d’informations sur la façon de rendre un objet de stratégie de groupe, reportez-vous à la section « Créer un objet de stratégie de groupe pour modifier le Registre sur un ordinateur faisant partie du domaine » de [cet ](https://support.office.com/en-us/article/Switching-between-the-Skype-for-Business-and-the-Lync-client-user-interfaces-a2394a4c-7522-484c-a047-7b3289742be0)article.
     
-||||
-|:-----|:-----|:-----|
 |Clé de Registre  <br/> |Type  <br/> |Valeur  <br/> |
+|:-----|:-----|:-----|
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  <br/> |REG_DWORD  <br/> |1  <br/> |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version  <br/> |REG_DWORD  <br/> |1  <br/> |
    

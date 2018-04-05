@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Résumé : Mise en œuvre IPv6 avant d’installer Skype pour Business Server 2015.'
-ms.openlocfilehash: e91b0a3afabf8088d6fed2f21124fb17a4f7e94f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 40c5209a582aeb55657e8e1f0b8971f2c8ed79d0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planifier IPv6 dans Skype Entreprise
  
@@ -128,9 +128,8 @@ Le tableau suivant illustre la matrice de prise en charge entre le pool de serve
   
 **Pool frontal et matrice de bord Pool (périphérie interne)**
 
-|||||
-|:-----|:-----|:-----|:-----|
 ||**Pool Edge : IPv4** <br/> |**Pool Edge : Double pile** <br/> |**Pool Edge : IPv6** <br/> |
+|:-----|:-----|:-----|:-----|
 |**Pool frontal : IPv4** <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |**Pool frontal : Double pile** <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |**Pool frontal : IPv6** <br/> |Non  <br/> |Non  <br/> |Oui\*  <br/> |
@@ -141,9 +140,8 @@ Le tableau ci-dessous représente une matrice des combinaisons d’interfaces Ed
   
 **Pool de bord (périphérie interne) et le bord du pool (périphérie externe) matrice**
 
-|||||
-|:-----|:-----|:-----|:-----|
 ||**Pool Edge (périmètre externe) : IPv4** <br/> |**Pool Edge (périmètre externe) : Double pile** <br/> |**Pool Edge (périmètre externe) : IPv6** <br/> |
+|:-----|:-----|:-----|:-----|
 |**Pool Edge (périmètre interne) : IPv4** <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |**Pool Edge (périmètre interne) : Double pile** <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |
 |**Pool Edge (périmètre interne) : IPv6** <br/> |Non  <br/> |Non  <br/> |Oui\*  <br/> |

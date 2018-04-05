@@ -11,13 +11,15 @@ description: Utiliser les personnages et l’analyse de réseau à évaluer la p
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5d22bd46006b3bdd1f874da021045c36975b4ec
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 3b97a588a55eb1b7183315751a9483d69eeb0b6b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="evaluate-my-environment"></a>Évaluer mon environnement
+
+Cet article donne une vue d’ensemble de la configuration requise pour correctement évaluer votre environnement actuel pour l’utilisation de services de téléphonie de nuage. En évaluant votre environnement, vous identifiez les risques et les besoins qui auront une influence sur votre déploiement de voix nuage global. En identifiant ces éléments au préalable, vous pouvez ajuster votre planification pour la réussite du lecteur.
 
 ## <a name="introduction-to-evaluating-your-environment"></a>Introduction à l’évaluation de votre environnement 
 
@@ -46,20 +48,19 @@ Sachant cela aidera votre organisation ajuster son plan de projet en conséquenc
 
 ## <a name="adoption-and-change-management-assessment-capabilities"></a>Adoption et modification de fonctions d’évaluation de gestion 
 
-Vous pouvez évaluer l’adoption préparation de votre organisation par analyse de personnage pour arriver à une liste de personnages qui peuvent être ciblés pour la mise en oeuvre du système de téléphone et les conférences Audio avec les services d’appel de Plan en cours d’exécution. Analyse du personnage inclut l’identification des périphériques supplémentaires ou autres périphériques requis pour réaliser les résultats d’entreprise souhaitée.
+Déploiement sur place une nouvelle technologie à portée de main d’un utilisateur, mais les résultats commerciaux sont réalisés uniquement une fois que les utilisateurs adoptent réellement cette solution comme leur propre. Pour garantir l’adoption prolongée d’une nouvelle solution, vous devez concentrer vos efforts sur la disponibilité de l’utilisateur et la gestion des modifications. Pour des résultats optimaux, disponibilité utilisateur planification sous la forme d’un flux de travail parallèle à vos activités de préparation technique de conduite et d’incorporer les activités suivantes :
 
-Pour effectuer une analyse du personnage, vous pouvez effectuer un atelier en impliquant les parties prenantes du projet approprié, en utilisant le pont d’atelier [Alignement du personnage](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_7) et un [Comparatif du personnage](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_8).
-Vous pouvez résumer les résultats de l’atelier d’analyse personnage dans un rapport en utilisant le modèle de [Rapport d’analyse de personnage](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_9) .
+-   **D’organisation et de gestion des profils utilisateur :** Analyse des receptiveness d’organisation à modifier en plus de l’analyse les personnages et les cas d’utilisation
 
->[!NOTE]
->Bien que les actifs du personnage ont été initialement écrit pour Skype pour professionnels en ligne, la plupart du contenu s’appliquent à des équipes. N’hésitez pas à les modifier et de supprimer des éléments qui ne sont pas appropriées pour vos objectifs de projet.
+-   **Préparation de préparation et de ressources :** Création de sensibilisation de grande portée et des cible, la formation et des ressources de support, y compris les concentrés de valeur pour accélérer l’achat de l’utilisateur de messagerie
+
+Les considérations suivantes permet d’évaluer la préparation de votre organisation à la gestion de modification d’utilisateur adresse.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li> Qui sera responsable de la fin d’un alignement du personnage et l’évaluation de fonction ?</li><li>Évaluer votre capacité à effectuer d’adoption et de gestion des modifications pour votre organisation.</li></ol></td></tr>
-
-
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Documentez les résultats de l’évaluation de fonction et d’alignement personnage.</li><li>Si nécessaire, faites appel à des ressources extérieures pour aider à la conduite d’adoption et de gestion des modifications pour votre organisation.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Avez-vous eu succès précédent avec l’adoption par les utilisateurs de logiciels ou de services ?</li><li>Vous pouvez suivre absorption d’utilisation ?</li><li>Disposez-vous des ressources nécessaires pour concevoir et gérer une initiale&mdash;et&mdash;campagne d’adoption (prise de conscience, de formation et de support) ?</li><li>Disposez-vous d’une équipe de gestion d’adoption/Modifier utilisateur dédié, ou peuvent investir dans ces ressources afin de garantir les résultats de l’entreprise ?</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Si vous avez répondu « Oui » à toutes les réponses ci-dessus, identifier les parties prenantes gestion de droit utilisateur modifier et commencez votre planification de la disponibilité d’utilisateur.</li><li>Si vous avez répondu « non » pour tout ou partie de ce qui précède, envisagez d’engager des ressources externes pour vous aider à la conduite des activités adoption pour votre organisation et gestion des modifications.</li></ol></td></tr>
 </table>
+
 
 <!--ENDOFSECTION-->
 

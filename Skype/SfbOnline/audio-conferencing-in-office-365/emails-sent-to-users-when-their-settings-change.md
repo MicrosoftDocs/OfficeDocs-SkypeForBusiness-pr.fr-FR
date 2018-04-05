@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: f504e9b807afb4a587a9d6f13baf69a3c5b9db68
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 0cf1eabd25a6be5d6104c2593e5bc286d15d59f0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>E-mails envoyés aux utilisateurs lors de la modifient de leurs paramètres
 
@@ -104,21 +104,27 @@ Si vous souhaitez modifier les informations de l'adresse électronique, vous dev
 
 Lorsque vous désactivez l'envoi de courriers électroniques, le courrier électronique ne sera pas envoyé même si l'utilisateur dispose d'une licence. Dans ce cas, l’ID de la conférence, par défaut le numéro de téléphone de conférence et, plus important encore, leur code PIN de conférence audio ne seront pas envoyée à l’utilisateur. En pareil cas, vous devez en informer l'utilisateur en lui envoyant un courrier électronique distinct ou en l'appelant.
   
-Par défaut, e-mail sera envoyé à vos utilisateurs, mais si vous voulez les empêcher la réception de courrier électronique pour les conférences audio, vous pouvez utiliser le Skype pour le centre d’administration Business ou Windows PowerShell. 
+Par défaut, e-mail sera envoyé à vos utilisateurs, mais si vous voulez les empêcher la réception de courrier électronique pour les conférences audio, vous pouvez utiliser Teams de Microsoft, le Skype pour Business admin center, ou Windows PowerShell. 
+
+**À l’aide de Skype les équipes Microsoft pour Business Admin Center**
+
+1. Dans la navigation de gauche, accédez à des **réunions** > **Les ponts de conférence**. 
+
+2. En haut de la page de **Ponts de conférence** , cliquez sur **Paramètres du pont**. 
+
+3. Dans le volet **paramètres du pont** , activer ou désactiver **automatiquement envoyer des e-mails aux utilisateurs si leurs paramètres de connexion à modifient**.
+
+4. Cliquez sur **Appliquer**.
   
- Le Centre d'administration Skype Entreprise ou Windows PowerShell permet d'activer ou de désactiver l'envoi de courrier électronique aux utilisateurs.
-  
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+Le Centre d'administration Skype Entreprise ou Windows PowerShell permet d'activer ou de désactiver l'envoi de courrier électronique aux utilisateurs.
     
-2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **paramètres de pont de Microsoft**.
     
-3. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **paramètres de pont de Microsoft**.
+2. Dans la page **paramètres du pont Microsoft** , activez ou désactivez la **Envoyer automatiquement des e-mails aux utilisateurs si leurs paramètres de conférence audio changent**. 
     
-4. Dans la page **paramètres du pont Microsoft** , activez ou désactivez la **Envoyer automatiquement des e-mails aux utilisateurs si leurs paramètres de conférence audio changent**. 
+3. Cliquez sur **Enregistrer**. 
     
-5. Cliquez sur **Enregistrer**. 
-    
- Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.
+Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.
   
 1. Pour désactiver l'envoi de courrier électronique à tous vos utilisateurs, exécutez la commande suivante :
     

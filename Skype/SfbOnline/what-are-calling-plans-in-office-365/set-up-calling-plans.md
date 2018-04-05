@@ -23,22 +23,19 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: dcba074f1c0e6966ef0632a95035e681aa25a194
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 4f591807dcfb4ed4b4d9fceb8340ba18b11549ec
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="set-up-calling-plans"></a>Définir des Plans d’appel
-
 Appels aux autre Skype pour les utilisateurs professionnels sont libres, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones à l’extérieur de votre entreprise, un Plan d’appel interne ou d’un Plan d’appel International dans Office 365. Il est facile d’installer cette fonctionnalité pour votre entreprise. 
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Étape 1 : Déterminer si l’appel de Plans sont disponibles dans votre pays/région
-
 [Pays et région de disponibilité pour les conférences Audio et les Plans d’appel](..//country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) , sélectionnez votre pays ou votre région pour laquelle obtenir les informations de disponibilité sur les Plans d’appel, ainsi que des informations à propos de l’appel de conférence Audio, système téléphonique et numéro gratuit les numéros et les crédits de Communications.
   
 ## <a name="step-2-buy-and-assign-licenses"></a>Étape 2 : Acheter et attribuer des licences
-
 1. Si le système téléphonique de la fonctionnalité d’Office 365 n’est pas inclus dans votre plan, vous devrez acheter des licences supplémentaires de **Système téléphonique** . Après avoir obtenu les licences du **Système téléphonique** , achat [Appel de Plans pour Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md). Voir [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestionnaire de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)et acheter les licences et le plan. 
     
     > [!TIP]
@@ -47,20 +44,16 @@ Appels aux autre Skype pour les utilisateurs professionnels sont libres, mais si
 2. Tout d’abord attribuer les licences et ensuite affecter un Plan d’appel aux personnes de votre organisation. Reportez-vous à la section [Affecter un Skype pour les professionnels et les équipes Microsoft des licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
     
 ## <a name="step-3-get-phone-numbers"></a>Étape 3 : Obtenir les numéros de téléphone
-
 Il existe trois façons d’obtenir de nouveaux numéros d’utilisateur :
 
-- **Utilisez le Skype pour le centre d’administration commerciale.** Pour certains pays ou certaines régions, vous pouvez obtenir des chiffres pour les ponts de conférence à l’aide de la Skype pour le centre d’administration Business, voir [numéros de téléphone de mise en service](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+- **Utilisez le Skype pour le centre d’administration commerciale.** Pour certains pays ou certaines régions, vous pouvez obtenir les numéros de vos utilisateurs à l’aide de la Skype pour le centre d’administration Business, consultez [lors de l’obtention des numéros de téléphone e pour vos utilisateurs.](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md).
     
 - **Port vos numéros existants.** Vous pouvez le port ou transférer des numéros existants de votre opérateur de téléphonie ou votre fournisseur de service actuel vers Office 365. Consultez le [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md) ou [gérer des numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour plus d’informations pour vous aider à effectuer cette opération.  
   
 - **Utilisez un formulaire de demande de nouveaux numéros.** Parfois (en fonction de votre pays/région) vous ne pourrez pas obtenir vos numéros de téléphone de nouveau à l’aide de la Skype pour le centre d’administration Business, ou vous devez les numéros de téléphone spécifiques ou des codes de zone. Dans ce cas, vous devez télécharger un formulaire et nous le renvoyer. Pour plus d’informations, voir [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) . 
 
-
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Étape 4 : Ajouter les adresses en cas d’urgence et les emplacements de votre organisation
-<a name="bkmk_add_addresses"> </a>
-
-Une adresse d’urgence doit être associée à un numéro de téléphone ; Lorsque cette association se produit peut varier entre les pays et régions. Par exemple, aux États-Unis, vous devez associer une adresse en cas d’urgence, lorsque vous attribuez le numéro de téléphone de l’utilisateur. Au Royaume-Uni, vous devez associer une adresse d’urgence pour le numéro de téléphone lors de l’obtention les numéros de téléphone à partir d’Office 365 ou transfert des numéros de téléphone de votre fournisseur de service en cours. 
+<a name="bkmk_add_addresses"></a> Une adresse d’urgence doit être associée à un numéro de téléphone ; Lorsque cette association se produit peut varier entre les pays et régions. Par exemple, aux États-Unis, vous devez associer une adresse en cas d’urgence, lorsque vous attribuez le numéro de téléphone de l’utilisateur. Au Royaume-Uni, vous devez associer une adresse d’urgence pour le numéro de téléphone lors de l’obtention les numéros de téléphone à partir d’Office 365 ou transfert des numéros de téléphone de votre fournisseur de service en cours. 
 
 Pour ajouter une adresse d’urgence pour votre organisation, dans la Skype pour le centre d’administration Business atteindre **voix** > **les emplacements d’urgence** > **Ajouter une nouvelle adresse**. Pour plus d’informations, consultez [Add ou remove et adresse d’urgence pour votre organisation](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) .
 
@@ -68,9 +61,7 @@ Pour ajouter un emplacement d’urgence pour votre organisation, dans la Skype p
 
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Étape 5 : Affecter une adresse de secours et d’un numéro de téléphone à un utilisateur
-<a name="bkmk_add_addresses"> </a>
-
-Lorsque vous configurez l’appel de Plans dans Office 365, vous devez affecter un numéro de téléphone et l’adresse de secours pour chacun de vos utilisateurs. L'adresse de secours doit être créée avant l'attribution d'un numéro de téléphone à un utilisateur. 
+<a name="bkmk_add_addresses"></a> Lorsque vous configurez l’appel de Plans dans Office 365, vous devez affecter un numéro de téléphone et l’adresse de secours pour chacun de vos utilisateurs. L'adresse de secours doit être créée avant l'attribution d'un numéro de téléphone à un utilisateur. 
 
 Pour ajouter une adresse d’urgence pour un utilisateur, dans le Skype pour Business admin center, accédez à **voix** > **utilisateurs de voix** > **emplacement d’urgence** > **affecter numéro** > **changer d’emplacement**. Pour plus d’informations, reportez-vous à la section [affecter ou modifier une adresse de secours pour un utilisateur](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md) .
 
@@ -79,7 +70,6 @@ Pour ajouter une adresse d’urgence pour un utilisateur, dans le Skype pour Bus
 
 Pour affecter un numéro de téléphone à un utilisateur, dans le Skype pour Business admin center, accédez à **voix** > **utilisateurs de voix** > **affecter numéro** > **changer d’emplacement**. Pour plus d’informations, reportez-vous à la section [affecter, modifier ou supprimer un numéro de téléphone d’un utilisateur](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md) .
 
-    
 ## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>Étape 6 : Demandez à vos utilisateurs sur leurs nouveaux numéros de téléphone
 <a name="bkmk_add_addresses"> </a>
 

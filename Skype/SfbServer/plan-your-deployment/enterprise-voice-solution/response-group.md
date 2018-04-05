@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planification des groupes de réponse dans Skype pour Business Server Voix Entreprise, qui vous permet de configurer le routage des appels à des groupes d’utilisateurs. Cela inclut les conditions requises pour les fichiers audio.
-ms.openlocfilehash: 67b86d6dd15d6dece05261f216c114b377ea3f07
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dd98ded5af55e39f773b4a0167428ba1644cee87
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server-2015"></a>Planification de l’application Response Group dans Skype Entreprise Server 2015
  
@@ -144,7 +144,6 @@ L’outil de Configuration de groupe de réponse prend en charge les combinaison
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 avec Service Pack 1  <br/> |Internet Explorer 8 (mode natif)  <br/> Internet Explorer 9 (mode natif)  <br/> |
 |Windows Server 2012  <br/> ||
 |Windows Server 2012 R2  <br/> ||
-|||
    
 ### <a name="response-group-agent-console"></a>Console des agents Response Group
 

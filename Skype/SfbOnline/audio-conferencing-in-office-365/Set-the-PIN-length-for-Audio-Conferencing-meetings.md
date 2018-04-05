@@ -22,27 +22,35 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: 442ec6f4395b71acaf3296bdd6ec6317451dc36f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: d8e6073bd60612131e54e10be6498370d8dfe3bb
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>Définir la longueur du code confidentiel pour les réunions de la conférence de l’Audio
 
-Lorsque vous configurez une conférence audio dans pour Skype pour entreprise ou Teams de Microsoft, vous obtiendrez un pont de téléconférence audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone. Le numéro de téléphone que vous avez figurera sur les invitations réunion pour Skype pour les applications d’entreprise et Teams de Microsoft.
+Lorsque vous configurez audioconférence pour Skype pour entreprise ou Teams de Microsoft, vous obtenez un pont de conférence audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone. Le numéro de téléphone que vous avez figurera sur les invitations réunion pour Skype pour les applications d’entreprise et Teams de Microsoft.
   
 Le pont de conférence audio répond à un appel pour les personnes qui sont connectent à une réunion à l’aide d’un téléphone. Elle répond à l’appelant avec des invites vocales d’une surveillance automatique, puis, en fonction de vos paramètres, peut lire les notifications et demandez aux appelants d’enregistrer leur nom. **Paramètres du pont Microsoft** vous autorise à modifier les paramètres pour les notifications de réunion et la réunion de joindre l’expérience et de définir la longueur des broches qui sont utilisés par les organisateurs de la réunion. Les organisateurs de la réunion utilisent broches pour démarrer les réunions si elles ne peuvent pas joindre la réunion à l’aide de la Skype pour application métier ou Teams de Microsoft.
   
 ## <a name="setting-the-pin-length"></a>Définir la longueur du code confidentiel
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+**À l’aide de Skype les équipes Microsoft pour Business Admin Center**
+
+1. Dans la navigation de gauche, accédez à des **réunions** > **Les ponts de conférence**. 
+
+2. En haut de la page de **Ponts de conférence** , cliquez sur **Paramètres du pont**. 
+
+3. Dans le volet **paramètres du pont** , sous **longueur de l’axe**, sélectionnez le nombre de chiffres que vous souhaitez pour le code confidentiel.
+
+4. Cliquez sur **Appliquer**.
+
+Le Centre d'administration Skype Entreprise ou Windows PowerShell permet d'activer ou de désactiver l'envoi de courrier électronique aux utilisateurs.
+ 
+1. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **paramètres de pont de Microsoft**.
     
-2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
-    
-3. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **paramètres de pont de Microsoft**.
-    
-4. Sous **sécurité** > **longueur de broche**, sélectionnez le nombre de chiffres que vous souhaitez pour le code confidentiel, puis cliquez sur **Enregistrer**.
+2. Sous **sécurité** > **longueur de broche**, sélectionnez le nombre de chiffres que vous souhaitez pour le code confidentiel, puis cliquez sur **Enregistrer**.
     
 > [!NOTE]
 > Un code confidentiel est différent d'un ID de conférence. Les ID de conférence sont utilisés par les appelants lorsqu'ils rejoignent la réunion. Ils permettent d'identifier la réunion. Le code confidentiel est utilisé pour authentifier un appelant en tant qu'organisateur de la réunion. 

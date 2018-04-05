@@ -11,11 +11,11 @@ description: Tout ce que vous devez savoir sur la transition de Skype Entrepris
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8d89f0f24f8dc056617ab06890deca74e8fcf60
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: b4341be17cd224e01cc6024d6bf871a6823cdad2
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Transition de Skype Entreprise à Microsoft Teams
 ==================================================
@@ -33,7 +33,7 @@ Pour obtenir des résultats optimaux, nous vous conseillons de suivre les instru
 
 [2 - Manipuler Teams conjointement à Skype Entreprise](pilot-essentials.md)
 
-[3 - Activer Teams avec Skype Entreprise](guidance-SkypeforBusiness.md)
+[3 - mise à niveau de voyage et la coexistence de Skype pour les professionnels et les équipes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 [4 - Apporter de la valeur grâce à l'adoption par les utilisateurs](continue-journey.md)
 

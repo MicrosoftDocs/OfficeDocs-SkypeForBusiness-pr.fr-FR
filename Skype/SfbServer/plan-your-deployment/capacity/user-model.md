@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Cet article fournit des conseils sur le nombre de serveurs nécessaires à un site pour le nombre d’utilisateurs sur ce site, en fonction de l’utilisation décrite dans les modèles de l’utilisateur dans Skype pour Business Server 2015.
-ms.openlocfilehash: b8395e1fdec1a9d4ed100a911fccd6177b03c665
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 313bd440188b1d97afa95d71fcca4e74b5cb8217
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server-2015"></a>Utilisation du modèle utilisateur de planification de capacité dans Skype Entreprise Server 2015
  
@@ -163,9 +163,8 @@ Si vous déployez la surveillance ou l’archivage, les fonctionnalités front-e
   
 Le tableau ci-dessous indique approximativement la quantité de stockage de base de données nécessaire par utilisateur par jour pour les données de surveillance et d’archivage.
   
-|||||
-|:-----|:-----|:-----|:-----|
 ||**CDR (surveillance)** <br/> |**QoE (surveillance)** <br/> |**Archivage** <br/> |
+|:-----|:-----|:-----|:-----|
 |Espace disque requis par utilisateur par jour  <br/> |49 Ko  <br/> |28 Ko  <br/> |57 Ko  <br/> |
    
 Microsoft a utilisé le matériel décrit dans le tableau ci-dessous pour le serveur de base de données pour la surveillance et l’archivage lors des tests de performances. Les tests de collecte les données des deux pools de Front-End, dont chacun contenue 80 000 utilisateurs.
@@ -181,9 +180,8 @@ Microsoft a utilisé le matériel décrit dans le tableau ci-dessous pour le ser
    
 **Configurations de disque recommandées**
 
-||||
-|:-----|:-----|:-----|
 |**Lecteur** <br/> |**Configuration RAID** <br/> |**Nombre de disques** <br/> |
+|:-----|:-----|:-----|
 |Fichiers de données des bases de données CDR, QoE et d’archivage sur un seul disque  <br/> |1+0  <br/> |16  <br/> |
 |Fichier journal de la base de données d’enregistrement des détails des appels  <br/> |1  <br/> |2  <br/> |
 |Fichier journal de la base de données QoE  <br/> |1  <br/> |2  <br/> |
