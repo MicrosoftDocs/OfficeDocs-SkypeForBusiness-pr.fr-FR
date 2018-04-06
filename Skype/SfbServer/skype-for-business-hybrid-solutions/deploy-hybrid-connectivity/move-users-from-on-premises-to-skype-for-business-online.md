@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 description: 'Résumé : Apprenez à migrer les paramètres utilisateur et de déplacer des utilisateurs vers Skype pour l’activité en ligne.'
-ms.openlocfilehash: dada94d1bc198a86a06c468dc959fa0684e706d2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 352798c217cb7495134cb32996db783f7e498ded
+ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Déplacer les utilisateurs vers Skype Entreprise Online
  
@@ -30,7 +30,7 @@ Avant de déplacer l’utilisateur vers Office 365, vous devez d’abord confir
   
 ### <a name="to-confirm-that-an-on-premises-user-account-has-been-synchronized-with-office-365"></a>Pour confirmer qu’un compte d’utilisateur local a été synchronisé avec Office 365
 
-1. Un compte d’administrateur de clients, ouvrez le [Centre d’administration Office 365](https://portal.office.com/) pour vos clients.
+1. Un compte d’administrateur de clients, ouvrez le [Centre d’administration Office 365](https://portal.office.com/) pour vos clients.  Comptes admin du locataire doivent être accordées à la fois le Skype pour le rôle administrateur d’entreprise et le rôle de gestion utilisateur (ou le rôle d’administrateur Global) exécuter cette fonction dans Office 365
     
 2. Dans le volet de navigation de gauche, cliquez sur **Utilisateurs**, puis sur **Utilisateurs actifs**.
     
