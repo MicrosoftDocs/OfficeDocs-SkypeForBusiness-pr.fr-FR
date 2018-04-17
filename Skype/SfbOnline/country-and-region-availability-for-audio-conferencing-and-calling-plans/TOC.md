@@ -1,5 +1,5 @@
 
-# [Skype pour l’administration en ligne de Business](../skype-for-business-online.md)
+# [Skype for Business Online Admin](../skype-for-business-online.md)
 
 ## [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
@@ -11,7 +11,7 @@
 ### [Modifier les paramètres pour un pont d'audioconférence](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)
 ### [Modifier les numéros de téléphone de votre pont d'audioconférence](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 ### [Utilisation d'un appel sortant pour permettre à d'autres personnes de participer à une réunion](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
-### [Désactivation des numéros verts pour des utilisateurs spécifiques](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
+### [Disabling toll-free numbers for specific users](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
 ### [Messages électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
 ### [Activer ou désactiver l'envoi de messages électroniques lorsque leurs paramètres sont modifiés](../audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md)
 ### [Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils rejoignent une réunion](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
@@ -33,7 +33,6 @@
 ### [Démarrer une audioconférence par téléphone sans code confidentiel](../audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md)
 ### [Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Activer ou désactiver les annonces d'entrée et de sortie de réunions](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
-### [Utilisation d'ID dynamiques d'audioconférence dans votre organisation](../audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)
 
 ## [Offres d'appels dans Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Ajouter, modifier ou supprimer un emplacement d'urgence pour votre organisation](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
@@ -48,7 +47,7 @@
 ### [Obtenir des numéros de téléphone pour vos utilisateurs](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
 ### [Comment obtenir des offres d'appels pour Office 365](../what-are-calling-plans-in-office-365/how-to-get-calling-plans-for-office-365.md)
 ### [Gérer des numéros de téléphone pour votre entreprise](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-#### [Gestion de numéros de téléphone pour l’Australie](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [Phone number management for Australia](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 #### [Gestion des numéros de téléphone pour la Belgique](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [Gestion des numéros de téléphone pour le Canada](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 #### [Gestion des numéros de téléphone pour la France](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
@@ -82,7 +81,7 @@
 #### [Langues pour les messages et les messages d'accueil de la messagerie vocale de Skype Entreprise](../what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Configurer un standard automatique pour le système téléphonique](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-### [Configuration de système téléphonique de votre organisation](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
+### [Setting up Phone System in your organization](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [Que sont les standards automatiques de système téléphonique ?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
 ## [Configurer votre réseau pour la diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
@@ -166,4 +165,4 @@
 ### [Code de pratique pour le Royaume-Uni](../accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Code de traitement des réclamations pour le Royaume-Uni](../accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Pratiques de collecte de données](../accessibility-and-regulatory/data-collection-practices.md)
-### [Fin du programme de vie pour l’intégration de Skype pour les entreprises à la conférence audio de tiers](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+### [End of life program for the integration of Skype for Business with third-party audio conferencing](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)
