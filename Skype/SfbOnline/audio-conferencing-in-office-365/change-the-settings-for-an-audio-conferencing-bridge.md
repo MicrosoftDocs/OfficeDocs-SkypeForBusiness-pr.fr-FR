@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
+ms.date: 04/03/2018
 ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business clients. "
-ms.openlocfilehash: d9b80b06a3c52c6ec386a0e5052f1bb71f914650
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+description: 'Obtenir les étapes que vous devez modifier les paramètres d’un pont de conférence qui est utilisé pour demander des appelants et collecter des noms et des broches pour les organisateurs de la réunion lorsqu’ils utilisent pas Skype pour les applications d’entreprise ou Teams de Microsoft. '
+ms.openlocfilehash: 727392bc81bce2fb3cfd84029e6a275e1eed3e24
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont de conférence de données Audio
 
@@ -36,19 +36,20 @@ Le pont de conférence répond à un appel et vous demande de l’appelant avec 
 
   > [!IMPORTANT]
   > Un code PIN n’est requis pour la réunion lorsqu’un Skype pour l’utilisateur d’application métier ou Teams de Microsoft n’a pas déjà commencée. Si tout le monde appelle à la réunion, le code PIN est nécessaire pour l’organisateur de la réunion démarrer la réunion. 
-  
-## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont de conférence audio 
 
-### <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>À l’aide de Skype les équipes Microsoft pour Business Admin Center
+> [!CAUTION]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-1. Dans la navigation de gauche, accédez à des **réunions** > **Les ponts de conférence**. 
+## <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>À l’aide de Skype les équipes Microsoft pour Business Admin Center
 
-2. En haut de la page de **Ponts de conférence** , cliquez sur **Paramètres du pont**. 
+1. Dans la navigation de gauche, accédez à des **réunions** > **les ponts de conférence**. 
+
+2. En haut de la page de **ponts de conférence** , cliquez sur **paramètres du pont**. 
 
 3. Dans le volet **paramètres du pont** , sélectionnez : 
-  - **Activer l’accès à la réunion et de quitter des notifications pour être activé** Si vous désactivez cette option, les utilisateurs qui ont déjà joint la réunion ne serez pas avertis lorsque quelqu'un entre ou quitte la réunion.
+  - **Entrée de réunion et de quitter des notifications** Si vous désactivez cette option, les utilisateurs qui ont déjà joint la réunion ne serez pas avertis lorsque quelqu'un entre ou quitte la réunion.
     
-    Lorsque vous sélectionnez **Activer l’accès à la réunion et de quitter des notifications pour être activé**, vous pouvez sélectionner ces options dans la liste **type d’annonce d’entrée et de sortie** :
+    Lorsque vous activez **les notifications d’entrée et de sortie de la réunion**, vous pouvez sélectionner ces options :
     
   - **Les noms ou les numéros de téléphone** Lorsque les utilisateurs se connecter à une réunion, son numéro de téléphone sera lu lorsqu’ils joignent l’il.
     
@@ -63,7 +64,7 @@ Le pont de conférence répond à un appel et vous demande de l’appelant avec 
  
 6. Cliquez sur **Appliquer**. 
 
-### <a name="using-skype-for-business-online"></a>À l’aide de Skype pour les entreprises en ligne
+## <a name="using-skype-for-business-admin-center"></a>À l’aide de Skype pour Business admin center
 
  **Configurer l’expérience de réunion lorsque les appelants de joindre une réunion**
     
@@ -78,9 +79,6 @@ Le pont de conférence répond à un appel et vous demande de l’appelant avec 
   - **Les noms ou les numéros de téléphone** Lorsque les utilisateurs se connecter à une réunion, son numéro de téléphone sera lu lorsqu’ils joignent l’il.
     
   - **Tonalités** Lorsque les utilisateurs se connecter à une réunion, un signal audio est lu lorsqu’ils joignent l’il.
-    
-    > [!NOTE]
-    > L'utilisation de **sonnerie** comme type d'annonce est actuellement disponible pour tous les clients sous forme de fonctionnalité en préversion.
   
   - **Demander aux appelants d'enregistrer leur nom avant de participer à la réunion**: cette option est sélectionnée par défaut. Si vous désactivez la case à cocher, les appelants ne vous demandera d’enregistrer leur nom avant de participer à une réunion.
     
@@ -107,7 +105,7 @@ Reportez-vous à la rubrique **Modification des paramètres d'un pont de confér
     
 3. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **paramètres de pont de Microsoft**.
     
-4. Dans la page **paramètres du pont Microsoft** , sélectionnez ou désactivez **Envoyer automatiquement des e-mails aux utilisateurs si leur configuration d’audioconférence change**, puis cliquez sur **Enregistrer**.
+4. Dans la page **paramètres du pont Microsoft** , sélectionnez ou désactivez **Envoyer automatiquement des e-mails aux utilisateurs si leurs informations de connexion à modifier**, puis cliquez sur **Enregistrer**.
     
     Pour plus d’informations, reportez-vous à la section [E-mails envoyés automatiquement aux utilisateurs lors de la modifient de leurs paramètres d’audioconférence](emails-sent-to-users-when-their-settings-change.md) .
     

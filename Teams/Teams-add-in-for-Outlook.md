@@ -3,21 +3,23 @@ title: Utiliser le complément Réunion Microsoft Teams dans Outlook
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 03/12/2018
+audience: Admin
+ms.date: 04/09/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
+localization_priority: Normal
 description: Microsoft Teams installe un complément dans Outlook qui permet aux utilisateurs de planifier une réunion Teams depuis Outlook.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 811c27a48a0e9bbccfbea7ac12e54ef0697b3f2b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 109911e27a881ea09fb9854bb84ab19222722c39
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -62,7 +64,16 @@ Certaines fonctionnalités du complément Réunion Teams sont encore en cours de
 - Le complément concerne les réunions planifiées avec des participants spécifiques, pas les réunions dans un canal. Les réunions de canal doivent être planifiées au sein de Teams. Actuellement, le complément Réunion Teams dans Outlook est disponible uniquement pour les utilisateurs Windows, mais il sera pris en charge sur Mac prochainement.
 - Le complément ne fonctionnera pas si un proxy d'authentification se trouve dans le chemin d'accès réseau de l'ordinateur de l'utilisateur et des services Teams.
 
+## <a name="troubleshooting"></a>Identification et résolution des problèmes
+
+Si vous ne parvenez pas la réunion des équipes de complément pour Outlook pour installer, essayez les étapes de dépannage.
+
+- Redémarrer le client de bureau d’équipes.
+- Se déconnecter et de vous connecter de nouveau au client Bureau équipes.
+- Redémarrer le client de bureau Outlook. (Assurez-vous que Outlook n’est pas exécuté en mode administrateur.)
+- Assurez-vous que le nom du compte utilisateur connecté ne contient-elle pas d’espaces. (Ceci est un problème connu et sera résolu dans une future mise à jour.)
+- Assurez-vous que l’authentification unique (SSO) est activé.
+
 Pour des orientations générales sur la procédure de désactivation des compléments, consultez la rubrique [Afficher, gérer et installer des compléments dans les programmes Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 
 Découvrez les [réunions et les appels dans Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
-

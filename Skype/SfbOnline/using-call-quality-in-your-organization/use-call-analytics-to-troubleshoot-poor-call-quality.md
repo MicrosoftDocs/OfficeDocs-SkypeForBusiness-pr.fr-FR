@@ -19,18 +19,18 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Analytique d’appeler plus d’informations sur les périphériques, les réseaux et connectivité permet de résoudre les problèmes utilisateur Skype pour les réunions et les appels de l’entreprise.
-ms.openlocfilehash: b7f900509506433bd2c863fb6c0c33c4f71f2ab5
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 8f782a18dd7cb7fe7cbae73c7bd43b3e44c6928c
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>Qualité des appels Analytique d’appeler utiliser pour résoudre les problèmes de mauvaise Skype pour entreprise
 
 Appel Analytique vous aide à résoudre les problèmes de connexion ou d’appel Skype pour les entreprises. Appel Analytique affiche des informations détaillées sur les périphériques, les réseaux et connectivité pour les appels et les réunions de chaque utilisateur de votre Skype pour le compte de l’entreprise. Si la génération, du site et client informations ont été ajoutées pour appeler Analytique, elle s’affiche également pour chaque appel et la session. Les informations disponibles via l’appel d’Analytique peuvent vous aider à déterminer pourquoi un utilisateur avait un appel médiocre ou expérience de la réunion. 
   
-    > [!NOTE]
-    > Call Analytics is currently in preview. Text and images described here may not match your experience. 
+> [!NOTE]
+> Analytique de l’appel est en cours d’aperçu. Texte et images décrites ici peut ne pas correspondent de votre expérience.
   
 ## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>Résoudre les problèmes de qualité d’appel à l’aide d’appeler l’Analytique
 

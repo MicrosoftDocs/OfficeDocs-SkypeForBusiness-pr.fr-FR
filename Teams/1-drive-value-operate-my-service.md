@@ -3,7 +3,7 @@ title: Guide d’utilisation pour les équipes de Microsoft
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 04/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: Les tâches et activités requises pour la gestion des équipes ser
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 308ca6bd3ea0dcd847756392d8db721b48aa8d08
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 9d64da9bbe792031afbb3538020b7ff92fbaf493
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="operate-my-service"></a>Utiliser mon service
 
@@ -415,7 +415,7 @@ Côté client pare-feu peuvent affecter la qualité des appels et même empêche
 
 ### <a name="wi-fi-drivers"></a>Pilotes Wi-Fi
 
-Pilotes Wi-Fi peuvent être problématiques. Par exemple, un pilote peut avoir très agressifs comportements itinérants entre points d’accès qui peuvent induire des points d’accès inutiles de commutation, conduisant à l’appel de mauvaise qualité. Un pilote Wi-Fi médiocres peut être découvert par un examen d’expérience de la qualité (voir la [Qualité d’expérience révision Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) pour plus de détails). Il est essentiel d’implémenter un processus de qualité qui surveille les nouveaux pilotes Wi-Fi et s’assure qu’ils sont testés avant le déploiement de la population des utilisateurs généraux.
+Pilotes Wi-Fi peuvent être problématiques. Par exemple, un pilote peut avoir très agressifs comportements itinérants entre points d’accès qui peuvent induire des points d’accès inutiles de commutation, conduisant à l’appel de mauvaise qualité. Un pilote Wi-Fi médiocres peut être découvert par un examen d’expérience de la qualité (voir la [Qualité d’expérience révision Guide](https://aka.ms/qerguide) pour plus de détails). Il est essentiel d’implémenter un processus de qualité qui surveille les nouveaux pilotes Wi-Fi et s’assure qu’ils sont testés avant le déploiement de la population des utilisateurs généraux.
 
 ### <a name="endpoint-management"></a>Gestion de point de terminaison
 
