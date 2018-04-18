@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/31/2018
 ms.topic: article
 ms.assetid: e18d2274-cd69-47f6-9a65-1adc59dc5399
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone en Espagne pour Skype Entreprise Online et Microsoft Teams.
-ms.openlocfilehash: 1b3ab2cf574d972576867e2e0d4e2213cb2fe303
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: b1ee44f7135466a416bf9a8a011d9e3f543a0ed3
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="phone-number-management-for-spain"></a>Gestion des numéros de téléphone pour l'Espagne
 
@@ -37,7 +36,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
 |Obtenir les nouveaux numéros de téléphone des utilisateurs qui ne figurent pas dans le Skype pour Business admin center.   <br/> | Téléchargez le formulaire [Demande de nouveaux numéros de téléphone pour l'Espagne (numéros géographiques) (v.3.0)(es-es)](../../downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es-es).pdf) <br/><br/>    Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
-|Obtenir les nouveaux numéros de téléphone de service qui ne figurent pas dans le Skype pour Business admin center. <br/> |Pour les numéros de service en dehors des États-Unis, veuillez [télécharger ce formulaire](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf), remplir les extraire et les [Envoyer pour nous](mailto:ptneu@microsoft.com).
+|Obtenir les nouveaux numéros de téléphone de service qui ne figurent pas dans le Skype pour Business admin center. <br/> |Télécharger ce formulaire [nouvelle demande de numéro de téléphone pour l’Espagne (numéros de service) (versionsv.1.2) (es-es)](../../downloads/new-number-request-forms/new-phone-number-request-for-spain-(service-numbers)-(v.1.2)-(es-es).pdf).<br/> Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).
 |Vous devez obtenir des numéros de téléphone qui nous sont transférés.  <br/> |Téléchargez le formulaire [Courrier d'autorisation (LOA) pour l'Espagne (tous les numéros) (v.1.0) (es-es)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es-es).pdf), remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/> |
 |Vous devez publier/annuler la publication des numéros de téléphone dans l'annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
 |Vous devez remplacer le numéro d'un utilisateur par un numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com ) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |

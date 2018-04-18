@@ -1,10 +1,9 @@
 ---
-title: Toll-free dialing restrictions in Honduras
+title: Restrictions de numérotation gratuit au Honduras
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 9e1ed7ac-a49b-4092-b9e9-40486512145c
 ms.tgt.pltfrm: cloud
@@ -19,32 +18,32 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number.
-ms.openlocfilehash: e8ded971205c4d373bd6ac62dfbce59220f6be86
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: Cela vous permettra de savoir comment composer les numéros gratuits dans chaque pays/région. Après avoir sélectionné le pays ou la région, il faudra vous à une page spécifique à un pays qui contient des détails spécifiques, des restrictions et limites pour une disponibilité de service gratuit où le service gratuit est disponible. Les formats ou le format de la numérotation affiche les codes d’accès requis au sein de chaque pays/région à composer le numéro d’appel gratuit.
+ms.openlocfilehash: ee0af1f9f2ca9ad55b401eacda2781f5a9d4280b
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="toll-free-dialing-restrictions-in-honduras"></a>Toll-free dialing restrictions in Honduras
+# <a name="toll-free-dialing-restrictions-in-honduras"></a>Restrictions de numérotation gratuit au Honduras
 
-[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
+[Recherche d’un autre pays ou une région](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de numérotation gratuit.
 
 
 |**Détails**|**Description**|
 |:-----|:-----|
-|Is toll-free calling available?  <br/> |Oui  <br/> |
-|Dialing format(s)  <br/> |800 XXXX XXXX  <br/> |
-|Country/region ISO code  <br/> |HN  <br/> |
-|Island/territory covered  <br/> |Non applicable  <br/> |
-|Island/territory not covered  <br/> |Non applicable  <br/> |
-|Wired/fixed line availability  <br/> |Via Hondutel uniquement.  <br/> |
-|Mobile network availability  <br/> | Via Tigo uniquement. <br/> |
-|Comments, restrictions, and access issues  <br/> |Aucun  <br/> |
+|Est gratuit disponible l’appel ?  <br/> |Oui  <br/> |
+|Formats de numérotation  <br/> |800 XXXX XXXX  <br/> |
+|Code de pays/région ISO  <br/> |HN  <br/> |
+|Île/territoire couvert  <br/> |Non applicable  <br/> |
+|Île/territoire non couvert  <br/> |Non applicable  <br/> |
+|Disponibilité de la ligne de filaire/fixe  <br/> |Via Hondutel uniquement.  <br/> |
+|Disponibilité du réseau mobile  <br/> | Via Tigo uniquement. <br/> |
+|Commentaires, les restrictions et les problèmes d’accès  <br/> |Aucun  <br/> |
    
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Toll-free dialing limitations and restrictions](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+[Restrictions et limitations de numérotation gratuit](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
