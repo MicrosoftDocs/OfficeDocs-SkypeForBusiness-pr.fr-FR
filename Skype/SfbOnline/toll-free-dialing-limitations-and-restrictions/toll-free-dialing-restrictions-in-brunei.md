@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 464dcca9-e2a8-410d-9de6-317d192fe5b2
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer les numéros gratuits dans chaque pays/région. Après avoir sélectionné le pays ou la région, il faudra vous à une page spécifique à un pays qui contient des détails spécifiques, des restrictions et limites pour une disponibilité de service gratuit où le service gratuit est disponible. Les formats ou le format de la numérotation affiche les codes d’accès requis au sein de chaque pays/région à composer le numéro d’appel gratuit.
-ms.openlocfilehash: a67ca4fb6697e75dd1e776ccf590fa0d3290a3bb
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 0a1c5a77b8862b65c83f0c284c98a7b584d03a10
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-brunei"></a>Restrictions d’appel gratuit dans Brunei
 

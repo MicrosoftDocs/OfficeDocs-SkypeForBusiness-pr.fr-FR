@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 5299cce0-850e-42dc-b6ae-2d0ee775c4a9
 ms.tgt.pltfrm: cloud
@@ -18,11 +17,11 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Que les personnes de votre organisation puissent utiliser la diffusion de réunion Skype, vous devez l’activer. Pour ce faire, vous devez savoir comment utiliser Windows PowerShell. Si vous ne connaissez pas Windows PowerShell, envisagez de demander l'aide d'un partenaire Microsoft pour effectuer cette étape pour vous.
-ms.openlocfilehash: f2c95e16a091c79425ea508f557a78f91ce1262f
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 847630e92d0a8ea26edcc7bb70213ee9f932517d
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Activer une diffusion de réunion Skype
 

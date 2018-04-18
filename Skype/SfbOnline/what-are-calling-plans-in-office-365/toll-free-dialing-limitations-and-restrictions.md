@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Cela vous permettra de savoir comment composer les numéros gratuits dans chaque pays/région. Après avoir sélectionné le pays ou la région, il faudra vous à une page spécifique à un pays qui contient des détails spécifiques, des restrictions et limites pour une disponibilité de service gratuit où le service gratuit est disponible. Les formats ou le format de la numérotation affiche les codes d’accès requis au sein de chaque pays/région pour composer le numéro d’appel gratuit.
-ms.openlocfilehash: 9ece5f4cf978b00cc782d936251d013c4cf43f8c
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: b683c5e09beef434111379d108b3d09b1ba684a9
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Restrictions et limitations de numérotation gratuit
 

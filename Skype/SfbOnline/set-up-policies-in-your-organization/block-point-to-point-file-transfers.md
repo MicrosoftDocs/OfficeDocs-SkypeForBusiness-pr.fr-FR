@@ -3,7 +3,6 @@ title: Point à point de bloquer les transferts de fichiers
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 9adf9859-de5b-461e-92ea-b6ce4dd2f7c1
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Dans Skype pour professionnels en ligne, vous avez la possibilité de contrôler les transferts de fichiers de point à point (P2P) dans le cadre des paramètres de stratégie existants conférence. Toutefois, ce autorise ou bloque les transferts pour les utilisateurs ou non, ils sont transférer des fichiers à un utilisateur qui se trouve dans la même organisation ou à un utilisateur fédéré à partir d’une autre organisation de fichiers. Suivant la procédure décrite ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec les organisations fédérées ou de partenaires.
-ms.openlocfilehash: 8e3fd112d46a88752b0d6d19cf2e1fbb1787df32
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: e73a2baa8368d3ed1c20a79e8f78010749c05fb2
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="block-point-to-point-file-transfers"></a>Point à point de bloquer les transferts de fichiers
 

@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 7812d5d5-0d57-4f3e-85b6-628882a911b3
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer les numéros gratuits dans chaque pays/région. Après avoir sélectionné le pays ou la région, il faudra vous à une page spécifique à un pays qui contient des détails spécifiques, des restrictions et limites pour une disponibilité de service gratuit où le service gratuit est disponible. Les formats ou le format de la numérotation affiche les codes d’accès requis au sein de chaque pays/région à composer le numéro d’appel gratuit.
-ms.openlocfilehash: f12ea9e4478e8c2a7fad942101845427e8a7ec95
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: e9c7cfbebb6d4e1ada21627968eb8358606bd330
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>Restrictions de numérotation gratuit au Danemark
 

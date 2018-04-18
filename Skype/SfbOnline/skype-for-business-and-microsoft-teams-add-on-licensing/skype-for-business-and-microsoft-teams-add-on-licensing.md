@@ -1,10 +1,9 @@
 ---
-title: Skype pour entreprise et Microsoft Teams module complémentaire Gestionnaire de licences
+title: Skype for Business and Microsoft Teams add-on licensing
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 03/22/2018
 ms.topic: article
 ms.assetid: 3ed752b1-5983-43f9-bcfd-760619ab40a7
 ms.tgt.pltfrm: cloud
@@ -22,61 +21,61 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 - LIL_Placement
-description: 'En savoir plus sur les licences de module complémentaire, les fonctionnalités que vous obtenez avec elle, comment les acheter pour votre produit et comment utiliser l’opérateur de télécommunications existant avec les. Vous pouvez obtenir des informations sur les détails de tarification et de plan pour Office 365, crédits de Communication, et les plans d’appel. '
-ms.openlocfilehash: eaaf093e49dd6719d8cea8b1543f248f29467a57
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
+ms.openlocfilehash: 0b479d25e074c22aa83c66f06ec8034e9a38d92a
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Skype pour entreprise et Microsoft Teams module complémentaire Gestionnaire de licences
+# <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Skype for Business and Microsoft Teams add-on licensing
 
 ## <a name="what-are-add-on-licenses"></a>Qu'est-ce qu'une licence de complément ?
 
-Licences supplémentaires sont des licences pour Skype spécifique pour les fonctions commerciales et Teams de Microsoft. Certaines entreprises souhaitent avoir la possibilité d'acheter uniquement certaines fonctionnalités à un prix compétitif. Pour ajouter une fonctionnalité, acheter une licence supplémentaire pour chaque utilisateur qui vont l’utiliser.
+Add-on licenses are licenses for specific Skype for Business and Microsoft Teams features. Certaines entreprises souhaitent avoir la possibilité d'acheter uniquement certaines fonctionnalités à un prix compétitif. To add a feature, buy one add-on license for each user who will use it.
 
-Skype pour les entreprises et les Teams de gestion de licences de Microsoft est conçu pour vous offrir le maximum de flexibilité. Par exemple, après l’utilisation de Skype de base pour les fonctionnalités d’entreprise pendant un certain temps, vous pouvez acheter des licences supplémentaires lorsque vous êtes prêt à utiliser davantage de fonctionnalités, comme les conférences Audio, ou le système téléphonique dans Office 365.
+Skype for Business and Microsoft Teams licensing is designed to give you the maximum amount of flexibility. For example, after using basic Skype for Business features for a while, you can buy add-on licenses when you're ready to use more features, such as Audio Conferencing, or the Phone System in Office 365.
 
-## <a name="how-does-add-on-licensing-affect-cost"></a>Comment la licence de module complémentaire n’affecte pas les coûts ?
+## <a name="how-does-add-on-licensing-affect-cost"></a>How does add-on licensing affect cost?
 
-Pour la plupart des entreprises, l'achat d'une offre groupée de logiciels dans le cadre d'une offre d'entreprise entraîne des coûts globaux moindres. En règle générale, lorsque vous achetez plusieurs licences supplémentaires individuellement au lieu de dans le cadre d’un plan, peut vous amener à coût combiné supérieur.
+Pour la plupart des entreprises, l'achat d'une offre groupée de logiciels dans le cadre d'une offre d'entreprise entraîne des coûts globaux moindres. Typically, when you buy several add-on licenses individually instead of as part of a plan, you may end up with higher combined cost.
 
-Pour plus d’informations sur les coûts, voir [comment consulter les prix et acheter des licences supplémentaires](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) ou une des opérations suivantes :
+For more cost information, see [How to see prices and buy add-on licenses](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) or one of the following:
   
 - [Tarifs pour l'audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing) 
     
 - [Tarifs pour le système téléphonique](https://products.office.com/en-us/skype-for-business/phone-system)
     
-- [Tarification des Plans d’appel](https://products.office.com/en-us/skype-for-business/calling-plans)
+- [Pricing for Calling Plans](https://products.office.com/en-us/skype-for-business/calling-plans)
     
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>Quelles fonctionnalités puis-je obtenir avec des licences de complément ?
 
-En fonction de laquelle vous envisagez déjà avoir, vous pouvez acheter des licences supplémentaires pour le Skype suivant pour les fonctions commerciales et Teams de Microsoft :
+Depending on which plan you already have, you can buy add-on licenses for the following Skype for Business and Microsoft Teams features:
   
 |||
 |:-----|:-----|
 |**Fonctionnalité** <br/> |**Description** <br/> |
-|**Audioconférence** <br/> |Les personnes de votre organisation devez parfois utiliser un téléphone pour appeler un Skype pour une réunion commerciale ou Teams de Microsoft, au lieu d’utiliser leur ordinateur. Dans ce cas, utilisez la fonction d’audioconférence.  <br/> Pour savoir si les conférences Audio est disponible dans votre pays ou votre région, voir [disponibilité de pays et de région pour les conférences Audio et les Plans d’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> Si vous cherchez comment bien il les coûts, reportez-vous à la section [Configuration requise pour les conférences Audio](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
-|**Numéros gratuits pour un accès rendez-vous à vos conférences et possibilité d'accès global aux appels sortants à partir d'une conférence pour ajouter une personne en appelant n'importe quel numéro** <br/> |Si vous ajoutez les conférences Audio, il est recommandé que vous pouvez [paramétrer des crédits de Communications](set-up-communications-credits-for-your-organization.md). <br/> |
-|**Système de téléphone** <br/> |Un PBX est un système téléphonique dédié aux entreprises. Système de téléphone dans Office 365 est un service hébergé de téléphone dans Office 365. Il vous offre des fonctionnalités innovantes de façon simple et économique. [Voici ce que vous obtenez avec système de téléphone dans Office 365](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md).  <br/> Si vous cherchez comment bien il les coûts, reportez-vous à la section [Configuration requise pour le système téléphonique](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
-|**Plans d’appel** <br/> |Les appels à d’autre Skype pour les utilisateurs professionnels sont gratuites, mais si vous souhaitez que vos utilisateurs puissent appeler les numéros de téléphone à l’extérieur de votre entreprise, obtient un [Appel de Plan](calling-plans-for-office-365.md). Il existe des Plans nationaux appelant et domestiques et International appel de Plans dans Office 365.  <br/> Si vous cherchez comment bien il les coûts, reportez-vous à la section [Configuration requise pour l’appel de Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |
-|**Systèmes de salle Skype v2** <br/> |Ce n'est pas un module complémentaire mais une fonctionnalité qui apporte de la vidéo, de l'audio et du partage de contenu aux salles de conférence. Reportez-vous à la section [Skype salle systèmes v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
+|**Audioconférence** <br/> |Sometimes people in your organization will need to use a phone to call in to a Skype for Business or Microsoft Teams meeting, instead of using their computer. Use the Audio Conferencing feature for this situation.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> If you are looking for how much it costs, see [Requirements for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
+|**Numéros gratuits pour un accès rendez-vous à vos conférences et possibilité d'accès global aux appels sortants à partir d'une conférence pour ajouter une personne en appelant n'importe quel numéro** <br/> |If you add Audio Conferencing, we recommend that you [Set up Communications Credits](set-up-communications-credits-for-your-organization.md). <br/> |
+|**Phone System** <br/> |Un PBX est un système téléphonique dédié aux entreprises. Phone System in Office 365 is a hosted telephone service in Office 365. Il vous offre des fonctionnalités innovantes de façon simple et économique. [Here's what you get with Phone System in Office 365](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md).  <br/> If you are looking for how much it costs, see [Requirements for Phone System](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
+|**Calling Plans** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> If you are looking for how much it costs, see [Requirements for Calling Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |
+|**Systèmes de salle Skype v2** <br/> |Ce n'est pas un module complémentaire mais une fonctionnalité qui apporte de la vidéo, de l'audio et du partage de contenu aux salles de conférence. See [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
    
 Vous souhaitez contacter quelqu'un à propos des options de tous les modules complémentaires ? [Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-## <a name="license-options-based-on-your-plan"></a>Options de licence en fonction de votre plan
+## <a name="license-options-based-on-your-plan"></a>License options based on your plan
 
-Les options de licence de module complémentaire à votre disposition dépend de celle de votre Office 365 ou un Skype pour le plan d’entreprise. Consultez les rubriques suivantes pour des informations, des fonctionnalités et des options spécifiques à votre projet. 
+The add-on licensing options available to you depends on your Office 365 or Skype for Business plan. See the following topics for information, features, and options that are specific to your plan. 
 
-- [Prime d’entreprise Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
-- [Prime d’Office 365, Office 365 ProPlus, ou Skype pour les entreprises en ligne Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
-- [Office 365 entreprise E1, E3 et E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
-- [E5 d’entreprise Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
-- [E5 d’entreprise Office 365 (sans audioconférence)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
+- [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+- [Office 365 Premium, Office 365 ProPlus, or Skype for Business Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+- [Office 365 Enterprise E1, E3, and E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
+- [Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
+- [Office 365 Enterprise E5 (without Audio Conferencing)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
 - [Systèmes de salle Skype v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
-- [GOV, EDU et des organisations à but non lucratif](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
+- [GOV, EDU, and non-profit organizations](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 
-Pour une liste détaillée des fonctionnalités et des comparaisons pour chaque Skype pour le plan d’entreprise, consultez le [Skype pour la Description de Service en ligne de Business](https://go.microsoft.com/fwlink/?LinkId=730729).
+For a detailed list of features and comparisons for each Skype for Business plan, see the [Skype for Business Online Service Description](https://go.microsoft.com/fwlink/?LinkId=730729).
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Comment connaître les prix et acheter des licences de complément ?
 <a name="bkmk_how"> </a>
@@ -85,16 +84,16 @@ Pour une liste détaillée des fonctionnalités et des comparaisons pour chaque 
   
 En fonction des modules complémentaires que vous souhaitez acquérir, nous vous recommandons d'[évaluer s'il serait plus rentable ](https://go.microsoft.com/fwlink/?linkid=844053) de passer à un plan qui comprend déjà ces fonctions.
 
-Consultez votre plan sous « Options de licence en fonction de votre plan » pour plus de détails sur lequel des licences à acheter et comment consulter les prix et acheter des licences supplémentaires. 
+See your plan under "License options based on your plan" for more details about which licenses to buy and how to see prices and purchase add-on licenses. 
 
-## <a name="how-do-i-use-my-existing-calling-plans-with-skype-for-business"></a>Comment utiliser Mes Plans d’appel existant avec Skype pour les entreprises ?
+## <a name="how-do-i-use-my-existing-calling-plans-with-skype-for-business"></a>How do I use my existing Calling Plans with Skype for Business?
 <a name="bkmk_existing"></a>
 
-Si vous souhaitez utiliser votre Plan d’appel existantes, acheter le module complémentaire du **Système téléphonique** et l’utiliser avec le **[connecteur de nuage disponible](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
+If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
   
-Si vous utilisez la connectivité RTPC sur site pour les utilisateurs de hybride, vous *uniquement* affecter les licences de **Système téléphonique** à vos utilisateurs. **Ne pas** également affecter un Plan d’appel.
+If you are using on-premises PSTN connectivity for hybrid users, you  *only*  assign **Phone System** licenses to your users. **DO NOT** also assign a Calling Plan.
   
-Pour une documentation complète sur la planification de votre déploiement, notamment le système téléphonique avec la connectivité RTPC sur site, consultez [planification de votre système téléphonique dans les solutions Office 365 (Cloud PBX)](https://technet.microsoft.com/en-us/library/mt612869.aspx).
+For extensive documentation on planning your deployment, including Phone System with on-premises PSTN connectivity, see [Plan your Phone System in Office 365 (Cloud PBX) solution](https://technet.microsoft.com/en-us/library/mt612869.aspx).
   
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
@@ -105,9 +104,9 @@ Pour une documentation complète sur la planification de votre déploiement, not
     
 - [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
-- [Définir des Plans d’appel](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) et [Appel de Plans pour Office 365](calling-plans-for-office-365.md)
+- [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)
     
 - [Ajouter des fonds et gérer les crédits de communication](add-funds-and-manage-communications-credits.md)
     
-- [Configurer le connecteur de nuage](https://technet.microsoft.com/en-us/library/mt605228.aspx) et [Télécharger le connecteur de nuage](https://aka.ms/CloudConnectorInstaller)
+- [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
     

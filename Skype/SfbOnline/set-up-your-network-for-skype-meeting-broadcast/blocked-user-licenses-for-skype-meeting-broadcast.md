@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: b898557c-547f-4055-9478-d17fb653285f
 ms.tgt.pltfrm: cloud
@@ -18,11 +17,11 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Malheureusement, il y a certaines licences utilisateur qui sont bloquées lorsque l’utilisateur accéder au https://broadcast.skype.com et souhaitez utiliser Skype réunion de diffusion. Si un utilisateur voit ce message, ils ont une des licences bloqués qui leur sont affectées. Si vous voulez les utiliser, les affecter une autre licence d’Office 365.
-ms.openlocfilehash: 59b00fd9b7557177994a1d4279756c56aa5ba613
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 536df828081fdda78b6a0079a53661a4b3276e3a
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Bloqué des licences utilisateur pour diffusion de réunion Skype
 

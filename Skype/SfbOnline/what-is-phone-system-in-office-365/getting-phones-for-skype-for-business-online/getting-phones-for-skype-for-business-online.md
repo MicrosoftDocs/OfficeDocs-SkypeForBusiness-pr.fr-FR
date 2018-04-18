@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 91f2d947-45fc-4fab-bd8b-2e313531c477
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: de220c3ce9ab2fd17fb65589d721f41a7bc0ebb2
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: a2eab7b314b02c288367a45b68b8c364acefd1eb
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtention de numéros de téléphone pour Skype Entreprise Online
 
@@ -51,7 +50,7 @@ Lors de la commande Nouveau téléphones pour Skype pour les entreprises, il est
    
 Pour plus de détails sur les téléphones Polycom, reportez-vous à la page [Voice Solutions for Microsoft](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
   
-Pour plus de détails sur les téléphones de Yealink, consultez [Skype pour les téléphones IP Business](http://www.yealink.com/products_top_2.html)
+Pour plus de détails sur les téléphones Yealink, reportez-vous à la page [Skype for Business IP Phones](http://www.yealink.com/products_list_10.html#filter2).
   
 Pour plus de détails sur les téléphones de AudioCodes, consultez [Skype pour les téléphones IP Business](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
@@ -106,6 +105,9 @@ Pour des fonctions et des fonctionnalités de périphérique complet, consultez 
 |Délégation  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Intégration de l'image des contacts  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |
 ||||||
+
+    > [!NOTE]
+    > CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
    
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 Pour obtenir des instructions de configuration détaillées, consultez la page [Déploiement de téléphones Skype Entreprise Online](deploying-skype-for-business-online-phones.md).

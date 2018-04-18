@@ -3,7 +3,6 @@ title: Prise en charge de Skype Entreprise Online avec Outlook sur le Web
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 305984ec-3da8-4509-bb2b-6643dcf2cb7d
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Outlook sur le Web (Outlook Web App) dans Office 365 offre un client Web Skype Entreprise standard depuis la barre de navigation. Ce client de base est disponible pour les utilisateurs en ligne dont admin n’a pas configuré une URL vanity pour leur organisation d’Office 365. Tant que le compte d’utilisateur est en ligne et n’a pas une URL de courtoisie, ils pourront toujours voir l’expérience même si leur organisation a certains comptes d’utilisateurs qui sont hébergées sur site. Les utilisateurs qui ont des utilisateurs comptes locaux (qu’ils aient une URL vanity ou non) ou sont gérés par Microsoft verront l’expérience Lync dans Outlook web app.
-ms.openlocfilehash: 4ba094640ddfb77e39640f6a610da150320dd867
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 03491bb0cb200cac8eecb0ae2282a7003a85f8dc
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Prise en charge de Skype Entreprise Online avec Outlook sur le Web
 

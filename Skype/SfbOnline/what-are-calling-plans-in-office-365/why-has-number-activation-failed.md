@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: c4e54d00-e096-474c-a457-56e785439ff6
 ms.tgt.pltfrm: cloud
@@ -21,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: 0da05c5cdcc3c0c28d92d44d7433ec1a1abcabce
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: eca7d50bdc33c12f6cea11f1d37e054516891aae
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="why-has-number-activation-failed"></a>Pourquoi l’activation numérique a échoué ?
 La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Si pour une raison quelconque, un numéro de téléphone n’est pas activé en raison de la validation de l’adresse, vous devez créer une demande de service. La procédure dépend de la taille de votre organisation.

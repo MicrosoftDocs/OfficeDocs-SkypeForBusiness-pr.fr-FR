@@ -3,7 +3,6 @@ title: Stratégies de restriction appel sortant pour les appels RTPC Audio conf�
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 2/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -18,11 +17,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler le type d’utilisateur final et conférence PSTN appels audio pouvant être effectuées par les utilisateurs.
-ms.openlocfilehash: ab6f34e46ceb6a9811830ba1444278db667de73c
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: a842366a5788de960cf5f0338219903ebe3d93f7
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction appel sortant pour les appels RTPC Audio conférence et l’utilisateur
 

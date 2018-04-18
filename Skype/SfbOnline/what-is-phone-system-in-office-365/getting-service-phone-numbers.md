@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, makolomi
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: e434aeb2-af99-40e7-981e-a474f0383734
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: Outre les numéros de téléphone pour vos utilisateurs à partir d’Office 365, vous pouvez rechercher et acquérir le numéro ou les numéros de téléphone pour les services de conférence audio (pour les ponts de conférence), les standards automatiques et les files d’attente de l’appel (également appelés numéros de service). Les numéros de téléphone de service disposent d'une capacité d'appels simultanés plus élevée que les numéros de téléphone d'utilisateur ou d'abonné.
-ms.openlocfilehash: 9de4029d38d661ff6e95bbf999146931cda6406b
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 9af5332f2e6079b9d5093939f4a381f7afb029bc
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="getting-service-phone-numbers"></a>Numéros de téléphone des services de mise en route
 

@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 03/30/2018
 ms.topic: article
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
@@ -23,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 4f591807dcfb4ed4b4d9fceb8340ba18b11549ec
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 194f38811766f96ad192b38730158f01ce9ab234
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-up-calling-plans"></a>Définir des Plans d’appel
 Appels aux autre Skype pour les utilisateurs professionnels sont libres, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones à l’extérieur de votre entreprise, un Plan d’appel interne ou d’un Plan d’appel International dans Office 365. Il est facile d’installer cette fonctionnalité pour votre entreprise. 
@@ -46,7 +45,7 @@ Appels aux autre Skype pour les utilisateurs professionnels sont libres, mais si
 ## <a name="step-3-get-phone-numbers"></a>Étape 3 : Obtenir les numéros de téléphone
 Il existe trois façons d’obtenir de nouveaux numéros d’utilisateur :
 
-- **Utilisez le Skype pour le centre d’administration commerciale.** Pour certains pays ou certaines régions, vous pouvez obtenir les numéros de vos utilisateurs à l’aide de la Skype pour le centre d’administration Business, consultez [lors de l’obtention des numéros de téléphone e pour vos utilisateurs.](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md).
+- **Utilisez le Skype pour le centre d’administration commerciale.** Pour certains pays ou certaines régions, vous pouvez obtenir les numéros de vos utilisateurs à l’aide de la Skype pour le centre d’administration Business, consultez [lors de l’obtention des numéros de téléphone e pour vos utilisateurs.](getting-phone-numbers-for-your-users.md).
     
 - **Port vos numéros existants.** Vous pouvez le port ou transférer des numéros existants de votre opérateur de téléphonie ou votre fournisseur de service actuel vers Office 365. Consultez le [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md) ou [gérer des numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour plus d’informations pour vous aider à effectuer cette opération.  
   

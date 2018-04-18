@@ -3,7 +3,6 @@ title: Diagnostiquer les problèmes de connexion avec le Skype pour Business Con
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 866fadfd-16e2-4134-95db-c6aed7678416
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Résoudre les problèmes de création d’une session PowerShell à distance pour se connecter sur Skype pour professionnels en ligne, y compris l’Import-Module, shell simultanée, Live ID et erreurs d’autorisation.
-ms.openlocfilehash: 6a400aa6e3ee201ec65df3e9844cac1e7313f653
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 470b171800cbfec29a412a7d92e9849f5bf9ba13
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostiquer les problèmes de connexion avec le Skype pour Business Connector d’en ligne
 

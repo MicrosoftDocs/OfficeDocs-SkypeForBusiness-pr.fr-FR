@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 097af064-dcc4-4ee0-b4ac-517073fedd9e
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer les numéros gratuits dans chaque pays/région. Après avoir sélectionné le pays ou la région, il faudra vous à une page spécifique à un pays qui contient des détails spécifiques, des restrictions et limites pour une disponibilité de service gratuit où le service gratuit est disponible. Les formats ou le format de la numérotation affiche les codes d’accès requis au sein de chaque pays/région à composer le numéro d’appel gratuit.
-ms.openlocfilehash: e56e21155dd42653cf463c0b3ac7fd9af39a90bd
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 9f04b289780752215bf7c3382a5da43182ff86b6
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-slovenia"></a>Restrictions d’appel gratuit de Slovénie
 

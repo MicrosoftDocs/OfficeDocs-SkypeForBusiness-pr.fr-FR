@@ -3,7 +3,7 @@ title: Guide d’utilisation pour les équipes de Microsoft
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: Les tâches et activités requises pour la gestion des équipes ser
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d64da9bbe792031afbb3538020b7ff92fbaf493
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 4d9b76d62457c541924c6f72eb246bf63f1fe026
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="operate-my-service"></a>Utiliser mon service
 
@@ -372,7 +372,7 @@ Ce rôle nécessite les compétences nécessaires pour identifier les tendances 
 Le champion de qualité s’appuie sur des outils existants et des processus documentés, tels qu’appeler qualité du tableau de bord (CQD) et le Guide de révision de rencontrer qualité, pour analyser l’expérience de l’utilisateur, identifient les tendances de la qualité et le lecteur de conversion lorsque cela est nécessaire.
 Le champion de qualité doit collaborer avec des équipes respectives pour exécuter des actions de mise à jour et de rapport à un comité de direction sur les cours et les problèmes ouverts.
 
-La [Qualité de Guide de révision rencontrer](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) contient des activités qui évalue et fournissent des conseils de remédiation dans des domaines clés qui ont le plus grand impact sur l’amélioration du confort d’utilisation. Les instructions fournies dans le Guide de révision de l’expérience de qualité se concentre sur l’utilisation de CQD en ligne comme le principal outil de rapport et d’observer chaque zone, avec un focus sur audio afin d’optimiser l’adoption et à l’impact. Les optimisations apportées au réseau afin d’améliorer l’expérience audio auront également directement des améliorations dans le partage de vidéo et de bureau.
+La [Qualité de Guide de révision rencontrer](https://aka.ms/qerguide) contient des activités qui évalue et fournissent des conseils de remédiation dans des domaines clés qui ont le plus grand impact sur l’amélioration du confort d’utilisation. Les instructions fournies dans le Guide de révision de l’expérience de qualité se concentre sur l’utilisation de CQD en ligne comme le principal outil de rapport et d’observer chaque zone, avec un focus sur audio afin d’optimiser l’adoption et à l’impact. Les optimisations apportées au réseau afin d’améliorer l’expérience audio auront également directement des améliorations dans le partage de vidéo et de bureau.
 
 Nous vous recommandons vivement de vous désigner le champion de qualité dès le début. Après avoir été désigné, ils doivent commencer à se familiariser avec le contenu dans le Guide de révision d’expérience de qualité et les supports de formation associé.
 
@@ -394,7 +394,7 @@ Nous vous recommandons vivement de vous désigner le champion de qualité dès l
 
 [Informations de construction de téléchargement](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[Qualité de Guide de révision d’expérience](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)
+[Qualité de Guide de révision d’expérience](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -443,7 +443,7 @@ Même si vous avez suivi les recommandations du précédente, les utilisateurs d
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Exigences en matière de point de terminaison    | Assurez-vous que le point de terminaison de l’équipe continue à répondre à toutes les exigences de logiciels pour les équipes [d’obtenir des clients pour les équipes de Microsoft](https://docs.microsoft.com/microsoftteams/get-clients).                                                                                                                                                                                       | Tous les mois   |               |
 | Pare-feux de point de terminaison       | Tenir à jour les exclusions appropriées sur le pare-feu du point de terminaison selon les informations contenues dans l’article [Office 365 URL et les plages d’adresses IP](https://aka.ms/o365ips) . Votre fournisseur tiers ont des instructions spécifiques sur la façon de maintenir les exclusions. S’abonner à ce [flux RSS](https://support.office.com/en-us/o365ip/rss) pour être automatiquement informé des modifications. | En fonction des besoins |               |
-| Pilotes Wi-Fi            | Tester et mettre à jour les pilotes Wi-Fi sur le PC. Valider les résultats à l’aide de CQD ([Qualité d’expérience révision Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)).                                                                                                                                                                                                                                                                   | En fonction des besoins |               |
+| Pilotes Wi-Fi            | Tester et mettre à jour les pilotes Wi-Fi sur le PC. Valider les résultats à l’aide de CQD ([Qualité d’expérience révision Guide](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | En fonction des besoins |               |
 | Gestion de point de terminaison      | Mettre à jour le catalogue de points de terminaison pris en charge et les périphériques d’interface (tels que les casques). Gérer les contrats fournisseurs, de garantie, de distribution, de remplacement et de réparer des stratégies.                                                                                                                                                                                                        | Tous les mois   |               |
 | Résolution des problèmes de point de terminaison | Peut inclure des tâches de dépannage ; vérification de la connectivité, la consultation de la liste de problèmes connus, journal de collecte, l’analyse et mise à niveau vers le Support de Microsoft ou des fournisseurs tiers.                                                                                                                                                                                               | En fonction des besoins |               |
 
@@ -564,6 +564,6 @@ En évaluant en permanence et en corriger les zones décrites dans ce document, 
 
 Les instructions fournies dans le Guide de révision de l’expérience de qualité est consacré à l’aide en ligne du tableau de bord de qualité appeler (CQD) comme outil principal pour signaler et examinez chaque zone décrite, en mettant l’accent sur audio afin d’optimiser l’adoption et à l’impact. Les optimisations apportées au réseau afin d’améliorer l’expérience audio auront également directement des améliorations dans le partage de vidéo et de bureau.
 
-Nous vous recommandons vivement de vous désigner le champion de qualité dès le début. Après avoir été désigné, ils doivent commencer à se familiariser avec le contenu du [Guide de révision expérience de qualité](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+Nous vous recommandons vivement de vous désigner le champion de qualité dès le début. Après avoir été désigné, ils doivent commencer à se familiariser avec le contenu du [Guide de révision expérience de qualité](https://aka.ms/qerguide).
 
 <!--ENDOFSECTION-->

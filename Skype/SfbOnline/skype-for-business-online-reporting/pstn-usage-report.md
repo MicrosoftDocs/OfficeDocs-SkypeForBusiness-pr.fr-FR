@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 74eda791-c41f-4fd9-ae0b-913342e7ab04
 ms.tgt.pltfrm: cloud
@@ -18,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Le nouveau Skype pour zone de rapports d’entreprise Admin Center affiche vous appelant et audio conférence activité dans votre organisation. Il vous permet de vous y plonger le rapports pour vous fournir des informations plus précises sur les activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails de l’utilisation d’Audio conférence PSTN, y compris le coût de l’appel afin que vous pouvez comprendre votre utilisation et appeler les détails de facturation pour déterminer l’utilisation au sein de votre organisation.
-ms.openlocfilehash: c71987882d9c09549a2efb194fa284afaf534f78
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 6ee6606ae37e02d07e3c3e57ca9fee529b150626
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="pstn-usage-report"></a>Rapport d’utilisation de TLS
 

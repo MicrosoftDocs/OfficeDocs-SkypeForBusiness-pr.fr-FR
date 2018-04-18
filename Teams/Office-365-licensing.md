@@ -3,36 +3,39 @@ title: Licence Office 365 pour Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/15/2018
+ms.date: 04/16/2018
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.reviewer: dearbeen, ninadara
+localization_priority: Normal
 description: Découvrez les différentes licences Office 365, celles qui activent Microsoft Teams pour les utilisateurs et comment les activer et les désactiver.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84040cb622fb685b52cb6cdc8ef15e2572ddd6c1
-ms.sourcegitcommit: 8e0833319011e22e285e2d84d7cebb2006723665
+ms.openlocfilehash: 3d9d3ae6a085881a3965a4e25a101172c5874b14
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/18/2018
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licence Office 365 pour Microsoft Teams
 ========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Les abonnements Office 365 suivants activent Teams pour les utilisateurs :
+Les abonnements Office 365 suivants permettent aux utilisateurs d’équipes.
 
-|Plans Petite Entreprise  |Plans Entreprise  |Plans d'éducation  |
-|---------|---------|---------|
-|Office 365 Business Essentials     |Office 365 Entreprise E1         |Office 365 Éducation         |
-|Office 365 Business Premium     |Office 365 Entreprise E3         |Office 365 Éducation Plus         |
-|     |Office 365 Entreprise E4 (retiré)         |Office 365 Éducation E3 (retiré)         |
-|     |Office 365 Entreprise E5         |Office 365 Éducation E5   
-      |Office 365 Entreprise F1 |  |
+|Plans Petite Entreprise  |Plans Entreprise  |Plans d'éducation  |Plans de développement |
+|---------|---------|---------|---------|
+|Office 365 Business Essentials     |Office 365 Entreprise E1  |Office 365 Éducation |Développeurs Office 365     |
+|Office 365 Business Premium     |Office 365 Entreprise E3         |Office 365 Éducation Plus         |      |
+|Office 365 Entreprise F1     |Office 365 Entreprise E4 (retiré)         |Office 365 Éducation E3 (retiré)         |  |
+|     |Office 365 Entreprise E5         |Office 365 Éducation E5  | 
+
+
 
 > [!NOTE]
 > Teams est également disponible pour les organisations à but non lucratif. Les accords de licence Gouvernement ne sont actuellement pas pris en charge, mais sont en cours d'étude à des fins de prise en charge future.

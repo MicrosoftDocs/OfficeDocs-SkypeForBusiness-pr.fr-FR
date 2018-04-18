@@ -1,15 +1,16 @@
 ---
-title: "Modifier les numéros de téléphone sur le pont de conférence de données Audio"
+title: Modifier les numéros de téléphone sur le pont de conférence de données Audio
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Lorsque vous achetez des licences de conférence Audio, Microsoft héberge votre pont de conférence audio pour votre organisation. Le pont de conférence audio fournit les numéros de téléphone à partir d’emplacements différents afin que les participants et les organisateurs de la réunion peuvent les utiliser pour joindre Skype pour les réunions commerciales ou Teams de Microsoft, à l’aide d’un téléphone."
-ms.openlocfilehash: 21603ebc5ea710598a1af70a66fe4388e206cea9
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Lorsque vous achetez des licences de conférence Audio, Microsoft héberge votre pont de conférence audio pour votre organisation. Le pont de conférence audio fournit les numéros de téléphone à partir d’emplacements différents afin que les participants et les organisateurs de la réunion peuvent les utiliser pour joindre Skype pour les réunions commerciales ou Teams de Microsoft, à l’aide d’un téléphone.
+ms.openlocfilehash: cb38da52bd2c67a66e354b21712b8cc0d986796c
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone sur le pont de conférence de données Audio
 
@@ -226,4 +227,3 @@ Windows PowerShell offre de nombreux avantages en matière de rapidité, de simp
 
 ## <a name="related-topics"></a>Rubriques connexes
 [Modifier les paramètres pour un pont d'audioconférence](change-the-settings-for-an-audio-conferencing-bridge.md)
-  

@@ -1,10 +1,9 @@
 ---
-title: Créer une file d’attente des appels système téléphonique
+title: Create a Phone System call queue
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: makolomi
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -22,36 +21,36 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: a6eac4b7fec191d9e897f41e3c32b270ab21abcf
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 3396d7d56adc6fb8ecd531e17284e48bbee5edbf
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente des appels système téléphonique
+# <a name="create-a-phone-system-call-queue"></a>Create a Phone System call queue
 
-Un appel système files d’attente contiennent des salutations utilisées lorsque quelqu'un appelle un numéro de téléphone pour votre organisation, la possibilité de faire automatiquement les appels en attente et la capacité de recherche pour l’agent d’appel disponible suivant gérer l’appel alors les personnes qui appel sont à l’écoute de la musique en attente. Vous pouvez créer une ou plusieurs files d’attente d’appel pour votre organisation.
+Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
   
-Téléphone : appel système peuvent fournir des files d’attente :
+Phone System call queues can provide:
   
 - Un message d'accueil pour l'organisation
     
 - Une attente musicale
     
-- Redirection d’appels pour appeler les agents dans les groupes de sécurité et les listes de distribution à extension messagerie.
+- Redirecting of calls to call agents in mail-enabled distribution lists and security groups.
     
-- Rendre les paramètres de taille maximale de file d’attente appel, délai d’expiration et options de gestion des appels.
+- La définition de paramètres pour les tailles maximales des files d'attente, les délais d'inactivité et les options de traitement des appels.
     
-Lorsque quelqu'un appelle à un numéro de téléphone qui a d’une file d’attente de l’appel, ils entendra un message d’accueil premier (si une est définie), puis il est placé dans la file d’attente et attend l’agent d’appel disponible suivant. L'appelant entendra une musique pendant la mise en attente et les téléopérateurs répondront dans l'ordre d'arrivée des appels ( *premier entré, premier sorti*  ).
+When someone calls in to a phone number that is set up up with a call queue, they will hear a greeting first (if any is set up), and then they will be put in the queue and wait for the next available call agent. L'appelant entendra une musique pendant la mise en attente et les téléopérateurs répondront dans l'ordre d'arrivée des appels ( *premier entré, premier sorti*  ).
   
-Tous les appels en attente dans la file d’attente seront distribuées à l’aide d’une surveillance du routage en mode ou série routage :
+All calls waiting in the queue will be distributed using an attendant routing mode or serial routing mode:
   
-- Surveillance du routage, le premier appel dans la file d’attente sonne tous les agents en même temps.
+- With attendant routing, the first call in the queue will ring all agents at the same time.
     
-- Avec le routage de série, le premier appel dans la file d’attente sonne tous les agents d’appel un par un.
+- With serial routing, the first call in the queue will ring all call agents one by one.
     
     > [!NOTE]
-    > Agents d’appel qui sont **hors connexion**, ont défini de leur présence sur **ne pas déranger** ou qui ont choisi de renoncer à la file d’attente de l’appel ne sera pas appelés.
+    > Call agents who are **Offline**, have set their presence to **Do not Disturb,** or have opted out of the call queue won't be called.
   
 - Une seule notification d'appel entrant (pour l'appel en tête de file) sera envoyée aux téléopérateurs à la fois.
     
@@ -61,22 +60,22 @@ Tous les appels en attente dans la file d’attente seront distribuées à l’a
 
 Avant de commencer à utiliser les files d'attente d'appels, il est impératif de noter les points suivants :
   
-- Une licence Enterprise E3 et **Système téléphonique** ou une licence Enterprise E5, votre organisation doit avoir (au minimum). Le nombre de licences d’utilisateur **Système téléphonique** affectées affecte le nombre de numéros de service sont disponibles pour être utilisés pour les files d’attente de l’appel. Le nombre de files d’attente de l’appel que peut avoir dépend du nombre de licences de **Système téléphonique** et **Les conférences Audio** qui vous sont affectées dans votre organisation. Pour en savoir plus sur les licences, allez [ici](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned affects the number of service numbers that are available to be used for call queues. The number of call queues you can have is dependent on the number of **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, go [here](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!NOTE]
-    > Pour rediriger les appels aux personnes de votre organisation en ligne, ils doivent disposer d’une licence de **Système téléphonique** et être activés pour les Voix Entreprise ou Plans d’appel d’Office 365. Reportez-vous à la section [Affecter un Skype pour les professionnels et les équipes Microsoft des licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Pour les activer pour Entreprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez : `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Pour les activer pour Entreprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez : `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- Pour en savoir plus sur les Plans d’appel d’Office 365, reportez-vous à la section [Quels sont les Plans d’appel dans Office 365 ?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) et [L’appel de Plans pour Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md).
+- To learn more about Office 365 Calling Plans, see [What are Calling Plans in Office 365?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) and [Calling Plans for Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md).
     
     > [!NOTE]
-    > Les utilisateurs hébergés sur site à l’aide de Lync Server 2010 ne sont pas pris en charge en tant qu’Agents file d’attente un appel. 
+    > Users hosted on-premises using Lync Server 2010 aren't supported as a Call Queue Agents. 
   
-- Vous ne pouvez attribuer d’appel payant et numéros de téléphone du service gratuit que vous avez obtenu dans la **Skype pour le centre d’administration Business** ou transférés à partir d’un autre fournisseur de service pour les files d’attente des appels système téléphonique. Pour obtenir et utiliser les numéros de service gratuit, vous devez configurer les crédits de Communications.
+- You can only assign toll and toll-free service phone numbers that you got in the **Skype for Business admin center** or transferred from another service provider to Phone System call queues. To get and use toll-free service numbers, you need to set up Communications Credits.
     
     > [!NOTE]
     > Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués à des files d'attente. Seuls les numéros de téléphone gratuits et payants peuvent être utilisés. 
   
-- Lorsque vous distribuez les appels entrants à partir d’une file d’attente des appels système téléphonique, ces clients sont pris en charge pour les agents d’appel :
+- When you are distributing the incoming calls from an Phone System call queue, these clients are supported for call agents:
     
   - Client de bureau Skype Entreprise 2016 (versions 32 et 64 bits)
     
@@ -84,20 +83,20 @@ Avant de commencer à utiliser les files d'attente d'appels, il est impératif d
     
   - Tous les modèles de téléphone IP pris en charge par Skype Entreprise Online. Consultez [Obtention de numéros de téléphone pour Skype Entreprise Online](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md).
     
-  - Skype Mac pour Client d’entreprise (version 16.8.196 ou version ultérieure) 
+  - Mac Skype for Business Client (version 16.8.196 and later) 
     
-  - Android Skype pour Client d’entreprise (version 6.16.0.9 ou version ultérieure)
+  - Android Skype for Business Client (version 6.16.0.9 and later)
     
-  - iPhone Skype pour Client d’entreprise (version 6.16.0 ou version ultérieure)
+  - iPhone Skype for Business Client (version 6.16.0 and later)
     
-  - iPad Skype pour Client d’entreprise (version 6.16.0 ou version ultérieure)
+  - iPad Skype for Business Client (version 6.16.0 and later)
     
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Étape 2 : obtention ou transfert de numéros de service gratuits ou payants
 
-Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. Après avoir obtenu le numéro payant ou les numéros de téléphone de service gratuit, ils seront afficheront dans **Skype pour le centre d’administration de Business** > **vocale** > **les numéros de téléphone**et la volonté de **type nombre** répertorié comme **Service - numéro gratuit **. Pour obtenir vos numéros de service, voir [numéros de téléphone de service de mise en route pour Skype pour les entreprises et les équipes de Microsoft](getting-service-phone-numbers.md) ou si vous souhaitez de transfert et le numéro de service existant, consultez le [transfert vers Office 365, les numéros de téléphone](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
+Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
-> Si vous résidez hors des États-Unis, vous ne pouvez pas utiliser le Skype pour Business admin center pour obtenir les numéros de service. Aller à [Gérer les numéros de téléphone pour votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) à la place pour voir comment le faire à partir de l’extérieur des États-Unis.
+> If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go to [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
   
 ## <a name="step-3---create-a-new-call-queue"></a>Étape 3 : création d'une file d'attente d'appels
 
@@ -107,104 +106,104 @@ Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage d
 
 ![Setting up a call queue.](../images/37ecc300-a108-4294-8463-fce570dfce72.png)
 ***
-![Numéro 1](../images/sfbcallout1.png)<br/>
+![Number 1](../images/sfbcallout1.png)<br/>
 **Nom** Entrez un nom d'affichage descriptif pour la file d'attente d'appels. Le nom est obligatoire et peut contenir jusqu'à 64 caractères, espaces compris.<br/> Ce nom sera affiché dans la notification de l'appel entrant.
 ***
-![Numéro 2](../images/sfbcallout2.png)<br/>**Numéro de téléphone** Sélectionnez un numéro de service gratuit ou payant pour la file d'attente d'appels. Cette option est facultative. <br/> Si aucun numéro n'est répertorié, vous devrez obtenir des numéros de service avant de créer cette file d'attente. Pour obtenir vos numéros de service, voir [numéros de téléphone de service de mise en route pour Skype pour les entreprises et les équipes de Microsoft](getting-service-phone-numbers.md)
+![Number 2](../images/sfbcallout2.png)<br/>**Numéro de téléphone** Sélectionnez un numéro de service gratuit ou payant pour la file d'attente d'appels. This is optional. <br/> Si aucun numéro n'est répertorié, vous devrez obtenir des numéros de service avant de créer cette file d'attente. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md)
 ***
-![Numéro 3](../images/sfbcallout3.png)<br/>**Domaine** S'il est disponible, sélectionnez le domaine Office 365 que vous souhaitez utiliser. Ce champ sera uniquement disponible si vous disposez de plusieurs domaine utilisés avec Office 365. Si c'est le cas, vous devez choisir le nom de domaine dans la liste.<br/> Par exemple, le domaine peut se présenter comme suit :  _contoso.com or redmond.contoso.com_
+![Number 3](../images/sfbcallout3.png)<br/>**Domaine** S'il est disponible, sélectionnez le domaine Office 365 que vous souhaitez utiliser. Ce champ sera uniquement disponible si vous disposez de plusieurs domaine utilisés avec Office 365. Si c'est le cas, vous devez choisir le nom de domaine dans la liste.<br/> Par exemple, le domaine peut se présenter comme suit :  _contoso.com or redmond.contoso.com_
    
 ### <a name="set-the-greeting-and-music-played-while-on-hold"></a>Définir le message d'accueil et la musique lue pendant la mise en attente
 
 ![Setting up a call queue.](../images/1d395a93-7cab-4178-9295-12d5379e20de.png)
   
 ***
-![Numéro 1](../images/sfbcallout1.png)<br/>Le **message d'accueil** est facultatif. C’est le message d’accueil qui est lu pour les personnes qui appellent dans le nombre de file d’attente d’appel. <br/> Vous pouvez télécharger un fichier audio (.wma, .mp3 ou .wav formats).
+![Number 1](../images/sfbcallout1.png)<br/>Le **message d'accueil** est facultatif. This is the greeting that is played for people who call in to the call queue number. <br/> You can upload an audio file (.wav, .mp3, or .wma formats).
 ***
-![Numéro 2](../images/sfbcallout2.png)<br/>**Contenir de la musique sur** Vous pouvez utiliser la valeur par défaut de musique en attente fourni avec la file d’attente d’appel, ou vous pouvez télécharger un fichier audio .wav, mp3 ou .wma formats à utiliser comme votre musique en attente. 
+![Number 2](../images/sfbcallout2.png)<br/>**Music on hold** You can either use the default Music on Hold provided with the call queue, or you can upload an audio file in .wav, mp3, or .wma formats to use as your custom Music on Hold. 
    
 
-### <a name="select-the-call-distribution-method"></a>Sélectionnez la méthode de distribution d’appel
+### <a name="select-the-call-distribution-method"></a>Select the call distribution method
 
-![Affiche des options de méthode de distribution de l’appel](../images/5d249515-d532-4af2-90da-011404028b89.png)
+![Shows the call distribution method options](../images/5d249515-d532-4af2-90da-011404028b89.png)
   
 ***
-![Numéro 1](../images/sfbcallout1.png)<br/>**Appelez la méthode de distribution** Vous pouvez choisir soit **standard** ou **série** pour la méthode de distribution file d’attente de votre appel. Toutes les files d’attente de l’appel de nouveaux et existants a surveillance du routage sélectionné par défaut. Pour utiliser la série de routage, vous devez choisir explicitement l’option routage **série** dans l’interface utilisateur et des applets de commande. <br/><br/> Lorsque l’itinéraire série est sélectionnée et que la file d’attente d’appel est enregistré, les appels à partir de la file d’attente sonnera vos agents un par un, à partir du début de la liste de l’agent. Si un agent fait disparaître ou ne récupère pas d’un appel, l’appel sonnera l’agent suivant dans la liste et va essayer de tous les agents un par un jusqu'à ce qu’elle est récupérée ou délai d’attente dans la file d’attente.  <br/><br/>  **Remarque :** Série de routage ignore les agents qui sont **en mode hors connexion**, ont défini de leur présence sur **ne pas déranger**ou qui ont **choisi** de recevoir des appels à partir de cette file d’attente.  
+![Number 1](../images/sfbcallout1.png)<br/>**Call distribution method** You can choose either **Attendant** or **Serial** for your call queue distribution method. All new and existing call queues will have attendant routing selected by default. To use serial routing, you must explicitly choose the **Serial** routing option in UI and cmdlets. <br/><br/> When serial routing is chosen and the call queue is saved, the calls from the queue will ring your agents one by one, starting from the beginning of the agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent on the list and will try all agents one by one until it is picked up or times out waiting in the queue.  <br/><br/>  **Note:** Serial routing will skip agents who are **Offline**, have set their presence to **Do not Disturb**, or have **opted out** of getting calls from this queue.  
    
-### <a name="select-an-agent-opt-out-option"></a>Sélectionnez un agent opt out
+### <a name="select-an-agent-opt-out-option"></a>Select an agent opt out option
 
-![Case à cocher indique que l’agent se désabonner](../images/99279eff-db61-4acf-9b62-64be84b6414b.png)
+![Shows the agent opt out check box](../images/99279eff-db61-4acf-9b62-64be84b6414b.png)
   
 ***
-![Numéro 1](../images/sfbcallout1.png)<br/>**L’agent Opt out** Vous pouvez choisir d’autoriser les agents de file d’attente d’appel à refuser de prendre des appels à partir d’une file d’attente spécifique en sélectionnant **l’Option Refuser l’Agent**.  <br/> L’activation de cette option permet à tous les agents dans cette file d’attente pour démarrer ou arrêter la réception d’appel à partir de cette file d’attente de l’appel à seront. Vous pouvez révoquer le privilège d’annulations de l’agent à tout moment en désactivant la case à cocher, à l’origine des agents deviennent automatiquement sélectionné pour cette file d’attente à nouveau (le paramètre par défaut pour tous les agents).  <br/><br/> Pour accéder à l’option d’annulation d’abonnement, les agents peuvent effectuez les opérations suivantes :
- 1. Ouvrez **Options** dans leur bureau Skype pour client d’entreprise. 
- 2. Dans l’onglet **Transfert d’appel** , cliquez sur le lien **Modifier les paramètres en ligne** .
- 3. Sur la page de paramètres utilisateur, cliquez sur **Appeler les files d’attente**, puis désactivez les cases à cocher pour les files d’attente pour lesquelles ils souhaitent se désabonner.
+![Number 1](../images/sfbcallout1.png)<br/>**Agent Opt out option** You can choose to allow call queue agents to opt out of taking calls from a particular queue by selecting **Agent Opt out option**.  <br/> Enabling this option allows all agents in this queue to start or stop receiving call from this call queue at will. You can revoke the agent opt-out privilege at any time by clearing the check box, causing agents to become automatically opted in for this queue again (the default setting for all agents).  <br/><br/> To access the opt-out option, agents can do the following:
+ 1. Open **Options** in their desktop Skype for Business client. 
+ 2. On the **Call Forwarding** tab, click the **Edit settings online** link.
+ 3. On the user settings page, click **Call Queues**, and then clear the check boxes for any queues for which they want to opt out.
  
     > [!NOTE] 
-    > Agents à l’aide de Mac, mobile, ou les clients Lync 2013 ou hybride voix utilisateurs hébergés sur site à l’aide de Skype pour serveur d’entreprise 2015, peut atteindre [https://aka.ms/cqsettings](https://aka.ms/cqsettings) pour accéder aux opt out.
+    > Agents using Mac, mobile, or Lync 2013 clients, or Hybrid Voice users who are hosted on-premises using Skype for Business 2015 server, can go to [https://aka.ms/cqsettings](https://aka.ms/cqsettings) to access the opt out option.
    
 ### <a name="add-call-agents-to-a-call-queue"></a>Ajouter des téléopérateurs à une file d'attente d'appels
 
 ![Set up call queues.](../images/skype-for-business-add-agents-to-call-queue.png)
   
 ***
-![Numéro 1](../images/sfbcallout1.png)<br/><br/>Agents d’appel (50 maximum) peuvent être :
-*    Un utilisateur en ligne avec une licence de **Système téléphonique** et activée avec un Plan d’appel ou de Voix Entreprise. <br/><br/> **Remarque :**  Pour rediriger les appels aux personnes de votre organisation en ligne, ils doivent disposer d’une licence de **Système téléphonique** et être activés pour les Voix Entreprise ou un Plan d’appel. Reportez-vous à la section [Affecter un Skype pour les professionnels et les équipes Microsoft des licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Pour les activer pour Entreprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez : `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
-*    Utilisateurs en ligne avec un avec une licence de **Système téléphonique** et un appel de Plan qui sont ajoutés à un groupe d’Office 365, une liste de Distribution à extension messagerie ou un groupe de sécurité. Jusqu'à 30 minutes peuvent être nécessaires pour qu'un nouvel agent ajouté à une liste de distribution ou à un groupe de sécurité commence à recevoir des appels depuis une file d'attente. Un groupe de sécurité ou liste de distribution nouvellement créée peut prendre jusqu'à 48 heures deviennent disponibles pour être utilisés avec des files d’attente de l’appel. Nouvellement créé Office 365 groupes sont disponibles presque immédiatement. <br/> 
+![Number 1](../images/sfbcallout1.png)<br/><br/>Call agents (50 maximum) can be:
+*    An Online user with a **Phone System** license and enabled for Enterprise Voice or with a Calling Plan. <br/><br/> **Note:**  To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Pour les activer pour Entreprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez : `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
+*    Online users with a with a **Phone System** license and a Calling Plan that are added to an Office 365 Group, a mail-enabled Distribution List, or a Security Group. Jusqu'à 30 minutes peuvent être nécessaires pour qu'un nouvel agent ajouté à une liste de distribution ou à un groupe de sécurité commence à recevoir des appels depuis une file d'attente. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Office 365 Groups are available almost immediately. <br/> 
 
     > [!NOTE] 
-    > Les utilisateurs hébergés sur site à l’aide de Lync Server 2010 ne sont pas pris en charge.           
+    > Users hosted on-premises using Lync Server 2010 aren't supported.           
    
 ### <a name="set-the-maximum-queue-size-and-maximum-wait-time"></a>Définir la taille maximale de la file d'attente et la durée maximale d'attente
 
 ![Set up a call queue.](../images/3f018734-16fe-458b-827d-71fc25155cde.png)
   
 ***
-![Numéro 1](../images/sfbcallout1.png)<br/><br/>**Nombre d'appels maximal dans la file d'attente** Utilisez cette valeur pour définir le nombre d'appels maximal qu'il peut y avoir simultanément dans la file d'attente. La valeur par défaut est de 50, mais elle peut varier de 0 à 200. Lorsque cette limite est atteinte, l’appel sera traité de façon que vous avez défini sur le paramètre **lorsque le nombre maximal d’appels est atteinte** ci-dessous.
+![Number 1](../images/sfbcallout1.png)<br/><br/>**Nombre d'appels maximal dans la file d'attente** Utilisez cette valeur pour définir le nombre d'appels maximal qu'il peut y avoir simultanément dans la file d'attente. The default is 50, but it can range from 0 to 200.When this limit is reached, the call will be handled in way you have set on the **When the maximum number of calls is reached** setting below.
 ***
-![Numéro 2](../images/sfbcallout2.png)<br/><br/>**Lorsque le nombre maximal d’appels est atteinte.** Lorsque la file d’attente de l’appel atteint sa taille maximale (la valeur en utilisant le paramètre **Maximum appelle dans la file d’attente** ), vous pouvez choisir ce qui se passe à un nouvel appel entrant.
+![Number 2](../images/sfbcallout2.png)<br/><br/>**When the maximum number of calls is reached** When the call queue reaches its maximum size (set using the **Maximum calls in the queue** setting), you can choose what happens to new incoming calls.
 *    **Déconnexion avec signal Occupé** L'appel sera déconnecté.
-*    **Transférer cet appel** Lorsque vous choisissez cette option, vous aurez ces options :
-     *    **Personne dans votre entreprise** Un utilisateur en ligne avec une licence de **Système téléphonique** et être activé pour les Voix Entreprise ou disposer d’un Plan d’appel. Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. Pour ce faire, sélectionnez une **personne de votre société** et définir cette personne pour que leurs appels transférés directement vers la messagerie vocale. <br/> <br/>Pour en savoir plus sur les licences requises pour la messagerie vocale, reportez-vous à la section [configurer la messagerie vocale du système téléphonique](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md). 
+*    **Forward this call to** When you choose this, you will have these options:
+     *    **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/> <br/>To learn about licensing required for voicemail, see [Set up Phone System voicemail](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md). 
      
         > [!Note]
-        > Les utilisateurs hébergés sur site à l’aide de Lync Server 2010 ne sont pas pris en charge.<br/>
+        > Users hosted on-premises using Lync Server 2010 aren't supported.<br/>
      
-     *    **Appelez la file d’attente** Vous devez avoir créé une autre file d’attente d’appel, mais une fois que vous le faites, vous pouvez sélectionner cette file d’attente d’appel.
-     *    **Standard automatique** Vous devez avoir créé une surveillance automatique, mais une fois que vous le faites, vous pouvez sélectionner cette surveillance automatique. Consultez [configurer une surveillance automatique de système téléphonique](set-up-a-phone-system-auto-attendant.md).
+     *    **Call Queue** You must have already created another call queue, but after you do, you can select that call queue.
+     *    **Auto Attendant** You must have already created an auto attendant, but after you do, you can select that auto attendant. See [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).
 ***
-![Numéro 3](../images/sfbcallout3.png)<br/><br/>**Durée d'attente d'un appel dans la file d'attente** Vous pouvez également décider de la durée maximale pendant laquelle un appel peut être mis en attente avant d'expirer ou d'être redirigé. La destination de redirection est basée sur la définition du paramètre **Lorsqu'un appel expire**. Le délai peut être défini entre 0 et 45 minutes.  <br/><br/> La valeur de délai d’attente peut être définie en secondes, à intervalles de 15 secondes. Cela vous permet de manipuler le flux d’appel avec une granularité plus fine. Par exemple, vous pouvez spécifier que tous les appels qui ne sont pas traités par un agent dans les 30 secondes passent à un Standard automatique de recherche répertoire. 
+![Number 3](../images/sfbcallout3.png)<br/><br/>**Durée d'attente d'un appel dans la file d'attente** Vous pouvez également décider de la durée maximale pendant laquelle un appel peut être mis en attente avant d'expirer ou d'être redirigé. La destination de redirection est basée sur la définition du paramètre **Lorsqu'un appel expire**. Le délai peut être défini entre 0 et 45 minutes.  <br/><br/> The timeout value can be set in seconds, at 15-second intervals. This allows you to manipulate the call flow with finer granularity. For example, you could specify that any calls that are not answered by an agent within 30 seconds go to a Directory Search Auto Attendant. 
 
 ***
-![Numéro 4](../images/sfbcallout4.png)<br/><br/>**Lorsqu'un appel expire** Lorsque l'appel atteint la limite définie par le paramètre **Durée d'attente d'un appel dans la file d'attente**, vous pouvez choisir le traitement ultérieur de l'appel en question :
+![Number 4](../images/sfbcallout4.png)<br/><br/>**Lorsqu'un appel expire** Lorsque l'appel atteint la limite définie par le paramètre **Durée d'attente d'un appel dans la file d'attente**, vous pouvez choisir le traitement ultérieur de l'appel en question :
 *    **Déconnecter** L'appel sera déconnecté.
-*    **Transférer cet appel** Lorsque vous choisissez cette option, vous aurez ces options :
-     *    **Personne dans votre entreprise** Un utilisateur en ligne avec une licence de **Système téléphonique** et être activé pour les Voix Entreprise ou ont des Plans d’appel. Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. Pour ce faire, sélectionnez une **personne de votre société** et définir cette personne pour que leurs appels transférés directement vers la messagerie vocale. </br><br/>  Pour en savoir plus sur les licences requises pour la messagerie vocale, reportez-vous à la section [configurer la messagerie vocale du système téléphonique](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md). 
+*    **Forward this call to** When you choose this, you will have these options:
+     *    **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. </br><br/>  To learn about licensing required for voicemail, see [Set up Phone System voicemail](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md). 
 
         > [!Note]
-        > Les utilisateurs hébergés sur site à l’aide de Lync Server 2010 ne sont pas pris en charge.<br/>
+        > Users hosted on-premises using Lync Server 2010 aren't supported.<br/>
 
-     *    **Appelez la file d’attente** Vous devez avoir créé une autre file d’attente d’appel, mais une fois que vous le faites, vous pouvez sélectionner cette file d’attente d’appel.
-     *    **Standard automatique** Vous devez avoir créé une surveillance automatique, mais une fois que vous le faites, vous pouvez sélectionner cette surveillance automatique. Consultez [configurer une surveillance automatique de système téléphonique](set-up-a-phone-system-auto-attendant.md).
+     *    **Call Queue** You must have already created another call queue, but after you do, you can select that call queue.
+     *    **Auto Attendant** You must have already created an auto attendant, but after you do, you can select that auto attendant. See [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).
    
-## <a name="changing-the-users-caller-id-to-be-a-call-queues-phone-number"></a>Modification de l’ID de l’utilisateur appelant pour être le numéro de téléphone d’une file d’attente appel
+## <a name="changing-the-users-caller-id-to-be-a-call-queues-phone-number"></a>Changing the user's Caller ID to be a call queue's phone number
 
-Vous pouvez protéger l’identité d’un utilisateur en modifiant à la place de leur ID de l’appelant pour les appels sortants d’une file d’attente de l’appel en créant une stratégie à l’aide de l’applet de commande **New-CallingLineIdentity** .
+You can protect a user's identity by changing their caller ID for the outbound calls to a call queue instead by creating a policy using the **New-CallingLineIdentity** cmdlet.
   
-Pour ce faire, exécutez la commande :
+To do this, run:
   
 ```
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
-Ensuite, appliquer la stratégie à l’utilisateur à l’aide de l’applet de commande **Grant-CallingLineIdentity** . Pour ce faire, exécutez la commande :
+Then apply the policy to the user using the **Grant-CallingLineIdentity** cmdlet. To do this, run:
   
 ```
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-Vous pouvez obtenir plus d’informations sur la façon de modifier les paramètres d’ID de l’appelant dans votre organisation [ici](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
+You can get more information on how to make changes to caller ID settings in your organization [here](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
   
 ## <a name="want-to-know-more"></a>Vous souhaitez en savoir plus ?
 
@@ -214,13 +213,13 @@ Vous pouvez également utiliser PowerShell Windows pour créer et configurer des
 
 Voici les applets de commande requis pour gérer une file d'attente d'appels.
   
-- [Nouvelle-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796459.aspx)
+- [New-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796459.aspx)
     
-- [Ensemble-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796457.aspx)
+- [Set-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796457.aspx)
     
 - [Get-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796458.aspx)
     
-- [Supprimer-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796456.aspx)
+- [Remove-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796456.aspx)
     
 ### <a name="more-about-windows-powershell"></a>Informations supplémentaires sur PowerShell Windows
 
