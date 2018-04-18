@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 4db7b657-22ee-4211-afd3-23413bcc3bd9
 ms.tgt.pltfrm: cloud
@@ -20,33 +19,33 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer les numéros gratuits dans chaque pays/région. Après avoir sélectionné le pays ou la région, il faudra vous à une page spécifique à un pays qui contient des détails spécifiques, des restrictions et limites pour une disponibilité de service gratuit où le service gratuit est disponible. Les formats ou le format de la numérotation affiche les codes d’accès requis au sein de chaque pays/région à composer le numéro d’appel gratuit.
-ms.openlocfilehash: d5d62b7ebabd5cb509914b697c6a8806f30ed07d
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 5784cf7f15e27fd08c4dbd5c813aca75d91ecfa9
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="toll-free-dialing-restrictions-in-spain"></a><span data-ttu-id="766a3-105">Restrictions de numérotation gratuit en Espagne</span><span class="sxs-lookup"><span data-stu-id="766a3-105">Toll-free dialing restrictions in Spain</span></span>
+# <a name="toll-free-dialing-restrictions-in-spain"></a><span data-ttu-id="43c30-105">Restrictions de numérotation gratuit en Espagne</span><span class="sxs-lookup"><span data-stu-id="43c30-105">Toll-free dialing restrictions in Spain</span></span>
 
-<span data-ttu-id="766a3-106">[Recherche d’un autre pays ou une région](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de numérotation gratuit.</span><span class="sxs-lookup"><span data-stu-id="766a3-106">[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="43c30-106">[Recherche d’un autre pays ou une région](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de numérotation gratuit.</span><span class="sxs-lookup"><span data-stu-id="43c30-106">[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="766a3-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="766a3-107">**Details**</span></span>|<span data-ttu-id="766a3-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="766a3-108">**Description**</span></span>|
+|<span data-ttu-id="43c30-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="43c30-107">**Details**</span></span>|<span data-ttu-id="43c30-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="43c30-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="766a3-109">Est gratuit disponible l’appel ?</span><span class="sxs-lookup"><span data-stu-id="766a3-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="766a3-110">Oui</span><span class="sxs-lookup"><span data-stu-id="766a3-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="766a3-111">Formats de numérotation</span><span class="sxs-lookup"><span data-stu-id="766a3-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="766a3-112">900 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="766a3-112">900 XXX XXX</span></span>  <br/> |
-|<span data-ttu-id="766a3-113">Code de pays/région ISO</span><span class="sxs-lookup"><span data-stu-id="766a3-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="766a3-114">ES</span><span class="sxs-lookup"><span data-stu-id="766a3-114">ES</span></span>  <br/> |
-|<span data-ttu-id="766a3-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="766a3-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="766a3-116">Îles Baléares et Îles Canaries</span><span class="sxs-lookup"><span data-stu-id="766a3-116">Balearic Island and Canary Island</span></span>  <br/> |
-|<span data-ttu-id="766a3-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="766a3-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="766a3-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="766a3-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="766a3-119">Disponibilité de la ligne de filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="766a3-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="766a3-120">Oui</span><span class="sxs-lookup"><span data-stu-id="766a3-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="766a3-121">Disponibilité du réseau mobile</span><span class="sxs-lookup"><span data-stu-id="766a3-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="766a3-p102">Oui. Disponible à tarif surtaxé</span><span class="sxs-lookup"><span data-stu-id="766a3-p102">Yes. Available at premium rate.</span></span>  <br/> |
-|<span data-ttu-id="766a3-124">Commentaires, les restrictions et les problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="766a3-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="766a3-125">Identification mobile utilisant des impulsions différentes disponible.</span><span class="sxs-lookup"><span data-stu-id="766a3-125">Mobile identification using different outpulses available.</span></span>  <br/> |
+|<span data-ttu-id="43c30-109">Est gratuit disponible l’appel ?</span><span class="sxs-lookup"><span data-stu-id="43c30-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="43c30-110">Oui</span><span class="sxs-lookup"><span data-stu-id="43c30-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="43c30-111">Formats de numérotation</span><span class="sxs-lookup"><span data-stu-id="43c30-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="43c30-112">900 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="43c30-112">900 XXX XXX</span></span>  <br/> |
+|<span data-ttu-id="43c30-113">Code de pays/région ISO</span><span class="sxs-lookup"><span data-stu-id="43c30-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="43c30-114">ES</span><span class="sxs-lookup"><span data-stu-id="43c30-114">ES</span></span>  <br/> |
+|<span data-ttu-id="43c30-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="43c30-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="43c30-116">Îles Baléares et Îles Canaries</span><span class="sxs-lookup"><span data-stu-id="43c30-116">Balearic Island and Canary Island</span></span>  <br/> |
+|<span data-ttu-id="43c30-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="43c30-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="43c30-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="43c30-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="43c30-119">Disponibilité de la ligne de filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="43c30-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="43c30-120">Oui</span><span class="sxs-lookup"><span data-stu-id="43c30-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="43c30-121">Disponibilité du réseau mobile</span><span class="sxs-lookup"><span data-stu-id="43c30-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="43c30-p102">Oui. Disponible à tarif surtaxé</span><span class="sxs-lookup"><span data-stu-id="43c30-p102">Yes. Available at premium rate.</span></span>  <br/> |
+|<span data-ttu-id="43c30-124">Commentaires, les restrictions et les problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="43c30-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="43c30-125">Identification mobile utilisant des impulsions différentes disponible.</span><span class="sxs-lookup"><span data-stu-id="43c30-125">Mobile identification using different outpulses available.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="766a3-126">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="766a3-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="43c30-126">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="43c30-126">Related topics</span></span>
 
-[<span data-ttu-id="766a3-127">Restrictions et limitations de numérotation gratuit</span><span class="sxs-lookup"><span data-stu-id="766a3-127">Toll-free dialing limitations and restrictions</span></span>](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="43c30-127">Restrictions et limitations de numérotation gratuit</span><span class="sxs-lookup"><span data-stu-id="43c30-127">Toll-free dialing limitations and restrictions</span></span>](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="766a3-128">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="766a3-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[<span data-ttu-id="43c30-128">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="43c30-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
   
  

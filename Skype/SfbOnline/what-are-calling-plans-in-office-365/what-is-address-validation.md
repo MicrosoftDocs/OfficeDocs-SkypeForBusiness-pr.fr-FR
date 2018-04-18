@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 64353277-9949-4cf2-ac04-6d57cce43619
 ms.tgt.pltfrm: cloud
@@ -20,30 +19,30 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Découvrez ce qu’est la validation d’adresse, pourquoi cela est important et son lien avec les adresses et services d’urgence. '
-ms.openlocfilehash: d67277490afc12d8bdb2c5433d55e70ea6f5395e
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: b0c10af098ca4e69fd2e9bd679996cfe729423bf
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="what-is-address-validation"></a><span data-ttu-id="6d127-103">Qu’est-ce que la validation d’adresse ?</span><span class="sxs-lookup"><span data-stu-id="6d127-103">What is address validation?</span></span>
+# <a name="what-is-address-validation"></a><span data-ttu-id="6a6e3-103">Qu’est-ce que la validation d’adresse ?</span><span class="sxs-lookup"><span data-stu-id="6a6e3-103">What is address validation?</span></span>
 
-<span data-ttu-id="6d127-104">Lorsque vous configurez des forfaits d'appels dans Office 365, vous devez attribuer un numéro de téléphone et une adresse d’urgence à chaque utilisateur.</span><span class="sxs-lookup"><span data-stu-id="6d127-104">When you set up Calling Plans in Office 365, you will need to assign a phone number and emergency address to each of your users.</span></span>
+<span data-ttu-id="6a6e3-104">Lorsque vous configurez des forfaits d'appels dans Office 365, vous devez attribuer un numéro de téléphone et une adresse d’urgence à chaque utilisateur.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-104">When you set up Calling Plans in Office 365, you will need to assign a phone number and emergency address to each of your users.</span></span>
   
-<span data-ttu-id="6d127-105">La validation d'une adresse postale ou résidentielle implique de s’assurer qu’elle est correcte et formatée correctement.</span><span class="sxs-lookup"><span data-stu-id="6d127-105">Validating a street or civic address involves making sure that it is correct and also correctly formatted.</span></span> <span data-ttu-id="6d127-106">Il est possible qu’une adresse d’urgence qui n’est que partiellement correcte, comme une faute de frappe dans le nom de la ville, soit tout de même validée.</span><span class="sxs-lookup"><span data-stu-id="6d127-106">It is possible that a partially correct emergency address, such as a mistyped name of the city, may pass still pass validation.</span></span> <span data-ttu-id="6d127-107">Le processus de validation utilise toutes les parties d’une adresse donnée pour déterminer si elle contient suffisamment d’informations pour acheminer l’appel au centre de services d’urgence approprié.</span><span class="sxs-lookup"><span data-stu-id="6d127-107">The validation process uses all parts of a given address to determine whether it contains enough information to route the call to the appropriate emergency services center.</span></span> <span data-ttu-id="6d127-108">Si c’est le cas, l’adresse est renvoyée comme étant validée et peut ensuite à attribuée à un numéro de téléphone.</span><span class="sxs-lookup"><span data-stu-id="6d127-108">If so, it will be returned as validated and can then be assigned to a phone number.</span></span>
+<span data-ttu-id="6a6e3-105">La validation d'une adresse postale ou résidentielle implique de s’assurer qu’elle est correcte et formatée correctement.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-105">Validating a street or civic address involves making sure that it is correct and also correctly formatted.</span></span> <span data-ttu-id="6a6e3-106">Il est possible qu’une adresse d’urgence qui n’est que partiellement correcte, comme une faute de frappe dans le nom de la ville, soit tout de même validée.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-106">It is possible that a partially correct emergency address, such as a mistyped name of the city, may pass still pass validation.</span></span> <span data-ttu-id="6a6e3-107">Le processus de validation utilise toutes les parties d’une adresse donnée pour déterminer si elle contient suffisamment d’informations pour acheminer l’appel au centre de services d’urgence approprié.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-107">The validation process uses all parts of a given address to determine whether it contains enough information to route the call to the appropriate emergency services center.</span></span> <span data-ttu-id="6a6e3-108">Si c’est le cas, l’adresse est renvoyée comme étant validée et peut ensuite à attribuée à un numéro de téléphone.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-108">If so, it will be returned as validated and can then be assigned to a phone number.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="6d127-109">Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="6d127-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="6a6e3-109">Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="6a6e3-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="6d127-110">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="6d127-110">Related topics</span></span>
-[<span data-ttu-id="6d127-111">Que sont les emplacements, les adresses et le routage d'appel d'urgence ?</span><span class="sxs-lookup"><span data-stu-id="6d127-111">What are emergency locations, addresses, and call routing?</span></span>](what-are-emergency-locations-addresses-and-call-routing.md)
+## <a name="related-topics"></a><span data-ttu-id="6a6e3-110">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="6a6e3-110">Related topics</span></span>
+[<span data-ttu-id="6a6e3-111">Que sont les emplacements, les adresses et le routage d'appel d'urgence ?</span><span class="sxs-lookup"><span data-stu-id="6a6e3-111">What are emergency locations, addresses, and call routing?</span></span>](what-are-emergency-locations-addresses-and-call-routing.md)
 
-<span data-ttu-id="6d127-112">[Gérer les numéros de téléphone de votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-[Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)</span><span class="sxs-lookup"><span data-stu-id="6d127-112">[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+<span data-ttu-id="6a6e3-112">[Gérer les numéros de téléphone de votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)</span><span class="sxs-lookup"><span data-stu-id="6a6e3-112">[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)</span></span>
 
-[<span data-ttu-id="6d127-113">Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence</span><span class="sxs-lookup"><span data-stu-id="6d127-113">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="6a6e3-113">Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence</span><span class="sxs-lookup"><span data-stu-id="6a6e3-113">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
 
   
  

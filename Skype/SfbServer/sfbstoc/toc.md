@@ -518,6 +518,7 @@
 ### [Systèmes de salle Skype v2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### [OMS](../manage/skype-room-systems-v2/oms.md)
 #### [Fichier de configuration XML](../manage/skype-room-systems-v2/xml-config-file.md)
+#### [Utilisez l’outil de récupération](../manage/skype-room-systems-v2/recovery-tool.md)
 ### [Comptes d’utilisateurs](../manage/user-accounts/user-accounts.md)
 #### [Personnaliser les propriétés](../manage/user-accounts/customize-properties.md)
 ### [Gestion des services](../manage/manage-services.md)
