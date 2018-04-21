@@ -3,7 +3,7 @@
 
 ## [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## Conférence audio dans Office 365 (... / audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
+## [Audioconférence dans Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Affecter Microsoft comme fournisseur de services d'audioconférence](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Questions fréquentes à propos de l'audioconférence](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [Langues prises en charge pour l'audioconférence](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -33,7 +33,6 @@
 ### [Démarrer une audioconférence par téléphone sans code confidentiel](../audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md)
 ### [Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Activer ou désactiver les annonces d'entrée et de sortie de réunions](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
-### [Utilisation d'ID dynamiques d'audioconférence dans votre organisation](../audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)
 
 ## [Offres d'appels dans Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Ajouter, modifier ou supprimer un emplacement d'urgence pour votre organisation](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
@@ -60,6 +59,7 @@
 #### [Gestion des numéros de téléphone pour les États-Unis](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [Comment utiliser un ID d’appelant dans votre organisation](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [Combien de numéros de téléphone pouvez-vous obtenir ?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
+### [Plus sur ID de la ligne appelante et le nom de partie de l’appel](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
 ### [Rechercher des numéros de téléphone pour les utilisateurs](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [Afficher une liste des numéros de téléphone de votre organisation](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Définir l’ID d’appelant d’un utilisateur](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -72,6 +72,7 @@
 ### [Qu'est-ce que les offres d'appel ?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
 ## Système téléphonique d'Office 365
+### [Qu'est-ce que le système téléphonique dans Office 365 ?](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Créer une file d’attente de système téléphonique](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtention de téléphones pour Skype Entreprise Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Déploiement de téléphones pour Skype Entreprise Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)

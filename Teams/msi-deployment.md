@@ -11,11 +11,11 @@ description: Les administrateurs peuvent utiliser le fichier MSI d’équipes en
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a2031a567b96db6987c6c9c035631f17fd3d03f
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: e8d1f8b77b4b362b95fb03d3f0202bfc6da619e8
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/20/2018
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installation de Teams de Microsoft à l’aide de MSI
 ===========================================
@@ -37,7 +37,7 @@ Le fichier MSI d’équipes place un programme d’installation dans les fichier
 N’utilisez pas le fichier MSI pour déployer des mises à jour, le client sera automatiquement mise à jour lorsqu’il détecte qu'une nouvelle version est disponible à partir du service. Pour redéployer le programme d’installation les plus récent utilisent le processus de redéploiement de MSI décrite ci-dessous. Si vous déployez une version antérieure du package MSI, le client mettra automatiquement à jour lorsque cela est possible pour l’utilisateur. Si une version très ancienne obtient déployée, le fichier MSI déclenche une mise à jour de l’application avant que l’utilisateur est en mesure d’utiliser des équipes. 
 
 > [!Important] 
-> Nous ne pas recommandé de modifier les emplacements d’installation par défaut, car ceci risque de perturber le flux de la mise à jour. Qui puis finalement empêchera les utilisateurs d’accéder au service. 
+> Nous ne pas recommandé de modifier les emplacements d’installation par défaut, car ceci risque de perturber le flux de la mise à jour. Trop ancienne une version sera finalement empêcher les utilisateurs d’accéder au service. 
 
 
 ## <a name="target-machine-requirements"></a>Exigences en matière de la machine cible
