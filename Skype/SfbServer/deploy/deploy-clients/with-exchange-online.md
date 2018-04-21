@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de v2 Skype salle systèmes avec Exchange Online.
-ms.openlocfilehash: 59724ae9b0fc77f16a072e0e08b125407c6e43e3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4fea489c2ae8c3e2fbf8205936ad3ddbff52927a
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>Déploiement de Skype Room Systems v2 avec Exchange Online (Hybride)
  
@@ -63,16 +63,8 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. Saisissez le mot de passe de ce compte. Vous devrez le saisir à nouveau à des fins de vérification. Vérifiez que seule l’option **Le mot de passe n’expire jamais** est sélectionnée.
     
-    > [!NOTE]
-    > Sélection de **mot de passe n’expire jamais** est une exigence pour Skype pour Business Server 2015 sur les systèmes de salle Skype v2. Il est possible que des règles de votre domaine interdisent la non-expiration des mots de passe. Si tel est le cas, vous devrez créer une exception pour chaque compte d’utilisateur Skype salle systèmes v2.
-  
-5. Cliquez sur **Terminer** pour créer le compte.
-    
-6. Une fois le compte créé, exécutez une synchronisation de répertoire. À l’issue de cette opération, accédez à la page d’utilisateurs et vérifiez que les deux comptes créés lors des étapes précédentes sont fusionnés.
-    
-7. Vous devez vous connecter à Azure AD pour appliquer certains paramètres de compte. Pour vous connecter, vous pouvez exécuter l’applet de commande suivante.
+4. Vous devez vous connecter à Azure AD pour appliquer certains paramètres de compte. Pour vous connecter, vous pouvez exécuter l’applet de commande suivante.
     
    ```
    Connect-MsolService -Credential $cred
@@ -83,6 +75,16 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 1. Dans l’outil **Active Directory utilisateurs et ordinateurs Active Directory** , avec le bouton droit sur le dossier ou l’unité d’organisation que vos systèmes de salle Skype v2 comptes seront créés, cliquez sur **Nouveau**, puis cliquez sur **utilisateur**.
     
 2. Saisissez le nom d’affichage de l’applet de commande précédente dans le champ **Nom complet** et l’alias dans le champ **Nom d’ouverture de session de l’utilisateur**. Cliquez sur **Suivant**.
+
+
+3. Saisissez le mot de passe de ce compte. Vous devrez le saisir à nouveau à des fins de vérification. Vérifiez que seule l’option **Le mot de passe n’expire jamais** est sélectionnée.
+    
+    > [!NOTE]
+    > Sélection de **mot de passe n’expire jamais** est une exigence pour Skype pour Business Server 2015 sur les systèmes de salle Skype v2. Il est possible que des règles de votre domaine interdisent la non-expiration des mots de passe. Si tel est le cas, vous devrez créer une exception pour chaque compte d’utilisateur Skype salle systèmes v2.
+  
+4. Cliquez sur **Terminer** pour créer le compte.
+    
+5. Une fois le compte créé, exécutez une synchronisation de répertoire. À l’issue de cette opération, accédez à la page d’utilisateurs et vérifiez que les deux comptes créés lors des étapes précédentes sont fusionnés.
     
 ### <a name="assign-an-office-365-license"></a>Affectation d’une licence Office 365
 
@@ -97,6 +99,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
    ```
+
 
 ### <a name="enable-the-user-account-with-skype-for-business-server-2015"></a>Activation du compte d’utilisateur avec Skype Entreprise Server 2015
 
