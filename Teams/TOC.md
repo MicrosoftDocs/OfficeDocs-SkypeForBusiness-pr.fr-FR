@@ -266,7 +266,7 @@
 
 # Dépannage et assistance
 ## [Obtenir des outils d'assistance pour le lancement de Teams](rollout-tools.md)
-## [Problèmes connus dans Teams](known-issues.md)
+## [Problèmes connus dans Teams](Known-issues.md)
 ## [Ressources de support pour Teams](support-resources.md)
 ## [Dépannage des problèmes de connectivité avec le client Microsoft Teams](connectivity-issues.md)
 ## [Utiliser des fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
