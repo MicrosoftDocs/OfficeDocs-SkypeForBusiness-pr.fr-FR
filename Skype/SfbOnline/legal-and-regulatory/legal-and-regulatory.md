@@ -1,0 +1,27 @@
+---
+title: Obligations légales et réglementaires
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: mikedav, allancar
+ms.topic: article
+ms.assetid: bfda8317-12a9-4594-9fb3-c0061a82711e
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+f1keywords: None
+ms.custom:
+- Legal
+description: 'Ceci est le contenu qui doit être publié pour répondre aux exigences d’accessibilité, la conformité et réglementaires pour Skype pour entreprise en ligne en France. '
+ms.openlocfilehash: 498fbb07ab5d2dd6ea036e1ceeb1e5598203a8cf
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/26/2018
+---
+# <a name="legal-and-regulatory"></a><span data-ttu-id="35fec-103">Obligations légales et réglementaires</span><span class="sxs-lookup"><span data-stu-id="35fec-103">Legal and regulatory</span></span>
