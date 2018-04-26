@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Cet article explique les considérations de planification appropriées pour le déploiement de systèmes de salle Skype v2, la nouvelle génération de systèmes de salle de Skype.
-ms.openlocfilehash: 3d958c5d07cfafd2eeddd6076182a635cfff19de
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 372c920eaeaaee050e420cd25195565555426561
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="plan-for-skype-room-systems-v2"></a>Planification de Skype Room Systems v2
  
@@ -55,11 +55,11 @@ Systèmes de salle Skype v2 est la dernière solution de conférence de Microsof
     
 - Réception par câble intégrée pour la projection du bureau partagé vers la salle et la réunion Skype
     
-- Sélection dans l’application utilisateur de réunion espace périphériques audio et vidéo USB U1
+- Salle de sélection dans l’application utilisateur de conférence audio et vidéo périphériques USB & #x 2776 ;
     
-- Prise en charge de l’affichage sur deux écrans (pour la parité du système hérité) U2
+- Prise en charge de l’affichage sur deux écrans (pour la parité du système hérité) & #x 2777 ;
     
-- Themability (thèmes intégrés et la possibilité de définir le thème personnalisé) U2
+- Themability (thèmes intégrés et la possibilité de définir le thème personnalisé) & #x 2777 ;
     
  **Facilité de déploiement, simplicité de gestion**
   
@@ -77,39 +77,39 @@ Systèmes de salle Skype v2 est la dernière solution de conférence de Microsof
     
 - S’exécute sur les 4 Surface Pro tablet
     
-- Intégré salle console rapports d’état à l’aide de Microsoft Operations Management Suite de clients (voir le [Plan Skype salle v2 SMS avec OMS](oms-management.md)) U1
+- Intégré salle console rapports d’état à l’aide de Microsoft Operations Management Suite de clients (voir le [Plan Skype salle v2 SMS avec OMS](oms-management.md)) & #x 2776 ;
     
-- Possibilité de commenter public génère U2
+- Possibilité de commenter de builds publiques & #x 2777 ;
     
-- Télémétrie améliorée en vue de satisfaire la fiabilité de la jointure U2
+- AMELIORE DE TELEMETRIE autour de réunion joindre la fiabilité & #x 2777 ;
     
-- OMS supplémentaires reporting U2
+- Plus la déclaration de l’OMS et les #x 2777 ;
     
-- Possibilité pour l’administrateur informatique configurer des périphériques à distance U2
+- Possibilité pour l’administrateur informatique pour configurer des périphériques à distance & #x 2777 ;
     <!--  - Front-of-Room UX shows room details pre-meeting U2  -->
-- S’exécute sur une Surface Pro tablet U3
+- S’exécute sur un Tablet PC de Surface Pro & #x 2778 ;
     
-- Prend en charge de mise à jour (en langue anglaise, build 1703) U3 de Windows 10 entreprise Creator
+- Prend en charge la mise à jour (en langue anglaise, build 1703) de Windows 10 entreprise Creator & #x 2778 ;
     
-- Prise en charge de [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) ancrer matériel U3
+- Prise en charge de [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) ancrer matériel & #x 2778 ;
     
-- Prise en charge de l’OEM pour l’environnement (Crestron) de contrôles U3
+- Prise en charge des OEM pour les contrôles de l’environnement (Crestron) & #x 2778 ;
     
-- Prise en charge de [Polycom MSR série](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) ancrer hardwareU4
+- Prise en charge de [Polycom MSR série](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) ancrer matériel & #x 2779 ;
     
-- Prise en charge de la U4 [Logitech Brio](https://www.logitech.com/en-us/product/brio)
+- Prise en charge de la [Logitech Brio](https://www.logitech.com/en-us/product/brio) & #x 2779 ;
 
-- Prise en charge de [500 de concentrateur de Lenovo](https://www3.lenovo.com/us/en/hub500)U5 ancrer le matériel  
+- Prise en charge de [500 de concentrateur de Lenovo](https://www3.lenovo.com/us/en/hub500) ancrer matériel & #, x277A ;  
     
-U1 - fonctionnalité introduite dans la mise à jour 1 (SW Ver. 2.0.2.0).
+& #x 2776 ; -Fonction, introduite dans la mise à jour 1 (SW Ver. 2.0.2.0).
   
-U2 - fonctionnalité introduite dans la mise à jour 2 (SW Ver. 3.0.6.0). 
+& #x 2777 ; -Fonction, introduite dans la mise à jour 2 (SW Ver. 3.0.6.0). 
   
-U3 - fonctionnalité introduite dans la mise à jour 3 (SW Ver. 3.0.12.0). 
+& #x 2778 ; -Fonction, introduite dans la mise à jour 3 (SW Ver. 3.0.12.0). 
   
-U4 - fonctionnalité introduite dans la mise à jour 4 (SW Ver. 3.0.15.0). 
+& #x 2779 ; -Fonction, introduite dans la mise à jour 4 (SW Ver. 3.0.15.0). 
 
-U5 - fonctionnalité introduite dans la mise à jour 5 (SW Ver. 3.1.98.0). 
+& #x277A de solutions ; -Fonction, introduite dans la mise à jour 5 (SW Ver. 3.1.98.0). 
   
 ## <a name="preparing-your-skype-for-business-environment"></a>Préparation de votre environnement Skype Entreprise
 

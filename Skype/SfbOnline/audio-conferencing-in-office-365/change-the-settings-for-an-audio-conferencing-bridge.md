@@ -21,11 +21,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Obtenir les étapes que vous devez modifier les paramètres d’un pont de conférence qui est utilisé pour demander des appelants et collecter des noms et des broches pour les organisateurs de la réunion lorsqu’ils utilisent pas Skype pour les applications d’entreprise ou Teams de Microsoft. '
-ms.openlocfilehash: 1ab6f5f82d8282f9062439f875ea15d2ab6d7fd5
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: d5af21ab1df8b2b4b5b7e6d296a585812a5888c1
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont de conférence de données Audio
 
@@ -36,10 +36,9 @@ Le pont de conférence répond à un appel et vous demande de l’appelant avec 
   > [!IMPORTANT]
   > Un code PIN n’est requis pour la réunion lorsqu’un Skype pour l’utilisateur d’application métier ou Teams de Microsoft n’a pas déjà commencée. Si tout le monde appelle à la réunion, le code PIN est nécessaire pour l’organisateur de la réunion démarrer la réunion. 
 
-> [!CAUTION]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
-## <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>À l’aide de Skype les équipes Microsoft pour Business Admin Center
+## <a name="teams-logo-30x30pngimagesteams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![équipes-logo-30x30.png](../images/teams-logo-30x30.png) À l’aide de Skype les équipes Microsoft pour Business Admin Center
+   > [!NOTE]
+   > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 1. Dans la navigation de gauche, accédez à des **réunions** > **les ponts de conférence**. 
 
@@ -63,7 +62,7 @@ Le pont de conférence répond à un appel et vous demande de l’appelant avec 
  
 6. Cliquez sur **Appliquer**. 
 
-## <a name="using-skype-for-business-admin-center"></a>À l’aide de Skype pour Business admin center
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-skype-for-business-admin-center"></a>![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) À l’aide de Skype pour Business admin center
 
  **Configurer l’expérience de réunion lorsque les appelants de joindre une réunion**
     

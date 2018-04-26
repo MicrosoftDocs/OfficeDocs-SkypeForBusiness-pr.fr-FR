@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez ce qui est votre Skype pour entreprise, numéro de téléphone de facturation et où aller pour obtenir des instructions étape par étape comment transférer un numéro.
-ms.openlocfilehash: 2096c612e422a700e509bbacca8d01704cfd7da3
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 498ccb436adb181aa1399c9643dcaf52f3884663
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="what-is-my-billing-telephone-number"></a>Quel est mon numéro de téléphone de facturation ?
 
@@ -41,9 +41,9 @@ Le numéro de téléphone de facturation (BTN) est le numéro de téléphone pri
 
 [Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

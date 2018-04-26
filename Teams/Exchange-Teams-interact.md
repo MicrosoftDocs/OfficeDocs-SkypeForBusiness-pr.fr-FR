@@ -11,11 +11,11 @@ description: Découvrez les fonctionnalités communes entre Microsoft Teams et 
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea3162de2ff5ab5e4aa15fe63545382f1c48378d
-ms.sourcegitcommit: d70e5a5e7d05a2226c1d011895fb12187d73fad0
+ms.openlocfilehash: 65bbcc3155147141b99f63be686a92b85f87c119
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/26/2018
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams 
 =========================================
@@ -30,12 +30,12 @@ Le tableau suivant fournit des informations aux utilisateurs pour lesquels Excha
 
 **Actions prises en charge :** 
 
-| La boîte aux lettres de l'utilisateur est hébergée dans :   | Créer des équipes   |Rejoindre des équipes|Créer des canaux|Créer et afficher des réunions|Modifier une image de profil utilisateur|Ajouter et configurer des connecteurs|Ajouter et configurer des onglets|Ajouter et configurer des bots|
-|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
-|**vNext Exchange Online dédié**|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
-|**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui|Oui|Oui|Non|Non|Non|Oui| Oui|
-|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui|Oui|Oui|Oui*|Non|Non|Oui|Oui|
+| La boîte aux lettres de l'utilisateur est hébergée dans : | eDisovery| Conservation légale | Rétention| Gestion d’équipe et de canal |Créer et afficher des réunions| Modifier une image de profil utilisateur | Historique des appels | Gérer les Contacts | Accéder aux contacts Outlook | Messagerie vocale |Ajouter et configurer des connecteurs|Ajouter et configurer des onglets|Ajouter et configurer des bots| 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|**Exchange Online**|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
+|**vNext Exchange Online dédié**|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
+|**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui (liste autorisée)|Non|Non|Oui|Non|Non|Oui|Oui|Non|Oui (Exchange 2013 +)|Non|Oui|Oui|
+|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui (liste autorisée)|Non|Non|Oui|Oui (Exchange 2016 CU3 +)|Non|Oui|Oui|Non|Oui (Exchange 2013 +)|Non|Oui|Oui|
                                                             
 *\*Prise en charge d'Exchange 2016 CU3 et versions ultérieures*
 

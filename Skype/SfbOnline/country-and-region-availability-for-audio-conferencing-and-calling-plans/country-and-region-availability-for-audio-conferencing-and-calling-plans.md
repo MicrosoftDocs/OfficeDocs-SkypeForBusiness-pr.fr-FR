@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner un pays ou une région pour consulter la disponibilité de l'audioconférence, du système téléphonique, des forfaits d'appel, des crédits de communication ainsi que des numéros payants et gratuits.
-ms.openlocfilehash: 7d0a7efd6c524050f53e168a85ca652095a35c3e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4be2e366a241dfe07a22dfa6487c377283fd58ba
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays
 
@@ -158,7 +158,7 @@ Dans l'audioconférence, la fonctionnalité appelée « *M'appeler* » peut ê
 Passer un appel sortant depuis une réunion vers un autre pays ou une autre région du monde, non mentionné ci-dessous, est possible à l'aide des [crédits de communication d'Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md). Pour ces utilisateurs, il vous faut [configurer les crédits de communication pour votre organisation](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
   
 > [!NOTE]
-> Au cours de la période de lancement, les utilisateurs de toutes les organisations peuvent passer un appel sortant à l’aide de la fonctionnalité M’appeler ou en ajoutant d’autres personnes à une réunion pour leur permettre d’y participer vers l’un des pays suivants sans frais supplémentaires, cette possibilité étant toutefois soumise à la [période d'appel sortant gratuite pour l'audioconférence](../accessibility-and-regulatory/complimentary-dial-out-period.md). 
+> Au cours de la période de lancement, les utilisateurs de toutes les organisations peuvent passer un appel sortant à l’aide de la fonctionnalité M’appeler ou en ajoutant d’autres personnes à une réunion pour leur permettre d’y participer vers l’un des pays suivants sans frais supplémentaires, cette possibilité étant toutefois soumise à la [période d'appel sortant gratuite pour l'audioconférence](../legal-and-regulatory/complimentary-dial-out-period.md). 
   
 ### <a name="phone-system"></a>Système téléphonique
 Avec le système téléphonique, vous pouvez créer des standards automatiques et des files d'attente (avec un numéro gratuit ou payant) pour répondre aux appels entrants de votre organisation et, lorsque vous ajoutez un forfait d'appels pour les utilisateurs, ceux-ci peuvent se servir de Skype Entreprise pour réaliser des tâches de contrôle d'appel de base, telles que passer, recevoir, ou transférer des appels, ou encore désactiver ou activer le son des appels. Les utilisateurs du **système téléphonique** peuvent cliquer sur un nom dans leur carnet d’adresses pour que Skype Entreprise appelle cette personne. Pour émettre et recevoir des appels, les utilisateurs du **système téléphonique** peuvent utiliser leur appareil mobile, un casque avec un ordinateur portable ou un PC ou l’un des nombreux téléphones IP compatibles avec Skype Entreprise.

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: " Cet article traite des aspects liés à la planification de l’utilisation d’Operations Management Suite pour administrer les appareils Skype Room Systems v2 au sein de votre implémentation Skype Entreprise Server 2015."
-ms.openlocfilehash: e6409370da3597623526379581081e617f48dd81
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b117b243b638c9e06b21901f14515b51d6931d23
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>Planification de la gestion de Skype Room Systems v2 avec OMS
  
@@ -42,9 +42,9 @@ Vous devez vous familiariser autant que nécessaire avec l’utilisation du conc
   
 ### <a name="related-tasks"></a>Tâches connexes
 
-1. Une fois abonné à OMS, créez des champs personnalisés (décrites dans les [champs personnalisés](../../deploy/deploy-clients/with-oms.md#Custom_fields)) nécessaires pour analyser les informations qui seront envoyées à partir de consoles v2 de systèmes de salle de Skype. Cela inclut la présentation du schéma JSON documenté dans [comprendre les entrées du journal](../../manage/skype-room-systems-v2/oms.md#Telemetry).
+1. Une fois abonné à OMS, créer des champs (comme décrit dans les [champs personnalisés](../../deploy/deploy-clients/with-oms.md#Custom_fields)) nécessaires pour analyser les informations qui seront envoyées à partir de consoles v2 de systèmes de salle de Skype. Cela inclut la présentation du schéma JSON documenté dans [comprendre les entrées du journal](../../manage/skype-room-systems-v2/oms.md#Telemetry).
     
-2. Créer une vue de gestion de systèmes de salle Skype v2 dans OMS (voir [vues de définir le v2 SRS dans OMS](../../deploy/deploy-clients/with-oms.md#Views)) en utilisant le Concepteur de vue mentionné précédemment.
+2. Développer une vue de gestion de systèmes de salle Skype v2 dans OMS. Vous pouvez [créer un tableau de bord v2 Skype salle de systèmes à l’aide de la méthode d’importation](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-by-using-the-import-method) ) ou [créer un tableau de bord v2 Skype salle de systèmes manuellement](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-manually).
     
 ## <a name="individual-skype-room-systems-v2-console-requirements"></a>Individuels Skype salle v2 Console requise
 

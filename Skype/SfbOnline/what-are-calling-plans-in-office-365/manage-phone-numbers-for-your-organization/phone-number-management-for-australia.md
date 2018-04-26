@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cette table permet de rechercher des informations sur l’obtention et la gestion des numéros de téléphone en Australie pour Skype pour Business Online et Teams de Microsoft.
-ms.openlocfilehash: eee327ce128b7756db9955d000b56771c965109e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: feda32495a539d5a2f6082c9a1e53466a54f1cd4
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="phone-number-management-for-australia"></a>Gestion de numéros de téléphone pour l’Australie
 > [!IMPORTANT]
@@ -52,4 +52,4 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 
 [Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization.md)
 
-[Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)

@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone en Espagne pour Skype Entreprise Online et Microsoft Teams.
-ms.openlocfilehash: b1ee44f7135466a416bf9a8a011d9e3f543a0ed3
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 25b989195a7510d8efb2bd2476c30654bb5c23ef
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="phone-number-management-for-spain"></a>Gestion des numéros de téléphone pour l'Espagne
 
@@ -46,9 +46,9 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 
 [Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization.md)
 
-[Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

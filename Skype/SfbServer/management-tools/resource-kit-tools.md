@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Cette rubrique décrit les outils disponibles dans le Skype pour le Kit de ressources de Business Server 2015, y compris l’objectif de chaque outil et des exemples de son utilisation. Le Skype pour le Kit de ressources de Business Server 2015 permet de faciliter les tâches de routine pour les administrateurs qui déploient et gérer Skype pour Business Server 2015. Par exemple, l’outil Web Conf données permet de contrôler facilement les données de téléchargement par les utilisateurs lors d’une réunion en ligne. L’outil de SEFAUtil peut être utilisé pour définir un appel de délégué de transfert et de réponse pour les utilisateurs. Nous encourageons les administrateurs informatiques à utiliser ces outils pour gérer plus efficacement les Skype pour Business Server 2015.
-ms.openlocfilehash: 8367400ea7730eabbd2686c3bb2b7c16cdf9a1f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7178b7e5566badfea8096e314b1ac23213173a35
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentation sur les outils du Kit de ressources techniques Skype Entreprise Server 2015
  
@@ -82,6 +82,9 @@ Les principaux scénarios suivants s’appliquent à l’outil :
 - permettre aux administrateurs de restaurer les paramètres par défaut du service de carnet d’adresses.
     
 L’outil ABSConfig peut être démarré à l’aide du fichier ABSConfig.exe. L’outil s’ouvre sur l’onglet **Configurer les attributs** . Cette table contient des options pour mapper les attributs de Services de domaine Active Directory pour les champs d’attribut pour Skype pour Business Server 2015 et pour spécifier les utilisateurs à inclure ou à exclure dans les fichiers de Service carnet d’adresses en fonction des filtres d’attribut spécifique. D’autres options permettent de personnaliser la valeur du numéro de téléphone à inclure dans le fichier de carnet d’adresses. L’option **Restore Defaults (Paramètres par défaut) ** permet aux administrateurs de restaurer les valeurs par défaut des paramètres du service de carnet d’adresses.
+
+> [!NOTE]
+> Mappage des attributs Active Directory à des noms de champ différents OC fonctionnera uniquement pour le téléchargement de fichier de carnet d’adresses et n’est pas pris en charge par la requête sur le Web du carnet d’adresses.
   
 ### <a name="output"></a>Sortie
 
@@ -306,7 +309,7 @@ Les filtres suivants peuvent être appliqués à l’affichage du rapport :
     
   - **IS Inter-Site (IS (intersite))** Liaison de réseau étendu entre deux sites réseau
     
-  - **R Inter-Region (R (inter-régions))**Liaison de réseau étendu entre deux régions réseau
+  - **R Inter-Region (R (inter-régions))** Liaison de réseau étendu entre deux régions réseau
     
 2. **Exceeded limit (Limite dépassée)** Filtrage des liaisons de réseau étendu pour lesquelles l’utilisation de la bande passante est supérieure à la capacité de bande passante
     

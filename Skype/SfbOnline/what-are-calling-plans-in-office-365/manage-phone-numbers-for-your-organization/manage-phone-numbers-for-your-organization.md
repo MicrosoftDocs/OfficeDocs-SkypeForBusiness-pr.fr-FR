@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Les instructions pour obtenir des numéros de téléphone pour les utilisateurs de Skype Entreprise et Microsoft Teams sont différentes selon le pays ou la région. Suivez le lien d’accès à votre pays ou région ci-dessous pour obtenir les informations nécessaires.
-ms.openlocfilehash: 1a1c2a0efafa2edc9e3bae2eff812edadfca1d87
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 42a16c8dbdddd2907dfd2da8debfcd2dcd583487
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gérer les numéros de téléphone de votre organisation
 Il existe trois façons d’obtenir des utilisateurs et des services (appel payant et gratuit) numéros pour votre organisation.
@@ -84,6 +84,6 @@ Si vous avez besoin d’aide, faites-nous savoir comment nous pouvons vous aider
 
     
 ## <a name="related-topics"></a>Rubriques connexes
-[Conditions générales relatives aux appels d'urgence](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

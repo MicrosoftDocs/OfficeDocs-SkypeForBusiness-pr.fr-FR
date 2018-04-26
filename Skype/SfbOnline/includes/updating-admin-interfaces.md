@@ -1,1 +1,1 @@
-Nous sommes dans le processus de mise à jour de comment vous allez gérer les fonctionnalités présentes dans Skype pour les entreprises et les Teams de Microsoft, les étapes peuvent être légèrement différentes de ce que vous voyez fréquemment. Cliquez sur le lien ci-dessous pour nous indiquer si vous avez des commentaires.
+Nous mettons fréquemment à jour comment vous pouvez gérer les fonctionnalités de Microsoft Teams. Étapes peuvent être légèrement différents.

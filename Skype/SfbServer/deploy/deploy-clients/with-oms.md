@@ -3,7 +3,7 @@ title: Déploiement de la gestion de Skype Room Systems v2 avec OMS
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/20/2017
+ms.date: 4/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,329 +11,489 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article explique comment déployer la gestion des systèmes de salle Skype v2 périphériques d’une manière intégrée, de bout en bout à l’aide de Microsoft Operations Management Suite.
-ms.openlocfilehash: 0d0490d92a5513dad38a9ff6348a957204274878
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3d42f0777059870872e871c25591f16c103b5939
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Déploiement de la gestion de Skype Room Systems v2 avec OMS
  
-Cet article explique comment déployer la gestion des systèmes de salle Skype v2 périphériques d’une manière intégrée, de bout en bout à l’aide de Microsoft Operations Management Suite. 
+Cet article explique comment configurer et déployer la gestion intégrée, de bout en bout pour des dispositifs de v2 Skype salle systèmes à l’aide de Microsoft Operations Management Suite.
   
-Vous pouvez configurer Microsoft Operations Management Suite (OMS) pour fournir des données télémétriques de base qui facilitent la gestion des dispositifs de salle de réunion Skype. Une fois que votre solution de gestion acquiert sa maturité, vous pouvez acheter des capacités de données et de gestion supplémentaires pour créer des vues plus précises des performances des appareils.
+Vous pouvez configurer Microsoft Operations Management Suite pour fournir de télémétrie de base et les alertes qui vous permettra de gérer Skype, équipements de salle de réunion. Que l’évolution de votre solution de gestion, vous pouvez décider de déployer des données supplémentaires et des fonctions de gestion pour créer un affichage plus détaillé de la disponibilité des périphériques et des performances.
+
+En suivant ce guide, vous pouvez utiliser un tableau de bord comme dans l’exemple suivant pour obtenir le statut détaillé pour la disponibilité des périphériques, application et état du matériel et la distribution de systèmes de salle Skype v2 application version.
+
+![Affichage d’exemple OMS SRS v2] (../../media/Deploy_OMS_1.png "Affichage d’exemple OMS SRS v2")
   
 À haut niveau, vous devez effectuer les tâches suivantes :
-  
-1. [Configurer les appareils pour la gestion OMS ](with-oms.md#config_devices)
-    
-2. [Mapper les champs personnalisés](with-oms.md#Custom_fields)
-    
-3. [Définir les vues SRS v2 dans OMS](with-oms.md#Views)
-    
-## <a name="find-and-record-device-locations-capabilities-and-configurations"></a>Rechercher et enregistrer l’emplacement des appareils, les fonctionnalités et les configurations
-<a name="find_devices"> </a>
 
-La première étape consiste à créer une base de données complète regroupant tout l’équipement du système, détaillant les fonctionnalités, la configuration et l’emplacement. Une feuille de calcul peut s’avérer adaptée pour cette tâche dans les petites et moyennes entreprises. Si vous travaillez dans une grande entreprise, vous devriez envisager de recourir à des outils et des services tiers de gestion des ressources. L’important, c’est que vous enregistriez l’emplacement et tous les détails appropriés sur chaque appareil.
-  
-Une fois cette tâche effectuée, vous pouvez utiliser ces informations pour déléguer des techniciens et gérer les correctifs et les mises à niveau.
-  
-## <a name="configure-devices-for-oms-management"></a>Configurer les appareils pour la gestion OMS 
-<a name="config_devices"> </a>
 
-Pour chaque périphérique SRS, suivez les instructions dans les [ordinateurs Windows de se connecter au service journal Analytique dans Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents).
-  
-## <a name="configure-oms-to-collect-device-event-logs"></a>Configurer OMS pour collecter le journal des événements des appareils
-<a name="config_devices"> </a>
+1.  [Valider la configuration de la Suite de gestion des opérations](with-oms.md#validate_OMS)
+2.  [Configurer les périphériques de test pour le programme d’installation de Microsoft Operations Management Suite Gestion](with-oms.md#configure_test_devices)
+3.  [Mapper les champs personnalisés](with-oms.md#Custom_fields)
+4.  [Définir les vues v2 de systèmes de salle Skype dans la Suite de gestion des opérations](with-oms.md#Define_Views)
+5.  [Définir des alertes](with-oms.md#Alerts)
+6.  [Configurer tous les périphériques pour la Suite de gestion des opérations](with-oms.md#configure_all_devices)
+7.  [Configurer les autres solutions Operations Management Suite](with-oms.md#Solutions)
 
-Vous devez configurer spécifiquement OMS pour collecter des journaux des événements à partir de périphériques SRS à l’aide de la procédure à [des sources de données de journal des événements Windows dans le journal Analytique](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-windows-events). Le journal des événements pour sélectionner SRS est « Système de salle Skype » et vous devez vérifier les cases d’option pour tous les types : erreur, avertissement et informations.
-  
+> [!IMPORTANT]
+> Bien qu’avec une configuration minimale, la Suite de gestion des opérations peut surveiller un ordinateur exécutant un système d’exploitation de Windows, il existe toujours certaines étapes de la salle de Skype systèmes spécifiques que vous devez prendre avant de commencer le déploiement des agents sur tous les systèmes de salle de Skype périphériques.
+> Par conséquent, nous vous recommandons vivement de que procéder à toutes les étapes de configuration dans le bon ordre pour une installation contrôlée et de la configuration. La qualité du résultat final dépend beaucoup de la qualité de la configuration initiale.
+
+## <a name="validate-operations-management-suite-configuration"></a>Valider la configuration de la Suite de gestion des opérations
+<a name="validate_OMS"> </a>
+
+Vous devez disposer d’un espace de travail Microsoft Operations Management Suite pour commencer à collecter les journaux à partir de périphériques de systèmes de salle de Skype. Un espace de travail est un environnement de journal Analytique unique avec son propre référentiel de données, les sources de données et des solutions. Si vous disposez déjà d’un espace de travail Analytique de journal existant, vous pouvez l’utiliser pour surveiller le déploiement de systèmes de salle Skype, ou vous pouvez créer un espace de travail Analytique de journal dédié spécifique à votre surveillance de systèmes de salle Skype a besoin.
+
+Si vous avez besoin créer un nouvel espace de travail du journal Analytique, suivez les instructions de l’article [créer un espace de travail du journal Analytique dans le portail Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-create-workspace)
+
+> [!NOTE]
+> Pour utiliser le journal Analytique avec Operations Management Suite, vous avez besoin à un abonnement Azure actif. Si vous n’avez pas un abonnement Azure, vous pouvez créer [un abonnement d’essai gratuit](https://azure.microsoft.com/free) comme point de départ.
+
+
+### <a name="configure-operations-management-suite-to-collect-skype-room-systems-event-logs"></a>Configurer les opérations Management Suite pour collecter des journaux d’événements systèmes de salle de Skype
+
+Analytique de journal seulement collecte les événements dans les journaux des événements Windows qui sont spécifiés dans les paramètres. Pour chaque journal, seuls les événements possédant les niveaux de gravité sélectionnés sont collectés.
+
+Vous devez configurer les opérations Management Suite pour collecter les journaux requis pour surveiller l’état de périphérique et d’application des systèmes de salle de Skype. Les périphériques de systèmes de salle Skype v2 utilisent le journal des événements système de salle de Skype.
+
+Pour configurer les opérations Management Suite pour collecter les événements systèmes de salle Skype, consultez [les sources de données de journal des événements Windows dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
+
+![Paramètres du journal des événements] (../../media/Deploy_OMS_2.png "Paramètres du journal des événements")
+
+
+> [!IMPORTANT]
+> Sélectionnez le journal des événements système de salle de Skype et puis activez les cases à cocher **erreur**, **d’Avertissement**et **d’Information** .
+
+## <a name="configure-test-devices-for-operations-management-suite-setup"></a>Configurer les périphériques de test pour le programme d’installation de Microsoft Operations Management Suite
+<a name="configure_test_devices"> </a>
+
+Vous devez préparer les opérations Management Suite pour être en mesure de surveiller les événements liés aux systèmes de salle de Skype. D’origine, vous avez besoin déployer les agents d’Operations Management Suite pour seulement une ou deux périphériques de systèmes de salle Skype que vous avez accès physique à et ces derniers sont des dispositifs de test génèrent des données et l’envoyer à l’espace de travail du journal Analytique.
+
+### <a name="install-operations-management-suite-agents-to-test-devices"></a>Installez les agents d’Operations Management Suite pour tester les périphériques
+
+Déployer l’agent de la Suite de gestion des opérations sur les périphériques de test en suivant les instructions fournies sur les [ordinateurs Windows de se connecter au service journal Analytique dans Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows). Cet article donne des informations détaillées sur la procédure de déploiement de Microsoft contrôle l’Agent pour Windows, des instructions pour l’obtention de l’ID d’espace de travail Operations Management Suite et de la clé primaire afin d’obtenir des périphériques de systèmes de salle Skype connecté à votre Déploiement de Suite de gestion des opérations et étapes permettant de vérifier la connectivité de l’agent pour l’Analytique de journal.
+
+### <a name="generate-sample-skype-room-systems-events"></a>Générer des exemples d’événements systèmes de salle de Skype
+
+Une fois que l’agent Microsoft Operations Management Suite est déployée sur les périphériques de test, vérifiez que les données du journal d’événements requis sont collectées par journal Analytique.
+
+1.  Ouvrez une session sur le [portail de Microsoft Operations Management Suite](http://aka.ms/omsportal).
+
+2.  Liste les événements générés par un périphérique de système de salle de Skype :
+    1.  Accédez au **Journal recherche** et utiliser une requête pour extraire les enregistrements dont le champ personnalisé.
+    2.  Exemple de requête :`Event | where Source == "SRS-App"`
+
+3.  Assurez-vous que la requête renvoie les enregistrements du journal qui incluent les événements de pulsation correcte.
+
+4.  Générer un problème de matériel et de valider que les événements requis sont enregistrés dans la Suite de gestion des opérations.
+    1.  Débranchez un périphérique sur le système de Skype salle systèmes de test. Cela peut être la caméra, haut-parleur, micro ou espace avant affichage
+    2.  Attendez 10 minutes pour le journal des événements doivent être renseignés dans la Suite de gestion des opérations.
+    3.  Utiliser une requête d’événements d’erreur de matériel de liste :`Event | where EventID == 3001`
+
+5.  Générer un problème d’application et de valider que les événements requis sont enregistrés.
+    1.  Modifier la configuration de l’application Skype salle systèmes et tapez une paire adresse/mot de passe de Session Initiation Protocol (SIP) incorrect.
+    2.  Attendez 10 minutes pour le journal des événements doivent être renseignés dans la Suite de gestion des opérations.
+    3.  Utiliser une requête d’événements d’erreur liste application :`Event | where EventID == 2001`
+
+> [!IMPORTANT]
+> Ces exemples de journaux d’événements sont nécessaires avant de pouvoir configurer des champs personnalisés. Ne passez à l’étape suivante jusqu'à ce que vous avez collecté les journaux d’événements.
+
 ## <a name="map-custom-fields"></a>Mapper les champs personnalisés
 <a name="Custom_fields"> </a>
 
-Avant de pouvoir utiliser les mosaïques créés dans les [vues de définir le v2 SRS de l’OMS](with-oms.md#Views) , vous devrez créer des champs personnalisés pour votre affichage. Pour plus d’informations sur la création de champs personnalisés, reportez-vous à la section [champs personnalisés dans le journal Analytique](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-custom-fields) .
-  
-Utiliser les mappages ci-dessous, OMS ajoute automatiquement le _CF lors de la définition du nouveau champ. 
-  
+Champs personnalisés vous permet d’extraire des données spécifiques depuis les journaux d’événements. Vous devez définir des champs personnalisés qui seront utilisés ultérieurement des mosaïques, des tableaux de bord et des alertes. Reportez-vous à la section [champs personnalisés dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-custom-fields) et vous familiariser avec les concepts avant de créer vos champs personnalisés.
+
+Pour extraire vos champs personnalisés sur les journaux d’événements capturés, procédez comme suit :
+
+1.  Ouvrez une session sur le [portail de Microsoft Operations Management Suite](http://aka.ms/omsportal).
+
+2.  Liste les événements générés par un périphérique de système de salle de Skype :
+    1.  Accédez au **Journal recherche** et utiliser une requête pour extraire les enregistrements dont le champ personnalisé.
+    2.  Exemple de requête :`Event | where Source == "SRS-App"`
+
+3.  Sélectionnez un des enregistrements, cliquez sur le bouton à gauche et démarrez l’Assistant d’extraction de champ.
+
+![Assistant d’extraction de champ] (../../media/Deploy_OMS_3.png "Assistant d’extraction de champ")
+
+4.  Mettez en surbrillance les données que vous souhaitez extraire de la RenderedDescription et de fournir un titre de champ. Les noms de champ que vous devez utiliser sont fournis dans le tableau 1.
+
+![Définition des champs personnalisés] (../../media/Deploy_OMS_4.png "Définition des champs personnalisés")
+
+5.  Utilisez les mappages indiqués dans le tableau 1. Suite de gestion des opérations ajoute automatiquement le ** \_CF** lorsque vous définissez le nouveau champ de chaîne.
+
 > [!IMPORTANT]
-> N’oubliez pas que tous les champs JSON et OMS sont sensibles à la casse. 
-  
-**Mappage des champs personnalisés**
+> N’oubliez pas que tous les champs JSON et Operations Management Suite respectent la casse.
 
-|**Champ JSON**|**Champ personnalisé d’OMS**|
-|:-----|:-----|
-|Description  <br/> |SRSEventDescription_CF  <br/> |
-|ResourceState  <br/> |SRSResourceState_CF  <br/> |
-|OperationName  <br/> |SRSOperationName_CF  <br/> |
-|OperationResult  <br/> |SRSOperationResult_CF  <br/> |
-|OS  <br/> |SRSOSVersion_CF  <br/> |
-|OSVersion  <br/> |SRSOSLongVersion_CF  <br/> |
-|Alias  <br/> |SRSAlias_CF  <br/> |
-|DisplayName  <br/> |SRSDisplayName_CF  <br/> |
-|AppVersion  <br/> |SRSAppVersion_CF  <br/> |
-|IPv4Address  <br/> |SRSIPv4Address_CF  <br/> |
-|IPv6Address  <br/> |SRSIPv6Address_CF  <br/> |
-   
-## <a name="define-the-srs-v2-views-in-oms"></a>Définir les vues SRS v2 dans OMS
-<a name="Views"> </a>
+> Faites attention à l’état de la case à cocher EventID dans le tableau ci-dessous. N’oubliez pas de que vous confirmez l’état de cette case à cocher pour Operations Management Suite à extraire correctement les valeurs de champ personnalisé.
+> ![Définition des champs personnalisés] (../../media/Deploy_OMS_5.png "Définition des champs personnalisés") 
 
-Une fois que les données sont collectées et mappage des champs personnalisés, vous pouvez utiliser le Concepteur de vues OMS pour développer un tableau de bord contenant des mosaïques pour surveiller les événements de v2 SRS. Concepteur de vues permet de créer des mosaïques suivantes, consultez [Concepteur de vue utilisé pour créer des vues personnalisées dans le journal Analytique](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-view-designer) si nécessaire.
-  
-### <a name="create-a-tile-that-shows-healthy-devices"></a>Créer une mosaïque qui indique les appareils sains
+**Tableau 1**
 
-1. Définissez le cas :  
-    
-    Cette mosaïque affiche tous les appareils ayant envoyé un message de pulsations au cours des 10 dernières minutes.
-    
-2. Assigner une mosaïque de groupe  
-    
-   ```
-   SRS v2
-   ```
+| **Champ JSON**               | **Champ personnalisé d’OMS**       | **ID d’événement** |
+|------------------------------|----------------------------|-----------------|
+| Description                  | SRSEventDescription_CF     | Non sélectionné    |
+| ResourceState                | SRSResourceState_CF        | Non sélectionné    |
+| OperationName                | SRSOperationName_CF        | Non sélectionné    |
+| OperationResult              | SRSOperationResult_CF      | Non sélectionné    |
+| OS                           | SRSOSVersion_CF            | Non sélectionné    |
+| OSVersion                    | SRSOSLongVersion_CF        | Non sélectionné    |
+| Alias                        | SRSAlias_CF                | Non sélectionné    |
+| DisplayName                  | SRSDisplayName_CF          | Non sélectionné    |
+| AppVersion                   | SRSAppVersion_CF           | Non sélectionné    |
+| IPv4Address                  | SRSIPv4Address_CF          | Non sélectionné    |
+| IPv6Address                  | SRSIPv6Address_CF          | Non sélectionné    |
+| Avant de l’état d’affichage de la salle | SRSFORDStatus_CF           | 3001            |
+| État de l’appareil photo                | SRSCameraStatus_CF         | 3001            |
+| État de Microphone de conférence | SRSConfMicrophoneStatus_CF | 3001            |
+| État de haut-parleur de conférence    | SRSConfSpeakerStatus_CF    | 3001            |
+| État par défaut du haut-parleur       | SRSDefaultSpeakerStatus_CF | 3001            |
+| État de capteur de mouvement         | SRSMotionSensorStatus_CF   | 3001            |
+| Statut de l’acquisition de HDMI           | SRSHDMIIngestStatus_CF     | 3001            |
 
-3. Case à cocher nouveau groupe
-    
-4. Ajouter le texte de légende de la mosaïque
-    
-   ```
-   All healthy devices (Heartbeat sent in last 10 minutes)
-   ```
 
-5. Entrer la requête de mosaïque
-    
-   ```
-   Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" TimeGenerated >NOW-10MINUTES|measure count() by SRSDisplayName_CF 
-   ```
+## <a name="define-the-skype-room-systems-v2-views-in-operations-management-suite"></a>Définir les vues v2 de systèmes de salle Skype dans la Suite de gestion des opérations
+<a name="Define_Views"> </a>
 
-6. Entrer la requête de liste
-    
-   ```
-   Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |measure max(TimeGenerated) as LastHB by SRSDisplayName_CF |Where LastHB>NOW-10MINUTES
-   ```
+Une fois que les données sont collectées et mappage des champs personnalisés, vous pouvez utiliser le Concepteur de vues de Suite de gestion des opérations pour développer un tableau de bord contenant plusieurs mosaïques pour surveiller les systèmes de salle Skype v2 événements. Utilisez le concepteur de vues pour créer les mosaïques suivantes. Pour plus d’informations, consultez [Concepteur de vue utilisé pour créer des vues personnalisées dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-view-designer)
 
-7. Définir le nom des titres de colonne
-    
-   ```
-   Display Name
-   ```
+> [!NOTE]
+> Les étapes précédentes de ce guide doivent être effectuées pour des dalles de tableau de bord fonctionnent correctement.
 
-8. Définir la valeur des titres de colonne
-    
-   ```
-   Last HB
-   ```
 
-9. Entrer la requête de navigation
-    
-   ```
-   {selected item} EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat"|Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-   ```
+### <a name="create-a-skype-room-systems-v2-dashboard-by-using-the-import-method"></a>Créer un tableau de bord v2 Skype salle systèmes à l’aide de la méthode d’importation
 
-### <a name="create-the-tile-that-shows-devices-with-connectivity-issues"></a>Créer la mosaïque qui montre les appareils présentant des problèmes de connectivité
+Vous pouvez importer un tableau de bord Operations Management Suite et commencer à analyser vos périphériques immédiatement. Procédez comme suit pour importer le tableau de bord :
 
-1. Définissez le cas :  
-    
-    Cette mosaïque affiche tous les appareils qui ont envoyé un message de pulsations au cours des 10 dernières minutes. Ces appareils ont pu rencontrer des problèmes de connectivité avec le réseau, Exchange ou Skype Entreprise.
-    
-2. Assigner une mosaïque de groupe  
-    
-   ```
-   SRS v2
-   ```
+1.  Télécharger le [tableau de bord](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview).
+2.  Ouvrez une session sur le [portail de Microsoft Operations Management Suite](http://aka.ms/omsportal).
+3.  Ouvrez le **Concepteur de vues**.
+4.  Sélectionnez **Importer**et sélectionnez le fichier **SkypeRoomSystems_v2.omsview** .
+5.  Cliquez sur **Enregistrer**.
 
-3. Ne cochez pas la nouvelle zone de groupe. Vous l’avez déjà fait lors de la création de la mosaïque 1. Vous n’avez donc pas à le refaire.
-    
-4. Ajouter le texte de légende de la mosaïque
-    
-   ```
-   Devices no longer sending Heartbeat messages
-   ```
+### <a name="create-a-skype-room-systems-v2-dashboard-manually"></a>Créer un tableau de bord v2 Skype salle systèmes manuellement
 
-5. Entrer la requête de mosaïque
-    
-   ```
-   Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |measure max(TimeGenerated) as LastHB by Computer|Where LastHB<NOW-10MINUTES
-   ```
+Sinon, vous pouvez créer votre propre tableau de bord et ajouter uniquement les morceaux que vous souhaitez surveiller.
 
-6. Entrer la requête de liste
-    
-   ```
-   Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |measure max(TimeGenerated) as LastHB by Computer|Where LastHB<NOW-10MINUTES
-   ```
+#### <a name="configure-the-overview-tile"></a>Configurer la mosaïque de la vue d’ensemble
+1.  Ouvrez le **Concepteur de vues**.
+2.  Sélectionnez **Aperçu mosaïque**et sélectionnez **deux nombres** de la galerie.
+3.  Nom de la mosaïque de **Systèmes de salle de Skype**.
+4.  Définir la **première mosaïque**:<br>
+    **Légende :** Périphériques envoyé de pulsations au moins une fois depuis le mois dernier<br>
+    **Requête :**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
+5.  Définissez la **deuxième mosaïque**:<br>
+    **Légende :** Dispositifs actifs envoyé de pulsations au sein de la dernière heure<br>
+    **Requête :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
+6.  Sélectionnez **Appliquer**.
 
-7. Définir le nom des titres de colonne
-    
-   ```
-   Device Name
-   ```
+### <a name="create-a-tile-that-displays-active-devices"></a>Créer une mosaïque qui affiche les périphériques actifs
+1.  Sélectionnez un **Affichage tableau de bord** pour commencer à ajouter vos mosaïques.
+2.  Sélectionnez le **numéro et la liste** dans la galerie
+3.  Définir les propriétés **générales** :<br>
+    **Titre de groupe :** État de pulsation<br>
+    **Nouveau groupe :** Sélectionné
+4.  Définissez les propriétés de **Mosaïque** :<br>
+    **Légende :** Dispositifs actifs (pulsation envoyée dans les dernières minutes 20)<br>
+    **Requête de mosaïque :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
+5.  Définissez les propriétés de la **liste** :<br>
+    **Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+6.  Définir les **titres des colonnes**:<br>
+    **Nom :** Nom complet<br>
+    **Valeur :** Dernière pulsation
+7.  Définissez la **requête de Navigation**.<br>
+    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+8.  Sélectionnez **Appliquer**, puis sur **Fermer**.
 
-8. Définir la valeur des titres de colonne  
-    
-   ```
-   Last HB
-   ```
+### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>Créer une mosaïque qui affiche les périphériques qui ont des problèmes de connectivité
+1.  Sélectionnez le **numéro et la liste** dans la galerie, puis ajoutez une nouvelle mosaïque.
+2.  Définir les propriétés **générales** :<br>
+    **Titre de groupe :** Laisser vide<br>
+    **Nouveau groupe :** Non sélectionné
+3.  Définissez les propriétés de **Mosaïque** :<br>
+    **Légende :** Périphériques inactifs (aucun message de pulsation envoyé dans les dernières minutes 20)<br>
+    **Requête de mosaïque :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
+4.  Définissez les propriétés de la **liste** :<br>
+    **Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
+5.  Définir les **titres des colonnes**:<br>
+    **Nom :** Nom complet<br>
+    **Valeur :** Dernière pulsation
+6.  Définissez la **requête de Navigation**:<br>
+    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+7.  Sélectionnez **Appliquer**, puis sur **Fermer**.
 
-9. Entrer la requête de navigation
-    
-   ```
-   {selected item} EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-   ```
+### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>Créer une mosaïque qui affiche les périphériques qui ont une erreur matérielle
 
-### <a name="list-devices-with-a-hardware-error"></a>Liste des appareils présentant une erreur matérielle 
+1.  Sélectionnez le **numéro et la liste** dans la galerie, puis ajoutez une nouvelle mosaïque.
+2.  Définir les propriétés **générales** :<br>
+    **Titre de groupe :** Matériel<br>
+    **Nouveau groupe :** Sélectionné
+3.  Définissez les propriétés de **Mosaïque** :<br>
+    **Légende :** Périphériques qui a rencontré une erreur matérielle dans l’heure écoulée <br>
+    **Requête de mosaïque :**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+4.  Définissez les propriétés de la **liste** :<br>
+    **Requête de liste :**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer```
+5.  Définir les **titres des colonnes**:<br>
+    **Nom :** Nom complet<br>
+    **Valeur :** Dernière erreur
+6.  Définissez la **requête de Navigation**:<br>
+    ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
+7.  Sélectionnez **Appliquer**, puis sur **Fermer**.
 
-1. Définissez le cas :  
-    
-   Cette mosaïque affiche tous les périphériques qui a envoyé un message indiquant un un ou plusieurs problèmes de composant matériel dans les dix dernières minutes. 
-    
-2. Assigner une mosaïque de groupe  
-    
-   ```
-   SRS v2
-   ```
+### <a name="create-a-tile-that-displays-skype-room-systems-application-versions"></a>Créer une mosaïque qui affiche les versions des applications de systèmes de salle de Skype
 
-3. Ne cochez pas la nouvelle zone de groupe. Vous l’avez déjà fait lors de la création de la mosaïque 1. Vous n’avez donc pas à le refaire.
-    
-4. Légende de la mosaïque :  
-    
-   ```
-   Devices with a Hardware Error
-   ```
+1.  Sélectionnez **bouée & liste** dans la galerie, puis ajoutez une nouvelle mosaïque.
+2.  Définir les propriétés **générales** :<br>
+    **Titre de groupe :** Détails de l’application v2 systèmes de salle de Skype <br>
+    **Nouveau groupe :** Sélectionné
+3.  Définir les propriétés **d’en-tête** :<br>
+    **Titre :** Versions d’application<br>
+    **Sous-titre :** Périphériques qui exécutent des versions de l’application spécifique
+4.  Définissez les propriétés de **l’anneau** :<br>
+    **Requête :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
+    **Centre le texte :** Périphériques<br>
+    **Opération :** Somme
+5.  Définir les propriétés de la **liste** .<br>
+    **Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
+    **Masquer graphique :** Sélectionné<br>
+    **Activer les graphiques sparkline :** Non sélectionné
+6.  Définir les **titres des colonnes**.<br>
+    **Nom :** Nom complet<br>
+    **Valeur :** Laisser vide
+7.  Définissez la **requête de Navigation**.<br>
+    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+8.  Sélectionnez **Appliquer** , puis sur **Fermer**.
 
-5. Requête de mosaïque
-    
-   ```
-   Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:3001 TimeGenerated>NOW-10MINUTES|measure count() by SRSDisplayName_CF
-   ```
+### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>Créer une mosaïque qui affiche les périphériques qui ont une erreur d’application
 
-6. Requête de liste :
-    
-   ```
-   Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:3001 TimeGenerated>NOW-10MINUTES|measure max(TimeGenerated) by SRSDisplayName_CF
-   ```
+1.  Sélectionnez le **numéro et la liste** dans la galerie, puis ajoutez une nouvelle mosaïque.
+2.  Définir les propriétés **générales** .<br>
+    **Titre de groupe :** Laisser vide<br>
+    **Nouveau groupe :** Non sélectionné
+3.  Définir les propriétés de la **Mosaïque** .<br>
+    **Légende :** Périphériques qui a rencontré une erreur d’application durant la dernière heure<br>
+    **Requête de mosaïque :**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+4.  Définir les propriétés de la **liste** .<br>
+    **Requête de liste :**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+5.  Définir les **titres des colonnes**.<br>
+    **Nom :** Nom complet<br>
+    **Valeur :** Dernière erreur
+6.  Définissez la **requête de Navigation**.<br>
+    ```search {selected item} | where EventLog == "Skype Room System" and EventID == 2001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
+7.  Sélectionnez **Appliquer** , puis sur **Fermer**.
 
-7. Nom des titres de colonne :  
-    
-   ```
-   Display Name
-   ```
+### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>Créer une mosaïque qui affiche les périphériques qui ont été redémarrés.
 
-8. Valeur des titres de colonne :  
-    
-   ```
-   Last Error
-   ```
+1.  Sélectionnez le **numéro et la liste** dans la galerie, puis ajoutez une nouvelle mosaïque.
+2.  Définir les propriétés **générales** .<br>
+    **Titre de groupe :** Laisser vide<br>
+    **Nouveau groupe :** Non sélectionné
+3.  Définir les propriétés de la **Mosaïque** .<br>
+    **Légende :** Périphériques où l’application a été redémarrée dans le dernier 24 heures et le nombre de redémarrages<br>
+    **Requête de mosaïque :**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
+4.  Définir les propriétés de la **liste** .<br>
+    **Requête de liste :**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
+5.  Définir les **titres des colonnes**.<br>
+    **Nom :** Nom complet<br>
+    **Valeur :** Nombre de redémarrages
+6.  Définissez la **requête de Navigation**.<br>
+    ```search {selected item} | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+7.  Sélectionnez **Appliquer** , puis sur **Fermer**.
+8.  Sélectionnez **Enregistrer** pour enregistrer votre tableau de bord.
 
-9. Requête de navigation :  
-    
-   ```
-   {selected item}  EventLevelName:Error EventID:3001|Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-   ```
+Maintenant, vous avez terminé la création de vos vues.
 
-### <a name="list-devices-with-an-app-error"></a>Liste des appareils présentant une erreur d’application  
+Pour accéder à vos vues, vous pouvez utiliser le portail de Microsoft Operations Management Suite ou les clients mobiles de Microsoft Operations Management Suite pour [Windows Phone](https://www.microsoft.com/en-us/store/p/microsoft-operations-management-suite/9wzdncrfjz2r), [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859)ou [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) .
 
-1. Définissez le cas : 
-    
-   Cette mosaïque affiche tous les appareils SRS qui signalent la survenue d’une ou de plusieurs erreurs au niveau des composants de l’application au cours des 10 dernières minutes.
-    
-2. Assigner une mosaïque de groupe  
-    
-   ```
-   SRS v2
-   ```
+## <a name="configure-alerts-in-operations-management-suite"></a>Configurer des alertes dans Microsoft Operations Management Suite
+<a name="Alerts"></a> Les périphériques lorsqu’un Skype salle systèmes rencontre un problème, de Microsoft Operations Management Suite peuvent déclencher des alertes pour avertir les administrateurs avec les détails du problème.
 
-3. Ne cochez pas la nouvelle zone de groupe. Vous l’avez déjà fait lors de la création de la mosaïque 1. Vous n’avez donc pas à le refaire.
-    
-4. Légende de la mosaïque :  
-   ``` 
-    Device with App Errors (in prior 10 minutes)
-   ``` 
-5. Requête de mosaïque :  
-    
-   ```
-   Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:2001 TimeGenerated>NOW-10MINUTES|measure count() by Computer
-   ```
+Opérations Suite comprend un mécanisme d’alerte intégré qui s’exécute par le biais de recherches de journal planifiées à intervalles réguliers. Si les résultats de la recherche du journal correspondent à certains critères particuliers, un enregistrement d’alerte est créé.
 
-6. Requête de liste :  
-    
-   ```
-   Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:2001 TimeGenerated>NOW-10MINUTES|measure max(TimeGenerated) by Computer
-   ```
+![Mécanisme d’alerte OMS] (../../media/Deploy_OMS_6.png "Mécanisme d’alerte OMS")
 
-7. Nom des titres de colonne :  
-    
-   ```
-   Device Name
-   ```
+La règle exécute alors automatiquement une ou plusieurs actions pour vous avertir de l’alerte proactive ou d’appeler un autre processus. Les options possibles avec les alertes de Microsoft Operations Management Suite sont :
+-   Envoi d’un e-mail
+-   L’appel à un processus externe via une demande HTTP POST
+-   Démarrage d’une procédure opérationnelle dans le service d’Azure Automation
 
-8. Valeur des titres de colonne :  
-    
-   ```
-   Last Error
-   ```
+Reportez-vous à la section [Présentation des alertes dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts) pour en savoir plus sur les alertes de Microsoft Operations Management Suite.
 
-9. Requête de navigation :
-    
-   ```
-   {selected item} EventLevelName:Error|Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-   ```
+> [!NOTE]
+> Les exemples suivants envoient des alertes par e-mail lorsqu’un périphérique de système de salle de Skype génère un matériel ou une erreur d’application. 
 
-### <a name="list-devices-requiring-a-restart"></a>Liste des appareils nécessitant un redémarrage
 
-1. Définissez le cas : 
-    
-   Cette mosaïque affiche tous les appareils SRS qui ont été redémarrés au cours des 24 dernières heures et le nombre de redémarrages.
-    
-2. Assigner une mosaïque de groupe  
-    
-  ```
-  SRS v2
-  ```
+### <a name="configure-an-email-alert-for-skype-room-systems-hardware-issues"></a>Configurer un message d’alerte pour les problèmes matériels de systèmes de salle de Skype
 
-3. Ne cochez pas la nouvelle zone de groupe. Vous l’avez déjà fait lors de la création de la mosaïque 1. Vous n’avez donc pas à le refaire.
-    
-4. Légende de la mosaïque :  
-    
-   ```
-   Devices with App restarted (past 24 hours)
-   ```
+Configurer une règle d’alerte qui vérifie pour les périphériques de systèmes de salle Skype qui ont eu des problèmes matériels dans la dernière heure.
+1.  Ouvrez une session sur le [portail de Microsoft Operations Management Suite](http://aka.ms/omsportal).
 
-5. Requête de mosaïque :  
-    
-   ```
-   Type:Event EventLog:"Skype Room System" EventID:4000 TimeGenerated>NOW-24HOURS|measure count() by Computer
-   ```
+2.  Sélectionnez la **recherche dans un journal**.
 
-6. Requête de liste :  
-    
-   ```
-   Type:Event EventLog:"Skype Room System" EventID:4000 TimeGenerated>NOW-24HOURS|measure count(EventID) by SRSDisplayName_CF
-   ```
+3.  Entrez la requête suivante, puis sélectionnez **exécuter**.<br>
+    ```
+    Event
+    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
+    | summarize arg_max(TimeGenerated, *) by Computer
+    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF 
+    |sort by TimeGenerated desc
+    ```
 
-7. Nom des titres de colonne :  
-    
-   ```
-   Display Name
-   ```
+4.  Après l’exécution de la requête, sélectionnez **alerte**. Cela ouvre la page **Ajouter une règle d’alerte** .
 
-8. Valeur des titres de colonne :  
-    
-   ```
-   Number of restarts
-   ```
+5.  Configurer les paramètres d’alerte en utilisant les informations ci-dessous :<br>
+    **Nom de règle :** Alerte d’échec de la salle de Skype systèmes matériels<br>
+    **Description :** Liste des périphériques qui a rencontré un problème matériel au sein de la dernière heure<br>
+    **Gravité :** Critique<br>
+    **Requête :** Utilisez la requête de recherche préremplies<br>
+    **Fenêtre de temps :** 1 heure<br>
+    **Fréquence de l’alerte :** 1 heure<br>
+    **Nombre de résultats :** Supérieur à 0<br>
+    **Objet de l’e-mail :** Alerte d’échec de la salle de Skype systèmes matériels<br>
+    **Destinataires :** Inclure les adresses de messagerie, en utilisant des points-virgules comme séparateurs<br>
 
-9. Requête de navigation :  
-    
-   ```
-   {selected item} EventID:4000 TimeGenerated >NOW-24HOURS|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-   ```
+6.  Cliquez sur **Enregistrer**.
 
-La création de vues est terminée. Les alertes disponibles sont toutes reflétées dans une ou plusieurs de ces mosaïques.
+### <a name="configure-an-email-alert-for-skype-room-systems-application-issues"></a>Configurer un message d’alerte pour les problèmes d’application de systèmes de salle de Skype
+
+Configurer une règle d’alerte, qui vérifie pour les périphériques de systèmes de salle Skype qui ont eu des problèmes de l’application au sein de la dernière heure.
+1.  Sélectionnez la **recherche dans un journal**.
+
+2.  Entrez la requête suivante, puis sélectionnez **exécuter**.<br>
+    ```
+    Event
+    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(10h)
+    | summarize arg_max(TimeGenerated, *) by Computer
+    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
+    | sort by TimeGenerated desc
+    ```
+
+3.  Après l’exécution de la requête, sélectionnez **alerte**. Cela ouvre la page **Ajouter une règle d’alerte** .
+
+4.  Configurer les paramètres d’alerte en utilisant les informations ci-dessous :<br>
+    **Nom de règle :** Alerte d’échec de la salle de Skype systèmes Application<br>
+    **Description :** Liste des périphériques qui a rencontré un problème d’application au sein de la dernière heure<br>
+    **Gravité :** Critique<br>
+    **Requête :** Utilisez la requête de recherche préremplies<br>
+    **Fenêtre de temps :** 1 heure<br>
+    **Fréquence de l’alerte :** 1 heure<br>
+    **Nombre de résultats :** Supérieur à 0<br>
+    **Objet de l’e-mail :** Alerte d’échec de la salle de Skype systèmes Application<br>
+    **Destinataires :** Inclure les adresses de messagerie, en utilisant des points-virgules comme séparateurs
+
+5.  Cliquez sur **Enregistrer**.
+
+Maintenant vous avez terminé la définition d’alertes. Vous pouvez définir des alertes supplémentaires en utilisant les exemples ci-dessus.
+
+Lorsqu’une alerte est générée, vous obtiendrez un e-mail qui répertorie les périphériques a rencontré un problème au sein de la dernière heure.
+
+![Exemple OMS d’alerte e-mail] (../../media/Deploy_OMS_7.png "Exemple OMS d’alerte e-mail")
+
+Vous utilisez une page de paramètres d’alerte pour modifier la configuration d’une alerte existante, ou pour désactiver ou supprimer une alerte.
+
+![Paramètres d’alerte OMS] (../../media/Deploy_OMS_8.png "Paramètres d’alerte OMS")
+
+> [!NOTE]
+> Vous devrez peut-être utiliser le portail Azure pour ajouter ou modifier les alertes de Microsoft Operations Management Suite si votre espace de travail de la Suite de gestion des opérations est configuré pour étendre les alertes Operations Management Suite dans Azure. Pour plus de détails, consultez [extension des alertes du portail OMS dans Azure](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-alerts-extend).
+
+## <a name="configure-all-devices-for-operations-management-suite"></a>Configurer tous les périphériques pour la Suite de gestion des opérations
+<a name="configure_all_devices"></a> Après avoir configuré les tableaux de bord et les alertes, vous pouvez définir et configurer les agents de la Suite de gestion des opérations sur tous les périphériques de systèmes de salle Skype pour effectuer votre déploiement de surveillance.
+
+Bien que vous pouvez installer et configurer les agents Microsoft Operations Management Suite manuellement sur chaque périphérique, nous vous recommandons vivement de que vous exploitez des méthodes et des outils de déploiement de logiciels existants.
+
+Si vous créez vos périphériques de systèmes de salle Skype pour la première fois, vous pouvez souhaiter inclure les étapes d’installation et de configuration de l’agent Operations Management Suite dans le cadre de votre processus de génération. Pour plus d’informations, reportez-vous à la section [installation de l’agent à l’aide de la ligne de commande](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows#install-the-agent-using-the-command-line).
+
+### <a name="deploying-operations-management-suite-agents-by-using-a-group-policy-object"></a>Déploiement d’agents Operations Management Suite à l’aide d’un objet de stratégie de groupe
+
+Si vous déjà déployé vos périphériques de systèmes de salle Skype avant d’implémenter les opérations Management Suite, vous pouvez utiliser le script fourni pour installer et configurer les agents à l’aide de stratégies de groupe Active Directory.
+
+1.  Créer un chemin d’accès de réseau partagé et accordez l’accès en lecture au groupe **Ordinateurs du domaine** .
+
+2.  Télécharger la version 64 bits de l’Agent Windows pour opérations de gestion Suite à partir de<http://go.microsoft.com/fwlink/?LinkID=517476>
+
+3.  Extrayez le contenu du package d’installation dans le partage réseau.
+    1.  Ouvrez une fenêtre d’invite de commande et l’exécuter **MMASetup-AMD64.exe /c**
+    2.  Spécifiez le partage que vous venez de créer et extraire le contenu.
+
+4.  Créer un nouvel objet de stratégie de groupe et l’affecter à l’unité d’organisation où se trouvent les comptes d’ordinateur de systèmes de salle de Skype.
+
+5.  Configurer la stratégie d’exécution PowerShell :
+    1.  Modifier l’objet de stratégie de groupe nouvellement créé et accédez au dossier Configuration de l’ordinateur \\ stratégies \\ les modèles d’administration \\ composants Windows \\ de Windows PowerShell
+    2.  Activer l' **activer sur l’exécution du Script** et de définir la **Stratégie d’exécution** pour **Autoriser les Scripts locaux**.
+
+6.  Configurer le script de démarrage :
+    1.  Copiez le script suivant et enregistrez-le en tant que OMSAgent.ps1 de l’installation.
+    2.  Modifier les paramètres WorkspaceId, WorkspaceKey et SetupPath correspondant à votre configuration.
+    3.  Modifier le même objet de stratégie de groupe et accédez au dossier Configuration de l’ordinateur \\ stratégies \\ paramètres Windows \\ Scripts (démarrage/arrêt)
+    4.  Cliquez deux fois sur **démarrage**et sélectionnez **Scripts PowerShell**.
+    5.  Sélectionnez **Afficher les fichiers**, puis copiez le fichier **OMSAgent.ps1 de l’installation** dans ce dossier.
+    6.  Sélectionnez **Ajouter**, puis sur **Parcourir**.
+    7.  Sélectionnez le script ps1 que vous venez de copier.
+
+7.  Les périphériques de systèmes de salle Skype doivent installer et configurer l’agent Microsoft Monitoring du deuxième redémarrage.
+
+
+    ```
+    # Install-OMSAgent.ps1
+    <# 
+    Date:        04/20/2018 
+    Script:      Install-OMSAgent.ps1 
+    Version:     1.0
+    #> 
+    
+    # Set the parameters
+    $WorkspaceId = "<your workspace id>"
+    $WorkspaceKey = "<your workspace key>"
+    $SetupPath = "\\Server\Share"
+    
+    $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
+    
+    # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
+    
+    # Start PowerShell logging
+    Start-Transcript -Path C:\OMSAgentInstall.Log  
+    
+    # Check if the Microsoft Monitoring Agent is installed
+    $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
+    
+    # Check if the Microsoft Monitoring agent is installed 
+    if (!$mma)
+    {
+        #Install agent
+        Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
+    }
+    
+    # Check if the agent has a valid configuration
+    $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
+    if (!$CheckOMS)
+    {
+        # Apply new configuration
+        $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
+        $mma.ReloadConfiguration()
+    } 
+    
+    Stop-Transcript 
+    
+    ```
+    
+> [!NOTE]
+> Vous pouvez faire référence à l’article de la [gestion et la maintenance de l’agent de journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage) lorsque vous devez reconfigurer un agent, le déplacer vers un autre espace de travail, ou de modifier les paramètres de proxy après l’installation initiale.
+
+## <a name="additional-solutions"></a>Solutions supplémentaires
+<a name="Solutions"> </a>
+
+Operations Management Suite fournit des solutions intégrées par le biais de la [Galerie de solutions](https://docs.microsoft.com/azure/log-analytics/log-analytics-add-solutions) supplémentaires permettent de contrôler votre environnement. Il est vivement recommandé d’ajouter des solutions de [Gestion des alertes](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management) et de [La santé de l’Agent](https://docs.microsoft.com/azure/operations-management-suite/oms-solution-agenthealth) à votre espace de travail Suite de gestion des opérations.
+
+![Vues de l’OMS] (../../media/Deploy_OMS_9.png "Vues de l’OMS")
+
+> [!NOTE]
+> La solution de santé des agents peut vous aider à identifier des agents d’Operations Management Suite obsolètes ou endommagés dans votre environnement, et la solution de gestion des alertes fournit des détails sur les alertes qui ont été déclenchés dans une période donnée.
+
 ## <a name="see-also"></a>Voir aussi
-<a name="Views"> </a>
 
 #### 
-
 [Planification de la gestion de v2 Skype salle systèmes avec OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
 [Gérer les périphériques de v2 Skype salle systèmes avec OMS](../../manage/skype-room-systems-v2/oms.md)
-
