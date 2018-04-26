@@ -3,7 +3,7 @@ title: Déploiement de la gestion de Skype Room Systems v2 avec OMS
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/20/2017
+ms.date: 4/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,329 +11,489 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article explique comment déployer la gestion des systèmes de salle Skype v2 périphériques d’une manière intégrée, de bout en bout à l’aide de Microsoft Operations Management Suite.
-ms.openlocfilehash: 0d0490d92a5513dad38a9ff6348a957204274878
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3d42f0777059870872e871c25591f16c103b5939
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="deploy-skype-room-systems-v2-management-with-oms"></a><span data-ttu-id="66dfc-103">Déploiement de la gestion de Skype Room Systems v2 avec OMS</span><span class="sxs-lookup"><span data-stu-id="66dfc-103">Deploy Skype Room Systems v2 management with OMS</span></span>
+# <a name="deploy-skype-room-systems-v2-management-with-oms"></a><span data-ttu-id="8722a-103">Déploiement de la gestion de Skype Room Systems v2 avec OMS</span><span class="sxs-lookup"><span data-stu-id="8722a-103">Deploy Skype Room Systems v2 management with OMS</span></span>
  
-<span data-ttu-id="66dfc-104">Cet article explique comment déployer la gestion des systèmes de salle Skype v2 périphériques d’une manière intégrée, de bout en bout à l’aide de Microsoft Operations Management Suite.</span><span class="sxs-lookup"><span data-stu-id="66dfc-104">This article discusses how to deploy management of Skype Room Systems v2 devices in an integrated, end-to-end manner using Microsoft Operations Management Suite.</span></span> 
+<span data-ttu-id="8722a-104">Cet article explique comment configurer et déployer la gestion intégrée, de bout en bout pour des dispositifs de v2 Skype salle systèmes à l’aide de Microsoft Operations Management Suite.</span><span class="sxs-lookup"><span data-stu-id="8722a-104">This article discusses how to set up and deploy integrated, end-to-end management of Skype Room Systems v2 devices by using Microsoft Operations Management Suite.</span></span>
   
-<span data-ttu-id="66dfc-p101">Vous pouvez configurer Microsoft Operations Management Suite (OMS) pour fournir des données télémétriques de base qui facilitent la gestion des dispositifs de salle de réunion Skype. Une fois que votre solution de gestion acquiert sa maturité, vous pouvez acheter des capacités de données et de gestion supplémentaires pour créer des vues plus précises des performances des appareils.</span><span class="sxs-lookup"><span data-stu-id="66dfc-p101">You can configure Microsoft Operations Management Suite (OMS) to provide basic telemetry that will help you manage Skype meeting room devices. As your management solution matures, you can purchase additional data and management capabilities to create a more detailed view of device performance.</span></span>
-  
-<span data-ttu-id="66dfc-107">À haut niveau, vous devez effectuer les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="66dfc-107">At a high level, you need to perform the following tasks:</span></span>
-  
-1. [<span data-ttu-id="66dfc-108">Configurer les appareils pour la gestion OMS </span><span class="sxs-lookup"><span data-stu-id="66dfc-108">Configure devices for OMS Management </span></span>](with-oms.md#config_devices)
-    
-2. [<span data-ttu-id="66dfc-109">Mapper les champs personnalisés</span><span class="sxs-lookup"><span data-stu-id="66dfc-109">Map custom fields</span></span>](with-oms.md#Custom_fields)
-    
-3. [<span data-ttu-id="66dfc-110">Définir les vues SRS v2 dans OMS</span><span class="sxs-lookup"><span data-stu-id="66dfc-110">Define the SRS v2 views in OMS</span></span>](with-oms.md#Views)
-    
-## <a name="find-and-record-device-locations-capabilities-and-configurations"></a><span data-ttu-id="66dfc-111">Rechercher et enregistrer l’emplacement des appareils, les fonctionnalités et les configurations</span><span class="sxs-lookup"><span data-stu-id="66dfc-111">Find and record device locations, capabilities, and configurations</span></span>
-<span data-ttu-id="66dfc-112"><a name="find_devices"> </a></span><span class="sxs-lookup"><span data-stu-id="66dfc-112"></span></span>
+<span data-ttu-id="8722a-105">Vous pouvez configurer Microsoft Operations Management Suite pour fournir de télémétrie de base et les alertes qui vous permettra de gérer Skype, équipements de salle de réunion.</span><span class="sxs-lookup"><span data-stu-id="8722a-105">You can configure Microsoft Operations Management Suite to provide basic telemetry and alerts that will help you manage Skype meeting room devices.</span></span> <span data-ttu-id="8722a-106">Que l’évolution de votre solution de gestion, vous pouvez décider de déployer des données supplémentaires et des fonctions de gestion pour créer un affichage plus détaillé de la disponibilité des périphériques et des performances.</span><span class="sxs-lookup"><span data-stu-id="8722a-106">As your management solution matures, you might decide to deploy additional data and management capabilities to create a more detailed view of device availability and performance.</span></span>
 
-<span data-ttu-id="66dfc-p102">La première étape consiste à créer une base de données complète regroupant tout l’équipement du système, détaillant les fonctionnalités, la configuration et l’emplacement. Une feuille de calcul peut s’avérer adaptée pour cette tâche dans les petites et moyennes entreprises. Si vous travaillez dans une grande entreprise, vous devriez envisager de recourir à des outils et des services tiers de gestion des ressources. L’important, c’est que vous enregistriez l’emplacement et tous les détails appropriés sur chaque appareil.</span><span class="sxs-lookup"><span data-stu-id="66dfc-p102">The first step is to create a detailed database of all of the equipment in the system, the details of its capabilities and configuration, and its location. A spreadsheet may be adequate for this task in small to medium organizations. If you work at a larger organization, you may need to consider asset management tools and third-party services. What is important is that you record the location and all the relevant details of every device.</span></span>
-  
-<span data-ttu-id="66dfc-117">Une fois cette tâche effectuée, vous pouvez utiliser ces informations pour déléguer des techniciens et gérer les correctifs et les mises à niveau.</span><span class="sxs-lookup"><span data-stu-id="66dfc-117">Once that work is done, you can use this information to dispatch technicians and manage device patches and upgrades.</span></span>
-  
-## <a name="configure-devices-for-oms-management"></a><span data-ttu-id="66dfc-118">Configurer les appareils pour la gestion OMS </span><span class="sxs-lookup"><span data-stu-id="66dfc-118">Configure devices for OMS Management</span></span>
-<span data-ttu-id="66dfc-119"><a name="config_devices"> </a></span><span class="sxs-lookup"><span data-stu-id="66dfc-119"></span></span>
+<span data-ttu-id="8722a-107">En suivant ce guide, vous pouvez utiliser un tableau de bord comme dans l’exemple suivant pour obtenir le statut détaillé pour la disponibilité des périphériques, application et état du matériel et la distribution de systèmes de salle Skype v2 application version.</span><span class="sxs-lookup"><span data-stu-id="8722a-107">By following this guide, you can use a dashboard like the following example to get detailed status reporting for device availability, application and hardware health, and Skype Room Systems v2 application version distribution.</span></span>
 
-<span data-ttu-id="66dfc-120">Pour chaque périphérique SRS, suivez les instructions dans les [ordinateurs Windows de se connecter au service journal Analytique dans Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents).</span><span class="sxs-lookup"><span data-stu-id="66dfc-120">For each SRS device, follow the instructions found in [Connect Windows computers to the Log Analytics service in Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents).</span></span>
+<span data-ttu-id="8722a-108">![Affichage d’exemple OMS SRS v2] (../../media/Deploy_OMS_1.png "Affichage d’exemple OMS SRS v2")</span><span class="sxs-lookup"><span data-stu-id="8722a-108">![Sample OMS view for SRS v2](../../media/Deploy_OMS_1.png "Sample OMS view for SRS v2")</span></span>
   
-## <a name="configure-oms-to-collect-device-event-logs"></a><span data-ttu-id="66dfc-121">Configurer OMS pour collecter le journal des événements des appareils</span><span class="sxs-lookup"><span data-stu-id="66dfc-121">Configure OMS to collect device event logs</span></span>
-<span data-ttu-id="66dfc-122"><a name="config_devices"> </a></span><span class="sxs-lookup"><span data-stu-id="66dfc-122"></span></span>
+<span data-ttu-id="8722a-109">À haut niveau, vous devez effectuer les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="8722a-109">At a high level, you need to perform the following tasks:</span></span>
 
-<span data-ttu-id="66dfc-123">Vous devez configurer spécifiquement OMS pour collecter des journaux des événements à partir de périphériques SRS à l’aide de la procédure à [des sources de données de journal des événements Windows dans le journal Analytique](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-windows-events).</span><span class="sxs-lookup"><span data-stu-id="66dfc-123">You will need to specifically configure OMS to collect event logs from SRS devices using the steps at [Windows event log data sources in Log Analytics](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-windows-events).</span></span> <span data-ttu-id="66dfc-124">Le journal des événements pour sélectionner SRS est « Système de salle Skype » et vous devez vérifier les cases d’option pour tous les types : erreur, avertissement et informations.</span><span class="sxs-lookup"><span data-stu-id="66dfc-124">The SRS event log to select is "Skype Room System" and you should check the option boxes for all types: Error, Warning and Information.</span></span>
-  
-## <a name="map-custom-fields"></a><span data-ttu-id="66dfc-125">Mapper les champs personnalisés</span><span class="sxs-lookup"><span data-stu-id="66dfc-125">Map custom fields</span></span>
-<span data-ttu-id="66dfc-126"><a name="Custom_fields"> </a></span><span class="sxs-lookup"><span data-stu-id="66dfc-126"></span></span>
 
-<span data-ttu-id="66dfc-127">Avant de pouvoir utiliser les mosaïques créés dans les [vues de définir le v2 SRS de l’OMS](with-oms.md#Views) , vous devrez créer des champs personnalisés pour votre affichage.</span><span class="sxs-lookup"><span data-stu-id="66dfc-127">Before the tiles created in the [Define the SRS v2 views in OMS](with-oms.md#Views) can be used, you'll need to create custom fields for your view.</span></span> <span data-ttu-id="66dfc-128">Pour plus d’informations sur la création de champs personnalisés, reportez-vous à la section [champs personnalisés dans le journal Analytique](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-custom-fields) .</span><span class="sxs-lookup"><span data-stu-id="66dfc-128">see [Custom fields in Log Analytics](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-custom-fields) for details on creating custom fields.</span></span>
-  
-<span data-ttu-id="66dfc-129">Utiliser les mappages ci-dessous, OMS ajoute automatiquement le _CF lors de la définition du nouveau champ.</span><span class="sxs-lookup"><span data-stu-id="66dfc-129">Use the mappings shown below, OMS will automatically add the _CF when defining the new field.</span></span> 
-  
+1.  [<span data-ttu-id="8722a-110">Valider la configuration de la Suite de gestion des opérations</span><span class="sxs-lookup"><span data-stu-id="8722a-110">Validate Operations Management Suite configuration</span></span>](with-oms.md#validate_OMS)
+2.  [<span data-ttu-id="8722a-111">Configurer les périphériques de test pour le programme d’installation de Microsoft Operations Management Suite Gestion</span><span class="sxs-lookup"><span data-stu-id="8722a-111">Configure test devices for Operations Management Suite management setup</span></span>](with-oms.md#configure_test_devices)
+3.  [<span data-ttu-id="8722a-112">Mapper les champs personnalisés</span><span class="sxs-lookup"><span data-stu-id="8722a-112">Map custom fields</span></span>](with-oms.md#Custom_fields)
+4.  [<span data-ttu-id="8722a-113">Définir les vues v2 de systèmes de salle Skype dans la Suite de gestion des opérations</span><span class="sxs-lookup"><span data-stu-id="8722a-113">Define the Skype Room Systems v2 views in Operations Management Suite</span></span>](with-oms.md#Define_Views)
+5.  [<span data-ttu-id="8722a-114">Définir des alertes</span><span class="sxs-lookup"><span data-stu-id="8722a-114">Define alerts</span></span>](with-oms.md#Alerts)
+6.  [<span data-ttu-id="8722a-115">Configurer tous les périphériques pour la Suite de gestion des opérations</span><span class="sxs-lookup"><span data-stu-id="8722a-115">Configure all devices for Operations Management Suite</span></span>](with-oms.md#configure_all_devices)
+7.  [<span data-ttu-id="8722a-116">Configurer les autres solutions Operations Management Suite</span><span class="sxs-lookup"><span data-stu-id="8722a-116">Configure additional Operations Management Suite solutions</span></span>](with-oms.md#Solutions)
+
 > [!IMPORTANT]
-> <span data-ttu-id="66dfc-130">N’oubliez pas que tous les champs JSON et OMS sont sensibles à la casse.</span><span class="sxs-lookup"><span data-stu-id="66dfc-130">Remember that all JSON and OMS fields are case sensitive.</span></span> 
-  
-<span data-ttu-id="66dfc-131">**Mappage des champs personnalisés**</span><span class="sxs-lookup"><span data-stu-id="66dfc-131">**Custom fields mapping**</span></span>
+> <span data-ttu-id="8722a-117">Bien qu’avec une configuration minimale, la Suite de gestion des opérations peut surveiller un ordinateur exécutant un système d’exploitation de Windows, il existe toujours certaines étapes de la salle de Skype systèmes spécifiques que vous devez prendre avant de commencer le déploiement des agents sur tous les systèmes de salle de Skype périphériques.</span><span class="sxs-lookup"><span data-stu-id="8722a-117">Although with minimal configuration, the Operations Management Suite can monitor a computer running a Windows operating system, there are still some Skype Room Systems–specific steps that you need to take before you start deploying agents to all Skype Room Systems devices.</span></span>
+> <span data-ttu-id="8722a-118">Par conséquent, nous vous recommandons vivement de que procéder à toutes les étapes de configuration dans le bon ordre pour une installation contrôlée et de la configuration.</span><span class="sxs-lookup"><span data-stu-id="8722a-118">Therefore, we highly recommend you perform all configuration steps in the right order for a controlled setup and configuration.</span></span> <span data-ttu-id="8722a-119">La qualité du résultat final dépend beaucoup de la qualité de la configuration initiale.</span><span class="sxs-lookup"><span data-stu-id="8722a-119">The quality of the end result very much depends on the quality of the initial configuration.</span></span>
 
-|<span data-ttu-id="66dfc-132">**Champ JSON**</span><span class="sxs-lookup"><span data-stu-id="66dfc-132">**JSON field**</span></span>|<span data-ttu-id="66dfc-133">**Champ personnalisé d’OMS**</span><span class="sxs-lookup"><span data-stu-id="66dfc-133">**OMS custom field**</span></span>|
-|:-----|:-----|
-|<span data-ttu-id="66dfc-134">Description</span><span class="sxs-lookup"><span data-stu-id="66dfc-134">Description</span></span>  <br/> |<span data-ttu-id="66dfc-135">SRSEventDescription_CF</span><span class="sxs-lookup"><span data-stu-id="66dfc-135">SRSEventDescription_CF</span></span>  <br/> |
-|<span data-ttu-id="66dfc-136">ResourceState</span><span class="sxs-lookup"><span data-stu-id="66dfc-136">ResourceState</span></span>  <br/> |<span data-ttu-id="66dfc-137">SRSResourceState_CF</span><span class="sxs-lookup"><span data-stu-id="66dfc-137">SRSResourceState_CF</span></span>  <br/> |
-|<span data-ttu-id="66dfc-138">OperationName</span><span class="sxs-lookup"><span data-stu-id="66dfc-138">OperationName</span></span>  <br/> |<span data-ttu-id="66dfc-139">SRSOperationName_CF</span><span class="sxs-lookup"><span data-stu-id="66dfc-139">SRSOperationName_CF</span></span>  <br/> |
-|<span data-ttu-id="66dfc-140">OperationResult</span><span class="sxs-lookup"><span data-stu-id="66dfc-140">OperationResult</span></span>  <br/> |<span data-ttu-id="66dfc-141">SRSOperationResult_CF</span><span class="sxs-lookup"><span data-stu-id="66dfc-141">SRSOperationResult_CF</span></span>  <br/> |
-|<span data-ttu-id="66dfc-142">OS</span><span class="sxs-lookup"><span data-stu-id="66dfc-142">OS</span></span>  <br/> |<span data-ttu-id="66dfc-143">SRSOSVersion_CF</span><span class="sxs-lookup"><span data-stu-id="66dfc-143">SRSOSVersion_CF</span></span>  <br/> |
-|<span data-ttu-id="66dfc-144">OSVersion</span><span class="sxs-lookup"><span data-stu-id="66dfc-144">OSVersion</span></span>  <br/> |<span data-ttu-id="66dfc-145">SRSOSLongVersion_CF</span><span class="sxs-lookup"><span data-stu-id="66dfc-145">SRSOSLongVersion_CF</span></span>  <br/> |
-|<span data-ttu-id="66dfc-146">Alias</span><span class="sxs-lookup"><span data-stu-id="66dfc-146">Alias</span></span>  <br/> |<span data-ttu-id="66dfc-147">SRSAlias_CF</span><span class="sxs-lookup"><span data-stu-id="66dfc-147">SRSAlias_CF</span></span>  <br/> |
-|<span data-ttu-id="66dfc-148">DisplayName</span><span class="sxs-lookup"><span data-stu-id="66dfc-148">DisplayName</span></span>  <br/> |<span data-ttu-id="66dfc-149">SRSDisplayName_CF</span><span class="sxs-lookup"><span data-stu-id="66dfc-149">SRSDisplayName_CF</span></span>  <br/> |
-|<span data-ttu-id="66dfc-150">AppVersion</span><span class="sxs-lookup"><span data-stu-id="66dfc-150">AppVersion</span></span>  <br/> |<span data-ttu-id="66dfc-151">SRSAppVersion_CF</span><span class="sxs-lookup"><span data-stu-id="66dfc-151">SRSAppVersion_CF</span></span>  <br/> |
-|<span data-ttu-id="66dfc-152">IPv4Address</span><span class="sxs-lookup"><span data-stu-id="66dfc-152">IPv4Address</span></span>  <br/> |<span data-ttu-id="66dfc-153">SRSIPv4Address_CF</span><span class="sxs-lookup"><span data-stu-id="66dfc-153">SRSIPv4Address_CF</span></span>  <br/> |
-|<span data-ttu-id="66dfc-154">IPv6Address</span><span class="sxs-lookup"><span data-stu-id="66dfc-154">IPv6Address</span></span>  <br/> |<span data-ttu-id="66dfc-155">SRSIPv6Address_CF</span><span class="sxs-lookup"><span data-stu-id="66dfc-155">SRSIPv6Address_CF</span></span>  <br/> |
-   
-## <a name="define-the-srs-v2-views-in-oms"></a><span data-ttu-id="66dfc-156">Définir les vues SRS v2 dans OMS</span><span class="sxs-lookup"><span data-stu-id="66dfc-156">Define the SRS v2 views in OMS</span></span>
-<span data-ttu-id="66dfc-157"><a name="Views"> </a></span><span class="sxs-lookup"><span data-stu-id="66dfc-157"></span></span>
+## <a name="validate-operations-management-suite-configuration"></a><span data-ttu-id="8722a-120">Valider la configuration de la Suite de gestion des opérations</span><span class="sxs-lookup"><span data-stu-id="8722a-120">Validate Operations Management Suite configuration</span></span>
+<span data-ttu-id="8722a-121"><a name="validate_OMS"> </a></span><span class="sxs-lookup"><span data-stu-id="8722a-121"></span></span>
 
-<span data-ttu-id="66dfc-158">Une fois que les données sont collectées et mappage des champs personnalisés, vous pouvez utiliser le Concepteur de vues OMS pour développer un tableau de bord contenant des mosaïques pour surveiller les événements de v2 SRS.</span><span class="sxs-lookup"><span data-stu-id="66dfc-158">Once data is collected and custom fields are mapped, you can use OMS View Designer to develop a Dashboard containing Tiles to monitor SRS v2 events.</span></span> <span data-ttu-id="66dfc-159">Concepteur de vues permet de créer des mosaïques suivantes, consultez [Concepteur de vue utilisé pour créer des vues personnalisées dans le journal Analytique](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-view-designer) si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="66dfc-159">Use View Designer to create the following tiles, refer to [Use View Designer to create custom views in Log Analytics](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-view-designer) as necessary.</span></span>
-  
-### <a name="create-a-tile-that-shows-healthy-devices"></a><span data-ttu-id="66dfc-160">Créer une mosaïque qui indique les appareils sains</span><span class="sxs-lookup"><span data-stu-id="66dfc-160">Create a tile that shows healthy devices</span></span>
+<span data-ttu-id="8722a-122">Vous devez disposer d’un espace de travail Microsoft Operations Management Suite pour commencer à collecter les journaux à partir de périphériques de systèmes de salle de Skype.</span><span class="sxs-lookup"><span data-stu-id="8722a-122">You need to have an Operations Management Suite workspace to start collecting logs from Skype Room Systems devices.</span></span> <span data-ttu-id="8722a-123">Un espace de travail est un environnement de journal Analytique unique avec son propre référentiel de données, les sources de données et des solutions.</span><span class="sxs-lookup"><span data-stu-id="8722a-123">A workspace is a unique Log Analytics environment with its own data repository, data sources, and solutions.</span></span> <span data-ttu-id="8722a-124">Si vous disposez déjà d’un espace de travail Analytique de journal existant, vous pouvez l’utiliser pour surveiller le déploiement de systèmes de salle Skype, ou vous pouvez créer un espace de travail Analytique de journal dédié spécifique à votre surveillance de systèmes de salle Skype a besoin.</span><span class="sxs-lookup"><span data-stu-id="8722a-124">If you already have an existing Log Analytics workspace, you might use it to monitor your Skype Room Systems deployment or you can create a dedicated Log Analytics workspace specific to your Skype Room Systems monitoring needs.</span></span>
 
-1. <span data-ttu-id="66dfc-161">Définissez le cas : </span><span class="sxs-lookup"><span data-stu-id="66dfc-161">Define the case:</span></span> 
-    
-    <span data-ttu-id="66dfc-162">Cette mosaïque affiche tous les appareils ayant envoyé un message de pulsations au cours des 10 dernières minutes.</span><span class="sxs-lookup"><span data-stu-id="66dfc-162">This tile displays all devices that have sent a heartbeat message in the last 10 minutes.</span></span>
-    
-2. <span data-ttu-id="66dfc-163">Assigner une mosaïque de groupe </span><span class="sxs-lookup"><span data-stu-id="66dfc-163">Assign Group Title</span></span> 
-    
-   ```
-   SRS v2
-   ```
+<span data-ttu-id="8722a-125">Si vous avez besoin créer un nouvel espace de travail du journal Analytique, suivez les instructions de l’article [créer un espace de travail du journal Analytique dans le portail Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-create-workspace)</span><span class="sxs-lookup"><span data-stu-id="8722a-125">If you need to create a new Log Analytics workspace, follow the instructions in the article [Create a Log Analytics workspace in the Azure portal](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-create-workspace)</span></span>
 
-3. <span data-ttu-id="66dfc-164">Case à cocher nouveau groupe</span><span class="sxs-lookup"><span data-stu-id="66dfc-164">Check the new group box</span></span>
-    
-4. <span data-ttu-id="66dfc-165">Ajouter le texte de légende de la mosaïque</span><span class="sxs-lookup"><span data-stu-id="66dfc-165">Add the Tile legend text</span></span>
-    
-   ```
-   All healthy devices (Heartbeat sent in last 10 minutes)
-   ```
+> [!NOTE]
+> <span data-ttu-id="8722a-126">Pour utiliser le journal Analytique avec Operations Management Suite, vous avez besoin à un abonnement Azure actif.</span><span class="sxs-lookup"><span data-stu-id="8722a-126">To use Log Analytics with Operations Management Suite, you need to have an active Azure subscription.</span></span> <span data-ttu-id="8722a-127">Si vous n’avez pas un abonnement Azure, vous pouvez créer [un abonnement d’essai gratuit](https://azure.microsoft.com/free) comme point de départ.</span><span class="sxs-lookup"><span data-stu-id="8722a-127">If you don’t have an Azure subscription, you can create [a free trial subscription](https://azure.microsoft.com/free) as a starting point.</span></span>
 
-5. <span data-ttu-id="66dfc-166">Entrer la requête de mosaïque</span><span class="sxs-lookup"><span data-stu-id="66dfc-166">Enter the tile query</span></span>
-    
-   ```
-   Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" TimeGenerated >NOW-10MINUTES|measure count() by SRSDisplayName_CF 
-   ```
 
-6. <span data-ttu-id="66dfc-167">Entrer la requête de liste</span><span class="sxs-lookup"><span data-stu-id="66dfc-167">Enter the list query</span></span>
-    
-   ```
-   Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |measure max(TimeGenerated) as LastHB by SRSDisplayName_CF |Where LastHB>NOW-10MINUTES
-   ```
+### <a name="configure-operations-management-suite-to-collect-skype-room-systems-event-logs"></a><span data-ttu-id="8722a-128">Configurer les opérations Management Suite pour collecter des journaux d’événements systèmes de salle de Skype</span><span class="sxs-lookup"><span data-stu-id="8722a-128">Configure Operations Management Suite to collect Skype Room Systems event logs</span></span>
 
-7. <span data-ttu-id="66dfc-168">Définir le nom des titres de colonne</span><span class="sxs-lookup"><span data-stu-id="66dfc-168">Define column titles name</span></span>
-    
-   ```
-   Display Name
-   ```
+<span data-ttu-id="8722a-129">Analytique de journal seulement collecte les événements dans les journaux des événements Windows qui sont spécifiés dans les paramètres.</span><span class="sxs-lookup"><span data-stu-id="8722a-129">Log Analytics only collects events from the Windows event logs that are specified in the settings.</span></span> <span data-ttu-id="8722a-130">Pour chaque journal, seuls les événements possédant les niveaux de gravité sélectionnés sont collectés.</span><span class="sxs-lookup"><span data-stu-id="8722a-130">For each log, only the events with the selected severities are collected.</span></span>
 
-8. <span data-ttu-id="66dfc-169">Définir la valeur des titres de colonne</span><span class="sxs-lookup"><span data-stu-id="66dfc-169">Define Column titles value</span></span>
-    
-   ```
-   Last HB
-   ```
+<span data-ttu-id="8722a-131">Vous devez configurer les opérations Management Suite pour collecter les journaux requis pour surveiller l’état de périphérique et d’application des systèmes de salle de Skype.</span><span class="sxs-lookup"><span data-stu-id="8722a-131">You need to configure Operations Management Suite to collect the logs required to monitor Skype Room Systems device and application status.</span></span> <span data-ttu-id="8722a-132">Les périphériques de systèmes de salle Skype v2 utilisent le journal des événements système de salle de Skype.</span><span class="sxs-lookup"><span data-stu-id="8722a-132">Skype Room Systems v2 devices use the Skype Room Systems event log.</span></span>
 
-9. <span data-ttu-id="66dfc-170">Entrer la requête de navigation</span><span class="sxs-lookup"><span data-stu-id="66dfc-170">Enter Navigation query</span></span>
-    
-   ```
-   {selected item} EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat"|Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-   ```
+<span data-ttu-id="8722a-133">Pour configurer les opérations Management Suite pour collecter les événements systèmes de salle Skype, consultez [les sources de données de journal des événements Windows dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)</span><span class="sxs-lookup"><span data-stu-id="8722a-133">To configure Operations Management Suite to collect the Skype Room Systems events, see [Windows event log data sources in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)</span></span>
 
-### <a name="create-the-tile-that-shows-devices-with-connectivity-issues"></a><span data-ttu-id="66dfc-171">Créer la mosaïque qui montre les appareils présentant des problèmes de connectivité</span><span class="sxs-lookup"><span data-stu-id="66dfc-171">Create the tile that shows devices with connectivity issues</span></span>
+<span data-ttu-id="8722a-134">![Paramètres du journal des événements] (../../media/Deploy_OMS_2.png "Paramètres du journal des événements")</span><span class="sxs-lookup"><span data-stu-id="8722a-134">![Event log settings](../../media/Deploy_OMS_2.png "Event log settings")</span></span>
 
-1. <span data-ttu-id="66dfc-172">Définissez le cas : </span><span class="sxs-lookup"><span data-stu-id="66dfc-172">Define the case:</span></span> 
-    
-    <span data-ttu-id="66dfc-p106">Cette mosaïque affiche tous les appareils qui ont envoyé un message de pulsations au cours des 10 dernières minutes. Ces appareils ont pu rencontrer des problèmes de connectivité avec le réseau, Exchange ou Skype Entreprise.</span><span class="sxs-lookup"><span data-stu-id="66dfc-p106">This tile displays all devices that have not sent a heartbeat message in the last 10 minutes. These devices may be experiencing issues with network connectivity, Exchange connectivity, or Skype for Business connectivity.</span></span>
-    
-2. <span data-ttu-id="66dfc-175">Assigner une mosaïque de groupe </span><span class="sxs-lookup"><span data-stu-id="66dfc-175">Assign Group Title</span></span> 
-    
-   ```
-   SRS v2
-   ```
 
-3. <span data-ttu-id="66dfc-176">Ne cochez pas la nouvelle zone de groupe.</span><span class="sxs-lookup"><span data-stu-id="66dfc-176">Do not check the new group box.</span></span> <span data-ttu-id="66dfc-177">Vous l’avez déjà fait lors de la création de la mosaïque 1. Vous n’avez donc pas à le refaire.</span><span class="sxs-lookup"><span data-stu-id="66dfc-177">You already did this when creating tile 1, and don't need to do it again.</span></span>
-    
-4. <span data-ttu-id="66dfc-178">Ajouter le texte de légende de la mosaïque</span><span class="sxs-lookup"><span data-stu-id="66dfc-178">Add the Tile legend text</span></span>
-    
-   ```
-   Devices no longer sending Heartbeat messages
-   ```
+> [!IMPORTANT]
+> <span data-ttu-id="8722a-135">Sélectionnez le journal des événements système de salle de Skype et puis activez les cases à cocher **erreur**, **d’Avertissement**et **d’Information** .</span><span class="sxs-lookup"><span data-stu-id="8722a-135">Select the Skype Room System event log, and then select the **Error**, **Warning**, and **Information** check boxes.</span></span>
 
-5. <span data-ttu-id="66dfc-179">Entrer la requête de mosaïque</span><span class="sxs-lookup"><span data-stu-id="66dfc-179">Enter the tile query</span></span>
-    
-   ```
-   Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |measure max(TimeGenerated) as LastHB by Computer|Where LastHB<NOW-10MINUTES
-   ```
+## <a name="configure-test-devices-for-operations-management-suite-setup"></a><span data-ttu-id="8722a-136">Configurer les périphériques de test pour le programme d’installation de Microsoft Operations Management Suite</span><span class="sxs-lookup"><span data-stu-id="8722a-136">Configure test devices for Operations Management Suite setup</span></span>
+<span data-ttu-id="8722a-137"><a name="configure_test_devices"> </a></span><span class="sxs-lookup"><span data-stu-id="8722a-137"></span></span>
 
-6. <span data-ttu-id="66dfc-180">Entrer la requête de liste</span><span class="sxs-lookup"><span data-stu-id="66dfc-180">Enter the list query</span></span>
-    
-   ```
-   Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |measure max(TimeGenerated) as LastHB by Computer|Where LastHB<NOW-10MINUTES
-   ```
+<span data-ttu-id="8722a-138">Vous devez préparer les opérations Management Suite pour être en mesure de surveiller les événements liés aux systèmes de salle de Skype.</span><span class="sxs-lookup"><span data-stu-id="8722a-138">You need to prepare Operations Management Suite to be able to monitor Skype Room Systems–related events.</span></span> <span data-ttu-id="8722a-139">D’origine, vous avez besoin déployer les agents d’Operations Management Suite pour seulement une ou deux périphériques de systèmes de salle Skype que vous avez accès physique à et ces derniers sont des dispositifs de test génèrent des données et l’envoyer à l’espace de travail du journal Analytique.</span><span class="sxs-lookup"><span data-stu-id="8722a-139">To start with, you need to deploy Operations Management Suite agents to just one or two Skype Room Systems devices that you have physical access to and have those test devices generate some data and push it to the Log Analytics workspace.</span></span>
 
-7. <span data-ttu-id="66dfc-181">Définir le nom des titres de colonne</span><span class="sxs-lookup"><span data-stu-id="66dfc-181">Define column titles name</span></span>
-    
-   ```
-   Device Name
-   ```
+### <a name="install-operations-management-suite-agents-to-test-devices"></a><span data-ttu-id="8722a-140">Installez les agents d’Operations Management Suite pour tester les périphériques</span><span class="sxs-lookup"><span data-stu-id="8722a-140">Install Operations Management Suite agents to test devices</span></span>
 
-8. <span data-ttu-id="66dfc-182">Définir la valeur des titres de colonne </span><span class="sxs-lookup"><span data-stu-id="66dfc-182">Define Column titles Value</span></span> 
-    
-   ```
-   Last HB
-   ```
+<span data-ttu-id="8722a-141">Déployer l’agent de la Suite de gestion des opérations sur les périphériques de test en suivant les instructions fournies sur les [ordinateurs Windows de se connecter au service journal Analytique dans Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows).</span><span class="sxs-lookup"><span data-stu-id="8722a-141">Deploy the Operations Management Suite agent to the test devices by using the instructions provided in [Connect Windows computers to the Log Analytics service in Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows).</span></span> <span data-ttu-id="8722a-142">Cet article donne des informations détaillées sur la procédure de déploiement de Microsoft contrôle l’Agent pour Windows, des instructions pour l’obtention de l’ID d’espace de travail Operations Management Suite et de la clé primaire afin d’obtenir des périphériques de systèmes de salle Skype connecté à votre Déploiement de Suite de gestion des opérations et étapes permettant de vérifier la connectivité de l’agent pour l’Analytique de journal.</span><span class="sxs-lookup"><span data-stu-id="8722a-142">This article gives detailed information about the steps for deploying Microsoft Monitoring Agent for Windows, instructions for obtaining the Operations Management Suite Workspace ID and the primary key to get Skype Room Systems devices connected to your Operations Management Suite deployment, and steps to verify agent connectivity to Log Analytics.</span></span>
 
-9. <span data-ttu-id="66dfc-183">Entrer la requête de navigation</span><span class="sxs-lookup"><span data-stu-id="66dfc-183">Enter Navigation query</span></span>
-    
-   ```
-   {selected item} EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-   ```
+### <a name="generate-sample-skype-room-systems-events"></a><span data-ttu-id="8722a-143">Générer des exemples d’événements systèmes de salle de Skype</span><span class="sxs-lookup"><span data-stu-id="8722a-143">Generate sample Skype Room Systems events</span></span>
 
-### <a name="list-devices-with-a-hardware-error"></a><span data-ttu-id="66dfc-184">Liste des appareils présentant une erreur matérielle </span><span class="sxs-lookup"><span data-stu-id="66dfc-184">List devices with a hardware error</span></span>
+<span data-ttu-id="8722a-144">Une fois que l’agent Microsoft Operations Management Suite est déployée sur les périphériques de test, vérifiez que les données du journal d’événements requis sont collectées par journal Analytique.</span><span class="sxs-lookup"><span data-stu-id="8722a-144">After the Operations Management Suite agent is deployed onto the test devices, verify that the required event log data is collected by Log Analytics.</span></span>
 
-1. <span data-ttu-id="66dfc-185">Définissez le cas : </span><span class="sxs-lookup"><span data-stu-id="66dfc-185">Define the case:</span></span> 
-    
-   <span data-ttu-id="66dfc-186">Cette mosaïque affiche tous les périphériques qui a envoyé un message indiquant un un ou plusieurs problèmes de composant matériel dans les dix dernières minutes.</span><span class="sxs-lookup"><span data-stu-id="66dfc-186">This tile displays all devices that sent a message indicating a one or more hardware component issues in the last 10 minutes.</span></span> 
-    
-2. <span data-ttu-id="66dfc-187">Assigner une mosaïque de groupe </span><span class="sxs-lookup"><span data-stu-id="66dfc-187">Assign Group Title</span></span> 
-    
-   ```
-   SRS v2
-   ```
+1.  <span data-ttu-id="8722a-145">Ouvrez une session sur le [portail de Microsoft Operations Management Suite](http://aka.ms/omsportal).</span><span class="sxs-lookup"><span data-stu-id="8722a-145">Sign in to the [Microsoft Operations Management Suite portal](http://aka.ms/omsportal).</span></span>
 
-3. <span data-ttu-id="66dfc-188">Ne cochez pas la nouvelle zone de groupe.</span><span class="sxs-lookup"><span data-stu-id="66dfc-188">Do not check the new group box.</span></span> <span data-ttu-id="66dfc-189">Vous l’avez déjà fait lors de la création de la mosaïque 1. Vous n’avez donc pas à le refaire.</span><span class="sxs-lookup"><span data-stu-id="66dfc-189">You already did this when creating tile 1, and don't need to do it again.</span></span>
-    
-4. <span data-ttu-id="66dfc-190">Légende de la mosaïque : </span><span class="sxs-lookup"><span data-stu-id="66dfc-190">Tile legend:</span></span> 
-    
-   ```
-   Devices with a Hardware Error
-   ```
+2.  <span data-ttu-id="8722a-146">Liste les événements générés par un périphérique de système de salle de Skype :</span><span class="sxs-lookup"><span data-stu-id="8722a-146">List the events generated by a Skype Room Systems device:</span></span>
+    1.  <span data-ttu-id="8722a-147">Accédez au **Journal recherche** et utiliser une requête pour extraire les enregistrements dont le champ personnalisé.</span><span class="sxs-lookup"><span data-stu-id="8722a-147">Go to **Log Search** and use a query to retrieve the records that will have the custom field.</span></span>
+    2.  <span data-ttu-id="8722a-148">Exemple de requête :`Event | where Source == "SRS-App"`</span><span class="sxs-lookup"><span data-stu-id="8722a-148">Sample query: `Event | where Source == "SRS-App"`</span></span>
 
-5. <span data-ttu-id="66dfc-191">Requête de mosaïque</span><span class="sxs-lookup"><span data-stu-id="66dfc-191">Tile Query</span></span>
-    
-   ```
-   Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:3001 TimeGenerated>NOW-10MINUTES|measure count() by SRSDisplayName_CF
-   ```
+3.  <span data-ttu-id="8722a-149">Assurez-vous que la requête renvoie les enregistrements du journal qui incluent les événements de pulsation correcte.</span><span class="sxs-lookup"><span data-stu-id="8722a-149">Make sure that the query returns log records that include successful heartbeat events.</span></span>
 
-6. <span data-ttu-id="66dfc-192">Requête de liste :</span><span class="sxs-lookup"><span data-stu-id="66dfc-192">List query:</span></span>
-    
-   ```
-   Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:3001 TimeGenerated>NOW-10MINUTES|measure max(TimeGenerated) by SRSDisplayName_CF
-   ```
+4.  <span data-ttu-id="8722a-150">Générer un problème de matériel et de valider que les événements requis sont enregistrés dans la Suite de gestion des opérations.</span><span class="sxs-lookup"><span data-stu-id="8722a-150">Generate a hardware issue, and validate that the required events are logged in Operations Management Suite.</span></span>
+    1.  <span data-ttu-id="8722a-151">Débranchez un périphérique sur le système de Skype salle systèmes de test.</span><span class="sxs-lookup"><span data-stu-id="8722a-151">Unplug one of the peripheral devices on the test Skype Room Systems system.</span></span> <span data-ttu-id="8722a-152">Cela peut être la caméra, haut-parleur, micro ou espace avant affichage</span><span class="sxs-lookup"><span data-stu-id="8722a-152">This could be the camera, speakerphone, microphone, or Front Room Display</span></span>
+    2.  <span data-ttu-id="8722a-153">Attendez 10 minutes pour le journal des événements doivent être renseignés dans la Suite de gestion des opérations.</span><span class="sxs-lookup"><span data-stu-id="8722a-153">Wait 10 minutes for the event log to be populated in Operations Management Suite.</span></span>
+    3.  <span data-ttu-id="8722a-154">Utiliser une requête d’événements d’erreur de matériel de liste :`Event | where EventID == 3001`</span><span class="sxs-lookup"><span data-stu-id="8722a-154">Use a query to list hardware error events: `Event | where EventID == 3001`</span></span>
 
-7. <span data-ttu-id="66dfc-193">Nom des titres de colonne : </span><span class="sxs-lookup"><span data-stu-id="66dfc-193">Column titles Name:</span></span> 
-    
-   ```
-   Display Name
-   ```
+5.  <span data-ttu-id="8722a-155">Générer un problème d’application et de valider que les événements requis sont enregistrés.</span><span class="sxs-lookup"><span data-stu-id="8722a-155">Generate an application issue, and validate that the required events are logged.</span></span>
+    1.  <span data-ttu-id="8722a-156">Modifier la configuration de l’application Skype salle systèmes et tapez une paire adresse/mot de passe de Session Initiation Protocol (SIP) incorrect.</span><span class="sxs-lookup"><span data-stu-id="8722a-156">Modify Skype Room Systems application configuration, and type an incorrect Session Initiation Protocol (SIP) address/password pair.</span></span>
+    2.  <span data-ttu-id="8722a-157">Attendez 10 minutes pour le journal des événements doivent être renseignés dans la Suite de gestion des opérations.</span><span class="sxs-lookup"><span data-stu-id="8722a-157">Wait 10 minutes for the event log to be populated in Operations Management Suite.</span></span>
+    3.  <span data-ttu-id="8722a-158">Utiliser une requête d’événements d’erreur liste application :`Event | where EventID == 2001`</span><span class="sxs-lookup"><span data-stu-id="8722a-158">Use a query to list application error events: `Event | where EventID == 2001`</span></span>
 
-8. <span data-ttu-id="66dfc-194">Valeur des titres de colonne : </span><span class="sxs-lookup"><span data-stu-id="66dfc-194">Column titles Value:</span></span> 
-    
-   ```
-   Last Error
-   ```
+> [!IMPORTANT]
+> <span data-ttu-id="8722a-159">Ces exemples de journaux d’événements sont nécessaires avant de pouvoir configurer des champs personnalisés.</span><span class="sxs-lookup"><span data-stu-id="8722a-159">These sample event logs are required before custom fields can be configured.</span></span> <span data-ttu-id="8722a-160">Ne passez à l’étape suivante jusqu'à ce que vous avez collecté les journaux d’événements.</span><span class="sxs-lookup"><span data-stu-id="8722a-160">Don’t proceed to the next step until you have collected the required event logs.</span></span>
 
-9. <span data-ttu-id="66dfc-195">Requête de navigation : </span><span class="sxs-lookup"><span data-stu-id="66dfc-195">Navigation query:</span></span> 
-    
-   ```
-   {selected item}  EventLevelName:Error EventID:3001|Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-   ```
+## <a name="map-custom-fields"></a><span data-ttu-id="8722a-161">Mapper les champs personnalisés</span><span class="sxs-lookup"><span data-stu-id="8722a-161">Map custom fields</span></span>
+<span data-ttu-id="8722a-162"><a name="Custom_fields"> </a></span><span class="sxs-lookup"><span data-stu-id="8722a-162"></span></span>
 
-### <a name="list-devices-with-an-app-error"></a><span data-ttu-id="66dfc-196">Liste des appareils présentant une erreur d’application  </span><span class="sxs-lookup"><span data-stu-id="66dfc-196">List devices with an App error</span></span>
+<span data-ttu-id="8722a-163">Champs personnalisés vous permet d’extraire des données spécifiques depuis les journaux d’événements.</span><span class="sxs-lookup"><span data-stu-id="8722a-163">You use custom fields to extract specific data from the event logs.</span></span> <span data-ttu-id="8722a-164">Vous devez définir des champs personnalisés qui seront utilisés ultérieurement des mosaïques, des tableaux de bord et des alertes.</span><span class="sxs-lookup"><span data-stu-id="8722a-164">You need to define custom fields that will be used later with your tiles, dashboard views, and alerts.</span></span> <span data-ttu-id="8722a-165">Reportez-vous à la section [champs personnalisés dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-custom-fields) et vous familiariser avec les concepts avant de créer vos champs personnalisés.</span><span class="sxs-lookup"><span data-stu-id="8722a-165">See [Custom fields in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-custom-fields) and become familiar with the concepts before you start creating your custom fields.</span></span>
 
-1. <span data-ttu-id="66dfc-197">Définissez le cas :</span><span class="sxs-lookup"><span data-stu-id="66dfc-197">Define the case:</span></span> 
-    
-   <span data-ttu-id="66dfc-198">Cette mosaïque affiche tous les appareils SRS qui signalent la survenue d’une ou de plusieurs erreurs au niveau des composants de l’application au cours des 10 dernières minutes.</span><span class="sxs-lookup"><span data-stu-id="66dfc-198">This tile displays all SRS devices that report 1 or more app component errors within the last 10 minutes</span></span>
-    
-2. <span data-ttu-id="66dfc-199">Assigner une mosaïque de groupe </span><span class="sxs-lookup"><span data-stu-id="66dfc-199">Assign Group Title</span></span> 
-    
-   ```
-   SRS v2
-   ```
+<span data-ttu-id="8722a-166">Pour extraire vos champs personnalisés sur les journaux d’événements capturés, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="8722a-166">To extract your custom fields out of the captured event logs, follow these steps:</span></span>
 
-3. <span data-ttu-id="66dfc-200">Ne cochez pas la nouvelle zone de groupe.</span><span class="sxs-lookup"><span data-stu-id="66dfc-200">Do not check the new group box.</span></span> <span data-ttu-id="66dfc-201">Vous l’avez déjà fait lors de la création de la mosaïque 1. Vous n’avez donc pas à le refaire.</span><span class="sxs-lookup"><span data-stu-id="66dfc-201">You already did this when creating tile 1, and don't need to do it again.</span></span>
-    
-4. <span data-ttu-id="66dfc-202">Légende de la mosaïque : </span><span class="sxs-lookup"><span data-stu-id="66dfc-202">Tile legend:</span></span> 
-   ``` 
-    Device with App Errors (in prior 10 minutes)
-   ``` 
-5. <span data-ttu-id="66dfc-203">Requête de mosaïque : </span><span class="sxs-lookup"><span data-stu-id="66dfc-203">Tile Query:</span></span> 
-    
-   ```
-   Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:2001 TimeGenerated>NOW-10MINUTES|measure count() by Computer
-   ```
+1.  <span data-ttu-id="8722a-167">Ouvrez une session sur le [portail de Microsoft Operations Management Suite](http://aka.ms/omsportal).</span><span class="sxs-lookup"><span data-stu-id="8722a-167">Sign in to the [Microsoft Operations Management Suite portal](http://aka.ms/omsportal).</span></span>
 
-6. <span data-ttu-id="66dfc-204">Requête de liste : </span><span class="sxs-lookup"><span data-stu-id="66dfc-204">List query:</span></span> 
-    
-   ```
-   Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:2001 TimeGenerated>NOW-10MINUTES|measure max(TimeGenerated) by Computer
-   ```
+2.  <span data-ttu-id="8722a-168">Liste les événements générés par un périphérique de système de salle de Skype :</span><span class="sxs-lookup"><span data-stu-id="8722a-168">List the events generated by a Skype Room Systems device:</span></span>
+    1.  <span data-ttu-id="8722a-169">Accédez au **Journal recherche** et utiliser une requête pour extraire les enregistrements dont le champ personnalisé.</span><span class="sxs-lookup"><span data-stu-id="8722a-169">Go to **Log Search** and use a query to retrieve the records that will have the custom field.</span></span>
+    2.  <span data-ttu-id="8722a-170">Exemple de requête :`Event | where Source == "SRS-App"`</span><span class="sxs-lookup"><span data-stu-id="8722a-170">Sample query: `Event | where Source == "SRS-App"`</span></span>
 
-7. <span data-ttu-id="66dfc-205">Nom des titres de colonne : </span><span class="sxs-lookup"><span data-stu-id="66dfc-205">Column titles Name:</span></span> 
-    
-   ```
-   Device Name
-   ```
+3.  <span data-ttu-id="8722a-171">Sélectionnez un des enregistrements, cliquez sur le bouton à gauche et démarrez l’Assistant d’extraction de champ.</span><span class="sxs-lookup"><span data-stu-id="8722a-171">Select one of the records, select the button to the left, and start the field extraction wizard.</span></span>
 
-8. <span data-ttu-id="66dfc-206">Valeur des titres de colonne : </span><span class="sxs-lookup"><span data-stu-id="66dfc-206">Column titles Value:</span></span> 
-    
-   ```
-   Last Error
-   ```
+<span data-ttu-id="8722a-172">![Assistant d’extraction de champ] (../../media/Deploy_OMS_3.png "Assistant d’extraction de champ")</span><span class="sxs-lookup"><span data-stu-id="8722a-172">![Field extraction wizard](../../media/Deploy_OMS_3.png "Field extraction wizard")</span></span>
 
-9. <span data-ttu-id="66dfc-207">Requête de navigation :</span><span class="sxs-lookup"><span data-stu-id="66dfc-207">Navigation query:</span></span>
-    
-   ```
-   {selected item} EventLevelName:Error|Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-   ```
+4.  <span data-ttu-id="8722a-173">Mettez en surbrillance les données que vous souhaitez extraire de la RenderedDescription et de fournir un titre de champ.</span><span class="sxs-lookup"><span data-stu-id="8722a-173">Highlight the data you’d like to extract from the RenderedDescription and provide a Field Title.</span></span> <span data-ttu-id="8722a-174">Les noms de champ que vous devez utiliser sont fournis dans le tableau 1.</span><span class="sxs-lookup"><span data-stu-id="8722a-174">The field names that you should use are provided in Table 1.</span></span>
 
-### <a name="list-devices-requiring-a-restart"></a><span data-ttu-id="66dfc-208">Liste des appareils nécessitant un redémarrage</span><span class="sxs-lookup"><span data-stu-id="66dfc-208">List devices requiring a restart</span></span>
+<span data-ttu-id="8722a-175">![Définition des champs personnalisés] (../../media/Deploy_OMS_4.png "Définition des champs personnalisés")</span><span class="sxs-lookup"><span data-stu-id="8722a-175">![Custom field definition](../../media/Deploy_OMS_4.png "Custom field definition")</span></span>
 
-1. <span data-ttu-id="66dfc-209">Définissez le cas :</span><span class="sxs-lookup"><span data-stu-id="66dfc-209">Define the case:</span></span> 
-    
-   <span data-ttu-id="66dfc-210">Cette mosaïque affiche tous les appareils SRS qui ont été redémarrés au cours des 24 dernières heures et le nombre de redémarrages.</span><span class="sxs-lookup"><span data-stu-id="66dfc-210">This tile displays all SRS devices that have been restarted in the past 24 hours and number of restarts</span></span>
-    
-2. <span data-ttu-id="66dfc-211">Assigner une mosaïque de groupe </span><span class="sxs-lookup"><span data-stu-id="66dfc-211">Assign Group Title</span></span> 
-    
-  ```
-  SRS v2
-  ```
+5.  <span data-ttu-id="8722a-176">Utilisez les mappages indiqués dans le tableau 1.</span><span class="sxs-lookup"><span data-stu-id="8722a-176">Use the mappings shown in Table 1.</span></span> <span data-ttu-id="8722a-177">Suite de gestion des opérations ajoute automatiquement le ** \_CF** lorsque vous définissez le nouveau champ de chaîne.</span><span class="sxs-lookup"><span data-stu-id="8722a-177">Operations Management Suite will automatically add the **\_CF** string when you define the new field.</span></span>
 
-3. <span data-ttu-id="66dfc-212">Ne cochez pas la nouvelle zone de groupe.</span><span class="sxs-lookup"><span data-stu-id="66dfc-212">Do not check the new group box.</span></span> <span data-ttu-id="66dfc-213">Vous l’avez déjà fait lors de la création de la mosaïque 1. Vous n’avez donc pas à le refaire.</span><span class="sxs-lookup"><span data-stu-id="66dfc-213">You already did this when creating tile 1, and don't need to do it again.</span></span>
-    
-4. <span data-ttu-id="66dfc-214">Légende de la mosaïque : </span><span class="sxs-lookup"><span data-stu-id="66dfc-214">Tile legend:</span></span> 
-    
-   ```
-   Devices with App restarted (past 24 hours)
-   ```
+> [!IMPORTANT]
+> <span data-ttu-id="8722a-178">N’oubliez pas que tous les champs JSON et Operations Management Suite respectent la casse.</span><span class="sxs-lookup"><span data-stu-id="8722a-178">Remember that all JSON and Operations Management Suite fields are case-sensitive.</span></span>
 
-5. <span data-ttu-id="66dfc-215">Requête de mosaïque : </span><span class="sxs-lookup"><span data-stu-id="66dfc-215">Tile Query:</span></span> 
-    
-   ```
-   Type:Event EventLog:"Skype Room System" EventID:4000 TimeGenerated>NOW-24HOURS|measure count() by Computer
-   ```
+> <span data-ttu-id="8722a-179">Faites attention à l’état de la case à cocher EventID dans le tableau ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="8722a-179">Pay attention to the state of the EventID check box in the table below.</span></span> <span data-ttu-id="8722a-180">N’oubliez pas de que vous confirmez l’état de cette case à cocher pour Operations Management Suite à extraire correctement les valeurs de champ personnalisé.</span><span class="sxs-lookup"><span data-stu-id="8722a-180">Be sure you confirm the state of this check box for Operations Management Suite to successfully extract custom field values.</span></span>
+> <span data-ttu-id="8722a-181">![Définition des champs personnalisés] (../../media/Deploy_OMS_5.png "Définition des champs personnalisés")</span><span class="sxs-lookup"><span data-stu-id="8722a-181">![Custom field definition](../../media/Deploy_OMS_5.png "Custom field definition")</span></span> 
 
-6. <span data-ttu-id="66dfc-216">Requête de liste : </span><span class="sxs-lookup"><span data-stu-id="66dfc-216">List query:</span></span> 
-    
-   ```
-   Type:Event EventLog:"Skype Room System" EventID:4000 TimeGenerated>NOW-24HOURS|measure count(EventID) by SRSDisplayName_CF
-   ```
+<span data-ttu-id="8722a-182">**Tableau 1**</span><span class="sxs-lookup"><span data-stu-id="8722a-182">**Table 1**</span></span>
 
-7. <span data-ttu-id="66dfc-217">Nom des titres de colonne : </span><span class="sxs-lookup"><span data-stu-id="66dfc-217">Column titles Name:</span></span> 
-    
-   ```
-   Display Name
-   ```
+| <span data-ttu-id="8722a-183">**Champ JSON**</span><span class="sxs-lookup"><span data-stu-id="8722a-183">**JSON field**</span></span>               | <span data-ttu-id="8722a-184">**Champ personnalisé d’OMS**</span><span class="sxs-lookup"><span data-stu-id="8722a-184">**OMS custom field**</span></span>       | <span data-ttu-id="8722a-185">**ID d’événement**</span><span class="sxs-lookup"><span data-stu-id="8722a-185">**Event ID**</span></span> |
+|------------------------------|----------------------------|-----------------|
+| <span data-ttu-id="8722a-186">Description</span><span class="sxs-lookup"><span data-stu-id="8722a-186">Description</span></span>                  | <span data-ttu-id="8722a-187">SRSEventDescription_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-187">SRSEventDescription_CF</span></span>     | <span data-ttu-id="8722a-188">Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-188">Not selected</span></span>    |
+| <span data-ttu-id="8722a-189">ResourceState</span><span class="sxs-lookup"><span data-stu-id="8722a-189">ResourceState</span></span>                | <span data-ttu-id="8722a-190">SRSResourceState_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-190">SRSResourceState_CF</span></span>        | <span data-ttu-id="8722a-191">Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-191">Not selected</span></span>    |
+| <span data-ttu-id="8722a-192">OperationName</span><span class="sxs-lookup"><span data-stu-id="8722a-192">OperationName</span></span>                | <span data-ttu-id="8722a-193">SRSOperationName_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-193">SRSOperationName_CF</span></span>        | <span data-ttu-id="8722a-194">Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-194">Not selected</span></span>    |
+| <span data-ttu-id="8722a-195">OperationResult</span><span class="sxs-lookup"><span data-stu-id="8722a-195">OperationResult</span></span>              | <span data-ttu-id="8722a-196">SRSOperationResult_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-196">SRSOperationResult_CF</span></span>      | <span data-ttu-id="8722a-197">Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-197">Not selected</span></span>    |
+| <span data-ttu-id="8722a-198">OS</span><span class="sxs-lookup"><span data-stu-id="8722a-198">OS</span></span>                           | <span data-ttu-id="8722a-199">SRSOSVersion_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-199">SRSOSVersion_CF</span></span>            | <span data-ttu-id="8722a-200">Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-200">Not selected</span></span>    |
+| <span data-ttu-id="8722a-201">OSVersion</span><span class="sxs-lookup"><span data-stu-id="8722a-201">OSVersion</span></span>                    | <span data-ttu-id="8722a-202">SRSOSLongVersion_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-202">SRSOSLongVersion_CF</span></span>        | <span data-ttu-id="8722a-203">Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-203">Not selected</span></span>    |
+| <span data-ttu-id="8722a-204">Alias</span><span class="sxs-lookup"><span data-stu-id="8722a-204">Alias</span></span>                        | <span data-ttu-id="8722a-205">SRSAlias_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-205">SRSAlias_CF</span></span>                | <span data-ttu-id="8722a-206">Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-206">Not selected</span></span>    |
+| <span data-ttu-id="8722a-207">DisplayName</span><span class="sxs-lookup"><span data-stu-id="8722a-207">DisplayName</span></span>                  | <span data-ttu-id="8722a-208">SRSDisplayName_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-208">SRSDisplayName_CF</span></span>          | <span data-ttu-id="8722a-209">Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-209">Not selected</span></span>    |
+| <span data-ttu-id="8722a-210">AppVersion</span><span class="sxs-lookup"><span data-stu-id="8722a-210">AppVersion</span></span>                   | <span data-ttu-id="8722a-211">SRSAppVersion_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-211">SRSAppVersion_CF</span></span>           | <span data-ttu-id="8722a-212">Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-212">Not selected</span></span>    |
+| <span data-ttu-id="8722a-213">IPv4Address</span><span class="sxs-lookup"><span data-stu-id="8722a-213">IPv4Address</span></span>                  | <span data-ttu-id="8722a-214">SRSIPv4Address_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-214">SRSIPv4Address_CF</span></span>          | <span data-ttu-id="8722a-215">Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-215">Not selected</span></span>    |
+| <span data-ttu-id="8722a-216">IPv6Address</span><span class="sxs-lookup"><span data-stu-id="8722a-216">IPv6Address</span></span>                  | <span data-ttu-id="8722a-217">SRSIPv6Address_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-217">SRSIPv6Address_CF</span></span>          | <span data-ttu-id="8722a-218">Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-218">Not selected</span></span>    |
+| <span data-ttu-id="8722a-219">Avant de l’état d’affichage de la salle</span><span class="sxs-lookup"><span data-stu-id="8722a-219">Front of Room Display status</span></span> | <span data-ttu-id="8722a-220">SRSFORDStatus_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-220">SRSFORDStatus_CF</span></span>           | <span data-ttu-id="8722a-221">3001</span><span class="sxs-lookup"><span data-stu-id="8722a-221">3001</span></span>            |
+| <span data-ttu-id="8722a-222">État de l’appareil photo</span><span class="sxs-lookup"><span data-stu-id="8722a-222">Camera status</span></span>                | <span data-ttu-id="8722a-223">SRSCameraStatus_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-223">SRSCameraStatus_CF</span></span>         | <span data-ttu-id="8722a-224">3001</span><span class="sxs-lookup"><span data-stu-id="8722a-224">3001</span></span>            |
+| <span data-ttu-id="8722a-225">État de Microphone de conférence</span><span class="sxs-lookup"><span data-stu-id="8722a-225">Conference Microphone status</span></span> | <span data-ttu-id="8722a-226">SRSConfMicrophoneStatus_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-226">SRSConfMicrophoneStatus_CF</span></span> | <span data-ttu-id="8722a-227">3001</span><span class="sxs-lookup"><span data-stu-id="8722a-227">3001</span></span>            |
+| <span data-ttu-id="8722a-228">État de haut-parleur de conférence</span><span class="sxs-lookup"><span data-stu-id="8722a-228">Conference Speaker status</span></span>    | <span data-ttu-id="8722a-229">SRSConfSpeakerStatus_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-229">SRSConfSpeakerStatus_CF</span></span>    | <span data-ttu-id="8722a-230">3001</span><span class="sxs-lookup"><span data-stu-id="8722a-230">3001</span></span>            |
+| <span data-ttu-id="8722a-231">État par défaut du haut-parleur</span><span class="sxs-lookup"><span data-stu-id="8722a-231">Default Speaker status</span></span>       | <span data-ttu-id="8722a-232">SRSDefaultSpeakerStatus_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-232">SRSDefaultSpeakerStatus_CF</span></span> | <span data-ttu-id="8722a-233">3001</span><span class="sxs-lookup"><span data-stu-id="8722a-233">3001</span></span>            |
+| <span data-ttu-id="8722a-234">État de capteur de mouvement</span><span class="sxs-lookup"><span data-stu-id="8722a-234">Motion Sensor status</span></span>         | <span data-ttu-id="8722a-235">SRSMotionSensorStatus_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-235">SRSMotionSensorStatus_CF</span></span>   | <span data-ttu-id="8722a-236">3001</span><span class="sxs-lookup"><span data-stu-id="8722a-236">3001</span></span>            |
+| <span data-ttu-id="8722a-237">Statut de l’acquisition de HDMI</span><span class="sxs-lookup"><span data-stu-id="8722a-237">HDMI Ingest status</span></span>           | <span data-ttu-id="8722a-238">SRSHDMIIngestStatus_CF</span><span class="sxs-lookup"><span data-stu-id="8722a-238">SRSHDMIIngestStatus_CF</span></span>     | <span data-ttu-id="8722a-239">3001</span><span class="sxs-lookup"><span data-stu-id="8722a-239">3001</span></span>            |
 
-8. <span data-ttu-id="66dfc-218">Valeur des titres de colonne : </span><span class="sxs-lookup"><span data-stu-id="66dfc-218">Column titles Value:</span></span> 
-    
-   ```
-   Number of restarts
-   ```
 
-9. <span data-ttu-id="66dfc-219">Requête de navigation : </span><span class="sxs-lookup"><span data-stu-id="66dfc-219">Navigation query:</span></span> 
-    
-   ```
-   {selected item} EventID:4000 TimeGenerated >NOW-24HOURS|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-   ```
+## <a name="define-the-skype-room-systems-v2-views-in-operations-management-suite"></a><span data-ttu-id="8722a-240">Définir les vues v2 de systèmes de salle Skype dans la Suite de gestion des opérations</span><span class="sxs-lookup"><span data-stu-id="8722a-240">Define the Skype Room Systems v2 views in Operations Management Suite</span></span>
+<span data-ttu-id="8722a-241"><a name="Define_Views"> </a></span><span class="sxs-lookup"><span data-stu-id="8722a-241"></span></span>
 
-<span data-ttu-id="66dfc-p111">La création de vues est terminée. Les alertes disponibles sont toutes reflétées dans une ou plusieurs de ces mosaïques.</span><span class="sxs-lookup"><span data-stu-id="66dfc-p111">That completes view creation. The alerts currently available are all reflected in one or more of these tiles.</span></span>
-## <a name="see-also"></a><span data-ttu-id="66dfc-222">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="66dfc-222">See also</span></span>
-<span data-ttu-id="66dfc-223"><a name="Views"> </a></span><span class="sxs-lookup"><span data-stu-id="66dfc-223"></span></span>
+<span data-ttu-id="8722a-242">Une fois que les données sont collectées et mappage des champs personnalisés, vous pouvez utiliser le Concepteur de vues de Suite de gestion des opérations pour développer un tableau de bord contenant plusieurs mosaïques pour surveiller les systèmes de salle Skype v2 événements.</span><span class="sxs-lookup"><span data-stu-id="8722a-242">After data is collected and custom fields are mapped, you can use Operations Management Suite View Designer to develop a dashboard containing various tiles to monitor Skype Room Systems v2 events.</span></span> <span data-ttu-id="8722a-243">Utilisez le concepteur de vues pour créer les mosaïques suivantes.</span><span class="sxs-lookup"><span data-stu-id="8722a-243">Use View Designer to create the following tiles.</span></span> <span data-ttu-id="8722a-244">Pour plus d’informations, consultez [Concepteur de vue utilisé pour créer des vues personnalisées dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-view-designer)</span><span class="sxs-lookup"><span data-stu-id="8722a-244">For more information, see [Use View Designer to create custom views in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-view-designer)</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="8722a-245">Les étapes précédentes de ce guide doivent être effectuées pour des dalles de tableau de bord fonctionnent correctement.</span><span class="sxs-lookup"><span data-stu-id="8722a-245">Earlier steps in this guide should have been completed for the dashboard tiles to work properly.</span></span>
+
+
+### <a name="create-a-skype-room-systems-v2-dashboard-by-using-the-import-method"></a><span data-ttu-id="8722a-246">Créer un tableau de bord v2 Skype salle systèmes à l’aide de la méthode d’importation</span><span class="sxs-lookup"><span data-stu-id="8722a-246">Create a Skype Room Systems v2 dashboard by using the import method</span></span>
+
+<span data-ttu-id="8722a-247">Vous pouvez importer un tableau de bord Operations Management Suite et commencer à analyser vos périphériques immédiatement.</span><span class="sxs-lookup"><span data-stu-id="8722a-247">You can import an Operations Management Suite dashboard and start monitoring your devices immediately.</span></span> <span data-ttu-id="8722a-248">Procédez comme suit pour importer le tableau de bord :</span><span class="sxs-lookup"><span data-stu-id="8722a-248">Take the following steps to import the dashboard:</span></span>
+
+1.  <span data-ttu-id="8722a-249">Télécharger le [tableau de bord](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview).</span><span class="sxs-lookup"><span data-stu-id="8722a-249">Download the [dashboard](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview).</span></span>
+2.  <span data-ttu-id="8722a-250">Ouvrez une session sur le [portail de Microsoft Operations Management Suite](http://aka.ms/omsportal).</span><span class="sxs-lookup"><span data-stu-id="8722a-250">Sign in to the [Microsoft Operations Management Suite portal](http://aka.ms/omsportal).</span></span>
+3.  <span data-ttu-id="8722a-251">Ouvrez le **Concepteur de vues**.</span><span class="sxs-lookup"><span data-stu-id="8722a-251">Open **View Designer**.</span></span>
+4.  <span data-ttu-id="8722a-252">Sélectionnez **Importer**et sélectionnez le fichier **SkypeRoomSystems_v2.omsview** .</span><span class="sxs-lookup"><span data-stu-id="8722a-252">Select **Import**, and then select the **SkypeRoomSystems_v2.omsview** file.</span></span>
+5.  <span data-ttu-id="8722a-253">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="8722a-253">Select **Save**.</span></span>
+
+### <a name="create-a-skype-room-systems-v2-dashboard-manually"></a><span data-ttu-id="8722a-254">Créer un tableau de bord v2 Skype salle systèmes manuellement</span><span class="sxs-lookup"><span data-stu-id="8722a-254">Create a Skype Room Systems v2 dashboard manually</span></span>
+
+<span data-ttu-id="8722a-255">Sinon, vous pouvez créer votre propre tableau de bord et ajouter uniquement les morceaux que vous souhaitez surveiller.</span><span class="sxs-lookup"><span data-stu-id="8722a-255">Alternatively, you can create your own dashboard and add only the tiles that you wish to monitor.</span></span>
+
+#### <a name="configure-the-overview-tile"></a><span data-ttu-id="8722a-256">Configurer la mosaïque de la vue d’ensemble</span><span class="sxs-lookup"><span data-stu-id="8722a-256">Configure the Overview Tile</span></span>
+1.  <span data-ttu-id="8722a-257">Ouvrez le **Concepteur de vues**.</span><span class="sxs-lookup"><span data-stu-id="8722a-257">Open **View Designer**.</span></span>
+2.  <span data-ttu-id="8722a-258">Sélectionnez **Aperçu mosaïque**et sélectionnez **deux nombres** de la galerie.</span><span class="sxs-lookup"><span data-stu-id="8722a-258">Select **Overview Tile**, and then select **Two numbers** from the gallery.</span></span>
+3.  <span data-ttu-id="8722a-259">Nom de la mosaïque de **Systèmes de salle de Skype**.</span><span class="sxs-lookup"><span data-stu-id="8722a-259">Name the tile **Skype Room Systems**.</span></span>
+4.  <span data-ttu-id="8722a-260">Définir la **première mosaïque**:</span><span class="sxs-lookup"><span data-stu-id="8722a-260">Define the **First Tile**:</span></span><br>
+    <span data-ttu-id="8722a-261">**Légende :** Périphériques envoyé de pulsations au moins une fois depuis le mois dernier</span><span class="sxs-lookup"><span data-stu-id="8722a-261">**Legend:** Devices that sent a heartbeat at least once within the last month</span></span><br>
+    <span data-ttu-id="8722a-262">**Requête :**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```</span><span class="sxs-lookup"><span data-stu-id="8722a-262">**Query:** ```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```</span></span>
+5.  <span data-ttu-id="8722a-263">Définissez la **deuxième mosaïque**:</span><span class="sxs-lookup"><span data-stu-id="8722a-263">Define the **Second Tile**:</span></span><br>
+    <span data-ttu-id="8722a-264">**Légende :** Dispositifs actifs envoyé de pulsations au sein de la dernière heure</span><span class="sxs-lookup"><span data-stu-id="8722a-264">**Legend:** Active devices that sent a heartbeat within the last hour</span></span><br>
+    <span data-ttu-id="8722a-265">**Requête :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```</span><span class="sxs-lookup"><span data-stu-id="8722a-265">**Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```</span></span>
+6.  <span data-ttu-id="8722a-266">Sélectionnez **Appliquer**.</span><span class="sxs-lookup"><span data-stu-id="8722a-266">Select **Apply**.</span></span>
+
+### <a name="create-a-tile-that-displays-active-devices"></a><span data-ttu-id="8722a-267">Créer une mosaïque qui affiche les périphériques actifs</span><span class="sxs-lookup"><span data-stu-id="8722a-267">Create a tile that displays active devices</span></span>
+1.  <span data-ttu-id="8722a-268">Sélectionnez un **Affichage tableau de bord** pour commencer à ajouter vos mosaïques.</span><span class="sxs-lookup"><span data-stu-id="8722a-268">Select **View Dashboard** to start adding your tiles.</span></span>
+2.  <span data-ttu-id="8722a-269">Sélectionnez le **numéro et la liste** dans la galerie</span><span class="sxs-lookup"><span data-stu-id="8722a-269">Select **Number & list** from the gallery</span></span>
+3.  <span data-ttu-id="8722a-270">Définir les propriétés **générales** :</span><span class="sxs-lookup"><span data-stu-id="8722a-270">Define the **General** properties:</span></span><br>
+    <span data-ttu-id="8722a-271">**Titre de groupe :** État de pulsation</span><span class="sxs-lookup"><span data-stu-id="8722a-271">**Group Title:** Heartbeat Status</span></span><br>
+    <span data-ttu-id="8722a-272">**Nouveau groupe :** Sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-272">**New Group:** Selected</span></span>
+4.  <span data-ttu-id="8722a-273">Définissez les propriétés de **Mosaïque** :</span><span class="sxs-lookup"><span data-stu-id="8722a-273">Define the **Tile** properties:</span></span><br>
+    <span data-ttu-id="8722a-274">**Légende :** Dispositifs actifs (pulsation envoyée dans les dernières minutes 20)</span><span class="sxs-lookup"><span data-stu-id="8722a-274">**Legend:** Active devices (heartbeat sent in the last 20 minutes)</span></span><br>
+    <span data-ttu-id="8722a-275">**Requête de mosaïque :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```</span><span class="sxs-lookup"><span data-stu-id="8722a-275">**Tile Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```</span></span>
+5.  <span data-ttu-id="8722a-276">Définissez les propriétés de la **liste** :</span><span class="sxs-lookup"><span data-stu-id="8722a-276">Define the **List** properties:</span></span><br>
+    <span data-ttu-id="8722a-277">**Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```</span><span class="sxs-lookup"><span data-stu-id="8722a-277">**List Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```</span></span>
+6.  <span data-ttu-id="8722a-278">Définir les **titres des colonnes**:</span><span class="sxs-lookup"><span data-stu-id="8722a-278">Define **Column Titles**:</span></span><br>
+    <span data-ttu-id="8722a-279">**Nom :** Nom complet</span><span class="sxs-lookup"><span data-stu-id="8722a-279">**Name:** Display Name</span></span><br>
+    <span data-ttu-id="8722a-280">**Valeur :** Dernière pulsation</span><span class="sxs-lookup"><span data-stu-id="8722a-280">**Value:** Last Heartbeat</span></span>
+7.  <span data-ttu-id="8722a-281">Définissez la **requête de Navigation**.</span><span class="sxs-lookup"><span data-stu-id="8722a-281">Define **Navigation Query**.</span></span><br>
+    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+8.  <span data-ttu-id="8722a-282">Sélectionnez **Appliquer**, puis sur **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="8722a-282">Select **Apply**, and then **Close**.</span></span>
+
+### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a><span data-ttu-id="8722a-283">Créer une mosaïque qui affiche les périphériques qui ont des problèmes de connectivité</span><span class="sxs-lookup"><span data-stu-id="8722a-283">Create a tile that displays devices that have connectivity issues</span></span>
+1.  <span data-ttu-id="8722a-284">Sélectionnez le **numéro et la liste** dans la galerie, puis ajoutez une nouvelle mosaïque.</span><span class="sxs-lookup"><span data-stu-id="8722a-284">Select **Number & list** from the gallery, and then add a new tile.</span></span>
+2.  <span data-ttu-id="8722a-285">Définir les propriétés **générales** :</span><span class="sxs-lookup"><span data-stu-id="8722a-285">Define the **General** properties:</span></span><br>
+    <span data-ttu-id="8722a-286">**Titre de groupe :** Laisser vide</span><span class="sxs-lookup"><span data-stu-id="8722a-286">**Group Title:** Leave empty</span></span><br>
+    <span data-ttu-id="8722a-287">**Nouveau groupe :** Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-287">**New Group:** Not Selected</span></span>
+3.  <span data-ttu-id="8722a-288">Définissez les propriétés de **Mosaïque** :</span><span class="sxs-lookup"><span data-stu-id="8722a-288">Define the **Tile** properties:</span></span><br>
+    <span data-ttu-id="8722a-289">**Légende :** Périphériques inactifs (aucun message de pulsation envoyé dans les dernières minutes 20)</span><span class="sxs-lookup"><span data-stu-id="8722a-289">**Legend:** Inactive Devices (no heartbeat message sent in the last 20 minutes)</span></span><br>
+    <span data-ttu-id="8722a-290">**Requête de mosaïque :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```</span><span class="sxs-lookup"><span data-stu-id="8722a-290">**Tile Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```</span></span>
+4.  <span data-ttu-id="8722a-291">Définissez les propriétés de la **liste** :</span><span class="sxs-lookup"><span data-stu-id="8722a-291">Define the **List** properties:</span></span><br>
+    <span data-ttu-id="8722a-292">**Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```</span><span class="sxs-lookup"><span data-stu-id="8722a-292">**List Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```</span></span>
+5.  <span data-ttu-id="8722a-293">Définir les **titres des colonnes**:</span><span class="sxs-lookup"><span data-stu-id="8722a-293">Define **Column Titles**:</span></span><br>
+    <span data-ttu-id="8722a-294">**Nom :** Nom complet</span><span class="sxs-lookup"><span data-stu-id="8722a-294">**Name:** Display Name</span></span><br>
+    <span data-ttu-id="8722a-295">**Valeur :** Dernière pulsation</span><span class="sxs-lookup"><span data-stu-id="8722a-295">**Value:** Last Heartbeat</span></span>
+6.  <span data-ttu-id="8722a-296">Définissez la **requête de Navigation**:</span><span class="sxs-lookup"><span data-stu-id="8722a-296">Define **Navigation Query**:</span></span><br>
+    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+7.  <span data-ttu-id="8722a-297">Sélectionnez **Appliquer**, puis sur **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="8722a-297">Select **Apply**, and then **Close**.</span></span>
+
+### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a><span data-ttu-id="8722a-298">Créer une mosaïque qui affiche les périphériques qui ont une erreur matérielle</span><span class="sxs-lookup"><span data-stu-id="8722a-298">Create a tile that displays devices that have a hardware error</span></span>
+
+1.  <span data-ttu-id="8722a-299">Sélectionnez le **numéro et la liste** dans la galerie, puis ajoutez une nouvelle mosaïque.</span><span class="sxs-lookup"><span data-stu-id="8722a-299">Select **Number & list** from the gallery, and then add a new tile.</span></span>
+2.  <span data-ttu-id="8722a-300">Définir les propriétés **générales** :</span><span class="sxs-lookup"><span data-stu-id="8722a-300">Define the **General** properties:</span></span><br>
+    <span data-ttu-id="8722a-301">**Titre de groupe :** Matériel</span><span class="sxs-lookup"><span data-stu-id="8722a-301">**Group Title:** Hardware</span></span><br>
+    <span data-ttu-id="8722a-302">**Nouveau groupe :** Sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-302">**New Group:** Selected</span></span>
+3.  <span data-ttu-id="8722a-303">Définissez les propriétés de **Mosaïque** :</span><span class="sxs-lookup"><span data-stu-id="8722a-303">Define the **Tile** properties:</span></span><br>
+    <span data-ttu-id="8722a-304">**Légende :** Périphériques qui a rencontré une erreur matérielle dans l’heure écoulée</span><span class="sxs-lookup"><span data-stu-id="8722a-304">**Legend:** Devices that experienced a hardware error in the last hour</span></span> <br>
+    <span data-ttu-id="8722a-305">**Requête de mosaïque :**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```</span><span class="sxs-lookup"><span data-stu-id="8722a-305">**Tile Query:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```</span></span>
+4.  <span data-ttu-id="8722a-306">Définissez les propriétés de la **liste** :</span><span class="sxs-lookup"><span data-stu-id="8722a-306">Define the **List** properties:</span></span><br>
+    <span data-ttu-id="8722a-307">**Requête de liste :**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer```</span><span class="sxs-lookup"><span data-stu-id="8722a-307">**List Query:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer```</span></span>
+5.  <span data-ttu-id="8722a-308">Définir les **titres des colonnes**:</span><span class="sxs-lookup"><span data-stu-id="8722a-308">Define **Column Titles**:</span></span><br>
+    <span data-ttu-id="8722a-309">**Nom :** Nom complet</span><span class="sxs-lookup"><span data-stu-id="8722a-309">**Name:** Display Name</span></span><br>
+    <span data-ttu-id="8722a-310">**Valeur :** Dernière erreur</span><span class="sxs-lookup"><span data-stu-id="8722a-310">**Value:** Last Error</span></span>
+6.  <span data-ttu-id="8722a-311">Définissez la **requête de Navigation**:</span><span class="sxs-lookup"><span data-stu-id="8722a-311">Define **Navigation Query**:</span></span><br>
+    ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
+7.  <span data-ttu-id="8722a-312">Sélectionnez **Appliquer**, puis sur **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="8722a-312">Select **Apply**, and then **Close**.</span></span>
+
+### <a name="create-a-tile-that-displays-skype-room-systems-application-versions"></a><span data-ttu-id="8722a-313">Créer une mosaïque qui affiche les versions des applications de systèmes de salle de Skype</span><span class="sxs-lookup"><span data-stu-id="8722a-313">Create a tile that displays Skype Room Systems application versions</span></span>
+
+1.  <span data-ttu-id="8722a-314">Sélectionnez **bouée & liste** dans la galerie, puis ajoutez une nouvelle mosaïque.</span><span class="sxs-lookup"><span data-stu-id="8722a-314">Select **Donut & list** from the gallery, and then add a new tile.</span></span>
+2.  <span data-ttu-id="8722a-315">Définir les propriétés **générales** :</span><span class="sxs-lookup"><span data-stu-id="8722a-315">Define the **General** properties:</span></span><br>
+    <span data-ttu-id="8722a-316">**Titre de groupe :** Détails de l’application v2 systèmes de salle de Skype</span><span class="sxs-lookup"><span data-stu-id="8722a-316">**Group Title:** Skype Room Systems v2 application details</span></span> <br>
+    <span data-ttu-id="8722a-317">**Nouveau groupe :** Sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-317">**New Group:** Selected</span></span>
+3.  <span data-ttu-id="8722a-318">Définir les propriétés **d’en-tête** :</span><span class="sxs-lookup"><span data-stu-id="8722a-318">Define the **Header** properties:</span></span><br>
+    <span data-ttu-id="8722a-319">**Titre :** Versions d’application</span><span class="sxs-lookup"><span data-stu-id="8722a-319">**Title:** Application versions</span></span><br>
+    <span data-ttu-id="8722a-320">**Sous-titre :** Périphériques qui exécutent des versions de l’application spécifique</span><span class="sxs-lookup"><span data-stu-id="8722a-320">**Subtitle:** Devices running specific application versions</span></span>
+4.  <span data-ttu-id="8722a-321">Définissez les propriétés de **l’anneau** :</span><span class="sxs-lookup"><span data-stu-id="8722a-321">Define the **Donut** properties:</span></span><br>
+    <span data-ttu-id="8722a-322">**Requête :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```</span><span class="sxs-lookup"><span data-stu-id="8722a-322">**Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```</span></span><br>
+    <span data-ttu-id="8722a-323">**Centre le texte :** Périphériques</span><span class="sxs-lookup"><span data-stu-id="8722a-323">**Center Text:** Devices</span></span><br>
+    <span data-ttu-id="8722a-324">**Opération :** Somme</span><span class="sxs-lookup"><span data-stu-id="8722a-324">**Operation:** Sum</span></span>
+5.  <span data-ttu-id="8722a-325">Définir les propriétés de la **liste** .</span><span class="sxs-lookup"><span data-stu-id="8722a-325">Define the **List** properties.</span></span><br>
+    <span data-ttu-id="8722a-326">**Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```</span><span class="sxs-lookup"><span data-stu-id="8722a-326">**List Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```</span></span><br>
+    <span data-ttu-id="8722a-327">**Masquer graphique :** Sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-327">**Hide Graph:** Selected</span></span><br>
+    <span data-ttu-id="8722a-328">**Activer les graphiques sparkline :** Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-328">**Enable Sparklines:** Not selected</span></span>
+6.  <span data-ttu-id="8722a-329">Définir les **titres des colonnes**.</span><span class="sxs-lookup"><span data-stu-id="8722a-329">Define **Column Titles**.</span></span><br>
+    <span data-ttu-id="8722a-330">**Nom :** Nom complet</span><span class="sxs-lookup"><span data-stu-id="8722a-330">**Name:** Display Name</span></span><br>
+    <span data-ttu-id="8722a-331">**Valeur :** Laisser vide</span><span class="sxs-lookup"><span data-stu-id="8722a-331">**Value:** Leave Empty</span></span>
+7.  <span data-ttu-id="8722a-332">Définissez la **requête de Navigation**.</span><span class="sxs-lookup"><span data-stu-id="8722a-332">Define **Navigation Query**.</span></span><br>
+    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+8.  <span data-ttu-id="8722a-333">Sélectionnez **Appliquer** , puis sur **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="8722a-333">Select **Apply** and then **Close**.</span></span>
+
+### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a><span data-ttu-id="8722a-334">Créer une mosaïque qui affiche les périphériques qui ont une erreur d’application</span><span class="sxs-lookup"><span data-stu-id="8722a-334">Create a tile that displays devices that have an application error</span></span>
+
+1.  <span data-ttu-id="8722a-335">Sélectionnez le **numéro et la liste** dans la galerie, puis ajoutez une nouvelle mosaïque.</span><span class="sxs-lookup"><span data-stu-id="8722a-335">Select **Number & list** from the gallery, and then add a new tile.</span></span>
+2.  <span data-ttu-id="8722a-336">Définir les propriétés **générales** .</span><span class="sxs-lookup"><span data-stu-id="8722a-336">Define the **General** properties.</span></span><br>
+    <span data-ttu-id="8722a-337">**Titre de groupe :** Laisser vide</span><span class="sxs-lookup"><span data-stu-id="8722a-337">**Group Title:** Leave empty</span></span><br>
+    <span data-ttu-id="8722a-338">**Nouveau groupe :** Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-338">**New Group:** Not Selected</span></span>
+3.  <span data-ttu-id="8722a-339">Définir les propriétés de la **Mosaïque** .</span><span class="sxs-lookup"><span data-stu-id="8722a-339">Define the **Tile** properties.</span></span><br>
+    <span data-ttu-id="8722a-340">**Légende :** Périphériques qui a rencontré une erreur d’application durant la dernière heure</span><span class="sxs-lookup"><span data-stu-id="8722a-340">**Legend:** Devices that experienced an application error in the last hour</span></span><br>
+    <span data-ttu-id="8722a-341">**Requête de mosaïque :**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```</span><span class="sxs-lookup"><span data-stu-id="8722a-341">**Tile Query:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```</span></span>
+4.  <span data-ttu-id="8722a-342">Définir les propriétés de la **liste** .</span><span class="sxs-lookup"><span data-stu-id="8722a-342">Define the **List** properties.</span></span><br>
+    <span data-ttu-id="8722a-343">**Requête de liste :**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```</span><span class="sxs-lookup"><span data-stu-id="8722a-343">**List Query:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```</span></span>
+5.  <span data-ttu-id="8722a-344">Définir les **titres des colonnes**.</span><span class="sxs-lookup"><span data-stu-id="8722a-344">Define **Column Titles**.</span></span><br>
+    <span data-ttu-id="8722a-345">**Nom :** Nom complet</span><span class="sxs-lookup"><span data-stu-id="8722a-345">**Name:** Display Name</span></span><br>
+    <span data-ttu-id="8722a-346">**Valeur :** Dernière erreur</span><span class="sxs-lookup"><span data-stu-id="8722a-346">**Value:** Last Error</span></span>
+6.  <span data-ttu-id="8722a-347">Définissez la **requête de Navigation**.</span><span class="sxs-lookup"><span data-stu-id="8722a-347">Define **Navigation Query**.</span></span><br>
+    ```search {selected item} | where EventLog == "Skype Room System" and EventID == 2001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
+7.  <span data-ttu-id="8722a-348">Sélectionnez **Appliquer** , puis sur **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="8722a-348">Select **Apply** and then **Close**.</span></span>
+
+### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a><span data-ttu-id="8722a-349">Créer une mosaïque qui affiche les périphériques qui ont été redémarrés.</span><span class="sxs-lookup"><span data-stu-id="8722a-349">Create a tile that displays devices that have been restarted</span></span>
+
+1.  <span data-ttu-id="8722a-350">Sélectionnez le **numéro et la liste** dans la galerie, puis ajoutez une nouvelle mosaïque.</span><span class="sxs-lookup"><span data-stu-id="8722a-350">Select **Number & list** from the gallery, and then add a new tile.</span></span>
+2.  <span data-ttu-id="8722a-351">Définir les propriétés **générales** .</span><span class="sxs-lookup"><span data-stu-id="8722a-351">Define the **General** properties.</span></span><br>
+    <span data-ttu-id="8722a-352">**Titre de groupe :** Laisser vide</span><span class="sxs-lookup"><span data-stu-id="8722a-352">**Group Title:** Leave empty</span></span><br>
+    <span data-ttu-id="8722a-353">**Nouveau groupe :** Non sélectionné</span><span class="sxs-lookup"><span data-stu-id="8722a-353">**New Group:** Not Selected</span></span>
+3.  <span data-ttu-id="8722a-354">Définir les propriétés de la **Mosaïque** .</span><span class="sxs-lookup"><span data-stu-id="8722a-354">Define the **Tile** properties.</span></span><br>
+    <span data-ttu-id="8722a-355">**Légende :** Périphériques où l’application a été redémarrée dans le dernier 24 heures et le nombre de redémarrages</span><span class="sxs-lookup"><span data-stu-id="8722a-355">**Legend:** Devices where the application was restarted in the last 24 hours, and number of restarts</span></span><br>
+    <span data-ttu-id="8722a-356">**Requête de mosaïque :**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```</span><span class="sxs-lookup"><span data-stu-id="8722a-356">**Tile Query:** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```</span></span>
+4.  <span data-ttu-id="8722a-357">Définir les propriétés de la **liste** .</span><span class="sxs-lookup"><span data-stu-id="8722a-357">Define the **List** properties.</span></span><br>
+    <span data-ttu-id="8722a-358">**Requête de liste :**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```</span><span class="sxs-lookup"><span data-stu-id="8722a-358">**List Query:** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```</span></span>
+5.  <span data-ttu-id="8722a-359">Définir les **titres des colonnes**.</span><span class="sxs-lookup"><span data-stu-id="8722a-359">Define **Column Titles**.</span></span><br>
+    <span data-ttu-id="8722a-360">**Nom :** Nom complet</span><span class="sxs-lookup"><span data-stu-id="8722a-360">**Name:** Display Name</span></span><br>
+    <span data-ttu-id="8722a-361">**Valeur :** Nombre de redémarrages</span><span class="sxs-lookup"><span data-stu-id="8722a-361">**Value:** Number of Restarts</span></span>
+6.  <span data-ttu-id="8722a-362">Définissez la **requête de Navigation**.</span><span class="sxs-lookup"><span data-stu-id="8722a-362">Define **Navigation Query**.</span></span><br>
+    ```search {selected item} | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+7.  <span data-ttu-id="8722a-363">Sélectionnez **Appliquer** , puis sur **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="8722a-363">Select **Apply** and then **Close**.</span></span>
+8.  <span data-ttu-id="8722a-364">Sélectionnez **Enregistrer** pour enregistrer votre tableau de bord.</span><span class="sxs-lookup"><span data-stu-id="8722a-364">Select **Save** to save your dashboard.</span></span>
+
+<span data-ttu-id="8722a-365">Maintenant, vous avez terminé la création de vos vues.</span><span class="sxs-lookup"><span data-stu-id="8722a-365">Now you’ve completed creating your views.</span></span>
+
+<span data-ttu-id="8722a-366">Pour accéder à vos vues, vous pouvez utiliser le portail de Microsoft Operations Management Suite ou les clients mobiles de Microsoft Operations Management Suite pour [Windows Phone](https://www.microsoft.com/en-us/store/p/microsoft-operations-management-suite/9wzdncrfjz2r), [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859)ou [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) .</span><span class="sxs-lookup"><span data-stu-id="8722a-366">You can use the Microsoft Operations Management Suite portal or Operations Management Suite mobile clients for [Windows Phone](https://www.microsoft.com/en-us/store/p/microsoft-operations-management-suite/9wzdncrfjz2r), [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859), or [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) to access your views.</span></span>
+
+## <a name="configure-alerts-in-operations-management-suite"></a><span data-ttu-id="8722a-367">Configurer des alertes dans Microsoft Operations Management Suite</span><span class="sxs-lookup"><span data-stu-id="8722a-367">Configure Alerts in Operations Management Suite</span></span>
+<span data-ttu-id="8722a-368"><a name="Alerts"></a> Les périphériques lorsqu’un Skype salle systèmes rencontre un problème, de Microsoft Operations Management Suite peuvent déclencher des alertes pour avertir les administrateurs avec les détails du problème.</span><span class="sxs-lookup"><span data-stu-id="8722a-368"><a name="Alerts"> </a> When a Skype Room Systems device encounters an issue, Microsoft Operations Management Suite can raise alerts to notify the administrators with the details of the issue.</span></span>
+
+<span data-ttu-id="8722a-369">Opérations Suite comprend un mécanisme d’alerte intégré qui s’exécute par le biais de recherches de journal planifiées à intervalles réguliers.</span><span class="sxs-lookup"><span data-stu-id="8722a-369">Operations Management Suite includes a built-in alerting mechanism that runs through scheduled log searches at regular intervals.</span></span> <span data-ttu-id="8722a-370">Si les résultats de la recherche du journal correspondent à certains critères particuliers, un enregistrement d’alerte est créé.</span><span class="sxs-lookup"><span data-stu-id="8722a-370">If the results of the log search match some particular criteria, an alert record is created.</span></span>
+
+<span data-ttu-id="8722a-371">![Mécanisme d’alerte OMS] (../../media/Deploy_OMS_6.png "Mécanisme d’alerte OMS")</span><span class="sxs-lookup"><span data-stu-id="8722a-371">![OMS alert mechanism](../../media/Deploy_OMS_6.png "OMS alert mechanism")</span></span>
+
+<span data-ttu-id="8722a-372">La règle exécute alors automatiquement une ou plusieurs actions pour vous avertir de l’alerte proactive ou d’appeler un autre processus.</span><span class="sxs-lookup"><span data-stu-id="8722a-372">The rule can then automatically run one or more actions to proactively notify you of the alert or invoke another process.</span></span> <span data-ttu-id="8722a-373">Les options possibles avec les alertes de Microsoft Operations Management Suite sont :</span><span class="sxs-lookup"><span data-stu-id="8722a-373">The possible options with Operations Management Suite alerts are:</span></span>
+-   <span data-ttu-id="8722a-374">Envoi d’un e-mail</span><span class="sxs-lookup"><span data-stu-id="8722a-374">Sending an email</span></span>
+-   <span data-ttu-id="8722a-375">L’appel à un processus externe via une demande HTTP POST</span><span class="sxs-lookup"><span data-stu-id="8722a-375">Invoking an external process through an HTTP POST request</span></span>
+-   <span data-ttu-id="8722a-376">Démarrage d’une procédure opérationnelle dans le service d’Azure Automation</span><span class="sxs-lookup"><span data-stu-id="8722a-376">Starting a runbook in Azure Automation service</span></span>
+
+<span data-ttu-id="8722a-377">Reportez-vous à la section [Présentation des alertes dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts) pour en savoir plus sur les alertes de Microsoft Operations Management Suite.</span><span class="sxs-lookup"><span data-stu-id="8722a-377">See [Understanding alerts in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts) to learn more about the alerts in Operations Management Suite.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="8722a-378">Les exemples suivants envoient des alertes par e-mail lorsqu’un périphérique de système de salle de Skype génère un matériel ou une erreur d’application.</span><span class="sxs-lookup"><span data-stu-id="8722a-378">The following examples send email alerts when a Skype Room Systems device generates a hardware or an application error.</span></span> 
+
+
+### <a name="configure-an-email-alert-for-skype-room-systems-hardware-issues"></a><span data-ttu-id="8722a-379">Configurer un message d’alerte pour les problèmes matériels de systèmes de salle de Skype</span><span class="sxs-lookup"><span data-stu-id="8722a-379">Configure an email alert for Skype Room Systems hardware issues</span></span>
+
+<span data-ttu-id="8722a-380">Configurer une règle d’alerte qui vérifie pour les périphériques de systèmes de salle Skype qui ont eu des problèmes matériels dans la dernière heure.</span><span class="sxs-lookup"><span data-stu-id="8722a-380">Configure an alert rule that checks for Skype Room Systems devices that have had hardware issues within the last hour.</span></span>
+1.  <span data-ttu-id="8722a-381">Ouvrez une session sur le [portail de Microsoft Operations Management Suite](http://aka.ms/omsportal).</span><span class="sxs-lookup"><span data-stu-id="8722a-381">Sign in to the [Microsoft Operations Management Suite portal](http://aka.ms/omsportal).</span></span>
+
+2.  <span data-ttu-id="8722a-382">Sélectionnez la **recherche dans un journal**.</span><span class="sxs-lookup"><span data-stu-id="8722a-382">Select **Log Search**.</span></span>
+
+3.  <span data-ttu-id="8722a-383">Entrez la requête suivante, puis sélectionnez **exécuter**.</span><span class="sxs-lookup"><span data-stu-id="8722a-383">Enter the following query, and then select **Run**.</span></span><br>
+    ```
+    Event
+    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
+    | summarize arg_max(TimeGenerated, *) by Computer
+    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF 
+    |sort by TimeGenerated desc
+    ```
+
+4.  <span data-ttu-id="8722a-384">Après l’exécution de la requête, sélectionnez **alerte**.</span><span class="sxs-lookup"><span data-stu-id="8722a-384">After the query is executed, select **Alert**.</span></span> <span data-ttu-id="8722a-385">Cela ouvre la page **Ajouter une règle d’alerte** .</span><span class="sxs-lookup"><span data-stu-id="8722a-385">This will open the **Add Alert Rule** page.</span></span>
+
+5.  <span data-ttu-id="8722a-386">Configurer les paramètres d’alerte en utilisant les informations ci-dessous :</span><span class="sxs-lookup"><span data-stu-id="8722a-386">Configure alert settings by using the information below:</span></span><br>
+    <span data-ttu-id="8722a-387">**Nom de règle :** Alerte d’échec de la salle de Skype systèmes matériels</span><span class="sxs-lookup"><span data-stu-id="8722a-387">**Rule Name:** Skype Room Systems Hardware Failure Alert</span></span><br>
+    <span data-ttu-id="8722a-388">**Description :** Liste des périphériques qui a rencontré un problème matériel au sein de la dernière heure</span><span class="sxs-lookup"><span data-stu-id="8722a-388">**Description:** List of devices that encountered a hardware issue within the last hour</span></span><br>
+    <span data-ttu-id="8722a-389">**Gravité :** Critique</span><span class="sxs-lookup"><span data-stu-id="8722a-389">**Severity:** Critical</span></span><br>
+    <span data-ttu-id="8722a-390">**Requête :** Utilisez la requête de recherche préremplies</span><span class="sxs-lookup"><span data-stu-id="8722a-390">**Query:** Use the prepopulated search query</span></span><br>
+    <span data-ttu-id="8722a-391">**Fenêtre de temps :** 1 heure</span><span class="sxs-lookup"><span data-stu-id="8722a-391">**Time Window:** 1 hour</span></span><br>
+    <span data-ttu-id="8722a-392">**Fréquence de l’alerte :** 1 heure</span><span class="sxs-lookup"><span data-stu-id="8722a-392">**Alert Frequency:** 1 hour</span></span><br>
+    <span data-ttu-id="8722a-393">**Nombre de résultats :** Supérieur à 0</span><span class="sxs-lookup"><span data-stu-id="8722a-393">**Number of results:** Greater than 0</span></span><br>
+    <span data-ttu-id="8722a-394">**Objet de l’e-mail :** Alerte d’échec de la salle de Skype systèmes matériels</span><span class="sxs-lookup"><span data-stu-id="8722a-394">**Email Subject:** Skype Room Systems Hardware Failure Alert</span></span><br>
+    <span data-ttu-id="8722a-395">**Destinataires :** Inclure les adresses de messagerie, en utilisant des points-virgules comme séparateurs</span><span class="sxs-lookup"><span data-stu-id="8722a-395">**Recipients:** Include the email addresses, using semicolons as separators</span></span><br>
+
+6.  <span data-ttu-id="8722a-396">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="8722a-396">Select **Save**.</span></span>
+
+### <a name="configure-an-email-alert-for-skype-room-systems-application-issues"></a><span data-ttu-id="8722a-397">Configurer un message d’alerte pour les problèmes d’application de systèmes de salle de Skype</span><span class="sxs-lookup"><span data-stu-id="8722a-397">Configure an email alert for Skype Room Systems application issues</span></span>
+
+<span data-ttu-id="8722a-398">Configurer une règle d’alerte, qui vérifie pour les périphériques de systèmes de salle Skype qui ont eu des problèmes de l’application au sein de la dernière heure.</span><span class="sxs-lookup"><span data-stu-id="8722a-398">Configure an alert rule, that checks for Skype Room Systems devices that have had application issues within the last hour.</span></span>
+1.  <span data-ttu-id="8722a-399">Sélectionnez la **recherche dans un journal**.</span><span class="sxs-lookup"><span data-stu-id="8722a-399">Select **Log Search**.</span></span>
+
+2.  <span data-ttu-id="8722a-400">Entrez la requête suivante, puis sélectionnez **exécuter**.</span><span class="sxs-lookup"><span data-stu-id="8722a-400">Enter the following query, and then select **Run**.</span></span><br>
+    ```
+    Event
+    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(10h)
+    | summarize arg_max(TimeGenerated, *) by Computer
+    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
+    | sort by TimeGenerated desc
+    ```
+
+3.  <span data-ttu-id="8722a-401">Après l’exécution de la requête, sélectionnez **alerte**.</span><span class="sxs-lookup"><span data-stu-id="8722a-401">After the query is executed, select **Alert**.</span></span> <span data-ttu-id="8722a-402">Cela ouvre la page **Ajouter une règle d’alerte** .</span><span class="sxs-lookup"><span data-stu-id="8722a-402">This will open the **Add Alert Rule** page.</span></span>
+
+4.  <span data-ttu-id="8722a-403">Configurer les paramètres d’alerte en utilisant les informations ci-dessous :</span><span class="sxs-lookup"><span data-stu-id="8722a-403">Configure alert settings by using the information below:</span></span><br>
+    <span data-ttu-id="8722a-404">**Nom de règle :** Alerte d’échec de la salle de Skype systèmes Application</span><span class="sxs-lookup"><span data-stu-id="8722a-404">**Rule Name:** Skype Room Systems Application Failure Alert</span></span><br>
+    <span data-ttu-id="8722a-405">**Description :** Liste des périphériques qui a rencontré un problème d’application au sein de la dernière heure</span><span class="sxs-lookup"><span data-stu-id="8722a-405">**Description:** List of devices that encountered an application issue within the last hour</span></span><br>
+    <span data-ttu-id="8722a-406">**Gravité :** Critique</span><span class="sxs-lookup"><span data-stu-id="8722a-406">**Severity:** Critical</span></span><br>
+    <span data-ttu-id="8722a-407">**Requête :** Utilisez la requête de recherche préremplies</span><span class="sxs-lookup"><span data-stu-id="8722a-407">**Query:** Use the prepopulated search query</span></span><br>
+    <span data-ttu-id="8722a-408">**Fenêtre de temps :** 1 heure</span><span class="sxs-lookup"><span data-stu-id="8722a-408">**Time Window:** 1 hour</span></span><br>
+    <span data-ttu-id="8722a-409">**Fréquence de l’alerte :** 1 heure</span><span class="sxs-lookup"><span data-stu-id="8722a-409">**Alert Frequency:** 1 hour</span></span><br>
+    <span data-ttu-id="8722a-410">**Nombre de résultats :** Supérieur à 0</span><span class="sxs-lookup"><span data-stu-id="8722a-410">**Number of results:** Greater than 0</span></span><br>
+    <span data-ttu-id="8722a-411">**Objet de l’e-mail :** Alerte d’échec de la salle de Skype systèmes Application</span><span class="sxs-lookup"><span data-stu-id="8722a-411">**Email Subject:** Skype Room Systems Application Failure Alert</span></span><br>
+    <span data-ttu-id="8722a-412">**Destinataires :** Inclure les adresses de messagerie, en utilisant des points-virgules comme séparateurs</span><span class="sxs-lookup"><span data-stu-id="8722a-412">**Recipients:** Include the email addresses, using semicolons as separators</span></span>
+
+5.  <span data-ttu-id="8722a-413">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="8722a-413">Select **Save**.</span></span>
+
+<span data-ttu-id="8722a-414">Maintenant vous avez terminé la définition d’alertes.</span><span class="sxs-lookup"><span data-stu-id="8722a-414">Now you’ve completed defining alerts.</span></span> <span data-ttu-id="8722a-415">Vous pouvez définir des alertes supplémentaires en utilisant les exemples ci-dessus.</span><span class="sxs-lookup"><span data-stu-id="8722a-415">You can define additional alerts by using the examples above.</span></span>
+
+<span data-ttu-id="8722a-416">Lorsqu’une alerte est générée, vous obtiendrez un e-mail qui répertorie les périphériques a rencontré un problème au sein de la dernière heure.</span><span class="sxs-lookup"><span data-stu-id="8722a-416">When an alert is generated, you’ll get an email that lists the devices that encountered an issue within the last hour.</span></span>
+
+<span data-ttu-id="8722a-417">![Exemple OMS d’alerte e-mail] (../../media/Deploy_OMS_7.png "Exemple OMS d’alerte e-mail")</span><span class="sxs-lookup"><span data-stu-id="8722a-417">![Sample OMS alert email](../../media/Deploy_OMS_7.png "Sample OMS alert email")</span></span>
+
+<span data-ttu-id="8722a-418">Vous utilisez une page de paramètres d’alerte pour modifier la configuration d’une alerte existante, ou pour désactiver ou supprimer une alerte.</span><span class="sxs-lookup"><span data-stu-id="8722a-418">You use an alert settings page to modify an existing alert configuration, or to disable or remove an alert.</span></span>
+
+<span data-ttu-id="8722a-419">![Paramètres d’alerte OMS] (../../media/Deploy_OMS_8.png "Paramètres d’alerte OMS")</span><span class="sxs-lookup"><span data-stu-id="8722a-419">![OMS alert settings](../../media/Deploy_OMS_8.png "OMS alert settings")</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="8722a-420">Vous devrez peut-être utiliser le portail Azure pour ajouter ou modifier les alertes de Microsoft Operations Management Suite si votre espace de travail de la Suite de gestion des opérations est configuré pour étendre les alertes Operations Management Suite dans Azure.</span><span class="sxs-lookup"><span data-stu-id="8722a-420">You might need to use the Azure portal to add or modify Operations Management Suite alerts if your Operations Management Suite workspace is configured to extend the Operations Management Suite alerts into Azure.</span></span> <span data-ttu-id="8722a-421">Pour plus de détails, consultez [extension des alertes du portail OMS dans Azure](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-alerts-extend).</span><span class="sxs-lookup"><span data-stu-id="8722a-421">For more details, see [Extend alerts from OMS portal into Azure](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-alerts-extend).</span></span>
+
+## <a name="configure-all-devices-for-operations-management-suite"></a><span data-ttu-id="8722a-422">Configurer tous les périphériques pour la Suite de gestion des opérations</span><span class="sxs-lookup"><span data-stu-id="8722a-422">Configure all devices for Operations Management Suite</span></span>
+<span data-ttu-id="8722a-423"><a name="configure_all_devices"></a> Après avoir configuré les tableaux de bord et les alertes, vous pouvez définir et configurer les agents de la Suite de gestion des opérations sur tous les périphériques de systèmes de salle Skype pour effectuer votre déploiement de surveillance.</span><span class="sxs-lookup"><span data-stu-id="8722a-423"><a name="configure_all_devices"> </a> After the dashboards and alerts are configured, you can set up and configure Operations Management Suite agents on all Skype Room Systems devices to complete your monitoring deployment.</span></span>
+
+<span data-ttu-id="8722a-424">Bien que vous pouvez installer et configurer les agents Microsoft Operations Management Suite manuellement sur chaque périphérique, nous vous recommandons vivement de que vous exploitez des méthodes et des outils de déploiement de logiciels existants.</span><span class="sxs-lookup"><span data-stu-id="8722a-424">Although you can install and configure the Operations Management Suite agents manually on each device, we highly recommend you leverage existing software deployment tools and methods.</span></span>
+
+<span data-ttu-id="8722a-425">Si vous créez vos périphériques de systèmes de salle Skype pour la première fois, vous pouvez souhaiter inclure les étapes d’installation et de configuration de l’agent Operations Management Suite dans le cadre de votre processus de génération.</span><span class="sxs-lookup"><span data-stu-id="8722a-425">If you’re building your Skype Room Systems devices for the first time, you might want to include the Operations Management Suite agent setup and configuration steps as part of your build process.</span></span> <span data-ttu-id="8722a-426">Pour plus d’informations, reportez-vous à la section [installation de l’agent à l’aide de la ligne de commande](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows#install-the-agent-using-the-command-line).</span><span class="sxs-lookup"><span data-stu-id="8722a-426">For more information, see [Install the agent using the command line](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows#install-the-agent-using-the-command-line).</span></span>
+
+### <a name="deploying-operations-management-suite-agents-by-using-a-group-policy-object"></a><span data-ttu-id="8722a-427">Déploiement d’agents Operations Management Suite à l’aide d’un objet de stratégie de groupe</span><span class="sxs-lookup"><span data-stu-id="8722a-427">Deploying Operations Management Suite agents by using a Group Policy Object</span></span>
+
+<span data-ttu-id="8722a-428">Si vous déjà déployé vos périphériques de systèmes de salle Skype avant d’implémenter les opérations Management Suite, vous pouvez utiliser le script fourni pour installer et configurer les agents à l’aide de stratégies de groupe Active Directory.</span><span class="sxs-lookup"><span data-stu-id="8722a-428">If you already deployed your Skype Room Systems devices before you implement Operations Management Suite, you can use the provided script to set up and configure the agents by using Active Directory group policies.</span></span>
+
+1.  <span data-ttu-id="8722a-429">Créer un chemin d’accès de réseau partagé et accordez l’accès en lecture au groupe **Ordinateurs du domaine** .</span><span class="sxs-lookup"><span data-stu-id="8722a-429">Create a shared network path and grant read access to **Domain Computers** group.</span></span>
+
+2.  <span data-ttu-id="8722a-430">Télécharger la version 64 bits de l’Agent Windows pour opérations de gestion Suite à partir de<http://go.microsoft.com/fwlink/?LinkID=517476></span><span class="sxs-lookup"><span data-stu-id="8722a-430">Download the 64-bit version of the Operations Management Suite Agent for Windows from <http://go.microsoft.com/fwlink/?LinkID=517476></span></span>
+
+3.  <span data-ttu-id="8722a-431">Extrayez le contenu du package d’installation dans le partage réseau.</span><span class="sxs-lookup"><span data-stu-id="8722a-431">Extract the contents of the setup package into the network share.</span></span>
+    1.  <span data-ttu-id="8722a-432">Ouvrez une fenêtre d’invite de commande et l’exécuter **MMASetup-AMD64.exe /c**</span><span class="sxs-lookup"><span data-stu-id="8722a-432">Open a Command Prompt window, and then execute **MMASetup-AMD64.exe /c**</span></span>
+    2.  <span data-ttu-id="8722a-433">Spécifiez le partage que vous venez de créer et extraire le contenu.</span><span class="sxs-lookup"><span data-stu-id="8722a-433">Specify the share you just created, and extract the content.</span></span>
+
+4.  <span data-ttu-id="8722a-434">Créer un nouvel objet de stratégie de groupe et l’affecter à l’unité d’organisation où se trouvent les comptes d’ordinateur de systèmes de salle de Skype.</span><span class="sxs-lookup"><span data-stu-id="8722a-434">Create a new Group Policy Object and assign it to the organizational unit where Skype Room Systems machine accounts are located.</span></span>
+
+5.  <span data-ttu-id="8722a-435">Configurer la stratégie d’exécution PowerShell :</span><span class="sxs-lookup"><span data-stu-id="8722a-435">Configure PowerShell execution policy:</span></span>
+    1.  <span data-ttu-id="8722a-436">Modifier l’objet de stratégie de groupe nouvellement créé et accédez au dossier Configuration de l’ordinateur \\ stratégies \\ les modèles d’administration \\ composants Windows \\ de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="8722a-436">Edit the newly created Group Policy Object and navigate to Computer Configuration \\ Policies \\ Administrative Templates \\ Windows Components \\ Windows PowerShell</span></span>
+    2.  <span data-ttu-id="8722a-437">Activer l' **activer sur l’exécution du Script** et de définir la **Stratégie d’exécution** pour **Autoriser les Scripts locaux**.</span><span class="sxs-lookup"><span data-stu-id="8722a-437">Enable the **Turn on Script Execution** and set **Execution Policy** to **Allow Local Scripts**.</span></span>
+
+6.  <span data-ttu-id="8722a-438">Configurer le script de démarrage :</span><span class="sxs-lookup"><span data-stu-id="8722a-438">Configure the startup script:</span></span>
+    1.  <span data-ttu-id="8722a-439">Copiez le script suivant et enregistrez-le en tant que OMSAgent.ps1 de l’installation.</span><span class="sxs-lookup"><span data-stu-id="8722a-439">Copy the following script and save it as Install-OMSAgent.ps1.</span></span>
+    2.  <span data-ttu-id="8722a-440">Modifier les paramètres WorkspaceId, WorkspaceKey et SetupPath correspondant à votre configuration.</span><span class="sxs-lookup"><span data-stu-id="8722a-440">Modify WorkspaceId, WorkspaceKey, and SetupPath parameters to match your configuration.</span></span>
+    3.  <span data-ttu-id="8722a-441">Modifier le même objet de stratégie de groupe et accédez au dossier Configuration de l’ordinateur \\ stratégies \\ paramètres Windows \\ Scripts (démarrage/arrêt)</span><span class="sxs-lookup"><span data-stu-id="8722a-441">Edit the same Group Policy Object and navigate to Computer Configuration \\ Policies \\ Windows Settings \\ Scripts (Startup/Shutdown)</span></span>
+    4.  <span data-ttu-id="8722a-442">Cliquez deux fois sur **démarrage**et sélectionnez **Scripts PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="8722a-442">Double-click to select **Startup**, and then select **PowerShell Scripts**.</span></span>
+    5.  <span data-ttu-id="8722a-443">Sélectionnez **Afficher les fichiers**, puis copiez le fichier **OMSAgent.ps1 de l’installation** dans ce dossier.</span><span class="sxs-lookup"><span data-stu-id="8722a-443">Select **Show Files**, and then copy the **Install-OMSAgent.ps1** file to that folder.</span></span>
+    6.  <span data-ttu-id="8722a-444">Sélectionnez **Ajouter**, puis sur **Parcourir**.</span><span class="sxs-lookup"><span data-stu-id="8722a-444">Select **Add**, and then **Browse**.</span></span>
+    7.  <span data-ttu-id="8722a-445">Sélectionnez le script ps1 que vous venez de copier.</span><span class="sxs-lookup"><span data-stu-id="8722a-445">Select the ps1 script you just copied.</span></span>
+
+7.  <span data-ttu-id="8722a-446">Les périphériques de systèmes de salle Skype doivent installer et configurer l’agent Microsoft Monitoring du deuxième redémarrage.</span><span class="sxs-lookup"><span data-stu-id="8722a-446">Skype Room Systems devices should install and configure the Microsoft Monitoring agent with the second reboot.</span></span>
+
+
+    ```
+    # Install-OMSAgent.ps1
+    <# 
+    Date:        04/20/2018 
+    Script:      Install-OMSAgent.ps1 
+    Version:     1.0
+    #> 
+    
+    # Set the parameters
+    $WorkspaceId = "<your workspace id>"
+    $WorkspaceKey = "<your workspace key>"
+    $SetupPath = "\\Server\Share"
+    
+    $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
+    
+    # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
+    
+    # Start PowerShell logging
+    Start-Transcript -Path C:\OMSAgentInstall.Log  
+    
+    # Check if the Microsoft Monitoring Agent is installed
+    $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
+    
+    # Check if the Microsoft Monitoring agent is installed 
+    if (!$mma)
+    {
+        #Install agent
+        Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
+    }
+    
+    # Check if the agent has a valid configuration
+    $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
+    if (!$CheckOMS)
+    {
+        # Apply new configuration
+        $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
+        $mma.ReloadConfiguration()
+    } 
+    
+    Stop-Transcript 
+    
+    ```
+    
+> [!NOTE]
+> <span data-ttu-id="8722a-447">Vous pouvez faire référence à l’article de la [gestion et la maintenance de l’agent de journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage) lorsque vous devez reconfigurer un agent, le déplacer vers un autre espace de travail, ou de modifier les paramètres de proxy après l’installation initiale.</span><span class="sxs-lookup"><span data-stu-id="8722a-447">You can refer to the article [Managing and maintaining the Log Analytics agent](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage) when you need to reconfigure an agent, move it to a different workspace, or modify proxy settings after the initial installation.</span></span>
+
+## <a name="additional-solutions"></a><span data-ttu-id="8722a-448">Solutions supplémentaires</span><span class="sxs-lookup"><span data-stu-id="8722a-448">Additional Solutions</span></span>
+<span data-ttu-id="8722a-449"><a name="Solutions"> </a></span><span class="sxs-lookup"><span data-stu-id="8722a-449"></span></span>
+
+<span data-ttu-id="8722a-450">Operations Management Suite fournit des solutions intégrées par le biais de la [Galerie de solutions](https://docs.microsoft.com/azure/log-analytics/log-analytics-add-solutions) supplémentaires permettent de contrôler votre environnement.</span><span class="sxs-lookup"><span data-stu-id="8722a-450">Operations Management Suite provides built-in solutions through its [solution gallery](https://docs.microsoft.com/azure/log-analytics/log-analytics-add-solutions) to further help you monitor your environment.</span></span> <span data-ttu-id="8722a-451">Il est vivement recommandé d’ajouter des solutions de [Gestion des alertes](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management) et de [La santé de l’Agent](https://docs.microsoft.com/azure/operations-management-suite/oms-solution-agenthealth) à votre espace de travail Suite de gestion des opérations.</span><span class="sxs-lookup"><span data-stu-id="8722a-451">We highly recommend that you add [Alert Management](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management) and [Agent Health](https://docs.microsoft.com/azure/operations-management-suite/oms-solution-agenthealth) solutions to your Operations Management Suite workspace as well.</span></span>
+
+<span data-ttu-id="8722a-452">![Vues de l’OMS] (../../media/Deploy_OMS_9.png "Vues de l’OMS")</span><span class="sxs-lookup"><span data-stu-id="8722a-452">![OMS views](../../media/Deploy_OMS_9.png "OMS views")</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="8722a-453">La solution de santé des agents peut vous aider à identifier des agents d’Operations Management Suite obsolètes ou endommagés dans votre environnement, et la solution de gestion des alertes fournit des détails sur les alertes qui ont été déclenchés dans une période donnée.</span><span class="sxs-lookup"><span data-stu-id="8722a-453">The Agent Health solution can help you identify outdated or broken Operations Management Suite agents within your environment, and the Alert Management solution provides details about the alerts that have been raised within a given period.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="8722a-454">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8722a-454">See also</span></span>
 
 #### 
-
-[<span data-ttu-id="66dfc-224">Planification de la gestion de v2 Skype salle systèmes avec OMS</span><span class="sxs-lookup"><span data-stu-id="66dfc-224">Plan Skype Room Systems v2 management with OMS</span></span>](../../plan-your-deployment/clients-and-devices/oms-management.md)
+[<span data-ttu-id="8722a-455">Planification de la gestion de v2 Skype salle systèmes avec OMS</span><span class="sxs-lookup"><span data-stu-id="8722a-455">Plan Skype Room Systems v2 management with OMS</span></span>](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
-[<span data-ttu-id="66dfc-225">Gérer les périphériques de v2 Skype salle systèmes avec OMS</span><span class="sxs-lookup"><span data-stu-id="66dfc-225">Manage Skype Room Systems v2 devices with OMS</span></span>](../../manage/skype-room-systems-v2/oms.md)
-
+[<span data-ttu-id="8722a-456">Gérer les périphériques de v2 Skype salle systèmes avec OMS</span><span class="sxs-lookup"><span data-stu-id="8722a-456">Manage Skype Room Systems v2 devices with OMS</span></span>](../../manage/skype-room-systems-v2/oms.md)

@@ -20,30 +20,30 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Les éléments à ajouter pour la société dans Skype pour les entreprises et où vous pouvez les trouver. '
-ms.openlocfilehash: f2b25c6d0adac626091163b39ab220a1000bae28
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 94447955696eff81fa64b253da7c70309b284bc9
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="what-should-i-put-in-for-the-company-name"></a><span data-ttu-id="e0f72-103">Que dois-je placer le nom de la société ?</span><span class="sxs-lookup"><span data-stu-id="e0f72-103">What should I put in for the company name?</span></span>
+# <a name="what-should-i-put-in-for-the-company-name"></a><span data-ttu-id="3d508-103">Que dois-je placer le nom de la société ?</span><span class="sxs-lookup"><span data-stu-id="3d508-103">What should I put in for the company name?</span></span>
 
-<span data-ttu-id="e0f72-104">C’est le nom de votre société ou organisation.</span><span class="sxs-lookup"><span data-stu-id="e0f72-104">This is the name of your company or organization.</span></span> <span data-ttu-id="e0f72-105">Le nom de la société est limité à 25 caractères, qui comprend des espaces.</span><span class="sxs-lookup"><span data-stu-id="e0f72-105">The name of the company is limited to 25 characters, which includes spaces.</span></span> <span data-ttu-id="e0f72-106">Le nom de la société n’est pas utilisé pour traiter la demande de commande de port ; Il est utilisé en cas de litige ou si quelque chose est incorrecte lorsque les numéros de téléphone sont portage sur.</span><span class="sxs-lookup"><span data-stu-id="e0f72-106">The name of the company isn't used to process the port order request; it is used in the case of a dispute or if something is incorrect when the phone numbers are being ported over.</span></span> <span data-ttu-id="e0f72-107">Si vous ne tient pas la totalité du nom de la société dans la zone, celui-ci ne pas retarder ou annuler la commande de port.</span><span class="sxs-lookup"><span data-stu-id="e0f72-107">If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.</span></span>
+<span data-ttu-id="3d508-104">C’est le nom de votre société ou organisation.</span><span class="sxs-lookup"><span data-stu-id="3d508-104">This is the name of your company or organization.</span></span> <span data-ttu-id="3d508-105">Le nom de la société est limité à 25 caractères, qui comprend des espaces.</span><span class="sxs-lookup"><span data-stu-id="3d508-105">The name of the company is limited to 25 characters, which includes spaces.</span></span> <span data-ttu-id="3d508-106">Le nom de la société n’est pas utilisé pour traiter la demande de commande de port ; Il est utilisé en cas de litige ou si quelque chose est incorrecte lorsque les numéros de téléphone sont portage sur.</span><span class="sxs-lookup"><span data-stu-id="3d508-106">The name of the company isn't used to process the port order request; it is used in the case of a dispute or if something is incorrect when the phone numbers are being ported over.</span></span> <span data-ttu-id="3d508-107">Si vous ne tient pas la totalité du nom de la société dans la zone, celui-ci ne pas retarder ou annuler la commande de port.</span><span class="sxs-lookup"><span data-stu-id="3d508-107">If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.</span></span>
   
- <span data-ttu-id="e0f72-108">**Pour des instructions complètes, voir [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md).**</span><span class="sxs-lookup"><span data-stu-id="e0f72-108">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
+ <span data-ttu-id="3d508-108">**Pour des instructions complètes, voir [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md).**</span><span class="sxs-lookup"><span data-stu-id="3d508-108">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
  
 > [!NOTE]
-> <span data-ttu-id="e0f72-109">Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="e0f72-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="3d508-109">Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="3d508-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="e0f72-110">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="e0f72-110">Related topics</span></span>
-[<span data-ttu-id="e0f72-111">Questions fréquentes à propos du transfert de numéros de téléphone</span><span class="sxs-lookup"><span data-stu-id="e0f72-111">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a><span data-ttu-id="3d508-110">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="3d508-110">Related topics</span></span>
+[<span data-ttu-id="3d508-111">Questions fréquentes à propos du transfert de numéros de téléphone</span><span class="sxs-lookup"><span data-stu-id="3d508-111">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
 
-[<span data-ttu-id="e0f72-112">Différents types de numéros de téléphone utilisés pour les offres d'appel</span><span class="sxs-lookup"><span data-stu-id="e0f72-112">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="3d508-112">Différents types de numéros de téléphone utilisés pour les offres d'appel</span><span class="sxs-lookup"><span data-stu-id="3d508-112">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="e0f72-113">Conditions générales relatives aux appels d'urgence</span><span class="sxs-lookup"><span data-stu-id="e0f72-113">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="3d508-113">Conditions générales relatives aux appels d'urgence</span><span class="sxs-lookup"><span data-stu-id="3d508-113">Emergency calling terms and conditions</span></span>](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="e0f72-114">Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence</span><span class="sxs-lookup"><span data-stu-id="e0f72-114">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+<span data-ttu-id="3d508-114">[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="3d508-114">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
