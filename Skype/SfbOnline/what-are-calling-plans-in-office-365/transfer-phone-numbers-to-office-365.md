@@ -1,5 +1,5 @@
 ---
-title: Transfert des numéros de téléphone à Office 365
+title: Transférer des numéros de téléphone vers Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,33 +15,32 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - ms.lync.lac.PortingNumbersOverview
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 17641c360dddcefbd4dff99008cc280389107e93
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 79343de6999114964da698683c3999e60739c81b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="transfer-phone-numbers-to-office-365"></a>Transfert des numéros de téléphone à Office 365
+# <a name="transfer-phone-numbers-to-office-365"></a>Transférer des numéros de téléphone vers Office 365
 
 Il est facile de transférer vos numéros de téléphone à partir de votre fournisseur de services actuel vers Skype Entreprise. Après avoir transféré vos numéros de téléphone vers Skype Entreprise, Microsoft devient votre fournisseur de services et vous facture pour l'utilisation de ces numéros de téléphone.
   
-Avant de commencer le transfert des numéros de téléphone, nous vous recommandons de consulter les informations de [transfert de téléphone numéros questions les plus courantes](transferring-phone-numbers-common-questions.md). Si vous avez des numéros de service pour les autres numéros de service, des surveillances automatiques ou des ponts de conférence à distance, appel gratuit numéros ou ont plus de 999 numéros de téléphone de l’utilisateur (abonné) que vous devez transférer vers Skype pour entreprise, consultez [Gérer les numéros de téléphone pour votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour télécharger les formulaires corrects et nous les envoyer.
+Avant de commencer le transfert des numéros de téléphone, nous vous recommandons de consulter les informations contenues dans les [questions courantes de numéros de téléphone transfert](transferring-phone-numbers-common-questions.md). Si vous avez des numéros de service pour les ponts de conférence rendez-vous, les standards automatiques ou autres numéros de service, gratuit numéros ou plus de 999 numéros de téléphone de l’utilisateur (abonné) dont vous avez besoin pour transférer vers Skype pour les entreprises, voir [Gérer les numéros de téléphone pour votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour télécharger les formulaires corrects et nous les envoyer.
   > [!NOTE]
-  > Il traite les commandes de port pour le transfert des numéros de téléphone uniquement sur les jours ouvrables d’US et non sur les jours fériés ou les week-ends. 
+  > Il traite les commandes de port pour le transfert des numéros de téléphone uniquement sur les jours US et non sur les jours fériés ou les week-ends. 
   
 ## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-skype-for-business"></a>Création d'une demande de transfert et transfert de vos numéros de téléphone vers Skype Entreprise
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]
-  > Si vous avez des numéros de service pour les autres numéros de service, des surveillances automatiques ou des ponts de conférence à distance, appel gratuit numéros ou ont plus de 999 numéros de téléphone de l’utilisateur (abonné) que vous devez transférer vers Skype pour entreprise, consultez [Gérer les numéros de téléphone pour votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)) pour sélectionner la pays/région et télécharger les formulaires corrects et nous les envoyer.
+  > Si vous avez des numéros de service pour les ponts de conférence rendez-vous, les standards automatiques ou autres numéros de service, gratuit numéros ou plus de 999 numéros de téléphone de l’utilisateur (abonné) dont vous avez besoin pour transférer vers Skype pour les entreprises, voir [Gérer les numéros de téléphone pour votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)) et sélectionnez votre pays/région et télécharger les formulaires corrects nous les envoyer.
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     

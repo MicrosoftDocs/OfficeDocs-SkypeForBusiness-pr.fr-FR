@@ -15,25 +15,24 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: d6b52f2eee9d80aa3dfc78e976e6312ac9fef650
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 48091ec9a3b5d689c8ecc72947712404bee2ecd2
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Ajout ou suppression d'une adresse d'urgence pour votre organisation
 
-Une adresse d’urgence doit être associée à un numéro de téléphone - mais lorsque cela se produit peut varier entre les pays/régions. Par exemple, aux États-Unis, vous devez associer une adresse en cas d’urgence, lorsque vous attribuez le numéro de téléphone de l’utilisateur. Au Royaume-Uni, vous devez associer une adresse d’urgence pour le numéro de téléphone lors de l’obtention les numéros de téléphone à partir d’Office 365 ou transfert des numéros de téléphone de votre fournisseur de service en cours.
+Une adresse d’urgence doit être associée à un numéro de téléphone - mais lorsque cela se produit peut varier entre les pays/régions. Par exemple, aux États-Unis, vous devez associer une adresse d’urgence lorsque vous attribuez le numéro de téléphone à l’utilisateur. Au Royaume-Uni, vous devez associer une adresse pour le numéro de téléphone d’urgence lorsque vous transférez des numéros de téléphone à partir de votre fournisseur de services en cours ou obtention des numéros de téléphone à partir d’Office 365.
   
-Quel que soit la pays/de la région où vous vous trouvez dans, il est possible d’ajouter un emplacement ou les emplacements en cas d’urgence, adresse ou supprimer une adresse d’urgence. Selon le nombre d’emplacements physiques de votre organisation, vous pouvez les créer pour les bâtiments, les sols et les bureaux. Consultez [Quels sont les emplacements en cas d’urgence, les adresses et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md) pour plus d’informations.
+Quel que soit la pays/région dans, il est possible d’ajouter un emplacement ou adresse ou supprimer une adresse d’urgence des emplacements en cas d’urgence. Selon le nombre d’emplacements physiques au sein de votre organisation, vous pouvez les créer pour les bureaux, étages et bâtiments. Voir [Quels sont les emplacements d’urgence, les adresses et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md) pour plus d’informations.
   
-Pour savoir comment obtenir un Plan d’appel et son coût, consultez [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestionnaire de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Pour savoir comment obtenir un Plan d’appel et combien coûte, voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 ## <a name="to-add-an-emergency-address"></a>Pour ajouter une adresse de secours
 
@@ -41,19 +40,19 @@ Pour savoir comment obtenir un Plan d’appel et son coût, consultez [Skype pou
     
 2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans la navigation de gauche, accédez à **voix** > **les emplacements d’urgence**, puis cliquez sur le bouton **Ajouter une nouvelle adresse** .
+3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis cliquez sur le bouton **Ajouter une nouvelle adresse** .
     
     > [!Important]
-    > Pour pouvoir voir l’option **voix** dans la navigation de gauche dans le Skype pour le centre d’administration métier, vous devez d’abord acheter au moins une **licence d’entreprise E5**, une licence de module complémentaire de **Système téléphonique** ou une licence de module complémentaire **d’Audioconférence** .
+    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
 4. Dans le volet Actions, sous **Nouvelle adresse**, entrez les informations requises dans les zones.
     
 5. Après avoir entré toutes les informations de l’adresse, cliquez sur **Valider**.
     
     > [!IMPORTANT]
-    > La validation d'une adresse postale ou d'une adresse géographique implique de vérifier sa légitimité et son format. Il est possible qu’une adresse partiellement correcte en cas d’urgence, par exemple comme si vous mal tapé le nom de la ville, peuvent encore être validée. Bien que le nom soit mal orthographié et que la validation ait été effectuée, la combinaison du nom de ville erroné et des autres parties correctes de l'adresse est suffisante pour acheminer l'appel vers le centre d'urgence approprié. 
+    > La validation d'une adresse postale ou d'une adresse géographique implique de vérifier sa légitimité et son format. Il est possible qu’une adresse partiellement correcte d’urgence, tels que si vous orthographié le nom de la ville, peuvent toujours validée. Bien que le nom soit mal orthographié et que la validation ait été effectuée, la combinaison du nom de ville erroné et des autres parties correctes de l'adresse est suffisante pour acheminer l'appel vers le centre d'urgence approprié. 
   
-    Si l’adresse ne peut pas être validée, vous pouvez envoyer une demande de validation manuelle en cliquant sur **Envoyer une demande de validation** si vous tentez de valider une adresse aux États-Unis, ou cliquez sur **Ouvrir une demande de service pour obtenir de l’aide sur la validation de l’adresse** si vous êtes à l’extérieur de la États-Unis.
+    Si l’adresse ne peut pas être validée, vous pouvez envoyer une demande de validation manuelle en cliquant sur **Envoyer une demande de validation** si vous tentez de valider une adresse américaine, ou cliquez sur **Ouvrir une demande de service d’aide sur la validation des adresses** si vous êtes en dehors de la États-Unis.
     
 6. Une fois l'adresse validée, cliquez sur **Enregistrer**.
     
@@ -63,10 +62,10 @@ Pour savoir comment obtenir un Plan d’appel et son coût, consultez [Skype pou
     
 2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans la navigation de gauche, accédez à **voix** > **emplacement de secours**, sélectionnez l’adresse que vous voulez supprimer et dans le volet Actions, cliquez sur **Supprimer**.
+3. Dans la navigation de gauche, accédez à la **voix** > **emplacement d’urgence**, sélectionnez l’adresse que vous souhaitez supprimer et dans le volet Actions, cliquez sur **Supprimer**.
     
     > [!IMPORTANT]
-    > Pour pouvoir voir l’option **voix** dans la navigation de gauche dans le Skype pour le centre d’administration métier, vous devez d’abord acheter au moins une **licence d’entreprise E5**, une licence de module complémentaire de **Système téléphonique** ou une licence de module complémentaire **d’Audioconférence** .
+    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
 ## <a name="related-topics"></a>Rubriques connexes
 [Que sont les emplacements, les adresses et le routage d'appel d'urgence ?](what-are-emergency-locations-addresses-and-call-routing.md)

@@ -15,31 +15,28 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Learn how to assign a conference ID to a user in Skype for Business and what the conference ID's parameters should be. "
-ms.openlocfilehash: 42aa17866c286c5d57fa3cd4962ecf6a16e2438a
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: 4922f896daa2bec976d7fb72dd519e9dd91d74f4
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="see-change-and-reset-a-conference-id-assigned-to-a-user"></a>Afficher, modifier et réinitialiser l'ID de conférence affecté à un utilisateur
 
-Un ID de conférence est automatiquement affecté à un Skype pour l’utilisateur professionnel ou Teams de Microsoft lorsqu’ils sont configurés pour les conférences Audio dans Office 365 et utilisent Microsoft comme fournisseur de conférence audio. L’ID de conférence affecté peut être statique ou dynamique et est envoyé dans l’invitation à une réunion lorsque la réunion est planifiée.
+Un ID de conférence est automatiquement attribué à un Skype pour utilisateur Teams Microsoft ou de l’entreprise lorsqu’ils sont configurés pour les services d’audioconférence dans Office 365 et utilisent Microsoft comme fournisseur de services d’audioconférence. L’ID de conférence affecté est envoyé dans l’invitation à la réunion lorsque la réunion est planifiée. Chaque réunion planifie un utilisateur sera se voit attribuer un ID de conférence unique. 
   
-ID statiques sont utilisés lorsque les personnes de votre organisation ne souhaitant mémoriser un nombre aléatoire ; Vous pouvez sélectionner un certain nombre ou utiliser un qui soit facile à mémoriser. Lorsque des ID de conférence dynamiques sont utilisés, chaque réunion qu'un utilisateur planifie obtient un ID de conférence unique. Si vous souhaitez affecter les dynamique au lieu de la conférence static ID, [Cliquez ici](using-audio-conferencing-dynamic-ids-in-your-organization.md).
+Bien qu’un ID de conférence est automatiquement créé et affecté à un utilisateur, il peut arriver lorsqu’un utilisateur ne souhaite pas utiliser cette et vous voulez lui attribuer un certain nombre, ou lorsque les utilisateurs ne vous souvenez pas ou ont perdu leur ID de conférence. Vous pouvez utiliser **Skype entreprise centre d’administration** et de Windows PowerShell pour afficher, modifier et de réinitialiser leur ID de conférence.
   
-Bien qu’un ID de conférence statique sera automatiquement créé et affecté à un utilisateur, il peut arriver lorsqu’un utilisateur ne souhaite pas utiliser cette et vous souhaitez la définir pour un certain nombre, ou lorsque vos utilisateurs ne vous souvenez plus ou ont perdu leur ID de conférence. Vous pouvez utiliser le **Skype pour Business admin center** et de Windows PowerShell pour afficher, de modifier et de réinitialiser leur ID de conférence.
+Un e-mail sera envoyé à l’utilisateur dont l’ID de conférence et les numéros de téléphone de conférence audio par défaut, ou si vous réinitialisez l’ID de conférence une autre adresse e-mail est envoyée qui inclut l’ID de conférence, mais pas d’un code confidentiel. Pour plus d’informations sur la réinitialisation du code confidentiel de l’organisateur d’une conférence, [Cliquez ici](reset-a-conference-id-for-a-user.md). 
   
-Un e-mail sera envoyé à l’utilisateur avec l’ID de conférence et les numéros de téléphone de conférence audio par défaut, ou si vous réinitialisez l’ID de conférence une autre adresse e-mail sera envoyée qui inclut l’ID de conférence, mais pas d’un code confidentiel.
-  
-## <a name="view-and-change-conference-ids"></a>Permet d’afficher et de modifier l’ID de conférence
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-view-and-change-conference-ids"></a>![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) Afficher et modifier des ID de conférence
 
-### <a name="to-view-the-conference-id"></a>Permet d’afficher l’ID de conférence
+### <a name="to-view-the-conference-id"></a>Pour afficher l’ID de conférence
 
 Vous pouvez afficher leur ID de conférence et l’envoyer aux utilisateurs.
   
@@ -47,29 +44,32 @@ Vous pouvez afficher leur ID de conférence et l’envoyer aux utilisateurs.
     
 2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans le **Skype pour le centre d’administration Business**> **audioconférence** > **les utilisateurs**, sélectionnez l’utilisateur qui a besoin de code de la conférence
+3. Dans la **Skype pour le centre d’administration Business**> **audioconférence** > **les utilisateurs**, sélectionnez l’utilisateur qui doit être ID de la conférence.
     
-4. Dans la page Action, regardez sous **l’ID de la conférence**.
+4. Dans la page Action, examinez les **ID de conférence**.
     
     > [!TIP]
-    > Vous pouvez envoyer toutes les informations de la conférence à l’utilisateur dans un message électronique qui inclut l’ID de conférence et les numéros de téléphone audio en cliquant sur le lien **Envoyer les informations de conférence par courrier électronique** une fois que vous sélectionnez l’utilisateur dans la page **utilisateurs** .
+    > Vous pouvez envoyer toutes les informations de conférence à l’utilisateur dans un message électronique qui inclut l’ID de conférence et les numéros de téléphone audio en cliquant sur le lien **Envoyer les informations de conférence par courrier électronique** une fois que vous sélectionnez l’utilisateur dans la page **utilisateurs** .
   
-    Vous pouvez utiliser Windows PowerShell pour afficher l’ID de conférence pour un utilisateur. Pour ce faire, exécutez la commande :
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+Vous pouvez utiliser Windows PowerShell pour afficher l’ID de conférence pour un utilisateur. Pour ce faire, exécutez :
     
   ```
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"  
   ```
 
-    Reportez-vous à la section [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) pour en savoir plus sur l’applet de commande.
+    See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
     
 ### <a name="to-assign-or-change-the-conference-id"></a>Pour affecter ou modifier l’ID de conférence
 
-Vous pouvez affecter ou modifier un ID de conférence d’un utilisateur si, par exemple, un utilisateur souhaite un ID de conférence qui est facile à mémoriser.
+Vous pouvez affecter ou modifier un ID de conférence pour un utilisateur si, par exemple, un utilisateur souhaite un ID de conférence et facile à retenir.
 
   > [!NOTE]
-  > Le Skype pour le centre d’administration commerciale ne permet pas de modifier un ID de conférence qui a été créé automatiquement, mais vous pouvez utiliser Windows PowerShell pour les modifier ou changer un ID de conférence que vous avez définies. 
+  > Le Skype entreprise centre d’administration ne peut pas être utilisé pour modifier un ID de conférence qui a été créé automatiquement, mais vous pouvez utiliser Windows PowerShell pour modifier ou un ID de conférence que vous avez définies. 
      
-Pour modifier ou changer l’ID de conférence pour un utilisateur, exécutez la commande :
+Pour modifier l’ID de conférence pour un utilisateur, exécutez :
     
   ```
   Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964
@@ -78,19 +78,19 @@ Pour modifier ou changer l’ID de conférence pour un utilisateur, exécutez la
   > [!TIP]
   > Pour définir l'ID de conférence d'un utilisateur, exécutez : 
   
-### <a name="to-reset-the-conference-id"></a>Pour réinitialiser l’ID de conférence
+### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-to-reset-the-conference-id"></a>![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) Pour réinitialiser l’ID de conférence
 
-Vous pouvez réinitialiser un ID de conférence d’un utilisateur si, par exemple, si elles l’oublier.
+Vous pouvez réinitialiser un ID de conférence pour un utilisateur si, par exemple, si elles oublieraient.
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
 2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans le **Skype pour le centre d’administration Business**> **audioconférence** > **les utilisateurs**, dans le volet Actions, sous **ID de conférence**, cliquez sur **Réinitialiser**.
+3. Dans la **Skype pour le centre d’administration Business**> **audioconférence** > **les utilisateurs**, dans le volet Actions, sous **ID de conférence**, cliquez sur **Réinitialiser**.
     
-4. Dans le **Réinitialiser l’ID de conférence ?** la fenêtre, cliquez sur **Oui**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
+4. Dans le **Réinitialiser l’ID de conférence ?** fenêtre, cliquez sur **Oui**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
     
-    Vous pouvez réinitialiser l’ID de conférence pour un utilisateur à l’aide de la de Windows PowerShell. Pour ce faire, exécutez la commande :
+    Vous pouvez réinitialiser l’ID de conférence pour un utilisateur à l’aide de Windows PowerShell. Pour ce faire, exécutez :
     
   ```
   Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ResetConferenceID 8271964
@@ -99,11 +99,11 @@ Vous pouvez réinitialiser un ID de conférence d’un utilisateur si, par exemp
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
    > [!IMPORTANT]
-   >  Après la création d’un nouvel ID de conférence ou une réinitialisation, l’ancien ID de conférence ne peut pas être utilisé par les appelants. Vous devez inviter les utilisateurs à replanifier leurs invitations à la réunion pour vous assurer que le nouvel ID de conférence sera ajouté aux invitations. Les utilisateurs peuvent utiliser le Skype pour l’outil de Migration de réunion Business mise à jour de leurs réunions existantes. Pour savoir comment télécharger, installer et exécuter l’outil, reportez-vous à la section : [Outil de mise à jour de réunion pour Skype pour les entreprises et Lync](http://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype pour Business Online, l’outil de Migration de réunion (64 bits)](http://go.microsoft.com/fwlink/?LinkID=626047)et [Skype pour Business Online, l’outil de Migration de réunion (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+   >  Une fois un nouvel ID de conférence est créé ou une est réinitialisée, l’ancien ID de conférence ne peut être utilisé par les appelants. Vous devez inviter les utilisateurs à replanifier leurs invitations à la réunion pour vous assurer que le nouvel ID de conférence sera ajouté aux invitations. Les utilisateurs peuvent utiliser le Skype pour l’outil de Migration de réunion Business pour mettre à jour leurs réunions existantes. Pour savoir comment télécharger, installer et exécuter l’outil, voir : [Outil de mise à jour de réunion pour Skype pour les entreprises et Lync](http://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype pour Business Online, outil de Migration de réunion (64 bits)](http://go.microsoft.com/fwlink/?LinkID=626047)et [Skype pour Business Online, outil de Migration de réunion (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
   
 - Pour en savoir plus sur l'applet de commande, reportez-vous à la rubrique [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
     
-- L’ID de conférence doit respecter la longueur en chiffres sur le pont de conférence audio. Vous ne pouvez pas utiliser les caractères alphabétiques ou spéciales conférence ID ; Seuls des numéros peuvent être utilisés.
+- L’ID de conférence doit respecter la longueur en chiffres définie sur le pont de conférence audio. Vous ne pouvez pas utiliser des caractères alphabétiques ou spéciaux conférence ID ; Seuls les nombres peuvent être utilisées.
     
 - L’ID de conférence pour tous vos utilisateurs de conférence audio sera 7 chiffres par défaut et le nombre de chiffres ne peut pas être modifié.
     

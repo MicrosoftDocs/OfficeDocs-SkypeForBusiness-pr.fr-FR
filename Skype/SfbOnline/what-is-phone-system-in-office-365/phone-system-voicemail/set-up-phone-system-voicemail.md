@@ -1,5 +1,5 @@
 ---
-title: Configurer la messagerie vocale du système téléphonique
+title: Configurer le système téléphonique de la messagerie vocale
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,55 +15,54 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: 847d0f962b25ca54d7cd1ed86e8ac53b1d544f3a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 93dd33eefe587c548e346974cc86fe2608b392ec
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="set-up-phone-system-voicemail"></a>Configurer la messagerie vocale du système téléphonique
+# <a name="set-up-phone-system-voicemail"></a>Configurer le système téléphonique de la messagerie vocale
 
-Cet article est pour l' [administration d’Office 365](http://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) qui souhaite en paramétrer la fonctionnalité de messagerie vocale du système téléphonique pour tout le monde de l’entreprise.
+Cet article est pour l' [administration d’Office 365](http://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) souhaite configurer la fonctionnalité de messagerie vocale système téléphonique pour tout le monde dans l’entreprise.
   
 > [!NOTE]
-> Messagerie vocale du système téléphonique prend en charge les messages vocaux dépôt uniquement dans une boîte aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers. Comme un mécanisme de secours, messagerie vocale du système téléphonique permet de renvoyer des messages à l’aide de SMTP, ce qui signifie que les utilisateurs avec une boîte aux lettres sur un système de messagerie tiers reçoivent leurs messages vocaux avec aucun temps de fonctionnement du service de garantie ou d’autres fonctionnalités de messagerie vocale, telles que la modification les salutations et autres paramètres. 
+> Messagerie vocale du système téléphonique prend en charge des messages vocaux déposer uniquement dans une boîte aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers. Comme un mécanisme de secours, la messagerie vocale système téléphonique permet de renvoyer des messages à l’aide de SMTP, ce qui signifie que les utilisateurs avec une boîte aux lettres sur un système de messagerie tiers recevront leurs messages vocaux avec aucun temps de fonctionnement du service garanti ou d’autres fonctionnalités de messagerie vocale, telle que la modification les messages d’accueil et d’autres paramètres. 
   
-## <a name="cloud-only-environments-set-up-phone-system-voicemail"></a>Les environnements de cloud uniquement : configurer la messagerie vocale du système téléphonique
+## <a name="cloud-only-environments-set-up-phone-system-voicemail"></a>Environnements en nuage uniquement : configurer le système téléphonique de la messagerie vocale
 
-Pour Skype pour les utilisateurs professionnels en ligne et des Plans d’appel, messagerie vocale du système téléphonique est automatiquement défini et mis en service pour les utilisateurs une fois que vous leur attribuez une licence de **Système téléphonique** et un numéro de téléphone.
+Pour Skype pour les utilisateurs professionnels en ligne et des Plans de l’appel, la messagerie vocale système téléphonique est automatiquement configurée et mis en service pour les utilisateurs une fois que vous leur attribuez une licence de **Système téléphonique** et un numéro de téléphone.
   
-1. Si la fonctionnalité de système téléphonique n’est pas incluse dans votre plan, vous devrez acheter des licences supplémentaires de **Système téléphonique** . Vous devrez également acheter une licence Exchange en ligne. Reportez-vous à la section [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestionnaire de licences](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+1. Si la fonctionnalité de système téléphonique n’est pas incluse dans votre plan, vous devrez peut-être acheter des licences de module complémentaire **Système téléphonique** . Vous devrez acheter une licence Exchange Online. Voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
-2. [Attribuer ou supprimer des licences pour Office 365 pour entreprises](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), les [Affecter de Skype pour les professionnels et les équipes Microsoft des licences](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)et les licences Exchange Online pour les personnes de votre entreprise. Ceci fait, elles sont en mesure de recevoir des messages vocaux.
+2. [Affecter ou supprimer des licences pour Office 365 pour les entreprises](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), les [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)et les licences Exchange Online pour les personnes figurant dans votre entreprise. Ceci fait, elles sont en mesure de recevoir des messages vocaux.
     
-3. Prise en charge de la transcription de la messagerie vocale a été ajouté à partir de mars 2017 et est activé par défaut pour toutes les organisations et les utilisateurs. Vous pouvez désactiver la transcription de votre organisation en utilisant Windows PowerShell et en suivant les étapes ci-dessous.
+3. Prise en charge de la transcription de la messagerie vocale a été ajouté à compter de mars 2017 et est activée par défaut pour toutes les organisations et les utilisateurs. Vous pouvez désactiver la transcription de votre organisation à l’aide de Windows PowerShell et les étapes ci-dessous.
     
-## <a name="phone-system-with-on-premises-environments"></a>Système de téléphone avec les environnements sur site
+## <a name="phone-system-with-on-premises-environments"></a>Système téléphonique avec les environnements sur site
 
-Les informations suivantes sont sur la configuration de messagerie vocale du système téléphonique pour travailler avec les environnements d’appel de planification sur site.
+Les informations suivantes sont sur la configuration système téléphonique de la messagerie vocale pour travailler avec les environnements de planifier l’appel local.
   
-1. Si la fonctionnalité de système téléphonique n’est pas incluse dans votre plan, vous devrez acheter des licences supplémentaires de **Système téléphonique** . Vous devez également acheter une licence Exchange en ligne. Reportez-vous à la section [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestionnaire de licences](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+1. Si la fonctionnalité de système téléphonique n’est pas incluse dans votre plan, vous devrez peut-être acheter des licences de module complémentaire **Système téléphonique** . Vous devez également acheter une licence Exchange Online. Voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
-2. [Attribuer ou supprimer des licences pour Office 365 pour entreprises](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), les [Affecter de Skype pour les professionnels et les équipes Microsoft des licences](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)et les licences Exchange Online pour les personnes de votre entreprise.
+2. [Affecter ou supprimer des licences pour Office 365 pour les entreprises](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), les [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)et les licences Exchange Online pour les personnes figurant dans votre entreprise.
     
-3. Suivez les instructions dans la section **Activer les utilisateurs pour le système téléphonique vocale et services de messagerie vocale** de la [Configurer de Skype pour guide du professionnel de connecteur de nuage](https://technet.microsoft.com/en-us/library/mt605228.aspx).
+3. Suivez les instructions indiquées dans la section **Activer les utilisateurs pour le système téléphonique vocale et les services de messagerie vocale** du [Configurer de Skype pour édition dans le nuage connecteur guide](https://technet.microsoft.com/en-us/library/mt605228.aspx).
     
-4. Prise en charge de la transcription de la messagerie vocale a été ajouté à partir de mars 2017 et est activé par défaut pour toutes les organisations et les utilisateurs. Vous pouvez désactiver la transcription de votre organisation en utilisant Windows PowerShell et en suivant les étapes ci-dessous. 
+4. Prise en charge de la transcription de la messagerie vocale a été ajouté à compter de mars 2017 et est activée par défaut pour toutes les organisations et les utilisateurs. Vous pouvez désactiver la transcription de votre organisation à l’aide de Windows PowerShell et les étapes ci-dessous. 
     
-5. Vous pouvez également voir [messagerie vocale du PBX d’Azure prend en charge pour Exchange Server](https://support.microsoft.com/en-us/kb/3195158) pour savoir comment configurer la remise des messages de messagerie vocale Azure pour les utilisateurs de système téléphonique qui ont une boîte aux lettres locale.
+5. Vous pouvez également consulter [la messagerie vocale PBX Azure prend en charge pour Exchange Server](https://support.microsoft.com/en-us/kb/3195158) pour apprendre à configurer la remise des messages de messagerie vocale Azure pour les utilisateurs de système téléphonique ayant une boîtes aux lettres locales.
     
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuration des stratégies de messagerie vocale pour votre organisation
 
-Transcription de la messagerie vocale est activée par défaut et le masquage des grossièretés transcription est désactivé par défaut pour toutes les organisations et les utilisateurs ; Toutefois, vous pouvez les contrôler à l’aide des applets de commande [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx) et [CsOnlineVoicemailPolicy de la subvention](https://technet.microsoft.com/EN-US/library/mt798311.aspx) .
+Transcription de la messagerie vocale est activée par défaut et le masquage de gratuites transcription est désactivé par défaut pour toutes les organisations et les utilisateurs ; Toutefois, vous pouvez contrôler à l’aide des applets de commande [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx) et [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798311.aspx) .
   
 > [!IMPORTANT]
-> Vous ne pouvez pas créer une nouvelle instance de stratégie pour la transcription et les transcription masquage à l’aide de l’applet de commande **New-CsOnlineVoiceMailPolicy** , et vous ne pouvez pas supprimer une instance de stratégie existant à l’aide de l’applet de commande **Remove-CsOnlineVoiceMailPolicy** .
+> Vous ne pouvez pas créer une nouvelle instance de stratégie pour la transcription et gratuites transcription masquage à l’aide de l’applet de commande **New-CsOnlineVoiceMailPolicy** , et vous ne pouvez pas supprimer une instance existante de stratégie à l’aide de l’applet de commande **Remove-CsOnlineVoiceMailPolicy** .
   
 Vous pouvez régler les paramètres pour vos utilisateurs qui utilisent des stratégies relatives aux messages vocaux. Pour afficher toutes les instances de stratégie de messagerie vocale disponibles, vous pouvez utiliser l’applet de commande [Get-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) .
   
@@ -73,15 +72,15 @@ Vous pouvez régler les paramètres pour vos utilisateurs qui utilisent des stra
   
 ### <a name="turning-off-transcription-for-your-organization"></a>Désactivation de la transcription pour votre organisation
 
-Car il est sur le paramètre par défaut de la transcription de votre organisation, vous souhaiterez peut-être désactivez-le à l’aide de [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx). Pour ce faire, exécutez la commande :
+Étant donné que le paramètre par défaut de la transcription est activé pour votre organisation, vous souhaiterez peut-être désactiver à l’aide de [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx). Pour ce faire, exécutez :
   
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 ```
 
-### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>Activation de masquage de grossièretés transcription pour votre organisation
+### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>Activer le masquage de transcription gratuites pour votre organisation
 
-Masquage de grossièretés transcription est désactivé par défaut pour votre organisation. S’il existe des besoins de l’entreprise pour l’activer, vous pouvez activer à inconvenances de transcription de masquage à l’aide de [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx). Pour ce faire, exécutez la commande :
+Masquage de gratuites transcription est désactivé par défaut pour votre organisation. S’il existe un impératifs d’entreprise pour l’activer, vous pouvez activer gratuites transcription masquage à l’aide de [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx). Pour ce faire, exécutez :
   
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
@@ -89,7 +88,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ### <a name="turning-off-transcription-for-a-user"></a>Désactivation de la transcription pour un utilisateur
 
-Les stratégies utilisateur sont évaluées avant les paramètres organisationnels par défaut. Par exemple, si la transcription de la messagerie vocale est activée pour tous les utilisateurs, vous pouvez affecter une stratégie pour désactiver la transcription pour un utilisateur spécifique à l’aide de l’applet de commande [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) .
+Les stratégies utilisateur sont évaluées avant les paramètres organisationnels par défaut. Par exemple, si la transcription de la messagerie vocale est activée pour tous vos utilisateurs, vous pouvez affecter une stratégie pour désactiver la transcription pour un utilisateur spécifique à l’aide de l’applet de commande [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) .
   
 Pour désactiver la transcription pour un utilisateur unique, exécutez :
   
@@ -97,11 +96,11 @@ Pour désactiver la transcription pour un utilisateur unique, exécutez :
 Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:amosmar@contoso.com
 ```
 
-### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>Activation de masquage de grossièretés de transcription d’un utilisateur
+### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>Activer le masquage de transcription gratuites pour un utilisateur
 
-Pour activer le masquage de grossièretés de transcription pour un utilisateur spécifique, vous pouvez affecter une stratégie pour activer le masquage de grossièretés de transcription pour un utilisateur spécifique à l’aide de l’applet de commande [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) .
+Pour activer le masquage de transcription gratuites pour un utilisateur spécifique, vous pouvez affecter une stratégie pour activer le masquage de transcription gratuites pour un utilisateur spécifique à l’aide de l’applet de commande [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) .
   
-Pour permettre à inconvenances de transcription de masquage pour un seul utilisateur, exécutez la commande :
+Pour activer gratuites transcription masquage pour un seul utilisateur, exécutez :
   
 ```
 Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -Identity sip:amosmar@contoso.com
@@ -112,9 +111,9 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
   
 ## <a name="help-your-users-learn-skype-for-business-voicemail-features"></a>Aider vos utilisateurs à découvrir les fonctionnalités de messagerie vocale de Skype Entreprise
 
-Nous disposons des informations sur la formation et des articles pour aider vos utilisateurs à réussir avec Skype pour la messagerie vocale d’entreprise. Orientez-les vers les articles suivants :
+Nous disposons d’informations sur la formation et des articles pour aider vos utilisateurs à vendre Skype pour la messagerie vocale d’entreprise. Orientez-les vers les articles suivants :
   
-- [Skype de vérifier les options de la messagerie vocale d’entreprise](http://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8): cet article explique comment faire pour écouter vos messages vocaux dans Skype pour entreprise, modifier votre message d’accueil vocal, modifiez vos paramètres de messagerie vocale et écouter vos messages vocaux à des vitesses différentes.
+- [Vérifier les Skype pour les options et de la messagerie vocale d’entreprise](http://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8): cet article explique comment écouter vos messages vocaux dans Skype pour les entreprises, modifier votre message d’accueil vocal, modifier vos paramètres de messagerie vocale et écouter vos messages vocaux à différentes vitesses.
     
 - [Formation Skype Entreprise 2016](http://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
     

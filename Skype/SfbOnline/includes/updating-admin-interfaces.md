@@ -1,1 +1,1 @@
-Nous mettons fréquemment à jour comment vous pouvez gérer les fonctionnalités de Microsoft Teams. Étapes peuvent être légèrement différents.
+Nous mettons régulièrement à jour la gestion des fonctionnalités de Microsoft Teams. Étapes peuvent être légèrement différents.

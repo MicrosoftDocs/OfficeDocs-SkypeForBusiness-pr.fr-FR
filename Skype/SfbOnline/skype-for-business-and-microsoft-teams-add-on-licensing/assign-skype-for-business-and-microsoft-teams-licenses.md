@@ -15,51 +15,50 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
-description: 'Comment attribuer des Skype pour les licences commerciales pour système téléphonique, audioconférence, Plans d’appel et les crédits de Communications. '
-ms.openlocfilehash: 08f0612cf3c30464bf16b0aee6cf9fbb19743e8a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 'Découvrez comment attribuer Skype pour les licences d’entreprise pour système téléphonique, audioconférence, l’appel des Plans et crédits Communications. '
+ms.openlocfilehash: 00c80637e4b94a66f63c43e51f0bc3e562d42bea
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Affecter Skype pour les licences d’entreprise et Microsoft Teams
 
-Cet article vous donne des conseils sur l’attribution des licences aux utilisateurs pour des fonctionnalités telles que les conférences Audio, système téléphonique et Plans d’appel. Il vous fournit également des scripts pour affecter des licences en bloc.
+Cet article vous donne des conseils sur l’attribution de licences à vos utilisateurs de conférence Audio, système téléphonique et les Plans de l’appel. Il vous fournit également des scripts pour affecter des licences en bloc.
   
- **IMPORTANT**: voir [Skype pour les licences de modules complémentaires professionnels et les équipes de Microsoft](skype-for-business-and-microsoft-teams-add-on-licensing.md) pour plus d’informations sur les licences dont vous avez besoin pour acheter et **Comment acheter** - en fonction de votre plan Office 365 - afin que les utilisateurs obtiennent la conférence Audio, numéros de téléphone gratuits, et la possibilité d’appeler des numéros de téléphone à l’extérieur de votre entreprise.
+ **IMPORTANT**: consultez [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestion des licences](skype-for-business-and-microsoft-teams-add-on-licensing.md) pour plus d’informations sur les licences dont vous avez besoin pour acheter et **Comment acheter** - en fonction de votre plan Office 365 - afin que les utilisateurs obtiennent la conférence Audio, les numéros gratuits, et la possibilité d’appeler des numéros de téléphone à l’extérieur de votre entreprise.
   
-## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Système et les Plans d’appel de téléphone : conseils et les scripts d’attribution des licences
+## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Système et des Plans de l’appel de téléphone : conseils et des scripts pour l’attribution de licences
 
-Ce que vous devez savoir avant d’assigner l’audioconférence, système téléphonique et l’appel de planifier les licences
+Ce que vous devez connaître avant d’en affecter l’audioconférence, système téléphonique et appel de planifier les licences
 
-- **Vous utilisez la connectivité PSTN locale pour les utilisateurs hybrides ?** Dans ce cas, il vous suffit d’attribuer une licence de **Système téléphonique** . Vous devez **pas** les attribuer un Plan d’appel.
+- **Vous utilisez la connectivité PSTN locale pour les utilisateurs hybrides ?** Dans ce cas, vous devez uniquement attribuer une licence de **Système téléphonique** . Vous devez **pas** assigner un Plan de l’appel.
     
-- **Latence après l’affectation licences**: en raison de la latence entre Office 365 et Skype pour professionnels en ligne, il peut éventuellement prendre jusqu'à 24 heures à disposer d’un Plan d’appel après avoir attribué une licence pour un utilisateur. Si après 24 heures n’est pas affecté à l’utilisateur un Plan d’appel, veuillez [contacter le support technique pour les produits d’entreprise - aide de l’administrateur](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Latence après l’attribution de licences**: en raison de la latence entre Skype pour Business Online et Office 365, il peut éventuellement prendre jusqu'à 24 heures pour un utilisateur à assigner un Plan d’appel une fois que vous attribuez une licence. Si après 24 heures avec l’utilisateur n’est pas affecté à un Plan de l’appel, veuillez [contacter le support technique pour les produits métiers : aide d’administration](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     
-- **Messages d'erreur**: un message d'erreur s'affiche si vous n'avez pas acheté le nombre correct de licences. Si vous avez besoin acheter d’autres licences de l’appel de Plan, cliquez sur **acheter d’autres**.
+- **Messages d'erreur**: un message d'erreur s'affiche si vous n'avez pas acheté le nombre correct de licences. Si vous devez acheter des licences supplémentaires de planifier l’appel, cliquez sur **acheter plus**.
     
-- **Prochaines étapes**: après avoir affecté des licences de l’appel de Plan à vos utilisateurs, vous devrez obtenir vos numéros de téléphone pour votre organisation et ensuite affecter des numéros aux personnes de votre organisation. Pour obtenir des instructions pas à pas, consultez [définir les Plans d’appel](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).
+- **Étapes suivantes**: une fois que vous assignez un appel de planifier les licences à vos utilisateurs, vous devez obtenir vos numéros de téléphone pour votre organisation et l’assigner à ces numéros aux personnes de votre organisation. Pour obtenir des instructions pas à pas, consultez [configurer des Plans de l’appel](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).
     
-### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>Comment attribuer une licence de système téléphonique et le Plan de l’appel à un utilisateur
+### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>Comment attribuer une licence de système téléphonique et planifier l’appel à un utilisateur
 
 Les étapes sont les mêmes que pour affecter un licence Office 365. Consultez la rubrique [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
   
-### <a name="how-to-assign-phone-system-and-calling-plan-licenses-in-bulk"></a>Comment attribuer des licences de système téléphonique et l’appel de Plan en vrac
+### <a name="how-to-assign-phone-system-and-calling-plan-licenses-in-bulk"></a>Comment attribuer des licences système téléphonique et planifier l’appel en bloc
 
-1. Installez l' **Assistant de connexion Microsoft Online Services pour les informaticiens RTW**. Le module n'est pas installé ? Voir l' [Assistant Microsoft Online Services-In pour RTW de professionnels de l’informatique](https://go.microsoft.com/fwlink/?LinkId=625123) pour le télécharger.
+1. Installez l' **Assistant de connexion Microsoft Online Services pour les informaticiens RTW**. Le module n'est pas installé ? Voir [Assistant Microsoft Online Services connexion pour les professionnels de l’informatique RTW](https://go.microsoft.com/fwlink/?LinkId=625123) pour le télécharger.
     
-2. Installez le **module Windows Azure Active Directory**. Le module n'est pas installé ? Pour les instructions de téléchargement et de la syntaxe de l’applet de commande, voir la rubrique [Manage AD Azure à l’aide de Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628) .
+2. Installez le **module Windows Azure Active Directory**. Le module n'est pas installé ? Pour des instructions de téléchargement et de la syntaxe de l’applet de commande, voir [Gérer Azure AD à l’aide de Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628) .
     
 3. Une fois les modules installés, utilisez l'invite de commandes Windows PowerShell et la syntaxe suivante pour affecter les licences à vos utilisateurs :
     
-  Cet exemple assigne une **licence d’entreprise E3** avec un **Système téléphonique** et une licence **Nationale appel de Plan** .
+  Cet exemple attribue une **licence entreprise E3** avec un **Système téléphonique** et une licence de **Planifier l’appel interne** .
     
-  Le nom des licences ou des noms de produit dans le script sont répertoriés dans le texte de l’italique (voir **système téléphonique et appel de planifier les noms de produit ou les références destinés script**, après l’exemple).
+  Le nom des licences ou des noms de produits dans le script sont répertoriés dans le texte italique (voir **système téléphonique et appel de planifier les noms de produits ou SKU utilisé pour les scripts**, après l’exemple).
     
   ```
   #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
@@ -95,42 +94,42 @@ Les étapes sont les mêmes que pour affecter un licence Office 365. Consultez l
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOPSTN1 " -ErrorAction SilentlyContinue
     } 
   ```
-### <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>Système téléphonique et les Plans d’appel de noms de produits ou de références destinés script
+### <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>Système téléphonique et appel des Plans de noms de produits ou des références destinés script
 
 |**Nom du produit**|**Référence**|
 |:-----|:-----|
-|E5 d’entreprise (avec un système téléphonique)  <br/> |ENTERPRISEPREMIUM  <br/> |
+|Entreprise E5 (avec un système téléphonique)  <br/> |ENTERPRISEPREMIUM  <br/> |
 |Entreprise E3  <br/> |ENTERPRISEPACK  <br/> |
 |Entreprise E1  <br/> |STANDARDPACK  <br/> |
 |Plan autonome 2 de Skype Entreprise Online  <br/> |MCOSTANDARD  <br/> |
 |Système téléphonique  <br/> |MCOEV  <br/> |
-|Plan d’appel international  <br/> |MCOPSTN2  <br/> |
+|Plan d’appels internationaux  <br/> |MCOPSTN2  <br/> |
 |Forfait d'appels nationaux  <br/> |MCOPSTN1  <br/> |
 |Crédits de communication  <br/> |MCOPSTNPP  <br/> |
    
-## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Téléconférence audio : Conseils et les scripts d’attribution des licences
+## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Services d’audioconférence : Conseils et des scripts pour l’attribution de licences
 
-### <a name="what-you-need-to-know-before-assigning-audio-conferencing-licenses"></a>Ce que vous devez savoir avant d’attribuer des licences d’audioconférence
+### <a name="what-you-need-to-know-before-assigning-audio-conferencing-licenses"></a>Vous devez connaître avant d’attribution de licences d’audioconférence
 
-- **Fournisseur de conférence audio tiers**: si une personne est déjà configurée pour utiliser un fournisseur de conférence audio de tiers, lorsque vous les attribuez une licence de **Conférence Audio** , ils ne seront modifiés pour utiliser Microsoft comme la conférence audio fournisseur. Vous pouvez le remplacer par le fournisseur tiers.
+- **Fournisseur de services d’audioconférence tiers**: si une personne est déjà configurée pour utiliser un fournisseur de services d’audioconférence tiers, lorsque vous leur attribuez une licence de **Conférence Audio** , ils ne seront modifiés pour utiliser Microsoft en tant que les services d’audioconférence fournisseur de services. Vous pouvez le remplacer par le fournisseur tiers.
     
-- Étapes suivantes : après avoir affecté des licences de **Conférence Audio** , vous devez affecter un fournisseur de conférence audio. Reportez-vous à la section [Microsoft affecter en tant que le fournisseur de conférence audio].
+- Étapes suivantes : une fois que vous affectez des licences de **Services d’audioconférence** , vous devez lui assigner un fournisseur de services d’audioconférence. Voir [affecter Microsoft en tant que le fournisseur de services d’audioconférence].
     
-### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>Comment attribuer une licence audioconférence à un utilisateur
+### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>Comment attribuer une licence de conférence Audio à un utilisateur
 
 Les étapes sont les mêmes que pour affecter un licence Office 365. Consultez la rubrique [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
   
-### <a name="how-to-assign-audio-conferencing-licenses-in-bulk"></a>Comment attribuer des licences d’Audio conférence en vrac
+### <a name="how-to-assign-audio-conferencing-licenses-in-bulk"></a>Comment attribuer des licences d’audioconférence en bloc
 
-1. Téléchargez et installez [Microsoft Online Services Assistant de connexion pour RTW de professionnels de l’informatique](https://go.microsoft.com/fwlink/?LinkId=625123).
+1. Téléchargez et installez [Microsoft Online Services Assistant de connexion pour les professionnels de l’informatique RTW](https://go.microsoft.com/fwlink/?LinkId=625123).
     
 2. Téléchargez et installez le **module Windows Azure Active Directory**. Pour connaître les instructions de téléchargement et la syntaxe des applets de commande, reportez-vous à la rubrique[Gestion d'Azure AD à l'aide de Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628).
     
     Une fois les modules installés, utilisez l'invite de commandes Windows PowerShell et la syntaxe suivante pour affecter les licences à vos utilisateurs :
     
-    Les noms de licence ou de produit dans le script sont notés en italique. Voir [les noms de produits Audio conférence ou des points de stock utilisés pour les scripts](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) pour tous les noms de produits.
+    Les noms de licence ou de produit dans le script sont notés en italique. Voir [les noms de produits audioconférence ou SKU utilisé pour les scripts](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) pour tous les noms de produits.
     
-    Cet exemple assigne une licence Enterprise E3 avec une licence d’audioconférence.
+    Cet exemple attribue une licence entreprise E3 avec une licence d’audioconférence.
     
 ```
 #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
@@ -176,24 +175,24 @@ foreach ($user in $users)
 |Plan autonome 2 de Skype Entreprise Online  <br/> |MCOSTANDARD  <br/> |
 |Entreprise E1  <br/> |STANDARDPACK  <br/> |
 |Entreprise E3  <br/> |ENTERPRISEPACK  <br/> |
-|E5 Enterprise (sans audioconférence)  <br/> |ENTERPRISEPREMIUM_NOPSTNCONF  <br/> |
-|E5 d’entreprise (avec la fonction d’audioconférence)  <br/> |ENTERPRISEPREMIUM  <br/> |
+|Entreprise E5 (sans les services d’audioconférence)  <br/> |ENTERPRISEPREMIUM_NOPSTNCONF  <br/> |
+|Entreprise E5 (avec les services d’audioconférence)  <br/> |ENTERPRISEPREMIUM  <br/> |
    
 ## <a name="communications-credits"></a>Crédits de communication
 
-### <a name="what-you-need-to-know-before-assigning-communications-credits-licenses"></a>Ce que vous devez savoir avant d’attribuer des licences de crédits de Communications
+### <a name="what-you-need-to-know-before-assigning-communications-credits-licenses"></a>Vous devez connaître avant d’attribution de licences crédits Communications
 
-- **Les clients entreprise E5**: même si les utilisateurs sont affectés des licences Enterprise E5, nous recommandons quand même d’attribuer les licences de **Crédits de Communications** .
+- **Clients Enterprise E5**: même si vos utilisateurs sont affectées des licences Enterprise E5, nous vous recommandons d’affecter les licences **Crédits Communications** .
     
-- **Prochaines étapes**: après avoir affecté ces licences, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions pas à pas, consultez [définir les Plans d’appel](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).
+- **Prochaines étapes**: après avoir affecté ces licences, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions pas à pas, consultez [configurer des Plans de l’appel](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).
     
-### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>Comment attribuer une licence de crédits de Communications à un utilisateur
+### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>Comment attribuer une licence Communications générique à un utilisateur
 
 Les étapes sont les mêmes que pour affecter un licence Office 365. Consultez la rubrique [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
   
-### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>Comment attribuer des licences de crédits de Communications en vrac
+### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>Comment attribuer des licences Communications crédits en bloc
 
-Examinons l’exemple de script pour l’attribution des licences **d’Audioconférence** . Mettre à jour avec les informations d’attribution de licences de **Crédits de Communications** .
+Jetez un œil à l’exemple de script pour l’attribution de licences de **Conférence Audio** . Mettre à jour avec les informations de l’attribution de licences **Crédits Communications** .
   
 ## <a name="related-topics"></a>Rubriques connexes
   

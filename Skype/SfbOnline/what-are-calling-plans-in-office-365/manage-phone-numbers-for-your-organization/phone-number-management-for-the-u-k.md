@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone au Royaume-Uni pour Skype Entreprise Online et Microsoft Teams.
-ms.openlocfilehash: 14c20714870608857e9a60e39d6ff3ddd26ba993
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 19781a5997057010d5a570aa82ac2ab9375bbfd6
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="phone-number-management-for-the-uk"></a>Gestion des numéros de téléphone pour le Royaume-Uni
 
@@ -35,8 +34,8 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenir les nouveaux numéros de téléphone des utilisateurs qui ne figurent pas dans le Skype pour Business admin center.   <br/> |Téléchargez le formulaire [Demande de nouveaux numéros de téléphone pour le Royaume-Uni (numéros géographiques) (v.3.0) (en-us)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en-us).pdf), remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
-|Obtenir les nouveaux numéros de téléphone de service qui ne figurent pas dans le Skype pour Business admin center. <br/> |Pour les numéros de service en dehors des États-Unis, veuillez [télécharger ce formulaire](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf), remplir les extraire et les [Envoyer pour nous](mailto:ptneu@microsoft.com).
+|Obtenir nouveau les numéros de téléphone qui ne sont pas répertoriés dans le Skype entreprise centre d’administration.   <br/> |Téléchargez le formulaire [Demande de nouveaux numéros de téléphone pour le Royaume-Uni (numéros géographiques) (v.3.0) (en-us)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en-us).pdf), remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
+|Obtenir les nouveaux numéros de téléphone du service qui ne sont pas répertoriés dans le Skype entreprise centre d’administration. <br/> |Pour les numéros de service en dehors des États-Unis, téléchargez [ce formulaire](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf), extraire et [envoyez-le à nous](mailto:ptneu@microsoft.com)de remplissage.
 |Vous devez obtenir des numéros de téléphone qui nous sont transférés.  <br/> |Téléchargez un des formulaires suivants : <br/> [Courrier d'autorisation (LOA) pour le Royaume-Uni (numéros géographiques) (v.2.0)(en-us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en-us).pdf) <br/> [Courrier d'autorisation (LOA) pour le Royaume-Uni (numéros non géographiques) (v.2.1)(en-us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en-us).pdf) <br/> <br/> Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
 |Vous devez publier/annuler la publication des numéros de téléphone dans l'annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
 |Vous devez remplacer le numéro d'un utilisateur par un numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com ) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |

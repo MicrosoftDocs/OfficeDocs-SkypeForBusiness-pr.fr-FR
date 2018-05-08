@@ -1,5 +1,5 @@
 ---
-title: Questions courantes des conférences audio
+title: Questions les plus fréquentes audio conférence
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,25 +15,24 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
-description: Voici quelques-unes des principales questions que nous recevons de nos clients qui souhaitent utiliser l’audioconférence.
-ms.openlocfilehash: 6b2647a8242458c7ba1be87bb8843bd630821780
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Voici quelques-unes des principales questions que nous obtenir à partir de nos clients qui souhaitent utiliser la conférence Audio.
+ms.openlocfilehash: bc902c8c01abc7edab52c8e5341b93d2aaaaaeb7
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="audio-conferencing-common-questions"></a>Questions courantes des conférences audio
+# <a name="audio-conferencing-common-questions"></a>Questions les plus fréquentes audio conférence
 
-Voici quelques-unes des principales questions que nous recevons de nos clients qui souhaitent utiliser l’audioconférence. 
+Voici quelques-unes des principales questions que nous obtenir à partir de nos clients qui souhaitent utiliser la conférence Audio. 
   
-## <a name="what-are-the-benefits-of-audio-conferencing"></a>Quels sont les avantages des services de conférence Audio ?
+## <a name="what-are-the-benefits-of-audio-conferencing"></a>Quels sont les avantages de la conférence Audio ?
 
-L’appel à des réunions est très utile lorsque des personnes sont en déplacement, par exemple et ne peut pas participer à une réunion en utilisant le Skype pour une application métier ou Teams de Microsoft sur leurs ordinateurs portables ou d’appareils mobiles. Mais il existe d’autres scénarios en utilisant un téléphone pour participer à un Skype pour entreprise ou Microsoft Teams réunion peut être une meilleure option qu’à l’aide d’une application sur un ordinateur :
+L’appel à des réunions est très utile lorsque des personnes sont en déplacement, par exemple et ne peuvent pas participer à une réunion en utilisant le Skype pour une application Microsoft Teams ou de l’entreprise sur leur ordinateur portable ou d’appareils mobiles. Mais il existe d’autres scénarios avec un téléphone pour participer à une Skype pour les professionnels ou Microsoft Teams réunion peut être une meilleure option qu’à l’aide d’une application sur un ordinateur :
   
 - La connectivité Internet est limitée.
     
@@ -41,89 +40,89 @@ L’appel à des réunions est très utile lorsque des personnes sont en déplac
     
 - La personne a tenté de rejoindre une réunion Skype Entreprise et a échoué.
     
-- La qualité des appels est préférable si elles se connectent.
+- La qualité des appels est préférable si elles se connecter.
     
 - Les personnes peuvent participer à une réunion en mode mains libres à l'aide d'appareils Bluetooth.
     
-- Personnes trouvent qu’il est plus facile et pratique de leur situation.
+- Considèrent qu’il est plus facile et plus pratique pour leur situation.
     
-## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>Qui peut participer à une conférence Audio conférence ? Et qui entends ?
+## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>Qui peut participer à une réunion Conférence Audio ? Et qui entends ?
 
-Tout utilisateur disposant de l’accès à distance conférence et numéro ID peut joindre un Skype pour une réunion commerciale ou Teams de Microsoft, à moins que l’organisateur de la réunion a verrouillé la réunion.
+Toute personne ayant le rendez-vous conférence et le numéro d’ID peut participer à une Skype de réunion Microsoft Teams ou de l’entreprise, à moins que l’organisateur de la réunion a verrouillé la réunion.
   
-Si vous appelez à l’aide d’un téléphone ou le Skype pour les applications d’entreprise ou Teams de Microsoft, vous serez en mesure d’entendre tous les membres de l’appel, et ils peuvent vous entendre. L’organisateur de la réunion a la possibilité de « désactiver » participants à la réunion s’ils ne souhaitent pas les entendre. 
+Si vous appelez à l’aide d’un téléphone ou la Skype pour les applications Microsoft Teams ou de l’entreprise, vous serez en mesure d’entendre tous les membres de l’appel, et ils peuvent vous entendre. L’organisateur de la réunion a la possibilité de « désactiver » les participants à la réunion s’ils ne souhaitent pas entendre les. 
   
-## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>Puis-je ajouter un numéro gratuit pour les utilisateurs d’Audio conférence ?
+## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>Puis-je ajouter un numéro gratuit pour les utilisateurs de conférence Audio ?
 
-Oui, les numéros de téléphone (numéro de service) sont disponibles, mais uniquement dans certains pays ou certaines régions. Pour afficher la liste des numéros disponibles, allez [ici](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Oui, les numéros de téléphone (numéros de service) sont disponibles mais uniquement dans certains pays/régions. Pour afficher la liste des numéros disponibles, accédez [ici](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## <a name="how-many-local-dial-in-numbers-are-currently-supported"></a>Combien de numéros d'accès locaux sont pris en charge actuellement ?
 
-Il existe dans accès numéros locaux qui sont affectés lorsque vous achetez les licences pour les conférences Audio. Les numéros d'accès seront inclus dans l'invitation à la réunion. Ces numéros locaux seront spécifiques à votre organisation. Le téléphone attribué à votre organisation, et ce nombre est partagé par les utilisateurs au sein de cette organisation qui sont activés pour l’audioconférence. Par conséquent, Skype pour entreprise ou Teams de Microsoft réunions planifiées par l’utilisateur A et un autre utilisateur B se voient attribuer le même numéro d’accès à distance.
+Il existe des rendez-vous numéros locaux qui vous sont affectés lorsque vous achetez les licences pour une audioconférence. Les numéros d'accès seront inclus dans l'invitation à la réunion. Ces numéros locaux seront spécifiques à votre organisation. Le téléphone est attribué à votre organisation et ce numéro est partagé par les utilisateurs au sein de cette organisation qui sont activées pour une audioconférence. Par conséquent, Skype pour Microsoft Teams ou l’entreprise réunions planifiées par l’utilisateur A et un autre utilisateur B à la fois aura le même nombre de rendez-vous.
   
 Les numéros d'accès à distance et, dans certains cas, les numéros d'accès à distance internationaux à partir du pays ou de la région dans lequel se trouve votre organisation, seront inclus dans l'invitation à la réunion. Si l'organisateur d'une réunion utilise un autre numéro inclus dans l'invitation, il s'agira d'un numéro de téléphone partagé.
   
-## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-office-365-support"></a>Numéros d’accès internationales combien audioconférence dans Office 365 prend-il en charge ?
+## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-office-365-support"></a>Numéros de téléphone internationales combien conférence dans Office 365 ne prend en charge ?
 
-Pour connaître la liste des pays/régions, voir [numéros de téléphone pour les conférences Audio](phone-numbers-for-audio-conferencing.md).
+Pour obtenir la liste actuelle des pays/régions, voir [les numéros de téléphone pour une audioconférence](phone-numbers-for-audio-conferencing.md).
   
-## <a name="can-i-set-up-local-numbers-for-audio-conferencing-from-additional-cities-in-the-country"></a>Puis-je définir des numéros locaux pour les conférences Audio à partir d’autres villes du pays ?
+## <a name="can-i-set-up-local-numbers-for-audio-conferencing-from-additional-cities-in-the-country"></a>Puis-je configurer numéros locaux pour une audioconférence à partir d’autres villes du pays ?
 
-Si les numéros de téléphone pour les conférences Audio ne sont pas disponibles dans votre région, ou ne pas répondre aux besoins de votre entreprise, veuillez nous envoyer vos commentaires sur [les forums de SkypeFeedback](http://www.skypefeedback.com/forums/299910--preview/category/119971-pstn-conferencing).
+Si les numéros de téléphone pour une audioconférence ne sont pas disponibles dans votre région ou ne pas répondre aux besoins de votre organisation, envoyez-nous vos commentaires à [SkypeFeedback forums](http://www.skypefeedback.com/forums/299910--preview/category/119971-pstn-conferencing).
   
-## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>Quelle est la longueur maximale des réunions Audio conférence ?
+## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>Quelle est la longueur maximale des réunions de conférence Audio ?
 
 La durée maximale dépend des participants à la réunion et du type d'authentification utilisé pour participer à la réunion.
   
 |**Participants à la réunion**|**Heure de fin de la réunion**|
 |:-----|:-----|
-|Il existe des utilisateurs qui ont rejoint la Skype sur des application métier ou Teams de Microsoft ou ont appelé à la réunion.  <br/> |La réunion est terminée si aucune modification n'est apportée à la liste des participants après 24 heures.  <br/> |
+|Il existe des utilisateurs qui rejoignent à l’aide de la Skype pour l’application Microsoft Teams ou de l’entreprise ou affichent connectés à la réunion.  <br/> |La réunion est terminée si aucune modification n'est apportée à la liste des participants après 24 heures.  <br/> |
 |Tous les utilisateurs ont accédé à la réunion, mais une personne a utilisé un code confidentiel pour y assister.  <br/> |La réunion se termine après 24 heures.  <br/> |
-|Tous les utilisateurs sont vraiment au point à la réunion mais il n’était pas toute personne ayant utilisé un code confidentiel pour l’accès à la réunion.  <br/> |La réunion se termine après 4 heures.  <br/> |
+|Tous les utilisateurs sont connectés à la réunion, mais il n’était pas toute personne qui a utilisé un code confidentiel pour l’accès à la réunion.  <br/> |La réunion se termine après 4 heures.  <br/> |
    
-## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>Combien de participants total téléphone est-il aux réunions ?
+## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>Combien de participants téléphone total puis-je avoir dans les réunions ?
 
-Conférence audio permet jusqu'à 250 participants de téléphone.
+Services d’audioconférence permet jusqu'à 250 participants téléphone.
   
 Pour plus d'informations, reportez-vous à la rubrique [Limites de Skype Entreprise Online](https://technet.microsoft.com/en-us/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
   
-## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>Pourquoi les utilisateurs commencer à recevoir des e-mails avec leurs informations d’audioconférence ?
+## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>Pourquoi les utilisateurs commencer à recevoir des messages électroniques avec leurs informations de conférence Audio ?
 
-Nous avons ajouté une nouvelle fonctionnalité qui vous permet, l' [administration](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), d’envoyer et de mettre à jour les informations d’audioconférence et le code confidentiel de messagerie. Pour plus d'informations à ce sujet, dont des informations sur la désactivation, reportez-vous à la rubrique [Activer ou désactiver l'envoi de messages électroniques lorsque modifient les paramètres de conférence Audio](enable-or-disable-sending-emails-when-their-settings-change.md).
+Nous avons ajouté une nouvelle fonctionnalité qui vous permet de, l' [administrateur](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), d’envoyer et de mettre à jour les informations de conférence Audio et le code confidentiel dans le message électronique. Pour plus d'informations à ce sujet, dont des informations sur la désactivation, reportez-vous à la rubrique [Activer ou désactiver l'envoi de messages électroniques lorsque modifient les paramètres de conférence Audio](enable-or-disable-sending-emails-when-their-settings-change.md).
   
-## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server-2015"></a>Audioconférence peut être utilisé par les utilisateurs qui font partie d’un déploiement sur site de Skype pour 2015 de serveur d’entreprise ?
+## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server-2015"></a>Audioconférence peut être utilisé par les utilisateurs qui font partie d’un déploiement local de Skype pour Business Server 2015 ?
 
-Ce n'est pas encore le cas. Toutefois, vous pouvez continuer à utiliser la conférence audio disponible dans Skype pour Business Server 2015 avec une passerelle RTPC pour vos utilisateurs sur site. 
+Ce n'est pas encore le cas. Toutefois, vous pouvez continuer à utiliser les services d’audioconférence qui est disponible dans Skype pour Business Server 2015 avec une passerelle PSTN pour vos utilisateurs locaux. 
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>Un utilisateur peut-il obtenir un ID de conférence personnel ?
 
-Skype pour les utilisateurs professionnels et Teams de Microsoft sera affecté au hasard ID de conférence et ne peuvent pas réserver ou définir un ID de conférence statiques seulement ils peuvent utiliser. 
+Skype pour les utilisateurs professionnels et Microsoft Teams sera attribué au hasard ID de conférence et ne peuvent pas réserver ou définir un ID de conférence statique seulement ils peuvent utiliser. 
   
-## <a name="can-i-use-audio-conferencing-with-skype-meeting-broadcast"></a>Puis-je utiliser Audio conférence avec Skype diffusion de réunion ?
+## <a name="can-i-use-audio-conferencing-with-skype-meeting-broadcast"></a>Puis-je utiliser conférence Audio avec Skype de diffusion réunion ?
 
-Il n’existe pas de prise en charge actuellement les utilisateurs activés pour la conférence Audio joindre une diffusion de réunion Skype.
+Il n’est pas prise en charge actuellement pour les utilisateurs activés pour une audioconférence à participer à une réunion Skype de diffusion.
   
 ## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>Un utilisateur peut-il se faire aider par un opérateur pendant une réunion ?
 
-Non, l'utilisateur ne peut pas se faire aider en appuyant sur *0 pendant la réunion. S’il existe des problèmes avec audioconférence, un administrateur d’une organisation peut contacter le [support technique de Microsoft pour Office 365](https://support.office.com/en-us/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+Non, l'utilisateur ne peut pas se faire aider en appuyant sur *0 pendant la réunion. S’il existe des problèmes liés à la conférence, un administrateur d’une organisation peut contacter [Microsoft prend en charge pour Office 365](https://support.office.com/en-us/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
 ## <a name="how-does-a-user-access-or-change-their-conference-id"></a>Comment un utilisateur accède-t-il à son ID de conférence et comment le modifie-t-il ?
 
-Un Skype pour l’utilisateur professionnel ou Microsoft Teams pouvez trouver l’ID de conférence qui leur est assignée par la planification d’une réunion dans Outlook et Outlook sur le web. En outre, les utilisateurs peuvent trouver l’ID de conférence dans le courrier électronique qui sera envoyé leur une fois qu’ils sont configurés.
+Un Skype pour utilisateur Teams Microsoft ou de l’entreprise peut rechercher l’ID de conférence qui leur est attribuée à la planification d’une réunion dans Outlook et Outlook sur le web. En outre, les utilisateurs peuvent trouver l’ID de conférence dans le courrier électronique qui sera envoyé leur une fois qu’ils sont configurés.
   
 > [!NOTE]
-> Les utilisateurs ne pourront pas réinitialiser leur ID de conférence. L’ID de conférence seulement peut être réinitialisé que par vous, l' [administrateur](https://support.office.com/en-us/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504)de l’organisation. 
+> Les utilisateurs ne pourront pas réinitialiser leur ID de conférence. L’ID de conférence ne peut être redéfini par vous-même, l' [administrateur](https://support.office.com/en-us/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504)de l’organisation. 
   
-Nous travaillons à une solution qui permettent l’accès utilisateur et réinitialiser un ID de conférence sans l’aide de l’administration. d’une organisation
+Nous effectuons travaillant sur une solution qui permettent d’accéder à l’utilisateur et réinitialiser un ID de conférence sans l’aide de l’administration. d’une organisation
   
 ## <a name="how-does-a-user-access-or-change-hisher-pin"></a>Comment un utilisateur accède-t-il à son code confidentiel et comment le modifie-t-il ?
 
-Le Skype pour l’utilisateur professionnel ou Teams de Microsoft pour obtenir le code confidentiel un e-mail qui sera envoyé à eux une fois qu’ils sont configurés.
+Le Skype pour utilisateur Teams Microsoft ou de l’entreprise peut rechercher le code confidentiel dans un message électronique qui sera envoyé leur une fois qu’ils sont définis.
   
 > [!NOTE]
-> Un Skype pour l’utilisateur professionnel ou Teams de Microsoft ne sera pas en mesure de réinitialiser son code PIN. Le code confidentiel peut être redéfini uniquement par vous, et l’administrateur. Lorsqu’un code confidentiel est réinitialisé, un e-mail est envoyé à l’utilisateur. 
+> Un Skype pour utilisateur Teams Microsoft ou de l’entreprise sera en mesure de réinitialiser leur code confidentiel. Le code confidentiel ne peut être redéfini par vous-même, l’administrateur. Lorsqu’un code confidentiel est réinitialisé, un message électronique est envoyé à l’utilisateur. 
   
-Nous travaillons à une solution qui permettent l’accès utilisateur et réinitialiser le code PIN sans l’aide de l’administrateur d’une organisation.
+Nous effectuons travaillant sur une solution qui permettent d’accéder à l’utilisateur et réinitialiser un code confidentiel sans l’aide de l’administrateur d’une organisation.
   
 ## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>Quelles sont les commandes du clavier numérique prises en charge ?
 
@@ -131,21 +130,21 @@ Nous travaillons à une solution qui permettent l’accès utilisateur et réini
     
 - * 1 (lit les descriptions des commandes pavé de numérotation disponibles) 
     
-## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>Peuvent participants appels sortants aux numéros de téléphone internationaux lorsqu’ils sont dans un Skype pour une réunion commerciale ou Teams de Microsoft ?
+## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>Peuvent participants appeler des numéros de téléphone international lorsqu’ils sont dans un Skype de réunion Microsoft Teams ou de l’entreprise ?
 
-Oui, les participants peuvent numéroter sur le plan international et inviter d’autres appelants dans un Skype pour une réunion commerciale ou Teams de Microsoft. Consultez la rubrique [Utilisation d'un appel sortant pour permettre à d'autres personnes de participer à une conférence](dialing-out-from-a-meeting-so-other-people-can-join-it.md).
+Oui, les participants peuvent numéroter international et inviter d’autres appelants dans un Skype de réunion Microsoft Teams ou de l’entreprise. Consultez la rubrique [Utilisation d'un appel sortant pour permettre à d'autres personnes de participer à une conférence](dialing-out-from-a-meeting-so-other-people-can-join-it.md).
   
-## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>Comment un Skype pour l’utilisateur professionnel ou Teams de Microsoft planifie une réunion avec les détails de la réunion de la conférence de l’Audio ?
+## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>Comment un Skype pour utilisateur Teams Microsoft ou de l’entreprise planifier une réunion avec les détails de la réunion de la conférence Audio ?
 
-Lorsqu’un utilisateur se voit attribuer une licence **d’Audioconférence** et que l’utilisateur crée un nouveau Skype pour une réunion commerciale ou Teams de Microsoft Outlook ou d’Outlook sur le web, les numéros de téléphone et l’ID de conférence sont ajoutés en automatiquement à l’invitation à une réunion.
+Lorsqu’un utilisateur est affecté à une licence de **Conférence Audio** et l’utilisateur crée un nouveau Skype de réunion Microsoft Teams ou de l’entreprise dans Outlook ou Outlook sur le web, les numéros de téléphone et l’ID de conférence est ajoutés en automatiquement à l’invitation à la réunion.
   
 ## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>Comment un utilisateur planifie-t-il et commence-t-il une réunion lorsque tous les participants utilisent un téléphone pour se connecter ?
 
-Planification d’une réunion qui est joints par tous les participants à l’aide d’un téléphone à accès à distance n’est pas différente de la planification d’une réunion en ligne régulière. Toutefois, il existe des deux méthodes pour démarrer une réunion à laquelle tous les participants utilisent un téléphone à distance en :
+Planification d’une réunion qui est connectée à tous les participants à l’aide d’un téléphone rendez-vous n’est pas différente de la planification d’une réunion en ligne régulière. Toutefois, il existe deux façons de démarrer une réunion à laquelle tous les participants utilisent un téléphone à distance en :
 
-- **Option 1**: par défaut, si l’organisateur de la réunion et à tous les participants à une réunion à l’aide d’un téléphone, Rejoignez l’organisateur de la réunion doit entrer son Audio conférence code confidentiel pour le démarrer. Appelants obtenir demandés s’il souhaite s’authentifier comme organisateur d’une réunion donnée lorsqu’ils composer le numéro de téléphone de la réunion en ligne. Tous les participants qui joignent la réunion par le biais d’accès à distance avant le démarrage de la bibliothèque multimédia est placé dans la salle d’attente et écoute de la musique sur Maintenez. L’organisateur a commencé en saisissant son PIN de conférence Audio, tous les participants en salle d’attente va automatiquement joindre la réunion.
+- **Option 1**: par défaut, si l’organisateur de la réunion et tous les participants sont à une réunion à l’aide d’un téléphone, l’organisateur de la réunion doit saisir son son code confidentiel de conférence pour le démarrer. Les appelants obtient demandés s’il souhaite s’authentifier en tant que l’organisateur d’une réunion donnée lorsqu’ils composer le numéro de téléphone d’une réunion en ligne. Tous les participants qui rejoignent la réunion via le rendez-vous avant le démarrage de l’organisateur est placé dans la salle d’attente et écoutera une musique en attente. Une fois que l’organisateur démarre en saisissant son code confidentiel Audio conférence, tous les participants dans la salle d’attente seront automatiquement joindre la réunion.
 
-- **Option 2**: si le paramètre « Autoriser non authentifié aux appelants d’être les premiers dans une réunion » (désactivé par défaut) est activé pour un organisateur de donnée, puis toutes les conférences planifiées par l’utilisateur ne pourront pas être démarré sans avoir l’organisateur d’entrée est ou son code PIN de la conférence Audio. Lorsque ce paramètre est activé, la réunion commence dès que le premier participant joint via un numéro de téléphone et qu’il ne seront pas placé dans la salle d’attente. Pour plus d’informations, consultez [audioconférence de gérer les paramètres d’un utilisateur](manage-the-audio-conferencing-settings-for-a-user.md)
+- **Option 2**: si le paramètre « Autoriser non authentifié les appelants sont les premiers à une réunion » (désactivé par défaut) est activé pour un organisateur donné, puis toutes les réunions planifiées par l’utilisateur pourra être démarré sans devoir l’organisateur d’entrée est ou son code confidentiel de conférence Audio. Lorsque ce paramètre est activé, la réunion démarre dès que le premier participant joint via un numéro de téléphone et qu’il n’est pas placée dans la salle d’attente. Pour plus d’informations, consultez [conférence gérer les paramètres pour un utilisateur](manage-the-audio-conferencing-settings-for-a-user.md)
    
 ## <a name="related-topics"></a>Rubriques connexes
 

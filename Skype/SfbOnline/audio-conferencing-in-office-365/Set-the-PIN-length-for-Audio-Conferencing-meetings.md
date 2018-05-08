@@ -1,5 +1,5 @@
 ---
-title: Définir la longueur du code confidentiel pour les réunions de la conférence de l’Audio
+title: Définir la longueur du code confidentiel pour les réunions de conférence Audio
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,50 +15,52 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: b20e782955b946f676cca5221f63b06cdd4d1be1
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 318e24bf30563d0a790584f9c1ccceb01d93c793
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>Définir la longueur du code confidentiel pour les réunions de la conférence de l’Audio
+# <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>Définir la longueur du code confidentiel pour les réunions de conférence Audio
 
-Lorsque vous configurez audioconférence pour Skype pour entreprise ou Teams de Microsoft, vous obtenez un pont de conférence audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone. Le numéro de téléphone que vous avez figurera sur les invitations réunion pour Skype pour les applications d’entreprise et Teams de Microsoft.
+Lorsque vous configurez des services d’audioconférence pour Skype pour Microsoft Teams ou de l’entreprise, vous obtiendrez un pont de conférence audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone. Le numéro de téléphone que vous avez sera inclus dans les invitations de réunion Skype pour les applications métiers et Teams Microsoft.
   
-Le pont de conférence audio répond à un appel pour les personnes qui sont connectent à une réunion à l’aide d’un téléphone. Elle répond à l’appelant avec des invites vocales d’une surveillance automatique, puis, en fonction de vos paramètres, peut lire les notifications et demandez aux appelants d’enregistrer leur nom. **Paramètres du pont Microsoft** vous autorise à modifier les paramètres pour les notifications de réunion et la réunion de joindre l’expérience et de définir la longueur des broches qui sont utilisés par les organisateurs de la réunion. Les organisateurs de la réunion utilisent broches pour démarrer les réunions si elles ne peuvent pas joindre la réunion à l’aide de la Skype pour application métier ou Teams de Microsoft.
+Le pont de conférence audio répond à un appel pour les personnes qui sont connectent à une réunion à l’aide d’un téléphone. Il répond à l’appelant à invites vocales à partir d’un standard automatique, puis, en fonction de vos paramètres, peut lire des notifications et poser aux appelants à enregistrer leur nom. **Paramètres de pont de Microsoft** permettent de modifier les paramètres des notifications de réunion et la réunion expérience de participation aux et définir la longueur des codes confidentiels qui sont utilisés par les organisateurs de réunion. Organisateurs de réunion utilisent broches pour démarrer les réunions si elles ne peuvent pas participer à la réunion à l’aide de la Skype pour l’application Microsoft Teams ou de l’entreprise.
   
 ## <a name="setting-the-pin-length"></a>Définir la longueur du code confidentiel
 
-**À l’aide de Skype les équipes Microsoft pour Business Admin Center**
+![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
 
-1. Dans la navigation de gauche, accédez à des **réunions** > **Les ponts de conférence**. 
+1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**. 
 
 2. En haut de la page de **Ponts de conférence** , cliquez sur **Paramètres du pont**. 
 
-3. Dans le volet **paramètres du pont** , sous **longueur de l’axe**, sélectionnez le nombre de chiffres que vous souhaitez pour le code confidentiel.
+3. Dans le volet **paramètres du pont** , sous **longueur du code confidentiel**, sélectionnez le nombre de chiffres que vous voulez pour le code confidentiel.
 
 4. Cliquez sur **Appliquer**.
 
-Le Centre d'administration Skype Entreprise ou Windows PowerShell permet d'activer ou de désactiver l'envoi de courrier électronique aux utilisateurs.
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
  
-1. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **paramètres de pont de Microsoft**.
+1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **paramètres de pont de Microsoft**.
     
-2. Sous **sécurité** > **longueur de broche**, sélectionnez le nombre de chiffres que vous souhaitez pour le code confidentiel, puis cliquez sur **Enregistrer**.
+2. Sous **sécurité** > **longueur du code confidentiel**, sélectionnez le nombre de chiffres pour le code confidentiel, puis cliquez sur **Enregistrer**.
     
 > [!NOTE]
 > Un code confidentiel est différent d'un ID de conférence. Les ID de conférence sont utilisés par les appelants lorsqu'ils rejoignent la réunion. Ils permettent d'identifier la réunion. Le code confidentiel est utilisé pour authentifier un appelant en tant qu'organisateur de la réunion. 
-  
-## <a name="want-to-know-more-about-pin-settings"></a>Vous souhaitez en savoir plus sur les paramètres de code PIN ?
 
-- Codes personnels peut être de 4 à 12 chiffres ; la valeur par défaut est 5. Seuls des chiffres doivent être utilisés lors de la création de codes confidentiels. Les lettres et les caractères spéciaux ne sont pas autorisés.
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+  
+## <a name="want-to-know-more-about-pin-settings"></a>Vous souhaitez en savoir plus sur les paramètres de code confidentiel ?
+
+- Codes confidentiels peuvent être de 4 à 12 chiffres ; la valeur par défaut est 5. Seuls des chiffres doivent être utilisés lors de la création de codes confidentiels. Les lettres et les caractères spéciaux ne sont pas autorisés.
     
-- Un code PIN n’est requis pour la réunion lorsqu’un Skype pour l’utilisateur professionnel ou Teams de Microsoft n’a pas déjà commencée. Si tout le monde compose un numéro pour accéder à la réunion, le code confidentiel est nécessaire pour que l'organisateur puisse commencer la réunion.
+- Un code confidentiel est uniquement requis pour l’organisateur lorsqu’une Skype pour utilisateur Teams Microsoft ou de l’entreprise n’a pas déjà démarré la réunion. Si tout le monde compose un numéro pour accéder à la réunion, le code confidentiel est nécessaire pour que l'organisateur puisse commencer la réunion.
     
 - Les paramètres de sécurité de code confidentiel sont appliqués à tous les numéros de téléphone associés à un pont Microsoft. Ils sont appliqués à toutes les réunions qui utilisent les numéros de téléphone associés à un pont spécifique. 
     
@@ -74,7 +76,7 @@ Le Centre d'administration Skype Entreprise ou Windows PowerShell permet d'activ
     
   - [Six raisons d'utiliser Windows PowerShell pour gérer Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell offre de nombreux avantages de vitesse, de simplicité et de productivité sur uniquement en utilisant le centre d’administration d’Office 365, par exemple lorsque vous devez apporter des modifications de paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell présente de nombreux avantages dans vitesse, la simplicité et la productivité sur qu’à l’aide du centre d’administration Office 365, tels que lorsque vous modifiez les paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

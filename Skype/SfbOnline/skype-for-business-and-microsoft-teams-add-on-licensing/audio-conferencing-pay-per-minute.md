@@ -1,5 +1,5 @@
 ---
-title: Audio conférence paie par minute
+title: Audio conférence salaire par minute
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,55 +15,54 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
-description: Outre la licence par utilisateur Audio conférence standard, les organisations de Volume et de la gestion des licences peuvent choisir une offre de la paie par minute pour activer les fonctionnalités d’audioconférence pour leurs organisations.
-ms.openlocfilehash: 6e6db248d897081ff2858a384f3a27e9b6324488
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: En plus de la licence utilisateur standard de conférence Audio en Volume et la gestion des licences des organisations peuvent également choisir une offre de salaire par minute pour activer les fonctionnalités de conférence Audio pour leurs organisations.
+ms.openlocfilehash: 7b3d8bca026c9dbb46c62f6f7d80d4dba486581d
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="audio-conferencing-pay-per-minute"></a>Audio conférence paie par minute
+# <a name="audio-conferencing-pay-per-minute"></a>Audio conférence salaire par minute
 
-Outre la licence par utilisateur Audio conférence standard, les organisations de Volume et de la gestion des licences peuvent choisir une offre de la paie par minute pour activer les fonctionnalités d’audioconférence pour leurs organisations.
+En plus de la licence utilisateur standard de conférence Audio en Volume et la gestion des licences des organisations peuvent également choisir une offre de salaire par minute pour activer les fonctionnalités de conférence Audio pour leurs organisations.
   
 
-Vous pouvez savoir si votre [pays/région est pris en charge](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) pour les conférences Audio.
+Vous pouvez déterminer si votre [pays/région est pris en charge](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) pour une audioconférence.
 
   
 > [!NOTE]
-> Étant donné que cette offre est disponible uniquement pour les clients de Volume et de la gestion des licences, vous devez travailler avec votre responsable de compte pour acquérir des licences. 
+> Étant donné que cette offre est uniquement disponible pour les clients en Volume et la gestion des licences, vous devez travailler avec votre représentant d’acquérir des licences. 
   
-## <a name="need-some-details"></a>Vous avez besoin de plus d’informations ?
+## <a name="need-some-details"></a>Besoin de plus d’informations ?
 
-Tandis que l’offre de licence par utilisateur audioconférence inclut l’accès à distance de l’utilisation et des appels sortants, audioconférence paie par minute **vous permet de payer pour l’ensemble de l’utilisation de l’Audio conférence sur une base par minute sans payer chaque mois pour un utilisateur licence**. Avec cette option, tous les appels d’accès à distance et d’appel sortant seront facturés sur une base par minute, y compris :
+Tandis que l’offre de licence utilisateur conférence inclut des rendez-vous et certaines utilisation des appels sortants, audioconférence salaire par minute **vous permet de régler toutes votre utilisation de la conférence Audio sur une base par minute sans payer chaque mois pour un utilisateur licence**. Dans ce cas, tous les appels entrant entrants et sortants seront verront sur une base par minute, y compris :
   
-- Appels entrants à payant numéros d’audioconférence de votre organisation.
+- Appels entrants payant numéros de conférence Audio de votre organisation.
     
-- Appels entrants aux numéros d’appel gratuits audioconférence de votre organisation.
+- Appels entrants vers des numéros de conférence Audio gratuits de votre organisation.
     
-- Appels sortants placés à des numéros de téléphone externe d’une réunion de votre organisation.
+- Appels sortants passés aux numéros de téléphone externe à partir d’une réunion de votre organisation.
     
 > [!NOTE]
-> Vous pouvez trouver les taux d’accès à distance et les appels sortants associés à ces types d’appels en passant en revue le **Voir taux à laquelle vous voulez appeler la section** dans [l’Audioconférence](https://products.office.com/en-us/skype-for-business/pstn-conferencing). 
+> Vous pouvez trouver les taux de rendez-vous entrants et sortants associés à ces types d’appels en examinant le **Voir taux pour où vous voulez appeler section** conférence [Audio](https://products.office.com/en-us/skype-for-business/pstn-conferencing). 
   
-Payer par minute requiert votre organisation pour que les [Crédits de Communications](what-are-communications-credits.md) activé avec une licence attribuée à chaque utilisateur dans l’ordre pour les conférences Audio fonctionne. Si vous souhaitez plus de détails, reportez-vous à la section [Skype pour les professionnels et les équipes Microsoft complémentaire licences](skype-for-business-and-microsoft-teams-add-on-licensing.md)et/ou de [configurer les crédits de Communications pour votre organisation](set-up-communications-credits-for-your-organization.md) .
+Salaire par minute requiert votre organisation pour que les [Communications crédits](what-are-communications-credits.md) activé avec une licence attribuée à chaque utilisateur dans l’ordre pour une audioconférence à utiliser. Si vous souhaitez plus d’informations, voir [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md) et/ou [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-Pour activer la paie par minute Audio conférence pour les utilisateurs de votre organisation, voir [Essayez ou achetez audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).
+Pour activer la conférence Audio de salaire par minute pour les utilisateurs de votre organisation, voir [essayer ou acheter conférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).
   
-## <a name="want-to-find-out-more-about-pricing"></a>Vous souhaitez en savoir plus sur la tarification ?
+## <a name="want-to-find-out-more-about-pricing"></a>Vous souhaitez en savoir plus sur les tarifs ?
 
- **La recherche de prix ?** Voir [comment consulter les prix et acheter des licences supplémentaires](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) ou une des opérations suivantes :
+ **Vous recherchez des prix ?** Voir [comment consulter les prix et acheter des licences supplémentaires](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) ou une des options suivantes :
   
 - [Tarifs pour l'audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
     
 - [Tarifs pour le système téléphonique](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
     
-- [Tarification des Plans d’appel](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
+- [Pour appeler des Plans de tarification](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>Rubriques connexes
   

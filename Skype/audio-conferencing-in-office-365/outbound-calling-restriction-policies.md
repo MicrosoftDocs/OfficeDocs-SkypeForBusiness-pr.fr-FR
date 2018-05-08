@@ -3,24 +3,24 @@ title: Stratégies de restriction appel sortant pour les appels PSTN utilisateur
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
+ms.date: 2/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
+- Strat_SB_PSTN
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler le type d’appels audio d’utilisateur final et de conférence PSTN qui peuvent être effectuées par les utilisateurs.
-ms.openlocfilehash: 2929198a8bfff866f0d9f6d375593cd429885b2e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ae6039f967b95ebd0c5934105f4e6fb044e431b4
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction appel sortant pour les appels PSTN utilisateur et de conférence Audio
 
@@ -37,36 +37,19 @@ Contrôles d’appel sortant peuvent être appliquées par utilisateur et fourni
    > Un appel est déterminé à l’intérieur si le numéro de téléphone appelé se trouve dans le même pays que celui qui a été défini dans Office 365 pour l’organisateur de la réunion (dans le cas des services d’audioconférence) ou de l’utilisateur final (dans le cas d’utilisateurs finaux des appels PSTN). 
 
 
-## <a name="restrict-audio-conferencing-outbound-calls"></a>Restreindre les appels sortants de services d’audioconférence 
+## <a name="restrict-audio-conferencing-outbound-calls-using-the-skype-for-business-admin-center"></a>Restreindre les appels sortants de conférence audio à l’aide de la Skype entreprise centre d’administration 
 
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
 
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
-
-2. En haut de la page, cliquez sur **Modifier**.
-
-3. Cliquez sur le menu en regard de **Ponts de conférence**, puis cliquez sur **Modifier** dans la liste déroulante.
-
-4. Dans le volet de **fournisseur de pont de conférence** , sous **Restrictions de numérotation issus de réunions de cet utilisateur**, sélectionnez l’option de restriction d’appel sortant.
-
-5. Cliquez sur **Appliquer**. 
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
-
-1.  Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **les utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
-
-2.  Dans le volet Action, cliquez sur **Modifier**.
-
-3.  Sous **Restrictions de numérotation issus de réunions de cet utilisateur**, sélectionnez l’option de restriction d’appel sortant.
+1.  Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2.  Dans la Skype pour la navigation de gauche, du centre d’administration Business, accédez à la **conférence Audio** > **les utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+3.  Dans le volet Action, cliquez sur **Modifier**.
+4.  Sous **Restrictions de numérotation issus de réunions de cet utilisateur**, sélectionnez l’option de restriction d’appel sortant.
 
     ![Les Restrictions sur les options de numérotation-outs](../images/restrictions-to-dial-outs.png)
 
 5. Cliquez sur **Enregistrer**.
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
-**À l’aide de PowerShell**
+## <a name="restrict-audio-conferencing-and-end-user-outbound-calls-using-powershell"></a>Restreindre l’audio conférence et utilisateur final les appels sortants à l’aide de PowerShell
 
 Restrictions des appels sortants sont contrôlées par une seule stratégie appelée OnlineDialOutPolicy qui possède un attribut de restriction pour chacun. La stratégie ne peuvent pas être personnalisée, au lieu de cela, il existe des instances de stratégie prédéfinies pour chaque combinaison des paramètres. 
 

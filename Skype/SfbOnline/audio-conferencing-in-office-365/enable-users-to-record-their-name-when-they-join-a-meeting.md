@@ -15,60 +15,62 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable whether your users can record their names when they join a meeting '
-ms.openlocfilehash: a90eebdc0d75b96feeac94b07333fed47756478b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: e183b133339022c9cfbdb58756584efb9b455550
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils participent à une réunion
 
-Lorsque vous configurez une conférence Audio dans Office 365, vous recevrez les numéros de téléphone et ce que l'on appelle un pont de téléconférence audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone qui peuvent être dédiés ou partagés.
+Lorsque vous configurez les services d’audioconférence dans Office 365, vous recevrez des numéros de téléphone et ce que l'on appelle un pont de conférence audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone qui peuvent être dédiés ou partagés.
   
-Le pont de conférence répond à un appel d’un utilisateur qui appelle à une réunion à l’aide d’un téléphone. Le pont de conférence répond à l’appelant avec des invites vocales de surveillance automatique et ensuite, en fonction de leurs paramètres, peut lire les notifications, demandez aux appelants d’enregistrer leur nom et de la sécurité du code PIN pour les organisateurs de la réunion. Les broches sont donnés aux organisateurs des réunions pour pouvoir démarrer une réunion. Toutefois, vous pouvez configurer un code confidentiel n’est pas requis pour démarrer une réunion.
+Le pont de conférence répond à un appel d’un utilisateur qui est qui se connectent à une réunion à l’aide d’un téléphone. Le pont de conférence répond à l’appelant à invites vocales à partir d’un standard automatique et, en fonction de leurs paramètres, peut diffuser les notifications, poser aux appelants à enregistrer leur nom et configurer la sécurité du code confidentiel pour les organisateurs de réunions. Codes confidentiels accordées aux organisateurs de réunions pour pouvoir démarrer une réunion. Toutefois, vous pouvez configurer il afin d’un code confidentiel n’est pas nécessaire pour démarrer une réunion.
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Définir si les appelants doivent enregistrer leur nom
 
-**À l’aide de Skype les équipes Microsoft pour Business Admin Center**
+![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
 
-1. Dans la navigation de gauche, accédez à des **réunions** > **Les ponts de conférence**. 
+1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**. 
 
 2. En haut de la page de **Ponts de conférence** , cliquez sur **Paramètres du pont**. 
 
-3. Activer ou désactiver **Activer l’accès à la réunion et de quitter des notifications pour être activée**.
+3. Activer ou désactiver **Activer l’accès à la réunion et quitter notifications être activée**.
 
 4. Cliquez sur **Appliquer**.
 
 
-**À l’aide de la Skype pour entreprise Admin Center**
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
     
-1. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **paramètres de pont de Microsoft**.
+1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **paramètres de pont de Microsoft**.
     
-2. Sous **l’expérience de jointure de la réunion**, consultez la case à cocher intitulée **Activer l’accès à la réunion et de quitter des notifications pour être activée**.
+2. Sous **l’expérience de participation aux réunions**, voir la case à cocher **Activer l’accès à la réunion et quitter des notifications à être activée**.
     
-  - **Sélectionné** Vous demandera d’appelants pour enregistrer leur nom avant leur entrée à la réunion. Cette fonctionnalité est sélectionnée par défaut.
+  - **Sélectionné** Les appelants seront invités à enregistrer leur nom avant leur accès à la réunion. Cette fonctionnalité est sélectionnée par défaut.
     
-  - **Désactivée** Les appelants ne seront pas invités à enregistrer leur nom avant leur entrée à la réunion.
+  - **Désactivée** Les appelants ne sont pas invités à enregistrer leur nom avant leur accès à la réunion.
     
 3. Une fois que vous avez effectué vos modifications, cliquez sur **Enregistrer**.
     
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
 - Pour gagner du temps ou automatiser le processus, vous pouvez utiliser l'applet de commande [Set-CsOnlineDialInConferencingTenantSettings ](https://go.microsoft.com/fwlink/?LinkId=715757).
     
--  Windows PowerShell est la gestion des utilisateurs et les utilisateurs sont autorisés à faire. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+-  Windows PowerShell est axé sur la gestion des utilisateurs et les utilisateurs sont autorisés à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
   - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
   - [Six raisons d'utiliser Windows PowerShell pour gérer Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell offre de nombreux avantages de vitesse, de simplicité et de productivité, plutôt seulement le centre d’administration d’Office 365, par exemple lorsque vous devez apporter des modifications de paramètre pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell présente de nombreux avantages dans vitesse, la simplicité et la productivité sur qu’à l’aide du centre d’administration Office 365, tels que lorsque vous devez apporter des modifications de paramètre pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

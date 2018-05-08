@@ -15,21 +15,20 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
-ms.openlocfilehash: 45d6f13075eec16e2dc02ae44367ef5837a82599
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 15759564735ba7710a00cbe377681a40d3531b9b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer des plans de numérotation
 
-Après avoir planifié les plans de numérotation de votre organisation et deviné toutes les règles de normalisation qui doivent être créées pour le routage d’appel, vous devez utiliser Windows PowerShell pour créer des plans de numérotation et d’apporter des modifications aux paramètres.
+Après avoir planifié les plans de numérotation pour votre organisation et trouvé toutes les règles de normalisation qui doivent être créés pour le routage des appels, vous devrez utiliser Windows PowerShell pour créer des plans de numérotation et apportez des modifications de configuration.
   
 > [!NOTE]
 > Vous ne pouvez pas utiliser le Centre d'administration de Skype Entreprise pour créer et gérer des plans de numérotation. 
@@ -65,7 +64,7 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
     Import-PSSession $session
   ```
 
-Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [connexion à Skype pour entreprise en ligne à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Connecting to Skype pour Business Online à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 ## <a name="creating-and-managing-your-dial-plans"></a>Création et gestion de vos plans de numérotation
 
@@ -151,7 +150,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
 ```
 
-Exécutez la commande suivante lorsque vous souhaitez examiner également les règles de normalisation existant et déterminer celle que vous souhaitez supprimer puis utiliser son index à supprimer. Le tableau des règles de normalisation commence par l’index 0. Nous souhaitons supprimer la règle de normalisation de 3 chiffres, pour qu’elle soit l’index 1.
+Exécutez ce qui suit lorsque vous souhaitez examiner également les règles de normalisation existante, déterminez celui que vous souhaitez supprimer, puis utilisez son index pour le supprimer. Le tableau des règles de normalisation commence par index 0. Nous aimerions supprimer la règle de normalisation 3 chiffres, pour qu’elle soit index 1.
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -177,9 +176,9 @@ Exécutez l'élément suivant pour rechercher tous les utilisateurs disposant d'
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Exécutez l'élément suivant pour ajouter le plan de numérotation local nommé OPDP1 comme plan de numérotation client pour votre organisation. Vous devez tout d’abord enregistrer les locaux plan vers un fichier .xml d’appel et puis l’utiliser pour créer le nouveau plan de numérotation des clients.
+Exécutez l'élément suivant pour ajouter le plan de numérotation local nommé OPDP1 comme plan de numérotation client pour votre organisation. Vous devez tout d’abord enregistrer l’environnement local de numérotation de plan vers un fichier .xml, puis l’utiliser pour créer le plan de numérotation client.
   
-Exécutez cette macro pour enregistrer le plan d’appel local dans le fichier .xml.
+Exécutez cette macro pour enregistrer le plan de numérotation local dans le fichier .xml.
   
 ```
 $DPName = "OPDP1"

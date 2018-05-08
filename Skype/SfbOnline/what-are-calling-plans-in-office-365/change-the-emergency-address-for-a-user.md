@@ -15,23 +15,22 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 'See steps on how to change the emergency address for a user to work with the Public Switched Telephone Network (PSTN) in the US and Europe. '
-ms.openlocfilehash: fc5976a2701b174ecbfcbcbb32f278debe7c68f2
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 8ea0263cb6304dd9c0b7edf44f60b12d8db7a29a
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>Modification de l'adresse d'urgence d'un utilisateur
 
-Lorsque vous configurez l’appel de Plans dans Office 365, vous devez attribuer une adresse d’urgence à chaque numéro de téléphone ou d’un utilisateur. Dans les pays européens, l’adresse d’urgence est associé au numéro de téléphone lorsque vous le récupérez à partir d’Office 365, ou lorsque vous transférez un numéro de téléphone sur vers Office 365. Aux États-Unis, l’adresse d’urgence est associé au numéro de téléphone lorsqu’il est assigné à l’utilisateur. L’adresse d’urgence peut être modifiée si l’utilisateur qu’il est affecté à se déplace vers un nouvel emplacement. Pour plus d’informations sur les emplacements et les adresses d’urgence, consultez [Quels sont les emplacements en cas d’urgence, des adresses et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md)
+Lorsque vous configurez des Plans de l’appel dans Office 365, vous devez affecter une adresse d’urgence à chaque numéro de téléphone ou d’un utilisateur. En Europe, l’adresse d’urgence est associé au numéro de téléphone lorsque vous l’obtenir à partir d’Office 365, ou lorsque vous transférez un numéro de téléphone sur vers Office 365. Aux États-Unis, l’adresse d’urgence est associé au numéro de téléphone lorsqu’il est assigné à l’utilisateur. L’adresse d’urgence peut être modifiée si l’utilisateur, à qu'elle est attribuée déplace vers un nouvel emplacement. Pour plus d’informations sur les adresses d’urgence et les emplacements, voir [Quels sont les emplacements d’urgence, les adresses et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md)
   
-Pour savoir comment obtenir des Plans d’appel dans Office 365 et leur coût, consultez [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestionnaire de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Pour savoir comment obtenir des Plans de l’appel dans Office 365 et leur coût, consultez la rubrique [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 ## <a name="change-the-emergency-address-for-a-user"></a>Modification de l'adresse d'urgence d'un utilisateur
 
@@ -39,10 +38,10 @@ Pour savoir comment obtenir des Plans d’appel dans Office 365 et leur coût, c
     
 2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans la navigation de gauche, accédez à **voix** > **utilisateurs de voix**.
+3. Dans la navigation de gauche, accédez à la **voix** > **utilisateurs Enterprise Voice**.
     
     > [!IMPORTANT]
-    > Pour pouvoir voir l’option **voix** dans la navigation de gauche dans le Skype pour le centre d’administration métier, vous devez d’abord acheter au moins une **licence d’entreprise E5**, une licence de module complémentaire de **Système téléphonique** ou une licence de module complémentaire **d’Audioconférence** .
+    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
 4. Dans la page **Utilisateurs Voix**, cherchez et sélectionnez le ou les utilisateurs pour lesquels vous souhaitez modifier l'adresse de secours.
     
@@ -50,10 +49,10 @@ Pour savoir comment obtenir des Plans d’appel dans Office 365 et leur coût, c
     
 6. Dans la page **Attribuer un numéro**, cliquez sur **Changer l'emplacement**. 
     
-7. Sous **Modifier l’adresse d’urgence à**, entrez le nom de la ville dans la zone et cliquez sur **Rechercher**.
+7. Sous **Modifier l’adresse d’urgence à**, entrez le nom de la ville dans la zone, cliquez sur **Rechercher**.
     
     > [!IMPORTANT]
-    > Vous pouvez modifier une adresse de secours à condition qu'elle ait été validée. Pour modifier une adresse d’urgence qui n’a pas encore été validée, supprimer et en créer une autre adresse en cas d’urgence. 
+    > Vous pouvez modifier une adresse de secours à condition qu'elle ait été validée. Pour modifier une adresse d’urgence qui n’a pas été validée, supprimer et en créer une autre adresse en cas d’urgence. 
   
 8. Sélectionnez une nouvelle adresse d’urgence dans la liste, puis cliquez sur **Enregistrer**.
     

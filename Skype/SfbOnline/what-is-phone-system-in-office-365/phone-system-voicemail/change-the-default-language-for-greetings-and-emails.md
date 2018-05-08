@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
 description: 'Découvrez comment configurer Skype Entreprise afin d’utiliser une autre langue pour le message d’accueil vocal par défaut de votre organisation. '
-ms.openlocfilehash: 5ee5b3e307e21e4b7225fadfbe2a079dd40f72de
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: b5d03806065337312ec35b30b58cfb0e6af1e0b6
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Modifier la langue par défaut des messages d'accueil et des courriers électroniques
 
@@ -42,11 +41,11 @@ Si vous êtes un [administrateur général d'Office 365](https://support.office
   
 - **Vous voulez enregistrer un message d'accueil personnel ?** Reportez-vous à la rubrique [Consultation de la messagerie vocale et des options de Skype Entreprise](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
-- **Vous souhaitez modifier la langue invite de messagerie vocale ?** Accédez à [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) et choisir une nouvelle langue sous **Langue d’invite**.
+- **Vous souhaitez modifier la langue d’invite de la messagerie vocale** Accédez à [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) et choisir une nouvelle langue sous **Langue d’invite**.
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Modification de la langue pour l'ensemble des utilisateurs de votre organisation
 
-1. Connectez-vous à votre compte [d’administrateur global d’Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) à[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Connectez-vous avec votre compte [d’administrateur général Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) à[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
 2. Dans le Centre d'administration, sélectionnez **Paramètres** > **Profil de l'organisation**. 
     

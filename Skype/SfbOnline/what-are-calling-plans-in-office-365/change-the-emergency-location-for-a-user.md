@@ -15,23 +15,22 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
-ms.openlocfilehash: e850ce4c9ea2b942af43ba9600537fbefac60ea9
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 925929fbd18d0dd40463bfe3f12e908467f585ed
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>Modification de l'emplacement d'urgence d'un utilisateur
 
-Chaque numéro de téléphone active doit être une adresse d’urgence (associée lorsque vous obtenez un numéro de téléphone dans Office 365 ou lorsque vous transférez un numéro de téléphone) lorsque le numéro de téléphone est affecté à l’utilisateur. Lorsque vous associez le nombre avec une adresse en cas d’urgence, vous pouvez également ajouter un emplacement de secours pour fournir un emplacement plus précis dans un emplacement physique. Un emplacement d'urgence peut être l'étage, l'aile d'un bâtiment ou le numéro du bureau où se trouve l'utilisateur. Vous pouvez avoir un nombre illimité d’emplacements pour une adresse d’urgence donnée, et vous pouvez modifier l’emplacement d’urgence si l’utilisateur se déplace vers une autre office ou d’un bâtiment, par exemple, si l’utilisateur se déplace à partir de sol 34 35 de sol.
+Chaque numéro de téléphone active doit être une adresse d’urgence (associée lorsque vous recevez un numéro de téléphone dans Office 365 ou lorsque vous transférez un numéro de téléphone) lorsque le numéro de téléphone est attribué à l’utilisateur. Lorsque vous associez le nombre à une adresse d’urgence, vous pouvez également ajouter un emplacement d’urgence pour fournir un emplacement plus précis au sein d’un emplacement physique. Un emplacement d'urgence peut être l'étage, l'aile d'un bâtiment ou le numéro du bureau où se trouve l'utilisateur. Vous pouvez avoir un nombre illimité d’emplacements pour une adresse donnée en cas d’urgence, et vous pouvez modifier l’emplacement d’urgence si l’utilisateur se déplace vers une autre office ou d’un bâtiment — par exemple, si l’utilisateur déplace de floor 34 sol 35.
   
-Pour savoir comment obtenir des Plans d’appel dans Office 365 et leur coût, consultez [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestionnaire de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Pour savoir comment obtenir des Plans de l’appel dans Office 365 et leur coût, consultez la rubrique [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 ## <a name="change-the-emergency-location-for-a-user"></a>Modification de l'emplacement d'urgence d'un utilisateur
 
@@ -39,22 +38,22 @@ Pour savoir comment obtenir des Plans d’appel dans Office 365 et leur coût, c
     
 2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans la navigation de gauche, accédez à **voix** > **utilisateurs de voix**.
+3. Dans le volet de navigation gauche, accédez à **voix** > **utilisateurs Enterprise Voice**.
     
     > [!IMPORTANT]
-    > Pour pouvoir voir l’option **voix** dans la navigation de gauche dans le Skype pour le centre d’administration métier, vous devez d’abord acheter au moins une **licence d’entreprise E5**, une licence de module complémentaire de **Système téléphonique** ou une licence de module complémentaire **d’Audioconférence** .
+    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
-4. Sur la page **utilisateurs de voix** , recherchez et sélectionnez l’utilisateur que vous souhaitez modifier l’emplacement d’urgence.
+4. Dans la page **utilisateurs Enterprise Voice** , recherchez et sélectionnez l’utilisateur que vous souhaitez modifier l’emplacement de secours.
     
 5. Dans le volet Action, sous **Emplacement d'urgence**, cliquez sur **Modifier**.
     
 6. Dans la page **Attribuer un numéro**, cliquez sur **Changer l'emplacement**. 
     
-7. Sous **Modifier l’adresse d’urgence à**, entrez le nom de la ville dans la zone et cliquez sur **Rechercher**.
+7. Sous **Modifier l’adresse d’urgence à**, entrez le nom de la ville dans la zone, cliquez sur **Rechercher**.
     
-8. Sélectionnez l’emplacement de secours dans la liste, puis cliquez sur **Enregistrer**.
+8. Sélectionnez l’emplacement d’urgence dans la liste, puis cliquez sur **Enregistrer**.
     
-    Si vous souhaitez ajouter un nouvel emplacement en cas d’urgence, consultez [Ajouter, modifier ou supprimer un emplacement en cas d’urgence pour votre organisation](add-change-or-remove-an-emergency-location-for-your-organization.md).
+    Si vous souhaitez ajouter un nouvel emplacement en cas d’urgence, voir [Ajouter, modifier ou supprimer un emplacement en cas d’urgence pour votre organisation](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
 ## <a name="related-topics"></a>Rubriques connexes
 [Ajout ou suppression d'une adresse d'urgence pour votre organisation](add-or-remove-an-emergency-address-for-your-organization.md)

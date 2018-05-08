@@ -1,5 +1,5 @@
 ---
-title: Désactivation des numéros verts pour des utilisateurs spécifiques
+title: Désactivation des numéros de téléphone gratuits pour des utilisateurs spécifiques
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,38 +12,37 @@ ms.collection:
 - Strat_SB_PSTN
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
-description: Les administrateurs peuvent contrôler comment les organisateurs peuvent utiliser des numéros de téléphone gratuits pour leurs réunions.
-ms.openlocfilehash: 0d2b4d16d6475587dd85223e0a88f64562664429
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Les administrateurs peuvent contrôler les organisateurs utilisation numéros gratuits pour leurs réunions.
+ms.openlocfilehash: a63078256ac9ac52b3d405bd3cf1b63120fb77ce
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactivation des numéros verts pour des utilisateurs spécifiques
+# <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactivation des numéros de téléphone gratuits pour des utilisateurs spécifiques
 
-Si votre organisation a des numéros gratuits dans son Microsoft Audio Conferencing Bridge, vous pouvez autoriser ou empêcher leur utilisation dans les réunions des organisateurs spécifiques.  
+Si votre organisation dispose de numéros gratuits dans son Microsoft Audio Conferencing Bridge, vous pouvez autoriser ou empêcher leur utilisation dans les réunions des organisateurs spécifiques.  
 
-Par défaut, tous les utilisateurs de votre organisation sont activés pour l’utilisation de numéros de téléphone gratuits, ce qui signifie que ces numéros, le cas échéant, peut être utilisé par les participants pour joindre leurs réunions. S’il ne s’agit pas d’un comportement souhaitable pour certains utilisateurs de votre organisation, vous pouvez interdire aux utilisateurs spécifiques à l’aide de ces numéros dans leurs réunions via un contrôle d’activation numéro gratuit. 
+Par défaut, tous les utilisateurs de votre organisation sont activés pour l’utilisation de numéros gratuits, ce qui signifie que ces numéros, le cas échéant, peut être utilisé par les participants à participer à des réunions. Si ce n’est pas le comportement souhaité pour certains utilisateurs au sein de votre organisation, vous pouvez empêcher des utilisateurs spécifiques d’à l’aide de ces numéros dans leurs réunions via un contrôle activation du numéro gratuit. 
 
-Lorsque les numéros verts sont désactivées pour un organisateur donné : 
- - Un numéro d’appel gratuit sera n’est plus inclus dans son ou son invite. 
- - Numéros gratuits ne sont plus apparaît sur la page « Trouver un numéro local » qui est référencée dans son ou son invite. 
- - Les participants ne pourra pas participer à la conférence de l’organisateur donné si elles composer un numéro gratuit de l’organisation. 
- - Toutes les réunions de l’organisateur seront automatiquement replanifiées, et le numéro d’appel gratuit sera supprimé à partir de ceux-ci.  
+Lorsque les numéros gratuits sont désactivés pour un organisateur donné : 
+ - Un numéro gratuit sera n’est plus inclus dans son ou sa réunion invite. 
+ - Numéros gratuits ne sont plus apparaît sur la page « Rechercher un numéro local » qui est référencée dans son ou sa réunion invite. 
+ - Les participants ne puissent pas participer à la réunion de l’organisateur donné si elles composer un numéro gratuit de l’organisation. 
+ - Replanifier automatiquement toutes les réunions de l’organisateur et le numéro gratuit sera supprimé à partir de celles-ci.  
 
     > [!IMPORTANT]
     > Cela renvoie toutes les invitations de messagerie de l’organisateur à tous les participants de ces réunions. 
 
- - Les participants peuvent continuer de participation à des réunions de la bibliothèque multimédia à l’aide des numéros payants. 
+ - Les participants peuvent poursuivre la participation à des réunions de l’organisateur à l’aide des numéros payants. 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactivation des numéros verts pour des utilisateurs spécifiques 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactivation des numéros de téléphone gratuits pour des utilisateurs spécifiques 
 
-**À l’aide de Skype les équipes Microsoft pour Business Admin Center**
+![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
 
 1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -51,22 +50,25 @@ Lorsque les numéros verts sont désactivées pour un organisateur donné :
 
 3. Cliquez sur le menu en regard de **Ponts de conférence**, puis cliquez sur **Modifier** dans la liste déroulante.
 
-4. Dans le volet de **fournisseur de pont de conférence** , désactivez **Autoriser à l’aide des numéros d’appel gratuits dans le pont de conférence de l’organisation à assister aux réunions de cet utilisateur**. 
+4. Dans le volet de **fournisseur de pont de conférence** , désactivez **Autoriser à l’aide des numéros gratuits dans le pont de conférence de votre organisation à participer à des réunions de cet utilisateur**. 
 
-5. Cliquez sur **Appliquer.** 
+5. Cliquez sur **s’appliquent.** 
 
-Le Centre d'administration Skype Entreprise ou Windows PowerShell permet d'activer ou de désactiver l'envoi de courrier électronique aux utilisateurs.
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
-1. Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **audioconférence** > **les utilisateurs**et sélectionnez l’utilisateur dans la liste des utilisateurs disponibles. 
+1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **les utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles. 
 
 2. Dans le volet Action, cliquez sur **Modifier**. 
 
-3. Désactivez **Autoriser à l’aide de numéros de téléphone gratuits pour assister aux réunions de cet utilisateur**. 
+3. Désactivez **Autoriser à l’aide des numéros de téléphone gratuits pour participer à des réunions de cet utilisateur**. 
  
 4. Cliquez sur **Enregistrer**. 
  
-**Utilisation de PowerShell**  
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+ 
+**À l’aide de PowerShell**  
 
 Vous pouvez utiliser le paramètre AllowTollFreeDialIn de l’applet de commande Set-CsOnlineDialInConferencingUser pour activer ou désactiver ce contrôle. Par exemple : 
 
- - User@contoso.com Set-CsOnlineDialInConferencingUser-AllowTollFreeDialIn $false
+ - Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false

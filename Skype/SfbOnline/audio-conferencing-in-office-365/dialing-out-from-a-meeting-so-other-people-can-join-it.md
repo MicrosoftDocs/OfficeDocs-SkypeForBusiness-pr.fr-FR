@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: bfcdd2c1d38d2f9c4f50c1f0461275aa1c2d53ac
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 66cf9e662231a9afefe605649e8bae0d4652713b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a>Utilisation d'un appel sortant pour permettre à d'autres personnes de participer à une conférence
 
@@ -45,7 +44,7 @@ ms.lasthandoff: 04/18/2018
   
 ## <a name="supported-countries-and-regions"></a>Pays et régions pris en charge
 
-La mise en conférence n'est disponible que vers certains pays ou certaines régions. Pour une liste complète, voir [disponibilité de pays et de région pour les conférences Audio et les Plans d’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+La mise en conférence n'est disponible que vers certains pays ou certaines régions. Pour la liste complète, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur les conférences rendez-vous ?
 

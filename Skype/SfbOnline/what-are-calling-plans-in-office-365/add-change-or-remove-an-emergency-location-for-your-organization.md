@@ -15,23 +15,22 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
-ms.openlocfilehash: 5724cc86cb8f57d8be52fa37348df841b29cd362
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 13ad6d0e7ed236809b0100ed3063938bd3cf4a03
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
-Selon le nombre d’emplacements physiques de votre organisation, vous pouvez créer des emplacements d’urgence pour les bâtiments, les sols et les bureaux pour créer une adresse d’urgence plus spécifique. Consultez [Quels sont les emplacements en cas d’urgence, des adresses et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md) pour plus d’informations. 
+Selon le nombre d’emplacements physiques au sein de votre organisation, vous pouvez créer des emplacements d’urgence de bâtiments, étages et bureaux pour créer une adresse d’urgence plus spécifique. Voir [Quels sont les emplacements d’urgence, les adresses et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md) pour plus d’informations. 
   
-Pour savoir comment obtenir un Plan d’appel et leur coût, consultez [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestionnaire de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubrique [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 ## <a name="add-an-emergency-location-to-an-emergency-address"></a>Ajout d'un emplacement d'urgence à une adresse de secours
 
@@ -39,14 +38,14 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez [Skype po
     
 2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans la navigation de gauche, accédez à **voix** > **les emplacements d’urgence**et sélectionnez l’adresse d’urgence que vous voulez ajouter un emplacement pour.
+3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence que vous souhaitez ajouter un emplacement pour.
     
     > [!Important]
-    > Pour pouvoir voir l’option **voix** dans la navigation de gauche dans le Skype pour le centre d’administration métier, vous devez d’abord acheter au moins une **licence d’entreprise E5**, une licence de module complémentaire de **Système téléphonique** ou une licence de module complémentaire **d’Audioconférence** .
+    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
-4. Dans le volet Action, en regard des **emplacements d’associés**, cliquez sur **Modifier**.
+4. Dans le volet Actions, en regard des **emplacements associés**, cliquez sur **Modifier**.
     
-5. Dans les **emplacements associés**, cliquez sur **Nouveau**, entrez un autre emplacement associé (par exemple, entrez « Building 64 étage 1 »), puis cliquez sur **Envoyer**.
+5. Dans **associé à des emplacements**, cliquez sur **Nouveau**, entrez un autre emplacement associé (par exemple, entrez « Building 64 étage 1 »), puis cliquez sur **Envoyer**.
     
 6. Cliquez sur **Enregistrer**.
     
@@ -56,11 +55,11 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez [Skype po
     
 2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans la navigation de gauche, accédez à **voix** > **les emplacements d’urgence**, puis sélectionnez l’adresse en cas d’urgence pour lequel vous souhaitez modifier un emplacement.
+3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence pour lequel vous souhaitez modifier un emplacement.
     
-4. Dans le volet Action, en regard des **emplacements d’associés**, cliquez sur **Modifier**.
+4. Dans le volet Actions, en regard des **emplacements associés**, cliquez sur **Modifier**.
     
-5. Sous **emplacements associés**, cliquez sur le lien pour l’emplacement dans la liste, entrez les détails de l’emplacement dans la zone **Modifier détails de l’emplacement**, puis cliquez sur **Envoyer**.
+5. Sous **emplacements associés**, cliquez sur le lien pour l’emplacement dans la liste, entrez les détails de l’emplacement dans la zone **Modifier les détails des emplacements**, puis cliquez sur **Envoyer**.
     
 6. Cliquez sur **Enregistrer**.
     
@@ -70,11 +69,11 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez [Skype po
     
 2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans la navigation de gauche, accédez à **voix** > **les emplacements d’urgence**et sélectionnez l’adresse d’urgence que vous souhaitez supprimer un emplacement de.
+3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence que vous souhaitez supprimer un emplacement pour.
     
-4. Dans le volet Action, en regard des **emplacements d’associés**, cliquez sur **Modifier**.
+4. Dans le volet Actions, en regard des **emplacements associés**, cliquez sur **Modifier**.
     
-5. Sous **emplacements associés**, ensuite le lien correspondant à l’emplacement, cliquez sur **Supprimer**.
+5. Sous **emplacements associés**, suivant le lien pour l’emplacement, cliquez sur **Supprimer**.
     
 6. Cliquez sur **Enregistrer**.
     
