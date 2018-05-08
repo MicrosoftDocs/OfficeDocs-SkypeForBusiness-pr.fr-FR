@@ -1,5 +1,5 @@
 ---
-title: Aide-planification
+title: Planification d’aide
 ms.author: crowe
 author: CarolynRowe
 ms.date: 1/1/1900
@@ -8,23 +8,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2287aef6-c7b6-4170-9d4d-e1e54e5236b5
-description: Insérez l’introduction ici.
-ms.openlocfilehash: 5ac5f1dd0d2542002b117bd795418af0e5b121ae
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Rubriques de planification d’outil
+ms.openlocfilehash: a2045d0a68618f22e40aa0903b6c3aa6002fa2d9
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="help-planning"></a><span data-ttu-id="f7895-103">Aide-planification</span><span class="sxs-lookup"><span data-stu-id="f7895-103">Help-Planning</span></span>
+# <a name="help-planning"></a><span data-ttu-id="07fcc-103">Planification d’aide</span><span class="sxs-lookup"><span data-stu-id="07fcc-103">Help-Planning</span></span>
  
-<span data-ttu-id="f7895-104">Insérez l’introduction ici.</span><span class="sxs-lookup"><span data-stu-id="f7895-104">Insert introduction here.</span></span>
+<span data-ttu-id="07fcc-104">Les rubriques de ce nœud fournissent de l’aide pour le Skype pour l’outil de planification Business Server.</span><span class="sxs-lookup"><span data-stu-id="07fcc-104">The topics in this node provide help for the Skype for Business Server planning tool.</span></span>
   
-## <a name="section-heading"></a><span data-ttu-id="f7895-105">Titre de section</span><span class="sxs-lookup"><span data-stu-id="f7895-105">Section Heading</span></span>
 
-<span data-ttu-id="f7895-106">Insérez le corps de la section ici.</span><span class="sxs-lookup"><span data-stu-id="f7895-106">Insert section body here.</span></span>
-  
-### <a name="subsection-heading"></a><span data-ttu-id="f7895-107">Titre de la sous-section</span><span class="sxs-lookup"><span data-stu-id="f7895-107">Subsection Heading</span></span>
-
-<span data-ttu-id="f7895-108">Insérez le corps de la sous-section ici.</span><span class="sxs-lookup"><span data-stu-id="f7895-108">Insert subsection body here.</span></span>
   
 
