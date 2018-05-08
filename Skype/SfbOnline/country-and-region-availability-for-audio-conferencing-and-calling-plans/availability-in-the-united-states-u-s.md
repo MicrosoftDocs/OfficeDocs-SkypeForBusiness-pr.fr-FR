@@ -1,5 +1,5 @@
 ---
-title: Disponibilité aux États-Unis (US)
+title: Disponibilité aux États-Unis (É.U.)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponibles pour les États-Unis.
-ms.openlocfilehash: 34ef8a3ead8dfc37690f3588b8b61c8f1b467f95
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour les États-Unis.
+ms.openlocfilehash: db1d6c2473e45479cc9eca16951946a8c2ead9b5
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
 ---
-# <a name="availability-in-the-united-states-us"></a>Disponibilité aux États-Unis (US)
+# <a name="availability-in-the-united-states-us"></a>Disponibilité aux États-Unis (É.U.)
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponibles pour les États-Unis.
+Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour les États-Unis.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour la ville de New York, Los Angeles, Chicago et Dallas. Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour Chicago, Dallas, Los Angeles et New York. Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponibles  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
@@ -55,7 +55,16 @@ Voici les services Office 365 pour Skype pour les entreprises et les Teams Micro
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les forfaits d'appels  <br/> |3000 minutes nationales ou 600 minutes internationales (en fonction de ce qui arrive en premier par mois civil). Les appels nationaux aux États-Unis incluent ceux à destination de l'ensemble des 50 États des États-Unis et de Porto Rico. Les utilisateurs ayant reçu l'emplacement d'utilisation sous licence des États-Unis et/ou de Porto Rico partagent le même nombre de minutes.  <br/> |
+|Minutes disponibles pour les Plans de l’appel. |Il existe trois options de plan par mois :
+- 120 Plan d’appel nationales minute (disponibilité est limitée)
+- 240 Plan d’appel nationales minute (disponibilité est limitée)
+- Plan d’appel nationales minute 1200
+- Plan d’appel nationales minute 1200
+- 600 minutes pour les appels internationaux (si vous avez acheté un intérieur & International appelant planifier)
+
+Les appels nationaux aux États-Unis incluent ceux à destination de l'ensemble des 50 États des États-Unis et de Porto Rico. Les utilisateurs ayant reçu l'emplacement d'utilisation sous licence des États-Unis et/ou de Porto Rico partagent le même nombre de minutes.
+|||
+|:-----|:-----|
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services

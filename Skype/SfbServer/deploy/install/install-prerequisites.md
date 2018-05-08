@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 'Résumé : En savoir plus sur les serveurs et les rôles de serveur que vous devez configurer avant d’installer Skype pour Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 6d11b83cf760b47072bca743b6fe3b5fac3794d9
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f37954b4eddffbcef08c270dc86234e3a56e7079
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="install-prerequisites-for-skype-for-business-server-2015"></a>Installation des composants prérequis pour Skype Entreprise Server 2015
  
@@ -46,114 +46,19 @@ Regardez la vidéo des étapes pour **installer les composants requis** :
   
 ### <a name="install-required-roles-and-features-for-front-end-servers"></a>Installez les fonctionnalités et rôles requis pour les serveurs frontaux
 
-1. Ouvrez le Gestionnaire de serveur et cliquez sur **Ajouter des rôles et fonctionnalités**.
+Vous pouvez installer les rôles requis et les fonctionnalités à l’aide du Gestionnaire de serveur. 
     
-2. Lisez la page **Avant de commencer** pour vous familiariser avec l’installation des rôles et fonctionnalités dans Windows Server, puis cliquez sur **Suivant**.
-    
-3. Sélectionnez une **Installation basée sur un rôle ou une fonctionnalité**, et cliquez sur **Suivant**.
-    
-4. Sélectionnez le serveur sur lequel vous seront installation Skype pour Business Server 2015, puis cliquez sur **suivant**.
-    
-5. Sélectionnez le rôle du **Serveur Web (IIS)**, et lorsque la fenêtre des fonctionnalités requises s’ouvre, cliquez sur **Ajouter des fonctionnalités**, puis sur **Suivant**.
-    
-6. Assurez-vous que les fonctions logicielles répertoriées dans le [logiciel qui doit être installé avant un Skype pour le déploiement de Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#Software) sont sur le serveur qui exécutera Skype pour Business Server 2015. Voici une liste abrégée :
-    
-   - Fonctionnalités de .NET framework
-    
-   - Services WCF
-    
-   - Activation HTTP
-    
-    > [!NOTE]
-    > L’activation HTTP requiert des fonctionnalités supplémentaires. Cliquez sur **Ajouter des fonctionnalités** dans la boîte de dialogue d’avertissement qui s’ouvre lorsque vous sélectionnez l’activation HTTP.
-  
-   - Media Foundation (requis par les serveurs Standard Edition et les serveurs frontaux utilisés pour la conférence).
-    
-   - Outils d’administration de serveur distant
-    
-   - Outils d’administration de rôles
-    
-   - SERVICES AD DS 
-    
-   - AD LDS
-    
-   - Windows Identity Foundation 3.5
-    
-7. Cliquez sur **Suivant** pour continuer avec l’assistant.
-    
-8. Lisez les remarques sur le **Rôle de serveur web (IIS)**, puis cliquez sur **Suivant**.
-    
-9. Sélectionnez les **services de rôle de serveur web (IIS)** suivants.
-    
-   - Fonctionnalités HTTP communes
-    
-   - Document par défaut
-    
-   - Exploration des répertoires
-    
-   - Erreurs HTTP
-    
-   - Contenu statique
-    
-   - Intégrité et diagnostics
-    
-   - Journalisation HTTP
-    
-   - Outils de journalisation
-    
-   - Suivi
-    
-   - Performances
-    
-   - Compression du contenu statique
-    
-   - Compression du contenu dynamique
-    
-   - Sécurité
-    
-   - Filtrage des demandes
-    
-   - Authentification par mappage de certificat client
-    
-   - Authentification Windows
-    
-   - Développement d’applications
-    
-   - .NET Extensibility 3.5
-    
-   - .NET Extensibility 4.5
-    
-   - ASP.NET 3.5
-    
-   - ASP.NET 4.5
-    
-   - Extensions ISAPI
-    
-   - Filtres ISAPI
-    
-   - Outils de gestion
-    
-   - Console de gestion des services Internet (IIS)
-    
-   - Scripts et outils de gestion des services Internet (IIS)
-    
-10. Cliquez sur **Suivant** pour continuer avec l’assistant.
-    
-11. Vérifiez les choix d’installation pour vous assurer que toutes les conditions sont sélectionnées, puis cliquez sur **Installer**.
+1. Installer les fonctionnalités de logiciels répertoriées dans la [configuration serveur requise pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). Les logiciels requis doivent se trouver sur le serveur qui exécutera Skype pour Business Server 2015.
     
     > [!CAUTION]
-    > Windows Server 2012 R2 n’installe pas tous les fichiers source pour les fonctionnalités requises par défaut. Si le serveur n’est pas connecté à internet, vous devrez installer le média Windows Server 2012 R2 et sélectionner **Spécifier un autre chemin d’accès source** afin d’installer les fonctionnalités requises. Les fichiers source se trouvent dans le répertoire sources\sxs. Par exemple, si le média Windows Server 2012 R2 se trouve dans le lecteur D, sélectionnez le chemin d’accès vers `d:\sources\sxs`. > Il est important que vous avez les dernières mises à jour à partir de Windows Update. Si vous n’êtes pas connecté à internet, vous devrez installer manuellement toutes les mises à jour appropriées et toutes les conditions préalables pour les mises à jour requises. 
+    > Windows Server 2012 R2 n’installe pas tous les fichiers source pour les fonctionnalités requises par défaut. Si le serveur n’est pas connecté à internet, vous devrez installer le média Windows Server 2012 R2 et sélectionner **Spécifier un autre chemin d’accès source** afin d’installer les fonctionnalités requises. Les fichiers source se trouvent dans le répertoire sources\sxs. Par exemple, si le média Windows Server 2012 R2 se trouve dans le lecteur D, sélectionnez le chemin d’accès vers `d:\sources\sxs`. Il est important que vous ayez les dernières mises à jour de Windows Update. Si vous n’êtes pas connecté à internet, vous devrez installer manuellement toutes les mises à jour appropriées et toutes les conditions préalables pour les mises à jour requises. 
   
-12. Lorsque la boîte de dialogue indiquera que l’installation a bien été effectuée, vous devrez redémarrer le serveur pour terminer le processus.
+1. Lorsque la boîte de dialogue indiquera que l’installation a bien été effectuée, vous devrez redémarrer le serveur pour terminer le processus.
     
-13. Réexécutez **Windows Update** pour vérifier les mises à jour pour les rôles et services qui ont été installés.
+1. Réexécutez **Windows Update** pour vérifier les mises à jour pour les rôles et services qui ont été installés.
     
-14. Si vous utilisez Skype pour le panneau de configuration serveur Business sur ce serveur vous devez également installer Silverlight. Pour installer Silverlight, voir [Microsoft Silverlight](https://www.microsoft.com/silverlight/).
-    
-Vous pouvez installer les conditions préalables en exécutant la commande PowerShell suivante. Veuillez noter que la commande recherche des fichiers source dans un ordre spécifique. Si vous êtes connecté à internet, la commande aura accès à Windows Update. Si vous n’êtes pas connecté à internet, vous devrez vous assurer que les fichiers source sont accessibles à la commande. Pour plus d’informations sur l’utilisation de PowerShell pour installer des rôles et fonctionnalités, voir [installer ou désinstaller des rôles, Services de rôle ou fonctionnalités](https://technet.microsoft.com/en-us/library/hh831809.aspx) et [Install-WindowsFeature](https://technet.microsoft.com/en-us/library/jj205467.aspx). N’oubliez pas de réexécuter Windows Update après avoir installé les conditions préalables, même si vous utilisez la commande PowerShell.
-```
-Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Dir-Browsing, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, BITS
-```
+1. Si vous utilisez Skype pour le panneau de configuration serveur Business sur ce serveur vous devez également installer Silverlight. Pour installer Silverlight, voir [Microsoft Silverlight](https://www.microsoft.com/silverlight/).
+
 
 > [!IMPORTANT]
 > Les conditions préalables pour les serveurs ayant d’autres rôles que celui de serveur frontal (notamment les rôles de directeur, de conversation permanente, ou Edge) ont leurs propres conditions préalables. Pour plus d’informations sur la configuration exacte requise par chaque type de serveur, voir [configuration du serveur pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 

@@ -15,23 +15,22 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
-description: ID de l’appelant peut être contrôlée pour les appels entrants et sortants pour les utilisateurs du système téléphonique à l’aide d’une stratégie nommée CallingLineIdentity.
-ms.openlocfilehash: 4dc596e8301310f2c229c46add5795e72c432daf
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: ID de l’appelant peut être contrôlé pour les appels entrants et sortants pour les utilisateurs du système téléphonique à l’aide d’une stratégie appelée CallingLineIdentity.
+ms.openlocfilehash: a1a809805b96152e4b205c8f38b3c8409014eb55
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Comment utiliser un ID d'appelant dans votre organisation
 
-ID de l’appelant peut être contrôlée pour les appels entrants et sortants pour les utilisateurs du système téléphonique à l’aide d’une stratégie nommée CallingLineIdentity.
+ID de l’appelant peut être contrôlé pour les appels entrants et sortants pour les utilisateurs du système téléphonique à l’aide d’une stratégie appelée CallingLineIdentity.
   
-La fonctionnalité d’ID de l’appelant est disponible pour tous les utilisateurs du système téléphonique que connectivité RTPC :
+La fonctionnalité d’ID de l’appelant est disponible pour tous les utilisateurs du système téléphonique quelle que soit la connectivité PSTN :
   
 - Connectivité RTC en ligne
     
@@ -48,13 +47,13 @@ Trois options sont disponibles pour l'ID d'appelant RTC sortant :
   
 - Le numéro de téléphone attribué à l’utilisateur, qui est la valeur par défaut.
     
-- Numéro de stock un numéro de téléphone qui est considéré comme un *service* et un numéro *d’appel gratuit* dans vos Plans de l’appel dans téléphone d’Office 365. Il est généralement affecté à une file d’attente surveillance du ou des appels d’organisation automatique.
+- Un numéro de téléphone qui est considéré comme un *service* et un *numéro gratuit* nombre dans vos Plans de l’appel dans Office 365 téléphone numéro inventaire. Il est généralement attribué à une file d’attente d’organisation automatique standard ou un appel.
     
 - Défini sur Anonyme.
     
 Toutefois, vous ne pouvez pas affecter les types de numéros de téléphone suivants à l'ID d'appelant entrant :
   
-- Les numéros de téléphone qui sont classés en tant qu' *utilisateur* de votre téléphone appel Plans numéro de stock
+- Les numéros de téléphone qui sont classés en tant qu' *utilisateur* de votre téléphone de l’appel des Plans de numéro d’inventaire
     
 - Un numéro de téléphone Skype Entreprise Server local
     
@@ -62,22 +61,22 @@ Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>Contrôle de l'ID d'appelant sortant par l'utilisateur final
 
-L’attribut EnableUserOverride permet à un ou plusieurs utilisateurs à modifier leurs paramètres d’ID de l’appelant **anonyme**. Cela s’applique uniquement lorsqu’une stratégie de CallingLineIdentity est configurée avec un paramètre de CallingIDSubstitute de LineURI ou de substitution. La valeur par défaut de EnableUserOverride a la valeur False.
+L’attribut EnableUserOverride permet à un ou plusieurs utilisateurs à modifier leurs paramètres d’ID de l’appelant **anonyme**. Cela s’applique uniquement lorsqu’une stratégie CallingLineIdentity est configurée avec un paramètre CallingIDSubstitute de LineURI ou de remplacement. La valeur par défaut de EnableUserOverride a la valeur False.
   
-Vos utilisateurs finaux peuvent définir leur ID de l’appelant **anonyme** à l’aide de l’onglet **Paramètres d’appeler vers l’avant** dans le Skype pour client ordinateur de bureau d’entreprise.
+Vos utilisateurs finaux peuvent définir leur ID d’appelant **anonyme** à l’aide de l’onglet **Paramètres d’appel vers l’avant** dans le Skype pour le client de bureau d’entreprise.
   
 ||||
 |:-----|:-----|:-----|
 |**Windows** <br/> |**Version** <br/> |**Prise en charge** <br/> |
 |Démarrer en un clic  <br/> |Canal actuel publié le 6 décembre 2016 - version 1611 (Build 7571.2072)  <br/> |Oui  <br/> |
 |Démarrer en un clic  <br/> |Première version du canal différé publiée le 22 février 2017 - version 1701 (Build 7766.2060)  <br/> |Oui  <br/> |
-|Démarrer en un clic  <br/> |Différé de canal publié le 13 juin 2017 - Version 1701 (Build 7766.2092)  <br/> |Oui  <br/> |
+|Démarrer en un clic  <br/> |Différé canal publié le 13 juin 2017 - Version 1701 (Build 7766.2092)  <br/> |Oui  <br/> |
 |MSI  <br/> |Skype Entreprise  <br/> |Non  <br/> |
 |Mac  <br/> |Skype Entreprise  <br/> |Non  <br/> |
    
 ## <a name="inbound-caller-id"></a>ID d'appelant entrant
 
-L’attribut BlockIncomingCallerID permet de blocage de l’ID d’appelant pour les appels entrants RTPC. Vous pouvez définir cet attribut, mais il n’est pas disponible pour les utilisateurs finaux sur la page Paramètres de l’utilisateur. Pour le moment, il est disponible uniquement avec la connectivité RTC en ligne.
+L’attribut BlockIncomingCallerID permet de blocage de l’ID d’appelant pour les appels PSTN entrants. Vous pouvez définir cet attribut, mais il n’est pas disponible pour les utilisateurs finaux dans la page de paramètres utilisateur. Pour le moment, il est disponible uniquement avec la connectivité RTC en ligne.
   
 Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'ID d'appelant d'un utilisateur](set-the-caller-id-for-a-user.md).
   

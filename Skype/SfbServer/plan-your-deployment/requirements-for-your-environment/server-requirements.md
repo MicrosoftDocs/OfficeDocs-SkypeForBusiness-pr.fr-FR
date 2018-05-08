@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Résumé : Préparez votre Skype pour les serveurs Business Server 2015 avec cette rubrique. Matériel, système d’exploitation, bases de données, logiciel, tous les la configuration système requise et les recommandations sont ici afin de garantir une installation réussie et le déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: 28e9cf9be6f52a5e7f35a2d958832b1f13ada3b0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: dfcde40c8084279dca39e830a84ad6e9631530dd
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Configuration serveur requise pour Skype Entreprise Server 2015
  
@@ -153,11 +153,17 @@ Il existe certaines choses que vous aurez besoin installer ou configurer pour n�
 |Module d’exécution du format Windows Media  <br/> | Pour Windows Server 2016, Windows Server 2012 et Windows Server 2012 R2, vous devez installer la fonctionnalité **Media Foundation** dans **Le Gestionnaire de serveur**. Maintenant, vous pouvez lancer votre Skype pour l’installation de Business Server 2015 sans celui-ci, mais vous serez invité à installer, puis redémarrer le serveur, avant le Skype pour Business Server 2015 installer continue. Il vaut donc mieux l’installer au préalable. <br/> |
 |Silverlight  <br/> |Vous pouvez installer la dernière version de Silverlight à [ce lien](https://www.microsoft.com/silverlight/).  <br/> |
    
+> [!NOTE] 
+> Vous devez également activer l’exploration d’annuaire si vous utilisez un équilibreur de charge. Sinon, une page vierge chargera qui l’équilibrage de charge peut prendre en compte une défaillance. 
+
 Pour vous aider, voici un exemple de script PowerShell que vous pouvez exécuter pour automatiser ceci :
-  
+
 ```
-Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client
+Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Dir-Browsing, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, BITS, Desktop-Experience, Telnet-Client
 ```
+
+> [!NOTE] 
+> La commande recherche des fichiers sources dans un ordre spécifique. Si vous êtes connecté à internet, la commande aura accès à Windows Update. Si vous n’êtes pas connecté à internet, vous devrez vous assurer que les fichiers source sont accessibles à la commande. Pour plus d’informations sur l’utilisation de PowerShell pour installer des rôles et fonctionnalités, voir [installer ou désinstaller des rôles, Services de rôle ou fonctionnalités](https://technet.microsoft.com/en-us/library/hh831809.aspx) n’oubliez pas de réexécuter Windows Update après avoir installé les éléments prérequis, même si vous utilisez la commande PowerShell.
 
  **Les directeurs doivent également :**
   

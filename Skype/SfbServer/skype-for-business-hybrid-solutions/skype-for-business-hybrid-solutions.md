@@ -1,5 +1,5 @@
 ---
-title: Skype pour solutions d’entreprise hybride
+title: Skype pour des solutions professionnelles hybride
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,27 +7,29 @@ ms.date: 9/25/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
-description: Trouvez des informations sur la planification d’un Skype pour déploiement hybride de professionnels.
-ms.openlocfilehash: c2ed5a488bae74e1756ca02b0b28e9770efe0160
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Trouvez des informations sur la planification d’un Skype pour un déploiement hybride Business.
+ms.openlocfilehash: f77c58497b40551a23ce32ab66718999edcc360c
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/08/2018
 ---
-# <a name="skype-for-business-hybrid-solutions"></a>Skype pour solutions d’entreprise hybride
+# <a name="skype-for-business-hybrid-solutions"></a>Skype pour des solutions professionnelles hybride
  
-Trouvez des informations sur la planification d’un Skype pour déploiement hybride de professionnels. 
+Trouvez des informations sur la planification d’un Skype pour un déploiement hybride Business. 
   
 Cette rubrique vous présente plusieurs configurations hybrides afin de vous aider à déterminer celle qui est la plus adaptée à votre entreprise. Vous pourrez ensuite en savoir plus sur la configuration qui vous intéresse en suivant les liens correspondants. Cette rubrique contient les sections suivantes :
   
 - [Configurations hybrides Skype Entreprise](skype-for-business-hybrid-solutions.md#BKMK_HybridConfigurations)
     
-- [Ajoutez Skype pour entreprise en ligne dans vos locaux Skype pour entreprises](skype-for-business-hybrid-solutions.md#BKMK_HybridConnectivity)
+- [Ajoutez Skype pour Business Online sur vos locaux Skype pour un environnement d’entreprise](skype-for-business-hybrid-solutions.md#BKMK_HybridConnectivity)
     
-- [Tirer parti du système téléphonique dans Office 365 (Cloud PBX)](skype-for-business-hybrid-solutions.md#BKMK_CloudPBX)
+- [Tirer parti de système téléphonique dans Office 365 (en nuage PBX)](skype-for-business-hybrid-solutions.md#BKMK_CloudPBX)
     
 - [Intégration dans Exchange et SharePoint](skype-for-business-hybrid-solutions.md#BKMK_IntegratewExchangeSharePoint)
     
@@ -38,15 +40,15 @@ Cette rubrique vous présente plusieurs configurations hybrides afin de vous aid
 ## <a name="skype-for-business-hybrid-configurations"></a>Configurations hybrides Skype Entreprise
 <a name="BKMK_HybridConfigurations"> </a>
 
-Skype pour entreprise prend en charge plusieurs configurations hybride. Vous pouvez ajouter Skype pour professionnels en ligne sur vos locaux Skype pour environnement d’entreprise, intégrer votre Skype pour le déploiement d’entreprise avec Exchange Online et SharePoint Online et profiter du système téléphonique dans Office 365 (Cloud PBX) — Microsoft technologie d’activation du contrôle d’appel et les fonctions Private Branch Exchange (PBX) dans le nuage d’Office 365 avec Skype pour entreprise en ligne. 
+Skype pour les entreprises prend en charge plusieurs configurations hybrides. Vous pouvez ajouter Skype pour Business Online sur vos locale Skype pour un environnement d’entreprise, intégrer votre Skype pour le déploiement d’entreprise avec Exchange Online et SharePoint Online et tirer parti de système téléphonique dans Office 365 (en nuage PBX) — de Microsoft technologie d’activation du contrôle d’appel et les fonctionnalités d’autocommutateur privé (PBX) dans le nuage Office 365 avec Skype pour Business en ligne. 
   
-Avec un Skype pour déploiement hybride de professionnels, vous combinez un Skype pour un abonnement professionnel en ligne avec votre Skype sur site pour une offre d’entreprise. Vous pouvez commencer à créer des compétences en gestion des logiciels en tant que service dans votre organisation et déplacer votre Skype pour les utilisateurs vers le nuage à votre propre rythme. Les utilisateurs qui sont hébergés dans le nuage peuvent bénéficier du système téléphonique dans Office 365 tout en conservant la connectivité de commutation de téléphone RTPC (réseau Public) sur site.
+Avec un Skype pour un déploiement hybride Business, vous combinez un Skype pour l’abonnement en ligne professionnels avec votre Skype locale offre d’entreprise. Vous pouvez commencer à créer des compétences de gestion du logiciel en tant que service dans votre organisation et déplacez votre Skype pour les utilisateurs vers le nuage à votre rythme. Les utilisateurs qui sont hébergés dans le nuage peuvent tirer parti du système téléphonique dans Office 365 tout en conservant votre connectivity de Public réseau de téléphonique commuté (RTC) sur site.
   
-Avec un Skype pour configuration hybride d’entreprise, tenez compte les éléments suivants :
+Avec un Skype pour la configuration hybride Business, gardez les points suivants à l’esprit :
   
 - Certains utilisateurs seront peut-être hébergés en local et certains le seront en ligne, mais ils partageront le même domaine de protocole SIP, comme par exemple contoso.com.
     
-- Vous pouvez migrer les utilisateurs de Skype pour les entreprises dans les locaux d’à Skype pour Business Online au fil du temps, sur vos prévisions.
+- Vous pouvez migrer les utilisateurs de Skype pour les entreprises dans les locaux à Skype pour Business Online au fil du temps, votre calendrier.
     
 - L’intégration dans d’autres applications Microsoft Office 365, y compris Exchange Online et SharePoint Online est possible.
     
@@ -56,34 +58,34 @@ Avec un Skype pour configuration hybride d’entreprise, tenez compte les élém
     
 - Vous pouvez profiter de la fonction conférence RTC.
     
-## <a name="add-skype-for-business-online-into-your-existing-on-premises-skype-for-business-environment"></a>Ajoutez Skype pour entreprise en ligne dans vos locaux Skype pour entreprises
+## <a name="add-skype-for-business-online-into-your-existing-on-premises-skype-for-business-environment"></a>Ajoutez Skype pour Business Online sur vos locaux Skype pour un environnement d’entreprise
 <a name="BKMK_HybridConnectivity"> </a>
 
-Connectivité hybride entre Skype pour Business Server et Skype pour entreprise en ligne signifie que les utilisateurs d’un domaine, par exemple, contoso.com, sont réparties entre l’utilisation de Skype pour Business Server dans les locaux et Skype pour l’activité en ligne. Certains utilisateurs du domaine sont hébergés en local et certains le sont en ligne. Vous pouvez configurer votre déploiement sur site pour hybride avec Skype pour entreprise en ligne et synchronisation avec Active Directory permet de conserver vos locaux et les utilisateurs en ligne synchronisés. 
+Connectivité hybride entre Skype pour Business Server et Skype pour Business Online signifie que les utilisateurs d’un domaine, par exemple, contoso.com, sont répartis entre l’utilisation de Skype pour Business Server localement et Skype pour Business Online. Certains utilisateurs du domaine sont hébergés en local et certains le sont en ligne. Vous pouvez configurer votre déploiement sur site pour l’environnement hybride avec Skype pour Business Online et utiliser la synchronisation Active Directory pour conserver votre organisation locale et en ligne utilisateurs synchronisés. 
   
-Le diagramme suivant montre comment vous pouvez ajouter Skype pour Business Online dans votre Skype sur site existant pour un environnement d’entreprise, ce qui vous permet de déplacer des utilisateurs vers le nuage à votre rythme :
+Le diagramme suivant montre comment ajouter des Skype pour Business Online dans votre Skype local existant pour l’environnement d’entreprise, ce qui vous permet de déplacer des utilisateurs vers le nuage à votre rythme :
   
 ![Configuration hybride de Skype Entreprise](../media/4580f2c8-7008-4c6e-826c-020d0f2d1636.png)
   
-Pour plus d’informations, consultez [planification de la connectivité d’hybride entre Skype pour Business Server et Skype pour Business Online](plan-hybrid-connectivity.md) et de [déployer une connectivité hybride entre Skype pour Business Server et Skype pour l’activité en ligne](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+Pour plus d’informations, voir [planification de la connectivité hybride entre Skype pour Business Server et Skype pour Business Online](plan-hybrid-connectivity.md) et de [déployer la connectivité hybride entre Skype pour Business Server et Skype pour Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
   
-## <a name="take-advantage-of-phone-system-in-office-365-cloud-pbx"></a>Tirer parti du système téléphonique dans Office 365 (Cloud PBX)
+## <a name="take-advantage-of-phone-system-in-office-365-cloud-pbx"></a>Tirer parti de système téléphonique dans Office 365 (en nuage PBX)
 <a name="BKMK_CloudPBX"> </a>
 
- Système téléphonique dans Office 365 (Cloud PBX) est la technologie de Microsoft pour l’activation du contrôle d’appel et les fonctions Private Branch Exchange (PBX) dans le nuage d’Office 365 avec Skype pour l’activité en ligne. Système de téléphone dans Office 365 vous permet de remplacer votre système PBX existant avec un ensemble de fonctionnalités provenant d’Office 365 et étroitement intégrés dans l’expérience de Microsoft cloud la productivité.
+ Système téléphonique dans Office 365 (en nuage PBX) est la technologie de Microsoft pour activer le contrôle d’appel et les fonctionnalités d’autocommutateur privé (PBX) dans le nuage Office 365 avec Skype pour Business en ligne. Système téléphonique dans Office 365 vous permet de remplacer votre système PBX existant par un ensemble de fonctionnalités provenant d’Office 365 et étroitement intégré à l’expérience de productivité de Microsoft dans le nuage.
   
-En plus du système de téléphone deux offres de hybride d’Office 365, Microsoft propose le système téléphonique dans Office 365 avec l’appel de Plan — un RTC, l’appel de service — pour une solution tout-en-la-nuage qui ne nécessite pas un déploiement de serveur local. Pour décider si système téléphonique dans Office 365 avec l’appel de Plan peut être la solution adaptée à votre organisation, consultez le [Système téléphonique dans les solutions Office 365](plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings).
+En plus de deux système téléphonique dans les offres Office 365 hybride, Microsoft offre un système téléphonique dans Office 365 avec l’appel planifier — un PSTN appel service — pour une solution tout-en nuage qui ne nécessite pas un déploiement du serveur local. Pour décider si système téléphonique dans Office 365 avec l’appel de planification peut être la solution idéale pour votre organisation, consultez la rubrique [Système téléphonique dans les solutions Office 365](plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings).
   
-Il existe deux Phone System dans les offres hybride Office 365 : 
+Il existe deux système téléphonique dans les offres Office 365 hybride : 
   
-- [Système de téléphone dans Office 365 avec connectivité sur site fournie par votre Skype pour le déploiement du serveur de l’entreprise](skype-for-business-hybrid-solutions.md#BKMK_Server)
+- [Système téléphonique dans Office 365 avec une connectivité locale fournie par votre Skype pour le déploiement de serveur d’entreprise](skype-for-business-hybrid-solutions.md#BKMK_Server)
     
-- [Système de téléphone dans Office 365 avec connectivité sur site fournie par Skype pour connecteur de nuage de serveur Professionnel](skype-for-business-hybrid-solutions.md#BKMK_CCE)
+- [Système téléphonique dans Office 365 avec une connectivité locale fournie par Skype pour Business Server nuage connecteur Edition](skype-for-business-hybrid-solutions.md#BKMK_CCE)
     
-### <a name="phone-system-in-office-365-with-on-premises-connectivity-provided-by-your-skype-for-business-server-deployment"></a>Système de téléphone dans Office 365 avec connectivité sur site fournie par votre Skype pour le déploiement du serveur de l’entreprise
+### <a name="phone-system-in-office-365-with-on-premises-connectivity-provided-by-your-skype-for-business-server-deployment"></a>Système téléphonique dans Office 365 avec une connectivité locale fournie par votre Skype pour le déploiement de serveur d’entreprise
 <a name="BKMK_Server"> </a>
 
-Cette configuration se compose d’un Skype pour un déploiement sur site Business Server modifié pour hybride RTPC. Les utilisateurs de votre organisation qui sont hébergées dans le cloud peuvent recevoir les services PBX du nuage de Microsoft, mais la connectivité RTPC est fournie via Voix Entreprise sur votre Skype sur site pour le déploiement du serveur de l’entreprise. 
+Cette configuration comprend un Skype pour déploiement local de Business Server modifiée pour un environnement hybride PSTN. Les utilisateurs de votre organisation qui sont hébergés dans le nuage peuvent recevoir les services de PBX à partir du cloud Microsoft, mais une connectivité PSTN fournie par Enterprise Voice sur votre Skype sur site pour le déploiement de serveur d’entreprise. 
   
 ![PBX Cloud avec déploiement Skype Entreprise Server](../media/d4136bbc-b01e-469c-bf94-90ba59c61cda.png)
   
@@ -91,16 +93,16 @@ Cette configuration est la meilleure si :
   
 - Votre système PBX n’offre pas de fonctionnalités uniques que vous devez conserver.
     
-- Plan, le service d’appel Office 365 RTC, l’appel n’est pas disponible dans votre région.
+- Plan, le service Office 365 PSTN d’appel, l’appel n’est pas disponible dans votre région.
     
-- Vous avez un existant de Lync ou d’un Skype pour le déploiement du serveur de l’entreprise.
+- Vous avez un Lync existant ou un Skype pour le déploiement de serveur d’entreprise.
     
-Pour plus d’informations, reportez-vous à la section [planifier le système téléphonique dans Office 365 avec connectivité RTPC dans Skype pour Business Server sur site](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md) et [permettre aux utilisateurs de système téléphonique dans Office 365 avec la connectivité RTPC dans Skype pour Business Server local](plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md).
+Pour plus d’informations, voir [planifier le système téléphonique dans Office 365 avec une connectivité PSTN dans Skype pour Business Server sur site](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md) et [activer des utilisateurs pour le système téléphonique dans Office 365 avec une connectivité PSTN dans Skype pour Business Server local](plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md).
   
-### <a name="phone-system-in-office-365-with-on-premises-connectivity-provided-by-skype-for-business-server-cloud-connector-edition"></a>Système de téléphone dans Office 365 avec connectivité sur site fournie par Skype pour connecteur de nuage de serveur Professionnel
+### <a name="phone-system-in-office-365-with-on-premises-connectivity-provided-by-skype-for-business-server-cloud-connector-edition"></a>Système téléphonique dans Office 365 avec une connectivité locale fournie par Skype pour Business Server nuage connecteur Edition
 <a name="BKMK_CCE"> </a>
 
-Cette configuration consiste en un ensemble de machine virtuelles (VM) qui mettent en œuvre la connectivité RTC locale. En déployant un minimum Skype pour la topologie du serveur de l’entreprise dans un environnement virtualisé, les utilisateurs de votre organisation qui sont hébergées dans le cloud peuvent recevoir des services PBX du nuage de Microsoft, mais la connectivité RTPC est fournie par le biais de la voix sur site existant infrastructure. 
+Cette configuration consiste en un ensemble de machine virtuelles (VM) qui mettent en œuvre la connectivité RTC locale. En déployant un Skype minimal pour la topologie Business Server dans un environnement virtualisé, les utilisateurs de votre organisation qui sont hébergés dans le nuage peuvent recevoir les services de PBX à partir du cloud Microsoft, mais une connectivité PSTN est fournie par le biais de la voix sur site existant infrastructure. 
   
 ![CloudPBXCloudConnectorEdition](../media/7a6ee221-bfe1-422b-ac44-6446db6b766c.png)
   
@@ -108,16 +110,16 @@ Cette configuration est la meilleure si :
   
 - Votre système PBX n’offre pas de fonctionnalités uniques que vous devez conserver.
     
-- Plan, le service d’appel Office 365 RTC, l’appel n’est pas disponible dans votre région.
+- Plan, le service Office 365 PSTN d’appel, l’appel n’est pas disponible dans votre région.
     
-- Ne pas un Lync existant ou un Skype pour le déploiement du serveur de l’entreprise.
+- Ne pas un Lync existant ou Skype pour le déploiement de serveur d’entreprise.
     
-Pour plus d’informations, reportez-vous à la section [planifier Skype pour connecteur de Cloud Business Edition](plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md).
+Pour plus d’informations, voir [planifier Skype pour l’édition de connecteur Business Cloud](plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md).
   
 ## <a name="integrate-with-exchange-and-sharepoint"></a>Intégration dans Exchange et SharePoint
 <a name="BKMK_IntegratewExchangeSharePoint"> </a>
 
-Un Skype pour configuration hybride d’entreprise vous permet d’intégrer d’autres applications Microsoft Office 365, y compris Exchange Online et SharePoint Online.
+Un Skype pour la configuration hybride Business vous permet d’intégrer avec d’autres applications Microsoft Office 365, notamment Exchange Online et SharePoint Online.
   
 ### <a name="skype-for-business-server-with-exchange-online-and-sharepoint-online"></a>Skype Entreprise Server dans Exchange Online et SharePoint Online
 
@@ -125,7 +127,7 @@ Vous pouvez intégrer Skype pour Business Server avec Exchange Online et SharePo
   
 ![Skype Entreprise Server dans Exchange Online et SharePoint Online](../media/9f456ed2-8777-4a20-a519-c87dfc56b7f5.png)
   
-Intégration de Skype pour Business Server avec Exchange Online et SharePoint Online présente plusieurs avantages. Vous pouvez :
+Intégration Skype pour Business Server avec Exchange Online et SharePoint Online présente plusieurs avantages. Vous pouvez :
   
 - Utilisez l’ensemble complet des fonctionnalités de Skype pour Business Server.
     
@@ -135,36 +137,36 @@ Intégration de Skype pour Business Server avec Exchange Online et SharePoint On
     
 - Utiliser SharePoint Online pour collaborer, ce qui allège la charge de maintenance des serveurs SharePoint locaux.
     
-- Skype d’utilisation pour les entreprises, Exchange et SharePoint intégré des fonctionnalités, y compris la messagerie unifiée (MU) dans Office 365.
+- Utiliser Skype pour entreprises, Exchange et SharePoint intégré des fonctionnalités, y compris la messagerie unifiée dans Office 365.
     
-Pour plus d’informations, reportez-vous à la section [planifier l’intégration de Skype pour les entreprises et Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Pour plus d’informations, voir [planifier l’intégration Skype pour les entreprises et Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
 ### <a name="exchange-server-with-skype-for-business-online"></a>Exchange Server avec Skype Entreprise Online
 
-Vous pouvez intégrer Exchange Server avec Skype pour entreprise en ligne comme illustré dans le diagramme suivant :
+Vous pouvez intégrer Exchange Server Skype pour Business Online comme indiqué dans le diagramme suivant :
   
 ![Intégration d’Exchange à Skype Entreprise Online](../media/e8ca44ad-f47c-46a3-9cef-8fe7deafd615.png)
   
-Intégration d’Exchange Server avec Skype pour Business Online présente les avantages suivants :
+Intégration d’Exchange Server avec Skype pour Business Online offre les avantages suivants :
   
 - Exploitation de votre infrastructure Exchange existante.
     
-- Utiliser Skype pour l’activité en ligne pour les fonctions de présence, messagerie instantanée et les conférences. 
+- Utiliser Skype pour Business Online pour les fonctionnalités de présence, messagerie instantanée et la conférence. 
     
-Pour plus d’informations, reportez-vous à la section [planifier l’intégration de Skype pour les entreprises et Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Pour plus d’informations, voir [planifier l’intégration Skype pour les entreprises et Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
 ## <a name="tasks-for-planning-and-configuring-a-hybrid-environment"></a>Planifier et configurer un environnement hybride
 <a name="BKMK_Tasks"> </a>
 
-Skype pour entreprise fournit un ensemble rich de fonctions quel que soit le mode de l’architecture de votre déploiement. L’architecture que vous choisirez déterminera les responsabilités IT dont vous aurez la charge, et celles dont Microsoft s’occupera dans le cadre de votre abonnement. Quelle que soit la meilleure architecture pour votre organisation, vous aurez toujours la charge de ces cinq responsabilités fondamentales :
+Skype pour les entreprises fournit un large éventail de fonctionnalités, quel que soit le mode de l’architecture de votre déploiement. L’architecture que vous choisirez déterminera les responsabilités IT dont vous aurez la charge, et celles dont Microsoft s’occupera dans le cadre de votre abonnement. Quelle que soit la meilleure architecture pour votre organisation, vous aurez toujours la charge de ces cinq responsabilités fondamentales :
   
-- **Mise en réseau et connectivité** - assurer la disponibilité par le biais de pare-feux, des serveurs proxy, des passerelles et des liaisons WAN et la capacité réseau en effectuant une évaluation réseau ou par contractantes avec un partenaire pour effectuer l’évaluation.
+- **Mise en réseau et connectivité** - assurer la disponibilité via le pare-feu, les serveurs proxy, les passerelles et sur les liaisons WAN et la capacité du réseau en effectuant une évaluation du réseau ou en contractantes avec un partenaire pour effectuer l’évaluation.
     
-- **Gouvernance des données &amp; gestion des droits** - classifier vos données sensibles et s’assurer qu’il est protégé et surveillé partout où il est stocké et lorsqu’il est en transit.
+- **La gouvernance des données &amp; gestion des droits** - classer vos données sensibles et vérifiez qu’il est protégé et surveillé partout où il est stocké et s’il est en transit.
     
-- **Points de terminaison clients** - établir, de mesurer et d’appliquer des normes de sécurité modernes sur les périphériques qui sont utilisés pour accéder à vos données et vos ressources.
+- **Points de terminaison clients** - établir, mesurer et appliquer des normes de sécurité modernes sur les périphériques qui sont utilisés pour accéder à vos données et les ressources.
     
-- **Compte &amp; accéder à la gestion** - établir un profil des activités de compte « normal » et signaler toute activité inhabituelle.
+- **Compte &amp; accéder à la gestion** - établir un profil pour des activités de compte « normal » et d’alerte sur l’activité inhabituelle.
     
 - **Identité** : Utilisez des informations d’identification sécurisées par le matériel ou par Multi-Factor Authentication (MFA) pour toutes les identités. 
     
@@ -178,11 +180,11 @@ En plus des tâches liées à l’architecture que vous effectuez pour votre env
     
 - Décider si vous voulez vous connecter à Office 365 par l’intermédiaire du protocole IPv6.
     
-- Déterminer combien intégrant des versions en ligne de Skype et des locaux pour les entreprises, Exchange et SharePoint est souhaitée. 
+- Déterminer quelle fonctionnalité d’intégration avec locaux et des versions en ligne de Skype pour entreprises, Exchange et SharePoint est souhaitée. 
     
 - Déterminer quel serveur proxy sera utilisé pour les requêtes d’Office 365.
     
-Vous devrez également effectuer le suivi des tâches IT Pro pour implémenter votre Skype pour environnement hybride :
+Vous devez également effectuer le suivi des tâches professionnels de l’informatique pour implémenter votre Skype pour un environnement hybride :
   
 - Vérifiez que vous disposez d’un client Microsoft Office 365 avec Skype pour Business Online activé.
     
@@ -192,7 +194,7 @@ Vous devrez également effectuer le suivi des tâches IT Pro pour implémenter v
     
 - Configurer votre pare-feu ou votre proxy pour les exigences d’URL et d’adresse IP d’Office 365.
     
-- Administrer des comptes d’utilisateurs et Skype pour les paramètres de l’activité en ligne. 
+- Administrer des comptes d’utilisateurs et Skype pour les paramètres d’entreprise en ligne. 
     
 - Configurer le serveur proxy, si besoin.  
     
@@ -205,22 +207,22 @@ Pour plus d’informations, consultez les ressources suivantes :
   
 - [Ressources d’architecture informatique en nuage Microsoft](https://aka.ms/clouditarch)
     
-- [Identité de cloud Microsoft pour enterprise architects](https://aka.ms/cloudidarch)
+- [Identité du cloud Microsoft pour les architectes de l’entreprise](https://aka.ms/cloudidarch)
     
-- [Préparer votre organisation pour Office 365 Enterprise](https://aka.ms/O365EntPrep)
+- [Préparer votre organisation à Office 365 pour entreprises](https://aka.ms/O365EntPrep)
     
 - [Planifier une connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](plan-hybrid-connectivity.md)
     
-- [Déployer la connectivité hybride entre Skype pour Business Server et Skype pour professionnels en ligne](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
+- [Déployer la connectivité hybride entre Skype pour Business Server et Skype pour Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
     
-- [Système de téléphone dans les solutions Office 365](plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)
+- [Système téléphonique dans les solutions Office 365](plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)
     
-- [Planifier l’intégration de Skype pour les entreprises et Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
+- [Planifier l’intégration Skype pour les entreprises et Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
     
 Si vous souhaitez télécharger cette rubrique dans un format d’affiche, rendez-vous sur :
   
-- [Skype pour modèles architecturaux d’entreprise (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.pdf)
+- [Skype pour l’architecture des modèles d’entreprise (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.pdf)
     
-- [Skype pour modèles architecturaux (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.vsd)
+- [Skype pour des modèles d’entreprise architecturaux (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.vsd)
     
 

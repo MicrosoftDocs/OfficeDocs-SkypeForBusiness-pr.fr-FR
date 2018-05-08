@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Résumé : Configurez votre serveur non configuration requise pour Skype pour Business Server 2015. Il existe plusieurs choses que vous souhaiterez configuré avant de procéder à votre déploiement, notamment Active Directory, DNS, des certificats et partages.'
-ms.openlocfilehash: ed01b466abe46a83ca4d44b2cb555c85ab9af248
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 61b5d0a9bbce1fc2549f01f7f13209e87f74caf0
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Conditions préalables d’environnement pour Skype Entreprise Server 2015
  
@@ -358,9 +358,9 @@ Skype pour Business Server 2015 est en mesure d’utiliser le même partage de f
   
 - Un partage de fichiers doit se trouver sur un stockage DAS (Direct Attached Storage) ou un réseau de stockage SAN (Storage Area Network), dont un système de fichiers distribués (DFS) et sur une solution RAID (Redundant Array Of Independent Disks) pour les magasins de fichiers. Pour plus d’informations sur DFS pour Windows Server 2012, consultez la rubrique [cette page DFS](https://technet.microsoft.com/en-us/library/jj127250.aspx).
     
-- Nous vous recommandons d’un cluster partagé pour le partage de fichiers. Si vous utilisez, vous devez de cluster Windows Server 2012 ou Windows Server 2012 R2. Windows Server 2008 R2 est également acceptable. Pourquoi Windows le plus récent ? Les versions antérieures n’est peut-être pas les autorisations pour activer toutes les fonctionnalités. Vous pouvez utiliser l’administrateur de Cluster pour créer les partages de fichiers, et cet article de la [Création d’un Cluster](https://support.microsoft.com/kb/284838) KB vous aider avec les détails.
+- Nous vous recommandons d’un cluster partagé pour le partage de fichiers. Si vous utilisez, vous devez de cluster Windows Server 2012 ou Windows Server 2012 R2. Windows Server 2008 R2 est également acceptable. Pourquoi Windows le plus récent ? Les versions antérieures n’est peut-être pas les autorisations pour activer toutes les fonctionnalités. Vous pouvez utiliser l’administrateur de Cluster pour créer les partages de fichiers, et cet article de [la création de partages de fichiers sur un cluster de](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster) vous aider avec les détails.
     
-> [!CAUTION]
+> [!CAUTION] 
 > Vous devez savoir que le dispositif de stockage réseau (NAS) ne prend pas en charge le partage de fichiers. Vous devez donc utiliser l’une des options proposées ci-après. 
   
 

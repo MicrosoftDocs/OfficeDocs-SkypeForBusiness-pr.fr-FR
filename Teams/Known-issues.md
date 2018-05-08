@@ -10,11 +10,11 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 303e2d14e009d2a0f6493646f3f2466b94920fa4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 087273d7d5d4d1eb20b83925087479ac702e72a3
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
   
@@ -30,6 +30,10 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Options de connecteur est manquante pour certaines équipes  <br/> |Lorsque vous cliquez avec le bouton droit sur un canal, l'option Connecteurs ne s'affiche pour aucun membre de l'équipe.  <br/> |Le créateur de l'équipe doit posséder une boîte aux lettres en ligne. Sinon, l'option Connecteur n'est pas disponible. Il s'agit d'un comportement normal.  <br/> |26.06.2017  <br/> |
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|« Affectations » application reste visibles lorsque désactivé  <br/> |Lorsque l’application « Affectations » est désactivée dans le centre d’administration, il reste visible dans le client équipes pour les utilisateurs sous licence EDU. Sélectionnant Lorsque désactivée renvoie une erreur indiquant, « Doh ! Un problème... »  <br/> |Aucune solution.  <br/> |29/12/17  <br/> |
 
 ## <a name="authentication"></a>Authentification
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
@@ -73,6 +77,10 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Les utilisateurs ne peuvent pas recréer un nom de canal préexistant.  <br/> |Une fois qu'un nom de canal a été défini, même si le canal est supprimé, le nom ne peut pas être réutilisé. Notre système conserve ces données pour des raisons de protection des informations.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Changement de nom d’un canal dans Microsoft Teams ne renomme pas le dossier correspondant dans SharePoint Online  <br/> |Si un canal est renommé dans Microsoft Teams, le dossier dans la bibliothèque de documents SharePoint Online correspondant à l’équipe ne change pas pour correspondre. Au lieu de cela, un nouveau dossier est créé pour le nouveau nom de canal. Les fichiers dans le dossier de bibliothèque de documents d’origine ne sont pas migrés.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
 
 ## <a name="chat"></a>Conversation
 

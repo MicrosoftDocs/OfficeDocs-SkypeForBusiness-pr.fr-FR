@@ -1,5 +1,5 @@
 ---
-title: Quels sont les Plans d’appel dans Office 365 ?
+title: Que sont les Plans de l’appel dans Office 365 ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,43 +15,42 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 - LIL_Placement
 description: "Learn what Office 365 Callings Plans (PSTN calling) are, what regions it's available in, and where to go for step by step instructions on how to set it up. "
 search.appverid: MED150, MOE150
-ms.openlocfilehash: 1ae2f8a7fd4ff3a9f94d1601fdfee67b2c85ec17
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: fa3d5226ce5427bf2431f6f01c49717bc93c5bc4
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
-# <a name="what-are-calling-plans-in-office-365"></a>Quels sont les Plans d’appel dans Office 365 ?
+# <a name="what-are-calling-plans-in-office-365"></a>Que sont les Plans de l’appel dans Office 365 ?
 
-Plans d’appel sont un téléphone complément du service qui, lorsqu’elle est combinée avec un système téléphonique dans Office 365, peut devenir le système téléphonique pour toute votre organisation. Un Plan d’appel fournit les personnes de votre entreprise avec un numéro de téléphone principal et leur permet d’effectuer et de recevoir des appels téléphoniques à l’extérieur de votre organisation. Il existe deux types de Plans d’appel : **Intérieur appelant Plan** et un **domestiques et envisagez d’appel International**. Pour plus d’informations, voir [l’Appel de Plans pour Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md).
+Plans d’appel sont un téléphone de module complémentaire de service qui, lorsqu’il est associé avec un système téléphonique dans Office 365, peut devenir le système téléphonique de votre organisation. Un Plan de l’appel fournit les personnes dans votre entreprise avec un numéro de téléphone principal et leur permet d’émettre et recevoir des appels téléphoniques à l’extérieur de votre organisation. Il existe deux types de Plans de l’appel : **Planifier l’appel interne** et un **national et International appelant planifier**. Pour plus d’informations, voir [Appel Plans pour Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md).
   
-Les utilisateurs à qui sont attribués des numéros de téléphone peuvent passer des appels vocaux depuis tous les appareils Skype Entreprise, y compris les [Obtention de numéros de téléphone pour Skype Entreprise Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md), les PC et les appareils mobiles. Ils peuvent contrôler leurs appels par le biais de téléphones de bureau à l’aide de fonctionnalités telles que désactiver/réactiver le son, suspension/reprise, appelez le transfert et transfert d’appel.
+Les utilisateurs à qui sont attribués des numéros de téléphone peuvent passer des appels vocaux depuis tous les appareils Skype Entreprise, y compris les [Obtention de numéros de téléphone pour Skype Entreprise Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md), les PC et les appareils mobiles. Ils peuvent contrôler leurs appels par le biais de téléphones de bureau à l’aide de fonctionnalités telles que/désactiver le son, attente/reprendre, transfert d’appel et le transfert d’appel.
   
-## <a name="start-here"></a>Démarrer ici
+## <a name="start-here"></a>Commencer ici
 
-Avant de configurer cela, examinez ces rubriques pour vos questions que éventuelles :
+Avant de configurer cette, jetez un œil à des questions, que vous devrez peut-être les rubriques suivantes :
   
-- Pour voir si votre pays/région a des Plans d’appel disponibles, le nombre de minutes que vous obtenez choisir [pays et la disponibilité dans la région pour les conférences Audio et les Plans d’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) dans la liste déroulante vers le bas.
+- Pour voir si votre pays/région a appelant Plans disponibles et le nombre de minutes que vous obtenez sélectionnez [pays et la disponibilité dans la région de conférence Audio et des Plans de l’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) dans la liste déroulante vers le bas.
     
-- Si vous pensez que vous allez passer sur le nombre de minutes, [configurer les crédits de Communications pour votre organisation](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+- Si vous pensez que vous allez passer sur le nombre de minutes, [configurer les Communications crédits pour votre organisation](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
     
-- Vous pouvez trouver des informations de prix [ici](https://go.microsoft.com/fwlink/?linkid=799761).
+- Vous trouverez des informations sur la tarification [ici](https://go.microsoft.com/fwlink/?linkid=799761).
     
 ## <a name="setting-it-up"></a>Configuration de la fonction
 
-Configuration des Plans d’appel est simple. Vous pouvez rechercher, acheter et attribuer des nouveaux numéros de téléphone à des utilisateurs. Vous pouvez également transférer vos numéros existants vers Office 365.
+Il est facile de configurer des Plans de l’appel. Vous pouvez rechercher, acheter et attribuer des nouveaux numéros de téléphone à des utilisateurs. Vous pouvez également transférer vos numéros existante vers Office 365.
   
- **Pour obtenir des instructions d’installation étape par étape, consultez [définir des Plans d’appel](set-up-calling-plans.md).**
+ **Pour obtenir des instructions d’installation pas à pas, consultez [configurer des Plans de l’appel](set-up-calling-plans.md).**
   
-Pour plus d’informations sur le système téléphonique, Plans d’appel et les conférences audio, voir cette vidéo YouTube : [système de téléphone Office 365 et accès à distance aux réunions dans Skype pour les entreprises](https://www.youtube.com/watch?v=5Cxawu9mIag&amp;list=PLXtHYVsvn_b8dbRbnL19GUPcBH1UQ7c4x&amp;index=28).
+Pour en savoir plus sur le système téléphonique, l’appel des Plans et de conférence audio, voir cette vidéo YouTube : [Office 365 téléphone système et des réunions de rendez-vous dans Skype pour les entreprises](https://www.youtube.com/watch?v=5Cxawu9mIag&amp;list=PLXtHYVsvn_b8dbRbnL19GUPcBH1UQ7c4x&amp;index=28).
 
 > [!NOTE]
 > Si vous devez obtenir plus de numéros de téléphone, vous pouvez contacter le [support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

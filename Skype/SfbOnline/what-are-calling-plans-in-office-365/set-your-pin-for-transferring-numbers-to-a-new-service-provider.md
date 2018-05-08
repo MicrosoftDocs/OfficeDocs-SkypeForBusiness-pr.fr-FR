@@ -15,50 +15,49 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
-description: Pour transférer ou à un autre fournisseur de services de téléphone ou le transporteur de port des numéros de téléphone de Skype pour professionnels en ligne, vous devez définir manuellement un code confidentiel. Après avoir défini le code confidentiel, vous devez inclure lorsque vous demandez un numéro de téléphone par le port.
-ms.openlocfilehash: 80b782880f8acc2767ed6743ddf2e89f24299308
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: Pour transférer ou vers un autre fournisseur de services de téléphone ou opérateur de port des numéros de téléphone à partir de Skype pour Business Online, vous devez définir manuellement un code confidentiel. Une fois que vous définissez le code confidentiel, vous devez inclure lorsque vous demandez à un numéro de téléphone à des ports.
+ms.openlocfilehash: 30eaed1f5ec139f82dce75cfec77c873b8f491de
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Définir votre code confidentiel pour le transfert des numéros à un fournisseur de services
 
-Pour transférer ou *port des* numéros de téléphone à partir de Skype pour entreprise en ligne à un autre fournisseur de services de téléphone ou le transporteur, vous devrez définir manuellement un code confidentiel. Après avoir défini le code confidentiel, vous devez inclure lorsque vous demandez un numéro de téléphone par le port. 
+Pour transférer ou *port des* numéros de téléphone à partir de Skype pour Business Online vers un autre fournisseur de services de téléphone ou opérateur, vous devez définir manuellement un code confidentiel. Une fois que vous définissez le code confidentiel, vous devez inclure lorsque vous demandez à un numéro de téléphone à des ports. 
   
 > [!IMPORTANT]
-> Un port des broches est utilisé uniquement pour les entreprises aux États-Unis. 
+> Un port out code confidentiel est uniquement utilisé pour les organisations aux États-Unis. 
   
-Pour plus d’informations sur le transfert et le portage des numéros de téléphone d’entrée/sortie, consultez [transfert des numéros de téléphone à Office 365](transfer-phone-numbers-to-office-365.md) .
+Pour plus d’informations sur le transfert et portage des numéros de téléphone d’entrée/sortie, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md) .
   
-Voici certaines des informations spécifiques sur cette broche que vous devez savoir :
+Voici des informations spécifiques sur ce code confidentiel, vous devez connaître :
   
-- Si un code PIN n’est pas défini, vous ne pourrez au transfert ou au port, les numéros de téléphone à partir de Skype pour les entreprises en ligne.
+- Si un code confidentiel n’est pas défini, vous ne pourrez transfert ou port des numéros de téléphone à partir de Skype pour Business Online.
     
-- Il peut contenir des chiffres de 6 à 10 (nombres).
+- Il peut contenir 6 à 10 chiffres (numéros).
     
-- Il ne peut pas contenir de lettres ou caractères spéciaux.
+- Il ne peut pas contenir de caractères spéciaux.
     
-- Le code PIN par défaut est vide, mais si vous introduisez un dans, vous ne peut pas supprimer ou valeur par défaut vide.
+- Le code confidentiel par défaut est vide, mais si vous placez dans, vous ne peut pas supprimer ou définissez-la sur vide.
     
-- Vous pouvez mettre à jour ou modifier le code confidentiel après avoir mis un en.
+- Vous pouvez mettre à jour ou modifier le code confidentiel, une fois que vous avez placé un dans.
     
 ## <a name="set-up-your-pin"></a>Configurer votre code confidentiel
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises**.
+2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises**.
     
-3. Dans la navigation de gauche, choisissez **voix** > **des commandes de Port**.
+3. Dans la navigation de gauche, choisissez **voix** > **commandes Port**.
     
-4. Cliquez sur **la valeur vers le haut et de gérer le code confidentiel** qui est utilisé pour le transfert ou le portage des numéros à un autre transporteur du service.
+4. Cliquez sur **définir configurer et gérer le code confidentiel** qui est utilisé pour le transfert ou portage des numéros à un autre transporteur de service.
     
-5. Dans la **définir ou modifier le port des broches** panneau, entrez votre code confidentiel, puis cliquez sur **Enregistrer**.
+5. Dans la **définir ou modifier le port de votre absence code confidentiel** panneau, entrez votre code confidentiel et cliquez sur **Enregistrer**.
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

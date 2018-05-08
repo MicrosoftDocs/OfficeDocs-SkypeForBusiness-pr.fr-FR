@@ -73,8 +73,7 @@
 ### [Que sont les emplacements, les adresse et le routage d'appel d'urgence ?](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [Qu'est-ce que les offres d'appel ?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## Système téléphonique d'Office 365
-### [Qu'est-ce que le système téléphonique dans Office 365 ?](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [Système téléphonique dans Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Créer une file d’attente de système téléphonique](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtention de téléphones pour Skype Entreprise Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Déploiement de téléphones pour Skype Entreprise Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
@@ -87,6 +86,7 @@
 ### [Configurer un standard automatique pour le système téléphonique](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [La configuration système téléphonique de votre organisation](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [Que sont les standards automatiques de système téléphonique ?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+#### [Configurer un standard automatique pour le système téléphonique](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
 ## [Configurer votre réseau pour la diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [Licences pour blocage d'utilisateurs pour la diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)

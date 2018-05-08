@@ -15,21 +15,20 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
-description: Découvrez comment afficher une liste de tous les numéros de téléphone dans votre organisation, tous les numéros affectés aux utilisateurs et tous les nombres qui sont attribués aux utilisateurs de la voix de la Skype pour le centre d’administration Business.
-ms.openlocfilehash: f1bbb27fc1432d411a8241c75bf4e7ba12ccbe0d
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: Découvrez comment afficher une liste de tous les numéros de téléphone dans votre organisation, tous les numéros affectés aux utilisateurs et tous les numéros qui sont affectées aux utilisateurs de voix à partir de la Skype entreprise centre d’administration.
+ms.openlocfilehash: 26dc251308d63b2feb91134a052e37c97c145568
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Affichage de la liste des numéros de téléphone de votre organisation
 
-Il existe différents types de numéros de téléphone que vous pouvez affecter à des utilisateurs ou d’autres services (numéros de service), tel que pour les conférences Audio dans Office 365.
+Il existe différents types de numéros de téléphone que vous pouvez affecter à des utilisateurs ou d’autres services (numéros de service), tels que pour une audioconférence dans Office 365.
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Pour obtenir une liste des numéros de téléphone disponibles pour votre organisation
 
@@ -40,19 +39,19 @@ Il existe différents types de numéros de téléphone que vous pouvez affecter 
 3. Dans le panneau de navigation de gauche de **Centre d'administration Skype Entreprise**, sélectionnez **Voix** > **Numéros de téléphone**.
     
     > [!IMPORTANT]
-    > Pour pouvoir voir l’option **voix** dans la navigation de gauche dans le Skype pour le centre d’administration métier, vous devez d’abord acheter au moins une **licence d’entreprise E5**, une licence de module complémentaire de **Système téléphonique** ou une licence de module complémentaire **d’Audioconférence** .
+    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
-4. Pour afficher les numéros de téléphone associés, consultez la colonne **numéro** .
+4. Pour afficher les numéros de téléphone qui sont affectés, consultez la colonne **numéro** .
     
-5. Vous pouvez utiliser la liste déroulante pour filtrer votre affichage par :
+5. Vous pouvez utiliser la liste déroulante pour filtrer l’affichage par :
     
   - **Tous** les numéros de téléphone y compris les numéros de service
     
-  - Téléphone **numéro plage** que vous définissez.
+  - Téléphone **plage de numéros** que vous avez définie.
     
   - Numéros de téléphone qui sont **affectées à l’utilisateur**.
     
-  - Les numéros de téléphone **affecté à la conférence** pour les conférences à distance.
+  - Numéros de téléphone **affecté à la conférence** pour les conférences rendez-vous.
     
   - Numéros de téléphone **non affectés**.
     
@@ -69,9 +68,9 @@ Lorsque vous configurez des utilisateurs, vous voudrez peut-être afficher uniqu
 3. Dans le panneau de navigation de gauche de **Centre d'administration Skype Entreprise**, sélectionnez **Voix** > **Utilisateurs Voix**.
     
     > [!IMPORTANT]
-    > Pour pouvoir voir l’option **voix** dans la navigation de gauche dans le Skype pour le centre d’administration métier, vous devez d’abord acheter au moins une **licence d’entreprise E5**, une licence de module complémentaire de **Système téléphonique** ou une licence de module complémentaire **d’Audioconférence** .
+    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
-4. Vous pouvez filtrer votre mode d’affichage des numéros de téléphone qui sont affectés à des utilisateurs ou à des numéros de téléphone que vous pouvez affecter à un utilisateur. Vous pouvez filtrer par :
+4. Vous pouvez filtrer l’affichage pour les numéros de téléphone qui sont affectés à des utilisateurs ou des numéros de téléphone que vous pouvez affecter à un utilisateur. Vous pouvez filtrer par :
     
   - **Tous** les numéros de téléphone y compris les numéros de service
     
@@ -90,9 +89,9 @@ Lorsque vous configurez des utilisateurs de votre organisation pour passer et re
 3. Dans le panneau de navigation de gauche de **Centre d'administration Skype Entreprise**, sélectionnez **Voix** > **Utilisateurs Voix**.
     
     > [!IMPORTANT]
-    > Pour pouvoir voir l’option **voix** dans la navigation de gauche dans le Skype pour le centre d’administration métier, vous devez d’abord acheter au moins une **licence d’entreprise E5**, une licence de module complémentaire de **Système téléphonique** ou une licence de module complémentaire **d’Audioconférence** .
+    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
-4. Si l’utilisateur est en ligne ou sur site, ou l’état et le type de licence d’un utilisateur, vous pouvez utiliser la liste déroulante pour filtrer votre affichage pour les utilisateurs actifs. Vous pouvez filtrer par :
+4. Si l’utilisateur est en ligne ou sur site, ou l’état et le type de licence pour un utilisateur, vous pouvez utiliser la liste déroulante pour filtrer l’affichage pour les utilisateurs actifs. Vous pouvez filtrer par :
     
   - **Utilisateurs actifs** et utilisateurs en ligne ou sur site
     
