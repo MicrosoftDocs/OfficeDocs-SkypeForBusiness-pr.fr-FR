@@ -8,23 +8,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ca35c25c-6238-4e98-a8d0-c225fb605058
-description: Insérez l’introduction ici.
-ms.openlocfilehash: bda33dc75b9a7ed24945d8b71b85c5390c5e412f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Rubriques d’Assistant de déploiement
+ms.openlocfilehash: eff3134a52f2ef776fca9137ab852109ff13fa87
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="help-depwiz"></a>Aide-DepWiz
  
-Insérez l’introduction ici.
+Les rubriques de ce nœud fournissent de l’aide pour le Skype pour l’Assistant de déploiement de serveur d’entreprise.
   
-## <a name="section-heading"></a>Titre de section
 
-Insérez le corps de la section ici.
-  
-### <a name="subsection-heading"></a>Titre de la sous-section
-
-Insérez le corps de la sous-section ici.
   
 

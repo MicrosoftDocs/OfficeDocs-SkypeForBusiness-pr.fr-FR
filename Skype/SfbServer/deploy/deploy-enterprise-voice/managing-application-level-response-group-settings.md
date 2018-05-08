@@ -7,26 +7,28 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: Gestion des paramètres de groupe de réponse au niveau de l’application, tels que les paramètres de rappel et de la musique en attente dans Skype pour Business Server Voix Entreprise.
-ms.openlocfilehash: c202ce60f23594389c7f49f0108f7d03cb1deef5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Gestion des paramètres de Response Group au niveau des applications, telles que les paramètres attente musicale et de rappel, dans Skype pour Business Server Enterprise Voice.
+ms.openlocfilehash: eaf31904958997561be056da728ff3b0b31f9d8b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business-2015"></a>Gestion des paramètres de Response Group au niveau de l’application dans Skype Entreprise 2015
  
-Gestion des paramètres de groupe de réponse au niveau de l’application, tels que les paramètres de rappel et de la musique en attente dans Skype pour Business Server Voix Entreprise.
+Gestion des paramètres de Response Group au niveau des applications, telles que les paramètres attente musicale et de rappel, dans Skype pour Business Server Enterprise Voice.
   
-Les paramètres de niveau application pour les applications de groupe de réponse incluent la musique d’attente dans une configuration par défaut, le fichier audio de musique en attente par défaut, la période de grâce de retour d’appel de l’agent et la configuration de contexte d’appel. Vous pouvez définir un seul ensemble de paramètres de niveau application par pool. Pour afficher les paramètres de niveau application, utilisez l’applet de commande **Get-CsRgsConfiguration** . Pour modifier les paramètres de niveau application, utilisez l’applet de commande **Set-CsRgsConfiguration** .
+Paramètres de niveau application pour l’application Response Group incluent la configuration d’attente musicale par défaut, le fichier audio du attente musicale par défaut, la période de grâce de rappel de l’agent et la configuration de contexte d’appel. Vous pouvez définir un seul ensemble de paramètres de niveau application par pool. Pour afficher les paramètres de niveau application, utilisez l’applet de commande **Get-CsRgsConfiguration** . Pour modifier les paramètres de niveau application, utilisez l’applet de commande **Set-CsRgsConfiguration** .
   
 L’attente musicale par défaut est lue lorsqu’un appel est mis en attente uniquement si aucune attente musicale personnalisée n’est définie. Le contexte de l’appel est disponible uniquement pour les files d’attentes assignées à des flux de travail interactifs. Si le contexte de l’appel est activé, un agent peut afficher des informations telles que le délai d’attente de l’appelant ou des questions et réponses de flux de travail lorsqu’un appel est reçu.
   
-### <a name="to-modify-response-group-application-level-settings"></a>Pour modifier les paramètres de groupe de réponse au niveau de l’application
+### <a name="to-modify-response-group-application-level-settings"></a>Pour modifier les paramètres de niveau application Response Group
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
     
@@ -57,7 +59,7 @@ L’attente musicale par défaut est lue lorsqu’un appel est mis en attente un
 
 [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
-[Ensemble-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
+[Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
-[Importation-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
 

@@ -7,32 +7,34 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: Affecter des stratégies d’emplacement de E9-1-1 pour les sites de réseau de Skype pour Business Server Voix Entreprise.
-ms.openlocfilehash: bf2b8675ebaa14e98f8a362b3a0714037000de95
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Affecter des stratégies d’emplacement E9-1-1 aux sites du réseau dans Skype pour Business Server Enterprise Voice.
+ms.openlocfilehash: 5d6b343db63a309661720a8379d204a0abcac1f5
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server-2015"></a>Ajout d’une stratégie d’emplacement à un site réseau dans Skype Entreprise Server 2015
  
-Affecter des stratégies d’emplacement de E9-1-1 pour les sites de réseau de Skype pour Business Server Voix Entreprise. 
+Affecter des stratégies d’emplacement E9-1-1 aux sites du réseau dans Skype pour Business Server Enterprise Voice. 
   
-Les exemples suivants montrent comment ajouter la stratégie d’emplacement de **Redmond** définie dans les [stratégies d’emplacement de créer dans Skype pour Business Server 2015](create-location-policies.md) à un site de réseau existant et comment créer un nouveau site de réseau qui utilise le site de **Redmond** stratégie.
+Les exemples suivants montrent comment ajouter la stratégie d’emplacement **Redmond** définie dans les [stratégies d’emplacement créer Skype pour Business Server 2015](create-location-policies.md) à un site réseau existant et comment créer un nouveau site réseau qui utilise le site de **Redmond** stratégie.
   
-Pour plus d’informations sur l’utilisation des sites du réseau, consultez la documentation de Communications Server Management Shell pour les applets de commande suivantes :
+Pour plus d’informations sur l’utilisation des sites réseau, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :
   
 - **Nouvelle-CsNetworkSite**
     
 - **Get-CsNetworkSite**
     
-- **Ensemble-CsNetworkSite**
+- **Set-CsNetworkSite**
     
-- **Supprimer-CsNetworkSite**
+- **Remove-CsNetworkSite**
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>Pour affecter une stratégie d’emplacement à un site réseau existant
 

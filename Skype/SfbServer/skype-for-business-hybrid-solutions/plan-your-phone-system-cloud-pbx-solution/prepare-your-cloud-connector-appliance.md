@@ -7,37 +7,39 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
-description: Obtenir des informations sur la façon de préparer votre solution de Cloud connecteur pour le déploiement et l’utilisation avec un système téléphonique dans Office 365 (Cloud PBX).
-ms.openlocfilehash: 8dcc15d2feb12516025afb5e60d916f94a81fa57
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Découvrez comment préparer votre solution de nuage connecteur pour le déploiement et l’utiliser avec le système téléphonique dans Office 365 (en nuage PBX).
+ms.openlocfilehash: 130d593ba94eff9da163363a652bc389b713d1b0
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Préparation de votre appliance Cloud Connector
  
-Obtenir des informations sur la façon de préparer votre solution de Cloud connecteur pour le déploiement et l’utilisation avec un système téléphonique dans Office 365 (Cloud PBX).
+Découvrez comment préparer votre solution de nuage connecteur pour le déploiement et l’utiliser avec le système téléphonique dans Office 365 (en nuage PBX).
   
-Cette rubrique décrit comment obtenir les fichiers d’installation de la version Cloud Connector de Skype Entreprise, comment installer le logiciel Cloud Connector et préparer votre appliance Cloud Connector au déploiement. Après avoir effectué toutes les étapes de cette rubrique, vous serez prêt à déployer Cloud Connector pour un ou plusieurs sites. Si vous disposez d’un déploiement de connecteur de Cloud existant, et vous ne disposez pas encore de nuage lien version 2.1, consultez [mise à niveau vers une nouvelle version de connecteur de nuage](upgrade-to-a-new-version-of-cloud-connector.md).
-  
-> [!NOTE]
-> Microsoft prend en charge la version actuelle de nuage connecteur Edition, version 2.1. Si vous configurez une mise à jour automatique, Cloud Connector se mettra automatiquement à jour. Si vous avez configuré la mise à jour manuelle, vous devrez mettre à niveau vers la version 2.1 dans les soixante jours de sa publication. Microsoft prendra en charge la version précédente pour 60 jours après la publication de 2.1 pour permettre à temps pour mettre à niveau. 
+Cette rubrique décrit comment obtenir les fichiers d’installation de la version Cloud Connector de Skype Entreprise, comment installer le logiciel Cloud Connector et préparer votre appliance Cloud Connector au déploiement. Après avoir effectué toutes les étapes de cette rubrique, vous serez prêt à déployer Cloud Connector pour un ou plusieurs sites. Si vous avez un déploiement en nuage connecteur existant, et vous ne disposez pas encore mis à niveau vers nuage connecteur version 2.1, consultez [mise à niveau vers une nouvelle version du nuage connecteur](upgrade-to-a-new-version-of-cloud-connector.md).
   
 > [!NOTE]
-> Connecteur de nuage version 2.1 et version ultérieure, l’application hôte doit avoir.NET Framework 4.6.1 ou version ultérieure. 
+> Microsoft prend en charge la version actuelle du nuage connecteur Edition, version 2.1. Si vous configurez une mise à jour automatique, Cloud Connector se mettra automatiquement à jour. Si vous avez configuré la mise à jour manuelle, vous devrez mettre à niveau vers la version 2.1 60 jours avant sa publication. Microsoft prendra en charge la version précédente de 60 jours après la publication de 2.1 permettant d’heure pour mettre à niveau. 
+  
+> [!NOTE]
+> L’application hôte .NET Framework 4.6.1 doit être nuage connecteur version 2.1 et version ultérieure, ou version ultérieure. 
   
 > [!IMPORTANT]
-> Pour réussir le déploiement, lorsque vous exécutez les applets de commande pour configurer Skype pour connecteur de Cloud Business Edition, utilisez toujours la même session de console comme celui que vous avez démarré à. Évitez de basculer entre plusieurs sessions lors du déploiement et de la configuration. 
+> Pour un déploiement réussi, lorsque vous exécutez les applets de commande pour configurer Skype pour édition dans le nuage connecteur, utilisez toujours la même session de console que celui que vous avez réactivé à. Évitez de basculer entre plusieurs sessions lors du déploiement et de la configuration. 
   
 > [!NOTE]
 > Certaines étapes peuvent uniquement être exécutées pour la première appliance de votre déploiement : création d’un partage pour l’annuaire de sites, téléchargement de bits et préparation d’un fichier de disque dur virtuel (VHDX) à partir de l’image ISO du serveur Windows. 
   
 ## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>Téléchargement du programme d’installation de Skype Entreprise, version Cloud Connector
 
-1. Sur le serveur hôte où les ordinateurs virtuels connecteur de Cloud s’exécutera, télécharger les fichiers d’installation : [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller). 
+1. Sur le serveur hôte où les ordinateurs virtuels dans le nuage connecteur s’exécutera, téléchargez les fichiers d’installation : [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller). 
     
     > [!IMPORTANT]
     > Le serveur hôte doit pouvoir accéder à Internet lors de l’installation de Cloud Connector, car des fichiers supplémentaires sont téléchargés pendant cette opération. 
@@ -48,13 +50,13 @@ Cette rubrique décrit comment obtenir les fichiers d’installation de la versi
     
 ## <a name="verify-the-installation-and-configure-the-environment"></a>Vérification de l’installation et configuration de l’environnement
 
-1. Ouvrez une console PowerShell en tant qu’administrateur et vérifiez que le Skype pour les applets de commande de connecteur de Cloud Business Edition sont disponibles à l’aide de l’applet de commande suivante :
+1. Ouvrez une console PowerShell en tant qu’administrateur et vérifiez que le Skype pour les applets de commande Business nuage connecteur Edition sont disponibles à l’aide de l’applet de commande suivante :
     
   ```
   Get-Command *-Cc*
   ```
 
-    La commande doit renvoyer une liste des applets de commande pour Skype pour connecteur de Cloud Business Edition.
+    La commande doit renvoyer une liste des applets de commande pour Skype pour l’édition de connecteur Business Cloud.
     
 2. Les fichiers de disques durs virtuels, SfBBits et VersionInfo seront stockés dans l’**Annuaire de sites**.
     
@@ -80,9 +82,9 @@ Cette rubrique décrit comment obtenir les fichiers d’installation de la versi
 
     Si vous déployez la haute disponibilité pour le site, veillez à exécuter l’applet de comment pour définir l’**Annuaire de sites** vers le même emplacement sur chaque serveur hôte dans le site.
     
-    Lorsque vous ouvrez une session et que vous déployez chaque solution matérielle-logicielle sur le site, vérifiez que votre compte d’ouverture de session en cours a l’accès approprié au **Répertoire du Site**.
+    Lorsque vous ouvrez une session et déployez chaque appliance dans le site, vérifiez que votre compte d’ouverture de session en cours a le droit accéder à l' **Annuaire de sites**.
     
-3. Le **Répertoire de la solution matérielle-logicielle** est le répertoire racine travail local Skype pour connecteur de Cloud Business Edition et l’emplacement où sont enregistrés les certificats externes, les instances et les journaux. L’emplacement par défaut est : %USERPROFILE%\CloudConnector\ApplianceRoot.
+3. Le **Répertoire de l’application** est le répertoire racine travail local Skype pour édition dans le nuage connecteur et l’emplacement où les certificats externes, des instances et des journaux sont enregistrés. L’emplacement par défaut est : %USERPROFILE%\CloudConnector\ApplianceRoot.
     
     Pour rechercher l’emplacement de l’**Annuaire de sites** exécutez l’applet de commande suivante :
     
@@ -96,7 +98,7 @@ Cette rubrique décrit comment obtenir les fichiers d’installation de la versi
   Set-CcApplianceDirectory <File path>
   ```
 
-    L’annuaire d’appliances doit être dirigé vers un dossier local de l’appliance. Vous devez uniquement définir le **Répertoire de la solution matérielle-logicielle** avant de commencer la Skype pour le déploiement de connecteur de Cloud Business Edition. Si vous le modifiez après le déploiement, vous devrez redéployer le serveur hôte.
+    L’annuaire d’appliances doit être dirigé vers un dossier local de l’appliance. Vous devez uniquement définir le **Répertoire de l’Appliance** avant de commencer la Skype pour le déploiement dans le nuage connecteur édition. Si vous le modifiez après le déploiement, vous devrez redéployer le serveur hôte.
     
     > [!IMPORTANT]
     > Le chemin d’accès au **répertoire d'équipements** ne doit contenir aucun espace.
@@ -115,9 +117,9 @@ Cette rubrique décrit comment obtenir les fichiers d’installation de la versi
     Spécifiez le chemin d’accès vers le certificat externe, notamment le nom de fichier. Le certificat peut être enregistré localement ou sur un partage de fichier. S’il est enregistré dans un dossier partagé, le dossier partagé doit être créé sur la première appliance de chaque site et être accessible par d’autres appliances appartenant au même site. Cette applet de commande copie le certificat externe vers l’**annuaire d’appliances**.
     
     > [!IMPORTANT]
-    > **Si vous avez mis à jour au connecteur de nuage version 1.4.2 ou une version ultérieure**, assurez-vous que votre certificat externe préparée contient des clés privées et la chaîne de certificats complète, y compris le certificat de l’autorité de certification racine et les certificats CA intermédiaire. > **Si vous avez PAS encore mis à jour au connecteur de nuage version 1.4.2**, assurez-vous que votre certificat externe préparée contient des clés privées. Ce certificat externe doit être émis par une autorité de certification approuvée par défaut par Windows.
+    > **Si vous avez mis à jour vers le nuage connecteur version 1.4.2 ou une version ultérieure**, assurez-vous que votre certificat externe préparé contient les clés privées et la chaîne de certificats complète, y compris le certificat d’autorité de certification racine et les certificats autorité de certification intermédiaire. > **Si vous avez PAS encore mis à jour vers le nuage connecteur version 1.4.2**, assurez-vous que votre certificat externe préparé contient les clés privées. Ce certificat externe doit être émis par une autorité de certification approuvée par défaut par Windows.
   
-## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Définir le chemin d’accès pour le certificat de passerelle/SBC RTPC externe
+## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Définir le chemin d’accès pour le certificat externe de la passerelle/SBC PSTN
 
 Si vous utilisez TLS entre le serveur de médiation et la passerelle RTC/SBC, exécutez l’applet de commande suivante pour configurer le chemin d’accès, notamment le nom de fichier vers le certificat passerelle. Par exemple : C:\certs\cce\sbc.contoso.com.cer. Le certificat doit contenir l’AC racine et la chaîne intermédiaire pour le certificat assigné à la passerelle :
   
@@ -131,23 +133,23 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
   
 ## <a name="create-virtual-switches-in-hyper-v-manager"></a>Création de commutateurs virtuels dans le Gestionnaire Hyper-V
 
-1. Ouvrez le **Gestionnaire Hyper-V** > **Virtual Manager du commutateur**et sélectionnez le **Nouveau gestionnaire de commutateur virtuel**.
+1. Ouvrez le **Gestionnaire Hyper-V** > **Gestionnaire de commutateur virtuel**et sélectionnez **Nouveau gestionnaire de commutateur virtuel**.
     
 2. Créez un commutateur virtuel externe et associez-le à la carte réseau physique qui est connectée à votre domaine réseau interne :
     
     Sélectionnez **Permettre au système d’exploitation de gestion de partager cette carte réseau** pour le commutateur virtuel.
     
-3. Créer un switch virtuel externe et le lie à la carte réseau physique qui est routée vers Internet :
+3. Créer un commutateur virtuel externe et le lier à la carte réseau physique qui est acheminée vers Internet :
     
     Désélectionnez **Autoriser le système d’exploitation de gestion à partager cette carte réseau** pour ce commutateur virtuel.
     
-4. Définissez le nom du commutateur qui connecte votre réseau de périmètre pour votre domaine de réseau interne **SfB CCE Corpnet basculer**.
+4. Définir le nom du commutateur qui se connecte votre réseau de périmètre pour votre domaine du réseau interne **SfB CCE Corpnet basculer**.
     
-    Définissez le nom du commutateur qui connecte votre réseau de périmètre de l’Internet **SfB CCE Internet basculer**.
+    Définir le nom du commutateur qui se connecte votre réseau de périmètre pour l’Internet **SfB CCE Internet basculer**.
     
 ## <a name="update-the-cloudconnectorini-configuration-file"></a>Mise à jour du fichier de configuration CloudConnector.ini
 
-Préparer le fichier CloudConnector.ini en utilisant les informations recueillies à [déterminer les paramètres de déploiement](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) dans la rubrique [planifier Skype pour connecteur de Cloud Business Edition](plan-skype-for-business-cloud-connector-edition.md) .
+Préparer le fichier CloudConnector.ini en utilisant les informations recueillies à [déterminer les paramètres de déploiement](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) dans la rubrique [planifier Skype pour l’édition de connecteur Business Cloud](plan-skype-for-business-cloud-connector-edition.md) .
   
 Pour mettre à jour le fichier, exécutez d’abord l’applet de commande suivante pour obtenir l’exemple de modèle (CloudConnector.Sample.ini) :
   
@@ -157,28 +159,28 @@ Export-CcConfigurationSampleFile
 
 L’exemple de modèle est stocké dans le **répertoire d'équipements**.
   
-Une fois mis à jour avec les valeurs relatives à votre environnement, enregistrez le fichier sous CloudConnector.ini dans le **répertoire d'équipements**. Vous pouvez exécuter **Get-CcApplianceDirectory** pour déterminer le chemin d’accès au **Répertoire de la solution matérielle-logicielle**.
+Une fois mis à jour avec les valeurs relatives à votre environnement, enregistrez le fichier sous CloudConnector.ini dans le **répertoire d'équipements**. Vous pouvez exécuter **Get-CcApplianceDirectory** pour déterminer le chemin d’accès au **Répertoire de l’application**.
   
 Lors de la mise à jour du fichier .ini, tenez compte des points suivants :
   
 > [!NOTE]
-> Cette section couvre uniquement les valeurs du fichier .ini qui comportent des caractéristiques spécifiques. Pour une liste complète, reportez-vous à la section de [déterminer les paramètres de déploiement](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) de la rubrique [planifier Skype pour connecteur de nuage Professionnel](plan-skype-for-business-cloud-connector-edition.md) . > Pour plus d’informations sur ce que les valeurs doivent être modifiées pour des matériels supplémentaires ou de nouveaux sites, consultez [ Un site unique avec High Availability (HA) par rapport aux déploiements multisite](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) dans la rubrique[déployer plusieurs sites dans le connecteur de nuage](deploy-multiple-sites-in-cloud-connector.md). 
+> Cette section couvre uniquement les valeurs du fichier .ini qui comportent des caractéristiques spécifiques. Pour obtenir la liste complète, consultez la section de [déterminer les paramètres de déploiement](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) de la rubrique [planifier Skype pour l’édition de connecteur Business Cloud](plan-skype-for-business-cloud-connector-edition.md) . > Pour plus d’informations sur ce que les valeurs doivent être modifiés pour appliances supplémentaires ou de nouveaux sites, voir [ Site unique avec une haute disponibilité par rapport aux déploiements de plusieurs sites](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) dans la rubrique[déploiement de plusieurs sites dans le nuage connecteur](deploy-multiple-sites-in-cloud-connector.md). 
   
 - **SiteName :** la valeur par défaut est **Site1**. Vous devez la mettre à jour avant de déployer Cloud Connector, car lorsque vous exécutez **Register-CcAppliance** pour enregistrer un équipement dans un site existant ou nouveau, l’applet de commande utilisera le **SiteName** pour déterminer le site à enregistrer.
     
-     Si vous souhaitez enregistrer l’équipement dans un nouveau site, la valeur **SiteName** doit être unique et différent des sites existants. Si vous souhaitez enregistrer la solution matérielle-logicielle à un site existant, la valeur pour **SiteName** dans le fichier .ini doit correspondre à celui défini dans votre configuration de clients Office 365. Si vous copiez un fichier de configuration d’un site vers un autre, veillez à mettre à jour la valeur **SiteName** pour chaque site comme il convient.
+     Si vous souhaitez enregistrer l’équipement dans un nouveau site, la valeur **SiteName** doit être unique et différent des sites existants. Si vous souhaitez inscrire l’application à un site existant, la valeur pour **SiteName** dans le fichier .ini doit correspondre au nom défini dans votre configuration du client Office 365. Si vous copiez un fichier de configuration d’un site vers un autre, veillez à mettre à jour la valeur **SiteName** pour chaque site comme il convient.
     
 - **ServerName :** Le nom de serveur ne doit pas contenir le nom de domaine et se limiter à 15 caractères. 
     
-- **HardwareType :** Si vous ne définissez ou conservez la valeur null, la valeur **normale** par défaut va être utilisée. Si vous envisagez de déployer la version plus grande du connecteur de nuage pour prendre en charge de 500 appels simultanés par ordinateur hôte comme indiqué dans le [Plan de Skype pour connecteur de nuage Professionnel](plan-skype-for-business-cloud-connector-edition.md)d’utiliser **Normal** . Utilisez **Minimum** pour un déploiement moins développé qui prend en charge 50 appels simultanés.
+- **HardwareType :** Si vous ne définissez ou conservez la valeur null, la valeur par défaut du **style Normal** sera utilisée. Utilisez **Normal** si vous prévoyez de déployer la version la plus grande du nuage connecteur pour prendre en charge 500 appels simultanés par ordinateur hôte comme décrit dans [Plan for Skype pour l’édition de connecteur Business Cloud](plan-skype-for-business-cloud-connector-edition.md). Utilisez **Minimum** pour un déploiement moins développé qui prend en charge 50 appels simultanés.
     
-- **Commutateurs virtuels de gestion/Internet/réseau d’entreprise :**: ajouter le nom des commutateurs virtuels que vous avez créé. Pour la commutation virtuelle de gestion, laissez la valeur par défaut. Le script de déploiement crée le commutateur virtuel de gestion au début du déploiement et le supprimer une fois le déploiement.
+- **Commutateurs virtuels Internet/réseau d’entreprise/gestion :**: ajouter le nom des commutateurs virtuels que vous avez créé. Pour le commutateur virtuel gestion, laissez la valeur par défaut. Le script de déploiement crée le commutateur virtuel gestion au début du déploiement et supprimer une fois le déploiement.
     
 - **ManagementIPPrefix :** le paramètre ManagementIPPrefix dans la section Réseau doit être un sous-réseau différent des autres IP internes. Par exemple, comme la valeur par défaut l’indique, ManagementIPPrefix est 192.168.213.0, tandis que AD IPAddress est 192.168.0.238.
     
     Les scripts de déploiement créent une carte réseau de gestion sur chacune des machines virtuelles, affectent une adresse IP de gestion et les connectent à un commutateur virtuel de gestion. Le serveur hôte peut ainsi se connecter aux machines virtuelles et les gérer via ce réseau de gestion. Le commutateur virtuel de gestion est supprimé à l’issue du déploiement.
     
-- **Des configurations spécifiques VM de base :** Paramètres de cette section doivent être configurés pour l’applet de commande **Convert-CcIsoToVhdx** .
+- **Configurations spécifiques d’ordinateur virtuel de base :** Paramètres de cette section doivent être configurés pour l’applet de commande **Convert-CcIsoToVhdx** .
     
     Lors de la préparation de l’image de machine virtuelle de base, la machine virtuelle de base sera connectée au commutateur réseau interne. Les paramètres suivants sont critiques et permettent à la machine virtuelle d’accéder à Internet :
     
@@ -198,17 +200,17 @@ Lors de la mise à jour du fichier .ini, tenez compte des points suivants :
     
   - Assurez-vous que le masque de sous-réseau CorpnetIPPrefixLength est correct.
     
-  - N’Assurez-vous qu’aucun conflit IP pour ces adresses IP internes.
+  - Assurez-vous qu’il n’existe aucun conflit IP pour les adresses IP internes.
     
 - **Adresses IP externes :**
     
-  - Pour l’adresse IP publique du MR : spécifiez ExternalMRIPs pour un périphérique NAT non compatible ou ExternalMRPublicIPs pour NAT.
+  - Pour les adresses IP publiques MR : spécifiez ExternalMRIPs pour NAT non ou ExternalMRPublicIPs pour NAT.
     
-  - ExternalSIPIPs et ExternalMRIPs peuvent être identiques.
+  - ExternalSIPIPs et ExternalMRIPs peut être la même.
     
   - Assurez-vous que le masque de sous-réseau InternetIPPrefixLength est correct.
     
-  - N’Assurez-vous qu’aucun conflit IP pour ces adresses IP externes.
+  - Assurez-vous qu’il n’existe aucun conflit IP pour les adresses IP externes.
     
 - **Passerelles :**
     
@@ -216,9 +218,9 @@ Lors de la mise à jour du fichier .ini, tenez compte des points suivants :
     
   - Assurez-vous que l’adresse IP et le port des passerelles sont corrects.
     
-  - Pour prendre en charge la haute disponibilité de niveau passerelle PSTN, laissez la passerelle secondaire et ajoutez d’autres passerelles que vous utiliserez. Vous pouvez copier et coller une entrée existante et ensuite mettre à jour.
+  - Pour prendre en charge la haute disponibilité de niveau passerelle PSTN, laissez la passerelle secondaire et ajoutez d’autres passerelles que vous utiliserez. Vous pouvez copier et coller une entrée existante et mettez-le à jour.
     
-- Si vous le souhaitez, vous pouvez mettre à jour la valeur de LocalRoute pour limiter les numéros d’appel sortants.
+- Si vous le souhaitez, vous pouvez mettre à jour la valeur LocalRoute pour limiter les numéros d’appel sortants.
     
 ## <a name="download-the-bits-to-the-site-directory"></a>Téléchargement des fichiers BITS dans l’Annuaire de sites
 
@@ -233,22 +235,22 @@ Start-CcDownload
   
 ## <a name="prepare-base-virtual-disk-vhdx-from-the-downloaded-iso-file"></a>Préparation du disque virtuel de base (VHDX) à partir du fichier ISO téléchargé
 
-Cette étape permet de préparer un fichier de disque dur virtuel (VHDX) à partir de l’image ISO Windows Server 2012. Ce VDHX sera utilisé pour créer des machines virtuelles lors du déploiement. Une machine virtuelle temporaire (base VM) est créée et sera installé à partir du fichier ISO Windows Server 2012. Après la création de la machine virtuelle, certains composants requis seront installés et la dernière mise à jour Windows sera appliquée. Après cela, la machine virtuelle de base sera généralisée (sysprep) et nettoyée, seul le fichier de disque virtuel généré sera conservé.
+Cette étape permet de préparer un fichier de disque dur virtuel (VHDX) à partir de l’image ISO Windows Server 2012. Ce VDHX sera utilisé pour créer des machines virtuelles lors du déploiement. Un ordinateur virtuel temporaire (base VM) sera créé et Windows Server 2012 sera installé à partir du fichier ISO. Après la création de la machine virtuelle, certains composants requis seront installés et la dernière mise à jour Windows sera appliquée. Après cela, la machine virtuelle de base sera généralisée (sysprep) et nettoyée, seul le fichier de disque virtuel généré sera conservé.
   
 > [!NOTE]
 > Vous devez effectuer cette étape uniquement pour la première appliance. 
   
 Avant de réaliser cette étape, assurez-vous que le commutateur réseau d’entreprise est créé. D’autre part, veillez à ce que les paramètres suivants soient correctement configurés dans le fichier CloudConnector.ini :
   
-- [Réseau] CorpnetSwitchName
+- [Network] CorpnetSwitchName
     
-- [Courant] BaseVMIP
+- [Courants] BaseVMIP
     
-- [Réseau] CorpnetIPPrefixLength
+- [Network] CorpnetIPPrefixLength
     
-- [Réseau] CorpnetDefaultGateway
+- [Network] CorpnetDefaultGateway
     
-- [Réseau] CorpnetDNSIPAddress
+- [Network] CorpnetDNSIPAddress
     
 Démarrez une console PowerShell en tant qu’administrateur et exécutez l’applet de commande suivante pour convertir l’image ISO en disque dur virtuel (VHD) :
   
@@ -258,10 +260,10 @@ Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 
 Spécifiez le chemin d’accès complet, y compris le nom du fichier, à l’image ISO. Par exemple : C:\ISO\WindowsServer2012R2.iso.
   
-Le fichier de disque dur virtuel créé est stocké dans le dossier \Bits\VHD de **Répertoire du Site** . Vous pouvez obtenir le chemin d’accès à l’**Annuaire de sites** en exécutant **Get-CcSiteDirectory**.
+Le fichier de disque dur virtuel créé est stocké dans le dossier \Bits\VHD **Annuaire de sites** . Vous pouvez obtenir le chemin d’accès à l’**Annuaire de sites** en exécutant **Get-CcSiteDirectory**.
   
 > [!IMPORTANT]
-> Par défaut, les paramètres proxy ne sont pas configurés dans la machine virtuelle de base. Si un proxy est requis dans votre environnement réseau, mettre à jour la machine virtuelle via Windows Update, vous devez ajouter le commutateur - PauseBeforeUpdate lorsque vous exécutez « Convertir-CcIsoToVhdx ». Le script s’interrompt avant la mise à jour de Windows et vous aurez la possibilité de définir manuellement un proxy sur l’ordinateur virtuel. Une fois le proxy installé et que la machine virtuelle peut accéder à Internet, vous pouvez reprendre le script pour effectuer les étapes restantes. 
+> Par défaut, les paramètres proxy ne sont pas configurés dans la machine virtuelle de base. Si un proxy est nécessaire dans votre environnement réseau pour mettre à jour de la machine virtuelle via Windows Update, vous devez ajouter le commutateur - PauseBeforeUpdate lorsque vous exécutez « Convert-CcIsoToVhdx ». Le script s’interrompt avant la mise à jour Windows et vous aurez l’occasion pour définir manuellement un proxy sur l’ordinateur virtuel. Une fois le proxy installé et que la machine virtuelle peut accéder à Internet, vous pouvez reprendre le script pour effectuer les étapes restantes. 
   
 ### <a name="create-vhds-for-a-multi-site-deployment"></a>Création de VHD pour un déploiement multisite
 
@@ -269,7 +271,7 @@ Cette étape facultative s’applique uniquement aux déploiements multisites.
   
 Si vous effectuez un déploiement multisite, il n’est pas nécessaire de convertir l’image ISO en VHD pour chaque site. Vous pouvez copier le VHDX créé pour le premier site sur le serveur hôte pour un second site.
   
- Copiez le fichier vers le même emplacement (dossier \Bits\VHD de **l’Annuaire de sites** ) et avec le même nom de fichier, sur le serveur hôte pour un site supplémentaire.
+ Copiez le fichier vers le même emplacement de fichier (dossier \Bits\VHD de **l’Annuaire de sites** ) et portant le même nom de fichier, sur le serveur hôte pour un site supplémentaire.
   
 ## <a name="set-the-powershell-execution-policy-to-remotesigned"></a>Définition de la stratégie d’exécution PowerShell sur RemoteSigned
 
@@ -290,7 +292,7 @@ Set-ExecutionPolicy RemoteSigned
 > [!NOTE]
 > Cette tâche n'est pas requise pour les versions 1.4.2 et suivantes de Cloud Connector. 
   
-Le compte CceService est créé lors du déplacement de Skype Entreprise, version Cloud Connector. Il exécute le Service de gestion de Cloud connecteur et nécessite une autorisation pour désinstaller le cloudconnector.msi. Vous devez modifier le paramètre de stratégie de groupe locale sur l’ordinateur hôte de Cloud Connector pour spécifier que le registre de l’utilisateur ne doit pas être déchargé lors de sa déconnexion. Suivez la procédure suivante :
+Le compte CceService est créé lors du déplacement de Skype Entreprise, version Cloud Connector. Il s’exécute le Service de gestion en nuage connecteur et nécessite une autorisation pour désinstaller le cloudconnector.msi. Vous devez modifier le paramètre de stratégie de groupe locale sur l’ordinateur hôte de Cloud Connector pour spécifier que le registre de l’utilisateur ne doit pas être déchargé lors de sa déconnexion. Suivez la procédure suivante :
   
 ### <a name="to-change-the-group-policy-setting"></a>Pour modifier le paramètre de stratégie de groupe locale
 
@@ -302,10 +304,10 @@ Le compte CceService est créé lors du déplacement de Skype Entreprise, versi
     
 ## <a name="set-up-your-office-365-tenant"></a>Configurez votre client Office 365.
 
-Un locataire d’Office 365 avec Skype pour Business Online et système téléphonique dans Office 365 est requis. Assurez-vous que votre client est installé et configuré avant de tenter d’utiliser le connecteur du nuage.
+Un client Office 365 avec Skype pour Business Online et système téléphonique dans Office 365 est requis. Assurez-vous que votre client est installé et configuré avant d’essayer d’utiliser le connecteur sur le nuage.
   
-Certaines étapes de configuration d’Office 365 vous obligent à utiliser PowerShell distant de clients (TRPS) pour configurer vos clients Office 365. **Il doit être installé sur le serveur hôte**. Vous pouvez télécharger le Skype pour module Business Online pour PowerShell à partir de :[Skype pour Business Online, Module de Windows PowerShell](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Certaines étapes de configuration d’Office 365 vous obligent à utiliser PowerShell à distance de client (TRPS) pour configurer votre client Office 365. **Il doit être installé sur le serveur hôte**. Vous pouvez télécharger le Skype pour le module Business Online pour PowerShell à partir de :[Skype pour Business Online, le Module Windows PowerShell](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
   
-Créer un Skype dédié pour le compte d’administrateur entreprise pour la gestion en ligne de connecteur de nuage, par exemple CceOnlineManagmentAdministrator. Ce compte sera utilisé pour ajouter ou supprimer un équipement, activer ou désactiver une mise à jour de SE automatique, activer ou désactiver la mise à jour automatique de fichiers binaires. Définissez le mot de passe de ce compte pour qu’il n’expire jamais ; ainsi vous n’aurez jamais à le modifier pour le service.
+Créez un Skype dédié pour le compte d’administrateur entreprise pour la gestion en ligne dans le nuage connecteur, par exemple CceOnlineManagmentAdministrator. Ce compte sera utilisé pour ajouter ou supprimer un équipement, activer ou désactiver une mise à jour de SE automatique, activer ou désactiver la mise à jour automatique de fichiers binaires. Définissez le mot de passe de ce compte pour qu’il n’expire jamais ; ainsi vous n’aurez jamais à le modifier pour le service.
   
 

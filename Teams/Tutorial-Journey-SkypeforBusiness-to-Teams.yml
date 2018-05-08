@@ -12,14 +12,15 @@ metadata:
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
+  localization_priority: Priority
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 81407bfcaa3eb9947b77f0793dd01f38570d808a
-  ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
-  ms.translationtype: HT
+  ms.openlocfilehash: ff3bd0ef632b1e694f0e90aa46966641071be2dc
+  ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+  ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/05/2018
+  ms.lasthandoff: 05/03/2018
 items:
 - durationInMinutes: 1
   content: "Dans cette formation, nous vous exposons la nouvelle perspective que nous avons pour les communications intelligentes et nous vous expliquons le futur qui est réservé à Skype Entreprise et Teams.\n\nCette formation vous est destinée si : \n\n- vous êtes un professionnel de l’informatique ; \n\n- vous êtes responsable de la planification, du déploiement ou de la gestion de Skype Entreprise ;\n\n- vous souhaitez savoir comment présenter Teams auprès de votre organisation.\n\nNous verrons en détail dans quelle mesure ces deux produits vont de pair et nous vous expliquerons les démarches à effectuer dès aujourd'hui pour préparer un environnement Skype Entreprise existant à l'arrivée de Teams. Voici les principaux objectifs de ce didacticiel :\n\n- Comprendre la perspective pour les communications intelligentes\n\n- Comprendre la transition de Skype Entreprise Online à Teams\n\n- Comprendre les démarches à effectuer dès aujourd'hui\n\nLes procédures pratiques pour activer Teams ou pour exécuter côte à côte Skype Entreprise et Teams ne seront pas abordées ici. Pour plus d’informations, consultez les ressources suivantes :\n\n- Session Microsoft Ignite 2017 : [Activer et configurer Microsoft Teams pour vos utilisateurs](https://myignite.microsoft.com/sessions/53318)\n\n- [Mise à niveau et coexistence de Skype Entreprise et Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) \n\nSi vous avez des questions ou des commentaires pour cette formation, veuillez :\n\n- Publier dans la section des commentaires au bas de la page « Étapes suivantes » de ce didacticiel</a>\n\n- Nous contacter par e-mail à [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)\n\n- Vous rendre sur [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public) pour nous faire part de vos commentaires sur le produit, tels que des demandes de fonctionnalité\n"

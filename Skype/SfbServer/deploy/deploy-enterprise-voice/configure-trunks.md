@@ -7,22 +7,24 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
-description: 'Résumé : Apprenez à configurer un tronc d’un serveur de médiation et d’homologues de Voix Entreprise dans Skype pour Business Server 2015.'
-ms.openlocfilehash: a2630d3e37e6ab15a0e88593549e9365ac69a3e7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment configurer une jonction entre un serveur de médiation et des homologues pour Enterprise Voice dans Skype pour Business Server 2015.'
+ms.openlocfilehash: 4944cac2b06d837facf0cf014fb3a4fd32343305
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="configure-trunks-in-skype-for-business-server-2015"></a>Configuration des jonctions dans Skype Entreprise Server 2015
  
-**Résumé :** Apprenez à configurer un tronc d’un serveur de médiation et d’homologues de Voix Entreprise dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment configurer une jonction entre un serveur de médiation et des homologues pour Enterprise Voice dans Skype pour Business Server 2015.
   
-Dans le cadre du déploiement de Voix Entreprise, vous pouvez configurer un tronc d’un serveur de médiation et un ou plusieurs des homologues suivants pour fournir un réseau téléphonique public commuté (RTPC) pour les clients de Voix Entreprise et périphériques de votre organisation :
+Dans le cadre du déploiement d’Enterprise Voice, vous pouvez configurer une jonction entre un serveur de médiation et un ou plusieurs des homologues suivantes pour fournir un réseau téléphonique commuté (RTC) pour les clients Enterprise Voice et les périphériques de votre organisation :
   
 - Connexion de jonction SIP vers un fournisseur de services de téléphonie Internet
     
@@ -30,20 +32,20 @@ Dans le cadre du déploiement de Voix Entreprise, vous pouvez configurer un tron
     
 - Autocommutateur privé (PBX)
     
-Pour plus de détails, reportez-vous à la section [planifier la connectivité RTPC dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
+Pour plus d’informations, voir [planifier la connectivité PSTN dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   
-Skype pour les fonctionnalités de Business Server prend en charge plusieurs associations entre les passerelles et les serveurs de médiation. Ces associations sont effectuées en définissant un tronc, qui est une association entre un pool de serveur de médiation et une public commuté (RTPC) passerelle, contrôleur de Session en périphérie (SBC) ou IP-PBX de logique. Utilisez le Générateur de topologie pour associer des passerelles avec les serveurs de médiation (autrement dit, les trunks).
+Skype pour la fonctionnalité Business Server prend en charge plusieurs associations entre les passerelles et les serveurs de médiation. Ces associations sont effectuées en définissant une jonction, qui est une association entre un pool de serveurs de médiation et une passerelle réseau téléphonique commuté, contrôleur de Session en périphérie (SBC) ou IP-PBX logique. Utilisez le Générateur de topologies pour associer les passerelles avec les serveurs de médiation (c'est-à-dire, jonctions).
   
-- Pour affecter ou supprimer une ligne dans Skype pour Business Server, vous devez d’abord définir un tronc dans le Générateur de topologies. Un tronc se compose de l’association suivante : serveur de médiation qualifié le nom de domaine (FQDN), le port d’écoute de serveur de médiation, la nom de domaine complet de la passerelle et le port d’écoute de passerelle.
+- Pour affecter ou supprimer une jonction dans Skype pour Business Server, vous devez d’abord définir une jonction dans le Générateur de topologie. Une jonction se compose de l’association suivante : serveur de médiation complet nom de domaine (FQDN), le port d’écoute du serveur de médiation, la nom de domaine complet de la passerelle et le port d’écoute de passerelle.
     
-- Pour configurer plusieurs troncs, vous pouvez créer plusieurs associations entre la même passerelle et le serveur de médiation. Cela fournit des capacités supplémentaires de résistance à l’infrastructure de Voix Entreprise, ce qui est particulièrement utile dans les scénarios d’interoperational private branch exchange (PBX). 
+- Pour configurer plusieurs jonctions, vous pouvez créer plusieurs associations entre la même passerelle et le serveur de médiation. Cela offre une résilience supplémentaire à l’infrastructure Enterprise Voice, qui est particulièrement utile dans les scénarios d’interoperational autocommutateur privé (PBX) exchange. 
     
-Lorsqu’une jonction est définie, elle doit être associée à un itinéraire. Pour associer un tronc d’un itinéraire, vous définissez un nom simple pour le tronc dans le Générateur de topologies. Ce nom simple est utilisé comme nom de tronc dans le Skype pour panneau de commande de serveur Business, où les puits peuvent être associés à des itinéraires. Le nom de jonction simple est utilisé comme nom de passerelle de la Skype pour Business Server Management Shell. 
+Lorsqu’une jonction est définie, elle doit être associée à un itinéraire. Pour associer une jonction à un itinéraire, vous définissez un nom simple pour la jonction dans le Générateur de topologie. Ce nom simple est utilisé comme nom de jonction dans le Skype pour Business Server Control Panel, où les jonctions peuvent être associées à des itinéraires. Le nom de la jonction simple est utilisé en tant que le nom de la passerelle à partir de la Skype pour Business Server Management Shell. 
   
 ```
 New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}
 ```
 
-L’administrateur doit sélectionner un tronc par défaut associé à un serveur de médiation. Dans le Générateur de topologie, sélectionnez le serveur de médiation associé et puis cliquez sur **Propriétés**. Spécifiez la passerelle par défaut pour le serveur de médiation. 
+L’administrateur doit sélectionner une jonction par défaut associée à un serveur de médiation. Dans le Générateur de commandes, cliquez sur le serveur de médiation associé, puis cliquez sur **Propriétés**. Spécifiez la passerelle par défaut pour le serveur de médiation. 
   
 

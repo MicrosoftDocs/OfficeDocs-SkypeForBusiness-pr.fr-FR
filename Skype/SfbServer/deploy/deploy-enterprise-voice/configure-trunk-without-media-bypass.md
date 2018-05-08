@@ -7,28 +7,30 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
-description: 'Résumé : Configurer un tronc sans le contournement de média activé pour Skype pour Business Server 2015.'
-ms.openlocfilehash: 5e3aa618370d77d9781827dfdfe261f6ed43dd8c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Configurez une jonction sans contournement de média activé pour Skype pour Business Server 2015.'
+ms.openlocfilehash: 1885ef2a599398fa0ef9d36075d80e0a9f588dd5
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server-2015"></a>Configuration d’une jonction sans déviation du trafic multimédia dans Skype Entreprise Server 2015
  
-**Résumé :** Configurer un tronc sans le contournement de média activé pour Skype pour Business Server 2015.
+**Résumé :** Configurer une jonction sans contournement de média activé pour Skype pour Business Server 2015.
   
-Pour configurer une jonction sur laquelle la déviation du trafic multimédia est désactivée, procédez comme suit. Si vous souhaitez configurer un tronc avec activé le contournement de média, consultez [configurer une jonction avec un support ignorer dans Skype pour Business Server 2015](configure-trunk-with-media-bypass.md).
+Pour configurer une jonction sur laquelle la déviation du trafic multimédia est désactivée, procédez comme suit. Si vous souhaitez configurer une jonction avec contournement de média activé, voir [configurer une jonction avec support de contournement dans Skype pour Business Server 2015](configure-trunk-with-media-bypass.md).
   
 Une configuration de jonction, comme indiqué dans la suite de cette rubrique, regroupe un ensemble de paramètres appliqués aux jonctions affectées à cette configuration de jonction. Une configuration de jonction spécifique peut s’étendre au niveau global (à toutes les jonctions qui ne disposent plus d’une configuration de site ou de pool spécifique) ou au niveau d’un site ou d’un pool. La configuration de jonction au niveau du pool est utilisée pour étendre une configuration de jonction spécifique à une jonction unique.
   
 ### <a name="to-configure-a-trunk-without-media-bypass"></a>Pour configurer une jonction sans déviation du trafic multimédia
 
-1. Ouvrez Skype pour le panneau de configuration de Business Server.
+1. Ouvrez le panneau de configuration serveur Business Skype.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Configuration de la jonction**.
     
@@ -38,12 +40,12 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
     
    - Cliquez sur **Nouvelle**, puis sélectionnez une étendue pour la nouvelle configuration de jonction :
     
-   - **Jonction de site**: choisissez le site pour cette configuration de jonction dans **Sélectionner un Site**, puis cliquez sur **OK**. Notez que si une configuration de jonction a déjà été créée pour un site, le site n’apparaît pas dans la zone **Sélectionner un Site**. Cette configuration de jonction s’appliqueront à tous les puits qui y aboutissent dans le site.
+   - **Jonction de site**: choisissez le site pour cette configuration de jonction dans **Sélectionner un Site**, puis cliquez sur **OK**. Notez que si une configuration de tronçon a déjà été créée pour un site, le site n’apparaît pas dans la zone **Sélectionner un Site**. Cette configuration de jonction sera appliquée à toutes les jonctions dans le site.
     
-   - **Jonction de pool**: choisissez le nom du tronc auquel s’applique cette configuration de jonction dans **Sélectionner un Service** et cliquez sur **OK**. Cette jonction peut être le tronc racine ou les trunks supplémentaires définies dans le Générateur de topologies. Notez que si une configuration de jonction a déjà été créée pour une ligne spécifique, le tronc n’apparaît pas dans la zone **Sélectionner un Service**.
+   - **Jonction de pool**: choisissez le nom du segment auquel s’applique cette configuration de jonction dans **Sélectionner un Service** , cliquez sur **OK**. Cette jonction peut être la jonction racine, ou les jonctions supplémentaires définies dans le Générateur de topologie. Notez que si une configuration de tronçon a déjà été créée pour une jonction spécifique, la jonction n’apparaît pas dans la zone **Sélectionner un Service**.
     
     > [!NOTE]
-    > Une fois que l’étendue de la configuration de jonction est sélectionnée, elle ne peut plus être modifiée. > Le champ **nom** est prédéfinie avec le nom de site associé de la configuration jonction ou de service et ne peut pas être modifié.
+    > Une fois que l’étendue de la configuration de jonction est sélectionnée, elle ne peut plus être modifiée. > Le champ **nom** est prédéfinie avec le nom d’associé site de la configuration jonction ou service et ne peut pas être modifié.
   
 4. Sélectionnez l’une des options de **Niveau de prise en charge du chiffrement** :
     
@@ -57,11 +59,11 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
     
 6. Activez la case à cocher **Traitement multimédia centralisé** si un point de terminaison média connu existe (par exemple, une passerelle RTC sur laquelle la terminaison multimédia possède la même adresse IP que la terminaison de signalisation). Désactivez cette case à cocher si la jonction ne comporte pas de point de terminaison multimédia connu.
     
-7. Si l’homologue trunk prend en charge la réception SIP demandes à partir du serveur de médiation, activez la case à cocher **Activer l’envoi de faire référence à la passerelle** .
+7. Si l’homologue de jonction prend en charge la réception de demandes SIP REFER à partir du serveur de médiation, activez la case à cocher **permettre l’envoi de faire référence à la passerelle** .
     
-8. (Facultatif) Pour permettre le routage interjonction, associez et configurez les enregistrements d’utilisation RTC à cette configuration de jonction. Les utilisations de RTPC associées à cette configuration de jonction seront appliquées pour tous les appels entrants via le trunk qui n’est pas originaires d’un Skype pour point de terminaison de serveur d’entreprise. Pour gérer les enregistrements d’utilisation RTC associés à une configuration de jonction, appliquez l’une des méthodes suivantes :
+8. (Facultatif) Pour permettre le routage interjonction, associez et configurez les enregistrements d’utilisation RTC à cette configuration de jonction. Les utilisations PSTN associées à cette configuration de jonction seront appliquées pour tous les appels entrants par le biais de la jonction qui n’est pas provenant d’un Skype pour le point de terminaison Business Server. Pour gérer les enregistrements d’utilisation RTC associés à une configuration de jonction, appliquez l’une des méthodes suivantes :
     
-   - Pour sélectionner un ou plusieurs enregistrements à partir d’une liste de tous les enregistrements d’utilisation RTPC disponibles dans votre déploiement de Voix Entreprise, cliquez sur **Sélectionner**. Sélectionnez les enregistrements à associer à cette configuration de jonction, puis cliquez sur **OK**.
+   - Pour sélectionner un ou plusieurs enregistrements d’une liste de tous les enregistrements d’utilisation PSTN disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Sélectionnez les enregistrements à associer à cette configuration de jonction, puis cliquez sur **OK**.
     
    - Pour supprimer un enregistrement d’utilisation RTC de cette configuration de jonction, sélectionnez l’enregistrement, puis cliquez sur **Supprimer**.
     
@@ -76,11 +78,11 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
   
      c. Pour associer et configurer les itinéraires pour cet enregistrement d’utilisation RTC, appliquez l’une des méthodes suivantes :
     
-     - Pour sélectionner un ou plusieurs itinéraires à partir de la liste de toutes les routes disponibles dans votre déploiement de Voix Entreprise, cliquez sur **Sélectionner**. Sélectionnez les itinéraires à associer à cet enregistrement d’utilisation RTC, puis cliquez sur **OK**. 
+     - Pour sélectionner un ou plusieurs itinéraires à partir de la liste de tous les itinéraires disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Sélectionnez les itinéraires à associer à cet enregistrement d’utilisation RTC, puis cliquez sur **OK**. 
     
      - Pour supprimer un itinéraire de l’enregistrement d’utilisation RTC, sélectionnez l’itinéraire et cliquez sur **Supprimer**.
     
-     - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, consultez [créer ou modifier un itinéraire de voix dans Skype pour 2015 de Business](create-or-modify-a-voice-route.md).
+     - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md).
     
      - Pour modifier un itinéraire associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
     
@@ -92,35 +94,35 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
     
     b. Pour associer et configurer les itinéraires pour cet enregistrement d’utilisation RTC, appliquez l’une des méthodes suivantes :
     
-     - Pour sélectionner un ou plusieurs itinéraires à partir de la liste de toutes les routes disponibles dans votre déploiement de Voix Entreprise, cliquez sur **Sélectionner**. Sélectionnez les itinéraires à associer à cet enregistrement d’utilisation RTC, puis cliquez sur **OK**. 
+     - Pour sélectionner un ou plusieurs itinéraires à partir de la liste de tous les itinéraires disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Sélectionnez les itinéraires à associer à cet enregistrement d’utilisation RTC, puis cliquez sur **OK**. 
     
      - Pour supprimer un itinéraire de l’enregistrement d’utilisation RTC, sélectionnez l’itinéraire et cliquez sur **Supprimer**.
     
-     - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, consultez [créer ou modifier un itinéraire de voix dans Skype pour 2015 de Business](create-or-modify-a-voice-route.md).
+     - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md).
     
      - Pour modifier un itinéraire associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
     
     c. Cliquez sur **OK**.
     
      > [!IMPORTANT]
-     > Il est important d’associer les enregistrements d’utilisation RTPC en fonction de l’homologue de serveur de médiation qui est associé à la jonction en cours de configuration. Si l’homologue de serveur de médiation est une passerelle PSTN ou un contrôleur de Session en périphérie (SBC), il est fortement recommandé que la configuration de jonction n’est pas associée à un enregistrement de l’utilisation de RTPC itinéraires vers une destination PSTN ou tous les autres systèmes en aval est connectés via Skype pour le serveur de l’entreprise. 
+     > Il est important d’associer des enregistrements d’utilisation PSTN en fonction de l’homologue du serveur de médiation qui est associé à la jonction en cours de configuration. Si l’homologue du serveur de médiation est une passerelle PSTN ou un contrôleur de Session en périphérie (SBC), il est fortement recommandé que la configuration de jonction n’est pas associée à un enregistrement d’utilisation PSTN qui achemine vers une destination PSTN ou tous les autres systèmes en aval connecté via Skype pour un serveur d’entreprise. 
   
-9. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez l’enregistrement de l’utilisation de TLS et cliquez sur la flèches ou bas.
+9. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez l’enregistrement d’utilisation PSTN et cliquez sur l’ou les flèches vers le bas.
     
     > [!IMPORTANT]
-    > L’ordre des enregistrements d’utilisation RTC dans la liste de la configuration de jonction a son importance. Skype pour Business Server parcourt la liste de haut en bas. 
+    > L’ordre des enregistrements d’utilisation RTC dans la liste de la configuration de jonction a son importance. Skype pour Business Server parcourt la liste du haut vers le bas. 
   
 10. **Activer l’accrochage RTP** doit être sélectionné pour activer la déviation du trafic multimédia pour les clients se trouvant derrière un convertisseur d’adresses réseau (NAT) ou un pare-feu et un contrôleur SBC prenant en charge l’accrochage.
     
-11. **Activer l’historique des appels de transfert** doit être sélectionné pour permettre l’envoi d’informations de l’historique des appels à l’homologue de la passerelle du serveur de médiation.
+11. **Activer l’historique du transfert d’appel** doit être sélectionné pour permettre l’envoi des informations d’historique des appels à l’homologue de passerelle du serveur de médiation.
     
-12. **Activer identité affirmée P transfèrent les données** doit être sélectionnée pour activer des informations d’expéditeur appel PAI devant être transmises entre le serveur de médiation et le côté de la passerelle (et inversement), lorsque la présente.
+12. **Activer les données de transfert P-Asserted-Identity** doit être sélectionné pour activer les informations de PAI à transférer entre le côté serveur de médiation et le côté passerelle (et vice versa), lorsque présenter.
     
-13. L’option **Activer le minuteur de basculement de routage de trafic sortant** doit être sélectionnée pour permettre un basculement rapide. La passerelle associée à cette jonction peut avertir dans les 10 secondes du traitement de l’appel sortant. Réacheminement vers un autre trunk se produira si cette notification n’est pas reçue par le serveur de médiation. Sur les réseaux dont la latence peut retarder le temps de réponse ou si la passerelle met plus de 10 secondes à répondre, le basculement rapide doit être désactivé.
+13. L’option **Activer le minuteur de basculement de routage de trafic sortant** doit être sélectionnée pour permettre un basculement rapide. La passerelle associée à cette jonction peut avertir dans les 10 secondes du traitement de l’appel sortant. Redirection vers une autre jonction se produit si cette notification n’est pas reçue par le serveur de médiation. Sur les réseaux dont la latence peut retarder le temps de réponse ou si la passerelle met plus de 10 secondes à répondre, le basculement rapide doit être désactivé.
     
 14. (Facultatif) Associez et configurez les **règles de conversion du numéro d’appel** pour la jonction. Ces règles de conversion s’appliquent au numéro appelant pour les appels sortants
     
-   - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de traduction qui sont disponibles dans votre déploiement de Voix Entreprise, cliquez sur **Sélectionner**. Dans **Sélectionner les règles de conversion**, cliquez sur les règles à associer à la jonction, puis cliquez sur **OK**.
+   - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de traduction qui sont disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Dans **Sélectionner les règles de conversion**, cliquez sur les règles à associer à la jonction, puis cliquez sur **OK**.
     
    - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, consultez [règles de traduction dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
@@ -135,7 +137,7 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
   
 15. (Facultatif) Associez et configurez les **règles de conversion de numéro appelé** pour la jonction. Les règles de conversion s’appliquent au numéro appelé dans un appel sortant.
     
-   - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de traduction qui sont disponibles dans votre déploiement de Voix Entreprise, cliquez sur **Sélectionner**. Dans **Sélectionner les règles de conversion**, cliquez sur les règles à associer à la jonction, puis cliquez sur **OK**.
+   - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de traduction qui sont disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Dans **Sélectionner les règles de conversion**, cliquez sur les règles à associer à la jonction, puis cliquez sur **OK**.
     
   - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, consultez [règles de traduction dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
@@ -148,23 +150,23 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
      > [!CAUTION]
      > N’associez pas de règles de conversion à une configuration de jonction si vous avez configuré les règles de conversion sur l’homologue de jonction associé, car les deux règles risquent d’entrer en conflit. 
   
-16. Assurez-vous que les règles de traduction du tronc sont disposés dans l’ordre correct. Pour modifier la position d’une règle dans la liste, mettez en surbrillance le nom de la règle, puis cliquez sur haut ou flèche vers le bas.
+16. Assurez-vous que les règles de traduction de la jonction sont organisées dans l’ordre correct. Pour modifier la position d’une règle dans la liste, mettez en surbrillance le nom de la règle, puis cliquez sur l’ou flèche vers le bas.
     
     > [!IMPORTANT]
-    > Skype pour Business Server parcourt la liste des règles de traduction à partir du haut vers le bas et utilise la première règle qui correspond le numéro composé. Si vous configurez une jonction de sorte qu’un numéro composé corresponde à plusieurs règles de conversion, vérifiez que les règles les plus restrictives s’affichent avant les règles les moins restrictives. Par exemple, si vous avez inclus une règle de traduction qui correspond à n’importe quel numéro à 11 chiffres et une règle de traduction qui correspond à seulement 11 chiffres qui commencent par +1425, assurez-vous que la règle qui correspond à n’importe quel numéro à 11 chiffres est triée *ci-dessous* la plus restrictive règle.
+    > Skype pour Business Server parcourt la liste des règles de traduction à partir du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous configurez une jonction de sorte qu’un numéro composé corresponde à plusieurs règles de conversion, vérifiez que les règles les plus restrictives s’affichent avant les règles les moins restrictives. Par exemple, si vous avez inclus une règle de traduction qui correspond à n’importe quel numéro à 11 chiffres et une règle de traduction qui établit une correspondance avec uniquement les numéros à 11 chiffres commençant par + 1425, assurez-vous que la règle qui correspond à n’importe quel numéro à 11 chiffres est triée *ci-dessous* plus restrictif règle.
   
 17. Lorsque vous avez fini de configurer la jonction, cliquez sur **OK**.
     
 18. Dans la page **Configuration de la jonction**, cliquez sur **Valider**, puis sur **Tout valider**. 
     
     > [!NOTE]
-    > Chaque fois que vous créez ou modifiez une configuration de jonction, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, consultez [publication des modifications en attente à la configuration de routage voix dans Skype pour entreprise 2015](voice-route-config-changes.md) dans la documentation d’opérations.
+    > Chaque fois que vous créez ou modifiez une configuration de jonction, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour Business 2015](voice-route-config-changes.md) dans la documentation des opérations.
   
 ## <a name="see-also"></a>Voir aussi
 
 #### 
 
-[Configurer une jonction avec le contournement de média dans Skype pour Business Server 2015](configure-trunk-with-media-bypass.md)
+[Configurer une jonction avec contournement de média dans Skype pour Business Server 2015](configure-trunk-with-media-bypass.md)
 #### 
 
 [Définition des règles de traduction](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)

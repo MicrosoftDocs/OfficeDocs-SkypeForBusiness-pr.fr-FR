@@ -7,26 +7,28 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: Créer ou modifier des liens de la région de réseau, qui sont utilisés par le contrôle d’admission appel Voix Entreprise dans Skype pour Business Server.
-ms.openlocfilehash: f2b9ba5d6ccf2c2648bf755306001350f82c2931
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Créer ou modifier des liens de région réseau, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server.
+ms.openlocfilehash: e0fbabb811ec604b3a0155074a01bc4b02bd6152
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-network-region-links-in-skype-for-business-server-2015"></a>Création de liens de région réseau dans Skype Entreprise Server 2015
  
-Créer ou modifier des liens de la région de réseau, qui sont utilisés par le contrôle d’admission appel Voix Entreprise dans Skype pour Business Server. 
+Créer ou modifier des liens de région réseau, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server. 
   
-Au sein d’un réseau, les régions sont liées par une connectivité au réseau étendu physique. Un lien de zone réseau crée un lien entre les deux régions configuré pour contrôle d’Admission appels (CAC) et définit les limites de la bande passante sur le trafic audio et vidéo entre ces régions.
+Au sein d’un réseau, les régions sont liées par une connectivité au réseau étendu physique. Un lien de région réseau crée un lien entre deux régions configurées pour contrôle d’admission des appels (CAC) et définit les restrictions de bande passante sur le trafic audio et vidéo entre ces régions.
   
-L’exemple de topologie possède un lien entre les régions Amérique du Nord et APAC, ainsi qu’un lien entre les régions EMEA et APAC. Chacun de ces liens région est limité par la bande passante WAN, comme décrit dans la table d’informations sur la bande passante de lien de région dans [exemple : collecte des besoins pour un appel de contrôle d’admission dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+L’exemple de topologie possède un lien entre les régions Amérique du Nord et APAC, ainsi qu’un lien entre les régions EMEA et APAC. Chacun de ces liens de région est limité par la bande passante du WAN, comme décrit dans la table d’informations sur la bande passante de lien de région dans [exemple : collecte des conditions requises pour le contrôle d’admission des appels dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
   
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Pour créer des liaisons de réseau de zone pour Business Server Management Shell à l’aide de Skype
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Pour créer des liens de région réseau à l’aide de Skype pour Business Server Management Shell
 
 1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
     
@@ -40,9 +42,9 @@ L’exemple de topologie possède un lien entre les régions Amérique du Nord e
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Pour créer des liaisons de réseau de zone de panneau de configuration de Business Server à l’aide de Skype
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Pour créer des liens de région réseau à l’aide de Skype pour Business Server Control Panel
 
-1. Ouvrez Skype pour le panneau de configuration de Business Server.
+1. Ouvrez le panneau de configuration serveur Business Skype.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
     
@@ -73,7 +75,7 @@ L’exemple de topologie possède un lien entre les régions Amérique du Nord e
   
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
   
-[Ensemble-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
+[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
-[Supprimer-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
+[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
 

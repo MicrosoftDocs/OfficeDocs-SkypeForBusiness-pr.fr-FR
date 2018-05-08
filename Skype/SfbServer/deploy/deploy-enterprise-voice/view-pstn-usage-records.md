@@ -7,26 +7,28 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
-description: 'Résumé : Apprenez à afficher des enregistrements d’utilisation de TLS à l’aide de la Skype pour le panneau de configuration de Business Server ou le Skype pour Business Server Management Shell.'
-ms.openlocfilehash: 63e35879f9530d56ef770584de45a169c20ea057
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment afficher les enregistrements d’utilisation PSTN à l’aide de la Skype pour le panneau de configuration serveur Business ou le Skype pour Business Server Management Shell.'
+ms.openlocfilehash: e4e58326fade20a48b032cf6cdc575894152fac0
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business-2015"></a>Afficher des enregistrements d’utilisation RTC dans Skype Entreprise 2015
  
-**Résumé :** Apprenez à afficher des enregistrements d’utilisation de TLS à l’aide de la Skype pour le panneau de configuration de Business Server ou le Skype pour Business Server Management Shell.
+**Résumé :** Découvrez comment afficher les enregistrements d’utilisation PSTN à l’aide de la Skype pour le panneau de configuration serveur Business ou le Skype pour Business Server Management Shell.
   
-Un enregistrement d’utilisation du réseau téléphonique commuté (RTC) spécifie une classe d’appel (interne, local ou longue distance) qui peut être utilisée par différents utilisateurs ou groupes d’utilisateurs dans une organisation. Pour plus d’informations, consultez les [Enregistrements d’utilisation de TLS](http://technet.microsoft.com/library/b5f624aa-abe8-455b-a8e3-c228be230463.aspx) dans la documentation de planification.
+Un enregistrement d’utilisation du réseau téléphonique commuté (RTC) spécifie une classe d’appel (interne, local ou longue distance) qui peut être utilisée par différents utilisateurs ou groupes d’utilisateurs dans une organisation. Pour plus d’informations, voir [Enregistrements d’utilisation PSTN](http://technet.microsoft.com/library/b5f624aa-abe8-455b-a8e3-c228be230463.aspx) dans la documentation de planification.
   
-### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>Pour afficher un enregistrement de l’utilisation de TLS pour le panneau de configuration de Business Server à l’aide de Skype
+### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>Pour afficher un enregistrement d’utilisation PSTN pour le panneau de configuration serveur Business à l’aide de Skype
 
-1. Ouvrez Skype pour le panneau de configuration de Business Server.
+1. Ouvrez le panneau de configuration serveur Business Skype.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Utilisation RTC**.
     
@@ -35,9 +37,9 @@ Un enregistrement d’utilisation du réseau téléphonique commuté (RTC) spéc
     > [!NOTE]
     > Une page en lecture seule de l’enregistrement d’utilisation RTC sélectionné affiche les itinéraires associés et les stratégies de voix associées. 
   
-### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>Pour afficher des informations sur l’utilisation de TLS pour les applets de commande Business Server Management Shell à l’aide de Skype
+### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>Pour afficher les informations d’utilisation PSTN à l’aide de Skype pour les applets de commande Business Server Management Shell
 
-- Pour afficher des informations sur toutes les utilisations de votre RTPC, tapez la commande suivante dans la Skype pour Business Server Management Shell et puis appuyez sur ENTRÉE :
+- Pour afficher des informations sur toutes vos utilisations PSTN, tapez la commande suivante dans le Skype pour Business Server Management Shell, puis appuyez sur ENTRÉE :
     
   ```
   Get-CsPstnUsage
@@ -54,5 +56,5 @@ Un enregistrement d’utilisation du réseau téléphonique commuté (RTC) spéc
 
 #### 
 
-[Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation de TLS dans Skype pour entreprise 2015](voice-policy-and-pstn-usage-records.md)
+[Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour Business 2015](voice-policy-and-pstn-usage-records.md)
 

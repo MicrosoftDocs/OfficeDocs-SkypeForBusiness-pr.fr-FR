@@ -1,5 +1,5 @@
 ---
-title: Set up a Phone System auto attendant
+title: Configurer un standard automatique de système téléphonique
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,35 +15,34 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
-description: 'Learn how to set up and test Phone System (Cloud PBX) auto attendants for efficient call handling for your organization. '
-ms.openlocfilehash: 456c60fb02b3ef63b14b2ff2e369c78a90edeb0d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 'Découvrez comment configurer et tester les standards automatiques de système téléphonique (PBX nuage) pour efficace gestion des appels pour votre organisation. '
+ms.openlocfilehash: dae8dc68162944f6547615626d5e94912a99caf2
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="set-up-a-phone-system-auto-attendant"></a>Set up a Phone System auto attendant
+# <a name="set-up-a-phone-system-auto-attendant"></a>Configurer un standard automatique de système téléphonique
 
-Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center. Pour créer un standard automatique, accédez à **Routage des appels** dans le volet de navigation de gauche, puis sélectionnez **Standards automatiques** > **Ajouter nouveau**.
+Standards automatiques permettent aux personnes qui appellent votre organisation et accédez à les atteindre le bon service, appelez la file d’attente, la personne ou l’opérateur un système de menus. Vous pouvez créer un standard automatique pour votre organisation à l’aide de la Skype entreprise centre d’administration. Pour créer un standard automatique, accédez à **Routage des appels** dans le volet de navigation de gauche, puis sélectionnez **Standards automatiques** > **Ajouter nouveau**.
   
-If you want to learn more about auto attendants, see [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
+Si vous souhaitez en savoir plus sur les standards automatiques, voir [Quelles sont les standards automatiques de système téléphonique ?](what-are-phone-system-auto-attendants.md)
   
 ## <a name="step-1---getting-started"></a>Étape 1 : prise en main
 
-- Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service numbers, they will show up on the **Skype for Business admin center** > **Voice** > **Phone numbers** page. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md), or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. If you are outside the United States, you can't use the Skype for Business admin center to get service numbers; go [here](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead.
+- Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. Une fois que vous obtenez les numéros gratuits service payant, ils s’affichent sur le **Skype pour le centre d’administration Business** > **vocale** > page de**numéros de téléphone** . Pour obtenir vos numéros de service, voir les [numéros de téléphone de service de mise en route pour Skype pour les professionnels et les équipes Microsoft](getting-service-phone-numbers.md), ou si vous souhaitez transférer et le numéro de service existant, voir [transférer des numéros de téléphone vers Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. Si vous êtes en dehors des États-Unis, vous ne pouvez pas utiliser le Skype entreprise centre d’administration pour obtenir les numéros de service ; Accédez [ici](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) à la place.
     
     > [!CAUTION]
-    > To get and use toll-free phone numbers, you need to set up Communications Credits. To do this see [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) and [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md). 
+    > Pour obtenir et utiliser les numéros de téléphone, vous devez configurer les crédits de Communications. À suivre, consultez [Quelles sont les Communications crédits ?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) et [configurer les Communications crédits pour votre organisation](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md). 
   
-- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned affects the number of service numbers that are available to be used for auto attendants. The numbers of auto attendants you can have is dependent on the number **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, go [here](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Votre organisation doit avoir (au minimum), une licence entreprise E3 plus **Système téléphonique** ou une licence Enterprise E5. Le nombre de licences utilisateur **Système téléphonique** qui sont assignés affecte le nombre de numéros de service qui sont disponibles pour être utilisés pour les standards automatiques. Les numéros des standards automatiques que vous pouvez avoir dépend de licences numéros **Système téléphonique** et de **Conférence** qui sont assignés au sein de votre organisation. Pour en savoir plus sur les licences, accédez [ici](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
-    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans in Office 365 to them. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. For example, run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` 
+    > Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne avec une licence de **Système téléphonique** , vous devez les activer pour Enterprise Voice ou de leur attribuer des Plans de l’appel dans Office 365. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez :`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` 
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Étape 2 : création d'un standard automatique
 
@@ -54,160 +53,160 @@ Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage d
 ![New auto attendant page 1.](../images/edacec94-9384-4a87-be0a-5c49a151287e.png)
   
 ***
-![Number 1](../images/sfbcallout1.png)<br/>**Name** Enter a descriptive display name for your auto attendant. Le nom est obligatoire et peut contenir jusqu'à 64 caractères, espaces compris. Il sera répertorié dans la colonne **Nom** de l'onglet **Standards automatiques**.
+![N ° 1](../images/sfbcallout1.png)<br/>**Nom** Entrez un nom d’affichage de la description pour le standard automatique. Le nom est obligatoire et peut contenir jusqu'à 64 caractères, espaces compris. Il sera répertorié dans la colonne **Nom** de l'onglet **Standards automatiques**.
 ***
 
-![Number 2](../images/sfbcallout2.png)<br/>**Phone number** This setting is optional. If you like, select a phone number for your auto attendant. You can pick any available service toll or toll-free phone number that you have for your organization. Si aucune numéro n'est répertorié, vous devrez obtenir un numéro de service gratuit ou payant. Go [here](getting-service-phone-numbers.md) to get them. <br/> <br/>
+![N ° 2](../images/sfbcallout2.png)<br/>**Numéro de téléphone** Ce paramètre est facultatif. Si vous le souhaitez, sélectionnez un numéro de téléphone pour le standard automatique. Vous pouvez choisir de n’importe quel numéro payant service disponibles ou le numéro de téléphone gratuit que vous avez pour votre organisation. Si aucune numéro n'est répertorié, vous devrez obtenir un numéro de service gratuit ou payant. Accédez [ici](getting-service-phone-numbers.md) à obtenir. <br/> <br/>
 
     > [!Note]
     > **User (subscriber)** numbers can't be assigned to auto attendants.
 ***
-![Number 3](../images/sfbcallout3.png)<br/>**Fuseau horaire** Vous devez définir le fuseau horaire pour votre standard automatique, mais il ne doit pas nécessairement correspondre à celui de l'adresse principale de votre organisation. Vous pouvez définir un fuseau horaire différent pour chaque standard automatique et les horaires d'ouverture du standard automatique seront définies en fonction du fuseau horaire sélectionné.
+![N ° 3](../images/sfbcallout3.png)<br/>**Fuseau horaire** Vous devez définir le fuseau horaire pour votre standard automatique, mais il ne doit pas nécessairement correspondre à celui de l'adresse principale de votre organisation. Vous pouvez définir un fuseau horaire différent pour chaque standard automatique et les horaires d'ouverture du standard automatique seront définies en fonction du fuseau horaire sélectionné.
 ***
-![14](../images/sfbcallout4.png)<br/>**Langue** Sélectionnez la langue que vous souhaitez utiliser pour votre standard automatique parmi les langues disponibles répertoriées. The language you set here is the language that the auto attendant will use to interact with people that call in to this auto attendant, and all the system prompts will be played in this language.
+![14](../images/sfbcallout4.png)<br/>**Langue** Sélectionnez la langue que vous souhaitez utiliser pour votre standard automatique parmi les langues disponibles répertoriées. La langue que vous définissez ici est la langue que le standard automatique utilisera pour interagir avec des personnes qui appellent ce standard automatique et toutes les invites système seront énoncées dans cette langue.
 ***
-![Number 5](../images/sfbcallout5.png)<br/>**Speech recognition** Speech recognition is available and if this option is selected. People that call in can use voice input in the language you set. You can disable speech recognition by clearing it if you want to only let people use their phone keypad.
+![N ° 5](../images/sfbcallout5.png)<br/>**Reconnaissance vocale** La reconnaissance vocale est disponible et si cette option est sélectionnée. Les utilisateurs qui appellent dans peuvent utiliser entrée vocale dans la langue définie. Vous pouvez désactiver la reconnaissance vocale en le désactivant si vous souhaitez uniquement permettent aux utilisateurs à utiliser leur clavier du téléphone.
 ***
-![Number 6](../images/sfbcallout6.png)<br/>**Opérateur** Cette option est facultative ne doit pas nécessairement être définie pour le standard automatique. However, you can set the **Operator** option for people that call in to be able to break out of the menus to speak to a person to help them. <br/> <br/> La touche 0 est automatiquement affectée à l'option Opérateur. <br/> <br/> If you set this up, you will also need to tell people who call in that this is an available option in the **Edit menu options** on the **Business hours call handling** page. If you set an operator on your auto attendant, you will need to enter the corresponding prompt text in the **Callers will hear** box or change your audio file to include this option. For example, "For the Operator, press zero." <br/><br/>  L'opérateur peut être défini comme suit : 
-*    **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. <br/>
+![N ° 6](../images/sfbcallout6.png)<br/>**Opérateur** Cette option est facultative ne doit pas nécessairement être définie pour le standard automatique. Toutefois, vous pouvez définir l’option **opérateur** des personnes appellent pour sortir les menus de parler à une personne pour leur permettre de pouvoir. <br/> <br/> La touche 0 est automatiquement affectée à l'option Opérateur. <br/> <br/> Si vous configurer ce paramètre, vous devez également indiquer les personnes qui appeler en ce sens qu’il s’agit d’une option disponible dans le **menu options d’édition** dans la page **Gestion des appels de heures** . Si vous définissez un opérateur pour le standard automatique, vous devrez entrer le texte du message correspondant dans la zone **appelants** ou modifier votre fichier audio pour inclure cette option. Par exemple, « pour l’opérateur, appuyez sur zéro. » <br/><br/>  L'opérateur peut être défini comme suit : 
+*    **Personne de votre société** avec une licence de **Système téléphonique** qui est activée pour Enterprise Voice ou affectée des Plans de l’appel dans Office 365. <br/>
 
         > [!Note] 
-        > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 isn't supported. <br/> 
+        > **Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype pour Business Server 2015 ou Lync Server 2013. Lync Server 2010 n’est pas pris en charge. <br/> 
 
 *    Une **file d'attente d'appels** que vous avez configurée. 
-*    Vous pouvez la configurer de manière qu'une personne appelant soit renvoyée sur la messagerie. To do this, select **Person in your company** and set this person's calls to be forwarded directly to voicemail. 
+*    Vous pouvez la configurer de manière qu'une personne appelant soit renvoyée sur la messagerie. Pour ce faire, sélectionnez la **personne de votre société** et définir les appels de cette personne à transférer directement vers la messagerie vocale. 
    
 ### <a name="select-hours-of-operation-page"></a>Page de sélection des heures d'ouverture
 
-By default, business hours are set to 24 hours a day, 7 days a week, so all hours are considered business hours. Toutes les heures exclues des heures d'ouverture sont considérées comme des heures de fermeture. If you select the **Custom** option and set your business hours, then a new page called **After hours call handling** will be added where you can configure the call handling for after business hours for the auto attendant.
+Par défaut, les heures ouvrées sont définies à 24 heures sur 24, 7 jours par semaine, toutes les heures sont considérées comme des heures d’ouverture. Toutes les heures exclues des heures d'ouverture sont considérées comme des heures de fermeture. Si vous sélectionnez l’option **personnalisé** et définissez vos heures de bureau, puis une nouvelle page appelée **après que les heures de gestion des appels** est ajoutée où vous pouvez configurer la gestion des appels pour après les heures d’ouverture pour le standard automatique.
   
 ![New auto attendant Hours of operation.](../images/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
 ***
-![Number 1](../images/sfbcallout1.png)<br/>Sélectionnez l'option **Personnaliser** pour définir les heures d'ouverture spécifiques dans le calendrier. Lorsque vous sélectionnez **Personnaliser**, les heures d'ouverture seront définies du lundi au vendredi, de 09 h 00 à 17 h 00 par défaut.  
+![N ° 1](../images/sfbcallout1.png)<br/>Sélectionnez l'option **Personnaliser** pour définir les heures d'ouverture spécifiques dans le calendrier. Lorsque vous sélectionnez **Personnaliser**, les heures d'ouverture seront définies du lundi au vendredi, de 09 h 00 à 17 h 00 par défaut.  
 ***
-![Number 2](../images/sfbcallout2.png)<br/>Pour modifier les heures d'ouverture, mettez en surbrillance les heures d'ouverture que vous voulez définir à l'aide du calendrier. The calendar allows you to select business hours in 30-minute intervals, and the business hours you select here will be set based on the time zone that you set on the **General info** page. Pour configurer une coupure (pour le déjeuner, par exemple), désélectionnez ou faites glisser pour désélectionner l'heure dans le calendrier. You can set multiple breaks within business hours. 
+![N ° 2](../images/sfbcallout2.png)<br/>Pour modifier les heures d'ouverture, mettez en surbrillance les heures d'ouverture que vous voulez définir à l'aide du calendrier. Le calendrier permet de sélectionner les heures d’ouverture de 30 minutes, et les heures ouvrées que vous sélectionnez ici sera définies en fonction du fuseau horaire que vous avez définie dans la page **informations générales** . Pour configurer une coupure (pour le déjeuner, par exemple), désélectionnez ou faites glisser pour désélectionner l'heure dans le calendrier. Vous pouvez définir plusieurs sauts dans les heures de bureau. 
    
-### <a name="select-business-hours-call-handling-page"></a>Select business hours call handling page
+### <a name="select-business-hours-call-handling-page"></a>Page de gestion des appels de sélectionner les heures de bureau
 
 > [!TIP]
 > Si vous utilisez un planning des heures d'ouverture personnalisé, vous devrez également configurer le traitement des appels hors heures d'ouverture. Une page de **traitement des appels hors heures d'ouverture** sera ajoutée pour vous permettre de configurer ces options. Vous disposerez d'options identiques à celles de la page de **traitement des appels pendant les heures d'ouverture**. 
   
-You can set up greetings, prompts, and menus that people who call in to your organization's auto attendant phone number will hear during the business hours.
+Vous pouvez configurer le message d’accueil et invites menus que les personnes appel de numéro de téléphone du standard automatique de votre organisation entendra pendant les heures ouvrées.
   
 ![Business hours call handling.](../images/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
   
 ***
-![Number 1](../images/sfbcallout1.png)<br/>**Message d'accueil de l'entreprise** Le message d'accueil pendant les heures d'ouverture est facultatif et peut être défini sur **Aucun**. Dans ce cas, l'appelant n'entendra aucun message avant le traitement de son appel par l'une des options sélectionnées. Vous pouvez également charger un fichier audio (au format .wav, mp3 ou .wma), ou créer un messager d'accueil personnalisé à l'aide de la synthèse vocale.
-*    **None** No greeting will be played when people call in to the auto attendant phone number.
-*    **Create a custom greeting** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, you might enter "Welcome to Contoso. Votre appel est important pour nous. in the **Callers will hear** box.
-*    **Upload an audio file** If you choose this, record the greeting and then upload your audio file (in a .wav, .mp3 or .wma format).
+![N ° 1](../images/sfbcallout1.png)<br/>**Message d'accueil de l'entreprise** Le message d'accueil pendant les heures d'ouverture est facultatif et peut être défini sur **Aucun**. Dans ce cas, l'appelant n'entendra aucun message avant le traitement de son appel par l'une des options sélectionnées. Vous pouvez également charger un fichier audio (au format .wav, mp3 ou .wma), ou créer un messager d'accueil personnalisé à l'aide de la synthèse vocale.
+*    **Aucun** Aucun message d’accueil ne sera lu quand personnes appellent au numéro de téléphone du standard automatique.
+*    **Message d’accueil de créer un fichier personnalisé** Si vous choisissez cette option, entrez le texte que vous souhaitez que le système pour lire (1000 caractères maximum). Par exemple, vous pouvez entrer « Bienvenue dans Contoso. Votre appel est important pour nous. dans la zone **appelants** .
+*    **Télécharger un fichier audio** Si vous choisissez cette option, enregistrer le message d’accueil et puis téléchargez votre fichier audio (au format .wav, .mp3 ou .wma).
 ***
-![Number 2](../images/sfbcallout2.png)<br/>You can select what happens to calls that arrive during business hours. You can chose from the following options:
-*    **Disconnect** If you select it, the person calling in will be disconnected after hearing a business hours greeting.
-*    **Redirect call** This can be used to automatically send the call to:
-     *    **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. To do this, select **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/><br/>   
+![N ° 2](../images/sfbcallout2.png)<br/>Vous pouvez sélectionner que se passe-t-il pour les appels qui arrivent pendant les heures ouvrées. Vous pouvez choisir parmi les options suivantes :
+*    **Se déconnecter** Si vous l’activez, la personne l’appel sera déconnectée après audition un accueil pendant les heures.
+*    **Rediriger un appel** Cela peut servir à envoyer automatiquement l’appel vers :
+     *    **Personne de votre société** avec une licence de **Système téléphonique** qui est activée pour Enterprise Voice ou affectée des Plans de l’appel dans Office 365. Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. Pour ce faire, sélectionnez la **personne de votre société** et définissez cette personne pour que leurs appels transférés directement vers la messagerie vocale. <br/><br/>   
         > [!Note]
-        > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported. <br/><br/>
+        > **Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype pour Business Server 2015 ou Lync Server 2013. Lync Server 2010 n’est pas pris en charge. <br/><br/>
 
-     *    A **Call Queue** Using a Call Queue allows the call to be transferred to an existing Call Queue that you have set up.
-     *    Another **Auto attendant** You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants.
+     *    Une **File d’attente des appels** à l’aide d’une file d’attente des appels permet à l’appel à transférer à un appel file d’attente existante que vous avez configurées.
+     *    Un autre **standard automatique** , vous pouvez utiliser un fichier automatique standard pour créer un second niveau d’options de menu qui contient un sous-menu. Il s’agit des standards automatiques imbriqués.
 *    **Lire une invite des options de menu** Cette option vous permet de configurer une invite à lire.
 ***
-![Number 3](../images/sfbcallout3.png)<br/>**Invite de menu** Pour créer une invite de menu principale, vous pouvez utiliser la synthèse vocale ou charger un fichier audio (.wav, .mp3 ou .wma). Vous pouvez taper l'invite dans la zone **Les appelants entendront** ou enregistrer un fichier audio et dire par exemple « Pour contacter le département des Ventes, dites 1 ou appuyez sur 1. Pour contacter le département des Services, dites 2 ou appuyez sur 2. Pour contacter le service clientèle, dites 3 ou appuyez sur 3. Pour contacter l'opérateur, dites 0 ou appuyez sur 0. Pour réécouter ce menu, appuyez sur étoile ou dites répéter. » **Créer une invite personnalisée** Si vous choisissez cette option, vous devez entrer le texte que le système devra lire (jusqu'à 1 000 caractères). **Charger un fichier audio** Si vous choisissez cette option, vous devrez enregistrer le message d'accueil puis charger votre fichier audio (au format .wav, .mp3 ou .wma).
+![N ° 3](../images/sfbcallout3.png)<br/>**Invite de menu** Pour créer une invite de menu principale, vous pouvez utiliser la synthèse vocale ou charger un fichier audio (.wav, .mp3 ou .wma). Vous pouvez taper l'invite dans la zone **Les appelants entendront** ou enregistrer un fichier audio et dire par exemple « Pour contacter le département des Ventes, dites 1 ou appuyez sur 1. Pour contacter le département des Services, dites 2 ou appuyez sur 2. Pour contacter le service clientèle, dites 3 ou appuyez sur 3. Pour contacter l'opérateur, dites 0 ou appuyez sur 0. Pour réécouter ce menu, appuyez sur étoile ou dites répéter. » **Créer une invite personnalisée** Si vous choisissez cette option, vous devez entrer le texte que le système devra lire (jusqu'à 1 000 caractères). **Charger un fichier audio** Si vous choisissez cette option, vous devrez enregistrer le message d'accueil puis charger votre fichier audio (au format .wav, .mp3 ou .wma).
 ***
-![Number 4](../images/sfbcallout4.png)<br/>**Dial by name** If you choose this option, this will enable people who call in to search for people in your organization using Directory Search. Vous pouvez sélectionner les personnes qui seront répertoriées comme disponibles ou non disponibles pour la Numérotation par nom en configurant ces options dans la page de **portée de la numérotation**. Any online user with a **Phone System** license, or any user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013, can be found with Dial by Name.<br/><br/>  **Caution:** Users hosted on-premises using Lync 2010 **can't be reached** with Dial by Name.
+![N ° 4](../images/sfbcallout4.png)<br/>**Numérotation par nom** Si vous choisissez cette option, vous activez des personnes appellent pour rechercher des personnes dans votre organisation à l’aide de la recherche dans l’annuaire. Vous pouvez sélectionner les personnes qui seront répertoriées comme disponibles ou non disponibles pour la Numérotation par nom en configurant ces options dans la page de **portée de la numérotation**. Tout utilisateur disposant d’une licence de **Système téléphonique** en ligne, ou tout utilisateur hébergé sur site à l’aide de Skype pour Business Server 2015 ou Lync Server 2013, vous pouvez trouver numérotation par nom.<br/><br/>  **Mise en garde :** Les utilisateurs hébergés sur site à l’aide de Lync 2010 **ne peut pas être atteint** avec numérotation par nom.
 ***
 
-![Number 5](../images/sfbcallout5.png)<br/>**Modifier les options de menu** Les options de menu peuvent être ajoutées ou supprimées à l'aide des touches du clavier. Pour ajouter une option de menu, appuyez sur la touche correspondante du clavier. La couleur des touches utilisées changera et la ligne d'options correspondantes apparaîtra en dessous. To delete a menu option, simply click on the corresponding key on the keypad control to deselect this key. The key mapping row will be removed.<br/><br/>  **Tip:** You will have to update menu prompts text or re-record the audio separately when adding to removing options because it won't be automatically done for the existing menu prompt.  <br/><br/>  Any menu option can be added and removed in any order, and the key mappings don't have to be continuous. It is possible, for example, to create a menu with keys 0, 1, and 3 mapped to options, while the key 2 isn't used.<br/><br/> 
+![N ° 5](../images/sfbcallout5.png)<br/>**Modifier les options de menu** Les options de menu peuvent être ajoutées ou supprimées à l'aide des touches du clavier. Pour ajouter une option de menu, appuyez sur la touche correspondante du clavier. La couleur des touches utilisées changera et la ligne d'options correspondantes apparaîtra en dessous. Pour supprimer une option de menu, cliquez sur la clé correspondante sur le contrôle pavé numérique pour désélectionner cette clé. La ligne de mappage des clés est supprimée.<br/><br/>  **Conseil :** Vous devrez mettre à jour le texte des invites de menu ou réenregistrer l’audio séparément lors de l’ajout à la suppression des options, car elle ne s’effectue automatiquement de l’invite de menu existants.  <br/><br/>  Une option de menu peut être ajoutée et supprimée dans n’importe quel ordre, et les mappages de clés ne doivent pas être continue. Il est possible, par exemple, pour créer un menu avec les touches 0, 1 et 3 mappés aux options, tandis que la touche 2 n’est pas utilisée.<br/><br/> 
 
     > [!Note] 
     > The keys * (Repeat) and # (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands. <br/><br/>
 
-To set up your menu options, after you select the key(s), you will need to: 
-- **Enter the Name of the option** This can be up to 64 characters long, and can contain multiple words like "Customer Service" or "Operations and Grounds." If speech recognition is enabled, the name will automatically be recognized, and the person calling in will be able to either press 3, say "three," or say "Customer Service" to select the option mapped to key 3. 
-- The next step is to select where the call is to be sent if the corresponding key is pressed, or the option is selected using speech recognition. The call can be sent to: 
-    - **Operator** If operator is already set up, it is automatically mapped to key 0, but it can also be deleted or reassigned to a different key. If operator isn't set to any key, then the voice command "Operator" will be disabled too. 
-    - A **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned an Calling Plan in Office 365. Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. To do this, select **Person in your company** and set this person to have their calls forwarded directly to voicemail.<br/><br/> 
+Pour configurer vos options de menu, une fois que vous sélectionnez l’ou les clés, vous devez : 
+- **Entrez le nom de l’option** Il peut contenir jusqu'à 64 caractères et peut contenir plusieurs mots comme « Service clientèle » ou « opérations et motifs ». Si la reconnaissance vocale est activée et est reconnu automatiquement le nom de la personne l’appel pourra appuyez sur 3, par exemple « 3 », ou dire « Service clientèle » pour sélectionner l’option mappée à la clé 3. 
+- L’étape suivante consiste à sélectionner où l’appel doit être envoyé si la clé correspondante est activée, ou l’option est sélectionnée à l’aide de la reconnaissance vocale. L’appel peut être envoyé à : 
+    - **Opérateur** Si l’opérateur a déjà été configuré, il est automatiquement mappé à la clé de 0, mais il peut également être supprimé ou réaffecté à une autre clé. Si l’opérateur n’est pas défini sur n’importe quelle touche, puis la commande vocale « Opérateur » sera désactivée trop. 
+    - Une **personne de votre société** avec une licence de **Système téléphonique** qui est activée pour Enterprise Voice ou affectée à un Plan d’appel dans Office 365. Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. Pour ce faire, sélectionnez la **personne de votre société** et définissez cette personne pour que leurs appels transférés directement vers la messagerie vocale.<br/><br/> 
     
         > [!Note] 
-        > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported. <br/><br/>
+        > **Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype pour Business Server 2015 ou Lync Server 2013. Lync Server 2010 n’est pas pris en charge. <br/><br/>
 
-    - **Call Queue** Using a call queue option allows the call to be transferred to an existing call queue that you have set up. 
-    - **Auto Attendant** You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants.<br/><br/>
+    - **File d’attente des appels** À l’aide d’une option de file d’attente des appels permet l’appel est transféré vers une file d’attente appel existant que vous avez configurées. 
+    - **Standard automatique** Vous pouvez utiliser un standard automatique existant pour créer un second niveau d’options de menu qui contient un sous-menu. Il s’agit des standards automatiques imbriqués.<br/><br/>
     
         > [!Note]
-        > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.         
+        > Les **heures d’ouverture** de standards automatiques imbriqués (ou de second niveau) sera également utilisé, y compris pour les appels envoyés à partir d’autres standards automatiques qui ont été définies.         
    
-### <a name="select-holidays-page"></a>Select holidays page 
+### <a name="select-holidays-page"></a>Sélectionnez page de congés 
 
-You can add up to 20 scheduled holidays to each auto attendant.
+Vous pouvez ajouter jusqu'à 20 congés planifiées pour chaque standard automatique.
   
-![Setting up Holidays in auto attendant](../images/50a5ce88-7f39-4210-808a-da7ced969854.png)
+![Définition des congés dans le standard automatique](../images/50a5ce88-7f39-4210-808a-da7ced969854.png)
   
 ***
-![Number 1](../images/sfbcallout1.png)<br/>**Add a holiday** Enter a name for your new holiday in the **Holiday name** field.<br/><br/> Holiday names may consist of up to 64 characters and must be unique for the same auto attendant. For example, you cannot have two holidays named "Thanksgiving" in the same auto attendant.  
+![N ° 1](../images/sfbcallout1.png)<br/>**Ajouter un jour férié** Entrez un nom pour votre nouveau congé dans le champ **nom du congé** .<br/><br/> Noms des jours fériés peuvent contenir jusqu'à 64 caractères et doivent être uniques pour le standard automatique de même. Par exemple, vous ne pouvez pas deux jours fériés nommés « Thanksgiving » dans le même standard automatique.  
 ***
-![Number 2](../images/sfbcallout2.png)<br/>**Holiday Greeting** The Holiday Greeting is optional and can be set to **None**. Dans ce cas, l'appelant n'entendra aucun message avant le traitement de son appel par l'une des options sélectionnées. Vous pouvez également charger un fichier audio (au format .wav, mp3 ou .wma), ou créer un messager d'accueil personnalisé à l'aide de la synthèse vocale.
-*    **None** No greeting will be played when people call in to the auto attendant phone number.
-*    **Create a custom greeting** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, you might enter "Happy New Year! Our offices are currently closed." in the **Callers will hear** box.
-*    **Upload an audio file** If you choose this, record the holiday greeting and then upload your audio file (in a .wav, .mp3 or .wma format).  
+![N ° 2](../images/sfbcallout2.png)<br/>**Message d’accueil de congé** Le message d’accueil du congé est facultatif et peut être définie sur **None**. Dans ce cas, l'appelant n'entendra aucun message avant le traitement de son appel par l'une des options sélectionnées. Vous pouvez également charger un fichier audio (au format .wav, mp3 ou .wma), ou créer un messager d'accueil personnalisé à l'aide de la synthèse vocale.
+*    **Aucun** Aucun message d’accueil ne sera lu quand personnes appellent au numéro de téléphone du standard automatique.
+*    **Message d’accueil de créer un fichier personnalisé** Si vous choisissez cette option, entrez le texte que vous souhaitez que le système pour lire (1000 caractères maximum). Par exemple, vous pouvez entrer « bonne année ! Nos bureaux est actuellement fermé. » dans la zone **appelants** .
+*    **Télécharger un fichier audio** Si vous choisissez cette option, enregistrer le message d’accueil de congé et puis téléchargez votre fichier audio (au format .wav, .mp3 ou .wma).  
 ***
-![Number 3](../images/sfbcallout3.png)<br/>**What happens to the calls after the greeting?** You can select what happens to the calls that arrive during this holiday. You can chose from the following options:
-*    **Disconnect** The person calling in will be disconnected after hearing the holiday greeting.
-*    **Redirect call** This can be used to automatically send the call to:
-     *    A **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. To do this, select **Person in your company**, and set this person to have their calls forwarded directly to voicemail. <br/><br/> 
+![N ° 3](../images/sfbcallout3.png)<br/>**Que se passe-t-il pour les appels après le message d’accueil ?** Vous pouvez sélectionner que se passe-t-il pour les appels qui arrivent pendant cette période de congé. Vous pouvez choisir parmi les options suivantes :
+*    **Se déconnecter** La personne l’appel sera déconnectée après avoir entendu le message d’accueil du congé.
+*    **Rediriger un appel** Cela peut servir à envoyer automatiquement l’appel vers :
+     *    Une **personne de votre société** avec une licence de **Système téléphonique** qui est activée pour Enterprise Voice ou affectée des Plans de l’appel dans Office 365. Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. Pour ce faire, sélectionnez la **personne de votre société**et définir cette personne pour que leurs appels transférés directement vers la messagerie vocale. <br/><br/> 
      
          > [!Note] 
-         > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported.<br/><br/>
+         > **Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype pour Business Server 2015 ou Lync Server 2013. Lync Server 2010 n’est pas pris en charge.<br/><br/>
 
-     *    A **Call Queue** to transfer the call to an existing Call Queue that you have set up.
-     *    Another **Auto attendant**, to create a second level of menu options containing a submenu. These are called nested auto attendants. <br/><br/>
+     *    Une **File d’attente d’appel** pour transférer l’appel à un appel file d’attente existante que vous avez configurées.
+     *    Un autre **standard automatique**, pour créer un second niveau d’options de menu qui contient un sous-menu. Il s’agit des standards automatiques imbriqués. <br/><br/>
      
          > [!Note]
-         > By default, all calls arriving during a holiday period are set to disconnect after the greeting (if any), so you must specify a redirect if a different behavior is desired.
+         > Par défaut, tous les appels arrivant pendant une période de congé sont définies pour déconnecter la session après le message d’accueil (le cas échéant), vous devez spécifier une redirection si vous souhaitez un comportement différent.
 
 ***
-![Number 4](../images/sfbcallout4.png)<br/>**When do you want the holiday to start and end?** Enter your holiday start date in dd/mm/yyyy format, and then select a start time, end date, and end time, as prompted in the date range table.<br/><br/>You can specify up to 10 different date ranges for a holiday. For example, you could add date ranges for New Year's Eve holidays for up to 10 years. A holiday can span multiple days.<br/><br/>To add additional holiday date ranges (for example, for the next year), click **Add another**, and then enter a new set of start and end dates for the holiday.<br/><br/>Nested holidays are also supported. For example, you could nest multiple holidays within one "holiday break" time frame: 
-*    **December 24 through January 3:** "Happy Holidays! Our offices are currently closed. We will reopen on January 4th."
-*    **December 25:** "Merry Christmas! Our offices are currently closed. We will reopen on January 4th."
-*    **January 1:** "Happy New Year! Our offices are currently closed. We will reopen on January 4th."
+![N ° 4](../images/sfbcallout4.png)<br/>**Lorsque vous souhaitez le congé de début et fin ?** Entrez la date de début du congé au format jj/mm/aaaa, puis sélectionnez une heure de début, date de fin et l’heure de fin, à l’invite de la table de plage de date.<br/><br/>Vous pouvez spécifier jusqu'à 10 différentes plages de dates pour une période de congé. Par exemple, vous pouvez ajouter des plages de dates pour les jours fériés réveillon du nouvel an jusqu'à dix ans. Une période de congé peut s’étendre sur plusieurs jours.<br/><br/>Pour ajouter d’autres date du jour férié plages (par exemple, pour l’année suivante), cliquez sur **Ajouter un autre**, puis entrez un nouveau jeu de dates de début et de fin pour la période de congé.<br/><br/>Jours fériés imbriqués sont également pris en charge. Par exemple, vous pouvez imbriquer plusieurs congés dans un délai de « vacances » : 
+*    **24 décembre par le biais du 3 janvier :** « Bonnes vacances ! Nos bureaux est actuellement fermé. Il s’ouvre à nouveau sur le 4 janvier. »
+*    **25 décembre :** « Noël ! Nos bureaux est actuellement fermé. Il s’ouvre à nouveau sur le 4 janvier. »
+*    **Le 1er janvier :** « Bonne année ! Nos bureaux est actuellement fermé. Il s’ouvre à nouveau sur le 4 janvier. »
    
-After you save your auto attendant, your holidays appear on the **Holidays** tab, where you can edit, add, or modify holiday settings.
+Après avoir enregistré votre standard automatique, vos congés apparaissent sous l’onglet de **congés** , où vous pouvez modifier, ajouter ou modifier les paramètres de la période de congé.
   
 ### <a name="select-dial-scope-page"></a>Page de sélection de la portée de la numérotation
 
-On this page, you can set up which users in your organization will be listed in your directory and available for Dial by Name when a person that calls in to your organization.
+Dans cette page, vous pouvez configurer les utilisateurs de votre organisation seront répertoriés dans le répertoire et disponibles pour la numérotation par nom lorsqu’une personne qui appelle votre organisation.
   
 ![Dial scope for searching with dial by name.](../images/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
   
 ***
-![Number 1](../images/sfbcallout1.png)<br/>L'option **Inclure** présente deux choix :
-*    **Tous les utilisateurs en ligne** Cette option permet d'inclure toutes les personnes de votre organisation dans la recherche dans l'annuaire. All Online users with a **Phone System** license, as well as users hosted on-premises using Skype for Business Server 2015 or Lync Server 2013 who have Calling Plans in Office 365, will be listed. 
-*    **Custom** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and the people added to this Office 365 Group, distribution list, or security group who are either **Online users with a Phone System license** or hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. You can add multiple Office 365 Groups, distribution lists, and security groups. <br/><br/> 
+![N ° 1](../images/sfbcallout1.png)<br/>L'option **Inclure** présente deux choix :
+*    **Tous les utilisateurs en ligne** Cette option permet d'inclure toutes les personnes de votre organisation dans la recherche dans l'annuaire. Tous les utilisateurs en ligne avec une licence de **Système téléphonique** , ainsi que les utilisateurs hébergés sur site à l’aide de Skype pour Business Server 2015 ou Lync Server 2013 qui ont des Plans de l’appel dans Office 365, apparaît. 
+*    **Personnalisé** Si vous utilisez cette option, vous pouvez rechercher un groupe dans Office 365, liste de distribution ou un groupe de sécurité qui a été créé dans votre organisation et les personnes ajouté à ce groupe dans Office 365, liste de distribution ou groupe de sécurité qui sont soit **utilisateurs en ligne avec un Licence de système téléphonique** ou hébergée sur site à l’aide de Skype pour Business Server 2015 ou Lync Server 2013. Vous pouvez ajouter plusieurs groupes d’Office 365, les listes de distribution et les groupes de sécurité. <br/><br/> 
 
     > [!Caution]
-    > On-premises users from deployments of Lync Server 2010 won't be listed when someone searches the directory using Dial by Name. 
+    > Les utilisateurs locaux des déploiements de Lync Server 2010 ne s’affichera lorsqu’un utilisateur recherche l’annuaire à l’aide de la numérotation par nom. 
 ***
-![Number 2](../images/sfbcallout2.png)<br/>Using the **Exclude** option, you have two options:
+![N ° 2](../images/sfbcallout2.png)<br/>À l’aide de l’option **Exclure** , vous disposez de deux options :
 *    **Aucun** Cette option indiquera qu'aucun utilisateur en ligne ne sera exclu de la recherche dans l'annuaire. 
-*    **Custom** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and all people added to this Office 365 Group, distribution list, or security groups will be excluded from directory search. You can add multiple Office 365 Groups, distribution lists, and security groups. <br/><br/> 
+*    **Personnalisé** Si vous utilisez cette option, vous pouvez rechercher un groupe dans Office 365, liste de distribution ou un groupe de sécurité qui a été créé dans votre organisation, et tous les utilisateurs ajoutés à ce groupe d’Office 365, liste de distribution, ou groupes de sécurité seront exclus de la recherche dans l’annuaire. Vous pouvez ajouter plusieurs groupes d’Office 365, les listes de distribution et les groupes de sécurité. <br/><br/> 
 
     > [!Caution]
-    > On-premises users from deployments of Lync Server 2010 won't be listed when someone searches the directory using Dial by Name.          
+    > Les utilisateurs locaux des déploiements de Lync Server 2010 ne s’affichera lorsqu’un utilisateur recherche l’annuaire à l’aide de la numérotation par nom.          
    
 > [!NOTE]
-> It might take up to 36 hours for a new user to have their name listed in the directory when someone uses Dial by Name with speech recognition. 
+> Cela peut prendre jusqu'à 36 heures pour un nouvel utilisateur à leur nom apparaît dans le répertoire lorsqu’une personne utilise la numérotation par un nom pour la reconnaissance vocale. 
   
-After you enter all the required fields and set up call handling menus and options, click **Save**.
+Une fois que vous entrez tous les champs obligatoires et que vous définissez des menus et les options de gestion des appels, cliquez sur **Enregistrer**.
   
-## <a name="editing-and-testing-auto-attendants"></a>Editing and testing auto attendants
+## <a name="editing-and-testing-auto-attendants"></a>Modification et le test des standards automatiques
 
-Après avoir enregistré votre standard automatique, il sera répertorié dans la page des **standards automatiques**. This will allow you to quickly see some of the options that you have set up, including the name, phone number, language, and status.
+Après avoir enregistré votre standard automatique, il sera répertorié dans la page des **standards automatiques**. Cela vous permettra de voir rapidement les options que vous avez configuré, notamment le nom, numéro de téléphone, langue et le statut.
   
-If you want to make changes to an auto attendant, select the auto attendant, and then in the Action pane click **Edit**.
+Si vous souhaitez apporter des modifications à un standard automatique, sélectionnez le standard automatique, puis cliquez sur **Modifier**dans le volet Actions.
   
-You can also quickly place a test call to your auto attendant by using the **Test** button in the Action pane.
+Vous pouvez également rapidement placer un test d’appel pour le standard automatique en utilisant le bouton de **Test** dans le volet Actions.
   
 ## <a name="want-to-know-more"></a>Vous souhaitez en savoir plus ?
 
@@ -219,16 +218,16 @@ Voici les applets de commande requis pour gérer un standard automatique.
   
 ||| 
 |---|---|
-[New-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx)                                                                      | [New-CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx)                                                              |
-| [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx)                                                                      | [New-CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx)                                                           |
+[Nouvelle CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx)                                                                      | [Nouvelle CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx)                                                              |
+| [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx)                                                                      | [Nouvelle CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx)                                                           |
 | [Get-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx)                                                                      | [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps)       |
-| [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx)                                                                   | [New-CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx)                                                                  |
-| [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx)                                                                                 | [New-CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx)                                                              |
-| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) | [New-CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx)                                                                                  |
-| [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)                                       | [New-CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx)                                                                                   |
-| [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx)                                                     | [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx)                                               |
+| [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx)                                                                   | [Nouvelle CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx)                                                                  |
+| [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx)                                                                                 | [Nouvelle CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx)                                                              |
+| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) | [Nouvelle CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx)                                                                                  |
+| [Nouvelle CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)                                       | [Nouvelle CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx)                                                                                   |
+| [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx)                                                     | [Nouvelle CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx)                                               |
 | [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx)                                                     | [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
-| [New-CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx)                                                      |  |   |
+| [Nouvelle CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx)                                                      |  |   |
    
 ### <a name="more-about-windows-powershell"></a>Informations supplémentaires sur PowerShell Windows
 

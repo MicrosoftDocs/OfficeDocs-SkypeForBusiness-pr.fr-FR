@@ -7,28 +7,30 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
-description: 'Résumé : Découvrez les conditions de sécurité et de configuration requises pour Voix Entreprise dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 400af6d42026007315e30a7706e9730901f90708
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez les composants de sécurité et configuration requis pour Enterprise Voice sur Skype pour Business Server 2015.'
+ms.openlocfilehash: 2ece3aaa99c1e81afd9241e8d435ac0ab3328893
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server-2015"></a>Conditions préalables requises de sécurité et de configuration pour Voix Entreprise dans Skype Entreprise Server 2015
  
-**Résumé :** Obtenir des informations sur les conditions de sécurité et de configuration requises pour Voix Entreprise dans Skype pour Business Server 2015.
+**Résumé :** Découvrez les composants de sécurité et configuration requis pour Enterprise Voice sur Skype pour Business Server 2015.
   
-Avant le déploiement de Voix Entreprise, vérifiez que votre infrastructure répond aux suivante de sécurité, configuration de l’utilisateur et les conditions matérielles spécifiques d’un scénario. 
+Avant de déployer Enterprise Voice, vérifiez que votre infrastructure réunit la sécurité suivante, configuration de l’utilisateur et conditions préalables matérielles des scénarios spécifiques. 
   
 ## <a name="administrative-rights-and-certificate-infrastructure"></a>Droits d’administration et infrastructure de certificats
 
 Avant de procéder au déploiement, vérifiez les points suivants :
   
-- Les administrateurs de déploiement de Voix Entreprise doivent être membres du groupe RTCUniversalServerAdmins.
+- Les administrateurs déployant Enterprise Voice doivent être membres du groupe RTCUniversalServerAdmins.
     
 - Les administrateurs doivent disposer des droits appropriés pour effectuer les tâches de configuration :
     
@@ -41,23 +43,23 @@ Avant de procéder au déploiement, vérifiez les points suivants :
 - L’infrastructure MKI (Managed Key Infrastructure) est déployée et configurée à l’aide d’une infrastructure d’autorité de certification Microsoft ou tierce.
     
     > [!NOTE]
-    > Pour plus d’informations sur la configuration requise des certificats dans Skype pour Business Server, reportez-vous à la section [exigences environnementales pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
+    > Pour plus d’informations sur les certificats requis dans Skype pour Business Server, consultez [exigences pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
   
 ## <a name="user-configuration"></a>Configuration utilisateur
 
-Si vous colocalisé avec chaque pool frontal, le serveur de médiation ou le serveur Standard Edition server pendant le déploiement de Front-End, les paramètres utilisateur nécessaires pour les Voix Entreprise ont été configurés automatiquement lors de l’installation des fichiers de ces rôles de serveur.
+Si vous colocalisé le serveur de médiation à chaque pool frontal ou Standard Edition server au cours du déploiement frontal, les paramètres utilisateur nécessaires pour Enterprise Voice ont été configurés automatiquement lors de l’installation des fichiers de ces rôles de serveur.
   
-Si vous déployez récemment la charge de travail de Voix Entreprise à ce moment, avant de commencer le processus de déploiement, désigner un numéro de téléphone principal pour chaque utilisateur à qui vous souhaitez activer pour les Voix Entreprise. En tant qu’administrateur, vous devez vous assurer que ce numéro est unique. Avant la mise en oeuvre, principal de tous les de téléphone numéros doivent être normalisées (correctement mis en forme) et copiés vers la propriété de **Ligne URI** de chaque utilisateur à l’aide de Skype pour le panneau de configuration de Business Server.
+Si vous déployez nouvellement la charge de travail Enterprise Voice à ce stade, avant de commencer le processus de déploiement, désigner un numéro de téléphone principal pour chaque utilisateur qui vous envisagez d’activer pour Enterprise Voice. En tant qu’administrateur, vous devez vous assurer que ce numéro est unique. Avant l’implémentation, principal tous les téléphone numéros doivent être normalisées (correctement mis en forme) et copié dans la propriété **URI de ligne** de chaque utilisateur à l’aide de Skype pour le panneau de configuration serveur Business.
   
 > [!NOTE]
 > Pour obtenir des exemples des numéros de téléphone principaux requis pour le déploiement de Voix Entreprise, reportez-vous à la rubrique [Sample Normalization Rules](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules). 
   
 ## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Étapes suivantes : installation des fichiers ou configuration de la connectivité RTC
 
-Après avoir vérifié le logiciel et la configuration requise pour les Voix Entreprise, vous pouvez :
+Après avoir vérifié les logiciels et les conditions préalables pour Enterprise Voice, vous pouvez :
   
-- Installer le serveur de médiation, comme décrit dans le [déploiement d’un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server 2015](deploy-a-mediation-server.md), mais uniquement si vous souhaitez déployer un serveur de médiation autonome ou un pool, car les serveurs de médiation sont installés dans le cadre de l’avant Pool de fin ou le processus de déploiement du serveur Standard Edition lorsque colocalisés.
+- Installer le serveur de médiation, comme décrit dans [déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server 2015](deploy-a-mediation-server.md), mais uniquement si vous souhaitez déployer un serveur de médiation autonome ou un pool, car les serveurs de médiation sont installés dans le cadre d’un plan Pool frontal ou le processus de déploiement de Standard Edition server lorsque colocalisés.
     
-- Ou bien, commencer à configurer les paramètres à acheminer les appels pour les utilisateurs de Voix Entreprise, comme décrit dans les [puits de configurer dans Skype pour Business Server 2015](configure-trunks.md).
+- Ou, commencer à configurer les paramètres pour acheminer les appels pour les utilisateurs d’Enterprise Voice, comme décrit dans [configurer les jonctions dans Skype pour Business Server 2015](configure-trunks.md).
     
 

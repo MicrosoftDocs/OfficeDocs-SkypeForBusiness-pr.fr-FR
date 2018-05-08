@@ -7,55 +7,57 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
-description: 'Résumé : Découvrez comment définir un trunk supplémentaire entre un serveur de médiation et un homologue de passerelle dans le Générateur de topologie dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 67d378a794ed6a80b5721f9eb2e9e988ee4db048
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment définir un tronçon supplémentaire entre un serveur de médiation et un homologue de passerelle dans le Générateur de topologie dans Skype pour Business Server 2015.'
+ms.openlocfilehash: e76555d0f03b884ad3f3c91c5ca4ad5d687711a2
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server-2015"></a>Définition d’autres jonctions dans le générateur de topologie dans Skype Entreprise Server 2015
  
-**Résumé :** Découvrez comment définir un trunk supplémentaire entre un serveur de médiation et un homologue de passerelle dans le Générateur de topologie dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment définir un tronçon supplémentaire entre un serveur de médiation et un homologue de passerelle dans le Générateur de topologie dans Skype pour Business Server 2015.
   
-Suivez ces étapes pour définir un trunk supplémentaire auxquels vous pouvez associer un homologue avec un serveur de médiation. Un homologue fournit aux utilisateurs activés pour la Voix Entreprise grâce à la connectivité pour la commutation de téléphone RTPC (réseau Public). L’homologue peut être une passerelle RTC, un système IP-PBX ou un contrôleur SBC (Session Border Controller) pour un fournisseur ITSP (Internet Telephony Service Provider).
+Suivez ces étapes pour définir un tronçon supplémentaire auquel vous pouvez associer un homologue à un serveur de médiation. Un homologue fournit aux utilisateurs activés pour Enterprise Voice avec une connectivité pour les publics téléphone réseau commuté (RTC). L’homologue peut être une passerelle RTC, un système IP-PBX ou un contrôleur SBC (Session Border Controller) pour un fournisseur ITSP (Internet Telephony Service Provider).
   
-Une ligne est une connexion logique entre un serveur de médiation et la passerelle.
+Une jonction est une connexion logique entre un serveur de médiation et une passerelle.
   
 > [!NOTE]
-> Cette rubrique suppose que si vous avez le programme d’installation une passerelle PSTN et le tronc racine au moins un colocalisé autonome médiation serveur ou pool comme décrit dans [définition de passerelle dans le Générateur de topologie dans Skype pour Business Server 2015](define-a-gateway.md) dans la documentation de déploiement.
+> Cette rubrique suppose que vous disposez du programme d’installation une passerelle PSTN et jonction racine au moins un colocalisé ou autonome serveur de médiation ou pool comme décrit dans [définir une passerelle dans le Générateur de topologie dans Skype pour Business Server 2015](define-a-gateway.md) dans la documentation de déploiement.
   
-### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>Pour définir un trunk supplémentaire entre un serveur de médiation et un homologue de passerelle
+### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>Pour définir un tronçon supplémentaire entre un serveur de médiation et un homologue de passerelle
 
-1. Démarrer le Générateur de topologies : Cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business Server 2015**, puis cliquez sur **Skype pour Business Server 2015Topology Builder**.
+1. Démarrer le Générateur de topologies : Cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business Server 2015**, puis cliquez sur **Skype pour le Générateur de 2015Topology Business Server**.
     
-2. Sous Skype pour Business Server, le nom de votre site, les **Composants partagés**, cliquez sur le nœud de **puits** et puis cliquez sur **Nouveau Trunk**.
+2. Sous Skype pour Business Server, le nom de votre site, **Composants partagés**, cliquez sur le nœud **tronçons** , puis cliquez sur **Nouvelle jonction**.
     3. Dans **Définir un nouveau tronçon**, spécifiez un nom convivial pour identifier le tronçon de manière unique. Deux tronçons ne peuvent pas porter le même nom.
     
     > [!NOTE]
-    > Si vous spécifiez la sécurité TLS (Transport Layer) comme type de transport, vous devez spécifier le nom de domaine complet au lieu de l’adresse IP de l’hôte du serveur de médiation. 
+    > Si vous spécifiez Transport Layer Security (TLS) comme type de transport, vous devez spécifier le nom de domaine complet au lieu de l’adresse IP de l’homologue du serveur de médiation. 
   
 4. Sous **Passerelle RTC associée**, sélectionnez l’homologue de passerelle RTC à associer à ce tronçon.
-    5. Sous **Ports d’écoute pour passerelle PSTN**, tapez le port d’écoute que l’homologue (passerelle RTPC, IP-PBX ou SBC) recevra les messages SIP à partir du serveur de médiation qui doit être associée à cette ligne. Les ports homologues par défaut sont 5066 pour TCP (Transmission Control Protocol) et 5067 pour TLS (Transport Layer Security). Les ports de Survivable Branch Appliance par défaut sont 5081 pour TCP et 5082 pour TLS.
+    5. Sous **Port d’écoute pour passerelle PSTN**, tapez le port d’écoute que l’homologue (passerelle PSTN, IP-PBX ou SBC) recevoir des messages SIP à partir du serveur de médiation doit être associé à ce tronçon. Les ports homologues par défaut sont 5066 pour TCP (Transmission Control Protocol) et 5067 pour TLS (Transport Layer Security). Les ports de Survivable Branch Appliance par défaut sont 5081 pour TCP et 5082 pour TLS.
     
 6. Dans **Protocole de transport SIP**, cliquez sur le type de transport utilisé par l’homologue.
     
     > [!NOTE]
-    > Pour des raisons de sécurité, nous vous recommandons vivement de déployer un homologue sur le serveur de médiation qui peuvent utiliser TLS. 
+    > Pour des raisons de sécurité, il est vivement recommandé de déployer un homologue pour le serveur de médiation pouvant utiliser TLS. 
   
-7. Sous **Serveur de médiation associé**, sélectionnez le pool de serveur de médiation à associer le tronc racine de cet homologue
+7. Sous **Serveur de médiation associé**, sélectionnez le pool de serveur de médiation à associer à la jonction racine de cet homologue
     
-8. Sous **port de serveur de médiation associée**, tapez le port d’écoute que le serveur de médiation recevoir des messages SIP de l’homologue.
+8. Sous **port du serveur de médiation associé**, tapez le port d’écoute que le serveur de médiation recevoir des messages SIP de l’homologue.
     
     > [!NOTE]
-    > Plusieurs trunk prend en charge Skype pour Business Server, deux trunks avec des noms différents trunk ne peut pas être configurés avec le même **port de serveur de médiation associé** et le **Port d’écoute pour la passerelle IP/RTPC**
+    > Plusieurs jonction prend en charge Skype pour Business Server, deux tronçons ayant des noms différents ne peuvent pas être configurés avec le même **port du serveur de médiation associé** et le **Port d’écoute pour passerelle IP/RTC**
   
     > [!NOTE]
-    > Plusieurs trunk prend en charge Skype pour Business Server, SIP plusieurs voies de signalisation peut être défini sur le serveur de médiation pour la communication avec plusieurs homologues. Lorsque vous définissez un tronc, le numéro de **port du serveur de médiation associé** doit être comprise entre les ports d’écoute pour le protocole respectif autorisée par le serveur de médiation. Cette plage de ports est définie sous Skype pour les pools Business Server et le serveur de médiation. Droit sur le pool de serveur de médiation approprié et sélectionnez **Modifier les propriétés**. Spécifiez la plage de ports dans le champ **Ports d’écoute**.
+    > Plusieurs jonction prend en charge Skype pour Business Server, SIP plusieurs voies de signalisation peut être définie sur le serveur de médiation pour la communication avec plusieurs homologues. Lors de la définition d’une jonction, le numéro de **port du serveur de médiation associé** doit se trouver dans la plage de ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie sous Skype pour les pools Business Server et le serveur de médiation. Le pool de serveur de médiation pertinent d’avec le bouton droit et sélectionnez **Modifier les propriétés**. Spécifiez la plage de ports dans le champ **Ports d’écoute**.
   
 9. Cliquez sur **OK**. 
     

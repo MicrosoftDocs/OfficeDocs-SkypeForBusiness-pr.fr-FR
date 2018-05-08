@@ -7,20 +7,22 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
-description: 'Résumé : Apprenez à créer des paramètres de configuration une nouvelle collection de jonction à l’aide de la Skype pour le panneau de configuration de Business Server.'
-ms.openlocfilehash: 9f62ac5dffd2eb6e84fd5efbcfbc4bd99cb7f092
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment créer une nouvelle collection de jonction les paramètres de configuration à l’aide de la Skype pour le panneau de configuration serveur Business.'
+ms.openlocfilehash: 2dd402e61e87642234410b74cb5c6b28b89c69a9
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server-2015"></a>Création d’une collection de paramètres de configuration de jonction dans Skype Entreprise Server 2015
  
-**Résumé :** Apprenez à créer des paramètres de configuration une nouvelle collection de jonction à l’aide de la Skype pour le panneau de configuration de Business Server.
+**Résumé :** Découvrez comment créer une nouvelle collection de jonction paramètres de configuration à l’aide de la Skype pour le panneau de configuration serveur Business.
   
 Les paramètres de configuration de jonction SIP (Session Initiation Protocol) définissent la relation et les possibilités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (RTC), un autocommutateur privé IP (PBX) ou le contrôleur SBC (Session Border Controller) du côté fournisseur de services. Ces paramètres spécifient, par exemple :
   
@@ -30,16 +32,16 @@ Les paramètres de configuration de jonction SIP (Session Initiation Protocol
     
 - si le chiffrement SRTP (Secure Real-Time Protocol ) est requis ou non sur chaque jonction.
     
-Lorsque vous installez Skype pour Business Server, une collection globale des paramètres de configuration SIP trunk est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement).
+Lorsque vous installez Skype pour Business Server, une collection de paramètres de configuration de jonction SIP globale est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement).
   
-Lors de la création de paramètres de configuration SIP trunk à l’aide de Skype pour Business Server du Panneau de configuration, les options suivantes sont disponibles pour vous.
+Lorsque vous créez des paramètres de configuration de jonction SIP à l’aide de Skype pour le panneau de configuration serveur Business, les options suivantes sont disponibles pour vous.
   
-|**Définition de l’interface utilisateur**|**Paramètre de PowerShell**|**Description**|
+|**Paramètre de l’interface utilisateur**|**Paramètre PowerShell**|**Description**|
 |:-----|:-----|:-----|
 |Nom  <br/> |Identity  <br/> |Identificateur unique de la collection. Cette propriété est en lecture seule. Vous ne pouvez pas modifier l’identité d’une collection de paramètres de configuration des jonctions.  <br/> |
 |Description  <br/> |Description  <br/> |Permet aux administrateurs de stocker des informations supplémentaires sur les paramètres (par exemple, l’objectif de la configuration des jonctions).  <br/> |
 |Nombre maximal de boîtes de dialogue préliminaires prises en charge  <br/> |MaxEarlyDialogs  <br/> |Nombre maximal de réponses dirigées qu’une passerelle RTC, un système IP-PBX ou un contrôleur de session en périphérie côté fournisseur de services peut recevoir à une invitation envoyée au serveur de médiation.  <br/> |
-|Niveau de prise en charge du chiffrement  <br/> |SRTPMode  <br/> | Indique le niveau de prise en charge de la protection du trafic multimédia entre le serveur de médiation et la passerelle RTC, le système IP-PBX ou le contrôleur SBC (Session Border Controller) côté fournisseur de services. Dans les cas de déviation du trafic multimédia, cette valeur doit être compatible avec le paramètre EncryptionLevel de la configuration multimédia. Configuration de Media est définie à l’aide des applets de commande [New-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmediaconfiguration?view=skype-ps) et [CsMediaConfiguration de l’ensemble](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps) . <br/>  Les valeurs autorisées sont les suivantes : <br/>  Obligatoire : le chiffrement SRTP doit être utilisé. <br/>  Facultatif : le chiffrement SRTP sera utilisé si la passerelle le prend en charge. <br/>  Non pris en charge : le chiffrement SRTP n’est pas pris en charge et ne sera donc pas utilisé. <br/>  SRTPMode n’est utilisé que si la passerelle est configurée de manière à utiliser le protocole de transport TLS (Transport Layer Security). Si la passerelle est configurée avec le protocole de transport TCP, SRTPMode est défini en interne sur NotSupported.<br/> |
+|Niveau de prise en charge du chiffrement  <br/> |SRTPMode  <br/> | Indique le niveau de prise en charge de la protection du trafic multimédia entre le serveur de médiation et la passerelle RTC, le système IP-PBX ou le contrôleur SBC (Session Border Controller) côté fournisseur de services. Dans les cas de déviation du trafic multimédia, cette valeur doit être compatible avec le paramètre EncryptionLevel de la configuration multimédia. Configuration multimédia est définie à l’aide des applets de commande [New-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmediaconfiguration?view=skype-ps) et [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps) . <br/>  Les valeurs autorisées sont les suivantes : <br/>  Obligatoire : le chiffrement SRTP doit être utilisé. <br/>  Facultatif : le chiffrement SRTP sera utilisé si la passerelle le prend en charge. <br/>  Non pris en charge : le chiffrement SRTP n’est pas pris en charge et ne sera donc pas utilisé. <br/>  SRTPMode n’est utilisé que si la passerelle est configurée de manière à utiliser le protocole de transport TLS (Transport Layer Security). Si la passerelle est configurée avec le protocole de transport TCP, SRTPMode est défini en interne sur NotSupported.<br/> |
 |Prise en charge de la référence  <br/> |Enable3pccRefer  <br/> EnableReferSupport  <br/> |Si ce paramètre défini sur **Activer la référence d’appel vers la passerelle**, cela indique que la jonction prend en charge la réception des demandes REFER à partir du serveur de médiation.  <br/> S’il est défini sur **Activer la référence avec un contrôle d’appel tiers**, cela indique que le protocole 3pcc peut être utilisé pour permettre aux appels transférés de contourner le site hébergé. Le protocole 3pcc est également appelé « contrôle tiers » et est employé quand un tiers est utilisé pour connecter une paire d’appelants (par exemple, un opérateur passant un appel d’une personne A à une personne B).<br/> |
 |Activer la déviation du trafic multimédia  <br/> |EnableBypass  <br/> |Indique si la déviation du trafic multimédia est activée pour cette jonction. La déviation du trafic multimédia ne peut être activée que si **Traitement multimédia centralisé** est activé également.<br/> |
 |Traitement multimédia centralisé  <br/> |ConcentratedTopology  <br/> |Indique s’il existe un point de terminaison multimédia connu (par exemple, une passerelle RTC où le point de terminaison multimédia possède la même adresse IP que le point de terminaison de signalisation).  <br/> |
@@ -56,11 +58,11 @@ Lors de la création de paramètres de configuration SIP trunk à l’aide de Sk
 |Numéro appelé  <br/> |N/A  <br/> |Indique que le numéro de téléphone à tester est celui de la personne appelée.  <br/> |
    
 > [!NOTE]
-> Le Skype pour les applets de commande de CsTrunkConfiguration de serveur d’entreprise prennent en charge les propriétés supplémentaires non indiquées dans Skype pour le panneau de configuration de Business Server. Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cstrunkconfiguration?view=skype-ps) .
+> Skype pour Business Server CsTrunkConfiguration applets de commande prend en charge les propriétés supplémentaires non affichées dans Skype pour le panneau de configuration serveur Business. Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cstrunkconfiguration?view=skype-ps) .
   
-### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Pour créer des paramètres de configuration nouveau trunk à l’aide de Skype pour le panneau de configuration de Business Server
+### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Pour créer des paramètres de configuration de nouvelle jonction à l’aide de Skype pour Business Server Control Panel
 
-1. Dans Skype pour le panneau de configuration de Business Server, cliquez sur **Routage des communications vocales**, puis cliquez sur **Configuration de jonction**.
+1. Dans Skype pour Business Server le panneau de configuration, cliquez sur **Routage des communications vocales**, puis cliquez sur **Configuration de jonction**.
     
 2. Sous l’onglet **Configuration de la jonction**, cliquez sur **Nouveau**, puis cliquez sur **Jonction de site** pour créer les paramètres au niveau de l’étendue Site ou cliquez sur **Jonction de pool** pour créer les paramètres au niveau de l’étendue Service.
     
@@ -72,6 +74,6 @@ Lors de la création de paramètres de configuration SIP trunk à l’aide de Sk
     
 6. Dans la boîte de dialogue **Paramètres de configuration de la voix non validés**, cliquez sur **OK**.
     
-7. Dans la boîte de dialogue **Skype pour le panneau de configuration de Business Server** , cliquez sur **OK**.
+7. Dans la boîte de dialogue **Skype pour Business Server le panneau de configuration** , cliquez sur **OK**.
     
 

@@ -7,27 +7,29 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: Activer les utilisateurs pour la collecte d’appeler groupe dans Skype pour Business Server Voix Entreprise et affecter un numéro de groupe.
-ms.openlocfilehash: aaacf080f9e7f7ae7f9bad3f8b13201972d7a72f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Activer les utilisateurs pour le groupe d’appel collecte dans Skype pour Business Server Enterprise Voice, puis d’affecter un numéro de groupe.
+ms.openlocfilehash: ce360bc1f66f3e7b55d3c0f8ea9e392d957f25ea
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business-2015"></a>Activation de la prise d’appel de groupe pour les utilisateurs et attribution d’un numéro de groupe dans Skype Entreprise 2015
  
-Activer les utilisateurs pour la collecte d’appeler groupe dans Skype pour Business Server Voix Entreprise et affecter un numéro de groupe.
+Activer les utilisateurs pour le groupe d’appel collecte dans Skype pour Business Server Enterprise Voice, puis d’affecter un numéro de groupe.
   
-Après avoir ajouté des numéros de groupe collecte d’appel à la table des appels park orbite, vous utilisez l’outil SEFAUtil pour attribuer les numéros de groupe aux utilisateurs et l’activer pour ceux-ci la collecte d’appeler de groupe.
+Après avoir ajouté le groupe collecte d’appeler des numéros à la table d’orbite de parcage d’appel, vous utilisez l’outil SEFAUtil pour attribuer les numéros de groupe aux utilisateurs et activer la collecte d’appel de groupe pour qu’ils.
   
 > [!NOTE]
-> Dans un déploiement hybride, n’affectez pas un groupe de prise d’appel de groupe pour les utilisateurs qui sont hébergés en ligne. Les utilisateurs qui sont hébergées en ligne ne peuvent pas participer à la collecte d’appeler de groupe. Autrement dit, leurs appels ne peuvent pas être pris par d’autres utilisateurs et ils ne peuvent pas répondre aux appels destinés à d’autres utilisateurs. 
+> Dans un déploiement hybride, n’attribuez pas un groupe de collecte d’appel de groupe pour les utilisateurs hébergés en ligne. Les utilisateurs hébergés en ligne ne peuvent pas participer à la collecte d’appel de groupe. Autrement dit, leurs appels ne peuvent pas être pris par d’autres utilisateurs et ils ne peuvent pas répondre aux appels destinés à d’autres utilisateurs. 
   
-### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Pour affecter un numéro de groupe et activer la collecte d’appeler de groupe pour un utilisateur
+### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Pour affecter un numéro de groupe et activer la collecte d’appel de groupe pour un utilisateur
 
 1. Ouvrez une session sur l’ordinateur où vous avez installé l’outil SEFAUtil avec des droits d’administrateur.
     
@@ -47,5 +49,5 @@ Après avoir ajouté des numéros de groupe collecte d’appel à la table des a
 
 #### 
 
-[Remise en mains propres groupe de désactivation pour les utilisateurs](http://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
+[Collecte de groupe désactiver pour les utilisateurs](http://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
 

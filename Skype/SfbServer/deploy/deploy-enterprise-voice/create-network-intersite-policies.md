@@ -7,25 +7,27 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
-description: Permet de créer des stratégies entre les sites, qui sont utilisés par le contrôle d’admission appel Voix Entreprise dans Skype pour Business Server de réseau.
-ms.openlocfilehash: 73eee49022f039bf1bd36d1a06176fa94f3ef3f7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Créer des stratégies inter-sites, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server réseau.
+ms.openlocfilehash: f8c09f850a001b634ee63199210733000775fd0a
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server-2015"></a>Création de stratégies intersites réseau dans Skype Entreprise Server 2015
  
-Permet de créer des stratégies entre les sites, qui sont utilisés par le contrôle d’admission appel Voix Entreprise dans Skype pour Business Server de réseau. 
+Créer des stratégies inter-sites, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server réseau. 
   
-Une stratégie entre les sites de réseau définit les limites de la bande passante entre les sites qui ont des liaisons WAN directes entre eux.
+Une stratégie intersite de réseau définit des restrictions de bande passante entre les sites qui ont des liens directs WAN entre eux.
   
 > [!IMPORTANT]
-> Une stratégie entre les sites de réseau est requis *uniquement* s’il existe une liaison croisée directe entre deux sites du réseau.
+> Une stratégie réseau intersite est requis *uniquement* s’il existe un lien d’accès direct entre deux sites réseau.
   
 Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien direct entre les sites Reno et Albuquerque. Ces deux sites nécessitent une stratégie intersite qui applique un profil de stratégie de bande passante approprié. L’exemple suivant applique le profil 20Mb_Link.
   
@@ -49,7 +51,7 @@ Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien
   
 [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
   
-[Ensemble-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
+[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
   
-[Supprimer-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)
+[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)
 

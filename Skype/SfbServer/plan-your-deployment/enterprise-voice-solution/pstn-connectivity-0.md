@@ -7,22 +7,24 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
-description: Plan de connectivité RTPC de Voix Entreprise dans Skype pour Business Server.
-ms.openlocfilehash: 785dd39d4a809283ae53f7eedbe398a6271b7c5b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Planifier la connectivité PSTN dans Enterprise Voice dans Skype Business Server.
+ms.openlocfilehash: 228391049988c2eb886c0cb4e7caccce6f55ff3b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server-2015"></a>Planification de la connectivité PSTN dans Skype Entreprise Server 2015
  
-Plan de connectivité RTPC de Voix Entreprise dans Skype pour Business Server.
+Planifier la connectivité PSTN dans Enterprise Voice dans Skype Business Server.
   
-Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (RTC) avec une qualité de service constante. Utilisateurs pour émettre et recevoir des appels ne doivent pas être prenant en charge de la technologie sous-jacente : du point de vue de l’utilisateur, un appel entre l’infrastructure de Voix Entreprise et RTC doit sembler juste un autre appel.
+Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (RTC) avec une qualité de service constante. Les utilisateurs qui émettre et recevoir des appels ne doivent pas être conscient de la technologie sous-jacente : point de vue de l’utilisateur, d’un appel entre l’infrastructure Enterprise Voice et le réseau RTC doit ressembler à tout autre appel téléphonique.
   
 Skype pour Business Server offre une connectivité PSTN fiable et évolutive à l’aide des options suivantes :
   
@@ -36,14 +38,14 @@ Selon la taille, la couverture géographique et l’infrastructure vocale exista
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Trunking SIP dans Skype pour Business Server 2015](sip-trunking.md)
+- [Jonction SIP dans Skype pour Business Server 2015](sip-trunking.md)
     
-- [Connexions directes SIP dans Skype pour Business Server 2015](direct-sip.md)
+- [Connexions SIP directes dans Skype pour Business Server 2015](direct-sip.md)
     
-- [Trunk n : n dans Skype pour Business Server 2015](m-n-trunk.md)
+- [Jonction m : n dans Skype pour Business Server 2015](m-n-trunk.md)
     
 - [Règles de traduction dans Skype pour Business Server 2015](translation-rules.md)
     
-- [Plan pour le routage de sortie vocale dans Skype pour Business Server 2015](outbound-voice-routing.md)
+- [Planifier le routage des communications vocales sortantes dans Skype pour Business Server 2015](outbound-voice-routing.md)
     
 

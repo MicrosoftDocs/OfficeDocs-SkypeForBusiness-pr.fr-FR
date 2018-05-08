@@ -7,22 +7,24 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
-description: Configurer une base de données de la source (SLS) emplacement secondaire pour E9-1-1 dans Skype pour Business Server Voix Entreprise.
-ms.openlocfilehash: 03de4369b8473142e7a76e3698bb9fe7f129d546
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Configurer une base de données source (SLS) emplacement secondaire pour E9-1-1 dans Skype pour Business Server Enterprise Voice.
+ms.openlocfilehash: 4eaab1b6dfaae9b1298cce3544d89f8b6724733e
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server-2015"></a>Configuration d’un service Informations d’emplacement secondaire dans Skype Entreprise Server 2015
  
-Configurer une base de données de la source (SLS) emplacement secondaire pour E9-1-1 dans Skype pour Business Server Voix Entreprise. 
+Configurer une base de données source (SLS) emplacement secondaire pour E9-1-1 dans Skype pour Business Server Enterprise Voice. 
   
-Skype pour Business Server fournit une interface de service web que vous pouvez utiliser pour le service d’informations d’emplacement à une base de données de la Source d’emplacement secondaire (SLS). L’interface de service web qui se connecte à la base de données SLS doit se conformer au service d’informations de l’emplacement WSDL. Si une base de données de l’emplacement et la base de données du site secondaire sont configurés, le service d’informations d’emplacement tout d’abord interroge la base de données de l’emplacement et si aucune correspondance n’est trouvée, envoie la demande de l’emplacement à partir du client à la base de données SLS. Si l’emplacement existe dans le contrat SLS, le service d’informations d’emplacement envoie ensuite l’emplacement au client. 
+Skype pour Business Server fournit une interface de service web que vous pouvez utiliser pour faire pointer le service d’informations sur l’emplacement des bases de données Source d’emplacement secondaire (SLS). L’interface du service web qui se connecte à la base de données SLS doit être conforme à WSDL du service informations d’emplacement. Si une base de données de l’emplacement et la base de données d’emplacements secondaires sont configurés, le service informations d’emplacement tout d’abord interroge la base de données d’emplacement et si aucune correspondance n’est trouvée, envoie la demande d’emplacement à partir du client à la base de données SLS. Si l’emplacement existe dans le SLS, le service informations d’emplacement envoie ensuite l’emplacement sur le client. 
   
 ### <a name="to-configure-a-secondary-location-database"></a>Pour configurer une base de données d’emplacements secondaires
 
@@ -38,5 +40,5 @@ Skype pour Business Server fournit une interface de service web que vous pouvez 
 
 #### 
 
-[Ensemble-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

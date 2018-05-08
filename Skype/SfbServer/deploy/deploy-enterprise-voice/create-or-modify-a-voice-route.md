@@ -7,26 +7,28 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
-description: 'Résumé : Apprenez à créer ou modifier un itinéraire de voix dans Skype pour 2015 de serveur d’entreprise à l’aide de la Skype pour le panneau de configuration de Business Server.'
-ms.openlocfilehash: 2adc4d2a1277f229c1fcfbf230a49d5e91855a97
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Apprenez à créer ou modifier un itinéraire de communications vocales dans Skype pour Business Server 2015 à l’aide de la Skype pour le panneau de configuration serveur Business.'
+ms.openlocfilehash: a999cf8ce068aeca217995bf9f8b0395beaa1d2b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business-2015"></a>Création ou modification d’un itinéraire de communications vocales dans Skype Entreprise 2015
  
-**Résumé :** Découvrez comment créer ou modifier un itinéraire de voix dans Skype pour 2015 de serveur d’entreprise à l’aide de la Skype pour le panneau de configuration de Business Server.
+**Résumé :** Découvrez comment créer ou modifier un itinéraire de communications vocales dans Skype pour Business Server 2015 à l’aide de la Skype pour le panneau de configuration serveur Business.
   
-### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>Pour créer un itinéraire de voix à l’aide de la Skype pour le panneau de configuration de Business Server
+### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>Pour créer une itinéraire des communications vocales à l’aide de la Skype pour Business Server Control Panel
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe **RTCUniversalServerAdmins** ou membre du rôle d’administrateur **CsVoiceAdministrator**, **CsServerAdministrator** ou CsAdministrator.
     
-2. Ouvrez Skype pour le panneau de configuration de Business Server.
+2. Ouvrez le panneau de configuration serveur Business Skype.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**.
     
@@ -42,22 +44,22 @@ ms.lasthandoff: 03/28/2018
     
    - Pour utiliser l’outil **Créer un modèle à suivre** afin de générer une expression régulière, entrez les valeurs comme suit. Vous pouvez spécifier deux types de correspondance de modèles :
     
-   - **Démarrage des chiffres pour les numéros que vous souhaitez autoriser**: entrez les valeurs de préfixe qui doit s’adapter à cet itinéraire (y compris l’interligne + si nécessaire). Par exemple, tapez +425, puis cliquez sur **Ajouter**. Répétez cette procédure pour chaque valeur de préfixe que vous souhaitez inclure dans la gamme.
+   - **Démarrage des chiffres pour les numéros que vous souhaitez autoriser**: entrez des valeurs de préfixe cet itinéraire doit prendre en charge (y compris le signe + si nécessaire). Par exemple, tapez +425, puis cliquez sur **Ajouter**. Répétez cette procédure pour chaque valeur de préfixe que vous souhaitez inclure dans l’itinéraire.
     
-   - **Exceptions**: Si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, le préfixe de mettre en surbrillance et cliquez sur **Exceptions**. Tapez dans une ou plusieurs valeurs pour la mise en correspondance de modèles que vous effectuez cette route pour prendre en charge que vous souhaitez *n’est pas* . Par exemple, pour exclure les numéros commençant par +425237 de la gamme, permet d’entrer une valeur de + 425237 dans le champ des **Exceptions** , puis cliquez sur **OK**.
+   - **Exceptions**: Si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, le préfixe de mettre en surbrillance et cliquez sur **Exceptions**. Tapez dans une ou plusieurs valeurs pour la mise en correspondance des modèles que vous *not* que vous souhaitez acheminer ce pour prendre en charge. Par exemple, pour exclure les numéros commençant par +425237 de l’itinéraire, entrez une valeur de + 425237 dans le champ **Exceptions** , puis cliquez sur **OK**.
     
-   - Pour définir manuellement le modèle de correspondance, cliquez sur **Modifier** dans l’outil **Créer un modèle à suivre**, puis entrez une expression régulière .NET Framework afin de spécifier le modèle de correspondance pour les numéros de téléphone de destination auxquels l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, consultez [«.NET Framework Regular Expressions »](https://go.microsoft.com/fwlink/p/?linkId=140927). 
+   - Pour définir manuellement le modèle de correspondance, cliquez sur **Modifier** dans l’outil **Créer un modèle à suivre**, puis entrez une expression régulière .NET Framework afin de spécifier le modèle de correspondance pour les numéros de téléphone de destination auxquels l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, voir [« Expressions régulières .NET Framework »](https://go.microsoft.com/fwlink/p/?linkId=140927). 
     
-9. Sélectionnez l’option **Supprimer l’ID de l’appelant** si vous ne souhaitez pas que l’ID du téléphone à l’origine de l’appel sortant soit affiché pour le destinataire. Si vous sélectionnez cette option, vous devez spécifier un **ID d’appelant de remplacement** qui apparaîtra sur les appelant du destinataire affichage de l’identifiant.
+9. Sélectionnez l’option **Supprimer l’ID de l’appelant** si vous ne souhaitez pas que l’ID du téléphone à l’origine de l’appel sortant soit affiché pour le destinataire. Si vous sélectionnez cette option, vous devez spécifier un **ID d’appelant de substitution** qui s’affiche sur l’appelant du destinataire affichage ID.
     
 10. Pour associer une ou plusieurs jonctions à l’itinéraire des communications vocales, cliquez sur **Ajouter**, puis sélectionnez une jonction dans la liste.
     
 11. Pour associer une ou plusieurs utilisations du réseau téléphonique commuté (RTC) à l’itinéraire des communications vocales, cliquez sur **Sélectionner** et sélectionnez un enregistrement dans la liste des enregistrements d’utilisation RTC définis pour votre déploiement de Voix Entreprise.
     
     > [!NOTE]
-    > Pour afficher les propriétés de chacun des enregistrements de l’utilisation de TLS disponibles, voir [enregistrements d’utilisation de vue RTPC dans Skype pour entreprise 2015](view-pstn-usage-records.md). > Pour créer ou modifier des enregistrements d’utilisation PSTN, consultez [créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation de TLS dans Skype pour entreprise 2015](voice-policy-and-pstn-usage-records.md)
+    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir [PSTN afficher les enregistrements d’utilisation dans Skype pour Business 2015](view-pstn-usage-records.md). > Pour créer ou modifier des enregistrements d’utilisation PSTN, voir [créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype pour 2015 Business](voice-policy-and-pstn-usage-records.md)
   
-12. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez le nom de l’enregistrement et cliquez sur la flèche vers le bas.
+12. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillance le nom de l’enregistrement et cliquez sur la flèche vers le bas.
     
     > [!NOTE]
     > Contrairement à une stratégie de voix, l’ordre dans lequel les enregistrements d’utilisation RTC sont répertoriés dans l’itinéraire des communications vocales n’a pas d’importance. Nous vous recommandons, toutefois, d’organiser la liste par fréquence d’utilisation. Par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype pour Business Server parcourt la liste à partir du haut vers le bas.) 
@@ -67,11 +69,11 @@ ms.lasthandoff: 03/28/2018
 14. Cliquez sur **OK** pour enregistrer l’itinéraire des communications vocales.
     
     > [!IMPORTANT]
-    > Quand vous créez un itinéraire des communications vocales, vous devez exécuter la commande **Tout valider** pour publier la configuration modifiée. Pour plus d’informations, consultez [publication des modifications en attente à la configuration de routage voix dans Skype pour entreprise 2015](voice-route-config-changes.md). 
+    > Quand vous créez un itinéraire des communications vocales, vous devez exécuter la commande **Tout valider** pour publier la configuration modifiée. Pour plus d’informations, voir [publication en attente apportées à la configuration de routage voix dans Skype pour Business 2015](voice-route-config-changes.md). 
   
 ### <a name="to-modify-a-voice-route"></a>Pour modifier un itinéraire des communications vocales
 
-1. Ouvrez Skype pour le panneau de configuration de Business Server.
+1. Ouvrez le panneau de configuration serveur Business Skype.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Itinéraire**.
     
@@ -89,22 +91,22 @@ ms.lasthandoff: 03/28/2018
     
    - Pour utiliser l’outil **Créer un modèle à suivre** afin de générer une expression régulière, entrez les valeurs comme suit. Vous pouvez spécifier deux types de correspondance de modèles :
     
-   - **Démarrage des chiffres pour les numéros que vous souhaitez autoriser**: entrez les valeurs de préfixe qui doit s’adapter à cet itinéraire (y compris l’interligne + si nécessaire). Par exemple, tapez +425 et puis cliquez sur **Ajouter**. Répétez cette procédure pour chaque valeur de préfixe que vous souhaitez inclure dans la gamme.
+   - **Démarrage des chiffres pour les numéros que vous souhaitez autoriser**: entrez des valeurs de préfixe cet itinéraire doit prendre en charge (y compris le signe + si nécessaire). Par exemple, tapez +425, puis sur **Ajouter**. Répétez cette procédure pour chaque valeur de préfixe que vous souhaitez inclure dans l’itinéraire.
     
-   - **Exceptions**: Si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, le préfixe de mettre en surbrillance et cliquez sur **Exceptions**. Tapez dans une ou plusieurs valeurs pour la mise en correspondance de modèles que vous effectuez cette route pour prendre en charge que vous souhaitez *n’est pas* . Par exemple, pour exclure les numéros commençant par +425237 de la gamme, permet d’entrer une valeur de + 425237 dans le champ des **Exceptions** , puis cliquez sur **OK**.
+   - **Exceptions**: Si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, le préfixe de mettre en surbrillance et cliquez sur **Exceptions**. Tapez dans une ou plusieurs valeurs pour la mise en correspondance des modèles que vous *not* que vous souhaitez acheminer ce pour prendre en charge. Par exemple, pour exclure les numéros commençant par +425237 de l’itinéraire, entrez une valeur de + 425237 dans le champ **Exceptions** , puis cliquez sur **OK**.
     
-   - Pour définir le modèle de correspondance manuellement, cliquez sur **Modifier** dans l’outil de **génération d’un modèle à faire correspondre** et tapez dans une expression régulière du.NET Framework pour spécifier le modèle de correspondance pour les numéros de téléphone de destination à laquelle l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, consultez [«.NET Framework Regular Expressions »](https://go.microsoft.com/fwlink/p/?linkId=140927). 
+   - Pour définir manuellement le modèle de correspondance, cliquez sur **Modifier** dans l’outil de **génération d’un modèle à associer** , puis tapez dans une expression régulière .NET Framework pour spécifier le modèle correspondant pour les numéros de téléphone de destination vers lequel l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, voir [« Expressions régulières .NET Framework »](https://go.microsoft.com/fwlink/p/?linkId=140927). 
     
-7. Sélectionnez l’option **Supprimer l’ID de l’appelant** si vous ne souhaitez pas que l’ID du téléphone à l’origine de l’appel sortant soit affiché au destinataire. Si vous sélectionnez cette option, vous devez spécifier un **ID d’appelant de remplacement** qui apparaîtra sur les appelant du destinataire affichage de l’identifiant.
+7. Sélectionnez l’option **Supprimer l’ID de l’appelant** si vous ne souhaitez pas que l’ID du téléphone à l’origine de l’appel sortant soit affiché au destinataire. Si vous sélectionnez cette option, vous devez spécifier un **ID d’appelant de substitution** qui s’affiche sur l’appelant du destinataire affichage ID.
     
 8. Pour associer une ou plusieurs jonctions RTC à l’itinéraire des communications vocales, cliquez sur **Ajouter**, puis sélectionnez une jonction dans la liste.
     
-9. Pour associer une ou plusieurs utilisations de RTPC à l’itinéraire de la voix, cliquez sur **Sélectionner** et choisissez un enregistrement dans la liste des enregistrements d’utilisation de TLS qui ont été définis pour votre déploiement de Voix Entreprise.
+9. Pour associer une ou plusieurs utilisations PSTN à l’itinéraire de communications vocales, cliquez sur **Sélectionner** et choisissez un enregistrement dans la liste des enregistrements d’utilisation PSTN qui ont été définies pour votre déploiement d’Enterprise Voice.
     
     > [!NOTE]
-    > Pour afficher les propriétés de chacun des enregistrements de l’utilisation de TLS disponibles, voir [enregistrements d’utilisation de vue RTPC dans Skype pour entreprise 2015](view-pstn-usage-records.md). > Pour créer ou modifier des enregistrements d’utilisation PSTN, consultez [créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation de TLS dans Skype pour entreprise 2015](voice-policy-and-pstn-usage-records.md). 
+    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir [PSTN afficher les enregistrements d’utilisation dans Skype pour Business 2015](view-pstn-usage-records.md). > Pour créer ou modifier des enregistrements d’utilisation PSTN, voir [créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype pour Business 2015](voice-policy-and-pstn-usage-records.md). 
   
-10. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez le nom de l’enregistrement et cliquez sur la flèche vers le bas.
+10. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillance le nom de l’enregistrement et cliquez sur la flèche vers le bas.
     
     > [!NOTE]
     > Contrairement à une stratégie de voix dans laquelle l’ordre d’apparition des enregistrements d’utilisation RTC est important, l’ordre des enregistrements d’utilisation RTC dans un itinéraire des communications vocales n’est pas significatif. Il est toutefois recommandé d’organiser la liste par fréquence d’utilisation, par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype pour Business Server parcourt la liste à partir du haut vers le bas.) 
@@ -116,15 +118,15 @@ ms.lasthandoff: 03/28/2018
 13. Dans la page **Itinéraire**, cliquez sur **Valider**, puis sur **Tout valider**. 
     
     > [!NOTE]
-    > Chaque fois que vous créez ou modifiez un itinéraire des communications vocales, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, consultez [publication des modifications en attente à la configuration de routage voix dans Skype pour entreprise 2015](voice-route-config-changes.md) dans la documentation d’opérations.
+    > Chaque fois que vous créez ou modifiez un itinéraire des communications vocales, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour Business 2015](voice-route-config-changes.md) dans la documentation des opérations.
   
 ## <a name="see-also"></a>Voir aussi
 
 #### 
 
-[Afficher les enregistrements d’utilisation de TLS dans Skype pour entreprise 2015](view-pstn-usage-records.md)
+[Afficher les enregistrements d’utilisation PSTN dans Skype pour Business 2015](view-pstn-usage-records.md)
   
-[Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation de TLS dans Skype pour entreprise 2015](voice-policy-and-pstn-usage-records.md)
+[Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour Business 2015](voice-policy-and-pstn-usage-records.md)
   
-[Publier des modifications en attente à la configuration de routage voix dans Skype pour entreprise 2015](voice-route-config-changes.md)
+[Publier des modifications à la configuration de routage voix Skype pour Business 2015 en attente](voice-route-config-changes.md)
 

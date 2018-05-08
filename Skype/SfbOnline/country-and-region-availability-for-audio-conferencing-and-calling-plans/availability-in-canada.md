@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada.
-ms.openlocfilehash: abc0ecee302e3f646e43fcbb54e5ecf2e19ee5bd
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 6a5f5f0c73d82880acfd9adfa824825ed41b4f85
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="availability-in-canada"></a>Disponibilité au Canada
 
@@ -51,8 +51,6 @@ Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponi
 |Messagerie vocale  <br/> |Disponibles  <br/> |
 
 ## <a name="calling-plans"></a>Forfaits d'appels
-> [!IMPORTANT]
-> Pour le Canada, disponible uniquement pour les clients de la version préliminaire et les utilisateurs précoces. Pour plus d’informations, consultez les [Programmes de version bêta de Skype](https://www.skypepreview.com).
     
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
@@ -69,6 +67,9 @@ Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponi
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    
  Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+
+> [!Note] 
+> Lorsqu’un appel de Plan de (nationale ou nationales et internationales) utilisateur aux États-Unis compose un numéro de téléphone au Canada, il est considéré comme un appel national. C’est également le cas lorsqu’un utilisateur au Canada effectue un appel vers un numéro US.
   
 ## <a name="communications-credits"></a>Crédits de communication
 

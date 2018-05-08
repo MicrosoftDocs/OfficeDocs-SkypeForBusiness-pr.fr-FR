@@ -7,20 +7,22 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
-description: 'Résumé : En savoir plus sur les serveurs et les rôles de serveur que vous devez configurer avant d’installer Skype pour Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour 2015 de serveur d’entreprise depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 6f84b4f0a95c45297ad809e6b04217e711c3dd5e
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+description: 'Résumé : En savoir plus sur les serveurs et les rôles de serveur que vous devez configurer avant d’installer Skype pour Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: 6d11b83cf760b47072bca743b6fe3b5fac3794d9
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="install-prerequisites-for-skype-for-business-server-2015"></a>Installation des composants prérequis pour Skype Entreprise Server 2015
  
-**Résumé :** Obtenir des informations sur les serveurs et les rôles de serveur que vous devez configurer avant d’installer Skype pour Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour 2015 de serveur d’entreprise à partir du [Centre d’évaluation de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Résumé :** Obtenir des informations sur les serveurs et les rôles de serveur que vous devez configurer avant d’installer Skype pour Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 à partir du [Centre d’évaluation de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 L’installation des conditions préalables consiste à mettre en place Windows Server en installant les fonctionnalités et rôles requis pour chaque serveur de la topologie. Les conditions sont basées sur le rôle que le serveur va jouer dans la topologie. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez suivre les étapes 6, 7, et 8 dans l’ordre et après avoir effectué les étapes 1 à 5, comme expliqué sur le diagramme. L’installation des conditions préalables est présentée dans l’étape 1 sur 8.
   
@@ -28,13 +30,13 @@ L’installation des conditions préalables consiste à mettre en place Windows 
   
 ## <a name="setup-windows-server"></a>Mise en place de Windows Server
 
-Skype pour Business Server 2015 nécessite le système d’exploitation Windows et un certain nombre de conditions préalables avant de pouvoir l’installer. Pour plus d’informations sur la planification de la configuration requise, voir [configuration du serveur pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+Skype pour Business Server 2015 requiert le système d’exploitation Windows Server et un certain nombre de conditions préalables avant de pouvoir installer. Pour plus d’informations sur la planification des conditions préalables, voir [configuration du serveur pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
   
 > [!TIP]
 > Cette procédure se base sur Windows Server 2012 R2. Si vous utilisez une version différente de Windows Server, la procédure peut être légèrement différente. 
   
 > [!IMPORTANT]
-> Avant de commencer, assurez-vous que le serveur Windows est à jour à l’aide de Windows Update. 
+> Avant de commencer, assurez-vous que Windows Server est mise à jour à l’aide de Windows Update. 
   
 ![Windows Server à jour.](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
   
@@ -50,13 +52,13 @@ Regardez la vidéo des étapes pour **installer les composants requis** :
     
 3. Sélectionnez une **Installation basée sur un rôle ou une fonctionnalité**, et cliquez sur **Suivant**.
     
-4. Sélectionnez le serveur sur lequel vous fera l’installation Skype pour Business Server 2015, puis cliquez sur **suivant**.
+4. Sélectionnez le serveur sur lequel vous seront installation Skype pour Business Server 2015, puis cliquez sur **suivant**.
     
 5. Sélectionnez le rôle du **Serveur Web (IIS)**, et lorsque la fenêtre des fonctionnalités requises s’ouvre, cliquez sur **Ajouter des fonctionnalités**, puis sur **Suivant**.
     
 6. Assurez-vous que les fonctions logicielles répertoriées dans le [logiciel qui doit être installé avant un Skype pour le déploiement de Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#Software) sont sur le serveur qui exécutera Skype pour Business Server 2015. Voici une liste abrégée :
     
-   - Fonctionnalités du.NET Framework
+   - Fonctionnalités de .NET framework
     
    - Services WCF
     
@@ -146,14 +148,14 @@ Regardez la vidéo des étapes pour **installer les composants requis** :
     
 13. Réexécutez **Windows Update** pour vérifier les mises à jour pour les rôles et services qui ont été installés.
     
-14. Si vous utilisez Skype pour le panneau de configuration de Business Server sur ce serveur vous devez également installer Silverlight. Pour installer Silverlight, consultez [Microsoft Silverlight](https://www.microsoft.com/silverlight/).
+14. Si vous utilisez Skype pour le panneau de configuration serveur Business sur ce serveur vous devez également installer Silverlight. Pour installer Silverlight, voir [Microsoft Silverlight](https://www.microsoft.com/silverlight/).
     
-Vous pouvez installer les conditions préalables en exécutant la commande PowerShell suivante. Veuillez noter que la commande recherche des fichiers source dans un ordre spécifique. Si vous êtes connecté à internet, la commande aura accès à Windows Update. Si vous n’êtes pas connecté à internet, vous devrez vous assurer que les fichiers source sont accessibles à la commande. Pour plus d’informations sur l’utilisation de PowerShell pour installer des rôles et fonctionnalités, consultez [installer ou désinstaller des rôles, Services de rôle ou fonctionnalités](https://technet.microsoft.com/en-us/library/hh831809.aspx) et [Installation-WindowsFeature](https://technet.microsoft.com/en-us/library/jj205467.aspx). N’oubliez pas de réexécuter Windows Update après avoir installé les conditions préalables, même si vous utilisez la commande PowerShell.
+Vous pouvez installer les conditions préalables en exécutant la commande PowerShell suivante. Veuillez noter que la commande recherche des fichiers source dans un ordre spécifique. Si vous êtes connecté à internet, la commande aura accès à Windows Update. Si vous n’êtes pas connecté à internet, vous devrez vous assurer que les fichiers source sont accessibles à la commande. Pour plus d’informations sur l’utilisation de PowerShell pour installer des rôles et fonctionnalités, voir [installer ou désinstaller des rôles, Services de rôle ou fonctionnalités](https://technet.microsoft.com/en-us/library/hh831809.aspx) et [Install-WindowsFeature](https://technet.microsoft.com/en-us/library/jj205467.aspx). N’oubliez pas de réexécuter Windows Update après avoir installé les conditions préalables, même si vous utilisez la commande PowerShell.
 ```
 Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Dir-Browsing, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, BITS
 ```
 
 > [!IMPORTANT]
-> Les conditions préalables pour les serveurs ayant d’autres rôles que celui de serveur frontal (notamment les rôles de directeur, de conversation permanente, ou Edge) ont leurs propres conditions préalables. Pour plus d’informations sur les composants d’exacts requis par chaque type de serveur, consultez [configuration du serveur pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+> Les conditions préalables pour les serveurs ayant d’autres rôles que celui de serveur frontal (notamment les rôles de directeur, de conversation permanente, ou Edge) ont leurs propres conditions préalables. Pour plus d’informations sur la configuration exacte requise par chaque type de serveur, voir [configuration du serveur pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
   
 
