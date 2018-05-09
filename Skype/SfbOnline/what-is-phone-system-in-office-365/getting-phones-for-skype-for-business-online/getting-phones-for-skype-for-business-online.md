@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: 7efddd118ca80f0610f287746e0f14ee0146d3c3
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: cba66559fada6edb0965fb5bf7095bccdedaa307
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtention de numéros de téléphone pour Skype Entreprise Online
 
@@ -68,8 +68,7 @@ Il s’agit de la version logicielle minimale requise pour les téléphones pris
 |Yealink  <br/> |X.8.1.52  <br/> |Février 2017  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |Décembre 2016  <br/> |
    
-> [!NOTE]
-> Les téléphones Lync Phone Edition (LPE) configurés pour votre déploiement local doivent être mis à jour avec la version minimale ou ultérieure du microprogramme avant la migration des utilisateurs vers Skype Entreprise Online. Si vous migrez vos utilisateurs du déploiement local vers Skype Entreprise Online avant de mettre à jour le microprogramme sur les téléphones, ces utilisateurs ne pourront pas se connecter à Skype Entreprise Online avec leurs téléphones. 
+> [NOTE] Téléphones Lync Phone Edition (LPE) que vous avez configuré pour votre déploiement local doivent être mise à jour du microprogramme minimal ou version ultérieure requis avant de déplacer des utilisateurs vers Skype pour Business Online. Si vous migrez vos utilisateurs du déploiement local vers Skype Entreprise Online avant de mettre à jour le microprogramme sur les téléphones, ces utilisateurs ne pourront pas se connecter à Skype Entreprise Online avec leurs téléphones. 
   
 ## <a name="required-licenses"></a>Licences requises
 
