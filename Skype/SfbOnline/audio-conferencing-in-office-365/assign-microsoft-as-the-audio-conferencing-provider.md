@@ -1,5 +1,5 @@
 ---
-title: Affecter Microsoft comme le fournisseur de conférence audio
+title: Attribuer de Microsoft en tant que le fournisseur de services d’audioconférence
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,80 +15,82 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-- Strat_SB_PSTN
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 2ccb2b9a2b0a611d46056a8369dcb92d294c081f
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: e5e11adb4bf02e87de316d70be48b60d3ecd1d7f
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="assign-microsoft-as-the-audio-conferencing-provider"></a><span data-ttu-id="7c1af-103">Affecter Microsoft comme le fournisseur de conférence audio</span><span class="sxs-lookup"><span data-stu-id="7c1af-103">Assign Microsoft as the audio conferencing provider</span></span>
+# <a name="assign-microsoft-as-the-audio-conferencing-provider"></a><span data-ttu-id="5a18c-103">Attribuer de Microsoft en tant que le fournisseur de services d’audioconférence</span><span class="sxs-lookup"><span data-stu-id="5a18c-103">Assign Microsoft as the audio conferencing provider</span></span>
 
-<span data-ttu-id="7c1af-104">Pour utiliser l’audioconférence dans Office 365 avec Skype pour les entreprises et les Teams de Microsoft, les utilisateurs de votre organisation devront disposer d’une licence d’Audio conférence qui leur sont affectée.</span><span class="sxs-lookup"><span data-stu-id="7c1af-104">To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an Audio Conferencing license assigned to them.</span></span> <span data-ttu-id="7c1af-105">Pour obtenir plus d’informations sur les licences et son coût, reportez-vous à la section [Essayez ou achetez audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365.md) .</span><span class="sxs-lookup"><span data-stu-id="7c1af-105">See [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.</span></span>
+<span data-ttu-id="5a18c-104">Pour utiliser la conférence Audio dans Office 365 avec Skype pour les entreprises et Teams Microsoft, les utilisateurs dans votre organisation doivent avoir une licence de conférence Audio.</span><span class="sxs-lookup"><span data-stu-id="5a18c-104">To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an Audio Conferencing license assigned to them.</span></span> <span data-ttu-id="5a18c-105">Pour obtenir plus d’informations sur les licences et les tarifs proposés, voir [essayer ou acheter conférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365.md) .</span><span class="sxs-lookup"><span data-stu-id="5a18c-105">See [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.</span></span>
 
-<span data-ttu-id="7c1af-106">Conférence Audio de Microsoft fournit les numéros de téléphone, des broches et conférence ID qui peut être utilisé par les participants à la réunion à assister aux réunions de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="7c1af-106">Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conference IDs that can be used by meeting participants to join the meetings of your organization.</span></span> <span data-ttu-id="7c1af-107">Vous devez uniquement affecter Microsoft comme le fournisseur de conférence audio pour les personnes qui vont planifier ou entraîner Skype pour les réunions d’entreprise ou Teams de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="7c1af-107">You only need to assign Microsoft as the audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.</span></span>
+<span data-ttu-id="5a18c-106">Conférence Microsoft fournit les numéros de téléphone, des codes confidentiels et conférence ID utilisables par les participants à la réunion pour participer à des réunions de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="5a18c-106">Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conference IDs that can be used by meeting participants to join the meetings of your organization.</span></span> <span data-ttu-id="5a18c-107">Vous devez uniquement attribuer des Microsoft en tant que le fournisseur de services d’audioconférence aux personnes qui vont planifier ou entraîner Skype pour les réunions Microsoft Teams ou de l’entreprise.</span><span class="sxs-lookup"><span data-stu-id="5a18c-107">You only need to assign Microsoft as the audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.</span></span>
   
-## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a><span data-ttu-id="7c1af-108">Affecter Microsoft comme le fournisseur de conférence audio</span><span class="sxs-lookup"><span data-stu-id="7c1af-108">Assign Microsoft as the audio conferencing provider</span></span>
+## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a><span data-ttu-id="5a18c-108">Attribuer de Microsoft en tant que le fournisseur de services d’audioconférence</span><span class="sxs-lookup"><span data-stu-id="5a18c-108">Assign Microsoft as the audio conferencing provider</span></span>
 
-### <a name="using-the-skype-for-business-admin-center"></a><span data-ttu-id="7c1af-109">Utilisation du centre d'administration Skype Entreprise</span><span class="sxs-lookup"><span data-stu-id="7c1af-109">Using the Skype for Business admin center</span></span>
+### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) <span data-ttu-id="5a18c-110">Utilisation du centre d'administration Skype Entreprise</span><span class="sxs-lookup"><span data-stu-id="5a18c-110">Using the Skype for Business admin center</span></span>
 
-1. <span data-ttu-id="7c1af-110">Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.</span><span class="sxs-lookup"><span data-stu-id="7c1af-110">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+1. <span data-ttu-id="5a18c-111">Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.</span><span class="sxs-lookup"><span data-stu-id="5a18c-111">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-2. <span data-ttu-id="7c1af-111">Dans le **Skype pour le centre d’administration commerciale**, dans la navigation de gauche, accédez à **l’audioconférence**.</span><span class="sxs-lookup"><span data-stu-id="7c1af-111">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**.</span></span>
+2. <span data-ttu-id="5a18c-112">Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio**.</span><span class="sxs-lookup"><span data-stu-id="5a18c-112">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**.</span></span>
     
-3. <span data-ttu-id="7c1af-112">Si vous voyez une bannière qui vous avertit qu’il existe des utilisateurs qui ont une **Conférence Audio** licence affectés mais n’avez pas Microsoft défini comme leur fournisseur de conférence audio pour l’instant, cliquez sur **Cliquez ici pour les déplacer**.</span><span class="sxs-lookup"><span data-stu-id="7c1af-112">If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**.</span></span> <span data-ttu-id="7c1af-113">Si vous ne voyez pas la bannière, dans le **Skype pour le centre d’administration Business** cliquez sur **utilisateurs**et puis sélectionnez le filtre **prête à être déplacée à l’Audio conférence des utilisateurs** .</span><span class="sxs-lookup"><span data-stu-id="7c1af-113">If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.</span></span>
+3. <span data-ttu-id="5a18c-113">Si vous voyez une bannière pour vous avertir qu’il existe des utilisateurs qui disposent d’une **Conférence Audio** licence affectés mais n’avez pas Microsoft définir en tant que leur fournisseur de services d’audioconférence encore, cliquez sur **Cliquez ici pour les déplacer**.</span><span class="sxs-lookup"><span data-stu-id="5a18c-113">If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**.</span></span> <span data-ttu-id="5a18c-114">Si vous ne voyez pas la bannière, dans le **Skype pour le centre d’administration de Business** cliquez sur **utilisateurs**, puis sélectionnez le filtre **prêt à être déplacé vers une conférence Audio des utilisateurs** .</span><span class="sxs-lookup"><span data-stu-id="5a18c-114">If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.</span></span>
     
-4. <span data-ttu-id="7c1af-114">Sur la page de propriétés de l’utilisateur, sous **le nom du fournisseur**, sélectionnez **Microsoft** dans la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="7c1af-114">On the properties page for the user, under **Provider name**, select **Microsoft** in the drop-down list.</span></span>
+4. <span data-ttu-id="5a18c-115">Dans la page Propriétés de l’utilisateur, sous **nom du fournisseur**, sélectionnez **Microsoft** dans la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="5a18c-115">On the properties page for the user, under **Provider name**, select **Microsoft** in the drop-down list.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="7c1af-115">Dans la mesure où vous utilisez Microsoft comme le fournisseur de conférence audio et il y a plusieurs numéros de téléphone, vous pouvez utiliser la liste déroulante **numéro d’appel payant par défaut** pour sélectionner un numéro d’audio par défaut pour l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="7c1af-115">Because you are using Microsoft as the audio conferencing provider and there are multiple phone numbers, you can use the **Default toll number** drop-down list to select a default audio number for the user.</span></span>
+    > <span data-ttu-id="5a18c-116">Étant donné que vous utilisez Microsoft en tant que le fournisseur de services d’audioconférence et il existe plusieurs numéros de téléphone, vous pouvez utiliser la liste déroulante **numéro de téléphone payant par défaut** pour sélectionner un numéro audio par défaut pour l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="5a18c-116">Because you are using Microsoft as the audio conferencing provider and there are multiple phone numbers, you can use the **Default toll number** drop-down list to select a default audio number for the user.</span></span>
   
-5. <span data-ttu-id="7c1af-116">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="7c1af-116">Click **Save**.</span></span>
-    
-### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a><span data-ttu-id="7c1af-117">Utilisation d'un script Windows PowerShell pour un petit nombre d'utilisateurs</span><span class="sxs-lookup"><span data-stu-id="7c1af-117">Using a Windows PowerShell script for a small number of users</span></span>
+5. <span data-ttu-id="5a18c-117">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="5a18c-117">Click **Save**.</span></span>
 
-<span data-ttu-id="7c1af-118">Pour gagner du temps ou d’automatiser cette action, vous pouvez utiliser le script PowerShell suivant à configurer Microsoft comme le fournisseur de conférence audio pour un petit nombre d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="7c1af-118">To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a small number of users.</span></span>
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+    
+### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a><span data-ttu-id="5a18c-118">Utilisation d'un script Windows PowerShell pour un petit nombre d'utilisateurs</span><span class="sxs-lookup"><span data-stu-id="5a18c-118">Using a Windows PowerShell script for a small number of users</span></span>
+
+<span data-ttu-id="5a18c-119">Pour gagner du temps ou d’automatiser cette action, vous pouvez utiliser le script PowerShell suivant pour définir Microsoft en tant que le fournisseur de services d’audioconférence pour un petit nombre d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="5a18c-119">To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a small number of users.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7c1af-119">Lorsque le fournisseur est modifié à partir d’un autre fournisseur pour **Microsoft**, les informations de conférence audio de l’utilisateur (ID de la conférence, numéro payant et numéros d’appel gratuits) seront remplacées.</span><span class="sxs-lookup"><span data-stu-id="7c1af-119">When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced.</span></span> <span data-ttu-id="7c1af-120">Enregistrez ces informations avant de changer de fournisseur.</span><span class="sxs-lookup"><span data-stu-id="7c1af-120">You should save this information before changing the provider.</span></span> 
+> <span data-ttu-id="5a18c-120">Lorsque le fournisseur est modifié à partir d’un autre fournisseur à **Microsoft**, les informations de conférence audio de l’utilisateur (ID de conférence, payant et gratuit) seront remplacées.</span><span class="sxs-lookup"><span data-stu-id="5a18c-120">When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced.</span></span> <span data-ttu-id="5a18c-121">Enregistrez ces informations avant de changer de fournisseur.</span><span class="sxs-lookup"><span data-stu-id="5a18c-121">You should save this information before changing the provider.</span></span> 
 
   
-<span data-ttu-id="7c1af-121">Pour modifier le fournisseur de Microsoft pour un petit nombre d’utilisateurs, vous pouvez utiliser l’applet de commande [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) .</span><span class="sxs-lookup"><span data-stu-id="7c1af-121">To change the provider to Microsoft for a small number of users, you can use the  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet.</span></span>
+<span data-ttu-id="5a18c-122">Pour modifier le fournisseur à Microsoft pour un petit nombre d’utilisateurs, vous pouvez utiliser l’applet de commande [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) .</span><span class="sxs-lookup"><span data-stu-id="5a18c-122">To change the provider to Microsoft for a small number of users, you can use the  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet.</span></span>
   
 
-### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a><span data-ttu-id="7c1af-122">Utilisation d'un script Windows PowerShell pour un grand nombre d'utilisateurs</span><span class="sxs-lookup"><span data-stu-id="7c1af-122">Using a Windows PowerShell script for a large number of users</span></span>
-<span data-ttu-id="7c1af-123">Pour gagner du temps ou d’automatiser cette action, vous pouvez utiliser le script PowerShell suivant à configurer Microsoft comme le fournisseur de conférence audio pour un grand nombre d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="7c1af-123">To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a large number of users.</span></span>
+### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a><span data-ttu-id="5a18c-123">Utilisation d'un script Windows PowerShell pour un grand nombre d'utilisateurs</span><span class="sxs-lookup"><span data-stu-id="5a18c-123">Using a Windows PowerShell script for a large number of users</span></span>
+<span data-ttu-id="5a18c-124">Pour gagner du temps ou d’automatiser cette action, vous pouvez utiliser le script PowerShell suivant pour définir Microsoft en tant que le fournisseur de services d’audioconférence pour un grand nombre d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="5a18c-124">To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a large number of users.</span></span>
 
-<span data-ttu-id="7c1af-124">Lorsque le fournisseur est modifié à partir d’un autre fournisseur pour **Microsoft**, les informations de conférence audio de l’utilisateur (ID de la conférence, numéro payant et numéros d’appel gratuits) seront remplacées.</span><span class="sxs-lookup"><span data-stu-id="7c1af-124">When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced.</span></span> <span data-ttu-id="7c1af-125">Enregistrez ces informations avant de changer de fournisseur.</span><span class="sxs-lookup"><span data-stu-id="7c1af-125">You should save this information before changing the provider.</span></span> 
+<span data-ttu-id="5a18c-125">Lorsque le fournisseur est modifié à partir d’un autre fournisseur à **Microsoft**, les informations de conférence audio de l’utilisateur (ID de conférence, payant et gratuit) seront remplacées.</span><span class="sxs-lookup"><span data-stu-id="5a18c-125">When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced.</span></span> <span data-ttu-id="5a18c-126">Enregistrez ces informations avant de changer de fournisseur.</span><span class="sxs-lookup"><span data-stu-id="5a18c-126">You should save this information before changing the provider.</span></span> 
   
-<span data-ttu-id="7c1af-126">Vous pouvez enregistrer le script suivant dans un fichier de script PowerShell et ensuite l’exécuter à l’aide de ses paramètres d’entrée.</span><span class="sxs-lookup"><span data-stu-id="7c1af-126">You can save the following script as a PowerShell script file and then run it using any of its input parameters.</span></span>
+<span data-ttu-id="5a18c-127">Vous pouvez enregistrer le script suivant dans un fichier de script PowerShell et ensuite l’exécuter à l’aide de ses paramètres d’entrée.</span><span class="sxs-lookup"><span data-stu-id="5a18c-127">You can save the following script as a PowerShell script file and then run it using any of its input parameters.</span></span>
 
-<span data-ttu-id="7c1af-127">**Exemple 1 :** vous pouvez exécuter ce script en fournissant la liste des utilisateurs que vous souhaitez mettre à jour.</span><span class="sxs-lookup"><span data-stu-id="7c1af-127">**Example 1:** You can run this script by providing a list of users that you want updated.</span></span>
+<span data-ttu-id="5a18c-128">**Exemple 1 :** vous pouvez exécuter ce script en fournissant la liste des utilisateurs que vous souhaitez mettre à jour.</span><span class="sxs-lookup"><span data-stu-id="5a18c-128">**Example 1:** You can run this script by providing a list of users that you want updated.</span></span>
    
   ```
 Script.ps1 -UserList <List of users>
 ./Script.ps1 -UserList "user01@constoso.com,    user02@contoso.com, user03@contoso.com"
   ```
 
-<span data-ttu-id="7c1af-128">**Exemple 2 :** vous pouvez exécuter ce script en fournissant un fichier .csv contenant l'adresse électronique (alias) de chaque utilisateur que vous souhaitez mettre à jour.</span><span class="sxs-lookup"><span data-stu-id="7c1af-128">**Example 2:** You can run this script by providing a .csv file that contains the email address (alias) of each user that you want updated.</span></span>
+<span data-ttu-id="5a18c-129">**Exemple 2 :** vous pouvez exécuter ce script en fournissant un fichier .csv contenant l'adresse électronique (alias) de chaque utilisateur que vous souhaitez mettre à jour.</span><span class="sxs-lookup"><span data-stu-id="5a18c-129">**Example 2:** You can run this script by providing a .csv file that contains the email address (alias) of each user that you want updated.</span></span>
    
   ```
 Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-<span data-ttu-id="7c1af-129">**Exemple 3 :** Dans cet exemple, vous pouvez utiliser ce script pour modifier le fournisseur de conférence audio à partir d’Intercall (ou un autre fournisseur) à **Microsoft** pour un grand nombre d’utilisateurs dans votre organisation.</span><span class="sxs-lookup"><span data-stu-id="7c1af-129">**Example 3:** In this example, you can use this script to change the audio conferencing provider from Intercall (or another provider) to **Microsoft** for a large number users in your organization.</span></span>
+<span data-ttu-id="5a18c-130">**L’exemple 3 :** Dans cet exemple, vous pouvez utiliser ce script pour modifier le fournisseur de services d’audioconférence à partir de Intercall (ou un autre fournisseur) à **Microsoft** pour un grand nombre d’utilisateurs dans votre organisation.</span><span class="sxs-lookup"><span data-stu-id="5a18c-130">**Example 3:** In this example, you can use this script to change the audio conferencing provider from Intercall (or another provider) to **Microsoft** for a large number users in your organization.</span></span>
     
   ```
   Script.ps1 -ACPProviderName <Provider>
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
-  <span data-ttu-id="7c1af-130">Voici le script :</span><span class="sxs-lookup"><span data-stu-id="7c1af-130">Here is the script:</span></span>
+  <span data-ttu-id="5a18c-131">Voici le script :</span><span class="sxs-lookup"><span data-stu-id="5a18c-131">Here is the script:</span></span>
 
   ```
   <#
@@ -185,10 +187,10 @@ Script.ps1 -CsvFile <Path of the csv file>
   }
   }
   ```
-<span data-ttu-id="7c1af-131">Pour plus d'informations sur l'utilisation de Windows PowerShell, consultez la rubrique [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise](https://go.microsoft.com/fwlink/?LinkId=525038).</span><span class="sxs-lookup"><span data-stu-id="7c1af-131">For more information about using Windows PowerShell, see [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038).</span></span>
+<span data-ttu-id="5a18c-132">Pour plus d'informations sur l'utilisation de Windows PowerShell, consultez la rubrique [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise](https://go.microsoft.com/fwlink/?LinkId=525038).</span><span class="sxs-lookup"><span data-stu-id="5a18c-132">For more information about using Windows PowerShell, see [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="7c1af-132">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="7c1af-132">Related topics</span></span>
-<span data-ttu-id="7c1af-133">[Essayez ou achetez audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-[paramétrer Skype pour professionnels en ligne](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)</span><span class="sxs-lookup"><span data-stu-id="7c1af-133">[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+## <a name="related-topics"></a><span data-ttu-id="5a18c-133">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="5a18c-133">Related topics</span></span>
+<span data-ttu-id="5a18c-134">[Essayez ou achetez conférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[configurer Skype pour Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)</span><span class="sxs-lookup"><span data-stu-id="5a18c-134">[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)</span></span>
 
