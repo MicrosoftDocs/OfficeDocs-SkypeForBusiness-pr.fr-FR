@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume la configuration requise pour prendre en charge un v2 Skype salle systèmes.
-ms.openlocfilehash: 6b0265c8fc6269b7451a7757b8266078433ec9d5
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: 1c9e998c096b92788a2e214220987dfe4aafffca
+ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
  
@@ -104,7 +104,7 @@ Les tableaux suivants fournissent des recommandations pour les périphériques e
 |**Focus** <br/> 10' x 9'  <br/> |2 à 4  <br/> |1,5 m  <br/> |Logitech Connect  <br/> |Les périphériques Logitech connecter incluent une caméra doit être positionné au début de la salle (pas le centre de table) pour capturer les participants à la réunion local.  <br/> |
 |**Petite taille** <br/> 16' x 16'  <br/> |4-6  <br/> |m 2.0  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Le volume de lecture peut être limité pour des salles plus grandes.  <br/> |
 |**Taille moyenne** <br/> 18' x 20'  <br/> |6-12  <br/> |2,4 m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |Le Logitech MeetUp inclut une caméra afin qu’il doit se situer sur le plan de salle (pas le centre de table pour capturer les participants à la réunion local).  <br/> En règle générale, les salles de tables longues rectangulaires ou en forme de u peuvent bénéficier de microphones satellite supplémentaires.  <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  <br/> |
-|**Grande taille** <br/> 15' x 20'  <br/> |12-16  <br/> |3M  <br/> La distance s’applique également à la zone couverte par chaque microphone satellite supplémentaire connecté au périphérique audio en question.   <br/> |Groupe Logitech + micros satellites  <br/> Trois Polycom + satellites micros  <br/> Polycom CX5100 + micros satellites  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS + micros satellites  <br/> |Tous les périphériques audio répertoriés dans cette ligne prennent en charge les options de microphone satellite.  <br/> CX5100 comprend une caméra 360 degrés intégrée de manière à ce que le périphérique puisse être positionné au centre de la table.  <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  <br/> |
+|**Grande taille** <br/> 15' x 32'  <br/> |12-16  <br/> |3M  <br/> La distance s’applique également à la zone couverte par chaque microphone satellite supplémentaire connecté au périphérique audio en question.   <br/> |Groupe Logitech + micros satellites  <br/> Trois Polycom + satellites micros  <br/> Polycom CX5100 + micros satellites  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS + micros satellites  <br/> |Tous les périphériques audio répertoriés dans cette ligne prennent en charge les options de microphone satellite.  <br/> CX5100 comprend une caméra 360 degrés intégrée de manière à ce que le périphérique puisse être positionné au centre de la table.  <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  <br/> |
    
 **Salle Skype systèmes v2 certifié périphériques vidéo**
 
@@ -113,7 +113,7 @@ Les tableaux suivants fournissent des recommandations pour les périphériques e
 |**Focus** <br/> 10' x 9'  <br/> |2 à 4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
 |**Petite taille** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> MSR Polycom  <br/> Polycom CX5100   <br/> |Logitech PTZ Pro souvent fourni avec le groupe Logitech  <br/> |
 |**Taille moyenne** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> MSR Polycom  <br/> Polycom CX5100   <br/> ||
-|**Grande taille** <br/> 15' x 20'  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> MSR Polycom  <br/> Polycom CX5100   <br/> ||
+|**Grande taille** <br/> 15' x 32'  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> MSR Polycom  <br/> Polycom CX5100   <br/> ||
    
 ## <a name="required-software-downloads"></a>Téléchargement des logiciels requis
 

@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
-ms.openlocfilehash: c50c7a06aae2e9e68a5f9a2c66fc04f912a35705
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: bccd4a5c02dbb6bc32c27e315b80a39705284429
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>Voir la liste des numéros de conférence Audio
 
@@ -42,7 +42,19 @@ Vous pouvez voir [l’invite inclus sur les numéros de téléphone](set-the-pho
 > [!NOTE]
 > Les numéros d'accès nationaux sont réservés à votre entreprise et sont les seuls à pouvoir être définis comme numéros de téléphone par défaut. En revanche, les numéros d'accès internationaux peuvent être partagés par plusieurs entreprises. 
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--to-view-your-audio-conferencing-phone-numbers"></a>![SFB-logo-30x30.png](../images/sfb-logo-30x30.png)  Pour afficher vos numéros de téléphone des services d’audioconférence
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Pour afficher vos numéros de téléphone des services d’audioconférence
+
+![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
+
+1. Dans la navigation de gauche, accédez à des **réunions** > **ponts de conférence**. 
+2.  Afficher les numéros de téléphone qui sont disponibles pour l’audioconférence.
+
+- Vous pouvez également afficher l’emplacement et la langue principale qui sera utilisé par le standard automatique de conférence audio.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
@@ -57,8 +69,6 @@ Vous pouvez voir [l’invite inclus sur les numéros de téléphone](set-the-pho
 > [!NOTE]
 > Vous pouvez passer à la **conférence Audio** > **utilisateurs** et sélectionnez nombre de propriétés de l’utilisateur à modifier la valeur par défaut en sélectionnant un nouveau numéro dans la liste des numéros disponibles dans votre organisation. Voir [l’invite inclus sur les numéros de téléphone](set-the-phone-numbers-included-on-invites.md). 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 

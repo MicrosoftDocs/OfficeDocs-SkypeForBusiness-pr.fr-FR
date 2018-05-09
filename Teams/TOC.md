@@ -14,6 +14,7 @@
 # Installation
 ## [Gérer l'accès des utilisateurs à Microsoft Teams](user-access.md)
 ## [Obtenir des clients pour Teams](get-clients.md)
+## [Configuration matérielle requise pour l’application d’équipes](hardware-requirements-for-the-teams-app.md)
 ## [Se connecter à des équipes](sign-in-teams.md)
 ## [Présentation d'un déploiement de Teams](deployment-overview.md)
 ## [Configurer Microsoft Teams dans votre organisation Office 365](Office-365-set-up.md)

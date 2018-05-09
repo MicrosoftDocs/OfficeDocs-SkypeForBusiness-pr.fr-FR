@@ -3,15 +3,15 @@ title: Problèmes connus pour Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 4/30/2018
+ms.date: 5/8/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 087273d7d5d4d1eb20b83925087479ac702e72a3
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 5aaa22ee981fc3369d82aa118fafe017cc6dda01
+ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/08/2018
@@ -22,6 +22,10 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 ## 
 
 ## <a name="administration"></a>Administration
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Impossible d’ajouter des membres aux équipes lorsque UsersPermissionToReadOtherUsersEnabled est défini sur false  <br/> |Lorsque cette valeur est définie sur false dans DAS, client ne parvient pas à ajouter des membres interne/externe dans Microsoft Teams et le message d’erreur suivant s’affiche : « nous n’ajouter des membres. Nous avons rencontré un problème. Réessayez ultérieurement. » Toutefois, les membres peuvent être ajoutés directement à des groupes d’Office 365.    <br/> |Modifier ce paramètre sur true dans DAS.  <br/> |4/10/18  <br/> |
+
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Gestion des administrateurs de connecteurs de client à l’échelle n’est plus disponible  <br/> |Lorsque vous essayez d’ajouter un connecteur dans le client et une version en ligne nous obtenir l’erreur : une erreur inattendue s’est produite. Réessayez ultérieurement. Set-OrganizationConfig - ConnectorsEnabled = True   <br/> |Désactiver les paramètres d’équipes. Voir l’article prise en chargehttps://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |21.06.2017  <br/> |
@@ -179,6 +183,10 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |Les utilisateurs n'arrivent pas à créer une équipe.  <br/> |Votre entreprise peut avoir défini une politique limitant les personnes qui peuvent créer des groupes ou des équipes Office 365.  <br/> |Consultez votre administrateur informatique pour comprendre la politique de votre entreprise en matière de création de groupes et d'équipes.  <br/> |13.03.2017  <br/> |
 
 ## <a name="tabs"></a>Onglets
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Onglet site Web conduisant à confusion chez le client  <br/> |Onglets du site Web ne sont pas équivalents à votre navigateur. Un nombre de sites, notamment celles nécessitant une authentification ou en utilisant les fenêtres publicitaires intempestives, ne fonctionne pas lorsque épinglés dans un onglet de site Web.  <br/> |Nous cherchons à l’amélioration de l’interface utilisateur pour le rendre plus clair pour les clients.  <br/> |5/2/18  <br/> |
+
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Onglets ne fonctionnent ne pas depuis l’activation de l’accès conditionnel <br/> |Certains onglets ne se chargent pas plus dans le Client de bureau dans la mesure où l’accès conditionnel a été activé sur le client. Les onglets de charge lorsque vous utilisez le Client Web. Certains onglets qui peuvent être affectées sont : PowerBI, formulaires, VSTS, PowerApps et liste SharePoint.  <br/> |Pour afficher les onglets concernés, vous devez utiliser des équipes de périphérie, Internet Explorer ou Chrome avec l’extension Windows 10 comptes installée. Certains onglets dépendent toujours l’authentification web, qui ne fonctionne pas dans le Client de bureau lors de l’autorité de certification est activée. Nous effectuons travailler avec des partenaires pour activer ces scénarios. jusqu'à présent, nous avons activé planificateur, OneNote et Stream. <br/> |4/5/18  <br/>|

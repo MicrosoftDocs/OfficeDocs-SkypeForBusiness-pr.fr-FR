@@ -21,8 +21,8 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour les États-Unis.
-ms.openlocfilehash: db1d6c2473e45479cc9eca16951946a8c2ead9b5
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 36a33915108d11a65349e8c1fca73c57fe1feae7
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/08/2018
@@ -55,17 +55,10 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les Plans de l’appel. |Il existe trois options de plan par mois :
-- 120 Plan d’appel nationales minute (disponibilité est limitée)
-- 240 Plan d’appel nationales minute (disponibilité est limitée)
-- Plan d’appel nationales minute 1200
-- Plan d’appel nationales minute 1200
-- 600 minutes pour les appels internationaux (si vous avez acheté un intérieur & International appelant planifier)
-
-Les appels nationaux aux États-Unis incluent ceux à destination de l'ensemble des 50 États des États-Unis et de Porto Rico. Les utilisateurs ayant reçu l'emplacement d'utilisation sous licence des États-Unis et/ou de Porto Rico partagent le même nombre de minutes.
-|||
-|:-----|:-----|
-|Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes nationales appelant planifier de (disponibilité est limitée)</li><li>240 minutes nationales appelant planifier de (disponibilité est limitée)</li></li><li>3000 minute de planifier l’appel interne </li></li><li>600 minutes national et International des Plans de l’appel</li></li> 
+|Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
+>[!Note] 
+> Les appels nationaux aux États-Unis incluent ceux à destination de l'ensemble des 50 États des États-Unis et de Porto Rico. Les utilisateurs ayant reçu l'emplacement d'utilisation sous licence des États-Unis et/ou de Porto Rico partagent le même nombre de minutes.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

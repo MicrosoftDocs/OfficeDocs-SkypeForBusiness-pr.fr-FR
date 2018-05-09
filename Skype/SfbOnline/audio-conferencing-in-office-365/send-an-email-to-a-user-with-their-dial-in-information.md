@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envoyer à vos utilisateurs un message électronique avec leurs informations de conférence audio.
-ms.openlocfilehash: da006b1e63dd36234acf20bb02fdffba2dc70fa2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ac6aa097b9c34c23c27afb2e99e4e40e3f587c8
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio
 
@@ -39,7 +39,25 @@ Voici un exemple du courrier électronique qui est envoyé :
   
 ![Courrier électronique de conférence rendez-vous](../images/audio-conferencing-info.png)
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-send-an-email-with-audio-conferencing-information-to-a-user"></a>![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) Envoyer un message électronique avec les informations de conférence audio à un utilisateur
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Envoyer un message électronique avec les informations de conférence audio à un utilisateur
+
+![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
+
+1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+
+2. En haut de la page, cliquez sur **Modifier**.
+
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+
+1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+
+2. En haut de la page, cliquez sur **Modifier**.
+
+3. **Conférence Audio**, cliquez sur **Envoyer les informations de conférence dans le message électronique**.
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
@@ -51,9 +69,6 @@ Voici un exemple du courrier électronique qui est envoyé :
     
 > [!TIP]
 > Vous pouvez également envoyer des e-mails à l’utilisateur avec les paramètres de conférence audio en modifiant les propriétés de l’utilisateur et puis en cliquant sur **audioconférence** > **Envoyer les informations de conférence par courrier électronique**. 
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="what-else-should-you-know-about-this-email"></a>Que devez-vous savoir d'autre sur les courriers électroniques ?
 
