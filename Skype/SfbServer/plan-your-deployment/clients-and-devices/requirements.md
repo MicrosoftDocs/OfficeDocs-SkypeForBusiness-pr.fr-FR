@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume la configuration requise pour prendre en charge un v2 Skype salle systèmes.
-ms.openlocfilehash: 1c9e998c096b92788a2e214220987dfe4aafffca
-ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
+ms.openlocfilehash: 0fb1fbcde28c343787967485dd6cae36491311b7
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
  
@@ -108,13 +108,16 @@ Les tableaux suivants fournissent des recommandations pour les périphériques e
    
 **Salle Skype systèmes v2 certifié périphériques vidéo**
 
-|**Type de salle**|**Nombre de personnes**|**Périphérique par taille optimale de salle**|**Commentaires**|
+|Type de salle|Nombre de personnes|Périphérique par taille optimale de salle|Commentaires|
 |:-----|:-----|:-----|:-----|
 |**Focus** <br/> 10' x 9'  <br/> |2 à 4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
 |**Petite taille** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> MSR Polycom  <br/> Polycom CX5100   <br/> |Logitech PTZ Pro souvent fourni avec le groupe Logitech  <br/> |
 |**Taille moyenne** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> MSR Polycom  <br/> Polycom CX5100   <br/> ||
 |**Grande taille** <br/> 15' x 32'  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> MSR Polycom  <br/> Polycom CX5100   <br/> ||
    
+ > [!NOTE]
+ > Avant de résolution d’affichage salle doit être défini ne supérieure à 1920x1080p.
+
 ## <a name="required-software-downloads"></a>Téléchargement des logiciels requis
 
 Vous devez les téléchargements pour créer votre propre image v2 de Skype salle systèmes suivants :

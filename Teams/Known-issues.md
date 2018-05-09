@@ -3,18 +3,18 @@ title: Problèmes connus pour Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/8/2018
+ms.date: 5/9/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5aaa22ee981fc3369d82aa118fafe017cc6dda01
-ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
+ms.openlocfilehash: 13db401651181bf186a61f643b80c7750b9978a0
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
   
@@ -76,7 +76,7 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 ## <a name="channels"></a>Canaux
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Lorsqu’un utilisateur quitte l’entreprise, il s’affiche dans Microsoft Teams en tant que « Utilisateur inconnu »<br/> |Lorsqu’un utilisateur quitte l’entreprise, il s’affiche dans Microsoft Teams en tant que « Utilisateur inconnu ». En outre, l’onglet conversation affiche : « utilisateur inconnu a été ajouté à l’équipe ». Problème classé comme :https://domoreexp.visualstudio.com/MSTeams/_workitems/edit/168830  <br/> |Aucune solution.  <br/> |9/12/17  <br/> |
+|Lorsqu’un utilisateur quitte l’entreprise, il s’affiche dans Microsoft Teams en tant que « Utilisateur inconnu »<br/> |Lorsqu’un utilisateur quitte l’entreprise, il s’affiche dans Microsoft Teams en tant que « Utilisateur inconnu ». En outre, l’onglet conversation affiche : « utilisateur inconnu a été ajouté à l’équipe ». <br/> |Aucune solution.  <br/> |9/12/17  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
