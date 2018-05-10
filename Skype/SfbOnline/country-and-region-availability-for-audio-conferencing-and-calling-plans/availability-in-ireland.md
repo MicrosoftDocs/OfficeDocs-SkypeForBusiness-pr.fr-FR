@@ -20,18 +20,18 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour l’Irlande.
-ms.openlocfilehash: 580dcab10a16e6526f2a98c07b206500966552f5
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Irlande.
+ms.openlocfilehash: 65c7ffe5a1d6a20abfd0473490b2c749295a9b48
+ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="availability-in-ireland"></a>Disponibilité en Irlande
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour l’Irlande.
+Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Irlande.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -51,12 +51,12 @@ Voici les services Office 365 pour Skype pour les entreprises et les Teams Micro
 |Messagerie vocale  <br/> |Disponibles  <br/> |
    
 ## <a name="calling-plans"></a>Forfaits d'appels
-
+    
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les forfaits d'appels  <br/> |1 200 minutes nationales ou 600 minutes internationales (en fonction de ce qui arrive en premier par mois civil).  <br/> |
-|Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes planifier l’appel interne </li><li>240 minutes planifier l’appel interne</li></li><li>3000 minute de planifier l’appel interne </li></li><li>minute 600 national et International des Plans de l’appel</li></li> 
+|Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

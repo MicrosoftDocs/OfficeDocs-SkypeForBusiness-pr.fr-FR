@@ -20,18 +20,18 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour la Belgique.
-ms.openlocfilehash: 59470a754d0bf7fa0823a6e3ac4099bd0e966980
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Belgique.
+ms.openlocfilehash: 6bb8f95f8ce3e1957076bd4900c0362d6c97b73c
+ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="availability-in-belgium"></a>Disponibilité en Belgique
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour la Belgique.
+Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Belgique.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -51,12 +51,12 @@ Voici les services Office 365 pour Skype pour les entreprises et les Teams Micro
 |Messagerie vocale  <br/> |Disponibles  <br/> |
    
 ## <a name="calling-plans"></a>Forfaits d'appels
-
+    
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les forfaits d'appels  <br/> |1 200 minutes nationales ou 600 minutes internationales (en fonction de ce qui arrive en premier par mois civil).  <br/> |
-|Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes planifier l’appel interne </li><li>240 minutes planifier l’appel interne</li></li><li>1200 minute de planifier l’appel interne </li></li><li>minute 600 national et International des Plans de l’appel</li></li> 
+|Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
@@ -66,7 +66,7 @@ Voici les services Office 365 pour Skype pour les entreprises et les Teams Micro
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    
- Si vous voulez obtenir le numéro et les numéros de téléphone pour les conférences Audio, surveillance automatique et les files d’attente d’appel, voir [numéros de téléphone de service de mise en route pour Skype pour les entreprises et les équipes de Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+ Si vous souhaitez obtenir payants et les numéros de téléphone pour une audioconférence, standard automatique et les files d’attente des appels, voir [numéros de téléphone de service de mise en route pour Skype pour les professionnels et les équipes Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Crédits de communication
 
