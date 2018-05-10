@@ -1,11 +1,10 @@
 ---
-title: Déploiement de téléphones Skype Entreprise Online
+title: Configurer des téléphones de partie commune
 description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, mettre à jour si nécessaire, attribuer des licences et configurer les paramètres pour les téléphones en zone commune.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -20,13 +19,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-ms.openlocfilehash: 453f9db6a022e924406594c567ea564b10f58694
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 12ed7d5c24649903f7cd3020d66ee4e9fcb77b6f
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/10/2018
 ---
-## <a name="common-area-phones"></a>Téléphones de partie commune
+# <a name="set-up-common-area-phones"></a>Configurer des téléphones de partie commune
+
 Un téléphone en zone commune ou délimiter, est généralement placée dans une zone partagée et non associé à un utilisateur individuel. Par exemple, un téléphone en zone réception, salle de réunion ou de téléphone porte le téléphone majuscules sont configurés en tant que périphériques plutôt que les utilisateurs et établir automatiquement une connexion au réseau. Dans les étapes suivantes, nous allons vous aider à configurer un compte pour le système téléphonique de Microsoft avec des Plans de l’appel, puis déployer une extrémité.
 
 ## <a name="prerequisites-for-common-area-phones"></a>Conditions requises pour les téléphones de partie commune
@@ -36,7 +36,6 @@ Vérifiez que vous disposez des éléments suivants :
     - Acheté téléphone en zone commune SKU 
     - Mise à jour de microprogramme (voir prise en charge du microprogramme dans la rubriquehttps://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
     - Téléphones approuvés (consulter la liste àhttps://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones) 
-
 
 ## <a name="check-the-firmware-for-your-phone"></a>Vérification du microprogramme de votre téléphone
 - **les téléphones Polycom VVX,**, accédez à **Settings (Paramètres)** > **Status (Statut)** > **Platform (Plate-forme)** > **Application** > **Main (Principal)**.
@@ -84,37 +83,38 @@ Vous créez le point d’accès client en configurant les paramètres avant de c
     
 ## <a name="configure-phone"></a>Configurer le téléphone
 
-**Préparer les téléphones physiques** 
+**Préparer les téléphones physiques**
 
-Votre téléphone sélectionné doit avoir le mode de téléphone en zone commune. 
+Votre téléphone que vous avez choisie doit avoir le mode de téléphone en zone commune. 
 
 ***Téléphone de Polycom VVX exemple***
 
-Activer le Mode téléphone zone commune sur Polycom VVX en suivant ces étapes :
+Activer le Mode de téléphone de zone commune pour le VVX Polycom en suivant ces étapes :
 1. Dans votre navigateur, utilisez l’interface web pour activer le mode de point d’accès client sur le VVX
 2. Accédez au **paramètre** et le Skype pour l’option de configuration d’entreprise, sélectionnez **Téléphone en zone commune**.
-3. Cliquez sur **Enregistrer** pour enregistrer vos paramètres de configuration.
+3. Cliquez sur **Oui** pour enregistrer vos paramètres de configuration.
 
-Maintenant que le mode de téléphone CAP est activé, vous pouvez configurer le téléphone à l’aide de l’affichage du téléphone.
+Maintenant que le mode de téléphone CAP est activé, vous pouvez configurer le téléphone à l’aide de l’affichage du téléphone. L’affichage doit afficher « CaAP est activé ».
 
-1. Dans les paramètres, cliquez sur **Avancé**.
-2. Entrez le mot de passe.
-3. Dans les paramètres d’Administration, sélectionnez **Les paramètres de téléphonie zone commune**.
-4. Activer le téléphone de partie commune et délimiter Admin
-5. Sélectionnez **Enregistrer la configuration**.
+1. Cliquez sur **paramètres**.
+2. Sélectionnez **Avancé**.
+3. Entrez le mot de passe.
+4. Dans les paramètres d’Administration, sélectionnez **Les paramètres de téléphonie zone commune**.
+5. Activer **CAP** et **en Mode Admin CAP**.
+6. Cliquez sur **Enregistrer la configuration**.
 
 Votre téléphone est prêt à être mis en service, ce qui vous serez amené à vous connecter sur l’écran d’accueil.
 
-1. Se connecter en sélectionnant **Paramètres > fonctionnalités > Skype pour les entreprises.**
-2. Sélectionnez les informations d’identification de l’utilisateur, puis sélectionnez Sélectionner **web reconnectez-vous (CAP)** pour générer un code...
-3. Accédez à la mise en service portal http://aka.ms/skypecapet se connecter en tant **qu’administrateur**.
+1. Se connecter en sélectionnant **paramètres** > **fonctionnalités** > **Skype pour les entreprises.**
+2. Sélectionnez les **Informations d’identification de l’utilisateur**, puis sélectionnez **web reconnectez-vous (CAP)** pour générer un code...
+3. Accédez au portail de mise en service à http://aka.ms/skypecapet se connecter en tant **qu’administrateur**.
 4. Entrez le nom complet (par exemple, principal réception) pour afficher votre point d’accès client.
 
 >[Note] Si « Recherche pour seulement les téléphones de partie commune » est activée, désactivez la case à cocher et effectuez une nouvelle recherche.
 
 5. Dans la fenêtre code jumelage, entrez le code affiché sur le téléphone, cliquez sur **mettre en service**.
 
-RS cette dernière étape, le téléphone doit se connecter automatiquement.
+La suite de cette dernière étape, le téléphone doit se connecter automatiquement.
 
 Pour plus d’informations sur les téléphones disponibles à [ ](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones).
 

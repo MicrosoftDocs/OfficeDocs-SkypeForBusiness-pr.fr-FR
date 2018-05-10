@@ -1,7 +1,24 @@
 ---
-titre : ms.author « Bloc entrant appels dans Skype pour Business Online » : tonysmit auteur : Gestionnaire tonysmit : serdars ms.date : 05/07/2018 ms.topic : article ms.assetid : ms.tgt.pltfrm : cloud ms.service : ms.collection Skype-pour-business-en ligne : Adm_Skype4B_ Ms.audience en ligne : appliesto Admin : Skype pour Business localization_priority : f1keywords Normal : aucun ms.custom : description PowerShell : « Utilisation de PowerShell pour gérer les entrant appel blocage dans Skype pour Business Online ».
+title: Bloquer les appels entrants dans Skype pour les entreprises en ligne
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 05/07/2018
+ms.topic: article
+ms.assetid: ''
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto: Skype for Business
+localization_priority: Normal
+ms.custom: Use PowerShell to manage inbound call blocking in Skype for Business Online.
+ms.openlocfilehash: 9a9ff446d7b95588f1d9c2460db1284de717e557
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/10/2018
 ---
-
  # <a name="block-inbound-calls"></a>Bloquer les appels entrants
 
 Skype pour Business Online appelant Plans prend désormais en charge le blocage des appels entrants à partir du réseau téléphonique commuté (RTC). Cette fonctionnalité permet une liste globale du client de modèles de numéro à définir afin que l’ID d’appelant de chaque PSTN entrant appeler au client peut être vérifiée par rapport à la liste pour une correspondance. Si une correspondance est trouvée, un appel entrant est rejeté. 
@@ -14,7 +31,6 @@ Cette fonctionnalité n’est pas encore disponible pour le routage Direct.
 
 ## <a name="call-blocking-admin-controls-and-information"></a>Appel de blocage des informations et des contrôles d’administration
 Contrôles d’administration pour les numéros de blocage sont fournies uniquement à l’aide de PowerShell. Modèles de bloc numéro sont définies comme des modèles d’expression régulière. L’ordre des expressions est sans importance – le premier modèle dans la liste entraînera l’appel est bloqué. Un nouveau numéro ou un modèle ajouté ou supprimé dans la liste bloquée liste des appelants peut prendre jusqu'à 24 heures pour le modèle actif.
-
 ## <a name="call-blocking-powershell-commands"></a>Appelez le blocage des commandes PowerShell
 
 *InboundBlockedNumberPattern* Modèles de numéro sont gérés via les commandes *CsInboundBlockedNumberPattern* **New**, **obtenir**, **définir**et **Supprimer**.  
@@ -57,4 +73,4 @@ Utiliser PowerShell intégrée capacités de filtrage pour analyser les valeurs 
 Comme indiqué précédemment, le modèle de correspondance pour le blocage des appelants s’effectue à l’aide d’Expressions régulières (regex). Il existe plusieurs outils disponibles en ligne pour valider une correspondance d’expression régulière. Si vous n’êtes pas familiarisé avec les modèles d’expression régulière, il est recommandé que vous prenez le temps de vous familiariser avec les concepts de base et pour vous assurer que vous obtenez les résultats attendus, utilisez un outil pour la validation des correspondances de modèle avant d’ajouter de nouveaux bloqués correspond à votre client. 
 
 ## <a name="related-topics"></a>Rubriques connexes
-[Configurer votre ordinateur pour Skype pour la gestion en ligne à l’aide de Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )
+[Configurer votre ordinateur pour Skype pour la gestion de l’entreprise en ligne à l’aide de Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )

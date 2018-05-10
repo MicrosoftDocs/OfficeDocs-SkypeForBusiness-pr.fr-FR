@@ -16,15 +16,15 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Résumé : Lisez cette rubrique pour savoir comment attribuer une stratégie de voix pour les utilisateurs à l’aide du système téléphonique dans Office 365 avec une connectivité PSTN sur site.'
-ms.openlocfilehash: fc11fabeb7f6a8bacc0f3a6dd48d6ed24edd3403
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0699e4c4da94c680f86ec607950a1c3b42b5690a
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="assign-a-voice-routing-policy"></a>Affectation d’une stratégie de routage des communications vocales
  
-**Résumé :** Lisez cette rubrique pour savoir comment attribuer une stratégie de voix pour les utilisateurs à l’aide du système téléphonique dans Office 365 avec une connectivité PSTN sur site.
+**Résumé :** Lisez cette rubrique pour savoir comment attribuer une stratégie de voix pour les utilisateurs à l’aide du système téléphonique dans Office 365 avec une connectivité PSTN sur site. 
   
 Une fois qu’un utilisateur est sur Skype Business en ligne et l’utilisation de système téléphonique dans Office 365 avec une connectivité PSTN sur site, deux stratégies de voix leur seront appliquée. Une est une stratégie de routage voix locale que vous affecterez localement. Cette stratégie peut être globale ou spécifique à l’utilisateur et définit les enregistrements d’utilisation PSTN associées à l’utilisateur. Cette rubrique explique comment affecter cette stratégie.
   
