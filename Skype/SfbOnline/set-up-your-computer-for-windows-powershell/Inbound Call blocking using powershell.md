@@ -1,0 +1,81 @@
+---
+title: Appel entrant blocage à l’aide de Powershell pour Skype pour en entreprise
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 05/07/2018
+ms.topic: article
+ms.assetid: ''
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+localization_priority: Normal
+f1keywords: None
+ms.custom:
+- PowerShell
+description: Utiliser PowerShell pour gérer les appels entrants blocage dans Skype pour Business Online.
+ms.openlocfilehash: 10aa92233f2a804edffef8bf6d5b8e5dd7746b06
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/09/2018
+---
+# <a name="inbound-pstn-call-blocking-for-calling-plans"></a><span data-ttu-id="4d3ca-103">Appel PSTN blocage pour les Plans d’appel entrant</span><span class="sxs-lookup"><span data-stu-id="4d3ca-103">Inbound PSTN Call Blocking for Calling Plans</span></span>
+
+<span data-ttu-id="4d3ca-104">Skype pour Business Online appelant Plans prend désormais en charge le blocage des appels entrants à partir du réseau téléphonique commuté (RTC).</span><span class="sxs-lookup"><span data-stu-id="4d3ca-104">Skype for Business Online Calling Plans now supports blocking of inbound calls from the public switched telephone network (PSTN).</span></span> <span data-ttu-id="4d3ca-105">Cette fonctionnalité permet à un client liste globale des modèles de numéro à définir, de sorte que l’ID d’appelant de tous les appels PSTN entrants vers le client peut être vérifié par rapport à la liste pour une correspondance.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-105">This feature allows a tenant global list of number patterns to be defined, so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match.</span></span> <span data-ttu-id="4d3ca-106">Si une correspondance est trouvée, un appel entrant est rejeté.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-106">If a match is made, an incoming call is rejected.</span></span> 
+
+<span data-ttu-id="4d3ca-107">Cette fonctionnalité de blocage d’appel entrant fonctionne uniquement sur les appels entrants provenant de la passerelle PSTN et fonctionne uniquement sur une base globale du client et n’est pas disponible par utilisateur.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-107">This inbound call blocking feature only works on inbound calls originating from the PSTN and only works on a tenant global basis and is not available on a per user basis.</span></span>
+
+<span data-ttu-id="4d3ca-108">Cette fonctionnalité n’est pas encore disponible pour le routage Direct.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-108">This feature is not yet available for Direct Routing.</span></span>
+
+><span data-ttu-id="4d3ca-109">[Note] Les appelants bloqués peuvent se heurter comportements légèrement différents lorsqu’ils ont été bloqués.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-109">[Note] Blocked callers may experience slightly different behaviors when they have been blocked.</span></span> <span data-ttu-id="4d3ca-110">Le comportement dépendra comment opérateur l’appelant bloqués gère la notification de l’appel n’est pas autorisé à aboutir avec succès.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-110">The behavior will be based on how the blocked caller’s carrier handles the notification that the call is not allowed to be successfully completed.</span></span> <span data-ttu-id="4d3ca-111">Exemples peuvent inclure un message opérateur l’appel ne peut pas être effectué, ou simplement en supprimant l’appel.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-111">Examples may include a carrier message stating the call cannot be completed as dialed, or simply dropping the call.</span></span>
+
+## <a name="call-blocking-admin-controls-and-information"></a><span data-ttu-id="4d3ca-112">Appel de blocage des informations et des contrôles d’administration</span><span class="sxs-lookup"><span data-stu-id="4d3ca-112">Call Blocking Admin Controls and Information</span></span>
+<span data-ttu-id="4d3ca-113">Contrôles d’administration pour les numéros de blocage sont fournies uniquement à l’aide de PowerShell.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-113">Admin controls for blocking numbers are provided using PowerShell only.</span></span> <span data-ttu-id="4d3ca-114">Modèles de bloc numéro sont définies comme des modèles d’expression régulière.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-114">Number block patterns are defined as regular expression patterns.</span></span> <span data-ttu-id="4d3ca-115">L’ordre des expressions est sans importance – le premier modèle dans la liste entraînera l’appel est bloqué.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-115">The order of the expressions is unimportant – the first pattern matched in the list will result in the call being blocked.</span></span> <span data-ttu-id="4d3ca-116">Un nouveau numéro ou un modèle ajouté ou supprimé dans la liste bloquée liste des appelants peut prendre jusqu'à 24 heures pour le modèle actif.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-116">A new number or pattern added or removed in the blocked callers list may take up to 24 hours to for the pattern to become active.</span></span>
+
+## <a name="call-blocking-powershell-commands"></a><span data-ttu-id="4d3ca-117">Appelez le blocage des commandes PowerShell</span><span class="sxs-lookup"><span data-stu-id="4d3ca-117">Call Blocking PowerShell Commands</span></span>
+
+<span data-ttu-id="4d3ca-118">*InboundBlockedNumberPattern* Modèles de numéro sont gérés via les commandes *CsInboundBlockedNumberPattern* **New**, **obtenir**, **définir**et **Supprimer**.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-118">*InboundBlockedNumberPattern* Number patterns are managed via the *CsInboundBlockedNumberPattern* commands **New**, **Get**, **Set**, and **Remove**.</span></span>  
+
+<span data-ttu-id="4d3ca-119">Vous pouvez gérer un modèle donné à l’aide de ces applets de commande, notamment la possibilité de faire basculer l’activation d’un modèle donné.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-119">You can manage a given pattern by using these cmdlets, including the ability to toggle the activation of a given pattern.</span></span>
+- <span data-ttu-id="4d3ca-120">*Get-CsInboundBlockedNumberPattern* Renvoie une liste de tous les modèles de numéro bloqués ajouté à la liste de clients, y compris le nom, Description, activé (True/False) et motif pour chacun.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-120">*Get-CsInboundBlockedNumberPattern* Returns a list of all blocked number patterns added to the tenant list including Name, Description, Enabled (True/False), and Pattern for each.</span></span>
+- <span data-ttu-id="4d3ca-121">*Nouvelle CsInboundBlockedNumberPattern* Ajoute un modèle de numéro bloqué à la liste des clients.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-121">*New-CsInboundBlockedNumberPattern* Adds a blocked number pattern to the tenant list.</span></span>
+- <span data-ttu-id="4d3ca-122">*Remove-CsInboundBlockedNumberPattern* Supprime un modèle de numéro bloqué dans la liste client.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-122">*Remove-CsInboundBlockedNumberPattern* Removes a blocked number pattern from the tenant list.</span></span>
+- <span data-ttu-id="4d3ca-123">*Set-CsInboundBlockedNumberPattern* Modifie un ou plusieurs paramètres d’un modèle de numéro bloqué dans la liste des clients.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-123">*Set-CsInboundBlockedNumberPattern* Modifies one or more parameters of a blocked number pattern in the tenant list.</span></span>
+- <span data-ttu-id="4d3ca-124">*TenantBlockedCallingNumbers* L’affichage et l’activation de la fonctionnalité de blocage des appels entière est gérée via la CsTenantBlockingCallingNumbers commandes obtenir et définir.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-124">*TenantBlockedCallingNumbers* The viewing and activation of the entire call blocking feature is managed via the CsTenantBlockingCallingNumbers commands Get and Set.</span></span> 
+- <span data-ttu-id="4d3ca-125">*Get-CsTenantBlockedCallingNumbers* Renvoie les paramètres de la liste de numéros bloquée globale notamment activé (True/False).</span><span class="sxs-lookup"><span data-stu-id="4d3ca-125">*Get-CsTenantBlockedCallingNumbers* Returns the parameters for the global blocked number list including Enabled (True/False).</span></span> <span data-ttu-id="4d3ca-126">Il existe une stratégie de client globale unique qui ne peut être modifiée manuellement différente pour activer la fonctionnalité complètement activé/désactivé.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-126">There is a single global tenant policy that cannot be modified manually other than to turn the feature completely on/off.</span></span>
+- <span data-ttu-id="4d3ca-127">*Set-CsTenantBlockedCallingNumbers* Permet de modifier les appels client globale bloqué pour être activé/désactivé au niveau du client.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-127">*Set-CsTenantBlockedCallingNumbers* Allows modifying the global tenant blocked calls to be turned on/off at the tenant level.</span></span>
+
+### <a name="examples"></a><span data-ttu-id="4d3ca-128">Exemples</span><span class="sxs-lookup"><span data-stu-id="4d3ca-128">Examples</span></span>
+#### <a name="blocking-a-number"></a><span data-ttu-id="4d3ca-129">Blocage d’un nombre</span><span class="sxs-lookup"><span data-stu-id="4d3ca-129">Blocking a Number</span></span>
+
+<span data-ttu-id="4d3ca-130">Dans cet exemple,-activé et - paramètres Description sont facultatifs :</span><span class="sxs-lookup"><span data-stu-id="4d3ca-130">In this example, the -Enabled and -Description parameters are optional:</span></span>
+
+`New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description “<description>” -Pattern “^[+]?13125550000”`
+
+ <span data-ttu-id="4d3ca-131">Création de qu'un nouveau modèle par défaut ajoute le modèle comme étant activé et la description est toujours et champ facultatif pour fournir plus d’informations.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-131">Creating a new pattern will by default add the pattern as enabled, and the description is always and optional field to provide more information.</span></span> 
+
+<span data-ttu-id="4d3ca-132">Nous vous conseillons de fournir un nom significatif pour mieux comprendre pourquoi le modèle a été ajouté.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-132">We recommend that you provide a meaningful name to easily understand why the pattern was added.</span></span> <span data-ttu-id="4d3ca-133">Dans le cas de simplement le blocage du courrier indésirable numéros, considéré comme nom de la règle de la même en tant que modèle de numéro de la mise en correspondance et ajouter des informations supplémentaires dans la description selon les besoins.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-133">In the case of simply blocking spam numbers, considered naming the rule the same as the number pattern being matched, and add additional information in the description as required.</span></span>
+
+<span data-ttu-id="4d3ca-134">Modèles correspondent à l’aide d’Expressions régulières (regex).</span><span class="sxs-lookup"><span data-stu-id="4d3ca-134">Patterns are matched using Regular Expressions (regex).</span></span> <span data-ttu-id="4d3ca-135">Laissez les temps de réplication avant de test et validation.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-135">Allow for replication time before testing and validating.</span></span>
+
+#### <a name="allowing-a-number"></a><span data-ttu-id="4d3ca-136">Autorise un nombre</span><span class="sxs-lookup"><span data-stu-id="4d3ca-136">Allowing a Number</span></span>
+
+<span data-ttu-id="4d3ca-137">Dans cet exemple, le paramètre identity si nécessaire (is?) :`Remove-CsInboundBlockedNumberPattern -Identity “<identity>”`</span><span class="sxs-lookup"><span data-stu-id="4d3ca-137">In this example, the identity parameter if (is?) required: `Remove-CsInboundBlockedNumberPattern -Identity “<identity>”`</span></span>
+ 
+<span data-ttu-id="4d3ca-138">Si l’identité n’est pas connue, utilisez l’applet de commande *Get-CsInb undBlockedNumberPattern* pour le modèle approprié d’abord la localiser et notez l’identité.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-138">If the Identity is not known, use the *Get-CsInb undBlockedNumberPattern* cmdlet to first locate the proper pattern and note the Identity.</span></span> <span data-ttu-id="4d3ca-139">Ensuite, exécutez l’applet de commande *Supprimer* et transmettre la valeur d’identité appropriée.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-139">Then, run the *Remove* cmdlet and pass the appropriate Identity value.</span></span>
+
+<span data-ttu-id="4d3ca-140">Laissez les temps de réplication avant de test et validation.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-140">Allow for replication time before testing and validating.</span></span>
+#### <a name="view-all-number-patterns"></a><span data-ttu-id="4d3ca-141">Afficher tous les modèles de numéro</span><span class="sxs-lookup"><span data-stu-id="4d3ca-141">View all Number Patterns</span></span>
+<span data-ttu-id="4d3ca-142">Exécution de cette applet de commande renverra les numéros d’une liste de toutes les entrées bloquée pour un client :`Get-CsInboundBlockedNumberPattern`</span><span class="sxs-lookup"><span data-stu-id="4d3ca-142">Running this cmdlet will return a list of all entered blocked numbers for a tenant: `Get-CsInboundBlockedNumberPattern`</span></span>
+
+<span data-ttu-id="4d3ca-143">Utiliser PowerShell intégrée capacités de filtrage pour analyser les valeurs renvoyées selon les besoins.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-143">Use built-in PowerShell filtering abilities to parse the returned values as required.</span></span>
+
+#### <a name="a-note-on-regex"></a><span data-ttu-id="4d3ca-144">Remarque sur l’expression régulière</span><span class="sxs-lookup"><span data-stu-id="4d3ca-144">A Note on Regex</span></span>
+<span data-ttu-id="4d3ca-145">Comme indiqué précédemment, le modèle de correspondance pour le blocage des appelants s’effectue à l’aide d’Expressions régulières (regex).</span><span class="sxs-lookup"><span data-stu-id="4d3ca-145">As stated earlier, the pattern matching for blocking callers is done by using Regular Expressions (regex).</span></span> <span data-ttu-id="4d3ca-146">Il existe plusieurs outils disponibles en ligne pour valider une correspondance d’expression régulière.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-146">There are multiple tools available online to help validate a regex pattern match.</span></span> <span data-ttu-id="4d3ca-147">Si vous n’êtes pas familiarisé avec les modèles d’expression régulière, il est recommandé que vous prenez le temps de vous familiariser avec les concepts de base et pour vous assurer que vous obtenez les résultats attendus, utilisez un outil pour la validation des correspondances de modèle avant d’ajouter de nouveaux bloqués correspond à votre client.</span><span class="sxs-lookup"><span data-stu-id="4d3ca-147">If you are not familiar with regex patterns, we recommend that you take some time to familiarize yourself with the basics and to make sure you get expected results, use a tool for validating pattern matches before you add new blocked number matches to your tenant.</span></span> 
+
+## <a name="related-topics"></a><span data-ttu-id="4d3ca-148">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="4d3ca-148">Related topics</span></span>
+[<span data-ttu-id="4d3ca-149">Configurer votre ordinateur pour Skype pour la gestion en ligne à l’aide de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="4d3ca-149">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
