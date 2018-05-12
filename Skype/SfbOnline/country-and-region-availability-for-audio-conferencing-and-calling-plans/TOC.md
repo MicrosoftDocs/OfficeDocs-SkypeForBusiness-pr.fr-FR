@@ -77,6 +77,7 @@
 ### [Créer une file d’attente de système téléphonique](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtention de téléphones pour Skype Entreprise Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Déploiement de téléphones pour Skype Entreprise Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+###[Définition des téléphones de zone commune (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Voilà ce que vous obtenez avec le système téléphonique](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### Messagerie vocale pour système téléphonique

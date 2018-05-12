@@ -1,6 +1,5 @@
 ---
 title: Configurer des téléphones de partie commune
-description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, mettre à jour si nécessaire, attribuer des licences et configurer les paramètres pour les téléphones en zone commune.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,107 +17,129 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
-ms.openlocfilehash: b7e3a20bc08af0900a64ceacc817bdeaffd5f326
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, mettre à jour si nécessaire, attribuer des licences et configurer les paramètres pour les téléphones en zone commune.
+ms.openlocfilehash: bcf7d8eaf287af0b801168c62e7c22915f735aa2
+ms.sourcegitcommit: 6b868f683e1f2354eb42fdf33911e77b7a3a83e2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="set-up-common-area-phones"></a>Configurer des téléphones de partie commune
-
-Un téléphone en zone commune ou délimiter, est généralement placée dans une zone partagée et non associé à un utilisateur individuel. Par exemple, un téléphone en zone réception, salle de réunion ou de téléphone porte le téléphone majuscules sont configurés en tant que périphériques plutôt que les utilisateurs et établir automatiquement une connexion au réseau. Dans les étapes suivantes, nous allons vous aider à configurer un compte pour le système téléphonique de Microsoft avec des Plans de l’appel, puis déployer une extrémité.
+Un téléphone en zone commune (CAP) est généralement placé dans une zone comme une salle d’attente ou une autre zone qui est disponible pour un grand nombre de personnes. Par exemple, un téléphone en zone réception, salle de réunion ou de téléphone porte le téléphone majuscules sont configurés en tant que périphériques plutôt que les utilisateurs et établir automatiquement une connexion à un réseau. Dans les étapes suivantes, nous allons vous aider à configurer un compte de système téléphonique avec des Plans de l’appel afin que vous pouvez déployer ces types de téléphones pour votre organisation.
 
 ## <a name="prerequisites-for-common-area-phones"></a>Conditions requises pour les téléphones de partie commune
 
-Vérifiez que vous disposez des éléments suivants :
+La première chose à faire consiste à vérifier que vous disposez des éléments suivants :
 
--   - Acheté téléphone en zone commune SKU 
--   - Mise à jour de microprogramme (voir de microprogramme pris en charge dans cette rubrique :https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
--   - Approuvé téléphones (afficher la liste en :            
-        https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones)
+ - Acheter des licences téléphone en zone commune et un Plan d’appel.
+ - Rechercher et téléphones approuvé (afficher la liste [ici](deploying-skype-for-business-online-phones.md)).         
+ - Mettre à jour du microprogramme de vos téléphones (voir prise en charge du microprogramme [dans cette rubrique](getting-phones-for-skype-for-business-online.md).  Vous pouvez vérifier le microprogramme sur le téléphone vous en procédant ainsi :       
+    - **Téléphones Polycom VVX**: accéder aux **paramètres** > **état** > **plateforme** > **Application** > **principal**.
+    - **Téléphones Yealink**: accédez à **l’état** sur l’écran du téléphone principal.
+    - **Téléphones AudioCodes**: accédez au **Menu** > **État du périphérique** > **version de microprogramme** à partir de l’écran d’accueil. 
+    - **Téléphones Lync Phone Edition (LPE)**: accédez au **Menu** > **Informations système** à partir de l’écran d’accueil.
 
-## <a name="check-the-firmware-for-your-phone"></a>Vérification du microprogramme de votre téléphone
-- **les téléphones Polycom VVX,**, accédez à **Settings (Paramètres)** > **Status (Statut)** > **Platform (Plate-forme)** > **Application** > **Main (Principal)**.
-- **les téléphones Yealink**, accédez à **Status (Statut)** sur l'écran principal.
-- **les téléphones AudioCodes**, accédez à **Menu** > **Device Status (Statut de l'appareil)** > **Firmware version (Version du microprogramme)** dans l'écran d'accueil. 
-- **les téléphones Lync Phone Edition (LPE)**, accédez à **Menu** > **System Information (Informations système)** dans l'écran d'accueil.
+    Les mises à jour de microprogramme sont gérées par le service Skype Entreprise. Chaque microprogramme de téléphone certifié Skype Entreprise est chargé vers le serveur de mise à jour Skype Entreprise et la mise à jour de l'appareil est activée par défaut sur tous les téléphones. 
 
-Les mises à jour de microprogramme sont gérées par le service Skype Entreprise. Chaque microprogramme de téléphone certifié Skype Entreprise est chargé vers le serveur de mise à jour Skype Entreprise et la mise à jour de l'appareil est activée par défaut sur tous les téléphones. 
+    En fonction de la durée d'inactivité et des intervalles d'interrogation, les téléphones téléchargeront automatiquement les dernières versions certifiées. Vous pouvez désactiver les paramètres de mise à jour des périphériques à l’aide de l’applet de commande [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) et au paramètre *EnableDeviceUpdate* `false`.
 
-En fonction de la durée d'inactivité et des intervalles d'interrogation, les téléphones téléchargeront automatiquement les dernières versions certifiées. Vous pouvez désactiver les paramètres de mise à jour des périphériques à l’aide de l’applet de commande [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) et au paramètre _EnableDeviceUpdate_ `false`.
+## <a name="setting-up-a-common-area-phone"></a>Configuration d’un téléphone en zone commune
+Vous devez procéder comme suit :
 
-## <a name="create-cap"></a>Créer le point d’accès client
-Vous créez le point d’accès client en configurant les paramètres avant de configurer le téléphone physique.
+### <a name="set-up-your-user-account-for-the-phone"></a>Configurer votre compte d’utilisateur pour le téléphone
 
-#### <a name="purchase-the-common-area-phone-sku"></a>Acheter un téléphone en zone commune SKU. 
-    In the Office 365 admin center, go to **Billing > Purchase Services**, and add **Common Area Phone**.
+#### <a name="step-1---buy-the-licenses"></a>Étape 1 : acheter les licences
+1. Dans le centre d’administration Office 365, accédez à la **facturation** > **services d’achat**, et ajouter **d’autres plans**.
 
-#### <a name="set-up-the-common-area-phone-----this-section-could-use-a-screen-shot--"></a>Configurer le téléphone en zone commune<!-- this section could use a screen shot-->
+    ![CAP-license.png](../../images/cap-license.png)
+2. Cliquez sur **Téléphone en zone commune** > **acheter** > sur la page **Checkout** , cliquez sur **Acheter maintenant**.
+3. Cliquez sur pour les **abonnements de module complémentaire** , puis cliquez sur acheter un Plan de l’appel. Choisissez **l’intérieur de l’appel de Plan** ou **appel nationale et International planifier**.
 
-**Création d’utilisateur** 
-1. Affecter le téléphone en zone commune SKU
-2. Affecter l’appel planifier (si vous utilisez le système téléphonique de Microsoft avec des Plans de l’appel). 
-3. Affecter un numéro de téléphone disponibles dans le Skype entreprise centre d’administration, ou demander un nouveau numéro de téléphone.
+> [!Note]
+> Vous n’avez pas besoin une licence de système téléphonique. Il est inclus avec la licence de **Téléphone en zone commune** .
 
-**Créer un nouvel utilisateur**
+Pour plus d’informations sur les licences, voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
-1. Dans le volet Mise en service, vous pouvez entrer un prénom et le nom (par exemple, réception principal).
-2. Entrez un nom d’affichage (obligatoire), par exemple, « réception principal ».
-3. Entrez un nom d’utilisateur (obligatoire), par exemple « MainReception » @ » domaine » (nom de société ou entreprise)
-4. Entrez l’emplacement (pays).
+#### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Étape 2 : créer un nouveau compte d’utilisateur pour le téléphone et attribuer les licences
+1. Dans le centre d’administration Office 365, accédez aux **utilisateurs** > **Utilisateurs actifs** > **Ajouter un utilisateur**.
+2. Placez dans un **nom d’utilisateur** comme « Main » pour le prénom et le « Réception » pour le nom du deuxième.
+3. Placez dans un **nom d’affichage** si elle n’est pas générer automatiquement comme « Réception principal ».
+4. Placez dans un **nom d’utilisateur** , tel que « MainReception » ou « Mainlobby ».
+5. Pour les téléphones de partie commune, vous souhaitez définir un mot de passe manuellement ou ont le même mot de passe pour tous les téléphones de partie commune. En outre, pensez à désélection **faire de cet utilisateur de modifier leur mot de passe lorsqu’ils se connectent tout d’abord**.
 
-**Affecter le téléphone en zone commune SKU** Dans le centre d’administration Office 365, accédez à **facturation > Services d’achat** et ajoutez le **Téléphone en zone commune**
+    > [!Tip]
+    > ATTENDEZ ! Ne cliquez sur **Ajouter**. Euh, si vous n’avez cliqué sur **Ajouter** ne ceci : centre d’administration Office 365 > **utilisateurs** > **utilisateurs** et Active puis rechercher l’utilisateur. Cliquez sur page de propriétés de l’utilisateur, **les licences de produit** , puis sur **Modifier**. Dans la page **licences de produits** , activez le **Téléphone en zone commune** et choisir soit un **Intérieur appelant planifier** ou une national et **International appelant planifier**.
 
-**Affecter le Plan d’appel dans CAP SKU**
+6. Si vous êtes toujours là, attribuer les licences à cet utilisateur. Sur la même page, cliquez pour développer des **licences de produits**. Activer les éléments suivants :
+    - Téléphone de partie commune
+    - Vous devez choisir soit un **Intérieur appelant planifier** ou une national et **International appelant planifier**.
+     
+    Attribution de licences ressemblera à :
 
-1. Sélectionnez un Plan de l’appel pour activer le téléphone. 
-2. Ajouter le point d’accès client pour activer le système téléphonique et Skype pour Business Online Plan 2 dans le point d’extrémité. <!-- odd order for step -->
+    ![TurnOnCapLicense.png](../../images/cap-license-turn-on.png)
 
-**Affecter un numéro de téléphone**
-1. Vérifier les numéros de téléphone disponibles sous **vocale > numéros de téléphone**.
-2. Sélectionnez un numéro dans la liste numéro de téléphone numéros disponibles.
-3. Confirmer votre sélection en sélectionnant la **voix** et les **Numéros de téléphone**.
+    > [!Note]
+    > Ça, Skype pour Business Plan 2 est inclus dans la licence de **Téléphone en zone commune** .
 
-    >[!NOTE]
-    Les utilisateurs de voix affichent uniquement s’ils disposent de la licence de système téléphonique appliquée, bien que même après avoir appliqué, peut prendre du temps pour actualiser. Permet de centre de soi à un moment rouvrir Skype pour administrateur d’entreprise.
-    
-## <a name="configure-phone"></a>Configurer le téléphone
+Pour plus d’informations, voir [Ajouter un utilisateur](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).
 
-**Préparer les téléphones physiques**
+#### <a name="step-3---assign-a-phone-number-to-the-user"></a>Étape 3 : attribuer un numéro de téléphone à l’utilisateur
+![SFB-logo-30x30.png](../../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+1. Dans le centre d’administration Office 365 > **centres d’administration** > **Skype pour les entreprises**.
+2. Dans la **Skype pour le centre d’administration Business** >  **vocale** > **numéros de téléphone**.
+3. Sélectionnez un numéro dans la liste des numéros de téléphone, cliquez sur **affecter**.
+4. Dans la page **affecter** , dans la zone **utilisateur vocale** , entrez le nom de l’utilisateur qui est utilisé pour le téléphone puis sélectionnez l’utilisateur dans **Sélectionner un utilisateur vocal** de liste déroulante. 
+5. Lorsque vous y êtes, vous devez ajouter une adresse d’urgence. Une fois que vous recherchez, examinez le **Sélectionnez adresse en cas d’urgence** à choisir celle de droite pour vous.
+6. Cliquez sur **Enregistrer** et l’utilisateur doit se présenter comme suit :
 
-Votre téléphone que vous avez choisie doit avoir le mode de téléphone en zone commune. 
+    ![Cap-utilisateur-number.png](../../images/cap-user-number.png)
 
-***Téléphone de Polycom VVX exemple***
+   > [!Note]
+   > Les utilisateurs seront affichent uniquement s’ils disposent d’une licence de **Système téléphonique** appliquée. Si vous avez effectué uniquement cette, puis parfois nécessaire un peu de l’utilisateur s’affiche dans la liste.
 
-Activer le Mode de téléphone de zone commune pour le VVX Polycom en suivant ces étapes :
-1. Dans votre navigateur, utilisez l’interface web pour activer le mode de point d’accès client sur le VVX
-2. Accédez au **paramètre** et le Skype pour l’option de configuration d’entreprise, sélectionnez **Téléphone en zone commune**.
-3. Cliquez sur **Oui** pour enregistrer vos paramètres de configuration.
+Pour d’autres objets, voir [mise en route des numéros de téléphone pour vos utilisateurs](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).
 
-Maintenant que le mode de téléphone CAP est activé, vous pouvez configurer le téléphone à l’aide de l’affichage du téléphone. L’affichage doit afficher « CaAP est activé ».
+Si vous vous demandez, vous pouvez également tirer votre numéro de téléphone que vous avez avec un autre transporteur et «*port*» ou leur transfert sur vers Office 365. Consultez [transfert des numéros de téléphone vers Office 365](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
 
-1. Cliquez sur **paramètres**.
-2. Sélectionnez **Avancé**.
-3. Entrez le mot de passe.
-4. Dans les paramètres d’Administration, sélectionnez **Les paramètres de téléphonie zone commune**.
-5. Activer **CAP** et **en Mode Admin CAP**.
-6. Cliquez sur **Enregistrer la configuration**.
+## <a name="step-4---setting-up-your-phone"></a>Étape 4 : configuration de votre téléphone
 
-Votre téléphone est prêt à être mis en service, ce qui vous serez amené à vous connecter sur l’écran d’accueil.
+**Définir le mode sur un téléphone**
 
-1. Se connecter en sélectionnant **paramètres** > **fonctionnalités** > **Skype pour les entreprises.**
-2. Sélectionnez les **Informations d’identification de l’utilisateur**, puis sélectionnez **web reconnectez-vous (CAP)** pour générer un code...
-3. Accédez au portail de mise en service à http://aka.ms/skypecapet se connecter en tant **qu’administrateur**.
-4. Entrez le nom complet (par exemple, principal réception) pour afficher votre point d’accès client.
+Le téléphone ou des téléphones que vous avez doivent avoir le mode de téléphone en zone commune activé. Vous voudrez peut-être vérifier que pour vous assurer de que leur. 
 
->[!NOTE]
-Si « Recherche pour seulement les téléphones de partie commune » est activée, désactivez la case à cocher et effectuez une nouvelle recherche.
+**Voici un exemple expliquant comment configurer un téléphone Polycom VVX**
 
-5. Dans la fenêtre code jumelage, entrez le code affiché sur le téléphone, cliquez sur **mettre en service**.
+- Activer le mode de téléphone en zone commune pour le VVX Polycom en suivant ces étapes :
+    1. Dans votre navigateur, connectez-vous à l’interface web afin que vous pouvez activer le mode de point d’accès client.
+    2. Accédez au **paramètre** et dans l’option **Skype pour la configuration d’entreprise** , sélectionnez **Téléphone en zone commune**.
+    3. Cliquez sur **Oui** pour enregistrer vos paramètres.
 
-La suite de cette dernière étape, le téléphone doit se connecter automatiquement.
+- Maintenant que le mode de cache est activé, vous pouvez configurer le téléphone à l’aide de l’affichage du téléphone. L’affichage doit contenir **CaAP est activé**. Procédez comme suit :
 
-En savoir plus sur les téléphones disponibles au [Déploiement de Skype pour les téléphones en ligne Business](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones).
+    1. Cliquez sur **paramètres**.
+    2. Sélectionnez **Avancé**.
+    3. Entrez le mot de passe.
+    4. Dans les **paramètres d’Administration**, sélectionnez **Les paramètres de téléphonie zone commune**.
+    5. Activer **CAP** et **en Mode Admin CAP**.
+    6. Cliquez sur **Enregistrer la configuration**.
+
+- OK, maintenant votre téléphone étant prêt pouvoir vous connecter sur l’écran d’accueil.
+
+    1. Se connecter en sélectionnant **paramètres** > **fonctionnalités** > **Skype pour les entreprises.**
+    2. Sélectionnez les **Informations d’identification de l’utilisateur**et sélectionnez **web reconnectez-vous (CAP)** pour générer un code.
+    3. Accédez au [portail de mise en service](http://aka.ms/skypecap)et connectez-vous en tant **qu’administrateur**.
+    4. Entrez le nom complet (par exemple, principal réception).
+
+       > [!Note]
+       > Si vous **Recherchez des téléphones en zone commune uniquement** est activée, désactivez la case à cocher et rechercher à nouveau. »
+
+    5. Dans la fenêtre code jumelage, entrez le code affiché sur le téléphone, cliquez sur **mettre en service**.
+
+        La suite de cette dernière étape, le téléphone doit se connecter automatiquement.
+
+### <a name="related-topics"></a>Rubriques connexes
+
+- En savoir plus sur les téléphones disponibles au [Déploiement de Skype pour les téléphones en ligne Business](deploying-skype-for-business-online-phones.md).
+- [Obtention de numéros de téléphone pour Skype Entreprise Online](getting-phones-for-skype-for-business-online.md)
 
 
