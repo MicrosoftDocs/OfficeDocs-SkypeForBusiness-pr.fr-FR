@@ -1,5 +1,5 @@
 ---
-title: Disponibilité de Bahreïn
+title: Disponibilité dans Bahreïn
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponibles pour le Bahreïn.
-ms.openlocfilehash: 93fc237af2e4a40b7419c178595da45b1b305b8f
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Bahreïn.
+ms.openlocfilehash: e6d48ee03d615bb0f6f41729a7bf9eda5036d7ec
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
 ---
-# <a name="availability-in-bahrain"></a>Disponibilité de Bahreïn
+# <a name="availability-in-bahrain"></a>Disponibilité dans Bahreïn
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponibles pour le Bahreïn.
+Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Bahreïn.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Non  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour les Manama. Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour : <br/><ul><li>Manama</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Non disponible  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique

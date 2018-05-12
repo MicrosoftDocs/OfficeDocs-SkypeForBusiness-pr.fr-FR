@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour les États-Unis.
-ms.openlocfilehash: 36a33915108d11a65349e8c1fca73c57fe1feae7
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 5ecc646fc00725d05c2623d0097b236ee4ff1f80
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilité aux États-Unis (É.U.)
 
@@ -38,7 +38,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour Chicago, Dallas, Los Angeles et New York. Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour : <br/><ul><li> Chicago<li>Dallas<li>Los Angeles<li>Ville de New York</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponibles  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
@@ -64,7 +64,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | Alabama, Birmingham <br/>  Arizona, Phoenix <br/>  Arkansas, Little Rock <br/>  Californie, Los Angeles <br/>  Californie, San Francisco <br/>  Colorado, Denver <br/>  Columbia, Washington DC <br/>  Connecticut, Hartford <br/>  Delaware, Wilmington <br/>  Floride, Miami <br/>  Géorgie, Atlanta <br/>  Hawaii, Honolulu <br/>  Idaho, Boise <br/>  Illinois, Aurora <br/>  Illinois, Chicago <br/>  Illinois, Cicero <br/>  Indiana, Indianapolis <br/>  Iowa, Iowa City <br/>  Kansas, Wichita <br/>  Kentucky, Louisville <br/>  Louisiane, Nouvelle-Orléans <br/>  Maine, Portland <br/>  Maryland, Baltimore <br/>  Massachusetts, Boston <br/>  Michigan, Pontiac <br/>  Minnesota, Minneapolis <br/>  Minnesota, St. Paul <br/>  Mississippi, Jackson <br/>  Missouri, Kansas City <br/>  Missouri, St. Louis <br/>  Montana, Billings <br/>  Caroline du Nord, Charlotte <br/>  Dakota du Nord, Fargo <br/>  Nebraska, Omaha <br/>  Nevada, Las Vegas <br/>  New Hampshire, Manchester <br/>  New Jersey, Newark <br/>  Nouveau-Mexique, Albuquerque <br/>  New York, New York City <br/>  Ohio, Columbus <br/>  Oklahoma, Oklahoma City <br/>  Oregon, Portland <br/>  Pennsylvanie, Philadelphia <br/>  Rhode Island, Providence <br/>  Caroline du Sud, Charleston <br/>  Dakota du Sud, Sioux Falls <br/>  Tennessee, Memphis <br/>  Texas, Dallas <br/>  Texas, Houston <br/>  Utah, Salt Lake City <br/>  Vermont, Brattleboro <br/>  Virginie, Richmond <br/>  Washington, Seattle <br/>  Virginie-Occidentale, Charleston <br/>  Wisconsin, Milwaukee <br/>  Wyoming, Laramie <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul><li>Alabama, Birmingham <li>  Arizona, Phoenix <li>  Arkansas, Little Rock <li> Californie, Los Angeles <li> Californie, San Francisco <li>  Colorado, Denver <li>  Columbia, Washington DC <li>  Connecticut, Hartford <li>  Delaware, Wilmington <li>Floride, Miami <li>  Géorgie, Atlanta <li> Hawaii, Honolulu <li> Idaho, Boise <li> Illinois, Aurora <li> Illinois, Chicago <li> Illinois, Cicero<li>  Indiana, Indianapolis <li>  Iowa, Iowa City <li>  Kansas, Wichita <li> Kentucky, Louisville <li>  Louisiane, Nouvelle-Orléans <li> Maine, Portland <li> Maryland, Baltimore <li>  Massachusetts, Boston <li> Michigan, Pontiac <li> Minnesota, Minneapolis <li> Minnesota, St. Paul <li> Mississippi, Jackson <li>  Missouri, Kansas City <li>Missouri, St. Louis <li>  Montana, Billings <li> Caroline du Nord, Charlotte<li>Dakota du Nord, Fargo <li> Nebraska, Omaha <li> Nevada, Las Vegas <li>  New Hampshire, Manchester <li> New Jersey, Newark <li> Nouveau-Mexique, Albuquerque <li>  New York, New York City <li>Ohio, Columbus <li>Oklahoma, Oklahoma City <li> Oregon, Portland <li> Pennsylvanie, Philadelphia <li> Rhode Island, Providence <li>  Caroline du Sud, Charleston <li>Dakota du Sud, Sioux Falls <li>  Tennessee, Memphis <li> Texas, Dallas <li>  Texas, Houston <li> Utah, Salt Lake City <li> Vermont, Brattleboro<li> Virginie, Richmond <li> Washington, Seattle <li>  Virginie-Occidentale, Charleston<li>  Wisconsin, Milwaukee <li> Wyoming, Laramie</ul> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Disponibilité au Luxembourg
+title: Disponibilité dans Luxembourg
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponibles pour le Luxembourg.
-ms.openlocfilehash: 74c45bec717a20b6aedc20a565fb5be761d90965
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Luxembourg.
+ms.openlocfilehash: f8d20e34fe49952ee7a20e01d9dde355ddc9f61b
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
 ---
-# <a name="availability-in-luxembourg"></a>Disponibilité au Luxembourg
+# <a name="availability-in-luxembourg"></a>Disponibilité dans Luxembourg
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponibles pour le Luxembourg.
+Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Luxembourg.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour le Luxembourg. Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Luxembourg</ul> Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponibles  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique

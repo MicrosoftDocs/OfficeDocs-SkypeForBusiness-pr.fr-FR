@@ -13,11 +13,11 @@ ms.audience: Admin
 appliesto: Skype for Business
 localization_priority: Normal
 ms.custom: Use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 9a9ff446d7b95588f1d9c2460db1284de717e557
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 7a9d9637973f18e5322e1c39d38627b0883f2c9f
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 05/11/2018
 ---
  # <a name="block-inbound-calls"></a>Bloquer les appels entrants
 
@@ -27,7 +27,8 @@ Cette fonctionnalité de blocage d’appel entrant fonctionne uniquement sur les
 
 Cette fonctionnalité n’est pas encore disponible pour le routage Direct.
 
->[Note] Les appelants bloqués peuvent se heurter comportements légèrement différents lorsqu’ils ont été bloqués. Le comportement dépendra comment opérateur l’appelant bloqués gère la notification de l’appel n’est pas autorisé à aboutir avec succès. Exemples peuvent inclure un message opérateur l’appel ne peut pas être effectué, ou simplement en supprimant l’appel.
+>[!NOTE]
+ Les appelants bloqués peuvent se heurter comportements légèrement différents lorsqu’ils ont été bloqués. Le comportement dépendra comment opérateur l’appelant bloqués gère la notification de l’appel n’est pas autorisé à aboutir avec succès. Exemples peuvent inclure un message opérateur l’appel ne peut pas être effectué, ou simplement en supprimant l’appel.
 
 ## <a name="call-blocking-admin-controls-and-information"></a>Appel de blocage des informations et des contrôles d’administration
 Contrôles d’administration pour les numéros de blocage sont fournies uniquement à l’aide de PowerShell. Modèles de bloc numéro sont définies comme des modèles d’expression régulière. L’ordre des expressions est sans importance – le premier modèle dans la liste entraînera l’appel est bloqué. Un nouveau numéro ou un modèle ajouté ou supprimé dans la liste bloquée liste des appelants peut prendre jusqu'à 24 heures pour le modèle actif.

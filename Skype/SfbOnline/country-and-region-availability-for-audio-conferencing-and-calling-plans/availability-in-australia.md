@@ -20,18 +20,18 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour l’Australie.
-ms.openlocfilehash: d3d8cab8192a29e4eebcfe7afcd140f95e695209
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Australie.
+ms.openlocfilehash: c4707423f2d816a846e6a688809e2ab6626f6d40
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-australia"></a>Disponibilité en Australie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour l’Australie.
+Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Australie.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -52,23 +52,23 @@ Voici les services Office 365 pour Skype pour les entreprises et les Teams Micro
    
 ## <a name="calling-plans"></a>Forfaits d'appels
 > [!IMPORTANT]
-> Actuellement disponible uniquement pour l’aperçu et adoption précoce en Australie. Pour plus d’informations, reportez-vous à la section [Telstra appelant pour Office 365](http://aka.ms/TelstraVoicePlan). 
+> Actuellement disponible uniquement pour preview et d’adoption au plus tôt en Australie. Pour plus d’informations, voir [Telstra d’appel pour Office 365](http://aka.ms/TelstraVoicePlan). 
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui, voir [Appel de Telstra pour Office 365](http://aka.ms/TelstraVoicePlan).  <br/> |
-|Minutes disponibles pour les forfaits d'appels  <br/> |Voir [appel de Telstra pour Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
-|Est-il possible de passer des appels sortants ?  <br/> |Voir [appel de Telstra pour Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui, voir [Telstra d’appel pour Office 365](http://aka.ms/TelstraVoicePlan).  <br/> |
+|Minutes disponibles pour les forfaits d'appels  <br/> |Voir [Telstra d’appel pour Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
+|Est-il possible de passer des appels sortants ?  <br/> |Voir [Telstra d’appel pour Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | Adélaïde <br/>  Brisbane <br/>  Canberra <br/>  Darwin <br/>  Melbourne <br/>  Newcastle <br/>  Perth <br/>  Sydney <br/>  Wollongong <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Adélaïde <li>Brisbane <li>  Canberra <li>Darwin <li>Melbourne <li>Newcastle <li> Perth <li>Sydney <li>Wollongong  |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    
-Si vous voulez obtenir le numéro payant et numéros de téléphone pour les standards automatiques et les files d’attente de l’appel, voir [Appel de Telstra pour Office 365](http://aka.ms/TelstraVoicePlan). Pour les numéros de service conférence audio, [Veuillez nous contacter](mailto:ptnapac@microsoft.com).
+Si vous souhaitez obtenir payants et les numéros de téléphone pour les standards automatiques et les files d’attente des appels, consultez la rubrique [Telstra d’appel pour Office 365](http://aka.ms/TelstraVoicePlan). Pour les numéros de service services d’audioconférence, [Veuillez nous contacter](mailto:ptnapac@microsoft.com).
   
 ## <a name="communications-credits"></a>Crédits de communication
 

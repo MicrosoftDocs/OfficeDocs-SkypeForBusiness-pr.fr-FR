@@ -1,79 +1,43 @@
 ---
-title: Gestion de Skype Room System v2
+title: Présentation de la gestion de systèmes de salle Skype v2
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
+ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
-description: Lisez cette rubrique pour en savoir plus sur la gestion des systèmes de salle Skype v2, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 48069f7e5e63df752fe94cb557796e9f2080c917
-ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
+description: Vue d’ensemble de la gestion de systèmes de salle Skype v2.
+ms.openlocfilehash: 5e6fe310051d5fc48875a878e64868a8a5672346
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/11/2018
 ---
-# <a name="manage-skype-room-systems-v2"></a>Gestion de Skype Room System v2
- 
-Lisez cette rubrique pour en savoir plus sur la gestion des systèmes de salle Skype v2, la nouvelle génération de systèmes de salle Skype.
-  
-Systèmes de salle Skype v2 est conçue pour transformer la salle de réunion en une riche, collaborative Skype pour une expérience la solution conférence le plus récent de Microsoft. Les utilisateurs apprécieront son interface Skype Entreprise familière, et les administrateurs informatiques approuveront la facilité de déploiement et de gestion de l’application de réunion Skype sous Windows 10. Systèmes de salle Skype v2 est conçu pour tirer parti de l’équipement existant comme panneaux LCD pour faciliter d’installation pour intégrer Skype pour les entreprises à la salle de réunion.
-  
-Avec une configuration supplémentaire, gestion à distance est possible à l’aide de la Suite de gestion des opérations Microsoft (OMS) comme décrit dans [Plan Skype salle v2 SMS avec OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), [déployer Skype salle v2 SMS avec OMS](../../deploy/deploy-clients/with-oms.md)et [gérer Périphériques v2 de systèmes de salle Skype avec OMS](oms.md). Vous pouvez également [un v2 Skype salle de systèmes de gérer les paramètres de la console à distance avec un fichier de configuration XML](xml-config-file.md)qui inclut l’application d’un thème d’affichage personnalisé. 
-  
-## <a name="collecting-logs-on-skype-room-systems-v2"></a>Collecte de journaux sur Skype Room Systems v2
-<a name="Logs"> </a>
+# <a name="management-overview"></a>Vue d’ensemble de la gestion 
 
-Pour collecter des journaux, vous devez appeler le script de collection de journal est fourni avec l’application v2 de systèmes de salle Skype. En mode d’administration, démarrez une invite de commandes avec élévation de privilèges et exécutez la commande suivante :
-  
-```
-powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
-```
+Il est essentiel de développer et exécuter la maintenance régulière et opérations pour vous assurer que votre v2 Skype salle systèmes sont disponibles pour vos utilisateurs et fournir un utilisateur un expérience. 
 
-Les journaux seront sortie dans un fichier ZIP c:\rigel.
-  
-## <a name="front-of-room-display-settings"></a>Paramètres de l’écran d’affichage
-<a name="Display"> </a>
+## <a name="monitoring"></a>Surveillance 
 
-Configurez l’écran d’affichage en mode étendu. Vous vous assurez ainsi que l’interface utilisateur de la console n’est pas dupliquée sur cet affichage lors de la mise sous tension de l’affichage.
-  
-> [!NOTE]
-> Télévision utilisée comme un plan de salle d’affichage pour la prise en charge/activer la fonctionnalité de contrôle de Electronics consommateur (CCE) de HDMI afin qu’il peut basculer automatiquement à une source vidéo active du mode veille. Cette fonctionnalité n’est pas pris en charge sur tous les TV. 
-  
-## <a name="skype-room-systems-v2-reset-factory-restore"></a>Réinitialisation de Skype Room Systems v2 (Restaurer les paramètres d’usine)
-<a name="Reset"> </a>
+Surveillance v2 Skype salle systèmes se compose de deux activités clés :
 
-Si v2 Skype salle systèmes ne fonctionne pas correctement, peut aider à effectuer une réinitialisation. Pour ce faire dans l’application de paramètres à partir de l’onglet « Récupération » située sous l’en-tête « Réinitialiser ce PC », sélectionnez « Démarrer » suivi par « Supprimer tout ». Suivez les autres invites selon votre choix pour réinitialiser le périphérique.
-  
-> [!NOTE]
-> Il existe un problème connu où le v2 Skype salle systèmes peut devenir inutilisable si l’option « Conserver mes fichiers - supprime les applications et les paramètres, mais conserve vos fichiers personnels » est sélectionnée au cours du processus de réinitialiser Windows. **N';utilisez pas** cette option.
-  
-## <a name="supported-remote-options"></a>Options distantes prises en charge
-<a name="RemoteOptions"> </a>
+-  APPAREIL, application et surveillance du périphérique
 
-Le tableau suivant récapitule les opérations distantes possibles et les méthodes que vous pouvez utiliser pour les accomplir.
-  
+-  Qualité et la fiabilité de la surveillance (CQD)
 
-|**Groupe de travail**|**Pas joint au domaine**|**Joint au domaine**|
-|:-----|:-----|:-----|
-|Redémarrer  <br/> |Bureau distant  <br/> Powershell distant  <br/> |Bureau à distance (nécessite une configuration supplémentaire)  <br/> Powershell distant (nécessite une configuration supplémentaire)  <br/> SCCM  <br/> |
-|Mise à jour du SE  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
-|Mise à jour de l';application  <br/> |	Windows Store  <br/> |Windows Store  <br/> SCCM  <br/> |
-|Configuration du compte Skype  <br/> |	Actuellement pas pris en charge  <br/> |	Actuellement pas pris en charge  <br/> |
-|Accès aux journaux  <br/> |	Actuellement pas pris en charge  <br/> |	Actuellement pas pris en charge  <br/> |
-   
-## <a name="configuring-group-policy-for-skype-room-systems-v2"></a>Configuration de la stratégie de groupe pour Skype Room Systems v2
-<a name="GroupPolicy"> </a>
+### <a name="skype-room-systems-v2-device-application-and-peripheral-device-monitoring"></a>Systèmes de salle Skype v2 DISPOSITIF, application et surveillance du périphérique
 
-Cette section traite des paramètres système qui dépend de systèmes de salle Skype v2 pour fonctionner correctement. Pour prendre part à des systèmes de salle Skype v2 à un domaine, assurez-vous que votre stratégie de groupe ne remplace pas les paramètres suivants :
-  
+Pour vous assurer que les utilisateurs sont en mesure d’utiliser les unités de v2 Skype salle systèmes, les unités doivent se trouver sur concernant au réseau avec l’application v2 de systèmes de salle Skype correctement configurée et être connectées à des périphériques fonctionne. 
+
+
+Plus d’informations sur l’état de l’application v2 de Skype salle systèmes et périphériques connectés est écrit par l’application v2 de systèmes de salle Skype pour le journal des événements Windows et expliquée [dans cet article](oms.md#understand-the-log-entries). 
 
 |**Paramètre**|**Permet de**|
 |:-----|:-----|
-|	HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (dword) 1  <br/> |V2 de systèmes de salle Skype permet de démarrer  <br/> |
+|HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |V2 de systèmes de salle Skype permet de démarrer  <br/> |
 |Gestion - de l’alimentation\> sur CA, désactiver écran au bout de 10 minutes  <br/> Gestion - de l’alimentation\> sur CA, placez jamais système en mode veille  <br/> |Permet de systèmes de salle Skype v2 activer affiche attaché et réactiver automatiquement  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.  <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
    
@@ -82,183 +46,42 @@ Transfert de fichiers à l’aide de stratégies de groupe est traitée dans [un
 ## <a name="remote-management-using-powershell"></a>Gestion distante à l’aide de PowerShell
 <a name="RemotePS"> </a>
 
-Vous pouvez effectuer les opérations de gestion suivantes à distance à l’aide de PowerShell (consultez le tableau ci-dessous pour des exemples de script) :
-  
-- Obtenir les périphériques raccordés
-    
-- Obtenir l';état de l';application
-    
-- Obtenir les informations système
-    
-- Redémarrer le système
-    
-- Récupérer les journaux
-    
-- Transférer des fichiers (requiert un domaine Skype salle systèmes v2)
-    
-> [!NOTE]
-> Cette fonctionnalité est désactivée par défaut. Vous devez activer PowerShell à distance pour votre environnement sur le système v2 de systèmes de salle Skype effectuer les opérations ci-dessous. Reportez-vous à la documentation sur **[Enable-PSRemoting](https://technet.microsoft.com/en-us/library/hh849694.aspx)** pour plus d’informations sur l’activation de PowerShell à distance.
-  
-Par exemple, vous pouvez activer PowerShell à distance comme suit :
-  
-1. Connectez-vous en tant qu’administrateur sur un appareil v2 de systèmes de salle Skype.
-    
-2. Lancez une invite de commande PowerShell avec élévation de privilèges.
-    
-3. Entrez la commande suivante : Enable-PSRemoting - force
-    
-Pour effectuer une opération de gestion :
-  
-1. Connectez-vous à un ordinateur avec les informations d’identification de compte qui est autorisé à exécuter des commandes PowerShell sur un appareil v2 de systèmes de salle Skype.
-    
-2. Lancez une invite de commande PowerShell régulière sur votre ordinateur.
-    
-3. Copiez le texte de commande du tableau ci-dessous et collez-le dans l’invite.
-    
-4. Remplacez `<Device fqdn>` champs dont les valeurs de nom de domaine complet approprié à votre environnement.
-    
-5. Remplacez * \<chemin d’accès\> * avec le nom de fichier et chemin d’accès local du fichier de configuration maître SkypeSettings.xml (ou image de thème).
-    
-Pour obtenir des équipements
-  
-```
-invoke-command {Write-Host "VIDEO DEVICES:" 
-gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Image"} | Format-Table Name,Status,Present; Write-Host "AUDIO DEVICES:" 
-gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Media"} | Format-Table Name,Status,Present; Write-Host "DISPLAY DEVICES:" 
-gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Monitor"} | Format-Table Name,Status,Present} -ComputerName <Device fqdn>
-```
 
-Obtenir l’état de l’application
-  
-```
-invoke-command { $package = get-appxpackage -User Skype -Name Microsoft.SkypeRoomSystem; if ($package -eq $null) {Write-host "SkypeRoomSystems not installed."} else {write-host "SkypeRoomSystem Version : " $package.Version}; $process = Get-Process -Name "Microsoft.SkypeRoomSystem" -ErrorAction SilentlyContinue; if ($process -eq $null) {write-host "App not running."} else {$process | format-list StartTime,Responding}}  -ComputerName <Device fqdn>
-```
+Nous recommandons d’utiliser Microsoft Operations Manager Suite à surveiller vos systèmes de v2 Skype salle. Pour obtenir des instructions sur la configuration de surveillance et les alertes de base, voir [déployer Skype salle v2 SMS avec OMS](../../deploy/deploy-clients/with-oms.md). 
 
-Obtenir les informations système
-  
-```
-invoke-command {gwmi -Class Win32_ComputerSystem | Format-List PartOfDomain,Domain,Workgroup,Manufacturer,Model
-gwmi -Class Win32_Bios | Format-List SerialNumber,SMBIOSBIOSVersion} -ComputerName <Device fqdn>
-```
+À l’aide de ce guide, vous pouvez créer un tableau de bord simple à utiliser pour identifier des problèmes avec des unités v2 de vos systèmes de salle Skype dans votre déploiement. 
 
-Redémarrer le système
-  
-```
-invoke-command { Shutdown /r /t 0 } -ComputerName <Device fqdn>
-```
+|    |     |
+|-----------|------------|
+|![](../../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Vérifiez que vous allez utiliser la Suite de gestion des opérations de déploiement de v2 Skype salle systèmes.</li><li>Décider de la liste de distribution cible que vous allez utiliser pour les alertes par courrier électronique.</li></ul>|
+|![](../../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Définir votre qualité et la fiabilité approche de surveillance.</li></ul>|
 
-Récupérer les journaux
-  
-```
-$targetDevice = "<Device fqdn> "
-$logFile = invoke-command {$output = Powershell.exe -ExecutionPolicy Bypass -File C:\Rigel\x64\Scripts\Provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
-Get-ChildItem -Path C:\Rigel\*.zip | Sort-Object -Descending -Property LastWriteTime | Select-Object -First 1} -ComputerName $targetDevice
-$session = new-pssession -ComputerName $targetDevice
-Copy-Item -Path $logFile.FullName -Destination .\ -FromSession $session; invoke-command {remove-item -force C:\Rigel\*.zip} -ComputerName $targetDevice
-```
+## <a name="quality-and-reliability-monitoring-cqd"></a>Qualité et la fiabilité de la surveillance (CQD)
 
-Pousser une configuration XML ou un graphique de thème)
-  
-```
-$movefile = "<path>";
-$targetDevice = "\\<Device fqdn> \Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState\SkypeSettings.xml"; 
-Copy-Item $movefile $targetDevice 
-```
+Nous vous recommandons d’implémenter qualité opérationnelle en cours et la fiabilité de la surveillance des procédures dans le cadre de votre déploiement pour surveiller les tendances d’appel et de qualité de la réunion et de fiabilité, qui identifie les zones d’intérêt et utilisation d’une résolution. 
 
-## <a name="software-updates"></a>Mises à jour logicielles
-<a name="SWupdate"> </a>
+Lorsque vous téléchargez vos informations de construction dans CQD vous pouvez examiner les tendances qualité et la fiabilité d’appel sur un niveau par construction, ce qui facilite la comparaison de bâtiments et concentrer votre attention sur des problèmes spécifiques. Pour plus d’informations, téléchargez le [Moniteur-CQD pour Skype pour Business remise en ligne et le Guide des opérations](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=6_2_0_15). 
 
-Par défaut, v2 Skype salle systèmes tentent de se connecter à la banque de Windows pour obtenir la dernière version du logiciel de v2 Skype salle systèmes, afin que le périphérique devra être régulière accès à internet. N’oubliez pas de que l’appareil v2 de systèmes de salle Skype est chargée avec la dernière version de l’application, avant de contacter Microsoft ayant des problèmes de prise en charge.
-  
-Par défaut, Skype salle systèmes v2 sera se connecter à Windows Update à récupérer du système d’exploitation, ainsi que du microprogramme périphérique USB mises à jour et les installer en dehors des heures ouvrées configurés. Vous pouvez configurer les heures d’ouverture en vous connectant au compte administrateur et en exécutant l’application Paramètres.
-  
-Si vous souhaitez gérer manuellement les mises à jour et que vous ne parvenez pas à la procédure normale pour le [Magasin de Microsoft pour les entreprises](https://businessstore.microsoft.com/en-us/store) à [distribuer des applications en mode hors connexion](https://docs.microsoft.com/en-us/microsoft-store/distribute-offline-apps), vous pouvez vous procurer le fichier APPX approprié et les dépendances dans le [kit de déploiement](https://go.microsoft.com/fwlink/?linkid=851168) (à partir de les instructions pour [configurer une console v2 de systèmes de salle Skype](../../deploy/deploy-clients/console.md)) qui peut être utilisé avec SCCM. La version de kit de déploiement retard sur la version de la banque, afin qu’il peut ne pas toujours correspond à la dernière version disponible.
-  
-### <a name="to-update-using-powershell"></a>Pour mettre à jour à l’aide de Powershell
+Nous vous recommandons de consulter et suivre le [Guide Quality of Experience passez en revue](https://aka.ms/qerguide) pour identifier les tendances de qualité et la fiabilité et créer un plan d’action pour les résoudre. 
 
-1. Extraire le package de l’installation [MSI](https://go.microsoft.com/fwlink/?linkid=851168) sur un partage accessible du périphérique.
-    
-2. Exécutez le script suivant ciblant les périphériques Skype salle systèmes v2, la modification \<partager\> au périphérique partager le cas échéant :
-    
-```
-Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-```
+## <a name="updating-the-skype-room-systems-v2-os-and-skype-room-systems-application"></a>Mise à jour de l’application du système d’exploitation et systèmes de salle Skype de v2 Skype salle systèmes 
 
-## <a name="admin-mode-and-device-management"></a>Mode Administrateur et gestion des appareils
-<a name="AdminMode"> </a>
+Il est recommandé que vous mettez à jour Skype salle systèmes v2 OS Skype salle systèmes v2 à l’application et tirent parti des améliorations et des mises à jour de produit. Pour obtenir des instructions détaillées, voir [Gérer les systèmes de salle Skype v2](room-systems-v2-operations.md#software-updates). 
 
-Certaines fonctions de gestion, comme l’installation manuelle d’un certificat privé de l’AC, nécessitent de basculer l’appareil Surface 4 en mode Administrateur.  
-  
-### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-is-running"></a>Passer en Admin Mode et lorsque l’application v2 de systèmes de salle Skype est en cours d’exécution
+## <a name="troubleshooting"></a>Identification et résolution des problèmes
 
-1. Raccrochez les appels en cours et revenez à l’écran d’accueil.
-    
-2. Cliquez sur l’icône d’engrenage et afficher le menu (options sont **les paramètres**, **accessibilité**et **Redémarrez le dispositif** ).
-    
-3. Sélectionnez **Paramètres**.
-    
-4. Entrez le mot de passe de l’administrateur. L’écran d’installation s’affiche.
-    
-    > [!NOTE]
-    > Si l’appareil ne possède pas de domaine joint, le compte administratif local (nom d’utilisateur "Admin") sera utilisé par défaut. Le mot de passe par défaut de ce compte est "sfb", mais il est recommandé que votre organisation le change dès que possible pour des raisons de sécurité. Si l’appareil possède un domaine joint, vous pouvez vous connecter avec un compte de domaine disposant des privilèges appropriés. 
-  
-5. Cliquez sur **Paramètres Windows** dans la colonne de gauche.
-    
-6. Sélectionnez **Atteindre connexion d’administration**.
-    
-7. Entrez le mot de passe de l’administrateur. Vous serez déconnecté de l’application et reviendrez à l’écran de connexion de Windows. 
-    
-8. Connectez-vous au bureau avec vos informations d’identification administrateur. Vous disposez des privilèges requis pour gérer l’appareil.
-    
-9. Exécutez les tâches administratives requises.
-    
-10. Déconnectez-vous du compte Administrateur.
-    
-11. Revenez au Skype salle systèmes v2 en sélectionnant l’icône de compte d’utilisateur à l’extrême gauche de l’écran et sélectionnez **Skype**.
-    
-    Si l’utilisateur **Skype** n’est pas répertorié, vous devrez peut-être sélectionnez **autre utilisateur** , puis entrez **. \skype** comme nom d’utilisateur et de connexion.
-    
- La console est désormais dans son mode de fonctionnement normal. La procédure suivante nécessite que vous attacher un clavier à l’appareil si une n’est pas déjà attachée. 
-  
-### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-crashes"></a>Passer en Admin Mode et lorsque l’application v2 Skype salle systèmes se bloque
+Nous vous recommandons de configurer Suite de gestion des opérations d’alerte comme décrit dans la section ci-dessus afin que votre équipe chargée des opérations et le support technique seront informés de tous les systèmes de salle Skype v2 problèmes. Les options dont vous disposez pour la gestion à distance PowerShell sont décrits dans la [gestion à distance à l’aide de PowerShell](room-systems-v2-operations.md#remote-management-using-powershell). Dans le cas où un périphérique est déconnecté, vous devrez peut-être s’appuient sur locales mains « actives » ou la prise en charge de l’informatique d’analyser et reconnectez les périphériques. 
 
-1. Appuyez rapidement cinq fois sur la touche Windows. L’écran de connexion de Windows apparaît.  
-    
-2. Connectez-vous au bureau avec vos informations d’identification administrateur.
-    
-    > [!NOTE]
-    > Cette méthode ne déconnecte pas l’utilisateur de Skype ou ne ferme pas l’application. Vous ne devez toutefois l’utiliser que si l’application ne répond pas et que l’autre méthode n’est pas disponible. 
-  
-3. Exécutez les tâches administratives requises.
-    
-4. Redémarrez l’appareil lorsque vous avez terminé.
-    
- Redémarrage de la console dans son mode de fonctionnement normal, l’application v2 de systèmes de salle Skype en cours d’exécution. Vous pouvez retirer le clavier raccordé pour exécuter cette procédure, le cas échéant.
-## <a name="troubleshooting-tips"></a>Astuces de dépannage
-<a name="TS"> </a>
+Pour plus d’informations sur le mode de résolution des problèmes et d’administration, voir [Gérer les systèmes de salle Skype v2](room-systems-v2-operations.md#admin-mode-and-device-management). 
 
-- Les invitations aux réunions peuvent ne pas apparaître lorsqu’elles sont envoyées sur plusieurs domaines (par exemple, entre deux entreprises). Dans de tels cas, les administrateurs informatiques devraient décidés de permettre ou non aux utilisateurs externes de planifier une réunion.
-    
-- Systèmes de salle Skype v2 ne gère pas les redirections de découverte automatique Exchange via Exchange 2010.
-    
-- En général, il est recommandé aux administrateurs informatiques de désactiver les terminaux audio non destinés à être utilisés
-    
-- Dans le cas où une image miroir est affichée dans la prévisualisation de la salle, l’administrateur informatique peut corriger en mettant sous tension la caméra ou en retournant l’orientation de l’image à l’aide de la télécommande de la caméra.
-    
-- La perte de l’accès à l’écran tactile de la console est connue. Dans ce cas, le problème est parfois résolu en redémarrant le système v2 de systèmes de salle Skype.
-    
-- La perte de l’audio local lors de la connexion d’un ordinateur à la console via une réception par câble est connue. Dans ce cas, le redémarrage de l’ordinateur peut résoudre le problème de lecture audio locale.
-    
-## <a name="see-also"></a>Voir aussi
-<a name="TS"> </a>
+### <a name="see-also"></a>Voir aussi
 
-#### 
+[Systèmes de salle Skype version 2](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Planifier la salle Skype systèmes v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
-  
-[Déployer la salle Skype systèmes v2](../../deploy/deploy-clients/room-systems-v2.md)
-  
-[Configurer une console v2 de systèmes de salle de Skype](../../deploy/deploy-clients/console.md)
-  
-[Gestion à distance des paramètres de console v2 de systèmes de salle Skype avec un fichier de configuration XML](xml-config-file.md)
 
+[Déployer la salle Skype systèmes v2](../../deploy/deploy-clients/room-systems-v2.md)
+
+[Configurer une console v2 de systèmes de salle de Skype](../../deploy/deploy-clients/console.md)
+
+[Gestion à distance des paramètres de console v2 de systèmes de salle Skype avec un fichier de configuration XML](xml-config-file.md)

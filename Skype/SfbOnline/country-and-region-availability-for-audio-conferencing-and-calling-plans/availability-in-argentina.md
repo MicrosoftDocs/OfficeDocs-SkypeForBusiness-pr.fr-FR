@@ -20,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour l’Argentine.
-ms.openlocfilehash: 24c67f2104ec64340a9d1470bc44e75925085ab4
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Argentine.
+ms.openlocfilehash: 00f7d05855afd56382e162a1664a108f91beb858
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-argentina"></a>Disponibilité en Argentine
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour l’Argentine.
+Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Argentine.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour Buenos Aires. Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li>Buenos Aires</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> | Non disponible <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
@@ -62,11 +62,11 @@ Voici les services Office 365 pour Skype pour les entreprises et les Teams Micro
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | Buenos Aires <br/>  Cordoba <br/>  La Plata <br/>  Mar Del Plata <br/>  Mendoza <br/>  Rosario <br/>  San Miguel de Tucuman <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | <ul><li>Buenos Aires <li>Cordoba <li>La Plata <li>Mar Del Plata <li>Mendoza <br/>  <li>San Miguel de Tucuman <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
-|Sont des numéros gratuits disponibles ?  <br/> |Oui  <br/> |
+|Numéros gratuits sont disponibles ?  <br/> |Oui  <br/> |
    
- Si vous souhaitez obtenir payant et payant des numéros de téléphone gratuits pour les conférences Audio, surveillances automatiques et appeler des files d’attente, voir [numéros de téléphone de service de mise en route pour Skype pour les entreprises et les équipes de Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+ Si vous souhaitez obtenir payant et payant des numéros de téléphone gratuit pour une audioconférence, standards automatiques et files d’attente des appels, voir les [numéros de téléphone de service de mise en route pour Skype pour les professionnels et les équipes Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Crédits de communication
 

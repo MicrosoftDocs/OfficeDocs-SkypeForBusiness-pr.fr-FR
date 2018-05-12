@@ -12,11 +12,11 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit l’installation de la console Skype Room Systems v2 et de ses périphériques.
-ms.openlocfilehash: b9b786de35af63202b168b0664440d28302492e5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b82343f98304b0607bb3525b508aecf81e80a031
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configuration d’une console Skype Room Systems v2
  
@@ -49,7 +49,7 @@ Installation de l’application de v2 de systèmes de salle Skype sur une Surfac
 > Un v2 Skype salle systèmes existants avec 10 entreprise anniversaire mise à jour Windows déplacement vers les systèmes de salle Skype v2 mise à jour 3 par l’entremise du Windows Store fonctionnera, mais une nouvelle installation doit être effectuée comme indiqué ci-dessous. 
   
 1. Télécharger le [package MSU pour KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).
-2. Télécharger le [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
+2. Télécharger le [script CreateSrsMedia.ps1](room-systems-v2-scripts.md).
 3. Placez la MSU pour KB4056892 dans le même répertoire que le script CreateSrsMedia.ps1.
 4. Exécutez le script CreateSrsMedia.ps1 à partir d’une invite de commandes avec élévation de privilèges sur un ordinateur Windows 10.
 
@@ -164,7 +164,7 @@ L’appareil de v2 Skype salle systèmes doit approuver les certificats utilisé
 
 1. Téléchargez le certificat d’AC sur votre ordinateur, puis enregistrez-le sur "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer".
     
-2. Placez la surface d’exposition de 4 en mode admin (voir [gestion de mode et appareil d’administration](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)).
+2. Placez la surface d’exposition de 4 en mode admin (voir [gestion de mode et appareil d’administration](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
     
 3. Exécutez la commande suivante :
     
@@ -175,11 +175,11 @@ L’appareil de v2 Skype salle systèmes doit approuver les certificats utilisé
 ### <a name="join-an-active-directory-domain-optional"></a>Joindre un domaine Active Directory (facultatif)
 <a name="Certs"> </a>
 
-Vous pouvez participer à des périphériques v2 de systèmes de salle Skype à votre domaine. Les appareils v2 Skype salle systèmes doivent être placés dans une unité d’organisation distincte à partir de stations de travail de votre PC, car le nombre de stratégies de station de travail n’est pas compatible avec les systèmes de salle Skype v2. Un exemple courant sont les stratégies de mot de passe qui empêchent Skype salle systèmes v2 de démarrer automatiquement. Pour plus d’informations sur la gestion des paramètres de stratégie de groupe, reportez-vous à [Gérer les systèmes de salle Skype v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md). 
+Vous pouvez participer à des périphériques v2 de systèmes de salle Skype à votre domaine. Les appareils v2 Skype salle systèmes doivent être placés dans une unité d’organisation distincte à partir de stations de travail de votre PC, car le nombre de stratégies de station de travail n’est pas compatible avec les systèmes de salle Skype v2. Un exemple courant sont les stratégies de mot de passe qui empêchent Skype salle systèmes v2 de démarrer automatiquement. Pour plus d’informations sur la gestion des paramètres de stratégie de groupe, reportez-vous à [Gérer les systèmes de salle Skype v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md). 
   
 ### <a name="to-join-skype-room-system-v2-to-a-domain"></a>Pour joindre Skype Room Systems v2 à un domaine
 
-1. Connexion à la console de l’administrateur de compte (voir [gestion de mode et appareil d’administration](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)).
+1. Connexion à la console de l’administrateur de compte (voir [gestion de mode et appareil d’administration](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
     
 2. Lancez l’invite de commande Powershell avec élévation de privilèges.
     

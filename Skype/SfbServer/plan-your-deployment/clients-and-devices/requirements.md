@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume la configuration requise pour prendre en charge un v2 Skype salle systèmes.
-ms.openlocfilehash: 0fb1fbcde28c343787967485dd6cae36491311b7
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: b1216989dd5ac18f8cd4b4f97e7be975ca7289d7
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
  
@@ -28,35 +28,37 @@ Systèmes de salle Skype v2 capable de s’adapter aux tailles différentes sall
   
 - 32 Go de disque de plus grande capacité USB, vous allez configurer en tant que le support d’installation Windows pour Windows 10 Enterprise. 
     
-- Parmi les tablettes suivantes :
+- Un des tablettes ou consoles suivantes :
     
 **Tablettes pris en charge**
-
-
-|**Tablet PC**|**Processeur**|**MÉMOIRE RAM**|**Disque**|
+|Tablet PC|Processeur|MÉMOIRE RAM|Disque|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4 & sup1 ;  <br/> |Principaux i5  <br/> |4 GO  <br/> |128 GO  <br/> |
-|Surface Pro 4 & sup1 ;  <br/> |Principaux i5  <br/> |8 GO  <br/> |256 GO  <br/> |
-|Surface Pro & sup1 ; <br/> |Principaux i5  <br/> |4 GO  <br/> |128 GO  <br/> |
-|Surface Pro & sup1 ; <br/> |Principaux i5  <br/> |8 GO  <br/> |256 GO  <br/> |
-|Surface Pro & sup1 ; <br/> |Core i7  <br/> |8 GO  <br/> |128 GO  <br/> |
-|Surface Pro & sup1 ; <br/> |Core i7  <br/> |16 GO  <br/> |512 GO  <br/> |
-|Surface Pro & sup1 ; <br/> |Core i7  <br/> |16 GO  <br/> |1 TO  <br/> |
+|Surface Pro 4    |Principaux i5  |4 GO  |128 GO  |
+|Surface Pro 4    |Principaux i5  |8 GO  |256 GO  |    
+|Surface Pro (2017)  |Principaux i5  |4 GO  |128 GO  |
+|Surface Pro (2017)  |Principaux i5  |8 GO  |256 GO  |
+|Surface Pro (2017)  |Core i7  |8 GO  |128 GO  |
+|Surface Pro (2017)  |Core i7  |16 GO  |512 GO  |
+|Surface Pro (2017) |Core i7  |16 GO  |1 TO  |
    
-& sup1 ; — M3 processeurs ne sont pas pris en charge sur ce modèle.
+> [!NOTE]
+> M3 processeurs ne sont pas pris en charge.
+
+**Consoles pris en charge**
+|Console|Processeur|MÉMOIRE RAM|Disque|
+|:-----|:-----|:-----|:-----|
+|[Hub Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Principaux i5  |8 GO  |128 GO  |  
+ <!-- HP dock is still pending  -->  
     
- 
+- Une des options de la station d’accueil suivantes pour sécuriser une tablette à la réunion de l’espace table. 
     
-- Une des options de la station d’accueil suivantes pour sécuriser la tablette à la réunion de l’espace table. 
-    
-  - [Logitech SmartDock](https://www.logitech.com/en-us/product/smartdock)
+  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
     
   - [SR Crestron](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
     
   - [Série de Polycom MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-  - [Hub Lenovo 500](https://www3.lenovo.com/us/en/hub500)  
-<!-- HP dock is still pending  -->  
+
  
 **Certifié versions du microprogramme pour les périphériques audio et vidéos USB**
 |**Périphériques v2 de systèmes de salle de Skype**|**Version de microprogramme certifiée pour les systèmes de salle Skype v2**|
@@ -133,7 +135,7 @@ Vous devez les téléchargements pour créer votre propre image v2 de Skype sall
     
 Ces téléchargements doivent combiner un disque amorçable de support d’installation Windows de façon spécifique, décrites dans [Configure une console v2 de systèmes de salle Skype](../../deploy/deploy-clients/console.md). 
   
-En outre, vous souhaiterez probablement une copie du [script Powershell](https://go.microsoft.com/fwlink/?linkid=870105) utilisé pour configurer les comptes Skype salle systèmes v2.
+En outre, vous souhaiterez probablement une copie de [SkypeRoomProvisioningScript.ps1](../../deploy/deploy-clients/room-systems-v2-scripts.md), utilisé pour configurer les comptes v2 Skype salle systèmes.
   
 ## <a name="see-also"></a>Voir aussi
 
