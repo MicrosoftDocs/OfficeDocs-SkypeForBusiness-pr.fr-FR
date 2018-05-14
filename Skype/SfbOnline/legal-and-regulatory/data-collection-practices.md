@@ -1,5 +1,5 @@
 ---
-title: Pratiques de collecte des données
+title: Méthodes de collecte de données
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,28 +18,28 @@ f1keywords: None
 ms.custom:
 - Legal
 hideEdit: true
-description: Microsoft collecte les données de recensement et d’utilisation erreur afin de comprendre comment est utilisé Skype pour les entreprises et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations de produit.
-ms.openlocfilehash: 46a292e462708b77b60aa1c8a52c2148fbc82775
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: Microsoft collecte des données de recensement, d’utilisation et d’erreur pour comprendre comment Skype pour les entreprises est utilisé et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations de produit.
+ms.openlocfilehash: 37073ad92933e03b9b05c7d3c8d9cd427276cc5b
+ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/14/2018
 ---
-# <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype pour les pratiques de collection des données métier et Teams de Microsoft
+# <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype pour les pratiques de collection de données métiers et Microsoft Teams
 
-Skype pour Business Server 2015, Skype pour professionnels en ligne, avec Skype pour les applications d’entreprise et Microsoft Teams collecter des données pour aider Microsoft à comprendre la manière dont ces produits sont utilisés et quels types d’erreurs, telles que des erreurs de connexion, ont eu lieu. Ces informations nous permettent de comprendre les modèles d’utilisation, planifier de nouvelles fonctionnalités et dépanner et résoudre des zones à problème.
+Skype pour Business Server 2015, Skype pour Business Online, ainsi que Skype pour les applications métiers et Microsoft Teams collecter des données afin de permettre à Microsoft de comprendre comment ces produits sont utilisés et les types d’erreurs, telles que des erreurs de connexion, se sont produites. Ces informations nous aident à comprendre les modèles d’utilisation, planifier des nouvelles fonctionnalités et résoudre les problèmes et corriger les problèmes.
   
-Lors de l’utilisation des données collectées automatiquement, autres données peuvent uniquement être collectées lorsque l’administrateur et/ou l’utilisateur choisit pour l’autoriser. Collecte de données se divise en trois catégories :
+Alors que l’utilisation des données collectées automatiquement, autres données ne peuvent être générées lorsque l’administrateur et/ou l’utilisateur choisit pour lui permettre de. Collecte de données se divise en trois catégories :
   
-- Données de recensement
+- Données recensement
     
 - Données d’utilisation
     
-- Données de rapport d’erreurs
+- Données de signalement d’erreurs
     
-## <a name="census-data"></a>Données de recensement
+## <a name="census-data"></a>Données recensement
 
-Données de recensement sont acquise uniquement pour fournir, prise en charge et améliorer Skype pour les entreprises. Les équipes Microsoft et Skype pour les entreprises en ligne. Il inclut des informations environnementales telles que les versions de système d’exploitation et les périphériques et les paramètres régionaux et linguistiques. Il inclut également des compteurs pour les défaillances et les tentatives de connexion. Voici quelques exemples spécifiques de données recensement collectées :
+Données recensement sont acquise uniquement pour fournir, prennent en charge et améliorer Skype pour les entreprises. Les équipes de Microsoft et Skype pour les entreprises en ligne. Il inclut des informations environnementales telles que les versions de périphériques et le système d’exploitation et paramètres régionaux et linguistiques. Il inclut également les compteurs de tentatives de connexion et des échecs. Voici quelques exemples des données recueillies recensement spécifiques :
 
 |**Type de données**|**Exemple**|**Remarques**|
 |:-----|:-----|:-----|
@@ -48,72 +48,72 @@ Données de recensement sont acquise uniquement pour fournir, prise en charge et
 |OSName  <br/> |iPhoneiOS  <br/> ||
 |OSVersion  <br/> |8.3  <br/> ||
 |UserLanguage  <br/> |EN-US  <br/> ||
-|ID utilisateur  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |L’ID est haché deux fois : une première fois sur le client et sur le service de télémétrie. Le hachage garantit que l’ID ne peut pas être lié à un utilisateur spécifique.  <br/> |
-|ID de périphérique  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |L’ID de périphérique est un GUID qui a généré une seule fois sur le périphérique et envoyée au service de télémétrie de manière aléatoire.  <br/> |
+|Nom d’utilisateur  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |L’ID est hacher deux fois : une fois sur le client et à nouveau sur le service de télémétrie. Le hachage garantit QU'ID ne peut pas être liée à un utilisateur spécifique.  <br/> |
+|ID de périphérique  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |L’ID de périphérique est un GUID qui a généré une seule fois sur l’appareil et envoyées au service de télémétrie de manière aléatoire.  <br/> |
    
-Données de recensement est pas contient toute information qui identifie votre organisation ou des utilisateurs. Consultez le [Skype pour la déclaration de confidentialité d’entreprise](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) pour plus d’informations.
+Ne prend pas les données de recensement contiennent des informations qui identifie votre organisation ou des utilisateurs. Voir la [Skype pour la déclaration de confidentialité d’entreprise](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) pour plus d’informations.
   
-Données de recensement sont activée par défaut et ne peut pas être désactivées par les administrateurs ou les utilisateurs finaux.
+Données de recensement sont activée par défaut et ne peuvent pas être désactivées par les administrateurs ou les utilisateurs finaux.
   
 ## <a name="usage-data"></a>Données d’utilisation
 
-Les données d’utilisation contient des informations telles que le nombre d’appels effectués, nombre de IMs envoyé ou reçu, nombre de réunions joint, fréquence des fonctions utilisées et des problèmes de stabilité.
+Les données d’utilisation contient des informations telles que le nombre d’appels effectués, nombre de messages instantanés envoyés ou reçus, nombre de réunions lié, fréquence des fonctionnalités et des problèmes de stabilité.
   
-Les données d’utilisation peuvent contenir des informations qui identifient votre organisation, par exemple, contoso.com. Voici quelques exemples spécifiques des données d’utilisation collectées :
+Les données d’utilisation peuvent contenir des informations qui identifient votre organisation, par exemple contoso.com. Voici quelques exemples spécifiques des données d’utilisation collectées :
   
 |**Type de données**|**Exemple**|**Remarques**|
 |:-----|:-----|:-----|
-|Messagerie instantanée envoyée  <br/> |12  <br/> ||
+|Messages instantanés envoyés  <br/> |12  <br/> ||
 |Message instantané reçu  <br/> |5  <br/> ||
 |Participer à une réunion (tentatives)  <br/> |5  <br/> ||
 |Participer à une réunion (succès)  <br/> |4  <br/> ||
 |Appel/compte-rendu  <br/> |30 minutes  <br/> ||
-|FederationPartner  <br/> |Microsoft.com  <br/> |Ceci est le nom de l’organisation enregistrée dans Office 365 et est transmis en clair, ce qui signifie qu’il n’est pas obscurcie.  <br/> |
+|FederationPartner  <br/> |Microsoft.com  <br/> |Ceci est le nom de l’organisation enregistrée dans Office 365 et est transmis en texte clair, ce qui signifie qu’il n’est pas obscurcie.  <br/> |
    
-Données d’utilisation est pas contient toute information qui identifie les utilisateurs.
+Ne prend pas les données d’utilisation contiennent des informations qui identifie les utilisateurs.
   
-Collection des données d’utilisation est activée par défaut, mais en local admins peut désactiver à l’aide du paramètre de stratégie de groupe DisableAutomaticSendTracing sur Skype pour Business Server 2015. La désactivation de ce paramètre affecte tous les utilisateurs de l’organisation. Pour plus d’informations, reportez-vous à la section [Configuration des stratégies amorçage client dans Skype pour Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) .
+Collecte des données d’utilisation est activée par défaut, mais local Administrateurs peuvent désactiver utilisant le paramètre de stratégie de groupe DisableAutomaticSendTracing sur Skype pour Business Server 2015. Désactivation de ce paramètre affecte tous les utilisateurs dans l’organisation. Pour plus d’informations, voir [configuration de stratégies de démarrage du client dans Skype pour Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) .
   
-Les utilisateurs finaux ne peut pas activer la collection des données d’utilisation ou désactiver.
+Les utilisateurs finaux ne peuvent pas activer la collecte de données ou désactiver.
   
-Pour l’application de réunions Skype et les pages web du Lanceur jointure, la manière de contrôler la télémétrie est par le biais de cette stratégie :
+Pour application de réunions Skype et le Lanceur participer à des pages web, la manière de contrôler la télémétrie est par le biais de cette stratégie :
   
 Set-CsWebServiceConfiguration - MeetingUxEnableTelemetry $True
   
-Cette stratégie par défaut est false, afin que la collection de télémétrie est désactivée par défaut. Ce paramètre est par groupe et contrôle de tous les utilisateurs qui se connectent avec application de réunions Skype à une conférence hébergée sur ce serveur.
+Cette stratégie par défaut est false, afin que la collection de télémétrie est désactivée par défaut. Ce paramètre est par pool et aux contrôles de tous les utilisateurs qui se connectent avec Skype réunions App à une conférence hébergée sur ce serveur.
   
-## <a name="error-reporting-data"></a>Données de rapport d’erreurs
+## <a name="error-reporting-data"></a>Données de signalement d’erreurs
 
-Données de rapport d’erreur peuvent inclure des informations sur les performances et la fiabilité, la configuration de périphérique, qualité de la connexion réseau, les codes d’erreur, journaux d’erreurs et exceptions. Voici quelques exemples spécifiques de données qui sont collectées de rapport d’erreurs :
+Données de création de rapports d’erreur peuvent inclure des informations sur les performances et la fiabilité, configuration du périphérique, qualité de la connexion réseau, les codes d’erreur, journaux d’erreurs et exceptions. Voici quelques exemples de données recueillies de signalement d’erreurs spécifiques :
 
 |**Type de données**|**Exemple**|**Remarques**|
 |:-----|:-----|:-----|
 |Direction du message  <br/> |Entrant  <br/> ||
 |État de la conversation  <br/> |Inactif  <br/> ||
 |ID de thread de conversation  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA ==  <br/> ||
-|ID utilisateur  <br/> |amosmarble <br/> |L’ID est envoyé en texte clair, ce qui le service télémétrie hache avant de les stocker  <br/> |
+|Nom d’utilisateur  <br/> |amosmarble <br/> |L’ID est envoyé en texte clair, lequel le service de télémétrie hachages avant de les stocker  <br/> |
    
-Données de rapport d’erreur peuvent également contenir des informations d’identification personnelle comme adresse IP de l’utilisateur et Session Initiation Protocol Uniform Resource Identifier (URI SIP). Voir le pour une explication détaillée de ce qui est collecté [Skype pour la déclaration de confidentialité commerciale](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) .
+Données de création de rapports d’erreur peuvent également contenir des informations d’identification personnelle comme adresse IP et Session Initiation Protocol Uniform Resource Identifier (URI SIP) de l’utilisateur. Voir la [Skype pour la déclaration de confidentialité d’entreprise](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) pour une explication détaillée de la collecte des éléments.
   
-Rapport d’erreur nécessite deux choses :
+Rapport d’erreurs nécessite deux éléments :
   
-- Le paramètre de stratégie de groupe de DisableAutomaticSendTracing être définie sur False sur le serveur ou dans le centre d’administration client (il s’agit de l’état par défaut). Pour plus d’informations, reportez-vous à la section [Configuration des stratégies amorçage client dans Skype pour Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) .
+- Le paramètre de stratégie de groupe DisableAutomaticSendTracing avoir la valeur False sur le serveur ou dans le centre d’administration de client (il s’agit de l’état par défaut). Pour plus d’informations, voir [configuration de stratégies de démarrage du client dans Skype pour Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) .
     
-- Les utilisateurs finaux individuellement participer à partir de l’onglet Général (cliquez sur l’icône de vitesse et de la boîte de dialogue Options s’ouvre avec l’onglet Général) dans le Skype pour client d’entreprise.
+- Les utilisateurs finaux individuellement participer à partir de l’onglet Général (cliquez sur l’icône d’engrenage et la boîte de dialogue Options s’ouvre avec l’onglet Général) dans le Skype pour client d’entreprise.
     
      ![Icône d’engrenage](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)
   
-![Skype pour la case de la collection données métier dans les Options > boîte de dialogue Général](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
+![Skype pour case collection des données métiers dans les Options > boîte de dialogue Général](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
-Pour l’application de réunions Skype, la MeetingUxEnableTelemetry contrôle également rapport d’erreurs, bien que pour des incidents sur Windows, les paramètres Watson contrôlent téléchargement info de blocage. Il n’y a aucun paramètre d’utilisateur pour l’application de réunions Skype que vous voyez dans la boîte de dialogue client de bureau.
+Pour l’application de réunions Skype, le MeetingUxEnableTelemetry contrôle signale les erreurs, bien que pour se bloque dans Windows, les paramètres Watson contrôlent téléchargement info incident. Il n’existe aucun paramètre d’utilisateur pour l’application de réunions Skype que vous voyez dans la boîte de dialogue client de bureau.
   
-Pour plus d’informations, reportez-vous à la section [des options définir générales dans Skype pour les entreprises](http://support.office.com/article/e1a46d3e-dcea-437a-ba7b-6d442a40f439) .
+Pour plus d’informations, voir [les options général défini dans Skype pour les entreprises](http://support.office.com/article/e1a46d3e-dcea-437a-ba7b-6d442a40f439) .
   
-Vous pouvez voir [configurer votre réseau pour Skype pour l’activité en ligne](http://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66) pour configurer votre réseau.
+Vous pouvez voir [votre réseau de Skype pour Business Online](http://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66) pour configurer votre réseau.
   
-Si vous utilisez Office 365 exploités par 21Vianet en Chine, consultez [configurer votre réseau pour Skype pour Business Online exploités par 21Vianet](http://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
+Si vous utilisez Office 365 exécuté par 21Vianet en Chine, voir [configurer votre réseau pour Skype pour Business Online exécuté par 21Vianet](http://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Programme d’amélioration du produit](https://www.microsoft.com/products/ceip/en-US/default.mspx)
+[Le programme d’amélioration du produit](https://www.microsoft.com/products/ceip/en-US/default.mspx)
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

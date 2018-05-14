@@ -18,16 +18,16 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Vous pouvez télécharger ces étiquettes d’appel d’urgence lorsque vous utilisez l’appel de Plans dans Office 365.
-ms.openlocfilehash: 6ca40a1520f85dbf09b7e524e4eda929084be50f
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: Vous pouvez télécharger ces étiquettes d’appel d’urgence lorsque vous utilisez des Plans de l’appel dans Office 365.
+ms.openlocfilehash: 8236a63a2da20441afb0949e5a201750e118615f
+ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="emergency-calling-labels"></a>Étiquettes de l’appel d’urgence
 
-Il s’agit d’urgence (911) étiquettes d’exclusion de responsabilité de l’appel ou autocollants pour les utilisent avec des étiquettes d’adresse Avery 5160 (1 "x 2 5/8") ou peuvent être réduits si vous souhaitez utiliser d’autres types d’étiquettes.
+Il s’agit d’urgence (911) étiquettes de notification d’exclusion de l’appel ou autocollants pour utilisent avec des étiquettes d’adresse Avery 5160 (1 "x 2 5/8") ou peuvent être dimensionnés si vous souhaitez utiliser d’autres types d’étiquettes.
 
 [Cliquez ici pour télécharger un fichier .zip pour les étiquettes de l’appel d’urgence (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).
 

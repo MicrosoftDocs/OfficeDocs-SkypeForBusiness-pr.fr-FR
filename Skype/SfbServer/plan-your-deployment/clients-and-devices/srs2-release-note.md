@@ -9,11 +9,11 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
-ms.openlocfilehash: 145934fbc68fd25d1535be3d1a09cef058bd9272
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: e5995955e35c707f5ce3d21f884c54a62188c27d
+ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="release-notes"></a>Notes de publication 
 
@@ -22,27 +22,29 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 
 ##  <a name="version-history"></a>Historique des versions
 
-| Version | Publié sur <br>Magasin de Microsoft | Fin du support |
-| ---     | ---                              | ---         |
-| 3.1.104.0|            |            |
-| 3.1.100.0|            |            |
-| 3.1.98.0 |            |            |
-| 3.0.15.0 |            |            |
-| 3.0.12.0 |            |            |
-| 3.0.6.0 | 16/11/2017 | 16/11/2018 |
-| 2.0.2.0  | 15/03/2017 | 15/03/2018 |
-| RTM (1.0.8)       | 12/7/2016  | 12/07/2017 |
+| Version | Publié sur <br>Magasin de Microsoft | 
+| ---     | ---                              |
+| 3.1.104.0|  04/16/2018    |            
+| 3.1.100.0|  16/03/2018    |            
+| 3.1.99.0 | 3/14/2018      |   
+| 3.1.98.0    | 3/8/2018    |   
+|  3.0.16.0    |  27/11/2017   |
+| 3.0.15.0 | 10/3/2017  |            
+| 3.0.12.0 |  9/1/2017  |            
+| 3.0.8.0 | 16/11/2017 | 
+| 3.0.6.0 | 16/11/2017 | 
+| 2.0.2.0  | 15/03/2017 | 
+| RTM (1.0.8) | 12/7/2016  | 
 
 
 
-## <a name="skype-room-systems-v2-feature-introduction"></a>Présentation de la fonctionnalité Skype salle systèmes v2
+## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Systèmes de salle Skype v2 fonctionnalité introduction et problème résolution
 
 
 ### <a name="311040-04162018"></a>3.1.104.0 (16/04/2018)
 **Nouvelles fonctionnalités** introduites dans cette mise à jour : 
-- Améliorations ITPro ? 
-- Améliorations d’administration ?
-- Améliorations du client/de l’utilisateur ?
+- Correctif pour améliorer le clavier visuel (clavier visuel) comportement dans les systèmes fenêtre 10 Version 1709
+- Améliorations apportées à préparer les mises à jour du système d’exploitation future
 
 
 ### <a name="311000-03162018"></a>3.1.100.0 (16/03/2018)
@@ -54,20 +56,31 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 - Correctifs un problème où réunion intermittente joindre les problèmes pouvant survenir.
 - Correctifs un problème connaître pour générer un périphérique expérience « bloquent ».
 
-
-### <a name="31980-00000000"></a>3.1.98.0 (00/00/0000)
+### <a name="31980--382018"></a>3.1.98.0 (2018/8/3)
 **Nouvelles fonctionnalités** introduites dans cette mise à jour : 
-- Prise en charge de [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) ancre matériel.
-- Remarque : Création d’une image avec 3.1.98.0 et Windows 10 Version 1709 requiert l’ajout de KB4056892 de mise à jour de janvier Win10.  En outre, un script PS1 a été rendu disponible pour créer des images plus rapidement.
+- Correctifs de bogue/incident pour améliorer la stabilité
+- Prise en charge pour la taille d’une variable de console
+- Traitement audio périphérique déchargement (création de listes autorisées supports supplémentaires)
+- Inclut également les optimisations permettant aux professionnels de l’informatique créer des images personnalisables avec mise à jour de Windows 10 Version 1709 janvier et versions ultérieures.  
+
+<!--### 3.1.97.0 (00/00/0000)
+**New feature(s)** introduced in this update: 
+- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  hardware only.  -->
 
 
-### <a name="30150-00000000"></a>3.0.15.0 (00/00/0000)
+### <a name="30160-11272017"></a>3.0.16.0 (27/11/2017)
+**Nouvelles fonctionnalités** introduites dans cette mise à jour : 
+- Résout un problème avec la fonctionnalité « Commenter ».
+
+### <a name="30150-1032017"></a>3.0.15.0 (10, 3/2017)
 **Nouvelles fonctionnalités** introduites dans cette mise à jour : 
 - Prise en charge de [Polycom MSR série](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) ancre matériel
 - Prise en charge de la [Logitech Brio](https://www.logitech.com/en-us/product/brio)
+- [10:52:00] Nettoyage de David
+- Résout un problème où affiche (console et salle de plan) ne pas passer en mode veille lorsqu’il n’existe aucune activité de la salle.
 
 
-### <a name="30120-00000000"></a>3.0.12.0 (00/00/0000)
+### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
 **Nouvelles fonctionnalités** introduites dans cette mise à jour :  
 - S’exécute sur Surface Pro tablette (2017)  
 - Prend en charge la mise à jour du créateur de contenu d’entreprise 10 Windows (en anglais, build 1703)    
@@ -76,8 +89,11 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
     
 La version 64 bits de l’édition entreprise anniversaire de mariage 10 Windows (en anglais, version 1607) n’est plus pris en charge à partir de systèmes de salle Skype v2 version 3.0.12.0 (mise à jour 3). 
 
+### <a name="3080-842017"></a>3.0.8.0 (8/4/2017) 
+**Nouvelles fonctionnalités** introduites dans cette mise à jour : 
+- Résout les problèmes observés lorsque recherche fédérée utilisateurs via le champ de recherche des Participants. Antérieures à ce correctif, résultats de la recherche pour les utilisateurs fédérés externes non résolues correctement et renvoyé à la place des résultats incorrects. 
 
-### <a name="3060-11162017"></a>3.0.6.0 (16/11/2017) 
+### <a name="3060-772017"></a>3.0.6.0 (7/7/2017) 
 **Nouvelles fonctionnalités** introduites dans cette mise à jour :  
 - Double écran prise en charge (parité système hérité)   
 - Themability (thèmes intégrés et la possibilité de définir le thème personnalisé) 
@@ -88,14 +104,12 @@ La version 64 bits de l’édition entreprise anniversaire de mariage 10 Windows
     <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
-### <a name="2020-03152017"></a>2.0.2.0 03/15/2017
+### <a name="2020-03152017"></a>2.0.2.0 (15/03/2017)
 **Nouvelles fonctionnalités** introduites dans cette mise à jour : 
-
 - Sélection de l’utilisateur dans l’application de périphériques USB audio et vidéo de salle de réunion
 - Intégré salle console rapports d’état les clients qui utilisent Microsoft Operations Management Suite (voir [planifier Skype salle v2 SMS avec OMS](oms-management.md)) 
 
-### <a name="release-to-market"></a>Publication sur le marché 
-##### <a name="1272016"></a>12/7/2016
+### <a name="release-to-market--1272016"></a>Publication sur le marché (12/7/2016)
 **L’ou les composants :** 
 
  **Conçue pour Skype Entreprise**

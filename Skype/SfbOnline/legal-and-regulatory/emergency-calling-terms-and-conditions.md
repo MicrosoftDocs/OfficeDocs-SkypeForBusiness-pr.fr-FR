@@ -18,20 +18,20 @@ ROBOTS: NOINEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Découvrez comment les Services d’urgence (911) diffèrent des services téléphoniques traditionnels et comment effectuer un appel. '
-ms.openlocfilehash: 1e96595796c92d3ba505b52e6321dd28db46f54c
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: 'Découvrez comment les Services d’urgence (911) diffèrent des services téléphoniques traditionnels et émettre un appel. '
+ms.openlocfilehash: 62d7354430c3548e246766016721002364a9a626
+ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Conditions générales relatives aux appels d'urgence
 
 ## <a name="important-information"></a>INFORMATIONS IMPORTANTES
 
-Appel de Services d’urgence fonctionne différemment avec l’appel de Plans dans Office 365 que sur les services téléphoniques traditionnels. Il est important que vous compreniez ces différences et les communique à tous les utilisateurs avec l’appel de Plans dans Office 365. Vous reconnaissez et acceptez que vous avez lu et comprenez les différences de notre appel à des Services d’urgence et fournissez cet avis à chaque utilisateur appelant Plans dans Office 365.
+Appel de Services d’urgence fonctionne différemment avec des Plans de l’appel dans Office 365 que sur les services téléphoniques traditionnels. Il est important de comprendre les différences et les communique à tous les utilisateurs avec des Plans de l’appel dans Office 365. Vous reconnaissez et acceptez que vous avez lu et comprenez les différences dans notre appel des Services d’urgence et fournissez cette notice à chaque utilisateur avec des Plans de l’appel dans Office 365.
   
-Les différences de nos capacités d’appel des Services d’urgence sont les suivants : (i) Skype pour entreprise ne savez ne peut-être pas de l’emplacement réel d’un appelant effectue un appel de Services d’urgence, ce qui peut entraîner l’appel acheminé vers les Services d’urgence incorrect Centre d’appels ou les services d’urgence expédiés vers un emplacement erroné ; (ii) si le périphérique de l’utilisateur n’est pas alimenté, est confronté à une panne de courant ou, pour une raison quelconque, ne peut pas accéder autrement à Internet, l’utilisateur ne peut pas effectuer un appel de Services d’urgence par le biais de l’appel de Plans dans Office 365 ; et (iii) bien que l’appel de Plans dans Office 365 peut être utilisés n’importe où dans le monde entier dans le cas où une connexion Internet est disponible, les utilisateurs ne doivent pas apporter un appel de Services d’urgence à partir d’un emplacement situé en dehors de leur pays/région d’origine, car l’appel probablement n’est pas routée à le centre d’appel approprié dans ce pays ou cette région.
+Les différences de notre capacités d’appel des Services d’urgence incluent ce qui suit : (i) Skype pour les entreprises ne peut pas connaître l’emplacement réel d’un appelant à un appel de Services d’urgence, qui peut entraîner l’appel acheminé vers les Services d’urgence incorrect Centre d’appels ou des services d’urgence distribuées au mauvais endroit ; (ii) si l’appareil de l’utilisateur n’est pas alimenté, subit une coupure de courant ou, pour une raison quelconque, ne peuvent pas accéder Internet, l’utilisateur ne peut pas émettre un appel de Services d’urgence par le biais de Plans de l’appel dans Office 365 ; et (iii) bien que les Plans de l’appel dans Office 365 peuvent être utilisées partout dans le monde où une connexion Internet est disponible, les utilisateurs ne doivent pas apporter un appel de Services d’urgence à partir d’un emplacement à l’extérieur de leur domicile pays/région, car l’appel probablement pas système acheminé vers le centre d’appels appropriés dans ce pays/région.
   
 ## <a name="related-topics"></a>Rubriques connexes
 [Questions fréquentes à propos du transfert de numéros de téléphone](../what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions.md)
