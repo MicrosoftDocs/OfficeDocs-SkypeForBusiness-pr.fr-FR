@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada.
-ms.openlocfilehash: ecb8310f6440698ba8cd367d6128cde5b643b088
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 7547e82f6e5554ccb881ac167719f67d578ca5fe
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-canada"></a>Disponibilité au Canada
 
@@ -56,6 +56,7 @@ Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponi
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
 |Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes planifier l’appel interne </li><li>240 minutes planifier l’appel interne</li></li><li>3000 minute de planifier l’appel interne </li></li><li>minute 600 national et International des Plans de l’appel</li></li> 
+|Peut passer des appels sortants vers les numéros ?  <br/> | Non pris en charge pour l’instant.<br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 > [!Note]
 > Les appels vers les États-Unis sont considérés comme des appels nationaux.

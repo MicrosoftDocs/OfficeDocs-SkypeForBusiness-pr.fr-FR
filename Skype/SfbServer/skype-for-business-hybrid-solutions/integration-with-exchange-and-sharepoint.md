@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Résumé : Découvrez les Skype pour Business Server 2015 l’intégration avec Exchange et SharePoint.'
-ms.openlocfilehash: 12f6974a6a0d3641242eda072332667ece31c72a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 51943ac3b67ec204429a1970836f03f04acec0d5
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Intégration à Exchange et SharePoint
  
@@ -35,7 +35,7 @@ Les tableaux suivants répertorient les fonctionnalités prises en charge dans u
   
  **Skype pour Business Server sur site et Exchange sur site**
   
-| |
+
 |**Fonctionnalité**|**Remarques**|
 |:-----|:-----|
 |Messagerie instantanée/présence dans Outlook  <br/> |Pour plus d’informations, voir [messagerie instantanée et présence](http://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx).  <br/> |
@@ -55,7 +55,7 @@ Les tableaux suivants répertorient les fonctionnalités prises en charge dans u
    
  **Skype pour Business Server sur site et Exchange Online**
   
-| |
+
 |**Fonctionnalité**|**Remarques**|
 |:-----|:-----|
 |Messagerie instantanée/présence dans Outlook  <br/> |Pour plus d’informations, voir [configurer l’intégration entre locale Skype pour Business Server 2015 et Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
@@ -75,7 +75,7 @@ Les tableaux suivants répertorient les fonctionnalités prises en charge dans u
    
  **Skype pour Business Online et Exchange sur site**
   
-| |
+ 
 |**Fonctionnalité**|**Remarques**|
 |:-----|:-----|
 |Présence dans Outlook  <br/> ||
@@ -92,7 +92,7 @@ Les tableaux suivants répertorient les fonctionnalités prises en charge dans u
    
  **Skype pour les entreprises en ligne et Exchange Online**
   
-| |
+
 |**Fonctionnalité**|**Remarques**|
 |:-----|:-----|
 |Messagerie instantanée/présence dans Outlook  <br/> ||

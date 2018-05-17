@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour les États-Unis.
-ms.openlocfilehash: 5ecc646fc00725d05c2623d0097b236ee4ff1f80
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: b1d5f66f1ebb63553904a9b1992bf9e08d46a98a
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilité aux États-Unis (É.U.)
 
@@ -56,6 +56,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
 |Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes nationales appelant planifier de (disponibilité est limitée)</li><li>240 minutes nationales appelant planifier de (disponibilité est limitée)</li></li><li>3000 minute de planifier l’appel interne </li></li><li>600 minutes national et International des Plans de l’appel</li></li> 
+|Peut passer des appels sortants vers les numéros ? <br/> | Non pris en charge pour l’instant. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 >[!Note] 
 > Les appels nationaux aux États-Unis incluent ceux à destination de l'ensemble des 50 États des États-Unis et de Porto Rico. Les utilisateurs ayant reçu l'emplacement d'utilisation sous licence des États-Unis et/ou de Porto Rico partagent le même nombre de minutes.

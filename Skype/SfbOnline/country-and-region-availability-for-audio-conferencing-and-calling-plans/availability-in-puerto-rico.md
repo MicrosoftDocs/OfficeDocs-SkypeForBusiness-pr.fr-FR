@@ -20,18 +20,18 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour Porto Rico.
-ms.openlocfilehash: 92bde6e252f750a065e0068e18f1003f4efdcb49
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Porto Rico.
+ms.openlocfilehash: 8032f38bf51db5762e0256e4aadb005b6b7caf8a
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-puerto-rico"></a>Disponibilité de Porto Rico.
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et les Teams Microsoft disponible pour Porto Rico.
+Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Porto Rico.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -56,6 +56,7 @@ Voici les services Office 365 pour Skype pour les entreprises et les Teams Micro
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
 |Minutes disponibles pour les forfaits d'appels  <br/> |3000 minutes nationales ou 600 minutes internationales (en fonction de ce qui arrive en premier par mois civil). Les appels nationaux aux États-Unis incluent ceux à destination de l'ensemble des 50 États des États-Unis et de Porto Rico. Les utilisateurs ayant reçu l'emplacement d'utilisation sous licence des États-Unis et/ou de Porto Rico partagent le même nombre de minutes.  <br/> |
+|Peut passer des appels sortants vers les numéros ? <br/> | Non pris en charge pour l’instant. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
