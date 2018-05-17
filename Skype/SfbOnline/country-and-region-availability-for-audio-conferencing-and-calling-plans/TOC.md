@@ -146,8 +146,7 @@
 ### [Qualité des médias et performances de connectivité réseau](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
 ### [Serveurs proxy pour Skype Entreprise Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
-## Utiliser la qualité d'appel dans votre organisation
-### [Appel Analytique et tableau de bord de qualité des appels](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+## [Analytique d’appel et appel de tableau de bord qualité] (.. / using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Configurer l'analyse des appels pour Skype Entreprise](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Activation et utilisation du tableau de bord Qualité des appels](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
