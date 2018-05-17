@@ -25,7 +25,7 @@
 ## [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Configurer l'analyse des appels Skype Entreprise](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels Skype Entreprise](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [En quoi l'analyse des appels et le tableau de bord de qualité des appels sont-ils différents ?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Appel Analytique et tableau de bord de qualité des appels](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 
@@ -50,7 +50,6 @@
 ## [Configurer une organisation Exchange hybride à utiliser avec Microsoft Teams](exchange-hybrid-organization.md)
 ## [Ajouter le domaine SMTP de Microsoft Teams comme domaine accepté dans Exchange Online](smtp-accepted-domain.md)
 ## [Utiliser le complément Réunion Teams dans Outlook](teams-add-in-for-outlook.md)
-
 
 
 
@@ -122,10 +121,10 @@
 
 ## Contrôler la qualité des appels et la qualité de service
 ### [Qualité de service (QoS) dans Teams](QoS-in-Teams.md)
+### [Appel Analytique et tableau de bord de qualité des appels](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Configurer l'analyse des appels Skype Entreprise](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels Skype Entreprise](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [En quoi l'analyse des appels et le tableau de bord de qualité des appels sont-ils différents ?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## Audioconférence
