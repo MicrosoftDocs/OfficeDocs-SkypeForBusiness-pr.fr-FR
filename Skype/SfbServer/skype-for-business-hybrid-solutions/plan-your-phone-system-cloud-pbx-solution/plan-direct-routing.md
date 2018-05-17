@@ -10,8 +10,8 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: 9809c4acb5d80f18dc076b07e81c052caa6fbc0d
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 3e7a0899fd7a79003a522d59fe1f4f7508978a51
+ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/17/2018
@@ -190,9 +190,9 @@ Le tableau ci-dessous récapitule les relations entre les centres de données pr
 |Le centre de données tertiaire (sip3.pstnhub.microsoft.com)|ASIE|ASIE|UNION EUROPÉENNE|
 |||||
 
-## <a name="media-traffic-ip-addresses-and-port-ranges"></a>Le trafic multimédia : plages d’adresses IP et port
+## <a name="media-traffic-port-ranges"></a>Le trafic multimédia : plages de ports
 
-Le trafic multimédia est disposé vers et à partir d’un service séparé dans le Cloud de Microsoft. La plage IP des processeurs multimédia est indiquée dans le tableau suivant :
+Le trafic multimédia est disposé vers et à partir d’un service séparé dans le Cloud de Microsoft. La plage de ports des processeurs multimédia est indiquée dans le tableau suivant : 
 
 |**Trafic**|**De**|**À**|**Port source**|**Port de destination**|
 |:--- |:--- |:--- |:--- |:--- |
