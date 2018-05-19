@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenir les étapes que vous devez modifier les paramètres d’un pont de conférence qui permet de demander des appelants et recueillir les noms et les codes confidentiels pour les organisateurs de réunion lorsqu’ils utilisent pas Skype pour les applications Microsoft Teams ou de l’entreprise. '
-ms.openlocfilehash: c58c1b3031da9e9ebe8408568bed0fd4b8c9ae9b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 439907b6b1055db2487491c4b0be89cbb96bdf72
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont de conférence Audio
 
@@ -75,13 +75,13 @@ Le pont de conférence répond à un appel et demande à l’appelant avec les i
     
   - **Activer ou désactiver les annonces d'entrée et de sortie des réunions**: cette option est sélectionnée par défaut. Si vous désactivez la case à cocher, les utilisateurs qui ont déjà joint la réunion ne sera pas avertis lorsque quelqu'un rejoint ou quitte la réunion.
     
-    Lorsque vous sélectionnez **Activer l’accès à la réunion et quitter notifications est activé**, vous pouvez sélectionner ces options dans la liste **type d’entrée/sortie annonce** :
+  - Lorsque vous sélectionnez **Activer l’accès à la réunion et quitter notifications est activé**, vous pouvez sélectionner ces options dans la liste **type d’entrée/sortie annonce** :
     
-  - **Les noms ou les numéros de téléphone** Lorsque les utilisateurs se connecter à une réunion, son numéro de téléphone sera diffusé lorsqu’ils se joignent à.
+   - **Les noms ou les numéros de téléphone** Lorsque les utilisateurs se connecter à une réunion, son numéro de téléphone sera diffusé lorsqu’ils se joignent à.
     
-  - **Tonalités** Lorsque les utilisateurs se connecter à une réunion, une tonalité audio sera diffusée lorsqu’ils se joignent à.
+   - **Tonalités** Lorsque les utilisateurs se connecter à une réunion, une tonalité audio sera diffusée lorsqu’ils se joignent à.
   
-  - **Demander aux appelants d'enregistrer leur nom avant de participer à la réunion**: cette option est sélectionnée par défaut. Si vous désactivez la case à cocher, les appelants ne sont pas invités à enregistrer leur nom avant de participer à une réunion.
+   - **Demander aux appelants d'enregistrer leur nom avant de participer à la réunion**: cette option est sélectionnée par défaut. Si vous désactivez la case à cocher, les appelants ne sont pas invités à enregistrer leur nom avant de participer à une réunion.
     
 3. Une fois que vous avez effectué vos modifications, cliquez sur **Enregistrer**.
     

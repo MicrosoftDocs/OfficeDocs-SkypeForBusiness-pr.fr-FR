@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner un pays ou une région pour consulter la disponibilité de l'audioconférence, du système téléphonique, des forfaits d'appel, des crédits de communication ainsi que des numéros payants et gratuits.
-ms.openlocfilehash: 5707784f04dc52697ecd3d65b4c48ec105d10247
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: c106f90cee586fccbeb87b9b45757691191b449e
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays
 
@@ -163,7 +163,7 @@ Passer un appel sortant depuis une réunion vers un autre pays ou une autre rég
 ### <a name="phone-system"></a>Système téléphonique
 Avec le système téléphonique, vous pouvez créer des standards automatiques et des files d'attente (avec un numéro gratuit ou payant) pour répondre aux appels entrants de votre organisation et, lorsque vous ajoutez un forfait d'appels pour les utilisateurs, ceux-ci peuvent se servir de Skype Entreprise pour réaliser des tâches de contrôle d'appel de base, telles que passer, recevoir, ou transférer des appels, ou encore désactiver ou activer le son des appels. Les utilisateurs du **système téléphonique** peuvent cliquer sur un nom dans leur carnet d’adresses pour que Skype Entreprise appelle cette personne. Pour émettre et recevoir des appels, les utilisateurs du **système téléphonique** peuvent utiliser leur appareil mobile, un casque avec un ordinateur portable ou un PC ou l’un des nombreux téléphones IP compatibles avec Skype Entreprise.
 
-Outre obtenir des numéros de téléphone pour des utilisateurs individuels à partir d’Office 365, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou payants pour des services tels que l'audioconférence (pour les ponts de conférence), les standards automatiques et les files d'attente. Il s'agit des numéros de service appelés. Voir les [numéros de téléphone de mise en service](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) pour obtenir les numéros de téléphone. Mais, pour vos utilisateurs, une fois que vous leur avez attribué un forfait d'appels, vous pouvez leur attribuer un numéro de téléphone utilisateur, afin qu'ils puissent passer et recevoir des appels. Vous pouvez trouver ces numéros de téléphone [ici](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). Vous pouvez également accéder à la rubrique [Attribuer, modifier ou supprimer un numéro de téléphone pour un utilisateur](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md). 
+Outre obtenir des numéros de téléphone pour des utilisateurs individuels à partir d’Office 365, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou payants pour des services tels que l'audioconférence (pour les ponts de conférence), les standards automatiques et les files d'attente. Il s'agit des numéros de service appelés. Voir les [numéros de téléphone de mise en service](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) pour obtenir les numéros de téléphone. Mais, pour vos utilisateurs, une fois que vous leur avez attribué un forfait d'appels, vous pouvez leur attribuer un numéro de téléphone utilisateur, afin qu'ils puissent passer et recevoir des appels. Pour trouver ces numéros de téléphone, accédez à [l’obtention des numéros de téléphone pour vos utilisateurs](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). Vous pouvez également accéder à la rubrique [Attribuer, modifier ou supprimer un numéro de téléphone pour un utilisateur](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md). 
 
 [Tarifs pour le système téléphonique](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
 

@@ -1,9 +1,9 @@
 ---
-title: Gérer la version d’évaluation travailleur de l’information pour Microsoft Teams
+title: Gérer l’offre d’évaluation de Cloud Microsoft équipes commerciales
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 04/27/2018
+ms.date: 05/17/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,16 +11,16 @@ ms.service: msteams
 localization_priority: Normal
 description: Les utilisateurs Office 365 qui ne sont pas une licence de Microsoft Teams peuvent lancer une version d’évaluation de 1 an d’équipes.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 491f7503843d1feebbff88579fba1eae11895e0e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e282481cc8cdb5eba23a56ef32adff2e812fefbf
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
-<a name="manage-the-iw-trial-offer-for-microsoft-teams"></a>Gérer la version d’évaluation travailleur de l’information pour Microsoft Teams
-=============================================
+<a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’évaluation de Cloud Microsoft équipes commerciales
+=======================================================
 
-Microsoft Teams est un excellent outil de collaboration pour votre organisation. Il permet aux personnes et aux équipes de discuter, innover et partager des idées à l’aide de la puissance d’Office 365. La version d’évaluation travailleur de l’information pour Microsoft Teams offre Office 365 les utilisateurs existants dans votre organisation qui ne sont pas une licence de Microsoft Teams initier une version d’évaluation de 1 an du produit. Administrateurs ont la possibilité d’activer ou désactiver cette fonctionnalité pour les utilisateurs au sein de leur client.
+Microsoft Teams est un excellent outil de collaboration pour votre organisation. Il permet aux personnes et aux équipes de discuter, innover et partager des idées à l’aide de la puissance d’Office 365. Les équipes commerciales Cloud version d’évaluation Microsoft offre Office 365 les utilisateurs existants dans votre organisation qui ne sont pas une licence de Microsoft Teams initier une version d’évaluation de 1 an du produit. Administrateurs ont la possibilité d’activer ou désactiver cette fonctionnalité pour les utilisateurs au sein de leur client.
 
 ## <a name="whats-in-the-offer"></a>Nouveautés de l’offre
 
@@ -38,11 +38,16 @@ Les plans de service inclus dans cette offre sont les suivants :
 
 ## <a name="who-is-eligible"></a>Qui est éligible
 
-Les utilisateurs qui ne possèdent pas d’une licence Office 365 qui inclut les équipes peuvent lancer la version d’évaluation travailleur de l’information. Par exemple, si un utilisateur a Office 365 entreprise Premium (qui inclut les équipes) et le plan de service équipes est désactivé, ils ne sont pas éligibles pour la version d’évaluation.
+Les utilisateurs qui ne possèdent pas d’une licence Office 365 qui inclut les équipes peuvent lancer l’offre d’évaluation de Cloud Microsoft équipes commerciale. Par exemple, si un utilisateur a Office 365 entreprise Premium (qui inclut les équipes) et le plan de service équipes est désactivé, ils ne sont pas éligibles pour la version d’évaluation.
 
-Au niveau du client, équipes en tant que service doit être activé (dans le centre d’administration équipes). (Pour plus d’informations, voir [fonctionnalités de gestion des équipes Microsoft dans votre organisation Office 365](enable-features-office-365.md). En outre, les utilisateurs doivent être activés pour s’inscrire pour les applications et versions d’évaluation (dans le centre d’administration Office 365). Pour plus d’informations, voir [gérer le travailleur de l’information d’évaluation](#manage-the-iw-trial) plus loin dans cet article.
+En outre, votre client n’est pas éligibles pour la version d’évaluation if : 
+- Vous êtes un client de partenaire de Syndication
+- Vous êtes un client de partenaire revendeur
+- Vous êtes un client EDU, GOV ou GCC
 
-Clients GOV et EDU ne sont pas éligibles pour le travailleur de l’information d’évaluation.
+En outre, si votre client n’est pour la Microsoft équipes commerciales Cloud d’évaluation, vous verrez pas le commutateur **aux utilisateurs d’installer les services et applications d’évaluation** .
+
+Au niveau du client, équipes en tant que service doit être activé (dans le centre d’administration équipes). Pour plus d’informations, voir [fonctionnalités de gestion des équipes Microsoft dans votre organisation Office 365](enable-features-office-365.md). En outre, les utilisateurs doivent être activés pour s’inscrire pour les applications et versions d’évaluation (dans le centre d’administration Office 365). Pour plus d’informations, voir [gérer le travailleur de l’information d’évaluation](#manage-the-iw-trial) plus loin dans cet article.
 
 ## <a name="how-users-sign-up-for-the-trial"></a>Comment les utilisateurs s’inscrire à la version d’évaluation
 
