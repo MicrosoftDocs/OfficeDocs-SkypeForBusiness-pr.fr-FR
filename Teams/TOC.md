@@ -34,7 +34,7 @@
 ## [Licence Office 365 pour Microsoft Teams](office-365-licensing.md)
 ## [Attribuer des licences Skype Entreprise et Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Licences de compléments pour Skype Entreprise et Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Gérer la version d’évaluation travailleur de l’information pour les équipes](iw-trial-teams.md)
+## [Gérer l’offre de la version d’évaluation des équipes](iw-trial-teams.md)
 ## [Configurer les crédits de communication pour votre organisation](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Qu'est-ce que les crédits de communication ?](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
