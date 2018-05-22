@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Résumé : Lisez cette rubrique pour savoir comment planifier la connectivité hybride entre Skype pour Business Server et Skype pour Business Online. La première étape du déploiement de nombreuses solutions hybrides Skype Entreprise consiste à configurer une connectivité hybride.'
-ms.openlocfilehash: 31c10423c6ba838e595de75e39d6f166de30c756
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: d61bdd8ecf7ce35e1f80e5b69ede590d5d2c1cd1
+ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planification de la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online
  
@@ -301,7 +301,7 @@ En plus de la configuration requise pour les ports pour les communications inter
 |STUN  <br/> |TCP  <br/> |Edge A/V  <br/> |Office 365  <br/> |50000-59999  <br/> |443  <br/> |Ouvrir pour les sessions audio, vidéo et de partage d'applications  <br/> |
 |STUN  <br/> |TCP  <br/> |Office 365  <br/> |Edge A/V  <br/> |50000-59999  <br/> |443  <br/> |Ouvrir pour les sessions audio, vidéo et de partage d'applications  <br/> |
 |STUN  <br/> |UDP  <br/> |Edge A/V  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Ouvrir pour les sessions audio, vidéo  <br/> |
-|STUN  <br/> |UDP  <br/> |Office 365  <br/> |Edge A/V  <br/> |443  <br/> |3478  <br/> |Ouvrir pour les sessions audio, vidéo  <br/> |
+|STUN  <br/> |UDP  <br/> |Office 365  <br/> |Edge A/V  <br/> |3478  <br/> |3478  <br/> |Ouvrir pour les sessions audio, vidéo  <br/> |
    
 Pour plus d’informations sur le port et de planification pour le serveur Edge de pare-feu, consultez [exigences de serveur de transport Edge dans Skype pour Business Server 2015](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). Voir aussi [ports et protocoles requis pour les serveurs](../plan-your-deployment/network-requirements/ports-and-protocols.md) et le [diagramme de protocole des charges de travail](http://go.microsoft.com/fwlink/p/?LinkId=550989).
   

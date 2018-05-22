@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Résumé : Les professionnels de l’informatique doivent vérifier les exigences de prise en charge pour la Skype pour Business Web App et Skype réunions application lors de la planification pour Skype pour Business Server 2015. Cet article n’est pas destiné aux utilisateurs de ces applications.'
-ms.openlocfilehash: d99d718f02950cd643f7ccf79064eae3b0b83f72
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 921afbb6c446633128b2e2ead3c714dcdad91dd3
+ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planifier pour les clients de réunions (application Web et application de réunions)
  
@@ -49,7 +49,6 @@ Application de réunions Skype offre une expérience de navigation simplifiée p
 Pour utiliser le Skype pour application de gestion Web, un utilisateur doit avoir une des options suivantes pris en charge combinaisons système d’exploitation / navigateur. 
   
 **Système d’exploitation et prise en charge de navigateur minimale de Skype pour Business Web App**
-
 
 | Système d’exploitation | Edge | Internet Explorer 11 ou version ultérieure 32 et 64 bits | Internet Explorer 10 ou version ultérieure 32 et 64 bits | Internet Explorer 9 ou ultérieure 32 et 64 bits | 32 bits et 64 bits Version de Firefox 12.X ou version ultérieure | 32 bits et 64 bits Version de Chrome 18.X ou version ultérieure |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -95,7 +94,6 @@ Si l’utilisateur est sur un réseau n’est ne pas configuré comme indiqué, 
 <a name="BKMK_Conferencing"> </a>
 
 Ce tableau compare les fonctionnalités de réunions accessibles aux utilisateurs de Skype pour client d’entreprise, Skype pour Lync Web App, Skype réunions application et application Web de gestion. Lync Web App est répertorié à des fins de comparaison de fonctionnalité : un utilisateur souhaite uniquement le téléchargement, à l’aide de Lync Web App si la réunion a été hébergée sur un serveur Lync 2013.
-  
 
 | Fonctionnalité | Skype pour 2016 Business client | Skype pour les entreprises sur client Mac | Application Réunions Skype | Application web Skype Entreprise | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -178,9 +176,7 @@ Autres valeurs prises en charge sont :
 <a name="BKMK_Conferencing"> </a>
 
 #### 
-
 [Déployer des clients Web téléchargeables Skype pour Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+
 #### 
-
 [Plateformes prises en charge pour l’application de réunions Skype](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
-
