@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lisez cette rubrique pour en savoir plus sur la configuration des comptes pour les systèmes de salle Skype v2 dans Exchange et Skype pour Business Server 2015.
-ms.openlocfilehash: 0514d1b542e8fa53f7210992d5cb219f7e9a7719
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 2db3d07fe12aa5dd2f6e311481da113303db93cc
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Configurer des comptes pour les systèmes de salle Skype v2
  
@@ -75,7 +75,7 @@ Pendant les propriétés pour la configuration de base autorisera le compte d’
 |:-----|:-----|
 |Authentification basée sur un certificat  <br/> |Certificats peuvent être requis pour Exchange et Skype pour Business Server. Pour déployer les certificats, vous devez les charger lorsque vous vous connectez en tant qu’administrateur.  <br/> |
    
-La meilleure façon de configurer des comptes d’utilisateur consiste à configurer à l’aide de Windows PowerShell à distance. Microsoft propose [SkypeRoomProvisioningScript.ps1](room-systems-v2-scripts.md), un script qui vous aide à créer des comptes d’utilisateur ou de valider les comptes de ressource existant dont vous disposez afin de vous aider à les transformer en comptes d’utilisateurs v2 Skype salle systèmes compatibles.
+La meilleure façon de configurer des comptes d’utilisateur consiste à configurer à l’aide de Windows PowerShell à distance. Microsoft propose [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt), un script qui vous aide à créer des comptes d’utilisateur ou de valider les comptes de ressource existant dont vous disposez afin de vous aider à les transformer en comptes d’utilisateurs v2 Skype salle systèmes compatibles.
   
 Si vous préférez utiliser l’interface utilisateur d’Office 365 sur les applets de commande Windows PowerShell, certaines étapes peuvent être effectuées manuellement. Consultez [Création d’un compte de périphérique à l’aide d’Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365).
   

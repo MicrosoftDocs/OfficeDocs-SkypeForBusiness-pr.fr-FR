@@ -10,11 +10,11 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13db401651181bf186a61f643b80c7750b9978a0
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
   
@@ -84,7 +84,7 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Changement de nom d’un canal dans Microsoft Teams ne renomme pas le dossier correspondant dans SharePoint Online  <br/> |Si un canal est renommé dans Microsoft Teams, le dossier dans la bibliothèque de documents SharePoint Online correspondant à l’équipe ne change pas pour correspondre. Au lieu de cela, un nouveau dossier est créé pour le nouveau nom de canal. Les fichiers dans le dossier de bibliothèque de documents d’origine ne sont pas migrés.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
+|Changement de nom d’un canal dans Microsoft Teams ne renomme pas le dossier correspondant dans SharePoint Online  <br/> |Si un canal est renommé dans Microsoft Teams, le dossier dans la bibliothèque de documents SharePoint Online correspondant à l’équipe ne change pas pour correspondre. Le nom du dossier SharePoint Online correct s’affiche en haut de l’onglet fichiers de canal renommée.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
 
 ## <a name="chat"></a>Conversation
 
