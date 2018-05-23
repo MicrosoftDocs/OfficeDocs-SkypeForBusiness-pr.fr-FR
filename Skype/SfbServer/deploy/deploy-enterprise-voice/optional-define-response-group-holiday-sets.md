@@ -10,16 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Créer ou modifier la réponse vacances ensembles, Skype pour Business Server Voix Entreprise.
-ms.openlocfilehash: b176a90b11957128fe485cd608608798d6ff6365
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Créer ou modifier les congés Response Group, dans Skype pour Business Server Enterprise Voice.
+ms.openlocfilehash: 267e57e47b45d30889ba5deb992b4ecf951ab593
+ms.sourcegitcommit: 926416cb538abeb2d601298346de97d697ea1a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business-2015"></a>(Facultatif) Définition des groupes de congés des groupes Response Group dans Skype Entreprise 2015
  
-Créer ou modifier la réponse vacances ensembles, Skype pour Business Server Voix Entreprise.
+Créer ou modifier les congés Response Group, dans Skype pour Business Server Enterprise Voice.
   
 Les paramètres relatifs aux congés définissent les jours de fermeture d’un groupe Response Group et spécifient l’action à effectuer pendant ces jours. Une période de congé est un ensemble de congés, qui s’applique à un groupe Response Group.
   
@@ -47,19 +47,15 @@ Les paramètres relatifs aux congés définissent les jours de fermeture d’un 
     L’exemple ci-dessous présente une période de congés incluant deux congés :
     
    ```
-   $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2013 12:00 AM" -EndDate "1/1/2013 12:00 AM" 
+   $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2013 12:00 AM" -EndDate "1/2/2013 12:00 AM" 
    $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2013 12:00 AM" -EndDate "7/5/2013 12:00 AM" 
-   New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com -Name "2013 Holidays" -HolidayList ($a, $b)
+   New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com" -Name "2013 Holidays" -HolidayList ($a, $b)
    ```
 
 ## <a name="see-also"></a>Voir aussi
 
-#### 
+[Concevoir et créer des flux de travail de groupe de réponse dans Skype pour Business 2015](designing-and-creating-response-group-workflows.md)
 
-[Conception et création de flux de travail de groupe réponse dans Skype pour entreprise 2015](designing-and-creating-response-group-workflows.md)
-#### 
+[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
-[Nouvelle-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
-  
-[Nouvelle-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
-
+[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
