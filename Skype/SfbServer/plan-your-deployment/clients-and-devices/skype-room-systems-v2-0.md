@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Cet article explique les considérations de planification pertinentes pour le déploiement de systèmes de salle Skype v2, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 89bcfb0e668526893b14dba5202a4e22fed2e8a8
-ms.sourcegitcommit: 6b868f683e1f2354eb42fdf33911e77b7a3a83e2
+ms.openlocfilehash: 20c2163988d73eb704b09ee8f845a1a046a593af
+ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="plan-skype-room-systems-v2"></a>Plan de salle Skype systèmes v2 
 

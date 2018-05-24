@@ -18,10 +18,10 @@ f1keywords: None
 ms.custom:
 - Legal
 description: 'Il s’agit de contenu qui doit être publié pour répondre aux exigences d’accessibilité, la conformité et réglementaires pour Skype pour Business Online en France. '
-ms.openlocfilehash: 7c17cd60f7ba693a182e22aeba8d160942a6bf37
-ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
+ms.openlocfilehash: 498fbb07ab5d2dd6ea036e1ceeb1e5598203a8cf
+ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="legal-and-regulatory"></a>Légales et réglementaires.

@@ -39,8 +39,7 @@
 ### [Ajouter, modifier ou supprimer une adresse d'urgence pour votre organisation](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Attribuer, modifier ou supprimer un numéro de téléphone pour un utilisateur](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Attribuer ou modifier une adresse d'urgence d'un utilisateur](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
-### [Bloquer les appels entrants](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
-### [Problèmes connus relatifs aux forfaits d'appels](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
+### [Problèmes connus relatifs aux offres d'appel](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Modifier l'adresse d'urgence d'un utilisateur](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Modifier l'emplacement d'urgence d'un utilisateur](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
 ### [Créer et gérer les plans de numérotation](../what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md)
@@ -150,7 +149,6 @@
 ### [Configurer l'analyse des appels pour Skype Entreprise](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Activation et utilisation du tableau de bord Qualité des appels](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-
 
 ## [Création de rapports Skype Entreprise Online](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Rapport d'activités](../skype-for-business-online-reporting/activity-report.md)
