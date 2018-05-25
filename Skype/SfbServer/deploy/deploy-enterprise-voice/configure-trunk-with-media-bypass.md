@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Résumé : Configurez une jonction avec contournement de média activé pour Skype pour Business Server 2015. Cela vous permet de réduire le nombre de serveurs de médiation, en supposant que votre fournisseur de jonction SIP prend en charge.'
-ms.openlocfilehash: 1ccca75e25203b007bfcc0472206a04f105ba378
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 08853388e17956be64fe11e18efd9f436007312d
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server-2015"></a>Configuration d’une jonction avec déviation du trafic multimédia dans Skype Entreprise Server 2015
  
@@ -186,10 +186,8 @@ Après avoir configuré la jonction, continuez la configuration multimédia cont
 #### 
 
 [Configurer une jonction sans contournement de média dans Skype pour Business Server 2015](configure-trunk-without-media-bypass.md)
-#### 
 
 [Déployer le contournement de média dans Skype pour Business Server 2015](deploy-media-bypass.md)
-#### 
 
 [Définition des règles de traduction](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
   

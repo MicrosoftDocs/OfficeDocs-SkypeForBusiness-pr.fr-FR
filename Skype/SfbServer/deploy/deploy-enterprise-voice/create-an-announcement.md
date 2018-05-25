@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Créer ou supprimer des annonces pour application d’annonce dans Skype pour Business Server Enterprise Voice. Cela affecte le traitement des appels à des numéros non attribués.
-ms.openlocfilehash: 46d743fa81db22ff7a528a6ba8ea99c5b8d6b4ec
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2b290c54f805951cdb3dede67c3dafe1a0d542d1
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server-2015"></a>Créer ou supprimer une annonce dans Skype pour Business Server 2015
  
@@ -117,7 +117,6 @@ Pour créer une annonce, vous devez effectuer les tâches suivantes :
 #### 
 
 [Créer ou supprimer une annonce dans Skype pour Business Server 2015](create-an-announcement.md)
-#### 
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
   

@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Résumé : Passez en revue les exigences de prise en charge du client Windows lors de la planification Skype pour Business Server 2015.'
-ms.openlocfilehash: 3dac3a8e15e53cec5605aa2b003150f491d8f2b5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 72e34e334a9b43139b77aec93f29adb76dd56241
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Configuration requise des clients Windows et prise en charge logicielle
  
@@ -75,7 +75,6 @@ Le Skype pour les entreprises sur les exigences de prise en charge Mac sont dét
 [Planifier pour les clients de réunions (application Web et application de réunions)](meetings-clients.md)
   
 [Skype pour les entreprises sur la configuration requise des clients Mac](mac-requirements.md)
-#### 
 
 [Télécharger Skype pour les entreprises sur tous les périphériques de votre](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)
   
