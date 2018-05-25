@@ -1,0 +1,43 @@
+---
+title: Client mobile créer ou modifier la Configuration des notifications Push
+ms.author: heidip
+author: microsoftheidi
+manager: serdars
+ms.date: 3/24/2015
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.ClientPushNotificationCfgEdit
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
+description: Les notifications Push et le centre d’échanges de notifications Push (Push Notification Clearing House, PNCH) sont deux éléments clés de la fonctionnalité de mobilité. Une notification Push correspond au processus dans lequel un message est envoyé au centre d’échanges de notifications Push. Ce message y est conservé jusqu’à ce qu’il puisse être remis au client mobile ou que le délai d’expiration soit dépassé.
+ms.openlocfilehash: 53583e59261e369aa11c8bac12f5f5b5eaf4a8dc
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/24/2018
+---
+# <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Client mobile : création ou modification d’une configuration des notifications Push
+ 
+Les notifications Push et le centre d’échanges de notifications Push (Push Notification Clearing House, PNCH) sont deux éléments clés de la fonctionnalité de mobilité. Une notification Push correspond au processus dans lequel un message est envoyé au centre d’échanges de notifications Push. Ce message y est conservé jusqu’à ce qu’il puisse être remis au client mobile ou que le délai d’expiration soit dépassé. 
+  
+> [!NOTE]
+> Le délai est défini au centre d’échanges de notifications Push. Ni l’utilisateur ni l’administrateur de votre déploiement ne peut le configurer. 
+  
+Pour activer les notifications Push, procédez comme suit :
+  
+1. **Étendue** : notez l’étendue de cette stratégie. Elle peut être définie sur **Globale**, concernant tous les utilisateurs dans ce déploiement, ou sur **Site**, auquel cas elle ne concerne que les utilisateurs attribués aux serveurs centraux dans le site.
+    
+    > [!IMPORTANT]
+    > Les paramètres de stratégie qui sont appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. L’ordre de priorité est le suivant : les stratégies utilisateur (prioritaires) remplacent les stratégies de site. Les stratégies de site remplacent les stratégies globales (les moins prioritaires). Cela signifie que plus la définition de stratégie est proche de l’objet affecté par cette stratégie, plus l’impact de cette stratégie sur l’objet est important. 
+  
+2. Sélectionnez les services de notification Push à activer en activant la case à cocher correspondante :
+    
+  - **Microsoft activer** activer les notifications push vers le nuage centre d’échanges pour Windows Phone avec le Skype pour l’application de gestion
+    
+  - **Apple activer** activer les notifications push vers le centre d’échanges Apple pour les périphériques exécutant Apple iOS (par exemple, iPhone, iPad) et à l’aide de la Skype pour l’application de gestion
+    
+3. Une fois que vous avez fini de modifier la stratégie, cliquez sur **Valider** pour enregistrer ces modifications. Si vous avez besoin de supprimer les modifications apportées, sélectionnez **Annuler**. Aucune modification n’est enregistrée dans la stratégie.
+    
+

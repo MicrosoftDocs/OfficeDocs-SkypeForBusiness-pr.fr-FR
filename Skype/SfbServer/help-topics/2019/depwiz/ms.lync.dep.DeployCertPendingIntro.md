@@ -1,0 +1,25 @@
+---
+title: Certificat en attente (introduction)
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.dep.DeployCertPendingIntro
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
+description: Pour traiter une demande de certificat en ligne en attente, c'est-à-dire, une demande qui a été émise à votre autorité de certification en ligne, mais est définie par un administrateur d’exiger un processus d’approbation manuelle, cliquez sur Suivant.
+ms.openlocfilehash: 3f921af0d08567bfdd61ed42cc3a2d9436f74488
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/24/2018
+---
+# <a name="pending-certificate-intro"></a>Certificat en attente (introduction)
+ 
+Pour traiter une demande de certificat en ligne en attente, c'est-à-dire, une demande qui a été émise à votre autorité de certification en ligne, mais par un administrateur a besoin d’un processus d’approbation manuelle, cliquez sur **suivant**.
+  
+
