@@ -19,11 +19,11 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collecte des données de recensement, d’utilisation et d’erreur pour comprendre comment Skype pour les entreprises est utilisé et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations de produit.
-ms.openlocfilehash: 46a292e462708b77b60aa1c8a52c2148fbc82775
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: 8ea357aefe96505285d9c7bb870ef852ea2649a4
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype pour les pratiques de collection de données métiers et Microsoft Teams
 
@@ -77,8 +77,9 @@ Collecte des données d’utilisation est activée par défaut, mais local Admin
 Les utilisateurs finaux ne peuvent pas activer la collecte de données ou désactiver.
   
 Pour application de réunions Skype et le Lanceur participer à des pages web, la manière de contrôler la télémétrie est par le biais de cette stratégie :
-  
-Set-CsWebServiceConfiguration - MeetingUxEnableTelemetry $True
+ 
+`Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True` 
+
   
 Cette stratégie par défaut est false, afin que la collection de télémétrie est désactivée par défaut. Ce paramètre est par pool et aux contrôles de tous les utilisateurs qui se connectent avec Skype réunions App à une conférence hébergée sur ce serveur.
   
@@ -99,9 +100,9 @@ Rapport d’erreurs nécessite deux éléments :
   
 - Le paramètre de stratégie de groupe DisableAutomaticSendTracing avoir la valeur False sur le serveur ou dans le centre d’administration de client (il s’agit de l’état par défaut). Pour plus d’informations, voir [configuration de stratégies de démarrage du client dans Skype pour Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) .
     
-- Les utilisateurs finaux individuellement participer à partir de l’onglet Général (cliquez sur l’icône d’engrenage et la boîte de dialogue Options s’ouvre avec l’onglet Général) dans le Skype pour client d’entreprise.
+- Les utilisateurs finaux participer individuellement à partir de l’onglet Général (cliquez sur l’icône d’engrenage ![icône d’engrenage](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) et ouvre la boîte de dialogue **Options** avec l’onglet **Général** ) dans le Skype pour client d’entreprise.
     
-     ![Icône d’engrenage](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)
+ 
   
 ![Skype pour case collection des données métiers dans les Options > boîte de dialogue Général](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   

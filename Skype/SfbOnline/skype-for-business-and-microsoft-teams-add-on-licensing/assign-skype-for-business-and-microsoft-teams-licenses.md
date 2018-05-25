@@ -20,17 +20,19 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Découvrez comment attribuer Skype pour les licences d’entreprise pour système téléphonique, audioconférence, l’appel des Plans et crédits Communications. '
-ms.openlocfilehash: 00c80637e4b94a66f63c43e51f0bc3e562d42bea
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9cc11ea1e527ccfae205152ae869316bbb3ffa88
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Affecter Skype pour les licences d’entreprise et Microsoft Teams
 
 Cet article vous donne des conseils sur l’attribution de licences à vos utilisateurs de conférence Audio, système téléphonique et les Plans de l’appel. Il vous fournit également des scripts pour affecter des licences en bloc.
+
+> [!IMPORTANT]
+> Voir [Skype pour professionnels et les équipes Microsoft de module complémentaire Gestion des licences](skype-for-business-and-microsoft-teams-add-on-licensing.md) pour plus d’informations sur les licences, vous devez acheter et les **Comment acheter** les - selon votre Office 365 planifier - afin que les utilisateurs obtiennent l’audioconférence et la possibilité d’appeler numéros gratuits numéros de téléphone à l’extérieur de votre entreprise.
   
- **IMPORTANT**: consultez [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestion des licences](skype-for-business-and-microsoft-teams-add-on-licensing.md) pour plus d’informations sur les licences dont vous avez besoin pour acheter et **Comment acheter** - en fonction de votre plan Office 365 - afin que les utilisateurs obtiennent la conférence Audio, les numéros gratuits, et la possibilité d’appeler des numéros de téléphone à l’extérieur de votre entreprise.
   
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Système et des Plans de l’appel de téléphone : conseils et des scripts pour l’attribution de licences
 

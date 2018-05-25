@@ -1,5 +1,5 @@
 ---
-title: Point à point de bloquer les transferts de fichiers
+title: Point à point bloquer les transferts de fichiers
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,37 +15,37 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Dans Skype pour professionnels en ligne, vous avez la possibilité de contrôler les transferts de fichiers de point à point (P2P) dans le cadre des paramètres de stratégie existants conférence. Toutefois, ce autorise ou bloque les transferts pour les utilisateurs ou non, ils sont transférer des fichiers à un utilisateur qui se trouve dans la même organisation ou à un utilisateur fédéré à partir d’une autre organisation de fichiers. Suivant la procédure décrite ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec les organisations fédérées ou de partenaires.
-ms.openlocfilehash: e73a2baa8368d3ed1c20a79e8f78010749c05fb2
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Dans Skype pour Business Online, vous avez capacité à contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existante. Toutefois, ceci permet ou bloque pour les utilisateurs si elles sont transfert de fichiers à un utilisateur qui se trouve dans la même organisation ou à un utilisateur fédéré à partir d’une autre organisation, les transferts de fichiers. Suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec les organisations fédérées ou des partenaires.
+ms.openlocfilehash: 318f6e6b88f0be4c85f72aa7b59d6e3fec2bd781
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="block-point-to-point-file-transfers"></a>Point à point de bloquer les transferts de fichiers
+# <a name="block-point-to-point-file-transfers"></a>Point à point bloquer les transferts de fichiers
 
-Dans Skype pour professionnels en ligne, vous avez la possibilité de contrôler les transferts de fichiers de point à point (P2P) dans le cadre des paramètres de stratégie existants conférence. Toutefois, ce autorise ou bloque les transferts pour les utilisateurs ou non, ils sont transférer des fichiers à un utilisateur qui se trouve dans la même organisation ou à un utilisateur fédéré à partir d’une autre organisation de fichiers. Suivant la procédure décrite ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec les organisations fédérées ou de partenaires.
+Dans Skype pour Business Online, vous avez capacité à contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existante. Toutefois, ceci permet ou bloque pour les utilisateurs si elles sont transfert de fichiers à un utilisateur qui se trouve dans la même organisation ou à un utilisateur fédéré à partir d’une autre organisation, les transferts de fichiers. Suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec les organisations fédérées ou des partenaires.
   
- Un scénario courant est lorsque vous souhaitez permettre aux utilisateurs internes d’utiliser P2P le transfert de fichiers, mais bloquer le transfert de fichiers avec les partenaires fédérés. Dans ce scénario, vous devez faire :
+ Un scénario très fréquent est lorsque vous souhaitez autoriser les utilisateurs internes à utiliser P2P le transfert de fichiers, mais le transfert de fichiers bloquées avec les partenaires fédérés. Dans ce scénario, vous devez faire :
   
-- Affecter une stratégie de conférence avec P2P transfert de fichiers activé (_EnableP2PFileTransfer_ la valeur _True_) pour les utilisateurs de votre organisation.
+- Affecter une stratégie de conférence P2P transfert de fichiers activé (_EnableP2PFileTransfer_ la valeur _True_) pour les utilisateurs de votre organisation.
     
-- Créer une stratégie de communication utilisateur externe global définie pour bloquer les transferts de fichiers P2P externes (_EnableP2PFileTransfer_ la valeur _False_) et l’affecter à un utilisateur de votre organisation. 
+- Créer une stratégie de communication utilisateur externe globale définie pour bloquer les transferts de fichiers externes P2P (_EnableP2PFileTransfer_ définie sur _False_) et l’affecter à un utilisateur de votre organisation. 
     
 Vous trouverez plus d’informations sur ces paramètres [ici](https://technet.microsoft.com/en-us/library/mt228132.aspx).
   
-Si un utilisateur fédéré à l’extérieur de votre organisation essaie d’envoyer un fichier à un utilisateur, où la stratégie a été appliquée, ils recevront une erreur **Échec de transfert** . Et si un utilisateur tente d’envoyer un fichier, une erreur de **transfert de fichiers est désactivé** s’affiche.
+Si un utilisateur fédéré à l’extérieur de votre organisation tente d’envoyer un fichier à un utilisateur dont la stratégie a été appliquée, ils recevront une erreur **Échec de transfert** . Et si un utilisateur tente d’envoyer un fichier, ils reçoivent une erreur de **transfert de fichiers est désactivé** .
   
-Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’un Skype clic de 2016 pour l’application d’entreprise qui prend en charge. La version minimale suivante de Skype pour client d’entreprise 2016-clic est nécessaire :
+Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’un Skype de Click-to-Run 2016 pour l’application de gestion qui prend en charge. La version minimale suivante Skype pour Business 2016 Click-to-Run client est requise :
   
-|**Type de**|**Date de publication**|**Version**|**Build**|
+|**Type**|**Date de publication**|**Version**|**Build**|
 |:-----|:-----|:-----|:-----|
-|Première version pour canal d’en cours  <br/> |17/11/2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (Build 7571.2006)  <br/> |
-|Canal de cours  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (Build 7571.2072)  <br/> |
-|Canal différée  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (Build 7369.2118)  <br/> |
+|Première version de canal en cours  <br/> |17/11/2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (version 7571.2006)  <br/> |
+|Canal actuel  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (version 7571.2072)  <br/> |
+|Canal différée  <br/> |22/2/2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (version 7369.2118)  <br/> |
    
 > [!CAUTION]
-> Les utilisateurs qui utilisent des versions antérieures de Skype pour les applications métier Windows ou Mac sera toujours en mesure de transférer des fichiers. 
+> Les utilisateurs qui utilisent des versions antérieures de Skype pour les applications métiers Windows ou Mac pourront transférer des fichiers. 
   
 ## <a name="verify-and-start-windows-powershell"></a>Vérifier et démarrer Windows PowerShell
 
@@ -77,13 +77,13 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’un 
     Import-PSSession $session
   ```
 
-  Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [connexion à Skype pour entreprise en ligne à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+  Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Connecting to Skype pour Business Online à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>Désactiver les transferts de fichiers P2P pour votre organisation
 
-Par défaut, _EnableP2PFileTransfer_ est activé dans la stratégie globale de l’organisation. Lorsqu’elle a été créée, vos utilisateurs ont été affectés à la stratégie de _BposSAllModality_ .
+Par défaut, _EnableP2PFileTransfer_ est activée sur la stratégie globale de l’organisation. Lors de sa création, vos utilisateurs ont été affectés à la stratégie _BposSAllModality_ .
   
-Pour autoriser les transferts de P2P pour à l’intérieur de votre organisation tout en bloquant les transferts de fichiers externes à une autre organisation, il vous suffit de le modifier à un niveau global. Pour ce faire, exécutez la commande :
+Pour autoriser les transferts P2P pour à l’intérieur de votre organisation, mais bloquer les transferts de fichiers externes à une autre organisation, il vous suffit de la modifier à un niveau global. Pour cela, exécutez :
     
   ```
   Set-CsExternalUserCommunicationPolicy -EnableP2PFileTransfer $False
@@ -91,7 +91,7 @@ Pour autoriser les transferts de P2P pour à l’intérieur de votre organisatio
 
 ## <a name="disable-p2p-file-transfers-for-a-user"></a>Désactiver les transferts de fichiers P2P pour un utilisateur
 
-Vous pouvez appliquer cette commande à un utilisateur en créant une nouvelle stratégie et de lui accorder à cet utilisateur. Pour ce faire, exécutez la commande : 
+Vous pouvez appliquer cette à un utilisateur en créant une nouvelle stratégie et lui accorder à cet utilisateur. Pour cela, exécutez : 
 > 
   ```
   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
@@ -103,7 +103,7 @@ Vous pouvez appliquer cette commande à un utilisateur en créant une nouvelle s
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-- Windows PowerShell permet de gérer les utilisateurs et ce qu'ils sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -122,7 +122,7 @@ Vous pouvez appliquer cette commande à un utilisateur en créant une nouvelle s
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)
 
-[Définir des stratégies de conférence dans votre organisation](set-up-conferencing-policies-for-your-organization.md)
+[Configurer des stratégies de conférence dans votre organisation](set-up-conferencing-policies-for-your-organization.md)
 
   
  

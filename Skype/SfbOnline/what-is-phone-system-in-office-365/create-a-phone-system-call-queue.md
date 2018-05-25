@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 81fbb40aad10687d3a75020a23b20cbeee7d5c2e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 119e56f27edc992466a6565235715d2703b1cb12
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente des appels système téléphonique
 
@@ -127,7 +127,10 @@ Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage d
 ![Indique l’appel de méthode options de distribution](../images/5d249515-d532-4af2-90da-011404028b89.png)
   
 ***
-![N ° 1](../images/sfbcallout1.png)<br/>**Appelez la méthode de distribution** Vous pouvez choisir **standard** ou **série** de votre méthode de distribution appel file d’attente. Toutes les files d’attente de nouveaux et existants appel aura attendant routage sélectionnée par défaut. Pour utiliser le routage en série, vous devez choisir explicitement l’option routage **en série** dans l’interface utilisateur et les applets de commande. <br/><br/> Lorsque ce type de routage est sélectionnée et que la file d’attente de l’appel est enregistré, les appels à partir de la file d’attente sonnera vos agents un par un, à partir du début de la liste d’agents. Si un agent fait disparaître ou ne récupère pas d’un appel, l’appel sonnera l’agent suivant dans la liste et essayez de tous les agents un par un jusqu'à ce qu’elle est choisie ou délai d’attente dans la file d’attente.  <br/><br/>  **Remarque :** Ce type de routage ignore les agents qui sont **en mode hors connexion**, qui ont la valeur leur présence **ne pas déranger**ou ont **choisi** de recevoir des appels à partir de cette file d’attente.  
+![N ° 1](../images/sfbcallout1.png)<br/>**Appelez la méthode de distribution** Vous pouvez choisir **standard** ou **série** de votre méthode de distribution appel file d’attente. Toutes les files d’attente de nouveaux et existants appel aura attendant routage sélectionnée par défaut. Pour utiliser le routage en série, vous devez choisir explicitement l’option routage **en série** dans l’interface utilisateur et les applets de commande. <br/><br/> Lorsque ce type de routage est sélectionnée et que la file d’attente de l’appel est enregistré, les appels à partir de la file d’attente sonnera vos agents un par un, à partir du début de la liste d’agents. Si un agent fait disparaître ou ne récupère pas d’un appel, l’appel sonnera l’agent suivant dans la liste et essayez de tous les agents un par un jusqu'à ce qu’elle est choisie ou délai d’attente dans la file d’attente.   
+
+> [!NOTE]
+> Ce type de routage ignore les agents qui sont **en mode hors connexion**, qui ont la valeur leur présence **ne pas déranger**ou ont **choisi** de recevoir des appels à partir de cette file d’attente. 
    
 ### <a name="select-an-agent-opt-out-option"></a>Sélectionnez un agent exclure option
 
@@ -222,7 +225,7 @@ Voici les applets de commande requis pour gérer une file d'attente d'appels.
     
 ### <a name="more-about-windows-powershell"></a>Informations supplémentaires sur PowerShell Windows
 
-- Windows PowerShell permet de gérer les utilisateurs et ce qu'ils sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

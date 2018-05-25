@@ -1,5 +1,5 @@
 ---
-title: Créer des stratégies d’accès externe personnalisée
+title: Créer des stratégies d’accès externe personnalisé
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,35 +15,35 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Skype pour entreprise en ligne vous permet de vous permet de créer des stratégies d’accès externes supplémentaires. Contrairement aux stratégies de client ou de conférence, où vous pouvez avoir plusieurs combinaisons, il existe trois stratégies prédéfinies accès externe qui peuvent couvrir la plupart des scénarios.
-ms.openlocfilehash: 424102ddf9570ac4b3a8d02917b2d9cafe6bff6f
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Skype pour Business Online vous permet de créer des stratégies d’accès externe supplémentaires. Contrairement aux stratégies de client ou de conférence, où vous pouvez avoir plusieurs combinaisons, il existe trois stratégies d’accès externe prédéfini qui peuvent couvrir la plupart des scénarios.
+ms.openlocfilehash: 8d0cff680ebf225a9dc62e585f39ab3f0b27e3c3
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="create-custom-external-access-policies"></a>Créer des stratégies d’accès externe personnalisée
+# <a name="create-custom-external-access-policies"></a>Créer des stratégies d’accès externe personnalisé
 
-Skype pour entreprise en ligne vous permet de vous permet de créer des stratégies d’accès externes supplémentaires. Contrairement aux stratégies de client ou de conférence, où vous pouvez avoir plusieurs combinaisons, il existe trois stratégies prédéfinies accès externe qui peuvent couvrir la plupart des scénarios. Il s’agit :
+Skype pour Business Online vous permet de créer des stratégies d’accès externe supplémentaires. Contrairement aux stratégies de client ou de conférence, où vous pouvez avoir plusieurs combinaisons, il existe trois stratégies d’accès externe prédéfini qui peuvent couvrir la plupart des scénarios. Il s’agit :
   
-- Non fédéré ou consommateur de Skype Access (_Balise : NoFederationAndPIC_ )
+- Non fédéré ou Access Skype consommateur (_Balise : NoFederationAndPIC_ )
     
 - Accès fédéré uniquement (_Balise : FederationOnly_ )
     
-- Fédéré et consommateurs accédez (_FederationAndPICDefault_)
+- Fédérés et consommateur accéder (_FederationAndPICDefault_)
     
-Stratégies externes personnalisées vous permettent de créer d’autres stratégies qui ne sont pas couverts par les paramètres ci-dessus. Lors de la création de la stratégie, vous est demandé de définir tous les paramètres requis et n’a pas pu les modifier ultérieurement. Création de nouvelles stratégies personnalisées permettent aux fonctionnalités de contrôle de l’accès client Skype ou une stratégie de désactivation public cloud audio/vidéo, qui est un élément qui n’a pas été recouverte de paramètres prédéfinis. Stratégies d’accès externe personnalisées suivent la même syntaxe que les stratégies de client, de mobilité et de conférence. Vous trouverez plus d’informations sur ces paramètres [ici](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Permettent de stratégies externes personnalisées pour créer d’autres stratégies qui ne sont pas couverts par les paramètres ci-dessus. Lorsque la stratégie a été créée, vous doit définir tous les paramètres requis et n’a pas pu modifier ultérieurement. Création de nouvelles stratégies personnalisées vous permettent de fonctionnalités de contrôle de l’accès consommateur Skype ou une stratégie pour désactiver public cloud audio/vidéo, qui est un élément qui n’a pas été abordées avec les paramètres prédéfinis. Stratégies d’accès externe personnalisé suivent la même syntaxe que les stratégies de client, de mobilité et de conférence. Vous trouverez plus d’informations sur ces paramètres [ici](https://technet.microsoft.com/en-us/library/mt228132.aspx).
   
-Pour ce faire, l’utilisateur doit utiliser une version prise en charge de 2016 Skype clic pour l’application d’entreprise qui prend en charge. La version minimale suivante de Skype pour client d’entreprise 2016-clic est nécessaire :
+Pour ce faire, l’utilisateur doit utiliser une version prise en charge de 2016 Click-to-Run Skype pour l’application de gestion qui prend en charge. La version minimale suivante Skype pour Business 2016 Click-to-Run client est requise :
   
-|**Type de**|**Date de publication**|**Version**|**Build**|
+|**Type**|**Date de publication**|**Version**|**Build**|
 |:-----|:-----|:-----|:-----|
-|Première version pour canal d’en cours  <br/> |17/11/2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (Build 7571.2006)  <br/> |
-|Canal de cours  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (Build 7571.2072)  <br/> |
-|Canal différée  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (Build 7369.2118)  <br/> |
+|Première version de canal en cours  <br/> |17/11/2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (version 7571.2006)  <br/> |
+|Canal actuel  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (version 7571.2072)  <br/> |
+|Canal différée  <br/> |22/2/2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (version 7369.2118)  <br/> |
    
 > [!CAUTION]
-> Les utilisateurs qui utilisent des versions antérieures de Skype pour les applications métier Windows ou Mac sera toujours en mesure de transférer des fichiers. 
+> Les utilisateurs qui utilisent des versions antérieures de Skype pour les applications métiers Windows ou Mac pourront transférer des fichiers. 
   
 ## <a name="verify-and-start-windows-powershell"></a>Vérifier et démarrer Windows PowerShell
 
@@ -75,11 +75,11 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge de 2016
     Import-PSSession $session
   ```
 
-  Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [connexion à Skype pour entreprise en ligne à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+  Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Connecting to Skype pour Business Online à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
-## <a name="create-a-custom-external-access-policy-for-a-user"></a>Créer une stratégie d’accès externe personnalisée pour un utilisateur
+## <a name="create-a-custom-external-access-policy-for-a-user"></a>Créer une stratégie d’accès externe personnalisé pour un utilisateur
 
-Pour ce faire, exécutez la commande :
+Pour ce faire, exécutez :
   
 > 
   ```
@@ -94,7 +94,7 @@ Pour ce faire, exécutez la commande :
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-- Windows PowerShell permet de gérer les utilisateurs et ce qu'ils sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -113,7 +113,7 @@ Pour ce faire, exécutez la commande :
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)
 
-[Définir des stratégies de conférence dans votre organisation](set-up-conferencing-policies-for-your-organization.md)
+[Configurer des stratégies de conférence dans votre organisation](set-up-conferencing-policies-for-your-organization.md)
 
   
  

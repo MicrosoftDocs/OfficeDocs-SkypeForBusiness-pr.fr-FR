@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser la Skype pour le rapport d’utilisation des périphériques Business pour afficher les périphériques, y compris les systèmes d’exploitation Windows et les appareils mobiles, dont le Skype pour l’application de gestion installés et utilisent pour la messagerie instantanée et réunions. Consultez la rubrique Rapports sur les activités dans le centre d’administration d’Office 365 pour en savoir plus.
-ms.openlocfilehash: 711138e62b6614606b8532004591547cb2acd525
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 415522c9b8999229e32c90b2ac3be0a69a068a9c
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="device-usage-report"></a>Rapport d’utilisation des périphériques
 
@@ -54,8 +54,9 @@ Vous pouvez obtenir une vue dans les périphériques qui utilisent le Skype pour
 ***
 ![N ° 1](../images/sfbcallout1.png)<br/>Le rapport **Skype Business utilisation des périphériques** peut être affiché pour les tendances sur les 7 derniers jours, 30 jours, de 90 jours ou 180 jours. Toutefois, si vous cliquez sur dans un jour donné dans le rapport, le tableau (voir n ° 7) sera afficher les données des 30 derniers jours, jusqu'à la date (voir n ° 2) pour laquelle le rapport a été généré.
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Si vous cliquez sur les détails d’un jour spécifique, le tableau affiche uniquement les données pour les 30 jours jusqu'à la date lorsque le rapport a été généré.
+    
 ***
 ![N ° 2](../images/sfbcallout2.png)<br/>
 Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
