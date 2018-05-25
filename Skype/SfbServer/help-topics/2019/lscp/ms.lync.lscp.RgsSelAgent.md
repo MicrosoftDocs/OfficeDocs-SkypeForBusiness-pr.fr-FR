@@ -1,0 +1,47 @@
+---
+title: Sélection des agents
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 3/24/2015
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.RgsSelAgent
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
+description: Les agents sont les utilisateurs désignés pour répondre aux appels Response Group. Les groupes de réponse doivent disposer d’un groupe d’agents attribué, qui identifie les agents pouvant recevoir des appels pour le groupe de réponse. Pour créer un groupe d’agents, définissez un groupe personnalisé en sélectionnant des utilisateurs éligibles. Utilisateurs sont activés pour Skype pour Business Server et Enterprise Voice.
+ms.openlocfilehash: ea077438b72f9e64423abf60903ceda3d96cbfa4
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/24/2018
+---
+# <a name="select-agents"></a><span data-ttu-id="97629-106">Sélection des agents</span><span class="sxs-lookup"><span data-stu-id="97629-106">Select Agents</span></span>
+ 
+<span data-ttu-id="97629-107">Les agents sont les utilisateurs désignés pour répondre aux appels Response Group.</span><span class="sxs-lookup"><span data-stu-id="97629-107">Agents are users who are designated to answer Response Group calls.</span></span> <span data-ttu-id="97629-108">Les groupes de réponse doivent disposer d’un groupe d’agents attribué, qui identifie les agents pouvant recevoir des appels pour le groupe de réponse.</span><span class="sxs-lookup"><span data-stu-id="97629-108">Response groups must have an assigned agent group that identifies the agents who can receive calls for the response group.</span></span> <span data-ttu-id="97629-109">Pour créer un groupe d’agents, définissez un groupe personnalisé en sélectionnant des utilisateurs éligibles.</span><span class="sxs-lookup"><span data-stu-id="97629-109">One way to create an agent group is to define a custom group by selecting eligible users.</span></span> <span data-ttu-id="97629-110">Utilisateurs sont activés pour Skype pour Business Server et Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="97629-110">Eligible users are enabled for Skype for Business Server and Enterprise Voice.</span></span> 
+  
+<span data-ttu-id="97629-111">Vous pouvez utiliser la boîte de dialogue **Sélectionner des agents** pour sélectionner les utilisateurs à ajouter à un groupe d’agents.</span><span class="sxs-lookup"><span data-stu-id="97629-111">You use the **Select Agents** dialog box to select users to be added to an agent group.</span></span>
+  
+## <a name="ui-reference"></a><span data-ttu-id="97629-112">Référence d’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="97629-112">UI Reference</span></span>
+
+<span data-ttu-id="97629-113">La liste ci-dessous décrit les contrôles figurant dans la boîte de dialogue **Sélectionner des agents**.</span><span class="sxs-lookup"><span data-stu-id="97629-113">The following list describes the controls in the **Select Agents** dialog box.</span></span>
+  
+- <span data-ttu-id="97629-114">**Rechercher** Recherche le SIP adresse ou nom complet pour un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="97629-114">**Find** Searches for the SIP address or display name for a user.</span></span> <span data-ttu-id="97629-115">Entrez tout ou partie du nom ou adresse.</span><span class="sxs-lookup"><span data-stu-id="97629-115">Enter all or part of the address or name.</span></span> <span data-ttu-id="97629-116">Renseignez la zone de recherche pour afficher tous les utilisateurs activés pour Skype pour Business Server et Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="97629-116">Leave the search box empty to display all users who are enabled for Skype for Business Server and Enterprise Voice.</span></span>
+    
+- <span data-ttu-id="97629-117">**Nombre maximal d’utilisateurs à afficher** Modifie le nombre de résultats renvoyés qui sont affichés.</span><span class="sxs-lookup"><span data-stu-id="97629-117">**Maximum users to display** Changes the number of returned results that are displayed.</span></span> <span data-ttu-id="97629-118">Ce compteur permet de limiter la recherche, si vous prévoyez de résultats.</span><span class="sxs-lookup"><span data-stu-id="97629-118">Use this counter to limit the search if you expect many results.</span></span>
+    
+<span data-ttu-id="97629-119">La liste ci-dessous décrit les champs figurant dans la boîte de dialogue **Sélectionner des agents**.</span><span class="sxs-lookup"><span data-stu-id="97629-119">The following list describes the fields in the **Select Agents** dialog box.</span></span>
+  
+- <span data-ttu-id="97629-120">**Agent** Affiche les noms d’utilisateur retournés par la recherche.</span><span class="sxs-lookup"><span data-stu-id="97629-120">**Agent** Displays the user names returned by the search.</span></span>
+    
+- <span data-ttu-id="97629-121">**Adresse SIP** Affiche les adresses SIP renvoyés par la recherche.</span><span class="sxs-lookup"><span data-stu-id="97629-121">**SIP address** Displays the user SIP addresses returned by the search.</span></span>
+    
+- <span data-ttu-id="97629-122">**Téléphonie** Affiche la valeur du champ **téléphonie** définie pour les utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="97629-122">**Telephony** Displays the value of the **Telephony** field defined for users.</span></span>
+    
+- <span data-ttu-id="97629-123">**Activé** Affiche la valeur du champ **activé pour Lync Server** définie pour les utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="97629-123">**Enabled** Displays the value of the **Enabled for Lync Server** field defined for users.</span></span>
+    
+<span data-ttu-id="97629-124">Pour plus d’informations sur l’utilisation des groupes d’agents, voir [Gestion des groupes d’agents](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) dans la documentation des opérations.</span><span class="sxs-lookup"><span data-stu-id="97629-124">For details about working with agent groups, see [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
+  
+
