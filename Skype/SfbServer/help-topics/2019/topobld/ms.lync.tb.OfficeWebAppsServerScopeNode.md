@@ -12,24 +12,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: 'Vous cliquez avec le bouton droit sur les serveurs Office Web Apps Server dans le Générateur de topologie pour effectuer les actions suivantes :'
-ms.openlocfilehash: fccc7fc89c069b45a9482c3cea21b9faf189dc74
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 4418b338be168d997b3e3b703cbbfa8211332d39
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="office-web-apps-server-scope-node-expander"></a><span data-ttu-id="360ec-103">Expanseur du nœud d’étendue du serveur Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="360ec-103">Office Web Apps Server Scope Node Expander</span></span>
+# <a name="office-web-apps-server-scope-node-expander"></a><span data-ttu-id="5800c-103">Expanseur du nœud d’étendue du serveur Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="5800c-103">Office Web Apps Server Scope Node Expander</span></span>
  
-<span data-ttu-id="360ec-104">Vous cliquez avec le bouton droit sur les **Serveurs Office Web Apps Server** dans le Générateur de topologie pour effectuer les actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="360ec-104">You right click on **Office Web Apps Servers** in Topology Builder to perform the following:</span></span>
+<span data-ttu-id="5800c-104">Vous cliquez avec le bouton droit sur les **Serveurs Office Web Apps Server** dans le Générateur de topologie pour effectuer les actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="5800c-104">You right click on **Office Web Apps Servers** in Topology Builder to perform the following:</span></span>
   
-- <span data-ttu-id="360ec-105">**Nouveau serveur Office Web Apps Server**: démarre l’Assistant **Définir un serveur Office Web Apps** utilisé pour définir un nouveau serveur Office Web Apps Server.</span><span class="sxs-lookup"><span data-stu-id="360ec-105">**New Office Web Apps Server**: Starts the **Define New Office Web Apps Server** wizard used to define a new Office Web Apps Server.</span></span>
+- <span data-ttu-id="5800c-105">**Nouveau serveur Office Web Apps Server**: démarre l’Assistant **Définir un serveur Office Web Apps** utilisé pour définir un nouveau serveur Office Web Apps Server.</span><span class="sxs-lookup"><span data-stu-id="5800c-105">**New Office Web Apps Server**: Starts the **Define New Office Web Apps Server** wizard used to define a new Office Web Apps Server.</span></span>
     
-<span data-ttu-id="360ec-106">Outre l’option nouveau Office Web Apps Server, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="360ec-106">In addition to the New Office Web Apps Server option, you can perform the following general tasks:</span></span>
+<span data-ttu-id="5800c-106">Outre l’option nouveau Office Web Apps Server, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="5800c-106">In addition to the New Office Web Apps Server option, you can perform the following general tasks:</span></span>
   
-![Nœud d’étendue d’Office WebApps Server](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Nœud d’étendue d’Office WebApps Server](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
-- <span data-ttu-id="360ec-p101">**Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="360ec-p101">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="5800c-p101">**Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="5800c-p101">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
     
-- <span data-ttu-id="360ec-p102">**Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.</span><span class="sxs-lookup"><span data-stu-id="360ec-p102">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="5800c-p102">**Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.</span><span class="sxs-lookup"><span data-stu-id="5800c-p102">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
