@@ -13,11 +13,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Le jeu de haute disponibilité principal pour la plupart des rôles de serveur dans Skype pour Business Server 2015 est basé sur la redondance des serveurs via un regroupement. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur.
-ms.openlocfilehash: 8441db5ee4a84c573ed6a1642473b827382e4654
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: cd8861177f066030e71edf5cc62b891b863b2abb
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="high-availability-planning-tool"></a>Haute disponibilité (outil de planification)
  
@@ -33,6 +33,6 @@ Skype pour Business Server 2015 nécessite au moins deux serveurs frontaux afin 
     
 L’outil de planification ajoute également une base de données miroir SQL pour toutes les bases de données. Par exemple, s’il existe une base de données du serveur frontal SQL, l’outil de planification seront ajoutez la base de données en tant que la base de données miroir pour celle-ci et nommez-le comme « Front-End miroir SQL base de données.
   
-Pour plus d’informations sur la préparation de votre environnement pour une haute disponibilité, voir [planifier la haute disponibilité et de récupération d’urgence dans Skype pour Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Pour plus d’informations sur la préparation de votre environnement pour une haute disponibilité, voir [planifier la haute disponibilité et de récupération d’urgence dans Skype pour Business Server 2015](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 

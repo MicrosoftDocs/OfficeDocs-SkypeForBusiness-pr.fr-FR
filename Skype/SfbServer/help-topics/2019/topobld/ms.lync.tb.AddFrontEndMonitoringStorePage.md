@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 description: 'Vous pouvez définir le magasin de surveillance de SQL Server en configurant les propriétés suivantes :'
-ms.openlocfilehash: fe95cab603729736b0483774baa7111837a31c8b
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b73cbd8fa19648849961d8c869f4b9a155dfed2b
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Ajouter un frontal Page magasin de surveillance
  
@@ -48,5 +48,5 @@ Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la p
 
 #### 
 
-[Associer un magasin de surveillance à un pool frontal dans Skype pour Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
+[Associer un magasin de surveillance à un pool frontal dans Skype pour Business Server 2015](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Flux de travail Response Group définissent les actions exécutées lorsque l’application Response Group reçoit un appel téléphonique.
-ms.openlocfilehash: d4fa4f946c8dd54d0abab6bea41cc632f780f747
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 1ba3d977aca60e40a5ba09f75a31dfe8f569e4c9
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="response-groups-workflow"></a>Workflow Response Groups
  
@@ -56,6 +56,6 @@ La liste ci-dessous décrit les champs de la page.
     
 - **Activé** Indique si le workflow est activé pour recevoir des appels.
     
-Pour plus d’informations sur les fonctionnalités de Response Group, consultez [planification de l’application Response Group dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des flux de travail Response Group, consultez [Gestion de flux de travail Response Group](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités de Response Group, consultez [planification de l’application Response Group dans Skype pour Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des flux de travail Response Group, consultez [Gestion de flux de travail Response Group](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) dans la documentation des opérations.
   
 

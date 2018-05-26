@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez ce que vous devez savoir sur les codes confidentiels et comment les réinitialiser. '
-ms.openlocfilehash: 092d51061c374e14485527993a95e03e8e29649d
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 956c8e1ec7a83832c9aa2605845bc7fd42a047f7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="reset-the-audio-conferencing-pin"></a>Réinitialiser le code confidentiel de conférence Audio
 
@@ -32,7 +32,17 @@ Un code confidentiel est un code constitué de numéros sont créées pour chaqu
   
 Réunions peuvent être démarrées lorsqu’un utilisateur authentifié est ajouté à l’aide d’un Skype pour l’application Microsoft Teams ou de l’entreprise ou lorsque l’organisateur de jointures avec son code confidentiel par téléphone. Si la réunion nécessite un code confidentiel pour commencer, par défaut, tous les utilisateurs qui rejoignent la réunion par téléphone avant le début de la réunion seront mis en attente jusqu'à ce que la réunion commence. Si l'organisateur d'une réunion n'impose pas de code confidentiel pour commencer la réunion par téléphone, un appelant qui tente de participer n'est pas invité à indiquer un code confidentiel.
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-reset-a-users-pin"></a>![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) Réinitialiser le code confidentiel d’un utilisateur
+## <a name="reset-a-users-pin"></a>Réinitialiser le code confidentiel d’un utilisateur
+
+![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
+
+1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+
+2. En haut de la page, cliquez sur **Modifier**.
+
+3. **Conférence Audio**, cliquez sur **Réinitialiser le code confidentiel**.
+
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png)  **à l’aide de la Skype entreprise centre d’administration**
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
@@ -45,9 +55,16 @@ Réunions peuvent être démarrées lorsqu’un utilisateur authentifié est ajo
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-have-a-user-reset-his-or-her-own-pin"></a>![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) Ont un utilisateur à réinitialiser son propre code confidentiel
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>Ont un utilisateur à réinitialiser son propre code confidentiel
 
-Un utilisateur peut réinitialiser un code confidentiel à l’aide de l’option **Réinitialiser le code confidentiel** dans la page **conférence rendez-vous** . Page thSi sont accessibles dans une des trois manières :
+![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
+
+1. Demandez à l’utilisateur d’accéder à [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
+2. Cliquez sur **Réinitialiser le code confidentiel**. 
+
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png)  **à l’aide de la Skype entreprise centre d’administration**
+
+Un utilisateur peut réinitialiser un code confidentiel à l’aide de l’option **Réinitialiser le code confidentiel** dans la page **conférence rendez-vous** . Cette page est accessible dans une des trois manières :
 
 * Dans un navigateur, accédez à [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling).
 * Dans Skype pour les entreprises, cliquez sur la flèche **Afficher le Menu** en regard de **Options**, puis cliquez sur **Outils** > **Paramètres de conférence rendez-vous**.

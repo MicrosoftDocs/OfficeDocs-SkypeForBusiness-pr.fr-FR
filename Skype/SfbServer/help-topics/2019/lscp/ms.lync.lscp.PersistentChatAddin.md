@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: Vous pouvez utiliser la section de la page de conversation permanente à associer les URL des salles de conversation permanente. Ces URL s’affichent sur le client dans la salle de conversation, dans le volet d’extensibilité de conversation. Un administrateur doit ajouter Compléments à la liste des compléments enregistrés et les créateurs/responsables de salles de conversation doivent associer les salles à l’un des compléments enregistrés pour que les utilisateurs puissent voir cette mise à niveau sur leur client.
-ms.openlocfilehash: 8d4a74571b2d86295a0f7ffdff986f112380ffd7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b9b10c7c4b055c694d58b6cfda9b1e2a84739483
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-add-in"></a>Complément de conversation permanente
  
@@ -24,13 +24,13 @@ Vous pouvez utiliser **la section de la page de **Conversation permanente** ** �
   
 Les compléments servent à étendre l’expérience dans la salle. Un complément typique peut contenir une URL pointant vers une application Silverlight qui intercepte lorsqu’un téléscripteur est publié dans une salle de conversation et affiche l’historique des actions dans le volet de l’extensibilité. En guise d’autre exemple, citons l’incorporation d’une URL OneNote 2013 dans la salle de conversation en tant que complément servant à inclure un contexte partagé, comme « Tête de liste » ou « Sujet du jour ».
   
-Pour créer des compléments pour les salles de conversation permanente, consultez [configurer des compléments pour les salles de conversation permanente dans Skype pour Business Server 2015](../../manage/persistent-chat/configure-add-ins.md). Si vous êtes un administrateur de conversation permanente, vous pouvez créer des compléments à l’aide du Panneau de configuration ou les applets de commande Windows PowerShell.
+Pour créer des compléments pour les salles de conversation permanente, consultez [configurer des compléments pour les salles de conversation permanente dans Skype pour Business Server 2015](../../../manage/persistent-chat/configure-add-ins.md). Si vous êtes un administrateur de conversation permanente, vous pouvez créer des compléments à l’aide du Panneau de configuration ou les applets de commande Windows PowerShell.
   
 ## <a name="tasks-that-you-can-perform"></a>Tâches que vous pouvez effectuer
 
 Dans la page **Complément**, vous pouvez effectuer les tâches suivantes :
   
-- [Configurer des compléments pour les salles de conversation permanente Skype pour Business Server 2015](../../manage/persistent-chat/configure-add-ins.md)
+- [Configurer des compléments pour les salles de conversation permanente Skype pour Business Server 2015](../../../manage/persistent-chat/configure-add-ins.md)
     
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>Configuration des compléments pour des salles de conversation
 
@@ -58,6 +58,6 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
     
 ### 
 
-Pour plus d’informations sur le serveur de conversation permanente des fonctionnalités, voir [Plan for Persistent Chat Server dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [déployer Persistent Chat Server dans Skype pour Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)et [gérer le serveur de conversation permanente dans Skype pour Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Pour plus d’informations sur le serveur de conversation permanente des fonctionnalités, voir [Plan for Persistent Chat Server dans Skype pour Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [déployer Persistent Chat Server dans Skype pour Business Server 2015](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)et [gérer le serveur de conversation permanente dans Skype pour Business Server 2015](../../../manage/persistent-chat/persistent-chat.md).
   
 

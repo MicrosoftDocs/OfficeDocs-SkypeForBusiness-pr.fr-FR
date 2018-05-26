@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Pour un déploiement Enterprise Edition, vous pouvez colocaliser soit A / V Conferencing service, le serveur de médiation ou les deux sur le pool frontal, ou vous pouvant déployer chaque en tant que serveurs autonomes. Pour un déploiement Standard Edition server, A / service de conférence de V est toujours colocalisé si la conférence est activée.
-ms.openlocfilehash: f8a1abf168447af7f45ed8f222ef80f029aff2bc
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 555f23cc9a6cf07f9a095edb56c8307c495def6c
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-front-end-server-collocations-2010"></a>Ajouter des COLOCALISATIONS du serveur frontal 2010
  
@@ -33,6 +33,6 @@ Vous pouvez colocaliser le rôle de serveur de médiation sur un serveur Standar
     
 Vous pouvez utiliser Microsoft Lync Server 2013, outil de planification pour déterminer si le pool frontal où vous voulez colocaliser le serveur de médiation peut gérer la charge. Si votre environnement ne peut pas ces exigences, vous devez déployer un pool de serveur de médiation autonome.
   
-En générale, colocalisation des / V Conferencing Server ou le serveur de médiation est déconseillé si votre organisation dispose de haute disponibilité et évolutivité requirementsFor plus d’informations sur la colocalisation de ces rôles de serveur dans un pool frontal Enterprise Edition dans une déploiement, voir [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement. Pour plus d’informations sur A / de la fonctionnalité de conférence V et des composants, consultez [planification de conférence](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) dans la documentation de planification. Pour plus d’informations sur les fonctionnalités d’Enterprise Voice et des composants, y compris le serveur de médiation, voir [Plan pour Enterprise Voice sur Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) dans la documentation de planification.
+En générale, colocalisation des / V Conferencing Server ou le serveur de médiation est déconseillé si votre organisation dispose de haute disponibilité et évolutivité requirementsFor plus d’informations sur la colocalisation de ces rôles de serveur dans un pool frontal Enterprise Edition dans une déploiement, voir [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement. Pour plus d’informations sur A / de la fonctionnalité de conférence V et des composants, consultez [planification de conférence](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) dans la documentation de planification. Pour plus d’informations sur les fonctionnalités d’Enterprise Voice et des composants, y compris le serveur de médiation, voir [Plan pour Enterprise Voice sur Skype pour Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) dans la documentation de planification.
   
 

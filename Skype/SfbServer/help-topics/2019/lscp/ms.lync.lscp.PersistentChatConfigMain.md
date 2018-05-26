@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 description: Votre déploiement Persistent Chat Server peut héberger plusieurs salles de conversation permanente simultanés. Les salles de conversation peuvent être organisées sous forme d’ensemble de catégories sur le serveur. Chaque salle de conversation appartient à une seule catégorie et hérite de certains paramètres de cette catégorie. Cette organisation crée une structure pratique pour identifier les conversations en fonction de leur objectif professionnel et facilite la délégation de l’administration et la simplification de la gestion.
-ms.openlocfilehash: 3a7fe2763138beb42cf6dbdbe927ca9378e2539f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 633bcc1e2aaa7bb7ae4c657e196a3b7838184783
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-configuration-main-page"></a>Configuration de conversation permanente – Page principale
  
@@ -120,6 +120,6 @@ Vous pouvez effectuer les tâches suivantes dans la page **Configuration de conv
     
 ### 
 
-Pour plus d’informations sur le serveur de conversation permanente des fonctionnalités, voir [Plan for Persistent Chat Server dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [déployer Persistent Chat Server dans Skype pour Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)et [gérer le serveur de conversation permanente dans Skype pour Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Pour plus d’informations sur le serveur de conversation permanente des fonctionnalités, voir [Plan for Persistent Chat Server dans Skype pour Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [déployer Persistent Chat Server dans Skype pour Business Server 2015](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)et [gérer le serveur de conversation permanente dans Skype pour Business Server 2015](../../../manage/persistent-chat/persistent-chat.md).
   
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: Vous pouvez utiliser la page Stratégie de conversation permanente du groupe de conversation permanente pour gérer les stratégies à un niveau global, utilisateur, site ou pool, y compris la configuration de la stratégie globale par défaut et en créant un ou plusieurs site et utilisateur des stratégies supplémentaires pour votre déploiement. Si le serveur de conversation permanente est activé pour un utilisateur par stratégie, l’environnement de serveur de conversation permanente s’affiche dans le client.
-ms.openlocfilehash: 13f06436f3339da46e32557dff5290d5ad5541fd
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: a229c836dabed2bd395a78fc34639772d25c77ff
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-policy"></a>Stratégie de conversation permanente
  
@@ -27,7 +27,7 @@ La stratégie globale est créée automatiquement lorsque vous déployez le serv
 Vous pouvez créer et configurer plusieurs stratégies de site et d’utilisateur qui, avec la stratégie globale, permettent aux utilisateurs pour le serveur de conversation permanente. Les stratégies de Persistent Chat Server pool et site remplacent la stratégie globale de serveur de conversation permanente, mais uniquement pour les utilisateurs de ce site. Les stratégies utilisateur remplacent les stratégies utilisateur, de pool et globales pour les utilisateurs auxquels la stratégie utilisateur est affectée.
   
 > [!NOTE]
-> Pour configurer et utiliser le serveur de conversation permanente, vous devez tout d’abord utiliser le Générateur de topologie pour ajouter la prise en charge des serveurs de conversation permanente à la topologie et puis publiez la topologie. Pour plus d’informations, voir [Ajouter des serveurs de conversation permanente à votre Skype pour topologie Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md). 
+> Pour configurer et utiliser le serveur de conversation permanente, vous devez tout d’abord utiliser le Générateur de topologie pour ajouter la prise en charge des serveurs de conversation permanente à la topologie et puis publiez la topologie. Pour plus d’informations, voir [Ajouter des serveurs de conversation permanente à votre Skype pour topologie Business Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md). 
   
 ## <a name="tasks-that-you-can-perform"></a>Tâches que vous pouvez effectuer
 

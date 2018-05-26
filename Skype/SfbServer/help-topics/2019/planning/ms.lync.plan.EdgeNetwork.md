@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 'La plupart des composants Edge sont déployés sur un réseau de périmètre. Les composants suivants forment la topologie Edge du réseau de périmètre. Sauf mention contraire, les composants font partie des scénarios de serveur de transport Edge dans Skype pour Business Server 2015 et se trouvent dans le réseau de périmètre. Ces composants Edge sont les suivants :'
-ms.openlocfilehash: 48b574c749d96a0b252b2f5d90946cb3c66991a5
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 380529975aa5c09f1f97bafa633a432ae3109164
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="edge-network-planning-tool"></a>Réseau de périmètre (outil de planification)
  
-La plupart des composants Edge sont déployés sur un réseau de périmètre. Les composants suivants forment la topologie Edge du réseau de périmètre. Sauf mention contraire, les composants font partie des [scénarios de serveur de transport Edge dans Skype pour Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) et se trouvent dans le réseau de périmètre. Ces composants Edge sont les suivants :
+La plupart des composants Edge sont déployés sur un réseau de périmètre. Les composants suivants forment la topologie Edge du réseau de périmètre. Sauf mention contraire, les composants font partie des [scénarios de serveur de transport Edge dans Skype pour Business Server 2015](../../../plan-your-deployment/edge-server-deployments/scenarios.md) et se trouvent dans le réseau de périmètre. Ces composants Edge sont les suivants :
   
 - Serveur(s) Edge
     
@@ -37,7 +37,7 @@ La plupart des composants Edge sont déployés sur un réseau de périmètre. Le
 
 #### 
 
-[Plan de déploiement de serveur de transport Edge dans Skype pour Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[Plan de déploiement de serveur de transport Edge dans Skype pour Business Server 2015](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[Edge Server requise dans Skype pour Business Server 2015](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[Edge Server requise dans Skype pour Business Server 2015](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 description: Le contrôle d’admission des appels est un réseau de régions, de sites et de sous-réseaux qui permettant de définir des restrictions pour les transmissions audio et vidéo en fonction de la bande passante disponible. Après avoir configuré le réseau pour le contrôle d’admission des appels, vous devez activer le contrôle d’admission des appels pour appliquer les restrictions de bande passante.
-ms.openlocfilehash: 9c3645b259949e208bd8bf6d0bc9d240ec5fe2e2
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f7731c77ded47be47068022ca708c2efa17773b9
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="call-admission-control-settings-expander"></a>Expanseur des paramètres du contrôle d’admission des appels
  
@@ -27,7 +27,7 @@ Le contrôle d’admission des appels est un réseau de régions, de sites et de
   
 Dans la section **Définition du contrôle d’admission des appels** de la boîte de dialogue **Modifier les propriétés** de votre site, vous pouvez modifier les paramètres suivants :
   
-- **Activer le contrôle d’admission des appels** Sélectionnez ce paramètre pour activer CAC. Désactivez ce paramètre pour désactiver CAC pour votre réseau. Pour activer CAC, vous devez configuré votre réseau pour CAC. Pour plus d’informations, voir [déployer le contrôle d’admission des appels dans Skype pour Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) dans la documentation de déploiement.
+- **Activer le contrôle d’admission des appels** Sélectionnez ce paramètre pour activer CAC. Désactivez ce paramètre pour désactiver CAC pour votre réseau. Pour activer CAC, vous devez configuré votre réseau pour CAC. Pour plus d’informations, voir [déployer le contrôle d’admission des appels dans Skype pour Business Server 2015](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) dans la documentation de déploiement.
     
 - **Pool frontal pour exécuter le contrôle d’Admission des appels** Si vous avez activé CAC, vous pouvez modifier le pool qui s’exécute. Dans la liste déroulante, sélectionnez le pool.
     

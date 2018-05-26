@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Vous modifiez les propriétés du pool frontal ou serveur frontal en modification ou en configurant les attributs suivants. La page de configuration est divisée en les sections suivantes :'
-ms.openlocfilehash: 2e249f1bd7f0f42cdc23429d79afde86d3f175a3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 11d93e27ab333fc03a65d0d578ca3bbeb933a43a
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres du plan généraux pour Lync Server 2010
  
@@ -39,7 +39,7 @@ Vous modifiez les propriétés du pool frontal ou serveur frontal en modificatio
     
 - Si vous avez sélectionné la conférence, **conférence rendez-vous (PSTN)** peuvent être sélectionnés. Activez la case à cocher pour activer les fonctionnalités de conférence rendez-vous.
     
-- Activez la case à cocher **Enterprise Voice** si vous envisagez de déployer des fonctionnalités à activer Lync Server 2013 pour agir comme système téléphonique vocale utilisant la téléphonie sur les technologies IP (VoIP), y compris la possibilité de déployer les téléphones combiné, SIP jonctions ou public connectivité du réseau téléphonique commuté à l’aide d’un serveur de médiation et IP-PBX, passerelles PSTN conjointement ou seul, basé sur la conception et la configuration requise. Pour des détails sur Enterprise Voice, consultez la rubrique [Enterprise Voice](http://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) et [Enterprise Voice dans Skype pour Business Server 2015 planifier](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Activez la case à cocher **Enterprise Voice** si vous envisagez de déployer des fonctionnalités à activer Lync Server 2013 pour agir comme système téléphonique vocale utilisant la téléphonie sur les technologies IP (VoIP), y compris la possibilité de déployer les téléphones combiné, SIP jonctions ou public connectivité du réseau téléphonique commuté à l’aide d’un serveur de médiation et IP-PBX, passerelles PSTN conjointement ou seul, basé sur la conception et la configuration requise. Pour des détails sur Enterprise Voice, consultez la rubrique [Enterprise Voice](http://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) et [Enterprise Voice dans Skype pour Business Server 2015 planifier](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
     
     **Associations**
     

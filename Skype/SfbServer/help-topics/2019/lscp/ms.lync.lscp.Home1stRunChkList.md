@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: Bienvenue dans le Skype pour Business Server le panneau de configuration, l’interface utilisateur web pour l’administration et la gestion de Skype pour Business Server. Vous pouvez utiliser le panneau de configuration pour effectuer des types de tâche administrative effectuées en utilisant la console d’administration Microsoft.
-ms.openlocfilehash: ec8331e3f25b2042718c934871a46209d3aed6da
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 23440c0aae1fbb447cbdefcbab8a0162f514cc1c
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Liste de vérification de première exécution pour le panneau de configuration de Skype Entreprise Server
  
@@ -38,6 +38,6 @@ Nous vous recommandons fortement que vous passez en revue les tâches mentionné
 |Si vous avez déployé ou si voulez déployer Voix Entreprise, configurez une connexion de jonction SIP pour activer la connectivité au réseau téléphonique commuté public (RTC).  <br/> |**Routage des communications vocales** <br/> |[Configuration de jonctions et des règles de traduction](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx) <br/> |
 |Si vous avez déployé Voix Entreprise, vérifiez les paramètres de routage Voix Entreprise.  <br/> |**Routage des communications vocales** <br/> |[Tester le routage des communications vocales](http://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx) <br/> |
 |Si vous avez déployé le serveur d’archivage, vérifiez que les stratégies et les paramètres d’archivage répondent aux besoins de votre organisation.  <br/> |**Surveillance et archivage** <br/> |[Gestion de l’archivage](http://technet.microsoft.com/library/48c6cc8c-c2c1-4534-9a8a-fd5eb738076a.aspx) <br/> |
-|Si vous avez déployé le serveur de surveillance, affichez les rapports du serveur de surveillance pour afficher les informations d’utilisation et de diagnostic.  <br/> |**Accueil** <br/> |[Gérer l’intégrité et surveillance dans Skype pour Business Server 2015](../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
+|Si vous avez déployé le serveur de surveillance, affichez les rapports du serveur de surveillance pour afficher les informations d’utilisation et de diagnostic.  <br/> |**Accueil** <br/> |[Gérer l’intégrité et surveillance dans Skype pour Business Server 2015](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
    
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Création et gestion des salles de conversation permanente sont beaucoup plus facile avec l’utilisation correcte des catégories. Un administrateur de conversation permanente peut définir AllowedMembers et créateurs pour chaque catégorie et permettre également définir les paramètres de salle de conversation par défaut et les comportements qui seront appliquées à toutes les salles de conversation créées dans la catégorie. Persistent Chat créer et gérer les catégories à l’aide de Skype pour le panneau de configuration serveur Business ou Windows PowerShell cmdlets.
-ms.openlocfilehash: 23b7bcbc07401d19bac6d7d77fc17d1a4a84a477
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 91ad59a0bfc42fb354bee4de59e018accfe1b594
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-creators"></a>Sélection des créateurs
  
@@ -30,7 +30,7 @@ Dans la page **Sélectionner les créateurs**, vous pouvez effectuer les tâches
     
 - [Nouvelles fonctionnalités de serveur de conversation permanente](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>Pour configurer les catégories des salles de conversation
 

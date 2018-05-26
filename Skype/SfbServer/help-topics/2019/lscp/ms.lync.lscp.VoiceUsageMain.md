@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 08d7877d-0ef4-4630-b6b0-ee76cbe4ce25
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 72dc77ae694281449253d93ca1cccff9c8134b6d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 90d0b84d504e35cd3bf0a2f5862ce6231786bac3
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="pstn-usage"></a>Utilisation PSTN
  
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
   
-- [Afficher les enregistrements d’utilisation PSTN dans Skype pour Business 2015](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
+- [Afficher les enregistrements d’utilisation PSTN dans Skype pour Business 2015](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
     
-- [Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour Business 2015](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
     
 - [Modifier une stratégie de voix et de configurer les enregistrements d’utilisation PSTN](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
 

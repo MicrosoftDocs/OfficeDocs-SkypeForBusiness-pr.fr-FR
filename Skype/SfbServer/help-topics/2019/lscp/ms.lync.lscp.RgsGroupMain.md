@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Un groupe d’agents est un groupe de personnes désignées pour répondre aux appels Response Group.
-ms.openlocfilehash: 78acb2219b5db0598a262812c6127ae7f8d56715
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c2636da9d21532a9f449f1663b9458ac253ecf27
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="response-groups-group"></a>Groupes Response Group : groupe
  
@@ -52,6 +52,6 @@ La liste ci-dessous décrit les champs de la page.
     
 - **Description** La description du groupe d’agents.
     
-Pour plus d’informations sur les fonctionnalités de Response Group, consultez [planification de l’application Response Group dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des groupes d’agents, voir [Gestion des groupes d’agents](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités de Response Group, consultez [planification de l’application Response Group dans Skype pour Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des groupes d’agents, voir [Gestion des groupes d’agents](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) dans la documentation des opérations.
   
 

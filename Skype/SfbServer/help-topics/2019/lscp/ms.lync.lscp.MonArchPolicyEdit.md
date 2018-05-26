@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 'Vous utilisez des stratégies d’archivage pour contrôler l’archivage des communications internes et externes de votre déploiement pour les utilisateurs qui sont hébergés sur Skype pour Business Server. Les stratégies d’archivage incluent la stratégie globale, ainsi, éventuellement, qu’une ou plusieurs stratégies de site et utilisateur :'
-ms.openlocfilehash: af8038371cd421b0232ce2df0ba92aa5b079702e
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f01fb0c53d88000d76a00e74353cd1c6005163f0
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Stratégie d’archivage : création d’une stratégie ou modifier d’une stratégie existante
  
@@ -46,5 +46,5 @@ Pour configurer les paramètres pour une stratégie d’archivage nouvelle ou ex
     
 - **Archiver les communications externes** Activez cette case à cocher pour activer l’archivage des communications qui incluent des utilisateurs externes, tels que les utilisateurs distants, (y compris les utilisateurs anonymes et définition de PIC) et les partenaires fédérés. Par défaut, il n’est pas activé dans toutes les stratégies.
     
-Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, y compris l’intégration d’Exchange, voir [planifier l’archivage dans Skype pour Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [déployer l’archivage pour Skype pour Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)et [gérer l’archivage dans Skype pour Entreprise 2015 Server](../../manage/archiving/archiving.md).
+Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, y compris l’intégration d’Exchange, voir [planifier l’archivage dans Skype pour Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [déployer l’archivage pour Skype pour Business Server 2015](../../../deploy/deploy-archiving/deploy-archiving.md)et [gérer l’archivage dans Skype pour Entreprise 2015 Server](../../../manage/archiving/archiving.md).
 

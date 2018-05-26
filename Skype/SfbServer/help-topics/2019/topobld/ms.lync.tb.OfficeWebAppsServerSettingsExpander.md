@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 'Vous modifiez les propriétés du serveur Office Web Apps configuré. Les propriétés suivantes sont disponibles pour modifier :'
-ms.openlocfilehash: 44f9218ff8e125389dae06396a9b06e5cc197e44
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b7da5e19d6d9c300d96442c97bf4866116a60af3
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Modifier les paramètres Office Web Apps Server
  
@@ -28,7 +28,7 @@ Vous modifiez les propriétés du serveur Office Web Apps configuré. Les propri
   
 Activez la case à cocher **Le serveur Office Web Apps Server est déployé sur un réseau externe (périmètre/Internet)** si le serveur est déployé dans le réseau de votre périmètre ou dans une autre zone réseau qui se situe à l’extérieur de votre pare-feu interne séparant le réseau de périmètre, les réseaux moyennement fiables et Internet de votre déploiement interne.
   
-![Expanseur des paramètres d’Office Web Apps](../../media/OfficeWebApps_Settings_Expander.jpg)
+![Expanseur des paramètres d’Office Web Apps](../../../media/OfficeWebApps_Settings_Expander.jpg)
   
 ## <a name="see-also"></a>Voir aussi
 

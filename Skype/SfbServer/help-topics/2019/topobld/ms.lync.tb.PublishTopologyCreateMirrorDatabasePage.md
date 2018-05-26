@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: Cette rubrique fait partie de la documentation préliminaire. Elle est susceptible d’être modifiée lors des prochaines mises à jour. Les rubriques vides apparaissent sous la forme d’espaces réservés.
-ms.openlocfilehash: 76addc117cc29de53309e508a1a5295fef4a5bac
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9e1ef1e37bdd45a0767d4ef900c9518a70e74670
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>Publier la topologie de créer des bases de données miroir
  
@@ -30,5 +30,5 @@ Le Générateur de topologie analyse tous les paramètres de configuration de vo
 
 #### 
 
-[Déployer la mise en miroir de SQL pour la haute disponibilité de serveur principal dans Skype pour Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[Déployer la mise en miroir de SQL pour la haute disponibilité de serveur principal dans Skype pour Business Server 2015](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 

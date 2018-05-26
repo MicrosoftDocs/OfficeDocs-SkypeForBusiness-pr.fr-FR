@@ -13,11 +13,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Skype pour les conférences web Business Server 2015 inclut la collaboration sur des documents, partage d’application et le partage du bureau.
-ms.openlocfilehash: 3755a922970942451f08e19c2ba59884cd8b91d3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 1e2863895e9e0666381d6095e5846456029205b7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="web-conferencing-planning-tool"></a>Conférence Web (outil de planification)
  
@@ -28,12 +28,12 @@ Skype pour les conférences web Business Server 2015 inclut la collaboration sur
   
 Pour des informations sur la planification de l’activation de la conférence web dans votre organisation, voir les rubriques suivantes : 
   
-- [Planifier des conférences dans Skype Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Planifier des conférences dans Skype Business Server 2015](../../../plan-your-deployment/conferencing/conferencing.md)
     
-- [Configuration matérielle et logicielle requise pour la conférence dans Skype pour Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [Configuration matérielle et logicielle requise pour la conférence dans Skype pour Business Server 2015](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [Planifier des conférences rendez-vous dans Skype Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [Planifier des conférences rendez-vous dans Skype Business Server 2015](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [Planifier des réunions de grande taille dans Skype pour Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
+- [Planifier des réunions de grande taille dans Skype pour Business Server 2015](../../../plan-your-deployment/conferencing/large-meetings.md)
     
 

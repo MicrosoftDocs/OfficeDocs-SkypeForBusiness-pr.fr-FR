@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Vous démarrez le Générateur de topologie pour configurer les propriétés et la configuration de votre déploiement de Microsoft Lync Server 2013. Au démarrage, le Générateur de topologie affiche une boîte de dialogue qui vous demande quelle sera la source du document de topologie. Vous sélectionnez une des trois options :'
-ms.openlocfilehash: 754d7a4e9f69c97891714dc02b325bf1d2b8b168
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f7e41d99b24f7064bd68f8c8a44565078eba87cf
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="topology-builder-startup-dialog"></a>Boîte de dialogue de démarrage du Générateur de topologie
  
@@ -28,7 +28,7 @@ Vous démarrez le Générateur de topologie pour configurer les propriétés et 
     
 - **Nouvelle topologie** Sélectionnez cette option pour commencer la configuration d’un nouveau document de topologie. Cette option ouvre un nouveau document de topologie que vous configurez pour la configuration requise pour le déploiement que vous allez configurer.
     
-![Boîte de dialogue de démarrage du Générateur de topologie](../../media/Topology_Builder_Startup_Dialog.jpg)
+![Boîte de dialogue de démarrage du Générateur de topologie](../../../media/Topology_Builder_Startup_Dialog.jpg)
   
 ## <a name="see-also"></a>Voir aussi
 

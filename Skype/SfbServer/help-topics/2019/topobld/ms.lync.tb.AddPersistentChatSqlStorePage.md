@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: Vous configurez les magasins SQL Server qui fourniront des bases de données pour le serveur de conversation permanente ou le pool de serveurs de conversation permanente.
-ms.openlocfilehash: 062092ff60fa30f7b8ac19725a12a3f62e1b9ec6
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9ab15949a4cc051e56407fc56063e4d8980be87e
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>Ajouter un magasin SQL Server de conversation permanente
  
@@ -48,15 +48,15 @@ Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la p
 
 #### 
 
-[Planifier pour le serveur de conversation permanente dans Skype Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planifier pour le serveur de conversation permanente dans Skype Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
-[Configuration matérielle et logicielle requise pour Persistent Chat Server dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[Configuration matérielle et logicielle requise pour Persistent Chat Server dans Skype pour Business Server 2015](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Configuration du serveur pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Configuration du serveur pour Skype pour Business Server 2015](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Concepts de base de topologie pour Skype pour Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md)
+[Concepts de base de topologie pour Skype pour Business Server 2015](../../../plan-your-deployment/topology-basics/topology-basics.md)
   
-[Configurer une haute disponibilité et récupération d’urgence pour les serveurs de conversation permanente dans Skype pour Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[Configurer une haute disponibilité et récupération d’urgence pour les serveurs de conversation permanente dans Skype pour Business Server 2015](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 

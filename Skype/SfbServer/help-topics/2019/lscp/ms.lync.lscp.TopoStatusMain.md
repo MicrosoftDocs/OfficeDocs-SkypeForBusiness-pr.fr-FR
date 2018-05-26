@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: 'Topologie : la page d’état affiche l’état des serveurs dans votre Skype pour la topologie de l’entreprise.'
-ms.openlocfilehash: 5e824b9170ca42aba3e3fb1f12fd474e9e74e893
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 31e5d5b017f4d33c2b50c2880445e9431e6098ee
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="topology-status"></a>Topologie : statut
  
@@ -34,6 +34,6 @@ Dans la page **Topologie** : **Statut**, vous pouvez effectuer les tâches suiv
     
 - [Empêcher les nouvelles connexions aux Services](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
   
 

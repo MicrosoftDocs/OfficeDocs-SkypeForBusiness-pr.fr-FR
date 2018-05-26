@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: Utilisez la sélectionner une boîte de dialogue Site pour trouver des sites disponibles dans votre environnement. Pour utiliser un site existant, cliquez sur un site dans la liste, puis cliquez sur OK.
-ms.openlocfilehash: 7c39b0d4d0fad775f1c271542f76889060267c33
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7aba1089d73188c2d65771a87f01a20f93c48c4a
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-a-site"></a>Sélection d’un site
  
@@ -25,7 +25,7 @@ Utilisez la boîte de dialogue **Sélectionner un site** pour rechercher des sit
 > [!NOTE]
 > Pour extraire tous les sites disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche. 
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
   
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
@@ -35,7 +35,7 @@ Dans la page **Sélectionner un site**, vous pouvez effectuer les tâches suivan
     
 - [Créer une stratégie de Site pour la conversation permanente](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
   
 ## <a name="to-configure-persistent-chat-options-globally"></a>Pour configurer les options de conversation permanente au niveau global
 

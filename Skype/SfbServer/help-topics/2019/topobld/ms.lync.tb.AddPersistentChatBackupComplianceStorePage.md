@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: Vous configurez la conformité de sauvegarde que magasins SQL Server qui fournit des bases de données de sauvegarde pour le serveur de conversation permanente ou de la conformité Persistent Chat Server que magasins SQL Server.
-ms.openlocfilehash: 4e3a2bf034d5ab20c7352f2b6ef9c8a6a0c4befa
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7143ecdc51caf941196f1499e9cc1dc35764b0d3
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Ajouter un magasin SQL Server de stockage de conformité de conversation permanente
  
@@ -48,13 +48,13 @@ Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la p
 
 #### 
 
-[Planifier pour le serveur de conversation permanente dans Skype Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planifier pour le serveur de conversation permanente dans Skype Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Configuration du serveur pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Configuration du serveur pour Skype pour Business Server 2015](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Configuration matérielle et logicielle requise pour Persistent Chat Server dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[Configuration matérielle et logicielle requise pour Persistent Chat Server dans Skype pour Business Server 2015](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Configurer le service de conformité pour le serveur de conversation permanente dans Skype pour Business Server 2015](../../manage/persistent-chat/configure-compliance.md)
+[Configurer le service de conformité pour le serveur de conversation permanente dans Skype pour Business Server 2015](../../../manage/persistent-chat/configure-compliance.md)
   
-[Configurer une haute disponibilité et récupération d’urgence pour les serveurs de conversation permanente dans Skype pour Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[Configurer une haute disponibilité et récupération d’urgence pour les serveurs de conversation permanente dans Skype pour Business Server 2015](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: Vous définissez les ordinateurs qui feront partie d’un pool de serveurs de conversation permanente en tapant le nom de domaine complet (FQDN) dans le FQDN de l’ordinateur. Il doit s’agir du nom de domaine complet (FQDN) de l’ordinateur, défini dans les enregistrements d’hôte DNS (Domain Name System) (A ou AAAA).
-ms.openlocfilehash: e6175ba3eff5c80a94a3e0cc45b2c649cb7a993d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 3d47b36c3610ac5fcbcf34d1be89025fbdce61af
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>Définir les ordinateurs du pool de conversations permanentes
  
@@ -40,7 +40,7 @@ Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la p
 
 #### 
 
-[Planifier pour le serveur de conversation permanente dans Skype Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planifier pour le serveur de conversation permanente dans Skype Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
 

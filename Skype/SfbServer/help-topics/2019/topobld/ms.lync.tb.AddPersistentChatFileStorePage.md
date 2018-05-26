@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 description: Vous devez indiquer un partage de fichiers à utiliser comme magasin de fichiers pour le serveur Standard Edition ou le pool frontal Enterprise Edition. Vous pouvez utiliser un partage de fichiers existant pour le magasin de fichiers ou spécifier un nouveau partage de fichiers en spécifiant le nom de domaine complet (FQDN) du serveur de fichiers sur lequel le partage de fichiers doit se trouver et un nom de dossier pour le nouveau partage de fichiers.
-ms.openlocfilehash: 76b116d469bf6369174815d6b396a64149518f17
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 989e11adfd7059c94067dd8360527d86759ae81c
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-persistent-chat-file-store"></a>Ajouter un magasin de fichiers de conversation permanente
  
@@ -35,13 +35,13 @@ Vous devez indiquer un partage de fichiers à utiliser comme magasin de fichiers
 
 #### 
 
-[Planifier pour le serveur de conversation permanente dans Skype Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planifier pour le serveur de conversation permanente dans Skype Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
-[Configuration matérielle et logicielle requise pour Persistent Chat Server dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[Configuration matérielle et logicielle requise pour Persistent Chat Server dans Skype pour Business Server 2015](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Configuration du serveur pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Configuration du serveur pour Skype pour Business Server 2015](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Concepts de base de topologie pour Skype pour Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md)
+[Concepts de base de topologie pour Skype pour Business Server 2015](../../../plan-your-deployment/topology-basics/topology-basics.md)
 

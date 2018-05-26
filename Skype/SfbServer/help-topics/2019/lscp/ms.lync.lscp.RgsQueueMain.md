@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Files d’attente les appels vers un groupe de réponse jusqu'à ce qu’un agent répond à l’appel.
-ms.openlocfilehash: c7f9b8acb2a36a4532ffac1a8ea2679d8a056b50
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: ee9e60edaf6b0ffa690a75817e9f1c41c049e344
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="response-groups-queue"></a>File d’attente de groupes de réponses
  
@@ -52,6 +52,6 @@ La liste ci-dessous décrit les champs de la page.
     
 - **Description** La description de la file d’attente.
     
-Pour plus d’informations sur les fonctionnalités de Response Group, consultez [planification de l’application Response Group dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des files d’attente Response Group, voir [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités de Response Group, consultez [planification de l’application Response Group dans Skype pour Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des files d’attente Response Group, voir [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) dans la documentation des opérations.
   
 

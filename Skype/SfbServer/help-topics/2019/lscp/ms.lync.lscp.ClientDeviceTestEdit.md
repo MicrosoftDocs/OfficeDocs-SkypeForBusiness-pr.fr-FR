@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: La fonctionnalité Périphérique de test fonctionne conjointement à la fonctionnalité Mise à jour du périphérique. Vous pouvez ajouter un périphérique de test à la page périphérique de Test et puis utiliser ce périphérique pour vérifier la fonctionnalité de nouvelles mises à jour avant de déployer les mises à jour sur les périphériques de production. Vous pouvez tester un périphérique globalement (dans tout votre environnement) ou sur un site unique. Vous identifiez un périphérique de test grâce à son adresse MAC (Media Access Control) ou son numéro de série. Lorsque vous ajoutez un périphérique, il s’affiche dans la liste dans la page périphérique de Test de la Skype pour le panneau de configuration serveur Business.
-ms.openlocfilehash: 022a56797952986f52772cb5fbed6d1f09bf7d75
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0eb79ad604b228ce4531738b4f7f1423ab5b98e2
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>Périphérique de test : création d’un périphérique ou modification d’un périphérique existant
  
@@ -53,7 +53,7 @@ Pour plus d’informations sur le test des périphériques, voir [Ajouter un pé
 
 #### 
 
-[Périphérique de test](test-device.md)
+[Périphérique de test](ms.lync.lscp.ClientDeviceTestMain.md)
 #### 
 
 [Nouvelle-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: Vous pouvez utiliser la boîte de dialogue Enregistrer les informations de cas de Test de routage des communications vocales pour enregistrer un cas de test de routage voix temporaire. Dans Enregistrer voix cas de Test et les informations de routage, tapez le nom que vous souhaitez donner à ce cas de test dans nom, puis cliquez sur OK.
-ms.openlocfilehash: 29f57c2e8867eee4e8b55e3feddc30835e0f8750
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 24c06173fd1d1899693549dbfb563968f84e0e3d
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="save-voice-routing-test-case-information"></a>Enregistrer les informations de cas de Test de routage des communications vocales
  
@@ -25,6 +25,6 @@ Vous pouvez utiliser la boîte de dialogue **Enregistrer les informations de cas
 > [!NOTE]
 > Lorsque vous enregistrez un cas de test temporaire, vous ne sont pas l’enregistrer dans le magasin Central de gestion. Au lieu de cela, il est le cas de test disponibles dans l’onglet **Routage des communications vocales** de la page **Routage des communications vocales** . Le cas de test s’affiche avec l’état **Uncommitted**. Pour enregistrer le cas de test dans le magasin Central de gestion, vous devez valider la configuration vocale en cliquant sur **Valider tout** à partir de n’importe quel menu **Action** dans la page **Routage des communications vocales** .
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
   
 

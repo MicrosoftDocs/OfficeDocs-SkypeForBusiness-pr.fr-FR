@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Un administrateur de conversation permanente peut créer et gérer les catégories de salle de conversation. Dans le cadre de la création et gestion des catégories de salle de conversation, un administrateur de conversation permanente peut configurer principaux (groupes/conteneurs/utilisateurs Active Directory Domain Services) qui ont accès à des membres/créateurs de salles de conversation d’une catégorie spécifique. Un administrateur de conversation permanente peuvent également ajouter des membres refusés à une catégorie et ces deviennent des exclusions explicites à la liste autorisée. Membres refusés remplacent les nouveautés de AllowedMembers.
-ms.openlocfilehash: f8fc7179df8facb98408e4506cf681cbefb97c62
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 98e57342296f181971c799bafa1b77eccd24b509
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-denied-members"></a>Sélection des membres refusés
  
@@ -30,7 +30,7 @@ Dans la page **Sélectionner les membres refusés**, vous pouvez effectuer les t
     
 - [Nouvelles fonctionnalités de serveur de conversation permanente](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>Pour configurer les catégories des salles de conversation
 
