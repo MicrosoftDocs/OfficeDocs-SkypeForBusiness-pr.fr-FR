@@ -21,11 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour les États-Unis.
-ms.openlocfilehash: 5120f4f6e51f2a5ce3a87a8febf4b82fd68288fd
-ms.sourcegitcommit: 5e094591704e27d9d802ff86c1ada6d775ab783a
+ms.openlocfilehash: b1d5f66f1ebb63553904a9b1992bf9e08d46a98a
+ms.sourcegitcommit: 0a0fd436d4d732710bb65e1809ac28dd2e0df41a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 05/31/2018
+ms.locfileid: "19526339"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilité aux États-Unis (É.U.)
 
@@ -55,7 +56,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes nationales appelant planifier de (disponibilité est limitée)</li><li>240 minutes nationales appelant planifier de (disponibilité est limitée)</li></li><li>1200 minute de planifier l’appel interne </li></li><li>600 minutes national et International des Plans de l’appel</li></li> 
+|Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes nationales appelant planifier de (disponibilité est limitée)</li><li>240 minutes nationales appelant planifier de (disponibilité est limitée)</li></li><li>3000 minute de planifier l’appel interne </li></li><li>600 minutes national et International des Plans de l’appel</li></li> 
 |Peut passer des appels sortants vers les numéros ? <br/> | Non pris en charge pour l’instant. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 >[!Note] 
