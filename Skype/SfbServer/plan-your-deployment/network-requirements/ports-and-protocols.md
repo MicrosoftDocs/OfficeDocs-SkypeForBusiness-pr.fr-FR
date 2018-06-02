@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Résumé : Passez en revue les considérations de l’utilisation du port avant d’implémenter Skype pour Business Server 2015.'
-ms.openlocfilehash: 4bf9b7f9f1d0d0b99a8add76c4f73d4adcebea16
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 576b0247631e4f01909acb717e12efbb954d5cb0
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546591"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Ports et protocoles requis pour les serveurs
  
@@ -26,7 +27,7 @@ ms.lasthandoff: 05/03/2018
   
 Skype pour Business Server nécessite que les pare-feu internes et externes des ports spécifiques soient ouverts. De plus, si la sécurité IPsec (Internet Protocol security) est déployée dans votre organisation, elle doit être désactivée sur la plage de ports utilisée pour l’acheminement des flux audio, vidéo et de vidéo panoramique. 
   
-Alors que cela peut sembler un bit complexe dans un premier temps, l’essentiel pour la planification de ce peut être effectuée à l’aide de la [Skype pour l’outil de planification de Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Une fois que vous avez vérifié les questions de l’Assistant sur les fonctionnalités que vous prévoyez d’utiliser, pour chaque site que vous définissez vous pouvez afficher le rapport de pare-feu dans le rapport et utiliser les informations pour créer des règles yourfirewall répertoriées. Vous pouvez également ajuster à la plupart des noms et des adresses IP utilisées, pour plus d’informations consultez [examen du rapport de pare-feu](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Gardez en vous pouvez exporter le rapport vers une feuille de calcul Excel, et le rapport de pare-feu sera une des feuilles de calcul dans le fichier. 
+Alors que cela peut sembler un bit complexe dans un premier temps, l’essentiel pour la planification de ce peut être effectuée à l’aide de la [Skype pour l’outil de planification de Business Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725). Une fois que vous avez vérifié les questions de l’Assistant sur les fonctionnalités que vous prévoyez d’utiliser, pour chaque site que vous définissez vous pouvez afficher le rapport de pare-feu dans le rapport et utiliser les informations pour créer des règles yourfirewall répertoriées. Vous pouvez également ajuster à la plupart des noms et des adresses IP utilisées, pour plus d’informations consultez [examen du rapport de pare-feu](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Gardez en vous pouvez exporter le rapport vers une feuille de calcul Excel, et le rapport de pare-feu sera une des feuilles de calcul dans le fichier. 
   
 Vous trouverez également les informations dans ces tables sous forme de diagramme en examinant le poster des charges de protocole lié déconnecte l’article [Technical diagrams pour Skype pour Business Server 2015](../../technical-diagrams.md) .
   
