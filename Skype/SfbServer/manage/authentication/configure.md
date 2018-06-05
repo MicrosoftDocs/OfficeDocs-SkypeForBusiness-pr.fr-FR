@@ -11,202 +11,202 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Résumé : Configurez l’authentification à deux facteurs dans Skype pour Business Server 2015.'
-ms.openlocfilehash: f7394c0415fb14698ae837c4604f1a2ceaa22931
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 96e1e355aa248b8cfc0ac1efbca7e41f056022be
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504648"
+ms.locfileid: "19569116"
 ---
-# <a name="configure-two-factor-authentication-in-skype-for-business-server-2015"></a><span data-ttu-id="c24c0-103">Configuration de l’authentification à deux facteurs dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="c24c0-103">Configure two-factor authentication in Skype for Business Server 2015</span></span>
+# <a name="configure-two-factor-authentication-in-skype-for-business-server-2015"></a><span data-ttu-id="46932-103">Configuration de l’authentification à deux facteurs dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="46932-103">Configure two-factor authentication in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="c24c0-104">**Résumé :** Configurer l’authentification à deux facteurs dans Skype pour Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="c24c0-104">**Summary:** Configure two-factor authentication in Skype for Business Server 2015.</span></span>
+<span data-ttu-id="46932-104">**Résumé :** Configurer l’authentification à deux facteurs dans Skype pour Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="46932-104">**Summary:** Configure two-factor authentication in Skype for Business Server 2015.</span></span>
   
-<span data-ttu-id="c24c0-105">Les sections ci-dessous décrivent la procédure de configuration de l’authentification à deux facteurs pour votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="c24c0-105">The following sections describe the steps necessary to configure two-factor authentication for your deployment.</span></span> <span data-ttu-id="c24c0-106">Pour plus d’informations sur l’authentification à deux facteurs, voir [l’authentification multifacteur activation Office 365 pour les administrateurs en ligne - grille utilisateur Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).</span><span class="sxs-lookup"><span data-stu-id="c24c0-106">For more information about Two-factor authentication, see [Enabling Office 365 multi-factor authentication for online administrators - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).</span></span>
+<span data-ttu-id="46932-105">Les sections ci-dessous décrivent la procédure de configuration de l’authentification à deux facteurs pour votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="46932-105">The following sections describe the steps necessary to configure two-factor authentication for your deployment.</span></span> <span data-ttu-id="46932-106">Pour plus d’informations sur l’authentification à deux facteurs, voir [l’authentification multifacteur activation Office 365 pour les administrateurs en ligne - grille utilisateur Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).</span><span class="sxs-lookup"><span data-stu-id="46932-106">For more information about Two-factor authentication, see [Enabling Office 365 multi-factor authentication for online administrators - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).</span></span>
   
-## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a><span data-ttu-id="c24c0-107">Configuration d’une autorité de certification racine d’entreprise pour prendre en charge l’authentification par carte à puce</span><span class="sxs-lookup"><span data-stu-id="c24c0-107">Configure an Enterprise Root Certificate Authority to Support Smart Card Authentication</span></span>
+## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a><span data-ttu-id="46932-107">Configuration d’une autorité de certification racine d’entreprise pour prendre en charge l’authentification par carte à puce</span><span class="sxs-lookup"><span data-stu-id="46932-107">Configure an Enterprise Root Certificate Authority to Support Smart Card Authentication</span></span>
 
-<span data-ttu-id="c24c0-108">La procédure ci-dessous décrit la configuration d’une autorité de certification racine d’entreprise pour prendre en charge l’authentification par carte à puce :</span><span class="sxs-lookup"><span data-stu-id="c24c0-108">The following steps describe how to configure an Enterprise Root CA to support Smart Card Authentication:</span></span>
+<span data-ttu-id="46932-108">La procédure ci-dessous décrit la configuration d’une autorité de certification racine d’entreprise pour prendre en charge l’authentification par carte à puce :</span><span class="sxs-lookup"><span data-stu-id="46932-108">The following steps describe how to configure an Enterprise Root CA to support Smart Card Authentication:</span></span>
   
-<span data-ttu-id="c24c0-109">Pour plus d’informations sur l’installation d’une autorité de certification racine d’entreprise, voir [installer une autorité de Certification racine entreprise](https://go.microsoft.com/fwlink/p/?LinkID=313364).</span><span class="sxs-lookup"><span data-stu-id="c24c0-109">For information on how to install an Enterprise Root CA, see [Install an Enterprise Root Certification Authority](https://go.microsoft.com/fwlink/p/?LinkID=313364).</span></span>
+<span data-ttu-id="46932-109">Pour plus d’informations sur l’installation d’une autorité de certification racine d’entreprise, voir [installer une autorité de Certification racine entreprise](https://go.microsoft.com/fwlink/p/?LinkID=313364).</span><span class="sxs-lookup"><span data-stu-id="46932-109">For information on how to install an Enterprise Root CA, see [Install an Enterprise Root Certification Authority](https://go.microsoft.com/fwlink/p/?LinkID=313364).</span></span>
   
-1. <span data-ttu-id="c24c0-110">Connectez-vous à l’ordinateur de l’autorité de certification d’entreprise à l’aide d’un compte d’administrateur de domaine.</span><span class="sxs-lookup"><span data-stu-id="c24c0-110">Log in to the Enterprise CA computer using a Domain Admin account.</span></span>
+1. <span data-ttu-id="46932-110">Connectez-vous à l’ordinateur de l’autorité de certification d’entreprise à l’aide d’un compte d’administrateur de domaine.</span><span class="sxs-lookup"><span data-stu-id="46932-110">Log in to the Enterprise CA computer using a Domain Admin account.</span></span>
     
-2. <span data-ttu-id="c24c0-111">Lancez le gestionnaire système, puis vérifiez que le rôle Inscription de l’autorité de certification par le biais du web est installé.</span><span class="sxs-lookup"><span data-stu-id="c24c0-111">Launch System Manager, and verify that the Certificate Authority Web Enrollment role is installed.</span></span>
+2. <span data-ttu-id="46932-111">Lancez le gestionnaire système, puis vérifiez que le rôle Inscription de l’autorité de certification par le biais du web est installé.</span><span class="sxs-lookup"><span data-stu-id="46932-111">Launch System Manager, and verify that the Certificate Authority Web Enrollment role is installed.</span></span>
     
-3. <span data-ttu-id="c24c0-112">Dans le menu **Outils d’administration**, ouvrez la console de gestion **Autorité de certification**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-112">From the **Administrative Tools** menu, open the **Certification Authority** management console.</span></span>
+3. <span data-ttu-id="46932-112">Dans le menu **Outils d’administration**, ouvrez la console de gestion **Autorité de certification**.</span><span class="sxs-lookup"><span data-stu-id="46932-112">From the **Administrative Tools** menu, open the **Certification Authority** management console.</span></span>
     
-4. <span data-ttu-id="c24c0-113">Dans le volet de navigation, développez **Autorité de certification**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-113">In the Navigation pane, expand **Certification Authority**.</span></span>
+4. <span data-ttu-id="46932-113">Dans le volet de navigation, développez **Autorité de certification**.</span><span class="sxs-lookup"><span data-stu-id="46932-113">In the Navigation pane, expand **Certification Authority**.</span></span>
     
-5. <span data-ttu-id="c24c0-114">Cliquez avec le bouton droit sur **Modèles de certificat**, sélectionnez **Nouveau**, puis **Modèle de certificat à délivrer**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-114">Right click on **Certificate Templates**, select **New**, then select **Certificate Template to Issue**.</span></span>
+5. <span data-ttu-id="46932-114">Cliquez avec le bouton droit sur **Modèles de certificat**, sélectionnez **Nouveau**, puis **Modèle de certificat à délivrer**.</span><span class="sxs-lookup"><span data-stu-id="46932-114">Right click on **Certificate Templates**, select **New**, then select **Certificate Template to Issue**.</span></span>
     
-6. <span data-ttu-id="c24c0-115">Sélectionnez **Agent d’inscription**, **Utilisateur de carte à puce** et **Connexion par carte à puce**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-115">Select **Enrollment Agent**, **Smartcard User**, and **Smartcard Logon**.</span></span>
+6. <span data-ttu-id="46932-115">Sélectionnez **Agent d’inscription**, **Utilisateur de carte à puce** et **Connexion par carte à puce**.</span><span class="sxs-lookup"><span data-stu-id="46932-115">Select **Enrollment Agent**, **Smartcard User**, and **Smartcard Logon**.</span></span>
     
-7. <span data-ttu-id="c24c0-116">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-116">Click **OK**.</span></span>
+7. <span data-ttu-id="46932-116">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="46932-116">Click **OK**.</span></span>
     
-8. <span data-ttu-id="c24c0-117">Cliquez avec le bouton droit sur **Modèles de certificat**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-117">Right click on **Certificate Templates**.</span></span>
+8. <span data-ttu-id="46932-117">Cliquez avec le bouton droit sur **Modèles de certificat**.</span><span class="sxs-lookup"><span data-stu-id="46932-117">Right click on **Certificate Templates**.</span></span>
     
-9. <span data-ttu-id="c24c0-118">Sélectionnez **Gérer**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-118">Select **Manage**.</span></span>
+9. <span data-ttu-id="46932-118">Sélectionnez **Gérer**.</span><span class="sxs-lookup"><span data-stu-id="46932-118">Select **Manage**.</span></span>
     
-10. <span data-ttu-id="c24c0-119">Ouvrez les propriétés du modèle utilisateur de carte à puce.</span><span class="sxs-lookup"><span data-stu-id="c24c0-119">Open the properties of the Smartcard User template.</span></span>
+10. <span data-ttu-id="46932-119">Ouvrez les propriétés du modèle utilisateur de carte à puce.</span><span class="sxs-lookup"><span data-stu-id="46932-119">Open the properties of the Smartcard User template.</span></span>
     
-11. <span data-ttu-id="c24c0-120">Cliquez sur l’onglet **Sécurité**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-120">Click on the **Security** tab.</span></span>
+11. <span data-ttu-id="46932-120">Cliquez sur l’onglet **Sécurité**.</span><span class="sxs-lookup"><span data-stu-id="46932-120">Click on the **Security** tab.</span></span>
     
-12. <span data-ttu-id="c24c0-121">Modifiez les autorisations, comme suit :</span><span class="sxs-lookup"><span data-stu-id="c24c0-121">Change the permissions as follows:</span></span>
+12. <span data-ttu-id="46932-121">Modifiez les autorisations, comme suit :</span><span class="sxs-lookup"><span data-stu-id="46932-121">Change the permissions as follows:</span></span>
     
-    - <span data-ttu-id="c24c0-122">Ajoutez des comptes Active Directory d’utilisateurs individuels avec les autorisations Lire/Inscrire (Autoriser) ou</span><span class="sxs-lookup"><span data-stu-id="c24c0-122">Add individual user AD accounts with Read/Enroll (Allow) permissions, or</span></span>
+    - <span data-ttu-id="46932-122">Ajoutez des comptes Active Directory d’utilisateurs individuels avec les autorisations Lire/Inscrire (Autoriser) ou</span><span class="sxs-lookup"><span data-stu-id="46932-122">Add individual user AD accounts with Read/Enroll (Allow) permissions, or</span></span>
     
-    - <span data-ttu-id="c24c0-123">Ajoutez un groupe de sécurité contenant des utilisateurs de carte à puce avec les autorisations Lire/Inscrire (Autoriser) ou</span><span class="sxs-lookup"><span data-stu-id="c24c0-123">Add a security group containing smart card users with Read/Enroll (Allow) permissions, or</span></span>
+    - <span data-ttu-id="46932-123">Ajoutez un groupe de sécurité contenant des utilisateurs de carte à puce avec les autorisations Lire/Inscrire (Autoriser) ou</span><span class="sxs-lookup"><span data-stu-id="46932-123">Add a security group containing smart card users with Read/Enroll (Allow) permissions, or</span></span>
     
-    - <span data-ttu-id="c24c0-124">Ajoutez le groupe Utilisateurs du domaine avec les autorisations Lire/Inscrire (Autoriser).</span><span class="sxs-lookup"><span data-stu-id="c24c0-124">Add the Domain Users group with Read/Enroll (Allow) permissions</span></span>
+    - <span data-ttu-id="46932-124">Ajoutez le groupe Utilisateurs du domaine avec les autorisations Lire/Inscrire (Autoriser).</span><span class="sxs-lookup"><span data-stu-id="46932-124">Add the Domain Users group with Read/Enroll (Allow) permissions</span></span>
     
-## <a name="configure-windows-8-for-virtual-smart-cards"></a><span data-ttu-id="c24c0-125">Configuration de Windows 8 pour les cartes à puce virtuelles</span><span class="sxs-lookup"><span data-stu-id="c24c0-125">Configure Windows 8 for Virtual Smart Cards</span></span>
+## <a name="configure-windows-8-for-virtual-smart-cards"></a><span data-ttu-id="46932-125">Configuration de Windows 8 pour les cartes à puce virtuelles</span><span class="sxs-lookup"><span data-stu-id="46932-125">Configure Windows 8 for Virtual Smart Cards</span></span>
 
-<span data-ttu-id="c24c0-126">Le coût de mise en œuvre est l’un des facteurs à prendre en compte dans le cadre du déploiement de l’authentification à deux facteurs et de la technologie de carte à puce.</span><span class="sxs-lookup"><span data-stu-id="c24c0-126">One factor to consider when deploying two-factor authentication and smart card technology is the cost of implementation.</span></span> <span data-ttu-id="c24c0-127">Windows 8 fournit un certain nombre de nouvelles fonctionnalités de sécurité et une des nouvelles fonctionnalités plus intéressantes est prise en charge des cartes à puce virtuelles.</span><span class="sxs-lookup"><span data-stu-id="c24c0-127">Windows 8 provides a number of new security capabilities, and one of the most interesting new features is support for virtual smart cards.</span></span>
+<span data-ttu-id="46932-126">Le coût de mise en œuvre est l’un des facteurs à prendre en compte dans le cadre du déploiement de l’authentification à deux facteurs et de la technologie de carte à puce.</span><span class="sxs-lookup"><span data-stu-id="46932-126">One factor to consider when deploying two-factor authentication and smart card technology is the cost of implementation.</span></span> <span data-ttu-id="46932-127">Windows 8 fournit un certain nombre de nouvelles fonctionnalités de sécurité et une des nouvelles fonctionnalités plus intéressantes est prise en charge des cartes à puce virtuelles.</span><span class="sxs-lookup"><span data-stu-id="46932-127">Windows 8 provides a number of new security capabilities, and one of the most interesting new features is support for virtual smart cards.</span></span>
   
-<span data-ttu-id="c24c0-128">Pour les ordinateurs équipés d’une puce de module de plateforme sécurisée conforme à la spécification version 1.2, les organisations peuvent désormais tirer parti des avantages d’une ouverture de session par carte à puce sans investissement matériel supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="c24c0-128">For computers equipped with a Trusted Platform Module (TPM) chip that meets specification version 1.2, organizations can now get the benefits of smart card logon without making any additional investments in hardware.</span></span> <span data-ttu-id="c24c0-129">Pour plus d’informations, voir [l’aide de cartes à puce virtuel avec Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).</span><span class="sxs-lookup"><span data-stu-id="c24c0-129">For more information, see [Using Virtual Smart Cards with Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).</span></span>
+<span data-ttu-id="46932-128">Pour les ordinateurs équipés d’une puce de module de plateforme sécurisée conforme à la spécification version 1.2, les organisations peuvent désormais tirer parti des avantages d’une ouverture de session par carte à puce sans investissement matériel supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="46932-128">For computers equipped with a Trusted Platform Module (TPM) chip that meets specification version 1.2, organizations can now get the benefits of smart card logon without making any additional investments in hardware.</span></span> <span data-ttu-id="46932-129">Pour plus d’informations, voir [l’aide de cartes à puce virtuel avec Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).</span><span class="sxs-lookup"><span data-stu-id="46932-129">For more information, see [Using Virtual Smart Cards with Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).</span></span>
   
-### <a name="to-configure-windows-8-for-virtual-smart-cards"></a><span data-ttu-id="c24c0-130">Configuration de Windows 8 pour les cartes à puce virtuelles</span><span class="sxs-lookup"><span data-stu-id="c24c0-130">To Configure Windows 8 for Virtual Smart Cards</span></span>
+### <a name="to-configure-windows-8-for-virtual-smart-cards"></a><span data-ttu-id="46932-130">Configuration de Windows 8 pour les cartes à puce virtuelles</span><span class="sxs-lookup"><span data-stu-id="46932-130">To Configure Windows 8 for Virtual Smart Cards</span></span>
 
-1. <span data-ttu-id="c24c0-131">Connectez-vous à l’ordinateur Windows 8 à l’aide les informations d’identification d’un Skype pour utilisateur à extension Business.</span><span class="sxs-lookup"><span data-stu-id="c24c0-131">Log in to the Windows 8 computer using the credentials of a Skype for Business-enabled user.</span></span>
+1. <span data-ttu-id="46932-131">Connectez-vous à l’ordinateur Windows 8 à l’aide les informations d’identification d’un Skype pour utilisateur à extension Business.</span><span class="sxs-lookup"><span data-stu-id="46932-131">Log in to the Windows 8 computer using the credentials of a Skype for Business-enabled user.</span></span>
     
-2. <span data-ttu-id="c24c0-132">Dans l’écran d’accueil de Windows 8, déplacez votre curseur dans le coin droit inférieur de l’écran.</span><span class="sxs-lookup"><span data-stu-id="c24c0-132">At the Windows 8 Start screen, move your cursor to the bottom right corner of the screen.</span></span>
+2. <span data-ttu-id="46932-132">Dans l’écran d’accueil de Windows 8, déplacez votre curseur dans le coin droit inférieur de l’écran.</span><span class="sxs-lookup"><span data-stu-id="46932-132">At the Windows 8 Start screen, move your cursor to the bottom right corner of the screen.</span></span>
     
-3. <span data-ttu-id="c24c0-133">Sélectionnez l’option de **recherche** , puis recherchez forCommand invite.</span><span class="sxs-lookup"><span data-stu-id="c24c0-133">Select the **Search** option, and then search forCommand Prompt.</span></span>
+3. <span data-ttu-id="46932-133">Sélectionnez l’option de **recherche** , puis recherchez forCommand invite.</span><span class="sxs-lookup"><span data-stu-id="46932-133">Select the **Search** option, and then search forCommand Prompt.</span></span>
     
-4. <span data-ttu-id="c24c0-134">Cliquez avec le bouton droit sur **Invite de commandes**, puis sélectionnez **Exécuter en tant qu’administrateur**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-134">Right click on **Command Prompt**, and then select **Run as Administrator**.</span></span>
+4. <span data-ttu-id="46932-134">Cliquez avec le bouton droit sur **Invite de commandes**, puis sélectionnez **Exécuter en tant qu’administrateur**.</span><span class="sxs-lookup"><span data-stu-id="46932-134">Right click on **Command Prompt**, and then select **Run as Administrator**.</span></span>
     
-5. <span data-ttu-id="c24c0-135">Ouvrez la console de gestion du module de plateforme sécurisée en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="c24c0-135">Open the Trusted Platform Module (TPM) Management console by running the following command:</span></span>
+5. <span data-ttu-id="46932-135">Ouvrez la console de gestion du module de plateforme sécurisée en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="46932-135">Open the Trusted Platform Module (TPM) Management console by running the following command:</span></span>
     
   ```
   Tpm.msc
   ```
 
-6. <span data-ttu-id="c24c0-136">À partir de la console de gestion du module de plateforme sécurisée, vérifiez que la spécification du module de plateforme sécurisée correspond à la version 1.2 au minimum.</span><span class="sxs-lookup"><span data-stu-id="c24c0-136">From the TPM management console, verify that your TPM specification version is at least 1.2</span></span>
+6. <span data-ttu-id="46932-136">À partir de la console de gestion du module de plateforme sécurisée, vérifiez que la spécification du module de plateforme sécurisée correspond à la version 1.2 au minimum.</span><span class="sxs-lookup"><span data-stu-id="46932-136">From the TPM management console, verify that your TPM specification version is at least 1.2</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="c24c0-137">Si un message indiquant qu’aucun module de plateforme sécurisée compatible n’a été trouvé, vérifiez que l’ordinateur dispose d’un module de plateforme sécurisée compatible et que celui-ci est activé dans le BIOS système.</span><span class="sxs-lookup"><span data-stu-id="c24c0-137">If you receive a dialog stating that a Compatible Trust Platform Module (TPM) cannot be found, verify that the computer has a compatible TPM module and that it is enabled in the system BIOS.</span></span> 
+    > <span data-ttu-id="46932-137">Si un message indiquant qu’aucun module de plateforme sécurisée compatible n’a été trouvé, vérifiez que l’ordinateur dispose d’un module de plateforme sécurisée compatible et que celui-ci est activé dans le BIOS système.</span><span class="sxs-lookup"><span data-stu-id="46932-137">If you receive a dialog stating that a Compatible Trust Platform Module (TPM) cannot be found, verify that the computer has a compatible TPM module and that it is enabled in the system BIOS.</span></span> 
   
-7. <span data-ttu-id="c24c0-138">Fermez la console de gestion du module de plateforme sécurisée.</span><span class="sxs-lookup"><span data-stu-id="c24c0-138">Close the TPM management console</span></span>
+7. <span data-ttu-id="46932-138">Fermez la console de gestion du module de plateforme sécurisée.</span><span class="sxs-lookup"><span data-stu-id="46932-138">Close the TPM management console</span></span>
     
-8. <span data-ttu-id="c24c0-139">Dans l’invite de commandes, créez une carte à puce virtuelle à l’aide de la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="c24c0-139">From the command prompt, create a new virtual smart card using the following command:</span></span>
+8. <span data-ttu-id="46932-139">Dans l’invite de commandes, créez une carte à puce virtuelle à l’aide de la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="46932-139">From the command prompt, create a new virtual smart card using the following command:</span></span>
     
   ```
   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
   ```
 
     > [!NOTE]
-    > <span data-ttu-id="c24c0-140">Pour indiquer une valeur de code confidentiel personnalisée lors de la création de la carte à puce virtuelle, utilisez plutôt l’invite /pin.</span><span class="sxs-lookup"><span data-stu-id="c24c0-140">To provide a custom PIN value when creating the virtual smart card, use /pin prompt instead.</span></span> 
+    > <span data-ttu-id="46932-140">Pour indiquer une valeur de code confidentiel personnalisée lors de la création de la carte à puce virtuelle, utilisez plutôt l’invite /pin.</span><span class="sxs-lookup"><span data-stu-id="46932-140">To provide a custom PIN value when creating the virtual smart card, use /pin prompt instead.</span></span> 
   
-9. <span data-ttu-id="c24c0-141">Dans l’invite de commandes, ouvrez la console de gestion de l’ordinateur en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="c24c0-141">From the command prompt, open the Computer Management console by running the following command:</span></span>
+9. <span data-ttu-id="46932-141">Dans l’invite de commandes, ouvrez la console de gestion de l’ordinateur en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="46932-141">From the command prompt, open the Computer Management console by running the following command:</span></span>
     
   ```
   CompMgmt.msc
   ```
 
-10. <span data-ttu-id="c24c0-142">Dans la console de gestion de l’ordinateur, sélectionnez **Gestion des périphériques**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-142">In the Computer Management console, select **Device Management**.</span></span>
+10. <span data-ttu-id="46932-142">Dans la console de gestion de l’ordinateur, sélectionnez **Gestion des périphériques**.</span><span class="sxs-lookup"><span data-stu-id="46932-142">In the Computer Management console, select **Device Management**.</span></span>
     
-11. <span data-ttu-id="c24c0-143">Développez **Lecteurs de cartes à puce**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-143">Expand **Smart card readers**.</span></span>
+11. <span data-ttu-id="46932-143">Développez **Lecteurs de cartes à puce**.</span><span class="sxs-lookup"><span data-stu-id="46932-143">Expand **Smart card readers**.</span></span>
     
-12. <span data-ttu-id="c24c0-144">Vérifiez que le lecteur de cartes à puce virtuelles a bien été créé.</span><span class="sxs-lookup"><span data-stu-id="c24c0-144">Verify that the new virtual smart card reader has been created successfully.</span></span>
+12. <span data-ttu-id="46932-144">Vérifiez que le lecteur de cartes à puce virtuelles a bien été créé.</span><span class="sxs-lookup"><span data-stu-id="46932-144">Verify that the new virtual smart card reader has been created successfully.</span></span>
     
-## <a name="enroll-users-for-smart-card-authentication"></a><span data-ttu-id="c24c0-145">Inscription d’utilisateurs pour l’authentification par carte à puce</span><span class="sxs-lookup"><span data-stu-id="c24c0-145">Enroll users for smart card authentication</span></span>
+## <a name="enroll-users-for-smart-card-authentication"></a><span data-ttu-id="46932-145">Inscription d’utilisateurs pour l’authentification par carte à puce</span><span class="sxs-lookup"><span data-stu-id="46932-145">Enroll users for smart card authentication</span></span>
 
-<span data-ttu-id="c24c0-p104">Deux méthodes permettent d’inscrire les utilisateurs pour l’authentification par carte à puce. La méthode la plus simple consiste à faire s’inscrire directement les utilisateurs pour l’authentification par carte à puce par l’inscription par le biais du web. La méthode la plus complexe implique d’utiliser un agent d’inscription. Cette rubrique décrit l’inscription automatique pour les certificats de carte à puce.</span><span class="sxs-lookup"><span data-stu-id="c24c0-p104">There are generally two methods for enrolling users for smart card authentication. The easier method involves having users enroll directly for smart card authentication using web enrollment, while the more complex method involves using an enrollment agent. This topic focuses on self-enrollment for smartcard certificates.</span></span>
+<span data-ttu-id="46932-p104">Deux méthodes permettent d’inscrire les utilisateurs pour l’authentification par carte à puce. La méthode la plus simple consiste à faire s’inscrire directement les utilisateurs pour l’authentification par carte à puce par l’inscription par le biais du web. La méthode la plus complexe implique d’utiliser un agent d’inscription. Cette rubrique décrit l’inscription automatique pour les certificats de carte à puce.</span><span class="sxs-lookup"><span data-stu-id="46932-p104">There are generally two methods for enrolling users for smart card authentication. The easier method involves having users enroll directly for smart card authentication using web enrollment, while the more complex method involves using an enrollment agent. This topic focuses on self-enrollment for smartcard certificates.</span></span>
   
-<span data-ttu-id="c24c0-149">Pour plus d’informations sur l’inscription des utilisateurs pour le compte comme un agent d’inscription, voir [inscription aux certificats pour les autres utilisateurs](https://go.microsoft.com/fwlink/p/?LinkID=313367).</span><span class="sxs-lookup"><span data-stu-id="c24c0-149">For more information on enrolling on behalf of users as an enrollment agent, see [Enroll for Certificates on Behalf of Other Users](https://go.microsoft.com/fwlink/p/?LinkID=313367).</span></span>
+<span data-ttu-id="46932-149">Pour plus d’informations sur l’inscription des utilisateurs pour le compte comme un agent d’inscription, voir [inscription aux certificats pour les autres utilisateurs](https://go.microsoft.com/fwlink/p/?LinkID=313367).</span><span class="sxs-lookup"><span data-stu-id="46932-149">For more information on enrolling on behalf of users as an enrollment agent, see [Enroll for Certificates on Behalf of Other Users](https://go.microsoft.com/fwlink/p/?LinkID=313367).</span></span>
   
-### <a name="to-enroll-users-for-smart-card-authentication"></a><span data-ttu-id="c24c0-150">Inscription des utilisateurs pour l’authentification par carte à puce</span><span class="sxs-lookup"><span data-stu-id="c24c0-150">To Enroll Users for Smart Card Authentication</span></span>
+### <a name="to-enroll-users-for-smart-card-authentication"></a><span data-ttu-id="46932-150">Inscription des utilisateurs pour l’authentification par carte à puce</span><span class="sxs-lookup"><span data-stu-id="46932-150">To Enroll Users for Smart Card Authentication</span></span>
 
-1. <span data-ttu-id="c24c0-151">Connectez-vous à la station de travail Windows 8 à l’aide les informations d’identification d’un Skype pour utilisateur à extension Business.</span><span class="sxs-lookup"><span data-stu-id="c24c0-151">Log in to the Windows 8 workstation using the credentials of a Skype for Business-enabled user.</span></span>
+1. <span data-ttu-id="46932-151">Connectez-vous à la station de travail Windows 8 à l’aide les informations d’identification d’un Skype pour utilisateur à extension Business.</span><span class="sxs-lookup"><span data-stu-id="46932-151">Log in to the Windows 8 workstation using the credentials of a Skype for Business-enabled user.</span></span>
     
-2. <span data-ttu-id="c24c0-152">Lancez Internet Explorer.</span><span class="sxs-lookup"><span data-stu-id="c24c0-152">Launch Internet Explorer.</span></span>
+2. <span data-ttu-id="46932-152">Lancez Internet Explorer.</span><span class="sxs-lookup"><span data-stu-id="46932-152">Launch Internet Explorer.</span></span>
     
-3. <span data-ttu-id="c24c0-153">Accédez à la page **Web d’inscription autorité de certificat** (par exemple, https://MyCA.contoso.com/certsrv).</span><span class="sxs-lookup"><span data-stu-id="c24c0-153">Browse to the **Certificate Authority Web Enrollment** page (e.g. https://MyCA.contoso.com/certsrv).</span></span>
+3. <span data-ttu-id="46932-153">Accédez à la page **Web d’inscription autorité de certificat** (par exemple, https://MyCA.contoso.com/certsrv).</span><span class="sxs-lookup"><span data-stu-id="46932-153">Browse to the **Certificate Authority Web Enrollment** page (e.g. https://MyCA.contoso.com/certsrv).</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="c24c0-154">Si vous utilisez Internet Explorer 10, vous devrez peut-être afficher ce site web en mode de compatibilité.</span><span class="sxs-lookup"><span data-stu-id="c24c0-154">If you are using Internet Explorer 10, you may need to view this website in Compatibility Mode.</span></span> 
+    > <span data-ttu-id="46932-154">Si vous utilisez Internet Explorer 10, vous devrez peut-être afficher ce site web en mode de compatibilité.</span><span class="sxs-lookup"><span data-stu-id="46932-154">If you are using Internet Explorer 10, you may need to view this website in Compatibility Mode.</span></span> 
   
-4. <span data-ttu-id="c24c0-155">Dans la page **Bienvenue**, sélectionnez **Demander un certificat**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-155">On the **Welcome** Page, select **Request a certificate**.</span></span>
+4. <span data-ttu-id="46932-155">Dans la page **Bienvenue**, sélectionnez **Demander un certificat**.</span><span class="sxs-lookup"><span data-stu-id="46932-155">On the **Welcome** Page, select **Request a certificate**.</span></span>
     
-5. <span data-ttu-id="c24c0-156">Sélectionnez ensuite **Demande avancée**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-156">Next, select **Advanced Request**.</span></span>
+5. <span data-ttu-id="46932-156">Sélectionnez ensuite **Demande avancée**.</span><span class="sxs-lookup"><span data-stu-id="46932-156">Next, select **Advanced Request**.</span></span>
     
-6. <span data-ttu-id="c24c0-157">Sélectionnez **Créer et envoyer une demande de requête auprès de cette autorité de certification**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-157">Select **Create and submit a request to this CA**.</span></span>
+6. <span data-ttu-id="46932-157">Sélectionnez **Créer et envoyer une demande de requête auprès de cette autorité de certification**.</span><span class="sxs-lookup"><span data-stu-id="46932-157">Select **Create and submit a request to this CA**.</span></span>
     
-7. <span data-ttu-id="c24c0-158">Sélectionnez **Utilisateur de carte à puce** sous la section **Modèle de certificat**, puis remplissez la demande de certificat avancée avec les valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="c24c0-158">Select **Smartcard User** under the **Certificate Template** section and complete the advanced certificate request with the following values:</span></span>
+7. <span data-ttu-id="46932-158">Sélectionnez **Utilisateur de carte à puce** sous la section **Modèle de certificat**, puis remplissez la demande de certificat avancée avec les valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="46932-158">Select **Smartcard User** under the **Certificate Template** section and complete the advanced certificate request with the following values:</span></span>
     
-  - <span data-ttu-id="c24c0-159">Sous **Options des clés**, vérifiez que les paramètres suivants sont sélectionnés :</span><span class="sxs-lookup"><span data-stu-id="c24c0-159">**Key Options** confirm he following settings:</span></span>
+  - <span data-ttu-id="46932-159">Sous **Options des clés**, vérifiez que les paramètres suivants sont sélectionnés :</span><span class="sxs-lookup"><span data-stu-id="46932-159">**Key Options** confirm he following settings:</span></span>
     
-    - <span data-ttu-id="c24c0-160">Sélectionnez la case d’option **Créer un jeu de clés**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-160">Select the **Create new key set** radio button</span></span>
+    - <span data-ttu-id="46932-160">Sélectionnez la case d’option **Créer un jeu de clés**.</span><span class="sxs-lookup"><span data-stu-id="46932-160">Select the **Create new key set** radio button</span></span>
     
-    - <span data-ttu-id="c24c0-161">Dans **Fournisseur de services de chiffrement**, sélectionnez **Fournisseur de services de chiffrement Microsoft pour carte à puce**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-161">For **CSP**, select **Microsoft Base Smart Card Crypto Provider**</span></span>
+    - <span data-ttu-id="46932-161">Dans **Fournisseur de services de chiffrement**, sélectionnez **Fournisseur de services de chiffrement Microsoft pour carte à puce**.</span><span class="sxs-lookup"><span data-stu-id="46932-161">For **CSP**, select **Microsoft Base Smart Card Crypto Provider**</span></span>
     
-    - <span data-ttu-id="c24c0-162">Dans **Utilisation de la clé**, sélectionnez **Exchange** (seule option disponible).</span><span class="sxs-lookup"><span data-stu-id="c24c0-162">For **Key Usage**, select **Exchange** (this is the only option available).</span></span>
+    - <span data-ttu-id="46932-162">Dans **Utilisation de la clé**, sélectionnez **Exchange** (seule option disponible).</span><span class="sxs-lookup"><span data-stu-id="46932-162">For **Key Usage**, select **Exchange** (this is the only option available).</span></span>
     
-    - <span data-ttu-id="c24c0-163">**Taille de la clé**, tapez 2048</span><span class="sxs-lookup"><span data-stu-id="c24c0-163">For **Key Size**, enter 2048</span></span>
+    - <span data-ttu-id="46932-163">**Taille de la clé**, tapez 2048</span><span class="sxs-lookup"><span data-stu-id="46932-163">For **Key Size**, enter 2048</span></span>
     
-    - <span data-ttu-id="c24c0-164">Vérifiez que l’option **Nom de conteneur de clé automatique** est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c24c0-164">Confirm that **Automatic key container name** is selected</span></span>
+    - <span data-ttu-id="46932-164">Vérifiez que l’option **Nom de conteneur de clé automatique** est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="46932-164">Confirm that **Automatic key container name** is selected</span></span>
     
-    - <span data-ttu-id="c24c0-165">Laissez les autres cases à cocher désactivées.</span><span class="sxs-lookup"><span data-stu-id="c24c0-165">Leave the other boxes unchecked.</span></span>
+    - <span data-ttu-id="46932-165">Laissez les autres cases à cocher désactivées.</span><span class="sxs-lookup"><span data-stu-id="46932-165">Leave the other boxes unchecked.</span></span>
     
-  - <span data-ttu-id="c24c0-166">Sous **Options supplémentaires**, vérifiez que les valeurs suivantes sont sélectionnées :</span><span class="sxs-lookup"><span data-stu-id="c24c0-166">Under **Additional Options** confirm the following values:</span></span>
+  - <span data-ttu-id="46932-166">Sous **Options supplémentaires**, vérifiez que les valeurs suivantes sont sélectionnées :</span><span class="sxs-lookup"><span data-stu-id="46932-166">Under **Additional Options** confirm the following values:</span></span>
     
-    - <span data-ttu-id="c24c0-167">Dans **Format de la demande**, sélectionnez **CMC**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-167">For **Request Format** select **CMC**.</span></span>
+    - <span data-ttu-id="46932-167">Dans **Format de la demande**, sélectionnez **CMC**.</span><span class="sxs-lookup"><span data-stu-id="46932-167">For **Request Format** select **CMC**.</span></span>
     
-    - <span data-ttu-id="c24c0-168">Dans **Algorithme de hachage**, sélectionnez **sha1**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-168">For **Hash Algorithm** select **sha1**.</span></span>
+    - <span data-ttu-id="46932-168">Dans **Algorithme de hachage**, sélectionnez **sha1**.</span><span class="sxs-lookup"><span data-stu-id="46932-168">For **Hash Algorithm** select **sha1**.</span></span>
     
-    - <span data-ttu-id="c24c0-169">Pour **Nom convivial** enterSmardcard certificat.</span><span class="sxs-lookup"><span data-stu-id="c24c0-169">For **Friendly Name** enterSmardcard Certificate.</span></span>
+    - <span data-ttu-id="46932-169">Pour **Nom convivial** enterSmardcard certificat.</span><span class="sxs-lookup"><span data-stu-id="46932-169">For **Friendly Name** enterSmardcard Certificate.</span></span>
     
-8. <span data-ttu-id="c24c0-170">Si vous utilisez un lecteur de cartes à puces physiques, insérez la carte à puce dans l’appareil.</span><span class="sxs-lookup"><span data-stu-id="c24c0-170">If you are using a physical smartcard reader, insert the smart card into the device.</span></span>
+8. <span data-ttu-id="46932-170">Si vous utilisez un lecteur de cartes à puces physiques, insérez la carte à puce dans l’appareil.</span><span class="sxs-lookup"><span data-stu-id="46932-170">If you are using a physical smartcard reader, insert the smart card into the device.</span></span>
     
-9. <span data-ttu-id="c24c0-171">Cliquez sur **Envoyer** pour envoyer la demande de certificat.</span><span class="sxs-lookup"><span data-stu-id="c24c0-171">Click **Submit** to submit the certificate request.</span></span>
+9. <span data-ttu-id="46932-171">Cliquez sur **Envoyer** pour envoyer la demande de certificat.</span><span class="sxs-lookup"><span data-stu-id="46932-171">Click **Submit** to submit the certificate request.</span></span>
     
-10. <span data-ttu-id="c24c0-172">Lorsque vous y êtes invité, entrez le code confidentiel utilisé pour créer la carte à puce virtuelle.</span><span class="sxs-lookup"><span data-stu-id="c24c0-172">When prompted, enter the PIN that was used to create the virtual smart card.</span></span>
+10. <span data-ttu-id="46932-172">Lorsque vous y êtes invité, entrez le code confidentiel utilisé pour créer la carte à puce virtuelle.</span><span class="sxs-lookup"><span data-stu-id="46932-172">When prompted, enter the PIN that was used to create the virtual smart card.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="c24c0-173">La valeur de code confidentiel de carte à puce virtuel par défaut est « 12345678 ».</span><span class="sxs-lookup"><span data-stu-id="c24c0-173">The default virtual smart card PIN value is '12345678'.</span></span> 
+    > <span data-ttu-id="46932-173">La valeur de code confidentiel de carte à puce virtuel par défaut est « 12345678 ».</span><span class="sxs-lookup"><span data-stu-id="46932-173">The default virtual smart card PIN value is '12345678'.</span></span> 
   
-11. <span data-ttu-id="c24c0-174">Une fois le certificat émis, cliquez sur **Installer ce certificat** pour terminer la procédure d’inscription.</span><span class="sxs-lookup"><span data-stu-id="c24c0-174">Once the certificate has been issued, click **Install this certificate** to complete the enrollment process.</span></span>
+11. <span data-ttu-id="46932-174">Une fois le certificat émis, cliquez sur **Installer ce certificat** pour terminer la procédure d’inscription.</span><span class="sxs-lookup"><span data-stu-id="46932-174">Once the certificate has been issued, click **Install this certificate** to complete the enrollment process.</span></span>
     
     > [!NOTE]
-    >  <span data-ttu-id="c24c0-175">Si votre demande de certificat échoue avec l’erreur « ce navigateur Web ne prend pas en charge la génération de demandes de certificats », il existe trois méthodes permettant de résoudre le problème :</span><span class="sxs-lookup"><span data-stu-id="c24c0-175">If your certificate request fails with the error "This Web browser does not support the generation of certificate requests," there are three possible ways to resolve the issue:</span></span>
+    >  <span data-ttu-id="46932-175">Si votre demande de certificat échoue avec l’erreur « ce navigateur Web ne prend pas en charge la génération de demandes de certificats », il existe trois méthodes permettant de résoudre le problème :</span><span class="sxs-lookup"><span data-stu-id="46932-175">If your certificate request fails with the error "This Web browser does not support the generation of certificate requests," there are three possible ways to resolve the issue:</span></span>
   
         a. Enable Compatibility View in Internet Explorer 
         b. Enable the Turn on Intranet settings option in Internet Explorer 
         c. Select the Reset all zones to default level setting under the Security tab in the Internet Explorer options menu.
   
-## <a name="configure-active-directory-federation-services-ad-fs-20"></a><span data-ttu-id="c24c0-176">Configuration d’Active Directory Federation Services (AD FS 2.0)</span><span class="sxs-lookup"><span data-stu-id="c24c0-176">Configure Active Directory Federation Services (AD FS 2.0)</span></span>
+## <a name="configure-active-directory-federation-services-ad-fs-20"></a><span data-ttu-id="46932-176">Configuration d’Active Directory Federation Services (AD FS 2.0)</span><span class="sxs-lookup"><span data-stu-id="46932-176">Configure Active Directory Federation Services (AD FS 2.0)</span></span>
 
-<span data-ttu-id="c24c0-177">Cette section décrit la configuration d’Active Directory Federation Services (AD FS 2.0) pour prendre en charge l’authentification multifacteur.</span><span class="sxs-lookup"><span data-stu-id="c24c0-177">The following section describes how to configure Active Directory Federation Services (AD FS 2.0) to support multi-factor authentication.</span></span> <span data-ttu-id="c24c0-178">Pour plus d’informations sur l’installation des services AD FS 2.0, voir [AD FS 2.0 Step et comment Guides](https://go.microsoft.com/fwlink/p/?LinkId=313374).</span><span class="sxs-lookup"><span data-stu-id="c24c0-178">For information on how to install AD FS 2.0, see [AD FS 2.0 Step-by-Step and How To Guides](https://go.microsoft.com/fwlink/p/?LinkId=313374).</span></span>
+<span data-ttu-id="46932-177">Cette section décrit la configuration d’Active Directory Federation Services (AD FS 2.0) pour prendre en charge l’authentification multifacteur.</span><span class="sxs-lookup"><span data-stu-id="46932-177">The following section describes how to configure Active Directory Federation Services (AD FS 2.0) to support multi-factor authentication.</span></span> <span data-ttu-id="46932-178">Pour plus d’informations sur l’installation des services AD FS 2.0, voir [AD FS 2.0 Step et comment Guides](https://go.microsoft.com/fwlink/p/?LinkId=313374).</span><span class="sxs-lookup"><span data-stu-id="46932-178">For information on how to install AD FS 2.0, see [AD FS 2.0 Step-by-Step and How To Guides](https://go.microsoft.com/fwlink/p/?LinkId=313374).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="c24c0-179">Lorsque vous installez AD FS 2.0, vous ne devez pas utiliser le Gestionnaire de serveur Windows pour ajouter le rôle Active Directory Federation Services.</span><span class="sxs-lookup"><span data-stu-id="c24c0-179">When installing AD FS 2.0, do not use the Windows Server Manager to add the Active Directory Federation Services role.</span></span> <span data-ttu-id="c24c0-180">Au lieu de cela, téléchargez et installez le [package Active Directory Federation Services 2.0 RTW](https://go.microsoft.com/fwlink/p/?LinkId=313375).</span><span class="sxs-lookup"><span data-stu-id="c24c0-180">Instead, download and install the [Active Directory Federation Services 2.0 RTW package](https://go.microsoft.com/fwlink/p/?LinkId=313375).</span></span> 
+> <span data-ttu-id="46932-179">Lorsque vous installez AD FS 2.0, vous ne devez pas utiliser le Gestionnaire de serveur Windows pour ajouter le rôle Active Directory Federation Services.</span><span class="sxs-lookup"><span data-stu-id="46932-179">When installing AD FS 2.0, do not use the Windows Server Manager to add the Active Directory Federation Services role.</span></span> <span data-ttu-id="46932-180">Au lieu de cela, téléchargez et installez le [package Active Directory Federation Services 2.0 RTW](https://go.microsoft.com/fwlink/p/?LinkId=313375).</span><span class="sxs-lookup"><span data-stu-id="46932-180">Instead, download and install the [Active Directory Federation Services 2.0 RTW package](https://go.microsoft.com/fwlink/p/?LinkId=313375).</span></span> 
   
-### <a name="to-configure-ad-fs-for-two-factor-authentication"></a><span data-ttu-id="c24c0-181">Pour configurer AD FS pour l’authentification à deux facteurs</span><span class="sxs-lookup"><span data-stu-id="c24c0-181">To configure AD FS for two-factor Authentication</span></span>
+### <a name="to-configure-ad-fs-for-two-factor-authentication"></a><span data-ttu-id="46932-181">Pour configurer AD FS pour l’authentification à deux facteurs</span><span class="sxs-lookup"><span data-stu-id="46932-181">To configure AD FS for two-factor Authentication</span></span>
 
-1. <span data-ttu-id="c24c0-182">Connectez-vous à l’ordinateur AD FS 2.0 à l’aide d’un compte d’administrateur de domaine.</span><span class="sxs-lookup"><span data-stu-id="c24c0-182">Log in to the AD FS 2.0 computer using a Domain Admin account.</span></span>
+1. <span data-ttu-id="46932-182">Connectez-vous à l’ordinateur AD FS 2.0 à l’aide d’un compte d’administrateur de domaine.</span><span class="sxs-lookup"><span data-stu-id="46932-182">Log in to the AD FS 2.0 computer using a Domain Admin account.</span></span>
     
-2. <span data-ttu-id="c24c0-183">Lancez Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c24c0-183">Start Windows PowerShell.</span></span>
+2. <span data-ttu-id="46932-183">Lancez Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="46932-183">Start Windows PowerShell.</span></span>
     
-3. <span data-ttu-id="c24c0-184">À partir de la ligne de commande Windows PowerShell, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="c24c0-184">From the Windows PowerShell command-line, run the following command:</span></span>
+3. <span data-ttu-id="46932-184">À partir de la ligne de commande Windows PowerShell, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="46932-184">From the Windows PowerShell command-line, run the following command:</span></span>
     
   ```
   add-pssnapin Microsoft.Adfs.PowerShell
   ```
 
-4. <span data-ttu-id="c24c0-185">Établissez un partenariat avec chaque serveur pour lequel l’authentification passive sera activée, en exécutant la commande ci-dessous, en remplaçant le nom du serveur propre à votre déploiement :</span><span class="sxs-lookup"><span data-stu-id="c24c0-185">Establish a partnership with each server that will be enabled for passive authentication by running the following command, replacing the server name specific to your deployment:</span></span>
+4. <span data-ttu-id="46932-185">Établissez un partenariat avec chaque serveur pour lequel l’authentification passive sera activée, en exécutant la commande ci-dessous, en remplaçant le nom du serveur propre à votre déploiement :</span><span class="sxs-lookup"><span data-stu-id="46932-185">Establish a partnership with each server that will be enabled for passive authentication by running the following command, replacing the server name specific to your deployment:</span></span>
     
   ```
   Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
   ```
 
-5. <span data-ttu-id="c24c0-186">Dans le menu Outils d’administration, lancez la console de gestion AD FS 2.0.</span><span class="sxs-lookup"><span data-stu-id="c24c0-186">From the Administrative Tools menu, launch the AD FS 2.0 Management console.</span></span>
+5. <span data-ttu-id="46932-186">Dans le menu Outils d’administration, lancez la console de gestion AD FS 2.0.</span><span class="sxs-lookup"><span data-stu-id="46932-186">From the Administrative Tools menu, launch the AD FS 2.0 Management console.</span></span>
     
-6. <span data-ttu-id="c24c0-187">Développez des **relations d’approbation** > **approbations de partie de confiance**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-187">Expand **Trust Relationships** > **Relying Party Trusts**.</span></span>
+6. <span data-ttu-id="46932-187">Développez des **relations d’approbation** > **approbations de partie de confiance**.</span><span class="sxs-lookup"><span data-stu-id="46932-187">Expand **Trust Relationships** > **Relying Party Trusts**.</span></span>
     
-7. <span data-ttu-id="c24c0-188">Vérifiez qu’une nouvelle relation d’approbation a été créée pour votre Skype pour Business Server.</span><span class="sxs-lookup"><span data-stu-id="c24c0-188">Verify that a new trust has been created for your Skype for Business Server.</span></span>
+7. <span data-ttu-id="46932-188">Vérifiez qu’une nouvelle relation d’approbation a été créée pour votre Skype pour Business Server.</span><span class="sxs-lookup"><span data-stu-id="46932-188">Verify that a new trust has been created for your Skype for Business Server.</span></span>
     
-8. <span data-ttu-id="c24c0-189">Créez et affectez une règle d’autorisation d’émission pour votre relation d’approbation de la partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="c24c0-189">Create and assign an Issuance Authorization Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
+8. <span data-ttu-id="46932-189">Créez et affectez une règle d’autorisation d’émission pour votre relation d’approbation de la partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="46932-189">Create and assign an Issuance Authorization Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
     
   ```
   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
@@ -217,7 +217,7 @@ ms.locfileid: "19504648"
 -IssuanceAuthorizationRules $IssuanceAuthorizationRules
   ```
 
-9. <span data-ttu-id="c24c0-190">Créez et affectez une règle de transformation d’émission pour votre relation d’approbation de la partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="c24c0-190">Create and assign an Issuance Transform Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
+9. <span data-ttu-id="46932-190">Créez et affectez une règle de transformation d’émission pour votre relation d’approbation de la partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="46932-190">Create and assign an Issuance Transform Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
     
   ```
   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
@@ -227,125 +227,122 @@ ms.locfileid: "19504648"
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
   ```
 
-10. <span data-ttu-id="c24c0-191">Dans la console de gestion AD FS 2.0, cliquez avec le bouton droit sur votre relation d’approbation de la partie de confiance, puis sélectionnez **Modifier les règles de revendication**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-191">From the AD FS 2.0 Management console, right click on your relying party trust and select **Edit Claim Rules**.</span></span>
+10. <span data-ttu-id="46932-191">Dans la console de gestion AD FS 2.0, cliquez avec le bouton droit sur votre relation d’approbation de la partie de confiance, puis sélectionnez **Modifier les règles de revendication**.</span><span class="sxs-lookup"><span data-stu-id="46932-191">From the AD FS 2.0 Management console, right click on your relying party trust and select **Edit Claim Rules**.</span></span>
     
-11. <span data-ttu-id="c24c0-192">Sélectionnez l’onglet **Règles d’autorisation d’émission**, puis vérifiez que la règle d’autorisation a été correctement créée.</span><span class="sxs-lookup"><span data-stu-id="c24c0-192">Select the **Issuance Authorization Rules** tab and verify that the new authorization rule was created successfully.</span></span>
+11. <span data-ttu-id="46932-192">Sélectionnez l’onglet **Règles d’autorisation d’émission**, puis vérifiez que la règle d’autorisation a été correctement créée.</span><span class="sxs-lookup"><span data-stu-id="46932-192">Select the **Issuance Authorization Rules** tab and verify that the new authorization rule was created successfully.</span></span>
     
-12. <span data-ttu-id="c24c0-193">Sélectionnez l’onglet **Règles de transformation d’émission**, puis vérifiez que la règle de transformation d’émission a été créée correctement.</span><span class="sxs-lookup"><span data-stu-id="c24c0-193">Select the **Issuance Transform Rules** tab and verify that the new transform rule was created successfully.</span></span>
+12. <span data-ttu-id="46932-193">Sélectionnez l’onglet **Règles de transformation d’émission**, puis vérifiez que la règle de transformation d’émission a été créée correctement.</span><span class="sxs-lookup"><span data-stu-id="46932-193">Select the **Issuance Transform Rules** tab and verify that the new transform rule was created successfully.</span></span>
     
-## <a name="configuring-ad-fs-20-to-support-client-authentication"></a><span data-ttu-id="c24c0-194">Configuration d’AD FS 2.0 pour prendre en charge l’authentification du client</span><span class="sxs-lookup"><span data-stu-id="c24c0-194">Configuring AD FS 2.0 to support client authentication</span></span>
+## <a name="configuring-ad-fs-20-to-support-client-authentication"></a><span data-ttu-id="46932-194">Configuration d’AD FS 2.0 pour prendre en charge l’authentification du client</span><span class="sxs-lookup"><span data-stu-id="46932-194">Configuring AD FS 2.0 to support client authentication</span></span>
 
-<span data-ttu-id="c24c0-195">Deux types d’authentifications peuvent être configurés pour permettre à AD FS 2.0 de prendre en charge l’authentification à l’aide de cartes à puce :</span><span class="sxs-lookup"><span data-stu-id="c24c0-195">There are two possible authentication types that can be configured to allow AD FS 2.0 to support authentication using smart cards:</span></span>
+<span data-ttu-id="46932-195">Deux types d’authentifications peuvent être configurés pour permettre à AD FS 2.0 de prendre en charge l’authentification à l’aide de cartes à puce :</span><span class="sxs-lookup"><span data-stu-id="46932-195">There are two possible authentication types that can be configured to allow AD FS 2.0 to support authentication using smart cards:</span></span>
   
-- <span data-ttu-id="c24c0-196">Authentification basée sur les formulaires</span><span class="sxs-lookup"><span data-stu-id="c24c0-196">Forms-based authentication (FBA)</span></span>
+- <span data-ttu-id="46932-196">Authentification basée sur les formulaires</span><span class="sxs-lookup"><span data-stu-id="46932-196">Forms-based authentication (FBA)</span></span>
     
-- <span data-ttu-id="c24c0-197">Authentification de client TLS (Transport Layer Security)</span><span class="sxs-lookup"><span data-stu-id="c24c0-197">Transport Layer Security Client Authentication</span></span>
+- <span data-ttu-id="46932-197">Authentification de client TLS (Transport Layer Security)</span><span class="sxs-lookup"><span data-stu-id="46932-197">Transport Layer Security Client Authentication</span></span>
     
-<span data-ttu-id="c24c0-198">L’authentification basée sur les formulaires permet de développer une page web permettant aux utilisateurs de s’authentifier à l’aide de leur nom d’utilisateur et de leur mot de passe ou de leur carte à puce et de leur code confidentiel.</span><span class="sxs-lookup"><span data-stu-id="c24c0-198">Using forms-based authentication, you can develop a web page that allows users to authenticate either by using their username/password or by using their smart card and PIN.</span></span> <span data-ttu-id="c24c0-199">Cette rubrique décrit la mise en œuvre de l’authentification de client TLS (Transport Layer Security) avec AD FS 2.0.</span><span class="sxs-lookup"><span data-stu-id="c24c0-199">This topic focuses on how to implement Transport Layer Security Client Authentication with AD FS 2.0.</span></span> <span data-ttu-id="c24c0-200">Pour plus d’informations sur les types d’authentification 2.0 AD FS, voir [AD FS 2.0 : comment modifier le Type d’authentification Local](https://go.microsoft.com/fwlink/p/?LinkId=313384).</span><span class="sxs-lookup"><span data-stu-id="c24c0-200">For more information about AD FS 2.0 authentication types, see [AD FS 2.0: How to Change the Local Authentication Type](https://go.microsoft.com/fwlink/p/?LinkId=313384).</span></span>
+<span data-ttu-id="46932-198">L’authentification basée sur les formulaires permet de développer une page web permettant aux utilisateurs de s’authentifier à l’aide de leur nom d’utilisateur et de leur mot de passe ou de leur carte à puce et de leur code confidentiel.</span><span class="sxs-lookup"><span data-stu-id="46932-198">Using forms-based authentication, you can develop a web page that allows users to authenticate either by using their username/password or by using their smart card and PIN.</span></span> <span data-ttu-id="46932-199">Cette rubrique décrit la mise en œuvre de l’authentification de client TLS (Transport Layer Security) avec AD FS 2.0.</span><span class="sxs-lookup"><span data-stu-id="46932-199">This topic focuses on how to implement Transport Layer Security Client Authentication with AD FS 2.0.</span></span> <span data-ttu-id="46932-200">Pour plus d’informations sur les types d’authentification 2.0 AD FS, voir [AD FS 2.0 : comment modifier le Type d’authentification Local](https://go.microsoft.com/fwlink/p/?LinkId=313384).</span><span class="sxs-lookup"><span data-stu-id="46932-200">For more information about AD FS 2.0 authentication types, see [AD FS 2.0: How to Change the Local Authentication Type](https://go.microsoft.com/fwlink/p/?LinkId=313384).</span></span>
   
-### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a><span data-ttu-id="c24c0-201">Pour configurer AD FS 2.0 pour prendre en charge l’authentification du client</span><span class="sxs-lookup"><span data-stu-id="c24c0-201">To Configure AD FS 2.0 to Support Client Authentication</span></span>
+### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a><span data-ttu-id="46932-201">Pour configurer AD FS 2.0 pour prendre en charge l’authentification du client</span><span class="sxs-lookup"><span data-stu-id="46932-201">To Configure AD FS 2.0 to Support Client Authentication</span></span>
 
-1. <span data-ttu-id="c24c0-202">Connectez-vous à l’ordinateur AD FS 2.0 à l’aide d’un compte d’administrateur de domaine.</span><span class="sxs-lookup"><span data-stu-id="c24c0-202">Log in to the AD FS 2.0 computer using a Domain Admin account.</span></span>
+1. <span data-ttu-id="46932-202">Connectez-vous à l’ordinateur AD FS 2.0 à l’aide d’un compte d’administrateur de domaine.</span><span class="sxs-lookup"><span data-stu-id="46932-202">Log in to the AD FS 2.0 computer using a Domain Admin account.</span></span>
     
-2. <span data-ttu-id="c24c0-203">Lancez l’Explorateur Windows.</span><span class="sxs-lookup"><span data-stu-id="c24c0-203">Launch Windows Explorer.</span></span>
+2. <span data-ttu-id="46932-203">Lancez l’Explorateur Windows.</span><span class="sxs-lookup"><span data-stu-id="46932-203">Launch Windows Explorer.</span></span>
     
-3. <span data-ttu-id="c24c0-204">Accédez à C:\inetpub\adfs\ls.</span><span class="sxs-lookup"><span data-stu-id="c24c0-204">Browse to C:\inetpub\adfs\ls</span></span>
+3. <span data-ttu-id="46932-204">Accédez à C:\inetpub\adfs\ls.</span><span class="sxs-lookup"><span data-stu-id="46932-204">Browse to C:\inetpub\adfs\ls</span></span>
     
-4. <span data-ttu-id="c24c0-205">Effectuez une copie de sauvegarde du fichier web.config existant.</span><span class="sxs-lookup"><span data-stu-id="c24c0-205">Make a backup copy of the existing web.config file.</span></span>
+4. <span data-ttu-id="46932-205">Effectuez une copie de sauvegarde du fichier web.config existant.</span><span class="sxs-lookup"><span data-stu-id="46932-205">Make a backup copy of the existing web.config file.</span></span>
     
-5. <span data-ttu-id="c24c0-206">Ouvrez le fichier web.config existant à l’aide du Bloc-notes.</span><span class="sxs-lookup"><span data-stu-id="c24c0-206">Open the existing web.config file using Notepad.</span></span>
+5. <span data-ttu-id="46932-206">Ouvrez le fichier web.config existant à l’aide du Bloc-notes.</span><span class="sxs-lookup"><span data-stu-id="46932-206">Open the existing web.config file using Notepad.</span></span>
     
-6. <span data-ttu-id="c24c0-207">Dans la barre de menus, sélectionnez **Edition**, puis **Rechercher**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-207">From the Menu bar, select **Edit** and then select **Find**.</span></span>
+6. <span data-ttu-id="46932-207">Dans la barre de menus, sélectionnez **Edition**, puis **Rechercher**.</span><span class="sxs-lookup"><span data-stu-id="46932-207">From the Menu bar, select **Edit** and then select **Find**.</span></span>
     
-7. <span data-ttu-id="c24c0-208">Recherchez \<localAuthenticationTypes\>.</span><span class="sxs-lookup"><span data-stu-id="c24c0-208">Search for \<localAuthenticationTypes\>.</span></span>
+7. <span data-ttu-id="46932-208">Recherchez \<localAuthenticationTypes\>.</span><span class="sxs-lookup"><span data-stu-id="46932-208">Search for \<localAuthenticationTypes\>.</span></span>
     
-    <span data-ttu-id="c24c0-209">Quatre types d’authentification s’affichent (un par ligne).</span><span class="sxs-lookup"><span data-stu-id="c24c0-209">Note that there are four authentication types listed, one per line.</span></span>
+    <span data-ttu-id="46932-209">Quatre types d’authentification s’affichent (un par ligne).</span><span class="sxs-lookup"><span data-stu-id="46932-209">Note that there are four authentication types listed, one per line.</span></span>
     
-8. <span data-ttu-id="c24c0-210">Déplacez la ligne contenant le type d’authentification TLSClient au début de la liste dans la section.</span><span class="sxs-lookup"><span data-stu-id="c24c0-210">Move the line containing the TLSClient authentication type to the top of the list in the section.</span></span>
+8. <span data-ttu-id="46932-210">Déplacez la ligne contenant le type d’authentification TLSClient au début de la liste dans la section.</span><span class="sxs-lookup"><span data-stu-id="46932-210">Move the line containing the TLSClient authentication type to the top of the list in the section.</span></span>
     
-9. <span data-ttu-id="c24c0-211">Enregistrez et fermez le fichier web.config.</span><span class="sxs-lookup"><span data-stu-id="c24c0-211">Save and Close the web.config file.</span></span>
+9. <span data-ttu-id="46932-211">Enregistrez et fermez le fichier web.config.</span><span class="sxs-lookup"><span data-stu-id="46932-211">Save and Close the web.config file.</span></span>
     
-10. <span data-ttu-id="c24c0-212">Lancez une invite de commandes avec des droits élevés.</span><span class="sxs-lookup"><span data-stu-id="c24c0-212">Launch a Command Prompt with elevated privileges.</span></span>
+10. <span data-ttu-id="46932-212">Lancez une invite de commandes avec des droits élevés.</span><span class="sxs-lookup"><span data-stu-id="46932-212">Launch a Command Prompt with elevated privileges.</span></span>
     
-11. <span data-ttu-id="c24c0-213">Redémarrez IIS en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="c24c0-213">Restart IIS by running the following command:</span></span>
+11. <span data-ttu-id="46932-213">Redémarrez IIS en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="46932-213">Restart IIS by running the following command:</span></span>
     
   ```
   IISReset /Restart /NoForce
   ```
 
-## <a name="configuring-skype-for-business-server-passive-authentication"></a><span data-ttu-id="c24c0-214">Configuration de l’authentification passive Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="c24c0-214">Configuring Skype for Business Server passive authentication</span></span>
+## <a name="configuring-skype-for-business-server-passive-authentication"></a><span data-ttu-id="46932-214">Configuration de l’authentification passive Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="46932-214">Configuring Skype for Business Server passive authentication</span></span>
 
-<span data-ttu-id="c24c0-215">La section suivante décrit comment configurer Skype pour Business Server 2015 prendre en charge l’authentification passive.</span><span class="sxs-lookup"><span data-stu-id="c24c0-215">The following section describes how to configure Skype for Business Server 2015 to support passive authentication.</span></span> <span data-ttu-id="c24c0-216">Une fois activée, les utilisateurs qui sont activés pour l’authentification à deux facteurs seront nécessaires pour utiliser une carte à puce physique ou virtuelle et un code confidentiel valide pour vous connecter à l’aide de la Skype pour client d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="c24c0-216">Once enabled, users who are enabled for two-factor authentication will be required to use a physical or virtual smart card and a valid PIN to sign in using the Skype for Business client.</span></span>
+<span data-ttu-id="46932-215">La section suivante décrit comment configurer Skype pour Business Server 2015 prendre en charge l’authentification passive.</span><span class="sxs-lookup"><span data-stu-id="46932-215">The following section describes how to configure Skype for Business Server 2015 to support passive authentication.</span></span> <span data-ttu-id="46932-216">Une fois activée, les utilisateurs qui sont activés pour l’authentification à deux facteurs seront nécessaires pour utiliser une carte à puce physique ou virtuelle et un code confidentiel valide pour vous connecter à l’aide de la Skype pour client d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="46932-216">Once enabled, users who are enabled for two-factor authentication will be required to use a physical or virtual smart card and a valid PIN to sign in using the Skype for Business client.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="c24c0-p109">Il est vivement recommandé que les clients activent l’authentification passive pour les services Serveur d’inscriptions et web au niveau du service. L’activation au niveau global risquerait de provoquer des échecs d’authentification à l’échelle de l’organisation pour les utilisateurs qui ne se connectent pas avec le client de bureau pris en charge.</span><span class="sxs-lookup"><span data-stu-id="c24c0-p109">It is strongly recommended that customers enable passive authentication for Registrar and Web Services at the service level. If passive authentication is enabled for Registrar and Web Services at the global level, it will likely result in organization-wide authentication failures for users who are not signing in with the supported desktop client.</span></span> 
+> <span data-ttu-id="46932-p109">Il est vivement recommandé que les clients activent l’authentification passive pour les services Serveur d’inscriptions et web au niveau du service. L’activation au niveau global risquerait de provoquer des échecs d’authentification à l’échelle de l’organisation pour les utilisateurs qui ne se connectent pas avec le client de bureau pris en charge.</span><span class="sxs-lookup"><span data-stu-id="46932-p109">It is strongly recommended that customers enable passive authentication for Registrar and Web Services at the service level. If passive authentication is enabled for Registrar and Web Services at the global level, it will likely result in organization-wide authentication failures for users who are not signing in with the supported desktop client.</span></span> 
   
-### <a name="web-service-configuration"></a><span data-ttu-id="c24c0-219">Configuration des services web</span><span class="sxs-lookup"><span data-stu-id="c24c0-219">Web Service Configuration</span></span>
+### <a name="web-service-configuration"></a><span data-ttu-id="46932-219">Configuration des services web</span><span class="sxs-lookup"><span data-stu-id="46932-219">Web Service Configuration</span></span>
 
-<span data-ttu-id="c24c0-220">La procédure ci-dessous décrit la création d’une configuration de service web personnalisée pour les directeurs, les pools d’entreprise et les serveurs Standard Edition pour lesquels l’authentification passive sera activée.</span><span class="sxs-lookup"><span data-stu-id="c24c0-220">The following steps describe how to create a custom web service configuration for Directors, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication.</span></span>
+<span data-ttu-id="46932-220">La procédure ci-dessous décrit la création d’une configuration de service web personnalisée pour les directeurs, les pools d’entreprise et les serveurs Standard Edition pour lesquels l’authentification passive sera activée.</span><span class="sxs-lookup"><span data-stu-id="46932-220">The following steps describe how to create a custom web service configuration for Directors, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication.</span></span>
   
-### <a name="to-create-a-custom-web-service-configuration"></a><span data-ttu-id="c24c0-221">Pour créer une configuration de service web personnalisée</span><span class="sxs-lookup"><span data-stu-id="c24c0-221">To create a custom web service configuration</span></span>
+### <a name="to-create-a-custom-web-service-configuration"></a><span data-ttu-id="46932-221">Pour créer une configuration de service web personnalisée</span><span class="sxs-lookup"><span data-stu-id="46932-221">To create a custom web service configuration</span></span>
 
-1. <span data-ttu-id="c24c0-222">Connectez-vous à votre Skype pour le serveur frontal Business Server 2015 à l’aide d’un Skype pour le compte administrateur d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="c24c0-222">Log in to your Skype for Business Server 2015 Front End server using a Skype for Business administrator account.</span></span>
+1. <span data-ttu-id="46932-222">Connectez-vous à votre Skype pour le serveur frontal Business Server 2015 à l’aide d’un Skype pour le compte administrateur d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="46932-222">Log in to your Skype for Business Server 2015 Front End server using a Skype for Business administrator account.</span></span>
     
-2. <span data-ttu-id="c24c0-223">Lancez le Skype pour Business Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="c24c0-223">Launch the Skype for Business Server Management Shell.</span></span>
+2. <span data-ttu-id="46932-223">Lancez le Skype pour Business Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="46932-223">Launch the Skype for Business Server Management Shell.</span></span>
     
-3. <span data-ttu-id="c24c0-224">À partir de Skype pour Business Server Management Shell de ligne de commande, créez une nouvelle configuration de Service Web pour chaque directeur, Pool d’entreprise et serveur Standard Edition server qui sera activé pour l’authentification passive en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="c24c0-224">From the Skype for Business Server Management Shell command-line, create a new Web Service configuration for each Director, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following command:</span></span>
+3. <span data-ttu-id="46932-224">À partir de Skype pour Business Server Management Shell de ligne de commande, créez une nouvelle configuration de Service Web pour chaque directeur, Pool d’entreprise et serveur Standard Edition server qui sera activé pour l’authentification passive en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="46932-224">From the Skype for Business Server Management Shell command-line, create a new Web Service configuration for each Director, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following command:</span></span>
     
   ```
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
   ```
 
     > [!CAUTION]
-    > <span data-ttu-id="c24c0-p110">La valeur du nom de domaine complet WsFedPassiveMetadataUri correspond au nom du service de fédération de votre serveur AD FS 2.0. Pour consulter la valeur Nom du service de fédération dans la console de gestion AD FS 2.0, cliquez avec le bouton droit sur **Service** dans le volet de navigation, puis sélectionnez **Modifier les propriétés du service de fédération**.</span><span class="sxs-lookup"><span data-stu-id="c24c0-p110">The value for the WsFedPassiveMetadataUri FQDN is the Federation Service Name of your AD FS 2.0 server. The Federation Service Name value can be found in the AD FS 2.0 Management Console by right-clicking on **Service** from the navigation pane and then selecting **Edit Federation Service Properties**.</span></span> 
+    > <span data-ttu-id="46932-p110">La valeur du nom de domaine complet WsFedPassiveMetadataUri correspond au nom du service de fédération de votre serveur AD FS 2.0. Pour consulter la valeur Nom du service de fédération dans la console de gestion AD FS 2.0, cliquez avec le bouton droit sur **Service** dans le volet de navigation, puis sélectionnez **Modifier les propriétés du service de fédération**.</span><span class="sxs-lookup"><span data-stu-id="46932-p110">The value for the WsFedPassiveMetadataUri FQDN is the Federation Service Name of your AD FS 2.0 server. The Federation Service Name value can be found in the AD FS 2.0 Management Console by right-clicking on **Service** from the navigation pane and then selecting **Edit Federation Service Properties**.</span></span> 
   
-4. <span data-ttu-id="c24c0-227">Vérifiez que les valeurs UseWsFedPassiveAuth et WsFedPassiveMetadataUri ont été définies correctement en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="c24c0-227">Verify that the UseWsFedPassiveAuth and WsFedPassiveMetadataUri values were set correctly by running the following command:</span></span>
+4. <span data-ttu-id="46932-227">Vérifiez que les valeurs UseWsFedPassiveAuth et WsFedPassiveMetadataUri ont été définies correctement en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="46932-227">Verify that the UseWsFedPassiveAuth and WsFedPassiveMetadataUri values were set correctly by running the following command:</span></span>
     
   ```
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
-5. <span data-ttu-id="c24c0-228">Pour les clients, l’authentification passive est la méthode d’authentification la moins privilégiée pour l’authentification de ticket web.</span><span class="sxs-lookup"><span data-stu-id="c24c0-228">For clients, Passive Authentication is the least preferred authentication method for webticket authentication.</span></span> <span data-ttu-id="c24c0-229">Pour tous les directeurs, les Pools d’entreprise et les serveurs Standard Edition Server qui sera activé pour l’authentification passive, tous les autres types d’authentification doivent être désactivés dans Skype pour les Web Services en exécutant l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="c24c0-229">For all Directors, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication, all other authentication types must be disabled in Skype for Business Web Services by running the following cmdlet:</span></span>
+5. <span data-ttu-id="46932-228">Pour les clients, l’authentification passive est la méthode d’authentification la moins privilégiée pour l’authentification de ticket web.</span><span class="sxs-lookup"><span data-stu-id="46932-228">For clients, Passive Authentication is the least preferred authentication method for webticket authentication.</span></span> <span data-ttu-id="46932-229">Pour tous les directeurs, les Pools d’entreprise et les serveurs Standard Edition Server qui sera activé pour l’authentification passive, tous les autres types d’authentification doivent être désactivés dans Skype pour les Web Services en exécutant l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="46932-229">For all Directors, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication, all other authentication types must be disabled in Skype for Business Web Services by running the following cmdlet:</span></span>
     
   ```
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
   ```
 
-6. <span data-ttu-id="c24c0-230">Vérifiez que tous les autres types d’authentification ont été désactivés correctement en exécutant l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="c24c0-230">Verify that all other authentication types have been successfully disabled by running the following cmdlet:</span></span>
+6. <span data-ttu-id="46932-230">Vérifiez que tous les autres types d’authentification ont été désactivés correctement en exécutant l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="46932-230">Verify that all other authentication types have been successfully disabled by running the following cmdlet:</span></span>
     
   ```
   Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
   ```
 
-### <a name="proxy-configuration"></a><span data-ttu-id="c24c0-231">Configuration du serveur proxy</span><span class="sxs-lookup"><span data-stu-id="c24c0-231">Proxy Configuration</span></span>
+### <a name="proxy-configuration"></a><span data-ttu-id="46932-231">Configuration du serveur proxy</span><span class="sxs-lookup"><span data-stu-id="46932-231">Proxy Configuration</span></span>
 
-<span data-ttu-id="c24c0-232">Lorsque l’authentification par certificat est désactivée pour Skype pour les Web Services, le Skype pour client d’entreprise utilisera un type d’authentification moins préféré, tel que Kerberos ou NTLM, pour s’authentifier auprès du service serveur d’inscriptions.</span><span class="sxs-lookup"><span data-stu-id="c24c0-232">When certificate authentication is disabled for Skype for Business Web Services, the Skype for Business client will use a less preferred authentication type, such as Kerberos or NTLM, to authenticate to the Registrar service.</span></span> <span data-ttu-id="c24c0-233">Si l’authentification par certificat est toujours requise pour autoriser le client à extraire un ticket web, Kerberos et NTLM doivent tout de même être désactivés pour le service Serveur d’inscriptions.</span><span class="sxs-lookup"><span data-stu-id="c24c0-233">Certificate authentication is still needed to allow the client to retrieve a webticket, however, Kerberos and NTLM must be disabled for the Registrar service.</span></span>
+<span data-ttu-id="46932-232">Lorsque l’authentification par certificat est désactivée pour Skype pour les Web Services, le Skype pour client d’entreprise utilisera un type d’authentification moins préféré, tel que Kerberos ou NTLM, pour s’authentifier auprès du service serveur d’inscriptions.</span><span class="sxs-lookup"><span data-stu-id="46932-232">When certificate authentication is disabled for Skype for Business Web Services, the Skype for Business client will use a less preferred authentication type, such as Kerberos or NTLM, to authenticate to the Registrar service.</span></span> <span data-ttu-id="46932-233">Si l’authentification par certificat est toujours requise pour autoriser le client à extraire un ticket web, Kerberos et NTLM doivent tout de même être désactivés pour le service Serveur d’inscriptions.</span><span class="sxs-lookup"><span data-stu-id="46932-233">Certificate authentication is still needed to allow the client to retrieve a webticket, however, Kerberos and NTLM must be disabled for the Registrar service.</span></span>
   
-<span data-ttu-id="c24c0-234">La procédure ci-dessous décrit la création d’une configuration de proxy personnalisée pour les pools Edge, les pools d’entreprise et les serveurs Standard Edition pour lesquels l’authentification passive sera activée.</span><span class="sxs-lookup"><span data-stu-id="c24c0-234">The following steps describe how to create a custom proxy configuration for Edge Pools, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication.</span></span>
+<span data-ttu-id="46932-234">La procédure ci-dessous décrit la création d’une configuration de proxy personnalisée pour les pools Edge, les pools d’entreprise et les serveurs Standard Edition pour lesquels l’authentification passive sera activée.</span><span class="sxs-lookup"><span data-stu-id="46932-234">The following steps describe how to create a custom proxy configuration for Edge Pools, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication.</span></span>
   
-### <a name="to-create-a-custom-proxy-configuration"></a><span data-ttu-id="c24c0-235">Pour créer une configuration de proxy personnalisée</span><span class="sxs-lookup"><span data-stu-id="c24c0-235">To create a custom proxy configuration</span></span>
+### <a name="to-create-a-custom-proxy-configuration"></a><span data-ttu-id="46932-235">Pour créer une configuration de proxy personnalisée</span><span class="sxs-lookup"><span data-stu-id="46932-235">To create a custom proxy configuration</span></span>
 
-1. <span data-ttu-id="c24c0-236">À partir de Skype pour Business Server Management Shell de ligne de commande, créez une nouvelle configuration de proxy pour chaque Skype pour le Pool de serveurs Edge 2015 Business Server, Pool d’entreprise et Standard Edition server qui sera activé pour l’authentification passive en exécutant la commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="c24c0-236">From the Skype for Business Server Management Shell command-line, create a new proxy configuration for each Skype for Business Server 2015 Edge Pool, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following commands:</span></span>
+1. <span data-ttu-id="46932-236">À partir de Skype pour Business Server Management Shell de ligne de commande, créez une nouvelle configuration de proxy pour chaque Skype pour le Pool de serveurs Edge 2015 Business Server, Pool d’entreprise et Standard Edition server qui sera activé pour l’authentification passive en exécutant la commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="46932-236">From the Skype for Business Server Management Shell command-line, create a new proxy configuration for each Skype for Business Server 2015 Edge Pool, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following commands:</span></span>
     
   ```
-  New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
--UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+  New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
   ```
-  New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" 
--UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+  New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
-2. <span data-ttu-id="c24c0-237">Vérifiez que tous les autres types d’authentification proxy ont été désactivés correctement en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="c24c0-237">Verify that all other proxy authentication types have been successfully disabled by running the following command:</span></span>
+2. <span data-ttu-id="46932-237">Vérifiez que tous les autres types d’authentification proxy ont été désactivés correctement en exécutant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="46932-237">Verify that all other proxy authentication types have been successfully disabled by running the following command:</span></span>
     
   ```
-  Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com"
- | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
+  Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 
-## <a name="see-also"></a><span data-ttu-id="c24c0-238">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c24c0-238">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="46932-238">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="46932-238">See also</span></span>
 
-[<span data-ttu-id="c24c0-239">Gérer l’authentification à deux facteurs dans Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="c24c0-239">Manage two-factor authentication in Skype for Business Server 2015</span></span>](two-factor-authentication.md)
+[<span data-ttu-id="46932-239">Gérer l’authentification à deux facteurs dans Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="46932-239">Manage two-factor authentication in Skype for Business Server 2015</span></span>](two-factor-authentication.md)
   
-[<span data-ttu-id="c24c0-240">Utiliser l’authentification à deux facteurs avec Skype pour client d’entreprise et Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="c24c0-240">Use two-factor authentication with Skype for Business client and Skype for Business Server 2015</span></span>](use.md)
+[<span data-ttu-id="46932-240">Utiliser l’authentification à deux facteurs avec Skype pour client d’entreprise et Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="46932-240">Use two-factor authentication with Skype for Business client and Skype for Business Server 2015</span></span>](use.md)
