@@ -9,26 +9,27 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
-description: 'Résumé : Apprenez à sauvegarder et restaurer des bases de données de serveur de conversation permanents dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 419085219ea995c680fe31fcca3597a884ceba5d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment sauvegarder et restaurer des bases de données de serveur de conversation permanente dans Skype pour Business Server 2015.'
+ms.openlocfilehash: 37a2a1bb2cab33a05468f27e04eda10b927b4bbe
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568737"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Sauvegarde et restauration des bases de données de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé :** Découvrez comment sauvegarder et restaurer des bases de données de serveur de conversation permanents dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment sauvegarder et restaurer des bases de données de serveur de conversation permanente dans Skype pour Business Server 2015.
   
-Serveur de conversation persistant nécessite un logiciel de base de données SQL Server pour stocker les données de salle de conversation, par exemple l’historique contenu, configuration, mise en service de l’utilisateur et autres métadonnées pertinentes. En outre, si votre organisation dispose d’une réglementation qui nécessitent l’activité de conversation permanent à archiver, et le service de mise en conformité facultatif est activé, logiciel de base de données SQL Server est utilisé pour stocker les données de la conformité, y compris le contenu de la conversation et d’événements, tels que rejoindre / quitter des salles. Contenu de la salle de conversation est stocké dans la base de données Chat persistant (mgc). Les données de conformité sont conservées dans la base de données de conformité (mgccomp). Il s’agit de données vitales qui doivent être sauvegardées régulièrement. 
+Persistent Chat Server requiert le logiciel de base de données SQL Server pour stocker les données de salle de conversation, telles que l’historique de contenu, configuration, mise en service de l’utilisateur et autres métadonnées appropriées. En outre, si votre organisation dispose d’une réglementation qui nécessitent l’activité de conversation permanente à archiver, et le service de conformité facultatif est activé, le logiciel de base de données SQL Server est utilisé pour stocker les données de conformité, y compris le contenu de conversation et les événements, tels que entrée et de sortie des salles. Contenu de la salle de conversation est stocké dans la base de données conversation permanente (mgc). Les données de conformité sont conservées dans la base de données de conformité (mgccomp). Il s’agit de données vitales qui doivent être sauvegardées régulièrement. 
   
 ## <a name="back-up-the-databases"></a>Sauvegarde des bases de données
 
-Il existe deux façons de sauvegarde des données de conversation permanent. 
+Il existe deux façons de sauvegarde des données de conversation permanente. 
   
 - Sauvegarde SQL Server
     
-- L’applet de commande **Exportation-CsPersistentChatData** , qui exporte des données de Chat persistant sous la forme d’un fichier
+- L’applet de commande **Export-CsPersistentChatData** , qui exporte les données de conversation permanente en tant que fichier
     
 Les données créées à l’aide de la sauvegarde SQL Server nécessitent beaucoup plus d’espace disque (jusqu’à 20 fois plus) que celles créées par l’applet de commande **Export-CsPersistentChatData**, mais la sauvegarde SQL Server est sans doute une procédure plus familière.
   
@@ -54,7 +55,7 @@ Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName 
 
 ## <a name="restore-the-databases"></a>Restauration des bases de données
 
-Comment vous restaurez vos données de conversation permanent dépend de la méthode qui vous permet de sauvegarder. Si vous avez utilisé des procédures de sauvegarde SQL Server, vous devez utiliser des procédures de restauration SQL Server. Si vous avez utilisé l’applet de commande de **CsPersistentChatData à l’exportation** pour sauvegarder les données de Chat permanente, vous devez utiliser la cmdlet **Import-CsPersistentChatData** pour restaurer les données :
+Comment restaurer vos données de conversation permanente dépend de la méthode qui vous permet de sauvegarder. Si vous avez utilisé des procédures de sauvegarde SQL Server, vous devez utiliser des procédures de restauration SQL Server. Si vous avez utilisé l’applet de commande **Export-CsPersistentChatData** pour sauvegarder les données de conversation permanente, vous devez utiliser la cmdlet **Import-CsPersistentChatData** pour restaurer les données :
   
 ```
 Import-CsPersistentChatData -FileName <String> <COMMON PARAMETERS>
@@ -65,5 +66,3 @@ ou
 ```
 Import-CsPersistentChatData -ByteInput <Byte > <COMMON PARAMETERS>
 ```
-
-

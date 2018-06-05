@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Créer ou modifier un groupe d’agents Response Group, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 213abb8416ce416f7cfbf7736ece7629d943525c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 5555272fdcaa7b9a3576dc2b943eaeda064e3bb5
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500908"
+ms.locfileid: "19568344"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business-2015"></a>Création ou modification d’un groupe d’agents dans Skype Entreprise 2015
  
@@ -131,7 +131,6 @@ Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures c
     
    ```
    New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
- 
    ```
 
     > [!IMPORTANT]

@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 description: 'Résumé : Découvrez comment migrer les paramètres utilisateur et de déplacer des utilisateurs vers Skype pour Business Online.'
-ms.openlocfilehash: 4c6a54bf5d197e4836c733975b60242c0fd3d431
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 25065f5765f46d5432e59d8053573a13e37dc8a1
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569413"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Déplacer les utilisateurs vers Skype Entreprise Online
  
@@ -88,5 +89,3 @@ Vous pouvez vérifier que le déplacement d’un utilisateur a réussi des deux 
   ```
   Get-CsUser -Identity
   ```
-
-

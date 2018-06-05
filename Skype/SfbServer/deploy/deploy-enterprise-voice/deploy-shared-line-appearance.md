@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: Pour découvrir comment déployer le mode partage de lignes dans Skype Entreprise Server 2015, mise à jour cumulative de novembre 2015, reportez-vous à cette rubrique. Le mode partage de lignes est une fonctionnalité permettant de gérer plusieurs appels sur un numéro spécifique appelé « numéro partagé ».
-ms.openlocfilehash: b333751b5bc4e651a7f1080e459803e8ad87da80
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e8325cd7bbd6c1777143ac83ad88aae07a3a48a0
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568337"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Déploiement du mode partage de lignes dans Skype Entreprise Server 2015
  
@@ -51,8 +52,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
     c. Redémarrez tous les serveurs frontaux (service RTCSERV) dans tous les pools où le mode partage de lignes a été installé et activé :
     
   ```
-   Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
-                
+   Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV   
   ```
 
 ### <a name="create-an-sla-group-and-add-users-to-it"></a>Créez un groupe de mode partage de lignes et ajoutez-y des utilisateurs.
@@ -60,10 +60,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
 1. Créer le groupe SLA à l’aide de l’applet de commande [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
     
   ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup>
-          -MaxNumberOfCalls <Number> -BusyOption
-          <BusyOnBusy|Voicemail|Forward> [-Target
-          <TargetUserOrPhoneNumber>]
+  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
   ```
 
     L’applet de commande Set-CsSlaConfiguration marque le compte SLAGroup1 de Voix Entreprise en tant qu’entité de mode partage de lignes, et le numéro de SLAGroup1 devient le numéro du groupe de mode partage de lignes. Tous les appels vers SLAGroup1 sonneront chez l’ensemble du groupe de mode partage de lignes.
@@ -73,8 +70,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
     La commande définit le nombre maximal d’appels simultanés pour le nouveau groupe de mode partage de lignes sur 3. Les appels qui dépassent cette limitent entendront une tonalité Occupé :
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
-          -BusyOption BusyOnBusy
+  Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3 -BusyOption BusyOnBusy
   ```
 
     Vous pouvez utiliser Set-CsSlaConfiguration pour créer un groupe de mode partage de lignes ou modifier un groupe existant.
@@ -92,8 +88,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
     L’exemple ci-dessous permet d’ajouter un utilisateur au groupe de mode partage de lignes. Chaque utilisateur ajouté au groupe doit être un utilisateur activé pour Enterprise Voice valid :
     
   ```
-  Add-CsSlaDelegates -Identity SLAGroup1 -Delegate
-          sip:SLA_Delegate1@contoso.com
+  Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
   ```
 
     Répétez l’applet de commande pour chaque utilisateur que vous voulez ajouter au groupe. Les utilisateurs peuvent seulement appartenir à un seul groupe de mode de partage de lignes.
@@ -103,15 +98,13 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
 - Configurer le SLA de groupe Option occupé (e) à l’aide de l’applet de commande [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
     
   ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup>
-          -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
+  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
     L’exemple suivant définit les appels qui dépassent le nombre maximal d’appels simultanés d’être transférés vers la 202-555-1234 numéro téléphonique. La cible peut être un utilisateur de votre organisation au lieu d’un numéro de téléphone ; Dans ce cas, la syntaxe de la personne qui doit recevoir le transfert des appels est la même que lorsque vous spécifiez un délégué : `sip:<NameofDelegate@domain>`. L’autre paramètre possible pour `BusyOption` est `Voicemail`:
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
-          -Target tel:+2025551234]
+  Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234]
   ```
 
 ### <a name="configure-the-sla-group-missed-call-option"></a>Configuration de l’option Appel manqué du groupe de mode partage de lignes
@@ -119,17 +112,13 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
 1. Configurer le groupe SLA Option d’appel manqué à l’aide de l’applet de commande [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
     
   ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup> 
-          -MissedCallOption <Option> -MissedCallForwardTarget
-          <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
+  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
   ```
 
 2. L’exemple suivant spécifie que les appels manqués doivent être transférés à l’utilisateur nommé `sla_forward_number`. Les options valides pour le `-MissedCallOption` paramètre sont `Forward`, `BusySignal`, ou `Disconnect`. Si vous choisissez `Forward`, vous devez également inclure la `-MissedCallForwardTarget` paramètre, avec un utilisateur ou numéro de téléphone comme cible :
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
-          Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
-    -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com 
+  Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com 
   ```
 
 ### <a name="remove-a-delegate-from-a-group"></a>Suppression d’un délégué d’un groupe
@@ -137,15 +126,13 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
 - Supprimer un délégué d’un groupe à l’aide de l’applet de commande [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) :
     
   ```
-  Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
-          <NameOfDelegate@domain>
+  Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
     Par exemple :
     
   ```
-  Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate
-          sip:SLA_Delegate3@contoso.com
+  Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com
   ```
 
 ### <a name="delete-an-sla-group"></a>Suppression d’un groupe de mode partage de lignes
@@ -154,7 +141,6 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
     
   ```
   Remove-CsSlaConfiguration -Identity <IdentityOfGroup>
-          
   ```
 
     Par exemple : 

@@ -9,31 +9,32 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
-description: 'Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations, consultez Cumulative mise à jour de package 9 pour SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 8de94fc0e15b1d851b43b386b476abfa776fad2d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations, voir Cumulative mise à jour de package 9 pour SQL Server 2008 Service Pack 1.'
+ms.openlocfilehash: 9edbda5d793fed48d31625c3e0d53ab2f9e6d349
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569137"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Déployer la mise en miroir SQL pour la haute disponibilité des serveurs principaux dans Skype Entreprise Server 2015
  
 
-Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations, reportez-vous à la section [9 pour SQL Server 2008 Service Pack 1 de package de mises à jour cumulatives ](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
+Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations, voir [9 pour SQL Server 2008 Service Pack 1 de package de mises à jour cumulatives ](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
   
 En général, la configuration de la mise en miroir SQL entre deux serveurs principaux avec un témoin exige ce qui suit :
   
-- Version du serveur principal de SQL Server doit prendre en charge la mise en miroir de SQL.
+- Version du serveur principal de SQL Server doit prendre en charge la mise en miroir SQL.
     
 - Le principal, le miroir et le témoin (s’il est déployé) doivent disposer de la même version de SQL Server. 
     
 - Le principal et le miroir doivent disposer de la même édition de SQL Server. Le témoin peut en avoir une différente.
     
-Pour SQL recommandées en ce qui concerne les versions SQL sont pris en charge pour un rôle témoin, consultez [Témoin de la mise en miroir de base de données](https://go.microsoft.com/fwlink/p/?LinkId=247345).
+Pour les meilleures pratiques en termes de quelles versions SQL sont pris en charge pour un rôle de témoin SQL, voir [Témoin de mise en miroir de base de données](https://go.microsoft.com/fwlink/p/?LinkId=247345).
   
-Vous utilisez le Générateur de topologies pour déployer la mise en miroir de SQL. Vous sélectionnez une option dans le Générateur de topologies pour mettre en miroir des bases de données, et le Générateur de topologies définit la mise en miroir (y compris le paramétrage d’un témoin, si vous le souhaitez) lorsque vous publiez la topologie. Notez que vous configurez ou supprimez le témoin en même temps que le miroir. Il n’existe pas de commande distincte pour déployer ou supprimer uniquement un témoin.
+Vous utilisez le Générateur de topologie pour déployer la mise en miroir SQL. Vous sélectionnez une option dans le Générateur de topologie pour mettre en miroir de bases de données et le Générateur de topologie définit la mise en miroir (y compris la configuration d’un témoin, si vous le souhaitez) lorsque vous publiez la topologie. Notez que vous configurez ou supprimez le témoin en même temps que le miroir. Il n’existe pas de commande distincte pour déployer ou supprimer uniquement un témoin.
   
-Pour configurer la mise en miroir des serveurs, vous devez d’abord configurer les autorisations de base de données SQL correctement. Pour plus d’informations, consultez [Définir des comptes de connexion pour la mise en miroir de base de données ou groupes de disponibilité AlwaysOn (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268454).
+Pour configurer la mise en miroir des serveurs, vous devez d’abord configurer les autorisations de base de données SQL correctement. Pour plus d’informations, voir [Définir des comptes de connexion pour la mise en miroir de base de données ou groupes de disponibilité AlwaysOn (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268454).
   
 Avec la mise en miroir SQL, le mode de récupération de la base de données a toujours la valeur **Complète**, ce qui signifie que vous devez surveiller de près la taille du journal des transactions et sauvegarder les journaux des transactions de manière régulière afin d’éviter toute insuffisance d’espace disque sur les serveurs principaux. La fréquence des sauvegardes des journaux des transactions dépend de la vitesse à laquelle leur taille augmente, laquelle dépend à son tour des transactions de base de données induites par les activités des utilisateurs sur le pool frontal. Nous vous recommandons d’estimer l’accroissement des journaux des transactions pour la charge de travail de votre déploiement afin de procéder à une planification en conséquence. Les articles suivants fournissent des informations supplémentaires sur la gestion des journaux et sauvegardes SQL :
   
@@ -41,15 +42,15 @@ Avec la mise en miroir SQL, le mode de récupération de la base de données a t
     
 - [Présentation de la sauvegarde](https://go.microsoft.com/fwlink/p/?LinkId=268449)
     
-- [Journal de transactions de sauvegarde](https://go.microsoft.com/fwlink/p/?LinkId=268452)
+- [Journaux de transactions](https://go.microsoft.com/fwlink/p/?LinkId=268452)
     
 Avec la mise en miroir SQL, vous pouvez configurer la topologie pour la mise en miroir lorsque vous créez les pools ou après les avoir déjà créés.
   
 > [!IMPORTANT]
-> À l’aide du Générateur de topologies ou des applets de commande pour installer et supprimer SQL mise en miroir est prise en charge uniquement primaire, miroir et serveurs de rappel (le cas échéant) appartiennent au même domaine. Si vous voulez configurer la mise en miroir SQL entre des serveurs de différents domaines, reportez-vous à votre documentation SQL Server. 
+> À l’aide du Générateur de topologie ou des applets de commande pour configurer et supprimer SQL la mise en miroir est prise en charge uniquement lorsque le serveur principal, miroir et le serveur témoin (le cas échéant) appartiennent au même domaine. Si vous voulez configurer la mise en miroir SQL entre des serveurs de différents domaines, reportez-vous à votre documentation SQL Server. 
   
 > [!IMPORTANT]
-> Dès lors que vous apportez une modification à une relation de mise en miroir d’une base de données principale, vous devez redémarrer tous les serveurs frontaux du pool.  > Pour une modification de la mise en miroir, (comme la modification de l’emplacement d’un miroir), vous devez utiliser le Générateur de topologies pour effectuer ces trois étapes : 
+> Dès lors que vous apportez une modification à une relation de mise en miroir d’une base de données principale, vous devez redémarrer tous les serveurs frontaux du pool.  > Pour une modification de la mise en miroir, (telles que la modification de l’emplacement d’un miroir), vous devez utiliser le Générateur de topologie pour effectuer ces trois étapes : 
   
 1. Supprimez la mise en miroir de l’ancien serveur miroir.
     
@@ -58,9 +59,9 @@ Avec la mise en miroir SQL, vous pouvez configurer la topologie pour la mise en 
 3. Publiez la topologie.
     
 > [!NOTE]
-> Un partage de fichiers doit être créé pour pouvoir y écrire les fichiers miroir, et le service sous lequel SQL Server et SQL Agent s’exécutent doit disposer d’un accès en lecture/écriture. Si le service SQL Server s’exécute sous le contexte de Service réseau, vous pouvez ajouter \<domaine\>\\< SQLSERVERNAME\>$ de l’entité de sécurité et serveurs SQL de mise en miroir pour les autorisations de partage. Le signe $ est important afin d’identifier qu’il s’agit d’un compte ordinateur. 
+> Un partage de fichiers doit être créé pour pouvoir y écrire les fichiers miroir, et le service sous lequel SQL Server et SQL Agent s’exécutent doit disposer d’un accès en lecture/écriture. Si le service SQL Server est en cours d’exécution dans le contexte de Service réseau, vous pouvez ajouter \<domaine\>\\< SQLSERVERNAME\>$ d’à la fois les serveurs Principal et miroir SQL pour les autorisations de partage. Le signe $ est important afin d’identifier qu’il s’agit d’un compte ordinateur. 
   
-## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>Pour configurer la mise en miroir de SQL lors de la création d’un pool dans le Générateur de topologies
+## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>Pour configurer la mise en miroir SQL lors de la création d’un pool dans le Générateur de topologie
 
 1. Dans la page **Définir le magasin SQL**, cliquez sur **Nouveau** en regard de la zone **Magasin SQL**. 
     
@@ -78,17 +79,17 @@ Avec la mise en miroir SQL, vous pouvez configurer la topologie pour la mise en 
     
     c. Spécifiez le numéro de port (7022 par défaut) et cliquez sur **OK**.  
     
-6. Après avoir fini définissant votre pool frontal et tous les autres rôles dans votre topologie, d’utiliser le Générateur de topologies pour publier la topologie. Lorsque la topologie est publiée, si le pool frontal qui héberge le magasin Central de gestion a la mise en miroir de SQL activé, vous verrez une option permettant de créer les deux principales et la mise en miroir de bases de données de banque d’informations SQL.
+6. Une fois que vous avez terminé définition de votre pool frontal et tous les autres rôles dans votre topologie, utilisez le Générateur de topologie pour publier la topologie. Une fois la topologie publiée, si le pool frontal qui héberge le magasin Central de gestion a miroir SQL, vous verrez une option pour créer les deux principal et de mise en miroir de bases de données de magasin SQL.
     
     Cliquez sur **Paramètres**, puis tapez le chemin d’accès à utiliser en tant que partage de fichiers pour la sauvegarde de mise en miroir.
     
     Cliquez sur **OK**, puis sur **Suivant ** pour créer les bases de données et publier la topologie. Le miroir et le témoin (s’il est spécifié) sont déployés.
     
-Vous pouvez utiliser le Générateur de topologies pour modifier les propriétés d’un pool déjà existant pour permettre la mise en miroir de SQL. 
+Vous pouvez utiliser le Générateur de topologie pour modifier les propriétés d’un pool déjà existant pour activer la mise en miroir SQL. 
   
-## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>Pour ajouter la mise en miroir SQL à un pool frontal existant dans le Générateur de topologies
+## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>Pour ajouter la mise en miroir SQL à un pool frontal existant dans le Générateur de topologie
 
-1. Dans le Générateur de topologies, avec le bouton droit de la liste et puis cliquez sur **Modifier les propriétés**.
+1. Dans le Générateur de topologie avec le bouton droit de la liste, puis cliquez sur **Modifier les propriétés**.
     
 2. Sélectionnez **Activer la mise en miroir du magasin SQL**, puis cliquez sur **Nouveau ** en regard de **Magasin SQL de mise en miroir**.  
     
@@ -116,31 +117,29 @@ Gardez les points suivants à l’esprit lorsque vous configurez la mise en miro
     
 - Tout port déjà alloué à d’autres applications sur le même serveur, dont ceux des autres instances SQL, ne doit pas être utilisé pour les instances SQL installées. Cela signifie que si vous avez plusieurs instances SQL installées sur le même serveur, elles ne doivent pas utiliser le même port pour la mise en miroir. Pour plus d’informations, reportez-vous aux articles suivants :
     
-  - [Spécifier une adresse réseau de serveur (mise en miroir de base de données)](https://go.microsoft.com/fwlink/p/?LinkId=247346)
+  - [Spécifier une adresse réseau du serveur (mise en miroir de base de données)](https://go.microsoft.com/fwlink/p/?LinkId=247346)
     
   - [La base de données mise en miroir de point de terminaison (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=247347)
     
-## <a name="using-skype-for-business-server-management-shell-cmdlets-to-set-up-sql-mirroring"></a>À l’aide de Skype pour les applets de commande Business Server Management Shell pour configurer la mise en miroir de SQL
+## <a name="using-skype-for-business-server-management-shell-cmdlets-to-set-up-sql-mirroring"></a>À l’aide de Skype pour les applets de commande Business Server Management Shell pour configurer la mise en miroir SQL
 
-La façon la plus simple pour configurer la mise en miroir est à l’aide du Générateur de topologies, mais vous pouvez également utiliser des applets de commande.
+Le moyen le plus simple pour configurer la mise en miroir est à l’aide du Générateur de topologie, mais vous pouvez également effectuer à l’aide des applets de commande.
   
-1. Ouvrir un Skype pour la fenêtre de Business Server Management Shell et exécutez l’applet de commande suivante :
+1. Ouvrez un Skype pour fenêtre Business Server Management Shell et exécutez la cmdlet suivante :
     
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 
-
    ```
 
     Par exemple :
     
    ```
    Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose 
-
    ```
 
     Les informations suivantes s’affichent :
     
-  ```
+ <pre>
   Database Name:rtcxds 
         Data File:D:\CsData\BackendStore\rtc\DbPath\rtcxds.mdf 
          Log File:D:\CsData\BackendStore\rtc\LogPath\rtcxds.ldf 
@@ -214,8 +213,7 @@ La façon la plus simple pour configurer la mise en miroir est à l’aide du G�
      Witness SQL : AB14-lct.los_a.lsipt.local\rtc 
           Account: LOS_A\AB14-lct$
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): 
-
-  ```
+</pre>
 
 2. Vérifiez les éléments suivants :
     
@@ -225,7 +223,7 @@ La façon la plus simple pour configurer la mise en miroir est à l’aide du G�
     
     - Le port 7022 est accessible via le pare-feu si le Pare-feu Windows est activé dans le serveur SQL témoin AB14-lct.los_a.lsipt.local\rtc.  
     
-   - Comptes exécute le principal de tous les serveurs SQL et les serveurs de mise en miroir SQL ont des autorisations en lecture/écriture pour le partage de fichiers \\OCS\csdatabackup-E04 
+   - Les comptes qui exécutent les serveurs miroir SQL Server principal tous les serveurs SQL ont l’autorisation en lecture/écriture pour le partage de fichiers \\OCS\csdatabackup-E04 
     
    - Vérifiez que le fournisseur WMI (Windows Management Instrumentation) est en cours d’exécution sur tous ces serveurs. L’applet de commande utilise ce fournisseur pour rechercher les informations de compte pour les services SQL Server qui s’exécutent sur tous les serveurs principaux, miroir et témoin.  
     
@@ -237,13 +235,13 @@ La façon la plus simple pour configurer la mise en miroir est à l’aide du G�
     
     La mise en miroir est configurée.
     
-    **Installation-CsMirrorDatabase** installe le miroir et configure la mise en miroir de bases de données qui sont présents dans le magasin principal de SQL. Si vous voulez configurer la mise en miroir de bases de données spécifiques uniquement, vous pouvez utiliser l’option - argument typebasededonnées, ou si vous voulez configurer la mise en miroir des bases de données, à l’exception de quelques exemples, vous pouvez utiliser l’option - ExcludeDatabaseList, ainsi qu’une liste séparée par des virgules de base de données noms à exclure.
+    **Install-CsMirrorDatabase** installe le miroir et configure la mise en miroir pour toutes les bases de données qui sont présents sur le magasin SQL principal. Si vous souhaitez configurer la mise en miroir de bases de données spécifiques, vous pouvez utiliser l’option - DatabaseType, ou si vous souhaitez configurer la mise en miroir pour toutes les bases de données à l’exception de quelques, vous pouvez utiliser l’option - ExcludeDatabaseList, ainsi que d’une liste séparée par des virgules de base de données noms à exclure.
   
-    Par exemple, si vous ajoutez l’option suivante à **CsMirrorDatabase de l’installation**, toutes les bases de données, à l’exception de rtcab et rtcxds seront mis en miroir.
+    Par exemple, si vous ajoutez l’option suivante à **Install-CsMirrorDatabase**, toutes les bases de données à l’exception de rtcab et rtcxds sont mises en miroir.
   
     `-ExcludeDatabaseList rtcab,rtcxds`
   
-   Par exemple, si vous ajoutez l’option suivante à **Installer-CsMirrorDatabase**, les rtcab, rtcshared et rtcxds de bases de données seront mis en miroir.
+   Par exemple, si vous ajoutez l’option suivante à **Install-CsMirrorDatabase**, uniquement, des bases de données rtcab, rtcshared et rtcxds sont mises en miroir.
   
     `-DatabaseType User`
   
@@ -253,17 +251,15 @@ Pour supprimer la mise en miroir SQL d’un pool dans le générateur de topolog
   
 ```
 Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
-
 ```
 
 Par exemple, pour supprimer la mise en miroir et ignorer les bases de données pour les bases de données User, tapez ce qui suit :
   
 ```
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
-
 ```
 
-Le `-DropExistingDatabasesOnMirror` avec l’option, les bases de données affectées à supprimer à partir du miroir.
+Le `-DropExistingDatabasesOnMirror` avec l’option, les bases de données affectées à supprimer de la mise en miroir.
   
 Ensuite, pour supprimer le miroir de la topologie, procédez comme suit :
   
@@ -275,7 +271,7 @@ Ensuite, pour supprimer le miroir de la topologie, procédez comme suit :
     
 ## <a name="removing-a-mirroring-witness"></a>Suppression d’un témoin de mise en miroir
 
-Utilisez cette procédure si vous devez supprimer le rappel à partir d’un serveur principal la mise en miroir de la configuration.
+Utilisez cette procédure si vous avez besoin supprimer le témoin d’un serveur principal configuration de la mise en miroir.
   
 1. Dans le générateur de topologie, cliquez avec le bouton droit sur le pool, puis cliquez sur **Modifier les propriétés**. 
     
@@ -283,14 +279,14 @@ Utilisez cette procédure si vous devez supprimer le rappel à partir d’un ser
     
 3. Publiez la topologie.
     
-    Après la publication de la topologie, le Générateur de topologies vous verrez un message qui inclut les éléments suivants
+    Après la publication de la topologie, le Générateur de topologie vous verrez un message qui inclut les éléments suivants
     
    ```
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 
-    Toutefois, ne suivez pas cette étape et ne tapez pas `Uninstall-CsMirrorDatabase` comme qui serait désinstaller toute la configuration mise en miroir.
+    Toutefois, ne suivez pas cette étape et ne tapez pas `Uninstall-CsMirrorDatabase` car cela désinstallerait toute la configuration de la mise en miroir.
     
-4. Pour supprimer uniquement le témoin de la configuration de SQL Server, suivez les instructions de [suppression du rappel à partir d’une Session de mise en miroir de base de données (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268456).
+4. Pour supprimer uniquement le témoin de la configuration de SQL Server, suivez les instructions de [Supprimer le témoin d’une Session de la mise en miroir de base de données (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268456).
     
 

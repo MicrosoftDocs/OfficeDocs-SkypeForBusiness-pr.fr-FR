@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: Cet article décrit la gestion à distance des paramètres par défaut utilisé par un périphérique Skype salle systèmes v2, y compris l’application d’un thème personnalisé.
-ms.openlocfilehash: 0b32b43f56cb0295bdfec8741da622501674df8b
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 939b0ce13aac70a9a80b1cae246a9491b4c098de
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505103"
+ms.locfileid: "19569158"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Gestion à distance des paramètres d'une console Skype Room Systems v2 à l'aide d'un fichier de configuration XML
  
@@ -61,7 +61,6 @@ Le tableau ci-dessous explique les éléments affichés dans cet exemple SkypeSe
          </CustomThemeColor>
   </Theming>
 </SkypeSettings>
-
 ```
 
 Si le fichier XML est formé de manière incorrecte (le type d'une valeur de variable est incorrect, des éléments ne sont pas dans l'ordre correct, des éléments sont non fermés, etc.), les éléments jusqu'au point où l'erreur est détectée sont appliqués, puis le reste du fichier est ignoré lors du traitement. Tous les éléments inconnus dans le fichier XML sont ignorés. Si un paramètre est omis, il reste inchangé sur l'appareil. Si la valeur d’un paramètre n’est pas valide, la valeur précédente reste inchangée.

@@ -16,11 +16,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype pour Business Online vous permet de créer des stratégies d’accès externe supplémentaires. Contrairement aux stratégies de client ou de conférence, où vous pouvez avoir plusieurs combinaisons, il existe trois stratégies d’accès externe prédéfini qui peuvent couvrir la plupart des scénarios.
-ms.openlocfilehash: 8d0cff680ebf225a9dc62e585f39ab3f0b27e3c3
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: e166aa9af162fd6432c8932d5842ea0fd00a36b3
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568311"
 ---
 # <a name="create-custom-external-access-policies"></a>Créer des stratégies d’accès externe personnalisé
 
@@ -83,8 +84,7 @@ Pour ce faire, exécutez :
   
 > 
   ```
-  New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True 
--EnableOutsideAccess $True
+  New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
   ```
 
 > 

@@ -10,27 +10,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: 'Résumé : Permet d’afficher les informations de code PIN utilisateur dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 2521c9edba0b16eda6ea799b6b968a8c57bba245
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Permet d’afficher les informations de code confidentiel utilisateur dans Skype pour Business Server 2015.'
+ms.openlocfilehash: fecd4c983cad20b0efa77cbd5c6fc809db777aec
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568758"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server-2015"></a>Affichage des informations de code confidentiel de l’utilisateur dans Skype Entreprise Server 2015
  
-**Résumé :** Utilisateur d’afficher les informations de code PIN dans Skype pour Business Server 2015.
+**Résumé :** Utilisateur d’afficher les informations de code confidentiel dans Skype pour Business Server 2015.
   
-Pour participer à une conférence à distance comme un utilisateur authentifié, un Skype pour utilisateur Business Server 2015 avec informations d’identification des Services de domaine Active Directory (AD DS) requiert un numéro d’identification personnel (PIN). Vous pouvez afficher les informations de code PIN d’un utilisateur à partir de Skype pour le panneau de configuration de Business Server.
+Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un Skype pour Business Server 2015 utilisateur avec les informations d’identification des Services de domaine Active Directory (AD DS) requiert un code confidentiel (PIN). Vous pouvez afficher les informations de code confidentiel d’un utilisateur à partir de Skype pour le panneau de configuration serveur Business.
   
 > [!NOTE]
-> Vous pouvez afficher les informations de statut du code confidentiel, qui indiquent, par exemple, si le code confidentiel a été défini ou lorsqu’il a été modifié pour la dernière fois, mais vous ne pouvez pas voir le code confidentiel actif en consultant le statut de ce dernier. Si un utilisateur a perdu son code PIN, vous pouvez le réinitialiser en suivant les procédures décrites dans [la valeur à distance conférence d’un utilisateur PIN dans Skype pour Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+> Vous pouvez afficher les informations de statut du code confidentiel, qui indiquent, par exemple, si le code confidentiel a été défini ou lorsqu’il a été modifié pour la dernière fois, mais vous ne pouvez pas voir le code confidentiel actif en consultant le statut de ce dernier. Si un utilisateur a perdu leur code confidentiel, vous pouvez le réinitialiser en suivant les procédures décrites dans [la valeur dans les conférences d’un utilisateur rendez-vous code confidentiel dans Skype pour Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
   
-### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Pour afficher des PIN d’un utilisateur de panneau de configuration de Business Server dans Skype
+### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Pour afficher le code confidentiel d’un utilisateur dans Skype pour Business Server Control Panel
 
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrir une fenêtre de navigateur et entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration de Business Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
@@ -60,13 +61,13 @@ Pour participer à une conférence à distance comme un utilisateur authentifié
   
 6. Cliquez sur un utilisateur dans les résultats de recherche, puis cliquez sur **Action** et sur **Afficher le statut du code confidentiel**.
     
-## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de code PIN utilisateur par les applets de commande de Windows PowerShell à l’aide de
+## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de code confidentiel utilisateur à l’aide de cmdlets Windows PowerShell
 
-Vous pouvez afficher les informations relatives au code confidentiel de l’utilisateur à l’aide de l’applet de commande Get-CsClientPinInfo. Cette applet de commande peut être exécuté à partir de la Skype pour Business Server Management Shell ou à partir d’une session à distance de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter sur Skype pour Business Server, consultez l’article de blog [« rapide démarrer : gestion de Microsoft PowerShell Lync Server 2010 à l’aide à distance »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype pour Business Server.
+Vous pouvez afficher les informations relatives au code confidentiel de l’utilisateur à l’aide de l’applet de commande Get-CsClientPinInfo. Cette applet de commande peut être exécutée à partir de la Skype pour Business Server Management Shell ou à partir d’une session à distance de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Skype pour Business Server, consultez l’article de blog [« rapide démarrer : gestion de Microsoft PowerShell Lync Server 2010 à l’aide à distance »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype pour Business Server.
   
 ### <a name="to-view-user-pin-information"></a>Pour afficher les informations relatives au code confidentiel de l’utilisateur
 
-Pour afficher les informations de code PIN pour un utilisateur, tapez une commande semblable à la suivante dans le Skype pour Business Server Management Shell et appuyez sur ENTRÉE :
+Pour afficher les informations de code PIN pour un utilisateur, tapez une commande semblable à ce qui suit dans le Skype pour Business Server Management Shell et appuyez sur ENTRÉE :
     
   ```
   Get-CsClientPinInfo -Identity "Ken Myer"
@@ -74,21 +75,18 @@ Pour afficher les informations de code PIN pour un utilisateur, tapez une comman
 
 Vous obtiendrez des indications semblables à ceci :
 
-  ```
-  Identity          : sip:kenmyer@litwareinc.com
+<pre>
+Identity          : sip:kenmyer@litwareinc.com
 IsPinSet          : False
 IsLockedOut       : False
 LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
-  ```
+</pre>
 
 Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) .
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[La valeur à distance conférence d’un utilisateur PIN dans Skype pour Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+[Définir des conférences rendez-vous d’un utilisateur code confidentiel dans Skype pour Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
   
-[Verrouiller ou déverrouiller un utilisateur code PIN dans Skype pour Business Server 2015](lock-or-unlock-a-user-pin.md)
-
+[Verrouiller ou déverrouiller un code confidentiel dans Skype pour Business Server 2015](lock-or-unlock-a-user-pin.md)

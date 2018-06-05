@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 'Résumé : Découvrez comment afficher les enregistrements d’utilisation PSTN à l’aide de la Skype pour le panneau de configuration serveur Business ou le Skype pour Business Server Management Shell.'
-ms.openlocfilehash: e4e58326fade20a48b032cf6cdc575894152fac0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 3d7682be31bdd8afc3a4700943789f555d3a3944
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568220"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business-2015"></a>Afficher des enregistrements d’utilisation RTC dans Skype Entreprise 2015
  
@@ -47,14 +48,11 @@ Un enregistrement d’utilisation du réseau téléphonique commuté (RTC) spéc
 
     Cette commande renvoie le type d’informations suivant :
     
-  ```
+<pre>
   Identity : Global
   Usage    : {Internal, Local, Long Distance}
-  ```
+</pre>
 
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour Business 2015](voice-policy-and-pstn-usage-records.md)
-

@@ -9,18 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
-description: 'Résumé : Obtenir des informations sur l’état du périphérique dans Skype pour Business Server 2015.'
-ms.openlocfilehash: e9fa190c73deaee275c49bfa04f338b41579ce55
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez le rapport de périphérique dans Skype pour Business Server 2015.'
+ms.openlocfilehash: af09f26bc91c132363367c8145846837734ad73f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569483"
 ---
 # <a name="device-report-in-skype-for-business-server-2015"></a>Rapport d’appareil dans Skype Entreprise Server 2015
  
-**Résumé :** Obtenir des informations sur l’état du périphérique dans Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur le rapport de périphérique dans Skype pour Business Server 2015.
   
-Le Rapport de périphérique devrait plutôt s’appeler le Rapport de microphone et de haut-parleurs : en effet, le Rapport de périphérique récupère toutes les mesures de l’appel (comme le pourcentage d’appels médiocres, les échos et la durée du basculement vocal) regroupées par les microphones et les haut-parleurs utilisés pendant l’appel. Si vous êtes intéressé par des téléphones IP (également appelés « périphériques »), utilisez le [Rapport d’inventaire de téléphone IP dans Skype pour Business Server 2015](ip-phone-inventory-report.md) .
+Le Rapport de périphérique devrait plutôt s’appeler le Rapport de microphone et de haut-parleurs : en effet, le Rapport de périphérique récupère toutes les mesures de l’appel (comme le pourcentage d’appels médiocres, les échos et la durée du basculement vocal) regroupées par les microphones et les haut-parleurs utilisés pendant l’appel. Si vous êtes intéressé par des téléphones IP (souvent appelés « périphériques »), utilisez plutôt le [Rapport d’inventaire de téléphonie IP dans Skype pour Business Server 2015](ip-phone-inventory-report.md) .
   
 Le rapport de périphérique est très utile pour les administrateurs souhaitant déterminer si un type d’appareil spécifique rencontre un plus grand nombre d’appels médiocres que d’autres appareils. Ce rapport pourrait, à son tour, influencer les décisions que vous devez prendre au moment de l’achat de nouveaux périphériques ou du remplacement des périphériques existants.
   
@@ -51,13 +52,13 @@ Si vous préférez consulter les totaux combinés d’un périphérique donné (
    
 ## <a name="accessing-the-device-report"></a>Accès au rapport de périphérique
 
-Normalement, vous pouvez accéder au rapport de périphérique à partir de la page d’accueil Rapports de surveillance. Toutefois, si vous affichez le [Rapport détaillé sur les appeler dans Skype pour Business Server 2015](call-detail-report.md) vous pouvez accéder à l’état de périphérique pour un périphérique spécifique en cliquant sur une des mesures suivantes :
+Normalement, vous pouvez accéder au rapport de périphérique à partir de la page d’accueil Rapports de surveillance. Toutefois, si vous visualisez le [Rapport Détails des appels dans Skype pour Business Server 2015](call-detail-report.md) vous pouvez accéder à l’état de périphérique pour un périphérique spécifique en cliquant sur une des mesures suivantes :
   
 - Périphérique de capture
     
 - Périphérique de rendu
     
-À partir de l’état du périphérique vous pouvez consulter le [Rapport liste des appels dans Skype pour Business Server 2015](call-list-report-0.md) en cliquant sur une des mesures suivantes :
+Vous pouvez accéder à partir du rapport de périphérique du [Rapport liste des appels dans Skype pour Business Server 2015](call-list-report-0.md) en cliquant sur une des mesures suivantes :
   
 - Volume d’appels
     
@@ -104,7 +105,7 @@ Pour ce qui est des noms de périphériques, le rapport de périphérique est ex
 - Microphone Aastra 6725ip (périphérique audio USB)-V0
     
 > [!NOTE]
-> Gardez à l’esprit que les noms de périphériques de capture peut-être pas la même si vous exécutez des versions localisées de Skype pour Business Server 2015. Un périphérique nommé Microphone Aastra 6725ip (Aastra 6725ip)-V0 en FR français peut être nommé différemment en français ou en espagnol. 
+> N’oubliez pas que les noms de périphériques de capture peuvent ne pas être la même si vous exécutez des versions localisées de Skype pour Business Server 2015. Un périphérique nommé Microphone Aastra 6725ip (Aastra 6725ip)-V0 en FR français peut être nommé différemment en français ou en espagnol. 
   
 Il est possible que vous souhaitiez ce niveau de détail à plusieurs reprises ; cependant, la plupart du temps, vous serez probablement uniquement intéressé par le nombre d’appels utilisant n’importe quel microphone Aastra, indépendamment du numéro du modèle. Pour obtenir ce genre d’informations, exportez les données du Rapport de périphérique dans Microsoft Excel et enregistrez ces données sous la forme d’une chaîne de valeurs séparées par des virgules (par exemple, C:\Data\Rapport_périphériques.csv). Vous pouvez ensuite utiliser un ensemble de commandes similaires à celles-ci pour importer le fichier .CSV dans Windows PowerShell et renvoyer le nombre d’appels effectués en utilisant un périphérique de capture Aastra :
   
@@ -115,11 +116,7 @@ $sum | foreach-object {[Int]$x = [Int]$x + [Int]$_."call volume"}
 $x
 ```
 
-Cela va renvoyer une valeur unique représentant le nombre d’appels effectués en utilisant un périphérique de capture Aastra. Par exemple :
-  
-```
-384
-```
+Cela va renvoyer une valeur unique représentant le nombre d’appels effectués en utilisant un périphérique de capture Aastra. Par exemple : 384
 
 ## <a name="filters"></a>Filtres
 
@@ -127,18 +124,18 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de périphérique.
   
-**Dispositif de filtres de rapport**
+**Filtres du rapport de périphérique**
 
 |**Nom**|**Description**|
 |:-----|:-----|
 |**De** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**À** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Cause du basculement vocal** <br/> |Raison pour laquelle un appel a dû être émis en mode semi-duplex afin d’empêcher l’écho. En mode semi-duplex, la communication peut voyager dans un seul sens à la fois, de la même façon que les utilisateurs attendent leur tour pour communiquer à l’aide d’un talkie-walkie. Sélectionnez l’une des options suivantes :  <br/> [All] Aucun écho de Post-AEC état pour faible complexité Echo DNLP (processeur non linéaire dynamique) horodatage incorrect périphérique incorrect (annulation de l’écho acoustique) |
-|**Cause de l’écho** <br/> |Raison pour laquelle un écho au-dessus du niveau acceptable a été détecté dans un appel. (Dans le domaine des télécommunications, un écho est la réflexion d’un son, il s’agit du même phénomène que vous entendez lorsque vous hélez en direction du fond d’un puits.) Sélectionnez l’une des options suivantes :  <br/> [All] Aucun horodatage incorrect Post-AEC echo découpage de Microphone DNLP (processeur non linéaire dynamique) ANLP (processeur non linéaire adaptive) (annulation de l’écho acoustique) |
-|**Type d’appel** <br/> |Indique le type d’appel émis. Sélectionnez l’une des options suivantes :  <br/> [All] Appel du client l’appel RTC conférence téléphonique |
+|**Cause du basculement vocal** <br/> |Raison pour laquelle un appel a dû être émis en mode semi-duplex afin d’empêcher l’écho. En mode semi-duplex, la communication peut voyager dans un seul sens à la fois, de la même façon que les utilisateurs attendent leur tour pour communiquer à l’aide d’un talkie-walkie. Sélectionnez l’une des options suivantes :  <br/> [All] Aucun horodateur incorrect écho DNLP (processeur non linéaire dynamique) faible complexité périphérique incorrect état Post-AEC l’écho (suppression d’écho acoustique) |
+|**Cause de l’écho** <br/> |Raison pour laquelle un écho au-dessus du niveau acceptable a été détecté dans un appel. (Dans le domaine des télécommunications, un écho est la réflexion d’un son, il s’agit du même phénomène que vous entendez lorsque vous hélez en direction du fond d’un puits.) Sélectionnez l’une des options suivantes :  <br/> [All] Aucun horodateur incorrect Post-AEC écho écrêtage du Microphone DNLP (processeur non linéaire dynamique) ANLP (adaptive processeur non linéaire) (annulation de l’écho acoustique) |
+|**Type d’appel** <br/> |Indique le type d’appel émis. Sélectionnez l’une des options suivantes :  <br/> [All] Appel client appel PSTN téléconférence |
 |**Type d’accès** <br/> |Indique si le client était connecté au réseau interne ou au réseau externe au moment de passer l’appel. Sélectionnez l’une des options suivantes :  <br/> [All] Interne externe |
 |**Type de réseau** <br/> |Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes :  <br/> [All] Filaire et sans fil |
-|**VPN** <br/> |Indique si un client externe utilisait une connexion de réseau privé virtuel (VPN) au moment d’effectuer l’appel. Sélectionnez l’une des options suivantes :  <br/> [All] VPN Non-VPN |
+|**VPN** <br/> |Indique si un client externe utilisait une connexion de réseau privé virtuel (VPN) au moment d’effectuer l’appel. Sélectionnez l’une des options suivantes :  <br/> [All] Non VPN VPN |
 |**Type de périphérique** <br/> |Indique le type du périphérique. Sélectionnez l’une des options suivantes :  <br/> Paire de périphériques de Capture/rendu périphérique rendu périphérique de capture |
 |**Nom du périphérique** <br/> |Nom du périphérique de capture ou de rendu. Vous pouvez entrer le nom complet du périphérique ou seulement une partie. Par exemple, pour trouver le périphérique Microphone (Microsoft LifeCam VX-1000), vous pouvez entrer la totalité du nom du périphérique comme suit :  <br/> Microphone (Microsoft LifeCam VX-1000)  <br/> Ou, vous pouvez entrer uniquement une partie du nom. Par exemple :  <br/> LifeCam  <br/> Notez que le filtre précédant permet de renvoyer tous les périphériques qui contiennent la chaîne « LifeCam » dans leur nom.  <br/> |
    
@@ -146,7 +143,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 Le tableau qui suit répertorie les informations fournies dans le rapport de périphérique.
   
-**Métrique de rapport de périphérique**
+**Mesures du rapport de périphérique**
 
 |**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|

@@ -10,27 +10,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: 'Résumé : La valeur à distance conférence d’un utilisateur broche pour Skype pour Business Server 2015.'
-ms.openlocfilehash: d94df7ff557c9a229fd5f049ca10f9c1e7f22407
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Définir dans les conférences rendez-vous l’utilisateur code confidentiel pour Skype pour Business Server 2015.'
+ms.openlocfilehash: 557aaa3fc191e6423ae323e53d2dacdf5f0019b1
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568820"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server-2015"></a>Définition du code confidentiel de conférence rendez-vous d’un utilisateur dans Skype Entreprise Server 2015
  
-**Résumé :** La valeur à distance conférence d’un utilisateur broche pour Skype pour Business Server 2015.
+**Résumé :** Définir dans les conférences rendez-vous l’utilisateur code confidentiel pour Skype pour Business Server 2015.
   
-Pour participer à une conférence à distance comme un utilisateur authentifié, un Skype pour utilisateur Business Server 2015 avec informations d’identification des Services de domaine Active Directory (AD DS) requiert un numéro d’identification personnel (PIN). Si un utilisateur oublie de la conférence à distance PIN ou le code confidentiel n’a pas défini à l’aide de Skype pour Business Server 2015, vous pouvez définir le code PIN de l’utilisateur de Skype pour le panneau de configuration de Business Server. Vous pouvez générer automatiquement le code confidentiel ou en créer un manuellement.
+Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un Skype pour Business Server 2015 utilisateur avec les informations d’identification des Services de domaine Active Directory (AD DS) requiert un code confidentiel (PIN). Si un utilisateur oublie de conférence rendez-vous code confidentiel ou le code confidentiel n’a pas définie à l’aide de Skype pour Business Server 2015, vous pouvez définir le code confidentiel de l’utilisateur à partir de Skype pour le panneau de configuration serveur Business. Vous pouvez générer automatiquement le code confidentiel ou en créer un manuellement.
   
 > [!NOTE]
 > Les caractéristiques spécifiques du code confidentiel, comme sa longueur minimale, peuvent être définies sous forme de stratégie. Outre la stratégie globale, vous pouvez configurer une stratégie de code confidentiel pour un site ou un utilisateur spécifique. 
   
-### <a name="to-set-a-users-pin"></a>Pour définir le code PIN d’un utilisateur
+### <a name="to-set-a-users-pin"></a>Pour définir le code confidentiel d’un utilisateur
 
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrir une fenêtre de navigateur et entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration de Business Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
@@ -62,7 +63,7 @@ Pour participer à une conférence à distance comme un utilisateur authentifié
     
 7. Dans la boîte de dialogue **Définir le code confidentiel**, effectuez l’une des opérations suivantes :
     
-   - Pour permettre à Skype pour 2015 de serveur d’entreprise générer le code PIN de l’utilisateur, sélectionnez **Générer automatiquement un code confidentiel valide** (par défaut).
+   - Pour autoriser Skype pour Business Server 2015 générer le code confidentiel de l’utilisateur, sélectionnez **Générer automatiquement un code confidentiel valide** (par défaut).
     
    - Pour créer votre propre code confidentiel, cliquez sur **Entrer manuellement un code confidentiel spécifique**, cliquez sur la zone de texte, puis tapez un code confidentiel respectant les exigences de code confidentiel spécifiées dans vos paramètres de stratégie de code confidentiel.
     
@@ -76,17 +77,16 @@ Pour participer à une conférence à distance comme un utilisateur authentifié
     
 10. Cliquez sur **Fermer**.
     
-## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Attribution d’un code confidentiel à l’aide des applets de commande Windows PowerShell
+## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Affectation d’un code confidentiel de l’utilisateur à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez également affecter plusieurs codes confidentiels à l’aide de l’applet de commande Set-CsClientPin. Vous pouvez exécuter cette applet de commande depuis le Skype pour Business Server Management Shell ou à partir d’une session à distance de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter sur Skype pour Business Server, consultez l’article de blog [« rapide démarrer : gestion de Microsoft PowerShell Lync Server 2010 à l’aide à distance »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype pour Business Server. 
+Vous pouvez également affecter plusieurs codes confidentiels à l’aide de l’applet de commande Set-CsClientPin. Vous pouvez exécuter cette applet de commande à partir de la Skype pour Business Server Management Shell ou d’une session à distance de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Skype pour Business Server, consultez l’article de blog [« rapide démarrer : gestion de Microsoft PowerShell Lync Server 2010 à l’aide à distance »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype pour Business Server. 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>Affectation automatique d’un code confidentiel à un utilisateur
 
-La commande ci-dessous affecte un code confidentiel à l’utilisateur Ken Myer. Étant donné que le paramètre de code Pin n’est pas inclus, Skype pour Business Server automatiquement générer et affecter le numéro d’identification personnel.
+La commande ci-dessous affecte un code confidentiel à l’utilisateur Ken Myer. Étant donné que le paramètre Pin n’est pas inclus, Skype pour Business Server va générer automatiquement et l’assigner le code confidentiel.
     
   ```
   Set-CsClientPin -Identity "Ken Myer" 
-
   ```
 
 ### <a name="to-assign-a-specific-pin-number-to-a-user"></a>Affectation d’un code confidentiel à un utilisateur

@@ -11,11 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e93a69394c1de57c32a9ce8185dbbd406890d55d
-ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
+ms.openlocfilehash: aae2fb4118a5069c7f1f85a90326ec9c158037db
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569596"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 ==================================
@@ -35,7 +36,7 @@ Découvrez Teams et encouragez son utilisation dans votre organisation. Vérifie
 | [Vidéos sur l'audioconférence](audio-conferencing-videos.md) |Vidéos de présentation de l’audioconférence dans Teams pour l’administrateur informatique.  |
 | [Didacticiel : Réunions dans Teams](tutorial-meetings-in-teams.yml) | Cette formation présente des réunions dans les équipes. Il traite des fonctionnalités de réunion, ainsi que les exigences et les considérations de planification. |
 | Déploiement et fonctionnement de Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
-| Diriger le routage pour les équipes Microsoft (aperçu)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/RjJAn9BAxDw" frameborder="0" allowfullscreen></iframe>   |
+| Diriger le routage pour les équipes Microsoft (aperçu)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
 | Présentation détaillée de l'accès invité <br>Session cloud avec Laith Al et Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | e-Discovery dans Microsoft Teams <br> Session cloud avec Ansuman Acharya et Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Teams : Introduction par étapes sur l'utilisation, l'activation et la gestion de l'expérience <br> Session Microsoft Mechanics avec Dan Stevenson et Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |

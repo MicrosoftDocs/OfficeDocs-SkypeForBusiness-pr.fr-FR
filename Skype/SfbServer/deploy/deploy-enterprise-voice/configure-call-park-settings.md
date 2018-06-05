@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Modifier les paramètres de parcage d’appel dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 15dc57d5a069ead8fd18dbf6489f748df4ff30a6
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c0aacdf23788c56d2bd0204665d5971dc715df3b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568303"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business-2015"></a>Configuration des paramètres de parcage d’appel dans Skype Entreprise 2015
  
@@ -49,7 +50,7 @@ Utilisez l’applet de commande **New-CsCpsConfiguration** ou l’applet de comm
    ```
 
    > [!TIP]
-   > Utilisez l’applet de commande **Get-CsSite** pour identifier le site. Pour plus d’informations, voir la documentation Lync Server Management Shell.
+   > Utilisez l’applet de commande **Get-CsSite** pour identifier le site. Pour plus d’informations, voir Skype pour la documentation sur Business Server Management Shell.
   
     Par exemple :
     
@@ -59,8 +60,6 @@ Utilisez l’applet de commande **New-CsCpsConfiguration** ou l’applet de comm
 
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Personnaliser une musique de parcage d’appel d’attente inSkype pour Business 2015](customize-call-park-music-on-hold.md)
 
 [Nouvelle-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
@@ -68,4 +67,3 @@ Utilisez l’applet de commande **New-CsCpsConfiguration** ou l’applet de comm
 [Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
   
 [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
-

@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Résoudre les problèmes de votre déploiement en nuage connecteur Edition.
-ms.openlocfilehash: 2e4f0d2a258e48e4c953fb8ea4175c64b585b91f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 41d2d43c5b47c3c0774cbdf6a29304d8c86132dc
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569669"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Identification et résolution des problèmes de votre déploiement Cloud Connector
  
@@ -175,9 +176,8 @@ Voici des solutions aux problèmes couramment rencontrés :
   Unregister-CsHybridPSTNAppliance -Force
   ```
 
-- 
     
-    **Problème : L’applet de commande Get-CcRunningVersion renvoie une valeur vide s’il existe une solution déployée en cours d’exécution sur l’hôte.**
+-    **Problème : L’applet de commande Get-CcRunningVersion renvoie une valeur vide s’il existe une solution déployée en cours d’exécution sur l’hôte.**
     
     **Résolution :** Cela peut arriver quand vous passez de la version 1.3.4 ou 1.3.8 à la version 1.4.1. Après l’installation de la 1.4.1 avec le .msi, vous devez exécuter `Register-CcAppliance` avant d’exécuter une quelconque autre applet de commande. `Register-CcAppliance` fera migrer le module du fichier .ini de %UserProfile%\CloudConnector vers %ProgramData%\CloudConnector. Si vous l’avez manqué, un nouveau module .ini sera créé dans le dossier %ProgramData%\CloudConnector et remplacera les informations de la version exécutée ou de sauvegarde pour la version 1.3.4 ou la 1.3.8.
     
@@ -208,21 +208,19 @@ Voici des solutions aux problèmes couramment rencontrés :
     
     Pour les versions de nuage connecteur avant 2.0 :
     
-  ```
-  Reset-CcCACertificate 
-Renew-CcServerCertificate 
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate 
+    Renew-CcServerCertificate 
+    Remove-CcLegacyServerCertificate 
+    ```
 
     Ou pour le nuage connecteur version 2.0 et versions ultérieure :
     
-  ```
-  Reset-CcCACertificate 
-Update-CcServerCertificate 
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate 
+    Update-CcServerCertificate 
+    Remove-CcLegacyServerCertificate 
+    ```
 
 3. Exécutez l’applet de commande Exit-CcUpdate afin de démarrer les services et de quitter le mode maintenance.
     
@@ -240,27 +238,25 @@ Remove-CcLegacyServerCertificate
     
     Pour les versions de nuage connecteur avant 2.0 :
     
-  ```
-  Reset-CcCACertificate
-Renew-CcServerCertificate
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate
+    Renew-CcServerCertificate
+    Remove-CcLegacyServerCertificate 
+    ```
 
     Ou pour le nuage connecteur version 2.0 et versions ultérieure :
     
-  ```
-  Reset-CcCACertificate
-Update-CcServerCertificate
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate
+    Update-CcServerCertificate
+    Remove-CcLegacyServerCertificate 
+    ```
 
   - Sur la première application, exécutez la cmdlet suivante pour sauvegarder les fichiers de l’autorité de certification pour le \<SiteRoot\> dossier. Ultérieurement, sur tous les autres matériels dans le même site, l’applet de commande Reset-CcCACertificate consomme automatiquement les fichiers de sauvegarde d’autorité de certification et équipements utiliseront le même certificat racine.
     
-  ```
-  Backup-CcCertificationAuthority
-  ```
+    ```
+    Backup-CcCertificationAuthority
+    ```
 
   - Exécutez l’applet de commande Exit-CcUpdate pour démarrer les services et quitter le mode maintenance. 
     
@@ -274,55 +270,51 @@ Remove-CcLegacyServerCertificate
   Set-CcCredential -AccountType TenantAdmin
   ```
 
-- 
-    
-    **Problème : Une fois que vous modifiez le mot de passe pour le compte de serveur hôte que vous avez utilisé pour le déploiement, vous recevez le message d’erreur suivant : « ConvertTo-SecureString : clé non valide pour une utilisation dans spécifié état. » dans %ProgramFiles%\Skype Business Cloud Connector Edition\ManagementService\CceManagementService.log ou lors de l’exécution de l’applet de commande Get-CcCredential.**
+- **Problème : Une fois que vous modifiez le mot de passe pour le compte de serveur hôte que vous avez utilisé pour le déploiement, vous recevez le message d’erreur suivant : « ConvertTo-SecureString : clé non valide pour une utilisation dans spécifié état. » dans %ProgramFiles%\Skype Business Cloud Connector Edition\ManagementService\CceManagementService.log ou lors de l’exécution de l’applet de commande Get-CcCredential.**
     
     **Résolution :** Toutes les informations d’identification sur le nuage connecteur sont stockées dans le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ». Lorsque le mot de passe sur le serveur hôte change, vous devrez mettre à jour les informations d’identification stockées localement.
     
     **Si vous exécutez nuage connecteur version 1.4.2,** régénérez tous les mots de passe dans le nuage connecteur en suivant ces étapes :
     
-1. redémarrez le serveur hôte.
+    1. redémarrez le serveur hôte.
     
-2. Supprimez le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ».
+    2. Supprimez le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ».
     
-3. Lancer une console PowerShell en tant qu’administrateur et exécutez « Register-CcAppliance-Local » à entrer les mots de passe suivant la description. Entrez les mots de passe même que vous avez entré avant le déploiement dans le nuage connecteur.
+    3. Lancer une console PowerShell en tant qu’administrateur et exécutez « Register-CcAppliance-Local » à entrer les mots de passe suivant la description. Entrez les mots de passe même que vous avez entré avant le déploiement dans le nuage connecteur.
     
     **Si vous exécutez nuage connecteur 2.0 ou version ultérieure,** régénérez tous les mots de passe dans le nuage connecteur en suivant ces étapes :
     
-1. redémarrez le serveur hôte.
+    1. redémarrez le serveur hôte.
     
-2. Supprimez le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ».
+    2. Supprimez le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ».
     
-3. Lancer une console PowerShell en tant qu’administrateur et exécutez « Register-CcAppliance-Local » à entrer les mots de passe suivant la description. 
+    3. Lancer une console PowerShell en tant qu’administrateur et exécutez « Register-CcAppliance-Local » à entrer les mots de passe suivant la description. 
     
     Si le fichier du mot de passe en mémoire a été généré avec la version 1.4.2 de Cloud Connector, utilisez le mot de passe VMAdmin pour le mot de passe CceService lorsque vous y serez invité. Saisissez le même mot de passe que vous avez saisi pour le déploiement de Cloud Connector pour tous les autres comptes.
     
     Si le fichier du mot de passe en mémoire a été généré avec la version 1.4.2 de Cloud Connector et que les mots de passe DomainAdmin et VMAdmin sont différents, suivez les étapes suivantes :
     
-1. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
+    1. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
     
-1. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService.
+    2. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService.
     
-2. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin que vous avez utilisé auparavant.
+    3. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin que vous avez utilisé auparavant.
     
     Si le fichier de mot de passe mis en cache a été généré avec le nuage connecteur version 2.0 ou version ultérieure, par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe en tant que CceService. Si vous avez modifié les mots de passe DomainAdmin et VMAdmin, vous devez effectuer les étapes suivantes :
     
-1. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
+    1. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
     
-1. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService
+        1. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService
     
-2. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin que vous avez utilisé auparavant.
+        2. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin que vous avez utilisé auparavant.
     
-2. Exécutez Set-CcCredential -AccountType VmAdmin comme suit :
+    2. Exécutez Set-CcCredential -AccountType VmAdmin comme suit :
     
-1. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService
+        1. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService
     
-2. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe VmAdmin que vous avez utilisé auparavant.  
+        2. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe VmAdmin que vous avez utilisé auparavant.  
     
-- 
-    
-    **Problème : Avec le nuage connecteur version 2.1 et version ultérieure, lors de l’exécution Register-CcAppliance ou autres applets de commande sur le matériel, vous recevez un message d’erreur tel : » pour chaque objet : la propriété « Commune » est introuvable sur cet objet. Vérifiez que la propriété existe. À C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 caractère : 14 »**
+- **Problème : Avec le nuage connecteur version 2.1 et version ultérieure, lors de l’exécution Register-CcAppliance ou autres applets de commande sur le matériel, vous recevez un message d’erreur tel : » pour chaque objet : la propriété « Commune » est introuvable sur cet objet. Vérifiez que la propriété existe. À C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 caractère : 14 »**
     
     **Résolution :** Nuage connecteur 2.1 et version ultérieure requiert .NET Framework 4.6.1 ou version ultérieure. Veuillez mettre à jour .NET Framework sur l’application vers la version 4.6.1 ou version ultérieure et réexécutez le cmdlet(s).
     
@@ -346,9 +338,7 @@ Remove-CcLegacyServerCertificate
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
-- 
-    
-    **Problème : Vous devez vérifier et installer les mises à jour de Windows manuellement sur le serveur hôte ou les machines virtuelles.**
+-  **Problème : Vous devez vérifier et installer les mises à jour de Windows manuellement sur le serveur hôte ou les machines virtuelles.**
     
     **Résolution ** Nous vous conseillons de profiter des avantages des mises à jour automatiques du système d’exploitation fournies par la version Cloud Connector de Skype Entreprise. Une fois qu’un appareil est inscrit pour une gestion en ligne et que la mise à jour automatique du système d’exploitation est activée, le serveur hôte et les machines virtuelles vérifieront et installeront automatiquement les mises à jour de Windows en fonction des paramètres d’heure de mise à jour du système d’exploitation.
     
@@ -358,15 +348,13 @@ Remove-CcLegacyServerCertificate
     
     Pour en savoir plus sur la mise à jour de votre déploiement Cloud Collector manuellement, consultez la rubrique suivante.
     
-- 
-    
-    **Problème : Lorsque le nuage connecteur mises à jour vers une nouvelle version, cmdlets de connecteur de nuage ne sont pas mis à jour.** Cela se produit parfois si une fenêtre PowerShell reste ouverte lors de la mise à jour automatique se produit.
+-   **Problème : Lorsque le nuage connecteur mises à jour vers une nouvelle version, cmdlets de connecteur de nuage ne sont pas mis à jour.** Cela se produit parfois si une fenêtre PowerShell reste ouverte lors de la mise à jour automatique se produit.
     
     **Résolution :** Pour charger les applets de commande mis à jour, vous pouvez effectuer une des opérations suivantes :
     
-  - Fermez PowerShell sur le matériel de nuage connecteur, puis rouvrez PowerShell.
+     - Fermez PowerShell sur le matériel de nuage connecteur, puis rouvrez PowerShell.
     
-  - Vous pouvez également exécuter Import-Module CloudConnector-Force. 
+     - Vous pouvez également exécuter Import-Module CloudConnector-Force. 
     
 ## <a name="install-windows-updates-manually"></a>Installer manuellement les mises à jour Windows
 
@@ -415,5 +403,3 @@ Si vous avez besoin installer un logiciel antivirus sur l’ordinateur hôte de 
 - %ProgramFiles%\WindowsPowerShell\Modules\CloudConnector
     
 - Le processus Microsoft.Rtc.CCE.ManagementService.exe.
-    
-

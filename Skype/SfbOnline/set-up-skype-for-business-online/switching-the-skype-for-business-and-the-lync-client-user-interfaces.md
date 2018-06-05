@@ -17,15 +17,16 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 9edbc3642a0b8459cc658d32d135eb21e0b3edf8
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 27d6d29f3a3e8528e0d9c5076249ff821a5c666d
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568372"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Basculement entre les interfaces utilisateur des clients Skype Entreprise et Lync
 
-Dans les organisations utilisant Skype Entreprise Online, vous pouvez utiliser une session PowerShell distante dans Office 365 pour permettre aux utilisateurs de Skype Entreprise d'utiliser le client Skype Entreprise ou l'interface utilisateur du client Skype Entreprise (Lync). Par défaut, l'interface utilisateur du client Skype Entreprise est utilisée. Si vous préférez utiliser l’expérience du client Lync, vous pouvez gérer le comportement du client premier lancement pour afficher l’interface utilisateur de Lync en suivant les étapes décrites plus loin dans cette rubrique.
+Dans les organisations utilisant Skype Entreprise Online, vous pouvez utiliser une session PowerShell distante dans Office 365 pour permettre aux utilisateurs de Skype Entreprise d'utiliser le client Skype Entreprise ou l'interface utilisateur du client Skype Entreprise (Lync). Par défaut, l'interface utilisateur du client Skype Entreprise est utilisée. Si vous préférez utiliser l’expérience du client Lync, vous pouvez gérer le comportement du client premier lancement afin d’afficher l’interface utilisateur de Lync en suivant les étapes décrites plus loin dans cette rubrique.
   
 > [!NOTE]
 > L'expérience client Lync 2013 n'est pas une option pour les versions client de Skype Entreprise 2016. Avant de tenter de configurer votre environnement client pour utiliser le client Lync 2013, vérifiez la version du client pour vous assurer qu'elle ne commence pas par le numéro 16. Par exemple : 16.x.x.x. 
@@ -128,37 +129,37 @@ Ce tableau indique l'expérience utilisateur lorsque la stratégie est d'abord a
 |**Paramètre de stratégie d'administration**|**Interface utilisateur affichée**|
 |:-----|:-----|
 |La stratégie n'est pas définie. |L'interface utilisateur restera celle du client Skype Entreprise.|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```<br/>|L'interface utilisateur restera celle du client Skype Entreprise.|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```<br/>|L'utilisateur sera invité à basculer sur l'interface utilisateur du client Skype Entreprise (Lync). Le basculement peut être effectué plus tard.|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>```|L'interface utilisateur du client Skype Entreprise sera utilisée. |
-```Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>```|L’utilisateur sera invité pour basculer vers le Skype pour l’interface utilisateur du client entreprise (Lync). Un administrateur peut modifier le paramètre afin de basculer sur l'interface utilisateur du client Skype Entreprise ultérieurement. |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|L'interface utilisateur restera celle du client Skype Entreprise.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|L'utilisateur sera invité à basculer sur l'interface utilisateur du client Skype Entreprise (Lync). Le basculement peut être effectué plus tard.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|L'interface utilisateur du client Skype Entreprise sera utilisée. |
+`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|L’utilisateur sera invité à basculer vers le Skype pour l’interface utilisateur du client Business (Lync). Un administrateur peut modifier le paramètre afin de basculer sur l'interface utilisateur du client Skype Entreprise ultérieurement. |
    
 Ce tableau indique l'expérience utilisateur une fois la stratégie modifiée :
   
 |**Paramètre de stratégie d'administration**|**Interface utilisateur de Skype Entreprise (Lync)**|**Interface utilisateur de Skype Entreprise**|
 |:-----|:-----|:-----|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```|L'utilisateur sera invité à basculer sur l'interface utilisateur du client Skype Entreprise.  <br/> |L'interface utilisateur restera celle du client Skype Entreprise.  <br/> |
-|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```|L’utilisateur continue à utiliser le Skype pour interface métier (Lync).  <br/> |L’utilisateur sera invité pour basculer vers le Skype pour l’interface utilisateur du client entreprise (Lync).  <br/> |
-|La stratégie n'est pas définie.  <br/> |Les utilisateurs ne voient jamais le Skype pour l’interface utilisateur du client entreprise (Lync) si la stratégie n’est pas définie. Ils continueront d'utiliser l'interface utilisateur du client Skype Entreprise.  <br/> |L'interface utilisateur restera celle du client Skype Entreprise.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|L'utilisateur sera invité à basculer sur l'interface utilisateur du client Skype Entreprise.  <br/> |L'interface utilisateur restera celle du client Skype Entreprise.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|L’utilisateur continue à utiliser le Skype pour interface métier (Lync).  <br/> |L’utilisateur sera invité à basculer vers le Skype pour l’interface utilisateur du client Business (Lync).  <br/> |
+|La stratégie n'est pas définie.  <br/> |Les utilisateurs ne verront jamais le Skype pour l’interface utilisateur du client Business (Lync) si la stratégie n’est pas définie. Ils continueront d'utiliser l'interface utilisateur du client Skype Entreprise.  <br/> |L'interface utilisateur restera celle du client Skype Entreprise.  <br/> |
    
 Ce tableau présente toutes les stratégies personnalisées Online disponibles. Il existe de nouvelles stratégies créées afin d'offrir plus de flexibilité aux administrateurs qui souhaitent conserver l'ancienne stratégie personnalisée tout en basculant entre les différents indicateurs EnableSkypeUI. Utilisez les applets de commande ci-dessus pour accorder l'une des stratégies ci-dessous à vos utilisateurs.
   
 |**Nom de la stratégie**|**EnableSkypeUI**|
 |:-----|:-----|
-```ClientPolicyDefaultPhoto```||
-```ClientPolicyDefaultPhotoDisableSkypeUI``` |False|
-```ClientPolicyNoIMURL```||
-```ClientPolicyNoIMURLDisableSkypeUI``` |False|
-```ClientPolicyNoIMURLPhoto```||
-```ClientPolicyNoIMURLPhotoDisableSkypeUI``` |False|
-```ClientPolicyNoSaveIMNoArchivingI```||
-```ClientPolicyNoSaveIMNoArchivingDisableSkypeUI``` |False|
-```ClientPolicyNoSaveIMNoArchivingNoIMURL```||
-```ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI``` |False|
-```ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto``` ||
-```ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI```|False|
-```ClientPolicyNoSaveIMNoArchivingPhoto```||
-```ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI``` |False|
+`ClientPolicyDefaultPhoto`||
+`ClientPolicyDefaultPhotoDisableSkypeUI` |False|
+`ClientPolicyNoIMURL`||
+`ClientPolicyNoIMURLDisableSkypeUI` |False|
+`ClientPolicyNoIMURLPhoto`||
+`ClientPolicyNoIMURLPhotoDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingI`||
+`ClientPolicyNoSaveIMNoArchivingDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingNoIMURL`||
+`ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto` ||
+`ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI`|False|
+`ClientPolicyNoSaveIMNoArchivingPhoto`||
+`ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI` |False|
 
    
 Pour prendre en main Windows PowerShell, consultez ces rubriques :
@@ -169,7 +170,7 @@ Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
 ## <a name="first-launch-client-behaviors"></a>Comportements client au premier lancement
 
-Par défaut, lorsque les utilisateurs lancent Skype pour les entreprises pour la première fois, ils seront toujours voir le Skype pour l’interface utilisateur de Business--même si vous avez sélectionné l’expérience du client Lync en définissant la stratégie du client à l’expérience du client Lync (`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) tel que décrit précédemment. Après quelques minutes, les utilisateurs sont invités à passer en mode Lync.
+Par défaut, lorsque les utilisateurs lancer Skype pour les entreprises pour la première fois, il apparaît toujours à la Skype pour l’interface utilisateur d’entreprise : même si vous avez sélectionné l’expérience du client Lync en définissant la stratégie du client sur l’expérience du client Lync (`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) comme indiqué précédemment. Après quelques minutes, les utilisateurs sont invités à passer en mode Lync.
   
 Si vous souhaitez afficher l'interface utilisateur Lync lorsque les utilisateurs lancent le client Skype Entreprise pour la première fois, suivez cette procédure avant le premier démarrage du client après la mise à jour :
   
@@ -183,7 +184,7 @@ Si vous souhaitez afficher l'interface utilisateur Lync lorsque les utilisateurs
     
     La clé doit se présenter comme celle-ci :
     
-    [HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]
+    [HKEY_CURRENT_USER\\logiciel\\Microsoft\\Office\\Lync]
     
     « CanSharePptInCollab » = DWORD : 00000001
     
@@ -197,15 +198,13 @@ L'interface utilisateur de Lync s'affiche maintenant lorsque les utilisateurs la
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Contrôle de l'affichage du didacticiel de l'écran d'accueil
 
-Lorsque les utilisateurs ouvrent le Skype pour client d’entreprise, le comportement par défaut est d’afficher un écran de bienvenue qui inclut la *demande de la plupart des gens 7 astuces pour*. Vous pouvez désactiver l'affichage de l'écran d'accueil, mais permettre quand même aux utilisateurs d'accéder au didacticiel en ajoutant la valeur de registre ci-dessous sur l'ordinateur client :
+Lorsque les utilisateurs ouvrent la Skype pour client d’entreprise, le comportement par défaut consiste à afficher l’écran d’accueil qui inclut *la plupart des personnes 7 conseils rapides demandent*. Vous pouvez désactiver l'affichage de l'écran d'accueil, mais permettre quand même aux utilisateurs d'accéder au didacticiel en ajoutant la valeur de registre ci-dessous sur l'ordinateur client :
   
 Dans la clé **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]**, créez une valeur **DWORD (32 bit)**. Le **nom de la valeur** doit être **IsBasicTutorialSeenByUser** et les **données de valeur** doivent être définies sur **1**.
   
 La clé doit se présenter comme celle-ci :
   
-```
-"IsBasicTutorialSeenByUser"=dword:00000001
-```
+`"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### <a name="turn-off-the-client-tutorial"></a>Désactivation du didacticiel client
 
@@ -256,7 +255,7 @@ Cliquez sur **OK** pour enregistrer les modifications, puis fermez l'objet GPO.
     
 Ensuite, vous devez lier l'objet GPO créé au groupe d'utilisateurs auquel vous voulez affecter la stratégie, par exemple, une unité d'organisation.
   
- **Pour utiliser l’objet de stratégie de groupe pour attribuer la stratégie**
+ **Pour utiliser la stratégie de groupe pour attribuer la stratégie**
   
 1. Dans la console de gestion des stratégies de groupe, cliquez avec le bouton droit sur l'unité d'organisation à laquelle vous voulez affecter la stratégie, puis sélectionnez **Lier un objet de stratégie de groupe existant**.
     

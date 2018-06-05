@@ -10,12 +10,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
-description: 'Résumé : Apprenez comment connecter Skype pour Business Server 2015 avec Skype consommateur. Également connu sous le nom Skype connectivité.'
-ms.openlocfilehash: 3e972b44a72c9887165a2cc6746523b7667d1e56
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment connecter Skype pour Business Server 2015 Skype consommateur. Également appelé Skype connectivité.'
+ms.openlocfilehash: 4d81d2529435d250957c775d954a33a562bed1e9
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569165"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server-2015"></a>Déployer la connectivité Skype dans Skype Entreprise Server 2015
  
@@ -25,21 +26,21 @@ Cet article décrit le déploiement de la connectivité Skype.
   
 ## <a name="skype-connectivity-overview-for-it-professionals"></a>Vue d’ensemble de la connectivité Skype pour les professionnels de l’informatique
 
-Connectivité de Skype offre Skype pour les utilisateurs professionnels la possibilité de rechercher et d’ajouter des utilisateurs de Skype. Connectivité de Skype est une fonctionnalité de Skype pour entreprise qui vous permet d’activer la recherche de répertoire et de la fédération avec les utilisateurs de Skype. Après l’activation de la connectivité de Skype votre Skype pour les utilisateurs professionnels sera en mesure de rechercher et d’ajouter des utilisateurs de Skype.
+Connectivité Skype fournit Skype pour les utilisateurs professionnels avec la possibilité de rechercher et ajouter des utilisateurs de Skype. Connectivité Skype est une fonctionnalité de Skype pour les entreprises qui vous permet d’activer la fédération et le répertoire de recherche avec des utilisateurs de Skype. Après avoir activé la connectivité Skype votre Skype pour les utilisateurs pourront rechercher et ajouter des utilisateurs de Skype.
   
 ## <a name="skype-directory-search"></a>Recherche dans l’annuaire Skype
 
 La fonctionnalité Recherche dans l’annuaire Skype permet aux utilisateurs de Skype Entreprise de rechercher des contacts Skype. La fonctionnalité de recherche permet aux utilisateurs de rechercher des utilisateurs comme suit :
   
-- **Recherche par nom, par exemple « Jean Dupont » affichage** - cela peut renvoyer de résultats, et vous pouvez ne pas trouverez ce que vous recherchez.
+- **Rechercher par nom complet, exemple « Jean Dupont »** - ce peut renvoyer le nombre de résultats, afin que vous pouvez ne pas trouverez ce que vous recherchez.
     
-- **Recherche par nom complet plus l’emplacement, exemple « Jean Duval de Barcelone »** - cela vous indiquera les résultats de la recherche considérablement.
+- **Rechercher par nom complet et emplacement, exemple « John Doe dans Barcelone »** - Cela permet de restreindre les résultats de la recherche considérablement vers le bas.
     
-- **Recherche par courrier électronique, exemple « johndoe@outlook.com »** - il doit retourner un résultat dans la plupart des cas ; celui qui correspond exactement à l’e-mail spécifié. Mais si le même e-mail est associé à plusieurs comptes, plusieurs résultats peuvent être retournés.
+- **Recherche par courrier électronique, exemple de « johndoe@outlook.com »** - il doit renvoyer un résultat dans la plupart des cas ; celle qui correspond exactement à la messagerie spécifié. Mais si le même e-mail est associé à plusieurs comptes, plusieurs résultats peuvent être retournés.
     
-- **Recherche par numéro de téléphone, exemple « 123-123-1234 »** - il doit retourner un résultat dans la plupart des cas ; celui qui correspond exactement à la téléphone spécifié. Le numéro de téléphone doit inclure le code du pays (à savoir, 1-xxx-yyy-zzzz). Si le même numéro de téléphone est associé à plusieurs comptes, plusieurs résultats peuvent être retournés.
+- **Rechercher par numéro de téléphone, exemple de « 123-123-1234 »** - il doit renvoyer un résultat dans la plupart des cas ; celle qui correspond exactement à un téléphone spécifié. Le numéro de téléphone doit inclure le code du pays (à savoir, 1-xxx-yyy-zzzz). Si le même numéro de téléphone est associé à plusieurs comptes, plusieurs résultats peuvent être retournés.
     
-- **Recherche par nom Skype, par exemple « JohnDoe1456 »** - si une correspondance exacte est trouvée, il sera retourné comme premier résultat. Autres correspondances possibles « nom » peuvent être renvoyées.
+- **Recherche par nom Skype, par exemple « JohnDoe1456 »** - si une correspondance exacte est trouvée, elle est renvoyée comme premier résultat. Autres correspondances possibles « name » peuvent être retournées.
     
     > [!NOTE]
     > La recherche dans l’annuaire Skype doit pouvoir communiquer avec les adresses IP suivantes sur le port 443 : 104.40.75.246, 23.101.135.34 et 40.113.86.19. 
@@ -49,7 +50,7 @@ La fonctionnalité Recherche dans l’annuaire Skype permet aux utilisateurs de 
 Le tableau suivant présente la prise en charge pour la Recherche dans l’annuaire Skype.
   
 
-||**Skype pour Business Server 2015 Front-End**|**Lync Server 2013 (ou antérieure) Front-End**|**Commentaires**|
+||**Skype pour Business Server 2015 frontal**|**Frontal Lync Server 2013 (ou antérieure)**|**Commentaires**|
 |:-----|:-----|:-----|:-----|
 |Skype Entreprise Server 2015 Edge  <br/> |Pris en charge  <br/> |Non pris en charge  <br/> |Skype Entreprise Server 2015 et Edge sont des préalables pour la Recherche dans l’annuaire Skype  <br/> |
 |Skype Entreprise Server 2015 Edge + Lync Server 2013 Edge déployés côte à côte  <br/> |Pris en charge  <br/> |Non pris en charge  <br/> |Le flux de la recherche dans l’annuaire Skype transite par les serveurs de Skype Entreprise Server Edge. Le flux de fédération passe à travers le serveur Edge configuré par l’administrateur. Par exemple, l’administrateur peut choisir de continuer à envoyer le trafic de fédération via les serveurs Edge Lync Server 2013 qui ne prennent pas en charge la recherche dans l’annuaire Skype.  <br/> |
@@ -74,27 +75,27 @@ Le tableau suivant présente la prise en charge pour la Recherche dans l’annua
 
 La connectivité Skype est également une fonctionnalité de Skype Entreprise Online, qui fait partie d’Office 365. Vous pouvez activer la fonctionnalité de connectivité Skype à partir du centre d’administration Skype Entreprise dans le portail Office 365.
   
-Pour Office 365 Moyenne Entreprise, Office 365 Entreprise, Office 365 Éducation et Office 365 pour le Secteur public : connectez-vous au portail Office 365 et accédez au centre d’administration Skype Entreprise. Accédez à Communications externes. Sous Fournisseurs de service de messagerie instantanée publique, cliquez sur Activer. Si vous souhaitez contrôler l’accès des utilisateurs individuels à la connectivité de Skype, vous pouvez le faire en modifiant les paramètres de communication externe des utilisateurs individuels.
+Pour Office 365 Moyenne Entreprise, Office 365 Entreprise, Office 365 Éducation et Office 365 pour le Secteur public : connectez-vous au portail Office 365 et accédez au centre d’administration Skype Entreprise. Accédez à Communications externes. Sous Fournisseurs de service de messagerie instantanée publique, cliquez sur Activer. Si vous souhaitez contrôler l’accès des utilisateurs individuels à la connectivité Skype, vous pouvez le faire en modifiant les paramètres de communication externe des utilisateurs individuels.
   
-Pour Office 365 Small Business Premium : Se connecter à Office 365 et accédez à l’administrateur \> paramètres de Service \> conférences et réunions de messagerie, instantanées. Activez les communications externes. Le commutateur Communications externes active la connectivité Skype et les communications avec les autres organisations qui utilisent Skype Entreprise.
+Pour Office 365 petite entreprise Premium : Se connecter à Office 365 et accédez à Admin \> paramètres du Service \> des réunions de messagerie, instantanées et conférence. Activez les communications externes. Le commutateur Communications externes active la connectivité Skype et les communications avec les autres organisations qui utilisent Skype Entreprise.
   
 Pour plus d’informations sur l’administration de Skype Entreprise Online, voir :
   
-- [Skype pour les utilisateurs professionnels en ligne vous permettent de communiquer avec Skype externe des contacts professionnels ou Skype](https://support.office.com/en-us/article/Let-Skype-for-Business-Online-users-communicate-with-external-Lync-or-Skype-contacts-b414873a-0059-4cd5-aea1-e5d0857dbc94?ui=en-US&amp;rs=en-US&amp;ad=US )
+- [Laisser Skype pour les utilisateurs professionnels en ligne de communiquer avec Skype externe pour les contacts Skype ou de l’entreprise](https://support.office.com/en-us/article/Let-Skype-for-Business-Online-users-communicate-with-external-Lync-or-Skype-contacts-b414873a-0059-4cd5-aea1-e5d0857dbc94?ui=en-US&amp;rs=en-US&amp;ad=US )
     
-- [Skype pour les utilisateurs professionnels en ligne vous permettent de communiquer à l’extérieur de votre organisation [Small Business]](https://support.office.com/en-US/article/Let-Lync-Online-users-communicate-outside-your-organization-Small-Business-7F488F09-F004-4DB5-AEC5-01C262AA3D34)
+- [Permettre Skype pour les utilisateurs professionnels en ligne de communiquer à l’extérieur de votre organisation [PME]](https://support.office.com/en-US/article/Let-Lync-Online-users-communicate-outside-your-organization-Small-Business-7F488F09-F004-4DB5-AEC5-01C262AA3D34)
     
-- [Que faire si vous ne pouvez pas messagerie instantanée Skype pour entreprise ou Skype contacts externes ?](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [Que faire si vous ne pouvez pas par messagerie instantanée Skype pour les contacts externes Skype ou de l’entreprise ?](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
-- [Utiliser Skype pour les entreprises à se connecter avec les contacts externes](https://support.office.com/en-US/article/Use-Lync-to-connect-with-external-contacts-E6DA21CE-FFB8-4AF3-A171-871CA245BC30)
+- [Utiliser Skype pour les entreprises pour se connecter avec des contacts externes](https://support.office.com/en-US/article/Use-Lync-to-connect-with-external-contacts-E6DA21CE-FFB8-4AF3-A171-871CA245BC30)
     
-- [Ajouter un contact dans Skype pour entreprise](https://support.office.com/en-US/article/Add-a-contact-in-Skype-for-Business-89338023-2adf-4f5c-90b6-f8b6f72fadd1)
+- [Ajouter un contact dans Skype pour les entreprises](https://support.office.com/en-US/article/Add-a-contact-in-Skype-for-Business-89338023-2adf-4f5c-90b6-f8b6f72fadd1)
     
 - [Configurer les paramètres pour les utilisateurs individuels](https://support.office.com/en-US/article/Configure-settings-for-individual-users-77B26EAC-8228-4161-BA9F-733B187BD836)
     
 ## <a name="deploying-skype-connectivity-for-skype-for-business-server-2015"></a>Déploiement de la connectivité Skype pour Skype Entreprise Server 2015
 
-Skype Entreprise Server 2015 utilise l’architecture d’accès de fédération pour prendre en charge la connectivité avec Skype. Cette connectivité permet aux utilisateurs de Skype Entreprise Server d’ajouter Skype. Les clients de Skype peuvent également ajouter des utilisateurs Skype Entreprise dans leurs listes de contacts. En fonction de stratégies définies par un administrateur dans Skype pour Business Server, les utilisateurs seront en mesure de communiquer à l’aide de la messagerie instantanée, présence des uns et des autres et effectuer des appels audio et vidéo. La connectivité Skype est également une fonctionnalité de Skype Entreprise Online, et peut être activée pour Skype Entreprise Online à partir du centre d’administration Skype Entreprise dans le portail Office 365.
+Skype Entreprise Server 2015 utilise l’architecture d’accès de fédération pour prendre en charge la connectivité avec Skype. Cette connectivité permet aux utilisateurs de Skype Entreprise Server d’ajouter Skype. Les clients de Skype peuvent également ajouter des utilisateurs Skype Entreprise dans leurs listes de contacts. Selon les stratégies sont définies dans Skype pour Business Server, les utilisateurs seront en mesure de communiquer à l’aide de la messagerie instantanée, voir la présence de l’autre et effectuer des appels audio et vidéos. La connectivité Skype est également une fonctionnalité de Skype Entreprise Online, et peut être activée pour Skype Entreprise Online à partir du centre d’administration Skype Entreprise dans le portail Office 365.
   
 > [!NOTE]
 > Si Skype Entreprise Server est configuré pour se connecter à Windows Messenger via la connectivité PIC (Public IM Connectivity), votre déploiement est déjà configuré pour la connectivité Skype. Vous pouvez éventuellement renommer votre entrée Messenger PIC existante pour utiliser Skype.  
@@ -117,7 +118,7 @@ Pour approvisionner la connectivité Skype, vous avez besoin des informations su
     
 Pour lancer le processus d’approvisionnement pour la connectivité Skype :
   
-1. Connectez-vous au site Web, https://pic.lync.com, à l’aide de votre ID Windows Live de Microsoft
+1. Se connecter au site Web, https://pic.lync.com, à l’aide de votre Microsoft Windows Live ID.
     
 2. Sélectionnez le type de contrat de licence Microsoft.
     
@@ -167,7 +168,7 @@ La fédération est requise pour permettre aux utilisateurs Skype de communiquer
   
 Cette procédure termine les tâches d’administration qui doivent être effectuées sur le serveur. Vous pouvez à présent utiliser la connectivité Skype.
   
-#### <a name="2-configure-at-least-one-policy-to-support-federated-user-access"></a>2. configurer au moins une stratégie pour prendre en charge de l’accès des utilisateurs fédérés
+#### <a name="2-configure-at-least-one-policy-to-support-federated-user-access"></a>2. configurer au moins une stratégie pour prendre en charge l’accès des utilisateurs fédérés
 
 À l’aide du panneau de configuration Skype Entreprise Server, l’administrateur doit configurer une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler la possibilité pour les utilisateurs Skype de collaborer avec les utilisateurs Skype Entreprise Server internes.
   
@@ -176,7 +177,7 @@ Cette procédure termine les tâches d’administration qui doivent être effect
 À l’aide de Skype Entreprise Server Management Shell, l’administrateur doit configurer la stratégie de client Skype Entreprise pour afficher Skype comme fournisseur PIC supplémentaire.  
   
 > [!NOTE]
-> Les utilisateurs des fournisseurs de services Instant Messaging connectivité PIC (Public) ne peuvent pas participer à messagerie instantanée ou conférences dans votre organisation jusqu'à ce que vous également configurez au moins une stratégie (voir étape 2 plus haut dans cette procédure) pour prendre en charge de la connectivité PIC. 
+> Les utilisateurs des fournisseurs de services Instant Messaging connectivité PIC (Public) ne peuvent pas participer à par messagerie instantanée ou des conférences dans votre organisation jusqu'à ce que vous configurez également au moins une stratégie (étape 2, plus haut dans cette procédure) pour prendre en charge la connectivité PIC. 
   
 Pour les nouvelles installations, vous pouvez configurer la connectivité Skype en activant un fournisseur public Skype à l’aide du panneau de configuration Skype Entreprise Server, comme illustré.
   
@@ -200,22 +201,21 @@ Vous pouvez également configurer la connectivité Skype à l’aide uniquement 
   
    ```
    New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl https://images.edge.messenger.live.com/Messenger_16x16.png -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -Enabled $true -EnableSkypeIdRouting $true -EnableSkypeDirectorySearch $true
-
    ```
 
     À quoi servent les paramètres les moins évidents ?
     
   - ProxyFqdn : emplacement du serveur Edge de fédération Skype (détenu/géré par Microsoft)
     
-  - IconURL : icône utilisé par Lync &amp; Skype pour client d’entreprise à identifier visuellement les contacts Skype
+  - IconURL : icône utilisé par Lync &amp; Skype pour client d’entreprise identifier les contacts Skype
     
-  - NameDecorationRoutingDomain et NameDecorationExcludedDomainList : paramétrage de ces permet aux utilisateurs d’entrer les MSAs utilisateurs Skype sans avoir besoin de savoir sur « décoration « domaines non Microsoft avec « msn.com ». Cela évite d’avoir à taper « @msn.com utilisateur (contoso.com) » pour tous les domaines qui ne sont pas dans le ExcludedDomainList. Le client Skype Entreprise formate automatiquement le compte Microsoft si le domaine ne figure PAS dans la liste Exclus. Nous avons ajouté des domaines de Account Microsoft les plus courants à la liste d’exclusion.
+  - NameDecorationRoutingDomain et NameDecorationExcludedDomainList : le paramétrage de ces permet aux utilisateurs d’entrer MSAs des utilisateurs Skype sans avoir besoin de savoir à propos de « décoration « domaines non Microsoft « msn.com ». Cela évite d’avoir à taper « @msn.com utilisateur (contoso.com) » pour tous les domaines qui ne sont pas dans le ExcludedDomainList. Le client Skype Entreprise formate automatiquement le compte Microsoft si le domaine ne figure PAS dans la liste Exclus. Nous avons ajouté les domaines Account Microsoft les plus courants à la liste d’exclusion.
     
     > [!NOTE]
     > Il est nécessaire de supprimer le fournisseur public puis de le rajouter en cas de nouvelles modifications. Aucune modification sur place n’est admise. 
   
     > [!NOTE]
-    > Ajouté dans Lync Server 2013 CU5 &amp; la situation où les utilisateurs de Lync Ajout de contacts Skype nécessaires pour « décorent » domaines non Microsoft à améliorer la Lync le client ordinateur de bureau dans le Service Pack 1 de Office 2013, NameDecorationRoutingDomain et NameDecorationExcludedDomainList identifier et de les acheminer vers Skype (le format : user(contoso.com)@msn.com). Ces nouveaux paramètres permettra la mise en forme automatique de l’utilisateur de l’adresse de l’entrer dans la boîte de dialogue « Ajouter les contacts Skype » avec la NameDecorationRoutingDomain (qui doit être définie sur msn.com) si elle ne contient-elle pas les domaines de la NameDecorationExcludedDomainList ( actuellement bénéficier de notre assistance msn.com, live.com, Hotmail.com, outlook.com). 
+    > Ajouté dans Lync Server 2013 CU5 &amp; client de bureau Lync dans Office 2013 SP1, NameDecorationRoutingDomain et NameDecorationExcludedDomainList améliorer la situation où Ajout de contacts Skype nécessaires pour les utilisateurs de Lync » décorent « domaines non Microsoft identifier et les acheminer vers Skype (le format de : user(contoso.com)@msn.com). Ces nouveaux paramètres permettra la mise en forme automatique de l’utilisateur de l’adresse de l’entrer dans la boîte de dialogue « Ajouter le contact Skype » avec le NameDecorationRoutingDomain (qui doit être définie sur msn.com) si elle ne contient-elle pas les domaines de la (NameDecorationExcludedDomainList Nous actuellement pouvons prennent en charge msn.com, live.com, Hotmail.com, outlook.com). 
   
 3. À partir d’un client Skype Entreprise, les utilisateurs peuvent maintenant rechercher et ajouter un utilisateur Skype.
     
@@ -224,9 +224,9 @@ Vous pouvez également configurer la connectivité Skype à l’aide uniquement 
 Le tableau ci-dessous décrit l’état d’interopérabilité entre la dernière version de Skype et la dernière version de Skype Entreprise.
   
 
-|**Clients Skype**|**Ajouter les appeler contacts, messagerie instantanée, présence, audio et vidéo**|**Commentaire**|
+|**Clients Skype**|**Ajouter aux appels contacts, messagerie instantanée, présence, audio et vidéo**|**Commentaire**|
 |:-----|:-----|:-----|
-|Skype Windows Desktop  <br/> |version 7.6 ou supérieure, Windows XP et version supérieure  <br/> |**Nouveau**: prise en charge ajoutée pour le client Skype de Windows s’exécutant sur Windows XP et Windows Vista ** (nécessite la dernière version de client 7.26 ou supérieure) ** <br/> |
+|Skype Windows Desktop  <br/> |version 7.6 ou supérieure, Windows XP et version supérieure  <br/> |**Nouveau**: prise en charge ajoutée pour le client Windows Skype s’exécutant sur Windows XP et Windows Vista ** (nécessite la dernière version du client 7.26 ou version ultérieure) ** <br/> |
 |Skype Mobile - Téléphone Android et tablette   <br/> |version 6.19 ou supérieure, sur Android OS version 4.0.3 ou supérieure  <br/> |Les périphériques dont la configuration est faible peuvent ne pas prendre en charge les appels vidéo  <br/> |
 |Skype Mobile - iOS  <br/> |version 6.11 ou supérieure, sur iOS 7 ou version supérieure  <br/> |iPhone 4 et versions inférieures, iPod 4ème génération et versions inférieures, iPad 1ère génération non pris en charge  <br/> |
 |Skype Mac  <br/> |version 7.19 ou supérieure, sur Mac OS X 10.9 (Mavericks) ou version supérieure  <br/> |Nécessite Mac OS X 10.9 ou version supérieure  <br/> |
@@ -234,7 +234,7 @@ Le tableau ci-dessous décrit l’état d’interopérabilité entre la dernièr
    
 Le tableau ci-dessous décrit l’état d’interopérabilité entre la dernière version de Skype Entreprise et la dernière version de Skype.  
   
-|**Client**|**Répertoire de Skype rechercher et ajouter des Contacts**|**Skype A / V, interopérabilité de la messagerie instantanée**|
+|**Client**|**Répertoire Skype rechercher et ajouter des Contacts**|**Skype A / V, interopérabilité de la messagerie instantanée**|
 |:-----|:-----|:-----|
 |Skype Entreprise 2015  <br/> |Oui  <br/> |Oui  <br/> |
 |Skype Entreprise sur Mac  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
