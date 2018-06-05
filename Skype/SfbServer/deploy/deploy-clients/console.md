@@ -12,11 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit l’installation de la console Skype Room Systems v2 et de ses périphériques.
-ms.openlocfilehash: 96fb2a88d699ca364f02f24af58d2f17dc555e11
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: eed37791c73b2deeb9e5f0605dbf1265d9a1d02d
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501024"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configuration d’une console Skype Room Systems v2
  
@@ -236,8 +237,6 @@ Utilisez la liste de vérification suivante lors de la vérification finale de l
 ## <a name="see-also"></a>Voir aussi
 <a name="Checklist"> </a>
 
-#### 
-
 [Planifier la salle Skype systèmes v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Déployer la salle Skype systèmes v2](room-systems-v2.md)
@@ -245,4 +244,3 @@ Utilisez la liste de vérification suivante lors de la vérification finale de l
 [Configurer une console v2 de systèmes de salle de Skype](console.md)
   
 [Gérer les salles Skype systèmes v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

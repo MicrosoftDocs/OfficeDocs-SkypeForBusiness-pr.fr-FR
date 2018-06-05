@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Résumé : Découvrez comment définir une règle de traduction à l’aide de la version un outil de la règle de traduction dans Skype pour Business Server 2015.'
-ms.openlocfilehash: cdaa26a832b453e641bf4b7fbd2df30a80324f7d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: eeff210b409d9d53ae54a30041207cffaa618f32
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500871"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server-2015"></a>Création ou modification d’une règle de conversion pour la présentation de l’ID de la personne appelée dans Skype Entreprise Server 2015
  
@@ -100,8 +101,6 @@ Suivez ces étapes si vous souhaitez définir une règle de traduction en entran
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Configurer une jonction avec contournement de média dans Skype pour Business Server 2015](configure-trunk-with-media-bypass.md)
   
 [Configurer une jonction sans contournement de média dans Skype pour Business Server 2015](configure-trunk-without-media-bypass.md)
@@ -109,4 +108,3 @@ Suivez ces étapes si vous souhaitez définir une règle de traduction en entran
 [Publier des modifications à la configuration de routage voix Skype pour Business 2015 en attente](voice-route-config-changes.md)
 
 [Déployer le contournement de média dans Skype pour Business Server 2015](deploy-media-bypass.md)
-

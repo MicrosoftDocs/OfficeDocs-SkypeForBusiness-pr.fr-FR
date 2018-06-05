@@ -16,11 +16,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: f180dc41bb76c8ceba0ce657232b543afebd5e6b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: fdb0b7585c2462b64d4735bc4c59d9020e6466e3
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500760"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Test de votre installation de Skype Entreprise Online
 
@@ -47,7 +48,7 @@ Voici ce dont vous aurez besoin :
 ## <a name="set-up-test-accounts"></a>Configurer des comptes test
 <a name="__toc328126910"> </a>
 
-1. Sélectionnez **Administrateur** > **Office 365** > **Utilisateurs et groupes**, puis sélectionnez Ajouter![Ajouter](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) et saisissez les informations nécessaires.
+1. Accédez à **Admin** > **Office 365** > **utilisateurs et groupes**, puis sélectionnez Ajouter![ajouter](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) et entrez les informations requises.
     
 2. Lorsque vous parvenez à l'étape 4 (messagerie électronique), entrez votre propre adresse de messagerie. Vous obtenez alors un enregistrement du nom et du mot de passe du nouvel utilisateur. 
     
@@ -75,7 +76,7 @@ Une fois que vous avez configuré vos utilisateurs pour l'audioconférence, ceux
   
  **Pour ajouter des informations d'audioconférence au compte de l'un de vos utilisateurs test**
   
-1. Cliquez sur **Audioconférence** > **Utilisateurs**.
+1. Cliquez sur **services d’audioconférence** > **les utilisateurs**.
     
 2. Cliquez sur le nom des utilisateurs que vous voulez configurer pour la conférence rendez-vous, puis cliquez sur **Modifier**![Modifier](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     

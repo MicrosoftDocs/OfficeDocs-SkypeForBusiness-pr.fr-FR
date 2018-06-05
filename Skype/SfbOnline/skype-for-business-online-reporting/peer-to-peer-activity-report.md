@@ -20,17 +20,18 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 96878a2deb9a75ab0c927c2e1cd2c9e4dd34c2bd
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 7303a87d263148f091d6cd2f1b44d79a4b9c0ae8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500509"
 ---
 # <a name="peer-to-peer-activity-report"></a>Rapport des activités d’égal à égal
 
 Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour l’activité d’égal à égal** pour voir combien vos utilisateurs sont à l’aide de messagerie instantanée, application d’audio, vidéo, partage et transfert de fichiers. 
 
-Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+Consultez la rubrique [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
   
 Ce rapport, ainsi que l’autres Skype pour les rapports d’entreprise, vous donne plus d’informations sur l’activité au sein de votre organisation. Ces informations détaillées sont très utiles pour analyser, planifier et prendre des décisions pour votre entreprise. 
   
@@ -57,8 +58,9 @@ Vous pouvez obtenir un aperçu de l'activité P2P Skype Entreprise en consultant
 ***
 ![N ° 1](../images/sfbcallout1.png)<br/>Le **rapport d'activité P2P Skype Entreprise** peut être consulté pour les tendances au cours des 7, 30, 90 ou 180 derniers jours. Toutefois, si vous cliquez sur dans un jour donné dans le rapport, le tableau (voir n ° 7) sera afficher les données des 30 derniers jours, jusqu'à la date (voir n ° 2) pour laquelle le rapport a été généré.
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Si vous cliquez sur les détails d’un jour spécifique, le tableau affiche uniquement les données pour les 30 jours jusqu'à la date lorsque le rapport a été généré.
+
 ***
 ![N ° 2](../images/sfbcallout2.png)<br/>Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
 ***

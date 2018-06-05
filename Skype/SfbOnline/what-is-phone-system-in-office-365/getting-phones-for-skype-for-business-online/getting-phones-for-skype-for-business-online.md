@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: 894637bbde15a80f377098e61d1eba77fbef4bf2
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: c58f9c6fe4174f58f4c430fe121cd071a0b5b9a5
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19494011"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtention de numéros de téléphone pour Skype Entreprise Online
 
@@ -56,7 +57,7 @@ Pour plus d’informations sur les téléphones AudioCodes, voir [Skype pour les
 > [!NOTE]
 > Lync Phone Edition est pris en charge avec Skype Entreprise Online. Le support standard de plateforme LPE s’est terminée en avril/10/2014, avec prise en charge étendue jusqu'à avril/11/2023 pour s’aligner sur la politique de support de Lync Server 2013. Pour plus de détails sur le cycle de vie LPE, reportez-vous à la page [Politique de support Microsoft](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO). Les modèles CAP pour LPE ne sont pas pris en charge avec Skype Entreprise Online.
   
-## <a name="supported-firmware"></a>Microprogrammes pris en charge
+## <a name="supported-firmware"></a>Microprogramme pris en charge
 
 Il s’agit de la version logicielle minimale requise pour les téléphones pris en charge fonctionner avec le système téléphonique dans Office 365 :
   
@@ -77,7 +78,7 @@ Skype pour Business Online ne requiert aucune licence Microsoft supplémentaire 
   
 Le fabricant de modèles de gestion des licences peut varier entre open SIP et Skype pour microprogramme Business certifié. Si vous réaffectez un modèle certifié avec un microprogramme Open SIP, vous devrez vérifier les conditions de licences du microprogramme auprès du fabricant.
   
-## <a name="skype-for-business-online-connected-phones-feature-set"></a>Ensemble des fonctionnalités pour téléphones connectés Skype Entreprise Online
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype pour le jeu de fonctionnalités Business Online connecté téléphones
 
 Pour périphérique complet des fonctionnalités, consultez les guides du fabricant.
   
@@ -105,9 +106,10 @@ Pour périphérique complet des fonctionnalités, consultez les guides du fabric
 |Intégration de l'image des contacts  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |
 ||||||
 
-    > [!NOTE]
-    > CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
-   
+     
+> [!NOTE]
+> CX 600 ou les autres téléphones Aries ne prend en charge l’authentification multifacteur (MFA). Si vous forcez MFA, ces appareils échoue pour vous connecter. Ces périphériques doivent utiliser des ID d’organisation uniquement pour l’authentification.
+ 
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 Pour obtenir des instructions de configuration détaillées, consultez la page [Déploiement de téléphones Skype Entreprise Online](deploying-skype-for-business-online-phones.md).
 

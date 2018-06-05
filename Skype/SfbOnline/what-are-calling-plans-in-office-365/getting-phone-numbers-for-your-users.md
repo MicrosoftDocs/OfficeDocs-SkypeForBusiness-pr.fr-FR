@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: ff7716a057ee2b3bb27b01a4912f718d28e3739b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a4ede7e5bac4b7e1fe5931f404a6d2c9e4f63056
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500862"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
@@ -44,6 +45,8 @@ Vous devez utiliser la page **Nouveaux numéros** pour afficher, rechercher et a
 > Si vous avez besoin d'aide pour la configuration des numéros de téléphone de votre organisation, vous pouvez [contacter le support technique](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Obtention de nouveaux numéros de téléphone pour vos utilisateurs
+
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
@@ -81,6 +84,8 @@ Vous devez utiliser la page **Nouveaux numéros** pour afficher, rechercher et a
 - Si vous devez transférer plus de 999 numéros, reportez-vous à la rubrique [Envoi manuel d'une demande de service personnalisé](manually-submit-a-custom-service-request.md) pour effectuer une demande de transfert de tous ces numéros vers Office 365.
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Affichage des numéros de téléphone pour votre entreprise
+
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     

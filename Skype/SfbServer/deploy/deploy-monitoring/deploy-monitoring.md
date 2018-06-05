@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Résumé : Découvrez comment déployer la surveillance dans Skype pour Business Server 2015.'
-ms.openlocfilehash: a25165add0ca6f9acd08e77efeda42cf7a8819ef
-ms.sourcegitcommit: 4eae947e339e728e5e1f338677860b910aafc029
+ms.openlocfilehash: 8f96fa2b240bc41e83de8e618114d948127c6c55
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19502016"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server-2015"></a>Déployer la surveillance dans Skype Entreprise Server 2015
  
@@ -95,7 +96,5 @@ Si vous préférez, vous pouvez également activer la surveillance de QoE à par
 Comme indiqué, les exemples précédents activent la surveillance au niveau de l’étendue globale ; ils activent les surveillances CDR et QoE dans toute votre organisation. Vous pouvez également créer des paramètres de configuration CDR et QoE distincts au niveau de l’étendue du site, puis activer ou désactiver de façon sélective la surveillance pour chaque site. Par exemple, vous pouvez activer la surveillance CDR pour votre site de Redmond et la désactiver pour votre site de Dublin. Pour plus d’informations sur la gestion de vos paramètres de configuration de surveillance, consultez la rubrique guide de déploiement [Configure enregistrement des détails des appels et les paramètres de qualité de l’expérience dans Skype pour Business Server 2015](call-detail-recording-and-qoe.md).
   
 ## <a name="see-also"></a>Voir aussi
-
-#### 
 
 [Planifier la surveillance dans Skype pour Business Server 2015](../../plan-your-deployment/monitoring.md)

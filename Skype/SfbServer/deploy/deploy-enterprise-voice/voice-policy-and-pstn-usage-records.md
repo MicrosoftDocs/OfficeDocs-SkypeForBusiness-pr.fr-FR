@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Résumé : Créer ou modifier des stratégies de voix et configurer les enregistrements d’utilisation PSTN à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: fc1d60cb66dd0cf73c63b9896f153bb83c8fec24
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 69904c28d8121cd8416b547e17fcad866260a319
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501048"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business-2015"></a>Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation RTC dans Skype Entreprise 2015
  
@@ -335,8 +336,6 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Afficher les enregistrements d’utilisation PSTN dans Skype pour Business 2015](view-pstn-usage-records.md)
   
 [Créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md)
@@ -344,4 +343,3 @@ ms.lasthandoff: 05/03/2018
 [Publier des modifications à la configuration de routage voix Skype pour Business 2015 en attente](voice-route-config-changes.md)
   
 [Configurer la redirection vers la messagerie vocale dans Skype pour Business 2015](configure-voice-mail-escape.md)
-

@@ -18,11 +18,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 36aef8125e27d4d327b5d6f279a9cd711af3e490
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: e629a03a26542d14b2186b27a9fb4d44e7bdaf3e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500658"
 ---
 # <a name="conference-participant-activity-report"></a>Rapport d’activité participant de conférence
 
@@ -52,9 +53,9 @@ Ce rapport, ainsi que l’autres Skype pour les rapports d’entreprise, vous do
   
 ***
 ![N ° 1](../images/sfbcallout1.png)<br/>Le rapport **Activité de participation à des conférences Skype Entreprise** peut être consulté pour les tendances au cours des 7, 30, 90 ou 180 derniers jours. Toutefois, si vous cliquez sur dans un jour donné dans le rapport, le tableau (voir n ° 7) sera afficher les données des 30 derniers jours, jusqu'à la date (voir n ° 2) pour laquelle le rapport a été généré.
-
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Si vous cliquez sur les détails d’un jour spécifique, le tableau affiche uniquement les données pour les 30 jours jusqu'à la date lorsque le rapport a été généré.
+     
 ***
 ![N ° 2](../images/sfbcallout2.png)<br/>Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
 ***

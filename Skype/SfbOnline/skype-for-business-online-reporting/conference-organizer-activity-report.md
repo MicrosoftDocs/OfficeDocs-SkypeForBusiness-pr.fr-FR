@@ -18,11 +18,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: ed65aaed214a35b961c9c13c0d789a224e41258f
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 7917920c0eeaf5b5e0c1f31ee4eca9bafed10c85
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500780"
 ---
 # <a name="conference-organizer-activity-report"></a>Rapport d’activité organisateur de la conférence
 
@@ -55,8 +56,9 @@ Vous pouvez obtenir une vue dans votre Skype pour des conférences qui ont été
 ***
 ![N ° 1](../images/sfbcallout1.png)<br/>Le rapport **Activité d'organisateur de conférences Skype Entreprise** peut être consulté pour les tendances au cours des 7, 30, 90 ou 180 derniers jours. Toutefois, si vous cliquez sur dans un jour donné dans le rapport, le tableau (voir n ° 7) sera afficher les données des 30 derniers jours, jusqu'à la date (voir n ° 2) pour laquelle le rapport a été généré.
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Si vous cliquez sur les détails d’un jour spécifique, le tableau affiche uniquement les données pour les 30 jours jusqu'à la date lorsque le rapport a été généré.
+
 ***
 ![N ° 2](../images/sfbcallout2.png)<br/>Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
 ***
@@ -79,7 +81,9 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 ![N ° 8](../images/sfbcallout8.png)<br/>Le tableau vous présente une répartition par utilisateur des activités de conférences organisées. Il vous indique tous les utilisateurs auxquels est attribué Skype Entreprise et les conférences qu'ils ont organisées. Vous pouvez ajouter des colonnes supplémentaires au tableau. 
 *    **Nom d'utilisateur** est le nom de l'utilisateur. 
 *    **Supprimé** indique que la licence de l'utilisateur a été supprimée.<br/><br/>
-     **Remarque :**  Activité pour un utilisateur supprimé apparaît toujours dans un état dans la mesure où il ou elle était sous licence au cours de la période sélectionnée. La colonne **Supprimé** vous permet d'observer que l'utilisateur n'est peut-être plus actif, mais a contribué aux données du rapport.<br/> <br/>
+    > [!NOTE]
+    > Activité pour un utilisateur supprimé apparaît toujours dans un état dans la mesure où il ou elle était sous licence au cours de la période sélectionnée. La colonne **Supprimé** vous permet d'observer que l'utilisateur n'est peut-être plus actif, mais a contribué aux données du rapport.
+     
 *    La **date de suppression** correspond à la date à laquelle la licence de l'utilisateur a été supprimée. 
 *    **Dernière date d'activité (UTC)** est la dernière date d'activité (UTC) pour cet utilisateur. 
 *    **Messagerie instantanée** indique le nombre total de conférences de messagerie instantanée organisées. 

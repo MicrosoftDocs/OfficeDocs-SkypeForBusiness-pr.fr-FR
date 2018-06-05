@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Créer ou modifier une table de plage des orbites de parcage d’appel dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 805323783cee06f76ee4bf0c1c2ecdb427070a8f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a2f2495683c3a3d937cc675876ae918ef0558b5c
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500959"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business-2015"></a>Création ou modification d’une plage d’orbites de parcage d’appel dans Skype Entreprise 2015
  
@@ -99,11 +100,8 @@ Pour créer ou modifier une plage d’orbites de parcage d’appel, utilisez l�
 
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Nouvelle-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
   
 [Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
   
 [Supprimer une plage d’orbites de parcage d’appel](http://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
-

@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 description: 'Cet article traite de la procédure de gestion intégrée et de bout en bout des appareils Skype Room Systems v2 avec Microsoft Operations Management Suite. '
-ms.openlocfilehash: 4290e89f2a5faba6fa4efdfb48e57345bc0c35f5
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: b77f7216593d30c843eb49fd8879a83b5b0025c8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504235"
 ---
 # <a name="manage-skype-room-systems-v2-devices-with-oms"></a>Gestion des appareils Skype Room Systems v2 avec OMS
  
@@ -40,11 +41,8 @@ Comprendre ces descriptions d'événements vous permet d'être rapidement inform
 |4000  <br/> Information  <br/> |Il s'agit d'un événement de redémarrage de l'application. À chaque redémarrage de l'application, elle enregistre cet événement dans le journal des événements Windows.  <br/> | {"Description" :"App restarts.","ResourceState":"Healthy","OperationName":"Restart","OperationResult":"Pass","OS":"Windows 10","OSVersion":"10.0.14393.693","Alias":"alias@domain.com","DisplayName":"Display Name","AppVersion":"1.0.38.0","IPv4Address":"10.10.10.10","IPv6Address":"ip v6 address"} <br/> L'application Skype Entreprise peut redémarrer pour différentes raisons. Comparez la fréquence de redémarrage des appareils dans le même immeuble et dans des immeubles différents, en gardant à l'esprit les problèmes connus comme les variations de puissance et les pannes d'alimentation, qui peuvent être des indices pour les problèmes d'infrastructure. <br/> |
    
 ## <a name="see-also"></a>Voir aussi
-<a name="Telemetry"> </a>
-
-#### 
+<a name="Telemetry"></a>
 
 [Planifier la gestion des systèmes de salle Skype v2 avec OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
 [Déployer la gestion des systèmes de salle Skype v2 avec OMS](../../deploy/deploy-clients/with-oms.md)
-

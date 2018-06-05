@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Résumé : Passez en revue les considérations de composant réseau ci-dessous avant d’implémenter Skype pour Business Server 2015.'
-ms.openlocfilehash: 64c1a42ba1ed5003f60ea6bad31adabb611e077f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: cd3d1650903e1615fdaca309be1e8070624fd7b0
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19505061"
 ---
 # <a name="plan-network-requirements-for-skype-for-business-2015"></a>Planification de la configuration réseau requise pour Skype Entreprise 2015
  
@@ -225,7 +226,7 @@ Les valeurs de bande passante pour le réseau contenues dans ces tableaux repré
 La Qualité de service (QoS) est une technologie réseau utilisée dans certaines organisations afin de fournir des performances optimales à l'utilisateur final pour les communications audio et vidéo. QoS est le plus souvent utilisée sur les réseaux où la bande passante est limitée : avec un grand nombre de paquets réseau simultanés pour une quantité de bande passante disponible relativement faible, QoS permet aux administrateurs d'affecter une priorité supérieure aux paquets transportant des données audio ou vidéo. Le fait d'affecter une priorité supérieure à ces paquets permet aux communications audio et vidéo de s'effectuer plus rapidement, et avec moins d'interruption, que les sessions réseau impliquant des opérations telles que des transferts de fichiers, de la navigation web ou des sauvegardes de bases de données. C'est la raison pour laquelle la priorité « Meilleur effort » est affectée aux paquets réseau utilisés pour les transferts de fichiers ou les sauvegardes de bases de données.
   
 > [!NOTE]
-> En règle générale, la QoS s'applique uniquement aux sessions de communication sur votre réseau interne. Lorsque vous implémentez QoS, vous configurez vos serveurs et routeurs afin de prendre en charge le marquage de paquets qui ne peut pas être pris en charge sur Internet et d'autres réseaux. Même si QoS est pris en charge sur d'autres réseaux, il n'est pas garanti que la configuration de QoS sera identique à celle que vous avez faite de ce service. Si vous utilisez MPLS, vous devrez contacter votre fournisseur MPLS 
+> En règle générale, la QoS s’applique uniquement aux sessions de communication sur votre réseau interne. Lorsque vous implémentez QoS, vous configurez vos serveurs et routeurs afin de prendre en charge le marquage de paquets qui ne peut pas être pris en charge sur Internet et d’autres réseaux. Même si la qualité de Service est pris en charge sur d’autres réseaux, il n’existe aucune garantie que QoS vont être configurés dans exactement la même manière que vous avez configuré le service. Si vous utilisez MPLS, vous devrez contacter votre fournisseur MPLS 
   
 Skype pour Business Server ne nécessite pas de qualité de service, mais il est fortement recommandé. Si vous rencontrez des problèmes de perte de paquets sur le réseau de vos solutions disponibles sont à ajouter plus de bande passante ou pour implémenter QoS. Si l’ajout de bande passante n’est pas possible, l’implémentation de QoS peut constituer la seule solution au problème.
   
@@ -255,8 +256,6 @@ QoS est également abordé dans le livre blanc sur la [Planification du réseau,
 ## <a name="see-also"></a>Voir aussi
 <a name="man_QOS"> </a>
 
-#### 
-
 [Planification d’IPv6 dans Skype pour les entreprises](ipv6.md)
   
 [Configuration requise pour Skype pour les entreprises d’équilibrage de la charge](load-balancing.md)
@@ -264,4 +263,3 @@ QoS est également abordé dans le livre blanc sur la [Planification du réseau,
 [Enregistrements DNS requis pour Skype pour Business Server 2015](dns.md)
   
 [Ports et protocoles requis pour les serveurs](ports-and-protocols.md)
-
