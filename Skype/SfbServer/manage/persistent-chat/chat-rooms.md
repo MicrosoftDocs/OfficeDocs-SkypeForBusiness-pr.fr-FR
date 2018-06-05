@@ -9,22 +9,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
-description: 'Résumé : Apprenez à gérer les salles de serveur de conversation permanents dans Skype pour Business Server 2015.'
-ms.openlocfilehash: fd927e3a54f1f3a8df429677f481ea224534b984
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment gérer les salles de conversation Persistent Chat Server dans Skype pour Business Server 2015.'
+ms.openlocfilehash: 7febc9736f43f3168d7bc62b0ddf833fa6b5864b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569399"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gestion des salles de conversation sur un serveur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé :** Découvrez comment gérer les salles de serveur de conversation permanents dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment gérer les salles de conversation Persistent Chat Server dans Skype pour Business Server 2015.
   
-La création et la gestion des salles de conversation est beaucoup plus facile en cas d’utilisation pertinente des catégories. Une catégorie définit qui peut créer ou rejoindre les salles de conversation. Avant de pouvoir gérer les salles de conversation, veillez à lire les [catégories de conversation permanent, les salles de conversation et les rôles utilisateur dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) et [Gérer les catégories dans le serveur de conversation permanents dans Skype pour Business Server 2015](categories.md).
+La création et la gestion des salles de conversation est beaucoup plus facile en cas d’utilisation pertinente des catégories. Une catégorie définit qui peut créer ou joindre les salles de conversation. Avant de pouvoir gérer les salles de conversation, veillez à lire les [catégories de conversation permanente, les salles de conversation et les rôles d’utilisateur dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) et [Gérer les catégories dans Persistent Chat Server dans Skype pour Business Server 2015](categories.md).
   
-Vous pouvez configurer et gérer les salles de conversation à l’aide de l’interface de ligne de commande de Windows PowerShell, ou à l’aide de la Skype pour client d’entreprise si vous êtes un membre de la salle de conversation. Cette rubrique explique comment gérer les salles de conversation en utilisant l’interface de ligne de commande Windows PowerShell. Si vous souhaitez gérer les salles de conversation à l’aide de la Skype pour client d’entreprise, consultez l’aide du client. 
+Vous pouvez configurer et gérer les salles de conversation à l’aide de l’interface de ligne de commande Windows PowerShell, ou en utilisant le Skype pour client d’entreprise si vous êtes membre de la salle de conversation. Cette rubrique explique comment gérer les salles de conversation en utilisant l’interface de ligne de commande Windows PowerShell. Si vous souhaitez gérer les salles de conversation à l’aide de la Skype pour client d’entreprise, voir l’aide du client. 
   
-Salles de conversation peut être de deux types : Normal et Auditorium. Une salle de conversation normale permet à tous les membres de publier et de lire des messages. Un auditorium est un type de salle de conversation où seuls les présentateurs peuvent publier, mais où tout le monde peut lire.
+Salles de conversation peut être une des deux types : Normal et type Auditorium. Une salle de conversation normale permet à tous les membres de publier et de lire des messages. Un auditorium est un type de salle de conversation où seuls les présentateurs peuvent publier, mais où tout le monde peut lire.
   
 Les rôles utilisateur déterminent qui peut accéder aux salles de conversation et les gérer, comme suit :
   
@@ -45,26 +46,26 @@ Vous pouvez configurer et gérer des salles de conversation en utilisant les app
 
 |**Applet de commande**|**Description**|
 |:-----|:-----|
-|Nouvelle-CsPersistentChatRoom  <br/> |Créer une salle de conversation  <br/> |
-|Ensemble-CsPersistentChatRoom  <br/> |Configurer des paramètres pour une salle existante ; affecter des utilisateurs et des groupes d’utilisateurs à la salle  <br/> |
+|New-CsPersistentChatRoom  <br/> |Créer une salle de conversation  <br/> |
+|Set-CsPersistentChatRoom  <br/> |Configurer des paramètres pour une salle existante ; affecter des utilisateurs et des groupes d’utilisateurs à la salle  <br/> |
 |Get-CsPersistentChatRoom  <br/> |Récupérer des informations sur les salles  <br/> |
-|CsPersistentChatRoom-clair  <br/> |Effacer une salle et les messages d’une salle  <br/> |
-|Supprimer-CsPersistentChatRoom  <br/> |Supprimer une salle  <br/> |
-|Supprimer-CsPersistentChatMessage  <br/> |Supprimer les messages d’une salle  <br/> |
+|Clear-CsPersistentChatRoom  <br/> |Effacer une salle et les messages d’une salle  <br/> |
+|Remove-CsPersistentChatRoom  <br/> |Supprimer une salle  <br/> |
+|Remove-cspersistentchatmessage ne  <br/> |Supprimer les messages d’une salle  <br/> |
    
 Utilisez l’applet de commande **New-CsPersistentChatRoom** pour créer des salles de conversation et utilisez l’applet de commande **Set-CsPersistentChatRoom** pour configurer une salle de conversation existante, notamment pour ajouter des utilisateurs à la salle de conversation. Vous pouvez configurer les paramètres suivants pour les salles de conversation :
   
-- Disabled. Vous permet de désactiver ou d’activer une salle de conversation. 
+- Disabled. Vous permet de désactiver ou activer une salle de conversation. 
     
 - Invitations. Permet d’activer ou de désactiver des invitations aux salles de conversation, qui sont utilisées pour avertir les utilisateurs qu’ils ont été ajoutés en tant que membres de salle de conversation. Le paramétrage par défaut des invitations est inherit, ce qui a amené la salle de conversation à adopter le paramètre d’invitation configuré dans la catégorie à laquelle elle appartient. La configuration du paramètre des invitations sur false au niveau de la salle de conversation permet de remplacer le paramétrage de la catégorie. 
     
 - Privacy. Permet de spécifier si une salle de conversation est ouverte, fermée ou secrète. Les salles de type Ouvert peuvent faire l’objet d’une recherche et d’un accès de la part de tout le monde. Les salles de type Fermé peuvent faire l’objet d’une recherche de la part de tous, mais peuvent faire l’objet d’un accès uniquement de la part des membres. Les salles de type Secret peuvent faire l’objet d’une recherche et d’un accès uniquement de la part des membres de la salle. Par défaut, chaque nouvelle salle est initialement configurée comme fermée.
     
-- Type. Permet de spécifier si une salle de conversation est un espace Normal, qui accepte les messages publiés par tout membre ou d’un espace Auditorium, qui accepte les messages publiés uniquement par un présentateur.
+- Type. Vous permet de spécifier si une salle de conversation est une salle Normal, qui accepte les messages publiés par n’importe quel membre, ou un auditorium, qui accepte les messages publiés uniquement par un présentateur.
     
 - Addin. Permet d’associer un complément précédemment configuré avec une salle de conversation, ce qui permet aux membres de voir le contenu d’URL tout en participant.
     
-Outre les paramètres ci-dessus, l’applet de commande **Set-CsPersistentChatRoom** vous permet d’affecter des utilisateurs à la salle de conversation comme suit :
+En plus des paramètres ci-dessus, l’applet de commande **Set-CsPersistentChatRoom** permet d’affecter des utilisateurs à la salle de conversation comme suit :
   
 - Members. Configure les membres de la salle de conversation. Vous pouvez ajouter ou supprimer des membres individuellement ou par groupe en utilisant une seule applet de commande en spécifiant l’adresse SIP des utilisateurs. Pour permettre aux utilisateurs d’être ajoutés par lot, des unités d’organisation ou des groupes de distribution Active Directory peuvent aussi être spécifiés.
     
@@ -72,19 +73,19 @@ Outre les paramètres ci-dessus, l’applet de commande **Set-CsPersistentChatRo
     
 - Presenters. Permet d’affecter des présentateurs à une salle de conversation Auditorium. 
     
- Pour plus d’informations sur la syntaxe, y compris tous les paramètres, consultez [Skype pour Business Server 2015 Management Shell](../management-shell.md).
+ Pour plus d’informations sur la syntaxe, y compris tous les paramètres, voir [Skype pour Business Server 2015 Management Shell](../management-shell.md).
   
 ## <a name="create-a-new-room"></a>Créer une salle
 
-Vous pouvez créer une nouvelle salle en utilisant l’applet de commande **New-CsPersistentChatRoom**. Par exemple, la commande suivante crée une nouvelle salle de chat nommée ITChatRoom sur le pool atl-cs-001.contoso.com. Dans cet exemple, la salle de conversation est ajoutée à la catégorie de l’informatique :
+Vous pouvez créer une nouvelle salle en utilisant l’applet de commande **New-CsPersistentChatRoom**. Par exemple, la commande suivante crée une nouvelle salle de conversation nommée ITChatRoom dans le pool atl-cs-001.contoso.com. Dans cet exemple, la salle de conversation est ajoutée à la catégorie IT :
   
 ```
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
 ```
 
-**Remarque :** PersistentChatPoolFqdn n’est pas nécessaire si une des opérations suivantes est vraie : 
+**Remarque :** PersistentChatPoolFqdn n’est pas nécessaire si une des options suivantes est vraie : 
   
-- Il n'existe qu’un seul pool de serveur de Chat persistant.
+- Il n'existe qu’un seul pool de serveurs de conversation permanente.
     
 - Vous fournissez un nom de domaine complet (FQDN) de pool à la catégorie.
     
@@ -92,7 +93,7 @@ New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.
     
 ## <a name="configure-an-existing-room"></a>Configurer une salle existante
 
-Vous pouvez configurer un espace existant à l’aide de l’applet de commande **Set-CsPersistentChatRoom** . Par exemple, la commande suivante attribue user1 en tant que membre et présenteur et Utilisateur2 en tant que responsable, de la testCat d’espace Auditorium :
+Vous pouvez configurer une salle existante à l’aide de l’applet de commande **Set-CsPersistentChatRoom** . Par exemple, la commande suivante attribue user1 en tant que membre et présentateur et user2 en tant que gestionnaire, de la salle de type Auditorium testCat :
   
 ```
 Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
@@ -114,13 +115,13 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
 
 ## <a name="disable-or-enable-a-room"></a>Désactiver ou activer une salle de conversation
 
-Si la rubrique d’une salle de conversation permanent n’est plus pertinente, vous pouvez rendre la salle de conversation à inaccessible aux utilisateurs en le désactivant. Lorsqu’une salle de conversation est désactivée, tous les membres sont immédiatement déconnectés de la salle. Une fois qu’une salle de conversation est désactivée, les utilisateurs ne peuvent ni la rejoindre, ni la trouver lors de recherches de salles de conversation.
+Si la rubrique d’une salle de conversation permanente n’est plus pertinente, vous pouvez rendre la salle de conversation à inaccessible aux utilisateurs en le désactivant. Lorsqu’une salle de conversation est désactivée, tous les membres sont immédiatement déconnectés de la salle. Une fois qu’une salle de conversation est désactivée, les utilisateurs ne peuvent ni la rejoindre, ni la trouver lors de recherches de salles de conversation.
   
-Si l’historique de la salle conversation persiste, le contenu est conservé lors de la salle de conversation est désactivée. Cependant, le contenu ne s’affichera pas dans les recherches tant que la salle de conversation demeurera désactivée. Si vous activez ensuite la salle de conversation, les utilisateurs peuvent alors rechercher des messages ayant été publiés avant la désactivation de la salle. Pour plus d’informations sur la configuration de l’historique de la salle de conversation, voir [Gérer les catégories dans le serveur de conversation permanents dans Skype pour Business Server 2015](categories.md). 
+Si l’historique de la salle de conversation persiste, le contenu est conservé lors de la salle de conversation est désactivée. Cependant, le contenu ne s’affichera pas dans les recherches tant que la salle de conversation demeurera désactivée. Si vous activez ensuite la salle de conversation, les utilisateurs peuvent alors rechercher des messages ayant été publiés avant la désactivation de la salle. Pour plus d’informations sur la configuration de l’historique de la salle de conversation, voir [Gérer les catégories dans Persistent Chat Server dans Skype pour Business Server 2015](categories.md). 
   
 Si une salle de conversation est désactivée, sa liste d’adhésion et d’autres paramètres sont conservés. En tant qu’administrateur, vous pouvez activer une salle qui a été désactivée, et vous n’avez pas besoin de recréer manuellement les paramètres.
   
-Vous pouvez désactiver un espace à l’aide de l’applet de commande **Set-CsPersistentChatRoom** et le paramètre désactivé sur True :
+Vous pouvez désactiver une salle en utilisant la cmdlet **Set-CsPersistentChatRoom** et en définissant le paramètre désactivé sur True :
   
 ```
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $True
@@ -130,7 +131,6 @@ Pour activer une salle de conversation, définissez le paramètre Disabled sur F
   
 ```
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
-
 ```
 
 ## <a name="get-information-about-rooms"></a>Obtenir des informations sur les salles

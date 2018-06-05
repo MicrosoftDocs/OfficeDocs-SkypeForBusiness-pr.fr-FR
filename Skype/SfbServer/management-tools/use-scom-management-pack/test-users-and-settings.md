@@ -10,29 +10,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
-description: 'Résumé : Configurer des comptes d’utilisateurs et paramètres de nœud de l’Observateur pour Skype pour les transactions synthétiques Business Server.'
-ms.openlocfilehash: 55172fb152b3b02e87e8d46048c820c2c1b2dd04
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Configurez des comptes d’utilisateurs de test et les paramètres du nœud observateur pour Skype pour les transactions synthétiques Business Server.'
+ms.openlocfilehash: ee5330f10dd97e8ecc8a3e3e30962e6e8a69555b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569874"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configuration des paramètres et des utilisateurs test de nœud observateur
  
-**Résumé :** Configurer les comptes d’utilisateurs et paramètres de nœud de l’Observateur pour Skype pour les transactions synthétiques Business Server.
+**Résumé :** Configurer les comptes d’utilisateurs de test et les paramètres du nœud observateur pour Skype pour les transactions synthétiques Business Server.
   
 Après avoir configuré l’ordinateur qui jouera le rôle de nœud observateur, vous devez :
   
-1. [Configurer les comptes d’utilisateur tests](test-users-and-settings.md#testuser) devant être utilisé par les nœuds d’observation. Si vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande **Set-CsTestUserCredential** pour activer ces comptes pour une utilisation sur le nœud observateur.
+1. [Configurer les comptes d’utilisateurs Test](test-users-and-settings.md#testuser) devant être utilisé par les nœuds Observateur. Si vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande **Set-CsTestUserCredential** pour activer ces comptes pour une utilisation sur le nœud observateur.
     
 2. Mettre à jour les paramètres de configuration du nœud observateur.
     
 ## <a name="configure-test-user-accounts"></a>Configurer les comptes d’utilisateurs tests
 <a name="testuser"> </a>
 
-Les comptes de test est inutile représenter des personnes réelles, mais ils doivent être des comptes Active Directory valides. En outre, ces comptes doivent être activés pour Skype pour Business Server 2015, ils doivent avoir des adresses SIP valides et qu’elles doivent être activées pour Voix Entreprise (utiliser les transactions synthétiques Test-CsPstnPeerToPeerCall). 
+Comptes de test n’avez pas besoin représenter les personnes réelle, mais ils doivent être des comptes Active Directory valides. En outre, ces comptes doivent être activés pour Skype pour Business Server 2015, ils doivent avoir des adresses SIP valides, et ils doivent être activés pour Enterprise Voice (utiliser la transaction synthétique Test-CsPstnPeerToPeerCall). 
   
-Si vous utilisez la méthode d’authentification TrustedServer, il vous suffit de vous assurer que ces comptes existent et configurez-les comme indiqué. Vous devez assigner au moins trois utilisateurs tests pour chaque pool que vous souhaitez tester. Si vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande Set-CsTestUserCredential et le Skype pour Business Server Management Shell activer ces comptes pour travailler avec les transactions synthétiques de test. Pour ce faire, exécutez une commande semblable à la suivante (ces commandes supposent que vous ont créés les trois comptes d’utilisateurs Active Directory et que ces comptes sont activés pour Skype pour Business Server 2015) :
+Si vous utilisez la méthode d’authentification TrustedServer, il vous suffit de vous assurer que ces comptes existent et configurez-les comme indiqué. Vous devez assigner au moins trois utilisateurs tests pour chaque pool que vous souhaitez tester. Si vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande Set-cstestusercredential n’et le Skype pour Business Server Management Shell activer ces comptes pour travailler avec les transactions synthétiques de test. Cela en exécutant une commande semblable à ce qui suit (les commandes suivantes partent du principe que les trois comptes d’utilisateur Active Directory ont été créés et que ces comptes sont activés pour Skype pour Business Server 2015) :
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -93,7 +94,7 @@ La commande précédente échoue si vous n’avez pas installé les fichiers pri
   
 Pour tester plusieurs stratégies de voix, vous pouvez créer un test étendu pour chaque stratégie à l’aide de l’applet de commande **New-Cs ExtendedTest**. Les utilisateurs fournis doivent être configurés avec les stratégies de voix souhaitées. Les tests étendus sont ensuite passés à l’applet de commande **New-CsWatcherNodeConfiguration** à l’aide de virgules de délimitation, comme suit :
   
-ExtendedTests-@{ajouter = pstnTest1$, pstnTest2$, pstnTest3$}
+-ExtendedTests @{ajouter = $pstnTest1, $pstnTest2, $pstnTest3}
   
 Dans la mesure où l’applet de commande **New-CsWatcherNodeConfiguration** est appelée sans utiliser le paramètre Tests, seules les transactions synthétiques par défaut (et la transaction synthétique étendue spécifiée) seront activées pour le nouveau nœud observateur. Dans ce cas, le nœud observateur testera les composants suivants :
   
@@ -185,7 +186,7 @@ Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Ob
 
 Cette commande retourne des informations semblables aux suivantes, en fonction des transactions synthétiques qui ont été assignées au nœud :
   
-Inscription IM GroupIM P2PAV AvConference présence PersistentChatMessage DataConference
+Inscription par messagerie instantanée GroupIM P2PAV AvConference présence PersistentChatMessage DataConference
 > [!TIP]
 > Pour afficher les transactions synthétiques par ordre alphabétique, exécutez plutôt la commande suivante : 
   
@@ -201,7 +202,7 @@ Get-CsWatcherNodeConfiguration
 
 Des informations semblables aux suivantes sont retournées :
   
-Identité : atl-cs-001.litwareinc.com TestUsers : {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...} TargetFqdn : 001.litwareinc.com-cs-atl numéro_port : 5061To Vérifiez que le nœud de l’Observateur a été configuré correctement, tapez la commande suivante à partir de la Skype pour Business Server Management Shell :
+Identité : atl-cs-001 TestUsers : {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...} TargetFqdn : atl-cs-001 numéro_port : 5061To Vérifiez que le nœud observateur a été configuré correctement, tapez la commande suivante à partir de la Skype pour Business Server Management Shell :
   
 ```
 Test-CsWatcherNodeConfiguration
@@ -301,7 +302,6 @@ $cred1 = Get-Credential "contoso\testUser1"
 $cred2 = Get-Credential "contoso\testUser2"
 
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
-
 ```
 
 Vous devez exécuter cette tâche de configuration au sein de l’entreprise :
@@ -320,9 +320,9 @@ Pour exécuter cette transaction synthétique, vous devez configurer les éléme
     
 - Numéros de sélection directe à l’arrivée (SDA) pour chaque compte d’utilisateur.
     
-- Itinéraires de voix et de stratégies de VoIP qui autorisent les appels au numéro de récepteur atteindre la passerelle RTC.
+- Itinéraires voix et stratégies VoIP qui autorisent les appels au numéro du récepteur d’atteindre la passerelle PSTN.
     
-- Une passerelle PSTN qui accepte l’appel et media qui dirigera les appels vers le pool de domicile d’un destinataire, en fonction du nombre de composer.
+- Une passerelle PSTN qui accepte l’appel et les médias qui achemine les appels vers le pool d’accueil d’un récepteur, en fonction du numéro composé.
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>Transaction synthétique du magasin de contacts unifié
 
@@ -334,13 +334,13 @@ Pour utiliser cette transaction synthétique, les conditions suivantes doivent �
     
 - Les utilisateurs test doivent disposer d’une boîte aux lettres Exchange valide.
     
-Une fois que ces conditions sont remplies, vous pouvez exécuter l’applet de commande Windows PowerShell suivante pour migrer les listes de contacts des utilisateurs de test vers Exchange :
+Une fois ces conditions sont remplies, vous pouvez exécuter l’applet de commande Windows PowerShell suivante pour migrer des listes de contacts des utilisateurs de test vers Exchange :
   
 ```
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
-La migration des listes de contacts des utilisateurs test vers Exchange peut prendre un moment. Pour surveiller la progression de la migration, la même ligne de commande peut être exécutée sans indicateur de-le programme d’installation :
+La migration des listes de contacts des utilisateurs test vers Exchange peut prendre un moment. Pour surveiller la progression de la migration, la même ligne de commande peut être exécutée sans-indicateur du programme d’installation :
   
 ```
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
@@ -362,11 +362,11 @@ Dans cet exemple, une règle Skype Entreprise Server 2015 doit exister pour r
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transaction synthétique VIS (Serveur d’interopérabilité vidéo)
 
-La transaction de synthèse vidéo Interop Server (VIS) nécessite que vous téléchargez et installez les fichiers de prise en charge des transactions synthétiques ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+La transaction synthétique vidéo Interop Server (pouces) nécessite que vous téléchargez et installez les fichiers de prise en charge les transactions synthétiques ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
   
-Pour installer VISSTSupportPackage.msi, assurez-vous que les dépendances (sous Configuration logicielle requise) du msi sont déjà installées. Exécutez VISSTSupportPackage.msi pour effectuer une installation simple. Le fichier .msi installe tous les fichiers dans le chemin d’accès suivant : « %ProgramFiles%\VIS Package de prise en charge de transactions synthétiques ».
+Pour installer VISSTSupportPackage.msi, assurez-vous que les dépendances (sous Configuration logicielle requise) du msi sont déjà installées. Exécutez VISSTSupportPackage.msi pour effectuer une installation simple. Le fichier .msi installe tous les fichiers dans le chemin d’accès suivant : « %ProgramFiles%\VIS Package de prise en charge des transactions synthétiques ».
   
-Pour plus d’informations sur l’exécution de la Transaction synthétique de VIS, reportez-vous à la documentation de l’applet de commande [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) .
+Pour plus d’informations sur l’exécution de la Transaction synthétique VIS, reportez-vous à la documentation de l’applet de commande [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) .
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>Modification de la fréquence d’exécution des transactions synthétiques
 <a name="special_synthetictrans"> </a>
@@ -377,13 +377,13 @@ Si vous souhaitez exécuter les transactions synthétiques plus fréquemment, il
   
 Pour modifier la fréquence à laquelle les transactions synthétiques sont exécutées, procédez comme suit :
   
-1. Open System Center Operations Manager. Cliquez sur section de création. Cliquez sur règles section (création)
+1. Ouvrir System Center Operations Manager. Cliquez sur Création. Cliquez sur règles section (création)
     
-2. Dans la section règles, recherchez la règle avec le nom « Main synthétique règle de Collection performances de Transaction Runner »
+2. Dans la section règles, recherchez la règle avec le nom « Main synthétique règle de Collection performances de Transaction canal d’injection »
     
-3. Cliquez avec le bouton droit sur la règle, sélectionnez des substitutions, sélectionnez Remplacer la règle et puis sélectionnez « pour tous les objets de classe : Observateur de Pool »
+3. Cliquez avec le bouton droit sur la règle et sélectionnez substitutions, sélectionnez Remplacer la règle, puis sélectionnez « pour tous les objets de classe : Observateur Pool »
     
-4. Dans la fenêtre de substituer des propriétés, sélectionnez le nom de paramètre « Fréquence » et la remplacer par la valeur la valeur voulue.
+4. Dans la fenêtre Propriétés remplacer, sélectionnez le nom du paramètre « Fréquence » et définir la valeur Override à celui souhaité.
     
 5. Dans la même fenêtre, sélectionnez le pack d’administration auquel ce remplacement doit s’appliquer.
     
@@ -417,11 +417,11 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
 ```
 
 > [!NOTE]
-> : Ne faites pas précéder le nom de la variable par le caractère $. Utilisez un nom de variable comme RegistrationTest (et non $RegistrationTest). 
+> : Ne pas faire précéder le nom de la variable par le caractère $. Utilisez un nom de variable comme RegistrationTest (et non $RegistrationTest). 
   
 Lorsque vous exécutez cette commande, vous obtenez un résultat semblable à celui-ci :
   
-Nom de domaine complet cible : atl-cs-001.litwareinc.com résultat : Échec de latence : 00:00:00 Message d’erreur : cet ordinateur ne dispose pas de tous les certificats affectés. Diagnostic : vous pouvez accéder à des informations plus détaillées pour cette erreur que simplement le message d’erreur indiqué ici. Pour obtenir ces informations au format HTML, utilisez une commande de ce type pour enregistrer les informations stockées dans la variable RegistrationTest dans un fichier HTML :
+Nom de domaine complet cible : atl-cs-001 résultat : Échec de latence : 00:00:00 Message d’erreur : cet ordinateur ne dispose pas de tous les certificats affectés. Diagnostic : vous pouvez accéder à des informations plus détaillées pour cette erreur que simplement le message d’erreur indiqué ici. Pour obtenir ces informations au format HTML, utilisez une commande de ce type pour enregistrer les informations stockées dans la variable RegistrationTest dans un fichier HTML :
   
 ```
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
@@ -435,9 +435,7 @@ $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 
 Vous pouvez afficher ces fichiers à l’aide de Windows Internet Explorer, Microsoft Visual Studio ou toute autre application capable d’ouvrir des fichiers HTML/XML.
   
-Les transactions synthétiques allant dans System Center Operations Manager génère automatiquement ces fichiers journaux pour les échecs. Toutefois, ces journaux ne sont pas générés si l’exécution échoue avant que Skype Entreprise Server PowerShell n’ait pu charger et exécuter la transaction synthétique. 
+Exécuter à partir de System Center Operations Manager à l’intérieur de transactions synthétiques génère automatiquement ces fichiers journaux pour les échecs. Toutefois, ces journaux ne sont pas générés si l’exécution échoue avant que Skype Entreprise Server PowerShell n’ait pu charger et exécuter la transaction synthétique. 
   
 > [!IMPORTANT]
 > Par défaut, Skype pour Business Server 2015 enregistre les fichiers journaux dans un dossier qui n’est pas partagé. Pour que ces journaux accessibles, vous devez partager ce dossier. Par exemple : \\atl-watcher-001.litwareinc.com\WatcherNode. 
-  
-

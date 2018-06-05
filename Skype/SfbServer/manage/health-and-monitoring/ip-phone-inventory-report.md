@@ -9,20 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: 'Résumé : Obtenir des informations sur l’état de stocks de téléphone IP dans Skype pour Business Server 2015.'
-ms.openlocfilehash: a161fae573a10f8da875736387284f0771a363e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez le rapport d’inventaire téléphone IP dans Skype pour Business Server 2015.'
+ms.openlocfilehash: fd68e94f9d4c30aafb86302d8211b52909f737db
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569553"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server-2015"></a>Rapport d’inventaire de téléphonie IP dans Skype Entreprise Server 2015
  
-**Résumé :** Obtenir des informations sur l’état de stocks de téléphone IP dans Skype pour Business Server 2015.
+**Résumé :** Découvrez le rapport d’inventaire téléphone IP dans Skype pour Business Server 2015.
   
 Le Rapport d’inventaire de téléphonie IP fournit des informations sur les téléphones IP en cours d’utilisation dans votre organisation. Il offre une liste détaillée des téléphones IP qui ont été utilisées durant la période de rapport spécifiée. Entre autres choses, il permet aux administrateurs de savoir s’il existe des téléphones obsolètes qui doivent être remplacés. Il peut également les alerter quant à la présence de téléphones coûteux rarement utilisés. Ce type d’informations peut être précieux dans le cadre de l’achat de nouveaux téléphones ou de la redistribution des téléphones existants (par exemple, il peut être demandé à un utilisateur qui n’utilise son téléphone coûteux que très rarement de l’échanger avec un autre utilisateur qui utilise le sien beaucoup plus fréquemment).
   
-Il convient de noter que ce rapport n’a quelques limitations lorsqu’il s’agit d’être utilisé comme un rapport de stock true. Tout d’abord, le rapport de téléphone IP répertorie simplement tous les téléphones qui a ouvert une session sur Skype pour Business Server pendant la période spécifiée, triés par leur date de dernière ouverture de session. Si un téléphone ne pas session au cours de la période spécifiée puis il apparaîtra pas dans le rapport d’inventaire. Qui inclut les téléphones connectent avant le démarrage de la période et étaient toujours connecté pendant l’intervalle de temps spécifié. Par exemple, supposons que vous souhaitiez examiner tout le stock de téléphone pour juillet 2015. Ainsi, supposons que plusieurs téléphones ouvert une session sur Skype pour Business Server sur 30 juin 2015 et qu’il étaient toujours connectés à partir du 1er juillet. Ces téléphones s’affichera pas sur l’état du stock pour le 1er juillet.
+Il convient de noter que ce rapport n’a quelques limitations lorsqu’il s’agit d’être utilisé comme un rapport d’inventaire de la valeur true. Tout d’abord, le rapport de téléphonie IP répertorie simplement tous les téléphones qui a ouvert une session sur Skype pour Business Server pendant la période spécifiée, triés par leur dernière connexion. Si un téléphone vous n'êtes pas connecté au cours de la période spécifiée puis il apparaîtra pas dans le rapport d’inventaire. Qui inclut les téléphones connectés avant la période de temps en route et étaient toujours connectés pendant l’intervalle de temps spécifié. Par exemple, supposons que vous souhaitez examiner les emplacements de téléphone pour juillet 2015. Supposons que, ainsi que plusieurs téléphones ouvert une session sur Skype pour Business Server sur le 30 juin 2015 et étaient toujours connectés à compter du 1er juillet. Ces téléphones s’affichera pas sur le rapport d’inventaire pour le 1er juillet.
   
 Il convient également de noter que le rapport d’inventaire pourrait inclure des téléphones que votre organisation n’utilise plus. Supposez par exemple, que plusieurs téléphones Fabrikam se sont connectés au système le 1er juillet 2015 ; cinq jours plus tard, votre organisation s’est débarrassée de tous ces téléphones Fabrikam et les a remplacés par un modèle Contoso plus récent. Les téléphones Fabrikam apparaîtront tout de même dans le rapport d’inventaire simplement du fait qu’ils se sont connectés au système durant le mois de juillet.
   
@@ -46,7 +47,7 @@ $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Na
 
 Des données semblables à ceci sont renvoyées :
   
-```
+<pre>
 Count    Name
 -----    ----
   267    POLYCOM, CX700
@@ -60,8 +61,7 @@ Count    Name
    11    Microsoft, CPE_A
     9    POLYCOM, CX500
     7    Aastra, 6721ip
-
-```
+</pre>
 
 De mêmes, ces deux commandes indiquent quels téléphones se sont connectés au système mais n’ont jamais été utilisés pour effectuer un appel (la valeur de la métrique Dernière activité est vierge, ce qui indique l’absence de dernière activité) :
   
@@ -72,7 +72,7 @@ $phones | Where-Object {$_."Last activity" -eq ""}
 
 Cette commande renvoie des données semblables aux suivantes pour chaque téléphone qui n’a pas été utilisé :
   
-```
+<pre>
 Manufacturer     : POLYCOM
 Hardware version : CX600
 MAC address      : 00-04-F2-00-01-76
@@ -81,7 +81,7 @@ User agent       : CPE/4.0.7423.1 OCPhone/4.0.7423.1 (Microsoft Lync 2010 (Beta)
 Last logon time  : 8/30/2010 4:44:48 PM
 Last logoff time : 8/30/2010 5:59:07 PM
 Last activity    :
-```
+</pre>
 
 Le Rapport d’inventaire de téléphonie IP offre un autre avantage : si vous connaissez l’adresse MAC d’un téléphone IP, vous pouvez identifier le dernier utilisateur ayant utilisé ce téléphone en entrant simplement cette adresse dans la zone de texte Adresse MAC. Le Rapport d’inventaire de téléphonie IP indiquera alors (entre autres choses) l’adresse SIP du dernier utilisateur qui s’est connecté avec ce téléphone. En guise d’alternative, vous pouvez entrer l’adresse SIP d’un utilisateur (dans la zone Préfixe d’URI de l’utilisateur) pour dresser la liste de tous les téléphones qui ont été utilisés par cet utilisateur.
   
@@ -91,7 +91,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport d’inventaire de téléphonie IP.
   
-**Filtres de rapport de stock de téléphone IP**
+**Filtres du rapport d’inventaire téléphone IP**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -109,7 +109,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 Le tableau qui suit répertorie les informations fournies dans le rapport d’inventaire de téléphonie IP.
   
-**Métrique de rapport de stock de téléphone IP**
+**Mesures du rapport d’inventaire téléphone IP**
 
 |**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
@@ -119,7 +119,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’in
 |**URI utilisateur** <br/> |Oui  <br/> |Adresse SIP de l’utilisateur qui a utilisé le téléphone IP.  <br/> |
 |**Agent utilisateur** <br/> |Oui  <br/> |Identifiant du logiciel utilisé par le téléphone IP.  <br/> |
 |**Heure de la dernière ouverture de session** <br/> |Oui  <br/> |Date et heure auxquelles le téléphone IP dernière ouverture de session Skype pour Business Server.  <br/> |
-|**Heure de la dernière fermeture de session** <br/> |Oui  <br/> |Date et heure auxquelles le téléphone IP dernière fermeture de session à partir de Skype pour Business Server.  <br/> |
+|**Heure de la dernière fermeture de session** <br/> |Oui  <br/> |Date et heure auxquelles le téléphone IP dernière fermeture de session de Skype pour Business Server.  <br/> |
 |**Dernière activité** <br/> |Oui  <br/> |Date et heure de la dernière utilisation de ce téléphone IP.  <br/> |
    
 

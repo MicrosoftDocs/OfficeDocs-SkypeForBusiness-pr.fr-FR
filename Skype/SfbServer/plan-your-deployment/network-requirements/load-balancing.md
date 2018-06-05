@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Résumé : Passez en revue le considérations relatives à équilibrage avant d’implémenter Skype pour Business Server 2015.'
-ms.openlocfilehash: 5d5c1c58746fe9656a0eb123d211ed5b3f330063
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: dee231f9c50e8ad71ead0ad6b31ad20e00da1b7a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569490"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Configuration requise pour l’équilibrage de charge pour Skype Entreprise
  
@@ -151,6 +152,12 @@ Vous définissez la surveillance des ports sur les équilibreurs de la charge ma
 Skype pour Business Server Active DNS équilibrage de charge, une solution logicielle qui permet de réduire la surcharge administrative liée à équilibrage de charge sur votre réseau. Équilibrage de charge DNS répartit le trafic réseau qui est unique à Skype pour le serveur d’entreprise, telles que le trafic SIP et le trafic multimédia.
   
 Si vous déployez l’équilibrage de charge DNS, l’administration de votre organisation une surcharge pour les équilibreurs de charge matérielle est réduite. De plus, le travail ardu de dépannage qu’imposent les problèmes découlant d’une mauvaise configuration des programmes d’équilibrage de la charge pour le trafic SIP sera évité. Vous pouvez aussi empêcher les connexions serveur afin de mettre les serveurs hors connexion. L’équilibrage de la charge DNS permet également d’éviter que des problèmes liés aux programmes d’équilibrage de la charge matérielle n’aient une incidence sur des éléments du trafic SIP, notamment le routage de base des appels.
+
+Le diagramme suivant illustre un exemple qui inclut les deux interne et l’équilibrage de charge DNS externe : 
+  
+**Organigramme de bord à l’aide d’adresses IPv4 publique**
+
+![exemple de diagramme réseau DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
 En optant pour l’équilibrage de la charge DNS, vous pouvez aussi acheter des programmes d’équilibrage de la charge matérielle moins chers que ceux proposés pour tous les types de trafic. Vous devez utiliser des équilibreurs de charge qui se sont écoulées qualification interopérabilité test avec Skype pour Business Server. Pour plus d’informations sur les tests d’interopérabilité d’équilibrage de la charge, voir [Les partenaires d’équilibrage de la charge Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=202452). Il le contenu s’applique à Skype Business Server.
   
@@ -160,7 +167,7 @@ L’équilibrage de la charge DNS est généralement mis en œuvre au niveau de 
   
 Si par exemple, il existe trois serveurs frontaux dans un pool appelé pool01.contoso.com, voilà ce qui se produit :
   
-- Les clients Skype pour les entreprises en cours d’exécution de requête DNS pour pool01.contoso.com. La requête renvoie trois IP addresses et met en mémoire cache comme suit (pas nécessairement dans cet ordre) :
+- Les clients Skype pour les entreprises en cours d’exécution de requête DNS pour pool01.contoso.com. La requête renvoie trois adresses IP et les met dans le cache comme suit (pas nécessairement dans cet ordre) :
     
     pool01.contoso.com 192.168.10.90
     
