@@ -1,5 +1,5 @@
 ---
-title: Supprimer-CcLegacyServerCertificate
+title: Remove-CcLegacyServerCertificate
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: L’applet de commande Remove-CcLegacyServerCertificate supprime les certificats de l’ancien serveur sur le magasin central de gestion, le serveur de médiation et le serveur Edge après l’exécution des applets de commande Renew-CcCACertificate ou Renew CcServerCertificate.
-ms.openlocfilehash: f23a753df1a5c9f81b81bc0f1d7d33c01020b489
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dc52351d9c66ff310329da62dbd69da74b19c222
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569839"
 ---
-# <a name="remove-cclegacyservercertificate"></a>Supprimer-CcLegacyServerCertificate
+# <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
 L’applet de commande Remove-CcLegacyServerCertificate supprime les certificats de l’ancien serveur sur le magasin central de gestion, le serveur de médiation et le serveur Edge après l’exécution des applets de commande Renew-CcCACertificate ou Renew CcServerCertificate.
   
@@ -41,13 +42,12 @@ L’exemple suivant supprime les certificats délivrés pour le serveur de médi
   
 ```
 Remove-CcLegacyServerCertificate -Roles @("MS", "Edge") 
-
 ```
 
 ## <a name="parameters"></a>Paramètres
 <a name="Examples"> </a>
 
-|**Paramètre**|**Obligatoire**|**Type de**|**Description**|
+|**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | Rôles <br/> |Facultatif  <br/> |System.Array  <br/> | Série de rôles des serveurs de Cloud Connector. <br/> |
    
@@ -64,11 +64,11 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Renouveler-CcServerCertificate](renew-ccservercertificate.md)
+[CcServerCertificate renouveler](renew-ccservercertificate.md)
   
-[Réinitialisation-CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[Renouveler-CcCACertificate](renew-cccacertificate.md)
+[CcCACertificate renouveler](renew-cccacertificate.md)
   
 [Mise à jour-CcCACertificate](update-cccacertificate.md)
   

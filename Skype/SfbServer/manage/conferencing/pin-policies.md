@@ -1,5 +1,5 @@
 ---
-title: Gérer les stratégies de code PIN pour les conférences à distance dans Skype pour Business Server 2015
+title: Gérer les stratégies de code confidentiel pour les conférences rendez-vous dans Skype pour Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,18 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
-description: 'Résumé : Apprenez à gérer les stratégies de code PIN pour les conférences à distance dans Skype pour Business Server 2015.'
-ms.openlocfilehash: ecc1c41c4d08583baaec4279ea35d9ba796d3e5e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment gérer les stratégies de code confidentiel pour les conférences rendez-vous dans Skype pour Business Server 2015.'
+ms.openlocfilehash: ee6a303a59ef6bc17ca3bd3300a701505cf9042b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569050"
 ---
-# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>Gérer les stratégies de code PIN pour les conférences à distance dans Skype pour Business Server 2015
+# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>Gérer les stratégies de code confidentiel pour les conférences rendez-vous dans Skype pour Business Server 2015
  
-**Résumé :** Découvrez comment gérer les stratégies de code PIN pour les conférences à distance dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment gérer les stratégies de code confidentiel pour les conférences rendez-vous dans Skype pour Business Server 2015.
   
-Skype pour les utilisateurs de Business Server disposant d’informations d’identification des Services de domaine Active Directory (AD DS) dans votre organisation peut participer à des conférences à distance en tant qu’utilisateurs authentifiés à l’aide d’un numéro d’identification personnel (PIN). La stratégie de code confidentiel définit le fonctionnement des codes confidentiels d’accès aux conférences rendez-vous.
+Skype pour les utilisateurs Business Server qui disposent d’informations d’identification des Services de domaine Active Directory (AD DS) dans votre organisation permettre participer à des conférences rendez-vous en tant qu’utilisateurs authentifiés à l’aide d’un code confidentiel (PIN). La stratégie de code confidentiel définit le fonctionnement des codes confidentiels d’accès aux conférences rendez-vous.
   
  Si vous voulez utiliser la même stratégie de code confidentiel au sein de toute votre organisation, vous pouvez utiliser la stratégie de code confidentiel globale et la modifier, au besoin. La stratégie d’authentification par code confidentiel globale définit les règles des codes confidentiels pour les conférences rendez-vous au niveau forêt. Vous pouvez modifier la stratégie de code confidentiel globale, mais vous ne pouvez pas la supprimer.
   
@@ -30,38 +31,37 @@ Les stratégies de code confidentiel s’appliquent aux utilisateurs, de l’ét
   
 ## <a name="view-information-about-pin-policies"></a>Affichage des informations sur vos stratégies de code confidentiel
 
-Vous pouvez afficher des informations sur les stratégies de code PIN à l’aide de Skype pour le panneau de configuration de Business Server ou à l’aide de Skype pour Business Server Management Shell.
+Vous pouvez afficher des informations sur les stratégies de code confidentiel à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de Skype pour Business Server Management Shell.
   
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>Afficher des informations sur les stratégies de code PIN pour le panneau de configuration de Business Server à l’aide de Skype
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>Afficher des informations sur les stratégies de code confidentiel à l’aide de Skype pour Business Server Control Panel
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou dispose de droits d’utilisateur équivalent), ou le rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur sur le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur qui se trouve dans le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
     
-2.  Ouvrez Skype pour le panneau de configuration de Business Server.
+2.  Ouvrez le panneau de configuration serveur Business Skype.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de code confidentiel**.
     
 4. Dans la page **Stratégie de code confidentiel**, cliquez successivement sur la stratégie de code confidentiel à afficher, sur **Modifier**, puis sur **Afficher les détails**.
     
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Afficher des informations sur les stratégies de code PIN pour Business Server Management Shell à l’aide de Skype
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Afficher des informations sur les stratégies de code confidentiel à l’aide de Skype pour Business Server Management Shell
 
 Pour afficher des informations sur les stratégies de code confidentiel, utilisez l’applet de commande **Get-CsPinPolicy**. Par exemple, la commande suivante retourne les informations relatives à une seule stratégie de code confidentiel dont l’identité est site:Redmond:.
   
 ```
 Get-CsPinPolicy -Identity "site:Redmond"
-
 ```
 
-Pour plus d’informations, y compris une description de la syntaxe complète et la liste des paramètres, consultez [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps).
+Pour plus d’informations, y compris une description de la syntaxe complète et une liste des paramètres, voir [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-the-global-pin-policy"></a>Modification de la stratégie de code confidentiel globale
 
-Vous pouvez modifier la stratégie de code PIN globale à l’aide de Skype pour le panneau de configuration de Business Server ou à l’aide de Skype pour Business Server Management Shell.
+Vous pouvez modifier la stratégie de code confidentiel globale à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de Skype pour Business Server Management Shell.
   
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modifier la global à distance conférence stratégie de code PIN pour le panneau de configuration de Business Server à l’aide de Skype
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modifier la rendez-vous conférence globale stratégie de code confidentiel à l’aide de Skype pour Business Server Control Panel
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou dispose de droits d’utilisateur équivalent), ou le rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur sur le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur qui se trouve dans le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
     
-2.  Ouvrez Skype pour le panneau de configuration de Business Server.
+2.  Ouvrez le panneau de configuration serveur Business Skype.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de code confidentiel**.
     
@@ -86,7 +86,7 @@ Vous pouvez modifier la stratégie de code PIN globale à l’aide de Skype pour
   
 12. Cliquez sur **Valider**.
     
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modifier la global à distance conférence stratégie de code PIN pour Business Server Management Shell à l’aide de Skype
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modifier la rendez-vous conférence globale stratégie de code confidentiel à l’aide de Skype pour Business Server Management Shell
 
 Pour modifier la stratégie globale de code confidentiel de conférence rendez-vous, utilisez l’applet de commande **Set-CsPinPolicy**.
   
@@ -94,20 +94,19 @@ La commande suivante retourne la valeur de MinPasswordLength de toutes les strat
   
 ```
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
-
 ```
 
-Pour plus d’informations, y compris une description de la syntaxe complète et la liste des paramètres, voir [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
+Pour plus d’informations, y compris une description de la syntaxe complète et une liste des paramètres, voir [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="create-a-user-or-site-pin-policy"></a>Création d’une stratégie de code confidentiel au niveau utilisateur ou site
 
-Vous pouvez créer un site stratégie de code PIN ou un utilisateur à l’aide de Skype pour le panneau de configuration de Business Server ou à l’aide de Skype pour Business Server Management Shell.
+Vous pouvez créer un utilisateur ou un site stratégie de code confidentiel à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de Skype pour Business Server Management Shell.
   
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Créer un utilisateur ou un site stratégie de code PIN pour le panneau de configuration de Business Server à l’aide de Skype
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Créer un utilisateur ou un site stratégie de code confidentiel à l’aide de Skype pour Business Server Control Panel
 
-1. À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou dispose de droits d’utilisateur équivalent), ou le rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur sur le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
+1. À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur qui se trouve dans le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
     
-2.  Ouvrez Skype pour le panneau de configuration de Business Server.
+2.  Ouvrez le panneau de configuration serveur Business Skype.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de code confidentiel**.
     
@@ -138,7 +137,7 @@ Vous pouvez créer un site stratégie de code PIN ou un utilisateur à l’aide 
   
 13. Cliquez sur **Valider**.
     
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Créer un utilisateur ou un site stratégie de code PIN pour Business Server Management Shell à l’aide de Skype
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Créer un utilisateur ou un site stratégie de code confidentiel à l’aide de Skype pour Business Server Management Shell
 
 Pour créer une stratégie de code confidentiel au niveau utilisateur ou site, utilisez l’applet de commande **New-CsPinPolicy**
   
@@ -148,17 +147,17 @@ La commande ci-dessous crée une stratégie de code confidentiel dont l’identi
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- Pour plus d’informations, y compris une description de la syntaxe complète et d’une liste de paramètres, consultez [New-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps).
+ Pour plus d’informations, y compris une description de la syntaxe complète et une liste des paramètres, voir [New-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>Modification d’une stratégie de code confidentiel au niveau utilisateur ou site
 
-Vous pouvez modifier un utilisateur ou un site stratégie de code PIN à l’aide de Skype pour le panneau de configuration de Business Server ou à l’aide de Skype pour Business Server Management Shell.
+Vous pouvez modifier un utilisateur ou un site stratégie de code confidentiel à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de Skype pour Business Server Management Shell.
   
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modifier un utilisateur ou un site stratégie de code PIN pour le panneau de configuration de Business Server à l’aide de Skype
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modifier un utilisateur ou un site stratégie de code confidentiel à l’aide de Skype pour Business Server Control Panel
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou dispose de droits d’utilisateur équivalent), ou le rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur sur le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur qui se trouve dans le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
     
-2.  Ouvrez Skype pour le panneau de configuration de Business Server.
+2.  Ouvrez le panneau de configuration serveur Business Skype.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de code confidentiel**.
     
@@ -168,7 +167,7 @@ Vous pouvez modifier un utilisateur ou un site stratégie de code PIN à l’aid
     
 6. Cliquez sur **Valider**.
     
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modifier un utilisateur ou un site stratégie de code PIN pour Business Server Management Shell à l’aide de Skype
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modifier un utilisateur ou un site stratégie de code confidentiel à l’aide de Skype pour Business Server Management Shell
 
 Pour modifier la stratégie de code confidentiel de conférence rendez-vous, utilisez l’applet de commande **Set-CsPinPolicy**.
   
@@ -176,26 +175,25 @@ La commande ci-dessous modifie la stratégie de code confidentiel affectée au s
   
 ```
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
-
 ```
 
-Pour plus d’informations, y compris une description de la syntaxe complète et la liste des paramètres, voir [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
+Pour plus d’informations, y compris une description de la syntaxe complète et une liste des paramètres, voir [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>Suppression d’une stratégie de code confidentiel au niveau utilisateur ou site
 
-Vous pouvez supprimer un utilisateur ou un site stratégie de code PIN à l’aide de Skype pour le panneau de configuration de Business Server ou à l’aide de Skype pour Business Server Management Shell.
+Vous pouvez supprimer un utilisateur ou un site stratégie de code confidentiel à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de Skype pour Business Server Management Shell.
   
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Supprimer un utilisateur ou un site stratégie de code PIN pour le panneau de configuration de Business Server à l’aide de Skype
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Supprimer un utilisateur ou un site stratégie de code confidentiel à l’aide de Skype pour Business Server Control Panel
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou dispose de droits d’utilisateur équivalent), ou le rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur sur le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur qui se trouve dans le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
     
-2.  Ouvrez Skype pour le panneau de configuration de Business Server.
+2.  Ouvrez le panneau de configuration serveur Business Skype.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de code confidentiel**.
     
 4. Dans la page **Stratégie de code confidentiel**, cliquez successivement sur la stratégie de code confidentiel à modifier, sur **Modifier**, puis sur **Supprimer**.
     
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Supprimer un utilisateur ou un site stratégie de code PIN pour Business Server Management Shell à l’aide de Skype
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Supprimer un utilisateur ou un site stratégie de code confidentiel à l’aide de Skype pour Business Server Management Shell
 
 Pour supprimer une stratégie de code confidentiel au niveau utilisateur ou site, utilisez l’applet de commande **New-CsPinPolicy**
   
@@ -205,6 +203,6 @@ La commande ci-dessous supprime toutes les stratégies de code confidentiel conf
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
-Pour plus d’informations, y compris une description de la syntaxe complète et la liste des paramètres, reportez-vous à la section [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps).
+Pour plus d’informations, y compris une description de la syntaxe complète et une liste des paramètres, voir [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps).
   
 

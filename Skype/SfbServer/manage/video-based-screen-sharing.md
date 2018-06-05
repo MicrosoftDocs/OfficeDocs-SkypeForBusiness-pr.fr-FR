@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: 'Skype pour plus d’informations de planification et configuration de Business Server 2015 pour vidéo partage d’écran (VbSS), qui est désormais disponible en téléchargement : Skype pour KB3061064 de mise à jour Cumulative Business Server 2015.'
-ms.openlocfilehash: 50ba16703d391724a413e59e5d9e41cdb94b06af
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: a76778db02ece625d7c9933662d88aea99dbdf7f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504361"
+ms.locfileid: "19569256"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server-2015"></a>Partage d’écran vidéo pour Skype Entreprise Server 2015
  
@@ -97,7 +97,7 @@ Pour empêcher cela, vous pouvez procéder de l'une des manières suivantes :
     
 Les chiffres figurant dans cette table subissent l’influence des réseaux individuels et des contenus partagés. Veuillez effectuer un test afin de déterminer les lignes de base de votre ou de vos réseau(x).
   
-|**Contenu 1080p**|**RPD moyenne**|**RDP maximale**|**VbSS moyenne**|**VbSS maximale**|
+|**Contenu 1080p**|**RDP moyenne**|**RDP maximale**|**VbSS moyenne**|**VbSS maximale**|
 |:-----|:-----|:-----|:-----|:-----|
 |PPT  <br/> |200 Kbits/s  <br/> |12  <br/> |100 Kbits/s  <br/> |3mbps  <br/> |
 |CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1 Mbits/s  <br/> |3mbps  <br/> |
@@ -121,7 +121,8 @@ Il existe des situations où le partage d’écran passera à RDP, comme celles-
 - Si une personne qui utilise une version antérieure de la Skype pour client Business rejoint la session, par exemple tout le monde à l’aide de n’importe quelle version de client Windows qui est inférieure à 16.0.6330.1000, Skype pour les périphériques de système métier salle ou Skype pour les applications métier Mobile. 
 - Si un utilisateur partage à partir de la Skype pour l’application Web de gestion.
 - Si une personne utilise Skype pour Businesson Mac et n'est pas hébergée sur Skype pour Business Online.
-- Si un utilisateur démarre un partage de programme/fenêtre et/ou un enregistrement lors de la session.
+- Si un utilisateur démarre un partage de programme/Windows.
+- Si un utilisateur démarre la session d’enregistrement.
 - Si un utilisateur appelle le contrôle d'appel distant lors de la session.
 
     Sachez qu'une fois que la session passe à RDP, elle ne reviendra pas à VbSS. Encore une fois, la transition depuis VbSS est censée être transparente et, si possible, elle ne sera pas facile à détecter dans la plupart des situations.

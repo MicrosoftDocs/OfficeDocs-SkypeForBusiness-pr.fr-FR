@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: Pour savoir comment configurer plusieurs numéros d'urgence dans Skype Entreprise Server 2015, lisez cette rubrique.
-ms.openlocfilehash: ad2f048294b7eeef6d675fdf80884ae13cc75a61
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 176233639a6ca935165e4640471377cc012db103
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568234"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business-2015"></a>Configuration de plusieurs numéros d'urgence dans Skype Entreprise 2015
  
@@ -36,7 +37,6 @@ La commande suivante permet de créer un numéro d'urgence avec la chaîne de nu
   
 ```
 > $a = New-CsEmergencyNumber -DialString 911 
-
 ```
 
 La commande suivante permet d'associer le numéro à la stratégie d'emplacement en spécifiant les paramètres EmergencyNumbers dans l'applet de commande Set-CsLocationPolicy :

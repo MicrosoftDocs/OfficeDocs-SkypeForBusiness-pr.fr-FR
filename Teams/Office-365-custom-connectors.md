@@ -1,5 +1,5 @@
 ---
-title: "Utiliser des connecteurs Office 365 et personnalisés dans Microsoft Teams"
+title: Utiliser des connecteurs Office 365 et personnalisés dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,21 +7,22 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara, lucarras
-description: "Les connecteurs permettent à votre équipe de rester informée en fournissant directement à votre canal du contenu et des mises à jour provenant des services que vous utilisez fréquemment."
+description: Les connecteurs permettent à votre équipe de rester informée en fournissant directement à votre canal du contenu et des mises à jour provenant des services que vous utilisez fréquemment.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 119d2a7bac94f3695a068e64f56b5613b5687e2f
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 0a5243e32b100f648a71b5e07e55061bd8b3d6aa
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570079"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Utiliser des connecteurs Office 365 et personnalisés dans Microsoft Teams
 =======================================================
 
 Les connecteurs permettent à votre équipe de rester informée en fournissant directement à votre canal du contenu et des mises à jour provenant des services que vous utilisez fréquemment. Grâce aux connecteurs, les utilisateurs de Microsoft Teams peuvent recevoir des mises à jour de services populaires, tels que Twitter, Trello, Wunderlist, GitHub et VSTS, dans le flux de conversations de leur équipe.
 
-Chaque membre d'une équipe peut associer son équipe à des services cloud populaires à l'aide des connecteurs, et tous les membres sont informés des activités de ce service. Si un utilisateur est supprimé d'une équipe, tous les connecteurs ajoutés à cette équipe par l'utilisateur en question cesseront de fonctionner. Les réunions restent programmées, car elles appartiennent au calendrier du groupe.
+N’importe quel membre d’une équipe peut se connecter leur équipe aux services de cloud populaires avec les connecteurs si l’utilisation de l’équipe des autorisations, et tous les membres de l’équipe sont avertis des activités de ce service. Connecteurs continuent de fonctionner même après le membre qui est initialement le connecteur a quitté le programme d’installation. N’importe quel membre de l’équipe avec les autorisations à ajouter/supprimer peut modifier le programme d’installation de connecteurs par d’autres membres.
 
 Les connecteurs Office 365 peuvent être utilisés avec des groupes Microsoft Teams et Office 365, ce qui facilite la synchronisation de tous les membres et leur permet de recevoir rapidement des informations pertinentes. Microsoft Teams et Exchange utilisent le même modèle de connecteurs, ce qui vous permet d'utiliser les mêmes connecteurs sur les deux plateformes.
 

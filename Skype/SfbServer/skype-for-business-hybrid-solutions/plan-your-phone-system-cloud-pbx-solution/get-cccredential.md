@@ -10,17 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: 'L’applet de commande Get-CcCredential renvoie les informations du déploiement de la version Cloud Connector de Skype Entreprise. '
-ms.openlocfilehash: 4d8c9d95b9de0930e0c332f419f00947ca271821
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cff2ba89f7ebf3151a92a753e4dc6adc490dde05
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569993"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
 L’applet de commande Get-CcCredential renvoie les informations du déploiement de la version Cloud Connector de Skype Entreprise.  
   
-Avec la Version 2.0 et versions ultérieures, vous pouvez également utiliser le paramètre - DisplayPassword pour afficher les mots de passe des BDC, DomainAdmin et VMAdmin.
+Avec la Version 2.0 et versions ultérieures, vous pouvez également utiliser le paramètre - DisplayPassword pour afficher les mots de passe pour associer, DomainAdmin et VMAdmin.
   
 ```
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
@@ -53,15 +54,14 @@ $bstr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($password);
 $text = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($bstr);
 [System.Runtime.InteropServices.Marshal]::ZeroFreeBSTR($bstr);
 Write-Host $text
-
 ```
 
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
-|**Paramètre**|**Obligatoire**|**Type de**|**Description**|
+|**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |Obligatoire  <br/> | System.String <br/> | AccountType valeur peut être une des opérations suivantes : <br/>  VmAdmin : l’administrateur local de machines virtuelles de connecteur de nuage. <br/>  DomainAdmin : L’administrateur de domaine du domaine de machine virtuelle de Cloud Connector. <br/>  SafeModeAdmin : SafeModeAdmin du contrôleur de domaine de machine virtuelle de Cloud Connector. <br/>  ExternalCert : Compte du certificat externe installé sur le serveur Edge. <br/>  TenantAdmin : Administrateur du client O365. <br/> |
+| AccountType <br/> |Obligatoire  <br/> | System.String <br/> | AccountType valeur peut être une des options suivantes : <br/>  VmAdmin : l’administrateur local d’ordinateurs virtuels de nuage connecteur. <br/>  DomainAdmin : L’administrateur de domaine du domaine de machine virtuelle de Cloud Connector. <br/>  SafeModeAdmin : SafeModeAdmin du contrôleur de domaine de machine virtuelle de Cloud Connector. <br/>  ExternalCert : Compte du certificat externe installé sur le serveur Edge. <br/>  TenantAdmin : Administrateur du client O365. <br/> |
    
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>
@@ -76,6 +76,6 @@ L’applet de commande Get-CcCredential renvoie une instance de l’objet System
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Ensemble-CcCredential](set-cccredential.md)
+[Set-CcCredential](set-cccredential.md)
   
 

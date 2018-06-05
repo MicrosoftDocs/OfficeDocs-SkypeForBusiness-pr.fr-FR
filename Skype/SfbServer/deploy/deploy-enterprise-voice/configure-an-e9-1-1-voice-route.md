@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configurer les itinéraires de communications vocales E9-1-1 dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: c31ac7c264fb931c127375eca5a383d10998c3f1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b61b77fce36e0415d9c6f1189d8ecf2a5659d2f9
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568227"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server-2015"></a>Configuration d’un itinéraire des communications vocales E9-1-1 dans Skype Entreprise Server 2015
  
@@ -49,7 +50,6 @@ Pour déployer E9-1-1, vous devez d’abord configurer un itinéraire des commun
     
    ```
    New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
-
    ```
 
 5. Si vous le souhaitez, pour les connexions de jonction SIP, nous vous recommandons d’exécuter la cmdlet suivante pour créer un itinéraire local pour les appels qui ne sont pas gérés par la jonction SIP du fournisseur de services E9-1-1. Cet itinéraire est utilisé si la connexion au fournisseur de services E9-1-1 n’est pas disponible. 

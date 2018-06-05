@@ -9,18 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: 'Résumé : Découvrez le RTPC conférence récapitulatif dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 1897b6ebf25e4de4f60af91d76ada539ea3561f9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez les conférences rapport de synthèse PSTN dans Skype pour Business Server 2015.'
+ms.openlocfilehash: cda98ec62d8f59992f028cd9189e5f696ffaf2ac
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569291"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server-2015"></a>Rapport de synthèse des conférences RTC dans Skype Entreprise Server 2015
  
-**Résumé :** Obtenir des informations sur le RTPC conférence récapitulatif dans Skype pour Business Server 2015.
+**Résumé :** Découvrez la conférence rapport de synthèse PSTN dans Skype pour Business Server 2015.
   
-Dans Skype pour Business Server 2015, une conférence PSTN est toute conférence dans laquelle au moins un participant se connecte à la partie audio par un à l’aide d’un téléphone RTPC (réseau téléphonique public commuté). (Un téléphone RTC est « fixe », un téléphone cellulaire ou tout autre numéro de téléphone qui ne fait pas l’utilisation de la voix sur IP.) Bien qu’appelée conférences RTPC dans les rapports de surveillance, ces conférences sont peut-être plus couramment des conférences à distance.
+Skype pour Business Server 2015, une conférence PSTN est toute conférence dans laquelle au moins un participant se connecte à la partie audio à l’aide d’un téléphone PSTN (réseau téléphonique commuté). (Un téléphone RTC est « fixe », un téléphone cellulaire ou un autre téléphone qui n’a aucune utilisation de la voix sur IP.) Bien qu’appelées conférences PSTN dans les rapports de surveillance, ces conférences sont peut-être plus communément appelés à des conférences.
   
 Le rapport de synthèse de conférence RTC fournit des informations sur toutes les conférences RTC qui ont lieu au sein de votre organisation (c’est-à-dire, toutes les conférences comportant au moins un utilisateur connecté). Ce rapport comprend des informations sur le nombre total de conférences RTC, le nombre total de personnes ayant participé à ces conférences, et, peut-être plus important, le nombre total d’utilisateurs connectés (la mesure Nombre total de participants RTC).
   
@@ -30,9 +31,9 @@ Le rapport de synthèse de conférence RTC est accessible uniquement à partir d
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Utilisation efficace du rapport de synthèse de conférence RTC
 
-Pour déterminer le pourcentage de toutes vos conférences qui incluent des utilisateurs d’accès distant, comparez la valeur de la métrique de conférences RTPC Total avec la métrique de conférences Total disponible sur le [Rapport de synthèse de conférence dans Skype pour Business Server 2015](conference-summary-report.md).
+Pour déterminer le pourcentage de toutes vos conférences qui incluent des utilisateurs d’accès distant, comparez la valeur de la mesure de conférences PSTN totale avec la mesure nombre Total de conférences que qui se trouvée dans le [Rapport de synthèse de conférence dans Skype pour Business Server 2015](conference-summary-report.md).
   
-Si les conférences RTC que vous vous attendiez à voir ne s’affichent pas, n’oubliez pas que la possibilité d’organiser une conférence qui autorise les utilisateurs connectés dépend de la stratégie de conférence affectée à un utilisateur : si peu d’utilisateurs sont autorisés à organiser des conférences RTC, vous verrez peu de conférences RTC. Vous pouvez rapidement vérifier qui de vos stratégies de conférence (le cas échéant) permettent aux utilisateurs de planifier des conférences de RTPC en exécutant la commande suivante dans la Skype pour Business Server Management Shell :
+Si les conférences RTC que vous vous attendiez à voir ne s’affichent pas, n’oubliez pas que la possibilité d’organiser une conférence qui autorise les utilisateurs connectés dépend de la stratégie de conférence affectée à un utilisateur : si peu d’utilisateurs sont autorisés à organiser des conférences RTC, vous verrez peu de conférences RTC. Vous pouvez vérifier rapidement qui de vos stratégies de conférence (le cas échéant) permettent aux utilisateurs de planifier des conférences PSTN en exécutant la commande suivante à partir de la Skype pour Business Server Management Shell :
   
 ```
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
@@ -40,7 +41,7 @@ Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
 Des données semblables à ceci sont renvoyées :
   
-```
+<pre>
 Identity                                EnableDialInConferencing
 --------                                ------------------------
 Global                                                      True
@@ -48,8 +49,7 @@ site:Redmond                                               False
 site:Dublin                                                False
 Tag:RedmondDialInUsers                                      True
 Tag:DublinDialInUsers                                       True
-
-```
+</pre>
 
 ## <a name="filters"></a>Filtres
 
@@ -57,7 +57,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de synthèse des conférences RTC.
   
-**Filtres de rapport de synthèse de conférence PSTN**
+**Filtres du rapport de synthèse de conférence PSTN**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -69,7 +69,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 Le tableau qui suit répertorie les informations fournies dans le rapport de synthèse des conférences RTC
   
-**Métrique de rapport de synthèse de conférence PSTN**
+**Mesures du rapport de synthèse de conférence PSTN**
 
 |**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
