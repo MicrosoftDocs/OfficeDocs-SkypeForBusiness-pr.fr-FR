@@ -62,6 +62,7 @@
 # Applications et services
 ## [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md)
 ## [Ajouter des bots à des conversations et des canaux privés dans Microsoft Teams](add-bots.md)
+## [Gérer le magasin d’applications privé équipes](private-app-store-teams.md)
 ## [Utiliser les onglets intégrés et personnalisés dans Microsoft Teams](built-in-custom-tabs.md)
 ## [Utiliser des connecteurs Office 365 et personnalisés dans Microsoft Teams](office-365-custom-connectors.md)
 ## [Utiliser T-Bot pour aider les utilisateurs à utiliser Microsoft Teams](t-bot.md)
