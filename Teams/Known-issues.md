@@ -10,11 +10,12 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: 420e303ebd517a472dcd3bcde1004acf44ca2dc3
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569899"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
   
@@ -99,6 +100,10 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Les utilisateurs sur site de Skype Entreprise ne reçoivent pas mes messages  <br/> |Les messages ne sont pas acheminés lorsque les utilisateurs de Microsoft Teams essayent d'envoyer un message à une autre personne qui utilise Skype Entreprise sur site. <br/> | L'interopérabilité entre Teams et les utilisateurs hébergés sur Skype Entreprise Online est prise en charge. Les utilisateurs de Teams peuvent envoyer des conversations en tête-à-tête à des personnes qui n’utilisent pas Teams à l'aide de Skype Entreprise Online. <br/> L'interopérabilité entre Teams et les utilisateurs hébergés sur Skype Entreprise sur site n'est pas prise en charge. Les utilisateurs de Teams ne peuvent pas envoyer de conversations en tête à tête à des utilisateurs qui utilisent Skype Entreprise sur site. <br/> |02.11.2016  <br/> |
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Skype pour l’interopérabilité d’entreprise et les équipes <br/> |Une fois que les utilisateurs sont mis à niveau vers les équipes qu’ils ne peut pas fermer le client d’équipes, puis utilisez le Skype pour client d’entreprise de la même manière qu’avant la mise à niveau pour les équipes. <br/> | Une fois que les utilisateurs ont mis à niveau pour les équipes auxquelles ils doivent avoir les équipes et Skype pour des clients ouvrent en même temps ou uniquement ont le client équipes. Ils doivent éviter d’avoir uniquement la Skype pour client Business open, sinon les messages seront dirigés vers la messagerie.<br/> |05/01/18  <br/> |
 
 ## <a name="client"></a>Client
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
