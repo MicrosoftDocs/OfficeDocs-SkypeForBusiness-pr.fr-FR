@@ -16,18 +16,19 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 312a008c85acb5067f0198e7a1b0a88cbbced8b5
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 7a572689575a708707aeca3eb963d5eb7d864594
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568270"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Activation ou désactivation de l'autorisation de préchargement de contenu pour les réunions à l'aide d'Outlook
 
-Les utilisateurs peuvent précharger contenu, les fichiers ou les pièces jointes associées à une invitation à une réunion Outlook à un Skype pour une réunion commerciale en ligne, mais vous pouvez activer ou désactiver. Il est activé par défaut pour toutes les organisations qui utilisent Skype pour l’activité en ligne. Découvrez comment [Préchargement des pièces jointes pour une réunion Skype Entreprise](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
+Les utilisateurs peuvent précharger contenu, des fichiers ou des pièces jointes qui sont liées à une invitation de réunion Outlook à un Skype pour une réunion en ligne Business, mais vous pouvez activer ou désactiver. Il est activé par défaut pour toutes les organisations qui utilisent Skype pour Business Online. Découvrez comment [Préchargement des pièces jointes pour une réunion Skype Entreprise](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
   
 > [!NOTE]
-> Actuellement, aucun applets de commande ne sont disponibles dans Skype pour Business Online pour définir ou afficher des valeurs en ligne pour _MaxContentStorageMB_ et _MaxUploadFileMB_. Elles ne sont disponibles que pour les déploiements locaux. Il est important de savoir que le contenu ne seront pas téléchargé à une réunion si le contenu joint dépasse le _MaxUploadFileSizeMB_ ou le _MaxContentStorageMB_ est atteint.
+> Actuellement, aucune des applets de commande ne sont disponibles dans Skype pour Business en ligne pour le paramètre ou l’affichage de valeurs en ligne pour _MaxContentStorageMB_ et _MaxUploadFileMB_. Elles ne sont disponibles que pour les déploiements locaux. Il est important de savoir que le contenu ne seront pas téléchargé à une réunion si le contenu joint dépasse le _MaxUploadFileSizeMB_ ou si la limite _MaxContentStorageMB_ est atteinte.
   
 ## <a name="to-get-you-started"></a>Pour commencer
 
@@ -56,34 +57,21 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
     > [!NOTE]
     > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
   
-> 
-  ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
-  ```
+```
+Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+$credential = Get-Credential
+$session = New-CsOnlineSession -Credential $credential
+Import-PSSession $session
+```
 
-> 
-  ```
-  $credential = Get-Credential
-  ```
-
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
-  Import-PSSession $session
-  ```
-
-Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [connexion à Skype pour entreprise en ligne à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Connecting to Skype pour Business Online à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 ## <a name="turning-it-on-or-off"></a>Activation ou désactivation des applications intégrées
 
-Possibilité de précharger le contenu associé à une invitation à une réunion Outlook à Skype pour les réunions d’entreprise en ligne est activé par défaut, mais vous devrez peut-être empêcher les utilisateurs de votre organisation de précharger le contenu de leurs réunions.
+Pouvoir précharger contenu attaché à une invitation de réunion Outlook à Skype pour les réunions en ligne Business est activée par défaut, mais vous devrez peut-être empêcher les utilisateurs de votre organisation de précharger le contenu de leurs réunions.
   
 > [!IMPORTANT]
-> Ce paramètre ne peut être activé ou non pour l’ensemble de votre organisation ; Vous ne pouvez pas l’activer ou la désactiver pour un seul utilisateur. 
+> Ce paramètre uniquement peut être activé ou désactivé pour l’ensemble de votre organisation ; Vous ne pouvez pas activer ou désactiver pour un seul utilisateur. 
   
  **Pour le désactiver, ouvrez Windows PowerShell et procédez comme suit :**
   
@@ -99,7 +87,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-- Windows PowerShell permet de gérer les utilisateurs et ce qu'ils sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
