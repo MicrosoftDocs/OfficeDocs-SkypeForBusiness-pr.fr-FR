@@ -73,6 +73,7 @@
 ## [Utilisation d'un appel sortant pour permettre à d'autres personnes de participer à une réunion](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils rejoignent une réunion](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Activer ou désactiver les annonces d'entrée et de sortie de réunions](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Enregistrement de la réunion équipes sur le nuage](cloud-recording.md)
 ## [Utiliser le complément Réunion Teams dans Outlook](teams-add-in-for-outlook.md)
 ## [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 

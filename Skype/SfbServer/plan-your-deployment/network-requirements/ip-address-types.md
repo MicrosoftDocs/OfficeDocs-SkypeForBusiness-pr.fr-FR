@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Résumé : Passez en revue les considérations de type d’adresse IP ci-dessous avant d’implémenter Skype pour Business Server 2015.'
-ms.openlocfilehash: d94995e75ecbb4df973a01ebfa5f00ed91575c19
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: adebab15a0c10310b25af30f6e933625df61dc3d
+ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19630146"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configuration des types d’adresse IP dans Skype Entreprise
  
@@ -78,20 +79,15 @@ Vous déployez des types d’adresses IP à l’aide des paramètres de topologi
     > [!NOTE]
     > L’installation de cartes réseau supplémentaires pour prendre en charge la configuration d’adresse IP PSTN sur des serveurs de médiation autonomes n’est pas pris en charge. Pour plus d’informations sur les configurations de carte réseau pris en charge pour Skype pour Business Server, voir [plateformes matérielles de serveur pour Lync Server 2013](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx). 
   
-## <a name="deploy-ip-address-types-on-a-edge-server"></a>Déploiement des types d’adresse IP sur un serveur Edge
+## <a name="deploy-ip-address-types-on-an-edge-server"></a>Déploiement des types d’adresse IP sur un serveur Edge
 
-À l’aide du Générateur de topologie, effectuez les étapes de la procédure suivante pour déployer des types d’adresses IP sur un serveur Edge.
+À l’aide du Générateur de topologie, procédez comme suit :
   
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>Pour déployer des types d’adresses IP sur un serveur Edge
 
 1. Dans le Générateur de topologie, sous **pools de serveurs Edge**, cliquez sur le serveur au sein d’un pool, puis sélectionnez **Modifier les propriétés**. (Vous pouvez également sélectionner le serveur, puis cliquer sur **Modifier les propriétés** à partir du menu **Action**.)
     
-2. Dans la fenêtre **Modifier les propriétés**, sélectionnez la configuration d’adresse IP à prendre en charge. Les figures suivantes illustrent une configuration double pile pour l’interface interne et l’interface externe.
-    
-   **À double pile interface interne du serveur Edge**
-
-   **Double interface externe Edge Server empilée**
+2. Dans la fenêtre **Modifier les propriétés**, sélectionnez la configuration d’adresse IP à prendre en charge.    
 
 3. Pour chaque type d’adresse sélectionné, vous devez fournir des adresses internes et externes appropriées.
     
-

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Résumé : Passez en revue les considérations de l’utilisation du port avant d’implémenter Skype pour Business Server 2015.'
-ms.openlocfilehash: 576b0247631e4f01909acb717e12efbb954d5cb0
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 9f47cf2f04db02765f9693b1128fe1f9440b59e6
+ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546591"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19630153"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Ports et protocoles requis pour les serveurs
  
@@ -30,6 +30,9 @@ Skype pour Business Server nécessite que les pare-feu internes et externes des 
 Alors que cela peut sembler un bit complexe dans un premier temps, l’essentiel pour la planification de ce peut être effectuée à l’aide de la [Skype pour l’outil de planification de Business Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725). Une fois que vous avez vérifié les questions de l’Assistant sur les fonctionnalités que vous prévoyez d’utiliser, pour chaque site que vous définissez vous pouvez afficher le rapport de pare-feu dans le rapport et utiliser les informations pour créer des règles yourfirewall répertoriées. Vous pouvez également ajuster à la plupart des noms et des adresses IP utilisées, pour plus d’informations consultez [examen du rapport de pare-feu](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Gardez en vous pouvez exporter le rapport vers une feuille de calcul Excel, et le rapport de pare-feu sera une des feuilles de calcul dans le fichier. 
   
 Vous trouverez également les informations dans ces tables sous forme de diagramme en examinant le poster des charges de protocole lié déconnecte l’article [Technical diagrams pour Skype pour Business Server 2015](../../technical-diagrams.md) .
+> [!NOTE]
+> - Skype pour les utilisateurs professionnels Online doit faire référence à [Office 365 URL et plages d’adresses IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). 
+> - Vous peut avoir des pare-feu matériels ou logiciels, nous ne nécessitent pas de modèles spécifiques ou des versions. Important est quels ports sont autorisés pour le pare-feu ne nuit au fonctionnement de Skype pour Business Server.
   
 ## <a name="port-and-protocol-details"></a>Détails sur les ports et protocoles
 
