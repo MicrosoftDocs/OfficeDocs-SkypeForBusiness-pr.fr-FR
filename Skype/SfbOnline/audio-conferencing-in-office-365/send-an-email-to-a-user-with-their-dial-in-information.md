@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envoyer à vos utilisateurs un message électronique avec leurs informations de conférence audio.
-ms.openlocfilehash: 0ac6aa097b9c34c23c27afb2e99e4e40e3f587c8
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 363c2ada59dfc0e61944e032d19f6d47a2d30343
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703393"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio
 
@@ -38,6 +39,9 @@ Parfois Skype pour les utilisateurs d’entreprise ou Microsoft Teams deviez vou
 Voici un exemple du courrier électronique qui est envoyé :
   
 ![Courrier électronique de conférence rendez-vous](../images/audio-conferencing-info.png)
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Envoyer un message électronique avec les informations de conférence audio à un utilisateur
 
@@ -46,10 +50,6 @@ Voici un exemple du courrier électronique qui est envoyé :
 1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2. En haut de la page, cliquez sur **Modifier**.
-
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 

@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: 318e24bf30563d0a790584f9c1ccceb01d93c793
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 16b6a34e5de790964f5472cb2ef598eebf4f838f
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703817"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>Définir la longueur du code confidentiel pour les réunions de conférence Audio
 
 Lorsque vous configurez des services d’audioconférence pour Skype pour Microsoft Teams ou de l’entreprise, vous obtiendrez un pont de conférence audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone. Le numéro de téléphone que vous avez sera inclus dans les invitations de réunion Skype pour les applications métiers et Teams Microsoft.
   
 Le pont de conférence audio répond à un appel pour les personnes qui sont connectent à une réunion à l’aide d’un téléphone. Il répond à l’appelant à invites vocales à partir d’un standard automatique, puis, en fonction de vos paramètres, peut lire des notifications et poser aux appelants à enregistrer leur nom. **Paramètres de pont de Microsoft** permettent de modifier les paramètres des notifications de réunion et la réunion expérience de participation aux et définir la longueur des codes confidentiels qui sont utilisés par les organisateurs de réunion. Organisateurs de réunion utilisent broches pour démarrer les réunions si elles ne peuvent pas participer à la réunion à l’aide de la Skype pour l’application Microsoft Teams ou de l’entreprise.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-the-pin-length"></a>Définir la longueur du code confidentiel
 
@@ -53,9 +57,6 @@ Le pont de conférence audio répond à un appel pour les personnes qui sont con
 > [!NOTE]
 > Un code confidentiel est différent d'un ID de conférence. Les ID de conférence sont utilisés par les appelants lorsqu'ils rejoignent la réunion. Ils permettent d'identifier la réunion. Le code confidentiel est utilisé pour authentifier un appelant en tant qu'organisateur de la réunion. 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## <a name="want-to-know-more-about-pin-settings"></a>Vous souhaitez en savoir plus sur les paramètres de code confidentiel ?
 
 - Codes confidentiels peuvent être de 4 à 12 chiffres ; la valeur par défaut est 5. Seuls des chiffres doivent être utilisés lors de la création de codes confidentiels. Les lettres et les caractères spéciaux ne sont pas autorisés.

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Lorsque vous achetez des licences de services d’audioconférence, Microsoft héberge votre pont de conférence audio pour votre organisation. Le pont de conférence audio donne les numéros de téléphone à partir de différents emplacements si bien que les organisateurs de réunion et les participants peuvent les utiliser pour joindre Skype pour les réunions Microsoft Teams ou de l’entreprise à l’aide d’un téléphone.
-ms.openlocfilehash: 0eceff97470bf6c0df6b0818734955ebf71d0f76
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 1801a3501e865ca91081a0e298efc45882a872eb
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568362"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703647"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone sur le pont de conférence Audio
 
@@ -35,13 +35,13 @@ Outre les numéros de téléphone déjà affectés à votre pont de conférence,
   
 > [!NOTE]
 > Pour pouvoir affecter/annuler l’affectation d’un numéro de téléphone pour un pont de conférence, le numéro de téléphone doit être un nombre de «*service*». Vous pouvez voir le type de numéro en accédant à **voix** > de**numéros de téléphone** et de recherche dans la colonne **Type de numéro** . Office 365 Communications crédits doit être définies en premier pour que les utilisateurs composer le numéro gratuit bridge. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Procédure d'affectation d'un nouveau numéro de téléphone de service à votre pont de conférence
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Étape 1 : attribuer le numéro de téléphone à votre pont de conférence audio
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel.
     

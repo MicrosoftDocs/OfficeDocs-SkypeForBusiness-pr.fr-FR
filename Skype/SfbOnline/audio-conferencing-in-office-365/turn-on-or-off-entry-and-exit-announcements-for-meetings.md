@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: 8c2eee6d9a6631fa9ade4e3f1dc4b54b74ea4465
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 18b22e5491b67b6f4ec3f089803bcfb5e486eb14
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703453"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Activer ou désactiver les annonces d'entrée et de sortie des réunions
 
 Lorsque vous configurez les services d’audioconférence dans Office 365, vous obtenez un pont de conférence audio. Un pont de conférence peut contenir un ou plusieurs numéros de téléphone qui utiliseront des personnes à appeler un Skype de réunion Microsoft Teams ou de l’entreprise. 
   
 Le pont de conférence répond à un appel d’un utilisateur qui est qui se connectent à une réunion à l’aide d’un téléphone. Le pont de conférence répond à l’appelant à invites vocales à partir d’un standard automatique de conférence et, en fonction de vos paramètres, peut diffuser les notifications, poser aux appelants à enregistrer leur nom et configurer la sécurité du code confidentiel. Un code confidentiel est attribué à un Skype pour l’organisateur de réunion Microsoft Teams ou de l’entreprise, et vous permet de démarrer une réunion si elles ne peut pas démarrer la réunion à l’aide d’un Skype pour l’application Microsoft Teams ou de l’entreprise. Vous pouvez, toutefois, l’afin qu’un code confidentiel n’est pas nécessaire de démarrer une réunion.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>Définir les options de participation à une réunion
 
@@ -60,8 +64,6 @@ Le pont de conférence répond à un appel d’un utilisateur qui est qui se con
     
 5. Une fois que vous avez effectué vos modifications, cliquez sur **Enregistrer**.
     
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 

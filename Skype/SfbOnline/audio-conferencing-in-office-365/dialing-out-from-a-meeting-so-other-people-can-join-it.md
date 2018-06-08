@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 66cf9e662231a9afefe605649e8bae0d4652713b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 31d81b1a61838d4fcb8151ef467b14a9c1240c4b
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703383"
 ---
 # <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a>Utilisation d'un appel sortant pour permettre à d'autres personnes de participer à une conférence
 
@@ -33,6 +34,9 @@ ms.lasthandoff: 05/03/2018
 - Vous ne pouvez passer un appel sortant que si vous participez à une réunion par le biais d'un client Skype Entreprise.
     
 - En tant qu'organisateur de la réunion, vous avez été activé pour la conférence rendez-vous.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
  **Étape 1 :** dans l'invitation à la réunion, vous pouvez utiliser l'option **Inviter plus de personnes** pour composer un numéro de téléphone.
   

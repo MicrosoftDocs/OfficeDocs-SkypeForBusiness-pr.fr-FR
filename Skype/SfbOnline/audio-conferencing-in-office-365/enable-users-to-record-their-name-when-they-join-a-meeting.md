@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable whether your users can record their names when they join a meeting '
-ms.openlocfilehash: 5fee4905c52ff46aab44f0d0647355839278b216
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 940d4eefb6a997b03bb25fc558faf15ce9edb507
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546483"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703493"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils participent à une réunion
 
@@ -33,7 +33,7 @@ Lorsque vous configurez les services d’audioconférence dans Office 365, vous 
   
 Le pont de conférence répond à un appel d’un utilisateur qui est qui se connectent à une réunion à l’aide d’un téléphone. Le pont de conférence répond à l’appelant à invites vocales à partir d’un standard automatique et, en fonction de leurs paramètres, peut diffuser les notifications, poser aux appelants à enregistrer leur nom et configurer la sécurité du code confidentiel pour les organisateurs de réunions. Codes confidentiels accordées aux organisateurs de réunions pour pouvoir démarrer une réunion. Toutefois, vous pouvez configurer il afin d’un code confidentiel n’est pas nécessaire pour démarrer une réunion.
 
-> [!Note]
+> [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Définir si les appelants doivent enregistrer leur nom

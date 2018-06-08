@@ -20,15 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez les étapes pour attribuer un ID de conférence et de licence de conférence rendez-vous à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 7a5f82a827049f591d012af7f752e26ac4f9d87b
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 26d80b71344227aeaec7089e2bb9f9a9dfe32ad2
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703667"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Gestion des paramètres de conférence rendez-vous de mon organisation
 
 [] Il peut être préférable d'afficher tous les paramètres de conférence rendez-vous à un seul endroit. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="assign-an-audio-conferencing-license"></a>Affecter une licence de conférence rendez-vous
 

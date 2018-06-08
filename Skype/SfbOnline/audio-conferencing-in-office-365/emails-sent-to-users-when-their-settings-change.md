@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: 47225eff4d7d8bd091b2b7ba9d795c600cbd4b0e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4766f8f236cbe94b11660165b8659a892d301285
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703433"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>Messages électroniques envoyés aux utilisateurs lorsque vous modifient leurs paramètres
 
@@ -77,6 +78,9 @@ Par défaut, il existe quatre types de courrier électronique qui sera envoyé �
     
      ![La fonctionnalité Conférence rendez-vous est désactivée.](../images/audio-conferencing-turned-off.png)
   
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Modifier les courriers électroniques qui leur sont envoyés
 
 Vous pouvez modifier le message électronique qui est envoyé automatiquement aux utilisateurs, y compris l’adresse de messagerie et le nom complet qui est inclus dans les informations de contact *à partir de* . Par défaut, l’expéditeur des e-mails sera d’Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom complet à l’aide de Windows PowerShell et l’applet de commande [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . Pour apporter des modifications à l’adresse de messagerie qui envoie le courrier électronique aux utilisateurs, vous devez :
