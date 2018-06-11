@@ -16,27 +16,28 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: Que les personnes de votre organisation puissent utiliser la diffusion de réunion Skype, vous devez l’activer. Pour ce faire, vous devez savoir comment utiliser Windows PowerShell. Si vous ne connaissez pas Windows PowerShell, envisagez de demander l'aide d'un partenaire Microsoft pour effectuer cette étape pour vous.
-ms.openlocfilehash: 847630e92d0a8ea26edcc7bb70213ee9f932517d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Avant que les personnes dans votre organisation puissent utiliser la diffusion de réunion Skype, vous devez l’activer. Pour ce faire, vous devez savoir comment utiliser Windows PowerShell. Si vous ne connaissez pas Windows PowerShell, envisagez de demander l'aide d'un partenaire Microsoft pour effectuer cette étape pour vous.
+ms.openlocfilehash: 2564cf8acc809cb3b3973519bfea3518c851eb34
+ms.sourcegitcommit: 0fa147c33b1d7b5790af8d93339700ab62939430
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19744260"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Activer une diffusion de réunion Skype
 
-Que les personnes de votre organisation puissent utiliser la diffusion de réunion Skype, vous devez l’activer. Pour ce faire, vous devez savoir comment utiliser Windows PowerShell. Si vous ne connaissez pas Windows PowerShell, envisagez de demander l'aide d'un [partenaire Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) pour effectuer cette étape pour vous.
-  
-> [!CAUTION]
-> Diffusion de réunion Skype est désactivée par défaut car la distribution du contenu multimédia d’une réunion de diffusion utilise un réseau de livraison de contenu (CDN de Microsoft Azure) pour atteindre une échelle très élevée pour la prise en charge des milliers de personnes Assistant à une diffusion. Le contenu du média mémorisé en bloc passant par le CDN est crypté, et le cache CDN a une durée de vie limitée. En outre, le composant Azure CDN ne répondent pas encore aux tous les éléments des Clauses de modèle de l’Union européenne qui découlent de la Directive de Protection des données de l’Union européenne. En activant cette fonctionnalité, vous reconnaissez cet avis. 
+Avant que les personnes dans votre organisation puissent utiliser la diffusion de réunion Skype, vous devez l’activer. Pour ce faire, vous devez savoir comment utiliser Windows PowerShell. Si vous ne connaissez pas Windows PowerShell, envisagez de demander l'aide d'un [partenaire Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) pour effectuer cette étape pour vous.
+
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Activer la diffusion de réunion Skype au moyen du Centre d'administration de Skype Entreprise
+
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
 1. Connectez-vous à l'aide de votre compte d'administrateur général Office 365 sur [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     
 2. Dans le Centre d'administration Office 365, accédez à **Centres d'administration** > **Skype Entreprise**.
     
-3. Dans le **Skype pour Business admin center**, accédez à **des réunions en ligne** > **réunions de diffusion**, puis sélectionnez **Activer la diffusion de réunion Skype**.
+3. Dans la **Skype entreprise centre d’administration**, accédez à **des réunions en ligne** > **réunions de diffusion**, puis sélectionnez **Activer la diffusion de réunion Skype**.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Activer la diffusion de réunion Skype avec PowerShell
 
