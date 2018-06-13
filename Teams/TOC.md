@@ -259,7 +259,7 @@
 ### [Didacticiel : Créer une équipe à l’échelle de l'entreprise avec PowerShell](company-wide-team-creation-powershell.yml)
 
 ## Gérer
-### [Permettent aux utilisateurs de communiquer avec d’autres personnes](let-your-teams-users-communicate-with other-people.md)
+### [Permettent aux utilisateurs de communiquer avec d’autres personnes](let-your-teams-users-communicate-with-other-people.md)
 ### [Qualité de consulter le Guide de l’expérience](quality-of-experience-review-guide.md)
 ### [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
 ### [Outils et ateliers : planifier, fournir et utiliser Teams](planning-workshop-practical-guide.md)
