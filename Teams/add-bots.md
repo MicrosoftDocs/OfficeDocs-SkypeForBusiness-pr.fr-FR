@@ -10,18 +10,19 @@ ms.reviewer: lucarras
 description: Découvrez comment ajouter des bots dans Microsoft Teams pour des conversations et des canaux privés, créer des bots personnalisés et charger une version test de votre propre bot pour une conversation privée.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50abaf5e6fb15451bfa1695ab2a16e0ce1747232
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 08417f4aafae8c7fd844cb253a889b833d0e6266
+ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19856027"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Ajouter des bots à des conversations et des canaux privés dans Microsoft Teams
 ==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Les robots sont des programmes automatisés qui répondent aux requêtes ou donnent des mises à jour et notifications relatives aux utilisateurs de détails intéresser ou souhaitez rester informé sur. Robots permettent aux utilisateurs d’interagir avec les services cloud tels que de la gestion des tâches, la planification et de l’interrogation, par le biais des conversations dans Teams de Microsoft. Robots de Teams de Microsoft sont appuient sur le [Framework de robots de Microsoft](https://go.microsoft.com/fwlink/?linkid=854370). Les robots sont développés à l’aide de cette infrastructure peuvent être activés facilement pour Teams de Microsoft. Pour plus d’informations, consultez [fonctionnalités de gérer des équipes de Microsoft dans votre organisation d’Office 365](enable-features-office-365.md).
+Robots sont des programmes automatisés qui répondent aux requêtes ou donnent des mises à jour et les notifications relatives aux utilisateurs de détails intéresser ou doit rester informés. Robots permettent aux utilisateurs d’interagir avec les services de cloud comme la gestion de la tâche, la planification et l’interrogation, par le biais des conversations dans Microsoft Teams. Robots pour Teams Microsoft reposent sur l' [Infrastructure de robot de Microsoft](https://go.microsoft.com/fwlink/?linkid=854370). Robots qui sont développées à l’aide de cette infrastructure peuvent être facilement activés pour Microsoft Teams. Pour plus d’informations, voir [fonctionnalités de gestion des équipes Microsoft dans votre organisation Office 365](enable-features-office-365.md).
 
 Actuellement, Microsoft Teams prend en charge les bots dans les conversations et canaux privés dans une équipe. Les administrateurs peuvent contrôler l'autorisation ou l'interdiction de l'utilisation de bots dans le client Office 365.<span id="_T-Bot" class="anchor"></span>
 
@@ -44,7 +45,7 @@ Les bots peuvent être testés à l'aide de l'[émulateur Bot Framework](https:/
 <a name="side-load-your-own-bot-for-private-chat"></a>Chargement de version test de votre propre bot pour une conversation privée
 ---------------------------------------
 
-1.  Après avoir créé votre bot, accédez à la [page](https://go.microsoft.com/fwlink/?linkid=854374) de **tableau de bord** du bot que vous avez développé et sous **Détails**, copiez l **ID d’application Microsoft**.![Capture d'écran de la page détaillée d'un bot avec l'ID d'application Microsoft mis en évidence.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png) 
+1. Après avoir créé votre robot, les **Paramètres de l’Application** pour le composant WebBot que vous avez développé, puis sous **paramètres de l’application**, copiez la valeur du paramètre **MicrosoftAppId** . ![Page de paramètres de capture d’écran de l’Application pour un robot avec l’ID d’application de Microsoft en surbrillance.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
 
 
