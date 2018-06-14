@@ -11,10 +11,10 @@ description: Liste actuelle des problèmes connus pour l'application client et l
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
-ms.sourcegitcommit: 1b4e93727f65b120068a74064b4144f0117f230c
+ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2018
+ms.lasthandoff: 06/14/2018
 ms.locfileid: "19691216"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams

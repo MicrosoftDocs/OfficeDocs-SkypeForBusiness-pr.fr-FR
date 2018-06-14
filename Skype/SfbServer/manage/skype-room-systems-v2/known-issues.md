@@ -8,19 +8,21 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Cet article traite des problèmes connus pour les versions de succursale Skype salle systèmes v2 actuelles.
-ms.openlocfilehash: 9214a1b198431decda70687d7e1dd3aa08069554
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: Cet article traite des problèmes connus pour v2 Skype salle systèmes, par fonctionnalité.
+ms.openlocfilehash: 2fde12d616260963dc342df2d9cef94acf616756
+ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19881541"
 ---
 # <a name="known-issues"></a>Problèmes connus 
  
 Cet article répertorie les problèmes connus pour v2 Skype salle systèmes, par fonctionnalité.
 <!-- If we get word that one of these issues no longer applies, contact meerak@microsoft.com or msmets@microsoft.com and let them know to EoL the corresponding KB  -->
 
-<a name="update"></a> ## Mise à jour 
+<a name="update"> </a>  
+## <a name="update"></a>Mise à jour 
 
 | Titre du problème |  Comportement \/ symptôme | Solution de contournement | Base de connaissances |
 |  ---        |      ---             |   ---            | --- |
@@ -53,14 +55,12 @@ Toujours utiliser une connexion de réseau 1 Gbit/s câblée afin de garantir qu
 ***
 Si votre appareil v2 de systèmes de salle Skype perd approbation avec le domaine (par exemple, si vous supprimez le v2 Skype salle systèmes du domaine une fois qu’il est joint au domaine), vous ne pourrez pas s’authentifier sur le périphérique et ouvrir des paramètres. La méthode de contournement consiste à vous connecter avec le compte d’administrateur local. 
 ***
-La version 64 bits de l’édition entreprise anniversaire de mariage 10 Windows (en anglais, version 1607) n’est plus pris en charge à partir de systèmes de salle Skype v2 version 3.0.12.0 (mise à jour 3). 
+La version 64 bits de l’édition entreprise anniversaire de mariage 10 Windows (en anglais, version 1607) n’est plus pris en charge à partir de systèmes de salle Skype v2 version 3.0.12.0. 
 ***
 
 <a name="See"> </a>  
 ## <a name="see-also"></a>Voir aussi
 
-
-#### 
 [Systèmes de salle Skype version 2](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Gérer les salles Skype systèmes v2](skype-room-systems-v2.md)

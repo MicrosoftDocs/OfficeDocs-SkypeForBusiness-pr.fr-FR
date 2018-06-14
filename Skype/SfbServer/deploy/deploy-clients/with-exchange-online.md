@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Exchange Online.
-ms.openlocfilehash: 0db23128f0e472ba1e928fafd274a67f063cf2e0
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: bb9f236db41b4eabd2dd73f2e9344f1ff3681cf7
+ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19881573"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>Déploiement de Skype Room Systems v2 avec Exchange Online (Hybride)
  
@@ -35,14 +36,12 @@ Pour déployer des systèmes de salle Skype v2 avec Exchange Online, procédez c
 
 1. Démarrer une session Windows PowerShell à distance sur un PC et se connecter à Exchange Online comme suit :
     
-  ```
-  Set-ExecutionPolicy Unrestricted
+```
+Set-ExecutionPolicy Unrestricted
 $org='contoso.microsoft.com'
 $cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/ps1-liveid/ -Credential $cred -Authentication Basic 
--AllowRedirection
-
-  ```
+$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
+```
 
 2. Après avoir établi une session, vous allez créer une nouvelle boîte aux lettres et activer comme un RoomMailboxAccount, soit modifier les paramètres d’une boîte aux lettres de salle existante. Ainsi, le compte de s’authentifier sur des systèmes de salle Skype v2.
     
@@ -107,12 +106,11 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 1. Créez une session Windows PowerShell à distance à partir d’un PC comme suit :
     
-  ```
-  Import-Module LyncOnlineConnector  
-$cssess=New-CsOnlineSession -Credential $cred  
-Import-PSSession $cssess -AllowClobber
-
-  ```
+    ```
+    Import-Module LyncOnlineConnector  
+    $cssess=New-CsOnlineSession -Credential $cred  
+    Import-PSSession $cssess -AllowClobber
+    ```
 
 2. Pour activer votre compte v2 de systèmes de salle Skype pour Skype pour Business Server 2015, exécutez cette commande :
     
@@ -143,8 +141,6 @@ Import-PSSession $cssess -AllowClobber
 Pour la validation, vous devez être en mesure d’utiliser n’importe quel Skype pour client d’entreprise pour vous connecter à ce compte.
   
 ## <a name="see-also"></a>Voir aussi
-
-#### 
 
 [Planifier la salle Skype systèmes v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
