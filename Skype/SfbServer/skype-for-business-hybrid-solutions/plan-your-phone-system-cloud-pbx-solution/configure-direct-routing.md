@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: e2f9629de713c363de02124a922b21882853d54d
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 8b132174a305e55d79b935ceec5105fcfc1fc2e6
+ms.sourcegitcommit: 6c3bf5f453188bc951e92aa26b5562bf6680d4d7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/15/2018
+ms.locfileid: "19907943"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage Direct
 
@@ -59,14 +60,14 @@ gcm *onlinePSTNGateway*
 
 Votre commande renverra les quatre fonctions indiquées ici qui vous permet de gérer les SBCs. 
 
-```
+<pre>
 CommandType    Name                       Version    Source 
 -----------    ----                       -------    ------ 
 Function       Get-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
 Function       New-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
 Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt 
 Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
-```   
+</pre>   
 
 
 ### <a name="pair-the-sbc-to-the-tenant"></a>Paire le contrôleur SBC au client 
@@ -86,7 +87,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
 ```
 Propriété renvoie :
-``` 
+<pre>
 Identity              : sbc.contoso.com 
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -96,12 +97,12 @@ ForwardPai            : False
 SendSipOptions        : True 
 MaxConcurrentSessions : 100 
 Enabled               : True   
-```
+</pre>
 Il existe des options supplémentaires qui peuvent être définies lors de l’appariement. Dans l’exemple précédent, toutefois, seulement la configuration minimale requise paramètres sont affichés. 
  
 Le tableau suivant répertorie les paramètres supplémentaires que vous pouvez utiliser dans la définition des paramètres de *New-CsOnlinePstnGateway*. 
 
-|**Obligatoire ?**|**Nom**|**Description**|**Par défaut**|**Valeurs possibles**|**Type et restrictions**|
+|Obligatoire ?|Nom|Description|Par défaut|Valeurs possibles|Type et restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Oui|FQDN|Le nom de domaine complet de le SBC |Aucun|Nom de NoneFQDN, limite 63 caractères|Chaîne, liste de caractères autorisés et non autorisés sur [les conventions d’attribution de noms dans Active Directory pour les ordinateurs, les domaines, les sites et les unités d’organisation](https://support.microsoft.com/en-us/help/909264)|
 |Non|MediaBypass |Le paramètre est réservé pour une utilisation future. Paramètre indiqué du contrôleur SBC prend en charge le contournement de média et l’administrateur souhaite l’utiliser.|Aucun|True<br/>Faux|Boléen|
@@ -129,7 +130,7 @@ La passerelle couplée doit apparaissent dans la liste, comme illustré dans l�
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 Qui retourne :
-``` 
+<pre>
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -141,7 +142,7 @@ ForwardPai            : False
 SendSipOptions        : True 
 MaxConcurrentSessions : 100 
 Enabled               : True 
-```
+</pre>
 
 #### <a name="validate-sip-options-flow"></a>Contrôler le flux d’Options SIP 
 
@@ -206,7 +207,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 Par exemple, pour ajouter un numéro de téléphone pour l’utilisateur « Spencer faible », entrez ce qui suit : 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremisLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 Le numéro de téléphone utilisé doit être configuré comme un numéro de téléphone E.164 complète avec le code de pays. 
@@ -290,7 +291,7 @@ Qui retourne une liste de noms qui peuvent être tronqués :
   Usage     : {testusage, US and Canada, International, karlUsage. . .}
 ```
 Dans l’exemple ci-dessous, vous pouvez voir le résultat de l’exécution de la commande PowerShell *`(Get-CSOnlinePSTNUsage).usage`* pour afficher les noms complets (non tronquées).    
-```
+<pre>
  testusage
  US and Canada
  International
@@ -300,7 +301,7 @@ Dans l’exemple ci-dessous, vous pouvez voir le résultat de l’exécution de 
  karlUsage2
  Unrestricted
  Two trunks
-  ```
+</pre>
 
 **Étape 2 :** Dans une session dans Skype pour Business Online PowerShell, créez des trois itinéraires : Redmond 1, Redmond 2 et autres + 1, comme indiqué dans le tableau précédent. 
 
@@ -312,7 +313,7 @@ Pour créer l’itinéraire « Redmond 1 », entrez :
   ```
 
 Qui retourne :
-```
+<pre>
 Identity                : Redmond 1
 Priority            : 1
 Description         :
@@ -322,7 +323,7 @@ OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
 Name            : Redmond 1
 SuppressCallerId    :
 AlternateCallerId   :
-```
+</pre>
 Pour créer l’itinéraire Redmond 2, entrez :
 
 ```
@@ -333,7 +334,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 Pour créer l’itinéraire de + 1 autres, entrez :
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -345,7 +346,7 @@ Dans certains cas, il est nécessaire pour acheminer tous les appels vers la mê
 - Tous les appels vers la même SBC
 
     ```
-    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern "." 
+    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" 
      -OnlinePstnGatewayList sbc1.contoso.biz
     ```
 
@@ -355,7 +356,7 @@ Valider que vous avez correctement configuré l’itinéraire en exécutant la `
 New-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 Qui doit retourner :
-```
+<pre>
 Identity            : Redmond 1 
 Priority            : 1
 Description     : 
@@ -374,11 +375,11 @@ Name            : Redmond 2
 Identity        : Other +1 
 Priority            : 4
 Description     : 
-NumberPattern       : ^\+1(425|206) (\d{7})$
+NumberPattern       : ^\\+1(\d{10})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
-```
+</pre>
 
 Dans l’exemple, l’itinéraire « Autres + 1 » a été attribué automatiquement priorité. 
 
@@ -392,12 +393,12 @@ New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 
 Le résultat est indiqué dans cet exemple :
 
-```
+<pre>
 Identity        : Tag:US only
 OnlinePstnUsages    : {US and Canada}
 Description         :
 RouteType           : BYOT
-```
+</pre>
 
 **Étape 4 :** Accorder à l’utilisateur Spence Low une stratégie de routage voix à l’aide de PowerShell.
 
@@ -411,12 +412,11 @@ RouteType           : BYOT
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 Qui retourne :
-```
-OnlineVoiceRoutingPolicy
-------------------------
-US Only
-
-```
+<pre>
+    OnlineVoiceRoutingPolicy
+    ---------------------
+    US Only
+</pre>
 
 #### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>Création d’une stratégie de routage des communications vocales avec plusieurs utilisations PSTN
 
@@ -470,7 +470,7 @@ Stratégie de routage « No Restrictions, » vocale itinéraire « Internatio
   ```
   Qui retourne :
 
-  ```
+  <pre>
   Identity                  : International 
   Priority                      : 5
   Description                   : 
@@ -480,27 +480,29 @@ Stratégie de routage « No Restrictions, » vocale itinéraire « Internatio
   Name                            : International
   SupressCallerId           :
   AlternateCallerId         :
-  ```
+</pre>
 3.  Ensuite, ne créez une stratégie de routage voix « Aucune restriction ». L’utilisation PSTN « Redmond 1 » et « Redmond » sont réutilisés dans cette stratégie de routage voix pour conserver les appels vers le numéro « +1 425 XX XXX XX » et « +1 206 XX XXX XX » comme des appels locaux ou dans les locaux de traitement particulier.
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
+```
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
+```
 
-    Notez l’ordre des utilisations PSTN :
+    Take note of the order of PSTN Usages:
 
-    a. Si un appel est effectué au numéro « + 1425 XXX XX XX » avec les utilisations configurées comme dans l’exemple suivant, l’appel suit l’itinéraire défini dans l’utilisation « Nous et Canada » et la logique de routage spéciale est appliquée. Autrement dit, l’appel est acheminé à l’aide de sbc1<span></span>. contoso.biz et sbc2<span></span>. contoso.biz premier, puis sbc3<span></span>. contoso.biz et sbc4<span></span>. contoso.biz en tant que les itinéraires de sauvegarde. 
+    a. If a call made to number “+1425 XXX XX XX” with the usages configured as in the following example, the call follows the route set in “US and Canada” usage and the special routing logic is applied. That is, the call is routed using  sbc1<span></span>.contoso.biz and sbc2<span></span>.contoso.biz first, and then  sbc3<span></span>.contoso.biz and sbc4<span></span>.contoso.biz as the backup routes. 
 
-    b.  En cas d’utilisation PSTN « International » avant « Nous et Canada », les appels vers + 1425 XXX XX XX sont routé vers sbc2<span></span>. contoso.biz et sbc5<span></span>. contoso.biz dans le cadre de la logique de routage. Entrez la commande :
+    b.  If “International” PSTN usage is before “US and Canada,” calls to + 1425 XXX XX XX are routed to sbc2<span></span>.contoso.biz and sbc5<span></span>.contoso.biz as part of the routing logic. Enter the command:
 
     ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
 
    Qui retourne
 
-   ```
+  <pre>
    Identity     : International 
    OnlinePstnUsages     : {US and Canada, International}     
    Description      :  
    RouteType        : BYOT
-   ```
+  </pre>
 
 4.  Attribuer la stratégie de routage voix à l’utilisateur « John Woods » à l’aide de la commande suivante.
 
@@ -515,11 +517,11 @@ Stratégie de routage « No Restrictions, » vocale itinéraire « Internatio
   ```
   Qui retourne :
 
-  ```
-  OnlineVoiceRoutingPolicy
-  ------------------------
-  No Restrictions
-  ```
+<pre>
+    OnlineVoiceRoutingPolicy
+    ------------------------
+    No Restrictions
+</pre>
 
 Le résultat est que la stratégie de voix appliquée aux appels de John Woods sont non restreint et doit suivre la logique de routage des appels disponible pour les États-Unis, au Canada et International appel.
 
