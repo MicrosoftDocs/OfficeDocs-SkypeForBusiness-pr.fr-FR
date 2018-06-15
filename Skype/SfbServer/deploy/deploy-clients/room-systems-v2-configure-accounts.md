@@ -12,24 +12,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
-description: Lisez cette rubrique pour en savoir plus sur la configuration des comptes pour les systèmes de salle Skype v2 dans Exchange et Skype pour Business Server 2015.
-ms.openlocfilehash: 6efd8f32a19ff54958583e11e7910fb17a882953
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+description: Lisez cette rubrique pour en savoir plus sur la configuration des comptes pour les systèmes de salle Skype v2 dans Exchange et Skype pour les entreprises.
+ms.openlocfilehash: 8284795df5f3cc50db0a4089deb9755239e5876e
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887897"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Configurer des comptes pour les systèmes de salle Skype v2
  
-Lisez cette rubrique pour en savoir plus sur les systèmes de salle Skype v2 et comment il s’intègre à Exchange et Skype pour Business Server 2015.
+Lisez cette rubrique pour en savoir plus sur les systèmes de salle Skype v2 et comment il s’intègre à Exchange et Skype pour les entreprises.
   
-Cette rubrique explique comment créer les comptes utilisés par les systèmes de salle Skype v2 dans Microsoft Exchange et Skype pour Business Server 2015. Instructions de déploiement pour les appareils v2 Skype salle systèmes est décrite dans [Configure une console v2 de systèmes de salle Skype](console.md). Votre infrastructure peut correspondre à l’une des configurations suivantes :
+Cette rubrique explique comment créer les comptes utilisés par les systèmes de salle Skype v2 dans Microsoft Exchange et Skype pour les entreprises. Instructions de déploiement pour les appareils v2 Skype salle systèmes est décrite dans [Configure une console v2 de systèmes de salle Skype](console.md). Votre infrastructure peut correspondre à l’une des configurations suivantes :
   
 - Déploiement en ligne : environnement de votre organisation est déployé entièrement sur Office 365. Pour plus d’informations, voir [déployer Skype salle systèmes v2 avec Office 365](with-office-365.md).
     
 - Déploiement sur site : votre organisation dispose de serveurs qu’il contrôle, où sont hébergées Skype pour Business Server 2015, Exchange et Active Directory. Pour plus d’informations, voir [déployer Skype salle systèmes v2 avec Skype pour Business Server 2015](with-skype-for-business-server-2015.md)
     
-- Déploiement hybride : votre organisation possède un mélange de services, avec certains hébergés sur site et certaines hébergé en ligne via Office 365. Avec les systèmes de salle Skype v2, les scénarios hybrides suivants sont pris en charge : 
+- Déploiements hybrides : votre organisation possède un mélange de services, avec certains hébergés sur site et certaines hébergé en ligne via Office 365. Avec les systèmes de salle Skype v2, les scénarios hybrides suivants sont pris en charge : 
     
   - Exchange Online avec Skype pour Business Server 2015 localement. Pour plus d’informations, voir [déployer Skype salle systèmes v2 avec Exchange Online (hybride)](with-exchange-online.md).
     
@@ -75,13 +76,11 @@ Pendant les propriétés pour la configuration de base autorisera le compte d’
 |:-----|:-----|
 |Authentification basée sur un certificat  <br/> |Certificats peuvent être requis pour Exchange et Skype pour Business Server. Pour déployer les certificats, vous devez les charger lorsque vous vous connectez en tant qu’administrateur.  <br/> |
    
-La meilleure façon de configurer des comptes d’utilisateur consiste à configurer à l’aide de Windows PowerShell à distance. Microsoft propose [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt), un script qui vous aide à créer des comptes d’utilisateur ou de valider les comptes de ressource existant dont vous disposez afin de vous aider à les transformer en comptes d’utilisateurs v2 Skype salle systèmes compatibles.
+Pour configurer des comptes d’utilisateurs, la plus simple consiste à configurer à l’aide de Windows PowerShell à distance. Microsoft propose [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous aide à créer des comptes d’utilisateur ou de valider les comptes de ressource existant dont vous disposez afin de vous aider à les transformer en comptes d’utilisateurs v2 Skype salle systèmes compatibles.
   
 Si vous préférez utiliser l’interface utilisateur d’Office 365 sur les applets de commande Windows PowerShell, certaines étapes peuvent être effectuées manuellement. Consultez [Création d’un compte de périphérique à l’aide d’Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365).
   
 ## <a name="see-also"></a>Voir aussi
-
-#### 
 
 [Planifier la salle Skype systèmes v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

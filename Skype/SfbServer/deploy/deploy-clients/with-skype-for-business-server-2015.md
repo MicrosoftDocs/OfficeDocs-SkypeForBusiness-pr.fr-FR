@@ -13,19 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Lisez cette rubrique pour plus d’informations sur la façon de déployer des systèmes de salle Skype v2 avec Skype pour Business Server 2015.
-ms.openlocfilehash: 49d52b866c210554d66bf7cd9f59d1b5d8539070
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: da5d0319e3dd582d6f446471424814ece3a9d178
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887826"
 ---
 # <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Déploiement de Skype Room Systems v2 avec Skype Entreprise Server 2015
- 
-Lisez cette rubrique pour plus d’informations sur la façon de déployer des systèmes de salle Skype v2 avec Skype pour Business Server 2015.
   
 Cette rubrique explique comment vous ajoutez un compte de périphériques pour les systèmes de salle Skype v2 lorsque vous avez un déploiement local de forêt unique.
   
 Si vous avez une forêt unique, le déploiement local avec Exchange 2013 SP1 ou version ultérieure et le Skype pour Business Server 2015 ou version ultérieure, vous pouvez utiliser les scripts Windows PowerShell fournis pour créer des comptes de l’appareil. Si vous utilisez un déploiement à forêts multiples, vous pouvez utiliser les applets de commande équivalente qui produit le même résultat. Ces applets de commande sont décrites dans cette section.
+
+Pour configurer des comptes d’utilisateurs, la plus simple consiste à configurer à l’aide de Windows PowerShell à distance. Microsoft propose [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous aide à créer des comptes d’utilisateur ou de valider les comptes de ressource existant dont vous disposez afin de vous aider à les transformer en comptes d’utilisateurs v2 Skype salle systèmes compatibles. Si vous préférez, vous pouvez suivre les étapes ci-dessous pour configurer les comptes utilisés par votre appareil v2 de systèmes de salle Skype.
   
 ## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Déploiement de Skype Room Systems v2 avec Skype Entreprise Server 2015
 
@@ -101,7 +102,6 @@ Avant de commencer à déployer des systèmes de salle Skype v2, assurez-vous qu
    Set-CsMeetingRoom -DomainController DC-ND-001.contoso.com -Identity PROJECTRIGEL01 -EnterpriseVoiceEnabled $true
    Grant-CsVoicePolicy -PolicyName VP1 -Identity PROJECTRIGEL01
    Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
-
    ```
 
    Une fois encore, vous devrez remplacer les exemples de contrôleur de domaine et de numéro de téléphone fournis par vos propres informations. La valeur du paramètre $true demeure identique.
@@ -120,12 +120,11 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.com -RegistrarPool cs3.contoso.com
 Set-CsMeetingRoom -Identity rigel1 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
 Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
-
 ```
 
 ## <a name="see-also"></a>Voir aussi
 
-#### 
+[Configurer des comptes pour les systèmes de salle Skype v2](room-systems-v2-configure-accounts.md)
 
 [Planifier la salle Skype systèmes v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
@@ -134,4 +133,3 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 [Configurer une console v2 de systèmes de salle de Skype](console.md)
   
 [Gérer les salles Skype systèmes v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

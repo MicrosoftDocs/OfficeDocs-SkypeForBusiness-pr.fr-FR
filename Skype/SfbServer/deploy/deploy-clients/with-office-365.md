@@ -13,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Office 365.
-ms.openlocfilehash: ac6cbd53f16fb9fe07e24ef288eddbc5acca1b00
-ms.sourcegitcommit: 5e094591704e27d9d802ff86c1ada6d775ab783a
+ms.openlocfilehash: bf23da871b3e736bd9fce2ee821b716fc43830b1
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887904"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Déploiement de Skype Room Systems v2 avec Office 365 
  
-Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Office 365.
-  
-Cette rubrique explique comment ajouter un compte de périphérique pour systèmes de salle Skype v2 lorsque vous avez un déploiement en ligne d’Office 365.
+Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Office 365, où Skype pour les entreprises et Exchange sont en ligne. 
+
+Pour configurer des comptes d’utilisateurs, la plus simple consiste à configurer à l’aide de Windows PowerShell à distance. Microsoft propose [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous aide à créer des comptes d’utilisateur ou de valider les comptes de ressource existant dont vous disposez afin de vous aider à les transformer en comptes d’utilisateurs v2 Skype salle systèmes compatibles. Si vous préférez, vous pouvez suivre les étapes ci-dessous pour configurer les comptes utilisés par votre appareil v2 de systèmes de salle Skype.
   
 ## <a name="deploy-skype-room-systems-v2-with-office-365"></a>Déploiement de Skype Room Systems v2 avec Office 365 
 
@@ -56,9 +57,9 @@ Pour activer Skype pour les entreprises, vous devez disposer les éléments suiv
     
   Si vous modifiez une boîte aux lettre de ressource :
     
-   ```
-   Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-   ```
+```
+Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+```
 
   Si vous créez une nouvelle boîte aux lettres de ressources :
     
@@ -180,7 +181,7 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
+[Configurer des comptes pour les systèmes de salle Skype v2](room-systems-v2-configure-accounts.md)
 
 [Planifier la salle Skype systèmes v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
