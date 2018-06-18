@@ -17,15 +17,17 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: b1bec06b0155b2e8a127f46de16dbb9afd5904f3
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+search.appverid: MET150
+ms.openlocfilehash: 54fa46f64989e796628d36f0af7d2f59b0c253d8
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933086"
 ---
 # <a name="skype-for-business-online-reporting"></a>Création de rapports Skype Entreprise Online
 
-En tant qu’administrateur de votre organisation, il serait utile d’avoir une liste complète de tous les différents rapports disponibles dans Skype pour l’activité en ligne. Cela inclut tous les rapports et les informations qu'ils comprennent.
+En tant qu’administrateur pour votre organisation, il serait utile d’avoir une liste complète de tous les différents rapports disponibles dans Skype pour Business en ligne. Cela inclut tous les rapports et les informations qu'ils comprennent.
   
 Pour accéder aux rapports Skype Entreprise Online, connectez-vous au Centre d'administration Office 365 à l'aide de votre compte d'utilisateur et de votre mot de passe. Le compte que vous utilisez pour ouvrir une session doit disposer du rôle d'administrateur global ou du rôle d'administrateur de service Skype Entreprise délégué pour afficher les rapports.
   
@@ -34,7 +36,7 @@ Pour accéder aux rapports Skype Entreprise Online, connectez-vous au Centre d'a
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Guide de référence de la création de rapports Skype Entreprise Online
 
-Dans Office 365 et Skype pour les centres d’administration Business, vous pouvez utiliser différents types de rapports, y compris ceux de Skype pour les entreprises en ligne.
+Dans Office 365 et Skype pour les centres d’administration Business, vous pouvez utiliser différents types de rapports, y compris celles pour Skype pour Business Online.
   
  **Pour afficher les rapports**
   
@@ -52,8 +54,8 @@ Dans Office 365 et Skype pour les centres d’administration Business, vous pouv
 |[Rapport d'activité Skype Entreprise](activity-report.md) <br/> | Nom d'utilisateur <br/>  Heure de dernière connexion <br/>  Heure de dernière activité <br/>  Nombre total de sessions d'égal à égal <br/>  Nombre total de sessions d'égal à égal de messagerie instantanée <br/>  Nombre total de sessions d'égal à égal audio <br/>  Nombre total de sessions d'égal à égal vidéo <br/>  Nombre total de sessions d'égal à égal de partage d'application <br/>  Nombre total de minutes par session d'égal à égal audio <br/>  Nombre total de minutes par session d'égal à égal vidéo <br/>  Nombre total de conférences organisées <br/>  Nombre total de conférences de messagerie instantanée organisées <br/>  Nombre total de conférences audio/vidéo organisées <br/>  Nombre total de conférences de partage d'application organisées <br/>  Nombre total de conférences web organisées <br/>  Nombre total de conférences rendez-vous audio organisées <br/>  Nombre total de minutes de conférences audio/vidéo organisées <br/>  Nombre total de participations à des conférences <br/>  Nombre total de participations à des conférences par messagerie instantanée <br/>  Nombre total de participations à des conférences audio/vidéo <br/>  Nombre total de participations à des conférences de partage d'application <br/>  Nombre total de participations à des conférences web <br/>  Nombre total de participations à des conférences rendez-vous audio <br/>  Nombre total de minutes de participation à des conférences audio/vidéo <br/>  Nombre total d'appels RTC effectués <br/>  Nombre total d'appels RTC reçus <br/>  Nombre total de minutes d'appels RTC effectués <br/>  Nombre total de minutes d'appels RTC reçus <br/>  Nombre total de messages <br/>  Nombre total de fichiers transférés <br/> |
 |[Rapport d'utilisation de la conférence RTC Skype Entreprise](pstn-usage-report.md) <br/>  | Nom d'utilisateur <br/>  Date/heure de l'appel <br/>  Numéro de téléphone <br/>  ID d’appel <br/>  Type d'appel <br/>  Localisation <br/>  Durée de l'appel <br/>  Devise <br/>  Coût de l'appel <br/> |
 |[Skype pour les utilisateurs professionnels bloqués rapport](users-blocked-report.md) <br/> | Date de l'action <br/>  Nom d'utilisateur <br/>  Type d'action <br/>  Numéro de téléphone <br/>  Raison <br/> |
-|[Rapport de pools de Skype pour minute d’entreprise RTPC](pstn-minute-pools-report.md) <br/> | Fonctionnalité est le plan de licence/service utilisé pour l’appel. <br/> Type de licence <br/> Description de la fonctionnalité <br/> Pool de Minute de pays  <br/> Minutes utilisés <br/> Nombre total de Minutes <br/> % De temps en minutes pour le mois <br/> |
-|[Skype pour le rapport de détails de session de Business](session-details-report.md) <br/> | Alias de l’utilisateur <br/> ID de la boîte de dialogue  <br/> Types de supports  <br/> Heures de début et de fin <br/> Vers et à partir de l’URI <br/> URL de conférence <br/> Numéro de téléphone <br/> |
+|[Skype pour minute Business PSTN pools de rapport](pstn-minute-pools-report.md) <br/> | Fonctionnalité est le plan de licence/service utilisé pour l’appel. <br/> Type de licence <br/> Description de la capacité <br/> Pays Minute Pool  <br/> Minutes utilisés <br/> Nombre total de Minutes <br/> Pourcentage de temps en minutes pour le mois <br/> |
+|[Skype pour le rapport de détails de session Business](session-details-report.md) <br/> | Alias de l’utilisateur <br/> ID de la boîte de dialogue  <br/> Types de média  <br/> Heures de début et de fin <br/> Avec des URI <br/> URL de la conférence <br/> Numéro de téléphone <br/> |
  
 ## <a name="related-topics"></a>Rubriques connexes
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

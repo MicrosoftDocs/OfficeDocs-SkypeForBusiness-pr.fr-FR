@@ -20,14 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment choisir votre organisation et quel type de numérotation appelant plans (plans de numérotation appel PSTN) sont disponibles avec Office 365.  '
-search.appverid:
-- MED150
-- MOE150
-ms.openlocfilehash: ae3ab844279db56f4d3e66551555894935eb8942
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 5df6b2e9f9e5ccb83d6320cbd43f78ef4fc44424
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933164"
 ---
 # <a name="what-are-dial-plans"></a>Quels sont les plans de numérotation ?
 
@@ -144,7 +142,7 @@ Le tableau suivant illustre un exemple de plan de numérotation pour Redmond, Wa
 ## <a name="related-topics"></a>Rubriques connexes
 [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
 
-[Licences de compléments pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+[Licences de compléments pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
 [Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
 
