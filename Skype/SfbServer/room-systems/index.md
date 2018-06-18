@@ -11,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Les considérations de planification pertinentes pour le déploiement de systèmes de salle Skype v2 et comment déployer et gérer le système.
-ms.openlocfilehash: 649899f31cdc0e584f954408f269b77fce891b9d
-ms.sourcegitcommit: fecc87046d16a973499403f6cd097a608b6272f8
+ms.openlocfilehash: a5bc788c1e0a3fab68ea70ef417567ed37e47783
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927794"
 ---
 <h2>Salle Skype systèmes v2 & #x 2013 ; <br>la nouvelle génération de systèmes de salle de Skype </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -107,4 +108,7 @@ ms.lasthandoff: 05/17/2018
 > [!NOTE]
 > Systèmes de salle Skype v2 est destiné à utiliser avec Skype Business Server 2015 ou Skype pour Business Online. Prise en charge Microsoft Teams très seront prochainement disponibles. <br><br>Plates-formes de versions antérieures à Lync Server 2013 ne sont pas prévus pour fonctionner avec les systèmes de salle Skype v2. 
 
-Ces articles sont destinés à des personnes chargé de la planification, le déploiement et gestion des systèmes de salle Skype v2 appareils et pas pour les utilisateurs du système. Les utilisateurs seront plus intéressé par l' [aide en ligne](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Ces articles sont destinés à des personnes chargé de la planification, le déploiement et la gestion de ces périphériques et pas pour les utilisateurs du système. Les utilisateurs seront plus intéressé par l' v2 de systèmes de salle Skype [aide en ligne](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+
+> [!NOTE]
+> Skype salle et système de Skype salle v2 sont différents produits avec des dépendances différents et des procédures de déploiement. 
