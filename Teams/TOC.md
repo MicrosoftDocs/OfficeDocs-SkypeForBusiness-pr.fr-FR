@@ -287,6 +287,7 @@
 
 #Teams pour l’éducation
 ## [Guide de démarrage rapide : administrateurs de Teams pour l’éducation](teams-quick-start-edu.yml)
+## [Ressources d’équipes pour les administrateurs de formation](resources-teams-edu.md)
 
 # [Documentation destinée aux développeurs pour Teams](https://docs.microsoft.com/microsoftteams/platform)
 
