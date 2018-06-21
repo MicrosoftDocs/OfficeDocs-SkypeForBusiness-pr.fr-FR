@@ -3,7 +3,6 @@ title: Stratégie d’emplacement
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: Les stratégies d’emplacement déterminent si le service E9-1-1 (Enhanced 9-1-1) doit être activé et définissent son mode d’utilisation. Elles indiquent également la façon dont les informations d’emplacement sont traitées pour les utilisateurs et les contacts.
-ms.openlocfilehash: 0a4d438ac208af88229f75e7fc8f9eec4d3e7697
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 508aaa6c887d17169ea759e15630975296d27bcb
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964771"
 ---
 # <a name="location-policy"></a>Stratégie d’emplacement
  
@@ -31,7 +31,7 @@ Les stratégies d’emplacement incluent la stratégie globale, ainsi, éventuel
 - **Stratégies utilisateur (facultatifs) :** Vous pouvez créer des stratégies d’emplacement utilisateur un ou plusieurs, chacun d'entre eux s’applique à un utilisateur spécifique ou un groupe d’utilisateurs. Remplacent les stratégies utilisateur la stratégie globale et les stratégies de site.
     
 > [!NOTE]
-> Vous pouvez également attribuer des stratégies d’emplacement à des sites réseau, qui sont des groupes de sous-réseaux. Les stratégies d’emplacement attribuées aux sites réseau prévalent sur toutes les autres stratégies utilisateur. Pour plus d’informations sur l’attribution de stratégies d’emplacement aux sites du réseau à l’aide des applets de commande, voir [Ajouter une stratégie d’emplacement à un site réseau dans Skype pour Business Server 2015](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Pour plus d’informations sur l’utilisation de Skype pour Business Server Control Panel pour affecter une stratégie d’emplacement à un site réseau, voir [Configuration des Sites réseau](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx). 
+> Vous pouvez également attribuer des stratégies d’emplacement à des sites réseau, qui sont des groupes de sous-réseaux. Les stratégies d’emplacement attribuées aux sites réseau prévalent sur toutes les autres stratégies utilisateur. Pour plus d’informations sur l’attribution de stratégies d’emplacement aux sites du réseau à l’aide des applets de commande, voir [Ajouter une stratégie d’emplacement à un site réseau dans Skype pour Business Server](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Pour plus d’informations sur l’utilisation de Skype pour Business Server Control Panel pour affecter une stratégie d’emplacement à un site réseau, voir [Configuration des Sites réseau](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx). 
   
 La page **Stratégie d’emplacement** affiche la liste de toutes les stratégies d’emplacement définies pour votre organisation.
   

@@ -3,7 +3,6 @@ title: Le panneau de configuration - recherche d’un utilisateur mis à jour
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 5/21/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Vous pouvez utiliser les résultats d’une requête de recherche pour configurer les utilisateurs pour Skype pour Business Server. Vous pouvez rechercher des utilisateurs par nom d’affichage, prénom, nom de famille, nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), adresse SIP ou URI (Uniform Resource Identifier) de ligne. Vous pouvez également rechercher des utilisateurs à partir du Panneau de configuration Lync Server ou du composant Utilisateurs et ordinateurs Active Directory.
-ms.openlocfilehash: 188c60467f5579a56cd4b5fa85a616f2e4639663
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 6bd837326e70b3712eb478d662cd6b5a41336953
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19971404"
 ---
 # <a name="control-panel---updated-user-search"></a>Panneau de configuration - Mise à jour : recherche d’un utilisateur
  
@@ -36,7 +36,7 @@ Dans la page **Recherche d’un utilisateur** du Panneau de configuration, vous 
     
 - [Affecter des stratégies pour les utilisateurs](http://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
     
-- [Activer les utilisateurs pour Enterprise Voice sur Skype pour Business Server 2015](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Activer les utilisateurs pour Enterprise Voice sur Skype pour Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Configurer la fédération, l’accès des utilisateurs distants et la connectivité PIC pour les utilisateurs](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     

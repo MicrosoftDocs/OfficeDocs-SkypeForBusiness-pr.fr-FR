@@ -18,12 +18,12 @@ ms.custom:
 - Reporting
 description: La nouvelle Skype de zone de rapports du centre d’administration Business affiche vous appeler et audio conférence activité dans votre organisation. Elle vous permet des détails des rapports pour vous donnent plus granulaires sur les activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de conférence Audio, y compris le coût de l’appel afin que vous puissiez comprendre l’utilisation et appeler les détails de facturation pour déterminer l’usage au sein de votre organisation.
 search.appverid: MET150
-ms.openlocfilehash: 62b6bff4952a590bfeef47a6d1fe23e1fe3d49d5
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 59a1fbae9614fa6742f73b46c442d7912c71f88d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933126"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973367"
 ---
 # <a name="pstn-usage-report"></a>Rapport d’utilisation PSTN
 
@@ -89,6 +89,7 @@ Voici une illustration du rapport.
      *    **MCOPSTNPP** - crédits Communications <br/> **MCOPSTN1** - planifier l’appel nationales (3000 min US / min 1200 UE plans) 
      *    **MCOPSTN2** - Plan appels internationaux 
      *    **MCOPSTN5** - intérieur appelant Plan (plan appelant 120 min) 
+     *    **MCOPSTN6** - nationales appelant Plan (plan appelant de 240 minutes) Remarque : disponibilité limitée
      *    **MCOMEETADD** - services d’audioconférence
      *    **MCOMEETACPEA** - salaire par Minute services d’audioconférence 
 ***

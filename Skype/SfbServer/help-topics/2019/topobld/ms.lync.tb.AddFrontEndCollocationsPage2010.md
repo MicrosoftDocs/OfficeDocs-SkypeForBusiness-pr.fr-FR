@@ -3,7 +3,6 @@ title: Ajouter des COLOCALISATIONS du serveur frontal 2010
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Pour un déploiement Enterprise Edition, vous pouvez colocaliser soit A / V Conferencing service, le serveur de médiation ou les deux sur le pool frontal, ou vous pouvant déployer chaque en tant que serveurs autonomes. Pour un déploiement Standard Edition server, A / service de conférence de V est toujours colocalisé si la conférence est activée.
-ms.openlocfilehash: 555f23cc9a6cf07f9a095edb56c8307c495def6c
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 495132c2dc290e175447e6a58eee04fcfab2892a
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964554"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>Ajouter des COLOCALISATIONS du serveur frontal 2010
  
@@ -31,8 +31,8 @@ Vous pouvez colocaliser le rôle de serveur de médiation sur un serveur Standar
     
 - L’IP-PBX ou SBC est configuré pour recevoir du trafic de n’importe quel serveur de médiation du pool et peut acheminer le trafic de manière uniforme sur tous les serveurs de médiation du pool.
     
-Vous pouvez utiliser Microsoft Lync Server 2013, outil de planification pour déterminer si le pool frontal où vous voulez colocaliser le serveur de médiation peut gérer la charge. Si votre environnement ne peut pas ces exigences, vous devez déployer un pool de serveur de médiation autonome.
+Vous pouvez utiliser l’outil de planification pour déterminer si le pool frontal où vous voulez colocaliser le serveur de médiation peut gérer la charge. Si votre environnement ne peut pas ces exigences, vous devez déployer un pool de serveur de médiation autonome.
   
-En générale, colocalisation des / V Conferencing Server ou le serveur de médiation est déconseillé si votre organisation dispose de haute disponibilité et évolutivité requirementsFor plus d’informations sur la colocalisation de ces rôles de serveur dans un pool frontal Enterprise Edition dans une déploiement, voir [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement. Pour plus d’informations sur A / de la fonctionnalité de conférence V et des composants, consultez [planification de conférence](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) dans la documentation de planification. Pour plus d’informations sur les fonctionnalités d’Enterprise Voice et des composants, y compris le serveur de médiation, voir [Plan pour Enterprise Voice sur Skype pour Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) dans la documentation de planification.
+En générale, colocalisation des / V Conferencing Server ou le serveur de médiation est déconseillé si votre organisation dispose de haute disponibilité et évolutivité requirementsFor plus d’informations sur la colocalisation de ces rôles de serveur dans un pool frontal Enterprise Edition dans une déploiement, voir [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement. Pour plus d’informations sur A / de la fonctionnalité de conférence V et des composants, consultez [planification de conférence](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) dans la documentation de planification. Pour plus d’informations sur les fonctionnalités d’Enterprise Voice et des composants, y compris le serveur de médiation, voir [Plan pour Enterprise Voice sur Skype pour Business Server](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) dans la documentation de planification.
   
 

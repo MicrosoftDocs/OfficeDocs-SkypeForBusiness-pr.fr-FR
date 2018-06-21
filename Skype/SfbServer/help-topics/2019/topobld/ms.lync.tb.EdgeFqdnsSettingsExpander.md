@@ -3,7 +3,6 @@ title: Expanseur des paramètres de noms de domaine complets du serveur Edge
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 description: Pour modifier ou spécifier des paramètres de sécurité externe pour les serveurs de périphérie, vous devez d’abord déterminer si vous utiliserez des adresses IP séparées pour access protocole SIP (Session Initiation), le service Edge de conférence Web et le service Edge Audio/vidéo.
-ms.openlocfilehash: 8c686252e4fab89ad08608dceea92f06a3776737
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 96d34ed48238da6d3c80b1bb9fb03714560fd89c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19965996"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Expanseur des paramètres de noms de domaine complets du serveur Edge
  

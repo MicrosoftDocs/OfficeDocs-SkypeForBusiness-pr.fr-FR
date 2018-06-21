@@ -3,7 +3,6 @@ title: Nœud d’étendue Lync Server 2013
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,12 +10,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
-description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server 2015.
-ms.openlocfilehash: 4e4fd09b30df495567e1e4d041d683492fb9fa9d
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server.
+ms.openlocfilehash: 82c70241746d81fe3869103c3865167d76a69bcb
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964048"
 ---
 # <a name="lync-server-2013-scope-node"></a>Nœud d’étendue Lync Server 2013
  
@@ -32,7 +32,4 @@ Les étapes de configuration pour un nouveau serveur d’interopérabilité vid�
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Planification de serveur interopérabilité vidéo dans Skype Business Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

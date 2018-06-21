@@ -3,7 +3,6 @@ title: Associer un serveur de médiation Edge
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 'Pour définir un serveur de médiation, spécifiez les paramètres qu’associer le serveur de médiation avec un serveur frontal et un serveur Edge ou un pool. Pour associer le serveur de médiation ou le pool à un serveur Edge ou pool de serveurs Edge, procédez comme suit :'
-ms.openlocfilehash: 105c379e2740db099df73dc5d534a8c94992d7ea
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 5fe2a7439494fdb8cc0e579eff6a146851bea369
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974879"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Associer un serveur de médiation Edge
  
@@ -29,6 +29,6 @@ Pour définir un serveur de médiation, spécifiez les paramètres qu’associer
 > [!NOTE]
 > Si vous n’avez pas encore défini un serveur Edge ou pool de serveurs Edge dans votre déploiement, la liste déroulante ne contiendra pas entrées. Vous pouvez cliquer sur **suivant** pour continuer et modifier les paramètres du serveur de médiation après avoir ajouté un serveur Edge ou pool à votre déploiement.
   
-Pour plus d’informations, voir [déploiement d’un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server 2015](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+Pour plus d’informations, voir [déploiement d’un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 

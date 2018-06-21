@@ -1,9 +1,8 @@
 ---
 title: Mise à jour du périphérique
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: Microsoft publie régulièrement un nouveau jeu de mises à jour du microprogramme de périphérique pour Skype pour téléphone professionnel, que vous pouvez importer à vos serveurs et distribuer aux utilisateurs. Vous pouvez obtenir le dernier jeu de règles de mise à jour des périphériques en accédant à la page aide et Support sur le site Web Microsoft et recherche forPhone Edition.Download le dernier package de mise à jour et extrayez les fichiers dans un dossier sur l’ordinateur où les mises à jour doivent être téléchargées. Une fois que les fichiers ont été extraits, vous pouvez utiliser ensuite la cmdlet Import-CsDeviceUpdate pour importer les règles de mise à jour des périphériques trouvés dans l’extrait. Fichier CAB (qui porte le nom UCUpdates.cab). Pour plus d’informations, voir Import-CsDeviceUpdate.
-ms.openlocfilehash: 584c04e8169eec4621c91c469127b99388f4820a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 793f7328d3396f1e734e709f24f61bb802c26a47
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19978068"
 ---
 # <a name="device-update"></a>Mise à jour de l'appareil
  
@@ -60,7 +60,4 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 Pour plus d’informations sur le service Web de mise à jour des périphériques, voir [View Software Updates for Devices in Your Organization](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) dans la documentation de planification.
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)
-

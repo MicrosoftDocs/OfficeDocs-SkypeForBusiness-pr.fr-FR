@@ -3,7 +3,6 @@ title: Ajouter des Options IP de serveur Edge
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 description: 'Microsoft Lync Server 2013 vous permet de configurer les adresses IPv4 et IPv6 pour chaque interface pour le serveur de périphérie et un pool de serveurs Edge. Pour ce faire, vous procédez comme suit :'
-ms.openlocfilehash: a6f4dd60355a4e241c70ec28c72fa86d91c66a9e
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: a303c4dc3d6fe82617449795507ef87017676a4a
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974956"
 ---
 # <a name="add-edge-server-ip-options"></a>Ajouter des Options IP de serveur Edge
  

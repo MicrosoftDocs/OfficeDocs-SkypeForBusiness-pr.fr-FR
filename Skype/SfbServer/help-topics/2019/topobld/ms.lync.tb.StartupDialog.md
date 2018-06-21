@@ -3,7 +3,6 @@ title: Boîte de dialogue de démarrage du Générateur de topologie
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,15 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Vous démarrez le Générateur de topologie pour configurer les propriétés et la configuration de votre déploiement de Microsoft Lync Server 2013. Au démarrage, le Générateur de topologie affiche une boîte de dialogue qui vous demande quelle sera la source du document de topologie. Vous sélectionnez une des trois options :'
-ms.openlocfilehash: f7e41d99b24f7064bd68f8c8a44565078eba87cf
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: e37fdde74a7bfc3dab0dda94327aaa6198f9854c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966906"
 ---
 # <a name="topology-builder-startup-dialog"></a>Boîte de dialogue de démarrage du Générateur de topologie
  
-Vous démarrez le Générateur de topologie pour configurer les propriétés et la configuration de votre déploiement de Microsoft Lync Server 2013. Au démarrage, le Générateur de topologie affiche une boîte de dialogue qui vous demande quelle sera la source du document de topologie. Vous sélectionnez une des trois options :
+Vous démarrez le Générateur de topologie pour configurer les propriétés et la configuration de votre déploiement. Au démarrage, le Générateur de topologie affiche une boîte de dialogue qui vous demande quelle sera la source du document de topologie. Vous sélectionnez une des trois options :
   
 - **Télécharger la topologie à partir du déploiement existant** Sélectionnez cette option si vous avez exécuté le Générateur de topologie et que vous avez publié votre topologie pour le serveur d’administration centrale. Cette option demande et télécharge une copie locale de la configuration actuelle, ce qui vous permet de modifier et de configurer un déploiement existant.
     
@@ -32,9 +32,6 @@ Vous démarrez le Générateur de topologie pour configurer les propriétés et 
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Présentation de Lync Server 2013 Preview](http://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
+[Présentation de Lync Server 2013](http://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
   
 [Outils d’administration Lync Server](http://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
-

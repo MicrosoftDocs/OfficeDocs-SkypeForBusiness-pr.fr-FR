@@ -3,7 +3,6 @@ title: Ajouter A / V MCU Pool
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: Tous les serveurs Enterprise Edition frontaux d’un site central qui n’ont pas un colocalisé un service de conférence V peut utiliser le même Stand-Alone A / pool de conférence V. Pour chaque A / pool de conférence V, vous devez spécifier un nom de domaine complet (FQDN) pour le pool et si elle aura uniquement un seul A / V Conferencing Server ou multiples, à charge équilibrée A / V Conferencing Servers.
-ms.openlocfilehash: d1712829030836446c06a2e335c424d51a19e466
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 67cb56d1a8556464906e0b05bae26c0c6a2e7340
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966850"
 ---
 # <a name="add-av-mcu-pool"></a>Ajouter A / V MCU Pool
  

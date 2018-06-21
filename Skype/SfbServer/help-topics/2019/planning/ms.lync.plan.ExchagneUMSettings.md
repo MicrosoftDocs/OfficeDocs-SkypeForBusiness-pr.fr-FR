@@ -3,7 +3,6 @@ title: (Outil de planification) de paramètres de messagerie unifiée Microsoft 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
-description: Skype pour Business Server 2015 prend en charge l’intégration avec Exchange messagerie unifiée (MU) pour la combinaison de messagerie vocale et messagerie électronique en une seule infrastructure de messagerie.
-ms.openlocfilehash: 787a97f96424f1dcdc81e4a9768020b2d1fc5d3c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: Skype pour Business Server prend en charge l’intégration avec Exchange messagerie unifiée (MU) pour la combinaison de messagerie vocale et messagerie électronique en une seule infrastructure de messagerie.
+ms.openlocfilehash: 37eb1dff810d227c96711d931b3576ea4e3c84fa
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19971642"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool"></a>(Outil de planification) de paramètres de messagerie unifiée Microsoft Exchange
  
-Skype pour Business Server 2015 prend en charge l’intégration avec Exchange messagerie unifiée (MU) pour la combinaison de messagerie vocale et messagerie électronique en une seule infrastructure de messagerie.
+Skype pour Business Server prend en charge l’intégration avec Exchange messagerie unifiée (MU) pour la combinaison de messagerie vocale et messagerie électronique en une seule infrastructure de messagerie.
   
 Pour plus d’informations, consultez :
   

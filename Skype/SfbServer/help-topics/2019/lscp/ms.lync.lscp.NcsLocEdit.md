@@ -3,7 +3,6 @@ title: Stratégie d’emplacement créer ou modifier une existant
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: Vous pouvez configurer les stratégies d’emplacement pour déterminer si le service E9-1-1 (Enhanced 9-1-1) est activé et pour savoir comment il est utilisé et comment les informations d’emplacement sont traitées pour les utilisateurs et les contacts.
-ms.openlocfilehash: cc2d5119e4bb21badf96dcf24099844ffffd0639
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 48202c549f430f0b42ce18929a46989d69836329
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964518"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Stratégie d’emplacement : création d’une stratégie ou modification d’une stratégie existante
  

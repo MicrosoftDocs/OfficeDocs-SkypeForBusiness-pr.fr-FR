@@ -3,7 +3,6 @@ title: Sélectionnez les Extensions de fichier
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 description: Utilisez la boîte de dialogue Sélectionner des Extensions de Type fichier pour sélectionner les extensions de type de fichier que vous souhaitez bloquer ou autoriser en sélectionnant (bloc) ou en désactivant (pour autoriser) les cases à cocher en regard des extensions de fichier des extensions de type. Cliquez sur la flèche pour développer une catégorie et d’afficher toutes les extensions de type de fichier pour cette catégorie. Si vous souhaitez sélectionner toutes les extensions de type de fichier pour une catégorie, sélectionnez le nom de catégorie.
-ms.openlocfilehash: 8a1633022f58f0f8f2845efd6867c798fac9b1a5
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 413a53b7dfa3b3b13534df9e64d57063e5c09102
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979651"
 ---
 # <a name="select-file-type-extensions"></a>Sélectionnez les Extensions de fichier
  
@@ -26,6 +26,6 @@ Si vous ne voyez pas l’extension d’un type de fichier que vous souhaitez sé
   
 Une fois que vous avez ajouté toutes les extensions de type de fichier que vous souhaitez à la liste des **extensions de fichier sélectionnés** , cliquez sur **OK**.
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server](../../../manage/manage.md).
   
 

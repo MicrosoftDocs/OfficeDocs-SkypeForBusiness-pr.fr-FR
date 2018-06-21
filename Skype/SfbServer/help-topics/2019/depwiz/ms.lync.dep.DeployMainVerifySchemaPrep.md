@@ -3,7 +3,6 @@ title: Vérifier la réplication de la Partition du schéma
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 description: 'Pour vérifier que l’extension de schéma a été correctement répliquée dans votre forêt Active Directory Domain Services, procédez comme suit :'
-ms.openlocfilehash: a5628e369ffc796affe9984cef8ecb1ba044ec8a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 964e5e235326f9579893676f4b739dd1eac4781f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964757"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Vérifier la réplication de la Partition du schéma
  

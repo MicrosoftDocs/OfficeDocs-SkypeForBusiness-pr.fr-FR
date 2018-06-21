@@ -3,7 +3,6 @@ title: Configuration d’archivage créer une nouvelle ou en modifier une exista
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Vous utilisez des configurations d’archivage pour contrôler les options d’archivage de votre déploiement. Les configurations d’archivage incluent la configuration globale et, éventuellement, une ou plusieurs configurations de site ou de pool :'
-ms.openlocfilehash: 93bddc8bbba3280ae4e40c0031e65acc6965aa72
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3cc5c560ebafdf5dbf1ddac05d7c6b25653c0eb4
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976871"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuration de l’archivage : création d’un archivage ou modification d’un archivage existant
  
@@ -29,7 +29,7 @@ Vous utilisez des configurations d’archivage pour contrôler les options d’a
 - **Configuration du pool (facultative)** Vous pouvez spécifier un ou plusieurs pool configurations d’archivage, au contrôle options d’archivage d’un pool spécifique. Une configuration de pool remplace la configuration globale et la configuration de site, mais seulement pour les pools spécifiés dans les configurations d’archivage de pool. Vous pouvez modifier ou supprimer les configurations de pool.
     
 > [!NOTE]
-> Les configurations d’archivage s’appliquent aux utilisateurs hébergés sur Skype pour Business Server et, si vous activez l’option d’intégration de Microsoft Exchange à utiliser Exchange 2013 pour stocker des données d’archivage dans Microsoft Exchange, les utilisateurs hébergés sur Exchange 2013. Cependant, certaines options sont implémentées différemment pour les utilisateurs hébergés sur Exchange 2013, comme décrit dans la section suivante. 
+> Les configurations d’archivage s’appliquent aux utilisateurs hébergés sur Skype pour Business Server et, si vous activez l’option d’intégration de Microsoft Exchange à utiliser Exchange pour stocker des données d’archivage dans Microsoft Exchange, les utilisateurs hébergés sur Exchange. Cependant, certaines options sont implémentées différemment pour les utilisateurs hébergés sur Exchange, comme décrit dans la section suivante. 
   
 Pour configurer les paramètres pour une configuration d’archivage nouvelle ou existante, spécifiez les options suivantes :
 - **Nom** Chaque configuration d’archivage requiert un nom. Le nom est déterminé par le type de configuration que vous ajoutez ou modifiez :
@@ -58,7 +58,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
     La récupération des sessions de messagerie instantanée et de conférence est effectué automatiquement après la correction des échecs.
     
-- **Intégration à Microsoft Exchange** Sélectionnez cette option si vous avez des utilisateurs qui sont hébergés sur Exchange 2013. Cette option, Exchange 2013 est utilisé pour stocker les données pour les utilisateurs, si leurs boîtes aux lettres ont été mis en blocage sur Place. Si tous vos utilisateurs sont hébergés sur Exchange 2013, il est inutile définir des bases de données SQL Server distincts pour le stockage des données d’archivage.
+- **Intégration à Microsoft Exchange** Sélectionnez cette option si vous avez des utilisateurs qui sont hébergés sur Exchange. Cette option, Exchange est utilisé pour stocker les données pour les utilisateurs, si leurs boîtes aux lettres ont été mis en blocage sur Place. Si tous vos utilisateurs sont hébergés sur Exchange, il est inutile définir des bases de données SQL Server distincts pour le stockage des données d’archivage.
     
 - **Activer le vidage des données d’archivage** Sélectionnez cette option pour activer le vidage et spécifier les options de vidage, notamment les suivants :
     
@@ -67,7 +67,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
   - Vidage après les données d’archivage a été exporté (qui inclut les données qui a été téléchargées vers Exchange, si vous activez l’intégration de Microsoft Exchange).
     
     > [!NOTE]
-    > Si vous activez l’intégration de Microsoft Exchange, le vidage pour les utilisateurs hébergés sur Exchange 2013 et avec leurs boîtes aux lettres placées en blocage sur Place est contrôlé par Exchange. La seule exception est pour les fichiers de conférence, qui sont stockés sur le partage de fichiers Lync Server. Ces fichiers ne sont purgés à partir du partage de fichiers qu’une fois que les fichiers ont été exportés (téléchargés vers Exchange) si vous sélectionnez l’option de purge des données après l’exportation des données d’archivage ou après le nombre maximal de jours spécifié si vous spécifiez un nombre maximal de jours de rétention. 
+    > Si vous activez l’intégration de Microsoft Exchange, le vidage pour les utilisateurs hébergés sur Exchange et à leurs boîtes aux lettres placées en blocage sur Place est contrôlé par Exchange. La seule exception est pour les fichiers de conférence, qui sont stockés sur le partage de fichiers Lync Server. Ces fichiers ne sont purgés à partir du partage de fichiers qu’une fois que les fichiers ont été exportés (téléchargés vers Exchange) si vous sélectionnez l’option de purge des données après l’exportation des données d’archivage ou après le nombre maximal de jours spécifié si vous spécifiez un nombre maximal de jours de rétention. 
   
 Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, y compris l’intégration d’Exchange, voir [planifier l’archivage dans Skype pour Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [déployer l’archivage pour Skype pour Business Server 2015](../../../deploy/deploy-archiving/deploy-archiving.md)et [gérer l’archivage dans Skype pour Entreprise 2015 Server](../../../manage/archiving/archiving.md).
 

@@ -3,7 +3,6 @@ title: Vue d’ensemble de la fonctionnalité (outil de planification)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/6/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
-description: Outil de planification de Skype Entreprise Server 2015
-ms.openlocfilehash: 8d35b9babe99b4899cda51804f40dd6e3302feeb
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: Skype pour Business Server, l’outil de planification
+ms.openlocfilehash: a5c482dadf2ffd39e8927e1924e50117dd13e1c8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974028"
 ---
 # <a name="feature-overview-planning-tool"></a>Vue d’ensemble de la fonctionnalité (outil de planification)
  
-Outil de planification de Skype Entreprise Server 2015
+Skype pour Business Server, l’outil de planification
   
 Vous pouvez utiliser la page **Sites centraux** de l’outil de planification pour concevoir le Skype pour le déploiement de serveur d’entreprise. Vous pouvez créer deux types de déploiement : centralisé ou distribué. Un déploiement centralisé n’a qu’un site central, qui héberge tous les Skype pour les utilisateurs professionnels de votre organisation. Un déploiement distribué comprend plusieurs sites centraux. Si vous déployez Skype pour Business Server sur plusieurs sites centraux, vous serez entrer le nombre d’utilisateurs sur chaque site central dans l’outil de planification.
   
@@ -75,15 +75,15 @@ Les autres éléments ont été remplis avec les réponses fournies aux question
     
 - **Fédération avec les fournisseurs de services XMPP**
     
-    Skype pour Business Server 2015 présente un proxy XMPP entièrement intégré (déployés sur les serveurs de périphérie) et une passerelle XMPP déployée sur vos serveurs frontaux. Vous pouvez déployer Ajout et la configuration du serveur proxy XMPP et la passerelle XMPP autorisera votre Skype pour les utilisateurs Business Server 2015 ajouter des contacts à partir de la présence et les partenaires basés sur XMPP pour la messagerie instantanée (IM).
+    Skype pour Business Server présente un proxy XMPP entièrement intégré (déployés sur les serveurs de périphérie) et une passerelle XMPP déployée sur vos serveurs frontaux. Vous pouvez déployer Ajout et la configuration du serveur proxy XMPP et la passerelle XMPP autorisera votre Skype pour les utilisateurs Business Server ajouter des contacts à partir de la présence et les partenaires basés sur XMPP pour la messagerie instantanée (IM).
     
 - **Mobilité**
     
-    Lorsque vous déployez le Skype pour le Service de mobilité 2015 Business Server, les utilisateurs peuvent utiliser pris en charge Apple iOS, Android, Windows Phone ou les appareils mobiles Nokia pour effectuer ces activités en tant que l’envoi et réception de messages instantanés, l’affichage des contacts et affichage de la présence.
+    Lorsque vous déployez le Skype Business Server Service de mobilité, les utilisateurs peuvent utiliser pris en charge Apple iOS, Android, Windows Phone ou les appareils mobiles Nokia pour effectuer ces activités en tant que l’envoi et réception de messages instantanés, l’affichage des contacts et affichage de la présence.
     
 - **Boîte aux lettres Exchange W15**
     
-    Skype pour Business Server 2015 permet à votre messagerie vocale stockés dans Exchange messagerie unifiée (MU) ; Ces messages de messagerie vocale seront affiche alors en tant que messages électroniques dans la boîte de réception de vos utilisateurs.
+    Skype pour Business Server vous permet d’avoir des messages vocaux stockés dans Exchange messagerie unifiée (MU) ; Ces messages de messagerie vocale seront affiche alors en tant que messages électroniques dans la boîte de réception de vos utilisateurs.
     
 ### <a name="voice"></a>Audio
 
@@ -95,7 +95,7 @@ Les autres éléments ont été remplis avec les réponses fournies aux question
     
 - **Messagerie unifiée Exchange**
     
-    Messagerie unifiée Exchange (MU) combine la messagerie vocale et électronique en une seule infrastructure de messagerie. Skype pour Business Server 2015 utilise la messagerie unifiée Exchange pour fournir la réponse aux appels, l’accès abonné, notification d’appel et services de standard automatique. Si vous utilisez ces services, vous devrez intégrer la messagerie unifiée Exchange et Skype pour Business Server dans une topologie Active Directory partagée.
+    Messagerie unifiée Exchange (MU) combine la messagerie vocale et électronique en une seule infrastructure de messagerie. Skype pour Business Server utilise la messagerie unifiée Exchange pour fournir la réponse aux appels, l’accès abonné, notification d’appel et services de standard automatique. Si vous utilisez ces services, vous devrez intégrer la messagerie unifiée Exchange et Skype pour Business Server dans une topologie Active Directory partagée.
     
 ### <a name="additional-deployment-options"></a>Options de déploiement supplémentaires
 
@@ -119,7 +119,7 @@ Les autres éléments ont été remplis avec les réponses fournies aux question
     
 - **Intégration de l’archivage Exchange**
     
-    Si vous avez des utilisateurs qui sont hébergés sur Exchange 2013 et leurs boîtes aux lettres ont été placées en blocage sur Place, vous pouvez sélectionner l’option intégrer Skype pour le stockage des Business Server 2015 avec le stockage Exchange.
+    Si vous avez des utilisateurs qui sont hébergés sur Exchange et leurs boîtes aux lettres ont été placées en blocage sur Place, vous pouvez sélectionner l’option intégrer Skype pour le stockage des Business Server avec le stockage Exchange.
     
 - **IPv4**
     

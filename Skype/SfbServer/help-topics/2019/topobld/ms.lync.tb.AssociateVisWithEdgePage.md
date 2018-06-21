@@ -3,7 +3,6 @@ title: Association du serveur d’interopérabilité vidéo (VIS) à un serveur 
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,12 +10,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
-description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server 2015.
-ms.openlocfilehash: eb828abb527e9edb6f8118fa456f2a75b72bb061
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server.
+ms.openlocfilehash: 4c4bf15d59fa9aa65a747a552d54ac879c06b51a
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19967669"
 ---
 # <a name="associate-vis-with-edge"></a>Association du serveur d’interopérabilité vidéo (VIS) à un serveur Edge
  
@@ -32,7 +32,4 @@ Les étapes de configuration pour un nouveau serveur d’interopérabilité vid�
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Planification de serveur interopérabilité vidéo dans Skype Business Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

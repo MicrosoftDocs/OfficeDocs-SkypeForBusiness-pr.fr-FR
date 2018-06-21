@@ -3,7 +3,6 @@ title: Stratégie d’archivage
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 'Vous utilisez des stratégies d’archivage pour activer et désactiver l’archivage pour les utilisateurs hébergés sur Skype pour Business Server. Dans chaque stratégie d’archivage, vous pouvez activer ou désactiver l’archivage pour l’un des éléments suivants ou les deux :'
-ms.openlocfilehash: 6bdccd0f717314fb36a698ee8dd9d237a47d6bdd
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: efe2a17e5f3e85b83e937e38613b630e3a78f7d9
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979966"
 ---
 # <a name="archiving-policy"></a>Stratégie d’archivage
  
@@ -35,7 +35,7 @@ Les stratégies d’archivage incluent la stratégie globale, ainsi, éventuelle
 - **Stratégie utilisateur (facultatif)** Vous pouvez spécifier des stratégies d’archivage utilisateur un ou plusieurs, que chacun d'entre eux vous pouvez configurer pour activer et désactiver l’archivage des communications internes ou externes pour un utilisateur spécifique ou un groupe d’utilisateurs. Une stratégie utilisateur remplace la stratégie globale et les stratégies de site, mais uniquement pour les utilisateurs et les groupes d’utilisateurs auxquels vous attribuez des stratégies d’archivage de niveau utilisateur. Vous pouvez modifier ou supprimer les stratégies utilisateur.
     
 > [!NOTE]
-> Stratégies d’archivage s’appliquent uniquement aux utilisateurs hébergés sur Skype pour Business Server. Si vous utilisez l’intégration d’Exchange pour stocker les données dans Microsoft Exchange, puis Exchange 2013 stratégies d’archivage contrôle l’archivage pour les utilisateurs hébergés sur Exchange 2013. Pour activer l’archivage pour les utilisateurs, boîte aux lettres de l’utilisateur doit être placé sur le blocage sur Place. 
+> Stratégies d’archivage s’appliquent uniquement aux utilisateurs hébergés sur Skype pour Business Server. Si vous utilisez l’intégration d’Exchange pour stocker les données d’archivage dans Microsoft Exchange, Exchange l’archivage de contrôle des stratégies pour les utilisateurs hébergés sur Exchange. Pour activer l’archivage pour les utilisateurs, boîte aux lettres de l’utilisateur doit être placé sur le blocage sur Place. 
   
 La page **Stratégie d’archivage** répertorie toutes les stratégies d’archivage configurées pour votre déploiement. Elle indique également le nom de stratégie, l’étendue (globale, de site ou utilisateur) et les options d’archivage activées pour chaque stratégie d’archivage. La page **Stratégie d’archivage** propose les options suivantes :
 - **Nouveau** Vous pouvez ajouter une ou plusieurs des stratégies d’archivage facultatives suivantes :

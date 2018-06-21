@@ -3,7 +3,6 @@ title: Configuration de l’archivage
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: 'Vous utilisez des configurations d’archivage au contrôle options d’archivage pour votre Skype pour le déploiement de serveur d’entreprise, y compris l’activation et désactivation des options suivantes :'
-ms.openlocfilehash: c35991318159196fd131a20ef3f36719eefa9dd1
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3bac88f44fea669c0eb1219046067f1e348c413c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973212"
 ---
 # <a name="archiving-configuration"></a>Configuration de l’archivage
  
@@ -24,7 +24,7 @@ Vous utilisez des configurations d’archivage au contrôle options d’archivag
   
 - Blocage des sessions de messagerie instantanée ou de conférence en cas d’échec de l’archivage
     
-- Intégration avec le stockage Exchange 2013, pour les utilisateurs hébergés sur Exchange 2013
+- Intégration avec le stockage Exchange, pour les utilisateurs hébergés sur Exchange
     
 - Purge des données archivées
     
@@ -37,7 +37,7 @@ Les configurations d’archivage incluent la configuration globale, ainsi, éven
 - **Configuration du pool (facultative)** Vous pouvez spécifier un ou plusieurs pool configuration d’archivage, au contrôle options d’archivage d’un pool spécifique. Une configuration de pool remplace la configuration globale et la configuration de site, mais seulement pour les pools spécifiés dans les configurations d’archivage de pool. Vous pouvez modifier ou supprimer les configurations de pool.
     
 > [!NOTE]
-> Les configurations d’archivage s’appliquent aux utilisateurs hébergés sur Skype pour Business Server et que, si vous utilisez Exchange pour stocker les données d’archivage dans Microsoft Exchange, les utilisateurs hébergés sur Exchange 2013, mais sont implémentées légèrement différemment pour les utilisateurs hébergés sur Exchange 2013. Ces différences sont décrites dans la section suivante. 
+> Les configurations d’archivage s’appliquent aux utilisateurs hébergés sur Skype pour Business Server et que, si vous utilisez Exchange pour stocker les données d’archivage dans Microsoft Exchange, les utilisateurs hébergés sur Exchange mais sont implémentées différemment pour les utilisateurs hébergés sur Exchange. Ces différences sont décrites dans la section suivante. 
   
 La page **Configuration d’archivage** répertorie toutes les stratégies d’archivage configurées pour votre déploiement. Elle indique également le nom de stratégie, l’étendue (globale, de site ou de pool) et les options d’archivage activées pour chaque configuration d’archivage. La page **Configuration d’archivage** propose les options suivantes :
 - **Nouveau** Vous pouvez ajouter une ou plusieurs de chacune des configurations d’archivage facultatives suivantes.

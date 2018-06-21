@@ -3,7 +3,6 @@ title: Parcage d’appel
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: Lors de la mise en garde un appel, il est transféré vers un numéro temporaire où l’appel est conservé jusqu'à ce qu’une personne récupère ou qu’il arrive à expiration. Vous devez configurer un tableau avec les plages de numéros de poste que vous réservez pour les appels mis en garde. Ces postes doivent être des postes virtuels (autrement dit, des postes auxquels aucun utilisateur ni téléphone n’est affecté). Chaque pool qui exécute l’application de parcage d’appel peut avoir une ou plusieurs plages d’extensions. Ces plages doivent être globalement uniques dans votre déploiement.
-ms.openlocfilehash: 64cd83d8efd692b7ac6d221588eb3b56dead2c0b
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 03c435b5fa67fc5a9ee8f1d89f1e68c2d7cb7073
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966052"
 ---
 # <a name="call-park"></a>parcage d’appel
  
@@ -54,6 +54,6 @@ La liste ci-dessous décrit les champs de la page.
     
 - **Destination** Le nom de domaine complet (FQDN) de nom ou ID de service du service d’Application qui héberge l’application de parcage d’appel pour la plage de numéros.
     
-Pour plus d’informations sur les fonctionnalités de parcage d’appel, voir [planifier la mise en garde d’appels dans Skype pour Business 2015](../../../plan-your-deployment/enterprise-voice-solution/call-park.md). Pour plus d’informations sur l’utilisation des plages de numéros de parcage d’appel, voir [Configurer les Extensions numéro de téléphone pour les appels parcage](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).
+Pour plus d’informations sur les fonctionnalités de parcage d’appel, voir [planifier la mise en garde d’appels dans Skype pour les entreprises](../../../plan-your-deployment/enterprise-voice-solution/call-park.md). Pour plus d’informations sur l’utilisation des plages de numéros de parcage d’appel, voir [Configurer les Extensions numéro de téléphone pour les appels parcage](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).
   
 

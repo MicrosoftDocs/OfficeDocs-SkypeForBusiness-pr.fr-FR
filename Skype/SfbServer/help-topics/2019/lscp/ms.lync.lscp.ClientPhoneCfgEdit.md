@@ -1,9 +1,8 @@
 ---
 title: Créer ou modifier une existant de la Configuration du périphérique
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: Dans la page nouvelle Configuration de périphérique ou de modifier la Configuration du périphérique, vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer les Skype pour Business Phone Edition. Ces paramètres vous permettent de configurer des éléments, comme le mode de sécurité nécessaire, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et le verrouillage automatique ou non des téléphones après une période d’inactivité spécifiée.
-ms.openlocfilehash: 36ea2c25cbf95cedaf6303a92e8bf77f9611aa3b
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: f2bea8a2bdeb5a217444cfa18706adfa087a7229
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979350"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Configuration du périphérique : création d’un périphérique ou modification d’un périphérique existant
  
@@ -60,10 +60,6 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
     
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Configuration du périphérique](ms.lync.lscp.ClientDeviceCfgMain.md)
-#### 
 
 [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
-

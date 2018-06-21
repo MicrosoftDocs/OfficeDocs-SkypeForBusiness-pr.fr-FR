@@ -3,7 +3,6 @@ title: Ajouter avant un magasin SQL Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 description: Un déploiement du serveur Standard Edition installe automatiquement le logiciel de base de données Microsoft SQL Server Express requis et la base de données SQL Server. Par conséquent, toutes les options sont préremplies, et vous ne pouvez pas modifier la configuration par défaut.
-ms.openlocfilehash: facb2e91511323e6fc87015016b060ba5076c8f6
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 2b7527207974310c30b559011a580fe8871164d1
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964490"
 ---
 # <a name="add-front-end-sql-server-store"></a>Ajouter avant un magasin SQL Server
  
@@ -24,7 +24,7 @@ Un déploiement du serveur Standard Edition installe automatiquement le logiciel
   
 Le pool frontal d’un déploiement de serveur Enterprise Edition nécessite une édition 64 bits prise en charge du logiciel de base de données SQL Server pour la base de données principale. Vous pouvez sélectionner une base de données SQL Server précédemment défini à utiliser pour la base de données principale, ou définir une nouvelle base de données SQL Server en spécifiant un nom de domaine complet (FQDN) du serveur sur lequel la base de données SQL Server doit résider et l’instance de SQL S serveur que vous souhaitez utiliser pour la nouvelle base de données SQL Server (qui peut être l’instance par défaut ou une instance nommée que vous spécifiez). Vous pouvez également choisir d’activer la mise en miroir sur le magasin SQL Server et spécifier un témoin de mise en miroir pour le basculement automatique.
   
-Pour plus d’informations sur SQL Server prennent en charge, voir le [logiciel de base de données et le clustering avec prise en charge](http://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx) dans la documentation de prise en charge. Pour plus d’informations sur la configuration de SQL Server pour la base de données principale, consultez [Configurer SQL Server pour Lync Server 2010](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx) dans la documentation de déploiement.
+Pour plus d’informations sur SQL Server prennent en charge, voir le [logiciel de base de données et le clustering avec prise en charge](http://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx) dans la documentation de prise en charge. Pour plus d’informations sur la configuration de SQL Server pour la base de données principale, consultez [Configurer SQL Server](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx) dans la documentation de déploiement.
   
 > [!NOTE]
 > Si le compte qui est utilisé pour publier la topologie possède les droits d’utilisateur appropriés et les autorisations, vous pouvez créer la base de données principale (communications en temps réel (RTC)) lorsque vous publiez votre topologie. Vous pouvez également créer la base de données ultérieurement, y compris dans le cadre de la procédure d’installation. 

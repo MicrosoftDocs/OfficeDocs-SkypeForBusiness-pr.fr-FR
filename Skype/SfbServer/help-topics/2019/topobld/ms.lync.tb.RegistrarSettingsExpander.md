@@ -3,7 +3,6 @@ title: Expanseur des paramètres du serveur d’inscriptions
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: Résistance fournit une haute disponibilité et récupération d’urgence pour le pool de serveurs d’inscriptions. En fournissant une serveur d’inscriptions de sauvegarde en cas de défaillance d’inscriptions principale, la sauvegarde de serveurs d’inscriptions peut prendre en charge pour le serveur d’inscriptions ayant échoué, permettant aux utilisateurs de se connecter et communiquer. Les utilisateurs peuvent bénéficier potentiellement avec fonctionnalités réduites, selon lequel les systèmes ont échoué avec le serveur d’inscriptions principal.
-ms.openlocfilehash: 9d8460f0a883dfabc55153744ba4f3f886b34898
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b1609bfa8fd3fe9fb58d02c2154a3427c5ba94c0
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964687"
 ---
 # <a name="registrar-settings-expander"></a>Expanseur des paramètres du serveur d’inscriptions
  

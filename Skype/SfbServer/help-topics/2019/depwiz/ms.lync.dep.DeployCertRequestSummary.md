@@ -3,7 +3,6 @@ title: Demande de certificat (résumé)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
 description: La page Résumé de demande de certificat affiche un résumé détaillé de toutes les options et les configurations pour le certificat. Ce résumé récapitule tout ce que contient la demande de certificat, et ultérieurement, comment le certificat sera émis. Passez soigneusement en revue le résumé afin de vous assurer que toutes les entrées et les options que vous avez sélectionnées sont correctes. Si vos sélections sont correctes, cliquez sur Suivant pour continuer la génération de la demande et préparer pour l’envoi à l’autorité de Certification (CA).
-ms.openlocfilehash: b1724300480560f92425d5eada02523826784370
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 5345078a9b05ad5966eff0b00f40229f1de57d82
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19975812"
 ---
 # <a name="certificate-request-summary"></a>Demande de certificat (résumé)
  

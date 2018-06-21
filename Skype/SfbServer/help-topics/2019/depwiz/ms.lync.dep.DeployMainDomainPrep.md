@@ -3,7 +3,6 @@ title: Préparer le domaine actuel
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
-description: 'Pour préparer un domaine à héberger des serveurs exécutant Skype pour Business Server 2015 ou Skype pour les utilisateurs Business Server, vous devez effectuer étape 5 : préparer le domaine actuel, comme décrit dans la rubrique à l’aide du programme d’installation pour exécuter la préparation du domaine. Pour cela, vous devez être connecté en tant que membre du groupe Administrateurs du domaine dans le domaine que vous préparez ou en tant que membre du groupe Administrateurs d’entreprise de la forêt à laquelle le domaine appartient. Pour préparer le domaine :'
-ms.openlocfilehash: e34498dd44d7518300b0e7d4df6a5135b8e51a2d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'Pour préparer un domaine à héberger des serveurs exécutant Skype pour Business Server ou Skype pour les utilisateurs Business Server, vous devez effectuer étape 5 : préparer le domaine actuel, comme décrit dans la rubrique à l’aide du programme d’installation pour exécuter la préparation du domaine. Pour cela, vous devez être connecté en tant que membre du groupe Administrateurs du domaine dans le domaine que vous préparez ou en tant que membre du groupe Administrateurs d’entreprise de la forêt à laquelle le domaine appartient. Pour préparer le domaine :'
+ms.openlocfilehash: 7b67521cef97efd2bdfc0da344a8619272899340
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979889"
 ---
 # <a name="prepare-current-domain"></a>Préparer le domaine actuel
  
-Pour préparer un domaine à héberger des serveurs exécutant Skype pour Business Server 2015 ou Skype pour les utilisateurs Business Server, vous devez effectuer **étape 5 : préparer le domaine actuel**, comme décrit dans la rubrique [à l’aide du programme d’installation pour exécuter la préparation du domaine](http://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx). Pour cela, vous devez être connecté en tant que membre du groupe Administrateurs du domaine dans le domaine que vous préparez ou en tant que membre du groupe Administrateurs d’entreprise de la forêt à laquelle le domaine appartient. Pour préparer le domaine :
+Pour préparer un domaine à héberger des serveurs exécutant Skype pour Business Server ou Skype pour les utilisateurs Business Server, vous devez effectuer **étape 5 : préparer le domaine actuel**, comme décrit dans la rubrique [à l’aide du programme d’installation pour exécuter la préparation du domaine](http://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx). Pour cela, vous devez être connecté en tant que membre du groupe Administrateurs du domaine dans le domaine que vous préparez ou en tant que membre du groupe Administrateurs d’entreprise de la forêt à laquelle le domaine appartient. Pour préparer le domaine :
   
 1. À partir de Skype pour le dossier d’installation Business Server 2015 ou du support, exécutez Setup.exe pour démarrer le Skype pour l’Assistant de déploiement Business Server.
     

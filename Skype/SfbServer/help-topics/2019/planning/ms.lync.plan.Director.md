@@ -3,7 +3,6 @@ title: Directeur (outil de planification)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/8/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-description: Un directeur est un serveur exécutant Skype pour le logiciel de communication Business Server 2015 qui peut authentifier les demandes des utilisateurs, mais qui n’héberge pas des comptes d’utilisateurs.
-ms.openlocfilehash: b379388b05e4beda934b13517f36bc792b6f0748
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: Un directeur est un serveur exécutant Skype pour le logiciel de communication Business Server qui peut authentifier les demandes des utilisateurs, mais qui n’héberge pas des comptes d’utilisateurs.
+ms.openlocfilehash: a1920d11ed354cab3409a9f2a1fd39280ce2d29d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19975987"
 ---
 # <a name="director-planning-tool"></a>Directeur (outil de planification)
  
-Un directeur est un serveur exécutant Skype pour le logiciel de communication Business Server 2015 qui peut authentifier les demandes des utilisateurs, mais qui n’héberge pas des comptes d’utilisateurs. 
+Un directeur est un serveur exécutant Skype pour le logiciel de communication Business Server qui peut authentifier les demandes des utilisateurs, mais qui n’héberge pas des comptes d’utilisateurs. 
   
 Ce rôle est facultatif, que choisissez de déployer un directeur dans les deux scénarios suivants :
   

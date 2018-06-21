@@ -3,7 +3,6 @@ title: Ajouter un magasin SQL Server du serveur de surveillance
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 description: Le serveur de surveillance requiert une édition 64 bits prise en charge du logiciel de base de données SQL Server pour stocker les données d’analyse. Vous pouvez sélectionner une base de données SQL Server précédemment défini pour être utilisé pour la surveillance, ou définir une nouvelle base de données SQL Server en spécifiant un nom de domaine complet (FQDN) du serveur sur lequel la base de données SQL Server réside, en plus de l’instance de SQL Serveur que vous souhaitez utiliser pour la nouvelle base de données SQL Server (qui peut être l’instance par défaut ou une instance nommée que vous spécifiez).
-ms.openlocfilehash: f52f44acd9ca57112da75fcc368d8ebaae99b081
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 362f4be3d778d0c5607f6c0ee1233d85d6b9149e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19969770"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>Ajouter un magasin SQL Server du serveur de surveillance
  

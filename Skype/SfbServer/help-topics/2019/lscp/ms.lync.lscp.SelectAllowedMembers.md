@@ -3,7 +3,6 @@ title: Sélection des membres autorisés
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: Création et gestion des salles de conversation permanente sont beaucoup plus facile avec l’utilisation correcte des catégories. Un administrateur de conversation permanente peut définir AllowedMembers et créateurs pour chaque catégorie et peuvent également définir les paramètres de salle de conversation par défaut et les comportements qui seront appliquées à toutes les salles de conversation créées dans la catégorie. Les administrateurs de conversation permanente créer et gérer des catégories à l’aide du Panneau de configuration ou les applets de commande Windows PowerShell.
-ms.openlocfilehash: 0f5dc076b5eacc896e2de8f93373632d57c5c1a2
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: f83ff99905a9c2ada133c6a21d235a8385261545
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974669"
 ---
 # <a name="select-allowed-members"></a>Sélection des membres autorisés
  
@@ -44,7 +44,4 @@ Pour plus d’informations sur les serveurs de conversation permanente des fonct
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Présentation de l’appartenance de conversation permanente](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
-

@@ -3,7 +3,6 @@ title: Ajout du nom de domaine complet du serveur d’interopérabilité vidéo 
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e868ae2-57d9-449f-85be-6133c0cbd4f6
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server 2015.
-ms.openlocfilehash: 35b9d5a92fa87733168d42deed531f4b8a1c224f
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: a732b7371872f6ccbda53fc069eb610bd1e027c8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19967844"
 ---
 # <a name="add-vis-fqdn"></a>Ajout du nom de domaine complet du serveur d’interopérabilité vidéo (VIS)
  
@@ -32,7 +32,4 @@ Les étapes de configuration pour un nouveau serveur d’interopérabilité vid�
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Planification de serveur interopérabilité vidéo dans Skype Business Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

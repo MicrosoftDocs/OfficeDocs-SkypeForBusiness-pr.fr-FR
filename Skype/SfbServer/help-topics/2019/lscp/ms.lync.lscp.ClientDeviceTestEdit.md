@@ -1,9 +1,8 @@
 ---
 title: Périphérique de test créer ou modifier une existant
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: La fonctionnalité Périphérique de test fonctionne conjointement à la fonctionnalité Mise à jour du périphérique. Vous pouvez ajouter un périphérique de test à la page périphérique de Test et puis utiliser ce périphérique pour vérifier la fonctionnalité de nouvelles mises à jour avant de déployer les mises à jour sur les périphériques de production. Vous pouvez tester un périphérique globalement (dans tout votre environnement) ou sur un site unique. Vous identifiez un périphérique de test grâce à son adresse MAC (Media Access Control) ou son numéro de série. Lorsque vous ajoutez un périphérique, il s’affiche dans la liste dans la page périphérique de Test de la Skype pour le panneau de configuration serveur Business.
-ms.openlocfilehash: 0eb79ad604b228ce4531738b4f7f1423ab5b98e2
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3f3c896f0ec6c373a4edfc3049a9838b815bb448
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974256"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>Périphérique de test : création d’un périphérique ou modification d’un périphérique existant
  
@@ -51,14 +51,10 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 Pour plus d’informations sur le test des périphériques, voir [Ajouter un périphérique pour tester la fonctionnalité de mise à jour](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) dans la documentation des opérations.
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Périphérique de test](ms.lync.lscp.ClientDeviceTestMain.md)
-#### 
 
 [Nouvelle-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   
 [Set-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
   
 [View Software Updates for Devices dans votre organisation](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
-
