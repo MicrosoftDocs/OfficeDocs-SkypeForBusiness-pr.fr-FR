@@ -3,7 +3,6 @@ title: Récupération d’urgence (outil de planification)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/8/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
-description: Skype pour Business Server 2015 inclut d’urgence des mesures de récupération en vous permettant de paire de pools frontaux situés dans deux centres de données.
-ms.openlocfilehash: 0efcf3d2c93ef97bcf81b80868a26f0420587bb7
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Skype pour Business Server inclut d’urgence des mesures de récupération en vous permettant de paire de pools frontaux situés dans deux centres de données.
+ms.openlocfilehash: 4b2e649008321444663cf2030c0fea174b2e72d3
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987815"
 ---
-# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="a710e-103">Récupération d’urgence (outil de planification)</span><span class="sxs-lookup"><span data-stu-id="a710e-103">Disaster Recovery (Planning Tool)</span></span>
+# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="31525-103">Récupération d’urgence (outil de planification)</span><span class="sxs-lookup"><span data-stu-id="31525-103">Disaster Recovery (Planning Tool)</span></span>
  
-<span data-ttu-id="a710e-104">Skype pour Business Server 2015 inclut d’urgence des mesures de récupération en vous permettant de paire de pools frontaux situés dans deux centres de données.</span><span class="sxs-lookup"><span data-stu-id="a710e-104">Skype for Business Server 2015 includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
+<span data-ttu-id="31525-104">Skype pour Business Server inclut d’urgence des mesures de récupération en vous permettant de paire de pools frontaux situés dans deux centres de données.</span><span class="sxs-lookup"><span data-stu-id="31525-104">Skype for Business Server includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
   
-<span data-ttu-id="a710e-105">Pour plus d’informations sur la préparation de votre environnement pour la récupération d’urgence, voir [planifier la haute disponibilité et de récupération d’urgence dans Skype pour Business Server 2015](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="a710e-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
+<span data-ttu-id="31525-105">Pour plus d’informations sur la préparation de votre environnement pour la récupération d’urgence, voir [planifier la haute disponibilité et de récupération d’urgence dans Skype pour Business Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="31525-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
   
 

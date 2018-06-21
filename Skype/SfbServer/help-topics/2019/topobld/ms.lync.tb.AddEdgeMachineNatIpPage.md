@@ -3,7 +3,6 @@ title: Ajouter l’adresse IP NAT l’ordinateur Edge
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 description: Si l’adresse IP publique de ce pool Edge est traduit par une traduction d’adresses réseau (NAT), vous devez spécifier l’adresse IP publique à traduire. Il doit s’agir de l’adresse IP externe d’A / V Edge service.
-ms.openlocfilehash: a6c63fc740a9833099b3582418ec2f53a9197421
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c0672bfa4ffacb10432713c7248a0a6355f4f57e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991570"
 ---
-# <a name="add-edge-machine-nat-ip"></a><span data-ttu-id="c0377-104">Ajouter l’adresse IP NAT l’ordinateur Edge</span><span class="sxs-lookup"><span data-stu-id="c0377-104">Add Edge Machine NAT IP</span></span>
+# <a name="add-edge-machine-nat-ip"></a><span data-ttu-id="eaad8-104">Ajouter l’adresse IP NAT l’ordinateur Edge</span><span class="sxs-lookup"><span data-stu-id="eaad8-104">Add Edge Machine NAT IP</span></span>
  
-<span data-ttu-id="c0377-105">Si l’adresse IP publique de ce pool Edge est traduit par une traduction d’adresses réseau (NAT), vous devez spécifier l’adresse IP publique à traduire.</span><span class="sxs-lookup"><span data-stu-id="c0377-105">If the public IP address of this Edge pool is translated by a network address translation (NAT), you must specify the public IP address to be translated.</span></span> <span data-ttu-id="c0377-106">Il doit s’agir de l’adresse IP externe d’A / V Edge service.</span><span class="sxs-lookup"><span data-stu-id="c0377-106">This should be the external IP address of the A/V Edge service.</span></span>
+<span data-ttu-id="eaad8-105">Si l’adresse IP publique de ce pool Edge est traduit par une traduction d’adresses réseau (NAT), vous devez spécifier l’adresse IP publique à traduire.</span><span class="sxs-lookup"><span data-stu-id="eaad8-105">If the public IP address of this Edge pool is translated by a network address translation (NAT), you must specify the public IP address to be translated.</span></span> <span data-ttu-id="eaad8-106">Il doit s’agir de l’adresse IP externe d’A / V Edge service.</span><span class="sxs-lookup"><span data-stu-id="eaad8-106">This should be the external IP address of the A/V Edge service.</span></span>
   
-<span data-ttu-id="c0377-107">Pour déterminer si le pool de serveurs Edge utilise la traduction NAT, cliquez sur le nom du pool de serveurs Edge, cliquez sur **Modifier les propriétés**.</span><span class="sxs-lookup"><span data-stu-id="c0377-107">To change whether the Edge pool uses NAT translation, right-click the name of the Edge pool and click **Edit Properties**.</span></span>
+<span data-ttu-id="eaad8-107">Pour déterminer si le pool de serveurs Edge utilise la traduction NAT, cliquez sur le nom du pool de serveurs Edge, cliquez sur **Modifier les propriétés**.</span><span class="sxs-lookup"><span data-stu-id="eaad8-107">To change whether the Edge pool uses NAT translation, right-click the name of the Edge pool and click **Edit Properties**.</span></span>
   
 
