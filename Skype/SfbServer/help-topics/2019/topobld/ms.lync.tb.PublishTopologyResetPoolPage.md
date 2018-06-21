@@ -3,7 +3,6 @@ title: 'Publier la topologie : page Réinitialiser les pools'
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,21 +11,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 description: Cette rubrique fait partie de la documentation préliminaire. Elle est susceptible d’être modifiée lors des prochaines mises à jour. Les rubriques vides apparaissent sous la forme d’espaces réservés.
-ms.openlocfilehash: 7a56f502e5e0f6f2747076e5eab423e91d363f20
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 20cea17c618ecab64e9d18668b63dd5d9d2b93b7
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974914"
 ---
-# <a name="publish-topology-reset-pool-page"></a><span data-ttu-id="2c4e2-104">Publier la topologie : page Réinitialiser les pools</span><span class="sxs-lookup"><span data-stu-id="2c4e2-104">Publish Topology Reset Pool Page</span></span>
+# <a name="publish-topology-reset-pool-page"></a><span data-ttu-id="3828c-104">Publier la topologie : page Réinitialiser les pools</span><span class="sxs-lookup"><span data-stu-id="3828c-104">Publish Topology Reset Pool Page</span></span>
  
-<span data-ttu-id="2c4e2-p102">Cette rubrique fait partie de la documentation préliminaire. Elle est susceptible d’être modifiée lors des prochaines mises à jour. Les rubriques vides apparaissent sous la forme d’espaces réservés.</span><span class="sxs-lookup"><span data-stu-id="2c4e2-p102">This is preliminary documentation and is subject to change. Blank topics are included as placeholders.</span></span>
+<span data-ttu-id="3828c-p102">Cette rubrique fait partie de la documentation préliminaire. Elle est susceptible d’être modifiée lors des prochaines mises à jour. Les rubriques vides apparaissent sous la forme d’espaces réservés.</span><span class="sxs-lookup"><span data-stu-id="3828c-p102">This is preliminary documentation and is subject to change. Blank topics are included as placeholders.</span></span>
   
-<span data-ttu-id="2c4e2-p103">Pour ajouter de nouveaux ordinateurs à un pool existant, vous devez réinitialiser le pool afin de permettre la redéfinition des connexions entre les membres du pool par Windows Fabric. À cet effet, sélectionnez le pool auquel vous avez ajouté des serveurs, puis cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="2c4e2-p103">To add new computers to an existing pool, you must reset the pool to allow the Windows Fabric to redefine the connections between all members of the pool. To do this, select the pool that you have added servers to, and then click **Next**.</span></span>
+<span data-ttu-id="3828c-p103">Pour ajouter de nouveaux ordinateurs à un pool existant, vous devez réinitialiser le pool afin de permettre la redéfinition des connexions entre les membres du pool par Windows Fabric. À cet effet, sélectionnez le pool auquel vous avez ajouté des serveurs, puis cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="3828c-p103">To add new computers to an existing pool, you must reset the pool to allow the Windows Fabric to redefine the connections between all members of the pool. To do this, select the pool that you have added servers to, and then click **Next**.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="2c4e2-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2c4e2-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3828c-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3828c-109">See also</span></span>
 
-#### 
-
-[<span data-ttu-id="2c4e2-110">Créer et publier la nouvelle topologie dans Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="2c4e2-110">Create and publish new topology in Skype for Business Server 2015</span></span>](../../../deploy/install/create-and-publish-new-topology.md)
-
+[<span data-ttu-id="3828c-110">Créer et publier la nouvelle topologie dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="3828c-110">Create and publish new topology in Skype for Business Server</span></span>](../../../deploy/install/create-and-publish-new-topology.md)
