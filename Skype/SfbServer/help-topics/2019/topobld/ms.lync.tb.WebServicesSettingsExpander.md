@@ -3,7 +3,6 @@ title: Expanseur des paramètres des services web
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: Dans le Générateur de topologie, vous pouvez modifier les paramètres de port utilisés pour les deux vos services web internes et externes. En outre, et si vous déployez l’équilibrage de charge de nom de domaine DNS (Domain Name System), vous pouvez utiliser le Générateur de topologie pour configurer le nom de domaine complet (FQDN) du pool qui résout les adresses IP physique de tous les serveurs de ce pool.
-ms.openlocfilehash: 537f9faaf89fbf82e80741d022e0913aa57a02f9
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 775268e598120e28ff6402ac09483e6fa987eceb
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19997072"
 ---
 # <a name="web-services-settings-expander"></a>Expanseur des paramètres des services web
  

@@ -3,7 +3,6 @@ title: SQL Server Reporting Services (groupes)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 description: Dans le groupe en lecture seule spécifier, spécifiez le groupe auquel vous souhaitez accorder l’accès en lecture seule aux rapports de surveillance.
-ms.openlocfilehash: 04cea84802e02eb4ddcc976d9fc8cd400896536c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 34275bcb00efca6be0bdf90704db98447ef116f5
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19996904"
 ---
 # <a name="sql-server-reporting-services-groups"></a>SQL Server Reporting Services (groupes)
 

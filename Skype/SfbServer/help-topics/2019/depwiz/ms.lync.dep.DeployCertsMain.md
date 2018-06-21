@@ -3,7 +3,6 @@ title: Assistant Certificat
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 description: Pour demander, affecter, supprimer ou afficher les certificats, vous utilisez l’Assistant certificat. Vous devez être connecté en tant que membre du groupe RTCUniversalServerAdmins. Pour demander un certificat à une autorité de certification publique, il n’est pas nécessaire que vous soyez membre d’autres groupes. Pour demander un certificat à partir clé publique de votre organisation (PKI), vous devez vérifier que supplémentaires, le cas échéant, vous aurez besoin des appartenances de groupe. Au cours de la tâche de demande, vous pouvez entrer les informations d’identification de substitution qui seront utilisées pour demander que le certificat à partir de votre infrastructure à clé publique de l’autorité de certification.
-ms.openlocfilehash: d700a6cae510bbc12ed2e37c9c3df166d2704269
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 5216b190aafc095f00cd66e931c84caebd115a69
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19997037"
 ---
 # <a name="certificate-wizard"></a>Assistant Certificat
  
