@@ -3,7 +3,6 @@ title: Nœud d’étendue du directeur
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: 'Ce nœud affiche le nom de domaine complet (FQDN), les ports et le magasin de fichiers associé pour ce pool directeur. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: fb9a6f02a4db449ff07589be10f691763ac91f9d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 24643997de1000007357515db0883a41dbddac2c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987271"
 ---
 # <a name="director-scope-node"></a>Nœud d’étendue du directeur
  

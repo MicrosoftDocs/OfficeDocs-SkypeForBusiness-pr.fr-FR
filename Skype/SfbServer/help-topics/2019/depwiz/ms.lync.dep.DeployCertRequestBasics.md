@@ -3,7 +3,6 @@ title: Demande de certificat (élémentaire)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: La page Nom et paramètres de sécurité fournit une zone de texte pour définir le nom convivial, une liste déroulante pour la longueur en bits de la paire de clés privée et publique et une case à cocher qui vous permet de marquer la clé privée du certificat comme exportable.
-ms.openlocfilehash: e9c70074a168b00288b931cb168b5fea210367c2
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9b8e306c9fa7611622e293185dcf08ff97d3e876
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991984"
 ---
 # <a name="certificate-request-basic"></a>Demande de certificat (élémentaire)
  

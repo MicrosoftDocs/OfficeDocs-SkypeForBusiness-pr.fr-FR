@@ -3,7 +3,6 @@ title: File d’attente de groupes de réponses créer ou modifier une existant
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: Files d’attente les appels vers un groupe de réponse jusqu'à ce qu’un agent répond à l’appel.
-ms.openlocfilehash: 7927efe94ee913921c2ddf139d2643084127bfc0
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: c9ae9953248804de592f05243ef5a11009c7e045
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19988354"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>File d’attente Response Group : création d’une file d’attente ou modification d’une file d’attente existante
  
@@ -68,6 +68,6 @@ La liste ci-dessous décrit les champs de la page.
     
   - **Transférer vers une autre file d’attente** Si vous sélectionnez cette option, accédez à la file d’attente qui recevra les appels lorsque le seuil de saturation de file d’attente est remplie.
     
-Pour plus d’informations sur les fonctionnalités de Response Group, consultez [planification de l’application Response Group dans Skype pour Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des files d’attente, voir [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités de Response Group, voir [planification de l’application Response Group dans Skype pour Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Pour plus d’informations sur l’utilisation des files d’attente, voir [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) dans la documentation des opérations.
   
 

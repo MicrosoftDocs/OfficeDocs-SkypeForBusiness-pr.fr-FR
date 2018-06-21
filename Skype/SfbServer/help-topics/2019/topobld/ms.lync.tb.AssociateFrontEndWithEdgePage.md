@@ -3,7 +3,6 @@ title: Associer un pool frontal à un serveur Edge
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 description: Chaque pool frontal ne peut être associé qu’à un seul serveur Edge ou pool de serveurs Edge. Lorsque vous permettez à un utilisateur externe d’accéder à un site, vous pouvez fournir une prise en charge des utilisateurs distants. Vous pouvez également autoriser la prise en charge des utilisateurs fédérés, qui peut inclure la prise en charge des utilisateurs de fournisseurs de connectivité PIC (Public Instant Messaging) spécifiques (comme Windows Live), ainsi que la prise en charge des utilisateurs anonymes.
-ms.openlocfilehash: ab8ee5ae7ca44b6b4aa70b355cf9d406f69e64f7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b4faaf7e6708af6b369846391087ac35742e1d42
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987339"
 ---
 # <a name="associate-front-end-with-edge"></a>Associer un pool frontal à un serveur Edge
  

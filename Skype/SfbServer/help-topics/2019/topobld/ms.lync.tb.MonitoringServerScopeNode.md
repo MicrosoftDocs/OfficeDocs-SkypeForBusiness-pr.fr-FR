@@ -3,7 +3,6 @@ title: Nœud d’étendue de surveillance
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
-description: 'Dans le Générateur de topologies Lync Server 2013, vous pouvez effectuer les tâches liées à un serveur exécutant la surveillance en double-cliquant sur le serveur exécutant la surveillance dans l’arborescence de la console, cliquez sur Action dans la barre d’outils, ou à cliquer sur une tâche dans le volet Actions, puis en cliquant sur une des options suivantes pour le serveur de surveillance :'
-ms.openlocfilehash: f1e59900993444218df820f81668c1c6d4762162
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'Dans le Générateur de topologie, vous pouvez effectuer les tâches liées à un serveur exécutant la surveillance en double-cliquant sur le serveur exécutant la surveillance dans l’arborescence de la console, cliquez sur Action dans la barre d’outils, ou en cliquant sur une tâche dans le volet Actions, puis en cliquant sur une des les options suivantes pour le serveur exécutant la surveillance :'
+ms.openlocfilehash: 006bfb85db15bd5d842644ca63edf55cf3b9b495
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987273"
 ---
 # <a name="monitoring-scope-node"></a>Nœud d’étendue de surveillance
  
-Dans le Générateur de topologies Lync Server 2013, vous pouvez effectuer les tâches liées à un serveur exécutant la surveillance en double-cliquant sur le serveur exécutant la surveillance dans l’arborescence de la console, cliquez sur **Action** dans la barre d’outils ou en cliquant sur une tâche dans les Actions volet, puis en cliquant sur une des options suivantes pour le serveur de surveillance :
+Dans le Générateur de topologie, vous pouvez effectuer les tâches liées à un serveur exécutant la surveillance en double-cliquant sur le serveur exécutant la surveillance dans l’arborescence de la console, cliquez sur **Action** dans la barre d’outils, ou à cliquer sur une tâche dans le volet Actions, puis en cliquant sur une des options suivantes pour le serveur de surveillance :
   
 - **Modifier les propriétés** Ouvre la page **Modifier les propriétés** pour le serveur de surveillance, où vous pouvez modifier le nom de domaine complet (FQDN) du serveur qui exécute l’analyse ou la base de données SQL Server de surveillance.
     

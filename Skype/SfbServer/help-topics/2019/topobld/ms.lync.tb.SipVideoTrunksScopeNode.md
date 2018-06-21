@@ -3,7 +3,6 @@ title: Nœud d’étendue des jonctions vidéo SIP (Session Initiation Protocol
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4df43f5-0563-4738-a020-7aec3bc46e17
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server 2015.
-ms.openlocfilehash: c2820d7da89d9fcce4debbe3bcb36fb69fe95b71
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 25d3dca762fdb799d265a2af422399328f4ec8d7
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987598"
 ---
 # <a name="sip-video-trunks-scope-node"></a>Nœud d’étendue des jonctions vidéo SIP (Session Initiation Protocol)
  
@@ -32,7 +32,4 @@ Les étapes de configuration pour un nouveau serveur d’interopérabilité vid�
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Planification de serveur interopérabilité vidéo dans Skype Business Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

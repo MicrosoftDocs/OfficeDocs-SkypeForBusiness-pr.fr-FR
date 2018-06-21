@@ -3,7 +3,6 @@ title: Installer la base de données créer la Page de base de données miroir
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: Cette rubrique fait partie de la documentation préliminaire. Elle est susceptible d’être modifiée lors des prochaines mises à jour. Les rubriques vides apparaissent sous la forme d’espaces réservés.
-ms.openlocfilehash: 9705e4502984cd8239038ef14916e8cd7959da56
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 9aa2538cf0fbdf45500af9782d5fe2901dcecb6f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991704"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Installer la base de données créer la Page de base de données miroir
  
@@ -26,12 +26,8 @@ Si vous choisissez ne pas à installer les bases de données miroir SQL Server p
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Déployer la mise en miroir de SQL pour la haute disponibilité de serveur principal dans Skype pour Business Server 2015](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
-#### 
+[Déployer la mise en miroir de SQL pour la haute disponibilité de serveur principal dans Skype pour Business Server](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 
 [Install-CsMirrorDatabase](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
   
 [Install-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps)
-

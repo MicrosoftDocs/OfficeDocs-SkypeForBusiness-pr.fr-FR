@@ -1,27 +1,26 @@
 ---
-title: Déplacer des données de magasin de fichiers vers un nouveau magasin de fichiers dans Skype Entreprise Server 2015
+title: Données de magasin de fichiers déplacement vers un nouveau magasin de fichiers dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/30/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
-description: 'Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en tant que le magasin de fichiers pour votre Skype pour le déploiement de Business Server 2015, ou si vous devez effectuer d’autres modifications que le fichier actuel stockent pas disponible, vous devez tout d’abord créer un nouveau partage. Ensuite, procédez comme suit :'
-ms.openlocfilehash: cb79fe34afee093647b7d871bdd3096ce6040f7a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en tant que le magasin de fichiers pour votre Skype pour le déploiement de serveur d’entreprise, ou si vous devez effectuer d’autres modifications que le fichier actuel stockent pas disponible, vous devez tout d’abord créer un nouveau partage. Ensuite, procédez comme suit :'
+ms.openlocfilehash: fd8869a7cd0ca5f29d839de373e3e7d2f3d76faa
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569420"
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19988270"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Déplacer des données de magasin de fichiers vers un nouveau magasin de fichiers dans Skype Entreprise Server 2015
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Données de magasin de fichiers déplacement vers un nouveau magasin de fichiers dans Skype pour Business Server
  
-Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en tant que le magasin de fichiers pour votre Skype pour le déploiement de Business Server 2015, ou si vous devez effectuer d’autres modifications que le fichier actuel stockent pas disponible, vous devez tout d’abord créer un nouveau partage. Ensuite, procédez comme suit :
+Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en tant que le magasin de fichiers pour votre Skype pour le déploiement de serveur d’entreprise, ou si vous devez effectuer d’autres modifications que le fichier actuel stockent pas disponible, vous devez tout d’abord créer un nouveau partage. Ensuite, procédez comme suit :
   
-1. Arrêtez le Skype pour les services Business Server 2015 qui utilisent le magasin de fichiers que vous souhaitez supprimer.
+1. Arrêtez le Skype pour les services Business Server qui utilisent le magasin de fichiers que vous souhaitez supprimer.
     
 2. Définir le magasin de fichiers dans le Générateur de topologie et de publier les modifications pour rendre le nouveau fichier stocker disponibles pour votre déploiement.
     
@@ -33,7 +32,7 @@ Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en 
     
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>Pour déplacer les données du magasin de fichiers d’un magasin de fichiers vers un autre
 
-1. Ouvrez une session un ordinateur en tant que membre du groupe RTCUniversersalServerAdmins ou CsServerAdministrator où le Skype pour Business Server 2015, outils d’administration sont installés.
+1. Ouvrez une session un ordinateur en tant que membre du groupe RTCUniversersalServerAdmins ou CsServerAdministrator où le Skype pour Business Server, outils d’administration sont installés.
     
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
@@ -43,7 +42,7 @@ Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en 
     
 5. Ouvrez une session sur l’ordinateur sur lequel le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
     
-6. Démarrer le Générateur de topologies : Cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business Server 2015**, puis cliquez sur **Skype pour le Générateur de 2015Topology Business Server**.
+6. Démarrer le Générateur de topologies : Cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business Server**, puis cliquez sur **Skype pour le Générateur de topologie Business Server**.
     
 7. Sélectionnez un serveur ou un pool qui utilise le magasin de fichiers et procédez comme suit :
     

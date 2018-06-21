@@ -3,7 +3,6 @@ title: Ajouter un Pool Survivable Branch Appliance
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 description: Pour définir le nom de domaine complet Survivable Branch Appliance, tapez le nom de domaine complet (FQDN) (telle que définie dans le système DNS (Domain Name System)) du Survivable Branch Appliance ou serveur Survivable Branch Server dans la zone de texte Nom de domaine complet. Cliquez sur Suivant pour continuer.
-ms.openlocfilehash: 3f85ecc60469db1d600939ab1bb7c84a8fb2ffe2
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 82d856b2decc925b0ee5882dd2db4d613fdb3d1f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987437"
 ---
 # <a name="add-survivable-branch-appliance-pool"></a>Ajouter un Pool Survivable Branch Appliance
  

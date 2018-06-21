@@ -1,9 +1,8 @@
 ---
 title: Configuration de Version du client
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: Outre la spécification de la version des clients que vous souhaitez prendre en charge dans votre environnement, vous pouvez également spécifier une action par défaut pour les clients qui n’ont pas encore définie une stratégie de version. Cela permet de limiter les versions du client sont utilisées dans votre environnement, qui peut vous aider à contrôler les coûts associés à la prise en charge de plusieurs versions du client.
-ms.openlocfilehash: 4b5f76d17c92d0dd478aa9a1a3fe902ccbf35c48
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f40a95956b2cee855dbdde0d9646afc44e187958
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990729"
 ---
 # <a name="client-version-configuration"></a>Configuration de Version du client
  
@@ -51,5 +51,5 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
     
 - **Actualiser** Vous pouvez actualiser la liste de configuration de version de client pour vérifier le statut des options de toutes les configurations de version du client.
     
-Pour plus d’informations sur l’interopérabilité entre les clients et les versions du client, voir [Client Interoperability in Lync 2013 Preview](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de version du client, voir [Modifier l’Action par défaut pour les Clients pas explicitement pris en charge ou restreints](http://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) dans la documentation des opérations.
+Pour plus d’informations sur l’interopérabilité entre les clients et les versions du client, voir [Interopérabilité des clients](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de version du client, voir [Modifier l’Action par défaut pour les Clients pas explicitement pris en charge ou restreints](http://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) dans la documentation des opérations.
 
