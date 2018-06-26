@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 671cf53eb911440c5ffa4da59dd2be65641acee3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2a075521ecba39799300e71dda5f0d2990d08f9a
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991683"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044423"
 ---
 # <a name="network-configuration-global-setting"></a>Configuration du réseau : Paramètres globaux
  
@@ -26,5 +26,5 @@ Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effect
     
 - [Activer le contournement de média](http://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
 

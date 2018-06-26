@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 71a70a7a62e8d9c6d9cb7d6b5a821ab8d97ae730
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a4e1ea4e9290438853f2bcbfb9e151e03217d583
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991802"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046227"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>Règle de normalisation : Créer une nouvelle ou en modifier une existant
  
@@ -26,5 +26,5 @@ Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effect
     
 - [Créer ou modifier une règle de normalisation manuellement](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
 

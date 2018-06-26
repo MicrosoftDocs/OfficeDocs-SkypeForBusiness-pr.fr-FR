@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 5e48c4df9eb4b4c40d51373a42e2afa635eb46dc
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7d88af697ba4ef3e73ee26d65c239b50641a7750
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972538"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045266"
 ---
 # <a name="dial-plan"></a>Plan de numérotation
  
@@ -30,5 +30,5 @@ Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effect
     
 - [Créer ou modifier une règle de normalisation manuellement](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
 

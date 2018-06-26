@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 0094be74f66b4e5e6fb70bd0e2c8c15bca2f284c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 556234eda8ee0e804ac885c8609675068149e0fd
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965471"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043989"
 ---
 # <a name="configure-a-network-region-route"></a>Configurer un itinéraire de région réseau
  
@@ -24,5 +24,5 @@ Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effect
   
 - [Configuration des itinéraires de région réseau](http://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
 

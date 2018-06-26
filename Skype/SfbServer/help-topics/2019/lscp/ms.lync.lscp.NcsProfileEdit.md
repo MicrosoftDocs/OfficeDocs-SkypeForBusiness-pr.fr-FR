@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: c16e338992b86dfbecf313037ac9a72e080fbdeb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b74596b03e76aed40df083db0b310417a858db8d
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979756"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045770"
 ---
 # <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>Profil de stratégie de bande passante : Créer une nouvelle ou en modifier une existant
  
@@ -24,5 +24,5 @@ Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effect
   
 - [Configuration du profil de stratégie de bande passante](http://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: b90ee1f363db347c32e29457c80e390858d257c3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 625381e1893478a650f9c9d9f811c33237fa5cee
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987941"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044339"
 ---
 # <a name="topology-view-service-detail"></a>Topologie : Afficher le détail de Service
  
@@ -30,5 +30,5 @@ Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effect
     
 - [Empêcher les nouvelles connexions aux Services](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
 

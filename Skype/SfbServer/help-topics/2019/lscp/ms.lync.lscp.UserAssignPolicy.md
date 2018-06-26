@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: d5b283658b0e38efb0c0e153e9058578f31be056
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cf071e29a12aca3f52deed997e2767ecb5e8426b
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992110"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045273"
 ---
 # <a name="users-assign-policies"></a>Utilisateurs : Attribuer des stratégies
  
@@ -26,7 +26,7 @@ Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effect
     
 - [Spécifier les Versions du Client prises en charge pour la connexion à un utilisateur](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [Affecter une stratégie de code confidentiel par utilisateur dans Skype pour Business Server 2015](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Affecter une stratégie de code confidentiel par utilisateur dans Skype pour Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [Configurer la fédération, l’accès des utilisateurs distants et la connectivité PIC pour les utilisateurs](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
@@ -40,5 +40,5 @@ Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effect
     
 - [Attribuer une stratégie de conversation permanente par utilisateur](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
 

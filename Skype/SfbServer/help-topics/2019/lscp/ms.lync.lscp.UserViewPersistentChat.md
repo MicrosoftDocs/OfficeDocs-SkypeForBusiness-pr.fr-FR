@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: Les membres du rôle CsPersistentChatAdministrator (administrateurs de conversation permanente) peuvent accorder des droits de gestionnaire de salle de conversation et des autorisations à d’autres utilisateurs et à eux-mêmes.
-ms.openlocfilehash: bc19f9d4ae7592bf1d3451bee01355c763cf3b1f
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 0b12223fd51158d2525986b2a475e62604ab7252
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045252"
 ---
 # <a name="users-view-persistent-chat"></a>Utilisateurs : Afficher la conversation permanente
  
@@ -44,6 +45,6 @@ Vous pouvez effectuer les tâches suivantes sur le **utilisateurs : afficher la
     
 - [Présentation de l’appartenance de conversation permanente](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
   
 

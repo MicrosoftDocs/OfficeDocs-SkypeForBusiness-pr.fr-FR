@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 58721fe8167521411a44520a8bfc268325e60a04
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 3f63a591f8b437e0a45606a55143c3f3f92cca73
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992236"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045686"
 ---
 # <a name="users-view-or-configure-client-version-policy"></a>Utilisateurs : Afficher ou configurer la stratégie de Version du Client
  
@@ -24,5 +24,5 @@ Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effect
   
 - [Spécifier les Versions du Client prises en charge pour la connexion à un utilisateur](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
 

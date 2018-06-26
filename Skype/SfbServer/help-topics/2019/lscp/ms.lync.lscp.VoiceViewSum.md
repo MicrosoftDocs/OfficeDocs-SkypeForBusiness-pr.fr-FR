@@ -11,17 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 description: Utilisez la boîte de dialogue Paramètres de Configuration de voix non validés pour passer en revue toutes les modifications que vous avez apportées. Parcourez la boîte de dialogue pour consulter toutes les modifications non validées ou cliquez sur les flèches pour développer ou réduire les différentes sections. Lorsque vous avez terminé, cliquez sur Fermer. Une fois que vous fermez cette boîte de dialogue, vous pouvez modifier vos modifications ou les valider.
-ms.openlocfilehash: 923a2e2084b91acab1780132eb0ca4047ba82aff
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 54f86d653e8dd748bec868c4c1fc79b70727ef15
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969840"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043821"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>Paramètres de Configuration de voix non validés : passer en revue les
  
 Utilisez la boîte de dialogue **Paramètres de Configuration de voix non validés** pour passer en revue toutes les modifications que vous avez apportées. Parcourez la boîte de dialogue pour consulter toutes les modifications non validées ou cliquez sur les flèches pour développer ou réduire les différentes sections. Lorsque vous avez terminé, cliquez sur **Fermer**. Une fois que vous fermez cette boîte de dialogue, vous pouvez modifier vos modifications ou les valider.
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
   
 

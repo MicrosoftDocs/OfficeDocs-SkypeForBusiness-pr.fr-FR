@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: a493dda7b384644d9a55c20276d12c61dc0919d7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f4187da44b20d30f1ecd5050fd77607494d2fd32
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991613"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045364"
 ---
 # <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>Configurer un lien de région réseau : créer une nouvelle ou en modifier une existant
  
@@ -24,5 +24,5 @@ Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effect
   
 - [Configuration des liens de région réseau](http://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
 
