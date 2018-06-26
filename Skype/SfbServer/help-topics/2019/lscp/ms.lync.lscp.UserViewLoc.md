@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 3ebfb0ed83107912865834ea028c5c2c5e89852c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 92b9ce6b7d1d81ac72d230dd28cac59491aaadd1
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970534"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046262"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="b81ce-104">Utilisateurs : Afficher ou configurer la stratégie d’emplacement</span><span class="sxs-lookup"><span data-stu-id="b81ce-104">Users: View or Configure Location Policy</span></span>
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="5065d-104">Utilisateurs : Afficher ou configurer la stratégie d’emplacement</span><span class="sxs-lookup"><span data-stu-id="5065d-104">Users: View or Configure Location Policy</span></span>
  
-<span data-ttu-id="b81ce-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="b81ce-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="5065d-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="5065d-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="b81ce-107">Affecter une stratégie d’emplacement à un utilisateur</span><span class="sxs-lookup"><span data-stu-id="b81ce-107">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="5065d-107">Affecter une stratégie d’emplacement à un utilisateur</span><span class="sxs-lookup"><span data-stu-id="5065d-107">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
     
-<span data-ttu-id="b81ce-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="b81ce-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
 

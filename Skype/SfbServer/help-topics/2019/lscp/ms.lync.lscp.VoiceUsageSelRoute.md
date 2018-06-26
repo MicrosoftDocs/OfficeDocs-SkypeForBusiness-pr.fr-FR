@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 description: Utilisez la boîte de dialogue Sélectionner des itinéraires pour trouver des itinéraires existants que vous pouvez utiliser.
-ms.openlocfilehash: e57995783a6733bdaf5283dd4963621fb26140ad
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a0db47ee2ce3ad80d151c6ed25bb21f82a766d54
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19967676"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044220"
 ---
-# <a name="select-routes"></a><span data-ttu-id="23356-103">Sélectionner des itinéraires</span><span class="sxs-lookup"><span data-stu-id="23356-103">Select Routes</span></span>
+# <a name="select-routes"></a><span data-ttu-id="248ab-103">Sélectionner des itinéraires</span><span class="sxs-lookup"><span data-stu-id="248ab-103">Select Routes</span></span>
  
-<span data-ttu-id="23356-104">Utilisez la boîte de dialogue **Sélectionner des itinéraires** pour trouver des itinéraires existants que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="23356-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
+<span data-ttu-id="248ab-104">Utilisez la boîte de dialogue **Sélectionner des itinéraires** pour trouver des itinéraires existants que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="248ab-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="23356-105">Pour récupérer tous les itinéraires de communications vocales disponibles, ne pas tapez rien dans la zone de recherche et puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="23356-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="248ab-105">Pour récupérer tous les itinéraires de communications vocales disponibles, ne pas tapez rien dans la zone de recherche et puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="248ab-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
   
-<span data-ttu-id="23356-106">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="23356-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
   
 
