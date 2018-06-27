@@ -12,17 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Utilisez la zone Sélectionnez une boîte de dialogue Service pour rechercher les services disponibles dans votre environnement. Pour utiliser un service existant, cliquez sur un service dans la liste, puis cliquez sur OK.
-ms.openlocfilehash: 8e7d96479a0c5703a8b480ce88267ba74e5a35d7
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 04f70c8ba98d9f153998014cfa9fb4869b137bad
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049120"
 ---
 # <a name="select-a-service"></a>Sélection d’un service
  
 Utilisez la boîte de dialogue **Sélectionner un service** pour rechercher les services disponibles dans votre environnement. Pour utiliser un service existant, sélectionnez un service dans la liste, puis cliquez sur **OK**. 
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
   
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
@@ -34,7 +35,7 @@ Dans la page **Sélectionner un service**, vous pouvez effectuer les tâches sui
     
 - [Configurer les Options de serveur de conversation permanente globalement ou pour un Pool de serveurs de conversation permanente](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>Pour configurer les catégories des salles de conversation
 

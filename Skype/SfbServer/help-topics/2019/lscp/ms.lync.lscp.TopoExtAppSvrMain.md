@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: d4af846fb0ddaa426f3cd0f602beda92fae9de53
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9f5e7c73407d7c4d3578f7ff9d1aaf5eec423bd3
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976162"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049113"
 ---
 # <a name="topology-trusted-application"></a>Topologie : Application approuvée
  
@@ -24,5 +24,5 @@ Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effect
   
 - [Afficher la liste des Applications approuvées](http://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
 

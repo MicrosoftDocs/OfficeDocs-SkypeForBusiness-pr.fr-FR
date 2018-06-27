@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 971dd7ebaf400820914107cebb384821480a9e7c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: eaf21f5534c3af207297cc1377a0ef21a01e18e8
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990764"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049162"
 ---
 # <a name="users-view-or-configure-pin-policy"></a>Utilisateurs : Afficher ou configurer la stratégie de code confidentiel
  
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
   
-- [Définir des conférences rendez-vous d’un utilisateur code confidentiel dans Skype pour Business Server 2015](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [Définir des conférences rendez-vous d’un utilisateur code confidentiel dans Skype pour Business Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../../manage/manage.md).
+ 
 
