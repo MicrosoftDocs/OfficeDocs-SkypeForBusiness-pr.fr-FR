@@ -10,11 +10,12 @@ ms.reviewer: lolaj, ninadara
 description: Ressources de formation qu'un administrateur peut utiliser pour déployer correctement et adopter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b095d25f4b414eda58e8030264139b7fdf5b42a
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: bcfefb62ab0c9bbe7b24addd8ee74c3e188edcf6
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20091573"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les utilisateurs finaux
 =====================================
@@ -32,6 +33,7 @@ Utilisez ces ressources de formation pour aider votre organisation à tirer le m
 | [Canal Microsoft Teams sur YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [Canal Coffee in the Cloud sur YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Vidéos de procédure, de recommandation et de vérification des fonctionnalités  |
 | Introduction à Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
+| Introduction aux équipes de Microsoft pour l’éducation  | <iframe width="350" height="200" src="https://youtu.be/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
 | 5 minutes pour configurer des équipes, des canaux et des onglets   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 | Collaborer largement - ajoutez des invités à votre équipe de Microsoft  | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   |
 | Accélérer votre Collaboration - à l’aide de la barre de commandes dans les équipes Microsoft  | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |

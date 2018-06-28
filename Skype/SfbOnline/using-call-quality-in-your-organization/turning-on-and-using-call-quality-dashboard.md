@@ -1,5 +1,5 @@
 ---
-title: Activation et à l’aide du tableau de bord qualité des appels
+title: Activation et utilisation du tableau de bord Qualité des appels
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,11 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Découvrez comment activer et utiliser le Skype pour Business Online Dashboard qualité des appels et obtenir des rapports de synthèse de la qualité des appels. '
-ms.openlocfilehash: f8a7a71a0e0c0e64ceb7447c53c15483d977e16a
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 6651525ced62b89b690a8100ec69a36b5fd5695c
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20091607"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et à l’aide de tableau de bord qualité d’appel pour Microsoft Teams et Skype pour Business Online
 
@@ -41,7 +42,9 @@ Les dernières modifications apportées aux CQD sont les suivantes :
 - Inclut les données Teams Microsoft outre Skype pour les données métiers en ligne.
     
 - Rapports de synthèse incluent un filtre produit pour sélectionner toutes les données, des données de Microsoft Teams ou Skype pour les données métiers en ligne.
-    
+
+- Logique de classement de qualité flux vidéo et VBSS a été mis à jour. Reportez-vous à la [Classification des flux de données dans le tableau de bord qualité des appels](stream-classification-in-call-quality-dashboard.md) pour les définitions de classifieur le plus récent.
+
 Reportez-vous à cet article pour obtenir la liste des [Dimensions et mesures disponibles dans le tableau de bord qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
@@ -50,7 +53,9 @@ Reportez-vous à cet article pour obtenir la liste des [Dimensions et mesures di
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Activer les rapports de synthèse de tableau de bord (CQD) appel Microsoft qualité
 
 Avant de pouvoir commencer à l’aide de la CQD, vous devez l’activer pour votre organisation Office 365.
-  
+ 
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+ 
 1. Connectez-vous à votre organisation Office 365 à l’aide d’un compte d’administration, puis sélectionnez la vignette **Admin** pour ouvrir le centre d’administration.
     
 2. Dans le volet gauche, sous **Centre d’administration**, sélectionnez **Skype pour les entreprises** pour ouvrir le Skype entreprise centre d’administration.
@@ -63,7 +68,7 @@ Avant de pouvoir commencer à l’aide de la CQD, vous devez l’activer pour vo
     
      ![Connexion CQD](../images/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-Une fois que vous êtes connecté, une fois activée, la CQD commencera collecte et traitement des données.
+Après que vous être connecté, une fois activée, la CQD commencera collecte et traitement des données.
   
 > [!NOTE]
 > Il peut prendre quelques heures à traiter suffisamment de données pour afficher des résultats pertinents dans les rapports. 
@@ -114,7 +119,7 @@ Utiliser les données sous cet onglet pour évaluer le statut de la qualité des
   
 ![Clé de données CQD](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Flux de données est classés dans trois groupes : une bonne et une mauvaise non classés. Il sont également calculées que médiocre valeurs *%* qui permettent de vous le rapport du flux classé comme *médiocre* au nombre total de flux classés. Dans la mesure où *mauvaise % = médiocres flux / (mauvaise flux + flux bonne) * 100* , ainsi la *mauvaise %* non affectés par la présence de plusieurs flux *Unclassified* . Pour ce qui est utilisé pour classer un flux de données en tant qu’une mauvaise ou bon, reportez-vous à [Appeler des seuils de qualité](https://aka.ms/cqd_quality_thresholds).
+Flux de données est classés dans trois groupes : une bonne et une mauvaise non classés. Il sont également calculées que médiocre valeurs *%* qui permettent de vous le rapport du flux classé comme *médiocre* au nombre total de flux classés. Dans la mesure où *mauvaise % = médiocres flux / (mauvaise flux + flux bonne) * 100* , ainsi la *mauvaise %* non affectés par la présence de plusieurs flux *Unclassified* . Pour ce qui est utilisé pour classer un flux de données en tant qu’une mauvaise ou bon, reportez-vous à la [Classification des flux de données dans le tableau de bord qualité des appels](stream-classification-in-call-quality-dashboard.md).
   
 Utiliser l’échelle sur la gauche pour mesurer les valeurs de nombre de flux de données.
   
@@ -247,7 +252,7 @@ Si vous souhaitez afficher les dimensions et les mesures à prendre pour un seul
 
 [Permet de résoudre les problèmes de qualité médiocre appel Analytique d’appel](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[LLC Analytique et tableau de bord de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Appel Analytique et tableau de bord de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  
