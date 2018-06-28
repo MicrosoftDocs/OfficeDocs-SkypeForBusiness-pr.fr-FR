@@ -1,9 +1,9 @@
 
-# [Skype pour Business Online Admin](../skype-for-business-online.md)
+# [Administration de Skype Entreprise Online](../skype-for-business-online.md)
 
 ## [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## [Audioconférence dans Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
+## [Audioconférence dans Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Affecter Microsoft comme fournisseur de services d'audioconférence](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Questions fréquentes à propos de l'audioconférence](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [Langues prises en charge pour l'audioconférence](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -71,7 +71,7 @@
 ### [Que sont les emplacements, les adresse et le routage d'appel d'urgence ?](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [Qu'est-ce que les offres d'appel ?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## [Système téléphonique dans Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [Système téléphonique d'Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Créer une file d’attente de système téléphonique](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtention de téléphones pour Skype Entreprise Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Déploiement de téléphones pour Skype Entreprise Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
@@ -83,7 +83,7 @@
 #### [Langues pour les messages et les messages d'accueil de la messagerie vocale de Skype Entreprise](../what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Configurer un standard automatique pour le système téléphonique](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-### [La configuration système téléphonique de votre organisation](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
+### [Configurer le système téléphonique de votre organisation](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [Que sont les standards automatiques de système téléphonique ?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 #### [Configurer un standard automatique pour le système téléphonique](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
@@ -94,7 +94,7 @@
 
 ## [Licences de compléments pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 ### Options de licence en fonction de votre plan
-#### [Office 365 entreprise Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+#### [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
 #### [Premium d’Office 365, Office 365 ProPlus, ou Skype pour les entreprises Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
 #### [Office 365 entreprise E1, E3 et E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 #### [Office 365 entreprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
@@ -149,6 +149,7 @@
 ### [Configurer l'analyse des appels pour Skype Entreprise](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Activation et utilisation du tableau de bord Qualité des appels](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Classification des flux de données dans le tableau de bord de qualité des appels](../using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard.md)
 
 ## [Création de rapports Skype Entreprise Online](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Rapport d'activités](../skype-for-business-online-reporting/activity-report.md)
