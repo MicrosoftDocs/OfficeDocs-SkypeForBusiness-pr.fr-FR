@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: fe7b5d8421a58b9bb674a2ac1a9a267db7a4b9ca
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 37f316a17491a632ca2c4b62d717cc77c66748f6
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20043842"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088524"
 ---
 # <a name="web-service-security-settings"></a>Paramètres de sécurité du Service Web
  
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
   
-- [Gérer les paramètres de configuration de Service Web dans Skype pour Business Server 2015](../../../manage/authentication/web-service-configuration-settings.md)
+- [Gérer les paramètres de configuration de Service Web dans Skype pour Business Server](../../../manage/authentication/web-service-configuration-settings.md)
     
 - [Modifier un Service Web existant](http://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
     
