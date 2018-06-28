@@ -80,9 +80,6 @@
 ## [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 
 
-
-
-
 # [Accès invité](guest-access.md)
 ## [Comment un invité rejoint une équipe](guest-joins.md)
 ## [À quoi ressemble l'expérience des invités](guest-experience.md)
@@ -213,6 +210,13 @@
 ### [Configurer la messagerie vocale du système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Que sont les standards automatiques de système téléphonique ?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
+## Routage d’un système téléphonique Direct
+### [Planifier le routage Direct](direct-routing-plan.md)
+### [Configurer le routage Direct](direct-routing-configure.md)
+### [Migration vers le routage Direct](direct-routing-migrating.md)
+### [Comptes d’utilisateurs dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
+### [Configurer un contrôleur de Session en périphérie pour plusieurs locataires](direct-routing-sbc-multiple-tenants.md)
+### [Contrôleurs de frontière de session certifié pour le routage Direct](direct-routing-border-controllers.md)
 
 # Sécurité et conformité
 ## [Présentation de la sécurité et de la conformité dans Microsoft Teams](security-compliance-overview.md)
