@@ -6,16 +6,16 @@ manager: serdars
 ms.date: 5/9/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: marcl, ninadara, v-leslc
+ms.reviewer: marcl, ninadara
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: 65417bc9d64ac895811736f11dfdb565c42704f2
+ms.sourcegitcommit: f7554cd4fab65ce948aba269f8aabde2fe5fa082
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19691216"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "20136933"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
   
@@ -23,6 +23,10 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 ## 
 
 ## <a name="administration"></a>Administration
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Journaux d’audit peuvent indiquer un nom d’utilisateur incorrecte en tant qu’initiateur lorsqu’une personne a été supprimée d’une équipe  <br/> |Équipes équipe est un groupe moderne DAS. Lorsque vous ajoutez/supprimer un membre par le biais de l’interface utilisateur d’équipes, le flux sait exactement l’utilisateur ayant initié la modification et le journal d’Audit reflète les informations correctes. Toutefois, si un utilisateur ajoute/supprime un membre par le biais de DAS, la modification est synchronisée avec le serveur principal d’équipes sans indiquant les équipes qui a initié l’action. Microsoft Teams sélectionne le premier propriétaire de l’équipe en tant qu’initiateur, ce qui est finalement répercutée dans le journal d’Audit.    <br/> |  <br/> |5/11/18  <br/> |
+
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Impossible d’ajouter des membres aux équipes lorsque UsersPermissionToReadOtherUsersEnabled est défini sur false  <br/> |Lorsque cette valeur est définie sur false dans DAS, client ne parvient pas à ajouter des membres interne/externe dans Microsoft Teams et le message d’erreur suivant s’affiche : « nous n’ajouter des membres. Nous avons rencontré un problème. Réessayez ultérieurement. » Toutefois, les membres peuvent être ajoutés directement à des groupes d’Office 365.    <br/> |Modifier ce paramètre sur true dans DAS.  <br/> |4/10/18  <br/> |
@@ -205,6 +209,10 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |Les équipes planificateur intégration planificateur en ligne <br/> |Compartiments dans le Planificateur de tâches n’apparaissent pas dans l’expérience en ligne du planificateur.  <br/> |Aucune solution. <br/> |28.02.2017  <br/>|
 
 ## <a name="teams"></a>Teams
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Journaux d’audit peuvent indiquer un nom d’utilisateur incorrecte en tant qu’initiateur lorsqu’une personne a été supprimée d’une équipe  <br/> |Équipes équipe est un groupe moderne DAS. Lorsque vous ajoutez/supprimer un membre par le biais de l’interface utilisateur d’équipes, le flux sait exactement l’utilisateur ayant initié la modification et le journal d’Audit reflète les informations correctes. Toutefois, si un utilisateur ajoute/supprime un membre par le biais de DAS, la modification est synchronisée avec le serveur principal d’équipes sans indiquant les équipes qui a initié l’action. Microsoft Teams sélectionne le premier propriétaire de l’équipe en tant qu’initiateur, ce qui est finalement répercutée dans le journal d’Audit.    <br/> |  <br/> |5/11/18  <br/> |
+
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Le chargement de photos dans Teams n'est pas bloqué dans OWA/Outlook comme le requiert la stratégie   <br/> | Teams permet aux utilisateurs de charger des photos directement dans Office 365, en dépit des paramètres de stratégie définis pour empêcher cette action dans OWA.   <br/> |<br/>  |16.10.2017  <br/> |
