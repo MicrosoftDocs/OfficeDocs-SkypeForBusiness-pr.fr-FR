@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Partenaires de Microsoft avec des fournisseurs SBC certifié leur SBC pour travailler avec le routage Direct.
-ms.openlocfilehash: 72d1567dbc827685316fc390e532d82a254f7748
-ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
+ms.openlocfilehash: d5cb169aaf1545d496e19e533c1466e68258d35c
+ms.sourcegitcommit: 13bec625269307e5988acecd3b765c29594d66fe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20091672"
+ms.lasthandoff: 07/04/2018
+ms.locfileid: "20192659"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste de contrôleurs de frontière de Session certifié pour le routage Direct
 
@@ -51,5 +51,5 @@ Le tableau ci-dessous répertorie les périphériques certifiés pour le routage
 |     | SBC SWe  |   & #10004 ;    |    En attente     |    V6.2      |
 |     |SBC 1000   |     & #10004 ;   |     En attente    |    V7.0.2   |& #10004 ; 
 |     | SBC 2000    |     & #10004 ;   |    En attente     |    V7.0.2      |
-|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    Pensez SBC 365      |  En attente       |    En attente     |   VERSION 1.4       |
+|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    Pensez SBC 365      |  & #10004 ;       |    En attente     |   VERSION 1.4       |
 |     |         |         |         |         |
