@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Partenaires de Microsoft avec des fournisseurs SBC certifié leur SBC pour travailler avec le routage Direct.
-ms.openlocfilehash: d5cb169aaf1545d496e19e533c1466e68258d35c
-ms.sourcegitcommit: 13bec625269307e5988acecd3b765c29594d66fe
+ms.openlocfilehash: de006d216b81b3aaa2b07749855f1313be646d05
+ms.sourcegitcommit: b7b6bdaf9d40b70151ce7b5d1b659b5466f0841c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/04/2018
-ms.locfileid: "20192659"
+ms.locfileid: "20195387"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste de contrôleurs de frontière de Session certifié pour le routage Direct
 
@@ -33,7 +33,7 @@ Chaque fournisseur Microsoft :
 
 Le tableau ci-dessous répertorie les périphériques certifiés pour le routage Direct. 
 
-[En savoir plus sur le routage Direct](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-NOW-in-Public-Preview/ba-p/193915). 
+[En savoir plus sur le routage Direct](https://aka.ms/dr). 
 
 
 |Fournisseur  |Produit  |Non-le contournement de média  |Le contournement de média  |Version du logiciel|
