@@ -246,6 +246,13 @@
 #### [Configurer un standard automatique pour le système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Configurer la messagerie vocale du système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Que sont les standards automatiques de système téléphonique ?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### Routage d’un système téléphonique Direct
+#### [Planifier le routage Direct](direct-routing-plan.md)
+#### [Configurer le routage Direct](direct-routing-configure.md)
+#### [Migration vers le routage Direct](direct-routing-migrating.md)
+#### [Comptes d’utilisateurs dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
+#### [Configurer un contrôleur de Session en périphérie pour plusieurs locataires](direct-routing-sbc-multiple-tenants.md)
+#### [Liste de contrôleurs de frontière de Session certifié pour le routage Direct](direct-routing-border-controllers.md)
 ### [Flux des appels équipes Microsoft Online](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
