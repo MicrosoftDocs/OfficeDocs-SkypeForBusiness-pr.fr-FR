@@ -13,12 +13,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
-description: 'Résumé : Préparez votre Skype pour les serveurs Business Server 2015 avec cette rubrique. Matériel, système d’exploitation, bases de données, logiciel, tous les la configuration système requise et les recommandations sont ici afin de garantir une installation réussie et le déploiement de votre batterie de serveurs.'
+description: 'Résumé : préparez vos serveurs Skype Entreprise Server 2015 grâce à cette rubrique. Le matériel, le système d’exploitation, les bases de données, les logiciels, toute la configuration système requise et les recommandations se trouvent ici afin de vous permettre de réussir l’installation et le déploiement de votre batterie de serveurs.'
 ms.openlocfilehash: dfcde40c8084279dca39e830a84ad6e9631530dd
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.sourcegitcommit: 98c0d578f5ebbe884a5965ccaba131ee4dd84185
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/05/2018
+ms.locfileid: "19046019"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Configuration serveur requise pour Skype Entreprise Server 2015
  
@@ -41,7 +42,7 @@ Maintenant que vous avez votre topologie vers le bas (et si vous n’avez pas, v
   
 Matériel recommandé pour les serveurs frontaux, les serveurs principaux, les serveurs Standard Edition Server et serveurs de conversation permanente :
   
-|**Composant matériel**|**Recommandé**|
+|**Composant matériel**|**Recommandation**|
 |:-----|:-----|
 |Processeur  <br/> |Biprocesseur 64 bits, six cœurs, 2,26 GHz ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype pour les rôles Business Server 2015.  <br/> |
 |Mémoire  <br/> |32 giga-octets (Go).  <br/> |
@@ -50,7 +51,7 @@ Matériel recommandé pour les serveurs frontaux, les serveurs principaux, les s
    
 Matériel recommandé pour les serveurs de périphérie, serveurs de médiation autonomes, serveurs d’interopérabilité vidéo et les directeurs :
   
-|**Composant matériel**|**Recommandé**|
+|**Composant matériel**|**Recommandation**|
 |:-----|:-----|
 |Processeur  <br/> |Biprocesseur 64 bits, quatre cœurs, 2,26 GHz ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype pour les rôles Business Server 2015.  <br/> |
 |Mémoire  <br/> |16 giga-octets.  <br/> |
@@ -137,7 +138,7 @@ Il existe certaines choses que vous aurez besoin installer ou configurer pour n�
   
  **Tous les serveurs :**
   
-|**Rôle/logiciel**|**Détails**|
+|**Logiciel/Rôle**|**Détails**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |Tous les Skype pour les serveurs Business Server devez Windows PowerShell 3.0 est installé.  <br/> • Si vous effectuez l’installation sur Windows Server 2012 ou Windows Server 2012 R2, vous avez défini, car elle est déjà.  <br/> • Si vous effectuez une mise à niveau sur Windows Server 2008 R2, vous pouvez télécharger le [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) pour l’obtenir. <br/> **Conseil :** Une fois le PowerShell correct de là, confirmez qu’il est BuildVersion 6.2.9200.0 ou ultérieurement en accédant à PowerShell demander et en tapant `$PSVersionTable`. Vous devriez alors obtenir les informations voulues.  <br/> |
 |Microsoft .NET Framework  <br/> |Les services WCF est une **fonctionnalité** qui n’a installé en tant qu’une fonctionnalité de Windows, sous **Gestionnaire de serveur**, aucun téléchargement nécessaires. <br/> • Vous devez vous assurer, lorsque vous installez cette fonctionnalité, ou si elle est déjà installée et vous vérifiez sur celui-ci, que l’option **d’Activation HTTP** est également activée et installée, comme suit : <br/> ![Capture d’écran montrant l’option d’Activation HTTP sous les fonctionnalités .NET Framework 4.5. ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)Ne vous inquiétez pas si vous obtenez une fenêtre publicitaire intempestive supplémentaire indiquant que les autres éléments doivent être installés pour l’Activation HTTP à installer. C’est normal ; cliquez sur OK et poursuivez. Si vous n’obtenez pas cette fenêtre contextuelle, vous pouvez alors supposer que ces éléments sont déjà installés, et poursuivre.  <br/> Microsoft .NET Framework est installé généralement lorsque Windows Server 2012 R2 ou Windows Server 2016 est installé. Skype pour Business Server fonctionne avec les versions suivantes de Microsoft .NET Framework :  <br/> • .NET 3.5  <br/> • .NET FRAMEWORK 4.5  <br/> • .NET 4.6.x  <br/> • 4.7 .NET (pour Skype pour Business Server mise à jour Cumulative 5 ou versions ultérieures)  <br/>  .NET framework 3.5 sera probablement installé par défaut sur votre ordinateur Windows Server 2008 R2 (sans aucun doute Vérifiez qu’avant la mise à niveau), mais il ne se trouvent pas sur vos serveurs de Windows Server 2012 et Windows Server 2012 R2 (pour les nouvelles installations). Pour l’ajouter dans, vous devez avoir accès à votre média ou le lecteur d’installation (l’emplacement Windows Server a été installé à partir d’ou où les fichiers d’installation sont maintenant). Poursuivez en l'installant en tant que composant du Gestionnaire de serveur. Pointez ensuite vers le support d'installation (à savoir le dossier **\sources\sxs**) à l'invite du système, puis poursuivez l'installation. <br/> |
@@ -147,7 +148,7 @@ Il existe certaines choses que vous aurez besoin installer ou configurer pour n�
    
  **Serveur frontal de serveurs frontaux et Standard Edition ont également besoin :**
   
-|**Rôle/logiciel**|**Détails**|
+|**Logiciel/Rôle**|**Détails**|
 |:-----|:-----|
 |services Internet (IIS)  <br/> |IIS est requis sur tous les serveurs frontaux, ainsi que tous les serveurs Standard Edition, avec les modules suivants sélectionnés :  <br/> Fonctionnalités HTTP communes • : par défaut des documents, des erreurs HTTP, le contenu statique  <br/> • Santé et Diagnostics : HTTP de journalisation, les outils de journalisation de suivi  <br/> • Les performances : Compression de contenu statique, Compression de contenu dynamique  <br/> • Sécurité : filtrage des demandes, authentification par mappage de certificat Client, l’authentification Windows  <br/> Développement d’applications • : extensibilité .NET 3.5, extensibilité .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, Extensions ISAPI, filtres ISAPI  <br/> Outils de gestion • : Console de gestion IIS, des Scripts de gestion IIS et les outils  <br/> Notez également l’accès anonyme est également nécessaire, mais que vous obtenez lorsque vous installez IIS, sans que vous ayez un emplacement pour le sélectionner dans la liste.  <br/> |
 |Module d’exécution du format Windows Media  <br/> | Pour Windows Server 2016, Windows Server 2012 et Windows Server 2012 R2, vous devez installer la fonctionnalité **Media Foundation** dans **Le Gestionnaire de serveur**. Maintenant, vous pouvez lancer votre Skype pour l’installation de Business Server 2015 sans celui-ci, mais vous serez invité à installer, puis redémarrer le serveur, avant le Skype pour Business Server 2015 installer continue. Il vaut donc mieux l’installer au préalable. <br/> |
