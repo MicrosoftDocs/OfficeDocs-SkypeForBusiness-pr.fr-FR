@@ -1,1 +1,1 @@
-Nous mettons régulièrement à jour la gestion des fonctionnalités de Microsoft Teams. Étapes peuvent être légèrement différents.
+Nous mettons fréquemment à jour la façon dont vous pouvez gérer les fonctionnalités de Microsoft Teams. Par conséquent, les étapes décrites ici peuvent être légèrement différentes dans le centre d’administration Microsoft Teams et Skype Entreprise.
