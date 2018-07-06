@@ -1,5 +1,5 @@
 ---
-title: Qualité des appels Analytique d’appel utilisées pour résoudre les problèmes d’une mauvaise Skype pour les entreprises
+title: Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels Skype Entreprise
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,18 +19,19 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Utilisez Analytique appeler plus d’informations sur les appareils, réseaux et la connectivité à résoudre les problèmes utilisateur Skype pour les réunions et les appels professionnels.
-ms.openlocfilehash: cb887a1c582c9547616c2133c2f175ac634e2da8
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 933c041fd9683dd84d82fd9abdcf4cc627cf4366
+ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "20205004"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>Qualité des appels Analytique d’appel utilisées pour résoudre les problèmes d’une mauvaise Skype pour les entreprises
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels
 
-Appel Analytique vous aide à résoudre les problèmes de connexion ou appel Skype pour les entreprises. Appel Analytique affiche des informations détaillées sur les périphériques, les réseaux et connectivité pour les appels et les réunions de chaque utilisateur dans votre Skype pour un compte professionnel. Si la création, de sites et des clients informations ont été ajoutées à appeler Analytique, elle s’affichera également pour chaque appel et de la session. Informations disponibles par le biais d’Analytique appel peuvent vous aider à comprendre pourquoi un utilisateur avait un appel médiocre ou l’expérience de la réunion. 
+Appel Analytique vous aide à résoudre les problèmes de connexion ou appel Skype pour les entreprises et les équipes Microsoft. Appel Analytique affiche des informations détaillées sur les périphériques, les réseaux et connectivité pour les appels et les réunions de chaque utilisateur dans votre compte Office 365. Si la création, de sites et des clients informations ont été ajoutées à appeler Analytique, elle s’affichera également pour chaque appel et de la session. Informations disponibles par le biais d’Analytique appel peuvent vous aider à comprendre pourquoi un utilisateur avait un appel médiocre ou l’expérience de la réunion. 
   
 > [!NOTE]
-> Appel Analytique est actuellement en mode Aperçu. Texte et images décrites ici peut ne pas correspondent votre expérience.
+> Appel Analytique est désormais disponible dans le Microsoft Teams et Skype entreprise centre d’administration à https://admin.teams.microsoft.com.  Autorisations de l’agent de support technique et le téléchargement de topologie réseau seront disponibles dans le nouveau portail d’administration dans les mois à venir.  En attendant, vous pouvez continuer à utiliser le point de terminaison à https://adminportal.services.skypeforbusiness.com pour l’accès de support technique de niveau 1 et niveau 2.
   
 ## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>Résoudre les problèmes de qualité appel à l’aide d’Analytique d’appel
 
