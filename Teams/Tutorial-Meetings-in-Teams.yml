@@ -16,11 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3b9811fedbb53e212722a5d224d5e1bc643f0d99
-  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
+  ms.openlocfilehash: 4502a4d0587992f742540cf2c1d5a4799dfc3113
+  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 05/17/2018
+  ms.lasthandoff: 07/05/2018
+  ms.locfileid: "20201373"
 items:
 - durationInMinutes: 1
   content: >
@@ -60,8 +61,6 @@ items:
 
 
     -   Publiez dans la section des commentaires au bas de la page « Étapes suivantes » de ce didacticiel.
-
-    -   Contactez-nous par email à l’adresse [AskTeams\@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Meetings).
 
 
     Pour nous faire part de vos commentaires sur Teams, tels que des idées de nouvelles fonctionnalités, visitez [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
@@ -107,7 +106,6 @@ items:
 
     3.  Faites-nous part de vos commentaires :
         - Publiez-les dans la section Commentaires au bas de cette page.
-        - Contactez-nous par email à l’adresse [AskTeams\@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Meetings).
         - Pour nous faire part de vos commentaires sur le produit Teams, ou pour demander une nouvelle fonctionnalité, rendez-vous sur [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
     4.  Rester à jour :
         - Suivez le [Blog des équipes](https://aka.ms/teamsblog).
