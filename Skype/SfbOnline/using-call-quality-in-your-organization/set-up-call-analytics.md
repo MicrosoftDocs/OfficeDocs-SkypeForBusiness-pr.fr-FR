@@ -1,5 +1,5 @@
 ---
-title: Configurer l'analyse des appels Skype Entreprise
+title: Configurer Analytique d’appel
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurer et utiliser Analytique appeler pour identifier et résoudre les problèmes de Skype pour professionnels et Microsoft Teams problèmes de qualité d’appel.
-ms.openlocfilehash: d9483d702280bfe7119ff64431e5d42b168f9021
-ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
+ms.openlocfilehash: 748f421a9ec2d5d44ca41192db50c48cc6edcf05
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "20205014"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211041"
 ---
-# <a name="set-up-skype-for-business-call-analytics"></a>Configurer l'analyse des appels Skype Entreprise
+# <a name="set-up-call-analytics"></a>Configurer Analytique d’appel
 
 Comme un Skype pour administrateur Business Online, vous pouvez utiliser Analytique appeler pour résoudre les problèmes de Skype pour les entreprises et des problèmes de connexion et de qualité des appels Microsoft Teams. Vous pouvez trouver utile de configurer les fonctionnalités suivantes dans l’appel d’Analytique :
   
@@ -33,13 +33,15 @@ Comme un Skype pour administrateur Business Online, vous pouvez utiliser Analyti
     
 - Ajoutez génération, site et les informations de client pour appeler une Analytique en téléchargeant un fichier de données .tsv ou .csv.
     
-> [!NOTE]
-> Appel Analytique est désormais disponible dans le Microsoft Teams et Skype entreprise centre d’administration à https://admin.teams.microsoft.com. Autorisations de l’agent de support technique et le téléchargement de topologie réseau seront disponibles dans le nouveau portail d’administration dans les mois à venir. En attendant, vous pouvez continuer à utiliser le point de terminaison à https://adminportal.services.skypeforbusiness.com pour l’accès de support technique de niveau 1 et niveau 2. 
+**Appel Analytique est maintenant disponible dans le Microsoft Teams et Skype entreprise centre d’administration.** Pour afficher toutes les informations d’appel et les données d’un utilisateur, utilisez l’onglet **Historique des appels** . Vous pouvez procéder par la recherche sur la page de profil utilisateur par une recherche de l’utilisateur du tableau de bord ou la recherche de l’utilisateur des **utilisateurs** dans le volet de navigation gauche.
+
+> [!IMPORTANT]
+> Autorisations de l’agent de support technique et le téléchargement de topologie réseau seront disponibles dans le nouveau portail d’administration dans les mois à venir. En attendant, vous pouvez continuer à utiliser https://adminportal.services.skypeforbusiness.com pour l’accès de support technique de niveau 1 et niveau 2.
   
 ## <a name="set-call-analytics-permissions"></a>Définir des autorisations d’appel d’Analytique
 <a name="BKMK_SetCAPerms"></a>
 
-En tant que l’administrateur, vous obtenez un accès total à toutes les fonctionnalités d’appel d’Analytique. En outre, vous pouvez utiliser un modèle de support technique dans l’appel Analytique qui inclut les groupes d’autorisations de niveau 1 et niveau 2. Les utilisateurs disposant des autorisations de niveau 1 peuvent accéder uniquement une vue limitée d’Analytique d’appel. Les utilisateurs disposant des autorisations de niveau 2 peuvent accéder à toutes les fonctionnalités d’appel d’Analytique. Les deux niveaux d’autorisation empêche l’accès au reste du Skype entreprise centre d’administration. Vous pouvez accorder l’accès pour les niveaux en ajoutant un groupe qui contient l’utilisateur pour le niveau 1 ou de la section de niveau 2 de la page autorisations. Pour plus d’informations, voir [définir des autorisations à plusieurs niveaux dans Analytique d’appel](set-up-call-analytics.md#BKMK_SetUpTier).
+En tant que l’administrateur, vous obtenez un accès total à toutes les fonctionnalités d’appel d’Analytique. En outre, vous pouvez utiliser un modèle de support technique dans l’appel Analytique qui inclut les groupes d’autorisations de niveau 1 et niveau 2. Les utilisateurs disposant des autorisations de niveau 1 peuvent accéder uniquement une vue limitée d’Analytique d’appel. Les utilisateurs disposant des autorisations de niveau 2 peuvent accéder à toutes les fonctionnalités d’appel d’Analytique. Les deux niveaux d’autorisation empêche l’accès au reste du Microsoft Teams et Skype entreprise centre d’administration. Vous pouvez accorder l’accès pour les niveaux en ajoutant un groupe qui contient l’utilisateur pour le niveau 1 ou de la section de niveau 2 de la page autorisations. Pour plus d’informations, voir [définir des autorisations à plusieurs niveaux dans Analytique d’appel](set-up-call-analytics.md#BKMK_SetUpTier).
   
 Gérer les agents de support technique de niveau 1 des problèmes fondamentaux de la qualité des appels. Les agents de niveau 1 n’étudier des problèmes avec les réunions ; ils collecter des informations connexes et remontez à un agent de niveau 2. Agents de niveau 2 affichent les informations dans les journaux d’appels détaillées agents de niveau 1 sont masquées. Le tableau suivant donne une vue d’ensemble des informations disponibles à agents à l’aide d’Analytique d’appel.
 
@@ -59,16 +61,16 @@ Gérer les agents de support technique de niveau 1 des problèmes fondamentaux d
  **Définir des autorisations à plusieurs niveaux dans Analytique appeler** 
  <a name="BKMK_SetUpTier"> </a>
 
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
   
 1. Créer des groupes de sécurité d’Office 365 niveau 1 et niveau 2, et ajoutez les personnes à inviter à chaque groupe. Vous pouvez également réutiliser les groupes de sécurité existants. Pour plus d’informations, voir [créer, modifier ou supprimer un groupe de sécurité dans le centre d’administration d’Office 365](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
     
 2. Dans le centre d’administration Office 365, accédez au **Centre d’administration** > **Skype pour les entreprises**.
-    
+
     > [!NOTE]
-    > Si vous atteindre dans l’ancienne Skype entreprise centre d’administration, accédez à la nouvelle version en cliquant sur **proviennent essayer notre nouveau centre d’administration**. 
+    > Si vous êtes dans les **équipes Microsoft et Skype entreprise centre d’administration**, dans la navigation de gauche, cliquez sur **le portail hérité**.
   
-3. Dans la nouvelle Skype entreprise centre d’administration, cliquez sur **autorisations**.
+3. Dans l' **Appel Analytique (preview)**, cliquez sur **autorisations**.
     
 4. Ajoutez les groupes de sécurité Office 365 pour les zones de **niveau 1** et **niveau 2** . Vous pouvez ajouter plusieurs groupes à chaque rôle.
     
@@ -90,7 +92,7 @@ Si vous créez le fichier .tsv ou .csv à partir de zéro, voir [format et la st
 ## <a name="related-topics"></a>Rubriques connexes
 <a name="BKMK_UploadFiles"> </a>
 
-[Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels Skype Entreprise](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Appel Analytique et tableau de bord de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Découvrez ce qui est nécessaire pour migrer vers routage Direct à partir d’un Skype pour Business en ligne et la perspective de configuration d’équipes.
-ms.openlocfilehash: 4a1cb3d96d6f5d024b8da6a42288b09b3a8cde3d
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 04e8f141776dd3003352b3df888092960e23dcf6
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084499"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211143"
 ---
 # <a name="migrating-to-direct-routing"></a>Migration vers le routage Direct
 
@@ -33,7 +33,7 @@ Le tableau suivant indique l’état de fin d’un utilisateur mis en service po
 
 |Attributs d’objet utilisateur |Système téléphonique avec forfaits d’appels|Téléphone système localement avec une connectivité PSTN via Skype pour Business Server|Système de téléphone localement avec une connectivité PSTN via le connecteur sur le nuage|Système de téléphone localement avec une connectivité PSTN via le routage Direct|
 |---|---|---|---|---|
-|Client|Skype pour les équipes ou de l’entreprise |Skype Entreprise |Skype Entreprise |Teams|
+|Client|Skype pour les équipes ou de l’entreprise |Skype Entreprise |Skype Entreprise |Teams|
 |Licences|Activité Skype en ligne</br>Plan 2</br></br>MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)</br></br></br>Offres d'appels</br>Teams|Skype Business Online Plan 2 (MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)|Skype Business Online Plan 2 (MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)|Skype Business Online Plan 2 (MCOProfessional ou MCOSTANDARD</br></br></br>Système téléphonique (MCOEV)</br></br>Teams|
 OnPremLineURI |N/D|Le numéro de téléphone doit être synchronisé depuis le site Active Directory. |Le numéro de téléphone peut être géré dans Active Directory de locale ou dans Azure Active Directory.|Le numéro de téléphone peut être géré dans Active Directory de locale ou dans Azure Active Directory. Toutefois, si l’organisation a Skype sur site pour les entreprises, le nombre doit être synchronisé à partir d’Active Directory local.|
 |LineURI|Numéro de téléphone PSTN appelant|Définir automatiquement à partir du paramètre OnPremLineURI|Définir automatiquement à partir du paramètre OnPremLineURI|Définir automatiquement à partir du paramètre OnPremLineURI|
@@ -99,7 +99,7 @@ Il est recommandé de supprimer précédemment configuré voix informations de r
  
 ```
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
-Set-CsUserPstnSettings -Identity <UPN> -AllowInternationCalls $false -HybridPSTNSite $null 
+Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPSTNSite $null 
 ```
 
 

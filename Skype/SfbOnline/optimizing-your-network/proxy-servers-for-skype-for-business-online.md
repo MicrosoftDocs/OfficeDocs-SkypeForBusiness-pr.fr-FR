@@ -18,11 +18,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Cet article vous orientera dans l'utilisation d'un serveur proxy avec Skype ºEntreprise.
-ms.openlocfilehash: a4369208ab277e0eb5490a637421de605235a0cd
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: fcae4ec366845818d515a4d78c79ea77d038a4a5
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211021"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Serveurs proxy pour Skype Entreprise Online
 
@@ -54,24 +55,6 @@ Microsoft recommande également :
     
 Ces conseils devraient limiter l'apparition de problèmes.
   
-## <a name="proxy-vendors-with-built-in-skype-for-business-support-or-configuration-options"></a>Fournisseurs de serveurs proxy avec options de configuration ou prise en charge de Skype Entreprise intégrées
-
-Cette section contiendra des informations sur les fournisseurs de serveurs proxy qui vendent des produits ou services dont l'utilisation avec le trafic Skype Entreprise s'est avérée efficace.
-  
-Dans le cas d'organisations utilisant **Bluecoat Proxy Solutions**, un nouveau microprogramme a été publié et permet de résoudre divers problèmes liés aux éléments suivants :
-    
-  - Interception SSL
-    
-  - Vérifications OCSP/SRL
-    
-  - SIP sur TLS
-    
-  - Prise en charge de TURN
-    
-La prise en charge native de Bluecoat pour Skype Entreprise peut être facilement activée et permet l'identification du trafic pertinent et une gestion adéquate.L'optimisation de l'authentification, des signaux et du flux du trafic multimédia est ainsi assurée et vous bénéficiez d'une excellente expérience utilisateur sans être préoccupé par d'éventuels problèmes liés à la sécurité.
-    
-Reportez-vous au lien suivant si Bluecoat Proxy fait partie de la topologie de votre réseau :https://support.symantec.com/en_US/article.DOC9757.html
-
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Optimisation de votre réseau pour Skype Entreprise Online](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)

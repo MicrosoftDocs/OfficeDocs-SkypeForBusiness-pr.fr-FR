@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Obtenez une brève présentation générale de la manière dont un invité est invité à rejoindre une équipe dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb8672168b3f9f249f5f2d538c6f152c9012e29f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: aa6efbf95d0f68b6871aa0693a6e6bf1062b9f84
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969371"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211051"
 ---
 <a name="how-a-guest-joins-a-team"></a>Comment un invité rejoint une équipe
 ========================
@@ -46,4 +46,4 @@ Lors de l’utilisation des équipes, texte et des icônes donnent tous les memb
 Les invités peuvent quitter l'équipe à tout moment via les clients Web ou de bureau Teams. Pour plus d'informations, reportez-vous à l'article [Comment quitter une équipe ?](https://support.office.com/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
 > [!NOTE]
-> En laissant l’équipe ne supprime pas le compte invité de l’organisation/client. Comment retirer d’organisations, voir [laisser une organisation en tant qu’invité](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization) . Administrateur de l’organisation pouvez également supprimer les utilisateurs invités à partir du client.
+> En laissant l’équipe ne supprime pas le compte invité de l’organisation/client. Comment supprimer de l’organisation, voir [laisser une organisation en tant qu’invité](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization) . Administrateur de l’organisation pouvez également supprimer les utilisateurs invités à partir du client.
