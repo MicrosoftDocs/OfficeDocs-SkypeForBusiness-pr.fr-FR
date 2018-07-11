@@ -3,7 +3,7 @@ title: Déployer les équipes Microsoft Surface concentrateur
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 07/10/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 948f9f9ed32f4e5846248dfbcd2b96577a0f34ee
-ms.sourcegitcommit: 2b15226723c299fe94f1a012aa21222173fe3af8
+ms.openlocfilehash: cfd9e5fd267de180907c2ea41c53541c08ff28b7
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "20192179"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266937"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer les équipes Microsoft Surface concentrateur
 ======================================
@@ -141,46 +141,33 @@ Une fois que vous avez terminé les étapes précédentes pour activer vos équi
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installer des équipes pour exposer Hub à partir du magasin de Microsoft 
 
-Ces instructions sont les solutions de contournement pour l’installation des équipes concentrateur de Surface à partir de Microsoft Store. 
+Ces instructions sont pour l’installation des équipes concentrateur de Surface à partir de Microsoft Store. 
  
-1. Démarrez le magasin de Windows :<br>
+1. Démarrer la banque Microsoft :<br>
    a. Cliquez sur **Démarrer** > **toutes les applications** > **paramètres**.<br> b. Cliquez sur **compte de Surface Hub DISPOSITIF, la gestion**.<br>
    c. Sur la gauche, cliquez sur l’onglet **applications et fonctionnalités** .<br> d. Sur la droite, appuyez sur le bouton **Ouvrir un magasin** . 
-2. Dans le Store Microsoft, recherchez les *Équipes Microsoft*. Les **Équipes Microsoft Surface concentrateur (Preview)** s’affiche. Appuyez sur le bouton **obtenir l’application** à installer.  
+2. Dans le Store Microsoft, recherchez les *Équipes Microsoft*. Les **Équipes Microsoft Surface concentrateur** s’affichera. Appuyez sur le bouton **obtenir l’application** à installer.  
 3. Une fois l’installation terminée, redémarrez le Hub de la surface d’exposition. 
-4. Après le redémarrage de la surface d’exposition Hub, vous devez être en mesure de démarrer l’application d’équipes dans le menu **Démarrer** et joindre une réunion à partir du calendrier. 
 
-## <a name="make-teams-the-default-vtc-application"></a>Rendre les équipes de l’application de VTC par défaut
+> [!NOTE]
+> Ne cliquez pas sur la **barre de lancement** de la page de liste des magasins.
 
-Équipes peuvent être définies à être application VTC par défaut au lieu de Skype pour les entreprises. Une stratégie de gestion de périphérique Mobile (MDM) doit être appliqué à l’appareil Hub de la surface d’exposition. 
+## <a name="make-teams-the-default-calling-and-meetings-application"></a>Rendre les équipes l’appel par défaut et l’application de réunions
  
-Il existe deux options pour configurer des stratégies de Mobile Device Manager : 
+Il existe deux options pour la configuration de la stratégie d’application appelant et réunions par défaut : 
 
-- Si vous disposez d’une stratégie configurée, ajoutez-le via l’application de gestion des périphériques. 
-- Si vous ne disposez pas d’une stratégie à distance configurée, nous disposons d’un fichier de package mis en service que vous pouvez charger sur une clé USB.
-
-### <a name="device-management-configuration"></a>Configuration de gestion des périphériques
-
-Voici un exemple d’ajout d’une stratégie Mobile Device Manager configurée à partir d’une autorité centralisée de Mobile Device Manager. Si vous êtes sur le réseau d’entreprise, vous pouvez utiliser les instructions suivantes textuel, y compris le compte d’utilisateur. 
+- **Option 1**: configurer via une clé USB. 
+- **Option 2**: configurer via Mobile Device Manager tels que InTune.
  
-1. Dans la section **Gestion des périphériques** , cliquez sur **+**.<br>
-   La boîte de dialogue **se connecter à travailler ou de l’école** s’ouvre. 
-2. Entrez l’adresse de messagerie de stratégie et le mot de passe lorsque vous y êtes invité.<br>
-   **Remarque :**  Il existe un bogue dans le système d’exploitation qui n’actualise automatiquement l’interface utilisateur une fois que vous avez entré votre compte de la gestion des périphériques. Vous devez fermer et rouvrir paramètres afin de voir le compte répertorié. 
-3. Il vous prendre quelques minutes pour les paramètres de stratégie Mobile Device Manager à synchroniser. Si vous souhaitez forcer une synchronisation, cliquez sur le bouton **compte Mobile Device Manager** , puis appuyez sur le bouton **Info** . La fenêtre Info où vous pouvez puis cliquez sur **synchronisation**s’affiche. 
-4. Pour vérifier que vous avez ce dont vous avez besoin, vous pouvez vérifier le Registre. Vous devez voir deux clés sous **HKLM\Software\Microsoft\Windows\CurrentVersion\PPI\VtcCallSettings**. <br><br>
-   La valeur DWORD **VtcAppMeetingHandlingMode** indique que les équipes est l’application par défaut. Les valeurs suivantes sont reconnues. <br><br>
-    |Numéro | Valeur   |
-    |-------|---------|
-    |0      | SkypePreferred            |
-    |1      | VtcPreferred (équipes)      |
-    |2      | VtcExclusive (équipes uniquement) |
+### <a name="option-1-configure-via-usb-key"></a>Option 1 : Configurer via une clé USB 
+ 
+Les packages se trouvent sur cette [page de téléchargement](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Choisissez celui qui convient pour le programme que vous prévoyez d’installer et de le copier sur une clé USB. Le fichier .ppkg correct à utiliser dépend de la stratégie d’application par défaut que voulez-vous appliquer comme suit : 
 
-    Le **VtcCallAppPackageId** est le nom du package équipes installé. Si cela ne s’affiche pas, vérifiez que vous avez installé le package équipes et resynchronisation. 
- 
-### <a name="configure-mdm-via-usb-key"></a>Configurer Mobile Device Manager via une clé USB 
- 
-Les packages se trouvent sur cette [page de téléchargement](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Choisissez celui qui convient pour le programme que vous prévoyez d’installer et de le copier sur une clé USB. Le fichier .ppkg correct à utiliser dépend de package équipes qui a été installé à partir du magasin et la stratégie que vous souhaitez appliquer (Skype exclusif, Skype préféré, par défaut, les équipes exclusif équipes). 
+|Numéro  |Description  |
+|---------|---------|
+|0     | Application préférée Skype sur l’écran de démarrage, équipes de réunions disponibles        |
+|1     | Application préférée équipes sur l’écran de démarrage, Skype réunions disponibles        |
+|2     | Application exclusive équipes sur l’écran d’accueil (Skype app n’est pas disponible)        |
  
 1. Attacher la clé USB à l’appareil Hub de la surface d’exposition. 
 2. Ouvrez l’application de **paramètres** sur un appareil Hub de la surface d’exposition. 
@@ -189,8 +176,27 @@ Les packages se trouvent sur cette [page de téléchargement](https://1drv.ms/f/
 5. Cliquez sur **Ajouter ou supprimer un package de mise en service**. 
 6. Cliquez sur **Ajouter un Package**.
 7. Sélectionnez l’option **Support amovible** dans le menu déroulant. 
-8. Ajouter **Allowbuildspreview.ppkg**, puis sélectionnez le package Hub Surface que vous souhaitez ajouter. 
+8. Ajoutez le package **TeamsRTMMode*.ppkg** approprié qui a été précédemment copié à la clé USB. 
 9. Redémarrez le dispositif Hub de la surface d’exposition. 
+10. Après le redémarrage de l’appareil, vous devez être en mesure de démarrer l’application des équipes à partir de l’écran d’accueil et participer à une réunion à partir du calendrier. 
+
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2 : Configurer via Mobile Device Manager tels que InTune 
+
+Utilisez ce qui suit pour configurer la stratégie par défaut les réunions et les appels d’application via InTune.
+
+|Paramètre   |Valeur    |Description    |
+|----------|---------|---------|
+| Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
+|Type de données | nombre entier (0-2)   |0 - application préféré Skype sur l’écran de démarrage, équipes de réunions disponibles<br>1 - teams préféré application sur l’écran de démarrage, Skype réunions disponibles<br>2 - application exclusive d’équipes sur l’écran d’accueil (Skype app n’est pas disponible) |
+|Opérations| Obtenir, définir        |
+
+|Paramètre   |Valeur    |
+|----------|---------|
+| Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
+|Type de données | chaîne (string set aux équipes des ID de package d’application comme - **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe ! Les équipes**) |
+|Opérations| Obtenir, définir        |
+
+Redémarrez le dispositif Hub de la surface d’exposition. Après le redémarrage de l’appareil, vous devez être en mesure de démarrer l’application des équipes à partir de l’écran d’accueil et participer à une réunion à partir du calendrier.
 
 > [!NOTE]
 > Si votre appareil ou périphériques de votre organisation n’appartiennent pas actuellement du programme interne Windows et que vous participez à pays couverts par général règlement de Protection des données (PIBR) (ou si vous avez modifié manuellement vos paramètres de télémétrie sur de base), vous devez renouveler vérifier que vous avez autorisé la télémétrie complète avant de participer à la programme initiés. PIBR modifié le comportement par défaut des périphériques Hub de la surface d’exposition dans l’Union européenne pour définir la télémétrie de base.

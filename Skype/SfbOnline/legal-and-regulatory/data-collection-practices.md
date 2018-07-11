@@ -1,5 +1,5 @@
 ---
-title: Méthodes de collecte de données
+title: Pratiques de collecte de données
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,11 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collecte des données de recensement, d’utilisation et d’erreur pour comprendre comment Skype pour les entreprises est utilisé et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations de produit.
-ms.openlocfilehash: 8ea357aefe96505285d9c7bb870ef852ea2649a4
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: 2175d3fea0ab5cc2ca7cb573d48e3c700ac2bd03
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246477"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype pour les pratiques de collection de données métiers et Microsoft Teams
 
@@ -80,7 +81,6 @@ Pour application de réunions Skype et le Lanceur participer à des pages web, l
  
 `Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True` 
 
-  
 Cette stratégie par défaut est false, afin que la collection de télémétrie est désactivée par défaut. Ce paramètre est par pool et aux contrôles de tous les utilisateurs qui se connectent avec Skype réunions App à une conférence hébergée sur ce serveur.
   
 ## <a name="error-reporting-data"></a>Données de signalement d’erreurs
@@ -103,7 +103,6 @@ Rapport d’erreurs nécessite deux éléments :
 - Les utilisateurs finaux participer individuellement à partir de l’onglet Général (cliquez sur l’icône d’engrenage ![icône d’engrenage](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) et ouvre la boîte de dialogue **Options** avec l’onglet **Général** ) dans le Skype pour client d’entreprise.
     
  
-  
 ![Skype pour case collection des données métiers dans les Options > boîte de dialogue Général](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
 Pour l’application de réunions Skype, le MeetingUxEnableTelemetry contrôle signale les erreurs, bien que pour se bloque dans Windows, les paramètres Watson contrôlent téléchargement info incident. Il n’existe aucun paramètre d’utilisateur pour l’application de réunions Skype que vous voyez dans la boîte de dialogue client de bureau.

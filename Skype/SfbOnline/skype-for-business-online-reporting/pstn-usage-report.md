@@ -1,5 +1,5 @@
 ---
-title: Rapport d’utilisation PSTN
+title: Rapport d'utilisation RTC
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ ms.custom:
 - Reporting
 description: La nouvelle Skype de zone de rapports du centre d’administration Business affiche vous appeler et audio conférence activité dans votre organisation. Elle vous permet des détails des rapports pour vous donnent plus granulaires sur les activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de conférence Audio, y compris le coût de l’appel afin que vous puissiez comprendre l’utilisation et appeler les détails de facturation pour déterminer l’usage au sein de votre organisation.
 search.appverid: MET150
-ms.openlocfilehash: 59a1fbae9614fa6742f73b46c442d7912c71f88d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 3c2148b54c04950867feef1844a4ca1595f708e5
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973367"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246487"
 ---
-# <a name="pstn-usage-report"></a>Rapport d’utilisation PSTN
+# <a name="pstn-usage-report"></a>Rapport d'utilisation RTC
 
 La nouvelle Skype pour la zone Centre d’administration Business **rapports** affiche vous appeler et audio conférence activité dans votre organisation. Elle vous permet des détails des rapports pour vous donnent plus granulaires sur les activités de chaque utilisateur. Le rapport sur les **détails d'utilisation PSTN de Skype Entreprise** vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de conférence Audio, y compris le coût de l’appel afin que vous puissiez comprendre l’utilisation et appeler les détails de facturation pour déterminer l’usage au sein de votre organisation.
   
@@ -74,8 +74,9 @@ Voici une illustration du rapport.
      *    **conf_out** (un appel sortant à partir du pont d’audioconférence généralement pour ajouter un numéro RTC à la conférence)
 
      **Applications de communications unifiées (UCAP)** 
-     *    **ucap_in** (un appel entrant à l’application de communications unifiées telles que de la file d’attente standard ou un appel automatique) 
-     *    **ucap_out** (un appel sortant de l’application de communications unifiées telles que de la file d’attente standard ou un appel automatique)
+     *    **ucap_in** (un appel RTC entrant à l’application de communications unifiées telles que de la file d’attente standard ou un appel automatique) 
+     *    **ucap_out** (un appel RTC sortant de l’application de communications unifiées telles que de la file d’attente standard ou un appel automatique)
+     *    **Remarque :** Les appels qui ont été transférés à un utilisateur de l’application de communications unifiées comme une file d’attente standard ou un appel automatique n’apparaît pas dans le rapport d’utilisation PSTN que les branches d’appel sont les appels audio d’égal à égal (P2P). Vous pouvez accéder aux appels P2P dans le Skype pour Business Admin Center sous « Outils > Skype pour Business appeler Analytique » et rechercher par nom d’utilisateur ou SIP adresse corrélation l’appel par date/heure et/ou d’origine CLID (ID de ligne de l’appel). 
 *     
      **Internes et internationaux** indique si l’appel a été placé a été pris en compte interne (au sein d’une pays/région) ou international (en dehors d’une pays/région) basée sur l’emplacement de l’utilisateur. 
 *    **Destination composée** est le nom de la destination de pays/région est composé comme France, Allemagne ou États-Unis (États-Unis). 

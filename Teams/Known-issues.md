@@ -10,12 +10,12 @@ ms.reviewer: marcl, ninadara
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65417bc9d64ac895811736f11dfdb565c42704f2
-ms.sourcegitcommit: f7554cd4fab65ce948aba269f8aabde2fe5fa082
+ms.openlocfilehash: ee04fc9452342b78dc94a3c5c4e977f944d9164b
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "20136933"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246545"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
   
@@ -100,10 +100,6 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Les utilisateurs sur site de Skype Entreprise ne reçoivent pas mes messages  <br/> |Les messages ne sont pas acheminés lorsque les utilisateurs de Microsoft Teams essayent d'envoyer un message à une autre personne qui utilise Skype Entreprise sur site.  <br/> | L'interopérabilité entre Teams et les utilisateurs hébergés sur Skype Entreprise Online est prise en charge. Les utilisateurs de Teams peuvent envoyer des conversations en tête-à-tête à des personnes qui n’utilisent pas Teams à l'aide de Skype Entreprise Online. <br/> L'interopérabilité entre Teams et les utilisateurs hébergés sur Skype Entreprise sur site n'est pas prise en charge. Les utilisateurs de Teams ne peuvent pas envoyer de conversations en tête à tête à des utilisateurs qui utilisent Skype Entreprise sur site.  <br/> |02.11.2016  <br/> |
-
-|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
-|:-----|:-----|:-----|:-----|
-|Les utilisateurs sur site de Skype Entreprise ne reçoivent pas mes messages  <br/> |Les messages ne sont pas acheminés lorsque les utilisateurs de Microsoft Teams essayent d'envoyer un message à une autre personne qui utilise Skype Entreprise sur site. <br/> | L'interopérabilité entre Teams et les utilisateurs hébergés sur Skype Entreprise Online est prise en charge. Les utilisateurs de Teams peuvent envoyer des conversations en tête-à-tête à des personnes qui n’utilisent pas Teams à l'aide de Skype Entreprise Online. <br/> L'interopérabilité entre Teams et les utilisateurs hébergés sur Skype Entreprise sur site n'est pas prise en charge. Les utilisateurs de Teams ne peuvent pas envoyer de conversations en tête à tête à des utilisateurs qui utilisent Skype Entreprise sur site. <br/> |02.11.2016  <br/> |
 
 ## <a name="client"></a>Client
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
