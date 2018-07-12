@@ -1,2 +1,2 @@
 > [!NOTE]
-> Ce didacticiel inclut un grand nombre de liens vers le contenu existant ; de cette façon, nous pouvons être sûr d’avoir toujours des informations les plus récentes. Pour un apprentissage optimal, veillez à suivre les liens et absorber le contenu. Uniquement si une liaison est appelé « informations supplémentaires » doit elle être considérés comme facultatifs.
+> Ce didacticiel inclut des liens vers du contenu existant. De cette façon, nous pouvons être sûr que vous disposez toujours des informations les plus récentes. Pour une expérience d’apprentissage optimal, veillez à suivre les liens et absorber le contenu. Si seule une liaison est marquée comme « informations supplémentaires » il convient facultatif.
