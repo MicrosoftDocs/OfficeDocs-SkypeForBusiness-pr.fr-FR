@@ -1,5 +1,5 @@
 ---
-title: Que sont les Communications crédits ?
+title: Qu'est-ce que les crédits de communication ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 5d3a1c2b3565f8497bf108d9af6ad44379f2515b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 070816cf38fd86bf89bb05d27f1aedf5a5f90da5
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20326994"
 ---
-# <a name="what-are-communications-credits"></a>Que sont les Communications crédits ?
+# <a name="what-are-communications-credits"></a>Qu'est-ce que les crédits de communication ?
 
 Communications crédits sont un moyen pratique de payer minutes d’audioconférence et planifier l’appel. Il permet de garantir que vous et vos utilisateurs ne sont jamais interceptées n’est pas en mesure de :
   
@@ -76,7 +77,7 @@ Lorsque vous configurez Communications générique, vous devez examiner l’util
   
 ## <a name="recommended-funding-amounts"></a>Montants de financement recommandés
 
-Nous vous recommandons de commencer à l’aide d’une petite quantité de financement, qui peut être même minimale est de 20 pour les petites organisations. Après avoir recueilli un ou deux mois d’utilisation PSTN à l’aide du rapport de détails d’utilisation PSTN, vous serez en mesure d’ajuster les montants pour répondre à l’utilisation normale dans votre organisation.
+Nous vous recommandons de commencer à l’aide d’une petite quantité de financement, qui peut être même minimum 50 $ pour les petites organisations. Après avoir recueilli un ou deux mois d’utilisation PSTN à l’aide du rapport de détails d’utilisation PSTN, vous serez en mesure d’ajuster les montants pour répondre à l’utilisation normale dans votre organisation.
   
 Si vous êtes prêt pour la définir ascendants, voir [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md).
   
@@ -84,7 +85,7 @@ Si vous êtes prêt pour la définir ascendants, voir [configurer les Communicat
 
 Vous pouvez voir les plans et les prix à partir d’un des liens suivants :
   
-- [Plans d’appel](https://go.microsoft.com/fwlink/?linkid=799761)
+- [Offres d'appels](https://go.microsoft.com/fwlink/?linkid=799761)
     
 - [Audioconférence](https://go.microsoft.com/fwlink/?linkid=799762)
     

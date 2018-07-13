@@ -29,9 +29,10 @@
 ## [Gérer l'accès des utilisateurs à Microsoft Teams](user-access.md)
 ## [Obtenir des clients pour Teams](get-clients.md)
 ### [Configuration matérielle requise pour l’application d’équipes](hardware-requirements-for-the-teams-app.md)
-### [Installer Microsoft Teams à l’aide de MSI](msi-deployment.md)
+### [Installer les équipes utilisant MSI](msi-deployment.md)
 ### [Déployer des équipes pour exposer Hub](teams-surface-hub.md)
-## [Activer Microsoft Teams dans votre organisation](Office-365-set-up.md)
+## [Exécuter des équipes dans un environnement virtuel](virtual-environment-teams.md)
+## [Permettent aux équipes de votre organisation](Office-365-set-up.md)
 ## [Gérer les fonctionnalités des équipes au sein de votre organisation.](enable-features-office-365.md)
 ### [Gérer les équipes pendant la transition vers le nouveau Microsoft Teams & Skype entreprise centre d’administration](manage-teams-skypeforbusiness-admin-center.md)
 ### [Assigner des rôles et des autorisations dans Microsoft Teams](assign-roles-permissions.md)
@@ -70,7 +71,7 @@
 ### [Configurer l'analyse des appels Skype Entreprise](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels Skype Entreprise](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Appel Analytique et tableau de bord de qualité des appels](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Référence d'applet de commande PowerShell pour Teams](https://docs.microsoft.com/powershell/module/teams)
+
 ## Dépannage et assistance
 ### [Problèmes connus dans Teams](Known-issues.md)
 ### [Ressources de support pour Teams](support-resources.md)
@@ -264,5 +265,6 @@
 ## [Ressources d’équipes pour les administrateurs de formation](resources-teams-edu.md)
 <!-- ============================================================ -->
 
+# [Référence d'applet de commande PowerShell pour Teams](https://docs.microsoft.com/powershell/module/teams)
 
 # [Documentation destinée aux développeurs pour Teams](https://docs.microsoft.com/microsoftteams/platform)

@@ -17,11 +17,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler les organisateurs utilisation numéros gratuits pour leurs réunions.
-ms.openlocfilehash: a63078256ac9ac52b3d405bd3cf1b63120fb77ce
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2f506163ce815f71d18935040dbf13bf4af4f04c
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20324140"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactivation des numéros de téléphone gratuits pour des utilisateurs spécifiques
 
@@ -39,6 +40,9 @@ Lorsque les numéros gratuits sont désactivés pour un organisateur donné :
     > Cela renvoie toutes les invitations de messagerie de l’organisateur à tous les participants de ces réunions. 
 
  - Les participants peuvent poursuivre la participation à des réunions de l’organisateur à l’aide des numéros payants. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactivation des numéros de téléphone gratuits pour des utilisateurs spécifiques 
 
