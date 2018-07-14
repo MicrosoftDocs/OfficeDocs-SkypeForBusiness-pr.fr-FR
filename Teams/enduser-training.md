@@ -10,12 +10,12 @@ ms.reviewer: lolaj, ninadara
 description: Ressources de formation qu'un administrateur peut utiliser pour déployer correctement et adopter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12c490717f0b2b6242735a01bd4e420588b3b06f
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: 95841fe18e8435d319c4f1c5e5e7c5754a46d0c6
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20266107"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20361129"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les utilisateurs finaux
 =====================================
@@ -33,9 +33,8 @@ Utilisez ces ressources de formation pour aider votre organisation à tirer le m
 | [Canal Microsoft Teams sur YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [Canal Coffee in the Cloud sur YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Vidéos de procédure, de recommandation et de vérification des fonctionnalités  |
 | Introduction à Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
-| Introduction aux équipes de Microsoft pour l’éducation  | <iframe width="350" height="200" src="https://youtu.be/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
-| 5 minutes pour configurer des équipes, des canaux et des onglets   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
-| Collaborer largement - ajoutez des invités à votre équipe de Microsoft  | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   |
-| Accélérer votre Collaboration - à l’aide de la barre de commandes dans les équipes Microsoft  | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
+| Introduction aux équipes de Microsoft pour l’éducation  | <iframe width="350" height="200" src="https://youtube.com/embed/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
+
+| 5 minutes pour la configuration des onglets, des canaux et des équipes très | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | | Collaborer largement - Ajout invités à votre équipe Microsoft | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | | Accélérer votre Collaboration - à l’aide de la barre de commandes dans les équipes Microsoft | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
 
 

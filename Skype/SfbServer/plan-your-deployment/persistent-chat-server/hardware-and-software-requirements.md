@@ -3,19 +3,18 @@ title: Configuration logicielle et matérielle requise pour le serveur de conver
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour le serveur de conversation permanente dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 8db3bda71cb27ec059dcf4c73f8d4754ffcb8b2d
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 4daf53219937a4ffcfee0e51d80cffb7f1626cf5
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246655"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20363929"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration logicielle et matérielle requise pour le serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -61,7 +60,7 @@ Pour préparer une plateforme de serveur de base de données, vérifiez que chaq
   
 Sur le serveur de bases de données, vérifiez que l’une des applications logicielles suivantes est installée :
 
-- Microsoft SQL Server 2016 et que vous devez exécuter avec Skype pour Business Server mise à jour Cumulative 7 ou versions ultérieures. Nous vous recommandons d’exécuter SQL Server 2016 avec le service pack le plus récent. Pour plus d’informations sur l’installation de Microsoft SQL Server 2016, consultez [installer SQL Server 2016](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
+- Microsoft SQL Server 2014 et que vous devez exécuter avec Skype pour Business Server mise à jour Cumulative 6 ou versions ultérieures. Nous vous recommandons d’exécuter SQL Server 2014 avec le service pack le plus récent. Pour plus d’informations sur l’installation de Microsoft SQL Server 2014, consultez [installer SQL Server 2014](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
 
 - Microsoft SQL Server 2012 (Édition 64 bits) et nous recommandé en cours d’exécution avec le service pack le plus récent. Pour plus d’informations sur l’installation de Microsoft SQL Server 2012, consultez [installer SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559).
 

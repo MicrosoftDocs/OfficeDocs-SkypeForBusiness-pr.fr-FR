@@ -3,7 +3,7 @@ title: Exécutez Microsoft Teams dans un environnement virtuel
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/12/2018
+ms.date: 07/13/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d00ee6a3c14b5a1bb97685124293b13977c323af
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+ms.openlocfilehash: 08a82c2450d238a59d7e076ceb95368c3dce91e2
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20328734"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20363922"
 ---
 <a name="run-microsoft-teams-in-a-virtual-environment"></a>Exécutez Microsoft Teams dans un environnement virtuel
 ============================================
@@ -55,7 +55,7 @@ Les applets de commande *CsTeamsCallingPolicy* permettent aux administrateurs de
 \>> *Import-PSSession $sfboSession*<br>
 3.  Afficher la liste des Options de stratégie de l’appel :<br>
 \>> *Get-CsTeamsCallingPolicy*
-4.  Recherchez l’option prédéfinie où toutes les stratégies de réunion sont désactivés :<br>
+4.  Recherchez l’option prédéfinie où toutes les stratégies d’appel sont désactivés :<br>
 ![Capture d’écran de l’option de réunions avec toutes les stratégies de réunion désactivé.](media/virtual-environment-image2.png)
 5.  Appliquer l’option « DisallowCalling » prédéfini à tous les utilisateurs qui emploient des équipes dans un environnement virtualisé :<br>
 \>> *Grant-CsTeamsMeetingPolicy - PolicyName AllOff-Identity « id de messagerie utilisateur »*
