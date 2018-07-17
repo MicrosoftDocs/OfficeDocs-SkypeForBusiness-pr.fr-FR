@@ -7,25 +7,25 @@ ms.date: 7/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviwer: tonysmit
-description: Découvrez comment Live événements permettent aux utilisateurs de diffusion vidéo et de contenu à grande audience en ligne Microsoft Teams, Yammer et Microsoft Stream.
+description: Découvrez comment Live événements permettent aux utilisateurs de diffusion vidéo et de contenu à grande audiences en ligne dans Microsoft Teams, Yammer et Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00d9e25b68380a6b44346f0eef628b8aa5c1308
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 5d259231709b7b9a16afc6d10afbcc9b9a7ed410
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20364641"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412303"
 ---
 # <a name="what-are-teams-live-events"></a>Quelles sont les équipes live événements ?
-**Résumé**: Découvrez comment live événements permettent aux utilisateurs de diffusion vidéo et de contenu à grande audience en ligne Microsoft Teams, Yammer et Microsoft Stream.
+**Résumé**: Découvrez comment live événements permettent aux utilisateurs de diffusion vidéo et de contenu à grande audiences en ligne dans Microsoft Teams, Yammer et Microsoft Stream.
 
 ## <a name="overview"></a>Vue d’ensemble
-Événements en direct dans 365 de Microsoft permettent aux utilisateurs de diffusion vidéo et de contenu au grand public en ligne dans Microsoft Teams, Yammer et [Flux de Microsoft](https://docs.microsoft.com/en-us/stream/).    
+Événements en direct dans 365 de Microsoft permettent aux utilisateurs de diffusion vidéo et de contenu à grande audiences en ligne dans Microsoft Teams, Yammer et [Flux de Microsoft](https://docs.microsoft.com/en-us/stream/). 
 
-Teams Microsoft offre collaboration basée sur la conversation, l’appel, réunions et des événements live, vous pouvez développer l’audience de vos réunions.  Événements live Teams Microsoft est une extension de réunions d’équipes, permettant aux utilisateurs de diffusion vidéo, le contenu et la réunion à un grand public en ligne. Ceux-ci sont destinés à un nombre de communications où l’hôte de l’événement entraîne les interactions et la participation d’audience est principalement à visualiser le contenu partagé par l’hôte. Les participants peuvent voir l’événement direct ou enregistré dans Yammer, équipes et/ou Microsoft Stream et peut interagir avec les présentateurs via modéré Q & r ou conversation Yammer. 
+Teams Microsoft offre collaboration basée sur la conversation, l’appel, réunions et des événements live, vous pouvez développer l’audience de vos réunions. Événements live Teams Microsoft est une extension de réunions d’équipes, permettant aux utilisateurs de diffusion de contenu de réunion et vidéo à un grand public en ligne. Ils sont destinés à un-à-plusieurs communications où l’hôte de l’événement entraîne les interactions et la participation d’audience est principalement à visualiser le contenu partagé par l’hôte. Les participants peuvent voir l’événement direct ou enregistré dans Yammer, équipes et/ou Microsoft Stream et peut interagir avec les présentateurs via modéré Q & r ou conversation Yammer. 
 
-Les équipes événements live est considérée comme la prochaine version de diffusion de réunion Skype et finira par remplacent les fonctionnalités fournies dans Skype réunion diffusion. Pour la version d’évaluation d’événements en direct, Microsoft continuera prendre en charge de Skype réunion diffusion, sans interruption de service pour les événements de nouveau ou futurs. Nous vous invitons à essayer d’événement dans les équipes à tirer parti des nouvelles fonctionnalités, notamment, de partage d’écran et le nombre de participants, en direct et prise en charge des encodeurs matérielles et logicielles externes. 
+Les équipes événements live est considérée comme la prochaine version de diffusion de réunion Skype et finira par remplacent les fonctionnalités fournies dans Skype réunion diffusion. Pour la version d’évaluation d’événements en direct, Microsoft continuera prendre en charge de Skype réunion diffusion, sans interruption de service pour les événements de nouveau ou futurs. Nous vous invitons à essayer d’événements dans les équipes à tirer parti des nouvelles fonctionnalités, notamment, de partage d’écran et le nombre de participants, en direct et prise en charge des encodeurs matérielles et logicielles externes. 
 
 Connexes : [les équipes Microsoft live vue d’ensemble des événements](https://support.office.com/en-us/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US).
 
@@ -39,8 +39,8 @@ Les équipes offre la possibilité pour les organisateurs créer un événement 
 
 ### <a name="production"></a>Production
 Les événements dans 365 Microsoft live prend en charge un large éventail de scénarios de production, incluez un événement de démarrage rapide à l’aide des webcams ou d’un événement de codage externe à l’aide d’équipement de qualité studio. L’entrée vidéo est la base des événements live et il peut varier d’une webcam doit être unique à une production vidéo professionnelle caméra multiple. Clients peuvent choisir de ces options en fonction de leurs besoins du projet et de votre budget. 
-- **Guide de démarrage rapide**: la méthode de démarrage rapide permet à utilisateur générer leurs événements en direct à l’aide de réunions d’équipes. Cette option est idéale si vous souhaitez utiliser l’audio et des périphériques vidéo connecté à l’ordinateur de bureau et/ou invitant des présentateurs à distance / spéciaux pour participer à l’événement.  Cette option permet aux utilisateurs d’utiliser leurs webcams facilement et de partager leur écran comme entrée à la diffusion.  
-- **Codage externe (bientôt disponible)**: encodeurs externes permettent aux utilisateurs de créer leurs événements live directement à partir d’un matériel externe ou un logiciel d’encodeur avec Microsoft Stream.  Cette option est recommandée si vous disposez déjà d’un équipement de qualité studio (par exemple, le mixage media) qui prend en charge la diffusion en continu à un service RTMP.  Cette option est généralement utilisée dans les événements à grande échelle telles que des conférences entre les cadres – où un flux unique à partir d’un mixage multimédia est diffusée à l’audience.  
+- **Guide de démarrage rapide**: la méthode de démarrage rapide permet aux utilisateurs de créer leurs événements en direct à l’aide de réunions d’équipes. Cette option est idéale si vous souhaitez utiliser l’audio et des périphériques vidéo connecté à l’ordinateur de bureau et/ou invitant des présentateurs à distance / spéciaux pour participer à l’événement. Cette option permet aux utilisateurs d’utiliser leurs webcams facilement et de partager leur écran comme entrée à la diffusion. 
+- **Codage externe (bientôt disponible)**: encodeurs externes permettent aux utilisateurs de créer leurs événements live directement à partir d’un matériel externe ou un logiciel d’encodeur avec Microsoft Stream. Cette option est recommandée si vous disposez déjà d’équipement de qualité studio (par exemple, le mixage media) les prise en charge de la diffusion en continu à un service RTMP. Cette option est généralement utilisée dans les événements à grande échelle telles que les conférences exécutifs – où un flux unique à partir d’un mixage multimédia est diffusé à l’audience. 
 
 ### <a name="streaming-platform"></a>Plateforme de diffusion en continu
 Cela est composée des éléments suivants.
@@ -58,12 +58,12 @@ L’objectif d’eCDN consiste à prendre le contenu vidéo à partir d’intern
 - Ramp (bientôt disponible au démarrage rapide)
 
 ### <a name="attendee-experience"></a>Expérience de participant
-L’expérience de participant est le plus important d’événements en direct et il est fondamental que les participants peuvent participer à l’événement live sans problème. L’expérience de participant utilise le lecteur Media Azure et fonctionne sur le bureau, navigateur et mobile (Android, iOS). Microsoft 365 fournit Yammer et les équipes deux concentrateurs de collaboration, ainsi que le participant live expérience est intégrée à ces outils de collaboration.  Les événements live en fonction de codage externe sont également accessibles par les participants dans le portail Microsoft Stream.
+L’expérience de participant est le plus important d’événements en direct et il est fondamental que les participants peuvent participer à l’événement live sans problème. L’expérience de participant utilise le lecteur Media Azure et fonctionne sur le bureau, navigateur et mobile (Android, iOS). Microsoft 365 fournit Yammer et les équipes deux concentrateurs de collaboration, ainsi que le participant live expérience est intégrée à ces outils de collaboration. Les événements live en fonction de codage externe sont également accessibles par les participants dans le portail Microsoft Stream.
 
 ## <a name="prerequisites"></a>Conditions requises
 
 ### <a name="who-can-create-live-events"></a>Qui peut créer des événements en direct
-Les conditions préalables suivantes sont requises pour l’utilisateur planifier un événement en direct de la période d’aperçu :   
+Les conditions préalables suivantes sont requises pour l’utilisateur planifier un événement en direct de la période d’aperçu :  
 - Utilisateur dispose d’une licence Office 365 entreprise E3 ou E5. 
 - Utilisateur est activé pour Microsoft Teams, Skype pour Business Online et Microsoft Stream.
 - Utilisateur est activé pour la planification de la réunion privée dans les équipes (TeamsMeetingPolicy-AllowPrivateMeetingScheduling est défini sur True).
@@ -144,7 +144,7 @@ Vous pouvez utiliser des événements en direct équipes dans plusieurs régions
   - Les participants et les membres de l’équipe événement ne sera pas en mesure d’utiliser des événements en direct équipes car Azure CDN n’est pas accessible en Chine. Une solution de contournement consiste à utiliser une connexion VPN, qui obtient le client connecté au CDN via le réseau d’entreprise du client de la société.
 
 ### <a name="set-up-your-network-for-teams-live-events"></a>Configurez votre réseau pour les équipes événements en direct 
-Accédez à [configuration du réseau pour les événements live équipes](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-live-events-set-up-your-network?branch=teams-live-events).
+À venir.
 
 ### <a name="set-up-ecdn-provider-for-teams-live-events"></a>Fournisseur eCDN pour les équipes de configurer des événements en direct
 À venir.
@@ -152,7 +152,7 @@ Accédez à [configuration du réseau pour les événements live équipes](https
 ### <a name="enable-live-event-scheduling-for-the-user"></a>Activer la planification d’événements live pour l’utilisateur
 La planification d’événements live est activée par défaut pour un utilisateur d’équipes.  
 
-Utilisez le paramètre AllowBroadcastScheduling dans TeamsMeetingBroadcastPolicy dans PowerShell équipes pour contrôler si l’utilisateur peut créer des événements en temps réel dans les équipes ou non.  Vous pouvez en savoir plus sur la gestion des TeamsMeetingBroadcastPolicy avec Office 365 PowerShell [ici](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+Utilisez le paramètre AllowBroadcastScheduling dans TeamsMeetingBroadcastPolicy dans PowerShell équipes pour contrôler si l’utilisateur peut créer des événements en temps réel dans les équipes ou non. Vous pouvez en savoir plus sur la gestion des TeamsMeetingBroadcastPolicy avec Office 365 PowerShell [ici](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
  Sauf si vous avez assigné une stratégie personnalisée pour les utilisateurs, les utilisateurs obtiennent la stratégie globale, qui est activée par défaut de l’enregistrement. 
 
@@ -188,13 +188,13 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastScheduling $fa
 #### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>Activer Microsoft Stream pour les utilisateurs dans l’organisation
 Stream Microsoft est disponible dans le cadre des abonnements Office 365 éligibles ou en tant que service autonome. Pour plus d’informations, voir [Présentation des flux de licences](https://docs.microsoft.com/en-us/stream/license-overview) . Remarque Microsoft Stream n’est pas inclus dans les plans Business Essentials et entreprise Premium.  
 
-Pour plus d’informations sur la façon dont vous pouvez [attribuer des licences aux utilisateurs dans Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) afin que les utilisateurs peuvent accéder à Microsoft Stream.  Assurez-vous que Microsoft Stream n’est pas bloqué pour les utilisateurs, comme défini dans [cet article](https://docs.microsoft.com/en-us/stream/disable-user-organization).
+Pour plus d’informations sur la façon dont vous pouvez [attribuer des licences aux utilisateurs dans Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) afin que les utilisateurs peuvent accéder à Microsoft Stream. Assurez-vous que Microsoft Stream n’est pas bloqué pour les utilisateurs, comme défini dans [cet article](https://docs.microsoft.com/en-us/stream/disable-user-organization).
 
 #### <a name="ensure-users-have-live-event-creation-permission-in-microsoft-stream"></a>Vérifiez les utilisateurs ont l’autorisation de création d’événement live dans Microsoft Stream
-Par défaut, tout le monde peut créer du contenu dans le flux de données, une fois que le flux est activée et la licence est attribuée à l’utilisateur. Administrateur de Microsoft Stream peut [empêcher les employés pour la création de contenu](https://docs.microsoft.com/en-us/stream/restrict-uploaders) dans le flux. Les utilisateurs qui figurent dans cette liste restreinte ne sera pas en mesure d’enregistrer les réunions.
+Par défaut, tout le monde peut créer du contenu dans le flux de données, une fois que le flux est activée et une licence est attribuée à l’utilisateur. Administrateur de Microsoft Stream peut [empêcher les employés pour la création de contenu](https://docs.microsoft.com/en-us/stream/restrict-uploaders) dans le flux. Les utilisateurs qui figurent dans cette liste restreinte ne sera pas en mesure d’enregistrer les réunions.
 
 #### <a name="ensure-live-event-organizers-have-consented-to-the-company-policy-set-by-stream-admin"></a>Vérifiez les événements live organisateurs souhaitez la stratégie d’entreprise définie par l’administrateur de flux
-Si un administrateur de Microsoft Stream a [configurer une stratégie d’instructions entreprise](https://docs.microsoft.com/en-us/stream/company-policy-and-consent) et exige que les employés accepter cette stratégie avant d’enregistrer le contenu, les utilisateurs doivent faire avant de créer un événement en direct (avec la production de codage externe) dans Microsoft Teams. Avant de vous déploiement événements live fonctionnalité dans l’organisation, assurez-vous que les utilisateurs qui créeront des ces événements en direct ont accepté à la stratégie. 
+Si un administrateur de Microsoft Stream a [configurer une stratégie d’instructions entreprise](https://docs.microsoft.com/en-us/stream/company-policy-and-consent) et exige que les employés accepter cette stratégie avant d’enregistrer le contenu, les utilisateurs doivent faire avant de créer un événement en direct (avec la production de codage externe) dans Microsoft Teams. Avant la mise en œuvre la fonctionnalité événements en temps réel de l’organisation, assurez-vous que les utilisateurs qui créeront des ces événements en direct ont accepté à la stratégie. 
 
 ## <a name="configure-live-events"></a>Configurer des événements en direct
 
@@ -214,7 +214,7 @@ Ainsi, événement live organisateurs créer des événements avec visibilité a
 |---------|---------|
 |Tout le monde     |L’utilisateur dispose d’une option pour créer des événements en temps réel avec la visibilité attendee suivantes : Public, tout le monde dans la société et des personnes spécifiques. |
 |EveryoneInCompany     |L’utilisateur dispose d’une option pour créer des événements en temps réel avec la visibilité attendee suivantes : tout le monde dans la société et des personnes spécifiques. L’utilisateur ne peut pas créer des événements en temps réel qui peuvent être contrôlés par des utilisateurs anonymes.|
-|InvitedUsers |L’utilisateur peut uniquement créer des événements en temps réel qui sont limitées à des personnes spécifiques entré par l’organisateur de l’événement.  L’utilisateur ne peut pas créer des événements live avec Public et tout le monde dans l’authentification de la société. |
+|InvitedUsers |L’utilisateur peut uniquement créer des événements en temps réel qui sont limitées à des personnes spécifiques entré par l’organisateur de l’événement. L’utilisateur ne peut pas créer des événements live avec Public et tout le monde dans l’authentification de la société. |
 
 PowerShell
 
@@ -234,8 +234,8 @@ Cela permet d’administrateurs au contrôle si les événements live sont toujo
 
 |Valeurs  |Comportement  |
 |---------|---------|
-|Toujours activé |Les événements live organisées par cet utilisateur sont toujours enregistrées.  Utilisateur n’est pas une option pour remplacer.  Si l’événement live est enregistré, les membres de l’équipe des événements sont en mesure de télécharger l’enregistrement après l’événement et les participants peuvent suivre l’événement après l’événement. |
-|AlwaysDisabled |Les événements live organisées par cet utilisateur ne sont jamais enregistrées.  Utilisateur n’est pas une option pour remplacer.  Si l’événement live est enregistré, aucun enregistrement n’est créé pour les membres de l’équipe d’événement et les participants ne peuvent pas voir l’événement après l’avoir sur. |
+|Toujours activé |Les événements live organisées par cet utilisateur sont toujours enregistrées. Utilisateur n’est pas une option pour remplacer. Si l’événement live est enregistré, les membres de l’équipe des événements sont en mesure de télécharger l’enregistrement après l’événement et les participants peuvent suivre l’événement après l’événement. |
+|AlwaysDisabled |Les événements live organisées par cet utilisateur ne sont jamais enregistrées. Utilisateur n’est pas une option pour remplacer. Si l’événement live est enregistré, aucun enregistrement n’est créé pour les membres de l’équipe d’événement et les participants ne peuvent pas voir l’événement après l’avoir sur. |
 |UserOverride |Utilisateur peut décider si l’événement live est enregistré pour un fichier d’enregistrement peut être créé pour les membres de l’équipe d’événement et les participants peuvent suivre l’événement après l’événement. |
 
 PowerShell
@@ -254,13 +254,13 @@ Cela permet d’organisateurs d’événement live activer les légendes en temp
 
 PowerShell
 
-Utilisez le paramètre AllowBroadcastTranscription dans TeamsMeetingBroadcastPolicy dans PowerShell pour contrôler si les participants direct sera en mesure de voir que vous pouvez en savoir plus sur la gestion des TeamsMeetingBroadcastPolicy avec Office 365 PowerShell ici.  
+Utilisez le paramètre AllowBroadcastTranscription dans TeamsMeetingBroadcastPolicy dans PowerShell pour contrôler si les participants direct sera en mesure de voir la transcription et traduction. Pour plus d’informations sur la gestion des TeamsMeetingBroadcastPolicy avec Office 365 PowerShell ici.  
 
 Sauf si vous avez assigné une stratégie personnalisée pour les utilisateurs, les utilisateurs obtiennent la stratégie globale, qui possède la transcription et traduction désactivée par défaut.
 
 Dans Windows PowerShell, exécutez l’applet de commande suivante pour activer la transcription et traduction sur des participants de l’événement dans la stratégie globale :
 ```
-Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $True 
+Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 ## <a name="self-service-administration-tools"></a>Outils d’administration en libre-service 
 Bien que Microsoft directement aux contrôles de tous les centres de données Office 365 en ligne et est chargé de performances globales du système, il peut contrôler qu’une partie des éléments qui associent pour fournir l’expérience pour les utilisateurs d’Office 365. Les entreprises se sont responsables pour les connexions réseau vers les centres de données, le réseau du client étendu (WAN), et du client réseau local (LAN). En outre, ils sont chargés de périphériques de l’utilisateur et leur configuration.Ils sont également chargés de gérer les licences requises par l’utilisateur pour n’importe quelle fonctionnalité souhaitée, y compris, mais non limité à la possibilité de gérer ces fonctionnalités, pour tant que l’utilisateur a besoin d’accéder à la fonctionnalité.
@@ -272,7 +272,7 @@ Clients pouvant utiliser les outils suivants pour gérer un grand nombre de tâc
 - [À distance Windows PowerShell](https://technet.microsoft.com/en-us/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_RemoteWindowsPowerShell)
 
 ### <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
-- Lorsqu’il s’agit de Windows PowerShell, toutes ses sur la gestion des utilisateurs et que les utilisateurs sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Lorsqu’il s’agit de Windows PowerShell, il des informations supplémentaires sur la gestion des utilisateurs et les utilisateurs autorisés ou non autorisés. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
 

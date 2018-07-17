@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume la configuration requise pour la prise en charge des systèmes de salle Skype v2.
-ms.openlocfilehash: 8c473ee6d1d94b2f382c43ad1383546a69138781
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: e99b425e16bb26ff8fc8f225b703b46224d1f4a4
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/17/2018
-ms.locfileid: "20397146"
+ms.locfileid: "20412275"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
  
@@ -49,7 +49,7 @@ Systèmes de salle Skype v2 capable de s’adapter aux tailles différentes sall
 |Console|Processeur|MÉMOIRE RAM|Disque|
 |:-----|:-----|:-----|:-----|
 |[Hub Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Principaux i5  |8 GO  |128 GO  |  
- <!-- HP dock is still pending  -->  
+|[Secteur privilégiée HP pour G2 salles de réunion](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Principaux i5  |8 GO  |128 GO  |  
     
 - Une des options de la station d’accueil suivantes pour sécuriser une tablette à la réunion de l’espace table. 
     

@@ -1,7 +1,7 @@
 ---
 title: Problèmes connus
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article traite des problèmes connus pour v2 Skype salle systèmes, par fonctionnalité.
-ms.openlocfilehash: 2fde12d616260963dc342df2d9cef94acf616756
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: 2880cdfd2098a0c6ac63e5aab8157e76381943f6
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19881541"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412310"
 ---
 # <a name="known-issues"></a>Problèmes connus 
  
@@ -24,7 +24,7 @@ Cet article répertorie les problèmes connus pour v2 Skype salle systèmes, par
 <a name="update"> </a>  
 ## <a name="update"></a>Mise à jour 
 
-| Titre du problème |  Comportement \/ symptôme | Solution de contournement | Base de connaissances |
+| Intitulé du problème |  Comportement \/ symptôme | Solution | Base de connaissances |
 |  ---        |      ---             |   ---            | --- |
 |  Application obsolète         |    La console de v2 Skype salle systèmes affiche une erreur « configuration de système obsolète ».                |   [Utiliser l’outil de récupération de systèmes de salle Skype v2](recovery-tool.md)             |  Aucun |
 
@@ -32,7 +32,7 @@ Cet article répertorie les problèmes connus pour v2 Skype salle systèmes, par
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>Interface utilisateur 
 
-| Titre du problème |  Comportement \/ symptôme | Solution de contournement | Base de connaissances |
+| Intitulé du problème |  Comportement \/ symptôme | Solution | Base de connaissances |
 |  ---        |      ---             |   ---            | --- |
 |Clavier virtuel manquant   | Le clavier virtuel n’apparaît pas lorsque vous devez entrer des informations dans les systèmes de salle Skype v2. Ce problème se produit après que la mise à jour créateurs Windows 10 (version 1703) est installé sur le 4 Surface Pro sur lequel Skype salle systèmes v2 est en cours d’exécution. | Pour contourner ce problème, ouvrez manuellement le clavier virtuel. Pour ce faire, procédez comme suit :<br><br> Appuyez sur **1.** et maintenez la barre des tâches, puis appuyez sur le bouton **Afficher tactile clavier** . Une icône de clavier doit apparaître sur le côté droit de la barre des tâches. <br><br> **2.** cliquez sur l’icône de clavier pour ouvrir le clavier virtuel. | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
    
@@ -40,7 +40,7 @@ Cet article répertorie les problèmes connus pour v2 Skype salle systèmes, par
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>Configuration matérielle
 
-| Titre du problème |  Comportement \/ symptôme | Solution de contournement | Base de connaissances |
+| Intitulé du problème |  Comportement \/ symptôme | Solution | Base de connaissances |
 |  ---        |      ---             |   ---            |   --- |
 | Moniteurs non détectés | Lorsque vous exécutez des systèmes de salle Skype v2 sur un appareil Surface Pro (modèle 2017), les moniteurs ne sont pas détectées. |  Maintenez le bouton d’alimentation Surface Pro au moins 20 secondes. Lorsque vous effectuez cette opération, l’appareil redémarre et efface le cache de graphiques. |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
           
@@ -63,4 +63,4 @@ La version 64 bits de l’édition entreprise anniversaire de mariage 10 Windows
 
 [Systèmes de salle Skype version 2](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Gérer les salles Skype systèmes v2](skype-room-systems-v2.md)
+[Gestion de Skype Room System v2](skype-room-systems-v2.md)
