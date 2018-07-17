@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume la configuration requise pour la prise en charge des systèmes de salle Skype v2.
-ms.openlocfilehash: 6b31c9bc69fd9329902ca3eb2b77b8883b3b58bb
-ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
+ms.openlocfilehash: 8c473ee6d1d94b2f382c43ad1383546a69138781
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "20176183"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20397146"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
  
@@ -123,20 +123,13 @@ Les tableaux suivants fournissent des recommandations pour les périphériques e
 
 ## <a name="required-software-downloads"></a>Téléchargement des logiciels requis
 
-Vous devez les téléchargements pour créer votre propre image v2 de Skype salle systèmes suivants :
-  
-- Le [package d’installation de systèmes de salle Skype v2](https://go.microsoft.com/fwlink/?linkid=851168).
-    
-- Obtenez une copie de la version 64 bits de mise à jour du créateur de contenu d’entreprise 10 Windows (en anglais, build 1703). 
-    
+Pour créer votre propre image v2 de systèmes de salle Skype, suivez les instructions de [configurer une console v2 de systèmes de salle Skype](../../deploy/deploy-clients/console.md). Ces instructions vous guide dans le téléchargement de tous les logiciels nécessaires pour le processus d’installation. 
+
     > [!NOTE]
-    > La version 64 bits de l’édition entreprise anniversaire de mariage 10 Windows (en anglais, version 1607) n’est plus pris en charge à partir de systèmes de salle Skype v2 version 3.0.12.0 (mise à jour 3). 
-  
-- La prise en charge [4 Surface Pro pilotes](https://go.microsoft.com/fwlink/?linkid=856887) ou des [pilotes Surface Pro](https://go.microsoft.com/fwlink/?linkid=856888).
-    
-Ces téléchargements doivent combiner un disque amorçable de support d’installation Windows de façon spécifique, décrites dans [Configure une console v2 de systèmes de salle Skype](../../deploy/deploy-clients/console.md). 
-  
+    > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
+
 En outre, vous voudrez probablement une copie de [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), souvent utilisés pour mettre en service des comptes v2 de systèmes de salle Skype.
+
   
 ## <a name="see-also"></a>Voir aussi
 
