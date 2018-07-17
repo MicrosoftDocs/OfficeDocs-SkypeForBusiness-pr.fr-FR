@@ -11,12 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aae2fb4118a5069c7f1f85a90326ec9c158037db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: eed2f652ae91c8f6c5296fc558d5008fb0e5e607
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569596"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20409311"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 ==================================
@@ -28,7 +28,7 @@ Découvrez Teams et encouragez son utilisation dans votre organisation. Vérifie
 
 |  |  |
 |---------|---------|
-| [Didacticiel : Transition de Skype Entreprise à Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Tout ce que vous devez savoir sur la transition de Skype Entreprise Online vers Teams.  |
+| [Didacticiel : Mise à niveau à partir de Skype pour les entreprises aux équipes de Microsoft](tutorial-journey-skypeforbusiness-to-teams.yml) |Vous guide tout ce que vous devez savoir à propos de la mise à niveau pour les équipes de Skype pour Business Online.  |
 | [Didacticiel : Services d’audioconférence dans les équipes](Tutorial-Audio-Conferencing.yml) | Cette formation interactive vous guide tout au long de conférence dans les équipes. |
 | [Démarrage rapide : Teams Microsoft pour les administrateurs de formation](teams-quick-start-edu.yml) |Pour les administrateurs informatiques dans l’enseignement, déployez Teams dans votre organisation.   |
 | [Démarrage rapide : configuration des Plans de l’appel dans Microsoft Teams](configuring-teams-calling-quickstartguide.md)| Guide de démarrage rapide pour la configuration des forfaits d'appels dans Teams. |
