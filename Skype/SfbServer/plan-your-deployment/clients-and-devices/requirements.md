@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume la configuration requise pour la prise en charge des systèmes de salle Skype v2.
-ms.openlocfilehash: e99b425e16bb26ff8fc8f225b703b46224d1f4a4
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 405b7cd6fefd7fb6fbd6168957bbc2b41a83bea8
+ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412275"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "20509534"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
  
@@ -125,8 +125,8 @@ Les tableaux suivants fournissent des recommandations pour les périphériques e
 
 Pour créer votre propre image v2 de systèmes de salle Skype, suivez les instructions de [configurer une console v2 de systèmes de salle Skype](../../deploy/deploy-clients/console.md). Ces instructions vous guide dans le téléchargement de tous les logiciels nécessaires pour le processus d’installation. 
 
-    > [!NOTE]
-    > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
+> [!NOTE]
+> PROFESSIONNELS de l’informatique doit avoir accès à des fichiers de Windows 10 entreprise ISO par le biais de leur contrat de licence en volume.
 
 En outre, vous voudrez probablement une copie de [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), souvent utilisés pour mettre en service des comptes v2 de systèmes de salle Skype.
 
