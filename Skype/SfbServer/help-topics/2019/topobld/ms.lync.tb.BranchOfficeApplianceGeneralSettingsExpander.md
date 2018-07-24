@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour modifier les paramètres d’un serveur Survivable Branch Appliance existant ou d’un serveur Survivable Branch Server, vous permettent des sections suivantes :'
-ms.openlocfilehash: 194324a845442041b8dd2bc11274b100ba145276
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2a0d0c7ec22baa781f1931f4be7ecfc67d6aa6be
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989076"
+ms.locfileid: "21058866"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expanseur des paramètres généraux du Branch Office Appliance
  

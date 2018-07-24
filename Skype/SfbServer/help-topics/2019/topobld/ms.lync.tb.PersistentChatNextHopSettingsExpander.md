@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
+ROBOTS: NOINDEX, NOFOLLOW
 description: Vous configurez le pool du tronçon suivant conversation permanente en sélectionnant un pool frontal ou serveur frontal dans la liste.
-ms.openlocfilehash: d1734e46b33234b10a61e0e15b3e861e3f5d9915
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 360ac484d7b74040a2dd67d62193f65c01bb200b
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026658"
+ms.locfileid: "21062381"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>Expanseur des paramètres du tronçon suivant de la conversation permanente
 

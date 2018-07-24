@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
-description: 'Dans le Générateur de topologie, vous pouvez modifier les propriétés d’un serveur d’archivage soit en cliquant par le serveur d’archivage en cours d’exécution dans l’arborescence de la console et en cliquant sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis sur Modifier en cours d’exécution Propriétés et modification d’une des options suivantes :'
-ms.openlocfilehash: 9ccad6b4808bc5ffe2066576eff9b2e298f9c236
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Dans le générateur de topologie, vous pouvez modifier les propriétés d’un serveur individuel exécutant l’archivage en cliquant sur le serveur avec le bouton droit dans l’arborescence de la console, puis sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis sur Modifier les propriétés pour modifier l’une des options suivantes :'
+ms.openlocfilehash: 6419b7b4fff2c533a0dc91ab0819b0a58044447d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978173"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060111"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Développeur des paramètres généraux du serveur d’archivage
  

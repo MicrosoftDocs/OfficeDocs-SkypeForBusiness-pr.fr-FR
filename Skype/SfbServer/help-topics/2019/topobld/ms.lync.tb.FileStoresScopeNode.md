@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
-description: 'Le nœud magasins de fichiers répertorie les magasins de fichiers dans votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 91ad72e19c45f5695310ccff01209a86089604c2
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Le nœud Magasins de fichiers répertorie les magasins de fichiers de votre topologie. Vous pouvez effectuer l’action suivante :'
+ms.openlocfilehash: 2510061abeeedbdd63d16c37edb80dfdb25ce0ed
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966318"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057271"
 ---
 # <a name="file-stores-scope-node"></a>Nœud d’étendue des magasins de fichiers
  

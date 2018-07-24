@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
+ROBOTS: NOINDEX, NOFOLLOW
 description: Un déploiement du serveur Standard Edition installe automatiquement le logiciel de base de données Microsoft SQL Server Express requis et la base de données SQL Server. Par conséquent, toutes les options sont préremplies, et vous ne pouvez pas modifier la configuration par défaut.
-ms.openlocfilehash: 2b7527207974310c30b559011a580fe8871164d1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9a05561ac1e3c59aa8d66d6a872bc5159308f162
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964490"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060961"
 ---
 # <a name="add-front-end-sql-server-store"></a>Ajouter avant un magasin SQL Server
  

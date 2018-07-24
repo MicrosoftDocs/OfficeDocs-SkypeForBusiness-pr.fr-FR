@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'La plupart des composants Edge sont déployés sur un réseau de périmètre. Les composants suivants forment la topologie Edge du réseau de périmètre. Sauf mention contraire, les composants font partie des scénarios de serveur de transport Edge dans Skype pour Business Server et se trouvent dans le réseau de périmètre. Ces composants Edge sont les suivants :'
-ms.openlocfilehash: 331bc8f8bd34868e97e8c7de6b573108d0e9a071
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 489898cb144b99f069665ccb4f6f8aed3004b3bb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975661"
+ms.locfileid: "21057774"
 ---
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>Réseau de serveur Edge (outil de planification) dans Skype pour les entreprises 
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour modifier les paramètres d’une passerelle réseau téléphonique commuté (RTC), modifiez les champs suivants :'
-ms.openlocfilehash: 87c5666e10fb152b087c1f31e75495caace85bdf
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6b23d419b12fcb13dc5de07e550fbedd3a866ab5
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989915"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21058335"
 ---
 # <a name="pstn-gateway-settings-expander"></a>Expanseur des paramètres de la passerelle PSTN
  

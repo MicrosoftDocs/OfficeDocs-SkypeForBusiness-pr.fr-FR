@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour modifier les propriétés d’un serveur dans un pool de serveurs de périphérie, procédez comme suit :'
-ms.openlocfilehash: 3570675fd82512aa25d760c2380f05a2de80cec6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d0df347d3432d28b6d5f1df9d32cb4cd4f4423cd
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990195"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057257"
 ---
 # <a name="edge-machine-settings-expander"></a>Expanseur des paramètres l’ordinateur Edge
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
-description: Pour définir ou modifier le pool du tronçon suivant utilisera les serveurs de périphérie pour communiquer avec l’infrastructure interne, sélectionnez un pool directeur, pool directeur, serveur frontal ou serveur frontal, dans la liste. Uniquement les directeurs ou les serveurs frontaux qui ont été configurés dans le Générateur de topologie apparaissent dans la liste.
-ms.openlocfilehash: 5c2009e9cd62c2bac2171379eadbeb0d4f9a6255
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Pour configurer ou modifier le pool du tronçon suivant utilisé par les serveurs Edge pour communiquer avec l’infrastructure interne, sélectionnez Directeur, Pool directeur, Serveur frontal ou pool de Serveurs frontaux dans la liste. Uniquement les directeurs ou les serveurs frontaux qui ont été configurés dans le Générateur de topologie apparaissent dans la liste.
+ms.openlocfilehash: a5912dba3266af38f2316d4f578a2cecf68108b8
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973191"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057222"
 ---
 # <a name="edge-next-hop-settings-expander"></a>Expanseur des paramètres du tronçon suivant du serveur Edge
  

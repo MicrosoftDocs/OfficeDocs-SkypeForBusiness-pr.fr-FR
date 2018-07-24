@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
+ROBOTS: NOINDEX, NOFOLLOW
 description: Vous avec le bouton droit cliquez sur composants partagés dans l’arborescence du Générateur de topologie pour créer des composants partagés ou pour accéder aux options au niveau de la topologie.
-ms.openlocfilehash: 34100f245178b347d997a09bdd2ec7c901b2762d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 36395e21e3b697c5fc881223a223c70e32e10386
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974141"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060154"
 ---
 # <a name="shared-components-scope-node"></a>Nœud d’étendue des composants partagés
  
