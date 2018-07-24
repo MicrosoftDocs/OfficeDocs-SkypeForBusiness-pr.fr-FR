@@ -1,24 +1,24 @@
 ---
-title: Rapport du temps de participation à une réunion dans Skype Entreprise Server 2015
+title: Rapport des heures participer à une conférence dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-description: 'Résumé : Découvrez la conférence jointure temps récapitulatif dans Skype pour Business Server 2015.'
-ms.openlocfilehash: ce5bd7b3f1182c9c00171b87a2b0b63556992327
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez la conférence participer à une heure rapport de synthèse dans Skype pour Business Server.'
+ms.openlocfilehash: 111222b915aafee346f27e4a509c0484e2ec3e00
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981121"
 ---
-# <a name="conference-join-time-report-in-skype-for-business-server-2015"></a>Rapport du temps de participation à une réunion dans Skype Entreprise Server 2015
+# <a name="conference-join-time-report-in-skype-for-business-server"></a>Rapport des heures participer à une conférence dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur la conférence jointure temps récapitulatif dans Skype pour Business Server 2015.
+**Résumé :** Découvrez la conférence participer à une heure rapport de synthèse dans Skype pour Business Server.
   
 Le résumé des heures d’arrivée aux conférences vous permet de déterminer le temps nécessaire à vos utilisateurs pour rejoindre une conférence. Le rapport indique le temps nécessaire moyen (en millisecondes) et fournit également une répartition montrant combien d’utilisateurs ont pu rejoindre la conférence en 2 secondes ou moins, combien ont nécessité entre 2 et 5 secondes, etc.
   
@@ -30,7 +30,7 @@ Le rapport des heures d’arrivée aux conférences est accessible à partir de 
 
 Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Le tableau suivant dresse la liste des filtres que vous pouvez utiliser avec le rapport du temps de participation aux conférences.
   
-**Temps de jointure conférence signaler des filtres**
+**Filtres du rapport des heures d’arrivée aux conférences**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -44,9 +44,9 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 
 Le tableau suivant répertorie les informations fournies dans le rapport des heures d’arrivée aux conférences.
   
-**Métrique de rapport de conférence jointure temps**
+**Mesures du rapport des heures d’arrivée aux conférences**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Date** <br/> Le titre réel de cette mesure varie en fonction de l’intervalle sélectionné.  <br/> |Non  <br/> |Date et heure des conférences.  <br/> |
 |**Nombre total de sessions** <br/> |Non  <br/> |Nombre total de sessions qui comprend les sessions réussies, les sessions qui ont échoué (à la fois les échecs attendus et les échecs inattendus) et les sessions non catégorisées.  <br/> |

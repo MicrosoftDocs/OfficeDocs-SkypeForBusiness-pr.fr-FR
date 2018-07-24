@@ -1,30 +1,30 @@
 ---
-title: Événements UCWA dans Skype Entreprise Server 2015
+title: Événements UCWA dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: 'Résumé : En savoir plus sur le Web de Communications unifiées API (UCWA) dans Skype pour Business Server 2015.'
-ms.openlocfilehash: cc9b62a4d00e9c4ed4feadfbfecfa4e3f8ca79fa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez les Unified Communications Web API (UCWA) dans Skype pour Business Server.'
+ms.openlocfilehash: 5a9fa42fa1367cd4afd74bc40f30549ca5777950
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981092"
 ---
-# <a name="ucwa-events-in-skype-for-business-server-2015"></a>Événements UCWA dans Skype Entreprise Server 2015
+# <a name="ucwa-events-in-skype-for-business-server"></a>Événements UCWA dans Skype pour Business Server
  
-**Résumé :** En savoir plus sur le Web de Communications unifiées API (UCWA) dans Skype pour Business Server 2015.
+**Résumé :** Découvrez les Unified Communications Web API (UCWA) dans Skype pour Business Server.
   
-Skype pour 2015 de serveur d’entreprise utilise l’API de Web Communications (UCWA) unifiée pour plusieurs raisons, d’accéder à Microsoft Exchange pour les recherches de contact pour la mise à jour de présence pour les clients mobiles.
+Skype pour Business Server utilise l’API de Web Communications (UCWA) unifiée pour un certain nombre de besoins, d’accéder à Microsoft Exchange pour les recherches de contact pour la mise à jour de présence pour les clients mobiles.
   
 L’API UCWA écrit les enregistrements liés aux opérations en tant qu’événements de type information, avertissement ou erreur. Le tableau suivant décrit les événements pouvant être écrits par les composants de l’API UCWA.
   
-|**ID d’événement**|**Type d’événement**|**Résumé**|**Cause et résolution**|
+|**ID d’événement**|**Type d’événement**|**Résumé**|**Cause et solution**|
 |:-----|:-----|:-----|:-----|
 |20001  <br/> |Information  <br/> |API UCWA initialisée  <br/> |N/A  <br/> N/A  <br/> |
 |20002  <br/> |Erreur  <br/> |L’API UCWA a rencontré une exception inattendue pendant son initialisation.  <br/> |Une erreur inattendue s’est produite pendant l’initialisation.  <br/> Examinez les détails de l’exception dans l’entrée correspondante du journal des événements pour déterminer la cause possible.  <br/> |

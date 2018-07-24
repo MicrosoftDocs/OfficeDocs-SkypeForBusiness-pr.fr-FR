@@ -1,9 +1,9 @@
 ---
-title: Nom de domaine complet de fusion héritée
+title: 'Fusion héritée : nom de domaine complet'
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
-description: Le nom de domaine complet interne Pool Edge d’accès est utilisé pour une variété de scénarios où les utilisateurs internes communiquent avec des utilisateurs externes pour la connectivité PIC, fédération et accès des utilisateurs distants. Si un serveur de transport Edge avec équilibrage de charge a été déployé dans votre environnement existant, entrez le nom de domaine pleinement qualifié (FQDN) de l’équilibreur de charge interne.
-ms.openlocfilehash: 7134a362c0df0a6f3c555a38d67575d0fb55b9d8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Le nom de domaine complet interne Pool de serveurs Edge d’accès est utilisé pour divers scénarios où les utilisateurs internes communiquent avec des utilisateurs externes pour la fédération, l’accès des utilisateurs distants et la connectivité PIC. Si un serveur Edge à charge équilibrée a été déployé dans votre environnement hérité, entrez le nom de domaine complet (FQDN) de l’équilibreur de charge interne.
+ms.openlocfilehash: 86f06718e3d8a149dc93a990edbb9c0359c0d087
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987063"
 ---
-# <a name="legacy-merge-fqdn"></a>Nom de domaine complet de fusion héritée
+# <a name="legacy-merge-fqdn"></a>Fusion héritée : nom de domaine complet
  
-Le **nom de domaine complet interne Pool Edge d’accès** est utilisé pour une variété de scénarios où les utilisateurs internes communiquent avec des utilisateurs externes pour la connectivité PIC, fédération et accès des utilisateurs distants. Si un serveur de transport Edge avec équilibrage de charge a été déployé dans votre environnement existant, entrez le nom de domaine pleinement qualifié (FQDN) de l’équilibreur de charge interne.
+Le **nom de domaine complet interne Pool de serveurs Edge d’accès** est utilisé pour divers scénarios où les utilisateurs internes communiquent avec des utilisateurs externes pour la fédération, l’accès des utilisateurs distants et la connectivité PIC. Si un serveur Edge à charge équilibrée a été déployé dans votre environnement hérité, entrez le nom de domaine complet (FQDN) de l’équilibreur de charge interne.
   
-La valeur du **port d’accès SIP internes** de **5061** est le port de protocole TCP (Transmission Control) SIP par défaut pour communiquer avec les clients, hérités des pools de Front-End et les serveurs. Si la valeur par défaut n’a pas été utilisée, mettre à jour le **port SIP internes d’accès :** valeur.
+La valeur **port d’accès SIP interne** **5061** est le port SIP du protocole TCP (Transmission Control) par défaut pour communiquer avec les clients, pools frontaux et serveurs hérités. Si la valeur par défaut n’est pas utilisée, mettre à jour le **port SIP interne d’accès :** valeur.
   
 

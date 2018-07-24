@@ -1,9 +1,9 @@
 ---
-title: Registrar SBA Settings Expander
+title: Expanseur des paramètres du serveur d’inscriptions SBA
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,25 +11,26 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
-description: 'You edit the settings for Resiliency and configure the following properties:'
-ms.openlocfilehash: cdc367d1f010749e72ea2144e757d673bd41ba4a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Modifier les paramètres de résilience et de configurer les propriétés suivantes :'
+ms.openlocfilehash: 201ccc2ed52d5f483da5a66998aaf988bdeef268
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973093"
 ---
-# <a name="registrar-sba-settings-expander"></a>Registrar SBA Settings Expander
+# <a name="registrar-sba-settings-expander"></a>Expanseur des paramètres du serveur d’inscriptions SBA
  
-You edit the settings for **Resiliency** and configure the following properties:
+Modifier les paramètres de **résilience** et de configurer les propriétés suivantes :
   
-- Select **Associated User service and backup Registrar pool** from the list.
+- Sélectionnez le **pool de serveurs d’inscriptions de sauvegarde et de service utilisateur associé** dans la liste.
     
-    Optionally, select the **Automatic failover and failback for Voice** check box.
+    Facultativement, activez la case à cocher **basculement automatique et restauration pour la voix** .
     
-    Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**. By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.
+    Configurer l' **intervalle de détection de panne voix (s)** et l' **intervalle de la restauration de voix (s)**. Par défaut, les intervalles sont 120 pour détecter une défaillance voix et 240 secondes pour la restauration automatique de la voix.
     
     > [!CAUTION]
-    > The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected. Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected. 
+    > Le nombre de secondes que vous définissez pour les intervalles de basculement et de restauration doit être testé avec soin pour vous assurer que la résilience fonctionne comme prévu. Définir l’intervalle à faible (autrement dit, moins de 120 secondes) ou le basculement et la restauration définir trop près peuvent entraîner le basculement réel et la restauration automatique ne fonctionne ne pas comme prévu. 
   
  **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
   
@@ -39,7 +40,4 @@ You edit the settings for **Resiliency** and configure the following properties:
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Planning for Enterprise Voice Resiliency](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
-
+[Planification de voix Entrerprise](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

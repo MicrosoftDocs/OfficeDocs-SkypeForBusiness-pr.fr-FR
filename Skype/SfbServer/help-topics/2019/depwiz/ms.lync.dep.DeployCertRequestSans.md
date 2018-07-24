@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
-description: L’option configurer les autres noms du sujet offre la possibilité d’ajouter les noms du sujet supplémentaires (SAN) pour le certificat avant la finalisation et la demande de certificat. Pour ajouter le SAN, tapez le nom de domaine complet (FQDN) du réseau SAN, puis sur Ajouter. Si vous avez ajouté un réseau SAN doivent être supprimées, sélectionnez l’entrée SAN et cliquez sur Supprimer. Pour supprimer toutes les entrées SAN que vous avez ajoutées, cliquez sur Effacer tout.
-ms.openlocfilehash: b22adb3b02974273856fe0001598d4999a37d5a6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: L’option Configurer d’autres noms du sujet supplémentaires permet d’ajouter d’autres noms de sujet supplémentaires au certificat avant de finaliser et de demander celui-ci. Pour ajouter un autre nom de sujet, tapez le nom de domaine complet (FQDN) de l’autre nom de sujet, puis cliquez sur Ajouter. Si vous avez ajouté un autre nom de sujet que vous devez supprimer, mettez l’autre nom de sujet en surbrillance et cliquez sur Supprimer. Pour supprimer toutes les entrées d’autres noms de sujet ajoutées, cliquez sur Effacer tout.
+ms.openlocfilehash: 7410319f0f04d5e162476919978ef2f92eeabd0e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991528"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21011341"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>Demande de certificat (autres noms de sujets supplémentaires)
  

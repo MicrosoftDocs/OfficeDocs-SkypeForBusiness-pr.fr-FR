@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
-description: Pour préparer le schéma pour les Services de domaine Active Directory, vous exécutez l’étape de préparation du schéma dans le Skype pour l’Assistant Déploiement Business Server. Cliquez sur Exécuter pour commencer la préparation du schéma. L’étape de préparation du schéma lit les fichiers de définition de schéma fourni dans le répertoire de fonctionnalité/Microsoft Lync Server 2013/déploiement/configuration des fichiers sur le système de l’Assistant déploiement est en cours d’exécution. Ces fichiers sont également disponibles sur le support d’installation dans le répertoire/schéma prise en charge. L’étape Préparer un schéma développera le schéma et rapportera le statut du processus. Elle vous notifiera également l’achèvement du processus. L’écran de résumé vous permettra d’afficher les journaux du processus. Passez en revue les journaux pour vous assurer que la préparation est terminée et qu’elle a abouti.
-ms.openlocfilehash: 7aea3a6f99182ba164d27e95ca2f34296d45c831
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Pour préparer le schéma pour les Services de domaine Active Directory, vous exécutez l’étape de préparation du schéma dans le Skype pour l’Assistant Déploiement Business Server. Cliquez sur Exécuter pour commencer la préparation du schéma.
+ms.openlocfilehash: adc0ad796b608671816d50a93f75dc89f2a4a13b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987710"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020132"
 ---
 # <a name="prepare-schema"></a>Préparer un schéma
  

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Résumé : Découvrez comment configurer votre Skype pour infrastructure Business Server 2015 pour travailler avec System Center Operations Manager.'
-ms.openlocfilehash: cb2eb053142bcbc4c24a61f6dbd7322a3772f4a6
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: b94490c60234f76b0e07f0b7732d76cc2354eaad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504788"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20994961"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Gestion de Skype Entreprise Server 2015 à l’aide d’un pack d’administration SCOM
  
@@ -42,7 +42,7 @@ Les Packs d’administration peuvent être utilisés avec System Center Operatio
   
 |**Configuration**|**Prise en charge ?**|
 |:-----|:-----|
-|Système d’exploitation Windows Server 2008 R2  <br/> Système d’exploitation Windows Server 2012 R2  <br/> |Oui. Ces deux éléments sur Skype pour serveur Business Server 2015 et nœuds Observateur de transaction synthétique.  <br/> |
+|système d’exploitation Windows Server 2008 R2  <br/> Système d’exploitation Windows Server 2012 R2  <br/> |Oui. Ces deux éléments sur Skype pour serveur Business Server 2015 et nœuds Observateur de transaction synthétique.  <br/> |
 |Serveurs en cluster  <br/> |Non pris en charge.  <br/> |
 |Surveillance sans agent  <br/> |Non prise en charge.  <br/> |
 |Environnement virtuel  <br/> |Oui.  <br/> |
@@ -53,7 +53,7 @@ Les Packs d’administration peuvent être utilisés avec System Center Operatio
    
 Le tableau ci-dessous détaille la capacité et la configuration de système d’exploitation requises pour un nœud observateur de transactions synthétiques :
   
-|**Composant matériel**|**Configuration minimale requise**|
+|**Composant matériel**|**Spécification minimale**|
 |:-----|:-----|
 |Processeur  <br/> |L’un des éléments suivants :  <br/> Processeur 64 bits, quadruple cœur 2,33 GHz ou supérieur  <br/> Processeur 64 bits à deux voies, double cœur, 2,33 GHz ou supérieur  <br/> |
 |Mémoire  <br/> |8 Go  <br/> |
@@ -96,7 +96,7 @@ Les fonctionnalités suivantes sont une nouveauté dans Skype pour les Packs d�
 
 Le Skype pour le Pack d’administration Business Server 2015 s’appuie sur une variété de fonctionnalités pour vous aider à détecter et diagnostiquer les problèmes. Ces fonctionnalités fournissent visibilité en temps réel de l’intégrité d’un Skype pour environnement Business Server 2015.
   
-|**Scénario d’analyse**|**Description**|
+|**Scénario de surveillance**|**Description**|
 |:-----|:-----|
 |Transactions synthétiques  <br/> | Applets de commande Windows PowerShell pour tester et garantir une haute disponibilité des scénarios tels que la connexion de présence, messagerie instantanée et de conférence pour les utilisateurs. <br/> Les transactions synthétiques peuvent être exécutées à partir de n’importe quel emplacement géographique dans l’entreprise, en dehors de l’entreprise et dans les succursales.  <br/> Lorsqu’une transaction synthétique échoue, des journaux HTML sont créés pour vous aider à déterminer la nature exacte de l’échec. Cela inclut des informations sur l’action qui a échoué, la latence de chaque action, la ligne de commande à partir de laquelle a été exécuté le test ainsi que l’erreur spécifique rencontrée.  <br/> |
 |Alertes de fiabilité des appels  <br/> |Des détails des appels (CDR) écrits par Skype pour les serveurs de 2015 Business Server reflètent si les utilisateurs sont en mesure de se connecter à un appel ou pourquoi un appel est terminé. Les alertes de fiabilité des appels analysent la base de données des enregistrements des détails des appels afin de générer des alertes qui s’affichent lorsque de nombreux utilisateurs rencontrent des problèmes de connectivité liés à des appels d’égal à égal ou à des fonctionnalités de conférence de base.  <br/> Les scénarios incluent notamment les appels audio, les messages instantanés d’égal à égal et d’autres fonctionnalités de conférence.  <br/> |
@@ -118,7 +118,7 @@ Les alertes sont classées selon les catégories suivantes :
 
 Skype pour les Packs d’administration Business Server 2015 offrent une couverture accrue des alertes par le biais de transactions synthétiques. Les transactions synthétiques sont intégrées dans le pack d’administration Operations Manager pour tester les scénarios impliquant des utilisateurs de bout en bout des applets de commande Windows PowerShell. Lorsque vous désignez un serveur pour exécuter des transactions synthétiques, ces applets de commande sont déclenchées régulièrement par le pack d’administration. Échecs résultant d’une transaction synthétique génèrent une alerte d’état. Voici les transactions synthétiques pris en charge pour Skype pour Business Server 2015 :
   
-**Prise en charge les Transactions synthétiques pour l’inscription, de présence et Contacts**
+**Transactions synthétiques prises en charge pour l’inscription, la présence et les contacts**
 
 ||||
 |:-----|:-----|:-----|
@@ -134,8 +134,11 @@ Skype pour les Packs d’administration Business Server 2015 offrent une couvert
 |:-----|:-----|:-----|
 |6  <br/> |Messagerie instantanée d’égal à égal  <br/> |Disponible dans Lync Server 2010 et versions ultérieures  <br/> |
 |7  <br/> |Appels audio/vidéo d’égal à égal  <br/> |Disponible dans Lync Server 2010 et versions ultérieures  <br/> |
-|8  <br/> |Messagerie instantanée d’égal à égal MCX (mobile)  <br/> |Disponible dans la version de septembre 2011 de Lync Server 2010 et au-delà  <br/> |
-   
+|8  <br/> |Messagerie instantanée d’égal à égal MCX (mobile)  <br/> |Disponible dans la version de septembre 2011 de Lync Server 2010 pour Skype pour Business 2015  <br/> |
+ 
+> [!NOTE]
+> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.
+  
 **Transactions synthétiques prises en charge pour les conférences et la conversation permanente**
 
 ||||
@@ -156,14 +159,14 @@ Skype pour les Packs d’administration Business Server 2015 offrent une couvert
 |17  <br/> |Connectivité Edge A/V  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
 |18  <br/> |Connectivité de messagerie unifiée Exchange de la connectivité Edge A/V (messagerie vocale)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
 |19  <br/> |Appels d’égal à égal PSTN  <br/> |Disponible dans Lync Server 2010 et versions ultérieures  <br/> |
-|20  <br/> |Messagerie instantanée XMPP (fédération)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
+|20  <br/> |Messagerie instantanée XMPP (fédération)  <br/> |Disponible dans Lync Server 2013 et Skype pour Business 2015  <br/> |
 |21  <br/> |Serveur VIS (Video Interop Server)  <br/> |Nouveauté de Skype pour Business Server 2015  <br/> |
    
 ## <a name="how-health-rolls-up"></a>Comment se présente l’intégrité
 
 Le tableau suivant indique les États d’intégrité des objets le Skype pour Business Server pack d’analyse.
   
-|**Objet de Pack de gestion**|**Description**|
+|**Objet du pack d’administration**|**Description**|
 |:-----|:-----|
 |Skype pour le déploiement de serveur d’entreprise  <br/> |Représente le déploiement de Skype pour Business Server 2015 dans l’organisation.  <br/> |
 |Skype pour Site Business Server  <br/> |Représente différents emplacements géographiques où les services sont déployés.  <br/> |

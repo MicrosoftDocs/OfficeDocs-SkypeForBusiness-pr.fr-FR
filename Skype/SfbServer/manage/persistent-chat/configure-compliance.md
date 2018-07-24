@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Résumé : Découvrez comment configurer le service de conformité de serveur de conversation permanente dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 99c09408fbc404edd7ccd6c3844f59dca77a35f0
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: e41afe6b9d6d36a73d818af7fc297e7b20006dcf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568625"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026615"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration du service de conformité du serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -36,6 +36,9 @@ La conformité de conversation permanente permet aux administrateurs d’archive
 - Télécharge un fichier
     
 Ces informations sont récupérables au besoin à partir de la base de données SQL de conformité. 
+
+> [!NOTE]
+> Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [parcours de Skype pour les entreprises aux équipes de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si vous devez utiliser la conversation permanente, vos choix est pour migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes, ou pour continuer à utiliser Skype pour Business Server 2015. 
   
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configurez le service de conformité à l’aide de Windows PowerShell
 
@@ -128,9 +131,9 @@ Un élément Message contient deux éléments (Sender et DateTimeUTC) et trois a
 
 Le tableau suivant décrit les attributs de message Type, Content, et ID.
   
-**Attributs de l’élément messages**
+**Attributs de l’élément Messages**
 
-|**Attribut**|**Description**|**Facultatif/requis**|
+|**Attribut**|**Description**|**Facultatif/obligatoire**|
 |:-----|:-----|:-----|
 |Type  <br/> |Spécifie le type de message. Les types de message sont décrits dans la table Éléments de message Types de message.  <br/> |Obligatoire  <br/> |
 |Contenu  <br/> |Contient le contenu du message. Les messages de type Join ou Part n’utilisent pas cet attribut.  <br/> |Facultatif  <br/> |
@@ -138,9 +141,9 @@ Le tableau suivant décrit les attributs de message Type, Content, et ID.
    
 Chaque élément Sender contient cinq attributs : username, ID, email, internal et URI. Ces attributs sont décrits dans la table suivante.
   
-**Attributs de l’élément expéditeur**
+**Attributs de l’élément Sender**
 
-|**Attribut**|**Description**|**Facultatif/requis**|
+|**Attribut**|**Description**|**Facultatif/obligatoire**|
 |:-----|:-----|:-----|
 |Nom d’utilisateur  <br/> |Nom de l’expéditeur.  <br/> |Facultatif  <br/> |
 |ID  <br/> |ID unique de. l’expéditeur  <br/> |Obligatoire  <br/> |

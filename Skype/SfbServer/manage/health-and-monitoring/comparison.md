@@ -1,24 +1,24 @@
 ---
-title: Rapport de comparaison de la qualité des médias dans Skype Entreprise Server 2015
+title: Media Quality Comparison Report dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
-description: 'Résumé : En savoir plus sur le rapport de comparaison de la qualité de supports dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 045a3d91e39d69c352d30ee51747d70f47fc4238
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez les Media Quality Comparison Report dans Skype pour Business Server.'
+ms.openlocfilehash: f3c40b2f496d03ecd74cb188f0111d3f15735630
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980973"
 ---
-# <a name="media-quality-comparison-report-in-skype-for-business-server-2015"></a>Rapport de comparaison de la qualité des médias dans Skype Entreprise Server 2015
+# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Media Quality Comparison Report dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur le rapport de comparaison de la qualité de supports dans Skype pour Business Server 2015.
+**Résumé :** Découvrez les Media Quality Comparison Report dans Skype pour Business Server.
   
 Le rapport comparatif de la qualité des médias vous permet de comparer les valeurs de qualité des appels pour différents types d’appels audio (par exemple, des appels passés sur un réseau sans fil par rapport à ceux effectués via une connexion câblée).
   
@@ -30,7 +30,7 @@ Le rapport comparatif de la qualité des médias est accessible à partir de la 
 
 Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Le tableau suivant dresse la liste des filtres que vous pouvez utiliser avec le rapport comparatif de la qualité des médias.
   
-**Filtres de rapport de comparaison de qualité multimédia**
+**Filtres du rapport comparatif de la qualité des médias**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -44,12 +44,12 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 
 Le tableau qui suit répertorie les informations fournies dans le rapport comparatif de la qualité des médias.
   
-**Mesures de rapport de comparaison de qualité multimédia**
+**Mesures du rapport comparatif de la qualité des médias**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Volume d’appels** <br/> |Non  <br/> |Nombre total d’appels.  <br/> |
-|**Dégradation (MOS)** <br/> |Non  <br/> |Taux moyen de dégradation de la note MOS (note moyenne d’opinion) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée) ; une valeur inférieure ou égale à 0,5 indique une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion étaient calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Skype pour Business Server utilise un ensemble d’algorithmes à prévoir la manière dont les utilisateurs aurait été attribué un appel.  <br/> Les valeurs de dégradation élevées peuvent avoir plusieurs causes : une congestion, un dépassement de la bande passante disponible, une congestion/interférence dans la liaison sans fil ou bien la surcharge d’un serveur multimédia ou d’un système d’extrémité. Ces valeurs se traduisent par une distorsion ou une perte de l’audio.  <br/> |
+|**Dégradation (MOS)** <br/> |Non  <br/> |Taux moyen de dégradation de la note MOS (note moyenne d’opinion) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée) ; une valeur inférieure ou égale à 0,5 indique une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion étaient calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Skype pour Business Server utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs est comme un appel.  <br/> Les valeurs de dégradation élevées peuvent avoir plusieurs causes : une congestion, un dépassement de la bande passante disponible, une congestion/interférence dans la liaison sans fil ou bien la surcharge d’un serveur multimédia ou d’un système d’extrémité. Ces valeurs se traduisent par une distorsion ou une perte de l’audio.  <br/> |
 |**Pourcentage d’appels médiocres** <br/> |Non  <br/> |Nombre total d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).  <br/> |
 |**Boucle (ms)** <br/> |Non  <br/> |Temps moyen (en millisecondes) nécessaire à un paquet RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre système d’extrémité. Des boucles de 200 millisecondes ou moins sont considérées qualitativement acceptables.  <br/> Des boucles de durée plus élevée peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les durées d’aller-retour élevées créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.  <br/> |
 |**Perte de paquets** <br/> |Non  <br/> |Taux moyen de pertes de paquets RTP. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
+ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionnez standard automatique Exchange UM pour sélectionner un standard automatique Exchange UM qui gèrera les appels entrants à une plage de numéros non attribués.
-ms.openlocfilehash: 57e2334d6b15400228b0f2e723e25b8cce0a3350
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fa8733ea3c8e005c934ffaacc71a77516bc360e6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979644"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987795"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Sélectionnez le standard automatique de messagerie unifiée Exchange
  

@@ -3,18 +3,19 @@ title: Configuration logicielle et matérielle requise pour le serveur de conver
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
+ms.date: 7/19/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour le serveur de conversation permanente dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 4daf53219937a4ffcfee0e51d80cffb7f1626cf5
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 16a04616a1ec15b4cfffc17cd3a3d9bc271b0dde
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20363929"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21027002"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration logicielle et matérielle requise pour le serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -35,6 +36,9 @@ Avant de déployer le serveur de conversation permanente, vous devez vous assure
 - Logiciel Message Queuing. Utilisé par le service serveur de conversation permanente et de conformité de conversation permanente, s’il est déployé.
     
 Les sections suivantes décrivent la configuration requise pour le serveur de conversation permanente et la base de données qui stocke les données de conversation permanente.
+
+> [!NOTE] 
+> Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [parcours de Skype pour les entreprises aux équipes de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si vous devez utiliser la conversation permanente, vos choix est pour migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes, ou pour continuer à utiliser Skype pour Business Server 2015. 
   
 ## <a name="front-end-server-requirements"></a>Configuration requise pour le serveur frontal
 

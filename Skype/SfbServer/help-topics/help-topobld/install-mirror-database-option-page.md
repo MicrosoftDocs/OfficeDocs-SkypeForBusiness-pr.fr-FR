@@ -1,9 +1,9 @@
 ---
-title: Installez la Page d’options de mise en miroir de base de données
+title: Installer la Page Option de base de données miroir
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,20 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 'Vous configurez les paramètres de mise en miroir de base de données en définissant les éléments suivants :'
-ms.openlocfilehash: c51c3c6e4ee4c86fe97830c639374ab9d97278da
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: aadb4ddc61603a827ff1e9f2bc1c2d332ad8d7db
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974591"
 ---
-# <a name="install-mirror-database-option-page"></a>Installez la Page d’options de mise en miroir de base de données
+# <a name="install-mirror-database-option-page"></a>Installer la Page Option de base de données miroir
  
 Vous configurez les **Paramètres de mise en miroir de base de données** en définissant les éléments suivants :
   
-- Tapez le **chemin d’accès au fichier partager** pour définir l’emplacement des fichiers de sauvegarde SQL Server pour la base de données mise en miroir.
+- Tapez le **chemin d’accès au fichier partager** pour définir l’emplacement des fichiers de sauvegarde SQL Server pour la mise en miroir de base de données.
     
     > [!NOTE]
-    > L’instance principale de SQL Server (instance par défaut ou instance nommée) doit avoir des autorisations d’écriture sur le partage de fichiers que vous définissez ici. L’instance de SQL Server (instance par défaut ou instance nommée) du miroir doit disposer de lecture les autorisations vers le même partage de fichier. 
+    > L’instance SQL Server principal (instance par défaut ou instance nommée) doit avoir des autorisations d’écriture sur le partage de fichiers que vous définissez ici. L’instance de SQL Server (instance par défaut ou instance nommée) miroir doit avoir des autorisations pour le partage de fichiers même lecture. 
   
  **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
   
@@ -35,7 +36,4 @@ Vous configurez les **Paramètres de mise en miroir de base de données** en dé
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Déployer SQL mise en miroir pour une haute disponibilité de serveur principal dans Skype pour Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
-
+[Déployer la mise en miroir SQL pour la haute disponibilité des serveurs principaux dans Skype Entreprise Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

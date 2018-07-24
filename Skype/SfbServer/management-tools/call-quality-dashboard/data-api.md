@@ -1,53 +1,54 @@
 ---
-title: Données API pour le tableau de bord (CQD) appel qualité dans Skype pour Business Server 2015
+title: API de données pour le tableau de bord (CQD) appel qualité dans Skype pour Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: 'Résumé : Découvrez le Rata API d’appel de tableau de bord qualité. Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 038324064177c110c0736092985e9da1b330ea8b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez l’API Rata pour le tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
+ms.openlocfilehash: 293844d253e70e291c063d2af64226abaed3c9d9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21011077"
 ---
-# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>Données API pour le tableau de bord (CQD) appel qualité dans Skype pour Business Server 2015
+# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>API de données pour le tableau de bord (CQD) appel qualité dans Skype pour Business Server 2015
  
-**Résumé :** Obtenir des informations sur l’API de Rata pour tableau de bord qualité appel. Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.
+**Résumé :** Découvrez l’API Rata pour le tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.
   
-L’API de données permet d’accéder par programmation pour appeler le tableau de bord qualité pour Skype pour Business Server 2015.
+L’API de données fournit l’accès par programme pour appeler le tableau de bord qualité pour Skype pour Business Server 2015.
   
-## <a name="data-api-for-call-quality-dashboard"></a>API de données pour le tableau de bord qualité appel
+## <a name="data-api-for-call-quality-dashboard"></a>API de données pour le tableau de bord de qualité des appels
 
-L’API de données offre une interface de requête au QoE Cube. L’API de données est une API REST pour travailler avec une base de données multidimensionnelle qui fournit des métriques de QoE agrégées en fonction des filtres et des dimensions spécifiées.
+L’API de données offre une interface de requête au QoE Cube. L’API de données est une API REST pour travailler avec une base de données multidimensionnelle qui fournit les mesures QoE agrégées selon les filtres et les dimensions spécifiées.
   
-Les opérations de repos sont incluses dans le tableau suivant.
+Les opérations REST sont incluses dans le tableau suivant.
   
 
 |**Opération**|**Description**|
 |:-----|:-----|
 |[Obtenir le Cube](get-cube.md) <br/> |Obtenir la liste des dimensions disponibles et des mesures.  <br/> |
-|[Obtenir les membres de Dimension](get-dimension-members.md) <br/> |Opération d’obtention de membres de Dimension renvoie la liste des membres d’une dimension spécifique. Cela donne aussi la possibilité de filtrer la liste des membres et obtenir un sous-ensemble, afin de réduire le coût de transfert de fil.  <br/> |
-|[Exécuter requête](run-query.md) <br/> |Exécuter la requête d’opération fournit la possibilité d’exécuter une requête sur le cube basé sur les filtres, les mesures et les dimensions spécifiées et renvoyer de nouveau les données.  <br/> |
-|[Vider le Cache](clear-cache.md) <br/> |Opération d’effacement du Cache supprime le cache sur le serveur pour les requêtes et les données. Cela réinitialisera le cache et nous allons les données actualisées QoE cube par la suite pour les nouvelles demandes.  <br/> |
-|[Obtenir le journal d’intégration](get-integration-log.md) <br/> |Obtenir le journal d’intégration opération retourne une liste d’entrées de journal décrivant les activités QoE cube de traitement.  <br/> |
-|[Obtenir les dernières données d’intégration](get-last-integration-data.md) <br/> |Obtenir les dernières données d’intégration à partir du cube.  <br/> |
+|[Obtenir les membres de Dimension](get-dimension-members.md) <br/> |Opération de membres de Dimension Get renvoie la liste des membres d’une dimension spécifique. Cela donne aussi la possibilité de filtrer la liste des membres et obtenir un sous-ensemble, afin de réduire le coût de transfert filaire.  <br/> |
+|[Exécuter la requête](run-query.md) <br/> |Exécuter la requête d’opération offre la possibilité d’exécuter une requête sur le cube basé sur des filtres, des mesures et dimensions spécifiées et renvoyer dans les données.  <br/> |
+|[Vider le Cache](clear-cache.md) <br/> |Opération de Cache Clear supprime le cache sur le serveur pour les requêtes et les données. Le cache seront réinitialisés et nous allons les données du cube QoE ultérieurement pour de nouvelles demandes.  <br/> |
+|[Obtenir le journal d’intégration](get-integration-log.md) <br/> |Obtenir le journal d’intégration opération retourne une liste d’entrées de journal décrivant les activités dans le QoE Cube.  <br/> |
+|[Obtenir des données de l’intégration de la dernières](get-last-integration-data.md) <br/> |Obtenir les dernières données de l’intégration du cube.  <br/> |
    
- **La prise en charge des données API (CORS) le partage des ressources entre-origine**
+ **Ressources Cross-Origin (CORS) prise en charge pour les API de données de partage**
   
-API de données prend en charge le partage de ressources entre origine (CORS). CORS est une fonctionnalité HTTP qui permet à une application web en cours d’exécution dans un domaine d’accéder aux ressources dans un autre domaine. Navigateurs Web implémentent une restriction de sécurité appelée stratégie de même origine [Stratégie de même origine](https://www.w3.org/Security/wiki/Same_Origin_Policy) qui empêche une page web à partir de l’appel d’API dans un autre domaine. CORS offre un moyen sécurisé pour permettre à un domaine (le domaine d’origine) appeler des API dans un autre domaine. Consultez la [spécification de CORS](https://www.w3.org/TR/cors/) pour plus de détails sur les CORS.
+API de données prend en charge le partage de ressources Cross-Origin (CORS). CORS est une fonctionnalité HTTP qui permet à une application web en cours d’exécution dans un domaine d’accéder aux ressources dans un autre domaine. Navigateurs Web implémentent une restriction de sécurité de stratégie de même origine [Stratégie de même origine](https://www.w3.org/Security/wiki/Same_Origin_Policy) qui empêche une page web d’appeler des API dans un domaine différent. CORS fournit un moyen sécurisé pour autoriser un domaine (le domaine d’origine) appeler des API dans un autre domaine. Voir les [spécifications CORS](https://www.w3.org/TR/cors/) pour plus d’informations sur CORS.
   
- **L’activation de CORS pour données API**
+ **Activer CORS d’API de données**
   
- Voici un extrait du fichier web.config de données API, montrant deux domaines répertoriés dans les paramètres de l’application corsTrustedOrigin. Toutes les demandes effectuées par les scripts chargés à partir de ces serveurs sont approuvés par les API de données.
+ Voici un extrait du fichier web.config API de données, affichant deux domaines répertoriés dans les paramètres de l’application corsTrustedOrigin. Toutes les demandes effectuées par les scripts chargés à partir de ces serveurs sont approuvés par l’API de données.
   
-N’oubliez pas d’inclure le protocole exact, le nom d’hôte et le port (le cas échéant). Ne pas pour placer les oblique (/) de caractère à la fin. Plusieurs entrées peuvent être spécifiées en les séparant par des virgules.
+N’oubliez pas d’inclure le protocole exact, le nom d’hôte et le port (le cas échéant). Ne pas pour mettre les oblique (/) de caractères à la fin. Plusieurs entrées peuvent être spécifiées en séparant par des virgules.
   
 ```
 <configuration>
@@ -56,7 +57,6 @@ N’oubliez pas d’inclure le protocole exact, le nom d’hôte et le port (le 
     <add key="QoEDataLib.DebugMode" value="True" /> <!-- Setting this to True, allows seeing of the detail logs in status page -->
 …  </appSettings>
 </configuration>
-
 ```
 
 

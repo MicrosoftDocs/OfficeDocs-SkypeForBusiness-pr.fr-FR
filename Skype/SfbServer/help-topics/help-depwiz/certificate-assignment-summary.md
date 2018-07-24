@@ -1,9 +1,9 @@
 ---
-title: Attribution du certificat (résumé)
+title: Assignation de certificat (résumé)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,15 +11,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
-description: Avant la fin de l’affectation de certificat, vous sont présentées avec un résumé de l’affectation certificat répertoriant les détails du certificat qui sera affecté. Passez en revue les informations afin de vous assurer que le nom du sujet et les noms d’objet alternatifs sont corrects. Lorsque vous avez terminé de consulter le résumé du certificat, cliquez sur Suivant.
-ms.openlocfilehash: 1671706af0a3c6a3bf6b505177b4e6d22e40f257
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Avant la fin de l’affectation du certificat, vous permettent de résumé de l’affectation un certificat qui répertorie les détails du certificat qui seront affectés. Passez en revue les informations pour vous assurer que le nom du sujet et les noms de sujet sont corrects. Lorsque vous avez terminé de consulter le résumé du certificat, cliquez sur Suivant.
+ms.openlocfilehash: 55db559dd632302f68afc18606b22c09fb90fd78
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008138"
 ---
-# <a name="certificate-assignment-summary"></a>Attribution du certificat (résumé)
+# <a name="certificate-assignment-summary"></a>Assignation de certificat (résumé)
  
-Avant la fin de l’affectation de certificat, vous sont présentés avec un **Certificat de résumé de l’affectation** qui affiche les détails du certificat qui sera affecté. Passez en revue les informations afin de vous assurer que le nom du sujet et les noms d’objet alternatifs sont corrects. Lorsque vous avez terminé de consulter le résumé du certificat, cliquez sur **suivant**.
+Avant la fin de l’affectation du certificat, vous sont présentés avec un **Certificat résumé de l’affectation** qui répertorie les détails du certificat qui seront affectés. Passez en revue les informations pour vous assurer que le nom du sujet et les noms de sujet sont corrects. Lorsque vous avez terminé de consulter le résumé du certificat, cliquez sur **suivant**.
   
 

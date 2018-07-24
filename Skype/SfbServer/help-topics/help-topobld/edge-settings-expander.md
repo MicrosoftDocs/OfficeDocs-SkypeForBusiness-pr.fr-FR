@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Pour modifier les paramètres d’un pool Edge de serveur unique ou de serveurs multiples, vous disposez des sections suivantes :'
-ms.openlocfilehash: 5e9e916283bf36e0d81af41477920ba19e13e9a8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8b11d82a1f5ea167e3149afbd819149de86b6302
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995325"
 ---
 # <a name="edge-settings-expander"></a>Expanseur des paramètres du pool de serveurs Edge
  
@@ -28,23 +29,23 @@ Pour modifier les paramètres d’un pool Edge de serveur unique ou de serveurs 
     
 - Configuration du serveur Edge
     
-## 
 
-### <a name="general-settings"></a>Paramètres généraux
+
+## <a name="general-settings"></a>Paramètres généraux
 
 Nom de domaine complet (FQDN) du pool interne pour le pool de serveurs Edge. Modifiez le nom de domaine complet du pool pour changer ce paramètre.
   
-Activez la case à cocher **Activer la fédération pour ce pool de bord (Port 5061)** si vous allez configurer la fédération avec un Lync Server 2013, partenaire de Microsoft Lync Server 2010 ou Microsoft Office Communications Server 2007 R2.
+Activez la case à cocher **Activer la fédération pour ce pool Edge (Port 5061)** si vous configurez une fédération avec un serveur Lync Server 2013, partenaire de confiance Microsoft Lync Server 2010 ou Microsoft Office Communications Server 2007 R2.
   
 Sélectionnez **Activer la fédération XMPP pour ce pool Edge** pour activer la fédération XMPP.
   
 Spécifiez le numéro de port pour **Port de réplication de configuration interne (HTTPS)**.
   
-### <a name="next-hop-selection-settings"></a>Paramètres de sélection du tronçon suivant
+## <a name="next-hop-selection-settings"></a>Paramètres de sélection du tronçon suivant
 
-Pour configurer ou modifier le **pool du tronçon suivant** utilisé par les serveurs Edge pour communiquer avec l’infrastructure interne, sélectionnez un directeur, un pool directeur, un serveur frontal ou un pool de serveurs frontaux dans la zone de liste déroulante. Uniquement des directeurs ou frontaux qui ont été configurés dans le Générateur de topologies s’affiche pour la sélection.
+Pour configurer ou modifier le **pool du tronçon suivant** utilisé par les serveurs Edge pour communiquer avec l’infrastructure interne, sélectionnez un directeur, un pool directeur, un serveur frontal ou un pool de serveurs frontaux dans la zone de liste déroulante. Seules les directeurs ou frontaux qui ont été configurés dans le Générateur de topologie s’affiche pour la sélection.
   
-### <a name="edge-server-configuration"></a>Configuration du serveur Edge
+## <a name="edge-server-configuration"></a>Configuration du serveur Edge
 
 Pour modifier ou spécifier des paramètres pour les **paramètres externes** des serveurs Edge, vous devez déterminer si vous allez utiliser des adresses IP distinctes pour l’accès SIP, la conférence web et le service audio/vidéo.
   
@@ -60,8 +61,8 @@ Si vous déterminez que votre organisation utilisera un nom de domaine complet e
 > [!IMPORTANT]
 > Si vous apportez des modifications à l’un de ces paramètres, y compris en utilisant un nom de domaine complet et des adresses IP ou des ports distincts, vous devez mettre à jour tous les autres services qui dépendent des valeurs configurées initialement. 
   
-### 
+## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations sur la définition et la configuration des paramètres pour les Services de bord, consultez [Définition de votre topologie de bord](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
+Pour plus d’informations sur la définition et la configuration des paramètres des Services Edge, voir [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
   
 

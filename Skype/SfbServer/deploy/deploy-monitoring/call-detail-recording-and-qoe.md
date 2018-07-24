@@ -1,27 +1,26 @@
 ---
-title: Configurer un enregistrement des détails des appels et les paramètres de qualité de l’expérience dans Skype pour Business Server 2015
+title: Configurer un enregistrement des détails des appels et les paramètres de qualité de l’expérience dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
-description: 'Résumé : Apprenez à configurer des détails des appels et QoE Skype pour Business Server 2015.'
-ms.openlocfilehash: 0d5a6ba25a524578a13f16c92149977b0180fbdb
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Apprenez à configurer des détails des appels et QoE Skype pour Business Server.'
+ms.openlocfilehash: 7c94815efd30f7f3a30b3a72cfae756085e6aad4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569455"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015002"
 ---
-# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server-2015"></a>Configurer un enregistrement des détails des appels et les paramètres de qualité de l’expérience dans Skype pour Business Server 2015
+# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Configurer un enregistrement des détails des appels et les paramètres de qualité de l’expérience dans Skype pour Business Server
  
-**Résumé :** Apprenez à configurer des détails des appels et QoE Skype pour Business Server 2015.
+**Résumé :** Apprenez à configurer des détails des appels et QoE Skype pour Business Server.
   
-Configurer des détails des appels et QoE de surveillance à l’aide des rapports SQL Server Reporting Services pour Skype pour Business Server 2015.
+Configurer des détails des appels et QoE de surveillance à l’aide des rapports SQL Server Reporting Services pour Skype pour Business Server.
   
 ## <a name="configure-cdr-and-qoe"></a>Configurez l’enregistrement des détails des appels et la qualité de l’expérience
 
@@ -31,14 +30,14 @@ Une fois que vous avez associé à un magasin d’analyse un pool frontal, défi
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 ```
 
-Lorsque vous installez Skype pour Business Server 2015, vous allez installer également une collection de paramètres de configuration globaux pour des détails des appels et QoE prédéfinie. Les valeurs par défaut de certains des paramètres les plus couramment utilisés par l’enregistrement des détails des appels sont indiquées dans le tableau suivant :
+Lorsque vous installez Skype pour Business Server, vous allez installer également une collection de paramètres de configuration globaux pour des détails des appels et QoE prédéfinie. Les valeurs par défaut de certains des paramètres les plus couramment utilisés par l’enregistrement des détails des appels sont indiquées dans le tableau suivant :
   
 |**Propriété**|**Description**|**Valeur par défaut**|
 |:-----|:-----|:-----|
 |EnableCDR  <br/> |Indique si l’enregistrement des détails des appels est activé ou non. Si la valeur est True, tous les enregistrements CDR sont collectés et enregistrés dans la base de données de surveillance.  <br/> |True  <br/> |
 |EnablePurging  <br/> |Indique si les enregistrements des détails des appels doivent être périodiquement supprimés de la base de données. Si la valeur est définie sur True, les enregistrements sont supprimés après la période spécifiée par les propriétés KeepCallDetailForDays (pour les enregistrements CDR) et KeepErrorReportForDays (pour les erreurs CDR). Si la valeur est définie sur False, les enregistrements CDR sont conservés indéfiniment.  <br/> |True  <br/> |
 |KeepCallDetailForDays  <br/> |Indique le nombre de jours durant lesquels les enregistrements CDR sont conservés dans la base de données. Tout enregistrement plus ancien que le nombre de jours spécifié est automatiquement supprimé. Mais pour cela, la purge doit être activée.  <br/> Vous pouvez définir la propriété KeepCallDetailForDays sur n’importe quel entier entre 1 et 2 562 jours (environ 7 ans).  <br/> |60 jours  <br/> |
-|KeepErrorReportForDays  <br/> |Indique le nombre de jours pendant lesquels les rapports d’erreurs des détails des appels sont conservés ; les rapports antérieurs au nombre de jours spécifié seront automatiquement supprimés. Rapports d’erreurs des détails des appels sont des rapports de diagnostic téléchargés par les applications clientes telles que Skype pour Business Server 2015.  <br/> Vous pouvez définir cette propriété sur n’importe quelle valeur entière comprise entre 1 et 2 562.  <br/> |60 jours  <br/> |
+|KeepErrorReportForDays  <br/> |Indique le nombre de jours pendant lesquels les rapports d’erreurs des détails des appels sont conservés ; les rapports antérieurs au nombre de jours spécifié seront automatiquement supprimés. Rapports d’erreurs des détails des appels sont des rapports de diagnostic téléchargés par les applications clientes telles que Skype pour Business Server.  <br/> Vous pouvez définir cette propriété sur n’importe quelle valeur entière comprise entre 1 et 2 562.  <br/> |60 jours  <br/> |
    
 De même, les valeurs par défaut pour les paramètres de la qualité de l’expérience (QoE) sélectionnés sont indiquées dans ce tableau :
   

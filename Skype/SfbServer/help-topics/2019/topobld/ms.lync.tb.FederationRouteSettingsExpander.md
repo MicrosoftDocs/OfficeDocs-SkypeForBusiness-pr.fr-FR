@@ -11,18 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: Pour définir une attribution itinéraire fédération du site, vous devez au préalable avoir fédération activée sur le serveur Edge ou le pool de serveurs Edge. Si la fédération n’est pas activée sur le serveur Edge ou le pool, les paramètres d’affectation fédération itinéraire pour le site ne sera pas disponibles pour la modification.
-ms.openlocfilehash: 7933809dc53be713a9a745e2c1fd100e4de1c6b6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 260a5dd836adb0c2e99d660f134e57a15a257f18
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988284"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986812"
 ---
 # <a name="federation-route-settings-expander"></a>Expanseur des paramètres itinéraire de fédération
  
 Pour définir une attribution itinéraire fédération du site, vous devez au préalable avoir fédération activée sur le serveur Edge ou le pool de serveurs Edge. Si la fédération n’est pas activée sur le serveur Edge ou le pool, les paramètres d’affectation fédération itinéraire pour le site ne sera pas disponibles pour la modification.
-  
-## 
 
 Si le paramètre de fédération au pool ou serveur Edge a été configuré, vous pouvez configurer les options suivantes : 
   

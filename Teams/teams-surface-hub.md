@@ -3,7 +3,7 @@ title: Déployer les équipes Microsoft Surface concentrateur
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abb049c0185fa52b804c893d6f7abf73a1a902ab
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: e7757f7d220ae58914a296e3dc3850179219b475
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20397062"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981578"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer les équipes Microsoft Surface concentrateur
 ======================================
@@ -140,6 +140,9 @@ Une fois que vous avez terminé les étapes précédentes pour activer vos équi
 6. Cliquez sur **Enregistrer** pour terminer la tâche.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installer des équipes pour exposer Hub à partir du magasin de Microsoft 
+
+> [!NOTE]
+> Pour utiliser Microsoft Teams Surface Hub (Preview), votre périphérique doit être inscrits au programme initiés Windows. Pour quitter le programme internes, vous devez réinitialiser le concentrateur de Surface à l’aide de la récupération du nuage.<br> Pour devenir un membre du programme interne de Windows, le concentrateur de Surface doit être défini sur télémétrie complète avant de rejoindre le programme interne de Windows. En raison de la réglementation PIBR, les paramètres par défaut de la télémétrie Windows récemment changé depuis une sauvegarde complète de base dans l’Union européenne. Vous devez vérifier vos paramètres avant de rejoindre le programme interne de Windows. Tentative de rejoindre le programme interne de Windows lorsque la valeur base télémétrie peut nécessiter une réinitialisation du concentrateur de Surface. Pour valider les paramètres de télémétrie Windows sur un concentrateur de Surface, choisissez **paramètres** > **confidentialité** > **les commentaires et les Diagnostics**et la valeur **complète**.
 
 Ces instructions sont pour l’installation des équipes concentrateur de Surface à partir de Microsoft Store. 
  

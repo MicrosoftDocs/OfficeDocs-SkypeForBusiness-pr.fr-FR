@@ -1,9 +1,9 @@
 ---
-title: Expander des paramètres de Registre
+title: Expanseur des paramètres du serveur d’inscriptions
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,28 +11,29 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
-description: Résilience fournit une haute disponibilité et reprise après sinistre pour le pool de Registrar. En fournissant une Registre de sauvegarde en cas de défaillance de l’agent d’enregistrement principal, la sauvegarde Registre peut prendre en charge pour le Registre a échoué, ce qui permet aux utilisateurs de se connecter et communiquer. Les utilisateurs peuvent potentiellement bénéficier des fonctionnalités réduites, selon les systèmes ont échoué dans le Registre principal.
-ms.openlocfilehash: 9d8460f0a883dfabc55153744ba4f3f886b34898
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Résistance fournit une haute disponibilité et récupération d’urgence pour le pool de serveurs d’inscriptions. En fournissant une serveur d’inscriptions de sauvegarde en cas de défaillance d’inscriptions principale, la sauvegarde de serveurs d’inscriptions peut prendre en charge pour le serveur d’inscriptions ayant échoué, permettant aux utilisateurs de se connecter et communiquer. Les utilisateurs peuvent bénéficier potentiellement avec fonctionnalités réduites, selon lequel les systèmes ont échoué avec le serveur d’inscriptions principal.
+ms.openlocfilehash: 9aa72170b157045f8adf28bc2be08b115ae40c5b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015710"
 ---
-# <a name="registrar-settings-expander"></a>Expander des paramètres de Registre
+# <a name="registrar-settings-expander"></a>Expanseur des paramètres du serveur d’inscriptions
  
-Résilience fournit une haute disponibilité et reprise après sinistre pour le pool de Registrar. En fournissant une Registre de sauvegarde en cas de défaillance de l’agent d’enregistrement principal, la sauvegarde Registre peut prendre en charge pour le Registre a échoué, ce qui permet aux utilisateurs de se connecter et communiquer. Les utilisateurs peuvent potentiellement bénéficier des fonctionnalités réduites, selon les systèmes ont échoué dans le Registre principal.
+Résistance fournit une haute disponibilité et récupération d’urgence pour le pool de serveurs d’inscriptions. En fournissant une serveur d’inscriptions de sauvegarde en cas de défaillance d’inscriptions principale, la sauvegarde de serveurs d’inscriptions peut prendre en charge pour le serveur d’inscriptions ayant échoué, permettant aux utilisateurs de se connecter et communiquer. Les utilisateurs peuvent bénéficier potentiellement avec fonctionnalités réduites, selon lequel les systèmes ont échoué avec le serveur d’inscriptions principal.
   
-Dans la section de la **résilience** de la boîte de dialogue **Modifier les propriétés** de votre Survivable Branch Appliance ou le serveur Survivable Branch Server, vous pouvez modifier les paramètres suivants :
+Dans la section **résistance** de la boîte de dialogue **Modifier les propriétés** de votre Survivable Branch Appliance ou un serveur Survivable Branch Server, vous pouvez modifier les paramètres suivants :
   
-- **Pool de sauvegarde Registre et de service associé à l’utilisateur** Dans la liste déroulante, sélectionnez le pool frontal de Enterprise Edition ou Standard Edition serveur frontal qui est d’agir en tant que la sauvegarde du Registre pour le Survivable Branch Appliance ou le serveur Survivable Branch Server.
+- **Pool de serveurs d’inscriptions de sauvegarde et de service utilisateur associé** Dans la liste déroulante, sélectionnez le pool frontal Enterprise Edition ou Standard Edition serveur frontal qui doit agir en tant que la sauvegarde du serveur d’inscriptions pour le Survivable Branch Appliance ou serveur Survivable Branch Server.
     
-- **Activer le basculement et restauration automatique** Sélectionnez ce paramètre pour permettre la détection automatique d’un échec greffier et la détermination automatique qui le greffier principal est sauvegardée et prêt à reprendre le processus d’inscription.
+- **Activer le basculement et la restauration automatique** Sélectionnez cette option pour permettre la détection automatique Échec d’un serveur d’inscriptions et le calcul automatique du serveur d’inscriptions principal est sauvegardée et prêt à reprendre le processus de serveur d’inscriptions.
     
-- **Intervalle de détection de défaillance (s)** Tapez le nombre de secondes qui doit s’écouler avant qu’il est déterminé que le principal Registre a échoué. La valeur par défaut est de 120 secondes. Ce champ est obligatoire si vous sélectionnez **Activer le basculement et restauration automatique**.
+- **Intervalle de détection de panne (s)** Tapez le nombre de secondes qui doivent s’écouler avant qu’il est déterminé que le serveur principal serveur d’inscriptions a échoué. La valeur par défaut est 120 secondes. Ce champ est obligatoire si vous sélectionnez **Activer le basculement et la restauration automatique**.
     
-- **Intervalle de détection de secours (s)** Tapez le nombre de secondes qui doit s’écouler avant qu’il est déterminé que le Registre principal est sauvegardé. La valeur par défaut est 240 secondes. Ce champ est obligatoire si vous sélectionnez **Activer le basculement et secours**.
+- **Intervalle de détection de secours (s)** Tapez le nombre de secondes qui doivent s’écouler avant qu’il est déterminé que le serveur d’inscriptions principal est sauvegardé. La valeur par défaut est 240 secondes. Ce champ est obligatoire si vous sélectionnez **Activer le basculement et secours**.
     
 > [!IMPORTANT]
-> Lorsque vous définissez l’intervalle de détection de panne et l’intervalle de détection de secours, être faites attention à ne pas entrer un intervalle qui entraîne le basculement et de secours pour se produire si le Registre ne répond pas pendant une courte période de temps. Il est possible que le Registre principal peut ne pas répond pour courtes périodes de temps basée sur le chargement du pool ou des serveurs. 
+> Lorsque vous définissez l’intervalle de détection de panne et l’intervalle de détection de secours, être veiller à ne pas saisir un intervalle qui provoquera le basculement et de secours se produire si le serveur d’inscriptions ne répond pas pour un certain laps de temps. Il est possible que le serveur d’inscriptions principal peut ne pas répond de courtes périodes de temps, basées sur le chargement du pool ou serveurs. 
   
 

@@ -1,24 +1,24 @@
 ---
-title: Rapport d’emplacement dans Skype Entreprise Server 2015
+title: Rapport d’emplacement dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
-description: 'Résumé : Découvrez l’état emplacement dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 54bf28225e45691003047b0ce3d619ba6311c681
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez le rapport d’emplacement dans Skype pour Business Server.'
+ms.openlocfilehash: 61e9ab93189a9bf8597e879b5996761d5d937195
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977471"
 ---
-# <a name="location-report-in-skype-for-business-server-2015"></a>Rapport d’emplacement dans Skype Entreprise Server 2015
+# <a name="location-report-in-skype-for-business-server"></a>Rapport d’emplacement dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur l’état de l’emplacement dans Skype pour Business Server 2015.
+**Résumé :** Découvrez le rapport d’emplacement dans Skype pour Business Server.
   
 Le rapport d’emplacement fournit des informations sur les mesures de la qualité des appels regroupées par emplacement réseau (c’est-à-dire, par sous-réseau). Si vos utilisateurs rencontrent des problèmes avec leurs appels, ce rapport peut vous aider à déterminer si ces problèmes sont étendus ou s’ils sont largement réduits à un segment de réseau donné.
   
@@ -36,7 +36,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport d’emplacement.
   
-**Emplacement de filtres de rapport**
+**Filtres du rapport d’emplacement**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -51,16 +51,16 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 Le tableau qui suit répertorie les informations fournies dans le rapport d’emplacement.
   
-**Mesures de rapport d’emplacement**
+**Mesures du rapport d’emplacement**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Sous-réseau de l’appelant** <br/> |Non  <br/> |Sous-réseau IP de l’utilisateur qui a émis l’appel.  <br/> |
 |**Sous-réseau de l’appelé** <br/> |Non  <br/> |Sous-réseau IP de l’utilisateur qui a reçu l’appel.  <br/> |
 |**Volume d’appels** <br/> |Oui  <br/> |Nombre total d’appels émis.  <br/> |
 |**Pourcentage d’appels médiocres** <br/> |Oui  <br/> |Pourcentage d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).  <br/> |
 |**Boucle (ms)** <br/> |Oui  <br/> |Temps moyen (en millisecondes) nécessaire à un package RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre point de terminaison. Des boucles de 100 millisecondes ou moins sont considérées qualitativement acceptables.  <br/> Des boucles avec des temps plus élevés peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les temps d’aller-retour élevés créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.  <br/> |
-|**Dégradation (MOS)** <br/> |Oui  <br/> |Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Skype pour Business Server 2015, un ensemble d’algorithmes de prédire comment les utilisateurs aurait été attribué un appel.  <br/> Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un point de terminaison surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
+|**Dégradation (MOS)** <br/> |Oui  <br/> |Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Skype pour Business Server, un ensemble d’algorithmes prévoir la façon dont les utilisateurs est comme un appel.  <br/> Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un point de terminaison surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**Perte de paquets** <br/> |Oui  <br/> |Taux moyen de pertes de paquets RTP. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**Gigue** <br/> |Oui  <br/> |Gigue moyenne détectée entre les arrivées de paquets RTP. (La gigue permet de mesurer les fluctuations d’un appel.) Les valeurs de gigue élevées peuvent provenir d’une congestion ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**Taux de masquage de la réparation** <br/> |Oui  <br/> |Ratio moyen d’échantillons audio masqués par rapport au nombre total d’échantillons. (Un échantillon audio masqué est une technique employée pour adoucir les effets de transition violents généralement causés par des paquets réseau perdus.) Des valeurs élevées indiquent des niveaux importants de masquage des pertes appliqués suite à la perte de paquets ou des phénomènes de gigue. Elles se traduisent par une distorsion ou une perte de l’audio.  <br/> |

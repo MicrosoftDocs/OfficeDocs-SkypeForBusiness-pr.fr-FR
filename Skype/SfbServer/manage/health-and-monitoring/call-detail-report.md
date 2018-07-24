@@ -1,26 +1,26 @@
 ---
-title: Rapport détaillé des appels dans Skype Entreprise Server 2015
+title: Rapport détaillé des appels dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 'Résumé : Découvrez le rapport détaillé sur appeler utilisé dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 942562ed33462506c9da137b3e4377e102d0ec98
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez les Call Detail Report utilisés dans Skype pour Business Server.'
+ms.openlocfilehash: 3f560a2d4217b5afd61036b39100b39888fe577a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978881"
 ---
-# <a name="call-detail-report-in-skype-for-business-server-2015"></a>Rapport détaillé des appels dans Skype Entreprise Server 2015
+# <a name="call-detail-report-in-skype-for-business-server"></a>Rapport détaillé des appels dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur l’état de détail appeler utilisé dans Skype pour Business Server 2015.
+**Résumé :** Découvrez les Call Detail Report utilisés dans Skype pour Business Server.
   
-Le rapport détaillé appeler fournit une description détaillée à un appel individuel ; le rapport inclut presque tous les de la qualité des mesures de l’expérience et les statistiques collectées par Skype pour Business Server 2015, divisée en sections telles que :
+Call Detail Report fournit une vue détaillée un appel ; le rapport comprend la quasi totalité la qualité de l’expérience mesures et des statistiques collectées par Skype pour Business Server, divisée en sections, telles que :
   
 - Informations d’appel 
     
@@ -48,17 +48,17 @@ Le rapport sur le détail de l’appel s’avère particulièrement utile pour i
 
 Le rapport sur le détail de l’appel est accessible à partir des rapports suivants :
   
-- Le [Rapport d’emplacement dans Skype pour Business Server 2015](location-report.md) (en cliquant sur le volume d’appels ou de la mesure de pourcentage faible d’appel)
+- [Emplacement rapport dans Skype pour Business Server (emplacement-report.md) (en cliquant sur le volume d’appels ou de la mesure de pourcentage d’appels médiocres)
     
-- Le [Rapport de synthèse de qualité Media dans Skype pour Business Server 2015](summary.md) (en cliquant sur le volume d’appels ou un appel faible pourcentage métrique)
+- Le [Media Quality Summary Report dans Skype pour Business Server (summary.md) (en cliquant sur la mesure de pourcentage d’appels médiocres ou le volume d’appels)
     
-- Le [Rapport de comparaison de qualité Media dans Skype pour Business Server 2015](comparison.md) (en cliquant dans le [Rapport de liste des appels dans Skype pour Business Server 2015](call-list-report-0.md) puis en cliquant sur la mesure de détail).
+- Le [Media Quality Comparison Report dans Skype pour Business Server](comparison.md) (en cliquant sur le [Rapport liste des appels dans Skype pour Business Server](call-list-report-0.md) puis en cliquant sur la mesure détail).
     
-- Le [Rapport de performances de serveur dans Skype pour Business Server 2015](server-performance.md) (en cliquant sur le volume d’appels ou un appel faible pourcentage métrique)
+- Le [Rapport de performances du serveur dans Skype pour Business Server](server-performance.md) (en cliquant sur la mesure de pourcentage d’appels médiocres ou le volume d’appels)
     
-- Le [Rapport liste des appels dans Skype pour Business Server 2015](call-list-report-0.md) (en cliquant sur la mesure de détail)
+- Le [Rapport liste des appels dans Skype pour Business Server](call-list-report-0.md) (en cliquant sur la mesure détail)
     
-Accédez à partir du rapport de détail appeler vous l' [État du périphérique dans Skype pour Business Server 2015](device-report.md) en cliquant sur une des mesures suivantes :
+À partir de Call Detail Report vous pouvez accéder le [Rapport de périphérique dans Skype pour Business Server](device-report.md) en cliquant sur une des mesures suivantes :
   
 - Périphérique de capture
     
@@ -82,9 +82,9 @@ Aucun. Vous ne pouvez pas filtrer le rapport sur le détail de l’appel.
 
 Le tableau ci-dessous liste les informations fournies dans le rapport sur le détail de l’appel pour chaque appel.
   
-**Appeler des mesures de rapport de détail**
+**Mesures du rapport sur le détail de l’appel**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**PAI de l’appelant** <br/> |Non  <br/> |PAI (P-Asserted-Identity) de l’utilisateur qui a initié l’appel. La PAI sert à transmettre l’identité prouvée d’un utilisateur au sein d’un réseau approuvé.  <br/> |
 |**URI de l’appelant** <br/> |Non  <br/> |Adresse SIP de l’utilisateur qui a initié l’appel.  <br/> |

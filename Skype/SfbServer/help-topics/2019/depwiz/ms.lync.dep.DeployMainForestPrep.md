@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
+ROBOTS: NOINDEX, NOFOLLOW
 description: Pour préparer la forêt des Services de domaine Active Directory, vous devez correctement étendre le schéma, comme décrit dans la rubrique Préparation du schéma en cours d’exécution et vous assurer que le schéma a été répliqué.
-ms.openlocfilehash: f993236fc13fc2274acaa8bb4c6b0ae1105afccb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 8bab8fecef4980c2d82f92a90f5c11c6bf7870f1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987486"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971896"
 ---
 # <a name="prepare-current-forest"></a>Préparer la forêt actuelle
  
@@ -29,7 +30,7 @@ Après avoir rempli ces conditions préalables, vous pouvez passer à l’**Éta
 2. Dans la page **Préparer la forêt**, cliquez sur **Suivant**.
     
     > [!NOTE]
-    > Préparation de la forêt vous permet de choisir l’emplacement où placer les groupes universels pour Skype pour Business Server 2015. Sélectionnez un emplacement conforme aux besoins de votre organisation. 
+    > Préparation de la forêt vous permet de choisir l’emplacement où placer les groupes universels pour Skype pour Business Server. Sélectionnez un emplacement conforme aux besoins de votre organisation. 
   
 3. Dans la page **Exécution de commandes**, recherchez **Statut de la tâche : Terminée**, puis cliquez sur **Afficher le journal**. Assurez-vous qu’il n’y a pas d’erreurs. Consultez les avertissements pour vous assurer qu’ils sont ordinaires et conformes à votre infrastructure.
     

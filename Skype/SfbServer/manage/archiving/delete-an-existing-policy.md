@@ -1,32 +1,32 @@
 ---
-title: Suppression d’une stratégie d’archivage existante dans Skype Entreprise Server 2015
+title: Supprimer une stratégie dans Skype d’archivage pour Business Server existante
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: 'Résumé : Découvrez comment supprimer une stratégie d’archivage pour Skype pour Business Server 2015.'
-ms.openlocfilehash: aeb640cc832bffbded4765e5b6cc931a17365215
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment supprimer une stratégie d’archivage pour Skype pour Business Server.'
+ms.openlocfilehash: 0446999923b462311f941b6653157b41000b1f43
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973100"
 ---
-# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>Suppression d’une stratégie d’archivage existante dans Skype Entreprise Server 2015
+# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Supprimer une stratégie dans Skype d’archivage pour Business Server existante
 
-**Résumé :** Découvrez comment supprimer une stratégie d’archivage pour Skype pour Business Server 2015.
+**Résumé :** Découvrez comment supprimer une stratégie d’archivage pour Skype pour Business Server.
   
-Vous pouvez supprimer une stratégie utilisateur ou une stratégie de site mais la stratégie globale ne peut pas être supprimée. Si vous supprimez la stratégie globale, Skype pour Business Server réinitialise automatiquement la stratégie pour les valeurs par défaut.
+Vous pouvez supprimer une stratégie utilisateur ou une stratégie de site mais la stratégie globale ne peut pas être supprimée. Si vous supprimez la stratégie globale, Skype pour Business Server rétablit automatiquement la stratégie de valeurs par défaut.
   
 ## <a name="delete-a-policy-by-using-the-control-panel"></a>Supprimer une stratégie via le Panneau de configuration
 
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrir une fenêtre de navigateur et entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration de Business Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
     

@@ -1,28 +1,28 @@
 ---
-title: Correction ou mise à jour d’un serveur principal ou d’un serveur Standard Edition dans Skype Entreprise Server 2015
+title: Correctifs ou mise à jour d’un serveur principal ou Standard Edition server dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
-description: 'Résumé : Apprenez à installer une mise à jour ou un correctif sur un serveur principal dans Skype pour Business Server.'
-ms.openlocfilehash: 14acff1aea501bf47dff95053259187570d2f990
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment installer une mise à jour ou un correctif sur un serveur principal Skype pour Business Server.'
+ms.openlocfilehash: 7815c42443afae6fef7aaec71399120fb61ece82
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969130"
 ---
-# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server-2015"></a>Correction ou mise à jour d’un serveur principal ou d’un serveur Standard Edition dans Skype Entreprise Server 2015
+# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Correctifs ou mise à jour d’un serveur principal ou Standard Edition server dans Skype pour Business Server
  
-**Résumé :** Découvrez comment installer une mise à jour ou un correctif sur un serveur principal dans Skype pour Business Server.
+**Résumé :** Découvrez comment installer une mise à jour ou un correctif sur un serveur principal Skype pour Business Server.
   
-Cette rubrique explique comment installer une mise à jour sur une entreprise Edition serveur principal ou un serveur Standard Edition.
+Cette rubrique explique comment installer une mise à jour sur un serveur Enterprise Edition Back ou un serveur Standard Edition server.
   
-Si un serveur principal est hors service pendant au moins 30 minutes pendant que vous mettez à niveau il, les utilisateurs peuvent passer en mode de résilience. Lors de la mise à niveau est terminée et les serveurs principaux en a à nouveau connecté avec les serveurs frontaux dans le pool, les utilisateurs sont retournés toutes les fonctionnalités. Si la mise à niveau dure moins de 30 minutes, les utilisateurs ne sont pas affectés.
+Si un serveur principal est vers le bas au moins 30 minutes pendant que vous mettez à niveau il, les utilisateurs peuvent passer en mode résistance. Lorsque la mise à niveau est terminée et les serveurs principaux est connecté à nouveau avec les serveurs frontaux du pool, les utilisateurs sont renvoyées pour toutes les fonctionnalités. Si la mise à niveau dure moins de 30 minutes, les utilisateurs ne sont pas affectés.
   
 ### <a name="to-update-a-back-end-server-or-standard-edition-server"></a>Pour mettre à jour un serveur principal ou un serveur Standard Edition
 
@@ -30,9 +30,9 @@ Si un serveur principal est hors service pendant au moins 30 minutes pendant que
     
 2. Téléchargez la mise à jour et extrayez-la sur le disque dur local.
     
-3. Démarrer le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour entreprise 2015**, puis cliquez sur **Skype pour Business Server Management Shell**...
+3. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour les entreprises**, puis cliquez sur **Skype pour Business Server Management Shell**...
     
-4. Arrêter Skype pour les services de serveur d’entreprise. À partir de la ligne de commande, tapez :
+4. Arrêtez Skype pour les services Business Server. À partir de la ligne de commande, tapez :
     
     ```
     Stop-CsWindowsService
@@ -44,13 +44,13 @@ Si un serveur principal est hors service pendant au moins 30 minutes pendant que
     net stop w3svc
    ```
 
-6. Fermez tous les Skype pour windows de Business Server Management Shell.
+6. Fermez toutes les Skype pour windows Business Server Management Shell.
     
 7. Installez la mise à jour.
     
-8. Démarrer le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour entreprise 2015**, puis cliquez sur **Skype pour Business Server Management Shell**...
+8. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour les entreprises**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
-9. Arrêter Skype pour les services de serveur de l’entreprise pour détecter les assemblys -d du Global Assembly Cache (GAC). À partir de la ligne de commande, tapez :
+9. Arrêtez Skype pour les services Business Server pour intercepter les assemblys -d Global Assembly Cache (GAC). À partir de la ligne de commande, tapez :
     
     ```
     Stop-CsWindowsService
@@ -64,23 +64,21 @@ Si un serveur principal est hors service pendant au moins 30 minutes pendant que
 
 11. Appliquez les modifications apportées aux bases de données SQL Server en effectuant l’une des opérations suivantes :
     
-    - Si c’est un serveur Enterprise Edition fin précédent et aucun COLOCALISÉES bases de données sur ce serveur, comme l’archivage ou les bases de données de suivi, puis tapez ce qui suit à une ligne de commande :
+    - Si c’est un serveur Enterprise Edition fin et aucun des bases de données COLOCALISÉES sur ce serveur, telles que l’archivage ou les bases de données de surveillance, puis tapez ce qui suit sur la ligne de commande :
     
     ```
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     ```
 
-    - Si c’est un serveur Enterprise Edition fin précédent et consolider des bases de données sont sur ce serveur, puis tapez ce qui suit à une ligne de commande :
+    - Si c’est un serveur Enterprise Edition fin et il existe des bases de données COLOCALISÉES sur ce serveur, puis tapez ce qui suit sur la ligne de commande :
     
     ```
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     ```
 
-    - S’il s’agit d’un serveur Standard Edition server, tapez ce qui suit à l’invite :
+    - S’il s’agit d’un serveur Standard Edition server, tapez ce qui suit sur la ligne de commande :
     
     ```
     Install-CsDatabase -Update -LocalDatabases
 
     ```
-
-

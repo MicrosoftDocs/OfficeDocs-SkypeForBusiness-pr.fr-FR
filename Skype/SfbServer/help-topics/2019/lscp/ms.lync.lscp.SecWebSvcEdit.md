@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
+ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: f83ddc0c951988cf82753693088a2974ea0a5613
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: 9ebe5d64dad79a785f353e03887d9acf6444c492
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088496"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967739"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Paramètres de sécurité du Service Web : Créer ou modifier des existants
  

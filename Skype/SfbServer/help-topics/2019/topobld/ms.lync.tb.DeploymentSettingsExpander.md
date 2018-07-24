@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Vous pouvez modifier les propriétés d’un déploiement existant à l’aide des sections suivantes :'
-ms.openlocfilehash: e2ead1d674d6cfd3b01854d3ec0ca7bafd353b15
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2784a1c2f21699a3d5cc30b2fcfba76bf1d3338c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991577"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21027239"
 ---
 # <a name="deployment-settings-expander"></a>Expanseur des paramètres de déploiement
  
@@ -71,7 +71,6 @@ Le serveur de gestion centralisée peut être changé d’un pool frontal défin
   
 Pour plus d’informations sur le déplacement du magasin Central de gestion, voir [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) dans la référence d’applet de commande Windows PowerShell.
   
-## 
 
 Pour plus d’informations sur la définition et la configuration de ces paramètres, voir [Defining and Configuring the Topology](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
   

@@ -1,9 +1,9 @@
 ---
-title: Installer ou supprimer des composants de serveur d’entreprise Skype (appeler)
+title: Installer ou supprimer des Skype pour les composants de serveur d’entreprise (Invoke)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
-description: Les commandes d’exécution affiche une synthèse en cours d’exécution des tâches qui sont exécutées pour déployer le rôle de serveur. Une fois les tâches terminées, déployer et activer ou désactiver et désinstaller un résumé s’affiche. En outre, dans la liste déroulante, vous pouvez sélectionner un des fichiers journaux qui sont créés lorsque les commandes sont exécutées. Utilisez la liste déroulante pour sélectionner le fichier journal que vous souhaitez afficher, puis cliquez sur Afficher le journal.
-ms.openlocfilehash: 1ca6107f08ee552cdd08b027c98f5c895b41a9df
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Les commandes exécuter affiche un résumé des tâches qui sont exécutées pour déployer le rôle de serveur en cours d’exécution. Une fois que les tâches sont terminées, déployer et activer ou désactiver et désinstaller un résumé s’affiche. En outre, dans la liste déroulante, vous pouvez sélectionner un des fichiers journaux qui sont créés lorsque les commandes sont exécutées. Utilisez la liste déroulante pour sélectionner le fichier journal que vous souhaitez afficher, cliquez sur Afficher le journal.
+ms.openlocfilehash: ec94e2f6d3d3934cc8a6e6d5e088ad1a737ba608
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975899"
 ---
-# <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Installer ou supprimer des composants de serveur d’entreprise Skype (appeler)
+# <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Installer ou supprimer des Skype pour les composants de serveur d’entreprise (Invoke)
  
-Les **Commandes d’exécution** affiche une synthèse en cours d’exécution des tâches qui sont exécutées pour déployer le rôle de serveur. Une fois les tâches terminées, déployer et activer ou désactiver et désinstaller un résumé s’affiche. En outre, dans la liste déroulante, vous pouvez sélectionner un des fichiers journaux qui sont créés lorsque les commandes sont exécutées. Utilisez la liste déroulante pour sélectionner le fichier journal que vous souhaitez afficher, puis cliquez sur **Afficher le journal**.
+L' **Exécution de commandes** affiche un résumé des tâches qui sont exécutées pour déployer le rôle de serveur en cours d’exécution. Une fois que les tâches sont terminées, déployer et activer ou désactiver et désinstaller un résumé s’affiche. En outre, dans la liste déroulante, vous pouvez sélectionner un des fichiers journaux qui sont créés lorsque les commandes sont exécutées. Utilisez la liste déroulante pour sélectionner le fichier journal que vous souhaitez afficher, cliquez sur **Afficher le journal**.
   
-Une fois que vous avez consulter les résumé et les fichiers journaux, cliquez sur **Terminer**.
+Une fois que vous avez terminé d’examen les résumé et les fichiers journaux, cliquez sur **Terminer**.
   
 

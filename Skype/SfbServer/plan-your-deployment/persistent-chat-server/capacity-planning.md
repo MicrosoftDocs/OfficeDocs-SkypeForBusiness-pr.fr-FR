@@ -9,58 +9,62 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
-description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la planification des capacités pour le serveur Chat persistant dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 5e8978e145c96b9a2fec7d81f02e0010484411bb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la planification de capacité pour les serveurs de conversation permanente dans Skype pour Business Server 2015.'
+ms.openlocfilehash: 395beed6a295a76c781aa65c654bcbf2693bbc40
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026451"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planification de la capacité pour le serveur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé :** Lisez cette rubrique pour en savoir plus sur la planification des capacités pour le serveur Chat persistant dans Skype pour Business Server 2015.
+**Résumé :** Lisez cette rubrique pour en savoir plus sur la planification de capacité pour les serveurs de conversation permanente dans Skype pour Business Server 2015.
   
-Serveur de conversation permanent peut effectuer la conversation multi-utilisateur, en temps réel qui peut rendre persistante pour la recherche et la récupération ultérieure. Contrairement au groupe la messagerie instantanée (MI) qui est enregistré dans la boîte aux lettres d’un utilisateur si l’historique des conversations sont configuré, une session persistante Chat Server reste ouverte plus longtemps et le contenu est enregistré sur un serveur, ainsi que les messages, les fichiers, les URL et les autres données qui font partie d’un conversation en cours.
+Persistent Chat Server peuvent effectuer conversation avec plusieurs utilisateur, en temps réel qui peut être permanent pour la recherche et une récupération ultérieure. Contrairement à la messagerie instantanée en groupe (MI) qui a été enregistrée dans la boîte aux lettres d’un utilisateur si l’historique des conversations sont configuré, une session Persistent Chat Server reste ouverte plus longtemps et le contenu est enregistré sur un serveur, ainsi que les messages, les fichiers, les URL et les autres données qui font partie d’un conversation en cours.
   
-Planification de la capacité est une partie importante de la préparation du déploiement du serveur de conversation persistant. Cette rubrique fournit des tableaux de planification de la capacité que vous pouvez utiliser pour déterminer la meilleure configuration pour votre déploiement. Il décrit également comment gérer au mieux les déploiements de serveur de Chat persistant nécessitant une capacité importante aux heures de pointe.
+Planification de la capacité est une part importante de la préparation du déploiement des serveurs de conversation permanente. Cette rubrique fournit des tableaux de planification de la capacité que vous pouvez utiliser pour déterminer la meilleure configuration pour votre déploiement. Il décrit également comment mieux gérer les déploiements de serveur de conversation permanente qui nécessitent une plus grande capacité aux heures de pointe.
   
-Avant de lire cette section, familiarisez-vous avec les topologies de conversation permanente. Pour plus d’informations, voir [topologie de planifier le serveur Chat persistant](topology.md).
-  
-## <a name="persistent-chat-server-capacity-planning"></a>Planification des capacités de serveur Chat persistant
+Avant de lire cette section, familiarisez-vous avec les topologies de conversation permanente. Pour plus d’informations, consultez [topologie de planification des serveurs de conversation permanente](topology.md).
 
-Les tableaux suivants peuvent vous aider à planifier la capacité de serveur de conversation persistant en modélisant comment différents paramètres de serveur de conversation permanents affectent la capacité.
+> [!NOTE] 
+> Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [parcours de Skype pour les entreprises aux équipes de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si vous devez utiliser la conversation permanente, vos choix est pour migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes, ou pour continuer à utiliser Skype pour Business Server 2015. 
+  
+## <a name="persistent-chat-server-capacity-planning"></a>Planification des capacités de serveur de conversation permanente
+
+Les tableaux suivants peuvent vous aider à la planification de capacité pour le serveur de conversation permanente par modélisation comment différents paramètres de serveur de conversation permanente affectent la capacité.
   
 - Planifier la capacité du nombre d’utilisateurs
     
 - Planifier la capacité de l’accès aux salles de conversation
     
-- Planification de capacité pour l’accès à la salle de conversation sur invitation
+- Planification de capacité pour l’accès à la salle de conversation par invitation
     
 - Planifier la capacité des performances
     
-### <a name="plan-capacity-for-number-of-users-for-persistent-chat-server"></a>Planification de capacité pour le nombre d’utilisateurs de serveur de conversation persistant
+### <a name="plan-capacity-for-number-of-users-for-persistent-chat-server"></a>Planifier la capacité pour nombre d’utilisateurs pour le serveur de conversation permanente
 
 Utilisez l’exemple de tableau suivant pour déterminer le nombre d’utilisateurs que vous serez en mesure de prendre en charge.
   
-**Exemple de capacité maximale de pool Chat Server persistant**
+**Exemple de capacité maximale persistent Chat Server pool**
 
 |||
 |:-----|:-----|
-|Instances de service de Chat persistant actives  <br/> |4  <br/> |
-|Instances de service Chat persistants  <br/> |8 (4 instances peuvent être actives au maximum, 4 doivent être inactives.)  <br/> |
+|Instances de service de conversation permanente actives  <br/> |4  <br/> |
+|Instances de service de conversation permanentes  <br/> |8 (4 instances peuvent être actives au maximum, 4 doivent être inactives.)  <br/> |
 |Utilisateurs actifs connectés  <br/> |80 000  <br/> |
 |Nombre total d’utilisateurs approvisionnés  <br/> |150 000  <br/> |
 |Nombre de points de terminaison  <br/> |120 000  <br/> |
    
-Dans l’exemple précédent, le plan est le nombre maximal d’utilisateurs qui Persistent Chat Server permet de prendre en charge : quatre serveurs/instances du service Chat persistant (peut avoir quatre plus passifs serveurs persistant Chat Server pour une haute disponibilité et reprise après sinistre) et 20 000 utilisateurs par serveur, pour un total de 80 000 utilisateurs actifs.
+Dans l’exemple précédent, le plan est le nombre maximal d’utilisateurs qui Persistent Chat Server permet de prendre en charge : quatre serveurs instances du service de conversation permanente (non attribuable à quatre serveurs plus passives Persistent Chat Server en cours d’exécution pour une haute disponibilité et récupération d’urgence) et 20 000 utilisateurs par serveur, pour un total de 80 000 utilisateurs actifs.
   
 ### <a name="plan-capacity-for-chat-room-access"></a>Planifier la capacité de l’accès aux salles de conversation
 
-Le tableau suivant peut vous aider à planifier pour la gestion des accès à la salle de conversation dans un pool de serveurs de conversation permanent.
+Le tableau suivant peut vous aider à planifier la gestion des accès à la salle de conversation dans un pool de serveurs de conversation permanente.
   
-**Gestion des exemples de requêtes access salle de conversation**
+**Exemple de gestion de l’accès aux salles de conversation**
 
-||**Petites salles de conversation**|**Moyenne des salles de conversation**|**Grandes salles de conversation**|**Total**|
+||**Salles de conversation de petite taille**|**Salles de conversation de taille moyenne**|**Salles de conversation de grande taille**|**Total**|
 |:-----|:-----|:-----|:-----|:-----|
 |Taille des salles de conversation (nombre d’utilisateurs connectés)  <br/> |30 par salle  <br/> |150 par salle  <br/> |16 000 par salle  <br/> ||
 |Salles de conversation  <br/> |32 000  <br/> |1,067  <br/> |10  <br/> |33,077  <br/> |
@@ -91,7 +95,7 @@ Le tableau suivant peut vous aider à planifier pour la gestion des accès à la
 |Entrées de contrôle d’accès  <br/> |704,160  <br/> |26,768  <br/> |160  <br/> |731,088  <br/> |
 |Nombre maximum d’entrées de contrôle d’accès  <br/> ||||2 000 000  <br/> |
    
-Dans l’exemple précédent, lorsque vous déployez les serveurs Chat persistant en suivant les instructions recommandées, qu’ils puissent gérer jusqu'à 80 000 utilisateurs actifs sur un pool de quatre serveurs respect activé.
+Dans l’exemple précédent, lorsque vous déployez les serveurs de conversation permanente conformément aux instructions préconisées, ils peuvent gérer jusqu'à 80 000 utilisateurs actifs sur un pool de quatre serveurs avec la conformité activée.
   
 Cet exemple indique les catégories des salles de conversation : petite (30 utilisateurs actifs à tout moment), moyenne (150 utilisateurs actifs) et grande (16 000 utilisateurs actifs). Le nombre pris en charge de salles de conversation d’une certaine taille indiqué dans le tableau ci-dessus est calculé en fonction du nombre total :
   
@@ -108,22 +112,22 @@ Pour chaque salle de conversation, le tableau de planification de capacité pré
   
 ### <a name="plan-capacity-for-managing-chat-room-access-by-invitation"></a>Planifier la capacité pour gérer l’accès aux salles de conversation par invitation
 
-Vous pouvez utiliser le tableau de planification de capacité suivants de connaître le nombre d’invitations qui Persistent Chat Server crée et stocke dans la base de données de Chat persistantes lorsqu’il est configuré pour envoyer des invitations. Pour gérer des invitations de la catégorie à l’aide de la page de **paramètres de catégorie de la salle de conversation** dans la Skype pour le panneau de configuration de Business Server ou à l’aide de l’applet de commande Windows PowerShell, **csPersistentChatCategory de l’ensemble**. Vous pouvez gérer des invitations dans une salle de conversation (en fonction de ce que permet la catégorie) en utilisant la page de **Gestion de la salle de** lancé à partir de la Skype pour client d’entreprise, ou à l’aide d’une applet de commande Windows PowerShell, **csPersistentChatRoom de l’ensemble**.
+Vous pouvez utiliser le tableau de planification de capacité suivant pour comprendre le nombre d’invitations qui Persistent Chat Server crée et stocke dans la base de données de conversation permanente lorsqu’il est configuré pour envoyer des invitations. Pour gérer des invitations de la catégorie à l’aide de la page **paramètres de catégorie de salle de conversation** dans la Skype pour le panneau de configuration serveur Business ou à l’aide de l’applet de commande Windows PowerShell, **set-csPersistentChatCategory**. Vous pouvez gérer des invitations à une salle de conversation (inséré dans ce qui permet la catégorie) à l’aide de la page **Gestion des salles** lancée à partir de la Skype pour client d’entreprise, ou à l’aide d’une applet de commande Windows PowerShell, **set-csPersistentChatRoom**.
   
 Les exemples de données du tableau ci-après supposent que l’option **Invitations** est définie sur **Oui** dans la page **Paramètres de la salle de conversation** pour 50 % de toutes les salles de conversation.
   
 > [!IMPORTANT]
-> Si la valeur calculée du nombre d’invitations générée par le serveur dépasse 1 million, les performances du serveur pourraient se dégrader de manière significative. Pour éviter ce problème, assurez-vous que vous réduisez le nombre de salles de conversation qui sont configurés pour envoyer des invitations ou restreindre le nombre d’utilisateurs qui peut joindre des salles de conversation qui ont été configurés pour envoyer des invitations. 
+> Si la valeur calculée du nombre d’invitations générée par le serveur dépasse 1 million, les performances du serveur pourraient se dégrader de manière significative. Pour éviter ce problème, n’oubliez pas que vous réduisez le nombre de salles de conversation qui sont configurés pour envoyer des invitations ou limiter le nombre d’utilisateurs qui peuvent participer à des salles de conversation qui ont été configurés pour envoyer des invitations. 
   
-**Accès à la salle de conversation par exemple de l’invitation**
+**Exemple d’accès à la salle de conversation par invitation**
 
-||**Petites salles de conversation**|**Moyenne des salles de conversation**|**Grandes salles de conversation**|**Total**|
+||**Salles de conversation de petite taille**|**Salles de conversation de taille moyenne**|**Salles de conversation de grande taille**|**Total**|
 |:-----|:-----|:-----|:-----|:-----|
 |Utilisateurs pouvant accéder à la salle de conversation  <br/> |30 par salle  <br/> |150 par salle  <br/> |16 000 par salle  <br/> ||
 |Pourcentage de salles qui ont des invitations  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
 |Salles de conversation configurées pour envoyer des invitations  <br/> |16 000  <br/> |533  <br/> |5  <br/> ||
 |Utilisateurs pouvant accéder à la salle de conversation  <br/> |60  <br/> |225  <br/> |16 000  <br/> ||
-|Invitations générées par le serveur de conversation permanent  <br/> |960,000  <br/> |120 000  <br/> |80 000  <br/> |1,160,000  <br/> |
+|Invitations générées par le serveur de conversation permanente  <br/> |960,000  <br/> |120 000  <br/> |80 000  <br/> |1,160,000  <br/> |
 |Nombre maximal autorisé d’invitations  <br/> ||||2 000 000  <br/> |
 |Modèle 1 - Démarrer avec le nombre attendu de messages par salle par jour  <br/> |||||
 |Taux de conversation par salle (par jour)  <br/> |50  <br/> |500  <br/> |100  <br/> |650  <br/> |
@@ -133,16 +137,16 @@ Les exemples de données du tableau ci-après supposent que l’option **Invitat
 |Taux de conversation par salle (par jour)  <br/> |38  <br/> |375  <br/> |800  <br/> |1,213  <br/> |
 |Taux de conversation (par seconde) de toutes les salles  <br/> |41,67  <br/> |13.89  <br/> |0,28  <br/> |56  <br/> |
    
-### <a name="plan-capacity-for-persistent-chat-server-performance"></a>Planifier la capacité de performances du serveur de conversation permanent
+### <a name="plan-capacity-for-persistent-chat-server-performance"></a>Planifier la capacité pour les performances du serveur de conversation permanente
 
-Le tableau suivant décrit le modèle d’utilisateur pour le serveur de Chat persistant. Il fournit les bases des conditions de planification de la capacité requises et représente une organisation type avec 80 000 utilisateurs simultanés sur quatre serveurs.
+Le tableau suivant décrit le modèle utilisateur pour le serveur de conversation permanente. Il fournit les bases des conditions de planification de la capacité requises et représente une organisation type avec 80 000 utilisateurs simultanés sur quatre serveurs.
   
-**Modèle utilisateur de performances persistent Chat Server**
+**Modèle utilisateur des performances persistent Chat Server**
 
 |||
 |:-----|:-----|
 |Nombre d’utilisateurs actifs connectés  <br/> |80 000  <br/> |
-|Nombre d’instances de service persistant Chat Server  <br/> |4  <br/> |
+|Nombre d’instances de service de serveur de conversation permanente  <br/> |4  <br/> |
 |Taille des petites salles de conversation  <br/> |30 utilisateurs  <br/> |
 |Taille des moyennes salles de conversation  <br/> |150 utilisateurs  <br/> |
 |Taille des grandes salles de conversation  <br/> |16 000 utilisateurs  <br/> |
@@ -157,16 +161,16 @@ Le tableau suivant décrit le modèle d’utilisateur pour le serveur de Chat pe
 |Nombre de salles jointes par utilisateur  <br/> |24  <br/> |
 |Taux maximal d’utilisateurs joints  <br/> |10/seconde  <br/> |
 |Taux de conversation total  <br/> |24/seconde  <br/> |
-|Taux de conversation pour les petites salles de conversation  <br/> |22.22 par seconde  <br/> |
+|Taux de conversation pour les petites salles de conversation  <br/> |22.22/seconde  <br/> |
 |Taux de conversation pour les moyennes salles de conversation  <br/> |1,67/seconde  <br/> |
 |Taux de conversation pour les grandes salles de conversation  <br/> |~0.15/second  <br/> |
 |Pourcentage des salles de conversation configurées pour les invitations  <br/> |50%  <br/> |
 |Pourcentage des appartenances directes  <br/> |50%  <br/> |
 |Pourcentage des appartenances aux groupes  <br/> |50%  <br/> |
-|Nombre moyen d’affiliations d’ancêtre dans les Services de domaine Active Directory  <br/> |100 - 200  <br/> |
+|Nombre moyen d’affiliations anciennes dans les Services de domaine Active Directory  <br/> |100 - 200  <br/> |
 |Nombre de contacts abonnés par utilisateur  <br/> |80  <br/> |
-|Nombre moyen de points de terminaison par utilisateur  <br/> |1.5  <br/> |
-|Nombre moyen de salles de conversation visibles par point de terminaison  <br/> |1.5  <br/> |
+|Nombre moyen de points de terminaison par utilisateur  <br/> |1,5  <br/> |
+|Nombre moyen de salles de conversation visibles par point de terminaison  <br/> |1,5  <br/> |
 |Nombre moyen de salles de conversation visibles par utilisateur  <br/> |2,25 (50 % pour une salle et 50 % pour 2 salles) ; jusqu’à 6 salles ouvertes, une par moniteur  <br/> |
 |Nombre de participants interrogés par intervalle  <br/> |25 par salle de conversation visible  <br/> |
 |Durée de la fréquence d’interrogation  <br/> |5 minutes  <br/> |

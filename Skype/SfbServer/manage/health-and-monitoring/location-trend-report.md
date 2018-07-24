@@ -1,24 +1,24 @@
 ---
-title: Rapport de tendance des emplacements dans Skype Entreprise Server 2015
+title: Emplacement de rapport de tendance dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-description: 'Résumé : En savoir plus sur le rapport de tendances d’emplacement dans Skype pour Business Server 2015.'
-ms.openlocfilehash: c28a22fdf4122dde45b506e90cf752794deaf781
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez le rapport de tendance emplacement dans Skype pour Business Server.'
+ms.openlocfilehash: 007bd549dbccffdbbe83ff4d96ebd09b83b7c5e3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973604"
 ---
-# <a name="location-trend-report-in-skype-for-business-server-2015"></a>Rapport de tendance des emplacements dans Skype Entreprise Server 2015
+# <a name="location-trend-report-in-skype-for-business-server"></a>Emplacement de rapport de tendance dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur le rapport de tendances d’emplacement dans Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur le rapport de tendance emplacement dans Skype pour Business Server.
   
 Le rapport de tendance générale des emplacements fournit des informations de tendance sur la qualité des appels pour les emplacements réseau.
   
@@ -28,7 +28,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de tendance générale des emplacements. 
   
-**Filtres de rapport de tendance emplacement**
+**Filtres du rapport de tendance générale des emplacements**
 
 |**Nom**|**Description**|
 |:-----|:-----|

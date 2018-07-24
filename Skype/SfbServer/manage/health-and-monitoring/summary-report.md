@@ -1,24 +1,24 @@
 ---
-title: Rapport de synthèse de diagnostic des appels dans Skype Entreprise Server 2015
+title: Rapport de synthèse de Diagnostic des appels dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-description: 'Résumé : Découvrez l’appeler Diagnostic rapport utilisé dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 8d040ab2d59fdbc822448de2d3c9918ec39ae289
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez le rapport Diagnostic des appels résumé utilisé dans Skype pour Business Server.'
+ms.openlocfilehash: 6d4db52f266e9c7387662563a8640cfaeab56ca8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976820"
 ---
-# <a name="call-diagnostic-summary-report-in-skype-for-business-server-2015"></a>Rapport de synthèse de diagnostic des appels dans Skype Entreprise Server 2015
+# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de Diagnostic des appels dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur le rapport de résumé du Diagnostic d’appeler utilisé dans Skype pour Business Server 2015.
+**Résumé :** Découvrez le rapport Diagnostic des appels résumé utilisé dans Skype pour Business Server.
   
 Le rapport de synthèse de diagnostic des appels fournit une vue d’ensemble des sessions de conférence et des sessions P2P ayant échoué. Ce rapport comprend le taux d’échecs général pour ces deux types de sessions, et détaille les informations par type de modalité de session :
   
@@ -34,7 +34,7 @@ Le rapport de synthèse de diagnostic des appels fournit une vue d’ensemble de
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Accès au rapport de synthèse de diagnostic des appels
 
-Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. À partir du rapport appeler Diagnostic résumé, vous pouvez accéder le [rapport de Diagnostic activité Peer-to-Peer dans Skype pour 2015 de serveur d’entreprise](peer-to-peer-activity-diagnostic-report.md) en cliquant sur la mesure de taux d’échec sous la section Résumé de la Session d’homologue à homologue de l’état. Le [Rapport de Diagnostics de conférence dans Skype pour Business Server 2015](conference-diagnostic-report.md) est également accessible en cliquant sur une des mesures suivantes de conférence :
+Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. Dans le rapport de synthèse Diagnostic des appels, vous pouvez accéder le [rapport Diagnostic des activités d’égal à égal dans Skype pour Business Server](peer-to-peer-activity-diagnostic-report.md) en cliquant sur la mesure de taux d’échec sous la section Résumé de la Session d’égal à égal du rapport. Vous pouvez également accéder le [Rapport de Diagnostic de conférence dans Skype pour Business Server](conference-diagnostic-report.md) en cliquant sur une des mesures de conférence suivantes :
   
 - Taux d’échec de session global
     
@@ -44,7 +44,7 @@ Le rapport de synthèse de diagnostic des appels est accessible à partir de la 
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Utilisation efficace du rapport de synthèse de diagnostic des appels
 
-Le rapport de synthèse Diagnostic appeler comprend des graphiques qui permettent de comparer les taux d’échec pour les différentes modalités utilisées dans Skype pour Business Server 2015. Les colonnes de ces graphiques sont en fait de lien direct ; par exemple, si vous cliquez sur la colonne de messagerie instantanée pour les sessions d’homologue à homologue, vous allez accéder à une instance du [rapport de Diagnostic activité Peer-to-Peer dans Skype pour Business Server 2015](peer-to-peer-activity-diagnostic-report.md), un rapport qui fournit des détails supplémentaires sur l’ensemble du inclus dans le rapport de synthèse Diagnostic appeler des sessions de messagerie instantanée.
+Le rapport de synthèse Diagnostic des appels comprend des graphiques qui permettent de comparer le taux d’échec pour les modalités diverses utilisées dans Skype pour Business Server. Les colonnes de ces graphiques sont réellement lien direct ; par exemple, si vous cliquez sur la colonne de messagerie instantanée pour les sessions d’égal à égal, vous allez accéder à une instance du [rapport Diagnostic des activités d’égal à égal dans Skype pour Business Server](peer-to-peer-activity-diagnostic-report.md), un rapport qui fournit des détails supplémentaires sur tous les inclus dans le rapport de synthèse Diagnostic des appels des sessions de messagerie instantanée.
   
 ## <a name="filters"></a>Filtres
 
@@ -52,7 +52,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de synthèse de diagnostic des appels.
   
-**Appeler des filtres de rapport de synthèse de Diagnostic**
+**Filtres de rapport de synthèse de diagnostic des appels**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -65,9 +65,9 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 Le tableau ci-dessous décrit les informations fournies dans le rapport de synthèse de diagnostic des appels pour les sessions P2P (à savoir, celles qui n’impliquent que deux participants).
   
-**Mesures des Sessions d’homologue à homologue**
+**Mesures pour les sessions P2P**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Nombre total de sessions** <br/> |Non  <br/> |Nombre total de sessions P2P ayant eu lieu.  <br/> |
 |**Taux d’échec** <br/> |Non  <br/> |Pourcentage de sessions P2P ayant échoué. Lorsque vous cliquez sur cet élément, le rapport affiche le rapport de diagnostic des activités P2P, qui fournit des informations plus détaillées sur les sessions P2P ayant échoué.  <br/> |
@@ -76,9 +76,9 @@ Le tableau ci-dessous décrit les informations fournies dans le rapport de synth
 
 Le tableau ci-dessous décrit les informations fournies dans le rapport de diagnostic des appels pour les sessions de conférence (à savoir, celles qui impliquent trois participants ou plus).
   
-**Métrique pour les Sessions de conférence**
+**Mesures pour les sessions de conférence**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Nombre total de conférences** <br/> |Non  <br/> |Nombre total de conférences ayant eu lieu.  <br/> |
 |**Nombre total de sessions de conférence** <br/> |Non  <br/> |Nombre total de sessions de conférence ayant eu lieu.  <br/> |

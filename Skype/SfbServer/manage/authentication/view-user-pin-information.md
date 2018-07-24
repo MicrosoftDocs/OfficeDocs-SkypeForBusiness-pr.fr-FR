@@ -1,31 +1,30 @@
 ---
-title: Affichage des informations de code confidentiel de l’utilisateur dans Skype Entreprise Server 2015
+title: Afficher les informations de code confidentiel dans Skype pour Business Server utilisateur
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: 'Résumé : Permet d’afficher les informations de code confidentiel utilisateur dans Skype pour Business Server 2015.'
-ms.openlocfilehash: fecd4c983cad20b0efa77cbd5c6fc809db777aec
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Permet d’afficher les informations de code confidentiel utilisateur dans Skype pour Business Server.'
+ms.openlocfilehash: 4b0eda76e4429ee5c6d658f4d161783bc4d356a3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568758"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008558"
 ---
-# <a name="view-user-pin-information-in-skype-for-business-server-2015"></a>Affichage des informations de code confidentiel de l’utilisateur dans Skype Entreprise Server 2015
+# <a name="view-user-pin-information-in-skype-for-business-server"></a>Afficher les informations de code confidentiel dans Skype pour Business Server utilisateur
  
-**Résumé :** Utilisateur d’afficher les informations de code confidentiel dans Skype pour Business Server 2015.
+**Résumé :** Utilisateur d’afficher les informations de code confidentiel dans Skype pour Business Server.
   
-Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un Skype pour Business Server 2015 utilisateur avec les informations d’identification des Services de domaine Active Directory (AD DS) requiert un code confidentiel (PIN). Vous pouvez afficher les informations de code confidentiel d’un utilisateur à partir de Skype pour le panneau de configuration serveur Business.
+Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un Skype pour utilisateur Business Server avec les informations d’identification des Services de domaine Active Directory (AD DS) requiert un code confidentiel (PIN). Vous pouvez afficher les informations de code confidentiel d’un utilisateur à partir de Skype pour le panneau de configuration serveur Business.
   
 > [!NOTE]
-> Vous pouvez afficher les informations de statut du code confidentiel, qui indiquent, par exemple, si le code confidentiel a été défini ou lorsqu’il a été modifié pour la dernière fois, mais vous ne pouvez pas voir le code confidentiel actif en consultant le statut de ce dernier. Si un utilisateur a perdu leur code confidentiel, vous pouvez le réinitialiser en suivant les procédures décrites dans [la valeur dans les conférences d’un utilisateur rendez-vous code confidentiel dans Skype pour Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+> Vous pouvez afficher les informations de statut du code confidentiel, qui indiquent, par exemple, si le code confidentiel a été défini ou lorsqu’il a été modifié pour la dernière fois, mais vous ne pouvez pas voir le code confidentiel actif en consultant le statut de ce dernier. Si un utilisateur a perdu leur code confidentiel, vous pouvez le réinitialiser en suivant les procédures décrites dans [la valeur dans les conférences d’un utilisateur rendez-vous code confidentiel dans Skype pour Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
 ### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Pour afficher le code confidentiel d’un utilisateur dans Skype pour Business Server Control Panel
 
@@ -87,6 +86,6 @@ Pour plus d’informations, consultez la rubrique d’aide pour l’applet de co
   
 ## <a name="see-also"></a>Voir aussi
 
-[Définir des conférences rendez-vous d’un utilisateur code confidentiel dans Skype pour Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+[Définir des conférences rendez-vous d’un utilisateur code confidentiel dans Skype pour Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
-[Verrouiller ou déverrouiller un code confidentiel dans Skype pour Business Server 2015](lock-or-unlock-a-user-pin.md)
+[Verrouiller ou déverrouiller un code confidentiel dans Skype pour Business Server](lock-or-unlock-a-user-pin.md)

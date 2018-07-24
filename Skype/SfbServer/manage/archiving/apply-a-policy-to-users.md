@@ -1,30 +1,29 @@
 ---
-title: Application d’une stratégie d’archivage pour les utilisateurs de Skype Entreprise Server 2015
+title: Appliquer une stratégie d’archivage pour les utilisateurs de Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: 'Résumé : Découvrez comment attribuer une stratégie d’archivage pour les utilisateurs de Skype pour Business Server 2015.'
-ms.openlocfilehash: 0a9b19f6b02daae09f71b1f9933c90bfc86c5e23
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez comment attribuer une stratégie d’archivage pour les utilisateurs de Skype pour Business Server.'
+ms.openlocfilehash: bc54c25a710e4e1cca44fb7311a47101f31ef7df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569385"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985615"
 ---
-# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server-2015"></a>Application d’une stratégie d’archivage pour les utilisateurs de Skype Entreprise Server 2015
+# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Appliquer une stratégie d’archivage pour les utilisateurs de Skype pour Business Server
 
-**Résumé :** Découvrez comment attribuer une stratégie d’archivage pour les utilisateurs de Skype pour Business Server 2015.
+**Résumé :** Découvrez comment attribuer une stratégie d’archivage pour les utilisateurs de Skype pour Business Server.
   
-Si vous avez créé un ou plusieurs stratégies d’utilisateur pour l’archivage pour les utilisateurs hébergement sur Skype pour Business Server 2015, vous pouvez implémenter la prise en charge d’archivage pour des utilisateurs spécifiques en appliquant les stratégies appropriées pour ces utilisateurs ou de groupes d’utilisateurs. Par exemple, si vous créez une stratégie pour prendre en charge l’archivage des communications internes, vous pouvez l’appliquer au moins un utilisateur ou groupe d’utilisateurs pour prendre en charge l’archivage de Skype l’utilisateur pour les communications Business Server 2015.
+Si vous avez créé un ou plusieurs stratégies d’utilisateur pour l’archivage pour les utilisateurs hébergement sur Skype pour Business Server, vous pouvez implémenter la prise en charge d’archivage pour des utilisateurs spécifiques en appliquant les stratégies appropriées pour ces utilisateurs ou de groupes d’utilisateurs. Par exemple, si vous créez une stratégie pour prendre en charge l’archivage des communications internes, vous pouvez l’appliquer au moins un utilisateur ou groupe d’utilisateurs pour prendre en charge l’archivage de Skype l’utilisateur pour les communications de serveur d’entreprise.
   
 > [!NOTE]
-> Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, le contrôle de stratégies de blocage sur Place Exchange si l’archivage est activé pour les utilisateurs qui sont hébergés sur Exchange et mettre les boîtes aux lettres en blocage sur Place. Pour plus d’informations, voir [planifier l’archivage dans Skype pour Business Server 2015](../../plan-your-deployment/archiving/archiving.md) et [configurer l’intégration avec le stockage Exchange pour Skype pour Business Server 2015](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, le contrôle de stratégies de blocage sur Place Exchange si l’archivage est activé pour les utilisateurs qui sont hébergés sur Exchange et mettre les boîtes aux lettres en blocage sur Place. Pour plus d’informations, voir [planifier l’archivage dans Skype pour Business Server](../../plan-your-deployment/archiving/archiving.md) et [configurer l’intégration avec le stockage Exchange pour Skype pour Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Appliquer une stratégie utilisateur via le Panneau de configuration
 

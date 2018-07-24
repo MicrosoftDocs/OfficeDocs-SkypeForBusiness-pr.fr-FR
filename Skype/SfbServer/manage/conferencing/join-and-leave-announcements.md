@@ -1,26 +1,26 @@
 ---
-title: Gestion des annonces indiquant qu’un utilisateur rejoint ou quitte une conférence dans Skype Entreprise Server 2015
+title: Gérer la participation à une conférence et de laisser des annonces dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: 'Résumé : Apprenez à gérer la jointure de conférence et de laisser des annonces dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 33e01efebc7d188fe329c1c39718aaf661af1e44
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment gérer la participation à une conférence et de laisser des annonces dans Skype pour Business Server.'
+ms.openlocfilehash: 84c9b5f9457d16570e58b119329d6b8fcefa4205
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008490"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server-2015"></a>Gestion des annonces indiquant qu’un utilisateur rejoint ou quitte une conférence dans Skype Entreprise Server 2015
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Gérer la participation à une conférence et de laisser des annonces dans Skype pour Business Server
  
-**Résumé :** Découvrez comment gérer la jointure de conférence et de laisser des annonces dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment gérer la participation à une conférence et de laisser des annonces dans Skype pour Business Server.
   
-Lorsque des utilisateurs d’accès distant rejoindre ou quittent une conférence, l’application d’annonce de conférence peut annoncer leur entrée ou quitter en lecture une tonalité ou en indiquant leur nom. Vous pouvez modifier le fonctionnement des annonces à l’aide de Skype pour Business Server Management Shell et l’applet de commande **Set-CsDialinConferencing** avec les paramètres suivants :
+Lorsque les utilisateurs rejoignent ou quittent une conférence, l’application d’annonce de conférence peut annoncer leur ouverture ou quitter en lecture d’une tonalité ou indiquant leur nom. Vous pouvez modifier le fonctionnement des annonces à l’aide de Skype pour Business Server Management Shell et l’applet de commande **Set-CsDialinConferencing** avec les paramètres suivants :
   
 - EnableNameRecording : détermine si des participants anonymes doivent être invités à enregistrer leur nom ou pas avant de participer à la conférence. La valeur par défaut est « $true », ce qui signifie que les participants anonymes sont invités à donner leur nom avant de participer à une conférence. (Les participants authentifiés ne sont pas tenus d’indiquer leur nom, car leur nom complet est utilisé.)
     
@@ -43,7 +43,7 @@ Vous pouvez configurer ces paramètres globalement ou au niveau d’un site. (Le
   Get-CsDialinConferencingConfiguration
   ```
 
-Cette applet de commande extrait des informations sur les participants doivent enregistrer leur nom lorsque vous intégrez une conférence et comment Skype pour Business Server répond lorsque des participants rejoignent ou quittent une conférence à distance.
+Cette applet de commande extrait des informations sur les participants doivent à enregistrer leur nom en rejoignant une conférence et comment Skype pour Business Server répond lorsque des participants rejoignent ou quittent une conférence rendez-vous.
     
 4. Exécutez la commande suivante dans l’invite de commandes :
     

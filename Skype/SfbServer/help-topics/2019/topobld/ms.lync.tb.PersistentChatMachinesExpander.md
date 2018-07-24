@@ -3,7 +3,6 @@ title: Expanseur des ordinateurs de conversation permanente
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,30 +10,15 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
-description: Vous activez ou désactivez un déployés Persistent Chat Server ou un pool de serveurs de conversation permanente à l’aide de serveurs ou pools répertoriés dans les paramètres d’état de Machine. Vous sélectionnez un serveur ou pool dans la liste et cliquez sur le bouton actif marque pour définir un serveur ou pool comme active.
-ms.openlocfilehash: 30ffdd1f136f738ea21bec38242f86c6b3a5e360
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Vous activez ou désactivez un déployés Persistent Chat Server ou un pool de serveurs de conversation permanente à l’aide de serveurs ou pools répertoriés dans les paramètres d’état de Machine. Sélectionnez un serveur ou un pool dans la liste, puis cliquez sur le bouton Rendre actif pour activer un serveur ou un pool.
+ms.openlocfilehash: 25a2dc09d45bb01be1f2e4e03093a3fe2186755a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974986"
 ---
 # <a name="persistent-chat-machines-expander"></a>Expanseur des ordinateurs de conversation permanente
- 
-Vous activez ou désactivez un déployés Persistent Chat Server ou un pool de serveurs de conversation permanente à l’aide de serveurs ou pools répertoriés dans les **paramètres d’état de Machine**. Sélectionnez un serveur ou un pool dans la liste, puis cliquez sur le bouton **Rendre actif** pour activer un serveur ou un pool.
-  
-Vous affectez un déployés Persistent Chat Server ou un pool de serveurs de conversation permanente inactif en sélectionnant le serveur ou le pool dans la liste et cliquez sur **désactiver**. Un serveur au moins doit être rendu actif.
-  
- **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
-  
- **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
-  
- **Aide** : permet d’afficher cet écran d’aide.
-  
-## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Planifier pour le serveur de conversation permanente dans Skype Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+> [!NOTE] 
+> Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [Skype pour les entreprises aux équipes Microsoft de mise à niveau](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Si vous devez utiliser la conversation permanente, vos choix est à migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes ou continuer à utiliser Skype pour Business Server 2015.

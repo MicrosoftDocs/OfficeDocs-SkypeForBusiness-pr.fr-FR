@@ -1,26 +1,25 @@
 ---
-title: Utilisation de l’authentification à deux facteurs avec le client Skype Entreprise et Skype Entreprise Server 2015
+title: Utiliser l’authentification à deux facteurs avec Skype pour client d’entreprise et Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
-description: 'Résumé : Utilisez l’authentification à deux facteurs avec Skype pour Business Server 2015 et Skype pour les entreprises.'
-ms.openlocfilehash: 081065facfcf01b6bb87bce3d621cf4a6ecd4dd6
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Résumé : Utilisez l’authentification à deux facteurs avec Skype pour Business Server et Skype pour les entreprises.'
+ms.openlocfilehash: 95e44c50dec37eea86b90317575a09509df80649
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504921"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986550"
 ---
-# <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server-2015"></a>Utilisation de l’authentification à deux facteurs avec le client Skype Entreprise et Skype Entreprise Server 2015
+# <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Utiliser l’authentification à deux facteurs avec Skype pour client d’entreprise et Skype pour Business Server
  
-**Résumé :** Utiliser l’authentification à deux facteurs avec Skype pour Business Server 2015 et Skype pour les entreprises.
+**Résumé :** Utiliser l’authentification à deux facteurs avec Skype pour Business Server et Skype pour les entreprises.
   
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Première connexion à Skype Entreprise
 
@@ -46,7 +45,7 @@ Vos informations de connexion sont généralement configurées automatiquement l
 
 Lorsque vous avez terminé d’utiliser Skype pour les entreprises, vous pouvez fermer l’affichage, vous déconnecter de votre session ou quitter le programme, à partir du menu fichier. Le tableau ci-dessous explique les différences entre ces trois options :
   
-|**Option**|**Fonction**|**Comment exécuter**|
+|**Option**|**Action**|**Utilisation**|
 |:-----|:-----|:-----|
 |Fermer  <br/> |Ferme l’affichage, mais vous permet du Skype pour session Business identifiée par l’utilisateur de votre ID de continuer à exécuter. Cela vous permet de continuer à recevoir des notifications et à interagir avec d’autres personnes. <br/> <br/> Vous pouvez obtenir l’affichage précédent à tout moment en cliquant sur le Skype pour entreprise icône sur la barre des tâches ou de la zone de notification au bas de votre écran.  <br/> | Sur Skype pour la fenêtre principale d’entreprise, effectuez l’une des options suivantes : <br/> 1. Cliquez sur le bouton **Options** , puis sélectionnez le **fichier** > **Fermer**.  <br/> 2. Cliquez sur le bouton **Fermer** (X) dans le coin supérieur droit de la fenêtre. <br/> |
 |Se déconnecter  <br/> |Se termine la session associée à votre nom d’utilisateur, mais Skype pour les entreprises se poursuit en arrière-plan. Lorsque vous vous déconnectez, la fenêtre de connexion s’affiche.  <br/> **Conseil :** Sélectionnez **Supprimer mes informations de connexion** lorsque vous vous déconnectez supprimer l’enregistrement de votre nom d’utilisateur et le mot de passe de l’ordinateur. Cela permet au support technique de résoudre plus facilement les problèmes de connexion. Vos informations de connexion sont mieux sécurisées, car l’ouverture de session avec vos informations d’identification est plus difficile pour des utilisateurs non autorisés. <br/> |Sur Skype pour la fenêtre principale d’entreprise, sélectionnez le bouton **Options** , puis sélectionnez le **fichier** > **Se déconnecter**.  <br/> |
@@ -62,7 +61,7 @@ Certaines organisations utilisent désormais une procédure de connexion en plus
     
 ### <a name="enroll-your-smart-card"></a>Inscription de votre carte à puce
 
-Avant que vous pouvez vous connecter avec une carte à puce, la carte doit être « inscrit » — autrement dit, vos informations d’identification de l’utilisateur doivent être identifiées avec la carte. C’est le cas si la carte est physique ou virtuel. Ce processus peut déjà été effectués par votre Skype pour administrateur Business Server 2015. Si vous n’êtes pas certain que qui a été effectuée, vérifiez avec lui.
+Avant que vous pouvez vous connecter avec une carte à puce, la carte doit être « inscrit » — autrement dit, vos informations d’identification de l’utilisateur doivent être identifiées avec la carte. C’est le cas si la carte est physique ou virtuel. Ce processus peut déjà été effectués par votre Skype pour l’administrateur du serveur d’entreprise. Si vous n’êtes pas certain que qui a été effectuée, vérifiez avec lui.
   
 > [!NOTE]
 > Étant donné que chaque carte à puce virtuel est associé uniquement à l’appareil il est installé, une autre carte devront être inscrits pour chaque ordinateur Windows 8 que vous utilisez. 
@@ -143,6 +142,6 @@ Avant d’utiliser votre carte à puce pour la première fois, il est recommand�
   
 ## <a name="see-also"></a>Voir aussi
 
-[Gérer l’authentification à deux facteurs dans Skype pour Business Server 2015](two-factor-authentication.md)
+[Gérer l’authentification à deux facteurs dans Skype pour Business Server](two-factor-authentication.md)
   
-[Configurer l’authentification à deux facteurs Skype pour Business Server 2015](configure.md)
+[Configurer l’authentification à deux facteurs Skype pour Business Server](configure.md)

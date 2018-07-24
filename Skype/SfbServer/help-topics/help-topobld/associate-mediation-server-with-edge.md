@@ -1,9 +1,9 @@
 ---
-title: Associer le serveur de médiation avec contour
+title: Associer un serveur de médiation Edge
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,23 +11,24 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
-description: 'Pour définir un serveur de médiation, spécifiez les paramètres qui associent le serveur de médiation avec un serveur frontal et un serveur de transport Edge ou le pool. Pour associer le pool ou le serveur de médiation avec un serveur de transport Edge ou un pool de serveur de transport Edge, effectuez les opérations suivantes :'
-ms.openlocfilehash: 543f0c9c7faa767d429693cd8f5f3ff7396a6169
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Pour définir un serveur de médiation, spécifiez les paramètres qu’associer le serveur de médiation avec un serveur frontal et un serveur Edge ou un pool. Pour associer le serveur de médiation ou le pool à un serveur Edge ou pool de serveurs Edge, procédez comme suit :'
+ms.openlocfilehash: 4761b9e84d786386c052caa323b101eb589d77f9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967606"
 ---
-# <a name="associate-mediation-server-with-edge"></a>Associer le serveur de médiation avec contour
+# <a name="associate-mediation-server-with-edge"></a>Associer un serveur de médiation Edge
  
-Pour définir un serveur de médiation, spécifiez les paramètres qui associent le serveur de médiation avec un serveur frontal et un serveur de transport Edge ou le pool. Pour associer le pool ou le serveur de médiation avec un serveur de transport Edge ou un pool de serveur de transport Edge, effectuez les opérations suivantes :
+Pour définir un serveur de médiation, spécifiez les paramètres qu’associer le serveur de médiation avec un serveur frontal et un serveur Edge ou un pool. Pour associer le serveur de médiation ou le pool à un serveur Edge ou pool de serveurs Edge, procédez comme suit :
   
-1. Dans la liste déroulante, sélectionnez le pool de bord ou d’un serveur de transport Edge à associer avec le serveur de médiation.
+1. Dans la liste déroulante, sélectionnez le pool de serveurs Edge ou le serveur de périphérie à associer au serveur de médiation.
     
 2. Cliquez sur **Suivant** pour continuer.
     
 > [!NOTE]
-> Si vous n’avez pas encore défini un serveur de transport Edge ou d’un pool de serveur de transport Edge dans votre déploiement, la liste déroulante ne contiendra pas les entrées. Vous pouvez cliquer sur **suivant** pour continuer et modifier les paramètres pour le serveur de médiation, après avoir ajouté un pool ou un serveur de transport Edge à votre déploiement.
+> Si vous n’avez pas encore défini un serveur Edge ou pool de serveurs Edge dans votre déploiement, la liste déroulante ne contiendra pas entrées. Vous pouvez cliquer sur **suivant** pour continuer et modifier les paramètres du serveur de médiation après avoir ajouté un serveur Edge ou pool à votre déploiement.
   
 Pour plus d’informations, voir [déploiement d’un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   

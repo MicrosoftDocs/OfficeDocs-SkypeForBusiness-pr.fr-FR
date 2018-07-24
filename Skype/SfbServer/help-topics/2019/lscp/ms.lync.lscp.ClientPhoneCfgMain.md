@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
+ROBOTS: NOINDEX, NOFOLLOW
 description: Une configuration de périphérique est une collection de paramètres utilisés pour gérer les Skype pour les appareils de téléphone professionnel, global ou au sein d’un site. Ces paramètres vous permettent de configurer des éléments, comme le mode de sécurité nécessaire, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et le verrouillage automatique ou non des téléphones après une période d’inactivité spécifiée.
-ms.openlocfilehash: afe0efd9612ac8fa73173fc8281b60e7949e58e6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fac770e05b6e85644f813c026dea51e855584e2a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970401"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008369"
 ---
 # <a name="device-configuration"></a>Configuration du périphérique
  
@@ -52,6 +53,6 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
     
 ## <a name="see-also"></a>Voir aussi
 
-[Configuration du périphérique : Créer une nouvelle ou en modifier une existant](ms.lync.lscp.ClientDeviceTestEdit.md)
+[Configuration du périphérique : création d’un périphérique ou modification d’un périphérique existant](ms.lync.lscp.ClientDeviceTestEdit.md)
 
 [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

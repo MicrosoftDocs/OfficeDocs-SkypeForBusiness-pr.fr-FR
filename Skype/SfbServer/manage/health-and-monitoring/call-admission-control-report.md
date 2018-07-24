@@ -1,24 +1,24 @@
 ---
-title: Rapport de contrôle d’admission des appels dans Skype Entreprise Server 2015
+title: Appel de rapport de contrôle d’admission des appels dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 'Résumé : Découvrez les rapports contrôle d’Admission appeler utilisé dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 53c3767ad93b7faa4c7f9a7f33213dde21dd7ca5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez les rapports de contrôle de d’admission des appels utilisés dans Skype pour Business Server.'
+ms.openlocfilehash: c3828eb890ed8f70c41bc669785278f9be017893
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21011245"
 ---
-# <a name="call-admission-control-report-in-skype-for-business-server-2015"></a>Rapport de contrôle d’admission des appels dans Skype Entreprise Server 2015
+# <a name="call-admission-control-report-in-skype-for-business-server"></a>Appel de rapport de contrôle d’admission des appels dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur les rapports de contrôle de Admission appeler utilisé dans Skype pour Business Server 2015.
+**Résumé :** Découvrez les rapports de contrôle de d’admission des appels utilisés dans Skype pour Business Server.
   
 Le rapport du contrôle d’admission des appels fournit des informations sur les sessions P2P et de conférence menées avec des restrictions mises en place par le contrôle d’admission des appels. Celui-ci offre la possibilité aux administrateurs d’autoriser (ou non) les sessions de communication en fonction des restrictions de bande passante. Par exemple, les administrateurs peuvent créer des stratégies qui imposent une quantité limite de bande passante disponible pour les appels vocaux et vidéo. Si cette limite est atteinte, aucun nouvel appel vocal ou vidéo ne peut être effectué tant que l’un des appels en cours n’est pas terminé et que les ressources réseau requises ne sont pas libérées.
   
@@ -26,9 +26,9 @@ Le rapport du contrôle d’admission des appels fournit des informations sur le
 
 Le rapport du contrôle d’admission des appels est accessible à partir de la page d’accueil des Rapports de suivi. De ce rapport, vous pouvez atteindre l’un des rapports suivants :
   
-- Rapport détaillé de conférence - pour accéder à ce rapport, cliquez sur la mesure de détails à partir d’une session de la conférence. 
+- Rapport détaillé de conférence - pour accéder à ce rapport, cliquez sur la mesure détails à partir d’une session de conférence. 
     
-- Rapport de détail Session peer-to-Peer - pour accéder à ce rapport, cliquez sur la mesure de détails pour une session peer-to-peer.
+- Rapport de détaillé de Session d’égal à égal - pour accéder à ce rapport, cliquez sur la mesure détails d’une session d’égal à égal.
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Utilisation optimale du rapport du contrôle d’admission des appels
 
@@ -44,7 +44,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de contrôle d’admission des appels.
   
-**Appelez l’Admission des filtres de rapport de contrôle**
+**Filtres du rapport de contrôle d’admission des appels**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -58,9 +58,9 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 Le tableau ci-dessous répertorie les informations fournies par le rapport de contrôle d’admission des appels pour les sessions P2P (c’est-à-dire, les sessions qui n’impliquent que deux participants).
   
-**Mesures des Sessions d’homologue à homologue**
+**Mesures pour les sessions P2P**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Détails** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport présente un rapport détaillé de session P2P pour la session spécifiée.  <br/> |
 |**De l’utilisateur** <br/> |Oui  <br/> |Adresse SIP de l’utilisateur ayant initié la session.  <br/> |
@@ -75,9 +75,9 @@ Le tableau ci-dessous répertorie les informations fournies par le rapport de co
 
 Le tableau ci-dessous répertorie les informations fournies par le rapport de contrôle d’admission des appels pour les sessions de conférence (c’est-à-dire, les sessions qui impliquent trois participants ou plus).
   
-**Métrique pour les Sessions de conférence**
+**Mesures pour les sessions de conférence**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**URI de la conférence** <br/> |Oui  <br/> |Identificateur unique de la conférence. Lorsque vous cliquez sur cet élément, le rapport présente les participants individuels de la conférence.  <br/> |
 |**Organisateur** <br/> |Oui  <br/> |Adresse SIP de l’utilisateur qui a organisé la conférence.  <br/> |
@@ -89,9 +89,9 @@ Le tableau ci-dessous répertorie les informations fournies par le rapport de co
 
 Le tableau qui suit répertorie les informations fournies dans le rapport de contrôle d’admission des appels pour chaque participant d’une conférence.
   
-**Métrique pour les Participants de la conférence individuels**
+**Mesures pour les participants individuels de la conférence**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rôle** <br/> |Non  <br/> |Rôle (par exemple, présentateur) joué par le participant à la conférence.  <br/> |
 |**Participant** <br/> |Non  <br/> |Adresse SIP du participant à la conférence.  <br/> |

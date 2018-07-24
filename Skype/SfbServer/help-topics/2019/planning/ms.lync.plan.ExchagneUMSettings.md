@@ -11,17 +11,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
-description: Skype pour Business Server prend en charge l’intégration avec Exchange messagerie unifiée (MU) pour la combinaison de messagerie vocale et messagerie électronique en une seule infrastructure de messagerie.
-ms.openlocfilehash: 37eb1dff810d227c96711d931b3576ea4e3c84fa
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+description: Skype pour Business Server 2015 prend en charge l’intégration avec Exchange messagerie unifiée (MU) pour la combinaison de messagerie vocale et messagerie électronique en une seule infrastructure de messagerie.
+ms.openlocfilehash: 5a3402a3b6c161f2934c3fd42c5402f7d8008ff0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971642"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013636"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a>(Outil de planification) de paramètres de messagerie unifiée Microsoft Exchange
+# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Paramètres de messagerie unifiées (outil de planification) dans Skype pour Business 2015 Exchange
+
+> [!NOTE]
+> La messagerie unifiée Exchange comme connu précédemment n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser le système téléphonique aux messages d’enregistrement de la messagerie vocale et laissez l’enregistrement dans la boîte aux lettres Exchange de l’utilisateur. Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
  
-Skype pour Business Server prend en charge l’intégration avec Exchange messagerie unifiée (MU) pour la combinaison de messagerie vocale et messagerie électronique en une seule infrastructure de messagerie.
+Skype pour Business Server 2015 prend en charge l’intégration avec Exchange messagerie unifiée (MU) pour la combinaison de messagerie vocale et messagerie électronique en une seule infrastructure de messagerie.
   
 Pour plus d’informations, consultez :
   

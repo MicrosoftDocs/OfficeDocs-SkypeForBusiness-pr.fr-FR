@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour vérifier que l’extension de schéma a été correctement répliquée dans votre forêt Active Directory Domain Services, procédez comme suit :'
-ms.openlocfilehash: 964e5e235326f9579893676f4b739dd1eac4781f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: bfcc5cba79f023c746aac3d5c312871003f333b2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964757"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020464"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Vérifier la réplication de la Partition du schéma
  
@@ -35,7 +36,7 @@ Pour vérifier que l’extension de schéma a été correctement répliquée dan
     
 5. Dans la boîte de dialogue **Paramètres de connexion** sous **Sélectionnez un contexte d’attribution de noms connu**, sélectionnez **Schéma**, puis cliquez sur **OK**.
     
-6. Sous le conteneur de schéma, recherchez CN = ms-RTC-SIP-SchemaVersion. Si cet objet existe et la valeur de l’attribut **rangeUpper** est 1150 et la valeur de l’attribut **rangeLower** est 3, puis le schéma a été correctement mis à jour et répliqué. Si cet objet n’existe pas ou si les valeurs des attributs **rangeUpper** et **rangeLower** ne sont pas en tant que spécifié, puis le schéma n’a pas été modifié ou n’a pas été répliqué.
+6. Sous le conteneur de schéma, recherchez CN=ms-RTC-SIP-SchemaVersion. Si cet objet existe et la valeur de l’attribut **rangeUpper** est 1150 et la valeur de l’attribut **rangeLower** est 3, puis le schéma a été correctement mis à jour et répliqué. Si cet objet n’existe pas ou si les valeurs des attributs **rangeUpper** et **rangeLower** ne sont pas en tant que spécifié, puis le schéma n’a pas été modifié ou n’a pas été répliqué.
     
 > [!NOTE]
 > Si votre contrôle de la réplication du schéma n’affiche pas encore une réplication réussie, attendez environ 15 minutes, puis vérifiez à nouveau. La réplication Active Directory est basée sur un modèle de cohérence et une latence de réplication peut se produire, basée sur un certain nombre de facteurs dans le serveur et l’infrastructure. 

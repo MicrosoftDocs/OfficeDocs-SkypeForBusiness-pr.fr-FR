@@ -1,27 +1,26 @@
 ---
-title: Rapport d’appareil dans Skype Entreprise Server 2015
+title: Rapport de périphérique dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
-description: 'Résumé : Découvrez le rapport de périphérique dans Skype pour Business Server 2015.'
-ms.openlocfilehash: af09f26bc91c132363367c8145846837734ad73f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez le rapport de périphérique dans Skype pour Business Server.'
+ms.openlocfilehash: d62aa2fbf1bb597b34609d2069ecbccb62f1ef0c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569483"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008651"
 ---
-# <a name="device-report-in-skype-for-business-server-2015"></a>Rapport d’appareil dans Skype Entreprise Server 2015
+# <a name="device-report-in-skype-for-business-server"></a>Rapport de périphérique dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur le rapport de périphérique dans Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur le rapport de périphérique dans Skype pour Business Server.
   
-Le Rapport de périphérique devrait plutôt s’appeler le Rapport de microphone et de haut-parleurs : en effet, le Rapport de périphérique récupère toutes les mesures de l’appel (comme le pourcentage d’appels médiocres, les échos et la durée du basculement vocal) regroupées par les microphones et les haut-parleurs utilisés pendant l’appel. Si vous êtes intéressé par des téléphones IP (souvent appelés « périphériques »), utilisez plutôt le [Rapport d’inventaire de téléphonie IP dans Skype pour Business Server 2015](ip-phone-inventory-report.md) .
+Le Rapport de périphérique devrait plutôt s’appeler le Rapport de microphone et de haut-parleurs : en effet, le Rapport de périphérique récupère toutes les mesures de l’appel (comme le pourcentage d’appels médiocres, les échos et la durée du basculement vocal) regroupées par les microphones et les haut-parleurs utilisés pendant l’appel. Si vous êtes intéressé par des téléphones IP (souvent appelés « périphériques »), utilisez plutôt le [Rapport d’inventaire de téléphonie IP dans Skype pour Business Server](ip-phone-inventory-report.md) .
   
 Le rapport de périphérique est très utile pour les administrateurs souhaitant déterminer si un type d’appareil spécifique rencontre un plus grand nombre d’appels médiocres que d’autres appareils. Ce rapport pourrait, à son tour, influencer les décisions que vous devez prendre au moment de l’achat de nouveaux périphériques ou du remplacement des périphériques existants.
   
@@ -52,13 +51,13 @@ Si vous préférez consulter les totaux combinés d’un périphérique donné (
    
 ## <a name="accessing-the-device-report"></a>Accès au rapport de périphérique
 
-Normalement, vous pouvez accéder au rapport de périphérique à partir de la page d’accueil Rapports de surveillance. Toutefois, si vous visualisez le [Rapport Détails des appels dans Skype pour Business Server 2015](call-detail-report.md) vous pouvez accéder à l’état de périphérique pour un périphérique spécifique en cliquant sur une des mesures suivantes :
+Normalement, vous pouvez accéder au rapport de périphérique à partir de la page d’accueil Rapports de surveillance. Toutefois, si vous visualisez le [Rapport Détails des appels dans Skype pour Business Server](call-detail-report.md) vous pouvez accéder à l’état de périphérique pour un périphérique spécifique en cliquant sur une des mesures suivantes :
   
 - Périphérique de capture
     
 - Périphérique de rendu
     
-Vous pouvez accéder à partir du rapport de périphérique du [Rapport liste des appels dans Skype pour Business Server 2015](call-list-report-0.md) en cliquant sur une des mesures suivantes :
+Vous pouvez accéder à partir du rapport de périphérique du [Rapport liste des appels dans Skype pour Business Server](call-list-report-0.md) en cliquant sur une des mesures suivantes :
   
 - Volume d’appels
     
@@ -105,7 +104,7 @@ Pour ce qui est des noms de périphériques, le rapport de périphérique est ex
 - Microphone Aastra 6725ip (périphérique audio USB)-V0
     
 > [!NOTE]
-> N’oubliez pas que les noms de périphériques de capture peuvent ne pas être la même si vous exécutez des versions localisées de Skype pour Business Server 2015. Un périphérique nommé Microphone Aastra 6725ip (Aastra 6725ip)-V0 en FR français peut être nommé différemment en français ou en espagnol. 
+> N’oubliez pas que les noms de périphériques de capture peuvent ne pas être la même si vous exécutez des versions localisées de Skype pour Business Server. Un périphérique nommé Microphone Aastra 6725ip (Aastra 6725ip)-V0 en FR français peut être nommé différemment en français ou en espagnol. 
   
 Il est possible que vous souhaitiez ce niveau de détail à plusieurs reprises ; cependant, la plupart du temps, vous serez probablement uniquement intéressé par le nombre d’appels utilisant n’importe quel microphone Aastra, indépendamment du numéro du modèle. Pour obtenir ce genre d’informations, exportez les données du Rapport de périphérique dans Microsoft Excel et enregistrez ces données sous la forme d’une chaîne de valeurs séparées par des virgules (par exemple, C:\Data\Rapport_périphériques.csv). Vous pouvez ensuite utiliser un ensemble de commandes similaires à celles-ci pour importer le fichier .CSV dans Windows PowerShell et renvoyer le nombre d’appels effectués en utilisant un périphérique de capture Aastra :
   
@@ -145,7 +144,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de pé
   
 **Mesures du rapport de périphérique**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Périphérique de capture** <br/> |Oui  <br/> |Périphérique (par exemple, un microphone ou une webcam) utilisé pour transmettre de l’audio.  <br/> |
 |**Périphérique de rendu** <br/> |Oui  <br/> |Périphérique (par exemple, un casque ou des haut-parleurs) utilisé pour recevoir de l’audio.  <br/> |

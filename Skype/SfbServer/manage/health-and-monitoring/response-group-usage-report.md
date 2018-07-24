@@ -1,27 +1,26 @@
 ---
-title: Rapport d’utilisation de Response Group dans Skype Entreprise Server 2015
+title: Rapport d’utilisation de Response Group dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
-description: 'Résumé : Découvrez l’application Response Group dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 815158fbe7d477dd263591f161312d054480808c
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez l’application Response Group dans Skype pour Business Server.'
+ms.openlocfilehash: 78d1645a0651d39a6860f9e65456f48b1740d265
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569022"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001160"
 ---
-# <a name="response-group-usage-report-in-skype-for-business-server-2015"></a>Rapport d’utilisation de Response Group dans Skype Entreprise Server 2015
+# <a name="response-group-usage-report-in-skype-for-business-server"></a>Rapport d’utilisation de Response Group dans Skype pour Business Server
  
-**Résumé :** Découvrez l’application Response Group dans Skype pour Business Server 2015.
+**Résumé :** Découvrez l’application Response Group dans Skype pour Business Server.
   
-L’application Response Group offre un moyen de Skype pour Business Server 2015 répondre et acheminer les appels téléphoniques basé sur le numéro qui a été composé et, le cas échéant, les réponses de l’appelant à une série de questions. En règle générale, les appels Response Group ne sont pas acheminés vers une personne, mais vers un ensemble de personnes connu sous le nom de groupe d’agents. Par exemple, si une personne appelle le numéro de téléphone pour votre support technique, Skype pour Business Server 2015 peut acheminer automatiquement appel au premier agent de bureau d’aide disponibles. Vous pouvez également Skype pour Business Server peut demander une série de questions (« appuyez sur 1 si vous rencontrez des problèmes de matériel. Appuyez sur 2 pour des problèmes logiciels. Appuyez sur 3 Si vous rencontrez des problèmes réseau. »), puis d’acheminer l’appel vers l’agent d’assistance aide plus approprié en fonction de la réponse à ces questions.
+L’application Response Group offre un moyen de Skype pour Business Server répondre et acheminer les appels téléphoniques basé sur le numéro qui a été composé et, le cas échéant, les réponses de l’appelant à une série de questions. En règle générale, les appels Response Group ne sont pas acheminés vers une personne, mais vers un ensemble de personnes connu sous le nom de groupe d’agents. Par exemple, si une personne appelle le numéro de téléphone pour votre support technique, Skype pour Business Server peut acheminer automatiquement appel au premier agent de bureau d’aide disponibles. Vous pouvez également Skype pour Business Server peut demander une série de questions (« appuyez sur 1 si vous rencontrez des problèmes de matériel. Appuyez sur 2 pour des problèmes logiciels. Appuyez sur 3 Si vous rencontrez des problèmes réseau. »), puis d’acheminer l’appel vers l’agent d’assistance aide plus approprié en fonction de la réponse à ces questions.
   
 Le rapport d’utilisation de Response Group donne une vision détaillée du nombre d’appels téléphoniques reçus par tous vos flux de travail Response Group, puis répartit ces appels en catégories plus précises telles qu’Appels offerts, Appels ayant obtenu une réponse et Appels abandonnés.
   
@@ -45,7 +44,7 @@ Le rapport d’utilisation de Response Group vous permet de filtrer sur un URI d
   
 ## <a name="accessing-the-response-group-usage-report"></a>Accéder au rapport d’utilisation de Response Group
 
-Le rapport d’utilisation de Response Group est accessible depuis la page d’accueil Rapports de surveillance. Vous pouvez accéder à la [Réponse groupe Call List Report dans Skype pour Business Server 2015](call-list-report.md) en cliquant sur une des mesures suivantes :
+Le rapport d’utilisation de Response Group est accessible depuis la page d’accueil Rapports de surveillance. Vous pouvez accéder à la [Réponse groupe Call List Report dans Skype pour Business Server](call-list-report.md) en cliquant sur une des mesures suivantes :
   
 - Appels reçus
     
@@ -111,7 +110,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’ut
   
 **Mesures du rapport d’utilisation de Response Group**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Toutes les heures** <br/> **Jour** <br/> **Toutes les semaines** <br/> **Mois** <br/> |Non  <br/> |Indique l’intervalle de temps sélectionné. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées pour cet intervalle. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 07/07/2015, une répartition par jour de l’activité d’enregistrement utilisateur est affichée pour cette date.  <br/> |
 |**Appels reçus** <br/> |Non  <br/> |Nombre total d’appels reçus par toutes les instances de l’application Response Group. Lorsque vous cliquez sur cet élément, le rapport vous montre le rapport des listes d’appels Response Group correspondant à la période sélectionnée.  <br/> |

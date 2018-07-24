@@ -1,9 +1,9 @@
 ---
-title: D’enregistrement des données
+title: Enregistrement des détails des appels
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,19 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 46f9f055fc5b11ff59a0fed200fb595223b4bba1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f50306758210e95ec3bfebe3e5d4682b4f7aaae9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982432"
 ---
-# <a name="call-detail-recording"></a>D’enregistrement des données
+# <a name="call-detail-recording"></a>Enregistrement des détails des appels
  
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
   
-- [Activer l’enregistrement détail des appels dans Skype pour Business Server 2015](../../manage/health-and-monitoring/enable-cdr.md)
+- [Activation de l’enregistrement des détails des appels dans Skype Entreprise Server 2015](../../manage/health-and-monitoring/enable-cdr.md)
     
-- [Spécifier la rétention de données de CD-r dans Skype pour Business Server 2015](../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [Spécification de la conservation des données d’enregistrement des détails des appels dans Skype Entreprise Server 2015](../../manage/health-and-monitoring/specify-retention-of-data.md)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour Business Server du Panneau de configuration, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
 

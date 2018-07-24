@@ -1,27 +1,26 @@
 ---
-title: Modification d’une stratégie d’archivage existante dans Skype Entreprise Server 2015
+title: Modifier une stratégie dans Skype d’archivage pour Business Server existante
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 'Résumé : Découvrez comment modifier l’utilisateur, les stratégies d’archivage pour Skype pour Business Server 2015.'
-ms.openlocfilehash: 21774eaff8b58c585b347e1f657aa7afcc3b6106
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez comment modifier l’utilisateur, les stratégies d’archivage pour Skype pour Business Server.'
+ms.openlocfilehash: 6c92d4f7e4c2a464d248f6b981165de000615432
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569406"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974650"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>Modification d’une stratégie d’archivage existante dans Skype Entreprise Server 2015
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Modifier une stratégie dans Skype d’archivage pour Business Server existante
  
-**Résumé :** Découvrez comment modifier l’utilisateur, les stratégies d’archivage pour Skype pour Business Server 2015.
+**Résumé :** Découvrez comment modifier l’utilisateur, les stratégies d’archivage pour Skype pour Business Server.
   
-Lorsque vous déployez tout d’abord Skype pour Business Server 2015, vous définissez des stratégies d’archivage initiales qui déterminent la façon dont l’archivage est implémenté pour les utilisateurs de votre déploiement. Cette rubrique explique comment gérer et modifier des stratégies. 
+Lorsque vous déployez tout d’abord Skype pour Business Server, vous définissez des stratégies d’archivage initiales qui déterminent la façon dont l’archivage est implémenté pour les utilisateurs de votre déploiement. Cette rubrique explique comment gérer et modifier des stratégies. 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>Modifier des options d’archivage via le Panneau de configuration
 
@@ -48,7 +47,7 @@ Lorsque vous déployez tout d’abord Skype pour Business Server 2015, vous déf
 6. Cliquez sur **Valider**.
     
     > [!IMPORTANT]
-    > Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie. Pour plus d’informations, voir [appliquer une stratégie d’archivage pour les utilisateurs de Skype pour Business Server 2015](apply-a-policy-to-users.md). 
+    > Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie. Pour plus d’informations, voir [appliquer une stratégie d’archivage pour les utilisateurs de Skype pour Business Server](apply-a-policy-to-users.md). 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Modifier les stratégies d’archivage via Windows PowerShell
 

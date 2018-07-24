@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: Pour ajouter des URL simples supplémentaires à la définition du déploiement, spécifiez l’URL de la nouvelle URL simple.
-ms.openlocfilehash: 038263195c1c79f06d808de41e9fbec0698c9430
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d86c383213b5dfa5472cec9cb46f67abf220e289
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19996911"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005997"
 ---
 # <a name="add-simple-url"></a>Ajouter une URL Simple
  
@@ -29,6 +29,5 @@ Pour ajouter des URL simples supplémentaires à la définition du déploiement,
 > [!IMPORTANT]
 > Vous pouvez avoir accès une à URL simple et une URL simple Meet active à tout moment. Ajout d’une nouvelle URL simple et rend l’URL active définira toutes les futures demandes à utiliser la nouvelle URL simple. Vous laissez l’URL simple inactive pour gérer les conférences et autres demandes qui ont été effectuées lors de l’ancienne URL simple active. 
   
-Pour plus d’informations sur l’ajout d’une URL simple, consultez [enregistrements DNS requis pour les URL simples dans Skype pour Business Server 2015](../../../plan-your-deployment/network-requirements/simple-urls.md).
-  
+
 

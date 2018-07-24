@@ -1,26 +1,26 @@
 ---
-title: Rapport de diagnostic de conférence dans Skype Entreprise Server 2015
+title: Rapport de Diagnostic conférence dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: 'Résumé : En savoir plus sur le rapport de Diagnostics de conférence utilisé dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 6d638efbd011026cd4481d3a68d0a4836fb792a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez le rapport de Diagnostic de conférence utilisés dans Skype pour Business Server.'
+ms.openlocfilehash: 75d12f8b2906e84a8ca786a7103ce41d87f3f300
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981128"
 ---
-# <a name="conference-diagnostic-report-in-skype-for-business-server-2015"></a>Rapport de diagnostic de conférence dans Skype Entreprise Server 2015
+# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Rapport de Diagnostic conférence dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur le rapport de Diagnostics de conférence utilisé dans Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur le rapport de Diagnostic de conférence utilisés dans Skype pour Business Server.
   
-Le rapport de diagnostic de conférence fournit des informations sur la réussite ou l’échec de toutes les sessions de conférence. Notez que Skype pour Business Server fait la distinction entre différents types de panne :
+Le rapport de diagnostic de conférence fournit des informations sur la réussite ou l’échec de toutes les sessions de conférence. Notez que Skype pour Business Server fait la distinction entre les différents types de défaillance :
   
 - **échec attendu**. Un échec attendu est généralement une erreur au sens technique seulement. Par exemple, supposons que quelqu’un démarre une conférence, mais raccroche avant que des personnes puissent participer. Techniquement, c’est une erreur : la conférence a été lancée, mais n’a pas été achevée. Cependant, il s’agit d’une erreur à laquelle on peut s’attendre : si l’organisateur annule la conférence avant que des personnes puissent participer, on ne s’attend pas à ce que cette conférence soit achevée.
     
@@ -32,11 +32,11 @@ Notez que les mesures de Réussite, d’Échec attendu et d’Échec inattendu p
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
-Si vous ajoutez 2 024 + 469 + 16, vous obtenez un total de 2 509 sessions alors que la colonne Nombre total de sessions indique 2 521 sessions. Les 12 sessions « manquantes » sont celles que le système n’a pas pu catégoriser comme réussies ou non. Qui sera parfois le cas lorsqu’un produit tiers introduit un nouveau code de diagnostic qui ne connaît pas de Monitoring Server. Dans ce cas, les appels effectués à l’aide de ce produit et reportant ce code de diagnostic ne peuvent pas toujours être catégorisés en tant que réussite, échec attendu ou échec inattendu.
+Si vous ajoutez 2 024 + 469 + 16, vous obtenez un total de 2 509 sessions alors que la colonne Nombre total de sessions indique 2 521 sessions. Les 12 sessions « manquantes » sont celles que le système n’a pas pu catégoriser comme réussies ou non. Qui sera parfois le cas lorsqu’un produit tiers introduit un nouveau code de diagnostic est inconnu au serveur de surveillance. Dans ce cas, les appels effectués à l’aide de ce produit et reportant ce code de diagnostic ne peuvent pas toujours être catégorisés en tant que réussite, échec attendu ou échec inattendu.
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>Accès au rapport de diagnostic de conférence
 
-Le rapport des de diagnostic de conférence est accessible à partir de la page d’accueil des Rapports de suivi. Le [Rapport d’échecs de Distribution dans Skype pour Business Server 2015](failure-distribution-report.md) sont accessibles en cliquant sur une des mesures suivantes :
+Le rapport des de diagnostic de conférence est accessible à partir de la page d’accueil des Rapports de suivi. Vous pouvez accéder au [Rapport de répartition dans Skype pour Business Server](failure-distribution-report.md) en cliquant sur une des mesures suivantes :
   
 - Nombre d’échecs inattendus
     
@@ -44,7 +44,7 @@ Le rapport des de diagnostic de conférence est accessible à partir de la page 
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Utilisation optimale du rapport de diagnostic de conférence
 
-Le rapport de diagnostic de conférence inclut une série de graphiques. Chaque colonne de graphique constitue un lien hypertexte. Si vous cliquez sur une colonne, vous allez consulter le [Rapport d’échecs de Distribution dans Skype pour Business Server 2015](failure-distribution-report.md) pour cette période et ce type de conférence.
+Le rapport de diagnostic de conférence inclut une série de graphiques. Chaque colonne de graphique constitue un lien hypertexte. Si vous cliquez sur une colonne, vous allez consulter le [Rapport de répartition dans Skype pour Business Server](failure-distribution-report.md) pour cette période et ce type de conférence.
   
 ## <a name="filters"></a>Filtres
 
@@ -52,7 +52,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de diagnostic de conférence.
   
-**Filtres de rapport de Diagnostics de conférence**
+**Filtres du rapport de diagnostic de conférence**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -66,9 +66,9 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 Le tableau qui suit répertorie les informations fournies dans le rapport de diagnostic de conférence pour chaque type de session de conférence.
   
-**Métrique de rapport de Diagnostics de conférence**
+**Mesures du rapport de diagnostic de conférence**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Nombre de réussites** <br/> |Non  <br/> |Nombre total de conférences réussies.  <br/> |
 |**Pourcentage de réussite** <br/> |Non  <br/> |Pourcentage de conférences qui se sont déroulées sans problème majeur. Calculé en divisant le nombre de réussites par le nombre total de sessions.  <br/> |

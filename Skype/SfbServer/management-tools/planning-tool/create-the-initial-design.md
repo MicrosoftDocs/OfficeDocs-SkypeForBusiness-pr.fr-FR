@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Une fois que vous avez terminé l’installation le Skype pour l’outil de planification de Business Server, vous êtes prêt à démarrer l’outil de planification et de commencer à concevoir la proposé Skype pour infrastructure Business Server 2015.
-ms.openlocfilehash: 4a2d1fc8215091011ad6fdbdc4a3c0a956d981e4
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 504c6b6c3f0675af06a6edb79d3f47a1569a27d8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504837"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969872"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Création de la conception de topologie initiale pour Skype Entreprise Server 2015
  
@@ -42,7 +42,7 @@ Une fois que vous avez terminé l’installation le Skype pour l’outil de plan
 4. Répondez à chaque rubrique en sélectionnant les critères appropriés pour votre conception, puis cliquez sur **Suivant** pour passer à la page suivante de l’Assistant. Cliquez sur **Précédent** pour modifier les pages précédentes.
     
     > [!TIP]
-    > Chaque page contient une description des critères de sélection et des recommandations basées sur les pratiques préférées et la planification de la capacité. Si vous avez besoin de plus de détails, cliquez sur **en savoir plus** pour lire des informations détaillées de la Skype pour la documentation de planification de Business Server 2015 sur le site Web Microsoft TechNet. Vous devez disposer d’une connexion à Internet pour accéder au site web Microsoft TechNet.
+    > Chaque page contient une description des critères de sélection et des recommandations basées sur les pratiques préférées et la planification de la capacité. Si vous avez besoin de plus de détails, cliquez sur **en savoir plus** pour lire des informations détaillées de la Skype pour la documentation de planification de Business Server 2015 sur le site Web Microsoft. Vous devez disposer de la connectivité Internet pour accéder au site Web de Microsoft.
   
 5. Sélectionnez les options appropriées pour votre conception. Une fois les critères initiaux définis, une page viendra confirmer que votre vue d’ensemble des fonctionnalités est complète. 
     

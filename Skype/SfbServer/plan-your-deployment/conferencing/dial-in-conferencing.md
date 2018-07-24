@@ -1,28 +1,28 @@
 ---
-title: Planification des conférences rendez-vous dans Skype Entreprise Server 2015
+title: Planifier des conférences rendez-vous dans Skype Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
-description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la planification pour les conférences à distance dans Skype Business Server 2015.'
-ms.openlocfilehash: d1e1109ff264655dc73afd26049be5844160bc0b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la planification des conférences rendez-vous dans Skype pour Business Server.'
+ms.openlocfilehash: 1b051cc757c0e55fb2f16b790921da962738ade3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973576"
 ---
-# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>Planification des conférences rendez-vous dans Skype Entreprise Server 2015
+# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planifier des conférences rendez-vous dans Skype Business Server
  
-**Résumé :** Lisez cette rubrique pour en savoir plus sur la planification pour les conférences à distance dans Skype Business Server 2015.
+**Résumé :** Lisez cette rubrique pour en savoir plus sur la planification des conférences rendez-vous dans Skype pour Business Server.
   
-Conférences à distance est une fonctionnalité optionnelle de Skype pour Business Server qui autorise les participants à la réunion de participer à la partie audio d’une réunion en appelant à partir d’un téléphone à la réunion. Une conférence rendez-vous est un sous-ensemble d’une conférence audio nécessitant une configuration supplémentaire. Cette rubrique décrit la préparation du déploiement de la conférence rendez-vous pour votre organisation. 
+Conférence rendez-vous est une fonctionnalité facultative de Skype pour Business Server permettant aux participants à une réunion participer à la partie audio d’une réunion à l’appel à la réunion à partir d’un téléphone. Une conférence rendez-vous est un sous-ensemble d’une conférence audio nécessitant une configuration supplémentaire. Cette rubrique décrit la préparation du déploiement de la conférence rendez-vous pour votre organisation. 
   
-Certains des composants requis pour les conférences à distance sont spécifiques aux conférences en accès à distance et d’autres composants de Voix Entreprise. Même si la conférence rendez-vous utilise une partie des mêmes composants que Voix Entreprise, vous pouvez la déployer même si vous ne déployez pas Voix Entreprise. Cette section présente les composants nécessaires pour la conférence rendez-vous. Pour plus d’informations sur la planification d’une solution complète de Voix Entreprise, reportez-vous à la section [planifiez votre solution de Voix Entreprise dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
+Certains des composants requis pour la conférence rendez-vous sont spécifiques à la conférence rendez-vous et d’autres composants d’Enterprise Voice. Même si la conférence rendez-vous utilise une partie des mêmes composants que Voix Entreprise, vous pouvez la déployer même si vous ne déployez pas Voix Entreprise. Cette section présente les composants nécessaires pour la conférence rendez-vous. Pour plus d’informations sur la planification d’une solution de voix entreprise, voir [planifier votre solution de voix entreprise dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
   
 La conférence rendez-vous implique que vous indiquiez la connexion au réseau téléphonique commuté (RTC) en déployant un serveur de médiation. Vous devez également autoriser la conférence rendez-vous pour votre organisation :
   
@@ -37,17 +37,17 @@ La conférence rendez-vous implique que vous indiquiez la connexion au réseau t
 - Prise en charge des utilisateurs d’entreprise et des utilisateurs anonymes
     
 > [!NOTE]
-> Si vous déployez des conférences à distance, vous devez le déployer dans chaque pool où vous déployez Skype pour les conférences de Business Server. Il n’est pas nécessaire d’attribuer des numéros d’accès (numéros appelés par les participants à une conférence) à chaque pool, mais vous devez déployer la fonctionnalité Conférence rendez-vous dans chaque pool. Cette condition prend en charge la fonctionnalité de nom enregistré lorsqu’un utilisateur appelle un numéro d’accès à partir d’un pool pour joindre un Skype pour la conférence Business Server dans un autre pool. 
+> Si vous déployez la conférence rendez-vous, vous devez le déployer dans chaque pool où vous déployez Skype pour la conférence Business Server. Il n’est pas nécessaire d’attribuer des numéros d’accès (numéros appelés par les participants à une conférence) à chaque pool, mais vous devez déployer la fonctionnalité Conférence rendez-vous dans chaque pool. Cette condition prend en charge la fonctionnalité de nom enregistré lorsqu’un utilisateur appelle un numéro d’accès d’un pool pour participer à une Skype pour conférence Business Server dans un autre pool. 
   
 ## <a name="plan-for-pstn-connectivity"></a>Planification de la connectivité RTC
 
-Conférences à distance nécessite au moins un serveur de médiation et d’au moins une passerelle de réseau téléphonique public commuté. 
+La conférence rendez-vous nécessite au moins un serveur de médiation et une passerelle de réseau téléphonique commuté (RTC). 
   
 Vous pouvez déployer un serveur de médiation dans un site central ou dans un site de succursale. Dans un site central, vous pouvez colocaliser un serveur de médiation sur un pool frontal ou un serveur Standard Edition ou vous pouvez le déployer sur un serveur ou un pool autonome. Dans un site de succursale, vous pouvez déployer un serveur de médiation sur un serveur autonome ou comme composant du serveur Survivable Branch Appliance.
   
 Vous pouvez déployer une passerelle RTC dans un site central ou dans un site de succursale. Dans un site de succursale, la passerelle RTC peut être autonome ou un composant Survivable Branch Appliance.
   
-Pour plus d’informations sur le serveur de médiation et d’exigences de passerelle RTPC, reportez-vous à la section [composant de serveur de médiation dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)et [définir une passerelle dans Générateur de topologie dans Skype pour Business Server 2015](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+Pour plus d’informations sur le serveur de médiation et les exigences de passerelle PSTN, voir [composant serveur de médiation dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)et [déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) [définir une passerelle de topologie Générateur de Skype pour Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Préparation des plans de numérotation, des numéros d’accès et des régions de conférence
 
@@ -75,19 +75,19 @@ Avant de configurer les plans de numérotation, il est important de planifier le
     
 - Par défaut, tous les numéros d’accès aux conférences rendez-vous de la région sont inclus dans l’invitation à la réunion.
     
-- Il est important de nommer les régions de manière explicite. L’utilisateur peut recourir aux noms pour modifier une région de réunion afin que les différents numéros d’accès soient inclus dans l’invitation. (Lorsque les utilisateurs utilisent Outlook pour planifier une réunion, l’utilisateur utilise le complément dans une réunion en ligne pour Skype pour entreprise pour modifier la région).
+- Il est important de nommer les régions de manière explicite. L’utilisateur peut recourir aux noms pour modifier une région de réunion afin que les différents numéros d’accès soient inclus dans l’invitation. (Lorsque les utilisateurs utilisent Outlook pour organiser une réunion, l’utilisateur utilise le complément de réunion en ligne pour Skype pour les entreprises pour modifier la région).
     
 - Les régions doivent être désignées de sorte que tout invité souhaitant accéder à une conférence puisse visualiser un numéro d’accès local dans l’invitation.
     
-- Vous pouvez configurer l’ordre dans lequel access les numéros dans une région s’affichent sur la page de paramètres pour une conférence à distance (et, par conséquent, l’ordre dans lequel ils apparaissent dans l’invitation à une conférence) pour les applets de commande Business Server Management Shell à l’aide de Skype.
+- Vous pouvez configurer l’ordre dans lequel l’accès nombres dans une région apparaissent dans la page Paramètres de conférence rendez-vous (et, par conséquent, l’ordre dans lequel ils apparaissent dans l’invitation à la conférence) à l’aide de Skype pour les applets de commande Business Server Management Shell.
     
 - Un utilisateur peut composer un numéro d’accès pour participer à une conférence rendez-vous en tout point du globe.
     
-Pour plus d’informations sur la création d’un plan de numérotation, consultez [créer ou modifier un plan de numérotation dans Skype pour Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md) et [créer ou modifier une règle de normalisation dans Skype pour 2015 de Business](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
+Pour plus d’informations sur la création d’un plan de numérotation, voir [créer ou modifier un plan de numérotation dans Skype pour Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) et [créer ou modifier une règle de normalisation dans Skype pour les entreprises](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
   
 ## <a name="plan-for-conference-directories"></a>Planification des annuaires des conférences
 
-Les répertoires de conférence gèrent un mappage entre l’ID alphanumérique par un participant de participer à une conférence lors de l’utilisation de Skype pour les entreprises et l’ID de conférence numérique uniquement par un participant de la conférence à distance pour joindre la conférence. Le format de l’ID de conférence est le suivant :
+Annuaires des conférences maintenir un mappage entre l’ID de réunion alphanumérique un participant utilise pour joindre une conférence lors de l’utilisation de Skype pour les entreprises et l’ID de conférence composé uniquement de chiffres par un participant à la conférence rendez-vous pour joindre la conférence. Le format de l’ID de conférence est le suivant :
   
 ```
 <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
@@ -97,7 +97,7 @@ La création de différents annuaires des conférences permet de s’assurer que
   
 ## <a name="plan-for-a-conferencing-policy-that-allows-dial-in-access"></a>Planification d’une stratégie de conférence qui autorise les accès
 
-Conférences doivent être activés pour l’accès à distance lorsque vous configurez les stratégies de la conférence. Par défaut, l’invitation à une conférence pour les conférences activées pour les accès par modem comporte les informations suivantes :
+Conférences doivent être activés pour l’accès à distance lorsque vous configurez des stratégies de conférence. Par défaut, l’invitation à une conférence pour les conférences activées pour les accès par modem comporte les informations suivantes :
   
 - ID numérique de conférence identifiant la conférence
     
@@ -105,16 +105,16 @@ Conférences doivent être activés pour l’accès à distance lorsque vous con
     
 - Lien vers une page Paramètres de conférence rendez-vous qui contient la liste complète des numéros d’accès avec leurs langues associées, un emplacement pour créer, réinitialiser ou débloquer les codes confidentiels et d’autres informations, comme les contrôles DTMF (numérotation en fréquences vocales)
     
-Pour plus d’informations sur les stratégies de la conférence, voir [configurer à distance conférence dans Skype pour Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md) et [Gérer les stratégies de conférence dans Skype pour Business Server 2015](../../manage/conferencing/conferencing-policies.md).  
+Pour plus d’informations sur les stratégies de conférence, voir [Configure dans les conférences rendez-vous dans Skype pour Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) et [gérer des stratégies de conférence de Skype pour Business Server](../../manage/conferencing/conferencing-policies.md).  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>Prise en charge des utilisateurs d’entreprise et des utilisateurs anonymes
 
-La fonction de conférence rendez-vous est prise en charge pour les utilisateurs d’entreprise et les utilisateurs anonymes. Utilisateurs de l’entreprise ont des informations d’identification des Services de domaine Active Directory et Skype pour les comptes de serveur d’entreprise au sein de leur organisation. Les utilisateurs anonymes ne disposent pas d’informations d’identification dans votre organisation. Dans le cadre de la conférence à distance, un utilisateur dans l’organisation d’un partenaire fédéré RTC pour se connecter à une conférence est traité comme un utilisateur anonyme. Pour la conférence rendez-vous, contrairement aux autres contextes, les utilisateurs fédérés ne sont pas authentifiés.
+La fonction de conférence rendez-vous est prise en charge pour les utilisateurs d’entreprise et les utilisateurs anonymes. Utilisateurs d’entreprise disposent des informations d’identification des Services de domaine Active Directory et Skype pour les comptes Business Server au sein de leur organisation. Les utilisateurs anonymes ne disposent pas d’informations d’identification dans votre organisation. Dans le cadre de la conférence rendez-vous, un utilisateur dans l’organisation d’un partenaire fédéré qui utilise la passerelle PSTN pour se connecter à une conférence est traité comme un utilisateur anonyme. Pour la conférence rendez-vous, contrairement aux autres contextes, les utilisateurs fédérés ne sont pas authentifiés.
   
 Les utilisateurs d’entreprise ou les organisateurs de conférence qui participent à une conférence activée pour l’accès par modem composent un des numéros d’accès à la conférence, puis sont invités à entrer l’ID de conférence. Si un organisateur n’a pas encore rejoint la réunion, les utilisateurs peuvent entrer leur extension de communications unifiées (ou leur numéro de téléphone complet) et leur code confidentiel ou attendre d’être admis par l’organisateur. L’organisateur de la réunion peut participer à la réunion en tant que tel en entrant seulement son code confidentiel. Le serveur frontal utilise l’association de l’extension du numéro de téléphone complet et du code confidentiel pour mapper de manière unique les utilisateurs d’entreprise à leurs informations d’identification Active Directory. Ils sont ainsi authentifiés et identifiés à l’aide de leur nom dans la conférence. Ils peuvent également adopter un rôle de conférence prédéfini par l’organisateur.
   
 > [!NOTE]
-> Utilisateurs de l’entreprise qui se connectent à partir d’un téléphone IP d’office ou Skype pour Business Server standard ne sont pas invités pour leur numéro de téléphone, car ils sont déjà authentifiés. 
+> Utilisateurs de l’entreprise qui se connectent à partir d’un téléphone IP de bureau ou de Skype pour Business Server Attendant n’êtes pas invités à leur numéro de téléphone, car ils sont déjà authentifiés. 
   
 Les utilisateurs anonymes qui souhaitent participer à une conférence composent un des numéros d’accès à la conférence, puis sont invités à entrer l’ID de conférence. Les utilisateurs anonymes non identifiés sont également invités à enregistrer leur nom. Le nom enregistré identifie les utilisateurs non authentifiés au sein de la conférence. Les utilisateurs anonymes ne sont pas admis à la conférence tant qu’au moins un organisateur ou utilisateur authentifié ne l’a pas rejointe. Aucun rôle prédéfini ne peut leur être attribué.
   

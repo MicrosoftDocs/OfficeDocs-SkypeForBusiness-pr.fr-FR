@@ -1,23 +1,22 @@
 ---
-title: Utilisation du fichier Config.xml pour effectuer les tâches d’installation dans Skype Entreprise Server 2015
+title: Utiliser Config.xml pour effectuer des tâches d’installation dans Skype pour les clients d’entreprise
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
-description: 'Résumé : Découvrez comment utiliser le fichier Config.xml pour spécifier les instructions d’installation supplémentaires.'
-ms.openlocfilehash: 4e3c27aab3e821f7dcd621e40fd4339e4db2b985
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : comment utiliser le fichier Config.xml pour fournir des instructions d’installation supplémentaires.'
+ms.openlocfilehash: ea869fe2b49d5c1a5b4e04c3bc75cfd52b66555e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568555"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003507"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-server-2015"></a>Utilisation du fichier Config.xml pour effectuer les tâches d’installation dans Skype Entreprise Server 2015
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Utiliser Config.xml pour effectuer des tâches d’installation dans Skype pour les clients d’entreprise
  
 **Résumé :** comment utiliser le fichier Config.xml pour fournir des instructions d’installation supplémentaires.
   
@@ -43,18 +42,18 @@ Par défaut, le fichier Config.xml qui est stocké dans le dossier principal du 
     
 Les éléments de Config.xml plus couramment utilisées pour Skype pour l’installation de l’entreprise sont répertoriés dans le tableau suivant.
   
-**Éléments de config.Xml**
+**Éléments de Config.xml**
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |Configuration  <br/> |Élément de niveau supérieur (obligatoire). Contient l’attribut Product, par exemple : Product=Lync (cela fonctionne pour les clients Skype Entreprise)  <br/> |
-|Élément OptionState  <br/> | Spécifie la façon dont des fonctionnalités de produits spécifiques sont gérées lors de l’installation. Pour empêcher l’installation de Business Connectivity Services, qui inclut des composants partagés interféreront avec Outlook 2016, utilisez les attributs suivants : <br/>  ID = « LOBiMain » <br/>  State="Absent" <br/>  Children="Force" <br/> |
+|Élément OptionState  <br/> | Spécifie la façon dont des fonctionnalités de produits spécifiques sont gérées lors de l’installation. Pour empêcher l’installation de Business Connectivity Services, qui inclut des composants partagés interféreront avec Outlook, utilisez les attributs suivants : <br/>  ID = « LOBiMain » <br/>  State="Absent" <br/>  Children="Force" <br/> |
 |Display  <br/> | Niveau d’interface utilisateur affiché pour l’utilisateur par le programme d’installation. Les attributs type sont les suivants : <br/>  CompletionNotice = « Yes » | « No"(default) <br/>  AcceptEula = « Yes » | « No"(default) <br/> |
 |Journalisation  <br/> | Options déterminant le type de journalisation mis en œuvre par le programme d’installation. Les attributs types sont les suivants : <br/>  Type = « Off » | « Standard | « Verbose » <br/>  Modèle = « _nom de fichier_.txt » (le nom du fichier journal)  <br/> |
 |Paramètre  <br/> | Spécifie les valeurs des propriétés de Windows Installer. Les attributs type sont les suivants :<br/>  Setting Id = « _nom_» (le nom de la propriété Windows Installer)  <br/>  Valeur = » _valeur_"(valeur à attribuer à la propriété)  <br/> |
 |DistributionPoint  <br/> | Chemin d’accès complet du point d’installation réseau à partir duquel l’installation doit s’exécuter. Comprend l’attribut Location :<br/>  Emplacement = » _chemin d’accès_»  <br/> |
    
-L’exemple suivant montre un fichier Config.xml pour une installation sans assistance de Skype pour les entreprises. 
+L’exemple suivant montre un fichier Config.xml pour une installation sans assistance de le Skype pour client d’entreprise. 
   
 ```
 <Configuration Product="Lync"> 

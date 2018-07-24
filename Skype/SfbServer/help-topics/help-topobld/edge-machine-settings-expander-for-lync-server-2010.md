@@ -1,9 +1,9 @@
 ---
-title: Contour Machine paramètres Expander pour Lync Server 2010
+title: Expanseur des paramètres l’ordinateur Edge pour Lync Server 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,34 +11,35 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
-description: 'Pour modifier les propriétés pour les ordinateurs de serveur de transport Edge sous la forme d’un seul serveur de transport Edge ou ordinateurs membres dans un pool d’arête, vous configurez le nom du serveur et les paramètres de configuration d’adresse IP :'
-ms.openlocfilehash: d1bc35683ff70e1666a46d478aa97b3bcc3d5593
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Pour modifier les propriétés pour les ordinateurs de serveur de transport Edge en tant qu’un serveur de périphérie unique ou en tant qu’ordinateurs membres d’un pool de serveurs Edge, vous configurez le nom du serveur et les paramètres de configuration d’adresses IP :'
+ms.openlocfilehash: ca1e53809c4f59a7b050d5cb2ae47906aa39f82f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001368"
 ---
-# <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Contour Machine paramètres Expander pour Lync Server 2010
+# <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres l’ordinateur Edge pour Lync Server 2010
  
-Pour modifier les propriétés pour les ordinateurs de serveur de transport Edge sous la forme d’un seul serveur de transport Edge ou ordinateurs membres dans un pool d’arête, vous configurez les paramètres de **configuration d’adresse IP et de nom de serveur** :
+Pour modifier les propriétés pour les ordinateurs de serveur de transport Edge en tant qu’un serveur de périphérie unique ou en tant qu’ordinateurs membres d’un pool de serveurs Edge, configurer les paramètres de **configuration d’adresse IP et de nom de serveur** :
   
-- **Nom interne ou le nom de domaine complet**: tapez le nom de l’ordinateur, car il est référencé dans le système de nom de domaine (DNS). 
+- **Nom interne ou nom de domaine complet**: tapez le nom de l’ordinateur car il est référencé dans le système de nom de domaine (DNS). 
     
 - **Adresse IPv4 interne**: tapez l’adresse IPv4 de la carte d’interface réseau interne (NIC) pour cet ordinateur.
     
-- Vous configurez **service Edge d’accès** **adresse IPv4 externes** associés à cet ordinateur
+- Vous configurez **service Edge d’accès** **adresse IPv4 externe** associé à cet ordinateur
     
     > [!IMPORTANT]
-    > Si vous avez sélectionné utiliser une seule adresse IP pour la configuration du serveur de transport Edge, vous pourrez uniquement modifier l’adresse IPv4 externe pour le service Edge d’accès. Les autres services de bord partagent la même adresse IPv4 en tant que le service Edge d’accès. 
+    > Si vous avez sélectionné à utiliser une adresse IP unique pour la configuration du serveur Edge, vous pourrez uniquement modifier l’adresse IPv4 externe pour le service Edge d’accès. Autres services Edge partagent la même adresse IPv4 en tant que service Edge d’accès. 
   
-- Si elle est disponible pour les modifier, vous configurez **service de conférence Web** **adresse IPv4 externes** associés à cet ordinateur
+- Si elle est disponible pour le modifier, vous configurez **service de conférence Web** **adresse IPv4 externe** associé à cet ordinateur
     
-- Si disponible pour les modifier, vous configurez la **A / V Edge service** **adresse IPv4 externes** associés à cet ordinateur
+- Si Modifier disponible, configurez la **A / V Edge service** **adresse IPv4 externe** associé à cet ordinateur
     
-- Si elle est disponible pour les modifier, vous configurez **NAT activé les adresses IPv4 publiques** associées à cet ordinateur.
+- Si elle est disponible pour modifier, vous configurez l' **adresse IPv4 publique du NAT activé** associée à cet ordinateur.
     
     > [!IMPORTANT]
-    > La propriété de configuration pour **laquelle NAT est activé les adresses IPv4 publiques** n’est disponible pour modifier si vous avez choisi de fournir la traduction d’adresses réseau (NAT) pour l’un / V Edge service
+    > La propriété de configuration pour **laquelle NAT est activé les adresse IPv4 publique** ne seront disponible pour modifier si vous avez choisi pour fournir la traduction d’adresses réseau (NAT) a / V Edge service
   
  **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
   

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
+ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez ajouter une configuration de journal de périphérique à la page Modifier la configuration de journal qui détermine la taille maximale du cache du journal, la taille maximale du journal ou la durée pendant laquelle qu'un fichier journal sera conservé avant la purge. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation.
-ms.openlocfilehash: 712ba87ab19d2b69792ba720e984d64dd4aac478
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7e2e5091c662f105b47e2a3a8574c144457753dc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972328"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974437"
 ---
 # <a name="device-log-configuration-edit"></a>Configuration de fichier journal de périphérique : modifier
  
@@ -51,4 +52,4 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
     
 ## <a name="see-also"></a>Voir aussi
 
-[Configuration de fichier journal de périphérique](ms.lync.lscp.ClientDeviceCfgMain.md)
+[Configuration du fichier journal du périphérique](ms.lync.lscp.ClientDeviceCfgMain.md)

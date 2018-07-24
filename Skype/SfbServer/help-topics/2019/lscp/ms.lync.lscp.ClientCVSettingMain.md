@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
+ROBOTS: NOINDEX, NOFOLLOW
 description: Outre la spécification de la version des clients que vous souhaitez prendre en charge dans votre environnement, vous pouvez également spécifier une action par défaut pour les clients qui n’ont pas encore définie une stratégie de version. Cela permet de limiter les versions du client sont utilisées dans votre environnement, qui peut vous aider à contrôler les coûts associés à la prise en charge de plusieurs versions du client.
-ms.openlocfilehash: f40a95956b2cee855dbdde0d9646afc44e187958
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 066079914d180faeb54dc682de4f6b628202c6cb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990729"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977369"
 ---
 # <a name="client-version-configuration"></a>Configuration de Version du client
  

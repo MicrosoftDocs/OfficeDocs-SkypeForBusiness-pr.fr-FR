@@ -1,9 +1,9 @@
 ---
-title: Associer des Front-End AV MCU
+title: Associer frontal MCU a/v
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
-description: A / V Conferencing permet en temps réel communications audio et vidéo entre vos utilisateurs (c'est-à-dire, si elles ont des périphériques client appropriés, tels que les casques pour les conférences audio et webcam pour les conférences vidéo). Si votre déploiement prend en charge la conférence et que vous activez les fonctionnalités de conférence web et A / V Conferencing, vous pouvez colocaliser A / V Conferencing Server avec le serveur frontal), ou vous pouvez déployer un ou plusieurs A autonome / serveurs de conférence V (A / pool de V Conferencing) . Si vous choisissez l’option de déploiement d’une autonome A / V Conferencing Server, vous devez la définir dans le Générateur de topologies.
-ms.openlocfilehash: 7b38f9bc548c3c29d713f2c36a04b782ad7d6279
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: A / V Conferencing permet Real-time communications audio et vidéo entre vos utilisateurs (c'est-à-dire, si elles ont des périphériques clients appropriés, tels que des casques pour les conférences audio et des webcams pour les conférences vidéo). Si votre déploiement prend en charge la conférence et que vous activez la conférence web et A / V Conferencing, vous pouvez colocaliser A / V Conferencing Server avec le serveur frontal), ou vous pouvez déployer un ou plusieurs Stand-Alone A / V Conferencing Servers (A / pool de conférence V) . Si vous choisissez l’option de déploiement d’un Stand-Alone A / V Conferencing Server, vous devez la définir dans le Générateur de topologie.
+ms.openlocfilehash: 1e6e95ef7f6dd216b5cb2fe87b1f4525ce900396
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975500"
 ---
-# <a name="associate-front-end-with-av-mcu"></a>Associer des Front-End AV MCU
+# <a name="associate-front-end-with-av-mcu"></a>Associer frontal MCU a/v
  
-A / V Conferencing permet en temps réel communications audio et vidéo entre vos utilisateurs (c'est-à-dire, si elles ont des périphériques client appropriés, tels que les casques pour les conférences audio et webcam pour les conférences vidéo). Si votre déploiement prend en charge la conférence et que vous activez les fonctionnalités de conférence web et A / V Conferencing, vous pouvez colocaliser A / V Conferencing Server avec le serveur frontal), ou vous pouvez déployer un ou plusieurs A autonome / serveurs de conférence V (A / pool de V Conferencing) . Si vous choisissez l’option de déploiement d’une autonome A / V Conferencing Server, vous devez la définir dans le Générateur de topologies.
+A / V Conferencing permet Real-time communications audio et vidéo entre vos utilisateurs (c'est-à-dire, si elles ont des périphériques clients appropriés, tels que des casques pour les conférences audio et des webcams pour les conférences vidéo). Si votre déploiement prend en charge la conférence et que vous activez la conférence web et A / V Conferencing, vous pouvez colocaliser A / V Conferencing Server avec le serveur frontal), ou vous pouvez déployer un ou plusieurs Stand-Alone A / V Conferencing Servers (A / pool de conférence V) . Si vous choisissez l’option de déploiement d’un Stand-Alone A / V Conferencing Server, vous devez la définir dans le Générateur de topologie.
   
-Tous les pools sur un site et les pools de plusieurs sites central permet la même A / V Conferencing Server, si l’utilisation ne dépasse pas la capacité de l’A / V Conferencing Server. 
+Tous les pools d’un site et des pools de sites centraux multiples peuvent utiliser le même A / V Conferencing Server, si l’utilisation ne dépasse pas la capacité d’A / V Conferencing Server. 
   
 

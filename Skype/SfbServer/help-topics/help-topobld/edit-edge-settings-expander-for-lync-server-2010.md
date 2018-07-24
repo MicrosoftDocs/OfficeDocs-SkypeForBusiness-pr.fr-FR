@@ -1,9 +1,9 @@
 ---
-title: Modifier l’agrandissement de paramètres de bord pour Lync Server 2010
+title: Modifier l’expanseur des paramètres du serveur Edge pour Lync Server 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,54 +11,55 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
-description: 'Vous modifiez les paramètres pour le serveur de transport Edge ou le pool de bord en configurant les propriétés suivantes :'
-ms.openlocfilehash: 682412e1a486cc7351f081d903d8db1131367623
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Vous modifiez les paramètres pour le serveur Edge ou le pool de serveurs Edge en configurant les propriétés suivantes :'
+ms.openlocfilehash: e09f20840627af19f1f9f2fa33dc5ab5f6b342f3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975927"
 ---
-# <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Modifier l’agrandissement de paramètres de bord pour Lync Server 2010
+# <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Modifier l’expanseur des paramètres du serveur Edge pour Lync Server 2010
  
-Vous modifiez les paramètres pour le serveur de transport Edge ou le pool de bord en configurant les propriétés suivantes : 
+Vous modifiez les paramètres pour le serveur Edge ou le pool de serveurs Edge en configurant les propriétés suivantes : 
   
  **Général**
   
-- **Nom de domaine complet de pool interne**: le nom de domaine complet du pool interne est l’identité du serveur de transport Edge ou pool de bord tel que défini dans l’enregistrement d’hôte (A ou AAAA pour IPv6) domaine nom système (DNS).
+- **Nom de domaine complet de pool interne**: le nom de domaine complet du pool interne est l’identité du serveur Edge ou du pool de serveurs Edge défini dans l’enregistrement d’hôte (A ou AAAA pour IPv6) domaine nom DNS (système).
     
-- Sélectionnez **Activer la fédération pour ce pool de bord (le port 5061)** si vous souhaitez activer le serveur de transport Edge ou le pool de bord pour la fédération avec d’autres partenaires de protocole de lancement de session.
+- Sélectionnez **Activer la fédération pour ce pool Edge (port 5061)** si vous souhaitez activer le serveur Edge ou le pool de serveurs Edge pour la fédération avec d’autres partenaires de protocole de lancement de session.
     
     > [!IMPORTANT]
-    > Vous ne pouvez définir qu’un serveur de transport Edge ou pool de bord activement pour la fédération. La configuration illustrée dans la capture d’écran associé indique qu’un autre pool de serveur de transport Edge ou Edge est déjà configuré pour la fédération. L’enregistrement DNS SRV externe pour la fédération (_sipfederationtls._tcp.\< nom de domaine externe\>) pointe vers le serveur de transport Edge ou le pool de bord pour la fédération. 
+    > Vous ne pouvez définir un serveur Edge ou pool de serveurs Edge activement pour la fédération. La configuration indiquée dans la capture d’écran associé indique qu’un autre pool de serveur Edge ou Edge est déjà configuré pour la fédération. L’enregistrement SRV DNS pour la fédération (_sipfederationtls._tcp.\< nom de domaine externe\>) pointe vers le serveur Edge ou le pool de serveurs Edge pour la fédération. 
   
-- Le **Port de réplication interne Configuration (HTTPS)**, par défaut sur le port TCP 4443, est le port qui local (c'est-à-dire local sur les serveurs Edge) copie du magasin Central de gestion est répliquée sur. La copie locale du magasin Central de gestion se trouve dans la base de données **RTCLOCAL** dans le SQL Server sur chaque ordinateur. La réplication est à sens unique, initiée à partir du serveur d’administration centrale (ou, le pool de Front-End ou de serveur frontal qui détient le rôle de serveur de gestion Central) vers les serveurs Edge et est un port de l’interface interne.
+- Le **Port de réplication interne Configuration (HTTPS)**, par défaut sur le port TCP 4443, est le port que l’ordinateur local (autrement dit, local pour les serveurs de périphérie) copie du magasin Central de gestion est répliquée sur. La copie locale du magasin Central de gestion est dans la base de données **RTCLOCAL** dans SQL Server sur chaque ordinateur. La réplication est à sens unique, initiée à partir du serveur de gestion centralisée (ou, le pool frontal ou serveur frontal qui joue le rôle de serveur de gestion centralisée) pour les serveurs de périphérie et un port de l’interface interne.
     
- **Sélection de saut suivante**
+ **Sélection du tronçon suivant**
   
-- Pour la liste, sélectionnez le **pool du tronçon suivant**. Vous définissez soit un directeur, directeur pool, pool de Front-End ou de serveur frontal pour assumer ce rôle. Le pool du tronçon suivant est le serveur ou le pool de serveur qui accepte les messages entrants de SIP du serveur Edge ou interface de bord pool interne et envoi sortant SIP vers l’interface interne du bord.
+- Pour la liste, sélectionnez le **pool du tronçon suivant**. Vous définissez le directeur, pool directeur, un pool frontal ou serveur frontal à ce rôle. Le pool du tronçon suivant est le serveur ou le pool de serveurs qui accepte les messages SIP entrantes à partir du serveur Edge ou interface interne du pool Edge et envoi sortant SIP à l’interface interne du serveur Edge.
     
     > [!NOTE]
-    > Le directeur est un rôle facultatif et si vous décidez de ne pas déployer les directeurs, les serveurs frontaux (ordinateur unique ou pool) suppose que le rôle de directeur. 
+    > Le directeur est un rôle facultatif et si vous décidez de ne pas déployer les directeurs, les serveurs frontaux (ordinateur unique ou pool) assumeront le rôle de directeur. 
   
  **Paramètres externes**
   
-Cette section de propriétés vous permet de modifier les propriétés des paramètres du serveur Edge ou pool de bord externes. Les propriétés suivantes sont disponibles pour modifier :
+Cette section des propriétés vous permet de modifier des propriétés pour les paramètres du serveur Edge ou du pool de serveurs Edge externes. Les propriétés suivantes sont disponibles pour modifier :
   
-- Sélectionnez le **Activer distinct nom de domaine complet et l’adresse IP pour les conférences web et A / V** noms de case à cocher si vous souhaitez affecter des adresses IP distinctes et domaine pleinement qualifié à chaque service de serveur de transport Edge.
+- Sélectionnez le **Activer distinct nom de domaine complet et l’adresse IP pour les conférences web et A / V** des noms de case à cocher si vous souhaitez affecter des adresses IP distinctes et nom de domaine complet pour chaque service de serveur de transport Edge.
     
     > [!NOTE]
-    > Si vous choisissez pour ne pas sélectionner la case à cocher, vous devez utiliser des ports distincts pour chaque service de bord. Chaque service de bord partage le nom de domaine complet défini pour le service Edge d’accès et par conséquent utilise la même adresse IP. Chaque service de bord doit être identifié de manière unique en une adresse IP distincte et même port, ou la même adresse IP et les valeurs de port unique. 
+    > Si vous choisissez de n’activez ne pas la case à cocher, vous devez utiliser des ports distincts pour chaque service Edge. Chaque service Edge partage le nom de domaine complet défini pour le service Edge d’accès et par conséquent utiliseront la même adresse IP. Chaque service Edge doit être identifiée en une adresse IP distincte et même port, ou la même adresse IP et les valeurs de port unique. 
   
-- Sélectionnez **A / V Edge service NAT activé** si vous souhaitez configurer l’A / V Edge service d’utiliser une adresse privée ou autres adresses qui seront masquées derrière un périphérique de traduction d’adresses réseau.
+- Sélectionnez **A / V Edge service NAT activé** si vous souhaitez configurer A / V Edge de service à utiliser une adresse privée ou autre adresse sera masquée derrière un périphérique de traduction d’adresses réseau.
     
-- Pour modifier le **service Edge d’accès**, vous définissez le **Nom FQDN du Pool** pour le service Edge d’accès tel que défini dans le système DNS par hôte (AAAA si IPv6 est utilisé et A) les enregistrements et une valeur de port
+- Pour modifier le **service Edge d’accès**, vous définissez le **Nom complet du Pool** pour le service Edge d’accès tel que défini dans DNS par l’hôte (A et AAAA si IPv6 est utilisé) des enregistrements et une valeur de port
     
-- Pour modifier le **serveur Edge de conférence Web service**, vous définissez un **Pool de nom de domaine complet** pour le service serveur Edge de conférence Web tel que défini dans le système DNS par hôte (AAAA si IPv6 est utilisé et A) les enregistrements et une valeur de port
+- Pour modifier le **service Edge de conférence Web**, vous définissez un **Nom complet du Pool** pour le service Edge de conférence Web tel que défini dans DNS par l’hôte (A et AAAA si IPv6 est utilisé) des enregistrements et une valeur de port
     
-- Pour modifier la **A / V Edge service**, vous définissez un **Nom de domaine complet Pool** pour l’un / V Edge service tel que défini dans le système DNS par hôte (AAAA si IPv6 est utilisé et A) enregistrements et une valeur de port
+- Pour modifier la **A / service Edge v.**, vous définissez un **Nom complet du Pool** a / V Edge service tel que défini dans DNS par l’hôte (A et AAAA si IPv6 est utilisé) des enregistrements et une valeur de port
     
     > [!IMPORTANT]
-    > Si vous avez sélectionné la **Activer distinct nom de domaine complet et l’adresse IP pour les conférences web et A / V** case à cocher, seul le service Edge d’accès FQDN du Pool seront disponible pour l’édition. Affecter des ports distincts pour chacun des trois services Edge.
+    > Si vous avez sélectionné la **Activer distinct nom de domaine complet et l’adresse IP pour les conférences web et A / V** case à cocher, seul le service Edge d’accès nom complet du Pool sera disponible pour la modification. Affecter des ports distincts pour chacun des trois services de périphérie.
   
  **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
   

@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Survivable Branch Server, consultez les sections suivantes :'
-ms.openlocfilehash: 84b26c929f2f662c93163df2fd73a6e3576a3a97
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 74a26ca009d0a050babd10e72aeae2e814905cd4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986868"
 ---
 # <a name="front-end-general-settings-expander"></a>Expanseur des paramètres généraux du serveur frontal
  
@@ -32,13 +33,13 @@ Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Sur
     
 ## <a name="front-end-pool"></a>Pool frontal
 
-Dans le cas d’un pool frontal, vous pouvez configurer les paramètres généraux, de résilience, des services web et du serveur de médiation. Pour plus d’informations, reportez-vous aux informations des sous-sections suivantes. Pour plus d’informations sur la définition et la configuration des paramètres pour le pool de Front-End, consultez [déploiement de serveurs de médiation et de définir des homologues](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Dans le cas d’un pool frontal, vous pouvez configurer les paramètres généraux, de résilience, des services web et du serveur de médiation. Pour plus d’informations, reportez-vous aux informations des sous-sections suivantes. Pour plus d’informations sur la définition et la configuration des paramètres pour le pool frontal, consultez [déploiement de serveurs de médiation et définition des homologues](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
   
 ### <a name="general-settings"></a>Paramètres généraux
 
 Vous pouvez configurer les paramètres généraux suivants :
   
-- **Nom de domaine complet (FQDN)** : modifiez le nom de domaine complet du pool.
+- **Nom de domaine complet (FQDN)**  : modifiez le nom de domaine complet du pool.
     
 - **Activer le port de surveillance de l’équilibreur de la charge matérielle** : activez la case à cocher et entrez le numéro de port utilisé par votre équilibreur de la charge matérielle pour surveiller l’état des serveurs du pool.
     
@@ -46,7 +47,7 @@ Vous pouvez configurer les paramètres généraux suivants :
     
   - **Conférence** : inclut le partage audio, vidéo et d’applications. Avec cette option sélectionnée, vous pouvez sélectionner Conférence rendez-vous (RTC). Vous spécifiez et définissez une passerelle de réseau téléphonique commuté (RTC) dans la sous-section Paramètres du serveur de médiation ci-dessous.
     
-  - **Voix Entreprise**. Permet de téléphonie interne sur appels IP qualifiés combinés et dispositifs et Skype pour les clients de l’entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, consultez « Serveur de médiation » plus loin dans cette rubrique.
+  - **Enterprise Voice**. Permet de voix interne appels IP combinés complets et périphériques et Skype pour les clients d’entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, voir « Serveur de médiation » plus loin dans cette rubrique.
     
 - Dans **Associations**, modifiez ou définissez les éléments suivants :
     
@@ -70,13 +71,13 @@ Vous pouvez configurer les paramètres généraux suivants :
     
     Sélectionnez **Utiliser le témoin de mise en miroir SQL Server pour activer le basculement automatique** pour sélectionner le serveur servant de témoin de mise en miroir. Cliquez sur **Nouveau** pour créer un magasin SQL Server.
     
-  - **Activer la surveillance (enregistrement des détails des appels et mesures QoE)** : sélectionnez cette option pour associer un magasin SQL Server au pool frontal. Vous pouvez sélectionner le serveur dans la liste à partir d’un serveur de surveillance déjà défini ou cliquer sur **Nouveau** pour spécifier un nouveau serveur de surveillance.
+  - **Activer la surveillance (enregistrement des détails des appels et mesures QoE)**  : sélectionnez cette option pour associer un magasin SQL Server au pool frontal. Vous pouvez sélectionner le serveur dans la liste à partir d’un serveur de surveillance déjà défini ou cliquer sur **Nouveau** pour spécifier un nouveau serveur de surveillance.
     
     Sélectionnez **Activer la mise en miroir du magasin SQL Server**, puis sélectionnez le serveur à utiliser pour la mise en miroir. Cliquez sur **Nouveau** pour créer un magasin SQL Server.
     
     Sélectionnez **Utiliser le témoin de mise en miroir SQL Server pour activer le basculement automatique** pour sélectionner le serveur servant de témoin de mise en miroir. Cliquez sur **Nouveau** pour créer un magasin SQL Server.
     
-  - **Associer un pool de serveurs Edge (pour les composants médias)** : associez un serveur Edge ou un pool de serveurs Edge au pool frontal. Vous pouvez sélectionnez le serveur dans la liste à partir d’un serveur Edge ou d’un pool de serveurs Edge déjà défini ou cliquer sur **Nouveau** pour spécifier un nouveau serveur Edge ou un pool de serveurs Edge.
+  - **Associer un pool de serveurs Edge (pour les composants médias)**  : associez un serveur Edge ou un pool de serveurs Edge au pool frontal. Vous pouvez sélectionnez le serveur dans la liste à partir d’un serveur Edge ou d’un pool de serveurs Edge déjà défini ou cliquer sur **Nouveau** pour spécifier un nouveau serveur Edge ou un pool de serveurs Edge.
     
   - **Associer le pool à un serveur Office Web Apps Server** : sélectionnez cette option pour associer un serveur Office Web Apps Server au pool frontal. Sélectionnez un serveur existant dans la liste ou cliquez sur **Nouveau** pour créer un serveur Office Web Apps Server.
     
@@ -99,7 +100,7 @@ Pour modifier ou spécifier un autre paramètre pour les services web sur le poo
 Dans **Services web internes**, spécifiez les éléments suivants :
   
 > [!CAUTION]
-> Si vous avez plus d’un pool frontal ou serveur frontal, les services Web externes nom de domaine complet doit être unique. Par exemple, si vous définissez les nom de domaine complet d’un serveur frontal des services Web externes comme **pool01.contoso.com**, vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou un serveur frontal. Si vous déployez également les directeurs, les nom de domaine complet des services Web externes définies pour tout directeur ou directeur pool doit être unique à partir de n’importe quel autre directeur ou directeur pool, comme bien à partir de n’importe quel Front-End de pool ou serveur frontal. Si vous décidez de remplacer les services web interne avec un nom de domaine complet définis par l’utilisateur, chaque nom de domaine complet doit être unique à partir de n’importe quel autre pool frontal, directeur ou directeur pool.
+> Si vous avez plus d’un pool frontal ou serveur frontal, les services Web externes nom de domaine complet doit être unique. Par exemple, si vous définissez les nom de domaine complet d’un serveur frontal des services Web externes comme **pool01.contoso.com**, vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également les directeurs, les nom de domaine complet des services Web externes défini pour n’importe quel directeur ou pool directeur doit être unique à partir de n’importe quel autre directeur ou directeur pool, comme bien à partir de n’importe quel serveur frontal du pool ou serveur frontal. Si vous décidez de remplacer les services web internes avec un nom de domaine complet automatiquement défini, chaque nom de domaine complet doit être unique à partir de n’importe quel pool frontal, directeur ou directeur de pool.
   
 - Si vous sélectionnez **Remplacer le nom de domaine complet**, vous pouvez spécifier un nom de domaine complet différent pour l’identité des **services web internes** sur le pool. Par défaut, le paramètre est le nom du pool actuel défini pour le pool frontal.
     
@@ -109,7 +110,7 @@ Dans **Services web internes**, spécifiez les éléments suivants :
   
 - Le nom de domaine complet des services web externes. Le nom de domaine complet spécifié ici sera généralement défini par les exigences de votre connexion externe, comme le proxy inverse.
     
-- Les ports d’écoute et publiés pour HTTP et HTTPS nécessaires à votre déploiement. Les paramètres par défaut, le port 8080 pour le protocole HTTP et le port 4443 pour le protocole HTTPS, sont définis initialement. Vous pouvez modifier ces paramètres pour les ports d’écoute en fonction des exigences de votre proxy inverse et de votre réseau externe. Les ports publiés sont définis par défaut sur le port 80 pour le protocole HTTP et sur le port 443 pour le protocole HTTPS. Ces valeurs déterminent les ports d’écoute du pool pour les demandes entrantes. En règle générale, ces n’avez pas besoin d’être modifié, sauf s’il existe un conflit de ports requis sur le pool. Il est attendu que les ports publiés internes et externes utilisent les mêmes valeurs de port. Cela n’entraîne aucun conflit.
+- Les ports d’écoute et publiés pour HTTP et HTTPS nécessaires à votre déploiement. Les paramètres par défaut, le port 8080 pour le protocole HTTP et le port 4443 pour le protocole HTTPS, sont définis initialement. Vous pouvez modifier ces paramètres pour les ports d’écoute en fonction des exigences de votre proxy inverse et de votre réseau externe. Les ports publiés sont définis par défaut sur le port 80 pour le protocole HTTP et sur le port 443 pour le protocole HTTPS. Ces valeurs déterminent les ports d’écoute du pool pour les demandes entrantes. En règle générale, il est inutile à modifier, sauf s’il existe un conflit de ports requis sur le pool. Il est attendu que les ports publiés internes et externes utilisent les mêmes valeurs de port. Cela n’entraîne aucun conflit.
     
 ### <a name="mediation-server"></a>Serveur de médiation
 
@@ -123,17 +124,17 @@ Dans **Serveur de médiation**, spécifiez les éléments suivants :
     
 - Si plusieurs jonctions sont associées à un serveur de médiation, vous pouvez spécifier une jonction par défaut en sélectionnant la passerelle et en cliquant sur **Utiliser par défaut**. Pour désélectionner une passerelle par défaut, cliquez sur **Annuler par défaut**. 
     
-Pour plus d’informations sur la définition et la configuration des paramètres pour le pool de Front-End, consultez [déploiement de serveurs de médiation et de définir des homologues](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Pour plus d’informations sur la définition et la configuration des paramètres pour le pool frontal, consultez [déploiement de serveurs de médiation et définition des homologues](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
   
 ## <a name="standard-edition-server"></a>Serveur Standard Edition
 
-Dans le cas d’un serveur Standard Edition, vous pouvez configurer des paramètres généraux, de résilience, des services web et du serveur de médiation. Pour plus d’informations, reportez-vous aux informations des sous-sections suivantes. Pour plus d’informations sur la définition et la configuration des paramètres pour le serveur Standard Edition, consultez [définition et configuration de la topologie](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) et le [déploiement de serveurs de médiation et de définir des homologues](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Dans le cas d’un serveur Standard Edition, vous pouvez configurer des paramètres généraux, de résilience, des services web et du serveur de médiation. Pour plus d’informations, reportez-vous aux informations des sous-sections suivantes. Pour plus d’informations sur la définition et la configuration des paramètres pour le serveur Standard Edition server, consultez [définition et la configuration de la topologie](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) et [déploiement de serveurs de médiation et définition des homologues](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
   
 ### <a name="general-settings"></a>Paramètres généraux
 
 Vous pouvez configurer les paramètres généraux suivants :
   
-- ** ** DE NOM DE DOMAINE COMPLET. Notez que le nom de domaine complet ne peut pas être modifié. Vous devez supprimer et redéfinir le serveur Standard Edition pour modifier le nom de domaine complet lui est associé.
+- **Nom de domaine complet**. Notez que le nom de domaine complet ne peut pas être modifié. Vous devez supprimer et redéfinir le serveur Standard Edition server pour modifier le nom de domaine complet associé.
     
 - Sélectionnez **Utiliser toutes les adresses IP configurées** ou **Limiter l’utilisation des services aux adresses IP sélectionnées**. Si vous choisissez de limiter le service aux adresses IP définies, vous définirez l’adresse IP principale utilisée par le serveur pour toutes les communications, à l’exception du réseau téléphonique commuté (RTC). Vous pouvez également sélectionner **Activer IPv6** pour activer le protocole IPv6 pour ce serveur.
     
@@ -143,7 +144,7 @@ Vous pouvez configurer les paramètres généraux suivants :
     
   - **Conférence** : inclut le partage audio, vidéo et d’applications. Cette option étant sélectionnée, vous pouvez sélectionner **Conférence rendez-vous (RTC)**. Vous pouvez spécifier et définir une passerelle RTC par la suite dans les paramètres du serveur de médiation.
     
-  - **Voix Entreprise**. Permet de téléphonie interne sur appels IP qualifiés combinés et dispositifs et Skype pour les clients de l’entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, consultez « Serveur de médiation » plus loin dans cette rubrique.
+  - **Enterprise Voice**. Permet de voix interne appels IP combinés complets et périphériques et Skype pour les clients d’entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, voir « Serveur de médiation » plus loin dans cette rubrique.
     
 - Dans **Associations**, vous pouvez modifier ou spécifier les paramètres suivants :
     
@@ -159,7 +160,7 @@ Vous pouvez configurer les paramètres généraux suivants :
     > [!IMPORTANT]
     > Avant de publier la nouvelle topologie que vous venez de définir, le serveur que vous spécifiez doit exister et être joint au domaine. 
   
-  - **Activer la surveillance (enregistrement des détails des appels et mesures QoE)** : associez un serveur de surveillance à un serveur Standard Edition. Vous pouvez sélectionner le serveur dans la liste à partir d’un serveur de surveillance déjà défini ou cliquer sur **Nouveau** pour spécifier un nouveau serveur de surveillance.
+  - **Activer la surveillance (enregistrement des détails des appels et mesures QoE)**  : associez un serveur de surveillance à un serveur Standard Edition. Vous pouvez sélectionner le serveur dans la liste à partir d’un serveur de surveillance déjà défini ou cliquer sur **Nouveau** pour spécifier un nouveau serveur de surveillance.
     
   - **Associer le pool à un serveur Office Web Apps Server** : sélectionnez cette option pour associer un serveur Office Web Apps Server au pool frontal. Sélectionnez un serveur existant dans la liste ou cliquez sur **Nouveau** pour créer un serveur Office Web Apps Server.
     
@@ -202,6 +203,6 @@ Dans **Serveur de médiation**, vous pouvez spécifier les éléments suivants 
     
 - Si plusieurs passerelles sont associées à un serveur de médiation, vous pouvez spécifier une passerelle par défaut en sélectionnant la passerelle et en cliquant sur **Utiliser par défaut**. Pour désélectionner une passerelle par défaut, cliquez sur **Annuler par défaut**. 
     
-Pour plus d’informations sur la définition et la configuration des paramètres pour le serveur Standard Edition, consultez [définition et configuration de la topologie](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) et le [déploiement de serveurs de médiation et de définir des homologues](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Pour plus d’informations sur la définition et la configuration des paramètres pour le serveur Standard Edition server, consultez [définition et la configuration de la topologie](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) et [déploiement de serveurs de médiation et définition des homologues](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
   
 

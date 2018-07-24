@@ -1,9 +1,8 @@
 ---
-title: Déployer un groupe de disponibilité toujours actif sur un serveur principal dans Skype pour Business Server 2015
+title: Déployer un groupe de disponibilité toujours actif sur un serveur principal dans Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,14 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Déployer le déploiement (installation) un toujours sur groupe de disponibilité dans votre Skype pour Business Server.
-ms.openlocfilehash: 7a277421c13243ba7096a794b59ed93218644f22
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 93d27fc86393a28f4c0e546d034cbf9819ecce87
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569504"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026731"
 ---
-# <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server-2015"></a>Déployer un groupe de disponibilité toujours actif sur un serveur principal dans Skype pour Business Server 2015
+# <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Déployer un groupe de disponibilité toujours actif sur un serveur principal dans Skype pour Business Server
  
 Déployer le déploiement (installation) un toujours sur disponibilité Group (AG) dans votre Skype pour Business Server.
   
@@ -122,13 +121,13 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
     
    - Dans la page**Résumé** , vérifiez tous les paramètres et cliquez sur Terminer.
     
-7. Utilisez le Générateur de topologie pour créer le pool frontal, comme expliqué dans [créer et publier la nouvelle topologie dans Skype pour Business Server 2015](../../deploy/install/create-and-publish-new-topology.md). Lorsque vous le faites, spécifiez le AG comme le magasin SQL pour le pool.
+7. Utilisez le Générateur de topologie pour créer le pool frontal, comme expliqué dans [créer et publier la nouvelle topologie dans Skype pour Business Server](../../deploy/install/create-and-publish-new-topology.md). Lorsque vous le faites, spécifiez le AG comme le magasin SQL pour le pool.
     
 8. Une fois le pool et l’AG sont déployés, effectuer certaines étapes finales pour vous assurer que les connexions SQL sur chacun des réplicas dans le groupe de disponibilité AlwaysOn. 
     
    - Ouvrez le Générateur de topologie, sélectionnez **Télécharger la topologie à partir d’un déploiement existant**, cliquez sur **OK**.
     
-   - Développez Skype Entreprise Server, développez votre topologie, puis développez **Magasins SQL Server**. Cliquez sur le magasin SQL du nouveau groupe de disponibilité AlwaysOn, puis cliquez sur ** Propriétés ** Modifier.
+   - Développez Skype Entreprise Server, développez votre topologie, puis développez **Magasins SQL Server**. Cliquez sur le magasin SQL du nouveau groupe de disponibilité AlwaysOn, puis cliquez sur **Modifier les propriétés**.
     
     - En bas de la page, dans la zone **Nom de domaine complet de SQL Server** , modifiez la valeur pour le nom de domaine complet de l’écouteur de l’AG.
     
@@ -418,7 +417,7 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
     
     - Ouvrez le Générateur de topologie, sélectionnez **Télécharger la topologie à partir d’un déploiement existant**, cliquez sur **OK**.
     
-    - Développez Skype Entreprise Server, développez votre topologie, puis développez **Magasins SQL Server**. Avec le bouton droit de la nouvel AG magasin SQL, puis cliquez sur ** Propriétés ** Modifier.
+    - Développez Skype Entreprise Server, développez votre topologie, puis développez **Magasins SQL Server**. Avec le bouton droit de la nouvel AG magasin SQL, puis cliquez sur **Modifier les propriétés**.
     
     - En bas de la page, dans la zone **Nom de domaine complet de SQL Server** , modifiez la valeur pour le nom de domaine complet de l’écouteur de l’AG.
     

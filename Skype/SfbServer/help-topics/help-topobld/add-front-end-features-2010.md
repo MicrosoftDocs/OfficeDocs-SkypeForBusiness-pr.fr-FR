@@ -1,9 +1,9 @@
 ---
-title: Ajouter des fonctionnalités de Front-End 2010
+title: Ajouter des fonctionnalités frontales 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
-description: Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool de Front-End. Au minimum, vous devez déployer la messagerie instantanée (MI), qui est toujours activé et ne peut pas être désélectionné. Également, vous avez la possibilité de déployer d’autres fonctionnalités, telles que de la conférence, Voix Entreprise et que vous appelez le contrôle d’admission (CAC). Certaines fonctionnalités dépendent de votre topologie.
-ms.openlocfilehash: f0f9933d029a63f534e1ed94d8e4179d98594226
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool frontal. Au minimum, vous devez déployer la messagerie instantanée (MI), qui est toujours activé et ne peut pas être désactivée. Également, vous avez la possibilité de déployer d’autres fonctionnalités, telles que des conférences, Enterprise Voice et le contrôle d’admission des appels (CAC). Certaines fonctionnalités dépendent de votre topologie.
+ms.openlocfilehash: 5b7385003a763f549f39d3b7c156a74b425f380f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001964"
 ---
-# <a name="add-front-end-features-2010"></a>Ajouter des fonctionnalités de Front-End 2010
+# <a name="add-front-end-features-2010"></a>Ajouter des fonctionnalités frontales 2010
  
-Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool de Front-End. Au minimum, vous devez déployer la messagerie instantanée (MI), qui est toujours activé et ne peut pas être désélectionné. Également, vous avez la possibilité de déployer d’autres fonctionnalités, telles que de la conférence, Voix Entreprise et que vous appelez le contrôle d’admission (CAC). Certaines fonctionnalités dépendent de votre topologie.
+Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool frontal. Au minimum, vous devez déployer la messagerie instantanée (MI), qui est toujours activé et ne peut pas être désactivée. Également, vous avez la possibilité de déployer d’autres fonctionnalités, telles que des conférences, Enterprise Voice et le contrôle d’admission des appels (CAC). Certaines fonctionnalités dépendent de votre topologie.
   
-Pour plus d’informations sur la spécification des fonctionnalités pour un serveur Standard Edition server ou un pool Enterprise Edition, consultez [définir et configurer un serveur Standard Edition Server ou un Pool de fin avant](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement.
+Pour plus d’informations sur la spécification des fonctionnalités pour un serveur Standard Edition server ou un pool Enterprise Edition, voir [définir et configurer un Pool frontal ou un serveur Standard Edition Server](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement.
   
 

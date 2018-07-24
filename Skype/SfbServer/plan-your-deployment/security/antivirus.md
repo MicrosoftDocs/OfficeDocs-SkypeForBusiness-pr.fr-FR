@@ -1,25 +1,25 @@
 ---
-title: Exclusions de l’analyse antivirus pour Skype Entreprise Server 2015
+title: Antivirus exclusions d’analyse pour Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/24/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: Vue d’ensemble de l’interopérabilité de scanneur antivirus avec Skype pour Business Server 2015.
-ms.openlocfilehash: 054ed03146964de7ec0621138186e3c41843c236
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+description: Vue d’ensemble de l’interopérabilité de scanneur antivirus avec Skype pour Business Server.
+ms.openlocfilehash: 2e85816b10a808224a79b065153ecf466c4911c8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009263"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server-2015"></a>Exclusions de l’analyse antivirus pour Skype Entreprise Server 2015
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Antivirus exclusions d’analyse pour Skype pour Business Server
  
-Vue d’ensemble de l’interopérabilité de scanneur antivirus avec Skype pour Business Server 2015.
+Vue d’ensemble de l’interopérabilité de scanneur antivirus avec Skype pour Business Server.
 
 Cet article contient des recommandations qui peuvent aider à un administrateur de déterminer la cause de l’instabilité potentielle sur un ordinateur qui exécute une version prise en charge de Microsoft Windows lorsqu’il est utilisé avec un logiciel antivirus dans un domaine Active Directory environnement ou dans un environnement professionnel géré.
 
@@ -27,15 +27,15 @@ Nous vous recommandons d’appliquer temporairement ces procédures pour évalue
 
 Cet article contient des informations indiquant comment les paramètres de sécurité inférieur ou désactiver temporairement les fonctionnalités de sécurité sur un ordinateur. Vous pouvez apporter ces modifications pour comprendre la nature d’un problème spécifique. Avant d’apporter ces modifications, nous vous recommandons d’évaluer les risques qui sont associés à l’implémentation de cette solution de contournement dans votre environnement. Si vous implémentez cette solution de contournement, prendre toutes les mesures appropriées pour protéger les fichiers qui ne sont plus en cours d’analyse par un logiciel antivirus sur l’ordinateur.
   
-Pour vous assurer que le scanneur antivirus n’interfère pas avec l’opération de Skype pour Business Server 2015, vous devez exclure des répertoires et les processus spécifiques pour chaque Skype pour Business Server 2015 serveur ou rôle de serveur sur lequel vous exécutez un logiciel antivirus. Vous devez exclure les processus et les répertoires suivants :
+Pour vous assurer que le scanneur antivirus n’interfère pas avec l’opération de Skype pour Business Server, vous devez exclure des répertoires et les processus spécifiques pour chaque Skype pour serveur Business Server ou rôle de serveur sur lequel vous exécutez un logiciel antivirus. Vous devez exclure les processus et les répertoires suivants :
   
 > [!NOTE]
-> Les emplacements de fichiers et de dossier répertoriées ci-dessous sont les emplacements par défaut pour Skype pour Business Server 2015. Pour les emplacements pour lesquels vous n’avez pas utilisé la valeur par défaut, excluez les emplacements spécifiés pour votre organisation au lieu des emplacements par défaut spécifiés dans cette rubrique. 
+> Les emplacements de fichiers et de dossier répertoriées ci-dessous sont les emplacements par défaut pour Skype pour Business Server. Pour les emplacements pour lesquels vous n’avez pas utilisé la valeur par défaut, excluez les emplacements spécifiés pour votre organisation au lieu des emplacements par défaut spécifiés dans cette rubrique. 
   
 > [!IMPORTANT]
 > Notez que certains programmes antivirus peuvent avoir besoin de chemins d’accès absolus, non relatifs, pour leur liste d’exclusions. 
   
-- Skype pour les processus métiers Server 2015 :
+- Skype pour les processus Business Server :
     
   - ABServer.exe
     
@@ -125,6 +125,9 @@ Pour vous assurer que le scanneur antivirus n’interfère pas avec l’opérati
   - %SystemRoot%\SysWow64\LogFiles
     
   - %SystemRoot%\Microsoft.NET\assembly\GAC_MSIL
+
+    > [!NOTE]
+    > Notez que ces chemins d’accès sont spécifiques à Skype pour la version du serveur d’entreprise. 
     
   - %programfiles%\Skype Entreprise Server 2015
     

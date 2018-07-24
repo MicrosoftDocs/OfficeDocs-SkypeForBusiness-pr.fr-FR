@@ -1,34 +1,37 @@
 ---
-title: Compteurs de performances de mobilité dans Skype Entreprise Server 2015
+title: Compteurs de performances de mobilité dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Résumé : Découvrez les compteurs de performance que vous pouvez utiliser pour surveiller les serveurs qui exécutent l’API de Web Communications (UCWA) unifiée et le Skype pour Service de mobilité Mcx Business Server 2015.'
-ms.openlocfilehash: 7f82f263969deb5fc71e448f0e514dd0056c31eb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez les compteurs de performance que vous pouvez utiliser pour analyser les serveurs exécutant l’API de Web Communications (UCWA) unifiée et le Skype pour Service de mobilité Business Server Mcx.'
+ms.openlocfilehash: a1e44d0ba7fec9eb50d7d1f1bcea78a85a1f4955
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969844"
 ---
-# <a name="mobility-performance-counters-in-skype-for-business-server-2015"></a>Compteurs de performances de mobilité dans Skype Entreprise Server 2015
+# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Compteurs de performances de mobilité dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur les compteurs de performance que vous pouvez utiliser pour surveiller les serveurs qui exécutent l’API de Web Communications (UCWA) unifiée et le Skype pour Service de mobilité Mcx Business Server 2015.
+**Résumé :** Obtenir des informations sur les compteurs de performance que vous pouvez utiliser pour analyser les serveurs exécutant l’API de Web Communications (UCWA) unifiée et le Skype pour Service de mobilité Business Server Mcx.
   
-Les tableaux suivants répertorient les noms et descriptions des compteurs de performance que vous pouvez utiliser pour surveiller les serveurs qui exécutent l’API de Web Communications (UCWA) unifiée et le Skype pour Service de mobilité Mcx Business Server 2015. 
+Les tableaux suivants répertorient les noms et descriptions des compteurs de performance que vous pouvez utiliser pour analyser les serveurs exécutant l’API de Web Communications (UCWA) unifiée et le Skype pour Service de mobilité Business Server Mcx. 
   
-Le nom de la catégorie des compteurs de la table UCWA est **LS:WEB - UCWA**.
+Le nom de catégorie pour les compteurs de la table UCWA est **LS:WEB - UCWA**.
   
 Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité Mcx est **LS:WEB - Mobile Communication Service**.
+
+> [!NOTE]
+> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.
   
 ## <a name="performance-counters-for-ucwa"></a>Compteurs de performances pour UCWA
 
-|**Compteur**|**Description**|
+|Compteur|Description|
 |:-----|:-----|
 |Active Application Count  <br/> |Nombre d’applications en cours  <br/> |
 |Active Application Sharing Modality Count  <br/> |Nombre actuel de modalités de partage d’applications  <br/> |
@@ -74,7 +77,7 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 |Total Sessions Terminated Because of Idle Timeout  <br/> |Nombre total de sessions terminées en raison d’un délai d’expiration d’inactivité  <br/> |
 |Total Throttled Applications  <br/> |Nombre d’applications limitées  <br/> |
    
-**Compteurs de performance pour le Service de mobilité Mcx**
+**Compteurs de performances pour le service de mobilité Mcx**
 
 |**Compteur**|**Description**|
 |:-----|:-----|
@@ -110,4 +113,5 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 |Nombre total d’appels vocaux entrants réussis  <br/> |Nombre total d’appels vocaux entrants ayant été réussis  <br/> |
 |Nombre total d’appels vocaux sortants réussis  <br/> |Nombre total d’appels vocaux sortants ayant été réussis  <br/> |
    
-
+> [!NOTE]
+> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.

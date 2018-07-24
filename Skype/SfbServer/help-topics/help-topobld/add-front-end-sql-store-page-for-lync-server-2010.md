@@ -1,9 +1,9 @@
 ---
-title: Ajouter la Page magasin de Sql avant fin pour Lync Server 2010
+title: Ajouter une Page devant magasin Sql pour Lync Server 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,36 +11,37 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
-description: Vous définissez les propriétés des banques de SQL Server pour le nouveau pool de Front-End que vous configurez.
-ms.openlocfilehash: 2bea8b7c058d04cb20e2abb4d5f3867dc736cb64
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Vous définissez les propriétés des magasins SQL Server pour le nouveau pool frontal que vous configurez.
+ms.openlocfilehash: 95b5f33e400947b6e1990179f9838d6418a2bece
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006914"
 ---
-# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Ajouter la Page magasin de Sql avant fin pour Lync Server 2010
+# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Ajouter une Page devant magasin Sql pour Lync Server 2010
  
-Vous définissez les propriétés des banques de SQL Server pour le nouveau pool de Front-End que vous configurez.
+Vous définissez les propriétés des magasins SQL Server pour le nouveau pool frontal que vous configurez.
   
 > [!IMPORTANT]
-> Si vous configurez un serveur Standard Edition server, cette boîte de dialogue s’affiche, mais vous ne pourrez pas configurer les paramètres. Cliquez sur **Suivant** pour continuer.
+> Si vous configurez un serveur Standard Edition, cette boîte de dialogue s’affiche, mais vous ne pourrez pas configurer les paramètres. Cliquez sur **Suivant** pour continuer.
   
 Paramètres que vous pouvez configurer :
   
-- **Utilisez un magasin SQL Server défini précédemment**: sélectionnez une banque existante de SQL Server à partir de la liste pour le magasin de pool Front-End.
+- **Utiliser un magasin SQL Server précédemment défini**: sélectionnez un magasin SQL Server existant dans la liste pour le magasin de pool frontal.
     
-- Sélectionnez **stocker de définir une nouvelle de SQL Server** pour créer une nouvelle banque de SQL Server.
+- Sélectionnez le **magasin de définir un nouveau serveur SQL Server** pour créer un nouveau magasin SQL Server.
     
-    Vous tapez le nom de domaine complet de la SQL Server dans **SQL Server FQDN**
+    Vous tapez le nom de domaine complet du serveur SQL dans **Nom de domaine complet de SQL Server**
     
-    L' **instance par défaut** est sélectionné initialement. Si vous préférez définir une instance, sélectionnez **instance nommée** et tapez le nom de l’instance que vous créez.
+    L' **instance par défaut** est sélectionné à l’origine. Si vous souhaitez définir une instance, sélectionnez **instance nommée** et tapez le nom de l’instance que vous devez créer.
     
- **Précédente**: revient à la boîte de dialogue précédente
+ **Précédent**: revient à la boîte de dialogue précédente
   
- **Suivant**: valide les modifications apportées et déplace la boîte de dialogue étape suivante
+ **Suivant**: valide les modifications et le déplace vers la boîte de dialogue étape suivante
   
- **Annuler**: annule les modifications et annule la configuration
+ **Annuler**: ignore les modifications et annule la configuration
   
- **Aide**: affiche des informations, par exemple de cette rubrique d’aide
+ **Aide**: affiche des informations, telles que cette rubrique d’aide
   
 

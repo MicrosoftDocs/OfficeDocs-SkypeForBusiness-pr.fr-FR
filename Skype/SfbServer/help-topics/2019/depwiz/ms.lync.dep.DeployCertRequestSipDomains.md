@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
-description: Le paramètre du domaine SIP sur la page noms du sujet (SAN), vous devez Cochez la case pour votre domaine principal de protocole SIP (Session Initiation) et d’autres domaines SIP si votre infrastructure et déploiement répond aux critères indiqués.
-ms.openlocfilehash: 3d4bda17cf80ac8ee82ff86fca037203f83e4c60
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Dans la page Paramètre du domaine SIP sur les autres noms du sujet, vous devez activer la case à cocher pour votre domaine SIP principal, ainsi que tout autre domaine SIP si votre infrastructure et votre déploiement sont conformes aux conditions répertoriées.
+ms.openlocfilehash: 9cc86cf7f1bbd2ad2276e6554841a69a366d4274
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988242"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020111"
 ---
 # <a name="certificate-request-sip-domains"></a>Demande de certificat (domaines SIP)
  

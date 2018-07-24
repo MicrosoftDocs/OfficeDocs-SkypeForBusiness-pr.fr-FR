@@ -1,27 +1,26 @@
 ---
-title: Gestion des paramètres de configuration du serveur de conférence dans Skype Entreprise Server 2015
+title: Gérer les paramètres de configuration serveur conférence dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: 'Résumé : Découvrez comment gérer les paramètres de configuration serveur conférence dans Skype pour Business Server 2015.'
-ms.openlocfilehash: e59bfce2a1317d67b1a77f7277996d5a964a314f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez comment gérer les paramètres de configuration serveur conférence dans Skype pour Business Server.'
+ms.openlocfilehash: ede34c37e957340f0aa01ac511378d2f4bb3a80e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569462"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009893"
 ---
-# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server-2015"></a>Gestion des paramètres de configuration du serveur de conférence dans Skype Entreprise Server 2015
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Gérer les paramètres de configuration serveur conférence dans Skype pour Business Server
  
-**Résumé :** Découvrez comment gérer les paramètres de configuration serveur conférence dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment gérer les paramètres de configuration serveur conférence dans Skype pour Business Server.
   
-Cette rubrique décrit comment gérer paramètres de configuration de conférence. Pour plus d’informations sur la façon de planifier et déployer la conférence, voir [Plan pour la conférence dans Skype pour Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conférence dans Skype pour Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+Cette rubrique décrit comment gérer paramètres de configuration de conférence. Pour plus d’informations sur la façon de planifier et déployer la conférence, voir [Plan pour la conférence dans Skype pour Business Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conférence dans Skype pour Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Déterminent les paramètres de configuration de conférence des éléments tels que la taille maximale autorisée pour le contenu des réunions et des documents ; quantité maximale de bande passante pour le service de conférence de partage d’Application ; limites de stockage et les périodes d’expiration ; les URL internes et externes pour les téléchargements du client prises en charge ; pointeurs vers des URL internes et externes, où les utilisateurs peuvent obtenir aide de conférence et des ressources ; et les ports utilisés pour le partage d’application, audio client, transferts de fichiers et le trafic multimédia. Ces paramètres vous permettent de gérer les serveurs eux-mêmes. Ces paramètres peuvent être définis à l’aide de Skype pour Business Server Management Shell.
   

@@ -3,19 +3,18 @@ title: Vue d’ensemble du déploiement pour le système de salle de Skype
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 description: En savoir plus sur la façon de déployer Skype salle système, une réunion solution salle consistant intégrée de configuration matérielle et logicielle optimisée pour joindre Skype pour les réunions d’entreprise.
-ms.openlocfilehash: ed31a1892ca1661282f87775fae805da5b5f8504
-ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
+ms.openlocfilehash: a985a209c63d6d0262db42fb07f78133960444ca
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19927801"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020471"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Planification du déploiement pour le système de salle Skype dans Skype pour les entreprises
  
@@ -76,7 +75,7 @@ Système de salle de Skype ne peuvent pas être hébergé sur une version de ser
 Le tableau suivant indique la prise en charge du client de système de salle Skype avec les versions d’Exchange Server : 
   
 
-|**Exchange**|**Sur site**|**En ligne**|**Hybride**|
+|**Exchange**|**En local**|**En ligne**|**Hybride**|
 |:-----|:-----|:-----|:-----|
 |Exchange 2010  <br/> |Oui (une seule forêt)  <br/> |N/A  <br/> |N/A  <br/> |
 |Exchange 2013  <br/> |Oui (prise en charge de plusieurs forêts disponible pour Exchange 2013 CU6 et versions ultérieures)  <br/> |Oui  <br/> |Oui  <br/> |

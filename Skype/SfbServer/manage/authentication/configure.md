@@ -1,26 +1,25 @@
 ---
-title: Configuration de l’authentification à deux facteurs dans Skype Entreprise Server 2015
+title: Configurer l’authentification à deux facteurs Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
-description: 'Résumé : Configurez l’authentification à deux facteurs dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 96e1e355aa248b8cfc0ac1efbca7e41f056022be
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Configurez l’authentification à deux facteurs dans Skype pour Business Server.'
+ms.openlocfilehash: 3b77a6cbbbeb7be83bb4a27491982d97939e1936
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569116"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969525"
 ---
-# <a name="configure-two-factor-authentication-in-skype-for-business-server-2015"></a>Configuration de l’authentification à deux facteurs dans Skype Entreprise Server 2015
+# <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configurer l’authentification à deux facteurs Skype pour Business Server
  
-**Résumé :** Configurer l’authentification à deux facteurs dans Skype pour Business Server 2015.
+**Résumé :** Configurer l’authentification à deux facteurs dans Skype pour Business Server.
   
 Les sections ci-dessous décrivent la procédure de configuration de l’authentification à deux facteurs pour votre déploiement. Pour plus d’informations sur l’authentification à deux facteurs, voir [l’authentification multifacteur activation Office 365 pour les administrateurs en ligne - grille utilisateur Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).
   
@@ -143,7 +142,7 @@ Pour plus d’informations sur l’inscription des utilisateurs pour le compte c
     
     - Dans **Utilisation de la clé**, sélectionnez **Exchange** (seule option disponible).
     
-    - **Taille de la clé**, tapez 2048
+    - Dans **Taille de la clé**, entrez 2048.
     
     - Vérifiez que l’option **Nom de conteneur de clé automatique** est sélectionnée.
     
@@ -275,7 +274,7 @@ L’authentification basée sur les formulaires permet de développer une page w
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>Configuration de l’authentification passive Skype Entreprise Server
 
-La section suivante décrit comment configurer Skype pour Business Server 2015 prendre en charge l’authentification passive. Une fois activée, les utilisateurs qui sont activés pour l’authentification à deux facteurs seront nécessaires pour utiliser une carte à puce physique ou virtuelle et un code confidentiel valide pour vous connecter à l’aide de la Skype pour client d’entreprise.
+La section suivante décrit comment configurer Skype pour Business Server prendre en charge l’authentification passive. Une fois activée, les utilisateurs qui sont activés pour l’authentification à deux facteurs seront nécessaires pour utiliser une carte à puce physique ou virtuelle et un code confidentiel valide pour vous connecter à l’aide de la Skype pour client d’entreprise.
   
 > [!NOTE]
 > Il est vivement recommandé que les clients activent l’authentification passive pour les services Serveur d’inscriptions et web au niveau du service. L’activation au niveau global risquerait de provoquer des échecs d’authentification à l’échelle de l’organisation pour les utilisateurs qui ne se connectent pas avec le client de bureau pris en charge. 
@@ -286,7 +285,7 @@ La procédure ci-dessous décrit la création d’une configuration de service w
   
 ### <a name="to-create-a-custom-web-service-configuration"></a>Pour créer une configuration de service web personnalisée
 
-1. Connectez-vous à votre Skype pour le serveur frontal Business Server 2015 à l’aide d’un Skype pour le compte administrateur d’entreprise.
+1. Connectez-vous à votre Skype pour le serveur frontal Business Server à l’aide d’un Skype pour le compte administrateur d’entreprise.
     
 2. Lancez le Skype pour Business Server Management Shell.
     
@@ -325,7 +324,7 @@ La procédure ci-dessous décrit la création d’une configuration de proxy per
   
 ### <a name="to-create-a-custom-proxy-configuration"></a>Pour créer une configuration de proxy personnalisée
 
-1. À partir de Skype pour Business Server Management Shell de ligne de commande, créez une nouvelle configuration de proxy pour chaque Skype pour le Pool de serveurs Edge 2015 Business Server, Pool d’entreprise et Standard Edition server qui sera activé pour l’authentification passive en exécutant la commandes suivantes :
+1. À partir de Skype pour Business Server Management Shell de ligne de commande, créez une nouvelle configuration de proxy pour chaque Skype pour le Pool de serveurs Edge Business Server, Pool d’entreprise et Standard Edition server qui sera activé en exécutant la commande suivante pour l’authentification passive commandes :
     
   ```
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
@@ -343,6 +342,6 @@ La procédure ci-dessous décrit la création d’une configuration de proxy per
 
 ## <a name="see-also"></a>Voir aussi
 
-[Gérer l’authentification à deux facteurs dans Skype pour Business Server 2015](two-factor-authentication.md)
+[Gérer l’authentification à deux facteurs dans Skype pour Business Server](two-factor-authentication.md)
   
-[Utiliser l’authentification à deux facteurs avec Skype pour client d’entreprise et Skype pour Business Server 2015](use.md)
+[Utiliser l’authentification à deux facteurs avec Skype pour client d’entreprise et Skype pour Business Server](use.md)

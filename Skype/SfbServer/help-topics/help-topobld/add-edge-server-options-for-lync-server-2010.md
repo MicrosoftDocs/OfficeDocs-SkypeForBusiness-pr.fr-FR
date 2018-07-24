@@ -3,7 +3,7 @@ title: Ajouter des Options de serveur Edge pour Lync Server 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,31 +11,29 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
-description: 'Définissez un nouveau serveur Edge ou un pool de bord et sont présentées à l’occasion de définir des fonctionnalités pour le nouveau serveur ou le pool. Les options que vous pouvez choisir sont les suivantes :'
-ms.openlocfilehash: c031480dd3553aa4fc1ca2f2a8ddd03f67d9bc02
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Vous définissez un nouveau serveur de périphérie ou un pool de serveurs Edge et sont présentées avec la possibilité de définir des fonctionnalités pour le nouveau serveur ou pool. Les options que vous pouvez choisir sont les suivants :'
+ms.openlocfilehash: 7cd5af525e87f23bc07245f5fed139bc2c9c7356
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967620"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Ajouter des Options de serveur Edge pour Lync Server 2010
  
-Définissez un nouveau serveur Edge ou un pool de bord et sont présentées à l’occasion de définir des fonctionnalités pour le nouveau serveur ou le pool. Les options que vous pouvez choisir sont les suivantes :
+Vous définissez un nouveau serveur de périphérie ou un pool de serveurs Edge et sont présentées avec la possibilité de définir des fonctionnalités pour le nouveau serveur ou pool. Les options que vous pouvez choisir sont les suivants :
   
-- **Utiliser une seule adresse IP et nom de domaine complet**: activez la case à cocher pour utiliser un seul IPv4 ou IPv6 (si vous choisissez d’utiliser à la fois IPv4 et IPv6, vous devez définir un de chaque type d’adresse IP) adresse et nom de domaine complet (FQDN) pour l’externe contour des interfaces. 
+- **Utiliser une seule adresse IP et le nom de domaine complet**: activez la case à cocher Utiliser un seul IPv4 ou IPv6 (si vous choisissez d’utiliser à la fois IPv4 et IPv6, vous devez en définir une option de chaque type d’adresse IP) adresse et le nom de domaine complet (FQDN) pour l’externe Edge interfaces. 
     
     > [!IMPORTANT]
-    > Si vous choisissez cette option, vous allez utiliser une seule adresse IP, ou un IPv4 et une IPv6, mais vous devez affecter des numéros de port différents à chaque interface bord. 
+    > Si vous choisissez cette option, vous allez utiliser qu’une seule adresse IP, ou une adresse IPv4 et une adresse IPv6, mais vous devez affecter des numéros de port différents à chaque interface Edge. 
   
-- **Activer la fédération (le port 5061)**: Cochez cette case si vous se fédérer avec les autres fédérations SIP, des fournisseurs ou des offres hébergés qui utilisent le protocole d’initiation de session (SIP).
+- **Activer la fédération (port 5061)**: Activez cette case à cocher si vous l’intention de fédérer avec d’autres offres hébergées utilisant le protocole d’ouverture de session (SIP), fournisseurs ou fédérations SIP.
     
-- **L’adresse IP externe de ce pool de bord est convertie par NAT**: Cochez cette case si vous utilisez des adresses IP privées pour les interfaces externes du bord et fournissez un périphérique network address translation (NAT) pour placer le serveur de transport Edge ou Edge pool logiquement derrière.
+- **L’adresse IP externe de ce pool Edge est traduit par NAT**: Activez cette case à cocher si vous utilisez des adresses IP privées pour les interfaces externes Edge et fournissez un périphérique network address translation (NAT) pour placer le serveur Edge ou pool Edge logiquement derrière.
     
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Planification de l’accès utilisateur externe](http://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
   
-[Déploiement de l’accès utilisateur externe](http://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)
-
+[Déploiement de l’accès des utilisateurs externes](http://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)

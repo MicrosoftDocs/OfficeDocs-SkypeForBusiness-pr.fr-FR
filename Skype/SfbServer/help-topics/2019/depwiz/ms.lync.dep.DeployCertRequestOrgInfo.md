@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
+ROBOTS: NOINDEX, NOFOLLOW
 description: Le volet d’informations sur l’organisation vous permet de spécifier le nom de votre organisation et une unité d’organisation (UO) (généralement la division ou un service) qui demande le certificat. Les informations que vous tapez dans l’organisation et les zones de texte d’unité d’organisation s’affiche sur le certificat et sert à identifier qui a demandé le certificat, lorsque le certificat est affiché par d’autres utilisateurs.
-ms.openlocfilehash: 5afe780e15902ebc766e47cba31467d433662d87
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 69ba17a0860921d4fa3cb2c09799a56c5d0770b5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970464"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974881"
 ---
 # <a name="certificate-request-organization-information"></a>Demande de certificat (informations sur l’organisation)
  

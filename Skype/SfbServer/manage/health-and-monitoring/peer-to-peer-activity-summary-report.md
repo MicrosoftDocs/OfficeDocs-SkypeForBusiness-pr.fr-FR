@@ -1,38 +1,38 @@
 ---
-title: Rapport de synthèse des activités P2P dans Skype Entreprise Server 2015
+title: Rapport de synthèse activités d’égal à égal dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: 'Résumé : En savoir plus sur l’activité de Peer-to-Peer récapitulatif dans Skype pour Business Server 2015.'
-ms.openlocfilehash: bebef02fbae79f1b85cab8c03f6f27c8e49ea879
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez le rapport de synthèse activités d’égal à égal dans Skype pour Business Server.'
+ms.openlocfilehash: 20eab96b870b0ce4bef0e516116cbc39d6a4c7e5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975724"
 ---
-# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server-2015"></a>Rapport de synthèse des activités P2P dans Skype Entreprise Server 2015
+# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Rapport de synthèse activités d’égal à égal dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur l’activité de Peer-to-Peer récapitulatif dans Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur le rapport de synthèse activités d’égal à égal dans Skype pour Business Server.
   
-Le rapport de synthèse des activités P2P fournit un aperçu de vos sessions de communication d?’P2P. Une session peer-to-peer est généralement implique que deux utilisateurs et ne nécessite pas l’utilisation de la Skype pour les services de conférence Business Server. Par comparaison, une conférence implique plus de deux utilisateurs en général et requiert l’utilisation de Skype pour les services de conférence Business Server 2015. L’activité de conférence est reportée sur le rapport de synthèse de conférence.
+Le rapport de synthèse des activités P2P fournit un aperçu de vos sessions de communication d?’P2P. En général une session d’égal à égal implique que deux utilisateurs et ne nécessite pas l’utilisation de la Skype pour les services de conférence Business Server. Par comparaison, une conférence implique plus de deux utilisateurs en général et requiert l’utilisation de Skype pour les services de conférence Business Server. L’activité de conférence est reportée sur le rapport de synthèse de conférence.
   
 Le rapport de synthèse des activités P2P vous aide à répondre à des questions telles que :
   
 - Combien de messages instantanés P2P mes utilisateurs envoient-ils généralement par jour ?
     
-- Sont réellement profiter de la Skype pour application Business Server partage de fichier et les capacités de transfert à un de mes utilisateurs ?
+- Mes utilisateurs sont en fait profiter de la Skype pour application Business Server partage et le fichier capacités de transfert ?
     
 - Les utilisateurs ont signalé que le réseau semblait lent à certains moments de la journée. Combien de minutes sont consacrées à des sessions audio et vidéo P2P durant ces périodes ?
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Accès au rapport de synthèse des activités P2P
 
-Vous pouvez accéder au rapport de synthèse des activités P2P à partir de la page d’accueil des rapports de surveillance. Vous ouvrez le [rapport de messagerie instantanée de Peer-to-Peer dans Skype pour 2015 de serveur d’entreprise](im-report.md) en cliquant sur une des mesures suivantes :
+Vous pouvez accéder au rapport de synthèse des activités P2P à partir de la page d’accueil des rapports de surveillance. Vous ouvrez le [rapport de messagerie instantanée d’égal à égal dans Skype pour Business Server](im-report.md) en cliquant sur une des mesures suivantes :
   
 - Nombre total de sessions de messagerie instantanée P2P
     
@@ -58,7 +58,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de synthèse des activités P2P.
   
-**Filtres de rapport de synthèse d’activité de peer-to-Peer**
+**Filtres du rapport de synthèse des activités P2P**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -70,9 +70,9 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 Le tableau qui suit répertorie les informations fournies dans le rapport de synthèse des activités P2P.
   
-**Métrique de rapport de synthèse de peer-to-Peer activité**
+**Mesures du rapport de synthèse des activités P2P**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Toutes les heures** <br/> **Jour** <br/> **Toutes les semaines** <br/> **Mois** <br/> |Non  <br/> |Indique l’intervalle de temps que vous avez sélectionné dans la barre d’outils des filtres. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées pour cet intervalle. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 17/07/2015, la répartition horaire des activités d’enregistrement de l’utilisateur s’affiche pour cette date.  <br/> |
 |**Nombre total de sessions P2P** <br/> |Non  <br/> |Nombre total de sessions P2P menées, quel qu’en soit le type.  <br/> |

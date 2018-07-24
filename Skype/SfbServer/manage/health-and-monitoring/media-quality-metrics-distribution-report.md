@@ -1,28 +1,28 @@
 ---
-title: Rapport de distribution des mesures de qualité des médias dans Skype Entreprise Server 2015
+title: Media Quality Metrics Distribution Report dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: 'Résumé : Obtenir des informations sur le média qualité Distribution rapport sur les mesures dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 8883a15e4d78ee0eb5fad298fcbdddea6aedb5a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez la qualité mesures du rapport de Distribution médias dans Skype pour Business Server.'
+ms.openlocfilehash: ef15807cdc0377d2548a83f8da56de9b6cf85e04
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014137"
 ---
-# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server-2015"></a>Rapport de distribution des mesures de qualité des médias dans Skype Entreprise Server 2015
+# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Media Quality Metrics Distribution Report dans Skype pour Business Server 
  
-**Résumé :** Obtenir des informations sur le média qualité Distribution rapport sur les mesures dans Skype pour Business Server 2015.
+**Résumé :** Découvrez le Media qualité mesures du rapport de répartition dans Skype pour Business Server.
   
 Le rapport de distribution des mesures de qualité des médias vous permet de consulter un graphique qui affiche les valeurs de distribution pour une mesure de la qualité de l’expérience, comme la gigue ou la perte de paquets. Par exemple, supposons que vos utilisateurs passent un total de 10 appels téléphoniques. Ces 10 appels présentent les délais d’aller-retour suivants :
   
-|**Numéro d’appel**|**Temps d’aller-retour (millisecondes)**|
+|**Numéro de l’appel**|**Délai d’aller-retour (millisecondes)**|
 |:-----|:-----|
 |1  <br/> |50  <br/> |
 |2  <br/> |50  <br/> |
@@ -31,7 +31,7 @@ Le rapport de distribution des mesures de qualité des médias vous permet de co
 |5  <br/> |50  <br/> |
 |6  <br/> |50  <br/> |
 |7  <br/> |50  <br/> |
-|8  <br/> |4550-effectué.  <br/> |
+|8  <br/> |4550.  <br/> |
 |9  <br/> |50  <br/> |
 |10  <br/> |50  <br/> |
    
@@ -45,7 +45,7 @@ Le rapport de distribution des mesures de qualité des médias vous permet de ne
 
 Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Le tableau suivant dresse la liste des filtres que vous pouvez utiliser avec le rapport de distribution des mesures de qualité des médias.
   
-**Filtres de rapport Distribution de média qualité métrique**
+**Filtres du rapport de distribution des mesures de qualité des médias**
 
 |**Nom**|**Description**|
 |:-----|:-----|

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: Cette rubrique fait partie de la documentation préliminaire. Elle est susceptible d’être modifiée lors des prochaines mises à jour. Les rubriques vides apparaissent sous la forme d’espaces réservés.
-ms.openlocfilehash: 90e7bcc235f2613789e56cb31e2b0dec654506b9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e6b20c1050630507bf48fbfc075dcf182a30fe91
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988256"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21007251"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>Publier la topologie de créer des bases de données miroir
  
@@ -26,6 +26,3 @@ Le Générateur de topologie analyse tous les paramètres de configuration de vo
   
  Si vous sélectionnez pour choisir de ne pas installer une ou toutes ces bases de données à ce stade, vous désactivez les bases de données que vous installez pas. Ultérieurement, vous choisissez d’utiliser **Installer la base de données** en cliquant sur la plupart des éléments d’un nœud dans le Générateur de topologie.
   
-## <a name="see-also"></a>Voir aussi
-
-[Déployer la mise en miroir de SQL pour la haute disponibilité de serveur principal dans Skype pour Business Server](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

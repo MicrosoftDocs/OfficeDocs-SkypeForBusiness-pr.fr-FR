@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
-description: 'Pour installer et activer, désactiver ou désinstaller Skype pour les composants Business Server, vous utilisez l’étape 2 : installer ou supprimer des composants serveur Skype. Vous devez être connecté dans en tant qu’administrateur local sur l’ordinateur que vous êtes l’installation ou la modification et doit être capable de lire les utilisateurs des Services de domaine Active Directory et les groupes dans le domaine actuel. Pour commencer, cliquez sur Exécuter. Cette opération provoque la lecture la définition de la topologie basée sur le magasin central de gestion. Les composants logiciels nécessaires sont installés et configurés en fonction du rôle défini dans le magasin central de gestion. Une fois l’installation terminée, passez en revue le résumé, cliquez sur Terminer.'
-ms.openlocfilehash: 6e815f8a8bcac415abccf7e8821067476a5c3921
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Pour installer et activer, désactiver ou désinstaller Skype pour les composants Business Server, vous utilisez l’étape 2 : installer ou supprimer des composants serveur Skype. Vous devez être connecté dans en tant qu’administrateur local sur l’ordinateur que vous êtes l’installation ou la modification et doit être capable de lire les utilisateurs des Services de domaine Active Directory et les groupes dans le domaine actuel. Pour commencer, cliquez sur Exécuter. Cette opération provoque la lecture la définition de la topologie basée sur le magasin central de gestion. Les composants logiciels nécessaires sont installés et configurés en fonction du rôle défini dans le magasin central de gestion. Lorsque l’installation est terminée, consultez le Résumé, puis cliquez sur Terminer.'
+ms.openlocfilehash: e08eb866067f982d0134d56f80b97ca0cb5ab581
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965576"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971250"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>Installer ou supprimer des composants Skype Entreprise Server
  

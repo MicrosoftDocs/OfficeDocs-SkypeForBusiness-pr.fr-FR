@@ -1,28 +1,27 @@
 ---
-title: Définition du code confidentiel de conférence rendez-vous d’un utilisateur dans Skype Entreprise Server 2015
+title: Définir des conférences rendez-vous d’un utilisateur code confidentiel dans Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: 'Résumé : Définir dans les conférences rendez-vous l’utilisateur code confidentiel pour Skype pour Business Server 2015.'
-ms.openlocfilehash: 557aaa3fc191e6423ae323e53d2dacdf5f0019b1
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Définir dans les conférences rendez-vous l’utilisateur code confidentiel pour Skype pour Business Server.'
+ms.openlocfilehash: e5d14af74c208aaf29fffe94937afc1253a032da
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568820"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009381"
 ---
-# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server-2015"></a>Définition du code confidentiel de conférence rendez-vous d’un utilisateur dans Skype Entreprise Server 2015
+# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Définir des conférences rendez-vous d’un utilisateur code confidentiel dans Skype pour Business Server
  
-**Résumé :** Définir dans les conférences rendez-vous l’utilisateur code confidentiel pour Skype pour Business Server 2015.
+**Résumé :** Définir dans les conférences rendez-vous l’utilisateur code confidentiel pour Skype pour Business Server.
   
-Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un Skype pour Business Server 2015 utilisateur avec les informations d’identification des Services de domaine Active Directory (AD DS) requiert un code confidentiel (PIN). Si un utilisateur oublie de conférence rendez-vous code confidentiel ou le code confidentiel n’a pas définie à l’aide de Skype pour Business Server 2015, vous pouvez définir le code confidentiel de l’utilisateur à partir de Skype pour le panneau de configuration serveur Business. Vous pouvez générer automatiquement le code confidentiel ou en créer un manuellement.
+Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un Skype pour utilisateur Business Server avec les informations d’identification des Services de domaine Active Directory (AD DS) requiert un code confidentiel (PIN). Si un utilisateur oublie de conférence rendez-vous code confidentiel ou le code confidentiel n’a pas définie à l’aide de Skype pour Business Server, vous pouvez définir le code confidentiel de l’utilisateur à partir de Skype pour le panneau de configuration serveur Business. Vous pouvez générer automatiquement le code confidentiel ou en créer un manuellement.
   
 > [!NOTE]
 > Les caractéristiques spécifiques du code confidentiel, comme sa longueur minimale, peuvent être définies sous forme de stratégie. Outre la stratégie globale, vous pouvez configurer une stratégie de code confidentiel pour un site ou un utilisateur spécifique. 
@@ -63,7 +62,7 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
     
 7. Dans la boîte de dialogue **Définir le code confidentiel**, effectuez l’une des opérations suivantes :
     
-   - Pour autoriser Skype pour Business Server 2015 générer le code confidentiel de l’utilisateur, sélectionnez **Générer automatiquement un code confidentiel valide** (par défaut).
+   - Pour autoriser Skype pour Business Server afin de générer le code confidentiel de l’utilisateur, sélectionnez **Générer automatiquement un code confidentiel valide** (par défaut).
     
    - Pour créer votre propre code confidentiel, cliquez sur **Entrer manuellement un code confidentiel spécifique**, cliquez sur la zone de texte, puis tapez un code confidentiel respectant les exigences de code confidentiel spécifiées dans vos paramètres de stratégie de code confidentiel.
     

@@ -1,9 +1,9 @@
 ---
-title: Edge Server FQDN paramètres Expander pour Lync Server 2010
+title: Expanseur des paramètres nom de domaine complet du serveur Edge Server pour Lync Server 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,31 +11,32 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
-description: 'Pour définir les propriétés de paramètres externe, vous devez configurer les éléments suivants :'
-ms.openlocfilehash: 2954c9add818e67f471cfb97893fef42e862bea3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Pour définir les propriétés sous paramètres externes, configurez les options suivantes :'
+ms.openlocfilehash: 27bc29afd26ac280eaeb7469af530862c94b03a6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999729"
 ---
-# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Edge Server FQDN paramètres Expander pour Lync Server 2010
+# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres nom de domaine complet du serveur Edge Server pour Lync Server 2010
  
-Pour définir les propriétés de **paramètres externe**, vous devez configurer les éléments suivants :
+Pour définir les propriétés sous **paramètres externes**, configurez les options suivantes :
   
-Sélectionnez le **Activer distinct nom de domaine complet et l’adresse IP pour les conférences web et A / V** case à cocher si vous souhaitez définir différents FQDN du Pool et IP adresses pour la conférence web et audio/vidéo.
+Sélectionnez le **Activer distinct nom de domaine complet et l’adresse IP pour les conférences web et A / V** case à cocher si vous souhaitez définir distincts IP et nom complet du Pool des adresses pour la conférence web et audio/vidéo.
   
 > [!NOTE]
-> Si vous choisissez pour ne pas sélectionner la case à cocher pour les adresses IP et de nom de domaine complet séparés, vous devez fournir des ports distincts pour chacun des trois services fournis par le serveur de transport Edge. Le seul nom de domaine pleinement qualifié qui consiste à configurer est le nom de domaine complet associé au service Edge d’accès. 
+> Si vous choisissez de n’activez ne pas la case à cocher pour les adresses IP et le nom de domaine complet distinctes, vous devez fournir des ports distincts pour chacun des trois services fournis par le serveur Edge. Le seul nom de domaine complet qui consiste à configurer est le nom de domaine complet associé au service Edge d’accès. 
   
-Sélectionnez le **A / V Edge service NAT activé** case à cocher si vous souhaitez que le A / service V Edge d’utiliser un réseau adresse adresse IP de la traduction (NAT) et la configuration.
+Sélectionnez le **A V Edge service / NAT activé** case à cocher si vous souhaitez A / adresse IP de traduction (NAT) et la configuration d’adresses service V Edge à utiliser un réseau.
   
-Pour les services de bord activés, vous tapez un **Nom de domaine complet Pool** et un port sous **Ports**
+Pour les services Edge activés, vous tapez un **Nom complet du Pool** et un port sous **Ports**
   
-- Définir le nom de domaine complet Pool **service Edge d’accès** et d’un port qui identifie le service.
+- Définir le nom complet du Pool de **service Edge d’accès** et un port qui identifie le service.
     
-- Définir le nom de domaine complet de **serveur Edge de conférence Web service** Pool (si activer de séparer le nom de domaine complet et l’adresse IP pour les conférences web et A / V n’est pas sélectionnée) et un port qui identifie le service.
+- Définir le nom complet du Pool de **service Edge de conférence Web** (si activer de séparer le nom de domaine complet et l’adresse IP pour les conférences web et A / V n’est pas sélectionnée) et un port qui identifie le service.
     
-- Définir la **A / V Edge service** FQDN du Pool (si activer de séparer le nom de domaine complet et l’adresse IP pour les conférences web et A / V n’est pas sélectionnée) et un port qui identifie le service.
+- Définir le **A / V Edge service** nom complet du Pool (si activer de séparer le nom de domaine complet et l’adresse IP pour les conférences web et A / V n’est pas sélectionnée) et un port qui identifie de manière unique le service.
     
  **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
   

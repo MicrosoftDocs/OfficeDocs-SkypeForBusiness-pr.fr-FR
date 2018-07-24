@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
-description: 'La page exécution de commandes affiche un résumé des commandes qui sont émises pour étendre le schéma pour Skype pour Business Server 2015. Lorsque les tâches sont terminées, le volet Résumé indique si elles ont réussi ou échoué. Consultez l’écran Résumé et assurez-vous que l’état de cette tâche : terminée s’affiche dans le volet Résumé. La liste déroulante sous le volet Résumé vous permet de sélectionner et de visualiser le fichier journal Préparer le schéma. Cliquez sur Afficher le journal pour passer en revue le fichier journal. Si vous avez obtenu des erreurs pendant la préparation du schéma, elles y sont répertoriées. Vous pouvez alors prendre les mesures nécessaires pour corriger les erreurs et exécuter de nouveau la préparation du schéma.'
-ms.openlocfilehash: b992838aea493b7318d88d6ff04ce84ff4bd77a7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: La page exécution de commandes affiche un résumé des commandes qui sont émises pour étendre le schéma pour Skype pour Business Server.
+ms.openlocfilehash: 629672673a240e66ca097f6a61af4caad7ee32c6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964426"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974598"
 ---
 # <a name="prepare-schema-invoke"></a>Préparer un schéma (Invoke)
  

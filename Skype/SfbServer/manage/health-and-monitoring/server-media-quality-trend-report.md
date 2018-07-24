@@ -1,24 +1,24 @@
 ---
-title: Rapport de tendance de la qualité des médias serveur dans Skype Entreprise Server 2015
+title: Serveur rapport qualité des médias tendance dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
-description: 'Résumé : Découvrez le serveur média qualité rapport tendances dans Skype pour Business Server 2015.'
-ms.openlocfilehash: e257243eed1934cecc39f1feec26b3d83862e8c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : En savoir plus sur le serveur rapport qualité des médias tendance dans Skype pour Business Server.'
+ms.openlocfilehash: 1d4f2407dc7a4cc56e1688a955f4196a450114f4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21029120"
 ---
-# <a name="server-media-quality-trend-report-in-skype-for-business-server-2015"></a>Rapport de tendance de la qualité des médias serveur dans Skype Entreprise Server 2015
+# <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Serveur rapport qualité des médias tendance dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur le serveur média qualité rapport tendances dans Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur le serveur rapport qualité des médias tendance dans Skype pour Business Server.
   
 Le rapport de tendance générale de la qualité des médias serveur vous permet de comparer de façon graphique la qualité de l’expérience sur 5 serveurs maximum, par exemple le volume d’appel, le pourcentage d’appels médiocres, la perte de paquet et la gigue. Cela permet d’identifier plus facilement les serveurs dont les performances sont médiocres, les serveurs qui sont sous-utilisés ou sur-utilisés.
   
@@ -26,21 +26,21 @@ Le rapport de tendance générale de la qualité des médias serveur vous permet
 
 Le rapport de tendance générale de la qualité des médias serveur est accessible à partir de l’un des rapports suivants :
   
-- [Rapport de performances du serveur dans Skype pour Business Server 2015](server-performance.md) (en cliquant sur la mesure de tendance)
+- [Rapport de performances du serveur dans Skype pour Business Server](server-performance.md) (en cliquant sur la mesure tendance)
     
-- [Appelez le rapport détaillé dans Skype pour Business Server 2015](call-detail-report.md) (en cliquant sur le A / V edge métrique du serveur. Si l’appelant ou l’appelé est un serveur, vous pouvez également accéder au rapport de tendance de la qualité des médias serveur en cliquant sur le nom du point de terminaison.)
+- [Appelez le rapport détaillé de Skype pour Business Server](call-detail-report.md) (en cliquant sur A / V de mesure serveur edge. Si l’appelant ou l’appelé est un serveur, vous pouvez également accéder au rapport de tendance de la qualité des médias serveur en cliquant sur le nom du point de terminaison.)
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Utilisation efficace du rapport de tendance de la qualité des médias serveur
 
-Lorsque vous cliquez sur la mesure de l’évolution sur le [Rapport de performances de serveur dans Skype pour Business Server 2015](server-performance.md) pour un serveur spécifique, le rapport de tendances de qualité Media Server s’ouvre. Cependant, vous obtenez une instance vide de ce rapport ; le serveur que vous sélectionnez ne sera pas affiché à l’écran. Vous devez sélectionner ce serveur dans la liste déroulante Serveurs. Notez que la liste déroulante Serveurs propose une option Tout sélectionner. Cette option ne sera pas disponible si vous avez plus de 5 serveurs, en effet le rapport de tendance de la qualité des médias serveur ne peut afficher que 5 serveurs à la fois.
+Lorsque vous cliquez sur la mesure tendance dans le [Rapport de performances du serveur dans Skype pour Business Server](server-performance.md) pour un serveur spécifique, le rapport tendance de qualité des médias serveur s’ouvre. Cependant, vous obtenez une instance vide de ce rapport ; le serveur que vous sélectionnez ne sera pas affiché à l’écran. Vous devez sélectionner ce serveur dans la liste déroulante Serveurs. Notez que la liste déroulante Serveurs propose une option Tout sélectionner. Cette option ne sera pas disponible si vous avez plus de 5 serveurs, en effet le rapport de tendance de la qualité des médias serveur ne peut afficher que 5 serveurs à la fois.
   
-Sur les graphiques affichés par le rapport de tendances de qualité Media Server, les points intitulée appeler un Volume et une faible pourcentage d’appel sont lien direct ; cliquer sur un point sur le graphique ouvre une instance de l' [Appel de rapport liste dans Skype pour Business Server 2015](call-list-report-0.md) affichant le nombre total d’appels (appels faibles ou) pour la période spécifiée.
+Sur les graphiques affichés par le rapport tendance de qualité des médias serveur, les points intitulée Volume d’appels et pourcentage d’appels médiocres sont lien direct ; en cliquant sur un point sur le graphique s’ouvre une instance du [Rapport liste des appels dans Skype pour Business Server](call-list-report-0.md) affichant le nombre total d’appels (ou appels médiocres) pour la période spécifiée.
   
 ## <a name="filters"></a>Filtres
 
 Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Le tableau suivant dresse la liste des filtres que vous pouvez utiliser avec le rapport de tendance de la qualité des médias serveur.
   
-**Filtres de rapport de tendance serveur média qualité**
+**Filtres du rapport de tendance de la qualité des médias serveur**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -57,12 +57,12 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 
 Le tableau qui suit répertorie les informations fournies dans le rapport de tendance de la qualité des médias serveur.
   
-**Mesures de rapport serveur média qualité tendance**
+**Mesures du rapport de tendance de la qualité des médias serveur**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Volume d’appels** <br/> |Non  <br/> |Nombre total d’appels.  <br/> |
-|**Dégradation (MOS)** <br/> |Non  <br/> |Taux moyen de dégradation de la note MOS (note moyenne d’opinion) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée) ; une valeur inférieure ou égale à 0,5 indique une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion étaient calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Skype pour Business Server utilise un ensemble d’algorithmes à prévoir la manière dont les utilisateurs aurait été attribué un appel.  <br/> Les valeurs de dégradation élevées peuvent avoir plusieurs causes : une congestion, un dépassement de la bande passante disponible, une congestion/interférence dans la liaison sans fil ou bien la surcharge d’un serveur multimédia ou d’un système d’extrémité. Ces valeurs se traduisent par une distorsion ou une perte de l’audio.  <br/> |
+|**Dégradation (MOS)** <br/> |Non  <br/> |Taux moyen de dégradation de la note MOS (note moyenne d’opinion) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée) ; une valeur inférieure ou égale à 0,5 indique une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion étaient calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Skype pour Business Server utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs est comme un appel.  <br/> Les valeurs de dégradation élevées peuvent avoir plusieurs causes : une congestion, un dépassement de la bande passante disponible, une congestion/interférence dans la liaison sans fil ou bien la surcharge d’un serveur multimédia ou d’un système d’extrémité. Ces valeurs se traduisent par une distorsion ou une perte de l’audio.  <br/> |
 |**Pourcentage d’appels médiocres** <br/> |Non  <br/> |Nombre total d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).  <br/> |
 |**Boucle (ms)** <br/> |Non  <br/> |Temps moyen (en millisecondes) nécessaire à un paquet RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un point de terminaison. Des boucles de 200 millisecondes ou moins sont considérées qualitativement acceptables.  <br/> Des boucles de durée plus élevée peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les durées d’aller-retour élevées créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.  <br/> |
 |**Perte de paquets** <br/> |Non  <br/> |Taux moyen de pertes de paquets RTP. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |

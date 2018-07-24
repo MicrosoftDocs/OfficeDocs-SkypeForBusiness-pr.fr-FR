@@ -1,32 +1,32 @@
 ---
-title: Création des paramètres de configuration des réunions dans Skype Entreprise Server 2015
+title: Créer les paramètres de configuration dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: 'Résumé : Apprenez à créer des paramètres de configuration dans Skype pour Business Server 2015 de réunion.'
-ms.openlocfilehash: 2d3bde2c856c85e0795f2e1d43fbb5cf705c7024
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Apprenez à créer les paramètres de configuration dans Skype pour Business Server.'
+ms.openlocfilehash: 8826bee3a5f96fd3d30bdc999db97f796f8a0b8e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997416"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Création des paramètres de configuration des réunions dans Skype Entreprise Server 2015
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Créer les paramètres de configuration dans Skype pour Business Server
  
-**Résumé :** Apprenez à créer des paramètres de configuration dans Skype pour Business Server 2015 de réunion.
+**Résumé :** Découvrez comment créer les paramètres de configuration dans Skype pour Business Server.
   
-Vous pouvez créer des paramètres de configuration de réunion à l’aide de Skype pour le panneau de configuration de Business Server ou à l’aide de Skype pour Business Server Management Shell.
+Vous pouvez créer des paramètres de configuration de réunion à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de Skype pour Business Server Management Shell.
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Créer conférence des paramètres de configuration à l’aide de Skype pour le panneau de configuration de Business Server
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Créer des paramètres de configuration de réunion à l’aide de Skype pour Business Server Control Panel
 
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2.  Ouvrez Skype pour le panneau de configuration de Business Server.
+2.  Ouvrez le panneau de configuration serveur Business Skype.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Configuration de la réunion**.
     
@@ -50,7 +50,7 @@ Vous pouvez créer des paramètres de configuration de réunion à l’aide de S
     
 8. Pour empêcher les utilisateurs anonymes (non identifiés) d’être automatiquement admis, désactivez la case à cocher **Admettre les utilisateurs anonymes par défaut**. Par défaut, les utilisateurs anonymes sont automatiquement admis aux réunions.
     
-9. Pour personnaliser l’invitation à la réunion envoyée aux participants, procédez comme suit. Notez que la longueur maximale des URL et du texte de pied de page personnalisé est de 1 Ko. Sauf pour l’**URL de l’aide**, si vous ne spécifiez pas une valeur pour les personnalisations, elles ne seront pas incluses dans la réunion. Si vous n’incluez pas une URL d’aide personnalisée, l’URL de l’aide par défaut pour Skype pour entreprise s’affichera dans l’invitation. 
+9. Pour personnaliser l’invitation à la réunion envoyée aux participants, procédez comme suit. Notez que la longueur maximale des URL et du texte de pied de page personnalisé est de 1 Ko. Sauf pour l’**URL de l’aide**, si vous ne spécifiez pas une valeur pour les personnalisations, elles ne seront pas incluses dans la réunion. Si vous n’incluez pas une URL d’aide personnalisé, l’URL d’aide par défaut pour Skype pour les entreprises s’affichera dans l’invitation. 
     
    - Pour personnaliser le logo qui figure sur l’invitation à la réunion, dans **URL du logo**, entrez l’emplacement du logo. Le logo doit être une image GIF ou JPG d’une taille de 188 x 30 pixels. 
     
@@ -62,7 +62,7 @@ Vous pouvez créer des paramètres de configuration de réunion à l’aide de S
     
 10. Cliquez sur **Valider**.
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Créer des paramètres de configuration de la réunion à l’aide de Skype pour Business Server Management Shell
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Créer des paramètres de configuration de réunion à l’aide de Skype pour Business Server Management Shell
 
 Pour créer des paramètres de configuration de réunion, utilisez l’applet de commande **New-CsMeetingConfiguration**.
   
@@ -86,6 +86,6 @@ Plusieurs valeurs de propriété peuvent être définies en incluant plusieurs p
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-Pour plus d’informations, y compris une liste complète des paramètres, consultez [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
+Pour plus d’informations, notamment une liste complète des paramètres, voir [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
   
 

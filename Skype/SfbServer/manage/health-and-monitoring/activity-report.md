@@ -1,32 +1,32 @@
 ---
-title: Rapport des activités de conférence dans Skype Entreprise Server 2015
+title: Rapport des activités de conférence dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-description: 'Résumé : En savoir plus sur le rapport d’activité de conférence utilisé dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 9655858acf63dc93b3441cce7c94def7444cbcf1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez le rapport d’activité de conférence utilisés dans Skype pour Business Server.'
+ms.openlocfilehash: ae88379434bdd33882721ba07ecc311b457b4000
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997483"
 ---
-# <a name="conference-activity-report-in-skype-for-business-server-2015"></a>Rapport des activités de conférence dans Skype Entreprise Server 2015
+# <a name="conference-activity-report-in-skype-for-business-server"></a>Rapport des activités de conférence dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur le rapport d’activité de conférence utilisé dans Skype pour Business Server 2015.
+**Résumé :** Découvrez le rapport d’activité de conférence utilisés dans Skype pour Business Server.
   
-Le rapport des activités de conférence vous permet de répondre facilement à des questions telles que : combien y a-t-il de conférences organisées chaque jour et à quel moments ces conférences sont-elles organisées ? Ce genre d’information n’est pas seulement utile en tant que tel, il peut également permettre de résoudre des problèmes. Par exemple, imaginons que des utilisateurs se plaignent de la lenteur du réseau en milieu de journée. Rapports d’un coup de œil à l’activité de conférence peut proposer une des raisons : plus de conférences sont planifiées entre les heures, de 10:00:00 et de 14 h 00 puis à tout autre moment.
+Le rapport des activités de conférence vous permet de répondre facilement à des questions telles que : combien y a-t-il de conférences organisées chaque jour et à quel moments ces conférences sont-elles organisées ? Ce genre d’information n’est pas seulement utile en tant que tel, il peut également permettre de résoudre des problèmes. Par exemple, imaginons que des utilisateurs se plaignent de la lenteur du réseau en milieu de journée. Rapports d’un coup de œil à l’activité de conférence peut proposer une des raisons : plus de conférences sont planifiés entre les heures de 10:00:00 et 2 h 00 puis à tout moment.
   
 Si la lenteur du réseau engendre des problèmes, vous pouvez encourager les utilisateurs à replanifier certaines de leurs conférences à un moment de la journée où le trafic est moins important.
   
 ## <a name="accessing-the-conference-activity-report"></a>Accès au rapport des activités de conférence
 
-Le rapport d’activité de conférence est accessible à partir du [Rapport de synthèse de conférence dans Skype pour 2015 de serveur d’entreprise](conference-summary-report.md) en cliquant sur l’une des mesures suivantes :
+Le rapport d’activité de conférence est accessible à partir du [Rapport de synthèse de conférence dans Skype pour Business Server](conference-summary-report.md) en cliquant sur l’une des mesures suivantes :
   
 - Nombre total de conférences
     
@@ -46,7 +46,7 @@ Par défaut, le rapport des activités de conférence indique le nombre total de
 
 Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Le tableau ci-dessous dresse la liste des filtres que vous pouvez utiliser avec le rapport des activités de conférence.
   
-**Filtres de rapport activité de conférence**
+**Filtres du rapport des activités de conférence**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -59,9 +59,9 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
 
 Le tableau qui suit répertorie les informations dans le rapport des activités de conférence pour chaque pool.
   
-**Mesures des conférences par Pool**
+**Mesure des conférences par pool**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Pool** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou du serveur Edge utilisés dans la conférence.  <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles la conférence s’est tenue.  <br/> |
@@ -71,9 +71,9 @@ Le tableau qui suit répertorie les informations dans le rapport des activités 
 
 Le tableau qui suit répertorie les informations dans le rapport des activités de conférence pour chaque type de serveur.
   
-**Mesures des conférences par le Type de serveur**
+**Mesure des conférences par type de serveur**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Type de serveur de conférence** <br/> |Non  <br/> | Type de serveur utilisé dans la conférence, généralement l’un des types suivants : <br/>  Serveur de conférence web <br/>  Service de conférence de messagerie instantanée <br/>  Service de téléconférence <br/>  Serveur de conférence A/V <br/>  Partage d’application <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles la conférence s’est tenue.  <br/> |

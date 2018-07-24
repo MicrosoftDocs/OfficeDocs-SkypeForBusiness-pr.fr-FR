@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
-description: Microsoft publie régulièrement un nouveau jeu de mises à jour du microprogramme de périphérique pour Skype pour téléphone professionnel, que vous pouvez importer à vos serveurs et distribuer aux utilisateurs. Vous pouvez obtenir le dernier jeu de règles de mise à jour des périphériques en accédant à la page aide et Support sur le site Web Microsoft et recherche forPhone Edition.Download le dernier package de mise à jour et extrayez les fichiers dans un dossier sur l’ordinateur où les mises à jour doivent être téléchargées. Une fois que les fichiers ont été extraits, vous pouvez utiliser ensuite la cmdlet Import-CsDeviceUpdate pour importer les règles de mise à jour des périphériques trouvés dans l’extrait. Fichier CAB (qui porte le nom UCUpdates.cab). Pour plus d’informations, voir Import-CsDeviceUpdate.
-ms.openlocfilehash: 793f7328d3396f1e734e709f24f61bb802c26a47
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Microsoft publie régulièrement un nouveau jeu de mises à jour du microprogramme de périphérique pour Skype pour téléphone professionnel, que vous pouvez importer à vos serveurs et distribuer aux utilisateurs. Vous pouvez obtenir le dernier jeu de règles de mise à jour des périphériques en accédant à la page aide et Support sur le site Web Microsoft et recherche forPhone Edition.Download le dernier package de mise à jour et extrayez les fichiers dans un dossier sur l’ordinateur où les mises à jour doivent être téléchargées. Une fois les fichiers extraits, vous pouvez utiliser l’applet de commande Import-CsDeviceUpdate pour importer les règles de mise à jour des périphériques présentes dans le fichier CAB extrait (nommé UCUpdates.cab). Pour plus d’informations, voir Import-CsDeviceUpdate.
+ms.openlocfilehash: 3c8ddfbaeabb2b70fcc2661271573ea4a7f62036
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978068"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967861"
 ---
 # <a name="device-update"></a>Mise à jour de l'appareil
  

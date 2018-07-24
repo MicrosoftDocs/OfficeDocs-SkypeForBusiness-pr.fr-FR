@@ -1,9 +1,9 @@
 ---
-title: Mobile Client Push Notification Configuration
+title: Configuration des notifications Push Client mobile
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,43 +11,44 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
-description: To configure the Microsoft push notifications and Apple push notifications, you must create a policy to define which types of push notification you require.
-ms.openlocfilehash: 946e083ab9f3f4dbc2b59f7f3026ec3a6dd5ed19
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Pour configurer les notifications push Microsoft et les notifications push Apple, vous devez créer une stratégie pour définir les types de notification push que vous avez besoin.
+ms.openlocfilehash: 1e3c132fe030bd238fbb01af6fa53a1fce2657d7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975941"
 ---
-# <a name="mobile-client-push-notification-configuration"></a>Mobile Client: Push Notification Configuration
+# <a name="mobile-client-push-notification-configuration"></a>Client mobile : Configuration des notifications Push
  
-To configure the **Microsoft push notifications** and **Apple push notifications**, you must create a policy to define which types of push notification you require.
+Pour configurer les **notifications push Microsoft** et **les notifications push Apple**, vous devez créer une stratégie pour définir les types de notification push que vous avez besoin.
   
-On the main configuration screen, you can click **Refresh** to refresh and re-populate the list of policies. A search box is provided for narrowing the list of displayed policies. As you type the name that you are searching for, the list of policies narrows automatically.
+Dans l’écran configuration principale, vous pouvez cliquer sur **Actualiser** pour actualiser et remplir la liste des stratégies. Une zone de recherche est fournie pour limiter la liste des stratégies affichées. Lorsque vous tapez le nom que vous recherchez, la liste des stratégies restreint automatiquement.
   
 > [!IMPORTANT]
 > Les paramètres de stratégie qui sont appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. L’ordre de priorité est le suivant : les stratégies utilisateur (prioritaires) remplacent les stratégies de site. Les stratégies de site remplacent les stratégies globales (les moins prioritaires). Cela signifie que plus la définition de stratégie est proche de l’objet affecté par cette stratégie, plus l’impact de cette stratégie sur l’objet est important. 
   
-Two selections are available for policy creation and editing:
+Deux options sont disponibles pour la création d’une stratégie et de modification :
   
-1. **New**: Click to create a new policy. You must provide a site for the policy to apply to. You then configure the settings for the push notification. For **Push Notification Configuration**, you can only create policies for Sites that you have already created.
+1. **Nouveau**: cliquez pour créer une nouvelle stratégie. Vous devez fournir un site pour la stratégie s’applique à. Puis, vous configurez les paramètres pour les notifications push. **Configuration des notifications Push**, vous pouvez uniquement créer des stratégies pour les Sites que vous avez déjà créé.
     
-2. **Edit**: Select a policy and click Edit to select an action from a drop-down. You can only edit sites that you have already created or edit the Global policy:
+2. **Modifier**: sélectionnez une stratégie, cliquez sur Modifier pour sélectionner une action à partir d’une liste déroulante. Vous ne pouvez modifier que les sites que vous avez déjà créé ou modifiez la stratégie globale :
     
-  - **Show details…**: Displays information about the currently selected policy. You will be able to make changes to the existing policy.
+  - **Afficher les détails...**: affiche des informations sur la stratégie sélectionnée. Vous serez en mesure d’apporter des modifications à la stratégie existante.
     
-  - **Select all**: If you have a number of policies and need to select all policies, click Select all
+  - **Sélectionner tout**: Si vous disposez d’un certain nombre de stratégies et que vous devez sélectionner toutes les stratégies, cliquez sur Sélectionner tout
     
-  - **Delete**: Will remove the selected policy. Using **Select all** and **Delete** will remove all policies
+  - **Supprimer**: supprime la stratégie sélectionnée. Supprime toutes les stratégies à l’aide de **toutes les sélectionner** et **Supprimer**
     
     > [!NOTE]
-    > You cannot delete the default **Global** policy. If you attempt to delete it, you will be notified that the Global policy has been returned to the default values (that is, all settings are cleared), but the policy cannot be removed.
+    > Vous ne pouvez pas supprimer la stratégie **globale** par défaut. Si vous tentez de supprimer, vous êtes averti que la stratégie globale a été renvoyée pour les valeurs par défaut (autrement dit, tous les paramètres sont vides), mais la stratégie ne peut pas être supprimée.
   
-Creating a new policy or editing an existing policy is associated with two actions:
+Création d’une nouvelle stratégie ou modifier une stratégie existante est associé à deux actions :
   
-- **Commit** The commit action creates or updates the policy and saves the changes
+- **Valider** L’action de validation crée ou met à jour la stratégie et enregistre les modifications
     
-- **Cancel** The cancel action discards any changes that have been made since the last commit action. If you cancel, any changes made will be lost.
+- **Annuler** L’action Annuler annule les modifications qui ont été apportées depuis la dernière opération de validation. Si vous annulez, toutes les modifications apportées seront perdues.
     
-Two settings are possible for **Push Notification Configuration**. The settings are associated with the push notification services for Microsoft and for Apple. You enable push notification for either service by selecting the check box next to the name of the service. You can clear the check box by selecting it to clear it. Once you have made your selections, you either commit or cancel. Clicking commit will save the changes to the policy.
+Deux paramètres sont possibles pour la **Configuration des notifications Push**. Les paramètres associés avec les services de notification push pour Microsoft et Apple. Vous activez les notifications push pour chaque service en activant la case à cocher en regard du nom du service. Vous pouvez désactiver la case à cocher en la sélectionnant pour décocher cette option. Une fois vos sélections effectuées, vous validez ou annulez. En cliquant sur Valider sera enregistrer les modifications apportées à la stratégie.
   
 

@@ -1,30 +1,30 @@
 ---
-title: Rapport de diagnostic des activités P2P dans Skype Entreprise Server 2015
+title: Rapport de Diagnostic activités d’égal à égal dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
-description: 'Résumé : En savoir plus sur le rapport de Diagnostic activité de Peer-to-Peer dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 72b749d3b26bf189c336b1b361d43e2385c98e6f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez le rapport de Diagnostic activités d’égal à égal dans Skype pour Business Server.'
+ms.openlocfilehash: ccc0c793a27df51c86d7ae0a6a9b575c7f6a5659
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980815"
 ---
-# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server-2015"></a>Rapport de diagnostic des activités P2P dans Skype Entreprise Server 2015
+# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Rapport de Diagnostic activités d’égal à égal dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur le rapport de Diagnostic activité de Peer-to-Peer dans Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur le rapport de Diagnostic activités d’égal à égal dans Skype pour Business Server.
   
-Le rapport de diagnostic des activités P2P fournit des informations sur la réussite ou l’échec des sessions de communication P2P. Notez que Skype pour Business Server 2015 fait la distinction entre différents types de panne :
+Le rapport de diagnostic des activités P2P fournit des informations sur la réussite ou l’échec des sessions de communication P2P. Notez que Skype pour Business Server fait la distinction entre les différents types de défaillance :
   
-- **échec attendu**. Un échec attendu est en général un échec considéré comme strictement technique. Par exemple, supposons que vous appeliez quelqu’un et que cette personne soit absente de son bureau et ne puisse donc répondre à votre appel. Étant donné que l’appel n’a pas été répondu, il est techniquement considéré comme un échec. D’autre part, il s’agissait d’un échec attendu : Skype pour Business Server 2015 n’attend pas de vous répondre au téléphone si vous n’êtes pas disponible pour répondre au téléphone. De même, un échec attendu se produira si vous tentez d’envoyer un message instantané à un utilisateur qui est hors ligne ou qui est connecté à un téléphone qui ne prend pas les messages instantanés.
+- **échec attendu**. Un échec attendu est en général un échec considéré comme strictement technique. Par exemple, supposons que vous appeliez quelqu’un et que cette personne soit absente de son bureau et ne puisse donc répondre à votre appel. Étant donné que l’appel n’a pas été répondu, il est techniquement considéré comme un échec. En revanche, il s’agissait d’un échec attendu : Skype pour Business Server n’attend pas vous permet de répondre au téléphone si vous n’êtes pas disponible pour répondre au téléphone. De même, un échec attendu se produira si vous tentez d’envoyer un message instantané à un utilisateur qui est hors ligne ou qui est connecté à un téléphone qui ne prend pas les messages instantanés.
     
-- **Échec inattendu**. Un échec inattendu constitue exactement ce que son nom indique : une erreur à laquelle on ne s’attend pas, compte tenu des circonstances. Par exemple, supposons que vous appelez personne une personne et qui est disponible pour répondre à l’appel ; Toutefois, lorsque Skype pour Business Server 2015 tente d’acheminer l’appel vers la messagerie vocale l’appel échoue parce que la connexion à la messagerie unifiée Exchange a été perdue. Il s’agit d’une erreur inattendue : car vous vous attendiez à ce que les appels soient toujours dirigés vers la messagerie vocale. En règle générale, les échecs inattendus sont de vrais échecs : ce sont des problèmes auxquels il n’est pas possible de remédier en formant les utilisateurs ou à l’aide de mesures similaires.
+- **Échec inattendu**. Un échec inattendu constitue exactement ce que son nom indique : une erreur à laquelle on ne s’attend pas, compte tenu des circonstances. Par exemple, supposons que vous appelez personne une personne et qui est disponible pour répondre à l’appel ; Toutefois, lorsque Skype pour Business Server essaie d’acheminer l’appel vers la messagerie vocale l’appel échoue parce que la connexion à la messagerie unifiée Exchange a été perdue. Il s’agit d’une erreur inattendue : car vous vous attendiez à ce que les appels soient toujours dirigés vers la messagerie vocale. En règle générale, les échecs inattendus sont de vrais échecs : ce sont des problèmes auxquels il n’est pas possible de remédier en formant les utilisateurs ou à l’aide de mesures similaires.
     
 Notez que le compte des succès et des échecs attendus et inattendus ne correspond pas nécessairement au compte total des sessions. Par exemple, l’illustration précédente indique les valeurs suivantes :
   
@@ -32,11 +32,11 @@ Notez que le compte des succès et des échecs attendus et inattendus ne corresp
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
-Si vous additionnez 2 024 + 469 + 16, vous obtenez un total de 2 509 sessions alors que la colonne du total des sessions indique 2 521 sessions. Les 12 sessions « manquantes » sont des sessions que le système n’est pas parvenu à classer comme des succès ou des échecs. Qui sera parfois le cas lorsqu’un produit tiers introduit un nouveau code de diagnostic qui vous est pas familier dans Skype pour Business Server. Lorsque cela arrive, les appels effectués à l’aide de ce produit et qui indiquent ce code de diagnostic, ne peuvent pas toujours être classés comme des succès ou des échecs attendus ou inattendus.
+Si vous additionnez 2 024 + 469 + 16, vous obtenez un total de 2 509 sessions alors que la colonne du total des sessions indique 2 521 sessions. Les 12 sessions « manquantes » sont des sessions que le système n’est pas parvenu à classer comme des succès ou des échecs. Qui sera parfois le cas lorsqu’un produit tiers introduit un nouveau code de diagnostic est inconnu Skype pour Business Server. Lorsque cela arrive, les appels effectués à l’aide de ce produit et qui indiquent ce code de diagnostic, ne peuvent pas toujours être classés comme des succès ou des échecs attendus ou inattendus.
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>Accès au rapport de diagnostic des activités P2P
 
-Le rapport de diagnostic des activités P2P est accessible à partir de la page d’accueil des rapports de surveillance. Le [Rapport d’échecs de Distribution dans Skype pour Business Server 2015](failure-distribution-report.md) sont accessibles en cliquant sur une des mesures suivantes :
+Le rapport de diagnostic des activités P2P est accessible à partir de la page d’accueil des rapports de surveillance. Vous pouvez accéder au [Rapport de répartition dans Skype pour Business Server](failure-distribution-report.md) en cliquant sur une des mesures suivantes :
   
 - Nombre d’échecs inattendus
     
@@ -52,7 +52,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
   
 Le tableau ci-dessous dresse la liste des filtres que vous pouvez utiliser avec le rapport de diagnostic des activités P2P.
   
-**Filtres de rapport de Diagnostics d’activité de peer-to-Peer**
+**Filtres du rapport de diagnostic des activités P2P**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -68,7 +68,7 @@ Le tableau ci-dessous dresse la liste des informations fournies dans le rapport 
   
 **Mesures (par modalité)**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Nombre de réussites** <br/> |Non  <br/> |Nombre total des sessions P2P réussies.  <br/> |
 |**Pourcentage de réussite** <br/> |Non  <br/> |Pourcentage des sessions P2P qui se sont terminées avec des problèmes importants. Calculé en divisant le volume des opérations réussies par le nombre total de sessions.  <br/> |

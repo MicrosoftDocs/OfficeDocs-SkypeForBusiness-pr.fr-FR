@@ -1,25 +1,24 @@
 ---
-title: Rapport d’activité de l’utilisateur dans Skype Entreprise Server 2015
+title: User Activity Report dans Skype pour Business Server 25
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
-description: 'Résumé : Découvrez le User Activity Report dans Skype pour Business Server 2015.'
-ms.openlocfilehash: ed0e61d2e5593287c4f793d8b0c4cf647d772478
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez le User Activity Report dans Skype pour Business Server.'
+ms.openlocfilehash: 13e5eb691e81994e2fac368244522fdcab2003df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569392"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981205"
 ---
-# <a name="user-activity-report-in-skype-for-business-server-2015"></a>Rapport d’activité de l’utilisateur dans Skype Entreprise Server 2015
+# <a name="user-activity-report-in-skype-for-business-server"></a>User Activity Report dans Skype pour Business Server
  
-**Résumé :** Découvrez le User Activity Report dans Skype pour Business Server 2015.
+**Résumé :** Découvrez le User Activity Report dans Skype pour Business Server.
   
 Le rapport d’activité de l’utilisateur fournit une liste détaillée des sessions P2P et des sessions de conférence exécutées par vos utilisateurs au cours d’une période donnée. Contrairement à la plupart des rapports de surveillance, le rapport d’activité de l’utilisateur lie chaque appel à des utilisateurs individuels. Par exemple, les sessions P2P spécifient les URI SIP de la personne à l’origine de l’appel (utilisateur d’origine) et celles de la personne qui a été appelée (utilisateur de destination). Si vous développez les informations sur une conférence, vous obtiendrez la liste de tous les participants à la conférence, ainsi que leur rôle à cette occasion.
   
@@ -41,14 +40,14 @@ Ken.My
   
 ## <a name="to-access-the-user-activity-report"></a>Pour accéder au rapport d’activité de l’utilisateur
 
-Le rapport d’activité de l’utilisateur est accessible via la page d’accueil des rapports de surveillance. Vous pouvez également atteindre le User Activity Report en cliquant sur la mesure URI de l’utilisateur dans le [Rapport d’inventaire de téléphonie IP dans Skype pour Business Server 2015](ip-phone-inventory-report.md). Si vous cliquez sur URI de la conférence (pour une conférence) dans le rapport d’activité de l’utilisateur, vous accéderez au rapport détaillé de conférence. De même, cliquez sur la mesure détails d’un appel d’égal à égal pour accéder au [rapport détaillé de Session d’égal à égal dans Skype pour Business Server 2015](peer-to-peer-session-detail-report.md).
+Le rapport d’activité de l’utilisateur est accessible via la page d’accueil des rapports de surveillance. Vous pouvez également atteindre le User Activity Report en cliquant sur la mesure URI de l’utilisateur dans le [Rapport d’inventaire de téléphonie IP dans Skype pour Business Server](ip-phone-inventory-report.md). Si vous cliquez sur URI de la conférence (pour une conférence) dans le rapport d’activité de l’utilisateur, vous accéderez au rapport détaillé de conférence. De même, cliquez sur la mesure détails d’un appel d’égal à égal pour accéder au [rapport détaillé de Session d’égal à égal dans Skype pour Business Server](peer-to-peer-session-detail-report.md).
   
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Utilisation optimale du rapport d’activité de l’utilisateur
 
-Même si le rapport d’activité de l’utilisateur contient des informations utiles, il peut parfois être difficile de les rechercher. Par exemple, toutes les activités utilisateur ayant lieu dans votre organisation pendant une période spécifiée sont incluses dans le rapport d’activité utilisateur ; que signifie que, caché, dans le rapport informations sur les utilisateurs réellement utilisés Skype pour Business Server 2015 d’une manière.
+Même si le rapport d’activité de l’utilisateur contient des informations utiles, il peut parfois être difficile de les rechercher. Par exemple, toutes les activités utilisateur ayant lieu dans votre organisation pendant une période spécifiée sont incluses dans le rapport d’activité utilisateur ; que signifie que, caché, dans le rapport informations sur les utilisateurs réellement utilisés Skype pour Business Server d’une manière.
   
 > [!NOTE]
-> Techniquement, il est possible qu’une activité utilisateur peut accéder non enregistrée : while Skype pour Business Server cherche à conserver des informations sur tous les appels téléphoniques, il est possible qu’un appel aurait pu être sans les informations d’appel sont écrite dans le base de données. Skype pour Business Server est conçu pour donner un aspect extrêmement précis, mais pas nécessairement parfait à l’utilisation de Skype pour Business Server 2015. (Le fait qu’il n’existe aucune garantie que 100 % de tous les appels sont enregistrés explique pourquoi Skype pour la surveillance Business Server ne doit pas être utilisé comme un système de facturation). Seconde, un rapport de surveillance peuvent uniquement affichage, au maximum 1 000 enregistrements. Ainsi, selon le volume d’activité de vos utilisateurs et la période considérée, votre requête risque de ne pas renvoyer toutes les données effectivement stockées dans la base de données. 
+> Techniquement, il est possible qu’une activité utilisateur peut accéder non enregistrée : while Skype pour Business Server cherche à conserver des informations sur tous les appels téléphoniques, il est possible qu’un appel aurait pu être sans les informations d’appel sont écrite dans le base de données. Skype pour Business Server est conçu pour donner un aspect extrêmement précis, mais pas nécessairement parfait à l’utilisation de Skype pour Business Server. (Le fait qu’il n’existe aucune garantie que 100 % de tous les appels sont enregistrés explique pourquoi Skype pour la surveillance Business Server ne doit pas être utilisé comme un système de facturation). Seconde, un rapport de surveillance peuvent uniquement affichage, au maximum 1 000 enregistrements. Ainsi, selon le volume d’activité de vos utilisateurs et la période considérée, votre requête risque de ne pas renvoyer toutes les données effectivement stockées dans la base de données. 
   
 - Quels sont les utilisateurs qui ont utilisé le système au cours de cette période ?
     
@@ -112,7 +111,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport d’activité de l’utilisateur.
   
-**Filtres du rapport d’activité utilisateur**
+**Filtres du rapport d’activité de l’utilisateur**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -127,9 +126,9 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 Le tableau ci-dessous liste les informations fournies dans le rapport d’activité de l’utilisateur pour les sessions P2P (à savoir les sessions impliquant deux participants uniquement).
   
-**Mesures pour sessions d’égal à égal**
+**Mesures pour sessions P2P**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Détails** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport vous montre le Rapport détaillé de session P2P pour la session sélectionnée.  <br/> |
 |**De l’utilisateur** <br/> |Oui  <br/> |Adresse SIP de l’utilisateur qui a initié la session P2P.  <br/> |
@@ -144,9 +143,9 @@ Le tableau ci-dessous liste les informations fournies dans le rapport d’activi
 
 Le tableau ci-dessous liste les informations fournies dans le rapport d’activité de l’utilisateur pour les sessions P2P (à savoir les sessions impliquant deux participants uniquement).
   
-**Mesures des sessions de conférence**
+**Mesures pour les sessions de conférence**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**URI de la conférence** <br/> |Oui  <br/> |Identifiant de conférence unique. Lorsque vous cliquez sur cet élément, le rapport vous montre le Rapport détaillé de conférence pour la session sélectionnée. Lorsque vous développez cet élément, le rapport vous montre les informations sur les participants à la conférence. Pour des informations détaillées, consultez la section « Mesures pour les participants de la conférence », dans la suite de cette rubrique.  <br/> |
 |**Organisateur** <br/> |Oui  <br/> |Adresse SIP de l’utilisateur qui a organisé la conférence.  <br/> |
@@ -158,9 +157,9 @@ Le tableau ci-dessous liste les informations fournies dans le rapport d’activi
 
 Le tableau ci-dessous répertorie les informations fournies dans le Rapport d’activité de l’utilisateur sur chaque participant d’une conférence.
   
-**Mesures pour les participants à la conférence**
+**Mesures pour les participants de la conférence**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rôle** <br/> |Non  <br/> |Rôle de conférence (par exemple, Présentateur) pour l’utilisateur.  <br/> |
 |**Participant** <br/> |Non  <br/> |Adresse SIP de l’utilisateur.  <br/> |

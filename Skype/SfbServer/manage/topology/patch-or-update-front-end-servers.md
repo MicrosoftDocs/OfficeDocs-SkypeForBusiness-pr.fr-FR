@@ -1,26 +1,26 @@
 ---
-title: Corriger ou mettre à jour des serveurs frontaux dans Skype Entreprise Server 2015
+title: Correctifs ou mise à jour des serveurs frontaux Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/4/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
-description: 'Résumé : Apprenez à appliquer les correctifs et les mises à niveau de serveurs frontaux dans Skype pour Business Server.'
-ms.openlocfilehash: 1f5ccd6531338d1e6b47dd8363b9386bcbeba0fc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment appliquer des mises à jour ou correctifs aux serveurs frontaux Skype pour Business Server.'
+ms.openlocfilehash: 29191192b1dab16b79cc594cc0a7b3b68aaa906f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972771"
 ---
-# <a name="patch-or-update-front-end-servers-in-skype-for-business-server-2015"></a>Corriger ou mettre à jour des serveurs frontaux dans Skype Entreprise Server 2015
+# <a name="patch-or-update-front-end-servers-in-skype-for-business-server"></a>Correctifs ou mise à jour des serveurs frontaux Skype pour Business Server
  
-**Résumé :** apprendre à appliquer les correctifs et mises à niveau pour les serveurs frontaux dans Skype pour Business Server.
+**Résumé :** Apprenez comment appliquer les correctifs et mises à niveau pour les serveurs frontaux Skype pour Business Server.
   
-Lorsque vous appliquez le correctif les serveurs d’un pool frontal, vous le faire pour un seul serveur à la fois. 
+Lorsque vous appliquez le correctif les serveurs dans un pool frontal, procéder à un serveur à la fois. 
   
 ### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>Pour appliquer une mise à niveau aux serveurs frontaux d’un pool
 
@@ -42,7 +42,7 @@ Lorsque vous appliquez le correctif les serveurs d’un pool frontal, vous le fa
   Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
   ```
 
-    Cette applet de commande déplace tous les services à d’autres serveurs frontaux dans le pool et déconnecte ce serveur.
+    Cette applet de commande déplace tous les services à d’autres serveurs frontaux du pool et déconnecte ce serveur.
     
 3. Appliquez la mise à niveau ou le correctif à ce serveur.
     
