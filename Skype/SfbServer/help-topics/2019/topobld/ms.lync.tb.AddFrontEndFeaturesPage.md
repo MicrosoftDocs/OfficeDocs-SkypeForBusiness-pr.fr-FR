@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
+ROBOTS: NOINDEX, NOFOLLOW
 description: Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool frontal. Au minimum, vous devez déployer la messagerie instantanée (MI), qui est toujours activé et ne peut pas être désactivée. Également, vous avez la possibilité de déployer d’autres fonctionnalités, telles que des conférences, Enterprise Voice et le contrôle d’admission des appels (CAC). Certaines fonctionnalités dépendent de votre topologie.
-ms.openlocfilehash: c0d9248e6e8d0165a98b4ba38a4f95b9a2e992ef
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9a6b6f38983174e3b13982b9d273e45a7dd5dacb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976836"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067818"
 ---
 # <a name="add-front-end-features"></a>Ajouter des fonctionnalités frontales
  

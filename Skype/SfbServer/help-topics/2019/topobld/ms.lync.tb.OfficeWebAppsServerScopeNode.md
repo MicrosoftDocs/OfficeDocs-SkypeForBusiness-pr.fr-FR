@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous cliquez avec le bouton droit sur les serveurs Office Web Apps Server dans le Générateur de topologie pour effectuer les actions suivantes :'
-ms.openlocfilehash: acbe1da8c4da2e54af9974859320ccdff23b377c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 344d7a6b5a76ae8e83b1053f3f43ee24b97645fb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971220"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069419"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expanseur du nœud d’étendue du serveur Office Web Apps
  

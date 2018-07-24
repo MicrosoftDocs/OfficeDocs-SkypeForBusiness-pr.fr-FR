@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
+ROBOTS: NOINDEX, NOFOLLOW
 description: Vous activez ou désactivez un déployés Persistent Chat Server ou un pool de serveurs de conversation permanente à l’aide de serveurs ou pools répertoriés dans les paramètres d’état de Machine. Sélectionnez un serveur ou un pool dans la liste, puis cliquez sur le bouton Rendre actif pour activer un serveur ou un pool.
-ms.openlocfilehash: 25a2dc09d45bb01be1f2e4e03093a3fe2186755a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ab24577f06fea56a2115e3db3c336f05aff472c2
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974986"
+ms.locfileid: "21064849"
 ---
 # <a name="persistent-chat-machines-expander"></a>Expanseur des ordinateurs de conversation permanente
 

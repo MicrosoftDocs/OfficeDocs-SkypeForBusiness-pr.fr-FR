@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
+ROBOTS: NOINDEX, NOFOLLOW
 description: Cette rubrique fait partie de la documentation préliminaire. Elle est susceptible d’être modifiée lors des prochaines mises à jour. Les rubriques vides apparaissent sous la forme d’espaces réservés.
-ms.openlocfilehash: 45696ff1ffa0661d9297f8946f25488735852398
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ca751d23ee0263ebfefdf3e19c2d7229c7e6b65e
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19968607"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069264"
 ---
 # <a name="office-communications-server-scope-node"></a>Nœud d’étendue d’Office Communications Server
  

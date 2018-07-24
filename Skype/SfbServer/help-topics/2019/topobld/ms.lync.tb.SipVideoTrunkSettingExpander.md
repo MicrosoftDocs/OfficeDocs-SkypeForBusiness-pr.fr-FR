@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
+ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server.
-ms.openlocfilehash: 29c0a0cfa142a22157662811a3437b436f4ca606
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 8c6ec1a98cd9de63b568368b6363f8cdb1fc1ebb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046325"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067577"
 ---
 # <a name="sip-video-trunk-setting-expander"></a>Extenseur des paramètres de jonction vidéo SIP (Session Initiation Protocol)
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
+ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server.
-ms.openlocfilehash: bd76efe902a7ec292422732cac0b503a3094edad
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 4f06009a45dc7cf171066fa2ba9f1e29e35bacb0
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045287"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065626"
 ---
 # <a name="lync-server-2013-scope-node"></a>Nœud d’étendue Lync Server 2013
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
-description: 'Le nœud pools Edge répertorie les pools de serveurs Edge dans votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 7eee0cb842c0347ad08b0edb51ab49ce4aa8f063
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Le nœud Pool de serveurs Edge répertorie les pools de serveurs Edge de votre topologie. Vous pouvez effectuer l’action suivante :'
+ms.openlocfilehash: ede9b748a36a0faca0e70f5b2058fc0cb4fbd56f
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976204"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21066516"
 ---
 # <a name="edge-servers-scope-node"></a>Nœud d’étendue des serveurs Edge
  

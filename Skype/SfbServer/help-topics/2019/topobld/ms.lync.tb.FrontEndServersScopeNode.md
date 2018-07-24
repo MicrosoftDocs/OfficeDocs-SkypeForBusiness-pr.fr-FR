@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
-description: 'Le nœud pools frontaux Enterprise Edition répertorie les pools frontaux sur ce site et les nœuds de serveurs Standard Edition fin les serveurs Standard Edition de ce site. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: cc9c7e04e3037d2e3d9e8d0c658579d76c9601c3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Le nœud des pools frontaux Enterprise Edition répertorie les pools frontaux sur ce site, tandis que les nœuds des serveurs frontaux Standard Edition répertorient les serveurs Standard Edition sur ce site. Vous pouvez effectuer l’action suivante :'
+ms.openlocfilehash: f6ca2a8b27b0868492862c551cebfe12e9e32ffa
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991016"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065584"
 ---
 # <a name="front-end-servers-scope-node"></a>Nœud d’étendue des serveurs frontaux
  

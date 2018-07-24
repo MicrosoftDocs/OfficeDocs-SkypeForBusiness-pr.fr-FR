@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
+ROBOTS: NOINDEX, NOFOLLOW
 description: Vous spécifiez le nom de domaine complet (FQDN) de la passerelle public commuté (PSTN) réseau qui connectera vos composants Enterprise Voice à une passerelle PSTN ou un autocommutateur privé (PBX).
-ms.openlocfilehash: 0e16658ab70ec49cd826ad85c45adde608b3385e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a18bc50f2bb57d89b90777f91370299b878d5aa1
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975924"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065802"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Définir le nom de domaine complet de passerelle PSTN
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Survivable Branch Appliances répertorie le Survivable Branch Appliances sur ce site de succursale. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 35edd7329a293c4f5aea92ebaf4c3fa71c2c0e8e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c5342f5a7fe93636e128776bea79971f641ad732
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991627"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063530"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Nœud d’étendue des Branch Office Appliance
  

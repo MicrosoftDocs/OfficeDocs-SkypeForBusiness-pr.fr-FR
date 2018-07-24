@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
+ROBOTS: NOINDEX, NOFOLLOW
 description: Serveurs de périphérie peuvent être configurés pour autoriser l’accès aux contacts dans les organisations partenaires ou des services de vos utilisateurs internes et externes.
-ms.openlocfilehash: d3541fae214d64a87f9bbc51603e3ae19346c686
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f42767554ebfb588609b05948ff0162597582d9b
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983811"
+ms.locfileid: "21068291"
 ---
 # <a name="federation-planning-tool"></a>Fédération (outil de planification)
  

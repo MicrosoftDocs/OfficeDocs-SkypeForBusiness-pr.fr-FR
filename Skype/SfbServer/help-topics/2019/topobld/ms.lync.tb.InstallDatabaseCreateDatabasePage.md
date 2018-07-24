@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
+ROBOTS: NOINDEX, NOFOLLOW
 description: Vous sélectionnez les bases de données que vous souhaitez créer pour votre déploiement. Par défaut, la base de données sera créée sur le serveur SQL définies dans le site défini et sera automatiquement déployer et configurer les fichiers de base de données basés sur le serveur SQL que vous placez sur les bases de données.
-ms.openlocfilehash: 70bd185b4e559215df7d3623dc5591648e718ed9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6138608bc98b921ba90401e35bea584efe37a9cb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979357"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063009"
 ---
 # <a name="install-and-create-databases"></a>Installer et créer des bases de données
  

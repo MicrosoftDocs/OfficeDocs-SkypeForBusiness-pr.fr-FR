@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
+ROBOTS: NOINDEX, NOFOLLOW
 description: Skype pour Business Server fournit une connectivité PSTN fiable et évolutive à l’aide de connexions SIP directes à un système PBX, connexions SIP directes à une passerelle PSTN ou jonctions SIP. Pour plus d’informations, voir Plan pour la connectivité PSTN dans Skype for Business Server.
-ms.openlocfilehash: a61afeb64b8b89b15b4e59eb7d2a3c0ae80eedc9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6bfee9b76505d1d5e4e1131e5df136cee6befa50
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987619"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065275"
 ---
 # <a name="voice-infrastructure-planning-tool"></a>Infrastructure vocale (outil de planification)
  

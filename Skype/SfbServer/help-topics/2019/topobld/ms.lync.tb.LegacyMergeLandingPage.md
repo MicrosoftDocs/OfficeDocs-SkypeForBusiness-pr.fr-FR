@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6dd2227a-1fbd-4133-b27f-227b0fe47805
+ROBOTS: NOINDEX, NOFOLLOW
 description: La page spécifier la configuration Edge permet de configurer vos informations de serveur de transport Edge héritées. Cliquez sur Ajouter pour spécifier la version du serveur Edge héritée de votre déploiement Office Communications Server. Si vous n’avez pas tous les serveurs de périphérie dans votre environnement hérité, cliquez sur Suivant pour continuer.
-ms.openlocfilehash: fed3c24c9c6492932670c4d91e297a481bd396e3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4a44b3bd452b9684ab638ecce982dbba1a305397
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965590"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069560"
 ---
 # <a name="legacy-merge-landing"></a>Fusion héritée : accueil
  

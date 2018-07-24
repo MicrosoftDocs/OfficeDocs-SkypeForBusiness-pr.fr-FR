@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'L’Assistant définir un serveur Office Web Apps définit un nouveau serveur Office Web Apps Server dans votre déploiement. Vous devez fournir les informations suivantes :'
-ms.openlocfilehash: 2d47d6b3f4e8277cc52ada42d688a015637c69f1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cab39bf2ff44704aab37593009c381b649378532
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979707"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21064041"
 ---
 # <a name="add-office-web-apps-server"></a>Ajouter Office Web Apps Server
  

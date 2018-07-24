@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
+ROBOTS: NOINDEX, NOFOLLOW
 description: Vous devez spécifier un nom de domaine complet (FQDN) pour le service Edge d’accès. Si vous n’avez pas sélectionné utiliser un nom de domaine complet unique &amp; option d’adresse IP dans la zone Sélectionnez les fonctionnalités de page, vous devez également spécifier un nom de domaine complet pour le service Edge de conférence Web et A / V Edge service.
-ms.openlocfilehash: 74ddd2ed5359ce535d8c447b640f5fae44bb6339
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1387726c9f4cffd22d7e9becd7908846b734357d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990118"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067601"
 ---
 # <a name="add-edge-server-fqdn"></a>Ajouter le FQDN du serveur Edge
  

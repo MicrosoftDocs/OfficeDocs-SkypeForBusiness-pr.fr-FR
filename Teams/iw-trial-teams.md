@@ -3,7 +3,7 @@ title: Gérer l’offre d’évaluation de Cloud Microsoft équipes commerciales
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 description: Les utilisateurs Office 365 qui ne sont pas une licence de Microsoft Teams peuvent lancer une version d’évaluation de 1 an d’équipes.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ec12fa2687255fb3097d4bbe637389bc643d77cd
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 23d36f161b19af18ff379c2a929ea5b701b8cc6b
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412332"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068922"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’évaluation de Cloud Microsoft équipes commerciales
 =======================================================
@@ -33,7 +33,7 @@ Les plans de service inclus dans cette offre sont les suivants :
 - Équipes Microsoft (Teams1, équipes travailleur de l’information)
 - Office Online
 - PowerApps pour Office 365 Plan 1
-- SharePoint Online Plan 1
+- SharePoint Online Kiosk
 - Balancement
 - Yammer Enterprise
 
@@ -56,9 +56,11 @@ Utilisateurs peuvent s’inscrire pour la version d’évaluation en vous connec
 
 ![Capture d’écran de la page de démarrage pour la version d’évaluation des équipes travailleur de l’information.](media/iw-trial-start-screen.png)
 
-La version d’évaluation du travailleur de l’information accorde une version d’évaluation de 1 an dans toute l’organisation. Utilisateurs supplémentaires au sein de votre organisation peuvent s’inscrire pour la version d’évaluation du travailleur de l’information en passant par le même processus.
- 
+La version d’évaluation accorde une version d’évaluation d’un an dans toute l’organisation. Cette version d’évaluation rende 500 000 licences disponibles pour l’affectation. Pour chaque licence est attribuée, la version d’évaluation alloue 2 Go de stockage SharePoint Online. Utilisateurs supplémentaires au sein de votre organisation peuvent s’inscrire pour la version d’évaluation en passant par le même processus.
+
 Toutes les versions d’évaluation de votre organisation partagent les mêmes début et les dates de fin qui correspond à la date premier utilisateur connecté pour la version d’évaluation. Par exemple, si l’utilisateur A commence à la première version d’évaluation sur 25 avril 2018, et l’utilisateur B une version d’évaluation sur 3 juin 2018, version d’évaluation de deux utilisateurs expire le 25 avril 2019.
+
+La première personne qui a souscrit à la version d’évaluation est « propriétaire » de l’abonnement. Seulement cette personne peut gérer l’abonnement. 
 
 ## <a name="manage-the-trial"></a>Gérer la version d’évaluation
 

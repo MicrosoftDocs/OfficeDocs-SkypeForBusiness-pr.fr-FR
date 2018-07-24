@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
-description: 'Le nœud pools de médiation répertorie les pools de médiation dans votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 0dca56c03293e093c95b2f215f1e338b5a759b10
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Le nœud Pools de médiation répertorie les pools de médiation de votre topologie. Vous pouvez effectuer l’action suivante :'
+ms.openlocfilehash: 62124dbfe4ee458813836841c539f30de2cf917a
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19967613"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069588"
 ---
 # <a name="mediation-servers-scope-node"></a>Nœud d’étendue des serveurs de médiation
  

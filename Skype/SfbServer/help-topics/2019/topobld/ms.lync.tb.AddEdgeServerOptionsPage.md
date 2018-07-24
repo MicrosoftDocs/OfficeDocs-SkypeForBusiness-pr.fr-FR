@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sélectionnez chaque fonctionnalité à activer pour le pool de serveurs Edge. Par défaut, le pool de serveurs Edge prend en charge les utilisateurs distants dans votre organisation qui se connectent à l’extérieur du pare-feu en utilisant un réseau privé virtuel (VPN). Pour les fonctionnalités de pool de serveurs Edge, vous disposez également des options suivantes :'
-ms.openlocfilehash: bf6e4d27529f2b3e6f0a8f0c4bb457f25abe0458
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6fdad151de5f3b864e3c93a3ce8796a36c1f2ac0
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970856"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21064461"
 ---
 # <a name="add-edge-server-options"></a>Ajouter des options de serveur Edge
  

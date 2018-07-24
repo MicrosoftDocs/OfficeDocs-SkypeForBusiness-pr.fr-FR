@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
+ROBOTS: NOINDEX, NOFOLLOW
 description: Pour incorporer un serveur Edge ou un pool de serveurs Edge dans la conception de votre topologie, vous devez spécifier le nom de domaine complet du serveur sur lequel vous voulez déployer le serveur Edge ou le pool de serveurs Edge. Avant la publication d’une topologie qui inclut le serveur Edge ou le pool de serveurs Edge et installation Skype pour Business Server, vous devez avoir effectué toutes les conditions préalables pour le déploiement de l’accès des utilisateurs externes. Pour plus d’informations sur ces conditions préalables, voir Préparation pour l’Installation de serveurs dans le réseau de périmètre dans la documentation de déploiement.
-ms.openlocfilehash: d5021404bc9e8445433f1acdae2c022045f45628
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 18f94e958c8a0e7b0859b598dd5b307dcb2d2411
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987367"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068590"
 ---
 # <a name="add-edge-server"></a>Ajouter un serveur Edge
  
