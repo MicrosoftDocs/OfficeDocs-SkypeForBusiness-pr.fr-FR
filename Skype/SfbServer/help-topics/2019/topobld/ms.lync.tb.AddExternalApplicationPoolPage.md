@@ -10,25 +10,26 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour définir un nom de domaine complet du pool Applications approuvées (FQDN), spécifiez les éléments suivants :'
-ms.openlocfilehash: 1a6bd10d1091d5e3b494a5c20e3ff294c279ccba
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c8241e5e037b4f7993c73e1a10982465ac14dcaf
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976850"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067608"
 ---
-# <a name="add-trusted-application-pool-fqdn"></a><span data-ttu-id="b77d5-103">Ajouter le nom de domaine complet Pool d’applications approuvées</span><span class="sxs-lookup"><span data-stu-id="b77d5-103">Add Trusted Application Pool FQDN</span></span>
+# <a name="add-trusted-application-pool-fqdn"></a><span data-ttu-id="cc875-103">Ajouter le nom de domaine complet Pool d’applications approuvées</span><span class="sxs-lookup"><span data-stu-id="cc875-103">Add Trusted Application Pool FQDN</span></span>
  
-<span data-ttu-id="b77d5-104">Pour définir un nom de domaine complet du pool Applications approuvées (FQDN), spécifiez les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="b77d5-104">To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:</span></span>
+<span data-ttu-id="cc875-104">Pour définir un nom de domaine complet du pool Applications approuvées (FQDN), spécifiez les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="cc875-104">To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:</span></span>
   
-<span data-ttu-id="b77d5-105">Nom de domaine complet du serveur ou du pool de serveurs qui hébergent les applications approuvées.</span><span class="sxs-lookup"><span data-stu-id="b77d5-105">An FQDN of the server or pool of servers that will host the trusted applications.</span></span>
+<span data-ttu-id="cc875-105">Nom de domaine complet du serveur ou du pool de serveurs qui hébergent les applications approuvées.</span><span class="sxs-lookup"><span data-stu-id="cc875-105">An FQDN of the server or pool of servers that will host the trusted applications.</span></span>
   
-<span data-ttu-id="b77d5-106">Sélectionnez le **pool de plusieurs ordinateurs** si vous déployez un pool de serveurs pour les applications approuvées à partir de l’équilibrage de charge et une haute disponibilité ou sélectionnez le **pool à ordinateur unique** si vous n’avez pas besoin de charger équilibrage ou haute disponibilité.</span><span class="sxs-lookup"><span data-stu-id="b77d5-106">Select **Multiple computer pool** if you are deploying a pool of servers for the trusted applications from load balancing and high availability, or select **Single computer pool** if you do not need load balancing or high availability.</span></span>
+<span data-ttu-id="cc875-106">Sélectionnez le **pool de plusieurs ordinateurs** si vous déployez un pool de serveurs pour les applications approuvées à partir de l’équilibrage de charge et une haute disponibilité ou sélectionnez le **pool à ordinateur unique** si vous n’avez pas besoin de charger équilibrage ou haute disponibilité.</span><span class="sxs-lookup"><span data-stu-id="cc875-106">Select **Multiple computer pool** if you are deploying a pool of servers for the trusted applications from load balancing and high availability, or select **Single computer pool** if you do not need load balancing or high availability.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="b77d5-107">Un seul serveur d’Applications approuvées ne peut pas être converti en un pool de serveurs ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="b77d5-107">A single Trusted Applications Server cannot be converted to a pool of servers later.</span></span> <span data-ttu-id="b77d5-108">Si vous pensez que vous devrez peut-être un pool à l’avenir, vous pouvez déployer un pool de serveurs multiples contenant un seul ordinateur maintenant et ajouter des serveurs cas.</span><span class="sxs-lookup"><span data-stu-id="b77d5-108">If you think you may need a pool in the future, you can deploy a multiple server pool containing a single computer now, and add servers when needed.</span></span> 
+> <span data-ttu-id="cc875-107">Un seul serveur d’Applications approuvées ne peut pas être converti en un pool de serveurs ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="cc875-107">A single Trusted Applications Server cannot be converted to a pool of servers later.</span></span> <span data-ttu-id="cc875-108">Si vous pensez que vous devrez peut-être un pool à l’avenir, vous pouvez déployer un pool de serveurs multiples contenant un seul ordinateur maintenant et ajouter des serveurs cas.</span><span class="sxs-lookup"><span data-stu-id="cc875-108">If you think you may need a pool in the future, you can deploy a multiple server pool containing a single computer now, and add servers when needed.</span></span> 
   
-<span data-ttu-id="b77d5-109">Pour plus d’informations sur les pools d’Applications approuvées, voir [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="b77d5-109">For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span></span>
+<span data-ttu-id="cc875-109">Pour plus d’informations sur les pools d’Applications approuvées, voir [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="cc875-109">For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span></span>
   
 

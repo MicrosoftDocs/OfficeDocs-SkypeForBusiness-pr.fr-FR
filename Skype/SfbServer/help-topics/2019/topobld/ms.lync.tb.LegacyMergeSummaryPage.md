@@ -10,20 +10,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
+ROBOTS: NOINDEX, NOFOLLOW
 description: Migration à partir de Microsoft Office Communications Server 2007 R2 vers Lync Server 2013 utilise les fonctionnalités du Générateur de topologie pour fusionner les topologies existants. L’écran Résumé spécifie toutes les actions et les sélections que vous avez apportées au cours de la configuration de la fusion d’Office Communications Server 2007 R2 dans la configuration du Générateur de topologie Lync Server 2013.
-ms.openlocfilehash: d3b093c9665690fcc4a7350760249216fd3a8352
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2bd30be40f1f7350612dc7cfd074ea45c78c7f6e
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987388"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065848"
 ---
-# <a name="legacy-merge-summary-page"></a><span data-ttu-id="e6f63-104">Page de résumé de fusion héritée :</span><span class="sxs-lookup"><span data-stu-id="e6f63-104">Legacy Merge Summary Page</span></span>
+# <a name="legacy-merge-summary-page"></a><span data-ttu-id="27986-104">Page de résumé de fusion héritée :</span><span class="sxs-lookup"><span data-stu-id="27986-104">Legacy Merge Summary Page</span></span>
  
-<span data-ttu-id="e6f63-105">Migration à partir de Microsoft Office Communications Server 2007 R2 vers Lync Server 2013 utilise les fonctionnalités du Générateur de topologie pour fusionner les topologies existants.</span><span class="sxs-lookup"><span data-stu-id="e6f63-105">Migration from Microsoft Office Communications Server 2007 R2 to Lync Server 2013 uses features of Topology Builder to merge the existing topologies.</span></span> <span data-ttu-id="e6f63-106">L’écran Résumé spécifie toutes les actions et les sélections que vous avez apportées au cours de la configuration de la fusion d’Office Communications Server 2007 R2 dans la configuration du Générateur de topologie Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e6f63-106">The summary screen specifies all of the actions and selections that you have made during the configuration of the merger of the Office Communications Server 2007 R2 into the Lync Server 2013 topology builder configuration.</span></span>
+<span data-ttu-id="27986-105">Migration à partir de Microsoft Office Communications Server 2007 R2 vers Lync Server 2013 utilise les fonctionnalités du Générateur de topologie pour fusionner les topologies existants.</span><span class="sxs-lookup"><span data-stu-id="27986-105">Migration from Microsoft Office Communications Server 2007 R2 to Lync Server 2013 uses features of Topology Builder to merge the existing topologies.</span></span> <span data-ttu-id="27986-106">L’écran Résumé spécifie toutes les actions et les sélections que vous avez apportées au cours de la configuration de la fusion d’Office Communications Server 2007 R2 dans la configuration du Générateur de topologie Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="27986-106">The summary screen specifies all of the actions and selections that you have made during the configuration of the merger of the Office Communications Server 2007 R2 into the Lync Server 2013 topology builder configuration.</span></span>
   
-<span data-ttu-id="e6f63-107">Passez en revue le résumé et déterminer si vos sélections ont été correctement définies.</span><span class="sxs-lookup"><span data-stu-id="e6f63-107">Review the summary and determine if your selections have been correctly defined.</span></span> <span data-ttu-id="e6f63-108">Poursuivre l’opération si vous êtes satisfait les sélections apparaissent dans le résumé.</span><span class="sxs-lookup"><span data-stu-id="e6f63-108">Proceed with the merger if you are satisfied with the selections reflected in the summary.</span></span>
+<span data-ttu-id="27986-107">Passez en revue le résumé et déterminer si vos sélections ont été correctement définies.</span><span class="sxs-lookup"><span data-stu-id="27986-107">Review the summary and determine if your selections have been correctly defined.</span></span> <span data-ttu-id="27986-108">Poursuivre l’opération si vous êtes satisfait les sélections apparaissent dans le résumé.</span><span class="sxs-lookup"><span data-stu-id="27986-108">Proceed with the merger if you are satisfied with the selections reflected in the summary.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="e6f63-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e6f63-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="27986-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="27986-109">See also</span></span>
 
-[<span data-ttu-id="e6f63-110">Migration d’Office Communications Server 2007 R2 vers Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6f63-110">Migration from Office Communications Server 2007 R2 to Lync Server 2013</span></span>](http://technet.microsoft.com/library/f3fa4f5f-e9a2-4fb7-a12d-20f04173e697.aspx)
+[<span data-ttu-id="27986-110">Migration d’Office Communications Server 2007 R2 vers Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27986-110">Migration from Office Communications Server 2007 R2 to Lync Server 2013</span></span>](http://technet.microsoft.com/library/f3fa4f5f-e9a2-4fb7-a12d-20f04173e697.aspx)

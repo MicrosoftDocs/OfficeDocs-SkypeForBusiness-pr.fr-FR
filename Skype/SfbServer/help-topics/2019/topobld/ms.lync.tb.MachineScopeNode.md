@@ -10,28 +10,29 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud affiche le nom de domaine complet (FQDN) du serveur et la configuration de l’adresse IP de ce serveur. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 891d87a8abbca5ab8c594496e35798d87e8482cd
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e45cafd4d859d8f327759db71d4e69b218beefc9
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19967823"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063687"
 ---
-# <a name="machine-scope-node"></a><span data-ttu-id="35ddc-104">Nœud d’étendue d’ordinateur</span><span class="sxs-lookup"><span data-stu-id="35ddc-104">Machine Scope Node</span></span>
+# <a name="machine-scope-node"></a><span data-ttu-id="ca3f5-104">Nœud d’étendue d’ordinateur</span><span class="sxs-lookup"><span data-stu-id="ca3f5-104">Machine Scope Node</span></span>
  
-<span data-ttu-id="35ddc-p102">Ce nœud affiche le nom de domaine complet (FQDN) du serveur et la configuration de l’adresse IP de ce serveur. Vous pouvez effectuer les actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="35ddc-p102">This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:</span></span>
+<span data-ttu-id="ca3f5-p102">Ce nœud affiche le nom de domaine complet (FQDN) du serveur et la configuration de l’adresse IP de ce serveur. Vous pouvez effectuer les actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="ca3f5-p102">This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="35ddc-p103">**Modifier les propriétés** : affiche la page **Modifier les propriétés** pour ce serveur, dans laquelle vous pouvez modifier le nom de domaine complet du serveur (si la topologie n’est pas encore publiée) et la configuration de l’adresse IP du serveur.</span><span class="sxs-lookup"><span data-stu-id="35ddc-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the IP address configuration of the server.</span></span>
+- <span data-ttu-id="ca3f5-p103">**Modifier les propriétés** : affiche la page **Modifier les propriétés** pour ce serveur, dans laquelle vous pouvez modifier le nom de domaine complet du serveur (si la topologie n’est pas encore publiée) et la configuration de l’adresse IP du serveur.</span><span class="sxs-lookup"><span data-stu-id="ca3f5-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the IP address configuration of the server.</span></span>
     
-- <span data-ttu-id="35ddc-p104">**Supprimer** : supprime le serveur de la topologie.</span><span class="sxs-lookup"><span data-stu-id="35ddc-p104">**Delete**. Deletes the server from the topology.</span></span>
+- <span data-ttu-id="ca3f5-p104">**Supprimer** : supprime le serveur de la topologie.</span><span class="sxs-lookup"><span data-stu-id="ca3f5-p104">**Delete**. Deletes the server from the topology.</span></span>
     
-<span data-ttu-id="35ddc-111">Outre ces options, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="35ddc-111">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="ca3f5-111">Outre ces options, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="ca3f5-111">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="35ddc-p105">**Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="35ddc-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="ca3f5-p105">**Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="ca3f5-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="35ddc-p106">**Afficher** : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.</span><span class="sxs-lookup"><span data-stu-id="35ddc-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="ca3f5-p106">**Afficher** : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.</span><span class="sxs-lookup"><span data-stu-id="ca3f5-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="35ddc-p107">**Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.</span><span class="sxs-lookup"><span data-stu-id="35ddc-p107">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="ca3f5-p107">**Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.</span><span class="sxs-lookup"><span data-stu-id="ca3f5-p107">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

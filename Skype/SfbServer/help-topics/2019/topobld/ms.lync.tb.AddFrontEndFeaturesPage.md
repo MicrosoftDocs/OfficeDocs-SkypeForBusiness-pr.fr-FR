@@ -10,31 +10,32 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
+ROBOTS: NOINDEX, NOFOLLOW
 description: Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool frontal. Au minimum, vous devez déployer la messagerie instantanée (MI), qui est toujours activé et ne peut pas être désactivée. Également, vous avez la possibilité de déployer d’autres fonctionnalités, telles que des conférences, Enterprise Voice et le contrôle d’admission des appels (CAC). Certaines fonctionnalités dépendent de votre topologie.
-ms.openlocfilehash: c0d9248e6e8d0165a98b4ba38a4f95b9a2e992ef
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9a6b6f38983174e3b13982b9d273e45a7dd5dacb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976836"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067818"
 ---
-# <a name="add-front-end-features"></a><span data-ttu-id="18301-106">Ajouter des fonctionnalités frontales</span><span class="sxs-lookup"><span data-stu-id="18301-106">Add Front End Features</span></span>
+# <a name="add-front-end-features"></a><span data-ttu-id="3b647-106">Ajouter des fonctionnalités frontales</span><span class="sxs-lookup"><span data-stu-id="3b647-106">Add Front End Features</span></span>
  
-<span data-ttu-id="18301-107">Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool frontal.</span><span class="sxs-lookup"><span data-stu-id="18301-107">Select each feature that you want to enable for the Front End pool.</span></span> <span data-ttu-id="18301-108">Au minimum, vous devez déployer la messagerie instantanée (MI), qui est toujours activé et ne peut pas être désactivée.</span><span class="sxs-lookup"><span data-stu-id="18301-108">At a minimum, you must deploy instant messaging (IM), which is always enabled and cannot be deselected.</span></span> <span data-ttu-id="18301-109">Également, vous avez la possibilité de déployer d’autres fonctionnalités, telles que des conférences, Enterprise Voice et le contrôle d’admission des appels (CAC).</span><span class="sxs-lookup"><span data-stu-id="18301-109">You also have the option of deploying other features, such as conferencing, Enterprise Voice, and call admission control (CAC).</span></span> <span data-ttu-id="18301-110">Certaines fonctionnalités dépendent de votre topologie.</span><span class="sxs-lookup"><span data-stu-id="18301-110">Some features are dependent on your topology.</span></span> 
+<span data-ttu-id="3b647-107">Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool frontal.</span><span class="sxs-lookup"><span data-stu-id="3b647-107">Select each feature that you want to enable for the Front End pool.</span></span> <span data-ttu-id="3b647-108">Au minimum, vous devez déployer la messagerie instantanée (MI), qui est toujours activé et ne peut pas être désactivée.</span><span class="sxs-lookup"><span data-stu-id="3b647-108">At a minimum, you must deploy instant messaging (IM), which is always enabled and cannot be deselected.</span></span> <span data-ttu-id="3b647-109">Également, vous avez la possibilité de déployer d’autres fonctionnalités, telles que des conférences, Enterprise Voice et le contrôle d’admission des appels (CAC).</span><span class="sxs-lookup"><span data-stu-id="3b647-109">You also have the option of deploying other features, such as conferencing, Enterprise Voice, and call admission control (CAC).</span></span> <span data-ttu-id="3b647-110">Certaines fonctionnalités dépendent de votre topologie.</span><span class="sxs-lookup"><span data-stu-id="3b647-110">Some features are dependent on your topology.</span></span> 
   
-- <span data-ttu-id="18301-111">Conférence</span><span class="sxs-lookup"><span data-stu-id="18301-111">Conferencing</span></span>
+- <span data-ttu-id="3b647-111">Conférence</span><span class="sxs-lookup"><span data-stu-id="3b647-111">Conferencing</span></span>
     
-- <span data-ttu-id="18301-112">Voix Entreprise</span><span class="sxs-lookup"><span data-stu-id="18301-112">Enterprise Voice</span></span>
+- <span data-ttu-id="3b647-112">Voix Entreprise</span><span class="sxs-lookup"><span data-stu-id="3b647-112">Enterprise Voice</span></span>
     
-- <span data-ttu-id="18301-113">Le contrôle d’admission des appels (CAC)</span><span class="sxs-lookup"><span data-stu-id="18301-113">Call Admission Control (CAC)</span></span>
+- <span data-ttu-id="3b647-113">Le contrôle d’admission des appels (CAC)</span><span class="sxs-lookup"><span data-stu-id="3b647-113">Call Admission Control (CAC)</span></span>
     
-- <span data-ttu-id="18301-114">Archivage</span><span class="sxs-lookup"><span data-stu-id="18301-114">Archiving</span></span>
+- <span data-ttu-id="3b647-114">Archivage</span><span class="sxs-lookup"><span data-stu-id="3b647-114">Archiving</span></span>
     
-- <span data-ttu-id="18301-115">Surveillance</span><span class="sxs-lookup"><span data-stu-id="18301-115">Monitoring</span></span>
+- <span data-ttu-id="3b647-115">Surveillance</span><span class="sxs-lookup"><span data-stu-id="3b647-115">Monitoring</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="18301-116">Si vous souhaitez activer CAC dans votre déploiement, vous devez activer CAC exactement un pool par site central.</span><span class="sxs-lookup"><span data-stu-id="18301-116">If you would like to enable CAC in your deployment, you must enable CAC in exactly one pool per central site.</span></span> <span data-ttu-id="18301-117">Nous vous recommandons de CAC si vous déployez des fonctionnalités vocales ou A / V Conferencing.</span><span class="sxs-lookup"><span data-stu-id="18301-117">We recommend CAC if you are deploying voice features or A/V Conferencing.</span></span> 
+> <span data-ttu-id="3b647-116">Si vous souhaitez activer CAC dans votre déploiement, vous devez activer CAC exactement un pool par site central.</span><span class="sxs-lookup"><span data-stu-id="3b647-116">If you would like to enable CAC in your deployment, you must enable CAC in exactly one pool per central site.</span></span> <span data-ttu-id="3b647-117">Nous vous recommandons de CAC si vous déployez des fonctionnalités vocales ou A / V Conferencing.</span><span class="sxs-lookup"><span data-stu-id="3b647-117">We recommend CAC if you are deploying voice features or A/V Conferencing.</span></span> 
   
-<span data-ttu-id="18301-118">Pour plus d’informations sur la spécification des fonctionnalités pour un pool Enterprise Edition, voir [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="18301-118">For details about specifying features for an Enterprise Edition pool, see [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
+<span data-ttu-id="3b647-118">Pour plus d’informations sur la spécification des fonctionnalités pour un pool Enterprise Edition, voir [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="3b647-118">For details about specifying features for an Enterprise Edition pool, see [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
   
 
