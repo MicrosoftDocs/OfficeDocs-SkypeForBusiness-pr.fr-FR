@@ -1,25 +1,24 @@
 ---
-title: Test des conférences rendez-vous dans Skype Entreprise Server 2015
+title: Conférence rendez-vous test dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 'Résumé : Découvrez comment tester la conférence rendez-vous dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 7e6e53d5d4ee3e3e28beadc54ca86a79c6118637
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez comment tester la conférence rendez-vous dans Skype pour Business Server.'
+ms.openlocfilehash: 258c860a0a808b40384a766bc5151e671789a03c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569270"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966411"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server-2015"></a>Test des conférences rendez-vous dans Skype Entreprise Server 2015
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Conférence rendez-vous test dans Skype pour Business Server
  
-**Résumé :** Découvrez comment tester la conférence rendez-vous dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment tester la conférence rendez-vous dans Skype pour Business Server.
   
 Pour terminer la vérification de votre configuration de conférence rendez-vous, vous pouvez chercher des plans de numérotation dont la région de conférence rendez-vous n’est utilisée par aucun numéro d’accès et des numéros d’accès que vous n’avez pas spécifiés dans une région de conférence rendez-vous. Vous devez également vérifier que la page web Paramètres de conférence rendez-vous et les numéros d’accès entrants fonctionnent correctement.
   

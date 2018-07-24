@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
-description: 'Étape 3 : Demander, installer ou assigner les certificats démarre l’Assistant certificat lorsque vous cliquez sur Exécuter. Les certificats sont configurés par le biais de l’Assistant sont basées sur la définition de la Skype pour la topologie de serveur d’entreprise qui est configurée et publiée par le Générateur de topologie dans le magasin Central de gestion. Pour exécuter correctement l’Assistant Certificat pour une autorité de certification en ligne dans votre organisation, vous devez être connecté à un ordinateur en tant que membre du groupe Administrateurs local de cet ordinateur. Vous devez également être un utilisateur de domaine authentifié dans le domaine où l’ordinateur et l’autorité de certification existent. L’Assistant certificat ne fournit pas la possibilité de spécifier d’autres informations d’identification pour l’accès autorité de certification de votre organisation.'
-ms.openlocfilehash: 12f55778d5c8652c9b04d3d26193dae75c2dad53
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'L’Étape 3 : Demander, installer ou assigner les certificats démarre l’Assistant Certificat lorsque vous cliquez sur Exécuter. Les certificats sont configurés par le biais de l’Assistant sont basées sur la définition de la Skype pour la topologie de serveur d’entreprise qui est configurée et publiée par le Générateur de topologie dans le magasin Central de gestion. Pour exécuter correctement l’Assistant Certificat pour une autorité de certification en ligne dans votre organisation, vous devez être connecté à un ordinateur en tant que membre du groupe Administrateurs local de cet ordinateur. Vous devez également être un utilisateur de domaine authentifié dans le domaine où l’ordinateur et l’autorité de certification existent. L’Assistant certificat ne fournit pas la possibilité de spécifier d’autres informations d’identification pour l’accès autorité de certification de votre organisation.'
+ms.openlocfilehash: cf61a6e2c065ea01e18ae5935c3b4e0e49d9ea36
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992138"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966214"
 ---
 # <a name="request-install-or-assign-certificates"></a>Demander, installer ou assigner des certificats
  
