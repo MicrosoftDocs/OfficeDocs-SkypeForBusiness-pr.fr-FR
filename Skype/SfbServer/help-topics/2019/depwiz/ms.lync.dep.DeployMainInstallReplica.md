@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
-description: Pour commencer l’installation d’un nouveau Skype pour le serveur de rôle de serveur d’entreprise, vous devez d’abord installer le serveur SQL local qui va héberger le magasin de configurations local. Le magasin de configurations local agira comme un réplica en lecture seule de la Skype pour le magasin Central de gestion de Business Server (CMS). Vous devez être connecté au serveur que vous exécutez l’étape installer le magasin de configurations Local en tant qu’administrateur local sur l’ordinateur et avez appartenir au groupe RTCUniversalServerAdmins ou le groupe RTCUniversalGlobalReadOnlyGroup. Si vous effectuez l’installation sur un serveur Edge, vous n’avez pas besoin d’être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Le document de définition du Générateur de topologie est lu à partir du document exporté définition plutôt qu’à partir du magasin Central de gestion. Pour exporter le document de définition du Générateur de topologie et la rendre disponible pour les serveurs de périphérie, consultez la rubrique Exporter votre topologie et les copie il sur un support externe de l’Installation Edge.
-ms.openlocfilehash: fd2e6a51d0ff7d6194f0ec39592765807ea55da4
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Pour commencer l’installation d’un nouveau Skype pour le serveur de rôle de serveur d’entreprise, vous devez d’abord installer le serveur SQL local qui va héberger le magasin de configurations local. Le magasin de configurations local agira comme un réplica en lecture seule de la Skype pour le magasin Central de gestion de Business Server (CMS).
+ms.openlocfilehash: ab19a45925a25b97e9b1c478c631ee71fe999b83
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988298"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993669"
 ---
 # <a name="install-local-configuration-store"></a>Installer le magasin de configurations local
  

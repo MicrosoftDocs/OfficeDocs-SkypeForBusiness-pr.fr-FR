@@ -1,33 +1,33 @@
 ---
-title: Activation ou désactivation de la messagerie instantanée hors ligne dans Skype Entreprise Server 2015
+title: Activer ou désactiver en mode hors connexion la messagerie instantanée dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 6/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
-description: Apprenez à activer ou désactiver les hors connexion messagerie instantanée (IM) dans Skype pour Business Server 2015.
-ms.openlocfilehash: a9133ad82e4d25fae2aebd266273ecbb37c2a010
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Apprenez à activer ou désactiver en mode hors connexion de messagerie instantanée dans Skype pour Business Server.
+ms.openlocfilehash: f033a3953e2be215f4acb587414cad4faf35855f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019558"
 ---
-# <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server-2015"></a>Activation ou désactivation de la messagerie instantanée hors ligne dans Skype Entreprise Server 2015
+# <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>Activer ou désactiver en mode hors connexion la messagerie instantanée dans Skype pour Business Server
  
-Apprenez à activer ou désactiver les hors connexion messagerie instantanée (IM) dans Skype pour Business Server 2015.
+Apprenez à activer ou désactiver en mode hors connexion de messagerie instantanée dans Skype pour Business Server.
   
-## <a name="enable-offline-instant-messaging-im-in-skype-for-business-server-2015"></a>Activer en mode hors connexion la messagerie instantanée (MI) dans Skype pour Business Server 2015
+## <a name="enable-offline-instant-messaging-im-in-skype-for-business-server"></a>Activer en mode hors connexion la messagerie instantanée dans Skype pour Business Server
 
-Messagerie instantanée en mode hors connexion est une fonctionnalité de côté de client intégrée à Skype pour client d’entreprise (2016 C2R build 16.0.6701.1000 ou version ultérieure) qui s’appuie sur Exchange Web Services (EWS) pour envoyer des messages à partir de la Skype pour client d’entreprise pour la boîte aux lettres Exchange de l’utilisateur. Hors connexion messagerie instantanée utilise Exchange Web Services (EWS) pour envoyer des messages en mode hors connexion à partir de la Skype pour client d’entreprise à la boîte aux lettres du destinataire. EWS doit être disponible pour le Skype pour client d’entreprise pour envoyer des messages en mode hors connexion. Pour en savoir plus sur la planification de la messagerie instantanée et de présence, afficher un [Plan pour la messagerie instantanée et de présence dans Skype pour Business Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md).
+Messagerie instantanée en mode hors connexion est une fonctionnalité de côté client intégrée Skype pour client d’entreprise (2016 C2R build 16.0.6701.1000 ou ultérieure) qui tire parti des Services Web Exchange (EWS) pour envoyer des messages à partir de la Skype pour client d’entreprise pour la boîte aux lettres Exchange de l’utilisateur. Hors connexion de messagerie instantanée utilise Exchange Web Services (EWS) pour envoyer des messages en mode hors connexion à partir de la Skype pour client d’entreprise pour la boîte aux lettres du destinataire. EWS doit être disponible pour le Skype pour client d’entreprise pour envoyer des messages en mode hors connexion. Pour en savoir plus sur la planification de la messagerie instantanée et présence, voir [planification de la messagerie instantanée et présence dans Skype pour Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
   
 > [!NOTE]
-> Si la boîte aux lettres de l’utilisateur est hébergé dans Exchange sur site, le Skype pour client d’entreprise (2016 C2R build 16.0.6920.1000) est requis 
+> Si la boîte aux lettres de l’utilisateur est hébergé dans Exchange locale, le Skype pour client d’entreprise (2016 C2R build 16.0.6920.1000) est requis 
   
-### <a name="to-enable-or-disable-offline-im-in-skype-for-business-server-2015-with-cu3"></a>Pour activer ou désactiver en mode hors connexion par messagerie instantanée Skype pour 2015 de serveur d’entreprise avec CU3
+### <a name="to-enable-or-disable-offline-im-in-skype-for-business-server"></a>Pour activer ou désactiver en mode hors connexion par messagerie instantanée Skype pour Business Server
 
 1. Ouvrez le Skype pour Business Server Management Shell.
     
@@ -40,7 +40,7 @@ Messagerie instantanée en mode hors connexion est une fonctionnalité de côté
     > [!NOTE]
     > Dans Skype pour Business Server 2015 CU3, l’option EnableOfflineIM est définie sur $True par défaut. Pour désactiver, définissez-la sur $False. 
   
-3. Exécutez la commande suivante pour vérifier la capacité de stocker de hors connexion la messagerie instantanée est définie.
+3. Exécutez la commande suivante pour vérifier la valeur de la capacité de stocker d’en mode hors connexion la messagerie instantanée.
     
    ```
    Get-CsImConfiguration
@@ -50,21 +50,17 @@ Messagerie instantanée en mode hors connexion est une fonctionnalité de côté
 
 La messagerie instantanée hors ligne ne sera pas disponible pour les expéditeurs s'ils disposent d'une stratégie client qui désactive l'enregistrement automatique des messages hors ligne dans le dossier d'historique des conversations (EnableIMAutoArchiving = $false). Il n'existe aucun mécanisme permettant de vérifier si le destinataire est en mesure de recevoir les messages hors ligne.
   
-Ils seront reçus sous la forme d’un message électronique avec une classe de message de la messagerie instantanée des messages en mode hors connexion dans la même organisation. Note.MissedConversation et doit figurer dans les dossiers Outlook **Manqué une Conversation** , ainsi que l’historique de conversation qui est reprise dans l’onglet de l’historique récent liste/conversation dans Skype pour les clients de l’entreprise.
+Ils seront reçues en tant qu’un message électronique avec la classe de message de messagerie instantanée pour les messages envoyés au sein de la même organisation hors connexion. Note.MissedConversation et ne sont inclus dans le dossier Outlook **Conversations manquées** , ainsi que l’historique des conversations qui seront reprises dans récents onglet liste/conversation historique Skype pour les clients d’entreprise.
   
 Les messages hors ligne envoyés à partir d'une organisation fédérée seront reçus sous forme d'e-mail sans IM.Note.MisssedConversation et ne seront pas récupérés dans les dossiers de conversation manquée ni d'historique des conversations. 
   
 ## <a name="troubleshooting"></a>Identification et résolution des problèmes
 
-Il existe un minuteur de deux minutes à partir de quand un message en mode hors connexion est envoyé à lorsqu’il a décroché et traitées. Si les messages en mode hors connexion ne peut pas être traitées, ils apparaîtront dans le répertoire suivant : 
+Il existe un minuteur de deux minutes de lorsqu’un message en mode hors connexion est envoyé à lorsqu’il a choisie et traités. Si les messages en mode hors connexion ne peut pas être traitées apparaîtront dans le répertoire suivant : 
   
-   ```
-  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler
-  ```
+  <pre>  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler   </pre>
 
-Le Skype principal pour les journaux ETL d’entreprise contient des informations sur le traitement des messages en mode hors connexion et est votre meilleure source d’enquête/dépannage. 
+Le principal Skype pour journal ETL Business contient des informations sur le traitement des messages en mode hors connexion et est votre meilleure source d’enquête/la résolution des problèmes. 
   
 > [!NOTE]
-> Un problème lié à l'échec de l'envoi des messages hors ligne et au dossier Brouillons saturé de messages a été signalé. Ce problème survenait avec les boîtes aux lettres Exchange sur site et a été résolu dans tous les canaux C2R depuis le 14/06/2016.  
-  
-
+> Un problème lié à l'échec de l'envoi des messages hors ligne et au dossier Brouillons saturé de messages a été signalé. Ce problème survenait avec les boîtes aux lettres Exchange sur site et a été résolu dans tous les canaux C2R depuis le 14/06/2016.   

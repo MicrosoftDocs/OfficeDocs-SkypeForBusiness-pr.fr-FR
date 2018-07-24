@@ -3,19 +3,18 @@ title: Remarques relatives à la jonction du domaine Skype Room System
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Consultez cette rubrique pour découvrir comment joindre un appareil PC Skype Room System à votre domaine.
-ms.openlocfilehash: ffc55984df3b42b06f4db8faa6a286ea41e99480
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: b89ca5c5619c8d090aa765d0be1765b0b13900de
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568660"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972477"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Remarques relatives à la jonction du domaine Skype Room System
  
@@ -60,12 +59,12 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-Même si vous créez une unité organisationnelle distincte et que vous bloquez l’héritage, il existe certaines stratégies qui pourraient entraîner des problèmes à un niveau supérieur. Une stratégie de groupe sans aucun paramètre de remplacement bat une unité organisationnelle avec un paramètre Bloquer l’héritage de stratégies. Pour plus d’informations, consultez l’article « No remplacer as par rapport à bloquer l’héritage » dans la documentation de la stratégie de groupe à http://technet.microsoft.com/en-us/library/cc978255.aspx.
+Même si vous créez une unité organisationnelle distincte et que vous bloquez l’héritage, il existe certaines stratégies qui pourraient entraîner des problèmes à un niveau supérieur. Une stratégie de groupe sans aucun paramètre de remplacement bat une unité organisationnelle avec un paramètre Bloquer l’héritage de stratégies. Pour plus d’informations, voir l’article [Aucun remplacement par rapport à bloquer l’héritage](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) dans la documentation de la stratégie de groupe.
   
 Vous avez peut-être plusieurs approches pour résoudre ces problèmes. Nous vous conseillons de consulter vos experts Active Directory afin de vous assurer que vous disposez d’une unité organisationnelle aux paramètres GPO appropriés, ou au moins d’une unité organisationnelle dans laquelle les stratégies décrites précédemment n’existent pas. Il est conseillé d’activer la qualité de Service (QoS) pour les périphériques de système de salle Skype.
 
 ## <a name="see-also"></a>Voir aussi
   
-[Configuration du périphérique : Créer une nouvelle ou en modifier une existant](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
+[Configuration du périphérique : création d’un périphérique ou modification d’un périphérique existant](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 
-[Gestion de la qualité de Service](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)
+[Gestion de la qualité de service](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)

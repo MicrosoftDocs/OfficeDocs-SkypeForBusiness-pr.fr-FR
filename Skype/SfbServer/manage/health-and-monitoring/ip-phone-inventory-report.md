@@ -1,29 +1,28 @@
 ---
-title: Rapport d’inventaire de téléphonie IP dans Skype Entreprise Server 2015
+title: Rapport d’inventaire de téléphonie IP dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: 'Résumé : Découvrez le rapport d’inventaire téléphone IP dans Skype pour Business Server 2015.'
-ms.openlocfilehash: fd68e94f9d4c30aafb86302d8211b52909f737db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez le rapport d’inventaire téléphone IP dans Skype pour Business Server.'
+ms.openlocfilehash: bbcbe74fe95d719bee2b8c660d110854088b1150
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569553"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017977"
 ---
-# <a name="ip-phone-inventory-report-in-skype-for-business-server-2015"></a>Rapport d’inventaire de téléphonie IP dans Skype Entreprise Server 2015
+# <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Rapport d’inventaire de téléphonie IP dans Skype pour Business Server
  
-**Résumé :** Découvrez le rapport d’inventaire téléphone IP dans Skype pour Business Server 2015.
+**Résumé :** Découvrez le rapport d’inventaire téléphone IP dans Skype pour Business Server.
   
 Le Rapport d’inventaire de téléphonie IP fournit des informations sur les téléphones IP en cours d’utilisation dans votre organisation. Il offre une liste détaillée des téléphones IP qui ont été utilisées durant la période de rapport spécifiée. Entre autres choses, il permet aux administrateurs de savoir s’il existe des téléphones obsolètes qui doivent être remplacés. Il peut également les alerter quant à la présence de téléphones coûteux rarement utilisés. Ce type d’informations peut être précieux dans le cadre de l’achat de nouveaux téléphones ou de la redistribution des téléphones existants (par exemple, il peut être demandé à un utilisateur qui n’utilise son téléphone coûteux que très rarement de l’échanger avec un autre utilisateur qui utilise le sien beaucoup plus fréquemment).
   
-Il convient de noter que ce rapport n’a quelques limitations lorsqu’il s’agit d’être utilisé comme un rapport d’inventaire de la valeur true. Tout d’abord, le rapport de téléphonie IP répertorie simplement tous les téléphones qui a ouvert une session sur Skype pour Business Server pendant la période spécifiée, triés par leur dernière connexion. Si un téléphone vous n'êtes pas connecté au cours de la période spécifiée puis il apparaîtra pas dans le rapport d’inventaire. Qui inclut les téléphones connectés avant la période de temps en route et étaient toujours connectés pendant l’intervalle de temps spécifié. Par exemple, supposons que vous souhaitez examiner les emplacements de téléphone pour juillet 2015. Supposons que, ainsi que plusieurs téléphones ouvert une session sur Skype pour Business Server sur le 30 juin 2015 et étaient toujours connectés à compter du 1er juillet. Ces téléphones s’affichera pas sur le rapport d’inventaire pour le 1er juillet.
+Il convient de noter que ce rapport n’a quelques limitations lorsqu’il s’agit d’être utilisé comme un rapport d’inventaire de la valeur true. Tout d’abord, le rapport de téléphonie IP répertorie simplement tous les téléphones qui a ouvert une session sur Skype pour Business Server pendant la période spécifiée, triés par leur dernière connexion. Si un téléphone vous n'êtes pas connecté au cours de la période spécifiée puis il apparaîtra pas dans le rapport d’inventaire. Qui inclut les téléphones connectés avant la période de temps en route et étaient toujours connectés pendant l’intervalle de temps spécifié. Par exemple, supposons que vous souhaitez examiner les emplacements de téléphone pour juillet 2015. Ainsi, supposons que plusieurs téléphones ouvert une session sur Skype pour Business Server sur 30 juin 2015 et qu’étaient toujours connectés à compter du 1er juillet. Ces téléphones s’affichera pas sur le rapport d’inventaire pour le 1er juillet.
   
 Il convient également de noter que le rapport d’inventaire pourrait inclure des téléphones que votre organisation n’utilise plus. Supposez par exemple, que plusieurs téléphones Fabrikam se sont connectés au système le 1er juillet 2015 ; cinq jours plus tard, votre organisation s’est débarrassée de tous ces téléphones Fabrikam et les a remplacés par un modèle Contoso plus récent. Les téléphones Fabrikam apparaîtront tout de même dans le rapport d’inventaire simplement du fait qu’ils se sont connectés au système durant le mois de juillet.
   
@@ -91,7 +90,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport d’inventaire de téléphonie IP.
   
-**Filtres du rapport d’inventaire téléphone IP**
+**Filtres de rapport d’inventaire de téléphonie IP**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -109,9 +108,9 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 Le tableau qui suit répertorie les informations fournies dans le rapport d’inventaire de téléphonie IP.
   
-**Mesures du rapport d’inventaire téléphone IP**
+**Mesures du rapport d’inventaire de téléphonie IP**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Fabricant** <br/> |Oui  <br/> |Nom de la société ayant fabriqué le téléphone IP.  <br/> |
 |**Version du matériel** <br/> |Oui  <br/> |Numéro de version du téléphone IP.  <br/> |

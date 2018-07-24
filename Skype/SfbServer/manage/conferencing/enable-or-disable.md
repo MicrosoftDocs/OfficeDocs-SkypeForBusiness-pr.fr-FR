@@ -1,32 +1,32 @@
 ---
-title: Activation ou désactivation des conférences rendez-vous dans Skype Entreprise Server 2015
+title: Activer ou désactiver la conférence rendez-vous dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
-description: 'Résumé : Apprenez à utiliser le panneau de configuration ou Management Shell pour activer ou désactiver la numérotation conférence dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 6441e548ce944cdd8786178ed7b80b0af7d625f8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment utiliser le panneau de configuration ou Management Shell pour activer ou désactiver la conférence rendez-vous dans Skype pour Business Server.'
+ms.openlocfilehash: 47393140e41277aef3ec137ee3f1c6a96fa9efca
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983860"
 ---
-# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server-2015"></a>Activation ou désactivation des conférences rendez-vous dans Skype Entreprise Server 2015
+# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Activer ou désactiver la conférence rendez-vous dans Skype pour Business Server
  
-**Résumé :** Apprenez à utiliser le panneau de configuration ou Management Shell pour activer ou désactiver la numérotation conférence dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment utiliser le panneau de configuration ou Management Shell pour activer ou désactiver la conférence rendez-vous dans Skype pour Business Server.
   
-Vous pouvez activer la numérotation de conférence à l’aide de Skype pour le panneau de configuration de Business Server ou à l’aide de Skype pour Business Server Management Shell.
+Vous pouvez activer la conférence rendez-vous à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de Skype pour Business Server Management Shell.
   
-## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Activer ou désactiver l’appel de conférence pour le panneau de configuration de Business Server à l’aide de Skype
+## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Activer ou désactiver la conférence rendez-vous à l’aide de Skype pour Business Server Control Panel
 
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2.  Ouvrez Skype pour le panneau de configuration de Business Server.
+2.  Ouvrez le panneau de configuration serveur Business Skype.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de conférence**.
     
@@ -36,7 +36,7 @@ Vous pouvez activer la numérotation de conférence à l’aide de Skype pour le
     
 6. Cliquez sur **Valider**. 
     
-## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>Activer ou désactiver les conférences à distance à l’aide de Skype pour Business Server Management Shell
+## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>Activer ou désactiver la conférence rendez-vous à l’aide de Skype pour Business Server Management Shell
 
 Pour activer ou désactiver une conférence rendez-vous, utilisez l’applet de commande **Set-CsConferencingPolicy** avec le paramètre EnableDialInConferencing, comme suit :
   

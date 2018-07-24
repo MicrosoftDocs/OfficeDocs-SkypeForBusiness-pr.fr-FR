@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
-description: 'Topologie : la page d’état affiche l’état des serveurs dans votre Skype pour la topologie de l’entreprise.'
-ms.openlocfilehash: 59bb21d2b7199f40a991b2e42768f6c29dd41e11
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'La page Topologie : Statut affiche le statut des serveurs dans votre topologie Skype Entreprise.'
+ms.openlocfilehash: 25a9f5e7f0cd5ca9019c1920ee9c95cd4fdaf485
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046276"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983475"
 ---
 # <a name="topology-status"></a>Topologie : statut
  
@@ -26,14 +27,13 @@ La page **Topologie** : **Statut** affiche le statut des serveurs dans votre to
 
 Dans la page **Topologie** : **Statut**, vous pouvez effectuer les tâches suivantes :
   
-- [Afficher la liste des ordinateurs exécutant Lync Server 2010](http://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [Afficher la liste des ordinateurs qui exécutent Skype pour Business Server ou Lync Server](http://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
     
 - [Afficher les détails d’un Service](http://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
     
-- [Démarrer ou arrêter les Services Lync Server 2010](http://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [Démarrer ou arrêter des Services](http://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
     
 - [Empêcher les nouvelles connexions aux Services](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
-    
- 
+
   
 

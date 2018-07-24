@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
+ROBOTS: NOINDEX, NOFOLLOW
 description: La page exécution de commandes affiche l’état des commandes récupérez le certificat en attente. Lorsque la tâche est terminée, le fichier journal de récupérer les certificats en attente est disponible. Cliquez sur Afficher le journal pour passer en revue le traitement et l’état d’achèvement de tâche. Cliquez sur Suivant pour continuer.
-ms.openlocfilehash: 5846ea840c7caccddb428b00f7d5c33e570667dd
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 63da48b442c0b82e3c9f729ff5a6931803208437
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19996967"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988109"
 ---
 # <a name="pending-certificate-invoke"></a>Certificat en attente (Invoke)
  

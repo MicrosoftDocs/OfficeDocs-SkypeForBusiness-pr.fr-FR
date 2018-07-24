@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
+ROBOTS: NOINDEX, NOFOLLOW
 description: Dans la boîte de dialogue Modifier la stratégie de mobilité, vous pouvez modifier les détails d’une stratégie de mobilité.
-ms.openlocfilehash: 6e7c8f1b043219fbc7cb098f15c006e907d1822d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 5f0a38dc4cd5a9d61412aeabbf333af587afae01
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969588"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987704"
 ---
 # <a name="edit-client-mobility-policy"></a>Modifier la stratégie de mobilité Client
  
@@ -26,7 +27,6 @@ Dans la boîte de dialogue **Modifier la stratégie de mobilité** , vous pouvez
 
 Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
   
-### 
 
 - **Valider** Cliquez pour enregistrer les modifications apportées aux paramètres de stratégie.
     

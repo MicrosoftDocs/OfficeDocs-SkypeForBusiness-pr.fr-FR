@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 'Pour modifier les paramètres d’un directeur existant, vous permettent des sections suivantes :'
-ms.openlocfilehash: 47eddf9761c9751960f887c173521587c4e6c54a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fb42d87140b3a4db2cef0bb70a976d1b9242bbf8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971340"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003412"
 ---
 # <a name="director-general-settings-expander"></a>Expanseur des paramètres généraux du directeur
  
@@ -26,9 +26,8 @@ Pour modifier les paramètres d’un directeur existant, vous permettent des sec
     
 - Services web
     
-## 
 
-### <a name="general-settings"></a>Paramètres généraux
+## <a name="general-settings"></a>Paramètres généraux
 
 Nom de domaine complet (FQDN) du pool directeur. Modifiez le nom de domaine complet du serveur pour changer la valeur. Vous devez disposer d’un enregistrement d’hôte DNS (A) correspondant à la nouvelle valeur.
   
@@ -41,7 +40,7 @@ Surveillance du magasin SQL Server.
 > [!IMPORTANT]
 > Avant de publier la nouvelle topologie que vous venez de définir, le serveur que vous spécifiez doit exister et être joint au domaine. Si vous avez créé un nouveau partage de fichiers, le partage de fichiers doit être créé sur le serveur que vous désignez. 
   
-### <a name="web-services"></a>Services web
+## <a name="web-services"></a>Services web
 
 Pour modifier ou spécifier des paramètres supplémentaires pour les services Web sur le pool directeur, vous modifiez ou spécifiez des paramètres dans les services Web internes et les services Web externes.
   
@@ -50,7 +49,7 @@ Pour modifier ou spécifier des paramètres supplémentaires pour les services W
 > [!CAUTION]
 > Si vous avez plus d’un pool frontal ou serveur frontal des services Web externes nom de domaine complet doit être unique. Par exemple, si vous définissez les nom de domaine complet d’un serveur frontal des services Web externes comme **pool01.contoso.com**, vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également les directeurs, nom de domaine complet défini pour n’importe quel directeur des services Web externe ou pool directeur doit être unique à partir de n’importe quelle autre directeur ou directeur du pool ainsi qu’un pool frontal ou un serveur frontal. Si vous décidez de remplacer les services web internes avec un nom de domaine complet automatiquement défini, chaque nom de domaine complet doit être unique à partir de n’importe quel autre pool frontal, directeur ou un pool directeur.
   
-Si vous sélectionnez Remplacer nom de domaine complet, vous pouvez spécifier un autre nom de domaine complet pour l’identité des services Web internes sur le pool. Par défaut, le paramètre est le nom du pool actuel défini pour le pool directeur.
+Si vous sélectionnez Remplacer le nom de domaine complet, vous pouvez spécifier un nom de domaine complet différent pour l’identité des services web internes sur le pool. Par défaut, le paramètre est le nom du pool actuel défini pour le pool directeur.
   
 Vous pouvez spécifier les ports d’écoute et publiés pour HTTP et HTTPS exigés par votre déploiement. Le paramètre par défaut du port 80 pour HTTP et le port 443 pour le protocole HTTPS sont les paramètres les plus courants et généralement n’avez pas besoin d’être modifié, sauf si vous avez des exigences spécifiques au sein de votre organisation et la conception de l’infrastructure.
   

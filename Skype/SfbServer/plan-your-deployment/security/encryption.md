@@ -1,30 +1,30 @@
 ---
-title: Chiffrement pour Skype Entreprise Server 2015
+title: Chiffrement pour Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 9/15/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
-description: Skype pour Business Server 2015 utilise TLS et MTLS pour chiffrer les messages instantanés. L’ensemble du trafic serveur à serveur nécessite MTLS, et ce que le trafic soit confiné au réseau interne ou qu’il traverse le périmètre du réseau interne. Lorsque la connexion Skype pour Business Server 2015 à 3 systèmes IPPBX de tiers ou les SIP trunks TLS est facultatif mais fortement recommandé entre le serveur de médiation et la passerelle multimédia. Si TLS est configuré sur cette liaison, MTLS est requis. Par conséquent, la passerelle doit être configurée avec un certificat auprès d’une autorité de certification qui est approuvée par le serveur de médiation.
-ms.openlocfilehash: bf17f2c8ff8180fa5622957c665da3f4608ca833
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Skype pour Business Server utilise TLS et MTLS pour chiffrer les messages instantanés. L’ensemble du trafic serveur à serveur nécessite MTLS, et ce que le trafic soit confiné au réseau interne ou qu’il traverse le périmètre du réseau interne. Lorsque la connexion Skype pour Business Server 3ème systèmes tiers de IPPBX ou jonctions SIP TLS est facultatif mais fortement recommandé entre le serveur de médiation et passerelle multimédia. Si TLS est configuré sur cette liaison, MTLS est requis. Par conséquent, la passerelle doit être configurée avec un certificat à partir d’une autorité de certification approuvée par le serveur de médiation.
+ms.openlocfilehash: cdb5953253f10659747d0556d905de43d1d839b0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019730"
 ---
-# <a name="encryption-for-skype-for-business-server-2015"></a>Chiffrement pour Skype Entreprise Server 2015
+# <a name="encryption-for-skype-for-business-server"></a>Chiffrement pour Skype pour Business Server
  
-Skype pour Business Server 2015 utilise TLS et MTLS pour chiffrer les messages instantanés. L’ensemble du trafic serveur à serveur nécessite MTLS, et ce que le trafic soit confiné au réseau interne ou qu’il traverse le périmètre du réseau interne. Lorsque la connexion Skype pour Business Server 2015 à 3 systèmes IPPBX de tiers ou les SIP trunks TLS est facultatif mais fortement recommandé entre le serveur de médiation et la passerelle multimédia. Si TLS est configuré sur cette liaison, MTLS est requis. Par conséquent, la passerelle doit être configurée avec un certificat auprès d’une autorité de certification qui est approuvée par le serveur de médiation.
+Skype pour Business Server utilise TLS et MTLS pour chiffrer les messages instantanés. L’ensemble du trafic serveur à serveur nécessite MTLS, et ce que le trafic soit confiné au réseau interne ou qu’il traverse le périmètre du réseau interne. Lorsque la connexion Skype pour Business Server pour les systèmes tiers IPPBX ou jonctions SIP TLS est facultatif mais fortement recommandé entre le serveur de médiation et passerelle multimédia. Si TLS est configuré sur cette liaison, MTLS est requis. Par conséquent, la passerelle doit être configurée avec un certificat à partir d’une autorité de certification approuvée par le serveur de médiation.
   
 > [!NOTE]
-> Un avis de sécurité relatif à SSL 3.0 a été publié en 2014. Désactiver SSL 3.0 dans Skype pour Business Server 2015 est une option de prise en charge. Pour en savoir plus sur l’avis de sécurité, voir [désactivation de SSL 3.0 dans Lync Server 2013 et Skype pour Business Server 2015](https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/). 
-  
-> [! NOTE de sécurité] afin de garantir le protocole de cryptage plus puissant est utilisé, Skype pour Business Server 2015 offre aux clients des protocoles de cryptage TLS dans l’ordre suivant : **TLS 1.2, TLS 1.1 et TLS 1.0**. TLS est un aspect critique de Skype pour Business Server 2015 et il est donc nécessaire afin de maintenir un environnement pris en charge. 
+> Un avis de sécurité relatif à SSL 3.0 a été publié en 2014. Désactivation de SSL 3.0 dans Skype pour Business Server 2015 est une option de prise en charge. Pour en savoir plus sur l’avis de sécurité, voir [désactivation SSL 3.0 dans Lync Server 2013 et Skype pour Business Server 2015](https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/).<br/>
+**Remarque sur la sécurité :** Pour vérifier que le protocole de chiffrement puissant est utilisé, Skype pour Business Server 2015 offre les protocoles de chiffrement TLS dans l’ordre suivant aux clients : **TLS 1.2, TLS 1.1, TLS 1.0**. TLS est un aspect critique de Skype pour Business Server 2015 et par conséquent, il est nécessaire afin de conserver un environnement pris en charge.<br/>
+**Remarque sur la sécurité :** Pour vérifier que le protocole de chiffrement puissant est utilisé, Skype pour Business Server 2019 offre les protocoles de chiffrement TLS dans l’ordre suivant aux clients : **2.0 TLS, TLS 1.2**. TLS est un aspect critique de Skype pour Business Server 2019 et par conséquent, il est nécessaire afin de conserver un environnement pris en charge. 
   
 Le tableau suivant résume les exigences de protocole pour chaque type de trafic. 
   
@@ -45,10 +45,10 @@ Le tableau suivant résume les exigences de protocole pour chaque type de trafic
 Le trafic multimédia est chiffré à l'aide du protocole SRTP (Secure Real-time Transport Protocol), un profil du protocole RTP (Real-Time Transport Protocol) qui offre confidentialité, authentification et protection contre les attaques sur le trafic RTP. De plus, les données multimédias acheminées dans les deux directions entre le serveur de médiation et son tronçon suivant interne sont également chiffrées avec SRTP. Les données multimédias acheminées dans les deux directions entre le serveur de médiation et une passerelle multimédia sont également chiffrées et recommandées. Le serveur de médiation peut prendre en charge le chiffrement sur la passerelle multimédia, mais la passerelle doit prendre en charge MTLS et le stockage d’un certificat.
   
 > [!NOTE]
-> Si vous implémentez un environnement hybride, vous devez également modifier le Skype Business Server 2015 niveau de chiffrement. Par défaut, ce paramètre est défini sur Requis. Vous devez modifier ce paramètre sur pris en charge à l’aide de la Skype pour Business Server Management Shell. Pour plus d’informations sur la configuration hybride, voir [déplacer les utilisateurs de Skype pour Business en ligne sur le site](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-skype-for-business-online-to-on-premises.md) dans la documentation de déploiement.
+> Si vous implémentez un environnement hybride, vous devez également modifier le Skype Business Server niveau de chiffrement. Par défaut, ce paramètre est défini sur Requis. Vous devez modifier ce paramètre sur pris en charge à l’aide de la Skype pour Business Server Management Shell. Pour plus d’informations sur la configuration hybride, consultez [planification de la connectivité hybride entre Skype pour Business Server et Skype pour Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) ou [Skype pour les solutions Business Server 2019 hybride](../../../SfBServer2019/hybrid/hybrid-solutions.md) dans la documentation de déploiement.
   
 ## <a name="fips"></a>FIPS
 
-Skype pour Business Server 2015 et 2016 de Microsoft Exchange Server fonctionne avec la prise en charge des algorithmes de traitement Standard FIPS (Federal Information) 140-2 si les systèmes d’exploitation Windows Server sont configurés pour utiliser la norme FIPS 140-2 algorithmes par système cryptographie. Pour implémenter la prise en charge FIPS, vous devez configurer chaque serveur exécutant Skype pour 2015 de serveur d’entreprise prendre en charge.
+Skype pour Business Server et Microsoft Exchange Server 2016 fonctionnent avec prise en charge pour les algorithmes de traitement Standard FIPS (Federal Information) 140-2 si les systèmes d’exploitation Windows Server sont configurés pour utiliser FIPS 140-2 algorithmes pour le chiffrement du système . Pour implémenter la prise en charge FIPS, vous devez configurer chaque serveur qui exécute Skype pour Business Server prennent en charge.
   
 

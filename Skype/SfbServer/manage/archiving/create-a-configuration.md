@@ -1,24 +1,24 @@
 ---
-title: Création d’une configuration d’archivage dans Skype Entreprise Server 2015
+title: Créer une configuration d’archivage dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
-description: 'Résumé : Apprenez à créer une configuration d’archivage pour Skype pour Business Server 2015.'
-ms.openlocfilehash: 5675117d14d35e0055c7e494ce9476d421dda443
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment créer une configuration d’archivage pour Skype pour Business Server.'
+ms.openlocfilehash: b46aa3605d34ba083b7021424536b9c2d1c9bbea
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019844"
 ---
-# <a name="create-an-archiving-configuration-in-skype-for-business-server-2015"></a>Création d’une configuration d’archivage dans Skype Entreprise Server 2015
+# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Créer une configuration d’archivage dans Skype pour Business Server
 
-**Résumé :** Apprenez à créer une configuration d’archivage pour Skype pour Business Server 2015.
+**Résumé :** Découvrez comment créer une configuration d’archivage pour Skype pour Business Server.
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>Configurer les options d’archivage à l’aide du panneau de configuration
 
@@ -26,7 +26,7 @@ Pour configurer des options d’archivage pour un site ou un pool :
   
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrir une fenêtre de navigateur et entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration de Business Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
     

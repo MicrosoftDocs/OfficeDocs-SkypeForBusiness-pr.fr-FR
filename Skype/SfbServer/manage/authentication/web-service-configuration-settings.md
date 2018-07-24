@@ -1,35 +1,35 @@
 ---
-title: Gestion des paramètres de configuration du service web dans Skype Entreprise Server 2015
+title: Gérer les paramètres de configuration de Service Web dans Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-description: 'Résumé : Gérer les paramètres de configuration de Service Web dans Skype pour Business Server 2015.'
-ms.openlocfilehash: a0976728ecd09392408fb719861681e0465d7bed
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Gérer les paramètres de configuration de Service Web dans Skype pour Business Server.'
+ms.openlocfilehash: 7724ef576142c2eb6cebb287a88b7761a69028aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995833"
 ---
-# <a name="manage-web-service-configuration-settings-in-skype-for-business-server-2015"></a>Gestion des paramètres de configuration du service web dans Skype Entreprise Server 2015
+# <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Gérer les paramètres de configuration de Service Web dans Skype pour Business Server
  
-**Résumé :** Gérer les paramètres de configuration de Service Web dans Skype pour Business Server 2015.
+**Résumé :** Gérer les paramètres de configuration de Service Web dans Skype pour Business Server.
   
-Vous pouvez utiliser la page du **Service Web** pour configurer les méthodes d’authentification pour l’accès à Skype pour les serveurs web Business Server 2015 lié et les Services Web.
+Vous pouvez utiliser la page **Service Web** pour configurer les méthodes d’authentification pour accéder à Skype pour Business Server liées serveurs web et Services Web.
   
 Pour créer une stratégie de service web, procédez comme suit.
   
 ### <a name="to-create-new-web-service-configuration-settings"></a>Pour créer des paramètres de configuration d’un service web
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou dispose de droits d’utilisateur équivalent), ou le rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur sur le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur qui se trouve dans le réseau dans lequel vous avez déployé Skype pour Business Server .
     
-2. Ouvrir une fenêtre de navigateur et entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration de Business Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Service web**.
     
@@ -53,15 +53,15 @@ Pour créer une stratégie de service web, procédez comme suit.
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>Modification des paramètres de configuration d’un service web existant
 
-Vous pouvez utiliser la page du **Service Web** pour configurer les méthodes d’authentification pour l’accès à Skype pour les serveurs web Business Server 2015 lié et les Services Web.
+Vous pouvez utiliser la page **Service Web** pour configurer les méthodes d’authentification pour accéder à Skype pour Business Server liées serveurs web et Services Web.
   
 Pour modifier une stratégie de service web existante, procédez comme suit.
   
 ### <a name="to-modify-existing-web-service-configuration-settings"></a>Pour modifier des paramètres de configuration d’un service web existant
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou dispose de droits d’utilisateur équivalent), ou le rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur sur le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur qui se trouve dans le réseau dans lequel vous avez déployé Skype pour Business Server .
     
-2. Ouvrir une fenêtre de navigateur et entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration de Business Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Service web**.
     
@@ -85,9 +85,9 @@ Pour supprimer les paramètres de configuration des services web, procédez comm
   
 ### <a name="to-delete-web-service-configuration-settings"></a>Pour supprimer des paramètres de configuration d’un service web existant
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou dispose de droits d’utilisateur équivalent), ou le rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur sur le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur qui se trouve dans le réseau dans lequel vous avez déployé Skype pour Business Server .
     
-2. Ouvrir une fenêtre de navigateur et entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration de Business Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Service web**.
     
@@ -99,7 +99,7 @@ Pour supprimer les paramètres de configuration des services web, procédez comm
     
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de Configuration du Service Web à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez supprimer les paramètres de configuration du service web à l’aide de Windows PowerShell et l’applet de commande **Remove-CsWebServiceConfiguration** . Vous pouvez exécuter cette applet de commande à partir de la Skype pour Business Server Management Shell ou à partir d’une session à distance de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter sur Skype pour Business Server, consultez l’article de blog [« rapide démarrer : gestion de Microsoft PowerShell Lync Server 2010 à l’aide à distance »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype pour Business Server.
+Vous pouvez supprimer les paramètres de configuration du service web à l’aide de Windows PowerShell et l’applet de commande **Remove-CsWebServiceConfiguration** . Vous pouvez exécuter cette applet de commande à partir de la Skype pour Business Server Management Shell ou d’une session à distance de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Skype pour Business Server, consultez l’article de blog [« rapide démarrer : gestion de Microsoft PowerShell Lync Server 2010 à l’aide à distance »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype pour Business Server.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Pour supprimer une collection de paramètres de configuration des services web
 
@@ -125,6 +125,6 @@ La commande ci-dessous supprime tous les paramètres de sécurité des services 
   Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
   ```
 
-Pour plus d’informations, consultez [Supprimer-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps).
+Pour plus d’informations, voir [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps).
   
 

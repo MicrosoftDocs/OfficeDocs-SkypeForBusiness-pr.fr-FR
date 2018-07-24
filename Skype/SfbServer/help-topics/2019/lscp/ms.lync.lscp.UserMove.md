@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
-description: Dans la page déplacer des utilisateurs, vous pouvez sélectionner un pool de destination pour déplacer l’utilisateur sélectionné.
-ms.openlocfilehash: 28aa7fb074d4aed5d4d770091cb545917e7cb6df
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Dans la boîte de dialogue Déplacer des utilisateurs, vous pouvez sélectionner un pool de destination vers lequel déplacer l’utilisateur sélectionné.
+ms.openlocfilehash: 90aec8c75a444e0d8ac11c7296df28ad2ca141d6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975005"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992603"
 ---
 # <a name="move-user"></a>Déplacement d’un utilisateur
  

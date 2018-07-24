@@ -3,26 +3,29 @@ title: Surveillance des fichiers journaux de suivi des demandes de services Inte
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
-description: 'Résumé : En savoir plus sur le Service de mobilité (Mcx) dans Skype pour la prise en charge pour les clients hérités Business Server 2015.'
-ms.openlocfilehash: 51913162603203333cd201c64ed21770825bdaf7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : En savoir plus sur le Service de mobilité (Mcx) dans Skype pour Business Server 2015 prise en charge pour les clients hérités.'
+ms.openlocfilehash: 5ed817290bdf86d11dd4a2cf0e95c83fb4c31d9a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983825"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>Surveillance des fichiers journaux de suivi des demandes de services Internet (IIS) dans Skype Entreprise Server 2015
  
-**Résumé :** Obtenir des informations sur le Service de mobilité (Mcx) dans Skype pour la prise en charge pour les clients hérités Business Server 2015.
+**Résumé :** Découvrez le Service de mobilité (Mcx) dans Skype pour Business Server 2015 prise en charge pour les clients hérités.
   
 Cette rubrique concerne les déploiements prenant en charge uniquement les clients Lync Mobile de Lync 2010, et en particulier le service Mcx (Mobility Service).
+
+> [!NOTE]
+> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.
   
-Lorsque vous activez le traçage des demandes Internet Information Services (IIS) pour le Skype pour Service de mobilité Business Server (Mcx), les fichiers journaux générés peuvent consommer jusqu'à trois gigaoctets d’espace disque par jour. La journalisation du suivi IIS est activée par défaut. Vous devez surveiller les serveurs frontaux afin de vous assurer qu’ils ne s’exécutent pas suffisamment d’espace disque. 
+Lorsque vous activez le suivi des demandes Internet Information Services (IIS) pour le Skype pour le Service de mobilité Business Server (Mcx), les fichiers journaux générés peuvent consommer jusqu'à trois gigaoctets d’espace disque par jour. La journalisation du suivi IIS est activée par défaut. Vous devez surveiller les serveurs frontaux pour vous assurer qu’ils n’exécutent pas suffisamment d’espace disque. 
   
 Par défaut, les services Internet (IIS) stockent les fichiers journaux dans %SystemDrive%\inetpub\logs\LogFiles.
   
@@ -32,6 +35,6 @@ Pour désactiver le suivi des demandes IIS pour un serveur entier, tapez ce qui 
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 
-Pour plus d’informations sur la commande de **httpLogging** , consultez [la référence des commandes](https://go.microsoft.com/fwlink/p/?linkId=234927).
+Pour plus d’informations sur la commande **httpLogging** , voir [la référence des commandes](https://go.microsoft.com/fwlink/p/?linkId=234927).
   
 

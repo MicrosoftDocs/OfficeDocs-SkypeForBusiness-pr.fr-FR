@@ -1,5 +1,5 @@
 ---
-title: Partage d’écran vidéo pour Skype Entreprise Server 2015
+title: Vidéo en fonction de partage d’écran pour Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/20/2018
@@ -8,17 +8,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
-description: 'Skype pour plus d’informations de planification et configuration de Business Server 2015 pour vidéo partage d’écran (VbSS), qui est désormais disponible en téléchargement : Skype pour KB3061064 de mise à jour Cumulative Business Server 2015.'
-ms.openlocfilehash: a76778db02ece625d7c9933662d88aea99dbdf7f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: Skype pour les informations de planification et la configuration de Business Server pour le partage d’écran vidéo (VbSS)
+ms.openlocfilehash: 8f76fbe0879cc9abd452d8b1e0064627c215b20e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569256"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968325"
 ---
-# <a name="video-based-screen-sharing-for-skype-for-business-server-2015"></a>Partage d’écran vidéo pour Skype Entreprise Server 2015
+# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vidéo en fonction de partage d’écran pour Skype pour Business Server 
  
-Skype pour plus d’informations de planification et configuration de Business Server 2015 pour vidéo partage d’écran (VbSS), qui est désormais disponible en téléchargement : [Skype pour KB3061064 de mise à jour Cumulative Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=47690).
+Vidéo partage d’écran (VbSS) dans Skype pour Business Server 2015 est désormais disponible en téléchargement : [Skype pour KB3061064 de mise à jour Cumulative Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=47690). VbSS est inclus avec Skype pour Business Server 2019.
   
 Vidéo-partage d’écran, ou VbSS, a augmenté de Lync de partage d’écran. La différence entre VbSS et le partage d'écran traditionnel réside dans les protocoles sous-jacents utilisés et dans ce qu'ils permettent de réaliser. Le partage d'écran utilise le protocole RDP (Remote Desktop Protocol), qui est parfait pour créer des centaines de sessions un-à-un entre plusieurs ordinateurs individuels. Une nouvelle technologie, VbSS, utilisera le protocole User Datagram Protocol (UDP).
   
@@ -46,7 +46,7 @@ Sachez également que la fiabilité, la vitesse et l'efficacité prévalent gén
 
 **Ports de serveur requis**
 
-|**Rôle de serveur**|**Nom de service**|**Port ou plage de ports**|**Protocole**|**Remarques**|
+|**Rôle serveur**|**Nom du service**|**Port ou plage de ports**|**Protocole**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|
 |serveurs frontaux  <br/> |Skype pour le service de partage d’Application Business Server  <br/> |5065  <br/> |TCP  <br/> |Utilisé pour les demandes d’écoute SIP entrantes dans le cadre du partage d’application.  <br/> |
 |Serveurs frontaux  <br/> |Skype pour le service de partage d’Application Business Server  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Plage de ports multimédias utilisée pour le partage d’application.  <br/> |
@@ -75,13 +75,13 @@ Si QoS est activé pour les ports multimédias suivants et VbSS est également a
    
 ### <a name="capacity-planning"></a>Planification de capacité
 
-Chaque serveur frontal exécutant Skype pour Business Server 2015 à jour Cumulative 2 (CU2) prend en charge jusqu'à 375 participants pour l’écran de partage à l’aide du protocole RDP (bien que simplement 250 par réunion). Cette capacité ne modifie pas la situation après CU3, lorsque VbSS est mis en place et utilisé.
+Chaque serveur frontal exécutant Skype pour Business Server 2015 à jour Cumulative 2 (CU2) ou version ultérieure prend en charge jusqu'à 375 participants pour l’écran de partage à l’aide du protocole RDP (bien que simplement 250 par réunion). Cette capacité ne modifie pas la situation après CU3, lorsque VbSS est mis en place et utilisé.
   
 Ceci étant dit, des tests de contrainte et de performances ont été réalisés dans notre laboratoire et les mesures suivantes doivent également être prises en compte dans le cadre de votre propre déploiement (en fonction, bien sûr, de l'usage).
   
 Supposons les points suivants :
   
-- Vous utilisez Skype pour Business Server 2015 CU2 dans votre déploiement.
+- Vous utilisez Skype pour Business Server 2015 CU2 ou version ultérieure de votre déploiement.
     
 - Tous les utilisateurs dans votre Skype pour un environnement Business Server ont des résolutions d’écran supérieures à 1920 x 1080.
     
@@ -97,7 +97,7 @@ Pour empêcher cela, vous pouvez procéder de l'une des manières suivantes :
     
 Les chiffres figurant dans cette table subissent l’influence des réseaux individuels et des contenus partagés. Veuillez effectuer un test afin de déterminer les lignes de base de votre ou de vos réseau(x).
   
-|**Contenu 1080p**|**RDP moyenne**|**RDP maximale**|**VbSS moyenne**|**VbSS maximale**|
+|**Contenu 1080p **|**RDP moyenne**|**Pic RDP**|**Moyenne VbSS**|**Pic VbSS**|
 |:-----|:-----|:-----|:-----|:-----|
 |PPT  <br/> |200 Kbits/s  <br/> |12  <br/> |100 Kbits/s  <br/> |3mbps  <br/> |
 |CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1 Mbits/s  <br/> |3mbps  <br/> |
@@ -107,7 +107,7 @@ Les chiffres figurant dans cette table subissent l’influence des réseaux indi
 
 La bande passante pour VbSS est :
   
-|**Codec vidéo**|**Résolution et proportions**|**Vitesse de transmission de charge utile vidéo maximale (Kbits/s)**|**Vitesse de transmission de charge utile vidéo minimale (Kbits/s)**|
+|**Codec vidéo**|**Résolution et proportions**|**Vitesse de transmission de la charge utile vidéo maximale (Kbits/s)**|**Vitesse de transmission de la charge utile vidéo minimale (Kbits/s)**|
 |:-----|:-----|:-----|:-----|
 |H.264  <br/> |1 920x1 080 (16:9)  <br/> (La proportion dépend de la résolution du moniteur de l'utilisateur qui partage son écran et ne sera pas toujours de 16:9)  <br/> |4000  <br/> |1500  <br/> |
    
@@ -134,7 +134,7 @@ Il existe des situations où le partage d’écran passera à RDP, comme celles-
   
 ## <a name="enabling-disabling-and-configuring-vbss"></a>Activation, désactivation et configuration de VbSS
 
-L’avantage est une fois que vous avez installé le Skype pour Business Server 2015 Cumulative Update 3 (CU3), tous vos utilisateurs seront activées pour 1-1 et à plusieurs VbSS par défaut. Ceci peut vous poser problème si vous ne souhaitez pas, pour une raison quelconque, que cette fonctionnalité soit activée pour tous vos utilisateurs. Dans ce cas, vous pouvez suivre les étapes suivantes pour désactiver des utilisateurs (les étapes permettant d'activer des utilisateurs seront décrites par la suite) :
+L’avantage est une fois que vous avez installé le Skype pour Business Server 2015 Cumulative Update 3 (CU3) ou version ultérieure, tous vos utilisateurs seront activés pour 1-1 et à plusieurs VbSS par défaut. Ceci peut vous poser problème si vous ne souhaitez pas, pour une raison quelconque, que cette fonctionnalité soit activée pour tous vos utilisateurs. Dans ce cas, vous pouvez suivre les étapes suivantes pour désactiver des utilisateurs (les étapes permettant d'activer des utilisateurs seront décrites par la suite) :
   
 ### <a name="how-to-disable-users-from-using-vbss"></a>Comment désactiver la fonctionnalité VbSS pour des utilisateurs :
 

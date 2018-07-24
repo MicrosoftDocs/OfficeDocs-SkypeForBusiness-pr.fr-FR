@@ -25,12 +25,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: d8cac3838550530666c2e7550c616a0b77cfd820
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: bd03e7c85b91bb9995dcbac3fc5d885cba2c7bd0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500682"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968459"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise
 
@@ -107,9 +107,9 @@ Après avoir activé la communication externe avec les autres Skype pour les uti
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>Conseils de configuration des communications avec des entreprises fédérées
 <a name="bk_preview"> </a>
 
-- Pour configurer la fédération entre Skype Entreprise 2015 et Skype Entreprise Online, consultez cet article TechNet : [Configuration de la fédération avec Skype Entreprise Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
+- Pour configurer la fédération entre Skype pour Business 2015 et Skype pour Business Online, consultez cet article : [configurer la fédération avec Skype pour Business Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
     
-- Pour configurer la fédération entre Lync et Skype Entreprise Online, consultez cet article TechNet : [Configuration de la prise en charge de la fédération pour un client Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
+- Pour configurer la fédération entre Lync et Skype pour Business Online, consultez cet article : [Configuration de la prise en charge de la fédération pour un client Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
     
 - Lorsque deux utilisateurs Skype Entreprise dans Office 365 communiquent entre eux sur des domaines distincts, ils peuvent uniquement utiliser les fonctionnalités Skype Entreprise (par exemple, des conversations vidéo ou un partage de bureau) qui sont activées dans les deux organisations.
     

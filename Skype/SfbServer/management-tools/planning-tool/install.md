@@ -10,21 +10,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
-description: Avant de commencer à concevoir et planification votre Skype pour Business Server 2015 infrastructure à l’aide de la Skype pour outil de planification de 2015 Business Server, vous devez d’abord installer l’outil de planification. L’outil de planification n’a pas besoin d’être déployés sur une station de travail ou un serveur faisant partie de l’infrastructure ou du domaine dans lequel vous envisagez d’installer Skype pour Business Server 2015. Le fichier Lisezmoi qui accompagne l’outil de planification décrit en détail les informations importantes sur l’installation et à l’aide de l’outil. Certaines des informations contenues dans le fichier Lisez-moi sont expliquées ici par souci de clarté.
-ms.openlocfilehash: 1c5c56031890aaff035e237e2ff7ab6d89d6ba2b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Avant de commencer la conception et planification de votre Skype pour Business Server 2015 infrastructure à l’aide de la Skype pour l’outil de planification de 2015 Business Server, vous devez d’abord installer l’outil de planification. L’outil de planification ne doit pas être déployé sur une station de travail ou un serveur faisant partie de l’infrastructure ou le domaine où vous prévoyez d’installer Skype pour Business Server 2015. Le fichier Readme qui accompagne l’outil de planification des détails des informations importantes sur l’installation et à l’aide de l’outil. Certaines des informations contenues dans le fichier Lisez-moi sont expliquées ici par souci de clarté.
+ms.openlocfilehash: 462964672f0fe9aaf426bd196357ffb8eca05e9d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002849"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Installer l’outil de planification dans Skype Entreprise Server 2015
  
-Avant de commencer à concevoir et planification votre Skype pour Business Server 2015 infrastructure à l’aide de la Skype pour outil de planification de 2015 Business Server, vous devez d’abord installer l’outil de planification. L’outil de planification n’a pas besoin d’être déployés sur une station de travail ou un serveur faisant partie de l’infrastructure ou du domaine dans lequel vous envisagez d’installer Skype pour Business Server 2015. Le fichier Lisezmoi qui accompagne l’outil de planification décrit en détail les informations importantes sur l’installation et à l’aide de l’outil. Certaines des informations contenues dans le fichier Lisez-moi sont expliquées ici par souci de clarté.
+Avant de commencer la conception et planification de votre Skype pour Business Server 2015 infrastructure à l’aide de la Skype pour l’outil de planification de 2015 Business Server, vous devez d’abord installer l’outil de planification. L’outil de planification ne doit pas être déployé sur une station de travail ou un serveur faisant partie de l’infrastructure ou le domaine où vous prévoyez d’installer Skype pour Business Server 2015. Le fichier Readme qui accompagne l’outil de planification des détails des informations importantes sur l’installation et à l’aide de l’outil. Certaines des informations contenues dans le fichier Lisez-moi sont expliquées ici par souci de clarté.
   
 > [!IMPORTANT]
-> L’outil de planification nécessite l’installation par un utilisateur disposant de droits d’administrateur et les autorisations sur l’ordinateur sur lequel l’outil doit être installé. 
+> L’outil de planification doit être installé par un utilisateur disposant de droits d’administrateur et des autorisations sur l’ordinateur sur lequel l’outil doit être installé. 
   
-Les systèmes d’exploitation pris en charge pour l’installation et le fonctionnement de l’outil de planification sont les suivantes :
+Les systèmes d’exploitation pris en charge pour l’installation et l’utilisation de l’outil de planification sont les suivants :
   
 - Windows 10 
     
@@ -42,17 +43,17 @@ Les systèmes d’exploitation pris en charge pour l’installation et le foncti
     
 - Windows Server 2008 R2 avec WOW
     
-En outre, l’outil de planification nécessite Microsoft.NET Framework 4.5.
+En outre, l’outil de planification nécessite Microsoft .NET Framework 4.5.
   
-Une fois que les spécifications de préinstallation sont respectées, vous pouvez ensuite installer l’outil de planification.
+Une fois que les conditions de préinstallation sont remplies, vous pouvez ensuite installer l’outil de planification.
   
-## 
 
-### <a name="to-install-the-planning-tool"></a>Pour installer l’outil de planification
+
+## <a name="to-install-the-planning-tool"></a>Pour installer l’outil de planification
 
 1. Ouvrez une session sur l’ordinateur local en tant que membre du groupe Administrateurs.
     
-2. À l’aide de l’Explorateur Windows ou dans une fenêtre de commande, recherchez le répertoire où vous avez téléchargé les fichiers d’installation de l’outil de planification.
+2. À l’aide de l’Explorateur Windows ou une fenêtre de commande, recherchez le répertoire où vous avez téléchargé les fichiers d’installation de l’outil de planification.
     
 3. Recherchez le fichier SkypeForBusinessPlanningTool.msi. Dans l’Explorateur Windows, double-cliquez sur le fichier. Dans la fenêtre de commande, tapez le nom du fichier, puis appuyez sur **Entrée** pour exécuter le fichier.
     
@@ -66,48 +67,45 @@ Une fois que les spécifications de préinstallation sont respectées, vous pouv
     
 8. L’installation débute et la progression s’affiche. Une fois l’installation terminée, cliquez sur **Terminer**.
     
-9. L’outil de planification est prêt à l’emploi.
+9. L’outil de planification est prêt à être utilisé.
     
 ## <a name="optional-software"></a>Optional Software
 <a name="Optional_Software"> </a>
 
-Le Skype pour outil de planification de 2015 Business Server conçu pour l’exportation vers Microsoft Excel et Microsoft Visio. Alors que ces applications ne sont pas requises pour le fonctionnement de l’outil de planification, leur ajouter une valeur significative à la documentation de votre conception et le déploiement.
+Le Skype pour l’outil de planification de Business Server 2015 conçu pour l’exportation vers Microsoft Excel et Microsoft Visio. Alors que ces applications ne sont pas nécessaires au fonctionnement de l’outil de planification, ils ajoutent une valeur significative pour le déploiement et la documentation de votre conception.
   
 ### <a name="microsoft-excel"></a>Microsoft Excel
 
 L’exportation de votre conception vers Microsoft Excel permet de créer un rapport sous forme de feuille de calcul à quatre onglets :
   
-- Résumé - affiche des informations sur la configuration du site, y compris les informations de profil de serveur, les paramètres de capacité et nombre d’utilisateurs.
+- Résumé - affiche des informations sur la configuration du site, notamment le nombre d’utilisateurs, les paramètres de la capacité et les informations de profil de serveur.
     
-- Profil matériel - affiche un rapport sur les configurations matérielles recommandées pour les serveurs qui sont spécifiés dans la topologie, y compris le CPU, mémoire, disque et interface réseau. La quantité et les caractéristiques conseillées pour les composants serveur y figurent également. Par ailleurs, chaque serveur est défini par site afin de fournir une représentation complète de la configuration serveur requise pour chaque site.
+- Profil matériel - affiche un rapport sur les configurations matérielle recommandée pour les serveurs qui sont spécifiés dans la topologie, y compris l’interface réseau, la mémoire, disque et processeur. La quantité et les caractéristiques conseillées pour les composants serveur y figurent également. Par ailleurs, chaque serveur est défini par site afin de fournir une représentation complète de la configuration serveur requise pour chaque site.
     
-- Exigences des ports - affiche un rapport de tous les ports qui sont activés et l’association (livres de DNS) d’équilibrage de charge de système de nom de domaine et les équilibreurs de charge matériels (HUMIDIFICATION à HLB). Vous devez utiliser ce rapport pour planifier votre pare-feu et les configurations de l’équilibrage de la charge DNS et des programmes d’équilibrage de la charge matérielle.
+- Configuration requise des ports - affiche un rapport de tous les ports qui sont activés et l’association (DNS kg) d’équilibrage de charge de système de nom de domaine et les équilibreurs de charge matérielle (HLB). Vous devez utiliser ce rapport pour planifier votre pare-feu et les configurations de l’équilibrage de la charge DNS et des programmes d’équilibrage de la charge matérielle.
     
-- Rapport de synthèse - affiche le récapitulatif des paramètres qui sont requis pour configurer votre réseau de serveur de transport Edge.
+- Rapport de synthèse - affiche le récapitulatif des paramètres qui sont nécessaires pour configurer votre réseau de serveur de transport Edge.
     
-- Certificats - affiche le nom de l’objet et le sujet autres noms qui sont requises pour les certificats nécessaires pour obtenir les serveurs Edge.
+- Rapport de certificats - affiche le nom du sujet et les autres noms du sujet qui sont requis pour les certificats nécessaires pour obtenir les serveurs de périphérie en cours d’exécution.
     
-- Rapport - affiche les ports source et de destination et les adresses IP pour les interfaces à la fois interne et externe du pare-feu.
+- Rapport - affiche la source et destination des ports et adresses IP des interfaces interne et externe du pare-feu.
     
-- DNS - affiche le nom de domaine pleinement qualifié (FQDN) et les adresses IP/VIP requis pour chaque entrée DNS que vous créez.
+- Rapport DNS - affiche le nom de domaine complet (FQDN) et les adresses IP/adresse IP virtuelle est requis pour chaque entrée DNS que vous créez.
     
 ### <a name="microsoft-visio"></a>Microsoft Visio
 
 L’exportation de votre conception vers Microsoft Visio crée un diagramme à utiliser dans la documentation de votre topologie et infrastructure configurée. Le diagramme importé peut être modifié et réorganisé pour répondre aux besoins de votre documentation. Un diagramme Visio classique inclut les éléments suivants :
   
 > [!NOTE]
-> Si votre conception est assez grande pour demander plus de trois serveurs frontaux, une page supplémentaire sera créée pour le pool de Front-End, serveurs frontaux, l’ordinateur qui exécute SQL Server, adresses IP et noms de domaine complets. 
+> Si votre conception est suffisante pour demander de plus de trois serveurs frontaux, une page supplémentaire sera créée pour le pool frontal, serveurs frontaux, l’ordinateur qui exécute SQL Server, les adresses IP et noms de domaine complets. 
   
-- Topologie globale - diagramme de Skype configuré pour des sites entreprise serveur 2015.
+- Topologie globale : diagramme de Skype configuré pour les sites Business Server 2015.
     
-- Onglet du nom de site - affiche la topologie de configuration de site avec le serveur de transport Edge, pare-feu, public switched téléphone réseau (RTPC) avec les passerelles et le déploiement de serveur interne. Déploiement interne se compose de serveurs configurés et pools pools, y compris la partie frontale, les serveurs SQL Server, Active Directory Domain Services, directeurs, Exchange la messagerie unifiée (MU), les serveurs de boîtes aux lettres Exchange, Office Web Apps serveurs, Serveurs de médiation et des serveurs de conversation permanent.
+- Onglet Nom de site - affiche la topologie de configuration de site avec le serveur de périphérie, le pare-feu, public switched téléphone PSTN (réseau) avec les passerelles et le déploiement du serveur interne. Déploiement interne se compose de serveurs configurés et pools pools, y compris le serveur frontal, les serveurs SQL Server, Services de domaine Active Directory, directeurs, la messagerie unifiée Exchange (MU) serveurs, les serveurs de boîtes aux lettres Exchange, serveurs Office Web Apps Server, Serveurs de médiation et serveurs de conversation permanente.
     
-- Diagramme de réseau - diagramme décrivant la configuration de serveur de transport Edge avec les adresses IP et les noms de domaine complets associés du contour. L’équilibrage de la charge DNS et les programmes d’équilibrage de la charge matérielle sont également inclus. En outre, les directeurs et le pool de serveur frontal ou de Front-End sont affichés, avec associé DNS LB ou HUMIDIFICATION à HLB et l’adresse IP (l’outil de planification prend en charge les adresses IPv4 et IPv6) et le nom de domaine complet.
+- Edge organigramme - diagramme décrivant la configuration du serveur Edge avec associé à des adresses IP et noms de domaine complets. L’équilibrage de la charge DNS et les programmes d’équilibrage de la charge matérielle sont également inclus. En outre, les directeurs et le pool frontal ou serveur frontal sont affichés, avec kg de DNS associé ou matérielle et l’adresse IP (l’outil de planification prend en charge les adresses IPv4 et IPv6) et le nom de domaine complet.
     
 ## <a name="see-also"></a>Voir aussi
 <a name="Optional_Software"> </a>
 
-#### 
-
-[L’installation de l’outil de planification](http://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)
-
+[Installation de l’outil de planification](http://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)

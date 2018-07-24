@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Le serveur Office Web Apps Server fournit des services similaires au téléchargement d’un document par un présentateur, qui sera utilisé lors d’une réunion, et comporte des fonctions supplémentaires qui n’existaient pas dans les versions antérieures.
-ms.openlocfilehash: ea7df7254dc17b3db0107df9d92ba69d8c51b128
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: af10702b84021caa5d2e9a7c874e3dcaad2f54ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970660"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985808"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Page Associer un pool frontal à Office Web Apps Server
  
 Le serveur Office Web Apps Server fournit des services similaires au téléchargement d’un document par un présentateur, qui sera utilisé lors d’une réunion, et comporte des fonctions supplémentaires qui n’existaient pas dans les versions antérieures.
   
-Vous sélectionnez un serveur Office Web Apps Server pour votre déploiement si vous avez choisi conférence comme un de vos options de fonctionnalités pour votre Skype pour la configuration de Business Server 2015.
+Vous sélectionnez un serveur Office Web Apps Server pour votre déploiement si vous avez choisi conférence comme un de vos options de fonctionnalités pour votre Skype pour la configuration du serveur d’entreprise.
   
 Les options de cette boîte de dialogue proposent les choix suivants :
   

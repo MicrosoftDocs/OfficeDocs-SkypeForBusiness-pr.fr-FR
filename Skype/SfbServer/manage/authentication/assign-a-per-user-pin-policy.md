@@ -1,26 +1,25 @@
 ---
-title: Affectation d’une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server 2015
+title: Affecter une stratégie de code confidentiel par utilisateur dans Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: 'Résumé : Étape AV et OAuth certificats pour Skype pour Business Server 2015.'
-ms.openlocfilehash: 6eba19d67f2b2b04c98ed993fa02ca0c2052f28a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Étape AV et OAuth certificats pour Skype pour Business Server.'
+ms.openlocfilehash: fc7444aae0dfea0f22500f524490aea470c83903
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569511"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005952"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server-2015"></a>Affectation d’une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server 2015
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Affecter une stratégie de code confidentiel par utilisateur dans Skype pour Business Server
 
-**Résumé :** Certificats étape AV et OAuth pour Skype pour Business Server 2015.
+**Résumé :** Certificats étape AV et OAuth pour Skype pour Business Server.
   
 La stratégie de code confidentiel (PIN) dans les conférences rendez-vous identification personnel est un des paramètres individuels d’un compte d’utilisateur qui peuvent être configurés dans le Skype pour le panneau de configuration serveur Business.
   
@@ -67,7 +66,7 @@ Lorsque vous aurez créé au moins une stratégie de code confidentiel par utili
     > [!NOTE]
     > Car il existe plusieurs stratégies que vous pouvez configurer à l’aide de la boîte de dialogue **Affecter les stratégies** , ** \<conserver comme est\> ** est activée par défaut pour chaque stratégie dans la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.
   
-   - Autoriser Skype pour Business Server 2015 à choisir automatiquement la stratégie au niveau global ou, si elle est définie, la stratégie au niveau du site.
+   - Autoriser Skype pour Business Server à choisir automatiquement la stratégie au niveau global ou, si elle est définie, la stratégie au niveau du site.
     
    - Cliquez sur le nom d’une stratégie de code confidentiel par utilisateur que vous avez définie dans la page **Stratégie de code confidentiel**.
     
@@ -108,4 +107,4 @@ Pour plus d’informations, voir [Grant-CsPinPolicy](https://docs.microsoft.com/
   
 ## <a name="see-also"></a>Voir aussi
 
-[Créer une nouvelle stratégie de code confidentiel dans Skype pour Business Server 2015](create-a-new-pin-policy.md)
+[Créer une nouvelle stratégie de code confidentiel dans Skype pour Business Server](create-a-new-pin-policy.md)

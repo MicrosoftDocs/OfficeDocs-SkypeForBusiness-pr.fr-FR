@@ -1,32 +1,32 @@
 ---
-title: Création des stratégies de conférence dans Skype Entreprise Server 2015
+title: Créer des stratégies de conférence dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 'Résumé : Apprenez à créer des stratégies de conférence dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 301474d57998d5c9a794a978c4ec8877b1e53bc7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Apprenez à créer des stratégies de conférence dans Skype pour Business Server.'
+ms.openlocfilehash: 3c71962e42e083ada13b14bdecbefafbbc44f72b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996600"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server-2015"></a>Création des stratégies de conférence dans Skype Entreprise Server 2015
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Créer des stratégies de conférence dans Skype pour Business Server
  
-**Résumé :** Apprenez à créer des stratégies de conférence dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment créer des stratégies de conférence dans Skype pour Business Server.
   
-Vous pouvez créer des stratégies de conférence à l’aide de Skype pour le panneau de configuration de Business Server ou à l’aide de Skype pour Business Server Management Shell.
+Vous pouvez créer des stratégies de conférence à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de Skype pour Business Server Management Shell.
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Créer des stratégies de conférence pour le panneau de configuration de Business Server à l’aide de Skype
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Créer des stratégies de conférence à l’aide de Skype pour Business Server Control Panel
 
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2.  Ouvrez Skype pour le panneau de configuration de Business Server.
+2.  Ouvrez le panneau de configuration serveur Business Skype.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de conférence**.
     
@@ -43,7 +43,7 @@ Vous pouvez créer des stratégies de conférence à l’aide de Skype pour le p
     
 6. Sous **Stratégie de l’organisateur**, dans **Taille maximale de la réunion**, tapez le nombre maximal d’utilisateurs autorisés à participer à une réunion. Par défaut, la taille maximale de la réunion est définie sur 250.
     
-7. Pour empêcher les utilisateurs d’inviter des utilisateurs anonymes aux réunions, désactivez la case à cocher **Autoriser les participants à inviter des utilisateurs anonymes**. Les utilisateurs anonymes sont des utilisateurs qui n’ont pas d’informations d’identification des Services de votre organisation de domaine Active Directory et qui, par conséquent, ne sont pas authentifiés. Par défaut, les utilisateurs peuvent inviter des utilisateurs anonymes aux réunions.
+7. Pour empêcher les utilisateurs d’inviter des utilisateurs anonymes aux réunions, désactivez la case à cocher **Autoriser les participants à inviter des utilisateurs anonymes**. Les utilisateurs anonymes sont des utilisateurs qui n’ont pas d’informations d’identification dans des Services votre organisation de domaine Active Directory et qui, par conséquent, ne sont pas authentifiés. Par défaut, les utilisateurs peuvent inviter des utilisateurs anonymes aux réunions.
     
 8. Dans **Enregistrement**, effectuez l’une des opérations suivantes :
     
@@ -113,16 +113,16 @@ Vous pouvez créer des stratégies de conférence à l’aide de Skype pour le p
     
 21. Cliquez sur **Valider**.
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Créer des stratégies de la conférence à l’aide de Skype pour Business Server Management Shell
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Créer des stratégies de conférence à l’aide de Skype pour Business Server Management Shell
 
 Pour créer des stratégies de conférence, utilisez l’applet de commande **New-Cs ConferencingPolicy**.
   
-L’exemple suivant crée une nouvelle stratégie de conférence avec l’identité SalesConferencingPolicy. Cette stratégie utilise toutes les valeurs par défaut d’une stratégie de conférence, à l’exception de la valeur suivante : MaxMeetingSize. Dans cet exemple, la taille maximale d’une réunion sera définie sur 50 plutôt que sur 250, soit la valeur par défaut :
+L’exemple suivant crée une nouvelle stratégie de conférence dont l’identité est SalesConferencingPolicy. Cette stratégie utilise toutes les valeurs par défaut d’une stratégie de conférence, à l’exception de la valeur suivante : MaxMeetingSize. Dans cet exemple, la taille maximale d’une réunion sera définie sur 50 plutôt que sur 250, soit la valeur par défaut :
   
 ```
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-Pour plus d’informations, y compris une description de la syntaxe complète et d’une liste de paramètres, consultez [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
+Pour plus d’informations, y compris une description de la syntaxe complète et une liste des paramètres, voir [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
   
 

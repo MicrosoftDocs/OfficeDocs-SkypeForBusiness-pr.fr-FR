@@ -1,31 +1,30 @@
 ---
-title: Rapport de liste des échecs dans Skype Entreprise Server 2015
+title: Failure List Report dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Résumé : Découvrez le Failure List Report dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 7cb146569958908e79700e725d473bc246295c9d
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez le Failure List Report dans Skype pour Business Server.'
+ms.openlocfilehash: 3d40d7d73b6a4cb63e3885736a9a32f8b64ed989
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569319"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992632"
 ---
-# <a name="failure-list-report-in-skype-for-business-server-2015"></a>Rapport de liste des échecs dans Skype Entreprise Server 2015
+# <a name="failure-list-report-in-skype-for-business-server"></a>Failure List Report dans Skype pour Business Server 
  
-**Résumé :** Découvrez le Failure List Report dans Skype pour Business Server 2015.
+**Résumé :** Découvrez le Failure List Report dans Skype pour Business Server.
   
 Le Rapport des listes d’échecs fournit des informations sur les participants individuels à une session P2P ou session de conférence ayant échoué. Ces informations incluent l’URI de l’utilisateur qui a rencontré le problème, ainsi que le code de réponse SIP et l’ID de diagnostic associés à l’échec.
   
 ## <a name="accessing-the-failure-list-report"></a>Accès au Rapport des listes d’échecs
 
-Le rapport liste des défaillances est accessible en cliquant sur une des mesures suivantes dans le [Rapport de répartition dans Skype pour Business Server 2015](failure-distribution-report.md):
+Le rapport liste des défaillances est accessible en cliquant sur une des mesures suivantes dans le [Rapport de répartition dans Skype pour Business Server](failure-distribution-report.md):
   
 - Motifs de diagnostic principaux (sessions)
     
@@ -43,7 +42,7 @@ Le rapport liste des défaillances est accessible en cliquant sur une des mesure
     
 - Agents utilisateurs émetteurs principaux (sessions)
     
-Dans le rapport liste des défaillances, vous pouvez accéder le [rapport détaillé de Session d’égal à égal dans Skype pour Business Server 2015](peer-to-peer-session-detail-report.md) en cliquant sur la mesure détail de Session pour une session d’égal à égal. Vous pouvez également accéder au Rapport détaillé de conférence en cliquant sur la mesure Conférence pour une conférence.
+Dans le rapport liste des défaillances, vous pouvez accéder le [rapport détaillé de Session d’égal à égal dans Skype pour Business Server](peer-to-peer-session-detail-report.md) en cliquant sur la mesure détail de Session pour une session d’égal à égal. Vous pouvez également accéder au Rapport détaillé de conférence en cliquant sur la mesure Conférence pour une conférence.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Exploitation optimale du Rapport des listes d’échecs
 
@@ -97,9 +96,9 @@ Aucun. Il est impossible de filtrer le Rapport des listes d’échecs.
 
 Le tableau qui suit répertorie les informations fournies dans le Rapport des listes d’échecs pour chaque appel ayant échoué.
   
-**Mesures du rapport de liste des échecs**
+**Mesures du Rapport des listes d’échecs**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Heure du rapport** <br/> |Non  <br/> |Date et heure d’enregistrement du rapport.  <br/> |
 |**Demande** <br/> |Non  <br/> |Type de demande SIP ayant échoué. Par exemple, INVITE ou BYE.  <br/> |

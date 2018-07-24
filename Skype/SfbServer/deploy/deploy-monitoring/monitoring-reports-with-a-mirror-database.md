@@ -1,28 +1,28 @@
 ---
-title: Associer des rapports de surveillance à une base de données miroir dans Skype pour Business Server 2015
+title: Associer des rapports de surveillance à une base de données miroir dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: 'Résumé : Apprenez à associer des rapports de surveillance à une base de données miroir utilisé par Skype pour Business Server 2015.'
-ms.openlocfilehash: 246f16fd54133e2a6cf1e26a8126d0ec546bd686
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment associer des rapports de surveillance à une base de données miroir utilisée par Skype pour Business Server.'
+ms.openlocfilehash: e5d9072c2315a2d82f2f41559167a488747fa205
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000770"
 ---
-# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server-2015"></a>Associer des rapports de surveillance à une base de données miroir dans Skype pour Business Server 2015
+# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associer des rapports de surveillance à une base de données miroir dans Skype pour Business Server 
  
-**Résumé :** Découvrez comment associer des rapports de surveillance à une base de données miroir utilisé par Skype pour Business Server 2015.
+**Résumé :** Découvrez comment associer des rapports de surveillance avec une base de données miroir utilisée par Skype pour Business Server.
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>Rapports de surveillance avec une base de données miroir
 
-Si vous configurez une instance miroir pour votre base de données de surveillance, cette base de données miroir prendra la relève en tant que base de données principale en cas de basculement. Toutefois, si vous utilisez Skype pour les rapports de surveillance de serveur Business et si un basculement se produit, vous trouverez que vos rapports de surveillance ne vous connectez pas à la base de données miroir. Et ce, car, lorsque vous installez des rapports de surveillance, vous spécifiez seulement l’emplacement de la base de données principale ; vous devez aussi spécifier l’emplacement de la base de données miroir.
+Si vous configurez une instance miroir pour votre base de données de surveillance, cette base de données miroir prendra la relève en tant que base de données principale en cas de basculement. Toutefois, si vous utilisez Skype pour les rapports de surveillance Business Server et un basculement se produit, vous trouverez que vos rapports de surveillance se connectent pas à la base de données miroir. Et ce, car, lorsque vous installez des rapports de surveillance, vous spécifiez seulement l’emplacement de la base de données principale ; vous devez aussi spécifier l’emplacement de la base de données miroir.
   
 Pour que les rapports basculent automatiquement sur la base de données miroir, vous devez ajouter la base de données miroir comme « partenaire de basculement » pour les deux bases de données utilisées par les rapports de surveillance (l’une pour les données d’enregistrement des détails des appels, et l’autre pour les données de la qualité de l’expérience (QoE)). (Notez que cette étape doit être effectuée après l’installation des rapports de surveillance.) Vous pouvez ajouter les informations du partenaire de basculement en modifiant manuellement les valeurs des chaînes de connexion utilisées par ces deux bases de données. Pour cela, procédez comme suit :
   
@@ -40,7 +40,7 @@ Pour que les rapports basculent automatiquement sur la base de données miroir, 
     
     **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. Après avoir accédé à la page d’accueil des services de surveillance, cliquez sur **ServerReports**, puis sur **Reports_Content**. Ce lien vous amènera à la page **Reports_Content** pour le Skype pour les rapports de surveillance Business Server.
+2. Après avoir accédé à la page d’accueil des services de surveillance, cliquez sur **ServerReports**, puis sur **Reports_Content**. Qui vous dirige vers la page **Reports_Content** pour le Skype pour les rapports de surveillance Business Server.
     
 3. Sur la page **Reports_Content**, cliquez sur la source de données **CDRDB**.
     
@@ -66,9 +66,6 @@ Pour que les rapports basculent automatiquement sur la base de données miroir, 
     
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Installer la surveillance des rapports dans Skype pour Business Server 2015](install-monitoring-reports.md)
+[Installer les rapports de surveillance dans Skype pour Business Server](install-monitoring-reports.md)
   
-[À l’aide de la surveillance des rapports dans Skype pour Business Server 2015](../../manage/health-and-monitoring/monitoring-reports.md)
-
+[Utilisation des rapports de surveillance dans Skype pour Business Server](../../manage/health-and-monitoring/monitoring-reports.md)

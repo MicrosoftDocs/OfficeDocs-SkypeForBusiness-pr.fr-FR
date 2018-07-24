@@ -1,49 +1,48 @@
 ---
-title: Installation des rapports de surveillance dans Skype Entreprise Server 2015
+title: Installer les rapports de surveillance dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/21/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
-description: 'Résumé : Découvrez comment installer un service qui génère des rapports de surveillance dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 239274c6692358c06863d2e074bda1daf9d6c6b3
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez comment installer un service qui génère des rapports de surveillance dans Skype pour Business Server.'
+ms.openlocfilehash: 51d7e452be546c41daacbb0a0a77c142bace6e31
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569546"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016597"
 ---
-# <a name="install-monitoring-reports-in-skype-for-business-server-2015"></a>Installation des rapports de surveillance dans Skype Entreprise Server 2015
+# <a name="install-monitoring-reports-in-skype-for-business-server"></a>Installer les rapports de surveillance dans Skype pour Business Server
  
-**Résumé :** Découvrez comment installer un service qui génère des rapports de surveillance dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment installer un service qui génère des rapports de surveillance dans Skype pour Business Server.
   
-Skype pour les rapports de surveillance Business Server 2015 vous fournir un large éventail d’informations sur la qualité et la quantité des sessions de communication qui ont lieu dans votre organisation. 
+Skype pour les rapports de surveillance Business Server vous fournir un large éventail d’informations sur la qualité et la quantité des sessions de communication qui ont lieu dans votre organisation. 
   
 ## <a name="install-monitoring-reports"></a>Installer des rapports de surveillance
 
-Rapports de surveillance ne sont pas installés automatiquement lorsque vous installez Skype pour Business Server 2015 ; au lieu de cela, vous devez installer séparément les rapports de surveillance, et uniquement une fois Skype pour Business Server a été installé sur l’ordinateur.
+Rapports de surveillance ne sont pas installés automatiquement lorsque vous installez Skype pour Business Server ; au lieu de cela, vous devez installer séparément les rapports de surveillance, et uniquement une fois Skype pour Business Server a été installé sur l’ordinateur.
   
 > [!NOTE]
 > Il est recommandé d’installer les rapports de surveillance sur le même ordinateur que celui sur lequel la base de données de surveillance est installée. Cela simplifie le processus d’attribution des autorisations d’accès aux rapports : l’installation des rapports de surveillance sur l’ordinateur qui héberge le magasin d’analyse signifie qu’il n’est pas nécessaire de configurer les autorisations qui permettent à une base de données sur un premier ordinateur d’interagir avec le service Reporting Services exécuté sur un autre ordinateur. 
   
 Skype pour les rapports de surveillance Business Server inclut plus de 30 rapports conçus pour fournir des informations détaillées sur les conférences, les sessions de messagerie instantanée d’égal à égal, les enregistrements d’utilisateur, l’application Response Group et bien plus encore. La version 2013, Skype pour les rapports de surveillance Business Server inclut un certain nombre d’améliorations :
   
-- **Nouveaux rapports de qualité de la voix**. Ces rapports incluent le [Media Quality Comparison Report dans Skype pour Business Server 2015](../../manage/health-and-monitoring/comparison.md), qui permet de comparer la qualité entre les différents types d’appels (par exemple, entre les appels câblés et les appels sans fil) ; et le [Rapport des heures participer à une conférence dans Skype pour Business Server 2015](../../manage/health-and-monitoring/join-time-report.md), qui fournit des informations concernant la quantité de temps requiert pour les utilisateurs à participer à une conférence. 
+- **Nouveaux rapports de qualité de la voix**. Ces rapports incluent le [Media Quality Comparison Report dans Skype pour Business Server](../../manage/health-and-monitoring/comparison.md), qui permet de comparer la qualité entre les différents types d’appels (par exemple, entre les appels câblés et les appels sans fil) ; et le [Rapport des heures participer à une conférence dans Skype pour Business Server](../../manage/health-and-monitoring/join-time-report.md), qui fournit des informations concernant la quantité de temps requiert pour les utilisateurs à participer à une conférence. 
     
-- **Rapports améliorés pour l’analyse et la résolution des problèmes des sessions de partage vidéo et d’application.** le [Media Quality Summary Report dans Skype pour Business Server 2015](../../manage/health-and-monitoring/summary.md) fournit un moyen pour analyser la vidéo et partage des appels, tandis que le [Rapport de performances du serveur dans Skype pour Business Server 2015](../../manage/health-and-monitoring/server-performance.md) décrit en détail les performances des serveurs d’applications génération de ces appels. Vidéo et les mesures de partage d’application sont également signalés par le [rapport détaillé de Session d’égal à égal dans Skype pour Business Server 2015](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) et le [Rapport détaillé de conférence dans Skype pour Business Server 2015](../../manage/health-and-monitoring/detail-report.md).
+- **Rapports améliorés pour l’analyse et la résolution des problèmes des sessions de partage vidéo et d’application.** le [Media Quality Summary Report dans Skype pour Business Server](../../manage/health-and-monitoring/summary.md) fournit un moyen pour analyser le partage des appels, tandis que le [Rapport de performances du serveur dans Skype pour Business Server](../../manage/health-and-monitoring/server-performance.md) décrit en détail les performances des serveurs de génération de ces d’application et de la vidéo appels. Vidéo et les mesures de partage d’application sont également signalés par le [rapport détaillé de Session d’égal à égal dans Skype pour Business Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) et le [Rapport détaillé de conférence dans Skype pour Business Server](../../manage/health-and-monitoring/detail-report.md).
     
 - **Performances améliorées des rapports**. Ces améliorations incluent un temps de réponse et d’extraction des données plus court, ainsi qu’une navigation plus rapide et plus facile dans les rapports.
     
 D’autres informations sur chaque rapport sont disponibles dans la documentation des rapports de surveillance.
   
 > [!NOTE]
-> Il existe un autre rapport - QoE appeler détail sous-état - inclus dans Skype pour Business Server 2015. Toutefois, ce rapport est principalement destiné à un usage interne et non à un accès direct. 
+> Il existe un autre rapport - QoE appeler détail sous-état - inclus dans Skype pour Business Server. Toutefois, ce rapport est principalement destiné à un usage interne et non à un accès direct. 
   
-Il existe deux façons d’installer Skype pour les rapports de surveillance Business Server : vous pouvez utiliser la Skype pour l’Assistant de déploiement Business Server ou vous pouvez utiliser un script Windows PowerShell inclus avec la Skype pour les fichiers d’installation Business Server 2015. Quelle que doit la méthode utilisée pour installer les rapports, vous devez d’abord vous assurer que vous :
+Il existe deux façons d’installer Skype pour les rapports de surveillance Business Server : vous pouvez utiliser la Skype pour l’Assistant de déploiement Business Server ou vous pouvez utiliser un script Windows PowerShell inclus avec la Skype pour les fichiers d’installation Business Server. Quelle que doit la méthode utilisée pour installer les rapports, vous devez d’abord vous assurer que vous :
   
 - avez le droit d’ajouter un rôle de base de données à un compte d’utilisateur dans la base de données de surveillance ;
     
@@ -95,6 +94,6 @@ Dans la commande précédente, la propriété ReportingUrl doit avoir la valeur 
     
 3. Dans le Gestionnaire de configuration de Reporting Services, cliquez sur URL du Gestionnaire de rapports. Une ou plusieurs URL doivent apparaître dans le volet URL du Gestionnaire de rapports. Chacune de ces URL peut être utilisée en tant qu’URL de rapports, même si, là encore, il est recommandé d’utiliser le protocole HTTPS pour le paramètre ReportingUrl.
     
-Si vous avez configuré une base de données miroir pour votre base de données de surveillance, vous devez également associer les rapports de surveillance à la base de données miroir. Consultez l’article [Associer des rapports de surveillance avec une base de données miroir dans Skype pour Business Server 2015](monitoring-reports-with-a-mirror-database.md) pour plus d’informations.
+Si vous avez configuré une base de données miroir pour votre base de données de surveillance, vous devez également associer les rapports de surveillance à la base de données miroir. Consultez l’article [Associer des rapports de surveillance avec une base de données miroir dans Skype pour Business Server](monitoring-reports-with-a-mirror-database.md) pour plus d’informations.
   
 

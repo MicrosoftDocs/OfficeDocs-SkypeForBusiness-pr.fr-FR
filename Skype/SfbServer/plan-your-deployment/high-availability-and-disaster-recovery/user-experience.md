@@ -1,29 +1,29 @@
 ---
-title: Expérience utilisateur en cas de défaillance d’un pool dans Skype Entreprise Server 2015
+title: Expérience utilisateur défaillance d’un pool dans Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-description: Découvrez ce que les utilisateurs rencontrent lorsqu’un pool frontal bascule ou Business Server échoue pendant la reprise après sinistre dans Skype.
-ms.openlocfilehash: 4aaa4c044e1bae50124897a6d4c36e03b2a0c58e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Découvrez ce que les utilisateurs rencontrent lorsqu’un pool frontal bascule ou Business Server échoue pendant la récupération d’urgence dans Skype.
+ms.openlocfilehash: 741eb40d0bf4ee615d68d05ab6b9543b6f65474b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001188"
 ---
-# <a name="user-experience-during-pool-failure-in-skype-for-business-server-2015"></a>Expérience utilisateur en cas de défaillance d’un pool dans Skype Entreprise Server 2015
+# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Expérience utilisateur défaillance d’un pool dans Skype pour Business Server
  
-Découvrez ce que les utilisateurs rencontrent lorsqu’un pool frontal bascule ou Business Server échoue pendant la reprise après sinistre dans Skype.
+Découvrez ce que les utilisateurs rencontrent lorsqu’un pool frontal bascule ou Business Server échoue pendant la récupération d’urgence dans Skype.
   
-Si un pool est basculé, tous les utilisateurs du pool affecté sont obligés de se déconnecter, puis de se reconnecter au pool de sauvegarde. Pendant quelques instants, les utilisateurs qui se connectent au pool de sauvegarde peuvent être en mode Résistance. En mode de résilience, les utilisateurs ne peuvent pas effectuer des tâches qui entraînent une modification permanente sur Skype pour le serveur de l’entreprise, telles que l’ajout d’un contact. Une fois le basculement terminé, tous les utilisateurs peuvent obtenir tous les services du pool de sauvegarde.
+Si un pool est basculé, tous les utilisateurs du pool affecté sont obligés de se déconnecter, puis de se reconnecter au pool de sauvegarde. Pendant quelques instants, les utilisateurs qui se connectent au pool de sauvegarde peuvent être en mode Résistance. En mode résilience, les utilisateurs ne peuvent pas effectuer des tâches entraînerait une modification permanente sur Skype pour Business Server, tels que l’ajout d’un contact. Une fois le basculement terminé, tous les utilisateurs peuvent obtenir tous les services du pool de sauvegarde.
   
-Appels, les réunions et les conversations de qu'un utilisateur a en cas d’échec de la grappe sont interrompues, et l’utilisateur doit établir à nouveau ces sessions après basculement pour continuer.
+Tous les appels, réunions ou conversations en cours d’un utilisateur au moment de la défaillance du pool sont interrompus, et l’utilisateur doit rétablir ces sessions après le basculement pour continuer.
   
 Les utilisateurs ne sont pas rapatriés pendant le basculement ou la restauration automatique. Les utilisateurs hébergés sur un pool qui subit une défaillance sont temporairement pris en charge par le pool de sauvegarde. Lorsque le pool d’accueil est restauré, l’administrateur peut restaurer ces utilisateurs afin qu’ils soient pris en charge par leur pool d’accueil d’origine.
   
@@ -39,11 +39,11 @@ La restauration automatique du pool peut survenir pendant qu’un utilisateur af
   
 Les tableaux suivants présentent des détails supplémentaires sur la façon dont un utilisateur avec un client est affecté pendant et après la restauration automatique, ainsi que la façon dont les utilisateurs d’autres pools voient un utilisateur d’un pool en cours de restauration et interagissent avec lui. 
   
-Le terme concerné utilisateur fait référence à tout utilisateur qui a été basculé de pool de domicile et est desservi par le pool de sauvegarde. Tout utilisateur initialement hébergé sur le pool de sauvegarde n’est pas un utilisateur affecté.
+Le terme utilisateur affecté fait référence à tous les utilisateurs qui ont été basculés à partir du pool d’accueil et qui sont pris en charge par le pool de sauvegarde. Tout utilisateur initialement hébergé sur le pool de sauvegarde n’est pas un utilisateur affecté.
   
-**Expérience de l’utilisateur pour un utilisateur affecté dans un Pool dans restauration automatique**
+**Expérience utilisateur pour un utilisateur affecté dans un pool en restauration automatique**
 
-|**État de l’utilisateur ou d’une tâche**|**Lors du retour arrière**|**Après l’achèvement de la restauration**|
+|**Statut de l’utilisateur ou tâche**|**Durant la restauration automatique**|**Une fois la restauration automatique terminée**|
 |:-----|:-----|:-----|
 |Statut d’un utilisateur déjà connecté  <br/> |L’utilisateur reste connecté au pool de sauvegarde. À un certain moment, l’utilisateur sera déconnecté et reconnecté au pool d’accueil d’origine, en mode Résistance.  <br/> |L’utilisateur reste connecté et passe en mode normal.  <br/> |
 |Connexion d’un nouvel utilisateur  <br/> |L’utilisateur peut se connecter au pool d’accueil en mode Résistance.  <br/> |L’utilisateur peut se connecter au pool d’accueil d’origine en mode normal.  <br/> |
@@ -54,9 +54,9 @@ Le terme concerné utilisateur fait référence à tout utilisateur qui a été 
 |Disponibilité de la liste de contacts et du Service de carnet d’adresses  <br/> |Non disponibles  <br/> |Disponibles  <br/> |
 |Ensemble des sessions et modalités pair à pair  <br/> |Disponibles  <br/> |Disponibles  <br/> |
    
-**Expérience de l’utilisateur pour un utilisateur est hébergé dans un Pool non affecté lors de la restauration d’un autre Pool**
+**Expérience utilisateur pour un utilisateur hébergé dans un pool non affecté lors de la restauration automatique d’un autre pool**
 
-|**Tâche de l’utilisateur**|**Lors du retour arrière**|**Après l’achèvement de la restauration**|
+|**Tâche utilisateur**|**Durant la restauration automatique**|**Une fois la restauration automatique terminée**|
 |:-----|:-----|:-----|
 |Affichage de la présence de l’utilisateur affecté  <br/> |Affiche le dernier état de présence défini par l’utilisateur.  <br/> |Opérationnel. Les utilisateurs non affectés voient les mises à jour effectuées par les utilisateurs affectés.  <br/> |
 |Conférences en cours organisées par un utilisateur affecté  <br/> |Toutes les modalités de conférence sont terminées.  <br/> |Toutes les modalités fonctionnent à présent. Chaque participant doit cliquer pour participer à la conférence.  <br/> |

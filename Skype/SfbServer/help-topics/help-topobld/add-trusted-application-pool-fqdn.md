@@ -1,9 +1,9 @@
 ---
-title: Ajouter un Pool d’Application de confiance nom de domaine complet
+title: Ajouter le nom de domaine complet Pool d’applications approuvées
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,24 +11,25 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
-description: 'Pour définir un nom de domaine complet du pool Applications sécurisées (FQDN), spécifiez les éléments suivants :'
-ms.openlocfilehash: af21ab09797a5b81f2071a37a2668d556f0a4012
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Pour définir un nom de domaine complet du pool Applications approuvées (FQDN), spécifiez les éléments suivants :'
+ms.openlocfilehash: 287e38d4568a45c14dc27e3c1b3f9b0124c9893a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983797"
 ---
-# <a name="add-trusted-application-pool-fqdn"></a>Ajouter un Pool d’Application de confiance nom de domaine complet
+# <a name="add-trusted-application-pool-fqdn"></a>Ajouter le nom de domaine complet Pool d’applications approuvées
  
-Pour définir un nom de domaine complet du pool Applications sécurisées (FQDN), spécifiez les éléments suivants :
+Pour définir un nom de domaine complet du pool Applications approuvées (FQDN), spécifiez les éléments suivants :
   
-Un nom de domaine complet du serveur ou du pool de serveurs qui hébergeront les applications approuvées.
+Nom de domaine complet du serveur ou du pool de serveurs qui hébergent les applications approuvées.
   
-Sélectionnez le **pool d’ordinateur plusieurs** si vous déployez un pool de serveurs pour l’équilibrage de la charge et la disponibilité des applications fiables, ou sélectionnez le **pool d’un seul ordinateur** si vous n’avez pas besoin de charger de contrepartie ou de haute disponibilité.
+Sélectionnez le **pool de plusieurs ordinateurs** si vous déployez un pool de serveurs pour les applications approuvées à partir de l’équilibrage de charge et une haute disponibilité ou sélectionnez le **pool à ordinateur unique** si vous n’avez pas besoin de charger équilibrage ou haute disponibilité.
   
 > [!IMPORTANT]
-> Un seul serveur d’Applications de confiance ne peut pas être converti en un pool de serveurs plus tard. Si vous pensez qu'avoir besoin d’un pool à l’avenir, vous pouvez déployer un pool de serveurs multiples contenant un seul ordinateur maintenant et ajouter des serveurs, lorsque cela est nécessaire. 
+> Un seul serveur d’Applications approuvées ne peut pas être converti en un pool de serveurs ultérieurement. Si vous pensez que vous devrez peut-être un pool à l’avenir, vous pouvez déployer un pool de serveurs multiples contenant un seul ordinateur maintenant et ajouter des serveurs cas. 
   
-Pour plus d’informations sur les pools d’Applications sécurisées, consultez [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).
+Pour plus d’informations sur les pools d’Applications approuvées, voir [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).
   
 

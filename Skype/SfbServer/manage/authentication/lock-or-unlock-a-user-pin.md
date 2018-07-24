@@ -1,33 +1,33 @@
 ---
-title: Verrouillage ou déverrouillage du code confidentiel d’un utilisateur dans Skype Entreprise Server 2015
+title: Verrouiller ou déverrouiller un code confidentiel dans Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-description: 'Résumé : Verrouillage ou déverrouillage à distance conférence d’un utilisateur broche pour Skype pour Business Server 2015.'
-ms.openlocfilehash: 5bd4a334f9c0b543d9b4cade8631f992a920dfb1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Verrouiller ou déverrouiller des conférences rendez-vous d’un utilisateur code confidentiel pour Skype pour Business Server.'
+ms.openlocfilehash: 89e971ac8c935c7998c206ce365c8899e0617cc4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986322"
 ---
-# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server-2015"></a>Verrouillage ou déverrouillage du code confidentiel d’un utilisateur dans Skype Entreprise Server 2015
+# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Verrouiller ou déverrouiller un code confidentiel dans Skype pour Business Server
  
-**Résumé :** Verrouiller ou déverrouiller à distance conférence d’un utilisateur broche pour Skype pour Business Server 2015.
+**Résumé :** Verrouiller ou déverrouiller la conférence rendez-vous d’un utilisateur code confidentiel pour Skype pour Business Server.
   
-Vous pouvez verrouiller ou déverrouiller le PIN d’un utilisateur à partir de la section **utilisateurs** de Skype pour le panneau de configuration de Business Server.
+Vous pouvez verrouiller ou déverrouiller le code confidentiel d’un utilisateur à partir de la section **utilisateurs** de Skype pour le panneau de configuration serveur Business.
   
-### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>Pour verrouiller le PIN d’un utilisateur dans Skype pour le panneau de configuration de Business Server
+### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>Pour verrouiller le code confidentiel d’un utilisateur dans Skype pour Business Server Control Panel
 
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrir une fenêtre de navigateur et entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration de Business Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
@@ -54,11 +54,11 @@ Vous pouvez verrouiller ou déverrouiller le PIN d’un utilisateur à partir de
     
    f. Cliquez successivement sur le nom de l’utilisateur, sur **Action**, puis sur **Verrouiller le code confidentiel**.
     
-### <a name="to-unlock-a-users-pin-in-skype-for-business-server-control-panel"></a>Pour déverrouiller le PIN d’un utilisateur dans Skype pour le panneau de configuration de Business Server
+### <a name="to-unlock-a-users-pin-in-skype-for-business-server-control-panel"></a>Pour déverrouiller le code confidentiel d’un utilisateur dans Skype pour Business Server Control Panel
 
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrir une fenêtre de navigateur et entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration de Business Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
@@ -85,13 +85,13 @@ Vous pouvez verrouiller ou déverrouiller le PIN d’un utilisateur à partir de
     
    f. Cliquez successivement sur le nom de l’utilisateur, sur **Action**, puis sur **Déverrouiller le code confidentiel**.
     
-## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>Verrouillage et déverrouillage codes secrets d’utilisateur à l’aide des applets de commande Windows PowerShell
+## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>Verrouillage et déverrouillage codes confidentiels d’utilisateur à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez verrouiller et déverrouiller des codes secrets d’utilisateur à l’aide de Windows PowerShell et les applets de commande CsClientPin-Lock et Unlock-CsClientPin. Vous pouvez exécuter ces applets de commande depuis le Skype pour Business Server Management Shell ou à partir d’une session à distance de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter sur Skype pour Business Server, consultez l’article de blog [« rapide démarrer : gestion de Microsoft PowerShell Lync Server 2010 à l’aide à distance »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype pour Business Server.
+Vous pouvez verrouiller et déverrouiller des codes confidentiels d’utilisateur à l’aide de Windows PowerShell et les applets de commande Lock-CsClientPin et Unlock-CsClientPin. Vous pouvez exécuter ces applets de commande de le Skype pour Business Server Management Shell ou d’une session à distance de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Skype pour Business Server, consultez l’article de blog [« rapide démarrer : gestion de Microsoft PowerShell Lync Server 2010 à l’aide à distance »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype pour Business Server.
   
 ### <a name="to-lock-a-user-pin"></a>Pour verrouiller le code confidentiel d’un utilisateur
 
-- Pour verrouiller le PIN d’un utilisateur, utilisez l’applet de commande Lock-CsClientPin. Par exemple :
+- Pour verrouiller le code confidentiel d’un utilisateur, utilisez l’applet de commande Lock-CsClientPin. Par exemple :
     
   ```
   Lock-CsClientPin -Identity "Ken Myer"
@@ -99,10 +99,10 @@ Vous pouvez verrouiller et déverrouiller des codes secrets d’utilisateur à l
 
 ### <a name="to-unlock-a-user-pin"></a>Pour déverrouiller le code confidentiel d’un utilisateur
 
-- Pour déverrouiller le PIN d’un utilisateur, utilisez l’applet de commande Unlock-CsClientPin. Par exemple :
+- Pour déverrouiller le code confidentiel d’un utilisateur, utilisez l’applet de commande Unlock-CsClientPin. Par exemple :
     
   ```
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-Pour plus d’informations, consultez la rubrique d’aide pour les applets de commande [CsClientPin-Lock](https://docs.microsoft.com/powershell/module/skype/lock-csclientpin?view=skype-ps) et [Unlock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/unlock-csclientpin?view=skype-ps) .
+Pour plus d’informations, consultez la rubrique d’aide pour les applets de commande [Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/lock-csclientpin?view=skype-ps) et [Unlock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/unlock-csclientpin?view=skype-ps) .

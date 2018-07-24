@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
+ROBOTS: NOINDEX, NOFOLLOW
 description: Files d’attente les appels vers un groupe de réponse jusqu'à ce qu’un agent répond à l’appel.
-ms.openlocfilehash: c9ae9953248804de592f05243ef5a11009c7e045
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7c56554571d09279ce896798d6c7e21dae5f9f3d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988354"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993494"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>File d’attente Response Group : création d’une file d’attente ou modification d’une file d’attente existante
  
@@ -68,6 +69,6 @@ La liste ci-dessous décrit les champs de la page.
     
   - **Transférer vers une autre file d’attente** Si vous sélectionnez cette option, accédez à la file d’attente qui recevra les appels lorsque le seuil de saturation de file d’attente est remplie.
     
-Pour plus d’informations sur les fonctionnalités de Response Group, voir [planification de l’application Response Group dans Skype pour Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Pour plus d’informations sur l’utilisation des files d’attente, voir [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités de Response Group, consultez [planification de l’application Response Group dans Skype pour Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des files d’attente, voir [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) dans la documentation des opérations.
   
 

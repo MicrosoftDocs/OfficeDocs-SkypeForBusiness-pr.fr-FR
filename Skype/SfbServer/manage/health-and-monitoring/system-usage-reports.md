@@ -1,54 +1,54 @@
 ---
-title: Rapports d’utilisation du système dans Skype Entreprise Server 2015
+title: Rapports d’utilisation dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
-description: 'Résumé : Découvrez les rapports d’utilisation système dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 286c737d4e23a5628f415427691112a3b5209525
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez les rapports d’utilisation dans Skype pour Business Server.'
+ms.openlocfilehash: 979736f9e5659abc572b5308db55bd082a4be3c7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016766"
 ---
-# <a name="system-usage-reports-in-skype-for-business-server-2015"></a>Rapports d’utilisation du système dans Skype Entreprise Server 2015
+# <a name="system-usage-reports-in-skype-for-business-server"></a>Rapports d’utilisation dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur les rapports d’utilisation système dans Skype pour Business Server 2015.
+**Résumé :** Découvrez les rapports d’utilisation dans Skype pour Business Server.
   
-Les rapports d’utilisation système fournissent des informations sur l’utilisation de système en fonction des détails de l’appel d’enregistrement (CDR) les données collectées par le Skype pour Business Server.
+Les rapports d’utilisation fournissent des informations sur l’utilisation de système en fonction des détails des appels (CDR) les données collectées par le Skype pour Business Server.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [État de l’enregistrement utilisateur dans Skype pour Business Server 2015](user-registration-report.md)
+- [Rapport d’enregistrement utilisateur dans Skype pour Business Server](user-registration-report.md)
     
-    Fournit un résumé de la connectivité de l’utilisateur pour le Skype pour le déploiement de Business Server 2015 basée sur les événements d’enregistrement, tels que les ouvertures de session utilisateur. Le rapport fournit un moyen pour afficher les ouvertures de session à la fois internes et externes et pour comparer le nombre d’utilisateurs ayant ouvert une session Skype pour Business Server 2015 avec le nombre d’utilisateurs qui ont utilisé le service qu’ils ont ouvert une session.
+    Fournit un résumé de la connectivité de l’utilisateur à la Skype pour le déploiement de serveur d’entreprise basée sur l’inscription des événements tels que les ouvertures de session utilisateur. Le rapport fournit un moyen pour afficher les connexions internes et externes et de comparer le nombre d’utilisateurs ayant ouvert une session Skype pour Business Server avec le nombre d’utilisateurs qui a utilisé le service quand ils étaient connectés.
     
-- [Rapport de synthèse des activités de peer-to-Peer dans Skype pour Business Server 2015](peer-to-peer-activity-summary-report.md)
+- [Rapport de synthèse activités d’égal à égal dans Skype pour Business Server](peer-to-peer-activity-summary-report.md)
     
     Fournit une synthèse des sessions de messagerie instantanée P2P, audio, vidéo, de transfert de fichiers et de partage d’applications. Les sessions P2P sont des sessions impliquant seulement deux utilisateurs.
     
-- [Rapport de synthèse conférence dans Skype pour Business Server 2015](conference-summary-report.md)
+- [Rapport de synthèse conférence dans Skype pour Business Server](conference-summary-report.md)
     
     Fournit une synthèse de toutes les activités de conférence. Les conférences sont des sessions qui impliquent plus de deux personnes.
     
-- [RTPC conférence récapitulatif dans Skype pour Business Server 2015](pstn-conference-summary-report.md)
+- [Conférence rapport de synthèse PSTN dans Skype pour Business Server](pstn-conference-summary-report.md)
     
-    Fournit un résumé de toutes les conférences RTPC. Il s’agit des conférences où au moins un utilisateur se connecte en utilisant le réseau téléphonique public commuté (RTPC), qui est également appelé dans l’accès à la conférence.
+    Fournit une synthèse de toutes les conférences RTC. Il s’agit de conférences où au moins un utilisateur compose un numéro sur le réseau téléphonique commuté (RTC). Ces conférences sont aussi appelées conférence rendez-vous.
     
-- [Rapport d’utilisation du groupe de réponse dans Skype pour Business Server 2015](response-group-usage-report.md)
+- [Rapport d’utilisation de Response Group dans Skype pour Business Server](response-group-usage-report.md)
     
-    Fournit un résumé de l’utilisation des groupes de réponse. L’application de groupe de réponse offre un moyen pour vous de router automatiquement les appels téléphoniques aux entités comme une aide ligne de prise en charge de client ou de Business desk.
+    Fournit un résumé de l’utilisation de Response Group. L’application Response Group offre un moyen pour vous pour acheminer automatiquement les appels téléphone aux entités d’aide ligne de prise en charge de bureau ou un client.
     
-- [Rapport de stock téléphone IP dans Skype pour Business Server 2015](ip-phone-inventory-report.md)
+- [Rapport d’inventaire de téléphonie IP dans Skype pour Business Server](ip-phone-inventory-report.md)
     
-    Fournit des informations sur les téléphones IP actuellement en cours d’utilisation dans l’organisation. Le rapport est basé sur les inscriptions et les connexions des téléphones. Il ne doit pas être considéré comme un inventaire complet. Par exemple, vous ne possédez peut-être plus certains téléphones qui sont encore répertoriés dans le rapport (car ils se sont connectés au moins une fois). De la même façon, vous devrez peut-être également les nouveaux téléphones qui ne s’affichent pas dans le rapport simplement parce que les utilisateurs n'ont pas connecté à Skype pour Business Server avec leur nouveau téléphone encore.
+    Fournit des informations sur les téléphones IP actuellement en cours d’utilisation dans l’organisation. Le rapport est basé sur les inscriptions et les connexions des téléphones. Il ne doit pas être considéré comme un inventaire complet. Par exemple, vous ne possédez peut-être plus certains téléphones qui sont encore répertoriés dans le rapport (car ils se sont connectés au moins une fois). De même, vous devrez peut-être aussi les nouveaux téléphones n’apparaissent pas dans le rapport simplement parce que les utilisateurs n'ont pas ouvert une session Skype pour Business Server avec leurs nouveaux téléphones encore.
     
-- [Appelez le rapport de contrôle d’Admission dans Skype pour Business Server 2015](call-admission-control-report.md)
+- [Appel de rapport de contrôle d’admission des appels dans Skype pour Business Server](call-admission-control-report.md)
     
     Fournit une liste d’activités P2P et de conférence qui utilisent le contrôle d’admission des appels. Le contrôle d’admission des appels (CAC, Call Admission Control) permet de déterminer si les sessions de communication en temps réel, comme les appels audio et vidéo, doivent ou non être autorisées, en fonction des restrictions de bande passante.
     

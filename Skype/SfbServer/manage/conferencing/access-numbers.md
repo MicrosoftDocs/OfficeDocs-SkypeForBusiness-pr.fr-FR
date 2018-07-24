@@ -1,29 +1,28 @@
 ---
-title: Gestion des numéros d’accès aux conférences rendez-vous dans Skype Entreprise Server 2015
+title: 'Gérer les numéros d’accès à la conférence rendez-vous Skype pour Business Server '
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: 'Résumé : Découvrez comment gérer les numéros d’accès à la conférence rendez-vous Skype pour Business Server 2015.'
-ms.openlocfilehash: 3bbde214863fa7d08214569e4d9aa2a767016eb4
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez comment gérer les numéros d’accès à la conférence rendez-vous Skype pour Business Server.'
+ms.openlocfilehash: a9e93b52a329a4fdce6817a758b6c6dcb29a0348
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569434"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008187"
 ---
-# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server-2015"></a>Gestion des numéros d’accès aux conférences rendez-vous dans Skype Entreprise Server 2015
+# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Gérer les numéros d’accès à la conférence rendez-vous Skype pour Business Server
  
-**Résumé :** Découvrez comment gérer les numéros d’accès à la conférence rendez-vous Skype pour Business Server 2015.
+**Résumé :** Découvrez comment gérer les numéros d’accès à la conférence rendez-vous Skype pour Business Server.
   
 Lorsque vous déployez des conférences rendez-vous, vous devez configurer les numéros de téléphone que les utilisateurs peuvent appeler à partir du réseau téléphonique commuté pour participer à la partie audio des conférences. Ces numéros s’affichent dans les invitations à une réunion et sur la page web des paramètres de configuration des conférences rendez-vous. 
   
-Cette rubrique décrit comment afficher, modifier ou supprimer des numéros d’accès à des conférences rendez-vous. Pour plus d’informations sur la création des numéros d’accès entrant initiale, voir [Configure dans les conférences rendez-vous dans Skype pour Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+Cette rubrique décrit comment afficher, modifier ou supprimer des numéros d’accès à des conférences rendez-vous. Pour plus d’informations sur la création des numéros d’accès entrant initiale, voir [Configure dans les conférences rendez-vous dans Skype pour Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>Affichage des numéros d’accès aux conférences rendez-vous
 
@@ -122,7 +121,7 @@ Vous pouvez modifier les numéros d’accès à distance à l’aide de Skype po
     
     Vous pouvez sélectionner jusqu’à quatre langues secondaires pour chaque numéro d’accès entrant. Les utilisateurs peuvent sélectionner une langue secondaire avant d’entrer l’ID de la conférence à laquelle ils souhaitent participer.
     
-12. Pour ajouter une zone pour le numéro d’accès, sous **régions associées**, cliquez sur ** Ajouter **, cliquez sur une ou plusieurs régions qui sont associées aux plans de numérotation pour ce numéro d’accès, puis cliquez sur **OK**.
+12. Pour ajouter une région pour le numéro d’accès, sous **régions associées**, cliquez sur **Ajouter**, cliquez sur une ou plusieurs régions qui sont associés aux plans de numérotation pour ce numéro d’accès, puis cliquez sur **OK**.
     
 13. Pour supprimer une région du numéro d’accès entrant, sous **Régions associées**, cliquez sur la région que vous souhaitez supprimer, puis cliquez sur **Supprimer**.
     
@@ -152,7 +151,7 @@ Vous pouvez supprimer un numéro d’accès de conférence rendez-vous à l’ai
   
 ### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Supprimer un numéro d’accès de conférence rendez-vous à l’aide de Skype pour Business Server Control Panel
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur qui se trouve dans le réseau dans lequel vous avez déployé Skype pour Business Server 2015.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur qui se trouve dans le réseau dans lequel vous avez déployé Skype pour Business Server .
     
 2.  Ouvrez le panneau de configuration serveur Business Skype.
     

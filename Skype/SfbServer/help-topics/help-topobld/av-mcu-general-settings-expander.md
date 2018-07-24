@@ -1,9 +1,9 @@
 ---
-title: Développement de paramètres généraux AV MCU
+title: Expanseur des paramètres généraux du MCU a/v
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,30 +11,31 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
-description: 'Pour modifier les propriétés d’un A / V Conferencing Server pool que vous avez déjà défini, vous pouvez effectuer les opérations suivantes :'
-ms.openlocfilehash: 9e0b1ef0aafae579aa0bab56e340177aeea0ecf8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Pour modifier les propriétés d’un A / V Conferencing Server du pool que vous avez déjà défini, vous pouvez effectuer les opérations :'
+ms.openlocfilehash: 0f51245a29edf829eabfec21b2d2dd5a85b3b15e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016525"
 ---
-# <a name="av-mcu-general-settings-expander"></a>Développement de paramètres généraux AV MCU
+# <a name="av-mcu-general-settings-expander"></a>Expanseur des paramètres généraux du MCU a/v
  
-Pour modifier les propriétés d’un A / V Conferencing Server pool que vous avez déjà défini, vous pouvez effectuer les opérations suivantes :
+Pour modifier les propriétés d’un A / V Conferencing Server du pool que vous avez déjà défini, vous pouvez effectuer les opérations :
   
 ## <a name="general-settings"></a>Paramètres généraux
 
-Le nom de domaine complet (FQDN) de l’un de mettre à jour / pool V Conferencing Server en tapant le nom du pool, tel qu’il est défini dans le système DNS (Domain Name System).
+Mettre à jour le nom de domaine complet (FQDN) du / pool V Conferencing Server en entrant le nom du pool, telle qu’elle est définie dans le système DNS (Domain Name System).
   
 ## <a name="av-conferencing-service"></a>service de conférence A/V
 
-Pour associer un A / pool de V Conferencing Server, sélectionnez le pool de Front-End ou des pools qui vous devez associer le A / pool V Conferencing Server.
+Pour associer un / pool V Conferencing Server, sélectionnez le pool frontal ou les pools vous devez associer A / pool V Conferencing Server.
   
 > [!NOTE]
-> Si aucun pool de Front-End n’est affichés dans la **Sélectionnez les pools de Front-End à associer à ce A / pool de V Conferencing** volet, vous avez colocalisés soit de l’un / V Conferencing Server avec le pool frontal ou vous n’avez pas sélectionné ajouter conférence dans les fonctions de **et fonctionnalité** section des propriétés de pool du Front-End.
+> Si aucun pool frontal n’est affichés dans le **Sélectionner les pools frontaux à associer à cet A / pool de conférence V** volet, vous avez soit colocalisé A / V Conferencing Server avec le pool frontal ou n’avez pas sélectionné pour ajouter la conférence dans les fonctionnalités **et fonctionnalité** section des propriétés de pool frontal.
   
-## 
 
-Lorsque vous avez terminé, cliquez sur **OK** pour terminer la modification du A / V Conferencing Server pool des paramètres. Cliquez sur **Annuler** pour annuler les modifications.
+
+Lorsque vous avez terminé, cliquez sur **OK** pour terminer la modification a / V Conferencing Server paramètres du pool. Cliquez sur **Annuler** pour annuler les modifications.
   
 

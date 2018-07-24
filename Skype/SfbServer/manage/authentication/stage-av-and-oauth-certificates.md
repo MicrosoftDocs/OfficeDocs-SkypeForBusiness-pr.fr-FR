@@ -1,34 +1,34 @@
 ---
-title: Création de certificats AV et OAuth dans Skype Entreprise Server 2015 à l’aide de -Roll dans Set-CsCertificate
+title: Étape de certificats AV et OAuth dans Skype pour Business Server à l’aide de-Roll dans Set-CsCertificate
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
-description: 'Résumé : Étape AV et OAuth certificats pour Skype pour Business Server 2015.'
-ms.openlocfilehash: 7c5abf07c5b30e4e015936fcf0987e989f1d8117
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'Résumé : Étape AV et OAuth certificats pour Skype pour Business Server.'
+ms.openlocfilehash: 3f616d7e67cf256cbf2a53ea86b3f051d959d4f5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996422"
 ---
-# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-2015-using--roll-in-set-cscertificate"></a>Création de certificats AV et OAuth dans Skype Entreprise Server 2015 à l’aide de -Roll dans Set-CsCertificate
+# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Étape de certificats AV et OAuth dans Skype pour Business Server à l’aide de-Roll dans Set-CsCertificate
  
-**Résumé :** Certificats étape AV et OAuth pour Skype pour Business Server 2015.
+**Résumé :** Certificats étape AV et OAuth pour Skype pour Business Server.
   
-Audio/vidéo (A / V) communications est un composant essentiel de Skype pour Business Server 2015. Fonctionnalités telles que la conférence de partage et audio et vidéo application s’appuient sur les certificats affectés a / V Edge service, en particulier A / V Authentication service.
+Audio/vidéo (A / V) communications est un composant essentiel de Skype pour Business Server. Fonctionnalités telles que la conférence de partage et audio et vidéo application s’appuient sur les certificats affectés a / V Edge service, en particulier A / V Authentication service.
   
 > [!IMPORTANT]
 > Cette nouvelle fonctionnalité est conçue pour fonctionner a / V Edge service et le certificat OAuthTokenIssuer. Autres types de certificats peuvent être mis en service avec A / V Edge service OAuth type de certificat, mais ne bénéficiera pas le comportement de coexistence qui A / certificat du service Edge V sera.
   
-Désigne le Skype pour les applets de commande PowerShell de Business Server Management Shell permet de gérer Skype pour les certificats Business Server 2015 A / V Edge de certificat en tant que le type de certificat AudioVideoAuthentication et le certificat OAuthServer en tant que service typeOAuthTokenIssuer. Pour le reste de cette rubrique et pour identifier les certificats, ils seront être qualifiés par le même type d’identificateur, AudioVideoAuthentication andOAuthTokenIssuer.
+Désigne le Skype pour les applets de commande PowerShell de Business Server Management Shell permet de gérer Skype pour les certificats de serveur d’entreprise A / V Edge de certificat en tant que le type de certificat AudioVideoAuthentication et le certificat OAuthServer en tant que service typeOAuthTokenIssuer. Pour le reste de cette rubrique et pour identifier les certificats, ils seront être qualifiés par le même type d’identificateur, AudioVideoAuthentication andOAuthTokenIssuer.
   
-Le service d’authentification A/V est responsable de l’émission des jetons utilisés par les clients et autres consommateurs A/V. Les jetons sont générés à partir des attributs du certificat et l’expiration du certificat entraîne la perte de la connexion et la nécessité de se reconnecter avec un nouveau jeton généré par le nouveau certificat. Une nouvelle fonctionnalité de Skype pour Business Server 2015 sera résoudre ce problème - la possibilité de préparer un nouveau certificat avant l’expiration et en autorisant les certificats de continuer à fonctionner pendant une période de temps. Cette fonctionnalité utilise la fonctionnalité mise à jour dans la cmdlet Set-CsCertificate Skype pour l’applet de commande Business Server Management Shell. Le nouveau paramètre-déployer, avec le paramètre existant - EffectiveDate, place le nouveau certificat AudioVideoAuthentication dans le magasin de certificats. L’ancien certificat AudioVideoAuthentication sera conservé pour permettre la validation des jetons émis. Après la mise en place du nouveau certificat AudioVideoAuthentication, la série d’événements suivante se produira :
+Le service d’authentification A/V est responsable de l’émission des jetons utilisés par les clients et autres consommateurs A/V. Les jetons sont générés à partir des attributs du certificat et l’expiration du certificat entraîne la perte de la connexion et la nécessité de se reconnecter avec un nouveau jeton généré par le nouveau certificat. Une nouvelle fonctionnalité de Skype pour Business Server système résoudre ce problème - la possibilité de préparer un nouveau certificat avant l’expiration et en autorisant les certificats de continuer à fonctionner pendant une période de temps. Cette fonctionnalité utilise la fonctionnalité mise à jour dans la cmdlet Set-CsCertificate Skype pour l’applet de commande Business Server Management Shell. Le nouveau paramètre-déployer, avec le paramètre existant - EffectiveDate, place le nouveau certificat AudioVideoAuthentication dans le magasin de certificats. L’ancien certificat AudioVideoAuthentication sera conservé pour permettre la validation des jetons émis. Après la mise en place du nouveau certificat AudioVideoAuthentication, la série d’événements suivante se produira :
   
 > [!TIP]
 > À l’aide de la Skype pour les applets de commande Business Server Management Shell pour gérer les certificats, vous pouvez demander des certificats distinctes et pour chaque objet sur le serveur Edge. À l’aide de l’Assistant certificat dans le Skype pour l’Assistant de déploiement Business Server vous aide à créer des certificats, mais est généralement le type **par défaut** les couples tous les certificats utilise pour le serveur de périphérie sur un seul certificat. Si vous souhaitez utiliser la fonctionnalité de certificat propagé, la pratique recommandée consiste à dissocier le certificat AudioVideoAuthentication des autres finalités du certificat. Vous pouvez configurer et créer un certificat transitoire de type Default, mais seule la partie AudioVideoAuthentication du certificat combiné bénéficiera de cette création transitoire. Un utilisateur impliqué (par exemple) dans une conversation par messagerie instantanée lors de l’expiration du certificat devra se déconnecter et se reconnecter pour rendre utilisent le nouveau certificat associé au service Edge d’accès. Comportement similaire se produit pour un utilisateur impliqué dans une conférence Web en utilisant le service Edge de conférence Web. Le certificat OAuthTokenIssuer est un type spécifique partagé sur tous les serveurs. Pour créer et gérer le certificat dans un seul emplacement et le certificat est stocké dans le magasin Central de gestion pour tous les autres serveurs.
@@ -81,7 +81,7 @@ Pour mieux comprendre le processus que Set-CsCertificate - Roll et - EffectiveDa
   
 ![Utilisation des paramètres Roll et EffectiveDate.](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
-|**Légende**|**Fenêtre de partage**|
+|**Légende**|**Phase**|
 |:-----|:-----|
 |1  <br/> |Début : 22/7/2015 12:00:00  <br/> Le certificat AudioVideoAuthentication actuel doit expirer à 14:00:00 le 22/7/2015. Cette date/heure d’expiration est déterminée par l’heure sur le certificat. Planifiez le remplacement du certificat et la substitution en tenant compte d’un chevauchement de 8 heures (durée de vie du jeton par défaut) avant que le certificat existant expire. Le temps d’avance 02:00:00 est utilisé dans cet exemple pour permettre à l’administrateur de disposer de suffisamment de temps pour placer et mettre en service les nouveaux certificats en avance sur l’heure effective (06:00:00).  <br/> |
 |2  <br/> |22/7/2015 02:00:00 -22/7/2015 05:59:59  <br/> Définir des certificats sur les serveurs Edge avec temps effectif de 6:00:00 AM (4 heures délai est dans cet exemple, mais peut être plus longue) à l’aide de Set-CsCertificate-Type \<type d’utilisation du certificat\> -empreinte \<empreinte du nouveau certificat\> - Reporter - EffectiveDate \<chaîne datetime du temps efficace pour le nouveau certificat\>  <br/> |
@@ -130,11 +130,8 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Gérer l’authentification de serveur à serveur (OAuth) et les applications partenaires dans Skype pour Business Server 2015](server-to-server-and-partner-applications.md)
+[Gérer l’authentification de serveur à serveur (OAuth) et les applications partenaires dans Skype pour Business Server](server-to-server-and-partner-applications.md)
 
 [Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
   
 [Remove-CsCertificate](https://docs.microsoft.com/powershell/module/skype/remove-cscertificate?view=skype-ps)
-

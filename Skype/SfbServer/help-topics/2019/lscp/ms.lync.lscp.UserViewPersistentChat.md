@@ -3,7 +3,6 @@ title: Afficher les utilisateurs de conversation permanente
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,40 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
+ROBOTS: NOINDEX, NOFOLLOW
 description: Les membres du rôle CsPersistentChatAdministrator (administrateurs de conversation permanente) peuvent accorder des droits de gestionnaire de salle de conversation et des autorisations à d’autres utilisateurs et à eux-mêmes.
-ms.openlocfilehash: 0b12223fd51158d2525986b2a475e62604ab7252
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 06cda7eeaffdafeaae5553c4260b5b8e63e564ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045252"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013355"
 ---
-# <a name="users-view-persistent-chat"></a>Utilisateurs : Afficher la conversation permanente
- 
-Les membres du rôle **CsPersistentChatAdministrator** (administrateurs de conversation permanente) peuvent accorder des droits de gestionnaire de salle de conversation et des autorisations à d’autres utilisateurs et à eux-mêmes.
-  
-Un administrateur de conversation permanente peut procédez comme suit :
-  
-- Créer des catégories de salle et des salles de conversation.
-    
-- Définir l’appartenance de toutes les catégories et salles de conversation.
-    
-- Gérer tous les paramètres de toutes les catégories et salles de conversation.
-    
-- Activer ou désactiver la stratégie pour le serveur de conversation permanente.
-    
-- Définir et gérer les paramètres de configuration sur un pool de serveurs de conversation permanente.
-    
-Pour plus d’informations, voir [Adding a Persistent Chat Administrator](http://technet.microsoft.com/library/c107eb20-4e58-4463-b4f9-63fb5b1d9534.aspx) dans la documentation de déploiement.
-  
-## <a name="tasks-that-you-can-perform"></a>Tâches que vous pouvez effectuer
+# <a name="users-view-persistent-chat"></a>Afficher les utilisateurs de conversation permanente
 
-Vous pouvez effectuer les tâches suivantes sur le **utilisateurs : afficher la conversation permanente** page :
-  
-- [Permettre à un utilisateur gérer les catégories, salles de conversation et les autorisations et droits d’utilisateur](http://technet.microsoft.com/library/6c551be3-bc74-4d0e-9008-ddfabd86e940.aspx)
-    
-- [Présentation de l’appartenance de conversation permanente](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
-    
- 
-  
-
+> [!NOTE] 
+> Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [Skype pour les entreprises aux équipes Microsoft de mise à niveau](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Si vous devez utiliser la conversation permanente, vos choix est à migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes ou continuer à utiliser Skype pour Business Server 2015.

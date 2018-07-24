@@ -1,24 +1,24 @@
 ---
-title: Rapport détaillé de session P2P dans Skype Entreprise Server 2015
+title: Rapport détaillé de Session d’égal à égal dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: 'Résumé : En savoir plus sur le rapport de détails de Session de Peer-to-Peer dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 454a31449ceff109ac81bd266f1ef7c21f7c0afd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez le rapport détaillé de Session d’égal à égal dans Skype pour Business Server.'
+ms.openlocfilehash: 6ac6a26c52fcc0eaca4890631b1d91f338930421
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000725"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server-2015"></a>Rapport détaillé de session P2P dans Skype Entreprise Server 2015
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Rapport détaillé de Session d’égal à égal dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur le rapport de détails de Session de Peer-to-Peer dans Skype pour Business Server 2015.
+**Résumé :** Découvrez le rapport détaillé de Session d’égal à égal dans Skype pour Business Server.
   
 Le rapport détaillé de session P2P renvoie des informations détaillées sur une session P2P. Par exemple, si vous sélectionnez une session de messagerie instantanée, le rapport indique le nombre de messages envoyés par chacun des deux utilisateurs dans la session.
   
@@ -34,7 +34,7 @@ Vous pouvez accéder au rapport de détails de session P2P à partir de l’un d
     
 - Rapport de liste des échecs 
     
-Accédez à partir du rapport de détails de Session Peer-to-Peer vous le [Rapport de Diagnostic dans Skype pour 2015 de serveur d’entreprise](diagnostic-report.md) en cliquant sur la mesure de l’état de Diagnostic (détails). Vous pouvez aussi accéder au rapport des principales défaillances en cliquant sur l’une de ces deux mesures :
+À partir du rapport détaillé de Session d’égal à égal vous pouvez accéder le [Rapport de Diagnostic dans Skype pour Business Server](diagnostic-report.md) en cliquant sur la mesure rapport de Diagnostic (détail). Vous pouvez aussi accéder au rapport des principales défaillances en cliquant sur l’une de ces deux mesures :
   
 - Réponse
     
@@ -56,7 +56,7 @@ Aucun. Vous ne pouvez pas filtrer le Rapport détaillé de session P2P.
 
 Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé de session P2P de chaque session.
   
-**Mesures d’informations de session**
+**Mesures des informations de session**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -83,9 +83,9 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 
 Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé de session P2P de chaque modalité de session.
   
-**Métriques de modalités**
+**Mesures des modalités**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Modalités** <br/> |Non  <br/> |Modalités utilisées dans la session. Par exemple, messagerie instantanée ou transfert de fichier.  <br/> |
 |**Messages de l’expéditeur** <br/> |Non  <br/> |Nombre de messages envoyés par l’utilisateur qui a démarré la session.  <br/> |
@@ -95,9 +95,9 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 
 Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé de session P2P pour chaque rapport de diagnostic.
   
-**Mesures pour les rapports de Diagnostic**
+**Mesures pour les rapports de diagnostic**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Détails** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport montre le rapport de diagnostic pour la session.  <br/> |
 |**Heure du rapport** <br/> |Non  <br/> |Date et heure d’enregistrement du rapport.  <br/> |

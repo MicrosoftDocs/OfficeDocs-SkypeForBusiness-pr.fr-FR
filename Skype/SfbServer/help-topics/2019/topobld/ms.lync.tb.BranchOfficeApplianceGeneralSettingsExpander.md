@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Pour modifier les paramètres d’un serveur Survivable Branch Appliance existant ou d’un serveur Survivable Branch Server, vous permettent des sections suivantes :'
-ms.openlocfilehash: eb82254746ea74e06dcd51231712d4694fa8aa9c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 194324a845442041b8dd2bc11274b100ba145276
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991599"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989076"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expanseur des paramètres généraux du Branch Office Appliance
  
@@ -28,7 +28,6 @@ Pour modifier les paramètres d’un serveur Survivable Branch Appliance existan
     
 - Paramètres du serveur de médiation
     
-## 
 
 Pour un serveur Survivable Branch Appliance ou serveur Survivable Branch Server, vous permettent des éléments suivants :
   
@@ -70,7 +69,6 @@ Vous définissez les passerelles PSTN associées avec le serveur de médiation c
   
 Si vous disposez de plusieurs passerelles associé à un serveur de médiation, la première passerelle associée sera la passerelle par défaut. Si vous devez choisir une autre passerelle comme passerelle par défaut, sélectionnez la passerelle à utiliser par défaut, puis cliquez sur **Utiliser par défaut**.
   
-### 
 
 Pour plus d’informations sur la définition et la configuration des paramètres pour le Survivable Branch Appliance ou serveur Survivable Branch Server, voir [Branch-Site Resiliency Solutions](http://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
   

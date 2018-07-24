@@ -1,26 +1,29 @@
 ---
-title: Surveillance des performances de mobilité dans Skype Entreprise Server 2015
+title: Surveiller la mobilité pour les performances dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-description: 'Résumé : En savoir plus sur le Service de mobilité (Mcx) et le site Web de Communications unifiées API (UCWA) dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 1981bff8398f3fab9206f9dab748c545268f7edf
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : En savoir plus sur le Service de mobilité (Mcx) et le Web de Communications unifiées API (UCWA) dans Skype pour Business Server.'
+ms.openlocfilehash: 4affcb532697f24c87d62e18fc26552639dc00e1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990636"
 ---
-# <a name="monitor-mobility-for-performance-in-skype-for-business-server-2015"></a>Surveillance des performances de mobilité dans Skype Entreprise Server 2015
+# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Surveiller la mobilité pour les performances dans Skype pour Business Server
  
-**Résumé :** En savoir plus sur le Service de mobilité (Mcx) et le site Web de Communications unifiées API (UCWA) dans Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur le Service de mobilité (Mcx) et le Web de Communications unifiées API (UCWA) dans Skype pour Business Server.
   
-Le Skype pour Service de mobilité Business Server (Mcx) et l’API de Web Communications (UCWA) unifié augmente la charge sur les pools de serveurs frontaux et de Front-End. Les périphériques mobiles qui maintiennent une connexion au serveur, même lorsque l’application mobile est réduite, par exemple les appareils Android et Nokia exécutant Lync 2010 Mobile, ainsi que des appareils Android et Apple exécutant Lync 2013 Mobile, imposent une charge plus importante que les périphériques qui mettre fin à leur connexion avec le serveur lorsque l’application mobile est réduite. À mesure que votre utilisation mobile augmente, vous devez surveiller les performances de mobilité afin d’identifier toute nécessité d’augmentation de la capacité.
+Le Skype pour Service de mobilité Business Server (Mcx) et l’API de Web Communications (UCWA) unifiée augmente la charge sur les pools frontaux et les serveurs frontaux. Les appareils mobiles maintient une connexion au serveur même lorsque l’application mobile est réduite, tels que les appareils Android et Nokia exécutant Lync 2010 Mobile, ainsi que les appareils Android et Apple exécutant Lync 2013 Mobile, imposent une charge plus importante que les périphériques qui mettre fin à leur connexion au serveur lors de l’application mobile est réduite. À mesure que votre utilisation mobile augmente, vous devez surveiller les performances de mobilité afin d’identifier toute nécessité d’augmentation de la capacité.
+
+> [!NOTE]
+> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.
   
 Plusieurs limites influencent les performances de mobilité : 
   
@@ -36,14 +39,14 @@ Il existe d’autres limites sur les serveurs susceptibles d’avoir un impact s
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Moniteur pour les limites de capacité de mémoire de serveur dans Skype pour Business Server 2015](server-memory-capacity-limits.md)
+- [Surveiller les limites de capacité de mémoire de serveur dans Skype pour Business Server](server-memory-capacity-limits.md)
     
-- [Surveiller l’utilisation du Service de la mobilité et la UCWA dans Skype pour Business Server 2015](service-and-ucwa-usage.md)
+- [Surveiller l’utilisation du Service de mobilité et UCWA dans Skype pour Business Server](service-and-ucwa-usage.md)
     
-- [Configurer le Service de la mobilité pour des performances élevées dans Skype pour Business Server 2015](configure-service.md)
+- [Configurer le Service de mobilité pour de hautes performances dans Skype pour Business Server](configure-service.md)
     
-- [IIS contrôle demande des fichiers journaux de suivi dans Skype pour Business Server 2015](iis-request-tracing-log-files.md)
+- [Surveillance des demandes IIS le suivi des fichiers journaux dans Skype pour Business Server](iis-request-tracing-log-files.md)
     
-- [Compteurs de performance de mobilité dans Skype pour Business Server 2015](performance-counters.md)
+- [Compteurs de performances de mobilité dans Skype pour Business Server](performance-counters.md)
     
 

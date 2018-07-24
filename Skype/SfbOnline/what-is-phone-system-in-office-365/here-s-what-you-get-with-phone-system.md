@@ -1,5 +1,5 @@
 ---
-title: Voici ce que vous obtenez avec un système téléphonique dans Office 365
+title: Voici les avantages du système téléphonique dans Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: e2ba535de48e11e503280b8bd65fbe78611dc47d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4d3ec5d9d490a7ad0064611d36b788da69b726e2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975442"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici ce que vous obtenez avec un système téléphonique dans Office 365
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
 Un PBX est un système téléphonique au sein d'une entreprise. Le système téléphonique dans le module complémentaire Office 365 vous offre des capacités de PBX, mais sans le matériel complexe et coûteux. 
   
@@ -77,7 +78,7 @@ Voir les articles suivants pour planifier et configurer le système téléphoniq
   
 - [Configurer des Plans de l’appel](../what-are-calling-plans-in-office-365/set-up-calling-plans.md): cet article contient des instructions pas à pas de mettre en place avec vos numéros de téléphone ou transférer vos numéros de téléphone existant pour Skype pour les entreprises.
     
-- [Planifier votre système téléphonique dans les solutions Office 365 (en nuage PBX)](https://go.microsoft.com/fwlink/?LinkId=708645): l’article TechNet ce organise à tous vos options de déploiement. Il contient également des informations sur la planification d'une solution entièrement sur le cloud. 
+- [Planifier votre système téléphonique dans les solutions Office 365 (en nuage PBX)](https://go.microsoft.com/fwlink/?LinkId=708645): cet article présente toutes vos options de déploiement. Il contient également des informations sur la planification d'une solution entièrement sur le cloud. 
     
 - [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md): Découvrez les licences que vous devez acheter pour obtenir le système téléphonique dans Office 365.
     

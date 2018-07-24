@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Vue d’ensemble de la gestion de systèmes de salle Skype v2.
-ms.openlocfilehash: 5e6fe310051d5fc48875a878e64868a8a5672346
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 81ad0e43f68127e3a178434ebdd8ac8a43c94adc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014902"
 ---
 # <a name="management-overview"></a>Vue d’ensemble de la gestion 
 
@@ -39,7 +40,7 @@ Plus d’informations sur l’état de l’application v2 de Skype salle systèm
 |:-----|:-----|
 |HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |V2 de systèmes de salle Skype permet de démarrer  <br/> |
 |Gestion - de l’alimentation\> sur CA, désactiver écran au bout de 10 minutes  <br/> Gestion - de l’alimentation\> sur CA, placez jamais système en mode veille  <br/> |Permet de systèmes de salle Skype v2 activer affiche attaché et réactiver automatiquement  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.  <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
+|net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.   <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
    
 Transfert de fichiers à l’aide de stratégies de groupe est traitée dans [un élément de fichier de configuration](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
@@ -74,14 +75,14 @@ Nous vous recommandons de configurer Suite de gestion des opérations d’alerte
 
 Pour plus d’informations sur le mode de résolution des problèmes et d’administration, voir [Gérer les systèmes de salle Skype v2](room-systems-v2-operations.md#admin-mode-and-device-management). 
 
-### <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Systèmes de salle Skype version 2](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Planifier la salle Skype systèmes v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planification de Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
-[Déployer la salle Skype systèmes v2](../../deploy/deploy-clients/room-systems-v2.md)
+[Déploiement de Skype Room System v2](../../deploy/deploy-clients/room-systems-v2.md)
 
-[Configurer une console v2 de systèmes de salle de Skype](../../deploy/deploy-clients/console.md)
+[Configuration d’une console Skype Room Systems v2](../../deploy/deploy-clients/console.md)
 
-[Gestion à distance des paramètres de console v2 de systèmes de salle Skype avec un fichier de configuration XML](xml-config-file.md)
+[Gestion à distance des paramètres d'une console Skype Room Systems v2 à l'aide d'un fichier de configuration XML](xml-config-file.md)

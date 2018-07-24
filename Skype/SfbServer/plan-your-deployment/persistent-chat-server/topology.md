@@ -9,103 +9,107 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
-description: 'Summary: Read this topic to learn about Persistent Chat Server components and topologies in Skype for Business Server 2015.'
-ms.openlocfilehash: b5da90b6753a534ae705af96dcf871663017ea55
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les composants de serveur de conversation permanente et topologies dans Skype pour Business Server 2015.'
+ms.openlocfilehash: 9f771cddb8d3176840e8df1a34339f33e8ccac5f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968253"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Planification de la topologie du serveur de conversation permanente
  
-**Summary:** Read this topic to learn about Persistent Chat Server components and topologies in Skype for Business Server 2015.
+**Résumé :** Lisez cette rubrique pour en savoir plus sur les composants de serveur de conversation permanente et topologies dans Skype pour Business Server 2015.
   
-Persistent Chat Server supports both single-server and multiple-server configurations. You can install Persistent Chat Server on either a Skype for Business Server 2015 Enterprise Edition or Standard Edition Server. 
+Persistent Chat Server prend en charge les configurations de serveur unique ou sur plusieurs serveurs. Vous pouvez installer le serveur de conversation permanente sur soit un Skype pour Business Server 2015 Enterprise Edition ou Standard Edition Server. 
+
+> [!NOTE] 
+> Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [parcours de Skype pour les entreprises aux équipes de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si vous devez utiliser la conversation permanente, vos choix est pour migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes, ou pour continuer à utiliser Skype pour Business Server 2015. 
   
-## <a name="persistent-chat-server-components"></a>Persistent Chat Server components
+## <a name="persistent-chat-server-components"></a>Composants de serveur de conversation permanentes
 
 Le serveur de conversation permanente comprend les composants suivants :
   
-- One or more computers running Persistent Chat Server and providing the following services:
+- Un ou plusieurs ordinateurs exécutant le serveur de conversation permanente et fournissant les services suivants :
     
-  - Persistent Chat service
+  - Service de conversation permanent
     
   - Service de conformité, activé si la conformité est activée
     
-- One or more servers (more than one if mirroring is used) running the SQL Server back-end database for hosting the Persistent Chat content database where chat room content, rooms, and categories are stored.
+- Un ou plusieurs serveurs (plusieurs cas d’utilisation de la mise en miroir) qui exécute la base de données principale SQL Server pour héberger la base de données de contenu de conversation permanente où le contenu de la salle de conversation, les salles et les catégories sont stockés.
     
     > [!NOTE]
-    > The back-end database stores chat history data, including information about categories and Persistent Chat rooms that are created. 
+    > La base de données principale stocke les données de l’historique de conversation, notamment des informations sur les catégories et salles de conversation permanente qui sont créées. 
   
-- If compliance is enabled, one or more servers (more than one if mirroring is used) running the SQL Server back-end database for hosting the Persistent Chat Compliance database, where compliance events and chat content for the purpose of compliance are stored.
+- Si la conformité est activée, un ou plusieurs serveurs (plusieurs cas d’utilisation de la mise en miroir) qui exécute la base de données principale SQL Server pour héberger la base de données de conformité de conversation permanente, où des événements de conformité et de conversation de contenu pour les besoins de conformité sont stockés.
     
-For details about hardware and software requirements for Persistent Chat Server, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015](hardware-and-software-requirements.md). 
+Pour plus d’informations sur la configuration matérielle et logicielle requise pour le serveur de conversation permanente, voir [configuration du serveur pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) et la [configuration matérielle et logicielle requise pour le serveur de conversation permanente dans Skype pour Business Server 2015](hardware-and-software-requirements.md). 
   
-## <a name="persistent-chat-server-topologies"></a>Persistent Chat Server topologies
+## <a name="persistent-chat-server-topologies"></a>Topologies de serveur de conversation permanentes
 
-You can deploy Persistent Chat Server in single-server or multiple-server pools, and with single-pool or multiple-pool topology. Persistent Chat Server supports the following topologies:
+Vous pouvez déployer des serveurs de conversation permanente avec topologie-pool unique ou multiple-pool et pools de serveur unique ou de plusieurs serveurs. Persistent Chat Server prend en charge les topologies suivantes :
   
 -  Serveur Standard Edition avec serveur de conversation permanente colocalisé sur le serveur frontal
     
--  Standard Edition Server with Persistent Chat Server on a separate server
+-  Le serveur Standard Edition Server avec un serveur de conversation permanente sur un serveur distinct
     
--  Enterprise Edition Server with a single Persistent Chat Server on a separate server
+-  Serveur Enterprise Edition avec un seul Persistent Chat Server sur un serveur distinct
     
--  Enterprise Edition Server with more than one Persistent Chat Server on separate servers
+-  Serveur Enterprise Edition avec plusieurs serveurs de conversation permanente sur des serveurs distincts
     
-Although you can deploy Persistent Chat Server on a Standard Edition Server, be aware that performance and scale will be affected, and high availability is not an option. Therefore, it is recommended that you deploy Persistent Chat on a Standard Edition Server primarily for proof of concept and evaluation purposes. 
+Bien que vous pouvez déployer des serveurs de conversation permanente sur un serveur Standard Edition Server, sachez que les performances et échelle seront affectés, et haute disponibilité n’est pas une option. Par conséquent, il est recommandé de déployer la conversation permanente sur un serveur Standard Edition Server principalement pour la preuve de concept et évaluation à des fins. 
   
-Skype for Business Server 2015 supports a variety of collocation scenarios, providing you the flexibility to save hardware costs by running multiple components on one server (if you have a small organization), or to run individual components on different servers (if you have a larger organization that needs scalability and performance). Vous devez considérer les facteurs d’extensibilité avant de décider si vous allez colocaliser des composants. Collocation scenarios differ for Skype for Business Server 2015 Enterprise Edition and Standard Edition servers. 
+Skype pour Business Server 2015 prend en charge divers scénarios de colocalisation, vous offrant la souplesse nécessaire pour enregistrer les coûts matériels par plusieurs composants en cours d’exécution sur un serveur (si vous avez une petite organisation), ou pour exécuter des composants individuels sur des serveurs différents ( Si vous disposez d’une plus grande organisation qui a besoin de l’évolutivité et les performances). Vous devez considérer les facteurs d’extensibilité avant de décider si vous allez colocaliser des composants. Scénarios de colocalisation diffèrent pour Skype pour Business Server 2015 Enterprise Edition et Standard Edition Server. 
   
-Les sections suivantes décrivent les topologies plus en détail, notamment les scénarios de colocalisation et les options des serveurs de base de données principale. For details about collocation of all server roles and databases, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
+Les sections suivantes décrivent les topologies plus en détail, notamment les scénarios de colocalisation et les options des serveurs de base de données principale. Pour plus d’informations sur la colocalisation de tous les rôles de serveur et les bases de données, voir [Les concepts de topologie pour Skype pour Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
   
 ### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Serveur Standard Edition avec serveur de conversation permanente colocalisé sur le serveur frontal
 
-Avec Standard Edition, vous pouvez colocaliser la conversation permanente sur le serveur frontal. Il s’agit de la configuration la plus simple et la plus basique. You must make sure that the existing Front End Server has enough capacity in terms of physical resources: CPU, memory, disk space, and so on.
+Avec Standard Edition, vous pouvez colocaliser la conversation permanente sur le serveur frontal. Il s’agit de la configuration la plus simple et la plus basique. Vous devez vous assurer que le serveur frontal existant dispose de suffisamment de capacité en termes de ressources physiques : processeur, mémoire, espace disque et ainsi de suite.
   
-In addition, you can collocate the Persistent Chat Server back-end server and the Persistent Chat Compliance database (if enabled) on the local SQL Server Express back-end server. Vous pouvez également choisir d’utiliser un serveur SQL Server distinct avec une instance dédiée. 
+En outre, vous pouvez colocaliser le serveur dorsal Persistent Chat Server et la base de données de conformité de conversation permanente (si activée) sur le serveur principal de SQL Server Express local. Vous pouvez également choisir d’utiliser un serveur SQL Server distinct avec une instance dédiée. 
   
 > [!IMPORTANT]
-> You cannot add additional servers to a Persistent Chat Server pool if the first Persistent Chat Server is collocated with a Standard Edition Front End Server. It is recommended that you install the first server as a standalone instance so that you can add more servers later, if needed. 
+> Vous ne pouvez pas ajouter des serveurs supplémentaires à un pool de serveurs de conversation permanente si le premier serveur de conversation permanente est colocalisé avec un serveur Standard Edition serveur frontal. Il est recommandé d’installer le premier serveur comme instance autonome afin que vous pouvez ajouter d’autres serveurs ultérieurement, si nécessaire. 
   
 ### <a name="standard-edition-server-with-persistent-chat-server-installed-on-a-separate-server"></a>Serveur Standard Edition avec serveur de conversation permanente installé sur un serveur distinct
 
 Avec Standard Edition, vous pouvez installer le serveur de conversation permanente en tant qu’instance autonome et ajouter d’autres serveurs ultérieurement si besoin.   
   
-You can collocate the Persistent Chat Server back-end server and the Persistent Chat Compliance database (if enabled) on the local SQL Server Express back-end server. Vous pouvez également choisir d’utiliser un serveur SQL Server distinct avec une instance dédiée. 
+Vous pouvez colocaliser le serveur dorsal Persistent Chat Server et la base de données de conformité de conversation permanente (si activée) sur le serveur principal de SQL Server Express local. Vous pouvez également choisir d’utiliser un serveur SQL Server distinct avec une instance dédiée. 
   
 ### <a name="enterprise-edition-server-with-a-single-persistent-chat-server"></a>Serveur Enterprise Edition avec un seul serveur de conversation permanente
 
-Avec Enterprise Edition, vous devez installer le serveur de conversation permanente sur un ordinateur distinct. Ainsi, vous ne pouvez pas colocaliser le serveur de conversation permanente sur le serveur frontal Enterprise Edition. This deployment requires a separate server that runs Persistent Chat Server and the Compliance service (if enabled).
+Avec Enterprise Edition, vous devez installer le serveur de conversation permanente sur un ordinateur distinct. Ainsi, vous ne pouvez pas colocaliser le serveur de conversation permanente sur le serveur frontal Enterprise Edition. Ce déploiement requiert un serveur distinct qui exécute Persistent Chat Server et le service de conformité (si activée).
   
-You can, however, collocate the SQL Server database for Persistent Chat Server on the back-end database of an Enterprise Edition Front End pool.
+Vous pouvez, toutefois, colocaliser la base de données SQL Server pour le serveur de conversation permanente sur la base de données principale d’un pool frontal Enterprise Edition.
   
 > [!NOTE]
 > Si vous prévoyez d'utiliser des groupes de disponibilité AlwaysOn SQL pour la récupération d’urgence de haute disponibilité, notez que cette fonctionnalité n'est pas prise en charge pour les bases de donnés de serveur de conversation permanente. 
   
-If you collocate the Persistent Chat database with the back-end database, you can either use a single instance of SQL Server for any or all of the databases, or you can use a separate instance of SQL Server for each database.
+Si vous colocalisez la base de données de conversation permanente avec la base de données principale, vous pouvez utiliser une seule instance de SQL Server pour tout ou partie des bases de données, ou vous pouvez utiliser une instance de SQL Server distincte pour chaque base de données.
   
 > [!IMPORTANT]
-> The server hosting the Persistent Chat database can host other databases. However, when you consider collocating the Persistent Chat database with other databases, be aware that if you are storing the messages of more than a few users, the disk space needed by the Persistent Chat database can grow very large. For this reason, we do not recommend collocating the Persistent Chat database with the back-end database. 
+> Le serveur qui héberge la base de données de conversation permanente peut héberger d’autres bases de données. Toutefois, lorsque vous envisagez de colocaliser la base de données avec les autres bases de données de conversation permanente, sachez que si vous stockez les messages de plus de quelques utilisateurs, l’espace disque nécessaire à la base de données de conversation permanente peut devenir très volumineux. Pour cette raison, nous ne recommandons pas colocaliser la base de données de conversation permanente avec la base de données principale. 
   
-The following figure shows all components of a topology for a single Persistent Chat Server with compliance enabled (optional).
+La figure suivante présente tous les composants d’une topologie pour un seul serveur de conversation permanente avec la conformité activée (facultatif).
   
-**Single Server Topology**
+**Topologie à serveur unique**
 
 ![Serveur de conversation permanente - Topologie à serveur unique](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
 ### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Serveur Enterprise Edition avec plusieurs serveurs de conversation permanente
 
-With Enterprise Edition, you can deploy a multiple-server topology for greater capacity and reliability. A multiple-server topology is the same as the single-server topology except that multiple servers host Persistent Chat Server, and can scale higher. The multiple-server topology can include as many as four active computers running Persistent Chat Server (high availability and disaster recovery configurations will allow up to eight, but only four can be active and the remaining four on standby). Each server can support as many as 20,000 concurrent users, for a total of 80,000 concurrent users connected to a Persistent Chat Server pool with 4 servers. Multiple computers running Persistent Chat Server should reside in the same Active Directory Domain Services domain as Skype for Business Server and the Compliance service.
+Avec Enterprise Edition, vous pouvez déployer une topologie à plusieurs serveurs pour une capacité et la fiabilité. Une topologie à plusieurs serveurs est identique à la topologie à serveur unique, sauf que plusieurs serveurs hébergent Persistent Chat Server et mettre à l’échelle supérieure. La topologie à plusieurs serveurs peut inclure jusqu'à quatre ordinateurs active Persistent Chat Server en cours d’exécution (configurations de récupération haute disponibilité et reprise après sinistre autorisera jusqu'à huit, mais que de quatre peut être actif et le restant de quatre en mode veille). Chaque serveur peut prendre en charge jusqu'à 20 000 utilisateurs simultanés, pour un total de 80 000 utilisateurs simultanés connectés à un pool de serveurs de conversation permanente avec 4 serveurs. Plusieurs ordinateurs exécutant le serveur de conversation permanente doivent résider dans le même domaine des Services de domaine Active Directory en tant que Skype pour Business Server et le service de conformité.
   
-The following figure shows all the components of a multiple-server topology with multiple computers running Persistent Chat Server, the optional Compliance service, and a separate compliance database.
+La figure suivante illustre les composants d’une topologie à plusieurs serveurs avec plusieurs ordinateurs exécutant le serveur de conversation permanente, le service de conformité facultatif et une base de données de conformité distincte.
   
-**Multiple Server Topology**
+**Topologie à plusieurs serveurs**
 
 ![Serveur de conversation permanente - Topologie à plusieurs serveurs](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
   
-Les topologies à plusieurs serveurs permettent de regrouper les fonctionnalités des serveurs. In a server pool, the Persistent Chat services communicate and share data. For example, chat history that was originally posted to one Persistent Chat service is available from any Persistent Chat service in the system. A file that is uploaded through one Persistent Chat service can be accessed by any Persistent Chat service. Users can be connected to different Persistent Chat Server Front End Servers and can be communicating with each other. The default port of TCP 8011 connects a server to a server pool, and is used by the Persistent Chat services to communicate between themselves, or for administrative purposes.
+Les topologies à plusieurs serveurs permettent de regrouper les fonctionnalités des serveurs. Dans un pool de serveurs, les services de conversation permanente communiquent et partagent des données. Par exemple, l’historique des conversations qui a été publié à un seul service de conversation permanente sont disponible à partir de n’importe quel service de conversation permanente dans le système. Un fichier est téléchargé via un service de conversation permanente est accessible par n’importe quel service de conversation permanente. Les utilisateurs peuvent être connectés à différentes Persistent Chat Server serveurs frontaux et peuvent communiquer entre eux. La valeur par défaut le port TCP 8011, qui connecte un serveur à un pool de serveurs et est utilisé par les services de conversation permanente pour communiquer entre eux ou à des fins administratives.
   
-For example, in a four-server Persistent Chat Server deployment, where 80,000 users can be simultaneously signed in to Persistent Chat, the load is distributed evenly at 20,000 users per server. If one server becomes unavailable, the users who are connected to that server will lose their access to Persistent Chat Server. Ces utilisateurs déconnectés sont alors automatiquement transférés vers les serveurs restants jusqu’à ce que le serveur indisponible soit restauré. 
+Par exemple, dans un déploiement de serveurs de conversation permanente à quatre serveurs, où 80 000 utilisateurs peuvent être simultanément connectés à la conversation permanente, la charge est équitablement à 20 000 utilisateurs par serveur. Si un serveur devient indisponible, les utilisateurs qui sont connectés à ce serveur seront perdent leur accès au serveur de conversation permanente. Ces utilisateurs déconnectés sont alors automatiquement transférés vers les serveurs restants jusqu’à ce que le serveur indisponible soit restauré. 
   
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: Cet article décrit la gestion à distance des paramètres par défaut utilisé par un périphérique Skype salle systèmes v2, y compris l’application d’un thème personnalisé.
-ms.openlocfilehash: 939b0ce13aac70a9a80b1cae246a9491b4c098de
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 9310683d3dbe274721f2bdcd583492b63a10d821
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569158"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015598"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Gestion à distance des paramètres d'une console Skype Room Systems v2 à l'aide d'un fichier de configuration XML
  
@@ -105,7 +105,7 @@ Si le fichier XML est formé de manière incorrecte (le type d'une valeur de var
   
 ## <a name="manage-console-settings-using-an-xml-configuration-file"></a>Gestion des paramètres de la console à l'aide d'un fichier de configuration XML
 
-Au démarrage, si une console v2 de systèmes de salle Skype détecte un fichier XML nommé SkypeSettings.xml à l’emplacement ** C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, il s’appliqueront les paramètres de configuration indiqués par le fichier XML, puis supprimez le fichier XML.
+Au démarrage, si une console v2 de systèmes de salle Skype détecte un fichier XML nommé SkypeSettings.xml à l’emplacement **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, il applique les paramètres de configuration indiqué par le fichier XML puis supprimer le fichier XML.
   
 Combien d’appareils v2 Skype salle systèmes en fonction de votre entreprise possède et comment vous choisissez de gérer leur configuration, il existe plusieurs façons de placer le fichier de configuration XML. Une fois le fichier poussé sur la console, redémarrez-la pour traiter les modifications apportées à la configuration. Le fichier de configuration XML est supprimé une fois qu';il a été traité. Les méthodes de gestion suggérés pour les appareils v2 Skype salle systèmes sont présentés dans :
   
@@ -127,6 +127,6 @@ Le fichier de configuration XML doit être mis à jour lors du démarrage de l'a
 ## <a name="see-also"></a>Voir aussi
 <a name="Themes"> </a>
 
-[Gérer les salles Skype systèmes v2](skype-room-systems-v2.md)
+[Gestion de Skype Room System v2](skype-room-systems-v2.md)
 
 [Configurer un élément de fichier](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

@@ -1,25 +1,24 @@
 ---
-title: Affichage des stratégies de conférence dans Skype Entreprise Server 2015
+title: Afficher les stratégies de conférence dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: 'Résumé : Découvrez comment afficher les stratégies de conférence dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 5a0e99506d5c9fb7bc8799abcb15e4bb4224a3bc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez comment afficher les stratégies de conférence dans Skype pour Business Server.'
+ms.openlocfilehash: 161b9f172af935b105e01bda88c1c3dbef2e3a9f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568667"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992335"
 ---
-# <a name="view-conferencing-policies-in-skype-for-business-server-2015"></a>Affichage des stratégies de conférence dans Skype Entreprise Server 2015
+# <a name="view-conferencing-policies-in-skype-for-business-server"></a>Afficher les stratégies de conférence dans Skype pour Business Server
  
-**Résumé :** Découvrez comment afficher les stratégies de conférence dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment afficher les stratégies de conférence dans Skype pour Business Server.
   
 Vous pouvez afficher les stratégies de conférence à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de Skype pour Business Server Management Shell.
   
@@ -37,7 +36,7 @@ Vous pouvez afficher les stratégies de conférence à l’aide de Skype pour le
     
     **Modifier la stratégie de conférence - \<stratégie\> ** s’ouvre et affiche les paramètres de la stratégie sélectionnée.
     
-    Pour plus d’informations sur la configuration des paramètres, consultez la rubrique [créer des stratégies de conférence de Skype pour Business Server 2015](create-policies.md).
+    Pour plus d’informations sur la configuration des paramètres, consultez la rubrique [créer des stratégies de conférence de Skype pour Business Server](create-policies.md).
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Afficher les stratégies de conférence à l’aide de Skype pour Business Server Management Shell
 

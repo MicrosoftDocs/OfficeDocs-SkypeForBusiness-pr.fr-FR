@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Survivable Branch Server, consultez les sections suivantes :'
-ms.openlocfilehash: d992854753cf3b6c11481c0b3725d0e5bb30329b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6ec94dffe46bf29b7665ef362f8084a8fd2a4948
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973072"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988910"
 ---
 # <a name="front-end-general-settings-expander"></a>Expanseur des paramètres généraux du serveur frontal
  
@@ -133,7 +133,7 @@ Dans le cas d’un serveur Standard Edition, vous pouvez configurer des paramèt
 
 Vous pouvez configurer les paramètres généraux suivants :
   
-- ** ** DE NOM DE DOMAINE COMPLET. Notez que le nom de domaine complet ne peut pas être modifié. Vous devez supprimer et redéfinir le serveur Standard Edition server pour modifier le nom de domaine complet associé.
+- **Nom de domaine complet**. Notez que le nom de domaine complet ne peut pas être modifié. Vous devez supprimer et redéfinir le serveur Standard Edition server pour modifier le nom de domaine complet associé.
     
 - Sélectionnez **Utiliser toutes les adresses IP configurées** ou **Limiter l’utilisation des services aux adresses IP sélectionnées**. Si vous choisissez de limiter le service aux adresses IP définies, vous définirez l’adresse IP principale utilisée par le serveur pour toutes les communications, à l’exception du réseau téléphonique commuté (RTC). Vous pouvez également sélectionner **Activer IPv6** pour activer le protocole IPv6 pour ce serveur.
     

@@ -3,22 +3,23 @@ title: Détails de la table des serveurs de conversation permanente
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
-description: Les rubriques suivantes détaillent les colonnes dans chacune des tables Chat persistant d’un schéma de base de données.
-ms.openlocfilehash: a7dc2f9cc545627630286d6166adf47fbb8c4c57
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Les rubriques suivantes détaillent les colonnes de chacune des tables de schéma de base de données conversation permanente.
+ms.openlocfilehash: 016974ff261cd862b888158f729e4baaff504366
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992797"
 ---
 # <a name="persistent-chat-server-table-details"></a>Détails de la table des serveurs de conversation permanente
  
-Les rubriques suivantes détaillent les colonnes dans chacune des tables Chat persistant d’un schéma de base de données.
+Les rubriques suivantes détaillent les colonnes de chacune des tables de schéma de base de données conversation permanente.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -46,7 +47,7 @@ Les rubriques suivantes détaillent les colonnes dans chacune des tables Chat pe
     
 - [tblScopePrincipal](tblscopeprincipal.md)
     
-- [tblPrincipalRole](tblprincipalrole.md)
+- [table tblPrincipalRole](tblprincipalrole.md)
     
 - [tblSiopWhiteList](tblsiopwhitelist.md)
     
@@ -58,7 +59,7 @@ Les rubriques suivantes détaillent les colonnes dans chacune des tables Chat pe
     
 - [tblChat](tblchat.md)
     
-- [tblLastInviteId](tbllastinviteid.md)
+- [table tblLastInviteId](tbllastinviteid.md)
     
 - [tblLastChatId](tbllastchatid.md)
     
@@ -70,15 +71,15 @@ Les rubriques suivantes détaillent les colonnes dans chacune des tables Chat pe
     
 - [tblAdminLock](tbladminlock.md)
     
-- [tblSystemRevision](tblsystemrevision.md)
+- [Systemrevision](tblsystemrevision.md)
     
-- [tblActivePeers](tblactivepeers.md)
+- [Activepeers](tblactivepeers.md)
     
 - [tblConfig](tblconfig.md)
     
 - [tblComplianceData](tblcompliancedata.md)
     
-- [tblComplianceFanout](tblcompliancefanout.md)
+- [la table tblComplianceFanout](tblcompliancefanout.md)
     
 - [tblComplianceParticipant](tblcomplianceparticipant.md)
     

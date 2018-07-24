@@ -11,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
-description: Création et gestion de salles de Chat persistant sont beaucoup plus facile avec la bonne utilisation des catégories. Administrateur de Chat persistants peut définir des créateurs et AllowedMembers pour chaque catégorie et peut également définir les paramètres par défaut de salle de conversation et les comportements qui s’appliqueront à toutes les salles de conversation créées dans la catégorie. Persistant Chat créer et gérer des catégories à l’aide de Skype pour les applets de commande de panneau de configuration de Business Server ou de Windows PowerShell.
-ms.openlocfilehash: 23b7bcbc07401d19bac6d7d77fc17d1a4a84a477
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Création et gestion des salles de conversation permanente sont beaucoup plus facile avec l’utilisation correcte des catégories. Un administrateur de conversation permanente peut définir AllowedMembers et créateurs pour chaque catégorie et permettre également définir les paramètres de salle de conversation par défaut et les comportements qui seront appliquées à toutes les salles de conversation créées dans la catégorie. Persistent Chat créer et gérer les catégories à l’aide de Skype pour le panneau de configuration serveur Business ou Windows PowerShell cmdlets.
+ms.openlocfilehash: 9a814a5a6408e80fc1b51679fad80ef8c44f6b49
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005583"
 ---
 # <a name="select-creators"></a>Sélection des créateurs
  
-Création et gestion de salles de Chat persistant sont beaucoup plus facile avec la bonne utilisation des catégories. Administrateur de Chat persistants peut définir des **créateurs** et **AllowedMembers** pour chaque catégorie et peut également définir les paramètres par défaut de salle de conversation et les comportements qui s’appliqueront à toutes les salles de conversation créées dans la catégorie. Persistant Chat créer et gérer des catégories à l’aide de Skype pour les applets de commande de panneau de configuration de Business Server ou de Windows PowerShell.
+Création et gestion des salles de conversation permanente sont beaucoup plus facile avec l’utilisation correcte des catégories. Un administrateur de conversation permanente peut définir **AllowedMembers** et **créateurs** pour chaque catégorie et permettre également définir les paramètres de salle de conversation par défaut et les comportements qui seront appliquées à toutes les salles de conversation créées dans la catégorie. Persistent Chat créer et gérer les catégories à l’aide de Skype pour le panneau de configuration serveur Business ou Windows PowerShell cmdlets.
   
 ## <a name="tasks-that-you-can-perform"></a>Tâches que vous pouvez effectuer
 
@@ -28,27 +29,24 @@ Dans la page **Sélectionner les créateurs**, vous pouvez effectuer les tâches
   
 - [Configurer les catégories](http://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
     
-- [Nouvelles fonctionnalités de serveur de conversation permanent](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
+- [Nouvelles fonctionnalités de serveur de conversation permanente](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour Business Server du Panneau de configuration, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>Pour configurer les catégories des salles de conversation
 
-**Appartenance**, dans la section **créateurs** , ajouter ou supprimer des utilisateurs et autres entités de Active Directory associées aux créateurs pour la catégorie. Un créateur est un utilisateur qui dispose des autorisations nécessaires pour créer des salles de conversation et leur attribuer des gestionnaires et des membres.
+Dans **l’appartenance**, dans la section **créateurs** , ajouter ou supprimer des utilisateurs et autres principaux Active Directory associé aux créateurs de la catégorie. Un créateur est un utilisateur qui dispose des autorisations nécessaires pour créer des salles de conversation et leur attribuer des gestionnaires et des membres.
   
-### 
 
-Pour plus d’informations sur les fonctionnalités du serveur de conversation persistant de, consultez [Vue d’ensemble de persistant Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de serveur de conversation persistant, consultez [Configuration d’un serveur de Chat persistant](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) dans la documentation sur le déploiement et la [gestion de Lync Server 2013, serveur de Chat persistant](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) dans la documentation sur les opérations.
+
+Pour plus d’informations sur les serveurs de conversation permanente des fonctionnalités, voir [Vue d’ensemble de Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de serveur de conversation permanente, voir [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) dans la documentation de déploiement et la [gestion de Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) dans la documentation des opérations.
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Présentation de l’appartenance de conversation permanent](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+[Présentation de l’appartenance de conversation permanente](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
   
-[Utilisation des catégories pour administrer le serveur Chat persistant](http://technet.microsoft.com/library/dfcb3ad1-da90-467e-b08c-f4e68673b7b5.aspx)
+[Utilisation des catégories pour administrer le serveur de conversation permanente](http://technet.microsoft.com/library/dfcb3ad1-da90-467e-b08c-f4e68673b7b5.aspx)
   
-[Déplacement d’une salle de conversation à partir d’une catégorie à une autre](http://technet.microsoft.com/library/7e93b8f6-5a18-4476-a432-3918e01bcfa6.aspx)
+[Déplacement d’une salle de conversation à partir d’une catégorie vers une autre](http://technet.microsoft.com/library/7e93b8f6-5a18-4476-a432-3918e01bcfa6.aspx)
   
-[Création ou modification d’une nouvelle salle](http://technet.microsoft.com/library/aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4.aspx)
-
+[Création ou modification d’une salle](http://technet.microsoft.com/library/aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4.aspx)

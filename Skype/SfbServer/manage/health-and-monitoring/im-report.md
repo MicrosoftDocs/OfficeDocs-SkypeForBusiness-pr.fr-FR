@@ -1,30 +1,30 @@
 ---
-title: Rapport de messagerie instantanée P2P dans Skype Entreprise Server 2015
+title: Rapport de messagerie instantanée d’égal à égal dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: 'Résumé : Obtenir des informations sur l’état de la messagerie instantanée de Peer-to-Peer dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 0b7fc3d60aebc22e6c4c53e2e8c38fea12b0a6c0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez l’état de la messagerie instantanée d’égal à égal dans Skype pour Business Server.'
+ms.openlocfilehash: e7e65e11d6a8710c4a37fc3afe0a983d5ce9b14d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968613"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server-2015"></a>Rapport de messagerie instantanée P2P dans Skype Entreprise Server 2015
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Rapport de messagerie instantanée d’égal à égal dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur l’état de la messagerie instantanée de Peer-to-Peer dans Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur l’état de la messagerie instantanée d’égal à égal dans Skype pour Business Server.
   
 Le rapport de messagerie instantanée P2P fournit les tendances des sessions de messagerie instantanée P2P, par pool et par type d’authentification. Le rapport peut afficher le nombre total de sessions tenues pendant une période donnée (par exemple, jour par jour ou heure par heure) ou le nombre total de messages instantanés envoyés au cours de cette période.
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Accès au rapport de messagerie instantanée P2P
 
-Vous pouvez accéder au rapport de messagerie instantanée de Peer-to-Peer uniquement en ouvrant le [rapport de synthèse de l’activité Peer-to-Peer dans Skype pour Business Server 2015](peer-to-peer-activity-summary-report.md) et puis en cliquant sur une des mesures suivantes :
+Vous pouvez accéder à l’état de la messagerie instantanée d’égal à égal uniquement en ouvrant le [rapport de synthèse de l’activité d’égal à égal dans Skype pour Business Server](peer-to-peer-activity-summary-report.md) et puis en cliquant sur une des mesures suivantes :
   
 - Nombre total de sessions de messagerie instantanée P2P
     
@@ -38,7 +38,7 @@ Par défaut, le rapport de messagerie instantanée P2P vous montre le nombre de 
 
 Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Le tableau ci-dessous dresse la liste des filtres que vous pouvez utiliser avec le rapport de messagerie instantanée P2P.
   
-**Filtres de rapport de messagerie instantanée de peer-to-Peer**
+**Filtres du rapport de messagerie instantanée P2P**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -51,11 +51,11 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
 
 Le tableau qui suit répertorie les informations fournies dans le rapport de messagerie instantanée P2P.
   
-**Métrique pour une Session de messagerie instantanée de Peer-to-Peer par Pool**
+**Mesure d’une session de messagerie instantanée P2P par pool**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Pool** <br/> |Non  <br/> |Nom du pool de Registre ou du serveur de transport Edge.  <br/> |
+|**Pool** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou du serveur Edge.  <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure des sessions.  <br/> |
 |**Total** <br/> |Non  <br/> |Nombre total de sessions ou de messages.  <br/> |
    
@@ -63,9 +63,9 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de mes
 
 Le tableau ci-dessous dresse la liste des informations fournies dans le rapport de messagerie instantanée P2P pour chaque type d’authentification utilisé par les participants dans une session P2P.
   
-**Métrique pour une Session de messagerie instantanée de Peer-to-Peer par Type d’authentification**
+**Mesure d’une session de messagerie instantanée P2P par type d’authentification**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Type d’authentification** <br/> |Non  <br/> | Type d’authentification utilisé par les participants de la session. Les valeurs sont généralement l’une des valeurs suivantes : <br/>  Enterprise <br/>  Federated <br/>  PIC <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure des sessions.  <br/> |

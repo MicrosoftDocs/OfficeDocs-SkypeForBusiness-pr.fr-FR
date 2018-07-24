@@ -3,21 +3,20 @@ title: Déployer la mise en miroir SQL pour la haute disponibilité des serveurs
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations, voir Cumulative mise à jour de package 9 pour SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 9edbda5d793fed48d31625c3e0d53ab2f9e6d349
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: a0baf639b050d323a29eb347c14b38505f059ef2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569137"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016205"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Déployer la mise en miroir SQL pour la haute disponibilité des serveurs principaux dans Skype Entreprise Server 2015
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Déployer la mise en miroir SQL pour le serveur principal une haute disponibilité dans Skype pour Business server 2015
  
 
 Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations, voir [9 pour SQL Server 2008 Service Pack 1 de package de mises à jour cumulatives ](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
@@ -121,11 +120,11 @@ Gardez les points suivants à l’esprit lorsque vous configurez la mise en miro
     
   - [La base de données mise en miroir de point de terminaison (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=247347)
     
-## <a name="using-skype-for-business-server-management-shell-cmdlets-to-set-up-sql-mirroring"></a>À l’aide de Skype pour les applets de commande Business Server Management Shell pour configurer la mise en miroir SQL
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>À l’aide de Skype pour Business Server 2015 Management Shell applets de commande Set Up la mise en miroir SQL
 
 Le moyen le plus simple pour configurer la mise en miroir est à l’aide du Générateur de topologie, mais vous pouvez également effectuer à l’aide des applets de commande.
   
-1. Ouvrez un Skype pour fenêtre Business Server Management Shell et exécutez la cmdlet suivante :
+1. Ouvrez un Skype pour fenêtre Business Server 2015 Management Shell et exécutez la cmdlet suivante :
     
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 

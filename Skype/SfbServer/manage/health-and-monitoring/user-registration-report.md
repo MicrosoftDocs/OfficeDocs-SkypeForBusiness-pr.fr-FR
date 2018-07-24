@@ -1,30 +1,30 @@
 ---
-title: Rapport d’enregistrement de l’utilisateur dans Skype Entreprise Server 2015
+title: Rapport d’enregistrement utilisateur dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
-description: 'Résumé : Obtenir des informations sur l’état de l’enregistrement utilisateur dans Skype pour Business Server 2015.'
-ms.openlocfilehash: fcf1640b3d8b87664de060ae5866b830ceea3d3b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez l’état de l’enregistrement d’utilisateur dans Skype pour Business Server.'
+ms.openlocfilehash: 6136e90700bf371621f2b7b27c87453ceb04d854
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001627"
 ---
-# <a name="user-registration-report-in-skype-for-business-server-2015"></a>Rapport d’enregistrement de l’utilisateur dans Skype Entreprise Server 2015
+# <a name="user-registration-report-in-skype-for-business-server"></a>Rapport d’enregistrement utilisateur dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur l’état de l’enregistrement utilisateur dans Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur l’état de l’enregistrement d’utilisateur dans Skype pour Business Server.
   
-L’état de l’enregistrement utilisateur fournit une présentation des activités d’ouverture de session de l’utilisateur, notamment les informations sur le nombre d’utilisateurs ayant ouvert une session Skype pour Business Server 2015 pendant une période de temps (horaire, quotidienne, hebdomadaire, mensuelle). N’oubliez pas que le rapport vous indique uniquement le nombre de personnes qui ont ouvert une session. Il ne vous indique pas les personnes connectées. Rapports de surveillance ne fournissent pas d’informations sur les utilisateurs spécifiques qui sont à l’aide de Skype pour Business Server 2015 (et ceux qui ne le sont pas). Vous pouvez toutefois obtenir des informations approximatives sur les utilisateurs à l’aide du rapport d’activité de l’utilisateur.
+Le rapport d’enregistrement utilisateur fournit une vue d’ensemble de l’activité d’ouverture de session utilisateur, les plus particulièrement les informations sur le nombre d’utilisateurs ayant ouvert une session sur Skype pour Business Server durant une période spécifiée (toutes les heures, tous les jours, toutes les semaines, tous les mois). N’oubliez pas que le rapport vous indique uniquement le nombre de personnes qui ont ouvert une session. Il ne vous apprend pas qui a ouvert une session. Rapports de surveillance ne fournissent pas d’informations sur les utilisateurs spécifiques qui sont à l’aide de Skype pour Business Server (et ceux qui n’est pas). Vous pouvez toutefois obtenir des informations approximatives sur les utilisateurs à l’aide du rapport d’activité de l’utilisateur.
   
-Lorsqu’il donne des informations sur les ouvertures de session d’utilisateurs, le rapport d’enregistrement de l’utilisateur établit deux distinctions importantes. Tout d’abord, il décompose les ouvertures de session en deux catégories principales : ouvertures de session internes et ouvertures de session externes. Les ouvertures de session internes représentent les utilisateurs qui ont ouvert une session à l’intérieur du pare-feu de votre organisation (c’est-à-dire tout en étant connecté au réseau d’entreprise). Les connexions externes représentent les utilisateurs connectés à partir de l’extérieur du pare-feu via un serveur de transport Edge (par exemple, un utilisateur qui a ouvert une session à partir d’Internet et est considérée comme une connexion externe). Si vous devez connaître le nombre d’utilisateurs qui ouvrent une session à l’extérieur du pare-feu, le rapport d’enregistrement de l’utilisateur peut vous donner cette information.
+Lorsqu’il donne des informations sur les ouvertures de session d’utilisateurs, le rapport d’enregistrement de l’utilisateur établit deux distinctions importantes. Tout d’abord, il décompose les ouvertures de session en deux catégories principales : ouvertures de session internes et ouvertures de session externes. Les ouvertures de session internes représentent les utilisateurs qui ont ouvert une session à l’intérieur du pare-feu de votre organisation (c’est-à-dire tout en étant connecté au réseau d’entreprise). Ouvertures de sessions externes représentent des utilisateurs connectés à partir de l’extérieur du pare-feu via un serveur Edge (par exemple, un utilisateur connecté à partir du compte d’ouverture de session externe pour un café Internet). Si vous devez connaître le nombre d’utilisateurs qui ouvrent une session à l’extérieur du pare-feu, le rapport d’enregistrement de l’utilisateur peut vous donner cette information.
   
-En outre, l’état de l’enregistrement d’utilisateur notes le nombre d’utilisateurs actif était présent au cours d’une période de temps donnée. Un utilisateur actif est un utilisateur qui a participé à une session de (IM), de la messagerie instantanée a participé à un Skype pour Business Server réunion, faite a reçu un appel téléphonique ou sinon utilisé Skype pour Business Server au cours de cette période de temps. Un utilisateur actif est différent d’un utilisateur qui a ouvert une session, mais qui n’a jamais utilisé le système.
+En outre, le rapport d’enregistrement de l’utilisateur note le nombre d’utilisateurs actifs qui étaient présents pendant une période donnée. Un utilisateur actif est un utilisateur qui a participé à une conversation instantanée, de messagerie instantanée a participé à un Skype pour Business Server réunion, apportées a reçu un appel téléphonique ou sinon utilisé Skype pour Business Server pendant ce laps de temps. Un utilisateur actif est différent d’un utilisateur qui a ouvert une session, mais qui n’a jamais utilisé le système.
   
 ## <a name="accessing-the-user-registration-report"></a>Accès au rapport d’enregistrement de l’utilisateur
 
@@ -32,13 +32,13 @@ Vous ne pouvez accéder au rapport d’enregistrement de l’utilisateur qu’à
   
 ## <a name="making-the-best-use-of-the-user-registration-report"></a>Utilisation optimale du rapport d’enregistrement de l’utilisateur
 
-Une fois que vous avez déployé Skype pour Business Server une fréquentes question s’agit-il : comment savoir si mes utilisateurs sont en fait à l’aide de cette nouvelle technologie ? Même s’il est quelque peu limité à cet égard, le rapport d’enregistrement de l’utilisateur peut vous aider à répondre à cette question. Pour déterminer si les utilisateurs utilisent Skype pour Business Server, vous devez effectuer les deux opérations. Récupérez d’abord la valeur de la mesure Utilisateurs uniques par ouverture de session dans le rapport d’enregistrement de l’utilisateur. Cette valeur indique combien de personnes distincts connectés à Skype pour Business Server.
+Une fois que vous avez déployé Skype pour Business Server une fréquentes question s’agit-il : comment savoir si les utilisateurs sont réellement à l’aide de cette nouvelle technologie ? Même s’il est quelque peu limité à cet égard, le rapport d’enregistrement de l’utilisateur peut vous aider à répondre à cette question. Pour déterminer si les utilisateurs utilisent Skype pour Business Server, vous devez effectuer deux opérations. Récupérez d’abord la valeur de la mesure Utilisateurs uniques par ouverture de session dans le rapport d’enregistrement de l’utilisateur. Cette valeur indique combien de personnes distincts ouvert une session sur Skype pour Business Server.
   
-Par comparaison, la métrique des ouvertures de session Total indique combien de fois total tout le monde ouvert une session sur Skype pour Business Server. Par exemple, supposons que Ken Myer ouvert une session sur Skype pour Business Server cinq fois différents en une seule journée. Dans ce cas, cinq ouvertures de session distinctes sont comptabilisées pour Ken Myer dans la mesure Nombre total d’ouvertures de session, mais une seule ouverture de session est comptabilisée dans la mesure Utilisateurs uniques par ouverture de session. De même, il n’est pas rare qu’un utilisateur ouvre une session sur plusieurs périphériques ou depuis plusieurs emplacements. Par exemple, un utilisateur peut ouvrir une session à l’aide de son ordinateur de bureau, son ordinateur portable, et elle peut avoir un téléphone IP qui ouvre automatiquement une session Skype pour Business Server. Dans cet exemple, nous avons un utilisateur unique avec trois ouvertures de session.
+Comparativement, la mesure nombre Total de connexions indique combien de fois total tout le monde ouvert une session sur Skype pour Business Server. Par exemple, supposons que Ken Myer ouvert une session sur Skype pour Business Server cinq à différents moments dans une journée. Dans ce cas, cinq ouvertures de session distinctes sont comptabilisées pour Ken Myer dans la mesure Nombre total d’ouvertures de session, mais une seule ouverture de session est comptabilisée dans la mesure Utilisateurs uniques par ouverture de session. De même, il n’est pas rare qu’un utilisateur ouvre une session sur plusieurs périphériques ou depuis plusieurs emplacements. Par exemple, un utilisateur peut se connecter à l’aide de son ordinateur de bureau, son ordinateur portable, et elle peut avoir un téléphone IP qui se connecte automatiquement à Skype pour Business Server. Dans cet exemple, nous avons un utilisateur unique avec trois ouvertures de session.
   
 Pour mieux expliquer la différence entre le nombre total d’ouvertures de session et les utilisateurs uniques par ouverture de session, examinez les ouvertures de session pour une période donnée dans le tableau suivant.
   
-|**Utilisateur**|**Ouverture de session**|
+|**Utilisateur**|**Date/heure d’ouverture de session**|
 |:-----|:-----|
 |Ken Myer  <br/> |07/07/2015 08:45  <br/> |
 |Ken Myer  <br/> |07/07/2015 08:46  <br/> |
@@ -48,28 +48,28 @@ Pour mieux expliquer la différence entre le nombre total d’ouvertures de sess
    
 Notez qu’il y a cinq ouvertures de session au total, mais qu’il n’y a que deux utilisateurs uniques par ouverture de session : Ken Myer (qui a ouvert une session trois fois) et Pilar Ackerman (qui a ouvert une session deux fois). Cela illustre la différence entre les ouvertures de session et les utilisateurs uniques par ouverture de session.
   
-En plus de savoir le nombre d’ouvertures de session unique, vous devez connaître le nombre total d’utilisateurs qui ont été activées pour Skype pour Business Server. Cette valeur peut être récupérée en ouvrant le Skype pour Business Server Management Shell et en exécutant la commande Windows PowerShell suivante :
+En plus de connaître le nombre d’ouvertures de session unique, vous devez connaître le nombre total d’utilisateurs qui ont été activés pour Skype pour Business Server. Cette valeur peut être récupérée en ouvrant le Skype pour Business Server Management Shell et en exécutant la commande Windows PowerShell suivante :
   
 ```
 (Get-CsUser).Count
 ```
 
-Si la commande précédente renvoie une valeur de 1,236 et mesure des utilisateurs d’ouverture de session Unique renvoie une valeur moyenne de 667, ce qui suggère qu’un peu plus la moitié de vos utilisateurs activer pour Skype pour entreprise se connecte en fait au système chaque jour (ce qui est 667 divisé par 1,236, qui est d’environ 54 %).
+Si la commande précédente renvoie la valeur 1,236 et de mesure des utilisateurs d’ouverture de session Unique renvoie une valeur moyenne de 667, qui indique qu’un peu plus la moitié de vos utilisateurs activer pour Skype pour les entreprises sont réellement se connecter au système chaque jour (qui est 667 divisé par 1,236, qui est d’environ 54 %).
   
 > [!CAUTION]
-> Gardez à l’esprit que les mesures d’ouverture de session enregistrent les utilisateurs qui ont ouvert une session pendant la période spécifiée. Elles ne gardent pas trace des utilisateurs qui avaient déjà ouvert une session sur le système. Par exemple, si votre mesure Utilisateurs uniques par ouverture de session indique 667 ouvertures de session et que vous avez 1 236 utilisateurs, cela suggère qu’environ la moitié de vos utilisateurs ouvrent une session sur le système. Cependant, supposons que 300 utilisateurs avaient déjà ouvert une session sur le système au moment où vous avez commencé à regarder les données d’ouverture de session. Qui signifie que vous avez réellement près de 1 000 utilisateurs connectés sur Skype pour Business Server, ce qui signifie que près de 80 % de vos utilisateurs a ouvert une session. 
+> Gardez à l’esprit que les mesures d’ouverture de session enregistrent les utilisateurs qui ont ouvert une session pendant la période spécifiée. Elles ne gardent pas trace des utilisateurs qui avaient déjà ouvert une session sur le système. Par exemple, si votre mesure Utilisateurs uniques par ouverture de session indique 667 ouvertures de session et que vous avez 1 236 utilisateurs, cela suggère qu’environ la moitié de vos utilisateurs ouvrent une session sur le système. Cependant, supposons que 300 utilisateurs avaient déjà ouvert une session sur le système au moment où vous avez commencé à regarder les données d’ouverture de session. Que signifie que vous avez réellement près de 1 000 utilisateurs connectés à Skype pour Business Server, ce qui signifie que rapprocher à 80 % de vos utilisateurs ont ouvert une session. 
   
-Vous devez également comparer la valeur Utilisateurs uniques par ouverture de session avec la valeur de la mesure Utilisateurs actifs uniques. La métrique d’utilisateurs actifs Unique vous indique le nombre d’utilisateurs unique utilisés effectivement Skype pour le serveur de l’entreprise : ils a effectué un appel téléphonique, ils rejoint un Skype pour Business Server réunion ou participé à une session de messagerie instantanée. Il s’agit d’informations utiles, car Skype pour Business Server 2015 peut être configuré pour démarrer automatiquement chaque fois qu’un utilisateur démarre Windows. Pour cette raison, vous pouvez avoir un grand nombre d’utilisateurs de se connecter automatiquement à Skype pour les entreprises lorsqu’elles se connectent à Windows chaque jour, mais puis utilisent jamais réellement Skype pour Business Server au cours de cette période.
+Vous devez également comparer la valeur Utilisateurs uniques par ouverture de session avec la valeur de la mesure Utilisateurs actifs uniques. La mesure utilisateurs actifs uniques indique le nombre d’utilisateurs unique utilisés réellement Skype pour Business Server : ils apportées à un appel téléphonique, ils joint un Skype pour Business Server réunion ou qu’ils ont participé dans une conversation par messagerie instantanée. Il s’agit des informations utiles, étant donné que Skype pour Business Server peut être configuré pour démarrer automatiquement chaque fois qu’un utilisateur démarre Windows. Par conséquent, vous devrez peut-être un grand nombre d’utilisateurs de se connecter automatiquement à Skype pour les entreprises lorsqu’elles se connectent à Windows chaque jour, mais jamais réellement utilisent Skype pour Business Server pendant la période.
   
-La métrique d’utilisateurs actifs Unique fournit également des données plus significatives dans une organisation où les utilisateurs en général ne vous connectez pas désactiver Windows à la fin de la journée. Elles simplement verrouillent leur ordinateur et laissez Windows et Skype pour l’entreprise en cours d’exécution. Dans ce cas, vous pouvez vous retrouver avec un nombre d’ouvertures de session par jour très restreint, car vos utilisateurs ont ouvert leur session plusieurs jours auparavant et ne l’ont jamais fermée. Toutefois, les utilisateurs actifs Unique vous indique si les utilisateurs utilisent activement Skype pour entreprise ou un autre Skype pour client Business Server.
+La mesure d’utilisateurs actifs Unique fournit également des données plus explicites dans une organisation où les utilisateurs généralement ne se connectent pas désactiver Windows à la fin de la journée. Elles simplement verrouillent leur ordinateur et laissez Windows et Skype pour les entreprises en cours d’exécution. Dans ce cas, vous pouvez vous retrouver avec un nombre d’ouvertures de session par jour très restreint, car vos utilisateurs ont ouvert leur session plusieurs jours auparavant et ne l’ont jamais fermée. Toutefois, des utilisateurs actifs Unique vous indique si les utilisateurs utilisent activement Skype pour un autre Skype pour client Business Server ou de l’entreprise.
   
 ## <a name="filters"></a>Filtres
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, l’état de l’enregistrement d’utilisateur vous permet pour afficher des données pour votre pool de Registre et les serveurs Edge ou pour afficher des données pour un pool individuel. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les enregistrements sont groupés par heure, jour, semaine ou mois.
+Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, le rapport d’enregistrement utilisateur permet de vous permet d’afficher des données pour votre pool de serveurs d’inscriptions et les serveurs de périphérie ou pour afficher les données pour un pool spécifique. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les enregistrements sont groupés par heure, jour, semaine ou mois.
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport d’enregistrement de l’utilisateur.
   
-**Filtres de rapport de l’enregistrement utilisateur**
+**Filtres du rapport d’enregistrement de l’utilisateur**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -82,9 +82,9 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 Le tableau qui suit répertorie les informations fournies dans le rapport d’enregistrement de l’utilisateur. 
   
-**Métrique de rapport de l’enregistrement utilisateur**
+**Mesures du rapport d’enregistrement de l’utilisateur**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Toutes les heures** <br/> **Jour** <br/> **Toutes les semaines** <br/> **Mois** <br/> |Non  <br/> |Indique l’intervalle de temps sélectionné dans la barre d’outils des filtres. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées sur l’intervalle en question. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 07/07/2015, vous disposez de l’affichage heure par heure de l’activité d’inscription de l’utilisateur à cette date.  <br/> |
 |**Nombre total d’ouvertures de sessions** <br/> |Non  <br/> |Nombre total d’ouvertures de sessions réussies.  <br/> |

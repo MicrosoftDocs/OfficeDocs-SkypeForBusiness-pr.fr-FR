@@ -1,23 +1,22 @@
 ---
-title: Déployer le plug-in Lync VDI dans Skype Entreprise Server 2015
+title: Déployer le Lync VDI plug-in avec Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: Cette rubrique décrit les procédures de déploiement pour l’utilisation de Skype pour les entreprises lors de la connexion à un bureau virtuel distant.
-ms.openlocfilehash: 4e4193998a9374c1aa0160999ad53a9ec3d8aab7
-ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
+ms.openlocfilehash: d939d2b269d6488de1df09e3f8aff08e2b83458e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19927851"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986102"
 ---
-# <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server-2015"></a>Déployer le plug-in Lync VDI dans Skype Entreprise Server 2015
+# <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Déployer le Lync VDI plug-in avec Skype pour Business Server
  
 Cette rubrique décrit les procédures de déploiement pour l’utilisation de Skype pour les entreprises lors de la connexion à un bureau virtuel distant. Considérations de planification sont [planifier Skype pour les entreprises dans les environnements VDI](../../plan-your-deployment/clients-and-devices/vdi-environments.md).
   
@@ -25,14 +24,14 @@ Un environnement VDI (Virtual Desktop Infrastructure) est utilisé dans certaine
   
 Il existe deux solutions disponibles pour le composant plug-in VDI - 1 proposées par Microsoft et l’autre offertes par Citrix. Microsoft recommande l’utilisation de la nouvelle solution Pack d’optimisation HDX en temps réel dans les nouveaux déploiements, mais continuera à prendre en charge le plug-in de VDI Lync d’origine pour le reste de son cycle de vie. 
   
-Cette rubrique fournit des détails sur le déploiement de Microsoft Lync VDI plug-in, qui est uniquement pris en charge sur Windows 7 et Windows 8 ou Windows Server 2008 et ne prend en charge Lync 2013 ou Skype pour les clients professionnels 2015. Il n’est pas prévu pour mettre à jour ce plug-in, mais le [Pack d’optimisation Citrix HDX en temps réel](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) pour Skype pour les entreprises seront mis à jour selon vos besoins.
+Cette rubrique fournit des détails sur le déploiement de Microsoft Lync VDI plug-in, qui est uniquement pris en charge sur Windows 7 et Windows 8 ou Windows Server 2008 et ne prend en charge Lync 2013 ou Skype pour les clients d’entreprise. Il n’est pas prévu pour mettre à jour ce plug-in, mais le [Pack d’optimisation Citrix HDX en temps réel](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) pour Skype pour les entreprises seront mis à jour selon vos besoins.
   
 ## <a name="prepare-your-environment-for-the-lync-vdi-plug-in"></a>Préparer votre environnement au plug-in Lync VDI
 <a name="Prepare_vdi"> </a>
 
-1. Dans Skype pour Business Server 2015, assurez-vous que EnableMediaRedirection a la valeur True pour tous les utilisateurs de Lync VDI plug-in. Pour plus d’informations, consultez les rubriques d’aide pour l’applet de commande [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps) et l’applet de commande [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) .
+1. Dans Skype pour Business Server, vérifiez que EnableMediaRedirection a la valeur True pour tous les utilisateurs de Lync VDI plug-in. Pour plus d’informations, consultez les rubriques d’aide pour l’applet de commande [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps) et l’applet de commande [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) .
     
-2. Sur le serveur de centre de données, installez le Skype pour Business 2015 client sur tous les ordinateurs virtuels.
+2. Sur le serveur de centre de données, installez le Skype pour Business client sur tous les ordinateurs virtuels.
     
 3. Sur les ordinateurs locaux, installer le plug-in Lync VDI.
     
@@ -64,15 +63,13 @@ Pour préparer la connexion Bureau à distance pour le plug-in Lync VDI, procéd
 ## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>Se connecter et utiliser Skype Entreprise sur le bureau virtuel
 <a name="SfB_signin"> </a>
 
-Une fois le plug-in Lync VDI est activé, l’utilisateur procède comme suit lors de la connexion à Skype pour Business 2015 sur le bureau virtuel.
+Une fois le plug-in Lync VDI est activé, l’utilisateur procède comme suit lors de la connexion sur le bureau virtuel à Skype pour les entreprises.
   
-1. L’utilisateur tape ses informations d’identification dans le Skype pour client Business 2015 en cours d’exécution sur le bureau virtuel.
+1. L’utilisateur tape ses informations d’identification dans le Skype pour client d’entreprise en cours d’exécution sur le bureau virtuel.
     
-2. Une fois Skype pour Business 2015 détecte le plug-in Lync VDI, Skype pour Business 2015 invite l’utilisateur à entrer de nouveau les informations d’identification. Dans cette boîte de dialogue, nous recommandons à l’utilisateur d’activer la case à cocher **Enregistrer mon mot de passe** afin qu’il n’ait pas à les entrer de nouveau lors de connexions ultérieures.
+2. Une fois Skype pour les entreprises détecte le plug-in Lync VDI, Skype pour les entreprises invite l’utilisateur à entrer de nouveau les informations d’identification. Dans cette boîte de dialogue, nous recommandons à l’utilisateur d’activer la case à cocher **Enregistrer mon mot de passe** afin qu’il n’ait pas à les entrer de nouveau lors de connexions ultérieures.
     
-3. Skype pour Business 2015 commence le jumelage avec le plug-in Lync VDI. Alors que dans ce cas, le client affiche deux icônes dans le Skype pour Business 2015 barre d’état. L’icône en bas à gauche indique qu’aucun périphérique audio n’est disponible, tandis que l’icône qui clignote en bas à droite indique que le jumelage VDI est en cours, comme indiqué :
-    4. Une fois le jumelage VDI réussi, les icônes changent pour indiquer le périphérique audio qui sera utilisé pour les appels et la réussite du jumelage VDI :
-    5. L’utilisateur peut maintenant voir sa présence sur Skype pour les appareils compatibles 2015 métiers qui sont connectés à l’ordinateur local et passer des appels et y répondre comme d’habitude.
+3. Skype pour les entreprises commence le jumelage avec le plug-in Lync VDI. Alors que dans ce cas, le client affiche deux icônes dans le Skype pour la barre d’état Business. L’icône dans le coin inférieur gauche indique qu’aucun périphérique audio n’est disponibles et l’icône clignotant dans le coin inférieur droit indique que jumelage VDI est en cours : une. Une fois le jumelage VDI se déroule correctement, les icônes changent pour indiquer le périphérique audio qui sera utilisé pour les appels et la réussite du jumelage VDI : b. L’utilisateur peut maintenant voir sa présence sur Skype pour les appareils compatibles métiers qui sont connectés à l’ordinateur local et passer des appels et y répondre comme d’habitude.
     
 ## <a name="troubleshoot-the-lync-vdi-plug-in"></a>Résolution des problèmes du plug-in Lync VDI
 <a name="tshoot_VDI"> </a>
@@ -117,11 +114,11 @@ Voici les raisons possibles des échecs, ainsi que les mesures que vous pouvez p
     
   - UcVdi.dll
     
-- **Le Skype pour Business 2015 client est en cours d’exécution sur l’ordinateur local.**
+- **Le Skype pour Business client est en cours d’exécution sur l’ordinateur local.**
     
-    Pour utiliser le plug-in, qu'un Skype pour Business 2015 client ne doit pas exécuter sur l’ordinateur local Lync VDI, sinon jumelage échouera. Meilleure pratique, l’utilisateur ne doit pas installer un Skype pour Business 2015 client sur l’ordinateur local.
+    Pour utiliser le plug-in, qu'un Skype pour le client Business ne doit pas être en cours d’exécution sur l’ordinateur local Lync VDI, sinon jumelage échouera. Meilleure pratique, l’utilisateur ne doit pas installer un Skype pour client d’entreprise sur l’ordinateur local.
     
 ## <a name="see-also"></a>Voir aussi
 <a name="tshoot_VDI"> </a>
 
-[Planifier dans les environnements VDI Skype pour les entreprises](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
+[Planifier Skype Entreprise dans des environnements VDI](../../plan-your-deployment/clients-and-devices/vdi-environments.md)

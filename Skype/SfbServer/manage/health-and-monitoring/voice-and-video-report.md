@@ -1,34 +1,34 @@
 ---
-title: Rapport vocal et vidéo P2P dans Skype Entreprise Server 2015
+title: Égal à égal rapport vocal et vidéo dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-description: 'Résumé : Découvrez les voix de Peer-to-Peer et le rapport vidéo dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 39b76b355addffb86954c302e9a8b7b0b7dde391
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez le pair à pair rapport vocal et vidéo dans Skype pour Business Server.'
+ms.openlocfilehash: 791333a979bb9a292fc689eb19869cf835b77d68
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008095"
 ---
-# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server-2015"></a>Rapport vocal et vidéo P2P dans Skype Entreprise Server 2015
+# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Égal à égal rapport vocal et vidéo dans Skype pour Business Server
  
-**Résumé :** Découvrez la voix de Peer-to-Peer et rapport vidéo dans Skype pour Business Server 2015.
+**Résumé :** Découvrez le pair à pair rapport vocal et vidéo dans Skype pour Business Server.
   
 Le rapport vocal et vidéo d’égal-à-égal offre un examen détaillé de la distribution des appels vocaux et vidéo sur une période donnée (par exemple, les appels par heure ou par jour). Il vous offre également la possibilité de voir tous les appels vocaux et vidéo émis, ou de voir uniquement les appels ayant abouti ou échoué. Le rapport fournit les informations d’appels réparties dans les sections suivantes :
   
 - Appels par pool
     
-- Appels par type d’appel (par exemple, un Skype pour entreprise Skype pour appel d’entreprise et un Skype pour l’appel de métier à une personne sur le réseau PSTN)
+- Appels par type d’appel (par exemple, un Skype pour les entreprises à Skype pour l’appel d’entreprise et un Skype pour les appels professionnels à une personne sur le réseau téléphonique commuté)
     
 - Appels par type d’accès (utilisateurs connectés au réseau interne par opposition aux utilisateurs connectés au réseau externe)
     
-- Appels par serveur de médiation
+- Appels par le serveur de médiation
     
 ## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a>Pour accéder au rapport vocal et vidéo d’égal-à-égal
 
@@ -50,7 +50,7 @@ Vous pouvez filtrer le rapport vocal et vidéo d’égal-à-égal de différente
 
 Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données de différentes manières. Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport vocal et vidéo P2P.
   
-**Voix de peer-to-peer et de filtres de rapport vidéo**
+**Filtres du rapport vocal et vidéo d’égal-à-égal**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -65,11 +65,11 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
 
 Le tableau qui suit dresse la liste des informations fournies dans le rapport vocal et vidéo P2P pour chaque pool.
   
-**Mesures des voix de peer-to-peer et l’activité vidéo par pool**
+**Mesures de l’activité vocale et vidéo P2P par pool**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Pool** <br/> |Non  <br/> |Nom du pool de Registrar ou du serveur de transport Edge utilisés pour l’appel.  <br/> |
+|**Pool** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou serveur Edge utilisé pour l’appel.  <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles l’appel s’est produit.  <br/> |
 |**Total** <br/> |Non  <br/> |Nombre total de sessions ou de messages.  <br/> |
    
@@ -77,9 +77,9 @@ Le tableau qui suit dresse la liste des informations fournies dans le rapport vo
 
 Le tableau qui suit dresse la liste des informations fournies dans le rapport vocal et vidéo P2P pour chaque type d’appel émis.
   
-**Mesures des voix de peer-to-peer et l’activité vidéo par type d’appel**
+**Mesures de l’activité vocale et vidéo P2P par type d’appel**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Type d’appel** <br/> |Non  <br/> | Indique le type d’appel émis. Les valeurs correspondent à l’une des options suivantes : <br/>  UC à UC <br/>  UC à RTC <br/>  RTC à UC <br/>  RTC à RTC <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles l’appel s’est produit.  <br/> |
@@ -89,9 +89,9 @@ Le tableau qui suit dresse la liste des informations fournies dans le rapport vo
 
 Le tableau qui suit dresse la liste des informations fournies dans le rapport vocal et vidéo P2P pour chaque type d’accès réseau.
   
-**Mesures des voix de peer-to-peer et l’activité vidéo par type d’accès**
+**Mesures de l’activité vocale et vidéo P2P par type d’accès**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Type d’activité** <br/> |Non  <br/> | Indique si les clients étaient connectés au réseau interne ou au réseau externe au moment de passer l’appel. Les valeurs correspondent généralement à l’une des options suivantes : <br/>  Interne <br/>  Externe <br/>  Mixte <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles l’appel s’est produit.  <br/> |
@@ -99,11 +99,11 @@ Le tableau qui suit dresse la liste des informations fournies dans le rapport vo
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Mesures de l’activité vocale et vidéo P2P par serveur de médiation
 
-Le tableau suivant répertorie les informations fournies dans le rapport de la vidéo et de voix de Peer-to-Peer pour chaque serveur de médiation.
+Le tableau suivant répertorie les informations fournies dans le pair à pair rapport vocal et vidéo pour chaque serveur de médiation.
   
-**Mesures des voix de peer-to-peer et l’activité vidéo par le serveur de médiation**
+**Mesures de l’activité vocale et vidéo P2P par serveur de médiation**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Serveur de médiation** <br/> |Non  <br/> |Nom du serveur de médiation.  <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles l’appel s’est produit.  <br/> |

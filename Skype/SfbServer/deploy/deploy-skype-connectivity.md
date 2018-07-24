@@ -1,26 +1,25 @@
 ---
-title: Déployer la connectivité Skype dans Skype Entreprise Server 2015
+title: Déployer une connectivité Skype dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
-description: 'Résumé : Découvrez comment connecter Skype pour Business Server 2015 Skype consommateur. Également appelé Skype connectivité.'
-ms.openlocfilehash: 4d81d2529435d250957c775d954a33a562bed1e9
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez comment connecter Skype pour Business Server Skype consommateur. Également appelé Skype connectivité.'
+ms.openlocfilehash: f40b109fe63c05b3e7b0f2dc6a2b58b9a42d4434
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569165"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988500"
 ---
-# <a name="deploy-skype-connectivity-in-skype-for-business-server-2015"></a>Déployer la connectivité Skype dans Skype Entreprise Server 2015
+# <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Déployer une connectivité Skype dans Skype pour Business Server
  
-**Résumé :** découvrez comment connecter Skype Entreprise Server 2015 avec Skype consommateur. Également appelé « connectivité Skype ».
+**Résumé :** Découvrez comment connecter Skype pour Business Server Skype consommateur. Également appelé Skype connectivité.
   
 Cet article décrit le déploiement de la connectivité Skype.
   
@@ -50,17 +49,17 @@ La fonctionnalité Recherche dans l’annuaire Skype permet aux utilisateurs de 
 Le tableau suivant présente la prise en charge pour la Recherche dans l’annuaire Skype.
   
 
-||**Skype pour Business Server 2015 frontal**|**Frontal Lync Server 2013 (ou antérieure)**|**Commentaires**|
+||**Skype pour Business Server frontal**|**Serveur frontal Lync Server 2013 (ou antérieur)**|**Commentaires**|
 |:-----|:-----|:-----|:-----|
-|Skype Entreprise Server 2015 Edge  <br/> |Pris en charge  <br/> |Non pris en charge  <br/> |Skype Entreprise Server 2015 et Edge sont des préalables pour la Recherche dans l’annuaire Skype  <br/> |
-|Skype Entreprise Server 2015 Edge + Lync Server 2013 Edge déployés côte à côte  <br/> |Pris en charge  <br/> |Non pris en charge  <br/> |Le flux de la recherche dans l’annuaire Skype transite par les serveurs de Skype Entreprise Server Edge. Le flux de fédération passe à travers le serveur Edge configuré par l’administrateur. Par exemple, l’administrateur peut choisir de continuer à envoyer le trafic de fédération via les serveurs Edge Lync Server 2013 qui ne prennent pas en charge la recherche dans l’annuaire Skype.  <br/> |
+|Skype pour Business serveur Edge  <br/> |Pris en charge  <br/> |Non pris en charge  <br/> |Skype pour Business Server et Edge sont les conditions requises pour la recherche dans l’annuaire Skype  <br/> |
+|Skype pour le serveur Edge Server Business + serveur Edge Lync Server 2013 déployée côte à côte  <br/> |Pris en charge  <br/> |Non pris en charge  <br/> |Le flux de la recherche dans l’annuaire Skype transite par les serveurs de Skype Entreprise Server Edge. Le flux de fédération passe à travers le serveur Edge configuré par l’administrateur. Par exemple, l’administrateur peut choisir de continuer à envoyer le trafic de fédération via les serveurs Edge Lync Server 2013 qui ne prennent pas en charge la recherche dans l’annuaire Skype.  <br/> |
 |Serveur Edge Lync Server 2013 (ou antérieur)  <br/> |Non pris en charge  <br/> |Non pris en charge  <br/> ||
    
 > [!NOTE]
-> Le service Addressbook s’exécutant sur le frontal Skype Entreprise Server 2015 trouve le serveur Edge 2015 par la présence du port de la recherche Skype 4443 sur le serveur Edge 2015. 
+> Service de carnet d’adresses en cours d’exécution sur Skype pour Business Server frontal recherche le bord à l’existence du port Skype recherche 4443 dans le serveur de périphérie. 
   
 > [!NOTE]
-> Dans le cas où un client compte plusieurs sites dans son déploiement sur site, et s’il a déployé un seul pool/serveur Edge Skype Entreprise Server 2015, le trafic de la recherche émanant de tous les sites passe alors par le seul serveur Edge disponible. L’administrateur doit s’assurer que tous les pools de tous les sites peuvent accéder au pool/serveur Edge de Skype Entreprise Server 2015. 
+> Si un client a plusieurs sites dans leur déploiement sur site, et si elles ont déployé qu’un seul Skype pour serveur/pool d’entreprise serveur Edge, puis recherchez le trafic en provenance de tous les sites est dirigés via le serveur de périphérie unique disponible. L’administrateur doit s’assurer que les pools de tous les sites peuvent accéder à la Skype pour serveur/pool d’entreprise serveur Edge déployé. 
   
 > [!NOTE]
 > Le service graphique de Skype limite les demandes de recherche émanant de tout site local ou client Office 365 si le taux de demandes dépasse 15 demandes par seconde. 
@@ -69,7 +68,7 @@ Le tableau suivant présente la prise en charge pour la Recherche dans l’annua
 > Pour les clients sur sites locaux des grandes entreprises, les domaines doivent être placés sur liste blanche auprès du service de recherche Skype pour permettre des taux de demandes plus élevés. 
   
 > [!NOTE]
-> Skype Entreprise Server 2015 limite les demandes entrantes s’il y a trop de demandes en souffrance dans la file d’attente. 
+> Skype pour Business Server limiter les demandes entrantes, s’il y a trop de demandes en attente dans la file d’attente. 
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>Déploiement de la connectivité Skype pour Skype Entreprise Online dans Office 365
 
@@ -81,26 +80,22 @@ Pour Office 365 petite entreprise Premium : Se connecter à Office 365 et accé
   
 Pour plus d’informations sur l’administration de Skype Entreprise Online, voir :
   
-- [Laisser Skype pour les utilisateurs professionnels en ligne de communiquer avec Skype externe pour les contacts Skype ou de l’entreprise](https://support.office.com/en-us/article/Let-Skype-for-Business-Online-users-communicate-with-external-Lync-or-Skype-contacts-b414873a-0059-4cd5-aea1-e5d0857dbc94?ui=en-US&amp;rs=en-US&amp;ad=US )
-    
-- [Permettre Skype pour les utilisateurs professionnels en ligne de communiquer à l’extérieur de votre organisation [PME]](https://support.office.com/en-US/article/Let-Lync-Online-users-communicate-outside-your-organization-Small-Business-7F488F09-F004-4DB5-AEC5-01C262AA3D34)
-    
+- [Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+
 - [Que faire si vous ne pouvez pas par messagerie instantanée Skype pour les contacts externes Skype ou de l’entreprise ?](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
-- [Utiliser Skype pour les entreprises pour se connecter avec des contacts externes](https://support.office.com/en-US/article/Use-Lync-to-connect-with-external-contacts-E6DA21CE-FFB8-4AF3-A171-871CA245BC30)
-    
 - [Ajouter un contact dans Skype pour les entreprises](https://support.office.com/en-US/article/Add-a-contact-in-Skype-for-Business-89338023-2adf-4f5c-90b6-f8b6f72fadd1)
+  
+- [Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels](../../SfbOnline/set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
     
-- [Configurer les paramètres pour les utilisateurs individuels](https://support.office.com/en-US/article/Configure-settings-for-individual-users-77B26EAC-8228-4161-BA9F-733B187BD836)
-    
-## <a name="deploying-skype-connectivity-for-skype-for-business-server-2015"></a>Déploiement de la connectivité Skype pour Skype Entreprise Server 2015
+## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>Déploiement de connectivité Skype pour Skype pour Business Server
 
-Skype Entreprise Server 2015 utilise l’architecture d’accès de fédération pour prendre en charge la connectivité avec Skype. Cette connectivité permet aux utilisateurs de Skype Entreprise Server d’ajouter Skype. Les clients de Skype peuvent également ajouter des utilisateurs Skype Entreprise dans leurs listes de contacts. Selon les stratégies sont définies dans Skype pour Business Server, les utilisateurs seront en mesure de communiquer à l’aide de la messagerie instantanée, voir la présence de l’autre et effectuer des appels audio et vidéos. La connectivité Skype est également une fonctionnalité de Skype Entreprise Online, et peut être activée pour Skype Entreprise Online à partir du centre d’administration Skype Entreprise dans le portail Office 365.
+Skype pour Business Server utilise l’architecture de l’accès fédération pour prendre en charge la connectivité avec Skype. Cette connectivité permet aux utilisateurs de Skype Entreprise Server d’ajouter Skype. Les clients de Skype peuvent également ajouter des utilisateurs Skype Entreprise dans leurs listes de contacts. Selon les stratégies sont définies dans Skype pour Business Server, les utilisateurs seront en mesure de communiquer à l’aide de la messagerie instantanée, voir la présence de l’autre et effectuer des appels audio et vidéos. La connectivité Skype est également une fonctionnalité de Skype Entreprise Online, et peut être activée pour Skype Entreprise Online à partir du centre d’administration Skype Entreprise dans le portail Office 365.
   
 > [!NOTE]
 > Si Skype Entreprise Server est configuré pour se connecter à Windows Messenger via la connectivité PIC (Public IM Connectivity), votre déploiement est déjà configuré pour la connectivité Skype. Vous pouvez éventuellement renommer votre entrée Messenger PIC existante pour utiliser Skype.  
   
-### <a name="accessing-the-skype-for-business-server-public-im-connectivity-provisioning-site-from-skype-for-business-server-2015"></a>Accès au site d’approvisionnement de la connectivité de messagerie instantanée publique Skype Entreprise Server à partir de Skype Entreprise Server 2015
+### <a name="accessing-the-skype-for-business-server-public-im-connectivity-provisioning-site-from-skype-for-business-server"></a>Accès à la Skype pour site mise en service Business Server public IM connectivity de Skype pour Business Server
 
 Ce processus d’approvisionnement peut nécessiter jusqu’à trente jours mais peut être achevé en quelques jours selon le volume de demandes. Nous vous recommandons de commencer par commencer ce processus avant d’effectuer les étapes restantes de ce document. Une fois le processus d’approvisionnement Skype terminé pour votre compte, ce dernier est activé et vos utilisateurs éligibles sont activés pour la connectivité de messagerie instantanée publique.  
   
@@ -157,7 +152,7 @@ Trois étapes sont nécessaires pour activer la fédération et PIC :
 La fédération est requise pour permettre aux utilisateurs Skype de communiquer avec les utilisateurs Skype Entreprise dans votre organisation. La connectivité PIC (Public IM Connectivity) est une classe de fédération. Elle doit être configurée pour permettre à vos utilisateurs Skype Entreprise de communiquer avec les utilisateurs Skype. La fédération et la connectivité PIC sont configurées à l’aide du panneau de configuration Skype Entreprise Server.
   
 > [!NOTE]
-> La fédération PIC n’est plus prise en charge par Live Communication Server 2005 SP1 ni par Office Communications Server 2007. Les plateformes prises en charge pour la fédération PIC comprennent Skype Entreprise Server 2015, Lync Server 2013, Lync Server 2010 et Office Communications Server 2007 R2. 	 
+> La fédération PIC n’est plus prise en charge par Live Communication Server 2005 SP1 ni par Office Communications Server 2007. Les plateformes prises en charge pour la fédération PIC incluent Skype pour Business Server, Lync Server 2013, Lync Server 2010 et Office Communications Server 2007 R2. 
   
 La fédération est requise pour permettre aux utilisateurs Skype de communiquer avec les utilisateurs Skype Entreprise dans votre organisation. La connectivité PIC (Public IM Connectivity) est une classe de fédération. Elle doit être configurée pour permettre à vos utilisateurs Skype Entreprise de communiquer avec les utilisateurs Skype. La fédération et la connectivité PIC sont configurées à l’aide de la boîte de dialogue Configuration du serveur Edge du panneau de configuration Skype Entreprise Server, comme le montre la figure.
   
@@ -224,9 +219,9 @@ Vous pouvez également configurer la connectivité Skype à l’aide uniquement 
 Le tableau ci-dessous décrit l’état d’interopérabilité entre la dernière version de Skype et la dernière version de Skype Entreprise.
   
 
-|**Clients Skype**|**Ajouter aux appels contacts, messagerie instantanée, présence, audio et vidéo**|**Commentaire**|
+|**Clients Skype**|**Ajouter des contacts, messagerie instantanée, présence, son et appels vidéo**|**Commentaire**|
 |:-----|:-----|:-----|
-|Skype Windows Desktop  <br/> |version 7.6 ou supérieure, Windows XP et version supérieure  <br/> |**Nouveau**: prise en charge ajoutée pour le client Windows Skype s’exécutant sur Windows XP et Windows Vista ** (nécessite la dernière version du client 7.26 ou version ultérieure) ** <br/> |
+|Skype Windows Desktop  <br/> |version 7.6 ou supérieure, Windows XP et version supérieure  <br/> |**Nouveau**: prise en charge ajoutée pour le client Windows Skype en cours d’exécution sur Windows XP et Windows Vista **(nécessite la dernière version du client 7.26 ou version ultérieure)** <br/> |
 |Skype Mobile - Téléphone Android et tablette   <br/> |version 6.19 ou supérieure, sur Android OS version 4.0.3 ou supérieure  <br/> |Les périphériques dont la configuration est faible peuvent ne pas prendre en charge les appels vidéo  <br/> |
 |Skype Mobile - iOS  <br/> |version 6.11 ou supérieure, sur iOS 7 ou version supérieure  <br/> |iPhone 4 et versions inférieures, iPod 4ème génération et versions inférieures, iPad 1ère génération non pris en charge  <br/> |
 |Skype Mac  <br/> |version 7.19 ou supérieure, sur Mac OS X 10.9 (Mavericks) ou version supérieure  <br/> |Nécessite Mac OS X 10.9 ou version supérieure  <br/> |
@@ -234,9 +229,9 @@ Le tableau ci-dessous décrit l’état d’interopérabilité entre la dernièr
    
 Le tableau ci-dessous décrit l’état d’interopérabilité entre la dernière version de Skype Entreprise et la dernière version de Skype.  
   
-|**Client**|**Répertoire Skype rechercher et ajouter des Contacts**|**Skype A / V, interopérabilité de la messagerie instantanée**|
+|**Client**|**Recherche dans l’annuaire Skype et ajout de contacts**|**Skype A/V, interopérabilité avec la messagerie instantanée**|
 |:-----|:-----|:-----|
-|Skype Entreprise 2015  <br/> |Oui  <br/> |Oui  <br/> |
+|Skype Entreprise  <br/> |Oui  <br/> |Oui  <br/> |
 |Skype Entreprise sur Mac  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
 |Lync Desktop 2013  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
 |Lync Web App - en ligne et sur site  <br/> |N/A  <br/> |N/A  <br/> |

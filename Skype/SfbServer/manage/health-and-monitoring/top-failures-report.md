@@ -1,40 +1,40 @@
 ---
-title: Rapport des principales défaillances dans Skype Entreprise Server 2015
+title: Rapport des principales défaillances dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 'Résumé : En savoir plus sur le rapport des échecs supérieur dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 3eb536fdeaa606c16c78954401bc43e91dd520d9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez le rapport des principales défaillances dans Skype pour Business Server.'
+ms.openlocfilehash: 7050c156d78ed7b4c254976cf4fd2027f3a677d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002157"
 ---
-# <a name="top-failures-report-in-skype-for-business-server-2015"></a>Rapport des principales défaillances dans Skype Entreprise Server 2015
+# <a name="top-failures-report-in-skype-for-business-server"></a>Rapport des principales défaillances dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur le rapport des échecs supérieur dans Skype pour Business Server 2015.
+**Résumé :** Découvrez le rapport des principales défaillances dans Skype pour Business Server.
   
 Le rapport des principales défaillances expose les défaillances les plus fréquentes et leur évolution dans le temps. Les défaillances sont basées sur une combinaison des deux métriques suivantes :
   
 - **ID de diagnostic**. Identificateur unique (sous la forme d’un en-tête ms-diagnostics) joint à un message SIP. Les ID de diagnostic fournissent des informations utiles pour résoudre les problèmes liés aux appels.
     
-- **Code de réponse**. Codes de réponse sont utilisés dans les sessions de communication SIP pour répondre aux demandes SIP. Par exemple, supposons que Ken envoie la demande d’invitation à Pilar Ackerman (autrement dit, supposons que Ken Myer appelle Pilar Ackerman). Si Pilar répond, son téléphone envoie le code de réponse 200 (OK), informer les téléphone de Ken que Pilar a répondu. Le rapport des échecs haut inclut uniquement les codes de réponse qui ont été envoyés en réponse à un échec d’appel ; Skype pour Business Server n’assure pas le suivi du tous les codes de réponse émises au cours d’un appel.
+- **Code de réponse**. Codes de réponse sont utilisés dans les sessions de communication SIP pour répondre aux demandes SIP. Par exemple, supposons que Ken envoie la demande d’invitation à Pilar Ackerman (autrement dit, supposons que Ken Myer appelle Pilar Ackerman). Si Pilar répond, son téléphone envoie le code de réponse 200 (OK), informer téléphone de Ken que Pilar a répondu à. Le rapport des principales défaillances inclut uniquement les codes de réponse qui ont été envoyés en réponse à un échec d’appel ; Skype pour Business Server ne pas un suivi de tous les codes de réponse émis au cours d’un appel.
     
 Les informations sont signalées pour le nombre total de sessions où une défaillance s’est produite, ainsi que pour le nombre total d’utilisateurs affectés par la panne.
   
 ## <a name="accessing-the-top-failures-report"></a>Accès au rapport des principales défaillances
 
-Le rapport des principales défaillances est accessible à partir de la page d’accueil Rapports de surveillance. La métrique de sessions déclaré vous redirigera vers le [Rapport d’échecs de Distribution dans Skype pour Business Server 2015](failure-distribution-report.md).
+Le rapport des principales défaillances est accessible à partir de la page d’accueil Rapports de surveillance. En cliquant sur la mesure de sessions déclaré vous dirige vers le [Rapport de répartition dans Skype pour Business Server](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Optimisation de l’utilisation du rapport des principales défaillances
 
-Le rapport des principales défaillances est particulier : il vous permet de filtrer jusqu’à 5 ID de diagnostic à la fois. (En général vous pouvez seulement filtrer sur un élément - comme adresse SIP d’un utilisateur - à la fois.) Pour filtrer sur plusieurs codes de diagnostics, saisissez simplement chaque code dans la zone ID de Diagnostic, en séparant les numéros par des virgules. (Si vous le souhaitez, vous pouvez laisser un espace après chaque virgule.) Par exemple :
+Le rapport des principales défaillances est particulier : il vous permet de filtrer jusqu’à 5 ID de diagnostic à la fois. (Généralement vous pouvez seulement filtrer sur un élément - comme adresse SIP un - à la fois.) Pour filtrer sur plusieurs ID de diagnostic, entrez simplement chacun d’eux dans la zone ID de Diagnostic, en séparant les ID par des virgules. (Si vous le souhaitez, vous pouvez laisser un espace vide après chaque virgule.) Par exemple :
   
 1011, 2412, 1033, 52116, 1008
   
@@ -50,7 +50,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport des principales défaillances.
   
-**Filtres de rapport de pannes supérieur**
+**Filtres du rapport des principales défaillances**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -67,9 +67,9 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 Le tableau qui suit répertorie les informations fournies dans le rapport des principales défaillances.
   
-**Métrique de rapport de pannes supérieur**
+**Mesures du rapport des principales défaillances**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Classement** <br/> |Oui  <br/> |Classement relatif sur la base du nombre de sessions signalées.  <br/> |
 |**Sessions signalées** <br/> |Oui  <br/> |Nombre total de sessions en échec sur la base de l’ID de diagnostic et du code de réponse SIP.  <br/> |

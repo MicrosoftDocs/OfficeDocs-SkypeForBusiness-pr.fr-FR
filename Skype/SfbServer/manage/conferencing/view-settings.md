@@ -1,25 +1,24 @@
 ---
-title: Affichage des paramètres de configuration des réunions dans Skype Entreprise Server 2015
+title: Afficher les paramètres de configuration dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
-description: 'Résumé : Découvrez comment afficher les paramètres de configuration dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 1af530732df37ed78e47ee5b5d5914c00fbbd4bf
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Découvrez comment afficher les paramètres de configuration dans Skype pour Business Server.'
+ms.openlocfilehash: 44154b9cdba4743eed9c2a4153545651657d4e72
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568723"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988824"
 ---
-# <a name="view-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Affichage des paramètres de configuration des réunions dans Skype Entreprise Server 2015
+# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Afficher les paramètres de configuration dans Skype pour Business Server
  
-**Résumé :** Découvrez comment afficher les paramètres de configuration dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment afficher les paramètres de configuration dans Skype pour Business Server.
   
 Vous pouvez afficher les paramètres de configuration de réunion à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de Skype pour Business Server Management Shell.
   
@@ -38,7 +37,7 @@ Vous pouvez afficher les paramètres de configuration de réunion à l’aide de
     
     **Modifier la Configuration de réunion - \<stratégie\> ** s’ouvre et affiche les paramètres de la stratégie sélectionnée.
     
-    Pour plus d’informations sur la configuration des paramètres, consultez la rubrique [créer de paramètres de configuration Skype pour Business Server 2015 la réunion](create-settings.md).
+    Pour plus d’informations sur la configuration des paramètres, voir [Create dans Skype pour Business Server, les paramètres de configuration de la réunion](create-settings.md).
     
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Afficher les paramètres de configuration de réunion à l’aide de Skype pour Business Server Management Shell
 <a name="BKMK_ViewJoinSettings"> </a>

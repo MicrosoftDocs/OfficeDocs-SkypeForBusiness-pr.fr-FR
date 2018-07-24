@@ -1,28 +1,28 @@
 ---
-title: Gestion du mappage des clés des commandes DTMF dans Skype Entreprise Server 2015
+title: Gérer le mappage des clés pour les commandes DTMF dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: 'Résumé : Apprenez à gérer le mappage des touches de commandes-dual-tone multifréquence bitonale (DTMF) dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 0dca7143b59b7cf4ded0302f763053e71be3bb2b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez comment gérer le mappage des clés des commandes dual-tone multi-frequency (DTMF) dans Skype pour Business Server.'
+ms.openlocfilehash: 629db0c94b71b9cbf54ebf2c6f6a5074b4b611fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992681"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server-2015"></a>Gestion du mappage des clés des commandes DTMF dans Skype Entreprise Server 2015
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Gérer le mappage des clés pour les commandes DTMF dans Skype pour Business Server
  
-**Résumé :** Apprenez à gérer le mappage des touches de commandes-dual-tone multifréquence bitonale (DTMF) dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment gérer le mappage des clés des commandes dual-tone multi-frequency (DTMF) dans Skype pour Business Server.
   
 Les utilisateurs de conférences rendez-vous peuvent appuyer sur les touches du clavier téléphonique pour exécuter des commandes de numérotation en fréquences vocales (DTMF). Les commandes DTMF permettent aux utilisateurs qui prennent part à une conférence de contrôler les paramètres de conférence (tels que l’activation et la désactivation de leur micro ou le verrouillage et le déverrouillage de la conférence) à l’aide du clavier de leur téléphone. 
   
-Pour gérer les clés utilisées pour les commandes DTMF, utiliser le Skype pour Business Server Management Shell avec **Get-CsDialinConferencingDtmfConfiguration**, **Set-CsDialinConferencingDtmfConfiguration**et ** Nouvelle-CsDialinConferencingDtmfConfiguration** applets de commande.
+Pour gérer les clés utilisées pour les commandes DTMF, utilisez le Skype pour Business Server Management Shell **, **Set-CsDialinConferencingDtmfConfiguration**et **Get-CsDialinConferencingDtmfConfiguration** Nouvelle-CsDialinConferencingDtmfConfiguration** applets de commande.
   
 Lorsque vous créez des paramètres DTMF pour des sites, les paramètres de site sont prioritaires sur les paramètres globaux. 
 
@@ -56,6 +56,6 @@ Dans cet exemple, la touche enfoncée pour activer ou désactiver les annonces e
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 
-Pour plus d’informations, consultez [New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)et [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps).
+Pour plus d’informations, voir [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)et [New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).
   
 

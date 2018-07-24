@@ -10,19 +10,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour préparer un domaine à héberger des serveurs exécutant Skype pour Business Server ou Skype pour les utilisateurs Business Server, vous devez effectuer étape 5 : préparer le domaine actuel, comme décrit dans la rubrique à l’aide du programme d’installation pour exécuter la préparation du domaine. Pour cela, vous devez être connecté en tant que membre du groupe Administrateurs du domaine dans le domaine que vous préparez ou en tant que membre du groupe Administrateurs d’entreprise de la forêt à laquelle le domaine appartient. Pour préparer le domaine :'
-ms.openlocfilehash: 7b67521cef97efd2bdfc0da344a8619272899340
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d2c51b472ad31c52eb86c4dd99d60747ce9bf1df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979889"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008721"
 ---
 # <a name="prepare-current-domain"></a>Préparer le domaine actuel
  
 Pour préparer un domaine à héberger des serveurs exécutant Skype pour Business Server ou Skype pour les utilisateurs Business Server, vous devez effectuer **étape 5 : préparer le domaine actuel**, comme décrit dans la rubrique [à l’aide du programme d’installation pour exécuter la préparation du domaine](http://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx). Pour cela, vous devez être connecté en tant que membre du groupe Administrateurs du domaine dans le domaine que vous préparez ou en tant que membre du groupe Administrateurs d’entreprise de la forêt à laquelle le domaine appartient. Pour préparer le domaine :
   
-1. À partir de Skype pour le dossier d’installation Business Server 2015 ou du support, exécutez Setup.exe pour démarrer le Skype pour l’Assistant de déploiement Business Server.
+1. À partir de Skype pour le dossier d’installation Business Server ou du support, exécutez Setup.exe pour démarrer le Skype pour l’Assistant de déploiement Business Server.
     
 2. Cliquez sur **Préparer Active Directory**, puis attendez que l’état du déploiement soit déterminé.
     

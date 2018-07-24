@@ -1,9 +1,9 @@
 ---
-title: Groupe des groupes de réponse
+title: Groupes de Response Group
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,47 +11,48 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
-description: Les groupes de réponse sont constitués de flux de travail, les files d’attente et les groupes d’agents. Un groupe d’agents est un groupe de personnes qui sont désignés pour répondre aux appels du groupe de réponse.
-ms.openlocfilehash: 78acb2219b5db0598a262812c6127ae7f8d56715
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Un groupe d’agents est un groupe de personnes désignées pour répondre aux appels Response Group.
+ms.openlocfilehash: 30de87b0f44d5ece414b5c5940cda96212604d13
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973898"
 ---
-# <a name="response-groups-group"></a>Les groupes de réponse : groupe
+# <a name="response-groups-group"></a>Groupes Response Group : groupe
  
-Les groupes de réponse sont constitués de flux de travail, les files d’attente et les groupes d’agents. Un groupe d’agents est un groupe de personnes qui sont désignés pour répondre aux appels du groupe de réponse. 
+Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Un groupe d’agents est un groupe de personnes désignées pour répondre aux appels Response Group. 
   
-Les **Groupes de réponse** - **groupe de** page affiche une liste de tous les groupes de l’agent sont définies pour votre organisation.
+Les **Groupes de réponses** - **groupe** page affiche une liste de tous les groupes d’agents qui sont définies pour votre organisation.
   
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes à partir des **Groupes de réponse** - page de**groupe** :
+Vous pouvez effectuer les tâches suivantes dans les **Groupes de réponses** - page de**groupe** :
   
-- Créer un nouveau groupe d’agent
+- Créer un nouveau groupe d’agents
     
-- Modifier un groupe existant de l’agent
+- Modifier un groupe d’agents
     
-- Supprimer un groupe d’agent
+- Supprimer un groupe d’agents
     
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
 La liste ci-dessous décrit les commandes de la page.
   
-- **Nouveau** Commence un nouveau groupe de l’agent.
+- **Nouveau** Démarre un nouveau groupe d’agents.
     
-- **Modifier** Ouvre le groupe de l’agent sélectionnées pour le modifier, sélectionne tous les groupes de l’agent dans la liste ou supprime les groupes sélectionnés de l’agent.
+- **Modifier** Ouvre le groupe d’agents sélectionné pour le modifier, sélectionne tous les groupes d’agents dans la liste ou supprime les groupes d’agents sélectionnés.
     
 - **Actualiser** Actualise la liste des groupes d’agents.
     
 La liste ci-dessous décrit les champs de la page.
   
-- **Nom** Le nom unique qui identifie le groupe de l’agent.
+- **Nom** Nom unique qui identifie le groupe d’agents.
     
-- **Service** Le service **ApplicationServer** qui héberge le groupe de l’agent.
+- **Service** Le service **ApplicationServer** qui héberge le groupe d’agents.
     
-- **Description** La description pour le groupe de l’agent.
+- **Description** La description du groupe d’agents.
     
-Pour plus d’informations sur les fonctionnalités de groupe de la réponse de, afficher un [Plan pour l’application de groupe de réponse dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation de groupes d’agents, consultez [Gestion des groupes de l’Agent](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) dans la documentation sur les opérations.
+Pour plus d’informations sur les fonctionnalités de Response Group, consultez [planification de l’application Response Group dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des groupes d’agents, voir [Gestion des groupes d’agents](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) dans la documentation des opérations.
   
 

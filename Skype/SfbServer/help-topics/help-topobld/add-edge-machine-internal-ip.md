@@ -1,9 +1,9 @@
 ---
-title: Ajouter le bord interne de l’IP
+title: Ajouter l’adresse IP interne Edge Machine
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
-description: Utilisez cette page pour spécifier l’adresse IP interne et le nom interne de domaine pleinement qualifié (FQDN) pour le serveur de transport Edge.
-ms.openlocfilehash: 317415374c896f9de52e5c4250a9a081b3439ecc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Utilisez cette page pour spécifier l’adresse IP interne et le nom interne de domaine complet (FQDN) du serveur de périphérie.
+ms.openlocfilehash: 4a3cb794ac34f473311919bd466af5ae33bb7ad1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997894"
 ---
-# <a name="add-edge-machine-internal-ip"></a>Ajouter le bord interne de l’IP
+# <a name="add-edge-machine-internal-ip"></a>Ajouter l’adresse IP interne Edge Machine
  
-Utilisez cette page pour spécifier l’adresse IP interne et le nom interne de domaine pleinement qualifié (FQDN) pour le serveur de transport Edge.
+Utilisez cette page pour spécifier l’adresse IP interne et le nom interne de domaine complet (FQDN) du serveur de périphérie.
   
-Le nom de domaine complet que vous spécifiez doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom d’un ordinateur qui n’est pas joint à un domaine est un nom court, et non un nom de domaine complet. Le générateur de topologie utilise des noms de domaine complets plutôt que des noms courts. Par conséquent, vous devez configurer un suffixe de nom de domaine (DNS) sur le nom de l’ordinateur pour être déployé comme un serveur de transport Edge qui n’est pas joint à un domaine. Pour plus d’informations sur l’ajout d’un suffixe DNS pour un nom d’ordinateur, voir [Configurer le serveur DNS pour la prise en charge du bord](http://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx)
+Le nom de domaine complet que vous spécifiez doit être identique au nom d’ordinateur configuré sur le serveur. Par défaut, le nom d’un ordinateur qui n’est pas joint à un domaine est un nom court, et non un nom de domaine complet. Le générateur de topologie utilise des noms de domaine complets plutôt que des noms courts. Par conséquent, vous devez configurer un suffixe de nom de domaine DNS (Domain Name System) sur le nom de l’ordinateur à déployer en tant qu’un serveur de périphérie qui n’est pas lié à un domaine. Pour plus d’informations sur l’ajout d’un suffixe DNS pour un nom d’ordinateur, voir [Configurer le serveur DNS pour la prise en charge Edge](http://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx)
   
 

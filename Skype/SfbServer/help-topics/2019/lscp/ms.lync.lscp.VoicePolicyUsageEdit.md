@@ -10,17 +10,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
+ROBOTS: NOINDEX, NOFOLLOW
 description: UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
-ms.openlocfilehash: 65f932c4968c9270d71e97269eb62e88dfb8e3d8
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 81e02cb2600188c58bbdb65bec6372719b16f04a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046318"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018983"
 ---
 # <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a>Stratégie de voix : Créer une nouvelle ou en modifier un enregistrement d’utilisation PSTN existant
  
-Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
+UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
   
 - [Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour les entreprises](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
     

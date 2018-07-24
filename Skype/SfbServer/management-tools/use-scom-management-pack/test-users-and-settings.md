@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 'Résumé : Configurez des comptes d’utilisateurs de test et les paramètres du nœud observateur pour Skype pour les transactions synthétiques Business Server.'
-ms.openlocfilehash: ee5330f10dd97e8ecc8a3e3e30962e6e8a69555b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 3881fc1878ed3b248aa3109b79a3e384ec4a5fb7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569874"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989887"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configuration des paramètres et des utilisateurs test de nœud observateur
  
@@ -31,9 +31,9 @@ Après avoir configuré l’ordinateur qui jouera le rôle de nœud observateur,
 ## <a name="configure-test-user-accounts"></a>Configurer les comptes d’utilisateurs tests
 <a name="testuser"> </a>
 
-Comptes de test n’avez pas besoin représenter les personnes réelle, mais ils doivent être des comptes Active Directory valides. En outre, ces comptes doivent être activés pour Skype pour Business Server 2015, ils doivent avoir des adresses SIP valides, et ils doivent être activés pour Enterprise Voice (utiliser la transaction synthétique Test-CsPstnPeerToPeerCall). 
+Comptes de test n’avez pas besoin représenter les personnes réelle, mais ils doivent être des comptes Active Directory valides. En outre, ces comptes doivent être activés pour Skype pour Business Server, ils doivent avoir des adresses SIP valides, et ils doivent être activés pour Enterprise Voice (utiliser la transaction synthétique Test-CsPstnPeerToPeerCall). 
   
-Si vous utilisez la méthode d’authentification TrustedServer, il vous suffit de vous assurer que ces comptes existent et configurez-les comme indiqué. Vous devez assigner au moins trois utilisateurs tests pour chaque pool que vous souhaitez tester. Si vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande Set-cstestusercredential n’et le Skype pour Business Server Management Shell activer ces comptes pour travailler avec les transactions synthétiques de test. Cela en exécutant une commande semblable à ce qui suit (les commandes suivantes partent du principe que les trois comptes d’utilisateur Active Directory ont été créés et que ces comptes sont activés pour Skype pour Business Server 2015) :
+Si vous utilisez la méthode d’authentification TrustedServer, il vous suffit de vous assurer que ces comptes existent et configurez-les comme indiqué. Vous devez assigner au moins trois utilisateurs tests pour chaque pool que vous souhaitez tester. Si vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande Set-cstestusercredential n’et le Skype pour Business Server Management Shell activer ces comptes pour travailler avec les transactions synthétiques de test. Cela en exécutant une commande semblable à ce qui suit (les commandes suivantes partent du principe que les trois comptes d’utilisateur Active Directory ont été créés et que ces comptes sont activés pour Skype pour Business Server) :
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -84,7 +84,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > Les résultats de cette commande doivent être stockés dans une variable. Dans cet exemple, il s’agit de la variable nommée $pstnTest. 
   
-Ensuite, vous pouvez utiliser l’applet de commande **New-CsWatcherNodeConfiguration** pour associer le type de test (stocké dans la variable $pstnTest) à un pool Skype Entreprise Server 2015. Par exemple, la commande suivante crée une configuration de nœud observateur pour le pool atl-cs-001.litwareinc.com, ajoute les trois utilisateurs test créés précédemment et ajoute également le type de test PSTN :
+Ensuite, vous pouvez utiliser l’applet de commande **New-CsWatcherNodeConfiguration** pour associer le type de test (stocké dans la variable $pstnTest) à un Skype pour le pool de serveurs d’entreprise. Par exemple, la commande suivante crée une configuration de nœud observateur pour le pool atl-cs-001.litwareinc.com, ajoute les trois utilisateurs test créés précédemment et ajoute également le type de test PSTN :
   
 ```
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -128,7 +128,7 @@ Les composants suivants ne seront pas testés par défaut :
     
 - JoinLauncher
     
-- MCXP2PIM (messagerie instantanée d’appareils mobiles)
+- MCXP2PIM (messagerie instantanée hérité appareil mobile)
     
 - P2PVideoInteropServerSipTrunkAV
     
@@ -244,7 +244,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabl
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
-Cette commande supprime tous les paramètres de configuration du nœud observateur de l’ordinateur spécifié, ce qui empêche ainsi l’ordinateur d’exécuter automatiquement des transactions synthétiques. Toutefois, la commande ne désinstalle ni les fichiers de l’agent System Center ni les fichiers système pour Skype Entreprise Server 2015.
+Cette commande supprime tous les paramètres de configuration du nœud observateur de l’ordinateur spécifié, ce qui empêche ainsi l’ordinateur d’exécuter automatiquement des transactions synthétiques. Toutefois, la commande ne désinstalle pas les fichiers de l’agent System Center ou la Skype pour les fichiers système Business Server.
   
 Par défaut, les nœuds observateurs utilisent les URL web externes d’une organisation dans le cadre de leurs tests. Cependant, les nœuds observateurs peuvent également être configurés de manière à utiliser les URL web internes de l’organisation. Cela permet aux administrateurs de vérifier l’accès URL pour les utilisateurs situés à l’intérieur du réseau de périmètre. Pour configurer un nœud observateur de manière à utiliser des URL internes à la place d’URL externes, affectez à la propriété UseInternalWebURls la valeur True ($True) :
   
@@ -326,7 +326,7 @@ Pour exécuter cette transaction synthétique, vous devez configurer les éléme
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>Transaction synthétique du magasin de contacts unifié
 
-La transaction synthétique du magasin de contacts unifié vérifie la capacité de Skype Entreprise Server 2015 à récupérer des contacts au nom d’un utilisateur Exchange.
+La transaction synthétique du magasin de contacts unifié vérifie la capacité de Skype pour Business Server récupérer des contacts au nom d’un utilisateur à partir d’Exchange.
   
 Pour utiliser cette transaction synthétique, les conditions suivantes doivent être remplies :
   
@@ -358,7 +358,10 @@ Pour activer la transaction synthétique XMPP, vous devez fournir un paramètre 
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-Dans cet exemple, une règle Skype Entreprise Server 2015 doit exister pour router les messages pour litwareinc.com vers une passerelle XMPP.
+Dans cet exemple, un Skype pour règle Business Server devrez exister pour router les messages pour litwareinc.com vers une passerelle XMPP.
+
+> [!NOTE]
+> XMPP passerelles et les proxys sont disponibles dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. Pour plus d’informations, voir [la fédération XMPP de migration](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . 
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transaction synthétique VIS (Serveur d’interopérabilité vidéo)
 
@@ -438,4 +441,4 @@ Vous pouvez afficher ces fichiers à l’aide de Windows Internet Explorer, Mi
 Exécuter à partir de System Center Operations Manager à l’intérieur de transactions synthétiques génère automatiquement ces fichiers journaux pour les échecs. Toutefois, ces journaux ne sont pas générés si l’exécution échoue avant que Skype Entreprise Server PowerShell n’ait pu charger et exécuter la transaction synthétique. 
   
 > [!IMPORTANT]
-> Par défaut, Skype pour Business Server 2015 enregistre les fichiers journaux dans un dossier qui n’est pas partagé. Pour que ces journaux accessibles, vous devez partager ce dossier. Par exemple : \\atl-watcher-001.litwareinc.com\WatcherNode. 
+> Par défaut, Skype pour Business Server enregistre les fichiers journaux dans un dossier qui n’est pas partagé. Pour que ces journaux accessibles, vous devez partager ce dossier. Par exemple : \\atl-watcher-001.litwareinc.com\WatcherNode. 

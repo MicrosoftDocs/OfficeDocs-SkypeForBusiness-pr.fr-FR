@@ -1,69 +1,68 @@
 ---
-title: Évaluation de mon appel dans Skype Entreprise Server 2015
+title: Taux de mon appel dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/13/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 'Résumé : Découvrez la fonctionnalité taux mes appels Skype pour Business Server 2015.'
-ms.openlocfilehash: 1e0088c563f38be59bda0fad10dbd367ea0646e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez la fonctionnalité appel mon taux dans Skype pour Business Server.'
+ms.openlocfilehash: 737d6a71f6880139d558d601a14d8f76c61d80f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989062"
 ---
-# <a name="rate-my-call-in-skype-for-business-server-2015"></a>Évaluation de mon appel dans Skype Entreprise Server 2015
+# <a name="rate-my-call-in-skype-for-business-server"></a>Taux de mon appel dans Skype pour Business Server
  
-**Résumé :** Obtenir des informations sur la fonctionnalité de taux mes appels Skype pour Business Server 2015.
+**Résumé :** Découvrez la fonctionnalité appel mon taux dans Skype pour Business Server.
   
-Taux de mon appel est une nouvelle fonctionnalité dans Skype pour entreprise 2015 et 2016 clients sur Windows qui fournit aux entreprises un moyen d’obtenir des commentaires de leurs utilisateurs finaux.
+Taux de mon appel a une nouvelle fonctionnalité de Skype de Business 2015 2016 clients et sur Windows qui permet aux entreprises pour recueillir les commentaires de leurs utilisateurs finaux.
   
-La fenêtre Taux de mes appels offre un système d’évaluation « en étoile » et des jetons prédéfinis pour les appels audio et vidéo. En outre, les administrateurs peuvent activer un champ personnalisé fournir des commentaires.
+La fenêtre d’appel mon taux offre un système de « étoiles » et les jetons prédéfinis pour les appels audio et vidéos. En outre, les administrateurs peuvent autoriser un champ personnalisé fournir des commentaires.
   
-Les données Évaluer mon appel qui sont collectées ne sont pas incluses dans un rapport de surveillance existant mais font l’objet d’un rapport de surveillance distinct. Données collectées dans les tables SQL qui sont accessibles en exécutant des requêtes SQL.
+Les données Évaluer mon appel qui sont collectées ne sont pas incluses dans un rapport de surveillance existant mais font l’objet d’un rapport de surveillance distinct. Collecte des données dans des tables SQL est accessible en exécutant les requêtes SQL.
   
-## <a name="rate-my-call-prerequisites"></a>Évaluer mes conditions préalables d’appel
+## <a name="rate-my-call-prerequisites"></a>Configuration requise pour Évaluer mon appel
 
-Avant que les utilisateurs de votre Skype pour le déploiement du serveur de l’entreprise puissent accéder à taux mes appeler la fonctionnalité, l’ensemble suivant de composants doit être déployé et configuré :
+Avant que les utilisateurs de votre Skype pour le déploiement de serveur d’entreprise puissent accéder appeler mon taux de fonctionnalités, l’ensemble des composants suivants doit être déployée et configurée :
   
--  Vous devez avoir Skype pour Business Server installé (version 9160 ou version ultérieure).
+-  Vous devez avoir Skype pour Business Server installé (version 9160 ou ultérieure).
     
-- Disposez vos utilisateurs installer et mettre à jour vers la dernière version de Skype pour les entreprises et également leur demander d’utiliser le Skype pour l’interface utilisateur de l’entreprise.
+- Demander à vos utilisateurs installer et mettre à jour vers la dernière version de Skype pour les entreprises et également demander à utiliser la Skype pour l’interface utilisateur de l’entreprise.
     
-- Les utilisateurs doivent être hébergés sur le Skype pour le pool d’entreprise serveur frontal.
+- Les utilisateurs doivent être hébergés sur le Skype pour Business Server un pool frontal.
     
-- Vous devez avoir un Skype pour Business Server analyse de base de données déployée et associés à votre Skype pour les pools de serveurs d’entreprise.
+- Vous devez avoir un Skype pour Business Server surveillance de base de données déployé et associé à votre Skype pour les pools de serveurs d’entreprise.
     
 - Nous vous recommandons de déployer le Tableau de bord de la qualité des appels (CQD)
     
-## <a name="configure-rate-my-call"></a>Configurer mon appel de taux
+## <a name="configure-rate-my-call"></a>Configurer Évaluer mon appel
 
-La fonction taux mon appel est activée par défaut dans la stratégie du Client avec les paramètres suivants :
+La fonctionnalité d’appel de mon taux est activée par défaut dans la stratégie du Client avec les paramètres suivants :
   
-- Taux de pourcentage d’affichage mon appel - 10 %
+- Taux de pourcentage d’affichage mes appels - 10 %
     
-- Taux de mon appel autoriser personnalisé rétroaction - désactivée
+- Taux de mon appel autoriser personnalisé les commentaires des utilisateurs - désactivé
     
-Aucune action n’est requise pour activer la fonctionnalité de base, toutefois, mais si vous souhaitez que vos commentaires personnalisé, vous devez l’activer séparément. L’applet de commande Windows PowerShell suivante est un exemple de l’activation des commentaires d’utilisateur personnalisée et la modification de l’intervalle de 10 % à 80 %.
+Aucune action n’est requise pour activer la fonctionnalité de base, toutefois, mais si vous souhaitez que les commentaires personnalisé, vous devez l’activer séparément. L’applet de commande Windows PowerShell suivante est un exemple d’activation des commentaires des utilisateurs finaux personnalisées et modification de l’intervalle de 10 % à 80 %.
   
 ```
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
-
 ```
 
-## <a name="accessing-rate-my-call-data"></a>Accéder à mes données d’appel de taux
+## <a name="accessing-rate-my-call-data"></a>Accès aux données Évaluer mon appel
 
-Données des utilisateurs sont collectées dans les deux tables dans la base de données de surveillance.
+Collecte des données des utilisateurs dans les deux tables dans la base de données de surveillance.
   
- **[QoeMetrics]. [dbo]. [CallQualityFeedbackToken]** -Ce tableau contient les résultats de l’interrogation de jeton par les utilisateurs finaux.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedbackToken]** -Cette table contient les résultats d’émission de jeton d’interrogation par les utilisateurs finaux.
   
- **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** -Cette table contient des définitions de jetons.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** -Cette table contient les définitions de jeton.
   
-Définitions de jetons sont codées comme suit :
+Les définitions de jetons sont codées ainsi :
   
 |||
 |:-----|:-----|
@@ -106,11 +105,11 @@ Définitions de jetons sont codées comme suit :
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
    
- **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Cette table contient les résultats de l’interrogation à partir des commentaires de client et de vote « Star » si activé.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Cette table contient les résultats du sondage à partir des commentaires de client et de vote « Étoile » si activé.
   
-Données provenant de tables peuvent être appelées à l’aide d’un **Sélectionner \* à partir de [Table.Name]** requête ou à l’aide de Microsoft SQL Server Management Studio.
+Données issues de tables peuvent être appelées à l’aide d’un **Sélectionnez \* à partir de [Table.Name]** requête ou à l’aide de Microsoft SQL Server Management Studio.
   
-Les requêtes SQL suivantes peuvent être utilisées :
+Les requêtes SQL suivantes sont utilisables :
   
  **Audio**
   
@@ -187,9 +186,9 @@ SELECT
             Caller.UserKey = CallerCqf.FromURI
 ```
 
-## <a name="updating-token-definitions"></a>Mise à jour des définitions de jetons
+## <a name="updating-token-definitions"></a>Mise à jour des définitions de jeton
 
-La dernière Skype pour les clients d’entreprise signaler le nouveau jeton problème ID (\> 100) qui peut ne pas figurer dans votre [QoeMetrics]. [dbo]. Table [CallQualityFeedbackTokenDef]. Pour mettre à jour la table de base de données avec les dernières définitions de jetons, le sous SQL commande peut être exécutée sur la base de données de surveillance à l’aide de Microsoft SQL Server Management Studio. Cette commande remplace toutes les entrées dans la section [QoeMetrics]. [dbo]. Table [CallQualityFeedbackTokenDef].
+La dernière Skype pour les clients professionnels signaler nouveau jeton problème ID (\> 100) qui ne peuvent pas être présents dans votre [QoeMetrics]. [dbo]. Table [CallQualityFeedbackTokenDef]. Pour mettre à jour la table de base de données avec les dernières définitions de jeton, l’au-dessous SQL commande peut être exécutée sur la base de données de surveillance à l’aide de Microsoft SQL Server Management Studio. Cette commande remplace toutes les entrées de la section [QoeMetrics]. [dbo]. Table [CallQualityFeedbackTokenDef].
   
 ```
 DELETE FROM [CallQualityFeedbackTokenDef];

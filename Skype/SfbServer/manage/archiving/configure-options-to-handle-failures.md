@@ -1,26 +1,26 @@
 ---
-title: Configuration des options d’archivage de gestion des pannes dans Skype Entreprise Server 2015
+title: Configurer les options d’archivage pour gérer les échecs dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: 'Résumé : Apprenez à bloquer les sessions de conférence et de messagerie instantanée dans le cas d’un Skype pour Échec Business Server 2015 qui pourraient empêcher l’archivage.'
-ms.openlocfilehash: 4ad6b8eb496555751aab31949aa3e710749e0262
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Apprenez à bloquer les sessions par messagerie instantanée et de conférence dans le cas d’un Skype de défaillance du serveur d’entreprise qui empêche l’archivage.'
+ms.openlocfilehash: 952ee82ca3be045fc0407a6ce2f61fdaead12030
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998713"
 ---
-# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server-2015"></a>Configuration des options d’archivage de gestion des pannes dans Skype Entreprise Server 2015
+# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurer les options d’archivage pour gérer les échecs dans Skype pour Business Server
 
-**Résumé :** Découvrez comment faire pour bloquer des sessions de conférence et de messagerie instantanée dans le cas d’un Skype pour Échec Business Server 2015 qui pourraient empêcher l’archivage.
+**Résumé :** Découvrez comment bloquer les sessions par messagerie instantanée et de conférence dans le cas d’un Skype de défaillance du serveur d’entreprise qui empêche l’archivage.
   
-Si l’archivage est un besoin de votre organisation, vous pouvez bloquer les sessions de messagerie instantanée et de conférence dans le cas d’un Skype pour Échec de Business Server qui peut empêcher l’archivage. Cet état est parfois appelé « mode critique ». Par exemple, en cas de problème au niveau du service de stockage, la messagerie instantanée peut être bloquée pour les utilisateurs dont l’archivage des communications est activé. La récupération des sessions de messagerie instantanée et de conférence est effectuée automatiquement après la correction des échecs. 
+Si l’archivage est une condition requise pour votre organisation, vous pouvez bloquer les sessions de messagerie instantanée et la conférence en cas d’un Skype pour Échec Business Server qui empêche l’archivage. Cet état est parfois appelé « mode critique ». Par exemple, en cas de problème au niveau du service de stockage, la messagerie instantanée peut être bloquée pour les utilisateurs dont l’archivage des communications est activé. La récupération des sessions de messagerie instantanée et de conférence est effectuée automatiquement après la correction des échecs. 
   
 ## <a name="configure-critical-mode-by-using-the-control-panel"></a>Configurer le mode critique à l’aide du panneau de configuration
 
@@ -28,7 +28,7 @@ Pour préciser si des sessions de communication sont autorisées en cas de panne
   
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrir une fenêtre de navigateur et entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration de Business Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
     
@@ -40,9 +40,9 @@ Pour préciser si des sessions de communication sont autorisées en cas de panne
     
 ## <a name="configure-critical-mode-by-using-windows-powershell"></a>Configurer le mode critique à l’aide de Windows PowerShell
 
-Vous pouvez également spécifier si des sessions de communication peut être autorisées en cas de défaillance qui peut empêcher l’archivage à l’aide de l’applet de commande **Set-CsArchivingConfiguration** avec le paramètre BlockOnArchiveFailure.
+Vous pouvez également spécifier si les sessions de communication doivent être autorisées en cas de défaillance qui empêche l’archivage à l’aide de l’applet de commande **Set-CsArchivingConfiguration** avec le paramètre BlockOnArchiveFailure.
   
-Par exemple, la commande suivante désactive les communications en cas d’un échec de l’archivage :
+Par exemple, la commande suivante désactive communications dans le cas d’un échec d’archivage :
   
 ```
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $True

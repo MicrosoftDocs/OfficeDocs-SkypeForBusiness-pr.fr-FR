@@ -1,24 +1,24 @@
 ---
-title: Sous-rapport de synthèse de conférence dans Skype Entreprise Server 2015
+title: Sous-rapport de synthèse de conférence dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 'Résumé : Découvrez le sous-état résumé de conférence dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 39c71ebfa5798d861a9b8afd8865486dba033c1d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez le sous-rapport de synthèse de conférence dans Skype pour Business Server.'
+ms.openlocfilehash: 1a35d772e368fe9755d0b7640d6a69f1ec46d4ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997728"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server-2015"></a>Sous-rapport de synthèse de conférence dans Skype Entreprise Server 2015
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Sous-rapport de synthèse de conférence dans Skype pour Business Server
  
-**Résumé :** Découvrez le sous-état résumé de conférence dans Skype pour Business Server 2015.
+**Résumé :** Découvrez le sous-rapport de synthèse de conférence dans Skype pour Business Server.
   
 Le sous-rapport de synthèse de conférence fournit une vision générale des sessions de conférence ayant échoué. Ces échecs de session sont répartis par type de session : sessions Focus et les sessions MCU.
   
@@ -26,7 +26,7 @@ Le sous-rapport de synthèse de conférence fournit une vision générale des se
 
 Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Le tableau suivant dresse la liste des filtres que vous pouvez utiliser avec le sous-rapport de synthèse de conférence.
   
-**Filtres de sous-état résumé de conférence**
+**Filtres du sous-rapport de synthèse de conférence**
 
 |**Nom**|**Description**|
 |:-----|:-----|
@@ -38,9 +38,9 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 
 Le tableau suivant répertorie les informations fournies dans le sous-rapport de synthèse de conférence.
   
-**Mesures de sous-état résumé de conférence**
+**Mesures du sous-rapport de synthèse de conférence**
 
-|**Nom**|**Vous pouvez trier sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Nombre total de conférences** <br/> |Non  <br/> |Nombre total de conférences ayant eu lieu.  <br/> |
 |**Nombre total de sessions de conférence** <br/> |Non  <br/> |Nombre total de sessions de conférence. Une seule conférence peut avoir plusieurs sessions : par exemple, elle peut inclure à la fois une session Focus et une session MCU.  <br/> |

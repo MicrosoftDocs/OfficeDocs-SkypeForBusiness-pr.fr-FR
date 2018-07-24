@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
+ROBOTS: NOINDEX, NOFOLLOW
 description: La page Stratégie de mobilité des clients affiche les stratégies de mobilité disponibles dans votre déploiement.
-ms.openlocfilehash: 32ebb45e8622ec5f442a2506f55d73427865da66
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f45c6676c370b079205e5a488b053af5b0af81bc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989887"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992639"
 ---
 # <a name="clients-mobility-policy"></a>Clients : Stratégie de mobilité
  
@@ -36,7 +37,7 @@ Vous pouvez effectuer les tâches suivantes dans la page **Stratégie de mobilit
 
 Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
   
-### 
+
 
 - **Champ de recherche** Entrez une chaîne dans la zone de texte pour filtrer les stratégies affichées.
     

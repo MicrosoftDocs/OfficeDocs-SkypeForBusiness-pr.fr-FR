@@ -1,31 +1,30 @@
 ---
-title: Déployer la surveillance dans Skype Entreprise Server 2015
+title: Déployer la surveillance dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
-description: 'Résumé : Découvrez comment déployer la surveillance dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 8f96fa2b240bc41e83de8e618114d948127c6c55
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Résumé : Découvrez comment déployer la surveillance dans Skype pour Business Server.'
+ms.openlocfilehash: 4a2105e99b37574b3622c3d8bbb4cb2c05ecb71d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19502016"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989996"
 ---
-# <a name="deploy-monitoring-in-skype-for-business-server-2015"></a>Déployer la surveillance dans Skype Entreprise Server 2015
+# <a name="deploy-monitoring-in-skype-for-business-server"></a>Déployer la surveillance dans Skype pour Business Server
  
-**Résumé :** Découvrez comment déployer la surveillance dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment déployer la surveillance dans Skype pour Business Server.
  
-Avant d’effectuer ces tâches, consultez [Plan pour la surveillance dans Skype pour Business Server 2015](../../plan-your-deployment/monitoring.md).
+Avant d’effectuer ces tâches, consultez [Plan pour la surveillance dans Skype pour Business Server](../../plan-your-deployment/monitoring.md).
  
 Vous implémenterez généralement les services de surveillance au sein de votre topologie en effectuant les deux étapes suivantes :
   
-1. Activation de la surveillance en même temps vous configurer un nouveau Skype pour le pool de serveurs d’entreprise. (Dans Skype pour Business Server 2015, de surveillance est activé ou désactivé selon le pool par pool.) Notez que vous pouvez activer la surveillance pour un pool sans réellement collecte des données de surveillance, un processus indiqué dans la section Configuration de l’enregistrement des détails des appels et des paramètres de qualité de l’expérience de cette documentation.
+1. Activation de la surveillance en même temps vous configurer un nouveau Skype pour le pool de serveurs d’entreprise. (Dans Skype pour Business Server, de surveillance est activé ou désactivé selon le pool par pool.) Notez que vous pouvez activer la surveillance pour un pool sans réellement collecte des données de surveillance, un processus indiqué dans la section Configuration de l’enregistrement des détails des appels et des paramètres de qualité de l’expérience de cette documentation.
     
 2. Association d’un magasin d’analyse (c’est-à-dire une base de données de surveillance) au nouveau pool. Notez qu’un seul magasin d’analyse peut être associé à plusieurs pools. Selon le nombre d’utilisateurs hébergés sur vos pools de serveurs d’inscriptions, cela signifie que vous n’avez pas besoin de configurer une base de données de surveillance distincte pour chacun de vos pools. Un seul magasin d’analyse peut être utilisé par plusieurs pools.
     
@@ -34,12 +33,12 @@ Bien qu’il soit souvent plus simple d’activer la surveillance en même temps
 > [!NOTE]
 > Si le contrôle a été activé pour un pool, vous pouvez désactiver le processus de collecte des données de surveillance sans devoir modifier votre topologie : Skype pour Business Server fournit un moyen de désactiver (et réactiver) appel d’enregistrement des détails ou qualité de Collecte de données de l’expérience (QoE). Pour plus d’informations, voir la section Configuration de l’enregistrement des détails des appels et de la qualité de l’expérience de ce document. 
   
-Une autre amélioration importante à la surveillance dans Skype pour Business Server 2015 est le fait que Skype pour les rapports de surveillance Business Server prennent désormais en charge IPv6 : rapports qui utilisent le champ adresse IP affichera IPv4 ou en fonction des adresses IPv6 : 1) SQL requête utilisée ; et, 2) où ou non l’adresse IPv6 est stocké dans la base de données de surveillance.
+Une autre amélioration importante à la surveillance dans Skype pour Business Server est le fait que Skype pour les rapports de surveillance Business Server prennent désormais en charge IPv6 : rapports qui utilisent le champ adresse IP affichera IPv4 ou en fonction des adresses IPv6 : 1) la requête SQL utilisé ; et, 2) où ou non l’adresse IPv6 est stocké dans la base de données de surveillance.
   
 > [!NOTE]
 > Assurez-vous que le type de démarrage du service d’agent SQL Server est Automatique et que le service d’agent SQL Server est en cours d’exécution pour l’instance SQL qui contient les bases de données de surveillance, de sorte que les tâches de maintenance de surveillance par défaut de SQL Server peuvent s’exécuter selon leur planification sous le contrôle du service d’agent SQL Server. 
   
-Cette documentation vous guide tout au long du processus d’installation et configuration des rapports de surveillance et de surveillance pour Skype pour Business Server 2015. La documentation donne des instructions détaillées qui vous aideront à effectuer les opérations suivantes :
+Cette documentation vous guide tout au long du processus d’installation et configuration des rapports de surveillance et de surveillance pour Skype pour Business Server. La documentation donne des instructions détaillées qui vous aideront à effectuer les opérations suivantes :
   
 - activer la surveillance dans votre topologie et associer un magasin d’analyse à un pool frontal ;
     
@@ -51,19 +50,19 @@ Cette documentation vous guide tout au long du processus d’installation et con
     
 ## <a name="deployment-checklist-for-monitoring"></a>Liste de vérification du déploiement pour la surveillance
 
-Bien que le contrôle est déjà installé et activé sur chaque serveur frontal, il y a encore plusieurs étapes que vous devez effectuer avant de pouvoir effectivement en cours pour recueillir des données d’analyse pour Skype pour Business Server 2015. Ces étapes sont décrites dans la liste de vérification suivante :
+Bien que le contrôle est déjà installé et activé sur chaque serveur frontal, il y a encore plusieurs étapes que vous devez effectuer avant de pouvoir effectivement en cours pour recueillir des données d’analyse pour Skype pour Business Server. Ces étapes sont décrites dans la liste de vérification suivante :
   
 |**Phase**|**Étapes**|**Rôles et appartenance aux groupes**|**Documentation**|
 |:-----|:-----|:-----|:-----|
 |**Installer le matériel et les logiciels prérequis** <br/> |Installez une version prise en charge de Microsoft SQL Server sur l’ordinateur qui fera office de magasin de données principal pour la surveillance.  <br/> |Utilisateur de domaine qui est également membre du groupe Administrateurs local.  <br/> |[Matériel pris en charge](http://technet.microsoft.com/library/5f9c085d-205e-4235-9061-9ad875283cb0.aspx) <br/> [Server Software and Infrastructure Support](http://technet.microsoft.com/library/4ee5fe38-0191-4710-9aa2-df8895e8c51b.aspx) <br/> |
-|**Créer la topologie interne appropriée pour prendre en charge la surveillance** <br/> |Utiliser Skype pour Business Server 2015 le Générateur de topologie ajouter surveillance des bases de données de la topologie, puis publiez la topologie mise à jour.  <br/> |Pour définir une topologie, utilisateur membre du groupe Utilisateurs local.  <br/> Pour publier la topologie, utilisateur membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.  <br/> |[Associer un magasin de surveillance à un pool frontal dans Skype pour Business Server 2015](associate-a-monitoring-store.md) <br/> |
-|**Activer les paramètres de surveillance appropriés** <br/> |Activez l’enregistrement des détails des appels et/ou la surveillance QoE au niveau des étendues Globale et/ou Site.  <br/> |Utilisateur membre du groupe RTCUniversalServerAdmins ou disposant d’un rôle RBAC qui permet d’accéder aux applets de commande CsCdrConfiguration et CsQoEConfiguration.  <br/> |[Configurer un enregistrement des détails des appels et les paramètres de qualité de l’expérience dans Skype pour Business Server 2015](call-detail-recording-and-qoe.md) <br/> |
+|**Créer la topologie interne appropriée pour prendre en charge la surveillance** <br/> |Utiliser Skype pour le Générateur de topologie Business Server ajouter surveillance des bases de données de la topologie, puis publiez la topologie mise à jour.  <br/> |Pour définir une topologie, utilisateur membre du groupe Utilisateurs local.  <br/> Pour publier la topologie, utilisateur membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.  <br/> |[Associer un pool frontal dans Skype pour Business Server dans un magasin d’analyse](associate-a-monitoring-store.md) <br/> |
+|**Activer les paramètres de surveillance appropriés** <br/> |Activez l’enregistrement des détails des appels et/ou la surveillance QoE au niveau des étendues Globale et/ou Site.  <br/> |Utilisateur membre du groupe RTCUniversalServerAdmins ou disposant d’un rôle RBAC qui permet d’accéder aux applets de commande CsCdrConfiguration et CsQoEConfiguration.  <br/> |[Configurer un enregistrement des détails des appels et les paramètres de qualité de l’expérience dans Skype pour Business Server](call-detail-recording-and-qoe.md) <br/> |
    
 ## <a name="enable-monitoring"></a>Activer la surveillance
 
-Bien que les agents de collecte de données unifié sont automatiquement installés et activés sur chaque serveur frontal, cela ne signifie pas que vous commencera automatiquement à collecter des données d’analyse au moment où que vous avez terminé l’installation Skype pour Business Server 2015. Auparavant, vous devez associer vos serveurs frontaux/pools frontaux à une base de données de surveillance et vous devez activer la surveillance des enregistrements des détails des appels et/ou la surveillance des données de qualité de l’expérience au niveau de l’étendue globale et/ou de l’étendue du site.
+Bien que les agents de collecte de données unifié sont automatiquement installés et activés sur chaque serveur frontal, cela ne signifie pas que vous commencera automatiquement à collecter des données d’analyse au moment où que vous avez terminé l’installation Skype pour Business Server. Auparavant, vous devez associer vos serveurs frontaux/pools frontaux à une base de données de surveillance et vous devez activer la surveillance des enregistrements des détails des appels et/ou la surveillance des données de qualité de l’expérience au niveau de l’étendue globale et/ou de l’étendue du site.
   
-Pour obtenir des instructions sur l’association de serveurs frontaux ou des pools frontaux avec une base de données de surveillance, consultez la rubrique [associer un magasin de surveillance avec un pool frontal dans Skype pour Business Server 2015](associate-a-monitoring-store.md) dans le guide de déploiement. Une fois ces associations ont été apportées, et une fois votre nouveau Skype pour la topologie du serveur d’entreprise a été publié, vous toujours pas sera en mesure de collecter des données d’analyse. C’est parce que, par défaut, la collecte de données CDR et QoE est désactivé lorsque vous installez Skype pour Business Server 2015.
+Pour obtenir des instructions sur l’association de serveurs frontaux ou des pools frontaux avec une base de données de surveillance, consultez la rubrique [associer un magasin de surveillance avec un pool frontal dans Skype pour Business Server](associate-a-monitoring-store.md) dans le guide de déploiement. Une fois ces associations ont été apportées, et une fois votre nouveau Skype pour la topologie du serveur d’entreprise a été publié, vous toujours pas sera en mesure de collecter des données d’analyse. C’est parce que, par défaut, la collecte de données CDR et QoE est désactivé lorsque vous installez Skype pour Business Server.
   
 Afin de pouvoir commencer la collecte de données, vous devez activer la surveillance des enregistrements des détails des appels et/ou la surveillance des données de qualité de l’expérience. (Notez que vous ne possèdent pas d’activer les deux des détails des appels et la surveillance QoE ; si vous préférez, vous pouvez activer un type de surveillance tout en laissant l’autre type désactivé). Pour activer la surveillance, à l’exécution de l’étendue globale, la commande suivante à partir de la Skype pour Business Server Management Shell des détails des appels :
   
@@ -93,8 +92,8 @@ Si vous préférez, vous pouvez également activer la surveillance de QoE à par
     
 3. Dans le volet **Paramètre de qualité de l’expérience (QoE)**, sélectionnez **Activer la surveillance des données de qualité de l’expérience**, puis cliquez sur **Valider**.
     
-Comme indiqué, les exemples précédents activent la surveillance au niveau de l’étendue globale ; ils activent les surveillances CDR et QoE dans toute votre organisation. Vous pouvez également créer des paramètres de configuration CDR et QoE distincts au niveau de l’étendue du site, puis activer ou désactiver de façon sélective la surveillance pour chaque site. Par exemple, vous pouvez activer la surveillance CDR pour votre site de Redmond et la désactiver pour votre site de Dublin. Pour plus d’informations sur la gestion de vos paramètres de configuration de surveillance, consultez la rubrique guide de déploiement [Configure enregistrement des détails des appels et les paramètres de qualité de l’expérience dans Skype pour Business Server 2015](call-detail-recording-and-qoe.md).
+Comme indiqué, les exemples précédents activent la surveillance au niveau de l’étendue globale ; ils activent les surveillances CDR et QoE dans toute votre organisation. Vous pouvez également créer des paramètres de configuration CDR et QoE distincts au niveau de l’étendue du site, puis activer ou désactiver de façon sélective la surveillance pour chaque site. Par exemple, vous pouvez activer la surveillance CDR pour votre site de Redmond et la désactiver pour votre site de Dublin. Pour plus d’informations sur la gestion de vos paramètres de configuration de surveillance, voir la rubrique [Configure appeler l’enregistrement des détails et les paramètres de qualité de l’expérience dans Skype pour Business Server](call-detail-recording-and-qoe.md)du guide de déploiement.
   
 ## <a name="see-also"></a>Voir aussi
 
-[Planifier la surveillance dans Skype pour Business Server 2015](../../plan-your-deployment/monitoring.md)
+[Planifier la surveillance dans Skype pour Business Server](../../plan-your-deployment/monitoring.md)
