@@ -3,7 +3,6 @@ title: Expanseur des ordinateurs de conversation permanente
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,30 +10,15 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
-description: Vous activez ou désactivez un déployés Persistent Chat Server ou un pool de serveurs de conversation permanente à l’aide de serveurs ou pools répertoriés dans les paramètres d’état de Machine. Vous sélectionnez un serveur ou pool dans la liste et cliquez sur le bouton actif marque pour définir un serveur ou pool comme active.
-ms.openlocfilehash: 30ffdd1f136f738ea21bec38242f86c6b3a5e360
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Vous activez ou désactivez un déployés Persistent Chat Server ou un pool de serveurs de conversation permanente à l’aide de serveurs ou pools répertoriés dans les paramètres d’état de Machine. Sélectionnez un serveur ou un pool dans la liste, puis cliquez sur le bouton Rendre actif pour activer un serveur ou un pool.
+ms.openlocfilehash: 25a2dc09d45bb01be1f2e4e03093a3fe2186755a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974986"
 ---
-# <a name="persistent-chat-machines-expander"></a><span data-ttu-id="e8120-104">Expanseur des ordinateurs de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="e8120-104">Persistent Chat Machines Expander</span></span>
- 
-<span data-ttu-id="e8120-105">Vous activez ou désactivez un déployés Persistent Chat Server ou un pool de serveurs de conversation permanente à l’aide de serveurs ou pools répertoriés dans les **paramètres d’état de Machine**.</span><span class="sxs-lookup"><span data-stu-id="e8120-105">You activate or deactivate a deployed Persistent Chat Server or Persistent Chat Server pool by using the servers or pools listed in **Machine state settings**.</span></span> <span data-ttu-id="e8120-106">Sélectionnez un serveur ou un pool dans la liste, puis cliquez sur le bouton **Rendre actif** pour activer un serveur ou un pool.</span><span class="sxs-lookup"><span data-stu-id="e8120-106">You select a server or pool in the list and click the **Make active** button to set a server or pool as active.</span></span>
-  
-<span data-ttu-id="e8120-107">Vous affectez un déployés Persistent Chat Server ou un pool de serveurs de conversation permanente inactif en sélectionnant le serveur ou le pool dans la liste et cliquez sur **désactiver**.</span><span class="sxs-lookup"><span data-stu-id="e8120-107">You set a deployed Persistent Chat Server or Persistent Chat Server pool to inactive by selecting the server or pool in the list and click **Make inactive**.</span></span> <span data-ttu-id="e8120-108">Un serveur au moins doit être rendu actif.</span><span class="sxs-lookup"><span data-stu-id="e8120-108">At least one server must be set to active.</span></span>
-  
- <span data-ttu-id="e8120-109">**OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="e8120-109">**OK** Accepts and commits changes to the dialog.</span></span>
-  
- <span data-ttu-id="e8120-110">**Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="e8120-110">**Cancel** Discards changes and closes the dialog.</span></span>
-  
- <span data-ttu-id="e8120-111">**Aide** : permet d’afficher cet écran d’aide.</span><span class="sxs-lookup"><span data-stu-id="e8120-111">**Help** Displays this help screen.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="e8120-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e8120-112">See also</span></span>
+# <a name="persistent-chat-machines-expander"></a><span data-ttu-id="c2dca-104">Expanseur des ordinateurs de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="c2dca-104">Persistent Chat Machines Expander</span></span>
 
-#### 
-
-[<span data-ttu-id="e8120-113">Planifier pour le serveur de conversation permanente dans Skype Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="e8120-113">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[<span data-ttu-id="e8120-114">Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie</span><span class="sxs-lookup"><span data-stu-id="e8120-114">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+> [!NOTE] 
+> <span data-ttu-id="c2dca-105">Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="c2dca-105">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="c2dca-106">La même fonctionnalité est disponible dans les équipes.</span><span class="sxs-lookup"><span data-stu-id="c2dca-106">The same functionality is available in Teams.</span></span> <span data-ttu-id="c2dca-107">Pour plus d’informations, voir [Skype pour les entreprises aux équipes Microsoft de mise à niveau](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="c2dca-107">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="c2dca-108">Si vous devez utiliser la conversation permanente, vos choix est à migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes ou continuer à utiliser Skype pour Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="c2dca-108">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

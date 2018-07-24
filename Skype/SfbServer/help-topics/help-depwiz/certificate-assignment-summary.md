@@ -1,9 +1,9 @@
 ---
-title: Attribution du certificat (résumé)
+title: Assignation de certificat (résumé)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,15 +11,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
-description: Avant la fin de l’affectation de certificat, vous sont présentées avec un résumé de l’affectation certificat répertoriant les détails du certificat qui sera affecté. Passez en revue les informations afin de vous assurer que le nom du sujet et les noms d’objet alternatifs sont corrects. Lorsque vous avez terminé de consulter le résumé du certificat, cliquez sur Suivant.
-ms.openlocfilehash: 1671706af0a3c6a3bf6b505177b4e6d22e40f257
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Avant la fin de l’affectation du certificat, vous permettent de résumé de l’affectation un certificat qui répertorie les détails du certificat qui seront affectés. Passez en revue les informations pour vous assurer que le nom du sujet et les noms de sujet sont corrects. Lorsque vous avez terminé de consulter le résumé du certificat, cliquez sur Suivant.
+ms.openlocfilehash: 55db559dd632302f68afc18606b22c09fb90fd78
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008138"
 ---
-# <a name="certificate-assignment-summary"></a><span data-ttu-id="6881b-105">Attribution du certificat (résumé)</span><span class="sxs-lookup"><span data-stu-id="6881b-105">Certificate Assignment (Summary)</span></span>
+# <a name="certificate-assignment-summary"></a><span data-ttu-id="de9d1-105">Assignation de certificat (résumé)</span><span class="sxs-lookup"><span data-stu-id="de9d1-105">Certificate Assignment (Summary)</span></span>
  
-<span data-ttu-id="6881b-106">Avant la fin de l’affectation de certificat, vous sont présentés avec un **Certificat de résumé de l’affectation** qui affiche les détails du certificat qui sera affecté.</span><span class="sxs-lookup"><span data-stu-id="6881b-106">Before the certificate assignment is finished, you are presented with a **Certificate Assignment Summary** that lists the details of the certificate that will be assigned.</span></span> <span data-ttu-id="6881b-107">Passez en revue les informations afin de vous assurer que le nom du sujet et les noms d’objet alternatifs sont corrects.</span><span class="sxs-lookup"><span data-stu-id="6881b-107">Review the information to be sure that the subject name and the subject alternative names are correct.</span></span> <span data-ttu-id="6881b-108">Lorsque vous avez terminé de consulter le résumé du certificat, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="6881b-108">When you have finished reviewing the certificate summary, click **Next**.</span></span>
+<span data-ttu-id="de9d1-106">Avant la fin de l’affectation du certificat, vous sont présentés avec un **Certificat résumé de l’affectation** qui répertorie les détails du certificat qui seront affectés.</span><span class="sxs-lookup"><span data-stu-id="de9d1-106">Before the certificate assignment is finished, you are presented with a **Certificate Assignment Summary** that lists the details of the certificate that will be assigned.</span></span> <span data-ttu-id="de9d1-107">Passez en revue les informations pour vous assurer que le nom du sujet et les noms de sujet sont corrects.</span><span class="sxs-lookup"><span data-stu-id="de9d1-107">Review the information to be sure that the subject name and the subject alternative names are correct.</span></span> <span data-ttu-id="de9d1-108">Lorsque vous avez terminé de consulter le résumé du certificat, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="de9d1-108">When you have finished reviewing the certificate summary, click **Next**.</span></span>
   
 

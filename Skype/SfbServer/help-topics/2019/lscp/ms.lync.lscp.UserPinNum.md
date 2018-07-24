@@ -10,17 +10,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
+ROBOTS: NOINDEX, NOFOLLOW
 description: Pour utiliser la messagerie pour envoyer le code confidentiel à l’utilisateur, cliquez sur Ouvrir mon application de messagerie pour envoyer le nouveau code confidentiel à l’utilisateur. Pour copier le code confidentiel dans un message électronique, sélectionnez Afficher le code confidentiel.
-ms.openlocfilehash: 317a28829277c4dc4dfd425cc171dfee91efd8a0
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: c6669b48bc0fc238fe4752ea6f9feb85bac90406
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20043940"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975976"
 ---
-# <a name="pin-set-successfully"></a><span data-ttu-id="96e35-104">Code confidentiel défini correctement</span><span class="sxs-lookup"><span data-stu-id="96e35-104">PIN Set Successfully</span></span>
+# <a name="pin-set-successfully"></a><span data-ttu-id="c2858-104">Code confidentiel défini correctement</span><span class="sxs-lookup"><span data-stu-id="c2858-104">PIN Set Successfully</span></span>
  
-<span data-ttu-id="96e35-105">Pour utiliser la messagerie pour envoyer le code confidentiel à l’utilisateur, cliquez sur **Ouvrir mon application de messagerie pour envoyer le nouveau code confidentiel à l’utilisateur**.</span><span class="sxs-lookup"><span data-stu-id="96e35-105">To use email to send the PIN to the user, click **Open my email application to send the new PIN to the user**.</span></span> <span data-ttu-id="96e35-106">Pour copier le code confidentiel dans un message électronique, sélectionnez **Afficher le code confidentiel**.</span><span class="sxs-lookup"><span data-stu-id="96e35-106">To copy the PIN into the email message, select **Show PIN**.</span></span> 
+<span data-ttu-id="c2858-105">Pour utiliser la messagerie pour envoyer le code confidentiel à l’utilisateur, cliquez sur **Ouvrir mon application de messagerie pour envoyer le nouveau code confidentiel à l’utilisateur**.</span><span class="sxs-lookup"><span data-stu-id="c2858-105">To use email to send the PIN to the user, click **Open my email application to send the new PIN to the user**.</span></span> <span data-ttu-id="c2858-106">Pour copier le code confidentiel dans un message électronique, sélectionnez **Afficher le code confidentiel**.</span><span class="sxs-lookup"><span data-stu-id="c2858-106">To copy the PIN into the email message, select **Show PIN**.</span></span> 
   
  
   

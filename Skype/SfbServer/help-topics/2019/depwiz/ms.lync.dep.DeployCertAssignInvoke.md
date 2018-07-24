@@ -10,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
+ROBOTS: NOINDEX, NOFOLLOW
 description: La page exécution de commandes affiche les actions effectuées par les tâches pour assigner le certificat au serveur. Lorsque les tâches sont terminées, vous pouvez afficher le journal qui décrit en détail le processus d’affectation de certificat. Pour afficher le fichier journal, cliquez sur Afficher le journal.
-ms.openlocfilehash: 3fa2230124ce5f30078483747db710ef7d5d468e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 385ee73a1619781b90a409410ed20bb96a31c993
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991465"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967704"
 ---
-# <a name="certificate-assignment-invoke"></a><span data-ttu-id="a893e-105">Assignation de certificat (Invoke)</span><span class="sxs-lookup"><span data-stu-id="a893e-105">Certificate Assignment (Invoke)</span></span>
+# <a name="certificate-assignment-invoke"></a><span data-ttu-id="8ae4e-105">Assignation de certificat (Invoke)</span><span class="sxs-lookup"><span data-stu-id="8ae4e-105">Certificate Assignment (Invoke)</span></span>
  
-<span data-ttu-id="a893e-106">La page **Exécution de commandes** affiche les actions effectuées par les tâches pour assigner le certificat au serveur.</span><span class="sxs-lookup"><span data-stu-id="a893e-106">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server.</span></span> <span data-ttu-id="a893e-107">Lorsque les tâches sont terminées, vous pouvez afficher le journal qui décrit en détail le processus d’affectation de certificat.</span><span class="sxs-lookup"><span data-stu-id="a893e-107">When the tasks are complete, you can view the log that details the certificate assignment process.</span></span> <span data-ttu-id="a893e-108">Pour afficher le fichier journal, cliquez sur **Afficher le journal**.</span><span class="sxs-lookup"><span data-stu-id="a893e-108">To view the log file, click **View Log**.</span></span>
+<span data-ttu-id="8ae4e-106">La page **Exécution de commandes** affiche les actions effectuées par les tâches pour assigner le certificat au serveur.</span><span class="sxs-lookup"><span data-stu-id="8ae4e-106">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server.</span></span> <span data-ttu-id="8ae4e-107">Lorsque les tâches sont terminées, vous pouvez afficher le journal qui décrit en détail le processus d’affectation de certificat.</span><span class="sxs-lookup"><span data-stu-id="8ae4e-107">When the tasks are complete, you can view the log that details the certificate assignment process.</span></span> <span data-ttu-id="8ae4e-108">Pour afficher le fichier journal, cliquez sur **Afficher le journal**.</span><span class="sxs-lookup"><span data-stu-id="8ae4e-108">To view the log file, click **View Log**.</span></span>
   
 
