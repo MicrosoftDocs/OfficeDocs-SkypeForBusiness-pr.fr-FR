@@ -9,24 +9,28 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
-description: 'Résumé : Lisez cette rubrique pour savoir comment créer un rôle d’administrateur de serveur de conversation persistant pour activer la configuration initiale et la gestion des services de conversation permanents dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 4efe5dff2821784a24f51712b8a19dad83e47c3b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Lisez cette rubrique pour savoir comment créer un rôle d’administrateur de serveur de conversation permanente pour activer la configuration initiale et la gestion des services de conversation permanente dans Skype pour Business Server 2015.'
+ms.openlocfilehash: df2c62964d6c1d315f6fda04132c829d235e6038
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966114"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Création d’un administrateur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé :** Lisez cette rubrique pour savoir comment créer un rôle d’administrateur de serveur de conversation persistant pour activer la configuration initiale et la gestion des services de conversation permanents dans Skype pour Business Server 2015.
+**Résumé :** Lisez cette rubrique pour savoir comment créer un rôle d’administrateur de serveur de conversation permanente pour activer la configuration initiale et la gestion des services de conversation permanente dans Skype pour Business Server 2015.
   
-Dans Skype pour Business Server, les utilisateurs effectuent des tâches spécifiques doivent être affectés en tant que membres d’un ou plusieurs des groupes spécifiques. Contrôle d’accès basée sur les rôles (RBAC) est utilisé pour accorder des privilèges en assignant des utilisateurs à Skype prédéfini pour les rôles d’administration de serveur d’entreprise. Ces rôles correspondent aux groupes de sécurité universels dans les Services de domaine Active Directory. Les membres du groupe de sécurité administrateur de Chat persistant, CsPersistentChatAdministrator, autorisés à accéder à des applets de commande serveur de Chat persistant, qui peut être exécutée via la Skype pour Business Server Management Shell ou le Skype pour entreprise Panneau de configuration de serveur.
+Dans Skype pour Business Server, les utilisateurs effectuent des tâches spécifiques doivent être attribués en tant que membres d’un ou plusieurs des groupes spécifiques. Contrôle d’accès basé sur un rôle (RBAC) est utilisée pour accorder des privilèges en assignant des utilisateurs à Skype prédéfini pour les rôles d’administration Business Server. Ces rôles correspondent aux groupes de sécurité universels dans les Services de domaine Active Directory. Les membres du groupe de sécurité administrateur de conversation permanente, CsPersistentChatAdministrator, autorisés à accéder aux applets de commande du serveur de conversation permanente, qui peuvent être exécutées à l’aide de la Skype pour Business Server Management Shell ou le Skype pour les entreprises Panneau de configuration de serveur.
   
 Avant de configurer et d’administrer le serveur de conversations permanentes, assurez-vous que les autorisations et droits d’utilisateur ont été correctement définis, et que les utilisateurs possédant le rôle d’administrateur de conversation permanente sont ajoutés au groupe de sécurité Administrateur de conversation permanente.
   
+> [!NOTE] 
+> Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [parcours de Skype pour les entreprises aux équipes de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si vous devez utiliser la conversation permanente, vos choix est pour migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes, ou pour continuer à utiliser Skype pour Business Server 2015.
+
 ## <a name="create-a-persistent-chat-administrator"></a>Créer un administrateur de conversation permanente
 
-Pour ajouter un utilisateur au groupe de sécurité administrateur de Chat persistant, CsPersistentChatAdministrator, effectuez les opérations suivantes :
+Pour ajouter un utilisateur au groupe de sécurité administrateur de conversation permanente, CsPersistentChatAdministrator, effectuez les opérations suivantes :
   
 1. En utilisant un compte qui est autorisé à modifier l’appartenance à un groupe Active Directory, connectez-vous à l’ordinateur où Utilisateurs et ordinateurs Active Directory est installé.
     

@@ -1,32 +1,32 @@
 ---
-title: (Facultatif) Définition des heures ouvrées des groupes Response Group dans Skype Entreprise 2015
+title: (Facultatif) Groupe de réponse de définir les heures d’ouverture Skype pour les entreprises
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: Créer ou modifier des heures de bureau, dans Skype pour Business Server Voix Entreprise Response Group.
-ms.openlocfilehash: 1fc5705a141d056993c26250f4e11b90a9b37419
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Créer ou modifier des heures d’ouverture, dans Skype pour Business Server Enterprise Voice Response Group.
+ms.openlocfilehash: 3044d649bed946e14ff0459491c5df709d88c7f7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965645"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business-2015"></a>(Facultatif) Définition des heures ouvrées des groupes Response Group dans Skype Entreprise 2015
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Facultatif) Groupe de réponse de définir les heures d’ouverture Skype pour les entreprises 
  
-Créer ou modifier des heures de bureau, dans Skype pour Business Server Voix Entreprise Response Group.
+Créer ou modifier des heures d’ouverture, dans Skype pour Business Server Enterprise Voice Response Group.
   
 ## <a name="defining-business-hours"></a>Définition des heures d’ouverture
 
-Les paramètres des heures d’ouverture définissent si le flux de travail est disponible pour répondre aux appels et spécifient les actions à prendre lorsque les appels sont passés en dehors des heures d’ouverture. Les administrateurs de groupe de réponse permet de créer des plannings prédéfinis que vous pouvez utiliser pour n’importe quel nombre de groupes de la réponse de l’applet de commande **New-CsRgsHoursOfBusiness** .
+Les paramètres des heures d’ouverture définissent si le flux de travail est disponible pour répondre aux appels et spécifient les actions à prendre lorsque les appels sont passés en dehors des heures d’ouverture. Les administrateurs de Response Group peuvent utiliser l’applet de commande **New-CsRgsHoursOfBusiness** pour créer des planifications prédéfinies que vous pouvez utiliser pour n’importe quel nombre de groupes de réponses.
   
 > [!TIP]
-> Lorsque vous créez ou modifiez un flux de travail, vous pouvez spécifier un planning personnalisé s’appliquant uniquement à ce flux de travail. Pour plus d’informations, consultez [conception et création de workflows de groupe réponse dans Skype pour entreprise 2015](designing-and-creating-response-group-workflows.md). 
+> Lorsque vous créez ou modifiez un flux de travail, vous pouvez spécifier un planning personnalisé s’appliquant uniquement à ce flux de travail. Pour plus d’informations, voir [conception et créer des flux de travail de groupe dans Skype pour les entreprises de réponse](designing-and-creating-response-group-workflows.md). 
   
 > [!NOTE]
 > Si un flux de travail est défini en tant que flux de travail géré, alors tous les utilisateurs affectés au rôle CsResponseGroupManager peuvent définir et modifier les heures d’ouverture personnalisées des flux de travail qu’ils gèrent. 
@@ -63,9 +63,6 @@ Les paramètres des heures d’ouverture définissent si le flux de travail est 
 
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Nouvelle-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
+[New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
 [Nouvelle-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
-

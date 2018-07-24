@@ -1,9 +1,9 @@
 ---
-title: Modifier la stratégie de mobilité du Client
+title: Modifier la stratégie de mobilité Client
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,13 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 description: Dans la boîte de dialogue Modifier la stratégie de mobilité, vous pouvez modifier les détails d’une stratégie de mobilité.
-ms.openlocfilehash: 2016209684eb19f519905ea7f8e210f5e01ef5f5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0065ef29f9e96c35be45dc21c3e03ceb767b3a49
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965694"
 ---
-# <a name="edit-client-mobility-policy"></a>Modifier la stratégie de mobilité du Client
+# <a name="edit-client-mobility-policy"></a>Modifier la stratégie de mobilité Client
  
 Dans la boîte de dialogue **Modifier la stratégie de mobilité** , vous pouvez modifier les détails d’une stratégie de mobilité.
   
@@ -26,13 +27,12 @@ Dans la boîte de dialogue **Modifier la stratégie de mobilité** , vous pouvez
 
 Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
   
-### 
 
-- **Valider** Cliquez ici pour enregistrer les modifications apportées aux paramètres de stratégie.
+- **Valider** Cliquez pour enregistrer les modifications apportées aux paramètres de stratégie.
     
 - **Annuler** Cliquez pour arrêter la modification de la stratégie et annuler les modifications apportées aux paramètres de stratégie.
     
-- **Nom** Le nom de la stratégie de mobilité.
+- **Nom** Nom de la stratégie de mobilité.
     
 - **Description** Description de la stratégie de mobilité.
     
@@ -40,9 +40,6 @@ Pour plus d’informations sur les stratégies de mobilité, voir [Stratégies d
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Planification de la mobilité](http://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[Planification pour la mobilité](http://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
   
 [Déploiement de mobilité](http://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
-

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
+ROBOTS: NOINDEX, NOFOLLOW
 description: La page fichier de demande de certificat s’affiche après avoir terminé une demande de certificat hors connexion. Pour afficher la demande de certificat et de préparer son envoi à votre autorité de certification en mode hors connexion (CA) ou l’autorité de certification publique, cliquez sur le bouton Afficher. La demande de certificat s’affiche dans le bloc-notes Windows (par défaut). Vous pouvez copier et coller la demande de certificat codé à partir de cet affichage ou terminer le traitement de la demande de certificat en suivant les instructions de vos autorité de certification en mode hors connexion ou l’autorité de certification publique. Cliquez sur Terminer pour continuer.
-ms.openlocfilehash: 3ccd40cbdef40e9ded4e81b2c9cb50185f8f23d8
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 0548189ad1db419a17ca1ffd405e0a123edb6cfa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987836"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965792"
 ---
 # <a name="certificate-request-certificate-signing-request-generated"></a>Demande de certificat (demande générée de signature de certificat)
  

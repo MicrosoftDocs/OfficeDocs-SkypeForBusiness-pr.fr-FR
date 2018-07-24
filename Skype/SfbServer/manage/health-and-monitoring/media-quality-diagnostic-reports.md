@@ -1,47 +1,47 @@
 ---
-title: Rapports de diagnostic de la qualité des médias dans Skype Entreprise Server 2015
+title: Rapports de Diagnostic de qualité des médias dans Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
-description: 'Résumé : En savoir plus sur le support de rapports de Diagnostic de qualité dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 15454020262a02f0028734d98f0bad579a3a5319
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez les rapports de Diagnostic de qualité des médias dans Skype pour Business Server.'
+ms.openlocfilehash: 8d1149a0e0361d3a8e54978a46fe9769e427a0f7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965659"
 ---
-# <a name="media-quality-diagnostic-reports-in-skype-for-business-server-2015"></a>Rapports de diagnostic de la qualité des médias dans Skype Entreprise Server 2015
+# <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Rapports de Diagnostic de qualité des médias dans Skype pour Business Server
  
-**Résumé :** En savoir plus sur le support de rapports de Diagnostic de qualité dans Skype pour Business Server 2015.
+**Résumé :** Découvrez les rapports de Diagnostic de qualité des médias dans Skype pour Business Server.
   
 Les rapports de diagnostic de la qualité des médias fournissent des informations sur la qualité des appels, ainsi que des informations de diagnostic et de résolution des problèmes pour les appels ayant échoué.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Rapport de résumé de qualité Media dans Skype pour Business Server 2015](summary.md) Fournit des données de qualité globale pour les types de point de terminaison différent, y compris les appels Voix Entreprise peer-to-peer, les appels de conférence Voix Entreprise et les appels qui reposent, au moins en partie, sur le public réseau téléphonique commuté (PSTN).
+- [Rapport de synthèse de qualité des médias dans Skype pour Business Server](summary.md) Fournit des données de qualité globale pour les types de point de terminaison différent, y compris les appels d’égal à égal Enterprise Voice, les téléconférences Enterprise Voice et les appels qui s’appuient, au moins en partie, sur public réseau téléphonique commuté (RTC).
     
-- [Rapport de comparaison de qualité Media dans Skype pour Business Server 2015](comparison.md) Fournit des valeurs de qualité une comparaison d’appel pour les différents types d’appels audio (par exemple, les appels effectués via un réseau sans fil contre les appels effectués via une connexion filaire).
+- [Media Quality Comparison Report dans Skype pour Business Server](comparison.md) Fournit des valeurs de qualité une comparaison d’appel pour différents types d’appels audio (par exemple, les appels effectués sur un réseau sans fil et les appels passés via une connexion câblée).
     
-- [Rapport de performances du serveur dans Skype pour Business Server 2015](server-performance.md) Répertorie les serveurs qui ont connu des problèmes les plus, basées sur les mesures de ces métriques de qualité clés comme la gigue, perte de paquets et une dégradation.
+- [Rapport de performances du serveur dans Skype pour Business Server](server-performance.md) Répertorie les serveurs qui ont rencontré le plus de problèmes, en fonction de mesures de qualité clés en tant que la dégradation, la perte de paquets et la gigue telles.
     
-- [Rapport d’emplacement dans Skype pour Business Server 2015](location-report.md) Fournit une liste d’emplacements réseau ainsi qu’un résumé de la qualité du support des appels qui se produisent à chaque emplacement. En raison des objectifs de ce rapport, les emplacements sont basés sur les sous-réseaux IP.
+- [Rapport d’emplacement dans Skype pour Business Server](location-report.md) Fournit une liste des emplacements réseau et un résumé de la qualité des médias des appels qui se produisent à chaque emplacement. En raison des objectifs de ce rapport, les emplacements sont basés sur les sous-réseaux IP.
     
-- [Dispositif de signaler dans Skype pour Business Server 2015](device-report.md) Fournit un récapitulatif des périphériques qui sont utilisés pour les appels de Voix Entreprise et elle inclut la qualité moyenne media des appels par périphérique.
+- [Rapport de périphérique dans Skype pour Business Server](device-report.md) Fournit une synthèse des périphériques utilisés pour les appels voix entreprise et il inclut la qualité des médias moyenne des appels par périphérique.
     
-- [Appeler l’état de la liste dans Skype pour Business Server 2015](call-list-report-0.md) Fournit des informations détaillées sur les appels effectués ou reçus au sein de votre organisation.
+- [Rapport de liste dans Skype pour Business Server d’appel](call-list-report-0.md) Fournit des informations détaillées sur les appels téléphoniques émis ou reçus au sein de votre organisation.
     
-- [Appelez le rapport détaillé dans Skype pour Business Server 2015](call-detail-report.md) Fournit des informations détaillées sur les appels téléphoniques effectués à partir d’ou reçus au sein de votre organisation.
+- [Appelez le rapport détaillé de Skype pour Business Server](call-detail-report.md) Fournit des informations détaillées sur les appels téléphoniques émis ou reçus au sein de votre organisation.
     
-- [Rapport de tendance de qualité Media Server dans Skype pour Business Server 2015](server-media-quality-trend-report.md) Offre un moyen vous permettant de comparer graphiquement les cinq serveurs des métriques de qualité, tels que le volume de l’appel, appel faible pourcentage, perte de paquets, variation et.
+- [Rapport de tendance serveur multimédia qualité dans Skype pour Business Server](server-media-quality-trend-report.md) Fournit un moyen de comparer graphique jusqu'à cinq serveurs sur les mesures de qualité de l’expérience telles que le volume d’appels, pourcentage d’appels médiocres, la perte de paquets et la gigue.
     
-- [État de la Distribution de métriques de qualité Media dans Skype pour Business Server 2015](media-quality-metrics-distribution-report.md) Fournit un graphique qui affiche les valeurs de distribution pour une mesure de la qualité d’expérience comme perte de paquet ou instabilité.
+- [Le rapport de répartition de mesures de qualité multimédia dans Skype pour Business Server](media-quality-metrics-distribution-report.md) Fournit un graphique qui présente les valeurs de distribution pour une mesure de qualité de l’expérience tels que la perte de gigue ou de paquets.
     
-- [Rapport de tendance de l’emplacement dans Skype pour Business Server 2015](location-trend-report.md) Fournit des informations de tendance appel de qualité pour les emplacements réseau.
+- [Rapport de tendance emplacement dans Skype pour Business Server](location-trend-report.md) Fournit des informations de tendance appel qualité pour les emplacements réseau.
     
 

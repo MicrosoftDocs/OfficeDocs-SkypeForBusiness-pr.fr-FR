@@ -3,7 +3,7 @@ title: Ajouter le FQDN du serveur Edge
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
-description: Vous devez spécifier un nom de domaine pleinement qualifié (FQDN) pour le service Edge d’accès. Si vous n’avez pas sélectionné utiliser un nom de domaine complet unique &amp; page de fonctionnalités d’option d’adresse IP dans la sélection, vous devez également spécifier un nom de domaine complet pour le service serveur Edge de conférence Web et l’A / V Edge service.
-ms.openlocfilehash: 06ac7f789b7fd3b8d380c3303c13977313c06a40
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Vous devez spécifier un nom de domaine complet (FQDN) pour le service Edge d’accès. Si vous n’avez pas sélectionné utiliser un nom de domaine complet unique &amp; option d’adresse IP dans la zone Sélectionnez les fonctionnalités de page, vous devez également spécifier un nom de domaine complet pour le service Edge de conférence Web et A / V Edge service.
+ms.openlocfilehash: 5f9d3bc3b63eaaf9db303c3fc0c74038df223391
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965897"
 ---
 # <a name="add-edge-server-fqdn"></a>Ajouter le FQDN du serveur Edge
  
-Vous devez spécifier un nom de domaine pleinement qualifié (FQDN) pour le service Edge d’accès. Si vous n’avez pas sélectionné le **utilisez un seul nom de domaine complet &amp; adresse IP** option dans la page **Sélectionner les fonctionnalités** , vous devez également spécifier un nom de domaine complet pour le service serveur Edge de conférence Web et l’A / V Edge service.
+Vous devez spécifier un nom de domaine complet (FQDN) pour le service Edge d’accès. Si vous n’avez pas sélectionné le **utilisez un nom de domaine complet unique &amp; adresse IP** option dans la page **Sélectionner les fonctionnalités** , vous devez également spécifier un nom de domaine complet pour le service Edge de conférence Web et A / V Edge service.
   
-Également, si vous avez sélectionné la **utiliser un seul nom de domaine complet &amp; adresse IP** option, vous devez spécifier un numéro de port différent pour chacun des services Edge (recommandé des paramètres de port : 444 pour Edge d’accès de service, 8057 pour le service Web Conferencing Edge et 443 pour A / V Service Edge). Si vous n’avez pas sélectionné l’option, vous pouvez utiliser le même numéro de port (par exemple, 443) pour trois services.
+En outre, si vous avez sélectionné la **utiliser un nom de domaine complet unique &amp; adresse IP** option, vous devez spécifier un autre numéro de port pour chacun des services de périphérie (recommandé des paramètres de port : 444 pour le serveur Edge d’accès de service, 8057 pour le service Edge de conférence Web et 443 a / V Service Edge). Si vous n’avez pas sélectionné l’option, vous pouvez utiliser le même numéro de port (par exemple, 443) pour les trois services.
   
 
