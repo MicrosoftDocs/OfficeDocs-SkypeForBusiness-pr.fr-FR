@@ -10,35 +10,35 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
+ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: cf071e29a12aca3f52deed997e2767ecb5e8426b
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 92b598bd6ea379fec3cbdeb66bf1fc929f3be3f7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045273"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998791"
 ---
-# <a name="users-assign-policies"></a><span data-ttu-id="b6a99-104">Utilisateurs : Attribuer des stratégies</span><span class="sxs-lookup"><span data-stu-id="b6a99-104">Users: Assign Policies</span></span>
+# <a name="users-assign-policies"></a><span data-ttu-id="9bbb9-104">Utilisateurs : Attribuer des stratégies</span><span class="sxs-lookup"><span data-stu-id="9bbb9-104">Users: Assign Policies</span></span>
  
-<span data-ttu-id="b6a99-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="b6a99-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="9bbb9-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="9bbb9-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="b6a99-107">Attribuer une stratégie de conférence pour modifier l’expérience de réunion par défaut d’un utilisateur</span><span class="sxs-lookup"><span data-stu-id="b6a99-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [<span data-ttu-id="9bbb9-107">Attribuer une stratégie de conférence pour modifier l’expérience de réunion par défaut d’un utilisateur</span><span class="sxs-lookup"><span data-stu-id="9bbb9-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
     
-- [<span data-ttu-id="b6a99-108">Spécifier les Versions du Client prises en charge pour la connexion à un utilisateur</span><span class="sxs-lookup"><span data-stu-id="b6a99-108">Specify Client Versions Supported for Sign-in by a User</span></span>](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [<span data-ttu-id="9bbb9-108">Spécifier les Versions du Client prises en charge pour la connexion à un utilisateur</span><span class="sxs-lookup"><span data-stu-id="9bbb9-108">Specify Client Versions Supported for Sign-in by a User</span></span>](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [<span data-ttu-id="b6a99-109">Affecter une stratégie de code confidentiel par utilisateur dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="b6a99-109">Assign a per-user PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [<span data-ttu-id="9bbb9-109">Affecter une stratégie de code confidentiel par utilisateur dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="9bbb9-109">Assign a per-user PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/assign-a-per-user-pin-policy.md)
     
-- [<span data-ttu-id="b6a99-110">Configurer la fédération, l’accès des utilisateurs distants et la connectivité PIC pour les utilisateurs</span><span class="sxs-lookup"><span data-stu-id="b6a99-110">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="9bbb9-110">Configurer la fédération, l’accès des utilisateurs distants et la connectivité PIC pour les utilisateurs</span><span class="sxs-lookup"><span data-stu-id="9bbb9-110">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
-- [<span data-ttu-id="b6a99-111">Configurer l’archivage des Communications d’un utilisateur</span><span class="sxs-lookup"><span data-stu-id="b6a99-111">Configure Archiving of a User's Communications</span></span>](http://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="9bbb9-111">Configurer l’archivage des Communications d’un utilisateur</span><span class="sxs-lookup"><span data-stu-id="9bbb9-111">Configure Archiving of a User's Communications</span></span>](http://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
     
-- [<span data-ttu-id="b6a99-112">Affecter une stratégie d’emplacement à un utilisateur</span><span class="sxs-lookup"><span data-stu-id="b6a99-112">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="9bbb9-112">Affecter une stratégie d’emplacement à un utilisateur</span><span class="sxs-lookup"><span data-stu-id="9bbb9-112">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
     
-- [<span data-ttu-id="b6a99-113">Configuration de la téléphonie pour les utilisateurs</span><span class="sxs-lookup"><span data-stu-id="b6a99-113">Configure Telephony for Users</span></span>](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [<span data-ttu-id="9bbb9-113">Configuration de la téléphonie pour les utilisateurs</span><span class="sxs-lookup"><span data-stu-id="9bbb9-113">Configure Telephony for Users</span></span>](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
     
-- [<span data-ttu-id="b6a99-114">Attribuer une stratégie de mobilité par utilisateur</span><span class="sxs-lookup"><span data-stu-id="b6a99-114">Assign a Per-User Mobility Policy</span></span>](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
-    
-- [<span data-ttu-id="b6a99-115">Attribuer une stratégie de conversation permanente par utilisateur</span><span class="sxs-lookup"><span data-stu-id="b6a99-115">Assign a Per-User Persistent Chat Policy</span></span>](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
+- [<span data-ttu-id="9bbb9-114">Attribuer une stratégie de mobilité par utilisateur</span><span class="sxs-lookup"><span data-stu-id="9bbb9-114">Assign a Per-User Mobility Policy</span></span>](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
+
     
  
 

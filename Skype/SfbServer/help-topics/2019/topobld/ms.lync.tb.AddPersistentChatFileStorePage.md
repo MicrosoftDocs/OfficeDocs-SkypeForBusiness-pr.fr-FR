@@ -3,7 +3,6 @@ title: Ajouter un magasin de fichiers de conversation permanente
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,36 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 description: Vous devez indiquer un partage de fichiers à utiliser comme magasin de fichiers pour le serveur Standard Edition ou le pool frontal Enterprise Edition. Vous pouvez utiliser un partage de fichiers existant pour le magasin de fichiers ou spécifier un nouveau partage de fichiers en spécifiant le nom de domaine complet (FQDN) du serveur de fichiers sur lequel le partage de fichiers doit se trouver et un nom de dossier pour le nouveau partage de fichiers.
-ms.openlocfilehash: 989e11adfd7059c94067dd8360527d86759ae81c
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 7dfef13fe52fb4cdc1960d80158d0daeb6a8046f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993501"
 ---
-# <a name="add-persistent-chat-file-store"></a><span data-ttu-id="bdb8f-104">Ajouter un magasin de fichiers de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="bdb8f-104">Add Persistent Chat File Store</span></span>
- 
-<span data-ttu-id="bdb8f-p102">Vous devez indiquer un partage de fichiers à utiliser comme magasin de fichiers pour le serveur Standard Edition ou le pool frontal Enterprise Edition. Vous pouvez utiliser un partage de fichiers existant pour le magasin de fichiers ou spécifier un nouveau partage de fichiers en spécifiant le nom de domaine complet (FQDN) du serveur de fichiers sur lequel le partage de fichiers doit se trouver et un nom de dossier pour le nouveau partage de fichiers.</span><span class="sxs-lookup"><span data-stu-id="bdb8f-p102">You must specify a file share to be used as the file store for the Standard Edition server or Enterprise Edition Front End pool. You can use an existing file share for the file store or you can specify a new file share by specifying the fully qualified domain name (FQDN) of the file server on which the file share is to be located and a folder name for the new file share.</span></span>
-  
-> [!IMPORTANT]
-> <span data-ttu-id="bdb8f-107">Le partage de fichiers pour Skype pour Business Server ne peut pas se trouver sur le serveur Enterprise Edition avant, mais il peut se trouver sur un serveur Standard Edition server.</span><span class="sxs-lookup"><span data-stu-id="bdb8f-107">The file share for Skype for Business Server cannot be located on the Enterprise Edition Front End Server, but can be located on a Standard Edition server.</span></span> 
-  
-> [!IMPORTANT]
-> <span data-ttu-id="bdb8f-108">Avant de créer le partage de fichiers, vous pouvez le définir dans le générateur de topologie, mais vous devez créer le partage de fichiers à l’emplacement défini avant la publication de la topologie.</span><span class="sxs-lookup"><span data-stu-id="bdb8f-108">You can define the file share in Topology Builder before you create the file share, but you must create the file share in the defined location you define before you publish the topology.</span></span> 
-  
-> [!IMPORTANT]
-> <span data-ttu-id="bdb8f-109">Lorsque vous ajoutez un serveur de conversation permanente ou Persistent Chat Server pool à votre topologie, le Générateur de topologie doit être en mesure de configurer le fichier, stocker et configurer le contrôle d’accès discrétionnaire listes (DACL) sur le partage de fichiers à utiliser pour le magasin de fichiers.</span><span class="sxs-lookup"><span data-stu-id="bdb8f-109">When you add a Persistent Chat Server or Persistent Chat Server pool to your topology, Topology Builder must be able to set up the file store and configure discretionary access control lists (DACLs) on the file share to be used for the file store.</span></span> <span data-ttu-id="bdb8f-110">À cet effet, lorsque vous exécutez le générateur de topologie pour publier la nouvelle topologie, vous devez être connecté avec un compte disposant d’autorisations de contrôle intégrales (lecture/écriture/modification) pour le partage de fichiers.</span><span class="sxs-lookup"><span data-stu-id="bdb8f-110">This requires that, when you run Topology Builder to publish the new topology, you are logged on with an account that has full control permissions (read/write/modify) for the file share.</span></span> 
-  
-## <a name="see-also"></a><span data-ttu-id="bdb8f-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="bdb8f-111">See also</span></span>
+# <a name="add-persistent-chat-file-store"></a><span data-ttu-id="daf40-104">Ajouter un magasin de fichiers de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="daf40-104">Add Persistent Chat File Store</span></span>
 
-#### 
-
-[<span data-ttu-id="bdb8f-112">Planifier pour le serveur de conversation permanente dans Skype Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="bdb8f-112">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[<span data-ttu-id="bdb8f-113">Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie</span><span class="sxs-lookup"><span data-stu-id="bdb8f-113">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-  
-[<span data-ttu-id="bdb8f-114">Configuration matérielle et logicielle requise pour Persistent Chat Server dans Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="bdb8f-114">Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
-  
-[<span data-ttu-id="bdb8f-115">Configuration du serveur pour Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="bdb8f-115">Server requirements for Skype for Business Server 2015</span></span>](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
-  
-[<span data-ttu-id="bdb8f-116">Concepts de base de topologie pour Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="bdb8f-116">Topology Basics for Skype for Business Server 2015</span></span>](../../../plan-your-deployment/topology-basics/topology-basics.md)
-
+> [!NOTE] 
+> <span data-ttu-id="daf40-105">Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="daf40-105">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="daf40-106">La même fonctionnalité est disponible dans les équipes.</span><span class="sxs-lookup"><span data-stu-id="daf40-106">The same functionality is available in Teams.</span></span> <span data-ttu-id="daf40-107">Pour plus d’informations, voir [Skype pour les entreprises aux équipes Microsoft de mise à niveau](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="daf40-107">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="daf40-108">Si vous devez utiliser la conversation permanente, vos choix est à migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes ou continuer à utiliser Skype pour Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="daf40-108">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

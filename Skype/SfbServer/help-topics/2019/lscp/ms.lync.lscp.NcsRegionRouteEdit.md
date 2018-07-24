@@ -10,19 +10,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
+ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: b240ee14025dfb73f5ee6d172b914073a7dadc96
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: bbb6cd80b56d738bfc41f6712142e6c1a68f9e75
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046754"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008081"
 ---
-# <a name="configure-a-network-region-route-create-new-or-edit-existing"></a><span data-ttu-id="7d864-104">Configurer un itinéraire de région réseau : créer une nouvelle ou en modifier une existant</span><span class="sxs-lookup"><span data-stu-id="7d864-104">Configure a Network Region Route: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-route-create-new-or-edit-existing"></a><span data-ttu-id="ae63a-104">Configurer un itinéraire de région réseau : créer une nouvelle ou en modifier une existant</span><span class="sxs-lookup"><span data-stu-id="ae63a-104">Configure a Network Region Route: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="7d864-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="7d864-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="ae63a-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="ae63a-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="7d864-107">Configuration des itinéraires de région réseau</span><span class="sxs-lookup"><span data-stu-id="7d864-107">Configuring Network Region Routes</span></span>](http://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+- [<span data-ttu-id="ae63a-107">Configuration des itinéraires de région réseau</span><span class="sxs-lookup"><span data-stu-id="ae63a-107">Configuring Network Region Routes</span></span>](http://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
     
  
 

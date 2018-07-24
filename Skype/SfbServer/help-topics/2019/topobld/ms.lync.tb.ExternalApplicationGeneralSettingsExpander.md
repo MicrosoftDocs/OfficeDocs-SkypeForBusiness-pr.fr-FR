@@ -11,35 +11,34 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: Pour modifier les propriétés d’un serveur d’applications approuvées qui a déjà été défini, suivez ces instructions.
-ms.openlocfilehash: f6acc3f31e294cab08b688327c7cc9b8f25bea3b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b01e48a3d2a003295956df981c4b571a7494be34
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987283"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993098"
 ---
-# <a name="external-application-general-settings-expander"></a><span data-ttu-id="82457-103">Expanseur des paramètres généraux d’Application externe</span><span class="sxs-lookup"><span data-stu-id="82457-103">External Application General Settings Expander</span></span>
+# <a name="external-application-general-settings-expander"></a><span data-ttu-id="bca23-103">Expanseur des paramètres généraux d’Application externe</span><span class="sxs-lookup"><span data-stu-id="bca23-103">External Application General Settings Expander</span></span>
  
-<span data-ttu-id="82457-104">Pour modifier les propriétés d’un serveur d’applications approuvées qui a déjà été défini, suivez ces instructions.</span><span class="sxs-lookup"><span data-stu-id="82457-104">To edit the properties for a trusted application server that has already been defined, follow these instructions.</span></span>
+<span data-ttu-id="bca23-104">Pour modifier les propriétés d’un serveur d’applications approuvées qui a déjà été défini, suivez ces instructions.</span><span class="sxs-lookup"><span data-stu-id="bca23-104">To edit the properties for a trusted application server that has already been defined, follow these instructions.</span></span>
   
-<span data-ttu-id="82457-105">Il existe deux sections que vous pouvez modifier :</span><span class="sxs-lookup"><span data-stu-id="82457-105">There are two sections that you can modify:</span></span>
+<span data-ttu-id="bca23-105">Il existe deux sections que vous pouvez modifier :</span><span class="sxs-lookup"><span data-stu-id="bca23-105">There are two sections that you can modify:</span></span>
   
-> <span data-ttu-id="82457-106">Paramètres généraux</span><span class="sxs-lookup"><span data-stu-id="82457-106">General settings</span></span>
+> <span data-ttu-id="bca23-106">Paramètres généraux</span><span class="sxs-lookup"><span data-stu-id="bca23-106">General settings</span></span>
     
-> <span data-ttu-id="82457-107">Paramètres du tronçon suivant</span><span class="sxs-lookup"><span data-stu-id="82457-107">Next hop settings</span></span>
+> <span data-ttu-id="bca23-107">Paramètres du tronçon suivant</span><span class="sxs-lookup"><span data-stu-id="bca23-107">Next hop settings</span></span>
     
-## <a name="general-settings"></a><span data-ttu-id="82457-108">Paramètres généraux</span><span class="sxs-lookup"><span data-stu-id="82457-108">General Settings</span></span>
+## <a name="general-settings"></a><span data-ttu-id="bca23-108">Paramètres généraux</span><span class="sxs-lookup"><span data-stu-id="bca23-108">General Settings</span></span>
 
-<span data-ttu-id="82457-109">Vous pouvez modifier le nom de domaine complet (FQDN) actuel pour le pool de serveurs d’applications approuvées.</span><span class="sxs-lookup"><span data-stu-id="82457-109">You can modify the current fully qualified domain name (FQDN) for the trusted application server pool.</span></span> <span data-ttu-id="82457-110">Modifiez le nom du pool de nom de domaine complet.</span><span class="sxs-lookup"><span data-stu-id="82457-110">Edit the name of the pool FQDN.</span></span> <span data-ttu-id="82457-111">Les enregistrements d’hôte (A) de nom de domaine DNS (Domain Name System) doivent exister pour que la nouvelle entrée avant de clients ou serveurs peuvent se connecter par le nouveau nom du pool.</span><span class="sxs-lookup"><span data-stu-id="82457-111">The Domain Name System (DNS) host (A) records must exist for the new entry before clients or servers can connect to the new pool name.</span></span>
+<span data-ttu-id="bca23-109">Vous pouvez modifier le nom de domaine complet (FQDN) actuel pour le pool de serveurs d’applications approuvées.</span><span class="sxs-lookup"><span data-stu-id="bca23-109">You can modify the current fully qualified domain name (FQDN) for the trusted application server pool.</span></span> <span data-ttu-id="bca23-110">Modifiez le nom du pool de nom de domaine complet.</span><span class="sxs-lookup"><span data-stu-id="bca23-110">Edit the name of the pool FQDN.</span></span> <span data-ttu-id="bca23-111">Les enregistrements d’hôte (A) de nom de domaine DNS (Domain Name System) doivent exister pour que la nouvelle entrée avant de clients ou serveurs peuvent se connecter par le nouveau nom du pool.</span><span class="sxs-lookup"><span data-stu-id="bca23-111">The Domain Name System (DNS) host (A) records must exist for the new entry before clients or servers can connect to the new pool name.</span></span>
   
-<span data-ttu-id="82457-112">Si vous avez besoin pour que la réplication des données de configuration pour ce pool, sélectionnez **Activer la réplication des données de configuration pour ce pool** .</span><span class="sxs-lookup"><span data-stu-id="82457-112">Select **Enable replication of configuration data to this pool** if you need to have replication of configuration data to this pool.</span></span> <span data-ttu-id="82457-113">Désactivez la case à cocher si vous ne souhaitez pas répliquer les données de configuration.</span><span class="sxs-lookup"><span data-stu-id="82457-113">Clear the check mark if you do not want to replicate the configuration data.</span></span>
+<span data-ttu-id="bca23-112">Si vous avez besoin pour que la réplication des données de configuration pour ce pool, sélectionnez **Activer la réplication des données de configuration pour ce pool** .</span><span class="sxs-lookup"><span data-stu-id="bca23-112">Select **Enable replication of configuration data to this pool** if you need to have replication of configuration data to this pool.</span></span> <span data-ttu-id="bca23-113">Désactivez la case à cocher si vous ne souhaitez pas répliquer les données de configuration.</span><span class="sxs-lookup"><span data-stu-id="bca23-113">Clear the check mark if you do not want to replicate the configuration data.</span></span>
   
-## <a name="next-hop-settings"></a><span data-ttu-id="82457-114">Paramètres du tronçon suivant</span><span class="sxs-lookup"><span data-stu-id="82457-114">Next Hop Settings</span></span>
+## <a name="next-hop-settings"></a><span data-ttu-id="bca23-114">Paramètres du tronçon suivant</span><span class="sxs-lookup"><span data-stu-id="bca23-114">Next Hop Settings</span></span>
 
-<span data-ttu-id="82457-115">Vous pouvez spécifier le serveur du tronçon suivant du pool serveur d’applications approuvées en sélectionnant le pool frontal Enterprise Edition ou Standard Edition serveur frontal dans la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="82457-115">You can specify the trusted application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="82457-116">Un directeur ou un directeur pool n’est pas une sélection valide pour une application approuvée tronçon suivant du serveur et n’apparaît pas dans la liste.</span><span class="sxs-lookup"><span data-stu-id="82457-116">A Director or Director pool is not a valid selection for a trusted application server next hop and will not appear in the list.</span></span>
+<span data-ttu-id="bca23-115">Vous pouvez spécifier le serveur du tronçon suivant du pool serveur d’applications approuvées en sélectionnant le pool frontal Enterprise Edition ou Standard Edition serveur frontal dans la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="bca23-115">You can specify the trusted application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="bca23-116">Un directeur ou un directeur pool n’est pas une sélection valide pour une application approuvée tronçon suivant du serveur et n’apparaît pas dans la liste.</span><span class="sxs-lookup"><span data-stu-id="bca23-116">A Director or Director pool is not a valid selection for a trusted application server next hop and will not appear in the list.</span></span>
   
-## 
 
-<span data-ttu-id="82457-117">Cliquez sur **OK** pour accepter et enregistrer vos modifications.</span><span class="sxs-lookup"><span data-stu-id="82457-117">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="82457-118">Cliquez sur **Annuler** pour annuler les modifications et quitter la page des propriétés.</span><span class="sxs-lookup"><span data-stu-id="82457-118">Click **Cancel** to discard your changes and exit the properties page.</span></span>
+<span data-ttu-id="bca23-117">Cliquez sur **OK** pour accepter et enregistrer vos modifications.</span><span class="sxs-lookup"><span data-stu-id="bca23-117">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="bca23-118">Cliquez sur **Annuler** pour annuler les modifications et quitter la page des propriétés.</span><span class="sxs-lookup"><span data-stu-id="bca23-118">Click **Cancel** to discard your changes and exit the properties page.</span></span>
   
 

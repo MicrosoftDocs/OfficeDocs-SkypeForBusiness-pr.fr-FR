@@ -10,17 +10,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
+ROBOTS: NOINDEX, NOFOLLOW
 description: Si les modifications ne se sont pas terminées, passez en revue les messages de cette boîte de dialogue, modifiez votre configuration de routage des communications vocales et réessayez.
-ms.openlocfilehash: e098b3e5eb6ad7e64e0c5587307c34924657d64a
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: efd468b7913114bced5a86b75cbe442df918583a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20044052"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988216"
 ---
-# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a><span data-ttu-id="41bf6-103">Routage des communications vocales : L’état de validation des modifications de Configuration du routage des communications vocales</span><span class="sxs-lookup"><span data-stu-id="41bf6-103">Voice Routing: Status of Commit Changes for Voice Routing Configuration</span></span>
+# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a><span data-ttu-id="ebe1a-103">Routage des communications vocales : L’état de validation des modifications de Configuration du routage des communications vocales</span><span class="sxs-lookup"><span data-stu-id="ebe1a-103">Voice Routing: Status of Commit Changes for Voice Routing Configuration</span></span>
  
-<span data-ttu-id="41bf6-104">Si les modifications ne se sont pas terminées, passez en revue les messages de cette boîte de dialogue, modifiez votre configuration de routage des communications vocales et réessayez.</span><span class="sxs-lookup"><span data-stu-id="41bf6-104">If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again.</span></span>
+<span data-ttu-id="ebe1a-104">Si les modifications ne se sont pas terminées, passez en revue les messages de cette boîte de dialogue, modifiez votre configuration de routage des communications vocales et réessayez.</span><span class="sxs-lookup"><span data-stu-id="ebe1a-104">If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again.</span></span>
   
  
   

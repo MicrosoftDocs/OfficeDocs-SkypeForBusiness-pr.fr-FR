@@ -10,25 +10,26 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 482d8d7b-d674-46b5-b8b7-19bc0f20e9b2
+ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: da19f7a53597aca4691ae7aabc3704ab79d4766b
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 912a27a44d1467b9cce065509512edb8fb24f5ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045399"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991146"
 ---
-# <a name="topology-view-computer-detail"></a><span data-ttu-id="6896c-104">Topologie : Afficher des détails d’ordinateur</span><span class="sxs-lookup"><span data-stu-id="6896c-104">Topology: View Computer Detail</span></span>
+# <a name="topology-view-computer-detail"></a><span data-ttu-id="96b2a-104">Topologie : Afficher des détails d’ordinateur</span><span class="sxs-lookup"><span data-stu-id="96b2a-104">Topology: View Computer Detail</span></span>
  
-<span data-ttu-id="6896c-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="6896c-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="96b2a-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="96b2a-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="6896c-107">Afficher la liste des ordinateurs exécutant Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="6896c-107">View a List of Computers Running Lync Server 2010</span></span>](http://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [<span data-ttu-id="96b2a-107">Afficher la liste des ordinateurs qui exécutent Skype pour Business Server ou Lync Server</span><span class="sxs-lookup"><span data-stu-id="96b2a-107">View a List of Computers Running Skype for Business Server or Lync Server</span></span>](http://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
     
-- [<span data-ttu-id="6896c-108">Afficher les détails d’un Service</span><span class="sxs-lookup"><span data-stu-id="6896c-108">View Details About a Service</span></span>](http://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+- [<span data-ttu-id="96b2a-108">Afficher les détails d’un Service</span><span class="sxs-lookup"><span data-stu-id="96b2a-108">View Details About a Service</span></span>](http://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
     
-- [<span data-ttu-id="6896c-109">Démarrer ou arrêter les Services Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="6896c-109">Start or Stop Lync Server 2010 Services</span></span>](http://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [<span data-ttu-id="96b2a-109">Démarrer ou arrêter des Services</span><span class="sxs-lookup"><span data-stu-id="96b2a-109">Start or Stop Services</span></span>](http://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
     
-- [<span data-ttu-id="6896c-110">Empêcher les nouvelles connexions aux Services</span><span class="sxs-lookup"><span data-stu-id="6896c-110">Prevent New Connections to Services</span></span>](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
+- [<span data-ttu-id="96b2a-110">Empêcher les nouvelles connexions aux Services</span><span class="sxs-lookup"><span data-stu-id="96b2a-110">Prevent New Connections to Services</span></span>](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
     
- 
+
 
