@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Résumé : préparez vos serveurs Skype Entreprise Server 2015 grâce à cette rubrique. Le matériel, le système d’exploitation, les bases de données, les logiciels, toute la configuration système requise et les recommandations se trouvent ici afin de vous permettre de réussir l’installation et le déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: dfcde40c8084279dca39e830a84ad6e9631530dd
-ms.sourcegitcommit: 98c0d578f5ebbe884a5965ccaba131ee4dd84185
+ms.openlocfilehash: c0ff92de1c822a49fe94deec9a21f100ed291d35
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2018
-ms.locfileid: "19046019"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967451"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Configuration serveur requise pour Skype Entreprise Server 2015
  
@@ -98,7 +98,29 @@ Si vous ne voyez pas l’édition de SQL Server que vous souhaitez utiliser rép
   
 > [!NOTE]
 > Vous aurez également besoin d’installer SQL Server Reporting Services pour le rôle serveur de surveillance, mais nous avons besoin de connaître que ce n’est pas sur le point d’être pris en charge avec SQL toujours sur jusqu'à post-RTM. 
+
+### <a name="microsoft-exchange-storage"></a>Stockage de Microsoft Exchange
+Les fichiers de contenu de réunion, par exemple, les présentations PowerPoint, sont archivés sous forme de pièces jointes. Si vous souhaitez stocker Skype pour archiver des données métiers avec des données de conformité Exchange, vous devez utiliser Exchange pour votre déploiement Exchange et assurez-vous que la taille maximale de stockage prend en charge le stockage des fichiers de contenu de la réunion. Vous devez déployer Exchange avant de déployer et d’activation de l’archivage à l’aide de l’option d’intégration de Microsoft Exchange. 
+    
+    If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
   
+## <a name="hardware-and-software-requirements-for-archiving-in-skype-for-business-server-2015"></a>Configuration logicielle et matérielle requise pour l’archivage dans Skype Entreprise Server 2015
+  
+L’archivage n’est pas un rôle de serveur défini, vous n’avez pas besoin d’installer un serveur distinct pour l’archivage. Les Agents de collecte de données unifié sont installés et activés automatiquement sur chaque pool frontal Enterprise Edition et chaque serveur Standard Edition Server. Vous devrez activer et publier votre topologie d’archivage en utilisant le générateur de topologie.
+    
+L’archivage utilise le Skype pour le stockage des fichiers Business Server pour le stockage temporaire des fichiers de contenu, de la réunion afin que vous ne configurez pas un magasin de fichiers séparé pour l’archivage.
+    
+Microsoft Message Queuing n’est pas obligatoire.
+    
+Vous devez configurer l’infrastructure d’archivage des données. Cela inclut les choix soit Exchange ou de l’archivage du stockage à l’aide de SQL Server.   Skype pour les exigences de l’infrastructure d’archivage de serveur Business sont les mêmes que pour déploiement de Skype pour Business Server. Pour plus d’informations, voir [Configuration requise pour votre Skype pour un environnement d’entreprise](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). 
+  
+> [!NOTE]
+> Pour prendre en charge les utilisateurs qui ne sont pas hébergés sur des serveurs Exchange, ou si vous ne souhaitez pas utiliser l’option d’intégration de Microsoft Exchange, vous devez déployer le stockage d’archives à l’aide d’une base de données SQL Server 64 bits. 
+    
+Vous devez configurer les plateformes de SQL Server avant le déploiement et l’activation de l’archivage. Si le compte à utiliser pour la publication de la topologie est doté des droits et autorisations d’administrateur appropriés, vous pouvez créer la base de données d’archivage (LcsLog) lorsque vous publiez votre topologie. Vous pouvez également créer la base de données plus tard, y compris dans le cadre de la procédure d’installation. Pour plus d’informations sur SQL Server, consultez la [documentation SQL Server](https://go.microsoft.com/fwlink/p/?linkID=129045).
+    
+L’augmentation de la charge pour cause d’archivage peut être importante. Par conséquent, vous devez vous assurer que l’espace disque est suffisant pour les serveurs frontaux sur lesquels l’archivage est activé.
+
 ### <a name="sql-mirroring-sql-clustering-and-sql-always-on"></a>Mise en miroir SQL, mise en cluster SQL et SQL Always On
 
 Vous êtes en mesure d’utiliser la mise en miroir SQL ou SQL Clustering avec Skype pour Business Server 2015, il est pris en charge. SQL la mise en miroir configurer via la Skype pour le Générateur de topologie Business Server. Si vous êtes l’objectif sur la configuration du Clustering SQL, qui est effectuée dans SQL Server.
@@ -129,8 +151,11 @@ Six nœuds :
 Si vous avez besoin lire des informations supplémentaires sur la mise en miroir SQL, nous disposons d’une haute disponibilité de serveur principal dans Skype pour la rubrique Business Server 2015. Configurer le clustering SQL Server pour Skype pour Business Server 2015 intègre les étapes pour l’obtention de clustering prêt. Il existe également davantage des liens sur les clusters de basculement pour SQL, pour [2014](https://technet.microsoft.com/en-us/library/hh231721.aspx), [2012](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx)et [2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
   
 > [!NOTE]
-> La prise en charge de SQL Always On est une nouveauté de cette version. Il est pris en charge, et vous pouvez en savoir plus sur celui-ci dans la rubrique [serveur principal de haute disponibilité dans Skype pour Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) .
-  
+> Prise en charge de SQL Always On est une nouveauté de la version 2015. Il est pris en charge, et vous pouvez en savoir plus sur celui-ci dans la rubrique [serveur principal de haute disponibilité dans Skype pour Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) .
+
+> [!NOTE]
+> La mise en miroir SQL est disponible dans Skype pour Business Server 2015 mais n’est plus pris en charge dans Skype pour Business Server 2019. Les méthodes de clustering avec basculement SQL, les Instances de Cluster de basculement AlwaysOn (FCI) et les groupes de disponibilité AlwaysOn sont préférés avec Skype pour Business Server 2019.  
+
 ## <a name="software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment"></a>Logiciel à installer avant de procéder à un déploiement de Skype Entreprise Server 2015
 <a name="Software"> </a>
 
@@ -141,7 +166,7 @@ Il existe certaines choses que vous aurez besoin installer ou configurer pour n�
 |**Logiciel/Rôle**|**Détails**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |Tous les Skype pour les serveurs Business Server devez Windows PowerShell 3.0 est installé.  <br/> • Si vous effectuez l’installation sur Windows Server 2012 ou Windows Server 2012 R2, vous avez défini, car elle est déjà.  <br/> • Si vous effectuez une mise à niveau sur Windows Server 2008 R2, vous pouvez télécharger le [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) pour l’obtenir. <br/> **Conseil :** Une fois le PowerShell correct de là, confirmez qu’il est BuildVersion 6.2.9200.0 ou ultérieurement en accédant à PowerShell demander et en tapant `$PSVersionTable`. Vous devriez alors obtenir les informations voulues.  <br/> |
-|Microsoft .NET Framework  <br/> |Les services WCF est une **fonctionnalité** qui n’a installé en tant qu’une fonctionnalité de Windows, sous **Gestionnaire de serveur**, aucun téléchargement nécessaires. <br/> • Vous devez vous assurer, lorsque vous installez cette fonctionnalité, ou si elle est déjà installée et vous vérifiez sur celui-ci, que l’option **d’Activation HTTP** est également activée et installée, comme suit : <br/> ![Capture d’écran montrant l’option d’Activation HTTP sous les fonctionnalités .NET Framework 4.5. ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)Ne vous inquiétez pas si vous obtenez une fenêtre publicitaire intempestive supplémentaire indiquant que les autres éléments doivent être installés pour l’Activation HTTP à installer. C’est normal ; cliquez sur OK et poursuivez. Si vous n’obtenez pas cette fenêtre contextuelle, vous pouvez alors supposer que ces éléments sont déjà installés, et poursuivre.  <br/> Microsoft .NET Framework est installé généralement lorsque Windows Server 2012 R2 ou Windows Server 2016 est installé. Skype pour Business Server fonctionne avec les versions suivantes de Microsoft .NET Framework :  <br/> • .NET 3.5  <br/> • .NET FRAMEWORK 4.5  <br/> • .NET 4.6.x  <br/> • 4.7 .NET (pour Skype pour Business Server mise à jour Cumulative 5 ou versions ultérieures)  <br/>  .NET framework 3.5 sera probablement installé par défaut sur votre ordinateur Windows Server 2008 R2 (sans aucun doute Vérifiez qu’avant la mise à niveau), mais il ne se trouvent pas sur vos serveurs de Windows Server 2012 et Windows Server 2012 R2 (pour les nouvelles installations). Pour l’ajouter dans, vous devez avoir accès à votre média ou le lecteur d’installation (l’emplacement Windows Server a été installé à partir d’ou où les fichiers d’installation sont maintenant). Poursuivez en l'installant en tant que composant du Gestionnaire de serveur. Pointez ensuite vers le support d'installation (à savoir le dossier **\sources\sxs**) à l'invite du système, puis poursuivez l'installation. <br/> |
+|Microsoft .NET Framework  <br/> |Les services WCF est une **fonctionnalité** qui n’a installé en tant qu’une fonctionnalité de Windows, sous **Gestionnaire de serveur**, aucun téléchargement nécessaires. <br/> • Vous devez vous assurer, lorsque vous installez cette fonctionnalité, ou si elle est déjà installée et vous vérifiez sur celui-ci, que l’option **d’Activation HTTP** est également activée et installée, comme suit : <br/> ![Capture d’écran montrant l’option d’Activation HTTP sous les fonctionnalités .NET Framework 4.5. ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)Ne vous inquiétez pas si vous obtenez une fenêtre publicitaire intempestive supplémentaire indiquant que les autres éléments doivent être installés pour l’Activation HTTP à installer. C’est normal ; cliquez sur OK et poursuivez. Si vous n’obtenez pas cette fenêtre contextuelle, vous pouvez alors supposer que ces éléments sont déjà installés, et poursuivre.  <br/> Microsoft .NET Framework est installé généralement lorsque Windows Server 2012 R2 ou Windows Server 2016 est installé. Skype pour Business Server fonctionne avec les versions suivantes de Microsoft .NET Framework :  <br/> • .NET 3.5  <br/> • .NET FRAMEWORK 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 ou ultérieure (pour Skype pour Business Server mise à jour Cumulative 5 ou versions ultérieures)  <br/>  .NET framework 3.5 sera probablement installé par défaut sur votre ordinateur Windows Server 2008 R2 (sans aucun doute Vérifiez qu’avant la mise à niveau), mais il ne se trouvent pas sur vos serveurs de Windows Server 2012 et Windows Server 2012 R2 (pour les nouvelles installations). Pour l’ajouter dans, vous devez avoir accès à votre média ou le lecteur d’installation (l’emplacement Windows Server a été installé à partir d’ou où les fichiers d’installation sont maintenant). Poursuivez en l'installant en tant que composant du Gestionnaire de serveur. Pointez ensuite vers le support d'installation (à savoir le dossier **\sources\sxs**) à l'invite du système, puis poursuivez l'installation. <br/> |
 |Media Foundation  <br/> |Pour Windows Server 2016, Windows Server 2012 et Windows Server 2012 R2 Windows Media Format Runtime installe avec Microsoft Media Foundation.  <br/> Tous les serveurs Standard Edition et les serveurs frontaux utilisés pour la conférence nécessitent Windows Media Format Runtime exécuter les fichiers Audio Windows Media (.wma) apparaissant dans les applications de parcage d’appel et annonce Response Group pour la musique et des annonces.  <br/> |
 |Windows Identity Foundation  <br/> |Nous devons Windows Identity Foundation 3.5 pour prendre en charge des scénarios d’authentification de serveur à serveur pour Skype pour Business Server 2015.  <br/> • Pour Windows Server 2012 et Windows Server 2012 R2, il n’est pas nécessaire de télécharger quoi que ce soit. Ouvrez le **Gestionnaire de serveur** et accédez à l’**Assistant Ajout de rôles et de fonctionnalités**. **Windows Identity Foundation 3.5** est listé sous la section **Fonctionnalités**. Si elle est activée, vous êtes. Sinon, sélectionnez-le et cliquez sur Suivant pour accéder au bouton **Installer**. <br/> |
 |Outils d’administration de serveur distant  <br/> |Outils d’administration de rôles : outils AD DS et AD LDS  <br/> |

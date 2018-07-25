@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour définir un serveur de médiation, spécifiez les paramètres qu’associer le serveur de médiation avec un serveur frontal et un serveur Edge ou un pool. Pour associer le serveur de médiation ou le pool à un serveur Edge ou pool de serveurs Edge, procédez comme suit :'
-ms.openlocfilehash: 5fe2a7439494fdb8cc0e579eff6a146851bea369
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b619b4d4244aadcb8e161da0a2393c5896024585
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974879"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082628"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Associer un serveur de médiation Edge
  
