@@ -1,5 +1,5 @@
 ---
-title: Quels sont les plans de numérotation ?
+title: Qu'est-ce que les plans de numérotation ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment choisir votre organisation et quel type de numérotation appelant plans (plans de numérotation appel PSTN) sont disponibles avec Office 365.  '
-ms.openlocfilehash: 5df6b2e9f9e5ccb83d6320cbd43f78ef4fc44424
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 27e65cb0651171f7e0a5d0262db0072b4d620851
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933164"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145292"
 ---
-# <a name="what-are-dial-plans"></a>Quels sont les plans de numérotation ?
+# <a name="what-are-dial-plans"></a>Qu'est-ce que les plans de numérotation ?
 
 Un plan de numérotation est un jeu nommé de règles de normalisation qui convertissent les numéros de téléphones appelés par un utilisateur individuel dans un autre format (typiquement E.164) pour l'autorisation et le routage des appels.
   
@@ -127,7 +127,7 @@ Le tableau ci-dessous illustre des exemples de règles de normalisation écrites
 |7digitcallingRedmond  <br/> |Convertit les numéros à 7 chiffres en numéros locaux à Redmond.  <br/> |^ (\\d{7}) $  <br/> |+1425$1  <br/> |5550100 est converti en +14255550100  <br/>|
 |RedmondOperator  <br/> |Convertit 0 vers l'Opérateur de Redmond.  <br/> |^0$  <br/> |+14255550100  <br/> |0 est converti en +14255550100  <br/> |
 |RedmondSitePrefix  <br/> |Convertit les numéros avec un préfixe on-net (6) et le code du site de Redmond (222).  <br/> |^ 6222 (\\d{4}) $  <br/> |+1425555$1  <br/> |62220100 est converti en +14255550100  <br/> |
-|5digitRange  <br/> |Convertit les extensions à 5 chiffres avec la plage de chiffres 3-7 inclusive.  <br/> |^ ([3-7]\\d{4}) $  <br/> |+142570$1  <br/> |54567 est converti en +14255554567  <br/> |
+|5digitRange  <br/> |Convertit les extensions à 5 chiffres avec la plage de chiffres 3-7 inclusive.  <br/> |^ ([3-7]\\d{4}) $  <br/> |+ 142555$ 1 <br/> |54567 est converti en +14255554567  <br/> |
 |PrefixAdded  <br/> |Ajoute un préfixe pays devant un numéro à 9 chiffres avec des restrictions sur le premier et le troisième chiffre.  <br/> |^ ([2-9]\\d\\d [2-9]\\d{6}) $  <br/> |1$1  <br/> |4255554567 est converti en 14255554567  <br/> |
 |NoTranslation  <br/> |Fait correspondre 5 chiffres mais sans conversion.  <br/> |^ (\\d{5}) $  <br/> |$1  <br/> |34567 est converti en 34567  <br/> |
    

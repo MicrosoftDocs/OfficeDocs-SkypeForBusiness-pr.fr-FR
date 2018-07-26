@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: f38748988268fdb2d515cf8a09550f4826b47c70
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 4aa222a98a0c95dd49b40172543aa1f5482a964f
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084498"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21148516"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage Direct
 
@@ -76,7 +76,6 @@ Adresses IP de pare-feu et les ports pour le média Microsoft Teams |Pour plus d
 
 Les utilisateurs de routage Direct doivent disposer les licences suivantes affectés dans Office 365 : 
 
-- Skype Entreprise Online (Plan 2) 
 - Système téléphonique de Microsoft 
 - Microsoft Teams 
 - Conférence Audio Microsoft 
