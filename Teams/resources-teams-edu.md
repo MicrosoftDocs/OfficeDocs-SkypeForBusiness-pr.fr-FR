@@ -3,7 +3,7 @@ title: Ressources Microsoft Teams pour les administrateurs de formation
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 06/18/2018
+ms.date: 07/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -12,19 +12,19 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b411722b94e7a540fe5af4dc8b098ad935876c00
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6eb38d1dc24094233bac94f75967bf8f1e42b93d
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995986"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21251883"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Ressources Microsoft Teams pour les administrateurs de formation
 ==============================================
 
 ## <a name="adoption-content"></a>Contenu d’adoption
 
-Créer des affichettes, des affiches et des messages électroniques personnalisés avec des informations et le logo de votre école. Ou permet d’obtenir votre organisation pour Microsoft Teams prêt à imprimer affiches et des affichettes.
+Créer des affichettes, des affiches et des messages électroniques personnalisés avec des informations et le logo de votre école. Ou permet d’obtenir votre organisation pour Microsoft Teams prêt à imprimer posters, prospectus et autres documents.
 
 |Modèles de messagerie personnalisables |         |
 |---------|---------|
@@ -37,6 +37,10 @@ Créer des affichettes, des affiches et des messages électroniques personnalis�
 |**Présentation des équipes Microsoft pour l’éducation - valeurs**<br>[Téléchargez le fichier .docx personnalisables](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-intro-values.docx?raw=true)<br>[Téléchargez le fichier .pdf prêt à imprimer](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![Capture d’écran des équipes présentation de Microsoft pour l’éducation - affiche les valeurs.](media/poster-intro-values.png)    |**Présentation des équipes Microsoft pour l’éducation - fonctionnalités**<br>[Téléchargez le fichier .docx personnalisables](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/team-edu-customizable-poster-intro-features.docx?raw=true)<br>[Téléchargez le fichier .pdf prêt à imprimer](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![Capture d’écran des équipes présentation de Microsoft pour l’éducation - affiche de fonctionnalités.](media/poster-intro-features.png)          |
 |**Permettre avec les équipes Microsoft - valeurs**<br>[Téléchargez le fichier .docx personnalisables](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-values.docx?raw=true)<br>[Téléchargez le fichier .pdf prêt à imprimer](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![Capture d’écran de l’autonomie avec Microsoft Teams - affiche les valeurs.](media/poster-empower-values.png)   |**Permettre avec les équipes Microsoft - fonctionnalités**<br>[Téléchargez le fichier .docx personnalisables](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-features.docx?raw=true)<br>[Téléchargez le fichier .pdf prêt à imprimer](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![Capture d’écran de l’autonomie avec Microsoft Teams - affiche de fonctionnalités.](media/poster-empower-features.png)          |
 |**La valeur de Microsoft Teams pour l’éducation**<br>[Téléchargez le fichier .docx personnalisables](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[Téléchargez le fichier .pdf prêt à imprimer](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-values.pdf?raw=true)<br>![Capture d’écran de la valeur de Microsoft Teams prospectus de formation.](media/flyer-values.png)    |**Les fonctionnalités de Microsoft Teams pour l’éducation**<br>[Téléchargez le fichier .docx personnalisables](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[Téléchargez le fichier .pdf prêt à imprimer](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-features.pdf?raw=true)<br>![Capture d’écran des fonctionnalités de Microsoft Teams prospectus de formation.](media/flyer-features.png)        |
+
+|Prêt à imprimer les paquets  |        |
+|---------|---------|
+|**Mise en route Microsoft Teams pour l’éducation - conseils et astuces**<br>[Téléchargez le fichier .pdf prêt à imprimer](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![Capture d’écran de la commande obtenir en route avec Microsoft Teams pour paquets de formation.](media/package-teams-edu-get-started.png)    |
 
 ## <a name="call-to-action"></a>Appel à l’action
 
