@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Les considérations de planification pertinentes pour le déploiement de systèmes de salle Skype v2 et comment déployer et gérer le système.
-ms.openlocfilehash: d52f44c302b9f99389b45c1f8e74bef6ef362447
-ms.sourcegitcommit: 3356670f2849306ce329899509d2104fe0404939
+ms.openlocfilehash: 02dcbb2ccdd1b7737dff25475fa8f623d5cff926
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19949792"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21249228"
 ---
 <h2>Salle Skype systèmes v2 & #x 2013 ; <br>la nouvelle génération de systèmes de salle de Skype </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -78,7 +78,7 @@ ms.locfileid: "19949792"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Déployer</h3>
+                        <h3>Déployer </h3>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ ms.locfileid: "19949792"
 </ul>
 
 > [!NOTE]
-> Systèmes de salle Skype v2 est destiné à utiliser avec Skype Business Server 2015 ou Skype pour Business Online. Prise en charge Microsoft Teams très seront prochainement disponibles. <br><br>Plates-formes de versions antérieures à Lync Server 2013 ne sont pas prévus pour fonctionner avec les systèmes de salle Skype v2. 
+> Systèmes de salle Skype v2 est destinée aux Skype pour Business Server 2019, Skype pour Business Server 2015, Microsoft Teams ou Skype pour Business Online.  <br><br>Plates-formes de versions antérieures à Lync Server 2013 ne sont pas prévus pour fonctionner avec les systèmes de salle Skype v2. 
 
 Ces articles sont destinés à des personnes chargé de la planification, le déploiement et la gestion de ces périphériques et pas pour les utilisateurs du système. Les utilisateurs seront plus intéressé par l' v2 de systèmes de salle Skype [aide en ligne](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 
