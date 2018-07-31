@@ -1,1 +1,1 @@
-<span data-ttu-id="1b8e5-101">Ceci est une préversion ou une fonctionnalité d'une publication anticipée.</span><span class="sxs-lookup"><span data-stu-id="1b8e5-101">This is a preview or early release feature.</span></span>
+<span data-ttu-id="21054-101">Ceci est une préversion ou une fonctionnalité d'une publication anticipée.</span><span class="sxs-lookup"><span data-stu-id="21054-101">This is a preview or early release feature.</span></span>
