@@ -1,11 +1,25 @@
---titre : quelles sont les équipes live événements ? auteur : ms.author Jccolon : tonysmit manager : serdars ms.date : 7/11/2018 ms.topic : article ms.service : msteams ms.reviwer : tonysmit description : Découvrez comment Live événements permettent aux utilisateurs de diffusion vidéo et le contenu à grande audiences en ligne dans Microsoft Teams, Yammer et flux de Microsoft.  
-appliesTo : 
-- Microsoft Teams
 ---
-
+title: Quelles sont les équipes live événements ?
+author: tonysmith
+ms.author: tonysmit
+manager: serdars
+ms.topic: article
+ms.service: msteams
+ms.reviwer: tonysmit
+description: Découvrez comment Live événements permettent aux utilisateurs de diffusion vidéo et de contenu à grande audiences en ligne dans Microsoft Teams, Yammer et Microsoft Stream.
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: e8050f105202063a0404de281100deaeca29584d
+ms.sourcegitcommit: d802b3091f9dccc851093eed0e2acbc34d1e9d9b
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21653684"
+---
 # <a name="what-are-teams-live-events"></a>Quelles sont les équipes live événements ?
-**Résumé**: Découvrez comment live événements permettent aux utilisateurs de diffusion vidéo et de contenu à grande audiences en ligne dans Microsoft Teams, Yammer et Microsoft Stream.  
-Remarque : Il s’agit un aperçu ou la fonctionnalité de publication au plus tôt.
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+
+Découvrez comment live événements permettent aux utilisateurs de diffusion vidéo et de contenu à grande audiences en ligne dans Microsoft Teams, Yammer et Microsoft Stream.  
 
 ## <a name="overview"></a>Vue d’ensemble
 Événements en direct dans 365 de Microsoft permettent aux utilisateurs de diffusion vidéo et de contenu au grand public en ligne.  Événements en direct Microsoft 365 mettez vidéo en direct à un nouveau niveau, en privilégiant une connexion tout au long du cycle de vie mission avec les participants avant, pendant et après les événements en direct. Vous pouvez créer un événement en direct où réside votre audience, équipe ou la Communauté, à l’aide de Microsoft Stream, Microsoft Teams ou Yammer.  
@@ -13,13 +27,6 @@ Remarque : Il s’agit un aperçu ou la fonctionnalité de publication au plus 
 Teams Microsoft offre collaboration basée sur la conversation, l’appel, réunions et des événements live, vous pouvez développer l’audience de vos réunions. Événements live Teams Microsoft est une extension de réunions d’équipes, permettant aux utilisateurs de diffusion de contenu de réunion et vidéo à un grand public en ligne. Ils sont destinés à un-à-plusieurs communications où l’hôte de l’événement entraîne les interactions et la participation d’audience est principalement à visualiser le contenu partagé par l’hôte. Les participants peuvent voir l’événement direct ou enregistré dans Yammer, équipes et/ou Microsoft Stream et peut interagir avec les présentateurs via modéré Q & r ou conversation Yammer. 
 
 Les équipes événements live est considérée comme la prochaine version de diffusion de réunion Skype et finira par remplacent les fonctionnalités fournies dans Skype réunion diffusion. Pour la version d’évaluation d’événements en direct, Microsoft continuera prendre en charge de Skype réunion diffusion, sans interruption de service pour les événements de nouveau ou futurs. Nous vous invitons à essayer d’événements dans les équipes à tirer parti des nouvelles fonctionnalités, notamment, de partage d’écran et le nombre de participants, en direct et prise en charge des encodeurs matérielles et logicielles externes. 
-
-Articles associés : 
-
-- [Événements en direct entre Microsoft 365 dans Yammer et Microsoft Stream Microsoft Teams](https://docs.microsoft.com/stream/live-event-m365)
-- [Événements en direct dans Microsoft Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
-- [Événements en direct dans Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Événements en direct dans Microsoft Stream](https://review.docs.microsoft.com/stream/live-event-overview)
 
 ## <a name="key-components"></a>Principaux composants
 Le diagramme suivant illustre les composants de niveau élevés impliqués dans 365 Microsoft les événements en direct. 
@@ -35,7 +42,7 @@ Les événements dans 365 Microsoft live prend en charge un large éventail de s
 - **Codage externe**: encodeurs externes permettent aux utilisateurs de créer leurs événements live directement à partir d’un matériel externe ou un logiciel d’encodeur avec Microsoft Stream. Cette option est recommandée si vous disposez déjà d’équipement de qualité studio (par exemple, le mixage media) les prise en charge de la diffusion en continu à un service RTMP. Cette option est généralement utilisée dans les événements à grande échelle telles que les conférences exécutifs – où un flux unique à partir d’un mixage multimédia est diffusé à l’audience. 
 
 ### <a name="streaming-platform"></a>Plateforme de diffusion en continu
-Cela est composée des éléments suivants.
+Cela est composée des éléments suivants :
 
 #### <a name="azure-media-services"></a>Services multimédias Azure
 [Azure Media Services](https://docs.microsoft.com/en-us/azure/media-services/previous/) vous donne la qualité de la diffusion des services de diffusion en continu vidéo pour atteindre le plus grand public sur les appareils mobiles les plus populaires d’aujourd'hui. Media Services améliore l’accessibilité, de distribution et l’évolutivité et rend facile et économique en continu dans votre magasin local et dans le monde entier, tout en protégeant votre contenu.
@@ -50,7 +57,7 @@ L’objectif d’eCDN consiste à prendre le contenu vidéo à partir d’intern
 - Ramp (bientôt disponible au démarrage rapide)
 
 ### <a name="attendee-experience"></a>Expérience de participant
-L’expérience de participant est le plus important d’événements en direct et il est fondamental que les participants peuvent participer à l’événement live sans problème. L’expérience de participant utilise le lecteur Media Azure et fonctionne sur le bureau, navigateur et mobile (Android, iOS). Microsoft 365 fournit Yammer et les équipes deux concentrateurs de collaboration, ainsi que le participant live expérience est intégrée à ces outils de collaboration. Les événements live en fonction de codage externe sont également accessibles par les participants dans le portail Microsoft Stream.
+L’expérience de participant est le plus important d’événements en direct et il est fondamental que les participants peuvent participer à l’événement live sans problème. L’expérience de participant utilise le lecteur Media Azure et fonctionne sur le bureau, navigateur et mobile (Android, iOS). Office 365 propose Yammer et les équipes deux concentrateurs de collaboration, ainsi que le participant live expérience est intégrée à ces outils de collaboration. Les événements live en fonction de codage externe sont également accessibles par les participants dans le portail Microsoft Stream.
 
 ## <a name="prerequisites"></a>Conditions requises
 
@@ -63,12 +70,12 @@ Les conditions préalables suivantes sont requises pour l’utilisateur planifie
 - Utilisateur dispose d’autorisations pour créer des événements en temps réel dans Microsoft Stream (pour la production de codage externe).
 
 > [!NOTE]
-> O365 invités, les utilisateurs fédérés et anonymes ne peuvent pas être invitées en tant que producteurs ou présentateurs dans les événements live équipes. 
+> Office 365 invités, les utilisateurs fédérés et anonymes ne peuvent pas être invitées en tant que producteurs ou présentateurs dans les événements live équipes. 
  
 ### <a name="who-can-watch-live-event"></a>Qui peut voir direct
 Consultez le tableau ci-dessous pour voir qui peuvent participer à un événement en direct. 
 
-|Visibilité de participant           |Guide de démarrage rapide  |Codage externe  |
+|**Visibilité de participant**           |**Guide de démarrage rapide** |**Codage externe**  |
 |------------------------------|-------------|------------------|
 |Public (utilisateurs anonymes)      |  Oui        |  Non              |
 |Les utilisateurs invités *                   |  Non         |  Non              |
@@ -161,7 +168,7 @@ Ramp OmniCache assure la distribution réseau nouvelle génération et transpare
 #### <a name="configure-ecdn-for-quick-start-live-events"></a>Configurer eCDN pour les événements live « Démarrage rapide » 
 Vous pouvez configurer le fournisseur eCDN pour les événements live dans Microsoft Teams via PowerShell. Remarque : qu’un fournisseur unique eCDN peut être configuré pour le client à un moment donné. 
 
-Configurer la ruche eCDN fournisseur 
+**Configurer la ruche eCDN fournisseur** 
 
 Vous pouvez utiliser l’applet de commande [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell pour configurer eCDN fournisseur. 
 1. Obtenir la licence ID et API de modèle d’URL à partir de votre contact ruche. 
@@ -170,7 +177,7 @@ Vous pouvez utiliser l’applet de commande [Set-CsTeamsMeetingBroadcastConfigur
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
 
-Configurer Kollective eCDN fournisseur 
+**Configurer Kollective eCDN fournisseur** 
 
 Vous pouvez utiliser l’applet de commande [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell pour configurer eCDN fournisseur. 
 1. Obtenir le jeton d’API et l’URL du modèle d’API à partir de votre contact Kollective. 
@@ -179,13 +186,10 @@ Vous pouvez utiliser l’applet de commande [Set-CsTeamsMeetingBroadcastConfigur
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
 
-Configurer Ramp eCDN fournisseur 
-
-Bientôt disponible 
+**Configurer Ramp eCDN fournisseur**
 
 #### <a name="configure-ecdn-for-external-encoder-live-events"></a>Configurer eCDN pour les événements live « Codage externe » 
 Si vous envisagez de créer des événements en temps réel qui utilisent des encodeurs externes, vous devrez également [configurer votre fournisseur eCDN avec flux de données Microsoft](https://docs.microsoft.com/stream/network-caching) . Si vous envisagez de créer des événements en temps réel via Microsoft Teams ou Yammer « Démarrage rapide », vous devrez configurer votre fournisseur SDN/eCDN être intégrées à Microsoft Teams également.
-
 
 ### <a name="enable-live-event-scheduling-for-the-user"></a>Activer la planification d’événements live pour l’utilisateur
 La planification d’événements live est activée par défaut pour un utilisateur d’équipes.  
@@ -248,7 +252,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ### <a name="configure-attendee-visibility-options"></a>Configurer les options de visibilité de participant
 Ainsi, événement live organisateurs créer des événements avec visibilité attendee approprié.
 
-|Valeurs  |Comportement  |
+|**Valeurs**  |**Comportement**  |
 |---------|---------|
 |Tout le monde     |L’utilisateur dispose d’une option pour créer des événements en temps réel avec la visibilité attendee suivantes : Public, tout le monde dans la société et des personnes spécifiques. |
 |EveryoneInCompany     |L’utilisateur dispose d’une option pour créer des événements en temps réel avec la visibilité attendee suivantes : tout le monde dans la société et des personnes spécifiques. L’utilisateur ne peut pas créer des événements en temps réel qui peuvent être contrôlés par des utilisateurs anonymes.|
@@ -270,7 +274,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 
 Cela permet d’administrateurs au contrôle si les événements live sont toujours enregistrées, jamais enregistrées ou si l’organisateur de l’événement peut décider d’enregistrer l’événement ou non.  
 
-|Valeurs  |Comportement  |
+|**Valeurs**  |**Comportement**  |
 |---------|---------|
 |Toujours activé |Les événements live organisées par cet utilisateur sont toujours enregistrées. Utilisateur n’est pas une option pour remplacer. Si l’événement live est enregistré, les membres de l’équipe des événements sont en mesure de télécharger l’enregistrement après l’événement et les participants peuvent suivre l’événement après l’événement. |
 |AlwaysDisabled |Les événements live organisées par cet utilisateur ne sont jamais enregistrées. Utilisateur n’est pas une option pour remplacer. Si l’événement live est enregistré, aucun enregistrement n’est créé pour les membres de l’équipe d’événement et les participants ne peuvent pas voir l’événement après l’avoir sur. |
@@ -319,3 +323,10 @@ Clients pouvant utiliser les outils suivants pour gérer un grand nombre de tâc
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
+
+### <a name="related-topics"></a>Rubriques connexes : 
+
+- [Événements en direct entre Microsoft 365 dans Yammer et Microsoft Stream Microsoft Teams](https://docs.microsoft.com/stream/live-event-m365)
+- [Événements en direct dans Microsoft Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
+- [Événements en direct dans Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
+- [Événements en direct dans Microsoft Stream](https://review.docs.microsoft.com/stream/live-event-overview)
