@@ -17,16 +17,16 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Découvrez comment la qualité des flux est classée dans le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: 6cd19fb1f163f6e7a9e11598b03f539b5fc1a02d
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+ms.openlocfilehash: a77ca0605589c99b88ba3287bf8febcc7514cbd1
+ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20327077"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21645307"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Classification des flux dans le tableau de bord de qualité des appels
 
-Le tableau de bord de qualité des appels (CQD) pour Microsoft Teams et Skype Entreprise Online vous permet d’obtenir des informations sur la qualité des appels effectués par le biais des services Microsoft Teams et Skype Entreprise Online. Cette rubrique fournit des informations détaillées sur la classification de qualité des flux de médias. Pour en savoir plus sur le tableau de bord de qualité des appels (CQD) et sur son activation, consultez la rubrique [Activation et utilisation du tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md).
+Le tableau de bord de qualité des appels (TBQA) pour Microsoft Teams et Skype Entreprise Online vous permet d’obtenir des informations sur la qualité des appels effectués par le biais des services Microsoft Teams et Skype Entreprise Online. Cette rubrique fournit des informations détaillées sur la classification de qualité des flux de médias. Pour en savoir plus sur le tableau de bord de qualité des appels (TBQA) et sur son activation, consultez la rubrique [Activation et utilisation du tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Définitions du classificateur
 
@@ -36,43 +36,43 @@ Les flux dans le TBQA sont classés comme bons, médiocres ou non classifiés en
 
 Un flux audio est marqué comme médiocre si une ou plusieurs des anomalies suivantes sont relevées :
 
-|**Métrique**|**Condition**|**Explication**|
+|**Mesure**|**Condition**|**Explication**|
 |:-----|:-----|:-----|
-|Dégradation audio moyenne|> 1,0|Dégradation moyenne de la note moyenne d'opinion réseau pour la transmission en continu. Cette moyenne représente l'impact des pertes ou des gigues au niveau du réseau sur l'audio reçu.|
-|Aller-retour|> 500|Durée moyenne de l'aller-retour de propagation sur le réseau calculée en millisecondes selon les spécifications du document RFC3550.|
-|Taux de pertes de paquets|> 0,1|Taux moyen de perte de paquets pour la transmission en continu.|
-|Gigue|> 30|Gigue moyenne pour la transmission en continu en millisecondes.|
+|Dégradation audio moyenne|> 1,0|Dégradation moyenne de la note moyenne d'opinion réseau pour le flux. Elle représente l'impact des pertes ou des gigues au niveau du réseau sur l'audio reçu.|
+|Aller-retour|> 500|Durée moyenne de l'aller-retour de propagation sur le réseau calculée selon les spécifications du document RFC3550 en millisecondes.|
+|Taux de pertes de paquets|> 0,1|Taux moyen de perte de paquets pour le flux.|
+|Gigue|> 30|Gigue moyenne pour le flux, en millisecondes.|
 |Ratio moyen des échantillons cachés|> 0,07|Ratio moyen du nombre de trames audio avec des échantillons masqués générés par la réparation de la perte de paquet par rapport au nombre total de trames audio.|
 
 ### <a name="video-classifier"></a>Classificateur vidéo
 
 Un flux vidéo est marqué comme bon ou médiocre selon la valeur de la première métrique disponible dans l'ordre suivant :
 
-|**N° d’étape**|**Métrique**|**Condition**|**Classification si la condition est vraie**|**Classification si la condition est fausse**|**Classification si la métrique n'est pas disponible**|**Explication**|
+|**N° d’étape**|**Mesure**|**Condition**|**Classification si la condition est vraie**|**Classification si la condition est fausse**|**Classification si la métrique n'est pas disponible**|**Explication**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Pourcentage moyen des pertes de trames vidéo locales|> 50 % |Faible|Bon|Passez à l’étape 2|Pourcentage moyen de perte de trames vidéo tel qu'affiché pour l'utilisateur. Cela inclut les images récupérées après des pertes de réseau.|
-|2|Taux moyen de trame vidéo|< 7|Faible|Bon|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
-|3|Vidéo après FECPLR|> 0,15|Faible|Bon|Non classifié|La somme des taux de perte de paquets après application FEC est faite à travers toutes les transmissions vidéos en continu et les codecs.|
+|1|Pourcentage moyen des pertes de trames vidéo locales|> 50 % |Médiocre|Bon|Passez à l’étape 2|Pourcentage moyen de perte de trames vidéo tel qu'affiché pour l'utilisateur. Cela inclut les images récupérées après des pertes de réseau.|
+|2|Taux moyen de trame vidéo|< 7|Médiocre|Bon|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
+|3|Vidéo après FECPLR|> 0,15|Médiocre|Bon|Non classifié|Taux de perte de paquets après application FEC en totalité à travers toutes les transmissions vidéos en continu et les codecs.|
 
 ### <a name="vbss-classifier"></a>Classificateur VBSS
 
 Un flux VBSS est marqué comme bon ou médiocre selon la valeur de la première métrique disponible dans l'ordre suivant :
 
-|**N° d’étape**|**Métrique**|**Condition**|**Classification si la condition est vraie**|**Classification si la condition est fausse**|**Classification si la métrique n'est pas disponible**|**Explication**|
+|**N° d’étape**|**Mesure**|**Condition**|**Classification si la condition est vraie**|**Classification si la condition est fausse**|**Classification si la métrique n'est pas disponible**|**Explication**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Pourcentage moyen des pertes de trames vidéo locales|> 50 % |Faible|Bon|Passez à l’étape 2|Pourcentage moyen de perte de trames vidéo tel qu'affiché pour l'utilisateur. Cela inclut les images récupérées après des pertes de réseau.|
-|2|Taux moyen de trame vidéo|< 2|Faible|Bon|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
-|3|Vidéo après FECPLR|> 0,15|Faible|Bon|Non classifié|La somme des taux de perte de paquets après application FEC est faite à travers toutes les transmissions vidéos en continu et les codecs.|
+|1|Pourcentage moyen des pertes de trames vidéo locales|> 50 % |Médiocre|Bon|Passez à l’étape 2|Pourcentage moyen de perte de trames vidéo tel qu'affiché pour l'utilisateur. Cela inclut les images récupérées après des pertes de réseau.|
+|2|Taux moyen de trame vidéo|< 2|Médiocre|Bon|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
+|3|Vidéo après FECPLR|> 0,15|Médiocre|Bon|Non classifié|Taux de perte de paquets après application FEC en totalité à travers toutes les transmissions vidéos en continu et les codecs.|
 
 ### <a name="application-sharing-classifier"></a>Classificateur de partage d'applications
 
 Un flux de partage d’applications est marqué comme médiocre si une ou plusieurs des anomalies suivantes sont rencontrées :
 
-**Métrique**|**Condition**|**Explication**|
+**Mesure**|**Condition**|**Explication**|
 |:-----|:-----|:-----|
-|Pourcentage total de mosaïque altérées|> 36|Pourcentage de vignettes rejetées au lieu d'être envoyées à un homologue distant (par exemple du MCU à une visionneuse). Le rejet (ou la détérioration) des vignettes peut être causé par des restrictions de bande passante entre le client et le serveur.|
+|Pourcentage total de mosaïques altérées|> 36|Pourcentage de vignettes rejetées au lieu d'être envoyées à un homologue distant (par exemple du MCU à une visionneuse). Le rejet (ou la détérioration) des vignettes peut être causé par des restrictions de bande passante entre le client et le serveur.|
 |Latence moyenne de traitement de vignettes RDP dans AppSharing|> 400|Latence moyenne en millisecondes du traitement des vignettes sur la pile RDP du serveur de téléconférence.|
-|Moyenne OneWay relative d'AppSharing|> 1,75|Retard unidirectionnel relatif moyen entre les points de terminaison en millisecondes pour la transmission en continu du partage d'applications.|
+|Moyenne OneWay relative d’AppSharing|> 1,75|Retard unidirectionnel relatif moyen entre les points de terminaison en secondes pour la transmission en continu du partage d’applications.|
 
 ## <a name="unclassified-streams"></a>Flux non classifiés
 
