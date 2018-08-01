@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez les étapes pour attribuer un ID de conférence et de licence de conférence rendez-vous à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 26d80b71344227aeaec7089e2bb9f9a9dfe32ad2
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: f3ab0f2d1ac32de5744dc4ac994e8030a1540ba4
+ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703667"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21642474"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Gestion des paramètres de conférence rendez-vous de mon organisation
 
@@ -86,7 +86,7 @@ ms.locfileid: "19703667"
 - Utilisation de Windows PowerShell 
     
   ```
-  Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $true|$false
+  Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
     Vous pouvez également utiliser Windows PowerShell et exécuter :

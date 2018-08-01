@@ -8,7 +8,7 @@ appliesTo :
 Remarque : Il s’agit un aperçu ou la fonctionnalité de publication au plus tôt.
 
 ## <a name="overview"></a>Vue d’ensemble
-Événements en direct dans 365 de Microsoft permettent aux utilisateurs de diffusion vidéo et de contenu au grand public en ligne.  Événements en direct Microsoft 365 mettez vidéo live en continu à un nouveau niveau, allant au-delà de ce qui était auparavant possible avec Skype réunion diffusion, en privilégiant une connexion tout au long du cycle de vie mission avec les participants avant, pendant et après les événements en direct. Vous pouvez créer un événement en direct où réside votre audience, équipe ou la Communauté, à l’aide de Microsoft Stream, Microsoft Teams ou Yammer.  
+Événements en direct dans 365 de Microsoft permettent aux utilisateurs de diffusion vidéo et de contenu au grand public en ligne.  Événements en direct Microsoft 365 mettez vidéo en direct à un nouveau niveau, en privilégiant une connexion tout au long du cycle de vie mission avec les participants avant, pendant et après les événements en direct. Vous pouvez créer un événement en direct où réside votre audience, équipe ou la Communauté, à l’aide de Microsoft Stream, Microsoft Teams ou Yammer.  
 
 Teams Microsoft offre collaboration basée sur la conversation, l’appel, réunions et des événements live, vous pouvez développer l’audience de vos réunions. Événements live Teams Microsoft est une extension de réunions d’équipes, permettant aux utilisateurs de diffusion de contenu de réunion et vidéo à un grand public en ligne. Ils sont destinés à un-à-plusieurs communications où l’hôte de l’événement entraîne les interactions et la participation d’audience est principalement à visualiser le contenu partagé par l’hôte. Les participants peuvent voir l’événement direct ou enregistré dans Yammer, équipes et/ou Microsoft Stream et peut interagir avec les présentateurs via modéré Q & r ou conversation Yammer. 
 
@@ -17,9 +17,9 @@ Les équipes événements live est considérée comme la prochaine version de di
 Articles associés : 
 
 - [Événements en direct entre Microsoft 365 dans Yammer et Microsoft Stream Microsoft Teams](https://docs.microsoft.com/stream/live-event-m365)
-- [Événements en direct dans Microsoft Teams](https://support.office.com/en-us/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US)
-- [Événements en direct dans Yammer](https://support.officeppe.com/en-us/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57?ui=en-US&rs=en-US&ad=US)
-- [Événements en direct dans Microsoft Stream](https://review.docs.microsoft.com/en-us/stream/live-event-overview)
+- [Événements en direct dans Microsoft Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
+- [Événements en direct dans Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
+- [Événements en direct dans Microsoft Stream](https://review.docs.microsoft.com/stream/live-event-overview)
 
 ## <a name="key-components"></a>Principaux composants
 Le diagramme suivant illustre les composants de niveau élevés impliqués dans 365 Microsoft les événements en direct. 
@@ -138,7 +138,9 @@ Vous pouvez utiliser des événements en direct équipes dans plusieurs régions
   - Les participants et les membres de l’équipe événement ne sera pas en mesure d’utiliser des événements en direct équipes car Azure CDN n’est pas accessible en Chine. Une solution de contournement consiste à utiliser une connexion VPN, qui obtient le client connecté au CDN via le réseau d’entreprise du client de la société.
 
 ### <a name="set-up-your-network-for-live-events-in-microsoft-teams"></a>Configurez votre réseau pour les événements live dans Microsoft Teams
-À venir.
+Les événements live démarrage rapide requièrent pour [préparer le réseau de votre organisation pour les équipes Microsoft](https://docs.microsoft.com/en-us/microsoftteams/prepare-network).  
+
+Événements en direct de démarrage rapide et de codage externe 
 
 ### <a name="set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>Configurer le fournisseur eCDN pour les événements live dans Microsoft Teams 
 Lecture de vidéos direct utilise adaptive vitesse de transmission en continu (TBD), mais il s’agit d’un flux de monodiffusion, ce qui signifie que chaque visionneuse est l’obtention de leur propres flux vidéo à partir d’internet. Pour les événements en direct ou vidéos envoyés à une grande partie de votre organisation, il peut être une grande quantité de bande passante internet consommée par des utilisateurs.  Pour les organisations qui veulent réduire ce trafic internet pour les événements en direct, des événements live solutions intégrées à Microsoft approuvé partenaires de remise vidéo proposant des logiciels définis réseaux (SDNs) ou des réseaux de livraison de contenu d’entreprise (eCDNs). Ces SDN / eCDN plateformes permettent aux organisations d’optimiser la bande passante réseau sans compromettre les utilisateurs finaux une expérience de visualisation. Nos partenaires peuvent aider à activer une distribution vidéo plus évolutive et efficace entre votre réseau d’entreprise.

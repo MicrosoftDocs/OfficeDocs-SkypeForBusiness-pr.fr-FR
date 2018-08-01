@@ -15,14 +15,14 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
-- me.teamsadmincenter.policies.naming.error
+- ms.teamsadmincenter.policies.naming.error
 description: Voir existe avec des caractères spéciaux dans les noms des stratégies et ce que vous pouvez faire pour résoudre des problèmes.
-ms.openlocfilehash: 4ddd6a618c42f629acd64162ad608aede6b1819f
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 6aabd3c1d7e373c048ea1d1f723f83ad1108dbe0
+ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20397088"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21645387"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quelles sont les restrictions de caractère spécial dans les stratégies d’équipes ?
 
