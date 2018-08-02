@@ -1,5 +1,5 @@
 ---
-title: Créer une file d’attente des appels système téléphonique
+title: Créer une file d’attente de système téléphonique
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 119e56f27edc992466a6565235715d2703b1cb12
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: 9b86bec84846dff36e509488eb34f0415fe8cd95
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708349"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente des appels système téléphonique
+# <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente de système téléphonique
 
 Appel de système téléphonique files d’attente contiennent le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui appel Écoutez une musique d’attente. Vous pouvez créer une seule ligne ou plusieurs files d’attente d’appel pour votre organisation.
   
@@ -89,6 +90,14 @@ Avant de commencer à utiliser les files d'attente d'appels, il est impératif d
   - iPhone Skype pour Client d’entreprise (version 6.16.0 et versions ultérieures)
     
   - iPad Skype pour Client d’entreprise (version 6.16.0 et versions ultérieures)
+
+  - Client Microsoft équipes Windows (versions 32 et 64 bits)
+
+  - Client Microsoft équipes Mac
+
+  - Microsoft Teams iPhone application
+
+  - Les équipes Microsoft pour Android
     
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Étape 2 : obtention ou transfert de numéros de service gratuits ou payants
 
@@ -98,6 +107,8 @@ Before you can create and set up your call queues, you will need to get or trans
 > Si vous êtes en dehors des États-Unis, vous ne pouvez pas utiliser le Skype entreprise centre d’administration pour obtenir les numéros de service. Accédez à [Gérer les numéros de téléphone pour votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) à la place pour voir comment le faire à partir de l’extérieur des États-Unis.
   
 ## <a name="step-3---create-a-new-call-queue"></a>Étape 3 : création d'une file d'attente d'appels
+
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
 Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage des appels** > **Files d'attente d'appels**, puis cliquez sur **Ajouter nouveau**:
   
@@ -152,7 +163,7 @@ Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage d
 ***
 ![N ° 1](../images/sfbcallout1.png)<br/><br/>Agents d’appel (50 maximum) peuvent être :
 *    Un utilisateur en ligne avec une licence de **Système téléphonique** et activé pour Enterprise Voice ou avec un Plan de l’appel. <br/><br/> **Remarque :**  Pour rediriger les appels vers des personnes dans votre organisation en ligne, ils doivent disposer d’une licence de **Système téléphonique** et être activés pour Enterprise Voice ou un Plan de l’appel. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Pour les activer pour Entreprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez : `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
-*    Les utilisateurs en ligne avec un avec une licence de **Système téléphonique** et un appel de planification qui sont ajoutés à un groupe d’Office 365, une liste de Distribution à extension messagerie ou un groupe de sécurité. Jusqu'à 30 minutes peuvent être nécessaires pour qu'un nouvel agent ajouté à une liste de distribution ou à un groupe de sécurité commence à recevoir des appels depuis une file d'attente. Un groupe de sécurité ou de la liste de distribution nouvellement créé peut prendre jusqu'à 48 heures soit disponible pour être utilisé avec les files d’attente de l’appel. Nouvellement créé Office 365 groupes sont presque immédiatement disponibles. <br/> 
+*    Utilisateurs en ligne avec une licence de **Système téléphonique** et un Plan d’appel qui sont ajoutés à un groupe d’Office 365, une liste de Distribution à extension messagerie ou un groupe de sécurité. Jusqu'à 30 minutes peuvent être nécessaires pour qu'un nouvel agent ajouté à une liste de distribution ou à un groupe de sécurité commence à recevoir des appels depuis une file d'attente. Un groupe de sécurité ou de la liste de distribution nouvellement créé peut prendre jusqu'à 48 heures soit disponible pour être utilisé avec les files d’attente de l’appel. Nouvellement créé Office 365 groupes sont presque immédiatement disponibles. <br/> 
 
     > [!NOTE] 
     > Les utilisateurs hébergés sur site à l’aide de Lync Server 2010 ne sont pas pris en charge.           
@@ -240,7 +251,7 @@ Voici les applets de commande requis pour gérer une file d'attente d'appels.
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>Rubriques connexes
-[Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
+[Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](getting-service-phone-numbers.md)
 

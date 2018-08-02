@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: Découvrez comment Live événements permettent aux utilisateurs de diffusion vidéo et de contenu à grande audiences en ligne dans Microsoft Teams, Yammer et Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8050f105202063a0404de281100deaeca29584d
-ms.sourcegitcommit: d802b3091f9dccc851093eed0e2acbc34d1e9d9b
+ms.openlocfilehash: 4017e059f202a89451b9aad419fd007bb4758765
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21653684"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21711069"
 ---
 # <a name="what-are-teams-live-events"></a>Quelles sont les équipes live événements ?
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -147,7 +147,7 @@ Vous pouvez utiliser des événements en direct équipes dans plusieurs régions
 ### <a name="set-up-your-network-for-live-events-in-microsoft-teams"></a>Configurez votre réseau pour les événements live dans Microsoft Teams
 Les événements live démarrage rapide requièrent pour [préparer le réseau de votre organisation pour les équipes Microsoft](https://docs.microsoft.com/en-us/microsoftteams/prepare-network).  
 
-Événements en direct de démarrage rapide et de codage externe 
+Événements de démarrage rapide et de codage externe en direct, passez à [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) pour une liste détaillée et mise à jour de l’URL, adresses, ports, protocoles IP et qui doivent être correctement configurés pour les équipes et flux. Microsoft améliore en permanence le service Office 365 et ajouter de nouvelles fonctionnalités, ce qui signifie que les ports requis, URL, et adresses IP peuvent changer au fil du temps. Nous vous recommandons de vous abonner via le flux RSS pour recevoir des notifications lorsque cette information est mis à jour ou modifiée.
 
 ### <a name="set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>Configurer le fournisseur eCDN pour les événements live dans Microsoft Teams 
 Lecture de vidéos direct utilise adaptive vitesse de transmission en continu (TBD), mais il s’agit d’un flux de monodiffusion, ce qui signifie que chaque visionneuse est l’obtention de leur propres flux vidéo à partir d’internet. Pour les événements en direct ou vidéos envoyés à une grande partie de votre organisation, il peut être une grande quantité de bande passante internet consommée par des utilisateurs.  Pour les organisations qui veulent réduire ce trafic internet pour les événements en direct, des événements live solutions intégrées à Microsoft approuvé partenaires de remise vidéo proposant des logiciels définis réseaux (SDNs) ou des réseaux de livraison de contenu d’entreprise (eCDNs). Ces SDN / eCDN plateformes permettent aux organisations d’optimiser la bande passante réseau sans compromettre les utilisateurs finaux une expérience de visualisation. Nos partenaires peuvent aider à activer une distribution vidéo plus évolutive et efficace entre votre réseau d’entreprise.

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: Cet article décrit la gestion à distance des paramètres par défaut utilisé par un périphérique Skype salle systèmes v2, y compris l’application d’un thème personnalisé.
-ms.openlocfilehash: 9310683d3dbe274721f2bdcd583492b63a10d821
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9e8ff661dfab6810d1072b86dddcb8621c63b8d0
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015598"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21711050"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Gestion à distance des paramètres d'une console Skype Room Systems v2 à l'aide d'un fichier de configuration XML
  
@@ -39,6 +39,9 @@ Le tableau ci-dessous explique les éléments affichés dans cet exemple SkypeSe
              <ConfigureDomain>domain1, domain2</ConfigureDomain>
              <AutoRotatePassword>1</AutoRotatePassword>
   </UserAccount>    
+  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+  <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+  <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled> 
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled> 
   <DualScreenMode>true</DualScreenMode>
@@ -74,14 +77,16 @@ Si le fichier XML est formé de manière incorrecte (le type d'une valeur de var
 |\<HideMeetingName\>  <br/> |Valeur booléenne & #x 2777 ; <br/> |Première & #x 2776 ; <br/> |Si ce paramètre est vrai, les noms de réunion sont masqués.  <br/> |
 |\<UserAccount\>  <br/> |Conteneur  <br/> |Première & #x 2776 ; <br/> |Conteneur des paramètres d'identification.  <br/> La connexion à l’adresse, adresse Exchange ou adresse de messagerie est généralement identiques, telles que RanierConf<span></span>@contoso.com.  <br/> |
 |\<SkypeMeetingsEnabled\>  <br/> |Valeur booléenne & #x 2777 ; <br/> |Première & #x 2776 ; <br/> |Cette fonctionnalité est activée par défaut.  <br/> |
-|\<TeamsMeetingsEnabled\>  <br/> |Valeur booléenne & #x 2777 ; <br/> |Première & #x 2776 ; <br/> |Cette fonctionnalité est désactivée par défaut.  <br/> Le fichier XML est considéré comme incorrect si les deux \<SkypeMeetingsEnabled\> et\<TeamsMeetingsEnabled\> sont désactivés, mais il est acceptable d’avoir les deux paramètres sont activés en même temps.  <br/> |
 |\<SkypeSignInAddress\>  <br/> |Chaîne 3 <br/> ||Nom de connexion au compte d'appareil Skype Entreprise de la console.  <br/> |
 |\<ExchangeAddress\>  <br/> |Chaîne 3 <br/> ||Nom de connexion au compte d'appareil Exchange de la console.  <br/> Si l'adresse d'Exchange est omise, l'adresse de connexion à Skype ne sera pas réutilisée automatiquement.   <br/> |
 |\<DomainUsername\>  <br/> |Chaîne & #x 2778 ; <br/> ||Nom de domaine et d'utilisateur de la console, par exemple Seattle\RanierConf.  <br/> |
 |\<Mot de passe\>  <br/> |Chaîne 3 <br/> ||  Le paramètre du mot de passe est le même mot de passe que celui utilisé pour la connexion au compte d'appareil Skype Entreprise.  <br/> |
 | \<ConfigureDomain\> <br/> |Chaîne & #x 2778 ; <br/> ||Vous pouvez répertorier plusieurs domaines, séparés par des virgules.  <br/> |
 |\<AutoRotatePassword\>  <br/> |Valeur booléenne & #x 2777 ; <br/> |||
-| \<DualScreenMode\> <br/> |Valeur booléenne & #x 2777 ; <br/> |Première & #x 2776 ; <br/> |Si la valeur true, le mode double écran est activé. Dans le cas contraire, l'appareil utilisera le mode d'écran unique.  <br/> |
+|\<TeamsMeetingsEnabled\>  <br/> |Valeur booléenne & #x 2777 ; <br/> |Première & #x 2776 ; <br/> |Cette fonctionnalité est désactivée par défaut.  <br/> Le fichier XML est considéré comme incorrect si les deux \<SkypeMeetingsEnabled\> et\<TeamsMeetingsEnabled\> sont désactivés, mais il est acceptable d’avoir les deux paramètres sont activés en même temps.  <br/> |
+|\<IsTeamsDefaultClient > |Valeur booléenne & #x 2777 ; <br/> |Première & #x 2776 ; <br/> |Cette fonctionnalité est désactivée par défaut. <br/>|
+|\<BluetoothAdvertisementEnabled > |Valeur booléenne & #x 2777 ; <br/> |Première & #x 2776 ; <br/> |Cette fonctionnalité est activée par défaut. <br/>|
+|\<DualScreenMode\> <br/> |Valeur booléenne & #x 2777 ; <br/> |Première & #x 2776 ; <br/> |Si la valeur true, le mode double écran est activé. Dans le cas contraire, l'appareil utilisera le mode d'écran unique.  <br/> |
 |\<SendLogs\>  <br/> |Conteneur  <br/> |Première & #x 2776 ; <br/> ||
 |\<EmailAddressForLogsAndFeedback\>  <br/> |Chaîne & #x 2778 ; <br/> ||Ce paramètre définit une adresse électronique en option à laquelle les journaux peuvent être envoyés lorsque la fenêtre "Envoyer des commentaires" s'affiche.   <br/> |
 |\<SendLogsAndFeedback\>  <br/> |Valeur booléenne & #x 2777 ; <br/> ||  Si ce paramètre est vrai, les journaux sont envoyés à l'administrateur. Si ce paramètre est faux, seuls les commentaires sont envoyés à l'administrateur (pas les journaux). <br/> |
