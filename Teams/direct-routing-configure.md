@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: c73141e4f77816d5e090a1cf0208eb66a1e29811
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 112381db7d4d2bc160917b41c7e8e437ef737bcf
+ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084500"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21762942"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage Direct
 
@@ -530,47 +530,8 @@ Avant d’un utilisateur d’afficher l’onglet appels dans Microsoft Teams, vo
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>Définissez Teams Microsoft en tant que client appelant par défaut pour les utilisateurs
 
-Routage direct achemine uniquement les appels aux Teams Microsoft, vous devez vous assurer que Microsoft Teams est le client appelant par défaut pour les utilisateurs. Ceci est contrôlé par la TeamsCallingPolicy et le TeamsInteropPolicy. 
+Routage direct uniquement router les appels vers et depuis les utilisateurs s’ils utilisent des équipes Cleint. Si votre organisation utilisent uniquement des équipes cleint, « Équipes uniquement » mode dans la stratégie de mise à niveau est recommandé de définir. Si vous organisation utilise Skype pour Business Server ou Skype pour Business Online, veuillez consulter le document suivant de [comprendre les parcours de mise à niveau et de coexistence pour Skype pour professionnels et les équipes](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) et sélectionnez l’option appropriée. 
 
-1. Tout d’abord, utilisez l’applet de commande suivante dans une session PowerShell distante dans le Skype pour le centre d’administration Business en ligne pour afficher les stratégies de l’utilisateur a été affecté. 
-
-  ```
-  Get-CsOnlineUser -identity <User Name> | fl *teams*
-  ```
- 
-2. Ensuite, passez en revue les instances de stratégie différent. 
-
-  ```
-  Get-CsTeamsCallingPolicy
-  ``` 
- et 
-
-  ```
-  Get-CsTeamsInteropPolicy
-  ``` 
-
-Avant que les utilisateurs de Microsoft Teams peuvent utiliser le service, des étapes supplémentaires, que vous devrez peut-être suivre pour appliquer la stratégie d’appel et autoriser les appels.
-
-### <a name="teams-calling-policy"></a>Appel de stratégie des équipes
-
-Vous devez vous assurer que l’utilisateur dispose d’un TeamsCallingPolicy avec AllowCalling = True. Cette stratégie peut être la stratégie globale de votre client ou une stratégie spécifique accordées à l’utilisateur. Si vous devez accorder à un utilisateur une stratégie spécifique, vous pouvez utiliser l’applet de commande :
-
-```
-Grant-CsTeamsCallingPolicy -PolicyName <policy> -Identity <User Name>
-```
-
-### <a name="teams-interop-policy"></a>Stratégie d’interopérabilité de base équipes
-
-Assurez-vous que l’utilisateur a la valeur Microsoft Teams du client par défaut. Il est possible de deux manières :
-
-- L’utilisateur définit le client appelant par défaut dans le client Microsoft Teams.
-- L’utilisateur a reçu une stratégie qui définit le client appelant par défaut.
-
-Pour affecter une stratégie qui définit Teams Microsoft en tant que client appelant par défaut, assurez-vous que l’utilisateur bénéficie d’une stratégie avec CallingDefaultClient = équipes. Vous trouverez ci-dessous un exemple de commande :
-
-```
-Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity “<User Name>”
-```
 
 ## <a name="see-also"></a>Voir aussi
 
