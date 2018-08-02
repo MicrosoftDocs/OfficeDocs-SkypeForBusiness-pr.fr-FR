@@ -4,17 +4,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: 4aa222a98a0c95dd49b40172543aa1f5482a964f
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: 66929e86e6e049ee1dd5c839bfcc4adcc3edf35f
+ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148516"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21752562"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage Direct
 
@@ -107,8 +108,10 @@ Le tableau suivant montre des exemples de noms DNS enregistrés pour le client, 
 |**Nom DNS**|**Peut être utilisé pour SBC FQDN**|**Exemples de noms de domaine complets**|
 |:--- |:--- |:--- |
 Contoso.com|Oui|**Noms valides :**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>Europe.contoso.com|
-|Contoso.onmicrosoft.com|Non|**Nom non valide :**<br/>sbc1.Europe.contoso.com (nécessite l’inscription d’abord europe.contoso.com de nom de domaine dans « Domaines »)
-|
+|Contoso.onmicrosoft.com|Non|<br/>À l’aide de *. onmicrosoft.com domaines n’est pas pris en charge pour les noms de SBC
+
+Si vous souhaitez utiliser un nouveau nom de domaine. Par exemple, votre client a contoso.com en tant que domin nom enregistré dans votre client. Vous souhaitez utiliser sbc1.sip.contoso.com. Avant que vous pouvez établir une association un contrôleur SBC avec nom sbc1.sip.contoso.com, vous devez inscrire sip.contoso.com de nom de domaine dans « Domaines » dans votre client. Si vous essayez de jumelage un sbc1.sip.contoso.com SBC vous obtiendrez une erreur « Ne pouvez pas utiliser le domaine « sbc1.sip.contoso.com » comme il n’a pas été configuré pour ce client. »
+Une fois que vous avez ajouté le nom de domaine, vous devez également créer un utilisateur avec UPN user@sip.contoso.com et assing un lisence « Équipes ». Il peut prendre jusqu'à 24 heures pour configurer complètement le nom de domaine après avoir ajouté à « Domaines » du client, un utilisateur avec le nouveau nom créé et un lisence affecté à l’utilisateur. 
 
 Il est possible qu’une société peut avoir plusieurs espaces d’adressage SIP dans un client. Par exemple, une société pourrait avoir contoso.com en tant qu’un espace d’adressage SIP et fabrikam.com comme le deuxième espace d’adresse SIP. Certains utilisateurs ont user@contoso.com adresse et certains utilisateurs ont user@fabrikam.com adresse. 
 
@@ -212,7 +215,7 @@ Les fournisseurs suivants sont en cours de certification :
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
 - Ruban (anciennement Sonus) :
    - [Série de SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [Série de base SBC TBD](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
+   - [SBC Core Series](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel : ThinkTel ne vend pas les SBCs pour les entreprises, mais leur SBC est en cours certifié.  
  
 ## <a name="see-also"></a>Voir aussi
