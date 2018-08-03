@@ -10,12 +10,12 @@ ms.reviewer: marcl, ninadara
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee04fc9452342b78dc94a3c5c4e977f944d9164b
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: b7053bade0b01a35ba8e43607b182c9faec63879
+ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246545"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21779518"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
   
@@ -59,7 +59,7 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Erreur d’authentification moderne - authentification par formulaire ne pas activé  <br/> |Si l'authentification multifacteur échoue, réalisez l'authentification depuis l'application web.  <br/> Pour plus d'informations, voir [Prise en charge du paramètre des services ADFS prompt=login](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login).  <br/> |Vérifiez ce paramètre :Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled.  <br/> |19.06.2017  <br/> |
+|Erreur d’authentification moderne - authentification par formulaire ne pas activé  <br/> |Si l'authentification multifacteur échoue, réalisez l'authentification depuis l'application web.  <br/> Pour plus d'informations, voir [Prise en charge du paramètre des services ADFS prompt=login](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login).  <br/> |Vérifiez ce paramètre : `Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled`.  <br/> |19.06.2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -104,15 +104,15 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 ## <a name="client"></a>Client
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Les équipes ne met pas automatiquement à jour   <br/> | Lorsque Microsoft Teams est installé à l’aide de scripts d’installation des fichiers de programme plutôt que vers l’emplacement par défaut, le client ne-mise à jour automatique lorsque de nouvelles versions sont disponibles.    <br/> | À la conception. Veillez à installer l’application dans l’emplacement par défaut : user\Appdata.  <br/> | 9/7/17  <br/> |
+|Les équipes ne met pas automatiquement à jour   <br/> | Lorsque Microsoft Teams est installé à l’aide de scripts d’installation des fichiers de programme plutôt que vers l’emplacement par défaut, le client ne-mise à jour automatique lorsque de nouvelles versions sont disponibles.    <br/> | À la conception. Veillez à installer l’application dans l’emplacement par défaut : `user\Appdata`.  <br/> | 9/7/17  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Lien symbolique ou mappying un lecteur à C:\users entraîne l’application de lancement écran blanc  <br/> | Lorsque Microsoft Teams est installé à l’aide de scripts d’installation des fichiers de programme plutôt que vers l’emplacement par défaut, le client ne-mise à jour automatique lorsque de nouvelles versions sont disponibles.   <br/> | À la conception. Veillez à installer l’application dans l’emplacement par défaut : user\Appdata. Si le mappage doit exister, vous devez utiliser la version web de Microsoft Teams.  <br/> | 9/7/17  <br/> |
+|Lien symbolique ou mappying un lecteur à C:\users entraîne l’application de lancement écran blanc  <br/> | Lorsque Microsoft Teams est installé à l’aide de scripts d’installation des fichiers de programme plutôt que vers l’emplacement par défaut, le client ne-mise à jour automatique lorsque de nouvelles versions sont disponibles.   <br/> | À la conception. Veillez à installer l’application dans l’emplacement par défaut : `user\Appdata`. Si le mappage doit exister, vous devez utiliser la version web de Microsoft Teams.  <br/> | 9/7/17  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Lien symbolique ou mapper un lecteur sur c:\users entraîne l’application de lancement écran blanc  <br/> |Lors de l’emplacement par défaut de C:\users\<utilisateur > \appData est modifiée par le déplacement du dossier C:\users ou à l’aide du lien symbolique, l’application est lancé avec un écran blanc.   <br/> |Il n’existe aucune solution de contournement connue. Si le mappage doit exister, vous devez utiliser la version web de Microsoft Teams.   <br/> |13.03.2017  <br/> |
+|Lien symbolique ou mapper un lecteur sur c:\users entraîne l’application de lancement écran blanc  <br/> |Lors de l’emplacement par défaut de `C:\users\<user>\appData` est modifié en déplaçant la `C:\users` dossier ou à l’aide du lien symbolique, l’application est lancé avec un écran blanc.   <br/> |Il n’existe aucune solution de contournement connue. Si le mappage doit exister, vous devez utiliser la version web de Microsoft Teams.   <br/> |13.03.2017  <br/> |
 
 ## <a name="environment"></a>Environnement
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
@@ -131,7 +131,7 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 ## <a name="meetings"></a>Réunions
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Les utilisateurs ne peuvent pas accéder aux réunions/connecteurs, mais les boîtes aux lettres Exchange Online. <br/> |Client activement bloque EWS à partir des services dans Exchange Online, mais doit être MS Teams conforme au sein de stratégies EWS. <br/> |Pour rendre MS Teams conforme, vous devez ajouter la chaîne d’Agent utilisateur pour Teams MS au sein de la EWSAllowList : *skypespaces*, y compris les astérisques. La commande complète est : set-organizationconfig - ewsallowlist *skypespaces*<br/> Pour plus d’informations :https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
+|Les utilisateurs ne peuvent pas accéder aux réunions/connecteurs, mais les boîtes aux lettres Exchange Online. <br/> |Client activement bloque EWS à partir des services dans Exchange Online, mais doit être MS Teams conforme au sein de stratégies EWS. <br/> |Pour rendre MS Teams conforme, vous devez ajouter la chaîne d’Agent utilisateur pour Teams MS au sein de la EWSAllowList : `*skypespaces*`, y compris les astérisques. La commande complète est la suivante :`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Pour plus d’informations :https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -235,5 +235,5 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|  
-|Application de bureau équipes affichant l’écran blanc  <br/> | <br/> |Essayez de supprimer ou réinstaller les pilotes graphiques sur l’ordinateur, ou démarrer des équipes à partir d’une ligne de commande avec un indicateur de désactivation de processeur :<ul><li>Pour Windows : Ouvrez l’invite de commandes et entrez la commande suivante : cd %localappdata%\microsoft\teams\current exécuter Teams.exe--disable-processeur</li><li>Pour Mac : Démarrer Terminal et entrez la commande suivante : cd \Applications dossier Microsoft\ Teams.app/Contents/MacOS/Teams--disable-processeur</li></ul> <br/> |<br/> |
+|Application de bureau équipes affichant l’écran blanc  <br/> | <br/> |Essayez de supprimer ou réinstaller les pilotes graphiques sur l’ordinateur, ou démarrer des équipes à partir d’une ligne de commande avec un indicateur de désactivation de processeur :<ul><li>Pour Windows : Ouvrez l’invite de commandes et entrez les informations suivantes :`cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>Pour Mac : Démarrer Terminal et entrez la commande suivante :`cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 

@@ -12,12 +12,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a10056c201ad5adb1192f599106c533571507ef
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: a7d30f5516ba0b44bc5ff854fcc9f5482fdf24c2
+ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21597544"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21779510"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gérer l'accès des utilisateurs à Microsoft Teams
 =====================================
@@ -31,7 +31,7 @@ Actuellement, il n’existe aucune option de stratégie pour activer des équipe
 > [!NOTE]
 >Microsoft recommande que vous allumez équipes pour tous les utilisateurs d’une entreprise afin que les équipes peuvent être créées selon pour les projets et autres initiatives dynamiques. Même si vous décidez au pilote, il peut toujours être utile de conserver les équipes activés pour tous les utilisateurs, mais uniquement cibler communications dans le groupe pilote d’utilisateurs.
 
-## <a name="manage-directly-through-the-office-365-admin-center"></a>Gérer directement via le centre d’administration Office 365
+## <a name="manage-teams-through-the-office-365-admin-center"></a>Gérer les équipes via le centre d’administration Office 365
 
 Licences d’équipes au niveau utilisateur sont gérés directement via les interfaces de gestion Office 365 admin center utilisateur. Un administrateur peut affecter des licences pour les nouveaux utilisateurs lors de la création de nouveaux comptes d’utilisateurs ou aux utilisateurs disposant de comptes existants. L’administrateur doit disposer de privilèges d’administrateur Global de Office 365 ou administrateur de gestion des utilisateurs pour gérer les licences Microsoft Teams.
 
@@ -66,19 +66,6 @@ Pour désactiver les équipes pour tous les utilisateurs disposant d’une licen
 |![Icône Point de décision.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Point de décision         |<ul><li>Quel est le plan de votre organisation pour l’intégration des équipes au sein de l’organisation ?  (Pilote ou ouvrir)</li></ul>         |
 |![Icône Étapes suivantes.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Étapes suivantes         |<ul><li>Si l'intégration est effectuée via un projet pilote fermé, choisissez entre l'affectation de licence ou une communication ciblée.</li><li>Selon la décision, procédez comme suit pour vous assurer que pilote uniquement les utilisateurs autorisés à accéder aux équipes (le cas échéant).</li><li>Les instructions pour les utilisateurs qui seront (ou pourront) de documents ont accès aux équipes.</li></ul>         |
 
-## <a name="manage-via-office-sku-level-switch"></a>Gérer via le commutateur au niveau de Sku Office
+## <a name="manage-teams-at-the-office-365-tenant-level"></a>Gérer les équipes au niveau client Office 365
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
-1.  Connectez-vous au [Centre d'administration Office 365](https://go.microsoft.com/fwlink/?linkid=854614) avec un compte disposant de privilèges d'administrateur général.
-
-2.  Accédez à **Paramètres** > **Services et compléments**.
-
-    ![Capture d'écran de la section Paramètres dans le Centre d'administration Office 365 avec Services et compléments sélectionné. ](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
-
-3.  Sur la plage Services et compléments, cliquez sur **Microsoft Teams**.
-
-    ![Capture d'écran de la plage Services et compléments avec Microsoft Teams sélectionné.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
-
-4.  Pour activer Teams pour l'organisation, utilisez l'outil de sélection de licences et sélectionnez toutes les licences. Ensuite, définissez l'option sur **Activé** et cliquez sur **Enregistrer**.
-
-    ![Captures d'écran de la page de paramètres Microsoft Teams affichant la bascule sur Activé pour activer Microsoft Teams.](media/Services-and-addins-control-Microsoft-Teams.PNG)
