@@ -1,5 +1,5 @@
 ---
-title: Diagnose connection problems with the Skype for Business Online Connector
+title: Diagnostiquer des problèmes de connexion avec le connecteur Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,134 +15,135 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 0a5742c3e5c5681c9433d59b6a7464c8021ddc57
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Résoudre les problèmes de création d’une session PowerShell distante pour se connecter à Skype pour Business Online, notamment Import-Module, shell simultané, Live ID et les erreurs d’autorisation.
+ms.openlocfilehash: 296b6fc4c4b6f0ffbabb1dacf7f7ac4ad1f05f13
+ms.sourcegitcommit: 978d01431a1c6ac3f5a4390cb900491445e32c15
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 08/04/2018
+ms.locfileid: "21855091"
 ---
-# <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnose connection problems with the Skype for Business Online Connector
+# <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostiquer des problèmes de connexion avec le connecteur Skype Entreprise Online
 
-This topic provides information that will help you diagnose and resolve problems that can occur when you try to create a remote Microsoft PowerShell session that connects to Skype for Business Online. See the following sections:
+Cette rubrique fournit des informations qui vous aideront à diagnostiquer et résoudre les problèmes qui peuvent se produire lorsque vous essayez de créer une session Microsoft PowerShell à distance qui se connecte à Skype pour Business Online. Consultez les sections suivantes :
   
-- [Import-Module error caused by Windows PowerShell execution policy](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKPowerShellExecutionPolicy)
+- [Erreur de Import-Module provoquée par la stratégie d’exécution Windows PowerShell](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKPowerShellExecutionPolicy)
     
-- [Import-Module Error caused by incorrect version of Windows PowerShell](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKIncorrectVersion)
+- [Erreur Import-Module provoqué par une version incorrecte de Windows PowerShell](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKIncorrectVersion)
     
-- [Failed to connect to Live ID Server](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedConnect)
+- [Impossible de se connecter à Live ID serveur](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedConnect)
     
-- [Failed to load Live ID module](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedLoad)
+- [Impossible de charger le module Live ID](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedLoad)
     
-- [Logon failed for the user](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKLogonFailed)
+- [Ouverture de session a échoué pour l’utilisateur](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKLogonFailed)
     
-- [The user does not have permission to manage this tenant](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKUserPermission)
+- [L’utilisateur n’est pas autorisé à gérer ce client](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKUserPermission)
     
-- [Ability to connect to tenant has been disabled in Skype for Business Online](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
+- [Possibilité de se connecter au client a été désactivée dans Skype pour Business en ligne](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
     
-- [The maximum number of concurrent shells for this user in Skype for Business Online has been exceeded ](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsUser)
+- [Le nombre maximal de shells simultanés pour cet utilisateur dans Skype pour Business Online a été dépassé.](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsUser)
     
-- [The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded ](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
+- [Le nombre maximal de shells simultanés pour ce client dans Skype pour Business Online a été dépassé.](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
     
-## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Import-Module error caused by Windows PowerShell execution policy
+## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Erreur de Import-Module provoquée par la stratégie d’exécution Windows PowerShell
 <a name="BKMKPowerShellExecutionPolicy"> </a>
 
-The PowerShell execution policy helps to determine which configuration files can be loaded into the PowerShell console, and which scripts a user can run from that console. At a minimum, the Skype for Business Online Connector module cannot be imported unless the execution policy has been set to RemoteSigned. If it has not, then you will receive the following error message when you attempt to import the module:
+La stratégie d’exécution PowerShell permet de déterminer les fichiers de configuration peuvent être chargées dans la console PowerShell et les scripts d’un utilisateur peut exécuter à partir de la console. Au minimum, le Skype pour le module Business Connector en ligne ne peut pas être importé, sauf si la stratégie d’exécution RemoteSigned a été définie. Si ce n’est pas le cas, vous recevez le message d’erreur suivant lorsque vous essayez d’importer le module :
   
-- **Error**: *Import-Module : File C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Modules\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170.*
+- **Erreur**: *Import-Module : c : fichier\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Modules\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 ne peut pas être chargé, car il est en cours d’exécution scripts est désactivé sur ce système. Pour plus d’informations, voir about_Execution_Policies à https://go.microsoft.com/fwlink/?LinkID=135170.*
 
-- **Resolution** To resolve this issue, start PowerShell as an administrator, and then run the following command:
+- **Résolution** Pour résoudre ce problème, démarrer PowerShell en tant qu’administrateur et exécutez la commande suivante :
     ```
     Set-ExecutionPolicy RemoteSigned
     ```
-    For details about execution policy, see [About Execution Policies](https://go.microsoft.com/fwlink/?LinkID=135170).
+    Pour plus d’informations sur la stratégie d’exécution, consultez la rubrique [Sur les stratégies d’exécution](https://go.microsoft.com/fwlink/?LinkID=135170).
   
-## <a name="import-module-error-caused-by-incorrect-version-of-windows-powershell"></a>Import-Module Error caused by incorrect version of Windows PowerShell
+## <a name="import-module-error-caused-by-incorrect-version-of-windows-powershell"></a>Erreur Import-Module provoqué par une version incorrecte de Windows PowerShell
 <a name="BKMKIncorrectVersion"> </a>
 
-The Skype for Business Online Connector module can be run only under Windows PowerShell 3.0. If you try to import the module under a previous version of PowerShell, the import process will fail with an error message similar to this:
+Le Skype pour le module Business Online Connector peut être exécutée que sous Windows PowerShell 3.0. Si vous essayez d’importer le module dans une version antérieure de PowerShell, le processus d’importation échouera avec un message d’erreur similaire à celle-ci :
   
-  - **Error**: *Import-Module : The version of the loaded PowerShell is '2.0'. The module 'D:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Modules\\LyncOnlineConnector\\LyncOnlineConnector.psd1' requires a minimum PowerShell version of '3.0' to execute. Please verify the installation of the PowerShell and try again.*
+  - **Erreur**: *Import-Module : la version de PowerShell chargé est « 2.0 ». Le module'd :\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Modules\\LyncOnlineConnector\\LyncOnlineConnector.psd1' nécessite une version minimale PowerShell « 3.0 ». Vérifiez l’installation de PowerShell et réessayez.*
 
-- **Resolution**: The only way to fix this problem is to install Windows PowerShell 3.0, which is available from the Microsoft Download Center at [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
+- **Résolution**: la seule façon de résoudre ce problème consiste à installer Windows PowerShell 3.0, qui est disponible à partir de la Center Download Microsoft à [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
   
-## <a name="failed-to-connect-to-live-id-server"></a>Failed to connect to Live ID Server
+## <a name="failed-to-connect-to-live-id-server"></a>Impossible de se connecter à Live ID serveur
 <a name="BKMKFailedConnect"> </a>
 
-There are typically three reasons why your connection attempt might fail with the following error message:
+Il existe généralement trois raisons pourquoi votre tentative de connexion peut échouer avec le message d’erreur suivant :
 
-  - **Error**: *Get-CsWebTicket : Failed to connect live id servers. Make sure proxy is enabled or machine has network connection to live id servers.*
+  - **Erreur**: *Get-CsWebTicket : Impossible de se connecter des serveurs Windows live id. Assurez-vous que proxy est activé ou ordinateur a connexion réseau à live serveurs id.*
 
-- **Resolution**: Often this error means that the Microsoft Online Services Sign-in Assistant is not running. You can verify the status of this service by running the following command from the PowerShell prompt: 
+- **Résolution**: souvent cette erreur signifie que l’Assistant de connexion Microsoft Online Services n’est pas en cours d’exécution. Vous pouvez vérifier l’état de ce service en exécutant la commande suivante à partir de l’invite de commandes PowerShell : 
     ```
     Get-Service "msoidsvc"
     ```
-    If the service is not running, start the service by using this command:
+    Si le service n’est pas en cours d’exécution, démarrez le service à l’aide de cette commande :
     ```
     Start-Service "msoidsvc"
     ```
 
-    If the service is running, you might be encountering problems with the network connection between your computer and the Microsoft Live ID Authentication Server. To check this, open Internet Explorer and navigate to [https://login.microsoftonline.com/.](https://login.microsoftonline.com/.) Try logging on to Office 365 from there. If this fails, you are probably experiencing network connection issues.
+    Si le service est en cours d’exécution, vous pourrez rencontrer des problèmes avec la connexion réseau entre votre ordinateur et le serveur de l’authentification Microsoft Live ID. Pour vérifier cela, ouvrez Internet Explorer et accédez à [ https://login.microsoftonline.com/.](https://login.microsoftonline.com/.) Essayer de se connecter à Office 365 à partir de là. En cas d’échec, vous avez sans doute les problèmes de connexion réseau.
   
-    Less commonly, it is possible that the Connection URI for Microsoft Live ID Authentication Server has been configured to the wrong value. If you've already determined that the Sign-In Assistant is running and that you are not experiencing network connectivity issues, this might be the issue. In this case, contact Office 365 Support.
+    Moins fréquemment, il est possible que l’URI de connexion de Microsoft Live ID d’authentification du serveur a été configuré avec la valeur incorrecte. Si vous avez déjà déterminé que l’Assistant de connexion est en cours d’exécution et que vous rencontrez pas les problèmes de connectivité réseau, il peut être le problème. Dans ce cas, contactez le Support de Office 365.
   
-## <a name="failed-to-load-live-id-module"></a>Failed to load Live ID module
+## <a name="failed-to-load-live-id-module"></a>Impossible de charger le module Live ID
 <a name="BKMKFailedLoad"> </a>
 
-One of the prerequisites for using PowerShell to manage Skype for Business Online is to install the Microsoft Online Services Sign-in Assistant. If the Sign-in Assistant is not installed, you will receive the following error message when you try to establish a remote session with Skype for Business Online:
+Une des conditions requises pour l’utilisation de PowerShell pour gérer Skype pour Business Online consiste à installer l’Assistant de connexion Microsoft Online Services. Si l’Assistant de connexion n’est pas installé, vous recevrez le message d’erreur suivant lorsque vous essayez d’ouvrir une session à distance avec Skype pour Business Online :
 
-- **Error**: *Get-CsWebTicket : Can not load Live Id module. Make sure correct version of Live Id Sign-in assistant is installed.*
+- **Erreur**: *Get-CsWebTicket : module Live Id ne peut pas charger. Vérifiez adéquates version de Live Id assistant de connexion est installée.*
 
-- **Resolution**: The Microsoft Online Services Sign-in Assistant is available in the Microsoft Download Center at [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://www.microsoft.com/en-us/download/details.aspx?id=28177)
+- **Résolution**: Assistant de connexion des Services en ligne Microsoft est disponible dans le Center Download Microsoft à [Microsoft Online Services Assistant de connexion pour les professionnels de l’informatique RTW](https://www.microsoft.com/en-us/download/details.aspx?id=28177)
 
-## <a name="logon-failed-for-the-user"></a>Logon failed for the user
+## <a name="logon-failed-for-the-user"></a>Ouverture de session a échoué pour l’utilisateur
 <a name="BKMKLogonFailed"> </a>
 
-When you attempt to make a remote connection to Skype for Business Online, you must supply the user name and password of a valid Skype for Business Online user account. If you do not, logon will fail along with an error message similar to this:
+Lorsque vous essayez d’établir une connexion à Skype pour Business Online, vous devez fournir le nom d’utilisateur et le mot de passe d’un Skype Business en ligne compte d’utilisateur valide. Si vous le faites pas, ouverture de session échoue avec un message d’erreur similaire à celle-ci :
 
-- **Error**: *Get-CsWebTicket : Logon failed for the user 'kenmyer@litwareinc.com'. Please create a new PSCredential object, making sure that you have used the correct user name and password.*
+- **Erreur**: *Get-CsWebTicket : échec d’ouverture de session pour l’utilisateur 'kenmyer@litwareinc.com'. Créez un nouvel objet PSCredential, en veillant à ce que vous avez utilisé le nom d’utilisateur et le mot de passe.*
 
-- **Resolution**: If you think that you are using a valid user account and that you have the correct password, try logging on again. If that fails, use the same credentials and try to log on at [https://login.microsoftonline.com/](https://login.microsoftonline.com/). If you are unable to log on there, contact Office 365 Support. 
+- **Résolution**: Si vous pensez que vous utilisez un compte d’utilisateur valide et que vous avez le mot de passe, réessayez de vous connecter. En cas d’échec, utilisez les mêmes informations d’identification et essayez d’ouvrir une session sur [https://login.microsoftonline.com/](https://login.microsoftonline.com/). Si vous ne parvenez pas à se connecter il, contactez le support technique de Office 365. 
 
   
-## <a name="the-user-does-not-have-permission-to-manage-this-tenant"></a>The user does not have permission to manage this tenant
+## <a name="the-user-does-not-have-permission-to-manage-this-tenant"></a>L’utilisateur n’est pas autorisé à gérer ce client
 <a name="BKMKUserPermission"> </a>
 
-You cannot make a remote PowerShell connection toSkype for Business Online unless you are a member of the Tenant Administrators group. If you are not, your connection attempt will fail, and you'll receive the following error message:
+Impossible d’effectuer une toSkype de connexion à distance PowerShell pour l’entreprise en ligne, sauf si vous êtes membre du groupe Administrateurs de clients. Si vous n’êtes pas le cas, votre tentative de connexion échoue et vous recevez le message d’erreur suivant :
 
-- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The user 'user@foo.com' does not have permission to manage this tenant. Permissions can be granted by assigning the user to the appropriate RBAC role. For more information, see the [Remote Troubleshooting](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Erreur**: *New-PSSession : [admin.vdomain.com] traitement des données à partir du serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : l’utilisateur 'user@foo.com' n’est pas autorisé à gérer ce client. Autorisations peuvent être accordées en affectant l’utilisateur au rôle RBAC approprié. Pour plus d’informations, voir le [Dépannage à distance](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
-- **Resolution**: If you think that you are, or are supposed to be, a member of the Tenant Administrators group, you'll need to contact Office 365 Support.
+- **Résolution**: Si vous pensez que vous, ou sont censés être, un membre du groupe Administrateurs de clients, vous devez contacter le support technique de Office 365.
   
-## <a name="ability-to-connect-to-tenant-has-been-disabled-in-skype-for-business-online"></a>Ability to connect to tenant has been disabled in Skype for Business Online
+## <a name="ability-to-connect-to-tenant-has-been-disabled-in-skype-for-business-online"></a>Possibilité de se connecter au client a été désactivée dans Skype pour Business en ligne
 <a name="BKMKAbilityConnect"> </a>
 
-To use PowerShell to manage Skype for Business Online, the EnableRemotePowerShellAccess property of your tenant PowerShell policy must be set to  `True`. If it is not, your connection will fail, and you'll receive the following error message:
+Pour utiliser PowerShell pour gérer Skype pour Business en ligne, la propriété de EnableRemotePowerShellAccess de votre client PowerShell stratégie doit être définie `True`. S’il n’est pas le cas, la connexion échoue et vous recevez le message d’erreur suivant :
 
-- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The ability to connect to this tenant by using a remote PowerShell session has been disabled. Please contact Lync Help to check Tenant Powershell Policy of this tenant. For more information, see the [Remote Troubleshooting](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Erreur**: *New-PSSession : [admin.vdomain.com] traitement des données à partir du serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : la possibilité de se connecter à ce client à l’aide d’une session PowerShell distante a été désactivée. Contactez l’aide de Lync pour vérifier la stratégie de Powershell client de ce client. Pour plus d’informations, voir le [Dépannage à distance](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
-- **Resolution**: If you see this error message, you'll need to contact Office 365 Support and get remote PowerShell access enabled.
+- **Résolution**: Si vous voyez ce message d’erreur, vous devez contacter le support technique de Office 365 et d’accéder à distance PowerShell activé.
   
-## <a name="the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded"></a>The maximum number of concurrent shells for this user in Skype for Business Online has been exceeded
+## <a name="the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded"></a>Le nombre maximal de shells simultanés pour cet utilisateur dans Skype pour Business Online a été dépassé.
 <a name="BKMKMaxNumberShellsUser"> </a>
 
-Each administrator is allowed a maximum of three simultaneous remote connections to Skype for Business Online. If you have three remote PowerShell connections up and running, any attempt to make a fourth simultaneous connection will fail, with the following error message:
+Chaque administrateur est autorisé à un maximum de trois connexions à distance simultanées à Skype pour Business Online. Si vous avez trois sessions PowerShell distantes haut et en cours d’exécution, toute tentative d’effectuer une quatrième simultanées connexion échoue, avec le message d’erreur suivant :
 
-- **Error**: *New-PSSession : [admin.vdomain.com] Connecting to remote server admin.vdomain.com failed with the following error message : The WS-Management service cannot process the request. The maximum number of concurrent shells for this user has been exceeded. Close existing shells or raise the quota for this user. For more information, see the [Remote Troubleshooting](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **Erreur**: *New-PSSession : Échec de la connexion au serveur distant admin.vdomain.com [admin.vdomain.com] avec le message d’erreur suivant : service de la gestion des services Web ne peut pas traiter la demande. Le nombre maximal de shells simultanés pour cet utilisateur a été dépassé. Fermez les environnements existants ou augmenter le quota de cet utilisateur. Pour plus d’informations, voir le [dépannage à distance] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
-- **Resolution**: The only way to resolve this issue is to close one or more of the previous connections. When you are finished with a Skype for Business Online session, we recommend that you use the **Remove-PSSession** cmdlet to terminate the session. This will help you to prevent this issue.
+- **Résolution**: la seule façon de résoudre ce problème est de fermer une ou plusieurs des connexions précédentes. Lorsque vous avez terminé avec un Skype pour la session Business en ligne, nous vous recommandons d’utiliser l’applet de commande **Remove-PSSession** pour mettre fin à la session. Cela vous aidera à éviter ce problème.
   
-## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded
+## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>Le nombre maximal de shells simultanés pour ce client dans Skype pour Business Online a été dépassé.
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-Although each administrator is allowed to have as many as three simultaneous connections to a Skype for Business Online tenant, no single tenant is allowed to have more than nine simultaneous connections. For example, three administrators might each have three open sessions. If a fourth administrator tries to make a connection (resulting in a total of 10 simultaneous connections), this attempt will fail, with the following error message:
+Bien que chaque administrateur est autorisé à avoir jusqu'à trois connexions simultanées à un Skype pour client d’entreprise en ligne, sans un seul client est autorisé à avoir plus de 20 connexions simultanées. Par exemple, six administrateurs peuvent chacun avoir trois sessions ouvertes. Si un administrateur quatrième tente d’établir des connexions plus de 2 (soit un total de connexions simultanées 21), cette tentative échouera, avec le message d’erreur suivant :
   
-- **Error**: *New-PSSession : [admin.vdomain.com] Connecting to remote server admin.vdomain.com failed with the following error message : The WS-Management service cannot process the request. The maximum number of concurrent shells for this tenant has been exceeded. Close existing shells or raise the quota for this tenant. For more information, see the [Remote Troubleshooting](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **Erreur**: *New-PSSession : Échec de la connexion au serveur distant admin.vdomain.com [admin.vdomain.com] avec le message d’erreur suivant : service de la gestion des services Web ne peut pas traiter la demande. Le nombre maximal de shells simultanés pour ce client a été dépassé. Fermez les environnements existants ou augmenter le quota pour ce client. Pour plus d’informations, voir le [dépannage à distance] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
-- **Resolution**: The only way to resolve this issue is to close one or more of the previous connections. When you are finished with a Skype for Business Online session, we recommend that you use the **Remove-PSSession** cmdlet to terminate that session. This will help you to prevent this issue.  
+- **Résolution**: la seule façon de résoudre ce problème est de fermer une ou plusieurs des connexions précédentes. Lorsque vous avez terminé avec un Skype pour la session Business en ligne, nous vous recommandons d’utiliser l’applet de commande **Remove-PSSession** pour mettre fin à cette session. Cela vous aidera à éviter ce problème.  
  
 ## <a name="related-topics"></a>Rubriques connexes
-[Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Configurer votre ordinateur pour Skype pour la gestion en ligne à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
  
