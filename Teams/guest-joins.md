@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Obtenez une brève présentation générale de la manière dont un invité est invité à rejoindre une équipe dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa6efbf95d0f68b6871aa0693a6e6bf1062b9f84
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 8d8853e9b383d90ca2b030edd6f6a9f896a6bed7
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211051"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22100132"
 ---
 <a name="how-a-guest-joins-a-team"></a>Comment un invité rejoint une équipe
 ========================
@@ -33,7 +33,7 @@ Dans Microsoft Teams, le propriétaire d'une équipe peut ajouter et gérer des
 
 Voici comment un invité devient membre d'une équipe :
 
-- **Étape 1** Un propriétaire d'équipe ou un administrateur d'Office 365 [ajoute un invité à une équipe](https://support.office.com/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests).
+- **Étape 1** Un propriétaire d'équipe ou un administrateur d'Office 365 [ajoute un invité à une équipe](https://support.office.com/en-us/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
     
   
 - **Étape 2** L'administrateur d'Office 365 ou le propriétaire de l'équipe peut gérer les fonctionnalités requises pour l'invité. Par exemple, il peut l'autoriser à ajouter ou supprimer des canaux, ou désactiver son accès aux fichiers.

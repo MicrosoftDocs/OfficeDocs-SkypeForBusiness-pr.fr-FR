@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: c58f9c6fe4174f58f4c430fe121cd071a0b5b9a5
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: f12952944c85c77778a018de0f4f4b2bd39945b0
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19494011"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22101963"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtention de numéros de téléphone pour Skype Entreprise Online
 
@@ -55,7 +55,9 @@ Pour plus de détails sur les téléphones Yealink, reportez-vous à la page [Sk
 Pour plus d’informations sur les téléphones AudioCodes, voir [Skype pour les téléphones IP Business](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
-> Lync Phone Edition est pris en charge avec Skype Entreprise Online. Le support standard de plateforme LPE s’est terminée en avril/10/2014, avec prise en charge étendue jusqu'à avril/11/2023 pour s’aligner sur la politique de support de Lync Server 2013. Pour plus de détails sur le cycle de vie LPE, reportez-vous à la page [Politique de support Microsoft](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO). Les modèles CAP pour LPE ne sont pas pris en charge avec Skype Entreprise Online.
+> Lync Phone Edition est pris en charge avec Skype pour Business Online, mais pas avec Microsoft Teams. Le support standard de la plateforme LPE s’est terminée en avril/10/2014, avec prise en charge étendue jusqu'à avril/11/2023 pour s’aligner sur la politique de support de Lync Server 2013. Pour plus d’informations sur le cycle de vie LPE, voir [Politique de support Microsoft](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) . Les modèles CAP pour LPE ne sont pas pris en charge avec Skype Entreprise Online.
+>
+> Année, Office 365 ne prendra pas en charge toutes les versions d’antérieures à 1.2 TLS. Dans la mesure où le système d’exploitation sous-jacent de LPE ne prend pas en charge TLS 1.2, LPE ne sera pas prise en charge pour se connecter à Office 365 plus. Pour plus d’informations, consultez [préparation l’utilisation obligatoire de TLS 1.2 dans Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) .
   
 ## <a name="supported-firmware"></a>Microprogramme pris en charge
 
@@ -116,7 +118,7 @@ Pour obtenir des instructions de configuration détaillées, consultez la page [
 ## <a name="related-topics"></a>Rubriques connexes
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 
-[Voici les avantages du système téléphonique dans Office 365](../here-s-what-you-get-with-phone-system.md)
+[Voici les avantages du système téléphonique dans Office 365](../here-s-what-you-get-with-phone-system.md)
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
