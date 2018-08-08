@@ -1,9 +1,8 @@
 ---
-title: Planification de la prise d’appel de groupe dans Skype Entreprise 2015
+title: Planification de groupe ou d’appel dans Skype entreprise
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planification de groupe d’appel collecte dans Skype pour Business Server Enterprise Voice, qui permet aux utilisateurs répondre aux appels originellement prévues pour d’autres personnes.
-ms.openlocfilehash: 6a2fde93d6fcbfa4e2b382f3512d65a8d986a8ba
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 17c3d453fa54ea72c02c022d33b0b2f1c61e8b0b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016197"
 ---
-# <a name="plan-for-group-call-pickup-in-skype-for-business-2015"></a>Planification de la prise d’appel de groupe dans Skype Entreprise 2015
+# <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Planification de groupe ou d’appel dans Skype entreprise
  
 Planification de groupe d’appel collecte dans Skype pour Business Server Enterprise Voice, qui permet aux utilisateurs répondre aux appels originellement prévues pour d’autres personnes.
   
@@ -115,7 +115,7 @@ Le tableau suivant décrit le modèle utilisateur collecte d’appel de groupe q
   
 **Modèle utilisateur collecte de groupe d’appel**
 
-|**Mesure**|**Par pool frontal <br/> (avec 8 serveurs frontaux)**|**Par serveur Standard Edition server**|
+|**Mesure**|**Par pool frontal <br/> (avec 8 serveurs frontaux)**|**Par serveur Standard Edition**|
 |:-----|:-----|:-----|
 |Nombre recommandé d’utilisateurs par groupe  <br/> |50  <br/> |50  <br/> |
 |Nombre recommandé de groupes  <br/> |500  <br/> |60  <br/> |

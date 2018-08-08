@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Résoudre les problèmes de votre déploiement en nuage connecteur Edition.
-ms.openlocfilehash: 41d2d43c5b47c3c0774cbdf6a29304d8c86132dc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 82fcc8e45e231617b5804c9caac4c8adc638457b
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569669"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246469"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Identification et résolution des problèmes de votre déploiement Cloud Connector
  
@@ -85,7 +85,7 @@ Voici des solutions aux problèmes couramment rencontrés :
 
 - 
     
-    **Problème : Une fois que le serveur Active Directory et la forêt sont installés, le serveur CMS et/ou le serveur de médiation ne pas joindre le domaine correctement.**
+    **Problème : après l'installation du serveur et de la forêt Active Directory, le serveur CMS et/ou le serveur de médiation n'ont pas correctement rejoint le domaine.**
     
     **Résolution :** Pour résoudre ce problème, procédez comme suit :
     
@@ -118,7 +118,7 @@ Voici des solutions aux problèmes couramment rencontrés :
     
     **Problème : le serveur hôte a redémarré à l’application des mises à jour de Windows, et les appels qu’il gérait échouent.**
     
-    **Résolution :** Si vous avez déployé un environnement de haute disponibilité, Microsoft propose une applet de commande qui permettent de déplacer un ordinateur hôte (instance de déploiement) vers ou depuis la topologie actuelle lorsque vous vérifiez et installez manuellement les mises à jour de Windows. Pour cela, veuillez suivre les étapes suivantes :
+    **Résolution :** Si vous avez déployé un environnement de haute disponibilité, Microsoft fournit – quand vous vérifiez et installez les mises à jour de Windows manuellement – une applet de commande pour vous aider à déplacer un ordinateur hôte (instance de déploiement) vers ou en dehors de la topologie actuelle. Pour cela, veuillez suivre les étapes suivantes :
     
 1. Sur le serveur hôte, démarrez une console PowerShell en tant qu’administrateur, puis exécutez :
     
@@ -274,7 +274,7 @@ Voici des solutions aux problèmes couramment rencontrés :
     
     **Résolution :** Toutes les informations d’identification sur le nuage connecteur sont stockées dans le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ». Lorsque le mot de passe sur le serveur hôte change, vous devrez mettre à jour les informations d’identification stockées localement.
     
-    **Si vous exécutez nuage connecteur version 1.4.2,** régénérez tous les mots de passe dans le nuage connecteur en suivant ces étapes :
+    **Si vous exécutez la version 1.4.2 de Cloud Connector,** renouvelez tous les mots de passe Cloud Connector en suivant les étapes suivantes :
     
     1. redémarrez le serveur hôte.
     
@@ -317,7 +317,13 @@ Voici des solutions aux problèmes couramment rencontrés :
 - **Problème : Avec le nuage connecteur version 2.1 et version ultérieure, lors de l’exécution Register-CcAppliance ou autres applets de commande sur le matériel, vous recevez un message d’erreur tel : » pour chaque objet : la propriété « Commune » est introuvable sur cet objet. Vérifiez que la propriété existe. À C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 caractère : 14 »**
     
     **Résolution :** Nuage connecteur 2.1 et version ultérieure requiert .NET Framework 4.6.1 ou version ultérieure. Veuillez mettre à jour .NET Framework sur l’application vers la version 4.6.1 ou version ultérieure et réexécutez le cmdlet(s).
-    
+
+- **Problème : Nuage connecteur Edition 2.1, lorsque vous exécutez Install-CcAppliance, vous recevez un message d’erreur tel que : « Impossible d’installer la nouvelle instance avec l’erreur : Impossible de définir « État » car seules les chaînes peuvent être utilisés en tant que valeurs pour définir les propriétés XmlNode »**
+
+   **Résolution :** Dans Cloudconnector.ini, sous la section [courantes], ajoutez la configuration de « État » comme indiqué ci-dessous : CountryCode = US State = WA ville = Redmond
+
+   Il n’est pas obligatoire pour la ligne « État » à la valeur, mais la ligne « État » ne peut pas être supprimée à partir du fichier Cloudconnector.ini.
+
 - **Problème : Vous recevez le message d’erreur « Dismount-WindowsImage : Dismount-WindowsImage a échoué. Code d’erreur = 0xc1550115 » lors de l’installation ou mise à niveau dans le nuage connecteur Edition.**
     
     **Résolution :** Lancer une console PowerShell en tant qu’administrateur, exécutez « DISM-Cleanup-Wim' ». Cela nettoie toutes les images défectueux. Réexécutez Install-CcAppliance ou attendez que les fichiers binaires mettre à niveau automatiquement.

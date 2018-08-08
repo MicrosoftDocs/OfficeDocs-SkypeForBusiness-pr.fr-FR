@@ -1,9 +1,8 @@
 ---
-title: Planification du routage géodépendant dans Skype Entreprise 2015
+title: Planifier le routage par emplacement dans Skype pour les entreprises
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/7/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planification du routage par emplacement dans Skype pour Business Server Enterprise Voice, y compris l’interaction avec sonnerie simultanée et la délégation et les scénarios pris en charge pour le routage basé sur l’emplacement.
-ms.openlocfilehash: 224bae32037ea474dc376e653db5b3d644c859ee
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 80f77db43b62629f31d1481fdd5653ba18d96d10
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967303"
 ---
-# <a name="plan-for-location-based-routing-in-skype-for-business-2015"></a>Planification du routage géodépendant dans Skype Entreprise 2015
+# <a name="plan-for-location-based-routing-in-skype-for-business"></a>Planifier le routage par emplacement dans Skype pour les entreprises
  
 Planification du routage par emplacement dans Skype pour Business Server Enterprise Voice, y compris l’interaction avec sonnerie simultanée et la délégation et les scénarios pris en charge pour le routage basé sur l’emplacement.
   
@@ -82,9 +82,9 @@ Le routage géodépendant applique les règles générales suivantes lors du rou
 
 Le routage des appels sortants d’utilisateurs activés pour le routage basé sur l’emplacement est affecté par l’emplacement réseau du point de terminaison de l’utilisateur. Le tableau suivant illustre comment gÉodÉpendante routage a une incidence sur le routage des appels sortants en fonction de l’emplacement du point de terminaison de l’appelant. 
   
-**Appelant un appel sortant vers le réseau RTC**
+**Appelant passant un appel sortant vers le réseau téléphonique commuté (RTC)**
 
-||**Point de terminaison utilisateur situé dans un site réseau activé pour le routage basé sur l’emplacement**|**Point de terminaison utilisateur situé dans un site réseau inconnu ou non activés pour le routage basé sur l’emplacement**|
+||**Point de terminaison d’un utilisateur situé dans un site réseau pour lequel le routage géodépendant est activé**|**Point de terminaison de l’utilisateur situé dans un site réseau inconnu ou pour lequel le routage géodépendant n’est pas activé**|
 |:-----|:-----|:-----|
 |Autorisation des appels sortants  <br/> |Appel est autorisé en fonction de la stratégie de voix de l’utilisateur  <br/> |Appel est autorisé en fonction de la stratégie de voix de l’utilisateur  <br/> |
 |Routage de l’appel sortant  <br/> |L’appel est acheminé en fonction de la stratégie de routage voix du site réseau  <br/> |L’appel est acheminé en fonction de la stratégie de voix de l’utilisateur et uniquement par le biais de jonctions ne pas activées pour le routage basé sur l’emplacement (si disponible)  <br/> |
@@ -97,7 +97,7 @@ Le transfert des paramètres d’un utilisateur est activé pour le routage bas�
   
 Le tableau suivant illustre comment gÉodÉpendante routage a une incidence sur le routage des appels entrants en fonction de l’emplacement du point de terminaison de l’appelé. Le site de réseau de la passerelle PSTN est activé pour le routage basé sur l’emplacement, et uniquement le routage basé sur l’emplacement permet le routage des appels PSTN aux points de terminaison dans le même site réseau.
   
-**Appelé recevoir un appel entrant à partir de la passerelle PSTN**
+**Appelé recevant un appel entrant à partir de la passerelle RTC**
 
 ||**Point de terminaison de l’appelé situé dans le même site réseau comme passerelle PSTN**|**Point de terminaison de l’appelé que se trouvent ne pas dans le même site réseau comme passerelle PSTN**|**Point de terminaison de l’appelé situé dans un site réseau inconnu ou non activés pour le routage basé sur l’emplacement**|
 |:-----|:-----|:-----|:-----|
@@ -109,9 +109,9 @@ Lorsqu’un point de terminaison RTC est impliqué, en fonction de routage analy
   
 Le tableau suivant illustre le scénario d’un Skype pour l’utilisateur d’entreprise dans un appel avec un point de terminaison RTC et le Skype pour utilisateur professionnel transfère l’appel vers un autre Skype pour l’utilisateur d’entreprise. Selon l’emplacement du site réseau du point de terminaison du cessionnaire, routage basé sur l’emplacement affecte le routage du transfert d’appel ou transférer.
   
-**Passage d’appel transférer ou transférer**
+**Lancement du transfert ou du renvoi d’appel**
 
-|**Utilisateur à l’origine de l’appel de transfert/transférer**|**Point de terminaison cible se trouve dans le même site réseau en tant qu’utilisateur à l’origine de transfert d’appel ou le transfert**|**Point de terminaison cible est dans un site autre réseau en tant qu’utilisateur à l’origine de transfert d’appel ou le transfert**|**Point de terminaison cible est dans site réseau inconnue ou réseau pas activé pour le routage basé sur l’emplacement**|
+|**Utilisateur à l’origine du transfert/renvoi d’appel**|**Point de terminaison cible dans le même site réseau que l’utilisateur à l’origine du transfert ou du renvoi d’appel**|**Point de terminaison cible dans un autre site réseau que l’utilisateur à l’origine du transfert ou du renvoi d’appel**|**Point de terminaison cible est dans site réseau inconnue ou réseau pas activé pour le routage basé sur l’emplacement**|
 |:-----|:-----|:-----|:-----|
 |Skype pour utilisateur professionnel  <br/> |Le transfert ou renvoi de l’appel est autorisé  <br/> |Le transfert ou renvoi de l’appel n’est pas autorisé  <br/> |Le transfert ou renvoi de l’appel n’est pas autorisé  <br/> |
    
@@ -119,9 +119,9 @@ Par exemple : une Skype pour l’utilisateur d’entreprise dans un appel avec 
   
 Le tableau suivant illustre le scénario d’un Skype pour l’utilisateur d’entreprise dans un appel avec une autre Skype pour l’utilisateur d’entreprise et un des utilisateurs transfère l’appel vers un point de terminaison RTC. Selon l’emplacement de l’utilisateur, que l’appel est transféré vers les détails de la table comment routage basé sur l’emplacement affecte l’appel.
   
-**Transfert d’appel ou transférez au point de terminaison RTC**
+**Transfert ou renvoi de l’appel vers le point de terminaison RTC**
 
-|**Cible de point de terminaison de transfert/transférer des appels**|**Skype pour les utilisateurs professionnels dans le même site réseau**|**Skype pour les utilisateurs professionnels dans les sites de réseau**|**Un ou les deux Skype pour les utilisateurs professionnels dans site réseau inconnue ou réseau non activés pour le routage basé sur l’emplacement**|
+|**Point de terminaison cible du transfert/renvoi de l’appel**|**Skype pour les utilisateurs professionnels dans le même site réseau**|**Skype pour les utilisateurs professionnels dans les sites de réseau**|**Un ou les deux Skype pour les utilisateurs professionnels dans site réseau inconnue ou réseau non activés pour le routage basé sur l’emplacement**|
 |:-----|:-----|:-----|:-----|
 |Point de terminaison RTC  <br/> |Transfert d’appel ou transfert autorisé par la stratégie de routage voix site l’utilisateur transféré  <br/> |Transfert d’appel ou transfert autorisé par la stratégie de routage voix site l’utilisateur transféré  <br/> |Transfert d’appel ou transfert autorisé par la stratégie de voix de l’utilisateur transféré uniquement par le biais de jonctions pas activé pour le routage basé sur l’emplacement  <br/> |
    
@@ -135,7 +135,7 @@ Le tableau ci-dessous illustre un utilisateur pour lequel la sonnerie simultané
   
 ****
 
-|**Appel PSTN pour**|**Situé dans le même site de réseau que l’appelé**|**Situé dans un site autre réseau que l’appelé**|**Situé dans le site réseau inconnu ou non activés pour le routage basé sur l’emplacement**|
+|**Appel RTC entrant pour**|**Situé dans le même site réseau que l’appelé**|**Situé dans un autre site réseau que l’appelé**|**Situé dans le site réseau inconnu ou non activés pour le routage basé sur l’emplacement**|
 |:-----|:-----|:-----|:-----|
 |Skype pour utilisateur professionnel  <br/> |Sonnerie simultanée autorisée  <br/> |Sonnerie simultanée non autorisée  <br/> |Sonnerie simultanée non autorisée  <br/> |
    
@@ -143,7 +143,7 @@ Le tableau suivant illustre un appel à partir d’un Skype pour l’utilisateur
   
 ****
 
-|**Cible de la sonnerie simultanée**|**Situé dans le même site de réseau que l’appelé**|**Situé dans un site autre réseau que l’appelé**|**Situé dans le site réseau inconnu ou non activés pour le routage basé sur l’emplacement**|
+|**Cible de la sonnerie simultanée**|**Situé dans le même site réseau que l’appelé**|**Situé dans un autre site réseau que l’appelé**|**Situé dans le site réseau inconnu ou non activés pour le routage basé sur l’emplacement**|
 |:-----|:-----|:-----|:-----|
 |Point de terminaison RTC  <br/> |Sonnerie simultanée autorisée par le biais de stratégie de routage voix site l’appelant  <br/> |Sonnerie simultanée autorisée par le biais de stratégie de routage voix site l’appelant  <br/> |Sonnerie simultanée autorisée par le biais de stratégie de voix de l’appelant à jonctions ne pas activé pour le routage basé sur l’emplacement  <br/> |
    

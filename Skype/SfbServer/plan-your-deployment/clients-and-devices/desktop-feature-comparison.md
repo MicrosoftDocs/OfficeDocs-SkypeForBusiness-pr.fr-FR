@@ -1,5 +1,5 @@
 ---
-title: Comparaison des fonctionnalités des clients de bureau pour Skype Entreprise
+title: Comparaison des fonctionnalités client de bureau pour Skype pour Business Server 2015
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,19 +14,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : Skype pour Business Server 2015 ou Skype pour les administrateurs d’entreprise en ligne peut utiliser ces tables pour comprendre les fonctionnalités sont prises en charge sur les clients.'
-ms.openlocfilehash: 867586ffd901baf4bc0c9dfe7fe880811cf4042d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2a65dcf1825bac80cc002962ce589e851ea2d3b3
+ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21223923"
 ---
-# <a name="desktop-client-feature-comparison-for-skype-for-business"></a>Comparaison des fonctionnalités des clients de bureau pour Skype Entreprise
+# <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparaison des fonctionnalités client de bureau pour Skype pour Business Server 2015
  
 **Résumé :** Skype pour Business Server 2015 ou Skype pour les administrateurs d’entreprise en ligne peut utiliser ces tables pour comprendre les fonctionnalités sont prises en charge sur les clients.
   
  Avant de déployer ou mettre à niveau vers Skype pour les entreprises, vérifiez que les clients qui sont déjà en cours d’utilisation dans votre organisation. Pour comprendre l’impact de la prise en charge des fonctionnalités sur les clients, utilisez les tableaux ci-dessous. Cela peut vous aider à communiquer les modifications aux utilisateurs, opérer le processus de déploiement et bien comprendre les avantages de la mise à niveau vers le dernier client.
   
 Certaines fonctionnalités disponibles avec Skype pour Business Server 2015 ne sont pas disponibles dans Skype pour Business Online, voir [limitations de compte d’utilisateur en ligne ou hybride](desktop-feature-comparison.md#Online-Hybrid) de détail. Vous souhaiterez Skype pour les administrateurs de l’entreprise en ligne faire référence à [Skype pour Business Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) pour plus d’informations sur les différents plans disponibles pour les.
+
+Voir [comparaison des fonctionnalités client de bureau pour Skype pour Business 2019](../../../SfBServer2019/plan/feature-comparison.md) pour client prise en charge sur Skype pour Business Server 2019.
   
 Les tableaux suivants répertorient les fonctionnalités disponibles avec chaque client qui fonctionne avec Skype pour Business Server 2015 ou Skype pour Business Online. Vous souhaiterez également pour Smartphone et tablette comparaison des fonctionnalités des clients, voir [comparaison des fonctionnalités de client Mobile pour Skype pour les entreprises](mobile-feature-comparison.md) . Les licences d’accès client ou USL (User Subscription License) qu’achète votre organisation auront également un impact sur les fonctionnalités auxquelles les utilisateurs ont accès. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Consultez le [Guide de gestion des licences](https://products.office.com/en-us/skype-for-business/it-pros) pour plus d’informations.
   
@@ -92,9 +95,9 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge de la messag
 |Enregistrer des conversations par messagerie instantanée dans Outlook  <br/> |& #x 2714 ;|& #x 2714 ; si l’historique des conversations de côté serveur sont activé  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||Enregistré dans Communicator pour Mac  <br/> |Enregistré dans Lync pour Mac  <br/> |
 |Utiliser des modèles de conversation existants  <br/> |||||& #x 2714 ;|& #x 2714 ;||||
 |Vérification de l'orthographe  <br/> |& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|||||& #x 2714 ;|
-|Recherche de compétences (avec l’intégration de SharePoint Server)  <br/> (On-premises Skype pour Business Server et sur site SharePoint 2013 sont requis pour la recherche de compétences).  <br/> |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||||
+|Recherche de compétences (avec l'intégration de SharePoint Server)   <br/> (On-premises Skype pour Business Server et sur site SharePoint 2013 sont requis pour la recherche de compétences).  <br/> |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||||
 |Intégration de la conversation permanente (Conversation de groupe)  <br/> (non disponible pour Skype pour Business Online)  <br/> |& #x 2714 ;||& #x 2714 ;|||||||
-|Transformer une salle de conversation permanente à un Skype pour une réunion d’affaires en un clic  <br/> (non disponible pour Skype pour Business Online)  <br/> |& #x 2714 ;||& #x 2714 ;|||||||
+|Transformer une salle de conversation permanente en réunion Skype Entreprise d'un simple clic   <br/> (non disponible pour Skype pour Business Online)  <br/> |& #x 2714 ;||& #x 2714 ;|||||||
 |Images intégrées de l'expéditeur et du destinataire dans la fenêtre de messagerie instantanée  <br/> |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;||||||
 |Envoyer des messages manuscrits  <br/> ||||& #x 2714 ;||||||
 |Recevoir des messages manuscrits  <br/> |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;||||||
@@ -222,6 +225,7 @@ Authentification moderne requiert également une topologie décrite dans [Skype 
 |Authentification moderne  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||||||
 |Authentification multifacteur  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||||||
 |Authentification avec certificat  <br/> |& #x 2714 ; (périphérique à un domaine uniquement)  <br/> |& #x 2714 ;|& #x 2714 ; (périphérique à un domaine uniquement)  <br/> |||||||
+|Authentification Kerberos  <br/> |& #x 2714 ;||& #x 2714 ;|||||||
    
 ## <a name="archiving-compliance-and-logging-support"></a>Prise en charge de l'archivage, de la conformité et de la journalisation
 <a name="BKMK_Archiving"> </a>
@@ -282,5 +286,6 @@ Les comptes d’utilisateur peuvent exister en ligne ou dans les locaux, ce qui 
 ## <a name="see-also"></a>Voir aussi
 <a name="Types"> </a>
 
-[Planifier les clients et périphériques](clients-and-devices.md)
+[Planifier des clients et des appareils](clients-and-devices.md)
 
+[Dernières mises à jour pour les versions de Skype pour les entreprises qui utilisent Windows Installer (MSI)](../../sfb-client-updates.md)

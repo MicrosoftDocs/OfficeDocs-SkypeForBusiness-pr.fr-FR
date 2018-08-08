@@ -13,14 +13,15 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: 'Résumé : Plan de rubriques relatives à la configuration requise en matière de réseau ou l’infrastructure de Skype pour Business Server 2015. Si vous avez besoin installer ou configurer tout comme condition préalable à l’installation et déploiement de Skype pour Business Server 2015, il sera ici.'
-ms.openlocfilehash: c3ad031a79d7a880036da5fb5eed1ad938505747
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : découvrez les rubriques sur la configuration requise et les conditions requises pour le réseau ou l’infrastructure pour Skype Entreprise Server 2015. Si vous devez installer ou configurer quoi que ce soit en tant que condition requise pour l’installation et le déploiement de Skype Entreprise Server 2015, cela se fera ici.'
+ms.openlocfilehash: 98729469459f451727f2285c64dcff3a7fe15f9e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000454"
 ---
-# <a name="requirements-for-your-skype-for-business-environment"></a>Conditions préalables pour votre environnement Skype Entreprise Server 2015
+# <a name="requirements-for-your-skype-for-business-2015-environment"></a>Configuration requise pour votre Skype pour environnement Business 2015
  
 **Résumé :** découvrez les rubriques sur la configuration requise et les conditions requises pour le réseau ou l’infrastructure pour Skype Entreprise Server 2015. Si vous devez installer ou configurer quoi que ce soit en tant que condition requise pour l’installation et le déploiement de Skype Entreprise Server 2015, cela se fera ici.
   

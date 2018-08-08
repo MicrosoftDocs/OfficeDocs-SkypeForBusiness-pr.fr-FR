@@ -1,9 +1,8 @@
 ---
-title: Configuration de la base de données d’emplacements dans Skype Entreprise Server 2015
+title: Configurer la base de données d’emplacement dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,32 +13,32 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configurer, remplir et publier la base de données emplacement E9-1-1 dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: f07eafbbbfcbb62c7176e35faba48e0d1281ce39
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: bbeb695cea58feae073e5579eacbe3558d632735
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568330"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018874"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server-2015"></a>Configuration de la base de données d’emplacements dans Skype Entreprise Server 2015
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurer la base de données d’emplacement dans Skype pour Business Server
  
 Configurer, remplir et publier la base de données emplacement E9-1-1 dans Skype pour Business Server Enterprise Voice. 
   
 Pour permettre aux clients de détecter automatiquement leur emplacement au sein d’un réseau, vous devez d’abord configurer la base de données d’emplacements. 
   
-Pour configurer la base de données d’emplacement, effectuez les tâches suivantes :
+Pour configurer la base de données d’emplacements, effectuez les tâches suivantes :
   
 - Remplissez la base de données avec une correspondance des éléments réseau avec les emplacements. Si vous utilisez une passerelle d’urgence ELIN Location Identification Number (), vous devez inclure le ELIN dans les \<CompanyName\> champ.
     
     Si vous ne remplissez pas la base de données d’emplacements et que **Lieu obligatoire** dans la stratégie d’emplacement est défini sur **Oui** ou sur **Clause d’exclusion de responsabilité**, le client invitera l’utilisateur à entrer manuellement un emplacement.
     
-- Valider les adresses par rapport au guide rue maître (MSAG) qui est gérée par le fournisseur de services E9-1-1.
+- Validez les adresses par rapport à la base de données MSAG gérée par le fournisseur de service E9-1-1.
     
 - Publiez la base de données mise à jour.
     
 ## <a name="populate-the-location-database"></a>Remplissage de la base de données d’emplacements
 
-Pour rechercher automatiquement les clients au sein d’un réseau, vous devez tout d’abord remplir la base de données d’emplacement avec un schéma de câblage réseau, qui mappe des éléments réseau à civiles (autrement dit, rue) adresses. Vous pouvez utiliser des sous-réseaux, des points d’accès sans fil, des commutateurs et des ports pour définir le schéma de collage.
+Pour localiser automatiquement des clients sur un réseau, vous devez tout d’abord remplir la base de données d’emplacements avec un schéma de collage réseau, qui mappe les éléments du réseau à des adresses civiles (c’est à dire, les rues). Vous pouvez utiliser des sous-réseaux, des points d’accès sans fil, des commutateurs et des ports pour définir le schéma de collage.
   
 Vous pouvez ajouter des adresses à la base de données d’emplacements individuellement ou par lot en utilisant un fichier CSV contenant les formats de colonne décrits dans le tableau suivant.
   

@@ -1,9 +1,8 @@
 ---
-title: Afficher des enregistrements d’utilisation RTC dans Skype Entreprise 2015
+title: Afficher les enregistrements d’utilisation PSTN dans Skype pour les entreprises
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 'Résumé : Découvrez comment afficher les enregistrements d’utilisation PSTN à l’aide de la Skype pour le panneau de configuration serveur Business ou le Skype pour Business Server Management Shell.'
-ms.openlocfilehash: 3d7682be31bdd8afc3a4700943789f555d3a3944
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: c5775f619c1da1e94ff6aad0b4794e686611ab92
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568220"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967142"
 ---
-# <a name="view-pstn-usage-records-in-skype-for-business-2015"></a>Afficher des enregistrements d’utilisation RTC dans Skype Entreprise 2015
+# <a name="view-pstn-usage-records-in-skype-for-business"></a>Afficher les enregistrements d’utilisation PSTN dans Skype pour les entreprises
  
 **Résumé :** Découvrez comment afficher les enregistrements d’utilisation PSTN à l’aide de la Skype pour le panneau de configuration serveur Business ou le Skype pour Business Server Management Shell.
   
@@ -55,4 +54,5 @@ Un enregistrement d’utilisation du réseau téléphonique commuté (RTC) spéc
 
 ## <a name="see-also"></a>Voir aussi
 
-[Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour Business 2015](voice-policy-and-pstn-usage-records.md)
+[Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour les entreprises](voice-policy-and-pstn-usage-records.md)
+

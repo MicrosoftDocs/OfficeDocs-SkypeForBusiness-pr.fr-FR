@@ -1,5 +1,5 @@
 ---
-title: Installation de Skype Entreprise Server 2015 sur des serveurs de la topologie
+title: Installation de Skype Entreprise Server sur des serveurs de la topologie
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
-description: 'Résumé : Découvrez comment installer le Skype pour les composants du système métier Server 2015 sur chaque serveur de la topologie. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 810e08cc6844f29d12536f89f3b877e7a2be8bce
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Découvrez comment installer le Skype pour les composants du système Business Server sur chaque serveur de la topologie. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: 41fbe8db0d279d9cace577e1977c093fd794693b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20994704"
 ---
-# <a name="install-skype-for-business-server-2015-on-servers-in-the-topology"></a>Installation de Skype Entreprise Server 2015 sur des serveurs de la topologie
+# <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Installation de Skype Entreprise Server sur des serveurs de la topologie
  
-**Résumé :** Découvrez comment installer le Skype pour les composants du système métier Server 2015 sur chaque serveur de la topologie. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 à partir du [Centre d’évaluation de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Résumé :** Découvrez comment installer le Skype pour les composants du système Business Server sur chaque serveur de la topologie. Téléchargez une version d’évaluation gratuite de Skype pour Business Server à partir du [Centre d’évaluation de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Une fois la topologie est chargée dans le magasin Central de gestion et Active Directory ne connaît les serveurs qui exécutera les rôles, vous devez installer le Skype pour système Business Server sur chacun des serveurs dans la topologie. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez exécuter les étapes 6, 7 et 8 dans l’ordre, et après les étapes 1 à 5 comme indiqué sur le diagramme. L’installation de la Skype pour système Business Server est l’étape 7 de 8.
   
@@ -54,13 +55,13 @@ Une fois que vous avez publié une topologie, vous pouvez installer le Skype pou
   
 ### <a name="install-skype-for-business-server-system"></a>Installez Skype pour Business Server
 
-1. Insérez le Skype pour le support d’installation Business Server 2015. Si l’installation ne démarre pas automatiquement, double-cliquez sur **Installation (Setup)**.
+1. Insérez le Skype pour le support d’installation Business Server. Si l’installation ne démarre pas automatiquement, double-cliquez sur **Installation (Setup)**.
     
 2. Le support d’installation nécessite Microsoft Visual C++ pour s’exécuter. Une boîte de dialogue apparaît pour demander si vous voulez l’installer. Cliquez sur **Oui.**
     
 3. Passez en revue le Contrat de Licence Utilisateur Final et si vous êtes d’accord, sélectionnez **J’accepte les termes du contrat de licence**, puis cliquez sur **OK**. 
     
-4. Le programme d’installation active est une fonctionnalité de Skype pour Business Server 2015 où vous pouvez vous connecter à Internet pour vérifier les mises à jour à partir de Microsoft Update (MU) pendant le processus d’installation, comme indiqué dans la figure. Cela permet une meilleure expérience en vous assurant de disposer des dernières mises à jour pour le produit. Cliquez sur **Installer** pour commencer l’installation.
+4. Le programme d’installation active est une fonctionnalité de Skype pour Business Server où vous pouvez vous connecter à Internet pour vérifier les mises à jour à partir de Microsoft Update (MU) pendant le processus d’installation, comme indiqué dans la figure. Cela permet une meilleure expérience en vous assurant de disposer des dernières mises à jour pour le produit. Cliquez sur **Installer** pour commencer l’installation.
     
     > [!NOTE]
     > De nombreuses organisations disposent de Windows Server Update Services (WSUS) déployé dans leurs environnements d’entreprise. WSUS permet aux administrateurs de gérer entièrement la distribution des mises à jour publiées via Microsoft Update sur les ordinateurs de leur réseau. Dans le cadre de la mise à jour Cumulative 1 Skype pour Business Server introduit la prise en charge pour le programme d’installation dynamique travailler avec WSUS. Les clients avec WSUS déploiement Skype pour Business Server pour la première fois ou mise à niveau à partir de l’environnement Lync Server 2013 à l’aide de la fonction In-Place Upgrade auront actives l’extraction des mises à jour Skype pour Windows WSUS au lieu de l’extraction des mises à jour du programme d’installation à partir de MU. Les clients qui souhaitent utiliser Smart Setup doivent exécuter les SmartSetupWithWSUS.psq sur toutes les machines avant d’exécuter Setup.exe. 
@@ -118,7 +119,7 @@ Une fois que vous avez publié une topologie, vous pouvez installer le Skype pou
     > [!IMPORTANT]
     > La sélection de l’algorithme de hachage et de signature dépend des clients et serveurs qui utiliseront le certificat, et des autres ordinateurs et appareils avec lesquels les clients et serveurs communiqueront, lesquels doivent également savoir comment utiliser les algorithmes définis dans le certificat. Pour plus d’informations sur le digest longueurs sont prises en charge dans le système d’exploitation et des applications clientes, voir [infrastructure à clé publique Windows blog - SHA2 et Windows](https://go.microsoft.com/fwlink/p/?LinkId=287002). 
   
-    Chaque serveur frontal ou Standard Edition nécessite jusqu’à quatre certificats : le certificat oAuthTokenIssuer, un certificat par défaut, un certificat interne web et un certificat externe web. Cependant, vous pouvez demander et attribuer un certificat par défaut unique contenant les entrées d’un autre nom du sujet appropriées ainsi que le certificat oAuthTokenIssuer. Pour plus d’informations sur les certificats requis, consultez [exigences pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
+    Chaque serveur frontal ou Standard Edition nécessite jusqu’à quatre certificats : le certificat oAuthTokenIssuer, un certificat par défaut, un certificat interne web et un certificat externe web. Cependant, vous pouvez demander et attribuer un certificat par défaut unique contenant les entrées d’un autre nom du sujet appropriées ainsi que le certificat oAuthTokenIssuer. Pour plus d’informations sur les certificats requis, consultez [exigences pour Skype pour Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou la [configuration serveur requise pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
     
     > [!IMPORTANT]
     > La procédure suivante décrit la configuration des certificats à partir d’une autorité de certification interne basée sur les services de certificats Active Directory. 

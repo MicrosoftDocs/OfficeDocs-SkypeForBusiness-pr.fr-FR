@@ -1,9 +1,8 @@
 ---
-title: Règles de conversion dans Skype Entreprise Server 2015
+title: Règles de traduction dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: En savoir plus sur les règles de traduction et de numérotation de normalisation de chaînes dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: c72e3909fdc0e4485683382b84a5d737fa75b8fc
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4ef5f92b8c5ef91abeb5ce2b6ea1e4c0eebe7580
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973185"
 ---
-# <a name="translation-rules-in-skype-for-business-server-2015"></a>Règles de conversion dans Skype Entreprise Server 2015
+# <a name="translation-rules-in-skype-for-business-server"></a>Règles de traduction dans Skype pour Business Server
  
 En savoir plus sur les règles de traduction et de numérotation de normalisation de chaînes dans Skype pour Business Server Enterprise Voice.
   

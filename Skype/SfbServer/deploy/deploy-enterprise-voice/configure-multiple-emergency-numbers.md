@@ -1,9 +1,8 @@
 ---
-title: Configuration de plusieurs numéros d'urgence dans Skype Entreprise 2015
+title: Configurer plusieurs numéros d’urgence dans Skype pour les entreprises
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 4/21/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,19 +11,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
-description: Pour savoir comment configurer plusieurs numéros d'urgence dans Skype Entreprise Server 2015, lisez cette rubrique.
-ms.openlocfilehash: 176233639a6ca935165e4640471377cc012db103
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: Lisez cette rubrique pour savoir comment configurer plusieurs numéros d’urgence dans Skype pour Business Server.
+ms.openlocfilehash: 01dc72e2d165ff3c4076aa4180768ca941607b93
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568234"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985422"
 ---
-# <a name="configure-multiple-emergency-numbers-in-skype-for-business-2015"></a>Configuration de plusieurs numéros d'urgence dans Skype Entreprise 2015
+# <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Configurer plusieurs numéros d’urgence dans Skype pour les entreprises
  
-Pour savoir comment configurer plusieurs numéros d'urgence dans Skype Entreprise Server 2015, lisez cette rubrique.
+Lisez cette rubrique pour savoir comment configurer plusieurs numéros d’urgence dans Skype pour Business Server.
   
-Skype pour Business Server prend désormais en charge plusieurs numéros d’urgence pour un client. Plusieurs numéros d’urgence sont une nouveauté dans le 2016 juin mise à jour Cumulative. Avant de configurer votre environnement pour prendre en charge plusieurs numéros d’urgence, veillez à lire [planifier plusieurs numéros d’urgence dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
+Skype pour Business Server prend désormais en charge plusieurs numéros d’urgence pour un client. Plusieurs numéros d’urgence sont une nouveauté dans le 2016 juin mise à jour Cumulative. Avant de configurer votre environnement pour prendre en charge plusieurs numéros d’urgence, veillez à lire [planifier plusieurs numéros d’urgence dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
   
 > [!NOTE]
 > Si vous n'avez pas encore mis à niveau vers la 2016 novembre mise à jour Cumulative, consultez [mises à jour Skype pour Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015). Mise à jour Cumulative, le nombre de numéros d’urgence de prise en charge avec la 2016 novembre augmente 5 à 100. 

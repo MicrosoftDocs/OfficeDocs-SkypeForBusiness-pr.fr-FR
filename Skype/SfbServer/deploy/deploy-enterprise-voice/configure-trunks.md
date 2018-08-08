@@ -1,9 +1,8 @@
 ---
-title: Configuration des jonctions dans Skype Entreprise Server 2015
+title: Configurer des jonctions Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
-description: 'Résumé : Découvrez comment configurer une jonction entre un serveur de médiation et des homologues pour Enterprise Voice dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 4944cac2b06d837facf0cf014fb3a4fd32343305
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Découvrez comment configurer une jonction entre un serveur de médiation et des homologues pour Enterprise Voice dans Skype pour Business Server.'
+ms.openlocfilehash: 7d40201cbf2305f464f66ead66ae3a8e7126ca03
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992391"
 ---
-# <a name="configure-trunks-in-skype-for-business-server-2015"></a>Configuration des jonctions dans Skype Entreprise Server 2015
+# <a name="configure-trunks-in-skype-for-business-server"></a>Configurer des jonctions Skype pour Business Server
  
-**Résumé :** Découvrez comment configurer une jonction entre un serveur de médiation et des homologues pour Enterprise Voice dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment configurer une jonction entre un serveur de médiation et des homologues pour Enterprise Voice dans Skype pour Business Server.
   
 Dans le cadre du déploiement d’Enterprise Voice, vous pouvez configurer une jonction entre un serveur de médiation et un ou plusieurs des homologues suivantes pour fournir un réseau téléphonique commuté (RTC) pour les clients Enterprise Voice et les périphériques de votre organisation :
   
@@ -32,7 +32,7 @@ Dans le cadre du déploiement d’Enterprise Voice, vous pouvez configurer une j
     
 - Autocommutateur privé (PBX)
     
-Pour plus d’informations, voir [planifier la connectivité PSTN dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
+Pour plus d’informations, voir [planifier la connectivité PSTN dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   
 Skype pour la fonctionnalité Business Server prend en charge plusieurs associations entre les passerelles et les serveurs de médiation. Ces associations sont effectuées en définissant une jonction, qui est une association entre un pool de serveurs de médiation et une passerelle réseau téléphonique commuté, contrôleur de Session en périphérie (SBC) ou IP-PBX logique. Utilisez le Générateur de topologies pour associer les passerelles avec les serveurs de médiation (c'est-à-dire, jonctions).
   

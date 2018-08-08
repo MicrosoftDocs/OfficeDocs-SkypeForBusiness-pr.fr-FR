@@ -1,9 +1,8 @@
 ---
-title: Planification de la résilience de Voix Entreprise dans Skype Entreprise Server 2015
+title: Planifier la résistance de voix entreprise dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Découvrez comment prendre en charge la résilience vocale Skype pour Business Server Enterprise Voice, au niveau de sites centraux et sites de succursale. Options de site de succursale incluent le déploiement Survivable Branch Appliances ou serveurs Survivable Branch Server.
-ms.openlocfilehash: f5497c31e407d5d03564ab7caf7a0b8c8d4e0914
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: fb3dadfc1dcb38508ec696e1f0c257638f6ec5a7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966649"
 ---
-# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>Planification de la résilience de Voix Entreprise dans Skype Entreprise Server 2015
+# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planifier la résistance de voix entreprise dans Skype pour Business Server
  
 Découvrez comment prendre en charge la résilience vocale Skype pour Business Server Enterprise Voice, au niveau de sites centraux et sites de succursale. Options de site de succursale incluent le déploiement Survivable Branch Appliances ou serveurs Survivable Branch Server.
   
@@ -207,7 +207,7 @@ Mettre en œuvre la résistance des sites de succursale pour votre organisation 
   
 Si vous décidez de mettre en œuvre la résistance pour les sites de succursale, vous disposez de trois options. Le tableau ci-dessous peut vous aider à déterminer l’option appropriée.
   
-|**Si vous...**|**Nous vous conseillons d’utiliser un …**|
+|**Si vous…**|**Nous vous recommandons d’utiliser un…**|
 |:-----|:-----|
 |Hébergez entre 25 et 1 000 utilisateurs sur le site de succursale, et si un déploiement complet n’est pas rentable ou si vous ne disposez pas d’une prise en charge d’administration locale.  <br/> |Survivable Branch Appliance  <br/> Survivable Branch Appliance est un serveur lame normalisé avec un Skype pour le serveur d’inscriptions de Business Server et le serveur de médiation s’exécutant sur Windows Server 2008 R2. Survivable Branch Appliance contient également une passerelle de réseau téléphonique commuté. Des périphériques tiers qualifiés (développés par les partenaires de Microsoft dans le programme de qualification/certification Survivable Branch Appliance (SBA) assurent une connexion PSTN continue en cas de panne du réseau étendu, mais ils ne fournissent pas de services de conférence et de présence résistants, car ces fonctionnalités dépendent des serveurs frontaux du site central.  <br/> Pour plus d’informations sur les Survivable Branch Appliances, voir « Survivable Branch Appliance en détail », plus loin dans cette rubrique.  <br/> **Remarque :** Si vous décidez d’utiliser également une jonction SIP avec votre Survivable Branch Appliance, contactez votre fournisseur Survivable Branch Appliance pour en savoir plus sur lequel le fournisseur de services est recommandé pour votre organisation. <br/> |
 |Hébergez entre 1000 et 2 000 utilisateurs sur votre site de succursale, ne disposent pas d’une connexion WAN résistante et ont formé Skype pour les administrateurs Business Server disponibles  <br/> |Serveur Survivable Branch Server ou deux Survivable Branch Appliances.  <br/> Le serveur Survivable Branch Server est un serveur de Windows requise spécifié de la réunion qui a Skype pour le logiciel du serveur d’inscriptions de Business Server et le serveur de médiation est installé. Il doit se connecter à une passerelle PSTN ou à une jonction SIP à un fournisseur de services téléphoniques.  <br/> Pour plus d’informations sur les serveurs Survivable Branch Server, voir « Survivable Branch Server en détail », plus loin dans cette rubrique.  <br/> |
@@ -217,7 +217,7 @@ Si vous décidez de mettre en œuvre la résistance pour les sites de succursale
 
 La figure suivante montre les topologies recommandées pour la résistance des sites de succursale.
   
-**Options de résilience de site succursale**
+**Options de résistance pour sites de succursale**
 
 ![Options de résilience de filiale vocale](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
   
@@ -284,7 +284,7 @@ Pour vous assurer que les appels entrants vers les utilisateurs de site de succu
 > [!NOTE]
 > Pour calculer la consommation des ressources du site central par les utilisateurs de site de succursale qui recourent au site central pour accéder aux fonctionnalités de présence, de conférence ou de basculement, nous vous conseillons de considérer chaque utilisateur de site de succursale comme s’il était inscrit sur le site central. Il n’y a aucune limite sur le nombre d’utilisateurs de site de succursale, y compris les utilisateurs auprès d’un serveur Survivable Branch Appliance. 
   
-Nous vous recommandons également de créer un plan de numérotation et une stratégie de voix au niveau utilisateur, et de les affecter aux utilisateurs de site de succursale. Pour plus d’informations, voir [créer ou modifier un plan de numérotation dans Skype pour Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md) et [créer la stratégie de routage VoIP pour les utilisateurs de succursale](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) dans la documentation de déploiement.
+Nous vous recommandons également de créer un plan de numérotation et une stratégie de voix au niveau utilisateur, et de les affecter aux utilisateurs de site de succursale. Pour plus d’informations, voir [créer ou modifier un plan de numérotation dans Skype pour Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) et [créer la stratégie de routage VoIP pour les utilisateurs de succursale](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) dans la documentation de déploiement.
   
 #### <a name="routing-extension-numbers"></a>Acheminement des numéros de poste
 
@@ -292,7 +292,7 @@ Lors de la préparation de plans de numérotation et les stratégies de voix pou
   
 Les règles de normalisation et de conversion qui correspondent à des URI de ligne contenant un numéro de poste, seul ou en plus d’un numéro de téléphone E.164 complet, imposent des exigences supplémentaires. Cette section décrit plusieurs exemples de scénarios pour acheminer les appels pour des URI de ligne constitués d’un numéro de poste.
   
-Si votre organisation ne dispose pas de numéros de téléphone à distance Direct Inward (DID) configurés pour les utilisateurs individuels et l’URI de ligne de chaque utilisateur est configuré avec un numéro d’extension, les utilisateurs internes peuvent appeler l’autre en composant un numéro d’extension. Cependant, vous devez configurer des règles de normalisation qui puissent s’appliquer aux appels d’un utilisateur d’un site de succursale à destination d’un utilisateur du site central qui correspondent aux numéros de poste.
+Si votre organisation n’a pas de numéros de téléphone SDA (Sélection directe à l’arrivée) configurés pour les utilisateurs et que l’URI de ligne de chaque utilisateur est configuré avec uniquement un numéro de poste, les utilisateurs internes peuvent s’appeler en composant uniquement le numéro de poste. Cependant, vous devez configurer des règles de normalisation qui puissent s’appliquer aux appels d’un utilisateur d’un site de succursale à destination d’un utilisateur du site central qui correspondent aux numéros de poste.
   
 Dans un scénario où la liaison de réseau étendu entre un site de succursale et un site central est disponible, les appels des utilisateurs du site de succursale à destination des utilisateurs du site central ne nécessitent pas de règle de normalisation correspondante pour convertir le numéro, car l’appel n’est pas acheminé sur le réseau téléphonique commuté. Par exemple :
   
@@ -368,17 +368,17 @@ Pour plus d’informations, voir [configuration du serveur pour Skype pour Busin
 
  L’exemple suivant montre comment un administrateur peut définir un itinéraire de basculement à utiliser en cas de maintenance ou d’indisponibilité de Dallas-GW1. Les tableaux suivants illustrent la modification de configuration requise.
   
-**Le tableau 1. Stratégie utilisateur**
+**Tableau 1. Stratégie utilisateur**
 
-|**Stratégie de l’utilisateur**|**Utilisation du téléphone**|
+|**Stratégie de l’utilisateur**|**Utilisation téléphonique**|
 |:-----|:-----|
 |Default Calling Policy  <br/> |Local  <br/> GlobalPSTNHopoff  <br/> |
 |Redmond Local Policy  <br/> |RedmondLocal  <br/> |
 |Dallas Calling Policy  <br/> |DallasUsers  <br/> GlobalPSTNHopoff  <br/> |
    
-**Le tableau 2. Itinéraires**
+**Tableau 2. Itinéraires**
 
-|**Nom de l’itinéraire**|**Schéma de numéro**|**Utilisation du téléphone**|**Jonction**|**Passerelle**|
+|**Nom de l’itinéraire**|**Schéma de numéro**|**Utilisation téléphonique**|**Jonction**|**Passerelle**|
 |:-----|:-----|:-----|:-----|:-----|
 |Redmond Local Route  <br/> |^\+1 (425|206|253)(\d{7})$  <br/> |Local  <br/> RedmondLocal  <br/> |Trunk1  <br/> Trunk2  <br/> |Red-GW1  <br/> Red-GW2  <br/> |
 |Dallas Local Route  <br/> |^\+1 (972|214|469)(\d{7})$  <br/> |Local  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |

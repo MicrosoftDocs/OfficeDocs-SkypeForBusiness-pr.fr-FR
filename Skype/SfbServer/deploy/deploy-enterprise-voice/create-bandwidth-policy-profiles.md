@@ -1,9 +1,8 @@
 ---
-title: Création de profils de stratégie de bande passante dans Skype Entreprise Server 2015
+title: Créer des profils de stratégie de bande passante dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,19 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Créer ou modifier des stratégies de bande passante, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server.
-ms.openlocfilehash: 6cb3e22151596fe388f5f72f3a9325c97671e257
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ddc74ad5327651225bb6f0e78f83d8248c290806
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986442"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server-2015"></a>Création de profils de stratégie de bande passante dans Skype Entreprise Server 2015
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Créer des profils de stratégie de bande passante dans Skype pour Business Server 
  
 Créer ou modifier des stratégies de bande passante, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server. 
   
-Stratégies de bande passante définissent les limitations de bande passante pour les modes en temps réel audio et vidéo. Stratégies de bande passante sont appliqués tobandwidth profils de stratégie, qui peuvent être appliquées à plusieurs sites réseau pour le contrôle d’admission des appels.
+Des stratégies de bande passante définissent des restrictions d’utilisation de la bande passante pour des modes audio et vidéo en temps réel. Stratégies de bande passante sont appliqués tobandwidth profils de stratégie, qui peuvent être appliquées à plusieurs sites réseau pour le contrôle d’admission des appels.
   
-Pour connaître les limites de bande passante que vous devez dans votre déploiement CAC, voir [planifier le contrôle d’admission des appels d’appel dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Pour connaître les limites de bande passante que vous devez dans votre déploiement CAC, voir [planifier le contrôle d’admission des appels d’appel dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 Les stratégies d’exemple créées lors de la procédure suivante définissent des limites pour l’ensemble du trafic audio, les sessions audio individuelles, l’ensemble du trafic vidéo et les sessions vidéo individuelles. Le profil de stratégie de bande passante « 5Mb_Link » définit par exemple les limites suivantes : 
   
@@ -91,8 +91,6 @@ Les stratégies d’exemple créées lors de la procédure suivante définissent
     
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Nouvelle-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
@@ -100,4 +98,3 @@ Les stratégies d’exemple créées lors de la procédure suivante définissent
 [Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)
-

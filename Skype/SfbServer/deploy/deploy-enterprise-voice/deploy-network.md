@@ -1,9 +1,8 @@
 ---
-title: Déploiement des régions réseau, des sites réseau et des sous-réseaux dans Skype Entreprise 2015
+title: Déployer des régions réseau, sites et sous-réseaux de Skype pour les entreprises
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,24 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Créer ou modifier des régions réseau, sites réseau et associer des sous-réseaux dans Skype pour Business Server. Tous ces sont utilisés pour les fonctionnalités voix entreprise : le contournement de média, appel de contrôle d’admission des appels et le routage basé sur l’emplacement.'
-ms.openlocfilehash: 39fb65f3f2bef0ab81833b42fe50cbf866bee65b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 427ab9102fe7a840aee68e0dbc2c372b908930e8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568381"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980773"
 ---
-# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business-2015"></a>Déploiement des régions réseau, des sites réseau et des sous-réseaux dans Skype Entreprise 2015
+# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Déployer des régions réseau, sites et sous-réseaux de Skype pour les entreprises
  
 Créer ou modifier des régions réseau, sites réseau et associer des sous-réseaux dans Skype pour Business Server. Tous ces sont utilisés pour les fonctionnalités voix entreprise : le contournement de média, appel de contrôle d’admission des appels et le routage basé sur l’emplacement.
   
-Les fonctionnalités avancées de Voix Entreprise sont [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) et [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Ces fonctionnalités tous les exigent que vous permet de créer des régions réseau, sites réseau et sous-réseaux. Par exemple, toutes ces fonctionnalités requièrent que chaque sous-réseau de votre topologie soit associé à un site réseau spécifique, et que chaque site réseau soit associé à une région réseau. Pour plus d’informations sur ces conditions, voir [paramètres réseau pour les fonctionnalités Enterprise Voice dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+Les fonctionnalités avancées de Voix Entreprise sont [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) et [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Ces fonctionnalités vous obligent à créer toutes les régions réseau, sites réseau et sous-réseaux. Par exemple, toutes ces fonctionnalités requièrent que chaque sous-réseau de votre topologie soit associé à un site réseau spécifique, et que chaque site réseau soit associé à une région réseau. Pour plus d’informations sur ces conditions, voir [paramètres réseau pour les fonctionnalités Enterprise Voice dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
   
 Le contrôle d’admission des appels et E9-1-1 ont des exigences de configuration supplémentaires pour les sites réseau :
   
-- Contrôle d’admission des appels implique de spécifier un profil de stratégie de bande passante pour chaque site qui est limité par des restrictions de bande passante WAN. Si vous prévoyez de déployer le contrôle d’admission des appels d’appel, vous devez[créer des profils de stratégie de bande passante dans Skype pour Business Server 2015](create-bandwidth-policy-profiles.md) avant de configurer vos sites réseau.
+- Le contrôle d’admission des appels nécessite de spécifier un profil de stratégie de bande passante pour chaque site soumis à des restrictions de bande passante de réseau étendu (WAN). Si vous prévoyez de déployer le contrôle d’admission des appels d’appel, vous devez [créer des profils de stratégie de bande passante dans Skype pour Business Server](create-bandwidth-policy-profiles.md) avant de configurer vos sites réseau.
     
-- E9-1-1 implique de spécifier une stratégie d’emplacement pour chaque site. Si vous prévoyez de déployer E9-1-1, vous devez[créer les stratégies d’emplacement dans Skype pour Business Server 2015](create-location-policies.md) avant de configurer vos sites réseau.
+- E9-1-1 nécessite de spécifier une stratégie d’emplacement pour chaque site. Si vous prévoyez de déployer E9-1-1, vous devez [créer les stratégies d’emplacement dans Skype pour Business Server](create-location-policies.md) avant de configurer vos sites réseau.
     
 ## <a name="create-or-modify-a-network-region"></a>Créer ou modifier une région réseau
 
@@ -314,6 +313,7 @@ Par exemple, si la liste d’adresses IP qui s’affiche dans l’alerte indique
 ## <a name="see-also"></a>Voir aussi
 <a name="BKMK_AssociateSubnets"> </a>
 
+
 [Nouvelle-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
   
 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
@@ -329,3 +329,4 @@ Par exemple, si la liste d’adresses IP qui s’affiche dans l’alerte indique
 [Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
   
 [Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
+

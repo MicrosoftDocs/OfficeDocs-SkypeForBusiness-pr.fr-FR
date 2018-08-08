@@ -3,81 +3,96 @@ title: Obtenir des clients pour Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/27/2018
+ms.date: 07/05/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara; vichau
-localization_priority: Normal
+ms.reviewer: vichau, majafry
+localization_priority: Priority
 description: Découvrez comment utiliser les différents clients disponibles pour Microsoft Teams, notamment les clients Web, de bureau (Windows et Mac) et mobiles (Android, iOS, et Windows Phone).
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 579bc0290c8375adf23a17aa8121fb7a8d363718
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 083e45097c7f2495bb73dc51a64d25202fafc13b
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708359"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 ===========================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Microsoft Teams dispose de clients Web, de bureau (Windows et Mac) et mobiles (Android, iOS et Windows Phone). Ces clients requièrent une connexion Internet active et ne prennent pas en charge le mode hors connexion.
-
-<a name="web-client"></a>Client Web 
-----------
-
-Le client web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) est un client complet, fonctionnel qui peut être utilisé à partir d’une gamme de navigateurs. Le client web prend en charge l’appel et des réunions à l’aide de webRTC, de sorte qu’il n’y a pas de plug-in ou téléchargement nécessaire à l’exécution des équipes dans un navigateur web. Le navigateur doit être configuré pour autoriser les cookies tiers. 
-
-[!INCLUDE [browser-support](includes/browser-support.md)]
-
-Le client web exécute la détection de version du navigateur lors de la connexion à [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) et, si une version de navigateur non prise en charge est détectée, il bloque l’accès à l’interface web et l’utilisateur à télécharger le client ordinateur de bureau ou une application mobile.
+Microsoft Teams dispose de clients mobiles et disponibles pour les web (Windows et Mac) du bureau (Android, iOS et Windows Phone). Ces clients requièrent une connexion Internet active et ne prennent pas en charge le mode hors connexion.
 
 <a name="desktop-client"></a>Client de bureau
 --------------
 
-Le client de bureau Microsoft Teams est une application autonome et actuellement ne fait pas partie d’Office Pro Plus. Équipes est disponible pour Windows (7 +), les versions 32 bits et de 64 bits et MacOS (10.10 +). Sous Windows, les équipes nécessite .NET framework 4.5 ou version ultérieure ; le programme d’installation d’équipes vous permet de l’installer pour vous si vous ne l’avez pas. 
+Le client de bureau Microsoft Teams est une application autonome et actuellement ne fait pas partie d’Office 365 ProPlus. Les équipes est disponible pour Windows (7 +), les versions 32 bits et 64 bits et Mac OS (10.10 +). Sous Windows, les équipes nécessite .NET framework 4.5 ou version ultérieure ; le programme d’installation équipes propose d’installer pour vous si vous ne l’avez pas. 
 
-Les postes de travail clients fournissent la prise en charge des communications en temps réel (partage de contenu audio et vidéo) pour les réunions d’équipe, les appels en tête-à-tête groupe appelant et privé.
+Les clients de bureau prennent en charge de communications en temps réel (partage de contenu, vidéo et audio) pour les réunions de l’équipe, les appels en tête-à-tête group appelant et privés.
 
-Clients de bureau peuvent être téléchargés et installés par l’utilisateur final directement à partir de [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) s’ils ont les autorisations locales appropriées (droits d’administrateur ne sont pas requis pour installer le client des équipes sur un PC, mais sont nécessaires sur un Mac).
+Clients de bureau peuvent être téléchargées et installées par les utilisateurs finaux directement à partir de [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) s’ils disposent des autorisations appropriées locales (des droits d’administration ne sont pas requis pour installer le client équipes sur un PC, mais sont requis sur un Mac).
 
-Les administrateurs informatiques peuvent utiliser la méthode de leur choix pour distribuer les fichiers d'installation sur les ordinateurs de leur organisation telle que System Center Configuration Manager (Windows) ou Casper Suite (MacOS). Pour obtenir la distribution du Package MSI pour Windows, consultez [les équipes Microsoft Installer à l’aide de MSI](msi-deployment.md).
+Les administrateurs informatiques peuvent choisir leur méthode préférée pour distribuer les fichiers d’installation sur les ordinateurs de leur organisation, comme System Center Configuration Manager (Windows) ou Jamf Pro (Mac OS). Pour obtenir le package MSI pour la distribution de Windows, voir [installer des équipes de Microsoft à l’aide de MSI](msi-deployment.md).
 
 > [!NOTE]
 > La distribution du client via ces systèmes sert uniquement à l'installation initiale des clients Microsoft Teams, non pour les mises à jour futures.
 
+### <a name="windows"></a>Windows
 
-#### <a name="windows"></a>Windows
-
-Les programmes d’installation de Microsoft Teams pour Windows sont téléchargeables en version 32 et 64 bits. L'architecture doit correspondre à celle du système d'exploitation, sur laquelle la version du téléchargement en ligne s'aligne.
-
-
+L’installation de Microsoft Teams pour Windows fournit des programmes d’installation téléchargeables dans l’architecture 32 bits et 64 bits.
 
 > [!NOTE]
-> L'architecture (32 bits ou 64 bits) de Microsoft Teams ignore celle d'Office installée.
+> L’architecture (32 bits et 64 bits) de Microsoft Teams est indépendante de l’architecture de Windows et Office est installé.
 
 Le client Windows est déployé dans le dossier AppData situé dans le profil de l'utilisateur. Le déploiement dans le profil local de l'utilisateur permet d'installer le client sans disposer de droits élevés. Le client Windows est installé aux emplacements suivants :
 
--   %appdata%\\local\\Microsoft\\Teams
+- %appdata%\\local\\Microsoft\\Teams
 
--   %appdata%\\roaming\\Microsoft\\Teams
+- %appdata%\\roaming\\Microsoft\\Teams
 
-Lorsque les utilisateurs lancent un appel à l'aide du client Microsoft Teams la première fois, un message d'avertissement concernant les paramètres de pare-feu peut s'afficher et requérir l'autorisation de la communication. Les utilisateurs peuvent être invités à ignorer ce message, car l'appel fonctionnera.
+Lorsque les utilisateurs lancer un appel à l’aide du client Microsoft Teams pour la première fois, ils peuvent noter un avertissement vous demandant aux utilisateurs permettre la communication avec les paramètres du pare-feu Windows. Les utilisateurs peuvent demander à ignorer ce message, car l’appel fonctionne, même lorsque le message d’avertissement est rejeté.
 
 ![Capture d'écran d'une boîte de dialogue Alerte de sécurité Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
-
 
 > [!NOTE]
 > La configuration de pare-feu Windows sera modifiée même si l'invite est ignorée en sélectionnant Annuler. Deux règles de trafic entrant pour teams.exe seront créées avec une action de blocage pour les protocoles TCP et UDP.
 
-#### <a name="mac"></a>Mac
+### <a name="mac"></a>Mac
 
-Microsoft fournit également un fichier d'installation DMG pour les ordinateurs Mac OSX. L'accès administrateur est obligatoire pour installer le client Mac. Le client Mac OSX est installé dans le dossier /Applications.
+Les utilisateurs de Mac peuvent installer des équipes à l’aide d’un fichier d’installation PKG pour les ordinateurs Mac OS. L'accès administrateur est obligatoire pour installer le client Mac. Le client Mac OS est installé dans le dossier/applications.
 
+#### <a name="install-teams-by-using-the-pkg-file"></a>Installer des équipes en utilisant le fichier PKG
+
+1. À partir de la [page de téléchargement des équipes](https://teams.microsoft.com/downloads), sous **Mac**, cliquez sur **Télécharger**.
+2. Double-cliquez sur le fichier PKG.
+3. Suivez l’Assistant d’installation pour terminer l’installation.
+4. Les équipes seront installés au dossier/applications. Il s’agit d’une installation d’échelle de l’ordinateur.
+
+> [!NOTE]
+> Pendant l’installation, la PKG vous invite à des informations d’identification d’administration. L’utilisateur doit entrer les informations d’identification d’administration, quel que soit ou non l’utilisateur est un administrateur.
+
+Si un utilisateur disposant d’une installation DMG des équipes actuellement et remplacez-la par l’installation PKG souhaite, l’utilisateur doit :
+
+1. Quittez l’application d’équipes.
+2. Désinstaller l’application d’équipes.
+3. Installez le fichier PKG.
+
+Les administrateurs informatiques peuvent utiliser des équipes de déploiement pour distribuer les fichiers d’installation pour tous les Mac dans leur organisation, telles que Jamf Pro.
+
+> [!NOTE]
+> Si vous rencontrez des problèmes d’installation le PKG, faites-le nous savoir. Dans la section **des commentaires** à la fin de cet article, cliquez sur **commentaires sur le produit**.
+
+<a name="web-client"></a>Client Web 
+----------
+
+Le client web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) est un client complète et fonctionnel qui peut être utilisé à partir de nombreux navigateurs. Le client web prend en charge les réunions et les appels à l’aide de webRTC, donc il n’existe aucun plug-in ou télécharger requises pour exécuter des équipes dans un navigateur web. Le navigateur doit être configuré pour autoriser les cookies tiers. 
+
+[!INCLUDE [browser-support](includes/browser-support.md)]
+
+Le client web exécute la détection de version du navigateur lorsqu’ils se connectent à [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Si une version de navigateur non pris en charge est détectée, il bloque l’accès à l’interface web et est recommandé que l’utilisateur télécharger le client de bureau ou d’une application mobile.
 
 <a name="mobile-clients"></a>Clients mobiles
 --------------
@@ -91,6 +106,9 @@ Les plateformes mobiles prises en charge pour les applications mobiles Microsoft
 -   **iOS**:  10.0 ou version ultérieure
 
 -   **Windows Phone**:  Windows 10 Mobile
+
+> [!NOTE]
+> La version mobile doit être disponible au public dans l’ordre des équipes fonctionnent comme prévu.
 
 Les applications mobiles sont distribuées et mises à jour uniquement via la boutique d'applications de la plateforme mobile respective et ne peuvent pas être distribuées via des solutions MDM (gestion des périphériques mobiles) ni utilisées comme version de test.
 

@@ -1,9 +1,8 @@
 ---
-title: Configurer le contournement de média dans Skype pour Business Server 2015 pour toujours contourner le serveur de médiation
+title: Configurer le contournement de média dans Skype pour le serveur d’entreprise pour toujours contourner le serveur de médiation
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,19 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: Activer le contournement de média pour toujours contourner le serveur de médiation dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: d7a80d9fb0365dde437f10696b13262f8667addf
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 518191dcf690650ebd614259e289f6cbf75ca8ce
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982607"
 ---
-# <a name="configure-media-bypass-in-skype-for-business-server-2015-to-always-bypass-the-mediation-server"></a>Configurer le contournement de média dans Skype pour Business Server 2015 pour toujours contourner le serveur de médiation
+# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Configurer le contournement de média dans Skype pour le serveur d’entreprise pour toujours contourner le serveur de médiation
  
 Activer le contournement de média pour toujours contourner le serveur de médiation dans Skype pour Business Server Enterprise Voice. 
   
  Si vous utilisez les étapes décrites dans cette rubrique pour configurer les paramètres globaux pour le média de contournement, il est supposé que vous avez vérifié la connectivité entre Skype pour systèmes d’extrémité Business et un homologue pour lequel vous avez configuré le contournement de média sur la connexion de jonction.
   
-Si vous n’avez pas vérifié la connectivité entre Skype pour systèmes d’extrémité Business et tous les homologues au serveur de médiation dont connexions de jonction respectifs ont été activées pour le contournement de média, vous devez configurer les paramètres de déviation du trafic multimédia globale pour utiliser les informations de site et de région Lorsque utilisant le contournement de média. Ainsi, pour plus de déterminer quand média contourne le serveur de médiation. Pour ce faire, utilisez les étapes décrites dans [les paramètres globaux dans Skype pour Business Server 2015 à utiliser les informations de site et de la région du contournement de média de configurer](use-site-and-region-information.md) et [d’associer un sous-réseau à un site réseau](deploy-network.md#BKMK_AssociateSubnets) .
+Si vous n’avez pas vérifié la connectivité entre Skype pour systèmes d’extrémité Business et tous les homologues au serveur de médiation dont connexions de jonction respectifs ont été activées pour le contournement de média, vous devez configurer les paramètres de déviation du trafic multimédia globale pour utiliser les informations de site et de région Lorsque utilisant le contournement de média. Ainsi, pour plus de déterminer quand média contourne le serveur de médiation. Pour ce faire, utilisez les étapes décrites dans [les paramètres globaux dans Skype pour Business Server utilise des informations de site et de la région du contournement de média de configurer](use-site-and-region-information.md) et [d’associer un sous-réseau à un site réseau](deploy-network.md#BKMK_AssociateSubnets) .
   
 ### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>Pour activer la déviation du trafic multimédia au niveau global pour qu’il contourne toujours le serveur de médiation
 
@@ -44,9 +44,7 @@ Si vous n’avez pas vérifié la connectivité entre Skype pour systèmes d’e
     
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Planifier le contournement de média dans Skype pour Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+[Planification du contournement de média dans Skype pour les entreprises](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
-[Déployer le contournement de média dans Skype pour Business Server 2015](deploy-media-bypass.md)
+[Déployer le contournement de média dans Skype pour Business Server](deploy-media-bypass.md)
 

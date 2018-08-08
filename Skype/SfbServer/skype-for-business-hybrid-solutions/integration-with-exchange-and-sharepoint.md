@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Résumé : Découvrez les Skype pour Business Server 2015 l’intégration avec Exchange et SharePoint.'
-ms.openlocfilehash: 51943ac3b67ec204429a1970836f03f04acec0d5
-ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
+ms.openlocfilehash: be40510a5a33545a7aa6fc84d6d67a20a2cd89cf
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546475"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Intégration à Exchange et SharePoint
  
@@ -47,7 +48,7 @@ Les tableaux suivants répertorient les fonctionnalités prises en charge dans u
 |Publication du statut en fonction des informations de disponibilité du calendrier Outlook  <br/> ||
 |Liste de contacts (par le biais du magasin de contacts unifié)  <br/> |Requiert Exchange 2016 ou Exchange 2013.  <br/> Skype pour le client de bureau d’entreprise de Lync 2013 est nécessaire.  <br/>  Pour plus d’informations, voir [Configurer les Skype pour Business Server 2015 à utiliser le magasin de contacts unifié](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
 |Photo du Contact haute résolution dans le client Lync 2013, Skype pour Business client et Lync Web App.  <br/> |Requiert Exchange 2016 ou Exchange 2013.  <br/> Pour plus d’informations, voir [Configure l’utilisation de photos haute résolution dans Skype pour Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
-|Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local.  <br/> |
+|Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local. Pour plus d’informations, voir [Skype pour des solutions professionnelles hybride](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |L’historique des Conversations et journaux d’appels manqués sont écrites dans la boîte aux lettres exchange de l’utilisateur  <br/> ||
 |Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |Requiert Exchange 2016 ou Exchange 2013.  <br/> Pour plus d’informations, voir [Liste de vérification du déploiement pour l’archivage](http://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Recherche de contenu archivé  <br/> |Requiert Exchange 2016 ou Exchange 2013.  <br/> |
@@ -67,7 +68,7 @@ Les tableaux suivants répertorient les fonctionnalités prises en charge dans u
 |Publication du statut en fonction des informations de disponibilité du calendrier Outlook  <br/> ||
 |Liste de contacts (par le biais du magasin de contacts unifié).  <br/> |Lync Server 2013 uniquement. Skype pour le client de bureau d’entreprise de Lync 2013 est nécessaire.  <br/> Pour plus d’informations, voir [Configurer les Skype pour Business Server 2015 à utiliser le magasin de contacts unifié](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
 |Photo du Contact haute résolution dans le client Lync 2013, Skype pour Business client et Lync Web App.  <br/> |Pour plus d’informations, voir [Configure l’utilisation de photos haute résolution dans Skype pour Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
-|Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local.  <br/> |
+|Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local. Pour plus d’informations, voir [Skype pour des solutions professionnelles hybride](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |L’historique des Conversations et journaux d’appels manqués sont écrites dans la boîte aux lettres Exchange de l’utilisateur  <br/> ||
 |Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |Pour plus d’informations, voir [Liste de vérification du déploiement pour l’archivage](http://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Recherche de contenu archivé  <br/> |Pour plus d’informations, voir [configuration](https://go.microsoft.com/fwlink/p/?LinkId=285448) d’Exchange pour le centre eDiscovery SharePoint <br/> |
@@ -86,7 +87,7 @@ Les tableaux suivants répertorient les fonctionnalités prises en charge dans u
 |Publication du statut en fonction des informations de disponibilité du calendrier Outlook  <br/> ||
 |L’historique des Conversations et journaux d’appels manqués sont écrites dans la boîte aux lettres exchange de l’utilisateur  <br/> ||
 |Photo du Contact haute résolution dans Lync 2013 ou Skype pour client d’entreprise.  <br/> |Requiert Exchange 2016 ou Exchange 2013. Il n’est pas pris en charge dans Lync Web App lorsque les utilisateurs sont hébergés sur Skype pour Business Online.  <br/> |
-|Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local.  <br/> |
+|Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local. Pour plus d’informations, voir [Skype pour des solutions professionnelles hybride](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |L’historique des Conversations et journaux d’appels manqués sont écrites dans la boîte aux lettres Exchange de l’utilisateur  <br/> ||
 |Historique des conversations côté serveur  <br/> ||
    
@@ -105,7 +106,7 @@ Les tableaux suivants répertorient les fonctionnalités prises en charge dans u
 |L’historique des Conversations et journaux d’appels manqués sont écrites dans la boîte aux lettres exchange de l’utilisateur  <br/> ||
 |Liste de contacts (par le biais du magasin de contacts unifié)  <br/> |Lync Server 2013 ou Skype pour Business client requis  <br/> |
 |Haute résolution Photo Contact dans Lync 2013, Skype pour Business client et Lync Web App  <br/> ||
-|Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local.  <br/> |
+|Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local. Pour plus d’informations, voir [Skype pour des solutions professionnelles hybride](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> ||
 |Recherche de contenu archivé  <br/> ||
 |Messagerie vocale  <br/> ||
@@ -117,6 +118,6 @@ Le tableau suivant répertorie les fonctionnalités prises en charge dans un dé
 ||**SharePoint local**|**SharePoint Online**|
 |:-----|:-----|:-----|
 |**Skype pour Business Server 2015 locale** <br/> | Recherche de compétences <br/>  Présence dans SharePoint <br/> | Présence dans SharePoint <br/> |
-|**Skype pour les entreprises en ligne** <br/> | Présence dans SharePoint <br/> | Présence dans SharePoint <br/> |
+|**Skype Entreprise Online** <br/> | Présence dans SharePoint <br/> | Présence dans SharePoint <br/> |
    
 

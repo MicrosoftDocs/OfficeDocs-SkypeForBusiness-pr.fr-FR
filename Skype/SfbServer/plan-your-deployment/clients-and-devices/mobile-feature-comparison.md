@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
-description: 'Résumé : Passez en revue la prise en charge de la fonctionnalité pour le client mobile lors de la planification pour Skype pour Business Server 2015.'
-ms.openlocfilehash: 3ec2662915b72993de41b2398355bb4010810b3d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Passez en revue la prise en charge de la fonctionnalité pour le client mobile lors de la planification pour Skype pour Business Server.'
+ms.openlocfilehash: f773062744afeb97ddcd4f5e92b37ac534f05828
+ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21223805"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparaison des fonctionnalités de client mobile pour Skype pour les entreprises
  
-**Résumé :** Passez en revue la prise en charge de la fonctionnalité pour le client mobile lors de la planification pour Skype pour Business Server 2015.
+**Résumé :** Passez en revue la prise en charge de la fonctionnalité pour le client mobile lors de la planification pour Skype pour Business Server.
   
 Cet article compare les fonctionnalités entre Skype pour les clients mobiles métiers et le Skype pour le client de bureau d’entreprise dans les catégories suivantes :
   
@@ -46,13 +47,16 @@ Cet article compare les fonctionnalités entre Skype pour les clients mobiles m�
     
 -  Authentification moderne
     
-Les tableaux suivants répertorient les fonctionnalités disponibles pour Skype pour les utilisateurs professionnels dans un déploiement local de Skype pour Business Server 2015. Les mêmes fonctionnalités sont également disponibles pour Skype pour les utilisateurs professionnels en ligne et de Microsoft Office 365, sauf indication contraire dans les notes de fin de la table.
+Les tableaux suivants répertorient les fonctionnalités disponibles pour Skype pour les utilisateurs professionnels dans un déploiement local de Skype pour Business Server. Les mêmes fonctionnalités sont également disponibles pour Skype pour les utilisateurs professionnels en ligne et de Microsoft Office 365, sauf indication contraire dans les notes de fin de la table.
   
 > [!NOTE]
 > De l’aide en ligne et des ressources pour les utilisateurs finaux, voir [Découvrir les Skype pour les entreprises](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
   
 > [!NOTE]
 > Pour comparer les fonctionnalités disponibles dans les autres Skype pour les clients d’entreprise, voir [comparaison des fonctionnalités client de bureau pour Skype pour les entreprises](desktop-feature-comparison.md). 
+
+> [!NOTE]
+> Prise en charge MCX (Service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités MCX doivent mettre à niveau vers un client actuel.
   
 ## <a name="sign-in-push-notifications-and-general-features"></a>Connexion, notifications Push et fonctionnalités générales
 
@@ -96,7 +100,7 @@ Sur des appareils iOS, Skype pour les entreprises se déconnecte automatiquement
 ## <a name="contacts-and-contact-groups-support"></a>Prise en charge des contacts et groupes de contacts
 
 
- | Fonctionnalité  | Skype pour le client de bureau Business Lync 2013  | Windows Phone  | iOS  | Android |
+ | Fonctionnalité  | Skype pour le client de bureau d’entreprise  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Afficher la liste des contacts  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Afficher les groupes de contacts  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
@@ -166,7 +170,7 @@ Sur des appareils iOS, Skype pour les entreprises se déconnecte automatiquement
 |Parcourir une liste de vos réunions  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Participer à une réunion même si vous n’avez pas un Skype pour un compte professionnel  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Afficher plus d’informations sur les participants à la réunion  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
-|Commencer une conversation de groupe non planifiée avec plusieurs participants directement de votre client ou appareil   <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
+|Commencer une conversation de groupe non planifiée avec plusieurs participants directement de votre client ou appareil   <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||
    
  & #x 2776 ;  Pour les utilisateurs Office 365, cette fonctionnalité nécessite Enterprise Voice, qui fait partie de la licence E5.
   
@@ -191,7 +195,7 @@ Sur des appareils iOS, Skype pour les entreprises se déconnecte automatiquement
 |Accéder à la messagerie vocale  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||
 |Utiliser le clavier dans Skype pour les entreprises  <br/> |& #x 2714 ; & #x 2776 ; |& #x 2714 ;|& #x 2714 ;||
    
- & #x 2776 ;  Disponible à Skype pour les utilisateurs professionnels en ligne et/ou Office 365 E5, et les utilisateurs hébergés sur Skype pour Business Server 2015 ou Lync 2013 avec Enterprise Voice est activé.
+ & #x 2776 ;  Disponible à Skype pour les utilisateurs professionnels en ligne et/ou Office 365 E5, et les utilisateurs hébergés sur Skype pour Business Server ou de Lync Server 2013 avec Enterprise Voice est activé.
   
  & #x 2777 ;  Pour Skype pour les utilisateurs professionnels en ligne et/ou d’Office 365, cette fonctionnalité est prise en charge par les partenaires Microsoft.
   

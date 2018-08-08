@@ -1,9 +1,8 @@
 ---
-title: Gestion des emplacements des passerelles ELIN dans Skype Entreprise Server 2015
+title: Gérer les emplacements pour les passerelles ELIN dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Décisions nécessaires pour planifier une la base de données d’informations ou une base de données externe similaire, pour un déploiement E9-1-1 dans les passerelles ELIN, Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: c89f09af2011d316485094f9fc817580b56d1d81
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ace81abc47ac401db48b7a34fe9a229a29f18881
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974234"
 ---
-# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server-2015"></a>Gestion des emplacements des passerelles ELIN dans Skype Entreprise Server 2015
+# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gérer les emplacements pour les passerelles ELIN dans Skype pour Business Server
  
 Décisions nécessaires pour planifier une la base de données d’informations ou une base de données externe similaire, pour un déploiement E9-1-1 dans les passerelles ELIN, Skype pour Business Server Enterprise Voice.
   
@@ -57,7 +57,7 @@ Le champ **d’emplacement** de service informations d’emplacement, qui contie
 
 Après avoir déterminé comment diviser l’espace de votre bâtiment en emplacements, vous devez décider du nombre de numéros ELIN à affecter à chaque emplacement. Par exemple, dans un immeuble à plusieurs étages ou multilocatif, différentes zones ERL peuvent être affectées à différentes zones d’urgence. En général, chaque étage d’un immeuble est désigné comme un emplacement. Chaque emplacement se voit alors affecté un ou plusieurs numéros ELIN, utilisés comme numéros d’appel durant un appel d’urgence. Contactez votre opérateur PSTN pour connaître les numéros de téléphone que vous pouvez utiliser pour les numéros ELIN. Le tableau ci-dessous fournit des exemples d’emplacements pour une adresse postale spécifique.
   
-**Emplacement de l’exemple et les affectations de numéros ELIN**
+**Exemples d’affectations d’emplacements et de numéros ELIN**
 
 |**Zone de l’immeuble**|**Emplacement**|**ELIN**|
 |:-----|:-----|:-----|
@@ -83,7 +83,7 @@ Où sont stockées les données et quelles étapes devez-vous suivre pour les co
   
 À l’aide de l’option de service informations d’emplacement secondaire pour se connecter à une base de données tiers, vous pouvez regrouper et gérer les emplacements à l’aide d’une plate-forme en mode hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service informations d’emplacement peut retourner plusieurs adresses, provenant du service informations d’emplacement secondaire, à un Skype pour client d’entreprise. L’utilisateur peut alors choisir l’emplacement le plus approprié. 
   
-Pour intégrer avec le service informations d’emplacement, la base de données de tiers doit respecter le Skype pour le schéma de demande/réponse Business emplacement du serveur. Pour plus d’informations, voir [Service Web pour E911 prise en charge de protocole](https://go.microsoft.com/fwlink/p/?linkid=213819). Pour plus d’informations sur le déploiement d’un service informations d’emplacement secondaire, voir [configurer un service d’informations d’emplacement secondaire dans Skype pour Business Server 2015](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) dans la documentation de déploiement.
+Pour intégrer avec le service informations d’emplacement, la base de données de tiers doit respecter le Skype pour le schéma de demande/réponse Business emplacement du serveur. Pour plus d’informations, voir [Service Web pour E911 prise en charge de protocole](https://go.microsoft.com/fwlink/p/?linkid=213819). Pour plus d’informations sur le déploiement d’un service informations d’emplacement secondaire, voir [configurer un service d’informations d’emplacement secondaire dans Skype pour Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) dans la documentation de déploiement.
   
 Pour plus d’informations sur le renseignement de la base de données d’emplacement, voir [Configure the Location Database](http://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
   

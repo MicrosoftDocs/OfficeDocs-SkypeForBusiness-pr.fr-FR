@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Consultez cette rubrique pour consulter les facteurs de planification pour implémenter la déviation du trafic multimédia avec les versions 2.0 et suivantes de Cloud Connector. Pour plus d’informations sur le déploiement de médias contournement de média, voir Deploy multimédia dans le nuage connecteur Edition de contournement.
-ms.openlocfilehash: a2dfca68d7bfe02ae0701dc13d76bc24121a1cb8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 70c7f8721386c3ef0270e7ef938624a70184b942
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967135"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planification de la déviation du trafic multimédia dans la version Cloud Connector
  
@@ -35,7 +36,7 @@ Bien que la signalisation prenne le même chemin avec ou sans la déviation du t
   
 Par exemple, dans la topologie suivante : qui n’ignore pas les médias utilisent — une Skype pour Business client effectue un appel PSTN vers un numéro externe, la signalisation SIP accède à Office 365 et Office 365 puis la dirige le trafic de signalisation en fonction de la voix de l’utilisateur final stratégie. Pour les utilisateurs de nuage connecteur, la stratégie de voix dirige le trafic de signalisation pour le serveur Edge sur le nuage connecteur, puis achemine le trafic de signalisation à un contrôleur de frontière de Session RTC (SBC) ou une passerelle via le serveur de médiation dans le nuage connecteur. Multimédia s’enchaîne de la Skype pour client d’entreprise pour le serveur de médiation dans le nuage connecteur, puis vers le contrôleur SBC ou passerelle, comme indiqué dans le diagramme suivant :
   
-**Contournement de média et voies de signalisation sans multimédia**
+**Médias et voies de signalisation sans déviation du trafic multimédia**
 
 ![signalisation sans déviation du trafic multimédia](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
@@ -43,7 +44,7 @@ Un appel entrant du PSTN utilise le même chemin de signalisation en sens invers
   
 Dans la topologie suivante : qui utilisent le contournement de média : signalisation prend le même chemin d’accès, mais les données multimédias transitent directement entre le Skype pour client d’entreprise et SBC ou passerelle, comme illustré dans le diagramme suivant :
   
-**Contournement de média et voies de signalisation avec support**
+**Médias et voies de signalisation avec déviation du trafic multimédia**
 
 ![signalisation avec déviation du trafic multimédia](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
@@ -51,7 +52,7 @@ Dans la topologie suivante : qui utilisent le contournement de média : signal
 
 Le contournement de média est également utile lorsque vous souhaitez fournir des services de téléphonie sur plusieurs sites à l’aide d’une solution de nuage connecteur unique. Comme dans le nuage connecteur ne peut pas acheminer les appels en fonction de leur source ou de destination, la plupart des entreprises déploient un contrôleur SBC ou une passerelle derrière nuage connecteur pour prendre des décisions de routage. Dans ce scénario, la déviation du trafic multimédia élimine le saut entre le client et le SBC central ou la passerelle centrale, comme indiqué sur le schéma ci-après :
   
-**Application de plusieurs site**
+**Application multisite**
 
 ![Exemple multisite de Cloud Connector](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
@@ -78,7 +79,7 @@ Dans la première version du contournement de média, le seul client pris en cha
   
 Pour plus d’informations sur les canaux de version, voir [vue d’ensemble des canaux de mise à jour pour Office 365 ProPlus](https://support.office.com/en-us/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
   
-Pour la version actuelle des clients de différents canaux, voir [client Office 365 mettre à jour des versions de canal](https://technet.microsoft.com/en-us/office/mt465751.aspx). 
+Pour la version actuelle des clients de différents canaux, voir [Release des informations mises à jour pour Office 365 ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus). 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>Considérations relatives à la capacité de Cloud Connector avec déviation du trafic multimédia
 
@@ -111,7 +112,4 @@ Lorsque la déviation du trafic multimédia est activée, le trafic multimédia 
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Déployer le contournement de média dans le nuage connecteur Edition](deploy-media-bypass-in-cloud-connector.md)
-

@@ -1,9 +1,8 @@
 ---
-title: Déploiement des serveurs Edge dans Skype Entreprise Server 2015
+title: Déployer des serveurs de périphérie dans Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
-description: 'Résumé : Apprenez à déployer des serveurs de périphérie dans votre Skype pour environnement Business Server 2015.'
-ms.openlocfilehash: c7dfdfeef9eea4ffae0e113665b487da4856b83c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Apprenez à déployer des serveurs de périphérie dans votre Skype pour un environnement de serveur d’entreprise.'
+ms.openlocfilehash: fc4791918ef078bc43e73f8e404aad758531eb21
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003123"
 ---
-# <a name="deploy-edge-servers-in-skype-for-business-server-2015"></a>Déploiement des serveurs Edge dans Skype Entreprise Server 2015
+# <a name="deploy-edge-servers-in-skype-for-business-server"></a>Déployer des serveurs de périphérie dans Skype pour Business Server
  
-**Résumé :** Apprenez à déployer des serveurs de périphérie dans votre Skype pour environnement Business Server 2015.
+**Résumé :** Apprenez à déployer des serveurs de périphérie dans votre Skype pour un environnement de serveur d’entreprise.
   
-Les sections suivantes contiennent des étapes qui sont destinées à être suivi une fois le Skype pour la documentation Business Server 2015 [Planifier pour les déploiements de serveur de transport Edge dans Skype pour Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) a été passé en revue. Les étapes de déploiement sont les suivantes :
+Les sections suivantes contiennent des étapes qui sont destinées à être suivi une fois le Skype pour la documentation Business Server [Planifier pour les déploiements de serveur de transport Edge dans Skype pour Business Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) a été passé en revue. Les étapes de déploiement sont les suivantes :
   
 - Interfaces réseau
     
@@ -48,11 +48,11 @@ Comme indiqué dans la planification, vous allez soit configurer votre interface
     
    a. Trois adresses IP statiques sur le périmètre externe sous-réseau de réseau et point de la passerelle par défaut à l’interface interne du pare-feu externe. Configurer les paramètres DNS de carte pour pointer vers une paire de serveurs DNS de périmètre.
     
-   b. Une adresse IP statique adresse sur le sous-réseau de réseau de périmètre externe et pointez sur la passerelle par défaut à l’interface interne du pare-feu externe. Configurer les paramètres DNS de carte pour pointer vers une paire de serveurs DNS de périmètre. Cette configuration n’est acceptable si vous avez précédemment configuré votre topologie pour que les valeurs non standard dans les ports, est abordée dans l’article [créer votre topologie du périmètre pour Skype pour Business Server 2015](create-your-edge-topology.md) .
+   b. Une adresse IP statique adresse sur le sous-réseau de réseau de périmètre externe et pointez sur la passerelle par défaut à l’interface interne du pare-feu externe. Configurer les paramètres DNS de carte pour pointer vers une paire de serveurs DNS de périmètre. Cette configuration n’est acceptable si vous avez précédemment configuré votre topologie pour que les valeurs non standard dans les ports, est abordée dans l’article [créer votre topologie du périmètre pour Skype pour Business Server](create-your-edge-topology.md) .
     
 3. Sur l’interface interne, configurez une adresse IP statique sur le sous-réseau de réseau de périmètre interne et ne définissez pas une passerelle par défaut. Configurez les paramètres de la carte réseau DNS de manière à pointer vers au moins un serveur DNS, de préférence une paire de serveurs DNS de périmètre.
     
-4. Créez des itinéraires statiques persistants sur l’interface interne vers tous les réseaux internes où résident les clients, Skype pour Business Server 2015 et les serveurs de messagerie unifiée Exchange (MU).
+4. Créez des itinéraires statiques persistants sur l’interface interne vers tous les réseaux internes où résident les clients, Skype pour Business Server et les serveurs de messagerie unifiée Exchange (MU).
     
 ### <a name="interface-configuration-without-dns-servers-in-the-perimeter-network"></a>Configuration des interfaces sans serveur DNS dans le réseau de périmètre
 
@@ -65,17 +65,17 @@ Comme indiqué dans la planification, vous allez soit configurer votre interface
     
    a. Trois adresses IP statiques sur le périmètre externe sous-réseau du réseau. Vous devrez également configurer la passerelle par défaut sur l’interface externe, par exemple, définissant le routeur internet ou le pare-feu externe comme passerelle par défaut. Configurer les paramètres DNS de carte pour pointer vers un serveur DNS externe, de préférence une paire de serveurs DNS externes.
     
-   b. Une adresse IP statique sur le sous-réseau du réseau de périmètre extérieur. Vous devrez également configurer la passerelle par défaut sur l’interface externe, par exemple, définissant le routeur internet ou le pare-feu externe comme passerelle par défaut. Configurez les paramètres de la carte réseau DNS de manière à pointer vers une paire de serveurs DNS externes. Cette configuration n’est acceptable si vous avez précédemment configuré votre topologie pour que les valeurs non standard dans les ports, est abordée dans l’article [créer votre topologie du périmètre pour Skype pour Business Server 2015](create-your-edge-topology.md) .
+   b. Une adresse IP statique sur le sous-réseau du réseau de périmètre extérieur. Vous devrez également configurer la passerelle par défaut sur l’interface externe, par exemple, définissant le routeur internet ou le pare-feu externe comme passerelle par défaut. Configurez les paramètres de la carte réseau DNS de manière à pointer vers une paire de serveurs DNS externes. Cette configuration n’est acceptable si vous avez précédemment configuré votre topologie pour que les valeurs non standard dans les ports, est abordée dans l’article [créer votre topologie du périmètre pour Skype pour Business Server](create-your-edge-topology.md) .
     
 3. Sur l’interface interne, configurez une adresse IP statique sur le sous-réseau de réseau de périmètre interne et ne définissez pas une passerelle par défaut. Laissez les paramètres DNS de la carte réseau vides.
     
-4. Créez des itinéraires statiques persistants sur l’interface interne vers tous les réseaux internes où résident les clients, Skype pour Business Server 2015 et les serveurs de messagerie unifiée Exchange (MU).
+4. Créez des itinéraires statiques persistants sur l’interface interne vers tous les réseaux internes où résident les clients, Skype pour Business Server et les serveurs de messagerie unifiée Exchange (MU).
     
 5. Modifiez le fichier hôte sur chaque serveur de périphérie pour contenir un enregistrement pour le serveur du tronçon suivant ou adresse IP virtuelle (VIP). Cet enregistrement sera le directeur, serveur Standard Edition server ou pool frontal que vous avez configuré en tant que l’adresse du tronçon suivant de serveur de transport Edge dans le Générateur de topologie. Si vous utilisez l’équilibrage de charge DNS, inclure une ligne pour chaque membre du pool du tronçon suivant.
     
 ## <a name="installation"></a>Installation
 
-Pour effectuer ces étapes avec succès, vous devez avoir suivi les étapes dans l’article [créer votre topologie du périmètre pour Skype pour Business Server 2015](create-your-edge-topology.md) .
+Pour effectuer ces étapes avec succès, vous devez avoir suivi les étapes dans l’article [créer votre topologie du périmètre pour Skype pour Business Server](create-your-edge-topology.md) .
   
 1. Ouvrez une session sur le serveur que vous avez configurées pour le rôle serveur de transport Edge avec un compte qui se trouve dans le groupe administrateur local.
     
@@ -95,7 +95,7 @@ Pour effectuer ces étapes avec succès, vous devez avoir suivi les étapes dans
     
 9. Une fois que la procédure **Exécution de commandes** est terminé, cliquez sur **Terminer**.
     
-10. Dans l’Assistant déploiement, cliquez sur **étape 2. Installer ou supprimer des Skype pour les composants du serveur Business**. L’Assistant installe alors le Skype pour les composants serveur Edge 2015 Business Server spécifié dans le fichier de configuration XML stocké sur l’ordinateur local.
+10. Dans l’Assistant déploiement, cliquez sur **étape 2. Installer ou supprimer des Skype pour les composants du serveur Business**. L’Assistant installe alors le Skype pour les composants serveur Edge Server Business spécifié dans le fichier de configuration XML stocké sur l’ordinateur local.
     
 11. Une fois l’installation de l’ensemble, vous pouvez déplacer sur les étapes décrites dans la section **certificats** ci-dessous.
     
@@ -114,7 +114,7 @@ Vous trouverez les certificats requis pour le serveur de périphérie dans la do
  
 #### <a name="nbspnbspnbsp-a-download-using-certsrv-web-site"></a>&nbsp;&nbsp;&nbsp;un. Télécharger à l’aide du site web certsrv
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Connectez-vous à un Skype pour Business Server 2015 server dans votre réseau interne en tant que membre du groupe Administrateurs local.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Connectez-vous à un Skype pour Business Server dans votre réseau interne en tant que membre du groupe Administrateurs local.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Ouvrez **Démarrer**, **exécuter** (ou **recherche** et **exécutez** ), puis tapez ce qui suit :
     
@@ -188,7 +188,7 @@ Vous trouverez les certificats requis pour le serveur de périphérie dans la do
     
 &nbsp;&nbsp;&nbsp;b. Dans la page **Demande de certificat**, assurez-vous que l’option **Certificat Edge interne** est sélectionnée, puis cliquez sur **Demande**.
     
-&nbsp;&nbsp;&nbsp;c. Dans la page **Demandes différées ou immédiates**, sélectionnez **Envoyer la demande immédiatement à une autorité de certification en ligne** si vous avez accès à une telle autorité à partir de votre environnement de serveur Edge ou **Préparer la demande maintenant, mais l’envoyer ultérieurement** autrement.
+&nbsp;&nbsp;&nbsp;c. Dans la page **demandes différées ou immédiates** , sélectionnez **Envoyer la demande immédiatement à une autorité de certification en ligne** , si vous avez accès à un à partir de votre environnement serveur Edge ou **préparer la demande maintenant, mais l’envoyer plus tard** dans le cas contraire.
     
 &nbsp;&nbsp;&nbsp;d. Dans la page **Fichier de demande de certificat**, saisissez le composant complet et le nom de fichier de l’emplacement où le fichier sera enregistré (par exemple, c:\SkypeInternalEdgeCert.cer). Cliquez sur **Suivant**.
     
@@ -378,15 +378,15 @@ Vous trouverez les certificats requis pour le serveur de périphérie dans la do
     
 &nbsp;&nbsp;&nbsp;g. Double-cliquez sur **Certificats (ordinateur local)** pour développer les magasins de certificats. Double-cliquez sur **Personnel**, puis sur **Certificats**.
     
-    > [!NOTE]
-    > You may be here, and you don't see any certificates in the Certificates Personal store for the local computer. You don't need to hunt around, if the key's not there, the imported certificate didn't have a private key associated with it. Try the request and import steps above one more time, and if you're sure you got all that right, talk to your CA administrator or provider. 
+   > [!NOTE]
+   > Vous serez peut-être ici, et vous ne voyez pas tous les certificats dans le personnel de certificats stocker pour l’ordinateur local. Vous n’avez pas besoin de recherche, si la touche ne s pas, importé certificat n’ait une clé privée qui lui est associée. Essayez la demande importer les étapes ci-dessus une fois de plus et si vous êtes sûr que vous avez droit que, parler à votre administrateur de l’autorité de certification ou le fournisseur. 
   
 &nbsp;&nbsp;&nbsp;h. Dans le **magasin personnel de certificats** de l’ordinateur local, cliquez sur le certificat que vous exportez. Sélectionnez **Toutes les tâches** dans le menu qui s’affiche, puis cliquez sur **Exporter**.
     
 &nbsp;&nbsp;&nbsp;i. Dans l’**Assistant Exportation du certificat**, cliquez sur **Suivant**. Sélectionnez **Oui, exporter la clé privée**. Cliquez sur **Suivant**.
     
-    > [!NOTE]
-    > If **Yes, export the private key** isn't available, then the private key for this certificate wasn't marked for export before you got it. You need to request the certificate from the provider again, with the private key set to export, before doing this successfully.
+   > [!NOTE]
+   > Si **Oui, exporter la clé privée** n’est pas disponible, la clé privée de ce certificat n’a pas été marquée pour l’exportation avant que vous l’avez compris. Pour pouvoir poursuivre l’exportation, vous devez faire une nouvelle demande de certificat auprès du fournisseur en vous assurant que le certificat est marqué pour l’exportation.
   
 &nbsp;&nbsp;&nbsp;j. Dans la boîte de dialogue Exporter les formats de fichiers, sélectionnez Échange d’informations personnelles – PKCS#12 (.PFX), puis les éléments suivants :
     
@@ -394,8 +394,8 @@ Vous trouverez les certificats requis pour le serveur de périphérie dans la do
     
  &nbsp;&nbsp;&nbsp;II. Exportez toutes les propriétés étendues.
     
-    > [!NOTE]
-    > **NEVER** select **Delete the private key if the export is successful**. It'll mean you have to reimport the certificate and private key back to this Edge Server.
+   > [!NOTE]
+   > Ne sélectionnez **JAMAIS****Supprimer la clé privée si l’exportation s’est terminée correctement**. Cela vous signifie que vous devez réimporter le certificat et la clé privée sur ce serveur Edge.
   
 &nbsp;&nbsp;&nbsp;k. Si vous souhaitez affecter un mot de passe pour protéger la clé privée, vous pouvez taper un mot de passe pour cette clé. Entrez de nouveau le mot de passe pour le confirmer, puis cliquez sur **Suivant**.
     
@@ -425,7 +425,7 @@ Vous trouverez les certificats requis pour le serveur de périphérie dans la do
 &nbsp;&nbsp;&nbsp;g. Une fois que vous avez terminé cette procédure, il est recommandé pour ouvrir le composant logiciel enfichable MMC certificats sur chaque serveur, développez **certificats (ordinateur Local)**, développez **personnel**, cliquez sur **certificats**et vérifiez que le serveur Edge interne certificat est répertorié dans le volet détails.
     
    > [!NOTE]
-    > Vous devez également configurer les certificats pour votre serveur de proxy inverse. Les serveurs de Proxy inverse le programme d’installation qui est traitée pour Skype pour la rubrique Business Server 2015. 
+   > Vous devez également configurer les certificats pour votre serveur de proxy inverse. 
   
 ## <a name="starting-the-edge-servers"></a>Démarrer les serveurs de périphérie
 
@@ -439,6 +439,6 @@ Une fois l’installation terminée, vous devez démarrer les services sur chaqu
     
 4. (Facultatif) Toujours sous l’**Étape 4 : Lancement des services**, cliquez sur **État des services**.
     
-5.  Dans la console **MMC Services** sur chaque serveur, vérifiez que tous les Skype pour les services Business Server 2015 sont en cours d’exécution.
+5.  Dans la console **MMC Services** sur chaque serveur, vérifiez que tous les Skype pour les services Business Server sont en cours d’exécution.
     
 

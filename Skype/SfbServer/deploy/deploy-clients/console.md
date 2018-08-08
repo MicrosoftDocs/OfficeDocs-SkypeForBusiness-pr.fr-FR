@@ -1,9 +1,8 @@
 ---
 title: Configuration d’une console Skype Room Systems v2
 ms.author: jambirk
-author: jambirk
+author: Travis-Snoozy
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,12 +11,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit l’installation de la console Skype Room Systems v2 et de ses périphériques.
-ms.openlocfilehash: eed37791c73b2deeb9e5f0605dbf1265d9a1d02d
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: e9675b091723dc3b021543acedd278404788be13
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501024"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013695"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configuration d’une console Skype Room Systems v2
  
@@ -27,13 +26,13 @@ Vous devez uniquement effectuer ces étapes si la Skype nécessaire pour les com
   
 - [Préparation de l’image d’installation](console.md#Prep_Image)
     
-- [Installer un certificat d’autorité de certification privé sur le périphérique tablette](console.md#Certs)
+- [Installation d’un certificat d’une autorité de certification privée sur la tablette](console.md#Certs)
     
 - [Installer Windows 10 et l’application de console Skype salle systèmes v2](console.md#Reimage)
    
 - [Configurer initiale de la Console](console.md#Initial)
     
-- [Salle Skype systèmes v2 de pré-déploiement](console.md#Checklist)
+- [Liste de vérification du déploiement de Skype Room Systems v2](console.md#Checklist)
     
 > [!NOTE]
 > Systèmes de salle Skype v2 fonctionne uniquement dans un Skype correctement configurée pour un environnement d’entreprise où les comptes de périphériques sont correctement configurés comme décrit dans [déployer Skype salle systèmes v2](room-systems-v2.md). 
@@ -41,7 +40,7 @@ Vous devez uniquement effectuer ces étapes si la Skype nécessaire pour les com
 ## <a name="prepare-the-installation-image"></a>Préparation de l’image d’installation
 <a name="Prep_Image"> </a>
 
-Installation de l’application de v2 de systèmes de salle Skype sur une Surface Pro 4 ou Surface Pro requiert un périphérique de stockage USB avec au moins 32 Go de mémoire en un disque FAT32. Il ne doit y avoir aucun autre fichier sur l’appareil, les fichiers existants sur le stockage USB seront perdues. 
+Installation de l’application de v2 de systèmes de salle Skype sur une Surface Pro 4 ou Surface Pro requiert un périphérique de stockage USB avec au moins 32 Go de mémoire en un disque FAT32. Il ne doit y avoir aucun fichier sur le dispositif de stockage USB, car ceux-ci seraient perdus. 
   
 > [!NOTE]
 > Si vous ne créez pas l’image de votre console conformément à ces instructions, cela entraînera probablement un comportement inattendu. Mise à jour Windows 10 entreprise anniversaire (Version 1607) n’est plus pris en charge pour la création de systèmes de salle Skype v2 image. 
@@ -49,15 +48,14 @@ Installation de l’application de v2 de systèmes de salle Skype sur une Surfac
 > [!NOTE]
 > Un v2 Skype salle systèmes existants avec 10 entreprise anniversaire mise à jour Windows déplacement vers les systèmes de salle Skype v2 mise à jour 3 par l’entremise du Windows Store fonctionnera, mais une nouvelle installation doit être effectuée comme indiqué ci-dessous. 
   
-1. Télécharger le [package MSU pour KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).
-2. Télécharger le [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
-3. Placez la MSU pour KB4056892 dans le même répertoire que le script CreateSrsMedia.ps1.
-4. Exécutez le script CreateSrsMedia.ps1 à partir d’une invite de commandes avec élévation de privilèges sur un ordinateur Windows 10.
+1. Télécharger le [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
+2. (Facultatif) Téléchargez et placer les fichiers CAB du pack langue de votre choix dans le même répertoire que le script. Le script indique où vous pouvez télécharger les fichiers de pack de langue appropriés pour le type de média que vous créez, si vous ne savez pas où se procurer les modules linguistiques de.
+3. Exécutez le script CreateSrsMedia.ps1 à partir d'une invite avec élévation de privilèges sur un ordinateur Windows 10.
 
 
-Suivez les instructions du script pour créer un disque d’installation de systèmes de salle Skype v2 USB. Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur et passez à [10 de Windows Installer et de l’application de console Skype salle systèmes v2 ](console.md#Reimage).
+Suivez les instructions du script pour créer un disque d’installation de systèmes de salle Skype v2 USB. Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur et passez à l’[Installation de Windows 10 et de l’application de console Skype Room Systems v2](console.md#Reimage).
     
-## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Installation de Windows 10 et de l’application de console Skype Room Systems v2 
+## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Installation de Windows 10 et de l’application de console Skype Room Systems v2
 <a name="Reimage"> </a>
 
 Vous devrez désormais appliquer l’image que vous avez créée. La tablette s’exécute en tant qu’un matériel et l’utilisateur par défaut sera définie ne s’exécute l’application v2 de systèmes de salle Skype. 
@@ -144,7 +142,7 @@ Une fois que Windows est installé, l’application v2 de systèmes de salle Sky
     
 6. Cliquez sur **Terminer**.
     
-L’application doit démarrer immédiatement la connexion à Skype pour Business Server 2015 avec les informations d’identification ci-dessus et doit également synchroniseront son calendrier avec Exchange à l’aide de ces mêmes informations d’identification. Pour plus d’informations sur l’utilisation de l’application, reportez-vous à l' [aide de systèmes de salle Skype version 2](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+L’application doit démarrer immédiatement la connexion à Skype pour Business Server avec les informations d’identification ci-dessus et doit également synchroniseront son calendrier avec Exchange à l’aide de ces mêmes informations d’identification. Pour plus d’informations sur l’utilisation de l’application, reportez-vous à l' [aide de systèmes de salle Skype version 2](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
 > Systèmes de salle Skype v2 s’appuie sur la présence de matériel de console certifié (la Logitech SmartDock). Même une image correctement créé qui contient l’application v2 de systèmes de salle Skype chargée sur une Surface Pro 4 ou Surface Pro ne démarre pas au-delà de la procédure d’installation initiale, sauf si le matériel de console est détecté. 
@@ -224,7 +222,7 @@ Utilisez la liste de vérification suivante lors de la vérification finale de l
 |☐  <br/> |Le périphérique d’entrée audio est fonctionnel et positionné de manière optimale.  <br/> |
 |☐  <br/> |Le périphérique de sortie audio est fonctionnel et positionné de manière optimale.  <br/> |
    
-**Station d’accueil**
+**Dock**
 
 |||
 |:-----|:-----|
@@ -237,10 +235,10 @@ Utilisez la liste de vérification suivante lors de la vérification finale de l
 ## <a name="see-also"></a>Voir aussi
 <a name="Checklist"> </a>
 
-[Planifier la salle Skype systèmes v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planification de Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Déployer la salle Skype systèmes v2](room-systems-v2.md)
+[Déploiement de Skype Room System v2](room-systems-v2.md)
   
-[Configurer une console v2 de systèmes de salle de Skype](console.md)
+[Configuration d’une console Skype Room Systems v2](console.md)
   
-[Gérer les salles Skype systèmes v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gestion de Skype Room System v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

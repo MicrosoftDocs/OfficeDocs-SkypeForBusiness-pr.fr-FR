@@ -1,9 +1,8 @@
 ---
-title: Jonction SIP dans Skype Entreprise Server 2015
+title: Jonction SIP dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: En savoir plus sur l’acheminement SIP dans Skype pour Business Server Enterprise Voice
-ms.openlocfilehash: 01f8401f6573220c8995df99f863bfd95a08ffb8
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 19029bd2006d269736e4b49830d202ddf07c6a79
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504102"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980075"
 ---
-# <a name="sip-trunking-in-skype-for-business-server-2015"></a>Jonction SIP dans Skype Entreprise Server 2015
+# <a name="sip-trunking-in-skype-for-business-server"></a>Jonction SIP dans Skype pour Business Server
  
 En savoir plus sur l’acheminement SIP dans Skype pour Business Server Enterprise Voice
   
-Le protocole SIP (Session Initiation Protocol) sert à initier et à gérer les sessions de communications Voix sur IP (VoIP) pour le service téléphonique de base et d’autres services de communication en temps réel, tels que messagerie instantanée, conférence, détection de présence et multimédia. Cette section fournit des informations sur la planification pour l’implémentation de jonctions SIP, un type de connexion SIP qui s’étend au-delà des limites de votre réseau local.
+Le protocole SIP (Session Initiation Protocol) sert à initier et à gérer les sessions de communications Voix sur IP (VoIP) pour le service téléphonique de base et d’autres services de communication en temps réel, tels que messagerie instantanée, conférence, détection de présence et multimédia. Cette section fournit des informations de planification pour l’implémentation de jonctions SIP, un type de connexion SIP qui s’étend au-delà des limites de votre réseau local.
   
 ## <a name="what-is-sip-trunking"></a>Qu’est-ce que la jonction SIP ?
 
@@ -60,9 +59,9 @@ Bénéficier de fonctionnalités vocales est souvent la principale motivation po
   
 ### <a name="sip-trunks-vs-direct-sip-connections"></a>Différences entre les jonctions SIP et les connexions SIP directes
 
-La jonction de termes est dérivée de la technologie de commutation de circuits. Il fait référence à une ligne physique dédiée qui connecte les équipements téléphoniques de commutation. Comme son prédécesseur, multiplexage temporel jonctions (TDM), jonctions SIP sont des connexions entre deux réseaux distincts de SIP — le Skype pour enterprise Business Server et ce dernier. Contrairement aux jonctions de commutation, les jonctions SIP sont des connexions virtuelles pouvant être établies sur n’importe quel type de connexion de jonction SIP pris en charge.
+Le terme jonction est dérivé de la technologie de commutation. Il fait référence à une ligne physique dédiée qui connecte les équipements téléphoniques de commutation. Comme son prédécesseur, multiplexage temporel jonctions (TDM), jonctions SIP sont des connexions entre deux réseaux distincts de SIP — le Skype pour enterprise Business Server et ce dernier. Contrairement aux jonctions de commutation, les jonctions SIP sont des connexions virtuelles pouvant être établies sur n’importe quel type de connexion de jonction SIP pris en charge.
   
-En revanche, les connexions SIP directes sont des connexions SIP qui ne franchissent pas les limites du réseau local (c’est-à-dire qu’elles se connectent à une passerelle RTC ou à un PBX dans votre réseau interne). Pour plus d’informations sur la façon dont vous pouvez utiliser des connexions SIP directes avec Skype pour Business Server, voir [connexions SIP directes dans Skype pour Business Server 2015](direct-sip.md). 
+En revanche, les connexions SIP directes sont des connexions SIP qui ne franchissent pas les limites du réseau local (c’est-à-dire qu’elles se connectent à une passerelle RTC ou à un PBX dans votre réseau interne). Pour plus d’informations sur la façon dont vous pouvez utiliser des connexions SIP directes avec Skype pour Business Server, voir [connexions SIP directes dans Skype pour Business Server](direct-sip.md). 
   
 ## <a name="how-do-i-implement-sip-trunking"></a>Implémentation d’une jonction SIP
 
@@ -70,7 +69,7 @@ Pour implémenter la jonction SIP, vous devez acheminer la connexion via un serv
   
 Chaque serveur de médiation a une interface réseau interne et un réseau externe. L’interface interne se connecte à des serveurs frontaux. L’interface externe est généralement appelé l’interface de passerelle car il a été généralement utilisé pour connecter le serveur de médiation à une passerelle de réseau téléphonique commuté ou un IP-PBX. Pour implémenter une jonction SIP, vous connecter à l’interface externe du serveur de médiation au composant de périmètre externe de ce dernier. Ce dernier peut être un contrôleur de session en périphérie (SBC), un routeur ou une passerelle.
   
-Pour plus d’informations sur les serveurs de médiation, voir [composant serveur de médiation dans Skype pour Business Server 2015](mediation-server.md). 
+Pour plus d’informations sur les serveurs de médiation, voir [composant serveur de médiation dans Skype pour Business Server](mediation-server.md). 
   
 ### <a name="centralized-vs-distributed-sip-trunking"></a>Comparatif entre jonction SIP centralisée et jonction SIP distribuée
 
@@ -95,7 +94,7 @@ Selon l’emplacement géographique des sites et la quantité de trafic que vous
 La décision d’opter pour une jonction SIP centralisée ou distribuée doit être basée sur une analyse des coûts-avantages. Dans certains cas, il peut être plus avantageux d’opter pour un modèle de déploiement distribué, même s’il n’est pas nécessaire. Dans un déploiement complètement centralisé, tout le trafic site de succursale est acheminé via des liaisons WAN. Au lieu de payer pour la bande passante requise pour la liaison de réseau étendu, il est peut-être préférable d’utiliser une jonction SIP distribuée. Par exemple, vous pouvez choisir de déployer un serveur Standard Edition server sur un site de succursale fédération vers le site central, ou vous souhaiterez peut-être déployer un serveur Survivable Branch Appliance ou un serveur Survivable Branch Server avec une passerelle de petite taille.
   
 > [!NOTE]
-> Pour plus d’informations sur l’acheminement SIP distribué, voir [l’acheminement SIP dans Skype pour Business Server 2015 Branch site](branch-site.md). 
+> Pour plus d’informations sur l’acheminement SIP distribué, voir [l’acheminement SIP dans Skype pour Business Server Branch site](branch-site.md). 
   
 ### <a name="supported-sip-trunking-connection-types"></a>Types de connexion de jonction SIP pris en charge
 
@@ -183,4 +182,5 @@ Si vous utilisez un serveur VPN, bous vous conseillons de suivre les directives 
     
 ## <a name="see-also"></a>Voir aussi
 
-[Acheminement SIP dans Skype pour Business Server 2015 Branch site](branch-site.md)
+[Acheminement SIP dans Skype pour Business Server Branch site](branch-site.md)
+

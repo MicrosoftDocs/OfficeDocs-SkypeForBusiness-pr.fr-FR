@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Suivez les étapes décrites dans cette rubrique pour modifier la configuration d’un Skype existant pour le nuage connecteur Édition 1.4.1 ou déploiement ultérieur.
-ms.openlocfilehash: 86efbf21efae3dc95508528850a984912e4930a1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0a89c4a03d7cb316674490bc81768f27cd1a9c66
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176082"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modifier la configuration d'un déploiement Cloud Connector existant
  
@@ -235,7 +236,6 @@ Get-CcCredential -AccountType CABackupFile -DisplayPassword
 Get-CcCredential -AccountType CceService -DisplayPassword
 Get-CcCredential -AccountType VMAdmin -DisplayPassword
 Get-CcCredential -AccountType DomainAdmin -DisplayPassword
-
   ```
 
 2. Exécutez l’applet de commande entrée-CcUpdate pour décharger le matériel et la déplacer en mode maintenance manuelle.
@@ -279,7 +279,7 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 Pour ajouter un domaine SIP (ou plusieurs domaines SIP) à votre déploiement en nuage connecteur existant, procédez comme suit :
   
-1. Assurez-vous que vous avez effectué les étapes pour mettre à jour votre domaine dans Office 365 et ont la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la façon de configurer votre domaine dans Office 365, voir la vidéo [configurer votre domaine dans Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+1. Assurez-vous que vous avez effectué les étapes pour mettre à jour votre domaine dans Office 365 et ont la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la façon de configurer votre domaine dans Office 365, voir [Ajouter un domaine à Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Mettre à jour le fichier de configuration du connecteur sur le nuage avec le nouveau domaine SIP ou des domaines.
     
@@ -293,14 +293,14 @@ Pour ajouter un domaine SIP (ou plusieurs domaines SIP) à votre déploiement en
 
 5. 
     
-    Suivez les instructions pour [Modifier la configuration d’un seul site](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) ou [Modifier la configuration de plusieurs sites](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites).
+    suivez les instructions pour [Modifier la configuration d'un seul site](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) ou [Modifier la configuration de plusieurs sites](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites).
     
 ## <a name="modify-the-primary-sip-domain"></a>Modifier le domaine SIP principal
 <a name="BKMK_UpdatePassword"> </a>
 
 Si vous devez modifier le domaine SIP principal de votre déploiement en nuage connecteur, procédez comme suit :
   
-1. Assurez-vous que vous avez effectué les étapes pour mettre à jour votre domaine dans Office 365 et ont la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la façon de configurer votre domaine dans Office 365, voir la vidéo [configurer votre domaine dans Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+1. Assurez-vous que vous avez effectué les étapes pour mettre à jour votre domaine dans Office 365 et ont la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la façon de configurer votre domaine dans Office 365, voir [Ajouter un domaine à Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Mettre à jour le fichier de configuration du connecteur sur le nuage avec le nouveau domaine SIP.
     
@@ -322,7 +322,9 @@ Si vous devez modifier le domaine SIP principal de votre déploiement en nuage c
 
 6. 
     
-    Supprimer l’inscription de sites pour chaque site en exécutant la cmdlet suivante dans Skype pour Business Online PowerShell :
+    Supprimez l'inscription du site pour chaque site en exécutant l'applet de commande suivante dans la session PowerShell de Skype Entreprise Online :
+
+
     
   ```
   Remove-CsHybridPSTNSite

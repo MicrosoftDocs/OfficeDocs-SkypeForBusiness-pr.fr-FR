@@ -1,9 +1,8 @@
 ---
-title: Gestion des emplacements pour les fournisseurs de services de jonction SIP (Session Initiation Protocol) dans Skype Entreprise Server 2015
+title: Gérer les emplacements pour les fournisseurs de services de jonction SIP dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Décisions nécessaires pour planifier une la base de données d’informations ou une base de données externe similaire, pour un déploiement E9-1-1 à l’aide de fournisseurs d’acheminement SIP dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 61aec2a537a9351c73c9e1e903685f686d500517
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 079e921debe9e5b61839795e61db199a018879aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996773"
 ---
-# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server-2015"></a>Gestion des emplacements pour les fournisseurs de services de jonction SIP (Session Initiation Protocol) dans Skype Entreprise Server 2015
+# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Gérer les emplacements pour les fournisseurs de services de jonction SIP dans Skype pour Business Server
  
 Décisions nécessaires pour planifier une la base de données d’informations ou une base de données externe similaire, pour un déploiement E9-1-1 à l’aide de fournisseurs d’acheminement SIP dans Skype pour Business Server Enterprise Voice.
   
@@ -51,7 +51,7 @@ Où sont stockées les données et quelles étapes devez-vous suivre pour les co
   
 À l’aide de l’option de service informations d’emplacement secondaire pour se connecter à une base de données tiers, vous pouvez regrouper et gérer les emplacements à l’aide d’une plate-forme en mode hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service informations d’emplacement peut retourner plusieurs adresses, provenant du service informations d’emplacement secondaire, à un Skype pour client d’entreprise. L’utilisateur peut alors choisir l’emplacement le plus approprié. 
   
-Pour intégrer avec le service informations d’emplacement, la base de données de tiers doit respecter le schéma de Lync Server emplacement demande/réponse. Pour plus d’informations, voir [» [MS-E911WS] : Service Web pour la spécification du protocole E911 prise en charge »](https://go.microsoft.com/fwlink/p/?linkid=213819). Pour plus d’informations sur le déploiement d’un service informations d’emplacement secondaire, voir [configurer un service d’informations d’emplacement secondaire dans Skype pour Business Server 2015](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) dans la documentation de déploiement.
+Pour intégrer avec le service informations d’emplacement, la base de données de tiers doit respecter le schéma de Lync Server emplacement demande/réponse. Pour plus d’informations, voir [» [MS-E911WS] : Service Web pour la spécification du protocole E911 prise en charge »](https://go.microsoft.com/fwlink/p/?linkid=213819). Pour plus d’informations sur le déploiement d’un service informations d’emplacement secondaire, voir [configurer un service d’informations d’emplacement secondaire dans Skype pour Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) dans la documentation de déploiement.
   
 Pour plus d’informations sur le renseignement de la base de données d’emplacement, voir [Configure the Location Database](http://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
   

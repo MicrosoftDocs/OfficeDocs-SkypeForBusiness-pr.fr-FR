@@ -1,5 +1,5 @@
 ---
-title: Planification du contrôle d’admission des appels dans Skype Entreprise Server 2015
+title: Planifier le contrôle d’admission des appels d’appel dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,13 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Découvrez le contrôle d’admission des appels, qui peut empêcher des appels à partir du lieu si elles auront la qualité des médias médiocre, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 11a73cb6065802b700694d6c3ffd589d935659db
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d9af6094ae851d59775d9ce4b012ee06028901e6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988408"
 ---
-# <a name="plan-for-call-admission-control-in-skype-for-business-server-2015"></a>Planification du contrôle d’admission des appels dans Skype Entreprise Server 2015
+# <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planifier le contrôle d’admission des appels d’appel dans Skype pour Business Server
  
 Découvrez le contrôle d’admission des appels, qui peut empêcher des appels à partir du lieu si elles auront la qualité des médias médiocre, dans Skype pour Business Server Enterprise Voice.
   
@@ -33,7 +34,7 @@ Le contrôle d’admission des appels (CAC) détermine si la bande passante rés
 Cette section décrit le contrôle d’admission des appels et explique comment le planifier.
   
 > [!NOTE]
-> Skype pour Business Server comporte trois fonctionnalités voix entreprise : appeler le contrôle d’admission des appels (CAC), les services d’urgence (E9-1-1) et le contournement de média. Pour une vue d’ensemble de la planification des informations qui sont communes aux trois de ces fonctionnalités, voir [paramètres réseau pour les fonctionnalités Enterprise Voice dans Skype pour Business Server 2015](network-settings-for-advanced-features.md). 
+> Skype pour Business Server comporte trois fonctionnalités voix entreprise : appeler le contrôle d’admission des appels (CAC), les services d’urgence (E9-1-1) et le contournement de média. Pour une vue d’ensemble de la planification des informations qui sont communes aux trois de ces fonctionnalités, voir [paramètres réseau pour les fonctionnalités Enterprise Voice dans Skype pour Business Server](network-settings-for-advanced-features.md). 
   
 La conception CAC dans Skype pour Business Server offre quatre principaux attributs :
   
@@ -82,17 +83,17 @@ Si votre entreprise prend en charge les médias via VPN, assurez-vous que les fl
   
 ### <a name="call-admission-control-of-outside-users"></a>Contrôle d’admission des appels des utilisateurs extérieurs
 
-Appeler le contrôle n’est pas appliqué au-delà des limites de la Skype pour Business Server 2015 organisation d’admission des appels. CAC ne peut pas être appliqué au trafic multimédia transitant par Internet, qui n’est pas géré par Skype pour Business Server 2015. Vérifications CAC seront effectuées sur la partie de l’appel qui circule dans le réseau d’entreprise si le point de terminaison appelé appartient à l’organisation et le serveur Edge a été ajouté à la configuration réseau, comme décrit dans le contrôle d’admission des appels [ déploiement : liste de vérification finale pour Skype pour Business Server 2015](../../deploy/deploy-enterprise-voice/final-checklist.md). Si le point de terminaison appelé n’appartient pas à l’organisation, comme dans le cas d’un utilisateur fédéré ou PIC, aucune vérification de stratégie de bande passante ne sera effectuée et l’appel sortant ignorera les restrictions du service Contrôle d’admission des appels.
+Appeler le contrôle n’est pas appliqué au-delà des limites de la Skype pour organisation Business Server d’admission des appels. CAC pour le trafic multimédia transitant par Internet, qui n’est pas géré par Skype pour Business Server ne peut pas être appliquée. Vérifications CAC seront effectuées sur la partie de l’appel qui circule dans le réseau d’entreprise si le point de terminaison appelé appartient à l’organisation et le serveur Edge a été ajouté à la configuration réseau, comme décrit dans le contrôle d’admission des appels [ déploiement : liste de vérification finale pour Skype pour Business Server](../../deploy/deploy-enterprise-voice/final-checklist.md). Si le point de terminaison appelé n’appartient pas à l’organisation, comme dans le cas d’un utilisateur fédéré ou PIC, aucune vérification de stratégie de bande passante ne sera effectuée et l’appel sortant ignorera les restrictions du service Contrôle d’admission des appels.
   
 ### <a name="call-admission-control-of-pstn-connections"></a>Contrôle d’admission des appels des connexions RTC
 
-Contrôle d’admission des appels est exécutoire sur le serveur de médiation indépendamment si elle est connecté à une jonction SIP, une passerelle PSTN ou un PBX IP. Étant donné que le serveur de médiation est un agent utilisateur DOS à DOS (B2BUA), il termine multimédia. Il a deux côtés de la connexion : une partie qui est connectée à Skype pour Business Server et un côté passerelle, qui est connecté à des passerelles PSTN, IP/PBX ou jonctions SIP. Pour plus d’informations sur les connexions RTC, voir [planifier la connectivité PSTN dans Skype pour Business Server 2015](pstn-connectivity-0.md).
+Contrôle d’admission des appels est exécutoire sur le serveur de médiation indépendamment si elle est connecté à une jonction SIP, une passerelle PSTN ou un PBX IP. Étant donné que le serveur de médiation est un agent utilisateur DOS à DOS (B2BUA), il termine multimédia. Il a deux côtés de la connexion : une partie qui est connectée à Skype pour Business Server et un côté passerelle, qui est connecté à des passerelles PSTN, IP/PBX ou jonctions SIP. Pour plus d’informations sur les connexions RTC, voir [planifier la connectivité PSTN dans Skype pour Business Server](pstn-connectivity-0.md).
   
-CAC peut être appliquée sur les deux côtés du serveur de médiation, sauf si le contournement de média est activé. Si le contournement de média est activé, le trafic multimédia ne parcourir le serveur de médiation, mais plutôt flux directement entre le Skype pour client d’entreprise et la passerelle. Dans ce cas, le contrôle d’admission des appels n’est pas nécessaire. Pour plus d’informations, voir [Plan pour le média de contournement dans Skype pour Business 2015](media-bypass.md).
+CAC peut être appliquée sur les deux côtés du serveur de médiation, sauf si le contournement de média est activé. Si le contournement de média est activé, le trafic multimédia ne parcourir le serveur de médiation, mais plutôt flux directement entre le Skype pour client d’entreprise et la passerelle. Dans ce cas, le contrôle d’admission des appels n’est pas nécessaire. Pour plus d’informations, voir [Plan pour le média de contournement dans Skype pour les entreprises](media-bypass.md).
   
 La figure suivante illustre la façon dont le contrôle d’admission des appels est appliqué sur les connexions RTC avec ou sans la déviation du trafic multimédia activée.
   
-**Application du contrôle d’admission des appels pour les connexions au réseau RTC**
+**Application du contrôle d’admission des appels sur des connexions RTC**
 
 ![Application de connexion de contournement de média CAC vocal](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
   
@@ -100,7 +101,7 @@ La figure suivante illustre la façon dont le contrôle d’admission des appels
 
 La planification du contrôle d’admission des appels (CAC) requiert des informations détaillées sur votre topologie de réseau d’entreprise. Pour vous aider à planifier vos stratégies de contrôle d’admission des appels, procédez comme suit.
   
-1. Identifiez les concentrateurs/dorsales principales (appelées régions réseau) dans votre réseau d’entreprise.
+1. Identifiez les concentrateurs/dorsales principales (appelés régions réseau) dans votre réseau d’entreprise.
     
 2. Identifiez les bureaux et emplacements (appelés sites réseau) dans chaque région réseau.
     
@@ -122,7 +123,7 @@ Pour expliquer ces concepts, nous allons utiliser l’exemple de topologie rése
 > [!NOTE]
 > Tous les sites réseau sont associés à une région réseau. Par exemple, Portland, Reno et Albuquerque sont inclus dans la région Amérique du Nord. Dans cette figure, seules les liaisons réseau étendu auxquelles des stratégies de service Contrôle d’admission des appels sont appliquées sont présentées, avec des limites de bande passante. Les sites réseau Chicago, New York et Détroit s’affichent dans l’ovale de la région Amérique du Nord, car ils ne sont soumis à aucune limite de bande passante et ne nécessitent donc aucune stratégie de service Contrôle d’admission des appels. 
   
-Les composants de cet exemple de topologie sont décrits dans les sections suivantes. Pour plus d’informations sur la façon dont cette topologie a été planifiée, y compris les limites de bande passante, voir [exemple : collecte des conditions requises pour le contrôle d’admission des appels dans Skype pour Business Server 2015](example-gathering-requirements.md).
+Les composants de cet exemple de topologie sont décrits dans les sections suivantes. Pour plus d’informations sur la façon dont cette topologie a été planifiée, y compris les limites de bande passante, voir [exemple : collecte des conditions requises pour le contrôle d’admission des appels dans Skype pour Business Server](example-gathering-requirements.md).
   
 ### <a name="identify-network-regions"></a>Identifier les régions réseau
 
@@ -165,7 +166,7 @@ Les liaisons de sites sont indiquées par des traits connectant Portland, Reno e
 
 Collaborez avec votre équipe responsable des opérations réseau pour déterminer la quantité de bande passante de réseau étendu mise à disposition du trafic audio et vidéo en temps réel sur les liaisons réseau étendu de votre organisation. Les stratégies de bande passante sont généralement appliquées aux liaisons réseau étendu si l’utilisation de la bande passante est restreinte ; c’est-à-dire, si on pense qu’elle sera supérieure à la bande passante pouvant être allouée aux modes audio et vidéo.
   
-Stratégies de bande passante CAC définissent la bande passante maximale qui peut être réservée pour les modes en temps réel audio et vidéo. Comme le service Contrôle d’admission des appels ne limite pas la bande passante d’un autre trafic de données, il ne peut pas empêcher les autres trafics de données (par exemple, un transfert de fichiers volumineux ou la diffusion en continu de morceaux de musique) d’utiliser toute la bande passante réseau.
+Les stratégies de bande passante du service Contrôle d’admission des appels définissent la bande passante maximale qui peut être réservée aux modes audio et vidéo en temps réel. Comme le service Contrôle d’admission des appels ne limite pas la bande passante d’un autre trafic de données, il ne peut pas empêcher les autres trafics de données (par exemple, un transfert de fichiers volumineux ou la diffusion en continu de morceaux de musique) d’utiliser toute la bande passante réseau.
   
 Les stratégies de bande passante CAC peuvent définir un ou plusieurs des éléments suivants :
   
@@ -181,7 +182,7 @@ Les stratégies de bande passante CAC peuvent définir un ou plusieurs des él�
 > Toutes les valeurs de bande passante CAC représentent les limites de bande passante maximale *unidirectionnelle* .
   
 > [!NOTE]
-> Le Skype pour les fonctionnalités de stratégie de voix entreprise Server fournissent des vérifications de la possibilité de remplacer la stratégie de bande passante pour les appels entrants à l’utilisateur (pas pour les appels sortants sont passés par l’utilisateur). Une fois la session établie, la consommation de bande passante est calculée avec précision. Ce paramètre doit être utilisé avec modération. Pour plus d’informations, voir [créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype pour Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) ou [Modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) dans la documentation de déploiement.
+> Le Skype pour les fonctionnalités de stratégie de voix entreprise Server fournissent des vérifications de la possibilité de remplacer la stratégie de bande passante pour les appels entrants à l’utilisateur (pas pour les appels sortants sont passés par l’utilisateur). Une fois la session établie, la consommation de bande passante est calculée avec précision. Ce paramètre doit être utilisé avec modération. Pour plus d’informations, voir [créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype pour les entreprises](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) ou [Modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) dans la documentation de déploiement.
   
 Pour optimiser l’utilisation de la bande passante par session, tenez compte du type des codecs audio et vidéo qui seront utilisés. Plus particulièrement, allouez suffisamment de bande passante pour un codec que vous pensez utiliser fréquemment. À l’inverse, si vous souhaitez empêcher le média d’utiliser un codec nécessitant davantage de bande passante, définissez une bande passante maximale par session qui soit suffisamment basse pour décourager ce type d’utilisation. Pour l’audio, tous les codecs ne sont pas disponibles pour chaque scénario. Par exemple :
   
@@ -195,7 +196,7 @@ Utilisez le tableau suivant pour optimiser les paramètres de bande passante par
   
 **Utilisation de la bande passante par codecs**
 
-|**Codec**|**Besoin en bande passante sans correction d’erreur de transfert (FEC)**|**Besoins en bande passante avec correction des erreurs de transfert (FEC)**|
+|**Codec**|**Besoin en bande passante sans correction des erreurs de transfert (FEC)**|**Besoin en bande passante avec correction des erreurs de transfert (FEC)**|
 |:-----|:-----|:-----|
 |RTAudio (8kHz)  <br/> |49,8 Kbits/s  <br/> |61,6 Kbits/s  <br/> |
 |RTAudio (16 kHz)  <br/> |67 Kbits/s  <br/> |96 Kbits/s  <br/> |

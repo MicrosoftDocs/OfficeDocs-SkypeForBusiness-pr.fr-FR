@@ -1,9 +1,8 @@
 ---
-title: Définition d’autres jonctions dans le générateur de topologie dans Skype Entreprise Server 2015
+title: Définition de jonctions supplémentaires dans le Générateur de topologie dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,23 +12,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
-description: 'Résumé : Découvrez comment définir un tronçon supplémentaire entre un serveur de médiation et un homologue de passerelle dans le Générateur de topologie dans Skype pour Business Server 2015.'
-ms.openlocfilehash: e76555d0f03b884ad3f3c91c5ca4ad5d687711a2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Découvrez comment définir un tronçon supplémentaire entre un serveur de médiation et un homologue de passerelle dans le Générateur de topologie dans Skype pour Business Server.'
+ms.openlocfilehash: 65ed4bb850c88c873b61090cbc34a133cb9d95e8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979740"
 ---
-# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server-2015"></a>Définition d’autres jonctions dans le générateur de topologie dans Skype Entreprise Server 2015
+# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Définition de jonctions supplémentaires dans le Générateur de topologie dans Skype pour Business Server
  
-**Résumé :** Découvrez comment définir un tronçon supplémentaire entre un serveur de médiation et un homologue de passerelle dans le Générateur de topologie dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment définir un tronçon supplémentaire entre un serveur de médiation et un homologue de passerelle dans le Générateur de topologie dans Skype pour Business Server.
   
 Suivez ces étapes pour définir un tronçon supplémentaire auquel vous pouvez associer un homologue à un serveur de médiation. Un homologue fournit aux utilisateurs activés pour Enterprise Voice avec une connectivité pour les publics téléphone réseau commuté (RTC). L’homologue peut être une passerelle RTC, un système IP-PBX ou un contrôleur SBC (Session Border Controller) pour un fournisseur ITSP (Internet Telephony Service Provider).
   
 Une jonction est une connexion logique entre un serveur de médiation et une passerelle.
   
 > [!NOTE]
-> Cette rubrique suppose que vous disposez du programme d’installation une passerelle PSTN et jonction racine au moins un colocalisé ou autonome serveur de médiation ou pool comme décrit dans [définir une passerelle dans le Générateur de topologie dans Skype pour Business Server 2015](define-a-gateway.md) dans la documentation de déploiement.
+> Cette rubrique suppose que vous disposez du programme d’installation une passerelle PSTN et jonction racine au moins un colocalisé ou autonome serveur de médiation ou pool comme décrit dans [définir une passerelle dans le Générateur de topologie dans Skype pour Business Server](define-a-gateway.md) dans la documentation de déploiement.
   
 ### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>Pour définir un tronçon supplémentaire entre un serveur de médiation et un homologue de passerelle
 

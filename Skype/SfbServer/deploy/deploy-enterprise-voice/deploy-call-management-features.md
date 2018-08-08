@@ -1,9 +1,8 @@
 ---
-title: Déploiement des fonctionnalités de gestion des appels dans Skype Entreprise 2015
+title: Déployer des fonctionnalités de gestion des appels dans Skype pour les entreprises
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Déploiement de fonctionnalités de gestion des appels dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 181c8e983416c91e6847869786170ad2f73c8728
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a63f53970b25c9148c65c95890df14e77feb0008
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025658"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business-2015"></a>Déploiement des fonctionnalités de gestion des appels dans Skype Entreprise 2015
+# <a name="deploy-call-management-features-in-skype-for-business"></a>Déployer des fonctionnalités de gestion des appels dans Skype pour les entreprises
  
 Déploiement de fonctionnalités de gestion des appels dans Skype pour Business Server Enterprise Voice.
   
@@ -38,12 +38,12 @@ Cette section explique comment configurer ces fonctionnalités de gestion des ap
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Processus de déploiement pour la mise en garde d’appels dans Skype pour Business 2015](deployment-process-for-call-park.md)
+- [Processus de déploiement pour la mise en garde d’appels dans Skype pour les entreprises](deployment-process-for-call-park.md)
     
-- [Deployment process for Group Call Pickup in Skype for Business 2015](deployment-process-for-group-call-pickup.md)
+- [Processus de déploiement pour le groupe d’appel collecte dans Skype pour les entreprises](deployment-process-for-group-call-pickup.md)
     
-- [Processus de déploiement de Response Group dans Skype pour Business 2015](deployment-process-for-response-group.md)
+- [Processus de déploiement de Response Group dans Skype pour les entreprises](deployment-process-for-response-group.md)
     
-- [Processus de déploiement pour l’application d’annonce dans Skype pour Business Server 2015](deployment-process-for-the-announcement-application.md)
+- [Processus de déploiement pour l’application d’annonce dans Skype pour Business Server](deployment-process-for-the-announcement-application.md)
     
 

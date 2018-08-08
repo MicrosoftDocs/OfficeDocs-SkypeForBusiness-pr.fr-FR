@@ -1,9 +1,8 @@
 ---
-title: Planification de l’application Response Group dans Skype Entreprise Server 2015
+title: Planification de l’application Response Group dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planification des groupes Response Group dans Skype pour Business Server Enterprise Voice, ce qui permet de configurer le routage des appels vers des groupes d’utilisateurs. Cela inclut les conditions requises pour les fichiers audio.
-ms.openlocfilehash: 628126cfc3815dfabdf0e73c962e8dcff326b416
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4fbdfd1428d66865f3f704c4005935deefd370f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970183"
 ---
-# <a name="plan-for-the-response-group-application-in-skype-for-business-server-2015"></a>Planification de l’application Response Group dans Skype Entreprise Server 2015
+# <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planification de l’application Response Group dans Skype pour Business Server
  
 Planification des groupes Response Group dans Skype pour Business Server Enterprise Voice, ce qui permet de configurer le routage des appels vers des groupes d’utilisateurs. Cela inclut les conditions requises pour les fichiers audio.
   
@@ -51,16 +51,16 @@ Pour prendre en compte le rôle de gestionnaire, application Response Group util
   
 **Groupes Response Group gérés et non gérés**
 
-|**Type de groupe de réponse**|**Description**|
+|**Type de groupe Response Group**|**Description**|
 |:-----|:-----|
 |Non géré  <br/> | Aucun gestionnaire n’est affecté aux groupes Response Group non gérés. Seul l’administrateur de groupe de réponse peut configurer ces groupes Response Group. <br/>  Plusieurs groupes Response Group non gérés peuvent partager une file d’attente ou un groupe d’agents. <br/>  Lorsque vous migrez des groupes Response Group depuis une version antérieure à Skype pour Business Server, le type est défini sur non. <br/> |
 |Géré  <br/> | Les administrateurs de Response Group peuvent configurer tous les aspects des groupes Response Group gérés. <br/>  Responsables de groupe de réponse ne peut pas afficher ou modifier des groupes de réponses qui ne sont pas explicitement attribués leur. <br/>  Gestionnaires de Response Group peuvent configurer uniquement certains paramètres pour les groupes de réponses qui sont explicitement affectés. <br/>  Les groupes Response Group gérés ne peuvent pas partager des files d’attente ou des groupes d’agents avec d’autres groupes Response Group, qu’ils soient gérés ou non gérés. <br/> |
    
 Le tableau suivant décrit les actions Response groupe responsables peuvent et ne peuvent pas effectuer pour les groupes de réponse assignés.
   
-**Fonctionnalités de gestionnaire Response Group**
+**Fonctions du gestionnaire Response Group**
 
-|**Peut configurer :**|**Peut créer, supprimer ou configurer :**|**Ne peuvent pas :**|
+|**Peut configurer :**|**Peut créer, supprimer ou configurer :**|**Ne peut pas :**|
 |:-----|:-----|:-----|
 | Agents <br/>  Message d’accueil <br/>  Nom du groupe de réponse <br/>  Description <br/>  Numéro affiché <br/>  Heures d’ouverture <br/>  Attente musicale <br/>  Statut (actif/inactif) <br/>  Flux de travail de groupe de recherche ou flux de travail de réponse vocale interactive (IVR) <br/> | Groupes d’agents <br/>  Files d’attente <br/>  Périodes de congé <br/> | Créer ou supprimer un type de flux de travail <br/>  Modifier les paramètres principaux des groupes Response Group, tels que : **URI SIP**, **Numéro de téléphone** ou **Type de flux de travail**  <br/> |
    
@@ -136,9 +136,9 @@ L’outil de Configuration Response Group prend en charge les combinaisons de sy
 > [!NOTE]
 > Les versions 32 bits ou 64 bits des systèmes d’exploitation sont prises en charge. Seules les versions 32 bits d’Internet Explorer sont prises en charge. 
   
-**Systèmes d’exploitation pris en charge et navigateurs Web**
+**Systèmes d’exploitation et navigateurs web pris en charge**
 
-|**Système d'exploitation**|**Navigateur Web**|
+|**Système d'exploitation**|**Navigateur web**|
 |:-----|:-----|
 |Windows Vista avec Service Pack (SP) 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (mode natif)  <br/> Internet Explorer 9 (mode natif)  <br/> |
 |Windows 7  <br/> Windows 7 avec Service Pack 1  <br/> |Internet Explorer 8 (mode natif)  <br/> Internet Explorer 9 (mode natif)  <br/> |
@@ -154,9 +154,9 @@ La console des agents prend en charge les combinaisons de systèmes d’exploita
 > [!NOTE]
 > Les versions 32 bits ou 64 bits des systèmes d’exploitation sont prises en charge. Seules les versions 32 bits d’Internet Explorer sont prises en charge. 
   
-**Systèmes d’exploitation pris en charge et navigateurs Web**
+**Systèmes d’exploitation et navigateurs web pris en charge**
 
-|**Système d'exploitation**|**Navigateur Web**|
+|**Système d'exploitation**|**Navigateur web**|
 |:-----|:-----|
 |Windows Vista avec Service Pack (SP) 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (mode natif)  <br/> Internet Explorer 9 (mode natif)  <br/> |
 |Windows 7  <br/> Windows 7 avec Service Pack 1  <br/> |Internet Explorer 8 (mode natif)  <br/> Internet Explorer 9 (mode natif)  <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
@@ -202,9 +202,9 @@ Le tableau suivant décrit le modèle utilisateur Response Group que vous pouvez
 > [!IMPORTANT]
 > N’oubliez pas que pour la planification de capacité de récupération d’urgence, chaque pool d’un pool associé doit être capable de gérer les charges de travail de tous les groupes de réponse des deux pools. 
   
-**Modèle utilisateur Response Group**
+**Modèle utilisateur de Response Group**
 
-|**Mesure**|**Par pool Enterprise Edition <br/> (avec 8 serveurs frontaux)**|**Par serveur Standard Edition server**|
+|**Mesure**|**Par pool Enterprise Edition <br/> (avec 8 serveurs frontaux)**|**Par serveur Standard Edition**|
 |:-----|:-----|:-----|
 |Appels entrants par seconde  <br/> |16  <br/> |2  <br/> |
 |Appels simultanés connectés à la réponse vocale interactive ou à l’attente musicale  <br/> |480  <br/> |60  <br/> |

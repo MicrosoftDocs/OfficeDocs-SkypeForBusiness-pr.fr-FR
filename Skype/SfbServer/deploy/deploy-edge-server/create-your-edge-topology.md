@@ -1,9 +1,8 @@
 ---
-title: Création de votre topologie Edge pour Skype Entreprise Server 2015
+title: Créer votre topologie du périmètre pour Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
-description: 'Résumé : Apprenez à créer, publier et exporter votre topologie de serveur de transport Edge dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 335713fdcc8c8a88fb31f180ab4553bd64497d9f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Apprenez à créer, publier et exporter votre topologie de serveur de transport Edge dans Skype pour Business Server.'
+ms.openlocfilehash: 2c938312e90c339044a45c654838ec5c587bbd7e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019176"
 ---
-# <a name="create-your-edge-topology-for-skype-for-business-server-2015"></a>Création de votre topologie Edge pour Skype Entreprise Server 2015
+# <a name="create-your-edge-topology-for-skype-for-business-server"></a>Créer votre topologie du périmètre pour Skype pour Business Server
  
-**Résumé :** Découvrez comment créer, publier et exporter votre topologie de serveur de transport Edge dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment créer, publier et exporter votre topologie de serveur de transport Edge dans Skype pour Business Server.
   
-Le Générateur de topologie est l’outil, que vous devez utiliser pour créer votre topologie de serveur de transport Edge, comme il est utilisé pour les composants de topologie pour Skype pour Business Server 2015. Avant de suivre les étapes ci-dessous, vous devez avoir configuré au moins un pool frontal ou un serveur Standard Edition server.
+Le Générateur de topologie est l’outil, que vous devez utiliser pour créer votre topologie de serveur de transport Edge, comme il est utilisé pour les composants de topologie pour Skype pour Business Server. Avant de suivre les étapes ci-dessous, vous devez avoir configuré au moins un pool frontal ou un serveur Standard Edition server.
   
 Cet article couvre les rubriques suivantes :
   
@@ -42,7 +42,7 @@ Cet article couvre les rubriques suivantes :
     
 ## <a name="build-your-edge-server-topology"></a>Créer votre topologie de serveur de transport Edge
 
-La création de votre Skype pour la topologie de serveur de périphérie Business Server 2015, qui se compose d’une des trois options est la première étape du déploiement :
+La création de votre Skype pour la topologie de serveur de périphérie Business Server, qui se compose d’une des trois options est la première étape du déploiement :
   
 - Un serveur Edge unique
     
@@ -54,9 +54,9 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
   
 ### <a name="defining-the-topology-for-a-single-edge-server"></a>Définition de la topologie pour un serveur Edge unique
 
-1. Ouvrez une session sur votre Skype pour Business Server 2015 Standard Edition server ou un Skype pour un pool frontal Business Server 2015.
+1. Ouvrez une session sur votre Skype pour Business Server Standard Edition server ou un Skype pour Business Server un pool frontal.
     
-2. Une fois, ouvrez **Skype pour le Générateur de topologie Business Server 2015**.
+2. Une fois, ouvrez **Skype pour le Générateur de topologie Business Server**.
     
 3. Dans l’arborescence de la console, développez le site que vous allez déployer le serveur Edge.
     
@@ -68,7 +68,7 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
     
 7. Dans l’écran **Sélectionner les fonctionnalités**, vous disposez de plusieurs options :
     
-   - Vous souhaitiez utiliser la même adresse IP et le nom de domaine complet pour votre service d’accès SIP, votre Skype pour le service de conférence Web de Business Server 2015 et votre A / V Edge service. Dans ce cas, vous devez cocher la case **Utiliser un seul nom de domaine complet et une seule adresse IP** (en gardant ceci à l’esprit pour l’étape 9 ci-dessous).
+   - Vous souhaitiez utiliser la même adresse IP et le nom de domaine complet pour votre service d’accès SIP, votre Skype pour le service de conférence Web Business Server et votre A / V Edge service. Dans ce cas, vous devez cocher la case **Utiliser un seul nom de domaine complet et une seule adresse IP** (en gardant ceci à l’esprit pour l’étape 9 ci-dessous).
     
    - Si vous envisagez d’activer la fédération, activez la case à cocher **Activer la fédération pour ce pool Edge (port 5061)**.
     
@@ -108,17 +108,17 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
 14. Dans l’écran de **pools frontaux associés** , vous devez spécifier un ou plusieurs pools internes, y compris les pools frontaux et les serveurs Standard Edition Server à associer à ce serveur de périphérie. Choisissez les noms des pools internes à l’aide de ce serveur de périphérie pour communiquer avec des utilisateurs externes pris en charge. Cliquez sur **Suivant**.
     
     > [!NOTE]
-    > Quelque chose à prendre en compte ici est, si vos pools internes ou les serveurs autonomes utilisent déjà un autre Skype pour le serveur de périphérie Business Server 2015, ils ne peuvent pas avoir plusieurs associations. Si vous choisissez un pool interne ou un serveur autonome qui est dans ce cas, vous verrez un message s’affiche pour vous indiquer sur l’autre serveur Edge, et vous pouvez décider si vous souhaitez continuer ou non. Si vous poursuivez avec cette nouvelle association, la connexion à l’autre serveur Edge s’arrête. 
+    > Quelque chose à prendre en compte ici est, si vos pools internes ou les serveurs autonomes utilisent déjà un autre Skype pour Business Server Edge Server, ils ne peuvent pas avoir plusieurs associations. Si vous choisissez un pool interne ou un serveur autonome qui est dans ce cas, vous verrez un message s’affiche pour vous indiquer sur l’autre serveur Edge, et vous pouvez décider si vous souhaitez continuer ou non. Si vous poursuivez avec cette nouvelle association, la connexion à l’autre serveur Edge s’arrête. 
   
 15. Cliquez sur **Terminer** dans l’écran suivant.
     
-16. Maintenant, vous serez en mesure de publier cette technologie mis à jour et suivez les instructions de [Déploiement des serveurs de périphérie dans Skype pour Business Server 2015](deploy-edge-servers.md) à déployer sur votre serveur Edge à partir d’ici.
+16. Maintenant, vous serez en mesure de publier cette technologie mis à jour et suivez les instructions de [Déploiement des serveurs de périphérie dans Skype pour Business Server](deploy-edge-servers.md) à déployer sur votre serveur Edge à partir d’ici.
     
 ### <a name="defining-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>Définition de la topologie pour un serveur DNS pool de serveurs Edge avec équilibrage de charge
 
-1. Ouvrez une session sur votre Skype pour Business Server 2015 Standard Edition server ou un Skype pour Business Server 2015 serveur frontal.
+1. Ouvrez une session sur votre Skype pour Business Server Standard Edition server ou un Skype pour Business Server serveur frontal.
     
-2. Une fois, ouvrez **Skype pour le Générateur de topologie Business Server 2015**.
+2. Une fois, ouvrez **Skype pour le Générateur de topologie Business Server**.
     
 3. Dans l’arborescence de la console, développez le site que vous allez déployer le serveur Edge.
     
@@ -130,7 +130,7 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
     
 7. Dans l’écran **Sélectionner les fonctionnalités**, vous disposez de plusieurs options :
     
-    - Vous souhaitiez utiliser la même adresse IP et le nom de domaine complet pour votre service d’accès SIP, votre Skype pour le Service de conférence Web Business Server 2015 et votre A / V Edge service. Dans ce cas, vous devez cocher la case **Utiliser un seul nom de domaine complet et une seule adresse IP** (en gardant ceci à l’esprit pour l’étape 9 ci-dessous).
+    - Vous souhaitiez utiliser la même adresse IP et le nom de domaine complet pour votre service d’accès SIP, votre Skype pour le Service de conférence Web Business Server et votre A / V Edge service. Dans ce cas, vous devez cocher la case **Utiliser un seul nom de domaine complet et une seule adresse IP** (en gardant ceci à l’esprit pour l’étape 9 ci-dessous).
     
     - Si vous envisagez d’activer la fédération, activez la case à cocher **Activer la fédération pour ce pool Edge (port 5061)**.
     
@@ -176,17 +176,17 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
 17. Dans l’écran de **pools frontaux associés** , vous devez spécifier un ou plusieurs pools internes, y compris les pools frontaux et Standard Edition, à associer à ce serveur de périphérie. Choisissez les noms des pools internes à l’aide de ce serveur de périphérie pour communiquer avec des utilisateurs externes pris en charge. Cliquez sur **Suivant**.
     
     > [!NOTE]
-    > Quelque chose à prendre en compte ici est, si vos pools internes ou les serveurs autonomes utilisent déjà un autre Skype pour le serveur de périphérie Business Server 2015, ils ne peuvent pas avoir plusieurs associations. Si vous choisissez un pool interne ou un serveur autonome qui est dans ce cas, vous verrez un message s’affiche pour vous indiquer sur l’autre serveur Edge, et vous pouvez décider si vous souhaitez continuer ou non. Si vous poursuivez avec cette nouvelle association, la connexion à l’autre serveur Edge s’arrête. 
+    > Quelque chose à prendre en compte ici est, si vos pools internes ou les serveurs autonomes utilisent déjà un autre Skype pour Business Server Edge Server, ils ne peuvent pas avoir plusieurs associations. Si vous choisissez un pool interne ou un serveur autonome qui est dans ce cas, vous verrez un message s’affiche pour vous indiquer sur l’autre serveur Edge, et vous pouvez décider si vous souhaitez continuer ou non. Si vous poursuivez avec cette nouvelle association, la connexion à l’autre serveur Edge s’arrête. 
   
 18. Cliquez sur **Terminer** dans l’écran suivant.
     
-19. Maintenant, vous serez en mesure de publier cette technologie mis à jour et suivez les instructions de [Déploiement des serveurs de périphérie dans Skype pour Business Server 2015](deploy-edge-servers.md) à déployer sur votre serveur Edge à partir d’ici.
+19. Maintenant, vous serez en mesure de publier cette technologie mis à jour et suivez les instructions de [Déploiement des serveurs de périphérie dans Skype pour Business Server](deploy-edge-servers.md) à déployer sur votre serveur Edge à partir d’ici.
     
 ### <a name="defining-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>Définition de la topologie pour un équilibrage de charge matérielle équilibrée pool de serveurs Edge
 
-1. Ouvrez une session sur votre Skype pour Business Server 2015 Standard Edition server ou un Skype pour Business Server 2015 serveur frontal.
+1. Ouvrez une session sur votre Skype pour Business Server Standard Edition server ou un Skype pour Business Server serveur frontal.
     
-2. Une fois, ouvrez **Skype pour le Générateur de topologie Business Server 2015**.
+2. Une fois, ouvrez **Skype pour le Générateur de topologie Business Server**.
     
 3. Dans l’arborescence de la console, développez le site que vous allez déployer le serveur Edge.
     
@@ -198,7 +198,7 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
     
 7. Dans l’écran **Sélectionner les fonctionnalités**, vous disposez de plusieurs options :
     
-   - Vous souhaitiez utiliser la même adresse IP et le nom de domaine complet pour votre service d’accès SIP, votre Skype pour le Service de conférence Web Business Server 2015 et votre A / V Edge service. Dans ce cas, vous devez cocher la case **Utiliser un seul nom de domaine complet et une seule adresse IP** (en gardant ceci à l’esprit pour l’étape 9 ci-dessous).
+   - Vous souhaitiez utiliser la même adresse IP et le nom de domaine complet pour votre service d’accès SIP, votre Skype pour le Service de conférence Web Business Server et votre A / V Edge service. Dans ce cas, vous devez cocher la case **Utiliser un seul nom de domaine complet et une seule adresse IP** (en gardant ceci à l’esprit pour l’étape 9 ci-dessous).
     
    - Si vous envisagez d’activer la fédération, activez la case à cocher **Activer la fédération pour ce pool Edge (port 5061)**.
     
@@ -245,19 +245,19 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
 16. Dans l’écran de **pools frontaux associés** , vous devez spécifier un ou plusieurs pools internes, y compris les pools frontaux et Standard Edition, à associer à ce serveur de périphérie. Choisissez les noms des pools internes à l’aide de ce serveur de périphérie pour communiquer avec des utilisateurs externes pris en charge. Cliquez sur **Suivant**.
     
     > [!NOTE]
-    > Quelque chose à prendre en compte ici est, si vos pools internes ou les serveurs autonomes utilisent déjà un autre Skype pour le serveur de périphérie Business Server 2015, ils ne peuvent pas avoir plusieurs associations. Si vous choisissez un pool interne ou un serveur autonome qui est dans ce cas, vous verrez un message s’affiche pour vous indiquer sur l’autre serveur Edge, et vous pouvez décider si vous souhaitez continuer ou non. Si vous poursuivez avec cette nouvelle association, la connexion à l’autre serveur Edge s’arrête. 
+    > Quelque chose à prendre en compte ici est, si vos pools internes ou les serveurs autonomes utilisent déjà un autre Skype pour Business Server Edge Server, ils ne peuvent pas avoir plusieurs associations. Si vous choisissez un pool interne ou un serveur autonome qui est dans ce cas, vous verrez un message s’affiche pour vous indiquer sur l’autre serveur Edge, et vous pouvez décider si vous souhaitez continuer ou non. Si vous poursuivez avec cette nouvelle association, la connexion à l’autre serveur Edge s’arrête. 
   
 17. Cliquez sur **Terminer** dans l’écran suivant.
     
-18. Maintenant, vous serez en mesure de publier cette technologie mis à jour et suivez les instructions de [Déploiement des serveurs de périphérie dans Skype pour Business Server 2015](deploy-edge-servers.md) à déployer sur votre serveur Edge à partir d’ici.
+18. Maintenant, vous serez en mesure de publier cette technologie mis à jour et suivez les instructions de [Déploiement des serveurs de périphérie dans Skype pour Business Server](deploy-edge-servers.md) à déployer sur votre serveur Edge à partir d’ici.
     
 ## <a name="publish-your-edge-server-topology"></a>Publication de votre topologie de serveur Edge
 
-Une fois que vous avez terminé les étapes ci-dessus, il est temps de publier cette nouvelle topologie, ce qui vous permettra également exporter vers votre Skype pour le pool de serveur de périphérie Business Server 2015 ou Edge. Procédez comme suit :
+Une fois que vous avez terminé les étapes ci-dessus, il est temps de publier cette nouvelle topologie, ce qui vous permettra également exporter vers votre Skype pour le pool d’entreprise serveur Edge ou Edge. Procédez comme suit :
   
 1. Lancez le **générateur de topologie** (s’il n’a pas déjà été lancé au cours de la procédure précédente).
     
-2. Dans **Le Générateur de topologie**, dans l’arborescence de la console, avec le bouton droit **Skype pour Business Server 2015** , puis sur **Skype pour le Générateur de topologie Business Server**.
+2. Dans **Le Générateur de topologie**, dans l’arborescence de la console, avec le bouton droit **Skype pour Business Server** , puis sur **Skype pour le Générateur de topologie Business Server**.
     
 3. Dans la page **Bienvenue** de l’Assistant, cliquez sur **Suivant**.
     
@@ -271,7 +271,7 @@ Une fois que vous avez terminé les étapes ci-dessus, il est temps de publier c
     
 ## <a name="export-your-edge-server-topology"></a>Exportation de votre topologie de serveur Edge
 
-Pour déployer avec succès, le Skype pour l’Assistant de déploiement 2015 Business Server doit avoir accès pour les données du magasin Central de gestion. Pour les serveurs internes de votre domaine ou de votre forêt, ceci est généralement simple. Serveurs de périphérie sont en dehors du domaine, et il est donc nécessaire exporter manuellement le fichier de topologie à l’emplacement du serveur de transport Edge, généralement sur un support physique. Cette exportation s’effectue via PowerShell :
+Pour déployer avec succès, le Skype pour l’Assistant de déploiement Business Server doit avoir accès pour les données du magasin Central de gestion. Pour les serveurs internes de votre domaine ou de votre forêt, ceci est généralement simple. Serveurs de périphérie sont en dehors du domaine, et il est donc nécessaire exporter manuellement le fichier de topologie à l’emplacement du serveur de transport Edge, généralement sur un support physique. Cette exportation s’effectue via PowerShell :
   
 1. Démarrez le **Skype pour Business Server Management Shell**.
     

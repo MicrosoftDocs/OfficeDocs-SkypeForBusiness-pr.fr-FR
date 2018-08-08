@@ -1,9 +1,8 @@
 ---
-title: Déployer l’appel via le bureau dans Skype Entreprise Server 2015
+title: Déployer l’appel via le bureau dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: 'Résumé : Découvrez comment déployer des appels via le bureau dans Skype pour Business Server 2015 pour tout ou partie de vos utilisateurs.'
-ms.openlocfilehash: e101cf39daedb8d94879b6cf99cd0c7b4ae00e8d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Découvrez comment déployer des appels via le bureau dans Skype pour Business Server pour tout ou partie de vos utilisateurs.'
+ms.openlocfilehash: 60890f510f5f895f3a99f070cd9cf1a7c997da61
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991044"
 ---
-# <a name="deploy-call-via-work-in-skype-for-business-server-2015"></a>Déployer l’appel via le bureau dans Skype Entreprise Server 2015
+# <a name="deploy-call-via-work-in-skype-for-business-server"></a>Déployer l’appel via le bureau dans Skype pour Business Server
  
-**Résumé :** Apprenez à déployer des appels via le bureau dans Skype pour Business Server 2015 pour tout ou partie de vos utilisateurs.
+**Résumé :** Apprenez à déployer des appels via le bureau dans Skype pour Business Server pour tout ou partie de vos utilisateurs.
   
-Utilisez ces étapes pour déployer un appel via le bureau pour vos utilisateurs. Considérations de planification décrits dans [Plan pour un appel via le bureau dans Skype pour Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). Dans les versions précédentes d’appel distant Lync Server contrôle est une fonctionnalité qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype pour Business Server, cette fonctionnalité a été remplacée par un appel via le bureau. 
+Utilisez ces étapes pour déployer un appel via le bureau pour vos utilisateurs. Considérations de planification décrits dans [Plan pour un appel via le bureau dans Skype pour Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). Dans les versions précédentes d’appel distant Lync Server contrôle est une fonctionnalité qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype pour Business Server, cette fonctionnalité a été remplacée par un appel via le bureau. 
   
 ## <a name="prerequisites-for-call-via-work"></a>Conditions requises pour l’appel via le bureau
 
@@ -72,9 +72,7 @@ Une fois les conditions préalables remplies, procédez comme suit :
 - Saisissez l’applet de commande suivant
     
   ```
-  New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber
-    <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
-
+  New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
     Par exemple, l’applet de commande suivante crée une stratégie d’appel via le bureau appelée ContosoUser1CvWP, oblige l’utilisateur à utiliser un numéro de rappel d’administration et définit ce numéro de rappel 1-555-789-1234.
@@ -99,7 +97,5 @@ Une fois les conditions préalables remplies, procédez comme suit :
 
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Plan pour un appel via le bureau dans Skype pour Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[Plan pour un appel via le bureau dans Skype pour Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

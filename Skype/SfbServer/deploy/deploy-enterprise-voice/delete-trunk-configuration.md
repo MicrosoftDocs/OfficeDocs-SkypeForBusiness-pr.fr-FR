@@ -1,9 +1,8 @@
 ---
-title: Suppression d’une collection de paramètres de configuration de jonction SIP (Session Initiation Protocol) existante dans Skype Entreprise Server 2015
+title: Supprimer une collection existante de paramètres de configuration jonction SIP dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Résumé : Découvrez comment supprimer une collection de paramètres de configuration de jonction à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 64831efe35880b3e211543c80d9ba00939128354
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 94f6e24c645a85bf2ed9ba5ded2f8eb4f207209f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968830"
 ---
-# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server-2015"></a>Suppression d’une collection de paramètres de configuration de jonction SIP (Session Initiation Protocol) existante dans Skype Entreprise Server 2015
+# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Supprimer une collection existante de paramètres de configuration jonction SIP dans Skype pour Business Server
  
 **Résumé :** Découvrez comment supprimer une collection de paramètres de configuration de jonction à l’aide de la Skype pour le panneau de configuration serveur Business.
   

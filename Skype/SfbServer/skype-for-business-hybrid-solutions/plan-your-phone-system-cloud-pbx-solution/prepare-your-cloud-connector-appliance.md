@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Découvrez comment préparer votre solution de nuage connecteur pour le déploiement et l’utiliser avec le système téléphonique dans Office 365 (en nuage PBX).
-ms.openlocfilehash: 130d593ba94eff9da163363a652bc389b713d1b0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 54ee8394c9da5b00e6a9c9afa7d4a1f3419c2f41
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176089"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Préparation de votre appliance Cloud Connector
  
@@ -117,9 +118,9 @@ Cette rubrique décrit comment obtenir les fichiers d’installation de la versi
     Spécifiez le chemin d’accès vers le certificat externe, notamment le nom de fichier. Le certificat peut être enregistré localement ou sur un partage de fichier. S’il est enregistré dans un dossier partagé, le dossier partagé doit être créé sur la première appliance de chaque site et être accessible par d’autres appliances appartenant au même site. Cette applet de commande copie le certificat externe vers l’**annuaire d’appliances**.
     
     > [!IMPORTANT]
-    > **Si vous avez mis à jour vers le nuage connecteur version 1.4.2 ou une version ultérieure**, assurez-vous que votre certificat externe préparé contient les clés privées et la chaîne de certificats complète, y compris le certificat d’autorité de certification racine et les certificats autorité de certification intermédiaire. > **Si vous avez PAS encore mis à jour vers le nuage connecteur version 1.4.2**, assurez-vous que votre certificat externe préparé contient les clés privées. Ce certificat externe doit être émis par une autorité de certification approuvée par défaut par Windows.
+    > **Si vous avez mis à jour la version 1.4.2 ou suivante de Cloud Connector**, assurez-vous que votre certificat externe préparé contient des clés privées et la chaîne complète de certificats comprenant le certificat de l'AC racine et les certificats de l'AC intermédiaire.   **Si vous n’avez pas encore mis à jour la version 1.4.2 de Cloud Connector**, vérifiez que votre certificat externe préparé contient des clés privées. Ce certificat externe doit être émis par une autorité de certification approuvée par défaut par Windows.
   
-## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Définir le chemin d’accès pour le certificat externe de la passerelle/SBC PSTN
+## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Définition du chemin d’accès pour le certificat externe de la passerelle RTC/SBC
 
 Si vous utilisez TLS entre le serveur de médiation et la passerelle RTC/SBC, exécutez l’applet de commande suivante pour configurer le chemin d’accès, notamment le nom de fichier vers le certificat passerelle. Par exemple : C:\certs\cce\sbc.contoso.com.cer. Le certificat doit contenir l’AC racine et la chaîne intermédiaire pour le certificat assigné à la passerelle :
   
@@ -157,14 +158,14 @@ Pour mettre à jour le fichier, exécutez d’abord l’applet de commande suiva
 Export-CcConfigurationSampleFile
 ```
 
-L’exemple de modèle est stocké dans le **répertoire d'équipements**.
+L’exemple de modèle est stocké dans le **répertoire d'équipements**. 
   
-Une fois mis à jour avec les valeurs relatives à votre environnement, enregistrez le fichier sous CloudConnector.ini dans le **répertoire d'équipements**. Vous pouvez exécuter **Get-CcApplianceDirectory** pour déterminer le chemin d’accès au **Répertoire de l’application**.
+Une fois mis à jour avec les valeurs relatives à votre environnement, enregistrez le fichier sous CloudConnector.ini dans le **répertoire d'équipements**. Vous pouvez exécuter **Get-CcApplianceDirectory** pour définir le chemin d’accès sur le **répertoire d'équipements**.
   
 Lors de la mise à jour du fichier .ini, tenez compte des points suivants :
   
 > [!NOTE]
-> Cette section couvre uniquement les valeurs du fichier .ini qui comportent des caractéristiques spécifiques. Pour obtenir la liste complète, consultez la section de [déterminer les paramètres de déploiement](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) de la rubrique [planifier Skype pour l’édition de connecteur Business Cloud](plan-skype-for-business-cloud-connector-edition.md) . > Pour plus d’informations sur ce que les valeurs doivent être modifiés pour appliances supplémentaires ou de nouveaux sites, voir [ Site unique avec une haute disponibilité par rapport aux déploiements de plusieurs sites](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) dans la rubrique[déploiement de plusieurs sites dans le nuage connecteur](deploy-multiple-sites-in-cloud-connector.md). 
+> Cette section couvre uniquement les valeurs du fichier .ini qui comportent des caractéristiques spécifiques. Pour obtenir la liste complète, consultez la section [déterminer les paramètres de déploiement](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) de la rubrique [planifier Skype pour l’édition de connecteur Business Cloud](plan-skype-for-business-cloud-connector-edition.md) . Pour plus d’informations sur la nature des valeurs devant être changées pour des appliances supplémentaires ou de nouveaux sites, reportez-vous à [Site unique à haute disponibilité comparé aux déploiements multi-sites](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) dans la rubrique [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 - **SiteName :** la valeur par défaut est **Site1**. Vous devez la mettre à jour avant de déployer Cloud Connector, car lorsque vous exécutez **Register-CcAppliance** pour enregistrer un équipement dans un site existant ou nouveau, l’applet de commande utilisera le **SiteName** pour déterminer le site à enregistrer.
     
@@ -174,13 +175,14 @@ Lors de la mise à jour du fichier .ini, tenez compte des points suivants :
     
 - **HardwareType :** Si vous ne définissez ou conservez la valeur null, la valeur par défaut du **style Normal** sera utilisée. Utilisez **Normal** si vous prévoyez de déployer la version la plus grande du nuage connecteur pour prendre en charge 500 appels simultanés par ordinateur hôte comme décrit dans [Plan for Skype pour l’édition de connecteur Business Cloud](plan-skype-for-business-cloud-connector-edition.md). Utilisez **Minimum** pour un déploiement moins développé qui prend en charge 50 appels simultanés.
     
-- **Commutateurs virtuels Internet/réseau d’entreprise/gestion :**: ajouter le nom des commutateurs virtuels que vous avez créé. Pour le commutateur virtuel gestion, laissez la valeur par défaut. Le script de déploiement crée le commutateur virtuel gestion au début du déploiement et supprimer une fois le déploiement.
+- **Commutateurs virtuels Internet/réseau d’entreprise/de gestion** : ajoutez le nom des commutateurs virtuels que vous avez créés. Dans le cas du commutateur virtuel de gestion, laissez la valeur par défaut. Le script de déploiement créera le commutateur virtuel de gestion au début du déploiement et le supprimera à l’issue de celui-ci.
+
     
 - **ManagementIPPrefix :** le paramètre ManagementIPPrefix dans la section Réseau doit être un sous-réseau différent des autres IP internes. Par exemple, comme la valeur par défaut l’indique, ManagementIPPrefix est 192.168.213.0, tandis que AD IPAddress est 192.168.0.238.
     
     Les scripts de déploiement créent une carte réseau de gestion sur chacune des machines virtuelles, affectent une adresse IP de gestion et les connectent à un commutateur virtuel de gestion. Le serveur hôte peut ainsi se connecter aux machines virtuelles et les gérer via ce réseau de gestion. Le commutateur virtuel de gestion est supprimé à l’issue du déploiement.
     
-- **Configurations spécifiques d’ordinateur virtuel de base :** Paramètres de cette section doivent être configurés pour l’applet de commande **Convert-CcIsoToVhdx** .
+- **Configurations spécifiques aux machines virtuelles de base :** les paramètres de cette section doivent être configurés pour l’applet de commande **Convert-CcIsoToVhdx**.
     
     Lors de la préparation de l’image de machine virtuelle de base, la machine virtuelle de base sera connectée au commutateur réseau interne. Les paramètres suivants sont critiques et permettent à la machine virtuelle d’accéder à Internet :
     
@@ -306,7 +308,7 @@ Le compte CceService est créé lors du déplacement de Skype Entreprise, versi
 
 Un client Office 365 avec Skype pour Business Online et système téléphonique dans Office 365 est requis. Assurez-vous que votre client est installé et configuré avant d’essayer d’utiliser le connecteur sur le nuage.
   
-Certaines étapes de configuration d’Office 365 vous obligent à utiliser PowerShell à distance de client (TRPS) pour configurer votre client Office 365. **Il doit être installé sur le serveur hôte**. Vous pouvez télécharger le Skype pour le module Business Online pour PowerShell à partir de :[Skype pour Business Online, le Module Windows PowerShell](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Certaines étapes de configuration d’Office 365 vous obligent à utiliser PowerShell à distance de client (TRPS) pour configurer votre client Office 365. **Il doit être installé sur le serveur hôte**. Vous pouvez télécharger le Skype pour le module Business Online pour PowerShell à partir de : [Skype pour Business Online, le Module Windows PowerShell](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
   
 Créez un Skype dédié pour le compte d’administrateur entreprise pour la gestion en ligne dans le nuage connecteur, par exemple CceOnlineManagmentAdministrator. Ce compte sera utilisé pour ajouter ou supprimer un équipement, activer ou désactiver une mise à jour de SE automatique, activer ou désactiver la mise à jour automatique de fichiers binaires. Définissez le mot de passe de ce compte pour qu’il n’expire jamais ; ainsi vous n’aurez jamais à le modifier pour le service.
   

@@ -1,8 +1,7 @@
 ---
-title: Validation du déploiement d’Edge dans Skype Entreprise Server 2015
+title: Valider votre déploiement Edge dans Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,22 +10,23 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: 'Résumé : Découvrez comment vérifier que votre déploiement de serveur Edge ou pool de serveurs Edge fonctionne dans Skype pour Business Server 2015.'
-ms.openlocfilehash: b8adc5e8d652607156d0136671b1f149fbfe27b4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Découvrez comment vérifier que votre déploiement de serveur Edge ou pool de serveurs Edge fonctionne dans Skype pour Business Server.'
+ms.openlocfilehash: cb239e2777926796761dd91c1460e1147772a34a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015096"
 ---
-# <a name="validate-your-edge-deployment-in-skype-for-business-server-2015"></a>Validation du déploiement d’Edge dans Skype Entreprise Server 2015
+# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Valider votre déploiement Edge dans Skype pour Business Server
  
-**Résumé :** Découvrez comment vérifier que votre déploiement de serveur Edge ou pool de serveurs Edge fonctionne dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment vérifier que votre déploiement de serveur Edge ou pool de serveurs Edge fonctionne dans Skype pour Business Server.
   
-Une fois que vous avez déployé votre serveur Edge ou le pool de serveurs Edge, vous devez savoir si elle fonctionne correctement. Voici quelques éléments qui peuvent aider à vous demandant de confirmer votre environnement Edge est connecté à vos serveurs internes et que vos utilisateurs externes peuvent se connecter à votre Skype pour environnement Business Server 2015, par le biais de votre serveur Edge.
+Une fois que vous avez déployé votre serveur Edge ou le pool de serveurs Edge, vous devez savoir si elle fonctionne correctement. Voici quelques éléments qui peuvent aider à vous demandant de confirmer votre environnement Edge est connecté à vos serveurs internes et que vos utilisateurs externes peuvent se connecter à votre Skype pour un environnement Business Server, par le biais de votre serveur Edge.
   
 ## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>Vérification de la connectivité entre vos serveurs internes et vos serveurs Edge
 
-Alors que la validation de la connectivité est effectuée automatiquement au serveur Edge ou pool de serveurs Edge lorsque les serveurs de périphérie sont installés, vous pouvez toujours confirmer par vous-même avec Windows PowerShell. Exécutez l’applet de commande Get-CsManagementStoreReplicationStatus sur le serveur interne ayant magasin Central de gestion, ou n’importe quel ordinateur jointes domaine le Skype pour les composants principaux (OcsCore.msi) de Business Server 2015 sont installés.
+Alors que la validation de la connectivité est effectuée automatiquement au serveur Edge ou pool de serveurs Edge lorsque les serveurs de périphérie sont installés, vous pouvez toujours confirmer par vous-même avec Windows PowerShell. Exécutez l’applet de commande Get-CsManagementStoreReplicationStatus sur le serveur interne ayant magasin Central de gestion, ou n’importe quel ordinateur du domaine jointes sur le Skype pour Business Server les composants principaux (OcsCore.msi) sont installés.
   
 Le résultat initial de l’exécution de cette commande peut donner un statut False, plutôt que True, pour la réplication. Dans ce cas, exécutez l’applet de commande Invoke-Cs ManagementStoreReplication. Donnez-lui un peu de temps pour terminer la réplication, puis, exécutez à nouveau l’applet de commande Get-Cs ManagementStoreReplicationStatus.
   

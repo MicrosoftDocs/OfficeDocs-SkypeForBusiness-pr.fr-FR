@@ -16,12 +16,13 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
-description: 'Résumé : Lisez cette rubrique pour savoir comment planifier la connectivité hybride entre Skype pour Business Server et Skype pour Business Online. La première étape du déploiement de nombreuses solutions hybrides Skype Entreprise consiste à configurer une connectivité hybride.'
-ms.openlocfilehash: d61bdd8ecf7ce35e1f80e5b69ede590d5d2c1cd1
-ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
+description: 'Résumé : consultez cette rubrique pour découvrir comment planifier la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online.  La première étape du déploiement de nombreuses solutions hybrides Skype Entreprise consiste à configurer une connectivité hybride.'
+ms.openlocfilehash: 2cd4c66ebd36542fa90cb8b8bcd0aa88da0d8df0
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145364"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planification de la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online
  
@@ -33,31 +34,31 @@ Cette rubrique contient les sections suivantes :
   
 - [Vue d’ensemble](plan-hybrid-connectivity.md#BKMK_Overview)
     
-- [Conditions d’infrastructure requises](plan-hybrid-connectivity.md#BKMK_Infrastructure)
+- [Conditions requises pour l'infrastructure](plan-hybrid-connectivity.md#BKMK_Infrastructure)
     
-- [Prise en charge de forêts multiples](plan-hybrid-connectivity.md#BKMK_MultiForest)
+- [Prise en charge des environnements multi-forêts](plan-hybrid-connectivity.md#BKMK_MultiForest)
     
-- [Coexistence d’Exchange](plan-hybrid-connectivity.md#BKMK_Exchange)
+- [Coexistence avec Exchange](plan-hybrid-connectivity.md#BKMK_Exchange)
     
-- [Informations d’identification d’administrateur](plan-hybrid-connectivity.md#BKMK_Credentials)
+- [Informations d'identification de l'administrateur](plan-hybrid-connectivity.md#BKMK_Credentials)
     
-- [Skype pour Business Online PowerShell](plan-hybrid-connectivity.md#BKMK_PowerShell)
+- [Skype Entreprise Online PowerShell](plan-hybrid-connectivity.md#BKMK_PowerShell)
     
-- [Skype pour la prise en charge du client Business](plan-hybrid-connectivity.md#BKMK_ClientSupport)
+- [Prise en charge du client Skype Entreprise](plan-hybrid-connectivity.md#BKMK_ClientSupport)
     
-- [Pour la topologie](plan-hybrid-connectivity.md#BKMK_Topology)
+- [Conditions requises pour la topologie](plan-hybrid-connectivity.md#BKMK_Topology)
     
-- [Autorisé/bloqué répertorie les exigences de fédération](plan-hybrid-connectivity.md#BKMK_Federation)
+- [Configuration requise pour les listes de fédération autorisées/bloquées](plan-hybrid-connectivity.md#BKMK_Federation)
     
 - [Paramètres DNS](plan-hybrid-connectivity.md#BKMK_DNS)
     
-- [Considérations relatives au pare-feu](plan-hybrid-connectivity.md#BKMK_Firewall)
+- [Éléments à prendre en compte pour le pare-feu](plan-hybrid-connectivity.md#BKMK_Firewall)
     
-- [Exigences de ports et protocoles](plan-hybrid-connectivity.md#BKMK_Ports)
+- [Configuration requise pour les ports et les protocoles](plan-hybrid-connectivity.md#BKMK_Ports)
     
-- [Comptes d’utilisateurs et des données](plan-hybrid-connectivity.md#BKMK_UserAccounts)
+- [Comptes et données utilisateur](plan-hybrid-connectivity.md#BKMK_UserAccounts)
     
-- [Fonctionnalités et les stratégies utilisateur](plan-hybrid-connectivity.md#BKMK_UserPolicies)
+- [Fonctionnalités et stratégies utilisateur](plan-hybrid-connectivity.md#BKMK_UserPolicies)
     
 Une fois que vous avez lu cette rubrique et que vous êtes prêt à déployer, voir [déployer la connectivité hybride entre Skype pour Business Server et Skype pour Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Les rubriques sur le déploiement fournissent des instructions détaillées sur la configuration d'une connectivité hybride entre votre déploiement sur site et Skype Entreprise Online.
   
@@ -126,6 +127,9 @@ Vous pouvez également configurer des déploiements hybrides pour l’intégrati
 Pour implémenter et déployer une connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online, vous devez configurer les éléments suivants dans votre environnement :
   
 - Un seul déploiement local de Skype pour Business Server ou un serveur Lync qui est déployé dans une topologie prise en charge. Dans cette rubrique, voir [Configuration requise de topologie](plan-hybrid-connectivity.md#BKMK_Topology) .
+    
+    > [!NOTE]
+    > Tous les domaines SIP qui existe dans votre environnement local doivent également exister dans votre organisation cliente Office 365 et vice versa. Vous ne pouvez pas des domaines SIP en ligne uniquement et certains domaines locaux uniquement. Dans le cas contraire, présence, messagerie instantanée et autres fonctionnalités fonctionnera pas correctement.
     
 - Un client Microsoft Office 365 avec Skype pour Business Online activé. 
     
@@ -205,7 +209,7 @@ Des différences existent dans les fonctionnalités prises en charge dans les cl
     
 Avant de décider où vous souhaitez héberger des utilisateurs dans votre organisation, vous devez examiner la [comparaison des fonctionnalités client de bureau pour Skype pour les entreprises](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) pour déterminer la prise en charge du client pour les différentes configurations de Skype pour Business Server. Voir aussi :
   
-- [Planifier les clients et périphériques](../plan-your-deployment/clients-and-devices/clients-and-devices.md)
+- [Planifier des clients et des appareils](../plan-your-deployment/clients-and-devices/clients-and-devices.md)
     
 - [Comparaison des fonctionnalités de client mobile pour Skype pour les entreprises](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
     
@@ -278,7 +282,9 @@ En outre, vous devez vous assurer que la résolution DNS décrite dans le tablea
 |Enregistrement(s) DNS A pour le FQDN du service de conférence web Edge, par exemple webcon.contoso.com se résolvant en adresse(s) IP externe(s) Edge de conférence web  <br/> |Réseau d’entreprise interne connecté les ordinateurs des utilisateurs  <br/> |Permettre aux utilisateurs de présenter ou d'afficher le contenu de réunions hébergées localement. Ce contenu peut inclure des fichiers PowerPoint, des tableaux blancs, des sondages et des notes partagées.   <br/> |
    
 En fonction de la configuration DNS de votre organisation, vous devrez peut-être ajouter ces enregistrements dans la zone DNS hébergée en interne pour le(s) domaine(s) SIP correspondant(s) afin de fournir à ces enregistrements une résolution DNS interne.
-  
+
+[!NOTE] _sipfederationtls._tcp. \<sipdomain.com\> résolution d’enregistrement SRV depuis le serveur Edge est requise pour la configuration hybride. Si le serveur de périphérie ne peut pas résoudre ces enregistrements, les utilisateurs locaux ne sera pas en mesure de voir la présence ou de communiquer avec les utilisateurs en ligne.
+
 ## <a name="firewall-considerations"></a>Éléments à prendre en compte pour le pare-feu
 <a name="BKMK_Firewall"> </a>
 
@@ -294,7 +300,7 @@ Pour plus d’informations, voir [Office 365 URL et plages d’adresses IP](http
 En plus de la configuration requise pour les ports pour les communications internes, vous devez également configurer les ports suivants pour activer la connectivité hybride :
   
 
-|**Protocole**|**TCP ou UDP**|**Adresse IP source**|**Destination IP**|**Port source**|**Port de destination**|**Remarques**|
+|**Protocole**|**TCP ou UDP**|**Adresse IP source**|**Adresse IP de destination**|**Port source**|**Port de destination**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |Serveur Edge d’accès  <br/> |Office 365  <br/> |Indifférente  <br/> |5061  <br/> |Signalisation  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |Serveur Edge d’accès  <br/> |Indifférente  <br/> |5061  <br/> |Signalisation  <br/> |

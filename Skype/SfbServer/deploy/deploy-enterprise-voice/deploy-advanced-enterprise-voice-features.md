@@ -1,9 +1,8 @@
 ---
-title: Déploiement des fonctionnalités avancées Voix Entreprise dans Skype Entreprise Server 2015
+title: Déployer les fonctionnalités voix entreprise dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,32 +13,33 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: Déployer les fonctionnalités voix entreprise dans Skype pour Business Server.
-ms.openlocfilehash: fc36659dff4bc83cd1a7862b366c88b1f275bd14
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ca9d25ec79c6eb86fca8055b5ae00748cf9c3468
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999435"
 ---
-# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server-2015"></a>Déploiement des fonctionnalités avancées Voix Entreprise dans Skype Entreprise Server 2015
+# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Déployer les fonctionnalités voix entreprise dans Skype pour Business Server
  
 Déployer les fonctionnalités voix entreprise dans Skype pour Business Server.
   
 Après avoir configuré Voix Entreprise dans votre organisation, vous pouvez déployer une ou plusieurs fonctionnalités Voix Entreprise plus avancées en procédant comme indiqué dans cette section. 
   
-- [Planifier le contournement de média dans Skype pour Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+- [Planification du contournement de média dans Skype pour les entreprises](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [Planifier le contrôle d’admission des appels d’appel dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [Planifier le contrôle d’admission des appels d’appel dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [Planifier les services d’urgence dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [Planifier les services d’urgence dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Déployer des régions réseau, sites et sous-réseaux de Skype pour Business 2015](deploy-network.md)
+- [Déployer des régions réseau, sites et sous-réseaux de Skype pour les entreprises](deploy-network.md)
     
-- [Déployer le contournement de média dans Skype pour Business Server 2015](deploy-media-bypass.md)
+- [Déployer le contournement de média dans Skype pour Business Server](deploy-media-bypass.md)
     
-- [Déployer le contrôle d’admission des appels d’appel dans Skype pour Business Server 2015](deploy-call-admission-control.md)
+- [Déployer le contrôle d’admission des appels d’appel dans Skype pour Business Server](deploy-call-admission-control.md)
     
-- [Déployer des services d’urgence dans Skype pour Business Server 2015](deploy-emergency-services.md)
+- [Déployer des services d’urgence dans Skype pour Business Server](deploy-emergency-services.md)
     
 

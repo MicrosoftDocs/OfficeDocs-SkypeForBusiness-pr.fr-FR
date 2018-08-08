@@ -1,9 +1,8 @@
 ---
-title: Définition d’une passerelle dans le générateur de topologie dans Skype Entreprise Server 2015
+title: Définir une passerelle dans le Générateur de topologie dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
-description: 'Résumé : Découvrez comment définir une passerelle PSTN dans le Générateur de topologie dans Skype pour Business Server 2015.'
-ms.openlocfilehash: ae8656d60d819a92a22db6e97f83ea847ee15765
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Découvrez comment définir une passerelle PSTN dans le Générateur de topologie dans Skype pour Business Server.'
+ms.openlocfilehash: c83951c26a125c568535bfba7d487324a9b725d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998552"
 ---
-# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server-2015"></a>Définition d’une passerelle dans le générateur de topologie dans Skype Entreprise Server 2015
+# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Définir une passerelle dans le Générateur de topologie dans Skype pour Business Server
  
-**Résumé :** Découvrez comment définir une passerelle PSTN dans le Générateur de topologie dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment définir une passerelle PSTN dans le Générateur de topologie dans Skype pour Business Server.
   
 Procédez comme suit pour utiliser le Générateur de topologie pour définir un homologue avec lequel vous pouvez associer un serveur de médiation pour fournir une connectivité au réseau téléphonique commuté (RTC) pour les utilisateurs activés pour Enterprise Voice. Un homologue pour le serveur de médiation peut être une passerelle PSTN, un IP-PBX ou un contrôleur de frontière Session (SBC) pour un Internet téléphonie Service fournisseur (ITSP) à laquelle vous vous connectez en configurant une jonction SIP.
   
@@ -38,7 +38,7 @@ Procédez comme suit pour utiliser le Générateur de topologie pour définir un
   
 4. Définissez le mode d’écoute (IPv4 ou IPv6) de l’adresse IP de votre nouvelle passerelle RTC, puis cliquez sur **Suivant**.
 
-5. Définir une jonction racine pour la passerelle PSTN. Une jonction est une connexion logique entre un serveur de médiation et une passerelle identifiée de manière unique par le tuple.
+5. Définissez une jonction racine pour la passerelle RTC. Une jonction est une connexion logique entre un serveur de médiation et une passerelle identifiée de manière unique par le tuple.
     
     {FQDN du serveur de médiation, port d’écoute de serveur de médiation (TLS ou TCP) : IP de la passerelle et le nom de domaine complet, port d’écoute de passerelle}
     

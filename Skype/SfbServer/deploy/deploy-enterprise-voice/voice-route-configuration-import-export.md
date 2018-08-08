@@ -1,9 +1,8 @@
 ---
-title: Exportation ou importation d’un fichier de configuration du routage des communications vocales dans Skype Entreprise 2015
+title: Exporter ou importer un fichier de configuration d’itinéraire de voix dans Skype pour les entreprises
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
-description: 'Résumé : Découvrez comment exporter ou importer un fichier de configuration de routage voix dans Skype pour Business Server 2015 à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: ba16e68ec3218a06d1baf21c238b14e3f566f630
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Découvrez comment exporter ou importer un fichier de configuration de routage voix dans Skype pour Business Server à l’aide de la Skype pour le panneau de configuration serveur Business.'
+ms.openlocfilehash: 462bcf471e4a43bfedf32b0d062731ea7cbd06f9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965407"
 ---
-# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business-2015"></a>Exportation ou importation d’un fichier de configuration du routage des communications vocales dans Skype Entreprise 2015
+# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exporter ou importer un fichier de configuration d’itinéraire de voix dans Skype pour les entreprises
  
-**Résumé :** Découvrez comment exporter ou importer un fichier de configuration de routage voix dans Skype pour Business Server 2015 à l’aide de la Skype pour le panneau de configuration serveur Business.
+**Résumé :** Découvrez comment exporter ou importer un fichier de configuration de routage voix dans Skype pour Business Server à l’aide de la Skype pour le panneau de configuration serveur Business.
   
 Si vous souhaitez enregistrer la configuration du routage des communications vocales sans la publier, suivez cette procédure pour enregistrer et extraire une capture instantanée de votre configuration du routage des communications vocales. 
   
@@ -57,6 +57,6 @@ Si vous avez apporté des modifications non validées aux paramètres de n’imp
 6. Cliquez sur **Valider**, puis sur **Tout valider**.
     
     > [!NOTE]
-    > Chaque fois que vous importez un fichier de configuration des communications vocales, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour Business 2015](voice-route-config-changes.md) dans la documentation des opérations.
+    > Chaque fois que vous importez un fichier de configuration des communications vocales, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md) dans la documentation des opérations.
   
 

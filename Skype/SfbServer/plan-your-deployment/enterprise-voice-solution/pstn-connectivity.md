@@ -1,9 +1,8 @@
 ---
-title: Documents de connectivité PSTN dans Skype Entreprise Server 2015
+title: Composants de connectivité PSTN dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: En savoir plus sur l’acheminement SIP et des passerelles PSTN pour Enterprise Voice sur Skype pour Business Server.
-ms.openlocfilehash: 4f346209b483a3d469beba233bd22ee39e45745a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 69b010d7f4e444214581ebc1b84babadbf14e68f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998517"
 ---
-# <a name="pstn-connectivity-components-in-skype-for-business-server-2015"></a>Documents de connectivité PSTN dans Skype Entreprise Server 2015
+# <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Composants de connectivité PSTN dans Skype pour Business Server
  
 En savoir plus sur l’acheminement SIP et des passerelles PSTN pour Enterprise Voice sur Skype pour Business Server.
   

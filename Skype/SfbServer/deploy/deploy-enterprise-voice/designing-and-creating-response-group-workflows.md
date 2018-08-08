@@ -1,9 +1,8 @@
 ---
-title: Conception et création de flux de travail Response Group dans Skype Entreprise 2015
+title: Concevoir et créer des flux de travail de groupe de réponse dans Skype pour les entreprises
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Concevoir et créer des flux de travail Response Group dans Skype pour Business Server Enterprise Voice. Les flux de travail de groupe de recherche et les flux de travail interactifs sont tous les deux couverts.
-ms.openlocfilehash: a1fe613d006378f8908b038ed0f03449c06b3fdf
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: a4a0d436e4ed2387218825559bca2b383a95c8b4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501300"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006598"
 ---
-# <a name="designing-and-creating-response-group-workflows-in-skype-for-business-2015"></a>Conception et création de flux de travail Response Group dans Skype Entreprise 2015
+# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Concevoir et créer des flux de travail de groupe de réponse dans Skype pour les entreprises
  
 Concevoir et créer des flux de travail Response Group dans Skype pour Business Server Enterprise Voice. Les flux de travail de groupe de recherche et les flux de travail interactifs sont tous les deux couverts.
   
-Un flux de travail définit le comportement d’un appel, du déclenchement de la sonnerie du téléphone jusqu’au moment où une personne répond à l’appel. Le flux de travail spécifie la file d’attente à utiliser pour la conservation de l’appel et spécifie la méthode de routage à utiliser pour le flux de travail de groupe recherche ou les questions et réponses à utiliser pour le flux de travail de groupe réponse interactif. 
+Un flux de travail définit le comportement d’un appel, du déclenchement de la sonnerie du téléphone jusqu’au moment où une personne répond à l’appel. Le flux de travail spécifie la file d’attente à utiliser pour la mise en attente de l’appel et indique la méthode de routage à appliquer aux groupes de recherche ou les questions et les réponses à utiliser pour les groupes Response Group interactifs. 
   
 Un flux de travail définit également des paramètres, comme un message de bienvenue, l’attente musicale, les heures de bureau et les vacances.
   
@@ -122,7 +121,7 @@ Un flux de travail définit également des paramètres, comme un message de bien
    - Pour utiliser un planning prédéfini d’heures d’ouverture, cliquez sur **Utiliser un planning prédéfini**, puis sélectionnez le planning souhaité dans la liste déroulante.
     
      > [!NOTE]
-     > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Vous pouvez spécifier des plannings prédéfinis à l’aide de l’applet de commande **New-CSRgsHoursOfBusiness**. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour Business 2015](optional-define-response-group-business-hours.md). 
+     > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Vous pouvez spécifier des plannings prédéfinis à l’aide de l’applet de commande **New-CSRgsHoursOfBusiness**. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour les entreprises](optional-define-response-group-business-hours.md). 
   
      > [!NOTE]
      > Lorsque vous sélectionnez un planning prédéfini, les champs **Jour**, **Ouverture** et **Fermeture** sont renseignés automatiquement avec les jours et les heures de disponibilité du groupe Response Group.
@@ -161,7 +160,7 @@ Un flux de travail définit également des paramètres, comme un message de bien
 24. Dans **Étape 5 Spécification de vos congés**, activez les cases à cocher correspondant à une ou plusieurs périodes de congés définissant les jours de fermeture du groupe Response Group.
     
     > [!NOTE]
-    > Vous devez définir les congés et les périodes de congé avant de configurer le flux de travail. Utilisez les applets de commande **New-CsRgsHoliday** et **New-CsRgsHolidaySet** pour créer des congés et des périodes de congé. Pour plus d’informations, voir [définir Response Group (facultatif) de congés dans Skype pour Business 2015](optional-define-response-group-holiday-sets.md). 
+    > Vous devez définir les congés et les périodes de congé avant de configurer le flux de travail. Utilisez les applets de commande **New-CsRgsHoliday** et **New-CsRgsHolidaySet** pour créer des congés et des périodes de congé. Pour plus d’informations, voir [définir Response Group (facultatif) de congés dans Skype pour les entreprises](optional-define-response-group-holiday-sets.md). 
   
 25. Si vous souhaitez que la lecture d’un message se déclenche pendant les congés, activez la case à cocher **Lisez un message pendant les congés**, puis spécifiez le message à lire en effectuant l’une des opérations suivantes :
     
@@ -242,7 +241,7 @@ Un flux de travail définit également des paramètres, comme un message de bien
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. Si vous voulez définir des heures ouvrées et des congés, vous devez les créer avant de créer et modifier le flux de travail. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour Business 2015](optional-define-response-group-business-hours.md) et [(facultatif) définir Response Group de congés dans Skype pour Business 2015](optional-define-response-group-holiday-sets.md).
+6. Si vous voulez définir des heures ouvrées et des congés, vous devez les créer avant de créer et modifier le flux de travail. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour les entreprises](optional-define-response-group-business-hours.md) et [(facultatif) définir Response Group de congés dans Skype pour les entreprises](optional-define-response-group-holiday-sets.md).
     
 7. Si vous souhaitez les invites pour les appels reçus en dehors des heures ou jours fériés, utilisez l’applet de commande **New-CsRgsPrompt** pour définir l’invite et la **New-CsRgsCallAction** permet de définir l’action à exécuter à l’invite. Pour plus d’informations, voir [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) et [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
     
@@ -452,7 +451,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
    - Pour utiliser un planning prédéfini d’heures d’ouverture, cliquez sur **Utiliser un planning prédéfini**, puis sélectionnez le planning souhaité dans la liste déroulante.
     
      > [!NOTE]
-     > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Vous pouvez spécifier des plannings prédéfinis à l’aide de l’applet de commande **New-CSRgsHoursOfBusiness**. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour Business 2015](optional-define-response-group-business-hours.md). Lorsque vous sélectionnez un planning prédéfini, les champs **Jour**, **Ouverture** et **Fermeture** sont renseignés automatiquement avec les jours et les heures de disponibilité du groupe Response Group.
+     > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Vous pouvez spécifier des plannings prédéfinis à l’aide de l’applet de commande **New-CSRgsHoursOfBusiness**. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour les entreprises](optional-define-response-group-business-hours.md). Lorsque vous sélectionnez un planning prédéfini, les champs **Jour**, **Ouverture** et **Fermeture** sont renseignés automatiquement avec les jours et les heures de disponibilité du groupe Response Group.
   
    - Pour utiliser un planning personnalisé qui ne s’applique qu’à ce flux de travail, cliquez sur **Utiliser un planning personnalisé**.
     
@@ -488,7 +487,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 24. Dans **Étape 5 Spécification de vos congés**, activez les cases à cocher correspondant à une ou plusieurs périodes de congés définissant les jours de fermeture du groupe Response Group.
     
     > [!NOTE]
-    > Vous devez définir les congés et les périodes de congé avant de configurer le flux de travail. Utilisez les applets de commande **New-CsRgsHoliday** et **New-CsRgsHolidaySet** pour créer des congés et des périodes de congé. Pour plus d’informations, voir [définir Response Group (facultatif) de congés dans Skype pour Business 2015](optional-define-response-group-holiday-sets.md). 
+    > Vous devez définir les congés et les périodes de congé avant de configurer le flux de travail. Utilisez les applets de commande **New-CsRgsHoliday** et **New-CsRgsHolidaySet** pour créer des congés et des périodes de congé. Pour plus d’informations, voir [définir Response Group (facultatif) de congés dans Skype pour les entreprises](optional-define-response-group-holiday-sets.md). 
   
 25. Si vous souhaitez que la lecture d’un message se déclenche pendant les congés, activez la case à cocher **Lisez un message pendant les congés**, puis spécifiez le message à lire en effectuant l’une des opérations suivantes :
     
@@ -644,9 +643,9 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
   
 ## <a name="see-also"></a>Voir aussi
 
-[(Facultatif) Définir Response Group de congés dans Skype pour Business 2015](optional-define-response-group-holiday-sets.md)
+[(Facultatif) Définir Response Group de congés dans Skype pour les entreprises](optional-define-response-group-holiday-sets.md)
 
-[(Facultatif) Groupe de réponse de définir les heures d’ouverture Skype pour Business 2015](optional-define-response-group-business-hours.md)
+[(Facultatif) Groupe de réponse de définir les heures d’ouverture Skype pour les entreprises](optional-define-response-group-business-hours.md)
 
 [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
   
@@ -655,3 +654,4 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
 [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+

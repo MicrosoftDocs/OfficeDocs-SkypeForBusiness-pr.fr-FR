@@ -1,8 +1,7 @@
 ---
-title: Configuration système requise pour le serveur Edge dans Skype Entreprise Server 2015
+title: Edge requise serveur dans Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,13 +12,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Résumé : Découvrez la configuration système requise pour le serveur de périphérie dans Skype pour Business Server.'
-ms.openlocfilehash: aaf8e45c005ff6295e1c0927d6a29abade383bfb
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ede0f7f933f246496593519afa035f09ef402bfb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013137"
 ---
-# <a name="edge-server-system-requirements-in-skype-for-business-server-2015"></a>Configuration système requise pour le serveur Edge dans Skype Entreprise Server 2015
+# <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Edge requise serveur dans Skype pour Business Server
  
 **Résumé :** Découvrez la configuration système requise pour le serveur de périphérie dans Skype pour Business Server.
   
@@ -60,6 +60,9 @@ Les utilisateurs externes autorisés peuvent utiliser vos serveurs de périphér
   
 > [!NOTE]
 > Serveurs Edge sont déployés pour fournir des connexions pour Skype activé pour les clients d’entreprise et les autres serveurs de périphérie (dans les scénarios de fédération). Impossible de se connecter à partir d’autres types de point de terminaison client ou serveur. Le serveur de passerelle XMPP peut autoriser les connexions avec les partenaires XMPP configurés. Mais là encore, ceux sont les seuls types de client et la fédération fonctionnent. 
+
+> [!NOTE]
+> XMPP passerelles et les proxys sont disponibles dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. Pour plus d’informations, voir [la fédération XMPP de migration](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
   
 ### <a name="reverse-proxies"></a>Proxys inverses
 <a name="ReverseProxies"> </a>
@@ -84,7 +87,7 @@ Et pour les appareils mobiles :
     
 - Il permet de notifications push à partir d’Office 365 pour les appareils mobiles.
     
-Nos recommandations en cours de proxy inverse, vous pouvez trouver dans la page de [L’Infrastructure de téléphonie pour Skype pour les entreprises](https://technet.microsoft.com/en-us/office/dn947483) . Si votre serveur proxy inverse :
+Nos recommandations en cours de proxy inverse, vous pouvez trouver dans la page de [L’Infrastructure de téléphonie pour Skype pour les entreprises](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) . Si votre serveur proxy inverse :
   
 - utiliser la sécurité TLS (Transport Layer Security) mise en œuvre dans votre environnement via les certificats publics pour se connecter aux services web externes publiés du :
     
@@ -131,7 +134,7 @@ Pourquoi est-ce important ? Une fonction importante pour un directeur est de pr
 ### <a name="load-balancers"></a>Équilibreurs de charge matérielle
 <a name="LoadBalancers"> </a>
 
-Le Skype pour Business Server 2015 mise à l’échelle de topologie Edge consolidée est optimisé pour de nouveaux déploiements d’équilibrage de la charge DNS et nous vous recommandons ce. Si vous avez besoin d’une disponibilité élevée, nous recommandons d’utiliser un mécanisme d’équilibrage de charge pour une situation spécifique :
+Le Skype pour Business Server mis à l’échelle de topologie Edge consolidée est optimisé pour de nouveaux déploiements d’équilibrage de la charge DNS et nous vous recommandons ce. Si vous avez besoin d’une disponibilité élevée, nous recommandons d’utiliser un mécanisme d’équilibrage de charge pour une situation spécifique :
   
 - Messagerie unifiée Exchange pour les utilisateurs distants à l’aide de la messagerie unifiée Exchange **antérieures** à Exchange 2013.
     
@@ -139,7 +142,7 @@ Le Skype pour Business Server 2015 mise à l’échelle de topologie Edge consol
 > Il est essentiel de noter que vous ne pouvez pas mélanger les équilibreurs de charge matérielle. Dans votre Skype pour un environnement Business Server toutes les interfaces doivent utiliser matérielle ou DNS. 
   
 > [!NOTE]
-> Serveur direct renvoyer NAT (DSR) n’est pas pris en charge pour Skype pour Business Server 2015. 
+> Serveur direct renvoyer NAT (DSR) n’est pas pris en charge pour Skype pour Business Server. 
   
 #### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>conditions requises d’équilibrage de charge matérielle pour les serveurs de périphérie de serveurs Edge exécutant A / V Edge service
 
@@ -157,7 +160,7 @@ Pour n’importe quel serveur Edge A / service Edge v., voici la configuration r
     
 #### <a name="hlb-requirements"></a>Configuration requise pour l’équilibreur de charge matérielle
 
-Comme avec Lync Server 2013, Skype pour Business Server 2015 ne possède pas un grand nombre de conditions d’affinité basée sur les cookies. Afin que vous n’avez pas besoin d’utiliser un cookie persistance **, sauf si** vous devrez Lync Server 2010 Front End Servers ou pools frontaux dans votre Skype pour un environnement Business Server. Ils doivent basée l’affinité dans la méthode de configuration recommandée pour Lync Server 2010.
+Skype pour Business Server ne possède pas un grand nombre de conditions d’affinité basée sur les cookies. Afin que vous n’avez pas besoin d’utiliser un cookie persistance **, sauf si** (et il s’agit de Skype pour serveur 2015 spécifiques à l’entreprise) vous devrez Lync Server 2010 Front End Servers ou pools frontaux dans votre Skype pour un environnement Business Server. Ils doivent basée l’affinité dans la méthode de configuration recommandée pour Lync Server 2010.
   
 > [!NOTE]
 > Si vous décidez d’activer l’affinité basée sur les cookies pour l’équilibreur de charge matérielle, cela ne posera pas problème, même si votre environnement ne l’exige pas. 
@@ -179,7 +182,7 @@ Pour les déploiements qui **requièrent** l’affinité basée sur les cookies�
 - Le cookie de d’équilibrage de la charge matériel **doit** être définie dans chaque réponse HTTP pour laquelle la requête HTTP entrante n’ait un cookie, quel que soit ou non une réponse HTTP précédente sur ce même connexion TCP avait obtenu un cookie. Si votre équilibreur de charge matériel optimise cookie insert devant se produire uniquement une fois par une connexion TCP, cette optimisation **ne doit pas** être utilisé.
     
 > [!NOTE]
-> Il est courant pour les configurations matérielle à utiliser l’affinité source et 20 minutes TCP durée de vie de session qui convient pour Skype pour Business Server 2015 et ses clients, étant donné que l’état de session est géré par le biais de l’utilisation de client et/ou d’interaction de l’application. 
+> Il est courant pour les configurations matérielle à utiliser l’affinité source et 20 minutes TCP durée de vie de session qui convient pour Skype pour Business Server et ses clients, étant donné que l’état de session est géré par le biais de l’utilisation de client et/ou d’interaction de l’application. 
   
 Si vous déployez des appareils mobiles, votre équilibreur de charge matérielle doit être capable d’équilibrer la charge de requêtes individuelles au sein d’une session TCP (en effet, vous devez être en mesure d’équilibrer la charge d’une requête individuelle en fonction de l’adresse IP cible).
   
@@ -188,7 +191,7 @@ Si vous déployez des appareils mobiles, votre équilibreur de charge matériell
   
 Voici la configuration requise matérielle pour le directeur (facultatif) et le pool frontal (obligatoire) des Services Web :
   
-- Définir votre VIP de Services Web internes, persistance Source_addr (interne port 80, 443) sur votre matérielle. Pour Skype pour Business Server 2015, persistance Source_addr signifie que plusieurs connexions provenant d’une adresse IP unique sont toujours envoyées à un serveur, pour maintenir l’état de session.
+- Définir votre VIP de Services Web internes, persistance Source_addr (interne port 80, 443) sur votre matérielle. Pour Skype pour Business Server, persistance Source_addr signifie que plusieurs connexions provenant d’une adresse IP unique sont toujours envoyées à un serveur, pour maintenir l’état de session.
     
 - Utilisez un délai d’inactivité TCP de 1 800 secondes.
     
@@ -196,7 +199,7 @@ Voici la configuration requise matérielle pour le directeur (facultatif) et le 
     
 #### <a name="summary-of-hlb-affinity-requirements"></a>Synthèse des conditions requises en matière d’affinité par l’équilibreur de charge matérielle
 
-|**Emplacement du client/de l’utilisateur**|**Configuration requise de l’affinité du nom de domaine complet des services web externes**|**Configuration requise de l’affinité FQSN des services web internes**|
+|**Emplacement du client/de l’utilisateur**|**Conditions requises en matière d’affinité pour le nom de domaine complet des services web externes**|**Conditions requises en matière d’affinité pour le nom de domaine complet des services web internes**|
 |:-----|:-----|:-----|
 |Skype pour Business Web App (utilisateurs internes et externes)  <br/> Appareil mobile (utilisateurs internes et externes)  <br/> |Aucune affinité  <br/> |Affinité des adresses sources  <br/> |
 |Skype pour Business Web App (pour les utilisateurs externes uniquement)  <br/> Appareil mobile (utilisateurs internes et externes)  <br/> |Aucune affinité  <br/> |Affinité des adresses sources  <br/> |
@@ -206,17 +209,17 @@ Voici la configuration requise matérielle pour le directeur (facultatif) et le 
 
 Vous définissez le port de surveillance sur votre équilibreurs de charge matérielle pour déterminer si des services spécifiques ne sont plus disponibles, en raison de défaillances matérielles ou les communications. Par exemple, si le service du serveur frontal (RTCSRV) s’arrête, car le pool frontal ou serveur frontal échoue, la surveillance matérielle doit également arrêter de recevoir le trafic sur les Services Web. Vous devez implémenter la surveillance des ports sur le programme d’équilibrage de charge matérielle pour surveiller les éléments suivants pour l’interface externe de l’équilibreur de charge matérielle :
   
-|**Adresse IP/Port virtuel**|**Port de nœud**|**Nœud ordinateur/écran**|**Profil de persistance**|**Remarques**|
+|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucune  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucune  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>Configuration matérielle et logicielle requise
 
-Nous avons traité Edge Server Configuration matérielle et logicielle requise dans notre documentation globale de la [configuration serveur requise pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) .
+Nous avons traité Edge Server Configuration matérielle et logicielle requise dans notre documentation [configuration serveur requise pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) et la [configuration système requise pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) globale.
   
 ## <a name="collocation"></a>Colocalisation
 
-Nous avons traité colocation du serveur de transport Edge dans notre documentation [Concepts de topologie de base pour Skype pour Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) .
+Nous avons traité colocation du serveur de transport Edge dans notre documentation [Concepts de topologie de base pour Skype pour Business Server](../../plan-your-deployment/topology-basics/topology-basics.md) .
   
 

@@ -1,9 +1,8 @@
 ---
-title: Publication des modifications en attente de la configuration du routage des communications vocales dans Skype Entreprise 2015
+title: Publier des modifications en attente de la configuration de routage voix dans Skype pour les entreprises
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
-description: 'Résumé : Apprenez à vérifier, publier ou annuler les modifications de configuration routage des communications vocales dans Skype pour Business Server 2015 à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 34da8d44a778d5a469cc7069e0024dd3b43517ab
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Apprenez à vérifier, publier ou annuler les modifications de configuration routage des communications vocales dans Skype pour Business Server à l’aide de la Skype pour le panneau de configuration serveur Business.'
+ms.openlocfilehash: 8df40de8861c16b2ab3dc40bb9f3fadec95a4842
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006512"
 ---
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business-2015"></a>Publication des modifications en attente de la configuration du routage des communications vocales dans Skype Entreprise 2015
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Publier des modifications en attente de la configuration de routage voix dans Skype pour les entreprises
  
-**Résumé :** Découvrez comment passez en revue, publier ou annuler les modifications de configuration routage des communications vocales dans Skype pour Business Server 2015 à l’aide de la Skype pour le panneau de configuration serveur Business.
+**Résumé :** Découvrez comment passez en revue, publier ou annuler les modifications de configuration routage des communications vocales dans Skype pour Business Server à l’aide de la Skype pour le panneau de configuration serveur Business.
   
 Après avoir modifié les paramètres de configuration dans les pages du groupe **Routage des communications vocales**, effectuez cette procédure pour consulter, publier ou annuler les modifications en attente.
   
@@ -33,7 +33,7 @@ Après avoir modifié les paramètres de configuration dans les pages du groupe 
 > Toutes les modifications en attente doivent être publiées en même temps en exécutant la commande **Tout valider**. Vous ne pouvez pas sélectionner les modifications en attente que vous voulez publier. Avant de publier les modifications en attente, exécutez la commande **Vérifier les modifications non validées** et annulez les modifications de configuration que vous ne voulez pas publier.
   
 > [!NOTE]
-> Si vous quittez les pages du groupe **Routage des communications vocales** avant d’avoir validé les modifications en attente, toutes les modifications en attente seront perdues. Cependant, vous pouvez exporter la configuration active (y compris les modifications en attente) vers un fichier de configuration des communications vocales, puis importer et publier la configuration mise à jour. Pour plus d’informations, voir [exporter ou importer un fichier de configuration vocale itinéraire dans Skype pour Business 2015](voice-route-configuration-import-export.md). 
+> Si vous quittez les pages du groupe **Routage des communications vocales** avant d’avoir validé les modifications en attente, toutes les modifications en attente seront perdues. Cependant, vous pouvez exporter la configuration active (y compris les modifications en attente) vers un fichier de configuration des communications vocales, puis importer et publier la configuration mise à jour. Pour plus d’informations, voir [exporter ou importer une configuration de routage voix fichier Skype pour les entreprises](voice-route-configuration-import-export.md). 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>Pour consulter, publier ou annuler les modifications de la configuration du routage des communications vocales
 

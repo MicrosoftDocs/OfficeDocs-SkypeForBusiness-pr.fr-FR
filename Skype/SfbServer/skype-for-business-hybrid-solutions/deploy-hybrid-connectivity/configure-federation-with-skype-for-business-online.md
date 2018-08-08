@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a10bd1d5-c003-46db-9f57-7d55d3fa08da
 description: 'Résumé : Découvrez comment configurer l’interopérabilité entre votre déploiement sur site et les Skype pour Business en ligne.'
-ms.openlocfilehash: 403cabdd808cd197ece2289564b14fea62a5c72a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6a48e3cc579fd3827cc95f7f36d0c637d540ed56
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176118"
 ---
 # <a name="configure-federation-with-skype-for-business-online"></a>Configuration de la fédération avec Skype Entreprise Online
  
@@ -76,13 +77,9 @@ $CSSession = New-CsOnlineSession -Credential $cred
 Import-PSSession $CSSession -AllowClobber
 ```
 
-Pour plus d’informations sur l’établissement d’une session PowerShell distante avec Skype pour Business Online, consultez [connexion à Lync Online à l’aide de Windows PowerShell](http://technet.microsoft.com/library/6167dad9-9628-4fdb-bed1-bdb3f7108e64.aspx).
-  
-Pour plus d’informations sur l’utilisation de la Skype pour le module PowerShell connecteur Business en ligne, voir [L’aide de Windows PowerShell pour gérer Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx).
+Pour plus d’informations sur l’utilisation de PowerShell avec Skype pour Business Online, voir [configurer votre ordinateur pour Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Nouvelle-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
-

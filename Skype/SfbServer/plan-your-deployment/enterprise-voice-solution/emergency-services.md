@@ -1,9 +1,8 @@
 ---
-title: Planifier les services d’urgence dans Skype pour Business Server 2015
+title: Planifier les services d’urgence dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,23 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: En savoir plus sur les services de Enhanced 9-1-1 (E9-1-1) dans Skype pour Business Server Enterprise Voice, y compris l’acquisition de l’emplacement et le routage des appels.
-ms.openlocfilehash: 7a4c03da5a7e138e68495c3bacd473f9ea073178
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f32a8dcc818795b47aa955c95084c1bc3d224236
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967310"
 ---
-# <a name="plan-for-emergency-services-in-skype-for-business-server-2015"></a>Planifier les services d’urgence dans Skype pour Business Server 2015
+# <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planifier les services d’urgence dans Skype pour Business Server
  
 En savoir plus sur les services de Enhanced 9-1-1 (E9-1-1) dans Skype pour Business Server Enterprise Voice, y compris l’acquisition de l’emplacement et le routage des appels.
   
 Skype pour Business Server prend en charge les services Enhanced 9-1-1 (E9-1-1) au sein des États-Unis dans le cadre d’un déploiement d’Enterprise Voice. E9-1-1 est une fonctionnalité de réponse aux appels d’urgence qui associe un appel au 911 à un emplacement de réponse d’urgence (ERL, Emergency Response Location) qui est constitué d’une adresse (c’est-à-dire, une rue) et d’informations d’emplacement spécifiques, telles qu’un numéro d’étage, pour les appels provenant d’immeubles de bureaux et d’habitation. À l’aide de l’emplacement de réponse d’urgence fourni, un centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP) peut immédiatement transférer les appels de détresse aux services d’urgence appropriés sans risquer de leur fournir de mauvaises informations.
   
 > [!NOTE]
-> Skype pour Business Server prend désormais en charge la configuration de plusieurs numéros d’urgence pour un client. Pour plus d’informations, voir [planifier plusieurs numéros d’urgence dans Skype pour Business Server 2015](multiple-emergency-numbers.md). 
+> Skype pour Business Server prend désormais en charge la configuration de plusieurs numéros d’urgence pour un client. Pour plus d’informations, voir [planifier plusieurs numéros d’urgence dans Skype pour Business Server](multiple-emergency-numbers.md). 
   
 > [!NOTE]
-> Skype pour Business Server comporte trois fonctionnalités voix entreprise : appeler le contrôle d’admission des appels, les services d’urgence (E9-1-1) et le contournement de média. Pour une vue d’ensemble de la planification des informations qui sont communes aux trois de ces fonctionnalités, voir [paramètres réseau pour les fonctionnalités Enterprise Voice dans Skype pour Business Server 2015](network-settings-for-advanced-features.md). 
+> Skype pour Business Server comporte trois fonctionnalités voix entreprise : appeler le contrôle d’admission des appels, les services d’urgence (E9-1-1) et le contournement de média. Pour une vue d’ensemble de la planification des informations qui sont communes aux trois de ces fonctionnalités, voir [paramètres réseau pour les fonctionnalités Enterprise Voice dans Skype pour Business Server](network-settings-for-advanced-features.md). 
   
 Skype pour Business Server prend en charge Enhanced 9-1-1 (E9-1-1) l’appel de Skype pour les clients d’entreprise et appareils Lync Phone Edition. Lorsque vous configurez Skype pour Business Server pour E9-1-1, en cas d’urgence les appels émis à partir de Skype pour les entreprises ou Lync Phone Edition contiennent des informations d’emplacement de réponse d’urgence (ERL) à partir de la base de données du service informations d’emplacement. Erl se composent de civiles (autrement dit, rue) adresses et autres informations qui vous aide à identifier un emplacement plus précis de bâtiments et autres fonctionnalités d’une architecture mutualisées. Lorsqu’un utilisateur effectue un appel d’urgence, Skype pour Business Server achemine l’appel audio, ainsi que les informations d’emplacement et de rappel, via un serveur de médiation pour un fournisseur de services E9-1-1. Le fournisseur de services E9-1-1 utilise l’adresse postale de l’appelant pour acheminer l’appel pour le Public Safety Answering Point (PSAP) qui sert d’emplacement de l’appelant et envoie le long d’un Emergency Service requête clé (ESQK) le PSAP utilise pour rechercher ERL l’appelant. 
   
@@ -65,7 +65,7 @@ Si vous utilisez l’option de passerelle ELIN et souhaitez permettre l’utilis
     
 Cette section décrit le déroulement de ces deux étapes.
   
-Si vous souhaitez configurer votre infrastructure pour détecter automatiquement l’emplacement du client, vous devez d’abord décider quels éléments réseau vous utiliserez pour mapper les appelants aux emplacements. Pour plus d’informations sur les options possibles, voir [définir les éléments réseau utilisés pour déterminer l’emplacement dans Skype pour Business Server 2015](network-location.md). 
+Si vous souhaitez configurer votre infrastructure pour détecter automatiquement l’emplacement du client, vous devez d’abord décider quels éléments réseau vous utiliserez pour mapper les appelants aux emplacements. Pour plus d’informations sur les options possibles, voir [définir les éléments réseau utilisés pour déterminer l’emplacement dans Skype pour Business Server](network-location.md). 
   
 ## <a name="acquiring-a-location"></a>Acquisition d’un emplacement
 
@@ -113,9 +113,9 @@ Lorsqu’un appel d’urgence est émis à partir d’un compatible Skype pour c
     
 ## <a name="routing-e9-1-1-calls-by-using-an-elin-gateway"></a>Routage des appels E9-1-1 via une passerelle ELIN
 
-Certains partenaires du programme Unified Communications Open Interoperability fournissent des passerelles compatibles avec les numéros ELIN (Emergency Location Identification Number), ce qui peut servir de solution de remplacement pour une connexion de jonction SIP à un fournisseur de services E9-1-1 qualifié. Les passerelles ELIN prennent en charge la connectivité RNIS (réseau numérique à intégration de services) ou CAMA (Centralized Automatic Message Accounting) aux services E9-1-1 basés sur un réseau téléphonique commuté. Pour plus d’informations sur les partenaires qui proposent les passerelles ELIN et des liens vers leur documentation, voir [Infrastructure qualifié pour Microsoft Lync](https://go.microsoft.com/fwlink/p/?LinkId=248425) et [l’Infrastructure de téléphonie pour Skype pour les entreprises](https://technet.microsoft.com/en-us/office/dn947483). 
+Certains partenaires du programme Unified Communications Open Interoperability fournissent des passerelles compatibles avec les numéros ELIN (Emergency Location Identification Number), ce qui peut servir de solution de remplacement pour une connexion de jonction SIP à un fournisseur de services E9-1-1 qualifié. Les passerelles ELIN prennent en charge la connectivité RNIS (réseau numérique à intégration de services) ou CAMA (Centralized Automatic Message Accounting) aux services E9-1-1 basés sur un réseau téléphonique commuté. Pour plus d’informations sur les partenaires qui proposent les passerelles ELIN et des liens vers leur documentation, voir [Infrastructure qualifié pour Microsoft Lync](https://go.microsoft.com/fwlink/p/?LinkId=248425) et [l’Infrastructure de téléphonie pour Skype pour les entreprises](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
-Comme les connexions de jonction SIP aux fournisseurs de services E9-1-1, les passerelles ELIN permettent également de routage d’un appel d’urgence à l’appelant plus approprié Public Safety Answering Point (PSAP), mais ces passerelles utilisent une ELIN en tant que l’identificateur d’emplacement. Vous définissez en cas de chaque emplacement de réponse d’urgence (ERL) dans votre organisation (pour plus d’informations, voir [Gérer les emplacements pour les passerelles ELIN dans Skype pour Business Server 2015](elin-gateways.md)). 
+Comme les connexions de jonction SIP aux fournisseurs de services E9-1-1, les passerelles ELIN permettent également de routage d’un appel d’urgence à l’appelant plus approprié Public Safety Answering Point (PSAP), mais ces passerelles utilisent une ELIN en tant que l’identificateur d’emplacement. Vous définissez en cas de chaque emplacement de réponse d’urgence (ERL) dans votre organisation (pour plus d’informations, voir [Gérer les emplacements pour les passerelles ELIN dans Skype pour Business Server](elin-gateways.md)). 
   
 Lorsque vous utilisez une passerelle ELIN pour les appels d’urgence, vous utilisez le même Skype pour infrastructure Business Server E9-1-1 que vous utiliserez pour une connexion de jonction SIP. Autrement dit, la base de données du service informations d’emplacement fournit l’emplacement du Skype pour client d’entreprise et la stratégie d’emplacement Active la fonctionnalité et définit le routage. Avec une passerelle ELIN, toutefois, vous devez ajouter en les cas pour la base de données du service informations d’emplacement et de votre opérateur RTC Téléchargez-les vers la base de données d’Identification d’emplacement automatique (ALI).
   
@@ -128,7 +128,7 @@ Les passerelles ELIN prennent en charge les appels d’urgence effectués au sei
   
 Le diagramme suivant illustre comment un appel d’urgence est acheminé de Skype pour Business Server vers le PSAP lorsque vous utilisez une passerelle ELIN.
   
-**Routage des appels E9-1-1 avec une passerelle ELIN**
+**Acheminement d’appels E9-1-1 avec une passerelle ELIN**
 
 ![Montre le cheminement d’un appel aux services d’urgence à travers le serveur de médiation jusqu’au fournisseur de services d’urgence. Il peut s’en suivre l’envoi d’un message instantané au service de sécurité sur site et/ou un rappel de l’appelant initial.](../../media/Plan_LyncServer_E911_ELINCallRouting.jpg)
   

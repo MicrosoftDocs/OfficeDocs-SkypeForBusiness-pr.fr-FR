@@ -1,9 +1,8 @@
 ---
-title: Configurer les paramètres globaux de déviation du trafic multimédia dans Skype pour Business Server 2015 à utiliser les informations de site et de région
+title: Configurer les paramètres globaux de déviation du trafic multimédia dans Skype pour Business Server utilise des informations de sites et aux régions
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Configurer le contournement de média à utiliser uniquement pour certains sites et régions dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: ce9daafdde21bc2d30a942ce6b888f2cc7c4e2ff
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 081be80d969c2503abc7e2de4e9865b6057a363b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995978"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-2015-to-use-site-and-region-information"></a>Configurer les paramètres globaux de déviation du trafic multimédia dans Skype pour Business Server 2015 à utiliser les informations de site et de région
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurer les paramètres globaux de déviation du trafic multimédia dans Skype pour Business Server utilise des informations de sites et aux régions
  
 Configurer le contournement de média à utiliser uniquement pour certains sites et régions dans Skype pour Business Server Enterprise Voice. 
   
@@ -52,11 +52,9 @@ Pour le contournement de média pour fonctionner correctement doit être la coh�
     
 Ensuite, ajoutez les sous-réseaux au site réseau, comme indiqué dans la rubrique [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets). Une fois que vous avez associé tous les sous-réseaux aux sites réseau, le déploiement de la déviation du trafic multimédia est terminé.
 > [!IMPORTANT]
-> Si vous n’avez pas encore créé de régions et de sites réseau, vous devez les créer pour poursuivre le déploiement de la déviation du trafic multimédia. Pour plus d’informations, voir [déployer les régions de réseau, des sites et sous-réseaux de Skype pour Business 2015](deploy-network.md). 
+> Si vous n’avez pas encore créé de régions et de sites réseau, vous devez les créer pour poursuivre le déploiement de la déviation du trafic multimédia. Pour plus d’informations, voir [déployer les régions de réseau, des sites et sous-réseaux de Skype pour les entreprises](deploy-network.md). 
   
 ## <a name="see-also"></a>Voir aussi
-
-#### 
 
 [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets)
 

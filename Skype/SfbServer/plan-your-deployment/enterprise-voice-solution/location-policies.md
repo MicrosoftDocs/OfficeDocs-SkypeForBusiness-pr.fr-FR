@@ -1,9 +1,8 @@
 ---
-title: Planification de stratégies d’emplacement dans Skype Entreprise Server 2015
+title: Planifier des stratégies d’emplacement de Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,20 +13,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Lisez cette rubrique pour savoir comment planifier des stratégies d’emplacement pour un déploiement de services d’urgence étendus (E9-1-1) dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 013eeea9858910c6ef94c928f92c42a742908355
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: cbc4bdbf552c3839cef0701dcf3e47e4603a270e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971166"
 ---
-# <a name="plan-location-policies-for-skype-for-business-server-2015"></a>Planification de stratégies d’emplacement dans Skype Entreprise Server 2015
+# <a name="plan-location-policies-for-skype-for-business-server"></a>Planifier des stratégies d’emplacement de Skype pour Business Server
  
 Lisez cette rubrique pour savoir comment planifier des stratégies d’emplacement pour un déploiement de services d’urgence étendus (E9-1-1) dans Skype pour Business Server Enterprise Voice. 
   
 > [!NOTE]
-> Skype pour Business Server prend désormais en charge la configuration de plusieurs numéros d’urgence pour un client. Si vous souhaitez configurer plusieurs numéros d’urgence, vous devez suivre les informations de [planifier plusieurs numéros d’urgence dans Skype pour Business Server 2015](multiple-emergency-numbers.md) et [configurer plusieurs numéros d’urgence dans Skype pour Business 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
+> Skype pour Business Server prend désormais en charge la configuration de plusieurs numéros d’urgence pour un client. Si vous souhaitez configurer plusieurs numéros d’urgence, vous devez suivre les informations de [planifier plusieurs numéros d’urgence dans Skype pour Business Server](multiple-emergency-numbers.md) et [configurer plusieurs numéros d’urgence dans Skype pour les entreprises](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
   
-Vous créez des stratégies d’emplacement à l’aide de la Skype pour Business le panneau de configuration ou à l’aide de l’applet de commande [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Pour plus d’informations, voir [Create stratégies d’emplacement Skype pour Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md).
+Vous créez des stratégies d’emplacement à l’aide de la Skype pour Business le panneau de configuration ou à l’aide de l’applet de commande [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Pour plus d’informations, voir [Create stratégies d’emplacement Skype pour Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).
   
 Chaque stratégie d’emplacement renferme les informations suivantes :
   
@@ -37,7 +37,7 @@ Si cette valeur est activée, le client est activé pour les services d’urgenc
   
  **Emplacement**
   
-Ce paramètre est utilisé uniquement lorsque vous **activez Enhanced 9-1-1** est activée.
+Ce paramètre est utilisé uniquement lorsque l'**activation d'Enhanced 9-1-1** est activée. 
   
 Vous pouvez configurer le paramètre **Emplacement** pour définir le comportement du client de la manière suivante :   
   

@@ -1,9 +1,8 @@
 ---
-title: Personnalisation de l’attente musicale du parcage d’appel dans Skype Entreprise 2015
+title: Personnaliser une musique de parcage d’appel d’attente inSkype pour les entreprises
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Personnaliser la mise en garde d’appels musicale dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 95e332aad7d96c366cfc73ca1bcf3f289b5f14ab
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e0d1f49a1385eb185f7abb12edb467abb221a411
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001251"
 ---
-# <a name="customize-call-park-music-on-hold-inskype-for-business-2015"></a>Personnalisation de l’attente musicale du parcage d’appel dans Skype Entreprise 2015
+# <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Personnaliser une musique de parcage d’appel d’attente inSkype pour les entreprises
  
 Personnaliser la mise en garde d’appels musicale dans Skype pour Business Server Enterprise Voice.
   
@@ -53,9 +53,6 @@ Vous pouvez spécifier votre propre fichier de musique à utiliser pour une musi
 
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
   
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
-

@@ -1,9 +1,8 @@
 ---
-title: Configuration d’une jonction avec déviation du trafic multimédia dans Skype Entreprise Server 2015
+title: Configurer une jonction avec contournement de média dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,26 +12,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
-description: 'Résumé : Configurez une jonction avec contournement de média activé pour Skype pour Business Server 2015. Cela vous permet de réduire le nombre de serveurs de médiation, en supposant que votre fournisseur de jonction SIP prend en charge.'
-ms.openlocfilehash: f8e353e7d11bb3921839f957be25e0bfb6804a03
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Résumé : Configurez une jonction avec contournement de média activé pour Skype pour Business Server. Cela vous permet de réduire le nombre de serveurs de médiation, en supposant que votre fournisseur de jonction SIP prend en charge.'
+ms.openlocfilehash: 48dfbfeaa72819f06f70ed2645380bc1d673ac21
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501293"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002403"
 ---
-# <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server-2015"></a>Configuration d’une jonction avec déviation du trafic multimédia dans Skype Entreprise Server 2015
+# <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configurer une jonction avec contournement de média dans Skype pour Business Server
  
-**Résumé :** Configurer une jonction avec contournement de média activé pour Skype pour Business Server 2015. Cela vous permet de réduire le nombre de serveurs de médiation, en supposant que votre fournisseur de jonction SIP prend en charge.
+**Résumé :** Configurer une jonction avec contournement de média activé pour Skype pour Business Server. Cela vous permet de réduire le nombre de serveurs de médiation, en supposant que votre fournisseur de jonction SIP prend en charge.
   
-Pour configurer une jonction avec l’option de déviation du trafic multimédia activée, procédez comme suit. Pour configurer une jonction avec contournement de média désactivé, voir [configurer une jonction sans media ignorer dans Skype pour Business Server 2015](configure-trunk-without-media-bypass.md). 
+Pour configurer une jonction avec l’option de déviation du trafic multimédia activée, procédez comme suit. Pour configurer une jonction avec contournement de média désactivé, voir [configurer une jonction sans media ignorer dans Skype pour Business Server](configure-trunk-without-media-bypass.md). 
   
-Le contournement de média est utile lorsque vous souhaitez réduire le nombre de serveurs de médiation déployés. Pour plus d’informations, voir [Plan for media ignorer dans Skype pour Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+Le contournement de média est utile lorsque vous souhaitez réduire le nombre de serveurs de médiation déployés. Pour plus d’informations, voir [Plan for media ignorer dans Skype pour les entreprises](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
 Nous vous conseillons vivement d’activer la déviation du trafic multimédia. Cependant, avant de l’activer sur une jonction SIP (Session Initiation Protocol), assurez-vous que votre fournisseur de jonctions SIP compétent prend en charge cette option et qu’il peut satisfaire aux exigences d’activation du scénario. Plus précisément, le fournisseur doit avoir les adresses IP des serveurs dans le réseau interne de votre organisation.
   
 > [!NOTE]
-> La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle du réseau téléphonique commuté (RTC), système IP-PBX et SBC (Session Border Controller). Microsoft a testé une série de passerelles RTC et de systèmes SBC avec l’aide de partenaires agréés. Le contournement de média est pris en charge uniquement avec les produits et les versions qui sont répertoriées dans la page de [L’Infrastructure de téléphonie pour Skype pour Business Server](https://technet.microsoft.com/en-us/office/dn947483.aspx) . 
+> La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle du réseau téléphonique commuté (RTC), système IP-PBX et SBC (Session Border Controller). Microsoft a testé une série de passerelles RTC et de systèmes SBC avec l’aide de partenaires agréés. Le contournement de média est pris en charge uniquement avec les produits et les versions qui sont répertoriées dans la page de [L’Infrastructure de téléphonie pour Skype pour Business Server](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) . 
   
 Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de paramètres appliqués aux jonctions auxquelles cette configuration de jonction est affectée. Une configuration de jonction spécifique peut posséder une étendue globale (applicable à toutes les jonctions qui ne disposent pas d’une configuration de pool ou de site plus spécifique) ou une étendue Site ou Pool. La configuration de jonction au niveau du pool sert à appliquer une configuration de jonction spécifique à une jonction unique.
   
@@ -71,7 +70,7 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
 6. Activez la case à cocher **Activer la déviation du trafic multimédia** si vous souhaitez que le trafic multimédia contourne le serveur de médiation pour être traité par l’homologue de jonction.
     
     > [!IMPORTANT]
-    > Pour que la déviation du trafic multimédia fonctionne correctement, la passerelle RTC, un IP-PBX ou un contrôleur SBC ITSP doit prendre en charge certaines fonctionnalités. Pour plus d’informations, voir [Plan pour le média de contournement dans Skype pour Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). 
+    > Pour que la déviation du trafic multimédia fonctionne correctement, la passerelle RTC, un IP-PBX ou un contrôleur SBC ITSP doit prendre en charge certaines fonctionnalités. Pour plus d’informations, voir [Plan pour le média de contournement dans Skype pour les entreprises](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). 
   
 7. Activez la case à cocher **Traitement multimédia centralisé** s’il existe un point de terminaison multimédia connu (par exemple, une passerelle RTC où la terminaison multimédia possède la même adresse IP que la terminaison de signalisation). Désactivez cette case à cocher si la jonction ne comporte pas de point de terminaison multimédia connu.
     
@@ -101,7 +100,7 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
     
     - Pour supprimer un itinéraire de l’enregistrement d’utilisation RTC, sélectionnez l’itinéraire et cliquez sur **Supprimer**.
     
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md).
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md).
     
     - Pour modifier un itinéraire associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. 
     
@@ -117,7 +116,7 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
     
    - Pour supprimer un itinéraire de l’enregistrement d’utilisation RTC, sélectionnez l’itinéraire et cliquez sur **Supprimer**.
     
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md).
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md).
     
    - Pour modifier un itinéraire associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. 
     
@@ -143,7 +142,7 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
     
    - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de traduction qui sont disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Dans **Sélectionner les règles de conversion**, cliquez sur les règles à associer à la jonction, puis cliquez sur **OK**.
     
-   - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, consultez [règles de traduction dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+   - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, consultez [règles de traduction dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
    - Pour modifier une règle de conversion déjà associée à la jonction, cliquez sur le nom de la règle, puis sur **Afficher les détails**. 
     
@@ -158,7 +157,7 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
     
    - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de traduction qui sont disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Dans **Sélectionner les règles de conversion**, cliquez sur les règles à associer à la jonction, puis cliquez sur **OK**.
     
-   - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, consultez [règles de traduction dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+   - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, consultez [règles de traduction dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
    - Pour modifier une règle de conversion déjà associée à la jonction, cliquez sur le nom de la règle, puis sur **Afficher les détails**. 
     
@@ -179,15 +178,16 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
 19. Dans la page **Configuration de la jonction**, cliquez sur **Valider**, puis sur **Tout valider**. 
     
    > [!NOTE]
-   > Chaque fois que vous créez ou modifiez une configuration de jonction, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour Business 2015](voice-route-config-changes.md) dans la documentation des opérations.
+   > Chaque fois que vous créez ou modifiez une configuration de jonction, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md) dans la documentation des opérations.
   
-Après avoir configuré la jonction, continuez la configuration multimédia contournement de média en choisissant globales de contournement options, comme décrit dans [déployer le contournement de média dans Skype pour Business Server 2015](deploy-media-bypass.md) dans la documentation de déploiement.
+Après avoir configuré la jonction, continuez la configuration multimédia contournement de média en choisissant globales de contournement options, comme décrit dans [déployer le contournement de média dans Skype pour Business Server](deploy-media-bypass.md) dans la documentation de déploiement.
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer une jonction sans contournement de média dans Skype pour Business Server 2015](configure-trunk-without-media-bypass.md)
+[Configurer une jonction sans contournement de média dans Skype pour Business Server](configure-trunk-without-media-bypass.md)
 
-[Déployer le contournement de média dans Skype pour Business Server 2015](deploy-media-bypass.md)
+[Déployer le contournement de média dans Skype pour Business Server](deploy-media-bypass.md)
 
 [Définition des règles de traduction](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
   
 [Configurer le contournement de média](http://technet.microsoft.com/library/f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8.aspx)
+

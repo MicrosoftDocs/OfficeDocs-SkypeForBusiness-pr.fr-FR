@@ -1,9 +1,8 @@
 ---
-title: Déploiement de l’outil SEFAUtil dans Skype Entreprise 2015
+title: Déploiement de l’outil SEFAUtil dans Skype pour les entreprises
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Déploiement de l’outil SEFAUtil dans Skype pour Business Server.
-ms.openlocfilehash: 4def73d0bca655569275f61d9ebfeafb4ab7e3d4
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 55079f1727a6671a41e87582edd5810a4daa731f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001202"
 ---
-# <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a>Déploiement de l’outil SEFAUtil dans Skype Entreprise 2015
+# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Déploiement de l’outil SEFAUtil dans Skype pour les entreprises
  
 Déploiement de l’outil SEFAUtil dans Skype pour Business Server.
   
@@ -32,7 +32,7 @@ Pour déployer et gérer la collecte d’appel de groupe, vous devez utiliser le
 Vous pouvez exécuter l’outil SEFAUtil dans n’importe quel pool frontal dans votre déploiement. Pour exécuter l’outil SEFAUtil, vous devez exécuter les étapes 1, 2 et 3 depuis le Skype pour l’Assistant de déploiement d’entreprise sur l’ordinateur d’applications approuvées. SEFAUtil requiert le magasin de configurations local à présent, ainsi que d’un certificat.
   
 > [!NOTE]
-> Pour plus d’informations sur l’exécution de SEFAUtil, consultez l’article de blog Technet, «[comment obtenir SEFAutil en cours d’exécution ?](https://go.microsoft.com/fwlink/?LinkId=278940)». 
+> Pour plus d’informations sur l’exécution de SEFAUtil, voir l’article de blog, «[comment obtenir SEFAutil en cours d’exécution ?](https://go.microsoft.com/fwlink/?LinkId=278940)». 
   
 ### <a name="to-deploy-sefautil"></a>Pour déployer SEFAUtil
 

@@ -1,9 +1,8 @@
 ---
-title: Création ou modification d’une règle de normalisation dans Skype Entreprise 2015
+title: Créer ou modifier une règle de normalisation dans Skype pour les entreprises
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: 'Résumé : Apprenez à définir, créer et modifier une règle de normalisation dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 5ee0b138d118d0c437255cb3e90321019119aedf
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Apprenez à définir, créer et modifier une règle de normalisation dans Skype pour Business Server.'
+ms.openlocfilehash: d9c56d96c0eb9069e4ec02b196a326ad8b599e75
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972547"
 ---
-# <a name="create-or-modify-a-normalization-rule-in-skype-for-business-2015"></a>Création ou modification d’une règle de normalisation dans Skype Entreprise 2015
+# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Créer ou modifier une règle de normalisation dans Skype pour les entreprises
  
-**Résumé :** Apprenez à définir, créer et modifier une règle de normalisation dans Skype pour Business Server 2015.
+**Résumé :** Apprenez à définir, créer et modifier une règle de normalisation dans Skype pour Business Server.
   
 Définir, créer et modifier des règles de normalisation dans Skype pour Business Server.
   
@@ -30,7 +30,7 @@ Définir, créer et modifier des règles de normalisation dans Skype pour Busine
 
 1. Ouvrez le panneau de configuration serveur Business Skype
     
-2. (Facultatif) Suivez les étapes de [créer ou modifier un plan de numérotation dans Skype pour Business Server 2015](dial-plans.md) par le biais de l’étape 11 ou de [Modifier un Plan de numérotation](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) jusqu'à l’étape 10.
+2. (Facultatif) Suivez les étapes de [créer ou modifier un plan de numérotation dans Skype pour Business Server](dial-plans.md) par le biais de l’étape 11 ou de [Modifier un Plan de numérotation](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) jusqu'à l’étape 10.
     
 3. Dans **Nouvelle règle de normalisation** ou **Modifier une règle de normalisation**, tapez un nom qui décrit le modèle de numéro à normaliser dans **nom** (par exemple, 5DigitExtension).
     
@@ -72,13 +72,13 @@ Définir, créer et modifier des règles de normalisation dans Skype pour Busine
 11. Dans la page **Plan de numérotation**, cliquez sur **Valider**, puis sur **Valider tout**. 
     
     > [!NOTE]
-    > Lorsque vous créez ou modifiez une règle de normalisation, vous devez exécuter la commande **Valider tout** pour publier la modification de configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour Business 2015](voice-route-config-changes.md) dans la documentation des opérations.
+    > Lorsque vous créez ou modifiez une règle de normalisation, vous devez exécuter la commande **Valider tout** pour publier la modification de configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md) dans la documentation des opérations.
   
 ### <a name="to-define-a-normalization-rule-manually"></a>Pour définir une règle de normalisation manuellement
 
 1. Ouvrez le panneau de configuration serveur Business Skype
     
-2. (Facultatif) Suivez les étapes de [créer ou modifier un plan de numérotation dans Skype pour Business Server 2015](dial-plans.md). 
+2. (Facultatif) Suivez les étapes de [créer ou modifier un plan de numérotation dans Skype pour Business Server](dial-plans.md). 
     
 3. Dans **Nouvelle règle de normalisation** ou **Modifier une règle de normalisation**, tapez un nom qui décrit le modèle de numéro à normaliser dans **nom** (par exemple, nom de la normalisation rule5DigitExtension).
     
@@ -105,6 +105,6 @@ Définir, créer et modifier des règles de normalisation dans Skype pour Busine
 11. Dans la page **Plan de numérotation**, cliquez sur **Valider**, puis sur **Valider tout**.
     
     > [!NOTE]
-    > Lorsque vous créez ou modifiez une règle de normalisation, vous devez exécuter la commande **Valider tout** pour publier la modification de configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour Business 2015](voice-route-config-changes.md) dans la documentation des opérations.
+    > Lorsque vous créez ou modifiez une règle de normalisation, vous devez exécuter la commande **Valider tout** pour publier la modification de configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md) dans la documentation des opérations.
   
 

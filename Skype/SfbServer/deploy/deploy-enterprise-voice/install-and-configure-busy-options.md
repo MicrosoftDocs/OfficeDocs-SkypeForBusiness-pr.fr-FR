@@ -3,7 +3,6 @@ title: Installer et configurer les options Occupé pour Skype Entreprise Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 7/6/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,17 +11,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: Découvrez comment installer et configurer les Options de disponibilité dans Skype pour Business Server 2015.
-ms.openlocfilehash: d9348077c5779984879d3ac9f0d68bf68fd0c561
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: Découvrez comment installer et configurer les Options de disponibilité dans Skype pour Business Server.
+ms.openlocfilehash: 9bf647c1a1ccc5cbcad44b6a32e7763014d31547
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568213"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003893"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installer et configurer les options Occupé pour Skype Entreprise Server
  
-Découvrez comment installer et configurer les Options de disponibilité dans Skype pour Business Server 2015.
+Découvrez comment installer et configurer les Options de disponibilité dans Skype pour Business Server.
   
 Busy Options est une nouvelle stratégie de voix de la mise à jour cumulative de juillet 2016, qui vous permet de configurer la manière dont les appels entrants sont gérés lorsqu'un utilisateur participe déjà à un appel ou à une conférence, ou lorsqu'il a mis un appel en attente. Les nouveaux appels ou les appels entrants peuvent être rejetés avec une tonalité d’occupation ou sont transférés vers la messagerie vocale. 
   
@@ -106,6 +105,7 @@ Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
 Dans l'exemple suivant, la commande configure la fonctionnalité Busy Options pour l'utilisateur « Chrystal Velasquez ». Dans cette configuration, les nouveaux appels entrants vers « Chrystal Velasquez » seront transférés vers la messagerie vocale lorsqu'elle sera déjà en communication :
+
   
 ```
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy 

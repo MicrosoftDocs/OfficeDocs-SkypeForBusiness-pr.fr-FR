@@ -1,9 +1,8 @@
 ---
-title: Création ou modification d’un itinéraire de communications vocales dans Skype Entreprise 2015
+title: Créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
-description: 'Résumé : Apprenez à créer ou modifier un itinéraire de communications vocales dans Skype pour Business Server 2015 à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 7c1bd9e118d95e89111225e49d2e07e921d8f33c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Résumé : Apprenez à créer ou modifier un itinéraire de communications vocales dans Skype pour Business Server à l’aide de la Skype pour le panneau de configuration serveur Business.'
+ms.openlocfilehash: 3704e973e392337700effc0d4c3278656f706d73
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500932"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013202"
 ---
-# <a name="create-or-modify-a-voice-route-in-skype-for-business-2015"></a>Création ou modification d’un itinéraire de communications vocales dans Skype Entreprise 2015
+# <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises
  
-**Résumé :** Découvrez comment créer ou modifier un itinéraire de communications vocales dans Skype pour Business Server 2015 à l’aide de la Skype pour le panneau de configuration serveur Business.
+**Résumé :** Découvrez comment créer ou modifier un itinéraire de communications vocales dans Skype pour Business Server à l’aide de la Skype pour le panneau de configuration serveur Business.
   
 ### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>Pour créer une itinéraire des communications vocales à l’aide de la Skype pour Business Server Control Panel
 
@@ -58,7 +57,7 @@ ms.locfileid: "19500932"
 11. Pour associer une ou plusieurs utilisations du réseau téléphonique commuté (RTC) à l’itinéraire des communications vocales, cliquez sur **Sélectionner** et sélectionnez un enregistrement dans la liste des enregistrements d’utilisation RTC définis pour votre déploiement de Voix Entreprise.
     
     > [!NOTE]
-    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir [PSTN afficher les enregistrements d’utilisation dans Skype pour Business 2015](view-pstn-usage-records.md). > Pour créer ou modifier des enregistrements d’utilisation PSTN, voir [créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype pour 2015 Business](voice-policy-and-pstn-usage-records.md)
+    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir [PSTN afficher les enregistrements d’utilisation dans Skype pour les entreprises](view-pstn-usage-records.md). > Pour créer ou modifier des enregistrements d’utilisation PSTN, voir [créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype pour les entreprises](voice-policy-and-pstn-usage-records.md)
   
 12. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillance le nom de l’enregistrement et cliquez sur la flèche vers le bas.
     
@@ -70,7 +69,7 @@ ms.locfileid: "19500932"
 14. Cliquez sur **OK** pour enregistrer l’itinéraire des communications vocales.
     
     > [!IMPORTANT]
-    > Quand vous créez un itinéraire des communications vocales, vous devez exécuter la commande **Tout valider** pour publier la configuration modifiée. Pour plus d’informations, voir [publication en attente apportées à la configuration de routage voix dans Skype pour Business 2015](voice-route-config-changes.md). 
+    > Quand vous créez un itinéraire des communications vocales, vous devez exécuter la commande **Tout valider** pour publier la configuration modifiée. Pour plus d’informations, voir [publication en attente apportées à la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md). 
   
 ### <a name="to-modify-a-voice-route"></a>Pour modifier un itinéraire des communications vocales
 
@@ -92,7 +91,7 @@ ms.locfileid: "19500932"
     
    - Pour utiliser l’outil **Créer un modèle à suivre** afin de générer une expression régulière, entrez les valeurs comme suit. Vous pouvez spécifier deux types de correspondance de modèles :
     
-   - **Démarrage des chiffres pour les numéros que vous souhaitez autoriser**: entrez des valeurs de préfixe cet itinéraire doit prendre en charge (y compris le signe + si nécessaire). Par exemple, tapez +425, puis sur **Ajouter**. Répétez cette procédure pour chaque valeur de préfixe que vous souhaitez inclure dans l’itinéraire.
+   - **Chiffres de début des numéros que vous souhaitez autoriser** : entrez les valeurs de préfixe que cet itinéraire doit prendre en compte (y compris le signe « + » à gauche, si nécessaire). Tapez, par exemple, +425, puis cliquez sur **Ajouter**. Recommencez cette procédure pour chaque valeur de préfixe à inclure dans l’itinéraire.
     
    - **Exceptions**: Si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, le préfixe de mettre en surbrillance et cliquez sur **Exceptions**. Tapez dans une ou plusieurs valeurs pour la mise en correspondance des modèles que vous *not* que vous souhaitez acheminer ce pour prendre en charge. Par exemple, pour exclure les numéros commençant par +425237 de l’itinéraire, entrez une valeur de + 425237 dans le champ **Exceptions** , puis cliquez sur **OK**.
     
@@ -105,7 +104,7 @@ ms.locfileid: "19500932"
 9. Pour associer une ou plusieurs utilisations PSTN à l’itinéraire de communications vocales, cliquez sur **Sélectionner** et choisissez un enregistrement dans la liste des enregistrements d’utilisation PSTN qui ont été définies pour votre déploiement d’Enterprise Voice.
     
     > [!NOTE]
-    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir [PSTN afficher les enregistrements d’utilisation dans Skype pour Business 2015](view-pstn-usage-records.md). > Pour créer ou modifier des enregistrements d’utilisation PSTN, voir [créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype pour Business 2015](voice-policy-and-pstn-usage-records.md). 
+    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir [PSTN afficher les enregistrements d’utilisation dans Skype pour les entreprises](view-pstn-usage-records.md). > Pour créer ou modifier des enregistrements d’utilisation PSTN, voir [créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype pour les entreprises](voice-policy-and-pstn-usage-records.md). 
   
 10. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillance le nom de l’enregistrement et cliquez sur la flèche vers le bas.
     
@@ -119,12 +118,13 @@ ms.locfileid: "19500932"
 13. Dans la page **Itinéraire**, cliquez sur **Valider**, puis sur **Tout valider**. 
     
     > [!NOTE]
-    > Chaque fois que vous créez ou modifiez un itinéraire des communications vocales, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour Business 2015](voice-route-config-changes.md) dans la documentation des opérations.
+    > Chaque fois que vous créez ou modifiez un itinéraire des communications vocales, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md) dans la documentation des opérations.
   
 ## <a name="see-also"></a>Voir aussi
 
-[Afficher les enregistrements d’utilisation PSTN dans Skype pour Business 2015](view-pstn-usage-records.md)
+[Afficher les enregistrements d’utilisation PSTN dans Skype pour les entreprises](view-pstn-usage-records.md)
   
-[Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour Business 2015](voice-policy-and-pstn-usage-records.md)
+[Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour les entreprises](voice-policy-and-pstn-usage-records.md)
   
-[Publier des modifications à la configuration de routage voix Skype pour Business 2015 en attente](voice-route-config-changes.md)
+[Publier des modifications en attente de la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md)
+

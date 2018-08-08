@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
 description: Découvrez les fonctionnalités communes entre Microsoft Teams et les différentes configurations d'Exchange, telles que la création et l'adhésion à des équipes, la création de canaux, et plus encore.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65bbcc3155147141b99f63be686a92b85f87c119
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: a89f3670d2dda14ae5d15647213aca5d1d5398af
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569914"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams 
 =========================================
@@ -30,12 +32,12 @@ Le tableau suivant fournit des informations aux utilisateurs pour lesquels Excha
 
 **Actions prises en charge :** 
 
-| La boîte aux lettres de l'utilisateur est hébergée dans : | eDisovery| Conservation légale | Rétention| Gestion d’équipe et de canal |Créer et afficher des réunions| Modifier une image de profil utilisateur | Historique des appels | Gérer les Contacts | Accéder aux contacts Outlook | Messagerie vocale |Ajouter et configurer des connecteurs|Ajouter et configurer des onglets|Ajouter et configurer des bots| 
+| La boîte aux lettres de l'utilisateur est hébergée dans : | eDisovery| Conservation légale | Rétention| Gestion de l’équipe et de canal |Créer et afficher des réunions| Modifier une image de profil utilisateur | Historique des appels | Gérer des Contacts | Accéder aux contacts Outlook | Messagerie vocale |Ajouter et configurer des connecteurs|Ajouter et configurer des onglets|Ajouter et configurer des bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
 |**vNext Exchange Online dédié**|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
-|**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui (liste autorisée)|Non|Non|Oui|Non|Non|Oui|Oui|Non|Oui (Exchange 2013 +)|Non|Oui|Oui|
-|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui (liste autorisée)|Non|Non|Oui|Oui (Exchange 2016 CU3 +)|Non|Oui|Oui|Non|Oui (Exchange 2013 +)|Non|Oui|Oui|
+|**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Non|Non|Oui|Non|Non|Oui|Oui|Non|Oui (Exchange 2013 +)|Non|Oui|Oui|
+|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Non|Non|Oui|Oui (Exchange 2016 CU3 +)|Non|Oui|Oui|Non|Oui (Exchange 2013 +)|Non|Oui|Oui|
                                                             
 *\*Prise en charge d'Exchange 2016 CU3 et versions ultérieures*
 
@@ -57,7 +59,7 @@ Informations complémentaires :
 > Actuellement, si votre organisation a des exigences de conformité exigeant que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres sur site Exchange.
 
 > [!IMPORTANT]
-  Les utilisateurs de participent à des conversations qui font partie de la liste de discussion dans Microsoft Teams doivent avoir une Exchange Online (en nuage) boîte aux lettres d’un administrateur pour rechercher des conversations. C’est parce que les conversations qui font partie de la liste de discussion sont stockées dans les boîtes aux lettres en nuage de participants à la conversation. Si un participant de la conversation n’est pas une boîte aux lettres Exchange Online, l’administrateur ne sera en mesure de rechercher ou de placer un blocage sur des conversations. Par exemple, dans un déploiement hybride d’Exchange, les utilisateurs avec boîtes aux lettres de sur site peuvent être en mesure de participer à des conversations qui font partie de la liste de discussion dans Teams de Microsoft. Toutefois, dans ce cas, le contenu de ces conversations n’est pas disponible pour la recherche et ne peut pas être mis en blocage car les utilisateurs ne disposent de boîtes aux lettres basés sur le cloud. Pour plus d’informations sur les recherches de contenu et de Teams de Microsoft, consultez [exécution d’une recherche de contenu de la sécurité pour Microsoft Office 365 et le centre de conformité](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+  Les utilisateurs de participer à des conversations qui font partie de la liste de conversation dans Microsoft Teams doivent avoir une Exchange Online (en nuage) boîte aux lettres pour un administrateur pour rechercher des conversations. C’est parce que les conversations qui font partie de la liste de conversation sont stockées dans les boîtes aux lettres en nuage de participants à la conversation. Si un participant de conversation ne possède une boîte aux lettres Exchange Online, l’administrateur sera en mesure de rechercher ou de placer une suspension des conversations. Par exemple, dans un déploiement Exchange hybride, les utilisateurs avec des boîtes aux lettres locales peuvent être en mesure de participer à des conversations qui font partie de la liste de conversation dans Microsoft Teams. Toutefois, dans ce cas, le contenu à partir de ces conversations n’est pas disponible pour la recherche et ne peut pas être mis en attente, car les utilisateurs ne possèdent des boîtes aux lettres en nuage. Pour plus d’informations sur les recherches de contenu et Teams Microsoft, voir [exécuter une recherche de contenu de la sécurité pour Microsoft Office 365 et le centre de conformité](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
 > [!TIP]
-  Pour plus d’informations sur l’utilisation d’Azure Connect d’Active Directory à synchroniser avec Azure Active Directory, voir [*intégration des identités avec Azure Active Directory local*](https://go.microsoft.com/fwlink/?linkid=854600).
+  Pour plus d’informations sur l’utilisation d’Azure AD se connecter à synchroniser avec Azure Active Directory, voir [*intégration des identités avec Azure Active Directory local*](https://go.microsoft.com/fwlink/?linkid=854600).

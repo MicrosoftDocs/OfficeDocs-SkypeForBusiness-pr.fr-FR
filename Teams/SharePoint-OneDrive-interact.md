@@ -1,21 +1,23 @@
 ---
-title: "Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams"
+title: Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 07/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: snigdhav
-description: "Découvrez l'interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams, comme le stockage de fichiers de conversation privée, et la relation entre l'équipe, le canal et la bibliothèque de documents."
+description: Découvrez l'interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams, comme le stockage de fichiers de conversation privée, et la relation entre l'équipe, le canal et la bibliothèque de documents.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef80cf3f52e9a661bca8694bd679ba18dd4cf04e
-ms.sourcegitcommit: 9094c87dec3f8d7d05c7e879d357a6ed428d7cdf
-ms.translationtype: HT
+ms.openlocfilehash: f91836848f6a7698025e118542628cbce44166c6
+ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "21597582"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
 =============================================================================
@@ -24,9 +26,12 @@ Dans Microsoft Teams, chaque équipe dispose d'un site dans SharePoint Online,
 
 Les fichiers de conversation privée sont stockés dans le dossier OneDrive Entreprise de l'envoyeur et les autorisations sont automatiquement accordées à tous les participants dans le cadre du processus de partage de fichiers.
 
-Si SharePoint Online n’est pas activé dans votre client, les utilisateurs de Teams ne peuvent pas partager des fichiers avec les équipes. Les utilisateurs des services de conversation privée ne peuvent pas non plus partager de fichiers, car OneDrive Entreprise (qui est lié à la licence SharePoint) est requis.
+Si les utilisateurs ne sont pas affectés et activés avec SharePoint Online licences, ils n’ont OneDrive pour le stockage d’entreprise dans Office 365. Partage de fichiers continueront de fonctionner dans des canaux, mais les utilisateurs ne pourront pas partager des fichiers dans les salles de conversation sans OneDrive pour le stockage d’entreprise dans Office 365.
 
-En stockant les fichiers dans la bibliothèque de documents SharePoint Online et dans OneDrive Entreprise, toutes les règles de conformité configurées au niveau du client seront appliquées.
+En stockant les fichiers dans la bibliothèque de documents SharePoint Online et dans OneDrive Entreprise, toutes les règles de conformité configurées au niveau du client seront appliquées. 
+
+> [!NOTE]
+> Intégration Sharepoint sur site n’est pas pris en charge pour Microsoft Teams à ce stade.
 
 Voici un exemple de relations entre une équipe, un canal et une bibliothèque de documents.
 

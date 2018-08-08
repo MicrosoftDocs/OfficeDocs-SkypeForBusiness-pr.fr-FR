@@ -1,9 +1,8 @@
 ---
-title: Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation RTC dans Skype Entreprise 2015
+title: Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour les entreprises
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,19 +13,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Résumé : Créer ou modifier des stratégies de voix et configurer les enregistrements d’utilisation PSTN à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 69904c28d8121cd8416b547e17fcad866260a319
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 04cfca012490174bfefaa39c4456041ee294385c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501048"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965470"
 ---
-# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business-2015"></a>Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation RTC dans Skype Entreprise 2015
+# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour les entreprises
  
 **Résumé :** Créer ou modifier des stratégies de voix et configurer des enregistrements d’utilisation PSTN à l’aide de la Skype pour le panneau de configuration serveur Business.
   
 > [!NOTE]
-> Chaque stratégie vocale doit être associée à au moins un enregistrement d’utilisation du réseau téléphonique commuté (RTC). Pour voir une liste de tous les enregistrements d’utilisation PSTN disponibles dans votre déploiement d’Enterprise Voice et afficher leurs propriétés, voir [PSTN afficher les enregistrements d’utilisation dans Skype pour Business 2015](view-pstn-usage-records.md). 
+> Chaque stratégie vocale doit être associée à au moins un enregistrement d’utilisation du réseau téléphonique commuté (RTC). Pour voir une liste de tous les enregistrements d’utilisation PSTN disponibles dans votre déploiement d’Enterprise Voice et afficher leurs propriétés, voir [PSTN afficher les enregistrements d’utilisation dans Skype pour les entreprises](view-pstn-usage-records.md). 
   
 ### <a name="to-create-a-voice-policy"></a>Pour créer une stratégie de voix
 
@@ -98,7 +97,7 @@ ms.locfileid: "19501048"
     
    - Pour supprimer un itinéraire de l’enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
     
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md).
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md).
     
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. 
     
@@ -114,7 +113,7 @@ ms.locfileid: "19501048"
     
    - Pour supprimer un itinéraire de cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
     
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md).
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md).
     
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. 
     
@@ -152,7 +151,7 @@ ms.locfileid: "19501048"
     
    - Pour supprimer un itinéraire de l’enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
     
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md).
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md).
     
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. 
     
@@ -168,7 +167,7 @@ ms.locfileid: "19501048"
     
    - Pour supprimer un itinéraire de cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
     
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md).
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md).
     
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. 
     
@@ -181,9 +180,9 @@ ms.locfileid: "19501048"
 12. Dans la page **Stratégie de voix**, cliquez sur **Valider**, puis sur **Tout valider**. 
     
     > [!NOTE]
-    > Chaque fois que vous créez ou modifiez une stratégie de voix, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour Business 2015](voice-route-config-changes.md) dans la documentation des opérations.
+    > Chaque fois que vous créez ou modifiez une stratégie de voix, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md) dans la documentation des opérations.
   
-13. (Facultatif) Échappement de messagerie vocale détecte qu’un appel a été reçu immédiatement à la messagerie vocale de l’utilisateur téléphone mobile et déconnecte l’appel vers la messagerie vocale de téléphone mobile. Ainsi, l’appel de continuer à sonnerie sur l’utilisateur d’autres points de terminaison octroi à l’utilisateur la possibilité de répondre à l’appel. Pour plus d’informations sur la façon de configurer une stratégie de messagerie vocale, voir [Configure redirection vers la messagerie vocale dans Skype pour Business 2015](configure-voice-mail-escape.md).
+13. (Facultatif) Échappement de messagerie vocale détecte qu’un appel a été reçu immédiatement à la messagerie vocale de l’utilisateur téléphone mobile et déconnecte l’appel vers la messagerie vocale de téléphone mobile. Ainsi, l’appel de continuer à sonnerie sur l’utilisateur d’autres points de terminaison octroi à l’utilisateur la possibilité de répondre à l’appel. Pour plus d’informations sur la façon de configurer une stratégie de messagerie vocale, voir [Configure redirection vers la messagerie vocale dans Skype pour les entreprises](configure-voice-mail-escape.md).
     
 ### <a name="to-modify-a-voice-policy"></a>Pour modifier une stratégie de voix
 
@@ -247,7 +246,7 @@ ms.locfileid: "19501048"
     
    - Pour supprimer un itinéraire de l’enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
     
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md).
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md).
     
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. 
     
@@ -263,7 +262,7 @@ ms.locfileid: "19501048"
     
    - Pour supprimer un itinéraire de cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
     
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md).
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md).
     
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. 
     
@@ -301,7 +300,7 @@ ms.locfileid: "19501048"
     
    - Pour supprimer un itinéraire de l’enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
     
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md).
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md).
     
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. Pour plus d’informations, voir [Modifier un itinéraire de communications vocales](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
     
@@ -317,7 +316,7 @@ ms.locfileid: "19501048"
     
      - Pour supprimer un itinéraire de cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
     
-     - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md).
+     - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md).
     
      - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. Pour plus d’informations, voir [Modifier un itinéraire de communications vocales](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
     
@@ -330,16 +329,17 @@ ms.locfileid: "19501048"
 11. Dans la page **Stratégie de voix**, cliquez sur **Valider**, puis sur **Tout valider**. 
     
     > [!NOTE]
-    > Chaque fois que vous créez ou modifiez une stratégie de voix, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour Business 2015](voice-route-config-changes.md) dans la documentation des opérations.
+    > Chaque fois que vous créez ou modifiez une stratégie de voix, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md) dans la documentation des opérations.
   
-12. (Facultatif) Échappement de messagerie vocale détecte qu’un appel a été reçu immédiatement à la messagerie vocale de l’utilisateur téléphone mobile et déconnecte l’appel vers la messagerie vocale de téléphone mobile. Ainsi, l’appel de continuer à sonnerie sur l’utilisateur d’autres points de terminaison octroi à l’utilisateur la possibilité de répondre à l’appel. Pour plus d’informations sur la façon de configurer une stratégie de messagerie vocale, voir [Configure redirection vers la messagerie vocale dans Skype pour Business 2015](configure-voice-mail-escape.md).
+12. (Facultatif) Échappement de messagerie vocale détecte qu’un appel a été reçu immédiatement à la messagerie vocale de l’utilisateur téléphone mobile et déconnecte l’appel vers la messagerie vocale de téléphone mobile. Ainsi, l’appel de continuer à sonnerie sur l’utilisateur d’autres points de terminaison octroi à l’utilisateur la possibilité de répondre à l’appel. Pour plus d’informations sur la façon de configurer une stratégie de messagerie vocale, voir [Configure redirection vers la messagerie vocale dans Skype pour les entreprises](configure-voice-mail-escape.md).
     
 ## <a name="see-also"></a>Voir aussi
 
-[Afficher les enregistrements d’utilisation PSTN dans Skype pour Business 2015](view-pstn-usage-records.md)
+[Afficher les enregistrements d’utilisation PSTN dans Skype pour les entreprises](view-pstn-usage-records.md)
   
-[Créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md)
+[Créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md)
   
-[Publier des modifications à la configuration de routage voix Skype pour Business 2015 en attente](voice-route-config-changes.md)
+[Publier des modifications en attente de la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md)
   
-[Configurer la redirection vers la messagerie vocale dans Skype pour Business 2015](configure-voice-mail-escape.md)
+[Configurer la redirection vers la messagerie vocale dans Skype pour les entreprises](configure-voice-mail-escape.md)
+

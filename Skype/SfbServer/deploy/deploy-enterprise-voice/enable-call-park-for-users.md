@@ -1,9 +1,8 @@
 ---
-title: Activation du parcage d’appel pour les utilisateurs dans Skype Entreprise 2015
+title: Activer le parcage d’appel pour les utilisateurs de Skype pour les entreprises
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Activer les utilisateurs pour la mise en garde d’appels dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: b93a9393a095a4860bfd8f392f95d834dad6fa71
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 44e72cab776b08cbd0290bb15010d36d370d86b3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968222"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business-2015"></a>Activation du parcage d’appel pour les utilisateurs dans Skype Entreprise 2015
+# <a name="enable-call-park-for-users-in-skype-for-business"></a>Activer le parcage d’appel pour les utilisateurs de Skype pour les entreprises
  
 Activer les utilisateurs pour la mise en garde d’appels dans Skype pour Business Server Enterprise Voice.
   
@@ -64,7 +64,7 @@ Vous pouvez activer la mise en garde d’appels au niveau global ou au niveau de
 
 ## <a name="see-also"></a>Voir aussi
 
-#### 
 
-[Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour Business 2015](voice-policy-and-pstn-usage-records.md)
+
+[Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour les entreprises](voice-policy-and-pstn-usage-records.md)
 

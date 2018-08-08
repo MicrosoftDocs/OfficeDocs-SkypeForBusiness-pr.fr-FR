@@ -1,9 +1,8 @@
 ---
-title: Création ou modification d’une plage de numéros de prise d’appel de groupe dans Skype Entreprise 2015
+title: Créer ou modifier une plage de numéros de groupe d’appel collecte dans Skype pour les entreprises
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Créer ou modifier une plage de numéros de groupe d’appel collecte dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: e67c8094bf66590d006fbce75f49258bb3f4f2a9
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 15906402fe81047f02fc033ba7a051a4169a0f26
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002452"
 ---
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business-2015"></a>Création ou modification d’une plage de numéros de prise d’appel de groupe dans Skype Entreprise 2015
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Créer ou modifier une plage de numéros de groupe d’appel collecte dans Skype pour les entreprises
  
 Créer ou modifier une plage de numéros de groupe d’appel collecte dans Skype pour Business Server Enterprise Voice.
   
@@ -76,11 +76,8 @@ Les plages de numéros de groupe de prise d’appel doivent respecter les règle
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Nouvelle-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
   
 [Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
   
 [Supprimer une plage d’orbites de parcage d’appel](http://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
-

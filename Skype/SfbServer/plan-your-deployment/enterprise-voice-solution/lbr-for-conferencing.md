@@ -1,9 +1,8 @@
 ---
-title: Routage géodépendant pour les conférences dans Skype Entreprise Server 2015
+title: Routage par emplacement pour les conférences dans Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 10/13/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planification de routage par emplacement pour les conférences dans Skype pour Business Server Enterprise Voice, y compris appel consultatif transfère.
-ms.openlocfilehash: 778f8156d2d4ab4cf6613975567a88e80c1e6b9c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0a7e31637736eb774373ed52c0a966651445b7f5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004474"
 ---
-# <a name="location-based-routing-for-conferencing-in-skype-for-business-server-2015"></a>Routage géodépendant pour les conférences dans Skype Entreprise Server 2015
+# <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Routage par emplacement pour les conférences dans Skype pour Business Server
  
 Planification de routage par emplacement pour les conférences dans Skype pour Business Server Enterprise Voice, y compris appel consultatif transfère.
   
@@ -47,7 +47,7 @@ Routage basé sur un emplacement pour l’application de conférence empêche la
 Ces restrictions de routage en fonction de conférence sont résumées dans le tableau suivant. 
   
 | |
-|**Utilisateurs dans une conférence à un moment donné**|**Utilisateurs autorisés à participer à la conférence**|**Utilisateurs non autorisés à participer à la conférence**|
+|**Utilisateur(s) dans une conférence à un moment donné**|**Utilisateur(s) autorisés à rejoindre la conférence**|**Utilisateur(s) non autorisés à rejoindre la conférence**|
 |:-----|:-----|:-----|
 |Skype pour VoIP Business client ou les utilisateurs d’un site réseau unique  <br/> |Skype pour l’utilisateur du client à partir du même site réseau VoIP d’entreprise  <br/> Skype pour l’utilisateur du client à partir d’un site autre réseau VoIP d’entreprise  <br/> Skype pour l’utilisateur du client VoIP d’entreprise à partir d’un site réseau inconnu  <br/> Skype fédéré pour l’utilisateur du client VoIP d’entreprise  <br/> Utilisateur rejoignant la conférence à partir d’un point de terminaison PSTN  <br/> |Aucune  <br/> |
 |Skype pour VoIP Business client ou les utilisateurs à partir d’un site réseau inconnu  <br/> |Skype pour l’utilisateur du client VoIP d’entreprise à partir de n’importe quel site  <br/> Skype pour l’utilisateur du client VoIP d’entreprise à partir d’un site inconnu  <br/> Skype fédéré pour l’utilisateur du client VoIP d’entreprise  <br/> |Utilisateur rejoignant la conférence via un point de terminaison PSTN  <br/> |
@@ -74,7 +74,7 @@ Autres caractéristiques de la gamme en fonction de l’application de conféren
 
 En plus de l’application en fonction de routage à Skype pour les réunions d’entreprise, le routage basé sur l’emplacement pour l’application de conférence applique les restrictions de routage basé sur l’emplacement du transfert consultatif appel qui sortie aux points de terminaison RTC. Un transfert d’appel consultatif est un appel établi entre deux parties dans lequel une des parties transfère l’appel vers un nouvel utilisateur. Par exemple, un point de terminaison RTC appelle l’utilisateur (Skype pour appelé Business). L’utilisateur A détermine que l’utilisateur RTC doit être transféré à l’utilisateur B (Skype pour utilisateur professionnel). L’utilisateur A passe l’appel avec l’utilisateur PSTN en attente, et appelle l’utilisateur B. L’utilisateur B accepte de parler à l’utilisateur PSTN. L’utilisateur A transfère l’appel en attente à l’utilisateur B.
   
-**Flux d’appels transfert consultatif d’appel**
+**Flux des transferts d’appel consultatifs**
 
 ![Diagramme Routage géodépendant pour les conférences](../../media/LocationBasedRoutingForConferencing.jpg)
   
@@ -87,7 +87,7 @@ Lorsqu’un utilisateur activé pour le routage basé sur l’emplacement lance 
 Le tableau suivant décrit comment basé sur l’emplacement de routage restrictions sont appliquées par le routage basé sur l’emplacement pour l’application de conférence pour les transferts consultatifs appel. Si les points de terminaison PBX ne sont pas directement associés à un site réseau, la jonction SIP à laquelle le PBX est connecté peut être affectée à un site réseau. Par conséquent, le point de terminaison PBX peut être indirectement associé à un site réseau.
   
 
-|**Site de réseau d’un appel transféré tiers**|**Site de réseau de la cible de transfert d’appel**|**Comportement**|
+|**Site réseau de la partie dont l’appel est transféré**|**Site réseau de la cible de transfert d’appel**|**Comportement**|
 |:-----|:-----|:-----|
 |Point de terminaison RTC  <br/> |Skype pour l’utilisateur d’entreprise dans le même site réseau (autrement dit, le site 1)  <br/> |Le transfert consultatif est autorisé  <br/> |
 |Point de terminaison PSTN  <br/> |Skype pour l’utilisateur d’entreprise dans les sites de réseau différents (autrement dit, le site 2)  <br/> |Le transfert consultatif n’est pas autorisé  <br/> |
@@ -109,7 +109,7 @@ Routage basé sur un emplacement pour l’application de conférence requiert qu
 Le tableau suivant indique les combinaisons de rôles de serveur et les versions qui prennent en charge le routage basé sur l’emplacement.
   
 
-|**Version du Pool frontale**|**Version de serveur de médiation**|**Prise en charge**|
+|**Version de pool frontal**|**Version de serveur de médiation**|**Prise en charge**|
 |:-----|:-----|:-----|
 |Skype pour Business Server ou Lync Server 2013 mise à jour Cumulative 2  <br/> |Skype pour Business Server ou Lync Server 2013 mise à jour Cumulative 2  <br/> |Oui  <br/> |
 |Mise à jour cumulative 2 de Lync Server 2013  <br/> |Mise à jour cumulative 1 de Lync Server 2013  <br/> |Non  <br/> |

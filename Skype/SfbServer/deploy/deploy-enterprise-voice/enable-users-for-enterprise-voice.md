@@ -1,9 +1,8 @@
 ---
-title: Activation des utilisateurs pour Voix Entreprise dans Skype Entreprise Server 2015
+title: Activer les utilisateurs pour Enterprise Voice sur Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
-description: 'Résumé : Découvrez comment permettre aux utilisateurs d’émettre et recevoir des appels à l’aide d’Enterprise Voice dans Skype pour Business Server 2015.'
-ms.openlocfilehash: c7cbedb083ac76006a2bc7aaaec17082f7da75dd
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Découvrez comment permettre aux utilisateurs d’émettre et recevoir des appels à l’aide d’Enterprise Voice dans Skype pour Business Server.'
+ms.openlocfilehash: abba652665660299ccb1e3b9a55961ca2248225e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025665"
 ---
-# <a name="enable-users-for-enterprise-voice-in-skype-for-business-server-2015"></a>Activation des utilisateurs pour Voix Entreprise dans Skype Entreprise Server 2015
+# <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Activer les utilisateurs pour Enterprise Voice sur Skype pour Business Server
  
-**Résumé :** Découvrez comment permettre aux utilisateurs d’émettre et recevoir des appels à l’aide d’Enterprise Voice dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment permettre aux utilisateurs d’émettre et recevoir des appels à l’aide d’Enterprise Voice dans Skype pour Business Server.
   
 Après avoir déployé Enterprise Voice ou appel via le bureau, vous pouvez utiliser les procédures suivantes pour activer un utilisateur effectuer des appels à l’aide de Enterprise Voice :
   

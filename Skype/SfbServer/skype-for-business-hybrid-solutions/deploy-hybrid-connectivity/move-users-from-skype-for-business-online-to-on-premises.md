@@ -16,11 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 'Résumé : Découvrez comment déplacer les comptes d’utilisateurs en ligne et localement dans Skype pour Business Server.'
-ms.openlocfilehash: 867fb34cbbb0e908fd8af521cff9a1867caa30a7
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 098dc36e6551839d599042993b156073197753ec
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025680"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Déplacer les utilisateurs de Skype pour Business en ligne et en local
  
@@ -69,9 +70,7 @@ Avant de commencer à déplacer les utilisateurs en ligne vers votre environneme
   Import-PSSession $CSSession -AllowClobber
   ```
 
-    Pour plus d’informations sur l’établissement d’une session PowerShell distante avec Skype pour Business Online, consultez [connexion à Lync Online à l’aide de Windows PowerShell](http://technet.microsoft.com/library/6167dad9-9628-4fdb-bed1-bdb3f7108e64.aspx).
-    
-    Pour plus d’informations sur l’utilisation de la Skype pour le module PowerShell connecteur Business en ligne, voir [L’aide de Windows PowerShell pour gérer Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx).
+    Pour plus d’informations sur l’utilisation de PowerShell avec Skype pour Business Online, voir [configurer votre ordinateur pour Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 - Votre client en ligne doit être configuré pour un espace d’adressage SIP partagé. Pour ce faire, commencez par démarrer une session Powershell distante avec Skype pour Business Online. Ensuite, exécutez l’applet de commande suivante :
     
@@ -130,9 +129,9 @@ Une fois que vous avez terminé ces étapes, vous pouvez migrer les comptes d’
     
   - Mettez à jour **lyncdiscover.contoso.com**  Un enregistrement pour pointer vers le nom de domaine complet (FQDN) du serveur proxy inverse local.
     
-  - Mise à jour la ** *_sip* . _tls.contoso.com** SRV enregistrer pour résoudre l’adresse IP ou l’adresse IP publique du service Edge d’accès de Lync sur site.
+  - Mise à jour la ** *_sip* . _tls.contoso.com** enregistrement SRV pour résoudre l’adresse IP ou l’adresse IP publique du service Edge d’accès de Lync sur site.
     
-  - Mise à jour la ** *_sipfederationtls* . _tcp.contoso.com** SRV enregistrer pour résoudre l’adresse IP ou l’adresse IP publique du service Edge d’accès de Skype pour Business Server 2015 locale.
+  - Mise à jour la ** *_sipfederationtls* . _tcp.contoso.com** enregistrement SRV pour résoudre l’adresse IP ou l’adresse IP publique du service Edge d’accès de Skype pour Business Server 2015 locale.
     
   - Si votre organisation utilise fractionnées DNS (parfois appelée « DNS split-brain »), assurez-vous que les utilisateurs de la résolution de noms par le biais de la zone DNS interne sont dirigés vers le Pool frontal.
     
@@ -144,9 +143,6 @@ Une fois que vous avez terminé ces étapes, vous pouvez migrer les comptes d’
     
   ```
   $cred = Get-Credential
-  ```
-
-  ```
   Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
   ```
 
@@ -191,7 +187,7 @@ Une fois que vous avez terminé ces étapes, vous pouvez migrer les comptes d’
   Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
   ```
 
-|**Attribut de répertoire actif**|**Nom de l’attribut**|**Valeur correcte pour l’utilisateur en ligne**|**Valeur correcte pour les utilisateurs locaux**|
+|**Attribut Active Directory**|**Nom Attribut**|**Valeur correcte pour l’utilisateur Online**|**Valeur correcte pour les utilisateurs locaux**|
 |:-----|:-----|:-----|:-----|
 |msRTCSIP-DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.Online.Lync.com  <br/> |SRV :  <br/> |
 |msRTCSIP-PrimaryUserAddress  <br/> |SIPAddress  <br/> |SIP:username@contoso.com  <br/> |SIP:username@contoso.com  <br/> |

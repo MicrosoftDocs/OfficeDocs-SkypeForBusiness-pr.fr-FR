@@ -1,9 +1,8 @@
 ---
-title: Création de stratégies intersites réseau dans Skype Entreprise Server 2015
+title: Créer des stratégies inter-sites réseau dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Créer des stratégies inter-sites, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server réseau.
-ms.openlocfilehash: f8c09f850a001b634ee63199210733000775fd0a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 49405bbaa1d761f1acc10c7506e44992cc03a153
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988521"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server-2015"></a>Création de stratégies intersites réseau dans Skype Entreprise Server 2015
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Créer des stratégies inter-sites réseau dans Skype pour Business Server
  
 Créer des stratégies inter-sites, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server réseau. 
   
-Une stratégie intersite de réseau définit des restrictions de bande passante entre les sites qui ont des liens directs WAN entre eux.
+Une stratégie réseau intersite définit des limitations de bande passante entre des sites présentant des liens directs WAN entre eux.
   
 > [!IMPORTANT]
 > Une stratégie réseau intersite est requis *uniquement* s’il existe un lien d’accès direct entre deux sites réseau.
@@ -45,8 +45,6 @@ Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien
     
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Nouvelle-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   
 [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
@@ -54,4 +52,3 @@ Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien
 [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
   
 [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)
-

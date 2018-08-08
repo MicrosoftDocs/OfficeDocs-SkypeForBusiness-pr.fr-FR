@@ -1,9 +1,8 @@
 ---
-title: Configuration d’un itinéraire des communications vocales E9-1-1 dans Skype Entreprise Server 2015
+title: Configurer une itinéraire des communications vocales E9-1-1 dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configurer les itinéraires de communications vocales E9-1-1 dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: b61b77fce36e0415d9c6f1189d8ecf2a5659d2f9
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 85259b6490b0f14d94d4d7c26f343d638911d909
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568227"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988747"
 ---
-# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server-2015"></a>Configuration d’un itinéraire des communications vocales E9-1-1 dans Skype Entreprise Server 2015
+# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Configurer une itinéraire des communications vocales E9-1-1 dans Skype pour Business Server
  
 Configurer les itinéraires de communications vocales E9-1-1 dans Skype pour Business Server Enterprise Voice. 
   
-Pour déployer E9-1-1, vous devez d’abord configurer un itinéraire des communications vocales pour les appels d’urgence. Pour plus d’informations sur la création d’itinéraires de communications vocales, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour Business 2015](create-or-modify-a-voice-route.md). Vous pouvez définir plusieurs itinéraires si, par exemple, votre déploiement comporte une jonction SIP (Session Initiation Protocol) principale et une jonction SIP secondaire. 
+Pour déployer E9-1-1, vous devez d’abord configurer un itinéraire des communications vocales pour les appels d’urgence. Pour plus d’informations sur la création d’itinéraires de communications vocales, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md). Vous pouvez définir plusieurs itinéraires si, par exemple, votre déploiement comporte une jonction SIP (Session Initiation Protocol) principale et une jonction SIP secondaire. 
   
 > [!NOTE]
 > Pour inclure des informations sur l’emplacement dans un inviter E9-1-1, vous devez configurer la jonction SIP qui se connecte au fournisseur de services E9-1-1 pour acheminer les appels d’urgence via la passerelle. Pour ce faire, définissez l’indicateur EnablePIDFLOSupport sur l’applet de commande **Set-CsTrunkConfiguration** sur True. La valeur par défaut pour EnablePIDFLOSupport a la valeur False. Par exemple : `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` n’est pas nécessaire d’activer la réception des emplacements de secours commuté téléphone PSTN (réseau) passerelles et urgence ELIN Location Identification Number ().
@@ -38,7 +37,7 @@ Pour déployer E9-1-1, vous devez d’abord configurer un itinéraire des commun
     
 3. Exécutez l’applet de commande ci-dessous pour créer un enregistrement d’utilisation RTC. 
     
-    Ce nom doit être identique à celui que vous utiliserez pour le paramètre **RTC** de la stratégie d’emplacement. Si votre déploiement comporte plusieurs enregistrements d’utilisation téléphonique, l’exemple ci-dessous ajoute « Emergency Usage » (Utilisation d’urgence) à la liste actuelle des utilisations RTC disponibles. Pour plus d’informations, voir [configurer les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires de communications vocales dans Skype pour Business 2015](voice-and-pstn.md).
+    Ce nom doit être identique à celui que vous utiliserez pour le paramètre **RTC** de la stratégie d’emplacement. Si votre déploiement comporte plusieurs enregistrements d’utilisation téléphonique, l’exemple ci-dessous ajoute « Emergency Usage » (Utilisation d’urgence) à la liste actuelle des utilisations RTC disponibles. Pour plus d’informations, voir [configurer les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires de communications vocales dans Skype pour les entreprises](voice-and-pstn.md).
     
    ```
    Set-CsPstnUsage -Usage @{add='EmergencyUsage'}

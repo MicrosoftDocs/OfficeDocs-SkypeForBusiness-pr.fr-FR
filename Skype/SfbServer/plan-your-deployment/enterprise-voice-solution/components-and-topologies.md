@@ -1,9 +1,8 @@
 ---
-title: Composants et topologies utilisés pour le contrôle d’admission des appels dans Skype Entreprise 2015
+title: Composants et topologies pour appeler le contrôle d’admission dans Skype pour les entreprises
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planification du contrôle d’admission des appels si vous disposez d’un réseau MPLS, d’une jonction SIP (Session Initiation Protocol) ou d’une passerelle RTC ou d’un système PBX tiers. S’applique à Skype Business Server Enterprise Voice.
-ms.openlocfilehash: bedb1737827eb18d56c15c088756c4eec9bab8c2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d08d5ca63c02a2ddf12f3f53a5e4952a7a366a71
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977706"
 ---
-# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business-2015"></a>Composants et topologies utilisés pour le contrôle d’admission des appels dans Skype Entreprise 2015
+# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Composants et topologies pour appeler le contrôle d’admission dans Skype pour les entreprises
  
 Planification du contrôle d’admission des appels si vous disposez d’un réseau MPLS, d’une jonction SIP (Session Initiation Protocol) ou d’une passerelle RTC ou d’un système PBX tiers. S’applique à Skype Business Server Enterprise Voice.
   
@@ -36,7 +36,7 @@ Dans un réseau MPLS (Multiprotocol Label Switching), tous les sites sont connec
   
 Pour déployer le contrôle d’admission des appels dans un réseau MPLS, vous devez créer une région sur le réseau pour représenter le cloud MPLS et créer un site réseau pour représenter chaque site satellite MPLS. La figure suivante montre comment la région et les sites du réseau doivent être configurés pour représenter le réseau MPLS exemple dans la figure précédente. Les limites globales de bande passante et de session de bande passante sont ensuite basées sur la capacité de la liaison de réseau étendu de chaque site vers la région qui représente le cloud MPLS.
   
-**Région et sites réseau pour un réseau MPLS**
+**Région et sites d’un réseau MPLS**
 
 ![Diagramme de contrôle d’admission des appels (CAC) avec MPLS](../../media/CAC_MPLS_2.jpg)
   
@@ -46,7 +46,7 @@ Pour déployer le contrôle d’admission des appels sur une jonction SIP, vous 
   
 La figure suivante montre un exemple de déploiement du contrôle d’admission des appels sur une jonction SIP.
   
-**Configuration CAC sur une jonction SIP**
+**Configuration du contrôle d’admission des appels sur une jonction SIP (Session Initiation Protocol)**
 
 ![Diagramme de jonction SIP de Contrôle d’admission des appels](../../media/CAC_SIP_trunk_1.jpg)
   
@@ -57,7 +57,7 @@ Pour configurer le contrôle d’admission des appels sur une jonction SIP, vous
     > [!NOTE]
     > Pour le fournisseur de services de téléphonie Internet, cette configuration de site réseau n’est pas fonctionnelle. Les valeurs de stratégie de bande passante sont en fait appliquées à l’étape 2. 
   
-2. Créez un lien intersite pour la jonction SIP à l’aide des valeurs de paramètre pertinentes pour le site créé à l’étape 1. Par exemple, utilisez le nom du site réseau dans votre entreprise comme valeur du paramètre NetworkSiteID1 et le site réseau du fournisseur de services de téléphonie Internet comme valeur du paramètre NetworkSiteID2. Pour plus d’informations, voir [créer des stratégies inter-sites réseau dans Skype pour Business Server 2015](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) dans la documentation de déploiement et [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
+2. Créez un lien intersite pour la jonction SIP à l’aide des valeurs de paramètre pertinentes pour le site créé à l’étape 1. Par exemple, utilisez le nom du site réseau dans votre entreprise comme valeur du paramètre NetworkSiteID1 et le site réseau du fournisseur de services de téléphonie Internet comme valeur du paramètre NetworkSiteID2. Pour plus d’informations, voir [créer des stratégies inter-sites réseau dans Skype pour Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) dans la documentation de déploiement et [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
     
 3. Obtenir l’adresse IP de la Session Border Controller (SCB) le Point de terminaison multimédia à partir de votre fournisseur ITSP. Ajoutez cette adresse IP avec un masque de sous-réseau de 32 au site réseau qui représente le fournisseur de services de téléphonie Internet. Pour plus d’informations, voir [associer un sous-réseau à un Site réseau](http://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
     
@@ -69,7 +69,7 @@ Cette rubrique décrit les exemples de la façon dont le contrôle d’admission
 
 CAC peut être déployé sur le réseau étendu lien à partir de l’interface de passerelle du serveur de médiation vers une passerelle PBX ou PSTN de tiers.
   
-**Cas 1 : CAC entre le serveur de médiation et une passerelle PSTN**
+**Exemple 1 : Contrôle d’admission des appels entre le serveur de médiation et une passerelle RTC**
 
 ![Cas 1 : CAC entre passerelle PSTN de serveur de médiation](../../media/CAC_gateways_1.jpg)
   
@@ -94,7 +94,7 @@ Cet exemple s’applique aux appels RTC entrants vers un client dans Site résea
 
 Cette configuration est semblable à l’exemple 1. Dans les deux cas, le serveur de médiation sait quel périphérique termine multimédia à l’opposé de la liaison WAN et l’adresse IP de la passerelle PSTN ou PBX avec une terminaison Point MTP (Media) est configuré sur le serveur de médiation comme tronçon suivant.
   
-**Cas 2 : CAC entre le serveur de médiation et un système PBX tiers avec MTP**
+**Exemple 2 : Contrôle d’admission des appels entre le serveur de médiation et un système PBX tiers avec point de terminaison multimédia (MTP)**
 
 ![Cas 2 : CAC entre PBX de serveur de médiation avec MTP](../../media/CAC_gateways_2.jpg)
   
@@ -119,7 +119,7 @@ Cet exemple s’applique aux appels RTC entrants vers un client dans Site résea
 
 L’exemple 3 est légèrement différent des deux premiers. S’il n’existe aucune MTP sur le système PBX tiers, d’une session sortante demande au système PBX tiers le serveur de médiation ne sait pas où multimédia se termine dans la limite du système PBX. Dans ce cas, le les données multimédias transitent directement entre le serveur de médiation et le périphérique de point de terminaison tiers.
   
-**Cas 3 : CAC entre le serveur de médiation et un système PBX tiers sans MTP**
+**Exemple 3 : Contrôle d’admission des appels entre le serveur de médiation et un système PBX tiers sans point de terminaison multimédia (MTP)**
 
 ![Cas 3 : CAC entre PBX de serveur de médiation sans MTP](../../media/CAC_gateways_3.jpg)
   

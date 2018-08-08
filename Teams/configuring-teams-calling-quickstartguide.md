@@ -3,19 +3,21 @@ title: "Guide de démarrage rapide : Configuration des forfaits d'appels dans M
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 12/12/2017
+ms.date: 6/1/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
-description: "Guide de démarrage rapide pour la configuration des forfaits d'appels dans Microsoft Teams."
+description: Guide de démarrage rapide pour la configuration des forfaits d'appels dans Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a32b615905d39bf8b91688f461f804a28d5a52d
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 0ded826a87bbde3e95af3734eb310988db5d7aef
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694801"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 ==============================================================
@@ -34,19 +36,21 @@ En ajoutant les forfaits d'appels (une fonction Office 365 avec Skype Entrepri
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Prérequis à l'activation de l'onglet **Appels** dans Teams
 Pour activer l'onglet **Appels** dans Teams et permettre à vos utilisateurs de passer et recevoir des appels PSTN, vous devez leur fournir un système téléphonique et un forfait d'appels. Pour en savoir plus à ce sujet, lisez [Configurer des forfaits d'appels](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0).
 
-> [!IMPORTANT]
-> Avant de configurer des forfaits d'appels dans Teams, tenez compte des restrictions suivantes :
-> * **La fonction Voix Hybride n'est pas prise en charge dans Teams** - Teams ne prend pas en charge la fonction Voix hybride pour le moment. Il n'est pas conseillé aux clients qui utilisent la Voix hybride de modifier les stratégies de réception des appels dans Teams, ceci pouvant engendrer des interruptions de service.
-> * **Les appels fédérés ne sont pas pris en charge dans Teams** - Teams ne prend pas en charge les appels fédérés (appels entre clients/entreprises) pour le moment. Les appels fédérés seront toujours acheminés vers Skype Entreprise indépendamment de la configuration de l'appel jusqu'à la prise en charge de cette fonction dans Teams.
-
 ## <a name="teams-interop-policy-configuration"></a>Configuration de la stratégie d'interopérabilité de Teams
-Pour activer la réception des appels dans Teams, vous devez mettre à jour la stratégie d'interopérabilité de Teams à l'aide d'une session Windows PowerShell distante avec les applets de commande [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype) de Skype Entreprise, afin de rediriger les appels vers Teams. Pour en savoir plus sur la fonction d'interopérabilité de Teams, consultez [Interopérabilité entre Microsoft Teams et Skype Entreprise](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability).
+Pour activer les équipes commencer à recevoir des appels, vous devez mettre à jour la stratégie de mise à niveau d’équipes et équipes interopérabilité la stratégie, à l’aide des [équipes Microsoft & Skype entreprise centre d’administration](https://aka.ms/teamsadmincenter) ou une session Windows PowerShell à distance avec le Skype pour les entreprises [ `*-CsTeamsUpgradePolicy`et `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) applets de commande pour rediriger les appels vers les équipes.
+
+Pour plus d’informations sur la stratégie de mise à niveau équipes et équipes PIA, voir [Migration et l’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
 
 > [!TIP]
-> Pour rechercher les applets de commande PowerShell dont vous avez besoin, entrez CsTeamsInteropPolicy dans le champ **Filtre** de la [documentation des applets de commande PowerShell de Skype Entreprise](https://docs.microsoft.com/powershell/module/skype).
+> Pour rechercher les applets de commande PowerShell que vous avez besoin, tapez « CsTeamsUpgradePolicy » ou « CsTeamsInteropPolicy » dans la zone **filtre** dans la [Skype pour la documentation d’applet de commande PowerShell Business](https://docs.microsoft.com/powershell/module/skype).
 
-### <a name="default-teams-interop-policy"></a>Stratégie d'interopérabilité de Teams par défaut
+### <a name="default-teams-upgrade-and-interop-policies"></a>Par défaut des équipes de stratégies de mise à niveau et interopérabilités
 Teams intègre une configuration de stratégie par défaut conçue pour garantir l'ininterruption des flux de travail professionnels existants pendant le déploiement de Teams. Par défaut, les appels de type Voix sur IP, RTC et fédérés vers vos utilisateurs continuent d'être acheminés vers Skype Entreprise jusqu'à la mise à jour de la stratégie permettant d'activer les appels entrants vers Teams. Vous avez ainsi la garantie que les services vocaux ne seront pas interrompus de manière imprévue à la mise en place et au déploiement de Teams.
+
+Mise à niveau de stratégie par défaut est conservée au mode hérité qui respecte la stratégie d’interopérabilité de base équipes pour déterminer où des conversations et les appels sont routés--les équipes des équipes ou Skype pour les entreprises.
+
+> [!NOTE]
+> Stratégie de mise à niveau les comportements d’équipes et stratégie interopérabilité équipes change bientôt comme décrit dans la [Migration et l’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 La stratégie d'interopérabilité de Teams possède la configuration par défaut suivante :
 
@@ -62,69 +66,42 @@ Comportements de la configuration par défaut :
 > [!NOTE]
 > Les utilisateurs ayant reçu une licence de système téléphonique et de forfait d'appels pour Skype Entreprise Online et utilisant la stratégie d'interopérabilité générale par défaut de Teams auront accès à l'onglet Appels dans Teams et pourront passer des appels RTC sortants à partir de Teams sans intervention des administrateurs.
 
-#### <a name="how-to-configure-teams-to-use-the-default-policy"></a>Procédure de configuration de Teams pour utiliser la stratégie par défaut
-Par défaut, la stratégie d'interopérabilité générale de Teams est appliquée à tous les utilisateurs de votre client et configurée avec les paramètres standard décrits ci-après. Si pour un motif quelconque vous avez octroyé des stratégies différentes à vos utilisateurs et souhaitez rétablir les paramètres par défaut, vous devrez appliquer la stratégie d'interopérabilité générale de Teams via la session Windows PowerShell distante de Skype Entreprise :
-
-    Grant-CsTeamsInteropPolicy -PolicyName Global -Identity user@contoso.com
-
-> [!WARNING]
-> Bien qu'il soit possible de modifier la stratégie d'interopérabilité générale de Teams à partir des valeurs par défaut, nous vous déconseillons fortement de le faire. 
-
 ## <a name="configuring-teams-to-receive-inbound-pstn-calls"></a>Configuration de Teams pour recevoir des appels PSTN entrants
-Pour recevoir des appels RTC entrants dans Teams, vous devez configurer Teams en tant qu'application d'appel par défaut en appliquant la stratégie d'interopérabilité de Teams après avoir défini le paramètre `CallingDefaultClient` sur Teams.
+Pour recevoir des appels entrants de PSTN dans les équipes, vous devez configurer des équipes par défaut appelant en appliquant une stratégie de mise à niveau équipes avec la stratégie d’interopérabilité de base équipes correspondante qui définit l’application `CallingDefaultClient` paramètre aux équipes.
 
 > [!IMPORTANT]
 > Nous vous recommandons d'appliquer cette configuration à l'ensemble initial des utilisateurs pour découvrir ces nouvelles fonctionnalités d'appel dans Teams avant d'apporter des modifications à plus grande échelle ou dans l'ensemble de votre organisation.
 
-Considérez l'utilisation de la stratégie d'interopérabilité de Teams préconfigurée suivante pour acheminer les appels RTC entrants vers Teams :
+Si vous choisissez de continuer à utiliser la stratégie de mise à niveau équipes héritée, permet de la stratégie d’interopérabilité de base équipes préconfigurée suivante pour acheminer des appels PSTN entrants aux équipes :
 
     Identity                   : Tag:DisallowOverrideCallingTeamsChatTeams
     AllowEndUserClientOverride : False
     CallingDefaultClient       : Teams
     ChatDefaultClient          : Teams
 
+Si vous choisissez d’utiliser la stratégie de mise à niveau équipes mis à jour, vous devez affecter le mode TeamsOnly à vos utilisateurs.
+
 Comportements de la stratégie ci-dessus :
-* **Pour les clients Skype Entreprise existants**, cette stratégie est conçue pour rediriger les appels vers Teams. Elle comprend les appels de type Voix sur IP (de Teams et Skype Entreprise) et les appels PSTN. Les appels fédérés continueront d'être reçus dans Skype Entreprise. 
-* **Pour les clients sans Skype Entreprise**, le cas échéant, les appels PSTN seront reçus dans Teams. Teams **ne prend pas encore en charge** les appels fédérés.
+* **Pour les clients Skype Entreprise existants**, cette stratégie est conçue pour rediriger les appels vers Teams. Elle comprend les appels de type Voix sur IP (de Teams et Skype Entreprise) et les appels PSTN. 
+* **Pour les clients sans Skype Entreprise**, le cas échéant, les appels PSTN seront reçus dans Teams.
 
 > [!WARNING]
 > Basculer de `CallingDefaultClient` vers Teams affectera également les appels vers les téléphones IP Skype Entreprise. Les appels entrants ne seront pas reçus sur les téléphones et seuls les clients Teams entendront la sonnerie. Consultez la [Feuille de route de l'évolution des fonctionnalités entre Skype Entreprise et Microsoft Teams](https://aka.ms/skype2teamsroadmap) pour en savoir plus sur la prise en charge des téléphones SIP certifiés existants.
 
-### <a name="how-to-configure-teams-to-receive-pstn-calls"></a>Procédure de configuration de Teams pour recevoir des appels RTC
-Appliquez la stratégie d'interopérabilité de Teams comme indiqué ci-dessus via la session Windows PowerShell distante de Skype Entreprise pour rediriger les appels vers Teams :
+### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Comment configurer les utilisateurs pour la réception de PSTN des appels dans les équipes
+Lorsque vous utilisez la stratégie de mise à niveau équipes héritée, appliquer la stratégie de PIA équipes comme indiqué ci-dessus par le biais de Skype pour la session Windows PowerShell à distance Business pour rediriger les appels vers les équipes :
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-## <a name="configuring-teams-to-allow-users-to-change-their-preferred-calling-experience"></a>Configuration de Teams pour permettre aux utilisateurs de modifier leur application d'appel préférée
-Pour laisser les utilisateurs choisir leur application d'appel préférée et de recevoir les appels dans Teams ou Skype Entreprise, vous devez créer une stratégie d'interopérabilité personnalisée de Teams dans laquelle le paramètre `AllowEndUserClientOverride` est activé.
+Si vous choisissez d’utiliser le mode TeamsOnly, vous pouvez modifier le mode de coexistence de l’utilisateur à TeamsOnly via Microsoft Teams & Skype entreprise centre d’administration ou Skype pour la session Windows PowerShell à distance Business pour rediriger les appels vers les équipes :
 
-Voici un exemple de stratégie d'interopérabilité de Teams permettant à l'utilisateur de choisir son application d'appel préférée :
-
-    Identity                   : Tag:CustomPolicy
-    AllowEndUserClientOverride : True
-    CallingDefaultClient       : Default
-    ChatDefaultClient          : Default
-
-Une fois cette stratégie personnalisée appliquée aux utilisateurs, l'option de modification de l'application d'appel préférée sera disponible sur le client Teams permettant ainsi aux utilisateurs d'effectuer la modification eux-mêmes.
-
-![Option d'application d'appel préférée](media/Preferred_calling_application_option.png)
-
-> [!IMPORTANT]
-> Il est recommandé d'appliquer cette configuration à un ensemble initial d'utilisateurs avant d'apporter des modifications à plus grande échelle ou dans toute votre organisation.
-
-### <a name="how-to-create-and-apply-the-custom-teams-interop-policy"></a>Procédure de création et d'application d'une stratégie d'interopérabilité personnalisée de Teams
-Pour créer la stratégie d'interopérabilité de Teams comme indiqué ci-dessus via la session Windows PowerShell distante de Skype Entreprise, procédez comme suit :
-
-    New-CsTeamsInteropPolicy -Identity tag:CustomPolicy -AllowEndUserClientOverride:$True -CallingDefaultClient:Default -ChatDefaultClient:Default
-
-    Grant-CsTeamsInteropPolicy -PolicyName tag:CustomPolicy -Identity user@contoso.com
-
-
+    Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
+    Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
 ## <a name="see-also"></a>Voir aussi
 [Configurer des forfaits d'appels](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0)
 
-[Interopérabilité entre Microsoft Teams et Skype Entreprise](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)
+[Guide de migration et d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 [Guide pratique des systèmes téléphoniques avec forfaits d'appels dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
 

@@ -1,9 +1,8 @@
 ---
-title: Création d’une collection de paramètres de configuration de jonction dans Skype Entreprise Server 2015
+title: Créer une nouvelle collection de jonction paramètres de configuration dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,15 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Résumé : Découvrez comment créer une nouvelle collection de jonction les paramètres de configuration à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 2dd402e61e87642234410b74cb5c6b28b89c69a9
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e77e6fb0a84761363eb81b62858e800e2e5d65fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025799"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server-2015"></a>Création d’une collection de paramètres de configuration de jonction dans Skype Entreprise Server 2015
- 
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Créer une nouvelle collection de jonction paramètres de configuration dans Skype pour Business Server 
+
 **Résumé :** Découvrez comment créer une nouvelle collection de jonction paramètres de configuration à l’aide de la Skype pour le panneau de configuration serveur Business.
   
 Les paramètres de configuration de jonction SIP (Session Initiation Protocol) définissent la relation et les possibilités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (RTC), un autocommutateur privé IP (PBX) ou le contrôleur SBC (Session Border Controller) du côté fournisseur de services. Ces paramètres spécifient, par exemple :

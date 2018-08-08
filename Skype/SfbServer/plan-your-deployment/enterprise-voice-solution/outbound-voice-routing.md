@@ -1,9 +1,8 @@
 ---
-title: Planification du routage des communications vocales sortantes dans Skype Entreprise Server 2015
+title: Planifier le routage des communications vocales sortantes dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: En savoir plus sur le routage des communications vocales sortantes dans Skype pour Business Server Enterprise Voice, notamment les paramètres de routage d’appel, les plans de numérotation, les règles de normalisation, les stratégies de voix, enregistrements d’utilisation PSTN et itinéraires de communications vocales.
-ms.openlocfilehash: 35ba2a8991b35a22b6abcacc42f1323d167c0d4d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1f399ff44eafdc1fc61fb5bab41b0d8949127e62
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21029188"
 ---
-# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server-2015"></a>Planification du routage des communications vocales sortantes dans Skype Entreprise Server 2015
+# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planifier le routage des communications vocales sortantes dans Skype pour Business Server
  
 En savoir plus sur le routage des communications vocales sortantes dans Skype pour Business Server Enterprise Voice, notamment les paramètres de routage d’appel, les plans de numérotation, les règles de normalisation, les stratégies de voix, enregistrements d’utilisation PSTN et itinéraires de communications vocales.
   
@@ -81,7 +81,7 @@ Pour planifier un plan de numérotation, procédez comme suit :
     
     Si votre organisation gère un seul plan de numérotation sur plusieurs sites, vous devrez toujours créer un plan de numérotation distincts pour les utilisateurs d’Enterprise Voice qui migrez à partir d’un autocommutateur privé (PBX) et qui ont besoin d’avoir leurs extensions existantes conservées.
     
-- Déterminez la nécessité de plans de numérotation par utilisateur. Par exemple, si vous avez des utilisateurs sur un site de succursale inscrit avec le site central ou si vous avez des utilisateurs qui sont enregistrés sur un serveur Survivable Branch Appliance, vous pouvez envisager spécial des scénarios de numérotation pour ces utilisateurs par utilisateur à l’aide de plans de numérotation et règles de normalisation . Pour plus d’informations, voir [Plan for Enterprise Voice resiliency dans Skype pour Business Server 2015](enterprise-voice-resiliency.md).
+- Déterminez la nécessité de plans de numérotation par utilisateur. Par exemple, si vous avez des utilisateurs sur un site de succursale inscrit avec le site central ou si vous avez des utilisateurs qui sont enregistrés sur un serveur Survivable Branch Appliance, vous pouvez envisager spécial des scénarios de numérotation pour ces utilisateurs par utilisateur à l’aide de plans de numérotation et règles de normalisation . Pour plus d’informations, voir [Plan for Enterprise Voice resiliency dans Skype pour Business Server](enterprise-voice-resiliency.md).
     
 - Déterminez l’étendue d’un plan de numérotation (tel que décrit plus haut dans cette rubrique).
     
@@ -141,7 +141,7 @@ Pour plus d’informations sur l’utilisation d’expressions régulières .NET
 
 Le tableau ci-dessous illustre des exemples de règles de normalisation écrites sous la forme d'expressions régulières .NET Framework. Il s'agit uniquement d'exemples qui ne doivent pas être considérés comme une référence normative pour la création de règles de normalisation.
   
-**Règles de normalisation tableau 1 à l’aide d’Expressions régulières .NET Framework**
+**Tableau 1. Règles de normalisation à l’aide d’expressions régulières .NET Framework**
 
 |**Nom de la règle**|**Description**|**Schéma de numéro**|**Conversion**|**Exemple**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -159,7 +159,7 @@ Le tableau ci-dessous illustre des exemples de règles de normalisation écrites
    
 Le tableau ci-dessous illustre un exemple de plan de numérotation pour Redmond, Washington, États-Unis, basé sur les règles de normalisation indiquées dans le tableau précédent.
   
-**Le tableau 2. Plan de numérotation Redmond basé sur des règles de normalisation indiquées dans le tableau 1**
+**Tableau 2. Plan de numérotation pour Redmond basé sur les règles de normalisation mentionnées dans le Tableau 1**
 
 |**Redmond.forestFQDN**|
 |:-----|
@@ -197,7 +197,7 @@ Les étapes suivantes vous aideront à planifier les stratégies de voix dont vo
     
 ### <a name="voice-policy-scope"></a>Étendue de stratégie de voix
 
-Étendue de stratégie de voix détermine le niveau hiérarchique auquel la stratégie peut être appliquée. Dans Skype pour Business Server, vous pouvez configurer les stratégies de voix avec les niveaux d’étendue suivantes (répertoriées de la plus spécifique au plus général).
+L’étendue de stratégie de voix détermine le niveau hiérarchique auquel la stratégie peut être appliquée. Dans Skype pour Business Server, vous pouvez configurer les stratégies de voix avec les niveaux d’étendue suivantes (répertoriées de la plus spécifique au plus général).
   
 - Une **stratégie de voix d’utilisateur** peut être affectée à des utilisateurs individuels, à des groupes ou à des objets contact. Il s’agit de la stratégie de plus bas niveau. Les stratégies de voix d’utilisateur peuvent être déployées afin d’activer des fonctionnalités pour certains utilisateurs ou groupes au niveau d’un site, mais pas pour les autres du même site. Par exemple, il peut être utile de désactiver la numérotation longue distance pour certains employés. Dans le cadre de l’affectation d’une stratégie de voix, un objet contact est traité comme un utilisateur individuel.
     

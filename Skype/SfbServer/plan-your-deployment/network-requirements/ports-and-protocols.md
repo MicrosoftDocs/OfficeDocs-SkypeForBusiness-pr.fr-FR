@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
-description: 'Résumé : Passez en revue les considérations de l’utilisation du port avant d’implémenter Skype pour Business Server 2015.'
-ms.openlocfilehash: 9f47cf2f04db02765f9693b1128fe1f9440b59e6
-ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
+description: 'Résumé : Passez en revue les considérations de l’utilisation du port avant d’implémenter Skype pour Business Server.'
+ms.openlocfilehash: 4d6a6096ea4f98f41a66173058743ae7d134e997
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19630153"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996892"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Ports et protocoles requis pour les serveurs
  
-**Résumé :** Passez en revue les considérations de l’utilisation du port avant d’implémenter Skype pour Business Server 2015.
+**Résumé :** Passez en revue les considérations de l’utilisation du port avant d’implémenter Skype pour Business Server.
   
 Skype pour Business Server nécessite que les pare-feu internes et externes des ports spécifiques soient ouverts. De plus, si la sécurité IPsec (Internet Protocol security) est déployée dans votre organisation, elle doit être désactivée sur la plage de ports utilisée pour l’acheminement des flux audio, vidéo et de vidéo panoramique. 
   
@@ -45,9 +45,9 @@ Pour plus d’informations sur la configuration du pare-feu pour les composants 
   
 Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque rôle serveur interne. 
   
-**Ports de serveurs requis (par rôle de serveur)**
+**Ports de serveurs requis (par rôle serveur)**
 
-|**Rôle de serveur**|**Nom de service**|**Port**|**Protocole**|**Remarques**|
+|**Rôle serveur**|**Nom du service**|**Port**|**Protocole**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|
 |Tous les serveurs  <br/> |SQL Browser  <br/> |1434  <br/> |UDP  <br/> |SQL Browser pour la copie répliquée locale de la base de données du magasin central de gestion.  <br/> |
 |Serveurs frontaux  <br/> |Skype pour le service Business Server frontal  <br/> |5060  <br/> |TCP  <br/> |Utilisé facultativement par les serveurs Standard Edition Server et les serveurs frontaux pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.  <br/> |
@@ -88,7 +88,7 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 |Avant les serveurs frontaux où réside le magasin Central de gestion  <br/> | Skype pour le service de l’Agent réplicateur maître de serveur d’entreprise <br/> |445  <br/> |TCP  <br/> |Utilisé pour acheminer les données de configuration à partir du magasin Central de gestion vers des serveurs exécutant Skype pour Business Server.  <br/> |
 |Tous les serveurs  <br/> |SQL Browser  <br/> |1434  <br/> |UDP  <br/> |SQL Browser pour la copie répliquée locale de gestion centrale stockent des données dans l’instance SQL Server locale  <br/> |
 |Tous les serveurs internes  <br/> |Divers  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Plage de ports multimédias utilisée pour les conférences audio sur tous les serveurs internes. Utilisée par tous les serveurs qui se termine audio : serveurs frontaux (pour Skype pour le service Business Server intendant, Skype pour le service d’annonce de conférence Business Server et Skype pour le service de conférence Audio/vidéo Business Server), et Serveur de médiation.  <br/> |
-|Serveurs Office Web Apps Server  <br/> ||443  <br/> ||Utilisé par Skype pour Business Server 2015 pour se connecter à Office Web Apps Server.  <br/> |
+|Serveurs Office Web Apps Server  <br/> ||443  <br/> ||Utilisé par Skype pour Business Server pour se connecter à Office Web Apps Server.  <br/> |
 |directeurs  <br/> |Skype pour le service Business Server frontal  <br/> |5060  <br/> |TCP  <br/> |Utilisé facultativement pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.  <br/> |
 |Directeurs  <br/> |Skype pour le service Business Server frontal  <br/> |444  <br/> |HTTPS  <br/> TCP  <br/> |Communication entre serveurs frontaux et directeurs. En outre, le certificat client publier (sur les serveurs frontaux) ou valider si le certificat client a déjà été publié.  <br/> |
 |directeurs  <br/> |Skype pour le service Business Server Web compatibilité  <br/> |80  <br/> |TCP  <br/> |Utilisé pour les communications initiales entre les directeurs et les noms de domaine complets des batteries de serveurs Web (URL utilisées par les composants Web IIS). En fonctionnement normal, bascule vers le trafic HTTPS en utilisant le port 443 et le type de protocole TCP.  <br/> |
@@ -107,9 +107,9 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
   
 Pour les pools utilisant uniquement l’équilibrage de la charge matérielle (et non pas l’équilibrage de charge DNS), le tableau suivant indique les ports qui doivent ouvrir les programmes d’équilibrage de la charge matérielle.
   
-**Ports du programme d’équilibrage de charge matérielle si vous utilisez uniquement d’équilibrage de charge**
+**Ports des programmes d’équilibrage de la charge matérielle si uniquement l’équilibrage de la charge matérielle est utilisé**
 
-|**Équilibrage de charge**|**Port**|**Protocole**|
+|**Programme d’équilibrage de charge**|**Port**|**Protocole**|
 |:-----|:-----|:-----|
 |Programme d’équilibrage de charge du serveur frontal  <br/> |5061  <br/> |TCP (TLS)  <br/> |
 |Programme d’équilibrage de charge du serveur frontal  <br/> |444  <br/> |HTTPS  <br/> |
@@ -134,9 +134,9 @@ Pour les pools utilisant uniquement l’équilibrage de la charge matérielle (e
    
 Vos pools frontaux et pools directeurs qui font appel à l’équilibrage de charge DNS doivent également déployer un programme d’équilibrage de la charge matérielle. Le tableau suivant affiche les ports qui doivent être ouverts sur ces programmes d’équilibrage de la charge matérielle.
   
-**Ports du programme d’équilibrage de charge matérielle si l’équilibrage de charge DNS**
+**Ports des programmes d’équilibrage de la charge matérielle si l’équilibrage de charge DNS est utilisé**
 
-|**Équilibrage de charge**|**Port**|**Protocole**|
+|**Programme d’équilibrage de charge**|**Port**|**Protocole**|
 |:-----|:-----|:-----|
 |Programme d’équilibrage de charge du serveur frontal  <br/> |80  <br/> |HTTP  <br/> |
 |Programme d’équilibrage de charge du serveur frontal  <br/> |443  <br/> |HTTPS  <br/> |
@@ -145,7 +145,7 @@ Vos pools frontaux et pools directeurs qui font appel à l’équilibrage de cha
 |Programme d’équilibrage de charge du directeur  <br/> |443  <br/> |HTTPS  <br/> |
 |Programme d’équilibrage de charge du directeur  <br/> |4443  <br/> |HTTPS (du proxy inverse)  <br/> |
    
-**Ports Client requis**
+**Ports client requis**
 
 |**Composant**|**Port**|**Protocole**|**Remarques**|
 |:-----|:-----|:-----|:-----|
@@ -178,7 +178,7 @@ Le tableau suivant présente les paramètres recommandés pour les exceptions IP
   
 **Exceptions recommandées pour IPsec**
 
-|**Nom de la règle**|**Adresse IP source**|**Destination IP**|**Protocole**|**Port source**|**Port de destination**|**Besoin d’authentification**|
+|**Nom de la règle**|**Adresse IP source**|**Adresse IP de destination**|**Protocole**|**Port source**|**Port de destination**|**Besoin d’authentification**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Serveur Edge A/V, ports internes/entrants  <br/> |Indifférente  <br/> |Serveur Edge A/V - interne  <br/> |UDP et TCP  <br/> |Indifférente  <br/> |Indifférente  <br/> |Ne pas authentifier  <br/> |
 |Serveur Edge A/V, ports externes/entrants  <br/> |Indifférente  <br/> |Serveur Edge A/V - externe  <br/> |UDP et TCP  <br/> |Indifférente  <br/> |Indifférente  <br/> |Ne pas authentifier  <br/> |

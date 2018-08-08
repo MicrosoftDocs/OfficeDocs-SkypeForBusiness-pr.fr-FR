@@ -1,9 +1,8 @@
 ---
-title: Connexions SIP directes dans Skype Entreprise Server 2015
+title: Connexions SIP directes dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Connexions SIP directes sont prises en charge entre Skype pour Business Server et les passerelles PSTN et IP-PBX dans Enterprise Voice.
-ms.openlocfilehash: c9dca75a7b1c7ac8fa60bafc5b7a2c2fa7b51490
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ac21bcd0df60a2b4cb9393e8cc2e047d4f9fdf7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006577"
 ---
-# <a name="direct-sip-connections-in-skype-for-business-server-2015"></a>Connexions SIP directes dans Skype Entreprise Server 2015
+# <a name="direct-sip-connections-in-skype-for-business-server"></a>Connexions SIP directes dans Skype pour Business Server
  
 Connexions SIP directes sont prises en charge entre Skype pour Business Server et les passerelles PSTN et IP-PBX dans Enterprise Voice.
   
@@ -123,7 +123,7 @@ Voici les principales questions à prendre en compte. N’oubliez pas que les r�
 
 Les serveurs de médiation peut acheminer des appels par le biais de plusieurs passerelles, contrôleurs de frontière de Session (SBC) fournis par les fournisseurs de services de téléphonie Internet, ou une combinaison des deux. En outre, plusieurs serveurs de médiation du pool peuvent interagir avec plusieurs passerelles. L’itinéraire logique entre un serveur de médiation et la passerelle est appelé une jonction. Lorsqu’un utilisateur interne passe un appel RTC, la logique de routage sortante sur le pool frontal choisit la jonction pour acheminer sur Déconnecter toutes les combinaisons possibles qui peuvent être disponibles pour le routage de cet appel particulier. L’équilibrage de charge DNS, si un appel échoue atteindre une passerelle en raison d’un problème avec un serveur de médiation spécifique dans le pool, l’appel sera tentée à nouveau sur un autre serveur de médiation du pool. 
   
-Pour plus d’informations sur la planification de plusieurs passerelles, voir [jonction m : n dans Skype pour Business Server 2015](m-n-trunk.md).
+Pour plus d’informations sur la planification de plusieurs passerelles, voir [jonction m : n dans Skype pour Business Server](m-n-trunk.md).
   
 Pour plus d’informations sur les autres améliorations apportées au routage sortantes, voir [Call Routes](http://technet.microsoft.com/library/a2ddf327-2ec4-407b-af0f-276f2b13eefd.aspx).
   

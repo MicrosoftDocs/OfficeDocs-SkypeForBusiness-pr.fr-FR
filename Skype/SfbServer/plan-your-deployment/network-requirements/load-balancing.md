@@ -3,7 +3,6 @@ title: Configuration requise pour l’équilibrage de charge pour Skype Entrepri
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
-description: 'Résumé : Passez en revue le considérations relatives à équilibrage avant d’implémenter Skype pour Business Server 2015.'
-ms.openlocfilehash: dee231f9c50e8ad71ead0ad6b31ad20e00da1b7a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Passez en revue le considérations relatives à équilibrage avant d’implémenter Skype pour Business Server.'
+ms.openlocfilehash: c1b9069d13111955e3957dc0bd199ac0a163fd1a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569490"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976477"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Configuration requise pour l’équilibrage de charge pour Skype Entreprise
  
-**Résumé :** Passez en revue le considérations relatives à équilibrage avant d’implémenter Skype pour Business Server 2015.
+**Résumé :** Passez en revue le considérations relatives à équilibrage avant d’implémenter Skype pour Business Server.
   
 L’équilibrage de charge distribue le trafic entre les serveurs d’un pool. Si vous avez des pools frontaux, les pools de serveurs de médiation ou les pools de serveurs Edge, vous devez déployer l’équilibrage de charge pour ces pools.
   
@@ -60,7 +59,7 @@ Le Skype pour Business Server mis à l’échelle consolidée Edge topologie est
 > [!NOTE]
 > Le retour de serveur direct (DSR) NAT n’est pas pris en charge avec Skype pour Business Server. 
   
-Pour déterminer si votre équilibreur de charge matérielle prend en charge les fonctionnalités requises par Skype pour Business Server, consultez [Infrastructure de Skype pour les entreprises](https://technet.microsoft.com/en-us/office/dn947483).
+Pour déterminer si votre équilibreur de charge matérielle prend en charge les fonctionnalités requises par Skype pour Business Server, consultez [Infrastructure de Skype pour les entreprises](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
   
 ### <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>Configuration requise pour l’équilibreur de la charge matérielle des serveurs Edge exécutant le service Edge A/V
 
@@ -110,7 +109,7 @@ Si vous déployez des appareils mobiles, votre équilibreur de la charge matéri
 > Les programmes d’équilibrage de la charge matérielle F5 possèdent une fonctionnalité appelée OneConnect qui permet de veiller à ce que la charge de chaque requête au sein d’une connexion TCP soit individuellement équilibrée. Si vous déployez des appareils mobiles, veillez à ce que le fournisseur de votre équilibreur de la charge matérielle prenne en charge la même fonctionnalité. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security). F5 fournit les paramètres spécifiques pour cela. 
   
 > [!CAUTION]
-> Pour plus d’informations sur les équilibreurs de charge matérielle tiers, consultez [Infrastructure de Skype pour les entreprises](https://technet.microsoft.com/en-us/office/dn947483). 
+> Pour plus d’informations sur les équilibreurs de charge matérielle tiers, consultez [Infrastructure de Skype pour les entreprises](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 La configuration requise de l’équilibreur de la charge matérielle des services web du directeur et du pool de serveurs frontaux est la suivante :
   
@@ -122,7 +121,7 @@ La configuration requise de l’équilibreur de la charge matérielle des servic
     
 ### <a name="summary-of-hardware-load-balancer-affinity-requirements"></a>Synthèse des conditions requises en termes d’affinité pour l’équilibreur de la charge matérielle
 
-|**Emplacement du client/de l’utilisateur**|**Configuration requise de l’affinité du nom de domaine complet des services web externes**|**Configuration requise de l’affinité du nom de domaine complet des services web internes**|
+|**Emplacement du client/de l’utilisateur**|**Conditions requises en matière d’affinité pour le nom de domaine complet des services web externes**|**Conditions requises en matière d’affinité pour le nom de domaine complet des services web internes**|
 |:-----|:-----|:-----|
 |Lync Web App (utilisateurs internes et externes)  <br/> Appareil mobile (utilisateurs internes et externes)  <br/> |Aucune affinité  <br/> |Affinité des adresses sources  <br/> |
 |Lync Web App (pour les utilisateurs externes uniquement)  <br/> Appareil mobile (utilisateurs internes et externes)  <br/> |Aucune affinité  <br/> |Affinité des adresses sources  <br/> |
@@ -134,14 +133,14 @@ Vous définissez la surveillance des ports sur les équilibreurs de la charge ma
   
 **Pool d’utilisateur de serveur frontal - Interface interne HLB**
 
-|**Adresse IP/Port virtuel**|**Port de nœud**|**Nœud ordinateur/écran**|**Profil de persistance**|**Remarques**|
+|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>-int_mco_443_vs web  <br/> 443  <br/> |443  <br/> |Serveur frontal  <br/> 5061  <br/> |Source  <br/> |HTTPS  <br/> |
 |\<pool\>-int_mco_80_vs web  <br/> 80  <br/> |80  <br/> |Serveur frontal  <br/> 5061  <br/> |Source  <br/> |HTTP  <br/> |
    
 **Pool d’utilisateur de serveur frontal - Interface externe HLB**
 
-|**Adresse IP/Port virtuel**|**Port de nœud**|**Nœud ordinateur/écran**|**Profil de persistance**|**Remarques**|
+|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucune  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucune  <br/> |HTTP  <br/> |
@@ -155,7 +154,7 @@ Si vous déployez l’équilibrage de charge DNS, l’administration de votre or
 
 Le diagramme suivant illustre un exemple qui inclut les deux interne et l’équilibrage de charge DNS externe : 
   
-**Organigramme de bord à l’aide d’adresses IPv4 publique**
+**Diagramme réseau Edge utilisant des adresses IPv4 publiques**
 
 ![exemple de diagramme réseau DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   

@@ -1,9 +1,8 @@
 ---
-title: Affichage des informations sur les différentes jonctions SIP (Session Initiation Protocol) dans Skype Entreprise Server 2015
+title: Afficher des informations sur les jonctions SIP individuelles dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
-description: 'Résumé : Découvrez comment afficher des informations sur les jonctions SIP dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 9a27c5c78f15fbdc64aa52cf842697ab0b002252
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Découvrez comment afficher des informations sur les jonctions SIP dans Skype pour Business Server.'
+ms.openlocfilehash: 10f45def1727c083f89afcdba43fb9c1c4e7e45e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968697"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server-2015"></a>Affichage des informations sur les différentes jonctions SIP (Session Initiation Protocol) dans Skype Entreprise Server 2015
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Afficher des informations sur les jonctions SIP individuelles dans Skype pour Business Server
  
-**Résumé :** Découvrez comment afficher des informations sur les jonctions SIP dans Skype pour Business Server 2015.
+**Résumé :** Découvrez comment afficher des informations sur les jonctions SIP dans Skype pour Business Server.
   
 Jonctions SIP sont utilisées pour se connecter Skype pour Business Server Voice via le réseau de téléphone IP avec le Public téléphone réseau commuté (RTC). Dans la version précédente du produit, jonctions ont été utilisées pour router les appels sortants à partir d’un serveur de médiation à une passerelle PSTN et chaque passerelle a été limitée à une seule jonction. Par conséquent, une passerelle PSTN et une jonction SIP ont été pratiquement identiques. Pour les administrateurs, qui signifie qu’ils peuvent afficher des informations sur une jonction SIP individuelle en simplement l’affichage des informations sur la passerelle PSTN associée.
   
@@ -51,5 +51,3 @@ Dans Skype pour Business Server, toutefois, plusieurs jonctions peuvent ensuite 
   ```
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"
   ```
-
-

@@ -1,5 +1,5 @@
 ---
-title: Déploiement d’un serveur de médiation dans le générateur de topologie dans Skype Entreprise Server 2015
+title: Déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
-description: 'Résumé : Découvrez comment définir et de déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 1923b75f36690cf6c4ab49cb69591032b188ace5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Découvrez comment définir et de déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server.'
+ms.openlocfilehash: cc5990db7a1e8323205f6fbddbd937ad5ee75f19
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975329"
 ---
-# <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server-2015"></a>Déploiement d’un serveur de médiation dans le générateur de topologie dans Skype Entreprise Server 2015
+# <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server
  
-**Résumé :** Apprenez à définir et de déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server 2015.
+**Résumé :** Apprenez à définir et de déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server.
   
 Les charges de travail voix entreprise, conférence rendez-vous et applications Enterprise Voice avancées (application Response Group, application parcage d’appel, le contrôle d’admission des appels (CAC) et ainsi de suite), sont disponibles dans les pools frontaux. La fonctionnalité du serveur de médiation est intégrée dans le serveur frontal. Un serveur de médiation autonome distinct n’est pas nécessaire. 
   
@@ -79,7 +80,7 @@ Vous pouvez ajouter un serveur de médiation en tant qu’un rôle colocalisé s
    - Si vous souhaitez déployer plusieurs serveurs de médiation du pool pour fournir une haute disponibilité, puis sélectionnez le **pool de plusieurs ordinateurs**.
     
     > [!NOTE]
-    > Vous devez déployer (... /.. / plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) pour prendre en charge les pools de serveurs de médiation contient plusieurs serveurs de médiation.
+    > Vous devez [déployer](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) pour prendre en charge les pools de serveurs de médiation contient plusieurs serveurs de médiation.
   
    - Si vous souhaitez ne déployer qu’un seul serveur de médiation du pool, car vous n’avez pas besoin de haute disponibilité, puis sélectionnez le **pool d’un seul ordinateur**. Ignorez l’étape suivante.
     

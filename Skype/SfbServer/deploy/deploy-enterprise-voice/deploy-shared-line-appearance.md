@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: Pour découvrir comment déployer le mode partage de lignes dans Skype Entreprise Server 2015, mise à jour cumulative de novembre 2015, reportez-vous à cette rubrique. Le mode partage de lignes est une fonctionnalité permettant de gérer plusieurs appels sur un numéro spécifique appelé « numéro partagé ».
-ms.openlocfilehash: e8325cd7bbd6c1777143ac83ad88aae07a3a48a0
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 45d4d78b157f5fb987de2345cf2b7d5c5867edab
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568337"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145301"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Déploiement du mode partage de lignes dans Skype Entreprise Server 2015
  
@@ -104,7 +104,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
     L’exemple suivant définit les appels qui dépassent le nombre maximal d’appels simultanés d’être transférés vers la 202-555-1234 numéro téléphonique. La cible peut être un utilisateur de votre organisation au lieu d’un numéro de téléphone ; Dans ce cas, la syntaxe de la personne qui doit recevoir le transfert des appels est la même que lorsque vous spécifiez un délégué : `sip:<NameofDelegate@domain>`. L’autre paramètre possible pour `BusyOption` est `Voicemail`:
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234]
+  Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
   ```
 
 ### <a name="configure-the-sla-group-missed-call-option"></a>Configuration de l’option Appel manqué du groupe de mode partage de lignes

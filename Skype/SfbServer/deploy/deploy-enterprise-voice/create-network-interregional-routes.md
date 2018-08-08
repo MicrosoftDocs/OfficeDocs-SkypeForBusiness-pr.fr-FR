@@ -1,9 +1,8 @@
 ---
-title: Création d’itinéraires interrégion réseau dans Skype Entreprise Server 2015
+title: Créez des itinéraires interrégional réseau dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Créer ou modifier des itinéraires interrégional réseau, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server.
-ms.openlocfilehash: 22e7872c6faa989779a93b6524c1740386f32d7d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b099910a6881958919ed9707424a9ae77f0f8983
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978917"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server-2015"></a>Création d’itinéraires interrégion réseau dans Skype Entreprise Server 2015
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Créez des itinéraires interrégional réseau dans Skype pour Business Server
  
 Créer ou modifier des itinéraires interrégional réseau, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server. 
   
-Un itinéraire interrégional réseau définit l’itinéraire entre une paire de régions réseau. Chaque paire de régions réseau dans votre déploiement de contrôle d’admission des appels nécessite un itinéraire interrégion réseau. Cela permet à chaque région réseau incluse dans le déploiement d’accéder à toute autre région.
+Un itinéraire interrégion réseau définit l’itinéraire entre deux régions réseau. Chaque paire de régions réseau dans votre déploiement de contrôle d’admission des appels nécessite un itinéraire interrégion réseau. Cela permet à chaque région réseau incluse dans le déploiement d’accéder à toute autre région.
   
 Alors que les liens de région définissent les limitations de bande passante sur les connexions entre les régions, un itinéraire interrégion détermine le chemin lié emprunté par la connexion pour aller d’une région à l’autre.
   
@@ -78,8 +78,6 @@ Dans l’exemple de topologie, les itinéraires interrégion réseau doivent êt
     
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Nouvelle-CsNetworkInterRegionRoute.](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   
 [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
@@ -87,4 +85,3 @@ Dans l’exemple de topologie, les itinéraires interrégion réseau doivent êt
 [Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
   
 [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)
-

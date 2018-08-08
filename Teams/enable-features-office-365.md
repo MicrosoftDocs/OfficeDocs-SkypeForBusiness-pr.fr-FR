@@ -1,5 +1,5 @@
 ---
-title: Gérer les fonctionnalités de Microsoft Teams de votre organisation d’Office 365
+title: Gérer les fonctionnalités de Microsoft Teams dans votre organisation Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,23 +8,25 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: Découvrez toutes les fonctionnalités de Microsoft Teams que vous pouvez activer ou désactiver dans votre organisation Office 365, y compris les paramètres à l'échelle du client, l'intégration de la messagerie, les applications, le stockage cloud et bien d'autres.
+localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4e450f4ffcb178a19d185b14d65b7adb880924b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 50650d852e87cb885beae4403022464fafb57373
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20265946"
 ---
-<a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gérer les fonctionnalités de Microsoft Teams de votre organisation d’Office 365
+<a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gérer les fonctionnalités de Microsoft Teams dans votre organisation Office 365
 ======================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Équipes a plusieurs paramètres qui peuvent être activées ou désactivées au niveau des clients Office 365. Avec les équipes activés, tout utilisateur qui est également activée pour les équipes héritent des paramètres à partir du niveau du locataire.
+Les équipes a plusieurs paramètres qui peuvent être activés ou désactivés au niveau client Office 365. Avec les équipes activés, tout utilisateur qui est également activé pour les équipes héritent des paramètres à partir du niveau client.
 
 Voici la liste des fonctionnalités qu'un administrateur Office 365 peut activer ou désactiver dans Teams. 
 
@@ -109,15 +111,15 @@ Actuellement, les options de stockage cloud dans Teams incluent Box, Dropbox, Go
 
 <a name="settings-by-userlicense-type"></a>Paramètres par type de licence d’utilisateur
 ------------------------
-Lorsque vous configurez Microsoft Teams de votre organisation au départ, vous avez utilisé la la liste déroulante **paramètres par type de licence d’utilisateur** pour sélectionner un type de licence puis rallumé équipes pour tous les utilisateurs de ce type de licence.
+Lorsque vous configurez Microsoft Teams pour votre organisation à l’origine, vous avez utilisé la le menu déroulant **paramètres par type de licence d’utilisateur** pour sélectionner un type de licence et puis activé équipes pour tous les utilisateurs de ce type de licence.
 
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
- **Business & entreprise** et **invité**sont des exemples de types de licence d’utilisateur. (Si vous disposez d’une licence de formation SKU, **éducation - du corps enseignant et du personnel** ou **l’éducation - Student** sont disponibles.) ![Contrôle de licence utilisateur de jeu](media/enable-microsoft-teams-features-in-your-office-365-organization-image13.png)
+ Exemples de types de licence d’utilisateur sont **entreprises** et **invité**. (Si vous disposez d’une licence de formation SKU, **éducation - Faculty et du personnel** ou **l’éducation - étudiant** sont disponibles.) ![Contrôle pour l’ensemble de la licence utilisateur](media/enable-microsoft-teams-features-in-your-office-365-organization-image13.png)
 
-Vous avez plusieurs types de licences au sein de votre organisation, par exemple, les **professionnels et entreprise** et **invité**. Microsoft Teams pouvez différencier uniquement les utilisateurs basés sur les licences que vous leur avez attribués. Vous pouvez activer ou désactiver les options pour ces utilisateurs dans les **équipes et les canaux**, **les réunions et les appels**et de la **messagerie**. Si vous utilisez le type de licence qu’une seule, tenir compte des paramètres ici en tant que paramètres au niveau du client.
+Vous pouvez avoir plusieurs types de licence au sein de votre organisation, par exemple, les **entreprises** et **invité**. Microsoft Teams peut différencier uniquement les utilisateurs selon les licences que vous avez attribué les. Vous pouvez activer ou désactiver les options pour les utilisateurs ces **équipes et les canaux**, **réunions et appels**et **de messagerie**. Si vous utilisez le type de seule licence, prenez en compte ces paramètres en tant que paramètres au niveau du client.
 > [!NOTE]
-> Pour plus d’informations sur l’accès invité, voir [Activer ou désactiver l’accès invité pour les équipes de Microsoft](set-up-guests.md).
+> Pour plus d’informations sur l’accès invité, voir [Activer ou désactiver l’accès invité aux équipes de Microsoft](set-up-guests.md).
 
 <a name="teams-and-channels"></a>Équipes et canaux
 ------------------

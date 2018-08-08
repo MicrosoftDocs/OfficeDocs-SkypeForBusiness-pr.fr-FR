@@ -1,9 +1,8 @@
 ---
-title: Définition des éléments réseau utilisés pour déterminer l’emplacement dans Skype Entreprise Server 2015
+title: Définir les éléments de réseau permet de déterminer l’emplacement dans Skype Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: Décisions nécessaires pour planifier les composants réseau que vous allez utiliser pour mapper les appelants à des emplacements pour le déploiement de E9-1-1 dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: ddf769a6389b7affcabacd936dba6e560d4a887c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2ccbb6ece628748fca0e5e8e679eb4511db37c6e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004453"
 ---
-# <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server-2015"></a>Définition des éléments réseau utilisés pour déterminer l’emplacement dans Skype Entreprise Server 2015
+# <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Définir les éléments de réseau permet de déterminer l’emplacement dans Skype Business Server
  
 Décisions nécessaires pour planifier les composants réseau que vous allez utiliser pour mapper les appelants à des emplacements pour le déploiement de E9-1-1 dans Skype pour Business Server Enterprise Voice.
   

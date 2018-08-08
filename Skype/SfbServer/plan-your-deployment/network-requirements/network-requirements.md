@@ -1,9 +1,8 @@
 ---
-title: Planification de la configuration réseau requise pour Skype Entreprise 2015
+title: Plan network requirements for Skype for Business
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,23 +12,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
-description: 'Résumé : Passez en revue les considérations de composant réseau ci-dessous avant d’implémenter Skype pour Business Server 2015.'
-ms.openlocfilehash: 4cf76cc162e358de0e59ffdd325381fc13583d37
-ms.sourcegitcommit: 1b4e93727f65b120068a74064b4144f0117f230c
+description: 'Résumé : Passez en revue les considérations de composant réseau ci-dessous avant d’implémenter Skype pour Business Server.'
+ms.openlocfilehash: 18c97486a3f81eb745c8970174d482c48779d104
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19691208"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025692"
 ---
-# <a name="plan-network-requirements-for-skype-for-business-2015"></a>Planification de la configuration réseau requise pour Skype Entreprise 2015
+# <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business 
  
-**Résumé :** Passez en revue les considérations de composant réseau ci-dessous avant d’implémenter Skype pour Business Server 2015.
+**Résumé :** Passez en revue les considérations de composant réseau ci-dessous avant d’implémenter Skype pour Business Server.
   
-Les informations contenues dans ces rubriques sont également abordés dans le livre blanc sur la [Planification du réseau, de surveillance et dépannage avec Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) avec des détails supplémentaires et la profondeur. Alors que le contenu fait référence explicitement à Lync 2010 et Lync 2013, les considérations de Skype pour Business Server 2015 restent inchangées.
+Les informations contenues dans ces rubriques sont également abordés dans le livre blanc sur la [Planification du réseau, de surveillance et dépannage avec Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) avec des détails supplémentaires et la profondeur. Alors que le contenu fait référence explicitement à Lync 2010 et Lync 2013, les considérations de Skype pour Business Server restent inchangées.
   
-De même, si votre réseau implique wi-fi ainsi qu’un accès câblé, le livre blanc [Proposer Lync 2013 Real-Time Communications en Wi-Fi](http://www.microsoft.com/en-us/download/details.aspx?id=36494) est une bonne référence et s’applique également aux Skype pour Business Server 2015.
+De même, si votre réseau implique wi-fi ainsi qu’un accès câblé, le livre blanc [Proposer Lync 2013 Real-Time Communications en Wi-Fi](http://www.microsoft.com/en-us/download/details.aspx?id=36494) est une bonne référence et s’applique également aux Skype pour Business Server.
   
-Les performances et besoins en matière de réseau sont directement liés au volume de trafic requis. Lorsque vous planifiez vos implémentations réseau et serveur, nous vous recommandons d’utiliser le [Skype pour l’outil de planification de Business Server 2015](../../management-tools/planning-tool/planning-tool.md), le [Skype pour Business Server 2015 planification des capacités](../../management-tools/capacity-planning-calculator.md)et les [Skype pour Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).
+<!-- Deprecated tools
+Network performance and needs are directly linked to the traffic load placed on them. When planning your network and server implementations we recommend making use of the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md), the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md), and the [Skype for Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).    -->
   
 ## <a name="server-hardware"></a>Matériel serveur
 <a name="S_hard"> </a>
@@ -47,14 +47,14 @@ Dans le cas de l'intégration au réseau téléphonique commuté (RTC ou, en ang
 
 Configuration réseau requise pour l’audio/vidéo (A / V) dans un Skype pour Business Server déploiement sont les suivants :
   
-- Si vous déployez un serveur Edge unique ou un pool Edge à l’aide de l’équilibrage de la charge DNS, vous pouvez configurer le pare-feu _externe_ pour effectuer la traduction d’adresses réseau (NAT). Vous ne pouvez pas configurer le pare-feu _interne_ pour effectuer NAT. Pour plus d’informations, voir [Determining Firewall and 50 k Port Range Requirements](http://technet.microsoft.com/library/3b849dc7-175d-40d1-820d-80e6ade6d332.aspx).
+- Si vous déployez un serveur Edge unique ou un pool Edge à l’aide de l’équilibrage de la charge DNS, vous pouvez configurer le pare-feu _externe_ pour effectuer la traduction d’adresses réseau (NAT). Vous ne pouvez pas configurer le pare-feu _interne_ pour effectuer NAT. Pour plus d’informations, voir [planification de pare-feu et de Port](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
     
     > [!IMPORTANT]
-    > Si vous disposez d’un pool de serveurs Edge et que vous utilisez un équilibreur de charge matérielle, vous devez utiliser des adresses IP publiques sur les serveurs de périphérie et vous ne pouvez pas utiliser NAT pour les serveurs ou le pool à votre appareil compatible NAT (par exemple, une appliance de pare-feu ou commutateur de réseau local. Pour plus d’informations, consultez [Résumé des ports - la topologie Edge consolidée avec équilibreurs de charge matérielle](http://technet.microsoft.com/library/91213b1e-f875-464b-83e8-fe3a351595a4.aspx). 
+    > Si vous disposez d’un pool de serveurs Edge et que vous utilisez un équilibreur de charge matérielle, vous devez utiliser des adresses IP publiques sur les serveurs de périphérie et vous ne pouvez pas utiliser NAT pour les serveurs ou le pool à votre appareil compatible NAT (par exemple, une appliance de pare-feu ou commutateur de réseau local. Pour plus d’informations, voir [les scénarios de serveur de transport Edge dans Skype pour Business Server](../edge-server-deployments/scenarios.md). 
   
 - Si votre organisation utilise une infrastructure de qualité de service (QoS), le sous-système multimédia est compatible avec cette infrastructure. 
     
-- Si vous utilisez le protocole IPSec, nous vous recommandons de le désactiver sur les plages de ports utilisées pour le trafic A/V. Pour plus d’informations, consultez [Exceptions IPsec](http://technet.microsoft.com/library/241f1eca-6f2f-44de-90b1-2cb659cbe27c.aspx).
+- Si vous utilisez le protocole IPSec, nous vous recommandons de le désactiver sur les plages de ports utilisées pour le trafic A/V. Pour plus d’informations, consultez [exceptions IPsec](#ipsec-exceptions).
     
 Pour fournir une qualité optimale lors de l’utilisation des fonctionnalités multimédias, procédez comme suit :
   
@@ -70,6 +70,33 @@ Pour fournir une qualité optimale lors de l’utilisation des fonctionnalités 
     
 - Pour les serveurs qui exécutent un logiciel antivirus, incluez tous les serveurs qui exécutent Skype pour Business Server dans la liste des exceptions pour fournir des performances optimales et une qualité audio. 
     
+## <a name="ipsec-exceptions"></a>Exceptions IPsec
+
+Pour les réseaux d’entreprise où ne sécurité du protocole Internet (IPsec) (voir RFC IETF 4301-4309) a été déployée, il doit être désactivé sur la plage de ports utilisés pour la livraison des données audio, vidéo et vidéo panoramique. Cette recommandation s’explique par la nécessité d’éviter tout retard dans l’affectation des ports multimédias lors de la négociation IPsec.
+
+Le tableau suivant présente les paramètres recommandés pour les exceptions IPsec. 
+
+**Exceptions recommandées pour IPsec**
+|Nom de la règle |Adresse IP source |Adresse IP de destination |Protocole |Port source |Port de destination |Besoin d’authentification |
+|:--- |:--- |:--- |:--- |:---|:---|:--- |
+|Serveur Edge A/V, ports internes/entrants|Indifférente  |Serveur Edge A/V - interne|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Serveur Edge A/V, ports externes/entrants|Indifférente  |Serveur Edge A/V - externe|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Serveur Edge A/V, ports internes/sortants|Serveur Edge A/V - interne  |Serveur Edge A/V - externe |UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Serveur Edge A/V, ports externes/sortants|Serveur Edge A/V - externe |Indifférente |UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Serveur de médiation, ports entrants|Indifférente  |Ou plusieurs serveurs de médiation |UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Serveur de médiation, ports sortants|Ou plusieurs serveurs de médiation  |Indifférente|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Intendant Conférence entrant|Indifférente  |Serveur frontal exécutant l’Intendant Conférence |UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Intendant Conférence sortant|Serveur frontal exécutant l’Intendant Conférence  |Indifférente|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Serveur de conférence A/V, ports entrants|Indifférente|Serveurs frontaux|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Conférence A/V, ports sortants|Serveurs frontaux|Indifférente|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Exchange, ports entrants|Indifférente|Messagerie unifiée Exchange|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Serveurs de partage d’application, ports entrants|Indifférente|Serveurs de partage d’application|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Serveur de partage d’application, ports sortants|Serveurs de partage d’application| Indifférente |UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Exchange, ports sortants|Messagerie unifiée Exchange|Indifférente|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Clients| Indifférente  |Indifférente|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|         |         |         |         |         |         |         |
+
+
 ## <a name="conferencing-network-requirements"></a>Conditions de réseau requises pour les fonctionnalités de conférence web
 <a name="Conf_req"> </a>
 
@@ -87,7 +114,7 @@ L’utilisation de la bande passante par le trafic multimédia peut être diffic
   
 **Bande passante du codec audio**
 
-|**Codec audio**|**Scénario**|**Vitesse de transmission de charge utile audio (Kbits/s)**|**Charge utile audio de la bande passante et en-tête IP uniquement (Kbits/s)**|**Charge utile audio de bande passante, en-tête IP, UDP, RTP et SRTP (Kbits/s)**|**Charge utile audio de bande passante, IP en-tête, UDP, RTP, SRTP et correction d’erreur de transfert (Kbits/s)**|
+|**Codec audio**|**Scénario**|**Vitesse de transmission de la charge utile audio (Kbits/s)**|**Charge utile audio de la bande passante et en-tête IP uniquement (Kbits/s)**|**Charge utile audio de la bande passante, en-tête IP, UDP, RTP et SRTP (Kbits/s)**|**Charge utile audio de la bande passante, en-tête IP, UDP, RTP, SRTP et correction d'erreur de transfert (Kbits/s)**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Large bande RTAudio  <br/> |Égal à égal  <br/> |29.0  <br/> |45.0  <br/> |57,0  <br/> |86.0  <br/> |
 |Bande étroite RTAudio  <br/> |Égal à égal, PSTN  <br/> |11.8  <br/> |27,8  <br/> |39,8  <br/> |51.6  <br/> |
@@ -104,9 +131,9 @@ Les valeurs de bande passante contenues dans le tableau ci-dessus reposent sur l
   
 La version stéréo du codec G.722 est utilisée par les systèmes basés sur Lync Room System, qui s'appuie sur un micro stéréo unique ou une paire de micro mono pour permettre aux participants de mieux distinguer les différents intervenants dans une salle de réunion.
   
-**Bande passante de résolution vidéo**
+**Bande passante de la résolution vidéo**
 
-|**Codec vidéo**|**Résolution et proportions**|**Vitesse de transmission de charge utile vidéo maximale (Kbits/s)**|**Vitesse de transmission de charge utile vidéo minimale (Kbits/s)**|
+|**Codec vidéo**|**Résolution et proportions**|**Vitesse de transmission de la charge utile vidéo maximale (Kbits/s)**|**Vitesse de transmission de la charge utile vidéo minimale (Kbits/s)**|
 |:-----|:-----|:-----|:-----|
 |H.264  <br/> |320x180 (16:9)  <br/> 212x160 (4:3)  <br/> |250  <br/> |15  <br/> |
 |H.264/RTVideo  <br/> |424x240 (16:9)  <br/> 320x240 (4:3)  <br/> |350  <br/> |100  <br/> |
@@ -172,9 +199,9 @@ Les tableaux suivants répertorient également une valeur de bande passante supp
   
 Les tableaux ci-dessous fournissent les valeurs pour les divers scénarios.
   
-**Audio/vidéo planification de capacité pour les Sessions d’égal à égal**
+**Planification de la capacité audio/vidéo pour des sessions poste à poste**
 
-|**Media**|**Codec**|**Bande passante par défaut (Kbits/s)**|**Bande passante maximale sans FEC**|**Bande passante maximale avec FEC**|
+|**Media**|**Codec**|**Bande passante pour un flux type ( Kbits/s)**|**Bande passante maximale sans correction d'erreur de transfert**|**Bande passante maximale avec correction d'erreur de transfert**|
 |:-----|:-----|:-----|:-----|:-----|
 |Audio  <br/> |Large bande RTAudio  <br/> |39,8  <br/> |62  <br/> |91  <br/> |
 |Audio  <br/> |Bande étroite RTAudio  <br/> |29.3  <br/> |44,8  <br/> |56,6  <br/> |
@@ -184,9 +211,9 @@ Les tableaux ci-dessous fournissent les valeurs pour les divers scénarios.
 |Vidéo panoramique lors de l’appel Skype pour systèmes d’extrémité Business Server  <br/> |H.264  <br/> |190  <br/> |2 010 (pour une résolution maximale de 1 920 x 288)  <br/> |Déjà inclus  <br/> |
 |Vidéo panoramique lors de l’appel des points de terminaison Lync 2010  <br/> |RTVideo  <br/> |190  <br/> |510 (pour une résolution maximale de 960x144)  <br/> |Déjà inclus  <br/> |
    
-**Planification pour les conférences de la capacité audio/vidéo**
+**Planification de la capacité audio/vidéo pour les conférences**
 
-|**Media**|**Codec type**|**Bande passante par défaut (Kbits/s)**|**Bande passante maximale sans FEC**|**Bande passante maximale avec FEC**|
+|**Media**|**Codec type**|**Bande passante pour un flux type ( Kbits/s)**|**Bande passante maximale sans correction d'erreur de transfert**|**Bande passante maximale avec correction d'erreur de transfert**|
 |:-----|:-----|:-----|:-----|:-----|
 |Audio  <br/> |G.722  <br/> |46.1  <br/> |100.6  <br/> |164.6  <br/> |
 |Audio  <br/> |Siren  <br/> |25,5  <br/> |52.6  <br/> |68.6  <br/> |
@@ -203,7 +230,7 @@ Pour la vidéo principale, la vitesse de transmission du flux type est la bande 
   
 Lors de la création d’une conférence à plusieurs qui utilise la fonctionnalité d’affichage galerie, la bande passante utilisée augmente initialement en tant que participants jointure, puis diminue lorsque les résolutions sont glissées pour s’ajuster à la valeur maximale. 
   
-||**2 participants**|**3 participants**|**4 participants**|**5 participants**|**6 participants**|
+||**2 participants**|**3 participants**|**4 participants**|**5 participants**|**6 participants**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Résolutions maximales reçues** <br/> |1920 x 1080  <br/> |1280 x 720  <br/> |640 x 360  <br/> |640 x 360 320 x 240  <br/> |640 x 360 320 x 240  <br/> |
 |**Débit moyen total** <br/> |2128  <br/> |4050  <br/> |1304  <br/> |1224  <br/> |1565  <br/> |
@@ -211,9 +238,9 @@ Lors de la création d’une conférence à plusieurs qui utilise la fonctionnal
    
 La bande passante de flux type pour la vidéo panoramique est basée sur les périphériques capables de diffuser des flux de vidéo panoramique d'une résolution maximale de 960x144. Attendez-vous à une augmentation de la bande passante de flux type lors de l'utilisation de périphériques avec une vidéo panoramique de 1 920x288.  
   
-**Audio planification de capacité pour PSTN**
+**Planification de la capacité audio pour PSTN**
 
-|**Media**|**Codec type**|**Bande passante par défaut (Kbits/s)**|**Bande passante maximale sans FEC**|**Bande passante maximale avec FEC**|
+|**Media**|**Codec type**|**Bande passante pour un flux type ( Kbits/s)**|**Bande passante maximale sans correction d'erreur de transfert**|**Bande passante maximale avec correction d'erreur de transfert**|
 |:-----|:-----|:-----|:-----|:-----|
 |Audio  <br/> |G.711 (y compris dans les conférences de participants PSTN)  <br/> |64.8  <br/> |97  <br/> |161  <br/> |
 |Audio  <br/> |Bande étroite RTAudio  <br/> |30,9  <br/> |44,8  <br/> |56,6  <br/> |
@@ -251,13 +278,13 @@ Skype pour Business Server offre une prise en charge complète pour QoS : que s
 > [!NOTE]
 > Si vous utilisez Windows Server 2012 ou Windows Server 2012 R2 vous intéresser dans le nouvel ensemble d’applets de commande Windows PowerShell disponibles pour la gestion de la qualité de service sur cette plateforme. Pour plus d’informations, voir [Réseau QoS Cmdlets dans Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=285379). 
   
-QoS est également abordé dans le livre blanc sur la [Planification du réseau, de surveillance et dépannage avec Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) avec des détails supplémentaires et la profondeur. Alors que le contenu fait référence explicitement à Lync 2010 et Lync 2013, les considérations de Skype pour Business Server 2015 restent inchangées.
+QoS est également abordé dans le livre blanc sur la [Planification du réseau, de surveillance et dépannage avec Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) avec des détails supplémentaires et la profondeur. Alors que le contenu fait référence explicitement à Lync 2010 et Lync 2013, les considérations de Skype pour Business Server restent inchangées.
   
 ## <a name="see-also"></a>Voir aussi
 <a name="man_QOS"> </a>
 
-[Planification d’IPv6 dans Skype pour les entreprises](ipv6.md)
+[Planifier IPv6 dans Skype Entreprise](ipv6.md)
   
-[Configuration requise pour Skype pour les entreprises d’équilibrage de la charge](load-balancing.md)
+[Configuration requise pour l’équilibrage de charge pour Skype Entreprise](load-balancing.md)
   
-[Enregistrements DNS requis pour Skype pour Business Server 2015](dns.md)
+[Enregistrements DNS requis pour Skype pour Business Server](dns.md)

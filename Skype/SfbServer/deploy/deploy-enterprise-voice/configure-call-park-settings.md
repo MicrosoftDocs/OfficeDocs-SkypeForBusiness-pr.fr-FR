@@ -1,9 +1,8 @@
 ---
-title: Configuration des paramètres de parcage d’appel dans Skype Entreprise 2015
+title: Configurer les paramètres de parcage d’appel dans Skype pour les entreprises
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Modifier les paramètres de parcage d’appel dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: c0aacdf23788c56d2bd0204665d5971dc715df3b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 518cefda9cd6186c8362dea83bb80acb046d441d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568303"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019516"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business-2015"></a>Configuration des paramètres de parcage d’appel dans Skype Entreprise 2015
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Configurer les paramètres de parcage d’appel dans Skype pour les entreprises
  
 Modifier les paramètres de parcage d’appel dans Skype pour Business Server Enterprise Voice.
   
@@ -32,7 +31,7 @@ Si vous ne souhaitez pas utiliser les paramètres de parcage d’appel par défa
   
 Utilisez l’applet de commande **New-CsCpsConfiguration** ou l’applet de commande **Set-CsCpsConfiguration** pour configurer les paramètres suivants :
   
-|**Cette option :**|**Définit ceci :**|
+|**Cette option :**|**Spécifie cet élément :**|
 |:-----|:-----|
 |**CallPickupTimeoutThreshold** <br/> |Période qui s’écoule entre le moment où un appel est parqué et le moment où il sonne de nouveau sur le téléphone auquel il était destiné.  <br/> La valeur doit être entrée au format hh:mm:ss (heures, minutes, secondes). La valeur minimale est de 10 secondes et la valeur maximale, de 10 minutes. La valeur par défaut est 00:01:30.  <br/> |
 |**Propriété EnableMusicOnHold** <br/> |Si une musique est diffusée pour l’appelant pendant le parcage d’un appel.  <br/> Les valeurs sont True ou False. La valeur par défaut est True.  <br/> |
@@ -60,7 +59,7 @@ Utilisez l’applet de commande **New-CsCpsConfiguration** ou l’applet de comm
 
 ## <a name="see-also"></a>Voir aussi
 
-[Personnaliser une musique de parcage d’appel d’attente inSkype pour Business 2015](customize-call-park-music-on-hold.md)
+[Personnalisation de l’attente musicale du parcage d’appel dans Skype Entreprise 2015](customize-call-park-music-on-hold.md)
 
 [Nouvelle-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
   

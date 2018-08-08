@@ -1,9 +1,8 @@
 ---
-title: Appeler liste finale du déploiement de contrôle d’admission des appels de Skype pour Business Server 2015
+title: Appeler liste finale du déploiement de contrôle d’admission des appels de Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Liste de vérification finale pour le déploiement d’admission des appels contrôle appels (CAC) dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: beec5c03f47d8f06ec862c3e9a3609fba7b66f2c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e5791aa6f3b32e423f36021314bec930fa7f74e5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025673"
 ---
-# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server-2015"></a>Déploiement du contrôle d’admission des appels : liste de vérification finale pour Skype Entreprise Server 2015
+# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Déploiement du contrôle d’admission des appels : liste de vérification finale pour Skype pour Business Server
  
 Liste de vérification finale pour le déploiement d’admission des appels contrôle appels (CAC) dans Skype pour Business Server Enterprise Voice. 
   
@@ -31,11 +31,11 @@ Servez-vous de la liste de contrôle suivante pour vérifier que vous avez exéc
     > [!NOTE]
     > Serveurs de périphérie ne sont pas tenus d’implémenter CAC. 
   
-- Assurez-vous que CAC est activé, comme spécifié dans [le contrôle d’admission des appels d’appel activer dans Skype pour Business Server 2015](enable-call-admission-control.md).
+- Assurez-vous que CAC est activé, comme spécifié dans [le contrôle d’admission des appels d’appel activer dans Skype pour Business Server](enable-call-admission-control.md).
     
 - Vérifiez que le contrôle d’admission des appels est activé sur tous les sites centraux. Pour ce faire par le biais du Générateur de topologies. Si un avertissement est généré lorsque vous publiez, *ne mais pas* l’ignorer.
     
-- Vérifiez que tous les sous-réseaux gérés dans le réseau d’entreprise sont configurés dans les paramètres de configuration réseau. Il est également indispensable que tous les sous-réseaux associés à un site réseau, comme expliqué dans [Deploy régions réseau, sites et sous-réseaux de Skype pour Business 2015](deploy-network.md).
+- Vérifiez que tous les sous-réseaux gérés dans le réseau d’entreprise sont configurés dans les paramètres de configuration réseau. Il est également indispensable que tous les sous-réseaux associés à un site réseau, comme expliqué dans les [régions de réseau de déploiement, des sites et sous-réseaux de Skype pour les entreprises](deploy-network.md).
     
 - Vérifiez que les adresses IP ou de sous-réseau de tous les serveurs frontaux, SBA (Survivable Branch Appliances), serveurs de conférence audio/vidéo (s’ils figurent dans un pool distinct) et serveurs de médiation sont configurées dans les paramètres de configuration réseau.
     

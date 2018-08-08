@@ -12,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
-description: 'Résumé : Passez en revue la configuration requise de client vidéo lors de la planification pour Skype pour Business Server 2015.'
-ms.openlocfilehash: ea4c7e1cf9e0e1df24b00e817cac22128df1d0b8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Passez en revue la configuration requise de client vidéo lors de la planification pour Skype pour Business Server.'
+ms.openlocfilehash: 4009cb348c9a839fb200901808555521f453d5b8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966755"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype pour la résolution vidéo du client Business
  
-**Résumé :** Passez en revue la configuration requise de client vidéo lors de la planification pour Skype pour Business Server 2015.
+**Résumé :** Passez en revue la configuration requise de client vidéo lors de la planification pour Skype pour Business Server.
   
 Cet article décrit la prise en charge du matériel vidéo pour Skype pour les appels vidéo professionnels et explique comment déterminer la qualité vidéo attendue pour différentes ordinateur Tablet PC et configurations de périphérique mobile. 
   
@@ -35,7 +36,7 @@ Consultez également la [configuration matérielle Windows et Mac](https://produ
   
 ### <a name="video-hardware-requirements"></a>Configuration requise du matériel vidéo
 
-|**Fonctionnalité**|**Configuration requise**|
+|**Fonctionnalité**|**Condition requise**|
 |:-----|:-----|
 |Décodage matériel accéléré H.264 à l’aide de l’accélération vidéo DirectX (DXVA)  <br/> |• La carte graphique doit prendre en charge DirectX 9.0 et expose le mode de décodage DXVA2_ModeH264_VLD_NoFGT et l’interface API DirectX 9.  <br/> • Le pilote de carte graphique le plus récent doit être installé.  <br/> |
 |Encodage matériel accéléré H.264 : chipset requis  <br/> |Les solutions d’encodage vidéo matériel accéléré Intel suivantes sont prises en charge :  <br/> • Deuxième et troisième génération Intel HD Graphics 2000, 2500, 3000 et 4000 chipsets (ou versions ultérieures) avec encodeurs vidéo matériel intégrés. L’installation du pilote 15.28.9.2884 Intel HD Graphics ou version ultérieure contenant les éléments suivants est requise :  <br/> • Affichage pilote 9.17.10.2884 ou le plus récent  <br/> • Foundation de support matériel transformer version (HMFT) 3.12.10.31 ou le HMFT le plus récent  <br/> Les solutions d’encodage vidéo matériel accéléré AMD suivantes sont prises en charge :  <br/> • Moteur de Codec vidéo AMD, qui est disponible dans plusieurs cartes graphiques et intégrée accéléré unités de traitement de processeurs accéléré de série A AMD. Le pilote de moteur de Codec vidéo AMD 9.12.0.0 ou ultérieure doit être installé.  <br/> |
@@ -61,9 +62,9 @@ L’Outil d’évaluation système Windows (WinSAT) détermine l’indice WEI. Q
     
 Les trois tableaux suivants expliquent les capacités d’encodage et de décodage maximales pour différents types de PC en fonction de l’accélération matérielle prise en charge. Pour des résolutions de 640x360 et supérieures, la fréquence d’images maximale prise en charge est de 30 images par secondes (i/s). Pour des résolutions inférieures à 640x360, la fréquence d’images maximale prise en charge est de 15 i/s.
   
-**Ordinateur sans DXVA et sans matériel accéléré encodeur**
+**Ordinateur sans DXVA et sans encodeur matériel accéléré**
 
-|**Résolution d’encodeur**|**Résolution de décodeur**|**Configuration requise**|
+|**Résolution d’encodeur compatible**|**Résolution de décodeur compatible**|**Condition requise**|
 |:-----|:-----|:-----|
 |424 x 240  <br/> |424x240 (640x360 à 15 i/s pour des scénarios de réception uniquement)  <br/> |1 cœur et VideoEncodeScore ≥ 4,0  <br/> |
 |640 x 360  <br/> |640 x 360  <br/> |2 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
@@ -73,9 +74,9 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 |1280 x 720  <br/> |1920 x 1080  <br/> |4 cœurs et VideoEncodeScore ≥ 7,3  <br/> |
 |1920 x 1080  <br/> |1920 x 1080  <br/> |N/A  <br/> |
    
-**Ordinateur avec DXVA mais sans matériel accéléré encodeur**
+**Ordinateur avec DXVA mais sans encodeur matériel accéléré**
 
-|**Résolution d’encodeur**|**Résolution de décodeur**|**Configuration requise**|
+|**Résolution d’encodeur compatible**|**Résolution de décodeur compatible**|**Condition requise**|
 |:-----|:-----|:-----|
 |424 x 240  <br/> |1920 x 1080  <br/> |1 cœur et VideoEncodeScore ≥ 3,0  <br/> |
 |640 x 360  <br/> |1920 x 1080  <br/> |2 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
@@ -86,9 +87,9 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 > [!NOTE]
 > Le score WinSAT sur Windows 7 est limité à un maximum de 7,9. C’est pourquoi la capacité d’encodage d’un ordinateur sans encodeur matériel accéléré ne peut être obtenue que sur Windows 8 ou Windows 8.1, pour lequel le score WinSAT est de 9,9 au maximum. 
   
-**Ordinateur avec DXVA et avec Intel HD Graphics matériel accéléré encodeur**
+**Ordinateur avec DXVA et avec un encodeur matériel accéléré Intel HD Graphics**
 
-|**Résolution d’encodeur**|**Résolution de décodeur**|**Configuration requise**|
+|**Résolution d’encodeur compatible**|**Résolution de décodeur compatible**|**Condition requise**|
 |:-----|:-----|:-----|
 |1280 x 720  <br/> |1920 x 1080  <br/> |Intel HD Graphics deuxième et troisième générations  <br/> |
 |1920 x 1080  <br/> |1920 x 1080  <br/> |Intel HD Graphics deuxième et troisième générations avec GraphicsScore ≥ 5,0  <br/> |

@@ -3,7 +3,6 @@ title: Planifier IPv6 dans Skype Entreprise
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
-description: 'Résumé : Implémentez IPv6 avant d’installer Skype pour Business Server 2015.'
-ms.openlocfilehash: 20a1e711d5a9a3a195d9b89328b3c2903d13988c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Résumé : Implémentez IPv6 avant d’installer Skype pour Business Server.'
+ms.openlocfilehash: 6bd33522492edb68ba3e0a6873e81afee59216d8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504221"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968137"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planifier IPv6 dans Skype Entreprise
  
-**Résumé :** Mettre en œuvre IPv6 avant d’installer Skype pour Business Server 2015.
+**Résumé :** Mettre en œuvre IPv6 avant d’installer Skype pour Business Server.
   
 Skype pour Business Server prend en charge IP version 6 (IPv6) adresses, ainsi que la prise en charge continue d’IP version 4 (IPv4). 
 
@@ -60,7 +59,7 @@ Les sections suivantes précisent la compatibilité ces trois configurations dif
 ### <a name="client-registration"></a>Enregistrement client
 <a name="client"> </a>
 
-|**Réseau de point de terminaison de client**|**Réseau de serveur**|
+|**Réseau de point de terminaison client**|**Réseau de serveur**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |IPv4  <br/> |Double pile  <br/> |
@@ -75,7 +74,7 @@ Les sections suivantes précisent la compatibilité ces trois configurations dif
 
 Les communications P2P incluent l’audio, l’audio/vidéo, le partage d’application et le transfert de fichiers. Lorsque les deux clients sont enregistrés, les combinaisons suivantes sont prises en charge.
   
-|**Système d’extrémité client 1**|**Système d’extrémité client 2**|
+|**Point de terminaison client 1**|**Point de terminaison client 2**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |IPv4  <br/> |Double pile  <br/> |
@@ -88,7 +87,7 @@ Les communications P2P incluent l’audio, l’audio/vidéo, le partage d’appl
 
 La conférence comprend l’audio/vidéo, le partage d’application et la collaboration de données (applications telles que le tableau blanc et le partage de fichiers).
   
-|**Réseau de point de terminaison de client**|**Réseau de serveur**|
+|**Réseau de point de terminaison client**|**Réseau de serveur**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |IPv4  <br/> |Double pile  <br/> |
@@ -103,7 +102,7 @@ La conférence comprend l’audio/vidéo, le partage d’application et la colla
 
 Skype pour Business Server ne prend en charge le contournement de média pour les appels de réseau public commuté si le trafic est via une interface IPv6. Si la déviation du trafic multimédia est requise, nous recommandons que la passerelle RTC soit configurée sur IPv4. 
   
-|**Interface principale 1**|**Interface PSTN (sur le serveur de médiation)**|**Paramètre de passerelle PSTN**|
+|**Interface principale 1**|**Interface RTC (sur le serveur de médiation)**|**Paramètre de passerelle RTC**|
 |:-----|:-----|:-----|
 |IPv4  <br/> |Double pile  <br/> |IPv4  <br/> |
 |Double pile  <br/> |Double pile  <br/> |IPv4  <br/> |
@@ -116,7 +115,7 @@ Skype pour Business Server ne prend en charge le contournement de média pour le
 
 Les communications P2P avec des utilisateurs distants incluent la messagerie instantanée, l’audio/vidéo, le partage d’application et le transfert de fichiers.
   
-|**Réseau de l’utilisateur distant**|**Serveur Edge (périmètre externe)**|
+|**Réseau d’utilisateur distant**|**Serveur Edge (périmètre externe)**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |Double pile  <br/> |IPv4  <br/> |
@@ -129,7 +128,7 @@ Les communications P2P avec des utilisateurs distants incluent la messagerie ins
 
 Le tableau suivant montre la matrice de prise en charge entre le pool de serveurs frontaux et le pool de serveurs Edge interne.
   
-**Pool frontal et Edge (périmètre interne) de Pool matrice**
+**Matrice de pool frontal et de pool Edge (périmètre interne)**
 
 ||**Pool Edge : IPv4** <br/> |**Pool Edge : Double pile** <br/> |**Pool Edge : IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
@@ -141,7 +140,7 @@ Le tableau suivant montre la matrice de prise en charge entre le pool de serveur
   
 Le tableau ci-dessous représente une matrice des combinaisons d’interfaces Edge internes et externes prises en charge.
   
-**Pool Edge (périmètre interne) et pool Edge (périmètre externe) matrice**
+**Matrice de pool Edge (périmètre interne) et de pool Edge (périmètre externe)**
 
 ||**Pool Edge (périmètre externe) : IPv4** <br/> |**Pool Edge (périmètre externe) : Double pile** <br/> |**Pool Edge (périmètre externe) : IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
@@ -204,7 +203,7 @@ Les scénarios suivants sont pris en charge pendant la migration et la coexisten
 ## <a name="see-also"></a>Voir aussi
 <a name="migration"> </a>
 
-[Configurer les types d’adresses IP dans Skype pour les entreprises](ip-address-types.md)
+[Configuration des types d’adresse IP dans Skype Entreprise](ip-address-types.md)
 
 [IP Version 6 Addressing Architecture](https://tools.ietf.org/html/rfc4291)
   

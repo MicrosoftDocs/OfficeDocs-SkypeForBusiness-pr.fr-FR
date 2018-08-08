@@ -3,7 +3,6 @@ title: Configuration des types d’adresse IP dans Skype Entreprise
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/22/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: 'Résumé : Passez en revue les considérations de type d’adresse IP ci-dessous avant d’implémenter Skype pour Business Server 2015.'
-ms.openlocfilehash: adebab15a0c10310b25af30f6e933625df61dc3d
-ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
+description: 'Résumé : Passez en revue les considérations de type d’adresse IP ci-dessous avant d’implémenter Skype pour Business Server.'
+ms.openlocfilehash: 6d1e3a53e65bb3d1b3475dc19a7a2f9e1101195d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19630146"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967163"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configuration des types d’adresse IP dans Skype Entreprise
  
-**Résumé :** Passez en revue les considérations de type d’adresse IP ci-dessous avant d’implémenter Skype pour Business Server 2015.
+**Résumé :** Passez en revue les considérations de type d’adresse IP ci-dessous avant d’implémenter Skype pour Business Server.
   
 Vous déployez des types d’adresses IP à l’aide des paramètres de topologie que vous configurez dans le Générateur de topologie. Cette section décrit comment déployer des types d’adresses IP sur les serveurs frontaux, les serveurs de médiation et serveurs de périphérie.
   
@@ -37,7 +36,7 @@ Vous déployez des types d’adresses IP à l’aide des paramètres de topologi
     
 2. Dans la boîte de dialogue **Modifier les propriétés**, sélectionnez le type d’adresse IP à configurer. S’il s’agit d’une configuration double pile, sélectionnez **Activer IPv4** et **Activer IPv6**, comme illustré dans la figure suivante.
     
-   **Modifier la boîte de dialogue Propriétés du pool de serveurs frontaux**
+   **Boîte de dialogue Modifier les propriétés du pool de serveurs frontaux**
 
   - **Utiliser toutes les adresses IP configurées** : sélectionnez cette option pour autoriser l’utilisation de n’importe quelle adresse IP définie sur l’ordinateur à utiliser. 
     
@@ -63,7 +62,7 @@ Vous déployez des types d’adresses IP à l’aide des paramètres de topologi
     
 - Dans la boîte de dialogue **Modifier les propriétés**, sélectionnez le type d’adresse IP à configurer. S’il s’agit d’une configuration double pile, sélectionnez **Activer IPv4** et **Activer IPv6**, comme illustré dans la figure suivante.
     
-   **Modifier la boîte de dialogue Propriétés du pool de serveurs de médiation**
+   **Boîte de dialogue Modifier les propriétés du pool de serveurs de médiation**
 
   - **Utiliser toutes les adresses IP configurées** : sélectionnez cette option pour autoriser l’utilisation de n’importe quelle adresse IP définie sur l’ordinateur à utiliser. 
     

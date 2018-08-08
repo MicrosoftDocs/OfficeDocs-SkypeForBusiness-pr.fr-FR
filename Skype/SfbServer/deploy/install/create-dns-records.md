@@ -1,5 +1,5 @@
 ---
-title: Création des enregistrements DNS pour Skype Entreprise Server 2015
+title: Créer des enregistrements DNS pour Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,21 +13,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
-description: 'Résumé : Découvrez comment configurer DNS et de créer des enregistrements DNS pour une installation de Skype pour Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 67114ce24da3676a3278c9685169d1a1f2bed4db
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Découvrez comment configurer DNS et de créer des enregistrements DNS pour une installation de Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: ca28eb2a439ea807f24969b9a5537b6a2aae4fa9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018891"
 ---
-# <a name="create-dns-records-for-skype-for-business-server-2015"></a>Création des enregistrements DNS pour Skype Entreprise Server 2015
+# <a name="create-dns-records-for-skype-for-business-server"></a>Créer des enregistrements DNS pour Skype pour Business Server
  
-**Résumé :** Découvrez comment configurer DNS et créer des enregistrements DNS pour une installation de Skype pour Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 depuis le centre d’évaluation Microsoft à : [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Résumé :** Découvrez comment configurer DNS et créer des enregistrements DNS pour une installation de Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Pour Skype pour Business Server fonctionne correctement, un nombre de paramètres de nom de domaine DNS (Domain Name System) doit être en place. Il s’agit de sorte que clients savent comment accéder aux services et que les serveurs de savent à propos de l’autre. Ces paramètres doivent être effectuées qu’une seule fois par le déploiement, car une fois que vous assignez une entrée DNS, il est disponible dans le domaine. Vous pouvez effectuer les étapes 1 à 5 dans un ordre quelconque. Cependant, vous devez exécuter les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5 comme indiqué dans le diagramme. Création d’enregistrements DNS comprend l’étape 5 de 8. Pour plus d’informations sur la planification DNS, consultez [exigences pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
+Pour Skype pour Business Server fonctionne correctement, un nombre de paramètres de nom de domaine DNS (Domain Name System) doit être en place. Il s’agit de sorte que clients savent comment accéder aux services et que les serveurs de savent à propos de l’autre. Ces paramètres doivent être effectuées qu’une seule fois par le déploiement, car une fois que vous assignez une entrée DNS, il est disponible dans le domaine. Vous pouvez effectuer les étapes 1 à 5 dans un ordre quelconque. Cependant, vous devez exécuter les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5 comme indiqué dans le diagramme. Création d’enregistrements DNS comprend l’étape 5 de 8. Pour plus d’informations sur la planification DNS, consultez [exigences pour Skype pour Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [configuration serveur requise pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 > [!IMPORTANT]
-> Il est important de remarquer qu’il ne s’agit que d’un exemple de la création d’enregistrements DNS dans un environnement Windows Server DNS. Il existe plusieurs autres entrées DNS requis pour Skype pour Business Server, et dépend de la procédure de création d’enregistrements DNS sur le système que vous utilisez pour gérer le système DNS dans votre organisation. Pour obtenir une liste complète des conditions requises pour le serveur DNS, voir [configuration DNS requise pour Skype pour Business Server 2015](../../plan-your-deployment/network-requirements/dns.md). 
+> Il est important de remarquer qu’il ne s’agit que d’un exemple de la création d’enregistrements DNS dans un environnement Windows Server DNS. Il existe plusieurs autres entrées DNS requis pour Skype pour Business Server, et dépend de la procédure de création d’enregistrements DNS sur le système que vous utilisez pour gérer le système DNS dans votre organisation. Pour obtenir une liste complète des conditions requises pour le serveur DNS, voir [configuration DNS requise pour Skype pour Business Server](../../plan-your-deployment/network-requirements/dns.md). 
   
 ![Schéma de vue d’ensemble](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
@@ -35,10 +36,10 @@ Pour Skype pour Business Server fonctionne correctement, un nombre de paramètre
 
 Enregistrements DNS sont requis pour Skype pour Business Server fonctionnent correctement et accessible par les utilisateurs.
   
-Cet exemple utilise un FQDN de DNS à charge équilibrée nommé pool.contoso.local. Ce pool se compose de trois serveurs exécutant Skype pour Business Server 2015 Enterprise Edition. Un serveur frontal en édition Standard ne peut contenir qu’un seul serveur. En utilisant l’édition Standard, vous utilisez seulement le nom de domaine complet (FQDN) du serveur unique en édition Standard quand vous faites référence au rôle frontal au lieu de créer un pool de serveurs DNS à charge équilibrée, comme le démontre cet exemple. Cet exemple simple, qui utilise uniquement le rôle frontal, inclut les enregistrements DNS dans le tableau suivant. Pour planifier votre configuration DNS spécifique, voir [enregistrements DNS requis pour Skype pour Business Server 2015](../../plan-your-deployment/network-requirements/dns.md). 
+Cet exemple utilise un FQDN de DNS à charge équilibrée nommé pool.contoso.local. Ce pool se compose de trois serveurs exécutant Skype pour Business Server Enterprise Edition. Un serveur frontal en édition Standard ne peut contenir qu’un seul serveur. En utilisant l’édition Standard, vous utilisez seulement le nom de domaine complet (FQDN) du serveur unique en édition Standard quand vous faites référence au rôle frontal au lieu de créer un pool de serveurs DNS à charge équilibrée, comme le démontre cet exemple. Cet exemple simple, qui utilise uniquement le rôle frontal, inclut les enregistrements DNS dans le tableau suivant. Pour planifier votre configuration DNS spécifique, voir [enregistrements DNS requis pour Skype pour Business Server](../../plan-your-deployment/network-requirements/dns.md). 
   
  
-|**Description**|**Type d’enregistrement**|**Nom**|**Est résolu en**|**Type d’équilibrage de la charge**|
+|**Description**|**Type d’enregistrement**|**Nom**|**Résolu en**|**Type d’équilibrage de charge**|
 |:-----|:-----|:-----|:-----|:-----|
 |Nom de domaine complet des services web internes  <br/> |A  <br/> |webint.contoso.local  <br/> |VIP pour les services web internes  <br/> |Logiciel et matériel pris en charge  <br/> |
 |FQDN du pool  <br/> |A  <br/> |pool.contoso.local  <br/> |Adresse IP du serveur SFB01  <br/> |DNS  <br/> |
@@ -76,14 +77,14 @@ Cet exemple utilise un FQDN de DNS à charge équilibrée nommé pool.contoso.lo
    |SFB02  <br/> |Hôte (A)  <br/> |10.0.0.6  <br/> |
    |SFB03  <br/> |Hôte (A)  <br/> |10.0.0.7  <br/> |
    
-7. Ensuite, créez les entrées d’équilibrage de charge DNS pour le pool. L’équilibrage de charge DNS permet à DNS d’envoyer des demandes aux serveurs individuels du pool en utilisant le même nom de pool DNS. Pour plus d’informations sur DNS et l’équilibrage de charge, consultez [enregistrements DNS requis pour Skype pour Business Server 2015](../../plan-your-deployment/network-requirements/dns.md). 
+7. Ensuite, créez les entrées d’équilibrage de charge DNS pour le pool. L’équilibrage de charge DNS permet à DNS d’envoyer des demandes aux serveurs individuels du pool en utilisant le même nom de pool DNS. Pour plus d’informations sur DNS et l’équilibrage de charge, consultez [enregistrements DNS requis pour Skype pour Business Server](../../plan-your-deployment/network-requirements/dns.md). 
     
     > [!NOTE]
     > La mise en pool de plusieurs serveurs est possible seulement dans les déploiements de l’édition Enterprise. Si vous déployez un serveur Enterprise unique ou un serveur en édition Standard, il vous suffit de créer un enregistrement A pour le serveur unique. 
   
     Par exemple, pour un pool nommé pool.contoso.local avec trois serveurs frontaux, vous devrez créer les entrées DNS suivantes :
     
-   |**NOM DE DOMAINE COMPLET**|**Type**|**Données**|
+   |**FQDN**|**Type**|**Données**|
    |:-----|:-----|:-----|
    |pool.contoso.local  <br/> |Hôte (A)  <br/> |10.0.0.5  <br/> |
    |pool.contoso.local  <br/> |Hôte (A)  <br/> |10.0.0.6  <br/> |
@@ -119,7 +120,7 @@ Cet exemple utilise un FQDN de DNS à charge équilibrée nommé pool.contoso.lo
     
 5. Si vous prenez en charge les clients hérités et si vous avez créé l’enregistrement SRV, vérifiez-le en saisissant **set type=srv** à l’invite **nslookup**, puis appuyez sur Entrée.
     
-6. Type ** _sipinternaltls._tcp. *domaine* ** (par exemple, _sipinternaltls._tcp.contoso.local), puis appuyez sur ENTRÉE.
+6. Tapez **_sipinternaltls._tcp. *domaine* ** (par exemple, _sipinternaltls._tcp.contoso.local), puis appuyez sur ENTRÉE.
     
 7. Le résultat prévu devrait ressembler au résultat affiché dans la figure. Veuillez remarquer que, bien que tous les enregistrements DNS ne soient pas affichés dans la sortie, il faut vérifier tous les enregistrements. 
     

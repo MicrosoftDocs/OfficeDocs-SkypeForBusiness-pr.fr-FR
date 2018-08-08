@@ -1,9 +1,8 @@
 ---
-title: Conditions préalables requises de sécurité et de configuration pour Voix Entreprise dans Skype Entreprise Server 2015
+title: Sécurité et configuration requises pour Enterprise Voice sur Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
-description: 'Résumé : Découvrez les composants de sécurité et configuration requis pour Enterprise Voice sur Skype pour Business Server 2015.'
-ms.openlocfilehash: 2ece3aaa99c1e81afd9241e8d435ac0ab3328893
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Découvrez les composants de sécurité et configuration requis pour Enterprise Voice sur Skype pour Business Server.'
+ms.openlocfilehash: 2738f1b39500673bd68b6c4f0c5cfdfb5b8b45d5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017389"
 ---
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server-2015"></a>Conditions préalables requises de sécurité et de configuration pour Voix Entreprise dans Skype Entreprise Server 2015
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Sécurité et configuration requises pour Enterprise Voice sur Skype pour Business Server
  
-**Résumé :** Découvrez les composants de sécurité et configuration requis pour Enterprise Voice sur Skype pour Business Server 2015.
+**Résumé :** Découvrez les composants de sécurité et configuration requis pour Enterprise Voice sur Skype pour Business Server.
   
 Avant de déployer Enterprise Voice, vérifiez que votre infrastructure réunit la sécurité suivante, configuration de l’utilisateur et conditions préalables matérielles des scénarios spécifiques. 
   
@@ -43,7 +43,7 @@ Avant de procéder au déploiement, vérifiez les points suivants :
 - L’infrastructure MKI (Managed Key Infrastructure) est déployée et configurée à l’aide d’une infrastructure d’autorité de certification Microsoft ou tierce.
     
     > [!NOTE]
-    > Pour plus d’informations sur les certificats requis dans Skype pour Business Server, consultez [exigences pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
+    > Pour plus d’informations sur les certificats requis dans Skype pour Business Server, consultez [exigences pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [configuration serveur requise pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). 
   
 ## <a name="user-configuration"></a>Configuration utilisateur
 
@@ -58,8 +58,8 @@ Si vous déployez nouvellement la charge de travail Enterprise Voice à ce stade
 
 Après avoir vérifié les logiciels et les conditions préalables pour Enterprise Voice, vous pouvez :
   
-- Installer le serveur de médiation, comme décrit dans [déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server 2015](deploy-a-mediation-server.md), mais uniquement si vous souhaitez déployer un serveur de médiation autonome ou un pool, car les serveurs de médiation sont installés dans le cadre d’un plan Pool frontal ou le processus de déploiement de Standard Edition server lorsque colocalisés.
+- Installer le serveur de médiation, comme décrit dans [déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server](deploy-a-mediation-server.md), mais uniquement si vous souhaitez déployer un serveur de médiation autonome ou un pool, car les serveurs de médiation sont installés dans le cadre du serveur frontal pool ou le processus de déploiement de Standard Edition server lorsque colocalisés.
     
-- Ou, commencer à configurer les paramètres pour acheminer les appels pour les utilisateurs d’Enterprise Voice, comme décrit dans [configurer les jonctions dans Skype pour Business Server 2015](configure-trunks.md).
+- Ou, commencer à configurer les paramètres pour acheminer les appels pour les utilisateurs d’Enterprise Voice, comme décrit dans [configurer les jonctions dans Skype pour Business Server](configure-trunks.md).
     
 

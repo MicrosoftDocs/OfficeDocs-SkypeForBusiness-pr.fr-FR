@@ -1,9 +1,8 @@
 ---
-title: Création ou modification d’un plan de numérotation dans Skype Entreprise Server 2015
+title: Créer ou modifier un plan de numérotation dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Résumé : Apprenez à créer ou modifier un plan de numérotation à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 9ded641ead3aef5cb6b42b27ca06da34ba9133c6
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: cafaeaa2813586e7e3cd15827745703685148d08
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501062"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980007"
 ---
-# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server-2015"></a>Création ou modification d’un plan de numérotation dans Skype Entreprise Server 2015
+# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Créer ou modifier un plan de numérotation dans Skype pour Business Server
  
 **Résumé :** Découvrez comment créer ou modifier un plan de numérotation à l’aide de la Skype pour le panneau de configuration serveur Business.
   
@@ -68,7 +67,7 @@ ms.locfileid: "19501062"
     
     - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de normalisation sont disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Dans **Sélectionner des règles de normalisation**, sélectionnez les règles que vous voulez associer au plan de numérotation, puis cliquez sur **OK**.
     
-   - Pour définir une nouvelle règle de normalisation et l’associer au plan de numérotation, cliquez sur **Nouveau**. Pour plus d’informations sur la définition d’une nouvelle règle, voir [créer ou modifier une règle de normalisation dans Skype pour Business 2015](normalization-rules.md).
+   - Pour définir une nouvelle règle de normalisation et l’associer au plan de numérotation, cliquez sur **Nouveau**. Pour plus d’informations sur la définition d’une nouvelle règle, voir [créer ou modifier une règle de normalisation dans Skype pour les entreprises](normalization-rules.md).
     
    - Pour modifier une règle de normalisation déjà associée au plan de numérotation, mettez en surbrillance le nom de la règle et cliquez sur **Afficher les détails**. 
     
@@ -77,7 +76,7 @@ ms.locfileid: "19501062"
    - Pour supprimer une règle de normalisation du plan de numérotation, mettez en surbrillance le nom de la règle et cliquez sur **Supprimer**.
     
      > [!NOTE]
-     > Chaque plan de numérotation doit être associé à au moins une règle de normalisation. Pour plus d’informations sur la façon de déterminer toutes les règles de normalisation un numérotation plan nécessite, voir [Plan for vocaux sortants routage dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) dans la documentation de planification.
+     > Chaque plan de numérotation doit être associé à au moins une règle de normalisation. Pour plus d’informations sur la façon de déterminer toutes les règles de normalisation un numérotation plan nécessite, voir [Plan for vocaux sortants routage dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) dans la documentation de planification.
   
 10. Vérifiez que les règles de normalisation du plan numérotation sont organisées dans l’ordre correct. Pour modifier la position d’une règle dans la liste, mettez en surbrillance le nom de la règle et cliquez sur l’ou flèche vers le bas.
     
@@ -91,7 +90,7 @@ ms.locfileid: "19501062"
 13. Dans la page **Plan de numérotation**, cliquez sur **Valider**, puis sur **Valider tout**. 
     
     > [!NOTE]
-    > À chaque fois que vous créez un plan de numérotation, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour Business 2015](voice-route-config-changes.md) dans la documentation des opérations.
+    > À chaque fois que vous créez un plan de numérotation, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md) dans la documentation des opérations.
   
 ### <a name="to-modify-a-dial-plan"></a>Pour modifier un plan de numérotation
 
@@ -127,7 +126,7 @@ ms.locfileid: "19501062"
     
    - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de normalisation sont disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Dans la boîte de dialogue **Sélectionner des règles de normalisation**, sélectionnez les règles que vous voulez associer au plan de numérotation, puis cliquez sur **OK**.
     
-   - Pour définir une nouvelle règle de normalisation et l’associer au plan de numérotation, cliquez sur **Nouveau**. Pour plus d’informations sur la définition d’une nouvelle règle, voir [créer ou modifier une règle de normalisation dans Skype pour Business 2015](normalization-rules.md).
+   - Pour définir une nouvelle règle de normalisation et l’associer au plan de numérotation, cliquez sur **Nouveau**. Pour plus d’informations sur la définition d’une nouvelle règle, voir [créer ou modifier une règle de normalisation dans Skype pour les entreprises](normalization-rules.md).
     
    - Pour modifier une règle de normalisation déjà associée au plan de numérotation, mettez en surbrillance le nom de la règle et cliquez sur **Afficher les détails**. 
     
@@ -136,7 +135,7 @@ ms.locfileid: "19501062"
    - Pour supprimer une règle de normalisation du plan de numérotation, mettez en surbrillance le nom de la règle et cliquez sur **Supprimer**.
     
     > [!NOTE]
-    > Chaque plan de numérotation doit être associé à au moins une règle de normalisation. Pour plus d’informations sur la façon de déterminer toutes les règles de normalisation un numérotation plan nécessite, voir [Plan for vocaux sortants routage dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) dans la documentation de planification.
+    > Chaque plan de numérotation doit être associé à au moins une règle de normalisation. Pour plus d’informations sur la façon de déterminer toutes les règles de normalisation un numérotation plan nécessite, voir [Plan for vocaux sortants routage dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) dans la documentation de planification.
   
 10. Vérifiez que les règles de normalisation du plan numérotation sont organisées dans l’ordre correct. Pour modifier la position d’une règle dans la liste, mettez en surbrillance le nom de la règle et cliquez sur l’ou flèche vers le bas.
     
@@ -153,8 +152,9 @@ ms.locfileid: "19501062"
 13. Dans la page **Plan de numérotation**, cliquez sur **Valider**, puis sur **Valider tout**. 
     
     > [!NOTE]
-    > Chaque fois que vous créez ou modifiez un plan de numérotation, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour Business 2015](voice-route-config-changes.md) dans la documentation des opérations.
+    > Chaque fois que vous créez ou modifiez un plan de numérotation, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md) dans la documentation des opérations.
   
 ## <a name="see-also"></a>Voir aussi
 
-[Publier des modifications à la configuration de routage voix Skype pour Business 2015 en attente](voice-route-config-changes.md)
+[Publier des modifications en attente de la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md)
+

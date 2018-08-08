@@ -1,9 +1,8 @@
 ---
-title: Déploiement de la déviation du trafic multimédia pour Skype Entreprise Server 2015
+title: Déployer le contournement de média dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Déployer le contournement de média dans Skype pour Business Server Enterprise Voice. Cela Inclut les conditions préalables et la liste de vérification de la procédure de déploiement.
-ms.openlocfilehash: ffd026465b5ad4463b8df2c3184e39198bfe5045
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ead9ebb099bd671dbbc28607bf11e1131ac7569a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965435"
 ---
-# <a name="deploy-media-bypass-in-skype-for-business-server-2015"></a>Déploiement de la déviation du trafic multimédia pour Skype Entreprise Server 2015
+# <a name="deploy-media-bypass-in-skype-for-business-server"></a>Déployer le contournement de média dans Skype pour Business Server
  
 Déployer le contournement de média dans Skype pour Business Server Enterprise Voice. Cela Inclut les conditions préalables et la liste de vérification de la procédure de déploiement.
   
-Cette rubrique suppose que vous avez déjà publié et configuré au moins un ou plusieurs serveurs de médiation et entre homologues au moins une passerelle pour fournir une connectivité PSTN. Pour plus d’informations sur ces tâches, voir [déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server 2015](deploy-a-mediation-server.md) et [définir une passerelle dans le Générateur de topologie dans Skype pour Business Server 2015](define-a-gateway.md).
+Cette rubrique suppose que vous avez déjà publié et configuré au moins un ou plusieurs serveurs de médiation et entre homologues au moins une passerelle pour fournir une connectivité PSTN. Pour plus d’informations sur ces tâches, voir [déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server](deploy-a-mediation-server.md) et [définir une passerelle dans le Générateur de topologie dans Skype pour Business Server](define-a-gateway.md).
   
  Si l’homologue auquel vous vous connectez est le contrôleur SBC (Session Border Controller) d’un fournisseur de jonctions SIP (Session Initiation Protocol), assurez-vous qu’il s’agit d’un fournisseur qualifié et qu’il prend en charge la déviation du trafic multimédia. Par exemple, de nombreux fournisseurs de jonctions SIP autoriseront uniquement leurs contrôleurs SBC à recevoir du trafic du serveur de médiation. Dans ce cas, la déviation du trafic doit être activée pour la jonction en question. De même, vous ne pouvez pas activer la déviation du trafic multimédia sauf si l’organisation communique les adresses IP de son réseau interne au fournisseur de jonctions SIP.
   
@@ -44,8 +44,8 @@ Le tableau ci-dessous présente une vue d’ensemble de la procédure de déploi
   
 |**Phase**|**Étapes**|**Rôles**|**Documentation de déploiement**|
 |:-----|:-----|:-----|:-----|
-|Configurer des jonctions pour la déviation du trafic multimédia  <br/> |Si ce n’est déjà fait, configurez une ou plusieurs jonctions pour la déviation du trafic multimédia.  <br/> | Membre du groupe RTCUniversalServerAdmins ou membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Configurer une jonction avec contournement de média dans Skype pour Business Server 2015](configure-trunk-with-media-bypass.md) <br/> |
-|Configurer la déviation du trafic multimédia au niveau global  <br/> |Configurez la déviation du trafic multimédia pour tous les appels vers le réseau téléphonique commuté ou certains appels basés sur les sites et les régions réseau.  <br/> | Membre du groupe RTCUniversalServerAdmins ou membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Configurer le contournement de média dans Skype pour Business Server 2015 pour toujours contourner le serveur de médiation](bypass-the-mediation-server.md) <br/> [Configurer les paramètres globaux de déviation du trafic multimédia dans Skype pour Business Server 2015 à utiliser les informations de site et de région](use-site-and-region-information.md) <br/> |
+|Configurer des jonctions pour la déviation du trafic multimédia  <br/> |Si ce n’est déjà fait, configurez une ou plusieurs jonctions pour la déviation du trafic multimédia.  <br/> | Membre du groupe RTCUniversalServerAdmins ou membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Configurer une jonction avec contournement de média dans Skype pour Business Server](configure-trunk-with-media-bypass.md) <br/> |
+|Configurer la déviation du trafic multimédia au niveau global  <br/> |Configurez la déviation du trafic multimédia pour tous les appels vers le réseau téléphonique commuté ou certains appels basés sur les sites et les régions réseau.  <br/> | Membre du groupe RTCUniversalServerAdmins ou membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Configurer le contournement de média dans Skype pour le serveur d’entreprise pour toujours contourner le serveur de médiation](bypass-the-mediation-server.md) <br/> [Configurer les paramètres globaux de déviation du trafic multimédia dans Skype pour Business Server utilise des informations de sites et aux régions](use-site-and-region-information.md) <br/> |
 |Associer des sous-réseaux à des sites réseau, si nécessaire  <br/> |Si vous configurez la déviation du trafic multimédia pour utiliser les informations de site et de région, vous devez associer les sous-réseaux de votre déploiement à des sites et régions réseau (si vous ne l’avez pas déjà fait pour une autre fonctionnalité des communications vocales.)  <br/> | Membre du groupe RTCUniversalServerAdmins ou membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
    
 

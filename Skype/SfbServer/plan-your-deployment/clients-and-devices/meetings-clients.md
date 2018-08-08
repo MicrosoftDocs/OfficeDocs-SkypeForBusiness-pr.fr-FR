@@ -13,30 +13,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
-description: 'Résumé : Les professionnels de l’informatique doivent vérifier les exigences de prise en charge pour la Skype pour Business Web App et Skype réunions application lors de la planification pour Skype pour Business Server 2015. Cet article n’est pas destiné aux utilisateurs de ces applications.'
-ms.openlocfilehash: 1e843f0f6ba5d25958f4396c272d97943445239f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'Résumé : Les professionnels de l’informatique doivent vérifier les exigences de prise en charge pour la Skype pour Business Web App et Skype réunions application lors de la planification pour Skype pour Business Server. Cet article n’est pas destiné aux utilisateurs de ces applications.'
+ms.openlocfilehash: f0fbf6cfec073ba3fdd25bdd4cb87c458144d3b7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009679"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planifier pour les clients de réunions (application Web et application de réunions)
  
-**Résumé :** PROFESSIONNELS de l’informatique doivent vérifier les exigences de prise en charge pour la Skype pour Business Web App et Skype réunions application lors de la planification pour Skype pour Business Server 2015. Cet article n’est pas destiné aux utilisateurs de ces applications.
+**Résumé :** PROFESSIONNELS de l’informatique doivent vérifier les exigences de prise en charge pour la Skype pour Business Web App et Skype réunions application lors de la planification pour Skype pour Business Server. Cet article n’est pas destiné aux utilisateurs de ces applications.
   
 Une fois que vous avez implémenté Skype pour Business Server, les utilisateurs de votre organisation auront sans doute la Skype pour Business client installé dans le cadre du processus de déploiement. 
   
 Ces utilisateurs peuvent créer des réunions et inviter des utilisateurs externes à l’organisation et les invités aux réunions peut-être pas n’importe quelle version de la Skype pour client d’entreprise. Lorsque les utilisateurs cliquez sur l’URL de l’invitation à la réunion, l’absence d’un client est détecté et l’invité sans un Skype pour client Business serez invitée à télécharger et installer un client léger, réunions seule afin qu’ils peuvent joindre la réunion.
   
 > [!NOTE]
-> Le Skype pour l’application Web de gestion et application de réunions Skype ne sont disponibles que lors de la tentative pour vous connecter à une réunion sans avoir un Skype pour les entreprises. Aide de l’utilisateur pour ces applications est à [https://aka.ms/smahelp](https://aka.ms/smahelp). 
+> Le Skype pour l’application Web de gestion et application de réunions Skype ne sont disponibles que lors de la tentative pour vous connecter à une réunion sans avoir Skype pour les entreprises. Aide de l’utilisateur pour ces applications est à [https://aka.ms/smahelp](https://aka.ms/smahelp). 
   
 > [!NOTE]
 > Vous ne pouvez pas installer préalable soit le Skype pour Business Web App ou réunions Skype, mais les utilisateurs [Smartphone](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) et [tablette](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) peuvent être en mesure d’installer les clients mobiles économiques qu'ils peuvent utiliser pour participer à des réunions.
   
 Par défaut, le serveur qui héberge la réunion vous dirige l’utilisateur à télécharger et installer Skype pour Business Web App joindre la réunion. Le Skype pour l’application Web de gestion est stockée sur le serveur frontal et est envoyée au participant à la réunion. 
   
-Commençant par Skype pour Business Server CU5, Skype réunions application est disponible sous forme d’une solution de remplacement pour Skype pour l’application Web de gestion, mais l’application de réunions Skype exige la configuration supplémentaire décrite dans [Activer Skype réunions application remplacer Skype pour Application Web de gestion (facultative)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Si l’application de réunions Skype est activée, les utilisateurs seront télécharger la dernière version de l’application à partir de l’Office 365 réseau CDN (Content Delivery) plutôt que votre Skype pour Business server.
+Skype pour Business Server 2015, Skype réunions application est disponible sous forme d’une solution de remplacement pour Skype pour début Business Web App avec CU5, mais l’application de réunions Skype exige la configuration supplémentaire décrite dans [Activer Skype réunions App pour remplacer Skype pour l’application Web de gestion (facultative)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si l’application de réunions Skype est activée, les utilisateurs seront télécharger la dernière version de l’application à partir de l’Office 365 réseau CDN (Content Delivery) plutôt que votre Skype pour Business server. Skype pour Business Server 2019 Skype réunions application est la seule option.
   
 Application de réunions Skype offre une expérience de navigation simplifiée pour le téléchargement et installation de l’application et participer à des réunions, y compris la participation d’un clic pour les utilisateurs d’Internet Explorer. Application de réunions Skype également a nombreuses améliorations sur theSkype pour l’application Web de gestion de fiabilité et de l’expérience. 
   
@@ -86,7 +87,7 @@ La configuration matérielle requise est déterminée par le système d'exploita
 ## <a name="network-requirements"></a>Conditions de réseau requises
 <a name="Network"> </a>
 
-Si un utilisateur de Skype pour Business Web App ou application de réunions Skype expériences de problèmes de connexion de la réunion, sans doute que l’infrastructure réseau de leur organisation n’est pas configuré pour prendre en charge Office 365 comme décrit dans [Office 365 URL et plages d’adresses IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US). C’est le cas si la réunion a été créée par un utilisateur de Skype pour Business Online ou Skype pour Business Server 2015. 
+Si un utilisateur de Skype pour Business Web App ou application de réunions Skype expériences de problèmes de connexion de la réunion, sans doute que l’infrastructure réseau de leur organisation n’est pas configuré pour prendre en charge Office 365 comme décrit dans [Office 365 URL et plages d’adresses IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US). C’est le cas si la réunion a été créée par un utilisateur de Skype pour Business Online ou Skype pour Business Server. 
   
 Si l’utilisateur est sur un réseau n’est ne pas configuré comme indiqué, de nombreuses fonctionnalités de l’application peuvent ou ne pas fonctionneront et qu’ils ne sont peut-être pas en mesure de se connecter à la réunion.
   
@@ -95,10 +96,10 @@ Si l’utilisateur est sur un réseau n’est ne pas configuré comme indiqué, 
 
 Ce tableau compare les fonctionnalités de réunions accessibles aux utilisateurs de Skype pour client d’entreprise, Skype pour Lync Web App, Skype réunions application et application Web de gestion. Lync Web App est répertorié à des fins de comparaison de fonctionnalité : un utilisateur souhaite uniquement le téléchargement, à l’aide de Lync Web App si la réunion a été hébergée sur un serveur Lync 2013.
 
-| Fonctionnalité | Skype pour 2016 Business client | Skype pour les entreprises sur client Mac | Application Réunions Skype | Application web Skype Entreprise | Lync Web App |
+| Fonctionnalité | Skype pour 2016 Business ou 2019 client | Skype pour les entreprises sur client Mac | Application Réunions Skype | Application web Skype Entreprise | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Ajouter l'audio de l'ordinateur  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;(requires plug-in)  <br/> |& #x 2714 ;(requires plug-in)  <br/> |& #x 2714 ;(requires plug-in)  <br/> |
-|Ajouter la vidéo  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;(requires plug-in)  <br/> |& #x 2714 ;(requires plug-in)  <br/> |& #x 2714 ;(requires plug-in)  <br/> |
+|Ajouter l'audio de l'ordinateur  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ; (nécessite un plug-in)  <br/> |& #x 2714 ; (nécessite un plug-in)  <br/> |& #x 2714 ; (nécessite un plug-in)  <br/> |
+|Ajouter la vidéo  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ; (nécessite un plug-in)  <br/> |& #x 2714 ; (nécessite un plug-in)  <br/> |& #x 2714 ; (nécessite un plug-in)  <br/> |
 |Basculer l’audio à un téléphone pour les participants authentifiés  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Basculer l’audio à un téléphone pour les participants invités  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||
 |Afficher une vidéo à plusieurs (vue galerie)  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
@@ -158,24 +159,13 @@ Pour les utilisateurs finaux, l' [aide en ligne](https://aka.ms/smahelp) pour ce
     
 - Vous pouvez nécessaire pour [Activer JavaScript](https://support.office.com/en-us/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) prend en charge dans votre navigateur pour certains Skype pour les fonctionnalités de l’application Web de gestion fonctionnent comme prévu.
     
-### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Exigences de chiffrement en raison d’ASP .NET 4.5
+### <a name="aes-support"></a>Prise en charge AES 
 
-À compter de Skype pour Business Server 2015 CU5, AES n’est pas pris en charge pour ASP.NET 4.6 et cela peut entraîner Skype réunions application Échec de démarrage. Si un client utilise AES en tant que la valeur de validation de la clé d’ordinateur, vous devrez rétablir la valeur de clé d’ordinateur SHA-1 ou un autre algorithme pris en charge au niveau du site d’application de réunions Skype sur IIS. Si nécessaire, consultez [Gestion de la Configuration IIS 8.0 ASP.NET](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) pour obtenir des instructions.
-  
-Autres valeurs prises en charge sont :
-  
-- HMACSHA256
-    
-- HMACSHA384
-    
-- HMACSHA512
-    
- Les valeurs MD5, 3DES et AES ne sont plus autorisées, comme une seule fois dans ASP.NET 4. [Améliorations de chiffrement dans ASP.NET 4.5, pt 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) a plus de détails.
+À compter de Skype pour Business Server 2015 CU5, AES n’est pas pris en charge pour ASP.NET 4.6 et cela peut entraîner Skype réunions application Échec de démarrage. [Exigences de chiffrement en raison d’ASP .NET 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) a plus de détails.
   
 ## <a name="see-also"></a>Voir aussi
 <a name="BKMK_Conferencing"> </a>
 
-#### 
-[Déployer des clients Web téléchargeables Skype pour Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+[Déployer des clients Web téléchargeables Skype pour Business Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
 [Plateformes prises en charge pour l’application de réunions Skype](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

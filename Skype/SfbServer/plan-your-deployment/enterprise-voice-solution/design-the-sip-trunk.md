@@ -1,9 +1,8 @@
 ---
-title: Conception de la jonction SIP (Session Initiation Protocol) pour E9-1-1 dans Skype Entreprise Server 2015
+title: Conception de la jonction SIP pour E9-1-1 dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: Planification de vos topologies de jonction SIP pour un déploiement E9-1-1 qui utilise les fournisseurs d’acheminement SIP dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: a04256bcad458b639777ec553289deb3c43ddd59
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 8a0264bc66be97a80b9ef1d14a020f438a8a89f5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974664"
 ---
-# <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server-2015"></a>Conception de la jonction SIP (Session Initiation Protocol) pour E9-1-1 dans Skype Entreprise Server 2015
+# <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Conception de la jonction SIP pour E9-1-1 dans Skype pour Business Server
  
 Planification de vos topologies de jonction SIP pour un déploiement E9-1-1 qui utilise les fournisseurs d’acheminement SIP dans Skype pour Business Server Enterprise Voice.
   
@@ -32,11 +32,11 @@ Il existe deux façons d’implémenter une jonction SIP dans un Skype pour un e
     
 - Utiliser un contrôleur de bordure de Session (SBC) local pour fournir un point de démarcation sécurisé entre les serveurs de médiation et la jonction SIP services du fournisseur.
     
-Si vous choisissez cette dernière méthode, assurez-vous que la marque et le modèle du contrôleur SBC que vous choisissez ont été certifiés et que celui-ci prend en charge le transfert des données d’emplacement PIDF-LO (Presence Information Data Format Location Object) dans le cadre de sa requête SIP INVITE. Dans le cas contraire, les appels parviennent au fournisseur de services d’urgence sans leurs informations d’emplacement. Pour plus d’informations sur certifié SBC, voir [« Infrastructure pour Microsoft Lync qualifiées »](https://go.microsoft.com/fwlink/p/?LinkId=248425) et [« téléphonie Infrastructure pour Skype pour Business »](https://technet.microsoft.com/en-us/office/dn947483).
+Si vous choisissez cette dernière méthode, assurez-vous que la marque et le modèle du contrôleur SBC que vous choisissez ont été certifiés et que celui-ci prend en charge le transfert des données d’emplacement PIDF-LO (Presence Information Data Format Location Object) dans le cadre de sa requête SIP INVITE. Dans le cas contraire, les appels parviennent au fournisseur de services d’urgence sans leurs informations d’emplacement. Pour plus d’informations sur certifié SBC, voir [« Infrastructure pour Microsoft Lync qualifiées »](https://go.microsoft.com/fwlink/p/?LinkId=248425) et [« téléphonie Infrastructure pour Skype pour Business »](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
   
 Les fournisseurs de services E9-1-1 vous permettent d’accéder à une paire de contrôleurs SBC à des fins de redondance. Vous devez prendre plusieurs décisions concernant la topologie de serveur de médiation et configuration du routage des appels. Allez-vous traiter les deux contrôleurs SBC comme des homologues égaux et utiliser le routage par tourniquet (round robin) pour les appels qu’ils s’échangent, ou allez-vous désigner l’un des contrôleurs SBC en tant que serveur principal et l’autre en tant que serveur secondaire ?
   
-Pour plus d’informations sur le déploiement d’une jonction SIP dans Skype pour Business Server, consultez la [jonction SIP dans Skype pour Business Server 2015](sip-trunking.md). Pour faciliter le déploiement de jonctions SIP pour E9-1-1, répondez d’abord aux questions suivantes.
+Pour plus d’informations sur le déploiement d’une jonction SIP dans Skype pour Business Server, consultez la [jonction SIP dans Skype pour Business Server](sip-trunking.md). Pour faciliter le déploiement de jonctions SIP pour E9-1-1, répondez d’abord aux questions suivantes.
   
  **Devez-vous déployer la jonction SIP sur une connexion en bail dédiée ou une connexion Internet partagée ?**
   
@@ -48,7 +48,7 @@ Pour plus d’informations sur le déploiement d’une jonction SIP dans Skype p
     
  **Devez-vous déployer une jonction SIP (Session Initiation Protocol) distincte pour chaque succursale ?**
   
-> Skype pour Business Server fournit plusieurs stratégies de gestion de la résilience vocale dans les succursales, y compris : ayant des réseaux de données résistantes, le déploiement d’une jonction SIP à chaque branche ou diffuser les appels vers la passerelle locale pendant les pannes. Pour plus d’informations, voir la [jonction SIP dans Skype pour Business Server 2015](sip-trunking.md).
+> Skype pour Business Server fournit plusieurs stratégies de gestion de la résilience vocale dans les succursales, y compris : ayant des réseaux de données résistantes, le déploiement d’une jonction SIP à chaque branche ou diffuser les appels vers la passerelle locale pendant les pannes. Pour plus d’informations, voir la [jonction SIP dans Skype pour Business Server](sip-trunking.md).
     
  **Le contrôle d’admission des appels est-il activé ?**
   

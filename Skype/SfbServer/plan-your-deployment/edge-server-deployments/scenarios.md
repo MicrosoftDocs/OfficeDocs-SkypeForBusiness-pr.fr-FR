@@ -1,8 +1,7 @@
 ---
-title: Scénarios de serveur Edge dans Skype Entreprise Server 2015
+title: Edge des scénarios de serveur dans Skype pour Business Server
 ms.author: heidip
 author: microsoftheidi
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,16 +11,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
-description: 'Résumé : Passez en revue ces scénarios pour vous aider à planifier votre topologie de serveur de transport Edge dans Skype Business Server 2015.'
-ms.openlocfilehash: 9afe23c626f2a266061c250740e52bc55dd2697d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Passez en revue ces scénarios pour vous aider à planifier votre topologie de serveur de transport Edge dans Skype Business Server.'
+ms.openlocfilehash: e3e6a5c0c20a8c72725456f3c67834f84123b093
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009662"
 ---
-# <a name="edge-server-scenarios-in-skype-for-business-server-2015"></a>Scénarios de serveur Edge dans Skype Entreprise Server 2015
+# <a name="edge-server-scenarios-in-skype-for-business-server"></a>Edge des scénarios de serveur dans Skype pour Business Server
  
-**Résumé :** Passez en revue ces scénarios pour vous aider à planifier votre topologie de serveur de transport Edge dans Skype Business Server 2015.
+**Résumé :** Passez en revue ces scénarios pour vous aider à planifier votre topologie de serveur de transport Edge dans Skype Business Server.
   
 Nous avons certains diagrammes scénarios pour vous aider à visualiser et décider sur quels Skype pour la topologie de serveur de périphérie Business Server vous voulez implémenter. Une fois le scénario idéal sélectionné, vous pouvez effectuer des recherches sur les exigences environnementales devant être prises en compte. Nous allons commencer par les informations suivantes, applicables à tous les scénarios.
   
@@ -31,7 +31,7 @@ Les diagrammes indiquent .com pour l’interface externe et .net pour l’inte
   
 Nous n’incluez pas le directeur (qui est un composant facultatif) dans un des diagrammes, mais vous pouvez en savoir plus sur qui séparément (mentionné dans d’autres rubriques de planification).
   
-Comme mentionné ci-dessus, il est exemples de données IPv6 dans les diagrammes. La plupart de la documentation de [planification pour les déploiements de serveur de transport Edge dans Skype pour Business Server 2015](edge-server-deployments.md) fait référence à IPv4, mais vous sont certainement pris en charge si vous souhaitez utiliser le protocole IPv6. Notez que vous aurez besoin des adresses IPv6 dans votre espace d’adresse attribué, et les utilisateurs ont besoin travailler avec l’adressage internes et externes, comme avec les adresses IP IPv4. Vous pouvez, grâce à Windows, utiliser la fonctionnalité de double pile, qui est une pile réseau distinctes pour IPv4 et IPv6. Il sera, si vous avez besoin, vous permettent d’affecter IPv4 et des adresses IPv6 simultanément.
+Comme mentionné ci-dessus, il est exemples de données IPv6 dans les diagrammes. La plupart de la documentation de [planification pour les déploiements de serveur de transport Edge dans Skype pour Business Server](edge-server-deployments.md) fait référence à IPv4, mais vous sont certainement pris en charge si vous souhaitez utiliser le protocole IPv6. Notez que vous aurez besoin des adresses IPv6 dans votre espace d’adresse attribué, et les utilisateurs ont besoin travailler avec l’adressage internes et externes, comme avec les adresses IP IPv4. Vous pouvez, grâce à Windows, utiliser la fonctionnalité de double pile, qui est une pile réseau distinctes pour IPv4 et IPv6. Il sera, si vous avez besoin, vous permettent d’affecter IPv4 et des adresses IPv6 simultanément.
   
 Il existe des périphériques NAT qui autorisent pour NAT64 (IPv6 à IPv4) et NAT66 (IPv6 pour IPv6)), et il est valide pour une utilisation avec Skype pour Business Server.
   

@@ -1,29 +1,31 @@
 ---
-title: Modèles de courriel d’adoption utilisateur pour Microsoft Teams ou Skype pour les déploiements d’entreprise
+title: Modèles d’e-mail d’adoption utilisateur pour Microsoft Teams ou Skype pour les déploiements d’entreprise
 author: dearbeen
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Utiliser des modèles pour envoyer des e-mails aux utilisateurs lors de l’implémentation des fonctionnalités vocales nuage d’équipes ou de Skype pour les entreprises.
+description: Utilisez les modèles pour envoyer des messages électroniques aux utilisateurs lors de l’implémentation des fonctionnalités vocales de nuage dans des équipes ou Skype pour les entreprises.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e3ba28ef4e2e8eca93a7c1b8b11d25ea898f39b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 22ef253084427e4eb5a61505726a3dccf5f4fbb5
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694825"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Faciliter l’adoption par les utilisateurs de votre nouveau système de téléphone en ligne
 
-Un téléphone peut être la ligne de vie d’un utilisateur. Passage d’un système téléphonique traditionnel à un téléphone en ligne système représente une importante modification de la façon dont les utilisateurs travaillent, peuvent affecter négativement la productivité. Heure de prise d’informer, guide et prise en charge des utilisateurs par le biais de cette modification peuvent aider à garantir une expérience utilisateur positive et optimiser votre retour sur investissement.
+Un téléphone peut être la ligne de vie d’un utilisateur. Passage d’un système téléphonique traditionnel à un téléphone en ligne système représente une importante modifier dans la façon dont les utilisateurs travaillent, peuvent affecter négativement la productivité. Prise de temps pour les informer, guide et prise en charge des utilisateurs par le biais de cette modification peuvent aider à garantir une expérience utilisateur positive et optimiser le retour sur investissement.
 
-Cet article contient des modèles d’e-mail personnalisable pour aider à informer les utilisateurs sur leur nouveau système téléphonique. Personnaliser et envoyer les e-mails appropriés pour s’aligner avec votre déploiement de voix spécifique. Nous avons utilisé des parenthèses pour indiquer les sections de personnalisation facile, mais nous vous conseillons pour rendre l’annonce plus pertinents pour les utilisateurs de messagerie spécifiques à l’entreprise. Le cas échéant pour votre déploiement, remplacez toutes les références aux « Équipes » par « Skype pour les entreprises. »
+Cet article contient les modèles de courrier électronique personnalisable pour vous aider à informer les utilisateurs sur leur nouveau système téléphonique. Personnaliser et envoyer les e-mails appropriés pour aligner avec votre déploiement de voix spécifique. Nous avons utilisé entre parenthèses pour indiquer les sections pour la personnalisation facile, mais il est recommandé que vous ajoutez pour rendre l’annonce plus pertinents pour les utilisateurs de messagerie spécifiques à l’organisation. Le cas échéant pour votre déploiement, remplacez toutes les références à « Équipes » par « Skype pour les entreprises. »
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>Numéro 1 des e-mails : envoyer trois semaines avant le lancement
+## <a name="email-number-1-send-three-weeks-before-launch"></a>Courrier électronique n ° 1 : envoyer trois semaines avant le lancement
 
 Ligne d’objet :
 
@@ -88,7 +90,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>E-mail numéro 2 : envoyer une semaine avant le lancement
+## <a name="email-number-2-send-one-week-before-launch"></a>Courrier électronique n ° 2 : envoyer une semaine avant le lancement
 
 Ligne d’objet :
 
@@ -132,7 +134,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>Courriel du nombre 3 : envoyer le jour du lancement
+## <a name="email-number-3-send-on-launch-day"></a>Courrier électronique n ° 3 : envoyer le jour de la barre de lancement
 
 Ligne d’objet :
 
@@ -169,7 +171,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>E-mail numéro 4 : envoyer deux semaines après le lancement
+## <a name="email-number-4-send-two-weeks-after-launch"></a>Courrier électronique n ° 4 : envoyer deux semaines après le lancement
 
 Ligne d’objet :
 

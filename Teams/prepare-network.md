@@ -1,5 +1,5 @@
 ---
-title: "Préparer le réseau de votre organisation pour Microsoft Teams"
+title: Préparer le réseau de votre organisation pour Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,15 +7,17 @@ ms.date: 02/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: arachman
-description: "Découvrez comment préparer et gérer votre réseau pour Microsoft Teams. Les informations comprennent la configuration réseau requise, la condition requise en matière de bande passante ainsi que des remarques supplémentaires."
+description: Découvrez comment préparer et gérer votre réseau pour Microsoft Teams. Les informations comprennent la configuration réseau requise, la condition requise en matière de bande passante ainsi que des remarques supplémentaires.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e734014ff72c8b7eb6ba0e9f27cce7489ec3daf9
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 3fec119a29ea29d9d5c897395c82e27fdaed5e48
+ms.sourcegitcommit: 8c13d6279760749f60776a3c9e46118f029ae818
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "20024197"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams
 =================================================
@@ -35,7 +37,7 @@ Cela affecte le réseau sur deux niveaux : le trafic est acheminé entre les cl
 
 Pour bénéficier d'une expérience optimale avec le multimédia en temps réel dans Microsoft Teams, la configuration réseau requise pour Office 365 doit être satisfaite. Pour plus d’informations, consultez la rubique [Qualité des médias et performances de connectivité réseau dans Skype Entreprise Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US).
 
-Les deux segments réseau de définition (client vers Microsoft Edge et Microsoft Edge vers Microsoft Edge) doivent respecter la configuration requise suivante :
+Pour les deux définition segments réseau (Client pour Microsoft Edge) et côté client pour Microsoft Edge, tenez compte des recommandations suivantes.
 
 
 |Valeur  |Client vers Microsoft Edge  |Périphérie client vers Microsoft Edge  |
@@ -57,22 +59,23 @@ Pour tester les deux segments réseau, vous pouvez utiliser l’[Outil d'évalua
 
 Les calculs de bande passante pour Microsoft Teams sont complexes et une calculatrice a été créée à cet effet. Pour accéder à la calculatrice, cliquez ici : [Planificateur de réseau dans MyAdvisor](http://aka.ms/bwcalc/).
 
-Le contenu ci-après peut être utilisé comme informations générales supplémentaires ; il est toutefois recommandé aux clients d'utiliser le [Planificateur de réseau](https://aka.ms/bwcalc) pour effectuer le suivi de leurs besoins.
+<!--
+The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
 
 > [!IMPORTANT]
->Si la bande passante requise n'est pas disponible, la pile multimédia de Teams dégradera la qualité de la session audio/vidéo session pour s'adapter à la quantité de bande passante disponible plus faible, ce qui affectera la qualité de l'appel ou de la réunion. Le client Teams tentera de privilégier la qualité de l'audio plutôt que la vidéo. C'est pourquoi il est très important de disposer de la bande passante requise.
+>If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
 
 
-|Activité  |Bande passante de téléchargement  |Bande passante de chargement  |Flux du trafic |
+|Activity  |Download Bandwidth  |Upload Bandwidth  |Traffic Flow |
 |---------|---------|---------|---------|
-|**Appel audio P2P**     |0,1 Mo         |0,1 Mo         |Client <> Client         |
-|**Appel vidéo P2P (plein écran)**     |4 Mo         |4 Mb         |Client <> Client          |
-|**Partage de bureau P2P (résolution 1920*1080)**     |4 Mo         |4 Mo         |Client <> Client          |
-|**Réunion comptant 2 participants**     |4 Mo         |4 Mo         |Client <> Office 365         |
-|**Réunion comptant 3 participants**     |8 Mo         |6,5 Mo         |Client <> Office 365           |
-|**Réunion comptant 4 participants**     |5,5 Mo         |4 Mo         |Client <> Office 365           |
-|**Réunion comptant plus de 5 participants**     |6 Mo         |1,5 Mo         |Client <> Office 365           |
-
+|**Peer to peer Audio Call**     |0.1 Mb         |0.1Mb         |Client <> Client         |
+|**Peer to peer Video Call (full screen)**     |4 Mb         |4Mb         |Client <> Client          |
+|**Peer to peer Desktop Sharing (1920*1080 resolution)**     |4 Mb         |4 Mb         |Client <> Client          |
+|**2 Participant Meeting**     |4 Mb         |4 Mb         |Client <> Office 365         |
+|**3 participant meeting**     |8 Mb         |6.5 Mb         |Client <> Office 365           |
+|**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
+|**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
+-->
 
 <a name="additional-network-considerations"></a>Remarques supplémentaires relatives au réseau
 ---------------

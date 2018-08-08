@@ -1,9 +1,8 @@
 ---
-title: Composant Serveur de médiation dans Skype Entreprise Server 2015
+title: Composant serveur de médiation dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 'Découvrez les serveurs de médiation Skype pour Business Server, y compris ses topologies prises en charge et ses relations à jonctions m : n, le contournement de média et contrôle d’admission des appels.'
-ms.openlocfilehash: 73166df66acac493717ce2c07e42e5429176a400
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 95feb3b419eacf77739dfed98d2eee70eb49dc06
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009192"
 ---
-# <a name="mediation-server-component-in-skype-for-business-server-2015"></a>Composant Serveur de médiation dans Skype Entreprise Server 2015
+# <a name="mediation-server-component-in-skype-for-business-server"></a>Composant serveur de médiation dans Skype pour Business Server
  
 Découvrez les serveurs de médiation Skype pour Business Server, y compris ses topologies prises en charge et ses relations à jonctions m : n, le contournement de média et contrôle d’admission des appels.
   
@@ -52,7 +52,7 @@ Les principales fonctions du serveur de médiation sont comme suit :
     
 La figure suivante illustre les protocoles de signalisation et des médias utilisés par le serveur de médiation lors de la communication avec une passerelle PSTN de base et l’infrastructure Enterprise Voice.
   
-**Protocoles de signalisation et média utilisés par le serveur de médiation**
+**Protocoles de signalisation et de données multimédias utilisés par le serveur de médiation**
 
 ![Diagramme de protocoles de serveur de médiation](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
   
@@ -85,13 +85,13 @@ Le contrôle d’admission des appels (CAC) gère l’établissement de session 
   
 La déviation du trafic multimédia et la réservation de bande passante s’excluent mutuellement. Si la déviation du trafic multimédia est utilisée pour un appel, le contrôle d’admission des appels n’est pas effectué pour cet appel. L’hypothèse repose sur le fait qu’aucun lien avec bande passante restreinte n’est impliqué dans l’appel. Si le contrôle d’admission des appels d’appel est utilisé pour un appel particulier qui implique le serveur de médiation, cet appel ne peut pas utiliser le contournement de média.
   
-Pour plus d’informations sur les médias contournement de média ou contrôle d’admission des appels, voir [Plan pour le média de contournement dans Skype pour Business 2015](media-bypass.md) ou [planifier le contrôle d’admission des appels d’appel dans Skype pour Business Server 2015](call-admission-control.md).
+Pour plus d’informations sur les médias contournement de média ou contrôle d’admission des appels, voir [Plan pour le média de contournement dans Skype pour les entreprises](media-bypass.md) ou les [planifier le contrôle d’admission des appels d’appel dans Skype pour Business Server](call-admission-control.md).
   
 ## <a name="enhanced-9-1-1-e9-1-1-and-mediation-server"></a>Enhanced 9-1-1 (E9-1-1) et serveur de médiation
 
 Le serveur de médiation possède des capacités étendues afin que qu’il puisse interagir correctement avec des fournisseurs de service Enhanced 9-1-1 (E9-1-1). Aucune configuration spéciale n’est nécessaire sur le serveur de médiation. Les extensions SIP requises pour l’interaction E9-1-1 sont, par défaut, inclus dans le protocole SIP du serveur de médiation pour ses interactions avec un homologue de passerelle (passerelle PSTN, IP-PBX ou le contrôleur SBC d’un fournisseur de services de téléphonie Internet, y compris Service E9-1-1 Fournisseurs)
   
-Si la jonction SIP vers un fournisseur de services E9-1-1 peut être arrêtée sur un pool de serveur de médiation existant ou nécessite des serveurs de médiation autonome dépendent si le contrôleur SBC E9-1-1 peut interagir avec un pool de serveurs de médiation. Pour plus d’informations, voir [jonction m : n dans Skype pour Business Server 2015](m-n-trunk.md).
+Si la jonction SIP vers un fournisseur de services E9-1-1 peut être arrêtée sur un pool de serveur de médiation existant ou nécessite des serveurs de médiation autonome dépendent si le contrôleur SBC E9-1-1 peut interagir avec un pool de serveurs de médiation. Pour plus d’informations, voir [jonction m : n dans Skype pour Business Server](m-n-trunk.md).
   
 ## <a name="media-bypass-and-mediation-server"></a>Déviation du trafic multimédia et serveur de médiation
 
@@ -117,13 +117,13 @@ Vous pouvez utiliser Microsoft Lync Server 2013, outil de planification pour dé
   
 La figure suivante montre une topologie simple constituée de deux sites connectés par une liaison de réseau étendu. Serveur de médiation est colocalisé sur un pool frontal sur Site 1. Les serveurs de médiation sur Site 1 contrôle la passerelle PSTN sur Site 1 et la passerelle sur Site 2. Dans cette topologie, la déviation du trafic multimédia est activée globalement afin d’utiliser les informations de site et de région, et le contournement est activé sur les jonctions vers chaque passerelle RTC (GW1 et GW2).
   
-**Exemple de sites connectés par des liaisons réseau étendu lien avec un serveur de médiation sur Site 1 et une passerelle PSTN sur Site 2**
+**Exemple de sites connectés par une liaison de réseau étendu avec un serveur de médiation pour Site 1 et une passerelle RTC pour Site 2**
 
 ![Topologie vocale avec passerelle WAN de serveur de médiation](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
   
 La figure suivante illustre une topologie simple où le serveur de médiation est colocalisé sur le pool frontal sur Site 1 et dispose d’une connexion SIP Direct à l’IP-PBX sur Site 1. Dans cette illustration, le serveur de médiation contrôle également une passerelle PSTN sur Site 2. Supposons que Skype pour les utilisateurs professionnels existe au niveau de Sites 1 et 2. Supposons également que le système IP-PBX doté d’un processeur média associé qui doit être parcouru par tous les composants multimédia provenant de Skype pour systèmes d’extrémité métiers avant d’être envoyés aux points de terminaison multimédia contrôlés par le système IP-PBX. Dans cette topologie, la déviation du trafic multimédia est activée globalement pour utiliser les informations de site et de région, et il est activé pour les jonctions vers la passerelle PBX et RTC.
   
-**Exemple de sites connectés par des liaisons réseau étendu lien avec un serveur de médiation sur Site 1 et un système PBX sur Site 2**
+**Exemple de sites connectés par une liaison de réseau étendu avec un serveur de médiation pour Site 1 et un PBX pour Site 2**
 
 ![Topologie vocale - PBX WAN de serveur de médiation](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
   
@@ -160,7 +160,7 @@ Vous pouvez utiliser le Microsoft Lync Server 2013, outil de planification pour 
 > [!NOTE]
 > La déviation du trafic multimédia ne va pas interagir avec chaque passerelle RTC, chaque système IP-PBX et chaque contrôleur SBC. Microsoft a testé un ensemble de passerelles RTC et des contrôleurs SBC avec des partenaires certifiés et a effectué des tests avec des systèmes IP-PBX de Cisco. Le contournement de média est pris en charge uniquement avec les produits et les versions répertoriés au [Unified Communications programme Open Interoperability - Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730). 
   
-Si la résilience de site de succursale est requise, un Survivable Branch Appliance ou une combinaison d’un serveur frontal, un serveur de médiation et une passerelle doit être déployé sur le site de succursale. (En partant du principe avec résilience de site de succursale est que de présence et de conférence ne sont pas résistantes au niveau du site.) Pour obtenir des instructions sur le site de succursale planification de voix, voir [Plan for Enterprise Voice resiliency dans Skype pour Business Server 2015](enterprise-voice-resiliency.md).
+Si la résilience de site de succursale est requise, un Survivable Branch Appliance ou une combinaison d’un serveur frontal, un serveur de médiation et une passerelle doit être déployé sur le site de succursale. (En partant du principe avec résilience de site de succursale est que de présence et de conférence ne sont pas résistantes au niveau du site.) Pour obtenir des instructions sur le site de succursale planification de voix, voir [Plan for Enterprise Voice resiliency dans Skype pour Business Server](enterprise-voice-resiliency.md).
   
 Pour interagir avec un PBX IP, si le système IP-PBX ne prend pas correctement en charge les interactions multimédias au plus tôt avec plusieurs boîtes de dialogue préliminaires et interactions RFC 3960, il peut y avoir écrêtage du premier premiers mots pour les appels entrants à partir de l’IP-PBX à Skype pour le message d’accueil Points de terminaison d’entreprise. Ce problème peut être plus grave si un serveur de médiation sur un site central est routage des appels pour un IP-PBX où l’itinéraire s’arrête sur un site de succursale, car davantage de temps est nécessaire pour la signalisation à effectuer. Si vous rencontrez ce problème, déployez un serveur de médiation sur le site de succursale est la seule façon de réduire le découpage de la première premiers mots.
   

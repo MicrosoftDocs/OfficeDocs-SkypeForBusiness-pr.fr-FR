@@ -1,9 +1,9 @@
 ---
-title: Planification de l’expérience client de Skype Entreprise pour vos utilisateurs
+title: Planifier la Skype pour l’expérience client Business 2015 pour vos utilisateurs
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 'Résumé : Découvrez le nouveau Skype pour les entreprises et les étapes à que suivre pour préparer votre environnement et vos utilisateurs pour la mise à jour, si vous utilisez Skype pour Business Online, Skype pour Business Server 2015, Lync Server 2013 et Lync Server 2010.'
-ms.openlocfilehash: eaa8b7835cb3834ff9cc24a6dc941b47a2796b9f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Résumé : Découvrez la nouvelle Skype pour les entreprises et les étapes à suivre pour préparer votre environnement et vos utilisateurs pour la mise à jour, si vous utilisez Skype pour Business Online, Skype pour Business Server 2015, Skype pour Business Server 2015, Lync Server 2013, ou Lync Server 2010.'
+ms.openlocfilehash: 5c51f6c9cb9fb83e6f102defff6fbf6b65906861
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979951"
 ---
-# <a name="plan-the-skype-for-business-client-experience-for-your-users"></a>Planification de l’expérience client de Skype Entreprise pour vos utilisateurs
+# <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planifier la Skype pour l’expérience client Business 2015 pour vos utilisateurs
  
-**Résumé :** Découvrez le nouveau Skype pour les entreprises et les étapes à que suivre pour préparer votre environnement et vos utilisateurs pour la mise à jour, si vous utilisez Skype pour Business Online, Skype pour Business Server 2015, Lync Server 2013 et Lync Server 2010.
+**Résumé :** En savoir plus sur la nouvelle Skype pour les entreprises et les étapes à que suivre pour préparer votre environnement et vos utilisateurs pour la mise à jour, si vous utilisez Skype pour Business Online, Skype pour Business Server 2019, Skype pour Business Server 2015, Lync Server 2013 et Lync Server 2010.
   
 14 avril 2015 Office mise à jour pour Lync 2013 inclut la nouvelle Skype pour l’interface utilisateur d’entreprise. Cette mise à jour permet aux administrateurs de contrôler l’apparence du client et indiquez si vous souhaitez conserver l’expérience du client Lync 2013 ou utiliser le Skype améliorée pour une expérience client. Le Skype pour client Business remplacé le client Lync 2013 et ajouté la possibilité pour les administrateurs de choisir entre l’expérience du client Lync existant et le nouveau Skype pour une expérience client. Pour plus d’informations sur cette mise à jour, consultez [14 avril 2015, mettre à jour pour Lync 2013 (Skype pour les entreprises) (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/).
   
@@ -30,7 +31,7 @@ Sur 12 mai 2015, il y aura une autre mise à jour tous les mois à partir d’Of
   
 - [What client experience do you want for your users?](user-experience.md#clientexperience)
     
-- [Préparer votre environnement pour le Skype pour client d’entreprise](user-experience.md#usinglync)
+- [Préparation de votre environnement pour le client Skype Entreprise](user-experience.md#usinglync)
     
 - [Resources to help you prepare your support teams and your end users for the update](user-experience.md#support)
     
@@ -61,10 +62,10 @@ Une fois que vous avez vérifié que vous utilisez une version de Skype pour Bus
   
 Vous souhaiterez apporter ces modifications avant la mise à jour du client est remis aux utilisateurs qui vous pouvez de contrôler l’expérience du client à partir de la première fois, que lorsqu’ils démarrent la Skype pour client d’entreprise. Les tableaux suivants vous indique les étapes à suivre pour configurer votre environnement pour l’expérience du client de votre choix pour vos utilisateurs.
   
-|**Déploiement**|**Skype pour une expérience client**|**Expérience du client Lync**|
+|**Déploiement**|**Expérience client Skype Entreprise**|**Expérience client Lync**|
 |:-----|:-----|:-----|
-|Skype Entreprise Online  <br/> |En dehors du déploiement de la version 4711.1002 (avril 2015) ou ultérieure du client, il n’y a pas étape supplémentaire.  <br/> |[Utilisez l’expérience du client Lync avec Skype pour Business Online](user-experience.md#LyncwithSfBO) <br/> |
-|Skype Entreprise Server 2015  <br/> |En dehors du déploiement de la version 4711.1002 (avril 2015) ou ultérieure du client, il n’y a pas étape supplémentaire.  <br/> |[Utilisez l’expérience du client Lync avec Skype pour Business Server local](user-experience.md#LyncwithSfBServer) <br/> |
+|Skype Entreprise Online  <br/> |En dehors du déploiement de la version 4711.1002 (avril 2015) ou ultérieure du client, il n’y a pas étape supplémentaire.  <br/> |[Utilisation de l’expérience client Lync avec Skype Entreprise Online](user-experience.md#LyncwithSfBO) <br/> |
+|Skype Entreprise Server 2015  <br/> |En dehors du déploiement de la version 4711.1002 (avril 2015) ou ultérieure du client, il n’y a pas étape supplémentaire.  <br/> |[Utilisation de l’expérience client Lync avec Skype Entreprise Server en local](user-experience.md#LyncwithSfBServer) <br/> |
 |Lync Server 2013 et Lync Server 2010  <br/> |[Utilisez l’expérience du client Skype avec Lync Server 2013 ou de Lync Server 2010 sur site](user-experience.md#SkypewithLynconprem) <br/> |[Utilisez l’expérience du client Lync avec Lync Server 2013 ou de Lync Server 2010 sur site](user-experience.md#LyncwithLynconprem) <br/> |
    
 ## <a name="use-the-skype-client-experience-with-lync-server-2013-or-lync-server-2010-on-premises"></a>Utilisez l’expérience du client Skype avec Lync Server 2013 ou de Lync Server 2010 sur site

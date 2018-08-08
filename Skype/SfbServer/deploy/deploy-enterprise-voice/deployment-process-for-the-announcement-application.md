@@ -1,9 +1,8 @@
 ---
-title: Procédure de déploiement de l’application Annonce dans Skype Entreprise Server 2015
+title: Processus de déploiement pour l’application d’annonce dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Processus de déploiement et les étapes de l’application d’annonce dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 08a52569dede43bbe54b1bf7e62f37114ba68853
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6aabc5090d233b991e1fd89ef61f364a6b1c5666
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968912"
 ---
-# <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server-2015"></a>Procédure de déploiement de l’application Annonce dans Skype Entreprise Server 2015
+# <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Processus de déploiement pour l’application d’annonce dans Skype pour Business Server
  
 Processus de déploiement et les étapes de l’application d’annonce dans Skype pour Business Server Enterprise Voice.
   
@@ -30,11 +30,11 @@ L’application d’annonce est installée en tant que fonctionnalité de l’ap
   
 Cette section fournit une vue d’ensemble des étapes impliquées dans le déploiement de l’application d’annonce. Vous devez déployer Enterprise Voice avant de configurer des annonces. Les composants requis par l’application d’annonce sont installés et activés lors du déploiement d’Enterprise Voice.
   
-**Processus de déploiement d’annonce**
+**Procédure de déploiement des annonces**
 
 |**Phase**|**Étapes**|**Rôles**|**Documentation de déploiement**|
 |:-----|:-----|:-----|:-----|
-|Configurer les paramètres d’annonce  <br/> | Créez l’annonce en enregistrant et en téléchargeant des fichiers audio ou en utilisant la synthèse vocale (TTS). <br/>  Configurez les plages de numéros non attribués dans la table des numéros non attribués et associez-les à l’annonce appropriée. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[Créer ou supprimer une annonce dans Skype pour Business Server 2015](create-an-announcement.md) <br/> [Créer ou modifier une plage de numéros non attribuée dans Skype pour Business Server 2015](create-or-modify-an-unassigned-number-range.md) <br/> |
-|Vérifier le déploiement de votre annonce  <br/> |Testez vos annonces en les écoutant afin de vérifier que votre configuration fonctionne comme prévu.  <br/> |-  <br/> |[(Facultatif) Vérifier le déploiement des annonces dans Skype pour Business 2015](optional-verify-announcement-deployment.md) <br/> |
+|Configurer les paramètres d’annonce  <br/> | Créez l’annonce en enregistrant et en téléchargeant des fichiers audio ou en utilisant la synthèse vocale (TTS). <br/>  Configurez les plages de numéros non attribués dans la table des numéros non attribués et associez-les à l’annonce appropriée. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[Créer ou supprimer une annonce dans Skype pour Business Server](create-an-announcement.md) <br/> [Créer ou modifier une plage de numéros non attribuée dans Skype pour Business Server](create-or-modify-an-unassigned-number-range.md) <br/> |
+|Vérifier le déploiement de votre annonce  <br/> |Testez vos annonces en les écoutant afin de vérifier que votre configuration fonctionne comme prévu.  <br/> |-  <br/> |[(Facultatif) Vérifier le déploiement des annonces dans Skype pour les entreprises](optional-verify-announcement-deployment.md) <br/> |
    
 
