@@ -1,26 +1,28 @@
 ---
-title: Exemple de Script PowerShell - facilite le déploiement des équipes Microsoft de nettoyage
+title: Exemple de Script PowerShell - facilite le déploiement des équipes Microsoft nettoyage
 author: ninadara
 ms.author: ninadara
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
-description: Utilisez ce script PowerShell pour créer une équipe publique à l’échelle de l’entreprise dans Teams.
+description: Utilisez ce script PowerShell pour nettoyer Teams Microsoft sur des ordinateurs ciblés ou pour des utilisateurs spécifiques.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1466a08d493538eadb6cd2bfc2f50ac15acb0fa7
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: e159c06a27151523e52db5bf7e0aa2eab33620a9
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21249191"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="78fd4-103">Exemple de Script PowerShell - déploiement de Teams Microsoft nettoyer</span><span class="sxs-lookup"><span data-stu-id="78fd4-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="3056f-103">Exemple de Script PowerShell - déploiement Microsoft Teams nettoyer</span><span class="sxs-lookup"><span data-stu-id="3056f-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="78fd4-104">Ce script PowerShell peut être exploité pour le nettoyage de Teams Microsoft à partir de la cible machines\users.</span><span class="sxs-lookup"><span data-stu-id="78fd4-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines\users.</span></span> <span data-ttu-id="78fd4-105">Il doit être exécuté pour chaque utilisateur sur un ordinateur cible.</span><span class="sxs-lookup"><span data-stu-id="78fd4-105">It should be executed for every user on a targeted machine.</span></span> 
+<span data-ttu-id="3056f-104">Ce script PowerShell peut être utilisée pour le nettoyage de Microsoft Teams des ordinateurs cibles ou des utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="3056f-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="3056f-105">Elle doit être exécutée pour chaque utilisateur sur un ordinateur ciblé.</span><span class="sxs-lookup"><span data-stu-id="3056f-105">It should be executed for every user on a targeted machine.</span></span> 
 
 
-## <a name="sample-script"></a><span data-ttu-id="78fd4-106">Exemple de script</span><span class="sxs-lookup"><span data-stu-id="78fd4-106">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="3056f-106">Exemple de script</span><span class="sxs-lookup"><span data-stu-id="3056f-106">Sample script</span></span>
 
 ````powershell
 <#
@@ -35,19 +37,21 @@ $TeamsUpdateExePath = [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Microsoft', 
 
 try
 {
-    if ([System.IO.File]::Exists($TeamsUpdateExePath)) {
+    if (Test-Path -Path $TeamsUpdateExePath) {
         Write-Host "Uninstalling Teams process"
 
         # Uninstall app
-        $proc = Start-Process $TeamsUpdateExePath "-uninstall -s" -PassThru
+        $proc = Start-Process -FilePath $TeamsUpdateExePath -ArgumentList "-uninstall -s" -PassThru
         $proc.WaitForExit()
     }
-    Write-Host "Deleting Teams directory"
-    Remove-Item –path $TeamsPath -recurse
+    if (Test-Path -Path $TeamsPath) {
+        Write-Host "Deleting Teams directory"
+        Remove-Item –Path $TeamsPath -Recurse
+    }
 }
 catch
 {
-    Write-Output "Uninstall failed with exception $_.exception.message"
+    Write-Error -ErrorRecord $_
     exit /b 1
 }
 
