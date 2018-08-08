@@ -1,5 +1,5 @@
 ---
-title: Configurer le système téléphonique de la messagerie vocale
+title: Configurer la messagerie vocale du système téléphonique
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: 93dd33eefe587c548e346974cc86fe2608b392ec
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f5dcf6012dc9ac6659d35c29a31ee6a5ff40eec2
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22135529"
 ---
-# <a name="set-up-phone-system-voicemail"></a>Configurer le système téléphonique de la messagerie vocale
+# <a name="set-up-phone-system-voicemail"></a>Configurer la messagerie vocale du système téléphonique
 
 Cet article est pour l' [administration d’Office 365](http://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) souhaite configurer la fonctionnalité de messagerie vocale système téléphonique pour tout le monde dans l’entreprise.
   
@@ -80,7 +81,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 ### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>Activer le masquage de transcription gratuites pour votre organisation
 
-Masquage de gratuites transcription est désactivé par défaut pour votre organisation. S’il existe un impératifs d’entreprise pour l’activer, vous pouvez activer gratuites transcription masquage à l’aide de [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx). Pour ce faire, exécutez :
+Masquage de gratuites transcription est désactivé par défaut pour votre organisation. S’il existe un besoin de l’entreprise pour l’activer, vous pouvez activer gratuites transcription masquage à l’aide de [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx). Pour ce faire, exécutez :
   
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
@@ -98,7 +99,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 
 ### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>Activer le masquage de transcription gratuites pour un utilisateur
 
-Pour activer le masquage de transcription gratuites pour un utilisateur spécifique, vous pouvez affecter une stratégie pour activer le masquage de transcription gratuites pour un utilisateur spécifique à l’aide de l’applet de commande [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) .
+Pour activer gratuites transcription masquage pour un utilisateur spécifique, vous pouvez affecter une stratégie pour activer gratuites transcription masquage pour un utilisateur spécifique à l’aide de l’applet de commande [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) .
   
 Pour activer gratuites transcription masquage pour un seul utilisateur, exécutez :
   

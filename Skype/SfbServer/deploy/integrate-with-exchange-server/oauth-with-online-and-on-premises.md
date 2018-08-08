@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Configuration OAuth authentification entre Exchange sur site et Skype pour Business Online permet la Skype pour les fonctionnalités d’entreprise et l’intégration d’Exchange décrites dans prise en charge de la fonctionnalité.
-ms.openlocfilehash: ff7b45f3fcdbaaf752817d1705acb047a4c71f12
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: cb822dd183e913fd1b3258cc136572380592733f
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568900"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138608"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>Configurer OAuth entre Skype pour Business Online et Exchange sur site
  
@@ -167,4 +167,8 @@ Vérifiez que la configuration OAuth est correcte en vous assurant que certaines
     
 4. Démarrez Outlook pour cet utilisateur et vérifiez que la conversation est visible dans l’historique des conversations d’Outlook.
     
+Consultez également le trafic. Le trafic dans un protocole OAuth est vraiment différente (et ne ressemble à l’authentification de base), en particulier autour de domaines, où vous allez commencer à voir le trafic émetteur qui ressemble à ceci : 00000004-0000-0ff1-ce00-000000000000 @ (parfois avec un / avant le signe @), dans les jetons sont passées. Vous ne verrez pas un nom d’utilisateur ou le mot de passe, qui est le point de OAuth. Mais vous verrez l’émetteur « Office », dans ce cas '4' Skype pour les entreprises – et le domaine de votre abonnement.
 
+Si vous souhaitez que vous utilisez correctement OAuth, assurez-vous que vous savez quoi s’attendre et savoir quoi doit ressembler le trafic. C' [est ici à quoi s’attendre](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34), Voici un assez standard [exemple du trafic OAuth dans une application Microsoft](http://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (très utile lire, s’il n’utilise des jetons d’actualisation), et il existe des extensions de Fiddler qui vous permet de rechercher dans votre JWT (JSON OAuth Jeton Web). 
+
+Voici un [exemple de configuration](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/), mais vous pouvez utiliser n’importe quel outil de suivi réseau que vous entreprenez ce processus.

@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Après avoir fourni les informations requises pour le déploiement du serveur de surveillance indique le Microsoft SQL Server 2008 R2, ou pour les Services de rapport Microsoft SQL Server 2012, la page exécuter des commandes affiche un résumé des commandes sont émises pour installer le rapports SQL Server Reporting Services.
-ms.openlocfilehash: 25c47787144809397db51a5ac477e8db446788d1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4d2eff38570e24a063558fe62c8db7c89bc03cf3
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014144"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138564"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (Appel)
  
-Après avoir fourni les informations requises pour le déploiement du serveur de surveillance indique le Microsoft SQL Server 2008 R2, ou pour les Services de rapport Microsoft SQL Server 2012, la page exécuter des commandes affiche un résumé des commandes sont émises pour installer le rapports SQL Server Reporting Services.
+Après avoir fourni les informations requises pour le déploiement des rapports de serveur de surveillance pour les Services de rapport Microsoft SQL Server, les commandes exécuter page affiche un résumé des commandes sont émises pour installer les rapports dans SQL Server Reporting Services.
   
 Passez en revue le résumé des commandes et notez les messages d’erreur ou d’avertissement affichés à partir des commandes. Si un fichier journal est généré, sélectionnez-le dans la liste déroulante sous la fenêtre du résumé, puis cliquez sur **Afficher le journal** pour afficher le fichier journal.
   
