@@ -1,5 +1,5 @@
 ---
-title: "À quoi ressemble l'expérience des invités"
+title: À quoi ressemble l'expérience des invités
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
@@ -7,15 +7,17 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "Découvrez la fonctionnalité Microsoft Teams disponible pour les utilisateurs invités."
+description: Découvrez la fonctionnalité Microsoft Teams disponible pour les utilisateurs invités.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 500d8b0aa1ed8f006fdbab2d67771c2d65ebaa53
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 9d30b7b554b07ccc29233210419f2a3129349a1e
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19178881"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -59,6 +61,8 @@ Le tableau suivant compare la fonctionnalité de Microsoft Teams disponible pou
 |Partager un fichier dans un canal  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |Partager un fichier dans une conversation  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Ajouter des applications (onglets, bots ou connecteurs)  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Créer des réunions ou accéder aux planifications  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Accès OneDrive de stockage pour les entreprises  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Créer des stratégies d'accès invité qui s'appliquent à l'ensemble du client et aux équipes/canaux  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Inviter un utilisateur en dehors du domaine du client Office 365 <br/>  *Les propriétaires d'équipe contrôlent ce paramètre.*  <br/> <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Créer une équipe  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||

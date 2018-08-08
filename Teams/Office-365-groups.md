@@ -7,14 +7,16 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Découvrez comment utiliser Groupes Office 365 et les adhésions de groupe avec Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f16a99f00add1e93bfdf4cde29f4b75f384a296
-ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
+ms.openlocfilehash: e77a91f1859c6d227801de2f31dbe2855ea30a2e
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "18999142"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Groupes Office 365 et Microsoft Teams
 =====================================
@@ -37,6 +39,6 @@ Lors de la création d'une équipe Microsoft Teams, vous créez en arrière-pla
 <a name="group-membership"></a>Adhésion à un groupe
 ----------------
 
-Les fonctionnalités de groupe et les capacités de vos utilisateurs dépend où vous l’appartenance au groupe à partir du lecteur. Par exemple, si vous supprimez un membre d’une équipe, ils sont supprimés du groupe ainsi que de Office 365. Suppression du groupe supprime l’équipe immédiatement et canaux du client d’équipes. Si vous supprimez une personne d’un groupe en utilisant le portail d’administration d’Office 365, ils n’auront plus accès aux autres aspects collaboration comme bibliothèque de documents SharePoint Online, le groupe de Yammer, ou partagé OneNote. Toutefois, ils auront toujours accès à la fonctionnalité de conversation de l’équipe pendant environ une heure.
+Groupe des fonctionnalités pour vos utilisateurs dépend où vous l’appartenance au groupe à partir du lecteur. Par exemple, si vous supprimez un membre d’une équipe, ils sont supprimés du groupe ainsi que de Office 365. Suppression du groupe supprime l’équipe immédiatement et canaux à partir du client équipes. Si vous supprimez une personne à partir d’un groupe à l’aide du portail d’administration d’Office 365, ils auront n’est plus accès aux autres aspects collaboration tels que de la bibliothèque de documents SharePoint Online, groupe Yammer ou OneNote partagé. Toutefois, elles auront accès à la fonctionnalité de conversation de l’équipe pendant environ une heure.
 
-Meilleures pratiques pour la gestion des membres des équipes : ajouter et supprimer des membres à partir du client aux équipes pour assurer le contrôle d’accès en cascade correct à d’autres applications de cloud dépendant est appliqué. En outre, vous éviterez un expérience disjoint de personnes quitter avec l’impression qu’ils ont toujours accès aux ressources qui que leur permettant (jusqu'à ce que le prochain cycle de synchronisation ajoute ou révoque l’accès à un composant particulier du service). Si vous ajoutez ou supprimez des membres de l’équipe en dehors du client équipes (à l’aide du centre d’administration Office 365, AD Azure, ou Exchange Online PowerShell), il faut parfois jusqu'à une heure pour que les modifications se reflètent dans les équipes.
+Meilleures pratiques pour la gestion des membres d’équipes : ajouter et supprimer des membres à partir du client équipes pour garantir que le contrôle d’accès en cascade correct à d’autres applications cloud dépendant est appliqué. En outre, vous permettront d’éviter personnes quitter disjoint expérience avec l’impression qu’ils ont toujours accès aux ressources qu’ils permet (jusqu'à ce que le cycle de synchronisation suivant ajoute ou révoque l’accès à un composant spécifique du service). Si vous ajoutez ou supprimez des membres de l’équipe en dehors du client équipes (à l’aide du centre d’administration d’Office 365, Azure AD, ou Exchange Online PowerShell), il faut une heure pour que les modifications soient reflétées dans les équipes.
