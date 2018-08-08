@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour définir une attribution itinéraire fédération du site, vous devez au préalable avoir fédération activée sur le serveur Edge ou le pool de serveurs Edge. Si la fédération n’est pas activée sur le serveur Edge ou le pool, les paramètres d’affectation fédération itinéraire pour le site ne sera pas disponibles pour la modification.
-ms.openlocfilehash: 5878c7fc5ad41ab4359e4d4cd8cf808b958e7be8
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 989ebd13e4491e7b4c28bb936795f9532d7fe88f
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061509"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196040"
 ---
 # <a name="federation-route-settings-expander"></a>Expanseur des paramètres itinéraire de fédération
  
@@ -30,5 +30,8 @@ Si le paramètre de fédération au pool ou serveur Edge a été configuré, vou
 - **Activer la fédération SIP** Sélectionnez cette option pour activer un itinéraire de fédération SIP, puis sélectionnez un pool directeur ou Edge en tant que l’itinéraire de fédération.
     
 - **Activer la fédération XMPP** Sélectionnez cette option pour activer un itinéraire de fédération XMPP, puis sélectionnez un pool directeur ou Edge en tant que l’itinéraire de fédération.
+- 
+> [!NOTE]
+> XMPP passerelles et les proxys sont disponibles dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. Pour plus d’informations, voir [la fédération XMPP de migration](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
     
 

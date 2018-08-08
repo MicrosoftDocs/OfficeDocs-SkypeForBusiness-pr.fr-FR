@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour modifier les paramètres d’un pool Edge de serveur unique ou de serveurs multiples, vous disposez des sections suivantes :'
-ms.openlocfilehash: 4c93ec4ab23c60ddbad96c20d9ae717f0418ba0c
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 158f0970067b94eb4c8660342da949802d57ae6f
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061748"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196031"
 ---
 # <a name="edge-settings-expander"></a>Expanseur des paramètres du pool de serveurs Edge
  
@@ -34,9 +34,7 @@ Pour modifier les paramètres d’un pool Edge de serveur unique ou de serveurs 
 
 Nom de domaine complet (FQDN) du pool interne pour le pool de serveurs Edge. Modifiez le nom de domaine complet du pool pour changer ce paramètre.
   
-Activez la case à cocher **Activer la fédération pour ce pool Edge (Port 5061)** si vous configurez une fédération avec un partenaire de confiance Lync Server 2013, Microsoft Lync Server 2010 ou Microsoft Office Communications Server 2007 R2.
-  
-Sélectionnez **Activer la fédération XMPP pour ce pool Edge** pour activer la fédération XMPP.
+Activez la case à cocher **Activer la fédération pour ce pool Edge (Port 5061)** si vous configurez une fédération avec un Skype pour serveur Business Server 2015.
   
 Spécifiez le numéro de port pour **Port de réplication de configuration interne (HTTPS)**.
   
