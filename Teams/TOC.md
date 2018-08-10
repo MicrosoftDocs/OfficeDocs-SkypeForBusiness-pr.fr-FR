@@ -190,6 +190,7 @@
 ### [Didacticiel : Réunions dans Teams](Tutorial-Meetings-in-Teams.yml)
 ### [Utilisation d'un appel sortant pour permettre à d'autres personnes de participer à une réunion](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Désactivation des numéros de téléphone gratuits pour des utilisateurs spécifiques](/SkypeForBusiness/audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Messages électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) 
 ### [Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils rejoignent une réunion](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Activer ou désactiver les annonces d'entrée et de sortie de réunions](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Enregistrement de la réunion équipes sur le nuage](cloud-recording.md)
