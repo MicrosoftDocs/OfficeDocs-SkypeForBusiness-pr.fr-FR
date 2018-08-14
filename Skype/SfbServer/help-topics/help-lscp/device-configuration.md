@@ -1,7 +1,7 @@
 ---
 title: Configuration du périphérique
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -12,49 +12,47 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: Une configuration de périphérique est une collection de paramètres utilisés pour gérer les Skype pour les appareils de téléphone professionnel, global ou au sein d’un site. Ces paramètres vous permettent de configurer des éléments, comme le mode de sécurité nécessaire, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et le verrouillage automatique ou non des téléphones après une période d’inactivité spécifiée.
-ms.openlocfilehash: 20afbcfb48e5e556e017e67b283070e597d32295
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 14314e32c4ed277a1d823bfc3671f9b126f977e4
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503199"
 ---
-# <a name="device-configuration"></a><span data-ttu-id="d9d46-104">Configuration du périphérique</span><span class="sxs-lookup"><span data-stu-id="d9d46-104">Device Configuration</span></span>
+# <a name="device-configuration"></a><span data-ttu-id="b42af-104">Configuration du périphérique</span><span class="sxs-lookup"><span data-stu-id="b42af-104">Device Configuration</span></span>
  
-<span data-ttu-id="d9d46-105">Une configuration de périphérique est une collection de paramètres utilisés pour gérer les Skype pour les appareils de téléphone professionnel, global ou au sein d’un site.</span><span class="sxs-lookup"><span data-stu-id="d9d46-105">A device configuration is a collection of settings used to manage Skype for Business Phone Edition devices, either globally or within a site.</span></span> <span data-ttu-id="d9d46-106">Ces paramètres vous permettent de configurer des éléments, comme le mode de sécurité nécessaire, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et le verrouillage automatique ou non des téléphones après une période d’inactivité spécifiée.</span><span class="sxs-lookup"><span data-stu-id="d9d46-106">These settings enable you to configure such things as the required security mode, device logging level, Voice Quality of Service (QoS) settings, and whether or not phones should automatically lock after a specified period of inactivity.</span></span> 
+<span data-ttu-id="b42af-105">Une configuration de périphérique est une collection de paramètres utilisés pour gérer les Skype pour les appareils de téléphone professionnel, global ou au sein d’un site.</span><span class="sxs-lookup"><span data-stu-id="b42af-105">A device configuration is a collection of settings used to manage Skype for Business Phone Edition devices, either globally or within a site.</span></span> <span data-ttu-id="b42af-106">Ces paramètres vous permettent de configurer des éléments, comme le mode de sécurité nécessaire, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et le verrouillage automatique ou non des téléphones après une période d’inactivité spécifiée.</span><span class="sxs-lookup"><span data-stu-id="b42af-106">These settings enable you to configure such things as the required security mode, device logging level, Voice Quality of Service (QoS) settings, and whether or not phones should automatically lock after a specified period of inactivity.</span></span> 
   
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="d9d46-107">Tâches que vous pouvez effectuer</span><span class="sxs-lookup"><span data-stu-id="d9d46-107">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="b42af-107">Tâches que vous pouvez effectuer</span><span class="sxs-lookup"><span data-stu-id="b42af-107">Tasks you can perform</span></span>
 
-<span data-ttu-id="d9d46-108">Dans la page **Configuration de l’appareil**, vous pouvez effectuer les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="d9d46-108">You can perform the following tasks on the **Device Configuration** page:</span></span>
+<span data-ttu-id="b42af-108">Dans la page **Configuration de l’appareil**, vous pouvez effectuer les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="b42af-108">You can perform the following tasks on the **Device Configuration** page:</span></span>
   
-- <span data-ttu-id="d9d46-109">Ajout d’une configuration d’appareil au niveau global ou pour un site particulier</span><span class="sxs-lookup"><span data-stu-id="d9d46-109">Add a device configuration globally or for a particular site.</span></span>
+- <span data-ttu-id="b42af-109">Ajout d’une configuration d’appareil au niveau global ou pour un site particulier</span><span class="sxs-lookup"><span data-stu-id="b42af-109">Add a device configuration globally or for a particular site.</span></span>
     
-- <span data-ttu-id="d9d46-110">Modification des options d’une configuration d’appareil existante</span><span class="sxs-lookup"><span data-stu-id="d9d46-110">Modify the options for an existing device configuration.</span></span>
+- <span data-ttu-id="b42af-110">Modification des options d’une configuration d’appareil existante</span><span class="sxs-lookup"><span data-stu-id="b42af-110">Modify the options for an existing device configuration.</span></span>
     
-## <a name="ui-reference"></a><span data-ttu-id="d9d46-111">Référence d’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="d9d46-111">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="b42af-111">Référence d’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="b42af-111">UI Reference</span></span>
 
-<span data-ttu-id="d9d46-112">Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.</span><span class="sxs-lookup"><span data-stu-id="d9d46-112">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+<span data-ttu-id="b42af-112">Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.</span><span class="sxs-lookup"><span data-stu-id="b42af-112">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
   
-- <span data-ttu-id="d9d46-113">**Nouveau** Vous pouvez ajouter une nouvelle configuration de périphérique avec l’étendue suivante :</span><span class="sxs-lookup"><span data-stu-id="d9d46-113">**New** You can add a new device configuration with the following scope:</span></span>
+- <span data-ttu-id="b42af-113">**Nouveau** Vous pouvez ajouter une nouvelle configuration de périphérique avec l’étendue suivante :</span><span class="sxs-lookup"><span data-stu-id="b42af-113">**New** You can add a new device configuration with the following scope:</span></span>
     
-  - <span data-ttu-id="d9d46-114">Globale</span><span class="sxs-lookup"><span data-stu-id="d9d46-114">Global</span></span>
+  - <span data-ttu-id="b42af-114">Globale</span><span class="sxs-lookup"><span data-stu-id="b42af-114">Global</span></span>
     
-  - <span data-ttu-id="d9d46-115">Site</span><span class="sxs-lookup"><span data-stu-id="d9d46-115">Site</span></span>
+  - <span data-ttu-id="b42af-115">Site</span><span class="sxs-lookup"><span data-stu-id="b42af-115">Site</span></span>
     
-- <span data-ttu-id="d9d46-116">**Modifier** Vous pouvez modifier les options d’une configuration de périphérique dans la liste.</span><span class="sxs-lookup"><span data-stu-id="d9d46-116">**Edit** You can change the options of a device configuration in the list.</span></span> <span data-ttu-id="d9d46-117">Utilisez cette option, vous pouvez procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="d9d46-117">Using this option, you can do the following:</span></span>
+- <span data-ttu-id="b42af-116">**Modifier** Vous pouvez modifier les options d’une configuration de périphérique dans la liste.</span><span class="sxs-lookup"><span data-stu-id="b42af-116">**Edit** You can change the options of a device configuration in the list.</span></span> <span data-ttu-id="b42af-117">Utilisez cette option, vous pouvez procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="b42af-117">Using this option, you can do the following:</span></span>
     
-  - <span data-ttu-id="d9d46-118">**Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options pour une configuration de périphérique.</span><span class="sxs-lookup"><span data-stu-id="d9d46-118">**Show details** This option opens a dialog box in which you can change the options for a device configuration.</span></span>
+  - <span data-ttu-id="b42af-118">**Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options pour une configuration de périphérique.</span><span class="sxs-lookup"><span data-stu-id="b42af-118">**Show details** This option opens a dialog box in which you can change the options for a device configuration.</span></span>
     
-  - <span data-ttu-id="d9d46-119">**Sélectionner tout** Cette option sélectionne toutes les configurations de périphérique dans la liste.</span><span class="sxs-lookup"><span data-stu-id="d9d46-119">**Select All** This option selects all device configurations in the list.</span></span>
+  - <span data-ttu-id="b42af-119">**Sélectionner tout** Cette option sélectionne toutes les configurations de périphérique dans la liste.</span><span class="sxs-lookup"><span data-stu-id="b42af-119">**Select All** This option selects all device configurations in the list.</span></span>
     
-  - <span data-ttu-id="d9d46-120">**Supprimer** Cette option supprime toutes les configurations de périphérique sélectionné.</span><span class="sxs-lookup"><span data-stu-id="d9d46-120">**Delete** This option deletes all selected device configurations.</span></span>
+  - <span data-ttu-id="b42af-120">**Supprimer** Cette option supprime toutes les configurations de périphérique sélectionné.</span><span class="sxs-lookup"><span data-stu-id="b42af-120">**Delete** This option deletes all selected device configurations.</span></span>
     
-- <span data-ttu-id="d9d46-121">**Actualiser** Vous pouvez actualiser la liste de configuration de périphérique pour vérifier le statut des options de toutes les configurations de périphérique.</span><span class="sxs-lookup"><span data-stu-id="d9d46-121">**Refresh** You can refresh the device configuration list to verify the status of the options of all device configurations.</span></span>
+- <span data-ttu-id="b42af-121">**Actualiser** Vous pouvez actualiser la liste de configuration de périphérique pour vérifier le statut des options de toutes les configurations de périphérique.</span><span class="sxs-lookup"><span data-stu-id="b42af-121">**Refresh** You can refresh the device configuration list to verify the status of the options of all device configurations.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="d9d46-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d9d46-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b42af-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b42af-122">See also</span></span>
 
-#### 
+[<span data-ttu-id="b42af-123">Configuration du périphérique : création d’un périphérique ou modification d’un périphérique existant</span><span class="sxs-lookup"><span data-stu-id="b42af-123">Device Configuration: Create New or Edit Existing</span></span>](device-configuration-create-new-or-edit-existing.md)
 
-[<span data-ttu-id="d9d46-123">Configuration du périphérique : Créer une nouvelle ou en modifier une existant</span><span class="sxs-lookup"><span data-stu-id="d9d46-123">Device Configuration: Create New or Edit Existing</span></span>](device-configuration-create-new-or-edit-existing.md)
-
-[<span data-ttu-id="d9d46-124">Set-CsUCPhoneConfiguration</span><span class="sxs-lookup"><span data-stu-id="d9d46-124">Set-CsUCPhoneConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
-
+[<span data-ttu-id="b42af-124">Set-CsUCPhoneConfiguration</span><span class="sxs-lookup"><span data-stu-id="b42af-124">Set-CsUCPhoneConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

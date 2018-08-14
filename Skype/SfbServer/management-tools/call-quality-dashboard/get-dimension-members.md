@@ -10,33 +10,34 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
-description: 'Résumé : Découvrez l’opération obtenir les membres de Dimension. L’opération obtenir les membres de Dimension fait partie de l’API de données pour appeler le tableau de bord qualité. Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 6da1b8f6d93dc197df320f1fb5875a6269a9b45a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez l’opération obtenir les membres de Dimension. L’opération obtenir les membres de Dimension fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
+ms.openlocfilehash: e15f63d5ad52c9fbc52d692fd5bbb0480a41a50a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569277"
 ---
-# <a name="get-dimension-members"></a><span data-ttu-id="ef88a-105">Obtenir les membres de Dimension</span><span class="sxs-lookup"><span data-stu-id="ef88a-105">Get Dimension Members</span></span>
+# <a name="get-dimension-members"></a><span data-ttu-id="9aab8-105">Obtenir les membres de Dimension</span><span class="sxs-lookup"><span data-stu-id="9aab8-105">Get Dimension Members</span></span>
  
-<span data-ttu-id="ef88a-106">**Résumé :** Obtenir des informations sur l’opération obtenir les membres de Dimension.</span><span class="sxs-lookup"><span data-stu-id="ef88a-106">**Summary:** Learn about the Get Dimension Members operation.</span></span> <span data-ttu-id="ef88a-107">L’opération obtenir les membres de Dimension fait partie de l’API de données pour appeler le tableau de bord qualité.</span><span class="sxs-lookup"><span data-stu-id="ef88a-107">The Get Dimension Members operation is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="ef88a-108">Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="ef88a-108">Call Quality Dashboard is a tool for Skype for Business Server 2015.</span></span>
+<span data-ttu-id="9aab8-106">**Résumé :** Obtenir des informations sur l’opération obtenir les membres de Dimension.</span><span class="sxs-lookup"><span data-stu-id="9aab8-106">**Summary:** Learn about the Get Dimension Members operation.</span></span> <span data-ttu-id="9aab8-107">L’opération obtenir les membres de Dimension fait partie de l’API de données pour le tableau de bord qualité des appels.</span><span class="sxs-lookup"><span data-stu-id="9aab8-107">The Get Dimension Members operation is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="9aab8-108">Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="9aab8-108">Call Quality Dashboard is a tool for Skype for Business Server 2015.</span></span>
   
-<span data-ttu-id="ef88a-109">L’opération obtenir les membres de Dimension fait partie de l’API de données pour appeler le tableau de bord qualité.</span><span class="sxs-lookup"><span data-stu-id="ef88a-109">The Get Dimension Members operation is part of the Data API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="9aab8-109">L’opération obtenir les membres de Dimension fait partie de l’API de données pour le tableau de bord qualité des appels.</span><span class="sxs-lookup"><span data-stu-id="9aab8-109">The Get Dimension Members operation is part of the Data API for Call Quality Dashboard.</span></span>
   
-## <a name="get-dimension-members"></a><span data-ttu-id="ef88a-110">Obtenir les membres de Dimension</span><span class="sxs-lookup"><span data-stu-id="ef88a-110">Get Dimension Members</span></span>
+## <a name="get-dimension-members"></a><span data-ttu-id="9aab8-110">Obtenir les membres de Dimension</span><span class="sxs-lookup"><span data-stu-id="9aab8-110">Get Dimension Members</span></span>
 
-<span data-ttu-id="ef88a-111">Opération d’obtention de membres de Dimension renvoie la liste des membres d’une dimension spécifique.</span><span class="sxs-lookup"><span data-stu-id="ef88a-111">Get Dimension Members operation returns the list of members of a specific dimension.</span></span> <span data-ttu-id="ef88a-112">Cela donne aussi la possibilité de filtrer la liste des membres et obtenir un sous-ensemble, afin de réduire le coût de transfert de fil.</span><span class="sxs-lookup"><span data-stu-id="ef88a-112">It also give the ability to filter the member list and get a subset, to reduce the wire transfer cost.</span></span>
+<span data-ttu-id="9aab8-111">Opération de membres de Dimension Get renvoie la liste des membres d’une dimension spécifique.</span><span class="sxs-lookup"><span data-stu-id="9aab8-111">Get Dimension Members operation returns the list of members of a specific dimension.</span></span> <span data-ttu-id="9aab8-112">Cela donne aussi la possibilité de filtrer la liste des membres et obtenir un sous-ensemble, afin de réduire le coût de transfert filaire.</span><span class="sxs-lookup"><span data-stu-id="9aab8-112">It also give the ability to filter the member list and get a subset, to reduce the wire transfer cost.</span></span>
   
 
-|<span data-ttu-id="ef88a-113">**Méthode**</span><span class="sxs-lookup"><span data-stu-id="ef88a-113">**Method**</span></span>|<span data-ttu-id="ef88a-114">**URI de la demande**</span><span class="sxs-lookup"><span data-stu-id="ef88a-114">**Request URI**</span></span>|<span data-ttu-id="ef88a-115">**Version de HTTP**</span><span class="sxs-lookup"><span data-stu-id="ef88a-115">**HTTP Version**</span></span>|
+|<span data-ttu-id="9aab8-113">**Méthode**</span><span class="sxs-lookup"><span data-stu-id="9aab8-113">**Method**</span></span>|<span data-ttu-id="9aab8-114">**URI de la demande**</span><span class="sxs-lookup"><span data-stu-id="9aab8-114">**Request URI**</span></span>|<span data-ttu-id="9aab8-115">**Version HTTP**</span><span class="sxs-lookup"><span data-stu-id="9aab8-115">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="ef88a-116">Publier</span><span class="sxs-lookup"><span data-stu-id="ef88a-116">POST</span></span>  <br/> |<span data-ttu-id="ef88a-117">https://\<portal\>/QoEDataService/DimensionMembers</span><span class="sxs-lookup"><span data-stu-id="ef88a-117">https://\<portal\>/QoEDataService/DimensionMembers</span></span>  <br/> |<span data-ttu-id="ef88a-118">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="ef88a-118">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="9aab8-116">Publier</span><span class="sxs-lookup"><span data-stu-id="9aab8-116">POST</span></span>  <br/> |<span data-ttu-id="9aab8-117">https://\<portal\>/QoEDataService/DimensionMembers</span><span class="sxs-lookup"><span data-stu-id="9aab8-117">https://\<portal\>/QoEDataService/DimensionMembers</span></span>  <br/> |<span data-ttu-id="9aab8-118">HTTP/1.1.</span><span class="sxs-lookup"><span data-stu-id="9aab8-118">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="ef88a-119">**Les paramètres URI** - None.</span><span class="sxs-lookup"><span data-stu-id="ef88a-119">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="9aab8-119">**Paramètres d’URI** - None.</span><span class="sxs-lookup"><span data-stu-id="9aab8-119">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="ef88a-120">**En-têtes de requête** - aucun en-tête supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="ef88a-120">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="9aab8-120">**En-têtes de demande** - aucun en-tête supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="9aab8-120">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="ef88a-121">**Corps de la demande** - cela contient le nom de dimension, nous souhaitons que les membres de.</span><span class="sxs-lookup"><span data-stu-id="ef88a-121">**Request Body** - This contains the name of dimension we want the members for.</span></span> <span data-ttu-id="ef88a-122">Également un nombre maximal de membres retournés, à côté de vous pouvez spécifier un filtrage pour limiter les membres renvoyés.</span><span class="sxs-lookup"><span data-stu-id="ef88a-122">Also max number of members returned, beside you can specify some filtering to limit the returned members.</span></span>
+ <span data-ttu-id="9aab8-121">**Corps de demande** - il contient le nom de nous voulons les membres de dimension.</span><span class="sxs-lookup"><span data-stu-id="9aab8-121">**Request Body** - This contains the name of dimension we want the members for.</span></span> <span data-ttu-id="9aab8-122">Nombre maximal de membres renvoyés, situé en regard de vous pouvez également spécifier une partie du filtrage pour limiter les membres renvoyés.</span><span class="sxs-lookup"><span data-stu-id="9aab8-122">Also max number of members returned, beside you can specify some filtering to limit the returned members.</span></span>
   
 ```
 {
@@ -47,19 +48,18 @@ ms.lasthandoff: 03/28/2018
 "PageNumber": 0,
 "PageSize": 8000
 }
-
 ```
 
- <span data-ttu-id="ef88a-123">**Réponse** : la réponse contient un code d’état HTTP et d’un ensemble d’en-têtes de réponse.</span><span class="sxs-lookup"><span data-stu-id="ef88a-123">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="9aab8-123">**Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.</span><span class="sxs-lookup"><span data-stu-id="9aab8-123">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="ef88a-124">**Code d’état** - une opération réussie retourne un code d’état 200 (OK).</span><span class="sxs-lookup"><span data-stu-id="ef88a-124">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
+ <span data-ttu-id="9aab8-124">**Code d’état** - une opération réussie retourne un code d’état 200 (OK).</span><span class="sxs-lookup"><span data-stu-id="9aab8-124">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
   
- <span data-ttu-id="ef88a-125">**En-têtes de réponse** - aucun en-tête supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="ef88a-125">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="9aab8-125">**En-têtes de réponse** - aucun en-tête supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="9aab8-125">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="ef88a-126">**Corps de la réponse** - vous trouverez ci-dessous une exemple charge utile de réponse au format JSON en réponse à une demande de « [DateDébut]. [Mois] » dimension.</span><span class="sxs-lookup"><span data-stu-id="ef88a-126">**Response Body** - Below is a sample response payload in JSON in response to a request for "[StartDate].[Month]" dimension.</span></span>
+ <span data-ttu-id="9aab8-126">**Corps de réponse** - Voici une exemple charge utile de réponse dans JSON en réponse à une demande de « [StartDate]. [Mois] » dimension.</span><span class="sxs-lookup"><span data-stu-id="9aab8-126">**Response Body** - Below is a sample response payload in JSON in response to a request for "[StartDate].[Month]" dimension.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="ef88a-127">La liste affiche uniquement une petite partie de la liste.</span><span class="sxs-lookup"><span data-stu-id="ef88a-127">The list is only showing a small portion of the list.</span></span> 
+> <span data-ttu-id="9aab8-127">La liste est visible uniquement une petite partie de la liste.</span><span class="sxs-lookup"><span data-stu-id="9aab8-127">The list is only showing a small portion of the list.</span></span> 
   
 ```
 {
@@ -82,7 +82,4 @@ ms.lasthandoff: 03/28/2018
 ["[2031-01-01T00:00:00]",
 "January 2031"]]
 }
-
 ```
-
-
