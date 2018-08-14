@@ -11,24 +11,22 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
-description: Pour générer le code PIN de l’utilisateur, sélectionnez Générer automatiquement un code confidentiel valide.
-ms.openlocfilehash: f09103a0a1300a32098547b896dc7872b1339c6b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Pour générer le code confidentiel de l’utilisateur, sélectionnez Générer automatiquement un code confidentiel valide.
+ms.openlocfilehash: 83d060f210cd6a3799d372ef6a28ef6c758d61f1
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503542"
 ---
 # <a name="set-pin"></a>Définition du code confidentiel
  
-Pour générer le code PIN de l’utilisateur, sélectionnez **Générer automatiquement un code confidentiel valide**. 
+Pour générer le code confidentiel de l’utilisateur, sélectionnez **Générer automatiquement un code confidentiel valide**. 
   
 Pour créer votre propre code confidentiel, cliquez sur **Entrer manuellement un code confidentiel spécifique**, puis tapez, dans la zone de texte, un code confidentiel respectant les exigences de code confidentiel spécifiées dans vos paramètres de stratégie de code confidentiel. 
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour Business Server du Panneau de configuration, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Codes secrets d’utilisateur](http://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)
-
+[Codes confidentiels d’utilisateur](http://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)

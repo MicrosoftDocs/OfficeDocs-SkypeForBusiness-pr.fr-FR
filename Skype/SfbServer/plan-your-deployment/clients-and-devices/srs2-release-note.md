@@ -1,7 +1,7 @@
 ---
 title: Notes de publication
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
-ms.openlocfilehash: 3c8c314000fddf78f9247efaefa989f586c1e7b4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: bd99a4c3772836d6352228bfd90cecd592af557f
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412324"
 ---
 # <a name="release-notes"></a>Notes de publication 
 
@@ -97,8 +98,7 @@ Introduite dans cette mise à jour :
 - Possibilité de faire part de vos commentaires pour les versions publiques     
 - Amélioration de télémétrie autour de la fiabilité de participer à la réunion     
 - Création de rapports de OMS supplémentaires     
-- Possibilité pour l’administrateur informatique configurer les périphériques à distance 
-    <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
+- Possibilité pour l’administrateur informatique configurer les périphériques à distance<!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (15/03/2017)
@@ -139,8 +139,6 @@ Introduite dans cette mise à jour :
 <a name="See"> </a>  
 ## <a name="see-also"></a>Voir aussi
 
-
-#### 
 [Systèmes de salle Skype version 2](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Préparer votre Skype pour un environnement d’entreprise](srs-v2-prep.md)
@@ -149,6 +147,6 @@ Introduite dans cette mise à jour :
 
 [Problèmes connus de systèmes de salle Skype v2](../../manage/skype-room-systems-v2/known-issues.md)
 
-[Planifier la salle Skype systèmes v2](skype-room-systems-v2-0.md)
+[Planification de Skype Room Systems v2](skype-room-systems-v2-0.md)
 
-[Gérer les salles Skype systèmes v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gestion de Skype Room System v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

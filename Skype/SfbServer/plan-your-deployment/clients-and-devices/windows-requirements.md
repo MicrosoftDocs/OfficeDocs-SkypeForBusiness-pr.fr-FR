@@ -1,7 +1,7 @@
 ---
 title: Configuration requise des clients Windows et prise en charge logicielle
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Résumé : Passez en revue les exigences de prise en charge du client Windows lors de la planification Skype pour Business Server.'
-ms.openlocfilehash: 161933f5982919376dd6c9610d47c78866316cdc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b15fdb175c06a1c39178b3658fe3af694375ddc1
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20984952"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22391825"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Configuration requise des clients Windows et prise en charge logicielle
  

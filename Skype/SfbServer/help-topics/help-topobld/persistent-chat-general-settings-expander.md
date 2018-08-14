@@ -11,26 +11,27 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
-description: 'Vous modifiez les paramètres généraux pour le serveur de Chat permanent ou d’un pool de serveur de conversation persistant en configurant ou la définition de ces propriétés :'
-ms.openlocfilehash: 84d6600c6ff99d55233ad40c7238fbb2c0480c98
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Vous modifiez les paramètres généraux pour le serveur de conversation permanente ou le pool de serveurs de conversation permanente en configurant ou en définissant les propriétés :'
+ms.openlocfilehash: 7e9f71cc1c26c30d60674e229627fd75964648ec
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505047"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Expanseur des paramètres généraux de conversation permanente
  
-Vous modifiez les paramètres **généraux** pour le serveur de Chat permanent ou d’un pool de serveur de conversation persistant en configurant ou la définition de ces propriétés :
+Vous modifiez les paramètres **généraux** pour le serveur de conversation permanente ou le pool de serveurs de conversation permanente en configurant ou en définissant les propriétés :
   
  **Général**
   
-- **Nom de domaine complet**: modifier ce paramètre pour définir le nom de domaine pleinement qualifié de votre serveur de Chat persistant ou de pool de serveur de conversation persistant
+- **Nom de domaine complet**: modifier ce paramètre pour définir le nom de domaine complet de votre serveur de conversation permanente ou un pool de serveurs de conversation permanente
     
-- **Nom complet du pool de conversations permanentes** : définissez ce paramètre pour indiquer un paramètre convivial et lisible pour le serveur ou le pool. Ce paramètre rend plus facile pour vos utilisateurs associer un serveur Chat persistant donné ou un pool de serveur de conversation persistant basé sur le nom d’affichage et non un plus difficile à comprendre le nom de domaine complet.
+- **Nom complet du pool de conversations permanentes** : définissez ce paramètre pour indiquer un paramètre convivial et lisible pour le serveur ou le pool. Ce paramètre facilitera pour vos utilisateurs associer un serveur de conversation permanente donné ou d’un pool de serveurs de conversation permanente basée sur le nom complet au lieu d’un plus difficile à comprendre le nom de domaine complet.
     
 - **Port de conversations permanentes** : spécifiez le port à utiliser pour la conversation permanente.
     
-Vous modifiez les paramètres de **Associations** pour le serveur de Chat permanent ou d’un pool de serveur de conversation persistant en configurant ou la définition de ces propriétés :
+Vous modifiez les paramètres **Associations** pour le serveur de conversation permanente ou le pool de serveurs de conversation permanente en configurant ou en définissant les propriétés :
   
  **Associations**
   
@@ -38,33 +39,33 @@ Vous modifiez les paramètres de **Associations** pour le serveur de Chat perman
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative.
     
-- Activez la case à cocher **mise en miroir de la banque d’informations de SQL Server activer** si vous souhaitez activer la mise en miroir pour la banque principale de SQL Server.
+- Activez la case à cocher **Activer magasin SQL Server de mise en miroir** si vous souhaitez activer la mise en miroir pour le magasin SQL Server principal.
     
-    Si vous avez choisi d’activer la mise en miroir de la banque d’informations de SQL Server, sélectionnez le magasin et l’instance à partir de la liste **de SQL Server mise en miroir stocker**.
+    Si vous décidez d’activer la mise en miroir du magasin SQL Server, sélectionnez le magasin et l’instance dans la liste **magasin SQL Server de la mise en miroir**.
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative.
     
-- Activez la case à cocher **utiliser SQL Server la mise en miroir de rappel pour permettre le basculement automatique** si vous souhaitez que le basculement automatique de la banque principale de SQL Server.
+- Activez la case à cocher **utiliser SQL Server la mise en miroir témoin pour activer le basculement automatique** si vous souhaitez que le basculement automatique du magasin SQL Server principal.
     
-    Si vous choisissez d’activer la mise en miroir de rappel pour permettre le basculement automatique de magasin de SQL Server, sélectionnez le magasin et l’instance à partir de la liste.
+    Si vous décidez d’activer la mise en miroir témoin pour activer le basculement automatique du magasin SQL Server, sélectionnez le magasin et l’instance dans la liste.
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative pour le magasin de témoins.
     
-- Activez la case à cocher **utiliser les banques SQL Server sauvegarde pour la reprise après sinistre** , si vous souhaitez activer l’utilisation de la récupération d’urgence de SQL Server
+- Activez la case à cocher **utiliser la sauvegarde magasins SQL Server pour activer la récupération d’urgence** si vous souhaitez activer l’utilisation de la récupération d’urgence de SQL Server
     
     Si vous décidez d’activer la récupération d’urgence, sélectionnez un magasin et une instance dans la liste **Magasin SQL Server de stockage**.
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative.
     
-- Sélectionnez la case à cocher **mise en miroir de la banque d’informations de SQL Server activer** si vous souhaitez activer la mise en miroir pour la sauvegarde de SQL Server mise en miroir de la banque.
+- Activez la case à cocher **Activer magasin SQL Server de mise en miroir** si vous souhaitez activer la mise en miroir pour la mise en miroir de magasin de sauvegarde SQL Server.
     
-    Si vous avez choisi d’activer le miroir de magasin de sauvegarde SQL Server, sélectionnez le magasin et l’instance à partir de la liste de **sauvegarde SQL Server stockent le miroir**.
+    Si vous décidez d’activer la mise en miroir de sauvegarde SQL Server store, sélectionnez le magasin et l’instance dans la liste **mise en miroir de magasin de sauvegarde SQL Server**.
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative.
     
-- Activez la case à cocher **utiliser SQL Server la mise en miroir de rappel pour permettre le basculement automatique** si vous souhaitez que le basculement automatique de la banque d’informations de SQL Server sauvegarde.
+- Activez la case à cocher **utiliser SQL Server la mise en miroir témoin pour activer le basculement automatique** si vous souhaitez que le basculement automatique du magasin SQL Server sauvegarde.
     
-    Si vous choisissez d’activer la mise en miroir de rappel pour permettre le basculement automatique de magasin de SQL Server, sélectionnez le magasin et l’instance à partir de la liste.
+    Si vous décidez d’activer la mise en miroir témoin pour activer le basculement automatique du magasin SQL Server, sélectionnez le magasin et l’instance dans la liste.
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative pour le magasin de témoins.
     
@@ -74,15 +75,15 @@ Vous modifiez les paramètres de **Associations** pour le serveur de Chat perman
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative.
     
-- Activez la case à cocher **mise en miroir de la banque d’informations de SQL Server activer** si vous souhaitez activer la mise en miroir pour la banque d’informations de SQL Server mise en conformité.
+- Activez la case à cocher **Activer magasin SQL Server de mise en miroir** si vous souhaitez activer la mise en miroir pour le magasin SQL Server de conformité.
     
-    Si vous choisissez d’activer la mise en miroir de conformité SQL Server magasin, sélectionnez le magasin et l’instance à partir de la liste **la conformité SQL Server stockent le miroir**.
+    Si vous décidez d’activer la mise en miroir de magasin de conformité SQL Server, sélectionnez le magasin et l’instance dans la liste **SQL Server de conformité magasin miroir**.
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative.
     
-- Activez la case à cocher **utiliser SQL Server la mise en miroir de rappel pour permettre le basculement automatique** si vous souhaitez que le basculement automatique de la banque d’informations de SQL Server mise en conformité.
+- Activez la case à cocher **utiliser SQL Server la mise en miroir témoin pour activer le basculement automatique** si vous souhaitez que le basculement automatique de la banque de SQL Server de conformité.
     
-    Si vous choisissez d’activer la mise en miroir de rappel pour permettre le basculement automatique de magasin de SQL Server, sélectionnez le magasin et l’instance à partir de la liste.
+    Si vous décidez d’activer la mise en miroir témoin pour activer le basculement automatique du magasin SQL Server, sélectionnez le magasin et l’instance dans la liste.
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative pour le magasin de témoins.
     
@@ -90,19 +91,19 @@ Vous modifiez les paramètres de **Associations** pour le serveur de Chat perman
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative.
     
-- Activez la case à cocher **mise en miroir de la banque d’informations de SQL Server activer** si vous souhaitez activer la mise en miroir pour la banque d’informations de SQL Server mise en conformité.
+- Activez la case à cocher **Activer magasin SQL Server de mise en miroir** si vous souhaitez activer la mise en miroir pour le magasin SQL Server de conformité.
     
-    Si vous choisissez d’activer la mise en miroir de conformité SQL Server magasin, sélectionnez le magasin et l’instance à partir de la liste de **mise en conformité de sauvegarde SQL Server stocker la mise en miroir**.
+    Si vous décidez d’activer la mise en miroir de magasin de conformité SQL Server, sélectionnez le magasin et l’instance dans la liste **SQL Server de conformité de sauvegarde magasin miroir**.
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative.
     
-- Activez la case à cocher **utiliser SQL Server la mise en miroir de rappel pour permettre le basculement automatique** si vous souhaitez que le basculement automatique de la banque d’informations de SQL Server sauvegarde de conformité.
+- Activez la case à cocher **utiliser SQL Server la mise en miroir témoin pour activer le basculement automatique** si vous souhaitez que le basculement automatique de la banque de SQL Server de conformité de sauvegarde.
     
-    Si vous choisissez d’activer la mise en miroir de rappel pour permettre le basculement automatique de magasin de SQL Server, sélectionnez le magasin et l’instance à partir de la liste.
+    Si vous décidez d’activer la mise en miroir témoin pour activer le basculement automatique du magasin SQL Server, sélectionnez le magasin et l’instance dans la liste.
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative pour le magasin de témoins.
     
-- **Stocker des fichiers** Sélectionnez un emplacement de stockage du fichier dans la liste, ou cliquez sur **Nouveau** pour créer un nouveau magasin de fichiers.
+- **Magasin de fichiers** Sélectionnez un emplacement de stockage du fichier dans la liste, ou cliquez sur **Nouveau** pour créer un nouveau magasin de fichiers.
     
  **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
   
@@ -112,11 +113,8 @@ Vous modifiez les paramètres de **Associations** pour le serveur de Chat perman
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Plan pour un serveur de conversation permanents dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planifier un serveur de conversation permanente dans Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Ajouter serveur de Chat permanente à votre Skype pour la topologie de Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
-[Configuration de haute disponibilité et reprise après sinistre pour serveur Chat persistant dans Skype pour Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
-
+[Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)

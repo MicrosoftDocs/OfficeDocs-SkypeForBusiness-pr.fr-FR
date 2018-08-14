@@ -1,5 +1,5 @@
 ---
-title: Obtenir des éléments de sous-menu
+title: Obtenir les sous-éléments
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,44 +10,45 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
-description: 'Résumé : Découvrez l’opération obtenir les éléments de sous-menu, qui fait partie de l’article de Service. L’article de Service fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 8b9ec0c1c849e22f285ef1b5bbb2db806a153b76
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez l’opération obtenir les sous-éléments, qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
+ms.openlocfilehash: bc2af38036a40b9181b8ae3ccaa39a803e4e9723
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569588"
 ---
-# <a name="get-sub-items"></a>Obtenir des éléments de sous-menu
+# <a name="get-sub-items"></a>Obtenir les sous-éléments
  
-**Résumé :** Obtenir des informations sur l’opération obtenir les éléments de sous-menu, qui fait partie de l’article de Service. L’article de Service fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur l’opération obtenir les sous-éléments, qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.
   
-L’opération obtenir les sous-éléments fait partie de l’article Service dans l’API de référentiel pour appeler le tableau de bord qualité.
+L’opération obtenir les sous-éléments fait partie du Service d’élément dans l’API de référentiel pour appeler le tableau de bord qualité.
   
-## <a name="get-sub-items"></a>Obtenir des éléments de sous-menu
+## <a name="get-sub-items"></a>Obtenir les sous-éléments
 
-Obtenir les sous-éléments retourne les sous-éléments d’un élément spécifique.
+Obtenez les sous-éléments renvoie les sous-éléments d’un élément spécifique.
   
 
-|**Méthode**|**URI de la demande**|**Version de HTTP**|
+|**Méthode**|**URI de la demande**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Télécharger  <br/> |https://\<portal\>/QoERepositoryService/repository/article / {itemId} / de sous-éléments  <br/> |HTTP/1.1  <br/> |
+|Télécharger  <br/> |https://\<portal\>/QoERepositoryService/référentiel/élément / {itemId} / sous-éléments  <br/> |HTTP/1.1.  <br/> |
    
- **Les paramètres URI** - None.
+ **Paramètres d’URI** - None.
   
- **En-têtes de requête** - aucun en-tête supplémentaire.
+ **En-têtes de demande** - aucun en-tête supplémentaire.
   
  **Corps de requête** - None.
   
- **Réponse** : la réponse contient un code d’état HTTP et d’un ensemble d’en-têtes de réponse.
+ **Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
   
- **Code d’état** - une opération réussie retourne un code d’état 200 (OK). Si un utilisateur spécifié QU'ID n’est pas trouvé, il renvoie le code d’état 404 (introuvable).
+ **Code d’état** - une opération réussie retourne un code d’état 200 (OK). Si un utilisateur spécifié QU'ID est introuvable, elle renvoie le code d’état 404 (introuvable).
   
  **En-têtes de réponse** - aucun en-tête supplémentaire.
   
- **Corps de la réponse** - Voici une charge utile d’exemple réponse au format JSON.
+ **Corps de réponse** - vous trouverez ci-dessous une charge utile d’exemple réponse au format JSON.
   
 > [!NOTE]
-> Un tableau d’élément objet est retourné. 
+> Un tableau de l’objet Item est renvoyé. 
   
 ```
 [{
@@ -60,18 +61,17 @@ Obtenir les sous-éléments retourne les sous-éléments d’un élément spéci
 "userId": 0,
 "type": "json"
 }]
-
 ```
 
-L’objet retourné par l’opération de sous-éléments ne contient que les trois champs suivants. 
+L’objet renvoyé par opération sous-éléments contient uniquement les trois champs suivants. 
   
  *itemId* - ID de l’élément.
   
- *pseudo* - ID de l’utilisateur propriétaire de cet élément.
+ *userId* - ID de l’utilisateur qui possède cet article.
   
- *type* - le type de contenu. Ce champ est défini par les applications.
+ *type* : le type de contenu. Ce champ est défini par les applications.
   
 > [!NOTE]
->  `Content`et `subItems` champs ne sont pas inclus dans la réponse afin de réduire la quantité de données transmises sur le réseau.
+>  `Content`et `subItems` champs ne sont pas inclus dans la réponse afin de réduire la quantité de données transmises via le réseau.
   
 

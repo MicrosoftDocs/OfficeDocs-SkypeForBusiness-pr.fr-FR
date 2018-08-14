@@ -11,29 +11,27 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
-description: 'L’Assistant de définir un serveur Office Web Apps définit un serveur Office Web Apps dans votre déploiement. Vous devez fournir les informations suivantes :'
-ms.openlocfilehash: df8f2ba98215a597e9532e636b022edf9cb1ec19
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'L’Assistant définir un serveur Office Web Apps définit un nouveau serveur Office Web Apps Server dans votre déploiement. Vous devez fournir les informations suivantes :'
+ms.openlocfilehash: 41f0d247089639713243124b622f352c04ea364d
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503675"
 ---
 # <a name="add-office-web-apps-server"></a>Ajouter Office Web Apps Server
  
-L’Assistant de **Définir un serveur Office Web Apps** définit un serveur Office Web Apps dans votre déploiement. Vous devez fournir les informations suivantes :
+L’Assistant **Définir un serveur Office Web Apps** définit un nouveau serveur Office Web Apps Server dans votre déploiement. Vous devez fournir les informations suivantes :
   
- **FQDN de serveur Office Web Apps**: tapez le nom de domaine complet du serveur qui hébergera le serveur Office Web Apps
+ **Nom de domaine complet de Office Web Apps Server**: tapez le nom de domaine complet du serveur qui hébergera le serveur Office Web Apps Server
   
- **URL de découverte de serveur de Office Web Apps**: tapez le localisateur complète uniform resource identifier (URL) du serveur Office Web Apps
+ **URL de découverte d’Office Web Apps Server**: tapez le localisateur complète uniform resource identifier (URL) du serveur Office Web Apps
   
 > [!TIP]
-> Le comportement par défaut de l' **URL de découverte de serveur de Office Web Apps** est pour créer l’URL basé sur le nom de domaine complet du serveur Office Web Apps dans le format : `https://<FQDN of the Office Web Apps Server/hosting/discovery` . Dans la plupart des cas, vous ne devrez pas modifier le format par défaut. Vous devrez peut-être modifier le format par défaut dans le cas où un serveur Office Web Apps et l’URL de découverte d’Office Web Apps Server doivent être différents. Par exemple, votre serveur Office Web Apps Server est placé dans le réseau de périmètre et aura une URL différente en fonction de l’emplacement.
+> Le comportement par défaut de l' **URL de découverte d’Office Web Apps Server** consiste à créer des URL basée sur le nom de domaine complet du serveur Office Web Apps au format : `https://<FQDN of the Office Web Apps Server/hosting/discovery` . Dans la plupart des cas, vous ne devrez pas modifier le format par défaut. Vous devrez peut-être modifier le format par défaut dans le cas où le serveur Office Web Apps Server et l’URL de découverte d’Office Web Apps Server doivent être différents. Par exemple, votre serveur Office Web Apps Server est placé dans le réseau de périmètre et aura une URL différente en fonction de l’emplacement.
   
- **Office Web Apps Server est déployé dans un réseau externe (c'est-à-dire, périmètre Internet)**: sélectionnez la case à cocher si votre serveur Office Web Apps Server est placée à l’extérieur de votre pare-feu interne, comme le réseau de périmètre, réseau externe ou autre zone réseau qui n’est pas le même que votre réseau interne.
+ **Office Web Apps Server est déployé dans un réseau externe (périmètre/Internet)**: sélectionnez la case à cocher si votre serveur Office Web Apps Server est placé en dehors de votre pare-feu interne, telles que le réseau de périmètre, réseau externe ou autre zone réseau qui n’est pas le même que votre réseau interne.
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Les composants et les Topologies pour la conférence](http://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
-
+[Composants et Topologies pour la conférence](http://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

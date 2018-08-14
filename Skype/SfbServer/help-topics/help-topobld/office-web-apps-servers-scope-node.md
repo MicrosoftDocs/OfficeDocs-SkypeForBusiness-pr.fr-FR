@@ -11,12 +11,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: Vous cliquez avec le bouton droit sur serveurs d’applications Office Web et sélectionnez Nouveau serveur d’applications Web Office pour ouvrir l’Assistant Office en ligne.
-ms.openlocfilehash: 796ddee08de9410fe68ae412f177c88f7cd488c4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Cliquez avec le bouton droit sur Serveurs Office Web Apps Server, puis sélectionnez Nouveau serveur Office Web Apps Server pour ouvrir l’Assistant Office Online.
+ms.openlocfilehash: 29e4f63d13d61e6fa26fcc69587600483fc31273
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503766"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nœud d’étendue des serveurs Office Web Apps Server
  
@@ -30,7 +31,4 @@ Cliquez avec le bouton droit sur **Serveurs Office Web Apps Server**, puis séle
     
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [Configuration de l’intégration avec Office Web Apps Server et Lync Server 2013](http://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
-

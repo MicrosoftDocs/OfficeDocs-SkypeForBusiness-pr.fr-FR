@@ -1,7 +1,7 @@
 ---
 title: Configuration du périphérique
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: Une configuration de périphérique est une collection de paramètres utilisés pour gérer les Skype pour les appareils de téléphone professionnel, global ou au sein d’un site. Ces paramètres vous permettent de configurer des éléments, comme le mode de sécurité nécessaire, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et le verrouillage automatique ou non des téléphones après une période d’inactivité spécifiée.
-ms.openlocfilehash: 20afbcfb48e5e556e017e67b283070e597d32295
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 14314e32c4ed277a1d823bfc3671f9b126f977e4
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503199"
 ---
 # <a name="device-configuration"></a>Configuration du périphérique
  
@@ -52,9 +53,6 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
     
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Configuration du périphérique : Créer une nouvelle ou en modifier une existant](device-configuration-create-new-or-edit-existing.md)
+[Configuration du périphérique : création d’un périphérique ou modification d’un périphérique existant](device-configuration-create-new-or-edit-existing.md)
 
 [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
-

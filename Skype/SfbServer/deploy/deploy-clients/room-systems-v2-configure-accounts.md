@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lisez cette rubrique pour en savoir plus sur la configuration des comptes pour les systèmes de salle Skype v2 dans Exchange et Skype pour les entreprises.
-ms.openlocfilehash: 8284795df5f3cc50db0a4089deb9755239e5876e
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: 8b0858d3d1ec5523ad95b74989a594a1cebc7848
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887897"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967781"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Configurer des comptes pour les systèmes de salle Skype v2
  
@@ -28,11 +28,11 @@ Cette rubrique explique comment créer les comptes utilisés par les systèmes d
   
 - Déploiement en ligne : environnement de votre organisation est déployé entièrement sur Office 365. Pour plus d’informations, voir [déployer Skype salle systèmes v2 avec Office 365](with-office-365.md).
     
-- Déploiement sur site : votre organisation dispose de serveurs qu’il contrôle, où sont hébergées Skype pour Business Server 2015, Exchange et Active Directory. Pour plus d’informations, voir [déployer Skype salle systèmes v2 avec Skype pour Business Server 2015](with-skype-for-business-server-2015.md)
+- Déploiement sur site : votre organisation dispose de serveurs qu’il contrôle, où sont hébergées Skype pour Business Server, Exchange et Active Directory. Pour plus d’informations, voir [déployer Skype salle systèmes v2 avec Skype pour Business Server](with-skype-for-business-server-2015.md)
     
 - Déploiements hybrides : votre organisation possède un mélange de services, avec certains hébergés sur site et certaines hébergé en ligne via Office 365. Avec les systèmes de salle Skype v2, les scénarios hybrides suivants sont pris en charge : 
     
-  - Exchange Online avec Skype pour Business Server 2015 localement. Pour plus d’informations, voir [déployer Skype salle systèmes v2 avec Exchange Online (hybride)](with-exchange-online.md).
+  - Exchange Online avec Skype pour Business Server localement. Pour plus d’informations, voir [déployer Skype salle systèmes v2 avec Exchange Online (hybride)](with-exchange-online.md).
     
   - Exchange sur site avec Skype pour Business en ligne. Pour plus d’informations, voir [déployer Skype salle systèmes v2 avec Exchange sur site (hybride)](with-exchange-on-premises.md).
     
@@ -78,13 +78,13 @@ Pendant les propriétés pour la configuration de base autorisera le compte d’
    
 Pour configurer des comptes d’utilisateurs, la plus simple consiste à configurer à l’aide de Windows PowerShell à distance. Microsoft propose [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous aide à créer des comptes d’utilisateur ou de valider les comptes de ressource existant dont vous disposez afin de vous aider à les transformer en comptes d’utilisateurs v2 Skype salle systèmes compatibles.
   
-Si vous préférez utiliser l’interface utilisateur d’Office 365 sur les applets de commande Windows PowerShell, certaines étapes peuvent être effectuées manuellement. Consultez [Création d’un compte de périphérique à l’aide d’Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365).
+Si vous préférez utiliser l’interface utilisateur d’Office 365 sur les applets de commande Windows PowerShell, certaines étapes peuvent être effectuées manuellement. Consultez [Création d’un compte de périphérique à l’aide d’Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
 ## <a name="see-also"></a>Voir aussi
 
-[Planifier la salle Skype systèmes v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planification de Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Configurer une console v2 de systèmes de salle de Skype](console.md)
+[Configuration d’une console Skype Room Systems v2](console.md)
   
-[Gérer les salles Skype systèmes v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gestion de Skype Room System v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

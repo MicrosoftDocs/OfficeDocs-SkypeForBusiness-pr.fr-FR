@@ -11,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
-description: Vous permet de définir les ordinateurs qui feront partie d’un pool de serveur de conversation persistant en tapant le nom de domaine pleinement qualifié (FQDN) dans le FQDN de l’ordinateur. Il doit s’agir du nom de domaine complet (FQDN) de l’ordinateur, défini dans les enregistrements d’hôte DNS (Domain Name System) (A ou AAAA).
-ms.openlocfilehash: e6175ba3eff5c80a94a3e0cc45b2c649cb7a993d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Vous définissez les ordinateurs qui feront partie d’un pool de serveurs de conversation permanente en tapant le nom de domaine complet (FQDN) dans le FQDN de l’ordinateur. Il doit s’agir du nom de domaine complet (FQDN) de l’ordinateur, défini dans les enregistrements d’hôte DNS (Domain Name System) (A ou AAAA).
+ms.openlocfilehash: 1fecb4bcd964a71261e781e445391c86079b0e8e
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503906"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>Définir les ordinateurs du pool de conversations permanentes
  
-Vous permet de définir les ordinateurs qui feront partie d’un pool de serveur de conversation persistant en tapant le nom de domaine pleinement qualifié (FQDN) dans le **FQDN de l’ordinateur**. Il doit s’agir du nom de domaine complet (FQDN) de l’ordinateur, défini dans les enregistrements d’hôte DNS (Domain Name System) (A ou AAAA).
+Vous définissez les ordinateurs qui feront partie d’un pool de serveurs de conversation permanente en tapant le nom de domaine complet (FQDN) dans le **FQDN de l’ordinateur**. Il doit s’agir du nom de domaine complet (FQDN) de l’ordinateur, défini dans les enregistrements d’hôte DNS (Domain Name System) (A ou AAAA).
   
 Cliquez sur **Ajouter** pour inclure le nom de domaine complet dans la liste des ordinateurs du pool.
   
@@ -30,7 +31,7 @@ Cliquez sur **Supprimer** pour supprimer un ordinateur défini dans le pool.
   
 Cliquez sur **Précédent** pour revenir à la boîte de dialogue précédente de définition de pool.
   
-Une fois que vous avez terminé d’entrer des ordinateurs membres pour ce pool pour poursuivre la définition de pool persistant Chat Server, cliquez sur **suivant** .
+Une fois que vous avez fini d’entrer les ordinateurs membres de ce pool pour poursuivre la définition du pool de serveurs de conversation permanente, cliquez sur **suivant** .
   
 Cliquez sur **Annuler** pour ignorer toutes les modifications et fermer l’Assistant **Définition d’un nouveau pool de conversations permanentes**.
   
@@ -38,9 +39,6 @@ Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la p
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Plan pour un serveur de conversation permanents dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planifier un serveur de conversation permanente dans Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Ajouter serveur de Chat permanente à votre Skype pour la topologie de Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+[Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

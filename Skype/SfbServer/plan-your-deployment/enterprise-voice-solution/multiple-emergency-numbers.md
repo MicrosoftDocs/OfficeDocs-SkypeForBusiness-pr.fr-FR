@@ -1,9 +1,8 @@
 ---
-title: Planification de plusieurs numéros d'urgence dans Skype Entreprise 2015
+title: Planifier plusieurs numéros d’urgence dans Skype pour Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: Pour savoir comment planifier plusieurs numéros d'urgence dans Skype Entreprise Server 2015, reportez-vous à cette rubrique.
-ms.openlocfilehash: f70132e555b79e88ca09c54c0ce02544bf3d9bf8
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: Lisez cette rubrique pour savoir comment planifier plusieurs numéros d’urgence dans Skype pour Business Server.
+ms.openlocfilehash: 48b71f5f4810378ec05ae769de4ec57b9a840a79
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979782"
 ---
-# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server-2015"></a>Planification de plusieurs numéros d'urgence dans Skype Entreprise 2015
+# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planifier plusieurs numéros d’urgence dans Skype pour Business Server
  
-Pour savoir comment planifier plusieurs numéros d'urgence dans Skype Entreprise Server 2015, reportez-vous à cette rubrique.
+Lisez cette rubrique pour savoir comment planifier plusieurs numéros d’urgence dans Skype pour Business Server.
   
 Skype pour Business Server prend désormais en charge la configuration de plusieurs numéros d’urgence pour un client. Plusieurs numéros d’urgence sont une nouveauté dans le 2016 juin mise à jour Cumulative. Tandis que les États-Unis disposent d'un seul numéro d'appel d'urgence (911), de nombreux pays/régions prennent en charge plusieurs numéros d'urgence. Au Royaume-Uni, par exemple, prend en charge à la fois 999, le numéro d’urgence spécifique au Royaume-Uni et 112, le numéro d’urgence pour l’Union européenne. 
   
@@ -32,7 +32,7 @@ Cette fonctionnalité est également utile pour les organismes de soins de sant�
 
 Pour configurer un appel d'urgence, créez des stratégies d'emplacement qui définissent le mode d'implémentation de l'appel d'urgence. La stratégie d’emplacement vous permet de définir le numéro constitue un appel d’urgence — par exemple, 911 aux États-Unis ; 999 et 112 au Royaume-Uni. La stratégie d'emplacement détermine si un utilisateur est autorisé à passer des appels d'urgence et, si tel est le cas, définit le comportement de l'appel d'urgence. Vous pouvez également définir si la sécurité de l’entreprise doit être automatiquement notifiée, ainsi que la procédure de routage de l'appel.
   
-Pour plus d’informations sur la définition et la modification d’une stratégie d’emplacement, voir [planifier des stratégies d’emplacement pour Skype pour Business Server 2015](location-policies.md) et [stratégies d’emplacement créer Skype pour Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md). Les rubriques suivantes décrivent les concepts sur les stratégies d’emplacement ; Toutefois, vous devez suivre les instructions de [configurer plusieurs numéros d’urgence dans Skype pour Business 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) pour configurer plusieurs numéros d’urgence.
+Pour plus d’informations sur la définition et la modification d’une stratégie d’emplacement, voir [planifier des stratégies d’emplacement pour Skype pour Business Server](location-policies.md) et les [stratégies d’emplacement créer Skype pour Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). Les rubriques suivantes décrivent les concepts sur les stratégies d’emplacement ; Toutefois, vous devez suivre les instructions de [configurer plusieurs numéros d’urgence dans Skype pour les entreprises](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) pour configurer plusieurs numéros d’urgence.
   
 Lors de la planification de numéros d'urgence multiples, tenez compte des points suivants :
   
@@ -66,12 +66,12 @@ Avant de configurer plusieurs numéros d'urgence, tenez compte des points suivan
     
 - Si les utilisateurs composent un numéro qui correspond à la chaine de numérotation, aucun masque de numéro n’est nécessaire. Par exemple, si le numéro composé par un utilisateur est le 911, la chaîne de numérotation est alors 911 et aucun masque n’est nécessaire. 
     
-Pour plus d’informations sur la configuration de plusieurs numéros d’urgence, voir [configuration d’urgence plusieurs numéros dans Skype pour Business 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
+Pour plus d’informations sur la configuration de plusieurs numéros d’urgence, voir [configuration d’urgence plusieurs numéros dans Skype pour les entreprises](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
   
 Le tableau suivant présente des exemples de stratégies d'emplacement (pour les besoins de l'exemple, tous les attributs ne sont pas indiqués) :
   
 
-|**Nom de stratégie d’emplacement**|**E911 activé**|**Chaîne de numérotation d’urgence**|**Masque de numérotation**|**Numéros d’urgence**|**Utilisation PSTN**|**Emplacement requis**|
+|**Nom de la stratégie d'emplacement**|**E911 activé**|**Chaîne de numérotation d’urgence**|**Masque d'appel**|**Numéros d’urgence**|**Utilisation PSTN**|**Emplacement requis**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |États-Unis  <br/> |Oui  <br/> |911  <br/> | 112 ; 999 <br/> ||Service d'urgence USA  <br/> |Oui  <br/> |
 |Hôpital USA  <br/> |Oui  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Oui  <br/> |
@@ -101,7 +101,7 @@ Le tableau suivant indique la prise en charge des clients pour plusieurs numéro
 ||Skype pour Mac Business annuel 16,9 version du client  <br/> Skype pour iOS Business 6.16 version du client  <br/> |
 |**Android** <br/> |**Version** <br/> |
 ||Skype pour Android Business 6.17 version du client  <br/> |
-|**Lync Phone Edition** <br/> |**Version** <br/> |
+|**Lync Phone Edition** <br/> |**Version** <br/> |
 || Aastra 6721ip et Aastra 6725ip téléphones - septembre 2016 cumulative update (Build 7577.4512)-[https://support.microsoft.com/en-us/kb/3194831](https://support.microsoft.com/en-us/kb/3194831) <br/> |
 || Téléphones HP 4110 et HP 4120 - septembre 2016 mise à jour cumulative (Build 7577.4512)-[https://support.microsoft.com/en-us/kb/3194832](https://support.microsoft.com/en-us/kb/3194832) <br/> |
 ||Téléphones Polycom CX500, Polycom CX600 et Polycom CX3000 - septembre 2016 mise à jour cumulative (Build 7577.4512)-[https://support.microsoft.com/en-us/kb/3194833](https://support.microsoft.com/en-us/kb/3194833) <br/> |

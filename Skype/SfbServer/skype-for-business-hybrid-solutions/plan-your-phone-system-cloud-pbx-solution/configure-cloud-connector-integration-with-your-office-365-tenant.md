@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Découvrez comment configurer l’intégration de nuage connecteur avec votre client Office 365.
-ms.openlocfilehash: 40cb3334fb3d45432ada1a63aae8368a60433ad0
-ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
+ms.openlocfilehash: d5ae0b70a22219ee0430908bd3b3752d6ebd6357
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19649642"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211150"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurer l’intégration Cloud Connector avec votre client Office 365
  
@@ -44,13 +44,13 @@ Si vous utilisez TLS entre les serveurs de médiation et les passerelles, vous d
     
   - Modifier le modèle de serveur Web existant pour permettre aux utilisateurs authentifiés d’inscrire ou créer un nouveau modèle de serveur Web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificats](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
-  - Demandez un certificat à l’aide du composant logiciel enfichable Certificats, en sélectionnant le modèle de serveur Web que vous avez autorisé. Assurez-vous d’indiquer le nom commun dans la section Sujet et le nom DNS dans la section Nom alternatif avec le FQDN de la passerelle, et confirmez sur la Clé privée que Rendre la clé privée exportable est bien sélectionné dans les options de clé. Pour obtenir des instructions détaillées, voir [demander un certificat](https://technet.microsoft.com/en-us/library/cc730689.aspx).
+  - Demandez un certificat à l’aide du composant logiciel enfichable Certificats, en sélectionnant le modèle de serveur Web que vous avez autorisé. Assurez-vous d’indiquer le nom commun dans la section Sujet et le nom DNS dans la section Nom alternatif avec le FQDN de la passerelle, et confirmez sur la Clé privée que Rendre la clé privée exportable est bien sélectionné dans les options de clé. 
     
 4. Exportez le certificat SSL avec la Clé privée et suivez les instructions depuis votre fournisseur de passerelle RTC pour importer le certificat.
     
 ## <a name="update-the-domain-for-your-tenant"></a>Mettez à jour le domaine pour votre client
 
-Assurez-vous d’avoir accompli les étapes pour mettre à jour votre domaine dans Office 365 et d’avoir la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la façon de configurer votre domaine dans Office 365, voir [vidéo : configurer votre domaine dans Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+Assurez-vous d’avoir accompli les étapes pour mettre à jour votre domaine dans Office 365 et d’avoir la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la façon de configurer votre domaine dans Office 365, voir [Ajouter un domaine à Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Ajouter des enregistrements dans Office 365 pour Edge
 
@@ -64,7 +64,7 @@ Ajoutez les enregistrements DNS suivants à votre client Office 365. Pour plus 
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>Configurationd’une connectivité hybride entre la version Cloud Connector et Office 365
 
-Pour configurer la connectivité hybride entre votre Skype pour le déploiement dans le nuage connecteur Édition et votre client Office 365, exécutez l’applet de commande suivante dans une session PowerShell distante. Pour savoir comment établir une session PowerShell distante, voir : [À l’aide de Windows PowerShell pour gérer Skype pour Business Online](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
+Pour configurer la connectivité hybride entre votre Skype pour le déploiement dans le nuage connecteur Édition et votre client Office 365, exécutez l’applet de commande suivante dans une session PowerShell distante. Pour savoir comment établir une session PowerShell distante, consultez : [configuration de votre ordinateur pour Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
 L’applet de commande définit le nom de domaine complet du serveur dʼaccès Edge. Dans la première des commandes, le \<externe Access Edge FQDN\> doit être l’un pour le rôle de serveur Edge d’accès SIP. Par défaut, il doit s’agir ap.\<nom de domaine\>.
   
@@ -90,7 +90,7 @@ Si vous utilisez TLS entre les serveurs de médiation et les passerelles, vous d
     
   - Modifiez le modèle Serveur web existant pour permettre aux utilisateurs authentifiés de s’inscrire ou de créer un modèle Serveur web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificats](https://technet.microsoft.com/library/cc730705.aspx).
     
-  - Demandez un certificat à l’aide du composant logiciel enfichable Certificats, en sélectionnant le modèle de serveur Web que vous avez autorisé. Assurez-vous d’indiquer le nom commun dans la section Sujet et le nom DNS dans la section Nom alternatif avec le FQDN de la passerelle, et confirmez sur la Clé privée que Rendre la clé privée exportable est bien sélectionné dans les options de clé. Pour obtenir des instructions détaillées, voir [demander un certificat](https://technet.microsoft.com/library/cc730689.aspx).
+  - Demandez un certificat à l’aide du composant logiciel enfichable Certificats, en sélectionnant le modèle de serveur Web que vous avez autorisé. Assurez-vous d’indiquer le nom commun dans la section Sujet et le nom DNS dans la section Nom alternatif avec le FQDN de la passerelle, et confirmez sur la Clé privée que Rendre la clé privée exportable est bien sélectionné dans les options de clé. 
     
 4. Exportez le certificat SSL avec la Clé privée et suivez les instructions depuis votre fournisseur de passerelle RTC pour importer le certificat.
     
@@ -102,7 +102,7 @@ Ouvrez une session le portail d’administration d’Office 365, ajoutez les uti
   
 ## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Permettre aux utilisateurs pour le système téléphonique dans les services voix et de la messagerie vocale d’Office 365
 
-Après avoir ajouté vos utilisateurs vers Office 365, activer leur compte de système téléphonique dans les services de téléphonie Office 365, y compris la messagerie vocale. Pour activer ces fonctionnalités, vous devez vous connecter à votre client Office 365 avec un compte de rôle d’administrateur général Office 365, et être en mesure d’exécuter PowerShell à distance. Pour savoir comment établir une session PowerShell distante, voir : [À l’aide de Windows PowerShell pour gérer Skype pour Business Online](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
+Après avoir ajouté vos utilisateurs vers Office 365, activer leur compte de système téléphonique dans les services de téléphonie Office 365, y compris la messagerie vocale. Pour activer ces fonctionnalités, vous devez vous connecter à votre client Office 365 avec un compte de rôle d’administrateur général Office 365, et être en mesure d’exécuter PowerShell à distance. Pour savoir comment établir une session PowerShell distante, consultez : [configuration de votre ordinateur pour Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
   
 - Attribuer la stratégie à l’utilisateur et configurez vocale numéro de téléphone professionnel l’utilisateur, que vous pouvez spécifier avec la valeur du paramètre **Identity** :
     
@@ -141,7 +141,7 @@ Pour réactiver international l’appel sur chaque utilisateur une fois qu’il 
   
 ## <a name="assign-users-to-pstn-sites"></a>Affecter les utilisateurs aux sites RTC
 
-Utilisez PowerShell en client distant pour affecter un site aux utilisateurs, même si vous avez déployé un site unique. Pour savoir comment établir une session PowerShell distante, voir : [À l’aide de Windows PowerShell pour gérer Skype pour Business Online](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
+Utilisez PowerShell en client distant pour affecter un site aux utilisateurs, même si vous avez déployé un site unique. Pour savoir comment établir une session PowerShell distante, consultez : [configuration de votre ordinateur pour Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
 ```
 # Set the site to users
@@ -166,7 +166,7 @@ Lorsqu’un appel P2P est transmis à une conférence PSTN, le Skype pour le ser
     
     Utilisez le domaine SIP par défaut du nuage connecteur (le premier domaine SIP dans le fichier .ini) en tant que le domaine de l’utilisateur.
     
-    Attribuer une licence Office 365 (par exemple, E5) pour le compte que vous créez.
+    Veuillez noter qu’affectation de licence n’est requis pour la propagation de l’utilisateur dans le Skype pour annuaire d’entreprise en ligne. Attribuer une licence Office 365 (par exemple, E5) pour le compte que vous créez, autoriser une heure pour propager les modifications, puis supprimez la licence de ce compte.
     
 2. Démarrer une session PowerShell distante de client à l’aide de votre client les informations d’identification d’administration, puis exécutez l’applet de commande suivante pour définir le serveur de médiation et le FQDN du serveur Edge à cet utilisateur de compte, remplaçant \<DisplayName\> avec le nom complet de l’utilisateur pour le vous avez créé de compte :
     

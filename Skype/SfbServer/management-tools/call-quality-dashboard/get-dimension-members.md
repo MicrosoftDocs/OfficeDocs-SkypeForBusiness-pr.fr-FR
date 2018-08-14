@@ -10,33 +10,34 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
-description: 'Résumé : Découvrez l’opération obtenir les membres de Dimension. L’opération obtenir les membres de Dimension fait partie de l’API de données pour appeler le tableau de bord qualité. Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 6da1b8f6d93dc197df320f1fb5875a6269a9b45a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez l’opération obtenir les membres de Dimension. L’opération obtenir les membres de Dimension fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
+ms.openlocfilehash: e15f63d5ad52c9fbc52d692fd5bbb0480a41a50a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569277"
 ---
 # <a name="get-dimension-members"></a>Obtenir les membres de Dimension
  
-**Résumé :** Obtenir des informations sur l’opération obtenir les membres de Dimension. L’opération obtenir les membres de Dimension fait partie de l’API de données pour appeler le tableau de bord qualité. Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur l’opération obtenir les membres de Dimension. L’opération obtenir les membres de Dimension fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.
   
-L’opération obtenir les membres de Dimension fait partie de l’API de données pour appeler le tableau de bord qualité.
+L’opération obtenir les membres de Dimension fait partie de l’API de données pour le tableau de bord qualité des appels.
   
 ## <a name="get-dimension-members"></a>Obtenir les membres de Dimension
 
-Opération d’obtention de membres de Dimension renvoie la liste des membres d’une dimension spécifique. Cela donne aussi la possibilité de filtrer la liste des membres et obtenir un sous-ensemble, afin de réduire le coût de transfert de fil.
+Opération de membres de Dimension Get renvoie la liste des membres d’une dimension spécifique. Cela donne aussi la possibilité de filtrer la liste des membres et obtenir un sous-ensemble, afin de réduire le coût de transfert filaire.
   
 
-|**Méthode**|**URI de la demande**|**Version de HTTP**|
+|**Méthode**|**URI de la demande**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Publier  <br/> |https://\<portal\>/QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
+|Publier  <br/> |https://\<portal\>/QoEDataService/DimensionMembers  <br/> |HTTP/1.1.  <br/> |
    
- **Les paramètres URI** - None.
+ **Paramètres d’URI** - None.
   
- **En-têtes de requête** - aucun en-tête supplémentaire.
+ **En-têtes de demande** - aucun en-tête supplémentaire.
   
- **Corps de la demande** - cela contient le nom de dimension, nous souhaitons que les membres de. Également un nombre maximal de membres retournés, à côté de vous pouvez spécifier un filtrage pour limiter les membres renvoyés.
+ **Corps de demande** - il contient le nom de nous voulons les membres de dimension. Nombre maximal de membres renvoyés, situé en regard de vous pouvez également spécifier une partie du filtrage pour limiter les membres renvoyés.
   
 ```
 {
@@ -47,19 +48,18 @@ Opération d’obtention de membres de Dimension renvoie la liste des membres d�
 "PageNumber": 0,
 "PageSize": 8000
 }
-
 ```
 
- **Réponse** : la réponse contient un code d’état HTTP et d’un ensemble d’en-têtes de réponse.
+ **Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
   
  **Code d’état** - une opération réussie retourne un code d’état 200 (OK).
   
  **En-têtes de réponse** - aucun en-tête supplémentaire.
   
- **Corps de la réponse** - vous trouverez ci-dessous une exemple charge utile de réponse au format JSON en réponse à une demande de « [DateDébut]. [Mois] » dimension.
+ **Corps de réponse** - Voici une exemple charge utile de réponse dans JSON en réponse à une demande de « [StartDate]. [Mois] » dimension.
   
 > [!NOTE]
-> La liste affiche uniquement une petite partie de la liste. 
+> La liste est visible uniquement une petite partie de la liste. 
   
 ```
 {
@@ -82,7 +82,4 @@ Opération d’obtention de membres de Dimension renvoie la liste des membres d�
 ["[2031-01-01T00:00:00]",
 "January 2031"]]
 }
-
 ```
-
-

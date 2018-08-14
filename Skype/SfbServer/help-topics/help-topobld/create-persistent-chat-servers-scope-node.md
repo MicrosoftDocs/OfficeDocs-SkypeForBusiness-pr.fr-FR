@@ -11,18 +11,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
-description: 'Cliquez droit sur le Pool de conversation permanent dans le Générateur de topologies pour effectuer les opérations suivantes :'
-ms.openlocfilehash: 0fce18fb4e0882141b28cb073ce1b4e608487c02
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Vous cliquez avec le bouton droit sur Pool de conversations permanentes dans le Générateur de topologie pour effectuer les actions suivantes :'
+ms.openlocfilehash: e8126dd3576d71a955c45a53c4fd2cd66eb14142
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503437"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Créer un nœud d’étendue des serveurs de conversation permanente
  
-Cliquez droit sur le **Pool de conversation permanent** dans le Générateur de topologies pour effectuer les opérations suivantes :
+Vous cliquez avec le bouton droit sur **Pool de conversations permanentes** dans le Générateur de topologie pour effectuer les actions suivantes :
   
-- **Nouveau Pool persistant Chat**: démarre l’Assistant de **Définir un nouveau Pool de Chat permanent** permet de définir un nouveau serveur de Chat persistant ou pool.
+- **Nouveau Pool de conversations permanentes**: démarre l’Assistant **Définir un nouveau Pool de conversations permanentes** utilisé pour définir un nouveau serveur de conversation permanente ou pool.
     
 Outre l’option Nouveau pool de conversations permanentes, vous pouvez effectuer les tâches générales suivantes :
   
@@ -32,9 +33,6 @@ Outre l’option Nouveau pool de conversations permanentes, vous pouvez effectue
     
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Plan pour un serveur de conversation permanents dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planifier un serveur de conversation permanente dans Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Ajouter serveur de Chat permanente à votre Skype pour la topologie de Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+[Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

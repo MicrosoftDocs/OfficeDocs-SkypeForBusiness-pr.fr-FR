@@ -1,5 +1,5 @@
 ---
-title: Exécuter requête
+title: Exécuter la requête
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,33 +10,34 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
-description: 'Résumé : Découvrez l’opération d’exécuter la requête, qui fait partie de l’API de données pour appeler le tableau de bord qualité. Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 6e294625e173854382e39abc098a0480871586ac
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez l’opération d’exécuter la requête, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
+ms.openlocfilehash: 3720ce118537963e5093741c4f05315e887bd60d
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569746"
 ---
-# <a name="run-query"></a>Exécuter requête
+# <a name="run-query"></a>Exécuter la requête
  
-**Résumé :** Obtenir des informations sur l’opération d’exécuter la requête, qui fait partie de l’API de données pour appeler le tableau de bord qualité. Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur l’opération d’exécuter la requête, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.
   
-L’opération d’exécuter la requête fait partie de l’API de données pour appeler le tableau de bord qualité.
+L’opération d’exécuter la requête fait partie de l’API de données pour le tableau de bord qualité des appels.
   
-## <a name="run-query"></a>Exécuter requête
+## <a name="run-query"></a>Exécuter la requête
 
-Exécuter la requête d’opération fournit la possibilité d’exécuter une requête sur le cube basé sur les filtres, les mesures et les dimensions spécifiées et renvoyer de nouveau les données.
+Exécuter la requête d’opération offre la possibilité d’exécuter une requête sur le cube basé sur des filtres, des mesures et dimensions spécifiées et renvoyer dans les données.
   
 
-|**Méthode**|**URI de la demande**|**Version de HTTP**|
+|**Méthode**|**URI de la demande**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Publier  <br/> |https://\<portal\>/QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
+|Publier  <br/> |https://\<portal\>/QoEDataService/RunQuery  <br/> |HTTP/1.1.  <br/> |
    
- **Les paramètres URI** - None.
+ **Paramètres d’URI** - None.
   
- **En-têtes de requête** - aucun en-tête supplémentaire.
+ **En-têtes de demande** - aucun en-tête supplémentaire.
   
- Le **Corps de la demande** - ici est une charge utile de demande exemple au format JSON. Il contient des dimensions, des filtres et mesure requise pour une requête.
+ **Corps de la requête** - ici est une charge utile d’exemple demande au format JSON. Il contient des dimensions, des filtres et mesure requis pour une requête.
   
 ```
 {
@@ -69,24 +70,23 @@ Exécuter la requête d’opération fournit la possibilité d’exécuter une r
 "Type": 0
 }
 }
-
 ```
 
- *Filtres* : une liste d’expressions de filtre à appliquer tels que le jeu de données obtenu reflète uniquement le sous-ensemble des données qui vous intéressent.
+ *Filtres* - une liste d’expressions de filtre à appliquer tels que l’ensemble de données qui en résulte reflète uniquement le sous-ensemble de données qui présentent un intérêt.
   
- *Dimensions* - une liste des dimensions qui sera utilisé pour l’agrégation des données. Au moins une dimension est obligatoire, mais plusieurs dimensions peuvent être spécifiées pour obtenir un niveau supplémentaire d’agrégations secondaire.
+ *Dimensions* - liste des dimensions qui sera utilisé pour regrouper les données. Au moins une dimension est requise mais plusieurs dimensions peuvent être spécifiées pour obtenir un niveau supplémentaire de sous-sites agrégations.
   
- *Mesures* - une liste de mesures, également connu sous le nom des faits, que les mesures souhaitées pour être regroupé en agrégats basés sur les dimensions que vous avez spécifié.
+ *Des mesures* - une liste de mesures, également appelé faits, qui sont les mesures souhaitées pour être regroupés selon les dimensions que vous avez spécifié.
   
- *Tendance* - instructions de contrôle supplémentaire pour personnaliser les données de résultat.
+ *Tendance* - instructions de contrôle supplémentaire pour personnaliser les données résultantes.
   
- **Réponse** : la réponse contient un code d’état HTTP et d’un ensemble d’en-têtes de réponse.
+ **Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
   
  **Code d’état** - une opération réussie retourne un code d’état 200 (OK).
   
  **En-têtes de réponse** - aucun en-tête supplémentaire.
   
- **Corps de la réponse** - Voici une charge utile d’exemple réponse au format JSON. Il contient une table de données qui contient les données, il contient également une métadonnées, ce qui indique la durée d’exécution de requête et non les données à partir du cache.
+ **Corps de réponse** - vous trouverez ci-dessous une charge utile d’exemple réponse au format JSON. Elle contient une table de données qui contient les données, il contient également une métadonnées, qui indique la durée d’exécution de requête et ou non les données à partir du cache.
   
 ```
 {
@@ -122,10 +122,8 @@ Exécuter la requête d’opération fournit la possibilité d’exécuter une r
 
 ```
 
- *Temps d’exécution* : le temps total que nécessaire pour le serveur retourner les données. Cela peut ou non impliquer la cache.
+ *Durée d’exécution* : la durée totale que nécessaire pour le serveur renvoyer les données. Cela peut ou non impliquer du cache.
   
- *Résultat des données* - le résultat de la requête. Il s’agit d’un tableau à deux dimensions contenant toutes les permutations des membres des dimensions et chaque élément contenant les noms des membres des dimensions, ainsi que les valeurs agrégées de mesure spécifié.
+ *Données* - le résultat de la requête. Il est un tableau à deux dimensions contenant toutes les permutations de membres des dimensions et chaque élément contenant les noms de membres des dimensions, ainsi que les valeurs agrégées des mesures spécifiés.
   
- *Il en résulte du Cache* - pour les tests de diagnostic. Indique si le résultat est retourné à partir du cache ou du cube QoE.
-  
-
+ *Il en résulte du Cache* - diagnostics. Indique si le résultat provient du cache ou du cube QoE.

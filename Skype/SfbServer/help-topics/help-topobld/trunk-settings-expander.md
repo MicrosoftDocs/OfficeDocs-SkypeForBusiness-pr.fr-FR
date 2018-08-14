@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 'Pour modifier les paramètres d’une jonction SIP, procédez comme suit :'
-ms.openlocfilehash: 13ea9abfb6d53b57333c2c96b8a2f8adde963ebf
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e0b88dbd6d3cdd97da7a8b8f27c9c00a8395afb6
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504781"
 ---
 # <a name="trunk-settings-expander"></a>Expanseur des paramètres de la jonction
  
@@ -30,20 +31,17 @@ Pour modifier les paramètres d’une jonction SIP, procédez comme suit :
   
  **Protocole de transport SIP** : le protocole utilisé est le protocole TCP ou le protocole TLS. Le protocole TLS est le protocole par défaut. Pour connaître la prise en charge de la passerelle, reportez-vous à la documentation du fournisseur de la passerelle. Le protocole par défaut, le protocole TLS, est un choix plus sécurisé si la passerelle le prend en charge.
   
- **Associé à un serveur de médiation**: sélectionnez un serveur de médiation existant dans le déploiement à associer à la jonction SIP.
+ **Serveur de médiation associé**: sélectionnez un serveur de médiation existant dans le déploiement à associer à la jonction SIP.
   
 > [!NOTE]
-> Uniquement le tronc racine peut être associé à un Microsoft Lync Server 2010 ou un serveur de médiation de Lync Server 2013. 
+> Seule une jonction racine peut être associée à un serveur de médiation Lync Server 2013 ou de Lync Server 2010. 
   
- **Port de serveur de médiation associé**: une valeur requise, il est défini à la valeur configurée pour le serveur de médiation écoutent.
+ **Port du serveur de médiation associé**: valeur requise, il est défini par la valeur que le serveur de médiation est configuré pour écouter sur.
   
 ![Expanseur des paramètres de la jonction](../../media/Trunk_Settings_Expander.jpg)
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Liste de vérification de déploiement SIP Trunking](http://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[Liste de vérification du déploiement acheminement SIP](http://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
   
-[Les composants et les Topologies pour SIP Trunking](http://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
-
+[Composants et Topologies pour la jonction SIP](http://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)

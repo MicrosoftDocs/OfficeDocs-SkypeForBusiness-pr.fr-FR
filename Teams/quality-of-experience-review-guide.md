@@ -2,7 +2,7 @@
 title: Qualité de consulter le Guide de l’expérience pour les équipes Microsoft
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
@@ -12,11 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0a251887b6c71c113c4ec9a25a812d4b9f6b827
-ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
+ms.openlocfilehash: 7579a87d2c59a47304d06fd05e11b37a97544a79
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694919"
 ---
 # <a name="quality-of-experience-review-guide"></a>Qualité de consulter le Guide de l’expérience
 
@@ -105,7 +106,7 @@ _Tableau 1 : mesures d’évaluation principaux cible d’intégrité_
 |               | Qualité pour les réseaux gérés | Fiabilité pour les réseaux gérés |                      |
 |---------------|------------------------------|----------------------------------|----------------------|
 | Nom de métrique   | % De taux d’appel audio médiocre      | Appeler le programme d’installation % d’erreurs            | Appel de dépôt % d’erreurs |
-| Cible de l’exemple | \<% 3                         | \<1 %                             | \<4 %                 |
+| Cible de l’exemple | \<3%                         | \<1 %                             | \<4 %                 |
 
 Il est important de discuter et définir les objectifs de votre organisation pour répondre aux objectifs de votre entreprise. Idéalement, vous devez identifier ces cibles avant le déploiement.
 
@@ -1139,10 +1140,10 @@ _Le tableau 11 - des exigences de performances réseau_
 | Mesure                           | Client vers Microsoft Edge           | Périphérie client vers Microsoft Edge    |
 |----------------------------------|------------------------------------|------------------------------------|
 | Latence (unidirectionnelle)                | \<50 ms                            | \<30 ms                            |
-| Latence (durée aller-retour ou temps d’aller-retour) | \<100 ms                           | \<60 ms                            |
+| Latence (RTT or durée de l'aller-retour) | \<100 ms                           | \<60 ms                            |
 | Perte de paquets en rafale                | \<10 % au cours de l’intervalle de 200-ms   | \<1 % au cours de l’intervalle de 200-ms    |
 | Perte de paquets                      | \<1 % au cours de l’intervalle de 15-s    | \<0,1 % au cours de l’intervalle de 15-s  |
-| Gigue arrivée entre des batteries de paquets      | \<30 ms pendant l’intervalle de 15-s | \<15 ms pendant l’intervalle de 15-s |
+| Gigue entre les arrivées de paquets      | \<30 ms pendant l’intervalle de 15-s | \<15 ms pendant l’intervalle de 15-s |
 | Réorganisation des paquets                   | \<paquets d’ordre 0,05 %       | \<paquets d’ordre 0,01 %      |
 
 Pour plus d’informations, consultez l’article suivant sur [média qualité et les performances réseau](https://aka.ms/performancerequirements) pour les équipes et Skype pour Business Online.

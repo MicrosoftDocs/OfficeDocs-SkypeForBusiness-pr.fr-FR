@@ -1,7 +1,7 @@
 ---
 title: Planifier des clients et des appareils
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Résumé : Examen des clients pris en charge et des applications pour Skype pour les entreprises.'
-ms.openlocfilehash: 4e8e5eccec587855d2af5c204710bc0afff50049
-ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
+ms.openlocfilehash: f17061c9112ca4820f47b93b2c7b515b0873c711
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21223798"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22391740"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planifier des clients et des appareils
  
@@ -173,4 +173,4 @@ Voir les articles suivants de comprendre les fonctionnalités prises en charge, 
 
 ## <a name="see-also"></a>Voir aussi 
 
-[Dernières mises à jour pour les versions de Skype pour les entreprises qui utilisent Windows Installer (MSI)](../../sfb-client-updates.md)
+[Dernières versions de Skype Entreprise qui utilisent Windows Installer (MSI)](../../sfb-client-updates.md)

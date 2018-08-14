@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Vous accédez le Skype pour l’outil de planification de 2015 Business Server à l’aide d’une combinaison d’une barre d’outils, les boutons spécifiques à la page et les liens et les volets spécifique au contexte. Les volets contextuels fournissent des informations conceptuelles sur la planification et la capacité appropriées pour les options de sélection sur une page spécifique.
-ms.openlocfilehash: a2e8ff3c25476c6524656d2d11abf624603d6acd
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: aaa31f044b4a1e4cd1ad6c697f638d44ffb65202
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505152"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Accéder à l’outil de planification dans Skype Entreprise Server 2015
  
@@ -43,11 +44,8 @@ En outre, des informations de matériel sont affichées dans la vue d’ensemble
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Créer la conception de topologie initiale pour Skype pour Business Server 2015](create-the-initial-design.md)
+[Création de la conception de topologie initiale pour Skype Entreprise Server 2015](create-the-initial-design.md)
 
 [Modification de la conception](http://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
   
 [Consultation des rapports de l’administrateur](http://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
-

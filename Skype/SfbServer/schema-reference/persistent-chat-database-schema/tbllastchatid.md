@@ -9,34 +9,32 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
-description: tblLastChatId contient le dernier ID de conversation qui a été généré (et utilisé dans la table tblChat) pour chaque utilisateur.
-ms.openlocfilehash: 4a22dc9ba1c2dbe15ae0a24de6e4f347a62deaee
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: tblLastChatId contient le dernier ID de conversation généré (et utilisé dans la table tblChat) pour chaque utilisateur.
+ms.openlocfilehash: dc25eb68ee1b4069ba54133548f743ca45b73e16
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505088"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  
-tblLastChatId contient le dernier ID de conversation qui a été généré (et utilisé dans la table tblChat) pour chaque utilisateur.
+tblLastChatId contient le dernier ID de conversation généré (et utilisé dans la table tblChat) pour chaque utilisateur.
   
 **Colonnes**
 
-|**Colonne**|**Type de**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |nodeID  <br/> |int, non null  <br/> |ID de nœud (salle de conversation de type uniquement).  <br/> |
-|lastChatID  <br/> |bigint, non null  <br/> |Dernier ID de conversation d’utilisés.  <br/> |
+|lastChatID  <br/> |bigint, non null  <br/> |Dernier ID de conversation utilisé.  <br/> |
    
 **Clés**
 
 |**Colonne**|**Description**|
 |:-----|:-----|
-|\<nodeID, lastChatID\>  <br/> |Clé primaire (nodeID uniquement est suffisant pour le traitement).  <br/> |
-|nodeID  <br/> |Clé étrangère avec la recherche dans la table de tblNode.nodeID.  <br/> |
+|\<nodeID, lastChatID\>  <br/> |Clé primaire (nodeID est suffisant pour le traitement).  <br/> |
+|nodeID  <br/> |Clé étrangère avec recherche dans la table tblNode.nodeID.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
 [tblChat](tblchat.md)
-

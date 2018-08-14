@@ -10,41 +10,42 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
-description: 'Résumé : Découvrez l’opération obtenir un Cube, qui fait partie de l’API de données pour appeler le tableau de bord qualité. Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: e39a88e249dc807b201b08d966285d93ae7f82a6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez l’opération obtenir un Cube, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
+ms.openlocfilehash: bbb2419fb66f6ecf397a2ccbcb4fe2858ce0d8fe
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569144"
 ---
 # <a name="get-cube"></a>Obtenir le Cube
  
-**Résumé :** Obtenir des informations sur l’opération obtenir un Cube, qui fait partie de l’API de données pour appeler le tableau de bord qualité. Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur l’opération obtenir un Cube, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.
   
-L’opération obtenir un Cube est la partie de l’API de données pour appeler le tableau de bord qualité.
+L’opération obtenir le Cube fait partie de l’API de données pour le tableau de bord qualité des appels.
   
 ## <a name="get-cube"></a>Obtenir le Cube
 
-Opération d’obtention de Cube renvoie la liste des dimensions disponibles et des mesures.
+Opération de Cube Get renvoie la liste des dimensions disponibles et des mesures.
   
 
-|**Méthode**|**URI de la demande**|**Version de HTTP**|
+|**Méthode**|**URI de la demande**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Télécharger  <br/> |https://\<portal\>/QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
+|Télécharger  <br/> |https://\<portal\>/QoEDataService/CubeStructure  <br/> |HTTP/1.1.  <br/> |
    
- **Les paramètres URI** - None.
+ **Paramètres d’URI** - None.
   
- **En-têtes de requête** - aucun en-tête supplémentaire.
+ **En-têtes de demande** - aucun en-tête supplémentaire.
   
  **Corps de requête** - None.
   
- **Réponse** : la réponse contient un code d’état HTTP et d’un ensemble d’en-têtes de réponse.
+ **Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
   
  **Code d’état** - une opération réussie retourne un code d’état 200 (OK).
   
  **En-têtes de réponse** - aucun en-tête supplémentaire.
   
- **Corps de la réponse** - Voici une charge utile d’exemple réponse au format JSON.
+ **Corps de réponse** - vous trouverez ci-dessous une charge utile d’exemple réponse au format JSON.
   
 > [!NOTE]
 > Cet exemple affiche uniquement les deux premiers éléments de chaque groupes d’éléments de Cube. 
@@ -88,13 +89,12 @@ Opération d’obtention de Cube renvoie la liste des dimensions disponibles et 
 "Description": "Description of Audio Good Streams JPDR Count"
 }]
 }
-
 ```
 
- *Indicateurs de performance clés* - en réservé. La section des indicateurs de performance clés d’une charge utile de demande permet d’exécuter la requête opération retournent des valeurs pour les indicateurs de performance clés définies dans le cube. Aucun KPI n’existe encore dans le QoE Cube.
+ *Indicateurs de performance clés* - en réservé. La section des indicateurs de performance clés d’une charge utile de demande permet exécuter la requête renvoyer des valeurs pour les indicateurs de performance clés définis dans le cube. Aucun indicateurs de performance clés n’existent encore dans le QoE Cube.
   
- *Dimensions* - la liste des dimensions qui peut être utilisée dans les filtres et les Dimensions des sections d’une charge utile de demande pour l’opération d’exécuter la requête. Pour utiliser une dimension dans une expression de filtre, vous devez spécifier un membre de dimension, ce qui peut être obtenu à l’aide d’opération d’obtenir les membres de Dimension.
+ *Dimensions* - la liste des dimensions qui peut être utilisé dans les sections de filtres et les Dimensions d’une charge utile de demande pour l’opération d’exécuter la requête. Pour utiliser une dimension dans une expression de filtre, vous devez spécifier un membre de dimension, qui peut être obtenu à l’aide d’opération obtenir les membres de Dimension.
   
- *Mesures* - la liste des mesures qui peut être utilisée dans la section mesures d’une charge utile de demande pour l’opération d’exécuter la requête.
+ *Des mesures* - la liste des mesures pouvant être utilisées dans la section mesures d’une charge utile de demande pour l’opération d’exécuter la requête.
   
 

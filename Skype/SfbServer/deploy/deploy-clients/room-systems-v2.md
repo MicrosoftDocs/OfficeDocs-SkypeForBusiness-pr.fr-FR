@@ -3,7 +3,6 @@ title: Déploiement de Skype Room System v2
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,11 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de systèmes de salle Skype v2.
-ms.openlocfilehash: 4ca621e17ea00a1f7f75ae0c34a1404f8962896c
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: 08d7444eea06eae3de2970b368eb1201828c8a07
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019455"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -36,15 +36,11 @@ Techniciens AV peuvent être utilisées pour la dernière tâche, mais que votre
 
 Alors que les périphériques commandés sont remis à votre organisation, travailler avec votre mise en réseau et les installations et les équipes d’a/v pour vous assurer que les dépendances de déploiement sont remplies et chaque site et la salle sont prêt en termes d’alimentation, réseau et les afficher. En outre, assurez-vous que les conditions d’installation physique sont remplies. Pour des considérations relatives à l’installation physique, visitez le site du fournisseur et tirer parti de l’expérience de votre équipe AV lors de l’installation et écrans de montage et câblage en cours d’exécution.
 
-<!-- These are now links to nowhere; ask Lester and James about them.
+Vous pouvez trouver plus d’informations sur ces dépendances dans les liens du Guide de planification ci-dessous :
 
-You can find out more about these dependencies in the planning guidance links below:
-
--   [Network](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#check-network-availability)
--   [Certificates](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#certificates)
--   [Proxy](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#proxy)
-
--->
+-   [Vérification de la disponibilité du réseau](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#check-network-availability) 
+-   [Certificats](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#certificates)
+-   [Proxy](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#proxy)
 
 **Conseil pro** - si vous envisagez d’utiliser des serveurs proxy pour fournir l’accès à Skype pour Business en ligne, d’abord [Lisez cet article](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Notez que lorsqu’il s’agit Skype pour le trafic métiers via des serveurs proxy, nous vous recommandons d’ignorer complètement les serveurs proxy. Skype pour le trafic d’entreprise est déjà chiffré, les serveurs proxy ne pas rendre plus sécurisé. Dans le cadre de votre plus large Skype pour le déploiement d’entreprise, nous vous conseillons de suivre les instructions de [évaluer mon environnement](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) pour la bande passante de planification et d’évaluation de pertinence de votre réseau pour le trafic en temps réel. Pour toute la bande passante planification, utilisez le [Planificateur de réseau MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (Nous vous conseillons de créer un personnage v2 de systèmes de salle Skype pour refléter l’utilisation v2 Skype salle systèmes prévue [vidéo, partage d’écran, audio] et affecter un nombre d’utilisateurs qui correspond au nombre d’unités de systèmes de salle Skype pour être déployés sur chaque site.) 
 
@@ -73,8 +69,8 @@ Pour préparer votre déploiement de systèmes de salle Skype, effectuez la clé
 
 Selon les scénarios de collaboration que vous avez décidé d’activer avec votre déploiement de v2 Skype salle systèmes, vous devez déterminer les fonctionnalités que vous assignez à chaque compte de service v2 Skype salle systèmes qui vous permettent.
 
-| **Scénario**                    | **Description**                                                                                              | **Fonctionnalité de compte de service Skype salle systèmes v2**                          |
-|---------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| **Scénario** | **Description** | **Fonctionnalité de compte de service Skype salle systèmes v2** |
+|---------- |------------- | --- |
 | Réunions interactives            | À l’aide de la voix, vidéo et partage d’écran ; émission d’une ressource bookable le v2 de systèmes de salle de Skype                     | Activé pour Skype pour les entreprises, activé pour Exchange (boîtes aux lettres de ressources) |
 | Conférence rendez-vous            | Activer le démarrage de réunions *directement* depuis la console de v2 de systèmes de salle Skype avec les coordonnées de conférence rendez-vous | Activé pour l’audioconférence                                          |
 | Entrante/sortante l’appel PSTN | Activer la console v2 de systèmes de salle Skype émettre et recevoir des appels PSTN                                         | Activé pour le système téléphonique                                                |

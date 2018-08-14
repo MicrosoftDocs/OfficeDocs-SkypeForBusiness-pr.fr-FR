@@ -1,5 +1,5 @@
 ---
-title: Obtenir des éléments
+title: Extraire des éléments
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,43 +10,44 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
-description: 'Résumé : Découvrez l’opération obtenir les éléments, qui fait partie de l’article de Service. L’article de Service fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 526d578d65ded98a6cd1a5cfc09a6749319683c3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Découvrez l’opération obtenir les éléments, ce qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
+ms.openlocfilehash: 628dd1e40014dc819ca926af6ea09a9475cb6efe
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569427"
 ---
-# <a name="get-items"></a>Obtenir des éléments
+# <a name="get-items"></a>Extraire des éléments
  
-**Résumé :** Obtenir des informations sur l’opération obtenir les éléments, qui fait partie de l’article de Service. L’article de Service fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord qualité appel est un outil de Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur l’opération obtenir les éléments, ce qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.
   
-L’opération obtenir les éléments fait partie de l’article Service dans l’API de référentiel pour appeler le tableau de bord qualité.
+L’opération obtenir les éléments fait partie du Service d’élément dans l’API de référentiel pour appeler le tableau de bord qualité.
   
-## <a name="get-items"></a>Obtenir des éléments
+## <a name="get-items"></a>Extraire des éléments
 
-Obtenir les éléments retourne tous les éléments dans le référentiel.
+Obtenir les éléments renvoie tous les éléments dans le référentiel.
   
-|**Méthode**|**URI de la demande**|**Version de HTTP**|
+|**Méthode**|**URI de la demande**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Télécharger  <br/> |https://\<portal\>/QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |
+|Télécharger  <br/> |https://\<portal\>/QoERepositoryService/repository/item  <br/> |HTTP/1.1.  <br/> |
    
- **Les paramètres URI** - None.
+ **Paramètres d’URI** - None.
   
- **En-têtes de requête** - aucun en-tête supplémentaire.
+ **En-têtes de demande** - aucun en-tête supplémentaire.
   
  **Corps de requête** - None.
   
- **Réponse** : la réponse contient un code d’état HTTP et d’un ensemble d’en-têtes de réponse.
+ **Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
   
  **Code d’état** - une opération réussie retourne un code d’état 200 (OK).
   
  **En-têtes de réponse** - aucun en-tête supplémentaire.
   
- **Corps de la réponse** - Voici une charge utile d’exemple réponse au format JSON.
+ **Corps de réponse** - vous trouverez ci-dessous une charge utile d’exemple réponse au format JSON.
   
 > [!NOTE]
-> Un tableau d’objets d’élément est retourné. Pour plus d’informations sur l’objet de l’élément, consultez obtenir l’élément. 
+> Un tableau d’objets d’élément est renvoyé. Pour plus d’informations sur l’objet d’élément, voir obtenir un élément. 
   
 ```
 [{
@@ -64,7 +65,4 @@ Obtenir les éléments retourne tous les éléments dans le référentiel.
 "userId": 0,
 "type": "application/json"
 }]
-
 ```
-
-

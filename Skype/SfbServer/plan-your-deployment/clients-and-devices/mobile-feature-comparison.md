@@ -1,7 +1,7 @@
 ---
 title: Comparaison des fonctionnalités de client mobile pour Skype pour les entreprises
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Résumé : Passez en revue la prise en charge de la fonctionnalité pour le client mobile lors de la planification pour Skype pour Business Server.'
-ms.openlocfilehash: f773062744afeb97ddcd4f5e92b37ac534f05828
-ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
+ms.openlocfilehash: bd60468c9b7b741350d9b778d7c3fce8846b1aa3
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21223805"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22391754"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparaison des fonctionnalités de client mobile pour Skype pour les entreprises
  

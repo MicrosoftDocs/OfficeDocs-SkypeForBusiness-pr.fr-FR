@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article explique comment utiliser l’outil de récupération pour les systèmes de salle Skype v2, que vous utilisez pour intégrer un système obsolète à un état pris en charge.
-ms.openlocfilehash: 63deb332a520a0752242140f85f200a160eefe0d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: cd8e05be686cef1df44f364c515a6116edf06209
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504977"
 ---
 # <a name="use-the-skype-room-systems-v2-recovery-tool"></a>Utiliser l’outil de récupération de systèmes de salle Skype v2
  
@@ -60,9 +61,7 @@ Vous devez également installer [KB4089848](http://download.windowsupdate.com/d/
 
 <a name="See"> </a>  
 ## <a name="see-also"></a>Voir aussi
-
-
-#### 
+ 
 [Systèmes de salle Skype version 2](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Gérer les salles Skype systèmes v2](skype-room-systems-v2.md)
+[Gestion de Skype Room System v2](skype-room-systems-v2.md)

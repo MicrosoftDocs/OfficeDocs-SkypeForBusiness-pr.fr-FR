@@ -11,28 +11,26 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
-description: Les étapes nécessaires à la définition d’un nouveau rapport ou vidéo passerelle dans le Générateur de topologies sont décrites en ligne dans créer un pool de VIS dans Skype pour Business Server 2015.
-ms.openlocfilehash: 72833d3da8d7ef0aad75127e0e8bdfc455dc842b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server 2015.
+ms.openlocfilehash: de899ee4eaca8aa1a7d97938ebd77a8ab7f0b19b
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504291"
 ---
 # <a name="video-interop-server-general-settings"></a>Paramètres généraux du serveur d’interopérabilité vidéo (VIS)
  
-Les étapes nécessaires à la définition d’un nouveau rapport ou vidéo passerelle dans le Générateur de topologies sont décrites en ligne dans [créer un pool de VIS dans Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
+Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans [créer un pool VIS dans Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   
-Nécessaire pour attribuer un rôle de serveur d’interopérabilité de vidéo sur un serveur à l’aide de Windows PowerShell sont décrites en ligne à [déployer le rôle de serveur de VIS dans Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+Les étapes nécessaires pour attribuer un rôle de serveur d’interopérabilité vidéo sur un serveur à l’aide de Windows PowerShell sont décrites en ligne à [déployer le rôle de serveur VIS Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
 Les étapes de configuration pour un nouveau serveur d’interopérabilité vidéo à l’aide de Windows PowerShell sont décrites en ligne à [configurer le serveur d’interopérabilité vidéo dans Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md).
   
- Les paramètres d’une passerelle vidéo doivent être définis dans l’interface utilisateur graphique de Cisco pour l’interopérabilité avec une VIS sont décrites en ligne à [Configurer un CUCM pour l’interopérabilité avec Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
+ Les paramètres d’une passerelle vidéo qui doit être définie dans l’interface utilisateur Cisco pour l’interopérabilité avec une VIS sont décrites en ligne à [Configurer les CUCM pour l’interopérabilité avec Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
   
- Les paramètres pour un VTC qui doivent être définis dans l’interface utilisateur graphique de Cisco pour l’interopérabilité avec une passerelle de vidéo et d’une VIS sont décrites en ligne à [configurer un VTC pour l’interopérabilité avec Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
+ Les paramètres pour un VTC qui doit être définie dans l’interface utilisateur Cisco pour l’interopérabilité avec une passerelle de vidéo et un rapport sont décrites en ligne à [configurer un VTC pour l’interopérabilité avec Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Plan pour un serveur interopérabilité vidéo dans Skype pour Business Server 2015](../../plan-your-deployment/video-interop-server.md)
-
+[Planification du serveur d’interopérabilité vidéo dans Skype Entreprise Server 2015](../../plan-your-deployment/video-interop-server.md)

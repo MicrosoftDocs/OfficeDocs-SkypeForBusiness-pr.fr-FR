@@ -3,7 +3,7 @@ title: Plan de mise à niveau vers Skype Entreprise Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,32 +14,35 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Résumé : Découvrez les éléments que vous devez prendre en compte lorsque vous planifiez une mise à niveau vers Skype Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 51123e58c57445a0ad9deffb720a7e9c378cf58c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 15f8ba6568fc4ca26d1c9fd33a59a026a34def33
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505138"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009143"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Plan de mise à niveau vers Skype Entreprise Server 2015
  
 Résumé : Découvrez les éléments que vous devez prendre en compte lorsque vous planifiez une mise à niveau vers Skype Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 depuis le centre d’évaluation Microsoft à : [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Dans le cadre de votre plan de mise à niveau vers Skype pour Business Server 2015, utilisez cette rubrique pour comprendre comment les chemins de mise à niveau recommandées vers Skype pour Business Server 2015, les travaux de mise à niveau sur Place, quels sont les scénarios de coexistence pris en charge et quel le processus de mise à niveau ressemble à.
+
+> [!NOTE]
+> Mises à niveau sur place étaient disponibles dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. Côte à côte coexistence est pris en charge, consultez [Migration vers Skype pour Business Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) pour plus d’informations.
   
 ## <a name="recommended-upgrade-paths-to-skype-for-business-server-2015"></a>Chemins de mise à niveau recommandées à Skype pour Business Server 2015
 
  Mise à niveau à partir de Lync Server 2013, Lync Server 2010 ou Office Communications Server 2007 R2 vers Skype pour Business Server 2015, utilisez les chemins de mise à niveau suivants :
   
 > [!CAUTION]
-> La mise à niveau sur place met automatiquement à jour les répertoires de conférences de Lync Server 2013 vers Skype Entreprise Server 2015. Cependant, si vous envisagez d’effectuer cette procédure manuellement, il est important d’utiliser Skype Entreprise Server 2015 Management Shell. Si vous tentez d’utiliser Lync Server 2013 Management Shell pour effectuer la mise à niveau des répertoires de conférence de Lync Server 2013 vers Skype Entreprise Server 2015, vous risquez de perdre des données. En général, dès que vous travaillez avec Skype Entreprise 2015, quelle que soit la capacité, vous devez vous servir des outils Skype Entreprise Server 2015. 
+> La mise à niveau sur place met automatiquement à jour les répertoires de conférences de Lync Server 2013 vers Skype Entreprise Server 2015. Cependant, si vous envisagez d’effectuer cette procédure manuellement, il est important d’utiliser Skype Entreprise Server 2015 Management Shell. Si vous tentez d’utiliser Lync Server 2013 Management Shell pour effectuer la mise à niveau des répertoires de conférence de Lync Server 2013 vers Skype Entreprise Server 2015, vous risquez de perdre des données. En général, dès que vous travaillez avec Skype Entreprise 2015, quelle que soit la capacité, vous devez vous servir des outils Skype Entreprise Server 2015.  
   
 |**Version**|**Recommandations**|
 |:-----|:-----|
 |Lync Server 2013  <br/> | Pour mettre à niveau, utilisez le Skype pour le Générateur de topologie Business Server et la nouvelle fonctionnalité de mise à niveau sur Place sur chacun des serveurs associés au pool. Pour obtenir la procédure détaillée, voir [planifier une mise à niveau à partir de Lync Server 2013 pour Skype pour Business Server 2015](upgrade.md#BKMK_PlanUpgradeFromLync2013) et [mise à niveau vers Skype pour Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md) . <br/> |
 |Lync Server 2010 + Lync Server 2013 (mode double)  <br/> |Tout d’abord, mise à niveau vers Lync Server 2013, puis mettre à niveau vers Skype pour Business Server 2015 à l’aide de la nouvelle fonctionnalité de mise à niveau sur Place. En revanche, si votre topologie principale est Lync Server 2010, vous pouvez également rétrograder les composants Lync Server 2013 vers Lync Server 2010, puis mettre à niveau directement vers Skype Entreprise Server 2015. Dans ce cas, vous ne pourrez pas tirer parti de la mise à niveau sur place et utiliserez directement la coexistence entre Lync Server 2010 et Skype Entreprise Server 2015. La tri-existence n’est pas prise en charge, mais la coexistence l’est.  <br/> |
 |Lync Server 2010  <br/> |Ouvrez un nouveau pool Skype Entreprise Server 2015, puis faites migrer les utilisateurs vers ce nouveau pool. Vous pouvez ensuite désactiver l’ancien pool Lync Server 2010. Une mise à niveau de Lync Server 2010 vers Skype Entreprise Server 2015 s’apparente à une mise à niveau de Lync Server 2010 vers Lync Server 2013. Consultez la rubrique [Migration de Lync Server 2010 vers Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526615).  <br/> |
-|Office Communications Server 2007 R2  <br/> | Choisissez une des deux options : <br/>  Configurer un nouveau Skype pour environnement Business Server 2015. <br/>  Ou si vos matériels et logiciels répondent à la configuration requise pour Skype pour Business Server 2015, mise à niveau vers Lync Server 2013, puis mettre à niveau vers Skype pour Business Server 2015 à l’aide de la nouvelle fonctionnalité de mise à niveau sur Place. Pour plus d’informations, voir [configuration du serveur pour Skype pour Business Server 2015](requirements-for-your-environment/server-requirements.md) et [Migration d’Office Communications Server 2007 R2 vers Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526616).  <br/> |
+|Office Communications Server 2007 R2  <br/> | Choisissez l’une des deux options : <br/>  Configurer un nouveau Skype pour environnement Business Server 2015. <br/>  Ou si vos matériels et logiciels répondent à la configuration requise pour Skype pour Business Server 2015, mise à niveau vers Lync Server 2013, puis mettre à niveau vers Skype pour Business Server 2015 à l’aide de la nouvelle fonctionnalité de mise à niveau sur Place. Pour plus d’informations, voir [configuration du serveur pour Skype pour Business Server 2015](requirements-for-your-environment/server-requirements.md) et [Migration d’Office Communications Server 2007 R2 vers Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526616).  <br/> |
    
 > [!NOTE]
 > SQL Server 2014 est pris en charge dans Skype pour Business Server 2015, mais n’est pas pris en charge dans Lync Server 2013. Si vous souhaitez mettre à niveau à partir de SQL Server 2012 vers SQL Server 2014 puis le pool doit tout d’abord être mis à niveau vers Skype pour Business Server 2015 à l’aide de la méthode de mise à niveau sur Place comme décrit dans ce document. Vous pouvez ensuite mettre à niveau à partir de SQL Server 2012 pour SQL Server 2014, voir [mise à niveau vers SQL Server 2014](https://msdn.microsoft.com/en-us/library/bb677622%28v=sql.120%29.aspx). Pour en savoir plus sur les exigences de base de données, voir [configuration du serveur pour Skype pour Business Server 2015](requirements-for-your-environment/server-requirements.md). 
@@ -59,7 +62,7 @@ Mise à niveau sur place consiste à déconnecter le pool Lync Server 2013 et la
   
 ### <a name="create-an-in-place-upgrade-plan"></a>Créer un plan de mise à niveau sur place
 
-Créer un plan incluant :
+Établissez un plan avec ce qui suit :
   
 1. Une bonne compréhension de votre topologie actuelle.
     
@@ -86,7 +89,7 @@ Il existe deux scénarios pour la mise à niveau sur place :
     
 - La méthode Hors ligne, qui nécessite un temps d’arrêt.
     
-Il est recommandé qu’être planifiée, une mise à niveau de la méthode hors connexion pendant une période de maintenance et les utilisateurs sont avertis de la durée d’indisponibilité.
+Nous recommandons qu’une méthode de mise à niveau Hors ligne soit planifiée pendant une fenêtre de maintenance et que les utilisateurs soient informés du temps d’arrêt.
   
 > [!NOTE]
 > Lorsque vous mettez à niveau un pool associé sur Lync Server 2013 et que vous voulez mettre à niveau les deux pools vers Skype Entreprise Server 2015, veillez à mettre le deuxième pool à niveau tout de suite après la mise à niveau du premier pool. Lorsqu’un pool exécute Lync Server 2013 et que le deuxième pool exécute Skype Entreprise Server 2015, les options de récupération d’urgence sont réduites. Par exemple, si le premier pool exécute la version 2013 et le second, la version 2015 et qu’un sinistre se produit, vous risquez de perdre des données, car le basculement de pool n’est pas pris en charge en mode de récupération d’urgence lorsque les pools associés n’utilisent pas la même version. 
@@ -183,8 +186,8 @@ Pour les topologies de coexistence de Lync Server 2010 et Lync Server 2013, Alig
 ## <a name="see-also"></a>Voir aussi
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-[Mise à niveau vers Skype pour Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
+[Mise à niveau vers Skype Entreprise Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
   
-[Exigences pour Business Server 2015 Skype](requirements-for-your-environment/environmental-requirements.md)
+[Conditions préalables d’environnement pour Skype Entreprise Server 2015](requirements-for-your-environment/environmental-requirements.md)
   
-[Configuration du serveur pour Skype pour Business Server 2015](requirements-for-your-environment/server-requirements.md)
+[Configuration serveur requise pour Skype Entreprise Server 2015](requirements-for-your-environment/server-requirements.md)

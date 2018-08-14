@@ -11,24 +11,22 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
-description: Vous créez un nouveau serveur de Chat permanent ou d’un pool de serveur de conversation persistant à l’aide de l’Assistant de définir un nouveau Pool de Chat permanent. Sélectionnez soit un pool ordinateur plusieurs ou un seul ordinateur. Lorsque vous sélectionnez un pool comportant un seul ordinateur et qu’ensuite vous avez besoin d’un pool comportant plusieurs ordinateurs, vous devez supprimer le pool comportant un seul ordinateur afin de définir un pool comportant plusieurs ordinateurs.
-ms.openlocfilehash: b4fbeb54c926573e908b361e7556fab9d87da848
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Vous créez un nouveau serveur de conversation permanente ou un pool de serveurs de conversation permanente à l’aide de l’Assistant définir un nouveau Pool de conversation permanente. Sélectionnez un pool comportant plusieurs ordinateurs ou un pool comportant un seul ordinateur. Lorsque vous sélectionnez un pool comportant un seul ordinateur et qu’ensuite vous avez besoin d’un pool comportant plusieurs ordinateurs, vous devez supprimer le pool comportant un seul ordinateur afin de définir un pool comportant plusieurs ordinateurs.
+ms.openlocfilehash: 5dc548f791abe6aa0b697d69bc30ecf3af54d701
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503934"
 ---
 # <a name="define-persistent-chat-fqdn"></a>Définir le nom de domaine complet de la conversation permanente
  
-Vous créez un nouveau serveur de Chat permanent ou d’un pool de serveur de conversation persistant à l’aide de l’Assistant de **Définir un nouveau Pool de Chat permanent** . Sélectionnez un **pool comportant plusieurs ordinateurs** ou un **pool comportant un seul ordinateur**. Lorsque vous sélectionnez un pool comportant un seul ordinateur et qu’ensuite vous avez besoin d’un pool comportant plusieurs ordinateurs, vous devez supprimer le pool comportant un seul ordinateur afin de définir un pool comportant plusieurs ordinateurs.
+Vous créez un nouveau serveur de conversation permanente ou un pool de serveurs de conversation permanente à l’aide de l’Assistant **Définir un nouveau Pool de conversation permanente** . Sélectionnez un **pool comportant plusieurs ordinateurs** ou un **pool comportant un seul ordinateur**. Lorsque vous sélectionnez un pool comportant un seul ordinateur et qu’ensuite vous avez besoin d’un pool comportant plusieurs ordinateurs, vous devez supprimer le pool comportant un seul ordinateur afin de définir un pool comportant plusieurs ordinateurs.
   
-Vous devez également définir un **Pool de nom de domaine complet** pour le serveur de Chat permanent ou d’un pool de serveur de conversation persistant. Le nom de domaine complet (FQDN) pool pour un pool d’ordinateur unique doit être le même que le nom de domaine complet de l’ordinateur qui composent le pool de serveur unique. Pour un pool de plusieurs ordinateur, le nom de domaine complet doit être le nom que vous choisissez pour représenter ce pool ordinateur multiples et êtes défini dans le serveur DNS par un hôte (et AAAA si IPv6 est utilisé) enregistrement.
+Vous devez également définir un **Nom complet du Pool** pour le serveur de conversation permanente ou le pool de serveurs de conversation permanente. Le nom de domaine complet du pool (FQDN) pour un pool à ordinateur unique doit être le même que le nom de domaine complet de l’ordinateur qui composent le pool de serveur unique. Pour un pool de plusieurs ordinateurs, le nom de domaine complet doit être le nom que vous choisissez pour représenter ce pool de plusieurs ordinateurs et êtes défini dans DNS par un A hôte (et AAAA si IPv6 est utilisé) enregistrement.
   
 ## <a name="see-also"></a>Voir aussi
 
-#### 
-
-[Plan pour un serveur de conversation permanents dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planifier un serveur de conversation permanente dans Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Ajouter serveur de Chat permanente à votre Skype pour la topologie de Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+[Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

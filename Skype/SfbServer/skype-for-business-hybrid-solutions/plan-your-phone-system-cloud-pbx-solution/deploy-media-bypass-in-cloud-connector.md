@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lisez cette rubrique pour en savoir plus sur les étapes nécessaires pour déployer le contournement de média avec le nuage connecteur Edition version 2.0 et versions ultérieure.
-ms.openlocfilehash: 61beeec57bf245b899a898beb7bca8b14e462dca
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 4d0400682702c528e9e1ccb324731378d8c09b2c
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246686"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Déployer le contournement de média dans le nuage connecteur Edition
  
@@ -43,7 +44,8 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 Activer le contournement de média est un processus en deux étapes. L’applet de commande New-CsNetworkMedia n’enregistre pas immédiatement la nouvelle configuration ; Il crée les paramètres en mémoire. L’objet créé par cette applet de commande doit être enregistré dans une variable, puis affecté à la propriété MediaBypassSettings de la configuration réseau. Pour plus d’informations, voir [exemple : site web les enregistrements DNS dans les environnements multisites du contournement de média](deploy-media-bypass-in-cloud-connector.md#Example).
   
-La réplication entre les locaux et les composants en ligne peut prendre jusqu'à 24 heures, afin que Microsoft recommande que vous exécutez les commandes nécessaires avant d’activer les utilisateurs.
+La réplication entre les composants locaux et en ligne peut prendre jusqu'à 24 heures, c'est pourquoi Microsoft vous recommande d'exécuter les commandes nécessaires avant d'activer les utilisateurs. 
+
   
 ## <a name="confirm-media-bypass-settings"></a>Confirmer les paramètres de déviation du trafic multimédia
 
@@ -54,7 +56,6 @@ Pour vérifier la réplication en ligne pour votre pool de client, exécutez la 
 ```
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
-
 ```
 
 Pour vérifier la réplication locale, se connecter aux serveurs de médiation de connecteur dans le nuage, exécutez la commande suivante dans PowerShell et confirmez que Enabled = True et AlwaysBypass = True
@@ -67,7 +68,8 @@ Pour vérifier les paramètres du client, vous déconnecter le Skype pour client
   
 1. Ouvrez %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog.  
     
-2. Recherchez hybridconfigserviceinternalurl et vérifiez l’URL correspond à celui que vous avez définies.
+2. Recherchez hybridconfigserviceinternalurl et confirmez que l'URL correspond à celle que vous avez définie.
+
     
 ## <a name="change-media-bypass-parameters"></a>Modifier les paramètres de déviation du trafic multimédia
 
@@ -179,11 +181,12 @@ En utilisant la gestion du trafic basée sur la géolocalisation, les serveurs D
 4. Créez une stratégie DNS qui relie les sous-réseaux du client à l'étendue de zone appropriée pour assurer la résolution DNS souhaitée.
     
 À ce stade, les clients effectuant des requêtes DNS depuis le sous-réseau d'Amsterdam pour hybridvoice.adatum.biz renvoient les adresses 192.168.1.45, 192.168.1.46, 192.168.1.47 et 192.168.1.48, tandis que les clients effectuant des requêtes DNS depuis Seattle renvoient les adresses 10.10.1.8, 10.10.1.9 et 10.10.1.10.
+
+> [!NOTE]
+> Si l’appliance CCE ne semble pas obtenir les paramètres de mise à jour, vérifiez si elle n’est pas en mesure de contacter le client par le biais de PowerShell à distance. Vous pouvez utiliser PowerShell à distance pour vérifier l’état d’application avec Get-CsHybridPSTNAppliance ou comment utiliser PowerShell sur l’hôte CCE pour vérifier l’état avec Get-CcApplianceStatus.
+
   
 ## <a name="see-also"></a>Voir aussi
 <a name="Example"> </a>
 
-#### 
-
-[Planifier le contournement de média dans le nuage connecteur Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
-
+[Planification de la déviation du trafic multimédia dans la version Cloud Connector](plan-for-media-bypass-in-cloud-connector-edition.md)
