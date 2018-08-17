@@ -1,20 +1,22 @@
 ---
-title: "Présentation d'un déploiement de Microsoft Teams"
+title: Présentation d'un déploiement de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Découvrez la procédure de déploiement de Microsoft Teams."
+description: Découvrez la procédure de déploiement de Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbc30699f8a516c1355fd49d839fb0146fbe2413
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: b3801a6216962425a103845d99184f6b50bf9dc9
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19002885"
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Présentation d'un déploiement de Microsoft Teams
 ========================================
@@ -42,7 +44,7 @@ Voici un exemple de la configuration d'une structure d'équipe / de canal vous p
 
 |Nom de l'équipe |Canaux  |Onglets  |
 |---------|---------|---------|
-|Déploiement des équipes<br></br>Membres :<ul><li>Organisateur du projet</li><li>Analyste commercial</li><li>Gestionnaire de projets</li><li>Professionnel informatique pour la collaboration</li><li>Professionnel informatique pour la mise en réseau</li><li>Responsable de l'adoption </li><li>Responsable du support</li></ul>Propriétaires : <ul><li>Gestionnaire de projets</li><li>Professionnel informatique pour la collaboration</li></ul>      |Planification et préparation<br></br> Adoption<br></br> Lancement<br></br> support<br></br> Aperçus<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Lien ver la page Web du guide pratique de Microsoft Teams ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
+|Déploiement des équipes<br></br>Membres :<ul><li>Organisateur du projet</li><li>Analyste commercial</li><li>Gestionnaire de projets</li><li>Professionnel informatique pour la collaboration</li><li>Professionnel informatique pour la mise en réseau</li><li>Responsable de l'adoption </li><li>Responsable du support</li></ul>Propriétaires : <ul><li>Gestionnaire de projets</li><li>Professionnel informatique pour la collaboration</li></ul>      |Planification et préparation<br></br> Adoption<br></br> Lancement<br></br> support<br></br> Aperçus<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Lien vers la page Web du guide pratique de Microsoft Teams ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
 
 Cette configuration se présenterait comme suit dans Microsoft Teams :
 
