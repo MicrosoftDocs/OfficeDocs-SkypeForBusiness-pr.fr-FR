@@ -1,5 +1,5 @@
 ---
-title: Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils participent à une réunion
+title: Permettre aux utilisateurs d’enregistrer leur nom lorsqu’ils rejoignent une réunion dans Skype pour Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,42 +14,28 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to enable or disable whether your users can record their names when they join a meeting '
-ms.openlocfilehash: 940d4eefb6a997b03bb25fc558faf15ce9edb507
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: Découvrez comment activer ou désactiver si vos utilisateurs peuvent enregistrer leurs noms lorsqu’ils rejoignent une réunion dans Skype pour Business Online.
+ms.openlocfilehash: b920f0cfea6aa607f5bc3ea7c8a53b5668ba02da
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703493"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490724"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils participent à une réunion
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Permettre aux utilisateurs d’enregistrer leur nom lorsqu’ils rejoignent une réunion dans Skype pour Business Online
+
+> [!Note]
+> Si vous souhaitez autoriser les utilisateurs à enregistrer leurs noms dans les équipes, voir [permettent aux utilisateurs d’enregistrer leur nom lorsqu’ils rejoignent une réunion dans les équipes Microsoft](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
 
 Lorsque vous configurez les services d’audioconférence dans Office 365, vous recevrez des numéros de téléphone et ce que l'on appelle un pont de conférence audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone qui peuvent être dédiés ou partagés.
   
 Le pont de conférence répond à un appel d’un utilisateur qui est qui se connectent à une réunion à l’aide d’un téléphone. Le pont de conférence répond à l’appelant à invites vocales à partir d’un standard automatique et, en fonction de leurs paramètres, peut diffuser les notifications, poser aux appelants à enregistrer leur nom et configurer la sécurité du code confidentiel pour les organisateurs de réunions. Codes confidentiels accordées aux organisateurs de réunions pour pouvoir démarrer une réunion. Toutefois, vous pouvez configurer il afin d’un code confidentiel n’est pas nécessaire pour démarrer une réunion.
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## <a name="set-whether-callers-should-record-their-name"></a>Définir si les appelants doivent enregistrer leur nom
-
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**. 
-
-2. En haut de la page de **Ponts de conférence** , cliquez sur **Paramètres du pont**. 
-
-3. Activer ou désactiver **Activer l’accès à la réunion et quitter notifications être activée**.
-
-4. Cliquez sur **Appliquer**.
-
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
     
 1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **paramètres de pont de Microsoft**.
     

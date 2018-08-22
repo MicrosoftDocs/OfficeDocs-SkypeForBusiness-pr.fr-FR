@@ -1,5 +1,5 @@
 ---
-title: Modifier les paramètres d’un pont de conférence Audio
+title: Modifier les paramètres pour un pont d'audioconférence
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenir les étapes que vous devez modifier les paramètres d’un pont de conférence qui permet de demander des appelants et recueillir les noms et les codes confidentiels pour les organisateurs de réunion lorsqu’ils utilisent pas Skype pour les applications Microsoft Teams ou de l’entreprise. '
-ms.openlocfilehash: 439907b6b1055db2487491c4b0be89cbb96bdf72
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: c649859d718ece3a8316ea8baa76be3be751561b
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490655"
 ---
-# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont de conférence Audio
+# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres pour un pont d'audioconférence
 
 Lorsque vous configurez les services d’audioconférence dans Office 365, vous recevrez des numéros de téléphone pour vos utilisateurs à partir de ce que l'on appelle un pont de conférence audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone. Ces numéros de téléphone sont utilisés lorsque les appelants se connectent à une réunion. Le numéro de téléphone est inclus en bas de la Skype pour l’invitation à la réunion Microsoft Teams ou de l’entreprise.
   
@@ -35,7 +36,7 @@ Le pont de conférence répond à un appel et demande à l’appelant avec les i
   > [!IMPORTANT]
   > Un code confidentiel est uniquement requis pour l’organisateur lorsqu’une Skype pour l’utilisateur d’application Microsoft Teams ou de l’entreprise n’a pas déjà démarré la réunion. Si tout le monde est qui se connectent à la réunion, le code confidentiel est requis pour l’organisateur de la réunion démarrer la réunion. 
 
-> [!CAUTION]
+> [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="teams-logo-30x30pngimagesteams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) À l’aide de Skype les équipes Microsoft Business centre d’administration
@@ -60,7 +61,7 @@ Le pont de conférence répond à un appel et demande à l’appelant avec les i
 5. Pour spécifier s’il faut envoyer un message électronique à vos utilisateurs, activez ou désactivez **Envoyer automatiquement des messages électroniques aux utilisateurs si la configuration de leurs services d’audioconférence**.
     Pour plus d’informations, voir [les messages électroniques envoyés automatiquement aux utilisateurs lorsque modifient leurs paramètres de conférence Audio](emails-sent-to-users-when-their-settings-change.md) .
  
-6. Cliquez sur **Appliquer**. 
+6. Cliquez sur **Enregistrer**. 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

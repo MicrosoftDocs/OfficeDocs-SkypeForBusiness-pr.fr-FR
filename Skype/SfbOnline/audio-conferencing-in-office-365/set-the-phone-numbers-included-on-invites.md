@@ -1,5 +1,5 @@
 ---
-title: L’invite inclus sur les numéros de téléphone
+title: Définir le téléphone numéros inclus sur invite dans Skype pour Business en ligne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,21 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 0ade5a68483319fe437d83c51dbe40ddb4f0fbc0
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 7aa426a1ede348e29230b177ecf790d9d32d7fbd
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490474"
 ---
-# <a name="set-the-phone-numbers-included-on-invites"></a>L’invite inclus sur les numéros de téléphone
+# <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Définir le téléphone numéros inclus sur invite dans Skype pour Business en ligne
 
-Services d’audioconférence dans Office 365 permet aux utilisateurs de votre organisation de créer Skype pour les réunions d’entreprise et Microsoft Teams, puis autoriser les utilisateurs à se connecter à ces réunions à l’aide d’un téléphone. Dans Office 365, vous avez la possibilité d’utiliser un pont de conférence audio Microsoft ou un pont de conférence audio tiers qui est hébergé par un fournisseur de services d’audioconférence approuvé (ACP).
+> [!Note]
+> Pour plus d’informations sur la réunion inviter les numéros de téléphone dans Microsoft Teams, voir [définir le téléphone numéros inclus sur invite dans les équipes Microsoft](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams).
+
+Services d’audioconférence dans Office 365 permet aux utilisateurs de votre organisation de créer Skype pour les réunions d’entreprise, puis autoriser les utilisateurs à se connecter à ces réunions à l’aide d’un téléphone. Dans Office 365, vous avez la possibilité d’utiliser un pont de conférence audio Microsoft ou un pont de conférence audio tiers qui est hébergé par un fournisseur de services d’audioconférence approuvé (ACP).
   
 > [!NOTE]
 > Il n'existe pas de ressource qui rassemble tous les numéros de connexion pour l'audioconférence. Si vous souhaitez pour voir s’il existe des numéros de téléphone entrant dans votre région ou le pays/région, utilisez le **Skype pour le centre d’administration de Business** > **vocale** > de**Numéros de téléphone**, cliquez sur **Ajouter** puis **nouveaux numéros de Service **. Utilisez les listes de **Pays/région**, département/région **** et **Ville** pour filtrer votre recherche. > en outre, si vous recherchez des – numéros d’appel gratuit, sélectionnez **numéro gratuit** à partir de **Dép./région** liste.
@@ -37,29 +40,11 @@ Un pont de conférence vous offre un ensemble de numéros de téléphone pour vo
   
 > [!NOTE]
 > Il peut y avoir un maximum d’un numéro et un numéro de téléphone gratuit sur l’invitation à la réunion pour un organisateur de réunion, mais il existe également un lien situé en bas de chaque invitation à la réunion qui ouvre la liste complète de tous les numéros de téléphone qui peut être utilisé pour participer à une réunion. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Définir le numéro de téléphone par défaut pour un organisateur de réunion
-
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
-
-    ![Indique de sélectionner des utilisateurs dans le Microsoft Teams et Skype entreprise centre d’administration](../images/teamsselectusers.png)
-
-2. En haut de la page, cliquez sur **Modifier**.
-
-    ![Cliquez sur Modifier dans les équipes Microsoft Skype entreprise centre d’administration](../images/teamsedituser.png)
-
-3. En regard de **Conférence Audio**, cliquez sur **Modifier**. 
-    
-    ![Cliquez sur Modifier en regard de conférence Audio](../images/teamseditaudioconf.png)
-
-4. Utilisez les champs de **numéro de téléphone payant** ou **numéro d’appel gratuit** pour entrer les numéros pour l’utilisateur.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
@@ -88,26 +73,12 @@ Un pont de conférence vous offre un ensemble de numéros de téléphone pour vo
   - **Microsoft est le fournisseur**: utiliser le **numéro de téléphone payant par défaut** et **numéro d’appel gratuit par défaut** des listes pour sélectionner les numéros par défaut pour l’utilisateur.
     
     > [!NOTE]
-    > Au moins un numéro d’appel gratuit doit être affecté à votre pont de conférence avant qu’il peut être définie en tant que le numéro d’appel gratuit par défaut d’un utilisateur. Pour obtenir un numéro gratuit, voir les [numéros de téléphone de service de mise en route pour Skype pour les professionnels et les équipes Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
+    > Au moins un numéro d’appel gratuit doit être affecté à votre pont de conférence avant qu’il peut être définie en tant que le numéro d’appel gratuit par défaut d’un utilisateur. Pour obtenir un numéro gratuit, voir les [numéros de téléphone de service de mise en route pour Skype pour les entreprises](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
   - **Un tiers est le fournisseur**: les champs de **numéro de téléphone payant** et **gratuit nombre** permet d’entrer les numéros de l’utilisateur.
 
 
-## <a name="change-the-audio-conferencing-phone-number-for-users"></a>Modifier le numéro de téléphone de conférence audio pour les utilisateurs
-
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
-
-2. En haut de la page, cliquez sur **Modifier**.
-
-3. En regard de **Conférence Audio**, cliquez sur **Modifier**. 
-    
-4. Utilisez les champs de **numéro de téléphone payant** ou **numéro d’appel gratuit** pour entrer les numéros pour l’utilisateur.
-
 ## <a name="reset-audio-conferencing-phone-numbers"></a>Réinitialiser les numéros de téléphone des services d’audioconférence
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
 1. Dans la **Skype entreprise centre d’administration**, choisissez **audioconférence**.
     
@@ -118,7 +89,7 @@ Un pont de conférence vous offre un ensemble de numéros de téléphone pour vo
 Par défaut, lorsque vous modifiez les paramètres de conférence d’un utilisateur, un message électronique est envoyé à l’utilisateur. Pour modifier ce paramètre, voir [Activer ou désactiver l’envoi de messages électroniques lors de la modifient des paramètres de conférence Audio](enable-or-disable-sending-emails-when-their-settings-change.md).
   
 > [!IMPORTANT]
-> Lorsque vous modifiez les paramètres de conférence audio d’un utilisateur, périodique et futur Skype pour les réunions d’entreprise et Teams Microsoft doit être mis à jour et envoyée aux participants. 
+> Lorsque vous modifiez les paramètres de conférence audio d’un utilisateur, périodique et futur Skype pour les réunions d’entreprise doit être mis à jour et envoyée aux participants. 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
@@ -135,7 +106,7 @@ Par défaut, lorsque vous modifiez les paramètres de conférence d’un utilisa
 - Utilisez l'applet de commande **Set-CsOnlineDialInConferencingUserDefaultNumber** pour modifier le numéro gratuit ou payant par défaut des utilisateurs en fonction de leur numéro par défaut d'origine ou de leur emplacement.
     
     > [!NOTE]
-    > Pour rechercher la BridgeID, utilisez la **Get-CsOnlineDialInConferencingBridge**.
+    > Pour rechercher la BridgeID, utilisez l’applet de commande **Get-CsOnlineDialInConferencingBridge** .
   
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 

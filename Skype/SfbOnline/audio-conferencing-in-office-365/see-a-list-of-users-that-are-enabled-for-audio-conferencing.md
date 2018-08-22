@@ -1,5 +1,5 @@
 ---
-title: Afficher la liste des utilisateurs activés pour les conférences Audio
+title: Voir la liste des utilisateurs activés pour une audioconférence dans Skype pour Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,34 +14,31 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: d7a5c272968def249df22af25fd36d257f8c74a0
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 441fb797fa3e1325fe5c63a2b1d6a86d876ebb5b
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703463"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490624"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>Afficher la liste des utilisateurs activés pour les conférences Audio
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Voir la liste des utilisateurs activés pour une audioconférence dans Skype pour Business Online
 
-Après avoir activé Skype pour les utilisateurs Microsoft Teams ou de l’entreprise dans votre organisation pour une audioconférence, vous pouvez afficher la liste des utilisateurs qui ont été activés. Lorsque vous examinez la liste, vous verrez également pour chaque utilisateur dans la liste le type de fournisseur de conférence audio qu’ils utilisent le numéro de téléphone de rendez-vous par défaut pour l’utilisateur, et si votre organisation n’est pas activée pour l’ID de conférence dynamique, l’ID de conférence statique pour les réunions de conférence audio qu’ils organisent.
+> [!NOTE]
+> Pour plus d’informations sur les utilisateurs actifs dans Microsoft Teams, voir [Afficher la liste des utilisateurs qui sont activées pour une audioconférence dans les équipes Microsoft](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
+
+Une fois que vous avez activé Skype pour les utilisateurs professionnels de votre organisation pour une audioconférence, vous pouvez afficher la liste des utilisateurs qui ont été activés. Lorsque vous examinez la liste, vous verrez également pour chaque utilisateur dans la liste le type de fournisseur de conférence audio qu’ils utilisent le numéro de téléphone de rendez-vous par défaut pour l’utilisateur, et si votre organisation n’est pas activée pour l’ID de conférence dynamique, l’ID de conférence statique pour les réunions de conférence audio qu’ils organisent.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Afficher une liste d'utilisateurs
 
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-- Dans la navigation de gauche, cliquez sur **utilisateurs**.
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
-    
+   
 - Dans la navigation de gauche, accédez à la **conférence Audio** > **les utilisateurs**.
 
 ## <a name="what-else-should-i-know"></a>Informations supplémentaires

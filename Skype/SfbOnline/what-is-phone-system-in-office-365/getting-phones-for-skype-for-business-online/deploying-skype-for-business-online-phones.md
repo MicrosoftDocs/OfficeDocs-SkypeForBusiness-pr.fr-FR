@@ -14,17 +14,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez les étapes du déploiement pour obtenir le microprogramme approprié, mettre à jour si nécessaire, attribuer des licences et configurer les paramètres pour Skype pour les téléphones en ligne Business
-ms.openlocfilehash: 444d74dc5c831dcdb542b4712da64369481c874a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9a19367066fac2b74b51659fb6159ba33b68450e
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490799"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Déploiement de téléphones Skype Entreprise Online
 
@@ -220,7 +220,7 @@ BToE peut être configuré pour fonctionner en deux modes : *manuel* et *automa
 ## <a name="related-topics"></a>Rubriques connexes
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Voici les avantages du système téléphonique dans Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
+[Voici les avantages du système téléphonique dans Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

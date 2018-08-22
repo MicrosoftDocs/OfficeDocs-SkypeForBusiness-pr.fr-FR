@@ -1,5 +1,5 @@
 ---
-title: Envoyer à un utilisateur un message électronique qui contient ses informations de connexion
+title: Envoyer un courrier électronique à un utilisateur avec leur conférence dans Skype pour Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Envoyer à vos utilisateurs un message électronique avec leurs informations de conférence audio.
-ms.openlocfilehash: 28d3f83259033b5e587c299464a334710797e149
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+description: Envoyer vos utilisateurs un message électronique avec leurs informations de services d’audioconférence dans Skype pour Business Online.
+ms.openlocfilehash: 1b692597f574739c8412a9ec0c6866687e169beb
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20324122"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490644"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Envoyer un courrier électronique à un utilisateur avec leurs informations de conférence Audio dans Skype pour Business Online
 
-Parfois Skype pour les utilisateurs d’entreprise ou Microsoft Teams deviez vous permet de les envoyer à leurs informations de conférence Audio. Vous pouvez procéder à l’aide la **Skype entreprise centre d’administration** et cliquez sur **Envoyer les informations de conférence par courrier électronique** sous les propriétés d’un utilisateur. Lorsque vous envoyez ce message, il contient toutes les informations de conférence audio, y compris :
+> [!Note]
+> Pour plus d’informations concernant l’envoi d’informations sur la conférence Audio pour les utilisateurs de Microsoft Teams, voir [Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio dans Microsoft Teasms](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams).
+
+Parfois Skype pour les utilisateurs professionnels deviez vous permet de les envoyer à leurs informations de conférence Audio. Vous pouvez procéder à l’aide la **Skype entreprise centre d’administration** et cliquez sur **Envoyer les informations de conférence par courrier électronique** sous les propriétés d’un utilisateur. Lorsque vous envoyez ce message, il contient toutes les informations de conférence audio, y compris :
   
 - Le numéro de téléphone de conférence ou le numéro de téléphone à composer pour l'utilisateur.
     
@@ -44,14 +46,6 @@ Voici un exemple du courrier électronique qui est envoyé :
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Envoyer un message électronique avec les informations de conférence audio à un utilisateur
-
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
-
-2. En haut de la page, cliquez sur **Modifier**.
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
 1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 

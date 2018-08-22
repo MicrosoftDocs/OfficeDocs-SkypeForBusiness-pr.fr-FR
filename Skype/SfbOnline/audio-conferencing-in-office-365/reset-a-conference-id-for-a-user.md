@@ -1,5 +1,5 @@
 ---
-title: Réinitialiser l'ID de conférence d'un utilisateur
+title: Réinitialiser un ID de conférence pour un utilisateur dans Skype pour Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,44 +14,30 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: 3a02ae779b55aa9ca4f340d5a88d6e5fb9c5f750
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: 'Découvrez les étapes pour réinitialiser un utilisateur de l’ID de la réunion Conférence dans Skype pour Business Online et get fournit des liens vers les outils de migration et mise à jour de la réunion. '
+ms.openlocfilehash: ac37d682d45b22eff61392ee05d7c369d67c3b67
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703413"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490534"
 ---
-# <a name="reset-a-conference-id-for-a-user"></a>Réinitialiser l'ID de conférence d'un utilisateur
+# <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Réinitialiser un ID de conférence pour un utilisateur dans Skype pour Business Online
+
+> [!NOTE]
+> Pour plus d’informations sur la réinitialisation des ID de conférence dans Microsoft Teams, consultez la rubrique [Réinitialiser un ID de conférence pour un utilisateur dans les équipes Microsoft](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams).
 
 Un ID de conférence dynamique est inclus dans la partie inférieure des invitations aux réunions ainsi que les numéros de téléphone utilisable par les appelants à appeler dans une réunion. Lorsque l’utilisateur compose le numéro de téléphone, le standard automatique de la réunion vous demande de l’appelant d’entrer cet ID de conférence afin qu’ils peuvent participer à la réunion.
   
 > [!NOTE]
-> Si votre fournisseur de conférence est Microsoft, ID de conférence des utilisateurs est définis sur dynamique uniquement par défaut. Malheureusement, il n’existe aucune possibilité de le modifier dans le Skype pour le centre d’administration Business ou à l’aide de Windows Powershell pour devenir statique, comme cela est désormais non prises en charge.
-ID de conférence est définies uniquement automatiquement uniquement pour Skype pour les utilisateurs professionnels et Microsoft Teams activé pour une audioconférence. 
-
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> Si votre fournisseur de conférence est Microsoft, ID de conférence des utilisateurs est définis sur dynamique uniquement par défaut. Malheureusement, il n’existe aucune possibilité de le modifier dans le Skype pour le centre d’administration Business ou à l’aide de Windows Powershell pour devenir statique, comme cela est désormais non prises en charge. ID de conférence est définies automatiquement uniquement pour Skype pour les utilisateurs activés pour une audioconférence. 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Réinitialisation de l’ID de conférence pour un utilisateur
-
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
-
-2. En haut de la page, cliquez sur **Modifier**.
-
-3. Cliquez sur le menu en regard de **Ponts de conférence**, puis cliquez sur **Réinitialiser l’id de conférence** dans la liste déroulante.
-
-2. Dans la fenêtre **Réinitialiser l’id de conférence** , cliquez sur **Ok**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Par défaut, les messages électroniques sont envoyés aux utilisateurs, mais cela peut être désactivée.   
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
-    
+   
 1. Dans la **Skype entreprise centre d’administration**, cliquez sur **conférence** > **les utilisateurs**, sélectionnez un utilisateur, puis, dans le volet Actions, sous **ID de conférence** , cliquez sur **Réinitialiser**.
     
 2. Dans le **Réinitialiser l’ID de conférence ?** fenêtre, cliquez sur **Oui**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Par défaut, les messages électroniques sont envoyés aux utilisateurs, mais cela peut être désactivée.

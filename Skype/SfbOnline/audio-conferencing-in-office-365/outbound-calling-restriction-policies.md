@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler le type d’appels audio d’utilisateur final et de conférence PSTN qui peuvent être effectuées par les utilisateurs.
-ms.openlocfilehash: 473baddce6ddac5fa523f02477cd89f6a2c4f4a2
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 6096816ef9fb98811ec3ebed5a56b90a90b58c29
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22193012"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490574"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs
 
@@ -50,11 +50,11 @@ Contrôles d’appel sortant peuvent être appliquées par utilisateur et fourni
 
 2. En haut de la page, cliquez sur **Modifier**.
 
-3. Cliquez sur le menu en regard de **Ponts de conférence**, puis cliquez sur **Modifier** dans la liste déroulante.
+3. En regard de **Conférence Audio**, cliquez sur **Modifier**.
 
-4. Dans le volet de **fournisseur de pont de conférence** , sous **Restrictions de numérotation issus de réunions de cet utilisateur**, sélectionnez l’option de restriction d’appel sortant.
+4. Sous l' **autorisation d’appel sortant de réunions**, sélectionnez l’option de restriction d’appel sortant.
 
-5. Cliquez sur **Appliquer**. 
+5. Cliquez sur **Enregistrer**. 
 
 ![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 

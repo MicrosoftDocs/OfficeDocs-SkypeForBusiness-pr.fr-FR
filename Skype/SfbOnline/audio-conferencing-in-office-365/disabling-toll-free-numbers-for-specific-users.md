@@ -1,5 +1,5 @@
 ---
-title: Désactivation des numéros de téléphone gratuits pour des utilisateurs spécifiques
+title: Désactivation des numéros de téléphone gratuits pour Skype spécifique pour les utilisateurs professionnels en ligne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -13,20 +13,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler les organisateurs utilisation numéros gratuits pour leurs réunions.
-ms.openlocfilehash: 4bee4449dd8e21ded52f40cc04832bd40b15c139
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 1cd144af4f57b3c4ecb19de6c4aeea36f5d2baed
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22193043"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490544"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactivation des numéros de téléphone gratuits pour des utilisateurs spécifiques
+# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Désactivation des numéros de téléphone gratuits pour Skype spécifique pour les utilisateurs professionnels en ligne
+
+> [!Note]
+> Pour plus d’informations sur la désactivation numéros sans outil pour les utilisateurs d’équipes, voir [désactivation des numéros gratuits pour les utilisateurs des équipes spécifiques](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).
 
 Si votre organisation dispose de numéros gratuits dans son Microsoft Audio Conferencing Bridge, vous pouvez autoriser ou empêcher leur utilisation dans les réunions des organisateurs spécifiques.  
 
@@ -43,24 +45,8 @@ Lorsque les numéros gratuits sont désactivés pour un organisateur donné :
 
  - Les participants peuvent poursuivre la participation à des réunions de l’organisateur à l’aide des numéros payants. 
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactivation des numéros de téléphone gratuits pour des utilisateurs spécifiques 
 
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
-
-2. En haut de la page, cliquez sur **Modifier**.
-
-3. Cliquez sur le menu en regard de **Ponts de conférence**, puis cliquez sur **Modifier** dans la liste déroulante.
-
-4. Dans le volet de **fournisseur de pont de conférence** , désactivez **Autoriser à l’aide des numéros gratuits dans le pont de conférence de votre organisation à participer à des réunions de cet utilisateur**. 
-
-5. Cliquez sur **s’appliquent.** 
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
 1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **les utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles. 
 

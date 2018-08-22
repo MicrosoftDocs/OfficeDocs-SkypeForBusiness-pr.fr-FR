@@ -1,5 +1,5 @@
 ---
-title: Définir les langues du standard automatique pour les conférences Audio
+title: Définir les langues de standard automatique pour une audioconférence dans Skype pour Business en ligne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,43 +14,34 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Voir comment sélectionner les langues standard automatique de conférence audio pour un nombre de services d’audioconférence.
-ms.openlocfilehash: c4461f61ce05afedc2663a3e5b61d37370394cd4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: Voir comment sélectionner les langues standard automatique de conférence audio pour un nombre de services d’audioconférence dans Skype pour Business Online.
+ms.openlocfilehash: 026a09290c6e008493784c0d883220e03d13559f
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490514"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Définir les langues du standard automatique pour les conférences Audio
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Définir les langues de standard automatique pour une audioconférence dans Skype pour Business en ligne
 
-Le standard automatique de conférence Audio pour Skype pour les entreprises et Teams Microsoft peut accueillir les appelants audio dans un certain nombre de différentes langues lorsqu’ils rejoignent une réunion.
+> [!Note]
+> Pour plus d’informations sur la définition de la langue de standard automatique dans Microsoft Teams, voir [définir les langues de standard automatique pour une audioconférence dans les équipes Microsoft](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).
+
+Le standard automatique de conférence Audio pour Skype pour les entreprises permettre accueillir les appelants audio dans un certain nombre de différentes langues lorsqu’ils rejoignent une réunion.
   
 Choisissez une langue principale et jusqu'à quatre langues secondaires. La langue principale que vous avez définie est utilisée en premier et les langues secondaires seront utilisés par le standard automatique que vous sélectionnez. 
   
 > [!NOTE]
 >  Vous pouvez configurer les langues sur les numéros d’accès audio interne uniquement.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir des langues standard automatique de la conférence
-
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**.
-
-2. Sélectionnez le numéro de téléphone de conférence audio à partir de la liste, puis en haut de la page, cliquez sur **Modifier**.
-
-3. Dans le volet de droite, sélectionnez la langue par défaut et les autres langues. 
- 
-    > [!NOTE]
-    > La valeur par défaut et autres langues prises en charge sont répertoriés. L’ordre dans lequel vous sélectionnez dans les listes sera l’ordre des langues présentées aux appelants. 
-
-4. Cliquez sur **Appliquer**.
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de Skype pour les entreprises en ligne**
 
 Vous devez être un [administrateur global d’Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou un [Skype pour administrateur d’entreprise](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) pour effectuer cette étape.
     
@@ -65,9 +56,6 @@ Vous devez être un [administrateur global d’Office 365](https://support.offic
   
 4. Cliquez sur **Enregistrer**.
     
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ## <a name="want-else-should-i-know"></a>Informations supplémentaires
 
 - Pour voir la liste des langues prises en charge pour une audioconférence, consultez [audioconférence langues prises en charge](audio-conferencing-supported-languages.md).

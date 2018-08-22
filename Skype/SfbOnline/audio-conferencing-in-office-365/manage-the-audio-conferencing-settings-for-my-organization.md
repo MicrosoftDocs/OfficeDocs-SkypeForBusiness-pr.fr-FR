@@ -1,5 +1,5 @@
 ---
-title: Gestion des paramètres de conférence rendez-vous de mon organisation
+title: Gérer les paramètres de conférence Audio de mon organisation dans Skype pour les professionnels en ligne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,30 +14,30 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Découvrez les étapes pour attribuer un ID de conférence et de licence de conférence rendez-vous à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: f3ab0f2d1ac32de5744dc4ac994e8030a1540ba4
-ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
+description: 'Voir Skype pour obtenir la procédure Business Online pour affecter un ID de conférence et de licence de conférence rendez-vous à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
+ms.openlocfilehash: fe5de9aa17a242337776c04178fe36bab24ca8f9
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21642474"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490809"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Gestion des paramètres de conférence rendez-vous de mon organisation
-
-[] Il peut être préférable d'afficher tous les paramètres de conférence rendez-vous à un seul endroit. 
+# <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gérer les paramètres de conférence Audio de mon organisation dans Skype pour les professionnels en ligne
 
 > [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> Si vous souhaitez gérer ces paramètres dans les équipes, voir [Gérer les paramètres de conférence Audio de mon organisation dans les équipes Microsoft](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams).
+
+Il peut être plus facile à voir tous les paramètres de conférence audio pour Skype pour les entreprises à un seul endroit. 
+
   
 ## <a name="assign-an-audio-conferencing-license"></a>Affecter une licence de conférence rendez-vous
 
 > [!NOTE]
-> Vous ne pouvez attribuer des licences à l’aide de la **Skype entreprise centre d’administration**. Vous devez utiliser le centre d’administration Office 365. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). 
+> Vous ne pouvez attribuer des licences à l’aide de la **Skype entreprise centre d’administration**. Vous devez utiliser le centre d’administration Office 365. Consultez [Attribuer des licences Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). 
   
  Pour affecter une licence à un utilisateur
   
@@ -46,26 +46,16 @@ ms.locfileid: "21642474"
 2. Dans la navigation de gauche du **Centre d’administration Office 365**, accédez aux **utilisateurs** > **utilisateurs actifs**, puis sélectionnez les utilisateurs dans la liste des utilisateurs disponibles.
     
     > [!NOTE]
-    > Si vous affectez des licences à 20 utilisateurs maximum simultanément, vous pouvez utiliser la liste déroulante **Sélectionner un affichage**, puis choisir l'une des options ou créer votre propre affichage. Cliquez ensuite sur **Modifier**, deux fois sur **Suivant**, puis sélectionnez la licence et cliquez sur **Envoyer**. Vous pouvez également affecter des licences à plusieurs utilisateurs à l'aide de Windows Powershell. Pour obtenir des informations et des exemples de scripts Powershell, reportez-vous à la rubrique [Attribuer des licences Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). 
+    > Si vous affectez des licences à 20 utilisateurs maximum simultanément, vous pouvez utiliser la liste déroulante **Sélectionner un affichage**, puis choisir l'une des options ou créer votre propre affichage. Cliquez ensuite sur **Modifier**, deux fois sur **Suivant**, puis sélectionnez la licence et cliquez sur **Envoyer**. Vous pouvez également affecter des licences à plusieurs utilisateurs à l'aide de Windows Powershell. Pour obtenir des instructions et des exemples de scripts PowerShell, voir [Attribuer de Skype pour les licences de l’entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). 
   
-3. Dans le volet Action sous **Licence affectée**, cliquez sur **Modifier**. 
+3. Dans le volet Action, sous **Licences de produit**, cliquez sur **Modifier**. 
     
-4. Sur la page **Affecter une licence**, cochez **Conférence RTC Skype Entreprise**, puis cliquez sur **Enregistrer**. Pour plus d'informations sur les licences, reportez-vous à la rubrique [Licences de module complémentaire Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+4. Dans la page **Licences de produits** , activer la **Conférence Audio** , puis sur **Enregistrer**. Pour plus d'informations sur les licences, reportez-vous à la rubrique [Licences de module complémentaire Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
 > [!NOTE]
 > Une fois que vous avez affecté la licence, Microsoft peut ne pas s'afficher initialement comme fournisseur de conférence rendez-vous dans la liste déroulante. Dans ce cas, déconnectez-vous du Centre d'administration Office 365 ou appuyez sur les touches Ctrl + F5 pour actualiser la fenêtre du navigateur. 
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Activer ou désactiver les courriers électroniques envoyés à des utilisateurs de conférence audio
-
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**. 
-
-2. En haut de la page de **Ponts de conférence** , cliquez sur **paramètres du pont**. 
-
-3. Dans le volet **paramètres du pont** , activez ou désactivez **Envoyer automatiquement des messages électroniques aux utilisateurs si leurs paramètres de connexion à modifient**.
-
-4. Cliquez sur **Enregistrer**.
 
 ![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
   
@@ -80,8 +70,11 @@ ms.locfileid: "21642474"
     Cliquez sur **Enregistrer**.
     
     Reportez-vous à la rubrique [Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio](send-an-email-to-a-user-with-their-dial-in-information.md).
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
- Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.
+Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.
   
 - Utilisation de Windows PowerShell 
     
@@ -115,18 +108,6 @@ Voir [les messages électroniques qui sont automatiquement envoyées aux utilisa
   
 ## <a name="reset-the-meeting-conference-id"></a>Réinitialisation de l'ID de conférence
 
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
-
-2. En haut de la page, cliquez sur **Modifier**.
-
-3. Sous **Conférence Audio**, cliquez sur **Réinitialiser l’ID de conférence**.  
-
-4. Dans le **Réinitialiser l’ID de conférence ?** fenêtre, cliquez sur **Réinitialiser**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**  
-
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
 2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
@@ -144,15 +125,6 @@ Reportez-vous à la rubrique [Réinitialiser l'ID de conférence d'un utilisateu
 
 Chaque réunion planifie un utilisateur sera se voit attribuer un ID de conférence unique. Bien qu’un ID de conférence est automatiquement créé et affecté à un utilisateur, il peut arriver lorsqu’un utilisateur ne souhaite pas utiliser cette et vous voulez lui attribuer un certain nombre, ou vos utilisateurs ne vous souvenez pas ou ont perdu leur ID de conférence. Vous pouvez utiliser la Skype entreprise centre d’administration et de Windows PowerShell pour afficher, modifier et de réinitialiser leur ID de conférence.
 
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
-
-2. En haut de la page, cliquez sur **Modifier**.
-
-3. Sous **Conférence Audio**, cliquez sur **Réinitialiser le code confidentiel**, puis cliquez sur **Réinitialiser**. 
-  
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration** 
 
 1. Activation ou désactivation de l'envoi de messages électroniques aux utilisateurs d'appels entrants
     
@@ -168,20 +140,7 @@ Consultez la rubrique [Réinitialiser le code confidentiel de conférence Audio]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Envoyer un message électronique avec des informations de conférence Audio à un utilisateur
 
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
-
-2. En haut de la page, cliquez sur **Modifier**.
-
-3. **Conférence Audio**, cliquez sur **Envoyer les informations de conférence dans le message électronique**. 
-
-    > [!NOTE]
-    > Lorsque vous faites cela, la conférence audio code confidentiel n’est pas envoyé à l’utilisateur. 
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**  
-
-1. Activation ou désactivation de l'envoi de messages électroniques aux utilisateurs d'appels entrants
+1. Envoi d'un courrier électronique à un utilisateur avec ses informations de conférence rendez-vous
     
 2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
@@ -195,18 +154,6 @@ Consultez la rubrique [Réinitialiser le code confidentiel de conférence Audio]
 Dans ce cas, le code confidentiel de conférence rendez-vous n'est pas envoyé à l'utilisateur.
   
 ## <a name="setting-the-phone-numbers-included-on-invites"></a>Configuration du téléphone numéros inclus sur invite
-
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
-
-2. En regard de **Conférence Audio**, cliquez sur **Modifier**.
- 
-3. Dans le volet de **Conférence Audio** , vous pouvez définir le **numéro de téléphone payant** et, si Oui, le **numéro d’appel gratuit**.
-
-4. Cliquez sur **Enregistrer**.
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**  
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
@@ -225,25 +172,8 @@ Voir [l’invite inclus sur les numéros de téléphone](set-the-phone-numbers-i
 
 Configuration des paramètres du pont de conférence rendez-vous
 
- ![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**. 
-
-2. En haut de la page de **Ponts de conférence** , cliquez sur **paramètres du pont**. 
-
-3. Dans le volet **paramètres du pont** , activer ou désactiver **l’entrée de la réunion et quitter des notifications**.
-
-    Il est activé par défaut. Si vous désactivez cette option, les utilisateurs qui ont déjà joint la réunion par défaut ne sera pas avertis lorsque quelqu'un rejoint ou quitte la réunion.
-
-4. Sous **type d’entrée/sortie annonce**, choisissez **tonalités** ou **les noms ou les numéros de téléphone**. 
-
-    Si vous choisissez des **noms ou des numéros de téléphone**, vous pouvez également choisir activer ou désactiver **les appelants Ask à enregistrer leur nom avant de participer à la réunion**. 
-
-1. Cliquez sur **Enregistrer**.
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration** 
-  
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+   
+1. Définir les modalités d'accès aux réunions
     
 2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
@@ -253,7 +183,7 @@ Configuration des paramètres du pont de conférence rendez-vous
     
   - Sous **Expérience de participation à une réunion**, sélectionnez les actions suivantes :
     
-    Peut être défini sur une base de réunion par réunion lorsqu’un utilisateur joint à une réunion en utilisant un Skype pour l’application Microsoft Teams ou de l’entreprise et ils modifient le paramètre **annoncer lorsque les utilisateurs entrent ou quittent** dans le menu réunion Skype ou Microsoft Teams **Options** de la la réunion.
+    Cela peut être définie sur une base de réunion par réunion lorsqu’un utilisateur joint à une réunion en utilisant un Skype pour l’application de gestion et ils modifient le paramètre **annoncer lorsque les utilisateurs entrent ou quittent** dans le menu **Options** de la réunion de Skype de la réunion.
     
   - Ce paramètre peut être défini réunion par réunion lorsqu'un utilisateur participe à une réunion par le biais d'un client Skype Entreprise et qu'il modifie le paramètre **Annoncer l'arrivée ou le départ des personnes** dans le menu Options de la réunion Skype.
     
@@ -262,20 +192,8 @@ Configuration des paramètres du pont de conférence rendez-vous
 Une fois que vous avez effectué vos modifications, cliquez sur [Enregistrer](change-the-settings-for-an-audio-conferencing-bridge.md).
   
  Reportez-vous à la rubrique **Modification des paramètres d'un pont de conférence rendez-vous Microsoft**.
-
- ![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**. 
-
-2. En haut de la page de **Ponts de conférence** , cliquez sur **paramètres du pont**. 
-
-3. Dans le volet **paramètres du pont** , entrez le nombre de chiffres pour le code confidentiel dans la liste **longueur du code confidentiel** , puis cliquez sur **Enregistrer**.
-
-    Le code confidentiel doit comporter entre 4 et 12 chiffres. La valeur par défaut est 5.
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration** 
   
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Définition de la longueur du code confidentiel pour les réunions
     
 2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
@@ -288,22 +206,6 @@ Une fois que vous avez effectué vos modifications, cliquez sur [Enregistrer](ch
 Le code confidentiel doit comporter de 4 à 12 chiffres. La valeur par défaut est 5.
   
  Reportez-vous à la rubrique **Modification des paramètres d'un pont de conférence rendez-vous Microsoft**.
-
- ![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**. 
-
-2. En haut de la page de **Ponts de conférence** , cliquez sur **paramètres du pont**. 
-
-3. Dans le volet **paramètres du pont** , activez ou désactivez **Envoyer automatiquement des messages électroniques aux utilisateurs si modifient leurs paramètres de conférence audio**.
-
-4. Cliquez sur **Enregistrer**. 
- 
-    Vous pouvez également envoyer courrier électronique à l’utilisateur avec les paramètres de conférence audio, en accédant aux propriétés de conférence audio de l’utilisateur et en cliquant sur **Envoyer les informations de conférence dans le message électronique**.
-    
-    Si vous procédez ainsi, le message envoyé ne contient pas le code confidentiel, mais uniquement l'ID de conférence et le numéro de téléphone de la conférence.
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration** 
   
 1. Activation ou désactivation de l'envoi de messages électroniques aux utilisateurs d'appels entrants
     
@@ -321,15 +223,6 @@ Le code confidentiel doit comporter de 4 à 12 chiffres. La valeur par défaut e
     
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Afficher et définir principal (par défaut) et secondaires (autres) langues sur un pont de conférence audio
 
- ![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**. 
-
-2. Sélectionnez un numéro de téléphone dans la liste, cliquez sur **Modifier**.
-
-3. Choisir les langues sous **langue par défaut** et **d’autres langues (facultatifs)**.
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration** 
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
@@ -345,20 +238,7 @@ Vous pouvez également définir la langue principale et les langues secondaires 
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>Voir les numéros de services d’audioconférence rendez-vous
 
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**. 
-
-2. Sélectionnez un numéro de téléphone dans la liste, cliquez sur **Modifier**. Ici, vous pouvez :
-    
-  - Afficher les numéros de téléphone qui sont définis par Office 365 à utiliser pour une audioconférence. 
-    
-  - Afficher l’emplacement et la langue principale, qui sera utilisée par le standard automatique de conférence Audio.
-
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**  
-
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Affichage des numéros d'accès pour les conférences rendez-vous
     
 2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
@@ -374,7 +254,7 @@ Vous pouvez sélectionner le numéro de téléphone de la conférence rendez-vou
   
 Consultez la rubrique [Afficher la liste des numéros de conférence Audio](see-a-list-of-audio-conferencing-numbers.md).
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-see-a-list-of-users-that-are-enabled"></a>![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) Affichage de la liste des utilisateurs activés
+## <a name="see-a-list-of-users-that-are-enabled"></a>Affichage de la liste des utilisateurs activés
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     

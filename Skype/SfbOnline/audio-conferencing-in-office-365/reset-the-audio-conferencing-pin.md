@@ -1,5 +1,5 @@
 ---
-title: Réinitialiser le code confidentiel de conférence Audio
+title: Réinitialiser le code confidentiel dans Skype de conférence Audio pour les entreprises en ligne
 mms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,35 +14,28 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Découvrez ce que vous devez savoir sur les codes confidentiels et comment les réinitialiser. '
-ms.openlocfilehash: 956c8e1ec7a83832c9aa2605845bc7fd42a047f7
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: 'Découvrez ce que vous devez savoir sur les codes confidentiels et comment les réinitialiser dans Skype pour Business Online. '
+ms.openlocfilehash: 7e47f3e33dbb6811f5fabafc1ccd213f8e0bac11
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490604"
 ---
-# <a name="reset-the-audio-conferencing-pin"></a>Réinitialiser le code confidentiel de conférence Audio
+# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Réinitialiser le code confidentiel dans Skype de conférence Audio pour les entreprises en ligne
 
-Un code confidentiel est un code constitué de numéros sont créées pour chaque Skype pour professionnels et Microsoft Teams utilisateur qui est activé pour l’audioconférence. Codes confidentiels de conférence audio sont utilisés par les organisateurs de réunion pour identifier qu’ils sont l’organisateur de la réunion et de démarrer une réunion par téléphone. S’ils utilisent le Skype pour l’application Microsoft Teams ou de l’entreprise pour démarrer la réunion, un code confidentiel n’est pas obligatoire. Si les utilisateurs oublient leur code confidentiel et qu’ils ne peut pas trouver dans le courrier électronique qui a été envoyé lorsqu’ils ont été activés pour l’audioconférence, un administrateur peut réinitialiser leur code confidentiel, ou ils peuvent réinitialiser leur propre code confidentiel.
+> [!Note]
+> Pour plus d’informations sur la réinitialisation des codes confidentiels de conférence Audio dans Microsoft Teams, consultez la rubrique [Réinitialiser le code confidentiel de conférence Audio dans les équipes Microsoft](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
+
+Un code confidentiel est un code constitué de numéros sont créées pour chaque Skype pour utilisateur professionnel qui est activé pour l’audioconférence. Codes confidentiels de conférence audio sont utilisés par les organisateurs de réunion pour identifier qu’ils sont l’organisateur de la réunion et de démarrer une réunion par téléphone. S’ils utilisent le Skype pour l’application de gestion pour démarrer la réunion, un code confidentiel n’est pas obligatoire. Si les utilisateurs oublient leur code confidentiel et qu’ils ne peut pas trouver dans le courrier électronique qui a été envoyé lorsqu’ils ont été activés pour l’audioconférence, un administrateur peut réinitialiser leur code confidentiel, ou ils peuvent réinitialiser leur propre code confidentiel.
   
-Réunions peuvent être démarrées lorsqu’un utilisateur authentifié est ajouté à l’aide d’un Skype pour l’application Microsoft Teams ou de l’entreprise ou lorsque l’organisateur de jointures avec son code confidentiel par téléphone. Si la réunion nécessite un code confidentiel pour commencer, par défaut, tous les utilisateurs qui rejoignent la réunion par téléphone avant le début de la réunion seront mis en attente jusqu'à ce que la réunion commence. Si l'organisateur d'une réunion n'impose pas de code confidentiel pour commencer la réunion par téléphone, un appelant qui tente de participer n'est pas invité à indiquer un code confidentiel.
+Réunions peuvent être démarrées lorsqu’un utilisateur authentifié est ajouté à l’aide de la Skype pour application de gestion ou lorsque l’organisateur de jointures avec son code confidentiel par téléphone. Si la réunion nécessite un code confidentiel pour commencer, par défaut, tous les utilisateurs qui rejoignent la réunion par téléphone avant le début de la réunion seront mis en attente jusqu'à ce que la réunion commence. Si l'organisateur d'une réunion n'impose pas de code confidentiel pour commencer la réunion par téléphone, un appelant qui tente de participer n'est pas invité à indiquer un code confidentiel.
   
 ## <a name="reset-a-users-pin"></a>Réinitialiser le code confidentiel d’un utilisateur
-
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
-
-2. En haut de la page, cliquez sur **Modifier**.
-
-3. **Conférence Audio**, cliquez sur **Réinitialiser le code confidentiel**.
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png)  **à l’aide de la Skype entreprise centre d’administration**
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
@@ -56,13 +49,6 @@ Réunions peuvent être démarrées lorsqu’un utilisateur authentifié est ajo
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
 ## <a name="have-a-user-reset-his-or-her-own-pin"></a>Ont un utilisateur à réinitialiser son propre code confidentiel
-
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Demandez à l’utilisateur d’accéder à [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
-2. Cliquez sur **Réinitialiser le code confidentiel**. 
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png)  **à l’aide de la Skype entreprise centre d’administration**
 
 Un utilisateur peut réinitialiser un code confidentiel à l’aide de l’option **Réinitialiser le code confidentiel** dans la page **conférence rendez-vous** . Cette page est accessible dans une des trois manières :
 

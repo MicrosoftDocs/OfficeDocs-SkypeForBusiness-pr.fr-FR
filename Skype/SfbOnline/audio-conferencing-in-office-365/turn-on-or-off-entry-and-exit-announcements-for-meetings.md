@@ -1,5 +1,5 @@
 ---
-title: Activer ou désactiver les annonces d'entrée et de sortie des réunions
+title: Activer ou désactiver l’entrée et quitter des annonces pour les réunions dans Skype pour Business en ligne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,45 +14,31 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: 9cd2c95d0dde2e61ca1f0378fe91a215bdfc2682
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: d6d1b70713ac0cd7a38f7de9cb84f0acb54cbe30
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20302150"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490484"
 ---
-# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Activer ou désactiver les annonces d'entrée et de sortie des réunions
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>Activer ou désactiver l’entrée et quitter des annonces pour les réunions dans Skype pour Business en ligne
 
-Lorsque vous configurez les services d’audioconférence dans Office 365, vous obtenez un pont de conférence audio. Un pont de conférence peut contenir un ou plusieurs numéros de téléphone qui utiliseront des personnes à appeler un Skype de réunion Microsoft Teams ou de l’entreprise. 
+> [!Note]
+> Pour plus d’informations sur les annonces d’entrée et de sortie dans Microsoft Teams, voir [Activer ou désactiver les annonces d’entrée et de sortie pour les réunions dans les équipes Microsoft](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams).
+
+Lorsque vous configurez les services d’audioconférence dans Office 365, vous obtenez un pont de conférence audio. Un pont de conférence peut contenir un ou plusieurs numéros de téléphone que personnes utilisera pour appeler un Skype pour une réunion d’affaires. 
   
-Le pont de conférence répond à un appel d’un utilisateur qui est qui se connectent à une réunion à l’aide d’un téléphone. Le pont de conférence répond à l’appelant à invites vocales à partir d’un standard automatique de conférence et, en fonction de vos paramètres, peut diffuser les notifications, poser aux appelants à enregistrer leur nom et configurer la sécurité du code confidentiel. Un code confidentiel est attribué à un Skype pour l’organisateur de réunion Microsoft Teams ou de l’entreprise, et vous permet de démarrer une réunion si elles ne peut pas démarrer la réunion à l’aide d’un Skype pour l’application Microsoft Teams ou de l’entreprise. Vous pouvez, toutefois, l’afin qu’un code confidentiel n’est pas nécessaire de démarrer une réunion.
+Le pont de conférence répond à un appel d’un utilisateur qui est qui se connectent à une réunion à l’aide d’un téléphone. Le pont de conférence répond à l’appelant à invites vocales à partir d’un standard automatique de conférence et, en fonction de vos paramètres, peut diffuser les notifications, poser aux appelants à enregistrer leur nom et configurer la sécurité du code confidentiel. Un code confidentiel est attribué à un Skype pour l’organisateur de la réunion, et vous permet de démarrer une réunion si elles ne peut pas démarrer la réunion à l’aide de la Skype pour l’application de gestion. Vous pouvez, toutefois, l’afin qu’un code confidentiel n’est pas nécessaire de démarrer une réunion.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>Définir les options de participation à une réunion
-
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**. 
-
-2. En haut de la page de **Ponts de conférence** , cliquez sur **Paramètres du pont**. 
-
-3. Dans le volet **paramètres du pont** , activez ou désactivez **Activer l’accès à la réunion et quitter notifications être activée**. Cette fonctionnalité est sélectionnée par défaut. Si vous la désactivez, les utilisateurs qui ont déjà joint la réunion ne sera pas avertis lorsque quelqu'un rejoint ou quitte la réunion.
-    
-4. Sous **type d’entrée/sortie annonce**, sélectionnez les **noms ou les numéros de téléphone** ou des **tonalités**.
-    
-5. Activer ou désactiver **les appelants Ask à enregistrer leur nom avant de participer à la réunion**.
-    
-6. Une fois que vous apportez vos modifications, cliquez sur **Appliquer**.
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
     
 1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **paramètres de pont de Microsoft**.
     

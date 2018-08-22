@@ -1,5 +1,5 @@
 ---
-title: Numéros de téléphone pour les conférences Audio
+title: Numéros de téléphone pour les conférences Audio dans Skype pour Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,35 +14,36 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned.
-ms.openlocfilehash: 3c1440b29a2ceb35775ba3ed8151defb4093f94d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 31dccb2c46ef957b9490a8a1c61f7a20563ecf92
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490495"
 ---
-# <a name="phone-numbers-for-audio-conferencing"></a>Numéros de téléphone pour les conférences Audio
+# <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Numéros de téléphone pour les conférences Audio dans Skype pour Business Online
 
-Lorsque vous configurez **Audioconférence** pour Skype pour les entreprises et Teams Microsoft, les numéros de téléphone sont automatiquement affectés à votre organisation. Vous pouvez voir les numéros de téléphone qui sont affectées à votre pont de conférence audio en accédant à la **Skype pour le centre d’administration Business** > **audioconférence** > **Microsoft bridge**. Consultez la rubrique [Afficher la liste des numéros de conférence Audio](see-a-list-of-audio-conferencing-numbers.md).
+> [!NOTE]
+> Pour plus d’informations sur les numéros de téléphone dans Microsoft Teams, voir [les numéros de téléphone pour les conférences Audio dans les équipes Microsoft](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams).
+
+Lorsque vous configurez **Audioconférence** pour Skype pour les entreprises, les numéros de téléphone sont automatiquement affectés à votre organisation. Vous pouvez voir les numéros de téléphone qui sont affectées à votre pont de conférence audio en accédant à la **Skype pour le centre d’administration Business** > **audioconférence** > **Microsoft bridge**. Consultez la rubrique [Afficher la liste des numéros de conférence Audio](see-a-list-of-audio-conferencing-numbers.md).
   
 > [!NOTE]
 > Il n'existe pas de ressource qui rassemble tous les numéros de connexion pour l'audioconférence. Si vous souhaitez voir s’il existe des numéros de téléphone entrant dans votre région ou le pays/région, utilisez le **Skype pour le centre d’administration Business** > **vocale** > de**Numéros de téléphone**, cliquez sur **Ajouter**, puis cliquez sur **nouveau Service Numéros**. Utilisez les listes **Pays/Région**, **État/Région** et **Ville** pour filtrer votre recherche. En outre, si vous recherchez des numéros gratuits service, sélectionnez **numéro gratuit** à partir de **Dép./région** liste.
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Couverture de conférence audio et les prix
 
-Pour une liste complète de tous les pays/régions et villes où la conférence Audio est disponible, voir [pays et disponibilité dans la région de conférence Audio et des Plans de l’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour plus d’informations sur la tarification, consultez 
-  
-[Tarifs pour l'audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+Pour une liste complète de tous les pays/régions et villes où la conférence Audio est disponible, voir [pays et disponibilité dans la région de conférence Audio et des Plans de l’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour plus d’informations de tarification, voir [tarification pour une audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Numéros de téléphone d'accès à composer figurant dans l'invitation à la réunion
 
-Lorsqu’un Skype pour Business Online ou Microsoft Teams utilisateur planifie une réunion dans Outlook ou Outlook Web App, le numéro de conférence audio par défaut qui est défini pour l’utilisateur est inclus dans l’invitation à la réunion. Si vous souhaitez sélectionner un numéro par défaut différent pour un ou plusieurs utilisateurs, vous pouvez modifier qui en accédant à la **Skype pour le centre d’administration Business** > **audioconférence** > **les utilisateurs**. Voir [l’invite inclus sur les numéros de téléphone](set-the-phone-numbers-included-on-invites.md).
+Lorsqu’un Skype pour Business Online utilisateur planifie une réunion dans Outlook ou Outlook Web App, le numéro de conférence audio par défaut qui est défini pour l’utilisateur est inclus dans l’invitation à la réunion. Si vous souhaitez sélectionner un numéro par défaut différent pour un ou plusieurs utilisateurs, vous pouvez modifier qui en accédant à la **Skype pour le centre d’administration Business** > **audioconférence** > **les utilisateurs**. Voir [l’invite inclus sur les numéros de téléphone](set-the-phone-numbers-included-on-invites.md).
   
 Les autres numéros de connexion sont affichés en cliquant sur le lien **Rechercher un numéro local** dans l'invitation à la réunion.
   
@@ -66,7 +67,7 @@ Shared téléphone de conférence audio numéros sont automatiquement affectés 
 > [!CAUTION]
 > En raison de la disponibilité limitée de numéros de téléphone payant Venezuela, Indonésie et Émirats arabes unis (Émirats Arabes Unis), les organisations à partir de ces pays/régions n’auront un numéro de conférence Audio automatiquement affecté. Les numéros gratuits pour ces lieux sont disponibles en fonction d'un inventaire mis à disposition. 
   
-Numéros de téléphone de conférence audio dédié doivent nombres de service que vous pouvez obtenir et affecter à votre organisation. Vous trouverez les numéros de service à l’aide de la **Skype entreprise centre d’administration**. Pour plus d’informations, voir les [numéros de téléphone de service de mise en route pour Skype pour les professionnels et les équipes Microsoft](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+Numéros de téléphone de conférence audio dédié doivent nombres de service que vous pouvez obtenir et affecter à votre organisation. Vous trouverez les numéros de service à l’aide de la **Skype entreprise centre d’administration**. Pour plus d’informations, voir les [numéros de téléphone de mise en service](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
   
 Pour voir une liste de ces pays/régions qui ont des numéros de téléphone automatiquement attribuées à des organisations, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
@@ -78,7 +79,7 @@ Pour voir une liste de ces pays/régions qui ont des numéros de téléphone aut
     
 - L'applet de commande [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) permet d'afficher la liste des langues qui peuvent être définies sur un numéro de téléphone à composer dédié.
     
-- Vous pouvez définir jusqu'à 4 langues pour chaque numéro de téléphone de conférence audio - un serveur principal et secondaire trois. Et vous pouvez également définir des langues sur un numéro de téléphone de conférence audio dédié.
+- Vous pouvez définir jusqu'à quatre langues pour chaque numéro de téléphone de conférence audio - un serveur principal et secondaire trois. Et vous pouvez également définir des langues sur un numéro de téléphone de conférence audio dédié.
     
 - Pour définir le numéro de téléphone d’un utilisateur, voir [l’invite inclus sur les numéros de téléphone](set-the-phone-numbers-included-on-invites.md).
     

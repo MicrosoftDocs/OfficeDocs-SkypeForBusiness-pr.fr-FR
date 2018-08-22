@@ -1,5 +1,5 @@
 ---
-title: Voir la liste des numéros de conférence Audio
+title: Voir la liste des numéros d’audioconférence dans Skype pour Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,29 +14,31 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
-ms.openlocfilehash: 70602e252d7c31bff7d6181c0cd5a51353da2def
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: 'Découvrez comment rechercher vos numéros de conférence rendez-vous à partir de Skype pour Business Online. '
+ms.openlocfilehash: 84d6f4d1d1d1358a62ec8d0eb2334c92c416adea
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703657"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490594"
 ---
-# <a name="see-a-list-of-audio-conferencing-numbers"></a>Voir la liste des numéros de conférence Audio
+# <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Voir la liste des numéros d’audioconférence dans Skype pour Business Online
 
-Lorsque vous définissez des services d’audioconférence pour Skype pour les utilisateurs professionnels et Teams Microsoft, vous pouvez afficher les numéros de téléphone qui sont disponibles pour l’audioconférence. Cette liste auront tous les numéros de téléphone de conférence audio sont disponibles pour votre organisation.
+> [!NOTE]
+> Pour plus d’informations sur les numéros de conférence Audio dans Microsoft Teams, voir [Afficher la liste des numéros de conférence Audio dans les équipes Microsoft](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams).
+
+Lorsque vous définissez des services d’audioconférence pour Skype pour les utilisateurs professionnels, vous pouvez afficher les numéros de téléphone qui sont disponibles pour l’audioconférence. Cette liste auront tous les numéros de téléphone de conférence audio sont disponibles pour votre organisation.
   
  **Vous recherchez des prix ?** Consultez [tarification pour l’audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **Il n’est pas une ressource qui contient une liste de tous les numéros de téléphone pour une audioconférence.** Si vous souhaitez pour voir s’il existe des numéros de téléphone entrant dans votre région ou le pays/région, accédez à **Skype pour le centre d’administration de Business** > **vocale** > de**Numéros de téléphone**, cliquez sur **Ajouter**, puis cliquez sur **nouveau Service Numéros**. Utilisez les listes **Pays/Région**, **État/Région** et **Ville** pour filtrer votre recherche. En outre, si vous recherchez des numéros gratuits service, sélectionnez **numéro gratuit** à partir de **Dép./région** liste.
+> **Il n'existe pas de ressource qui rassemble tous les numéros de connexion pour l'audioconférence.** Si vous souhaitez pour voir s’il existe des numéros de téléphone entrant dans votre région ou le pays/région, accédez à **Skype pour le centre d’administration de Business** > **vocale** > de**Numéros de téléphone**, cliquez sur **Ajouter**, puis cliquez sur **nouveau Service Numéros**. Utilisez les listes **Pays/Région**, **État/Région** et **Ville** pour filtrer votre recherche. En outre, si vous recherchez des numéros gratuits service, sélectionnez **numéro gratuit** à partir de **Dép./région** liste.
   
-S'il n'existe qu'un numéro de téléphone disponible pour votre organisation, il est utilisé comme numéro par défaut pour tous vos utilisateurs. Lorsque plusieurs numéros de téléphone sont disponibles, vous pouvez sélectionner le numéro de téléphone par défaut pour chaque utilisateur. Ce numéro par défaut vont être inclus dans Skype pour des invitations aux réunions d’entreprise et Teams Microsoft.
+S'il n'existe qu'un numéro de téléphone disponible pour votre organisation, il est utilisé comme numéro par défaut pour tous vos utilisateurs. Lorsque plusieurs numéros de téléphone sont disponibles, vous pouvez sélectionner le numéro de téléphone par défaut pour chaque utilisateur. Ce numéro par défaut figurera dans Skype pour les invitations à une réunion Business.
   
 Vous pouvez voir [l’invite inclus sur les numéros de téléphone](set-the-phone-numbers-included-on-invites.md) pour modifier le numéro de téléphone pour un seul utilisateur.
   
@@ -47,15 +49,6 @@ Vous pouvez voir [l’invite inclus sur les numéros de téléphone](set-the-pho
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Pour afficher vos numéros de téléphone des services d’audioconférence
-
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, accédez à des **réunions** > **ponts de conférence**. 
-2.  Afficher les numéros de téléphone qui sont disponibles pour l’audioconférence.
-
-- Vous pouvez également afficher l’emplacement et la langue principale qui sera utilisé par le standard automatique de conférence audio.
-
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     

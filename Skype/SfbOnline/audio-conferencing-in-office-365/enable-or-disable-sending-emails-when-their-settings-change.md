@@ -1,5 +1,5 @@
 ---
-title: Activer ou désactiver l’envoi de messages électroniques lorsque modifient leurs paramètres
+title: Activer ou désactiver l’envoi de messages électroniques lorsque les paramètres de conférence Audio changent dans Skype pour Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,21 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: a588c5b425fe3d71ecd6d73193348b98e8e2f298
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4d52603fb0d2701cbebd58644cd002dbc94baf89
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490584"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>Activer ou désactiver l'envoi de messages électroniques lorsque modifient les paramètres de conférence Audio
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Activer ou désactiver l’envoi de messages électroniques lorsque les paramètres de conférence Audio changent dans Skype pour Business Online
 
-Les utilisateurs sont avertis automatiquement par courrier électronique lorsqu’ils sont activés pour une audioconférence. Il peut arriver, cependant, lorsque vous souhaitez réduire le nombre de messages électroniques qui sont envoyés à Skype pour les utilisateurs professionnels et Teams Microsoft. Dans ce cas, vous pouvez désactiver l’envoi de courrier électronique.
+> [!Note]
+> Si vous souhaitez activer ou désactiver l’envoi d’e-mails dans Microsoft Teams, voir [Activer ou désactiver l’envoi de messages électroniques lorsque les paramètres de conférence Audio changent dans les équipes Microsoft](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams).
+
+Les utilisateurs sont avertis automatiquement par courrier électronique lorsqu’ils sont activés pour une audioconférence. Il peut arriver, cependant, lorsque vous souhaitez réduire le nombre de messages électroniques qui sont envoyés à Skype pour les utilisateurs professionnels. Dans ce cas, vous pouvez désactiver l’envoi de courrier électronique.
   
 Si vous désactivez envoi de courriers électroniques, messages électroniques de conférence Audio ne seront pas envoyées à vos utilisateurs, y compris pour les messages électroniques lorsque les utilisateurs sont activés ou désactivés pour l’audioconférence, leur code confidentiel est réinitialisé et modifications numéros de téléphone de l’ID de conférence et la conférence par défaut .
   
@@ -51,20 +54,13 @@ Voici un exemple du courrier électronique qui est envoyé aux utilisateurs lors
   - Lorsque le fournisseur de services d’audioconférence d’un utilisateur est modifié à partir de Microsoft vers un autre fournisseur ou **Aucun**.
     
   - Lorsque le fournisseur de services d’audioconférence d’un utilisateur est remplacé par Microsoft.
-    
+
+
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Activer ou désactiver la messagerie d’être envoyés aux utilisateurs
 
-Vous pouvez utiliser Microsoft Teams, le Skype entreprise centre d’administration, ou de Windows PowerShell pour activer ou désactiver le courrier envoyé aux utilisateurs.
+Activation ou désactivation de l'envoi de messages électroniques aux utilisateurs d'appels entrants
 
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**. 
-
-2. En haut de la page de **Ponts de conférence** , cliquez sur **paramètres du pont**. 
-
-3. Dans le volet **paramètres du pont** , activez ou désactivez **Envoyer automatiquement des messages électroniques aux utilisateurs si leurs paramètres de connexion à modifient**.
-
-4. Cliquez sur **Enregistrer**.
-  
+ 
 ![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
     
 1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, cliquez sur **conférence Audio**.

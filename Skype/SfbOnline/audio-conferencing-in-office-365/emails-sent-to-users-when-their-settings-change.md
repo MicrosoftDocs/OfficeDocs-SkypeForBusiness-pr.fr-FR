@@ -1,5 +1,5 @@
 ---
-title: Messages électroniques envoyés aux utilisateurs lorsque vous modifient leurs paramètres
+title: Messages électroniques envoyés aux utilisateurs lorsque les paramètres changent dans Skype pour Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,20 +14,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: 4766f8f236cbe94b11660165b8659a892d301285
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: 'En savoir plus sur les informations est envoyé automatiquement aux utilisateurs par courrier électronique lorsque leurs paramètres de conférence rendez-vous modifier dans Skype pour Business Online. '
+ms.openlocfilehash: cfa3e86be0d282e335b20a094e60835df3471358
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703433"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490504"
 ---
-# <a name="emails-sent-to-users-when-their-settings-change"></a>Messages électroniques envoyés aux utilisateurs lorsque vous modifient leurs paramètres
+# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Messages électroniques envoyés aux utilisateurs lorsque les paramètres changent dans Skype pour Business Online
+
+> [!Note]
+> Si vous recherchez des informations de courrier électronique automatique dans Microsoft Teams, consultez [les messages électroniques envoyés aux utilisateurs lorsque les paramètres changent dans les équipes Microsoft](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams).
 
 Les messages électroniques seront automatiquement envoyés aux utilisateurs qui sont [activés pour la conférence Audio](set-up-audio-conferencing.md) à l’aide de Microsoft en tant que le fournisseur de services d’audioconférence.
   
@@ -35,7 +37,7 @@ Par défaut, il existe quatre types de courrier électronique qui sera envoyé �
   
 - **Une licence de conférence Audio est attribuée à leur ou lorsque vous passez le fournisseur de services d’audioconférence à Microsoft.**
     
-     Ce message électronique inclut l’ID de conférence, le numéro de téléphone de conférence par défaut pour les réunions, les services d’audioconférence code confidentiel pour l’utilisateur et les instructions et lien à utiliser le Skype pour Business Online Meeting outil mises à jour qui sert à mettre à jour des réunions existantes pour le utilisateur. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [Affecter de Microsoft en tant que le fournisseur de services d’audioconférence](assign-microsoft-as-the-audio-conferencing-provider.md).
+     Ce message électronique inclut l’ID de conférence, le numéro de téléphone de conférence par défaut pour les réunions, les services d’audioconférence code confidentiel pour l’utilisateur et les instructions et lien à utiliser le Skype pour Business Online Meeting outil mises à jour qui sert à mettre à jour des réunions existantes pour le utilisateur. Voir [Assigner de Skype pour les licences d’entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [Affecter de Microsoft en tant que le fournisseur de services d’audioconférence](assign-microsoft-as-the-audio-conferencing-provider.md).
     
     > [!NOTE]
     > Si votre organisation a été activée pour les ID de conférence dynamiques, toutes les réunions d'un utilisateur planifiées auront un ID de conférence unique. Vous pouvez définir des [ID de conférence Audio dynamiques dans votre organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
@@ -44,7 +46,7 @@ Par défaut, il existe quatre types de courrier électronique qui sera envoyé �
     
      ![Skype for Business Verify License](../images/audio-conferencing-user-enabled.png)
   
-    Vous trouverez plus d’informations sur Skype pour les licences d’entreprise en consultant la rubrique [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+    Pour plus d'informations sur l'affectation de licences Skype Entreprise, reportez-vous à la rubrique [Licences de module complémentaire Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
 - **L'ID de conférence ou le numéro de téléphone par défaut d'une conférence pour un utilisateur change.**
     
@@ -106,18 +108,8 @@ Si vous souhaitez modifier les informations de l'adresse électronique, vous dev
 
 Lorsque vous désactivez l'envoi de courriers électroniques, le courrier électronique ne sera pas envoyé même si l'utilisateur dispose d'une licence. Dans ce cas, l’ID de conférence, par défaut le numéro de téléphone de conférence et, plus important, leur code confidentiel de conférence audio ne seront pas envoyée à l’utilisateur. En pareil cas, vous devez en informer l'utilisateur en lui envoyant un courrier électronique distinct ou en l'appelant.
   
-Par défaut, les messages électroniques sont envoyés à vos utilisateurs, mais si vous souhaitez empêcher leur réception électronique pour l’audioconférence, vous pouvez utiliser Microsoft Teams, le Skype pour le centre d’administration Business ou Windows PowerShell. 
-
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-
-1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**. 
-
-2. En haut de la page de **Ponts de conférence** , cliquez sur **paramètres du pont**. 
-
-3. Dans le volet **paramètres du pont** , activez ou désactivez **Envoyer automatiquement des messages électroniques aux utilisateurs si leurs paramètres de connexion à modifient**.
-
-4. Cliquez sur **Enregistrer**.
-  
+Par défaut, les messages électroniques sont envoyés à vos utilisateurs, mais si vous souhaitez empêcher leur réception de courrier électronique pour les conférences audio, vous pouvez utiliser la Skype pour le centre d’administration Business ou Windows PowerShell. 
+ 
 ![SFB-logo-30x30.png](../images/sfb-logo-30x30.png)  **à l’aide de la Skype entreprise centre d’administration**
     
 1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **paramètres de pont de Microsoft**.
