@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner un pays ou une région pour consulter la disponibilité de l'audioconférence, du système téléphonique, des forfaits d'appel, des crédits de communication ainsi que des numéros payants et gratuits.
-ms.openlocfilehash: d4fd54348cf1897a60c235f3f4fa408c051b3f0b
-ms.sourcegitcommit: 18ae1505642e985f7fb62d2e70e37e8489b5ef15
+ms.openlocfilehash: 5844b271cb89d669dac11d2dda67b62ed4bd22c1
+ms.sourcegitcommit: bc125c655e76129b086f821011f63a983fb23e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "20034645"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22554032"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays
 
@@ -159,9 +159,6 @@ Dans l'audioconférence, la fonctionnalité appelée « *M'appeler* » peut ê
   
 Passer un appel sortant depuis une réunion vers un autre pays ou une autre région du monde, non mentionné ci-dessous, est possible à l'aide des [crédits de communication d'Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md). Pour ces utilisateurs, il vous faut [configurer les crédits de communication pour votre organisation](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
   
-> [!NOTE]
-> Au cours de la période de lancement, les utilisateurs de toutes les organisations peuvent passer un appel sortant à l’aide de la fonctionnalité M’appeler ou en ajoutant d’autres personnes à une réunion pour leur permettre d’y participer vers l’un des pays suivants sans frais supplémentaires, cette possibilité étant toutefois soumise à la [période d'appel sortant gratuite pour l'audioconférence](../legal-and-regulatory/complimentary-dial-out-period.md). 
-  
 ### <a name="phone-system"></a>Système téléphonique
 Avec le système téléphonique, vous pouvez créer des standards automatiques et des files d'attente (avec un numéro gratuit ou payant) pour répondre aux appels entrants de votre organisation et, lorsque vous ajoutez un forfait d'appels pour les utilisateurs, ceux-ci peuvent se servir de Skype Entreprise pour réaliser des tâches de contrôle d'appel de base, telles que passer, recevoir, ou transférer des appels, ou encore désactiver ou activer le son des appels. Les utilisateurs du **système téléphonique** peuvent cliquer sur un nom dans leur carnet d’adresses pour que Skype Entreprise appelle cette personne. Pour émettre et recevoir des appels, les utilisateurs du **système téléphonique** peuvent utiliser leur appareil mobile, un casque avec un ordinateur portable ou un PC ou l’un des nombreux téléphones IP compatibles avec Skype Entreprise.
 
@@ -174,7 +171,7 @@ Outre obtenir des numéros de téléphone pour des utilisateurs individuels à p
 
 Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une région et les services disponibles.
 
-### <a name="calling-plans"></a>Forfaits d'appels
+### <a name="calling-plans"></a>Offres d'appels
 Avec le système téléphonique, un forfait d'appels permet aux utilisateurs de passer et de recevoir des appels téléphoniques. Vous devez d'abord obtenir le numéro de téléphone (pas un numéro de service) d'un utilisateur (abonné) à attribuer à l'utilisateur, puis lui attribuer un forfait d'appels. Deux types de forfaits d'appels sont disponibles : **Nationaux** et **Nationaux et internationaux**. Consultez [Qu'est-ce que les forfaits d'appels ?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) pour en savoir plus.
 
 Vous pouvez aussi consulter [Système téléphonique et licences de forfaits d'appels](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) pour obtenir des informations à propos des licences.
