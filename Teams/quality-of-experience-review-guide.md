@@ -3,7 +3,7 @@ title: Qualité de consulter le Guide de l’expérience pour les équipes Micro
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 04/12/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7579a87d2c59a47304d06fd05e11b37a97544a79
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: ff9834b5bb59b0dd37ba5ff6d4053cd7b5188499
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694919"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546644"
 ---
 # <a name="quality-of-experience-review-guide"></a>Qualité de consulter le Guide de l’expérience
 
@@ -138,7 +138,7 @@ _Tableau 2 - mesures de Service d’appels médiocres_
 | Gigue \>30 ms                                   | Il s’agit de la variation moyenne de retard entre les paquets successives. Les équipes et Skype pour les entreprises peuvent s’adapter à certains niveaux de gigue par le biais de mise en mémoire tampon. Il est uniquement lorsque la gigue dépasse la mise en mémoire tampon un participant d’avertissements les effets de gigue.                                                                                                                         | Les paquets arrivant à différentes vitesses provoquent voix d’un haut-parleur à son automatisée.                                                                                       |
 | Taux de pertes de paquets \>0,1 ou 10 %                    | Il est souvent définie sous forme de pourcentage des paquets sont perdus. Perte de paquets affecte directement la qualité audio, à partir de petite, individuel paquets perdus qui n’ont presque aucun impact pertes rafale DOS à DOS que la fonctionnalité audio cause découper complètement.                                                                                                                               | Les paquets en cours perdus et d’arriver pas à leur destination entraîner des écarts dans le support, qui en résulte dans des mots et syllabes manqués et saccadé vidéos et de partage. |
 | Temps d’aller-retour \>500 ms                         | Il s’agit du temps que nécessaire pour obtenir un paquet IP à partir d’un point à point B et au point A. Ce délai de propagation de réseau est lié à la distance physique entre les deux points et la vitesse de la lumière et inclut une surcharge supplémentaire prise par les différents périphériques dans le chemin d’accès réseau.                                                                                  | Les paquets prend trop de temps pour parvenir à sa destination provoquent un effet talkie-walkie.                                                                                 |
-| Moyenne de dégradation NMOS \> 1.0                  | Une ou plusieurs de ces mesures réseau, individuellement n’ont pas été médiocre, ensemble due la [Moyenne d’opinion](https://technet.microsoft.com/library/bb894481(v=office.12).aspx) de réseau (NMOS) pour supprimer plusieurs points. Cela ne signifie pas nécessairement la connexion réseau est faible, mais suffisamment problèmes s’est produite pendant l’appel que qualité a été réduite. | Il s’agit d’une combinaison de gigue, la perte de paquets, et, dans une moindre mesure : augmenter le temps d’aller-retour. L’utilisateur peut être confronté à une combinaison de ces problèmes.          |
+| Moyenne de dégradation NMOS \> 1.0                  | Une ou plusieurs de ces mesures réseau, individuellement n’ont pas été médiocre, ensemble due la [Moyenne d’opinion](https://docs.microsoft.com/en-us/previous-versions/office/communications-server/bb894481(v=office.12)) de réseau (NMOS) pour supprimer plusieurs points. Cela ne signifie pas nécessairement la connexion réseau est faible, mais suffisamment problèmes s’est produite pendant l’appel que qualité a été réduite. | Il s’agit d’une combinaison de gigue, la perte de paquets, et, dans une moindre mesure : augmenter le temps d’aller-retour. L’utilisateur peut être confronté à une combinaison de ces problèmes.          |
 | Taux moyen d’échantillons \> 7 % ou 0,07 | Une ou plusieurs de ces mesures réseau, individuellement n’ont pas été médiocre, a provoqué le client à autoréparation du média. Un échantillon audio masqué est une technique utilisée pour atténuer les la transition brutale doit généralement être provoquée par paquets perdus.                                                                                                                | Des valeurs élevées indiquent que des niveaux significatifs de masquage de perte ont été appliquées et a provoqué audio déformé ou perdue.                                                  |
 
 #### <a name="client-and-device-readiness"></a>Préparation des clients et périphériques
@@ -161,7 +161,7 @@ Nous vous recommandons de pas laisser votre versions du client comprises en plus
 Aucune une stratégie unique ne peut affecter l’expérience utilisateur plus de votre stratégie de disponibilité du périphérique. La plupart des organisations sont satisfaites supprimer les périphériques inutiles d’utilisateurs (par exemple, téléphones de bureau ou d’autres périphériques audio dédiées), et il s’agit souvent une justification principaux de passage à des équipes ou Skype pour les entreprises. Toutefois, ces organisations même parfois hésitent pas à fournir des périphériques de remplacement, même si ces périphériques sont moins onéreux. Ordinateurs portables moderne et PC, mais équipés de microphone et haut-parleur, intégrés ne sont pas optimisés pour professionnelles voix sur IP (VoIP). Cela crée souvent une mauvaise expérience pour tous les participants, en particulier si le haut-parleur est dans un environnement de bruit. Programme de certification de périphériques de Microsoft garantit que lorsqu’un utilisateur participe à un appel téléphonique à l’aide de n’importe quel appareil certifié pour les équipes ou Skype pour les entreprises, elle génère une expérience est supérieure à un périphérique non certifiés.
 
 Nous vous recommandons toujours que Skype pour les utilisateurs professionnels et les équipes utilisent un casque certifié ou les haut-parleurs lorsque vous participez à un appel vocal à l’aide d’un client de bureau.
-Pour plus d’informations sur les périphériques certifiés de Microsoft, lisez cet [article sur les téléphones et appareils qualifiés](https://technet.microsoft.com/office/dn788944.aspx). Utilisez le [Rapport de périphérique](#devices-investigations), plus loin dans ce guide, pour l’aide à la gestion de vos périphériques. Vous pouvez également utiliser les exemples de rapports taux mes appels pour améliorer votre stratégie de disponibilité du périphérique.
+Pour plus d’informations sur les périphériques certifiés de Microsoft, lisez cet [article sur les téléphones et appareils qualifiés](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/ip-phones). Utilisez le [Rapport de périphérique](#devices-investigations), plus loin dans ce guide, pour l’aide à la gestion de vos périphériques. Vous pouvez également utiliser les exemples de rapports taux mes appels pour améliorer votre stratégie de disponibilité du périphérique.
 
 ### <a name="user-experience"></a>Expérience utilisateur
 
@@ -295,7 +295,7 @@ Autorisations requises
 
 #### <a name="skype-for-business-online-using-powershell"></a>Skype pour Business Online à l’aide de PowerShell
 
-1.  [Se connecter à Skype pour les entreprises en ligne via PowerShell](https://technet.microsoft.com/library/dn362839(v=ocs.15).aspx).
+1.  [Se connecter à Skype pour les entreprises en ligne via PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 2.  Exécutez la commande suivante :  
     **.Tenantid (get-cstenant)**
@@ -477,7 +477,7 @@ _Tableau 4 : filtre du rapport_
 
 ## <a name="import-the-cqd-templates"></a>Importer les modèles CQD
 
-Ce guide inclut [deux modèles CQD curated](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true). Ces modèles accélèrent votre utilisation de CQD et vous permettent de rapidement tirer parti des fonctionnalités de CQD un impact sur vos utilisateurs des équipes ou Skype pour une expérience. Le modèle de tous les réseaux, mais optimisé pour fonctionner avec une création de fichier de données, peut être utilisé lorsque vous travaillez à collecter et chargement des informations de construction dans CQD, comme décrit dans la section suivante.
+Ce guide inclut [deux modèles CQD curated](https://aka.ms/qertemplates). Ces modèles accélèrent votre utilisation de CQD et vous permettent de rapidement tirer parti des fonctionnalités de CQD un impact sur vos utilisateurs des équipes ou Skype pour une expérience. Le modèle de tous les réseaux, mais optimisé pour fonctionner avec une création de fichier de données, peut être utilisé lorsque vous travaillez à collecter et chargement des informations de construction dans CQD, comme décrit dans la section suivante.
 
 **Pour importer les modèles (. CQDX) en CQD en ligne**
 
@@ -1048,7 +1048,7 @@ Vous pouvez trouver les numéros de version de Skype pour Business 2015 et 2016 
 
 -   [Versions de canal de mise à jour de client Office 365](https://technet.microsoft.com/office/mt465751?f=255&MSPPError=-2147217396)
 
--   [Numéros de version et Office 365 pour cliquer pour exécuter](https://support.office.com/article/Version-and-build-numbers-of-update-channel-releases-ae942449-1fca-4484-898b-a933ea23def7)
+-   [Numéros de version et Office 365 pour cliquer pour exécuter](https://docs.microsoft.com/en-us/officeupdates/update-history-office365-proplus-by-date)
 
 -   [Skype pour les entreprises télécharge et met à jour](https://technet.microsoft.com/office/dn788954.aspx)
 
@@ -1154,7 +1154,7 @@ Pour plus d’informations, consultez l’article suivant sur [média qualité e
 
 ### <a name="building-data-file"></a>Fichier de données de création
 
--   [Activation et à l’aide de CQD dans Skype pour Business Online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-in-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)
+-   [Activation et à l’aide de CQD dans Skype pour Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)
 
 <a name="CQD-training"></a>
 
@@ -1164,17 +1164,17 @@ Pour plus d’informations, consultez l’article suivant sur [média qualité e
 
 -   Guide de [mise en route avec CQD](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Configuring%20Call%20Quality%20Dashboard%20to%20monitor%20your%20Skype%20for%20Business%20Online%20Environment) et atelier.
 
--   [CQD Dimensions et mesures guide en ligne](https://support.office.com/article/Dimensions-and-measures-available-in-Call-Quality-Dashboard-in-Skype-for-Business-Online-e97aeeee-9e43-416f-b433-9cdd63d8874b)
+-   [CQD Dimensions et mesures guide en ligne](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard)
 
 ### <a name="call-analytics-training"></a>Appel de formation Analytique
 
 -   [Présentation Analytique d’appel](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Configurer l'analyse des appels Skype Entreprise](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
+-   [Configurer l'analyse des appels Skype Entreprise](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics)
 
--   [Appel Analytique et tableau de bord de qualité des appels](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
+-   [Appel Analytique et tableau de bord de qualité des appels](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
 
--   [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels Skype Entreprise](https://support.office.com/article/Use-Call-Analytics-to-troubleshoot-poor-Skype-for-Business-call-quality-66945036-ae87-4c08-a0bb-984e50d6b009)
+-   [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels Skype Entreprise](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)
 
 ### <a name="call-analytics-support"></a>Appelez le support technique Analytique
 
@@ -1190,6 +1190,6 @@ Pour plus d’informations, consultez l’article suivant sur [média qualité e
 
 -   [Pack de contenu Office 365 d’Adoption](https://blogs.office.com/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
 
--   [Création de rapports Skype Entreprise Online](https://support.office.com/article/Skype-for-Business-Online-reporting-4935cddf-fafa-442d-91a3-246af01f8373)
+-   [Création de rapports Skype Entreprise Online](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
 -   [Microsoft Teams création de rapports](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)

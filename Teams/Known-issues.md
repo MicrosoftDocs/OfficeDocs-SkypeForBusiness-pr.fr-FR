@@ -3,19 +3,19 @@ title: Problèmes connus pour Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/9/2018
+ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: marcl, ninadara
+ms.reviewer: marcl
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7053bade0b01a35ba8e43607b182c9faec63879
-ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
+ms.openlocfilehash: 8ca61e36069262ddb2ea43dde300c169d6992ba8
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21779518"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546398"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
   
@@ -131,7 +131,7 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 ## <a name="meetings"></a>Réunions
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Les utilisateurs ne peuvent pas accéder aux réunions/connecteurs, mais les boîtes aux lettres Exchange Online. <br/> |Client activement bloque EWS à partir des services dans Exchange Online, mais doit être MS Teams conforme au sein de stratégies EWS. <br/> |Pour rendre MS Teams conforme, vous devez ajouter la chaîne d’Agent utilisateur pour Teams MS au sein de la EWSAllowList : `*skypespaces*`, y compris les astérisques. La commande complète est la suivante :`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Pour plus d’informations :https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
+|Les utilisateurs ne peuvent pas accéder aux réunions/connecteurs, mais les boîtes aux lettres Exchange Online. <br/> |Client activement bloque EWS à partir des services dans Exchange Online, mais doit être MS Teams conforme au sein de stratégies EWS. <br/> |Pour rendre MS Teams conforme, vous devez ajouter la chaîne d’Agent utilisateur pour Teams MS au sein de la EWSAllowList : `*skypespaces*`, y compris les astérisques. La commande complète est la suivante :`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Pour plus d’informations :https://docs.microsoft.com/en-us/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|

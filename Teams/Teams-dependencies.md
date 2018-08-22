@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Gérez les fonctionnalités d’accès invité dans Microsoft Teams par le biais de quatre niveaux d’autorisation différents.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d31bb8eafdaa6a04fe34f8433e8484ec447e7c1
-ms.sourcegitcommit: 2ce680aba13d1d781019b766a04e4e7d46d4f72c
+ms.openlocfilehash: 9864289048b05ed80ddfeb016bf943f3f670f5b5
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21136306"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546406"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autoriser l'accès invité dans Microsoft Teams
 ===========================================
@@ -55,7 +55,7 @@ Azure AD inclut les paramètres suivants pour configurer des utilisateurs extern
 
 
 > [!NOTE]
-> Vous pouvez également gérer les domaines peuvent être invités à votre client en tant qu’invités. Voir [Autoriser/bloquer l’accès invité à des groupes d’Office 365](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da). 
+> Vous pouvez également gérer les domaines peuvent être invités à votre client en tant qu’invités. Voir [Autoriser/bloquer l’accès invité à des groupes d’Office 365](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups). 
 
 ## <a name="microsoft-teams"></a>Microsoft Teams
 Dans Microsoft Teams, vous pouvez contrôler si l’expérience invité est activée ou désactivée pour votre organisation. Ce paramètre est désactivé par défaut et s’applique au niveau du client pour Microsoft Teams uniquement.
@@ -104,7 +104,7 @@ Pour activer l'expérience complète de l'accès invité Teams, les administrate
 
 - Dans SharePoint Online : **Autoriser uniquement le partage avec les utilisateurs externes déjà dans le répertoire**
     
-    Pour plus d'informations, reportez-vous à la rubrique [Gérer le partage externe de votre environnement SharePoint Online](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).
+    Pour plus d'informations, reportez-vous à la rubrique [Gérer le partage externe de votre environnement SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/external-sharing-overview).
     
   
 - Dans les groupes Office 365 : **Autoriser les propriétaires de groupes à ajouter des personnes en dehors de l'organisation aux groupes**
