@@ -1,7 +1,7 @@
 ---
 title: Préparer votre environnement
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Cet article explique les préparations de l’infrastructure pour le déploiement de systèmes de salle Skype v2.
-ms.openlocfilehash: 46e40acf8d82c0fe5feee66781ac9ebefda68f3e
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 694da63ea29d1d0455faa568f2ee9956fb26948f
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504767"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601940"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -110,9 +110,9 @@ Systèmes de salle Skype v2 est conçu pour hériter les paramètres de Proxy à
     
 Pour utiliser cette application, vous devez être en mesure de vous connecter aux points de terminaison décrits ci-après. Pour consulter les adresses IP, développez la section d’adresses IP sous la table de description de flux de trafic.
   
-**Exemples de pare-feu Proxy hôte nom/Port**
+**Exemple de noms d’hôte/ports de proxy de pare-feu**
 
-|**Objectif**|**Informations d’identification ou source**|**Port source**|**Destination**|**CDN**|**ExpressRoute pour Office 365**|**Destination IP**|**Port de destination**|
+|**Objectif**|**Source ou informations d’identification**|**Port source**|**Destination**|**CDN**|**ExpressRoute pour Office 365**|**Adresse IP de destination**|**Port de destination**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Authentification et identité  <br/> |Voir [identité et authentification Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
 |Portail et services partagés  <br/> |Voir [Office 365 portail et partagés](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
@@ -167,10 +167,10 @@ Beaucoup comme n’importe quel appareil Windows, le nom de l’ordinateur peut 
 
 [Plan de salle Skype systèmes v2](skype-room-systems-v2-0.md)
 
-[V2 Skype salle requise](requirements.md)
+[Configuration requise pour Skype Room Systems v2](requirements.md)
   
-[Déployer la salle Skype systèmes v2](../../deploy/deploy-clients/room-systems-v2.md)
+[Déploiement de Skype Room System v2](../../deploy/deploy-clients/room-systems-v2.md)
   
-[Configurer une console v2 de systèmes de salle de Skype](../../deploy/deploy-clients/console.md)
+[Configuration d’une console Skype Room Systems v2](../../deploy/deploy-clients/console.md)
   
-[Gérer les salles Skype systèmes v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gestion de Skype Room System v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

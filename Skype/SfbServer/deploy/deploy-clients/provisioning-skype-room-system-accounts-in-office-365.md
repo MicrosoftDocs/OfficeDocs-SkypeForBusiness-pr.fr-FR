@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Consultez cette rubrique pour en savoir plus sur la mise en service de comptes Skype Room System dans Office 365.
-ms.openlocfilehash: b248168870366db8f685db48197badb3bacf935f
-ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
+ms.openlocfilehash: 8120fb2fe8db35eb3907128d65f5b55bb5f544ec
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "22102052"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22601975"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Mise en service de comptes Skype Room System dans Office 365
  
@@ -26,7 +26,7 @@ La section suivante traite de compte Skype salle système de mise en service pou
 
 Votre client en ligne doit répondre aux conditions suivantes :
   
-- Le plan Office 365 doit inclure Skype pour Business Online Plan 2, 3 Plan, ou Office 365 E1, E3 ou E5.
+- Le plan Office 365 doit inclure Skype pour Business Online Plan 2, ou Office 365 E1, E3 ou E5. <br/>Pour plus d’informations sur Skype pour Business Online Plans, voir le [Skype pour Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
     
 - Votre client doit avoir la fonctionnalité de conférence de Skype pour les entreprises activé.
     
@@ -44,9 +44,9 @@ Pour le compte Skype Room, la licence suivante est requise :
   
 - Un Skype pour Business Online Plan 2 ou Office 365 E1 ou E3 licence est nécessaire pour activer les réunions Skype.
     
-- Autorisant la salle avec la fonctionnalité voix entreprise afin que la salle peut être activée avec un numéro de téléphone, un Skype pour Business Online Plan 2 avec le module complémentaire de nuage PBX ou Office 365 E5 est requise (1).
+- Autorisant la salle avec la fonctionnalité voix entreprise afin que la salle peut être activée avec un numéro de téléphone, un Skype pour Business Online Plan 2 avec la licence de système téléphonique ou Office 365 E5 est requise (1).
     
-- La disponibilité du droit à la conférence RTC dans une réunion donnée est déterminée par la licence de l’organisateur de la réunion.
+- Si vous avez besoin des fonctionnalités de rendez-vous à partir d’une réunion, vous devez une conférence audio et la licence du système téléphonique.  Si vous avez besoin des fonctionnalités d’appel sortant à partir d’une réunion, vous devez a internes ou nationales et internationales appelant Plan. 
     
 - Une licence Exchange Online n’est pas requise pour le compte Skype Room car le compte doit être configuré comme un compte de boîte aux lettres de ressource.
     
@@ -138,4 +138,7 @@ Dans Office 365, la stratégie d’expiration du mot de passe par défaut pour 
 
 Pour plus d’informations, voir [configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
+## <a name="validate"></a>Valider
+
+Pour la validation, vous devez être en mesure d’utiliser n’importe quel Skype pour client d’entreprise pour vous connecter au compte que vous avez créé.
 

@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
-ms.openlocfilehash: bd99a4c3772836d6352228bfd90cecd592af557f
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 20a378e9565a5ddea2e1951d3d26cf30878f62c9
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412324"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22601982"
 ---
 # <a name="release-notes"></a>Notes de publication 
 
@@ -25,6 +25,10 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 
 | Version | Publié sur <br>Magasin de Microsoft | 
 | ---     | ---                              |
+| 4.0.8.0|  07/06/2018    |   
+| 3.1.115.0|  18/06/2018    |
+| 3.1.113.0|  13/06/2018    |   
+| 3.1.112.0|  06/05/2018    |   
 | 3.1.104.0|  04/16/2018    |            
 | 3.1.100.0|  16/03/2018    |            
 | 3.1.99.0 | 3/14/2018      |   
@@ -40,11 +44,28 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Systèmes de salle Skype v2 fonctionnalité introduction et problème résolution
 
+### <a name="4080-07062018"></a>4.0.8.0 (07/06/2018)
+Introduite dans cette mise à jour : 
+- Cette mise à jour permet à la fois Skype pour professionnels *et* équipes réunions prise en charge sur les périphériques de systèmes de salle.  Les équipes est désactivée par défaut une fois la mise à jour est appliquée.  Administrateurs peuvent permettent aux équipes localement dans Paramètres du périphérique, ou via un push xml à distance.
+
+### <a name="311150-06182018"></a>3.1.115.0 (18/06/2018)
+Introduite dans cette mise à jour : 
+- Corriger les erreur adresse observé sur certains systèmes lors du démarrage de l’application.
+
+### <a name="311130-06132018"></a>3.1.113.0 (13/06/2018)
+Introduite dans cette mise à jour : 
+- Modifications de l’activation de Microsoft plus flexible gérer les mises à jour Windows.
+- Aucune modification à l’utilisateur final.
+
+### <a name="311120-06052018"></a>3.1.112.0 (05/06/2018)
+Introduite dans cette mise à jour : 
+- Corriger les problèmes observés sur des appareils 2017 Surface Pro est connectés à deux affiche plan de salle et vidéo d’acquisition la réactivité de console adresse
+- Vérification automatique pour vous assurer que le système est exécuté le script dernière mise en service.
+
 ### <a name="311040-04162018"></a>3.1.104.0 (16/04/2018)
 Introduite dans cette mise à jour : 
 - Correctif pour améliorer le clavier visuel (clavier visuel) comportement dans les systèmes fenêtre 10 Version 1709
 - Améliorations apportées à préparer les mises à jour du système d’exploitation future
-
 
 ### <a name="311000-03162018"></a>3.1.100.0 (16/03/2018)
 Introduite dans cette mise à jour :  

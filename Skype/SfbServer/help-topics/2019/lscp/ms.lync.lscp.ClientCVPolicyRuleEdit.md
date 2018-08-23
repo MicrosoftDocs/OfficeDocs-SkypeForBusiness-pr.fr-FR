@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: Une stratégie de version de client est composée d’un ensemble de règles de version de client. Ces règles définissent les actions qui doivent être effectuées lorsque les utilisateurs tentent de se connecter avec des clients et des versions de client spécifiques.
-ms.openlocfilehash: cd89e0bd5bf6781ea8381563e592d57a3e68434a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ddebab20af21be8a6c3cbff558cec6d118dd60d0
+ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988733"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "22601912"
 ---
 # <a name="client-version-rule"></a>Règle de version du client
  
@@ -35,7 +35,7 @@ Dans la page **Nouvelle configuration de version du client** ou **Modifier la co
 
 Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
   
-- **Agent utilisateur** Vous pouvez sélectionner un type de client à partir de la liste. Le tableau suivant définit les codes d’agent utilisateur.
+- **Agent utilisateur** Vous pouvez sélectionner un type de client à partir de la liste. Le tableau suivant définit les codes d’agent utilisateur. Cette liste inclut les types de client hérité, dont certains ne sont plus pris en charge.  
     
 |**Nom du client**|**Agent utilisateur**|
 |:-----|:-----|

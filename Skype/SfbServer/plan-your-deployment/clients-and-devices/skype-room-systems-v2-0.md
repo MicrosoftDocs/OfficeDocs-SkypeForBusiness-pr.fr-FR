@@ -1,7 +1,7 @@
 ---
 title: Planification de Skype Room Systems v2
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Cet article explique les considérations de planification pertinentes pour le déploiement de systèmes de salle Skype v2, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 20c2163988d73eb704b09ee8f845a1a046a593af
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: b62e062eebfd9a79cf49b98fe6f477a0288f71d1
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601947"
 ---
 # <a name="plan-skype-room-systems-v2"></a>Plan de salle Skype systèmes v2 
 
@@ -76,7 +77,7 @@ Vous devrez peut-être coordonner ces activités entre plusieurs équipes. Nous 
 | Préparation du service          | IT équipe de projet                        |             | [Préparation du service](../../deploy/deploy-clients/room-systems-v2.md#service-readiness)                      |
 | Configuration              | IT équipe de projet                        |             | [Configuration et déploiement](../../deploy/deploy-clients/room-systems-v2.md#configuration-and-deployment)                      |
 | Déploiement                 | Installations / équipe AV / l’équipe du projet |             | [Liste de vérification du déploiement](../../deploy/deploy-clients/console.md#skype-room-systems-v2-deployment-checklist)                      |
-| Adoption                   | Installations / équipe AV / l’équipe du projet |             | [Kit d’adoption](#plan-for-adoption-and-change-management)                      |
+| Adoption                   | Installations / équipe AV / l’équipe du projet |             | [Adoption](#plan-for-adoption-and-change-management)                      |
 | Maintenance et opérations | L’équipe a/v / l’équipe du projet              |             | [Vue d’ensemble de la gestion](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)                      |
 
 

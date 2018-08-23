@@ -1,7 +1,7 @@
 ---
 title: Prise en charge de la version
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit la prise en charge du cycle de vie pour les systèmes de salle Skype v2.
-ms.openlocfilehash: 596197a240d4cf44e8bcf0d0069f9cad5d5e6777
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 86f71f1ddd554c9a9d368cdb725367a368257453
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601954"
 ---
 # <a name="version-support"></a>Prise en charge de la version
  
@@ -38,11 +39,8 @@ Toutes les versions sont répertoriées dans les [notes de publication de systè
 <a name="See"> </a>  
 ## <a name="see-also"></a>Voir aussi
 
-
-#### 
 [Systèmes de salle Skype version 2](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Notes de publication de systèmes de salle Skype v2](srs2-release-note.md)
 
-[Planifier la salle Skype systèmes v2](skype-room-systems-v2-0.md)
-
+[Planification de Skype Room Systems v2](skype-room-systems-v2-0.md)
