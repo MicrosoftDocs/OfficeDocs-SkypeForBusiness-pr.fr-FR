@@ -1,7 +1,7 @@
 ---
 title: Configurer le routage Direct
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: bad3709635ccca83a4093e5115e46352f5dcaaff
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599429"
+ms.locfileid: "22914751"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage Direct
 
@@ -519,9 +519,9 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 Le résultat est que la stratégie de voix appliquée aux appels de John Woods sont non restreint et doit suivre la logique de routage des appels disponible pour les États-Unis, au Canada et International appel.
 
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>Définissez Teams Microsoft en tant que client appelant par défaut pour les utilisateurs
+## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Définir Teams Microsoft en tant que client appelant par défaut pour les utilisateurs
 
-Routage direct uniquement router les appels vers et depuis les utilisateurs s’ils utilisent des équipes Cleint. Si votre organisation ne l’utilisez client équipes, « Équipes uniquement » mode dans la stratégie de mise à niveau est recommandé de définir. Si vous organisation utilise Skype pour Business Server ou Skype pour Business Online, veuillez consulter le document suivant de [comprendre les parcours de mise à niveau et de coexistence pour Skype pour professionnels et les équipes](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) et sélectionnez l’option appropriée. 
+Routage direct achemine uniquement les appels vers et depuis les utilisateurs s’ils utilisent le client d’équipes. Si votre organisation utilise uniquement des équipes, « Équipes uniquement » mode dans la stratégie de mise à niveau est recommandé de définir. Si votre organisation utilise Skype pour Business Server ou Skype pour Business Online, consultez l’article suivant pour plus d’informations et sélectionnez l’option appropriée : [comprendre la coexistence et voyage Skype pour professionnels et les équipes de mise à niveau](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## <a name="see-also"></a>Voir aussi

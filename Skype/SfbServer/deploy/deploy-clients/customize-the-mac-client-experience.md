@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Cet article décrit les préférences et valeurs par défaut disponibles pour le client Skype Entreprise sur un client Mac ainsi que leur modification hors de l'application.
-ms.openlocfilehash: 37ea82cc87e58303ab412c7adbd427dd11c74f89
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ae7f3a5c63a77820aba24e93d820ae2eff9176ad
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014639"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22912842"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personnaliser l'expérience de client Mac dans Skype Entreprise
  
@@ -31,20 +31,20 @@ Pour définir ces préférences, accéder à une invite de terminal sur Mac du c
 **Clés de préférence client**
 
 
-|**Clé**|**Type**|**Valeur**|**Description**|
+| Clé | Type | Valeur | Description% |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDicoveryURLs  <br/> |Bool  <br/> |0 = configuration manuelle du serveur  <br/> 1 = détection automatique du serveur (par défaut)  <br/> |Spécifiez comment Skype pour les entreprises identifie le transport et le serveur à utiliser lors de la connexion. Si vous activez ce paramètre de stratégie, vous devez spécifier **internalAutoDiscoveryURL** et **externalAutoDiscoveryURL**. <br/> |
-|internalAutoDiscoveryURL  <br/> |Chaîne  <br/> |URL de découverte automatique complète  <br/> |URL de découverte automatique interne  <br/> |
-|externalAutoDiscoveryURL  <br/> |Chaîne  <br/> |URL de découverte automatique complète  <br/> |URL de découverte automatique externe  <br/> |
-|httpProxyDomain  <br/> |Chaîne  <br/> ||Domaine HTTP proxy  <br/> |
-|httpProxyUserName  <br/> |Chaîne  <br/> ||Nom d'utilisateur HTTP proxy  <br/> |
-|httpProxyPassword  <br/> |Chaîne  <br/> ||Mot de passe HTTP proxy  <br/> |
-|trustedDomainList  <br/> |Tableau  <br/> ||Liste de domaines approuvés pour les redirections HTTP.  <br/> |
-|autoAcceptTimeout  <br/> |Numéro  <br/> |300 (valeur par défaut)  <br/> |Délai d'expiration de l'acceptation automatique pour les utilisateurs ne disposant pas d'historique des conversations côté serveur  <br/> |
-|warnWhenUnknownLocationForE911  <br/> |Bool  <br/> |0 = Désactivé  <br/> 1 = Activé  <br/> |Avertit l'utilisateur lorsqu'un numéro d'urgence est composé à partir d'un emplacement inconnu.  <br/> |
-|sipAddress  <br/> |Chaîne  <br/> ||L’adresse SIP (Email) utilisé pour se connecter sur Skype pour les entreprises.  <br/> |
-|nom d’utilisateur  <br/> |Chaîne  <br/> ||L’UPN (nom d’utilisateur) utilisé pour vous connecter à Skype pour les entreprises.  <br/> |
-|userNameInAdvancedOnly  <br/> |Bool  <br/> |0 = afficher le champ nom d’utilisateur sur l’écran de connexion principale et dans la boîte de dialogue Propriétés avancées  <br/> 1 = afficher le champ nom d’utilisateur uniquement dans la boîte de dialogue Propriétés avancées (par défaut)  <br/> |Spécifier où le champ nom d’utilisateur est affiché lorsqu’il se connecte.  <br/> |
+|AutoDetectAutoDiscoveryURLs    |Bool    |0 = configuration manuelle du serveur  <br/> 1 = détection automatique du serveur (par défaut)    |Spécifiez comment Skype pour les entreprises identifie le transport et le serveur à utiliser lors de la connexion. Si vous activez ce paramètre de stratégie, vous devez spécifier **internalAutoDiscoveryURL** et **externalAutoDiscoveryURL**.   |
+|internalAutoDiscoveryURL    |Chaîne    |URL de découverte automatique complète    |URL de découverte automatique interne    |
+|externalAutoDiscoveryURL    |Chaîne    |URL de découverte automatique complète    |URL de découverte automatique externe    |
+|httpProxyDomain    |Chaîne    ||Domaine HTTP proxy    |
+|httpProxyUserName    |Chaîne    ||Nom d'utilisateur HTTP proxy    |
+|httpProxyPassword    |Chaîne    ||Mot de passe HTTP proxy    |
+|trustedDomainList    |Tableau    ||Liste de domaines approuvés pour les redirections HTTP.    |
+|autoAcceptTimeout    |Numéro    |300 (valeur par défaut)    |Délai d'expiration de l'acceptation automatique pour les utilisateurs ne disposant pas d'historique des conversations côté serveur    |
+|warnWhenUnknownLocationForE911    |Bool    |0 = Désactivé  <br/> 1 = Activé    |Avertit l'utilisateur lorsqu'un numéro d'urgence est composé à partir d'un emplacement inconnu.    |
+|sipAddress    |Chaîne    ||L’adresse SIP (Email) utilisé pour se connecter sur Skype pour les entreprises.    |
+|nom d’utilisateur    |Chaîne    ||L’UPN (nom d’utilisateur) utilisé pour vous connecter à Skype pour les entreprises.    |
+|userNameInAdvancedOnly    |Bool    |0 = afficher le champ nom d’utilisateur sur l’écran de connexion principale et dans la boîte de dialogue Propriétés avancées  <br/> 1 = afficher le champ nom d’utilisateur uniquement dans la boîte de dialogue Propriétés avancées (par défaut)    |Spécifier où le champ nom d’utilisateur est affiché lorsqu’il se connecte.    |
    
 ### <a name="usage-examples"></a>Exemples d'utilisation
 
@@ -55,7 +55,6 @@ Pour ajouter un seul domaine (Contoso.com) à la liste des domaines approuvés, 
 Pour ajouter plusieurs domaines à la liste des domaines approuvés, utilisez la clé trustedDomainList comme suit :
   
 écrire des valeurs par défaut com.microsoft.SkypeForBusiness trustedDomainList-tableau-Ajouter « sfb.com », « abc.com « test ».org »
-  
   
 ### <a name="sample-unedited-settings"></a>Exemples de paramètres non modifiés
 
@@ -109,7 +108,4 @@ Pour ajouter plusieurs domaines à la liste des domaines approuvés, utilisez la
     firstRun = 0;
     showEndCallDialog = 1;
 }
-
 ```
-
-
