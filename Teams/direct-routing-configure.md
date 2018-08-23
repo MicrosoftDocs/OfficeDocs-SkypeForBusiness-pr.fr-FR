@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: 664aae1a213859a6e4e73ec4c75ce39b6058788e
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: bad3709635ccca83a4093e5115e46352f5dcaaff
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546525"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599429"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage Direct
 
@@ -518,19 +518,10 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 Le résultat est que la stratégie de voix appliquée aux appels de John Woods sont non restreint et doit suivre la logique de routage des appels disponible pour les États-Unis, au Canada et International appel.
 
-## <a name="enable-calling-for-microsoft-teams"></a>Activer les appels pour les équipes Microsoft
-
-Avant d’un utilisateur d’afficher l’onglet appels dans Microsoft Teams, vous devez activer l’appel privé pour le client dans Microsoft Teams. Pour ce faire :
-
-1.  Connectez-vous en tant qu’administrateur client sur le centre d’administration d’Office 365.
-2.  Accédez à **paramètres et Services et des compléments** et sélectionnez les **Équipes Microsoft**. 
-3.  Développez des **appels et les réunions** et vérifiez que **Autoriser privée appelant** se trouve **sur**.
-
-    ![Capture d’écran montrant autoriser appel privé est activé.](media/ConfigDirectRouting-CallsandMeetingsDialog.png)
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>Définissez Teams Microsoft en tant que client appelant par défaut pour les utilisateurs
 
-Routage direct uniquement router les appels vers et depuis les utilisateurs s’ils utilisent des équipes Cleint. Si votre organisation utilisent uniquement des équipes cleint, « Équipes uniquement » mode dans la stratégie de mise à niveau est recommandé de définir. Si vous organisation utilise Skype pour Business Server ou Skype pour Business Online, veuillez consulter le document suivant de [comprendre les parcours de mise à niveau et de coexistence pour Skype pour professionnels et les équipes](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) et sélectionnez l’option appropriée. 
+Routage direct uniquement router les appels vers et depuis les utilisateurs s’ils utilisent des équipes Cleint. Si votre organisation ne l’utilisez client équipes, « Équipes uniquement » mode dans la stratégie de mise à niveau est recommandé de définir. Si vous organisation utilise Skype pour Business Server ou Skype pour Business Online, veuillez consulter le document suivant de [comprendre les parcours de mise à niveau et de coexistence pour Skype pour professionnels et les équipes](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) et sélectionnez l’option appropriée. 
 
 
 ## <a name="see-also"></a>Voir aussi

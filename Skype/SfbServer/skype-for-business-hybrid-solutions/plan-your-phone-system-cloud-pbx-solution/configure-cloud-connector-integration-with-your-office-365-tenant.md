@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Découvrez comment configurer l’intégration de nuage connecteur avec votre client Office 365.
-ms.openlocfilehash: d5ae0b70a22219ee0430908bd3b3752d6ebd6357
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 01a3eac7356846b7d3b153ff4e01c9b52c3744ce
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211150"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599413"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurer l’intégration Cloud Connector avec votre client Office 365
  
@@ -168,7 +168,13 @@ Lorsqu’un appel P2P est transmis à une conférence PSTN, le Skype pour le ser
     
     Veuillez noter qu’affectation de licence n’est requis pour la propagation de l’utilisateur dans le Skype pour annuaire d’entreprise en ligne. Attribuer une licence Office 365 (par exemple, E5) pour le compte que vous créez, autoriser une heure pour propager les modifications, puis supprimez la licence de ce compte.
     
-2. Démarrer une session PowerShell distante de client à l’aide de votre client les informations d’identification d’administration, puis exécutez l’applet de commande suivante pour définir le serveur de médiation et le FQDN du serveur Edge à cet utilisateur de compte, remplaçant \<DisplayName\> avec le nom complet de l’utilisateur pour le vous avez créé de compte :
+2. Démarrer une session PowerShell distante client Azure AD à l’aide de vos paramètres globaux ou les informations d’identification d’administration, puis exécutez l’applet de commande suivante pour définir le service pour le compte d’utilisateur AD Azure configuré dans l’étape 1 à « HybridMediationServer » :
+
+ ```
+  Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+  ```
+
+3. Démarrez un client Skype pour session PowerShell distante métiers à l’aide de votre Skype pour les informations d’identification d’administration de Business client et puis exécutez l’applet de commande suivante pour définir le serveur de médiation et le FQDN du serveur Edge à cet utilisateur de compte, remplaçant \<DisplayName\> avec le nom complet de l’utilisateur pour le compte que vous avez créé à l’étape 1 :
     
   ```
   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>

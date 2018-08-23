@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: 66929e86e6e049ee1dd5c839bfcc4adcc3edf35f
-ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
+ms.openlocfilehash: b6740951e65a2c917c95cce884f3c2a42ea004e7
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21752562"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599461"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage Direct
 
@@ -110,8 +110,8 @@ Le tableau suivant montre des exemples de noms DNS enregistrés pour le client, 
 Contoso.com|Oui|**Noms valides :**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>Europe.contoso.com|
 |Contoso.onmicrosoft.com|Non|<br/>À l’aide de *. onmicrosoft.com domaines n’est pas pris en charge pour les noms de SBC
 
-Si vous souhaitez utiliser un nouveau nom de domaine. Par exemple, votre client a contoso.com en tant que domin nom enregistré dans votre client. Vous souhaitez utiliser sbc1.sip.contoso.com. Avant que vous pouvez établir une association un contrôleur SBC avec nom sbc1.sip.contoso.com, vous devez inscrire sip.contoso.com de nom de domaine dans « Domaines » dans votre client. Si vous essayez de jumelage un sbc1.sip.contoso.com SBC vous obtiendrez une erreur « Ne pouvez pas utiliser le domaine « sbc1.sip.contoso.com » comme il n’a pas été configuré pour ce client. »
-Une fois que vous avez ajouté le nom de domaine, vous devez également créer un utilisateur avec UPN user@sip.contoso.com et assing un lisence « Équipes ». Il peut prendre jusqu'à 24 heures pour configurer complètement le nom de domaine après avoir ajouté à « Domaines » du client, un utilisateur avec le nouveau nom créé et un lisence affecté à l’utilisateur. 
+Si vous souhaitez utiliser un nouveau nom de domaine. Par exemple, votre client a contoso.com comme nom de domaine enregistré dans votre client. Vous souhaitez utiliser sbc1.sip.contoso.com. Avant que vous pouvez établir une association un contrôleur SBC avec nom sbc1.sip.contoso.com, vous devez inscrire sip.contoso.com de nom de domaine dans « Domaines » dans votre client. Si vous essayez de jumelage un sbc1.sip.contoso.com SBC vous obtiendrez une erreur « Impossible d’utiliser le domaine « sbc1.sip.contoso.com » comme il n’a pas été configuré pour ce client. »
+Une fois que vous avez ajouté le nom de domaine, vous devez également créer un utilisateur avec l’UPN user@sip.contoso.com et attribuez une licence « Équipes ». Il peut prendre jusqu'à 24 heures pour configurer complètement le nom de domaine après avoir ajouté à « Domaines » du client, un utilisateur avec le nouveau nom créé et une licence attribuée à l’utilisateur. 
 
 Il est possible qu’une société peut avoir plusieurs espaces d’adressage SIP dans un client. Par exemple, une société pourrait avoir contoso.com en tant qu’un espace d’adressage SIP et fabrikam.com comme le deuxième espace d’adresse SIP. Certains utilisateurs ont user@contoso.com adresse et certains utilisateurs ont user@fabrikam.com adresse. 
 
@@ -130,18 +130,25 @@ Vous pouvez également routage Direct prend en charge un caractère générique 
 
 Le certificat doit être généré par un des autorités de certification racine suivantes :
 
+- AffirmTrust
 - AddTrust externe autorité de certification racine
 - Certificat racine de CyberTrust Baltimore
 - Buypass
+- Cybertrust
 - Autorité de Certification publique principale de classe 3 
+- Deutsche Telekom 
 - Autorité de certification racine globale DigiCert 
 - Confier
 - GlobalSign
 - Go daddy
+- GeoTrust
 - VeriSign, Inc. 
+- Étoiles 
 - Racine Mobile Symantec Enterprise pour Microsoft 
+- SwissSign
 - Horodatage Thawte autorité de certification
 - Trustwave
+- Ou TeliaSonera 
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
 

@@ -10,12 +10,12 @@ ms.reviewer: marcl
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ca61e36069262ddb2ea43dde300c169d6992ba8
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 07cccce7a0c0b13a42c776bff8b5b0367792d7a2
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546398"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599367"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
   
@@ -43,6 +43,10 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |« Affectations » application reste visibles lorsque désactivé  <br/> |Lorsque l’application « Affectations » est désactivée dans le centre d’administration, il reste visible dans le client équipes pour les utilisateurs sous licence EDU. Sélectionnant Lorsque désactivée renvoie une erreur indiquant, « Doh ! Un problème... »  <br/> |Aucune solution.  <br/> |29/12/17  <br/> |
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Impossible de supprimer les connecteurs tant que propriétaire de l’équipe  <br/> |Toute tentative de suppression d’un connecteur en tant que propriétaire, qui peut ajouter sinon un connecteur, alors que « Autoriser les membres à créer, mettre à jour et supprimer des connecteurs » sont désactivé lève une erreur indiquant que l’utilisateur n’est pas autorisé à le faire. <br/> |L’activation de temporairement « Autoriser les membres à créer, mettre à jour et supprimer des connecteurs » permet le propriétaire de supprimer le connecteur.  <br/> |7/27/18  <br/> |
 
 ## <a name="authentication"></a>Authentification
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
