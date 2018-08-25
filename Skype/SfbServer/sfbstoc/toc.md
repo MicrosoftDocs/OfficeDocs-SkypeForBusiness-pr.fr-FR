@@ -4,6 +4,11 @@
 # [Skype Entreprise Server 2015](../skype-for-business-server-2015.md)
 ## [Diagrammes techniques](../technical-diagrams.md)
 ## [Nouveautés de Skype Entreprise Server](../what-s-new-in-skype-for-business-server.md)
+
+## [Skype pour les entreprises télécharge et met à jour](../software-updates.md)
+### [Mises à jour du client](../sfb-client-updates.md)
+### [Mises à jour du serveur](../sfb-server-updates.md)
+
 ## [Skype pour des solutions professionnelles hybride](../skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions.md)
 ### [Planifier votre solution de système téléphonique (PBX nuage)](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md)
 #### [Planifier le système téléphonique avec une connectivité PSTN sur site](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
