@@ -11,12 +11,12 @@ localization_priority: Priority
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype Entreprise Server 2015 et Lync 2013 à partir d'un seul emplacement. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 2550fd9cdd734dbec38992ad03c96a7b7eb7d78d
-ms.sourcegitcommit: 2ce680aba13d1d781019b766a04e4e7d46d4f72c
+ms.openlocfilehash: c83e3994c47876e6064b58265848c64487e47b76
+ms.sourcegitcommit: 3915a89d072f0f801d5662286bea08839ed2a9e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21139267"
+ms.lasthandoff: 08/17/2018
+ms.locfileid: "22601905"
 ---
 # <a name="skype-for-business-updates"></a>Mises à jour de Skype Entreprise
 
@@ -28,7 +28,7 @@ Pour les dernières mises à jour de Skype Entreprise Online et Office 365, r
 
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:--- |:--- |:--- |
-|Mises à jour de Skype Entreprise Server 2015 |[Article 3061064](https://support.microsoft.com/kb/3061064) |Mars 2018  |
+|Mises à jour de Skype Entreprise Server 2015 |[Article 3061064](https://support.microsoft.com/kb/3061064) |Juillet 2018  |
 |Mise à jour cumulative de Skype Entreprise Server, application Entreprise pour le Web | [Article 4018462](https://support.microsoft.com/kb/4018462) |Mai 2017 |
 |Mise à jour cumulative de Skype Entreprise Server, service de stratégie de bande passante | [Article 4012658](https://support.microsoft.com/kb/4012658) |mai 2017 |
 |Mise à jour cumulative de Skype Entreprise Server, Unified Communications Managed API 5.0 Runtime | [Article 4012657](https://support.microsoft.com/kb/4012657) |Mai 2017 |
