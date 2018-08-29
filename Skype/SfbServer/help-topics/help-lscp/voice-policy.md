@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 4e2898d679541a4d4bb581f6f8c8c5b07f49003a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fa485f9f3ae3e15adea1f65c85a558832c78f140
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21027106"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23241969"
 ---
-# <a name="voice-policy"></a><span data-ttu-id="f07f3-104">Stratégie vocale</span><span class="sxs-lookup"><span data-stu-id="f07f3-104">Voice Policy</span></span>
- 
-<span data-ttu-id="f07f3-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="f07f3-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="f07f3-107">Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation RTC dans Skype Entreprise 2015</span><span class="sxs-lookup"><span data-stu-id="f07f3-107">Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
-    
-- [<span data-ttu-id="f07f3-108">Modifier une stratégie de voix et de configurer les enregistrements d’utilisation PSTN</span><span class="sxs-lookup"><span data-stu-id="f07f3-108">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
-    
-<span data-ttu-id="f07f3-109">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="f07f3-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+# <a name="voice-policy"></a><span data-ttu-id="356ce-104">Stratégie vocale</span><span class="sxs-lookup"><span data-stu-id="356ce-104">Voice Policy</span></span>
+
+<span data-ttu-id="356ce-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="356ce-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="356ce-107">Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation RTC dans Skype Entreprise 2015</span><span class="sxs-lookup"><span data-stu-id="356ce-107">Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+
+- [<span data-ttu-id="356ce-108">Modifier une stratégie de voix et de configurer les enregistrements d’utilisation PSTN</span><span class="sxs-lookup"><span data-stu-id="356ce-108">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+
+<span data-ttu-id="356ce-109">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="356ce-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
