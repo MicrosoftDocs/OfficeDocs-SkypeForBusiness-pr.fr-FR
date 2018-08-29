@@ -1,5 +1,5 @@
 ---
-title: SIP fédérés de fournisseurs créer ou en modifier une existante
+title: Fournisseurs fédérés SIP créer une nouvelle ou en modifier une existant
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,16 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: eeea3729de6aaf9ad8a120cde1aa6188b34d077a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 42c80e5a9d0239285058481adb603ba463676387
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256734"
 ---
-# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="a9aa7-104">Fournisseurs fédérés SIP : création d’un fournisseur ou modification d’un fournisseur existant</span><span class="sxs-lookup"><span data-stu-id="a9aa7-104">SIP Federated Providers: Create New or Edit Existing</span></span>
- 
-<span data-ttu-id="a9aa7-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="a9aa7-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="a9aa7-107">Gérer le SIP fédérés de fournisseurs pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="a9aa7-107">Manage SIP Federated Providers for Your Organization</span></span>](http://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
-    
+# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="1c651-104">Fournisseurs fédérés SIP : création d’un fournisseur ou modification d’un fournisseur existant</span><span class="sxs-lookup"><span data-stu-id="1c651-104">SIP Federated Providers: Create New or Edit Existing</span></span>
+
+<span data-ttu-id="1c651-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="1c651-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="1c651-107">Gérer les SIP Federated Providers pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="1c651-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+
 

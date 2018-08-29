@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: ee8ba15320f716ce72b00d8bf70c439c41c3304c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 965eb16dc17ac5724892d518f17ac20e3991fd1a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998678"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245564"
 ---
-# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a><span data-ttu-id="5a4e9-104">Partenaires fédérés XMPP : Créer une nouvelle ou en modifier une existant</span><span class="sxs-lookup"><span data-stu-id="5a4e9-104">XMPP Federated Partners: Create New or Edit Existing</span></span>
- 
-<span data-ttu-id="5a4e9-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="5a4e9-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="5a4e9-107">Créer ou modifier la Configuration du partenaire XMPP</span><span class="sxs-lookup"><span data-stu-id="5a4e9-107">Create or Edit XMPP Partner Configuration</span></span>](http://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
-    
-- [<span data-ttu-id="5a4e9-108">Tableau de paramètres de négociation pour XMPP les partenaires fédérés</span><span class="sxs-lookup"><span data-stu-id="5a4e9-108">Negotiation Settings Table for XMPP Federated Partners</span></span>](http://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
-    
-<span data-ttu-id="5a4e9-109">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="5a4e9-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a><span data-ttu-id="55e09-104">Partenaires fédérés XMPP : Créer une nouvelle ou en modifier une existant</span><span class="sxs-lookup"><span data-stu-id="55e09-104">XMPP Federated Partners: Create New or Edit Existing</span></span>
+
+<span data-ttu-id="55e09-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="55e09-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="55e09-107">Créer ou modifier la Configuration du partenaire XMPP</span><span class="sxs-lookup"><span data-stu-id="55e09-107">Create or Edit XMPP Partner Configuration</span></span>](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
+
+- [<span data-ttu-id="55e09-108">Tableau de paramètres de négociation pour XMPP les partenaires fédérés</span><span class="sxs-lookup"><span data-stu-id="55e09-108">Negotiation Settings Table for XMPP Federated Partners</span></span>](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
+
+<span data-ttu-id="55e09-109">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="55e09-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

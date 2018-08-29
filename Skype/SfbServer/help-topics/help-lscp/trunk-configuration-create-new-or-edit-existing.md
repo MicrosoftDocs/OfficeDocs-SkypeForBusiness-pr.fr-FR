@@ -12,24 +12,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: e80e3df5d3724f693b212b371dbf1be37e19cefd
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6e83d436f1496ab9fabb84aa3d56a2449c8ebb06
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967953"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23244957"
 ---
-# <a name="trunk-configuration-create-new-or-edit-existing"></a><span data-ttu-id="73ef4-104">Configuration de jonction : Créer une nouvelle ou en modifier une existant</span><span class="sxs-lookup"><span data-stu-id="73ef4-104">Trunk Configuration: Create New or Edit Existing</span></span>
- 
-<span data-ttu-id="73ef4-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="73ef4-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="73ef4-107">Configuration d’une jonction avec déviation du trafic multimédia dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="73ef4-107">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
-    
-- [<span data-ttu-id="73ef4-108">Configuration d’une jonction sans déviation du trafic multimédia dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="73ef4-108">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
-    
-- [<span data-ttu-id="73ef4-109">Création ou modification d’une règle de conversion pour la présentation de l’ID de la personne appelée dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="73ef4-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
-    
-- [<span data-ttu-id="73ef4-110">Créer ou modifier une règle de traduction manuellement</span><span class="sxs-lookup"><span data-stu-id="73ef4-110">Create or Modify a Translation Rule Manually</span></span>](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
-    
-<span data-ttu-id="73ef4-111">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="73ef4-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+# <a name="trunk-configuration-create-new-or-edit-existing"></a><span data-ttu-id="0406f-104">Configuration de jonction : Créer une nouvelle ou en modifier une existant</span><span class="sxs-lookup"><span data-stu-id="0406f-104">Trunk Configuration: Create New or Edit Existing</span></span>
+
+<span data-ttu-id="0406f-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="0406f-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="0406f-107">Configuration d’une jonction avec déviation du trafic multimédia dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="0406f-107">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+
+- [<span data-ttu-id="0406f-108">Configuration d’une jonction sans déviation du trafic multimédia dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="0406f-108">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+
+- [<span data-ttu-id="0406f-109">Création ou modification d’une règle de conversion pour la présentation de l’ID de la personne appelée dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="0406f-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+
+- [<span data-ttu-id="0406f-110">Créer ou modifier une règle de traduction manuellement</span><span class="sxs-lookup"><span data-stu-id="0406f-110">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+
+<span data-ttu-id="0406f-111">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="0406f-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

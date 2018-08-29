@@ -12,27 +12,27 @@ localization_priority: Normal
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 312ca3802aba6624454047cf1de0256d07e2a6f0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c7cab1383f8907051e50a5835d89e789137a62ff
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005388"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253075"
 ---
-# <a name="access-edge-configuration-edit"></a><span data-ttu-id="89edb-104">Configuration du serveur Edge d’accès : modification</span><span class="sxs-lookup"><span data-stu-id="89edb-104">Access Edge Configuration: Edit</span></span>
- 
-<span data-ttu-id="89edb-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="89edb-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="89edb-107">Activer ou désactiver l’accès des utilisateurs distants pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="89edb-107">Enable or Disable Remote User Access for Your Organization</span></span>](http://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
-    
-- [<span data-ttu-id="89edb-108">Activer ou désactiver la fédération pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="89edb-108">Enable or Disable Federation for Your Organization</span></span>](http://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
-    
-- [<span data-ttu-id="89edb-109">Activer ou désactiver la découverte des partenaires de fédération</span><span class="sxs-lookup"><span data-stu-id="89edb-109">Enable or Disable Discovery of Federation Partners</span></span>](http://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
-    
-- [<span data-ttu-id="89edb-110">Activer ou désactiver l’envoi d’une notification d’exclusion d’archivage aux partenaires fédérés</span><span class="sxs-lookup"><span data-stu-id="89edb-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span></span>](http://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
-    
-- [<span data-ttu-id="89edb-111">Activer ou désactiver l’accès utilisateur anonyme pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="89edb-111">Enable or Disable Anonymous User Access for Your Organization</span></span>](http://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
-    
-- [<span data-ttu-id="89edb-112">Créer ou modifier une stratégie de conférence</span><span class="sxs-lookup"><span data-stu-id="89edb-112">Create or Modify a Conferencing Policy</span></span>](http://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
-    
+# <a name="access-edge-configuration-edit"></a><span data-ttu-id="0a23f-104">Configuration du serveur Edge d’accès : modification</span><span class="sxs-lookup"><span data-stu-id="0a23f-104">Access Edge Configuration: Edit</span></span>
+
+<span data-ttu-id="0a23f-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="0a23f-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="0a23f-107">Activer ou désactiver l’accès des utilisateurs distants pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="0a23f-107">Enable or Disable Remote User Access for Your Organization</span></span>](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
+
+- [<span data-ttu-id="0a23f-108">Activer ou désactiver la fédération pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="0a23f-108">Enable or Disable Federation for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+
+- [<span data-ttu-id="0a23f-109">Activer ou désactiver la découverte des partenaires de fédération</span><span class="sxs-lookup"><span data-stu-id="0a23f-109">Enable or Disable Discovery of Federation Partners</span></span>](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
+
+- [<span data-ttu-id="0a23f-110">Activer ou désactiver l’envoi d’une notification d’exclusion d’archivage aux partenaires fédérés</span><span class="sxs-lookup"><span data-stu-id="0a23f-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span></span>](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
+
+- [<span data-ttu-id="0a23f-111">Activer ou désactiver l’accès utilisateur anonyme pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="0a23f-111">Enable or Disable Anonymous User Access for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+
+- [<span data-ttu-id="0a23f-112">Créer ou modifier une stratégie de conférence</span><span class="sxs-lookup"><span data-stu-id="0a23f-112">Create or Modify a Conferencing Policy</span></span>](https://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
+
 
