@@ -10,79 +10,79 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
-description: Les rapports de l’administrateur contiennent des informations détaillées sur le déploiement et les opérations. Les rapports sont générés à partir des sélections dans concevoir des Sites. Le concepteur peut compléter les rapports de l’administrateur en modifiant les diagrammes des réseaux et en définissant les adresses IP complètes et les noms de domaine complets (FQDN) pour les serveurs, les pools et les programmes d’équilibrage de charge.
-ms.openlocfilehash: 1d2cea3b1e0b4e19192f19734b2dcd278ca8a38b
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: Les rapports de l’administrateur contiennent des informations détaillées sur le déploiement et les opérations. Les rapports sont générés à partir des sélections effectuées dans Concevoir des sites. Le concepteur peut compléter les rapports de l’administrateur en modifiant les diagrammes des réseaux et en définissant les adresses IP complètes et les noms de domaine complets (FQDN) pour les serveurs, les pools et les programmes d’équilibrage de charge.
+ms.openlocfilehash: 1aec87246082083d981d8783d1abc31b5f96bc55
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504760"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23261587"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Vérification des rapports de l’administrateur dans Skype Entreprise Server 2015
- 
+
 Les rapports de l’administrateur contiennent des informations détaillées sur le déploiement et les opérations. Les rapports sont générés à partir des sélections effectuées dans **Concevoir des sites**. Le concepteur peut compléter les rapports de l’administrateur en modifiant les diagrammes des réseaux et en définissant les adresses IP complètes et les noms de domaine complets (FQDN) pour les serveurs, les pools et les programmes d’équilibrage de charge.
-  
+
 La fonctionnalité des rapports Administrateur vous permet d’effectuer les opérations suivantes :
-  
+
 - [Review the Summary Report](review-the-administrator-reports.md#Summary_report)
-    
+
 - [Review the Certificates Report](review-the-administrator-reports.md#Certificates_Report)
-    
+
 - [Review the Firewall Report](review-the-administrator-reports.md#Firewall_report)
-    
+
 - [Review the DNS Report](review-the-administrator-reports.md#DNS_Report)
-    
+
 ## <a name="review-the-summary-report"></a>Vérifier le rapport récapitulatif
 <a name="Summary_report"> </a>
 
 Le Skype pour le rapport d’administrateur d’entreprise est la première des quatre rapports précieuses que documenter votre conception en détail. Les informations de ce rapport, ainsi que celles des trois rapports associés, constituent une documentation utile que pourront exploiter les équipes chargées de l’informatique au sein de votre entreprise :
-  
+
 ![Rapport d’administration Synthèse générale](../../media/General_Summary_Report_Admin_Report.png)
-  
+
 Le rapport récapitulatif répertorie des informations de configuration générales relatives à votre réseau de périmètre. Vous y trouverez des informations sur l’emplacement, le nom de domaine complet (FQDN), l’adresse IP, le type de réseau et des commentaires spécifiques à un rôle donné.
-  
+
 Le concepteur ainsi que chacune des équipes chargées de déployer, de gérer et d’assurer la maintenance de l’infrastructure devraient vérifier ce rapport récapitulatif afin de limiter le nombre d’erreurs.
-  
+
 Vous pouvez également afficher plus de rapports détaillés :
-  
+
 - Rapport des certificats
-    
+
 - Rapport du pare-feu
-    
+
 - Rapport DNS
-    
+
 ## <a name="review-the-certificates-report"></a>Consulter le rapport de certificats
 <a name="Certificates_Report"> </a>
 
-Le rapport de certificats contient tous les certificats sont requis dans le Skype recommandée pour le déploiement de Business Server 2015. L’outil de planification des comptes pour les noms de sujet et les noms de sujet qui sont entrés. Le texte par défaut non modifié peut constituer un défi potentiel pour l’équipe qui est responsable de la demande et de l’émission des certificats. Les informations de certificat contiennent également des données sur l’emplacement à partir duquel le certificat peut généralement être émis. Si l’infrastructure ne dispose pas d’une infrastructure à clé publique (PKI) interne, tous les certificats peuvent être demandés par l’intermédiaire d’un fournisseur de certificats public. Les champs Utilisation améliorée de la clé (EKU) et Affecter à du rapport sont très utiles pour comprendre ce que doivent être l’objectif et l’emplacement de chaque certificat. 
-  
+Le rapport de certificats contient tous les certificats sont requis dans le Skype recommandée pour le déploiement de Business Server 2015. L’outil de planification des comptes pour les noms de sujet et les noms de sujet qui sont entrés. Le texte par défaut non modifié peut constituer un défi potentiel pour l’équipe qui est responsable de la demande et de l’émission des certificats. Les informations de certificat contiennent également des données sur l’emplacement à partir duquel le certificat peut généralement être émis. Si l’infrastructure ne dispose pas d’une infrastructure à clé publique (PKI) interne, tous les certificats peuvent être demandés par l’intermédiaire d’un fournisseur de certificats public. Les champs Utilisation améliorée de la clé (EKU) et Affecter à du rapport sont très utiles pour comprendre ce que doivent être l’objectif et l’emplacement de chaque certificat.
+
 ![Rapport d’administration de certificats](../../media/Certificates_Report_Admin_Report.png)
-  
+
 Examinez et étudiez attentivement l’utilisation et l’objectif de chaque certificat dans le déploiement. En cas de doute sur le rôle d’un certificat, déterminez les éléments avec lesquels le serveur ou le service communique. Les certificats dans Skype pour Business Server 2015 sont utilisés pour les deux principaux objectifs :
-  
+
 - Mutual Transport Layer Security (MTLS) - ordinateurs impliqués dans la communication présentent un certificat qui est donc leur identité vers un autre ordinateur. On appelle cela l’authentification serveur. Impossible de démarrer la communication jusqu'à ce que chaque ordinateur approuve l’identité de l’autre ordinateur.
-    
+
 - Chiffrement - chiffrement (Secure Sockets Layer ou SSL et Transport Layer Security ou TLS) est un moyen critique pour sécuriser les communications, assurer la confidentialité et pour créer un système de communication et de collaboration approuvé.
-    
+
 ## <a name="review-the-firewall-report"></a>Consulter le rapport de pare-feu
 <a name="Firewall_report"> </a>
 
 Skype pour Business Server 2015 possède un ensemble de règles de pare-feu potentiellement complexe. L’outil de planification simplifie en générant un rapport qui définit en détail toutes les exigences du pare-feu, en fonction des critères d’entrée du concepteur. L’administrateur du pare-feu informatique pourra utiliser ce rapport pour configurer et définir les règles nécessaires.
-  
+
 En termes de gestion du pare-feu, le rapport doit être lu attentivement afin de s’assurer qu’il n’y a aucun conflit avec des règles de pare-feu existantes et que toutes les stratégies et procédures sont respectées.
-  
+
 ![Rapport d’administration de pare-feu](../../media/Firewall_Report_Admin_Report.png)
-  
+
 ## <a name="review-the-dns-report"></a>Consulter le rapport DNS
 <a name="DNS_Report"> </a>
 
 Le rapport DNS, qui fait partie du rapport Administrateur, détaille toutes les entrées recommandées et connues pour le système DNS (Domain Name System) dans les réseaux internes, de périmètre et externes. Si le concepteur a effectué des modifications au diagramme de réseau et que toutes les adresses IP et tous les noms de domaine complets (FQDN) sont définis à leurs valeurs de production, le rapport DNS fournit une excellente ressource de configuration. Ce rapport peut également faire office de document de dépannage opérationnel.
-  
+
 ![Rapport d’administration DNS](../../media/DNS_Report_Admin_Report.png)
-  
+
 Votre équipe de gestion DNS doit vérifier le rapport DNS minutieusement, afin de s’assurer qu’il ne contient aucune erreur susceptible de créer des problèmes lors du déploiement ou de compliquer une session de dépannage.
-  
+
 ## <a name="see-also"></a>Voir aussi
 <a name="DNS_Report"> </a>
 
-[Consultation des rapports de l’administrateur](http://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[Consultation des rapports de l’administrateur](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)

@@ -12,20 +12,20 @@ localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: daa94911bd90269434fa4c39062c5877187cedbf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8606d4d3247aad6efbcc85a6567718feab83e915
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994415"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23262140"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>Règle de normalisation : Créer une nouvelle ou en modifier une existant
- 
+
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-  
+
 - [Créer ou modifier une règle de normalisation dans Skype pour les entreprises](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
-    
-- [Créer ou modifier une règle de normalisation manuellement](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
-    
- 
+
+- [Créer ou modifier une règle de normalisation manuellement](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+
+
 

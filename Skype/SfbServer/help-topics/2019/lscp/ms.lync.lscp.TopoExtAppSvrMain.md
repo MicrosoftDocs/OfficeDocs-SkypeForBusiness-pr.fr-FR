@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: d415d641e31109626b87d6512dd4350465c88454
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 74736e154de6448b7a9f8778b865f2e8d11cd274
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000161"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260586"
 ---
 # <a name="topology-trusted-application"></a>Topologie : Application approuvée
- 
+
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-  
-- [Afficher la liste des Applications approuvées](http://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
-    
- 
+
+- [Afficher la liste des Applications approuvées](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+
+
 

@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Vous spécifiez le nom de domaine complet (FQDN) de la passerelle public commuté (PSTN) réseau qui connectera vos composants Enterprise Voice à une passerelle PSTN ou un autocommutateur privé (PBX).
-ms.openlocfilehash: 4ba646ad500ec27940108a8948e372343887513d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2f1c8eea8a8d3334d5c95e0b606799ad2f9c5f6b
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968002"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23257485"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Définir le nom de domaine complet de passerelle PSTN
- 
+
 Vous spécifiez le nom de domaine complet (FQDN) de la passerelle public commuté (PSTN) réseau qui connectera vos composants Enterprise Voice à une passerelle PSTN ou un autocommutateur privé (PBX).
-  
+
 Pour plus d’informations, voir [PSTN connectivity components dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
-  
+
 ## <a name="see-also"></a>Voir aussi
 
-[Options de déploiement de passerelle PSTN](http://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[Options de déploiement de passerelle PSTN](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

@@ -12,22 +12,22 @@ localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 01dd3268ef90ff303693a8befef620658afd6819
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3abca26900b10db7aa014209357c6936e13c016b
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985408"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260614"
 ---
 # <a name="registrar-security-settings"></a>Paramètres de sécurité du serveur d’inscriptions
- 
+
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-  
+
 - [Gérer les paramètres de configuration du serveur d’inscriptions dans Skype pour Business Server](../../../manage/authentication/registrar-configuration-settings.md)
-    
-- [Modifier un serveur d’inscriptions existant](http://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
-    
-- [Supprimer un serveur d’inscriptions](http://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
-    
- 
+
+- [Modifier un serveur d’inscriptions existant](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+
+- [Supprimer un serveur d’inscriptions](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+
+
 
