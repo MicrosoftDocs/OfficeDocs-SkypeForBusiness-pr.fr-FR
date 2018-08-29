@@ -20,34 +20,35 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 08e6f8cc836478658310702c87e744fcdc352bb8
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 8f8d6bc1e2fc08e98c11b00bfda4e66c978c69a7
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23241932"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>Quel est le statut de mes demandes de transfert ?
 
-Vous pouvez voir le statut de votre commande de port en accédant à la **Skype pour le centre d’administration de Business** > **vocale** > **des commandes de Port**. Chaque état de la commande port apparaît dans la colonne **état** . Si vous vous aide, [prise en charge des produits professionnels - Admin aide de Contact](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx).
-  
-Le tableau suivant répertorie les statuts de commande port, ainsi que les actions à qu'entreprendre si nécessaire. 
-  
-|**État**|**Vous pouvez afficher la commande ?**|**Vous pouvez modifier la commande ?**|**Vous pouvez annuler la commande ?**|**Vous pouvez supprimer la commande ?**|**Description**|
+Vous pouvez voir le statut de votre commande port en accédant à la **Skype pour le centre d’administration Business** > **vocale** > **commandes Port**. Statut de la commande chaque port apparaît dans la colonne **état** . Si vous aider, [Contact prend en charge pour les produits métiers : aide d’administration](https://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx).
+
+Le tableau suivant répertorie les statuts de commande port, ainsi que les actions à qu'entreprendre si nécessaire.
+
+|**État**|**Vous pouvez afficher la commande ?**|**Vous pouvez modifier l’ordre ?**|**Vous pouvez annuler la commande ?**|**Vous pouvez supprimer la commande ?**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Traitement** <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |L’administrateur a créé la commande, et il est reçu par Microsoft.  <br/> |
-|**Contacter le support** <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |La commande a été reçue et approuvée par Microsoft, et nous travaillons en collaboration avec le support de perdre pour obtenir l’approuver.  <br/> |
-|**Transfert approuvé** <br/> |Oui  <br/> |Confirmer la commande Commitment(FOC)  <br/> |Oui  <br/> |Non  <br/> |La commande a été acceptée par le transporteur de perdre, et la date de produits gratuits a été définie.  <br/> |
-|**En attente de transfert** <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Le transfert est inférieure à 24 heures, afin que l’ordre n’est plus peut être modifié ou annulé.  <br/> |
-|**Error** <br/> |Non  <br/> |Oui  <br/> |Oui  <br/> |Oui (pour l’instant, vous ne pouvez pas supprimer la commande port si une erreur s’est produite. La voie doit être recréée, ou vous devez [contacter](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx)le support technique pour les produits d’entreprise - aide de l’administrateur.  <br/> |Le transporteur perdant a rejeté l’ordre.  <br/> |
+|**Traitement** <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |L’administrateur a créé l’ordre, et il est reçu par Microsoft.  <br/> |
+|**Contacter le support** <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |La commande a été reçue et approuvée par Microsoft, et nous effectuons utilisation de l’opérateur de perdre pour obtenir l’approuver.  <br/> |
+|**Transfert approuvé** <br/> |Oui  <br/> |Ordre ferme Commitment(FOC)  <br/> |Oui  <br/> |Non  <br/> |La commande a été acceptée par l’opérateur de perdre, et la date de produits gratuits a été définie.  <br/> |
+|**Transfert en attente** <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Le transfert est inférieure à vingt-quatre heures absent (e), de sorte que l’ordre ne peut être modifié ou annulé.  <br/> |
+|**Error** <br/> |Non  <br/> |Oui  <br/> |Oui  <br/> |Oui (à ce stade, vous ne pouvez pas supprimer l’ordre de port si une erreur se produit. L’ordre de port doit être recréée, ou vous devez [contacter](https://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx)le support technique pour les produits métiers : aide d’administration.  <br/> |L’opérateur de perdre a refusé l’ordre.  <br/> |
 |**Terminé** <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Les numéros ont été transférés.  <br/> |
-|**Annulé** <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |L’administrateur a annulé la commande.  <br/> |
-   
- **Pour des instructions complètes, voir [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md).**
- 
+|**Annulé** <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |L’administrateur a annulé l’ordre.  <br/> |
+
+ **Pour obtenir des instructions complètes, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).**
+
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-  
+
 ## <a name="related-topics"></a>Rubriques connexes
 [Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
 
@@ -57,5 +58,4 @@ Le tableau suivant répertorie les statuts de commande port, ainsi que les actio
 
 [Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-  
- 
+

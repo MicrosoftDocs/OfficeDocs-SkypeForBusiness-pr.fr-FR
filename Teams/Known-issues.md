@@ -10,17 +10,17 @@ ms.reviewer: marcl
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07cccce7a0c0b13a42c776bff8b5b0367792d7a2
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 78cce988c89ed127ca3c3b3c2606549bf28bf37f
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599367"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23243206"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
-  
+
 Cet article répertorie les problèmes connus pour Teams Microsoft, par fonctionnalité.
-## 
+##
 
 ## <a name="administration"></a>Administration
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
@@ -80,7 +80,7 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Prise en charge du client web par Safari  <br/> |Les utilisateurs qui essayent d'ouvrir le client web de Microsoft Teams dans Safari sont redirigés pour télécharger le client de bureau. Microsoft étudie la prise en charge de Safari et communiquera les mises à jour au moyen de [la Feuille de route de Teams](http://aka.ms/TeamsRoadmap).  <br/> |Utilisation prise en charge des navigateurs internet, notamment : Internet Explorer 11 +, Microsoft Edge 12 +, Chrome 51.0 + et Firefox 47.0 +.  <br/> |02.11.2016  <br/> |
+|Prise en charge du client web par Safari  <br/> |Les utilisateurs qui essayent d'ouvrir le client web de Microsoft Teams dans Safari sont redirigés pour télécharger le client de bureau. Microsoft étudie la prise en charge de Safari et communiquera les mises à jour au moyen de [la Feuille de route de Teams](https://aka.ms/TeamsRoadmap).  <br/> |Utilisation prise en charge des navigateurs internet, notamment : Internet Explorer 11 +, Microsoft Edge 12 +, Chrome 51.0 + et Firefox 47.0 +.  <br/> |02.11.2016  <br/> |
 
 ## <a name="channels"></a>Canaux
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
@@ -238,6 +238,6 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |La suppression d'une équipe supprime également le groupe associé à celle-ci  <br/> |Il est possible que les utilisateurs ne réalisent pas que le groupe Office 365 sous-jacent est supprimé lorsque l'équipe est supprimée. En outre, si le groupe Office 365 sous-jacent est supprimé, l'équipe l'est également.  <br/> |Les langues supplémentaire dans Microsoft Teams fournissent cette information à l'utilisateur. Cette information n'est pas disponible dans l'interface Groupes Office 365. Votre support technique peut récupérer une groupe/équipe supprimé.  <br/> |13.03.2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
-|:-----|:-----|:-----|:-----|  
+|:-----|:-----|:-----|:-----|
 |Application de bureau équipes affichant l’écran blanc  <br/> | <br/> |Essayez de supprimer ou réinstaller les pilotes graphiques sur l’ordinateur, ou démarrer des équipes à partir d’une ligne de commande avec un indicateur de désactivation de processeur :<ul><li>Pour Windows : Ouvrez l’invite de commandes et entrez les informations suivantes :`cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>Pour Mac : Démarrer Terminal et entrez la commande suivante :`cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 

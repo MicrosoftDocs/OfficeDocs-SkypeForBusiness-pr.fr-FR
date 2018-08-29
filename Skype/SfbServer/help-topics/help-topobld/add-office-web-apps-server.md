@@ -12,26 +12,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 description: 'L’Assistant définir un serveur Office Web Apps définit un nouveau serveur Office Web Apps Server dans votre déploiement. Vous devez fournir les informations suivantes :'
-ms.openlocfilehash: 41f0d247089639713243124b622f352c04ea364d
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 34f8f1b58cc6d937432b667a110eb805dd5a2c88
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503675"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245767"
 ---
 # <a name="add-office-web-apps-server"></a>Ajouter Office Web Apps Server
- 
+
 L’Assistant **Définir un serveur Office Web Apps** définit un nouveau serveur Office Web Apps Server dans votre déploiement. Vous devez fournir les informations suivantes :
-  
+
  **Nom de domaine complet de Office Web Apps Server**: tapez le nom de domaine complet du serveur qui hébergera le serveur Office Web Apps Server
-  
+
  **URL de découverte d’Office Web Apps Server**: tapez le localisateur complète uniform resource identifier (URL) du serveur Office Web Apps
-  
+
 > [!TIP]
 > Le comportement par défaut de l' **URL de découverte d’Office Web Apps Server** consiste à créer des URL basée sur le nom de domaine complet du serveur Office Web Apps au format : `https://<FQDN of the Office Web Apps Server/hosting/discovery` . Dans la plupart des cas, vous ne devrez pas modifier le format par défaut. Vous devrez peut-être modifier le format par défaut dans le cas où le serveur Office Web Apps Server et l’URL de découverte d’Office Web Apps Server doivent être différents. Par exemple, votre serveur Office Web Apps Server est placé dans le réseau de périmètre et aura une URL différente en fonction de l’emplacement.
-  
+
  **Office Web Apps Server est déployé dans un réseau externe (périmètre/Internet)**: sélectionnez la case à cocher si votre serveur Office Web Apps Server est placé en dehors de votre pare-feu interne, telles que le réseau de périmètre, réseau externe ou autre zone réseau qui n’est pas le même que votre réseau interne.
-  
+
 ## <a name="see-also"></a>Voir aussi
 
-[Composants et Topologies pour la conférence](http://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[Composants et Topologies pour la conférence](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

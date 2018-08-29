@@ -11,39 +11,40 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
-description: Permet de sélectionner une boîte de dialogue Site pour rechercher des sites disponibles dans votre environnement. Pour utiliser un site existant, cliquez sur un site dans la liste et cliquez sur OK.
-ms.openlocfilehash: 7c39b0d4d0fad775f1c271542f76889060267c33
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Utilisez la boîte de dialogue Sélectionner un site pour rechercher des sites disponibles dans votre environnement. Pour utiliser un site existant, sélectionnez un site dans la liste, puis cliquez sur OK.
+ms.openlocfilehash: 39cd1ede1aa3ed3a01cbf32eec4388328d9812f1
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256720"
 ---
 # <a name="select-a-site"></a>Sélection d’un site
- 
+
 Utilisez la boîte de dialogue **Sélectionner un site** pour rechercher des sites disponibles dans votre environnement. Pour utiliser un site existant, sélectionnez un site dans la liste, puis cliquez sur **OK**.
-  
+
 > [!NOTE]
-> Pour extraire tous les sites disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche. 
-  
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour Business Server du Panneau de configuration, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
-  
+> Pour extraire tous les sites disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche.
+
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
 Dans la page **Sélectionner un site**, vous pouvez effectuer les tâches suivantes :
-  
-- [Configurer les Options de serveur de conversation permanent globalement ou pour le Pool de serveur de conversation permanent](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
-    
-- [Créer une stratégie de Site pour Chat persistant](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
-    
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour Business Server du Panneau de configuration, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
-  
-## <a name="to-configure-persistent-chat-options-globally"></a>Pour configurer les options de Chat persistant globalement
 
-Dans la zone **Sélectionnez un Site**, sélectionnez le site à configurer pour la configuration de site de serveur de conversation persistant.
-  
-## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>Pour créer une stratégie pour un site de Chat persistant
+- [Configurer les Options de serveur de conversation permanente globalement ou pour un Pool de serveurs de conversation permanente](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
 
-Dans **Sélectionner un site**, cliquez sur le site auquel la stratégie doit s’appliquer. 
-  
-Pour plus d’informations sur les fonctionnalités du serveur de conversation persistant de, consultez [Vue d’ensemble de persistant Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de serveur de conversation persistant, consultez [Configuration d’un serveur de Chat persistant](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) dans la documentation sur le déploiement et la [gestion de Lync Server 2013, serveur de Chat persistant](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) dans la documentation sur les opérations.
+- [Créer une stratégie de Site pour la conversation permanente](https://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
+
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+
+## <a name="to-configure-persistent-chat-options-globally"></a>Pour configurer les options de conversation permanente au niveau global
+
+Dans **Sélectionner un Site**, sélectionnez le site à configurer pour la configuration du site Persistent Chat Server.
+
+## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>Pour créer une stratégie de conversation permanente pour un site
+
+Dans **Sélectionner un site**, cliquez sur le site auquel la stratégie doit s’appliquer.
+
+Pour plus d’informations sur les serveurs de conversation permanente des fonctionnalités, voir [Vue d’ensemble de Persistent Chat Server](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de serveur de conversation permanente, voir [Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) dans la documentation de déploiement et la [gestion de Lync Server 2013, Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) dans la documentation des opérations.
 

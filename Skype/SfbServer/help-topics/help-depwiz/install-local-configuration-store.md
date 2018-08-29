@@ -11,26 +11,27 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
-description: Pour commencer l’installation d’un nouveau Skype pour serveur de rôle 2015 de serveur d’entreprise, vous devez d’abord installer le SQL Server local qui héberge la banque de configuration local. Le magasin de configuration local agit comme un réplica en lecture seule de la Skype pour la banque de gestion Central Server (CMS). Vous devez être connecté au serveur de sont en cours d’exécution l’étape d’installation Local Configuration magasin en tant qu’administrateur local sur l’ordinateur et l’appartenance à la RTCUniversalServerAdmins ou le groupe RTCUniversalGlobalReadOnlyGroup. Si vous effectuez l’installation sur un serveur Edge, vous n’avez pas besoin d’être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Le document de définition du Générateur de topologies est lu à partir du document de définition exportée plutôt qu’à partir du magasin Central de gestion. Pour exporter le document de définition du Générateur de topologies et le rendre disponible pour les serveurs Edge, consultez la rubrique Exporter de votre topologie et copie il sur un support externe pour l’Installation de bord.
-ms.openlocfilehash: adce98e053b6959c3513885fc53f1616df1c1125
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Pour commencer l’installation d’un nouveau Skype pour le serveur de rôle Business Server 2015, vous devez d’abord installer le serveur SQL local qui va héberger le magasin de configurations local. Le magasin de configurations local agira comme un réplica en lecture seule de la Skype pour le magasin Central de gestion de Business Server (CMS). Vous devez être connecté au serveur décrit à l’étape Installer le magasin de configurations local en tant qu’administrateur local de l’ordinateur ; en outre, vous devez être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Si vous effectuez l’installation sur un serveur Edge, vous n’avez pas besoin d’être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Le document de définition du Générateur de topologie est lu à partir du document exporté définition plutôt qu’à partir du magasin Central de gestion. Pour exporter le document de définition du Générateur de topologie et la rendre disponible pour les serveurs de périphérie, consultez la rubrique Exporter votre topologie et les copie il sur un support externe de l’Installation Edge.
+ms.openlocfilehash: e25e43fbcd1001460d7b001d914e1801558af4f1
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253096"
 ---
 # <a name="install-local-configuration-store"></a>Installer le magasin de configurations local
- 
-Pour commencer l’installation d’un nouveau Skype pour serveur de rôle 2015 de serveur d’entreprise, vous devez d’abord installer le SQL Server local qui héberge la banque de configuration local. Le magasin de configuration local agit comme un réplica en lecture seule de la Skype pour la banque de gestion Central Server (CMS). Vous devez être connecté au serveur décrit à l’étape **Installer le magasin de configurations local** en tant qu’administrateur local de l’ordinateur ; en outre, vous devez être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Si vous effectuez l’installation sur un serveur Edge, vous n’avez pas besoin d’être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Le document de définition du Générateur de topologies est lu à partir du document de définition exportée plutôt qu’à partir du magasin Central de gestion. Pour exporter le document de définition du Générateur de topologies et le rendre disponible pour les serveurs Edge, reportez-vous à la rubrique[exportation de votre topologie et copie sur un support externe pour l’Installation de bord](http://technet.microsoft.com/library/def9f416-c519-4a72-b242-7d3057d9c1fd.aspx).
-  
+
+Pour commencer l’installation d’un nouveau Skype pour le serveur de rôle Business Server 2015, vous devez d’abord installer le serveur SQL local qui va héberger le magasin de configurations local. Le magasin de configurations local agira comme un réplica en lecture seule de la Skype pour le magasin Central de gestion de Business Server (CMS). Vous devez être connecté au serveur décrit à l’étape **Installer le magasin de configurations local** en tant qu’administrateur local de l’ordinateur ; en outre, vous devez être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Si vous effectuez l’installation sur un serveur Edge, vous n’avez pas besoin d’être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Le document de définition du Générateur de topologie est lu à partir du document exporté définition plutôt qu’à partir du magasin Central de gestion. Pour exporter le document de définition du Générateur de topologie et la rendre disponible pour les serveurs de périphérie, consultez la rubrique[exporter votre topologie et copie sur un support externe de l’Installation Edge](https://technet.microsoft.com/library/def9f416-c519-4a72-b242-7d3057d9c1fd.aspx).
+
 Pour commencer l’installation :
-  
-1. Sur le Skype pour Business Server 2015, page, à côté **étape 1 : magasin de Configuration Local Installation**, cliquez sur **exécuter**.
-    
+
+1. Sur la Skype pour Business Server 2015 page, à côté **étape 1 : installer le magasin de Configuration Local**, cliquez sur **exécuter**.
+
 2. Dans la page **Configuration du serveur local** assurez-vous que l’option **Récupérer automatiquement la configuration à partir du magasin central de gestion** est sélectionnée, puis cliquez sur **Suivant**.
-    
+
 3. Une fois l’installation terminée, cliquez sur **Terminer**.
-    
+
 > [!NOTE]
-> L’installation de la locale de SQL Server peut prendre un certain temps. Vous ne verrez pas les mises à jour de progression dans l’écran Résumé d’installation pendant l’installation de SQL Server. Si vous voulez surveiller la progression de l’installation, utilisez le Gestionnaire des tâches pour surveiller le programme d’installation de SQL Server. 
-  
+> L’installation de SQL Server local peut prendre un certain temps. Vous ne verrez pas les mises à jour sur progression dans l’écran Résumé pendant l’installation de SQL Server. Si vous souhaitez surveiller la progression de l’installation, utilisez le Gestionnaire des tâches pour surveiller l’installation de SQL Server.
+
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eb38d1dc24094233bac94f75967bf8f1e42b93d
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: af9d574abb69068095c31a9aaac0270b3fc7e960
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21251883"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248802"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Ressources Microsoft Teams pour les administrateurs de formation
 ==============================================
@@ -44,15 +44,15 @@ Créer des affichettes, des affiches et des messages électroniques personnalis�
 
 ## <a name="call-to-action"></a>Appel à l’action
 
-- Regarder notre [Démonstration interactive de Microsoft Teams](http://teamsdemo.office.com/) pratique (5 minutes)
+- Regarder notre [Démonstration interactive de Microsoft Teams](https://teamsdemo.office.com/) pratique (5 minutes)
 - Activer Microsoft Teams dans le [centre d’administration d’Office 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (se connecter en tant qu’administrateur d’Office 365)
 - Télécharger les clients Teams : [Obtenir Teams sur tous vos périphériques](https://teams.microsoft.com/downloads)
 - En savoir plus sur Office 365 pour l’éducation dans le [centre d’aide pour l’éducation](https://support.office.com/education)
-    
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Feuille de route de Microsoft Teams](https://aka.ms/teamsroadmap)
-- Rester informé avec notre [blog de la communauté technique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) 
+- Rester informé avec notre [blog de la communauté technique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
 - Blog de Matt Soseman « Le cloud productif » sur la [prise en charge de PowerShell Microsoft Teams](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)
 - [Envoyer une suggestion](https://aka.ms/eduuservoice)
 - [Contacter le support technique](https://aka.ms/o365portal).

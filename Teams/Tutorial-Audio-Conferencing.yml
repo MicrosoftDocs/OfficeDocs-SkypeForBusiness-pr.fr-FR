@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 4cb5a14f2bce0a9450788de178cff8e27cbc4e33
-  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
+  ms.openlocfilehash: 698bb6a90d3ba6b64b3288b60d55eec2dac17453
+  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 07/05/2018
-  ms.locfileid: "20201414"
+  ms.lasthandoff: 08/28/2018
+  ms.locfileid: "23253437"
 items:
 - durationInMinutes: 1
   content: >
@@ -49,7 +49,7 @@ items:
     -   Rapports
 
 
-    Services d’audioconférence ajoute des fonctions et fonctionnalités à des réunions dans les équipes. Nous vous recommandons d’effectuer [les réunions dans les équipes Microsoft](http://aka.ms/tr-meetings) avant ce didacticiel.
+    Services d’audioconférence ajoute des fonctions et fonctionnalités à des réunions dans les équipes. Nous vous recommandons d’effectuer [les réunions dans les équipes Microsoft](https://aka.ms/tr-meetings) avant ce didacticiel.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
@@ -98,7 +98,7 @@ items:
     ### <a name="next-steps"></a>Étapes suivantes
 
 
-    1.  Inscrivez-vous à [MyAdvisor](http://aka.ms/myadvisor) pour obtenir des conseils de déploiement personnalisés.
+    1.  Inscrivez-vous à [MyAdvisor](https://aka.ms/myadvisor) pour obtenir des conseils de déploiement personnalisés.
 
     2.  Démarrez à l’aide de conférence Audio dans les équipes.
 
@@ -109,4 +109,4 @@ items:
         - Suivez le [Blog des équipes](https://aka.ms/teamsblog).
         - Lisez la [feuille de route équipes](https://aka.ms/skype2teamsroadmap).
         - Découvrez les dernières fonctionnalités publiées dans les [Notes de publication](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    5.  Explorez [les autres formations et didacticiels](http://aka.ms/Teamsacademy).
+    5.  Explorez [les autres formations et didacticiels](https://aka.ms/Teamsacademy).

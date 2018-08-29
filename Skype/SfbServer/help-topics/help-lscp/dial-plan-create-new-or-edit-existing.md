@@ -12,24 +12,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 14a71d1ed3b60f5e258156eb36c8a5643257c7ca
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 86044261bfad621b69921e505eab8bef9cb456b4
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981008"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245753"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>Plan de numérotation : Créer une nouvelle ou en modifier une existant
- 
+
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-  
+
 - [Création ou modification d’un plan de numérotation dans Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md)
-    
-- [Modifier un Plan de numérotation](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
-    
+
+- [Modifier un Plan de numérotation](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+
 - [Création ou modification d’une règle de normalisation dans Skype Entreprise 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md)
-    
-- [Créer ou modifier une règle de normalisation manuellement](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
-    
+
+- [Créer ou modifier une règle de normalisation manuellement](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+
 Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
 

@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
 description: La fonctionnalité de mobilité dans Skype pour Business Server 25 prend en charge Skype pour les fonctionnalités d’entreprise sur des appareils mobiles. Pour plus d’informations, consultez Planification pour la mobilité.
-ms.openlocfilehash: 5e277254b1b5d3d27c0fa50ad8fc2a6d8b44f2c3
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b7f5a96d85efa3f36719e36e8944e823b7155f53
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068449"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23255004"
 ---
 # <a name="client-settings-planning-tool"></a>Paramètres du client (outil de planification)
- 
-La fonctionnalité de mobilité dans Skype pour Business Server prend en charge Skype pour les fonctionnalités d’entreprise sur des appareils mobiles. Pour plus d’informations, voir [Planning for Mobility](http://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).
-  
+
+La fonctionnalité de mobilité dans Skype pour Business Server prend en charge Skype pour les fonctionnalités d’entreprise sur des appareils mobiles. Pour plus d’informations, voir [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).
+
 

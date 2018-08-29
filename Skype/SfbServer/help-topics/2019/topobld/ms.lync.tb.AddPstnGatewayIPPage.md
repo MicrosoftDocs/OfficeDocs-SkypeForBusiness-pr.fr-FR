@@ -12,19 +12,19 @@ localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous définissez les adresses IPv4 ou IPv6 pour la passerelle de réseau téléphonique commuté IP ou le numéro de téléphone en sélectionnant Activer la IPv4 ou IPv6 activer. Vous pouvez choisir de Qu'utiliser toutes les adresses IP configurées ou limiter l’utilisation de service pour les adresses IP sélectionnées.
-ms.openlocfilehash: 472b87c91a1f34bffac797df401053c427d45881
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 78e459ffa35a00234f42e8bb2d471301ab39b615
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067678"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248236"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Définir l’adresse IP de la passerelle IP ou PSTN
- 
+
 Vous définissez les adresses IPv4 ou IPv6 pour la passerelle de réseau téléphonique commuté IP ou le numéro de téléphone en sélectionnant **Activer la IPv4** ou **IPv6 activer**. Vous pouvez choisir **d’utiliser toutes les adresses IP configurées** ou **limiter l’utilisation de service pour les adresses IP sélectionnées**.
-  
+
 Si vous sélectionnez **utiliser toutes les adresses IP configurées**, toutes les adresses configurées sur la passerelle qui seront utilisés. Si vous le souhaitez, sélectionnez **limiter l’utilisation de service pour les adresses IP sélectionnées**, qui permet l’entrée **d’adresse IP PSTN** . Entrez l’adresse IPv4 ou IPv6 qui a été attribué à cette passerelle.
-  
+
 ## <a name="see-also"></a>Voir aussi
 
-[Configuration requise pour conférence rendez-vous](http://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
+[Configuration requise pour conférence rendez-vous](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)

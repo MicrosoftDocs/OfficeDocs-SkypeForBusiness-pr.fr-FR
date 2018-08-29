@@ -11,12 +11,12 @@ localization_priority: Priority
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype Entreprise Server 2015 et Lync 2013 à partir d'un seul emplacement. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: c83e3994c47876e6064b58265848c64487e47b76
-ms.sourcegitcommit: 3915a89d072f0f801d5662286bea08839ed2a9e6
+ms.openlocfilehash: e3b1ae326494a14c502a7427d30f664646bfe373
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "22601905"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253054"
 ---
 # <a name="skype-for-business-updates"></a>Mises à jour de Skype Entreprise
 
@@ -76,7 +76,7 @@ Pour les dernières mises à jour de Skype Entreprise Online et Office 365, r
 * * *
 
 ## <a name="lync-server-2013-update-history"></a>Historique des mises à jour de Lync Server 2013
-    
+
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:--- |:--- |:--- |
 |Mise à jour cumulative 9 de Lync Server 2013  |[Article 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |Juillet 2017 |
@@ -90,7 +90,7 @@ Pour les dernières mises à jour de Skype Entreprise Online et Office 365, r
 |Mise à jour cumulative 5.0.8308.956 de Lync Server 2013, serveur de médiation |[Article 3140586](https://support.microsoft.com/kb/3140586)|Avril 2016 |
 |Mise à jour cumulative 5.0.8308.956 de Lync Server 2013, service Response Group |[Article 3140585](https://support.microsoft.com/kb/3140585)|Avril 2016 |
 |Mise à jour cumulative 5.0.8308.956 de Lync Server 2013, serveur de conférence |[Article 3140584](https://support.microsoft.com/kb/3140584)|Avril 2016 |
-|Mise à jour cumulative 5.0.8308.956 de Lync Server 2013, serveur frontal et serveur Edge |[Article 3140582](https://support.microsoft.com/kb/3140582)|Avril 2016 | 
+|Mise à jour cumulative 5.0.8308.956 de Lync Server 2013, serveur frontal et serveur Edge |[Article 3140582](https://support.microsoft.com/kb/3140582)|Avril 2016 |
 |Mise à jour cumulative 5.0.8308.956 de Lync Server 2013, composants principaux |[Article 3140581](https://support.microsoft.com/kb/3140581)|Avril 2016 |
 |Mise à jour cumulative 5.0.8308.945 de Lync Server 2013, serveur de composants Web |[Article 3126638](https://support.microsoft.com/kb/3126638)|Janvier 2016 |
 |Mise à jour cumulative 5.0.8308.945 de Lync Server 2013, composants principaux |[Article 3126637](https://support.microsoft.com/kb/3126637)|janvier 2016 |
@@ -205,7 +205,7 @@ Nom/lien du package|Date de publication|
 
 ### <a name="resource-kit-technical-reference"></a>Kit de ressources (document de référence technique)
 
-Visitez le site de téléchargement du [Microsoft Lync Server 2010, outils du Kit de ressources](https://www.microsoft.com/download/en/details.aspx?id=22644) pour télécharger les chapitres du registre individuellement OU téléchargez un fichier.zip contenant [les 19 chapitres du kit de ressources](http://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
+Visitez le site de téléchargement du [Microsoft Lync Server 2010, outils du Kit de ressources](https://www.microsoft.com/download/en/details.aspx?id=22644) pour télécharger les chapitres du registre individuellement OU téléchargez un fichier.zip contenant [les 19 chapitres du kit de ressources](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
 
 ### <a name="group-chat"></a>Group Chat
 
@@ -226,9 +226,9 @@ Nom/lien du package|Date de publication|
 
 ## <a name="additional-information"></a>Informations supplémentaires
 
-Les mises à jour logicielles incluent l’ensemble des mises à jour, correctifs cumulatifs, service Pack, Feature Pack, mises à jour critiques, mises à niveau de sécurité ou correctifs logiciels. Reportez-vous à l’[article de la base de connaissances 824684](https://support.microsoft.com/kb/824684) pour une description de la terminologie standard utilisée pour les mises à jour logicielles Microsoft. 
+Les mises à jour logicielles incluent l’ensemble des mises à jour, correctifs cumulatifs, service Pack, Feature Pack, mises à jour critiques, mises à niveau de sécurité ou correctifs logiciels. Reportez-vous à l’[article de la base de connaissances 824684](https://support.microsoft.com/kb/824684) pour une description de la terminologie standard utilisée pour les mises à jour logicielles Microsoft.
 
- 
+
 ## <a name="related-topics"></a>Rubriques connexes
 
 - [Installer Skype Entreprise Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/install/install)

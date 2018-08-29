@@ -1,5 +1,5 @@
 ---
-title: Configuration de la réunion, créer ou modifier une existante
+title: Configuration de réunion créer ou modifier une existant
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,47 +11,48 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
-description: Les paramètres de configuration de réunion définissent la participation des utilisateurs pour les conférences planifiées par des utilisateurs. Ces paramètres ne concernent que les réunions planifiées. Elles ne s’appliquent pas à des réunions ad hoc créées en cliquant sur l’option Conférence maintenant dans le client.
-ms.openlocfilehash: af9a1cca6a34320a7e2bd2ba53b08040351f784e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Les paramètres de configuration de réunion définissent la participation des utilisateurs pour les conférences planifiées par des utilisateurs. Ces paramètres ne concernent que les réunions planifiées. Ils ne concernent pas les réunions ad hoc créées en cliquant sur l’option Conférence maintenant du client.
+ms.openlocfilehash: e67381ff779b7ef410e1a9accc9dc2e7791c2e43
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23244201"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuration de la réunion : création d’une réunion ou modification d’une réunion existante
- 
+
 Les paramètres de configuration de réunion définissent la participation des utilisateurs pour les conférences planifiées par des utilisateurs. Ces paramètres ne concernent que les réunions planifiées. Ils ne concernent pas les réunions ad hoc créées en cliquant sur l’option **Conférence maintenant** du client.
-  
+
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
 La liste ci-dessous décrit les champs de la page.
-  
-- **Champ d’application** Identifie la portée de la configuration de la réunion que vous créez ou modifiez : global, site, ou le pool.
-    
-- **Nom** Configurations de réunion sont nommées par défaut, et le nom ne peut pas être modifié.
-    
-- **Les appelants RTPC contournent la salle d’attente** Activez cette case à cocher d’admettre automatiquement les utilisateurs qui sont connectent à la conférence via une ligne téléphonique du réseau téléphonique public commuté. Désactivez cette case à cocher aux appelants de RTPC d’itinéraire à la salle de conférence, où qu’ils se trouvent sur Maintenez jusqu'à ce qu’un présentateur de la conférence leur accorde l’accès à la conférence.
-    
-- **Désigner en tant que présentateur** Sélectionnez la catégorie d’utilisateurs sont automatiquement désigné en tant que présentateurs lorsqu’ils rejoignent une conférence (en plus de l’organisateur de la réunion). Indépendamment de ce paramètre, les présentateurs peuvent être explicitement désignés en tant que présentateurs lors de la conférence est planifiée, ou ils peuvent être promus explicitement au présentateur au cours de la conférence. Les options sont les suivantes :
-    
-  - **Aucun** Sélectionnez cette option si la personne que l’organisateur est automatiquement désigné en tant que présentateur.
-    
+
+- **Étendue** Identifie l’étendue de la configuration de réunion que vous créez ou modifiez : globale, site ou pool.
+
+- **Nom** Configurations de réunion sont nommées par défaut et le nom ne peut pas être modifié.
+
+- **Les appelants PSTN de contournement salle d’attente** Activez cette case à cocher Accepter automatiquement les utilisateurs qui sont connectent à la conférence sur la ligne téléphonique public commuté (PSTN) réseau. Désactivez cette case à cocher pour les appelants PSTN d’itinéraire à la salle d’attente de conférence, où ils se trouvent sur attente jusqu'à ce que le présentateur de la conférence les autorise à accéder à la conférence.
+
+- **Désigner en tant que présentateur** Sélectionnez la catégorie d’utilisateurs sont automatiquement désigné en tant que présentateurs lorsqu’ils rejoignent une conférence (en plus de l’organisateur de la réunion). Quel que soit ce paramètre, les présentateurs peuvent être explicitement désignés en tant que présentateurs lors de la conférence est planifiée, ou ils peuvent être promus explicitement au présentateur au cours de la conférence. Les options sont les suivants :
+
+  - **Aucun** Sélectionnez cette option si personne d’autre que l’organisateur est automatiquement désigné en tant que présentateur.
+
   - **Société** Sélectionnez cette option pour désigner automatiquement uniquement les membres de votre organisation en tant que présentateurs.
-    
-  - **Tout le monde** Sélectionnez cette option pour désigner automatiquement tous les utilisateurs d’être un présentateur.
-    
-- **Type de conférence attribué par défaut** Ce paramètre contrôle si le complément de conférence Outlook planifie toujours les conférences à l’aide de l’organisateur affecté de conférence, qui signifie que prévu des conférences toujours ont la même URL de jointure et les informations audio. Activez cette case à cocher pour que les conférences planifiées à toujours utiliser la même URL de jointure. Désactivez cette case à cocher pour utiliser une URL de jointure différente pour chaque conférence.
-    
-- **Admit les utilisateurs anonymes par défaut** Activez cette case à cocher si anonyme (c'est-à-dire, non authentifié) les utilisateurs sont autorisés à participer à des conférences par défaut. Désactivez cette case à cocher si les utilisateurs anonymes ne sont pas autorisés à participer à des conférences par défaut.
-    
-- **URL du logo** Tapez l’URL contenant l’image à utiliser pour les invitations Conférence personnalisé.
-    
-- **URL d’aide** Tapez l’URL d’un site Web où les utilisateurs peuvent obtenir une assistance pour joindre la conférence.
-    
-- **URL de texte juridique** Tapez l’URL d’un site Web qui a les informations légales et limitation de responsabilité pour la conférence.
-    
-- **Texte de pied de page personnalisé** Tapez le texte à utiliser sur les invitations Conférence personnalisé.
-    
-Pour plus d’informations sur l’utilisation des configurations de réunion, reportez-vous à la section [créer un ou modifier une Collection de réunion Configuration paramètres](http://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) dans la documentation sur les opérations. Pour plus d’informations sur la définition de configurations de réunion pour les réunions de grande taille, consultez [Configuration de Support pour les réunions de grande taille](http://technet.microsoft.com/library/8e22d34b-b395-408d-9d48-8f2a3abe9513.aspx) dans la documentation de planification.
-  
+
+  - **Tout le monde** Sélectionnez cette option pour désigner automatiquement tout le monde à être présentateur.
+
+- **Type de conférence affecté par défaut** Ce paramètre contrôle si le complément de conférence Outlook planifie toujours les conférences à l’aide de l’organisateur affecté conférence, ce qui signifie que planifiées toujours des conférences ont le même participer à une URL et les informations audio. Activez cette case à cocher pour que les conférences planifiées à toujours utiliser la même URL jointure. Désactivez cette case à cocher pour utiliser une URL de jointure différente pour chaque conférence.
+
+- **Autoriser les utilisateurs anonymes par défaut** Activez cette case à cocher si anonyme (c'est-à-dire, non authentifié) les utilisateurs sont autorisés à participer à des conférences par défaut. Désactivez cette case à cocher si les utilisateurs anonymes ne sont pas autorisés à participer à des conférences par défaut.
+
+- **URL du logo** Tapez l’URL qui se trouve l’image à utiliser pour les invitations de conférence personnalisées.
+
+- **URL de l’aide** Tapez l’URL d’un site Web où les utilisateurs peuvent obtenir une assistance pour participer à la conférence.
+
+- **URL légales** Tapez l’URL d’un site Web qui possède les informations légales et les clauses d’exclusion pour la conférence.
+
+- **Texte de pied de page personnalisé** Tapez le texte à utiliser sur les invitations de conférence personnalisées.
+
+Pour plus d’informations sur l’utilisation des configurations de réunion, voir [créer un ou modifier une Collection de paramètres de Configuration réunion](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) dans la documentation des opérations. Pour plus d’informations sur la définition de configurations de réunion pour les réunions de grande taille, consultez [Définition des prise en charge des grandes réunions](https://technet.microsoft.com/library/8e22d34b-b395-408d-9d48-8f2a3abe9513.aspx) dans la documentation de planification.
+
 

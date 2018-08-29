@@ -12,17 +12,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: Dans Skype pour Business Server 2015, surveillance permet de collecter les données de Quality of Experience (QoE) sur les sessions de communication impliqués dans les utilisateurs et les informations sur l’utilisation.
-ms.openlocfilehash: 73e51321dae183b2e413e11f1943c33f52a5cfba
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Dans Skype pour Business Server 2015, surveillance sert à collecter des informations sur l’utilisation et les données de qualité de l’expérience (QoE) sur les sessions de communication nécessaires à vos utilisateurs.
+ms.openlocfilehash: 726e1dd39e5899d5589b931e25cff23ddf0912f8
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23258101"
 ---
 # <a name="monitoring-planning-tool"></a>Surveillance (outil de planification)
- 
-Dans Skype pour Business Server 2015, surveillance permet de collecter les données de Quality of Experience (QoE) sur les sessions de communication impliqués dans les utilisateurs et les informations sur l’utilisation.
-  
-Pour plus d’informations sur la planification de Monitoring Server, consultez [planification de surveillance](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).
-  
+
+Dans Skype pour Business Server 2015, surveillance sert à collecter des informations sur l’utilisation et les données de qualité de l’expérience (QoE) sur les sessions de communication nécessaires à vos utilisateurs.
+
+Pour plus d’informations sur la planification de serveur de surveillance, consultez [planification de surveillance](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).
+
 

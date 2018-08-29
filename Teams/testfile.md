@@ -1,10 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: c3d89338f761f8937267b79774ea39a7c88ce4b2
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: e287cc1b6c987e29067d75e344710104cd9c2c4b
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246889"
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Bienvenue dans le contenu Office de docs.microsoft.com
 ## <a name="this-is-a-level-2-heading"></a>Il s'agit d'un titre de niveau 2
@@ -17,12 +18,22 @@ ms.lasthandoff: 04/05/2018
 1. élément 2
 2. élément 3
 3. élément 4
+4. élément 5
 
 
-Ajout d’une inclusion dans ce fichier ici :[!INCLUDE [sample-include-file](includes/sample-include-file.md)]
+|Colonne1  |Column2  |Colonne3  |
+|---------|---------|---------|
+|Row1     |         |         |
+|Row2     |         |         |
+|Row3     |         |         |
+|Row4     |         |         |
+|Reste monde5     |         |         |
+|Row6     |         |         |
+
+J’ajoute une inclusion à ce fichier ici :[!INCLUDE [sample-include-file](includes/sample-include-file.md)]
 
 
-Il est possible d’amener à consulter un tableau de repères contenant une liste à puces utilisant des symboles HTML et seulement la balise de saut de ligne :
+Il est possible d’amener une table promotions à rechercher comme il contient une liste à puces à l’aide de symboles HTML et simplement la balise de saut de ligne :
 
 | Cellule d’en-tête1 | Cellule d’en-tête2 |
 | ---          | ---          |
@@ -32,5 +43,9 @@ Il est possible d’amener à consulter un tableau de repères contenant une lis
 <p>J’afficherai &#9744;</p>
 <p>J’afficherai &#x2610;</p>
 
+###<a name="this-is-heading-3"></a>Cela est heading 3
+
 Le contenu Microsoft Teams est désormais disponible.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)
+
+Consultez le [guide de planification des équipes de démarrage rapide-](quick-start-enable-Teams.md)

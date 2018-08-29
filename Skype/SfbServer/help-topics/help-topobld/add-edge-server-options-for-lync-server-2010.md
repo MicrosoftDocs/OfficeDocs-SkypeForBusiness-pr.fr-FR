@@ -12,28 +12,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 'Vous définissez un nouveau serveur de périphérie ou un pool de serveurs Edge et sont présentées avec la possibilité de définir des fonctionnalités pour le nouveau serveur ou pool. Les options que vous pouvez choisir sont les suivants :'
-ms.openlocfilehash: 7cd5af525e87f23bc07245f5fed139bc2c9c7356
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d42a7cf7c926e8a879a148c3e4dcb7cc7624d23e
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967620"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23257345"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Ajouter des Options de serveur Edge pour Lync Server 2010
- 
+
 Vous définissez un nouveau serveur de périphérie ou un pool de serveurs Edge et sont présentées avec la possibilité de définir des fonctionnalités pour le nouveau serveur ou pool. Les options que vous pouvez choisir sont les suivants :
-  
-- **Utiliser une seule adresse IP et le nom de domaine complet**: activez la case à cocher Utiliser un seul IPv4 ou IPv6 (si vous choisissez d’utiliser à la fois IPv4 et IPv6, vous devez en définir une option de chaque type d’adresse IP) adresse et le nom de domaine complet (FQDN) pour l’externe Edge interfaces. 
-    
+
+- **Utiliser une seule adresse IP et le nom de domaine complet**: activez la case à cocher Utiliser un seul IPv4 ou IPv6 (si vous choisissez d’utiliser à la fois IPv4 et IPv6, vous devez en définir une option de chaque type d’adresse IP) adresse et le nom de domaine complet (FQDN) pour l’externe Edge interfaces.
+
     > [!IMPORTANT]
-    > Si vous choisissez cette option, vous allez utiliser qu’une seule adresse IP, ou une adresse IPv4 et une adresse IPv6, mais vous devez affecter des numéros de port différents à chaque interface Edge. 
-  
+    > Si vous choisissez cette option, vous allez utiliser qu’une seule adresse IP, ou une adresse IPv4 et une adresse IPv6, mais vous devez affecter des numéros de port différents à chaque interface Edge.
+
 - **Activer la fédération (port 5061)**: Activez cette case à cocher si vous l’intention de fédérer avec d’autres offres hébergées utilisant le protocole d’ouverture de session (SIP), fournisseurs ou fédérations SIP.
-    
+
 - **L’adresse IP externe de ce pool Edge est traduit par NAT**: Activez cette case à cocher si vous utilisez des adresses IP privées pour les interfaces externes Edge et fournissez un périphérique network address translation (NAT) pour placer le serveur Edge ou pool Edge logiquement derrière.
-    
+
 ## <a name="see-also"></a>Voir aussi
 
-[Planification de l’accès utilisateur externe](http://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
-  
-[Déploiement de l’accès des utilisateurs externes](http://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)
+[Planification de l’accès utilisateur externe](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
+
+[Déploiement de l’accès des utilisateurs externes](https://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)

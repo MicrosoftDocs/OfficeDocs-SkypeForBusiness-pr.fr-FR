@@ -11,20 +11,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
-description: Pour commencer l’installation de Skype pour Business Server 2015, vous devez préparer le schéma Active Directory Domain Services, forêt et domaines qui hébergeront les serveurs et les utilisateurs. Le Skype pour l’Assistant de déploiement de Business Server va vous guider tout au long des étapes nécessaires à la préparation d’Active Directory, en commençant avec le schéma, puis dans la préparation de la forêt. Après avoir confirmé que la réplication Active Directory a réussi, vous préparez puis de chaque domaine qui hébergera des serveurs ou des utilisateurs.
-ms.openlocfilehash: 29000132b65350d6b1e723934333209fb3c55b42
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Pour commencer l’installation de Skype pour Business Server 2015, vous devez préparer le schéma Active Directory Domain Services, la forêt et les domaines qui hébergeront des serveurs et des utilisateurs. Le Skype pour l’Assistant de déploiement Business Server vous guidera tout au long des étapes requises pour préparer Active Directory, commence avec le schéma, puis dans la préparation de la forêt. Après avoir confirmé que la réplication Active Directory est accessible, vous préparer puis chaque domaine qui hébergera les utilisateurs ou les serveurs.
+ms.openlocfilehash: 31111aef02bd29e1584dd09e838405b107cd3868
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23241438"
 ---
 # <a name="prepare-active-directory"></a>Préparer Active Directory
- 
-Pour commencer l’installation de Skype pour Business Server 2015, vous devez préparer le schéma Active Directory Domain Services, forêt et domaines qui hébergeront les serveurs et les utilisateurs. Le Skype pour l’Assistant de déploiement de Business Server va vous guider tout au long des étapes nécessaires à la préparation d’Active Directory, en commençant avec le schéma, puis dans la préparation de la forêt. Après avoir confirmé que la réplication Active Directory a réussi, vous préparez puis de chaque domaine qui hébergera des serveurs ou des utilisateurs.
-  
+
+Pour commencer l’installation de Skype pour Business Server 2015, vous devez préparer le schéma Active Directory Domain Services, la forêt et les domaines qui hébergeront des serveurs et des utilisateurs. Le Skype pour l’Assistant de déploiement Business Server vous guidera tout au long des étapes requises pour préparer Active Directory, commence avec le schéma, puis dans la préparation de la forêt. Après avoir confirmé que la réplication Active Directory est accessible, vous préparer puis chaque domaine qui hébergera les utilisateurs ou les serveurs.
+
 > [!IMPORTANT]
-> Pour préparer efficacement le schéma, vous devez être connecté en tant que membre du groupe Administrateurs d’entreprise et du groupe Administrateurs du schéma. Pour préparer la forêt, vous devez être connecté en tant que membre du groupe Administrateurs d’entreprise ou être connecté en tant qu’administrateur dans la racine de la forêt. Pour la préparation du domaine, vous devez vous connecter en tant que membre du groupe Administrateurs du domaine. 
-  
-Pour plus d’informations sur les topologies Active Directory prises en charge, consultez [Prise en charge de Active Directory](http://technet.microsoft.com/library/28ed9ac4-586d-4803-ad45-99c4fa793f54.aspx) dans la documentation de prise en charge. Pour plus d’informations sur la préparation d’Active Directory, consultez [Vue d’ensemble de domaine Services de préparation d’Active Directory](http://technet.microsoft.com/library/cdd2a652-6a0d-4728-9950-3fcaa7a80066.aspx) dans la documentation de déploiement.
-  
+> Pour préparer efficacement le schéma, vous devez être connecté en tant que membre du groupe Administrateurs d’entreprise et du groupe Administrateurs du schéma. Pour préparer la forêt, vous devez être connecté en tant que membre du groupe Administrateurs d’entreprise ou être connecté en tant qu’administrateur dans la racine de la forêt. Pour la préparation du domaine, vous devez vous connecter en tant que membre du groupe Administrateurs du domaine.
+
+Pour plus d’informations sur les topologies Active Directory prises en charge, voir [Prise en charge de Active Directory](https://technet.microsoft.com/library/28ed9ac4-586d-4803-ad45-99c4fa793f54.aspx) dans la documentation de prise en charge. Pour plus d’informations sur la préparation d’Active Directory, voir [Vue d’ensemble du domaine Services préparation d’Active Directory](https://technet.microsoft.com/library/cdd2a652-6a0d-4728-9950-3fcaa7a80066.aspx) dans la documentation de déploiement.
+
 

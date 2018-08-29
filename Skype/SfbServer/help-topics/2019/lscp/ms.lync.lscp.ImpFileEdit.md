@@ -12,20 +12,20 @@ localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 489a8a2db9edf08ab2ab7e6923aab16f9818039e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 27f10addc01a8d81be4c342714912bd7fcd55973
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998798"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23243984"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>Filtre de fichier : Créer une nouvelle ou en modifier une existant
- 
+
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-  
-- [Modifier le filtre de transfert de fichiers par défaut](http://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
-    
-- [Créer un filtre de transfert de fichiers pour un Site spécifique](http://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
-    
- 
+
+- [Modifier le filtre de transfert de fichiers par défaut](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+
+- [Créer un filtre de transfert de fichiers pour un Site spécifique](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
+
+
 

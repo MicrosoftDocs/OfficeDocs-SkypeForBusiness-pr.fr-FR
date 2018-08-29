@@ -11,12 +11,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3801a6216962425a103845d99184f6b50bf9dc9
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: f9e15f792fe17cc0831a7253f4b4ddf7770cb5be
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19002885"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23243658"
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Présentation d'un déploiement de Microsoft Teams
 ========================================
@@ -57,6 +57,6 @@ Cette configuration se présenterait comme suit dans Microsoft Teams :
 |![Icône Étapes suivantes.](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |Étapes suivantes         |Documentez vos équipes/canaux initiaux pour votre projet informatique pilote.         |
 
 
- 
 
-Pour effectuer le suivi de ces points de décision, téléchargez le questionnaire de planification technique dans le [Guide de démarrage rapide : Activation réussie de Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
+
+Pour effectuer le suivi de ces points de décision, téléchargez le questionnaire de planification technique dans le [Guide de démarrage rapide : Activation réussie de Teams](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
