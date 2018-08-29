@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 65ceb84e70da34b4f617f5a22262127c4701e00b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 195df3afef43287d6ca48d000c2cf82322d04ec1
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997756"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23241896"
 ---
 # <a name="users-view-voice-policy"></a>Utilisateurs : Afficher une stratégie de voix
- 
+
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-  
+
 - [Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation RTC dans Skype Entreprise 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
-    
-- [Modifier une stratégie de voix et de configurer les enregistrements d’utilisation PSTN](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
-    
+
+- [Modifier une stratégie de voix et de configurer les enregistrements d’utilisation PSTN](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+
 Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
 

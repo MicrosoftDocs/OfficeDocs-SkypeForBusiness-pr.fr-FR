@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cette rubrique pour en savoir plus sur le déploiement de systèmes de salle Skype v2 sur les déploiements à grande échelle.
-ms.openlocfilehash: 5ed6e041eb862c7bb50bde89ef172f9012ca8c2e
-ms.sourcegitcommit: 81c6775fdcf8726d2df83c421a85b7908f1f7412
+ms.openlocfilehash: 3b34d584bf98326257964e30431f622a0be6dee2
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "22601996"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247456"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Déployer des systèmes de salle Skype v2 à l’aide de System Center Configuration Manager
 
@@ -81,7 +81,7 @@ Utilisez les instructions suivantes pour vérifier que les fonctionnalités de d
 
 2.  Sélectionnez le serveur du point de distribution qui va traiter le déploiement de v2 Skype salle systèmes, puis sélectionnez **Propriétés**.
 
-3.  Sélectionnez l’onglet **PXE** et vérifiez que les paramètres suivants sont activés : 
+3.  Sélectionnez l’onglet **PXE** et vérifiez que les paramètres suivants sont activés :
     -   Activer la prise en charge PXE pour les clients
     -   Autoriser ce point de distribution répondre aux demandes PXE entrantes
     -   Activer la prise en charge de l’ordinateur inconnu
@@ -212,7 +212,7 @@ Créez la structure de dossier suivante sur le site administration centrale de S
       Wait-Process -name wusa
    }
 ```
-3.  Téléchargez les packages de mise à jour Windows obligatoires dans le même dossier.  
+3.  Téléchargez les packages de mise à jour Windows obligatoires dans le même dossier.
     > [!NOTE]
     > Au moment de que cet article a été publié, uniquement [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) était requis. Vérifiez [Configure une console v2 de systèmes de salle Skype](console.md), pour voir si des mises à jour sont requises.
 
@@ -319,21 +319,21 @@ Vous créez ce package pour distribuer le certificat racine pour les périphéri
         strHTMLText = strHTMLText & "<br><br> Click Accept to use this as the computer name and continue deployment, or Change to set a new name."
         strHTMLText = strHTMLText & "<p><input type=""button"" value=""Accept"" name = ""Accept_Button"" onclick=""SetComputerName"" />"
         strHTMLText = strHTMLText & " <input type=""button"" value=""Change"" name = ""Change_Button"" onclick=""ChangeComputerName"" />"
-        TextArea2.innerHTML = strHTMLText   
+        TextArea2.innerHTML = strHTMLText
     End Sub
-    
+
     Sub SetComputerName()
         dim result
         result = MsgBox("Computer Name to be assigned: " & strNewComputerName &vbcrlf & "Are you sure you want to continue?", 36)
-        If (result = vbYes) then 
-            SET env = CreateObject("Microsoft.SMS.TSEnvironment") 
+        If (result = vbYes) then
+            SET env = CreateObject("Microsoft.SMS.TSEnvironment")
             env("OSDComputerName") = strNewComputerName
-            self.close  
+            self.close
         elseif (result = vbNo) then
             Window_OnLoad
         End If
     End Sub
-    
+
     Sub UpdateComputerName()
         strNewComputerName = newcomputername.value
         if len(trim(strNewComputerName)) = 0 then
@@ -342,26 +342,26 @@ Vous créez ce package pour distribuer le certificat racine pour les périphéri
         end if
         SetComputerName
     End Sub
-    
+
     Sub ChangeComputerName()
         TextArea2.innerHTML = "<p>Type the new computer name and click Accept:  <input type=""text"" name=""newcomputername"" value =" & strNewComputerName & " />"
         TextArea2.innerHTML = TextArea2.innerHTML & "<br><input type=""button"" value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName"" />"
     End Sub
-    
+
     Sub Window_OnLoad
         Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
         oTSProgressUI.CloseProgressDialog
         GenerateComputerName
     End Sub
     </script>
-    
+
     <body>
     <span id = "TextArea1"></span>
     <span id = "TextArea2">
     </span>
     </body>
     </html>
-    
+
     ```
 3.  Dans la console Configuration Manager, accédez à la **Bibliothèque de logiciels** \> **Gestion des applications** \> **Packages**, puis sélectionnez **Créer un Package**.
 
@@ -390,16 +390,16 @@ Vous créez ce package pour distribuer le certificat racine pour les périphéri
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
     <settings pass="specialize">
-        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <DisableBootMenu>1</DisableBootMenu>
             <DisplayDisabled>1</DisplayDisabled>
         </component>
-        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
         </component>
     </settings>
     <settings pass="oobeSystem">
-        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <OOBE>
                 <HideEULAPage>true</HideEULAPage>
                 <HideLocalAccountScreen>true</HideLocalAccountScreen>
@@ -625,11 +625,11 @@ Vous pouvez télécharger facilement importer une séquence de tâches exemple e
     16. **Ajouter un utilisateur Local Skype**: cette étape crée le compte Skype local utilisé pour se connecter à Windows et démarrer l’application v2 de systèmes de salle Skype automatiquement. Cette étape ne possède pas de tout logiciel associé, et aucune personnalisation n’est nécessaire pour qu’il.
 
     17. **Définir vers le haut et configurer l’application SRS**: cette étape configure l’installation d’applications Skype salle systèmes v2 pour le redémarrage du système d’exploitation.
-        -   Vérifiez que le **SRS v2 – configurer un Package d’installation SRS** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.       
+        -   Vérifiez que le **SRS v2 – configurer un Package d’installation SRS** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
 
 > [!IMPORTANT]
 > Il est très important que les étapes de séquence de tâches doivent être dans l’ordre indiqué. Modification de l’ordre des étapes, ou la configuration des étapes supplémentaires peut empêcher le déploiement.
-> 
+>
 > **Définir vers le haut et configurer l’application SRS** étape doit être la dernière étape de la séquence de tâches, sinon le déploiement peut échouer.
 
 ### <a name="create-deployment-for-the-task-sequence"></a>Créer le déploiement de la séquence de tâches

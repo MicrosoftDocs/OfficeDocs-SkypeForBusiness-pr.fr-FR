@@ -18,29 +18,29 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 2949f170aef6567d186adcd8414e39c7689537e2
-ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
+ms.openlocfilehash: 95194240a110a5372a6891c884e729b5a0cc7d43
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21645209"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245436"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 
 Le tableau de bord de la qualité des appels (CQD) pour Microsoft Teams et Skype pour Business Online vous permet d’obtenir des informations sur la qualité des appels effectués à l’aide de Microsoft Teams et Skype pour les services. Cette rubrique fournit des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord. Pour en savoir plus sur les CQD et comment l’activer, voir [activation et à l’aide d’appels de tableau de bord qualité pour les équipes Microsoft et Skype pour Business Online](turning-on-and-using-call-quality-dashboard.md).
-  
+
 ## <a name="first-and-second-endpoint-classification"></a>Classification du premier et du deuxième point de terminaison
 
 De nombreuses dimensions et mesures du tableau de bord de qualité des appels sont étiquetées comme première ou deuxième. La logique suivante détermine quel point de terminaison du flux ou de l'appel est étiqueté comme premier :
-  
+
 - Tout d’abord sera toujours un point de terminaison de serveur (MCU a/v, le serveur de médiation, etc.) si un serveur est impliqué dans le flux / l’appel.
-    
+
 - Le deuxième concerne toujours un point de terminaison client, sauf si le flux est établi entre deux points de terminaison serveur.
-    
+
 - Si les deux points de terminaison sont le même type, la commande pour laquelle est le premier et deuxième est basé sur le classement interne de la catégorie de l’agent utilisateur. Cela garantit la cohérence de l'organisation.
-    
+
 Par exemple, chaque ligne représente une paire d'agents utilisateur impliqués dans un flux :
-  
+
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Catégorie de l'agent utilisateur de l'appelant** <br/> |**Catégorie de l'agent utilisateur du destinataire de l'appel** <br/> |**First Endpoint** <br/> |**Second Endpoint** <br/> |**First Is Caller** <br/> |
@@ -51,14 +51,14 @@ Par exemple, chaque ligne représente une paire d'agents utilisateur impliqués 
 |Serveur de médiation  <br/> |AV-MCU  <br/> |Serveur de médiation  <br/> |AV-MCU  <br/> |VRAI  <br/> |
 |OC (clients Skype Entreprise)  <br/> |Téléphone OC (téléphone IP Skype Entreprise)  <br/> |OC (clients Skype Entreprise)  <br/> |Téléphone OC (téléphone IP Skype Entreprise)  <br/> |VRAI  <br/> |
 |Téléphone OC (téléphone IP Skype Entreprise)  <br/> |OC (clients Skype Entreprise)  <br/> |OC (clients Skype Entreprise)  <br/> |Téléphone OC (téléphone IP Skype Entreprise)  <br/> |FAUX  <br/> |
-   
+
 > [!NOTE]
 > La classification Premier et Deuxième varie selon quel point de terminaison correspond à l'appelant ou à l'appelé. La dimension Appelant est premier peut être utilisée pour faciliter l'identification du point de terminaison émetteur ou destinataire de l'appel.
-  
+
 ## <a name="dimensions"></a>Dimensions
 
 Le tableau suivant indique les dimensions actuellement disponibles dans le tableau de bord de qualité des appels :
-  
+
 |||||
 |:-----|:-----|:-----|:-----|
 |**Nom de la dimension** <br/> |**Type de données / Unités** <br/> |**Description** <br/> |**Valeurs** <br/> |
@@ -321,17 +321,17 @@ Le tableau suivant indique les dimensions actuellement disponibles dans le table
 |Inside Corp Pair  <br/> |Paire énumérée  <br/> | Paire indiquant si les point de terminaison étaient situés à l'intérieur ou à l'extérieur du réseau d'entreprise en fonction du mappage de sous-réseau. Valeurs possibles : <br/>  Intérieur : intérieur <br/>  Intérieur : Extérieur <br/>  Extérieur : Extérieur <br/> |**Exemple de valeur :** À l’intérieur : à l’intérieur  <br/> |
 |Scenario Pair  <br/> |Paire énumérée  <br/> |Paire indiquant si les points de terminaison étaient situés à l'intérieur ou à l'extérieur du réseau d'entreprise en fonction du mappage de sous-réseau et des détails de connexion réseau.  <br/> **Remarque :** Les paires sont séparées par ' : '.           |Les valeurs non renseignées dans l'énumération indiquent que le type de connectivité était inconnu pour un point de terminaison ou les deux. <br/>**Exemple de valeur :** Client interne--Client-Inside-Wi-Fi  <br/> |
 |Est équipes  <br/> |Boléen  <br/> |La valeur True indique que l’agent de la première ou deuxième utilisateur pour le flux est un point de terminaison Teams Microsoft.  <br/> La valeur False indique que les agents utilisateurs sont Skype pour systèmes d’extrémité Business.  |**Exemple de valeur :** La valeur True  |
-   
+
 ### <a name="notes-on-dimension-data-typeunits"></a>Notes sur les types/unités de données de dimensions :
 
 #### <a name="range"></a>Plage
 
 Les dimensions fournies comme plage ou groupe de valeurs sont affichées selon le format suivant :
-  
+
  _\<chaîne de l’ordre de tri\> [\<limite inférieure incluse\> - \<limite supérieure exclusive\>)_
-  
+
 Par exemple, la dimension Durée (Minutes) représente la durée de l'appel en secondes avec la valeur rapportée sous forme de plage de valeurs.
-  
+
 |||
 |:-----|:-----|
 |**Duration (Minutes)** <br/> |**Interprétation** <br/> |
@@ -340,22 +340,22 @@ Par exemple, la dimension Durée (Minutes) représente la durée de l'appel en s
 |065: [2 - 3)  <br/> |2 minutes < = durée du flux < 3 minutes  <br/> |
 |066: [3 - 4)  <br/> |3 minutes < = durée du flux < 4 minutes  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 L'option <sort order string> est utilisée pour contrôler l'ordre de tri lors de la présentation des données et peut être utilisé pour les trier. Par exemple, un filtre pour Durée (Minutes) < « 065 » affiche uniquement les flux d'une durée de moins de 2 minutes. (Le premier 0 est nécessaire pour le bon fonctionnement du filtre.)
-  
+
 > [!NOTE]
-> La valeur réelle de la chaîne d'ordre de tri n'est pas significative. 
-  
+> La valeur réelle de la chaîne d'ordre de tri n'est pas significative.
+
 #### <a name="enumeration-pair"></a>Paire d'énumération
 
 Les dimensions fournies comme paire d'énumération sont affichées selon le format suivant :
-  
+
  _\<valeur d’énumération à partir d’un point de terminaison\> : \<valeur d’énumération à partir de l’autre extrémité\>_
-  
+
 Le tri des valeurs d'énumération est cohérent, mais ne reflète pas l'ordre du premier ou du deuxième point de terminaison.
-  
+
 Par exemple, la paire de détails de connexion réseau indique les valeurs des détails de connexion réseau pour les deux systèmes de connexion.
-  
+
 |||
 |:-----|:-----|
 |**Network Connection Detail Pair** <br/> |**Interprétation** <br/> |
@@ -363,15 +363,15 @@ Par exemple, la paire de détails de connexion réseau indique les valeurs des d
 |Filaire : wifi  <br/> |Le premier point de terminaison utilisait une connexion filaire Ethernet et le deuxième utilisait une connexion WiFi ou le deuxième utilisait une connexion filaire Ethernet et le premier une connexion WiFi.  <br/> |
 |: wifi  <br/> |Le premier point de terminaison utilisait une connexion WiFi et la connexion réseau utilisée par le deuxième point de terminaison est inconnue ou le deuxième point de terminaison utilisait une connexion WiFi et la connexion utilisée par le premier point de terminaison est inconnue.  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 #### <a name="blank-values"></a>Valeurs non renseignées
 
 Le tableau ci-dessus liste les causes possibles d'une dimension non renseignée. De nombreuses dimensions et mesures restent vides si la dimension de qualité de l'expérience enregistrée disponible est fausse. Cela se produit généralement lorsque l'appel n'a pas pu être établi correctement.
-  
+
 ## <a name="measures"></a>Mesures
 
 Le tableau suivant indique les mesures actuellement disponibles dans le tableau de bord de qualité des appels :
-  
+
 ||||
 |:-----|:-----|:-----|
 |**Nom de la mesure** <br/> |**Unités** <br/> |**Description** <br/> |
@@ -425,10 +425,10 @@ Le tableau suivant indique les mesures actuellement disponibles dans le tableau 
 |Second Feedback Token Audio Issue Count  <br/> |Nombre de flux notés  <br/> |Nombre de flux pour lesquels un utilisateur a rapporté un problème audio au moyen du deuxième point de terminaison.  <br/> |
 |First Feedback Token Video Issue Count  <br/> |Nombre de flux notés  <br/> |Nombre de flux où indiquée à l’utilisateur à l’aide du premier point de terminaison un problème avec vidéo.  <br/> |
 |Second Feedback Token Video Issue Count  <br/> |Nombre de flux notés  <br/> |Nombre de flux où indiquée à l’utilisateur à l’aide du deuxième point de terminaison un problème avec vidéo.  <br/> |
-|Audio SLA Good Call Count  <br/> |Nombre d'appels  <br/> |Nombre d’appels audio au sein de l’étendue de la Skype pour SLA de qualité vocale Business ([Licence en Volume pour les produits et Services en ligne Microsoft](http://aka.ms/voicequalitysla)) classée comme les objectifs de performances réseau de la réunion.  <br/> |
-|Audio SLA Poor Call Count  <br/> |Nombre d'appels  <br/> |Nombre d’appels audio au sein de l’étendue de la Skype pour Business voix qualité SLA ([Licence en Volume pour les produits et Services en ligne Microsoft](http://aka.ms/voicequalitysla)) classées comme ne respectant ne pas les objectifs de performances réseau.  <br/> |
-|Audio SLA Call Count  <br/> |Nombre d'appels  <br/> |Nombre d’appels audio au sein de l’étendue de la Skype pour SLA de qualité vocale Business ([Licence en Volume pour les produits et Services en ligne Microsoft](http://aka.ms/voicequalitysla)).  <br/> |
-|Audio SLA Good Call Percentage  <br/> |Pourcentage  <br/> |Pourcentage d'appels couverts par une SLA sur la qualité vocale de Skype Entreprise ([Licences en volumes pour les produits et les services en ligne Microsoft](http://aka.ms/voicequalitysla)) classés comme atteignant les objectifs de performance réseau.  <br/> |
+|Audio SLA Good Call Count  <br/> |Nombre d'appels  <br/> |Nombre d’appels audio au sein de l’étendue de la Skype pour SLA de qualité vocale Business ([Licence en Volume pour les produits et Services en ligne Microsoft](https://aka.ms/voicequalitysla)) classée comme les objectifs de performances réseau de la réunion.  <br/> |
+|Audio SLA Poor Call Count  <br/> |Nombre d'appels  <br/> |Nombre d’appels audio au sein de l’étendue de la Skype pour Business voix qualité SLA ([Licence en Volume pour les produits et Services en ligne Microsoft](https://aka.ms/voicequalitysla)) classées comme ne respectant ne pas les objectifs de performances réseau.  <br/> |
+|Audio SLA Call Count  <br/> |Nombre d'appels  <br/> |Nombre d’appels audio au sein de l’étendue de la Skype pour SLA de qualité vocale Business ([Licence en Volume pour les produits et Services en ligne Microsoft](https://aka.ms/voicequalitysla)).  <br/> |
+|Audio SLA Good Call Percentage  <br/> |Pourcentage  <br/> |Pourcentage d'appels couverts par une SLA sur la qualité vocale de Skype Entreprise ([Licences en volumes pour les produits et les services en ligne Microsoft](https://aka.ms/voicequalitysla)) classés comme atteignant les objectifs de performance réseau.  <br/> |
 |Audio Good Call Stream Count  <br/> |Nombre de flux  <br/> |Nombre de flux audio, où les deux flux audio dans l’appel (segment d’appel) n’est pas considérées comme médiocre en fonction de mesures réseau répertoriés ici : [Flux de Classification dans le tableau de bord qualité des appels](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Poor Call Stream Count  <br/> |Nombre de flux  <br/> |Nombre de flux audio où au moins un flux audio dans l’appel (segment d’appel) a été classé comme médiocre en fonction de mesures réseau répertoriés ici : [Flux de Classification dans le tableau de bord qualité des appels](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Unclassified Call Stream Count  <br/> |Nombre de flux  <br/> |Nombre de flux audio, où les deux flux audio dans l’appel (segment d’appel) ne peut pas être considérées en raison du manque de métriques de réseau.  <br/> |
@@ -496,7 +496,7 @@ Le tableau suivant indique les mesures actuellement disponibles dans le tableau 
 |Firewall IP Blocked Media Failure Percentage  <br/> |Pourcentage  <br/> |Pourcentage de flux ne pouvant pas être établis à cause d'un équipement réseau qui bloque l'accès aux serveurs de Skype Entreprise. Ces problèmes indiquent généralement qu'un proxy, un pare-feu ou un autre élément de sécurité du réseau n'est pas correctement configuré pour accéder à l'adresse IP et aux ports utilisés par Skype Entreprise dans Office 365.  <br/> |
 |Media Failed Due To Firewall DPI Stream Count  <br/> |Nombre de flux  <br/> |Nombre de flux ne pouvant pas être établis à cause d'un équipement réseau qui bloque l'accès parce que l'inspection approfondie des paquets n'autorise pas le trafic de Skype Entreprise. Ces problèmes indiquent généralement qu'un proxy, un pare-feu ou un autre élément de sécurité du réseau n'est pas correctement configuré pour accéder à l'adresse IP et aux ports utilisés par Skype Entreprise dans Office 365.  <br/> |
 |Firewall DPI Media Failure Percentage  <br/> |Pourcentage  <br/> |Pourcentage de flux ne pouvant pas être établis à cause d'un équipement réseau qui bloque l'accès parce que l'inspection approfondie des paquets n'autorise pas le trafic de Skype Entreprise. Ces problèmes indiquent généralement qu'un proxy, un pare-feu ou un autre élément de sécurité du réseau n'est pas correctement configuré pour accéder à l'adresse IP et aux ports utilisés par Skype Entreprise dans Office 365.  <br/> |
-   
+
 ## <a name="related-topics"></a>Rubriques connexes
 [Configurer l'analyse des appels Skype Entreprise](set-up-call-analytics.md)
 
@@ -504,5 +504,4 @@ Le tableau suivant indique les mesures actuellement disponibles dans le tableau 
 
 [Appel Analytique et tableau de bord de qualité des appels](Difference-between-call-analytics-and-call-quality-dashboard.md)
 
-  
- 
+

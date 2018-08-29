@@ -71,11 +71,19 @@
 <!-- ============================================================ -->
 # Gérer
 ## [Qualité de consulter le Guide de l’expérience](quality-of-experience-review-guide.md)
-## Appel analytique
-### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Configurer l'analyse des appels Skype Entreprise](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels Skype Entreprise](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+<!--## Call analytics
+### [Dimensions and measures available in Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Set up Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Call Analytics and Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+-->
+## Surveiller la qualité des appels et qualité de service
+### [Qualité de service (QoS) dans Teams](QoS-in-Teams.md)
 ### [Appel Analytique et tableau de bord de qualité des appels](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Configurer Analytique d’appel](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Classification des flux dans le tableau de bord de qualité des appels](/SkypeForBusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ## Dépannage et assistance
 ### [Problèmes connus dans Teams](Known-issues.md)
@@ -83,13 +91,7 @@
 ### [Dépannage des problèmes de connectivité avec le client Microsoft Teams](connectivity-issues.md)
 ### [Utiliser des fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
 ### [Vérifier l'intégrité du service pour Microsoft Teams](service-health.md)
-## Contrôler la qualité des appels et la qualité de service
-### [Qualité de service (QoS) dans Teams](QoS-in-Teams.md)
-### [Appel Analytique et tableau de bord de qualité des appels](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Configurer l'analyse des appels Skype Entreprise](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels Skype Entreprise](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Classification des flux dans le tableau de bord de qualité des appels](/SkypeForBusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
 
 

@@ -12,17 +12,17 @@ localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le tronçon suivant pour le pool Edge est un pool frontal (qui peut être un pool d’entreprise ou un serveur Standard Edition), ou, si votre déploiement comprend un directeur, le tronçon suivant est le directeur.
-ms.openlocfilehash: a0a192b15bb5aef384fde5930234bf0fdb94852d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 75227cdfe98e64576d74eb3a0a9d803894864c06
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062859"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246602"
 ---
 # <a name="add-edge-server-next-hop"></a>Ajouter le tronçon suivant du serveur Edge
- 
+
 Le tronçon suivant pour le pool Edge est un pool frontal (qui peut être un pool d’entreprise ou un serveur Standard Edition), ou, si votre déploiement comprend un directeur, le tronçon suivant est le directeur.
-  
-Vous pouvez ajouter la prise en charge de l’accès des utilisateurs externes lors du déploiement initial de la topologie ou par la suite. Pour plus d’informations sur l’ajout de serveurs de périphérie à une topologie existante, voir [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) dans la documentation de déploiement de serveur Edge.
-  
+
+Vous pouvez ajouter la prise en charge de l’accès des utilisateurs externes lors du déploiement initial de la topologie ou par la suite. Pour plus d’informations sur l’ajout de serveurs de périphérie à une topologie existante, voir [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) dans la documentation de déploiement de serveur Edge.
+
 

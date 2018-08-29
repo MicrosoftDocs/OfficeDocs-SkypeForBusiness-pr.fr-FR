@@ -9,61 +9,61 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 'Résumé : Lisez cette rubrique pour savoir comment déployer la conférence dans Skype pour Business Server.'
-ms.openlocfilehash: b893a78ae5abb7c920c588cae948779cc3095c63
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e004afdc420bcd99679e20c29bf6ba7efc7f735f
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010518"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23263822"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Déployer la conférence dans Skype pour Business Server
- 
+
 **Résumé :** Lisez cette rubrique pour savoir comment déployer la conférence dans Skype pour Business Server.
-  
-Il existe quatre types de conférence dans Skype pour Business Server : conférence web, audio et vidéo (A / V) les conférences, conférence rendez-vous et conférence par messagerie instantanée (IM). Vous pouvez choisir d’activer tous les types de conférence ou d’utiliser un seul type, selon vos besoins. 
-  
-Lorsque vous déployez Skype pour Business Server, les fonctionnalités de conférence par messagerie instantanée sont déployées automatiquement. Lorsque vous créez et publiez une nouvelle topologie à l’aide du générateur de topologie, vous pouvez choisir de déployer ou non les fonctions de conférence web, de conférence A/V et de conférence rendez-vous, comme décrit dans les listes de vérification suivantes : 
-  
+
+Il existe quatre types de conférence dans Skype pour Business Server : conférence web, audio et vidéo (A / V) les conférences, conférence rendez-vous et conférence par messagerie instantanée (IM). Vous pouvez choisir d’activer tous les types de conférence ou d’utiliser un seul type, selon vos besoins.
+
+Lorsque vous déployez Skype pour Business Server, les fonctionnalités de conférence par messagerie instantanée sont déployées automatiquement. Lorsque vous créez et publiez une nouvelle topologie à l’aide du générateur de topologie, vous pouvez choisir de déployer ou non les fonctions de conférence web, de conférence A/V et de conférence rendez-vous, comme décrit dans les listes de vérification suivantes :
+
 - [Deployment checklist for web and audio/video conferencing](deploy-conferencing.md#BKMK_ChecklistWebConferencing)
-    
+
 - [Organigramme de déploiement et liste de vérification pour la conférence rendez-vous](deploy-conferencing.md#BKMK_DialinConferencing)
-    
+
 Avant de déployer la conférence, lisez les rubriques de planification suivantes :
-  
+
 - [Planifier des conférences dans Skype Business Server](../../plan-your-deployment/conferencing/conferencing.md)
-    
+
 - [Configuration matérielle et logicielle requise pour la conférence dans Skype pour Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
-    
+
 - [Planifier votre topologie de conférence Skype pour Business Server](../../plan-your-deployment/conferencing/conferencing-topology.md)
-    
+
 - [Planifier des conférences rendez-vous dans Skype Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
-    
+
 - [Planifier des réunions de grande taille dans Skype pour Business Server](../../plan-your-deployment/conferencing/large-meetings.md)
-    
+
 ## <a name="deployment-checklist-for-web-and-audiovideo-conferencing"></a>Liste de vérification du déploiement pour la conférence web et audio/vidéo
 <a name="BKMK_ChecklistWebConferencing"> </a>
 
-Le tableau ci-dessous décrit les étapes nécessaires pour déployer la conférence dans une topologie existante. Des liens vers la documentation de planification et de procédure associée sont inclus. 
-  
+Le tableau ci-dessous décrit les étapes nécessaires pour déployer la conférence dans une topologie existante. Des liens vers la documentation de planification et de procédure associée sont inclus.
+
 |**Phase**|**Étapes**|**Rôles et appartenance aux groupes**|**Documentation**|
 |:-----|:-----|:-----|:-----|
 |**Installer le matériel et les logiciels requis** <br/> |Conférence s’exécute sur les serveurs frontaux d’un pool frontal et les serveurs Standard Edition Server. Consultez les exigences en matière de serveur et d’environnement pour les serveurs frontaux.  <br/> Si vous activez les conférences web, vous devrez vous assurer que Skype pour Business Server peut communiquer avec Office Web Apps Server, qui est utilisé pour gérer le partage et le rendu des présentations PowerPoint.  <br/> Pour la conférence web, vous devez également spécifier un partage de fichiers à utiliser comme magasin de fichiers.  <br/> Souhaitez-vous autoriser les utilisateurs externes disposant de clients Skype Entreprise à participer à des conférences ? Si c’est le cas, vous devez déployer les serveurs Edge.  <br/> |Utilisateur du domaine qui est membre du groupe Administrateurs local  <br/> | [Configuration du serveur pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) <br> [Configuration serveur requise pour Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Conditions préalables d’environnement pour Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [Configuration matérielle et logicielle requise pour la conférence dans Skype pour Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md) <br/> [Configurer l’intégration avec Office Web Apps Server dans Skype pour Business Server](office-web-app-server.md) <br/> [Créer un partage de fichiers dans Skype pour Business Server](../../deploy/install/create-a-file-share.md) <br/> [Planification des déploiements de serveur Edge dans Skype Entreprise Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) <br/> [Déploiement d’un serveur Edge dans Skype Entreprise Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md) <br/> |
 |**Création de la topologie interne appropriée pour prendre en charge la conférence** <br/> |Vous devez exécuter le Générateur de topologie pour l’ajouter à la topologie de la conférence, puis publiez la topologie.  <br/> |Pour définir une topologie, un compte membre du groupe Utilisateurs local  <br/> Pour publier la topologie, un compte qui est membre du groupe Admins du domaine et groupe RTCUniversalServerAdmins et qui dispose des autorisations de contrôle total (lecture/écriture/modifier) sur le partage de fichiers à utiliser pour le Skype pour le magasin de fichiers Business Server (afin que la topologie Le Générateur de peut configurer les DACL requis)  <br/> |[Créer et publier la nouvelle topologie dans Skype pour Business Server](../../deploy/install/create-and-publish-new-topology.md) <br/> |
 |**Configuration des stratégies de conférence et des paramètres de configuration** <br/> |Utilisez Skype pour le panneau de configuration serveur Business ou Skype pour Business Server Management Shell pour configurer les paramètres de configuration et les stratégies de conférence.  <br/> |Groupe RTCUniversalServerAdmins (Windows PowerShell uniquement) ou affecter des utilisateurs au rôle CSAdministrator  <br/> |[Gérer les stratégies de conférence de Skype pour Business Server](../../manage/conferencing/conferencing-policies.md) <br/> [Gérer les paramètres de configuration dans Skype pour Business Server](../../manage/conferencing/meeting-configuration-settings.md) <br/> [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> [New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |
-   
+
 ## <a name="deployment-flowchart-and-checklist-for-dial-in-conferencing"></a>Organigramme de déploiement et liste de vérification pour la conférence rendez-vous
 <a name="BKMK_DialinConferencing"> </a>
 
  La conférence rendez-vous permet aux utilisateurs d’appeler à partir du réseau téléphonique commuté (RTC) pour rejoindre une conférence audio/vidéo.
-  
-Certains des composants requis pour la conférence rendez-vous sont également utilisés pour Enterprise Voice. Par exemple, si vous déployez Voix Entreprise, vous devez également déployer un serveur de médiation et des composants de passerelle RTC également obligatoires pour la conférence rendez-vous. La façon dont vous déployez la conférence rendez-vous varie par conséquent selon que vous déployez également une solution Voix Entreprise. 
-  
+
+Certains des composants requis pour la conférence rendez-vous sont également utilisés pour Enterprise Voice. Par exemple, si vous déployez Voix Entreprise, vous devez également déployer un serveur de médiation et des composants de passerelle RTC également obligatoires pour la conférence rendez-vous. La façon dont vous déployez la conférence rendez-vous varie par conséquent selon que vous déployez également une solution Voix Entreprise.
+
 Le diagramme de conférence rendez-vous montre les étapes que vous devez respecter selon que vous déployez également une solution Voix Entreprise. Le tableau qui suit le diagramme fournit une vue d’ensemble des étapes nécessaires et recommandées pour déployer la conférence rendez-vous. Des liens vers la documentation de procédure et de planification associée sont également inclus. Pour plus d’informations sur la planification d’une solution de voix entreprise, voir [planifier votre solution de voix entreprise dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
-  
+
 **Organigramme de conférence rendez-vous**
 
 ![Déploiement de l’organigramme de la conférence rendez-vous](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
-  
+
 **Liste de vérification de déploiement de la conférence rendez-vous**
 
 |**Phase**|**Étapes**|**Rôles et appartenances aux groupes**|**Documentation**|
@@ -78,9 +78,9 @@ Le diagramme de conférence rendez-vous montre les étapes que vous devez respec
 |**(Facultatif) Vérifier ou modifier les conditions relatives au code confidentiel de l’utilisateur (PIN).** <br/> |Utilisez Skype pour le panneau de configuration serveur Business ou Skype pour Business Server Management Shell pour afficher ou modifier la **Stratégie de code confidentiel**de la conférence. Vous pouvez spécifier une longueur de code confidentiel minimale, un nombre maximal de tentatives d’ouverture de session, une expiration du code confidentiel et si des modèles communs sont autorisés.  <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Gérer les stratégies de code confidentiel pour les conférences rendez-vous dans Skype pour Business Server](../../manage/conferencing/pin-policies.md) <br/> [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |
 |**(Facultatif) Modifier le mappage des clés des commandes DTMF** <br/> |Utilisez l’applet de commande **Set-CsDialinConferencingDtmfConfiguration** pour modifier les clés utilisées pour les commandes DTMF (dual-tone multifrequency), que les participants peuvent employer pour contrôler les paramètres de conférence (tels que Muet/Désactiver Muet et Verrouiller/Déverrouiller). <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Gérer le mappage des clés pour les commandes DTMF dans Skype pour Business Server](../../manage/conferencing/key-mapping-for-dtmf-commands.md) <br/> [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |
 |**(Facultatif) Modifier le comportement des annonces d’entrée et de sortie d’une conférence** <br/> |Utilisez l’applet de commande **Set-CsDialinConferencingConfiguration** pour modifier le mode de fonctionnement des annonces lorsque les participants accèdent ou quittent une conférence. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Gérer la participation à une conférence et de laisser des annonces dans Skype pour Business Server](../../manage/conferencing/join-and-leave-announcements.md) <br/> [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) <br/> |
-|**(Recommandé) Configurer des répertoires de conférence** <br/> |Utilisez l’applet de commande **New-CsConferenceDirectory** pour créer un répertoire de conférence tous les 999 utilisateurs dans le pool. <br/> |RTCUniversalServerAdmins  <br/> |[(Recommandé) Création d’annuaires de conférences](http://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
+|**(Recommandé) Configurer des répertoires de conférence** <br/> |Utilisez l’applet de commande **New-CsConferenceDirectory** pour créer un répertoire de conférence tous les 999 utilisateurs dans le pool. <br/> |RTCUniversalServerAdmins  <br/> |[(Recommandé) Création d’annuaires de conférences](https://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
 |**(Facultatif) Vérifier les paramètres de conférence rendez-vous** <br/> |Utilisez l’applet de commande **Get-CsDialinConferencingAccessNumber** pour rechercher des plans de numérotation présentant une région de conférence rendez-vous qui n’est pas utilisée par un numéro d’accès et les numéros d’accès sans affectation de région. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> Est CsHelpDesk  <br/> |[Configurer des conférences rendez-vous Skype pour Business Server](dial-in-conferencing.md) <br/> [Conférence rendez-vous test dans Skype pour Business Server](../../manage/conferencing/tests.md) <br/> [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps) <br/> |
 |**(Facultatif) Vérifier la conférence rendez-vous** <br/> |Utilisez l’applet de commande **Test-CsDialInConferencing** pour tester le fonctionnement des numéros d’accès pour le pool spécifié. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Conférence rendez-vous test dans Skype pour Business Server](../../manage/conferencing/tests.md) <br/> [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |
 |**(Facultatif) Accueillir les utilisateurs à la conférence rendez-vous et définir le code confidentiel initial** <br/> |Utilisez le script **Set-CsPinSendCAWelcomeMail** pour définir des codes confidentiels initiaux des utilisateurs et envoyer un message électronique de bienvenue qui contient le code confidentiel initial et un lien vers la page Paramètres de conférence rendez-vous. <br/> |RTCUniversalServerAdmins  <br/> |[Envoyer un message électronique de Bienvenue à distance en les utilisateurs de Skype pour Business Server](../../manage/conferencing/welcome-emails.md) <br/> |
-   
+
 

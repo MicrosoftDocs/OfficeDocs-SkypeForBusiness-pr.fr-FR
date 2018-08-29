@@ -1,5 +1,5 @@
 ---
-title: Bloqué des licences utilisateur pour diffusion de réunion Skype
+title: Licences d'utilisateur bloquées pour la diffusion de réunion Skype
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,52 +16,46 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: Malheureusement, il y a certaines licences utilisateur qui sont bloquées lorsque l’utilisateur accéder au https://broadcast.skype.com et souhaitez utiliser Skype réunion de diffusion. Si un utilisateur voit ce message, ils ont une des licences bloqués qui leur sont affectées. Si vous voulez les utiliser, les affecter une autre licence d’Office 365.
-ms.openlocfilehash: 536df828081fdda78b6a0079a53661a4b3276e3a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
-ms.translationtype: MT
+description: Malheureusement, certaines licences utilisateur sont bloquées lorsque l’utilisateur accède à https://broadcast.skype.com et veut utiliser la diffusion de réunion Skype. Si un utilisateur voit ce message, c'est que l'une des licences bloquées lui est attribuée. SI vous souhaitez cependant qu'il puisse utiliser la diffusion de réunion, vous devez lui attribuer une autre licence Office 365.
+ms.openlocfilehash: f7a7bb44a6de3cfaa5af282f855b0345f0a3ea76
+ms.sourcegitcommit: 2290f152ea13d87fb1fd70007fe19523184ce947
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19844598"
 ---
-# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Bloqué des licences utilisateur pour diffusion de réunion Skype
+# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Licences d'utilisateur bloquées pour la diffusion de réunion Skype
 
-Malheureusement, il y a certaines licences utilisateur qui sont bloqués lorsque les utilisateurs accèdent à https://broadcast.skype.com et souhaitez utiliser Skype réunion de diffusion. Si un utilisateur voit ce message, ils ont une des licences bloqués qui leur sont affectées. Si vous voulez les utiliser, les affecter une autre licence d’Office 365.
+Malheureusement, certaines licences utilisateur sont bloquées lorsque l’utilisateur accède à https://broadcast.skype.com et veut utiliser la diffusion de réunion Skype. Si un utilisateur voit ce message, c'est que l'une des licences bloquées lui est attribuée. SI vous souhaitez cependant qu'il puisse utiliser la diffusion de réunion, vous devez lui attribuer une autre licence Office 365.
   
- *« Votre stratégie d’entreprise ne vous permet pas d’utiliser la diffusion de réunion Skype. Vérifiez avec votre administrateur système pour vous assurer que le service est activé et que vous disposez de la bonne licence. »* 
+ *« La politique de votre société ne vous permet d’utiliser la diffusion de réunion Skype. Renseignez-vous auprès de votre administrateur système pour vous assurer que le service est activé et que vous disposez de la licence correcte. »* 
   
-## <a name="blocked-user-licenses"></a>Licences utilisateur bloqué
+## <a name="blocked-user-licenses"></a>Licences utilisateur bloquées
 
-Diffusion de réunion Skype sera bloquée si une des licences utilisateur suivantes sont affectée à un utilisateur.
+La diffusion de réunion Skype sera bloquée si l'une des licences utilisateur suivantes est attribuée à un utilisateur.
   
-- Fac de formation Office 365/personnel
+- Office 365 Éducation Fac/Personnel
     
-- Étudiant de formation Office 365
+- Office 365 Éducation Étudiant
     
-- Formation d’Office 365 Plus Fac/personnel
+- Office 365 Éducation Plus Fac/Personnel
     
-- Formation d’Office 365 Plus étudiant
+- Office 365 Éducation Plus Étudiant
     
-- Office 365 formation E1 Fac/personnel
+- Office 365 Éducation E1 Fac/Personnel
     
-- Office 365 formation E1 étudiant
+- Office 365 Éducation E1 Étudiant
     
-- E3 de formation Office 365 Fac/personnel
+- Office 365 Éducation E3 Fac/Personnel
     
-- Office 365 E3 Fac/équipes de formation des grands
+- Office 365 éducation E3 Fac/Personnel étendu
     
-- Office 365 éducation E3 étudiant
+- Office 365 Éducation E3 Étudiant
     
-- Avantages d’utiliser Office 365 A3 étudiant
+- Avantage d’utiliser Office 365 A1 étudiant
     
-- Avantages d’utiliser Office 365 A5 étudiant
-    
-- Office 365 A5 sans l’avantage d’utiliser RTPC conférence étudiant
-    
-- Avantages d’utilisation Microsoft 365 A3 étudiant
-    
-- Avantages d’utilisation Microsoft 365 A5 étudiant
-    
-- Avantages d’utilisation étudiant Microsoft 365 A5 sans les conférence PSTN
+- Avantages d’utiliser Microsoft 365 A1 étudiant
+
     
 ## <a name="related-topics"></a>Rubriques connexes
 

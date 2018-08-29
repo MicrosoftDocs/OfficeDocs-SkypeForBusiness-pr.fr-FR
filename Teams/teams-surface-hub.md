@@ -3,7 +3,7 @@ title: Déployer les équipes Microsoft Surface concentrateur
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/23/2018
+ms.date: 08/29/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7757f7d220ae58914a296e3dc3850179219b475
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 96eb92c45af065b5f09ab9312f79198377067c4a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981578"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246157"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer les équipes Microsoft Surface concentrateur
 ======================================
@@ -141,9 +141,6 @@ Une fois que vous avez terminé les étapes précédentes pour activer vos équi
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installer des équipes pour exposer Hub à partir du magasin de Microsoft 
 
-> [!NOTE]
-> Pour utiliser Microsoft Teams Surface Hub (Preview), votre périphérique doit être inscrits au programme initiés Windows. Pour quitter le programme internes, vous devez réinitialiser le concentrateur de Surface à l’aide de la récupération du nuage.<br> Pour devenir un membre du programme interne de Windows, le concentrateur de Surface doit être défini sur télémétrie complète avant de rejoindre le programme interne de Windows. En raison de la réglementation PIBR, les paramètres par défaut de la télémétrie Windows récemment changé depuis une sauvegarde complète de base dans l’Union européenne. Vous devez vérifier vos paramètres avant de rejoindre le programme interne de Windows. Tentative de rejoindre le programme interne de Windows lorsque la valeur base télémétrie peut nécessiter une réinitialisation du concentrateur de Surface. Pour valider les paramètres de télémétrie Windows sur un concentrateur de Surface, choisissez **paramètres** > **confidentialité** > **les commentaires et les Diagnostics**et la valeur **complète**.
-
 Ces instructions sont pour l’installation des équipes concentrateur de Surface à partir de Microsoft Store. 
  
 1. Démarrer la banque Microsoft :<br>
@@ -201,5 +198,3 @@ Utilisez ce qui suit pour configurer la stratégie par défaut les réunions et 
 
 Redémarrez le dispositif Hub de la surface d’exposition. Après le redémarrage de l’appareil, vous devez être en mesure de démarrer l’application des équipes à partir de l’écran d’accueil et participer à une réunion à partir du calendrier.
 
-> [!NOTE]
-> Si votre appareil ou périphériques de votre organisation n’appartiennent pas actuellement du programme interne Windows et que vous participez à pays couverts par général règlement de Protection des données (PIBR) (ou si vous avez modifié manuellement vos paramètres de télémétrie sur de base), vous devez renouveler vérifier que vous avez autorisé la télémétrie complète avant de participer à la programme initiés. PIBR modifié le comportement par défaut des périphériques Hub de la surface d’exposition dans l’Union européenne pour définir la télémétrie de base.

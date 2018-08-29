@@ -12,12 +12,12 @@ MS.collection: Strat_MT_TeamsAdmin
 description: Découvrez les différents modèles d'identité dans Microsoft Teams tels que Identité de cloud, Identité synchronisée, et Identité fédérée. Ce document contient également des informations sur l'authentification multifacteur.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc9c61938afe2173f5fe1326a0431d781144c7b
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
-ms.translationtype: MT
+ms.openlocfilehash: da61ca04e97670084a4df866c8bcfbe794343662
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "18999783"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248559"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modèles d’identité et authentification dans Microsoft Teams
 ==========================================
@@ -45,7 +45,7 @@ En fonction des décisions de votre organisation concernant l'implémentation et
 
 Reportez-vous aux guides [Choosing a sign-in model for Office 365 (Sélection d'un modèle d'authentification pour Office 365)](https://go.microsoft.com/fwlink/?linkid=854626) et [Présentation de l'identité Office 365 et d'Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) pour plus d'informations.
 
-<a name="multi-factor-authentication"></a>Authentification multifacteur 
+<a name="multi-factor-authentication"></a>Authentification multifacteur
 ----------------------------
 
 Les plans Office 365 prennent en charge l'authentification multifacteur (MFA) qui renforce la sécurité des connexions des utilisateurs aux services Office 365. Avec la MFA pour Office 365, les  utilisateurs doivent confirmer un appel téléphonique, un SMS ou une notification d'application sur leur smartphone après avoir saisi leur mot de passe. Ils pourront se connecter uniquement après avoir rempli ce second facteur d'authentification.
@@ -58,4 +58,4 @@ Une fois les utilisateurs inscrits pour la MFA, lors de leur prochaine connexion
 |Type de client  |Options de deuxième facteur de MFA disponibles  |Remarques  |
 |---------|---------|---------|
 |**Dans le cloud uniquement**     |MFA pour Office 365 <ul><li>Appel téléphonique</li><li>SMS</li><li>Notification d'application mobile</li><li>Code vérification d'application mobile</li></ul>        |[Planification de l'authentification multifacteur pour les déploiements Office 365](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**Configuration hybride (modèle d'identité synchronisée ou fédérée)**     |<ul><li>MFA pour Office 365</li><li>Module MFA pour Azure (services ADFS intégrés)</li><li>Carte à puce virtuelle ou physique (services ADFS intégrés)</li></ul>         |Note : D'autres solutions MFA sont disponibles auprès des [fournisseurs d'identité compatibles avec la fédération Azure AD](http://go.microsoft.com/fwlink/p/?LinkId=510953)         |
+|**Configuration hybride (modèle d'identité synchronisée ou fédérée)**     |<ul><li>MFA pour Office 365</li><li>Module MFA pour Azure (services ADFS intégrés)</li><li>Carte à puce virtuelle ou physique (services ADFS intégrés)</li></ul>         |Note : D'autres solutions MFA sont disponibles auprès des [fournisseurs d'identité compatibles avec la fédération Azure AD](https://go.microsoft.com/fwlink/p/?LinkId=510953)         |

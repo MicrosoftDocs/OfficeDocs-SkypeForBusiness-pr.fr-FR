@@ -13,23 +13,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: Skype pour Business Server 2015 prend en charge l’intégration avec Exchange messagerie unifiée (MU) pour la combinaison de messagerie vocale et messagerie électronique en une seule infrastructure de messagerie.
-ms.openlocfilehash: c14974905b777cfb0709ed0335d278f7be323ef8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d14c6fda42b96b76d3d96413ec25c7f2e45abdec
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005838"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23251858"
 ---
 # <a name="exchange-unified-messaging-planning-tool"></a>(Outil planification) messagerie unifiée Microsoft Exchange
- 
+
 Skype pour Business Server 2015 prend en charge l’intégration avec Exchange messagerie unifiée (MU) pour la combinaison de messagerie vocale et messagerie électronique en une seule infrastructure de messagerie.
-  
+
 Pour plus d’informations, consultez :
-  
-- [Planification pour Exchange Unified intégration de la messagerie](http://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
-    
+
+- [Planification pour Exchange Unified intégration de la messagerie](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
+
 - « La messagerie unifiée » à[https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)
-    
+
 - « Planification pour la messagerie unifiée » à [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344).
-    
+
 
