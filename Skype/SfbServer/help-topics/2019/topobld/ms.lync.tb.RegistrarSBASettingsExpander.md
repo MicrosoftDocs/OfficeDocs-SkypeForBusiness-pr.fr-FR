@@ -12,32 +12,32 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Modifier les paramètres de résilience et de configurer les propriétés suivantes :'
-ms.openlocfilehash: 83ad2a3bff1e305d3d8559c6244313ebf05f173f
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b4394ae2a7244ae818335bd7c4b21c6d8930f03d
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057201"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260670"
 ---
-# <a name="registrar-sba-settings-expander"></a><span data-ttu-id="eaaca-103">Expanseur des paramètres du serveur d’inscriptions SBA</span><span class="sxs-lookup"><span data-stu-id="eaaca-103">Registrar SBA Settings Expander</span></span>
- 
-<span data-ttu-id="eaaca-104">Modifier les paramètres de **résilience** et de configurer les propriétés suivantes :</span><span class="sxs-lookup"><span data-stu-id="eaaca-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
-  
-- <span data-ttu-id="eaaca-105">Sélectionnez le **pool de serveurs d’inscriptions de sauvegarde et de service utilisateur associé** dans la liste.</span><span class="sxs-lookup"><span data-stu-id="eaaca-105">Select **Associated User service and backup Registrar pool** from the list.</span></span>
-    
-    <span data-ttu-id="eaaca-106">Facultativement, activez la case à cocher **basculement automatique et restauration pour la voix** .</span><span class="sxs-lookup"><span data-stu-id="eaaca-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
-    
-    <span data-ttu-id="eaaca-107">Configurer l' **intervalle de détection de panne voix (s)** et l' **intervalle de la restauration de voix (s)**.</span><span class="sxs-lookup"><span data-stu-id="eaaca-107">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**.</span></span> <span data-ttu-id="eaaca-108">Par défaut, les intervalles sont 120 pour détecter une défaillance voix et 240 secondes pour la restauration automatique de la voix.</span><span class="sxs-lookup"><span data-stu-id="eaaca-108">By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
-    
-    > [!CAUTION]
-    > <span data-ttu-id="eaaca-109">Le nombre de secondes que vous définissez pour les intervalles de basculement et de restauration doit être testé avec soin pour vous assurer que la résilience fonctionne comme prévu.</span><span class="sxs-lookup"><span data-stu-id="eaaca-109">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected.</span></span> <span data-ttu-id="eaaca-110">Définir l’intervalle à faible (autrement dit, moins de 120 secondes) ou le basculement et la restauration définir trop près peuvent entraîner le basculement réel et la restauration automatique ne fonctionne ne pas comme prévu.</span><span class="sxs-lookup"><span data-stu-id="eaaca-110">Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span> 
-  
- <span data-ttu-id="eaaca-111">**OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="eaaca-111">**OK** Accepts and commits changes to the dialog.</span></span>
-  
- <span data-ttu-id="eaaca-112">**Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="eaaca-112">**Cancel** Discards changes and closes the dialog.</span></span>
-  
- <span data-ttu-id="eaaca-113">**Aide** : permet d’afficher cet écran d’aide.</span><span class="sxs-lookup"><span data-stu-id="eaaca-113">**Help** Displays this help screen.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="eaaca-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="eaaca-114">See also</span></span>
+# <a name="registrar-sba-settings-expander"></a><span data-ttu-id="af2f9-103">Expanseur des paramètres du serveur d’inscriptions SBA</span><span class="sxs-lookup"><span data-stu-id="af2f9-103">Registrar SBA Settings Expander</span></span>
 
-[<span data-ttu-id="eaaca-115">Planification de voix Entrerprise</span><span class="sxs-lookup"><span data-stu-id="eaaca-115">Planning for Enterprise Voice Resiliency</span></span>](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+<span data-ttu-id="af2f9-104">Modifier les paramètres de **résilience** et de configurer les propriétés suivantes :</span><span class="sxs-lookup"><span data-stu-id="af2f9-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
+
+- <span data-ttu-id="af2f9-105">Sélectionnez le **pool de serveurs d’inscriptions de sauvegarde et de service utilisateur associé** dans la liste.</span><span class="sxs-lookup"><span data-stu-id="af2f9-105">Select **Associated User service and backup Registrar pool** from the list.</span></span>
+
+    <span data-ttu-id="af2f9-106">Facultativement, activez la case à cocher **basculement automatique et restauration pour la voix** .</span><span class="sxs-lookup"><span data-stu-id="af2f9-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
+
+    <span data-ttu-id="af2f9-107">Configurer l' **intervalle de détection de panne voix (s)** et l' **intervalle de la restauration de voix (s)**.</span><span class="sxs-lookup"><span data-stu-id="af2f9-107">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**.</span></span> <span data-ttu-id="af2f9-108">Par défaut, les intervalles sont 120 pour détecter une défaillance voix et 240 secondes pour la restauration automatique de la voix.</span><span class="sxs-lookup"><span data-stu-id="af2f9-108">By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
+
+    > [!CAUTION]
+    > <span data-ttu-id="af2f9-109">Le nombre de secondes que vous définissez pour les intervalles de basculement et de restauration doit être testé avec soin pour vous assurer que la résilience fonctionne comme prévu.</span><span class="sxs-lookup"><span data-stu-id="af2f9-109">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected.</span></span> <span data-ttu-id="af2f9-110">Définir l’intervalle à faible (autrement dit, moins de 120 secondes) ou le basculement et la restauration définir trop près peuvent entraîner le basculement réel et la restauration automatique ne fonctionne ne pas comme prévu.</span><span class="sxs-lookup"><span data-stu-id="af2f9-110">Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span>
+
+ <span data-ttu-id="af2f9-111">**OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="af2f9-111">**OK** Accepts and commits changes to the dialog.</span></span>
+
+ <span data-ttu-id="af2f9-112">**Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="af2f9-112">**Cancel** Discards changes and closes the dialog.</span></span>
+
+ <span data-ttu-id="af2f9-113">**Aide** : permet d’afficher cet écran d’aide.</span><span class="sxs-lookup"><span data-stu-id="af2f9-113">**Help** Displays this help screen.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="af2f9-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="af2f9-114">See also</span></span>
+
+[<span data-ttu-id="af2f9-115">Planification de voix Entrerprise</span><span class="sxs-lookup"><span data-stu-id="af2f9-115">Planning for Enterprise Voice Resiliency</span></span>](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

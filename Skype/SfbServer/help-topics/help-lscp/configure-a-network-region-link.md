@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 2f59f3fa54e059e244e0f38c4343538daadd396c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 04e22ad74aeaf777b9a082fabd9ea27f327b0ffb
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977184"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23262903"
 ---
-# <a name="configure-a-network-region-link"></a><span data-ttu-id="26263-104">Configurer un lien de région réseau</span><span class="sxs-lookup"><span data-stu-id="26263-104">Configure a Network Region Link</span></span>
- 
-<span data-ttu-id="26263-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="26263-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="26263-107">Configuration des liens de région réseau</span><span class="sxs-lookup"><span data-stu-id="26263-107">Configuring Network Region Links</span></span>](http://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
-    
-<span data-ttu-id="26263-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="26263-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+# <a name="configure-a-network-region-link"></a><span data-ttu-id="038c3-104">Configurer un lien de région réseau</span><span class="sxs-lookup"><span data-stu-id="038c3-104">Configure a Network Region Link</span></span>
+
+<span data-ttu-id="038c3-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="038c3-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="038c3-107">Configuration des liens de région réseau</span><span class="sxs-lookup"><span data-stu-id="038c3-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+
+<span data-ttu-id="038c3-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="038c3-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
