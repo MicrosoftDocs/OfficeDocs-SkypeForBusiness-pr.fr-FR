@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Cet article plans les applets de commande qui offrent des administrateurs plus de contrôle des méthodes d’authentification utilisée à l’intérieur et en dehors d’une entreprise. Les administrateurs peuvent activer des méthodes d’authentification soit désactivée en interne ou externe à leur réseau.
-ms.openlocfilehash: d460632d810eace4a6b43665d1d8e3335e3eae3c
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 2922d270f7a033a1523083ed15adefc5fb5f331d
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546556"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485805"
 ---
 # <a name="turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Désactiver les méthodes d’authentification Legacy internes et externes à votre réseau.
 
@@ -59,7 +59,7 @@ __Tapez 1 Description :__ Il s’agit de la valeur par défaut __scénario lors
 
 __Description du type 2 :__ Cette topologie bloque NTLM *en externe*, tout en autorisant NTLM ou Kerberos (pour les clients qui ne prennent pas en charge ADAL) fonctionne *en interne*. Si vos clients ne prennent pas en charge ADAL ils utiliseront MA en interne.
 
-__Description du type 3 :__ Cette topologie nécessite un agent de gestion pour tous les utilisateurs. Tous les clients compatibles ADAL fonctionneront dans cette topologie, et les mots de passe ne seront pas exploitées.
+__Description du type 3 :__ Cette topologie nécessite un agent de gestion pour tous les utilisateurs. Tous les clients compatibles ADAL fonctionneront dans cette topologie, et les mots de passe ne seront pas exploitées si, par exemple, vous désactivez l’utilisation de mots de passe avec l’authentification basée sur certificat
 
 __Description du type 4 :__ Cette topologie bloque NTLM *en externe* et MA en interne. Il permet à *tous les clients* à utiliser l’authentification hérité méthodes *en interne* (même compatibles ADAL clients).
 

@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lisez cette rubrique pour en savoir plus sur la gestion des systèmes de salle Skype v2, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: d8dfb5c04d73717e8f20352c6cb422498f5a9b34
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: ae5f8537db63aac74adbcdc8ec13cb7aaa44ad77
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "19179286"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485791"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Opérations et maintenance v2 de systèmes de salle de Skype 
  
@@ -57,7 +57,7 @@ Si v2 Skype salle systèmes ne fonctionne pas correctement, effectuer une réini
 Le tableau suivant récapitule les opérations distantes possibles et les méthodes que vous pouvez utiliser pour les accomplir.
   
 
-|**Groupe de travail**|**Pas joint au domaine**|**Joint au domaine**|
+|**Groupe de travail **|**Aucun domaine joint**|**Domaine joint**|
 |:-----|:-----|:-----|
 |Redémarrer  <br/> |Bureau distant  <br/> Powershell distant  <br/> |Bureau à distance (nécessite une configuration supplémentaire)  <br/> Powershell distant (nécessite une configuration supplémentaire)  <br/> SCCM  <br/> |
 |Mise à jour du SE  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
@@ -73,9 +73,9 @@ Cette section traite des paramètres système qui dépend de systèmes de salle 
 
 |**Paramètre**|**Permet de**|
 |:-----|:-----|
-|	HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (dword) 1  <br/> |V2 de systèmes de salle Skype permet de démarrer  <br/> |
+|HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (REG_SZ) 1  <br/> |V2 de systèmes de salle Skype permet de démarrer  <br/> |
 |Gestion - de l’alimentation\> sur CA, désactiver écran au bout de 10 minutes  <br/> Gestion - de l’alimentation\> sur CA, placez jamais système en mode veille  <br/> |Permet de systèmes de salle Skype v2 activer affiche attaché et réactiver automatiquement  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.  <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
+|net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.   <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
    
 Transfert de fichiers à l’aide de stratégies de groupe est traitée dans [un élément de fichier de configuration](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
   
