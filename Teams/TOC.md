@@ -69,6 +69,40 @@
 
 
 <!-- ============================================================ -->
+# [Mise à niveau à partir de Skype pour les entreprises aux équipes](Journey-SkypeforBusiness-Teams.md)
+## [Didacticiel : Transition de Skype Entreprise à Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Mise à niveau de base](upgrade-basic.md)
+### [Enquêtes et e-mails exemples](upgrade-emails-surveys.md)
+## [Mise à niveau des professionnels de l’informatique](upgrade-pro.md)
+## [Planifier votre voyage au pays de mise à niveau](upgrade-plan-journey.md)
+### [Inscrire les parties prenantes du projet](upgrade-enlist-stakeholders.md)
+### [Définir l’étendue de votre projet](upgrade-define-project-scope.md)
+### [Comprendre l’interopérabilité et coexistence](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Choisissez votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Prévoir la qualité](upgrade-plan-for-quality.md)
+## [Préparer votre environnement pour les équipes](upgrade-prepare-environment.md)
+### [Préparation du personnel informatique pour les équipes](upgrade-prepare-IT-pros.md)
+### [Conditions requises](upgrade-plan-journey-prerequisites.md)
+### [Évaluer l’environnement](upgrade-plan-journey-evaluate-environment.md)
+### [Préparer votre réseau](upgrade-prepare-environment-prepare-network.md)
+### [Préparer votre service](upgrade-prepare-environment-prepare-service.md)
+## [Préparation de votre organisation pour les équipes](upgrade-prepare-organization.md)
+### [Évaluer la préparation de la modification de l’organisation](upgrade-org-change-readiness.md)
+### [Préparation d’un plan de préparation des utilisateurs](upgrade-user-readiness.md)
+## [Réaliser un pilote d’utilisateur](pilot-essentials.md)
+## [Effectuer la mise à niveau pour les équipes](upgrade-to-teams.md)
+### [Mise à niveau à partir de Skype pour les entreprises en ligne aux équipes](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Mise à niveau à partir de Skype pour un environnement hybride Business équipes](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+### [Mise à niveau à partir de Skype pour l’entreprise locale aux équipes](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+## [Valeur de lecteur par le biais d’adoption d’utilisateur](continue-journey.md)
+### [Utiliser votre service](upgrade-operate-my-service.md)
+### [Contrôler la qualité](upgrade-monitor-quality.md)
+### [Améliorer votre service](upgrade-enhance-my-service.md)
+## [FAQ](FAQ-journey.md)
+
+<!-- ============================================================ -->
+
+<!-- ============================================================ -->
 # Gérer
 ## [Qualité de consulter le Guide de l’expérience](quality-of-experience-review-guide.md)
 <!--## Call analytics
@@ -102,40 +136,6 @@
 ## [Vidéos - Audioconférence dans Teams](audio-conferencing-videos.md)
 <!-- ============================================================ -->
 
-
-<!-- ============================================================ -->
-# [Mise à niveau de Skype pour les entreprises aux équipes de Microsoft](Journey-SkypeforBusiness-Teams.md)
-## [Didacticiel : Transition de Skype Entreprise à Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Mise à niveau de base](upgrade-basic.md)
-### [Enquêtes et e-mails exemples](upgrade-emails-surveys.md)
-## [Mise à niveau des professionnels de l’informatique](upgrade-pro.md)
-## [Planifier votre voyage au pays de mise à niveau](upgrade-plan-journey.md)
-### [Inscrire les parties prenantes du projet](upgrade-enlist-stakeholders.md)
-### [Définir l’étendue de votre projet](upgrade-define-project-scope.md)
-### [Comprendre l’interopérabilité et coexistence](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [Choisissez votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Prévoir la qualité](upgrade-plan-for-quality.md)
-## [Préparer votre environnement pour les équipes](upgrade-prepare-environment.md)
-### [Préparation du personnel informatique pour les équipes](upgrade-prepare-IT-pros.md)
-### [Conditions requises](upgrade-plan-journey-prerequisites.md)
-### [Évaluer l’environnement](upgrade-plan-journey-evaluate-environment.md)
-### [Préparer votre réseau](upgrade-prepare-environment-prepare-network.md)
-### [Préparer votre service](upgrade-prepare-environment-prepare-service.md)
-## [Préparation de votre organisation pour les équipes](upgrade-prepare-organization.md)
-### [Évaluer la préparation de la modification de l’organisation](upgrade-org-change-readiness.md)
-### [Préparation d’un plan de préparation des utilisateurs](upgrade-user-readiness.md)
-## [Réaliser un pilote d’utilisateur](pilot-essentials.md)
-## [Effectuer la mise à niveau pour les équipes](upgrade-to-teams.md)
-### [Mise à niveau à partir de Skype pour les entreprises en ligne aux équipes](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-### [Mise à niveau à partir de Skype pour un environnement hybride Business équipes](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [Mise à niveau à partir de Skype pour l’entreprise locale aux équipes](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
-## [Valeur de lecteur par le biais d’adoption d’utilisateur](continue-journey.md)
-### [Utiliser votre service](upgrade-operate-my-service.md)
-### [Contrôler la qualité](upgrade-monitor-quality.md)
-### [Améliorer votre service](upgrade-enhance-my-service.md)
-## [FAQ](FAQ-journey.md)
-
-<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Sécurité et conformité
@@ -270,7 +270,7 @@
 #### [Différents types de numéros de téléphone utilisés pour les offres d'appel](/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Obtenir des numéros de téléphone pour vos utilisateurs](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Combien de numéros de téléphone pouvez-vous obtenir ?](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Gérer les numéros de téléphone de votre organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Gérer des numéros de téléphone pour votre entreprise](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Rechercher des numéros de téléphone pour les utilisateurs](/SkypeForBusiness/what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Afficher la liste des numéros de téléphone de votre organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Définir votre code confidentiel pour transférer des numéros vers un nouveau fournisseur de service](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
