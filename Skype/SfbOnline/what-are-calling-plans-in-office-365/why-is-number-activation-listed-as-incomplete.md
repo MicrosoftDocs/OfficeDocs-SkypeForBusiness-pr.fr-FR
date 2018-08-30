@@ -1,5 +1,5 @@
 ---
-title: Pourquoi l’activation numérique est répertoriée comme incomplète ?
+title: Pourquoi l’activation de numéro est-elle indiquée comme étant incomplète ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,15 +20,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: e18d7562c39f18b07022f2670fd7284e5362a702
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: a62fe50b56edd63490a7c1ba9579b2e5b16a7255
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780844"
 ---
-# <a name="why-is-number-activation-listed-as-incomplete"></a>Pourquoi l’activation numérique est répertoriée comme incomplète ?
+# <a name="why-is-number-activation-listed-as-incomplete"></a>Pourquoi l’activation de numéro est-elle indiquée comme étant incomplète ?
 
-La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Si pour une raison quelconque, un numéro de téléphone n’est pas activé et est répertorié comme **incomplète** en raison de la validation de l’adresse, vous devez créer et soumettre une demande de service. La procédure dépend de la taille de votre organisation.
+La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Si pour une raison quelconque, un numéro de téléphone n’est pas activé et est répertorié comme **incomplète** en raison de la validation des adresses, vous devez créer et soumettre une demande de service. La procédure dépend de la taille de votre organisation.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Pour les organisations comprenant 150 personnes au maximum, suivez la procédure suivante
 1. Dans le **Centre d'administration d'Office 365**, sélectionnez **Besoin d'aide ?**
@@ -98,13 +99,13 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
 
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
+[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

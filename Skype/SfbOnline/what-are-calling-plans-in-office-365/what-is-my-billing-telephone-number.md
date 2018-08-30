@@ -1,5 +1,5 @@
 ---
-title: Quel est mon numéro de téléphone de facturation ?
+title: Qu’est-ce que mon numéro de téléphone de facturation ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,31 +19,32 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoBTN
 ms.custom:
 - Calling Plans
-description: Découvrez ce qui est votre Skype pour entreprise, numéro de téléphone de facturation et où aller pour obtenir des instructions étape par étape comment transférer un numéro.
-ms.openlocfilehash: 498ccb436adb181aa1399c9643dcaf52f3884663
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: Découvrez quel est votre Skype pour les entreprises, numéro de téléphone de facturation et où aller pour obtenir des instructions étape par étape comment transférer un nombre.
+ms.openlocfilehash: e73a8d003d3be6b14aaacc36fe0c9a8b3f4159b1
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780928"
 ---
-# <a name="what-is-my-billing-telephone-number"></a>Quel est mon numéro de téléphone de facturation ?
+# <a name="what-is-my-billing-telephone-number"></a>Qu’est-ce que mon numéro de téléphone de facturation ?
 
-Le numéro de téléphone de facturation (BTN) est le numéro de téléphone principal qui est inclus dans votre facture et facturé par votre fournisseur de services ou le transporteur. Si vous transférez un numéro de téléphone à partir d’un compte qui possède un seul numéro de téléphone, vous devez placer ce numéro de téléphone dans. Si vous transférez des numéros de téléphone à partir d’un compte qui dispose de plus d’un, vous pouvez consulter votre facture ou contactez votre fournisseur de services ou le transporteur pour déterminer le numéro de téléphone de facturation de votre compte.
+Le numéro de téléphone de facturation (bouton) est le numéro de téléphone qui est inclus dans votre facture et facturé par votre fournisseur de services ou votre opérateur. Si vous transférez un numéro de téléphone à partir d’un compte qui ne dispose qu’un seul numéro de téléphone, vous devez placer ce numéro de téléphone dans. Si vous transférez à partir d’un compte possédant plusieurs numéros de téléphone, vous pouvez consulter votre facture ou contactez votre fournisseur de services ou un opérateur pour déterminer quel est le numéro de téléphone de facturation pour votre compte.
   
- **Pour des instructions complètes, voir [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md).**
+ **Pour obtenir des instructions complètes, voir [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
+[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
