@@ -1,5 +1,5 @@
 ---
-title: Activer ou désactiver l’entrée et quitter des annonces pour les réunions dans Skype pour Business en ligne
+title: Activer ou désactiver les annonces d’entrée et de sortie des réunions dans Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,35 +18,35 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: d6d1b70713ac0cd7a38f7de9cb84f0acb54cbe30
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
-ms.translationtype: MT
+description: "Découvrez comment activer et désactiver les annonces d'entrée et de sortie d'une réunion Skype Entreprise Online en utilisant centre d'administration Skype Entreprise. "
+ms.openlocfilehash: 874624c3d7cfb184f4206f61cf2a91a67eb2e2cd
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490484"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779034"
 ---
-# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>Activer ou désactiver l’entrée et quitter des annonces pour les réunions dans Skype pour Business en ligne
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>Activer ou désactiver les annonces d’entrée et de sortie des réunions dans Skype Entreprise Online
 
 > [!Note]
-> Pour plus d’informations sur les annonces d’entrée et de sortie dans Microsoft Teams, voir [Activer ou désactiver les annonces d’entrée et de sortie pour les réunions dans les équipes Microsoft](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams).
+> Pour plus d’informations sur les annonces d’entrée et de sortie dans Microsoft Teams, voir [Activer ou désactiver les annonces d’entrée et de sortie des réunions dans Microsoft Teams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams).
 
-Lorsque vous configurez les services d’audioconférence dans Office 365, vous obtenez un pont de conférence audio. Un pont de conférence peut contenir un ou plusieurs numéros de téléphone que personnes utilisera pour appeler un Skype pour une réunion d’affaires. 
+Lorsque vous configurez les services d’audioconférence dans Office 365, vous obtenez un pont d'audioconférence. Un pont de conférence peut contenir un ou plusieurs numéros de téléphone que les personnes pourront utiliser pour rejoindre une réunion Skype Entreprise. 
   
-Le pont de conférence répond à un appel d’un utilisateur qui est qui se connectent à une réunion à l’aide d’un téléphone. Le pont de conférence répond à l’appelant à invites vocales à partir d’un standard automatique de conférence et, en fonction de vos paramètres, peut diffuser les notifications, poser aux appelants à enregistrer leur nom et configurer la sécurité du code confidentiel. Un code confidentiel est attribué à un Skype pour l’organisateur de la réunion, et vous permet de démarrer une réunion si elles ne peut pas démarrer la réunion à l’aide de la Skype pour l’application de gestion. Vous pouvez, toutefois, l’afin qu’un code confidentiel n’est pas nécessaire de démarrer une réunion.
+Le pont de conférence répond à l'appel d’un utilisateur se connectant à une réunion à l’aide de son téléphone. Le pont de conférence répond en utilisant une invite vocale à partir d'un standard automatique, puis, selon vos paramètres, propose des notifications, demande aux appelants d'enregistrer leur nom et fixe la sécurité par code confidentiel. Un code confidentiel est attribué à l'organisateur de la réunion Skype Entreprise et permet de démarrer une réunion s'il lui est impossible de démarrer la réunion en utilisant l'application Skype Entreprise. Vous pouvez toute fois le régler pour qu'aucun code confidentiel ne soit nécessaire pour débuter une réunion.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>Définir les options de participation à une réunion
     
-1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **paramètres de pont de Microsoft**.
+1. Dans le **Centre d'administration Skype Entreprise**, dans le volet de navigation de gauche, allez à **Audioconférence** > **Paramètres de pont Microsoft**.
     
-2. Sous **l’expérience de participation aux réunions**, activez ou désactivez **Activer l’accès à la réunion et quitter des notifications à être activée**. Cette fonctionnalité est sélectionnée par défaut. Si vous la désactivez, les utilisateurs qui ont déjà joint la réunion ne sera pas avertis lorsque quelqu'un rejoint ou quitte la réunion.
+2. Sous **Expérience de participation aux réunions**, activez ou désactivez **Activer les notifications d'entrée et de sortie de la réunion**. Cette fonctionnalité est sélectionnée par défaut. Si vous la désactivez, les utilisateurs qui ont déjà rejoint la réunion ne seront pas avertis lorsque quelqu'un rejoindra ou quittera la réunion.
     
-3. Sous **type d’entrée/sortie annonce**, sélectionnez les **noms ou les numéros de téléphone** ou des **tonalités**.
+3. Sous **Type d'annonce d’entrée/sortie**, sélectionnez **Noms ou numéros de téléphone** ou **Tonalités**.
     
-4. Activez ou désactivez **les appelants Ask à enregistrer leur nom avant de participer à la réunion**.
+4. Activez ou désactivez **Demander aux appelants d'enregistrer leur nom avant de participer à la réunion**.
     
 5. Une fois que vous avez effectué vos modifications, cliquez sur **Enregistrer**.
     
@@ -57,11 +57,11 @@ Le pont de conférence répond à un appel d’un utilisateur qui est qui se con
     
 -  Skype Entreprise Online est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 avec un seul point d'administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
-  - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Six raisons d'utiliser Windows PowerShell pour gérer Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Six raisons d'utiliser Windows PowerShell pour gérer Office 365](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell présente de nombreux avantages dans vitesse, la simplicité et la productivité sur qu’à l’aide du centre d’administration Office 365 tels que lorsque vous modifiez les paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell offre de nombreux avantages en termes de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 seul, par exemple lorsque vous désirez effectuer des modifications de paramètres pour un grand nombre d'utilisateurs. Découvrez ces avantages dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -74,4 +74,4 @@ Le pont de conférence répond à un appel d’un utilisateur qui est qui se con
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Questions fréquentes à propos de l'audioconférence](audio-conferencing-common-questions.md)
+[Questions fréquentes à propos de l'audioconférence](/MicrosoftTeams/audio-conferencing-common-questions)
