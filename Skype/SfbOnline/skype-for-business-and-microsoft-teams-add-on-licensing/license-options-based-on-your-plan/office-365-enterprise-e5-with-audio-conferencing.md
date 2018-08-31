@@ -1,5 +1,5 @@
 ---
-title: Office 365 Entreprise E5
+title: Office 365 Entreprise E5
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,20 +19,21 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Découvrez comment acheter pour les plans Office 365 pour entreprises, des fonctionnalités et des licences supplémentaires. '
-ms.openlocfilehash: 3749d16c1dc518133a0ab0f17f3814301660fbe2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: 'En savoir plus sur les licences de modules complémentaires, les fonctionnalités et comment souscrire à des forfaits pour Office 365 Entreprise. '
+ms.openlocfilehash: 3138b8888468ffdfc3e91f381edc3e18fa18e465
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780648"
 ---
-# <a name="office-365-enterprise-e5"></a>Office 365 Entreprise E5
+# <a name="office-365-enterprise-e5"></a>Office 365 Entreprise E5
 
-Le plan [Office 365 entreprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) inclut la plupart des Skype pour les fonctionnalités d’entreprise et Teams Microsoft. Quelques options supplémentaires ont été ajoutées.
+Le forfait [Office 365 Entreprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) inclut la plupart des fonctionnalités Skype Entreprise et Microsoft Teams. Quelques options supplémentaires ont été ajoutées.
   
 |||
 |:-----|:-----|
-|**Pour ajouter cette fonctionnalité** <br/> |**Voici les compléments que vous devez acheter :** <br/> |
-|**Conférence audio est incluse !** <br/> |Une fois que vous achetez la licence, Microsoft sera à votre fournisseur de services d’audioconférence.  <br/> |
-|**Numéros gratuits pour l’accès entrant à vos réunions et la possibilité d’effectuer des appels sortants à partir d’une réunion pour ajouter une personne en appelant le numéro de téléphone dans le monde.** <br/> |[Communications générique](../set-up-communications-credits-for-your-organization.md)|
-|**Système téléphonique et la messagerie vocale est inclus !** <br/> |Plans d’appel : acheter un [Appel de la planification](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md) d’Office 365. <br/>  Ou bien, utilisez le [service de téléphone à partir de votre fournisseur existant](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing). |
+|**Pour ajouter cette fonctionnalité** <br/> |**Voici ce que vous devez acheter** <br/> |
+|**L’audioconférence est incluse !** <br/> |Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence.  <br/> |
+|**Les numéros gratuits pour une connexion téléphonique à vos réunions et la possibilité d’appels sortants à partir d’une réunion pour ajouter une personne en appelant n’importe quel numéro dans le monde.** <br/> |[Crédits de communication](/microsoftteams/set-up-communications-credits-for-your-organization)|
+|**Le système téléphonique et la messagerie vocale sont inclus !** <br/> |Forfaits d’appels : acheter un [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365) d’Office 365. <br/>  Ou bien, utilisez le [service de téléphone de votre fournisseur existant](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing). |
