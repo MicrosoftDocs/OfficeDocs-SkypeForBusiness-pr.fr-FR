@@ -2,8 +2,8 @@
 title: Gérer l’offre d’évaluation de Cloud Microsoft équipes commerciales
 author: ChuckEdmonson
 ms.author: chucked
-manager: lolaj
-ms.date: 07/24/2018
+manager: serdars
+ms.date: 08/31/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,17 +11,20 @@ ms.service: msteams
 localization_priority: Normal
 description: Les utilisateurs Office 365 qui ne sont pas une licence de Microsoft Teams peuvent lancer une version d’évaluation de 1 an d’équipes.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 23d36f161b19af18ff379c2a929ea5b701b8cc6b
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 67463a7014f4060baadb8348f8d12347f0166d34
+ms.sourcegitcommit: a601dbd212ea483e4b7bfac27674d9d8e92e3a2a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068922"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "23790914"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’évaluation de Cloud Microsoft équipes commerciales
 =======================================================
 
 Microsoft Teams est un excellent outil de collaboration pour votre organisation. Il permet aux personnes et aux équipes de discuter, innover et partager des idées à l’aide de la puissance d’Office 365. Les équipes commerciales Cloud version d’évaluation Microsoft offre Office 365 les utilisateurs existants dans votre organisation qui ne sont pas une licence de Microsoft Teams initier une version d’évaluation de 1 an du produit. Administrateurs ont la possibilité d’activer ou désactiver cette fonctionnalité pour les utilisateurs au sein de leur client.
+
+> [!NOTE]
+> Cette offre n’est pas disponible publiquement, mais présentant le mois suivant.
 
 ## <a name="whats-in-the-offer"></a>Nouveautés de l’offre
 
