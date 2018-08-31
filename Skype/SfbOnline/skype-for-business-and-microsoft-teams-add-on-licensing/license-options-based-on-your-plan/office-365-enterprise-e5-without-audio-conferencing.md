@@ -1,5 +1,5 @@
 ---
-title: Office 365 entreprise E5 (sans les services d’audioconférence)
+title: Office 365 Enterprise E5 (sans audioconférence)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,21 +19,21 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Découvrez comment acheter pour les plans Office 365 pour entreprises (sans audioconférence), des fonctionnalités et des licences supplémentaires. '
-ms.openlocfilehash: 8cb7898571f470b0737e20b2f6816e803d246d10
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: 'Découvrez les licences additionnelles, les fonctionnalités et comment acquérir des plans Office 365 Entreprise (sans audioconférence). '
+ms.openlocfilehash: a601a6c617a40d1e34acef0a90fca9c69ffbd90e
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245028"
 ---
-# <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 entreprise E5 (sans les services d’audioconférence)
+# <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5 (sans audioconférence)
 
-Si vous avez déjà acheté le plan Office 365 entreprise E5 (sans audioconférence), voici le Skype pour professionnels et Microsoft Teams licences supplémentaires que vous devez acheter pour obtenir davantage de fonctionnalités.
-  
+Si vous avez déjà acheté un forfait Office 365 Entreprise E5 (sans audioconférence), voici les licences additionnelles Skype Entreprise et Microsoft Teams que vous devez acheter pour obtenir plus de fonctionnalités.
+
 |||
 |:-----|:-----|
-|**Pour ajouter cette fonctionnalité** <br/> |**Voici les compléments que vous devez acheter :** <br/> |
-|**Audioconférence** <br/> | Pour obtenir ce complément, procédez comme suit : <br/><br/> 1. Si vous avez déjà acheté un plan E5, mais la fonctionnalité de conférence Audio n’est pas disponible dans votre pays ou région, vous devrez utiliser un fournisseur de services d’audioconférence tiers. Trouver un fournisseur de services d’audioconférence tiers à [Microsoft lever](https://go.microsoft.com/fwlink/?LinkId=797530).  <br/><br/>  Consultez cet article pour voir si la conférence Audio est disponible dans votre pays ou région : [pays et aux régions disponibilité pour la conférence Audio et des Plans de l’appel](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) <br/><br/> 2. Si elle est disponible, utilisez le [commutateur plans bouton](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a) déplacer vers le E5 de contenu d’entreprise Office 365 qui inclut. Vous obtiendrez également davantage de fonctionnalités ! <br/> |
-|**Système téléphonique est inclus !** <br/> | Plans d’appel : acheter un [Appel de la planification](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md) d’Office 365. <br/>  Ou bien, utilisez le [service de téléphone à partir de votre fournisseur existant](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Messagerie vocale du système téléphonique est inclus !** <br/> |Vous n’avez rien d’autre.  <br/> |
-   
+|**Pour ajouter cette fonctionnalité** <br/> |**Voici ce que vous devez acheter** <br/> |
+|**Audioconférence** <br/> | Pour obtenir ce complément, procédez comme suit : <br/><br/> 1. Si vous avez déjà acheté un forfait E5 mais que la fonctionnalité audioconférence n’est pas disponible pour votre pays ou votre région, vous devrez utiliser un fournisseur tiers d’audioconférence. Trouver un fournisseur tiers d’audioconférence sur [Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530).  <br/><br/>  Consultez cet article pour voir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité des offres d’appels et d’audioconférence selon les régions et les pays](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) <br/><br/> 2. Si elle est disponible, utilisez le [Bouton de changement de forfait](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a) pour passer à Office 365 Entreprise E5 qui l’inclut. Vous obtiendrez également davantage de fonctionnalités ! <br/> |
+|**Le système téléphonique est inclus !** <br/> | Forfaits d’appels : acheter un [Forfait d’appels](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md) d’Office 365. <br/>  Ou bien, utilisez le [service de téléphone de votre fournisseur existant](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|**La messagerie vocale du système téléphonique est incluse !** <br/> |Vous n’avez besoin de rien d'autre.  <br/> |
