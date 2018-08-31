@@ -1,0 +1,52 @@
+---
+title: Restrictions d’appel gratuit dans Mexique
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: mikedav, oscarr
+ms.topic: article
+ms.assetid: 576e0cc3-0a1a-43bf-a6fc-3a28e47ecd58
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: None
+ms.custom:
+- Calling Plans
+description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
+ms.openlocfilehash: 141cf85df7528c4b5140bbfc86bcbaae13f694dc
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23783301"
+---
+# <a name="toll-free-dialing-restrictions-in-mexico"></a>Restrictions d’appel gratuit dans Mexique
+
+[Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.
+
+
+|**Détails**|**Description**|
+|:-----|:-----|
+|Est gratuit appelant disponibles ?  <br/> |Oui  <br/> |
+|Formats de numérotation  <br/> | 001 800 XXX XXXX <br/>  01 800 XXX XXXX <br/> |
+|Code de pays/région ISO  <br/> |MX  <br/> |
+|Île/territoire couvert  <br/> |Non applicable  <br/> |
+|Île/territoire non couvert  <br/> |Non applicable  <br/> |
+|Disponibilité de la ligne filaire/fixe  <br/> |Partiel. Voir les commentaires.  <br/> |
+|Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
+|Commentaires, les restrictions et les problèmes d’accès  <br/> |L'accès n'est pas garanti via les roamers internationaux.  <br/> Pour le format de numéro 001-800 : Pour l'accès fixe - Telmex. Pour l'accès mobile - Telcel uniquement. Le temps d'accès est facturé. Sans frais supplémentaires si le client final est avec Telmex en tant que fournisseur de leur locaux et longue distance.  <br/> Pour le format de numéro 01-800 : Le temps d'accès mobile est facturé.  <br/> |
+   
+## <a name="related-topics"></a>Rubriques connexes
+
+[Restrictions et les limitations de composer le numéro gratuit](../toll-free-dialing-limitations-and-restrictions.md)
+
+[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+
+  
+ 

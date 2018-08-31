@@ -1,5 +1,5 @@
 ---
-title: Pourquoi ai-je des problèmes pour entrer au Royaume-Uni informations d’adresse ?
+title: Pourquoi est-ce que j’ai des problèmes pour entrer les informations d’adresse au Royaume-Uni ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,37 +19,38 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: Voici quelques raisons pourquoi vous pouvez rencontrer des problèmes de mise en route de votre adresse ou les adresses de valider correctement dans la (Royaume-Uni).
-ms.openlocfilehash: bb1a42f7607979e4a41ec96e9ce80b0b4b8a4dac
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: Voici quelques raisons pourquoi vous pouvez rencontrer des problèmes votre adresse ou les adresses pour valider correctement dans le (Royaume-Uni).
+ms.openlocfilehash: 3c0749f488ece74e6038786af79d47f1669151b1
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779447"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Pourquoi ai-je des problèmes pour entrer au Royaume-Uni informations d’adresse ?
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Pourquoi est-ce que j’ai des problèmes pour entrer les informations d’adresse au Royaume-Uni ?
 
-Voici quelques raisons pourquoi vous pouvez rencontrer des problèmes de mise en route de votre adresse ou les adresses de valider correctement dans la (Royaume-Uni).
+Voici quelques raisons pourquoi vous pouvez rencontrer des problèmes votre adresse ou les adresses pour valider correctement dans le (Royaume-Uni).
   
 ## <a name="whats-wrong-with-the-company-name"></a>Quel est le problème avec le nom de la société ?
 
-Si vous rencontrez un problème, entrez le nom de la société, n’oubliez pas :
+Si vous rencontrez un problème d’entrée du nom de société, n’oubliez pas :
   
-- Il peut avoir des lettres, des chiffres et des caractères spéciaux suivants :, / - +. ' &amp; " _ 
+- Il peut avoir des lettres, chiffres et les caractères spéciaux suivants :, / - +. ' &amp; " _ 
     
     > [!CAUTION]
-    > Dans la (Royaume-Uni), le nom de la société ne peut pas avoir le signe +. 
+    > Dans la (Royaume-Uni), le nom de la société n’est pas le signe +. 
   
-- Elle doit être de 80 caractères ou moins.
+- Elle doit être 80 caractères au maximum.
     
 - Il ne peut pas commencer par un caractère spécial.
     
-## <a name="whats-wrong-with-the-house-number"></a>Quel est le problème avec le numéro de la maison ?
+## <a name="whats-wrong-with-the-house-number"></a>Quel est le problème avec le numéro de voie ?
 
-Si vous rencontrez un problème en entrant le numéro de la maison, n’oubliez pas :
+Si vous rencontrez un problème en entrant le numéro de voie, n’oubliez pas :
   
-- Il peut avoir des lettres, des chiffres et des caractères spéciaux suivants :-/]
+- Il peut avoir des lettres, chiffres et les caractères spéciaux suivants :-/]
     
-- Il doit commencer par un chiffre.
+- Elle doit commencer par un nombre.
     
 - Elle doit être de 20 caractères ou moins.
     
@@ -57,65 +58,65 @@ Si vous rencontrez un problème en entrant le numéro de la maison, n’oubliez 
     
 ## <a name="whats-wrong-with-the-house-name"></a>Quel est le problème avec le nom de la maison ?
 
-Si vous rencontrez un problème, entrez le nom de la maison, n’oubliez pas :
+Si vous rencontrez un problème d’entrée du nom de la voie, n’oubliez pas :
   
-- Elle peut comporter des lettres, des chiffres et des caractères spéciaux suivants :, / - +. ' &amp; " _
+- Il peut avoir des lettres, chiffres et les caractères spéciaux suivants :, / - +. ' &amp; " _
     
-- Elle doit être de 50 caractères ou moins.
+- Elle doit être de 50 caractères au maximum.
     
 - Il ne peut pas commencer par un caractère spécial.
     
 ## <a name="whats-wrong-with-the-street-name"></a>Quel est le problème avec le nom de la rue ?
 
-Si vous rencontrez un problème, entrez le nom de la rue, gardez à l’esprit :
+Si vous rencontrez un problème d’entrée du nom de rue, n’oubliez pas :
   
-- Il peut avoir des lettres, des chiffres et des caractères spéciaux suivants :, / - +. ' &amp; " _ 
+- Il peut avoir des lettres, chiffres et les caractères spéciaux suivants :, / - +. ' &amp; " _ 
     
-- Elle doit être de 50 caractères ou moins.
+- Elle doit être de 50 caractères au maximum.
     
 - Il ne peut pas commencer par un caractère spécial. 
     
 ## <a name="whats-wrong-with-the-city-or-town"></a>Quel est le problème avec la ville ou du village ?
 
-Si vous rencontrez un problème, entrez le nom de la ville ou du Village, n’oubliez pas :
+Si vous rencontrez un problème d’entrée du nom de la ville ou du Village, n’oubliez pas :
   
-- Il peut avoir des lettres, des chiffres et des caractères spéciaux suivants :, / - +. ' &amp; " _
+- Il peut avoir des lettres, chiffres et les caractères spéciaux suivants :, / - +. ' &amp; " _
     
-- Elle doit être de 50 caractères ou moins.
+- Elle doit être de 50 caractères au maximum.
     
 - Il ne peut pas commencer par un caractère spécial. 
     
 ## <a name="whats-wrong-with-the-postal-code"></a>Quel est le problème avec le code postal ?
 
-Si vous rencontrez un problème de saisie du code postal, n’oubliez pas :
+Si vous rencontrez un problème d’entrer le code postal, n’oubliez pas :
   
-- Il peut uniquement avoir des espaces, des chiffres ou des lettres.
+- Il peut comporter des espaces, des nombres ou des lettres.
     
-- Il doit être inférieur ou égal à 8 lettres, chiffres et espaces compris.
+- Elle doit être inférieur ou égal à 8 lettres, chiffres et espaces compris.
     
-- **N’oubliez pas que si vous êtes dans la (Royaume-Uni)**, vous **devez** placer le code postal dans un des formats suivants, où la lettre A = les caractères A-Z, le signe # = un nombre compris entre 0-9 et les _ (souligné) = un espace vide. Voici quelques exemples :
+- **N’oubliez pas que si vous êtes dans le (Royaume-Uni)**, vous **devez** placer le code postal dans un des formats suivants, où la lettre A = caractères A-Z, le signe # = un nombre compris entre 0-9 et les _ (trait de soulignement) = un espace vide. Voici quelques exemples :
     
 |**Format**|**Exemple**|
 |:-----|:-----|
-|AA #A_ #AA  <br/> |2BD DE EC3B  <br/> |
+|CA-A_ # #AA  <br/> |EC3B 2BD  <br/> |
 |UN A_ # #AA  <br/> |E1W 1AP  <br/> |
-|UN _ # #AA  <br/> |2AG DE LA F1  <br/> |
+|UN _ # #AA  <br/> |2AG F1  <br/> |
 |UN _ ## #AA  <br/> |C44 8HT  <br/> |
-|AA #_ #AA  <br/> |DR3 6HG  <br/> |
-|CA-## _ #AA  <br/> |1ÈME DE FN35  <br/> |
+|CA-_ # #AA  <br/> |DR3 HG 6  <br/> |
+|CA-## _ #AA  <br/> |1TH FN35  <br/> |
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
    
 ## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
+[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

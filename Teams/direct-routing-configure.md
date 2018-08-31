@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: c84e8b28d6a13e3dca64a08a63aa516556357dde
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22914751"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779770"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage Direct
 
@@ -31,7 +31,7 @@ Vous pouvez configurer votre système téléphonique de Microsoft et permettre a
 
 - [Paire le contrôleur SBC avec un système téléphonique de Microsoft et valider l’appariement](#pair-the-sbc-to-direct-routing-service-of-phone-system)
 - [Activer les utilisateurs pour le Service de routage Direct](#enable-users-for-direct-routing-service)
-- [Assurez-vous que Microsoft Teams est le client appelant par défaut pour les utilisateurs](#set-microsoft-teams-as-the-preferred-calling-client-for-the-users) 
+- [Assurez-vous que Microsoft Teams est le client appelant par défaut pour les utilisateurs](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
 ## <a name="pair-the-sbc-to-direct-routing-service-of-phone-system"></a>Paire le contrôleur SBC pour diriger le Service de routage du système téléphonique 
 
@@ -517,7 +517,6 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 </pre>
 
 Le résultat est que la stratégie de voix appliquée aux appels de John Woods sont non restreint et doit suivre la logique de routage des appels disponible pour les États-Unis, au Canada et International appel.
-
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Définir Teams Microsoft en tant que client appelant par défaut pour les utilisateurs
 

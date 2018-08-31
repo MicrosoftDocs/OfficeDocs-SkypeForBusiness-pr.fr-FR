@@ -20,17 +20,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: e524ddd8c86837033fe34caba5260c3f6547987f
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 81f15ee3d5cf2dda1664f3414ae11c0dea7b588e
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779267"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Envoi manuel d'une demande de service personnalisé
 
-Si vous avez des numéros de service pour les autres numéros de service, des surveillances automatiques ou des ponts de conférence à distance, appel gratuit numéros ou ont plus de 999 numéros de téléphone de l’utilisateur (abonné) dont vous avez besoin pour transférer vers Skype pour les entreprises, vous avez besoin pour gérer de [téléphone numéros pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Si vous avez des numéros de service pour les ponts de conférence rendez-vous, les standards automatiques ou autres numéros de service, gratuit numéros ou ont plus de 999 numéros de téléphone utilisateur (abonné) que vous devez transférer vers Skype pour les entreprises, vous avez besoin pour [gérer de téléphone numéros pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
 
-Dans certains pays ou certaines régions, vous devez également soumettre manuellement une demande de service personnalisé si vous souhaitez obtenir les numéros de téléphone ou mise à jour les numéros de modification des adresses. Pour voir ce qui est nécessaire pour chaque pays/région ou en savoir plus sur le nombre de portage, consultez [gérer des numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Dans certains pays/régions, vous devrez également soumettre manuellement une demande de service personnalisé si vous souhaitez obtenir des numéros de téléphone ou libérer les numéros de modification des adresses. Pour voir ce qui est requis pour chaque pays/région ou en savoir plus sur le numéro de portage, voir [Gérer les numéros de téléphone pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 
 ## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>Si vous avez besoin créer et soumettre une demande service, suivez ces étapes :
@@ -42,7 +43,7 @@ Dans certains pays ou certaines régions, vous devez également soumettre manuel
     - **Laissez-nous vous appeler (recommandé)**  : confirmez votre numéro de contact et appuyez sur **M'appeler**. Le temps d'attente prévu pour un rappel est indiqué dans le volet **Besoin d'aide ?**.
     - **Envoyez-nous un e-mail** : confirmez votre adresse de messagerie et sélectionnez **Envoyer**. Le temps de réponse est indiqué dans le volet **Besoin d'aide ?**.
 
-### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a>Pour les organisations avec plus de 150 utilisateurs, procédez comme suit pour créer une demande de service :
+### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a>Pour les organisations comptant plus de 150 utilisateurs, procédez comme suit pour créer une demande de service :
 
 1. Connectez-vous à Office 365 en tant qu'administrateur à l'aide de votre compte professionnel ou scolaire.
     
@@ -100,7 +101,7 @@ Dans certains pays ou certaines régions, vous devez également soumettre manuel
   
 ## <a name="what-else-should-you-know-about-number-porting"></a>Que faut-il savoir d'autre à propos du transfert de numéro ?
 
-- Pour utiliser les Plans d’appel, vous devez acheter et attribuer les licences à vos utilisateurs. [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestionnaire de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Pour utiliser des Plans de l’appel, vous devez acheter et attribuer des licences à vos utilisateurs. [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
 - Vous devez attribuer les nouveaux numéros de téléphone à chacun de vos utilisateurs. [Affecter, modifier ou supprimer un numéro de téléphone d’un utilisateur](assign-change-or-remove-a-phone-number-for-a-user.md).
 
@@ -108,15 +109,15 @@ Dans certains pays ou certaines régions, vous devez également soumettre manuel
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 ## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
+[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Gérer des numéros de téléphone pour votre entreprise](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

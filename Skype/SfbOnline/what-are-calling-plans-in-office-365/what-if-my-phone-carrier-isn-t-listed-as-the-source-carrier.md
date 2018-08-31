@@ -1,5 +1,5 @@
 ---
-title: Que se passe-t-il si mon opérateur de téléphonie n’est pas répertorié en tant que le support source ?
+title: Qu’en est-il si mon opérateur de téléphonie n’est pas répertorié en tant qu’opérateur source ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,33 +19,34 @@ f1keywords:
 - ms.lync.lac.PortOrderDetailPanelWhois
 ms.custom:
 - Calling Plans
-description: 'Apprenez quoi faire si votre opérateur n’est pas répertorié dans Skype pour les entreprises. '
-ms.openlocfilehash: 80946b3950965b3b2f3ce8aaff46f29622f2b5a5
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: 'Découvrez que faire si votre opérateur n’est pas répertorié dans Skype pour les entreprises. '
+ms.openlocfilehash: 3d1737f19488d737078c9747146278b0fa3a9bba
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779627"
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Que se passe-t-il si mon opérateur de téléphonie n’est pas répertorié en tant que le support source ?
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Qu’en est-il si mon opérateur de téléphonie n’est pas répertorié en tant qu’opérateur source ?
 
-Il est un peu compliqué lorsque vous voyez que le nom de votre opérateur n’est pas répertorié. Dans la plupart des cas, si le fournisseur de services ou le transporteur est différent, sans doute que les numéros de téléphone sur que sont transférés sont détenues par un transporteur ou un autre fournisseur de services. Il peut arriver lorsque le fournisseur de services ou le transporteur qui est répertorié peut être différent de votre fournisseur de service en cours parce que votre fournisseur de service actuel peut fonctionner avec un fournisseur de service tiers. 
+Il est un peu compliqué lorsque vous voyez que le nom de votre opérateur n’est pas répertorié. Dans la plupart des cas, si le fournisseur de services ou d’un opérateur est différente, sans doute que vous transférez sur les numéros de téléphone appartiennent à un autre fournisseur de services ou d’un opérateur. Il peut arriver lorsque le fournisseur de services ou d’un opérateur est répertorié peut être différent de votre fournisseur de services en cours, car votre fournisseur de services en cours peut-être travailler avec un fournisseur de services tiers. 
   
 Voici un exemple :
   
-- Si vous portez nombre de Skype comme votre transporteur, vous pouvez voir le que niveau3 répertoriés.
+- Si vous sont portage numéro à partir de Skype pour les entreprises en tant que votre opérateur mobile, vous pouvez voir que niveau3 répertoriés.
     
- **Pour des instructions complètes, voir [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md).**
+ **Pour obtenir des instructions complètes, voir [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
     > [!NOTE]
     > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
+[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

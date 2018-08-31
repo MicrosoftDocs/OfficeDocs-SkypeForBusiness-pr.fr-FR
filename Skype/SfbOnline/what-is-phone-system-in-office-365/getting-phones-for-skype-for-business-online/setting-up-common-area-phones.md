@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, mettre à jour si nécessaire, attribuer des licences et configurer les paramètres pour les téléphones en zone commune.
-ms.openlocfilehash: a2abc74960b04b7b39e4e31961c849009fb9543f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cb6cf1ed66f07ba618c74a47bc2c435229b235ec
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248335"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779211"
 ---
 # <a name="set-up-common-area-phones"></a>Configuration des téléphones de zone commune
 Un téléphone de zone commune (TZC) est généralement placé dans une zone comme un hall ou toute autre zone accessible à beaucoup de personnes. Les TZC, comme par exemple, un téléphone de zone de réception, un interphone ou un téléphone de salle de réunion, sont configurés comme des dispositifs plutôt que comme des utilisateurs et se connectent automatiquement à un réseau. Dans les étapes ci-dessous, nous vous aiderons à configurer un compte pour le Système téléphonique avec des Forfaits d'appels pour que vous puissiez déployer ces types de téléphones dans votre organisation.
@@ -100,7 +100,7 @@ Pour plus de détails, reportez-vous à la section [Ajouter un utilisateur](http
 
 Pour plus de détails, reportez-vous à la section [Obtenir des numéros de téléphone pour vos utilisateurs](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).
 
-Sachez que vous pouvez également prendre le numéro de téléphone que vous avez avec un autre opérateur et le « *Porter* » ou le transférer sur Office 365. Consultez [transfert des numéros de téléphone vers Office 365](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
+Sachez que vous pouvez également prendre le numéro de téléphone que vous avez avec un autre opérateur et le « *Porter* » ou le transférer sur Office 365. Consultez [transfert des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
 
 ### <a name="step-4---setting-up-your-phone"></a>Étape 4 - Configuration de votre téléphone
 

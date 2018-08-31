@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 8f8d6bc1e2fc08e98c11b00bfda4e66c978c69a7
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b4a8c3c167c8830dfc240b4ce5000f96c5ccbb3f
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241932"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779024"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>Quel est le statut de mes demandes de transfert ?
 
@@ -42,20 +42,20 @@ Le tableau suivant répertorie les statuts de commande port, ainsi que les actio
 |**Error** <br/> |Non  <br/> |Oui  <br/> |Oui  <br/> |Oui (à ce stade, vous ne pouvez pas supprimer l’ordre de port si une erreur se produit. L’ordre de port doit être recréée, ou vous devez [contacter](https://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx)le support technique pour les produits métiers : aide d’administration.  <br/> |L’opérateur de perdre a refusé l’ordre.  <br/> |
 |**Terminé** <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Les numéros ont été transférés.  <br/> |
 |**Annulé** <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |L’administrateur a annulé l’ordre.  <br/> |
-
- **Pour obtenir des instructions complètes, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).**
-
+   
+ **Pour obtenir des instructions complètes, voir [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 
 ## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
+[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
 

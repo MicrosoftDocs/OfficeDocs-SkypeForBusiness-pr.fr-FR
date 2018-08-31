@@ -20,33 +20,34 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Consultez notre courte présentation sur le transfert dans Skype Entreprise de numéros de téléphone gérés par un fournisseur de services. '
-ms.openlocfilehash: f017f12b34c59836e734c3ba2ecdc17345d71833
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 528032de190518ae1f4cb426d2b4556615fe2ebd
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779239"
 ---
 # <a name="port-order-overview"></a>Présentation de la demande de transfert
 
-Si vous disposez actuellement d’un fournisseur de services de téléphone ou le transporteur et avez déjà des numéros de téléphone pour vos utilisateurs, vous devez créer ce que l'on appelle une «*voie*» qui transfère ces numéro de téléphone à Skype pour entreprise en ligne. Une fois les numéros transférés, vous pouvez les affecter à vos utilisateurs.
+Si vous avez actuellement un fournisseur de services de téléphone ou un opérateur et que vous avez déjà des numéros de téléphone pour vos utilisateurs, vous devrez créer ce que l'on appelle un «*voie*» qui transfère ces numéro de téléphone à Skype pour Business Online. Une fois les numéros transférés, vous pouvez les affecter à vos utilisateurs.
   
 Après avoir transféré vos numéros de téléphone vers Skype Entreprise Online dans Office 365, Microsoft deviendra votre fournisseur de services et vous pourrez résilier votre service auprès de votre ancien fournisseur ou opérateur.
   
- **Pour des instructions complètes, voir [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md).**
+ **Pour obtenir des instructions complètes, voir [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
  > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
+[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Gérer des numéros de téléphone pour votre entreprise](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

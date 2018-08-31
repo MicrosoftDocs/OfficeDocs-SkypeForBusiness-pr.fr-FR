@@ -1,5 +1,5 @@
 ---
-title: Informations de compte de commande de port
+title: Informations sur le compte de demande de transfert
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,21 +20,22 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Connaître les informations de compte que vous avez besoin lorsque vous travaillez avec un Assistant Nouvelle commande de Port numéro Local. '
-ms.openlocfilehash: bd2f929a7268db03c1d9e3660d6f3df20ff9cc72
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 69d972709e0711f8ac17131a81c604044d869c85
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780480"
 ---
-# <a name="port-order-account-information"></a>Informations de compte de commande de port
+# <a name="port-order-account-information"></a>Informations sur le compte de demande de transfert
 
-Lorsque vous utilisez la page **d’informations de compte** dans l’Assistant **Nouvelle commande de Port numéro Local** d’envoyer une commande port, vous devez presque toutes les mêmes informations que vous devez fournir dans la lettre d’accord, y compris :
+Lorsque vous utilisez la page **informations de compte** dans l’Assistant **Nouvel ordre de Port numéro Local** pour envoyer une commande de port, vous devez presque toutes les mêmes informations que vous devez fournir de la lettre d’accord, y compris :
   
-- Numéro de compte pour le fournisseur de services ou le transporteur
+- Numéro de compte pour le fournisseur de services ou d’un opérateur
     
 - Numéro de téléphone de facturation (BTN)
     
-- PIN - si requis par votre fournisseur de service actuel ou le transporteur
+- Code confidentiel - si requis par votre fournisseur de services en cours ou un opérateur
     
 - Nom de la société
     
@@ -44,43 +45,43 @@ Lorsque vous utilisez la page **d’informations de compte** dans l’Assistant 
 - Nom de l'utilisateur autorisé
     
     > [!NOTE]
-    > Il n’accepte que les 15 caractères, espaces compris. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
+    > Il n’accepte que 15 caractères, espaces compris. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
   
 - Adresse du service
     
 - Ville, état et code postal de l’adresse de facturation
     
     > [!NOTE]
-    > Vous n’aurez pas besoin de signature de l’autorisation de la personne. 
+    > Vous n’aurez plus besoin de signature de la personne à autoriser. 
   
 Pour rendre l’envoi de la commande port facile et éviter les erreurs, assurez-vous que vous effectuez les opérations suivantes :
   
-- Supprimer toutes les fonctionnalités (par exemple, les groupes de recherche) associées à vos numéros. Assurez-vous qu’il n’existe aucune fonctionnalité de contrôle d’appel avancée, comme appeler la recherche ou la sonnerie Distinctive, activé sur ces numéros de téléphone.
+- Supprimer toutes les fonctionnalités (telles que les groupements de postes) associées à vos numéros. N’Assurez-vous qu’aucune fonctionnalité de contrôle avancée des appels, tels que les postes d’appel ou une sonnerie distincte, activé sur ces numéros de téléphone.
     
-- Vérifiez que vous n’avez pas placé de nouvelles commandes de service ou déconnecte auprès de votre fournisseur de service en cours.
+- Assurez-vous que vous n’avez pas placés de nouvelles commandes service ou déconnecte avec votre fournisseur de services en cours.
     
 - Assurez-vous que tous les numéros sont issus du même opérateur et du même compte.
     
-- Assurez-vous que les informations de compte que vous indiquez correspondent exactement à celles enregistrées par votre opérateur téléphonique. Informations incompatibles sont de provoquer des erreurs les plus courantes et le peuvent retarder votre commande port.
+- Assurez-vous que les informations de compte que vous indiquez correspondent exactement à celles enregistrées par votre opérateur téléphonique. Les informations qui ne correspond pas sont les plus courantes entraîner des erreurs et peuvent retarder votre commande port.
     
 > [!CAUTION]
 > **Ne résiliez pas vos services auprès de votre opérateur ou fournisseur de services.**> **Votre service précédent doit rester actif pour que vos numéros de téléphone puissent être portés vers Skype Entreprise Online.**> **Ne suspendez pas votre compte auprès de votre opérateur ou fournisseur de services. Cela aurait pour effet d'empêcher le changement d'opérateurs sur le compte. L'utilisateur autorisé devra envoyer une commande à l'opérateur actuel pour rétablir le compte suspendu. Cette procédure peut prendre de 1 à 3 semaines selon l'opérateur.**> 
   
- **Pour des instructions complètes, voir [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md).**
+ **Pour obtenir des instructions complètes, voir [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
  > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
+[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-(.. / what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

@@ -19,11 +19,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Découvrez ce qu’est la validation d’adresse, pourquoi cela est important et son lien avec les adresses et services d’urgence. '
-ms.openlocfilehash: c82208dd08018c812451a6a26b5a9c6e5420410d
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: d5a64273ae29bac3b1f6e42212a0b50aa3dca9a5
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779114"
 ---
 # <a name="what-is-address-validation"></a>Qu’est-ce que la validation d’adresse ?
 
@@ -36,12 +37,13 @@ La validation d'une adresse postale ou résidentielle implique de s’assurer qu
 
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Que sont les emplacements, les adresses et le routage d'appel d'urgence ?](what-are-emergency-locations-addresses-and-call-routing.md)
+[Que sont les emplacements, les adresses et le routage d'appel d'urgence ?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
-[Gérer les numéros de téléphone de votre organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
+
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

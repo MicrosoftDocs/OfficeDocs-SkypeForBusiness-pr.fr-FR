@@ -1,5 +1,5 @@
 ---
-title: Que devez-vous faire après que vous avez porté sur vos numéros de téléphone ?
+title: Ce que vous devez faire une fois que vous avez portées vos numéros de téléphone ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,20 +19,21 @@ f1keywords:
 - ms.lync.lac.PortOrderFinish
 ms.custom:
 - Calling Plans
-description: Connaître la procédure à suivre une fois que vous avez porté vos numéros de téléphone à Skype pour les entreprises.
-ms.openlocfilehash: acec8952f77402538f7eabae9330f7f031e70155
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: Voir ce que vous devez effectuer après que vous avez adapté à vos numéros de téléphone à Skype pour les entreprises.
+ms.openlocfilehash: 9011ba858bf57c9bd1b425fffc19ac508f3f4f23
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779257"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Que devez-vous faire après que vous avez porté sur vos numéros de téléphone ?
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Ce que vous devez faire une fois que vous avez portées vos numéros de téléphone ?
 
-Une fois que vous avez soumis votre commande port, nous contactez votre opérateur et organiser les détails avec eux. Lorsque la date de dernier transfert a été définie, vous serez averti par e-mail. Toutefois, lors de l’attente sur votre support d’accepter l’ordre, d’avancer et de créer les adresses d’urgence requis, vous allez utiliser avec ces numéros.
+Une fois que vous avez soumis votre commande port, nous contacter votre opérateur et organiser les détails avec eux. Lors de la dernière date a été définie, vous serez averti par courrier électronique. Toutefois, lors de l’attente de votre opérateur pour accepter l’ordre, continuez et créer les adresses d’urgence requis, que vous allez utiliser avec ces numéros.
   
-- En savoir plus sur [Quels sont les emplacements en cas d’urgence, des adresses et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md).
+- En savoir plus sur [Quels sont les emplacements d’urgence, les adresses et le routage des appels ?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
     
-- Vous pouvez [Ajouter ou supprimer d’urgence d’adresses pour votre organisation](add-or-remove-an-emergency-address-for-your-organization.md) si vous avez besoin.
+- Vous pouvez [Ajouter ou supprimer une situation d’urgence d’adresses pour votre organisation](add-or-remove-an-emergency-address-for-your-organization.md) si vous avez besoin.
     
 - Si vos numéros de téléphone ont déjà une adresse d’urgence, [Ajouter, modifier ou supprimer un emplacement en cas d’urgence pour votre organisation](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
@@ -43,13 +44,13 @@ Une fois que vous avez soumis votre commande port, nous contactez votre opérate
 
     
 ## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
+[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

@@ -1,5 +1,5 @@
 ---
-title: Rapport de pools minute PSTN
+title: Rapport du nombre de minutes RTC
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ ms.custom:
 - Reporting
 description: La nouvelle Skype de zone de rapports du centre d’administration Business affiche vous appeler et audio conférence activité dans votre organisation. Elle vous permet des détails des rapports pour vous donnent plus granulaires sur les activités de chaque utilisateur. Par exemple, vous pouvez utiliser la Skype pour rapport de pools minute Business PSTN pour afficher le nombre de minutes consommées au cours du mois au sein de votre organisation.
 search.appverid: MET150
-ms.openlocfilehash: 876455807887694f7e885038e7473634a40f5f21
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: a12597faf9f5669809cbf97a2ea8a054c65a8a0c
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933056"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779667"
 ---
-# <a name="pstn-minute-pools-report"></a>Rapport de pools minute PSTN
+# <a name="pstn-minute-pools-report"></a>Rapport du nombre de minutes RTC
 
 >[!NOTE]
 >Ce rapport n’est disponible pour afficher un aperçu des clients.
@@ -34,7 +34,7 @@ La nouvelle Skype pour la zone Centre d’administration Business **rapports** a
   
 Consultez la rubrique [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour plusieurs rapports qui sont disponibles.
   
-Ce rapport, ainsi que l’autres Skype pour les rapports d’entreprise, vous donne plus d’informations sur l’activité au sein de votre organisation. Ces informations sont très utiles lors de l’analyse, la planification et les décisions autres pour votre organisation et de configuration [Communications générique](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
+Ce rapport, ainsi que l’autres Skype pour les rapports d’entreprise, vous donne plus d’informations sur l’activité au sein de votre organisation. Ces informations sont très utiles lors de l’analyse, la planification et les décisions autres pour votre organisation et de configuration [Communications générique](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
 > Vous pouvez accéder à tous les rapports Skype Entreprise lorsque vous vous connectez au centre d'administration d'Office 365 en tant qu'administrateur. 

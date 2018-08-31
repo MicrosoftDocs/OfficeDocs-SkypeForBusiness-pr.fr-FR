@@ -1,5 +1,5 @@
 ---
-title: Rapport de détails de session
+title: Rapport détaillé de session
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,20 +18,20 @@ ms.custom:
 - Reporting
 description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent.
 search.appverid: MET150
-ms.openlocfilehash: 63d0d049e7522d1e62f717c063eb92f658a5623f
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: ae892766be3b9bc18f37ae8b551678a738743325
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933174"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780854"
 ---
-# <a name="session-details-report"></a>Rapport de détails de session
+# <a name="session-details-report"></a>Rapport détaillé de session
 
 Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour plus d’informations de Session Business** pour afficher plus d’informations sur des expériences utilisateur appel.
   
 Consultez la rubrique [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour plusieurs rapports qui sont disponibles.
   
-Ce rapport, ainsi que l’autres Skype pour les rapports d’entreprise vous donnent plus d’informations sur l’activité, notamment des informations de session au sein de votre organisation. Ces informations sont très utiles lorsque vous analyse, la planification et l’émission d’autres activités décisions pour votre organisation et de configuration [Communications générique](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md).
+Ce rapport, ainsi que l’autres Skype pour les rapports d’entreprise vous donnent plus d’informations sur l’activité, notamment des informations de session au sein de votre organisation. Ces informations sont très utiles lorsque vous analyse, la planification et l’émission d’autres activités décisions pour votre organisation et de configuration [Communications générique](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
 > Vous pouvez accéder à tous les rapports Skype Entreprise lorsque vous vous connectez au centre d'administration d'Office 365 en tant qu'administrateur. 

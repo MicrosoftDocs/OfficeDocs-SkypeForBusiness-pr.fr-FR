@@ -1,5 +1,5 @@
 ---
-title: Que dois-je placer le nom de la société ?
+title: Que dois-je inclure comme nom d’entreprise ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,31 +19,32 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoCompanyName
 ms.custom:
 - Calling Plans
-description: 'Les éléments à ajouter pour la société dans Skype pour les entreprises et où vous pouvez les trouver. '
-ms.openlocfilehash: 94447955696eff81fa64b253da7c70309b284bc9
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: 'Éléments à placer de la société dans Skype pour les entreprises et où vous pouvez les trouver. '
+ms.openlocfilehash: 4c7cf17a0b1845b7b5383e2d7f4c6b4e5809ae22
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779409"
 ---
-# <a name="what-should-i-put-in-for-the-company-name"></a>Que dois-je placer le nom de la société ?
+# <a name="what-should-i-put-in-for-the-company-name"></a>Que dois-je inclure comme nom d’entreprise ?
 
-C’est le nom de votre société ou organisation. Le nom de la société est limité à 25 caractères, qui comprend des espaces. Le nom de la société n’est pas utilisé pour traiter la demande de commande de port ; Il est utilisé en cas de litige ou si quelque chose est incorrecte lorsque les numéros de téléphone sont portage sur. Si vous ne tient pas la totalité du nom de la société dans la zone, celui-ci ne pas retarder ou annuler la commande de port.
+C’est le nom de votre société ou organisation. Le nom de la société est limité à 25 caractères, qui comporte des espaces. Le nom de la société n’est pas utilisé pour traiter la demande de commande port ; Il est utilisé dans le cas de litige ou si un élément est incorrect lorsque les numéros de téléphone sont en cours portées. Si vous ne tient pas le nom de la société dans la zone entier, il ne retarder ou annuler la commande de port.
   
- **Pour des instructions complètes, voir [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md).**
+ **Pour obtenir des instructions complètes, voir [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
  
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
+[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

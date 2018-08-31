@@ -1,5 +1,5 @@
 ---
-title: Que dois-je placer l’adresse de service ?
+title: Que dois-je inclure comme adresse de service ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,31 +19,32 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoServiceAddress
 ms.custom:
 - Calling Plans
-description: 'Savoir ce que l’adresse de votre service, comment il est différent de votre adresse de facturation, et où vous pouvez les trouver. '
-ms.openlocfilehash: ca435b2fb91d36996d13d94dea4f071abe1c8684
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: 'Savoir ce que votre adresse de service, comment il diffère de votre adresse de facturation, et où vous pouvez les trouver. '
+ms.openlocfilehash: 34335a51f482ad83c8090bf2967f6b1639441893
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779437"
 ---
-# <a name="what-should-i-put-in-for-the-service-address"></a>Que dois-je placer l’adresse de service ?
+# <a name="what-should-i-put-in-for-the-service-address"></a>Que dois-je inclure comme adresse de service ?
 
-L’adresse du service est différente de l’adresse de facturation ou d’urgence que vous avez enregistrées avec votre fournisseur de services de téléphone ou le transporteur. Si vous ne le connaissez pas, vous pouvez contacter votre fournisseur de services ou le transporteur pour connaître l’adresse de service indiquée sur votre compte.
+L’adresse du service est différente de l’adresse de facturation ou d’urgence que vous avez enregistrés avec votre fournisseur de services de téléphone ou un opérateur. Si vous ne connaissez pas, vous pouvez contacter votre fournisseur de services ou un opérateur pour trouver l’adresse de service indiquée sur votre compte.
   
- **Pour des instructions complètes, voir [transfert vers Office 365, les numéros de téléphone](transfer-phone-numbers-to-office-365.md).**
+ **Pour obtenir des instructions complètes, voir [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
+[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
