@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume la configuration requise pour la prise en charge des systèmes de salle Skype v2.
-ms.openlocfilehash: 0cb0a2cc0508f3499c94971647a22a936fc0648d
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: ce5b8343973fca50970132accd7833641ed9c5a1
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601933"
+ms.lasthandoff: 09/01/2018
+ms.locfileid: "23797343"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
  
@@ -51,9 +51,9 @@ Systèmes de salle Skype v2 capable de s’adapter aux tailles différentes sall
 **Consoles pris en charge**
 |Console|Processeur|MÉMOIRE RAM|Disque|
 |:-----|:-----|:-----|:-----|
-|[Hub Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Principaux i5  |8 GO  |128 GO  |  
+|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Principaux i5  |8 GO  |128 GO  |  
 |[Secteur privilégiée HP pour G2 salles de réunion](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Principaux i5  |8 GO  |128 GO  |  
-    
+
 - Une des options de la station d’accueil suivantes pour sécuriser une tablette à la réunion de l’espace table. 
     
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
