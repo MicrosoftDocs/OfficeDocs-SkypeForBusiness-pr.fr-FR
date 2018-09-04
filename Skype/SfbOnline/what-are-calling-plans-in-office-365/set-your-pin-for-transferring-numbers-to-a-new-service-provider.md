@@ -1,5 +1,5 @@
 ---
-title: Définir votre code confidentiel pour le transfert des numéros à un fournisseur de services
+title: Définissez votre code confidentiel pour transférer des numéros vers un nouveau fournisseur de services
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,59 +19,62 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Pour transférer ou vers un autre fournisseur de services de téléphone ou opérateur de port des numéros de téléphone à partir de Skype pour Business Online, vous devez définir manuellement un code confidentiel. Une fois que vous définissez le code confidentiel, vous devez inclure lorsque vous demandez à un numéro de téléphone à des ports.
-ms.openlocfilehash: 30eaed1f5ec139f82dce75cfec77c873b8f491de
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
-ms.translationtype: MT
+description: Pour transférer ou exporter des numéros de téléphone de Skype Entreprise Online vers un autre fournisseur de services téléphoniques ou un autre opérateur, vous devez définir manuellement un code confidentiel. Une fois le code confidentiel défini, vous devez l'inclure lorsque vous demandez à transférer un numéro de téléphone.
+ms.openlocfilehash: 4dc60b489a6b382df5764f0c011f716f36a17cd8
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779140"
 ---
-# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a><span data-ttu-id="22309-104">Définir votre code confidentiel pour le transfert des numéros à un fournisseur de services</span><span class="sxs-lookup"><span data-stu-id="22309-104">Set your PIN for transferring numbers to a new service provider</span></span>
+# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a><span data-ttu-id="69886-104">Définissez votre code confidentiel pour transférer des numéros vers un nouveau fournisseur de services</span><span class="sxs-lookup"><span data-stu-id="69886-104">Set your PIN for transferring numbers to a new service provider</span></span>
 
-<span data-ttu-id="22309-105">Pour transférer ou *port des* numéros de téléphone à partir de Skype pour Business Online vers un autre fournisseur de services de téléphone ou opérateur, vous devez définir manuellement un code confidentiel.</span><span class="sxs-lookup"><span data-stu-id="22309-105">To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN.</span></span> <span data-ttu-id="22309-106">Une fois que vous définissez le code confidentiel, vous devez inclure lorsque vous demandez à un numéro de téléphone à des ports.</span><span class="sxs-lookup"><span data-stu-id="22309-106">After you set the PIN, you need to include it when you request to port a phone number out.</span></span> 
+<span data-ttu-id="69886-105">Pour transférer ou *exporter*  des numéros de téléphone de Skype Entreprise Online vers un autre fournisseur de services téléphoniques ou un autre opérateur, vous devez définir manuellement un code confidentiel.</span><span class="sxs-lookup"><span data-stu-id="69886-105">To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN.</span></span> <span data-ttu-id="69886-106">Une fois le code confidentiel défini, vous devez l'inclure lorsque vous demandez à transférer un numéro de téléphone.</span><span class="sxs-lookup"><span data-stu-id="69886-106">After you set the PIN, you need to include it when you request to port a phone number out.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="22309-107">Un port out code confidentiel est uniquement utilisé pour les organisations aux États-Unis.</span><span class="sxs-lookup"><span data-stu-id="22309-107">A port out PIN is only used for organizations in the United States.</span></span> 
+> <span data-ttu-id="69886-107">Un code confidentiel de transfert est utilisé uniquement pour les organisations aux États-Unis.</span><span class="sxs-lookup"><span data-stu-id="69886-107">A port out PIN is only used for organizations in the United States.</span></span> 
   
-<span data-ttu-id="22309-108">Pour plus d’informations sur le transfert et portage des numéros de téléphone d’entrée/sortie, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md) .</span><span class="sxs-lookup"><span data-stu-id="22309-108">See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) for more information about transferring and porting in/out phone numbers.</span></span>
+<span data-ttu-id="69886-108">Pour plus d’informations sur le transfert et portage des numéros de téléphone d’entrée/sortie, voir [Transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).</span><span class="sxs-lookup"><span data-stu-id="69886-108">See [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) for more information about transferring and porting in/out phone numbers.</span></span>
   
-<span data-ttu-id="22309-109">Voici des informations spécifiques sur ce code confidentiel, vous devez connaître :</span><span class="sxs-lookup"><span data-stu-id="22309-109">Here is some specific information about this PIN you should know:</span></span>
+<span data-ttu-id="69886-109">Voici quelques informations spécifiques sur ce code confidentiel que vous devez connaître :</span><span class="sxs-lookup"><span data-stu-id="69886-109">Here is some specific information about this PIN you should know:</span></span>
   
-- <span data-ttu-id="22309-110">Si un code confidentiel n’est pas défini, vous ne pourrez transfert ou port des numéros de téléphone à partir de Skype pour Business Online.</span><span class="sxs-lookup"><span data-stu-id="22309-110">If a PIN isn't set, you won't be able to transfer or port out phone numbers from Skype for Business Online.</span></span>
+- <span data-ttu-id="69886-110">Si un code confidentiel n’est pas défini, vous ne pourrez pas transférer ou extraire des numéros de téléphone depuis Skype Entreprise Online.</span><span class="sxs-lookup"><span data-stu-id="69886-110">If a PIN isn't set, you won't be able to transfer or port out phone numbers from Skype for Business Online.</span></span>
     
-- <span data-ttu-id="22309-111">Il peut contenir 6 à 10 chiffres (numéros).</span><span class="sxs-lookup"><span data-stu-id="22309-111">It can contain 6-10 digits (numbers).</span></span>
+- <span data-ttu-id="69886-111">Il peut contenir 6 à 10 chiffres (numéros).</span><span class="sxs-lookup"><span data-stu-id="69886-111">It can contain 6-10 digits (numbers).</span></span>
     
-- <span data-ttu-id="22309-112">Il ne peut pas contenir de caractères spéciaux.</span><span class="sxs-lookup"><span data-stu-id="22309-112">It can't contain letters or special characters.</span></span>
+- <span data-ttu-id="69886-112">Il ne peut pas contenir de lettres ou de caractères spéciaux.</span><span class="sxs-lookup"><span data-stu-id="69886-112">It can't contain letters or special characters.</span></span>
     
-- <span data-ttu-id="22309-113">Le code confidentiel par défaut est vide, mais si vous placez dans, vous ne peut pas supprimer ou définissez-la sur vide.</span><span class="sxs-lookup"><span data-stu-id="22309-113">The default PIN is blank, but if you put one in, you can't remove or set it back to blank.</span></span>
+- <span data-ttu-id="69886-113">Le code confidentiel par défaut est vide, mais si vous en insérez un, vous ne pouvez pas le supprimer ou le rétablir.</span><span class="sxs-lookup"><span data-stu-id="69886-113">The default PIN is blank, but if you put one in, you can't remove or set it back to blank.</span></span>
     
-- <span data-ttu-id="22309-114">Vous pouvez mettre à jour ou modifier le code confidentiel, une fois que vous avez placé un dans.</span><span class="sxs-lookup"><span data-stu-id="22309-114">You can update or change the PIN after you put one in.</span></span>
+- <span data-ttu-id="69886-114">Vous pouvez mettre à jour ou modifier le code confidentiel après en avoir inséré un.</span><span class="sxs-lookup"><span data-stu-id="69886-114">You can update or change the PIN after you put one in.</span></span>
     
-## <a name="set-up-your-pin"></a><span data-ttu-id="22309-115">Configurer votre code confidentiel</span><span class="sxs-lookup"><span data-stu-id="22309-115">Set up your PIN</span></span>
+## <a name="set-up-your-pin"></a><span data-ttu-id="69886-115">Configurez votre code confidentiel</span><span class="sxs-lookup"><span data-stu-id="69886-115">Set up your PIN</span></span>
 
-1. <span data-ttu-id="22309-116">Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.</span><span class="sxs-lookup"><span data-stu-id="22309-116">Sign in to Office 365 with your work or school account.</span></span>
+<span data-ttu-id="69886-116">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Utilisation du centre d’administration de Skype Entreprise**</span><span class="sxs-lookup"><span data-stu-id="69886-116">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Assign a phone number to the user using the **Skype for Business admin center**</span></span>
+
+1. <span data-ttu-id="69886-117">Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.</span><span class="sxs-lookup"><span data-stu-id="69886-117">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="22309-117">Accéder au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises**.</span><span class="sxs-lookup"><span data-stu-id="22309-117">Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="69886-118">Accédez au **Centre administrateur Office 365** > **Centres d'administration** > **Skype Entreprise**.</span><span class="sxs-lookup"><span data-stu-id="69886-118">Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business >Voice**.</span></span>
     
-3. <span data-ttu-id="22309-118">Dans la navigation de gauche, choisissez **voix** > **commandes Port**.</span><span class="sxs-lookup"><span data-stu-id="22309-118">In the left navigation, choose **Voice** > **Port orders**.</span></span>
+3. <span data-ttu-id="69886-119">Dans la navigation de gauche, choisissez **Voix** > **commandes Transfert**.</span><span class="sxs-lookup"><span data-stu-id="69886-119">In the left navigation go to **Voice** > **Port orders** > click Add.</span></span>
     
-4. <span data-ttu-id="22309-119">Cliquez sur **définir configurer et gérer le code confidentiel** qui est utilisé pour le transfert ou portage des numéros à un autre transporteur de service.</span><span class="sxs-lookup"><span data-stu-id="22309-119">Click **Set up and manage the PIN** that is used for transferring or porting numbers to another service carrier.</span></span>
+4. <span data-ttu-id="69886-120">Cliquez sur **Installer et gérer le code confidentiel** qui est utilisé pour le transfert ou le portage des numéros vers un autre fournisseur de services.</span><span class="sxs-lookup"><span data-stu-id="69886-120">Click **Set up and manage the PIN** that is used for transferring or porting numbers to another service carrier.</span></span>
     
-5. <span data-ttu-id="22309-120">Dans la **définir ou modifier le port de votre absence code confidentiel** panneau, entrez votre code confidentiel et cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="22309-120">In the **Set or change your port out PIN** panel, enter your PIN and click **Save**.</span></span>
+5. <span data-ttu-id="69886-121">Dans le panneau**Définir ou modifier votre code confidentiel de transfert**, entrez votre code confidentiel et cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="69886-121">In the **Set or change your port out PIN** panel, enter your PIN and click **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="22309-121">Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="22309-121">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="69886-122">Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="69886-122">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="22309-122">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="22309-122">Related topics</span></span>
-[<span data-ttu-id="22309-123">Questions fréquentes à propos du transfert de numéros de téléphone</span><span class="sxs-lookup"><span data-stu-id="22309-123">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a><span data-ttu-id="69886-123">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="69886-123">Related topics</span></span>
+[<span data-ttu-id="69886-124">Questions fréquentes à propos du transfert de numéros de téléphone</span><span class="sxs-lookup"><span data-stu-id="69886-124">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="22309-124">Différents types de numéros de téléphone utilisés pour les offres d'appel</span><span class="sxs-lookup"><span data-stu-id="22309-124">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="69886-125">Différents types de numéros de téléphone utilisés pour les offres d'appel</span><span class="sxs-lookup"><span data-stu-id="69886-125">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="22309-125">Gérer des numéros de téléphone pour votre entreprise</span><span class="sxs-lookup"><span data-stu-id="22309-125">Manage phone numbers for your organization</span></span>](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[<span data-ttu-id="69886-126">Gérer des numéros de téléphone pour votre entreprise</span><span class="sxs-lookup"><span data-stu-id="69886-126">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="22309-126">Conditions générales relatives aux appels d'urgence</span><span class="sxs-lookup"><span data-stu-id="22309-126">Emergency calling terms and conditions</span></span>](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="69886-127">Conditions générales relatives aux appels d'urgence</span><span class="sxs-lookup"><span data-stu-id="69886-127">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="22309-127">[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="22309-127">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="69886-128">[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="69886-128">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
