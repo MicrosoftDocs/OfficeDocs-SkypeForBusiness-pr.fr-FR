@@ -1,5 +1,5 @@
 ---
-title: Gérer les paramètres de conférence Audio pour un utilisateur dans Skype pour Business en ligne
+title: Gérer les paramètres d’Audioconférence pour un utilisateur dans Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,51 +18,51 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'En tant qu’un administrateur Office 365, vous pouvez modifier le Skype pour les paramètres de conférence en ligne professionnels — telles que le fournisseur, numéro payant par défaut ou numéro gratuit, ID de conférence ou code confidentiel — pour un utilisateur individuel dans votre organisation. '
-ms.openlocfilehash: ed8038955174a19e7861c872e1a095644288e6c2
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
-ms.translationtype: MT
+description: 'En tant qu’administrateur Office 365, vous pouvez modifier les paramètres de l’audioconférence Skype Entreprise Online — tels que le fournisseur, le numéro payant ou gratuit par défaut, l’identifiant de conférence ou le code confidentiel — pour un utilisateur individuel dans votre organisation. '
+ms.openlocfilehash: 11ab14b3ebba54e1af8125c2d2f6c2acbd0730b7
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490524"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779054"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Gérer les paramètres de conférence Audio pour un utilisateur dans Skype pour Business en ligne
+# <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Gérer les paramètres d’Audioconférence pour un utilisateur dans Skype Entreprise Online
 
 > [!Note]
-> Si vous souhaitez gérer les paramètres utilisateur dans Microsoft Teams, voir [Gérer les paramètres de conférence Audio pour un utilisateur dans les équipes Microsoft](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
+> Si vous souhaitez gérer les paramètres utilisateur dans Microsoft Teams, consultez la rubrique [Gérer les paramètres d’Audioconférence pour un utilisateur dans Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-En tant qu’un administrateur Office 365, vous pouvez modifier les paramètres de conférence Audio, tels que le fournisseur, numéro payant par défaut ou numéro gratuit, ID de conférence ou code confidentiel — pour un utilisateur individuel dans votre organisation. Si vous souhaitez modifier les paramètres de votre organisation, voir [Gérer les paramètres de conférence Audio de mon organisation](manage-the-audio-conferencing-settings-for-my-organization.md).
+En tant qu’administrateur Office 365, vous pouvez modifier les paramètres d’Audioconférence, tels que le fournisseur, le numéro payant ou gratuit par défaut, l’identifiant de conférence ou le code confidentiel — pour un utilisateur individuel dans votre organisation. Si vous souhaitez modifier les paramètres de votre organisation, consultez la rubrique [Gérer les paramètres d’Audioconférence de mon organisation](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à Office 365 à l’aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centres dʼadministration** > **Skype Entreprise**.
+2. Sélectionnez **Centres d’administration** > **Skype Entreprise**.
     
-3. Dans Skype entreprise centre d’administration, choisissez **utilisateurs**.
+3. Dans le Centre d’administration de Skype Entreprise, sélectionnez **Utilisateurs**.
     
-4. Sélectionnez l’utilisateur pour lequel vous souhaitez gérer les paramètres, puis cliquez sur **Modifier**dans le volet Actions,![affiche l’icône Modifier](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png).
+4. Sélectionnez l’utilisateur pour lequel vous souhaitez gérer les paramètres, puis cliquez, dans le volet Actions, sur **Modifier**![Affiche l’icône Modifier](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png).
     
-5. Choisissez **d’audioconférence** dans le volet de navigation gauche, puis, dans la page **Propriétés** de l’utilisateur, modifiez une des options suivantes :
+5. Choisissez **Audioconférence** dans le volet de navigation gauche, puis, dans la page **Propriétés** de l’utilisateur, modifiez une des options suivantes :
     
 |**Paramètre**|**Description**|
 |:-----|:-----|
 |**Nom du fournisseur** <br/> |Choisissez votre fournisseur dans la liste.  <br/><br/> **Remarque :** Les paramètres restants dans ce tableau s’appliquent uniquement si vous sélectionnez Microsoft en tant que le fournisseur de services d’audioconférence.           |
-|**Numéro de téléphone payant par défaut** (requis) <br/> |Pour des fournisseurs tiers, ces numéros de téléphone sont celles que vous avez reçus du fournisseur de services d’audioconférence. Si l’utilisateur est à l’aide de Microsoft en tant que le fournisseur de services d’audioconférence, il sera numéros qui sont définies sur le pont de conférence audio. Mettre en forme les numéros que vous le souhaitez les voir apparaître dans Skype pour les demandes de réunion Business et Teams Microsoft.  <br/> |
-|**Bre gratuit par défaut** <br/> |Pour des fournisseurs tiers, ces numéros de téléphone sont celles que vous avez reçus du fournisseur de services d’audioconférence. Si l’utilisateur est à l’aide de Microsoft en tant que le fournisseur de services d’audioconférence, il sera numéros qui sont définies sur le pont de conférence audio. Mettre en forme les numéros que vous le souhaitez les voir apparaître dans Skype pour les demandes de réunion Business et Teams Microsoft.  <br/> |
-|**Permettre à l’aide des numéros de téléphone gratuits dans le pont Microsoft de votre organisation à participer à des réunions de cet utilisateur** <br/> |Sélectionnez cette option si vous souhaitez permettre à l’utilisateur de numéros de téléphone gratuits pour participer à des réunions.  <br/> |
-|**Envoyer les informations de conférence par courrier électronique** <br/> |Cliquez sur ce lien uniquement si vous souhaitez envoyer immédiatement un message électronique à l’utilisateur avec son numéro de téléphone et les ID de conférence. (Ce message n’inclut pas le code confidentiel). Voir [Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
-|**ID de conférence** <br/> |Sélectionnez **Rétablir** si vous avez besoin réinitialiser l’ID de conférence pour l’utilisateur. Pour plus d’informations, consultez la rubrique [Réinitialiser un ID de conférence pour un utilisateur](reset-a-conference-id-for-a-user.md).  <br/> |
-|**CODE CONFIDENTIEL** <br/> |Sélectionnez **Rétablir** si vous devez réinitialiser le code confidentiel de l’utilisateur. Pour plus d’informations, consultez la rubrique [Réinitialiser le code confidentiel de conférence Audio](reset-the-audio-conferencing-pin.md).  <br/> |
-|**Autoriser les appelants non authentifiés à être les premiers à une réunion** <br/> |Sélectionnez cette option pour autoriser les appelants non authentifiés à participer à des réunions en premier.  <br/> |
-|**Restrictions pour les sorties de l’accès à des réunions de cet utilisateur** <br/> |Sélectionnez une option dans cette liste si vous souhaitez restreindre l’accès sorties à national uniquement, ou si vous souhaitez empêcher tous les accès issus de réunions.  <br/> |
+|**Numéro de téléphone payant par défaut** (obligatoire) <br/> |Pour des fournisseurs tiers, ces numéros de téléphone sont ceux que vous avez reçus du fournisseur d’audioconférence. Si l’utilisateur utilise Microsoft en tant que fournisseur d’audioconférence, ce seront des numéros définis sur le pont d’audioconférence. Présentez les numéros de la manière dont vous voulez qu’ils apparaissent dans les demandes de réunion Skype Entreprise et Microsoft Teams.  <br/> |
+|**Numéro gratuit par défaut** <br/> |Pour des fournisseurs tiers, ces numéros de téléphone sont ceux que vous avez reçus du fournisseur d’audioconférence. Si l’utilisateur utilise Microsoft en tant que fournisseur d’audioconférence, ce seront des numéros définis sur le pont d’audioconférence. Présentez les numéros de la manière dont vous voulez qu’ils apparaissent dans les demandes de réunion Skype Entreprise et Microsoft Teams.  <br/> |
+|**Autoriser l’utilisation de numéros de téléphone gratuits dans le pont Microsoft de votre organisation pour rejoindre les réunions de cet utilisateur** <br/> |Sélectionnez cette option si vous souhaitez permettre l’utilisation de numéros de téléphone gratuits pour rejoindre des réunions.  <br/> |
+|**Envoyer les informations de conférence par courrier électronique** <br/> |Cliquez sur ce lien uniquement si vous souhaitez envoyer immédiatement un message électronique à l’utilisateur avec son identifiant de conférence et son numéro de téléphone. (Ce message n’inclut pas le code confidentiel). Voir [Envoyer un message électronique à un utilisateur avec ses informations d’audioconférence](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
+|**Identifiant de conférence** <br/> |Sélectionnez **Rétablir** si vous avez besoin de réinitialiser l’identifiant de conférence pour l’utilisateur. Pour plus d’informations, consultez la rubrique [Réinitialiser un identifiant de conférence pour un utilisateur](reset-a-conference-id-for-a-user.md).  <br/> |
+|**Code confidentiel** <br/> |Sélectionnez **Rétablir** si vous avez besoin de réinitialiser le code confidentiel pour l’utilisateur. Pour plus d’informations, consultez la rubrique [Réinitialiser le code confidentiel d’audioconférence](reset-the-audio-conferencing-pin.md).  <br/> |
+|**Autoriser les appelants non authentifiés à être les premiers à une réunion** <br/> |Sélectionnez cette option pour autoriser les appelants non authentifiés à rejoindre des réunions en premier.  <br/> |
+|**Restrictions pour les appels sortants depuis les réunions de cet utilisateur** <br/> |Sélectionnez une option dans cette liste si vous souhaitez restreindre les appels sortants aux appels nationaux uniquement, ou si vous souhaitez empêcher tous les appels sortants issus de réunions.  <br/> |
   
-![Affiche la page de propriétés de conférence Audio d’un utilisateur](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
+![Affiche la page de propriétés Audioconférence d’un utilisateur](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Gestion des paramètres d'audioconférence de mon organisation](manage-the-audio-conferencing-settings-for-my-organization.md)
+[Gestion des paramètres d’audioconférence de mon organisation](manage-the-audio-conferencing-settings-for-my-organization.md)
 
-[Questions fréquentes à propos de l'audioconférence](audio-conferencing-common-questions.md)
+[Questions fréquentes à propos de l’audioconférence](/MicrosoftTeams/audio-conferencing-common-questions)
