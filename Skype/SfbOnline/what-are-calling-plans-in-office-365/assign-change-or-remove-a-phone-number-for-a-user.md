@@ -1,5 +1,5 @@
 ---
-title: Affecter, modifier ou supprimer un numéro de téléphone d’un utilisateur
+title: Attribuer, modifier ou supprimer le numéro de téléphone d’un utilisateur
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,110 +19,119 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
-ms.openlocfilehash: e718c5c64a3778f6a3acaedcaed9b77d955446a1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: Découvrez comment attribuer, modifier ou supprimer le numéro de téléphone professionnel de vos utilisateurs Skype Entreprise pour que les entreprises et les clients extérieurs puissent appeler.
+ms.openlocfilehash: 8c80bf9da5471f1a7293a01ed9e2d56f6e1aa15b
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780938"
 ---
-# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affecter, modifier ou supprimer un numéro de téléphone d’un utilisateur
+# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Attribuer, modifier ou supprimer le numéro de téléphone d’un utilisateur
 
-Lorsque vous configurez des Plans de l’appel dans Office 365, vous assignez les numéros de téléphone à vos utilisateurs. 
+Lorsque vous configurez des Forfaits d’appel dans Office 365, vous assignez les numéros de téléphone à vos utilisateurs. 
 
-Dans le client Microsoft Teams, le numéro de téléphone que vous assignez apparaît lorsqu’ils cliquent sur **les appels**.
+Dans le client Microsoft Teams, le numéro de téléphone que vous assignez apparaît lorsqu’ils cliquent sur **Appels**.
 
-![Numéro de téléphone de l’utilisateur affiché dans Microsoft Teams.](../images/teams-phone-number.png)
+![Le numéro de téléphone de l’utilisateur affiché dans Microsoft Teams.](../images/teams-phone-number.png)
 
-Dans Skype pour client d’entreprise, le numéro de téléphone que vous assignez est répertorié dans la zone **Téléphone professionnel** et ne peut pas être modifié par un utilisateur.
+Dans le client Skype Entreprise, le numéro de téléphone que vous assignez est répertorié dans le champ **Téléphone professionnel** et ne peut pas être modifié par un utilisateur.
   
-![Work Phone Number is Greyed Out.](../images/5212fa64-b55c-4398-9709-a334f3ffa749.png)
+![Le numéro de téléphone professionnel est grisé.](../images/5212fa64-b55c-4398-9709-a334f3ffa749.png)
   
 > [!IMPORTANT]
-> Si un utilisateur souhaite [modifier son numéro de téléphone pour Skype pour les entreprises](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) et le numéro de téléphone dans la Skype pour l’application de gestion ne peut pas être modifié ou est grisée, ce que signifie un administrateur a configuré et il ne peut pas être modifiée par les.
+> Si un utilisateur souhaite [Modifier son numéro de téléphone Skype Entreprise](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) et que le numéro de téléphone dans l’application Skype Entreprise ne peut pas être modifié ou est grisé, cela signifie que l’administrateur l’a configuré pour lui et qu’il ne peut pas le modifier.
   
-## <a name="assigning-a-number"></a>Affectation d'un numéro
 
-Lorsque vous configurez les utilisateurs afin qu’ils peuvent émettre et recevoir des appels téléphoniques, vous devez tout d’abord utiliser le Skype entreprise centre d’administration et affecter un numéro de téléphone, mais vous pouvez modifier ou supprimer le numéro de téléphone si vous avez besoin.
+
+Lorsque vous configurez des utilisateurs afin qu’ils puissent émettre et recevoir des appels téléphoniques, vous devez d’abord utiliser le Centre d'administration Skype Entreprise et affecter un numéro de téléphone, mais vous pouvez modifier ou supprimer le numéro de téléphone si nécessaire.
   
-Pour savoir comment obtenir des Plans de l’appel dans Office 365 et leur coût, consultez la rubrique [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coût, consultez la rubrique [Licences de modules complémentaires pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> Pour savoir si un utilisateur possède une licence est en accédant à **Skype pour le centre d’administration Business** > **vocale** > **utilisateurs Enterprise Voice** et en sélectionnant l’utilisateur. Si une licence est attribuée, il est indiqué sous **licence affecté**. Vous pouvez également utiliser le centre d’administration Office 365. 
+> Vous pouvez savoir si un utilisateur possède une licence en accédant au **centre d’administration Skype Entreprise** > **Voix** > **Utilisateurs Voix** et en sélectionnant l’utilisateur. Si une licence est affectée, elle apparaîtra sous **Licence affectée**. Vous pouvez également utiliser le centre d’administration Office 365. 
   
- **Affecter un numéro de téléphone à un utilisateur**
-  
+ ## <a name="assign-a-phone-number-to-a-user"></a>Attribution d'un numéro de téléphone à un utilisateur
+ 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Utilisation du centre d’administration de Skype Entreprise**
+ 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises**.
+2. Accédez au **Centre d’administration Office 365** > **Centres d’administration** > **Skype Entreprise**.
     
-3. Dans la navigation de gauche, cliquez sur **voix** > **utilisateurs Enterprise Voice**.
-    
-    **IMPORTANT**: pour que l'option **Voix** apparaisse dans le volet de navigation gauche du Centre d'administration Skype Entreprise, vous devez d'abord acheter au moins une **licence Entreprise E5**, une licence de composant additionnel **Système téléphonique**, ou une licence de composant additionnel **Audioconférence**.
+3. Dans le volet de navigation de gauche, sélectionnez **Voix** > **Utilisateurs Voix**.
+   > [!NOTE]
+ Pour que l’option **Voix** apparaisse dans le volet de navigation gauche du Centre d’administration Skype Entreprise, vous devez d’abord acheter au moins une **licence Entreprise E5**, une licence de complément **Système téléphonique**, ou une licence de complément **Audioconférence**.
+ 
+   
     
 4. Dans la page **Utilisateurs Voix**, cherchez et sélectionnez le ou les utilisateurs auxquels vous souhaitez affecter un numéro de téléphone.
     
 5. Dans le volet Action, cliquez sur **Affecter un numéro**.
     
-6. Dans la page **attribuer le numéro** dans la liste **Sélectionnez le numéro à attribuer** , sélectionnez le numéro de téléphone de l’utilisateur.
+6. Sur la page **Affecter un numéro**, dans la liste **Sélectionner le numéro à affecter**, sélectionnez le numéro de téléphone pour l’utilisateur.
     
     > [!TIP]
-    > Si vous ne voyez pas les numéros de téléphone répertoriés, vous devez tout d’abord à [l’obtention des numéros de téléphone pour vos utilisateurs](getting-phone-numbers-for-your-users.md) . Ou, si vous utilisez le **Skype pour le centre d’administration Business** > **vocale** > page de**numéros de téléphone** , cliquez sur **Ajouter**, puis cliquez sur **nouveaux numéros utilisateur**. 
+    > Si vous ne voyez pas de numéros de téléphone répertoriés, vous devez tout d’abord [Obtenir des numéros de téléphone pour vos utilisateurs](getting-phone-numbers-for-your-users.md). Ou, si vous utilisez le **centre d’administration Skype Entreprise** > **Voix** > page **Numéros de téléphone**, cliquez sur **Ajouter**, puis cliquez sur **Nouveaux numéros utilisateur**. 
   
-7. Pour affecter ou modifier l’adresse d’urgence associée, sous **Sélectionnez validé emplacement en cas d’urgence**, sélectionnez l’emplacement dans la liste ou, si vous avez de nombreux emplacements définis, entrez le nom de la ville dans la zone de recherche, cliquez sur **Rechercher**.
+7. Pour affecter ou modifier l’adresse d’urgence associée, sous **Sélectionner un emplacement d’urgence validé**, sélectionnez l'emplacement dans la liste ou, si de nombreux emplacements sont définis, entrez le nom de la ville dans la zone de recherche et cliquez sur **Rechercher**.
     
 8. Après avoir choisi le numéro de téléphone et l'adresse de secours, cliquez sur **Enregistrer**.
     
     > [!NOTE]
-    > En raison de la latence entre Office 365 et Skype pour Business Online, il peut éventuellement prendre jusqu'à 24 heures pour les utilisateurs à activer. Si après 24 heures, si le numéro de téléphone n’est pas correctement affecté, veuillez [contacter le support technique pour les produits métiers : aide d’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Nous sommes là pour vous aider ! 
+    > En raison de la latence entre Office 365 et Skype Entreprise Online, l’activation des utilisateurs peut prendre jusqu’à 24 heures. Si le numéro de téléphone n’est toujours pas activé dans un délai de 24 heures, [Contactez le support pour les entreprises - Aide d’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Nous sommes là pour vous aider ! 
   
-## <a name="changing-a-number"></a>Changement de numéro
 
- **Pour modifier un numéro de téléphone d’un utilisateur**
-  
+
+ ## <a name="change-a-phone-number-for-a-user"></a>Changer le numéro de téléphone d’un utilisateur
+ 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Utilisation du centre d’administration de Skype Entreprise**
+ 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises**.
+2. Accédez au **Centre d’administration Office 365** > **Centres d’administration** > **Skype Entreprise**.
     
-3. Dans la navigation de gauche, cliquez sur **voix** > **utilisateurs Enterprise Voice**.
+3. Dans le volet de navigation de gauche, sélectionnez **Voix** > **Utilisateurs Voix**.
     
 4. Dans la page **Utilisateurs Voix**, cherchez et sélectionnez le ou les utilisateurs pour lesquels vous souhaitez changer le numéro de téléphone.
     
-5. Dans le volet Actions, sous **numéro assigné**, cliquez sur **Modifier**. 
+5. Dans le volet Action, sous **Numéro attribué**, cliquez sur **Changer**. 
     
 6. Sur la page **Attribuer un numéro**, cliquez sur **Changer le numéro**.
     
 7. Sur la page **Attribuer un numéro**, dans le menu **Sélectionner le numéro à attribuer**, sélectionnez le nouveau numéro de téléphone dans la liste déroulante. 
     
-8. Pour modifier l’adresse d’urgence associée, cliquez sur **Modifier l’emplacement**, puis sous **Modifier l’adresse d’urgence à**, sélectionnez soit l’emplacement dans la liste ou, si vous avez de nombreux emplacements définis, entrez le nom de la ville dans la zone de recherche, cliquez sur **Recherche**.
+8. Pour changer l’adresse d’urgence associée, cliquez sur **Changer d’emplacement**, puis, sous **Remplacer l’adresse d'urgence par**, sélectionnez l’emplacement dans la liste ou, si de nombreux emplacements sont définis, entrez le nom de la ville dans la zone de recherche et cliquez sur **Rechercher**.
     
 9. Cliquez sur **Enregistrer**.
     
-## <a name="removing-a-number"></a>Suppression d'un numéro
 
- **Pour supprimer un numéro de téléphone d’un utilisateur**
-  
+
+ ## <a name="remove-a-phone-number-from-a-user"></a>Supprimer le numéro de téléphone d’un utilisateur
+ 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Utilisation du centre d’administration de Skype Entreprise**
+ 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises**.
+2. Accédez au **Centre d’administration Office 365** > **Centres d’administration** > **Skype Entreprise**.
     
-3. Dans la navigation de gauche, cliquez sur **voix** > **utilisateurs Enterprise Voice**.
+3. Dans le volet de navigation de gauche, sélectionnez **Voix** > **Utilisateurs Voix**.
     
 4. Dans la page **Utilisateurs Voix**, cherchez et sélectionnez le ou les utilisateurs dont vous souhaitez supprimer le numéro de téléphone.
     
-5. Dans le volet Actions, sous **numéro assigné**, cliquez sur **Supprimer**. 
+5. Dans le volet Action, sous **Attribuer un numéro**, cliquez sur **Supprimer**. 
     
 6. Dans la page **Supprimer le numéro sélectionné attribué ?**, cliquez sur **Oui**.
     
 
 ## <a name="related-topics"></a>Rubriques connexes
-[Qu’est-ce que la validation d’adresse ?](what-is-address-validation.md)
+[Qu’est-ce que la validation d’adresse ?](what-is-address-validation.md)
 
-[Gérer des numéros de téléphone pour votre entreprise](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Conditions générales relatives aux appels d'urgence](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
