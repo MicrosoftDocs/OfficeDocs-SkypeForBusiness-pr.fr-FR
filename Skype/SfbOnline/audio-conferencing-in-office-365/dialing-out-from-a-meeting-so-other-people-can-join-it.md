@@ -1,5 +1,5 @@
 ---
-title: Appels sortants à partir d’un Skype pour une réunion professionnelle afin que les autres personnes peut joindre
+title: Utilisation d’un appel sortant dans une réunion Skype Entreprise pour permettre à d’autres personnes de participer à cette réunion
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,22 +18,22 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 392b237c36841990caacbaafd7c6d3dd8ebc7d77
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
-ms.translationtype: MT
+description: Découvrez ce dont vous avez besoin et comment les organisateurs de réunion peuvent appeler d’autres personnes avec Skype Entreprise.
+ms.openlocfilehash: 9edf87ee8c4b2b931463a1bb6725d8967bc2325d
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490464"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779229"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Appels sortants à partir d’un Skype pour une réunion professionnelle afin que les autres personnes peut joindre
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Utilisation d’un appel sortant dans une réunion Skype Entreprise pour permettre à d’autres personnes de participer à cette réunion
 
 > [!NOTE]
-> Si vous recherchez des informations sur la numérotation à partir d’une réunion d’équipes, voir [appels sortants à partir d’une réunion d’équipes afin que les autres personnes peuvent joindre](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
+> Si vous recherchez des informations sur les appels sortants depuis une réunion Teams, voir [Appels sortants à partir d’une réunion Teams afin que d’autres personnes la rejoignent](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
-En tant qu’organisateur de la réunion, vous pouvez vous connecter à l’aide de la Skype pour l’application de gestion pour permettre aux autres personnes rejoignent la réunion même à l’aide de leur téléphone. Même si ce n'est pas obligatoire, lorsque vous appelez quelqu'un, il est recommandé de composer le numéro complet, avec l'indicatif du pays ou de la région. Pour que l'appel sortant aboutisse :
+En tant qu’organisateur de la réunion, vous pouvez passer un appel sortant avec l’application Skype Entreprise pour permettre à d'autres personnes de participer à la réunion en utilisant leur téléphone. Même si ce n'est pas obligatoire, lorsque vous appelez quelqu'un, il est recommandé de composer le numéro complet, avec l'indicatif du pays ou de la région. Pour que l'appel sortant aboutisse :
   
-- Vous pouvez composer en sortie uniquement si vous participez à une réunion en utilisant un Skype pour l’application de gestion.
+- Vous ne pouvez passer un appel sortant que si vous participez à une réunion par le biais d’une application Skype Entreprise.
     
 - En tant qu'organisateur de la réunion, vous avez été activé pour la conférence rendez-vous.
 
@@ -42,19 +42,19 @@ En tant qu’organisateur de la réunion, vous pouvez vous connecter à l’aide
 
  **Étape 1 :** dans l'invitation à la réunion, vous pouvez utiliser l'option **Inviter plus de personnes** pour composer un numéro de téléphone.
   
-![Dial-out with Skype for Business.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
+![Appels sortants avec Skype Entreprise.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
  **Étape 2 :** entrez le numéro de téléphone complet, y compris l'indicatif du pays/de la région dans la zone.
   
-![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![Numéro d’appel sortant dans Skype Entreprise](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## <a name="supported-countries-and-regions"></a>Pays et régions pris en charge
 
-La mise en conférence n'est disponible que vers certains pays ou certaines régions. Pour la liste complète, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+La mise en conférence n'est disponible que vers certains pays ou certaines régions. [Disponibilité des offres d’appels et d’audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur les conférences rendez-vous ?
 
-[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [Licences de module complémentaire Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     

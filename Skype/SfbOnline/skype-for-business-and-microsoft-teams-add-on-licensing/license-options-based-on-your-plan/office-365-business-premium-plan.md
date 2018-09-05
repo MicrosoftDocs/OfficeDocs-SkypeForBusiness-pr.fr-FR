@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de modules complémentaires, les fonctionnalités et comment souscrire à des forfaits pour Office 365 Business Premium. '
-ms.openlocfilehash: 35994c5b3c446bd581e9001ea1a74dd57a2426ad
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ac7a09c99b72f643ad10516009154e65c51c1e48
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23251772"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779004"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -40,32 +40,32 @@ Si vous possédez [Office 365 Business Premium](https://products.office.com/en-u
     Nous recommandons de commencer avec l'application Skype pour voir si elle répond à vos besoins. Si ce n'est pas le cas, l'option suivante vous permettra de mettre à niveau votre plan.
 
     > [!IMPORTANT]
-    > Vous devez faire basculer un curseur pour autoriser vos employés à utiliser Skype Entreprise pour rechercher des utilisateurs Skype. Voir [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
+    > Vous devez définir une bascule pour autoriser vos employés à utiliser Skype Entreprise pour rechercher des utilisateurs Skype. Voir [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
 
 
 - **Option 2. Mettez à niveau votre forfait et acheter un Système téléphonique et un forfait d'appels local ou national**.
 
     > [!Important]
-    > Bien que le forfait 2 de Skype Entreprise Online est inclus dans l’abonnement Office Business Premium, **vous ne pouvez pas ajouter la fonctionnalités d’appel vocal sur le cloud**. Ainsi, nous vous conseillons de considérer un forfait d’entreprise E5 (ou entreprise E3) pour voir s'il ne serait pas plus rentable.
+    > Bien que le forfait 2 de Skype Entreprise Online est inclus dans l’abonnement Office Business Premium, **vous ne pouvez pas ajouter la fonctionnalités d’appel vocal sur le cloud**. Ainsi, nous vous conseillons de considérer un forfait d’entreprise E5 (ou entreprise E3) pour voir s’il ne serait pas plus rentable.
 
-1. [Basculer vers une autre offre Office 365 pour les entreprises](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Nous vous conseillons de considérer un forfait d’entreprise E5 pour voir s'il ne serait pas plus rentable.
+1. [Basculer vers une autre offre Office 365 pour les entreprises](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Nous vous conseillons de considérer un forfait d’entreprise E5 pour voir s’il ne serait pas plus rentable.
 
 2. Acheter le module complémentaire **Système téléphonique**.
+    
+3. Acheter un [Forfait d'appels pour Office 365](/MicrosoftTeams/calling-plans-for-office-365) : vous ne pouvez en acheter que si vous possédez le module complémentaire **Système téléphonique**.
+    
+    Cette option est idéale pour les entreprises où quelques personnes passent et reçoivent des appels téléphoniques extérieurs.
 
-3. Acheter un [Forfait d'appels pour Office 365](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md) : vous ne pouvez en acheter uniquement si vous possédez le module complémentaire **Système téléphonique**.
-
-    Cette seconde option est idéale pour les entreprises où quelques personnes passent et reçoivent des appels téléphoniques extérieurs.
-
-## <a name="how-to-see-prices-and-buy"></a>Comment connaître les prix et procéder à l'achat
+## <a name="how-to-see-prices-and-buy"></a>Comment connaître les prix et procéder à l’achat
 <a name="bkmk_buypremium"> </a>
 
- **Pour obtenir des Audioconférences et des Crédits de Communication :**
+ **Pour obtenir les Audioconférences et des Crédits de Communication :**
 
 1. Connectez-vous au Centre d'administration Office 365.
 
 2. Accédez à **Facturation** > **Abonnements** > **Modules complémentaires** > **Acheter des modules complémentaires**.
 
-   ![Pour acheter la licence d'un module complémentaire, choisissez Acheter des modules complémentaires.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![Pour acheter la licence d’un module complémentaire, choisissez Acheter des modules complémentaires.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. Vous allez maintenant voir les prix et l’option d’achat d’audioconférence et configurer des Crédits de Communications.
 
@@ -75,6 +75,6 @@ Si vous possédez [Office 365 Business Premium](https://products.office.com/en-u
 
 2. Rendez-vous sur Centre d'administration Office 365 > **Facturation** > **Abonnements**.
 
-3. Sélectionnez **Modules complémentaires**. Vous allez maintenant voir les prix du Système téléphonique ainsi que son option d'achat.
+3. Sélectionnez **Modules complémentaires**. Vous allez maintenant voir les prix du Système téléphonique ainsi que son option d’achat.
 
 4. Après avoir acheté une licence **Système téléphonique**, vous verrez le prix et l’option pour acheter un Forfait d'appels.
