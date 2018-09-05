@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Monaco.
-ms.openlocfilehash: df4ae2593127d1dcba7d45397ac7a6d991f80419
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3d5d0c0ee8165fa980f7f6a36cd115aa2b5a34b1
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783309"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829097"
 ---
 # <a name="availability-in-monaco"></a>Disponibilité dans Monaco
 
@@ -40,7 +40,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Non  <br/> |
-|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Non disponible  <br/> |
+|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Requiert les crédits de communication  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
 

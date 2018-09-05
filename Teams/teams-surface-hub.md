@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96eb92c45af065b5f09ab9312f79198377067c4a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: aed0cc2b26fa55dcf47b2d90bbd974720c371663
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246157"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829265"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer les équipes Microsoft Surface concentrateur
 ======================================
@@ -157,7 +157,7 @@ Ces instructions sont pour l’installation des équipes concentrateur de Surfac
 Il existe deux options pour la configuration de la stratégie d’application appelant et réunions par défaut : 
 
 - **Option 1**: configurer via une clé USB. 
-- **Option 2**: configurer via Mobile Device Manager tels que InTune.
+- **Option 2**: configurer via Mobile Device Manager tels que Intune.
  
 ### <a name="option-1-configure-via-usb-key"></a>Option 1 : Configurer via une clé USB 
  
@@ -180,9 +180,11 @@ Les packages se trouvent sur cette [page de téléchargement](https://1drv.ms/f/
 9. Redémarrez le dispositif Hub de la surface d’exposition. 
 10. Après le redémarrage de l’appareil, vous devez être en mesure de démarrer l’application des équipes à partir de l’écran d’accueil et participer à une réunion à partir du calendrier. 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2 : Configurer via Mobile Device Manager tels que InTune 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2 : Configurer via Mobile Device Manager tels que Intune 
 
-Utilisez ce qui suit pour configurer la stratégie par défaut les réunions et les appels d’application via InTune.
+Utilisez ce qui suit pour configurer la stratégie par défaut les réunions et les appels d’application via Intune.
+
+.
 
 |Paramètre   |Valeur    |Description    |
 |----------|---------|---------|
