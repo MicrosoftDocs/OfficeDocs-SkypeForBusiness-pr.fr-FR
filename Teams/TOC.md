@@ -105,25 +105,20 @@
 <!-- ============================================================ -->
 # Gérer
 ## [Qualité de consulter le Guide de l’expérience](quality-of-experience-review-guide.md)
-## Appel analytique
+## Surveiller la qualité des appels et qualité de service
+### [Qualité de service (QoS) dans Teams](QoS-in-Teams.md)
+### [Appel Analytique et tableau de bord de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Configurer Analytique d’appel](set-up-call-analytics.md)
 ### [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Appel Analytique et tableau de bord de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
-
+### [Classification des flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md)
 ## Dépannage et assistance
 ### [Problèmes connus dans Teams](Known-issues.md)
 ### [Ressources de support pour Teams](support-resources.md)
 ### [Dépannage des problèmes de connectivité avec le client Microsoft Teams](connectivity-issues.md)
 ### [Utiliser des fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
 ### [Vérifier l'intégrité du service pour Microsoft Teams](service-health.md)
-## Contrôler la qualité des appels et la qualité de service
-### [Qualité de service (QoS) dans Teams](QoS-in-Teams.md)
-### [Appel Analytique et tableau de bord de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Configurer l'analyse des appels Skype Entreprise](set-up-call-analytics.md)
-### [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels Skype Entreprise](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Classification des flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md)
+
 <!-- ============================================================ -->
 
 
