@@ -16,60 +16,63 @@ f1keywords:
 - ms.lync.lac.MeetingInvitation
 ms.custom:
 - Setup
-description: 'Personnaliser les invitations aux réunions de Skype avec graphiques logos, aide et URL juridiques et texte de pied de page. '
-ms.openlocfilehash: f6c5c65c1f12010a6ee6cc625748dfa0287a856a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
-ms.translationtype: MT
+description: "Personnaliser les invitations aux réunions de Skype avec logos graphiques, URL d'assistance, URL juridique, et texte de pied de page. "
+ms.openlocfilehash: 1f53ce183ebe62923948a33a7ac6b14f3c61f04a
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19500553"
 ---
 # <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
-En tant qu’administrateur, vous pouvez vous assurer que tous les Skype pour les invitations aux réunions d’entreprise incluent des informations utiles, vos utilisateurs risquent d’avoir, par exemple des liens vers votre site Web de support et de responsabilité, le logo de votre société et tout autre texte que vous souhaitez inclure. 
+En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations aux réunions Skype Entreprise incluent des informations utiles pour vos utilisateurs, telles que des liens vers votre site web d'assistance et vos mentions légales, le logo de votre société, et tout texte que vous souhaitez inclure. 
   
 ## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Conseils pour la création d’un logo pour les invitations aux réunions
 <a name="__top"> </a>
 
-1. Créer une image qui n’est pas plus de 188 pixels de large sur 30 pixels en hauteur (il est relativement petite).
+1. Créez une image qui n’a pas plus de 188 pixels de large par 30 pixels de haut (très petite).
     
-2. Enregistrer l’image au format JPG.
+2. Enregistrez l’image au format JPG.
     
-3. Stocker l’image dans un emplacement central qui peuvent accéder à toutes les personnes de votre entreprise, tel qu’un partage réseau, OneDrive partagé pour le dossier Professionnel, échange, etc..
+3. Stockez l’image dans un emplacement central auquel tout le monde dans votre entreprise peut accéder, par exemple un partage réseau, un dossier partagé OneDrive Entreprise, Dropbox, etc.
     
-    Maintenant vous pouvez l’ajouter à vos invitations à une réunion. Consultez les étapes suivantes.
+    Vous pouvez maintenant l’ajouter à vos invitations aux réunions. Voici les étapes suivantes.
     
-## <a name="customize-your-meeting-invitations"></a>Personnaliser vos invitations à une réunion
+## <a name="customize-your-meeting-invitations"></a>Personnaliser vos invitations aux réunions
 <a name="__top"> </a>
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
-    
-2. Le centre d’administration Office 365, choisissez **administration centres** > **Skype pour les entreprises**.
-    
-3. Dans le Skype pour le centre d’administration Business, choisissez **des réunions en ligne**. 
-    
-4. Complétez les zones suivantes :
-    
-    ![Voici à quoi il pourrait ressembler quand vous remplissez le formulaire pour personnaliser vos invitations à une réunion.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Utilisation du centre d’administration de Skype Entreprise**
 
-   **URL de logo :** Entrez l’URL où se trouve votre logo. N’oubliez pas qu’il doit être au format JPG ! 
+1. Connectez-vous à Office 365 avec votre compte professionnel ou scolaire.
+    
+2. À partir du centre d’administration Office 365, choisissez **Centres d'administration** > **Skype Entreprise**.
+    
+3. Dans le centre d’administration Skype Entreprise, choisissez **réunions en ligne**. 
+    
+4. Renseignez les champs suivants :
+    
+    ![Voici ce que vous obtiendriez lorsque vous remplissez le formulaire pour personnaliser vos invitations aux réunions.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+
+   **URL du logo :** Entrez l’URL où est stocké votre logo. N’oubliez pas qu’il doit être au format JPG ! 
  
-   **URL d’aide :** Si votre organisation dispose d’un site Web que vous souhaitez faire atteindre s’ils ont des problèmes, tapez l’URL ici. 
+   **URL de l’aide :** si votre organisation dispose d’un site web d'assistance accessible en cas de problèmes, entrez son URL ici. 
 
-   **Juridique URL :** Si votre organisation possède un site juridique que vous souhaitez faire atteindre s’ils ont des problèmes d’ordre légales, tapez l’URL ici.
+   **URL juridique :** si votre organisation dispose d’un site web juridique accessible pour des questions juridiques, entrez son URL ici.
     
-   **Texte de pied de page :** Permet d’entrer une note que le texte qui convient à vos utilisateurs.  
+   **Texte de pied de page :** entrez un pied de page en lecture seule qui convient pour vos utilisateurs.  
   
    
 5. Cliquez sur **Enregistrer**.
     
-6. Attendez une heure pour que vos modifications sont remplies pour tous les services d’Office 365. Aller à Outlook, puis planifier une réunion Skype pour obtenir un aperçu de vos modifications. 
+6. Attendez une heure pour que les modifications soient effectuées dans tous les services Office 365. Accédez à Outlook, puis planifiez une réunion Skype pour obtenir un aperçu de vos modifications. 
     
-    ![Voici une invitation personnalisée aspect, sans le graphique](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![Voici l'aspect d'une invitation personnalisée, sans l'image](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>Rubriques connexes
 <a name="__top"> </a>
 
-[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Essayer ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  
