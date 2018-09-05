@@ -1,5 +1,5 @@
 ---
-title: Définir les langues de standard automatique pour une audioconférence dans Skype pour Business en ligne
+title: Définir les langues du standard automatique pour l’Audioconférence dans Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,58 +18,58 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Voir comment sélectionner les langues standard automatique de conférence audio pour un nombre de services d’audioconférence dans Skype pour Business Online.
-ms.openlocfilehash: 026a09290c6e008493784c0d883220e03d13559f
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
-ms.translationtype: MT
+description: Découvrez comment sélectionner les langues du standard automatique d’audioconférence pour un numéro d’audioconférence dans Skype Entreprise Online.
+ms.openlocfilehash: fe0abceba1f01b148f1a81163525be0750ef4980
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490514"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779074"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Définir les langues de standard automatique pour une audioconférence dans Skype pour Business en ligne
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Définir les langues du standard automatique pour l’Audioconférence dans Skype Entreprise Online
 
 > [!Note]
-> Pour plus d’informations sur la définition de la langue de standard automatique dans Microsoft Teams, voir [définir les langues de standard automatique pour une audioconférence dans les équipes Microsoft](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).
+> Pour plus d’informations sur la définition de la langue de standard automatique dans Microsoft Teams, veuillez consulter[Définir les langues de standard automatique pour l’audioconférence dans Microsoft Teams](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).
 
-Le standard automatique de conférence Audio pour Skype pour les entreprises permettre accueillir les appelants audio dans un certain nombre de différentes langues lorsqu’ils rejoignent une réunion.
+Le standard automatique d’audioconférence pour Skype Entreprise permet d’accueillir les appelants dans un certain nombre de langues différentes lorsqu’ils rejoignent une réunion.
   
-Choisissez une langue principale et jusqu'à quatre langues secondaires. La langue principale que vous avez définie est utilisée en premier et les langues secondaires seront utilisés par le standard automatique que vous sélectionnez. 
+Choisir une langue principale et jusqu’à quatre langues secondaires. La langue principale que vous définissez sera utilisée en premier, tandis que les langues secondaires seront utilisées par le standard automatique dans l’ordre que vous sélectionnez. 
   
 > [!NOTE]
->  Vous pouvez configurer les langues sur les numéros d’accès audio interne uniquement.
+>  Vous ne pouvez configurer des langues que pour les numéros de téléphone d’accès audio nationaux.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir des langues standard automatique de la conférence
+## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir les langues du standard automatique de conférence
 
-Vous devez être un [administrateur global d’Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou un [Skype pour administrateur d’entreprise](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) pour effectuer cette étape.
+Vous devez être un [administrateur global d’Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou un [administrateur Skype Entreprise](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) pour effectuer cette étape.
     
-1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio**, puis cliquez sur **Microsoft bridge**.
+1. Dans le volet de navigation de gauche du **Centre d’administration Skype Entreprise**, sélectionnez **Audioconférence**, puis cliquez sur **Pont Microsoft**.
     
-2. Sélectionnez le numéro de téléphone de conférence audio à partir de la liste et dans le volet Actions, cliquez sur **langues**. 
+2. Sélectionnez le numéro de téléphone d’audioconférence dans la liste et cliquez sur **Définir les langues** dans le volet Actions. 
     
-3. Dans la page **définir les langues** , cliquez sur la liste **langue principale** pour afficher la liste complète des langues disponibles. Si vous avez besoin, cliquez sur chacun des listes de **langues secondaires** pour sélectionner la langue secondaire.
+3. Sur la page **Définir les langues**, cliquez sur la liste **Langue principale** pour afficher la liste complète des langues disponibles. Si nécessaire, cliquez sur chacune des listes de **Langues secondaires** pour sélectionner une langue secondaire.
     
     > [!NOTE]
-    > La langue principale et les langues secondaires prises en charge sont répertoriées. L’ordre dans lequel vous sélectionnez dans les listes sera l’ordre des langues présentées aux appelants. 
+    > La langue principale et les langues secondaires prises en charge sont répertoriées. L’ordre dans lequel vous les sélectionnez dans les listes sera l’ordre des langues présentées aux appelants. 
   
 4. Cliquez sur **Enregistrer**.
     
 ## <a name="want-else-should-i-know"></a>Informations supplémentaires
 
-- Pour voir la liste des langues prises en charge pour une audioconférence, consultez [audioconférence langues prises en charge](audio-conferencing-supported-languages.md).
+- Pour voir la liste des langues prises en charge par l’audioconférence, consultez [Langues prises en charge par l’audioconférence](/MicrosoftTeams/audio-conferencing-supported-languages).
     
-- Langues peuvent être définies pour dédiée, mais pas pour les numéros de téléphone partagé.
+- Des langues peuvent être définies pour des numéros dédiés, mais pas pour des numéros de téléphone partagés.
     
-- Pour voir une liste de pays/régions dans lesquels la conférence dans Office 365 à l’aide de Microsoft en tant que le fournisseur est disponible, voir [les numéros de téléphone pour une audioconférence](phone-numbers-for-audio-conferencing.md).
+- Pour voir une liste des pays/régions dans lesquels l’audioconférence dans Office 365 utilisant Microsoft en tant que fournisseur est disponible, voir [Numéros de téléphone pour l’audioconférence](phone-numbers-for-audio-conferencing.md).
     
 ## <a name="want-to-use-windows-powershell"></a>Vous souhaitez utiliser Windows PowerShell ?
 
-Pour automatiser cette étape, vous pouvez utiliser les applets de commande [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) et [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) .
+Pour automatiser cette étape, vous pouvez utiliser les applets de commande [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) et [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684).
   
-Pour plus d’informations, voir [L’aide de Windows PowerShell faire Skype courantes pour les tâches de gestion en ligne Business](https://go.microsoft.com/fwlink/?LinkId=525038)
+Pour en savoir plus, consulter [Utiliser Windows PowerShell pour les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

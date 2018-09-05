@@ -44,7 +44,7 @@ Le tableau ci-dessous répertorie les périphériques certifiés pour le routage
 |     |   Mediant 4000 SBC       |     & #10004 ;     |    En attente     |    7.20A.200.055      |
 |     |    Mediant 1000B SBC   |    & #10004 ;      |  En attente       |    7.20A.200.055   |
 |     |   Virtual Edition SBC    |   & #10004 ;   |En attente         |     7.20A.200.055     |
-|[Ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    & #10004 ;      |   En attente      |     V6.2     |
+|[Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    & #10004 ;      |   En attente      |     V6.2     |
 |     |SBC 5210     |     & #10004 ;     |    En attente     |    V6.2      |
 |     | SBC 5400     |    & #10004 ;  |    En attente     |   V6.2    |
 |     |SBC 7000     |     & #10004 ;  |    En attente     |    V6.2      |

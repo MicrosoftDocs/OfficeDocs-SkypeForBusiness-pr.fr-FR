@@ -1,5 +1,5 @@
 ---
-title: GOV, EDU et lucratif
+title: Organisations gouvernementales, éducatives et à but non lucratif
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,22 +19,23 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Découvrez les fonctionnalités et des licences supplémentaires pour GOV, EDU et plans lucratif. '
-ms.openlocfilehash: cc0777a6dd62e8353ef381c9f0e379e552c6bf18
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: 'En savoir plus sur les licences de modules complémentaires et les fonctionnalités des forfaits pour les organisations gouvernementales, éducatives et à but non lucratif. '
+ms.openlocfilehash: bf1678efce8f6e08398147db7bb88c771da75bbb
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19493981"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU et lucratif
+# <a name="gov-edu-and-non-profit-organizations"></a>Organisations gouvernementales, éducatives et à but non lucratif
 
-La plupart des Skype pour les fonctionnalités disponibles pour .gov, .edu et les organisations caritative. Voir le tableau suivant pour plus d’informations.
+La plupart des fonctionnalités de Skype Entreprise sont disponibles pour les organisations à but non lucratif, les organisations en .gov, et en .edu. Consultez le tableau ci-dessous pour plus d’information.
 
 |**Fonctionnalité Skype Entreprise**|**Disponible pour les organisations .GOV (GCC)**|**Disponible pour les organisations .GOV (non-GCC)**|**Disponible pour les organisations .EDU**|**Disponible pour les organisations à but non lucratif**|
 |:-----|:-----|:-----|:-----|:-----|
 |Diffusion de réunion Skype  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |
-|Skype pour l’audioconférence Business  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Système de téléphone d’Office 365  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Plan d’appel Office 365  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
+|Audioconférence pour Skype Entreprise  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
+|Système téléphonique Office 365  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
+|Forfait d’appels Office 365  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
    
-Reportez-vous à la publication de blog suivante : [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
+Reportez-vous à la publication de blog suivante : [Fonctionnalités avancées Office 365 disponibles désormais pour les clients du nuage communautaire du secteur public américain](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
