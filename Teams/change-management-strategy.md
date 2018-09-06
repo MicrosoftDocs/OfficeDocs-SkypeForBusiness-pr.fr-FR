@@ -1,19 +1,20 @@
 ---
-title: "Élaborer une stratégie de gestion des modifications pour Microsoft Teams"
+title: Élaborer une stratégie de gestion des modifications pour Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Découvrez comment élaborer une stratégie de gestion des modifications pour Microsoft Teams par le biais de l'identification de vos intervenants clés, des objectifs de l'entreprise, des mesures de réussite et la gestion de votre campagne."
+description: Découvrez comment élaborer une stratégie de gestion des modifications pour Microsoft Teams par le biais de l'identification de vos intervenants clés, des objectifs de l'entreprise, des mesures de réussite et la gestion de votre campagne.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73fa7f0decc5080166e85049bb7619b9b3c29ad5
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: 17fad2be5fdd25df6708c806dc7cd40e19a066b4
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843876"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Élaborer une stratégie de gestion des modifications pour Microsoft Teams
 =======================================================
@@ -140,7 +141,7 @@ Comme dans toute campagne de communications et d'adoption, vous voudrez identifi
 
 Votre équipe du projet doit comprendre des administrateurs informatiques de votre organisation. Ces personnes auront accès aux rapports d’utilisation de Microsoft Teams Office 365 qui sont intégrés dans l’expérience du portail d’administration d’Office 365. Ces informations peuvent montrer l’utilisation de Microsoft Teams dans votre entreprise. Nous recommandons également d’obtenir des commentaires directement auprès de vos utilisateurs sur leur expérience de Teams et leurs autres idées d’utilisation. Partager ces exemples concrets de l'intérieur de votre entreprise est extrêmement utile pour parvenir à un changement soutenu au fil du temps avec votre communauté d’utilisateurs.  
 
-Vous trouverez des informations complémentaires sur les rapports d’utilisation de Microsoft Teams dans le portail d’administration d’Office 365 [ici](https://support.office.com/en-us/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+Vous trouverez des informations complémentaires sur les rapports d’utilisation de Microsoft Teams dans le portail d’administration d’Office 365 [ici](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
 > [!TIP]
 > Utilisez votre équipe publique ou votre communauté Yammer pour collecter des données d’utilisation. Partagez-les en utilisant la balise #TeamsStories afin de les récupérer facilement.  Partagez une #TeamsStory par mois sur votre intranet pour mettre en avant les employés qui adhèrent au changement afin d’accroître la productivité et la collaboration dans votre environnement.  

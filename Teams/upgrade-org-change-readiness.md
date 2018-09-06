@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36285914ac90517f54b50bb357a21822c5423f25
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cc58842ce4b5ce942d3334e79af35e19664bd6c6
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242665"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848640"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs] (media/upgrade-banner-user-readiness.png "Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs")
 
@@ -68,7 +68,7 @@ Utilisez les démarreurs de conversation suivantes pour réaliser une évaluatio
 
 
 > [!Tip]
-> Inscrire votre premiers pour le test pilote sert de champions homologue. Champions aident à faire connaître la nouvelle technologie et entraîner par exemple leurs homologues pour découvrir comment tirer profit. Pour plus d’informations sur la création d’un programme champions formelle, consultez le [guide d’adoption d’Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Votre suiveurs (traînards) peut convaincu plus avant qu’ils adoptent une nouvelle technologie. Si plus de 20 pour cent de votre organisation se situe dans cette plage, davantage de temps communiquer la valeur de la messagerie et de formation adaptée au. En outre, les prendre en charge par le biais de la modification en ouvrant une boucle de commentaires pour mieux comprendre et résoudre leurs hesitations.
+> Inscrire votre premiers pour le test pilote sert de champions homologue. Champions aident à faire connaître la nouvelle technologie et entraîner par exemple leurs homologues pour découvrir comment tirer profit. Pour plus d’informations sur la création d’un programme champions formelle, consultez le [guide d’adoption d’Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/Office_365_Adoption_Guide.pdf). Votre suiveurs (traînards) peut convaincu plus avant qu’ils adoptent une nouvelle technologie. Si plus de 20 pour cent de votre organisation se situe dans cette plage, davantage de temps communiquer la valeur de la messagerie et de formation adaptée au. En outre, les prendre en charge par le biais de la modification en ouvrant une boucle de commentaires pour mieux comprendre et résoudre leurs hesitations.
 
 #### <a name="what-percentage-of-users-fall-into-each-competency"></a>Quel pourcentage d’utilisateurs peuvent être classées dans chaque domaine d’expertise ?
 
