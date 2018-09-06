@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: c84e8b28d6a13e3dca64a08a63aa516556357dde
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 455ae4bd419dd4e92152615adc42f879168e4f15
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779770"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835030"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage Direct
 
@@ -25,7 +25,7 @@ Cet article explique comment configurer le routage Direct de Microsoft Phone Sys
 Nous vous recommandons de vérifier que votre contrôleur SBC a déjà été configuré comme recommandé par votre fournisseur SBC : 
 
 - Documentation de déploiement AudioCodes 
-- Documentation de déploiement du ruban
+- Documentation de déploiement de Communications de ruban
 
 Vous pouvez configurer votre système téléphonique de Microsoft et permettre aux utilisateurs d’utiliser le routage Direct, puis configurer Teams Microsoft en tant que client appelant par défaut en procédant comme suit : 
 

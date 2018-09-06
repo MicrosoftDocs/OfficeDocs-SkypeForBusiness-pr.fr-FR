@@ -9,12 +9,12 @@ description: Guide pratique pour le déploiement de la fonctionnalité vocale cl
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edf168d099df6c7d799cf0e513f0343f4902b67
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 64a0dd2cccfe92fe1385b40caa45551bfe91bba9
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242495"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835022"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de la réunion équipes sur le nuage
 
@@ -114,9 +114,13 @@ La taille d’un enregistrement de 1 heure est 400 Mo. Assurez-vous que vous com
 ## <a name="manage-meeting-recordings"></a>Gérer les enregistrements de réunions
 Les enregistrements de réunion sont considérées comme appartenant à un client de contenu. Si le propriétaire de l’enregistrement quitte l’entreprise, l’administrateur peut ouvrir le URL d’enregistrement de la vidéo dans Microsoft Stream en mode administrateur. L’administrateur peut supprimer l’enregistrement, mettre à jour les métadonnées de l’enregistrement ou modifier les autorisations pour l’enregistrement vidéo. Pour plus d’informations sur les [fonctionnalités d’administration dans le flux](https://docs.microsoft.com/en-us/stream/manage-content-permissions).
 
+## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Conformité et eDiscovery pour les enregistrements de réunions
+Les enregistrements de réunion sont stockés dans Microsoft Stream, Office 365 couche-c conforme. Pour prendre en charge les demandes d’e-Discovery pour les administrateurs de conformité qui souhaitent enregistrements de réunion ou un appel de Microsoft Streams, le message terminé d’enregistrement est disponible dans la fonctionnalité de recherche de contenu de la conformité pour Microsoft Teams. Les administrateurs de conformité peuvent rechercher le mot clé « enregistrer » dans la ligne d’objet de l’élément dans l’aperçu de recherche de contenu de la conformité et découvrir la réunion et les enregistrements des appels dans l’organisation. Il est indispensable pour pouvoir afficher tous les enregistrements qu’ils devront être définis dans Microsoft Stream avec un accès d’administration. Pour plus d’informations sur [l’affectation d’autorisations d’administration dans le flux](https://docs.microsoft.com/en-us/stream/assign-administrator-user-role).
+
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
 Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Windows PowerShell présente de nombreux avantages dans vitesse, la simplicité et la productivité sur qu’à l’aide du centre d’administration Office 365, tels que lorsque vous devez apporter des modifications de paramètre pour de nombreux utilisateurs en même temps. Pour prendre en main Windows PowerShell, consultez ces rubriques :
 
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+- [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [Configurer votre ordinateur pour Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525038)
+

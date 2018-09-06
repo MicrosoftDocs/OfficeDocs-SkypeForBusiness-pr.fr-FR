@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Découvrez comment configurer un contrôleur de Session bordure (SBC) pour prendre en charge plusieurs clients.
-ms.openlocfilehash: 80176a97152050cbddfe4d8b1c189cde377a7c25
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 062c8e597b62757f3fb91773444bece7f047ac51
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084497"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835014"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de Session en périphérie pour plusieurs locataires
 
@@ -51,7 +51,7 @@ Voici les étapes de mise en œuvre technique pour configurer le scénario.
 Pour obtenir les étapes détaillées sur la façon de déployer et configurer SBC pour un scénario d’hébergement SBC, reportez-vous à la documentation de SBC.
 
 - **AudioCodes :** [Notes de Configuration de routage direct](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuration de la SBC hébergeant le scénario décrit dans « Connexion AudioCodes SBC à Microsoft Teams Direct routage hébergement modèle Configuration Note ». 
-- **Ruban :** Pour les scénarios d’hébergement de SBC, uniquement la série de base est pris en charge. Reportez-vous au [Guide de Configuration de ruban SBC principaux Microsoft équipes](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe).
+- **Communications de ruban :** Pour les scénarios d’hébergement de SBC, uniquement la série de base est pris en charge. Reportez-vous au [Guide de Configuration du ruban Communications SBC principaux Microsoft équipes](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe).
 
 > [!NOTE]
 > Prêtez attention à la configuration de l’en-tête « Contacts ». L’en-tête de Contact est utilisé pour trouver le client du client sur le message invite entrant. 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Partenaires de Microsoft avec des fournisseurs SBC certifié leur SBC pour travailler avec le routage Direct.
-ms.openlocfilehash: 2ba827e734916b983c54f910b00af92fc8d74bdb
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: e17222932fd971278b3c97c2daffff9c531c21ec
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148247"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23834990"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste de contrôleurs de frontière de Session certifié pour le routage Direct
 
@@ -44,7 +44,7 @@ Le tableau ci-dessous répertorie les périphériques certifiés pour le routage
 |     |   Mediant 4000 SBC       |     & #10004 ;     |    En attente     |    7.20A.200.055      |
 |     |    Mediant 1000B SBC   |    & #10004 ;      |  En attente       |    7.20A.200.055   |
 |     |   Virtual Edition SBC    |   & #10004 ;   |En attente         |     7.20A.200.055     |
-|[Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    & #10004 ;      |   En attente      |     V6.2     |
+|[Communications de ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    & #10004 ;      |   En attente      |     V6.2     |
 |     |SBC 5210     |     & #10004 ;     |    En attente     |    V6.2      |
 |     | SBC 5400     |    & #10004 ;  |    En attente     |   V6.2    |
 |     |SBC 7000     |     & #10004 ;  |    En attente     |    V6.2      |
