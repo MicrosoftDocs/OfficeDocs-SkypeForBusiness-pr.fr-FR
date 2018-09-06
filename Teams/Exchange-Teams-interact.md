@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a89f3670d2dda14ae5d15647213aca5d1d5398af
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 3cf488377302fda32ff1c569c114818977ea10fc
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569914"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599359"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams 
 =========================================
@@ -37,7 +37,7 @@ Le tableau suivant fournit des informations aux utilisateurs pour lesquels Excha
 |**Exchange Online**|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
 |**vNext Exchange Online dédié**|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
 |**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Non|Non|Oui|Non|Non|Oui|Oui|Non|Oui (Exchange 2013 +)|Non|Oui|Oui|
-|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Non|Non|Oui|Oui (Exchange 2016 CU3 +)|Non|Oui|Oui|Non|Oui (Exchange 2013 +)|Non|Oui|Oui|
+|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Non|Non|Oui|Oui (Exchange 2016 CU3 +)|Non|Oui|Oui|Non|Oui (Exchange 2013 +)|Non|Non|Oui|
                                                             
 *\*Prise en charge d'Exchange 2016 CU3 et versions ultérieures*
 

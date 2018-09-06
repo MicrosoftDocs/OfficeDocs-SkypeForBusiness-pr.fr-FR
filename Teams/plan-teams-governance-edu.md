@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf271132e9de19d5952e05e12b91b3a9e87ea529
-ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
+ms.openlocfilehash: 4991990143b0292f83b5c71b8b2bf01a5d612184
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "22331269"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599453"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Gouvernance Microsoft Education FAQ pour les administrateurs
 
@@ -30,9 +30,9 @@ Pour éviter les noms inappropriés ou trompeuses, ou seulement pour fournir une
 -   **Classification** Vous pouvez créer des classifications que les utilisateurs de votre organisation peuvent définir lorsqu’ils créent un groupe d’Office 365. 
 
 > [!IMPORTANT]
-> Nom de stratégie de groupe requiert Azure Active Directory Premium P1 licence pour les utilisateurs uniques qui sont membres des groupes d’Office 365.
+> À l’aide de la stratégie d’attribution de noms Office 365 groupes nécessite des licences d’Azure Active Directory Premium P1 ou licences EDU Azure AD base pour chaque utilisateur unique qui est un membre d’un ou plusieurs groupes d’Office 365.
 
-Pour obtenir des instructions détaillées, voir [stratégie de noms de groupe de bureau](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+Pour obtenir des instructions détaillées, voir [stratégie de noms de groupes de Office](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 > [!Note]
 > Si les équipes sont créées automatiquement à l’aide de l’entrée d’un autre système (par exemple, synchronisation des données école), vérifiez que les données d’entrée est conforme à la stratégie d’attribution de noms que vous avez configuré ; Si elle ne, de l’équipe création échouera.
@@ -57,6 +57,9 @@ Au début de chaque semestre ou d’un trimestre, vous aurez besoin d’un certa
 -   PowerShell, vous pouvez créer des canaux et des équipes et configurer les paramètres automatiquement. Pour plus d’informations, voir [Microsoft équipes PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
 -   Vous pouvez utiliser l’API de graphique Microsoft (actuellement en version bêta) pour créer, configurer, cloner et archiver les équipes. Pour plus d’informations, voir [utiliser l’API de graphique Microsoft pour travailler avec les équipes Microsoft](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) .
 
+> [!TIP]
+> Synchronisation des données de l’école crée un groupe d’Office 365 pour chaque classe synchronisés et [permet l’appartenance au groupe masqué](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) afin que seuls les enseignants et étudiants au sein de la classe peuvent afficher les membres de cette classe. Si vous utilisez un autre processus pour créer des groupes de classe utilisent le paramètre HiddenGroupMembershipEnabled de l’applet de commande New-UnifiedGroup pour satisfaire les exigences de confidentialité même.
+
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>Comment gérer avec des équipes du trimestre ou semestre fin ?
 
 Il est recommandé que vous pensez tout d’abord comment vous souhaitez gérer les données des équipes lorsque le semestre école ou un trimestre est sur : s’il faut supprimer ou conserver disponibles pour les étudiants même une fois qu’ils ont effectuées au cours. Vous souhaiterez n’oubliez pas le calendrier de l’école afin que les stratégies que vous définissez n’entre en conflit avec les jours fériés. Vous pouvez utiliser les outils suivants pour implémenter votre stratégie :
@@ -66,6 +69,9 @@ Il est recommandé que vous pensez tout d’abord comment vous souhaitez gérer 
 
 -   **Équipe archive :** Ce paramètre place les équipes en mode lecture seule. Peut toujours être explorés et recherchés, mais aucun participant ne peut ajouter les nouvelles publications. [Archivage ou restauration d’une équipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) décrit comment les propriétaires de l’équipe peuvent archiver une équipe ; Propriétaires de l’équipe pouvant également utiliser l' [API de graphique (bêta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) à archiver ou restaurer une équipe.
  
+> [!IMPORTANT]
+> À l’aide de la stratégie d’Expiration de Office 365 groupes nécessite des licences d’Azure Active Directory Premium P1 pour chaque utilisateur unique qui est un membre d’un ou plusieurs groupes d’Office 365.
+
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>Y a-t-il des modèles d’équipe pour mon enseignants à utiliser lors de la création d’une équipe ?
 
 Oui. Les utilisateurs peuvent sélectionner **Créer une équipe à partir de modèles de sécurité existants** lors de la création d’une nouvelle équipe, et les propriétaires des équipes peuvent également utiliser l' [API de graphique (bêta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) pour créer une nouvelle équipe à partir des modèles disponibles.

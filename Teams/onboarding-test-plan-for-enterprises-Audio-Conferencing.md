@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a561e6d81394aa9bf7c3e1b9b8b0ac9f2b3a7ed
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 8295884d973dc873a7646be629bd639adba2156a
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695581"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779124"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Définissez et documentez votre conférence Audio dans le plan de test des équipes pour les entreprises 
 ===============================================================================
@@ -655,7 +655,7 @@ Identifier et documenter toutes les informations de compte (y compris le nom uti
 En règle générale, vous pouvez trouver les informations que vous avez besoin dans la dernière lettre ou la facture à partir de votre fournisseur de services en cours.
 
 > [!TIP]
-> Vous pouvez déplacer ou transfert des numéros de téléphone dans toutes les actuellement pris en charge pays/régions ; Toutefois, la manière de vous soumettez une demande de commande de port peut-être différer en fonction du pays ou région dans lequel les numéros de téléphone sont issus. Pour connaître la liste des pays/régions actuellement pris en charge, consultez la rubrique [pays et disponibilité dans la région de conférence Audio et des Plans de l’appel](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). < /br/ ><br/>
+> Vous pouvez déplacer ou transfert des numéros de téléphone dans toutes les actuellement pris en charge pays/régions ; Toutefois, la manière de vous soumettez une demande de commande de port peut-être différer en fonction du pays ou région dans lequel les numéros de téléphone sont issus. Pour connaître la liste des pays/régions actuellement pris en charge, consultez la rubrique [pays et disponibilité dans la région de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). < /br/ ><br/>
 >   Pour plus d’informations sur le transfert des numéros de téléphone à la conférence Audio, ainsi que les restrictions potentielles — voir [transférer des numéros de téléphone vers Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) et [composer le numéro payant restrictions dans Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
 
 #### <a name="step-3"></a>Étape 3

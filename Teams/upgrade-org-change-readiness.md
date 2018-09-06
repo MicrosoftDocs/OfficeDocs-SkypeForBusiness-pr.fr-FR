@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc6cc0f6b4208ddfe4975760a5e9d7874a7e5665
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 36285914ac90517f54b50bb357a21822c5423f25
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398044"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242665"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs] (media/upgrade-banner-user-readiness.png "Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs")
 
@@ -31,14 +31,14 @@ Cet article fait partie de la phase de préparation des utilisateurs de votre pa
 
 # <a name="assess-organizational-change-readiness"></a>Évaluer la préparation de la modification de l’organisation
 
-Après avoir sécurisé votre équipe de projet et défini votre vision, la portée et les objectifs, l’étape suivante dans votre parcours de mise à niveau consiste à s’assurer que votre organisation et les utilisateurs sont prêts pour les équipes — une activité que vous effectuez en parallèle à vérifier votre préparation à la technique. Pour tirer profit des équipes, les utilisateurs doivent effectivement l’utiliser. Simplement permettant aux équipes ne garantit pas le faire.  Les utilisateurs ont différents cas d’usage et des différents types de formation, et ils s’adapter aux nouvelles technologies différentes vitesses. La bonne nouvelle est que la gestion du changement n’est pas compliquée que, mais il ne prend pas un effort ayant le focus. Les discussions guidées ci-dessous sont conçues pour vous aider à comprendre votre base d’utilisateurs afin de pouvoir vous préparer le niveau de formation de faciliter et d’accélérer l’adoption de l’utilisateur. Il existe trois méthodes que vous devez examiner votre base d’utilisateurs : 
+Après avoir sécurisé votre équipe de projet et défini votre vision, la portée et les objectifs, l’étape suivante dans votre parcours de mise à niveau consiste à s’assurer que votre organisation et les utilisateurs sont prêts pour les équipes — une activité que vous effectuez en parallèle à vérifier votre préparation à la technique. Pour tirer profit des équipes, les utilisateurs doivent effectivement l’utiliser. Simplement permettant aux équipes ne garantit pas le faire.  Les utilisateurs ont différents cas d’usage et des différents types de formation, et ils s’adapter aux nouvelles technologies différentes vitesses. La bonne nouvelle est que la gestion du changement n’est pas compliquée que, mais il ne prend pas un effort ayant le focus. Les discussions guidées ci-dessous sont conçues pour vous aider à comprendre votre base d’utilisateurs afin de pouvoir vous préparer le niveau de formation de faciliter et d’accélérer l’adoption de l’utilisateur. Il existe trois méthodes que vous devez examiner votre base d’utilisateurs :
 
 -   **Organisation modifier préparation**: présentation rapidité (ou non) les utilisateurs généralement réagissent pour modifier. Ces informations vous aideront à informer la quantité de sensibilisation, formation, et la vente valeur vous devrez peut-être faire pour encourager l’adoption utilisateur.
 -   **Cas d’utilisation**: évaluer la façon dont la nouvelle technologie à améliorer la productivité des utilisateurs. Ces informations modifiera pertinents pour les utilisateurs en fonction de leur fonctionnement.
 -   **Personnages**: évaluer les personnes ou les groupes peut-être nécessiter une attention personnalisée. Ces informations vous pourrez cible formation et de sensibilisation à ceux qui attendent ou une attention plus précis (par exemple, les cadres).
 
 > [!Note]
-> Vous pouvez adapter les activités d’évaluation fournies ci-dessous pour toute initiative de modification de votre organisation. Adresses simplement les questions en fonction de l’étendue de votre projet. Dans les discussions suivantes, « nouvelle solution » peut s’appliquent au système audio de l’appel, audioconférence ou votre mise à niveau à partir de Skype pour Business aux équipes. 
+> Vous pouvez adapter les activités d’évaluation fournies ci-dessous pour toute initiative de modification de votre organisation. Adresses simplement les questions en fonction de l’étendue de votre projet. Dans les discussions suivantes, « nouvelle solution » peut s’appliquent au système audio de l’appel, audioconférence ou votre mise à niveau à partir de Skype pour Business aux équipes.
 
 |    |     |
 |-----------|------------|
@@ -68,11 +68,11 @@ Utilisez les démarreurs de conversation suivantes pour réaliser une évaluatio
 
 
 > [!Tip]
-> Inscrire votre premiers pour le test pilote sert de champions homologue. Champions aident à faire connaître la nouvelle technologie et entraîner par exemple leurs homologues pour découvrir comment tirer profit. Pour plus d’informations sur la création d’un programme champions formelle, consultez le [guide d’adoption d’Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Votre suiveurs (traînards) peut convaincu plus avant qu’ils adoptent une nouvelle technologie. Si plus de 20 pour cent de votre organisation se situe dans cette plage, davantage de temps communiquer la valeur de la messagerie et de formation adaptée au. En outre, les prendre en charge par le biais de la modification en ouvrant une boucle de commentaires pour mieux comprendre et résoudre leurs hesitations. 
+> Inscrire votre premiers pour le test pilote sert de champions homologue. Champions aident à faire connaître la nouvelle technologie et entraîner par exemple leurs homologues pour découvrir comment tirer profit. Pour plus d’informations sur la création d’un programme champions formelle, consultez le [guide d’adoption d’Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Votre suiveurs (traînards) peut convaincu plus avant qu’ils adoptent une nouvelle technologie. Si plus de 20 pour cent de votre organisation se situe dans cette plage, davantage de temps communiquer la valeur de la messagerie et de formation adaptée au. En outre, les prendre en charge par le biais de la modification en ouvrant une boucle de commentaires pour mieux comprendre et résoudre leurs hesitations.
 
 #### <a name="what-percentage-of-users-fall-into-each-competency"></a>Quel pourcentage d’utilisateurs peuvent être classées dans chaque domaine d’expertise ?
 
-<!-- 
+<!--
 | **Type of learner**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
 | *Self-motivated* learners seek out resources, learn by doing.                      |       |
@@ -84,7 +84,7 @@ Utilisez les démarreurs de conversation suivantes pour réaliser une évaluatio
 | Ces stagiaires les ressources de recherche, d’apprendre. | Ces utilisateurs bénéficient de groupe et formation interactive ; ils accédez avec vos collègues. | Ces utilisateurs prévoient « GANT blanc » ou assistance en tête-à-tête. |
 
 > [!Tip]
-> Pas tout le monde reçoit la même manière. Pour ceux qui sont motivés automatique, pointez sur des vidéos en ligne et les articles de la formation de Microsoft. Si au moins 20 pour cent sont équipe, inscrire votre équipe de formation ou d’un partenaire pour apporter live interactif de formation (en personne ou en ligne). En règle générale, vous trouverez des cadres ou ciblés rôles dans la catégorie de main-exploitation. Il s’agit d’un groupe critique qui pourraient bénéficier de sessions de formation personnalisés, court. Inscrire votre champions afin de faciliter la formation à ces utilisateurs, pour une expérience optimale. 
+> Pas tout le monde reçoit la même manière. Pour ceux qui sont motivés automatique, pointez sur des vidéos en ligne et les articles de la formation de Microsoft. Si au moins 20 pour cent sont équipe, inscrire votre équipe de formation ou d’un partenaire pour apporter live interactif de formation (en personne ou en ligne). En règle générale, vous trouverez des cadres ou ciblés rôles dans la catégorie de main-exploitation. Il s’agit d’un groupe critique qui pourraient bénéficier de sessions de formation personnalisés, court. Inscrire votre champions afin de faciliter la formation à ces utilisateurs, pour une expérience optimale.
 
 ## <a name="use-cases"></a>Cas d’utilisation
 
@@ -127,14 +127,14 @@ Le tableau suivant montre un exemple d’un cas d’utilisation.
 
 
 > [!Tip]
-> Besoin d’aide pour commencer ? Visitez la bibliothèque de la productivité : http://aka.ms/productivitylibrary.
+> Besoin d’aide pour commencer ? Visitez la bibliothèque de la productivité : https://aka.ms/productivitylibrary.
 
 ## <a name="personas"></a>Personnages
 
-En effectuant l’analyse au niveau de personnes, vous comprenez votre personnages utilisateur et cas d’utilisation. Temps passé à comprendre qui sont vos utilisateurs et comment ils fonctionnent, vous allez assurer qu’ils ont qu’ils doivent être réussie en place la modification. Il peut s’agir de messagerie ciblé, formation ou même appareils tels que des casques webcams. Par exemple, un responsable peut attendre en tête-à-tête formation pendant un représentant commercial en déplacement peut-être bénéficier d’une formation vidéo, qu'ils peuvent regarder à leur convenance. En outre, votre analyse au niveau des personnes pouvant aider à identifier qui peut atteindre équipes aujourd'hui et qui peut être préférable d’attendre ultérieurement. 
+En effectuant l’analyse au niveau de personnes, vous comprenez votre personnages utilisateur et cas d’utilisation. Temps passé à comprendre qui sont vos utilisateurs et comment ils fonctionnent, vous allez assurer qu’ils ont qu’ils doivent être réussie en place la modification. Il peut s’agir de messagerie ciblé, formation ou même appareils tels que des casques webcams. Par exemple, un responsable peut attendre en tête-à-tête formation pendant un représentant commercial en déplacement peut-être bénéficier d’une formation vidéo, qu'ils peuvent regarder à leur convenance. En outre, votre analyse au niveau des personnes pouvant aider à identifier qui peut atteindre équipes aujourd'hui et qui peut être préférable d’attendre ultérieurement.
 
 Commencez par segmentation de votre base d’utilisateurs en groupes personnage/cohorte (par exemple, les cadres, « nomades », collaboratives travailleurs ou vente au détail). Pour la gestion, conservez votre liste aux groupes pas plus de huit.
- 
+
 ### <a name="activity"></a>Activité
 
 Identifier les profils utilisateur cible qui a besoin d’assistance de préparation technique ou d’un utilisateur spécifique. Voir ci-dessous pour une évaluation de personnage exemple pour un profil Executive.
