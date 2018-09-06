@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: Découvrez comment Live événements permettent aux utilisateurs de diffusion vidéo et de contenu à grande audiences en ligne dans Microsoft Teams, Yammer et Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad798ae4b0fa1fc5d2430f418c43c716a1f2ed74
-ms.sourcegitcommit: bc125c655e76129b086f821011f63a983fb23e7b
+ms.openlocfilehash: 21f524d6156e13f5c27fe12da97dd287c9f2f3bc
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22554068"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846620"
 ---
 # <a name="what-are-teams-live-events"></a>Quelles sont les équipes live événements ?
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -47,8 +47,8 @@ Les événements dans 365 Microsoft live prend en charge un large éventail de s
 ### <a name="streaming-platform"></a>Plateforme de diffusion en continu
 La plate-forme de diffusion en continu live événement est composée des quatre éléments suivants :
 
-- **Services multimédias Azure** [Azure Media Services](https://docs.microsoft.com/en-us/azure/media-services/previous/) vous donne la qualité de la diffusion des services de diffusion en continu vidéo pour atteindre le plus grand public sur les appareils mobiles les plus populaires d’aujourd'hui.   Media Services améliore l’accessibilité, de distribution et l’évolutivité et rend facile et économique en continu dans votre magasin local ou dans le monde entier, tout en protégeant votre contenu.
-- **Réseau Azure livraison de contenu (CDN)**  Une fois votre flux de données publié, il est fourni par le biais du [Azure réseau CDN (Content Delivery)](https://docs.microsoft.com/en-us/azure/cdn/). Azure Media Services fournit CDN intégrée pour transmettre en continu des points de terminaison. Ainsi, pour les flux de données à afficher dans le monde entier avec aucune mise en mémoire tampon.
+- **Services multimédias Azure** [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) vous donne la qualité de la diffusion des services de diffusion en continu vidéo pour atteindre le plus grand public sur les appareils mobiles les plus populaires d’aujourd'hui.   Media Services améliore l’accessibilité, de distribution et l’évolutivité et rend facile et économique en continu dans votre magasin local ou dans le monde entier, tout en protégeant votre contenu.
+- **Réseau Azure livraison de contenu (CDN)**  Une fois votre flux de données publié, il est fourni par le biais du [Azure réseau CDN (Content Delivery)](https://docs.microsoft.com/azure/cdn/). Azure Media Services fournit CDN intégrée pour transmettre en continu des points de terminaison. Ainsi, pour les flux de données à afficher dans le monde entier avec aucune mise en mémoire tampon.
 - **Enterprise Content Delivery Network (eCDN)**  L’objectif d’eCDN consiste à prendre le contenu vidéo à partir d’internet et distribuer le contenu dans toute l’entreprise sans affecter les performances réseau. Vous pouvez utiliser une des options suivantes eCDN partenaires certifiés pour optimiser votre réseau pour les événements Live organisées au sein de votre organisation :
     - Ruche
     - Kollective
@@ -140,9 +140,9 @@ Vous pouvez utiliser événements live équipes dans plusieurs régions du monde
 Lorsque vous configurez pour les événements en direct, il existe plusieurs étapes à suivre :
 
 ### <a name="step-1-set-up-your-network-for-live-events-in-microsoft-teams"></a>Étape 1 : Configurer votre réseau pour les événements live dans Microsoft Teams
-Les événements live démarrage rapide requièrent pour [préparer le réseau de votre organisation pour les équipes Microsoft](https://docs.microsoft.com/en-us/microsoftteams/prepare-network).  
+Les événements live démarrage rapide requièrent pour [préparer le réseau de votre organisation pour les équipes Microsoft](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
-### <a name="step-2-get-and-assign-licenses"></a>Étape 2 : Obtenir et attribuer des licences
+### <a name="step-2-get-and-assign-licenses"></a>Étape 2 : Obtenir et attribuer des licences
 Disposer des attributions de licence approprié pour [qui peut créer et planifier les événements live ?](#who-can-create-and-schedule-live-events) et [qui peut surveiller les événements en direct ?](#who-can-watch-live-events).
 
 ### <a name="step-3-enable-live-event-scheduling-for-users"></a>Étape 3 : Activer la planification d’événements live pour les utilisateurs
@@ -351,7 +351,7 @@ Clients pouvant utiliser les outils suivants pour gérer un grand nombre de tâc
 ### <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 Lorsqu’il s’agit de Windows PowerShell, il des informations supplémentaires sur la gestion des utilisateurs et les utilisateurs autorisés ou non autorisés. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype pour Business Online à l’aide d’un point unique d’administration qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
  - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
- - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+ - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
 
 Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
  - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)

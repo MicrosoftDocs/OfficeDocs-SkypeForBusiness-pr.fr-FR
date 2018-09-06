@@ -10,12 +10,12 @@ ms.reviewer: marcl
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b88d0767c2815e276fe791b0751fb7090f8d446
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a3f97c5a28bdbd266750c10b113ab826ab8ba272
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779429"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843988"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -32,7 +32,7 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Gestion des administrateurs de connecteurs de client à l’échelle n’est plus disponible  <br/> |Lorsque vous essayez d’ajouter un connecteur dans le client et une version en ligne nous obtenir l’erreur : une erreur inattendue s’est produite. Réessayez ultérieurement. Set-OrganizationConfig - ConnectorsEnabled = True   <br/> |Désactiver les paramètres d’équipes. Voir l’article prise en chargehttps://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |21.06.2017  <br/> |
+|Gestion des administrateurs de connecteurs de client à l’échelle n’est plus disponible  <br/> |Lorsque vous essayez d’ajouter un connecteur dans le client et une version en ligne nous obtenir l’erreur : une erreur inattendue s’est produite. Réessayez ultérieurement. Set-OrganizationConfig - ConnectorsEnabled = True   <br/> |Désactiver les paramètres d’équipes. Voir l’article prise en chargehttps://msdn.microsoft.com/microsoft-teams/connectors  <br/> |21.06.2017  <br/> |
 
 ## <a name="apps"></a>Applications
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
@@ -134,7 +134,7 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 ## <a name="meetings"></a>Réunions
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Les utilisateurs ne peuvent pas accéder aux réunions/connecteurs, mais les boîtes aux lettres Exchange Online. <br/> |Client activement bloque EWS à partir des services dans Exchange Online, mais doit être MS Teams conforme au sein de stratégies EWS. <br/> |Pour rendre MS Teams conforme, vous devez ajouter la chaîne d’Agent utilisateur pour Teams MS au sein de la EWSAllowList : `*skypespaces*`, y compris les astérisques. La commande complète est la suivante :`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Pour plus d’informations :https://docs.microsoft.com/en-us/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
+|Les utilisateurs ne peuvent pas accéder aux réunions/connecteurs, mais les boîtes aux lettres Exchange Online. <br/> |Client activement bloque EWS à partir des services dans Exchange Online, mais doit être MS Teams conforme au sein de stratégies EWS. <br/> |Pour rendre MS Teams conforme, vous devez ajouter la chaîne d’Agent utilisateur pour Teams MS au sein de la EWSAllowList : `*skypespaces*`, y compris les astérisques. La commande complète est la suivante :`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Pour plus d’informations :https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|

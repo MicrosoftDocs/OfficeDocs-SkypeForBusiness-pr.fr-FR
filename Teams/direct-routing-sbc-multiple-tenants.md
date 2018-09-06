@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Découvrez comment configurer un contrôleur de Session bordure (SBC) pour prendre en charge plusieurs clients.
-ms.openlocfilehash: 062c8e597b62757f3fb91773444bece7f047ac51
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 537058eef62197a9df8659ed4c3f50802f2f19a1
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835014"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845516"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de Session en périphérie pour plusieurs locataires
 
@@ -44,7 +44,7 @@ Voici les étapes de mise en œuvre technique pour configurer le scénario.
 2. Activer le nom du sous-domaine.
 3. Configurer la jonction de l’opérateur pour les utilisateurs de client et de mise en service du client.
 
-*Assurez-vous que vous comprenez les concepts de base DNS et comment le nom de domaine est géré dans Office 365. Avant de continuer, consultez [obtenir de l’aide avec les domaines d’Office 365](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
+*Assurez-vous que vous comprenez les concepts de base DNS et comment le nom de domaine est géré dans Office 365. Avant de continuer, consultez [obtenir de l’aide avec les domaines d’Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
 ## <a name="deploy-and-configure-the-sbc"></a>Déployer et configurer le contrôleur SBC
 
@@ -70,7 +70,7 @@ Sous-domaines **doit** correspondent au nom de nom de domaine complet de la jonc
 
 Lorsqu’un appel arrive à l’interface de routage Direct Office 365, l’interface utilise l’en-tête de Contact pour trouver le client où l’utilisateur doit être recherché. Routage direct n’utilise pas recherche de numéros de téléphone dans l’invitation, comme certains clients peut-être non-avez-vous numéros peuvent se chevaucher dans plusieurs clients. Par conséquent, le nom de domaine complet dans l’en-tête de Contact est requis pour identifier le client exact pour rechercher l’utilisateur par le numéro de téléphone.
 
-*Consultez [obtenir de l’aide avec les domaines d’Office 365](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) pour plus d’informations sur la création des noms de domaine dans les clients Office 365.*
+*Consultez [obtenir de l’aide avec les domaines d’Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) pour plus d’informations sur la création des noms de domaine dans les clients Office 365.*
 
 Le diagramme suivant résume la configuration requise pour l’en-tête de Contact, sous-domaines et le domaine de base.
 
@@ -101,7 +101,7 @@ Vous pouvez ajouter de nouveaux domaines uniquement si vous vous êtes le centre
 
 Pour valider le rôle que vous avez, connectez-vous au centre d’administration Microsoft 365 (https://portal.office.com), accédez aux **utilisateurs** > **Utilisateurs actifs**, puis vérifiez que vous disposez d’un rôle Administrateur général. 
 
-Pour plus d’informations sur les rôles d’administrateur et comment affecter un rôle dans Office 365, voir [rôles d’administrateur sur Office 365](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Pour plus d’informations sur les rôles d’administrateur et comment affecter un rôle dans Office 365, voir [rôles d’administrateur sur Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Ajouter un domaine de base au client et vérifiez qu’il
 
@@ -124,7 +124,7 @@ Pour plus d’informations sur les rôles d’administrateur et comment affecter
 
 Une fois que vous avez enregistré un nom de domaine, vous devez l’activer en ajoutant au moins un utilisateur et attribuer une adresse SIP avec la partie nom de domaine complet de l’adresse SIP correspondant à ce domaine de base créé.
 
-*Consultez [obtenir de l’aide avec les domaines d’Office 365](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) pour plus d’informations sur l’ajout d’utilisateurs dans les clients Office 365.*
+*Consultez [obtenir de l’aide avec les domaines d’Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) pour plus d’informations sur l’ajout d’utilisateurs dans les clients Office 365.*
 
 Par exemple : test@customers.adatum.biz
 
@@ -142,7 +142,7 @@ Vous pouvez ajouter de nouveaux domaines uniquement si vous vous êtes le centre
 
 Pour valider le rôle que vous avez, connectez-vous au centre d’administration Microsoft 365 (https://portal.office.com), accédez aux **utilisateurs** > **Utilisateurs actifs**, puis vérifiez que vous disposez d’un rôle Administrateur général. 
 
-Pour plus d’informations sur les rôles d’administrateur et comment affecter un rôle dans Office 365, voir [rôles d’administrateur sur Office 365](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Pour plus d’informations sur les rôles d’administrateur et comment affecter un rôle dans Office 365, voir [rôles d’administrateur sur Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Ajouter un sous-domaine au client client et vérifiez qu’il
 1. Dans le centre d’administration Microsoft 365, accédez à **configuration** > **domaines** > **Ajouter domaine**.
@@ -163,7 +163,7 @@ Pour plus d’informations sur les rôles d’administrateur et comment affecter
 
     ![Création de l’enregistrement TXT dans le fournisseur d’hébergement DNS de l’opérateur](media/direct-routing-8-sbc-txt-record.png)
 
-    Pour plus d’informations, reportez-vous à [créer des enregistrements DNS à n’importe quel fournisseur d’hébergement DNS pour Office 365](https://support.office.com/en-us/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166?ui=en-US&rs=en-US&ad=US).
+    Pour plus d’informations, reportez-vous à [créer des enregistrements DNS à n’importe quel fournisseur d’hébergement DNS pour Office 365](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
 7. Revenez au centre d’administration de Microsoft 365 du client et cliquez sur **Vérifier**. 
 8. Dans la page suivante, sélectionnez **je vais ajouter les enregistrements DNS moi-même** , puis cliquez sur **suivant**.
@@ -186,7 +186,7 @@ Pour plus d’informations sur les rôles d’administrateur et comment affecter
 
 Après avoir inscrit un nom de domaine, vous devez l’activer en ajoutant au moins un utilisateur et attribuer une adresse SIP avec la partie nom de domaine complet de l’adresse SIP correspondant le sous-domaine créé dans le client du client.
 
-*Consultez [obtenir de l’aide avec les domaines d’Office 365](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) pour plus d’informations sur l’ajout d’utilisateurs dans les clients Office 365.*
+*Consultez [obtenir de l’aide avec les domaines d’Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) pour plus d’informations sur l’ajout d’utilisateurs dans les clients Office 365.*
 
 Par exemple : test@sbc1.customers.adatum.biz
 

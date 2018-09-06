@@ -15,17 +15,17 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aed0cc2b26fa55dcf47b2d90bbd974720c371663
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 17ba794c2a0b2a09081da41b5fad5df2bee5bb4c
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829265"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844764"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer les équipes Microsoft Surface concentrateur
 ======================================
 
-Avant de déployer Microsoft Teams Microsoft Surface concentrateur, assurez-vous que le matériel, système d’exploitation et autres conditions sont réunies. Pour plus d’informations, consultez le [guide d’administration de Microsoft Surface Hub](https://docs.microsoft.com/en-us/surface-hub/).
+Avant de déployer Microsoft Teams Microsoft Surface concentrateur, assurez-vous que le matériel, système d’exploitation et autres conditions sont réunies. Pour plus d’informations, consultez le [guide d’administration de Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
 
 ## <a name="set-up-user-accounts"></a>Configurer les comptes d’utilisateurs
  
@@ -103,7 +103,7 @@ Get-MsolAccountSku
 Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
 ```
 
-7\. Ensuite, vous devez activer le compte de l’appareil avec des équipes pour le Hub de la surface d’exposition. Assurez-vous que votre environnement répond aux exigences définies dans le [guide d’administration de Microsoft Surface Hub](https://docs.microsoft.com/en-us/surface-hub/).
+7\. Ensuite, vous devez activer le compte de l’appareil avec des équipes pour le Hub de la surface d’exposition. Assurez-vous que votre environnement répond aux exigences définies dans le [guide d’administration de Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
 
 Démarrer une session Windows PowerShell à distance comme suit (veillez à installer Skype pour les composants Business Online PowerShell) :
 

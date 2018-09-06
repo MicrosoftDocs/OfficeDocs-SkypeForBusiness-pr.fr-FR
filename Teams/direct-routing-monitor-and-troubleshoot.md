@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Cet article décrit comment analyser et résoudre les problèmes de votre configuration de routage Direct.
-ms.openlocfilehash: 850fa11a6ebbd5e193c4fd7258d65714f1bc9499
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: 1a29ec3f58666752cb22bc4a8b3adbe24a0399bf
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20314968"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844772"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Surveiller et résoudre les problèmes de routage Direct
 
@@ -72,7 +72,7 @@ Vous pouvez utiliser les outils suivants pour analyser votre configuration :
 
 Le service de routage Direct a des codes d’erreur descriptif très signalés Analytique appeler ou les journaux SBC. 
 
-Le tableau de bord qualité d’appel fournit des informations sur la qualité des appels et la fiabilité. Pour savoir comment résoudre les problèmes à l’aide d’appel d’Analytique, voir [activation et à l’aide d’appels de tableau de bord qualité pour les équipes Microsoft et Skype pour Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) et [Utiliser appel Analytique pour résoudre les problèmes d’appel de mauvaise qualité](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
+Le tableau de bord qualité d’appel fournit des informations sur la qualité des appels et la fiabilité. Pour savoir comment résoudre les problèmes à l’aide d’appel d’Analytique, voir [activation et à l’aide d’appels de tableau de bord qualité pour les équipes Microsoft et Skype pour Business Online](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) et [Utiliser appel Analytique pour résoudre les problèmes d’appel de mauvaise qualité](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
 
 En cas d’échec de l’appel, Analytique appel fournit des codes SIP standard pour vous aider à résoudre. 
 

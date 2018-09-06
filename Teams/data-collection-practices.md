@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collecte des données de recensement, d’utilisation et d’erreur pour comprendre comment Skype pour les entreprises est utilisé et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations de produit.
-ms.openlocfilehash: e4270a56e24d621511c94c9dc925fb1d1ca120ba
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: d33f4037517936b39bd81ccb6ec5b7df3ef5a3b8
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783069"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846436"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype pour les pratiques de collection de données métiers et Microsoft Teams
 
@@ -52,7 +52,7 @@ Données recensement sont acquise uniquement pour fournir, prennent en charge et
 |Nom d’utilisateur  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |L’ID est hacher deux fois : une fois sur le client et à nouveau sur le service de télémétrie. Le hachage garantit QU'ID ne peut pas être liée à un utilisateur spécifique.  <br/> |
 |ID de périphérique  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |L’ID de périphérique est un GUID qui a généré une seule fois sur l’appareil et envoyées au service de télémétrie de manière aléatoire.  <br/> |
 
-Ne prend pas les données de recensement contiennent des informations qui identifie votre organisation ou des utilisateurs. Voir la [Skype pour la déclaration de confidentialité d’entreprise](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) pour plus d’informations.
+Ne prend pas les données de recensement contiennent des informations qui identifie votre organisation ou des utilisateurs. Voir la [Skype pour la déclaration de confidentialité d’entreprise](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx) pour plus d’informations.
 
 Données de recensement sont activée par défaut et ne peuvent pas être désactivées par les administrateurs ou les utilisateurs finaux.
 
@@ -73,7 +73,7 @@ Les données d’utilisation peuvent contenir des informations qui identifient v
 
 Ne prend pas les données d’utilisation contiennent des informations qui identifie les utilisateurs.
 
-Collecte des données d’utilisation est activée par défaut, mais local Administrateurs peuvent désactiver utilisant le paramètre de stratégie de groupe DisableAutomaticSendTracing sur Skype pour Business Server 2015. Désactivation de ce paramètre affecte tous les utilisateurs dans l’organisation. Pour plus d’informations, voir [configuration de stratégies de démarrage du client dans Skype pour Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) .
+Collecte des données d’utilisation est activée par défaut, mais local Administrateurs peuvent désactiver utilisant le paramètre de stratégie de groupe DisableAutomaticSendTracing sur Skype pour Business Server 2015. Désactivation de ce paramètre affecte tous les utilisateurs dans l’organisation. Pour plus d’informations, voir [configuration de stratégies de démarrage du client dans Skype pour Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) .
 
 Les utilisateurs finaux ne peuvent pas activer la collecte de données ou désactiver.
 
@@ -94,11 +94,11 @@ Données de création de rapports d’erreur peuvent inclure des informations su
 |ID de thread de conversation  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA ==  <br/> ||
 |Nom d’utilisateur  <br/> |amosmarble <br/> |L’ID est envoyé en texte clair, lequel le service de télémétrie hachages avant de les stocker  <br/> |
 
-Données de création de rapports d’erreur peuvent également contenir des informations d’identification personnelle comme adresse IP et Session Initiation Protocol Uniform Resource Identifier (URI SIP) de l’utilisateur. Voir la [Skype pour la déclaration de confidentialité d’entreprise](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) pour une explication détaillée de la collecte des éléments.
+Données de création de rapports d’erreur peuvent également contenir des informations d’identification personnelle comme adresse IP et Session Initiation Protocol Uniform Resource Identifier (URI SIP) de l’utilisateur. Voir la [Skype pour la déclaration de confidentialité d’entreprise](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx) pour une explication détaillée de la collecte des éléments.
 
 Rapport d’erreurs nécessite deux éléments :
 
-- Le paramètre de stratégie de groupe DisableAutomaticSendTracing avoir la valeur False sur le serveur ou dans le centre d’administration de client (il s’agit de l’état par défaut). Pour plus d’informations, voir [configuration de stratégies de démarrage du client dans Skype pour Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) .
+- Le paramètre de stratégie de groupe DisableAutomaticSendTracing avoir la valeur False sur le serveur ou dans le centre d’administration de client (il s’agit de l’état par défaut). Pour plus d’informations, voir [configuration de stratégies de démarrage du client dans Skype pour Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) .
     
 - Les utilisateurs finaux participer individuellement à partir de l’onglet Général (cliquez sur l’icône d’engrenage ![icône d’engrenage](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) et ouvre la boîte de dialogue **Options** avec l’onglet **Général** ) dans le Skype pour client d’entreprise.
     
@@ -114,6 +114,6 @@ Vous pouvez voir [votre réseau de Skype pour Business Online](https://support.o
 Si vous utilisez Office 365 exécuté par 21Vianet en Chine, voir [configurer votre réseau pour Skype pour Business Online exécuté par 21Vianet](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
 ## <a name="related-topics"></a>Rubriques connexes
-[Le programme d’amélioration du produit](https://www.microsoft.com/products/ceip/en-US/default.mspx)
+[Le programme d’amélioration du produit](https://www.microsoft.com/products/ceip/default.mspx)
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

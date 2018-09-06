@@ -9,18 +9,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: 455ae4bd419dd4e92152615adc42f879168e4f15
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 23be9bae259767ffd4eb26d03a22f5449b4b9222
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835030"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845940"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage Direct
 
 Si vous n’avez pas déjà fait, lisez la [Planifier le routage Direct](direct-routing-plan.md) pour les composants requis et pour passer en revue les autres étapes, vous devrez prendre avant de configurer votre réseau de système téléphonique de Microsoft. 
 
-Cet article explique comment configurer le routage Direct de Microsoft Phone System. Il décrit en détail comment associer un contrôleur de bordure Session pris en charge (SBC) pour le routage Direct et configurer les utilisateurs de Microsoft Teams pour utiliser le routage directe pour se connecter à la Public téléphone réseau commuté (RTC). Pour effectuer les étapes décrites dans cet article, les administrateurs doivent se familiariser avec les applets de commande PowerShell. Pour plus d’informations sur l’utilisation de PowerShell, voir [configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+Cet article explique comment configurer le routage Direct de Microsoft Phone System. Il décrit en détail comment associer un contrôleur de bordure Session pris en charge (SBC) pour le routage Direct et configurer les utilisateurs de Microsoft Teams pour utiliser le routage directe pour se connecter à la Public téléphone réseau commuté (RTC). Pour effectuer les étapes décrites dans cet article, les administrateurs doivent se familiariser avec les applets de commande PowerShell. Pour plus d’informations sur l’utilisation de PowerShell, voir [configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
 Nous vous recommandons de vérifier que votre contrôleur SBC a déjà été configuré comme recommandé par votre fournisseur SBC : 
 
@@ -43,7 +43,7 @@ Voici les trois étapes principales pour vous permettre de vous connecter, ou pa
 
 ### <a name="connect-to--skype-for-business-online-by-using-powershell"></a>Se connecter à Skype pour Business Online à l’aide de PowerShell 
 
-Vous pouvez utiliser une session PowerShell connectée au client pour le couplage le contrôleur SBC à l’interface de routage Direct. Pour ouvrir une session PowerShell, suivez les étapes décrites dans la [configuration de votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+Vous pouvez utiliser une session PowerShell connectée au client pour le couplage le contrôleur SBC à l’interface de routage Direct. Pour ouvrir une session PowerShell, suivez les étapes décrites dans la [configuration de votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
  
 Après avoir établi une session PowerShell distante, vérifiez que vous pouvez voir les commandes pour gérer le contrôleur SBC. Pour valider les commandes, tapez ou copier/coller dans ce qui suit dans la session PowerShell et appuyez sur ENTRÉE : 
 
@@ -97,7 +97,7 @@ Le tableau suivant répertorie les paramètres supplémentaires que vous pouvez 
 
 |Obligatoire ?|Nom|Description|Par défaut|Valeurs possibles|Type et restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Oui|FQDN|Le nom de domaine complet de le SBC |Aucun|Nom de NoneFQDN, limite 63 caractères|Chaîne, liste de caractères autorisés et non autorisés sur [les conventions d’attribution de noms dans Active Directory pour les ordinateurs, les domaines, les sites et les unités d’organisation](https://support.microsoft.com/en-us/help/909264)|
+|Oui|FQDN|Le nom de domaine complet de le SBC |Aucun|Nom de NoneFQDN, limite 63 caractères|Chaîne, liste de caractères autorisés et non autorisés sur [les conventions d’attribution de noms dans Active Directory pour les ordinateurs, les domaines, les sites et les unités d’organisation](https://support.microsoft.com/help/909264)|
 |Non|MediaBypass |Le paramètre est réservé pour une utilisation future. Paramètre indiqué du contrôleur SBC prend en charge le contournement de média et l’administrateur souhaite l’utiliser.|Aucun|True<br/>Faux|Boléen|
 |Oui|SipSignallingPort |Port d’écoute utilisé pour communiquer avec les services de routage Direct à l’aide du protocole de Transport Layer Security (TLS).|Aucun|N’importe quel port|comprise entre 0 et 65535 |
 |Non|FailoverTimeSeconds |Lorsque la valeur 10 (valeur par défaut), les appels sortants qui ne sont pas traitées par la passerelle dans les 10 secondes sont routés vers le tronçon suivant disponible ; s’il n’y a aucune jonctions supplémentaires, l’appel est automatiquement supprimé. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels. La valeur par défaut est 10.|10|Numéro|Int|
@@ -158,8 +158,8 @@ Lorsque vous êtes prêt à activer les utilisateurs pour le Service de routage 
 
 Il existe deux options pour la création d’un nouvel utilisateur dans Office 365. Toutefois, nous conseillons de votre organisation sélectionner une option permet d’éviter les problèmes de routage : 
 
-- Créer l’utilisateur dans Active Directory de locaux et synchroniser l’utilisateur vers le nuage. Voir les [répertoires intégrer votre locale avec Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect).  
-- Créer l’utilisateur directement dans le portail d’administrateur Office 365. Consultez la rubrique [Ajouter des utilisateurs individuellement ou par lot pour Office 365 - aide d’administration](https://support.office.com/en-us/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
+- Créer l’utilisateur dans Active Directory de locaux et synchroniser l’utilisateur vers le nuage. Voir les [répertoires intégrer votre locale avec Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).  
+- Créer l’utilisateur directement dans le portail d’administrateur Office 365. Consultez la rubrique [Ajouter des utilisateurs individuellement ou par lot pour Office 365 - aide d’administration](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
   Si vous générez le système coexiste avec Skype pour Business 2015 ou Lync 2010/2013 locale, la seule option prise en charge consiste à créer l’utilisateur dans l’annuaire local et synchronisation de l’utilisateur vers le nuage (Option 1). 
 
@@ -520,7 +520,7 @@ Le résultat est que la stratégie de voix appliquée aux appels de John Woods s
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Définir Teams Microsoft en tant que client appelant par défaut pour les utilisateurs
 
-Routage direct achemine uniquement les appels vers et depuis les utilisateurs s’ils utilisent le client d’équipes. Si votre organisation utilise uniquement des équipes, « Équipes uniquement » mode dans la stratégie de mise à niveau est recommandé de définir. Si votre organisation utilise Skype pour Business Server ou Skype pour Business Online, consultez l’article suivant pour plus d’informations et sélectionnez l’option appropriée : [comprendre la coexistence et voyage Skype pour professionnels et les équipes de mise à niveau](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
+Routage direct achemine uniquement les appels vers et depuis les utilisateurs s’ils utilisent le client d’équipes. Si votre organisation utilise uniquement des équipes, « Équipes uniquement » mode dans la stratégie de mise à niveau est recommandé de définir. Si votre organisation utilise Skype pour Business Server ou Skype pour Business Online, consultez l’article suivant pour plus d’informations et sélectionnez l’option appropriée : [comprendre la coexistence et voyage Skype pour professionnels et les équipes de mise à niveau](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## <a name="see-also"></a>Voir aussi

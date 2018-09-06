@@ -16,12 +16,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft Teams est l'outil de conversation collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils ne votre équipe un besoin pour être plus l’impliquée et efficace. "
-ms.openlocfilehash: 380b233b5246be518214d72771a7113ba733e54f
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: 148071fdea294893b4107cc31347d4e4b1dc8e2c
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20518702"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846916"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>Fr-fr 301 549 Déclaration de conformité en matière d'accessibilité
 
@@ -37,11 +37,11 @@ Version du produit : 1.1.84.22103
 
 Web site : [Équipes Microsoft](https://teams.microsoft.com/)
 
-Contact pour plus d’informations : [Prise en charge des équipes Microsoft](https://support.office.com/en-us/teams)
+Contact pour plus d’informations : [Prise en charge des équipes Microsoft](https://support.office.com/teams)
 
 Site web en matière d'accessibilité : [Accessibilité de Microsoft](https://www.microsoft.com/accessibility/)
 
-Service de réponse aux questions d’utilisateurs en situation de handicap du : [eDAD](https://support.microsoft.com/en-us/answerdesk/accessibility)
+Service de réponse aux questions d’utilisateurs en situation de handicap du : [eDAD](https://support.microsoft.com/answerdesk/accessibility)
 
 Introduire rapport obtenir de l’aide sur ce, veuillez [e-mail de nous envoyer Annuler](mailto:edad@microsoft.com?subject=Conformance%20Statement).
 
@@ -204,4 +204,4 @@ Le présent document est fourni à titre indicatif. MICROSOFT EQ FOURNIT AUCUNE 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Solutions pour l'accessibilité de Skype Entreprise Online en France](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)
+[Solutions pour l'accessibilité de Skype Entreprise Online en France](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)

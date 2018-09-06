@@ -12,12 +12,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Découvrez comment configurer des équipes pour permettre aux utilisateurs de communiquer avec les utilisateurs d’une autre organisation.
-ms.openlocfilehash: b8c3705b288abd81e85bd941ab019bb8e8e0e40e
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 3eaffac3571abc70d4964ea4a8955f187d1e988f
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829113"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844636"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Laissez votre conversation d’utilisateurs équipes et communiquer avec les utilisateurs d’une autre organisation d’équipes
 
@@ -35,7 +35,7 @@ Procédez comme suit :
 
 ### <a name="step-1---make-sure-to-set-up-the-ports-and-urls-that-are-needed"></a>Étape 1 : veillez à configurer les ports et les URL qui sont nécessaires.
 
-**Le problème que les utilisateurs rencontrent le plus souvent lors de la configuration de la communication entre entreprises est lié aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).**
+**Le problème que les utilisateurs rencontrent le plus souvent lors de la configuration de la communication entre entreprises est lié aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).**
 
 ### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>Étape 2 : activer votre organisation de communiquer avec une autre organisation d’équipes
 

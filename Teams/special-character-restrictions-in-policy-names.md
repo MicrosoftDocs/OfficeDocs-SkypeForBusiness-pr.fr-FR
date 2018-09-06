@@ -17,12 +17,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Voir existe avec des caractères spéciaux dans les noms des stratégies et ce que vous pouvez faire pour résoudre des problèmes.
-ms.openlocfilehash: 6aabd3c1d7e373c048ea1d1f723f83ad1108dbe0
-ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
+ms.openlocfilehash: b0ae1458e81bdb6ee527c954ab0f2faf3461e3cf
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21645387"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844812"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quelles sont les restrictions de caractère spécial dans les stratégies d’équipes ?
 
@@ -39,7 +39,7 @@ Si vous disposez d’une stratégie avec des caractères spéciaux, vous devez s
 
 
 **Étape 1 : établir une connexion à distance PowerShell.** 
- [Configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) si vous n’avez pas encore.
+ [Configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) si vous n’avez pas encore.
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
@@ -71,7 +71,7 @@ Exécuter cette crée une nouvelle stratégie pour vous, mais vous devez ajouter
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-Voir [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) pour plus d’informations sur cette applet de commande.
+Voir [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) pour plus d’informations sur cette applet de commande.
 
 **Étape 5 - supprimer l’ancienne stratégie.**
 
@@ -79,7 +79,7 @@ Cette opération supprime l’ancienne stratégie avec des caractères spéciaux
   ```
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-[Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) pour plus d’informations sur cette applet de commande, voir.
+[Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) pour plus d’informations sur cette applet de commande, voir.
 
 Si cette commande réussit, vous avez terminé. Si la commande ci-dessus retourne une erreur, il est car l’ancienne stratégie est affectée aux utilisateurs afin que vous devez exécuter pour supprimer tous les utilisateurs affectés de la stratégie :
 

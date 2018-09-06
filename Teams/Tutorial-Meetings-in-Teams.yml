@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: f6c5be006d2e76efcd58cc4e6a63b6a0bf357570
-  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+  ms.openlocfilehash: a2ebb3628c2557fc41f44b12764e78c75698ed15
+  ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 08/28/2018
-  ms.locfileid: "23253532"
+  ms.lasthandoff: 09/06/2018
+  ms.locfileid: "23843884"
 items:
 - durationInMinutes: 1
   content: >
@@ -66,7 +66,7 @@ items:
     Pour nous faire part de vos commentaires sur Teams, tels que des idées de nouvelles fonctionnalités, visitez [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: Réunions dans Teams
   durationInMinutes: 16
-  content: "\nPour vous familiariser avec les réunions dans Teams, consultez les rubriques suivantes :\n-   « Tenir des réunions » dans [Réunions et appels](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (temps de lecture estimé : 6 minutes)\n\n-   Vidéo [Conférence maintenant](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf?ui=en-US&rs=en-US&ad=US) (1 minute 45)\n\n-   Vidéo [Réunions planifiées](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137?ui=en-US&rs=en-US&ad=US) (1 minute 45)\n\n-   [9 conseils pour une réunion avec Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) pour en savoir plus sur la salle d’attente, participer à des réunions de façon anonyme, etc (temps de lecture estimé : 6 minutes)\n"
+  content: "\nPour vous familiariser avec les réunions dans Teams, consultez les rubriques suivantes :\n-   « Tenir des réunions » dans [Réunions et appels](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (temps de lecture estimé : 6 minutes)\n\n-   Vidéo [Conférence maintenant](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) (1 minute 45)\n\n-   Vidéo [Réunions planifiées](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) (1 minute 45)\n\n-   [9 conseils pour une réunion avec Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) pour en savoir plus sur la salle d’attente, participer à des réunions de façon anonyme, etc (temps de lecture estimé : 6 minutes)\n"
 - title: Scénario - Types de réunions
   durationInMinutes: 1
   content: "\nGarth travaille pour Contoso, une entreprise qui a plusieurs bureaux. Garth doit communiquer régulièrement avec des personnes situées dans d’autres bureaux :\n\n-  Son équipe de projet se rencontre chaque lundi pendant une heure. Étant donné qu'elle dispose déjà d’un canal dédié pour le projet dans Microsoft Teams, Garth planifie une « réunion de canal » pour cette synchronisation régulière. Cela présente plusieurs avantages pour Garth et son équipe :\n   -   tous les membres de l’équipe sont invités automatiquement ;\n   -   toutes les discussions relatives à la réunion avant, pendant ou après la réunion font partie de la discussion de canal ;\n   -   tous les membres de l’équipe peuvent afficher la réunion et la discussion.\n-   Garth doit également se synchroniser avec des personnes individuelles mais il ne veut pas que ces réunions soient visibles pour les autres. À cette fin, Garth planifie une « Réunion privée ».\n    Les réunions privées permettent à Garth d’initialiser une conversation avant la tenue de la réunion. Cette expérience avant la réunion permet de rendre la réunion plus efficace, car Garth peut partager des supports au préalable ou discuter de l’ordre du jour avec les membres clés de l’équipe. La même discussion est également disponible pendant la réunion pour prendre des notes, et peut être utilisée par la suite à des fins de suivi.\n-   L’équipe peut parfois avoir des discussions animées dans son canal, et Garth a besoin qu’elle prenne une décision rapide. Il détermine qu’alors que tout le monde saisit du texte, un appel vidéo peut être le moyen de communication le plus efficace. Dans cette situation, Garth planifie une réunion ponctuelle en sélectionnant **Conférence maintenant** dans la conversation actuelle.\n"

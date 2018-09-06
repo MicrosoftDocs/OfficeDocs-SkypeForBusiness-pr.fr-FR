@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 698bb6a90d3ba6b64b3288b60d55eec2dac17453
-  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+  ms.openlocfilehash: aedc8c450c7d3aebfb4c73378e53859dae8d08f2
+  ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 08/28/2018
-  ms.locfileid: "23253437"
+  ms.lasthandoff: 09/06/2018
+  ms.locfileid: "23845660"
 items:
 - durationInMinutes: 1
   content: >
@@ -64,7 +64,7 @@ items:
     Pour nous faire part de vos commentaires sur Teams, tels que des idées de nouvelles fonctionnalités, visitez [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: Services d’audioconférence dans les équipes
   durationInMinutes: 12
-  content: "\nÀ une conférence Audio, participants d’utiliser un téléphone régulière à prendre part à des réunions d’équipes, en vous connectant à la réunion à partir de leur téléphone ou en utilisant les fonctionnalités d’appel sortant à partir de la réunion. Passez en revue les ressources suivantes pour en savoir plus sur la conférence Audio :\n-   [Fonctionnalités de conférence audio](https://products.office.com/skype-for-business/audio-conferencing#Features) (durée estimée lecture 1 minute)\n-   [9 conseils pour la réunion avec les équipes Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (d’exécution estimée de la lecture de temps pour «\\#1 - participer à une réunion par le biais de conférence Audio » est 1 minute, plus si vous consultez l’article entier)\n-   [Questions les plus fréquentes audioconférence](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (durée estimée lecture 7 minutes)\n-   [Appels sortants à partir d’une réunion afin que les autres personnes peut joindre](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (durée estimée lecture 2 minutes)\n"
+  content: "\nÀ une conférence Audio, participants d’utiliser un téléphone régulière à prendre part à des réunions d’équipes, en vous connectant à la réunion à partir de leur téléphone ou en utilisant les fonctionnalités d’appel sortant à partir de la réunion. Passez en revue les ressources suivantes pour en savoir plus sur la conférence Audio :\n-   [Fonctionnalités de conférence audio](https://products.office.com/skype-for-business/audio-conferencing#Features) (durée estimée lecture 1 minute)\n-   [9 conseils pour la réunion avec les équipes Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (d’exécution estimée de la lecture de temps pour «\\#1 - participer à une réunion par le biais de conférence Audio » est 1 minute, plus si vous consultez l’article entier)\n-   [Questions les plus fréquentes audioconférence](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (durée estimée lecture 7 minutes)\n-   [Appels sortants à partir d’une réunion afin que les autres personnes peut joindre](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (durée estimée lecture 2 minutes)\n"
 - title: Scénario – services d’audioconférence
   durationInMinutes: 1
   content: "\nGarth fonctionne chez Contoso, une société qui possède plusieurs bureaux. Garth fréquemment doit se connecter avec des personnes dans les autres bureaux et car il souvent fonctionne depuis leur domicile ou en déplacement s’éteint, il est un ventilateur recèle des réunions d’équipes. Lorsque Garth envoie une invitation à une réunion, il ajoute automatiquement des informations pour une audioconférence. Ceci permet les scénarios suivants :\n-   Alice souhaite participer à la réunion de Garth, mais il est en déplacement et n’a pas accès à un réseau fiable. Par conséquent, il rejoint la réunion à l’aide de rendez-vous en fonction des coordonnées de l’invitation à la réunion. Au cours du processus de numérotation, elle utilise son code confidentiel pour s’authentifier, afin qu’elle est reconnue par le système en tant que « Alice ».\n-   Bob, qui est actuellement à l’hôtel, rejoint la réunion à l’aide du client équipes sur son ordinateur. Malheureusement, la qualité audio via la connexion internet dans l’hôtel n’est pas parfaite, donc Bob se connecte à son propre numéro de téléphone de la réunion pour joindre via le réseau téléphonique commuté (RTC).\n-   Si vous décident de participants à la réunion pendant l’appel qu’ils souhaitent ajouter des utilisateurs à un autre numéro de téléphone, ils peuvent simplement appeler le téléphone numéro et intégrer des autres personnes à la réunion.\n-   Les autres utilisateurs peuvent également participer à partir du client équipes sur leur PC, Mac ou appareil mobile.\n"

@@ -1,5 +1,5 @@
 ---
-title: "Mener une recherche eDiscovery de contenu dans Microsoft Teams"
+title: Mener une recherche eDiscovery de contenu dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,14 +7,15 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: "Découvrez les actions à entreprendre et le moment opportun pour mener une recherche eDiscovery, par exemple lorsque vous devez soumettre toutes les informations stockées électroniquement dans le cadre d'une procédure juridique."
+description: Découvrez les actions à entreprendre et le moment opportun pour mener une recherche eDiscovery, par exemple lorsque vous devez soumettre toutes les informations stockées électroniquement dans le cadre d'une procédure juridique.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d42879d9d1a65fd6ac206fb5f0c115a02fed2a4
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 02efc096362c194d580edc259f9afa5c65fd1cda
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843708"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 ============================
@@ -23,7 +24,7 @@ Les grandes entreprises sont souvent impliquées dans procédure juridiques avec
 
 Toutes les conversations en tête-à-tête et de groupe sont journalisées via les boîtes aux lettres de chaque utilisateur et tous les messages de canal sont journalisés via la boîte aux lettres du groupe représentant l'équipe. Les fichiers chargés sont couverts par la fonctionnalité eDiscovery pour SharePoint Online et OneDrive Entreprise.
 
-1.  Pour mener une recherche eDiscovery dans le contenu Microsoft Teams, consultez [ce](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da?ui=en-US&rs=en-US&ad=US#step1) lien.
+1.  Pour effectuer une enquête eDiscovery avec un contenu Teams Microsoft, consultez l’étape 1 de [ce](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) lien.
 
 2.  Les données Microsoft Teams apparaîtront comme **messages instantanés ou conversations** dans le fichier Excel, ou vous pouvez monter le **.PST** dans Outlook.
 
