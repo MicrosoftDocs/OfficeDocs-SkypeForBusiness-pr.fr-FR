@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c54e553edb464dc094c45b4e9dd545827b625d3
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: 8091bb4e973d4e7376dd6d420578b10123051226
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21600516"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835038"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan pour Microsoft 365 gouvernement - déploiements GCC
 
@@ -64,7 +64,9 @@ Pour prendre en compte les exigences de nos clients du nuage gouvernement, il ex
 | Applications       | Applications (tels que des robots, les onglets et les connecteurs) ne sont pas disponibles à l’origine, mais nous allons fonctionne pour les rendre disponibles dès que tous leurs composants répondent à la barre de conformité FedRAMP modéré. |
 | Un canal de messagerie             | L’architecture actuelle de la fonctionnalité n’est pas pris en charge dans les plans pour le gouvernement. |
 | Présence unifiée            | Nous sommes travail fin de nos clients professionnels tout d’abord pour cette fonctionnalité importante. Il sera disponible pour les clients pour le gouvernement à l’avenir. |
-| Notifications par courrier électronique         | L’architecture actuelle de la fonctionnalité n’est pas pris en charge dans les plans américains. Le travail est en cours pour rendre cette fonctionnalité accessible aux clients américains des plans à l’avenir. |
+| Conversation interopérabilitée entre équipes & SfB utilisateurs            | Interopérabilité dépend de Service de présence unifiée (UPS) et ne peut pas fonctionner tant que GCC équipes clients sont activées pour l’onduleur. |
+
+| Notifications de messagerie | L’architecture actuelle de la fonctionnalité n’est pas pris en charge dans les plans américains. Le travail est en cours pour rendre cette fonctionnalité accessible aux clients américains des plans à l’avenir. |
 
 
 |    |     |
@@ -84,13 +86,17 @@ Nous vous conseillons temps Lisez attentivement vos [paramètres de sécurité e
 
 Ayant décidé que ce service est adapté à votre organisation, démarrer le processus [d’application de ce service ici](https://products.office.com/en-us/government/eligibility-validation).
 
-## <a name="step-5-deploy-teams-for-collaboration"></a>Étape 5. Déployer des équipes pour la collaboration
+## <a name="step-5-plan-for-governance"></a>Étape 5. Planifier la gouvernance
+
+Déterminer vos besoins en matière de gouvernance et comment y répondre. Pour plus d’informations, accédez à [planifier la gouvernance dans les équipes](plan-teams-governance.md) .
+
+## <a name="step-6-deploy-teams-for-collaboration"></a>Étape 6. Déployer des équipes pour la collaboration
 
 Une fois que vous avez été onboarded Microsoft 365 gouvernement - GCC, vous pouvez suivre l’approche de déploiement standard de l’utilisation [FastTrack](https://fasttrack.microsoft.com/fasttrack-faq) et votre partenaire intégré au service que vous avez choisie.
 
 Lorsque vous êtes prêt, déployez équipes pour [Activer la collaboration au sein de votre organisation via les équipes et les canaux](teams-overview.md). Veillez à prendre part avec votre équipe d’Adoption et de gestion des modifications ou les champions équipes.
 
-## <a name="step-6-deploy-teams-for-meetings-and-voice"></a>Étape 6. Déployer des équipes pour les réunions et voix
+## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Étape 7. Déployer des équipes pour les réunions et voix
 
 C’est également un moment idéal pour utiliser des équipes à votre groupe des parties prenantes plus large pour commencer la planification de déploiement des réunions et des [fonctionnalités de voix dans le nuage](cloud-voice-deployment.md).
 

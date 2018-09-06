@@ -3,7 +3,7 @@ title: Préparer le réseau de votre organisation pour Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 02/26/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: arachman
@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fec119a29ea29d9d5c897395c82e27fdaed5e48
-ms.sourcegitcommit: 8c13d6279760749f60776a3c9e46118f029ae818
+ms.openlocfilehash: 7d5d5d04a7e307119ad51eb12ac013ffa089cebf
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2018
-ms.locfileid: "20024197"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246284"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams
 =================================================
@@ -35,7 +35,7 @@ Cela affecte le réseau sur deux niveaux : le trafic est acheminé entre les cl
 > [!IMPORTANT]
 > Les réunions sont actuellement prises en charge sur les appareils iOS et Android, mais pas sur les appareils Windows.
 
-Pour bénéficier d'une expérience optimale avec le multimédia en temps réel dans Microsoft Teams, la configuration réseau requise pour Office 365 doit être satisfaite. Pour plus d’informations, consultez la rubique [Qualité des médias et performances de connectivité réseau dans Skype Entreprise Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US).
+Pour bénéficier d'une expérience optimale avec le multimédia en temps réel dans Microsoft Teams, la configuration réseau requise pour Office 365 doit être satisfaite. Pour plus d’informations, consultez la rubique [Qualité des médias et performances de connectivité réseau dans Skype Entreprise Online](https://docs.microsoft.com/en-us/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 Pour les deux définition segments réseau (Client pour Microsoft Edge) et côté client pour Microsoft Edge, tenez compte des recommandations suivantes.
 
@@ -57,7 +57,7 @@ Pour tester les deux segments réseau, vous pouvez utiliser l’[Outil d'évalua
 <a name="bandwidth-requirements"></a>Condition requise pour la bande passante
 ----------
 
-Les calculs de bande passante pour Microsoft Teams sont complexes et une calculatrice a été créée à cet effet. Pour accéder à la calculatrice, cliquez ici : [Planificateur de réseau dans MyAdvisor](http://aka.ms/bwcalc/).
+Les calculs de bande passante pour Microsoft Teams sont complexes et une calculatrice a été créée à cet effet. Pour accéder à la calculatrice, cliquez ici : [Planificateur de réseau dans MyAdvisor](https://aka.ms/bwcalc/).
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

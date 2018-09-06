@@ -11,14 +11,14 @@ localization_priority: Priority
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype Entreprise Server 2015 et Lync 2013 à partir d'un seul emplacement. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: e3b1ae326494a14c502a7427d30f664646bfe373
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
-ms.translationtype: HT
+ms.openlocfilehash: 6260d4b648f09dddef2b52f8df8996ffe115a7fc
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253054"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485741"
 ---
-# <a name="skype-for-business-updates"></a>Mises à jour de Skype Entreprise
+# <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
 Recherchez et gérez les mises à jour de [Skype Entreprise Server 2015](#skype-for-business-server-2015-update-history),  [Lync 2013](#Lync-2013-update-history) et [Lync Server 2010](#lync-server-2010-update-history) à partir d'un seul emplacement. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
 
@@ -150,7 +150,6 @@ Nom/lien du package|Date de publication|
 |:--- |:--- |
 |[Lync Server 2013 - Fichier d’aide de la documentation](https://www.microsoft.com/en-us/download/details.aspx?id=35405)|Août 2015 |
 
-
 * * *
 
 ## <a name="lync-server-2010-update-history"></a>Historique des mises à jour de Lync Server 2010
@@ -228,10 +227,8 @@ Nom/lien du package|Date de publication|
 
 Les mises à jour logicielles incluent l’ensemble des mises à jour, correctifs cumulatifs, service Pack, Feature Pack, mises à jour critiques, mises à niveau de sécurité ou correctifs logiciels. Reportez-vous à l’[article de la base de connaissances 824684](https://support.microsoft.com/kb/824684) pour une description de la terminologie standard utilisée pour les mises à jour logicielles Microsoft.
 
-
 ## <a name="related-topics"></a>Rubriques connexes
 
 - [Installer Skype Entreprise Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/install/install)
 - [Effectuer la mise à niveau vers Skype Entreprise Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
-
-
+- [Dernières versions de Skype Entreprise qui utilisent Windows Installer (MSI)](sfb-client-updates.md)

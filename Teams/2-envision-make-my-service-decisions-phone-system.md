@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12a58e28fce68960fab2e2a91cdc4f2c3d6524ca
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 477a68996e50c916923948fecbb1dc1e978450b9
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246505"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780910"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -55,7 +55,7 @@ Chaque type de planification de l’appelante alloue un certain nombre de minute
 
 ## <a name="availability-of-calling-plans"></a>Disponibilité des forfaits d'appels
 
-Avant de planifier l’implémentation de l’appel des Plans dans les équipes, vérifiez que le service des Plans de l’appel est disponible dans votre région en examinant le [pays et région disponibilité pour la conférence Audio et des Plans de l’appel](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Avant de planifier l’implémentation de l’appel des Plans dans les équipes, vérifiez que le service des Plans de l’appel est disponible dans votre région en examinant le [pays et région disponibilité pour la conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 > [!IMPORTANT]
 > En raison des contraintes juridiques, pour appeler des Plans soient disponibles pour les organisations multinationales, le contrat pour les abonnements Office 365 doit être basé dans votre pays ou région où le service des Plans de l’appel est disponible, ou bien où l’appel des Plans de service peut être acheté.

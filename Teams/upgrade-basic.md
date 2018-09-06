@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04a5f6d09270b489d8f3a26e1b127d79b0d491b0
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 94e1fdc1caa477df281336859e4b537dfd86d080
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398108"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780658"
 ---
 <a name="about-upgrade-basic"></a>
 # <a name="upgrade-basic"></a>Mise à niveau de base 
@@ -123,7 +123,7 @@ Mettre à jour momentum mise à niveau en activant la notification de mise à ni
 
 **Ressources :**
 
--   [Définition de vos paramètres de mise à niveau et de coexistence](upgrade-basic-powershell.md)
+-   [Définition de vos paramètres de mise à niveau et de coexistence](setting-your-coexistence-and-upgrade-settings.md)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -156,7 +156,7 @@ Nous vous recommandons qu’une fois que tout le monde a été mis à niveau, vo
 
 **Ressources :**
 
--   [Définir votre coexistence et les paramètres de mise à niveau](upgrade-basic-powershell.md)
+-   [Définir votre coexistence et les paramètres de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
 -   [Exemple de courrier électronique : accueillir les utilisateurs à des équipes](upgrade-emails-surveys.md#step-7-email)
 
 [Retour au début](#about-upgrade-basic)

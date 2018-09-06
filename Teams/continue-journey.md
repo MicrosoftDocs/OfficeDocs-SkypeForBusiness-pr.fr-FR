@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 082ad5913cfd95750eaac9f36b424b62610c0c26
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: 1d6b45c13cf387ff31044ea7d439a0a1e5081eca
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20506643"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247534"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -26,7 +26,7 @@ Cet article fait partie de la phase d’Excellence opérationnelle de votre parc
 
 # <a name="drive-operational-excellence-with-microsoft-teams"></a>Excellence opérationnelle lecteur avec Microsoft Teams
 
-Technologie est innovation une augmentation sans précédent. Se mettre à jour et l’activation d’un environnement de travail moderne sont devenu la norme dans le fonctionnement des organisations. À mesure que Microsoft Teams, Microsoft 365 et vision de Microsoft Communications intelligent au déroulement, en place d’une planification opérationnelle afin de garantir que votre organisation est configurée pour succès à long terme. Une planification opérationnelle optimale inclut la surveillance de votre environnement pour l’intégrité et la qualité, poursuivre momentum utilisateur afin d’optimiser l’adoption et la planification de nouvelles fonctionnalités qui continueront d’apparaître en ligne au fil du temps. 
+Technologie est innovation une augmentation sans précédent. Se mettre à jour et l’activation d’un environnement de travail moderne sont devenu la norme dans le fonctionnement des organisations. À mesure que Microsoft Teams, Microsoft 365 et vision de Microsoft Communications intelligent au déroulement, en place d’une planification opérationnelle afin de garantir que votre organisation est configurée pour succès à long terme. Une planification opérationnelle optimale inclut la surveillance de votre environnement pour l’intégrité et la qualité, poursuivre momentum utilisateur afin d’optimiser l’adoption et la planification de nouvelles fonctionnalités qui continueront d’apparaître en ligne au fil du temps.
 
 ## <a name="monitor-for-network-health-and-quality"></a>Surveiller l’intégrité du réseau et de qualité
 
@@ -42,7 +42,7 @@ Pour bénéficier des avantages et les résultats commerciaux avec les équipes,
 
 -   Inscription des champions homologue pour aider à faire connaître et encourager les autres utilisateurs.
 -   Vérification de l' [Office 365-Guide d’Adoption](https://go.microsoft.com/fwlink/?linkid=859045) pour obtenir des conseils sur l’amplification d’engagement et conduite d’adoption.
--   Utilisation du [Kit de réussite client équipes](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) pour améliorer la prise de conscience et partager les meilleures pratiques.
+-   Utilisation du [Kit de réussite client équipes](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) pour améliorer la prise de conscience et partager les meilleures pratiques.
 -   Implémentation d’une [stratégie de gestion d’adoption et de modification](http://www.successwithteams.com/) de formelle pour vous aider à préserver la croissance d’adoption.
 
 ## <a name="prepare-for-new-functionality"></a>Préparer pour la nouvelle fonctionnalité

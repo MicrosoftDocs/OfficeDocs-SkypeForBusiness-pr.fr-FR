@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 083e45097c7f2495bb73dc51a64d25202fafc13b
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: d662775f700586c3811aabce329f065652630c01
+ms.sourcegitcommit: 309941f79f0f8dbcbce620fe90e9f73dd0bcfcbd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21708359"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23289906"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 ===========================
@@ -104,8 +104,6 @@ Les plateformes mobiles prises en charge pour les applications mobiles Microsoft
 -   **Android** : 4.4 ou version ultérieure
 
 -   **iOS**:  10.0 ou version ultérieure
-
--   **Windows Phone**:  Windows 10 Mobile
 
 > [!NOTE]
 > La version mobile doit être disponible au public dans l’ordre des équipes fonctionnent comme prévu.

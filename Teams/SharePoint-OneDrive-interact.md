@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f91836848f6a7698025e118542628cbce44166c6
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: 19d5be5ebab02b839354a79af6a75e3ade9f3000
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21597582"
+ms.lasthandoff: 09/01/2018
+ms.locfileid: "23797322"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
 =============================================================================
@@ -41,6 +41,12 @@ Pour chaque équipe, un site SharePoint et le dossier par défaut **Documents pa
 
 > [!NOTE]
 > Vous ne pouvez pas remplacer le site SharePoint par défaut ni la bibliothèque de documents par une autre pour le moment. Vous nous avez signalé que vous le souhaitiez, et nous y réfléchissons. Consultez la [Feuille de route de Teams](https://aka.ms/teamsroadmap) ou [Teams UserVoice](https://aka.ms/TeamsUserVoice) pour rester informé des fonctionnalités à venir.
+
+> [!TIP]
+> Pour ajouter un onglet à votre équipe que des liens vers un SharePoint existant à SharePoint existante bibliothèque de documents ou de site :
+> 1. Sélectionnez le signe plus en regard des onglets.
+> 2. Sélectionnez le **site Web**.
+> 3. Tapez un nom et entrez l’URL de votre bibliothèque de documents ou de site SharePoint.
 
 Pour chaque utilisateur, le dossier OneDrive **Fichiers de conversation Microsoft Teams** est utilisé pour stocker tous les fichiers partagés dans les conversations avec d'autres utilisateurs (en tête-à-tête ou de groupe), avec les autorisations configurées pour limiter l'accès aux utilisateurs concernés uniquement.
 

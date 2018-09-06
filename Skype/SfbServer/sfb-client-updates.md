@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection: IT_Skype16
 description: Fournit aux professionnels de l’informatique des informations sur les dernières mises à jour des versions perpétuelles de Skype Entreprise 2016 pour les clients Entreprise 2015 et Lync 2013
-ms.openlocfilehash: cf87fbb903e7bff015f77881ede956a4c4999b07
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
-ms.translationtype: HT
+ms.openlocfilehash: 015285bb5a513f0d490a596af28b83b662a518ce
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247590"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485798"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Dernières versions de Skype Entreprise qui utilisent Windows Installer (MSI)
 
@@ -36,7 +36,6 @@ La compatibilité de Skype Entreprise avec Office 365 et votre environnement l
   - [Configuration requise pour votre environnement Skype Entreprise](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
 
   - [Configuration système requise pour Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
-
 
 ## <a name="skype-for-business-2016-client-updates"></a>Mises à jour du client Skype Entreprise 2016
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
@@ -72,8 +71,6 @@ La compatibilité de Skype Entreprise avec Office 365 et votre environnement l
 |Mise à jour de sécurité pour Skype Entreprise 2016 |[Article 3114372](https://support.microsoft.com/kb/3114372) | Décembre 2015|
 |Mise à jour de sécurité pour Skype Entreprise 2016 |[Article 3085634](https://support.microsoft.com/kb/3085634) | Novembre 2015|
 |Mise à jour de sécurité pour Skype Entreprise 2016 |[Article 2910994](https://support.microsoft.com/kb/2910994) | Septembre 2015|
-
-
 
 ## <a name="skype-for-business-2015-client-updates"></a>Mises à jour du client Skype Entreprise 2015
 
@@ -118,15 +115,12 @@ La compatibilité de Skype Entreprise avec Office 365 et votre environnement l
 |Mise à jour de sécurité pour Skype Entreprise 2015/Lync 2013|[Article 3085500](https://support.microsoft.com/kb/3085500) | Septembre 2015 |
 |Mise à jour de Skype Entreprise 2015/Lync 2013|[Article 3054791 ](https://support.microsoft.com/kb/3054791) | Juin 2015 |
 
-
 ### <a name="skype-for-business-on-mac-client-updates"></a>Mises à jour du client Skype Entreprise sur Mac
 
 |Nom du package|Date de publication|
 |:--- |:--- |
 |[Mise à jour de Skype Entreprise sur Mac](https://www.microsoft.com/en-us/download/details.aspx?id=54108) | Juin 2018 |
 |[Notes de publication actuelles pour Skype Entreprise sur Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac) | Juin 2018 |
-
-
 
 * * *
 
@@ -175,8 +169,6 @@ Nom du package|Numéro d’article de la base de connaissances|Date de publicati
 |Mise à jour de sécurité pour Skype Entreprise 2015/Lync 2013|[Article 3085500](https://support.microsoft.com/kb/3085500) | Septembre ] 2015 |
 |Mise à jour de Skype Entreprise 2015/Lync 2013|[Article 3054791 ](https://support.microsoft.com/kb/3054791) | Juin 2015 |
 
-
-
 ### <a name="lync-phone-edition-updates"></a>Mises à jour de Lync Phone Edition
 
 Nom du package|Numéro d’article de la base de connaissances|Date de publication|
@@ -201,7 +193,6 @@ Nom du package|Date de publication|
 |[Lync Phone Edition pour Polycom CX500, Polycom CX600 et Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | Avril 2017 |
 |[Lync Phone Edition pour Polycom CX700 et LG-Nortel IP Phone 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | Décembre 2015 |
 
-
 ### <a name="lync-basic-2013-trial-software"></a>Logiciel d’évaluation de Lync Basic 2013
 
 Nom du package|Date de publication|
@@ -211,14 +202,12 @@ Nom du package|Date de publication|
 
 * * *
 
-
 ### <a name="lync-for-mac-2011-client-updates"></a>Mises à jour du client Lync pour Mac 2011
 
 Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:--- |:--- |:--- |
 |Mise à jour de Lync pour Mac 2011 |[Article 3175174](https://support.microsoft.com/kb/3175174)|Juillet 2016|
 |Mises à jour cumulatives de Lync pour Mac 2011 |[Article 3074981](https://support.microsoft.com/kb/3074981)|Juillet 2015|
-
 
 ### <a name="lync-2010-client-updates"></a>Mises à jour du client Lync 2010
 
@@ -234,7 +223,6 @@ Nom du package|Numéro d’article de la base de connaissances|Date de publicati
 |Mise à jour de sécurité pour Lync 2010 |[Article 3096735](https://support.microsoft.com/kb/3096735) | Novembre 2015|
 |Mise à jour de sécurité pour Lync 2010 |[Article 3081087](https://support.microsoft.com/kb/3081087) | Septembre 2015|
 |Mises à jour cumulatives de Lync 2010 |[Article 3072611](https://support.microsoft.com/kb/3072611) | Juillet 2015|
-
 
 ### <a name="lync-2010-attendant-updates"></a>Mises à jour de Lync 2010 Attendant
 
@@ -276,3 +264,6 @@ Nom du package|Numéro d’article de la base de connaissances|Date de publicati
 |[Évaluation de Lync 2010 (32 bits) ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)| Novembre 2010 |
 |[Évaluation de Lync 2010 (64 bits) ](https://www.microsoft.com/en-us/download/details.aspx?id=10400)| Novembre 2010 |
 
+## <a name="related-topics"></a>Rubriques connexes
+
+- [Mises à jour de Skype Entreprise Server](sfb-server-updates.md)

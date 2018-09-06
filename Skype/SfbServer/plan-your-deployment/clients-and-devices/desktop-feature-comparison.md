@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : Skype pour Business Server 2015 ou Skype pour les administrateurs d’entreprise en ligne peut utiliser ces tables pour comprendre les fonctionnalités sont prises en charge sur les clients.'
-ms.openlocfilehash: 73d25486544c4832b9fe30235128c8c3d4c5ae82
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: beb118d39ea2fa98025c5038436810d90a5472ea
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391818"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23263892"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparaison des fonctionnalités client de bureau pour Skype pour Business Server 2015
  
@@ -120,7 +120,7 @@ Pour plus d’informations, voir le [Skype pour Business Online Service Descript
 |Ajouter l’audio de l’ordinateur  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;(requires plug-in)  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Ajouter la vidéo  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;(requires plug-in)  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||& #x 2714 ;|& #x 2714 ;|
 |Afficher une vidéo à plusieurs (vue galerie)  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||||||
-|Partage d'écran vidéo  <br/> |& #x 2714 ;|& #x 2714 ; uniquement pour les utilisateurs hébergés sur Skype pour Business Online  <br/> |& #x 2714 ; Affichage seul  <br/> |||||||||
+|Partage d'écran vidéo  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ; Affichage seul  <br/> |||||||||
 |Utiliser des commandes de présentateur lors des réunions  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||||& #x 2714 ;|
 |Accéder à une liste détaillée des réunions  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||& #x 2714 ;|
 |Participer à une conversation par messagerie instantanée à plusieurs  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|
@@ -129,7 +129,7 @@ Pour plus d’informations, voir le [Skype pour Business Online Service Descript
 |Ajouter des participants anonymes (si option activée)  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;||||& #x 2714 ;|
 |Utiliser les réunions audio rendez-vous  <br/> |& #x 2714 ; & #x 2777 ; |& #x 2714 ;|& #x 2714 ; & #x 2777 ; |& #x 2714 ;|& #x 2714 ; & #x 2777 ; |& #x 2714 ; & #x 2777 ; |& #x 2714 ;|& #x 2714 ;|||& #x 2714 ;|
 |Démarrer une réunion Conférence maintenant  <br/> |& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||||& #x 2714 ;|
-|Ajouter et présenter des fichiers Microsoft PowerPoint  <br/> |& #x 2714 ;| & #x 2778 ; Afficher uniquement, annotations non disponibles  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|Présence uniquement  <br/> |& #x 2714 ;|||| & #x 2778 ; Afficher uniquement, annotations non disponibles  <br/> |
+|Ajouter et présenter des fichiers Microsoft PowerPoint  <br/> |& #x 2714 ;| & #x 2778 ; Annotations non disponibles  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|Présence uniquement  <br/> |& #x 2714 ;|||| & #x 2778 ; Afficher uniquement, annotations non disponibles  <br/> |
 |Parcourir des fichiers Microsoft PowerPoint  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||||& #x 2714 ;|
 |Ajouter et modifier des notes de réunion OneNote  <br/> |& #x 2714 ;||Modifier uniquement (pas ajouter)  <br/> |& #x 2714 ;|& #x 2714 ;|||||||
 |Utiliser un tableau blanc  <br/> |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|||||
@@ -142,9 +142,8 @@ Pour plus d’informations, voir le [Skype pour Business Online Service Descript
 |Désactiver le son des participants  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||||||& #x 2714 ;|
 |Inviter tout le monde à participer  <br/> |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||||||& #x 2714 ;|
 |Produire une diffusion de réunion Skype  <br/> |& #x 2714 ;|||||||||||
-|Un délégué peut planifier une réunion pour le compte d'un délégant  <br/> |& #x 2714 ;|Skype Entreprise Online uniquement <br/>|& #x 2714 ;|||||||||
+|Un délégué peut planifier une réunion pour le compte d'un délégant  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||||||||
 |Synchroniser les délégués entre Skype Entreprise et Outlook  <br/> |& #x 2714 ;||& #x 2714 ;|||||||||
-|Partage d'écran vidéo  <br/> |& #x 2714 ;| Skype Entreprise Online uniquement <br/> |& #x 2714 ;||& #x 2714 ;|||||||
 |Définir la vidéo à la une (verrouiller la vidéo)  <br/> |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|
 |Donner/prendre le contrôle du partage d'écran  <br/> |& #x 2714 ;||& #x 2714 ;|||||||||
    
@@ -181,7 +180,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des services
 |Gérer un volume d'appels important  <br/> |||||& #x 2714 ;|& #x 2714 ;||||
 |Parcage d'appel  <br/> |& #x 2714 ;||& #x 2714 ; & #x 2776 ; |||||||
 |Prise d'appel de groupe  <br/> |& #x 2714 ;||& #x 2714 ; & #x 2776 ; ||||& #x 2714 ;|||
-|Routage géodépendant  <br/> |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|
+|Routage géodépendant  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|
 |Gérer un groupe Response Group/d'appel d'équipe  <br/> |& #x 2714 ;||& #x 2714 ;|||||||
    
  & #x 2776 ;  Cette fonctionnalité n’est pas disponible dans Skype pour Business Online.
@@ -236,7 +235,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des fonction
 
  | Fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Intendant Lync 2010 | Lync Phone Edition | **Communicator pour Mac 2011** | Lync pour Mac 2011 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Archivage des conversations par messagerie instantanée dans l’historique des conversations Outlook  <br/> |& #x 2714 ; & #x 2776 ; |& #x 2714 ; si l’historique des conversations de côté serveur sont activé  <br/> |& #x 2714 ; & #x 2776 ; |& #x 2714 ; & #x 2776 ; |& #x 2714 ;|& #x 2714 ;||Enregistré dans Communicator pour Mac  <br/> |Enregistré dans Lync pour Mac  <br/> |
+|Archivage des conversations par messagerie instantanée dans l’historique des conversations Outlook  <br/> |& #x 2714 ; & #x 2776 ; |& #x 2714 ; si l’historique des conversations de côté serveur sont activée <br/> |& #x 2714 ; & #x 2776 ; |& #x 2714 ; & #x 2776 ; |& #x 2714 ;|& #x 2714 ;||Enregistré dans Communicator pour Mac  <br/> |Enregistré dans Lync pour Mac  <br/> |
 |Archivage côté client du son, de la vidéo, du partage d’application, du partage de Bureau et du contenu téléchargé  <br/> |& #x 2714 ; & #x 2776 ; ||& #x 2714 ; & #x 2776 ; ||& #x 2714 ;|||||
 |Archivage côté client des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint  <br/> (non disponible dans Skype pour Business Online)  <br/> |& #x 2714 ;||& #x 2714 ;||& #x 2714 ;|||||
 |Connexion journaux d’accès à partir de Skype pour entreprise icône dans la barre des tâches  <br/> |& #x 2714 ;||& #x 2714 ;|||||||
