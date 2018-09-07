@@ -1,5 +1,5 @@
 ---
-title: Télécharger et installer Windows PowerShell 3.0
+title: Télécharger et installer Windows PowerShell 3.0
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,14 +18,14 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Télécharger, installer et utiliser Windows PowerShell 3.0 pour créer une session PowerShell distante se connectant à Skype Entreprise Online.
-ms.openlocfilehash: 9c2b0f02d9da7e44cdb5585314c13a6bafbe58c6
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
-ms.translationtype: HT
+ms.openlocfilehash: 8470a095e516179d1d328f47c1fe10d5a9e00aa6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568321"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862884"
 ---
-# <a name="download-and-install-windows-powershell-30"></a>Télécharger et installer Windows PowerShell 3.0
+# <a name="download-and-install-windows-powershell-30"></a>Télécharger et installer Windows PowerShell 3.0
 
 Si vous utilisez Windows 8.1, Windows 8 Windows Server 2012 R2 ou Windows erver 2012, vous disposez normalement déjà de Windows PowerShell 3.0. Cette application est en effet pré-installée sur ces systèmes d'exploitation. 
   
@@ -32,7 +33,7 @@ Si vous utilisez Windows 7 ou Windows Server 2008 R2, il est également possible
   
 1. Cliquez sur **Démarrer**, **Tous les programmes**, **Accessoires**, **Windows PowerShell** et enfin sur **Windows PowerShell**.
     
-2. Dans la console PowerShell, saisissez la commande suivante puis appuyez sur Entrée :
+2. Dans la console PowerShell, tapez la commande suivante et appuyez sur ENTRÉE :
     
    ```
    Get-Host | Select-Object Version
@@ -62,7 +63,7 @@ Si vous utilisez Windows 8, effectuer la procédure suivante à la place :
     
 3. Si la boîte de dialoguqe **Contrôle de compte d'utilisateur** apparaît, cliquez sur **Oui** pour confirmer que vous désirer exécuter PowerShell en utilisant les informations du compte administrateur.
     
-Après l'exécution de PowerShell, vous devez modifier la politique d'exécution pour permettre l'exécution de scripts distants. Dans la console PowerShell, saisissez la commande suivante puis appuyez sur Entrée :
+Après l'exécution de PowerShell, vous devez modifier la politique d'exécution pour permettre l'exécution de scripts distants. Dans la console PowerShell, tapez la commande suivante et appuyez sur ENTRÉE :
 ```
 Set-ExecutionPolicy RemoteSigned -Force
 ```
@@ -99,7 +100,7 @@ Pour installer Windows Management Framework 3.0, procédez comme suit :
     
 3. Une fois le processus d'installation terminé, cliquez sur **Redémarrer maintenant** pour redémarrer votre ordinateur.
     
-Après que l'ordinateur a redémarré, vérifiez que Windows PowerShell démarre correctement et que l'application soit bien exécutée en tant qu'administrateur. Pour cela :
+Après que l'ordinateur a redémarré, vérifiez que Windows PowerShell démarre correctement et que l'application soit bien exécutée en tant qu'administrateur. Pour ce faire :
   
 1. Cliquez sur **Démarrer**, **Tous les programmes**, **Accessoires**, **Windows PowerShell**, faites un clic droit sur **Windows PowerShell** et cliquez sur **Exécuter en tant qu'administrateur**.
     

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 98fc0e56-fad3-4e9b-9543-1b4f584b48ac
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: a62fe50b56edd63490a7c1ba9579b2e5b16a7255
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 4137fa1d205fb6aca5a87b0f77a1310028123715
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780844"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860710"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Pourquoi l’activation de numéro est-elle indiquée comme étant incomplète ?
 

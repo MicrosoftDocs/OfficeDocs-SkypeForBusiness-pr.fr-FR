@@ -1,5 +1,5 @@
 ---
-title: Définir des stratégies de conférence pour votre organisation
+title: Configurer les stratégies de conférence pour votre organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 9957722b-b542-49ad-8ec8-5569df7fb08b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,20 +17,20 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "La fonctionnalité Conférence est une partie importante de Skype Entreprise Online : elle permet à des groupes d'utilisateurs de se retrouver en ligne pour visionner des diapositives et des vidéos, partager des applications, échanger des fichiers, communiquer et collaborer."
-ms.openlocfilehash: 9e4c0bc5a90a97ae249b9308fd0ffc62a654a824
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: c5db13adef479bdb3a8702a2782e2ccce19195d6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500563"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861198"
 ---
-# <a name="set-up-conferencing-policies-for-your-organization"></a>Définir des stratégies de conférence pour votre organisation
+# <a name="set-up-conferencing-policies-for-your-organization"></a>Configurer les stratégies de conférence pour votre organisation
 
 La fonctionnalité Conférence est une partie importante de Skype Entreprise Online : elle permet à des groupes d'utilisateurs de se retrouver en ligne pour visionner des diapositives et des vidéos, partager des applications, échanger des fichiers, communiquer et collaborer.
   
 Il est important que vous permet de contrôler les conférences et leurs paramètres. Dans certains cas, peuvent poser des problèmes de sécurité : par défaut, tout le monde, y compris les utilisateurs non authentifiés permettre participer aux réunions et enregistrer des diapositives ou documents distribués durant ces dernières. En outre, il peut y avoir des implications juridiques. Par exemple, par défaut, les participants à la réunion sont autorisés à annoter le contenu partagé ; Toutefois, ces annotations ne sont pas enregistrées lors de la réunion est archivée. Si votre organisation est obligée de conserver un enregistrement de toutes les communications électroniques, vous souhaitez désactiver les annotations. 
   
-Dans Skype pour Business Online, les conférences sont gérées à l’aide de stratégies de conférence. Les stratégies de conférence déterminent les fonctionnalités et fonctions pouvant être utilisées lors d'une conférence, y compris la possibilité, pour la conférence, d'inclure de l'audio et de la vidéo IP à destination du nombre maximum de personnes pouvant participer à une réunion. Les stratégies de conférence peuvent être configurées à l'échelle globale ou individuelle. Les administrateurs bénéficient ainsi d'une très grande souplesse en ce qui concerne les fonctions qu'ils souhaitent mettre à la disposition des utilisateurs.
+Dans Skype pour Business Online, les conférences sont gérées à l’aide de stratégies de conférence. Stratégies de conférence déterminent les fonctionnalités qui peuvent être utilisées dans une conférence, y compris tout ou non la conférence peut inclure IP audio et vidéo pour le nombre maximal de personnes qui peuvent participer à une réunion. Stratégies de conférence peuvent être configurées au niveau global ou au niveau de l’étendue par utilisateur. Les administrateurs disposent ainsi d’une flexibilité considérable quand il s’agit de déterminer quelles possibilités seront disponibles pour les utilisateurs.
   
 Paramètres de stratégie peuvent être configurées au niveau de la création d’une stratégie, ou vous pouvez utiliser l’applet de commande **Set-CsConferencingPolicy** pour modifier les paramètres d’une stratégie existante.
   

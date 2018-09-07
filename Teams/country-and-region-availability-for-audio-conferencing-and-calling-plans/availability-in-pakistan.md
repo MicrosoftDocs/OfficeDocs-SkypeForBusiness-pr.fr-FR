@@ -9,6 +9,7 @@ ms.assetid: 2066d1f9-cbf6-411f-91bb-84d824b4325e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Pakistan.
-ms.openlocfilehash: 279ab7a49fecca7780d0e3a94bf9c30719973e57
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: eacf49db897f75218f701c44802fb28b78a954f5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829233"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857478"
 ---
 # <a name="availability-in-pakistan"></a>Disponibilité du Pakistan
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 20c654da-30ee-4e4f-a764-8b7d8844431d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,18 +19,19 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 8a30e87a768c39261ad593c868b598d0f770a3be
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 81cc2f0c959bb4c611abc7ff198e6c5befc58c21
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865266"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online
 
 Connectez-vous à Office 365 par le biais d'une connexion réseau dédiée utilisant Azure ExpressRoute pour Office 365 et Skype Entreprise Online. Votre connexion dédiée pour vos applications Skype Entreprise offre des performances fiables et prévisibles et protège vos données confidentielles contre l'Internet public. Vous pouvez désormais acheter une meilleure connexion réseau de qualité professionnelle vers Office 365 et Skype Entreprise Online dont la fiabilité et la prévisibilité des performances sont garanties par un contrat de niveau de service.
   
 > [!NOTE]
-> Une nouvelle version de la calculatrice de la bande passante est disponible : [Skype pour les entreprises, la bande passante calculatrice](https://go.microsoft.com/fwlink/?LinkId=715766). Toutefois, les instructions de ce document utilisent le Lync 2010 et Calculatrice de bande passante 2013. 
+> Une nouvelle version de la calculatrice de bande passante est disponible : [Skype pour les entreprises, calculateur de bande passante](https://go.microsoft.com/fwlink/?LinkId=715766). Cependant, les instructions de ce document utilisent le Lync 2010 et Calculateur de bande passante 2013. 
   
 ## <a name="skype-for-business-online-and-expressroute"></a>Skype Entreprise Online et ExpressRoute
 
@@ -80,7 +82,7 @@ Pour fournir des services en temps réel d'une qualité élevée et constante à
     
 - Les commutateurs et les routeurs réseau doivent également utiliser des sources d'alimentation sans interruption (UPS) afin de continuer à fonctionner en cas de panne de courant.
     
-    Ils ont une connexion Wi-Fi à leurs bureaux LAN, nous vous recommandons fortement qu’ils utilisent un Skype certifiée pour partenaire d’infrastructure métier Wi-Fi de [Skype pour Solutions d’entreprise](https://go.microsoft.com/fwlink/?LinkId=690281).
+    Ils doivent une connexion Wi-Fi leurs bureaux LAN, nous vous recommandons vivement de qu'ils utilisent un Skype certifié pour partenaire de l’infrastructure d’entreprise Wi-Fi à partir de [Skype pour des Solutions professionnelles](https://go.microsoft.com/fwlink/?LinkId=690281).
     
     > [!TIP]
     >  Des points d'accès sans fil 802.11n et 802.11ac sont recommandés.
@@ -99,7 +101,7 @@ Il existe deux options pour l'association des données d'applications Skype Entr
     
 Pour mettre en œuvre le marquage des points de terminaison, vous devez configurer toutes les machines Windows de Dewey Law LLC connectées à un domaine. Pour marquer chaque paquet avec le marquage DSCP (DiffServ Control Point), puis mettre en œuvre la QoS sur tous les commutateurs et les routeurs réseau de tous les sites afin de s'assurer que les marquages QoS sont conservés et ne sont pas supprimés. Les marqueurs DSCP sur les paquets réseau indiquent au fournisseur de services leur ordre de priorité. **La section QoS de la deuxième partie contient des informations supplémentaires.**
   
-Pour l'affectation basée sur une liste de contrôle d'accès réseau, les marqueurs de priorité DSCP sont mis en œuvre sur le routeur en amont et basés sur le port source UDP. Les plages de port recommandé pour chaque application sont répertoriées dans la Section 2.6.1.1 de [Planification de réseau, de surveillance et de dépannage avec Lync Server](https://go.microsoft.com/fwlink/?LinkId=690286). Il est important de coordonner cela avec la conception et la mise en œuvre globales de QoS chez Dewey Law LLC et de connaître les différentes stratégies de QoS et les différences de marquage de paquets potentielles.
+Pour l'affectation basée sur une liste de contrôle d'accès réseau, les marqueurs de priorité DSCP sont mis en œuvre sur le routeur en amont et basés sur le port source UDP. Les plages de ports recommandée pour chaque application sont répertoriés dans la Section 2.6.1.1 de [Planification du réseau, de surveillance et dépannage avec Lync Server](https://go.microsoft.com/fwlink/?LinkId=690286). Il est important de coordonner cela avec la conception et la mise en œuvre globales de QoS chez Dewey Law LLC et de connaître les différentes stratégies de QoS et les différences de marquage de paquets potentielles.
   
 Chaque fournisseur de services réseau ExpressRoute possédera une classe de service (QoS) adaptée à la voix et à la vidéo en temps réel. Cette classe de service COS est appelée « acheminement accéléré » (EF) pour la voix et « acheminement assuré » (AF) pour la vidéo. Vous devez être très prudent lors du dimensionnement de la quantité de bande passante que vous achetez pour le trafic voix EF. La classe de service voix est inflexible si vous envoyez une quantité de trafic voix supérieure à ce que permet la classe de service.
   
@@ -108,12 +110,12 @@ Chaque fournisseur de services réseau ExpressRoute possédera une classe de ser
   
 En examinant la conception globale pour Dewey Law LLC, il est extrêmement important de déterminer avec précision la quantité de bande passante réseau dont ils ont besoin pour soutenir le trafic voix sur leur réseau et ils doivent marquer chaque paquet voix (et seulement les paquets voix) avec le réglage DSCP pour la voix (c'est-à-dire DSCP EF 46).
   
-Pour mettre en œuvre QoS au sein de leur entreprise, réseau, les routeurs ou points de terminaison doit marquer chaque paquet avec l’indicateur de priorité de couche 3 (c'est-à-dire DSCP) approprié. Tout le long du chemin réseau, l'option QoS doit être activée sur chaque commutateur et chaque routeur. Il suffit que l'option QoS ne soit pas activée sur un commutateur ou sur un routeur réseau pour que les marqueurs QoS des paquets voix ou vidéo qui transitent par cet appareil soient supprimés au passage. Cela désactive QoS sur tous les commutateurs et routeurs en aval, ce qui réduit le rôle d'ExpressRoute sur le réseau.
+Pour mettre en œuvre QoS au sein de leur entreprise réseau, les points de terminaison ou routeurs doit marquer chaque paquet avec l’indicateur de priorité de couche 3 approprié (autrement dit, le marquage DSCP). Tout le long du chemin réseau, l'option QoS doit être activée sur chaque commutateur et chaque routeur. Il suffit que l'option QoS ne soit pas activée sur un commutateur ou sur un routeur réseau pour que les marqueurs QoS des paquets voix ou vidéo qui transitent par cet appareil soient supprimés au passage. Cela désactive QoS sur tous les commutateurs et routeurs en aval, ce qui réduit le rôle d'ExpressRoute sur le réseau.
   
 De ce fait, l'association des priorités QoS Layer 3 et Layer 2 doit également être définie à chaque point. Les mécanismes de priorité Layer 2 sont définis dans les normes IEEE 802.1p pour les réseaux filaires et IEEE 802.11e/WMM pour les réseaux Wi-Fi. Mieux encore, le routeur réseau faisant face au réseau MPLS du fournisseur de services réseau doit maintenir les paramètres DSCP sur tous les paquets sortants afin de garantir la classe de service MPLS appropriée. 
   
 > [!TIP]
->  Pour plus d’informations concernant la configuration de la qualité de service, reportez-vous à la Section 2.6 de [Planification de réseau, de surveillance et de dépannage avec Lync Server]( https://go.microsoft.com/fwlink/?LinkId=760669). Pour plus d'informations sur les exigences de planification du réseau, vous pouvez également vous reporter à la rubrique [Planification de la configuration réseau requise pour Skype Entreprise 2015](https://go.microsoft.com/fwlink/?LinkId=690287).
+>  Pour plus d’informations spécifiques concernant la configuration de la qualité de service, reportez-vous à la Section 2,6 [Planification du réseau, de surveillance et dépannage avec Lync Server]( https://go.microsoft.com/fwlink/?LinkId=760669). Pour plus d'informations sur les exigences de planification du réseau, vous pouvez également vous reporter à la rubrique [Planification de la configuration réseau requise pour Skype Entreprise 2015](https://go.microsoft.com/fwlink/?LinkId=690287).
   
 ### <a name="ordering-network-access-services"></a>Commande de services d'accès réseau
 
@@ -171,12 +173,12 @@ Après avoir spécifié les paramètres pour chaque rôle, vous devez entrer le 
    
  **Bande passante nécessaire par application et par site en kbits/s (Colonnes A et BQ à LF de la feuille de calcul « Sites »)**
   
-|**Site**|**Bande passante pour les pics d'activité SIP (Session Initiation Protocol)/messagerie instantanée**|**Bande passante audio pour les pics d'activité P2P intersite**|**Bande passante vidéo pour les pics d'activité P2P intersite**|**Pic de bande passante audioconférence**|**Pic de bande passante vidéo conférence**|**Bande passante pour les pics d'activité de partage WAN**|**Bande passante pour les pics d'activité de réseau WAN pour les appels RTC**|
+|**Site**|**Bande passante pour les pics d'activité SIP (Session Initiation Protocol)/messagerie instantanée**|**Bande passante audio pour les pics d'activité P2P intersite**|**Bande passante vidéo pour les pics d'activité P2P intersite**|**Bande passante de conférence Audio de pointe**|**Bande passante de conférence vidéo maximale**|**Bande passante pour les pics d'activité de partage WAN**|**Bande passante pour les pics d'activité de réseau WAN pour les appels RTC**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Siège social  <br/> |1070  <br/> |525.30  <br/> |560.00  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |
 |Bureaux régionaux  <br/> |345  <br/> |185.40  <br/> |560.00  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |
-|Grandes succursales  <br/> |70  <br/> |92.70  <br/> |560.00  <br/> |102,00  <br/> |600,00 €  <br/> |384.00  <br/> |216.30  <br/> |
-|Petites succursales  <br/> |36  <br/> |119.40  <br/> |560.00  <br/> |76.50  <br/> |600,00 €  <br/> |384.00  <br/> |123.60  <br/> |
+|Grandes succursales  <br/> |70  <br/> |92.70  <br/> |560.00  <br/> |102,00  <br/> |600,00  <br/> |384.00  <br/> |216.30  <br/> |
+|Petites succursales  <br/> |36  <br/> |119.40  <br/> |560.00  <br/> |76.50  <br/> |600,00  <br/> |384.00  <br/> |123.60  <br/> |
    
 Dans la feuille de calcul, les colonnes les plus importantes sont probablement celles qui décrivent la bande passante du réseau WAN par catégorie de qualité de service. Cela est illustré dans le tableau ci-dessous. Ces données récapitulent les informations que vous devrez indiquer au prestataire de services réseau pour demander la connexion d'accès à chacun de vos sites. Lorsque vous calculez la bande passante totale, pensez à multiplier la bande passante pour chaque type de sites de succursale par le nombre de sites du même type. Pour vous connecter avec votre partenaire de services réseau ExpressRoute, vous pouvez consulter [Azure ExpressRoute]( https://go.microsoft.com/fwlink/?LinkId=690283).
   
@@ -185,7 +187,7 @@ Il est très important de ne pas dépasser la bande passante dans la classe de s
 > [!TIP]
 >  Là encore, même si la classe de service EF offre la meilleure garantie de performances, si vous dépassez la bande passante définie, les paquets supplémentaires seront annulés immédiatement.
   
- **Bande passante globale par site par classe de trafic QoS - (« Sites » feuille de calcul - colonnes A et ML par résonance magnétique)**
+ **Bande passante totale par site par classe de trafic QoS - (« Sites » - feuille de calcul colonnes A et ML par le biais de MR)**
   
 |**Nom du site**|**Classe Meilleur effort (DSCP 0)**|**Classe Trafic de données (DSCP personnalisé)**|**Classe Trafic en temps réel (DSCP 34, AF41)**|**Classe Trafic prioritaire (DSCP 46, EF)**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -199,12 +201,12 @@ Il est très important de ne pas dépasser la bande passante dans la classe de s
 Nous pouvons calculer la bande passante totale qui traversera le réseau WAN et la quantité de bande passante qui traversera ExpressRoute à l'aide des estimations de bande passante figurant dans le tableau **Par application par site** ci-dessus. La partie du trafic qui traverse ExpressRoute exclut la bande passante P2P intersite.
 
  
-|**Site**|**Bande passante pour les pics d'activité SIP (Session Initiation Protocol)/messagerie instantanée**|**Pic de bande passante audioconférence**|**Pic de bande passante vidéo conférence**|**Bande passante pour les pics d'activité de partage WAN**|**Bande passante pour les pics d'activité de réseau WAN pour les appels RTC**|**Nombre total de ExpressRoute<br/>le trafic par classe de site<br/>(c'est-à-dire total<br/>fois le nombre de sites)**|
+|**Site**|**Bande passante pour les pics d'activité SIP (Session Initiation Protocol)/messagerie instantanée**|**Bande passante de conférence Audio de pointe**|**Bande passante de conférence vidéo maximale**|**Bande passante pour les pics d'activité de partage WAN**|**Bande passante pour les pics d'activité de réseau WAN pour les appels RTC**|**Nombre total de ExpressRoute<br/>le trafic par classe site<br/>(autrement dit, nombre total de<br/>fois le nombre de sites)**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Siège social** <br/> |1 070  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |11361.80  <br/> |
 |**Bureaux régionaux** <br/> |345  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |8704.20  <br/> |
-|**Grandes succursales** <br/> |70  <br/> |102,00  <br/> |600,00 €  <br/> |384.00  <br/> |216.30  <br/> |32935.20  <br/> |
-|**Petites succursales** <br/> |36  <br/> |76.50  <br/> |600,00 €  <br/> |384.00  <br/> |123.60  <br/> |61005.00  <br/> |
+|**Grandes succursales** <br/> |70  <br/> |102,00  <br/> |600,00  <br/> |384.00  <br/> |216.30  <br/> |32935.20  <br/> |
+|**Petites succursales** <br/> |36  <br/> |76.50  <br/> |600,00  <br/> |384.00  <br/> |123.60  <br/> |61005.00  <br/> |
    
 Cela signifie que le trafic de Skype Entreprise Online traversant l'itinéraire express sera de 114 Mbits/s environ, de sorte que Dewey devra souscrire au moins à l'abonnement à 200 Mbits/s pour ExpressRoute. Plusieurs circuits ExpressRoute peuvent être achetés à différents emplacements P2P ExpressRoute. Cela pourrait être recommandé si les sites de Dewey se trouvent dans des régions géographiques différentes ou pour fournir une résilience au cas où la connexion au circuit d'ExpressRoute échouerait. Si vous acquérez des circuits ExpressRoute dans plusieurs régions Azure, le complément premium d'ExpressRoute sera nécessaire à la réception d'une connectivité globale sur ExpressRoute.
   
@@ -304,7 +306,7 @@ DiffServ (Differentiated Services) est considéré comme un mécanisme « grossi
 |**Par défaut** <br/> |AF11 (10)  <br/> |Transfert de fichiers  <br/> |
 ||CS0 (0)  <br/> |une autre valeur  <br/> |
    
- **En-tête d’IP Version 4**
+ **En-tête IP Version 4**
   
 ![En-tête IPv4](../images/c8a6a714-2784-4328-8297-2e62706f302d.png)
   
@@ -314,7 +316,7 @@ Même si DSCP est le mécanisme standard pour la mise en œuvre de QoS en Layer 
   
 La norme IEEE 802.1p utilise un point de code de priorité (PCP) 3 bits pour identifier la priorité du message. Le PCP appartient à un champ 32 bits de l'entête Ethernet qui comporte également l'identificateur VLAN. Les définitions des valeurs de PCP sont incluses ci-dessous.
   
- **Valeurs de PCP IEEE 802 .1p**
+ **Valeurs IEEE 802 .1p PCP**
   
 |**Valeur PCP**|**Priorité**|**Acronyme**|**Types de trafic**|
 |:-----|:-----|:-----|:-----|
@@ -335,7 +337,7 @@ Pour définir la priorité d'accès au canal radio, la norme IEEE 802.11e/WMM d�
   
 La priorité est définie en affectant des valeurs AFIS plus courtes aux trames de priorité supérieure. Par conséquent, si une station attend d'envoyer une trame voix et qu'une autre attend d'envoyer une trame de données, la trame voix sera toujours envoyée en premier. Techniquement, les trames voix et vidéo reçoivent la même valeur AFIS, mais la plage des intervalles de temporisation pour les trames vidéo est plus élevée. Ainsi, alors qu'une trame voix et vidéo peut entrer en collision à la première tentative, la trame voix sera toujours retransmise plus tôt. La corrélation entre IEEE 802.1p et IEEE 802.11e est indiquée ci-dessous :
   
- **IEEE 802.11e / Wi-Fi multimédia (WMM) à P 802.1 mise en correspondance**
+ **IEEE 802.11e / Wi-Fi multimédia (WMM) p 802.1 mappage**
   
 |**Catégorie d'accès WMM**|**WMM Description**|**Valeur PCP 802.1p**|**Désignation 802.1p**|
 |:-----|:-----|:-----|:-----|
@@ -369,7 +371,7 @@ L'association recommandée en Layer 3 aux priorités en Layer 2 est représenté
 |Meilleur effort  <br/> |Comportement par saut (PHB) - 0  <br/> |0  <br/> |4 (AC_BK)  <br/> |
 |Valeur DSCP - 0  <br/> |
    
-Il est important de noter qu'il y a une incompatibilité dans le codage des priorités pour IEEE 802.1p et WMM. La valeur PCP 802.1p est de 5 pour la voix, cependant, dans le mappage d'équivalence standard avec WMM, PCP 5 est traduit en catégorie d'accès 2 (CA), la catégorie d'accès WMM pour la vidéo (AC_VI). Si cela est possible, vous devez remplacer ce mappage afin de permettre la conversion de PCP 5 en AC 1 ou d'éviter simplement l'utilisation de la voix et de la vidéo sur le même réseau Wi-Fi tant que l'Alliance Wi-Fi n'a pas résolu ce problème. Pour plus d’informations sur le Wi-Fi, consultez [Les articles du catalogue Wi-Fi]( https://go.microsoft.com/fwlink/?LinkId=690322).
+Il est important de noter qu'il y a une incompatibilité dans le codage des priorités pour IEEE 802.1p et WMM. La valeur PCP 802.1p est de 5 pour la voix, cependant, dans le mappage d'équivalence standard avec WMM, PCP 5 est traduit en catégorie d'accès 2 (CA), la catégorie d'accès WMM pour la vidéo (AC_VI). Si cela est possible, vous devez remplacer ce mappage afin de permettre la conversion de PCP 5 en AC 1 ou d'éviter simplement l'utilisation de la voix et de la vidéo sur le même réseau Wi-Fi tant que l'Alliance Wi-Fi n'a pas résolu ce problème. Pour plus d’informations sur Wi-Fi, voir [Les éléments de catalogue Wi-Fi]( https://go.microsoft.com/fwlink/?LinkId=690322).
   
 ### <a name="implementing-qos-using-network-access-control-list-acl"></a>Mise en œuvre de QoS à l'aide d'une liste de contrôle d'accès (ACL) réseau
 
@@ -395,7 +397,7 @@ Les fournisseurs MPLS offrent plusieurs niveaux de service, mais chacun d'eux ut
 
 Skype Entreprise améliore la gestion des communications d'entreprise. Plutôt que d'avoir un téléphone connecté à un PBX, un système de conférences vidéo autonome, une plate-forme séparée pour le courrier électronique, un service extérieur pour les audioconférences et des fonctionnalités de messagerie instantanée et de présence, Skype Entreprise regroupe toutes ces fonctionnalités dans une interface utilisateur unique.
   
-La fourniture constante de services voix et vidéo en temps réel de qualité professionnelle nécessite une infrastructure réseau compatible avec QoS de bout en bout. Cela pourrait inclure des services LAN et WAN. Microsoft propose des outils comme l'[outil de calcul de bande passante Lync 2010 et Lync 2013](https://go.microsoft.com/fwlink/?LinkID=690282) pour estimer la capacité du réseau dont vous aurez besoin pour les différents services. Il existe également des partenaires du programme IT Pro Tools [Skype pour Solutions d’entreprise : IT Pro Tools](https://go.microsoft.com/fwlink/?LinkID=690307) qui offrent des outils au préalable évaluer l’infrastructure de réseau et la prise en charge de la surveillance, de reporting et de dépannage. Sans une infrastructure réseau dimensionnée et configurée correctement, votre déploiement ExpressRoute Skype Entreprise risque de ne pas répondre aux attentes de votre utilisateur en termes de qualité et de cohérence.
+La fourniture constante de services voix et vidéo en temps réel de qualité professionnelle nécessite une infrastructure réseau compatible avec QoS de bout en bout. Cela pourrait inclure des services LAN et WAN. Microsoft propose des outils comme l'[outil de calcul de bande passante Lync 2010 et Lync 2013](https://go.microsoft.com/fwlink/?LinkID=690282) pour estimer la capacité du réseau dont vous aurez besoin pour les différents services. Il existe également des partenaires au programme IT Pro Tools [Skype pour des Solutions professionnelles : IT Pro Tools](https://go.microsoft.com/fwlink/?LinkID=690307) qui proposent des outils à préalable évaluer l’infrastructure réseau prend en charge la surveillance, la création de rapports et la résolution des problèmes. Sans une infrastructure réseau dimensionnée et configurée correctement, votre déploiement ExpressRoute Skype Entreprise risque de ne pas répondre aux attentes de votre utilisateur en termes de qualité et de cohérence.
   
 Des outils d'entreprise efficaces doivent avoir un fonctionnement fiable et homogène et fournir une expérience encourageant les utilisateurs à les adapter. D'un point de vue réseau, cela signifie qu'il faut disposer d'une infrastructure réseau, à la fois locale et globale, fixe et mobile, permettant cela. La planification, la conception, la mise en œuvre et la maintenance de cette infrastructure ne sont pas toujours aisées. Le matériel, les outils et les services réseau qui permettent d'y parvenir sont disponibles aujourd'hui, mais les informaticiens doivent être conscients que ceux-ci sont conçus, mis en œuvre et maintenus d'une manière qui garantit que les utilisateurs bénéficient d'un ensemble de services de communication et de collaboration qui leur permettent de travailler efficacement et que l'organisation peut tirer pleinement profit des possibilités de cette technologie. 
   

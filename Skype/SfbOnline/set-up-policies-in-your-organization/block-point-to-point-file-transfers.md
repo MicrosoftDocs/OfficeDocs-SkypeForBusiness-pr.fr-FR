@@ -1,5 +1,5 @@
 ---
-title: Point à point bloquer les transferts de fichiers
+title: Bloquer les transferts de fichiers point à point
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 9adf9859-de5b-461e-92ea-b6ce4dd2f7c1
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,13 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Dans Skype pour Business Online, vous avez capacité à contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existante. Toutefois, ceci permet ou bloque pour les utilisateurs si elles sont transfert de fichiers à un utilisateur qui se trouve dans la même organisation ou à un utilisateur fédéré à partir d’une autre organisation, les transferts de fichiers. Suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec les organisations fédérées ou des partenaires.
-ms.openlocfilehash: 318f6e6b88f0be4c85f72aa7b59d6e3fec2bd781
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: 3ae7bce22a99858af36696e1fde41bb614f2c008
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858490"
 ---
-# <a name="block-point-to-point-file-transfers"></a>Point à point bloquer les transferts de fichiers
+# <a name="block-point-to-point-file-transfers"></a>Bloquer les transferts de fichiers point à point
 
 Dans Skype pour Business Online, vous avez capacité à contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existante. Toutefois, ceci permet ou bloque pour les utilisateurs si elles sont transfert de fichiers à un utilisateur qui se trouve dans la même organisation ou à un utilisateur fédéré à partir d’une autre organisation, les transferts de fichiers. Suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec les organisations fédérées ou des partenaires.
   
@@ -63,7 +65,7 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’un 
     
 - **Démarrez une session Windows PowerShell**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Depuis le **Menu Démarrer** > **Windows PowerShell**.
     
 2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
     
@@ -107,7 +109,7 @@ Vous pouvez appliquer cette à un utilisateur en créant une nouvelle stratégie
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     

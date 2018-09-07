@@ -1,5 +1,5 @@
 ---
-title: Rapport sur les utilisateurs bloqués
+title: Rapport d'utilisateurs bloqués
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 0ac844b2-1b08-4e5a-addf-03cde7af7a40
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,15 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Ce rapport, ainsi que d’autres Skype pour les rapports d’entreprise, vous donne plus d’informations sur l’activité, y compris l’utilisation PSTN au sein de votre organisation. '
-search.appverid: MET150
-ms.openlocfilehash: 0b6bc07afb44b4bb2ba7e2b31f51443c93645655
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 508d41de4a8b67e1a266bead6f91445acd041a7e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933046"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860616"
 ---
-# <a name="users-blocked-report"></a>Rapport sur les utilisateurs bloqués
+# <a name="users-blocked-report"></a>Rapport d'utilisateurs bloqués
 
 La nouvelle Skype pour des **rapports** de tableau de bord affiche la vue d’ensemble de l’activité sur le Skype pour les produits d’entreprise dans votre organisation. Elle vous permet à extraire différents rapports au niveau du produit pour vous donnent plus granulaires sur les activités de chaque produit. Par exemple, vous pouvez utiliser le rapport **Skype pour les utilisateurs professionnels bloqués** pour afficher les utilisateurs dans votre organisation qui ont été bloqués à partir de l’émission d’appels PSTN. Ce rapport, ainsi que d’autres Skype pour les rapports d’entreprise, vous donne plus d’informations sur l’activité, y compris l’utilisation PSTN au sein de votre organisation.
   
@@ -50,17 +50,17 @@ Voici une illustration du rapport.
 
 Le tableau présente une répartition de tous les utilisateurs qui ne peuvent pas effectuer des appels. Affiche tous les utilisateurs qui disposent du système téléphonique ou conférence Audio affectés. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau.
 ***
-![N ° 1](../images/sfbcallout1.png)
+![Numéro 1](../images/sfbcallout1.png)
 *   **ID de l’utilisateur** est l’utilisateur signe.
 *   **Numéro de téléphone** est le numéro qui est affecté à un utilisateur. 
 *   **Heure de l’action Bloquer** est l’heure (UTC) que l’utilisateur n’a pas pu effectuer des appels.
 *   **Action de blocage** est le type d’action qui a été effectuée pour interdire à l’utilisateur.
 *   **Action** du bloc fait la raison pour laquelle que l’utilisateur a été bloqué à partir de l’émission d’appels.
 ***
-![N ° 2](../images/sfbcallout2.png)<br/>
+![Numéro 2](../images/sfbcallout2.png)<br/>
 Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes.
 ***
-![N ° 3](../images/sfbcallout3.png)<br/>
+![Nombre 3](../images/sfbcallout3.png)<br/>
 Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur le bouton **Exporter vers Excel**.
 
 Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer dans la table dans le rapport lui-même. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.

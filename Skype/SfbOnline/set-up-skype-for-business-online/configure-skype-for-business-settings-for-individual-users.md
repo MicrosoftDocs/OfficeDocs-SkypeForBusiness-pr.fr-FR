@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: f9b6db08c87e46326d6e9de7c82d6e1c89cffce0
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 1296ec96d194be80ae3c48a947a0398f0eefb4e3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500818"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860328"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels
 
@@ -66,7 +67,7 @@ Vous devez disposer des [autorisations d’administrateur](https://support.offic
 |Enregistrer les conversations et les réunions  <br/> |Sélectionnez les éléments que cette personne est autorisée à enregistrer.  <br/> Cette option n’est pas disponible avec Skype pour Business Basic.  <br/> |
 |À des fins de conformité, désactivez les fonctions non archivées.  <br/> | Sélectionnez cette option si vous êtes légalement tenu de conserver les informations stockées électroniquement. <br/>  Cette option désactive les fonctionnalités qui ne sont pas capturées lorsque vous avez un [Blocage sur Place](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) configuré le centre d’administration Exchange. Elle désactive les fonctions suivantes : <br/>  transfert de fichiers avec la messagerie instantanée <br/>  Pages OneNote partagées <br/>  Annotations PowerPoint <br/> |
    
-Pour configurer ces paramètres en bloc, utilisez PowerShell. Voir [Gestion des stratégies dans Skype pour Business Online](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
+Pour configurer ces paramètres en bloc, utilisez PowerShell. Consultez [Gestion des stratégies dans Skype Entreprise Online](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
   
 ## <a name="block-external-communications"></a>Bloquer les communications externes
 <a name="__toc325019206"> </a>
@@ -83,7 +84,7 @@ Après avoir [Autoriser les utilisateurs Skype Entreprise à ajouter des contact
     
 3. Cliquez sur **Enregistrer**.
     
-Pour configurer ces paramètres en bloc, utilisez PowerShell. Voir [Gestion des communications dans Skype pour Business Online avec des organisations et des utilisateurs externes](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
+Pour configurer ces paramètres en bloc, utilisez PowerShell. Consultez [Gestion des communications dans Skype Entreprise Online avec des utilisateurs et des organisations externes](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>Modifier les paramètres de conférence audio pour un utilisateur
 <a name="__toc314837483"> </a>
@@ -95,8 +96,8 @@ Pour configurer ces paramètres en bloc, utilisez PowerShell. Voir [Gestion des 
 |**Configuration de l'audioconférence**|**Description**|
 |:-----|:-----|
 |**Nom du fournisseur** <br/> |Choisissez votre fournisseur dans la liste.  <br/> |
-|**Numéro payant** (obligatoire) <br/> |Pour un fournisseur tiers, ces numéros de téléphone sont celles que vous avez reçus du fournisseur de services d’audioconférence. Si l’utilisateur est à l’aide de Microsoft en tant que le fournisseur de services d’audioconférence, il sera numéros qui sont définies sur le pont de conférence audio. Mettre en forme les numéros que vous le souhaitez les voir apparaître dans Skype pour les demandes de réunion Business et Teams Microsoft.  <br/> |
-|**Numéro gratuit** <br/> |Pour un fournisseur tiers, ces numéros de téléphone sont celles que vous avez reçus du fournisseur de services d’audioconférence. Si l’utilisateur est à l’aide de Microsoft en tant que le fournisseur de services d’audioconférence, il sera numéros qui sont définies sur le pont de conférence audio. Mettre en forme les numéros que vous le souhaitez les voir apparaître dans Skype pour les demandes de réunion Business et Teams Microsoft.  <br/> |
+|**Numéro payant** (obligatoire) <br/> |Pour un fournisseur tiers, ces numéros de téléphone sont celles que vous avez reçus du fournisseur de services d’audioconférence. Si l’utilisateur utilise Microsoft en tant que fournisseur d’audioconférence, ce seront des numéros définis sur le pont d’audioconférence. Mettre en forme les numéros que vous le souhaitez les voir apparaître dans Skype pour les demandes de réunion Business et Teams Microsoft.  <br/> |
+|**Numéro gratuit** <br/> |Pour un fournisseur tiers, ces numéros de téléphone sont celles que vous avez reçus du fournisseur de services d’audioconférence. Si l’utilisateur utilise Microsoft en tant que fournisseur d’audioconférence, ce seront des numéros définis sur le pont d’audioconférence. Mettre en forme les numéros que vous le souhaitez les voir apparaître dans Skype pour les demandes de réunion Business et Teams Microsoft.  <br/> |
 |**Code confidentiel et ID de conférence** (requis) <br/> |Le code participant code confidentiel, ou une conférence, utilisé pour participer à des réunions sont planifiées par cet utilisateur et sont fournies à partir d’un fournisseur de services d’audioconférence tiers. Si l’utilisateur est à l’aide de Microsoft en tant que le fournisseur de services d’audioconférence, il sera requis.  <br/> |
    
 Pour configurer ces paramètres en bloc, utilisez PowerShell. Voir [l’invite inclus sur les numéros de téléphone](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md).
@@ -109,7 +110,7 @@ Pour configurer ces paramètres en bloc, utilisez PowerShell. Voir [l’invite i
 
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
-[Licences de compléments pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+[Licences de compléments pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
   
  

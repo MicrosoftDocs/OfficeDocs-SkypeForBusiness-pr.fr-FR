@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 51c2f7ac-2b72-488d-b1ea-f00e1e88ee7a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: La nouvelle Skype de zone de rapports du centre d’administration Business affiche vous appeler et audio conférence activité dans votre organisation. Elle vous permet des détails des rapports pour vous donnent plus granulaires sur les activités de chaque utilisateur. Par exemple, vous pouvez utiliser la Skype pour rapport de pools minute Business PSTN pour afficher le nombre de minutes consommées au cours du mois au sein de votre organisation.
-search.appverid: MET150
-ms.openlocfilehash: a12597faf9f5669809cbf97a2ea8a054c65a8a0c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 41f1e0c2dcc7504341bb6d9076c7a99b63ed50a9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779667"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865108"
 ---
 # <a name="pstn-minute-pools-report"></a>Rapport du nombre de minutes RTC
 
@@ -59,7 +59,7 @@ Voici une illustration du rapport.
 ![Skype pour minute Business PSTN pools de rapport](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![N ° 1](../images/sfbcallout1.png)<br/>Le tableau présente une répartition des pools minutes par licence (capacité) et l’emplacement de l’utilisation. 
+![Numéro 1](../images/sfbcallout1.png)<br/>Le tableau présente une répartition des pools minutes par licence (capacité) et l’emplacement de l’utilisation. 
 *    **Fonctionnalité** est le plan de licence/service utilisé pour l’appel. Les plans de licence/service que peuvent apparaître dans ce rapport sont les suivantes :
      * MCOPSTN1 - intérieur appelant planifier (3000-minute US/1200-minute UE plans
      * MCOPSTN2 - Plan appels internationaux
@@ -72,9 +72,9 @@ Voici une illustration du rapport.
 *    **Nombre total de Minutes** est le nombre total de minutes disponibles pour le mois. 
 *    **Pourcentage utilisé** est le pourcentage de temps en minutes pour le mois. 
 ***
-![N ° 2](../images/sfbcallout2.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes. 
+![Numéro 2](../images/sfbcallout2.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes. 
 ***
-![N ° 3](../images/sfbcallout3.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur le bouton **Exporter vers Excel**. <br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer dans la table dans le rapport lui-même. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.
+![Nombre 3](../images/sfbcallout3.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur le bouton **Exporter vers Excel**. <br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer dans la table dans le rapport lui-même. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
 

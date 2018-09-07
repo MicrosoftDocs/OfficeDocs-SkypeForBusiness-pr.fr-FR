@@ -1,5 +1,5 @@
 ---
-title: Définir des stratégies mobiles pour votre organisation
+title: Configurer les stratégies mobiles pour votre organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: beea47b2-7b9a-4b28-92d0-af65d80cd00f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,14 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Vous pouvez configurer comment vos utilisateurs se connectent à Skype pour Business Online à l’aide de la Skype pour application de gestion sur des appareils mobiles, tels que d’une fonctionnalité qui permet aux utilisateurs d’émettre et recevoir des appels téléphoniques sur son téléphone mobile à l’aide de leur numéro de téléphone professionnel plutôt que de leur nu téléphone mobile bre. Des stratégies de mobilité peuvent également être utilisées pour exiger des connexions Wi-Fi lorsque les utilisateurs passent ou reçoivent des appels.
-ms.openlocfilehash: 4e52230ed6f3255b9dbe929086ada6a63cfd66ce
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 21d1b19a72686d618bf8fca484bf828e62ee3a37
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500580"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861526"
 ---
-# <a name="set-up-mobile-policies-for-your-organization"></a>Définir des stratégies mobiles pour votre organisation
+# <a name="set-up-mobile-policies-for-your-organization"></a>Configurer les stratégies mobiles pour votre organisation
 
 Vous pouvez configurer comment vos utilisateurs se connectent à Skype pour Business Online à l’aide de la Skype pour application de gestion sur des appareils mobiles, tels que d’une fonctionnalité qui permet aux utilisateurs d’émettre et recevoir des appels téléphoniques sur son téléphone mobile à l’aide de leur numéro de téléphone professionnel plutôt que de leur nu téléphone mobile bre. Des stratégies de mobilité peuvent également être utilisées pour exiger des connexions Wi-Fi lorsque les utilisateurs passent ou reçoivent des appels.
   

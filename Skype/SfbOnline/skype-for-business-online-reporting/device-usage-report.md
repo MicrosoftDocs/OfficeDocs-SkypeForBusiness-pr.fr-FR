@@ -1,5 +1,5 @@
 ---
-title: Rapport d’utilisation des périphériques
+title: Rapport d'utilisation de dispositif
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: b9019c36-034f-40c7-acb0-c2a0400b03c3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser la Skype pour le rapport d’utilisation des périphériques Business pour afficher les périphériques, y compris les systèmes d’exploitation Windows et les appareils mobiles, dont le Skype pour l’application de gestion installés et utilisent pour la messagerie instantanée et réunions. Consultez la rubrique Rapports sur les activités dans le centre d’administration d’Office 365 pour en savoir plus.
-search.appverid: MET150
-ms.openlocfilehash: 722a1302f3c94737b520c3c8e23101cc04629a70
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 72d700f5e3c63fde3f4a17f6a652643695303a8d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933096"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863382"
 ---
-# <a name="device-usage-report"></a>Rapport d’utilisation des périphériques
+# <a name="device-usage-report"></a>Rapport d'utilisation de dispositif
 
 Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour l’utilisation du périphérique Business** pour afficher les périphériques, y compris les systèmes d’exploitation Windows et les appareils mobiles, dont le Skype pour l’application de gestion installés et utilisent pour la messagerie instantanée et réunions. 
 
@@ -51,25 +51,25 @@ Ce rapport, ainsi que l’autres Skype pour les rapports d’entreprise, vous do
 
 Vous pouvez obtenir une vue dans les périphériques qui utilisent le Skype pour l’application de gestion en examinant les graphiques de **l’utilisateur** et de **Distribution** .
   
-![Skype pour le rapport d’utilisation des périphériques Business](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
+![Skype pour le rapport d'utilisation entreprise appareil](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
   
 ***
-![N ° 1](../images/sfbcallout1.png)<br/>Le rapport **Skype Business utilisation des périphériques** peut être affiché pour les tendances sur les 7 derniers jours, 30 jours, de 90 jours ou 180 jours. Toutefois, si vous cliquez sur dans un jour donné dans le rapport, le tableau (voir n ° 7) sera afficher les données des 30 derniers jours, jusqu'à la date (voir n ° 2) pour laquelle le rapport a été généré.
+![Numéro 1](../images/sfbcallout1.png)<br/>Le rapport **Skype Business utilisation des périphériques** peut être affiché pour les tendances sur les 7 derniers jours, 30 jours, de 90 jours ou 180 jours. Toutefois, si vous cliquez sur dans un jour donné dans le rapport, le tableau (voir n ° 7) sera afficher les données des 30 derniers jours, jusqu'à la date (voir n ° 2) pour laquelle le rapport a été généré.
 
 > [!NOTE]
 > Si vous cliquez sur les détails d’un jour spécifique, le tableau affiche uniquement les données pour les 30 jours jusqu'à la date lorsque le rapport a été généré.
     
 ***
-![N ° 2](../images/sfbcallout2.png)<br/>
+![Numéro 2](../images/sfbcallout2.png)<br/>
 Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
 ***
-![N ° 3](../images/sfbcallout3.png)<br/>Utiliser les données de graphique interactif dans le graphique **les utilisateurs** à comprendre les tendances d’utilisation et pour afficher le nombre d’utilisateurs qui sont connectés à l’aide de la Skype pour l’application de gestion qui sont utilisés dans votre organisation. Il indique le nombre total d’utilisateurs et les types de périphériques **Windows**, **Windows Phone**, **Android phone**, **iPhone**et **iPad** dont le Skype pour application métiers installée et sont utilisés au sein de votre organisation.
+![Nombre 3](../images/sfbcallout3.png)<br/>Utiliser les données de graphique interactif dans le graphique **les utilisateurs** à comprendre les tendances d’utilisation et pour afficher le nombre d’utilisateurs qui sont connectés à l’aide de la Skype pour l’application de gestion qui sont utilisés dans votre organisation. Il indique le nombre total d’utilisateurs et les types de périphériques **Windows**, **Windows Phone**, **Android phone**, **iPhone**et **iPad** dont le Skype pour application métiers installée et sont utilisés au sein de votre organisation.
 ***
-![N ° 4](../images/sfbcallout4.png)<br/>Utiliser les données de graphique interactif sur le graphique à barres **Distribution** de comprendre l’utilisation pour afficher le nombre d’utilisateurs à l’aide de périphériques uniques dans votre organisation. Il vous indiquera le nombre total de **Windows**, **Windows Phone**, **Android phone**, **iPhone**et **iPad** utilisateurs avec un appareil utilisé. 
+![Numéro 4](../images/sfbcallout4.png)<br/>Utiliser les données de graphique interactif sur le graphique à barres **Distribution** de comprendre l’utilisation pour afficher le nombre d’utilisateurs à l’aide de périphériques uniques dans votre organisation. Il vous indiquera le nombre total de **Windows**, **Windows Phone**, **Android phone**, **iPhone**et **iPad** utilisateurs avec un appareil utilisé. 
 ***
-![N ° 5](../images/sfbcallout5.png)<br/>Vous pouvez filtrer la série présentée dans le graphique en cliquant sur un élément dans la légende. Par exemple, dans le graphique **d’utilisateurs** , cliquez sur ou cliquez sur **Windows**, **Windows Phone**, **téléphone Android**, **iPhone**, **iPad** pour afficher uniquement les informations relatives à chacun d’eux. Modifier cette sélection ne change pas les informations dans le tableau. 
+!["Nombre 5"](../images/sfbcallout5.png)<br/>Vous pouvez filtrer la série présentée dans le graphique en cliquant sur un élément dans la légende. Par exemple, dans le graphique **d’utilisateurs** , cliquez sur ou cliquez sur **Windows**, **Windows Phone**, **téléphone Android**, **iPhone**, **iPad** pour afficher uniquement les informations relatives à chacun d’eux. Modifier cette sélection ne change pas les informations dans le tableau. 
 ***
-![N ° 6](../images/sfbcallout6.png)<br/>Chaque graphique a un axe « X » (horizontal) et « Y » (vertical).
+![Numéro 6](../images/sfbcallout6.png)<br/>Chaque graphique a un axe « X » (horizontal) et « Y » (vertical).
 *    Dans le graphique **d’utilisateurs** , l’axe des Y sont le nombre total d’utilisateurs connectés à un périphérique dont le Skype pour Business application installée.
 *    Dans le graphique d’activité de **Distribution** , l’axe des Y sont le nombre d’utilisateurs qui sont connectés à un certain type de périphérique avec le Skype pour Business application installée. 
 

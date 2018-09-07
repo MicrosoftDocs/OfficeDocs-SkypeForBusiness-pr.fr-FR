@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: ebf5adf0-d848-4e99-baf4-387d1711e1d0
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -15,16 +16,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: Découvrez la configuration requise pour la gestion à distance de Skype pour entreprise en ligne par le biais de Windows PowerShell, y compris les systèmes d’exploitation pris en charge.
-ms.openlocfilehash: 94f5fe81e510b5722bde38a64fe3f8473a7f5c8b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Découvrez la configuration requise pour la gestion à distance de Skype pour Business Online via Windows PowerShell, y compris les systèmes d’exploitation pris en charge.
+ms.openlocfilehash: 001e8da26daaff65a1761519073667e530688243
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862592"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Configurer votre ordinateur pour Windows PowerShell
 
-Gestion à distance de Skype pour entreprise en ligne à l’aide de Microsoft PowerShell est pris en charge uniquement sur les ordinateurs 64 bits qui exécute l’un des systèmes d’exploitation suivants :
+Gestion à distance de Skype pour Business Online à l’aide de Microsoft PowerShell est pris en charge uniquement sur les ordinateurs 64 bits qui exécute un des systèmes d’exploitation suivants :
   
 - Windows 10
     
@@ -40,20 +42,20 @@ Gestion à distance de Skype pour entreprise en ligne à l’aide de Microsoft P
     
 - Windows 7
     
-En plus du système d’exploitation pris en charge, l’ordinateur doit également exécuter les opérations suivantes :
+Outre le système d’exploitation pris en charge, l’ordinateur doit également exécuter les éléments suivants :
   
 - PowerShell
     
-- Skype pour module de Business Connector d’en ligne
+- Skype pour le module Business Connector en ligne
     
-Vous pouvez trouver des informations sur le téléchargement et l’installation de ces éléments dans les rubriques suivantes :
+Vous trouverez des informations sur le téléchargement et l’installation de ces éléments dans les rubriques suivantes :
   
-- [Téléchargez et installez le Skype pour module de Business Connector d’en ligne](download-and-install-the-skype-for-business-online-connector.md)
+- [Téléchargez et installez le Skype pour le module Business Connector en ligne](download-and-install-the-skype-for-business-online-connector.md)
     
 - [Télécharger et installer Windows PowerShell 3.0](download-and-install-windows-powershell-3-0.md)
     
 ## <a name="related-topics"></a>Rubriques connexes
-[Diagnostiquer les problèmes de connexion avec le Skype pour business connector d’en ligne](diagnose-problems-with-the-skype-for-business-online-connector.md)
+[Diagnostiquer les problèmes de connexion avec le Skype pour business connector en ligne](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   
  

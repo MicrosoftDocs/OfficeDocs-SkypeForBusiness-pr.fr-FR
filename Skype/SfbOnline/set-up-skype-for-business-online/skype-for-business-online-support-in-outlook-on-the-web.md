@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 305984ec-3da8-4509-bb2b-6643dcf2cb7d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -15,16 +16,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Outlook sur le Web (Outlook Web App) dans Office 365 offre un client Web Skype Entreprise standard depuis la barre de navigation. Ce client de base est disponible pour les utilisateurs en ligne dont admin n’a pas configuré une URL vanity pour leur organisation d’Office 365. Tant que le compte d’utilisateur est en ligne et n’a pas une URL de courtoisie, ils pourront toujours voir l’expérience même si leur organisation a certains comptes d’utilisateurs qui sont hébergées sur site. Les utilisateurs qui ont des utilisateurs comptes locaux (qu’ils aient une URL vanity ou non) ou sont gérés par Microsoft verront l’expérience Lync dans Outlook web app.
-ms.openlocfilehash: 03491bb0cb200cac8eecb0ae2282a7003a85f8dc
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Outlook sur le Web (Outlook Web App) dans Office 365 offre un client Web Skype Entreprise standard depuis la barre de navigation. Ce client de base est disponible pour les utilisateurs en ligne dont admin n’a pas encore configuré une URL de redirection pour leur organisation Office 365. Tant que le compte d’utilisateur est en ligne et ne possède pas une URL de redirection, ils verront toujours l’expérience même si leur organisation a certains comptes d’utilisateurs qui sont hébergés sur un système local. Les utilisateurs qui possèdent des utilisateur comptes locaux (si elles ont une URL de redirection ou non) ou qui sont gérés par Microsoft verront l’expérience de Lync dans Outlook web app.
+ms.openlocfilehash: 112da508d0f21175d309679a529f86d22a37d0d4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863244"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Prise en charge de Skype Entreprise Online avec Outlook sur le Web
 
-Outlook sur le Web (Outlook Web App) dans Office 365 offre un client Web Skype Entreprise standard depuis la barre de navigation. Ce client de base est disponible pour les utilisateurs en ligne dont admin n’a pas configuré une URL vanity pour leur organisation d’Office 365. Tant que le compte d’utilisateur est en ligne et n’a pas une URL de courtoisie, ils pourront toujours voir l’expérience même si leur organisation a certains comptes d’utilisateurs qui sont hébergées sur site. Les utilisateurs qui ont des utilisateurs comptes locaux (qu’ils aient une URL vanity ou non) ou sont gérés par Microsoft verront l’expérience Lync dans Outlook web app.
+Outlook sur le Web (Outlook Web App) dans Office 365 offre un client Web Skype Entreprise standard depuis la barre de navigation. Ce client de base est disponible pour les utilisateurs en ligne dont admin n’a pas encore configuré une URL de redirection pour leur organisation Office 365. Tant que le compte d’utilisateur est en ligne et ne possède pas une URL de redirection, ils verront toujours l’expérience même si leur organisation a certains comptes d’utilisateurs qui sont hébergés sur un système local. Les utilisateurs qui possèdent des utilisateur comptes locaux (si elles ont une URL de redirection ou non) ou qui sont gérés par Microsoft verront l’expérience de Lync dans Outlook web app.
   
 Le tableau suivant récapitule les différentes configurations dont vous disposez et le client web qui est utilisé.
   

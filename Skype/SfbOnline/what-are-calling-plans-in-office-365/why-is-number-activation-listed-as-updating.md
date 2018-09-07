@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: edc71baa-0899-4bb7-8643-a4c4064af627
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: f9dac26299a4efa0b6235dac3b7ce221c61bce3b
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6852dde95528f98b8850070f47caab225282de2d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779325"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864900"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>Pourquoi l’activation de numéro est-elle indiquée comme étant en cours de mise à jour ?
 

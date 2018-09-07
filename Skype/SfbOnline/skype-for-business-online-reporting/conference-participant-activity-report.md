@@ -1,5 +1,5 @@
 ---
-title: Rapport d’activité participant de conférence
+title: Rapport d'activités de participant à la conférence
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c3c89995-65dd-4715-9e38-bb244c742c6b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-search.appverid: MET150
-ms.openlocfilehash: 76d41724223e55f10bbabf566719e2bd19e24411
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 844fdb83a1219a23b66a3f65bc1bde69475b3eb4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933116"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864578"
 ---
-# <a name="conference-participant-activity-report"></a>Rapport d’activité participant de conférence
+# <a name="conference-participant-activity-report"></a>Rapport d'activités de participant à la conférence
 
 En tant qu’un administrateur Office 365, le nouveau tableau de bord **rapports** vous présente des données sur l’utilisation des produits Office 365 au sein de votre organisation. Vous pouvez utiliser le rapport **Skype pour activité participant de conférence** pour afficher le nombre par messagerie instantanée, audio/vidéo, partage d’applications, Web et et conférences dial-in/out sont participés par les utilisateurs de votre organisation.
 
@@ -53,20 +53,20 @@ Ce rapport, ainsi que l’autres Skype pour les rapports d’entreprise, vous do
 ![Rapport d’activité participant de conférence de Skype](../images/a5fb6a3f-d8bc-402e-850e-87a75fbc2546.PNG)
   
 ***
-![N ° 1](../images/sfbcallout1.png)<br/>Le rapport **Activité de participation à des conférences Skype Entreprise** peut être consulté pour les tendances au cours des 7, 30, 90 ou 180 derniers jours. Toutefois, si vous cliquez sur dans un jour donné dans le rapport, le tableau (voir n ° 7) sera afficher les données des 30 derniers jours, jusqu'à la date (voir n ° 2) pour laquelle le rapport a été généré.
+![Numéro 1](../images/sfbcallout1.png)<br/>Le rapport **Activité de participation à des conférences Skype Entreprise** peut être consulté pour les tendances au cours des 7, 30, 90 ou 180 derniers jours. Toutefois, si vous cliquez sur dans un jour donné dans le rapport, le tableau (voir n ° 7) sera afficher les données des 30 derniers jours, jusqu'à la date (voir n ° 2) pour laquelle le rapport a été généré.
 > [!NOTE]
 > Si vous cliquez sur les détails d’un jour spécifique, le tableau affiche uniquement les données pour les 30 jours jusqu'à la date lorsque le rapport a été généré.
      
 ***
-![N ° 2](../images/sfbcallout2.png)<br/>Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
+![Numéro 2](../images/sfbcallout2.png)<br/>Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
 ***
-![N ° 3](../images/sfbcallout3.png)<br/>Utilisez les données de graphique du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total de conférences pour lesquelles il y a eu des participants ainsi que le type de conférences qui se tient actuellement dans votre organisation. Cela vous indiquera, pour l'ensemble de votre organisation, le nombre et les types de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'application**, le **web** et les **conférences rendez-vous ou les mises en conférences téléphoniques tierces** pour lesquelles il y a eu des participants. 
+![Nombre 3](../images/sfbcallout3.png)<br/>Utilisez les données de graphique du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total de conférences pour lesquelles il y a eu des participants ainsi que le type de conférences qui se tient actuellement dans votre organisation. Cela vous indiquera, pour l'ensemble de votre organisation, le nombre et les types de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'application**, le **web** et les **conférences rendez-vous ou les mises en conférences téléphoniques tierces** pour lesquelles il y a eu des participants. 
 ***
-![N ° 4](../images/sfbcallout4.png)<br/>Utilisez les données du graphique interactif **Utilisateurs** pour comprendre les tendances d'utilisation et afficher le nombre total d'utilisateurs uniques qui ont participé aux conférences qui se sont tenues dans votre organisation. Cela vous indiquera le nombre total d'utilisateurs ainsi que les types de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'applications**, le **web** et les **conférences rendez-vous ou les mises en conférences téléphoniques tierces** qui ont été organisées. 
+![Numéro 4](../images/sfbcallout4.png)<br/>Utilisez les données du graphique interactif **Utilisateurs** pour comprendre les tendances d'utilisation et afficher le nombre total d'utilisateurs uniques qui ont participé aux conférences qui se sont tenues dans votre organisation. Cela vous indiquera le nombre total d'utilisateurs ainsi que les types de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'applications**, le **web** et les **conférences rendez-vous ou les mises en conférences téléphoniques tierces** qui ont été organisées. 
 ***
-![N ° 5](../images/sfbcallout5.png)<br/>Utiliser les données de graphique interactif dans le graphique **Minutes** pour comprendre les tendances d’utilisation et pour afficher le nombre de minutes qui sont utilisés par les utilisateurs lorsqu’ils organisent une conférence à l’aide d’audio/vidéo et rendez-vous entrants et sortants - Microsoft en tant que leurs services d’audioconférence fournisseur de services. Cela vous indiquera le nombre total de minutes **audio/vidéo** qui ont été utilisées pendant les conférences pour lesquelles il y a eu des participants.
+!["Nombre 5"](../images/sfbcallout5.png)<br/>Utiliser les données de graphique interactif dans le graphique **Minutes** pour comprendre les tendances d’utilisation et pour afficher le nombre de minutes qui sont utilisés par les utilisateurs lorsqu’ils organisent une conférence à l’aide d’audio/vidéo et rendez-vous entrants et sortants - Microsoft en tant que leurs services d’audioconférence fournisseur de services. Cela vous indiquera le nombre total de minutes **audio/vidéo** qui ont été utilisées pendant les conférences pour lesquelles il y a eu des participants.
 ***
-![N ° 6](../images/sfbcallout6.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. For example, on the **Activity** chart, click or tap **IM**, **Audio/video**, **Application sharing**, **Web**, and **Dial-in/out - 3rd party** to see only the info related to each one. Changing this selection doesn't change the info in the grid table.  
+![Numéro 6](../images/sfbcallout6.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. For example, on the **Activity** chart, click or tap **IM**, **Audio/video**, **Application sharing**, **Web**, and **Dial-in/out - 3rd party** to see only the info related to each one. Changing this selection doesn't change the info in the grid table.  
 ***
 ![N ° 7](../images/sfbcallout7.png)<br/>Chaque graphique a un axe « X » (horizontal) et « Y » (vertical).  
 *    Dans le graphique d'activité **Activité**, l'axe Y correspond au nombre total de conférences messagerie instantanée, audio/vidéo, partage d'applications, web, et rendez-vous/mises en conférence tierces auxquelles les utilisateurs dans votre organisation ont participé. 

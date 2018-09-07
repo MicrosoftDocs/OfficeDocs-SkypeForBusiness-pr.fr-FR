@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 40296968-e779-4259-980b-c2de1c044c6e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -21,12 +22,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Apprenez à configurer votre domaine, les utilisateurs, messagerie instantanée et la présence de votre organisation pour installer Skype pour les entreprises. Voir aussi comment configurer les services d’audioconférence, système téléphonique et Plans de l’appel et diffusion Skype réunion. '
-ms.openlocfilehash: 264edbeeaaca9eb2b057760ec6432deedb4b78e4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b4db326212b472539a483a406a7c940f0802978d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252525"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864488"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurer Skype Entreprise Online
 
@@ -42,7 +43,7 @@ Si vous disposez d' **[Office 365 Business Premium](https://products.office.com/
 
 Si vous voulez utiliser Skype Entreprise pour passer et recevoir des **appels** avec des personnes *externes*  à votre entreprise :
 
-- **Option 1. Utilisez l'application gratuite [Skype](https://www.skype.com/)**. Si votre entreprise est très petite (par exemple, une ou deux personnes), l'application Skype est la meilleure solution. Elle est plus économique pour les appels nationaux et internationaux. Vous pouvez toujours en attente les appels de conférence, émettre des appels vidéo et partager votre bureau pour les présentations. [Extrayez les taux et les options de paiement](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
+- **Option 1. Utilisez l'application gratuite [Skype](https://www.skype.com/)**. Si votre entreprise est très petite (par exemple, une ou deux personnes), l'application Skype est la meilleure solution. Elle est plus économique pour les appels nationaux et internationaux. Vous pouvez toujours en attente les appels de conférence, émettre des appels vidéo et partager votre bureau pour les présentations. [Découvrez les tarifs et les options de paiement](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
 
 - **Option 2. Passez au niveau supérieur et achetez le système téléphonique et un forfait d'appels Office 365**. Le moyen le plus simple pour déterminer combien cela des coûts, puis passez, consiste à [contacter le support technique pour les produits métiers : aide d’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) et demandez-lui de faire tout ce que vous.
 

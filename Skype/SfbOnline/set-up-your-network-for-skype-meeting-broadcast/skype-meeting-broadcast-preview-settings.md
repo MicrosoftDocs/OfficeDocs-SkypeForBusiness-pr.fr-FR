@@ -1,5 +1,5 @@
 ---
-title: Paramètres d’aperçu de la diffusion de réunion Skype
+title: Paramètres d’aperçu de diffusion de réunion Skype
 mms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 651d4773-cbd8-49e9-b55e-7abb8064060
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,16 +19,17 @@ f1keywords:
 - ms.lync.lac.BroadcastMeetingsPreview
 ms.custom:
 - SMB
-description: Le Skype pour le programme d’évaluation client entreprise fournit un accès précoce aux nouveaux produits et fonctionnalités. Il permet à votre organisation obtenir un aperçu de ce qui arrive, tester les nouvelles fonctionnalités dans votre propre environnement et fournir des commentaires avant la sortie des builds de produit pour le grand public. Pour en savoir plus, reportez-vous à la section Skype pour l’aperçu de l’entreprise.
-ms.openlocfilehash: f806e10771734c0bf28b4ed589de7f910a20261e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Le Skype pour Business client preview fournit vous profitez d’un accès à nouveaux produits et fonctionnalités. Il permet à votre organisation obtenir un aperçu de nouveautés, les nouvelles fonctionnalités dans votre propre environnement de test et envoyer des commentaires avant la sortie des versions de produit au grand public. Pour plus d’informations, voir Skype pour l’aperçu de l’entreprise.
+ms.openlocfilehash: 1f563292e2e5927cf037e5d2a9b24405d0a336a2
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865026"
 ---
-# <a name="skype-meeting-broadcast-preview-settings"></a>Paramètres d’aperçu de la diffusion de réunion Skype
+# <a name="skype-meeting-broadcast-preview-settings"></a>Paramètres d’aperçu de diffusion de réunion Skype
 
-Le Skype pour le programme d’évaluation client entreprise fournit un accès précoce aux nouveaux produits et fonctionnalités. Il permet à votre organisation obtenir un aperçu de ce qui arrive, tester les nouvelles fonctionnalités dans votre propre environnement et fournir des commentaires avant la sortie des builds de produit pour le grand public. Pour en savoir plus, reportez-vous à la section [Skype pour l’aperçu de l’entreprise](https://www.skypepreview.com/).
+Le Skype pour Business client preview fournit vous profitez d’un accès à nouveaux produits et fonctionnalités. Il permet à votre organisation obtenir un aperçu de nouveautés, les nouvelles fonctionnalités dans votre propre environnement de test et envoyer des commentaires avant la sortie des versions de produit au grand public. Pour plus d’informations, voir [Skype pour l’aperçu de l’entreprise](https://www.skypepreview.com/).
 
 ## <a name="related-topics"></a>Rubriques connexes
 [Présentation de Windows PowerShell et de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)

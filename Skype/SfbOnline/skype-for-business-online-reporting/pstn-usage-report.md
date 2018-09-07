@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 74eda791-c41f-4fd9-ae0b-913342e7ab04
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: La nouvelle Skype de zone de rapports du centre d’administration Business affiche vous appeler et audio conférence activité dans votre organisation. Elle vous permet des détails des rapports pour vous donnent plus granulaires sur les activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de conférence Audio, y compris le coût de l’appel afin que vous puissiez comprendre l’utilisation et appeler les détails de facturation pour déterminer l’usage au sein de votre organisation.
-search.appverid: MET150
-ms.openlocfilehash: 562911b6ceb4751a1a808d4e8f63ddaddddfad99
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6003199b69395001dc47d77f83927ac32e06e5a4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779183"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862240"
 ---
 # <a name="pstn-usage-report"></a>Rapport d'utilisation RTC
 
@@ -54,7 +54,7 @@ Voici une illustration du rapport.
 ![Rapport d'utilisation de la conférence RTC Skype Entreprise](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
 
 ***
-![N ° 1](../images/sfbcallout1.png)<br/>Le tableau présente une répartition par utilisateur de toutes les utilisations PSTN. Affiche tous les utilisateurs qui ont Skype pour les entreprises affecté et leur utilisation PSTN. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau.
+![Numéro 1](../images/sfbcallout1.png)<br/>Le tableau présente une répartition par utilisateur de toutes les utilisations PSTN. Affiche tous les utilisateurs qui ont Skype pour les entreprises affecté et leur utilisation PSTN. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau.
 *    **ID d’appel** est l’ID de l’appel à un appel. Il est un identificateur unique de l’appel est utilisé lors de l’appel de prise en charge du service Microsoft.
 *    **ID de l'utilisateur** est le nom de connexion de l'utilisateur.
 *    **Numéro de téléphone** est le Skype pour le numéro de téléphone professionnel qui a reçu l’appel pour les appels entrants ou le numéro composé pour les appels sortants.
@@ -94,9 +94,9 @@ Voici une illustration du rapport.
      *    **MCOMEETADD** - services d’audioconférence
      *    **MCOMEETACPEA** - salaire par Minute services d’audioconférence 
 ***
-![N ° 2](../images/sfbcallout2.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes.
+![Numéro 2](../images/sfbcallout2.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes.
  ***
-![N ° 3](../images/sfbcallout3.png)<br/>Vous pouvez également exporter le rapport de données dans un onglet délimité par des fichiers Excel, en cliquant sur le bouton **Exporter vers Excel** . <br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. 
+![Nombre 3](../images/sfbcallout3.png)<br/>Vous pouvez également exporter le rapport de données dans un onglet délimité par des fichiers Excel, en cliquant sur le bouton **Exporter vers Excel** . <br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. 
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
 

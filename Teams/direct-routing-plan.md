@@ -8,14 +8,15 @@ ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: ''
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: 1749d5b26be6e3cc4c55bb9a90e47e637fc67230
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 0f2fceee07b3c742496be7e9fdf5c714d66f8bc1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23848616"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861740"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage Direct
 
@@ -68,9 +69,9 @@ Exigences d’infrastructure pour le SBCs pris en charge, les domaines et les au
 |Publique entrée DNS pour le contrôleur SBC |Une entrée DNS publique le FQDN SBC à mapper sur l’adresse IP publique. |
 |Certificat de confiance public pour le contrôleur SBC |Un certificat pour le contrôleur SBC à utiliser pour toutes les communications avec le routage Direct. Pour plus d’informations, consultez la rubrique [Public certificat approuvé pour le contrôleur SBC](#public-trusted-certificate-for-the-sbc).|
 |Points de connexion pour le routage Direct |Les points de connexion pour le routage Direct sont les noms de domaine trois complets suivants :<br/><br/>`sip.pstnhub.microsoft.com`– Nom de domaine complet global, doit être tenté en premier.<br/>`sip2.pstnhub.microsoft.com`– Nom de domaine complet secondaire, géographiquement mappe à la seconde région priorité.<br/>`sip3.pstnhub.microsoft.com`– Nom de domaine complet de troisième niveau, mappe géographiquement à la région de priorité de la troisième.<br/><br/>Pour plus d’informations sur la configuration requise, voir [de signalisation SIP : noms de domaine complets et les ports de pare-feu](#sip-signaling-fqdns-and-firewall-ports).|
-|Adresses IP de pare-feu et les ports pour le média routage Direct |Le contrôleur SBC communique avec les services suivants dans le nuage :<br/><br/>Proxy qui gère la signalisation SIP<br/>Processeur multimédia, qui gère les données multimédias-sauf lorsque le contournement de média est activé<br/><br/>Ces deux services ont des adresses IP séparées dans le Cloud Microsoft, décrit plus loin dans ce document.<br/><br/>Pour plus d’informations, voir la [section équipes Microsoft](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) dans [Office 365 URL et plages d’adresses IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+|Adresses IP de pare-feu et les ports pour le média routage Direct |Le contrôleur SBC communique avec les services suivants dans le nuage :<br/><br/>Proxy qui gère la signalisation SIP<br/>Processeur multimédia, qui gère les données multimédias-sauf lorsque le contournement de média est activé<br/><br/>Ces deux services ont des adresses IP séparées dans le Cloud Microsoft, décrit plus loin dans ce document.<br/><br/>Pour plus d’informations, voir la [section équipes Microsoft](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) dans [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Profil de Transport de média|TCP/RTP/SAVP <br/>RTP/UDP/SAVP|
-Adresses IP de pare-feu et les ports pour le média Microsoft Teams |Pour plus d’informations, voir [Office 365 URL et plages d’adresses IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+Adresses IP de pare-feu et les ports pour le média Microsoft Teams |Pour plus d’informations, voir [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Gestion des licences et autres composants requis 

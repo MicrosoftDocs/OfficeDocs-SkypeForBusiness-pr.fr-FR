@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 413acb29-ad83-4393-9402-51d88e7561ab
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Cet article décrit les principes du flux d'appels pour Skype Entreprise Online et ExpressRoute, et vous présente des exemples détaillés de flux d'appels afin de vous permettre de comprendre et de planifier correctement.
-ms.openlocfilehash: 8549104b4fe27afcdb157325ea5564298a886432
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2406badc671fec8ede36039ebf230115a5920e97
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253879"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861076"
 ---
 # <a name="call-flow-using-expressroute"></a>Flux d'appels avec ExpressRoute
 

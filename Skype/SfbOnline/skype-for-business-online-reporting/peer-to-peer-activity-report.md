@@ -1,5 +1,5 @@
 ---
-title: Rapport des activités d’égal à égal
+title: Rapport d'activités pair à pair
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d3b2d569-4ee9-44b8-92bf-d518142f0713
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,15 +21,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-search.appverid: MET150
-ms.openlocfilehash: c5248baebf3e34b24427ecf192a1b1376c7afb4a
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 2ee918cb82ea42a321af9b91ac9a4526fa849a65
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933136"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860642"
 ---
-# <a name="peer-to-peer-activity-report"></a>Rapport des activités d’égal à égal
+# <a name="peer-to-peer-activity-report"></a>Rapport d'activités pair à pair
 
 Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour l’activité d’égal à égal** pour voir combien vos utilisateurs sont à l’aide de messagerie instantanée, application d’audio, vidéo, partage et transfert de fichiers. 
 
@@ -57,21 +57,21 @@ Vous pouvez obtenir un aperçu de l'activité P2P Skype Entreprise en consultant
 ![Rapport d’égal à égal de Skype avec des légendes.](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
   
 ***
-![N ° 1](../images/sfbcallout1.png)<br/>Le **rapport d'activité P2P Skype Entreprise** peut être consulté pour les tendances au cours des 7, 30, 90 ou 180 derniers jours. Toutefois, si vous cliquez sur dans un jour donné dans le rapport, le tableau (voir n ° 7) sera afficher les données des 30 derniers jours, jusqu'à la date (voir n ° 2) pour laquelle le rapport a été généré.
+![Numéro 1](../images/sfbcallout1.png)<br/>Le **rapport d'activité P2P Skype Entreprise** peut être consulté pour les tendances au cours des 7, 30, 90 ou 180 derniers jours. Toutefois, si vous cliquez sur dans un jour donné dans le rapport, le tableau (voir n ° 7) sera afficher les données des 30 derniers jours, jusqu'à la date (voir n ° 2) pour laquelle le rapport a été généré.
 
 > [!NOTE]
 > Si vous cliquez sur les détails d’un jour spécifique, le tableau affiche uniquement les données pour les 30 jours jusqu'à la date lorsque le rapport a été généré.
 
 ***
-![N ° 2](../images/sfbcallout2.png)<br/>Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
+![Numéro 2](../images/sfbcallout2.png)<br/>Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
 ***
-![N ° 3](../images/sfbcallout3.png)<br/>Utilisez les données de graphique du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total de sessions par type de sessions qui se tient actuellement dans votre organisation. Il montrent le nombre et les types de sessions de **messagerie instantanée**, **Audio**, **vidéo**, **partage d’Application**et **les transferts de fichiers** au sein de votre organisation. 
+![Nombre 3](../images/sfbcallout3.png)<br/>Utilisez les données de graphique du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total de sessions par type de sessions qui se tient actuellement dans votre organisation. Il montrent le nombre et les types de sessions de **messagerie instantanée**, **Audio**, **vidéo**, **partage d’Application**et **les transferts de fichiers** au sein de votre organisation. 
 ***
-![N ° 4](../images/sfbcallout4.png)<br/>.Utilisez les données du graphique interactif **Utilisateurs** pour comprendre les tendances d'utilisation et afficher le nombre total d'utilisateurs uniques participant aux activités P2P qui se tiennent dans votre organisation. Il vous indiquera le nombre total d’utilisateurs ainsi que les types de **messagerie instantanée**, **Audio**, **vidéo**, **partage d’Application**et **les transferts de fichiers** dans des sessions d’égal à égal.
+![Numéro 4](../images/sfbcallout4.png)<br/>.Utilisez les données du graphique interactif **Utilisateurs** pour comprendre les tendances d'utilisation et afficher le nombre total d'utilisateurs uniques participant aux activités P2P qui se tiennent dans votre organisation. Il vous indiquera le nombre total d’utilisateurs ainsi que les types de **messagerie instantanée**, **Audio**, **vidéo**, **partage d’Application**et **les transferts de fichiers** dans des sessions d’égal à égal.
 ***
-![N ° 5](../images/sfbcallout5.png)<br/>Utilisez les données du graphique interactif **Minutes** pour comprendre les tendances d'utilisation et afficher le nombre de minutes utilisées quand des utilisateurs réalisent des activités P2P lors de sessions audio/vidéo. Cela vous indiquera le nombre total de minutes **Audio** et **Vidéo** qui ont été utilisées pendant les sessions P2P. 
+!["Nombre 5"](../images/sfbcallout5.png)<br/>Utilisez les données du graphique interactif **Minutes** pour comprendre les tendances d'utilisation et afficher le nombre de minutes utilisées quand des utilisateurs réalisent des activités P2P lors de sessions audio/vidéo. Cela vous indiquera le nombre total de minutes **Audio** et **Vidéo** qui ont été utilisées pendant les sessions P2P. 
 ***
-![N ° 6](../images/sfbcallout6.png)<br/>Chaque graphique a un axe « X » (horizontal) et « Y » (vertical). 
+![Numéro 6](../images/sfbcallout6.png)<br/>Chaque graphique a un axe « X » (horizontal) et « Y » (vertical). 
 *    Dans le graphique d'activité **Activité**, l'axe Y correspond au nombre total de sessions de messagerie instantanée, audio, vidéo, de partage d'application et de transferts de fichiers tenues par les utilisateurs dans votre organisation.
 *    Sur le graphique d’activités des **utilisateurs** , l’axe des Y sont le total nombre d’utilisateurs qui détenus par messagerie instantanée, application d’audio, vidéo, partage et le transfert des sessions de fichiers. 
 *    Dans le graphique d'activité **Minutes**, l'axe Y correspond à la durée totale en minutes passée par les utilisateurs dans votre organisation lors de sessions audio et vidéo P2P. 
