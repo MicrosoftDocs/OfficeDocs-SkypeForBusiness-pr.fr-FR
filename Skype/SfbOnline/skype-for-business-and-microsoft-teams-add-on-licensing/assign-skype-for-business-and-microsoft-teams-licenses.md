@@ -1,5 +1,5 @@
 ---
-title: Attribuer des licences Skype Entreprise et Microsoft Teams
+title: Affecter des licences Skype Entreprise et Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: fd41934d-f2eb-4a1b-89d8-32cb37702b33
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: "Apprenez comment affecter des licences Skype Entreprise pour le Système téléphonique, l'Audioconférence, les Plans d'appel et les Crédits de communications. "
-ms.openlocfilehash: fef4bea3971f2984e46de7a3592b1a157076c879
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: af2b7357c5dbe9e11b84ac87e0f72721d10a6a30
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780666"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856052"
 ---
-# <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Attribuer des licences Skype Entreprise et Microsoft Teams
+# <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Affecter des licences Skype Entreprise et Microsoft Teams
 
-Cet article vous donne des conseils sur l’affectation de licences à vos utilisateurs pour des fonctionnalités telles que l'Audioconférence, le Système téléphonique et les Forfaits d’appels. Il vous fournit également des scripts pour affecter des licences en bloc.
+Cet article vous donne des conseils sur l’affectation de licences à vos utilisateurs pour des fonctionnalités telles que l'Audioconférence, le Système téléphonique et les Forfaits d’appels. Il vous fournit également des scripts pour affecter des licences en volume.
 
 > [!IMPORTANT]
 > Voir [Octroi de licences de compléments Skype Entreprise et Microsoft Teams](skype-for-business-and-microsoft-teams-add-on-licensing.md) pour plus d’informations sur quelles licences vous devez acheter et **Comment acheter** ces dernières - en fonction de votre plan Office 365 -, de façon à ce que les utilisateurs disposent de l’Audioconférence, de numéros gratuits, et de la possibilité d’appeler des numéros de téléphone à l’extérieur de votre entreprise.
@@ -39,11 +40,11 @@ Cet article vous donne des conseils sur l’affectation de licences à vos utili
 
 Ce que vous devez connaître avant d’affecter des licences Audioconférence, Système téléphonique et Forfait d'appels
 
-- **Vous utilisez la connectivité PSTN locale pour les utilisateurs hybrides ?** Dans ce cas, vous avez seulement besoin d’affecter une licence de **Système téléphonique**. Vous ne devez **PAS** affecter un Forfait d'appels.
+- **Utilisation de la connectivité RTC locale pour les utilisateurs hybrides ?** Dans ce cas, vous avez seulement besoin d’affecter une licence de **Système téléphonique**. Vous ne devez **PAS** affecter un Forfait d'appels.
 
 - **Latence après affectation de licences** : en raison de la latence entre Office 365 et Skype Entreprise Online, jusqu'à 24 heures peuvent être nécessaires pour qu'un utilisateur se voie affecter un Plan d'appel après que vous lui avez affecté une licence. Si après 24 heures, l’utilisateur ne se voit pas affecter un Forfait d’appels, veuillez [Contacter le support pour les produits entreprise : aide à l’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-- **Messages d'erreur** : un message d'erreur s'affiche si vous n'avez pas acheté le nombre correct de licences. Si vous devez acheter davantage de licences de Forfait d'appels, choisissez **Acheter plus**.
+- **Messages d'erreur** : un message d'erreur s'affiche si vous n'avez pas acheté le nombre correct de licences. Si vous devez acheter davantage de licences de Forfait d'appels, choisissez **Acheter plus**.
     
 - **Prochaines étapes** : après que vous aurez affecté des licences de Forfaits d'appels à vos utilisateurs, vous aurez besoin d'obtenir les numéros de téléphone de votre organisation, puis de les affecter aux personnes dans votre organisation. Pour des instructions pas à pas, voir [Configurer des Forfaits d'appels](/microsoftteams/set-up-calling-plans).
     

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c7323490-d9b7-421a-aa76-5bd485f80583
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,21 +20,21 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Le système téléphonique dans Office 365 fournit une identification de l’appelant par défaut qui est le numéro de téléphone affecté. Vous pouvez modifier ou bloquer l’identification de l’appelant (également appelé une identification de ligne d’appel) pour un utilisateur. Pour plus d’informations sur l’utilisation des identification de l’appelant dans votre organisation consultez Comment l’identification de l’appelant peut-elle être utilisée dans votre organisation.
-ms.openlocfilehash: cf6f1aab6f865a87186b7acb793e5aa7829907aa
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+description: Le système téléphonique dans Office 365 fournit un ID d’appelant par défaut qui est le numéro de téléphone attribué. Vous pouvez modifier ou bloquer l'ID d'appelant (également appelé ID de ligne d'appel). Pour en savoir plus sur l’utilisation de l’ID d’appelant dans votre organisation, cliquez sur Comment utiliser un ID d’appelant dans votre organisation.
+ms.openlocfilehash: cb32a7dcc38dcdd7fbaa5bf414d711953d237deb
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780816"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858654"
 ---
-# <a name="set-the-caller-id-for-a-user"></a>Définir l’identification de l’appelant d’un utilisateur
-Le système téléphonique dans Office 365 fournit une identification de l’appelant par défaut qui est le numéro de téléphone affecté. Vous pouvez modifier ou bloquer l’identification de l’appelant (également appelé une identification de ligne d’appel) pour un utilisateur. Pour plus d’informations sur l’utilisation des identification de l’appelant dans votre organisation consultez [Comment l’identification de l’appelant peut-elle être utilisée dans votre organisation](how-can-caller-id-be-used-in-your-organization.md).
+# <a name="set-the-caller-id-for-a-user"></a>Définir l'ID d'appelant d'un utilisateur
+Le système téléphonique dans Office 365 fournit un ID d’appelant par défaut qui est le numéro de téléphone attribué. Vous pouvez modifier ou bloquer l'ID d'appelant (également appelé ID de ligne d'appel). Pour en savoir plus sur l’utilisation de l’ID d’appelant dans votre organisation, cliquez sur [Comment utiliser un ID d’appelant dans votre organisation](how-can-caller-id-be-used-in-your-organization.md).
   
 > [!TIP]
 > Vous ne pouvez actuellement pas bloquer les appels entrants dans Skype Entreprise Online. 
   
-Vous pouvez changer les paramètres suivants :
+Vous pouvez changer les paramètres suivants :
   
 > [!NOTE]
 > Ceci **n'est pas** destiné aux organisations sur site avec Lync ou Skype Entreprise Server.
@@ -41,20 +42,20 @@ Vous pouvez changer les paramètres suivants :
 - **Changer l'ID d'appelant sortant** Vous pouvez remplacer l'ID d'appelant d'un utilisateur, constitué par défaut par son numéro de téléphone, par un autre numéro de téléphone. Par exemple, vous pouvez redéfinir l'ID d'appelant de l'utilisateur constitué par son numéro de téléphone sur un numéro de téléphone principal de votre entreprise ou redéfinir son ID de ligne d'appel constitué par son numéro de téléphone sur un numéro de téléphone principal du service juridique. Vous pouvez remplacer le numéro d'ID d'appel par un numéro de **service** en ligne (payant ou gratuit).
     
     > [!NOTE]
-    > Si vous souhaitez utiliser le paramètre _Service_, vous devez spécifier un numéro de service valide.
+    > Si vous souhaitez utiliser le paramètre  _Service_, vous devez spécifier un numéro de service valide.
   
-- **Bloquer l’identification de l’appelant sortant** Vous pouvez empêcher l’identification de l’appelant sortant d’être envoyé lors des appels RTC sortants d’un utilisateur. Ce faisant, vous empêchez son numéro de téléphone d’être affiché sur le téléphone d’une personne appelée.
+- **Bloquer l’identification de l’appelant sortant** Vous pouvez empêcher l’identifiant de l’appelant sortant d’être envoyé lors des appels RTC sortants d’un utilisateur. Ce faisant, vous empêchez son numéro de téléphone d'être affiché sur le téléphone d'une personne contactée.
     
-- **Bloquer l’identification de l’appelant entrant** Vous pouvez empêcher l’utilisateur de recevoir l’identification de l’appelant de tous les appels RTC entrants.
+- **Bloquer l’identification de l’appelant entrant** Vous pouvez empêcher l’utilisateur de recevoir l’identifiant de l’appelant de tous les appels RTC entrants.
     
 > [!IMPORTANT]
-> Les appels d’urgence envoient toujours le numéro de téléphone (identification de l’appelant) de l’utilisateur. 
+> Les appels d'urgence envoient toujours le numéro de téléphone (ID d'appelant) de l'utilisateur. 
   
 Par défaut, chacun de ces paramètres d'ID d'appelant est **désactivé**. Cela signifie que le numéro de téléphone de l'utilisateur de Skype Entreprise Online est visible lorsque l'utilisateur effectue un appel vers un téléphone RTC.
   
 Pour en savoir plus sur ces paramètres et leur utilisation, cliquez [Comment utiliser un ID d'appelant dans votre organisation](how-can-caller-id-be-used-in-your-organization.md).
   
-## <a name="set-your-caller-id-policy-settings"></a>Définir vos paramètres de politique d’identification de l’appelant
+## <a name="set-your-caller-id-policy-settings"></a>Définir vos paramètres de stratégie d'ID d'appelant
 
 > [!NOTE]
 > Pour tous les paramètres d’identification de l’appelant dans Skype Entreprise Online, vous devez utiliser Windows PowerShell et **ne pouvez pas utiliser** le **Centre d’administration de Skype Entreprise**. 
@@ -100,7 +101,7 @@ Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modul
 
 Pour plus d’informations sur le démarrage de Windows PowerShell, consultez la rubrique [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Connexion à Skype Entreprise Online à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
-### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Voir l’ensemble des paramètres de politique d’identification de l’appelant de votre organisation
+### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Voir l'ensemble des paramètres de stratégie d'ID d'appelant de votre organisation
 
 - Pour afficher l’ensemble des paramètres de politique d’identification de l’appelant de votre organisation, exécutez :
 
@@ -109,7 +110,7 @@ Pour plus d’informations sur le démarrage de Windows PowerShell, consultez la
   ```
 Consulter plus d’exemples et de détails sur [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx).
     
-### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Créer une politique d’identification de l’appelant pour votre organisation
+### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Créer une stratégie d'ID d'appelant pour votre organisation
 
 
 - Pour créer une politique d’identification de l’appelant qui définit l’identification de l’appelant sur anonyme, exécutez :
@@ -118,20 +119,20 @@ Consulter plus d’exemples et de détails sur [Get-CsCallingLineIdentity](https
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
   ```
   > [!NOTE]  
-  > Dans tous les cas, le champ « Numéro » ne doit pas inclure le préfixe « + ».
+  > Dans tous les cas, le champ « Numéro » ne doit pas inclure le préfixe « + ».
 
-  Consulter plus d’exemples et de détails sur [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
+  Consultez plus d’exemples et de détails sur [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
     
 - Pour appliquer la nouvelle politique créée pour Amos Marble, exécutez :
     
   ```
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
-  En savoir plus sur l’applet de commande [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
+  En savoir plus sur l'applet de commande [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
     
-Si vous avez déjà créé une politique, vous pouvez utiliser l’applet de commande [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) pour apporter des modifications à la politique existante, puis utiliser l’applet de commande [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) pour appliquer les paramètres à vos utilisateurs.
+Si vous avez déjà créé une politique, vous pouvez utiliser le cmdlet [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) pour apporter des modifications à la politique existante, puis utiliser le cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) pour appliquer les paramètres à vos utilisateurs.
   
-### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Définir la politique de manière à bloquer l’identification de l’appelant
+### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Définir la stratégie de manière à bloquer l'ID d'appelant
 
 - Pour bloquer l’identification de l’appelant entrant, exécutez :
     
@@ -145,7 +146,7 @@ Si vous avez déjà créé une politique, vous pouvez utiliser l’applet de com
   ```
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
   ```
-    En savoir plus sur l’applet de commande [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
+    En savoir plus sur l'applet de commande [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
     
 ### <a name="remove-a-caller-id-policy"></a>Stratégie de suppression dʼID dʼappelant
 
@@ -159,9 +160,9 @@ Pour supprimer une stratégie dʼun utilisateur, exécutez :
 ```
 Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $null
 ```
-## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
+## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu’ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -1,5 +1,5 @@
 ---
-title: Configurer l’audioconférence pour Skype Entreprise et Microsoft Teams
+title: Configurer les audioconférences pour Skype Entreprise et Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d01954f1-4f37-4cf5-a636-20039e5c59e9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -21,17 +22,17 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
-description: 'Découvrez comment configurer l’audioconférence pour les personnes de votre entreprise qui souhaitent participer à des téléconférences à l’aide d’un téléphone. '
-ms.openlocfilehash: 02c04afa0a1079a53123ee56094dc6ddc764038c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+description: 'Découvrez comment configurer les audioconférences pour les personnes de votre entreprise qui souhaitent participer à des téléconférences à l’aide d’un téléphone. '
+ms.openlocfilehash: 33e499719825a195484c6340bed09afeaa70f5ee
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780530"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850194"
 ---
-# <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Configurer l’audioconférence pour Skype Entreprise et Microsoft Teams
+# <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Configurer les audioconférences pour Skype Entreprise et Microsoft Teams
 
-Parfois, les membres de votre organisation devront utiliser un téléphone pour appeler une réunion. Skype Entreprise et Equipes Microsoft incluent une fonctionnalité d’audioconférence parfaitement adaptée à cette situation ! Il est possible de rejoindre des réunions Skype Entreprise en utilisant un téléphone au lieu de l'application Skype Entreprise sur un appareil mobile ou un PC. 
+Parfois, les membres de votre organisation devront utiliser un téléphone pour composer le numéro de la réunion. Skype Entreprise et Microsoft Teams incluent une fonctionnalité d’audioconférence parfaitement adaptée à cette situation ! Il est possible de rejoindre des réunions Skype Entreprise en utilisant un téléphone au lieu de l'application Skype Entreprise sur un appareil mobile ou un PC. 
   
 Vous ne devez configurer l’audioconférence que pour les personnes qui envisagent de planifier ou d’animer des réunions. Les participants à la réunion qui se connectent n’ont pas besoin de licence ou de configuration particulière.
   
@@ -50,7 +51,7 @@ Allez à la page [Disponibilité des pays et des régions pour les audioconfére
  
 1. Pour une audioconférence, vous avez besoin d’une licence pour chaque utilisateur qui établira des réunions. Pour savoir quelles licences vous devez acheter pour l’audioconférence et connaître leurs prix, consultez [Licences de module complémentaire Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
         
-2. Une fois que vous avez acheté les licences d’audioconférence, vous devez les attribuer aux personnes qui vont planifier ou animer des réunions. Voir [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) que vous avez achetées aux personnes de l’entreprise qui vont planifier ou animer des réunions.
+2. Une fois que vous avez acheté les licences d’audioconférence, vous devez les attribuer aux personnes qui vont planifier ou animer des réunions. Voir [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) que vous avez achetées pour les personnes de votre entreprise qui vont planifier ou animer des réunions.
     
 3. Nous vous recommandons également d’affecter des licences de crédits de communications (elles ne coûtent rien) aux mêmes personnes à qui vous avez attribué des licences à l’étape précédente. Pour savoir comment configurer les Crédits de communications, voir [Configurer les Crédits de communications pour votre entreprise](/microsoftteams/set-up-communications-credits-for-your-organization).
     
@@ -66,7 +67,7 @@ Pour les audioconférences, vous ne pouvez pas utiliser les numéros de téléph
     
 - **Transférer vos numéros de service existants.** Transférer vos numéros existants de votre fournisseur de services ou de votre opérateur de téléphonie actuels vers Office 365. Vous pouvez consulter [Transfert des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) ou [Gestion des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization) pour plus d’informations pour vous aider à effectuer ces opérations.  
   
-- **Utiliser un formulaire de demande pour de nouveaux numéros.** Il peut arriver (en fonction votre pays ou région) que vous ne puissiez pas obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration de Skype Entreprise, ou que vous ayez besoin de numéros de téléphone ou indicatifs spécifiques. Dans ce cas, vous devez télécharger un formulaire et nous le renvoyer. Pour plus d’informations, voir [Gestion des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization). 
+- **Utiliser un formulaire de demande pour de nouveaux numéros.** Il peut arriver (en fonction votre pays ou région) que vous ne puissiez pas obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration de Skype Entreprise, ou que vous ayez besoin de numéros de téléphone ou d’indicatifs spécifiques. Dans ce cas, vous devez télécharger un formulaire et nous le renvoyer. Pour plus d’informations, voir [Gestion des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization). 
     
 ## <a name="step-4-assign-a-service-number-to-the-conferencing-bridge"></a>Étape 4 : Affecter un numéro de service pour le pont de conférence
 <a name="__top"> </a>
@@ -129,10 +130,10 @@ Les numéros de connexion définis pour l’utilisateur seront ajoutés automati
    
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Questions fréquentes à propos de l’audioconférence](/MicrosoftTeams/audio-conferencing-common-questions)
+[Questions fréquentes à propos de l'audioconférence](/MicrosoftTeams/audio-conferencing-common-questions)
   
 [Configurer Skype Entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
-[Numéros de téléphone pour l’audioconférence](phone-numbers-for-audio-conferencing.md)
+[Numéros de téléphone pour l'audioconférence](phone-numbers-for-audio-conferencing.md)
   
 [Définition des options pour les réunions en ligne et les téléconférences](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

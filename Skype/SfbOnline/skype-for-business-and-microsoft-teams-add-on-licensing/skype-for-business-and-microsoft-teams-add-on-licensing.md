@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 3ed752b1-5983-43f9-bcfd-760619ab40a7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -22,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de module complémentaire, sur les fonctionnalités de ces modules, comment les acheter pour votre produit et leur utilisation avec vos services téléphoniques actuels. Vous pouvez obtenir des informations sur les tarifs et forfaits pour Office 365, les Crédits de Communication, et les Forfaits d’appels. '
-ms.openlocfilehash: 0e7d4cabb4768d55188aeb2c5afca5b09d400419
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: f010c45f4351f505c36522ab45ce22f2442eea40
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779637"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858340"
 ---
 # <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Licences de compléments pour Skype Entreprise et Microsoft Teams
 
@@ -41,7 +42,7 @@ Le système de licences Skype Entreprise et Microsoft Teams est conçu pour vous
 
 Pour la plupart des entreprises, l'achat d'une offre groupée de logiciels dans le cadre d'une offre d'entreprise entraîne des coûts globaux moindres. En général, lorsque vous achetez plusieurs licences de complément individuelles et non dans le cadre d'un forfait, vous pouvez payer un coût global plus élevé.
 
-Pour plus d’informations sur les coûts voir [Comment connaître les prix et acheter des licences de complément ?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) ou une des options suivantes :
+Pour plus d’informations sur les coûts voir [Comment connaître les prix et acheter des licences de complément ?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) ou une des options suivantes :
 
 - [Tarifs pour l'audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing)
 
@@ -56,7 +57,7 @@ Selon l’offre dont vous disposez, vous pouvez acheter des licences de modules 
 |||
 |:-----|:-----|
 |**Fonctionnalité** <br/> |**Description** <br/> |
-|**Audioconférence** <br/> |Parfois, certains utilisateurs ne peuvent pas rejoindre une réunion Skype Entreprise et Microsoft Teams par ordinateur, et doivent le faire par téléphone. Dans ce cas, utilisez la fonctionnalité d'audioconférence.  <br/> Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Pour les informations de tarification, consultez [Configuration requise pour l’audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
+|**Audioconférence** <br/> |Parfois, certains utilisateurs ne peuvent pas rejoindre une réunion Skype Entreprise et Microsoft Teams par ordinateur, et doivent le faire par téléphone. Dans ce cas, utilisez la fonctionnalité d’audioconférence.  <br/> Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Pour les informations de tarification, consultez [Configuration requise pour l’audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
 |**Numéros gratuits pour un accès rendez-vous à vos conférences et possibilité d'accès global aux appels sortants à partir d'une conférence pour ajouter une personne en appelant n'importe quel numéro** <br/> |Si vous ajoutez la fonction d’audioconférence, nous vous recommandons de [Configurer les crédits de communication](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
 |**Système téléphonique** <br/> |Un PBX est un système téléphonique dédié aux entreprises. Le système téléphonique dans Office 365 est un service hébergé dans Office 365. Il vous offre des fonctionnalités innovantes de façon simple et économique. [Voici les avantages du système téléphonique dans Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> Pour les informations de tarification, consultez [Configuration requise pour le système téléphonique](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
 |**Offres d'appels** <br/> |Les appels vers d’autres utilisateurs Skype Entreprise sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler des numéros de téléphone externes à votre entreprise, il vous faut souscrire à un [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365). Il existe des forfaits d'appels nationaux et des forfaits d'appels nationaux et internationaux dans Office 365.  <br/> Pour les informations de tarification, consultez [Configuration requise pour les forfaits d’appels](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |
@@ -85,14 +86,14 @@ Pour obtenir une liste et une comparaison détaillées des fonctionnalités comp
 
 En fonction des modules complémentaires que vous souhaitez acquérir, nous vous recommandons d'[évaluer s'il serait plus rentable ](https://go.microsoft.com/fwlink/?linkid=844053) de passer à un plan qui comprend déjà ces fonctions.
 
-Consultez les détails de votre forfait sous « Options de licence en fonction de votre forfait » pour plus d’informations sur quelles licences acheter et comment consulter les prix et acheter des licences de modules complémentaires.
+Consultez les détails de votre forfait sous « Options de licence en fonction de votre forfait » pour plus d’informations sur quelles licences acheter et comment consulter les prix et acheter des licences de modules complémentaires.
 
-## <a name="how-do-i-use-my-existing-calling-plans-with-skype-for-business"></a>Comment utiliser mon forfait d'appels actuel avec Skype Entreprise ?
+## <a name="how-do-i-use-my-existing-calling-plans-with-skype-for-business"></a>Comment utiliser mon forfait d’appels actuel avec Skype Entreprise ?
 <a name="bkmk_existing"></a>
 
 Si vous souhaitez utiliser votre Forfait d'appels existant, acheter le module complémentaire **Système téléphonique** et utiliser-le avec le **[la version gratuite de Cloud Connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
 
-Si vous utilisez une connectivité PSTN sur site pour les utilisateurs hybride, vous pouvez *uniquement* attribuer des licences de **Système téléphonique** à vos utilisateurs. **NE** leur assignez PAS également un Forfait d’appels.
+Si vous utilisez une connectivité RTC sur site pour les utilisateurs hybrides, vous ne pouvez attribuer*QUE* des licences de **Système téléphonique** à vos utilisateurs. **NE** leur assignez PAS également un Forfait d’appels.
 
 Pour une documentation complète sur la planification de votre déploiement, notamment pour un système téléphonique avec une connectivité RTCP sur site, voir [Planifier votre Système téléphonique dans les solutions Office 365 (Cloud PBX)](https://technet.microsoft.com/en-us/library/mt612869.aspx).
 
