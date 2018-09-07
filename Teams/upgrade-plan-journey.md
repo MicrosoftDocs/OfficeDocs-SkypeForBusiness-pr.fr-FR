@@ -1,22 +1,34 @@
 ---
-title: Mise à niveau vers les équipes Microsoft
+title: Planifier votre Skype pour les entreprises à la mise à niveau des équipes - Microsoft Teams
 author: dearbeen
-ms.author: MyAdvisor
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: dearbeen
+manager: serdars
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: ESPACE RÉSERVÉ
+description: Planifier votre mise à niveau à l’inscription des parties prenantes tout d’abord, puis la portée du projet.
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd1343a03f2e7e6193cde64c14da9b187f642a68
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: c138282ed7b65cd7efcdb31cb363110702233346
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867074"
 ---
-# <a name="plan-the-journey"></a><span data-ttu-id="b91e7-103">Planifier le voyage</span><span class="sxs-lookup"><span data-stu-id="b91e7-103">Plan the journey</span></span>
+<span data-ttu-id="b2ba3-103">![S’assurer que votre projet est configuré pour la réussite de l’équipe de projet. Définir la portée du projet, des objectifs et chronologie. Confirmer la disponibilité technique et utilisateur. Exécuter votre plan de déploiement. Mettre à jour dynamique pour optimiser les résultats.] (media/upgrade-banner-main.png "Commencez votre parcours de mise à niveau")</span><span class="sxs-lookup"><span data-stu-id="b2ba3-103">![Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](media/upgrade-banner-main.png "Begin your upgrade journey")</span></span>
 
-<span data-ttu-id="b91e7-104">ESPACE RÉSERVÉ</span><span class="sxs-lookup"><span data-stu-id="b91e7-104">PLACEHOLDER</span></span>
+
+# <a name="plan-for-your-upgrade"></a><span data-ttu-id="b2ba3-104">Planifier votre mise à niveau</span><span class="sxs-lookup"><span data-stu-id="b2ba3-104">Plan for your upgrade</span></span>
+
+<span data-ttu-id="b2ba3-105">Un environnement technique sain, utilisateur soutenue adoption et la réalisation de vos objectifs d’entreprise que commencent toutes par une planification appropriée.</span><span class="sxs-lookup"><span data-stu-id="b2ba3-105">A healthy technical environment, sustained user adoption, and the realization of your business goals all begin with proper planning.</span></span> <span data-ttu-id="b2ba3-106">Un plan vous donne une structure pour votre projet de mise à niveau et s’assurer que toutes les parties prenantes fonctionnent vers les mêmes objectifs.</span><span class="sxs-lookup"><span data-stu-id="b2ba3-106">A solid plan gives you a framework for your upgrade project and ensures that all stakeholders are working toward the same goals.</span></span> <span data-ttu-id="b2ba3-107">En optant pour définir correctement réussite, vous pouvez mesurer les résultats en tant que votre progression par le biais de votre déploiement et vérifier que vous êtes atteindre les résultats que vous souhaitiez.</span><span class="sxs-lookup"><span data-stu-id="b2ba3-107">By taking time to properly define success, you can measure results as you progress through your deployment and verify that you’re achieving the outcomes you wanted.</span></span> <span data-ttu-id="b2ba3-108">La planification de votre voyage comprend :</span><span class="sxs-lookup"><span data-stu-id="b2ba3-108">Planning your journey includes:</span></span>
+
+-   <span data-ttu-id="b2ba3-109">[Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md).</span><span class="sxs-lookup"><span data-stu-id="b2ba3-109">[Enlisting your project stakeholders](upgrade-enlist-stakeholders.md).</span></span>
+-   <span data-ttu-id="b2ba3-110">[Définition de la portée de votre projet](https://aka.ms/SkypetoTeams-Scope).</span><span class="sxs-lookup"><span data-stu-id="b2ba3-110">[Defining the scope of your project](https://aka.ms/SkypetoTeams-Scope).</span></span>
+-   <span data-ttu-id="b2ba3-111">[Présentation de la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist).</span><span class="sxs-lookup"><span data-stu-id="b2ba3-111">[Understanding coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist).</span></span>
+
