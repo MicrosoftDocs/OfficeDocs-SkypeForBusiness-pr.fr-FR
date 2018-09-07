@@ -7,6 +7,7 @@ ms.reviewer: mikedav, allancar
 ms.topic: article
 ms.service: msteams
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -16,12 +17,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft Teams est l'outil de conversation collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils ne votre équipe un besoin pour être plus l’impliquée et efficace. "
-ms.openlocfilehash: 148071fdea294893b4107cc31347d4e4b1dc8e2c
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: e2e7580b46a7505d741ce5531320e519827ec2ca
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23846916"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855718"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>Fr-fr 301 549 Déclaration de conformité en matière d'accessibilité
 

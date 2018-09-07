@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 9af52080-dd56-4b66-b056-41ed1a7aaae3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Personnaliser les invitations aux réunions de Skype avec logos graphiques, URL d'assistance, URL juridique, et texte de pied de page. "
-ms.openlocfilehash: 1f53ce183ebe62923948a33a7ac6b14f3c61f04a
-ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
-ms.translationtype: HT
+ms.openlocfilehash: b7f9fc41257d24f6c8ffa78304164c67261573c1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "19500553"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849984"
 ---
 # <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
@@ -37,18 +38,18 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
     
 3. Stockez l’image dans un emplacement central auquel tout le monde dans votre entreprise peut accéder, par exemple un partage réseau, un dossier partagé OneDrive Entreprise, Dropbox, etc.
     
-    Vous pouvez maintenant l’ajouter à vos invitations aux réunions. Voici les étapes suivantes.
+    Vous pouvez maintenant l’ajouter à vos invitations aux réunions. Voir les étapes suivantes.
     
 ## <a name="customize-your-meeting-invitations"></a>Personnaliser vos invitations aux réunions
 <a name="__top"> </a>
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Utilisation du centre d’administration de Skype Entreprise**
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
-1. Connectez-vous à Office 365 avec votre compte professionnel ou scolaire.
+1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
 2. À partir du centre d’administration Office 365, choisissez **Centres d'administration** > **Skype Entreprise**.
     
-3. Dans le centre d’administration Skype Entreprise, choisissez **réunions en ligne**. 
+3. Dans Skype entreprise centre d’administration, choisissez **les réunions en ligne**. 
     
 4. Renseignez les champs suivants :
     
@@ -72,7 +73,7 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
 ## <a name="related-topics"></a>Rubriques connexes
 <a name="__top"> </a>
 
-[Essayer ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

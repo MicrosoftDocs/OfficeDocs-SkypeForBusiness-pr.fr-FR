@@ -1,5 +1,5 @@
 ---
-title: Rapport d’activité organisateur de la conférence
+title: Rapport d'activités de l'organisateur de conférence
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 03a255d4-0e1d-4b24-b73d-7a62fae36254
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-search.appverid: MET150
-ms.openlocfilehash: 14d82764a177d1bc483bc1c3457546352a2b4f03
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 5e2d38c3576cd39769fd3b150ad905f37421e9bc
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933154"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854260"
 ---
-# <a name="conference-organizer-activity-report"></a>Rapport d’activité organisateur de la conférence
+# <a name="conference-organizer-activity-report"></a>Rapport d'activités de l'organisateur de conférence
 
 Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d' **activité Skype Entreprise** pour visualiser combien de fois vos employés organisent des conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web la fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft. 
 
@@ -55,21 +55,21 @@ Vous pouvez obtenir une vue dans votre Skype pour des conférences qui ont été
 ![Skype pour business conférences organisé rapport](../images/0ab0e5e8-cf18-4f8f-a31a-94048e375a0f.PNG)
   
 ***
-![N ° 1](../images/sfbcallout1.png)<br/>Le rapport **Activité d'organisateur de conférences Skype Entreprise** peut être consulté pour les tendances au cours des 7, 30, 90 ou 180 derniers jours. Toutefois, si vous cliquez sur dans un jour donné dans le rapport, le tableau (voir n ° 7) sera afficher les données des 30 derniers jours, jusqu'à la date (voir n ° 2) pour laquelle le rapport a été généré.
+![Numéro 1](../images/sfbcallout1.png)<br/>Le rapport **Activité d'organisateur de conférences Skype Entreprise** peut être consulté pour les tendances au cours des 7, 30, 90 ou 180 derniers jours. Toutefois, si vous cliquez sur dans un jour donné dans le rapport, le tableau (voir n ° 7) sera afficher les données des 30 derniers jours, jusqu'à la date (voir n ° 2) pour laquelle le rapport a été généré.
 
 > [!NOTE]
 > Si vous cliquez sur les détails d’un jour spécifique, le tableau affiche uniquement les données pour les 30 jours jusqu'à la date lorsque le rapport a été généré.
 
 ***
-![N ° 2](../images/sfbcallout2.png)<br/>Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
+![Numéro 2](../images/sfbcallout2.png)<br/>Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
 ***
-![N ° 3](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total de conférences qui ont été organisées ainsi que le type de conférences qui se tient actuellement dans votre organisation. Cela vous indiquera le nombre total et le type de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'application**, le **web**, une **fonction d'appels entrants/sortants tierce** et la **fonction d'appels entrants/sortants de Microsoft**, pour l'ensemble de votre organisation.   
+![Nombre 3](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total de conférences qui ont été organisées ainsi que le type de conférences qui se tient actuellement dans votre organisation. Cela vous indiquera le nombre total et le type de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'application**, le **web**, une **fonction d'appels entrants/sortants tierce** et la **fonction d'appels entrants/sortants de Microsoft**, pour l'ensemble de votre organisation.   
 ***
-![N ° 4](../images/sfbcallout4.png)<br/>Utilisez les données en temps réel et du graphique interactif **Utilisateurs** pour comprendre les tendances d'utilisation et afficher le nombre total d'utilisateurs uniques qui ont organisé des conférences qui se sont tenues dans votre organisation. Cela vous indiquera le nombre total d'utilisateurs ainsi que les types de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'application**, le **web**, une **fonction d'appels entrants/sortants tierce** et la **fonction d'appels entrants/sortants de Microsoft** qui ont été organisées.  
+![Numéro 4](../images/sfbcallout4.png)<br/>Utilisez les données en temps réel et du graphique interactif **Utilisateurs** pour comprendre les tendances d'utilisation et afficher le nombre total d'utilisateurs uniques qui ont organisé des conférences qui se sont tenues dans votre organisation. Cela vous indiquera le nombre total d'utilisateurs ainsi que les types de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'application**, le **web**, une **fonction d'appels entrants/sortants tierce** et la **fonction d'appels entrants/sortants de Microsoft** qui ont été organisées.  
 ***
-![N ° 5](../images/sfbcallout5.png)<br/>Utilisez les données en temps réel et du graphique interactif **Minutes** pour comprendre les tendances d'utilisation et afficher le nombre de minutes utilisées quand des utilisateurs organisent une conférence à l'aide de l'audio/la vidéo et la fonction d'appels entrants et sortants, avec Microsoft comme fournisseur. Cela vous indiquera le nombre total de minutes **audio/vidéo**, le **nombre de minutes en appels entrants avec Microsoft** et le **nombre de minutes en appels sortants avec Microsoft** qui ont été utilisées pendant les conférences organisées. 
+!["Nombre 5"](../images/sfbcallout5.png)<br/>Utilisez les données en temps réel et du graphique interactif **Minutes** pour comprendre les tendances d'utilisation et afficher le nombre de minutes utilisées quand des utilisateurs organisent une conférence à l'aide de l'audio/la vidéo et la fonction d'appels entrants et sortants, avec Microsoft comme fournisseur. Cela vous indiquera le nombre total de minutes **audio/vidéo**, le **nombre de minutes en appels entrants avec Microsoft** et le **nombre de minutes en appels sortants avec Microsoft** qui ont été utilisées pendant les conférences organisées. 
 ***
-![N ° 6](../images/sfbcallout6.png)<br/>
+![Numéro 6](../images/sfbcallout6.png)<br/>
 Chaque graphique a un axe « X » (horizontal) et « Y » (vertical).
 *    Dans le graphique d'activité **Activité**, l'axe Y correspond au nombre total de conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web, une fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft tenues par les utilisateurs dans votre organisation. 
 *    Dans le graphique d'activité **Utilisateurs**, l'axe Y correspond au nombre total d'utilisateurs qui ont tenu des conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web, une fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft organisées par les utilisateurs de votre organisation.

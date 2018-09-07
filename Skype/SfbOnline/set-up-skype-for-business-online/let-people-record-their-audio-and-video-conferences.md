@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 122cb43d-b57a-4b93-b902-a1a432e7de28
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,24 +18,24 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Découvrez l’activation de l’enregistrement pour les conférences audio et vidéo et ce qui est et n’est pas inclus dans les enregistrements. '
-ms.openlocfilehash: eaf94874dc55dd333911b8bdfade085e137916a8
-ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
-ms.translationtype: HT
+ms.openlocfilehash: ddd560970b84333f14fcc039c4c1501874048c50
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "19500526"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849900"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Permettre aux utilisateurs d'enregistrer leurs audioconférences ou visioconférences
 
-## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Sélection du paramètre d’enregistrement par défaut pour un utilisateur ou pour tous les utilisateurs de votre organisation
+## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Sélection du paramètre d'enregistrement par défaut pour un utilisateur ou pour tous les utilisateurs de votre organisation
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Utilisation du centre d’administration de Skype Entreprise**
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
-1. Accédez au **Centre d’administration Office 365** > **Skype Entreprise**, puis cliquez sur **Utilisateurs**.
+1. Accéder au **Centre d’administration Office 365** > **Skype pour les entreprises**, puis cliquez sur **utilisateurs**.
     
-2. Sur la page **Utilisateurs**, sélectionnez l’utilisateur ou les utilisateurs dans la liste, puis cliquez sur **Modifier**.
+2. Dans la page **utilisateurs** , sélectionnez les utilisateurs dans la liste, puis cliquez sur **Modifier**.
     
-3. Sur la **page Options**, cliquez sur **Enregistrer les conversations et les réunions**, puis cliquez sur **Enregistrer**.
+3. Dans la **page Options**, cliquez sur **réunions et conversations d’enregistrement**, puis cliquez sur **Enregistrer**.
     
 Quand la fonctionnalité d'enregistrement est activée, les organisateurs et les présentateurs peuvent enregistrer une réunion ou une téléconférence Skype Entreprise Online. La désactivation ou l'activation de cette fonctionnalité a un impact sur toutes les personnes de votre organisation.
   
@@ -42,7 +43,7 @@ Quand la fonctionnalité d'enregistrement est activée, les organisateurs et les
 |:-----|:-----|
 |Appels audio et vidéo HD  <br/> Présentations PowerPoint et sur tableau blanc  <br/> Sessions de partage de programme ou de bureau  <br/> |Pages OneNote partagées  <br/> Annotations PowerPoint  <br/> Fichiers partagés (pièces jointes)  <br/> |
    
-Pour plus d’informations, voir [Enregistrement et publication d’enregistrements Lync](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) et [Gestionnaire d’enregistrements Lync](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
+Pour plus d’informations, voir [enregistrement Lync enregistrer et publier](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) et [Lync Gestionnaire d’enregistrement](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
   
 ## <a name="related-topics"></a>Rubriques connexes
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)

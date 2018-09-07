@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: e62ac09f-dfdc-4306-8e06-31349a3b27f0
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent.
-search.appverid: MET150
-ms.openlocfilehash: ae892766be3b9bc18f37ae8b551678a738743325
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 46a44a61777cdd4d52b9899429b4a17ffe6ad7cb
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780854"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851808"
 ---
 # <a name="session-details-report"></a>Rapport détaillé de session
 
@@ -59,13 +59,13 @@ Voici une illustration du rapport.
 ![Skype pour le tableau de bord de rapport de détails de Session Business.](../images/3d87ab39-6eaa-46b5-b5f9-7f54dc987ae0.png)
   
 ***
-![N ° 1](../images/sfbcallout1.png)<br/>**Utilisateur de recherche par alias** vous permet de rechercher un utilisateur unique et affiche tous les détails de la session de l’utilisateur dans le tableau ci-dessous. 
+![Numéro 1](../images/sfbcallout1.png)<br/>**Utilisateur de recherche par alias** vous permet de rechercher un utilisateur unique et affiche tous les détails de la session de l’utilisateur dans le tableau ci-dessous. 
 ***
-![N ° 2](../images/sfbcallout2.png)<br/>**Entrée de date heure** vous permet de que vous placer dans la date de début. Vous pouvez utiliser le calendrier pour sélectionner la date ou entrez la date manuellement. Ce champ doit être rempli.
+![Numéro 2](../images/sfbcallout2.png)<br/>**Entrée de date heure** vous permet de que vous placer dans la date de début. Vous pouvez utiliser le calendrier pour sélectionner la date ou entrez la date manuellement. Ce champ doit être rempli.
 ***
-![N ° 3](../images/sfbcallout3.png)<br/>Permet **d’entrée pour date heure** que vous placer dans la date de fin. Vous pouvez utiliser le calendrier pour sélectionner la date ou entrez la date manuellement. Si aucune date de fin n’est définie, la valeur par défaut est 30 jours à partir de la date de début.
+![Nombre 3](../images/sfbcallout3.png)<br/>Permet **d’entrée pour date heure** que vous placer dans la date de fin. Vous pouvez utiliser le calendrier pour sélectionner la date ou entrez la date manuellement. Si aucune date de fin n’est définie, la valeur par défaut est 30 jours à partir de la date de début.
 ***
-![N ° 4](../images/sfbcallout4.png)<br/>Le tableau présente une répartition des tous les détails de session par utilisateur. Affiche tous les utilisateurs qui ont Skype pour les entreprises affecté et leurs informations de session. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau. <br/><br/>Le tableau comporte les colonnes suivantes pour chaque session :
+![Numéro 4](../images/sfbcallout4.png)<br/>Le tableau présente une répartition des tous les détails de session par utilisateur. Affiche tous les utilisateurs qui ont Skype pour les entreprises affecté et leurs informations de session. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau. <br/><br/>Le tableau comporte les colonnes suivantes pour chaque session :
 *    **ID de la boîte de dialogue** est l’ID de l’identificateur unique de la session SIP.
 *    **Description des types de médias** indique si la session est une téléconférence ou une session P2P et le type de média utilisé (partage Audio/vidéo/Application).
 *    **Heure de début** est l’heure de début de la session.
@@ -95,9 +95,9 @@ Pour chaque session, une table sub avec des données différentes est disponible
 *    Onglet de détermination d’itinéraire affiche les tronçons réseau collectées via traceroute pendant la session. Le chemin d’accès réel media utilisé pour la session peut varier et ces données ne sont disponibles que lorsqu’il est audio dans la session.
 *    Onglet FEEDBACKREPORTS affiche toute fin de données d’enquête appel fournies par les utilisateurs dans la session.
 ***
-![N ° 5](../images/sfbcallout5.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes. 
+!["Nombre 5"](../images/sfbcallout5.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes. 
 ***
-![N ° 6](../images/sfbcallout6.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur le bouton **Exporter vers Excel**. <br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.  
+![Numéro 6](../images/sfbcallout6.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur le bouton **Exporter vers Excel**. <br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.  
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
 

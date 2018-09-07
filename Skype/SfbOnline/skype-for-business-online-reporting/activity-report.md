@@ -1,5 +1,5 @@
 ---
-title: Rapport d’activité
+title: Rapport d'activités
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 8cbe2eb2-1194-4fd7-b1ee-9f9287c82424
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-search.appverid: MET150
-ms.openlocfilehash: c827ed5c853a1f3e474f5f115a0dd1ef1975b5f7
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: d13ca7f70880d7ad0f3c6376e167c6222682887d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933106"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855574"
 ---
-# <a name="activity-report"></a>Rapport d’activité
+# <a name="activity-report"></a>Rapport d'activités
 
 Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Elle vous permet à extraire différents rapports au niveau du produit pour vous donnent plus granulaires sur les activités de chaque produit. Par exemple, vous permet le rapport **Skype pour activité** voir combien vos utilisateurs sont à l’aide d’égal à égal ou organisé des sessions de conférence ou combien ils sont impliqués dans les sessions de conférence. 
 
@@ -55,25 +55,25 @@ Vous pouvez visualiser l'activité Skype Entreprise d'un utilisateur à l'aide d
 ![Skype for Business Online Activity Report](../images/670c8bc6-d29c-4033-87fc-a20d324c9aae.png)
   
 ***
-![N ° 1](../images/sfbcallout1.png)<br/>
+![Numéro 1](../images/sfbcallout1.png)<br/>
 Le rapport d’activité de messagerie **Skype pour activité** peut être affiché pour les tendances sur les 7 derniers jours, 30 jours, de 90 jours ou 180 jours. Toutefois, si vous cliquez sur dans un jour donné dans le rapport, le tableau (voir n ° 7) affiche données jusqu'à 28 jours à partir de la date actuelle (pas la date le rapport a été généré).
 
 > [!NOTE]
 > Si vous cliquez sur les détails d’un jour spécifique, le tableau affiche uniquement les données pour les 30 jours jusqu'à la date lorsque le rapport a été généré.
 
 ***
-![N ° 2](../images/sfbcallout2.png)<br/>
+![Numéro 2](../images/sfbcallout2.png)<br/>
 Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
 ***
-![N ° 3](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total d'activités de conférence actuellement tenues dans votre organisation. Cela vous indiquera le nombre et les types d' **organisations**, de **participations** et de sessions de conférence d' **égal à égal** sein de votre organisation.  
+![Nombre 3](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total d'activités de conférence actuellement tenues dans votre organisation. Cela vous indiquera le nombre et les types d' **organisations**, de **participations** et de sessions de conférence d' **égal à égal** sein de votre organisation.  
 ***
-![N ° 4](../images/sfbcallout4.png)<br/>
+![Numéro 4](../images/sfbcallout4.png)<br/>
 Use the interactive chart data on the **Users** chart to understand usage trends and to see the number of unique users that are participating in conference activities that are being held in your organization. Il vous indiquera le nombre total d’utilisateurs ainsi que les types de **sessions d’égal à égal**, **organisé**et **Participated** dans des sessions de conférence.
 ***
-![N ° 5](../images/sfbcallout5.png)<br/>
+!["Nombre 5"](../images/sfbcallout5.png)<br/>
 Vous pouvez filtrer la série présentée dans le graphique en cliquant sur un élément dans la légende. Par exemple, dans le graphique de **l’activité** , cliquez sur ou appuyez sur les **sessions d’égal à égal**, **organisé**ou **Participated** pour afficher uniquement les informations relatives à chacun d’eux. Modifier cette sélection ne change pas les informations dans le tableau. 
 ***
-![N ° 6](../images/sfbcallout6.png)<br/>
+![Numéro 6](../images/sfbcallout6.png)<br/>
 Chaque graphique a un axe « X » (horizontal) et « Y » (vertical).
 *    Dans le graphique de **l’activité** , l’axe des Y sont le nombre total d’à-égal, organisés et participé à des sessions de conférence sont conservées.
 *    Sur le graphique d’activités des **utilisateurs** , l’axe des Y sont le nombre d’utilisateurs uniques dans chaque type de pair à pair, organisés et a participé à la conférence.

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 64353277-9949-4cf2-ac04-6d57cce43619
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Découvrez ce qu’est la validation d’adresse, pourquoi cela est important et son lien avec les adresses et services d’urgence. '
-ms.openlocfilehash: d5a64273ae29bac3b1f6e42212a0b50aa3dca9a5
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: e9799fd9e19fb9527e31f63e3f94ace621cd9632
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779114"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855624"
 ---
 # <a name="what-is-address-validation"></a>Qu’est-ce que la validation d’adresse ?
 
