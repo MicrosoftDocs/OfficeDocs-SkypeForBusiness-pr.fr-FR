@@ -7,6 +7,7 @@ ms.date: 03/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
+search.appverid: MET150
 description: Comprendre comment gérer les clients à l’échelle et les paramètres utilisateur pour les équipes pendant la transition entre les équipes expérience dans le centre d’administration d’Office 365 pour le nouveau Microsoft Teams & Skype entreprise centre d’administration.
 localization_priority: Priority
 ms.custom:
@@ -15,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 5528ecfc3d47738e0f34b56f007e36d193d95da6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b81853b33f457dd8a69890774b4b7ff8902d8226
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968187"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864826"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>Gérer les équipes pendant la transition vers le nouveau Microsoft Teams et Skype entreprise centre d’administration
 ======================================================
@@ -44,7 +45,7 @@ La nouvelle expérience du centre d’administration vous fournira une expérien
 À compter de la mi-mars 2018, les fonctionnalités suivantes étaient disponibles dans le nouveau Microsoft Teams & Skype entreprise centre d’administration : 
 
 - **Stratégie de messagerie équipes Microsoft**: créer la stratégie de gestion de niveau utilisateur de l’expérience du client Microsoft Teams pour les scénarios de messagerie.
-- **Stratégie de mise à niveau des équipes Microsoft**: configuration de l’expérience de l’interopérabilité et mise à niveau entre Skype pour les entreprises et Teams Microsoft. Voir, https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
+- **Stratégie de mise à niveau des équipes Microsoft**: configuration de l’expérience de l’interopérabilité et mise à niveau entre Skype pour les entreprises et Teams Microsoft. Voir, https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
 - **Les équipes Microsoft invité paramètres de messagerie**: contrôler les fonctionnalités de messagerie pour les comptes invité dans Microsoft Teams. 
 - **Paramètres de fédération**: gérer la fédération entre clients pour Microsoft Teams et Skype pour les entreprises. 
 - **Gestion des utilisateurs**: attribuer des stratégies et configurer des comptes d’utilisateurs. 

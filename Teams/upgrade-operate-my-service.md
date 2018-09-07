@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Tâches et activités requises pour la gestion de service d’équipes, y compris la surveillance de l’intégrité du service et d’évaluer et de garantir l’utilisation et la qualité du réseau
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad17668aba98c956aa1eda1c8df37dba0526ef06
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 969ca26ba6ff0eb60452c43929413c621c13d865
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398068"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861690"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -442,7 +443,7 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 | Activité | Description | Cadence | Équipe affecté |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Configuration requise du point de terminaison | Vérifiez que les équipes de point de terminaison continue pour répondre à tous les logiciels requis pour les équipes répertoriés dans [obtenir des clients pour les équipes Microsoft](get-clients.md). | Tous les mois | |
-| Pare-feu de point de terminaison | Mettre à jour les exclusions appropriées sur le pare-feu du point de terminaison en fonction des informations dans [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips). Votre fournisseur tiers auront des instructions spécifiques à la maintenance des exclusions. S’abonner à ce [flux RSS](https://support.office.com/en-us/o365ip/rss) pour être averti automatiquement des modifications. | Selon vos besoins | |
+| Pare-feu de point de terminaison | Mettre à jour les exclusions appropriées sur le pare-feu du point de terminaison en fonction des informations dans [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips). Votre fournisseur tiers auront des instructions spécifiques à la maintenance des exclusions. S’abonner à ce [flux RSS](https://support.office.com/o365ip/rss) pour être averti automatiquement des modifications. | Selon vos besoins | |
 | Pilotes Wi-Fi | Tester et mettre à jour les pilotes Wi-Fi sur le PC. Valider les résultats à l’aide de CQD ([Guide Quality of Experience révision](https://aka.ms/qerguide)). | Selon vos besoins | |
 | Gestion de point de terminaison | Gérer le catalogue de points de terminaison pris en charge et les périphériques d’interface (par exemple, casques). Gérer les contrats fournisseurs, garantie, distribution, remplacement et réparer les stratégies. | Tous les mois | |
 | Résolution des problèmes de point de terminaison | Résolution des problèmes de tâches peuvent inclure la vérification de la connectivité, consultation de la liste de problèmes connus, collecte des journaux, analyse et mise à niveau vers le Support de Microsoft ou des fournisseurs tiers. | Selon vos besoins | |

@@ -9,17 +9,18 @@ ms.service: msteams
 ms.reviewer: ''
 description: Découvrez Microsoft teams, son infrastructure et son utilisation avec Office 365.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86698a3bb7535a20b7fb1b6833062d118f2f9eae
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dbee055a5d91c6e0e453f0f539cba823226c347e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967128"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867580"
 ---
 <a name="overview-of-microsoft-teams"></a>Présentation de Microsoft Teams
 ===========================
@@ -118,10 +119,4 @@ Voici quelques scénarios d'utilisation courants pour chaque application dans Of
 
 ## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Notes de publication du client Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
-## <a name="what-happened-to-the-teams-admin-faq"></a>Qu’est devenue la FAQ Microsoft Teams dédiée aux administrateurs ?
 
-Bien que cette FAQ dédiée aux administrateurs ait été d’une grande aide lors du lancement de Microsoft Teams, c’est rapidement devenu un véritable « fourre-tout ». Nous avons donc décidé d’y mettre fin pour incorporer les précieuses informations qu’elle renfermait dans la présente documentation de Microsoft Teams. Vous retrouverez donc l’intégralité du contenu de la FAQ dans ce document, mais en contexte.
-
-Si vous recherchez quelque chose que vous ne trouvez pas ici, indiquez à son sujet dans la section **commentaires** ci-dessous. Nous essayons de répondre à vos commentaires dans les 24 heures.
-
-Par ailleurs, il existe **toujours** une FAQ relative à la [transition de Skype Entreprise vers Microsoft Teams](FAQ-journey.md). 

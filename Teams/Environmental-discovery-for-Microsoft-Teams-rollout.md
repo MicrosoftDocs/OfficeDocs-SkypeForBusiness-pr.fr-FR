@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Découvrez comment effectuer une découverte environnementale détaillée lorsque vous planifiez votre parcours de Skype pour les entreprises à Microsoft Teams.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e62d6425f5e38d4763f54c27821a544d3c063420
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 700f92c357e99db970742577c5381510ff450c14
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246529"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23870476"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Découverte de l’environnement pour un déploiement Microsoft Teams
 ===================================================

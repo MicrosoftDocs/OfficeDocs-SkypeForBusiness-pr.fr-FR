@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Utilisez ce guide pour en savoir plus sur la configuration requise pour correctement évaluer l’environnement actuel pour la mise à niveau vers les équipes.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa717d08f951d872894474d98f5b3155614595ca
-ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
+ms.openlocfilehash: b33f85faf0bc5a4d29afddb3b047a4cb2275462e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "22102060"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853630"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 

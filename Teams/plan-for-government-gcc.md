@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: lehewe
 description: Conseils pour les professionnels de l’informatique pour les déploiements de lecteur Office 365 dans les entités qui gèrent les données soumis à la réglementation américaine officielle
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8091bb4e973d4e7376dd6d420578b10123051226
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 708dda8e38d879d11589696cd901213a68b03cd8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835038"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869380"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan pour Microsoft 365 gouvernement - déploiements GCC
 
@@ -38,9 +39,9 @@ En plus de profiter des fonctionnalités et capacités d’Office 365, les organ
 -   Accès au contenu du client de votre organisation est limité aux filtré personnel de Microsoft.
 -   Pour le gouvernement Microsoft 365 - GCC est conforme aux certifications et désormais sont requis pour les clients du secteur Public américain.
 
-Vous trouverez plus d’informations sur le gouvernement 365 Microsoft - GCC offre pour les clients américains [que plans Office 365 pour](https://products.office.com/en-us/government/compare-office-365-government-plans), y compris de [conditions requises](https://products.office.com/en-us/government/compare-office-365-government-plans#EligibilityRequirements).
+Vous trouverez plus d’informations sur le gouvernement 365 Microsoft - GCC offre pour les clients américains [que plans Office 365 pour](https://products.office.com/government/compare-office-365-government-plans), y compris de [conditions requises](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-La [description du service Office 365 américaine](https://technet.microsoft.com/en-us/library/mt774581.aspx) décrit les avantages de la plate-forme, qui concernent la conformité aux États-Unis.
+La [description du service Office 365 américaine](https://technet.microsoft.com/library/mt774581.aspx) décrit les avantages de la plate-forme, qui concernent la conformité aux États-Unis.
 
 > [!Tip]
 > Vous souhaiterez peut-être transférer les tables d’information dans la description du service dans un classeur Excel et ajoutez deux colonnes : **pertinents pour mon organisation Y/N** et **répond aux besoins de mon entreprise Y/N**. Ensuite, vous pouvez consulter cette liste avec vos collègues pour confirmer que ce service répond aux besoins de votre organisation.
@@ -84,7 +85,7 @@ Nous vous conseillons temps Lisez attentivement vos [paramètres de sécurité e
 
 ## <a name="step-4-apply-for-microsoft-365-government---gcc"></a>Étape 4. Appliquer pour le gouvernement Microsoft 365 - GCC
 
-Ayant décidé que ce service est adapté à votre organisation, démarrer le processus [d’application de ce service ici](https://products.office.com/en-us/government/eligibility-validation).
+Ayant décidé que ce service est adapté à votre organisation, démarrer le processus [d’application de ce service ici](https://products.office.com/government/eligibility-validation).
 
 ## <a name="step-5-plan-for-governance"></a>Étape 5. Planifier la gouvernance
 

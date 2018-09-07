@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Créer un plan pour encourager l’adoption utilisateur à la définition de vos objectifs et comprendre quels acceptation ressemble à des formations et prise en charge.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 223a3a92eb5e51098f86030904f9c5445b84d24a
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 0199919ca7c7861783489a3bc0c164970d5c2f0d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695525"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867948"
 ---
 # <a name="prepare-my-users"></a>Préparer les utilisateurs
 

@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Choisissez les applications de client équipes, plan pour la qualité du point de terminaison, consultez les recommandations pour le déploiement de systèmes d’extrémité Wi-Fi et choix de périphériques audio.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e328f591ac97ace73b2cd2bb45aab61db75f064
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 81cc1e7b6b5658e222468624e2439a4e5e2706b9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695349"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858538"
 ---
 # <a name="plan-my-users-experience"></a>Planifier l’expérience des utilisateurs
 

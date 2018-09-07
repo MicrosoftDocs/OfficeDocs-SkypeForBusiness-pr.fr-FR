@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Utiliser une infrastructure couronné de succès pour voyage au pays de la mise à niveau de votre organisation de Skype pour les entreprises à des équipes
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cb5d785df33059fa26c4a081b3ebef70540d65b
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: 4d3b4d4863fc453c1563915dce75f3d38e969571
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21145283"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855172"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype pour les entreprises à la mise à niveau de Microsoft Teams
 
@@ -48,9 +49,9 @@ Sélectionnez une des options suivantes ou les deux pour déterminer le chemin d
 <div class="mx-tableFixed">
 <table>
 <tbody>
-<tr><td><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-basic"><img src="media/upgrade-to-teams-upgrade-basic-icon.png" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Basic checklist steps you through activities designed to quickly move your entire organization to Teams."></a></td>
+<tr><td><a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-basic"><img src="media/upgrade-to-teams-upgrade-basic-icon.png" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Basic checklist steps you through activities designed to quickly move your entire organization to Teams."></a></td>
 <td>
-<a href="https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
+<a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
 </tbody></table>
 </div>
 

@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Utilisez ce guide pour préparer votre client pour le déploiement et le déploiement des équipes
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5b97d2ef5ced0f259e9e4d9f04f84222eb0b518
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 763ca230a25cc43d1b414d432849e0c0d056fd22
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398100"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860558"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 

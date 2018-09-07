@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -24,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 63aa3171733dad8d1f788f1817db864be36e1dfa
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a7f8a5f5e824fb31a7a3a312bd9d804e8948f605
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23782981"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850900"
 ---
 # <a name="calling-plans-for-office-365"></a>Forfaits d'appels pour Office 365
 
@@ -86,7 +87,7 @@ Voici d’autres articles qui expliquent comment configurer vos Plans de l’app
     
 - [Licences de compléments pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
     
-- [Planifier Skype pour l’édition de connecteur Business Cloud](https://technet.microsoft.com/EN-US/library/Mt605227.aspx): cet article explique comment configurer Office 365 téléphone système avec vos propres connectivité PSTN.
+- [Planifier Skype pour l’édition de connecteur Business Cloud](https://technet.microsoft.com/library/Mt605227.aspx): cet article explique comment configurer Office 365 téléphone système avec vos propres connectivité PSTN.
     
 - [Planifier votre système téléphonique dans les solutions Office 365 (en nuage PBX)](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
@@ -101,7 +102,7 @@ Voici d’autres articles qui expliquent comment configurer vos Plans de l’app
     
 - [Ajouter des fonds et gérer les crédits de communication](add-funds-and-manage-communications-credits.md)
     
-- [Configurer le connecteur sur le nuage](https://technet.microsoft.com/en-us/library/mt605228.aspx) et [Téléchargez le connecteur sur le nuage](https://aka.ms/CloudConnectorInstaller)
+- [Configurer le connecteur sur le nuage](https://technet.microsoft.com/library/mt605228.aspx) et [Téléchargez le connecteur sur le nuage](https://aka.ms/CloudConnectorInstaller)
   
   
  

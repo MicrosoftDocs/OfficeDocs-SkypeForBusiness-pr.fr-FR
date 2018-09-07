@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Détails de Skype pour les options de coexistence Business et Microsoft Teams modes et trajets mise à niveau pour les équipes de Skype pour les entreprises avec des exemples de scénarios.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4b85a3fe4e5fe8e5d2d184e1f0c42e98a6dc7de
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: fb0205478160c7a011ea9fa3c4ce2b0160730cf4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20396801"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23859912"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation] (media/upgrade-banner-deployment.png "Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation")
 

@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Considérations relatives à la mise à niveau aux équipes un Skype pour un déploiement hybride Business.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 314a7f1ef6a74734d99839ea2aab4c23fcd58057
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: 8519f9fd79d15e7b1ebc5cc3fc5aa05b7e9e9112
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148337"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868172"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation] (media/upgrade-banner-deployment.png "Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation")
 

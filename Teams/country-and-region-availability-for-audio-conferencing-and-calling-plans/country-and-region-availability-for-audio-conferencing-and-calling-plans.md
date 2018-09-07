@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -24,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner un pays ou une région pour consulter la disponibilité de l'audioconférence, du système téléphonique, des forfaits d'appel, des crédits de communication ainsi que des numéros payants et gratuits.
-ms.openlocfilehash: dede3b8c1d3e844399973046d0569f8b3e3fca20
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6be4aa215277fb8e5a1d4186cdac17eed5ca3d1f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785605"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853342"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays
 
@@ -149,7 +150,7 @@ Avec l'audioconférence, des numéros de téléphone payants et gratuits peuvent
 
 Pour en savoir plus à propos de l'audioconférence, consultez les [questions fréquentes relatives à l'audioconférence](../audio-conferencing-common-questions.md).
 
-[Tarifs pour l'audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements) 
+[Tarifs pour l'audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>Lors de l'utilisation de la fonctionnalité M'appeler ou de l'ajout d'autres personnes à une réunion pour leur permettre d'y participer
 Dans l'audioconférence, la fonctionnalité appelée « *M'appeler* » peut être utilisée pour permettre à d'autres personnes de rejoindre une réunion en composant un numéro. Utilisez la liste déroulante ci-dessus pour rechercher le pays ou la région et voir si cette fonctionnalité est disponible.
@@ -164,7 +165,7 @@ Avec le système téléphonique, vous pouvez créer des standards automatiques e
 
 Outre obtenir des numéros de téléphone pour des utilisateurs individuels à partir d’Office 365, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou payants pour des services tels que l'audioconférence (pour les ponts de conférence), les standards automatiques et les files d'attente. Il s'agit des numéros de service appelés. Voir les [numéros de téléphone de mise en service](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) pour obtenir les numéros de téléphone. Mais, pour vos utilisateurs, une fois que vous leur avez attribué un forfait d'appels, vous pouvez leur attribuer un numéro de téléphone utilisateur, afin qu'ils puissent passer et recevoir des appels. Pour trouver ces numéros de téléphone, accédez à [l’obtention des numéros de téléphone pour vos utilisateurs](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). Vous pouvez également accéder à la rubrique [Attribuer, modifier ou supprimer un numéro de téléphone pour un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user). 
 
-[Tarifs pour le système téléphonique](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+[Tarifs pour le système téléphonique](https://products.office.com/skype-for-business/phone-system#Requirements)
 
 > [!NOTE]
 > La disponibilité des numéros de téléphone payants depuis certains de ces emplacements peut varier en fonction des niveaux d’inventaire. 

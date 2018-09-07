@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 09c8ca24-d018-422f-8485-9610171016a9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,16 +21,17 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone aux États-Unis (et à Porto Rico) pour Skype Entreprise Online et Microsoft Teams.
-ms.openlocfilehash: f0e72dfc847903c87a1e6336b66f021df692903a
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6acc294bfe9db4a80cc932b9635c14ea7551fc8c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785501"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850956"
 ---
 # <a name="phone-number-management-for-the-us"></a>Gestion des numéros de téléphone pour les États-Unis
 
-Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone aux États-Unis (et à Porto Rico) pour Skype Entreprise Online et Microsoft Teams.   
+Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone aux États-Unis (et à Porto Rico) pour Skype Entreprise Online et Microsoft Teams.
+
 Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization.md).
   
 |**Que voulez-vous faire ?**|**Suivez la procédure suivante et téléchargez les formulaires corrects**|

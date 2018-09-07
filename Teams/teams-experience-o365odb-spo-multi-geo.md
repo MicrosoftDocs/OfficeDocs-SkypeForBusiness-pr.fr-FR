@@ -8,15 +8,16 @@ ms.service: msteams
 ms.reviewer: snigdhav
 description: En savoir plus sur l’utilisation d’équipes dans une location Multi-géo-enabled Office 365 OneDrive et SharePoint Online.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f39a570804cd0dd0e2bd144b7d5c0137614c3fba
-ms.sourcegitcommit: 2b15226723c299fe94f1a012aa21222173fe3af8
+ms.openlocfilehash: 343b15cd29f3ac40002bf7fe2851faea93f36288
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "20192171"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860746"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Expérience d’équipes dans une location Multi-géo-enabled Office 365 OneDrive et SharePoint Online
 ===========================================

@@ -1,7 +1,7 @@
 ---
 title: Installer Microsoft Teams à l’aide de MSI
-author: ninadara
-ms.author: ninadara
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: ''
 description: Les administrateurs peuvent utiliser le fichier MSI d’équipes en bloc déployer Microsoft Teams pour sélectionner des utilisateurs ou des ordinateurs.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 655b028cb6f51538f4b65bbdb371c7b785f8763a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7176b990c41f2792f0955ac3ca2e937632a707d7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20972898"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854140"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installer Microsoft Teams à l’aide de MSI
 =================================

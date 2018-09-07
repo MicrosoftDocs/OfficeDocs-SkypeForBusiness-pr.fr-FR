@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Choisir parmi les plans d’appel et la gestion des licences, configurer les emplacements d’urgence et des fonctionnalités telles que les ID de la messagerie vocale et de l’appelant, acquérir ou transférer des numéros de téléphone.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 477a68996e50c916923948fecbb1dc1e978450b9
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 90cdd9efb2d4b80f9ad8c9ef9bb38dd2adf8bbcd
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780910"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23859996"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -125,7 +126,7 @@ Messagerie vocale de système téléphonique, grâce aux services de messagerie 
 
 Par défaut, la messagerie vocale système téléphonique fonctionne avec Exchange Online ; Toutefois il possède un minimum pris en charge Exchange sur site version et le déploiement modèle pour permettre la remise des messages vocaux pour les boîtes aux lettres dans le déploiement d’Exchange sur site.
 
-La messagerie vocale du système téléphonique inclut la transcription des messages vocaux. Elle est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation. Si votre organisation a décidé de conserver la transcription de la messagerie vocale activée, vous devez également prendre en compte si le masquage de la messagerie vocale transcription gratuites doivent être activés. Pour plus d’informations, voir [définition des stratégies de messagerie vocale dans votre organisation](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) .
+La messagerie vocale du système téléphonique inclut la transcription des messages vocaux. Elle est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation. Si votre organisation a décidé de conserver la transcription de la messagerie vocale activée, vous devez également prendre en compte si le masquage de la messagerie vocale transcription gratuites doivent être activés. Pour plus d’informations, voir [définition des stratégies de messagerie vocale dans votre organisation](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) .
 
 >[!NOTE]
 > Un mécanisme de secours a été implémenté, qui permet à la messagerie vocale du système téléphonique de renvoyer les messages via SMTP. Ainsi les utilisateurs qui possèdent une boîte aux lettres sur un système tiers recevront les messages vocaux. Ce mécanisme n’inclut pas les temps de fonctionnement de service garanti ou d’autres fonctionnalités de messagerie vocale, telle que la modification du message d’accueil de la messagerie vocale.

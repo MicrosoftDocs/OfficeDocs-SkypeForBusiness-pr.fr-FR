@@ -9,18 +9,19 @@ audience: Admin
 ms.service: msteams
 ms.reviewer: ''
 localization_priority: Priority
+search.appverid: MET150
 description: Découvrez les différentes licences Office 365, celles qui activent Microsoft Teams pour les utilisateurs et comment les activer et les désactiver.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5537ddef4c693d74c3b158a9a9b39fbc66be510
-ms.sourcegitcommit: 088003651ab18492c9520503b4f2bc0f30b0815d
+ms.openlocfilehash: a4133f239c2b8f710d76d11360bb3d837037b0d5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23531904"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854100"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licence Office 365 pour Microsoft Teams
 ========================================
@@ -42,9 +43,9 @@ Pour plus d’informations sur l’obtention des équipes, consultez la rubrique
 > [!NOTE]
 > Teams est également disponible pour les organisations à but non lucratif. Les équipes seront commencer présentant pour nous gouvernement nuage communautaire (chargé) 17 juillet et être disponible pour tous les clients éligibles à la fin de 2018 août. Nous essayons Alliance Teams Microsoft avec les autres nuages de gouvernement américain (GCC haute et DoD) seront prochainement disponibles. En plus, consultez le blog Microsoft Teams [ici](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
         
-En termes de fonctionnalités principal d’équipes, il n’existe aucune différence entre les abonnements Office 365. La disponibilité des fonctionnalités de conformité dépend du niveau d'abonnement correct. Pour plus d'informations, consultez la rubrique [Présentation de la sécurité et de la conformité dans Teams](security-compliance-overview.md). Pour obtenir une liste détaillée des fonctionnalités disponibles dans chaque abonnement, consultez la [Description de Service de plateforme Office 365](https://technet.microsoft.com/en-us/library/office-365-platform-service-description.aspx).
+En termes de fonctionnalités principal d’équipes, il n’existe aucune différence entre les abonnements Office 365. La disponibilité des fonctionnalités de conformité dépend du niveau d'abonnement correct. Pour plus d'informations, consultez la rubrique [Présentation de la sécurité et de la conformité dans Teams](security-compliance-overview.md). Pour obtenir une liste détaillée des fonctionnalités disponibles dans chaque abonnement, consultez la [Description de Service de plateforme Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
-**Fonctionnalités de voix dans le nuage**: pour les conférences Audio, votre organisation vous devrez acheter et attribuer une licence de conférence Audio à chaque utilisateur configuration des réunions de rendez-vous. Pour appeler des Plans, chaque utilisateur devra un système téléphonique plus un local ou national International appelant Plan et. Pour plus d’informations, consultez la rubrique [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+**Fonctionnalités de voix dans le nuage**: pour les conférences Audio, votre organisation vous devrez acheter et attribuer une licence de conférence Audio à chaque utilisateur configuration des réunions de rendez-vous. Pour appeler des Plans, chaque utilisateur devra un système téléphonique plus un local ou national International appelant Plan et. Pour plus d’informations, consultez la rubrique [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 Tous les plans d'abonnement pris en charge permettent d’accéder au client Web, aux clients de bureau et aux applications mobiles Teams.
 

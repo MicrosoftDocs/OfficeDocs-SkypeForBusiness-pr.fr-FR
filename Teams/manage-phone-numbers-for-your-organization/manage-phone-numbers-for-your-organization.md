@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -22,12 +23,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Les instructions pour obtenir des numéros de téléphone pour les utilisateurs de Skype Entreprise et Microsoft Teams sont différentes selon le pays ou la région. Suivez le lien d’accès à votre pays ou région ci-dessous pour obtenir les informations nécessaires.
-ms.openlocfilehash: ef94cf9171db12c2eeb3650c592e1b626484a553
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 31d1b0b7d1a2719d4645addaa96aa8d82fd090fb
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785509"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858456"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gérer les numéros de téléphone de votre organisation
 Il existe trois façons d’obtenir les numéros d'utilisateur et service (payants et gratuits) pour votre organisation.
@@ -79,7 +80,7 @@ Si vous avez besoin d’aide, faites nous savoir comment nous pouvons vous aider
 - Pour savoir si des forfaits d’appels sont disponibles dans votre pays ou région, consultez la rubrique [Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - Pour vous aider à sélectionner le type de numéro de téléphone dont vous avez besoin, reportez-vous à la rubrique [Différents types de numéros de téléphone utilisés pour les forfaits d'appels](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - Pour plus d’informations sur l’obtention de numéros de téléphone d'utilisateurs dans le centre d’administration, lisez [Obtenir des numéros de téléphone pour vos utilisateurs](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
-- Pour obtenir la configuration des numéros de téléphone pour votre organisation, [contactez le support technique pour les produits métiers : aide d’administration](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- Pour obtenir la configuration des numéros de téléphone pour votre organisation, [contactez le support technique pour les produits métiers : aide d’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
     
 ## <a name="related-topics"></a>Rubriques connexes

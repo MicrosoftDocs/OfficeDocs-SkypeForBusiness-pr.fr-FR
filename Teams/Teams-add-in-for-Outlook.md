@@ -9,18 +9,19 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 localization_priority: Priority
+search.appverid: MET150
 description: Microsoft Teams installe un complément dans Outlook qui permet aux utilisateurs de planifier une réunion Teams depuis Outlook.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76b1dcb9c7f34780d4e49611d6e97f2ca890b329
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f465b03aacbaa1c7cd3cd835d279a112d0f87891
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987127"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856872"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================

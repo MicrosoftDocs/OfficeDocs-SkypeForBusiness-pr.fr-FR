@@ -9,19 +9,20 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Lorsque vous configurez votre réseau pour les équipes, suivez les principaux, les tâches de tâches et les activités dans cette liste de vérification.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a45fbca1bdec4a5f3cd566a251b4bef3ff0ef20f
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 82866750fbce6bf1972bf38a8fd8a320c6c9619e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694902"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867892"
 ---
 # <a name="configure-networking"></a>Configurer la mise en réseau
 
-| Non | Activité ou la tâche | Description | Terminé ? | Informations complémentaires |
+| Non | Activité ou la tâche | Description | Terminé ? | Informations supplémentaires |
 |----|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | Passez en revue la configuration réseau requise pour les équipes | Avoir une vue d’ensemble des besoins de votre réseau avant de passer les détails de mise en réseau. | | [Préparer le réseau de votre organisation pour Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network)                                                               |
 | 2  | Fournir l’atelier Préparation du réseau | Terminez l’atelier Préparation du réseau à partir de MyAdvisor et travailler avec vos équipes pour identifier des zones sensibles à l’adresse dans le cadre de l’effort de correction. | | [Ressources de préparation MyAdvisor réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 95a08f84-04e5-4f72-88a8-d6472a7c89d7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Apprenez quels pays et quelles régions ont des numéros d'appel de conférence, et comment ils sont automatiquement affectés.
-ms.openlocfilehash: af1d3307f2204ab8dcf320eff2647492848db5cd
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: ff1234e1447b4c74033971208b2a09275126f145
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779481"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851098"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Numéros de téléphone de conférence dans Microsoft Teams
 
@@ -34,7 +35,7 @@ Lorsque vous configurez l' **Audioconférence** pour Microsoft Teams, les numér
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Couverture et tarification de l'audioconférence
 
-Pour obtenir une liste complète de tous les pays/régions et villes où la conférence Audio est disponible, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour plus d’informations de tarification, voir [tarification pour une audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+Pour obtenir une liste complète de tous les pays/régions et villes où la conférence Audio est disponible, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour plus d’informations de tarification, voir [tarification pour une audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Numéros de téléphone d'accès à composer figurant dans l'invitation à la réunion
 

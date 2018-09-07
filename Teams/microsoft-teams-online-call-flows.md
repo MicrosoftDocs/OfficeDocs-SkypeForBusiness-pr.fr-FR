@@ -8,16 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 description: Décrit comment la charge de travail équipes utilise Office 365 flux dans diverses topologies.
-ms.openlocfilehash: 2374349f426de6fb25d25cc4ded7c6c8a776dd1d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 69b4deb078a0626c8a7cc4dce808825f2d038bac
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964540"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861816"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Flux des appels équipes Microsoft Online
 
@@ -50,7 +51,7 @@ En règle générale, un réseau client a plusieurs périmètres réseau avec pa
 
 ### <a name="connectivity-to-office-365"></a>Connectivité à Office 365
 
-Les équipes service nécessite une [connectivité à Internet](https://support.office.com/en-us/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10). Points de terminaison équipes URL et IP de plages d’adresses sont répertoriés dans [Office 365 URL et plages d’adresses IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). (Remarque : il a besoin pour ouvrir la connectivité à des ports TCP 80 et 443 et 3478 3481 via des ports UDP.) En outre, service équipes a dépendance sur Skype pour le service en ligne d’entreprise, par conséquent, il est nécessaire pour se connecter également ce service à Internet.
+Les équipes service nécessite une [connectivité à Internet](https://support.office.com/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10). Points de terminaison équipes URL et IP de plages d’adresses sont répertoriés dans [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). (Remarque : il a besoin pour ouvrir la connectivité à des ports TCP 80 et 443 et 3478 3481 via des ports UDP.) En outre, service équipes a dépendance sur Skype pour le service en ligne d’entreprise, par conséquent, il est nécessaire pour se connecter également ce service à Internet.
 
 Connectivité des équipes médias flux est implémentée par le biais des procédures standard IETF ICE (Interactive Connectivity Establishment).
 

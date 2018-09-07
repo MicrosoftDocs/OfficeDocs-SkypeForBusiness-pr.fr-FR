@@ -10,14 +10,15 @@ ms.reviewer: ''
 description: Découvrez les limites, les spécifications et autres conditions qui s’appliquent à Microsoft Teams.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
+search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18db7bc405dcc06a14fccd1a7b3e81ee5f625d0f
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: 60f90a18378dc00da7dc218a85f072cecaa8b943
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21708331"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867796"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et les spécifications de Microsoft Teams
 =============================================
@@ -62,7 +63,7 @@ En stockant les fichiers dans la bibliothèque de documents SharePoint Online e
 
 Chaque onglet de fichiers dans les équipes s’exécute sur un serveur principal SharePoint Online, les limites de stockage ci-dessus s’appliquent à chaque canal au sein d’une équipe.
 
-Pour plus d’informations, voir [limites de SharePoint Online](https://support.office.com/en-us/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+Pour plus d’informations, voir [limites de SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
 <a name="messaging"></a>Messagerie
 ---------

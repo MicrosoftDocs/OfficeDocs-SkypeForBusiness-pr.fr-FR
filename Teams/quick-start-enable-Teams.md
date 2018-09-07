@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: Utilisez ce guide pour vous aider à planifier, implémenter et adopter Microsoft Teams dans votre organisation.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc4e1815b6d3b649c8af518068ca2d6ff3e9adbc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fbebf57b4da07f25d9687c27acd70e5cfd25930e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242813"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854996"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Guide de démarrage rapide : guide de planification de Microsoft Teams
 ==========================================================
@@ -50,7 +51,7 @@ Si Microsoft Teams n’est pas activée dans votre organisation cliente Office 3
 
 ## <a name="step-3-complete-technical-planning"></a>Étape 3 : effectuer une planification technique
 
-Une planification technique efficace est le fondement d’une expérience utilisateur optimale. Si votre organisation comporte plus de 50 sièges et participe à un [plan pris en charge](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365), vous pouvez profiter des [avantages de FastTrack](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365), disponibles sans coût additionnel pour vous guider dans la planification, le déploiement et l’adoption du service. Vous pouvez aussi effectuer ce travail vous-même à l’aide de nos assistants d’intégration FastTrack, disponibles depuis [FastTrack](https://fasttrack.microsoft.com/) lorsque vous vous connectez à votre compte Office 365. Les informations ci-dessous vous aideront à exécuter cette étape pour Teams. Au minimum, vous pouvez consulter ces quatre articles :
+Une planification technique efficace est le fondement d’une expérience utilisateur optimale. Si votre organisation comporte plus de 50 sièges et participe à un [plan pris en charge](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365), vous pouvez profiter des [avantages de FastTrack](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365), disponibles sans coût additionnel pour vous guider dans la planification, le déploiement et l’adoption du service. Vous pouvez aussi effectuer ce travail vous-même à l’aide de nos assistants d’intégration FastTrack, disponibles depuis [FastTrack](https://fasttrack.microsoft.com/) lorsque vous vous connectez à votre compte Office 365. Les informations ci-dessous vous aideront à exécuter cette étape pour Teams. Au minimum, vous pouvez consulter ces quatre articles :
 
 1.  [Vérifier la préparation de votre environnement pour Microsoft Teams](environment-readiness.md)
 2.  [Préparer votre réseau pour Teams](prepare-network.md)

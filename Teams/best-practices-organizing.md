@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Découvrez les meilleures pratiques d'organisation d'équipe dans Microsoft Teams pour répondre aux besoins de votre organisation.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be7cd35a85d220163d7d0c762883e7e1018c3115
-ms.sourcegitcommit: fa8732e704f00096c7ff041aba91e617a8d44e29
+ms.openlocfilehash: aa2d931561922a8b5e92e3ec695b4cd8ad4fdb83
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2018
-ms.locfileid: "19875252"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867588"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams
 ======================================================
@@ -36,7 +37,7 @@ Vous pouvez commencer avec un petit nombre de membres pour échanger des idées 
 
 Après avoir créé une équipe, il est utile de commencer à réfléchir aux différents domaines de conversations que vous voulez mener pour atteindre vos objectifs et de créer des canaux initiaux pour informer les membres des emplacements où ils peuvent fournir leur contribution ou trouver des conversations. Fournissez des noms de canal descriptifs pour faciliter la compréhension de l'objectif de la conversation dans le canal. Vous pouvez ajouter des onglets aux canaux, pour mettre à disposition des outils tels que OneNote, PowerBI ou des liens vers des pages Web ou d'autres contenus et faciliter ainsi la recherche et le partage d'idées.
 
-En savoir plus sur le [travail en équipe](https://support.office.com/en-us/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) avec ces conseils rapides pour les utilisateurs finaux. 
+En savoir plus sur le [travail en équipe](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) avec ces conseils rapides pour les utilisateurs finaux. 
 
 <a name="channel-best-practices"></a>Meilleures pratiques de canal
 ----------------------
@@ -52,6 +53,6 @@ Le **canal générales** est créée pour vous lorsque vous créez l’équipe p
 
 Actuellement, vous ne pouvez pas supprimer ou unfavorite le canal général. Lorsque vous nommez des canaux, n’oubliez pas que les canaux sont classés par ordre alphabétique après le canal général.  Dans les équipes avec le nombre de canaux utiliser la fonctionnalité de « Favori un canal » pour contrôler les canaux de que vous voir automatiquement lors de la navigation vers l’équipe. 
 
-En savoir plus sur l' [utilisation de canaux](https://support.office.com/en-us/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) avec ces conseils rapides pour les utilisateurs finaux. 
+En savoir plus sur l' [utilisation de canaux](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) avec ces conseils rapides pour les utilisateurs finaux. 
 
 

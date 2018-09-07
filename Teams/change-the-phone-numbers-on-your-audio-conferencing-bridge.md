@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Lorsque vous achetez des licences de services d’audioconférence, Microsoft héberge votre pont de conférence audio pour votre organisation. Le pont de conférence audio donne les numéros de téléphone à partir de différents emplacements si bien que les organisateurs de réunion et les participants peuvent les utiliser pour joindre Skype pour les réunions Microsoft Teams ou de l’entreprise à l’aide d’un téléphone.
-ms.openlocfilehash: 69783cdfeaa1787a2da432491ff15f2a3a147d68
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 3de53df00f364a4aad6efe416a83e5389cc0b8ef
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23848592"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23852082"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone de votre pont d'audioconférence
 

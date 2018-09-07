@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Mesurer les résultats de votre conférence Audio, le système téléphonique avec des Plans de l’appel, ou le déploiement de routage d’un système téléphonique directe et vérifiez que vous avez obtenu les résultats que vous souhaitiez.
 MS.collection: Strat_MT_TeamsAdmin
 localization_priority: Priority
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b8ac93fe69a4d16289541a8b2a6e7982ed3902e
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 334e27626a5b842bce290696052352b055767053
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695661"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866594"
 ---
 # <a name="define-my-success"></a>Définir mon réussite
 

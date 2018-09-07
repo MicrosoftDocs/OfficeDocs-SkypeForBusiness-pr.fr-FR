@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Soumettre et mettre à jour un déploiement de haute qualité à la planification des rôles opérationnels et en affectant un champion de qualité.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3857bde4a71e3745c4e83546c0ad1b0114469197
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 33992e8f239a723b53b87159b3c09816b6bd0b20
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695501"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867900"
 ---
 # <a name="plan-my-service-management"></a>Planifier la gestion de mon service
 
@@ -107,7 +108,7 @@ En permanence évaluer et corriger les zones décrites dans ce document, vous po
 
 Les instructions fournies dans le Guide de révision de l’expérience de qualité se concentre sur l’utilisation en ligne de tableau de bord de la qualité des appels (CQD) comme le principal outil d’examiner chaque zone décrite, en mettant l’accent sur l’audio à optimiser l’impact d’adoption et de signaler. Les optimisations apportées au réseau pour améliorer l’expérience audio auront également directement des améliorations dans le partage du bureau et vidéo.
 
-Nous vous recommandons de vous désigner le poids lourd qualité dès le début. Après avoir en cours désignés, ils doivent démarrer à se familiariser avec le contenu de l' [Expérience de consulter le Guide de qualité](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+Nous vous recommandons de vous désigner le poids lourd qualité dès le début. Après avoir en cours désignés, ils doivent démarrer à se familiariser avec le contenu de l' [Expérience de consulter le Guide de qualité](https://aka.ms/qerguide).
 
 
 

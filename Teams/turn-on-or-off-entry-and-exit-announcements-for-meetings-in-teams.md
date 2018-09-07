@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Apprenez à transformer les entrées et quitter ou désactiver les annonces à une réunion Microsoft Teams. '
-ms.openlocfilehash: b1409c34adce4bdb32013c184e273072858d3322
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 44b3c88b9e4284c7606d57661022dbe21d236147
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23781174"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851006"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Activer ou désactiver l’entrée et quitter des annonces pour les réunions dans Microsoft Teams
 
@@ -57,7 +58,7 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
     
   - [Six raisons d'utiliser Windows PowerShell pour gérer Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Pour plus d’informations sur Windows PowerShell, voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) pour plus d’informations.
+Pour plus d’informations sur Windows PowerShell, voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
   
 ## <a name="related-topics"></a>Rubriques connexes
 

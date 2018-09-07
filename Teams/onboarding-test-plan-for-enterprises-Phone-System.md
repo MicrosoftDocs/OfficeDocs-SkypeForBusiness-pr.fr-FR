@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Valider que les attentes de votre organisation sont remplies par le biais de test de système téléphonique dans les fonctionnalités d’équipes, les fonctionnalités et les possibilités d’utilisation.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fceaa215835b5ef231a29f896656835da940dbde
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: fffb52988da639f21246b0c5d27f2c8554b459ac
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779805"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855424"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Définissez et documentez votre système téléphonique avec des Plans de l’appel dans le plan de test des équipes pour les entreprises 
 ============================================================================================

@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Utilisez ce guide pour en savoir plus sur les conditions qui sont nécessaires pour fournir et mettre à jour un déploiement de Microsoft Teams haute qualité.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6114120998425acdd443ab852b3f39fd2549b5ff
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 58f99698f5168f428900095a813a8361955255e6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779947"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854148"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
@@ -345,7 +346,7 @@ Ce tableau propose un résumé des activités de planification avec des liens ve
 | | Installer des modèles de révision de l’expérience de qualité <br/> Télécharger un fichier de construction | [Modèles de QERLite](https://aka.ms/qertemplates) <br/> [Informations de création de téléchargement](turning-on-and-using-call-quality-dashboard.md)|
 | Prévoir la qualité du réseau | Exécutez le Planificateur de réseau | [Planificateur de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Mettre en œuvre QoS | [Qualité de Service dans les équipes Microsoft](qos-in-teams.md) |
-| | Ignorer les serveurs proxy | [Conseils de proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | Ignorer les serveurs proxy | [Conseils de proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | Implémenter le fractionnement-tunnel VPN | [Conseils de Tunnel VPN fractionné](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Optimiser les réseaux Wi-Fi pour les médias en temps réel  | Consulter les fournisseurs tiers |
 | | Mettre en œuvre local sortant internet | [Internet local sortant](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |

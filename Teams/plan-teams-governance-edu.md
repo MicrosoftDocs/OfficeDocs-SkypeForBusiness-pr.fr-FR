@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Réponses aux questions fréquemment posées à partir des groupes Microsoft Education, les administrateurs qui utilisent des équipes.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4991990143b0292f83b5c71b8b2bf01a5d612184
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: f798d9bd18316f7a78c846e473a8a5dfbae0c6c6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599453"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860508"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Gouvernance Microsoft Education FAQ pour les administrateurs
 

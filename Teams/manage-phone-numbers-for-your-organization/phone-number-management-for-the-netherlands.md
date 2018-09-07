@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f3b75104-bdb9-435a-bec5-9858db9df402
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone aux Pays-Bas pour Skype Entreprise Online et Microsoft Teams.
-ms.openlocfilehash: 7a3a59206e33db5e8d6ae85e433eb8869edd4d3a
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 80ec745e2c3f3addb46cd239eae57b3be9451796
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784541"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856282"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Gestion des numéros de téléphone pour les Pays-Bas
 

@@ -9,19 +9,20 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Lorsque vous configurez des équipes, suivez les principaux, les tâches de tâches et les activités dans cette liste de vérification.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c61aa784830a206ee81fe2c15c0efb92ed85cef
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: e6dfc4f5820175a932cebdf200e215b45edeb6e9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695325"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850108"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Configurer les fonctionnalités principales de Microsoft Teams
 
-| Non | Activité ou la tâche | Description | Terminé ? | Informations complémentaires |
+| Non | Activité ou la tâche | Description | Terminé ? | Informations supplémentaires |
 |----|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | Valider que votre environnement inclut tous les éléments prérequis équipes | Équipes dépend d’autres plateformes pour construire une solution de collaboration de bout en bout. Travailler avec vos équipes informatiques pour vous assurer que vous avez déployé et configuré Exchange, SharePoint Online et OneDrive for Business. | | [Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/sharepoint-onedrive-interact) <br/><br/>[Interaction entre Exchange et Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact) |
 | 2  | Vérifiez que les équipes est activé pour le client | Les équipes est activée par défaut pour toutes les organisations. Vérifier la page **Services et des compléments** dans le centre d’administration d’Office 365 pour vérifier que les équipes est activé pour votre client et activer si nécessaire. | | [Configurer Microsoft Teams dans votre organisation Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-set-up) |

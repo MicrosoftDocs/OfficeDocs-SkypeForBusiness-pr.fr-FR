@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Découvrez comment planifier l’implémentation des fonctionnalités de gouvernance dans les équipes.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7176cc08672d6ddc727472789d7891e5392a6b3b
-ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
+ms.openlocfilehash: ddb93c883786413f18f20c98452d8e04a6534ea7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "22331261"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23870100"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planifier la gouvernance dans les équipes
 
@@ -50,7 +51,7 @@ Le tableau suivant permet de capturer les besoins de votre organisation.
 > Limitation de la création de groupe et de l’équipe peut ralentir la productivité des utilisateurs, car de nombreux services Office 365 nécessitent que les groupes créés pour le fonctionnement du service. Pour plus d’informations, accédez à et développez [Pourquoi contrôler qui crée des groupes d’Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
-#### <a name="additional-information"></a>Informations complémentaires
+#### <a name="additional-information"></a>Informations supplémentaires
 
 Une fois que vous avez déterminé vos besoins, vous pouvez les implémenter à l’aide de contrôles Azure AD. Pour obtenir des instructions techniques sur l’implémentation de ces paramètres, voir :
 
@@ -81,7 +82,7 @@ Le tableau suivant permet de capturer les besoins de votre organisation.
 > [!Note]
 > Expiration de groupe est une fonctionnalité d’Azure AD Premium. Pour cette fonctionnalité soit disponible, votre client doit avoir un abonnement Azure AD Premium et les licences de l’administrateur qui configure les paramètres et les membres des groupes concernés.
 
-#### <a name="additional-information"></a>Informations complémentaires
+#### <a name="additional-information"></a>Informations supplémentaires
 
 Pour obtenir des instructions techniques sur l’implémentation de ces paramètres, voir :
 

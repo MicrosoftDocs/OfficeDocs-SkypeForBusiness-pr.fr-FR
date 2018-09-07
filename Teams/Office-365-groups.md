@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Découvrez comment utiliser Groupes Office 365 et les adhésions de groupe avec Microsoft Teams.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9d7c37a0aa53f45036388bdedfc5bdc87b1cc8a
-ms.sourcegitcommit: 5fb3957b658b48edf3d9878a9d53a4002b8f55d8
+ms.openlocfilehash: 9ef86beea194dde66e3ce5d7f54bde7a522dd605
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23520061"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850022"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Groupes d’Office 365 et les équipes Microsoft
 =====================================
@@ -33,7 +34,7 @@ Lorsque vous créez un Team Microsoft, sur le serveur principal, vous créez un 
 > [!NOTE]
 > Suppression d’un groupe d’Office 365 seront supprimer que l’invite de la boîte aux lettres alias pour des conversations Outlook/OWA permanentes et réunions d’équipes et marque SharePoint de site pour la suppression. Elle prend environ 20 minutes entre la suppression d’une équipe et son incidence sur Outlook. Suppression d’une équipe à partir du client équipes supprimera il immédiatement à partir de la vue à tous ceux qui sont membres de l’équipe. Si vous supprimez des membres d’un groupe Office 365 qui a été activée la fonctionnalité équipes, il peut être un délai d’environ deux heures avant de l’équipe est supprimé de l’affichage dans le client équipes pour les utilisateurs concernés qui ont été supprimées.
 >
->Lisez [cette](https://support.office.com/en-us/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) pour plus d’informations sur la restauration d’un groupe Office 365 que vous avez supprimé.
+>Lisez [cette](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) pour plus d’informations sur la restauration d’un groupe Office 365 que vous avez supprimé.
 
 <a name="group-membership"></a>Adhésion à un groupe
 ----------------

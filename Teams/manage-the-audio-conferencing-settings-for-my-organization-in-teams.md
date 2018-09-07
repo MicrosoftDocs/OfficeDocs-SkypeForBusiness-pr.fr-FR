@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Voir Microsoft Teams pour affecter un ID de conférence et de licence de conférence rendez-vous à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 2e372c76cbbedeaa7558b4308366262e93cb5b91
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: b9b3198f5d66b36e986eeab72fdf5dd31521fb14
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780371"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866834"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Gérer les paramètres de conférence Audio de mon organisation dans Microsoft Teams
 
@@ -69,11 +70,11 @@ Il peut être plus facile à voir tous les paramètres audio de conférence pour
     
 **Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
   
-Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) pour plus d’informations.
+Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
     
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Modifier les informations de contact de l’expéditeur dans les messages électroniques envoyés aux utilisateurs
 
-Vous pouvez modifier le message électronique qui est envoyé automatiquement à vos utilisateurs, y compris l’adresse de messagerie réelle et le nom complet d’informations de contact de l’expéditeur. Par défaut, l’expéditeur des e-mails est Office 365, mais vous pouvez modifier l’adresse de messagerie et affiche le nom de l’aide de Windows PowerShell. Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) pour plus d’informations.
+Vous pouvez modifier le message électronique qui est envoyé automatiquement à vos utilisateurs, y compris l’adresse de messagerie réelle et le nom complet d’informations de contact de l’expéditeur. Par défaut, l’expéditeur des e-mails est Office 365, mais vous pouvez modifier l’adresse de messagerie et affiche le nom de l’aide de Windows PowerShell. Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
   
 ## <a name="reset-the-meeting-conference-id"></a>Réinitialisation de l'ID de conférence
 
@@ -215,7 +216,7 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
     
   - [Six raisons d'utiliser Windows PowerShell pour gérer Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Pour plus d’informations sur Windows PowerShell, voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) pour plus d’informations.
+Pour plus d’informations sur Windows PowerShell, voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
   
     
 ## <a name="related-topics"></a>Rubriques connexes

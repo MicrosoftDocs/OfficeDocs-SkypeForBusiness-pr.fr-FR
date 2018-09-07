@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: MyAdvisor
 description: Guide pratique pour la planification, le déploiement et la gestion des systèmes téléphoniques avec forfaits d'appels dans Microsoft Teams avec l'infrastructure Planifier (Programmer), Intégrer (Fournir), Générer une valeur ajoutée (Utiliser).
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: c697da99ab2ca96794448dca93f45ae29efa103d
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
+ms.openlocfilehash: 2ce4d09113cc75381379fa6f9481eca2ae27c2ea
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779891"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853654"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Guide pratique des systèmes téléphoniques avec forfaits d'appels dans Microsoft Teams
 =========================================================================
@@ -27,7 +28,7 @@ La fonctionnalité de système téléphonique d'Office 365 permet de gérer le 
 
 Les forfaits d'appels Office 365 constituent un service complémentaire de la fonctionnalité de système téléphonique fournie via Teams et Skype Entreprise Online. Les forfaits d'appels confèrent à vos employés un numéro de téléphone principal leur permettant de passer et de recevoir des appels téléphoniques à l'extérieur de votre organisation via le réseau téléphonique commuté (RTC).
 
-Pour en savoir plus, consultez [Voici les avantages du système téléphonique d'Office 365](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) et [En quoi consiste les forfaits d'appels dans Office 365 ?](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
+Pour en savoir plus, consultez [Voici les avantages du système téléphonique d'Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) et [En quoi consiste les forfaits d'appels dans Office 365 ?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
 
 Ce guide pratique vous oriente dans la structure du client FastTrack d'Office 365 et ses trois phases, planifier, intégrer et générer une valeur ajoutée, pour vous aider à programmer, fournir et utiliser une implémentation réussie d'un système téléphonique avec forfaits d'appels.
 
@@ -150,7 +151,7 @@ Pour atteindre les objectifs et résultats clés, vous devez définir l’archit
 
 Toutes les questions liées à l'environnement informatique des utilisateurs finaux, tels que l'évaluation de la préparation des ordinateurs personnels et appareils mobiles pour prendre en charge les cas d'utilisation des systèmes téléphoniques avec forfaits d'appels, de la configuration matérielle requise à la configuration logicielle requise, seront incluses dans le cadre de la découverte de l'environnement.
 
-La découverte de l'environnement peut également indiquer si vous devez [transférer des numéros de téléphone à Microsoft](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365). Cela permettra à votre organisation d'ajuster le plan du projet en conséquence et de préparer les informations nécessaires pour le transfert des numéros. Pour effectuer la découverte de l'environnement, utilisez le [questionnaire de découverte](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3).
+La découverte de l'environnement peut également indiquer si vous devez [transférer des numéros de téléphone à Microsoft](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365). Cela permettra à votre organisation d'ajuster le plan du projet en conséquence et de préparer les informations nécessaires pour le transfert des numéros. Pour effectuer la découverte de l'environnement, utilisez le [questionnaire de découverte](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3).
 
 La découverte de l'environnement doit inclure l'évaluation de la préparation du réseau pour s'assurer que celui-ci est prêt à prendre en charge l'implémentation des systèmes téléphoniques avec forfaits d'appels.
 
@@ -263,8 +264,8 @@ Après avoir vérifié l'admissibilité de votre organisation à obtenir le serv
 
 Les forfaits d'appels Office 365 constituent un service complémentaire de la fonctionnalité de système téléphonique. Vous devez donc disposer d'une licence de système téléphonique active pour utiliser les forfaits d'appel.
 
-[La licence de système téléphonique](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) est disponible dans le cadre des plans d'abonnement Office 365 E5, ou en tant que complément des plans d'abonnement Office 365 E1 ou Office 365 E3.
-Deux types de [licences de forfait d'appels](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) sont disponibles :
+[La licence de système téléphonique](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) est disponible dans le cadre des plans d'abonnement Office 365 E5, ou en tant que complément des plans d'abonnement Office 365 E1 ou Office 365 E3.
+Deux types de [licences de forfait d'appels](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) sont disponibles :
 
 -   Forfait d'appels nationaux
 -   Forfait d'appels nationaux et internationaux
@@ -278,11 +279,11 @@ En règle générale, tous les utilisateurs d'une organisation n'ont pas besoin 
 
 Pour chaque client Office 365, le nombre de minutes d'appels combiné est regroupé par pays ou région et par type de forfait d'appels. Une fois que le client a atteint la limite de minutes d'appels mensuelles, le service de forfaits d'appels (à l'exception des appels d'urgence) est suspendu jusqu'à la fin du mois. Les services de forfaits d'appels sont automatiquement disponibles le premier jour du mois calendaire suivant.
 
-Pour permettre aux utilisateurs de passer des appels extérieurs une fois les minutes d'appels écoulées sans devoir attendre le mois suivant (cycle de facturation suivant), vous pouvez configurer des crédits de communication pour votre organisation. Les [crédits de communication](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) permettent également aux utilisateurs possédant un forfait d'appels nationaux de passer des appels internationaux sur le principe du paiement à la minute.
+Pour permettre aux utilisateurs de passer des appels extérieurs une fois les minutes d'appels écoulées sans devoir attendre le mois suivant (cycle de facturation suivant), vous pouvez configurer des crédits de communication pour votre organisation. Les [crédits de communication](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) permettent également aux utilisateurs possédant un forfait d'appels nationaux de passer des appels internationaux sur le principe du paiement à la minute.
 
-Le premier élément à prendre en compte lors de l’implémentation de crédits de communication est de décider du montant initial des fonds à acheter. Les montants de financement recommandés peuvent être obtenus dans l'article sur les [crédits de communication](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+Le premier élément à prendre en compte lors de l’implémentation de crédits de communication est de décider du montant initial des fonds à acheter. Les montants de financement recommandés peuvent être obtenus dans l'article sur les [crédits de communication](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
 
-Si votre organisation choisit d'utiliser la recharge automatique, une recommandation sur le déclencheur (montant des fonds le moins élevé) est également incluse dans l'article sur les [crédits de communication](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits). Le montant de la recharge automatique doit être déterminé par l’utilisation réelle. L'utilisation des crédits de communication doit être régulièrement contrôlée et le montant de la recharge doit être ajusté en fonction des besoins.
+Si votre organisation choisit d'utiliser la recharge automatique, une recommandation sur le déclencheur (montant des fonds le moins élevé) est également incluse dans l'article sur les [crédits de communication](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits). Le montant de la recharge automatique doit être déterminé par l’utilisation réelle. L'utilisation des crédits de communication doit être régulièrement contrôlée et le montant de la recharge doit être ajusté en fonction des besoins.
 
 L'utilisation des crédits de communication est contrôlable au niveau de chaque utilisateur pour vous permettre de satisfaire les exigences professionnelles spécifiques à chaque employé de l'organisation.
 
@@ -314,30 +315,30 @@ L'utilisation des crédits de communication est contrôlable au niveau de chaque
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Numéros de téléphone et emplacements d'urgence
 
-Avec les forfaits d'appels dans Office 365, chaque utilisateur de votre organisation doit posséder un numéro de téléphonique DID (sélection directe à l'arrivée) unique et une [adresse d'urgence validée](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing) correspondante.
+Avec les forfaits d'appels dans Office 365, chaque utilisateur de votre organisation doit posséder un numéro de téléphonique DID (sélection directe à l'arrivée) unique et une [adresse d'urgence validée](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing) correspondante.
 
-Il est possible d'obtenir les numéros de téléphone [directement auprès de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) ou de [transférer à Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) des numéros existants.
+Il est possible d'obtenir les numéros de téléphone [directement auprès de Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) ou de [transférer à Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) des numéros existants.
 
 > [!NOTE]
 > Le transfert de numéros de téléphone vers Microsoft est plus ou moins complexe selon les pays ou régions, les opérateurs, le nombre de circuits concernés et de nombreux autres facteurs. Pour planifier un transfert de numéros de téléphone, consultez le [Guide de transfert de numéros](https://go.microsoft.com/fwlink/?linkid=859011) pour en savoir plus.
 
 Pour obtenir des numéros de téléphone directement auprès de Microsoft, utilisez l'une des options suivantes :
 
-- [Centre d'administration Skype Entreprise](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
+- [Centre d'administration Skype Entreprise](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Applets de commande de Windows PowerShell à distance](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Envoyer un formulaire nouvelle demande de numéro de téléphone](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Envoyer un formulaire nouvelle demande de numéro de téléphone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 Le formulaire de demande de nouveau numéro de téléphone convient mieux à l'acquisition d'un numéro de téléphone planifié car vous pouvez demander un ensemble de numéros de téléphone consécutifs. L'obtention de numéros de téléphone à l'aide du centre d'administration Skype Entreprise ou de Windows PowerShell à distance n'est pas disponible dans tous les pays ou régions.
 
 Les deux premières méthodes (centre d'administration Skype Entreprise ou Windows PowerShell à distance) ne fonctionneront pas pour l'acquisition instantanée et ponctuelle d'un numéro de téléphone et lorsqu'un ensemble de numéros de téléphone consécutifs n'est pas indispensable.
 
 > [!NOTE]
-> Le [nombre de numéros de téléphone](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get) pouvant être acquis auprès de Microsoft est limité en fonction du nombre de licences de forfait d'appels souscrites par votre organisation. Pour les numéros de téléphone utilisateur (abonné), la formule est (nombre de licences de forfait d'appels nationaux + de forfait d'appels nationaux et internationaux) x 1,1 +10. Par exemple, si vous comptez 50 utilisateurs avec licence de forfait d'appels, vous pouvez acquérir 65 numéros de téléphone ((50 x 1,1) + 10).
+> Le [nombre de numéros de téléphone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get) pouvant être acquis auprès de Microsoft est limité en fonction du nombre de licences de forfait d'appels souscrites par votre organisation. Pour les numéros de téléphone utilisateur (abonné), la formule est (nombre de licences de forfait d'appels nationaux + de forfait d'appels nationaux et internationaux) x 1,1 +10. Par exemple, si vous comptez 50 utilisateurs avec licence de forfait d'appels, vous pouvez acquérir 65 numéros de téléphone ((50 x 1,1) + 10).
 
 Lors de la configuration des numéros de téléphone pour les forfaits d'appels, une adresse d'urgence doit être affectée à chaque numéro de téléphone avant toute attribution à un utilisateur. Cela est obligatoire pour prendre en charge les appels d'urgence. L'adresse d'urgence doit être validée pour garantir la reconnaissance de l'adresse d'urgence et s'assurer que son format est approprié et compatible avec une utilisation par les services d'intervention d'urgence.
 
 > [!IMPORTANT]
-> Les appels des services d'urgence fonctionnent différemment avec le service de forfaits d'appels par rapport aux services téléphoniques traditionnels. Il est important que vous compreniez ces différences et que vous les communiquiez à tous les utilisateurs. Consultez [Conditions générales relatives aux appels d'urgence](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) pour en savoir plus.
+> Les appels des services d'urgence fonctionnent différemment avec le service de forfaits d'appels par rapport aux services téléphoniques traditionnels. Il est important que vous compreniez ces différences et que vous les communiquiez à tous les utilisateurs. Consultez [Conditions générales relatives aux appels d'urgence](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) pour en savoir plus.
 
 En plus d'une adresse d'urgence validée, les emplacements d'urgence peuvent être définis et associés à une adresse d'urgence validée pour indiquer plus précisément l'emplacement d'une adresse. Un emplacement d'urgence correspond généralement à un numéro de bâtiment, un étage, une aile de bâtiment ou un numéro de bureau où se trouve l'utilisateur.
 
@@ -345,7 +346,7 @@ En plus d'une adresse d'urgence validée, les emplacements d'urgence peuvent êt
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez comment les numéros de téléphone seront obtenus pour les emplacements des utilisateurs ou les bureaux concernés par l'implémentation des forfaits d'appels (les obtenir auprès de Microsoft ou transférer des numéros de téléphone existants).</li><li>Si vous choisissez de les obtenir auprès de Microsoft, décidez de la méthode pour les obtenir (envoi de formulaire ou automatisé) pour les emplacements des utilisateurs ou les bureaux concernés par l'implémentation des forfaits d'appels.</li><li>Déterminez la granularité des informations sur les emplacements d'urgence à collecter relatifs aux emplacements des utilisateurs ou des bureaux concernés par l'implémentation des forfaits d'appels.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez le plan général d'acquisition de numéros de téléphone, en détaillant comment les numéros de téléphone seront obtenus pour chaque emplacement d'utilisateur ou bureau concerné par l'implémentation des forfaits d'appels.</li><li>Le cas échéant, remplir <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization">le formulaire de demande de nouveau numéro de téléphone</a> (un formulaire par emplacement ou bureau)</li><li>Si vous choisissez de transférer des numéros de téléphone existants, consultez le <a href="https://go.microsoft.com/fwlink/?linkid=859011">Guide de transfert de numéros</a> pour le planifier et ajuster le planning d'implémentation des forfaits d'appels en conséquence.</li><li>Documentez de manière détaillée l'adresse d'urgence et les emplacements d'urgence relatifs à l'emplacement de chaque utilisateur ou bureau concerné par l'implémentation des forfaits d'appels</li></ul>
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez le plan général d'acquisition de numéros de téléphone, en détaillant comment les numéros de téléphone seront obtenus pour chaque emplacement d'utilisateur ou bureau concerné par l'implémentation des forfaits d'appels.</li><li>Le cas échéant, remplir <a href="https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization">le formulaire de demande de nouveau numéro de téléphone</a> (un formulaire par emplacement ou bureau)</li><li>Si vous choisissez de transférer des numéros de téléphone existants, consultez le <a href="https://go.microsoft.com/fwlink/?linkid=859011">Guide de transfert de numéros</a> pour le planifier et ajuster le planning d'implémentation des forfaits d'appels en conséquence.</li><li>Documentez de manière détaillée l'adresse d'urgence et les emplacements d'urgence relatifs à l'emplacement de chaque utilisateur ou bureau concerné par l'implémentation des forfaits d'appels</li></ul>
 
 > [!TIP]
 > Les détails relatifs à l'acquisition des numéros de téléphone, aux numéros de téléphone et aux emplacements d'urgence sont documentables à l'aide du modèle suivant :
@@ -388,7 +389,7 @@ La messagerie vocale du système téléphonique intègre la transcription des me
 
 ## <a name="calling-identity"></a>Identité d'appel
 
-Par défaut, tous les appels sortants utilisent le numéro de téléphone attribué en tant qu'identité d'appel (ID de l'appelant). Le destinataire de l'appel peut rapidement identifier l'appelant et décider d'accepter ou de refuser l'appel. Dans certains cas, des exigences professionnelles légitimes imposent de masquer l'ID de l'appelant pour protéger l'identité de l'appelant au moyen d'un numéro de ligne professionnelle principal (il s'agit généralement d'un numéro de service géré par la configuration d'un [standard automatique](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)) utilisé en tant qu'ID de l'appelant ou pour bloquer totalement la présentation de l'ID de l'appelant.
+Par défaut, tous les appels sortants utilisent le numéro de téléphone attribué en tant qu'identité d'appel (ID de l'appelant). Le destinataire de l'appel peut rapidement identifier l'appelant et décider d'accepter ou de refuser l'appel. Dans certains cas, des exigences professionnelles légitimes imposent de masquer l'ID de l'appelant pour protéger l'identité de l'appelant au moyen d'un numéro de ligne professionnelle principal (il s'agit généralement d'un numéro de service géré par la configuration d'un [standard automatique](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)) utilisé en tant qu'ID de l'appelant ou pour bloquer totalement la présentation de l'ID de l'appelant.
 
 <br>
 |         |         |         |
@@ -409,7 +410,7 @@ Par défaut, tous les appels sortants utilisent le numéro de téléphone attrib
 
 ## <a name="dial-plans"></a>Plan de numérotation
 
-Un [Plan de numérotation](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans), une fonctionnalité du système téléphonique d'Office 365, est un ensemble de règles de normalisation qui convertit les numéros de téléphone composés dans un autre format (généralement le format [E.164](https://go.microsoft.com/fwlink/?linkid=859014)) pour l'autorisation et le routage des appels. 
+Un [Plan de numérotation](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans), une fonctionnalité du système téléphonique d'Office 365, est un ensemble de règles de normalisation qui convertit les numéros de téléphone composés dans un autre format (généralement le format [E.164](https://go.microsoft.com/fwlink/?linkid=859014)) pour l'autorisation et le routage des appels. 
 
 Un plan de numérotation permet aux utilisateurs de composer des numéros de téléphone comme ils le font habituellement, par exemple en omettant l'indicatif régional pour les appels locaux, l'indicatif du pays ou de la région pour les appels nationaux ou même en composant un numéro court lorsqu'ils passent un appel.
 
@@ -421,7 +422,7 @@ La fonctionnalité de système téléphonique d’Office 365 comporte deux type
     -   **Plan de numérotation d’utilisateurs du client** : ce plan de numérotation s’applique uniquement à des utilisateurs spécifiques.
 
 > [!NOTE]
-> Consultez [Que sont les plans de numérotation ?](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) pour en savoir plus et découvrir des exemples.
+> Consultez [Que sont les plans de numérotation ?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) pour en savoir plus et découvrir des exemples.
 
 Le plan de numérotation efficace affecté aux utilisateurs est la combinaison du plan de numérotation de service (basé sur l’emplacement d’utilisation d’Office 365 des utilisateurs) et du plan de numérotation de client (il peut s’agir d’un plan de numérotation de client.global ou d'un plan de numérotation d’utilisateurs du client).
 
@@ -494,6 +495,6 @@ Générer une valeur ajoutée ===========
 <br>
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer des forfaits d'appels](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+[Configurer des forfaits d'appels](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 [Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)

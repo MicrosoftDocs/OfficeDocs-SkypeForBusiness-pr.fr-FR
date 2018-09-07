@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Lorsque vous recherchez et obtenez des numéros de téléphone pour votre organisation, vous pouvez obtenir plus de numéros de téléphone que de licences affectées. Cela dépend toutefois des types de numéros de téléphone que vous avez achetés et des types de licences que vous avez affectées. Vous pouvez cliquer sur les différents types de numéros de téléphone utilisés pour appeler des Plans pour connaître les numéros de téléphone différents qui sont utilisés dans Skype pour Business en ligne.
-ms.openlocfilehash: 53c470e528fefbb793fbb2d75d732cfb31730ef3
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a0d4e1273a49ac4f9e82cb98c8baddf22772f9d4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784733"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856306"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Combien de numéros de téléphone pouvez-vous obtenir ?
 
 Lorsque vous recherchez et obtenez des numéros de téléphone pour votre organisation, vous pouvez obtenir plus de numéros de téléphone que de licences affectées. Cela dépend toutefois des types de numéros de téléphone que vous avez achetés et des types de licences que vous avez affectées. Vous pouvez cliquer sur les [différents types de numéros de téléphone utilisés pour appeler des Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md) pour connaître les numéros de téléphone différents qui sont utilisés dans Skype pour Business en ligne.
   
-Vous pouvez voir le nombre de numéros de téléphone que vous pouvez obtenir dans la page de **numéros de téléphone** dans la Skype entreprise centre d’administration, ou vous pouvez exécuter l’applet de commande [Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/en-us/library/mt634605.aspx) .
+Vous pouvez voir le nombre de numéros de téléphone que vous pouvez obtenir dans la page de **numéros de téléphone** dans la Skype entreprise centre d’administration, ou vous pouvez exécuter l’applet de commande [Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx) .
   
 > [!IMPORTANT]
 > Les limites ci-dessous n'incluent pas les numéros transférés vers Microsoft. 

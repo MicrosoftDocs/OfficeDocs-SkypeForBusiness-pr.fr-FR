@@ -3,21 +3,22 @@ title: "Guide de démarrage rapide : Configuration des forfaits d'appels dans M
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 6/1/2018
+ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
+search.appverid: MET150
 description: Guide de démarrage rapide pour la configuration des forfaits d'appels dans Microsoft Teams.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ded826a87bbde3e95af3734eb310988db5d7aef
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: eea3c6ed4084648877fd31b84bb9cdea26986565
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694801"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856098"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 ==============================================================
@@ -34,7 +35,7 @@ En ajoutant les forfaits d'appels (une fonction Office 365 avec Skype Entrepri
 ![Appel dans Teams](media/Calling_in_Teams.png)
 
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Prérequis à l'activation de l'onglet **Appels** dans Teams
-Pour activer l'onglet **Appels** dans Teams et permettre à vos utilisateurs de passer et recevoir des appels PSTN, vous devez leur fournir un système téléphonique et un forfait d'appels. Pour en savoir plus à ce sujet, lisez [Configurer des forfaits d'appels](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0).
+Pour activer l'onglet **Appels** dans Teams et permettre à vos utilisateurs de passer et recevoir des appels PSTN, vous devez leur fournir un système téléphonique et un forfait d'appels. Pour en savoir plus à ce sujet, lisez [Configurer des forfaits d'appels](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans).
 
 ## <a name="teams-interop-policy-configuration"></a>Configuration de la stratégie d'interopérabilité de Teams
 Pour activer les équipes commencer à recevoir des appels, vous devez mettre à jour la stratégie de mise à niveau d’équipes et équipes interopérabilité la stratégie, à l’aide des [équipes Microsoft & Skype entreprise centre d’administration](https://aka.ms/teamsadmincenter) ou une session Windows PowerShell à distance avec le Skype pour les entreprises [ `*-CsTeamsUpgradePolicy`et `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) applets de commande pour rediriger les appels vers les équipes.
@@ -99,7 +100,7 @@ Si vous choisissez d’utiliser le mode TeamsOnly, vous pouvez modifier le mode 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
 ## <a name="see-also"></a>Voir aussi
-[Configurer des forfaits d'appels](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0)
+[Configurer des forfaits d'appels](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 [Guide de migration et d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Les éléments suivants sont questions fréquemment posées sur le transfert des numéros de téléphone à Skype pour les entreprises. Après avoir examiné les réponses, vous devez être prêt à créer un ordre de port et de transférer vos numéros de téléphone. Voir les numéros de téléphone transfert vers Office 365 pour obtenir des instructions.
-ms.openlocfilehash: 1153ee53efaf0b158c6c8c63dcd65cfa5f758007
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 17454e6f6ae57c96feeae6f4c3d23b1c6572bd62
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784365"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869452"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Questions fréquentes à propos du transfert de numéros de téléphone
 
@@ -167,7 +168,7 @@ Voici les erreurs le plus fréquentes commises lors des transferts de numéros. 
 Pour transférer ou *port des* numéros de téléphone à partir de Skype pour Business Online vers un autre fournisseur de services de téléphone ou opérateur, vous devez définir un code confidentiel. Une fois que vous définissez le code confidentiel, vous devez inclure lorsque vous demandez à un numéro de téléphone à des ports. Pour savoir comment configurer votre code confidentiel, voir [définir votre code confidentiel pour le transfert des numéros à un fournisseur de services](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
 
 > [!NOTE]
-> Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
 ## <a name="related-topics"></a>Rubriques connexes
