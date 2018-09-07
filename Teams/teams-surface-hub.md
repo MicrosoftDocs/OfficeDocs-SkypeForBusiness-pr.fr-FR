@@ -10,17 +10,18 @@ ms.service: msteams
 ms.reviewer: jatpatel
 description: Configurer les paramètres d’administration pour Microsoft Teams concentrateur de la surface d’exposition.
 localization_priority: Normal
+search.appverid: MET150
 ms.custom:
 - Devices
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17ba794c2a0b2a09081da41b5fad5df2bee5bb4c
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: ab8bb4be2d98c33ad01827f3eb6a3c940bfb6228
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23844764"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868220"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer les équipes Microsoft Surface concentrateur
 ======================================

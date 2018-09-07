@@ -9,6 +9,7 @@ ms.assetid: ca2c751b-53ab-42c7-aed9-cfe27e662940
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment les Services d’urgence (911) diffèrent des services téléphoniques traditionnels et émettre un appel. '
-ms.openlocfilehash: 9d9b3536ee5835cfdfadad82b71bb6a61f0a2361
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 14a895b21d25647cce0e9b3d1e5ee64acf71382d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829121"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868276"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Conditions générales relatives aux appels d'urgence
 

@@ -1,5 +1,5 @@
 ---
-title: "Utiliser PowerShell pour contrôler l'accès invité à une équipe"
+title: Utiliser PowerShell pour contrôler l'accès invité à une équipe
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
@@ -7,14 +7,16 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "Utilisez PowerShell pour autoriser ou bloquer l'accès invité aux équipes dans Microsoft Teams."
+search.appverid: MET150
+description: Utilisez PowerShell pour autoriser ou bloquer l'accès invité aux équipes dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e5790fd6ee023720914835084ffc9f6ef4d3ac4
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: a21333fb4d3f626b1f989ac103db73b87c985ce2
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867548"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Utiliser PowerShell pour contrôler l'accès invité à une équipe
 ================================================
