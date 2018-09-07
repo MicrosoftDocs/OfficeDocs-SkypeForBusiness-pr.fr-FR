@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: "Apprenez à configurer le système téléphonique pour les files d'attente d'appels Office 365 (Cloud PBX) afin de recevoir un message d'accueil organisationnel, de la musique d'attente et une redirection des appels vers des téléopérateurs dans des listes de distribution et des groupes de sécurité. Vous pouvez également définir la taille maximale de la file d'attente, le délai d'attente et les options de gestion des appels. "
-ms.openlocfilehash: 5a3ace77542a86aea1dd77e1ddcf594f61abb738
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: bb9812eb880ce7451c2fd30f93fa080d6ec84c87
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780422"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854446"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente de système téléphonique
 
-Les files d'attente du système téléphonique incluent des messages d'accueil utilisés lorsque quelqu'un appelle un numéro de téléphone de votre organisation, la possibilité de placer automatiquement les appels en attente, et la possibilité de rechercher le prochain téléopérateur disponible pour recevoir l'appel pendant que l'appelant écoute la musique d'attente. Vous pouvez crée une file d'attente unique ou multiple.
+Les files d'attente du système téléphonique incluent des messages d'accueil utilisés lorsque quelqu'un appelle un numéro de téléphone de votre organisation, la possibilité de placer automatiquement les appels en attente et la possibilité de rechercher le prochain opérateur disponible pour recevoir l'appel pendant que l'appelant écoute la musique d'attente. Vous pouvez créer une ou plusieurs files d'attente pour votre organisation.
   
 Les files d’attente des systèmes téléphoniques peuvent fournir :
   
@@ -39,11 +40,11 @@ Les files d’attente des systèmes téléphoniques peuvent fournir :
     
 - Redirection des appels vers des téléopérateurs dans des listes de distribution avec courrier activé et des groupes de sécurité.
     
-- Définition des paramètres pour la taille maximale des files d'attente, des délais d'attente et des options de traitement des appels.
+- Définition des paramètres pour la taille maximale des files d'attente, des délais d’expiration et des options de traitement des appels.
     
-Lorsqu'une personne appelle un numéro de téléphone configuré avec une file d'attente, elle entendra d'abord un message d'accueil (le cas échéant), puis l'appel sera placé dans la file d'attente jusqu'à ce qu'un téléopérateur soit disponible. L'appelant entendra une musique pendant la mise en attente, et les appels seront confiés aux téléopérateurs répondront dans l'ordre d'arrivée *premier entré, premier sorti*.
+Lorsqu'une personne appelle un numéro de téléphone configuré avec une file d'attente, elle entend d'abord un message d'accueil (le cas échéant), puis elle est mise dans la file d'attente et attend le prochain téléopérateur disponible. L'appelant entendra une musique pendant la mise en attente et les téléopérateurs répondront dans l'ordre d'arrivée des appels ( *premier entré, premier sorti*  ).
   
-Tous les appels en attente dans la file d'attente seront distribués à l'aide d'un mode de routage à la chaîne ou d'un mode de routage en série :
+Tous les appels en attente dans la file d'attente seront distribués à l'aide d'un mode de routage à la chaîne ou d'un mode de routage en série :
   
 - Avec le routage à la chaîne, le premier appel dans la file d’attente sonnera chez tous les agents en même temps.
     
@@ -58,14 +59,14 @@ Tous les appels en attente dans la file d'attente seront distribués à l'aide d
     
 ## <a name="step-1---getting-started"></a>Étape 1 : prise en main
 
-Avant de commencer à utiliser les files d'attente d'appels, il est important de souligner les points suivants :
+Avant de commencer à utiliser les files d'attente d'appels, il est impératif de noter les points suivants :
   
 - Votre organisation doit avoir (au minimum) une licence d'entreprise E3 avec un **Système téléphonique** ou une licence d'Entreprise E5. Le nombre de licences utilisateur du **Système téléphonique** qui sont assignées affecte le nombre de numéros de service qui sont disponibles pour être utilisés pour les files d'attente. Le nombre de files d’attente que vous pouvez avoir est dépendant du nombre de licences de **Système téléphonique** et de **Conférence audio** qui sont assignées au sein de votre organisation. Pour en savoir plus sur les licences, cliquez [ici](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!NOTE]
-    > Pour rediriger les appels vers des personnes dans votre organisation qui sont en ligne, elles doivent disposer d’une licence de **Système téléphonique** et être enregistrées pour Enterprise Voice ou Forfaits d'Appels Office 365. Voir [Attribuer des licences Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Pour les enregistrer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Pour rediriger les appels vers des personnes dans votre organisation qui sont en ligne, elles doivent disposer d’une licence de **Système téléphonique** et être enregistrées pour Enterprise Voice ou Forfaits d'Appels Office 365. Voir [Attribuer des licences Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Pour les activer pour Entreprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- Pour en savoir plus sur Plans d'Appels Office 365, voir [Quels sont les forfaits d’appels dans Office 365 ?](/microsoftteams/what-are-calling-plans-in-office-365) et [Forfaits d'appels pour Office 365](/microsoftteams/calling-plans-for-office-365).
+- Pour en savoir plus sur Plans d'Appels Office 365, voir [Quels sont les forfaits d’appels dans Office 365 ?](/microsoftteams/what-are-calling-plans-in-office-365) et [Forfaits d'appels pour Office 365](/microsoftteams/calling-plans-for-office-365).
     
     > [!NOTE]
     > Les utilisateurs hébergés localement à l’aide de Lync Server 2010 ne sont pas pris en charge en tant qu'agents de file d’attente des appels. 
@@ -81,7 +82,7 @@ Avant de commencer à utiliser les files d'attente d'appels, il est important de
     
   - Client de bureau Lync 2013 (versions 32 et 64 bits)
     
-  - Tous les modèles de téléphone IP sont pris en charge par Skype Entreprise Online. Consultez la [mise en route de téléphones pour Skype Entreprise Online](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md).
+  - Tous les modèles de téléphone IP pris en charge par Skype Entreprise Online. Consultez [Obtention de téléphones pour Skype Entreprise Online](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md).
     
   - Client Mac Skype Entreprise (version 16.8.196 et ultérieures) 
     
@@ -99,18 +100,18 @@ Avant de commencer à utiliser les files d'attente d'appels, il est important de
 
   - Application Android Microsoft Teams
     
-## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Étape 2 : obtention ou transfert de numéros de service payants ou gratuits
+## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Étape 2 : obtention ou transfert de numéros de téléphone de service gratuits ou payants
 
 Avant de pouvoir créer et configurer les files d'attente, vous devrez transférer vos numéros payants et gratuits existants. Une fois que vous obtenez les numéros de téléphone service payants et gratuits, ils s'afficheront dans **le centre d’administration de Skype entreprise** > **voix** > **numéros de téléphone**et le **type de numéro** listé sera listé en tant que **Service - numéro gratuit**. Pour obtenir vos numéros de service, voir [mise en route des numéros de téléphone de service de pour Skype entreprise et les équipes Microsoft](getting-service-phone-numbers.md) ou si vous souhaitez transférer un numéro de service existant, voir [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
   
 > [!NOTE]
-> Si vous vous trouvez hors des États-Unis, vous ne pouvez pas utiliser le centre d'administration de Skype Entreprise pour obtenir des numéros de service. Allez plutôt sur [Gérer les numéros de téléphone pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization) pour savoir comment procéder lorsque vous vous trouvez hors des Etats-Unis.
+> Si vous êtes basé hors des États-Unis, vous ne pourrez pas utiliser le centre d'administration de Skype Entreprise pour obtenir des numéros de service. Allez plutôt à [Gérer les numéros de téléphone pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization) pour savoir comment procéder lorsque vous vous trouvez hors des États-Unis.
   
-## <a name="step-3---create-a-new-call-queue"></a>Étape 3 - Créer une file d'attente d'appels
+## <a name="step-3---create-a-new-call-queue"></a>Étape 3 : création d'une file d'attente d'appels
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Utilisation du centre d'administration de Skype Entreprise**
 
-Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage des appels** > **Files d'attente d'appels**, puis cliquez sur **Ajouter nouveau** :
+Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage des appels** > **Files d'attente d'appels**, puis cliquez sur **Ajouter nouveau**:
   
 ### <a name="set-the-call-queue-display-name-phone-number-and-domain-if-any"></a>Définissez le nom d'affichage de la file d'attente, un numéro de téléphone et un domaine (le cas échéant).
 
@@ -130,7 +131,7 @@ Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage d
 ***
 ![Numéro 1](../images/sfbcallout1.png)<br/>Le **message d'accueil** est facultatif. Il s'agit du message d'accueil reproduit pour les personnes qui appellent le numéro de file d'attente. <br/> Vous pouvez charger un fichier audio (formats .wav, .mp3 ou .wma).
 ***
-![Numéro 2](../images/sfbcallout2.png)<br/>**Musique d'attente**. Vous pouvez utiliser la musique d'attente fournie par défaut fournie avec la file d'attente d'appel, ou charger un fichier audio au format .wav, .mp3 ou .wma et l'utiliser comme musique d'attente personnalisée. 
+![Numéro 2](../images/sfbcallout2.png)<br/>**Musique d'attente**. Vous pouvez utiliser la musique d'attente fournie, par défaut, avec la file d'attente d'appel, ou charger un fichier audio au format .wav, .mp3 ou .wma et l'utiliser comme musique d'attente personnalisée. 
    
 
 ### <a name="select-the-call-distribution-method"></a>Sélectionner la méthode de distribution d’appel
@@ -148,7 +149,7 @@ Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage d
 ![Montre la case à cocher d'exclusion de l’agent](../images/99279eff-db61-4acf-9b62-64be84b6414b.png)
   
 ***
-![Numéro 1](../images/sfbcallout1.png)<br/>**Option d'exclusion d'agent** Vous pouvez choisir d’autoriser les téléopérateurs à refuser de prendre des appels à partir d’une file d’attente spécifique en sélectionnant **Option d'exclusion d'agent**.  <br/> L’activation de cette option permet à tous les agents dans cette file d’attente de commencer à ou d'arrêter de recevoir à volonté des appels à partir de cette file d’attente d’appel. Vous pouvez révoquer le privilège d’exclusion d'agent à tout moment en désactivant la case à cocher, grâce à laquelle les agents sont automatiquement accrédités à nouveau pour cette file d’attente (paramètre par défaut pour tous les agents).  <br/><br/> Pour accéder à l’option d'exclusion, les agents peuvent procéder comme suit :
+![Numéro 1](../images/sfbcallout1.png)<br/>**Option d'exclusion d'agent** Vous pouvez choisir d’autoriser les téléopérateurs à refuser de prendre des appels à partir d’une file d’attente spécifique en sélectionnant **Option d'exclusion d'agent**.  <br/> L’activation de cette option permet à tous les agents dans cette file d’attente de commencer à ou d'arrêter de recevoir à volonté des appels à partir de cette file d’attente d’appel. Vous pouvez révoquer le privilège d’exclusion d'agent à tout moment en désactivant la case à cocher, grâce à laquelle les agents sont automatiquement accrédités à nouveau pour cette file d’attente (paramètre par défaut pour tous les agents).  <br/><br/> Pour accéder à l’option d'exclusion, les agents peuvent procéder comme suit :
  1. Ouvrir **Options** dans leur client Skype Entreprise de bureau. 
  2. Sous l’onglet **Renvoi d’appel**, cliquer sur le lien **Modifier les paramètres en ligne**.
  3. Dans la page de paramètres utilisateur, cliquer sur **Files d’attente d'appels**, puis désactiver les cases à cocher des files d’attente desquelles ils souhaitent être exclus.
@@ -161,8 +162,8 @@ Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage d
 ![Configurer les files d'attente d'appels.](../images/skype-for-business-add-agents-to-call-queue.png)
   
 ***
-![Numéro 1](../images/sfbcallout1.png)<br/><br/>Les téléopérateurs (50 maximum) peuvent être :
-*    Un utilisateur en ligne avec une licence de **Système téléphonique** et enregistré pour Enterprise Voice ou avec un forfait d'appel. <br/><br/> **Remarque :** Pour rediriger les appels vers des personnes dans votre organisation qui sont en ligne, elles doivent disposer d’une licence de **Système téléphonique** et être enregistrées pour Enterprise Voice ou Forfaits d'Appels Office. Voir [Attribuer des licences Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Pour les enregistrer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
+![Numéro 1](../images/sfbcallout1.png)<br/><br/>Les téléopérateurs (50 maximum) peuvent être :
+*    Un utilisateur en ligne avec une licence de **Système téléphonique** et enregistré pour Enterprise Voice ou avec un forfait d'appel. <br/><br/> **Remarque :** Pour rediriger les appels vers des personnes dans votre organisation qui sont en ligne, elles doivent disposer d’une licence de **Système téléphonique** et être enregistrées pour Enterprise Voice ou avoir des Forfaits d'Appels Office. Voir [Attribuer des licences Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Pour les activer pour Entreprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
 *    Les utilisateurs en ligne avec une licence de **Système téléphonique** et un forfait d’appels qui sont ajoutés à un groupe Office 365, une liste de distribution avec messagerie activée, ou un groupe de sécurité. Jusqu'à 30 minutes peuvent être nécessaires pour qu'un nouvel agent ajouté à une liste de distribution ou à un groupe de sécurité commence à recevoir des appels depuis une file d'attente. Une liste de distribution ou un groupe de sécurité nouvellement créé peut prendre jusqu'à 48 heures pour pouvoir être utilisé avec les files d’attente d’appels. Les groupes Office 365 nouvellement créés sont presqu'immédiatement disponibles. <br/> 
 
     > [!NOTE] 
@@ -173,12 +174,12 @@ Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage d
 ![Configurer une file d'attente d'appel.](../images/3f018734-16fe-458b-827d-71fc25155cde.png)
   
 ***
-![Numéro 1](../images/sfbcallout1.png)<br/><br/>**Nombre d'appels maximal dans la file d'attente** Utilisez cette valeur pour définir le nombre d'appels maximal qu'il peut y avoir simultanément dans la file d'attente. La valeur par défaut est de 50, mais elle peut être comprise dans une plage de 0 à 200. Lorsque cette limite est atteinte, l’appel sera traité de la façon dont vous avez défini le paramètre **Lorsque le nombre maximal d’appels est atteint** ci-dessous.
+![Numéro 1](../images/sfbcallout1.png)<br/><br/>**Nombre maximal d'appels dans la file d'attente** Utilisez cette option pour définir le nombre maximal d'appels qu'il peut y avoir simultanément dans la file d'attente. La valeur par défaut est de 50, mais elle peut être comprise dans une plage de 0 à 200. Lorsque cette limite est atteinte, l’appel sera traité de la façon dont vous avez défini le paramètre **Lorsque le nombre maximal d’appels est atteint** ci-dessous.
 ***
-![Numéro 2](../images/sfbcallout2.png)<br/><br/>**Lorsque la limite maximale du nombre d'appels est atteinte** Lorsque la file d'attente d'appels atteint la taille maximale (définie à l'aide du paramètre **Nombre d'appels maximal dans la file d'attente**), vous pouvez choisir le traitement ultérieur des nouveaux appels entrants.
-*    **Déconnexion avec un signal Occupé** L'appel sera déconnecté.
-*    **Transférer cet appel vers** Lorsque vous choisissez cette valeur, vous disposez des options suivantes :
-     *    **Une personne de votre entreprise** Un utilisateur en ligne avec une licence de **Système téléphonique** et enregistré pour Enterprise Voice ou disposant d'un Forfait d'appels. Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. Pour ce faire, sélectionnez une **personne dans votre entreprise** et les appels seront directement dirigés vers sa messagerie vocale. <br/> <br/>Pour plus d’informations sur les licences requises pour la messagerie vocale, voir [Configurer le système téléphonique de la messagerie vocale](/microsoftteams/set-up-phone-system-voicemail). 
+![Numéro 2](../images/sfbcallout2.png)<br/><br/>**Lorsque la limite maximale du nombre d'appels est atteinte** Lorsque la file d'attente d'appels atteint la taille maximale (définie à l'aide du paramètre **Nombre maximal d'appels dans la file d'attente**), vous pouvez choisir le traitement ultérieur des nouveaux appels entrants.
+*    **Déconnexion avec signal Occupé** L'appel sera déconnecté.
+*    **Transférer cet appel vers** Lorsque vous choisissez ceci, vous disposez des options suivantes :
+     *    **Une personne de votre entreprise** Un utilisateur en ligne avec une licence de **Système téléphonique** et enregistré pour Enterprise Voice ou disposant d'un Forfait d'appels. Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. Pour ce faire, sélectionnez une **personne dans votre entreprise** et configurez cette personne pour que les appels soient directement dirigés vers sa messagerie vocale. <br/> <br/>Pour plus d’informations sur les licences requises pour la messagerie vocale, voir [Configurer le système téléphonique de la messagerie vocale](/microsoftteams/set-up-phone-system-voicemail). 
      
         > [!Note]
         > Les utilisateurs hébergés localement à l’aide de Lync Server 2010 ne sont pas pris en charge.<br/>
@@ -191,8 +192,8 @@ Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage d
 ***
 ![Numéro 4](../images/sfbcallout4.png)<br/><br/>**Lorsqu'un appel expire** Lorsque l'appel atteint la limite définie par le paramètre **Durée d'attente d'un appel dans la file d'attente**, vous pouvez choisir le traitement ultérieur de l'appel en question :
 *    **Déconnecter** L'appel sera déconnecté.
-*    **Transférer cet appel vers** Lorsque vous choisissez cette valeur, vous disposez des options suivantes :
-     *    **Une personne de votre entreprise** Un utilisateur en ligne avec une licence de **Système téléphonique** et enregistrée pour Enterprise Voice ou disposant d'un Forfait d'appels. Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. Pour ce faire, sélectionnez une **personne dans votre entreprise** et les appels seront directement dirigés vers sa messagerie vocale. </br><br/>  Pour plus d’informations sur les licences requises pour la messagerie vocale, voir [Configurer le système téléphonique de la messagerie vocale](/microsoftteams/set-up-phone-system-voicemail). 
+*    **Transférer cet appel vers** Lorsque vous choisissez ceci, vous disposez des options suivantes :
+     *    Une personne de votre entreprise Un utilisateur en ligne avec une licence de Système téléphonique et enregistré pour Enterprise Voice ou disposant d'un Forfait d'appels.** ** ** ** Vous pouvez configurer de telle manière que l'appelant soit renvoyé vers la messagerie vocale. Pour ce faire, sélectionnez une **personne dans votre entreprise** et configurez cette personne pour que les appels soient directement dirigés vers sa messagerie vocale. </br><br/>  Pour plus d’informations sur les licences requises pour la messagerie vocale, voir [Configurer le système téléphonique de la messagerie vocale](/microsoftteams/set-up-phone-system-voicemail). 
 
         > [!Note]
         > Les utilisateurs hébergés localement à l’aide de Lync Server 2010 ne sont pas pris en charge.<br/>
@@ -234,13 +235,13 @@ Voici les applets de commande requis pour gérer une file d'attente d'appels.
     
 - [Supprimer-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796456.aspx)
     
-### <a name="more-about-windows-powershell"></a>Informations supplémentaires sur PowerShell Windows
+### <a name="more-about-windows-powershell"></a>En savoir plus sur Windows PowerShell
 
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou pas à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Pourquoi vous avez besoin d'utiliser Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Pourquoi vous devez utiliser Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     

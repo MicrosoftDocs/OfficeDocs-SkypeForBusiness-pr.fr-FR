@@ -1,5 +1,5 @@
 ---
-title: Ajout ou suppression d'une adresse d'urgence pour votre organisation
+title: Ajout ou suppression d’une adresse d’urgence pour votre organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f954c67c-b73c-4473-b6cd-a0fbcd0fd4c9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,26 +21,26 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: "Découvrez comment ajouter une adresse d'urgence à votre compte Skype Entreprise. "
-ms.openlocfilehash: df0a820b49db88efffa5d040741d6628c4e0dc47
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 0697c8195a109d31bf3b9f5624da249a9e4fcfb7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780918"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864770"
 ---
-# <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Ajout ou suppression d'une adresse d'urgence pour votre organisation
+# <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Ajout ou suppression d’une adresse d’urgence pour votre organisation
 
-Une adresse d’urgence doit être associée à un numéro de téléphone – mais le moment de cette association peut varier selon les pays/régions. Aux États-Unis par exemple, vous devez associer une adresse d'urgence lorsque vous attribuez le numéro de téléphone à l'utilisateur. Au Royaume-Uni, vous devez associer une adresse d'urgence au numéro de téléphone lorsque vous obtenez les numéros de téléphone à partir d'Office 365 ou que vous les transférez à partir de votre fournisseur de services actuel.
+Une adresse d’urgence doit être associée à un numéro de téléphone – mais le moment de cette association peut varier selon les pays/régions. Aux États-Unis par exemple, vous devez associer une adresse d'urgence lorsque vous attribuez le numéro de téléphone à l'utilisateur. Au Royaume-Uni, vous devez associer une adresse d'urgence au numéro de téléphone lorsque vous obtenez les numéros de téléphone à partir d'Office 365 ou que vous les transférez à partir de votre fournisseur de services actuel.
   
-Quel que soit votre pays/région, il est possible d’ajouter une ou des localisations à une adresse d'urgence ou de supprimer une adresse d’urgence. Selon le nombre de localisations physiques de votre organisation, vous pouvez en créer pour des bâtiments, des étages et des bureaux. Voir [Que sont les emplacements, les adresses et le routage d'appel d'urgence ?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) pour plus d’informations.
+Quel que soit votre pays/région, il est possible d’ajouter une ou des localisations à une adresse d'urgence ou de supprimer une adresse d’urgence. Selon le nombre de localisations physiques de votre organisation, vous pouvez en créer pour des bâtiments, des étages et des bureaux. Voir [Que sont les emplacements, les adresses et le routage d’appel d’urgence ?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) pour plus d’informations.
   
 Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [Licences de modules complémentaires pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-## <a name="to-add-an-emergency-address"></a>Pour ajouter une adresse d'urgence
+## <a name="to-add-an-emergency-address"></a>Pour ajouter une adresse de secours
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.** **  >  ** **
     
 3. Dans le volet de navigation de gauche, sélectionnez **Voix** > **Localisations d'urgence**, puis cliquez sur le bouton **Ajouter une nouvelle adresse**.
     
@@ -48,10 +49,10 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
     
 4. Dans le volet Action, sous **Nouvelle adresse**, saisissez les informations requises dans les champs.
     
-5. Après avoir saisi tous les éléments de l'adresse, cliquez sur **Valider**.
+5. Après avoir saisi tous les éléments de l’adresse, cliquez sur **Valider**.
     
     > [!IMPORTANT]
-    > La validation d'une adresse postale ou d'une adresse géographique implique de vérifier sa légitimité et son format. Il est possible qu'une adresse d'urgence partiellement correcte, par exemple où le nom de ville est mal orthographié, soit validée. Bien que le nom soit mal orthographié et que la validation ait été effectuée, la combinaison du nom de ville erroné et des autres parties correctes de l'adresse est suffisante pour acheminer l'appel vers le centre d'urgence approprié. 
+    > La validation d'une adresse postale ou d'une adresse géographique implique de vérifier sa légitimité et son format. Il est possible qu’une adresse d’urgence partiellement correcte, par exemple où le nom de ville est mal orthographié, soit validée. Bien que le nom soit mal orthographié et que la validation ait été effectuée, la combinaison du nom de ville erroné et des autres parties correctes de l'adresse est suffisante pour acheminer l'appel vers le centre d'urgence approprié. 
   
     Si l’adresse ne peut être validée, vous pouvez envoyer une demande de validation manuelle en cliquant sur **Envoyer une demande de validation** pour une adresse américaine, ou cliquer sur **Ouvrir une requête de service d’aide pour la validation d'adresse** si vous êtes hors des États-Unis.
     
@@ -61,7 +62,7 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.** **  >  ** **
     
 3. Dans le volet de navigation gauche, sélectionnez **Voix** > **Localisation d’urgence**, sélectionnez l’adresse que vous souhaitez supprimer et, dans le volet Action, cliquez sur **Supprimer**.
     

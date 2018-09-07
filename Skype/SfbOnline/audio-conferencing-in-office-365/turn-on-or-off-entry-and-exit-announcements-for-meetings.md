@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Découvrez comment activer et désactiver les annonces d'entrée et de sortie d'une réunion Skype Entreprise Online en utilisant centre d'administration Skype Entreprise. "
-ms.openlocfilehash: 874624c3d7cfb184f4206f61cf2a91a67eb2e2cd
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 8d91db2014439eb2c9e38f65215cf85d6f047157
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779034"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863262"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>Activer ou désactiver les annonces d’entrée et de sortie des réunions dans Skype Entreprise Online
 
@@ -42,11 +43,11 @@ Le pont de conférence répond à l'appel d’un utilisateur se connectant à un
     
 1. Dans le **Centre d'administration Skype Entreprise**, dans le volet de navigation de gauche, allez à **Audioconférence** > **Paramètres de pont Microsoft**.
     
-2. Sous **Expérience de participation aux réunions**, activez ou désactivez **Activer les notifications d'entrée et de sortie de la réunion**. Cette fonctionnalité est sélectionnée par défaut. Si vous la désactivez, les utilisateurs qui ont déjà rejoint la réunion ne seront pas avertis lorsque quelqu'un rejoindra ou quittera la réunion.
+2. Sous **Expérience de participation aux réunions**, sélectionnez ou désélectionnez **Activer les notifications d’entrée et de sortie de la réunion**. Cette fonctionnalité est sélectionnée par défaut. Si vous la désactivez, les utilisateurs qui ont déjà rejoint la réunion ne seront pas avertis lorsque quelqu’un rejoindra ou quittera la réunion.
     
 3. Sous **Type d'annonce d’entrée/sortie**, sélectionnez **Noms ou numéros de téléphone** ou **Tonalités**.
     
-4. Activez ou désactivez **Demander aux appelants d'enregistrer leur nom avant de participer à la réunion**.
+4. Activez ou désactivez **Demander aux appelants d’enregistrer leur nom avant de participer à la réunion**.
     
 5. Une fois que vous avez effectué vos modifications, cliquez sur **Enregistrer**.
     
@@ -57,11 +58,11 @@ Le pont de conférence répond à l'appel d’un utilisateur se connectant à un
     
 -  Skype Entreprise Online est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 avec un seul point d'administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
-  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Quels avantages vous pouvez tirer de PowerShell Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Six raisons d'utiliser Windows PowerShell pour gérer Office 365](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell offre de nombreux avantages en termes de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 seul, par exemple lorsque vous désirez effectuer des modifications de paramètres pour un grand nombre d'utilisateurs. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell offre de nombreux avantages en termes de rapidité, de simplicité et de productivité par rapport à l’utilisation du centre d’administration Office 365 seul, par exemple lorsque vous désirez effectuer des modifications de paramètres pour un grand nombre d’utilisateurs. Découvrez ces avantages dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
