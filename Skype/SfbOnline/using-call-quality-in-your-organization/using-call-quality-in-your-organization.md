@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 57c0568a-78b0-4167-b1d1-af782f70f24b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,14 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: Configurer et utiliser des Analytique d’appel pour identifier et résoudre les problèmes de Skype pour les problèmes de qualité d’appel Business et Teams de Microsoft.
-ms.openlocfilehash: 9db4c9441b1cd1c8d7d58a640b0bcd9fef78941e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: Configurer et utiliser Analytique appeler pour identifier et résoudre les problèmes de Skype pour professionnels et Microsoft Teams problèmes de qualité d’appel.
+ms.openlocfilehash: 5ba24a8c4d8f74a2a43f28f3f42280a1be40f814
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861208"
 ---
-# <a name="using-call-quality-in-your-organization"></a><span data-ttu-id="e8c67-103">Utiliser la qualité d'appel dans votre organisation</span><span class="sxs-lookup"><span data-stu-id="e8c67-103">Using Call Quality in your organization</span></span>
+# <a name="using-call-quality-in-your-organization"></a><span data-ttu-id="f951d-103">Utiliser la qualité d'appel dans votre organisation</span><span class="sxs-lookup"><span data-stu-id="f951d-103">Using Call Quality in your organization</span></span>
 
 
