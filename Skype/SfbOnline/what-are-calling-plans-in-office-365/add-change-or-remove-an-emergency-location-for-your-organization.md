@@ -16,36 +16,36 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Apprenez à ajouter, modifier ou supprimer un emplacement d’urgence utilisé par Skype Entreprise sur le réseau téléphonique commuté public (RTCP) pour votre organisation. '
-ms.openlocfilehash: 3ba8845b8765b15ac11df80122001fb3ac7d040c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 68c4e60288a85f39b198eb0ea1bd05e6a1e7f5e6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857770"
+ms.locfileid: "23883677"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
 Selon le nombre d’emplacements physiques au sein de votre organisation, vous pouvez créer des emplacements d’urgence pour des bâtiments, des étages et des bureaux pour créer une adresse d’urgence plus spécifique. Voir [Quels sont les emplacements d’urgence, les adresses et le routage des appels ?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) pour plus d’informations. 
   
-Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [Licences de modules complémentaires pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubrique [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 ## <a name="add-an-emergency-location-to-an-emergency-address"></a>Ajout d'un emplacement d'urgence à une adresse de secours
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.** **  >  ** **
+2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans le volet de navigation de gauche, sélectionnez **Voix** > **Emplacements d’urgence**, puis sélectionnez l’adresse de secours à laquelle vous souhaitez ajouter un emplacement.
+3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence que vous souhaitez ajouter un emplacement pour.
     
     > [!Important]
-    > Pour que l’option **Voix** apparaisse dans le volet de navigation gauche du Centre d’administration Skype Entreprise, vous devez d’abord acheter au moins une **licence Entreprise E5**, une licence de complément **Système téléphonique**, ou une licence de complément **Audioconférence**.
+    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
-4. Dans le volet Action, à côté de **Emplacements associés**, cliquez sur **Modifier**.
+4. Dans le volet Actions, en regard des **emplacements associés**, cliquez sur **Modifier**.
     
 5. Dans **Emplacements associés avec**, cliquez sur **Ajouter nouveau**, entrez un autre emplacement associé (par exemple, entrez « Bâtiment 64 étage 1 »), puis cliquez sur **Envoyer**.
     
@@ -55,11 +55,11 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.** **  >  ** **
+2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans le volet de navigation de gauche, sélectionnez **Voix** > **Emplacements d’urgence**, puis sélectionnez l’adresse de secours pour laquelle vous souhaitez changer l’emplacement.
+3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence pour lequel vous souhaitez modifier un emplacement.
     
-4. Dans le volet Action, à côté de **Emplacements associés**, cliquez sur **Modifier**.
+4. Dans le volet Actions, en regard des **emplacements associés**, cliquez sur **Modifier**.
     
 5. Sous **Emplacements associés avec**, cliquez sur le lien de l’emplacement dans la liste, entrez les nouvelles informations de l’emplacement dans **Modifier les informations de l’emplacement associé**, puis cliquez sur **Envoyer**.
     
@@ -69,18 +69,18 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.** **  >  ** **
+2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
-3. Dans le volet de navigation de gauche, sélectionnez **Voix** > **Emplacements d’urgence**, puis sélectionnez l’adresse de secours pour laquelle vous souhaitez supprimer un emplacement.
+3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence que vous souhaitez supprimer un emplacement pour.
     
-4. Dans le volet Action, à côté de **Emplacements associés**, cliquez sur **Modifier**.
+4. Dans le volet Actions, en regard des **emplacements associés**, cliquez sur **Modifier**.
     
 5. Sous **Emplacements associés avec**, à côté du lien de l’emplacement, cliquez sur **Supprimer**.
     
 6. Cliquez sur **Enregistrer**.
     
 ## <a name="related-topics"></a>Rubriques connexes
-[Qu’est-ce que la validation d’adresse ?](what-is-address-validation.md)
+[Qu’est-ce que la validation d’adresse ?](what-is-address-validation.md)
 
 [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 

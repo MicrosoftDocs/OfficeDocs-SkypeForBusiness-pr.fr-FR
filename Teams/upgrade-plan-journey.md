@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Planifier votre mise à niveau à l’inscription des parties prenantes tout d’abord, puis la portée du projet.
-localization_priority: Priority
+localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c138282ed7b65cd7efcdb31cb363110702233346
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 07c592f8f3ef6e1021805766189e9c1cd522e8ab
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867074"
+ms.locfileid: "23883228"
 ---
 ![S’assurer que votre projet est configuré pour la réussite de l’équipe de projet. Définir la portée du projet, des objectifs et chronologie. Confirmer la disponibilité technique et utilisateur. Exécuter votre plan de déploiement. Mettre à jour dynamique pour optimiser les résultats.] (media/upgrade-banner-main.png "Commencez votre parcours de mise à niveau")
 

@@ -15,26 +15,26 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenir les étapes pour créer un numéro de téléphone par défaut pour les appelants à participer à une réunion équipes Microsoft. '
-ms.openlocfilehash: 54778aac19d090b4c609da1c5a63da3ba146ae44
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: eddab0762b679dba08dd9981d6ae61a1403ebf47
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857446"
+ms.locfileid: "23882959"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Définir le téléphone numéros inclus sur invite dans Microsoft Teams
 
 Services d’audioconférence dans Office 365 permet aux utilisateurs de votre organisation de créer des réunions Microsoft Teams, puis autoriser les utilisateurs à se connecter à ces réunions à l’aide d’un téléphone. Dans Office 365, vous avez la possibilité d’utiliser un pont de conférence audio Microsoft ou un pont de conférence audio tiers qui est hébergé par un fournisseur de services d’audioconférence approuvé (ACP).
   
-Un pont de conférence vous offre un ensemble de numéros de téléphone pour votre organisation. Tous les peuvent servir à participer à des réunions créé un organisateur de réunion, mais vous pouvez sélectionner ceux qui doivent être incluses dans les invitations de réunion.
+Un pont de conférence vous offre un ensemble de numéros de téléphone pour votre organisation. Tous ces ponts peuvent servir à participer à des réunions créées par un organisateur de réunion, mais vous pouvez sélectionner ceux qui doivent être inclus dans les invitations de réunion.
   
 > [!NOTE]
-> Il peut y avoir un maximum d’un numéro et un numéro de téléphone gratuit sur l’invitation à la réunion pour un organisateur de réunion, mais il existe également un lien situé en bas de chaque invitation à la réunion qui ouvre la liste complète de tous les numéros de téléphone qui peut être utilisé pour participer à une réunion. 
+> Il peut y avoir au maximum une ligne simple et une ligne de téléphone gratuite dont les numéros apparaissent sur l’invitation à la réunion pour un organisateur de réunion, mais il existe également un lien situé en bas de chaque invitation à une réunion qui ouvre la liste complète de tous les numéros de téléphone qui peuvent être utilisés pour participer à une réunion. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -49,7 +49,7 @@ Un pont de conférence vous offre un ensemble de numéros de téléphone pour vo
 
     ![Cliquez sur Modifier dans les équipes Microsoft Skype entreprise centre d’administration](media/teamsedituser.png)
 
-3. En regard de **Conférence Audio**, cliquez sur **Modifier**. 
+3. A côté de **Conférence Audio**, cliquez sur **Modifier**. 
     
     ![Cliquez sur Modifier en regard de conférence Audio](media/teamseditaudioconf.png)
 

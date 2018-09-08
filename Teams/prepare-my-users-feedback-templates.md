@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Recueillir les commentaires utilisateur pour améliorer la mise en œuvre de la voix dans le nuage dans Microsoft Teams ou Skype pour les entreprises.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86a806c546418a36a16cbf6dcf4df70df9a61236
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 535ecf10b044ef93fa3d1c582c48db13f7aea895
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867540"
+ms.locfileid: "23891419"
 ---
 # <a name="user-feedback-surveys"></a>Les enquêtes effectuées auprès de commentaires 
 

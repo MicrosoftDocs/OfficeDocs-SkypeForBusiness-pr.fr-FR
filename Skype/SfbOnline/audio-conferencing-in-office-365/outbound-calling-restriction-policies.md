@@ -1,5 +1,5 @@
 ---
-title: Stratégies de restriction des appels sortants pour l’audioconférence et les appels RTC des utilisateurs
+title: Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,19 +14,19 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler le type de conférence audio et d'appels RTC d’utilisateur final pouvant être effectuées par les utilisateurs.
-ms.openlocfilehash: fd1a3b770debfcc6aa048d150b6536c94db4f9ce
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: ed61dc5c131dd38d59820f3ccda9682dcf7fd886
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856880"
+ms.locfileid: "23882011"
 ---
-# <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels RTC des utilisateurs
+# <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs
 
 En tant qu'administrateur, vous pouvez utiliser les contrôles d'appels sortants pour restreindre le type de conférence audio et d'appels RTC d'utilisateur final pouvant être effectués par les utilisateurs de votre organisation. 
 
@@ -34,8 +34,8 @@ Les contrôles d’appel sortant peuvent être appliqués par utilisateur et fou
 
 |Contrôle|Description|Options de contrôle|
 |:-----|:-----|:-----|
-|Appels RTC de conférence audio|Limite le type de sortie </br>les appels autorisés de l'intérieur </br>réunions organisées par un utilisateur.|International et national (par défaut)</br>National</br>Aucun|
-|Appels RTC utilisateur final|Limite le type d'appels </br>qui peuvent être effectués par un utilisateur.|International et national (par défaut)</br>National</br>Aucun|
+|Appels RTC de conférence audio|Limite le type de sortie </br>les appels autorisés de l'intérieur </br>réunions organisées par un utilisateur.|International et national (par défaut)</br>Nationaux</br>Aucun|
+|Appels RTC utilisateur final|Limite le type d'appels </br>qui peuvent être effectués par un utilisateur.|International et national (par défaut)</br>Nationaux</br>Aucun|
 
    > [!NOTE]
    > Un appel est déterminé comme étant national si le numéro de téléphone appelé se trouve dans le même pays que celui qui a été défini dans Office 365 pour l’organisateur de la réunion (dans le cas d'une audioconférence) ou de l’utilisateur final (dans le cas d'appels RTC d'utilisateur final). 
@@ -45,9 +45,9 @@ Les contrôles d’appel sortant peuvent être appliqués par utilisateur et fou
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restreindre les appels sortants de conférence audio 
 
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Utiliser le Centre d’Administration de Microsoft Teams et de Skype Entreprise**
+![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
 
-1. Dans la navigation de gauche, cliquez sur **Utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2. En haut de la page, cliquez sur **Modifier**.
 
@@ -57,9 +57,9 @@ Les contrôles d’appel sortant peuvent être appliqués par utilisateur et fou
 
 5. Cliquez sur **Enregistrer**. 
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Utilisation du centre d'administration de Skype Entreprise**
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
-1.  Dans **centre d’administration Skype Entreprise**, dans la navigation de gauche, accédez à la **Conférence Audio** > **Utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1.  Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **les utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2.  Dans le volet Action, cliquez sur **Modifier**.
 

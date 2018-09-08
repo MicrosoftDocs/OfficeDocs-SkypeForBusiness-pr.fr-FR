@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'En savoir plus sur les informations est envoyé automatiquement aux utilisateurs par courrier électronique lors de la modification de leurs paramètres de conférence rendez-vous dans Microsoft Teams. '
-ms.openlocfilehash: a352ecb335469e1e988c625f638c6136675dc5fc
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f351f7a1107c3f52ddc2c9f60b7cd79feb31388c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23871045"
+ms.locfileid: "23890061"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Messages électroniques envoyés aux utilisateurs lorsque les paramètres changent dans Microsoft Teams
 
@@ -99,7 +99,7 @@ Par défaut, les messages électroniques sont envoyés à vos utilisateurs, mais
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-**Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
+**Utilisation de Windows PowerShell**
   
 Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
   

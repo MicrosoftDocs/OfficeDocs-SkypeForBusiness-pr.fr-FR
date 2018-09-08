@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment activer ou désactiver les appelants anonymes de rejoindre une réunion à partir du centre d’administration équipes. '
-ms.openlocfilehash: f85cd3e2ae0c1f87810f5b5312ba8bc9dc9d34c9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c68e3a0bd9992eb53811941113a30e9362c78227
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861042"
+ms.locfileid: "23882998"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Démarrer une conférence Audio par téléphone sans code confidentiel dans Microsoft Teams
 
@@ -46,7 +46,7 @@ Un code confidentiel n’est pas requis pour l’organisateur de la réunion si 
 
 2. Sélectionnez un utilisateur dans la liste, puis cliquez sur **Modifier** dans la partie supérieure de la page. 
 
-3. En regard de **Conférence Audio**, cliquez sur **Modifier**.
+3. A côté de **Conférence Audio**, cliquez sur **Modifier**.
 
 4. Dans le volet de **Conférence Audio** , activer ou désactiver **les appelants non authentifiés peuvent être la première personne à une réunion**.
     
@@ -64,13 +64,13 @@ Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.c
     
   - Si la réunion n’a pas démarré (il n’existe pas dans la réunion encore) : un appelant est invité s’il est l’organisateur ; Si il indique Oui, il vous demandé pour son code confidentiel et après des entrées le code confidentiel, il démarre la réunion et l’utilisateur sera participer à la réunion.
     
-  - Si la réunion déjà démarré (une autre personne est déjà dans la réunion) : l’appelant ne vous demandera si il est l’organisateur et il serez jamais pour le code confidentiel ; la réunion est déjà démarrée, et l’appelant joint.
+  - Si la réunion a déjà démarré (une autre personne a déjà rejoint la réunion) : l’appelant ne recevra pas d'invite, même s'il est l’organisateur, et il ne lui sera pas demandé de code confidentiel ; la réunion a déjà démarré, et il pourra la rejoindre.
     
 - Si l’accès anonyme, ou ne nécessitant ne pas d’un code confidentiel démarrer une réunion, est désactivée :
     
-  - Si la réunion n’a pas démarré (il n’existe pas dans la réunion encore) : l’appelant ne vous demandera si elle est l’organisateur et elle demandera jamais pour le code confidentiel. Étant donné que le paramètre de l’organisateur est défini sur désactivé, la réunion démarre et les appelants anonymes participerez à la réunion.
+  - Si la réunion n’a pas démarré (personne n'a encore joint la réunion) : l'organisateur ne sera pas invité et il ne lui sera jamais demandé de saisir son code confidentiel. Étant donné que le paramètre de l’organisateur est défini sur désactivé, la réunion démarre et les appelants anonymes participerez à la réunion.
     
-  - Si la réunion déjà démarré (une autre personne est déjà dans la réunion) : l’appelant ne vous demandera si elle est l’organisateur et elle demandera jamais pour le code confidentiel, la réunion est déjà démarrée, et l’appelant joint.
+  - Si la réunion a déjà démarré (une autre personne a déjà rejoint la réunion) : l’appelant ne recevra pas d'invite, même s'il est l’organisateur, et il ne lui sera pas demandé de code confidentiel ; la réunion a déjà démarré, et il pourra la rejoindre.
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 

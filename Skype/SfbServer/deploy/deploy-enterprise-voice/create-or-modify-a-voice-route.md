@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Résumé : Apprenez à créer ou modifier un itinéraire de communications vocales dans Skype pour Business Server à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 3704e973e392337700effc0d4c3278656f706d73
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d3265f3864e01391598b11ab5466c96f41a123ae
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013202"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886353"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises
  

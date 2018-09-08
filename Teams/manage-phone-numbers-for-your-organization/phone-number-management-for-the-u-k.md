@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone au Royaume-Uni pour Skype Entreprise Online et Microsoft Teams.
-ms.openlocfilehash: 14ff98aff0a5b83bc27a4575959964ad77b6e00a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 8d88dc52b90aa2f1326b844be2eed70816e3af7f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864094"
+ms.locfileid: "23884366"
 ---
 # <a name="phone-number-management-for-the-uk"></a>Gestion des numéros de téléphone pour le Royaume-Uni
 

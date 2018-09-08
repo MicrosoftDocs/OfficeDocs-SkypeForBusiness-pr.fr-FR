@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'En tant qu’un administrateur Office 365, vous pouvez modifier les paramètres de conférence équipes Microsoft, tels que le fournisseur, numéro payant par défaut ou numéro gratuit, ID de conférence ou code confidentiel — pour un utilisateur individuel dans votre organisation. '
-ms.openlocfilehash: 3f6adffcccfeee38b2a8af2d56759aabee25f16c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c101b84044e98ce44c374847aeab59f23d1a41be
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857622"
+ms.locfileid: "23882951"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gérer les paramètres de conférence Audio pour un utilisateur dans Microsoft Teams
 

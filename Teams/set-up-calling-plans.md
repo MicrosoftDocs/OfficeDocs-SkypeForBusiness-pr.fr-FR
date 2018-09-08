@@ -16,18 +16,18 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 36dad2aab663762012e8e7a30cc28695c600325c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3af676544f908eb384c1de35cd6fc9a5b0b2d6af
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860608"
+ms.locfileid: "23887751"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des offres d'appels
 Les appels vers d’autres Skype pour les utilisateurs professionnels sont gratuites, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones en dehors de votre entreprise, obtenir un Plan d’appel interne ou d’un Plan d’appel International dans Office 365. Il est facile pour définir votre entreprise. 
@@ -44,7 +44,7 @@ Accédez à la [disponibilité de pays et de région de conférence Audio et des
 2. Tout d’abord attribuer les licences et l’assigner un Plan d’appel aux personnes de votre organisation. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
     
 ## <a name="step-3-get-phone-numbers"></a>Étape 3 : Obtenir les numéros de téléphone
-Il existe trois façons d’obtenir de nouveaux numéros utilisateur :
+Il existe trois façons d’obtenir de nouveaux numéros utilisateur :
 
 - **Utilisez le Skype entreprise centre d’administration.** Pour certains pays/régions, vous pouvez obtenir les numéros pour vos utilisateurs à l’aide de la Skype entreprise centre d’administration, voir [mise en route des numéros de téléphone pour vos utilisateurs](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
     

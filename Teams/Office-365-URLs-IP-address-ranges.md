@@ -7,17 +7,17 @@ ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 description: Découvrez comment configurer des URL et plages d'adresses IP Office 365, contourner le proxy de transfert lorsque cela est possible pour les connexions au service Microsoft Teams, et les conditions requises pour les stratégies de mise en réseau et de sécurité.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a21130d3e1c2e81203bb409fc2a53c77645bf0ba
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: fddcd7a43b6296172b3bac0a7aad31032a585618
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851922"
+ms.locfileid: "23889543"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>URL et plages d'adresses IP Office 365
 =====================================

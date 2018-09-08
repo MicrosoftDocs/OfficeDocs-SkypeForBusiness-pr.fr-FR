@@ -11,17 +11,17 @@ metadata:
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Priority
+  localization_priority: Normal
   search.appverid: MET150
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: ba79176f4108974d7ffe9d15cb034e51d823858d
-  ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+  ms.openlocfilehash: f857dc4be38f372eaa0413b47c88662275e214d7
+  ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 09/07/2018
-  ms.locfileid: "23853230"
+  ms.lasthandoff: 09/08/2018
+  ms.locfileid: "23892349"
 items:
 - durationInMinutes: 1
   content: "Ce didacticiel est une introduction à la Skype pour les entreprises et parcours de mise à niveau de Microsoft Teams notre infrastructure de réussite de mise à niveau de bout en bout. Ce didacticiel vous aideront rapidement à la mise à niveau recommandée et les ressources disponibles pour vous aider dans votre parcours, si vous êtes uniquement prise en main de planification, équipes avec Skype pour les entreprises, en cours d’exécution ou prêts à mettre à niveau vers les équipes.\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]\n\nCette formation vous est destinée si :\n-   INFORMATIQUE chargé de la planification, le déploiement ou la gestion Skype pour les entreprises.\n-   Responsable de la planification de la gestion de changement d’utilisateur au sein de votre organisation.\n-   Intéressé par la présentation de l’approche une mise à niveau à partir de Skype pour les entreprises aux équipes de votre organisation.\n\nNous allons le voir dans les détails sur la façon dont ces deux produits se retrouvent et expliquent les étapes à suivre aujourd'hui pour préparer un Skype existant pour un environnement d’entreprise pour les équipes. \n\nNous allons aborder le cadre pour vous aider à planifier et exécuter votre mise à niveau, avec une vue d’ensemble des activités clées pour une expérience optimale parmi préparation technique et utilisateur.\n\nLes principaux objectifs de ce didacticiel sont les suivants :\n-   Explorez les chemins de mise à niveau disponibles pour vous aider à planifier votre mise à niveau.\n-   Découvrez les étapes essentielles requises pour préparer et implémenter votre mise à niveau.\n-   Identifier les instructions approfondie, les modèles et les ressources disponibles pour vous aider dans votre parcours.\n-   Partager des étapes suivantes pour commencer à utiliser notre guide.\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\nSi vous avez des questions ou des commentaires sur cette formation, Veuillez publier dans la section des commentaires en bas de la page « Étapes » de ce didacticiel.\n\nPour nous faire part de vos commentaires sur Teams, tels que des idées de nouvelles fonctionnalités, visitez [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"
