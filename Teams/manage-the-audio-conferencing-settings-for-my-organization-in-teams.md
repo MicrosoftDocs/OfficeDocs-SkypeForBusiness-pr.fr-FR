@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Voir Microsoft Teams pour affecter un ID de conférence et de licence de conférence rendez-vous à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: b9b3198f5d66b36e986eeab72fdf5dd31521fb14
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7af89da74b0b83872954444a847d40f0d7851087
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866834"
+ms.locfileid: "23884704"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Gérer les paramètres de conférence Audio de mon organisation dans Microsoft Teams
 
@@ -68,7 +68,7 @@ Il peut être plus facile à voir tous les paramètres audio de conférence pour
 4. Cliquez sur **Enregistrer**.
 
     
-**Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
+**Utilisation de Windows PowerShell**
   
 Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
     
@@ -121,7 +121,7 @@ Dans ce cas, le code confidentiel de conférence rendez-vous n'est pas envoyé �
 
 1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-2. En regard de **Conférence Audio**, cliquez sur **Modifier**.
+2. A côté de **Conférence Audio**, cliquez sur **Modifier**.
  
 3. Dans le volet de **Conférence Audio** , vous pouvez définir le **numéro de téléphone payant** et, si Oui, le **numéro d’appel gratuit**.
 

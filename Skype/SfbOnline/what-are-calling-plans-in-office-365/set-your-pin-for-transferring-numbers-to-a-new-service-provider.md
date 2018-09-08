@@ -1,5 +1,5 @@
 ---
-title: Définissez votre code confidentiel pour transférer des numéros vers un nouveau fournisseur de services
+title: Définir votre code confidentiel pour transférer des numéros vers un nouveau fournisseur de service
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,19 +16,19 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: Pour transférer ou exporter des numéros de téléphone de Skype Entreprise Online vers un autre fournisseur de services téléphoniques ou un autre opérateur, vous devez définir manuellement un code confidentiel. Une fois le code confidentiel défini, vous devez l'inclure lorsque vous demandez à transférer un numéro de téléphone.
-ms.openlocfilehash: 4dc60b489a6b382df5764f0c011f716f36a17cd8
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
-ms.translationtype: HT
+ms.openlocfilehash: ef688c6aa7aabd1880513994236cb62353eab665
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779140"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23890107"
 ---
-# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Définissez votre code confidentiel pour transférer des numéros vers un nouveau fournisseur de services
+# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Définir votre code confidentiel pour transférer des numéros vers un nouveau fournisseur de service
 
 Pour transférer ou *exporter*  des numéros de téléphone de Skype Entreprise Online vers un autre fournisseur de services téléphoniques ou un autre opérateur, vous devez définir manuellement un code confidentiel. Une fois le code confidentiel défini, vous devez l'inclure lorsque vous demandez à transférer un numéro de téléphone. 
   
@@ -50,13 +51,13 @@ Voici quelques informations spécifiques sur ce code confidentiel que vous devez
     
 ## <a name="set-up-your-pin"></a>Configurez votre code confidentiel
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Utilisation du centre d’administration de Skype Entreprise**
+![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au **Centre administrateur Office 365** > **Centres d'administration** > **Skype Entreprise**.
+2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises**.
     
-3. Dans la navigation de gauche, choisissez **Voix** > **commandes Transfert**.
+3. Dans la navigation de gauche, choisissez **voix** > **commandes Port**.
     
 4. Cliquez sur **Installer et gérer le code confidentiel** qui est utilisé pour le transfert ou le portage des numéros vers un autre fournisseur de services.
     

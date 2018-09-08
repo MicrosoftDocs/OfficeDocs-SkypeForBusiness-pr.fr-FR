@@ -7,18 +7,18 @@ ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
 description: Lisez cette rubrique pour en savoir plus sur la configuration des comptes pour les systèmes de salle Skype v2 dans Exchange et Skype pour les entreprises.
-ms.openlocfilehash: 8b0858d3d1ec5523ad95b74989a594a1cebc7848
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4070757324c9c0abf56cd623ce0155649e456e3b
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967781"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886484"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Configurer des comptes pour les systèmes de salle Skype v2
  

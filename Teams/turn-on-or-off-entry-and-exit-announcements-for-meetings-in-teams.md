@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Apprenez à transformer les entrées et quitter ou désactiver les annonces à une réunion Microsoft Teams. '
-ms.openlocfilehash: 44b3c88b9e4284c7606d57661022dbe21d236147
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 94a091590ff00d2c78278e8ad559b61b1e732130
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851006"
+ms.locfileid: "23884628"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Activer ou désactiver l’entrée et quitter des annonces pour les réunions dans Microsoft Teams
 

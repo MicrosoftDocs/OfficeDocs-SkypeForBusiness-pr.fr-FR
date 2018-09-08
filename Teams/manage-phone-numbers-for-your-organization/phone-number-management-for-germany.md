@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone en Allemagne pour Skype Entreprise Online et Microsoft Teams.
-ms.openlocfilehash: 59f3341a90c03c524d2f4ec0ce721ecb585fe51f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a178516a62b911d134afee60af6c189e8f140f1c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855440"
+ms.locfileid: "23891670"
 ---
 # <a name="phone-number-management-for-germany"></a>Gestion des numéros de téléphone pour l'Allemagne
 

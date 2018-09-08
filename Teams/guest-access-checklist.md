@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
 description: Utilisez cette liste de vérification pour vous aider à configurer l’accès invité dans Microsoft Access d’invité équipes.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0b8d8e4f9563cb7087b28c4adc77e6db4d6d335
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 2745c69c9deb7d949c4e743361c3c1d827870365
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850176"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892657"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de vérification de l’accès invité équipes
 ==========================================

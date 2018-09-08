@@ -6,18 +6,18 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Office 365.
-ms.openlocfilehash: c623d689f876cfe36c7c8308a7f62526be217ec1
-ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
+ms.openlocfilehash: cccc86fce3eea00449b7737eabb618fa40afa6a6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "22601968"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883023"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Déploiement de Skype Room Systems v2 avec Office 365 
  

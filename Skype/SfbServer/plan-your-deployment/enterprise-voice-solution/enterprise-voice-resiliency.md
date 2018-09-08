@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Découvrez comment prendre en charge la résilience vocale Skype pour Business Server Enterprise Voice, au niveau de sites centraux et sites de succursale. Options de site de succursale incluent le déploiement Survivable Branch Appliances ou serveurs Survivable Branch Server.
-ms.openlocfilehash: b20666cc6a36260142fae0488983c7fefcec699a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 76b56d7e7d00ecd6d542be3f936af6f2e834974d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263864"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882302"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planifier la résistance de voix entreprise dans Skype pour Business Server
 

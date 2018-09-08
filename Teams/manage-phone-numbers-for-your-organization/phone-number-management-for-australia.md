@@ -15,17 +15,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone en Australie pour Skype pour Business Online et Microsoft Teams.
-ms.openlocfilehash: bb77b41539b2de7ed439a434ba6303a89b60e059
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1992b7db86d253b84b23d304b8cb3022b74daf4c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23870981"
+ms.locfileid: "23884515"
 ---
 # <a name="phone-number-management-for-australia"></a>Gestion de numéro de téléphone pour l’Australie
 > [!IMPORTANT]

@@ -15,17 +15,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer le système téléphonique (PBX nuage) pour votre organisation. '
-ms.openlocfilehash: 83db27b8737b2027d4d983bdd736bed7785c5e60
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 54ac25bb3c2ec88a35bc8e017f7a3eb2e55edc1e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853350"
+ms.locfileid: "23883236"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurer le système téléphonique de votre organisation
 
@@ -60,7 +60,7 @@ Vous devez utiliser la page **Ajouter de nouveaux numéros d’utilisateur** pou
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.**** > ****
+2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
 3. Dans le volet de navigation gauche, accédez à **voix** > **numéros de téléphone**, cliquez sur **Ajouter un nouveau numéro** ![Ajouter bouton ](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), puis cliquez sur**nouveaux numéros utilisateur**.
     
@@ -87,7 +87,7 @@ Outre l’obtention de numéros de téléphone pour vos utilisateurs à partir d
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.**** > ****
+2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
 
 3. Dans le volet de navigation gauche, accédez à **voix** > **numéros de téléphone** > **Ajouter un nouveau numéro**, puis cliquez sur **nouveau numéro de service**.
 

@@ -6,15 +6,16 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
+search.appverid: MET150
 description: Découvrez comment Live événements permettent aux utilisateurs de diffusion vidéo et de contenu à grande audiences en ligne dans Microsoft Teams, Yammer et Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfdee5d1cf43c358d2b6a36aad66c38d3e9d8ec9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3fb22c259e97e27aa45d4874bc95aef7962c6024
+ms.sourcegitcommit: 53089c4c9bdf219f02eae2827432a4f40eaa9cd5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23870588"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23893707"
 ---
 # <a name="what-are-teams-live-events"></a>Quelles sont les équipes live événements ?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -45,15 +46,19 @@ Les événements dans 365 Microsoft live prend en charge un large éventail de s
 - **Production de codage externe**: encodeurs externes permettent aux utilisateurs de créer leurs événements directement à partir d’un matériel externe ou un encodeur basé sur logiciel avec [Flux Microsoft](https://stream.microsoft.com)live. Cette option est recommandée si vous disposez déjà d’équipement de qualité studio (par exemple, le mixage media) les prise en charge de la diffusion en continu à un service RTMP (Real-Time Messaging Protocol). Ce type de production est généralement utilisé dans les événements à grande échelle telles que des conférences entre les cadres – où un flux unique à partir d’un mixage multimédia est diffusée à l’audience. 
 
 ### <a name="streaming-platform"></a>Plateforme de diffusion en continu
-La plate-forme de diffusion en continu live événement est composée des quatre éléments suivants :
+La plate-forme de diffusion en continu live événement est composée des éléments suivants :
 
 - **Services multimédias Azure** [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) vous donne la qualité de la diffusion des services de diffusion en continu vidéo pour atteindre le plus grand public sur les appareils mobiles les plus populaires d’aujourd'hui.   Media Services améliore l’accessibilité, de distribution et l’évolutivité et rend facile et économique en continu dans votre magasin local ou dans le monde entier, tout en protégeant votre contenu.
 - **Réseau Azure livraison de contenu (CDN)**  Une fois votre flux de données publié, il est fourni par le biais du [Azure réseau CDN (Content Delivery)](https://docs.microsoft.com/azure/cdn/). Azure Media Services fournit CDN intégrée pour transmettre en continu des points de terminaison. Ainsi, pour les flux de données à afficher dans le monde entier avec aucune mise en mémoire tampon.
-- **Enterprise Content Delivery Network (eCDN)**  L’objectif d’eCDN consiste à prendre le contenu vidéo à partir d’internet et distribuer le contenu dans toute l’entreprise sans affecter les performances réseau. Vous pouvez utiliser une des options suivantes eCDN partenaires certifiés pour optimiser votre réseau pour les événements Live organisées au sein de votre organisation :
+
+### <a name="enterprise-content-delivery-network-ecdn"></a>Enterprise Content Delivery Network (eCDN)
+L’objectif d’eCDN consiste à prendre le contenu vidéo à partir d’internet et distribuer le contenu dans toute l’entreprise sans affecter les performances réseau. Vous pouvez utiliser une des options suivantes eCDN partenaires certifiés pour optimiser votre réseau pour les événements Live organisées au sein de votre organisation :
     - Ruche
     - Kollective
     - Ramp
-- **Expérience de participant**  L’expérience de participant est le plus important d’événements en direct et il est fondamental que les participants peuvent participer à l’événement live sans avoir des problèmes. L’expérience de participant utilise le lecteur Media Azure et fonctionne sur le bureau, navigateur et mobile (Android, iOS). Office 365 propose Yammer et les équipes deux concentrateurs de collaboration, ainsi que le participant live expérience est intégrée à ces outils de collaboration. Les événements live en fonction de codage externe sont également accessibles par les participants dans les [Outils d’administration](#administrative-tools).
+
+### <a name="attendee-experience"></a>Expérience de participant 
+L’expérience de participant est le plus important d’événements en direct et il est fondamental que les participants peuvent participer à l’événement live sans avoir des problèmes. L’expérience de participant utilise le lecteur Media Azure et fonctionne sur le bureau, navigateur et mobile (Android, iOS). Office 365 propose Yammer et les équipes deux concentrateurs de collaboration, ainsi que le participant live expérience est intégrée à ces outils de collaboration. 
 
 ## <a name="planning-for-live-events"></a>Planification des événements en direct
 Lorsque vous planifiez les événements en direct équipes destiné à contenir des grandes réunions dans votre générer, il existe plusieurs facteurs que vous devez prendre en compte avant de commencer à définir ascendants. 

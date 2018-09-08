@@ -7,17 +7,17 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Découvrez les outils qui vous aideront à lancer Microsoft Teams tels que des modèles d'e-mail, des guides de prise en main, un kit de réussite des clients, et plus encore.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cf417a3029e57eebd2ea8adb1988a1193fecde1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: ff15bc9ba303d6fab3331774ab79a02f8e383693
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867724"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892729"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Obtenir des outils d'assistance pour le lancement de Microsoft Teams
 =================================================

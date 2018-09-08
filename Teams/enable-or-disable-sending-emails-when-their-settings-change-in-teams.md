@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment activer ou désactiver Skype d’envoyer des messages électroniques aux utilisateurs lorsque les paramètres tels que du code confidentiel change ou les modifications de numéro de conférence par défaut dans Microsoft Teams. '
-ms.openlocfilehash: 5d18d039c379bb56a861ba6f6a36d23f301150b4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a59553f26ee39e042fa28d9e58e7f5ae2aae21be
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861890"
+ms.locfileid: "23892501"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Activer ou désactiver l’envoi de messages électroniques lorsque les paramètres de conférence Audio changent dans Microsoft Teams
 
@@ -71,7 +71,7 @@ Vous pouvez utiliser Microsoft Teams ou Windows PowerShell pour activer ou désa
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
+**Utilisation de Windows PowerShell**
   
 Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
 
