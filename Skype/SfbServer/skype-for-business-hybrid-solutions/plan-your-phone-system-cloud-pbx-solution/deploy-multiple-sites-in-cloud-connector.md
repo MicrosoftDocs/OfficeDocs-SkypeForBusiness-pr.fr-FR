@@ -7,18 +7,18 @@ ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: En savoir plus sur le déploiement de plusieurs sites PSTN dans le nuage connecteur Edition.
-ms.openlocfilehash: c0e41408b43574fdfd3e8dc6b1d2c8ffc434d8c5
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569525"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23889712"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Déployer plusieurs sites dans Cloud Connector
  
@@ -76,7 +76,7 @@ Pour chaque site PSTN que vous souhaitez ajouter, suivez les étapes de [déploi
 
 Le tableau suivant présente les différences entre un site unique avec prise en charge de la haute disponibilité et un déploiement multisite.
   
-|**Catégorie**|**Élément**|**Site unique avec une haute disponibilité**|**Plusieurs sites**|
+|**Catégorie**|**Option**|**Site unique avec haute disponibilité**|**Multisite**|
 |:-----|:-----|:-----|:-----|
 |Installation  <br/> |Dossier partagé  <br/> |Requiert le **même** dossier partagé sur appliances <br/> |Nécessite un répertoire partagé **différent** pour toutes les appliances <br/> |
 |Configuration  <br/> |VirtualMachineDomain  <br/> |Nécessite le **même** domaine pour toutes les appliances <br/> |Nécessite le **même** domaine pour tous les sites RTC <br/> |

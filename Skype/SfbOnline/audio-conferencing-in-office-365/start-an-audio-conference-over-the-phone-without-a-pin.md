@@ -15,45 +15,45 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment activer ou désactiver la possibilité pour des appelants anonymes de se joindre aux réunions dans le centre d’administration Skype entreprise ou à l’aide d’un script PowerShell. '
-ms.openlocfilehash: 746e21b7b1a8d15c31dfe11e46ac09edfbb29b99
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: a87fe66eca889e7424ed34376dbf499f8bbfef81
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858704"
+ms.locfileid: "23885160"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Démarrer une audioconférence par téléphone sans code confidentiel dans Skype Entreprise Online
 
 > [!Note]
 > Pour plus d’informations sur le démarrage d’une audioconférence sans code confidentiel dans Microsoft Teams, voir [Démarrer une audioconférence par téléphone sans code confidentiel dans Microsoft Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams).
 
-Il peut être frustrant pour des utilisateurs qui composent le numéro de téléphone d'une réunion d'être placés en file d'attente de la réunion, car l'organisateur de la réunion Skype Entreprise n'a pas encore lancé l'événement. 
+Il peut être frustrant pour les utilisateurs qui se connectent à une réunion à être conservés dans la salle d’attente de la réunion à l’écoute de la musique, car le Skype pour l’organisateur de la réunion n’a pas démarré la réunion. 
   
-L'organisateur doit appeler la réunion et un code confidentiel lui est demandé par défaut pour que la réunion puisse commencer. Vous pouvez modifier ce paramètre pour que n'importe qui puisse composer le numéro de téléphone de la réunion et la commence sans avoir à composer de code confidentiel. Le Centre d'administration Skype Entreprise permet d'activer ou de désactiver ce paramètre pour un utilisateur spécifique.
+Si un organisateur de réunion appelle la réunion, par défaut, un code confidentiel est requis pour démarrer une réunion. Vous pouvez configurer il afin que tout le monde peut se connecter à une réunion et ne pas être invité à entrer un code confidentiel démarrer la réunion. Le Centre d'administration Skype Entreprise permet d'activer ou de désactiver ce paramètre pour un utilisateur spécifique.
   
-Un code confidentiel n'est pas nécessaire pour l'organisateur de la réunion si quelqu'un a commencé la réunion à partir de l'application Skype Entreprise. Un code confidentiel n'est nécessaire que lorsque l'organisateur d'une réunion rejoint sa réunion par téléphone. Le code confidentiel des réunions est envoyé aux utilisateurs audio qui possèdent une **licence de réunion audio** ou pour lesquels la fonction d'audioconférence est activée. Reportez-vous aux rubriques[Envoyer un message électronique à un utilisateur avec leurs informations d'audioconférence](send-an-email-to-a-user-with-their-dial-in-information.md) et[Courriers électroniques envoyés automatiquement aux utilisateurs en cas de modification de leurs paramètres d'audioconférence](emails-sent-to-users-when-their-settings-change.md).
+Un code confidentiel n’est pas requis pour l’organisateur de la réunion si une personne a démarré la réunion à partir de la Skype pour l’application de gestion. Un code confidentiel n'est nécessaire que lorsque l'organisateur d'une réunion participe à sa réunion sur un téléphone. Le code confidentiel pour les réunions est envoyé à l’utilisateur audio lorsqu’ils sont affectés à la licence de **Services d’audioconférence** et sont activés pour l’audioconférence. Voir [Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio](send-an-email-to-a-user-with-their-dial-in-information.md) et [messages électroniques qui sont automatiquement envoyées aux utilisateurs lorsque modifient leurs paramètres de conférence Audio](emails-sent-to-users-when-their-settings-change.md).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Autorisation ou refus des appelants anonymes à participer à une réunion
     
-1. Dans le **centre d'administration Skype Entreprise**, au sein du menu de navigation de gauche, accédez à **Audioconférence** > **Utilisateurs** . 
+1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **les utilisateurs**. 
     
-2. Dans la liste, sélectionnez l'utilisateur et, dans le volet Action, cliquez sur **Modifier**. 
+2. Dans la liste, sélectionnez l’utilisateur, dans le volet Actions, cliquez sur **Modifier**. 
     
-3. Dans la page Propriétés de l'utilisateur, sous **Options de réunion**, activez ou désactivez la case à cocher **Autoriser les appelants non authentifiés à être les premiers participants d'une réunion. Si ce n'est pas le cas, ils se trouveront en file d'attente jusqu'à ce qu'un utilisateur authentifié participe**.
+3. Sur la page de propriétés de l’utilisateur, sous **options de la réunion**, activez ou désactivez Autoriser non authentifié **appelants sont les premiers à une réunion. Si non, puis ils attendra dans la salle d’attente jusqu'à ce qu’un utilisateur authentifié rejoint**.
     
 4. Cliquez sur **Enregistrer**. 
 
 
     
- **Utilisation de Windows PowerShell**
+ **Utilisation de Windows Powershell**
   
 - Exécutez la commande suivante : 
     
@@ -63,17 +63,17 @@ Un code confidentiel n'est pas nécessaire pour l'organisateur de la réunion si
 
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Si vous souhaitez réinitialiser le code confidentiel, reportez-vous à la rubrique [Réinitialiser le code confidentiel d'audioconférence pour un utilisateur](reset-the-audio-conferencing-pin.md).
+- Si vous souhaitez réinitialiser le code confidentiel, consultez la rubrique [Réinitialiser le code confidentiel de conférence Audio](reset-the-audio-conferencing-pin.md).
     
-- Si l'accès anonyme, ou la saisie facultative d'un code confidentiel pour le début d'une réunion, est activé :
+- Si l’accès anonyme, ou ne nécessitant ne pas d’un code confidentiel démarrer une réunion, est activé :
     
-  - Si la réunion n’a pas démarré (personne n'a encore joint la réunion) : un appelant est invité s’il est l’organisateur ; s'il indique Oui, il lui est demandé de saisir son code confidentiel et une fois le code confidentiel saisi, la réunion sera démarrée et l’utilisateur y participera.
+  - Si la réunion n’a pas démarré (il n’existe pas dans la réunion encore) : un appelant est invité s’il est l’organisateur ; Si il indique Oui, il vous demandé pour son code confidentiel et après des entrées le code confidentiel, il démarre la réunion et l’utilisateur sera participer à la réunion.
     
   - Si la réunion a déjà démarré (une autre personne a déjà rejoint la réunion) : l’appelant ne recevra pas d'invite, même s'il est l’organisateur, et il ne lui sera pas demandé de code confidentiel ; la réunion a déjà démarré, et il pourra la rejoindre.
     
-- Si l'accès anonyme, ou la saisie facultative d'un code confidentiel pour le début d'une réunion, est désactivée :
+- Si l’accès anonyme, ou ne nécessitant ne pas d’un code confidentiel démarrer une réunion, est désactivée :
     
-  - Si la réunion n’a pas démarré (personne n'a encore joint la réunion) : l'organisateur ne sera pas invité et il ne lui sera jamais demandé de saisir son code confidentiel. Étant donné que le paramétrage de l'organisateur est défini sur Désactivé, la réunion commence et les appelants anonymes peuvent participer à la réunion.
+  - Si la réunion n’a pas démarré (personne n'a encore joint la réunion) : l'organisateur ne sera pas invité et il ne lui sera jamais demandé de saisir son code confidentiel. Étant donné que le paramètre de l’organisateur est défini sur désactivé, la réunion démarre et les appelants anonymes participerez à la réunion.
     
   - Si la réunion a déjà démarré (une autre personne a déjà rejoint la réunion) : l’appelant ne recevra pas d'invite, même s'il est l’organisateur, et il ne lui sera pas demandé de code confidentiel ; la réunion a déjà démarré, et il pourra la rejoindre.
     
@@ -83,11 +83,11 @@ Un code confidentiel n'est pas nécessaire pour l'organisateur de la réunion si
     
 -  Skype Entreprise Online est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 avec un seul point d'administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
-  - [Pourquoi utiliser Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Meilleurs façons d'utiliser Windows PowerShell pour gérer Office 365](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Six raisons d'utiliser Windows PowerShell pour gérer Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à la seule utilisation du centre d’administration Office 365, par exemple lorsque vous faites des modifications de paramètres pour beaucoup d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell présente de nombreux avantages dans vitesse, la simplicité et la productivité sur qu’à l’aide du centre d’administration Office 365, tels que lorsque vous modifiez les paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -100,4 +100,4 @@ Un code confidentiel n'est pas nécessaire pour l'organisateur de la réunion si
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

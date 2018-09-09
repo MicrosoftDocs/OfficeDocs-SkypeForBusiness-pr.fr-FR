@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planification de la mise en garde d’appels dans Skype pour Business Server Enterprise Voice, qui permet de placer des appels sur la mise en attente et de transfert d’appels à des services. Cela inclut la planification de la capacité, les appels pris en charge et les clients pris en charge.
-ms.openlocfilehash: a675100f8b40e1ab293c0240ea0acbe3beb7fa27
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 328c94507c393aba1edc7253bdf962a2904a44d6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988549"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883354"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planification de la mise en garde d’appels dans Skype entreprise
  

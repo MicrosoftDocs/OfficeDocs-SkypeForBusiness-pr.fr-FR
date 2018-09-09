@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Utiliser une infrastructure couronné de succès pour voyage au pays de la mise à niveau de votre organisation de Skype pour les entreprises à des équipes
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d3b4d4863fc453c1563915dce75f3d38e969571
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 541c7af86b35cae10b1598b1a80afc15d66fec33
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855172"
+ms.locfileid: "23883347"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype pour les entreprises à la mise à niveau de Microsoft Teams
 

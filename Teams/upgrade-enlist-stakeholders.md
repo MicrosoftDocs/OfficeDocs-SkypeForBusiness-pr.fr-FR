@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Inscrire les parties prenantes de faire partie de l’équipe de projet pour votre mise à niveau.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c4aa72a3d2c15ce71df9a018a6e51e05b9e8f25
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: fe32df433159512d4e24d2bde7c2db76db23c32a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866278"
+ms.locfileid: "23883280"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur la collecte de votre équipe de parties prenantes du projet] (media/upgrade-banner-stakeholders.png "Étapes du voyage mise à niveau, en mettant l’accent sur la collecte de votre équipe de parties prenantes du projet")
 

@@ -7,18 +7,18 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Résumé : Passez en revue la configuration requise de client vidéo lors de la planification pour Skype pour Business Server.'
-ms.openlocfilehash: 4009cb348c9a839fb200901808555521f453d5b8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0150acf98a2d5219975cf33c573f31f755db62f0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966755"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886142"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype pour la résolution vidéo du client Business
  

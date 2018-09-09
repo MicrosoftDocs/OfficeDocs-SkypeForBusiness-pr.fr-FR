@@ -14,17 +14,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler les organisateurs utilisation numéros gratuits pour leurs réunions.
-ms.openlocfilehash: 8fafe87823308035d2626d891ae12b72c2bcfeca
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 6d37fdb6e85f6c1325c4ebea179ad54aab91fa4c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23852156"
+ms.locfileid: "23887379"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Désactivation des numéros de téléphone gratuits pour les utilisateurs des équipes spécifiques
 
@@ -49,7 +49,7 @@ Lorsque les numéros gratuits sont désactivés pour un organisateur donné :
 
 2. En haut de la page, cliquez sur **Modifier**.
 
-3. En regard de **Conférence Audio**, cliquez sur **Modifier**.
+3. A côté de **Conférence Audio**, cliquez sur **Modifier**.
 
 4. Désactivez l’option **inclure les numéros gratuits dans les demandes de réunion à partir de cet utilisateur**. 
 

@@ -7,17 +7,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
 description: Conseils pour la gestion de la transition aux équipes de Skype pour les entreprises
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11ba2e2d6d59ecd53dd1824f50c53022e15f2b69
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1028f599b3b5cacf23fa920b85c42cf8a5bd4673
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854182"
+ms.locfileid: "23884234"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guide de migration et d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises
 

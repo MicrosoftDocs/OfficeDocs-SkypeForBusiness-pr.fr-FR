@@ -7,7 +7,7 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Résumé : Lisez cette rubrique pour savoir comment attribuer une stratégie de voix pour les utilisateurs à l’aide du système téléphonique dans Office 365 avec une connectivité PSTN sur site.'
-ms.openlocfilehash: 43d8939e6e0cd49f66234e127f05cb421700a15a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 6acc7188cbb76c101890591a822ac03a686a8246
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569497"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886061"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Affectation d’une stratégie de routage des communications vocales
  
@@ -31,7 +31,7 @@ Une fois qu’un utilisateur est sur Skype Business en ligne et l’utilisation 
   
 L’autre stratégie de voix définit les fonctionnalités d’appel sont disponibles à l’utilisateur. Cette stratégie de voix est définie par Microsoft et est identique pour tous les système téléphonique dans Office 365 avec des utilisateurs de connectivité PSTN sur site. Il est automatiquement affecté au système téléphonique dans les utilisateurs d’Office 365.
   
-||**Utilisateur local**|**Système téléphonique dans Office 365 avec l’utilisateur de connectivité PSTN sur site**|
+||**Utilisateur du déploiement local**|**Système téléphonique dans Office 365 avec l’utilisateur de connectivité PSTN sur site**|
 |:-----|:-----|:-----|
 |Fonctionnalités d’appel définies dans  <br/> |Stratégie vocale  <br/> |Prédéfinis stratégie de voix, affectée automatiquement lorsque l’utilisateur possède une licence de système téléphonique dans Office 365.  <br/> |
 |Enregistrements d’utilisation RTC associés à  <br/> |Stratégie vocale  <br/> |Stratégie de routage des communications vocales, affectée alors que l’utilisateur est encore hébergé en local.  <br/> |

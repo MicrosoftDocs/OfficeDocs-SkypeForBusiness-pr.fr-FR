@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planification du routage par emplacement dans Skype pour Business Server Enterprise Voice, y compris l’interaction avec sonnerie simultanée et la délégation et les scénarios pris en charge pour le routage basé sur l’emplacement.
-ms.openlocfilehash: 63b4cbd347bd7151fed36eb3f837ec9b611e2d9c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1e4f19d96306db31be0606dbfda799e93c2d34e0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250517"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886097"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Planifier le routage par emplacement dans Skype pour les entreprises
 

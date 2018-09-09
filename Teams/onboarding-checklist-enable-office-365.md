@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Lorsque vous configurez Office 365 pour les équipes, suivez les principaux, les tâches de tâches et les activités dans cette liste de vérification.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e657fcefbd86f361f41e47369452b87f6463c83
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c91953bbf44607ef6a277a020dea6581fa38d88a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865142"
+ms.locfileid: "23889487"
 ---
 # <a name="enable-office-365"></a>Activer Office 365
  

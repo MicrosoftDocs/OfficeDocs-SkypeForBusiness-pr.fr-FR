@@ -7,18 +7,19 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Résumé : Configurez votre serveur non configuration requise pour Skype pour Business Server 2015. Il existe plusieurs choses que vous souhaiterez configuré avant de procéder à votre déploiement, notamment Active Directory, DNS, des certificats et partages.'
-ms.openlocfilehash: 61b5d0a9bbce1fc2549f01f7f13209e87f74caf0
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 59bcc654b2999db5b13baa08fd83f74e06c5b1cf
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884141"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Conditions préalables d’environnement pour Skype Entreprise Server 2015
  
@@ -75,7 +76,7 @@ Quel système d’exploitation de contrôleur de domaine faut-il alors utiliser�
     
 - Windows Server 2008
     
-- Windows Server 2003
+- Windows Server 2003
     
 Pouvez-vous avoir des contrôleurs de domaine en lecture seule dans ces environnements ? Bien sûr, dans la mesure où un contrôleur de domaine accessible en écriture est disponible.
   
@@ -269,7 +270,7 @@ Pour essayer de conserver une simple, nous avons créé les certificats requis p
     
 Certificats pour les serveurs Standard Edition Server :
   
-|**Certificat**|**Nom du sujet nom commun**|**Nom du sujet**|**Exemple**|**Commentaires**|
+|**Certificat**|**Nom du sujet/Nom courant**|**Autre nom du sujet**|**Exemple**|**Commentaires**|
 |:-----|:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet du pool et nom de domaine complet du serveur.  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN=se01.contoso.com ; SAN=se01.contoso.com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |Sur le serveur Standard Edition serveurs Standard Edition server, le nom de domaine complet du serveur est le même que le nom de domaine complet du pool.  <br/> L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez aussi utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
 |Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> Web interne • nom de domaine complet (qui est le même que le nom de domaine complet du serveur)  <br/> ET  <br/> • Les URL simples meet  <br/> • Rendez-vous des URL simples  <br/> • D’administration simples  <br/> OU  <br/> • Une entrée de caractère générique pour les URL simples  <br/> |SN=se01.contoso.com ; SAN=se01.contoso.com ; SAN=Meet.contoso.com ; SAN=Meet.fabrikam.com ; SAN=Dialin.contoso.com ; SAN=Admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=se01.contoso.com ; SAN=se01.contoso.com ; SAN =\*. contoso.com  <br/> |Vous ne pouvez pas remplacer le nom de domaine complet dans le Générateur de topologie de site web interne.  <br/> Si vous disposez de plusieurs URL simples de réunion, vous devez les inclure toutes en tant qu’autres noms du sujet (SAN).  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
@@ -277,7 +278,7 @@ Certificats pour les serveurs Standard Edition Server :
    
 Certificats pour les serveurs frontaux dans un pool frontal :
   
-|**Certificat**|**Nom du sujet nom commun**|**Nom du sujet**|**Exemple**|**Commentaires**|
+|**Certificat**|**Nom du sujet/Nom courant**|**Autre nom du sujet**|**Exemple**|**Commentaires**|
 |:-----|:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet du pool et nom de domaine complet du serveur.  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN=eepool.contoso.com ; SAN=eepool.contoso.com ; SAN=ee01.contoso.com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez aussi utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
 |Web interne  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> Web interne • nom de domaine complet (qui n’est pas le même que le nom de domaine complet du serveur)  <br/> • FQDN du serveur  <br/> • Skype pour le pool d’entreprise nom de domaine complet  <br/> ET  <br/> • Les URL simples meet  <br/> • Rendez-vous des URL simples  <br/> • D’administration simples  <br/> OU  <br/> • Une entrée de caractère générique pour les URL simples  <br/> |SN=ee01.contoso.com ; SAN=ee01.contoso.com ; SAN=Meet.contoso.com ; SAN=Meet.fabrikam.com ; SAN=Dialin.contoso.com ; SAN=Admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=ee01.contoso.com ; SAN=ee01.contoso.com ; SAN =\*. contoso.com  <br/> |Si vous avez plusieurs URL simples Meet, vous devez inclure tous les noms de sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
@@ -285,7 +286,7 @@ Certificats pour les serveurs frontaux dans un pool frontal :
    
 Certificats pour le directeur :
   
-|**Certificat**|**Nom du sujet nom commun**|**Nom du sujet**|**Exemple**|
+|**Certificat**|**Nom du sujet/Nom courant**|**Autre nom du sujet**|**Exemple**|
 |:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |pool de directeurs  <br/> |Nom de domaine complet du directeur, nom de domaine complet du pool directeur.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et la correspondance DNS stricte requise dans la stratégie de groupe, vous aurez également besoin des entrées pour sip.sipdomain (pour chaque domaine SIP que vous avez).  <br/> |pool.contoso.com associé ; SAN=dir01.contoso.com  <br/> Si ce pool directeur est le serveur d’ouverture de session automatique pour les clients et la correspondance DNS stricte est requise dans la stratégie de groupe, également nécessaires ; SAN=SIP.fabrikam.com  <br/> |
 |Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> Web interne • nom de domaine complet (qui est le même que le nom de domaine complet du serveur)  <br/> • FQDN du serveur  <br/> • Skype pour le pool d’entreprise nom de domaine complet  <br/> ET  <br/> • Les URL simples meet  <br/> • Rendez-vous des URL simples  <br/> • D’administration simples  <br/> OU  <br/> • Une entrée de caractère générique pour les URL simples  <br/> |SN=dir01.contoso.com ; SAN=dir01.contoso.com ; SAN=Meet.contoso.com ; SAN=Meet.fabrikam.com ; SAN=Dialin.contoso.com ; SAN=Admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=dir01.contoso.com ; SAN=dir01.contoso.com SAN =\*. contoso.com  <br/> |
@@ -293,13 +294,13 @@ Certificats pour le directeur :
    
 Certificats pour le serveur de médiation autonome :
   
-|**Certificat**|**Nom du sujet nom commun**|**Nom du sujet**|**Exemple**|
+|**Certificat**|**Nom du sujet/Nom courant**|**Autre nom du sujet**|**Exemple**|
 |:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet du pool  <br/> Nom de domaine complet du serveur membre du pool  <br/> |SN = medsvr-pool.contoso.net ; SAN = medsvr-pool.contoso.net ; SAN=medsvr01.contoso .net  <br/> |
    
 Certificats pour les Survivable Branch Appliance :
   
-|**Certificat**|**Nom du sujet nom commun**|**Nom du sujet**|**Exemple**|
+|**Certificat**|**Nom du sujet/Nom courant**|**Autre nom du sujet**|**Exemple**|
 |:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |Nom de domaine complet de l’appareil  <br/> |SIP. \<sipdomain\> (vous avez besoin qu’une seule entrée par domaine SIP)  <br/> |SN=sba01.contoso .net ; SAN=SIP.contoso.com ; SAN=SIP.fabrikam.com  <br/> |
    

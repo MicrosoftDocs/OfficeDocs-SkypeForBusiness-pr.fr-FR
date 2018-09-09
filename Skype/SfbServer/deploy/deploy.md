@@ -7,19 +7,19 @@ ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 'Résumé : Explorez ces liens pour savoir comment installer et configurer Skype pour Business Server 2015 et mise à niveau à partir de versions antérieures de Lync Server.'
-ms.openlocfilehash: 768b2dd4ca4503ff056be596ca7971d71c3089bc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8560bd52877866f861c8c98dbf22926902a0ce1e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965414"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23890986"
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>Déployer Skype Entreprise Server 2015
  
@@ -43,10 +43,10 @@ Les articles suivants sur la façon d’installer et configurer Skype pour Busin
   
 ||**Contenu**|**Description**|
 |:-----|:-----|:-----|
-|![Icône de la documentation](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Conditions préalables pour votre environnement Skype Entreprise Server 2015](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) <br/> |Découvrez le serveur et les exigences de Skype pour Business Server.  <br/> |
+|![Icône de la documentation](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Configuration requise pour votre environnement Skype Entreprise](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) <br/> |Découvrez le serveur et les exigences de Skype pour Business Server.  <br/> |
 |![Icône de la documentation](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Notions de base de la topologie pour Skype Entreprise Server 2015](../plan-your-deployment/topology-basics/topology-basics.md) <br/> |En savoir plus sur les options de topologie et des scénarios de colocalisation de serveur pour Skype pour Business Server.  <br/> |
-|![Icône numérique Comment faire](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Installation de Skype Entreprise Server 2015](install/install.md) <br/> |Découvrez comment installer Skype pour Business Server dans diverses topologies, dans des environnements physiques et virtuels.  <br/> |
-|![Icône numérique Comment faire](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Mise à niveau vers Skype Entreprise Server 2015](upgrade-to-skype-for-business-server.md) <br/> |Découvrez comment mettre à niveau des versions précédentes de Lync Server.  <br/> |
+|![Icône numérique Comment faire](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Installer Skype Entreprise Server 2015](install/install.md) <br/> |Découvrez comment installer Skype pour Business Server dans diverses topologies, dans des environnements physiques et virtuels.  <br/> |
+|![Icône numérique Comment faire](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Mise à niveau vers Skype pour Business Server 2015](upgrade-to-skype-for-business-server.md) <br/> |Découvrez comment mettre à niveau des versions précédentes de Lync Server.  <br/> |
 |![Icône numérique Comment faire](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Configuration de l’expérience client avec Skype Entreprise](deploy-clients/configure-the-client-experience.md) <br/> |Découvrez comment configurer l’expérience client.  <br/> |
 |![Icône numérique Comment faire](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Déploiement de la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md) <br/> |Découvrez comment configurer les logiciels prérequis pour un déploiement hybride, puis configurer votre déploiement pour gérer les utilisateurs entre Skype pour Business Server local et Skype pour Business Online.  <br/> |
 |![Icône numérique Comment faire](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Déploiement d’un serveur Edge dans Skype Entreprise Server 2015](deploy-edge-server/deploy-edge-server.md) <br/> |Si les utilisateurs de votre organisation à communiquer avec des utilisateurs externes qui ne sont pas connectés à votre réseau interne, vous souhaiterez déployer le serveur de transport Edge.  <br/> |

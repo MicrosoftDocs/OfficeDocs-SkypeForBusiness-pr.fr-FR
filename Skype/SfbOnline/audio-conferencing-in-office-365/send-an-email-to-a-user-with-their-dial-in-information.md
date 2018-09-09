@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 7440d3e2-1b49-4258-bd2c-79e9072f8c8d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envoyer vos utilisateurs un message électronique avec leurs informations de services d’audioconférence dans Skype pour Business Online.
-ms.openlocfilehash: 1b692597f574739c8412a9ec0c6866687e169beb
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: cd6c40594c32faa2f8f7d7dc3737b61cb5d2cd82
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490644"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23890600"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Envoyer un courrier électronique à un utilisateur avec leurs informations de conférence Audio dans Skype pour Business Online
 
@@ -59,7 +60,7 @@ Voici un exemple du courrier électronique qui est envoyé :
     
 3. Cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur.
     
-4. Dans le volet Action, cliquez sur **Envoyer les informations sur la conférence par courrier électronique**.
+4. Cliquez sur **Utilisateurs d'appels entrants**, sélectionnez l'utilisateur pour lequel vous souhaitez réinitialiser le code confidentiel.
     
 > [!TIP]
 > Vous pouvez également envoyer des e-mails à l’utilisateur avec les paramètres de conférence audio en modifiant les propriétés de l’utilisateur et puis en cliquant sur **audioconférence** > **Envoyer les informations de conférence par courrier électronique**. 
@@ -84,7 +85,7 @@ Voici un exemple du courrier électronique qui est envoyé :
     
   - Entrez l’adresse de messagerie dans le paramètre SendEmailFromAddress.
     
-  - Le paramètre SendEmailOverride la valeur True.
+  - Définissez le paramètre SendEmailOverride à True.
     
   - Entrez le nom complet de messagerie dans le paramètre SendEmailFromDisplayName.
     
@@ -105,7 +106,7 @@ Voici un exemple du courrier électronique qui est envoyé :
 
 -  Skype Entreprise Online est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 avec un seul point d'administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
-  - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Six raisons d'utiliser Windows PowerShell pour gérer Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525142)
     

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: 'Skype pour Business Server Enterprise Voice prend en charge l’acheminement de m : n entre le serveur de médiation et des composants tels que les passerelles PSTN, les contrôleurs de frontière de session et IP-PBX.'
-ms.openlocfilehash: 13c25bddcbd5870caf0240f043321605cc9ace81
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 548ba95d3cd3b8c21fcb5fb489f5c70e70a80ce2
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012155"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882171"
 ---
 # <a name="mn-trunk-in-skype-for-business-server"></a>Jonction m : n dans Skype pour Business Server
  

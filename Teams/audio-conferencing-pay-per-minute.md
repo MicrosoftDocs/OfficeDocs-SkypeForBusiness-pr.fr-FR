@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 description: En plus de la licence utilisateur standard de conférence Audio en Volume et la gestion des licences des organisations peuvent également choisir une offre de salaire par minute pour activer les fonctionnalités de conférence Audio pour leurs organisations.
-ms.openlocfilehash: 251116ee5f362710c07a7a53ce4a11f53f3cd09c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e4d2679de8ca6239e8a63dcac6a17fac6bc19fab
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855762"
+ms.locfileid: "23887720"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 
@@ -58,7 +58,7 @@ Pour activer la conférence Audio de salaire par minute pour les utilisateurs de
   
 ## <a name="want-to-find-out-more-about-pricing"></a>Vous souhaitez en savoir plus sur les tarifs ?
 
- **Vous recherchez des prix ?** Voir [comment consulter les prix et acheter des licences supplémentaires](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing#bkmk_how) ou une des options suivantes :
+ **Vous recherchez les prix ?** Voir [comment consulter les prix et acheter des licences supplémentaires](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing#bkmk_how) ou une des options suivantes :
   
 - [Tarifs pour l'audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     

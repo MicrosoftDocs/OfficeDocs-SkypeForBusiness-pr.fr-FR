@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Les décisions nécessaires à la planification pour le média de contournement dans Skype pour Business Server Enterprise Voice. Inclut l’interaction avec le contrôle d’admission des appels.
-ms.openlocfilehash: 3b96455884c46b5c387e909806b5811e95be09bf
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b9cb62e8153f7eb54159637954ea13cda72b6817
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245075"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885314"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planification du contournement de média dans Skype pour les entreprises
 

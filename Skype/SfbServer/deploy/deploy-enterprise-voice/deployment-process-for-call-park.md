@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: Processus de déploiement et les étapes de mise en garde d’appels dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 76046b8dbd39ecf9b17675ec8b3c1270a6c70122
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 20e50c024da9483da71fde610c0094404786b130
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988310"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888322"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>Processus de déploiement pour la mise en garde d’appels dans Skype pour les entreprises
  

@@ -7,19 +7,19 @@ ms.date: 7/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Résumé : Découvrez comment installer les outils d’administration requis pour une installation de Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 26a0397d5324203e599587f58bd1108348b41208
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a51de57ca8eaa7d303af4240b5d30e8a5ca51f70
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992861"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882129"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Installer les outils d’administration dans Skype pour Business Server
  

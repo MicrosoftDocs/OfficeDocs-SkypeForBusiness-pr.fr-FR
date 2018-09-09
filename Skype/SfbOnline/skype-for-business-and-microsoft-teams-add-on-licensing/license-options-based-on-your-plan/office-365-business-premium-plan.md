@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Business Premium '
+title: 'Office 365 Business Premium '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,33 +15,33 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de modules complémentaires, les fonctionnalités et comment souscrire à des forfaits pour Office 365 Business Premium. '
-ms.openlocfilehash: 3c1c4fd8dc5cc680ce79a3c1c1e1c0208d00619a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 30ae65e9e9f1daad9039c95368a59f89d0596bb0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861560"
+ms.locfileid: "23885466"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Business Premium
+# <a name="office-365-business-premium"></a>Office 365 Business Premium
 
 Si vous possédez [Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium), vous pouvez utiliser Skype Entreprise pour passer des appels aux autres personnes de votre entreprise qui font partie de votre abonnement. Par exemple, si 10 personnes travaillent dans votre entreprise, vous pouvez vous appeler et vous envoyer des messages instantanés avec Skype Entreprise.
 
  **Deux options s'offrent à vous pour passer et recevoir des appels de personnes extérieures à votre entreprise**:
 
-- **Option 1. Utilisez l'application gratuite [Skype](https://www.skype.com/)**. Si votre entreprise est très petite (par exemple, une ou deux personnes), l'application Skype est la meilleure solution. Elle est plus économique pour les appels nationaux et internationaux. Vous pouvez toujours mettre en attente des conférences téléphoniques, émettre des appels vidéo et partager votre bureau pour les présentations. [Découvrez les tarifs et les options de paiement](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
+- **Option 1. Utilisez l'application gratuite [Skype](https://www.skype.com/)**. Si votre entreprise est très petite (par exemple, une ou deux personnes), l'application Skype est la meilleure solution. Elle est plus économique pour les appels nationaux et internationaux. Vous pouvez toujours en attente les appels de conférence, émettre des appels vidéo et partager votre bureau pour les présentations. [Découvrez les tarifs et les options de paiement](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
 
     Notez que l'application Skype ne fait pas partie de la suite Office 365 et ne sera donc pas intégrée dans Outlook comme Skype Entreprise. Cela signifie que vos contacts Outlook 2016 n'apparaîtront pas dans Skype et que vous devrez les y ajouter.
 
     Nous recommandons de commencer avec l'application Skype pour voir si elle répond à vos besoins. Si ce n'est pas le cas, l'option suivante vous permettra de mettre à niveau votre plan.
 
     > [!IMPORTANT]
-    > Vous devez faire basculer un curseur pour autoriser vos employés à utiliser Skype Entreprise pour rechercher des utilisateurs Skype. Voir [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
+    > Vous devez définir un bouton bascule pour permettre à vos employés utilisent Skype pour les entreprises pour rechercher des utilisateurs de Skype. Voir [permettent de Skype pour les utilisateurs professionnels Ajouter contacts Skype](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
 
 
 - **Option 2. Mettez à niveau votre forfait et acheter un Système téléphonique et un forfait d'appels local ou national**.
@@ -53,11 +53,11 @@ Si vous possédez [Office 365 Business Premium](https://products.office.com/en-u
 
 2. Acheter le module complémentaire **Système téléphonique**.
     
-3. Acheter un [Forfait d’appels pour Office 365](/MicrosoftTeams/calling-plans-for-office-365) : vous ne pouvez en acheter que si vous possédez le module complémentaire **Système téléphonique**.
+3. Acheter un [Appel de planification pour Office 365](/MicrosoftTeams/calling-plans-for-office-365): cela acheter uniquement une fois que vous achetez le module complémentaire **Système téléphonique** .
     
     Cette option est idéale pour les entreprises où quelques personnes passent et reçoivent des appels téléphoniques extérieurs.
 
-## <a name="how-to-see-prices-and-buy"></a>Comment connaître les prix et procéder à l’achat
+## <a name="how-to-see-prices-and-buy"></a>Comment consulter les prix et acheter
 <a name="bkmk_buypremium"> </a>
 
  **Pour obtenir les Audioconférences et des Crédits de Communication :**
@@ -66,7 +66,7 @@ Si vous possédez [Office 365 Business Premium](https://products.office.com/en-u
 
 2. Accédez à **Facturation** > **Abonnements** > **Modules complémentaires** > **Acheter des modules complémentaires**.
 
-   ![Pour acheter la licence d’un module complémentaire, choisissez Acheter des modules complémentaires.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![Pour acheter une licence de module complémentaire, cliquez sur modules complémentaires acheter.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. Vous allez maintenant voir les prix et l’option d’achat d’audioconférence et configurer des Crédits de Communications.
 
@@ -76,6 +76,6 @@ Si vous possédez [Office 365 Business Premium](https://products.office.com/en-u
 
 2. Rendez-vous sur Centre d'administration Office 365 > **Facturation** > **Abonnements**.
 
-3. Sélectionnez **Modules complémentaires**. Vous allez maintenant voir les prix du Système téléphonique ainsi que son option d’achat.
+3. Sélectionnez **Modules complémentaires**. Vous allez maintenant voir les prix de système téléphonique et la possibilité d’acheter.
 
-4. Après avoir acheté une licence **Système téléphonique**, vous verrez le prix et l’option pour acheter un Forfait d'appels.
+4. Une fois que vous achetez une licence de **Système téléphonique** , vous verrez le prix et l’option d’acheter un Plan de l’appel.

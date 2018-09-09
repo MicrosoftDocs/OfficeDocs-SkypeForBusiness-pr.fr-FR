@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: En savoir plus sur les règles de traduction et de numérotation de normalisation de chaînes dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 9372ed2f0ab5f9ba2dcd4a37d54c3ef19300eb45
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: e32cdd3f3dd21ac4aa87dcdd7eecddf8be9153e6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256894"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886295"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Règles de traduction dans Skype pour Business Server
 
