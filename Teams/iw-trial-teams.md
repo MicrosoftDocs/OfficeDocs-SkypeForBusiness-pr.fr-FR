@@ -3,7 +3,7 @@ title: Gérer l’offre d’évaluation de Cloud Microsoft équipes commerciales
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/31/2018
+ms.date: 09/11/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -12,12 +12,12 @@ search.appverid: MET150
 localization_priority: Normal
 description: Les utilisateurs Office 365 qui ne sont pas une licence de Microsoft Teams peuvent lancer une version d’évaluation de 1 an d’équipes.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 10977a95d5ff86d72964270a2c6daa7d9764448e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7fba776f109b8785b72000af4981d64015f3054c
+ms.sourcegitcommit: 1f5786a82ad535652da22e755e9c1d3063e5425f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858820"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935815"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’évaluation de Cloud Microsoft équipes commerciales
 =======================================================
@@ -40,6 +40,8 @@ Les plans de service inclus dans cette offre sont les suivants :
 - SharePoint Online Kiosk
 - Balancement
 - Yammer Enterprise
+
+L’offre peut être affectée à un maximum de 500 000 utilisateurs par client. La licence d’évaluation alloue 2 Go de stockage SharePoint Online pour chaque utilisateur d’évaluation.
 
 ## <a name="who-is-eligible"></a>Qui est éligible
 
