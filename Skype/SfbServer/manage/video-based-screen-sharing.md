@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype pour les informations de planification et la configuration de Business Server pour le partage d’écran vidéo (VbSS)
-ms.openlocfilehash: 8f76fbe0879cc9abd452d8b1e0064627c215b20e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a658453af5f71d7bb8103411ed16c534e3004a03
+ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968325"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935474"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vidéo en fonction de partage d’écran pour Skype pour Business Server 
  
@@ -120,7 +120,7 @@ Il existe des situations où le partage d’écran passera à RDP, comme celles-
 - Si votre compte est hébergé dans un environnement où l'ASMCU n'est pas conforme à la version minimale prenant en charge VbSS.
 - Si une personne qui utilise une version antérieure de la Skype pour client Business rejoint la session, par exemple tout le monde à l’aide de n’importe quelle version de client Windows qui est inférieure à 16.0.6330.1000, Skype pour les périphériques de système métier salle ou Skype pour les applications métier Mobile. 
 - Si un utilisateur partage à partir de la Skype pour l’application Web de gestion.
-- Si une personne utilise Skype pour Businesson Mac et n'est pas hébergée sur Skype pour Business Online.
+- Si une personne utilise Skype pour les entreprises sur Mac et pas est hébergée sur Skype pour Business Online.
 - Si un utilisateur démarre un partage de programme/Windows.
 - Si un utilisateur démarre la session d’enregistrement.
 - Si un utilisateur appelle le contrôle d'appel distant lors de la session.
