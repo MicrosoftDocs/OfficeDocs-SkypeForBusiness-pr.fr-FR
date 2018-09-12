@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
 description: Microsoft établit des partenariats avec certains fournisseurs SBC afin de certifier leur SBC pour une utilisation avec le routage direct.
-ms.openlocfilehash: f233bdfcb579bbab3d9c9a13f0ab500a8c512d2e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 3fd72cf49af1e865bc1354e3c2bba73796c30ea1
+ms.sourcegitcommit: b3304459b4ac19d0782982d8e975202decfac4d5
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850834"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "23949248"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs SBC certifiés pour le routage direct
 
@@ -52,5 +52,6 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |     | SBC SWe  |   &#10004;    |    En attente     |    V6.2      |
 |     |SBC 1000   |     &#10004;   |     En attente    |    V7.0.2   |&#10004; 
 |     | SBC 2000    |     &#10004;   |    En attente     |    V7.0.2      |
+|     | SBC SWeLite     |&#10004; | En attente | V7.0.4
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    Think 365 SBC      |  &#10004;       |    En attente     |   V1.4       |
 |     |         |         |         |         |
