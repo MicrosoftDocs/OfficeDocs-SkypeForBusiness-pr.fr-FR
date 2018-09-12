@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 27f074526da7c63ecfdcfab912650e514c3717b3
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0f23fc6ca106530f64e9854150d922b8a32da7d2
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867002"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937834"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 
@@ -112,18 +112,18 @@ Le tableau suivant indique les dimensions actuellement disponibles dans le table
 |Duration 60 seconds or more  <br/> |Boléen  <br/> |Vrai si la durée du flux était de 60 secondes ou plus, sinon, faux.  |**Exemple de valeur :** true  <br/> |
 |Duration (Seconds)  <br/> |Portée (secondes)  <br/> |Durée du flux en secondes. Valeurs ventilées par portée. |  **Exemple de valeur :** 062 : [1 -2)  <br/> |
 |Duration (Minutes)  <br/> |Portée (minutes)  <br/> |Durée du flux en minutes. Valeurs ventilées par portée. |  **Exemple de valeur :** 065 : [3-4)  <br/> |
-|Date  <br/> |Chaîne  <br/> |Date de fin de flux.  |**Exemple de valeur :** 2018-06-01  <br/> |
-|Year  <br/> |Entier  <br/> |Année de la fin du flux.  | **Exemple de valeur :** 2018  <br/> |
-|Month  <br/> |Entier  <br/> |Mois de la fin du flux.  | **Exemple de valeur :** 2  <br/> |
-|Day  <br/> |Entier  <br/> |Jour de la fin du flux.  |**Exemple de valeur :** 1  <br/> |
-|Hour  <br/> |Entier  <br/> |Heure de la fin du flux.  | **Exemple de valeur :** 1  <br/> |
-|Minute  <br/> |Entier  <br/> |Minutes de la fin du flux.  | **Exemple de valeur :** 30  <br/> |
-|Second  <br/> |Entier  <br/> |Seconde de la fin du flux.  |**Exemple de valeur :** 12  <br/> |
-|Day Of Year  <br/> |Entier  <br/> |Jour de l’année de la fin du flux.  | **Exemple de valeur :** 32  <br/> |
-|Day Of Week  <br/> |Chaîne  <br/> |Jour de semaine de la fin du flux.  | **Exemple de valeur :** Mercredi  <br/> |
-|Day Number Of Week  <br/> |Entier  <br/> |Nombre de jours de la semaine de la fin du flux.  | **Exemple de valeur :** 3  <br/> |
-|Month Year  <br/> |Chaîne  <br/> |Mois et année de la fin du flux.  |**Exemple de valeur :** 2017-02  <br/> |
-|Full Month  <br/> |Date  <br/> |Mois complet de la fin du flux.  | **Exemple de valeur :** 01-02-2017 T00:00:00  <br/> |
+|Date  <br/> |Chaîne  <br/> |Date de fin de flux. Les valeurs sont indiquées dans le fuseau horaire UTC.  |**Exemple de valeur :** 2018-06-01  <br/> |
+|Year  <br/> |Entier  <br/> |Année de la fin du flux. Les valeurs sont indiquées dans le fuseau horaire UTC.  | **Exemple de valeur :** 2018  <br/> |
+|Month  <br/> |Entier  <br/> |Mois de la fin du flux. Les valeurs sont indiquées dans le fuseau horaire UTC.  | **Exemple de valeur :** 2  <br/> |
+|Day  <br/> |Entier  <br/> |Jour de la fin du flux. Les valeurs sont indiquées dans le fuseau horaire UTC.  |**Exemple de valeur :** 1  <br/> |
+|Hour  <br/> |Entier  <br/> |Heure de la fin du flux. Les valeurs sont indiquées dans le fuseau horaire UTC.  | **Exemple de valeur :** 1  <br/> |
+|Minute  <br/> |Entier  <br/> |Minutes de la fin du flux. Les valeurs sont indiquées dans le fuseau horaire UTC.  | **Exemple de valeur :** 30  <br/> |
+|Second  <br/> |Entier  <br/> |Seconde de la fin du flux. Les valeurs sont indiquées dans le fuseau horaire UTC.  |**Exemple de valeur :** 12  <br/> |
+|Day Of Year  <br/> |Entier  <br/> |Jour de l’année de la fin du flux. Les valeurs sont indiquées dans le fuseau horaire UTC.  | **Exemple de valeur :** 32  <br/> |
+|Day Of Week  <br/> |Chaîne  <br/> |Jour de semaine de la fin du flux. Les valeurs sont indiquées dans le fuseau horaire UTC.  | **Exemple de valeur :** Mercredi  <br/> |
+|Day Number Of Week  <br/> |Entier  <br/> |Nombre de jours de la semaine de la fin du flux. Les valeurs sont indiquées dans le fuseau horaire UTC.  | **Exemple de valeur :** 3  <br/> |
+|Month Year  <br/> |Chaîne  <br/> |Mois et année de la fin du flux. Les valeurs sont indiquées dans le fuseau horaire UTC.  |**Exemple de valeur :** 2017-02  <br/> |
+|Full Month  <br/> |Date  <br/> |Mois complet de la fin du flux. Les valeurs sont indiquées dans le fuseau horaire UTC.  | **Exemple de valeur :** 2017-02-01T00:00:00  <br/> |
 |First Domain  <br/> |Chaîne  <br/> |Domaine de l'utilisateur du premier point de terminaison. Si le premier point de terminaison est un serveur de téléconférence, il s'agit du domaine de l'organisateur de la réunion. Il peut aussi s'agir du domaine des comptes du service utilisés dans le scénario.  <br/> |**Exemple de valeur :** contoso.com  <br/> |
 |Second Domain  <br/> |Chaîne  <br/> |Domaine de l'utilisateur du deuxième point de terminaison. Si le deuxième point de terminaison est un serveur de téléconférence, il s'agit du domaine de l'organisateur de la réunion. Il peut aussi s'agir du domaine des comptes du service utilisés dans le scénario.  | **Exemple de valeur :** contoso.com  <br/> |
 |First User Agent Category  <br/> |Chaîne  <br/> |Catégorie de l'agent utilisateur du premier point de terminaison.  <br/> |Les valeurs non renseignées indiquent un agent utilisateur qui n'a actuellement pas de mappage, par exemple un agent utilisateur tiers.  <br/>  **Exemple de valeur :** OC  <br/> |
@@ -198,15 +198,15 @@ Le tableau suivant indique les dimensions actuellement disponibles dans le table
 |Second DNS Suffix  <br/> |Chaîne  <br/> |Suffixe DNS associé à l'adaptateur réseau communiqué par le deuxième point de terminaison. Remarque : cette valeur peut être communiquée pour n'importe quel type d'adaptateur réseau.  <br/> |Les valeurs non renseignées indiquent une valeur non communiquée par le point de terminaison.  <br/>  **Exemple de valeur :** corp.contoso.com  <br/> |
 |First Wifi Band  <br/> |Chaîne  <br/> |Bande Wifi utilisée par le premier point de terminaison.  <br/> |Les valeurs non renseignées indiquent que la valeur n'a pas été analysée par le point de terminaison ou pas communiquée. <br/>  **Exemple de valeur :** 5,0 Ghz  <br/> |
 |Second Wifi Band  <br/> |Chaîne  <br/> |Bande Wifi utilisée par le deuxième point de terminaison.  <br/> |Les valeurs non renseignées indiquent que la valeur n'a pas été analysée par le point de terminaison ou pas communiquée.   <br/> **Exemple de valeur :** 5,0 Ghz  <br/> |
-|First Wifi Signal Strength  <br/> |Chaîne  <br/> |Force du signal Wifi en pourcentage (0-99), communiquée par le premier point de terminaison.  <br/> |Les valeurs non renseignées indiquent que la valeur n'a pas été analysée par le point de terminaison ou pas communiquée.  <br/> **Exemple de valeur :** 081 : [90-100)  <br/> |
-|Second Wifi Signal Strength  <br/> |Chaîne  <br/> |Force du signal Wifi en pourcentage (0-99), communiquée par le deuxième point de terminaison.  <br/> |Les valeurs non renseignées indiquent que la valeur n'a pas été analysée par le point de terminaison ou pas communiquée.  <br/> **Exemple de valeur :** 081 : [90-100)  <br/> |
+|First Wifi Signal Strength  <br/> |Chaîne  <br/> |Wi-Fi intensité du signal en pourcentage [0-100] signalé par le premier point de terminaison.  <br/> |Les valeurs non renseignées indiquent que la valeur n'a pas été analysée par le point de terminaison ou pas communiquée.  <br/> **Exemple de valeur :** 081 : [90-100)  <br/> |
+|Second Wifi Signal Strength  <br/> |Chaîne  <br/> |Wi-Fi intensité du signal en pourcentage [0-100] signalé par le deuxième point de terminaison.  <br/> |Les valeurs non renseignées indiquent que la valeur n'a pas été analysée par le point de terminaison ou pas communiquée.  <br/> **Exemple de valeur :** 081 : [90-100)  <br/> |
 |First Wifi Battery Charge  <br/> |Plage (pourcentage)  <br/> |Charge de la batterie restante estimée en pourcentage (0-99), communiquée par le premier point de terminaison. Valeurs ventilées par plage. 0 indique que l'appareil était branché.  <br/> |Les valeurs non renseignées indiquent que le WiFi n'était pas utilisé ou que la valeur de charge n'a pas été communiquée. <br/>   **Exemple de valeur :** 081 : [90-100)  <br/> |
 |Second Wifi Battery Charge  <br/> |Plage (pourcentage)  <br/> |Charge de la batterie restante estimée en pourcentage (0-99), communiquée par le deuxième point de terminaison. Valeurs ventilées par plage. 0 indique que l'appareil était branché.  <br/> |Les valeurs non renseignées indiquent que le WiFi n'était pas utilisé ou que la valeur de charge n'a pas été communiquée.  <br/>  **Exemple de valeur :** 081 : [90-100)  <br/> |
 |Audio Degradation Avg  <br/> |Plage (note moyenne d'opinion 0-5)  <br/> |Dégradation moyenne de la note moyenne d'opinion réseau pour le flux. Elle représente l'impact des pertes ou des gigues au niveau du réseau sur l'audio reçu. Valeurs ventilées par plage.  <br/> |Les valeurs non renseignées indiquent qu'aucune dégradation de la note MOS qualité réseau n'a été communiquée par le point de terminaison recevant le flux ou qu'il ne s'agit pas d'un flux audio.   <br/> **Exemple de valeur :** 015 : [0.01-0.02)  <br/> |
 |Jitter  <br/> |Plage (millisecondes)  <br/> |Gigue moyenne pour le flux, en millisecondes. Valeurs ventilées par plage.  <br/> |Les valeurs non renseignées indiquent qu'aucune donnée de gigue n'a été communiquée par le point de terminaison recevant le flux.  <br/> **Exemple de valeur :** 065 : [2-3)  <br/> |
 |Jitter Max  <br/> |Plage (millisecondes)  <br/> |Gigue maximum pour le flux, en millisecondes. Valeurs ventilées par plage.  <br/> |Les valeurs non renseignées indiquent qu'aucune donnée de gigue n'a été communiquée par le point de terminaison recevant le flux.   <br/> **Exemple de valeur :** 065 : [2-3)  <br/> |
-|Packet Loss Rate  <br/> |Plage (pourcentage)  <br/> |Taux moyen de perte de paquets pour le flux. Valeurs ventilées par plage.  <br/> |Les valeurs non renseignées indiquent qu'aucune perte de données n'a été communiquée par le point de terminaison recevant le flux.  <br/>  **Exemple de valeur :** 050 : [1.8-1.9)  <br/> |
-|Packet Loss Rate Max  <br/> |Plage (pourcentage)  <br/> |Taux maximum de perte de paquets pour le flux. Valeurs ventilées par plage.  <br/> |Les valeurs non renseignées indiquent qu'aucune perte de données n'a été communiquée par le point de terminaison recevant le flux.   <br/> **Exemple de valeur :** 041 : [0.95-1)  <br/> |
+|Packet Loss Rate  <br/> |Plage (proportion)  <br/> |Taux moyen de perte de paquets pour le flux. Valeurs ventilées par plage. 0,1 indique 10 % de perte de paquets.  <br/> |Les valeurs non renseignées indiquent qu'aucune perte de données n'a été communiquée par le point de terminaison recevant le flux.  <br/>  **Exemple de valeur :** 015 : [0.01-0.02)  <br/> |
+|Packet Loss Rate Max  <br/> |Plage (proportion)  <br/> |Taux maximum de perte de paquets pour le flux. Valeurs ventilées par plage. 0,1 indique 10 % de perte de paquets.  <br/> |Les valeurs non renseignées indiquent qu'aucune perte de données n'a été communiquée par le point de terminaison recevant le flux.   <br/> **Exemple de valeur :** 023 : [0.09-0.1)  <br/> |
 |Overall Avg Network MOS  <br/> |Plage (MOS)  <br/> |Moyenne de la note MOS qualité réseau pour le flux. Valeurs ventilées par plage.  <br/> |Les valeurs non renseignées indiquent qu'aucune dégradation de la note MOS qualité réseau n'a été communiquée par le point de terminaison recevant le flux ou qu'il ne s'agit pas d'un flux audio.   <br/> **Exemple de valeur :** 076 : [4.4-4.5)  <br/> |
 |Ratio Concealed Samples Avg  <br/> |Plage (proportion)  <br/> |Proportion du nombre de trames audio avec échantillons générés par un masquage de perte de paquets par rapport au nombre total de trames audio. Valeurs ventilées par plage. 0,1 indique que 10 % des trames contiennent des échantillons masqués.  <br/> |Les valeurs non renseignées indiquent que cette valeur n'a pas été communiquée par le destinataire du flux ou que le flux n'est pas un flux audio.   <br/> **Exemple de valeur :** 015 : [0.01-0.02)  <br/> |
 |Ratio Stretched Samples Avg  <br/> |Plage (proportion)  <br/> |Proportion du nombre de trames audio avec échantillons étendus pour compenser une gigue ou une perte par rapport au nombre total de trames audio. Valeurs ventilées par plage. 0,1 indique que 10 % des trames contiennent des échantillons étendus.  <br/> |Les valeurs non renseignées indiquent que cette valeur n'a pas été communiquée par le destinataire du flux ou que le flux n'est pas un flux audio.  <br/>  **Exemple de valeur :** 017 : [0.03-0.04)  <br/> |
@@ -471,8 +471,8 @@ Le tableau suivant indique les mesures actuellement disponibles dans le tableau 
 |Avg Audio Degradation  <br/> |Note moyenne d'opinion (0-5)  <br/> |Dégradation de la moyenne réseau de la note moyenne d'opinion pour les flux. Elle représente l'impact de la perte et de la gigue réseau sur la qualité de l'audio reçu.  <br/> |
 |Avg Jitter  <br/> |Millisecondes  <br/> |Gigue réseau moyenne pour les flux, en millisecondes.  <br/> |
 |Avg Jitter Max  <br/> |Millisecondes  <br/> |Gigue réseau maximale pour les flux, en millisecondes.  <br/> |
-|Avg Packet Loss Rate  <br/> |Pourcentage  <br/> |Moyenne du pourcentage moyen de perte de paquets calculé au moyen d'un intervalle de cinq secondes pour les flux.  <br/> |
-|Avg Packet Loss Rate Max  <br/> |Pourcentage  <br/> |Moyenne du pourcentage maximal de perte de paquets lors de tout intervalle de cinq secondes pour les flux.  <br/> |
+|Avg Packet Loss Rate  <br/> |Taux  <br/> |Moyenne du pourcentage moyen de perte de paquets calculé au moyen d'un intervalle de cinq secondes pour les flux. 0,1 indique 10 % de perte de paquets.  <br/> |
+|Avg Packet Loss Rate Max  <br/> |Taux  <br/> |Moyenne du pourcentage maximal de perte de paquets lors de tout intervalle de cinq secondes pour les flux. 0,1 indique 10 % de perte de paquets.  <br/> |
 |Avg Overall Avg Network MOS  <br/> |Note moyenne d'opinion (0-5)  <br/> |Moyenne ou moyenne réseau de la note moyenne d'opinion pour les flux. Elle représente la qualité moyenne prédite de l'audio reçu tenant compte de la perte réseau, la gigue et les codecs.  <br/> |
 |Avg Ratio Concealed Samples  <br/> |Taux  <br/> |Moyenne du taux moyen du nombre de trames audio avec des échantillons générés par le masquage de perte de paquets par rapport au nombre total d'échantillons pour les flux. 0,1 indique que 10 % des trames contient des échantillons masqués.  <br/> |
 |Avg Ratio Stretched Samples  <br/> |Taux  <br/> |Moyenne du taux moyen du nombre de trames audio avec des échantillons étirés pour compenser la gigue ou la perte par rapport au nombre total d'échantillons pour les flux. 0,1 indique que 10 % des trames contiennent des échantillons étirés.  <br/> |

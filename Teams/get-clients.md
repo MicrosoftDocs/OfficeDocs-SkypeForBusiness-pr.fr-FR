@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbadb9324942cdb354570673a0fd923c9e04bdbd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 134d6d310762bc43d578085fd3f1031112307ee9
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891328"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937882"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 ===========================
@@ -48,11 +48,15 @@ L’installation de Microsoft Teams pour Windows fournit des programmes d’inst
 > [!NOTE]
 > L’architecture (32 bits et 64 bits) de Microsoft Teams est indépendante de l’architecture de Windows et Office est installé.
 
-Le client Windows est déployé dans le dossier AppData situé dans le profil de l'utilisateur. Le déploiement dans le profil local de l'utilisateur permet d'installer le client sans disposer de droits élevés. Le client Windows est installé aux emplacements suivants :
+Le client Windows est déployé dans le dossier AppData situé dans le profil de l’utilisateur. Déploiement sur le profil d’utilisateur local permet au client d’être installé sans disposer de droits élevés. Le client Windows tire parti des emplacements suivants :
 
-- %appdata%\\local\\Microsoft\\Teams
+- %LocalAppData%\\Microsoft\\équipes
 
-- %appdata%\\roaming\\Microsoft\\Teams
+- %LocalAppData%\\Microsoft\\TeamsMeetingsAddin
+
+- %AppData%\\Microsoft\\équipes
+
+- %LocalAppData%\\SquirrelTemp
 
 Lorsque les utilisateurs lancer un appel à l’aide du client Microsoft Teams pour la première fois, ils peuvent noter un avertissement vous demandant aux utilisateurs permettre la communication avec les paramètres du pare-feu Windows. Les utilisateurs peuvent demander à ignorer ce message, car l’appel fonctionne, même lorsque le message d’avertissement est rejeté.
 

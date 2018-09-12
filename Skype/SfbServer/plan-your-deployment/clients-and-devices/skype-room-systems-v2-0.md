@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Cet article explique les considérations de planification pertinentes pour le déploiement de systèmes de salle Skype v2, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: b62e062eebfd9a79cf49b98fe6f477a0288f71d1
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: f793753b6fad2c544a4ab845b5cd220792a9b8d1
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601947"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937841"
 ---
 # <a name="plan-skype-room-systems-v2"></a>Plan de salle Skype systèmes v2 
 
@@ -50,7 +50,7 @@ Outre la combinaison de Surface Pro / station d’accueil, vous pouvez égalemen
 
 En règle générale, les groupes et les unités intégrées incluent les logiciels préinstallés, tandis que si vous achetez des composants pris en charge pour les systèmes de Surface Pro, vous devez installer le logiciel. Pour plus d’informations, consultez [cet article sur l’installation des logiciels sur des appareils](../../deploy/deploy-clients/room-systems-scale.md). 
 
-Vous pouvez déployer des systèmes de salle Skype v2 avec Skype pour Business Online ou Skype pour les déploiements de hybride ou sur site Business. Prise en charge Microsoft Teams très seront prochainement disponibles.
+Vous pouvez déployer des systèmes de salle Skype v2 avec Skype pour Business Online ou Skype pour les déploiements de hybride ou sur site Business.  Pour plus d’informations sur les licences nécessaires, voir [systèmes de salle Skype v2 licences](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) .
 
 |    |     |
 |-----------|------------|

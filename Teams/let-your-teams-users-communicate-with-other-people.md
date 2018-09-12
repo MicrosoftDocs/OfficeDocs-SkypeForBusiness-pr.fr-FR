@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Découvrez comment configurer des équipes pour permettre aux utilisateurs de communiquer avec les utilisateurs d’une autre organisation.
-ms.openlocfilehash: 39be4ddb1a9f42382de30c04d3e81a990aad3547
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: da76d75ba44215b11b68550fa06d1fab87f19e56
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863104"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937826"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Laissez votre conversation d’utilisateurs équipes et communiquer avec les utilisateurs d’une autre organisation d’équipes
 
@@ -46,11 +46,13 @@ Procédez comme suit :
 
    2. En haut de la page **d’accès externe** , cliquez sur **accès externe** **activé**. 
 
-   3. Ajouter le domaine de l’autre organisation à la liste autorisée en cliquant sur **Ajouter domaine**. Dans le volet **Ajouter un domaine** , placez dans le domaine, cliquez sur nom **autorisé** , puis sur **terminé**.
+   3. Si vous souhaitez autoriser toutes les organisations d’équipes de communiquer avec les utilisateurs de votre organisation, passez à l’étape 5. 
+   
+   4. Si vous souhaitez limiter les organisations peuvent communiquer avec des utilisateurs dans votre organisation, vous pouvez ajouter domaine de l’autre organisation à la liste autorisée en cliquant sur **Ajouter domaine**. Dans le volet **Ajouter un domaine** , placez dans le domaine, cliquez sur nom **autorisé** , puis sur **terminé**.
 
    4. Cliquez sur **Enregistrer**. 
 
-   5. Vérifiez que l’administrateur de l’autre organisation équipes est ces étapes. Par exemple, dans sa liste de **domaines autorisés**, l'administrateur de l'autre organisation doit entrer le domaine de votre entreprise.
+   5. Vérifiez que l’administrateur de l’autre organisation équipes est ces étapes. Par exemple, dans leur liste des **domaines autorisés** , leur administrateur a besoin d’entrer le domaine de votre entreprise si elles définir les organisations peuvent communiquer avec leurs utilisateurs. 
 
 ### <a name="step-3---test-it"></a>Étape 3 : tester
 Pour tester votre configuration, vous avez besoin d’un utilisateur d’équipes qui n’est pas derrière votre pare-feu.
@@ -65,24 +67,24 @@ Pour tester votre configuration, vous avez besoin d’un utilisateur d’équipe
 
 ## <a name="communicate-with-users-in-a-skype-for-business-online-organization"></a>Communiquer avec les utilisateurs dans un Skype pour une organisation Business en ligne
 
-Si vous le configurez jusqu'à let vos utilisateurs équipes rechercher et contacter les utilisateurs qui se trouvent dans un Skype pour l’organisation de l’entreprise, vous serez l’administrateur dans cette organisation, procédez comme suit.
+Si vous le configurez pour laisser votre recherche d’utilisateurs équipes et les contacts des utilisateurs qui se trouvent dans un Skype pour l’organisation de l’entreprise qui limite qui peut contacter leurs utilisateurs, vous allez demander à l’administrateur dans cette organisation, procédez comme suit.
 
 ![SFB-logo-30x30.png](media/sfb-logo-30x30.png) **à l’aide de Skype entreprise centre d’administration** 
 
 Disposer de l’administrateur dans cette organisation procédez comme suit :
     
-1. Dans le Centre d'administration Office 365, allez dans **Centres d'administration** > **Skype Entreprise**.
+1. Dans le centre d’administration Office 365, accédez au **Centre d’administration** > **équipes & Skype** > **portail hérité**.
   
 2. Dans le **centre d'administration de Skype Entreprise**, sélectionnez **Organisation** > **Communications externes**.
     
 3. Pour configurer la communication avec une entreprise spécifique ou des utilisateurs dans un autre domaine, dans la zone de liste déroulante, cliquez **sur uniquement pour les domaines autorisés**.
     
-    Ou, si vous souhaitez activer les communications avec toute personne disposant de stratégies Skype Entreprise ouvertes, sélectionnez **Activer sauf pour les domaines bloqués**. Il s'agit du paramètre par défaut.
+    OU, s’il souhaite permettre la communication avec tout le monde dans le monde qui a ouvert Skype pour les stratégies d’entreprise, choisissez **sur à l’exception des domaines bloqués**. Il s'agit du paramètre par défaut.
     
 4. Sous **bloqué ou des domaines autorisés**, choisissez **+** et ajoutez le nom du domaine que vous souhaitez autoriser. Assurez-vous que l’administrateur de l’autre organisation est la même procédure. Par exemple, dans sa liste de **domaines autorisés**, l'administrateur de l'autre organisation doit entrer le domaine de votre entreprise.
     
 ### <a name="related-topics"></a>Rubriques connexes
 
-[Connecter les équipes](sign-in-teams.md)
+[Se connecter à Microsoft Teams](sign-in-teams.md)
 [utilisateur final de formation pour les équipes](enduser-training.md)
 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone aux États-Unis (et à Porto Rico) pour Skype Entreprise Online et Microsoft Teams.
-ms.openlocfilehash: 25070ff377489994101b82b9b34c74c82989c546
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: bb1599a3127ffb7a07ec6001a5b2b78831ae320f
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883049"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23938007"
 ---
 # <a name="phone-number-management-for-the-us"></a>Gestion des numéros de téléphone pour les États-Unis
 
@@ -42,7 +42,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 |Vous devez remplacer le numéro d'un utilisateur par un numéro de service.  <br/> |[Envoyez-nous](mailto:ptn@microsoft.com) votre code confidentiel et la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. Pour configurer un code confidentiel, cliquez [ici](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
 |Vous devez transférer les numéros d'une organisation Office 365 vers une autre.  <br/> |[Envoyez-nous](mailto:ptn@microsoft.com) la liste des numéros de téléphone d'utilisateur (d'abonné) que vous souhaitez transférer avec le code confidentiel de l'organisation source depuis laquelle vous souhaitez transférer les numéros. Pour configurer un code confidentiel, cliquez [ici](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Rubriques connexes 
 
 [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

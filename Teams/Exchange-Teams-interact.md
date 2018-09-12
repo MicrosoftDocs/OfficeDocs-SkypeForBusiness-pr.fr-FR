@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2655e96ceccbfdc0a915af370820a913471a3a4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f4c3f795df06735c735ac29b6f46c6c8d8e9d46c
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891449"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937865"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams 
 =========================================
@@ -37,8 +37,8 @@ Le tableau suivant fournit des informations aux utilisateurs pour lesquels Excha
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
 |**vNext Exchange Online dédié**|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
-|**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c))|Non|Non|Oui|Non|Non|Oui|Oui|Non|Oui (Exchange 2013 +)|Non|Oui|Oui|
-|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c))|Non|Non|Oui|Oui (Exchange 2016 CU3 +)|Non|Oui|Oui|Non|Oui (Exchange 2013 +)|Non|Non|Oui|
+|**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Non|Non|Oui|Non|Non|Oui|Oui|Non|Non|Non|Oui|Oui|
+|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Non|Non|Oui|Oui (Exchange 2016 CU3 +)|Non|Oui|Oui|Non|Non|Non|Non|Oui|
                                                             
 *\*Prise en charge d'Exchange 2016 CU3 et versions ultérieures*
 

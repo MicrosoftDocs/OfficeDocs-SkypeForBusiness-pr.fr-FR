@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Les connecteurs permettent à votre équipe de rester informée en fournissant directement à votre canal du contenu et des mises à jour provenant des services que vous utilisez fréquemment.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bb29766d17ea51fdac1e898fdfa6fde72526314
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7b5a0af4327169c6ba8b640e48184591002c94ea
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867596"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937875"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Utiliser des connecteurs Office 365 et personnalisés dans Microsoft Teams
 =======================================================
@@ -25,7 +25,7 @@ Les connecteurs permettent à votre équipe de rester informée en fournissant d
 
 N’importe quel membre d’une équipe peut se connecter leur équipe aux services de cloud populaires avec les connecteurs si l’utilisation de l’équipe des autorisations, et tous les membres de l’équipe sont avertis des activités de ce service. Connecteurs continuent de fonctionner même après le membre qui est initialement le connecteur a quitté le programme d’installation. N’importe quel membre de l’équipe avec les autorisations à ajouter/supprimer peut modifier le programme d’installation de connecteurs par d’autres membres.
 
-Les connecteurs Office 365 peuvent être utilisés avec des groupes Microsoft Teams et Office 365, ce qui facilite la synchronisation de tous les membres et leur permet de recevoir rapidement des informations pertinentes. Microsoft Teams et Exchange utilisent le même modèle de connecteurs, ce qui vous permet d'utiliser les mêmes connecteurs sur les deux plateformes.
+Connecteurs d’Office 365 peuvent être utilisés avec les deux Teams Microsoft et Office 365, facilitant pour tous les membres des groupes restent synchronisés et recevoir des informations pertinentes rapidement. Microsoft Teams et Exchange utilisent le même modèle de connecteur, ce qui vous permet d’utiliser les mêmes connecteurs dans les deux plateformes. Il est important de noter, toutefois, que la désactivation des connecteurs pour le groupe Office 365 dont dépend une équipe désactive la possibilité de créer des connecteurs d’ainsi que l’équipe.
 
 Actuellement, les connecteurs peuvent être ajoutés à l'aide des clients de bureau et Web Microsoft Teams. Toutefois, les informations publiées par ces connecteurs peuvent être affichées à l'aide de **tous les clients** y compris mobiles.
 

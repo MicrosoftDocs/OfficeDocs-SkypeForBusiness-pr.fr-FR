@@ -3,22 +3,22 @@ title: Présentation de la sécurité et de la conformité dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: Ce document présente les fonctionnalités de sécurité et de conformité de Microsoft Teams, notamment les fonctions d'audit, de rapport, de recherche de contenu de conformité, eDiscovery, etc.
+description: Vue d’ensemble des fonctionnalités de sécurité et de conformité de Microsoft Teams, y compris l’audit et création de rapports, recherche de contenu de la conformité, eDiscovery et plus.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a2cf9a0b34be89b493b75473fb89efee6943977
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fc686b520c9bd765539ff5fd9f636bc876583a41
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887039"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937897"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
@@ -224,14 +224,16 @@ Contenu de recherche et de découverte électronique ne nécessitent pas de pris
 <a name="location-of-data-in-teams"></a>Emplacement des données dans Teams
 -------------------------
 
-Les données dans Teams résident dans la région géographique associée à votre client Office 365. Actuellement, Teams prend en charge les régions Amériques, EMEA et APAC. 
+Les données dans Teams résident dans la région géographique associée à votre client Office 365. Actuellement, les équipes prend en charge les régions Australie, Canada, Inde, au Japon, UK, Amérique, APAC et EMEA. 
 
 > [!IMPORTANT]
-> Les équipes offre actuellement délégation de données dans le Royaume-Uni, au Canada et en Inde pour les nouveaux clients uniquement. Tout client qui ne possédait pas d'utilisateur unique inscrit dans Teams est considéré comme un nouveau client. Les clients existants à partir de Royaume-Uni, au Canada et en Inde continuera à rester dans les régions EMEA et APAC Amérique, respectivement, jusqu'à ce qu’un plan de migration est annoncé (anticipée dans CY2019).
+> Équipes propose actuellement délégation données Australie, Canada, Inde, au Japon et au Royaume-Uni pour les nouveaux clients uniquement. Tout client qui ne possédait pas d'utilisateur unique inscrit dans Teams est considéré comme un nouveau client. Clients existants d’Australie, Inde et Japon continuera à leurs données équipes stocké dans la région APAC. Les clients existants au Canada et au Royaume-Uni auront leurs données stockées en Amérique et la région EMEA, respectivement.
 
-Pour plus d'informations sur le lancement de la résidence des données de Teams au Royaume-Uni et en Inde, lisez l’article de blog d’Ansuman Acharya, [Microsoft Teams launches India Data Residency, other geos coming soon](https://go.microsoft.com/fwlink/?linkid=867773) (Microsoft Teams lance la résidence des données en Inde, d’autres régions géographiques seront couvertes prochainement). 
+Pour plus d'informations sur le lancement de la résidence des données de Teams au Royaume-Uni et en Inde, lisez l’article de blog d’Ansuman Acharya, [Microsoft Teams launches India Data Residency, other geos coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827) (Microsoft Teams lance la résidence des données en Inde, d’autres régions géographiques seront couvertes prochainement). 
 
-Pour plus d’informations sur la délégation de données Canada pour les équipes, voir [équipes Microsoft lance la délégation données Canada, Australie et Japon bientôt disponible](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
+Pour plus d’informations sur la délégation des données Canada pour les équipes, lisez le billet de blog de Varun Sagar [équipes Microsoft lance la délégation données Canada, Australie et Japon bientôt disponible](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
+
+Pour en savoir plus sur le lancement de la délégation de données Australie et Japon pour les équipes, lisez le billet de blog de Varun Sagar [Microsoft équipes lance Australie et Japon données délégation ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
 Pour savoir quelle région héberge les données de votre client, accédez au [Centre d’administration Office 365](https://portal.office.com/adminportal/home) > **Paramètres** > **Profil de l’organisation**. Défilez jusqu’à la section **Emplacement des données**. 
 
@@ -240,9 +242,9 @@ Pour savoir quelle région héberge les données de votre client, accédez au [C
 <a name="how-do-conditional-access-policies-work-for-teams"></a>Comment les stratégies d’accès conditionnel ne fonctionnent pas pour les équipes ?
 -------------------------
 
-Microsoft Teams appuie sur Exchange Online, SharePoint Online et Skype pour les entreprises en ligne pour les scénarios de productivité principaux, tels que des réunions, calendriers, conversations interop et partage de fichiers. Stratégies d’accès conditionnel qui sont définis pour ces applications dans le cloud s’appliquent à Microsoft Teams lorsqu’un utilisateur se connecte directement dans Teams Microsoft - sur un client. 
+Teams Microsoft s’appuie fortement sur Exchange Online, SharePoint Online et Skype pour Business Online pour les scénarios de productivité principaux, tels que des réunions, des calendriers, conversations interopérabilitées et partage de fichiers. Stratégies d’accès conditionnel qui sont définis pour ces applications dans le cloud s’appliquent à Microsoft Teams lorsqu’un utilisateur directement se connecte à Microsoft Teams - sur un client. 
 
-Teams Microsoft est pris en charge séparément comme une application cloud dans les stratégies d’accès conditionnel Azure Active Directory. Stratégies d’accès conditionnel qui sont définis pour l’application du cloud Microsoft Teams s’appliquent à Microsoft Teams lorsqu’un utilisateur se connecte. Toutefois, sans les stratégies appropriées sur les autres applications, telles que Exchange Online et SharePoint Online les utilisateurs peuvent toujours être en mesure d’accéder directement à ces ressources. Pour plus d’informations sur la configuration d’une stratégie d’accès conditionnel dans le portail azure, accédez à : ()https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+Teams Microsoft est pris en charge séparément comme une application cloud dans les stratégies d’accès conditionnel Azure Active Directory. Stratégies d’accès conditionnel qui sont définis pour l’application du cloud Microsoft Teams s’appliquent à Microsoft Teams lorsqu’un utilisateur se connecte. Toutefois, sans les stratégies appropriées sur les autres applications, telles que Exchange Online et SharePoint Online, les utilisateurs peuvent toujours être en mesure d’accéder directement à ces ressources. Pour plus d’informations sur la configuration d’une stratégie d’accès conditionnel dans le portail azure, accédez à : ()https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
 Clients de bureau Teams Microsoft pour Windows et Mac prend en charge l’authentification moderne. Authentification moderne permet de connexion-basé sur le Azure Active Directory authentification bibliothèque (ADAL) pour les applications clientes Microsoft Office sur plusieurs plates-formes.
 
