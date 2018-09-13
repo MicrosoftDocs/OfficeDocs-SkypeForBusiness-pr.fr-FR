@@ -10,16 +10,15 @@ ms.reviewer: MyAdvisor
 description: Guide pratique pour la planification, le déploiement et la gestion des systèmes téléphoniques avec forfaits d'appels dans Microsoft Teams avec l'infrastructure Planifier (Programmer), Intégrer (Fournir), Générer une valeur ajoutée (Utiliser).
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 1ef49826026d2a172f5d01b161eb1dfc17fd55b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
+ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884127"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965522"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Guide pratique des systèmes téléphoniques avec forfaits d'appels dans Microsoft Teams
 =========================================================================

@@ -10,16 +10,15 @@ ms.reviewer: MyAdvisor, lolaj
 description: Guide pratique pour la planification, le déploiement et la gestion de l’audioconférence dans Microsoft Teams avec l'infrastructure Planifier (Programmer), Intégrer (Fournir), Générer une valeur ajoutée (Utiliser).
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 95c7be7f2f6f20db80531cb51ef573ecff96872e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e611b66efb09091303c98dba6c3cdf55d693bc8c
+ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892793"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965530"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Guide pratique pour l’audioconférence dans Microsoft Teams
 ============================================================

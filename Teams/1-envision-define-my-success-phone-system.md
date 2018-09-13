@@ -10,16 +10,15 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Mesurer les résultats de votre système téléphonique avec l’appel des Plans de déploiement et vérifiez que vous avez obtenu les résultats que vous souhaitiez.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 9e0ee1e1ca92bdcf94d89b2bc27e8ec56ebdc4c2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0817b661d79a6adc5d3c85635dce579a841f1b49
+ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887076"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965506"
 ---
 # <a name="define-my-success"></a>Définir mon réussite
 
