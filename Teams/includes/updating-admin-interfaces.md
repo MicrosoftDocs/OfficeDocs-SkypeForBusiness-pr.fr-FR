@@ -1,0 +1,1 @@
+Nous mettons fréquemment à jour la façon dont vous pouvez gérer les fonctionnalités de Microsoft Teams. Par conséquent, les étapes décrites ici peuvent être légèrement différentes.
