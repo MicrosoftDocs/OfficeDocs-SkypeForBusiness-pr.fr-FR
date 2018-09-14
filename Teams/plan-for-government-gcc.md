@@ -3,7 +3,7 @@ title: Planification de Microsoft pour le gouvernement 365 - déploiements GCC -
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 07/26/2018
+ms.date: 09/14/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 430b6c6de5468442f7a290b07b28eb59d276e00c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 34c13d9094512a52c334acf2b660b11b6579c886
+ms.sourcegitcommit: 63c391ce9144ba5b296050ac189f77f5cea78707
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885771"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "23973685"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan pour Microsoft 365 gouvernement - déploiements GCC
 
@@ -66,8 +66,7 @@ Pour prendre en compte les exigences de nos clients du nuage gouvernement, il ex
 | Un canal de messagerie             | L’architecture actuelle de la fonctionnalité n’est pas pris en charge dans les plans pour le gouvernement. |
 | Présence unifiée            | Nous sommes travail fin de nos clients professionnels tout d’abord pour cette fonctionnalité importante. Il sera disponible pour les clients pour le gouvernement à l’avenir. |
 | Conversation interopérabilitée entre équipes & SfB utilisateurs            | Interopérabilité dépend de Service de présence unifiée (UPS) et ne peut pas fonctionner tant que GCC équipes clients sont activées pour l’onduleur. |
-
-| Notifications de messagerie | L’architecture actuelle de la fonctionnalité n’est pas pris en charge dans les plans américains. Le travail est en cours pour rendre cette fonctionnalité accessible aux clients américains des plans à l’avenir. |
+| Notifications par courrier électronique         | L’architecture actuelle de la fonctionnalité n’est pas pris en charge dans les plans américains. Le travail est en cours pour rendre cette fonctionnalité accessible aux clients américains des plans à l’avenir. |
 
 
 |    |     |
