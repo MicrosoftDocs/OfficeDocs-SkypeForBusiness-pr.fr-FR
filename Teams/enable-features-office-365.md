@@ -15,19 +15,19 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86fa8178b52c621c664afc49edd4f8d2c81c1fea
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0ff482ccd6486fcab836565033a0cf7e02517717
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882052"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965619"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gérer les fonctionnalités de Microsoft Teams dans votre organisation Office 365
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Tous les paramètres d’équipes seront bientôt migrés au nouveau Microsoft Teams & Skype entreprise centre d’administration. La seule fonctionnalité équipes qui est gérée dans le centre d’administration Office 365 est apps. 
+Tous les paramètres d’équipes seront bientôt migrés au nouveau Microsoft Teams & Skype entreprise centre d’administration. La seule fonctionnalité équipes qui est gérée dans le centre d’administration Office 365 est Apps. 
 
 Sauf indication contraire, une option est activée par défaut.
 

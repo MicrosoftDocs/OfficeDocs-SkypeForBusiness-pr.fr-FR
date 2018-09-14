@@ -3,18 +3,19 @@ title: Utiliser l’outil de récupération de systèmes de salle Skype v2
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: davgroom
 ms.date: 4/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article explique comment utiliser l’outil de récupération pour les systèmes de salle Skype v2, que vous utilisez pour intégrer un système obsolète à un état pris en charge.
-ms.openlocfilehash: cd8e05be686cef1df44f364c515a6116edf06209
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 04bce72f6a8812c35b92f9f92d445cdf8765d110
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504977"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965988"
 ---
 # <a name="use-the-skype-room-systems-v2-recovery-tool"></a>Utiliser l’outil de récupération de systèmes de salle Skype v2
  

@@ -2,6 +2,7 @@
 title: Gestion à distance des paramètres d'une console Skype Room Systems v2 à l'aide d'un fichier de configuration XML
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: Cet article décrit la gestion à distance des paramètres par défaut utilisé par un périphérique Skype salle systèmes v2, y compris l’application d’un thème personnalisé.
-ms.openlocfilehash: 1d8891ab318cac6849b5b6701a8aac7b87185bd6
-ms.sourcegitcommit: 38f3757feb82aeff0c03d8a3f0dde77a4cdde2ae
+ms.openlocfilehash: 55a2dc3de11c4fbe8540740a52fe29a377264545
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "22602003"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965974"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Gestion à distance des paramètres d'une console Skype Room Systems v2 à l'aide d'un fichier de configuration XML
  

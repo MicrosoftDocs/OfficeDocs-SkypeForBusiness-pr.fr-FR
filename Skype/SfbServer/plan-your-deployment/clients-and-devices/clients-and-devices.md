@@ -1,7 +1,8 @@
 ---
 title: Planifier des clients et des appareils
 ms.author: jambirk
-author: PhillipGarding
+author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018
 ms.audience: ITPro
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Résumé : Examen des clients pris en charge et des applications pour Skype pour les entreprises.'
-ms.openlocfilehash: 5b2d40a783f556bd1fb25a2da7237e77c2b6af9d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 63981e9fbdc19eeeebc6b19b37f51f901a9493a2
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882185"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965719"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planifier des clients et des appareils
 

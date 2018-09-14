@@ -1,7 +1,8 @@
 ---
 title: Prise en charge de la version
 ms.author: jambirk
-author: davgroom
+author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit la prise en charge du cycle de vie pour les systèmes de salle Skype v2.
-ms.openlocfilehash: 86f71f1ddd554c9a9d368cdb725367a368257453
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: c1a7daf7d107fc7ad05bdcc6a0fe9c1d113630e9
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601954"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965932"
 ---
 # <a name="version-support"></a>Prise en charge de la version
  

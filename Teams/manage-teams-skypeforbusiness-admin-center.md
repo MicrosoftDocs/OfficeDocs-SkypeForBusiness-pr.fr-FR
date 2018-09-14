@@ -1,5 +1,5 @@
 ---
-title: Gérer les équipes pendant la transition vers le nouveau Microsoft Teams et Skype entreprise centre d’administration
+title: Gérer les équipes pendant la transition vers le nouveau Microsoft Teams & Skype entreprise centre d’administration
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 1e334e4978ea645527273a79f49ed097038fcb36
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dddb73e5b616fead421d1b610eff6229b4191d06
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885435"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965698"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>Gérer les équipes pendant la transition vers le nouveau Microsoft Teams et Skype entreprise centre d’administration
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Gérer les équipes pendant la transition vers le nouveau Microsoft Teams & Skype entreprise centre d’administration
 ======================================================
 
 Le nouveau centre d'administration Microsoft Teams et Skype Entreprise sera disponible prochainement ! 
@@ -41,6 +41,7 @@ La nouvelle expérience du centre d’administration vous fournira une expérien
 
 ![Capture d’écran des équipes Microsoft et Skype entreprise centre d’administration.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
+## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Paramètres migrés vers le nouveau Microsoft Teams & Skype entreprise centre d’administration
 
 À compter de la mi-mars 2018, les fonctionnalités suivantes étaient disponibles dans le nouveau Microsoft Teams & Skype entreprise centre d’administration : 
 
@@ -49,15 +50,9 @@ La nouvelle expérience du centre d’administration vous fournira une expérien
 - **Les équipes Microsoft invité paramètres de messagerie**: contrôler les fonctionnalités de messagerie pour les comptes invité dans Microsoft Teams. 
 - **Paramètres de fédération**: gérer la fédération entre clients pour Microsoft Teams et Skype pour les entreprises. 
 - **Gestion des utilisateurs**: attribuer des stratégies et configurer des comptes d’utilisateurs. 
-- **Audioconférence**: configurer les paramètres pour Skype pour les entreprises et Teams Microsoft et les numéros de téléphone. 
+- **Audioconférence**: configurer les paramètres pour Skype pour les entreprises et Teams Microsoft et les numéros de téléphone.  
 
- 
-
-## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Paramètres migrés vers le nouveau Microsoft Teams & Skype entreprise centre d’administration
-
-Vos paramètres existants pour général, messagerie intégration, personnalisé stockage en nuage, appels et des réunions et la messagerie dans Microsoft Teams (voir l’image ci-dessous) seront migrées vers le nouveau Microsoft Teams & Skype pour Business Admin Center (également connu sous le nouveau portail d’administration) dans les prochains mois. 
-
-
+En outre, vos paramètres existants pour général, messagerie intégration, personnalisé stockage en nuage, appels et des réunions et la messagerie dans Microsoft Teams ont maintenant été migrés vers le nouveau Microsoft Teams & Skype pour Business Admin Center (également connu sous le nouveau Admin portail). 
 
 > [!NOTE]
 >Vous allez continuer à utiliser le tableau de bord de groupes dans le centre d’administration d’Office 365 pour configuration relatives aux **équipes et canaux**. Paramètres pour les **applications** restent dans la zone équipes du centre d’administration d’Office 365 et doit être migrés ultérieurement. 
@@ -66,11 +61,9 @@ Vos paramètres existants pour général, messagerie intégration, personnalisé
 
 En ce qui concerne les paramètres disponibles dans les **paramètres par type de licence d’utilisateur**, il fourni essentiellement un moyen de configurer des groupes d’utilisateurs différemment. À présent, avec le nouveau portail d’administration, vous pouvez le faire dans par utilisateur. 
 
-
 Le type de licence doit être migré. Si vous utilisez actuellement le paramètre **Équipes Microsoft activer ou désactiver pour tous les utilisateurs de ce type** pour contrôler l’accès aux équipes pour les utilisateurs entre les versions clientes, nous conserve vos configurations actuelles. Toutefois, vous ne pourrez pas modifier ce paramètre dans le nouveau portail d’administration. Au lieu de cela, vous allez attribuer les licences appropriés aux utilisateurs dans votre client via le centre d’administration Office 365. Pour plus d’informations, voir [gérer l’accès utilisateur aux équipes de Microsoft](user-access.md). 
 
-Le tableau suivant identifie les sections de l’expérience d’équipes en cours qui seront migrés et indique la relation entre les paramètres et les stratégies dans le nouveau portail d’administration.
-
+Le tableau suivant identifie les sections de l’expérience d’équipes en cours qui ont été migrées et indique la relation entre les paramètres et les stratégies dans le nouveau portail d’administration.
 
 |Section d’équipes dans le centre d’administration d’Office 365  |Nom du paramètre (niveau client)  |Microsoft Teams & Skype pour la stratégie d’entreprise centre d’administration   |Niveau : Client ou utilisateur   |
 |---------|---------|---------|---------|
@@ -102,10 +95,7 @@ Le tableau suivant identifie les sections de l’expérience d’équipes en cou
 |Messagerie     |Permet aux utilisateurs de chat privé         |TeamsMessagingPolicy         |Utilisateur         |
 
 
-
 ## <a name="manage-settings-during-the-migration"></a>Gérer les paramètres lors de la migration
-
-Nous prévoyons de migrer les paramètres d’équipes dans les sections dans l’ordre suivant : messagerie, réunions, les appels et enfin, les sections de la stratégie de Configuration TeamsClient (général, l’intégration de messagerie et de stockage en nuage personnalisé).   
 
 Vous pouvez continuer à modifier les paramètres dans le centre d’administration d’Office 365 et le Skype pour le centre d’administration Business jusqu'à ce que la migration d’une section est terminée pour votre client. 
 
