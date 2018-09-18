@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: bb291c8bd338fa88d5d9b5788413c5e687fc0864
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23883778"
@@ -32,7 +32,7 @@ Microsoft Teams rassemble toutes les fonctionnalités d'Office 365, pour fourn
 
 Prêt à l'emploi, Microsoft Teams utilise les identités stockées dans Azure Active Directory (Azure AD) et s'intègre aux autres services dans Office 365, pour créer un site SharePoint Online et une boîte aux lettre de groupe Exchange Online pour chaque équipe créée.
 
-Toute personne possédant un compte de messagerie consommateur ou de l’entreprise, comme Outlook, Gmail ou d’autres personnes, peut participer à en tant qu’invité dans les équipes. Tous les invités dans les équipes sont couverts par la même conformité et audit protection en tant que le reste d’Office 365 et les invités peuvent être gérées de manière sécurisée dans Azure AD. Administrateurs peuvent centraliser gérer comment participer à des invités dans leur environnement Office 365 et facilement afficher, ajouter ou révoquer l’accès au client d’hôte d’un invité.
+Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams. Tous les invités dans Teams bénéficient de la même protection en matière de conformité et d’audit que les autres utilisateurs d’Office 365, et les invités peuvent être gérés en toute sécurité dans Azure AD. Les administrateurs peuvent gérer de façon centralisée la manière dont les invités participent au sein de leur environnement Office 365 et afficher, ajouter ou révoquer facilement l’accès d’un invité au client hôte.
 
 Teams fournit une fonctionnalité de conversation permanente, d’appels et réunions et permet d’accéder facilement aux autres composants d’Office 365, et offre également des possibilités d’extension.  Vous disposez ainsi d'une plateforme dédiée au travail en équipe qui est appropriée pour les grandes entreprises, les petites organisations et les entreprises de taille intermédiaire.  
 
@@ -45,15 +45,15 @@ Teams est basé sur des technologies Microsoft existantes interreliées par d'au
 
 Prête à l'emploi, une équipe créée dans Teams formera un groupe Office 365 avec un site SharePoint Online associé ainsi qu'une bibliothèque de documents, une boîte aux lettres Exchange Online qui sera utilisé par Teams pour stocker des informations, telles que des invitations à des réunions. Une équipe peut être créée à l'aide de groupes Office 365 existants, ce qui permet de transférer les adhésions de groupe, le contenu stocké dans SharePoint Online et dans Exchange Online vers Teams.
 
-Pour compléter la capacité des équipes comme un forum de conversation permanente où des conversations en temps réel informelles ont lieu, les équipes également fournit un appel et expérience reposant sur le prochaine génération basée sur le cloud infrastructure qui est également utilisé par Skype et Skype pour la réunion Business. Ces investissements technologiques incluent les services cloud Azure pour le traitement multimédia et la signalisation, le codec vidéo H.264, le codec audio SILK et Opus, la résilience réseau, la télémétrie et le diagnostic de qualité.
+Pour compléter la fonctionnalité Teams comme outil de conversation permanente permettant de mener des conversations informelles en temps réel, Teams fournit également une expérience d'appels et de réunions basée sur l'infrastructure cloud de nouvelle génération, qui est également utilisée par Skype et Skype Entreprise. Ces investissements technologiques incluent les services cloud Azure pour le traitement multimédia et la signalisation, le codec vidéo H.264, le codec audio SILK et Opus, la résilience réseau, la télémétrie et le diagnostic de qualité.
 
 Les groupes Office 365 utilisent les identités stockées dans Azure Active Directory (Azure AD) et en tant que tel, toutes les fonctionnalités d'authentification et d'autorisation dans Azure AD, comme la prise en charge de l’authentification multifacteur, sont déjà disponibles dans Teams.
 
 > [!NOTE]
-> En fonction des commentaires des clients, les nouveaux groupes de 365 Office générés suite à la création d’une équipe dans Microsoft Teams n’apparaît plus dans Outlook par défaut. Pour les clients qui vous souhaitez continuer avec le comportement de l’affichage de ces groupes dans Outlook existant, une applet de commande Exchange Online PowerShell est fournie qui permettent le groupe pour l’expérience Outlook. Groupes créés via Outlook et activé plus tard pour les équipes continuera à afficher dans Outlook et les équipes. Cette mise à jour sera progressivement roll out entre Outlook et les équipes dans les mois à venir.
+> Suite aux commentaires des clients, les nouveaux groupes Office 365 générés après la création d’une équipe dans Microsoft Teams ne seront plus affichés dans Outlook par défaut. Pour les clients qui souhaitent que ces groupes restent affichés dans Outlook, une applet de commande Exchange Online PowerShell pouvant activer le groupe dans Outlook sera fournie. Les groupes créés par l’intermédiaire d’Outlook puis activés par la suite pour Teams continueront à s’afficher dans Outlook et Teams. Cette mise à jour sera déployée progressivement dans Outlook et Teams au cours des prochains mois.
 
 
-<a name="microsoft-teams-and-office-365"></a>Microsoft Teams et Office 365
+<a name="microsoft-teams-and-office-365"></a>Microsoft Teams et Office 365
 ------------------------------
 
 Les besoins des groupes divergent en fonction de leur rôle et de leur mode de travail. Office 365 est conçu pour s'adapter au mode de travail unique de chaque groupe et inclut, entre autres, les applications dédiées et intégrées suivantes :
@@ -74,9 +74,9 @@ Voici quelques scénarios d'utilisation courants pour chaque application dans Of
 
 -   Utilisée par les utilisateurs et les équipes pour collaborer en temps réel dans le même groupe de membres
 
--   Aide les équipes qui souhaitent retravailler rapidement sur un projet tout en partageant des fichiers et en collaborant sur des livrables partagés
+-   Aide les équipes qui souhaitent retravailler rapidement sur un projet tout en partageant des fichiers et en collaborant sur des livrables partagés.
 
--   Permet aux utilisateurs de se connecter une large gamme d’outils dans leur espace de travail (telles que le planificateur, Power BI, référentiels, etc.).
+-   Permet aux utilisateur de se connecter à une large gamme d'outils dans leur espace de travail (Planificateur, Power BI, GitHub, etc.)
 
 ![Icône Microsoft Outlook.](media/Overview_of_Microsoft_Teams_image2.png)
 

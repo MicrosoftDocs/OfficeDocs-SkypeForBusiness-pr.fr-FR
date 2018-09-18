@@ -15,7 +15,7 @@ appliesto:
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
 ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
 ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/13/2018
 ms.locfileid: "23965522"
@@ -325,7 +325,7 @@ Pour obtenir des numéros de téléphone directement auprès de Microsoft, utili
 
 - [Centre d'administration Skype Entreprise](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Applets de commande de Windows PowerShell à distance](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Envoyer un formulaire nouvelle demande de numéro de téléphone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Soumettre un formulaire de demande de nouveau numéro de téléphone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 Le formulaire de demande de nouveau numéro de téléphone convient mieux à l'acquisition d'un numéro de téléphone planifié car vous pouvez demander un ensemble de numéros de téléphone consécutifs. L'obtention de numéros de téléphone à l'aide du centre d'administration Skype Entreprise ou de Windows PowerShell à distance n'est pas disponible dans tous les pays ou régions.
 
@@ -439,9 +439,9 @@ Il existe 25 règles de normalisation au maximum dans chaque plan de numérotat
 > Si cela est applicable à votre projet, vous pouvez utiliser les modèles suivants pour documenter les configurations de plans de numérotation de client :
 >|Nom du plan de numérotation de client<br>_Description  |Nom des règles de normalisation<br>_Description_  |Modèle<br>Conversion<br>IsInternalExtension  |
 >|---------|---------|---------|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000 – x7999) du bureau 39 quai du Président Roosevelt, Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+>|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000 – x7999) du bureau 39 quai du Président Roosevelt, Issy-les-Moulineaux, France_|^(7\j{3})$<br>+3319999$1<br>True|
+>||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^0?(80\j{7})\d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^(1\j{1,2}\|11[68]\j{3}\|10\jj{2}\|3\j{3})$<br>$1<br>False|
 
 <br>
 > [!TIP]

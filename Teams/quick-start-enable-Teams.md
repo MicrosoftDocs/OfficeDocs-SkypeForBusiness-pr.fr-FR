@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 56033a3efc5e163ddd67f6f45bff590204c03783
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882082"
@@ -47,7 +47,7 @@ Regardez cette courte vidéo avec des conseils pratiques à prendre en compte lo
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Si Microsoft Teams n’est pas activée dans votre organisation cliente Office 365 et que vous êtes un administrateur de procéder de Office 365 les instructions de notre article [gérer l’accès utilisateur aux équipes](user-access.md) pour vérifier vos utilisateurs ont accès à l’application.
+Si Microsoft Teams n’est pas activé dans votre client Office 365 et que vous êtes un administrateur d’Office 365, suivez les instructions de notre article [Gérer l’accès des utilisateurs à Teams](user-access.md) pour vous assurer que vos utilisateurs ont accès à l’application.
 
 ## <a name="step-3-complete-technical-planning"></a>Étape 3 : effectuer une planification technique
 

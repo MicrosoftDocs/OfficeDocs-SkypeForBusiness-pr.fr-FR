@@ -1,5 +1,5 @@
 ---
-title: Définir les langues de standard automatique pour une audioconférence dans Microsoft Teams
+title: Définir les langues du standard automatique d’audioconférence dans Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,40 +15,40 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Voir comment sélectionner les langues standard automatique de conférence audio pour un nombre de services d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: 4be8da4bf65d189c2bfba5ceb8dd6cc7a1cbee53
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: MT
+description: Cette section explique comment sélectionner les langues du standard automatique d’audioconférence d’un numéro d’audioconférence dans Microsoft Teams.
+ms.openlocfilehash: 73498e348b45b0fa2d9996344b569a92320a06b6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853374"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23893017"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Définir les langues de standard automatique pour une audioconférence dans Microsoft Teams
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Définir les langues du standard automatique d’audioconférence dans Microsoft Teams
 
-Le standard automatique de conférence Audio pour Microsoft Teams peut accueillir les appelants audio dans un certain nombre de différentes langues lorsqu’ils rejoignent une réunion.
+Le standard automatique d’audioconférence pour Microsoft Teams peut accueillir les appelants dans différentes langues lorsqu'ils rejoignent une réunion.
   
-Choisir une langue principale et jusqu’à quatre langues secondaires. La langue principale que vous avez définie est utilisée en premier et les langues secondaires seront utilisés par le standard automatique que vous sélectionnez. 
+Sélectionnez la langue principale et jusqu’à quatre langues secondaires. La langue principale que vous définissez sera utilisée en premier, tandis que les langues secondaires seront utilisées par le standard automatique dans l'ordre que vous sélectionnez. 
   
 > [!NOTE]
->  Vous pouvez configurer les langues sur les numéros d’accès audio interne uniquement.
+>  Vous ne pouvez configurer les langues que pour les numéros d'accès nationaux.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir des langues standard automatique de la conférence
+## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir les langues du standard automatique d’audioconférence
 
-1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**.
+1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence).
 
-2. Sélectionnez le numéro de téléphone de conférence audio à partir de la liste, puis en haut de la page, cliquez sur **Modifier**.
+2. Sélectionnez le numéro de téléphone d’audioconférence dans la liste et, en haut de la page, cliquez sur **Modifier**.
 
-3. Dans le volet de droite, sélectionnez la langue par défaut et les autres langues. 
+3. Dans le volet de droite, sélectionnez la langue par défaut souhaitée et les autres langues éventuelles. 
  
     > [!NOTE]
-    > La valeur par défaut et autres langues prises en charge sont répertoriés. L’ordre dans lequel vous sélectionnez dans les listes sera l’ordre des langues présentées aux appelants. 
+    > La langue principale et les langues secondaires prises en charge sont répertoriées. L'ordre dans lequel vous sélectionnez les langues dans les listes correspondra à l'ordre dans lequel elles seront proposées aux appelants. 
 
 4. Cliquez sur **Enregistrer**.
 
@@ -61,9 +61,9 @@ Choisir une langue principale et jusqu’à quatre langues secondaires. La langu
     
 - Pour voir une liste des pays/régions dans lesquels l’audioconférence dans Office 365 utilisant Microsoft en tant que fournisseur est disponible, voir [Numéros de téléphone pour l’audioconférence](phone-numbers-for-audio-conferencing-in-teams.md).
     
-## <a name="want-to-use-windows-powershell"></a>Vous souhaitez utiliser Windows PowerShell ?
+## <a name="want-to-use-windows-powershell"></a>Vous souhaitez utiliser PowerShell ?
 
-Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
+Pour des informations complémentaires, consultez la rubrique [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
   
 ## <a name="related-topics"></a>Rubriques connexes
 

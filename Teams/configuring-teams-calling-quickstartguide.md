@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 86a4862a547df6f50d0831616a42824d9f8c3287
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882097"
@@ -35,25 +35,25 @@ En ajoutant les forfaits d'appels (une fonction Office 365 avec Skype Entrepri
 ![Appel dans Teams](media/Calling_in_Teams.png)
 
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Prérequis à l'activation de l'onglet **Appels** dans Teams
-Pour activer l'onglet **Appels** dans Teams et permettre à vos utilisateurs de passer et recevoir des appels PSTN, vous devez leur fournir un système téléphonique et un forfait d'appels. Pour en savoir plus à ce sujet, lisez [Configurer des forfaits d'appels](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans).
+Pour activer l'onglet **Appels** dans Teams et permettre à vos utilisateurs de passer et recevoir des appels PSTN, vous devez leur fournir un système téléphonique et un forfait d'appels. Pour savoir comment les configurer, reportez-vous à la section [Configurer des forfaits d'appels](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans).
 
 ## <a name="teams-interop-policy-configuration"></a>Configuration de la stratégie d'interopérabilité de Teams
-Pour activer les équipes commencer à recevoir des appels, vous devez mettre à jour la stratégie de mise à niveau d’équipes et équipes interopérabilité la stratégie, à l’aide des [équipes Microsoft & Skype entreprise centre d’administration](https://aka.ms/teamsadmincenter) ou une session Windows PowerShell à distance avec le Skype pour les entreprises [ `*-CsTeamsUpgradePolicy`et `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) applets de commande pour rediriger les appels vers les équipes.
+Pour permettre à Teams de commencer à recevoir des appels, vous devez mettre à jour la stratégie de mise à niveau de Teams et la stratégie d'interopérabilité de Teams à l’aide du [Centre d’administration de Microsoft Teams et Skype Entreprise](https://aka.ms/teamsadmincenter), ou d'une session Windows PowerShell avec les applets de commande de Skype Entreprise [`*-CsTeamsUpgradePolicy` et `*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype) afin de rediriger les appels vers Teams.
 
-Pour plus d’informations sur la stratégie de mise à niveau équipes et équipes PIA, voir [Migration et l’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
+Pour plus d’informations sur la stratégie de mise à niveau de Teams et la stratégie d’interopérabilité de Teams, reportez-vous à la rubrique [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
 
 > [!TIP]
-> Pour rechercher les applets de commande PowerShell que vous avez besoin, tapez « CsTeamsUpgradePolicy » ou « CsTeamsInteropPolicy » dans la zone **filtre** dans la [Skype pour la documentation d’applet de commande PowerShell Business](https://docs.microsoft.com/powershell/module/skype).
+> Pour rechercher les applets de commande PowerShell dont vous avez besoin, entrez « CsTeamsUpgradePolicy » ou « CsTeamsInteropPolicy » dans la zone **Filtre** de la [documentation des applets de commande PowerShell de Skype Entreprise](https://docs.microsoft.com/powershell/module/skype).
 
-### <a name="default-teams-upgrade-and-interop-policies"></a>Par défaut des équipes de stratégies de mise à niveau et interopérabilités
-Teams intègre une configuration de stratégie par défaut conçue pour garantir l'ininterruption des flux de travail professionnels existants pendant le déploiement de Teams. Par défaut, les appels de type Voix sur IP, RTC et fédérés vers vos utilisateurs continuent d'être acheminés vers Skype Entreprise jusqu'à la mise à jour de la stratégie permettant d'activer les appels entrants vers Teams. Vous avez ainsi la garantie que les services vocaux ne seront pas interrompus de manière imprévue à la mise en place et au déploiement de Teams.
+### <a name="default-teams-upgrade-and-interop-policies"></a>Stratégies de mise à niveau et d’interopérabilité de Teams par défaut
+Teams intègre une configuration de stratégie par défaut conçue pour garantir que les flux de travail de l’entreprise existants ne soient pas interrompus pendant un déploiement de Teams. Par défaut, les appels de type Voix sur IP, RTC et fédérés vers vos utilisateurs continuent d'être acheminés vers Skype Entreprise jusqu'à la mise à jour de la stratégie permettant d'activer les appels entrants vers Teams. Vous avez ainsi la garantie que les services vocaux ne seront pas interrompus de manière imprévue lors de la phase pilote et du déploiement de Teams.
 
-Mise à niveau de stratégie par défaut est conservée au mode hérité qui respecte la stratégie d’interopérabilité de base équipes pour déterminer où des conversations et les appels sont routés--les équipes des équipes ou Skype pour les entreprises.
+La stratégie de mise à niveau de Teams par défaut est laissée en mode hérité qui respectera la stratégie d’interopérabilité de Teams pour déterminer où les conversations et appels sont dirigés - Teams ou Skype Entreprise.
 
 > [!NOTE]
-> Stratégie de mise à niveau les comportements d’équipes et stratégie interopérabilité équipes change bientôt comme décrit dans la [Migration et l’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+> Les comportements de la stratégie de mise à niveau de Teams et de la stratégie d’interopérabilité de Teams seront modifiés prochainement. Reportez-vous à la rubrique [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-La stratégie d'interopérabilité de Teams possède la configuration par défaut suivante :
+La stratégie d'interopérabilité de Teams a la configuration par défaut suivante :
 
     Identity                   : Global
     AllowEndUserClientOverride : False
@@ -68,33 +68,33 @@ Comportements de la configuration par défaut :
 > Les utilisateurs ayant reçu une licence de système téléphonique et de forfait d'appels pour Skype Entreprise Online et utilisant la stratégie d'interopérabilité générale par défaut de Teams auront accès à l'onglet Appels dans Teams et pourront passer des appels RTC sortants à partir de Teams sans intervention des administrateurs.
 
 ## <a name="configuring-teams-to-receive-inbound-pstn-calls"></a>Configuration de Teams pour recevoir des appels PSTN entrants
-Pour recevoir des appels entrants de PSTN dans les équipes, vous devez configurer des équipes par défaut appelant en appliquant une stratégie de mise à niveau équipes avec la stratégie d’interopérabilité de base équipes correspondante qui définit l’application `CallingDefaultClient` paramètre aux équipes.
+Pour recevoir des appels PSTN entrants dans Teams, vous devez configurer Teams en tant qu'application d'appel par défaut en appliquant la stratégie de mise à niveau de Teams avec la stratégie d'interopérabilité de Teams correspondante qui définit le paramètre `CallingDefaultClient` sur Teams.
 
 > [!IMPORTANT]
 > Nous vous recommandons d'appliquer cette configuration à l'ensemble initial des utilisateurs pour découvrir ces nouvelles fonctionnalités d'appel dans Teams avant d'apporter des modifications à plus grande échelle ou dans l'ensemble de votre organisation.
 
-Si vous choisissez de continuer à utiliser la stratégie de mise à niveau équipes héritée, permet de la stratégie d’interopérabilité de base équipes préconfigurée suivante pour acheminer des appels PSTN entrants aux équipes :
+Si vous choisissez de continuer à utiliser la stratégie de mise à niveau de Teams héritée, utilisez la stratégie d’interopérabilité de Teams préconfigurée suivante pour acheminer les appels PSTN entrants vers Teams :
 
     Identity                   : Tag:DisallowOverrideCallingTeamsChatTeams
     AllowEndUserClientOverride : False
     CallingDefaultClient       : Teams
     ChatDefaultClient          : Teams
 
-Si vous choisissez d’utiliser la stratégie de mise à niveau équipes mis à jour, vous devez affecter le mode TeamsOnly à vos utilisateurs.
+Si vous choisissez d’utiliser la stratégie de mise à niveau de Teams mise à jour, vous devez attribuer le mode TeamsOnly à vos utilisateurs :
 
-Comportements de la stratégie ci-dessus :
-* **Pour les clients Skype Entreprise existants**, cette stratégie est conçue pour rediriger les appels vers Teams. Elle comprend les appels de type Voix sur IP (de Teams et Skype Entreprise) et les appels PSTN. 
+Les comportements de la stratégie ci-dessus sont les suivants :
+* **Pour les clients Skype Entreprise existants**, cette stratégie est conçue pour rediriger les appels vers Teams. Elle inclut les appels Voix sur IP (depuis Teams et Skype Entreprise) et les appels PSTN. 
 * **Pour les clients sans Skype Entreprise**, le cas échéant, les appels PSTN seront reçus dans Teams.
 
 > [!WARNING]
-> Basculer de `CallingDefaultClient` vers Teams affectera également les appels vers les téléphones IP Skype Entreprise. Les appels entrants ne seront pas reçus sur les téléphones et seuls les clients Teams entendront la sonnerie. Consultez la [Feuille de route de l'évolution des fonctionnalités entre Skype Entreprise et Microsoft Teams](https://aka.ms/skype2teamsroadmap) pour en savoir plus sur la prise en charge des téléphones SIP certifiés existants.
+> Actuellement, si basculer `CallingDefaultClient` vers Teams affectera également les appels vers les téléphones IP Skype Entreprise. Les appels entrants ne seront pas reçus sur les téléphones et seuls les clients Teams entendront la sonnerie. Consultez la [Feuille de route de l'évolution des fonctionnalités entre Skype Entreprise et Microsoft Teams](https://aka.ms/skype2teamsroadmap) pour en savoir plus sur la prise en charge des téléphones SIP certifiés existants.
 
-### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Comment configurer les utilisateurs pour la réception de PSTN des appels dans les équipes
-Lorsque vous utilisez la stratégie de mise à niveau équipes héritée, appliquer la stratégie de PIA équipes comme indiqué ci-dessus par le biais de Skype pour la session Windows PowerShell à distance Business pour rediriger les appels vers les équipes :
+### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Configuration des utilisateurs pour qu'ils reçoivent les appels PSTN dans Teams
+Si vous utilisez la stratégie de mise à niveau de Teams héritée, appliquez la stratégie d'interopérabilité de Teams comme indiqué ci-dessus via la session Windows PowerShell distante de Skype Entreprise pour rediriger les appels vers Teams :
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-Si vous choisissez d’utiliser le mode TeamsOnly, vous pouvez modifier le mode de coexistence de l’utilisateur à TeamsOnly via Microsoft Teams & Skype entreprise centre d’administration ou Skype pour la session Windows PowerShell à distance Business pour rediriger les appels vers les équipes :
+Si vous choisissez d’utiliser le mode TeamsOnly, vous pouvez modifier le mode de coexistence des utilisateurs sur TeamsOnly via le Centre d’administration de Microsoft Teams et Skype Entreprise, ou via la session Windows PowerShell de Skype Entreprise pour rediriger les appels vers Teams :
 
     Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
@@ -102,7 +102,7 @@ Si vous choisissez d’utiliser le mode TeamsOnly, vous pouvez modifier le mode 
 ## <a name="see-also"></a>Voir aussi
 [Configurer des forfaits d'appels](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-[Guide de migration et d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 [Guide pratique des systèmes téléphoniques avec forfaits d'appels dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
 

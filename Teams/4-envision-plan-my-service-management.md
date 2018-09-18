@@ -1,5 +1,5 @@
 ---
-title: Planifier la gestion du service Microsoft Teams
+title: Planifier la gestion des services Microsoft´Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -8,53 +8,53 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Soumettre et mettre à jour un déploiement de haute qualité à la planification des rôles opérationnels et en affectant un champion de qualité.
+description: Livrez et gérez un déploiement de haute qualité en planifiant les rôles opérationnels et en attribuant un rôle de champion de la qualité.
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a690bca5512aa7f3969a82e414156ee461ea6250
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23889422"
 ---
-# <a name="plan-my-service-management"></a>Planifier la gestion de mon service
+# <a name="plan-my-service-management"></a>Planifier ma gestion des services
 
-Cet article donne une vue d’ensemble de la configuration requise qui sont nécessaires pour fournir et mettre à jour un déploiement de Microsoft Teams haute qualité. Pour garantir un déploiement réussi en planifiant pour la gestion des services et de la qualité durant la phase de prévoir, avant le premier déploiement pilote ou de production.
+Cet article donne une vue d'ensemble des conditions nécessaires à la livraison et au maintien d'un déploiement de Microsoft Teams de haute qualité. Vous pouvez aider à assurer un déploiement réussi en planifiant la gestion et la qualité du service pendant la phase de Conception, avant votre premier déploiement pilote ou de production.
 
-## <a name="service-management-for-teams"></a>Gestion des services pour les équipes
+## <a name="service-management-for-teams"></a>Gestion des services de Teams
 
-Gestion des services est un sujet vaste qui traite des opérations quotidiennes du service Microsoft Teams après que qu’il a été déployé et activé pour les utilisateurs. Le service d’équipes englobe Microsoft Office 365 et les composants d’infrastructure qui sont déploiement en local (par exemple, mise en réseau).
+La gestion des services est un vaste sujet qui couvre les opérations quotidiennes du service Microsoft Teams après son déploiement et son activation pour les utilisateurs. Le service Teams englobe Microsoft Office 365 et les composants d'infrastructure déployés sur site (par exemple, la mise en réseau).
 
-La notion de gestion des services n’est probablement pas un nouveau concept pour la plupart des organisations. Vous probablement avez déjà mise en œuvre des processus et les tâches qui sont associés à des services existants. Cela étant dit, vous pouvez enrichir probablement que vous avez en place lorsque vous planifiez aujourd'hui pour la gestion de service prendre en charge Microsoft Teams à l’avenir.
+La notion de gestion des services n'est probablement pas un concept nouveau pour la plupart des organisations. Vous avez probablement déjà mis en œuvre des processus et des tâches qui sont associés à des services existants. Cela dit, vous pouvez probablement augmenter ce que vous avez en place lorsque vous planifiez la gestion des services aujourd'hui pour soutenir Microsoft Teams à l'avenir.
 
-Gestion des services comprend toutes les activités et processus impliqués dans la gestion de Microsoft Teams bout en bout. Certains composants de gestion de service, les composants d’infrastructure qui comprend le service Office 365 lui-même — sont responsabilité de Microsoft, tandis que le client est responsable à ses utilisateurs à gérer les différents aspects des équipes, le réseau, et points de terminaison qu’ils fournissent.
-Pour obtenir une description complète de la responsabilité du client pour la gestion des équipes de service et sa relation avec les composants clés pour favoriser la qualité de l’expérience utilisateur, voir [planifier la gestion des services et de la qualité](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
+La gestion des services englobe toutes les activités et processus impliqués dans la gestion de bout en bout de Microsoft Teams. Certaines composantes de la gestion des services - les composantes de l'infrastructure que le service Office 365 comprend lui-même, relèvent de la responsabilité de Microsoft, alors que le client est responsable devant ses utilisateurs de la gestion des différents aspects de Teams, du réseau et des points de terminaison qu'il fournit.
+Pour une analyse détaillée de la responsabilité du client quant à la gestion du service Teams et de son incidence sur les principales composantes qui contribuent à la qualité de l’expérience utilisateur, reportez-vous à la rubrique [Plan de gestion du service et de la qualité](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
 
-![Diagramme des trois composants de qualité--service Office 365, de réseau et de systèmes d’extrémité--et de la gestion du service chevauche trois.] (media/plan-my-service-management-image1.png "Diagramme des trois composants de qualité--service Office 365, de réseau et de systèmes d’extrémité--et de la gestion du service chevauche trois.")
+![Diagramme des trois composantes de la qualité : service Office 365, réseau et points de terminaison, et comment la gestion du service s’agence avec les trois.](media/plan-my-service-management-image1.png "Diagramme des trois composantes de la qualité : service Office 365, réseau et points de terminaison, et comment la gestion du service a des recoupements avec les trois..")
 
 <!--ENDOFSECTION-->
 
 ## <a name="introduction-to-the-operations-guide"></a>Introduction au Guide des opérations 
 
-**Les** **personnes**et **comment** sont trois questions importantes qui doivent être posées en matière de gestion des services.
+**Quoi**, **Qui** et **Comment** sont trois questions importantes auxquelles il faut répondre lorsqu'il s'agit de la gestion des services.
 
-Vous pouvez utiliser le [Guide des opérations](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) pour vous aider à résoudre les trois de ces questions. Le guide fournit une liste d’activités à effectuer sur tous les jours, toutes les semaines, tous les mois, et en fonction des besoins. Ces tâches et activités sont essentielles pour la maintenance d’un déploiement d’équipes de haute qualité. Déterminer qui sera chargé d’effectuer des activités spécifiques dans la gestion de service est un aspect essentiel de la planification que vous devrez faire au début de la phase de prévoir pour réussir le déploiement. Une fois que vous avez trouvé les tâches et activités, ils doivent être comprises et suivi des groupes ou des personnes que vous leur attribuez. Le Guide des opérations fournit des instructions sur la façon d’effectuer chacune des tâches et la base de connaissances, et/ou les références à un contenu externe.
+Vous pouvez utiliser le [Guide des opérations](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) pour vous aider à répondre à ces trois questions. Le guide fournit une liste d'activités à réaliser sur une base quotidienne, hebdomadaire, mensuelle et selon les besoins. Ces activités et tâches sont essentielles au maintien d'un déploiement de Teams de haute qualité. Déterminer qui sera responsable de l'exécution d'activités spécifiques dans la gestion des services est un aspect critique de votre planification que vous devez entreprendre au début de la phase de conception afin d'assurer un déploiement réussi. Une fois les tâches et les activités déterminées, elles doivent être comprises et suivies par les groupes ou les individus que vous leur assignez. Le Guide des opérations fournit des connaissances et des conseils sur la façon d'exécuter chacune des tâches et/ou des références à des contenus extérieurs.
 
-## <a name="plan-for-operational-role-mapping"></a>Plan pour le mappage de rôle opérationnel
+## <a name="plan-for-operational-role-mapping"></a>Plan de mappage des rôles opérationnels
 
-Planification de la gestion de service au début est un jalon critique, car la phase de fonctionnement commence lorsque les premier utilisateurs du pilote sont activés. L’équipe de projet doit étudier et accepter les tâches et activités requises, identifier l’équipe chargée de chaque tâche opérationnelle, puis obtenez un engagement et approbation de chaque équipe respectif.
+La planification précoce de la gestion des services est une étape critique, car la phase d'exploitation commence lorsque les premiers utilisateurs pilotes sont activés. L'équipe de projet doit examiner et s'entendre sur les tâches et les activités requises, identifier l'équipe responsable de chaque tâche opérationnelle, puis obtenir l'engagement et l'approbation de chaque équipe respective.
 
-Une fois l’approbation terminée, l’équipe responsable doit commencer puis à mettre en application ces rôles et les responsabilités. Cela peut inclure la formation et préparation, mise à jour le modèle de dotation en personnel ou en vous assurant que les partenaires externes sont prêts à fournir.
+Une fois l'approbation terminée, l'équipe responsable doit alors commencer à mettre en œuvre ces rôles et responsabilités. Cela peut comprendre la formation et l'état de préparation, la mise à jour du modèle de dotation ou l'assurance que les partenaires externes sont prêts à livrer la marchandise.
 
-Mappage des rôles opérationnels au début de la phase de prévoir permet de toutes les équipes démarrer leurs tâches opérationnelles pendant le pilote et les opérations d’accélération et de vous assurer que tout est prête une fois le déploiement démarre.
+Le mappage des rôles opérationnels au début de la phase de conception permet à toutes les équipes de commencer leurs tâches opérationnelles pendant la phase pilote, d'accélérer les opérations et de s'assurer que tout est prêt après le début du déploiement.
 
-Le Guide des opérations fournit une liste des tâches courantes mappés à des rôles par défaut qui doivent être valides dans la plupart des scénarios. Vous devez personnaliser ces responsabilités à utiliser pour votre organisation.
+Le Guide des opérations fournit une liste des tâches communes mappées aux rôles typiques qui devraient être valides dans la plupart des scénarios. Vous devez personnaliser ces responsabilités pour travailler pour votre organisation.
 
 >[!TIP]
->Voici un exemple d’un modèle de document le résultat des rôles opérationnels mappage exercice que vous avez effectué pour prendre en charge ce projet.
+>Voici un exemple de modèle de documentation du résultat du mappage des rôles opérationnels que vous avez réalisé pour prendre en charge ce projet.
 
 
 |Rôle opérationnel |Description |Équipe |Détails du contact |
@@ -62,59 +62,59 @@ Le Guide des opérations fournit une liste des tâches courantes mappés à des 
 |Propriétaire de service|Propriétaire de service, interface avec les divisions de l’entreprise, stratégie|TBA|TBA|
 |Opérations d’audioconférence|Opérations quotidiennes, déplacement/ajout/modification des comptes d’utilisateurs et d’appareils, supervision|TBA| TBA| 
 |Administration des clients|Modifier les paramètres à l'échelle du client, activer les nouvelles fonctions|TBA|TBA|
-|Support technique|Interface permettant aux utilisateurs d’obtenir la prise en charge|TBA|TBA|
-|Opérations réseau|Exécutez LAN, WAN, Wi-Fi et un accès à internet|TBA|TBA|
+|Support technique|Interface permettant aux utilisateurs d’obtenir un support|TBA|TBA|
+|Opérations réseau|Exécuter l’accès au réseau local, WAN, Wi-Fi et internet|TBA|TBA|
 |Équipe responsable des points de terminaison de client|Gérer les déploiements de bureau|TBA|TBA|
-|Opérations d’identité|Gérer l’infrastructure d’identité (Active Directory, Active Directory Federation Services Azure AD)|TBA|TBA|
-|Gestion d’adoption/modifier|Gérer la prise de conscience, de formation et d’adoption pour la solution|TBA|TBA|
+|Opérations d’identité|Gérer l’infrastructure d’identité (Active Directory, services de fédération Active Directory, Azure AD)|TBA|TBA|
+|Adoption/gestion des changements|Gérer la sensibilisation, la formation et l’adoption de la solution|TBA|TBA|
 |Opérations Exchange|Gérer l’environnement Exchange|TBA|TBA|
-|Opérations de téléphonie|Gestion de la SBC et les numéros de téléphone|TBA|TBA|
+|Opérations de téléphonie|Gérer le SBC et les numéros de téléphone|TBA|TBA|
 
-Pour faciliter la plus détaillée des rôles opérationnels mappage, y compris les tâches associées à chaque rôle opérationnel, vous pouvez utiliser le [Classeur de mappage de rôle opérationnelles](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) pour capturer les détails qui fourniront la clarté autour de rôles et responsabilités pour prendre en charge les charges de travail de voix dans le nuage.
-
-<!--ENDOFSECTION-->
-
-## <a name="the-quality-champion-role"></a>Le rôle Champion de qualité
-
-Un groupe ou individuel doit être responsables de la qualité dans toutes les organisations.
-Il s’agit d’un rôle essentiel dans la gestion de service. Le poids lourd qualité est un rôle de client qui est affecté à une personne ou un groupe qui est passionné sur l’expérience des utilisateurs. Ce rôle nécessite les compétences nécessaires pour identifier les tendances dans l’environnement et le soutien pour travailler avec d’autres équipes pour diriger la mise à jour.
-La mieux adaptée à un expert de la qualité est généralement le propriétaire du service client qui, selon la taille et la complexité de l’organisation, peut être une personne ou un groupe qui est passionné sur l’expérience utilisateur.
-
-Le poids lourd qualité tire parti des outils existants et identifient les tendances de qualité des processus documentés, tels que le tableau de bord de qualité des appels (CQD) et de la qualité expérience consulter le Guide, surveiller l’expérience utilisateur et correction du lecteur lorsque cela est nécessaire. Le poids lourd qualité fonctionne avec les équipes respectifs pour exécuter des actions de mise à jour, création de rapports à un comité directeur de leur progression et les problèmes en cours.
-
-Les tâches et activités associées au rôle sont documentées dans le Guide des opérations. Ce rôle doit être affecté au début de la phase de prévoir. Une étape clée dans le rôle de poids lourd qualité à mettre en application gagne la base de connaissances requis pour le rôle et vérifier les conditions préalables sont en place pour fournir des tâches. Les tâches importantes pour ce rôle exécute une expérience de qualité régulièrement.
+Pour permettre un mappage des rôles opérationnels plus détaillé, incluant les tâches associées à chaque rôle opérationnel, vous pouvez utiliser le [Classeur de mappage des rôles opérationnels](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) pour capturer les détails qui permettront d’avoir une vision claire des rôles et responsabilités pour la prise en charge des charges de travail Voix Cloud.
 
 <!--ENDOFSECTION-->
 
-## <a name="introduction-to-the-quality-experience-review-guide"></a>Introduction au Guide de révision expérience qualité
+## <a name="the-quality-champion-role"></a>Le rôle de Champion de la qualité
 
-La qualité expérience consulter le Guide dispose d’un ensemble d’activités évaluer et fournissent des instructions de mise à jour dans les zones clés qui ont le plus grand impact pour améliorer l’expérience utilisateur, comme le montre la figure ci-dessous.
+Un groupe ou un individu doit être responsable de la qualité dans toutes les organisations.
+Il s'agit du rôle le plus important dans la gestion des services. Le champion de la qualité est un rôle de client attribué à une personne ou à un groupe passionné par l'expérience de ses utilisateurs. Ce rôle exige les compétences nécessaires pour cerner les tendances de l'environnement et le parrainage pour travailler avec d'autres équipes afin d'orienter les mesures correctives.
+Le meilleur candidat pour le champion de la qualité est généralement le propriétaire du service-clients qui, en fonction de la taille et de la complexité de l'organisation, peut être toute personne ou tout groupe passionné par l'expérience utilisateur.
 
-![Les zones clés pour examiner durant une qualité expérience examinent : audio, la fiabilité et les résultats du sondage.] (media/plan-my-service-management-image2.png "Les zones clés pour examiner durant une qualité expérience examinent : audio, la fiabilité et les résultats du sondage.")
+Le champion de la qualité s'appuie sur les outils existants et les processus documentés, comme le Tableau de bord de la qualité des appels (CQD) et le Guide d'examen de l'expérience de la qualité, afin de surveiller l'expérience utilisateur, identifier les tendances de la qualité et mettre en œuvre, le cas échéant, des mesures correctives. Le champion de la qualité doit collaborer avec les équipes respectives pour mettre en place des mesures correctrices, en fournissant des rapports à un comité directeur sur la progression et les problèmes ouverts.
 
-En permanence évaluer et corriger les zones décrites dans ce document, vous pouvez réduire leur potentiel pour un impact négatif sur l’expérience utilisateur. La plupart des problèmes d’expérience utilisateur dans un déploiement peuvent être regroupées dans les catégories suivantes :
+Les tâches et les activités associées à ce rôle ont été documentées dans le Guide des opérations. Ce rôle devrait être assigné au début de la phase de conception. Une étape clé dans la mise en œuvre du rôle de champion de la qualité consiste à acquérir les connaissances requises pour ce rôle et à s'assurer que les conditions préalables sont en place pour accomplir les tâches. L'une des tâches clés de ce rôle est d'effectuer un examen régulier de l'expérience de la qualité.
 
--   Configuration de pare-feu ou proxy incomplète
+<!--ENDOFSECTION-->
 
--   Une mauvaise couverture Wi-Fi
+## <a name="introduction-to-the-quality-experience-review-guide"></a>Introduction au Guide d'examen de l'expérience de la qualité
+
+Le Guide d'examen de l'expérience de la qualité comporte un ensemble d'activités qui évaluent et fournissent des conseils en matière de correction dans les domaines clés qui ont le plus grand impact sur l'amélioration de l'expérience utilisateur, comme le montre la figure ci-dessous.
+
+![Principaux domaines à examiner lors d’un examen de l’expérience de la qualité : audio, fiabilité et résultats de l’enquête auprès des utilisateurs.](media/plan-my-service-management-image2.png "Principaux domaines à examiner lors d’un examen de l’expérience de la qualité : audio, fiabilité et résultats de l’enquête auprès des utilisateurs.")
+
+En évaluant et en corrigeant continuellement les zones décrites dans ce document, vous pouvez réduire leur potentiel d'affecter négativement l'expérience utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
+
+-   Configuration incomplète du pare-feu ou du proxy
+
+-   Faible couverture Wi-Fi
 
 -   Bande passante insuffisante
 
 -   VPN
 
--   Utilisation de périphériques audio non optimisées ou intégrés
+-   Utilisation d'appareils audio non optimisés ou intégrés
 
--   Sous-réseaux problématiques ou périphériques réseau
+-   Sous-réseaux ou périphériques réseau problématiques
 
-Les instructions fournies dans le Guide de révision de l’expérience de qualité se concentre sur l’utilisation en ligne de tableau de bord de la qualité des appels (CQD) comme le principal outil d’examiner chaque zone décrite, en mettant l’accent sur l’audio à optimiser l’impact d’adoption et de signaler. Les optimisations apportées au réseau pour améliorer l’expérience audio auront également directement des améliorations dans le partage du bureau et vidéo.
+Les conseils fournis dans le Guide d'examen de l'expérience de qualité portent sur l'utilisation du CQD en ligne comme outil principal pour rapporter et enquêter sur chaque domaine décrit, en mettant l'accent sur l'audio pour maximiser l'adoption et l'impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
-Nous vous recommandons de vous désigner le poids lourd qualité dès le début. Après avoir en cours désignés, ils doivent démarrer à se familiariser avec le contenu de l' [Expérience de consulter le Guide de qualité](https://aka.ms/qerguide).
+Nous vous recommandons fortement de nommer le champion de la qualité le plus tôt possible. Une fois nommé, il doit commencer à se familiariser avec le contenu du [Guide d'examen de la qualité de l'expérience](https://aka.ms/qerguide).
 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Déterminer qui est responsable des opérations de voix dans le nuage dans votre organisation.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Téléchargez la planification pour le guide de gestion de Service complète.</li><li>Télécharger le guide de l’examen de l’expérience de la qualité.</li><li>Consultez le Guide des opérations dans leur intégralité.</li><li>Fournir des guides tous les membres de l’équipe toutes les opérations d’examiner et de se familiariser avec les exigences des opérations.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Décidez de la personne responsable des opérations Voix Cloud dans votre organisation.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Téléchargez le Guide complet de la planification de la gestion des services.</li><li>Téléchargez le Guide d'examen de l'expérience de la qualité.</li><li>Consultez en détail le Guide des opérations.</li><li>Fournissez tous les guides à tous les membres de l’équipe pour leur permettre de se familiariser avec les conditions requises pour les opérations.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

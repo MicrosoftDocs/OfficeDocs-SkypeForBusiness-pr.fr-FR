@@ -1,5 +1,5 @@
 ---
-title: Activer ou désactiver l’envoi de messages électroniques lorsque les paramètres de conférence Audio changent dans Microsoft Teams
+title: Activer ou désactiver l'envoi de courriers électroniques lorsque les paramètres d’audioconférence sont modifiés dans Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,51 +19,51 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Découvrez comment activer ou désactiver Skype d’envoyer des messages électroniques aux utilisateurs lorsque les paramètres tels que du code confidentiel change ou les modifications de numéro de conférence par défaut dans Microsoft Teams. '
+description: 'Cette section explique comment activer ou désactiver dans Skype l’option d’envoi de courriers électroniques lorsque des paramètres tels que le code confidentiel ou le numéro de conférence par défaut sont modifiés. '
 ms.openlocfilehash: a59553f26ee39e042fa28d9e58e7f5ae2aae21be
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23892501"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Activer ou désactiver l’envoi de messages électroniques lorsque les paramètres de conférence Audio changent dans Microsoft Teams
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Activer ou désactiver l'envoi de courriers électroniques lorsque les paramètres d’audioconférence sont modifiés dans Microsoft Teams
 
-Les utilisateurs sont avertis automatiquement par courrier électronique lorsqu’ils sont activés pour une audioconférence. Il peut arriver, cependant, lorsque vous souhaitez réduire le nombre de messages électroniques qui sont envoyés aux utilisateurs Microsoft Teams. Dans ce cas, vous pouvez désactiver l’envoi de courrier électronique.
+Lorsque l’audioconférence est activée pour eux, les utilisateurs sont avertis automatiquement par e-mail. Il peut arriver que vous souhaitiez réduire le nombre de courriers électroniques envoyés aux utilisateurs de Microsoft Teams. Dans ce cas, vous pouvez désactiver l’envoi de courriers électroniques.
   
-Si vous désactivez envoi de courriers électroniques, messages électroniques de conférence Audio ne seront pas envoyées à vos utilisateurs, y compris pour les messages électroniques lorsque les utilisateurs sont activés ou désactivés pour l’audioconférence, leur code confidentiel est réinitialisé et modifications numéros de téléphone de l’ID de conférence et la conférence par défaut .
+Si vous désactivez l'envoi de courriers électroniques, aucun message d’audioconférence n'est envoyé à vos utilisateurs, dont les messages relatifs à l'activation et la désactivation des utilisateurs pour l’audioconférence, la réinitialisation de leur code confidentiel ou la modification de l'ID de conférence ou du numéro de téléphone de conférence par défaut.
   
-Voici un exemple du courrier électronique qui est envoyé aux utilisateurs lorsqu’ils sont activés pour une audioconférence :
+Voici un exemple de courrier électronique envoyé aux utilisateurs activés pour l’audioconférence :
   
-![Conférence audio par courrier électronique](media/audio-conferencing-user-enabled.png)
+![Courrier électronique d’audioconférence](media/audio-conferencing-user-enabled.png)
   
-## <a name="when-are-emails-being-sent-to-your-users"></a>Quand les messages électroniques sont-ils envoyés à vos utilisateurs ?
+## <a name="when-are-emails-being-sent-to-your-users"></a>Quand des messages électroniques sont-ils envoyés à vos utilisateurs ?
 
-- Il existe plusieurs messages électroniques envoyés aux utilisateurs de votre organisation une fois qu’ils sont activés pour les conférences audio :
+- Plusieurs courriers électroniques sont envoyés aux utilisateurs lorsqu'ils sont activés pour l’audioconférence :
     
-  - Lorsqu’une licence de **Conférence Audio** est attribuée.
+  - Lorsqu'une licence pour l’**Audioconférence** leur est attribuée.
     
-  - Lorsque vous réinitialisez manuellement code confidentiel de conférence audio de l’utilisateur.
+  - Lorsque vous réinitialisez manuellement le code confidentiel d’audioconférence de l'utilisateur.
     
-  - Lorsque vous réinitialisez manuellement l'ID de conférence de l'utilisateur.
+  - Lorsque vous réinitialisez manuellement l’ID de conférence de l'utilisateur.
     
-  - Lorsque la licence de **Conférence Audio** est supprimée à partir de celles-ci.
+  - Lorsque la licence pour l’**Audioconférence** leur est retirée.
     
-  - Lorsque le fournisseur de services d’audioconférence d’un utilisateur est modifié à partir de Microsoft vers un autre fournisseur ou **Aucun**.
+  - Lorsque le fournisseur d’audioconférence d’un utilisateur passe de Microsoft à un autre fournisseur ou à **Aucun** fournisseur.
     
-  - Lorsque le fournisseur de services d’audioconférence d’un utilisateur est remplacé par Microsoft.
+  - Lorsque le fournisseur d’audioconférence d’un utilisateur est remplacé par Microsoft.
 
 
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Activer ou désactiver la messagerie d’être envoyés aux utilisateurs
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Activer ou désactiver l’envoi de courriers électroniques aux utilisateurs
 
-Vous pouvez utiliser Microsoft Teams ou Windows PowerShell pour activer ou désactiver le courrier envoyé aux utilisateurs.
+Pour activer ou désactiver l’envoi de courriers électroniques aux utilisateurs, vous pouvez utiliser Microsoft Teams ou Windows PowerShell.
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
-1. Dans la navigation de gauche, accédez à des **réunions** > **Ponts de conférence**. 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Utiliser le Centre d’Administration de Microsoft Teams et de Skype Entreprise :**
+1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
-2. En haut de la page de **Ponts de conférence** , cliquez sur **paramètres du pont**. 
+2. En haut de la page **Conference Bridges** (Ponts de conférence), cliquez sur **Bridge Settings** (Paramètres du pont). 
 
-3. Dans le volet **paramètres du pont** , activez ou désactivez **Envoyer automatiquement des messages électroniques aux utilisateurs si leurs paramètres de connexion à modifient**.
+3. Dans le volet **Bridge settings** (Paramètres du pont), activez ou désactivez l’option **Envoyer automatiquement un courrier électronique aux utilisateurs en cas de modification de leurs paramètres de numérotation**.
 
 4. Cliquez sur **Enregistrer**.
 
@@ -71,26 +71,26 @@ Vous pouvez utiliser Microsoft Teams ou Windows PowerShell pour activer ou désa
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**Utilisation de Windows PowerShell**
+**Utiliser Windows PowerShell**
   
-Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
+Pour des informations complémentaires, consultez la rubrique [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
 
     
-## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
+## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
 Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Six raisons d'utiliser Windows PowerShell pour gérer Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Pour plus d’informations sur Windows PowerShell, voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
+Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
     
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Messages électroniques envoyés aux utilisateurs lorsque modifient leurs paramètres de conférence Audio](emails-sent-to-users-when-their-settings-change-in-teams.md)
+[Courriers électroniques envoyés aux utilisateurs lorsque leurs paramètres d’audioconférence sont modifiés](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
-[Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
+[Envoyer à un utilisateur un courrier électronique qui contient ses informations d’audioconférence](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
 
