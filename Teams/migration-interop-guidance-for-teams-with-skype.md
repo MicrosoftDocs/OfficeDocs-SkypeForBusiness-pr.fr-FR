@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1028f599b3b5cacf23fa920b85c42cf8a5bd4673
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: bfd2c7efd606a143fffca25c7379f2a29bf505da
+ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884234"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23999023"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guide de migration et d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises
 
@@ -63,15 +63,14 @@ Pour prendre en compte l’introduction de modes de coexistence et la mise hors 
 
 5.  Interopérabilité entre équipes et Skype pour les utilisateurs professionnels n’est possible que *Si l’utilisateur équipes est hébergé en ligne dans Skype pour les entreprises*. Le Skype pour l’utilisateur d’entreprise peut être hébergé soit localement (et nécessite la configuration Skype pour un environnement hybride Business) ou en ligne. Permettent aux utilisateurs qui sont hébergés dans Skype pour Business local équipes en mode îles (défini plus loin dans ce document), mais ils ne peuvent pas permet aux équipes interop ou fédérer avec d’autres utilisateurs qui utilisent Skype pour les entreprises.  
 
-6.  Mise à niveau d’un utilisateur aux équipes (autrement dit, leur accorder TeamsUpgradePolicy avec Mode = TeamsOnly), l’utilisateur doit être hébergé en ligne dans Skype pour les entreprises. Cette opération est obligatoire pour garantir l’interopérabilité, la fédération et l’administration complète de l’utilisateur d’équipes. Pour mettre à niveau des utilisateurs qui sont hébergés sur un système local, utilisez `Move-CsUser` à partir de l’environnement local administrateur des outils pour déplacer vers le premier l’utilisateur de Skype pour Business Online. Puis accorder TeamsUpgradePolicy et TeamsInteropPolicy à l’utilisateur en ligne ou portail moderne permet d’affecter le mode TeamsOnly.
+6.  Mise à niveau d’un utilisateur aux équipes (autrement dit, leur accorder TeamsUpgradePolicy avec Mode = TeamsOnly), l’utilisateur doit être hébergé en ligne dans Skype pour les entreprises. Cette opération est obligatoire pour garantir l’interopérabilité, la fédération et l’administration complète de l’utilisateur d’équipes. Pour mettre à niveau des utilisateurs qui sont hébergés sur un système local, utilisez `Move-CsUser` à partir de l’environnement local administrateur des outils pour déplacer vers le premier l’utilisateur de Skype pour Business Online. Puis accorder TeamsUpgradePolicy et TeamsInteropPolicy à l’utilisateur en ligne ou portail moderne permet d’affecter le mode TeamsOnly. Une fois CU8 pour Skype pour navires Business Server 2015, client peut simplement utiliser la nouvelle `-MoveToTeams` basculer dans `Move-CsUser` qui combine ces 2 étapes à 1.
 
 7.  Les stratégies de base pour la gestion de la mise à niveau et interopérabilité sont TeamsUpgradePolicy et TeamsInteropPolicy.  Cependant, TeamsInteropPolicy est en cours obsolète et toutes les fonctionnalités seront remplacée par TeamsUpgradePolicy. Jusqu'à ce que la transition est terminée, les utilisateurs doivent définir à la fois TeamsUpgradePolicy et TeamsInteropPolicy régulièrement (comme décrit [ultérieure](#important) dans ce document) pour garantir un bon fonctionnement, ou le nouveau portail moderne qui effectue cette opération automatiquement.
 
 8.  Pour utiliser les fonctionnalités du système de téléphone d’équipes, les utilisateurs doivent être en mode TeamsOnly (autrement dit, hébergés dans Skype pour Business Online et mis à niveau vers les équipes), et ils doivent être configurés pour Microsoft Phone système routage Direct (qui vous permet d’utiliser le système téléphonique avec vos propres SIP jonctions et SBC) ou possèdent un Office 365 appelant Plan de. Routage direct est [généralement disponible](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) à compter du 28 juin 2018.  
 
-9.  Planification de réunions d’équipes à une conférence Audio (entrant ou appel sortant via PSTN) est actuellement disponible uniquement pour les utilisateurs qui sont hébergés dans Skype pour Business Online. Prise en charge pour les utilisateurs d’équipes avec un Skype locale pour le compte professionnel est prévue.
+9.  Planification de réunions d’équipes à une conférence Audio (entrant ou appel sortant via PSTN) est actuellement disponible uniquement pour les utilisateurs qui sont hébergés dans Skype pour Business Online. Appuyez sur est prise en charge pour les utilisateurs d’équipes avec un Skype locale pour le compte de l’entreprise.
 
-10. Routage des messages pour les organisations qui n’ont pas encore été activées pour Service de présence unifiée (UPS) ne tient pas compte TeamsUpgradePolicy (Mode) ou TeamsInteropPolicy (ChatDefaultClient). Achèvement de déploiement onduleur sur les prochaines semaines, TeamsInteropPolicy ou TeamsUpgradePolicy est honorée. Finalement uniquement TeamsUpgradePolicy sera respectée.
 
 ## <a name="coexistence-modes"></a>Modes de coexistence
 
@@ -165,7 +164,7 @@ Utilisez la syntaxe de commande suivante, où $policy est une des valeurs d’id
 
 ## <a name="federation-considerations"></a>Considérations relatives à la fédération
 
-Fédération des équipes à un autre utilisateur à l’aide de Skype entreprise requiert l’utilisateur équipes hébergés en ligne dans Skype pour les entreprises. La fédération est pilote et progressivement devienne disponible. Si votre organisation nécessite la fédération, vous ne devez pas mettre à niveau jusqu'à ce que la prise en charge de la fédération est en place. Finalement, équipes, les utilisateurs hébergés dans Skype pour Business locale sera vous fédérer avec d’autres utilisateurs d’équipes.
+Fédération des équipes à un autre utilisateur à l’aide de Skype entreprise requiert l’utilisateur équipes hébergés en ligne dans Skype pour les entreprises. Finalement, équipes, les utilisateurs hébergés dans Skype pour Business locale sera vous fédérer avec d’autres utilisateurs d’équipes.
 
 Une fois la prise en charge de la fédération est activée, TeamsUpgradePolicy (ainsi que les TeamsInteropPolicy lors de la transition) régit le routage des appels et des conversations fédérées entrantes. Pour faciliter les autres organisations d’établir des communications fédérées avec les utilisateurs de votre organisation, il est recommandé de choisir un mode qui achemine spécifiquement soit à Skype pour Business ou équipes, plutôt que des îles.
 </br>
@@ -267,10 +266,6 @@ En fonction des commentaires fort appuyez sur les clients et les autres premiers
 |**ÉTAT**|Cliquez sur clients maintenant voir trois modes dans l’administration UX. Prend en charge la modification #1 territoires, modes supplémentaires seront disponibles. Mode SfBOnly n’empêche pas actuellement les utilisateurs d’utiliser des équipes, mais il sera à l’avenir. |
 |||
 
-## <a name="known-issues"></a>Problèmes connus
-
-- Lorsque vous créez de nouvelles conversations dans les équipes, des conversations respecte pas encore TeamsUpgradePolicy ou TeamsInteropPolicy de l’utilisateur cible. Un correctif est planifié.
-- Lorsque vous créez de nouvelles conversations dans Skype pour les entreprises, conversations ne pas encore honorer TeamsUpgradePolicy ou TeamsInteropPolicy si l’organisation n’est pas encore activée pour l’interopérabilité de la messagerie/onduleur.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
