@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c3f795df06735c735ac29b6f46c6c8d8e9d46c
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: a422cb18cf6105ead7f0a76096a6cb5a755a1906
+ms.sourcegitcommit: 8537814aabddd7e7a6d1148c8c71ea14ae0c499a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937865"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24009044"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams 
 =========================================
@@ -33,14 +33,16 @@ Le tableau suivant fournit des informations aux utilisateurs pour lesquels Excha
 
 **Actions prises en charge :** 
 
-| La boîte aux lettres de l'utilisateur est hébergée dans : | eDisovery| Conservation légale | Rétention| Gestion de l’équipe et de canal |Créer et afficher des réunions| Modifier une image de profil utilisateur | Historique des appels | Gérer des Contacts | Accéder aux contacts Outlook | Messagerie vocale |Ajouter et configurer des connecteurs|Ajouter et configurer des onglets|Ajouter et configurer des bots| 
+| La boîte aux lettres de l'utilisateur est hébergée dans : | eDiscovery| Conservation légale | Rétention| Gestion de l’équipe et de canal |Créer et afficher des réunions| Modifier une image de profil utilisateur | Historique des appels | Gérer des Contacts | Accéder aux contacts Outlook | Messagerie vocale |Ajouter et configurer des connecteurs|Ajouter et configurer des onglets|Ajouter et configurer des bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
-|**vNext Exchange Online dédié**|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
-|**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Non|Non|Oui|Non|Non|Oui|Oui|Non|Non|Non|Oui|Oui|
-|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Non|Non|Oui|Oui (Exchange 2016 CU3 +)|Non|Oui|Oui|Non|Non|Non|Non|Oui|
+|**Exchange Online**|Oui<sup>2</sup>|Oui<sup>2</sup>|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
+|**vNext Exchange Online dédié**|Oui<sup>2</sup>|Oui<sup>2</sup>|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
+|**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Oui<sup>2, 3</sup>|Non|Oui|Non|Non|Oui|Oui|Non|Non|Non|Oui|Oui|
+|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Oui<sup>2, 3</sup>|Non|Oui|Oui (Exchange 2016 CU3 +)|Non|Oui|Oui|Non|Non|Non|Non|Oui|
                                                             
-*\*Prise en charge d'Exchange 2016 CU3 et versions ultérieures*
+<sup>1</sup> exchange CU3 2016 et ci-dessus pris en charge  
+<sup>2</sup> eDiscovery et juridiques pour la conformité des messages de canal est pris en charge pour toutes les options d’hébergement.  
+<sup>3</sup> messages de conversation privée d’équipes ne sont pas encore pris en charge pour suspens pour raisons juridiques pour cette option d’hébergement.
 
 Informations complémentaires :
 
@@ -55,6 +57,8 @@ Informations complémentaires :
 -   La création de groupe Office 365 doit être activée pour permettre aux utilisateurs de créer des équipes dans Microsoft Teams.
 
 -   Dans Microsoft Teams, les fonctions de sécurité et de conformité, telles que eDiscovery, la recherche de contenu, l'archivage et la conservation légale sont plus efficaces dans les environnements Exchange Online et SharePoint Online. Dans le cas de conversations de canal, les messages sont journalisés dans la boîte aux lettres du groupe dans Exchange Online et peuvent être utilisés par eDiscovery. Si SharePoint Online et OneDrive Entreprise (avec un compte professionnel ou scolaire) sont activés pour les utilisateurs dans l'organisation, ces fonctionnalités de conformité sont également disponibles pour l'ensemble des fichiers dans Teams.
+
+-   Pour Exchange sur site (déploiement hybride), vous devez configurer OAuth comme décrit dans [l’authentification OAuth configurer entre des organisations Exchange et Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
 
 > [!NOTE]
 > Actuellement, si votre organisation a des exigences de conformité exigeant que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres sur site Exchange.
