@@ -13,7 +13,7 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume la configuration requise pour la prise en charge des systèmes de salle Skype v2.
 ms.openlocfilehash: a5003186b8057804920ee5d56dd5b71516bf547f
 ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/13/2018
 ms.locfileid: "23965967"
@@ -25,7 +25,7 @@ Cet article résume la configuration requise pour la prise en charge des systèm
 Votre déploiement implique la création de compte comme décrit dans [déployer Skype salle systèmes v2](../../deploy/deploy-clients/room-systems-v2.md) et la configuration d’une console de réunion, comme indiqué dans [Configure une console v2 de systèmes de salle Skype](../../deploy/deploy-clients/console.md). Vous devez également faire référence à [Skype pour les licences d’entreprise module complémentaire](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
 
 > [!NOTE]
-> Systèmes de salle Skype v2 est destinée aux Skype pour Business Server 2019, Skype pour Business Server 2015, Microsoft Teams ou Skype pour Business Online.  <br><br>Plates-formes de versions antérieures à Lync Server 2013 ne sont pas prévus pour fonctionner avec les systèmes de salle Skype v2. 
+> Systèmes de salle Skype v2 est destinée aux Skype pour Business Server 2019, Skype pour Business Server 2015, Microsoft Teams ou Skype pour Business Online.  <br><br>Les plateformes antérieures, telles que Lync Server 2013, ne sont pas prévues pour fonctionner avec les systèmes de salle Skype v2. 
   
 ## <a name="hardware-requirements"></a>Configuration matérielle requise
 
