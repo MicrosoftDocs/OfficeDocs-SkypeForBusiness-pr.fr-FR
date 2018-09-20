@@ -1,9 +1,9 @@
 ---
-title: Assigner des rôles et des autorisations dans Microsoft Teams
+title: Affecter des propriétaires de l’équipe et des membres dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 08/27/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
@@ -13,20 +13,20 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da4bae93a35775141c246145e1375e73963ec120
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a2fd9f611d616f368973ced432e886bf4ba9d8f5
+ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892697"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24021809"
 ---
-<a name="assign-roles-and-permissions-in-microsoft-teams"></a>Assigner des rôles et des autorisations dans Microsoft Teams
-===============================================
+<a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires de l’équipe et des membres dans Microsoft Teams
+=================================================
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Microsoft Teams inclut deux rôles : **Propriétaire** et **Membre**. Par défaut, un utilisateur qui crée une équipe a le statut de Propriétaire. Si une équipe est créée à partir d'un groupe existant Office 365, les autorisations sont héritées.
+Dans Microsoft Teams, il existe deux rôles d’utilisateur : **propriétaire** et des **membres**. Par défaut, un utilisateur qui crée une nouvelle équipe est accordé à l’état de propriétaire. Si une équipe est créée à partir d’un groupe de 365 Office existant, les autorisations sont héritées.
 
 Le tableau ci-après présente les différences d'autorisations entre un propriétaire et un membre :
 
@@ -43,7 +43,7 @@ Le tableau ci-après présente les différences d'autorisations entre un propri�
 |**Ajouter des onglets**      |Oui         |Oui*         |
 |**Ajouter des connecteurs**      |Oui         |Oui*         |
 |**Ajouter des bots**      |Oui         |Oui*         |
-\* Ces éléments peuvent être désactivés par un propriétaire au niveau d'une équipe, auquel cas les membres n'y auront pas accès.
+\*Ces éléments peuvent être désactivées par un propriétaire à un niveau équipe, dans ce cas membres auront pas accès à ces derniers.
 
 \*\*Après avoir ajouté un membre à une équipe, un propriétaire peut également promouvoir un membre au statut de Propriétaire. Il est également possible pour un propriétaire de rétrograder son propre statut à celui de membre.
 
