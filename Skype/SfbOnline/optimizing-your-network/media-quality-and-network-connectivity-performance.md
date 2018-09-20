@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Cette rubrique définit l’ensemble des exigences de performances réseau pour Skype pour des services professionnels en ligne et comment vous pouvez choisir d’utiliser Internet ou ExpressRoute pour la connectivité entre votre réseau et de Skype pour Business Online en fonction de votre évaluation du réseau connectivité. Si vous avez décidé de déployer ExpressRoute Azure pour la connectivité dédiée à Office 365, ce document fournit également des instructions sur la planification de vos connexions ExpressRoute dans différents Skype pour les scénarios de déploiement en ligne Business.
-ms.openlocfilehash: ce4a1379310d9dd7fdcad6c8242c792103f05c18
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: dbe927794d8660a801596dac32623574e314ee44
+ms.sourcegitcommit: 3a7d2131717327d9b2d16848758e31e10326a0bd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850230"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "24057610"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Qualité multimédia et performances de connectivité réseau dans Skype Entreprise Online
 
@@ -58,10 +58,8 @@ Il est important de noter que tous les périphériques multimédia, Skype pour l
 
 L'environnement des locaux dans lesquels les utilisateurs se rencontrent et utilisent des périphériques audio et vidéo est un autre facteur important pour la qualité audio et vidéo. Les utilisateurs qui appellent à partir d'un environnement bruyant produiront des échos et un son audio sourd et difficilement audible. Les utilisateurs dans un environnement sombre ou de luminosité faible ne seront pas en mesure de produire une qualité d'image lumineuse et nette pour la vidéo. Dans une salle de conférence, l'emplacement du microphone et du périphérique vidéo ont un impact direct sur la qualité du son et de l'image que les participants recevront.
   
-Pour obtenir une image plus claire d’utilisation de l’expérience audio et vidéo d’un utilisateur le Skype pour l’application de gestion des **Outils** > **Options** > **Périphérique Audio** ou le **Périphérique vidéo** pour apporter des modifications à l’appareil en cours d’utilisation et de personnaliser les paramètres de son. Vous pouvez également vérifier la qualité audio d’un appel en cliquant sur **Vérifier la qualité des appels**. If they click **Check Call Quality**, they can then report the quality and issues found with the test call.
-  
-![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
-  
+Pour obtenir une image plus claire d’utilisation de l’expérience audio et vidéo d’un utilisateur le Skype pour l’application de gestion des **Outils** > **Options** > **Périphérique Audio** ou **Périphérique vidéo** pour apporter des modifications à l’appareil en cours d’utilisation et de personnaliser ses paramètres.
+
 #### <a name="network"></a>Réseau
 
 La qualité des médias en temps réel via le réseau IP est considérablement affectée par la qualité de la connectivité réseau, mais surtout par la quantité de :
