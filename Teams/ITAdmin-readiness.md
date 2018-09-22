@@ -1,50 +1,262 @@
 ---
 title: Formation à Microsoft Teams pour les administrateurs
-author: LolaJacobsen
-ms.author: lolaj
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.date: 03/12/2018
-ms.topic: article
+layout: landingpage
+ms.date: 09/21/2018
+ms.topic: landing page
 ms.service: msteams
 search.appverid: MET150
-description: Vidéos de formation présentant Microsoft Teams et expliquant aux administrateurs comment planifier, déployer et exécuter Microsoft Teams.
-ms.custom:
-- NewAdminCenter_Update
+description: Vidéos de formation, didacticiels et autres ressources pour les administrateurs à planifier, déploiement et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04f8951422737ebe0b8371797f57c734632f8843
-ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
+ms.openlocfilehash: 1c6d3601e72e829f2c00fd166c3b249872e48347
+ms.sourcegitcommit: 63a560c05b4fa3bda3abc31ef5dffe60e61e4d67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2018
-ms.locfileid: "23998983"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24960954"
 ---
-<a name="admin-training-for-microsoft-teams"></a><span data-ttu-id="6bb0b-103">Formation à Microsoft Teams pour les administrateurs</span><span class="sxs-lookup"><span data-stu-id="6bb0b-103">Admin training for Microsoft Teams</span></span>
-==================================
+# <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
+
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-<span data-ttu-id="6bb0b-104">Découvrez Teams et encouragez son utilisation dans votre organisation.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-104">Learn about Teams and drive usage in your organization.</span></span> <span data-ttu-id="6bb0b-105">Vérifiez régulièrement la présence de nouvelles vidéos.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-105">Check back frequently for new videos.</span></span>
+Utilisez ces didacticiels, vidéos et autres ressources de formation pour en savoir plus sur les équipes et d’utilisation du lecteur dans votre organisation. Recherchez régulièrement de nouveau contenu. 
 
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Prendre en main équipes</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+   <li>
+        <a href="https://docs.microsoft.com/microsoftteams/tutorial-journey-skypeforbusiness-to-teams">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Prendre un didacticiel sur le parcours de mise à niveau à partir de Skype pour les entreprises aux équipes</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+   <li>
+        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users people" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Formation pour vos utilisateurs</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+ <li>
+        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Extraire le canal équipes sur YouTube</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+ <li>
+        <a href="https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Afficher les meilleures vidéos pratiques et des procédures dans le café dans le canal dans le nuage sur YouTube</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
 
-|  |  |
-|---------|---------|
-| [<span data-ttu-id="6bb0b-106">Didacticiel : Mise à niveau à partir de Skype pour les entreprises aux équipes de Microsoft</span><span class="sxs-lookup"><span data-stu-id="6bb0b-106">Tutorial: Upgrade from Skype for Business to Microsoft Teams</span></span>](tutorial-journey-skypeforbusiness-to-teams.yml) |<span data-ttu-id="6bb0b-107">Vous guide tout ce que vous devez savoir à propos de la mise à niveau pour les équipes de Skype pour Business Online.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-107">Walks you through everything you need to know about the upgrade to Teams from Skype for Business Online.</span></span>  |
-| [<span data-ttu-id="6bb0b-108">Didacticiel : Services d’audioconférence dans les équipes</span><span class="sxs-lookup"><span data-stu-id="6bb0b-108">Tutorial: Audio Conferencing in Teams</span></span>](Tutorial-Audio-Conferencing.yml) | <span data-ttu-id="6bb0b-109">Cette formation interactive vous guide tout au long de conférence dans les équipes.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-109">This interactive training walks you through Audio Conferencing in Teams.</span></span> |
-| [<span data-ttu-id="6bb0b-110">Démarrage rapide : Teams Microsoft pour les administrateurs de formation</span><span class="sxs-lookup"><span data-stu-id="6bb0b-110">Quick start: Microsoft Teams for Education admins</span></span>](teams-quick-start-edu.yml) |<span data-ttu-id="6bb0b-111">Pour les administrateurs informatiques dans l’enseignement, déployez Teams dans votre organisation.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-111">For IT admins in Education, deploy Teams across your organization.</span></span>   |
-| [<span data-ttu-id="6bb0b-112">Démarrage rapide : configuration des Plans de l’appel dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="6bb0b-112">Quick start: Configuring Calling Plans in Microsoft Teams</span></span>](configuring-teams-calling-quickstartguide.md)| <span data-ttu-id="6bb0b-113">Guide de démarrage rapide pour la configuration des forfaits d'appels dans Teams.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-113">Quick start guide for configuring calling plans in Teams.</span></span> |
-| [<span data-ttu-id="6bb0b-114">Didacticiel : Découvrir les appels dans Teams</span><span class="sxs-lookup"><span data-stu-id="6bb0b-114">Tutorial: Understand calling in Teams</span></span>](tutorial-calling-in-teams.yml)  |  <span data-ttu-id="6bb0b-115">Cette formation présente les fonctionnalités d'appel dans Teams, qui sont fournies par la fonctionnalité de système téléphonique dans Office 365.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-115">This training introduces calling capabilities in Teams, which are powered by the Phone System feature in Office 365.</span></span> <span data-ttu-id="6bb0b-116">Elle décrit la planification technique nécessaire pour implémenter le système téléphonique, la procédure de configuration et la surveillance de l'utilisation et de la qualité des appels dans votre implémentation.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-116">Includes explanation of the technical planning that’s required to implement Phone System, how to configure it, and how to monitor usage and call quality in your implementation.</span></span>  |
-| [<span data-ttu-id="6bb0b-117">Vidéos sur l'audioconférence</span><span class="sxs-lookup"><span data-stu-id="6bb0b-117">Audio Conferencing videos</span></span>](audio-conferencing-videos.md) |<span data-ttu-id="6bb0b-118">Vidéos de présentation de l’audioconférence dans Teams pour l’administrateur informatique.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-118">Videos introducing Audio Conferencing in Teams to the IT admin.</span></span>  |
-| [<span data-ttu-id="6bb0b-119">Didacticiel : Réunions dans Teams</span><span class="sxs-lookup"><span data-stu-id="6bb0b-119">Tutorial: Meetings in Teams</span></span>](tutorial-meetings-in-teams.yml) | <span data-ttu-id="6bb0b-120">Cette formation présente des réunions dans les équipes.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-120">This training introduces meetings in Teams.</span></span> <span data-ttu-id="6bb0b-121">Il traite des fonctionnalités de réunion, ainsi que les exigences et les considérations de planification.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-121">It covers meeting capabilities, plus requirements and planning considerations.</span></span> |
-| <span data-ttu-id="6bb0b-122">Notions de base sur des équipes Microsoft pour les professionnels de l’informatique</span><span class="sxs-lookup"><span data-stu-id="6bb0b-122">Foundations of Microsoft Teams for IT Pros</span></span>  |<iframe width="320" height="240" src="https://www.youtube.com/embed/xJBvJTDiQqg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|
-| <span data-ttu-id="6bb0b-123">Déploiement et fonctionnement de Teams</span><span class="sxs-lookup"><span data-stu-id="6bb0b-123">Deploying and operating Teams</span></span>   | <iframe width="320" height="240" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
-| <span data-ttu-id="6bb0b-124">Client de bureau Windows</span><span class="sxs-lookup"><span data-stu-id="6bb0b-124">Windows Desktop Client</span></span>   | <iframe width="320" height="240" src="https://www.youtube.com/embed/zp1_wGzq1ic?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> |
-| <span data-ttu-id="6bb0b-125">Diriger le routage pour les équipes Microsoft (aperçu)</span><span class="sxs-lookup"><span data-stu-id="6bb0b-125">Direct Routing for Microsoft Teams (Preview)</span></span>   | <iframe width="320" height="240" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
-| <span data-ttu-id="6bb0b-126">Présentation détaillée de l'accès invité</span><span class="sxs-lookup"><span data-stu-id="6bb0b-126">Deep dive into Guest Access</span></span> <br><span data-ttu-id="6bb0b-127">Session cloud avec Laith Al et Karuana Gatimu</span><span class="sxs-lookup"><span data-stu-id="6bb0b-127">Coffee in the Cloud session with Laith Al and Karuana Gatimu</span></span>  | <iframe width="320" height="240" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-| <span data-ttu-id="6bb0b-128">e-Discovery dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="6bb0b-128">e-Discovery in Microsoft Teams</span></span> <br> <span data-ttu-id="6bb0b-129">Session cloud avec Ansuman Acharya et Karuana Gatimu</span><span class="sxs-lookup"><span data-stu-id="6bb0b-129">Coffee in the Cloud session with Ansuman Acharya and Karuana Gatimu</span></span>  | <iframe width="320" height="240" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
-| <span data-ttu-id="6bb0b-130">Teams : Introduction par étapes sur l'utilisation, l'activation et la gestion de l'expérience</span><span class="sxs-lookup"><span data-stu-id="6bb0b-130">Teams: Step-by-step intro for using, enabling and managing the experience</span></span> <br> <span data-ttu-id="6bb0b-131">Session Microsoft Mechanics avec Dan Stevenson et Jeremy Chapman</span><span class="sxs-lookup"><span data-stu-id="6bb0b-131">Microsoft Mechanics session with Dan Stevenson and Jeremy Chapman</span></span> |  <iframe width="320" height="240" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
-| <span data-ttu-id="6bb0b-132">Gestion de l’expérience des applications dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="6bb0b-132">Managing the App Experience in Microsoft Teams</span></span> <br> <span data-ttu-id="6bb0b-133">Session cloud avec Karuana Gatimu</span><span class="sxs-lookup"><span data-stu-id="6bb0b-133">Coffee in the Cloud session with Karuana Gatimu</span></span>  | <iframe width="320" height="240" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
+    
+</ul>
+****************
 
-
+<h2>Formations</h2>
+<ul class="panelContent cardsW">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Transition de Skype Entreprise à Teams</h3>
+                         <p>[Didacticiel : Transition de Skype Entreprise à Teams](tutorial-journey-skypeforbusiness-to-teams.yml)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Architecture</h3><p>[Vidéo : Principes de base du - composants principaux d’équipes](https://www.youtube.com/watch?v=xJBvJTDiQqg)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Planifier et déployer</h3>
+                         <p>[Guide de démarrage rapide : guide de planification de Teams](quick-start-enable-teams.md)</p>
+                         <p>[Vidéo : Client de bureau Windows équipes](https://www.youtube.com/watch?v=zp1_wGzq1ic)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li> <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Teams pour l’éducation</h3>
+                        <p>[Démarrage rapide : équipes pour les administrateurs de formation](teams-quick-start-edu.yml)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+<li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Équipes et canaux</h3>
+                         <p>[Vidéo : Démarrer votre équipe et en cours d’exécution](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
+                         <p>[Vidéo : Accédez à guide pour les propriétaires de l’équipe](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547")</p>
+                         <p>[Didacticiel : Créer une équipe à l’échelle de l'entreprise avec PowerShell](company-wide-team-creation-powershell.yml)</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Sécurité et conformité</h3>
+                       <p>[Vidéo : Présentation des e-Discovery dans les équipes](https://www.youtube.com/watch?v=OF65_p_07cE)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+        <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Réunions</h3>
+                        <p>[Didacticiel : Réunions dans Teams](tutorial-meetings-in-teams.yml)</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Applications et outils</h3>
+                        <p>[Vidéo : Ajouter des outils avec onglets](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
+                        <p>[Vidéo : Utilisez la boîte de commande](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b)</p>
+                        <p>[Vidéo : Présentation de barre de commandes](https://www.youtube.com/watch?v=wYrRCRphrp0)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+<li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Audioconférence</h3>
+                         <p>[Didacticiel : Services d’audioconférence dans les équipes](tutorial-audio-conferencing.yml)</p>
+                         <p>[Vidéo : Présentation de services d’audioconférence](https://www.youtube.com/watch?v=AGPvaW4Vg0o)</p>
+                         <p>[Vidéo : Planifier une conférence Audio](https://www.youtube.com/watch?v=AWbuvcWcYIc)</p>
+                         <p>[Vidéo : Numéro de portage pour une audioconférence](https://www.youtube.com/watch?v=5k0C21KAsns)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Offres d'appels</h3>
+                         <p>[Démarrage rapide : configuration des Plans de l’appel dans les équipes](configuring-teams-calling-quickstartguide.md)</p>
+                         <p>[Didacticiel : Découvrir les appels dans Teams](tutorial-calling-in-teams.yml)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Routage direct</h3>
+                        <p>[Vidéo : Direct de routage pour les équipes - aperçu](https://www.youtube.com/watch?v=dVkc5Bs926Q)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+      </ul>
 
 
