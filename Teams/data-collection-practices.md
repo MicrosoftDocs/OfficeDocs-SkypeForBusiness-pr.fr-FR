@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collecte des données de recensement, d’utilisation et d’erreur pour comprendre comment Skype pour les entreprises est utilisé et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations de produit.
-ms.openlocfilehash: ec6e3cafd3df2509764b69dc5809781fc94ab882
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: eecd4594d7b0f6ccc61505ed24b023f0c01a53e5
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850965"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967472"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype pour les pratiques de collection de données métiers et Microsoft Teams
 
@@ -99,7 +99,7 @@ Données de création de rapports d’erreur peuvent également contenir des inf
 
 Rapport d’erreurs nécessite deux éléments :
 
-- Le paramètre de stratégie de groupe DisableAutomaticSendTracing avoir la valeur False sur le serveur ou dans le centre d’administration de client (il s’agit de l’état par défaut). Pour plus d’informations, voir [configuration de stratégies de démarrage du client dans Skype pour Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) .
+- Le paramètre de stratégie de groupe DisableAutomaticSendTracing est défini sur False sur le serveur ou dans le centre d’administration de client (il s’agit de l’état par défaut). Pour plus d’informations, voir [configuration de stratégies de démarrage du client dans Skype pour Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) .
     
 - Les utilisateurs finaux participer individuellement à partir de l’onglet Général (cliquez sur l’icône d’engrenage ![icône d’engrenage](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) et ouvre la boîte de dialogue **Options** avec l’onglet **Général** ) dans le Skype pour client d’entreprise.
     

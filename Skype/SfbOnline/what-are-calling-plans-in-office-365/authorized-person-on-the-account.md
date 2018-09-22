@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez pourquoi vous devez ajouter une personne qui peut modifier le compte lorsque vous utilisez l’Assistant Nouvel ordre de Port numéro Local.
-ms.openlocfilehash: d1849b5205441c6f75c4215b49ff1faa82989210
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0220e999a2454cd4fb80fadd19678e9108e4707b
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854388"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958390"
 ---
 # <a name="authorized-person-on-the-account"></a>Personne autorisée sur le compte
 
@@ -49,7 +49,7 @@ Dans l’Assistant **Nouvel ordre de Port numéro Local** , vous devez entrer le
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

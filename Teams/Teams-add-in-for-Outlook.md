@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65ad125380a60116592a68eeac466c46d7daa723
-ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
+ms.openlocfilehash: 07cc04f47da980bfb5a637c1cfe6bc2b72a26f8f
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2018
-ms.locfileid: "23998991"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967358"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -48,9 +48,9 @@ Pour savoir comment configurer l'authentification, reportez-vous à la rubrique 
 
 ## <a name="enable-private-meetings"></a>Activer les réunions privées
 
-L'autorisation de planification de réunions privées doit être activée depuis le [Centre d'administration Office 365](https://portal.office.com/adminportal/home) pour que le plug-in soit déployé.
+Autoriser la planification pour les réunions privées doit être activée dans le modèle équipes & Skype entreprise centre d’administration pour le plug-in à déployer. Dans le centre d’administration, accédez à des **réunions** > de**Stratégies de réunion**et dans la section **Général** , bascule **Autoriser la planification de réunions privées** on.)
 
-![Capture d'écran des paramètres dans la section Appels et réunions du Centre d'administration d’Office 365.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+![Capture d’écran des paramètres dans les équipes & Skype entreprise centre d’administration.](media/teams-add-in-for-outlook-image1.png)
 
 Le client Teams installe le complément correct en déterminant si les utilisateurs ont besoin de la version 32 bits ou 64 bits.
 

@@ -3,7 +3,7 @@ title: Préparer le déploiement du service en nuage vocale Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bf138a4d79fc6fd3533de381a538c88b646db55
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b3191280621e9e8339bf1716e5eafd274170fd6b
+ms.sourcegitcommit: 43bb1c1355193809c4f297d3dcb535c8b8d5d527
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882226"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24062009"
 ---
 # <a name="prepare-my-service"></a>Préparer mon service
 
@@ -50,7 +50,7 @@ Bien que nous vous conseillons de suivre les listes de contrôle dans l’ordre,
 Lorsque vous êtes embarquement utilisateurs sur site par site, que nous vous recommandons vivement d’utiliser la [Lecture d’activation de Site pour la voix (lecture)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) comme un guide supplémentaire à ces listes de contrôle.
 
 >[!NOTE]
->La plupart des paramètres de configuration sont communes entre les équipes et Skype pour Business Online. Office 365 Skype pour le centre d’Administration Business vous permet de configurer ces paramètres.
+>La plupart des paramètres de configuration sont communes entre les équipes et Skype pour Business Online. Vous utilisez le centre d’administration d’Office 365, équipes et Skype entreprise centre d’administration pour configurer ces paramètres.
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Qui sera responsable de la surveillance de l’exécution de l’intégration des listes de contrôle ?</li></ul></td></tr>

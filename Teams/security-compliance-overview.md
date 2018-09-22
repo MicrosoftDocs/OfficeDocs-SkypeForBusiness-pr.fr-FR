@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc686b520c9bd765539ff5fd9f636bc876583a41
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: 331e4d600c26123079315a77d5d99f17496c12a9
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937897"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967430"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
@@ -31,15 +31,15 @@ Les services qui appartiennent aux catégories de conformité C et D, et qui se 
 
 Les équipes applique également à l’échelle de l’équipe et l’organisation authentification à deux facteurs, authentification unique par le biais de Active Directory et le chiffrement des données en transit et inactives. Les fichiers sont stockés dans SharePoint et sont sauvegardés par le chiffrement de SharePoint. Notes sont stockées dans OneNote et sont sauvegardés par le chiffrement de OneNote. Les données de OneNote sont stockées dans le site d’équipe SharePoint. L’onglet Wiki peut également être utilisé pour la prise de notes et son contenu est également stocké dans le site d’équipe SharePoint.
 
-Nous avons également ajouté la prise en charge de la recherche dans les journaux d'audit, eDiscovery et la conservation légale pour les canaux, les conversations et les fichiers ainsi que la gestion des applications mobiles avec Microsoft Intune. Accédez au centre de sécurité pour Microsoft Office 365 et de la conformité pour gérer ces paramètres. 
+Nous avons également ajouté la prise en charge de la recherche dans les journaux d'audit, eDiscovery et la conservation légale pour les canaux, les conversations et les fichiers ainsi que la gestion des applications mobiles avec Microsoft Intune. Accédez au portail Office 365 sécurité & centre de conformité pour gérer ces paramètres. 
 
 ## <a name="auditing-and-reporting"></a>Audit et rapports
 
-Recherche des journaux d’audit se connecte à droite dans le centre de conformité et de sécurité pour Microsoft Office 365 et expose les capacités pour définir des alertes et/ou de créer des rapports sur les événements d’Audit en rendant disponibles, l’exportation de la charge de travail spécifiques ou événement générique définit pour l’utilisation d’administration et d’enquête, sur un chronologie audit illimité. Toutes les données du journal d’Audit est disponibles pour la configuration des alertes dans le centre de conformité et de sécurité pour Microsoft Office 365, ainsi que pour le filtrage et exporter pour une analyse approfondie. Reportez-vous à ce [lien](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) pour en savoir plus sur la façon d’effectuer une recherche de journal d’Audit pour les événements Teams Microsoft dans le centre de sécurité pour Microsoft Office 365 et de conformité. 
+Recherche des journaux d’audit se connecte à droite dans la sécurité pour Microsoft Office 365 et le centre de conformité et expose les capacités pour définir des alertes et/ou de créer des rapports sur les événements d’Audit en rendant disponibles, l’exportation de la charge de travail spécifiques ou événement générique définit pour l’utilisation d’administration et d’enquête, sur un chronologie audit illimité. Toutes les données du journal d’Audit est disponibles pour le paramétrage d’alertes au sein de la sécurité pour Microsoft Office 365 & centre de conformité, ainsi que pour le filtrage et exporter pour une analyse approfondie. Reportez-vous à ce [lien](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) pour en savoir plus sur la façon d’effectuer une recherche de journal d’Audit pour les événements Teams Microsoft Office 365 sécurité et centre de conformité. 
 
 ## <a name="compliance-content-search"></a>Recherche de contenu de conformité
 
-Recherche de contenu pouvant être utilisée pour rechercher toutes les données d’équipes par le biais de riches fonctionnalités de filtrage et exportée vers un conteneur spécifique pour la prise en charge pour litige et conformité. Cela peut être effectuée avec ou sans un cas eDiscovery. Cela permet aux administrateurs de conformité recueillir des données d’équipes pour tous les utilisateurs, passez en revue et exportez-le pour un traitement supplémentaire. Reportez-vous à ce [lien](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) pour en savoir plus sur la façon d’effectuer une recherche de contenu de conformité pour le contenu Teams Microsoft dans le centre de sécurité pour Microsoft Office 365 et de conformité. 
+Recherche de contenu pouvant être utilisée pour rechercher toutes les données d’équipes par le biais de riches fonctionnalités de filtrage et exportée vers un conteneur spécifique pour la prise en charge pour litige et conformité. Cela peut être effectuée avec ou sans un cas eDiscovery. Cela permet aux administrateurs de conformité recueillir des données d’équipes pour tous les utilisateurs, passez en revue et exportez-le pour un traitement supplémentaire. Reportez-vous à ce [lien](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) pour en savoir plus sur la façon d’effectuer une recherche de contenu de la conformité pour le contenu Teams Microsoft Office 365 sécurité et centre de conformité. 
 
 Conseil : Le type MicrosoftTeams peut servir à filtrer à Microsoft Teams contenu uniquement c'est-à-dire conversation et les Messages de canal, les réunions et les appels. 
 
@@ -47,7 +47,7 @@ Conseil : Le type MicrosoftTeams peut servir à filtrer à Microsoft Teams cont
 
 La découverte électronique représente l'aspect électronique de l'identification, la collecte et la production d'informations stockées électroniquement (ESI) en réponse à une demande dans le cadre d'une action en justice ou d'une enquête judiciaire. Fonctionnalités incluent la gestion, conservation, recherche, l’analyse et exporter des données d’équipes. Cela inclut les résumés de conversation, de messagerie et les fichiers, réunion et appel. Pour les réunions d’équipes et un résumé des événements qui s’est produite dans la réunion et d’appel, les appels sont créés et mis à disposition d’eDiscovery. 
 
-Pour plus d’informations sur la découverte électronique dans le centre de sécurité et de conformité et de la recherche de contenu d’exécution de la conformité pour le contenu des équipes, consultez les liens ci-dessous : 
+Pour plus d’informations sur la découverte électronique dans le centre de conformité et de sécurité et exécuter la recherche de contenu de la conformité pour le contenu des équipes, consultez les liens ci-dessous : 
 
 [eDiscovery](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
@@ -70,7 +70,7 @@ Les clients peuvent exploiter la découverte électronique locale ou [eDiscovery
 
 ## <a name="legal-hold"></a>Conservation légale
 
-Pendant un litige, il est souvent nécessaire que toutes les données associées à un utilisateur (dépositaire) ou une équipe est conservée immuable, donc il peut être utilisé comme preuve pour le cas. Pour cela, vous devez placer un utilisateur (boîte aux lettres de l’utilisateur) ou à une équipe en conservation légale. Lorsqu’une équipe au sein des équipes est placée sur le blocage sur Place (sous-ensemble de la collection de site ou de la boîte aux lettres via des requêtes ciblés ou du contenu filtré) ou litige (toute boîte aux lettres ou site collection), la suspension est placée sur la boîte aux lettres de groupes. Cela garantit que même si les utilisateurs finaux, supprimer ou modifier les messages de canal sont ingérés dans la boîte aux lettres de groupe, immuables copies de ce contenu sont disponibles dans la recherche eDisscovery et conservées. Les conservations légales sont généralement appliquées dans le contexte d'un cas eDiscovery. Consultez [cette](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) aide de l’article pour en savoir plus sur la conservation et suspensions dans le centre de sécurité pour Microsoft Office 365 et de conformité. 
+Pendant un litige, il est souvent nécessaire que toutes les données associées à un utilisateur (dépositaire) ou une équipe est conservée immuable, donc il peut être utilisé comme preuve pour le cas. Pour cela, vous devez placer un utilisateur (boîte aux lettres de l’utilisateur) ou à une équipe en conservation légale. Lorsqu’une équipe au sein des équipes est placée sur le blocage sur Place (sous-ensemble de la collection de site ou de la boîte aux lettres via des requêtes ciblés ou du contenu filtré) ou litige (toute boîte aux lettres ou site collection), la suspension est placée sur la boîte aux lettres de groupes. Cela garantit que même si les utilisateurs finaux, supprimer ou modifier les messages de canal sont ingérés dans la boîte aux lettres de groupe, immuables copies de ce contenu sont disponibles dans la recherche eDisscovery et conservées. Les conservations légales sont généralement appliquées dans le contexte d'un cas eDiscovery. Consultez [cette](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) aide de l’article pour en savoir plus sur la conservation et suspensions dans la sécurité pour Microsoft Office 365 et le centre de conformité. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Architecture de Protection des informations pour les équipes Microsoft. 
 
@@ -87,9 +87,9 @@ La figure suivante indique le flux d’ingestion des équipes de réunions et de
 
 ## <a name="retention-policies"></a>Stratégies de rétention
 
-Conversations équipes sont persistantes et conservés indéfiniment par défaut. Avec l’introduction des stratégies de rétention, les administrateurs peuvent configurer des stratégies de rétention (conservation et suppression) dans le centre de sécurité et conformité des messages de conversation et de canal équipes. Cela permet aux organisations de conserver les données de conformité (à savoir, stratégie de conservation) pour une période spécifique ou de vous débarrasser de données (à savoir, stratégie de suppression) s’il est considéré comme un passif après une période spécifique. Stratégies de rétention équipes Assurez-vous que lorsque vous supprimez des données, il est supprimé de tous les emplacements de stockage des données permanentes dans le service d’équipes. 
+Conversations équipes sont persistantes et conservés indéfiniment par défaut. Avec l’introduction des stratégies de rétention, les administrateurs peuvent configurer des stratégies de rétention (conservation et suppression) dans le centre de conformité & de sécurité pour les messages de conversation et de canal équipes. Cela permet aux organisations de conserver les données de conformité (à savoir, stratégie de conservation) pour une période spécifique ou de vous débarrasser de données (à savoir, stratégie de suppression) s’il est considéré comme un passif après une période spécifique. Stratégies de rétention équipes Assurez-vous que lorsque vous supprimez des données, il est supprimé de tous les emplacements de stockage des données permanentes dans le service d’équipes. 
 
-Pour gérer les stratégies de rétention des équipes works utiliser les cmdlets et les paramètres dans le centre de sécurité pour Microsoft Office 365 et de la conformité sous **La gouvernance des données** > **rétention**.
+Pour gérer les stratégies de rétention d’équipes, utilisez les paramètres et les applets de commande de sécurité pour Microsoft Office 365 et centre de conformité sous **La gouvernance des données** > **rétention**.
 
 Stratégies de rétention équipes prennent en charge : 
     
@@ -102,7 +102,7 @@ Stratégies de rétention équipes ne prennent pas encore charge :
 - Les stratégies de rétention avancées ne s’appliquent pas conversation équipes et emplacements de message de canal équipes
 - Durée de moins de 30 jours
 
-Administrateurs peuvent définir des stratégies de rétention distinct de salles de conversation privées équipes (1:1 ou 1:Many conversations) et les messages de canal équipes. Dans de nombreux cas, aux organisations de considérer les données de conversation privée comme un passif que les messages de canal, qui sont généralement plus conversations liés au projet. Configurer les stratégies suivantes dans le centre de sécurité et de la conformité, **la gouvernance des données** > **rétention**. Activer de **messages du canal équipes** et **équipes conversations** , puis définissez les stratégies de rétention pour ces emplacements (également indiqués dans le diagramme ci-dessous). 
+Administrateurs peuvent définir des stratégies de rétention distinct de salles de conversation privées équipes (1:1 ou 1:Many conversations) et les messages de canal équipes. Dans de nombreux cas, aux organisations de considérer les données de conversation privée comme un passif que les messages de canal, qui sont généralement plus conversations liés au projet. Configurer les stratégies de sécurité & centre de conformité, **la gouvernance des données** > **rétention**. Activer de **messages du canal équipes** et **équipes conversations** , puis définissez les stratégies de rétention pour ces emplacements (également indiqués dans le diagramme ci-dessous). 
 
 Lorsque vous activez des **messages du canal équipes**, vous pouvez spécifier les équipes auxquels cette stratégie s’applique. Par exemple, pour les équipes X, Y et Z, l’administrateur peut définir les stratégies de suppression pendant 1 an (en sélectionnant individuellement ces équipes) et appliquer une stratégie de suppression de 3 ans pour le reste des équipes. 
 
@@ -129,7 +129,7 @@ Pour plus d’informations sur la configuration des stratégies de rétention po
 
 ### <a name="what-types-of-policies-can-i-setup-in-retention-policies-and-how-do-they-work"></a>Quels types de stratégies puis-je installer dans les stratégies de rétention et comment fonctionnent-ils ?
 
-Dans le centre de sécurité et conformité, lorsque vous configurez une stratégie de rétention, des équipes ou pour n’importe quel autre charge de travail, vous pouvez configurer deux principaux types de stratégies : 
+Dans la SSecurity & centre de conformité, lorsque vous configurez une stratégie de rétention, des équipes ou pour n’importe quel autre charge de travail, vous pouvez configurer deux principaux types de stratégies : 
 - Conservation : Ces stratégies assurer la préservation de vos données pour une période donnée, quel que soit ce qui se passe dans les outils de l’utilisateur final. Elles Vérifiez que les données sont conservées pour des raisons de conformité expire disponibles dans eDiscovery jusqu'à cette date. Après l’expiration du délai, votre stratégie peut indiquer s’il faut ne rien faire ou supprimer les données. Dans les équipes, si vous créez une stratégie de conservation pour 7 ans, même si les utilisateurs finaux suppriment leurs messages équipes, ces messages sont conservées pour la découverte de 7 ans.
 - Suppression : Ces stratégies vous assurer que les données ne sont pas un passif pour votre organisation. Après la durée spécifiée, les données sont supprimées à partir du stockage pertinent toutes les équipes. 
 
@@ -159,9 +159,9 @@ Remarque : Lancement de la fonctionnalité de stratégies de rétention pour le
 
 Oui, Skype pour Business en ligne et conversations interopérabilitées équipes fonctionnent de la même manière. Une fois le Skype pour la conversation en ligne Business entame équipes, il devient un message dans un thread de conversation équipes et obtient ingéré dans la boîte aux lettres appropriée. Afin que les mêmes flux works – stratégies de suppression des équipes supprimera ces messages à partir du thread d’équipes. Toutefois, si l’historique des conversations sont activé pour Skype pour Business Online et de la Skype pour côté client Business Online ceux sont enregistrés dans une boîte aux lettres, ces données de conversation ne sont pas gérées par une stratégie de rétention les équipes.
 
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Puis-je faire ces via les cmdlets de centre de sécurité et conformité ? Que dois-je utiliser ? 
+### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Puis-je faire ces éléments dans le centre de conformité et de sécurité des applets de commande ? Que dois-je utiliser ? 
 
-Absolument. Vous pouvez créer des stratégies de rétention équipes à l’aide des [applets de commande Powershell du centre de conformité et de sécurité]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). N’oubliez pas que ces applets de commande Exchange Online ne sont pas. Voici les applets de commande que nous avons créée pour les équipes. Ils suivent nomenclature existant et le style à partir de la rétention des applets de commande aujourd'hui disponibles dans le centre de sécurité et conformité.
+Absolument. Vous pouvez créer des stratégies de rétention équipes à l’aide des [applets de commande Powershell de centre de conformité et de sécurité]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). N’oubliez pas que ces applets de commande Exchange Online ne sont pas. Voici les applets de commande que nous avons créée pour les équipes. Ils suivent nomenclature existant et le style à partir de la rétention des applets de commande aujourd'hui disponibles dans le centre de conformité et de sécurité.
 
 |Stratégie|Règle|
 |---|---|
@@ -217,7 +217,7 @@ En ce qui concerne les fonctionnalités de protection des informations, les abon
 |![Icône Point de décision.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Point de décision         |Votre organisation dispose-t-elle des licences requises pour satisfaire les besoins en matière de sécurité et de conformité ?         |
 |![Icône Étapes suivantes.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Étapes suivantes         |Passez en revue la licence actuelle de votre organisation et confirmez qu’il répond à tous les besoins de sécurité et de conformité.         |
 
-Avant d'activer ces fonctionnalités, assurez-vous d'avoir accès au Centre de sécurité et de conformité dans le Centre d'administration Office 365. Par défaut, les administrateurs de clients y ont accès.
+Avant d’activer une de ces fonctionnalités, assurez-vous de qu'avoir accès à la sécurité et le centre de conformité dans le centre d’administration d’Office 365. Par défaut, les administrateurs de clients y ont accès.
 
 Contenu de recherche et de découverte électronique ne nécessitent pas de prise en charge de la sécurité et le centre de conformité.
 
@@ -235,9 +235,9 @@ Pour plus d’informations sur la délégation des données Canada pour les équ
 
 Pour en savoir plus sur le lancement de la délégation de données Australie et Japon pour les équipes, lisez le billet de blog de Varun Sagar [Microsoft équipes lance Australie et Japon données délégation ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
-Pour savoir quelle région héberge les données de votre client, accédez au [Centre d’administration Office 365](https://portal.office.com/adminportal/home) > **Paramètres** > **Profil de l’organisation**. Défilez jusqu’à la section **Emplacement des données**. 
+Pour afficher la zone contient des données pour votre client, accédez au [Centre d’administration Office 365](https://portal.office.com/adminportal/home) > **paramètres** > **profil d’organisation**. Défilez jusqu’à la section **Emplacement des données**. 
 
-![Captures d'écran du tableau de l’emplacement des données, y compris Teams, dans le Centre d'administration Office 365.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+![Capture d’écran de la table de magasin de données, y compris les équipes, dans le centre d’administration d’Office 365.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 <a name="how-do-conditional-access-policies-work-for-teams"></a>Comment les stratégies d’accès conditionnel ne fonctionnent pas pour les équipes ?
 -------------------------

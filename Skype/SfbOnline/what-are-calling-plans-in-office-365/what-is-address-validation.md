@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Découvrez ce qu’est la validation d’adresse, pourquoi cela est important et son lien avec les adresses et services d’urgence. '
-ms.openlocfilehash: e9799fd9e19fb9527e31f63e3f94ace621cd9632
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 4ae8ab25f83eb97929706881f7f757ee3541284d
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855624"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958420"
 ---
 # <a name="what-is-address-validation"></a>Qu’est-ce que la validation d’adresse ?
 
@@ -44,7 +44,7 @@ La validation d'une adresse postale ou résidentielle implique de s’assurer qu
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

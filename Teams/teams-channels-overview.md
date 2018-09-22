@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b6c46a2ca5d68509a20b284d593d9edce080764
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 43b8a50322167ff9e5673ee62c0d53c226be632b
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889637"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967374"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 =================================================
@@ -53,7 +53,7 @@ Prenez cinq minutes pour découvrir les meilleures pratiques pour organiser des 
 
 **Paramètres de l’équipe** Les propriétaires d’équipe peuvent gérer les paramètres à l’échelle de l’équipe directement dans Microsoft Teams. Les paramètres incluent la possibilité d’ajouter une image de l’équipe, de définir les autorisations entre les membres pour créer des canaux, ajouter des onglets et connecteurs, @mentionner toute l’équipe ou le canal et l’utilisation de fichiers GIF, autocollants et mèmes. 
 
-Si vous êtes un administrateur de Microsoft Teams dans Office 365, vous avez accès aux paramètres à l’échelle du système dans le centre d’administration. Ces paramètres peuvent avoir une incidence sur les options et valeurs par défaut que les propriétaires d'équipe voient sous les paramètres de l’équipe. Par exemple, vous pouvez activer un canal par défaut, « Général », pour les annonces, discussions et ressources de l’équipe, qui s’afficheront pour toutes les équipes.
+Si vous êtes un administrateur de Microsoft Teams dans Office 365, vous avez accès à des paramètres système dans les équipes & Skype entreprise centre d’administration. Ces paramètres peuvent avoir une incidence sur les options et valeurs par défaut que les propriétaires d'équipe voient sous les paramètres de l’équipe. Par exemple, vous pouvez activer un canal par défaut, « Général », pour les annonces, discussions et ressources de l’équipe, qui s’afficheront pour toutes les équipes.
 
 Par défaut, tous les utilisateurs sont autorisés à créer une équipe dans Microsoft Teams. (Pour modifier ces autorisations, consultez la rubrique [Attribuer des rôles et des autorisations dans Teams](assign-roles-permissions.md).) Les utilisateurs d'un groupe Office 365 existant peuvent également contribuer à des améliorations avec la fonctionnalité Teams.
 

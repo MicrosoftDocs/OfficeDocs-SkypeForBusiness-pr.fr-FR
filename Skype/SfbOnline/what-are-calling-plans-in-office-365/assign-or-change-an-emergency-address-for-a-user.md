@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Découvrez comment configurer une adresse et un numéro de téléphone d’urgence pour chacun de vos utilisateurs qui fonctionne avec les publics téléphone réseau commuté (RTCP).
-ms.openlocfilehash: 053e0d13109f66b4e714b69f0bc5650e20acdb69
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 56552002c589b776935be973700cff822a9f4857
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885810"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958160"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Affectation ou modification d'une adresse d'urgence pour un utilisateur
 
@@ -65,7 +65,7 @@ Pour découvrir comment obtenir des Forfaits d’appels dans Office 365 et leur 
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

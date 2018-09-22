@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurer et utiliser Analytique appeler pour identifier et résoudre les problèmes de Skype pour professionnels et Microsoft Teams problèmes de qualité d’appel.
-ms.openlocfilehash: dfb21c852142b0ba6ec90d5c216ace0eecbf8003
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: de2484dac64623ed3f37c544877d48187f5ca5f9
+ms.sourcegitcommit: 63a560c05b4fa3bda3abc31ef5dffe60e61e4d67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861974"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24961003"
 ---
 # <a name="set-up-call-analytics"></a>Configurer Analytique d’appel
 
@@ -71,11 +71,11 @@ Gérer les agents de support technique de niveau 1 des problèmes fondamentaux d
     > [!NOTE]
     > Si vous êtes dans les **équipes Microsoft et Skype entreprise centre d’administration**, dans la navigation de gauche, cliquez sur **le portail hérité**.
   
-3. Dans l' **Appel Analytique (preview)**, cliquez sur **autorisations**.
+3. Sélectionnez **Outils** > **Skype pour Business appeler Analytique (preview)** > **paramètres**, puis cliquez sur **autorisations**.
     
 4. Ajoutez les groupes de sécurité Office 365 pour les zones de **niveau 1** et **niveau 2** . Vous pouvez ajouter plusieurs groupes à chaque rôle.
     
-     ![Capture d’écran montre la page autorisations pour appeler les Analytique avec les options pour les autorisations de niveau 1 et niveau 2.](media/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
+     ![Capture d’écran montre la page autorisations pour appeler les Analytique avec les options pour les autorisations de niveau 1 et niveau 2.](media/setup-call-analytics-image1.png)
   
  Les utilisateurs avec une de ces niveaux d’autorisation accéder à appeler l’Analytique via l’URL dédié *https://adminportal.services.skypeforbusiness.com*.
   

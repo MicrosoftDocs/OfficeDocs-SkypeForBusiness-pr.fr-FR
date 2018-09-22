@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Voici quelques raisons pourquoi vous pouvez rencontrer des problèmes votre adresse ou les adresses pour valider correctement dans le (Royaume-Uni).
-ms.openlocfilehash: 8e60b2e59a0a7a2dccf65688ba7331bec19c2c2d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: dafc6608f45393ccc0a39ecdb2c01e2479ec630b
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862686"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958280"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Pourquoi est-ce que j’ai des problèmes pour entrer les informations d’adresse au Royaume-Uni ?
 
@@ -117,7 +117,7 @@ Si vous rencontrez un problème d’entrer le code postal, n’oubliez pas :
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

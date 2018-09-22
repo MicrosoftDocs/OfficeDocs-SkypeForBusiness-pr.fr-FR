@@ -177,7 +177,7 @@
 ### [Solutions pour l'accessibilité de Skype Entreprise Online en France](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## Équipes et canaux
 ### [Présentation des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md)
-### [Assigner des rôles et des autorisations dans Microsoft Teams](assign-roles-permissions.md)
+### [Affecter des propriétaires de l’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md)
 ### [Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams](best-practices-organizing.md)
 ### [Didacticiel : Créer une équipe à l’échelle de l'entreprise avec PowerShell](company-wide-team-creation-powershell.yml)
 ## [Accès invité](guest-access.md)
@@ -203,6 +203,8 @@
 ### [Enregistrement de la réunion équipes sur le nuage](cloud-recording.md)
 ### [Utiliser le complément Réunion Teams dans Outlook](teams-add-in-for-outlook.md)
 ### [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Interopérabilité vidéo sur le nuage](cloud-video-interop.md)
+#### [Configurer une interopérabilité vidéo sur le nuage](cloud-video-interop-for-teams-set-up.md)
 ### Événements en direct
 #### [Quelles sont les équipes live événements ?](teams-live-events/what-are-teams-live-events.md)
 
@@ -465,8 +467,10 @@
 #### [Langues pour les messages d'accueil et les messages de la messagerie vocale](languages-for-voicemail-greetings-and-messages.md)
 #### [Définir l’ID d’appelant d’un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Configurer un standard automatique pour le système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Exemple d’implémentation - standards automatiques](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Configurer la messagerie vocale du système téléphonique](set-up-phone-system-voicemail.md)
 #### [Que sont les standards automatiques de système téléphonique ?](what-are-phone-system-auto-attendants.md)
+#### [Répondre de standard automatique et appels de file d’attente directement à partir d’équipes](answer-auto-attendant-and-call-queue-calls.md)
 ### Routage d’un système téléphonique Direct
 #### [Planifier le routage Direct](direct-routing-plan.md)
 #### [Configurer le routage Direct](direct-routing-configure.md)
