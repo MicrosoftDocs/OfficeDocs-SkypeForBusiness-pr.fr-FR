@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Vidéos de formation, didacticiels et autres ressources pour les administrateurs à planifier, déploiement et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c6d3601e72e829f2c00fd166c3b249872e48347
-ms.sourcegitcommit: 63a560c05b4fa3bda3abc31ef5dffe60e61e4d67
+ms.openlocfilehash: e3ee2ac75015f26317f85d6cf4ecf79e71496f0b
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24960954"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975091"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -140,7 +140,7 @@ Utilisez ces didacticiels, vidéos et autres ressources de formation pour en sav
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Architecture</h3><p>[Vidéo : Principes de base du - composants principaux d’équipes](https://www.youtube.com/watch?v=xJBvJTDiQqg)</p>
+                        <h3>Architecture</h3><p>[Vidéo : Principes de base du - composants principaux d’équipes](http://aka.ms/teams-foundations)</p>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@ Utilisez ces didacticiels, vidéos et autres ressources de formation pour en sav
                     <div class="cardText">
                         <h3>Planifier et déployer</h3>
                          <p>[Guide de démarrage rapide : guide de planification de Teams](quick-start-enable-teams.md)</p>
-                         <p>[Vidéo : Client de bureau Windows équipes](https://www.youtube.com/watch?v=zp1_wGzq1ic)</p>
+                         <p>[Vidéo : Client de bureau Windows équipes](http://aka.ms/teams-clients)</p>
                     </div>
                 </div>
             </div>
