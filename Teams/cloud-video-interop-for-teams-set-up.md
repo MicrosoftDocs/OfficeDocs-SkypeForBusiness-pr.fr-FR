@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff969701b9e0641ef09810f00a7aa34410e32b45
-ms.sourcegitcommit: 69d1cea64425f03e562b5fb930493e27b61db96b
+ms.openlocfilehash: 92fe72b8352e9a2152361f410f9e39f1f296a3c8
+ms.sourcegitcommit: 2d76fad92b6d6c5d1bd223a717fd6c534ecaa5be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24968278"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24974430"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurer une interopérabilité vidéo dans le nuage pour Microsoft Teams
 
@@ -88,7 +88,7 @@ Une fois ces étapes terminées, les utilisateurs qui sont activés de façon in
 ## <a name="schedule"></a>Planification
 
 Ensuite, planifier les équipes réunion avec vidéo coordonnées PIA. L’utilisateur activé peut planifier des équipes réunions via :
-- Complément Outlook client
+- [Des équipes de complément de conférence pour Outlook](teams-add-in-for-outlook.md)
 - Client équipes mobile et de bureau
 
 
