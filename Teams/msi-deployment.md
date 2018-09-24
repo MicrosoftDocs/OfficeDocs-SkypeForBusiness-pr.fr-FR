@@ -13,15 +13,18 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aaf355c1f1fc65855c7bffb7c5632929a084b88
-ms.sourcegitcommit: 3a7d2131717327d9b2d16848758e31e10326a0bd
+ms.openlocfilehash: 3141eb3f7d584e2140c95ec509e14285cc1cfe7c
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "24057602"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975099"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installer Microsoft Teams à l’aide de MSI
 =================================
+
+> [!Tip]
+> Regarder la session pour en savoir plus sur le Client de bureau Windows, comment planifier et déployer les avantages suivante : [Client de bureau Windows équipes](https://aka.ms/teams-clients)
 
 Pour utiliser System Center Configuration Manager ou la stratégie de groupe ou les mécanismes de distribution de tiers pour le déploiement, Microsoft a fourni les fichiers MSI ( [32 bits](https://aka.ms/teams32bitmsi) et [64 bits](https://aka.ms/teams64bitmsi)) que les administrateurs peuvent utiliser pour le déploiement en bloc des équipes pour sélectionner les utilisateurs ou ordinateurs. Administrateurs peuvent utiliser ces fichiers pour déployer des équipes à distance afin que les utilisateurs n’ont pas télécharger manuellement l’application d’équipes. Lors du déploiement, les équipes automatique de lancement pour tous les utilisateurs qui se connectent à sur cet ordinateur. (Vous pouvez désactiver lancement automatique après l’installation de l’application. [Voir ci-dessous](#disable-auto-lanuch-for-the-msi-installer).) Nous vous recommandons de déployer le package sur l’ordinateur, afin que tous les nouveaux utilisateurs de l’ordinateur bénéficient également ce déploiement. 
  
@@ -59,7 +62,7 @@ Si un utilisateur désinstalle des équipes de leur profil utilisateur, le progr
 > [!TIP] 
 > Vous pouvez utiliser notre script de [déploiement des équipes Microsoft nettoyer](.\scripts\Powershell-script-teams-deployment-clean-up.md) pour effectuer les étapes 1 et 2 via SCCM.  
                     
-## <a name="disable-auto-lanuch-for-the-msi-installer"></a>Désactiver lanuch automatique pour le programme d’installation MSI
+## <a name="disable-auto-launch-for-the-msi-installer"></a>Désactiver le démarrage automatique pour le programme d’installation MSI
 
 Si vous souhaitez désactiver le démarrage automatique, entrez l’invite de commandes suivante :
 

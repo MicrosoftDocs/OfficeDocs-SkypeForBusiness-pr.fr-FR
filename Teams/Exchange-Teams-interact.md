@@ -13,15 +13,18 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a422cb18cf6105ead7f0a76096a6cb5a755a1906
-ms.sourcegitcommit: 8537814aabddd7e7a6d1148c8c71ea14ae0c499a
+ms.openlocfilehash: d69ba0fc113667149b212547cd04ed02e814ba50
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24009044"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975123"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams 
 =========================================
+
+> [!Tip]
+> Regarder la session suivante pour savoir comment les équipes interagit avec Azure Active Directory (DAS), groupes d’Office 365, Exchange, SharePoint et OneDrive for Business : [Notions de base sur les équipes de Microsoft](https://aka.ms/teams-foundations)
 
 Pour profiter pleinement de Microsoft Teams, Exchange Online, SharePoint Online et la création de groupes Office 365 doivent être activés pour chaque utilisateur.
 

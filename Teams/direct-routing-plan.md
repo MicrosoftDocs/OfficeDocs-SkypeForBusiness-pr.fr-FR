@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: 0f2fceee07b3c742496be7e9fdf5c714d66f8bc1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 91d188f63a0645d0df81817dd98dbd3ef54418a9
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861740"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975201"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage Direct
 
@@ -136,7 +136,8 @@ Le certificat doit être généré par un des autorités de certification racine
 - Certificat racine de CyberTrust Baltimore
 - Buypass
 - Cybertrust
-- Autorité de Certification publique principale de classe 3 
+- Autorité de Certification publique principale de classe 3
+- Autorité de certification racine sécurisé Comodo
 - Deutsche Telekom 
 - Autorité de certification racine globale DigiCert 
 - Confier
