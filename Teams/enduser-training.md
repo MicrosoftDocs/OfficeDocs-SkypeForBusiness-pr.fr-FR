@@ -7,16 +7,18 @@ layout: LandingPage
 ms.date: 09/21/2018
 ms.topic: landing-page
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Training
+ms.reviewer: lolaj
 search.appverid: MET150
 description: Vidéos de formation, didacticiels et autres ressources pour les utilisateurs de votre organisation apprendre à utiliser des équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e1151d5b7ef371cf3b63b0a060dab6707bedd7a
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.openlocfilehash: 584b812317d347f416f57dae3f8d65db37717af4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24967366"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017150"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les utilisateurs finaux
 
