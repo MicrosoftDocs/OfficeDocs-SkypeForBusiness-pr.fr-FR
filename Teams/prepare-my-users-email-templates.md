@@ -10,15 +10,15 @@ ms.reviewer: rowille
 description: Utilisez les modèles pour envoyer des messages électroniques aux utilisateurs lors de l’implémentation des fonctionnalités vocales de nuage dans des équipes ou Skype pour les entreprises.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33c9359709f8e770583afa995097c36d8f762b25
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f7fd7e9078558c0b64b4acc448b28e4312f1eec8
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881832"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013658"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Faciliter l’adoption par les utilisateurs de votre nouveau système de téléphone en ligne
 

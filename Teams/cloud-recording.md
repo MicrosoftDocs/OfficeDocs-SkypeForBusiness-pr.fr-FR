@@ -5,17 +5,18 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Guide pratique pour le déploiement de la fonctionnalité vocale cloud dans Microsoft Teams.
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14b7003ca1ccecd0574e9c7e06de5cd81d85547e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 41cb6fdc7d27b90939be540d04b73fdc1f052818
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851174"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014178"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de la réunion équipes sur le nuage
 
@@ -36,7 +37,7 @@ Pour les réunions d’un utilisateur d’équipes à enregistrer, Stream Micros
 - Utilisateur a accepté les instructions de la société, si définie par l’administrateur
 - L’utilisateur a un espace suffisant dans Stream Microsoft pour les enregistrements d’être enregistrées
 - Utilisateur a TeamsMeetingPolicy-AllowCloudRecording paramètre défini sur true
-- Utilisateur a TeamsMeetingPolicy.AllowTranscription paramètre défini sur true, afin que l’utilisateur peut choisir s’il faut transcrire automatiquement les enregistrements
+- Utilisateur a TeamsMeetingPolicy-AllowTranscription paramètre défini sur true, afin que l’utilisateur peut choisir s’il faut transcrire automatiquement les enregistrements
 - Utilisateur n’est pas anonyme, invité ou utilisateur fédéré de la réunion
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configuration d’enregistrement de réunion équipes cloud pour les utilisateurs de votre organisation
@@ -118,7 +119,7 @@ Les enregistrements de réunion sont considérées comme appartenant à un clien
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Conformité et eDiscovery pour les enregistrements de réunions
 Les enregistrements de réunion sont stockés dans Microsoft Stream, Office 365 couche-c conforme. Pour prendre en charge les demandes d’e-Discovery pour les administrateurs de conformité qui souhaitent enregistrements de réunion ou un appel de Microsoft Streams, le message terminé d’enregistrement est disponible dans la fonctionnalité de recherche de contenu de la conformité pour Microsoft Teams. Les administrateurs de conformité peuvent rechercher le mot clé « enregistrer » dans la ligne d’objet de l’élément dans l’aperçu de recherche de contenu de la conformité et découvrir la réunion et les enregistrements des appels dans l’organisation. Il est indispensable pour pouvoir afficher tous les enregistrements qu’ils devront être définis dans Microsoft Stream avec un accès d’administration. Pour plus d’informations sur [l’affectation d’autorisations d’administration dans le flux](https://docs.microsoft.com/stream/assign-administrator-user-role).
 
-## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
+## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
 Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Windows PowerShell présente de nombreux avantages dans vitesse, la simplicité et la productivité sur qu’à l’aide du centre d’administration Office 365, tels que lorsque vous devez apporter des modifications de paramètre pour de nombreux utilisateurs en même temps. Pour prendre en main Windows PowerShell, consultez ces rubriques :
 

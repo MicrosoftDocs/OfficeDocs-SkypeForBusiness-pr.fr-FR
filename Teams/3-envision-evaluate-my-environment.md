@@ -10,15 +10,15 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Utilisez personnages et analyse réseau à évaluer la préparation de votre organisation, ouvrir les ports TCP et UDP corrects, effectuer la mise à jour n’importe quel réseau.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c864b6a18c6513da1eabe6f9c108879d6b5d5541
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 66b86ef8789f959de9887cc1f0b3c7c1e2e8ffa3
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885236"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015572"
 ---
 # <a name="evaluate-my-environment"></a>Évaluer mon environnement
 

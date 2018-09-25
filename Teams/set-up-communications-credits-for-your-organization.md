@@ -7,9 +7,12 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 1e4f48caff52cf648e075d9c4c4972076e124c00
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f82788d34e492b6dd3fe54c60168b8d83b3c09e2
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891692"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25018008"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurer les crédits de communication pour votre organisation
 
@@ -58,9 +61,11 @@ Pour plus d’informations, voir [Skype pour les professionnels et les équipes 
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Dans la navigation de gauche du centre d’administration Office 365, accédez à la **facturation** > **abonnements** > **modules complémentaires** > **acheter des modules complémentaires**, puis choisissez **Crédits Communications** > **Acheter maintenant**.
+2. Dans la navigation de gauche du centre d’administration Office 365, accédez à la **facturation** > **abonnements** > **abonnements ajouter**.
+
+3. Développez les **abonnements au module complémentaire**et choisissez **Crédits Communications** > **Acheter maintenant**.
     
-3. Dans la page d’abonnement **Communications crédits** , renseignez vos informations, puis cliquez sur **suivant**:
+4. Dans la page d’abonnement **Communications crédits** , renseignez vos informations, puis cliquez sur **suivant**:
     
   - **Ajouter fonds** Entrez le montant que vous souhaitez ajouter à votre compte. Si vous n’activez pas auto-recharge, une fois ces fonds épuisement, l’appel de fonctionnalités qui sont activées à l’aide de Communications crédits est interrompue (tel que service gratuit entrant). Pour éviter de réapprovisionnement manuellement votre compte Communications crédits chaque fois que votre compte atteint la valeur 0 (zéro), nous vous recommandons de que vous activez la fonctionnalité auto-recharge.
     
@@ -75,7 +80,7 @@ Pour plus d’informations, voir [Skype pour les professionnels et les équipes 
       > [!NOTE]
     > Fonds seront appliquées uniquement aux Communications crédits chez Microsoft publié taux lorsque les services sont utilisés. Tout fond non utilisé dans les 12 mois suivant la date d'achat expire et est perdu. 
     
-4. Entrez vos informations de paiement, cliquez sur **passer la commande**.
+5. Entrez vos informations de paiement, cliquez sur **passer la commande**.
     >[!IMPORTANT]
     >Si vous êtes un client de gestion des licences en volume, vous pouvez choisir votre numéro de contrat entreprise pour le paiement. Si vous avez plusieurs numéros d’accord entreprise, vous serez en mesure de sélectionner l’accord entreprise que vous souhaitez utiliser pour le paiement. Vous aurez également une possibilité de spécifier un numéro de commande fournisseur à associer avec le numéro d’accord entreprise (le cas échéant).
     

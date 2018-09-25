@@ -10,15 +10,15 @@ ms.reviewer: crowe
 description: Découvrez les fonctionnalités communes entre Microsoft Teams et les différentes configurations d'Exchange, telles que la création et l'adhésion à des équipes, la création de canaux, et plus encore.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d69ba0fc113667149b212547cd04ed02e814ba50
-ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
+ms.openlocfilehash: 40ed3d2cef71077dcc098ab42c5ecf3518d3c5fc
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24975123"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015820"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams 
 =========================================

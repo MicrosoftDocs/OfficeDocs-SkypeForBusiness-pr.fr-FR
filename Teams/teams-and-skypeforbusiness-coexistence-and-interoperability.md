@@ -3,7 +3,7 @@ title: Comprendre la coexistence et l’interopérabilité de Skype pour les ent
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -11,15 +11,15 @@ description: Détails de Skype pour les professionnels et Microsoft Teams coexis
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06e425f062c47f8fa05fa69e1354fee472804e90
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 158e563151fe426f6abbbeb7519ba9e793f2d202
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887569"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013408"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet] (media/upgrade-banner-project-definition.png "Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet")
 
@@ -48,13 +48,13 @@ Par défaut, les utilisateurs peuvent exécuter des équipes à côté de Skype 
 Dans ce mode de coexistence, appelé **(îles)**, chacune des applications clientes fonctionne comme un îlot séparé. Skype pour parle d’entreprise à Skype pour professionnels et les équipes communique avec les équipes. Les utilisateurs exécutent les deux clients et peuvent communiquer en mode natif dans le client à partir de laquelle la communication a été lancée. Par conséquent, il n’est pas nécessaire pour l’interopérabilité en mode **(îles)** .
 
 > [!Tip]
-> La plupart des organisations sont susceptibles de déploiement en mode **(îles)** . Si vous prévoyez de déplacer rapidement aux équipes et vous ne prévoyez prendre en charge la coexistence pour long, nous vous recommandons de qu'utiliser le mode **(îles)** . 
+> Lorsque les modes **d’Équipes uniquement** et **Skype pour les entreprises avec la collaboration des équipes** de modes à venir sont disponibles, le mode par défaut pour les nouveaux utilisateurs en ligne doit être **Skype pour les entreprises avec la collaboration des équipes**, jusqu'à ce que votre organisation est prête à déplacer vers **Les équipes uniquement**.   Les utilisateurs existants en mode **(îles)** doivent atteindre directement **Équipes uniquement** en mode dès que votre organisation est prête. 
 
 ### <a name="skype-for-business-only"></a>Skype pour les entreprises uniquement
 
 Dans ce mode de coexistence, les utilisateurs restent dans Skype pour les entreprises — pas les équipes — pour la conversation, réunion et appel des fonctions et qu’ils n’utilisent pas les équipes pour les équipes et les canaux. Ce mode est disponible. Toutefois, dans l’implémentation actuelle modalités d’équipes ne sont pas désactivées pour l’utilisateur automatiquement. Cette fonctionnalité est à venir. En attendant, administrateurs peuvent supprimer la licence équipes pour tous les utilisateurs qui ont besoin de rester dans Skype pour les entreprises en tant que leur application communications uniquement.
 
-### <a name="teams-only-this-mode-is-rolling-out-starting-in-summer-2018"></a>Les équipes uniquement (ce mode est présentant à compter d’été 2018)
+### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>Les équipes uniquement (ce mode démarrer le déploiement vers l’arrière été 2018 et aboutir à l’automne 2018 à tous les clients)
 
 Dès que votre organisation est prête pour certains ou tous les utilisateurs d’utiliser les équipes leur seul outil de communication et de collaboration, vous pouvez mettre à niveau ces utilisateurs en mode **équipes uniquement** .
 
@@ -87,6 +87,7 @@ Pour plus d’informations sur la gestion, les conditions préalables et les mod
 ## <a name="interoperability-of-teams-and-skype-for-business"></a>Interopérabilité des équipes et Skype pour les entreprises
 
 L’interopérabilité est la capacité pour les équipes et Skype pour les utilisateurs professionnels dans la même organisation de communiquer entre équipes et Skype pour les entreprises.
+
 
 ### <a name="native-interop-and-interop-escalation"></a>Escalade interopérabilité et interopérabilité native
 

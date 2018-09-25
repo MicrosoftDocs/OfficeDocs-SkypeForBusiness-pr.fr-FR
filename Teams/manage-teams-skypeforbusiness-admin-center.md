@@ -5,23 +5,25 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/23/2018
 ms.topic: article
-ms.service: msteams
+ms.service:
+- msteams
+- skype-for-business-online
 ms.reviewer: ''
 search.appverid: MET150
 description: Comprendre comment gérer les clients à l’échelle et les paramètres utilisateur pour les équipes pendant la transition entre les équipes expérience dans le centre d’administration d’Office 365 pour le nouveau Microsoft Teams & Skype entreprise centre d’administration.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: dddb73e5b616fead421d1b610eff6229b4191d06
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: e54dfb0bc62e94e0a870aefc192851ce7b8a53fe
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965698"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013898"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Gérer les équipes pendant la transition vers le nouveau Microsoft Teams & Skype entreprise centre d’administration
 ======================================================
@@ -76,7 +78,7 @@ Le tableau suivant identifie les sections de l’expérience d’équipes en cou
 |Stockage cloud personnalisé     |Échange        |TeamsClientConfiguration         |Client         |
 |Stockage cloud personnalisé     |Lecteur de Google        |TeamsClientConfiguration         |Client         |
 |Stockage cloud personnalisé     |ShareFile        |TeamsClientConfiguration         |Client         |
-|Paramètres par type de licence d’utilisateur     |Activer Microsoft Teams activé ou désactivé pour tous les utilisateurs          |Obsolète. Utilisez le centre d’administration Office 365 à l’attribution de licences.        |         |
+|Paramètres par type de licence d’utilisateur     |Activer Microsoft Teams activé ou désactivé pour tous les utilisateurs          |Sera déconseillé. Utilisez le centre d’administration Office 365 à l’attribution de licences.  Activation/désactivation de l’invité sera transféré vers TeamsClientConfiguration - AllowGuestUser      |         |
 |Équipes et canaux     |         |Redirige vers Azure Active Directory groupe Management (identique à l’expérience).              |Utilisateur         |
 |Équipes et canaux     |         |Redirige vers la gestion de groupe DAS (identique à l’expérience).             |Utilisateur          |
 |Les réunions et les appels     |Autoriser la planification de réunions privées         |TeamsMeetingPolicy         |Utilisateur          |

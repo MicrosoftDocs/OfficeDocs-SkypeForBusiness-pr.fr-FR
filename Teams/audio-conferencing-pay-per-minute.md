@@ -7,9 +7,12 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: En plus de la licence utilisateur standard de conférence Audio en Volume et la gestion des licences des organisations peuvent également choisir une offre de salaire par minute pour activer les fonctionnalités de conférence Audio pour leurs organisations.
-ms.openlocfilehash: e4d2679de8ca6239e8a63dcac6a17fac6bc19fab
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 1c66649ebb75dd89756f7da45255801e4e60fc16
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887720"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016924"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 

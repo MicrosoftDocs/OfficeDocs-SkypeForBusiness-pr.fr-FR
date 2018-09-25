@@ -7,9 +7,12 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Lorsque vous achetez des licences de services d’audioconférence, Microsoft héberge votre pont de conférence audio pour votre organisation. Le pont de conférence audio donne les numéros de téléphone à partir de différents emplacements si bien que les organisateurs de réunion et les participants peuvent les utiliser pour joindre Skype pour les réunions Microsoft Teams ou de l’entreprise à l’aide d’un téléphone.
-ms.openlocfilehash: 32376134a6faa6944c6a4bb3e36a92cf3407ebce
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5cd9a925ecf7dd24d900ebcbd30de3a30ec7a97d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23892493"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016748"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone de votre pont d'audioconférence
 
@@ -46,7 +49,7 @@ Outre les numéros de téléphone déjà affectés à votre pont de conférence,
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel.
 
-2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises** > **vocale** > **numéros de téléphone**.
+2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **équipes & Skype** > **portail hérité** > **vocale** > **numéros de téléphone**.
 
 3. Sélectionnez le numéro de téléphone dans la liste, puis dans le volet Actions, cliquez sur **affecter**.
 
@@ -65,7 +68,7 @@ Les numéros de téléphone par défaut pour les utilisateurs sont inclus dans l
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises** > **audioconférence** > **utilisateurs** et sélectionnez les utilisateurs dans la liste.
+2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **équipes & Skype** > **portail hérité** > **audioconférence** > **utilisateurs** et sélectionnez les utilisateurs dans la liste.
 
 3. Cliquez sur **Modifier** dans le volet Action.
 
@@ -129,7 +132,7 @@ Pour plus d'informations sur le service Meeting Migration Service (MMS), reporte
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises** > **vocale** > **numéros de téléphone**.
+2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **équipes & Skype** > **portail hérité** > **vocale** > **numéros de téléphone**.
 
 3. Sélectionnez le numéro de téléphone dans la liste, puis dans le volet Actions, cliquez sur **Supprimer l’attribution**.
 

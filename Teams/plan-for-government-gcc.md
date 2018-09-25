@@ -11,15 +11,15 @@ description: Conseils pour les professionnels de l’informatique pour les dépl
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34c13d9094512a52c334acf2b660b11b6579c886
-ms.sourcegitcommit: 63c391ce9144ba5b296050ac189f77f5cea78707
+ms.openlocfilehash: 410edd32855c85d2efa5a631cb893c1a5307a5e6
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "23973685"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015124"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan pour Microsoft 365 gouvernement - déploiements GCC
 

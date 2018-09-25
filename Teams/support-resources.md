@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Liste des ressources de support pour Microsoft Teams pour une utilisation plus efficace du produit
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8befaf84b734052d6a23e154258551f08413e5de
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 50e13255225e909d55fccc2b4bdc716bcb26e8f0
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863600"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25011880"
 ---
 <a name="support-resources-for-microsoft-teams"></a>Ressources de support pour Microsoft Teams
 =====================================

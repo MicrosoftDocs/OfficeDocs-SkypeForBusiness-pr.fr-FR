@@ -9,44 +9,27 @@ ms.reviewer: lehewe
 description: Conseils pour la gestion de la transition aux équipes de Skype pour les entreprises
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfd2c7efd606a143fffca25c7379f2a29bf505da
-ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
+ms.openlocfilehash: b7d3eb2d1ec03be336db51841987b5dc84f9f74f
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2018
-ms.locfileid: "23999023"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013978"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guide de migration et d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises
 
 En avril de 2018, Microsoft clarification de l’aide à la migration pour les équipes de Skype pour les entreprises et comment ces deux clients peuvent coexister pour un utilisateur donné. À ce stade, nous avons annoncé modifications planifiées pour simplifier la gestion et accroître la satisfaction des utilisateurs finaux. Depuis, Microsoft a développé une mise à jour pour l’expérience utilisateur d’administration, compatible avec ce plan. Les instructions de ce document reflètent ces modifications.
 
-Comme précédemment annoncé, TeamsInteropPolicy retirer (ciblé pour la fin de T3), et ses fonctionnalités sont consolidées dans TeamsUpgradePolicy. Interopérabilité et la migration sont gérés à l’aide du mode « coexistence » tel que déterminé par TeamsUpgradePolicy, qui est désormais disponible. Sélection du mode de l’utilisateur est déterminants de routage des conversations et les appels entrants et dans le client que l’utilisateur peut démarrer des conversations et les appels ou planifier des réunions. Tandis que TeamsInteropPolicy sera supprimé, il doit être défini en parallèle avec TeamsUpgradePolicy pendant la phaseout.  
+Comme annoncé précédemment, TeamsInteropPolicy a été retiré. Sa fonctionnalité a été consolidée dans TeamsUpgradePolicy. Interopérabilité et la migration sont gérés à l’aide du mode « coexistence » tel que déterminé par TeamsUpgradePolicy. Sélection du mode de l’utilisateur gère le routage des appels entrants et salles de conversation et si utilisateur planifie les réunions dans des équipes ou Skype pour les entreprises.  Bientôt, conjointement avec la TeamsAppPermissionsPolicy à venir, mode gère également dans le client de l’utilisateur peut lancer des conversations et les appels. 
 
-Dans le cadre de cette initiative, Microsoft a récemment mis le « Microsoft équipes & Skype pour entreprise centre d’administration » (également appelé Portal moderne) pour refléter le nouveau modèle de gestion basé sur les modes de coexistence. Dans le portail moderne, configuration TeamsUpgradePolicy vont désormais automatiquement également affecter TeamsInteropPolicy valeur cohérente, afin que TeamsInteropPolicy est n’est plus exposé dans l’interface utilisateur. *Toutefois, les administrateurs à l’aide de PowerShell doit toujours définir à la fois TeamsUpgradePolicy et TeamsInteropPolicy pour garantir un routage correct.* Une fois la transition vers TeamsUpgradePolicy terminée, il ne sera plus nécessaire de définir également TeamsInteropPolicy.
+Configuration TeamsInteropPolicy n’est plus nécessaire. Il n’est pas respecté, sauf si TeamsUpgradePolicy a mode = hérité.  Prise en charge TeamsUpgradePolicy est terminée, les clients doivent mettre à jour leur configuration pour utiliser un mode autre que hérité.
+
+
 </br>
-</br>
-|**Gérer l’interopérabilité et la Migration**|**Portail moderne**|**PowerShell**|
-|----|----|----|----|
-|Jusqu'à septembre 2018 (dates susceptible de changer)|Utilisez TeamsUpgradePolicy|Utiliser les TeamsUpgradePolicy et TeamsInteropPolicy |
-|Publier septembre 2018 (dates susceptible de changer)|Utilisez TeamsUpgradePolicy|Utilisez TeamsUpgradePolicy uniquement ; TeamsInteropPolicy déconseillée|
-|||||
 
-Pour prendre en compte l’introduction de modes de coexistence et la mise hors service en attente de TeamsInteropPolicy, Microsoft fournit maintenant ce guide afin que les clients qui utilisent des équipes aujourd'hui peuvent gérer la transition.
-
-## <a name="in-this-article"></a>Dans cet article
-
-- [Concepts fondamentaux](#fundamental-concepts)
-- [Modes de coexistence](#coexistence-modes)
-- [TeamsUpgradePolicy : gestion de la migration et coexistence](#teamsupgradepolicy-managing-migration-and-co-existence)
-- [TeamsInteropPolicy à retirer](#teamsinteroppolicy-to-be-retired)
-- [Fin de la transition vers la gestion de mode](#completing-the-transition-to-mode-management)
-- [Action requise pour les organisations qui ont déjà utilisé TeamsInteropPolicy](#action-required-for-organizations-that-have-already-used-teamsinteroppolicy)   
-- [Descriptions du mode détaillé](#detailed-mode-descriptions) 
-- [Résumé des modifications de fonctionnalités prévues pour simplifier la migration et coexistence](#summary-of-planned-functionality-changes-to-simplify-coexistence-and-migration) 
-- [Problèmes connus](#known-issues)
 
 ## <a name="fundamental-concepts"></a>Concepts fondamentaux
 
@@ -65,9 +48,9 @@ Pour prendre en compte l’introduction de modes de coexistence et la mise hors 
 
 6.  Mise à niveau d’un utilisateur aux équipes (autrement dit, leur accorder TeamsUpgradePolicy avec Mode = TeamsOnly), l’utilisateur doit être hébergé en ligne dans Skype pour les entreprises. Cette opération est obligatoire pour garantir l’interopérabilité, la fédération et l’administration complète de l’utilisateur d’équipes. Pour mettre à niveau des utilisateurs qui sont hébergés sur un système local, utilisez `Move-CsUser` à partir de l’environnement local administrateur des outils pour déplacer vers le premier l’utilisateur de Skype pour Business Online. Puis accorder TeamsUpgradePolicy et TeamsInteropPolicy à l’utilisateur en ligne ou portail moderne permet d’affecter le mode TeamsOnly. Une fois CU8 pour Skype pour navires Business Server 2015, client peut simplement utiliser la nouvelle `-MoveToTeams` basculer dans `Move-CsUser` qui combine ces 2 étapes à 1.
 
-7.  Les stratégies de base pour la gestion de la mise à niveau et interopérabilité sont TeamsUpgradePolicy et TeamsInteropPolicy.  Cependant, TeamsInteropPolicy est en cours obsolète et toutes les fonctionnalités seront remplacée par TeamsUpgradePolicy. Jusqu'à ce que la transition est terminée, les utilisateurs doivent définir à la fois TeamsUpgradePolicy et TeamsInteropPolicy régulièrement (comme décrit [ultérieure](#important) dans ce document) pour garantir un bon fonctionnement, ou le nouveau portail moderne qui effectue cette opération automatiquement.
+7.  La stratégie de base pour la gestion de la mise à niveau et interopérabilité de base est TeamsUpgradePolicy. TeamsInteropPolicy n’est plus utilisé, sauf lorsque l’utilisation du mode TeamsUpgradePolicy = hérités et les clients qui utilisent le mode = hérité doit mettre à jour leur configuration de TeamsUpgradePolicy à utiliser un autre mode.  
 
-8.  Pour utiliser les fonctionnalités du système de téléphone d’équipes, les utilisateurs doivent être en mode TeamsOnly (autrement dit, hébergés dans Skype pour Business Online et mis à niveau vers les équipes), et ils doivent être configurés pour Microsoft Phone système routage Direct (qui vous permet d’utiliser le système téléphonique avec vos propres SIP jonctions et SBC) ou possèdent un Office 365 appelant Plan de. Routage direct est [généralement disponible](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) à compter du 28 juin 2018.  
+8.  Pour utiliser le système téléphonique d’équipes des fonctionnalités, les utilisateurs doivent être en mode TeamsOnly (autrement dit, hébergés dans Skype pour Business Online et mis à niveau vers les équipes) et ils doivent être configurés pour le système téléphonique de Microsoft [Routage Direct](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (qui vous permet d’utiliser le système téléphonique avec votre propriétaire de jonctions SIP et SBC) ou possèdent un Office 365 appelant Plan de.   
 
 9.  Planification de réunions d’équipes à une conférence Audio (entrant ou appel sortant via PSTN) est actuellement disponible uniquement pour les utilisateurs qui sont hébergés dans Skype pour Business Online. Appuyez sur est prise en charge pour les utilisateurs d’équipes avec un Skype locale pour le compte de l’entreprise.
 
@@ -76,11 +59,11 @@ Pour prendre en compte l’introduction de modes de coexistence et la mise hors 
 
 Pour simplifier la gestion et accroître la satisfaction des utilisateurs finaux, interopérabilité et la migration sont maintenant gérés en fonction de « mode de coexistence » à l’aide de TeamsUpgradePolicy. Mode d’un utilisateur détermine :
 
-- *Routage des télécopies entrantes* : dans quels ne client (équipes ou Skype pour les entreprises) entrant conversations et appelle terrain ? Cette fonctionnalité remplace ce qui a été précédemment géré par TeamsInteropPolicy. TeamsInteropPolicy sera être retirée après que la transition est terminée. ***Lors de la transition, à la fois TeamsUpgradePolicy et TeamsInteropPolicy doivent être définis de manière coordonnée, comme décrit dans la section suivante***.
-- *Planification de la réunion* : le service qui est utilisé pour la planification de réunions et en vous assurant que le complément approprié est présent dans Outlook ? Complément prise en charge Outlook doit être déployé dans les prochaines semaines. Notez que TeamsUpgradePolicy ne gère pas participer à une réunion. Les utilisateurs peuvent toujours *participer à* une réunion, qu’il s’agisse d’un Skype pour conférence Business ou équipes.
-- *L’expérience client* : quelles sont les fonctionnalités sont disponible dans les équipes et/ou Skype pour client d’entreprise ? Ceci est implémenté pour le mode TeamsOnly. Prise en charge pour les autres modes dépend de la TeamsAppPolicy à venir. Lorsque cette nouvelle stratégie est en place, TeamsUpgradePolicy aura une dépendance sur pour garantir que les équipes est correctement configuré pour le mode de votre choix.
+- *Routage des télécopies entrantes* : dans quels ne client (équipes ou Skype pour les entreprises) entrant conversations et appelle terrain ? 
+- *Planification de la réunion* : le service qui est utilisé pour la planification de réunions et en vous assurant que le complément approprié est présent dans Outlook. Notez que TeamsUpgradePolicy ne gère pas participer à une réunion. Les utilisateurs peuvent toujours *participer à* une réunion, qu’il s’agisse d’un Skype pour conférence Business ou équipes.
+- *L’expérience client* : quelles sont les fonctionnalités sont disponible dans les équipes et/ou Skype pour client d’entreprise ? Ceci est implémenté pour le mode TeamsOnly. Prise en charge pour les autres modes dépend de la TeamsAppPermissionsPolicy à venir. Lorsque cette nouvelle stratégie est en place, TeamsUpgradePolicy aura une dépendance sur pour garantir que les équipes est correctement configuré pour le mode de votre choix.
 
-Les modes planifiées sont répertoriés ci-dessous. SfBWithTeamsCollab et SfBWithTeamsCollabAndMeetings autorisera mixte d’utilisation de ces deux clients, mais aucune fonctionnalité qui se chevauchent. Mode (îles) permet l’utilisation de ces deux clients, mais avec chevauchement des fonctionnalités. Par exemple, en mode (îles), un utilisateur peut lancer une conversation dans soit Skype pour les équipes ou de l’entreprise, mais dans SfBWithTeamsCollab, ils peuvent uniquement converser dans Skype pour les entreprises. Notez que pas tous les modes sont encore disponibles.  
+Les modes planifiées sont répertoriés ci-dessous. SfBWithTeamsCollab et SfBWithTeamsCollabAndMeetings autorisera mixte d’utilisation de ces deux clients, mais aucune fonctionnalité qui se chevauchent. Mode (îles) permet l’utilisation de ces deux clients, mais avec chevauchement des fonctionnalités. Par exemple, en mode (îles), un utilisateur peut lancer une conversation dans soit Skype pour les équipes ou de l’entreprise, mais dans SfBWithTeamsCollab, ils peuvent uniquement converser dans Skype pour les entreprises. Notez que pas tous les modes sont encore totalement disponibles.  
 </br>
 </br>
 |Mode|Comportement de routage|Planification de la réunion|Expérience du client|
@@ -90,7 +73,7 @@ Les modes planifiées sont répertoriés ci-dessous. SfBWithTeamsCollab et SfBWi
 |SfBWithTeamsCollab<sup>2</sup>|Conversations et les appels entrants sont routées vers Skype pour les entreprises|Skype pour les entreprises uniquement|Les utilisateurs finaux peuvent lancer des appels et des conversations de Skype pour les entreprises et planifier uniquement Skype pour les réunions d’entreprise. Ils peuvent également utiliser des canaux dans les équipes. (PAS ENCORE APPLIQUÉE)|
 |SfBWithTeamsCollabAndMeetings<sup>3</sup>|Conversations et les appels entrants sont routées vers Skype pour les entreprises|Équipes uniquement|Les utilisateurs finaux peuvent passer des appels et conversations Skype pour les entreprises uniquement et uniquement à partir de planifient des réunions d’équipes. Ils peuvent également utiliser des canaux dans les équipes. (PAS ENCORE APPLIQUÉE)|
 |TeamsOnly|Conversations et les appels entrants sont acheminées vers les équipes|Équipes uniquement|Les utilisateurs finaux peuvent lancer des appels et des conversations des équipes. Skype pour les entreprises est uniquement disponible pour participer à des réunions.|
-|Hérité|Routage basé sur TeamsInteropPolicy|Aucun impact|Aucun impact. Ce mode temporaire pour faciliter la transition entre TeamsInteropPolicy et TeamsUpgradePolicy. Une fois la transition terminée, ce mode est supprimé. |
+|Hérité|Routage basé sur TeamsInteropPolicy|Aucun impact|Aucun impact. Il s’agissait d’un mode temporaire facilités passage de TeamsInteropPolicy à TeamsUpgradePolicy. TeamsUpgradePolicy est entièrement pris en charge client doit mettre à jour leurs configurations aux modes de hérité. |
 |||||
 
 **Notes :**
@@ -103,13 +86,13 @@ Les modes planifiées sont répertoriés ci-dessous. SfBWithTeamsCollab et SfBWi
 
 ## <a name="teamsupgradepolicy-managing-migration-and-co-existence"></a>TeamsUpgradePolicy : gestion de la migration et coexistence
 
-TeamsUpgradePolicy expose maintenant trois propriétés. Les principales propriétés sont en Mode et NotifySfbUsers. Action est un paramètre hérité et est entièrement redondante avec la combinaison de Mode et NotifySfbUsers.
+TeamsUpgradePolicy expose trois propriétés. Les principales propriétés sont en Mode et NotifySfbUsers. Action est un paramètre hérité et est entièrement redondante avec la combinaison de Mode et NotifySfbUsers.
 </br>
 </br>
 |Paramètre|Type|Valeurs autorisées</br>(valeur par défaut en italique)|Description|
 |---|---|---|---|
-|Mode|Enum|*(Îles)*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>Hérité|Indique le mode, dans que le client doit s’exécuter. Si le mode = Legacy, composants consommation de cette stratégie seront rétabli en respectant TeamsInteropPolicy. Il s’agit afin de faciliter la transition vers le nouveau schéma comme composants précédemment réglé TeamsInteropPolicy sont mis à jour pour honorer TeamsUpgradePolicy.</br>Mode = TeamsOnly est l’équivalent d’Action = mise à niveau.|
-|NotifySfbUsers|Bool|*False* ou true|Indique s’il faut afficher une bannière dans le Skype pour client Business informant l’utilisateur que les équipes remplacera bientôt Skype pour les entreprises. Il ne peut pas être la valeur true si le Mode = TeamsOnly. Cette option équivaut à l’Action = avertir.|
+|Mode|Enum|*(Îles)*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>Hérité|Indique le mode, dans que le client doit s’exécuter. Si le mode = Legacy, composants consommation de cette stratégie seront rétabli en respectant TeamsInteropPolicy. TeamsUpgradePolicy est maintenant entièrement pris en charge et les clients doivent mettre à jour leurs modes d’utilisation configurations autre que hérité.|
+|NotifySfbUsers|Bool|*False* ou true|Indique s’il faut afficher une bannière dans le Skype pour client Business informant l’utilisateur que les équipes remplacera bientôt Skype pour les entreprises. Il ne peut pas être la valeur true si le Mode = TeamsOnly.|
 |Action|Enum|*None*, avertir, mise à niveau|Il s’agit d’un paramètre hérité qui est finalement supprimé, car elle est redondante avec la combinaison de Mode et NotifySfbUsers. |
 |||||
 
@@ -125,7 +108,7 @@ Les équipes fournit toutes les instances appropriées de TeamsUpgradePolicy par
 |SfBWithTeamsCollab|SfBWithTeamsCollab|Faux|Aucun|Ce mode existe au niveau de la couche PowerShell mais n’est pas encore exposé dans l’expérience utilisateur d’administration. À partir d’un point de vue de routage, il s’agit identique au mode SfBOnly. Lorsque TeamsAppPolicy est disponible, cela n’autorisera que canaux dans l’application des équipes.|
 |SfBWithTeamsCollabWithNotify|SfBWithTeamsCollab|True|Avertir|Ce mode existe au niveau de la couche PowerShell mais n’est pas encore exposé dans l’expérience utilisateur d’administration. À partir d’un point de vue de routage, il s’agit identique au mode SfBOnly. Lorsque TeamsAppPolicy est disponible, cela n’autorisera que canaux dans l’application des équipes.|
 |UpgradeToTeams|TeamsOnly|Faux|Mise à niveau|Utilisez ce mode pour mettre à niveau des utilisateurs aux équipes et empêcher conversation, appel et planifier des réunions dans Skype pour les entreprises.|
-|Globale|Hérité|Faux|Aucun|Le mode finalement à jour des îles.|
+|Globale|Hérité|Faux|Aucun|Le mode met à jour dans un avenir proche des îles.|
 |NoUpgrade|Hérité|Faux|Aucun|Cette instance sera éventuellement être retirée.|
 |NotifyForTeams|Hérité|True|Avertir|Cette instance sera éventuellement être retirée.|
 ||||||
@@ -136,23 +119,18 @@ Ces instances de stratégie peuvent être accordées à des utilisateurs individ
 - Pour mettre à niveau le client entière, omettez le paramètre identity de la commande grant :</br>
 `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`
 
-### <a name="important"></a>IMPORTANT !
-Composants préalablement réglé TeamsInteropPolicy sont en cours de mise à jour pour honorer TeamsUpgradePolicy. Lors de la transition, gestion de ces deux stratégies doit être coordonnée comme spécifié ci-dessous. Notez que la mise à jour récente au portail moderne accorde automatiquement ces deux stratégies correctement lorsque vous sélectionnez un mode de coexistence.
-</br>
-</br>
-|Si vous accordez à une instance de TeamsUpgradePolicy</br>avec cette valeur de Mode...|... Puis accorder cette instance de TeamsInteropPolicy|
-|---|---|
-|(Îles)|`DisallowOverrideCallingDefaultChatDefault`|
-|SfBOnly, SfBWithTeamsCollab,</br>SfBWithTeamsCollabAndMeetings|`DisallowOverrideCallingSfbChatSfb`|
-|TeamsOnly |`DisallowOverrideCallingTeamsChatTeams`|
-|||
 
-## <a name="teamsinteroppolicy-to-be-retired"></a>TeamsInteropPolicy à retirer 
 
-Comme indiqué précédemment, TeamsInteropPolicy sera remplacé par TeamsUpgradePolicy. Jusqu'à ce que cette transition est terminée, seules les trois instances spécifiques de TeamsInteropPolicy répertoriées ci-dessous sont prises en charge. Dans chaque cas, la valeur de CallingDefaultClient correspond à la valeur de ChatDefaultClient et AllowEndUserClientOverride a toujours la valeur false. 
+## <a name="teamsinteroppolicy-being-retired"></a>TeamsInteropPolicy est obsolète 
+
+Comme indiqué précédemment, TeamsInteropPolicy a été remplacée par TeamsUpgradePolicy. Tous les composants précédemment réglé TeamsInteropPolicy ont été mis à jour pour honorer TeamsUpgradePolicy au lieu de cela. 
+
+Microsoft a déjà introduit le mode « Hérité » afin de faciliter la transition à partir de TeamsInteropPolicy vers TeamsUpgradePolicy, mode hérité dans, les composants de routage qui compris TeamsUpgradePolicy seraient revenir au TeamsInteropPolicy. Routage prend maintenant entièrement en charge TeamsUpgradePolicy et il n’est plus nécessaire d’utiliser le mode hérité. Les clients doivent mettre à jour leur configuration de TeamsUpgradePolicy en mode hérité.
+
+Les clients qui utilisent le mode hérité doivent mettre à jour leur configuration pour utiliser un des autres modes. Les clients qui utilisent toujours en mode hérité reçoivent un rappel que seules les trois instances spécifiques de TeamsInteropPolicy répertoriées ci-dessous sont prises en charge. Dans chaque cas, la valeur de CallingDefaultClient correspond à la valeur de ChatDefaultClient et AllowEndUserClientOverride a toujours la valeur false. 
 </br>
 </br>
-**Prise en charge d’instances de TeamsInteropPolicy avant de retraite**
+**Prise en charge des instances de TeamsInteropPolicy lors de l’utilisation du mode TeamsUpgradePolicy = hérité**
 |Identity |AllowEndUserClientOverride|CallingDefaultClient|ChatDefaultClient|
 |---|---|---|---|
 |`DisallowOverrideCallingDefaultChatDefault`|Faux|Par défaut|Par défaut|
@@ -166,23 +144,23 @@ Utilisez la syntaxe de commande suivante, où $policy est une des valeurs d’id
 
 Fédération des équipes à un autre utilisateur à l’aide de Skype entreprise requiert l’utilisateur équipes hébergés en ligne dans Skype pour les entreprises. Finalement, équipes, les utilisateurs hébergés dans Skype pour Business locale sera vous fédérer avec d’autres utilisateurs d’équipes.
 
-Une fois la prise en charge de la fédération est activée, TeamsUpgradePolicy (ainsi que les TeamsInteropPolicy lors de la transition) régit le routage des appels et des conversations fédérées entrantes. Pour faciliter les autres organisations d’établir des communications fédérées avec les utilisateurs de votre organisation, il est recommandé de choisir un mode qui achemine spécifiquement soit à Skype pour Business ou équipes, plutôt que des îles.
+TeamsUpgradePolicy gère le routage des appels et des conversations fédérées entrantes. Pour faciliter les autres organisations d’établir des communications fédérées avec les utilisateurs de votre organisation, il est recommandé de choisir un mode qui achemine spécifiquement soit à Skype pour Business ou équipes, plutôt que des îles.
 </br>
-|Pour acheminer les appels et conversations pour...|Accorder une instance de TeamsUpgradePolicy</br> avec un de ces modes|Et accorder cette instance de TeamsInteropPolicy|
-|---|---|---|
-|Skype Entreprise|SfBOnly, SfBWithTeamsCollab, </br>SfBWithTeamsCollabAndMeetings|`DisallowOverrideCallingSfbChatSfb`|
-|Teams|TeamsOnly |`DisallowOverrideCallingTeamsChatTeams`|
-||||
+|Pour acheminer les appels et conversations pour...|Accorder une instance de TeamsUpgradePolicy</br> avec un de ces modes
+|---|---|
+|Skype Entreprise|SfBOnly, SfBWithTeamsCollab, </br>SfBWithTeamsCollabAndMeetings|
+|Teams|TeamsOnly |
+|||
 
 ## <a name="completing-the-transition-to-mode-management"></a>Fin de la transition vers la gestion de mode
 
-Fin de l’année, Microsoft prévoit d’introduire un nouveau type de stratégie, TeamsAppPolicy, afin de contrôler les portions de client d’équipes sont activées (telles que la messagerie instantanée, réunions, la conversation, les canaux). Lorsque la nouvelle stratégie pour activer/désactiver les charges de travail en équipe est disponible, TeamsUpgradePolicy seront mis à jour afin que lorsqu’un administrateur tente d’accorder une instance de TeamsUpgradePolicy à un utilisateur, elle vérifie tout d’abord pour vous assurer que TeamsAppPolicy est correctement configuré pour le mode de votre choix. Si ce n’est pas le cas, l’octroi échoue avec une erreur expliquant comment l’autre stratégie doit tout d’abord être définie. 
+Fin de l’année, Microsoft prévoit d’introduire un nouveau type de stratégie, TeamsAppPermissionsPolicy, afin de contrôler les portions de client d’équipes sont activées (telles que la messagerie instantanée, réunions, la conversation, les canaux). Lorsque la nouvelle stratégie pour activer/désactiver les charges de travail en équipe est disponible, TeamsUpgradePolicy seront mis à jour afin que lorsqu’un administrateur tente d’accorder une instance de TeamsUpgradePolicy à un utilisateur, elle vérifie tout d’abord pour vous assurer que TeamsAppPolicy est correctement configuré pour le mode de votre choix. Si ce n’est pas le cas, l’octroi échoue avec une erreur expliquant comment l’autre stratégie doit tout d’abord être définie. 
 
 Jusqu'à ce que TeamsAppPolicy devient disponible, TeamsUpgradePolicy régit essentiellement le routage des appels et des salles de conversation, ainsi que la planification de réunion (comme exposé par le biais des compléments Outlook). Étant donné que le comportement du client des équipes n’est pas encore en place, pas tous les modes sont activés dans le portail moderne. À partir d’un point de vue de routage, les modes SfBOnly, SfBWithTeamsCollab et SfBWithTeamsCollabAndMeetings sont identiques. 
 
 ## <a name="action-required-for-organizations-that-have-already-used-teamsinteroppolicy"></a>Action requise pour les organisations qui ont déjà utilisé TeamsInteropPolicy
 
-Pour préparer ces modifications à venir, les clients procédez comme suit :
+Les clients qui utilisent toujours en mode hérité procédez comme suit :
 
 1. Assurez-vous que les utilisateurs avec TeamsInteropPolicy sont affectés à une seule de ces trois instances intégrés, pour le CallingDefaultClient = ChatDefaultClient et pour quelle AllowEndUserClientOverride = false. Ces instances sont les suivants :
 </br>
@@ -226,48 +204,17 @@ Pour préparer ces modifications à venir, les clients procédez comme suit :
 |**SfBWithTeamsCollab**|Un seul utilisateur exécute les deux Skype pour les professionnels et les équipes côte à côte. Cet utilisateur :</br><ul><li>Comporte des fonctionnalités d’un utilisateur en mode SfBOnly.<li>Les équipes a activé uniquement pour la collaboration de groupe (chaînes) ; planification de la conversation/appel/réunion sont désactivées.</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**</br>(prévu)|Un seul utilisateur exécute les deux Skype pour les professionnels et les équipes côte à côte. Cet utilisateur :<ul><li>A la conversation et les fonctions d’appel de l’utilisateur en mode SfBOnly.<li>Les équipes a activé pour la collaboration de groupe (chaînes) ; conversation et appel sont désactivées.<li>Permet de planifier des réunions d’équipes uniquement, mais peuvent participer à Skype pour les réunions des équipes ou de l’entreprise.</ul>|
 |**TeamsOnly**</br>(requiert SfB Online accueil)|Un seul utilisateur exécute uniquement les équipes. Cet utilisateur :<ul><li>Reçoit les conversations et appelle dans leur client équipes, quel que soit où initié.<li>Peuvent lancer des conversations et les appels des équipes uniquement.<li>Permet de planifier des réunions dans les équipes uniquement, mais peuvent participer à Skype pour les réunions des équipes ou de l’entreprise.<li>Peut continuer à utiliser Skype pour les téléphones IP de l’entreprise.</ul> |
-|**Hérité**</br>(valeur par défaut)|Ce mode est utilisé lors de la transition pendant que nous Retirez TeamsInteropPolicy. Pour utiliser TeamsUpgradePolicy à différents moments différents composants du système à jour. Durant cette transition, les utilisateurs de ce mode continuera de respecter la valeur TeamsInteropPolicy existante. Cela permet une expérience utilisateur cohérente même si les différents composants du service sont mis à jour à des moments différents.|
+|**Hérité**</br>(valeur par défaut)|Ce mode a été utilisé lors de la transition TeamsInteropPolicy à TeamsUpgradePolicy pour garantir une expérience cohérente comme logiciel de modifications sont déployées. Ce mode n’est plus nécessaire à présent que la prise en charge totale de TeamsUpgradePolicy. Les clients qui utilisent le mode = hérité doit mettre à jour leur configuration sur les autres modes.|
 |||
 
-## <a name="summary-of-planned-functionality-changes-to-simplify-coexistence-and-migration"></a>Résumé des modifications de fonctionnalités prévues pour simplifier la Migration et Coexistence
 
-En fonction des commentaires fort appuyez sur les clients et les autres premiers, Microsoft annoncé modifications planifiées en avril pour simplifier la gestion et accroître la satisfaction de l’utilisateur final comme organisations migrer de Skype pour les entreprises aux équipes. Ces modifications seront offrent une expérience utilisateur simplifiée et plus prévisible, à l’aide d’un modèle de stratégie simplifié pour la gestion de la mise à niveau et l’interopérabilité. Les modifications décrites ci-dessous seront déployées incrémentielle plusieurs mois suivant. À un niveau élevé, il existe quatre modifications fonctionnelles planifiées, décrites ci-dessous.
-</br>
-</br>
-**MODIFIER #1 : Plus qui se chevauchent modalités lorsque le client par défaut est défini**
-|||
-|---|---|
-|**DÉCISION**|*Lorsque le client par défaut d’un utilisateur est défini sur « Équipes » ou « Sfb »*, une modalité donnée (messagerie instantanée, l’appel de la planification de la réunion) ne sont disponibles et pris en charge dans un client (équipes ou Skype pour les entreprises) de cet utilisateur. (*Client par défaut* fait référence aux paramètres DefaultChatClient et DefaultCallingClient dans TeamsInteropPolicy). Uniquement lorsque le client par défaut est défini sur sera « Default » (à l’avenir appelé « Mode îles ») une modalité donnée être pris en charge dans les deux clients. |
-|**RAISONNEMENT**|Les commentaires cohérentes, que nous avons reçu sont que l’utilisateur est confus pour une raison ou une autre lorsque vous essayez d’utiliser les deux clients avec chevauchement modalités. Il est difficile de prévoir et de comprendre pourquoi messages et les appels atteindre dans un client par rapport à un autre, et de présence permettre être incorrectes ou trompeuses.|
-|**ÉTAT**|Il est pris en charge pour le Mode = TeamsOnly. Prise en charge pour les autres modes seront disponible dans les prochains mois. |
-|||
-
-**MODIFIER #2 : Unifier client par défaut pour l’appel et de messagerie**
-|||
-|---|---|
-|**DÉCISION**|Microsoft sera unification de la gestion du client par défaut pour la messagerie instantanée et l’appel. Plus précisément, DefaultChatClient et DefaultCallingClient doivent les deux ont la même valeur - à la fois par défaut (îles), les équipes, ou les deux Skype pour les entreprises.  |
-|**RAISONNEMENT**|Si elles ne sont pas alignées, présence dans certains cas, sera trompeuses et confus. En outre, passage d’un appel à partir d’une conversation existante pu être déroutante, car l’appel peut atteindre dans un autre client à la conversation existante. |
-|**ÉTAT**|Cette modification a été implémentée dans la couche de stratégie à l’aide de TeamsUpgradePolicy, ainsi que de l’expérience utilisateur (portal moderne) d’administration. Toutefois, la transition n’est pas encore terminée, afin que les clients doivent également définir TeamsInteropPolicy. Les clients doivent définir uniquement parmi les trois instances de TeamsInteropPolicy, pris en charge qui sont : DisallowOverrideCallingTeamsChatTeams, DisallowOverrideCallingDefaultChatDefault, DisallowOverrideCallingSfbChatSfb|
-|||
-
-**MODIFIER #3 : Aucune plus utilisateur final de choix du client par défaut**
-|||
-|---|---|
-|**DÉCISION**|Les utilisateurs finaux n’aura plus un choix du client par défaut. (AllowEndUserClientOverride dans TeamsInteropPolicy doit être définie sur false). Le client par défaut dépend de Mode, qui est défini par l’administrateur.|
-|**RAISONNEMENT**|Analyse des données d’utilisation montre que presque aucun utilisateur ne définie ce. Simplifie les scénarios d’administration/helpdesk et ingénierie simplifie l’élimination ce choix. Enfin, si l’utilisateur final à sélectionner un autre client par défaut que l’administrateur a configuré pour le routage des communications vocales dans une société avec Enterprise Voice, cela pourrait provoquer une expérience utilisateur final confus, car il risque de VOIP et les appels PSTN débarquement dans différentes clients.|
-|**ÉTAT**|Cette modification a été implémentée dans la couche de stratégie à l’aide de TeamsUpgradePolicy, ainsi que de l’expérience utilisateur (Portal moderne) d’administration. Toutefois, la transition n’est pas encore terminée, afin que les clients qui utilisent des applets de commande doivent également définir TeamsInteropPolicy à un des trois instances prises en charge de TeamsInteropPolicy, toutes ces opérations interdire override.|
-|||
-
-**MODIFIER #4 : Gestion basée sur le client « mode »**
-|||
-|---|---|
-|**DÉCISION**|Microsoft présente le concept de « mode » pour gérer le comportement du client comme développées à l’aide de Skype pour les entreprises à adopter des équipes de démarrage. Administrateurs peuvent définir le mode par utilisateur et le mode d’un utilisateur sera lecteur quelle fonctionnalité est disponible dans le client, ainsi que dans lequel les appels et conversations atteindre. Administrateurs ce gérerez via la TeamsUpgradePolicy révisé, qui a été mis à jour pour prendre en charge le Mode. TeamsInteropPolicy sera finalement désapprouvé et supprimé, une fois que tous les composants ont été mis à jour pour lire à partir de TeamsUpgradePolicy.|
-|**RAISONNEMENT**|Pour simplifier la gestion et accroître la satisfaction des utilisateurs finaux, interopérabilité et la migration sont gérés à l’aide de « mode de coexistence » à l’aide de TeamsUpgradePolicy. Sélection du mode de l’utilisateur est déterminants de routage des conversations et les appels entrants, et dans le client que l’utilisateur peut démarrer des conversations et les appels ou planifier des réunions. Consolidation des TeamsUpgradePolicy et TeamsInteropPolicy empêche également les erreurs pouvant entraîner si ces deux stratégies n’étaient pas toujours définies. |
-|**ÉTAT**|Cliquez sur clients maintenant voir trois modes dans l’administration UX. Prend en charge la modification #1 territoires, modes supplémentaires seront disponibles. Mode SfBOnly n’empêche pas actuellement les utilisateurs d’utiliser des équipes, mais il sera à l’avenir. |
-|||
 
 
 ## <a name="related-topics"></a>Rubriques connexes
+
+[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
+
+[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
 [Get-CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsinteroppolicy?view=skype-ps)
 
@@ -276,10 +223,6 @@ En fonction des commentaires fort appuyez sur les clients et les autres premiers
 [Remove-CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsinteroppolicy?view=skype-ps)
 
 [Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
-
-[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
-
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
 [Nouvelle CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsupgradepolicy?view=skype-ps)
 

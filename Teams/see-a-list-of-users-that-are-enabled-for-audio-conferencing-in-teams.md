@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment afficher la liste des utilisateurs dans votre organisation pour lesquels la conférence rendez-vous est activée dans Microsoft Teams. '
-ms.openlocfilehash: 9bbdd5fd8536554c942db19c8c9f5ac41789c461
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: e82d0d265e89c5b717ff25ea7c58ec240b38bea0
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884446"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014034"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Afficher la liste des utilisateurs pour lesquels l'audioconférence est activée dans Microsoft Teams
 
-Une fois que vous avez activé la fonction d’audioconférence pour les utilisateurs de votre organisation, vous pouvez afficher la liste de ces utilisateurs. Lorsque vous consultez la liste, vous découvrez également pour chaque utilisateur le type de fournisseur de services de d’audioconférence qu’il utilise, le numéro par défaut qu’il doit composer et si des ID de conférence dynamiques sont activés pour votre organisation, ainsi que les ID de conférence statiques des réunions d’audioconférence qu'il organise.
+Une fois que vous avez activé les utilisateurs de Microsoft Teams dans votre organisation pour une audioconférence, vous pouvez afficher la liste des utilisateurs qui ont été activés. Lorsque vous examinez la liste, vous verrez également pour chaque utilisateur dans la liste le type de fournisseur de conférence audio qu’ils utilisent le numéro de téléphone de rendez-vous par défaut pour l’utilisateur, et si votre organisation n’est pas activée pour l’ID de conférence dynamique, l’ID de conférence statique pour les réunions de conférence audio qu’ils organisent.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

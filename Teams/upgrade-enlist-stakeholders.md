@@ -11,15 +11,15 @@ description: Inscrire les parties prenantes de faire partie de l’équipe de pr
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe32df433159512d4e24d2bde7c2db76db23c32a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 89de20a88ab128dbef994150a9767ba45e4064a5
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883280"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013032"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur la collecte de votre équipe de parties prenantes du projet] (media/upgrade-banner-stakeholders.png "Étapes du voyage mise à niveau, en mettant l’accent sur la collecte de votre équipe de parties prenantes du projet")
 
@@ -54,7 +54,7 @@ Si vous le souhaitez, vous pouvez créer un comité directeur. Projets volumineu
 | Directeur de réseau                    | Fournit des informations sur la conception du réseau et de l’exécution                             | 
 | Directeur de la sécurité                   | Fournit des informations sur la conception de la sécurité, processus et d’implémentation             | 
 | Les Communications synchrones prospect | Propriétaire de présence, telles que la conversation, réunions, d’outils et l’appel                       | 
-| Collaboration asynchrone un instructeur  | Propriétaire asynchrone d’outils tels que SharePoint, OneDrive et ainsi de suite               | 
+| Responsable de la Collaboration asynchrone  | Propriétaire asynchrone d’outils tels que SharePoint, OneDrive et ainsi de suite               | 
 | Directeur de la téléphonie                  | Fournit des informations sur la conception de téléphonie et d’implémentation                      | 
 | Propriétaire de service / Champion de qualité | Propriétaire de l’opération de toutes les équipes-haut, y compris la qualité de l’expérience utilisateur | 
 | Responsable de périphériques et de bureau        | Fournit l’entrée dans les applications de bureau, clients et périphériques                          | 

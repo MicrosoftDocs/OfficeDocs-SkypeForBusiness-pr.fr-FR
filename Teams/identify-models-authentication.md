@@ -9,16 +9,16 @@ ms.service: msteams
 ms.reviewer: anach
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 description: Découvrez les différents modèles d'identité dans Microsoft Teams tels que Identité de cloud, Identité synchronisée, et Identité fédérée. Ce document contient également des informations sur l'authentification multifacteur.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7908cdd1db02fb95d9200b6c25580bfd4939cb27
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 49f2a4f3396e59f056f4e06db9e9d805228f47e1
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23883731"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013642"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modèles d’identité et authentification dans Microsoft Teams
 ==========================================

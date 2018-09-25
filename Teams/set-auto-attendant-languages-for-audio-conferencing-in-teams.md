@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Cette section explique comment sélectionner les langues du standard automatique d’audioconférence d’un numéro d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: 73498e348b45b0fa2d9996344b569a92320a06b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b9613b5e64bad0428975a6acd3b11db16a42c680
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23893017"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017952"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Définir les langues du standard automatique d’audioconférence dans Microsoft Teams
 
 Le standard automatique d’audioconférence pour Microsoft Teams peut accueillir les appelants dans différentes langues lorsqu'ils rejoignent une réunion.
   
-Sélectionnez la langue principale et jusqu’à quatre langues secondaires. La langue principale que vous définissez sera utilisée en premier, tandis que les langues secondaires seront utilisées par le standard automatique dans l'ordre que vous sélectionnez. 
+Choisir une langue principale et jusqu’à quatre langues secondaires. La langue principale que vous avez définie est utilisée en premier et les langues secondaires seront utilisés par le standard automatique que vous sélectionnez. 
   
 > [!NOTE]
 >  Vous ne pouvez configurer les langues que pour les numéros d'accès nationaux.
@@ -48,7 +48,7 @@ Sélectionnez la langue principale et jusqu’à quatre langues secondaires. La 
 3. Dans le volet de droite, sélectionnez la langue par défaut souhaitée et les autres langues éventuelles. 
  
     > [!NOTE]
-    > La langue principale et les langues secondaires prises en charge sont répertoriées. L'ordre dans lequel vous sélectionnez les langues dans les listes correspondra à l'ordre dans lequel elles seront proposées aux appelants. 
+    > La valeur par défaut et autres langues prises en charge sont répertoriés. L’ordre dans lequel vous sélectionnez dans les listes sera l’ordre des langues présentées aux appelants. 
 
 4. Cliquez sur **Enregistrer**.
 

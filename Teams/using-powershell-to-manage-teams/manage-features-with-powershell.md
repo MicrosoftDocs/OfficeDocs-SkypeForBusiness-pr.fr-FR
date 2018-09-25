@@ -5,16 +5,17 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Apprenez à utiliser Windows PowerShell pour gérer l’ensemble des fonctionnalités disponibles dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51ebac4bed4b390758fe3fd2989f274febef6f7f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 51c3bf4f2f1ad7e2d391617d37051e1b09610a5c
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868212"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015844"
 ---
 # <a name="using-powershell-to-manage-teams"></a>Utilisation de PowerShell pour gérer des équipes
 J’ai serait représenter ceci comme une rubrique de référence configurer selon la fonctionnalité. Puis chaque jeu de fonctions aurait toutes les applets de commande répertoriées dans le tableau avec des liens vers la rubrique Get-Help.

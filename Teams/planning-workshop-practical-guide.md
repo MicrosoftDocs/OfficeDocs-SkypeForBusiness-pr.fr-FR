@@ -10,15 +10,15 @@ ms.reviewer: lolaj, rowille
 description: Outils de planification, ateliers et kits de prise en main pour aider les organisations à prendre en main Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00a6da2c87baeba21a46c5b848f9750740db4018
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5458596d1eba8d956d6a75e0d99c99982e6525b9
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883986"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012104"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Outils et ateliers : planifier, fournir et adopter Microsoft Teams
 

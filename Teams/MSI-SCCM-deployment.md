@@ -9,15 +9,15 @@ ms.service: msteams
 ms.reviewer: ''
 description: Administrateurs peuvent utiliser le fichier MSI équipes (avec SCCM) en bloc dpeloy Teams Microsoft pour sélectionner des utilisateurs ou des ordinateurs.
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10c1145a86a5cf2d246269dac49d85b53eb87274
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7db13d34eec5f04a1d73a85bbd4bed4044f3cfc7
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23869340"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012680"
 ---
 <a name="install-microsoft-teams-using-msi-with-sccm"></a>Installer Microsoft Teams à l’aide de MSI (avec SCCM)
 ===========================================

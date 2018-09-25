@@ -11,15 +11,15 @@ description: Plan accéléré action dix étapes de mise à niveau à partir de 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea1e371ae10991c5a8d5d9121da9f78fb44af430
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7ba3471b2a51a4629d316a4507a08cd02e30022a
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883212"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015644"
 ---
 <a name="about-upgrade-basic"></a>
 # <a name="upgrade-basic"></a>Mise à niveau de base 
@@ -151,7 +151,7 @@ Les utilisateurs sont occupés avec leurs responsabilités quotidiennes. Rappele
 
 *(Mise à niveau jour)*
 
-Aujourd'hui est le jour de que votre organisation officiellement met à niveau aux équipes comme solution de communication et de collaboration. Dans le portail d’administration d’Office 365, activez le commutateur de mise à niveau en configurant le mode de coexistence pour **Les équipes uniquement**. Les utilisateurs recevront une notification dans leur Skype pour client Business qu’ils ont été mis à niveau vers les équipes.
+Aujourd'hui est le jour de que votre organisation officiellement met à niveau aux équipes comme solution de communication et de collaboration. Dans les équipes & Skype entreprise centre d’administration, activez le commutateur de mise à niveau en configurant le mode de coexistence pour **Les équipes uniquement**. (Dans le centre d’administration, accédez à **paramètres à l’échelle de la société** > **Équipes de mise à niveau**.) Les utilisateurs recevront une notification dans leur Skype pour client Business qu’ils ont été mis à niveau vers les équipes.
 
 Nous vous recommandons qu’une fois que tout le monde a été mis à niveau, vous envoyer un message électronique accueillir les équipes.
 

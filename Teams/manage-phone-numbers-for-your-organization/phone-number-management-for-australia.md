@@ -6,11 +6,14 @@ manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- Teams_ITAdmin_Help
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone en Australie pour Skype pour Business Online et Microsoft Teams.
-ms.openlocfilehash: 1992b7db86d253b84b23d304b8cb3022b74daf4c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b897a9f857b6703ed0ada636c16aa76393501257
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884515"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014514"
 ---
 # <a name="phone-number-management-for-australia"></a>Gestion de numéro de téléphone pour l’Australie
 > [!IMPORTANT]

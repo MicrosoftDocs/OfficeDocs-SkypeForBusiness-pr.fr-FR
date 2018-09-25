@@ -5,17 +5,22 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
+ms.service:
+- msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: ''
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: Découvrez les différentes combinaisons de création de l’utilisateur et les combinaisons suivantes sont prises en charge ou non pris en charge.
-ms.openlocfilehash: 8690d294755ed75b1c79a2c1fa61a4df196bc070
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: aa2d5b7b98b4a683f7f79ee9fb9b76e04a40263b
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851310"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014210"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Comptes d’utilisateurs dans un environnement hybride avec une connectivité PSTN
 
@@ -25,7 +30,7 @@ Cet article s’applique aux environnements dans lesquels vous avez tous les él
  
 - Skype pour Business Server 2015 ou de Lync Server 2013 
 - Un client Office 365 
-- Connectivité hybride configurée entre le Skype pour Business Server et Skype pour client Business en ligne ou des équipes 
+- Connectivité hybride configurée entre le Skype pour Business Server et Skype pour client Business Online ou Microsoft Teams 
 - Utilisateurs activés pour émettre et recevoir des appels publics réseau de téléphonique commuté (RTC) et à partir du client
 
  

@@ -10,15 +10,15 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: En savoir plus sur les réunions, gestion des licences et la disponibilité, configurer les paramètres de pont de conférence, acquérir ou transférer des numéros de téléphone, choisissez client plans de numérotation.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da156ea46486d1b6eddffce61cfb655aecf90d1e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c7269c38957df9d43295f6568a2369c34e94da93
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889645"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013072"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 

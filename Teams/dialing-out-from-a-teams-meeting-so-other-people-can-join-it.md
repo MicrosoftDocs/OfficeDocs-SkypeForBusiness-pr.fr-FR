@@ -7,10 +7,11 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 3c2db9a5-3a19-4e19-b59e-8e5587f25d31
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Cette section présente les informations nécessaires et explique comment les organisateurs de réunions peuvent composer le numéro d’autres personnes par le biais de Teams.
-ms.openlocfilehash: 498f03e5ff42c3c99b6e151c05e1c6174054db46
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 7fe3cbdca38c04b498806d3bd05a4f7bef5ea290
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892993"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012736"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Passer un appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
 
-En tant qu'organisateur de la réunion, vous pouvez passer un appel sortant par le biais de l’application Teams pour permettre à d'autres personnes de participer à la réunion en utilisant leur téléphone. Même si ce n'est pas obligatoire, lorsque vous appelez quelqu'un, il est recommandé de composer le numéro complet, avec l'indicatif du pays ou de la région. Pour que l'appel sortant aboutisse :
+En tant qu’organisateur de la réunion, vous pouvez vous connecter à l’aide de l’application des équipes pour permettre aux autres personnes à participer à la même réunion à l’aide de leur téléphone. Même si ce n'est pas obligatoire, lorsque vous appelez quelqu'un, il est recommandé de composer le numéro complet, avec l'indicatif du pays ou de la région. Pour que l'appel sortant aboutisse :
   
 - Vous ne pouvez passer un appel sortant que si vous participez à une réunion par le biais de Teams.
     
@@ -47,7 +48,7 @@ En tant qu'organisateur de la réunion, vous pouvez passer un appel sortant par 
   
 ## <a name="supported-countries-and-regions"></a>Pays et régions pris en charge
 
-L’option d’appel sortant n'est disponible que vers certains pays ou certaines régions. Pour obtenir la liste complète, reportez-vous à la section [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+La mise en conférence n'est disponible que vers certains pays ou certaines régions. Pour la liste complète, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur l’audioconférence ?
 

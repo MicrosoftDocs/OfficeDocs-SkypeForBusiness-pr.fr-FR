@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 77d36233-2aab-4802-ba9c-e9a8885ea643
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment attribuer un ID de conférence dans Microsoft Teams et quels sont les paramètres d’ID de conférence obligatoires. '
-ms.openlocfilehash: d0ee177fbbe286cc68c45e1c41f391b52c44291e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 317216f84044eb404541a98d24c69b2f7fb61bc4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892032"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017084"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Afficher et réinitialiser l'ID de conférence attribué à un utilisateur dans Microsoft Teams
 
-Un ID de conférence est attribué automatiquement à un utilisateur de Microsoft Teams lorsque l’audioconférence est activée pour lui dans Office 365 et qu'il utilise Microsoft comme fournisseur de services d’audioconférence. L'ID de conférence attribué est envoyé dans l'invitation à participer à la réunion lors de sa planification. Chaque réunion qu'un utilisateur planifie obtient un ID de conférence unique. 
+Un ID de conférence est automatiquement attribué à un utilisateur de Microsoft Teams lorsqu’ils sont configurés pour les services d’audioconférence dans Office 365 et utilisent Microsoft comme fournisseur de services d’audioconférence. L’ID de conférence affecté est envoyé dans l’invitation à la réunion lorsque la réunion est planifiée. Chaque réunion planifie un utilisateur sera se voit attribuer un ID de conférence unique. 
   
-Bien qu'un ID de conférence soit automatiquement créé et attribué à un utilisateur, il arrive qu'un utilisateur ne souhaite pas utiliser cet ID et préfère le définir sur un numéro spécifique, ou qu’il ne se rappelle pas de son ID de conférence ou l’ait perdu. Vous pouvez utiliser le centre d'administration de Microsoft Teams ou Windows PowerShell pour afficher, modifier et réinitialiser son ID de conférence.
+Bien qu’un ID de conférence est automatiquement créé et affecté à un utilisateur, il peut arriver lorsqu’un utilisateur ne souhaite pas utiliser cette et vous voulez lui attribuer un certain nombre, ou lorsque les utilisateurs ne vous souvenez pas ou ont perdu leur ID de conférence. Vous pouvez utiliser le centre d’administration de Microsoft Teams ou de Windows PowerShell pour afficher, modifier et de réinitialiser leur ID de conférence.
   
 Un e-mail contenant l’ID de conférence et les numéros de téléphone de conférence audio sera envoyé à l’utilisateur par défaut, ou si vous réinitialisez l’ID de conférence, un autre e e-mail sera envoyé et inclura l’ID de conférence sans code confidentiel. Pour plus d’informations sur la réinitialisation du code confidentiel de l’organisateur d’une conférence, [Cliquez ici](reset-a-conference-id-for-a-user-in-teams.md). 
 
@@ -70,7 +70,7 @@ Si un utilisateur a oublié son ID de conférence, par exemple, vous pouvez le r
 
 3. Sous **Audioconférence**, cliquez sur **Réinitialiser l’ID de conférence**.
 
-4. Dans la fenêtre **Réinitialiser l’ID de conférence**, cliquez sur **Réinitialiser**. Un ID de conférence sera créé automatiquement et un courrier électronique contenant le nouvel ID sera envoyé à l’utilisateur.
+4. Dans la fenêtre **Réinitialiser l’ID de conférence** , cliquez sur **Réinitialiser**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
   
 **Utiliser Windows PowerShell**
 
@@ -80,10 +80,10 @@ Pour des informations complémentaires, consultez la rubrique [Microsoft Teams P
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
    > [!IMPORTANT]
-   >  Une fois qu'un nouvel ID de conférence est créé ou réinitialisé, l'ancien ID ne peut plus être utilisé par les appelants. Vous devez inviter les utilisateurs à replanifier leurs invitations à la réunion pour vous assurer que le nouvel ID de conférence sera ajouté aux invitations. 
+   >  Une fois un nouvel ID de conférence est créé ou une est réinitialisée, l’ancien ID de conférence ne peut être utilisé par les appelants. Vous devez inviter les utilisateurs à replanifier leurs invitations à la réunion pour vous assurer que le nouvel ID de conférence sera ajouté aux invitations. 
   
     
-- L'ID de conférence doit respecter le nombre de chiffres défini dans le pont d’audioconférence. Les ID de conférence ne doivent comporter que des chiffres, jamais des caractères alphabétiques ou spéciaux.
+- L’ID de conférence doit respecter la longueur en chiffres définie sur le pont de conférence audio. Vous ne pouvez pas utiliser des caractères alphabétiques ou spéciaux conférence ID ; Seuls les nombres peuvent être utilisées.
     
 - L'ID de conférence comporte 7 chiffres par défaut pour tous les utilisateurs d’audioconférence. Il n'est pas possible de modifier le nombre de chiffres.
     

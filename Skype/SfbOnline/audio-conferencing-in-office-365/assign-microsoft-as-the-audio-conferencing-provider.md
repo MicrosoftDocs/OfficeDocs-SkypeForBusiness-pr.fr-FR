@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 5654dc1da157498b1cb17271aa58959d2ffa541b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2fd01e38b05615bab79471b60aafeb8d0409c1d4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883454"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017124"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Affecter Microsoft comme fournisseur de services d'audioconférence
 
@@ -41,7 +41,7 @@ Le service d'audioconférence Microsoft fournit des numéros d'appel, des codes 
 
 ### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Utilisation du centre d'administration Skype Entreprise
 
-1. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+1. Accédez au site **équipes & Skype pour le centre d’administration Business** > **portail hérité**.
     
 2. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio**.
     

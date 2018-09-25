@@ -11,15 +11,15 @@ description: Vérifiez votre organisation et les utilisateurs sont prêts pour M
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ec4b2be8e24516694801982442e75b1d01f881a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3f302ddca1470d0e35a6b983ae52afa08f2533c8
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23892445"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016244"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs] (media/upgrade-banner-user-readiness.png "Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs")
 

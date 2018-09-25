@@ -10,15 +10,15 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Régulièrement évaluent les opportunités pour améliorer le service d’équipes, surveiller la feuille de route équipes pour les améliorations de fonctionnalités intéressantes.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9890da6722c2f9ba5bbbc759f105f19654ed4f27
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 60575e2b9a1398bf5eba6dfec5aa883e4478f648
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882218"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014596"
 ---
 # <a name="enhance-my-service"></a>Améliorer mon service
 

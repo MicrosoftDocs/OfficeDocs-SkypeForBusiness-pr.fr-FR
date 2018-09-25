@@ -11,15 +11,16 @@ metadata:
   ms.date: 02/07/2018
   ms.service: msteams
   ms.topic: tutorial
+  appliesto: Microsoft Teams
   localization_priority: Normal
   search.appverid: MET150
-  ms.collection: Strat_MT_TeamsAdmin
-  ms.openlocfilehash: fffbd98547aa7d79baa413d5b4e531a771a42f35
-  ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+  ms.collection: Teams_ITAdmin_PracticalGuidance
+  ms.openlocfilehash: e55ff5788778fa1e253410c691d8b6992c0a1d61
+  ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 09/07/2018
-  ms.locfileid: "23882258"
+  ms.lasthandoff: 09/25/2018
+  ms.locfileid: "25017174"
 items:
 - durationInMinutes: 3
   content: "\nCette formation fournit un script PowerShell qui crée une équipe publique à l’échelle de l’entreprise dans Teams. Ce script utilise le module PowerShell MicrosoftTeams (actuellement en version bêta) pour créer une équipe publique à l’échelle de l’entreprise. Il utilise également le module PowerShell AzureAD pour récupérer la liste des utilisateurs de votre client. \n\nIl s’agit d’un bon point de départ si vous souhaitez tester des commandes PowerShell simples et vous familiariser avec cet outil d’entreprise puissant. PowerShell est un composant clé dans la gestion des autres aspects des groupes AzureAd, notamment le contrôle de la création de groupes, c’est-à-dire comment gérer les utilisateurs autorisés à créer une équipe dans Teams. \n\n### <a href=\"https://docs.microsoft.com/MicrosoftTeams/scripts/powershell-script-sample-create-company-wide-team\" target=\"_blank\">:arrow_down : Obtenir le script PowerShell</a>\n\n> [!IMPORTANT]\n> Ce script PowerShell n’ajoute que les 2500 premiers membres à une équipe. 2500 est la limite de taille actuelle d'une équipe. \n\n\nCette formation est destinée aux administrateurs informatiques ou aux utilisateurs de Teams qui souhaitent automatiser la création des équipes. Vous apprendrez comment :  \n- Installer les modules appropriés dans PowerShell\n- Utiliser le script \n\nNous n’aborderons pas les aspects suivants :\n1. Présentation détaillée de PowerShell. Nous inclurons uniquement les informations PowerShell dont vous avez besoin pour être prêt à utiliser le script PowerShell. Pour en savoir plus, commencez par la rubrique <a href=\"https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-5.1\" target=\"_blank\">Présentation de Windows PowerShell</a>\n2. Les fonctionnalités du module <a href=\"https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0\" target=\"_blank\">AzureAD</a>. Ce script PowerShell utilise le module AzureAD pour qu'une commande unique récupère les utilisateurs du client. \n3. Les applets de commande dans le module <a href=\"https://github.com/MicrosoftDocs/office-docs-powershell/tree/master/teams/teams-ps/teams\" target=\"_blank\">MicrosoftTeams</a>. \n4. Une présentation ligne par ligne du script PowerShell. \n\n\nPour poser des questions ou envoyer des commentaires sur cette formation :\n  - Publiez vos commentaires dans la section située en bas de la page [Étapes suivantes](company-wide-team-creation-powershell.yml#step-7) de ce didacticiel.\n  - Vous rendre sur <a href=\"https://aka.ms/TeamsUserVoice\" target=\"_blank\">UserVoice</a> pour nous faire part de vos commentaires sur le produit, tels que des demandes de fonctionnalité\n"

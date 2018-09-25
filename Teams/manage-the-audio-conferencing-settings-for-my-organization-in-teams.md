@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Cette section explique la procédure d’attribution d’une licence de conférence rendez-vous et d’un ID de conférence Microsoft Teams à un utilisateur, ainsi que les autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 7af89da74b0b83872954444a847d40f0d7851087
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 40a6dd3e545e913a134ae7bac80b5ec3085dc96a
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884704"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015332"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de mon organisation dans Microsoft Teams
 
@@ -37,7 +37,7 @@ Il peut être plus simple pour vous d'afficher tous les paramètres de conféren
 ## <a name="assign-an-audio-conferencing-license"></a>Attribuer une licence d’audioconférence
 
 > [!NOTE]
-> Vous ne pouvez pas attribuer de licences par le biais de Teams. Vous devez utiliser le centre d'administration Office 365. Reportez-vous à la rubrique [Attribuer des licences Skype Entreprise et Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) 
+> Vous ne pouvez pas affecter des licences à l’aide des équipes. Vous devez utiliser le centre d’administration Office 365. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). 
   
  **Pour attribuer une licence à un utilisateur**
   
@@ -74,7 +74,7 @@ Pour des informations complémentaires, consultez la rubrique [Microsoft Teams P
     
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Modifier les coordonnées de l'expéditeur dans les courriers électroniques envoyés aux utilisateurs
 
-Vous pouvez apporter des modifications aux courriers électroniques envoyés automatiquement à vos utilisateurs, dont l'adresse électronique et le nom d'affichage figurant dans les informations de contact de l’expéditeur. Par défaut, l'envoi des courriers électroniques se fera à partir d'Office 365, mais vous pouvez modifier l'adresse électronique et le nom d'affichage à l'aide de Windows PowerShell. Pour des informations complémentaires, consultez la rubrique [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Vous pouvez modifier le message électronique qui est envoyé automatiquement à vos utilisateurs, y compris l’adresse de messagerie réelle et le nom complet d’informations de contact de l’expéditeur. Par défaut, l’expéditeur des e-mails est Office 365, mais vous pouvez modifier l’adresse de messagerie et affiche le nom de l’aide de Windows PowerShell. Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
   
 ## <a name="reset-the-meeting-conference-id"></a>Réinitialiser l’ID de conférence
 
@@ -84,13 +84,13 @@ Vous pouvez apporter des modifications aux courriers électroniques envoyés aut
 
 3. Sous **Audioconférence**, cliquez sur **Réinitialiser l’ID de conférence**.  
 
-4. Dans la fenêtre **Réinitialiser l’ID de conférence ?**, cliquez sur **Réinitialiser**. Un ID de conférence sera créé automatiquement et un message électronique sera envoyé à l’utilisateur avec le nouvel ID de conférence, si l’envoi de courrier électronique à vos utilisateurs est activé. Cette option est activée par défaut.
+4. Dans le **Réinitialiser l’ID de conférence ?** fenêtre, cliquez sur **Réinitialiser**. Un ID de conférence sera créé automatiquement et un message électronique sera envoyé à l’utilisateur avec le nouvel ID de conférence, si l’envoi de courrier électronique à vos utilisateurs est activé. Il est activé par défaut.
 
 Reportez-vous à la section [Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user-in-teams.md).
   
 ## <a name="reset-a-conference-organizers-pin"></a>Réinitialiser le code confidentiel d’un organisateur de conférence
 
-Chaque réunion qu'un utilisateur planifie obtient un ID de conférence unique. Bien qu'un ID de conférence soit automatiquement créé et attribué à un utilisateur, il arrive qu'un utilisateur ne souhaite pas utiliser cet ID et préfère le définir sur un numéro spécifique, ou qu’il ne se rappelle pas de son ID de conférence ou l’ait perdu. 
+Chaque réunion planifie un utilisateur sera se voit attribuer un ID de conférence unique. Bien qu’un ID de conférence est automatiquement créé et affecté à un utilisateur, il peut arriver lorsqu’un utilisateur ne souhaite pas utiliser cette et vous voulez lui attribuer un certain nombre, ou vos utilisateurs ne vous souvenez pas ou ont perdu leur ID de conférence. 
 
 1. Dans le volet de navigation de gauche, cliquez sur **Utilisateurs** et sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -99,7 +99,7 @@ Chaque réunion qu'un utilisateur planifie obtient un ID de conférence unique. 
 3. Sous **Audioconférence**, cliquez sur **Réinitialiser le code confidentiel**, puis cliquez sur **Réinitialiser**. 
   
     
-Les utilisateurs recevront un courrier électronique avec leur code confidentiel lorsqu'ils seront activés pour l’audioconférence ou lorsque le code confidentiel sera réinitialisé. Si vous avez désactivé l'envoi automatique de courriers électroniques, aucun message de réinitialisation du code confidentiel ne sera envoyé, ce qui vous obligera à lui envoyer manuellement. Le code confidentiel ne sera affiché qu'après avoir été réinitialisé. Lorsqu'il s'affiche après sa réinitialisation, le code confidentiel n'apparaît plus dans les propriétés de l'utilisateur. Il apparaît à la place sous la forme *****. 
+Les utilisateurs recevront un message électronique avec leur code confidentiel lorsqu’ils sont activés pour les services d’audioconférence ou lorsque le code confidentiel est réinitialisé. Mais si vous avez désactivé automatiquement l’envoi d’e-mails, un message électronique de réinitialisation du code confidentiel ne seront pas envoyé et vous devez envoyer manuellement le code confidentiel à l’utilisateur. Le code confidentiel ne sera affiché qu'après avoir été réinitialisé. Une fois qu’il est affiché juste après la réinitialisation, le code confidentiel ne s’affichera plus sur les propriétés de l’utilisateur ; au lieu de cela, *** s’affichera. 
   
 Reportez-vous à la section [Réinitialiser le code confidentiel d'audioconférence](reset-the-audio-conferencing-pin-in-teams.md).
   
@@ -141,7 +141,7 @@ Reportez-vous à la section [Définir les numéros de téléphone inclus dans le
 
 3. Dans le volet **Bridge settings** (Paramètres du pont), activez ou désactivez l’option **Meeting entry and exit notifications** (Notifications d’entrée et de sortie de réunion).
 
-    Cette option est activée par défaut. Si vous la désactivez, par défaut, les utilisateurs qui ont déjà rejoint la réunion ne seront pas informés de l'arrivée ou du départ des autres participants.
+    Il est activé par défaut. Si vous désactivez cette option, les utilisateurs qui ont déjà joint la réunion par défaut ne sera pas avertis lorsque quelqu'un rejoint ou quitte la réunion.
 
 4. Sous **Type d’annonces entrée-sortie**, sélectionnez **Tones** (Tonalités) ou **Names or phone numbers** (Noms ou numéros de téléphone). 
 
@@ -160,7 +160,7 @@ Reportez-vous à la section [Modifier les paramètres d’un pont d’audioconf�
 
 3. Dans le volet **Bridge settings** (Paramètres du pont), entrez le nombre de chiffres que vous voulez pour le code confidentiel dans la liste **Longueur du code confidentiel**, puis cliquez sur **Enregistrer**.
 
-    Le code confidentiel doit comprendre entre 4 et 12 chiffres. La valeur par défaut est 5.
+    Le code confidentiel doit comporter entre 4 et 12 chiffres. La valeur par défaut est 5.
 
     
 Reportez-vous à la section [Modifier les paramètres d’un pont d’audioconférence](change-the-settings-for-an-audio-conferencing-bridge.md).
@@ -190,22 +190,24 @@ Reportez-vous à la section [Envoyer à un utilisateur un courrier électronique
 
 3. Sélectionnez les langues souhaitées sous **Langue par défaut** et **Alternate languages (optional)** (Autres langues (facultatif)).
 
+4. Cliquez sur **Enregistrer**.
 
-Reportez-vous à la section [Définir les langues du standard automatique d’audioconférence](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
+
+Vous pouvez également définir la langue principale et les langues secondaires prises en charge lorsque vous sélectionnez Microsoft comme fournisseur de conférences rendez-vous. L'ordre que vous sélectionnez dans les listes déroulantes correspondra à l'ordre dans lequel les langues sont proposées aux appelants.
   
-## <a name="see-audio-conferencing-dial-in-numbers"></a>Afficher les numéros de connexion pour l’audioconférence
+## <a name="see-audio-conferencing-dial-in-numbers"></a>Voir les numéros de services d’audioconférence rendez-vous
 
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
-2. Sélectionnez un numéro de téléphone dans la liste et cliquez sur **Modifier**. Dans ce volet, vous pouvez :
+2. Sélectionnez un numéro de téléphone dans la liste, cliquez sur **Modifier**. Depuis cette section, vous pouvez :
     
-  - Afficher les numéros de téléphone définis par Office 365 pour être utilisés pour l’audioconférence. 
+  - Afficher les numéros de téléphone qui sont définis par Office 365 à utiliser pour une audioconférence. 
     
-  - Afficher l'emplacement et la langue principale qui seront utilisés par le standard automatique de la fonction d’audioconférence.
+  - Afficher l’emplacement et la langue principale, qui sera utilisée par le standard automatique de conférence Audio.
 
   
-Reportez-vous à la section [Afficher la liste des numéros d'audioconférence](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+Consultez la rubrique [Afficher la liste des numéros de conférence Audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
@@ -221,6 +223,6 @@ Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Micros
     
 ## <a name="related-topics"></a>Rubriques connexes
 
-[ Géré les paramètres d'audioconférence d'un utilisateur](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+[Gérer les paramètres d'audioconférence d'un utilisateur](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 

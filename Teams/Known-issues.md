@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: marcl
 search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8177d7b4fa6768163c225a385229a356b49e1425
-ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
+ms.openlocfilehash: 00ff17cc8fb28f0279f1356937465668dc6b7afe
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "23999211"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015484"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -82,7 +83,7 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Impossible d'enregistrer la photo de profil  <br/> |Les utilisateurs ne peuvent pas enregistrer leur photo de profil lorsque la boîte aux lettres Exchange est hébergée sur site.  <br/> |Aucune solution.  <br/> |28.02.2017  <br/> |
+|Impossible d'enregistrer la photo de profil  <br/> |Les utilisateurs ne peuvent pas enregistrer leurs images de profil lorsque la boîte aux lettres Exchange est (hébergée hébergés) localement sur Exchange 2016 CU2 ou inférieure.  <br/> |Aucune solution.  <br/> |28.02.2017  <br/> |
 
 ## <a name="browser"></a>Navigateur
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
@@ -112,9 +113,6 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |:-----|:-----|:-----|:-----|
 |Mentions @ pour message supprimé envoyer une notification par un lien de canal  <br/> |Il existe une limitation connue de notification lorsque vous êtes au-mentionné dans un message est supprimé. la notification dans le flux de navigation pour le canal mais pas pour un message spécifique. <br/> | Par défaut <br/> | 3/28/17  <br/>|
 
-|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
-|:-----|:-----|:-----|:-----|
-|Les utilisateurs sur site de Skype Entreprise ne reçoivent pas mes messages  <br/> |Les messages ne sont pas acheminés lorsque les utilisateurs de Microsoft Teams essayent d'envoyer un message à une autre personne qui utilise Skype Entreprise sur site.  <br/> | L'interopérabilité entre Teams et les utilisateurs hébergés sur Skype Entreprise Online est prise en charge. Les utilisateurs de Teams peuvent envoyer des conversations en tête-à-tête à des personnes qui n’utilisent pas Teams à l'aide de Skype Entreprise Online. <br/> L'interopérabilité entre Teams et les utilisateurs hébergés sur Skype Entreprise sur site n'est pas prise en charge. Les utilisateurs de Teams ne peuvent pas envoyer de conversations en tête à tête à des utilisateurs qui utilisent Skype Entreprise sur site.  <br/> |02.11.2016  <br/> |
 
 ## <a name="client"></a>Client
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
@@ -152,9 +150,6 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |:-----|:-----|:-----|:-----|
 |Skype Entreprise est requis pour certaines réunions.  <br/> |Votre calendrier de rendez-vous s'affiche de manière pratique dans Microsoft Teams. Pour participer à une réunion, cliquez sur le bouton **Rejoindre**. <br/> Nous poursuivons le développement à ce sujet, mais pour le moment, si la réunion était planifiée au moyen de Skype Entreprise et que vous cliquez sur **Rejoindre**, Microsoft Teams lance votre client Skype Entreprise pour finaliser votre accès à la réunion. Les réunions planifiées dans Microsoft Teams s'ouvrent directement dans le produit.  <br/> À l'avenir, nous uniformiserons cette procédure.  <br/> |Cliquez sur **Rejoindre**. Microsoft Teams décidera judicieusement si Skype Entreprise est requis pour qu'un utilisateur rejoigne la réunion en fonction de l'URL mentionnée dans la description de la réunion.  <br/> |13.03.2017  <br/> |
 
-|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
-|:-----|:-----|:-----|:-----|
-|Manquant **réunions**être découverts à l’aide de la découverte automatique Exchange. <br/> Teams Microsoft ne prend pas en charge les boîtes aux lettres hébergées dans Exchange sur l’icône dans la barre de navigation de gauche <br/> |L’icône de **réunions** dans la barre d’application est actuellement activé pour les utilisateurs de boîte aux lettres est sur Office 365 multiclients et une sélectionnez peu dédié aux utilisateurs dont l’emplacement de boîte aux lettres peut - locaux et Exchange dédié. Nous étudions actuellement ce problème. Toutefois, aucun délai n'est fixé pour la distribution de cette fonctionnalité.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/>|
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -162,7 +157,7 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Réunions non disponibles  <br/> |La fonctionnalité et l'icône Réunion ne sont pas disponibles lorsque la boîte aux lettres Exchange est hébergée sur site.  <br/> |Effectuez une mise à niveau vers Exchange 2016 CU3 ou une version suivante pour le déploiement sur site.  <br/> |28.02.2017  <br/> |
+|Réunions non disponibles  <br/> |Fonctionnalités de réunion n’est pas disponible lors de la boîte aux lettres Exchange est hébergée (hébergés) locale dans la version est antérieure à Exchange 2016 CU3.  <br/> |Effectuez une mise à niveau vers Exchange 2016 CU3 ou une version suivante pour le déploiement sur site.  <br/> |28.02.2017  <br/> |
 
 ## <a name="mobile"></a>Mobile
 
