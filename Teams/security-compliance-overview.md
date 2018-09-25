@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 331e4d600c26123079315a77d5d99f17496c12a9
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.openlocfilehash: 0ef01893872f1bd53fa420f4b2dc77abb21461c9
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24967430"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "25002373"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
@@ -84,115 +84,6 @@ La figure suivante indique le flux d’ingestion des équipes de réunions et de
 
 > [!IMPORTANT]
 > Il peut y avoir jusqu'à un délai de 24 heures pour découvrir du contenu des équipes.
-
-## <a name="retention-policies"></a>Stratégies de rétention
-
-Conversations équipes sont persistantes et conservés indéfiniment par défaut. Avec l’introduction des stratégies de rétention, les administrateurs peuvent configurer des stratégies de rétention (conservation et suppression) dans le centre de conformité & de sécurité pour les messages de conversation et de canal équipes. Cela permet aux organisations de conserver les données de conformité (à savoir, stratégie de conservation) pour une période spécifique ou de vous débarrasser de données (à savoir, stratégie de suppression) s’il est considéré comme un passif après une période spécifique. Stratégies de rétention équipes Assurez-vous que lorsque vous supprimez des données, il est supprimé de tous les emplacements de stockage des données permanentes dans le service d’équipes. 
-
-Pour gérer les stratégies de rétention d’équipes, utilisez les paramètres et les applets de commande de sécurité pour Microsoft Office 365 et centre de conformité sous **La gouvernance des données** > **rétention**.
-
-Stratégies de rétention équipes prennent en charge : 
-    
-- Conservation : Conserver les données d’équipes pour une durée spécifiée et ne fait rien
-- Conservation et supprimer puis : conserver les données des équipes pendant une durée spécifiée, puis supprimer
-- Suppression : Supprimer des données d’équipes après une durée spécifiée
-
-Stratégies de rétention équipes ne prennent pas encore charge :
-
-- Les stratégies de rétention avancées ne s’appliquent pas conversation équipes et emplacements de message de canal équipes
-- Durée de moins de 30 jours
-
-Administrateurs peuvent définir des stratégies de rétention distinct de salles de conversation privées équipes (1:1 ou 1:Many conversations) et les messages de canal équipes. Dans de nombreux cas, aux organisations de considérer les données de conversation privée comme un passif que les messages de canal, qui sont généralement plus conversations liés au projet. Configurer les stratégies de sécurité & centre de conformité, **la gouvernance des données** > **rétention**. Activer de **messages du canal équipes** et **équipes conversations** , puis définissez les stratégies de rétention pour ces emplacements (également indiqués dans le diagramme ci-dessous). 
-
-Lorsque vous activez des **messages du canal équipes**, vous pouvez spécifier les équipes auxquels cette stratégie s’applique. Par exemple, pour les équipes X, Y et Z, l’administrateur peut définir les stratégies de suppression pendant 1 an (en sélectionnant individuellement ces équipes) et appliquer une stratégie de suppression de 3 ans pour le reste des équipes. 
-
-Faire la même chose pour **les équipes conversations** sélectionner des utilisateurs spécifiques et appliquer des stratégies de rétention unique. 
-
-![Diagramme du flux de travail de données Teams vers Exchange et SharePoint.](media/Retention-Policies.png)
-
-
-> [!IMPORTANT]
-> Les emplacements de message de canal équipes et les emplacements de conversations équipes adresse uniquement les conversations équipes stockées dans les boîtes aux lettres Exchange Online (boîtes aux lettres utilisateur et de groupe). Les messages sont supprimés de tous les emplacements de stockage appropriées, à savoir les boîtes aux lettres, Network substrate et service de conversation. 
-> 
-> Pour gérer les stratégies de rétention pour les fichiers d’équipes, qui sont stockés dans OneDrive pour l’activité et de SharePoint, utilisez les stratégies de rétention.
-
-
-
-
-Par leur conception, les stratégies de suppression pour les fichiers d’équipes sont configurés par le biais de SharePoint Online et OneDrive pour des sites. Par conséquent, il est possible qu’une stratégie peut supprimer un fichier référencé dans un message de conversation ou canal équipes avant la suppression d’obtient ces messages. Dans ce cas, le fichier s’afficheront toujours dans le message d’équipes, mais si vous cliquez sur le fichier, vous obtiendrez une erreur « Fichier introuvable » (Cela peut également se produire en l’absence d’une stratégie, si un utilisateur supprime manuellement un fichier à partir de SharePoint Online ou OneDrive entreprise).
-
-
-Pour plus d’informations sur la configuration des stratégies de rétention pour Office 365, consultez [vue d’ensemble des stratégies de rétention](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
- 
-
-## <a name="retention-policies-faq"></a>Forum aux questions sur les stratégies de rétention
-
-### <a name="what-types-of-policies-can-i-setup-in-retention-policies-and-how-do-they-work"></a>Quels types de stratégies puis-je installer dans les stratégies de rétention et comment fonctionnent-ils ?
-
-Dans la SSecurity & centre de conformité, lorsque vous configurez une stratégie de rétention, des équipes ou pour n’importe quel autre charge de travail, vous pouvez configurer deux principaux types de stratégies : 
-- Conservation : Ces stratégies assurer la préservation de vos données pour une période donnée, quel que soit ce qui se passe dans les outils de l’utilisateur final. Elles Vérifiez que les données sont conservées pour des raisons de conformité expire disponibles dans eDiscovery jusqu'à cette date. Après l’expiration du délai, votre stratégie peut indiquer s’il faut ne rien faire ou supprimer les données. Dans les équipes, si vous créez une stratégie de conservation pour 7 ans, même si les utilisateurs finaux suppriment leurs messages équipes, ces messages sont conservées pour la découverte de 7 ans.
-- Suppression : Ces stratégies vous assurer que les données ne sont pas un passif pour votre organisation. Après la durée spécifiée, les données sont supprimées à partir du stockage pertinent toutes les équipes. 
-
-### <a name="can-we-include-teams-in-org-wide-policies"></a>Pouvons nous incluons des équipes de stratégies à l’échelle de l’organisation ? 
-
-Non, pas actuellement. Vous devez créer des stratégies spécifiques pour les messages équipes conversation et de canal à l’aide de la ligne d’emplacement équipes ou ces applets de commande équipes : [New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [New-TeamsComplianceRetentionRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps). Ces applets de commande ont obtenir et définir les versions.
-
-### <a name="are-these-retention-policies-retroactive"></a>Ces stratégies de rétention sont rétroactif ? 
-
-Oui, ils se trouvent. Si vous créez une stratégie de rétention pour supprimer les données de plus de 60 jours, il supprime les données des équipes créées plus de 60 jours. 
-
-### <a name="what-is-the-default-retention-policy"></a>Qu’est la stratégie de rétention par défaut ? 
-
-Par défaut, équipes conversation, canal et les données de fichiers sont conservées indéfiniment. Un utilisateur peut supprimer un élément, mais en l’absence de stratégies de rétention, données équipes sont toujours archivées dans Exchange online boîtes aux lettres (utilisateur et groupe) et il restent eDiscovery. 
-
-### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>Puis-je cibler des ensembles d’utilisateurs ou des équipes au sein d’une stratégie ? 
-
-Oui, vous le faire. Dans l’Assistant de création de stratégie, dans l’étape d’emplacements, vous pouvez inclure ou exclure des équipes (**équipes channel messages**) ou des utilisateurs (**conversation équipes**) et créer des stratégies cibles pour votre organisation. 
-
-### <a name="what-is-the-main-difference-between-using-the-group-mailbox-location-row-and-teams-channel-messages-location-row-in-retention-policies"></a>Quelle est la différence principale entre l’utilisation de la ligne d’emplacement de boîte aux lettres de groupe et la ligne d’emplacement de messages de canal équipes dans les stratégies de rétention ? 
-
-Si vous utilisez la boîte aux lettres de groupe et les lignes d’emplacement utilisateur boîte aux lettres pour Exchange Online, données équipes seront supprimées de boîtes aux lettres spécifiées. Toutefois, cela supprime uniquement données à partir de la boîte aux lettres. Elle ne supprime pas autres données équipes, telles que les salles de conversation service. Nous vous recommandons d’utiliser des stratégies de rétention équipes pour gérer correctement toutes les données d’équipes. Une stratégie de rétention équipes supprime les données d’équipes de tous les service de la conversation de boîtes aux lettres, des emplacements stockage, clients équipes. 
-
-Remarque : Lancement de la fonctionnalité de stratégies de rétention pour les équipes permet de s’assurer que seules les stratégies équipes supprimer des éléments d’équipes stockées dans les emplacements de boîte aux lettres Exchange (groupe ou utilisateur). Autre programme d’installation de stratégies de boîtes aux lettres ne peut pas avoir une incidence sur les éléments équipes. Il a la valeur true dans le passé, mais a été corrigé avec le lancement de la fonctionnalité de stratégies de rétention. 
-
-### <a name="what-happens-to-skype-for-business-online-and-teams-interop-chats--are-they-affected-by-retention-policies"></a>Que se passe-t-il à Skype pour Business en ligne et les équipes conversations interopérabilitées – ils sont affectés par les stratégies de rétention ?
-
-Oui, Skype pour Business en ligne et conversations interopérabilitées équipes fonctionnent de la même manière. Une fois le Skype pour la conversation en ligne Business entame équipes, il devient un message dans un thread de conversation équipes et obtient ingéré dans la boîte aux lettres appropriée. Afin que les mêmes flux works – stratégies de suppression des équipes supprimera ces messages à partir du thread d’équipes. Toutefois, si l’historique des conversations sont activé pour Skype pour Business Online et de la Skype pour côté client Business Online ceux sont enregistrés dans une boîte aux lettres, ces données de conversation ne sont pas gérées par une stratégie de rétention les équipes.
-
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Puis-je faire ces éléments dans le centre de conformité et de sécurité des applets de commande ? Que dois-je utiliser ? 
-
-Absolument. Vous pouvez créer des stratégies de rétention équipes à l’aide des [applets de commande Powershell de centre de conformité et de sécurité]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). N’oubliez pas que ces applets de commande Exchange Online ne sont pas. Voici les applets de commande que nous avons créée pour les équipes. Ils suivent nomenclature existant et le style à partir de la rétention des applets de commande aujourd'hui disponibles dans le centre de conformité et de sécurité.
-
-|Stratégie|Règle|
-|---|---|
-|[Nouvelle TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [Nouvelle TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
-|[Get-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
-|[Set-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
-|[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
-
-### <a name="if-there-are-multiple-retention-policies-for-teams-with-varying-durations-which-one-wins"></a>S’il existe plusieurs stratégies de rétention pour les équipes avec différentes durées, laquelle wins ?
-
-Nous principes [de stratégies de rétention](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)et nous vous recommandons de procéder trop. La réponse est simple : 
--   Conservation toujours l’emporte sur suppression
--   Conservation plus longtemps toujours wins
--   Inclusion explicite l’emporte sur l’inclusion implicite en termes d’emplacements
--   Le plus court wins période suppression
-
-
-
-## <a name="retention-policies-known-issues"></a>Problèmes connus de stratégies de rétention
-
-1. Sous Choisissez les équipes dans la ligne d’emplacement de messages canal équipes, vous pouvez voir les équipes pas également Office 365 les groupes. Cela sera traité ultérieurement.
-
-1. Sous Choisir les utilisateurs dans la ligne emplacement équipes conversation, vous pouvez voir les invités et les utilisateurs non-mailbox. Stratégies de rétention ne sont pas destinés à définir pour les visiteurs et nous effectuons fonctionne pour les supprimer de la liste. 
-
-1. Assistant de Cycle de vie Exchange (ELC) s’exécute tous les jours, mais il a un SLA de 7 jours. Par conséquent, il est possible que, si vous disposez d’une stratégie de rétention les équipes à supprimer les éléments antérieurs à 60 jours, ces éléments peuvent conserver 67 jours. Ce n’est pas une situation nouvelle : elle suit le modèle Exchange. Bien sûr, dans la plupart des cas, il n’existe aucun délai.
-
-
-| | | |
-|---------|---------|---------|
-|![Icône Point de décision.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Point de décision         |De quelles fonctionnalités de sécurité et de conformité votre organisation a-t-elle besoin ? Votre organisation dispose-t-elle des licences requises pour satisfaire les besoins en matière de sécurité et de conformité ?         |
-|![Icône Étapes suivantes.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Étapes suivantes         |Documenter vos fonctionnalités de sécurité et de conformité requises.         |
 
 <a name="licensing"></a>Licences
 ---------------
