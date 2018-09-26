@@ -235,7 +235,8 @@
 ### [Configurer le système téléphonique de votre organisation](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Que sont les standards automatiques de système téléphonique ?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Configurer un standard automatique pour le système téléphonique](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-#### [Exemple d’implémentation - standards automatiques](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+#### [Exemple de petite entreprise - configurer un standard automatique](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+
 
 ## [Configurer votre réseau pour la diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [Licences pour blocage d'utilisateurs pour la diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)

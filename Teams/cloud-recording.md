@@ -11,12 +11,12 @@ description: Guide pratique pour le déploiement de la fonctionnalité vocale cl
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41cb6fdc7d27b90939be540d04b73fdc1f052818
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 068ddc726a366f5ee34b23dca0f76699d4c76afc
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014178"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019075"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de la réunion équipes sur le nuage
 
@@ -62,7 +62,7 @@ Si un administrateur de Microsoft Stream a [configurer la stratégie de règle d
 
 Utiliser le paramètre AllowCloudRecording de TeamsMeetingPolicy dans PowerShell équipes pour contrôler si les réunions d’un utilisateur sont autorisées à être enregistrée ou non. Vous pouvez en savoir plus sur la gestion des TeamsMeetingPolicy avec Office 365 PowerShell [ici](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
-Notez que l’organisateur de la réunion et de l’initiateur d’enregistrement doivent disposer des autorisations d’enregistrement à enregistrer la réunion. Sauf si vous avez assigné une stratégie personnalisée pour les utilisateurs, les utilisateurs obtiennent la stratégie globale, qui est activée par défaut de l’enregistrement.
+Notez que l’organisateur de la réunion et de l’initiateur d’enregistrement doivent disposer des autorisations d’enregistrement à enregistrer la réunion. Sauf si vous avez assigné une stratégie personnalisée pour les utilisateurs, les utilisateurs obtiennent la stratégie globale, qui a AllowTranscription désactivée par défaut.
 
 Pour un utilisateur de revenir à la stratégie globale, utilisez l’applet de commande suivante pour supprimer l’affectation d’une stratégie spécifique pour un utilisateur :
 

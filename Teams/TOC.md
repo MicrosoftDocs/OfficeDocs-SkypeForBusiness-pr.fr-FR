@@ -474,7 +474,7 @@
 #### [Langues pour les messages d'accueil et les messages de la messagerie vocale](languages-for-voicemail-greetings-and-messages.md)
 #### [Définir l’ID d’appelant d’un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Configurer un standard automatique pour le système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Exemple d’implémentation - standards automatiques](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Exemple de petite entreprise - configurer un standard automatique](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Configurer la messagerie vocale du système téléphonique](set-up-phone-system-voicemail.md)
 #### [Que sont les standards automatiques de système téléphonique ?](what-are-phone-system-auto-attendants.md)
 #### [Répondre de standard automatique et appels de file d’attente directement à partir d’équipes](answer-auto-attendant-and-call-queue-calls.md)

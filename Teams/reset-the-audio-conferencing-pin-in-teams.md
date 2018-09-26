@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez ce que vous devez savoir sur les codes confidentiels et comment les réinitialiser dans Microsoft Teams. '
-ms.openlocfilehash: b88ab6ee2cd498a38026e1fe2bfde04344514901
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f331298915cea6240baeb2f6f6086ec8b9ade675
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014250"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019067"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Réinitialiser le code confidentiel d’audioconférence dans Microsoft Teams
 
@@ -35,11 +35,11 @@ Réunions peuvent être démarrées lorsqu’un utilisateur authentifié se join
 
 ## <a name="reset-a-users-pin"></a>Réinitialiser le code confidentiel d’un utilisateur
 
-1. Dans le volet de navigation de gauche, cliquez sur **Utilisateurs** et sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Skype pour la navigation de gauche, du centre d’administration Business Teams Microsoft et cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-2. En haut de la page, cliquez sur **Modifier**.
+2. **Conférence Audio**, cliquez sur **Réinitialiser le code confidentiel**.
 
-3. Sous **Audioconférence**, cliquez sur **Réinitialiser le code confidentiel**.
+3. Cliquez sur **Réinitialiser**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

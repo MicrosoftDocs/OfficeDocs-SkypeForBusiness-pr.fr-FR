@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment afficher vos numéros de conférence rendez-vous dans Microsoft Teams. '
-ms.openlocfilehash: 0b7ddc14fd87d62dd276c5b8c76a67572ed484a1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: de92f552a873cf51a0cc8487d08cacca387e3e7a
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017326"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019035"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Afficher la liste des numéros d'audioconférence dans Microsoft Teams
 
@@ -45,7 +45,7 @@ Pour modifier le numéro de téléphone à composer pour un utilisateur unique, 
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Pour afficher vos numéros d'audioconférence
 
-1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
+1. Accédez à des **réunions**dans le Microsoft Teams & Skype pour la navigation de gauche, du centre d’administration Business > **ponts de conférence**. 
 2.  Affichez les numéros de téléphone disponibles pour l’audioconférence.
 
 - Vous pouvez également afficher l'emplacement et la langue principale qui sera utilisée par le standard automatique de la fonction d’audioconférence.

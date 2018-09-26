@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez la procédure de réinitialisation de l’ID de conférence d’un utilisateur et pour obtenir des liens vers les outils de mise à jour et de migration de réunion. '
-ms.openlocfilehash: 8cc418b050b254930a74db8b0894dc14ccc090e5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bed015c92e197c1ee2dc1b48e495eee98445e3f0
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014130"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019043"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Réinitialiser l'ID de conférence d'un utilisateur dans Microsoft Teams
 
@@ -38,11 +38,13 @@ Un ID de conférence dynamique est inclus dans la partie inférieure des invitat
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Réinitialiser l'ID de conférence d'un utilisateur
 
-1. Dans le volet de navigation de gauche, cliquez sur **Utilisateurs** et sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de Skype les équipes Microsoft Business centre d’administration
 
-2. En haut de la page, cliquez sur **Modifier**.
+1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-3. Sous **Audioconférence**, cliquez sur **Réinitialiser l’ID de conférence**.
+2. Cliquez sur **Modifier**.
+
+3. Sous **Conférence Audio** , cliquez sur **Réinitialiser l’ID de conférence**.
 
 2. Dans la fenêtre **Réinitialiser l’ID de conférence** , cliquez sur **Réinitialiser**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Par défaut, les messages électroniques sont envoyés aux utilisateurs, mais cela peut être désactivée.   
 
@@ -57,9 +59,9 @@ Un ID de conférence dynamique est inclus dans la partie inférieure des invitat
 
 - Vous pouvez envoyer toutes les informations de conférence à l’utilisateur dans un message électronique qui inclut l’ID de conférence et les numéros de téléphone en cliquant sur **Envoyer les informations de conférence dans le message électronique** de l’utilisateur dans la section de **Conférence Audio** . Le code confidentiel n'est pas envoyé.
     
-- Un ID de conférence contient 7 chiffres, et vous ne pouvez pas modifier sa longueur.
+- Contient un ID de conférence 7 chiffres, et vous ne pouvez pas modifier sa longueur.
     
-- Une fois l'ID de conférence réinitialisé, vous pouvez afficher le nouvel ID sous **ID de conférence**.
+- Une fois l'ID de conférence réinitialisé, vous pouvez afficher le nouvel ID de conférence sous **ID de conférence**.
     
 - Une fois qu'un nouvel ID de conférence est créé, l'ancien ID ne peut plus être utilisé par les appelants. Vous devez inviter les utilisateurs à replanifier leurs invitations à la réunion pour vous assurer que le nouvel ID de conférence sera ajouté aux invitations. 
 
@@ -75,4 +77,4 @@ Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Micros
     
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Réinitialiser le code confidentiel d'audioconférence](reset-the-audio-conferencing-pin-in-teams.md)
+[Réinitialiser le code confidentiel de conférence Audio](reset-the-audio-conferencing-pin-in-teams.md)

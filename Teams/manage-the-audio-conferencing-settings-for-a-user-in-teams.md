@@ -20,22 +20,22 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "En tant qu’administrateur d’Office 365, vous pouvez modifier les paramètres d’audioconférence Microsoft Teams tels que le fournisseur, le numéro payant ou gratuit par défaut, l’ID de conférence ou le code confidentiel d'un utilisateur dans votre organisation. "
-ms.openlocfilehash: 11042cc385e2ad1f0635a459e4be34b2dafcd3bd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0be1276bbcba42cdf2b38c4ec1e54845608824e6
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013874"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019051"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence d'un utilisateur dans Microsoft Teams
 
 En tant qu’administrateur Office 365, vous pouvez modifier les paramètres d’Audioconférence, tels que le fournisseur, le numéro payant ou gratuit par défaut, l’identifiant de conférence ou le code confidentiel — pour un utilisateur individuel dans votre organisation. Si vous souhaitez modifier les paramètres de votre organisation, voir [Gérer les paramètres de conférence Audio de mon organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-Dans les équipes Microsoft & Skype entreprise centre d’administration
+## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de Skype les équipes Microsoft Business centre d’administration
 
 1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-2. En haut de la page, cliquez sur **Modifier**.
+2. Cliquez sur **Modifier**.
 
 3. Sous l' **Audioconférence**, modifiez une des options suivantes :
 
@@ -47,7 +47,8 @@ Dans les équipes Microsoft & Skype entreprise centre d’administration
 |**CODE CONFIDENTIEL** |Si vous devez réinitialiser le code confidentiel de l’utilisateur, cliquez sur **Réinitialiser le code confidentiel** . Pour plus d’informations, consultez la rubrique [Réinitialiser le code confidentiel d’audioconférence](reset-the-audio-conferencing-pin-in-teams.md). |
 |**Par défaut le numéro de téléphone de conférence** (requis) |Il s’agit de numéros qui sont définies sur le pont de conférence audio. Mettre en forme les numéros que vous le souhaitez les voir apparaître dans Skype pour les demandes de réunion Business et Teams Microsoft. Pour modifier le numéro par défaut, cliquez sur **Modifier** en regard de **Conférence Audio** et dans le volet de **Conférence Audio** , sélectionnez un numéro de **numéro de téléphone payant**. |
 |**Invitations de cet utilisateur peuvent inclure le numéro d’appel gratuit**|Pour modifier ce paramètre, cliquez sur **Modifier** en regard de **Conférence Audio** et dans le volet de **Conférence Audio** , activer ou désactiver **l’inclure les numéros gratuits dans les demandes de cet utilisateur de réunion** . |
-|**Autorisations d’appel sortant**|Pour modifier ce paramètre, cliquez sur **Modifier** en regard de **Conférence Audio** et dans le volet de **Conférence Audio** , sélectionnez une option sous **autorisation d’appel sortant de réunions**.|
+|**Les utilisateurs non authentifiés peuvent être la première personne de la réunion**|Pour modifier ce paramètre, **les utilisateurs non authentifiés peuvent être la première personne de la réunion** sur Afficher ou masquer.
+|**Autorisations d’appel sortant**|Pour modifier ce paramètre, cliquez sur **Modifier** en regard de **Conférence Audio** et dans le volet de **Conférence Audio** , sélectionnez une option sous **appels sortants à partir de réunions**.|
 
 ![Affiche les paramètres de conférence Audio pour un utilisateur](media/sfbaudioconf-usersettings.png)
  

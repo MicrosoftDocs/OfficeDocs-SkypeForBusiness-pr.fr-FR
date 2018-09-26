@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Découvrez comment autoriser les utilisateurs à enregistrer leur nom lorsqu'ils participent à une réunion dans Microsoft Teams.
-ms.openlocfilehash: 8583ca92de2544946eb898d128e423b6df62cb24
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cb29fccf8e1997b4c7a82900e3fa6600c603a9a9
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012936"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019059"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils participent à une réunion dans Microsoft Teams
 
@@ -36,13 +36,15 @@ Le pont de conférence répond à l’appel d’un utilisateur qui compose un nu
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Définir si les appelants doivent enregistrer leur nom
 
-1. Accédez à des **réunions**dans le Microsoft Teams & Skype pour la navigation de gauche, du centre d’administration Business > **Ponts de conférence**. 
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de Skype les équipes Microsoft Business centre d’administration
 
-2. En haut de la page **Conference Bridges** (Ponts de conférence), cliquez sur **Bridge Settings** (Paramètres du pont). 
+1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
-3. Activez ou désactivez l’option **Meeting entry and exit notifications** (Notifications d’entrée et de sortie de réunion).
+2. En haut de la page de **Ponts de conférence** , cliquez sur **paramètres du pont**. 
 
-4. Si vous activez les notifications, sélectionnez **Names or phone numbers** (Noms ou numéros de téléphone) sous **Type d’annonces entrée-sortie**, et activez l’option **Ask callers to record their name before joining a meeting** (Demander aux appelants d'enregistrer leur nom avant de rejoindre la réunion).
+3. Activer ou désactiver une **entrée de réunion et quitter des notifications**.
+
+4. Si vous activez les notifications, choisissez des **noms ou des numéros de téléphone** sous **type d’entrée/sortie annonce**et allumez **poser aux appelants à enregistrer leur nom avant de participer à une réunion.**
 
 6. Cliquez sur **Enregistrer**.
     

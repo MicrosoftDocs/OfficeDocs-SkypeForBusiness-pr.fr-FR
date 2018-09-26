@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, des médias et du bureau générés par Microsoft Teams, où les trouver et comment ils peuvent vous assister dans vos opérations de dépannage.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0f06e291694a9a5c22d1188802ef1dabe55af7d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 95d28bac036476c417ccbe7929a23ab9fb37f3a8
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016580"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25018899"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser des fichiers journaux pour le dépannage de Microsoft Teams
 =================================================
@@ -48,7 +48,7 @@ Pour obtenir la liste complète des systèmes d’exploitation et navigateurs pr
 <a name="debug-logs"></a>Journaux de débogage
 ---------------------------
 
-Ces journaux sont les plus utilisés et sont requis pour tous les cas de support Microsoft. Les journaux de débogage sont générés par les clients de bureau Windows et Mac, ainsi que par les clients de navigateur. Ces journaux sont basés sur du texte et se lisent de bas en haut. Ils peuvent être affichés à l'aide d'un éditeur de texte et des nouveaux journaux sont créés lors de la connexion au client.
+Ces se trouvent les journaux les plus courants et sont requis pour tous les cas de support technique Microsoft. Déboguer les journaux sont générées par les clients de bureau Windows et Mac, ainsi que les clients basé sur un navigateur. Les journaux sont texte et en lecture à partir du bas en. Qu’ils peuvent être lus à l’aide de n’importe quel éditeur de texte en fonction et nouveaux journaux sont créés lors de la connexion dans le client.
 
 Les journaux de débogage contiennent les flux de données suivants :
 
