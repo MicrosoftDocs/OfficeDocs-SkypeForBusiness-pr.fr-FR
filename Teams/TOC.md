@@ -17,6 +17,7 @@
 ## [Limites et les spécifications d’équipes](limits-specifications-teams.md)
 ## [Planifier les groupes Office 365 lors de la création d'équipes dans Teams](plan-office-365-groups.md)
 ## [Obtenir des outils d'assistance pour le lancement de Teams](rollout-tools.md)
+## [Planifier la gestion du cycle de vie dans les équipes](plan-teams-lifecycle.md)
 ## [Planifier la gouvernance dans les équipes](plan-teams-governance.md)
 ## [Plan pour Microsoft 365 gouvernement - déploiements GCC](plan-for-government-gcc.md)
 ## Lecteur d’adoption

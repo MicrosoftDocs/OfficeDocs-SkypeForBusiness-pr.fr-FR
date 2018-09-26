@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ff17cc8fb28f0279f1356937465668dc6b7afe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d2b6a411e3dd4f2d7f337e6823cc41d98e508423
+ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015484"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25090209"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -213,6 +213,10 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Les équipes planificateur intégration planificateur en ligne <br/> |Compartiments dans le Planificateur de tâches n’apparaissent pas dans l’expérience en ligne du planificateur.  <br/> |Aucune solution. <br/> |28.02.2017  <br/>|
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Onglet de la page SharePoint affiche l’écran vide<br/> |SharePoint Online domaines redirection ne sont pas actuellement pris en charge. L’expérience utilisateur est un écran vide lorsque attemting pour ajouter un SharePoint page onglet. <br/> |Aucune solution. <br/> |20/8/18  <br/>|
 
 ## <a name="teams"></a>Teams
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
