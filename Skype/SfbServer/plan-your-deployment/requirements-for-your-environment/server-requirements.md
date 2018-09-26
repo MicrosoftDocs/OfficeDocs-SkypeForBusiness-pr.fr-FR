@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Résumé : préparez vos serveurs Skype Entreprise Server 2015 grâce à cette rubrique. Le matériel, le système d’exploitation, les bases de données, les logiciels, toute la configuration système requise et les recommandations se trouvent ici afin de vous permettre de réussir l’installation et le déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: 3971dba6474e8ffa5fcb3b84f82f8e80729627f6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 4e6bbe71a75097e9b1a3a34752d9d1cd46d59307
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883829"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040740"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Configuration serveur requise pour Skype Entreprise Server 2015
  
@@ -90,9 +90,9 @@ Lorsque vous installez Skype pour 2015 Business Server Standard Edition, vous de
 Skype pour Business Server 2015 Enterprise Edition est un peu plus complexe, mais voici la liste pris en charge (tout est Édition 64 bits, vous pouvez le constater, à ne pas utiliser les éditions 32 bits) :
   
 ||||
-|:-----|:-----|:-----|
-|Microsoft SQL Server 2014 Enterprise (Édition 64 bits) et que vous devez exécuter avec Cumulative Update 6 ou version ultérieure ([Télécharger 6 de mise à jour Cumulative](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (Édition 64 bits) et nous vous recommandons de s’exécuter avec le service pack le plus récent.  <br/> |Microsoft SQL Server 2008 R2 Enterprise (Édition 64 bits) et nous vous recommandons de s’exécuter avec le service pack le plus récent.  <br/> |
-|Microsoft SQL Server 2014 Standard (Édition 64 bits) et que vous devez exécuter avec Cumulative Update 6 ou version ultérieure ([Télécharger 6 de mise à jour Cumulative](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (Édition 64 bits) et nous vous recommandons de s’exécuter avec le service pack le plus récent.  <br/> |Microsoft SQL Server 2008 R2 Standard (Édition 64 bits) et nous vous recommandons de s’exécuter avec le service pack le plus récent  <br/> |
+|:-----|:-----|:-----|:-----|
+|Microsoft SQL Server 2016 Enterprise (Édition 64 bits) avec Service Pack 1 ou version ultérieure et que vous devez exécuter avec Skype pour métiers à jour Cumulative 7 ou version ultérieure ([Télécharger Skype pour la mise à jour Cumulative Business](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Enterprise (Édition 64 bits) et que vous devez exécuter avec Cumulative Update 6 ou version ultérieure ([Télécharger 6 de mise à jour Cumulative](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (Édition 64 bits) et nous vous recommandons de s’exécuter avec le service pack le plus récent.  <br/> |Microsoft SQL Server 2008 R2 Enterprise (Édition 64 bits) et nous vous recommandons de s’exécuter avec le service pack le plus récent.  <br/> |
+|Microsoft SQL Server 2016 Standard (Édition 64 bits) avec Service Pack 1 ou version ultérieure et que vous devez exécuter avec Skype pour métiers à jour Cumulative 7 ou version ultérieure ([Télécharger Skype pour la mise à jour Cumulative Business](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Standard (Édition 64 bits) et que vous devez exécuter avec Cumulative Update 6 ou version ultérieure ([Télécharger 6 de mise à jour Cumulative](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (Édition 64 bits) et nous vous recommandons de s’exécuter avec le service pack le plus récent.  <br/> |Microsoft SQL Server 2008 R2 Standard (Édition 64 bits) et nous vous recommandons de s’exécuter avec le service pack le plus récent  <br/> |
    
 Si vous ne voyez pas l’édition de SQL Server que vous souhaitez utiliser répertoriés ici, vous ne pouvez pas l’utiliser.
   
@@ -131,6 +131,8 @@ Vous pouvez avoir ce qui suit pour la mise en cluster du basculement :
   
 Deux nœuds :
   
+- Microsoft SQL Server 2016 Standard (Édition 64 bits) avec Service Pack 1 ou version ultérieure. Nous vous recommandons de s’exécuter avec le service pack le plus récent.
+
 - Microsoft SQL Server 2014 Standard (Édition 64 bits) et nous vous recommandons de s’exécuter avec le service pack le plus récent.
     
 -  Microsoft SQL Server 2012 Standard (Édition 64 bits) et nous vous recommandons de s’exécuter avec le service pack le plus récent.
@@ -138,6 +140,8 @@ Deux nœuds :
 - Microsoft SQL Server 2008 R2 Standard (Édition 64 bits) et nous vous recommandons de s’exécuter avec le service pack le plus récent.
     
 Six nœuds :
+
+- Microsoft SQL Server 2016 Enterprise (Édition 64 bits) avec Service Pack 1 ou version ultérieure. Nous vous recommandons de s’exécuter avec le service pack le plus récent.
   
 - Microsoft SQL Server 2014 Enterprise (Édition 64 bits) et nous vous recommandons de s’exécuter avec le service pack le plus récent.
     

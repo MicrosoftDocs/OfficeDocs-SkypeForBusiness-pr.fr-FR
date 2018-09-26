@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92fe72b8352e9a2152361f410f9e39f1f296a3c8
-ms.sourcegitcommit: 2d76fad92b6d6c5d1bd223a717fd6c534ecaa5be
+ms.openlocfilehash: e2090036aa5e1a05e46581d365d9b6b4aeb94b32
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24974430"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040779"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurer une interopérabilité vidéo dans le nuage pour Microsoft Teams
 
@@ -104,4 +104,4 @@ Vous pouvez joindre des réunions d’équipes avec vos périphériques VTC comm
 - Numérotation des touches de raccourci
     - Si vous disposez d’une salle équipes intégrée, vous pouvez utiliser une touche numérotation fonctionnalités offertes par votre partenaire (sans avoir à taper n’importe quelle chaîne de numérotation).
 
-Enfin, engaeg avec les utilisateurs des équipes de vos réunions en utilisant le partage audio, vidéo et de contenu. 
+Enfin, vous collaborez avec les utilisateurs des équipes dans vos réunions en utilisant le partage audio, vidéo et de contenu. 

@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07f546db5acb8afa0dc457122a2462b9d0affea3
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25002430"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040771"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité vidéo cloud pour les équipes Microsoft
 
@@ -49,7 +49,9 @@ Nos partenaires ont développé des solutions de passerelle pour connecter des p
 **Prêt d’entreprise**
 
 - Vidéo HD (1080p) et contenu (VBSS)
-- Prise en charge H.323 et équipements de salle de réunion de SIP-équipes/Exchange Native planification - conception de passerelle au lieu de VMR
+- Prise en charge H.323 et SIP équipements de salle de réunion
+- Planification des équipes/Exchange native
+- Conception de passerelle au lieu de VMR
 
 **Évolutivité pour le cloud**
 
@@ -86,7 +88,7 @@ Le diagramme suivant décrit l’architecture de haut niveau d’une solution de
 
 ## <a name="business-workflow-scenarios"></a>Les scénarios de flux de travail
 
-- **Skype pour Business Server -> équipes Microsoft :** Votre organisation dispose de périphériques tiers et transfert des Skype pour Business sur prem server vers Microsoft Teams  
+- **Skype pour Business Server -> équipes Microsoft :** Votre organisation a des périphériques tiers et glissant Skype pour Business sur prem server à Microsoft Teams.  
 - **Skype pour les entreprises-en ligne > Microsoft Teams :** Votre organisation est migré vers Microsoft Teams Skype pour Business Online.
 - **Cisco UC -> équipes Microsoft :** Votre organisation est déplacé à partir de Cisco à Microsoft Teams, mais pas prêt à remplacer vos périphériques Cisco.
 - **Englobant des systèmes -> équipes Microsoft :** Votre organisation dispose de plusieurs systèmes dans votre environnement côte à côte (Cisco, BroadSoft, SfB Server, SfBO).
