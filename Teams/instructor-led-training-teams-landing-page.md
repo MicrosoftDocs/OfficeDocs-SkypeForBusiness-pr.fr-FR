@@ -8,12 +8,12 @@ ms.topic: hub-page
 ms.author: dearbeen
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: ed79bef2980c505c6e23a92c12af576ec5f31e3e
-ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
+ms.openlocfilehash: 5f721ccc993e31ae0040df7ea841ef13e86dae26
+ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25019337"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25090225"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -41,7 +41,7 @@ ms.locfileid: "25019337"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>#ThisIsTeams - démo quotidienne Microsoft Teams</h3>
+                                                    <h3>#ThisIsTeams - vue d’ensemble de Microsoft Teams</h3>
                                                     <p>Qu'est ce que Microsoft Teams ? Rejoignez-nous pour cette orientation de 30 minutes découvrir les nouveautés des équipes et comment il peut faire pour vous.</p>
                                                 </div>
                                             </div>
@@ -61,7 +61,7 @@ ms.locfileid: "25019337"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Mise en route avec des équipes</h3>
-                                                    <p>À partir de la conversation et des réunions à l’utilisation de canaux et les équipes, les utilisateurs laisse cette sessions avec foundation à utiliser des équipes en toute confiance.</p>
+                                                    <p>À partir de la conversation et des réunions à l’utilisation de canaux et les équipes, les utilisateurs laisse cette session avec foundation à utiliser des équipes en toute confiance.</p>
                                                 </div>
                                             </div>
                                         </div>
