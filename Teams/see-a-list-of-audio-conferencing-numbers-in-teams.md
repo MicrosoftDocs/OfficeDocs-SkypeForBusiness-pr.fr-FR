@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment afficher vos numéros de conférence rendez-vous dans Microsoft Teams. '
-ms.openlocfilehash: de92f552a873cf51a0cc8487d08cacca387e3e7a
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: e2a3684e7f2c0264e36a6e30ce2df4adf2537895
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019035"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347376"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Afficher la liste des numéros d'audioconférence dans Microsoft Teams
 
@@ -45,10 +45,12 @@ Pour modifier le numéro de téléphone à composer pour un utilisateur unique, 
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Pour afficher vos numéros d'audioconférence
 
-1. Accédez à des **réunions**dans le Microsoft Teams & Skype pour la navigation de gauche, du centre d’administration Business > **ponts de conférence**. 
-2.  Affichez les numéros de téléphone disponibles pour l’audioconférence.
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de Skype les équipes Microsoft Business centre d’administration
 
-- Vous pouvez également afficher l'emplacement et la langue principale qui sera utilisée par le standard automatique de la fonction d’audioconférence.
+1. Dans la navigation de gauche, accédez à des **réunions** > **ponts de conférence**. 
+2. Afficher les numéros de téléphone qui sont disponibles pour l’audioconférence.
+
+- Vous pouvez également afficher l’emplacement et la langue principale qui sera utilisé par le standard automatique de conférence audio.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 

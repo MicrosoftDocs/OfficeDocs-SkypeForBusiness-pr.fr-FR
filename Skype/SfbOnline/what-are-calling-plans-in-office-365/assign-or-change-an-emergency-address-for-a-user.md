@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Découvrez comment configurer une adresse et un numéro de téléphone d’urgence pour chacun de vos utilisateurs qui fonctionne avec les publics téléphone réseau commuté (RTCP).
-ms.openlocfilehash: 56552002c589b776935be973700cff822a9f4857
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 10b22db9e50c1913124d021bff1cc7c285c1f52c
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958160"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347026"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Affectation ou modification d'une adresse d'urgence pour un utilisateur
 
@@ -38,7 +38,7 @@ Pour découvrir comment obtenir des Forfaits d’appels dans Office 365 et leur 
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans le volet de navigation gauche atteindre la **voix**, puis cliquez sur **utilisateurs Enterprise Voice**.
     

@@ -3,7 +3,6 @@ title: Installer Microsoft Teams à l’aide de MSI
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
-ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -13,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63ee69d56cff0fd3d25ae6aa16a02fc45340dce4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b72f40e624c63349913688e11ffc30be5a93a92b
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014378"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347120"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installer Microsoft Teams à l’aide de MSI
 =================================
@@ -66,5 +65,5 @@ Si un utilisateur désinstalle des équipes de leur profil utilisateur, le progr
 
 Si vous souhaitez désactiver le démarrage automatique, entrez l’invite de commandes suivante :
 
-`msiexec /i Teams_windows.exe OPTIONS="noAutoStart=false"`
+`msiexec /i Teams_windows.exe OPTIONS="noAutoStart=true"`
 

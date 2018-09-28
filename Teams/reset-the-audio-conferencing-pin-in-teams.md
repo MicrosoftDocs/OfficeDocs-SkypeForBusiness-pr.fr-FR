@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez ce que vous devez savoir sur les codes confidentiels et comment les réinitialiser dans Microsoft Teams. '
-ms.openlocfilehash: f331298915cea6240baeb2f6f6086ec8b9ade675
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: 292cc1c042816236fed35b536dd529b49e902203
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019067"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347497"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Réinitialiser le code confidentiel d’audioconférence dans Microsoft Teams
 
@@ -35,22 +35,26 @@ Réunions peuvent être démarrées lorsqu’un utilisateur authentifié se join
 
 ## <a name="reset-a-users-pin"></a>Réinitialiser le code confidentiel d’un utilisateur
 
-1. Skype pour la navigation de gauche, du centre d’administration Business Teams Microsoft et cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de Skype les équipes Microsoft Business centre d’administration
 
-2. **Conférence Audio**, cliquez sur **Réinitialiser le code confidentiel**.
+1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-3. Cliquez sur **Réinitialiser**.
+2. Cliquez sur **Modifier**.
+
+3. **Conférence Audio**, cliquez sur **Réinitialiser le code confidentiel**.
+
+4. Cliquez sur **Réinitialiser**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
    
-## <a name="have-a-user-reset-his-or-her-own-pin"></a>Laisser un utilisateur réinitialiser son propre code confidentiel
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>Réinitialisation par un utilisateur de son propre code confidentiel
 
-1. L’utilisateur doit accéder à [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
+1. Demandez à l’utilisateur d’accéder à [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
 2. Cliquez sur **Réinitialiser le code confidentiel**. 
 
 
-## <a name="what-else-should-you-know-about-pins"></a>Que devez-vous savoir d'autre sur les codes confidentiels ?
+## <a name="what-else-should-you-know-about-pins"></a>Que devez-vous savoir d'autre sur les codes confidentiels ?
 
 - Pour des raisons de sécurité, le code confidentiel n'est affiché qu'une fois à l'administrateur lors de la réinitialisation du code confidentiel. Une fois que le code confidentiel est réinitialisé par un administrateur, le code confidentiel est répertorié comme ***.
     
@@ -58,7 +62,7 @@ Réunions peuvent être démarrées lorsqu’un utilisateur authentifié se join
     
 - Lorsqu'une réunion commence, tous les utilisateurs qui se trouvent dans la salle d'attente participent automatiquement à l'événement. Par exemple, si deux participants tentent de participer à une réunion avant qu'elle ait commencé, ils sont placés dans la salle d'attente et entendent de la musique pour patienter. Lorsque l'organisateur saisit son code confidentiel sur le clavier du téléphone, il commence la réunion, ce qui permet aux utilisateurs jusqu'alors en salle d'attente d'y participer.
     
-- Par défaut, les appelants anonymes ne peuvent pas commencer une réunion.
+- Le paramètre par défaut n’autorise ne pas une réunion doit être démarré par les appelants anonymes.
     
 - Lorsque vous activez un utilisateur pour l’audioconférence, par défaut, ils sont envoyés les messages électroniques qui incluent des informations de conférence et de leur code confidentiel. L’utilisateur doit avoir une boîte aux lettres Office 365, étant donné que lorsqu’un code confidentiel est réinitialisé, un nouveau code confidentiel sera envoyé à l’utilisateur dans le message électronique à leur adresse SMTP principale (alias) est définie pour l’utilisateur.
     

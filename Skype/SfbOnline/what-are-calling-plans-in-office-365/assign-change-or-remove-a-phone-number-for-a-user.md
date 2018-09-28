@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Découvrez comment attribuer, modifier ou supprimer le numéro de téléphone professionnel de vos utilisateurs Skype Entreprise pour que les entreprises et les clients extérieurs puissent appeler.
-ms.openlocfilehash: 17cb05a4d9982981e65b5919a868979fca1a1aa2
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 57ffe302c784ff441d124017035c8031c1c737c1
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958120"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347025"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affecter, modifier ou supprimer un numéro de téléphone d’un utilisateur
 
@@ -58,7 +58,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
  
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises**.
+2. Accédez à des **équipes Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans la navigation de gauche, cliquez sur **voix** > **utilisateurs Enterprise Voice**.
    > [!NOTE]
@@ -73,7 +73,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
 6. Dans la page **attribuer le numéro** dans la liste **Sélectionnez le numéro à attribuer** , sélectionnez le numéro de téléphone de l’utilisateur.
     
     > [!TIP]
-    > Si vous ne voyez pas les numéros de téléphone répertoriés, vous devez tout d’abord à [l’obtention des numéros de téléphone pour vos utilisateurs](getting-phone-numbers-for-your-users.md) . Ou, si vous utilisez le **centre d’administration Skype Entreprise** > **Voix** > page **Numéros de téléphone**, cliquez sur **Ajouter**, puis cliquez sur **Nouveaux numéros utilisateur**. 
+    > Si vous ne voyez pas les numéros de téléphone répertoriés, vous devez tout d’abord pour [obtenir les numéros de téléphone pour vos utilisateurs](getting-phone-numbers-for-your-users.md) . Ou, si vous utilisez le **centre d’administration Skype Entreprise** > **Voix** > page **Numéros de téléphone**, cliquez sur **Ajouter**, puis cliquez sur **Nouveaux numéros utilisateur**. 
   
 7. Pour affecter ou modifier l’adresse d’urgence associée, sous **Sélectionnez validé emplacement en cas d’urgence**, sélectionnez l’emplacement dans la liste ou, si vous avez de nombreux emplacements définis, entrez le nom de la ville dans la zone de recherche, cliquez sur **Rechercher**.
     
@@ -90,7 +90,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
  
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises**.
+2. Accédez à des **équipes Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans la navigation de gauche, cliquez sur **voix** > **utilisateurs Enterprise Voice**.
     
@@ -114,7 +114,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
  
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises**.
+2. Accédez à des **équipes Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans la navigation de gauche, cliquez sur **voix** > **utilisateurs Enterprise Voice**.
     

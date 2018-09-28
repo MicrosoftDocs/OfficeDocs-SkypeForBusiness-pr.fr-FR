@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Pour transférer ou exporter des numéros de téléphone de Skype Entreprise Online vers un autre fournisseur de services téléphoniques ou un autre opérateur, vous devez définir manuellement un code confidentiel. Une fois le code confidentiel défini, vous devez l'inclure lorsque vous demandez à transférer un numéro de téléphone.
-ms.openlocfilehash: f30c26d366d6ad431683ba5b80641a9796c2730c
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 3a3744a4b1272bab987add10039c89c6e3983927
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958250"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347090"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Définir votre code confidentiel pour transférer des numéros vers un nouveau fournisseur de service
 
@@ -55,7 +55,7 @@ Voici quelques informations spécifiques sur ce code confidentiel que vous devez
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **Skype pour les entreprises**.
+2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans la navigation de gauche, choisissez **voix** > **commandes Port**.
     

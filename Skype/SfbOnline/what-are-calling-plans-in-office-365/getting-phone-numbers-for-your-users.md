@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment obtenir de nouveaux numéros, faire du portage de numéro ou transférer des numéros existants pour Skype Entreprise et comment afficher les modifications à vos utilisateurs. '
-ms.openlocfilehash: 9bbeaa180cf09e969af412c6ee10651d7a9a7f04
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 72793ce279155df857dfe11529acbacf673c8552
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958130"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347128"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
@@ -51,7 +51,7 @@ Vous devez utiliser la page **Nouveaux numéros** pour afficher, rechercher et a
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans le volet de navigation gauche, accédez à **voix** > **numéros de téléphone**, cliquez sur **Ajouter un nouveau numéro** ![Ajouter bouton ](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), puis cliquez sur**nouveaux numéros utilisateur**.
     
@@ -90,7 +90,7 @@ Vous devez utiliser la page **Nouveaux numéros** pour afficher, rechercher et a
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans le volet de navigation de gauche, sélectionnez **Voix** > **Numéros de téléphone**. Les numéros de téléphone attribués à votre organisation sont répertoriés sous **Numéro**.
     

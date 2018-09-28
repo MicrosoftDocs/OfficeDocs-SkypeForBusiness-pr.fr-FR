@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Découvrez les paramètres définissant la longueur et les exigences d’un code confidentiel et comment définir sa longueur pour les réunions dans Microsoft Teams.
-ms.openlocfilehash: db7c62920dc7440cc8356dd3f5275dd551cdfd78
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8e0be3a904f4172aa0f92c1632ad37992a36ab5f
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014916"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347481"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Définir la longueur du code confidentiel pour les réunions d'audioconférence dans Microsoft Teams
 
@@ -38,18 +38,20 @@ Le pont de conférence audio répond à un appel pour les personnes qui sont con
   
 ## <a name="setting-the-pin-length"></a>Définir la longueur du code confidentiel
 
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de Skype les équipes Microsoft Business centre d’administration
+
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
 2. En haut de la page **Conference Bridges** (Ponts de conférence), cliquez sur **Bridge Settings** (Paramètres du pont). 
 
-3. Dans le volet **Bridge settings** (Paramètres du pont), sous **Longueur du code confidentiel**, sélectionnez le nombre de chiffres que vous voulez pour le code confidentiel.
+3. Dans le volet **paramètres du pont** , sous **longueur du code confidentiel**, sélectionnez le nombre de chiffres que vous voulez pour le code confidentiel.
 
 4. Cliquez sur **Enregistrer**.
 
 > [!NOTE]
 > Un code confidentiel est différent d'un ID de conférence. Les ID de conférence sont utilisés par les appelants lorsqu'ils rejoignent la réunion. Ils permettent d'identifier la réunion. Le code confidentiel est utilisé pour authentifier un appelant en tant qu'organisateur de la réunion. 
 
-## <a name="want-to-know-more-about-pin-settings"></a>Vous souhaitez en savoir plus sur les paramètres des codes confidentiels ?
+## <a name="want-to-know-more-about-pin-settings"></a>Vous souhaitez en savoir plus sur les paramètres de code confidentiel ?
 
 - Codes confidentiels peuvent être de 4 à 12 chiffres ; la valeur par défaut est 5. Seuls des chiffres doivent être utilisés lors de la création de codes confidentiels. Les lettres et les caractères spéciaux ne sont pas autorisés.
     

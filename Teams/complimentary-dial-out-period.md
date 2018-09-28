@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Les clients peuvent utiliser le Forfait d’appels Office 365 et l’Audioconférence Office 365, comme le permettent les conditions d’utilisation des services RTC de Skype Entreprise Online et le contrat de licence en volume du client.
-ms.openlocfilehash: 9e807e5bca0ed17d798a7fd71b9c8db76e146750
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9f3db1ee225633bc4a1d4084dc674d6253e49276
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017510"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347392"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Période complémentaire pour la numérotation de l'audioconférence
 
@@ -39,7 +39,7 @@ Les clients peuvent utiliser le Forfait d’appels Office 365 et l’Audioconfé
   
 ### <a name="complimentary-dial-out-period"></a>Période d’appel sortant gratuite
 
-Pour les clients qui adoptent notre service Audioconférence Office 365, Microsoft offre des avantages supplémentaires en rapport les appels sortant lors des réunions téléphoniques organisées par les utilisateurs qui bénéficient d’une licence Audioconférence Office 365 jusqu’au 30 juin 2018. Pour la période par le biais du 30 juin 2018, les utilisateurs de participer à des réunions organisées par les utilisateurs sous licence peuvent être autorisés, selon les autorisations accordées à l’organisateur de la réunion, pour effectuer des appels de rendez-vous à partir de dans la réunion aux numéros de téléphone dans 44 pays suivants :
+Avantage supplémentaire pour les clients qui adoptent notre service de conférence Audio Office 365, Microsoft propose des avantages supplémentaires relatives aux appels sortants à partir des réunions organisées par les utilisateurs affectés par le biais du 30 juin 2018 une licence d’audioconférence Office 365. Pour la période par le biais du 30 juin 2018, les utilisateurs de participer à des réunions organisées par les utilisateurs sous licence peuvent être autorisés, selon les autorisations accordées à l’organisateur de la réunion, pour effectuer des appels de rendez-vous à partir de dans la réunion aux numéros de téléphone dans 44 pays suivants :
   
 |    |
 |-----|

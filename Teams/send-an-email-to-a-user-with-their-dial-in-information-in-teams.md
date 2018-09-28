@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envoyez à vos utilisateurs un courrier électronique qui contient leurs informations d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: 9ebd650e487b4ef3108d50ecce31eea0a936b176
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 3b1cb1eb4fcf654a4ab3d3cb227416b0cf700817
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012320"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347463"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Envoyer à un utilisateur un courrier électronique qui contient ses informations d’audioconférence dans Microsoft Teams
 
@@ -45,28 +45,30 @@ Voici un exemple de courrier électronique envoyé :
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Envoyer à un utilisateur un courrier électronique qui contient les informations d’audioconférence
 
-1. Dans le volet de navigation de gauche, cliquez sur **Utilisateurs** et sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de Skype les équipes Microsoft Business centre d’administration
+
+1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2. En haut de la page, cliquez sur **Modifier**.
 
-3. Sous **Audioconférence**, cliquez sur **Envoyer les informations de la conférence dans un courrier électronique**.
+3. **Conférence Audio**, cliquez sur **Envoyer les informations de conférence dans le message électronique**.
 
 
-## <a name="what-else-should-you-know-about-this-email"></a>Informations supplémentaires sur ce courrier électronique
+## <a name="what-else-should-you-know-about-this-email"></a>Que devez-vous savoir d'autre sur les courriers électroniques ?
 
-- Plusieurs courriers électroniques sont envoyés aux utilisateurs lorsqu'ils sont activés pour l’audioconférence :
+- Il existe plusieurs messages électroniques envoyés aux utilisateurs de votre organisation une fois qu’ils sont activés pour les conférences audio :
     
-  - Lorsqu'une licence pour l’**Audioconférence** leur est attribuée.
+  - Lorsqu’une licence de **Conférence Audio** est attribuée.
     
-  - Lorsque vous réinitialisez manuellement le code confidentiel d’audioconférence de l'utilisateur.
+  - Lorsque vous réinitialisez manuellement code confidentiel de conférence audio de l’utilisateur.
     
-  - Lorsque vous réinitialisez manuellement l’ID de conférence de l'utilisateur.
+  - Lorsque vous réinitialisez manuellement l'ID de conférence de l'utilisateur.
     
-  - Lorsqu'une licence pour l’**Audioconférence** leur est retirée.
+  - Lorsqu’une licence de **Conférence Audio** est supprimée à partir de celles-ci.
     
-  - Lorsque le fournisseur d’audioconférence passe de Microsoft à un autre fournisseur ou à **Aucun** fournisseur.
+  - Lorsque le fournisseur de services d’audioconférence pour un utilisateur est modifié à partir de Microsoft vers un autre fournisseur ou **Aucun**.
     
-  - Lorsque le fournisseur d’audioconférence d’un utilisateur est remplacé par Microsoft.
+  - Lorsque le fournisseur de services d’audioconférence pour un utilisateur est remplacé par Microsoft.
     
 - Par défaut, l’expéditeur des e-mails sera d’Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom complet à l’aide de Windows PowerShell. Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
   

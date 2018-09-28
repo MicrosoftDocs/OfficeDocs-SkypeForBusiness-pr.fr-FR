@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment modifier l’emplacement d’urgence pour vos utilisateurs. Avec un nombre illimité d’emplacements, vous pouvez modifier les emplacements d’urgence quand les employés se déplacement dans les étages ou les bâtiments. '
-ms.openlocfilehash: caf201bf71d15518ffbfbf473a904da2d1d03aa4
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 7ebec7ca6a2180702eec9e24b3165eb501d4a097
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958210"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347110"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>Modification de l'emplacement d'urgence d'un utilisateur
 
@@ -38,7 +38,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans le volet de navigation gauche, accédez à **voix** > **utilisateurs Enterprise Voice**.
     

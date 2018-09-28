@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Découvrez comment afficher une liste de tous les numéros de téléphone dans votre organisation, tous les numéros affectés aux utilisateurs et tous les numéros qui sont affectées aux utilisateurs de voix à partir de la Skype entreprise centre d’administration.
-ms.openlocfilehash: 2f7311b3b50be7bb6cea086fdd3e9f4fe67a677b
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: c257991c0b867cb42b5b56af0e5595257260b25a
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958230"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347080"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Affichage de la liste des numéros de téléphone de votre organisation
 
@@ -39,7 +39,7 @@ Il existe différents types de numéros de téléphone que vous pouvez affecter 
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans le panneau de navigation de gauche de **Centre d'administration Skype Entreprise**, sélectionnez **Voix** > **Numéros de téléphone**.
     
@@ -71,7 +71,7 @@ Lorsque vous configurez des utilisateurs, vous voudrez peut-être afficher uniqu
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans le panneau de navigation de gauche de **Centre d'administration Skype Entreprise**, sélectionnez **Voix** > **Utilisateurs Voix**.
     
@@ -95,7 +95,7 @@ Lorsque vous configurez des utilisateurs de votre organisation pour passer et re
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans le panneau de navigation de gauche de **Centre d'administration Skype Entreprise**, sélectionnez **Voix** > **Utilisateurs Voix**.
     

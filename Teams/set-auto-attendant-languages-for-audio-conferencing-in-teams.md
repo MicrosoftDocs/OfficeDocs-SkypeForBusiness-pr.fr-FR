@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Cette section explique comment sélectionner les langues du standard automatique d’audioconférence d’un numéro d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: b9613b5e64bad0428975a6acd3b11db16a42c680
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a9586e7d6741d49342a34a694c2a5def7406946c
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017952"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347489"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Définir les langues du standard automatique d’audioconférence dans Microsoft Teams
 
@@ -41,11 +41,13 @@ Choisir une langue principale et jusqu’à quatre langues secondaires. La langu
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir les langues du standard automatique d’audioconférence
 
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de Skype les équipes Microsoft Business centre d’administration
+
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence).
 
-2. Sélectionnez le numéro de téléphone d’audioconférence dans la liste et, en haut de la page, cliquez sur **Modifier**.
+2. Sélectionnez le numéro de téléphone de conférence audio à partir de la liste, puis en haut de la page, cliquez sur **Modifier**.
 
-3. Dans le volet de droite, sélectionnez la langue par défaut souhaitée et les autres langues éventuelles. 
+3. Dans le volet de droite, sélectionnez la langue par défaut et les autres langues. 
  
     > [!NOTE]
     > La valeur par défaut et autres langues prises en charge sont répertoriés. L’ordre dans lequel vous sélectionnez dans les listes sera l’ordre des langues présentées aux appelants. 
@@ -61,9 +63,9 @@ Choisir une langue principale et jusqu’à quatre langues secondaires. La langu
     
 - Pour voir une liste des pays/régions dans lesquels l’audioconférence dans Office 365 utilisant Microsoft en tant que fournisseur est disponible, voir [Numéros de téléphone pour l’audioconférence](phone-numbers-for-audio-conferencing-in-teams.md).
     
-## <a name="want-to-use-windows-powershell"></a>Vous souhaitez utiliser PowerShell ?
+## <a name="want-to-use-windows-powershell"></a>Vous souhaitez utiliser Windows PowerShell ?
 
-Pour des informations complémentaires, consultez la rubrique [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
   
 ## <a name="related-topics"></a>Rubriques connexes
 

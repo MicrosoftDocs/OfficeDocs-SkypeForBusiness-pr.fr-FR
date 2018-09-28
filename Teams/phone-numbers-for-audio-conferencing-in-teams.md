@@ -21,16 +21,16 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Cette section présente les pays et régions qui ont des numéros de conférence rendez-vous et explique comment ils sont attribués automatiquement.
-ms.openlocfilehash: c16f2280441ba3a253e1656d989b9a90702f4599
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 29fd127fd132d953aafcec46807e2fd6012e7c4b
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017550"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347410"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Numéros de téléphone pour l’audioconférence dans Microsoft Teams
 
-Lorsque vous configurez l' **Audioconférence** pour Microsoft Teams, les numéros de téléphone sont automatiquement affectés à votre organisation. Pour voir le téléphone, les numéros affectés pour le pont de conférence audio, dans le Guide Microsoft Teams & Skype entreprise centre d’administration, accédez à des **réunions** > **ponts de conférence**. Consultez la rubrique [Afficher la liste des numéros de conférence Audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Lorsque vous configurez l' **Audioconférence** pour Microsoft Teams, les numéros de téléphone sont automatiquement affectés à votre organisation. Pour voir le téléphone, les numéros affectés pour le pont de conférence audio, dans le Guide Microsoft Teams & Skype entreprise centre d’administration, accédez à des **réunions** > **ponts de conférence**. Pour plus d’informations, accédez à [Afficher la liste des numéros de conférence Audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Couverture et tarifs de l’audioconférence

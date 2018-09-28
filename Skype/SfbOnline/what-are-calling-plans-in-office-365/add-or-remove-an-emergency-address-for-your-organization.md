@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: "Découvrez comment ajouter une adresse d'urgence à votre compte Skype Entreprise. "
-ms.openlocfilehash: 06cd8202198b49efbf2c478e233865a681d2ce34
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: a4edcfa5673ac20c571bfae4d26f41facb9f0c80
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958180"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347057"
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Ajout ou suppression d'une adresse d'urgence pour votre organisation
 
@@ -40,7 +40,7 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans le volet de navigation de gauche, sélectionnez **Voix** > **Localisations d'urgence**, puis cliquez sur le bouton **Ajouter une nouvelle adresse**.
     
@@ -62,9 +62,9 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
-3. Dans la navigation de gauche, accédez à la **voix** > **emplacement d’urgence**, sélectionnez l’adresse que vous souhaitez supprimer et dans le volet Actions, cliquez sur **Supprimer**.
+3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, sélectionnez l’adresse que vous souhaitez supprimer et dans le volet Actions, cliquez sur **Supprimer**.
     
     > [!IMPORTANT]
     > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.

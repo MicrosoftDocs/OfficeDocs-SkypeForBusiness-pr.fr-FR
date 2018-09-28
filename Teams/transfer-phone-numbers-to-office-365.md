@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 69ed5566d516f89b5b3f2c96ab37e43690693708
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 660854bc851be4409962f1177917e86f2ae3482d
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017896"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347544"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Transférer des numéros de téléphone vers Office 365
 
@@ -53,7 +53,7 @@ Avant de commencer le transfert des numéros de téléphone, nous vous recommand
  
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans le volet de navigation de gauche, sélectionnez **Voix** > **Commandes de transfert** > cliquez sur **Ajouter**.
     
@@ -81,7 +81,7 @@ Avant de commencer le transfert des numéros de téléphone, nous vous recommand
     
   - **Ville**, **État**, **Code postal** de l'adresse du service.
     
-6. Dans la page **Numéros**, entrez les numéros de téléphone que vous souhaitez transférer au format E.164. Par exemple, pour un numéro en Amérique du Nord, utilisez le format + 1XXXYYYZZZZ. Séparez les numéros de téléphone par une virgule.
+6. Dans la page **Numéros**, entrez les numéros de téléphone que vous souhaitez transférer au format E.164. Par exemple, pour un numéro en Amérique du Nord, utilisez le format + 1XXXYYYZZZZ. Utilisez une virgule pour séparer plusieurs numéros de téléphone.
     
     > [!NOTE]
     > Si vous effectuez un transfert complet, vous devez inclure le numéro de téléphone de facturation du service dans la liste. Pour un transfert partiel, n'indiquez pas le numéro de téléphone de facturation dans cette liste. 
@@ -90,7 +90,7 @@ Avant de commencer le transfert des numéros de téléphone, nous vous recommand
     
 7. Cliquez sur **Continuer**.
     
-8. Dans la page **Date de transfert**, dans le menu déroulant **Jour**, sélectionnez la date, puis dans le menu déroulant **Heure de début**, sélectionnez l'heure (heure de la côte Est), puis cliquez sur **Suivant**.
+8. Dans la page **transférer la date** , dans la liste déroulante du **jour** , sélectionnez la date et sous la liste déroulante **heure de début** , sélectionnez l’heure (EST) puis cliquez sur **suivant**.
     
 9. On the **Letter of authorization** page, check each of the following boxes. Then under the **Signature** box, type the person that is authorized to make changes to the account. This is the same name that is used on the **Account Information** page > **Authorizing person**. Then click **Next**.
     
