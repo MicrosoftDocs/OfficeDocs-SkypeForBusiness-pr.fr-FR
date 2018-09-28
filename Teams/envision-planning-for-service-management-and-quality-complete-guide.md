@@ -8,16 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Offrir une expérience utilisateur de haute qualité aux équipes en gérant le service, le réseau et la santé des points de terminaison, et en définissant les rôles opérationnels et les rôles des champions qualité.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 584268a3b1b36f11518ed10e04b995b2d84b9bc1
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 29b17157178f8e7565fd6f484d6d95262c76ce05
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20396878"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015580"
 ---
 # <a name="plan-for-service-management-and-quality"></a>Plan de gestion du service et de la qualité
 
@@ -139,9 +140,9 @@ En évaluant et en corrigeant continuellement les zones décrites dans ce docume
 
 Les conseils fournis dans le Guide d'examen de l'expérience de qualité portent sur l'utilisation du CQD en ligne comme outil principal pour rapporter et enquêter sur chaque domaine décrit, en mettant l'accent sur l'audio pour maximiser l'adoption et l'impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
-Nous vous recommandons fortement de nommer le Champion de la qualité le plus tôt possible. Après avoir été nommés, ils devraient commencer à se familiariser avec le contenu du Guide d'examen de la qualité de l'expérience.
+Nous vous recommandons fortement de nommer le Champion de la qualité le plus tôt possible. Après avoir été nommé, il doit commencer à se familiariser avec le contenu dans le Guide d’examen de l’expérience qualité.
 
-Le Guide d'examen de l'expérience de qualité se trouve [ici](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+Le Guide d'examen de l'expérience de qualité se trouve [ici](https://aka.ms/qerguide).
 
 ## <a name="plan-for-network-quality"></a>Planifier la qualité du réseau 
 
@@ -232,7 +233,7 @@ L'optimisation du chemin d'accès au réseau mondial de Microsoft améliorera le
 
 Les VPN fournissent un service de valeur à de nombreuses organisations. Malheureusement, ils ne sont généralement pas conçus ou configurés pour prendre en charge les médias en temps réel. Certains VPN peuvent également ne pas prendre en charge UDP. Les VPN introduisent également une couche supplémentaire de cryptage en plus du trafic média déjà crypté. En outre, la connectivité au service Microsoft Teams pourrait ne pas être efficace en raison du hairpinning du trafic à travers un dispositif VPN. De plus, ils ne sont pas nécessairement conçus du point de vue de la capacité pour répondre aux charges prévues dont les é
 
-La recommandation est de fournir un chemin alternatif qui contourne le VPN pour le trafic de Teams. C'est ce qu'on appelle communément le VPN en tunnel segmenté. La segmentation de tunnel signifie que le trafic d'Office 365 ne traversera pas le VPN mais ira directement vers Office 365. Ce changement aura un impact positif sur la qualité, mais aussi l'avantage secondaire de réduire la charge des dispositifs VPN et du réseau de l'organisation.
+La recommandation est de fournir un chemin alternatif qui contourne le VPN pour le trafic de Teams. Cela s’appelle généralement un VPN de tunnel segmenté. La segmentation de tunnel signifie que le trafic d'Office 365 ne traversera pas le VPN mais ira directement vers Office 365. Ce changement aura un impact positif sur la qualité, mais aussi l'avantage secondaire de réduire la charge des dispositifs VPN et du réseau de l'organisation.
 
 Pour mettre en œuvre un tunnel segmenté, consultez votre fournisseur VPN pour les détails de configuration.
 
@@ -334,11 +335,11 @@ Ce tableau comprend un résumé des activités de planification avec des liens v
 | Zone | Détails | Références |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Plan de gestion des services | Mener un exercice de mappage des rôles opérationnels <br/> Se déconnecter des équipes responsables <br/> Préparation des rôles | [Guide des opérations](1-drive-value-operate-my-service.md) |
-| | Nommer un ou plusieurs Champions de la qualité <br/> Préparation du Champion de la qualité| [Apprendre le CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Guide d'examen de l'expérience de qualité](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
-| | Installer les modèles du Guide d'examen de l'expérience de qualité <br/> Charger un fichier de construction | [Modèles QERLite](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [Charger les informations sur la construction](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
+| | Nommer un ou plusieurs Champions de la qualité <br/> Préparation du Champion de la qualité| [Apprendre le CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Guide d'examen de l'expérience de qualité](https://aka.ms/qerguide) |
+| | Installer les modèles du Guide d'examen de l'expérience de qualité <br/> Charger un fichier de construction | [Modèles QERLite](https://aka.ms/qertemplates) <br/> [Charger les informations sur la construction](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
 | Planifier la qualité du réseau | Exécuter le Planificateur de réseau | [Planificateur de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Mettre en œuvre la QoS | [Qualité de service (QoS) dans Microsoft Teams](qos-in-teams.md) |
-| | Contourner les serveurs proxy | [Guide des proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | Contourner les serveurs proxy | [Guide des proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | Implémenter un VPN en tunnel segmenté | [Guide des tunnels VPN segmentés](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Optimiser les réseaux Wi-Fi pour les médias en temps réel  | Consulter les fournisseurs tiers |
 | | Mettre en œuvre la sortie Internet locale | [Sortie Internet locale](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |

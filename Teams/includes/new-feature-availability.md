@@ -1,2 +1,2 @@
 > [!NOTE]
-> Vous ne voyez pas encore cette fonctionnalité dans votre client Teams Microsoft ? Elle est actuellement déployée et peuvent ne pas être disponible dans votre organisation encore. Voir la [Feuille de route équipes](http://aka.ms/TeamsRoadmap) pour obtenir les informations relatives aux versions à venir dans les équipes. 
+> Cette fonctionnalité n'apparaît pas encore dans votre client Microsoft Teams ? Elle est en cours de déploiement et peut ne pas être encore disponible dans votre organisation. Consultez la [feuille de route Teams](https://aka.ms/TeamsRoadmap) pour des informations actualisées sur les prochains lancements dans Teams.
