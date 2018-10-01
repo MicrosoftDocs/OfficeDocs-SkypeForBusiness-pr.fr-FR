@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
-ms.translationtype: HT
+ms.openlocfilehash: e4c86bb7d918a30b0abe185d67b717904702bc93
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965522"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352297"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Guide pratique des systèmes téléphoniques avec forfaits d'appels dans Microsoft Teams
 =========================================================================
@@ -231,8 +231,7 @@ Vous devez effectuer cette étape et inclure le plan opérationnel dans le plan 
 <br>
 Planification technique du système téléphonique avec forfaits d'appels
 ------------------------------------------------------
-
-Pour planifier l'implémentation technique du système téléphonique avec forfaits d'appels, plusieurs décisions doivent être prises au préalable afin de mieux préparer votre organisation à implémenter une solution qui répond aux besoins de votre organisation. Ces décisions seront documentées dans un plan d’implémentation technique.
+<a name="technical-planning-for-phone-system-with-calling-plans"></a> Pour planifier l’implémentation du système téléphonique technique avec des Plans de l’appel, une série de décisions doit être effectuée à l’avance pour mieux préparer votre organisation pour implémenter une solution qui répond aux besoins de l’entreprise. Ces décisions seront documentées dans un plan d’implémentation technique.
 
 ## <a name="availability-of-calling-plans"></a>Disponibilité des forfaits d'appels
 

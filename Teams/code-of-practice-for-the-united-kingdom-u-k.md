@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: e22a1c853a60af06789e98c6eb73f701712f7252
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 646d525111e18752492ad7ebc346839b7d296f9b
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016332"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352313"
 ---
 # <a name="code-of-practice-for-the-united-kingdom-uk"></a>Code de pratique pour le Royaume-Uni
 
@@ -53,11 +53,8 @@ Vous trouverez peut-être la réponse à certaines de vos questions en visitant 
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. Résolution des réclamations et des litiges
 
-<<<<<<< HEAD:Teams/code-of-practice-for-the-united-kingdom-u-k.md nos priorités sont satisfaction de la clientèle et un excellent service. Toutefois, si vous avez une réclamation, nous agirons rapidement pour vous aider à résoudre le problème. Notre page [Appelant Plans dans Office 365 - code de gestion de réclamation pour la (Royaume-Uni)](complaint-handling-code-for-the-united-kingdom-u-k.md) décrit en détail les procédures pour les petites entreprises à une réclamation avec nous et notre schéma de résolution de litiges indépendante du fichier.
+Nos priorités numéro sont la satisfaction du client et l'excellence de nos services. Toutefois, si vous avez une réclamation, nous agirons rapidement pour vous aider à résoudre le problème. Notre page [Appelant Plans dans Office 365 - code de gestion de réclamation pour la (Royaume-Uni)](complaint-handling-code-for-the-united-kingdom-u-k.md) décrit en détail les procédures pour les petites entreprises à une réclamation avec nous et notre schéma de résolution de litiges indépendante du fichier.
   
-=== Nos priorités sont satisfaction et service excellent. Toutefois, si vous avez une réclamation, nous agirons rapidement pour vous aider à résoudre le problème. Notre page [Appelant Plans dans Office 365 - code de gestion de réclamation pour la (Royaume-Uni)](code-of-practice-for-the-united-kingdom-u-k.md) décrit en détail les procédures pour les petites entreprises à une réclamation avec nous et notre schéma de résolution de litiges indépendante du fichier.
-
->>>>>>> Master:Skype/SfbOnline/Legal-and-Regulatory/code-of-Practice-for-the-United-Kingdom-u-k.MD
 ## <a name="4-number-porting"></a>4. Transfert de numéro
 
 Dans certains cas, il se peut que Skype Entreprise ne soit pas en mesure de transférer le numéro de téléphone d'un client à utiliser avec le Service. Si le transfert de numéro est possible, Skype Entreprise prend toutes les mesures raisonnables pour garantir que le transfert du numéro et l'activation qui s'en suit s'effectuent rapidement une fois qu'un accord de transfert du numéro a été conclu avec le fournisseur de services actuel du client.
