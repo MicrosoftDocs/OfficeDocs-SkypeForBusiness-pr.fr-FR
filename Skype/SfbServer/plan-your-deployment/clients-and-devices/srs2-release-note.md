@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
-ms.openlocfilehash: e44a9ecc943bd20b451458fd1c469eee4d5cd2ea
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 7a84cd715be9d76caa9b8ce624aae1c7fbe84f35
+ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965911"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25353212"
 ---
 # <a name="release-notes"></a>Notes de publication 
 
@@ -26,13 +26,15 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 
 | Version | Publié sur <br>Magasin de Microsoft | 
 | ---     | ---                              |
+| 4.0.19.0|  08/31/2018    |   
+| 4.0.18.0|  27/08/2018    |   
 | 4.0.8.0|  07/06/2018    |   
 | 3.1.115.0|  18/06/2018    |
 | 3.1.113.0|  13/06/2018    |   
 | 3.1.112.0|  06/05/2018    |   
 | 3.1.104.0|  04/16/2018    |            
 | 3.1.100.0|  16/03/2018    |            
-| 3.1.99.0 | 3/14/2018      |   
+| 3.1.99.0 | 3/14/2018      |  
 | 3.1.98.0    | 3/8/2018    |   
 |  3.0.16.0    |  27/11/2017   |
 | 3.0.15.0 | 10/3/2017  |            
@@ -44,6 +46,18 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Systèmes de salle Skype v2 fonctionnalité introduction et problème résolution
+
+### <a name="40190-8312018"></a>4.0.19.0 (31/8/2018)
+Introduite dans cette mise à jour : 
+- Correctif pour application Crestron ne pas lancer qui serait normalement accessible en appuyant sur le bouton d’application sur les appareils Crestron SR. Redémarrage de l’application SRSv2 requis après l’installation de 4.0.19.0 
+
+### <a name="40180-08272018"></a>4.0.18.0 (27/08/2018)
+Introduite dans cette mise à jour : 
+- Améliorations des fonctionnalités de « Signaler un problème » en mode équipes (équivalent de « Commenter » dans Skype pour le mode de l’entreprise)
+- Permet de capacité de secours à partir des équipes Skype pour le mode d’entreprise pour les appels SIP
+- Améliorations d’accessibilité (le Narrateur, la Loupe)
+- Automatiquement le redémarrage de l’application nécessaire après les modifications de configuration XML ont été appliquées
+- Correctifs divers
 
 ### <a name="4080-07062018"></a>4.0.8.0 (07/06/2018)
 Introduite dans cette mise à jour : 

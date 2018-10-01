@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 07/16/2018
+ms.date: 10/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c50fff8a204e00755857ede74e97fd728b032a73
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6acb497937ad7548f8ffc745d12b0ddd813b3e46
+ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016940"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25353190"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -31,6 +31,9 @@ ms.locfileid: "25016940"
 Le complément Réunion Teams est installé automatiquement pour les utilisateurs pour lesquels Microsoft Teams et Office 2013 ou Office 2016 sont installés sur leur PC Windows. Le complément Réunion Teams apparaît sur le ruban Calendrier d'Outlook. 
 
 ![Capture d'écran du complément Teams sur le ruban Outlook.](media/Teams-add-in-for-Outlook.png)
+
+> [!NOTE]
+> Les utilisateurs de Windows 7 doivent installer [mise à jour pour Universal Runtime C dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour le complément de réunion équipes pour travailler.
 
 Si le complément Réunion Teams n'apparaît pas, demandez aux utilisateurs de fermer Outlook et Teams, de redémarrer d'abord le client Teams, de se connecter à Teams puis de redémarrer le client Outlook, dans cet ordre spécifique.
 
