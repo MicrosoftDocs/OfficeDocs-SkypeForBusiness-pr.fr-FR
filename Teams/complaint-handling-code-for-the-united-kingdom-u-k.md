@@ -1,5 +1,5 @@
 ---
-title: Code de traitement des réclamations pour le Royaume-Uni
+title: Plans d’appel dans Office 365 - code de gestion de réclamation pour la (Royaume-Uni)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 126c0b88aa5b7feab230ace8b2fc9ff4a1ffffbe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fb71f775a1efdfd6b72268bc39d872991587782a
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016156"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358955"
 ---
-# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>Code de traitement des réclamations pour le Royaume-Uni
+# <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Plans d’appel dans Office 365 - code de gestion de réclamation pour la (Royaume-Uni)
 
 Ce Code s’applique aux petites entreprises (organisations avec 10 employés ou moins) dans le Royaume-Uni (Royaume-Uni) en ce qui concerne le service Office 365 appelant planifier (le « Service ») conformément aux réglementations de communications (Royaume-Uni). D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
 

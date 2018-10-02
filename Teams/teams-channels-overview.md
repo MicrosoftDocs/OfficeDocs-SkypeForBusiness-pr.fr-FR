@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70591f040508453832943c65122f0fa0b07ef35b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 3abecace4a15a85e4a0f8b895b44cd799b3c794f
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014660"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358892"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 =================================================
@@ -36,13 +36,7 @@ Une équipe est destinée à réunir un groupe de personnes qui travaillent en �
 
     -   Les canaux d'une équipe sont des endroits où chaque membre dans l'équipe peut mener des conversations ouvertes. Les discussions privées ne sont accessibles qu'aux personnes qui participent à cette conversation.
 
-    -   Les canaux sont particulièrement utiles lorsque des applications incluant des onglets, connecteur et robots y sont ajoutées, qui apportent une valeur ajoutée pour les membres de l’équipe.
-    
-Prenez cinq minutes pour découvrir les meilleures pratiques pour organiser des équipes, des canaux et des onglets dans cette vidéo :
-
-|  |  |
-|---------|---------|
-| 5 minutes pour configurer des équipes, des canaux et des onglets   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
+    -   Les canaux sont plus importantes lorsque étendu avec des applications qui incluent des onglets, des connecteurs et des robots qui augmente leur valeur aux membres de l’équipe.
 
 <a name="membership-roles-and-settings"></a>L’appartenance, les rôles et les paramètres
 ------------------------------
@@ -52,6 +46,9 @@ Prenez cinq minutes pour découvrir les meilleures pratiques pour organiser des 
 **Rôles d’équipe** Il existe deux rôles principaux dans Microsoft Teams : un propriétaire d’équipe, - la personne qui crée l’équipe - et les membres de l’équipe, les personnes invitées à rejoindre l’équipe. Les propriétaires d’équipe peuvent définir n’importe quel membre de leur équipe comme copropriétaire lorsqu'ils 'l’invitent à rejoindre l'équipe ou à n’importe quel moment une fois qu'il a rejoint l’équipe. Avoir plusieurs propriétaires d’équipe vous permet de partager les responsabilités de gestion des paramètres et d’appartenance, y compris les invitations.   
 
 **Paramètres de l’équipe** Les propriétaires d’équipe peuvent gérer les paramètres à l’échelle de l’équipe directement dans Microsoft Teams. Les paramètres incluent la possibilité d’ajouter une image de l’équipe, de définir les autorisations entre les membres pour créer des canaux, ajouter des onglets et connecteurs, @mentionner toute l’équipe ou le canal et l’utilisation de fichiers GIF, autocollants et mèmes. 
+
+Prendre trois minutes pour extraire ce atteindre guide vidéo pour les propriétaires de l’équipe : 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Si vous êtes un administrateur de Microsoft Teams dans Office 365, vous avez accès à des paramètres système dans les équipes & Skype entreprise centre d’administration. Ces paramètres peuvent avoir une incidence sur les options et valeurs par défaut que les propriétaires d'équipe voient sous les paramètres de l’équipe. Par exemple, vous pouvez activer un canal par défaut, « Général », pour les annonces, discussions et ressources de l’équipe, qui s’afficheront pour toutes les équipes.
 

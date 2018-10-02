@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
-ms.openlocfilehash: 7a84cd715be9d76caa9b8ce624aae1c7fbe84f35
-ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
+ms.openlocfilehash: af4f7621f9b5a70bc9b8a7ce87e50a6e6791ea63
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25353212"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358978"
 ---
 # <a name="release-notes"></a>Notes de publication 
 
@@ -25,10 +25,11 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 ##  <a name="version-history"></a>Historique des versions
 
 | Version | Publié sur <br>Magasin de Microsoft | 
-| ---     | ---                              |
-| 4.0.19.0|  08/31/2018    |   
-| 4.0.18.0|  27/08/2018    |   
-| 4.0.8.0|  07/06/2018    |   
+| ---     | ---  |
+| 4.0.27.0 |  10/1/2018    | 
+| 4.0.19.0 |  08/31/2018    |   
+| 4.0.18.0 |  27/08/2018    |   
+| 4.0.8.0 |  07/06/2018    |   
 | 3.1.115.0|  18/06/2018    |
 | 3.1.113.0|  13/06/2018    |   
 | 3.1.112.0|  06/05/2018    |   
@@ -46,6 +47,13 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Systèmes de salle Skype v2 fonctionnalité introduction et problème résolution
+
+### <a name="40270-1012018"></a>4.0.27.0 (10/1/2018)
+Introduite dans cette mise à jour : 
+- Modifications du code nécessaires pour préparer l’application SRSv2 mise à niveau de Windows 10 Version 1803 ultérieure
+- Corriger le problème à la mise en forme avec localisées CLUF - spécifiquement norvégien -, ce qui empêche de passer au-delà de fenêtre de paramètres EULA OOBE
+- Modifications du code nécessaires pour rendre application v2 de systèmes de salle Skype s’exécutent sur les systèmes de salle de Lync. Plus d’informations, consultez la rubrique [ici](https://aka.ms/lrsupgrade).
+ 
 
 ### <a name="40190-8312018"></a>4.0.19.0 (31/8/2018)
 Introduite dans cette mise à jour : 

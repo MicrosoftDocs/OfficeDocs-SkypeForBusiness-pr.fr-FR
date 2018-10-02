@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a59134e48d71f9704054d01fecccff385e45e7e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: da85bde3b0f868165fed869b8147e4408344ebc0
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015372"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358900"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>FAQ - Transition de Skype Entreprise à Microsoft Teams
 
@@ -35,7 +35,7 @@ Comme les utilisateurs travaillent dans des équipes de plus, nous constatons la
 
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>Les clients doivent-ils passer de Skype Enteprise Online à Teams à une date précise ?
 
-Nous avons notre feuille de route pour les équipes disponibles afin que les clients peuvent évaluer les fonctionnalités pour les équipes par rapport à leurs besoins et planifier leur migration vers des équipes. Les clients peuvent définir le calendrier qui leur convient au mieux pour passer à Teams. Idéal pour maîtriser des informations sur le parcours de Skype pour entreprises aux équipes le [Skype pour Busineses à des fonctions de feuille de route les équipes Microsoft](https://aka.ms/skype2teamsroadmap)— un fichier PDF téléchargeable (dans anglais uniquement, au moins pour le moment) qui permet aux attentes actuelles de Microsoft sur Skype pour bientôt aux équipes des fonctionnalités.
+Nous avons notre feuille de route pour les équipes disponibles afin que les clients peuvent évaluer les fonctionnalités pour les équipes par rapport à leurs besoins et planifier leur migration vers des équipes. Les clients peuvent définir le calendrier qui leur convient au mieux pour passer à Teams. Idéal pour maîtriser des informations sur le parcours de Skype pour entreprises aux équipes le [Skype pour les entreprises à des fonctions de feuille de route les équipes Microsoft](https://aka.ms/skype2teamsroadmap)— un fichier PDF téléchargeable (dans anglais uniquement, au moins pour le moment) qui permet aux attentes actuelles de Microsoft sur Skype pour bientôt aux équipes des fonctionnalités.
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Qu'adviendra-t-il de Skype Entreprise Server ?
 
