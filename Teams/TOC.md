@@ -215,6 +215,9 @@
 #### [Configurer une interopérabilité vidéo sur le nuage](cloud-video-interop-for-teams-set-up.md)
 ### Événements en direct
 #### [Quelles sont les équipes live événements ?](teams-live-events/what-are-teams-live-events.md)
+#### [Planifier des équipes événements en direct](teams-live-events/plan-for-teams-live-events.md)
+#### [Configurer des équipes événements en direct](teams-live-events/set-up-for-teams-live-events.md)
+#### [Configurer des événements en direct équipes](teams-live-events/configure-teams-live-events.md)
 
 
 
