@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités sont nouvelles dans Skype pour Business Server 2019.'
 ms.openlocfilehash: 7b4e07ab6fbb7bfddcd056c9d6c4cd9d836d9a8e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
+ms.lasthandoff: 10/03/2018
 ms.locfileid: "25027325"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Nouveautés dans Skype pour Business Server 2019 
