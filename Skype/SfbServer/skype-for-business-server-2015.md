@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Résumé : Explorez ces liens pour découvrir comment mettre en œuvre Skype pour Business Server 2015.'
-ms.openlocfilehash: 21a776b96c640b152e512b3c052340e2ed8f45d9
-ms.sourcegitcommit: 3356670f2849306ce329899509d2104fe0404939
+ms.openlocfilehash: 459738bf2c3aae789db26c960297d692c85696af
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19949814"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375884"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype Entreprise Server 2015
 
@@ -72,7 +72,7 @@ Skype pour les entreprises est une plateforme de collaboration et de communicati
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Déployer</h3>
+                        <h3>Déployer </h3>
                     </div>
                 </div>
             </div>
@@ -145,9 +145,9 @@ Skype pour les entreprises est une plateforme de collaboration et de communicati
                 <div class="card">
                     <div class="cardText">
                         <h3>Avant de commencer</h3>
-                        <p>[Configuration requise pour votre environnement](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)</p>
-                        <p>[Configuration réseau requise](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)</p>
-                        <p>[Clients et appareils](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)</p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Exigences relatives à votre environnement</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Conditions de réseau requises</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Clients et appareils</a></p>
                     </div>
                 </div>
             </div>
@@ -159,8 +159,8 @@ Skype pour les entreprises est une plateforme de collaboration et de communicati
                 <div class="card">
                     <div class="cardText">
                         <h3>Installer et gérer</h3>
-                        <p>[Installer Skype pour Business Server](/SkypeForBusiness/deploy/install/install)</p>
-                        <p>[Gérer les Skype pour Business Server](/SkypeForBusiness/manage/manage)</p>
+                        <p><a href="/SkypeForBusiness/deploy/install/install" data-raw-source="[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)">Installation de Skype Entreprise Server</a></p>
+                        <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">Gérer Skype Entreprise Server</a></p>
                      </div>
                 </div>
             </div>
@@ -172,8 +172,8 @@ Skype pour les entreprises est une plateforme de collaboration et de communicati
                 <div class="card">
                     <div class="cardText">
                         <h3>Voix Entreprise</h3>
-                        <p>[Planifier](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)</p>
-                        <p>[Déployer](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)</p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">Planifier</a></p>
+                        <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">Déployer</a></p>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@ Skype pour les entreprises est une plateforme de collaboration et de communicati
                     <div class="cardText">
                         <h3>Diffusion de réunion Skype</h3>
                         <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">Qu'est-ce que c'est ?</a></p>
-                        <p>[Configurer votre déploiement sur site de diffusion de réunion Skype](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)
+                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Configurer votre déploiement sur site de diffusion de réunion Skype</a>
                     </div>
                 </div>
             </div>
@@ -198,9 +198,9 @@ Skype pour les entreprises est une plateforme de collaboration et de communicati
                 <div class="card">
                     <div class="cardText">
                         <h3>Solutions hybrides</h3>
-                        <p>[Planification de la connectivité hybride](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)</p>
-                        <p>[Planifier votre solution de système téléphonique (PBX nuage)](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)</p>
-                        <p>[Planifier le nuage connecteur Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)</p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planification de la connectivité hybride</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution" data-raw-source="[Plan your Phone System (Cloud PBX) solution ](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)">Planifier votre solution de système téléphonique (PBX nuage)</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition" data-raw-source="[Plan for Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)">Planifier le nuage connecteur Edition</a></p>
                </div>
                 </div>
             </div>
