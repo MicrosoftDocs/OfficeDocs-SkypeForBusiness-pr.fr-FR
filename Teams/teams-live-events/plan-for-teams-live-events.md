@@ -10,17 +10,17 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en temps réel dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06d433b75cd0f29f328d23cb6e110d4406123a74
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: 4ebee93a6a4e238e988e1e4ffcb796252d61eeb1
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354371"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405255"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en temps réel dans Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
-Lorsque vous planifiez les événements en direct équipes destiné à contenir des grandes réunions dans votre générer, il existe plusieurs facteurs que vous devez prendre en compte avant de commencer à définir ascendants. 
+Lorsque vous planifiez les événements en direct équipes destiné à contenir des grandes réunions dans votre organisation, il existe plusieurs facteurs que vous devez prendre en compte avant de commencer à définir ascendants. 
 
 ## <a name="who-can-create-and-schedule-live-events"></a>Qui peut créer et planifier les événements live ? 
 Les conditions préalables suivantes sont requises pour l’utilisateur planifier un événement live équipes.

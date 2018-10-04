@@ -11,16 +11,16 @@ localization_priority: Normal
 ms.collection: ''
 robots: noindex
 description: Vue d’ensemble de l’utilisation d’un standard automatique de nuage.
-ms.openlocfilehash: 4ff30137f81822fcf5146aedfe84f4234dc5a313
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 2094fb740d1a6ebd71dbb84a0abe67d7d5812f81
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25030846"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405143"
 ---
 # <a name="plan-cloud-auto-attendant"></a>Planifier le standard automatique de nuage
 
-Skype pour les implémentations de hybride Business Server 2019 utilisent la messagerie vocale dans le nuage uniquement et ne s’intègrent pas avec Exchange Online.
+Skype pour Business Server 2019 implémentations hybride utilisent des standards automatiques de nuage de la messagerie vocale dans le nuage uniquement et ne s’intègrent pas avec Exchange Online.
 
 À l’aide de Skype pour Business Server 2019 avec les [Standards automatiques de système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) n’est pas encore disponible.
 

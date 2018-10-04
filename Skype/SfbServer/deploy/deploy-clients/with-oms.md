@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article explique comment déployer la gestion des systèmes de salle Skype v2 périphériques d’une manière intégrée, de bout en bout à l’aide de Microsoft Operations Management Suite.
-ms.openlocfilehash: 5ef935f30bfdb5036c87fe24d9456af1b52925e5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6a521f572cc8dc0b55a358d8519109aa087fea35
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371379"
+ms.locfileid: "25405182"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Déploiement de la gestion de Skype Room Systems v2 avec OMS
 
@@ -170,7 +170,7 @@ Une fois que la collecte des données et des champs personnalisés sont mappées
 
 Vous pouvez importer un tableau de bord Suite de gestion des opérations et démarrer l’analyse de vos périphériques immédiatement. Procédez comme suit pour importer le tableau de bord :
 
-1.  Obtenez le fichier de tableau de bord [SkypeRoomSystems_v2.omsview](https://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview) .
+1.  Obtenez le fichier de tableau de bord [SkypeRoomSystems_v2.omsview](https://go.microsoft.com/fwlink/?linkid=835675) .
 2.  Connectez-vous au [portail Microsoft Operations Management Suite](https://aka.ms/omsportal).
 3.  Ouvrez le **Concepteur de vues**.
 4.  Sélectionnez **Importer**, puis sélectionnez le fichier **SkypeRoomSystems_v2.omsview** .
