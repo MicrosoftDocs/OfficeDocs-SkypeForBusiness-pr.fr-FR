@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: En savoir plus sur le déploiement d’un seul site PSTN dans le nuage connecteur Edition.
-ms.openlocfilehash: 5acd4dbb6a6d46e8d20bbec800bcce174ea87873
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 389829373d857d587a1fd904932f13a7a321deec
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885598"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375003"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Déployer un seul site dans Cloud Connector
  
@@ -54,21 +54,21 @@ Vous pouvez étendre un site existant de nuage connecteur pour prendre en charge
     
 2. N'exécutez l'applet de commande suivante que sur le serveur hôte nouvellement ajouté pour mettre les informations de topologie à jour dans votre configuration de client Office 365. Si vous souhaitez ajouter plusieurs appliances en même temps, exécutez l'applet de commande sur chaque serveur hôte nouvellement ajouté un par un :
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 3. Mettez la topologie à jour sur les appliances existantes en exécutant l'applet de commande suivante sur chaque serveur hôte. N'exécutez l'applet de commande que sur les appliances existantes.
     
-  ```
-  Publish-CcAppliance
-  ```
+   ```
+   Publish-CcAppliance
+   ```
 
 4. N'exécutez l'applet de commande suivante que sur les serveurs hôtes nouvellement ajoutés. N'exécutez pas cet applet de commande sur l'appliance existante. Si vous souhaitez ajouter plusieurs appliances en même temps, exécutez l'applet de commande sur chaque serveur hôte nouvellement ajouté un par un :
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 > [!NOTE]
 > Si l’annuaire de sites a été défini sur un chemin d’accès du dossier local, vous devez définir un partage de fichiers pour ce dossier et d’utiliser un chemin d’accès UNC de l’annuaire de sites sur le nouveau matériel. Vous pouvez laisser l’annuaire de sites appliance premier avec le chemin d’accès local ou modifier pour qu’il utilise le chemin d’accès UNC du partage dans le même dossier. Si l’emplacement de l’annuaire de sites partagés change, n’importe quel appliances précédemment installé doivent être désinstallés et puis réinstallé. > Important : Le mot de passe pour le compte CceService et le compte CABackupFile doit être identiques sur tous les appareils déployés dans le site, afin que les appareils puissent accéder le partage de répertoire du site et le fichier de sauvegarde chiffré autorité de certification dans l’annuaire de sites. 
@@ -79,14 +79,14 @@ Pour supprimer une appliance d'un site existant :
   
 1. N'exécutez l'applet de commande suivante que sur les serveurs hôtes à supprimer du site pour mettre les informations de topologie à jour dans votre configuration de client Office 365.
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 2. N'exécutez l'applet de commande suivante que sur les serveurs hôtes à partir desquels vous souhaitez supprimer tous les ordinateurs virtuels de l'appliance.
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 

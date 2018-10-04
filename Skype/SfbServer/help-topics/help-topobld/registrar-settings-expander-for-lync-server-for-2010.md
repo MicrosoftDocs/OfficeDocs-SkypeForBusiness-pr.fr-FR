@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 'Modifier les paramètres de résilience et de configurer les propriétés suivantes :'
-ms.openlocfilehash: 64e65fc7123132813ddc51b86301ae3d9c89e22a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5d6fffdadeb96ed72caf9478cbcaefe754d8e24c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007032"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374054"
 ---
 # <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Expanseur des paramètres du serveur d’inscriptions pour Lync Server 2010
  
@@ -32,10 +32,10 @@ Modifier les paramètres de **résilience** et de configurer les propriétés su
     > [!CAUTION]
     > Le nombre de secondes que vous définissez pour les intervalles de basculement et de restauration doit être testé avec soin pour vous assurer que la résilience fonctionne comme prévu. Définir l’intervalle à faible (autrement dit, moins de 120 secondes) ou le basculement et la restauration définir trop près peuvent entraîner le basculement réel et la restauration automatique ne fonctionne ne pas comme prévu. 
   
- **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
+  **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
   
- **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
+  **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
   
- **Aide** : permet d’afficher cet écran d’aide.
+  **Aide** : permet d’afficher cet écran d’aide.
   
 

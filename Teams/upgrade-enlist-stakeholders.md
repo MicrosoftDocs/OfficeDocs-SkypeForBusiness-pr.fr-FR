@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89de20a88ab128dbef994150a9767ba45e4064a5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d2c47a0dec91605dea8ab9b92ffa529ed942ddcd
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013032"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375739"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur la collecte de votre équipe de parties prenantes du projet] (media/upgrade-banner-stakeholders.png "Étapes du voyage mise à niveau, en mettant l’accent sur la collecte de votre équipe de parties prenantes du projet")
 
@@ -34,12 +34,12 @@ Cet article fait partie de la phase de parties prenantes du projet de votre parc
 
 Si vous le souhaitez, vous pouvez créer un comité directeur. Projets volumineux parfois ou plus complexes vous retrouver avec « trop cuisiniers dans la cuisine », ce qui se déconnecte entre les groupes des parties prenantes. Pour ces projets, vous pouvez souhaiter un comité directeur de formulaire. Un comité de direction est responsable de décisions, supervision stratégique, prise en charge des initiatives du projet, et, lorsque cela est nécessaire, bloqueurs de suppression. Vous trouverez plus d’informations sur l’implémentation d’un comité dans le [guide du comité directeur](https://aka.ms/SteeringCommittee).
 
-|    |     |
-|-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quels sont les personnes appropriées en guise de votre équipe des parties prenantes de ce projet ?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Prendre en compte l’étendue de votre projet et affecter les parties concernées.</li><li>Utilisez le tableau suivant en règle générale, mais notez que cette liste n’est pas exhaustive.<br>**Info-bulle**<br>Créer un responsable relèvent-consulté-informée [matrice (RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) pour mieux distinguer ceux qui sont jugés de ceux qui souhaitent être informés dans une zone particulière du projet.</li>
-<li>Décider s’il faut créer un comité et assigner des rôles comme il convient.</li></ul>|
 
+|                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                 ![](media/audio_conferencing_image7.png) <br/>Points de décision                 |                                                                                                                                                                                                 <ul><li>Quels sont les personnes appropriées en guise de votre équipe des parties prenantes de ce projet ?</li></ul>                                                                                                                                                                                                 |
+|                    ![](media/audio_conferencing_image9.png)<br/>Étapes suivantes                    | <ul><li>Prendre en compte l’étendue de votre projet et affecter les parties concernées.</li><li>Utilisez le tableau suivant en règle générale, mais notez que cette liste n’est pas exhaustive.<br><strong>Info-bulle</strong><br>Créer un responsable relèvent-consulté-informée [matrice (RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) pour mieux distinguer ceux qui sont jugés de ceux qui souhaitent être informés dans une zone particulière du projet.</li> |
+| <li>Décider s’il faut créer un comité et assigner des rôles comme il convient.</li></ul> |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
 | Rôles                           | Responsabilité                                                                  |
 |---------------------------------|---------------------------------------------------------------------------------|

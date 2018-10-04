@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 'Résumé : Apprenez à définir, créer et modifier une règle de normalisation dans Skype pour Business Server.'
-ms.openlocfilehash: ef796d1484ec3848d7c6488127009f97ccc565ee
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ff43185da86693c230b6b238222e0fcd922a411c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882154"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375286"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Créer ou modifier une règle de normalisation dans Skype pour les entreprises
 
@@ -46,9 +46,9 @@ Définir, créer et modifier des règles de normalisation dans Skype pour Busine
 
    - **Chiffres à ajouter** (Facultatif) Spécifier les chiffres à ajouter aux numéros composés souhaité le modèle doit suivre.
 
-    Les valeurs que vous entrez dans ces champs s’affichent dans **Modèle à suivre** et **Règle de conversion**. Par exemple, si vous laissez type7 vide, **les chiffres de début** dans le champ de **longueur** et sélectionnez **exactement**et spécifiez la valeur 0 dans les **chiffres à supprimer**, l’expression régulière qui en résulte dans le **modèle pour la correspondance** est :
+     Les valeurs que vous entrez dans ces champs s’affichent dans **Modèle à suivre** et **Règle de conversion**. Par exemple, si vous laissez type7 vide, **les chiffres de début** dans le champ de **longueur** et sélectionnez **exactement**et spécifiez la valeur 0 dans les **chiffres à supprimer**, l’expression régulière qui en résulte dans le **modèle pour la correspondance** est :
 
-    ^(\d{7})$
+     ^(\d{7})$
 
 6. Dans **Règle de conversion**, spécifiez comme suit le modèle du format des numéros de téléphone E.164 convertis :
 
@@ -56,7 +56,7 @@ Définir, créer et modifier des règles de normalisation dans Skype pour Busine
 
    - (Facultatif) Tapez une valeur dans le champ **chiffres à ajouter** pour spécifier les chiffres à être ajoutée au numéro traduit (par exemple, + 1425).
 
-    Par exemple, si le **modèle à faire correspondre** contient ^(\d{7})$ comme modèle pour les numéros composés et contient de la **règle de traduction** + 1425$ 1 comme modèle pour E.164 numéros de téléphone, la règle numéro 5550100 + 14255550100.
+     Par exemple, si le **modèle à faire correspondre** contient ^(\d{7})$ comme modèle pour les numéros composés et contient de la **règle de traduction** + 1425$ 1 comme modèle pour E.164 numéros de téléphone, la règle numéro 5550100 + 14255550100.
 
 7. (Facultatif) Si la règle de normalisation est convertie en un numéro de téléphone interne à votre entreprise, sélectionnez **Poste interne**.
 
@@ -92,7 +92,7 @@ Définir, créer et modifier des règles de normalisation dans Skype pour Busine
 
    - Dans **Règle de conversion**, précisez un modèle pour le format des numéros de téléphone E.164 convertis.
 
-    Par exemple, si vous entrez ^(\d{7})$ dans **ce modèle de correspondance** et + 1425$ 1 dans **règle de traduction**, la règle numéro 5550100 + 14255550100.
+     Par exemple, si vous entrez ^(\d{7})$ dans **ce modèle de correspondance** et + 1425$ 1 dans **règle de traduction**, la règle numéro 5550100 + 14255550100.
 
 7. (Facultatif) Si la règle de normalisation est convertie en un numéro de téléphone interne à votre entreprise, sélectionnez **Poste interne**.
 

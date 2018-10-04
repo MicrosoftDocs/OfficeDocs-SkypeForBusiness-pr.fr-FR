@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: Vous pouvez utiliser la section Catégorie de la page Conversation permanente pour configurer des catégories. Catégorie de salle de conversation permanente est une structure logique pour organiser des salles de conversation. Une catégorie définit un ensemble par défaut de listes de contrôle d’accès pour le contrôle des utilisateurs et des groupes d’utilisateurs autorisés à créer ou à rejoindre les salles de conversation. Vous pouvez utiliser des catégories pour appliquer des limites éthiques entre différentes sous-divisions au sein de leur organisation.
-ms.openlocfilehash: 0e9286d37b0f80ecd1c23a20ebd9852c8a0d712d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0b700118433431cece68098f04468ac1228fbc0a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011781"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374256"
 ---
 # <a name="persistent-chat-category"></a>Catégorie de conversation permanente
  
@@ -53,28 +53,28 @@ Dans la page **Catégorie**, vous pouvez effectuer les tâches suivantes :
     
 6. Dans **Nouvelle catégorie**, procédez comme suit :
     
-1. Dans **Nom**, spécifiez un nom pour la nouvelle catégorie de salle.
+7. Dans **Nom**, spécifiez un nom pour la nouvelle catégorie de salle.
     
-2. Dans **Description**, indiquez une description détaillée de la catégorie de salle (par exemple, « catégorie de salle pour Contoso »).
+8. Dans **Description**, indiquez une description détaillée de la catégorie de salle (par exemple, « catégorie de salle pour Contoso »).
     
-3. Pour contrôler si les invitations peuvent être activées pour les salles de conversation qui appartiennent à cette catégorie, activez ou désactivez la case à cocher **Activer les invitations** . Si sélectionné, les salles de cette catégorie peuvent ont des invitations on ou off ; Si désactivée, les salles de cette catégorie ne sont pas autorisés à avoir des invitations. Si une salle a invitations sur lorsqu’un nouveau membre est ajouté à un espace, il obtient une notification de la nouvelle salle de client de conversation permanente.
+9. Pour contrôler si les invitations peuvent être activées pour les salles de conversation qui appartiennent à cette catégorie, activez ou désactivez la case à cocher **Activer les invitations** . Si sélectionné, les salles de cette catégorie peuvent ont des invitations on ou off ; Si désactivée, les salles de cette catégorie ne sont pas autorisés à avoir des invitations. Si une salle a invitations sur lorsqu’un nouveau membre est ajouté à un espace, il obtient une notification de la nouvelle salle de client de conversation permanente.
     
-4. Pour contrôler les téléchargements de fichiers dans les salles de conversation appartenant à cette catégorie, activez ou désactivez la case à cocher **Activer le téléchargement de fichiers**. Si la case à cocher est activée, les salles de cette catégorie peuvent activer ou désactiver les téléchargements de fichiers. Si elle est désactivée, les salles de cette catégorie ne sont pas autorisées à activer les téléchargements de fichiers.
+10. Pour contrôler les téléchargements de fichiers dans les salles de conversation appartenant à cette catégorie, activez ou désactivez la case à cocher **Activer le téléchargement de fichiers**. Si la case à cocher est activée, les salles de cette catégorie peuvent activer ou désactiver les téléchargements de fichiers. Si elle est désactivée, les salles de cette catégorie ne sont pas autorisées à activer les téléchargements de fichiers.
     
-    > [!IMPORTANT]
-    > Ce paramètre est appliqué sur le serveur, car les applications personnalisées ou des clients de conversation de groupe précédents qui utilisent Office Communications Server 2007 R2 Group Chat Server ou Microsoft Lync Server 2010, conversation de groupe peuvent publier des fichiers dans une salle. Le client Lync 2013 ne dispose pas de fonctionnalité de téléchargement de fichier, si vous avez un déploiement de Lync 2013 pur ou le client Lync 2013, il n’est pas possible de publier des fichiers dans une salle de conversation Persistent Chat Server. 
+     > [!IMPORTANT]
+     > Ce paramètre est appliqué sur le serveur, car les applications personnalisées ou des clients de conversation de groupe précédents qui utilisent Office Communications Server 2007 R2 Group Chat Server ou Microsoft Lync Server 2010, conversation de groupe peuvent publier des fichiers dans une salle. Le client Lync 2013 ne dispose pas de fonctionnalité de téléchargement de fichier, si vous avez un déploiement de Lync 2013 pur ou le client Lync 2013, il n’est pas possible de publier des fichiers dans une salle de conversation Persistent Chat Server. 
   
-5. Pour contrôler l’historique des conversations, activez ou désactivez la case à cocher **Activer l’historique des conversations** . Si sélectionné, conversations salle devient permanentes ; dans le cas contraire, les messages de conversation ne sont pas conservées. Si la conformité est activée, conversations salle seront enregistrées dans la conformité, mais les utilisateurs ne pourront pas accéder aux anciens messages. Cette option peut être utilisée pour les salles désignés pour la collaboration en temps réel, ad hoc qui n’ont pas besoin de l’historique des conversations d’être conservée.
+11. Pour contrôler l’historique des conversations, activez ou désactivez la case à cocher **Activer l’historique des conversations** . Si sélectionné, conversations salle devient permanentes ; dans le cas contraire, les messages de conversation ne sont pas conservées. Si la conformité est activée, conversations salle seront enregistrées dans la conformité, mais les utilisateurs ne pourront pas accéder aux anciens messages. Cette option peut être utilisée pour les salles désignés pour la collaboration en temps réel, ad hoc qui n’ont pas besoin de l’historique des conversations d’être conservée.
     
-7. Dans **Modifier la catégorie**, procédez comme suit :
+12. Dans **Modifier la catégorie**, procédez comme suit :
     
-  - Dans **l’appartenance**, dans la section **membres autorisés** , ajouter ou supprimer des utilisateurs et autres entités de Services de domaine Active Directory (utilisateurs, groupes de distribution, unités d’organisation et ainsi de suite) sont autorisées à ajouter en tant que membres des salles de conversation appartenant à la catégorie. Les principaux autorisés par une catégorie peuvent rechercher les salles dans la catégorie (sauf si la salle est masquée ; dans ce cas, seuls les membres de la salle peuvent la rechercher dans l’annuaire).
+    - Dans **l’appartenance**, dans la section **membres autorisés** , ajouter ou supprimer des utilisateurs et autres entités de Services de domaine Active Directory (utilisateurs, groupes de distribution, unités d’organisation et ainsi de suite) sont autorisées à ajouter en tant que membres des salles de conversation appartenant à la catégorie. Les principaux autorisés par une catégorie peuvent rechercher les salles dans la catégorie (sauf si la salle est masquée ; dans ce cas, seuls les membres de la salle peuvent la rechercher dans l’annuaire).
     
-  - Dans **l’appartenance**, dans la section **membres refusés** , ajouter ou supprimer des utilisateurs et autres principaux Active Directory associées aux membres refusées à partir de la salle.
+    - Dans **l’appartenance**, dans la section **membres refusés** , ajouter ou supprimer des utilisateurs et autres principaux Active Directory associées aux membres refusées à partir de la salle.
     
-  - Dans **l’appartenance**, dans la section **créateurs** , ajouter ou supprimer des utilisateurs et autres principaux Active Directory associé aux créateurs de la catégorie. Un créateur est un utilisateur qui dispose des autorisations nécessaires pour créer des salles de conversation et leur attribuer des gestionnaires et des membres.
+    - Dans **l’appartenance**, dans la section **créateurs** , ajouter ou supprimer des utilisateurs et autres principaux Active Directory associé aux créateurs de la catégorie. Un créateur est un utilisateur qui dispose des autorisations nécessaires pour créer des salles de conversation et leur attribuer des gestionnaires et des membres.
     
-8. Cliquez sur **Valider**.
+13. Cliquez sur **Valider**.
     
 ## <a name="see-also"></a>Voir aussi
 

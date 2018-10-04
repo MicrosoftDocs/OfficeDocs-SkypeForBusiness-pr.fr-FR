@@ -22,12 +22,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Apprenez à configurer votre domaine, les utilisateurs, messagerie instantanée et la présence de votre organisation pour installer Skype pour les entreprises. Voir aussi comment configurer les services d’audioconférence, système téléphonique et Plans de l’appel et diffusion Skype réunion. '
-ms.openlocfilehash: b4db326212b472539a483a406a7c940f0802978d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: af472553cea8a79f2fe9d918f7924f8884e834b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864488"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374474"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurer Skype Entreprise Online
 
@@ -54,7 +54,7 @@ Pour plus d’informations, voir [planifier votre installation d’Office 365 po
 
 Skype Entreprise Online fait partie de la suite de services Office 365. Pour configurer Skype Entreprise Online, vous devez vous connecter à Office 365. Voici comment procéder :
 
-1. Recherchez votre ID d'utilisateur Office 365 (par exemple,  *rob@fourthcoffee.com*  ). Vous avez reçu un courrier électronique de l'équipe Microsoft Online Services qui contient l'identifiant utilisateur Office 365 que vous avez créé lorsque vous avez acheté Skype Entreprise Online. Le courrier ressemble à ceci :
+1. Recherchez votre ID d'utilisateur Office 365 (par exemple,  <em>rob@fourthcoffee.com</em>  ). Vous avez reçu un courrier électronique de l'équipe Microsoft Online Services qui contient l'identifiant utilisateur Office 365 que vous avez créé lorsque vous avez acheté Skype Entreprise Online. Le courrier ressemble à ceci :
 
     ![Exemple de courrier électronique de bienvenue que vous recevez après vous être inscrit à Skype Entreprise Online. Il contient votre identifiant utilisateur Office 365.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
@@ -80,11 +80,11 @@ La messagerie instantanée (MI) et la présence ([Contrôle de l'accès à vos i
 
 1. **Choisissez avec qui vos utilisateurs de Skype Entreprise peuvent également communiquer :**
 
-  - [Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise](allow-users-to-contact-external-skype-for-business-users.md) Vous *et*  les utilisateurs de l'autre entreprise devrez configurer vos systèmes.
+   - [Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise](allow-users-to-contact-external-skype-for-business-users.md) Vous *et*  les utilisateurs de l'autre entreprise devrez configurer vos systèmes.
 
-    **IMPORTANT**: Si votre organisation dispose de deux domaines, par exemple rob@contosowest.com et ina@contosoeast.com, cette étape est requise pour permettre à tous les utilisateurs de communiquer entre eux.
+     **IMPORTANT**: Si votre organisation dispose de deux domaines, par exemple rob@contosowest.com et ina@contosoeast.com, cette étape est requise pour permettre à tous les utilisateurs de communiquer entre eux.
 
-  - [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md) en dehors de votre entreprise
+   - [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md) en dehors de votre entreprise
 
 2. **Sélectionnez les utilisateurs qui voient si vos collègues sont en ligne :** la fonctionnalité de présence indique qui est en ligne et sa disponibilité, à savoir Disponible, Occupé(e), Absent(e) ou En présentation.
 
@@ -92,9 +92,9 @@ La messagerie instantanée (MI) et la présence ([Contrôle de l'accès à vos i
 
     Vous pouvez choisir les paramètres par défaut de toutes les personnes de votre entreprise :
 
-  - Afficher automatiquement la présence en ligne d'une personne pour tout le monde au sein de l'organisation
+   - Afficher automatiquement la présence en ligne d'une personne pour tout le monde au sein de l'organisation
 
-  - Afficher la présence en ligne d'une personne uniquement à ses contacts
+   - Afficher la présence en ligne d'une personne uniquement à ses contacts
 
 Pour obtenir des instructions, consultez [Configuration de la présence dans Skype Entreprise Online](configure-presence-in-skype-for-business-online.md).
 

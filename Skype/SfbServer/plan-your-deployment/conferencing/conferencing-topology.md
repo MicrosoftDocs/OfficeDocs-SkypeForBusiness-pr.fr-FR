@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la planification de votre topologie de conférence dans Skype pour Business Server.'
-ms.openlocfilehash: 3110588585291ccfb55b45750d336863fea7329b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d8e3d771eadfe47ee1d7ec15eb68051b717643bf
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006124"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375956"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planifier votre topologie de conférence Skype pour Business Server
  
@@ -48,9 +48,9 @@ Vous pouvez déployer des conférences dans les topologies et les configurations
 
 Si vous déployez une conférence rendez-vous, vous devez prendre en compte les éléments suivants :
   
--  Conférence rendez-vous nécessite un serveur de médiation traduisent la signalisation (et les médias dans certaines configurations) entre Skype pour Business Server et la passerelle PSTN et une passerelle PSTN pour traduire la signalisation et les médias entre le serveur de médiation et la passerelle PSTN .
+- Conférence rendez-vous nécessite un serveur de médiation traduisent la signalisation (et les médias dans certaines configurations) entre Skype pour Business Server et la passerelle PSTN et une passerelle PSTN pour traduire la signalisation et les médias entre le serveur de médiation et la passerelle PSTN .
     
-    Avant de pouvoir configurer la conférence rendez-vous, vous devez déployer Voix Entreprise ou un serveur de médiation et au moins l’une des ressources suivantes :
+   Avant de pouvoir configurer la conférence rendez-vous, vous devez déployer Voix Entreprise ou un serveur de médiation et au moins l’une des ressources suivantes :
     
   - Passerelle RTC
     

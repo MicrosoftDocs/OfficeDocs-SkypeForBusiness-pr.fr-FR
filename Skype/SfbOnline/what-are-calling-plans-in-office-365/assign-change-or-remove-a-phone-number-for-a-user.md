@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Découvrez comment attribuer, modifier ou supprimer le numéro de téléphone professionnel de vos utilisateurs Skype Entreprise pour que les entreprises et les clients extérieurs puissent appeler.
-ms.openlocfilehash: 57ffe302c784ff441d124017035c8031c1c737c1
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 40c067657132781d29b8f20a3738d6d28ce36331
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347025"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374657"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affecter, modifier ou supprimer un numéro de téléphone d’un utilisateur
 
@@ -50,7 +50,7 @@ Lorsque vous configurez les utilisateurs afin qu’ils peuvent émettre et recev
 Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coût, consultez la rubrique [Licences de modules complémentaires pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> Pour savoir si un utilisateur possède une licence est en accédant à **Skype pour le centre d’administration Business** > **vocale** > **utilisateurs Enterprise Voice** et en sélectionnant l’utilisateur. Si une licence est attribuée, il est indiqué sous **licence affecté**. Vous pouvez également utiliser le centre d’administration Office 365. 
+> One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
   
  ## <a name="assign-a-phone-number-to-a-user"></a>Attribution d'un numéro de téléphone à un utilisateur
  
@@ -62,7 +62,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
     
 3. Dans la navigation de gauche, cliquez sur **voix** > **utilisateurs Enterprise Voice**.
    > [!NOTE]
- Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
+   > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
  
    
     
@@ -80,7 +80,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
 8. Après avoir choisi le numéro de téléphone et l'adresse de secours, cliquez sur **Enregistrer**.
     
     > [!NOTE]
-    > En raison de la latence entre Office 365 et Skype pour Business Online, il peut éventuellement prendre jusqu'à 24 heures pour les utilisateurs à activer. Si après 24 heures, si le numéro de téléphone n’est pas correctement affecté, veuillez [contacter le support technique pour les produits métiers : aide d’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Nous sommes là pour vous aider ! 
+    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
 
 

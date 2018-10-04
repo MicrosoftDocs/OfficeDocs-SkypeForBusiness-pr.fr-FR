@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après la migration vers Microsoft Skype pour Business Server 2019, vous devez effectuer certaines tâches pour configurer Skype pour Business Server 2019 travailler avec System Center Operations Manager.
-ms.openlocfilehash: c0d15d14e158c33cda5e623ea978a0bc4f0bb920
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c54038bc89c62a9911e684e451a66f4f12a23124
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028935"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373741"
 ---
 # <a name="configure-scom-monitoring"></a>Configurer la surveillance SCOM
 
@@ -39,13 +39,13 @@ Instructions pour la réalisation de chacune de ces tâches sont fournies ci-des
     
 2. Dans la ligne de commande, tapez ce qui suit :
     
-  ```
-  New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-  ```
+   ```
+   New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+   ```
 
-  ```
-  New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
-  ```
+   ```
+   New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+   ```
 
     > [!NOTE]
     > Lorsque vous modifiez le Registre, vous pouvez rencontrer une erreur Échec de la commande si la clé de Registre existe déjà. Si vous rencontrez cette option, vous pouvez ignorer l’erreur. 

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Vous modifiez les propriétés du pool frontal ou serveur frontal en modification ou en configurant les attributs suivants. La page de configuration est divisée en les sections suivantes :'
-ms.openlocfilehash: 85aa22c5a2cb7820ff1828c850f0440653f5b9f5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3af82a83afe27ce06a3c41f881154c2850cad521
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256314"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374201"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres du plan généraux pour Lync Server 2010
 
@@ -54,13 +54,13 @@ Vous modifiez les propriétés du pool frontal ou serveur frontal en modificatio
 
 - Sélectionnez le **associer un Pool de serveurs Edge (pour les composants multimédias** la case à cocher pour activer un serveur de périphérie pour ce pool frontal ou serveur frontal. Après avoir sélectionné la case à cocher, vous sélectionnez un serveur de transport Edge existant ou un pool dans la liste ou cliquez sur **Nouveau** pour créer les définitions pour un serveur Edge ou un pool.
 
- **Résilience**
+  **Résilience**
 
 - Sélectionnez la case à cocher de **pool de serveurs d’inscriptions de sauvegarde associé** à sélectionner dans la liste d’un pool frontal ou serveur frontal qui sera le serveur d’inscriptions de sauvegarde (autrement dit, le pool frontal ou serveur frontal désigné comme un serveur d’inscriptions secondaire dans le cas où le serveur principal Échec)
 
 - Si vous sélectionné du pool de serveurs d’inscriptions de sauvegarde associé et que vous avez choisi un serveur d’inscriptions de sauvegarde, vous pouvez sélectionner la case à cocher pour **le basculement automatique et la restauration automatique pour la voix**. Vous pouvez maintenant définir des propriétés numériques pour **Voice basculement détection interne (s)** et un **intervalle de la restauration automatique voix (s)**. Pour plus d’informations, voir [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
 
- **Services Web**
+  **Services Web**
 
 - Pour configurer les **services web internes**, vous définissez les **ports d’écoute** pour **HTTP** et **HTTPS**. Par défaut, voici le port TCP 80 et le port TCP 443, respectivement. Vous configurez également les **ports publiés** pour **HTTP** et **HTTPS**. Par défaut, voici le port TCP 80 et le port TCP 443, respectivement. Selon votre configuration des services web internes et utiliser des équilibreurs de charge (équilibreurs de charge matérielle et l’équilibrage de charge DNS), ajustez les valeurs de port pour définir l’écoute et les ports publiés.
 
@@ -72,7 +72,7 @@ Vous modifiez les propriétés du pool frontal ou serveur frontal en modificatio
     > [!IMPORTANT]
     > Services web externes et écoute défini les ports publiés sont pour les clients externes et les appareils. Périphériques clients externes utilisent les services web externes à l’écoute et publiées ports, généralement définies par le proxy inverse, ainsi que le nom de domaine complet de services web externes définie (FQDN). La relation entre les nom de domaine complet des services web externes et les URL simples définissent les adresses Web (URL) uniform resource identifier que les clients externes utilisera pour accéder aux services disponibles pour les utilisateurs externes et des périphériques. Pour plus d’informations sur les URL simples, voir [planification des URL simples](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
 
- **Serveur de médiation**
+  **Serveur de médiation**
 
 - Pour configurer les propriétés du **Serveur de médiation** pour un serveur de médiation colocalisé (c'est-à-dire, un serveur de médiation déployés sur le pool frontal ou serveur frontal), sélectionnez le **serveur de médiation colocalisés**.
 

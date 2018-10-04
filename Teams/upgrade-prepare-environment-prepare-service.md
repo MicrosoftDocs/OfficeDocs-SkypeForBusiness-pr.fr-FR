@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b877ecac39c98d6dd77fc3617c2cf7bd4da332eb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7858737dc69f076ca059aca9de5437cb3cb88e52
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015228"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374595"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
@@ -60,8 +60,8 @@ Lorsque vous êtes embarquement utilisateurs sur site par site, que nous vous re
 >La plupart des paramètres de configuration sont communes entre les équipes et Skype pour Business Online. Vous utilisez le Microsoft Teams & Skype entreprise centre d’administration pour configurer ces paramètres.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Point de décision</td><td><ul><li>Qui sera responsable de la surveillance de l’exécution de l’intégration des listes de contrôle ?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Télécharger les listes de vérification embarquement.</li><li>Parcourez les éléments de liste de vérification embarquement détaillées conformément au plan de déploiement de votre organisation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Point de décision</td><td><ul><li>Qui sera responsable de la surveillance de l’exécution de l’intégration des listes de contrôle ?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Télécharger les listes de vérification embarquement.</li><li>Parcourez les éléments de liste de vérification embarquement détaillées conformément au plan de déploiement de votre organisation.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

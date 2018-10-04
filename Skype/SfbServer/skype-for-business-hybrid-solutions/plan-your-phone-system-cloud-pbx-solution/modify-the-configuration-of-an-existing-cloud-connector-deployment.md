@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Suivez les étapes décrites dans cette rubrique pour modifier la configuration d’un Skype existant pour le nuage connecteur Édition 1.4.1 ou déploiement ultérieur.
-ms.openlocfilehash: fe226e67f6f492e0fae7473156908cd4a5147ea2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: be3c7cbbc1395000dbb84bab0c9be0a866fb4403
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885802"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375371"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modifier la configuration d'un déploiement Cloud Connector existant
  
@@ -31,75 +31,75 @@ Si le site ne comporte qu'une seule appliance, lorsque vous souhaitez modifier l
   
 1. Exécutez l'applet de commande suivante pour désinstaller tous les ordinateurs virtuels existants sur le serveur hôte : 
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. Exécutez l’applet de commande suivante pour annuler l’inscription de l'appliance :
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. Mettez le fichier CloudConnector.ini à jour dans l'annuaire d'appliances.
     
 4. Exécutez la cmdlet suivante pour mettre à jour la configuration : (cette étape n’est applicable que pour la version 2 ; pour les versions antérieures, passez à l’étape suivante).
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. Exécutez l’applet de commande suivante pour inscrire de nouveau l'appliance :
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. Exécutez l’applet de commande suivante pour installer Skype Entreprise, version Cloud Connector :
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 Si le site comporte plusieurs appliances, vous devez suivre ces étapes, modifier le fichier CloudConnector.ini et redéployer les appliances une par une.
   
 1. Exécutez l’applet de commande suivante pour désinstaller tous les ordinateurs virtuels existants dans l’application en cours : 
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. Exécutez l’applet de commande suivante pour annuler l’inscription de l'appliance :
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. Mettez le fichier CloudConnector.ini à jour dans l'annuaire d'appliances.
     
 4. Exécutez la cmdlet suivante pour mettre à jour la configuration : (cette étape n’est applicable que pour la version 2 ; pour les versions antérieures, passez à l’étape suivante).
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. Exécutez l’applet de commande suivante pour inscrire de nouveau l'appliance :
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. Exécutez l’applet de commande suivante sur toutes les autres appliances du site pour récupérer la dernière configuration :
     
-  ```
-  Publish-CcAppliance
-  ```
+   ```
+   Publish-CcAppliance
+   ```
 
 7. Exécutez l’applet de commande suivante pour redéployer nuage connecteur sur le matériel en cours :
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## <a name="modify-the-configuration-of-multiple-sites"></a>Modifier la configuration de plusieurs sites
 <a name="BKMK_MultipleSites"> </a>
@@ -115,45 +115,45 @@ Si vous avez désactivé les mises à jour automatiques du système d’exploita
   
 1. La propriété EnableAutoUpdate du site doit être définie sur true (valeur par défaut). Exécutez l’applet de commande suivante pour vous assurer que EnableAutoUpdate est définie sur True :
     
-  ```
-  Get-CsHybridPSTNSite -Identity <SiteName>
-  ```
+   ```
+   Get-CsHybridPSTNSite -Identity <SiteName>
+   ```
 
 2. Créez une fenêtre temporelle de mise à jour automatique pour le client.
     
     Cette fenêtre temporelle peut être quotidienne, hebdomadaire et mensuelle. Toutes les fenêtres temporelles doivent comporter une heure de début et une durée.
     
-  - Pour une fenêtre temporelle quotidienne, seules l'heure de début et la durée sont nécessaires. 
+   - Pour une fenêtre temporelle quotidienne, seules l'heure de début et la durée sont nécessaires. 
     
-  - Pour une fenêtre temporelle hebdomadaire, les jours de la semaine sont nécessaires, et il peut d'agir d'un seul jour ou de plusieurs jours.
+   - Pour une fenêtre temporelle hebdomadaire, les jours de la semaine sont nécessaires, et il peut d'agir d'un seul jour ou de plusieurs jours.
     
-  - Les fenêtres temporelles mensuelles peuvent être de deux types. Le premier consiste à spécifier le jour du mois, et il peut s'agir d'un seul jour. Le second consiste à spécifier les semaines du mois, ainsi que les jours de la semaine, et il peut s'agir d'une seule semaine ou d'un seul jour ou de plusieurs.
+   - Les fenêtres temporelles mensuelles peuvent être de deux types. Le premier consiste à spécifier le jour du mois, et il peut s'agir d'un seul jour. Le second consiste à spécifier les semaines du mois, ainsi que les jours de la semaine, et il peut s'agir d'une seule semaine ou d'un seul jour ou de plusieurs.
     
-  - Chaque client peut disposer de 20 fenêtres temporelles définies. La fenêtre temporelle par défaut est créée pour un nouveau client comme fenêtre temporelle par défaut pour la mise à jour du système d’exploitation et de Bits. Exécutez l’applet ou les applets de commande suivantes pour définir une fenêtre temporelle quotidienne, hebdomadaire ou mensuelle :
+   - Chaque client peut disposer de 20 fenêtres temporelles définies. La fenêtre temporelle par défaut est créée pour un nouveau client comme fenêtre temporelle par défaut pour la mise à jour du système d’exploitation et de Bits. Exécutez l’applet ou les applets de commande suivantes pour définir une fenêtre temporelle quotidienne, hebdomadaire ou mensuelle :
     
-  ```
-  New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
+   ```
 
-  - Affecter des périodes de mise à jour sur le site. 
+   - Affecter des périodes de mise à jour sur le site. 
     
-    Les fenêtres temporelles de mises à jour d'OS et de Bits sont configurées séparément. OS et Bits peuvent recevoir une seule fenêtre temporelle ou plusieurs. Chaque fenêtre temporelle peut être affectée à différents sites et pour différents objectifs (mise à jour de Bits et d'OS). Exécutez l’applet de commande suivante pour définir la fenêtre de temps pour le site : 
+     Les fenêtres temporelles de mises à jour d'OS et de Bits sont configurées séparément. OS et Bits peuvent recevoir une seule fenêtre temporelle ou plusieurs. Chaque fenêtre temporelle peut être affectée à différents sites et pour différents objectifs (mise à jour de Bits et d'OS). Exécutez l’applet de commande suivante pour définir la fenêtre de temps pour le site : 
     
-  ```
-  Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
-  ```
+   ```
+   Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
+   ```
 
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Mettre à jour les informations d'identification d'administrateur client dédié 
 <a name="BKMK_MultipleSites"> </a>
@@ -178,11 +178,11 @@ Pour mettre à jour les informations d’identification stockées localement sur
   
 1. Exécutez les commandes suivantes pour récupérer les mots de passe dont vous aurez besoin plus tard :  
     
-  - Get-CcCredential - AccountType DomainAdmin - DisplayPassword
+   - Get-CcCredential - AccountType DomainAdmin - DisplayPassword
     
-  - Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   - Get-CcCredential -AccountType VMAdmin -DisplayPassword
     
-  - Get-CcCredential - AccountType CceService - DisplayPassword
+   - Get-CcCredential - AccountType CceService - DisplayPassword
     
 2. Modifiez le mot de passe de votre compte sur le serveur hôte.
     
@@ -226,17 +226,17 @@ Pour chaque application qui appartient au même site PSTN, vous devez spécifier
   
 1. Exécutez les commandes suivantes pour récupérer les noms de compte et les mots de passe que vous utiliserez plus tard :
     
-  ```
-  Get-CcCredential -AccountType TenantAdmin -DisplayPassword
-Get-CcCredential -AccountType TenantAdmin
-Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
-Get-CcCredential -AccountType OMSWorkspace 
-Get-CcCredential -AccountType ExternalCert -DisplayPassword
-Get-CcCredential -AccountType CABackupFile -DisplayPassword
-Get-CcCredential -AccountType CceService -DisplayPassword
-Get-CcCredential -AccountType VMAdmin -DisplayPassword
-Get-CcCredential -AccountType DomainAdmin -DisplayPassword
-  ```
+   ```
+   Get-CcCredential -AccountType TenantAdmin -DisplayPassword
+   Get-CcCredential -AccountType TenantAdmin
+   Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
+   Get-CcCredential -AccountType OMSWorkspace 
+   Get-CcCredential -AccountType ExternalCert -DisplayPassword
+   Get-CcCredential -AccountType CABackupFile -DisplayPassword
+   Get-CcCredential -AccountType CceService -DisplayPassword
+   Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   Get-CcCredential -AccountType DomainAdmin -DisplayPassword
+   ```
 
 2. Exécutez l’applet de commande entrée-CcUpdate pour décharger le matériel et la déplacer en mode maintenance manuelle.
     
@@ -250,29 +250,29 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 6. Par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe que CceService. Si les mots de passe DomainAdmin, VMAdmin et CceService renvoyés à l'étape 1 sont différents, suivez les étapes suivantes :
     
-1. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
+7. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
     
-  - Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService.
+   - Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService.
     
-  - Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin renvoyé à l'étape 1.
+   - Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin renvoyé à l'étape 1.
     
-2. Exécutez Set-CcCredential -AccountType VmAdmin comme suit :
+8. Exécutez Set-CcCredential -AccountType VmAdmin comme suit :
     
-  - Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService.
+   - Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService.
     
-  - Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe VmAdmin renvoyé à l'étape 1.  
+   - Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe VmAdmin renvoyé à l'étape 1.  
     
-7. Exécutez l’applet de commande Exit-CcUpdate pour déplacer le matériel en mode maintenance manuelle.
+9. Exécutez l’applet de commande Exit-CcUpdate pour déplacer le matériel en mode maintenance manuelle.
     
-8. Après avoir terminé ces étapes sur tous les appareils dans le même site PSTN, supprimez les fichiers suivants dans le répertoire racine du site :
+10. Après avoir terminé ces étapes sur tous les appareils dans le même site PSTN, supprimez les fichiers suivants dans le répertoire racine du site :
     
-  - CcLockFile
+    - CcLockFile
     
-  - Site_\<nom complet du Pool de Sip externe Edge\>
+    - Site_\<nom complet du Pool de Sip externe Edge\>
     
-  - Tenant_\<nom complet du Pool de Sip externe Edge\>
+    - Tenant_\<nom complet du Pool de Sip externe Edge\>
     
-  - TenantConfigLock_\<nom complet du Pool de Sip externe Edge\>
+    - TenantConfigLock_\<nom complet du Pool de Sip externe Edge\>
     
 ## <a name="add-a-new-sip-domain"></a>Ajouter un nouveau domaine SIP 
 <a name="BKMK_UpdatePassword"> </a>
@@ -287,9 +287,9 @@ Pour ajouter un domaine SIP (ou plusieurs domaines SIP) à votre déploiement en
     
 4. Définissez le chemin d'accès pour le nouveau certificat Microsoft Edge externe comme suit :
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
@@ -308,17 +308,17 @@ Si vous devez modifier le domaine SIP principal de votre déploiement en nuage c
     
 4. Définissez le chemin d'accès pour le nouveau certificat Microsoft Edge externe comme suit :
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
     Supprimer l’inscription du client pour chaque application dans un site en exécutant l’applet de commande suivante dans l’administrateur PowerShell sur le nuage connecteur :
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 6. 
     
@@ -326,33 +326,33 @@ Si vous devez modifier le domaine SIP principal de votre déploiement en nuage c
 
 
     
-  ```
-  Remove-CsHybridPSTNSite
-  ```
+   ```
+   Remove-CsHybridPSTNSite
+   ```
 
 7. 
     
     Désinstaller chaque appliance en exécutant la cmdlet suivante dans administrateur PowerShell sur le nuage connecteur :
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 8. 
     
      Enregistrer chaque appliance en exécutant la cmdlet suivante dans administrateur PowerShell sur le nuage connecteur :
     
-  ```
-  Register-ccAppliance
-  ```
+   ```
+   Register-ccAppliance
+   ```
 
 9. 
     
      Installer chaque matériel, un par un, en exécutant la cmdlet suivante dans administrateur PowerShell sur le nuage connecteur :
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>Remplacer le certificat de serveur Edge externe avec un nouveau certificat
 <a name="BKMK_UpdatePassword"> </a>
@@ -363,9 +363,9 @@ Lorsque vous devez remplacer le certificat de serveur Edge externe sur vos appli
     
 2. Exécutez la commande suivante : 
     
-  ```
-  Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
+   ```
 
 3. 
     

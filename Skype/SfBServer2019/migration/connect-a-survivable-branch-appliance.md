@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Chaque serveur Survivable Branch Appliance (SBA) est associé à un pool frontal qui sert à un serveur d’inscriptions de sauvegarde pour le SBA. Lorsque le pool est migré vers Skype pour Business Server 2019, le SBA serveur frontal doit être dissocié du pool frontal alors que le pool est mis à niveau, une fois que le pool a été migré vers Skype pour Business Server 2019, le SBA peut être nouveau associé à la mise à niveau E avant pool ND. Cela consiste à supprimer le SBA à partir de la topologie héritée dans le Générateur de topologie et en ajoutant le SBA à la Skype pour Business Server 2019 topologie. Les utilisateurs hébergés sur hérité que SBA doit tout d’abord être déplacé vers un autre pool frontal avant de supprimer le SBA de la topologie. Une fois le SBA est ajouté à la Skype pour topologie Business Server 2019, ces utilisateurs peuvent ensuite revenir au SBA. Ces étapes sont résumées ci-dessous :'
-ms.openlocfilehash: 6de2b8c228ef9e65f57b70451ac33350a2d8a456
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff35032d9abc5c1435e44dea7aca83d841b404c6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030580"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373748"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Se connecter à un serveur Survivable Branch Appliance
 
@@ -58,8 +58,8 @@ Chaque serveur Survivable Branch Appliance (SBA) est associé à un pool frontal
     3. Cliquez sur **Survivable Branch Appliance**.
     
 9. Suivez les instructions de l’Assistant qui s’ouvre. Pour plus d’informations sur les éléments de l’Assistant, consultez    
-<!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
- <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
+   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
+   <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
     
     > [!NOTE]
     > Un Survivable Branch Appliance peut uniquement être associé à un magasin de surveillance. 

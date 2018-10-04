@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Résumé : préparez vos serveurs Skype Entreprise Server 2015 grâce à cette rubrique. Le matériel, le système d’exploitation, les bases de données, les logiciels, toute la configuration système requise et les recommandations se trouvent ici afin de vous permettre de réussir l’installation et le déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: 4e6bbe71a75097e9b1a3a34752d9d1cd46d59307
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.openlocfilehash: 5f64bbf4e455896de143991be455c3c122b4911c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040740"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374751"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Configuration serveur requise pour Skype Entreprise Server 2015
  
@@ -97,7 +97,7 @@ Skype pour Business Server 2015 Enterprise Edition est un peu plus complexe, mai
 Si vous ne voyez pas l’édition de SQL Server que vous souhaitez utiliser répertoriés ici, vous ne pouvez pas l’utiliser.
   
 > [!NOTE]
-> Vous aurez également besoin d’installer SQL Server Reporting Services pour le rôle serveur de surveillance, mais nous avons besoin de connaître que ce n’est pas sur le point d’être pris en charge avec SQL toujours sur jusqu'à post-RTM. 
+> Vous aurez également besoin installer SQL Server Reporting Services pour le rôle serveur de surveillance.
 
 ### <a name="microsoft-exchange-storage"></a>Stockage de Microsoft Exchange
 Les fichiers de contenu de réunion, par exemple, les présentations PowerPoint, sont archivés sous forme de pièces jointes. Si vous souhaitez stocker Skype pour archiver des données métiers avec des données de conformité Exchange, vous devez utiliser Exchange pour votre déploiement Exchange et assurez-vous que la taille maximale de stockage prend en charge le stockage des fichiers de contenu de la réunion. Vous devez déployer Exchange avant de déployer et d’activation de l’archivage à l’aide de l’option d’intégration de Microsoft Exchange. 

@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: Cet article vous guidera dans les étapes pour configurer un Skype existant pour l’installation de Business Server afin d’utiliser le service de mobilité, qui permet à vos appareils mobiles et être en mesure de tirer parti de Skype pour les fonctionnalités de mobilité Server.
-ms.openlocfilehash: c8d30f11fed3b6c45f06b7e21f0038bee0274df4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2afd462638eb6ed97f6efb694aa74994f2d59727
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003137"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375445"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Déployer et configurer la mobilité pour Skype pour Business Server  
  
@@ -34,7 +34,7 @@ Avoir examiné l’article [Plan pour la mobilité pour Skype pour Business Serv
 Toutes les sections suivantes comprennent des étapes qui impliquent que vous ayez parcouru la rubrique concernant la planification. En cas de doute, n'hésitez pas à consulter les informations fournies ici.
 
 > [!NOTE]
-> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.
+> Prise en charge MCX (Service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités MCX doivent mettre à niveau vers un client actuel.
   
 ## <a name="create-dns-records"></a>Créer des enregistrements DNS
 <a name="CreateDNSRec"> </a>
@@ -247,7 +247,7 @@ Si vous avez des questions sur la planification autour de certificats, nous avon
     
    - Si déjà affecté, le lyncdiscover. \<sipdomain\> et lyncdiscoverinternal. \<sipdomain\> enregistrements.
     
-    Vous devrez vérifier les différents certificats dans le cas où plusieurs certificats ont été affectés (consultez la remarque ci-dessus).
+     Vous devrez vérifier les différents certificats dans le cas où plusieurs certificats ont été affectés (consultez la remarque ci-dessus).
     
 8. Par conséquent, si vous recherchez lyncdiscover. \<sipdomain\> et lyncdiscoverinternal. \<sipdomain\> enregistrements, vous obtenez ce configuré déjà. Vous pouvez fermer la console MMC.
     
@@ -307,7 +307,7 @@ Deux points essentiels doivent être pris en compte :
     
    - Vous aurez besoin publier un chemin d’accès pour la **Publication interne**, puis entrez le nom de domaine complet pour les Services Web externes d’équilibrage de charge de votre pool frontal (ou nom de domaine complet de l’équilibrage de charge du pool directeur si vous en avez un), un exemple serait sfb_ pool01.contoso.local.
     
-   - Vous devez taper ** / ** comme le chemin d’accès à publier, mais vous devez également **transmettre l’en-tête d’hôte d’origine**.
+   - Vous devez taper ** / *** comme le chemin d’accès à publier, mais vous devez également **transmettre l’en-tête d’hôte d’origine**.
     
    - Une option vous permettra de sélectionner les informations du **nom public ou externe**. À cet endroit, vous pourrez saisir les informations suivantes :
     
@@ -315,7 +315,7 @@ Deux points essentiels doivent être pris en compte :
     
    - Pour le **Nom**, vous devez saisir **lyncdiscover.** <sipdomain>(c’est l’URL externe du Service de découverte automatique). Maintenant, si vous créez une règle pour l’URL des Services Web externes sur le pool frontal, vous devez taper le nom de domaine complet pour les Services Web externes sur votre pool frontal (par exemple, lyncwebextpool01.contoso.com).
     
-   - Il y aura une option de **chemin d’accès** , et vous devrez saisir ** / ** ici.
+   - Il y aura une option de **chemin d’accès** , et vous devrez saisir ** / *** ici.
     
    - Vous devrez sélectionner un **Écouteur SSL** avec votre certificat public à jour.
     
@@ -353,7 +353,7 @@ Deux points essentiels doivent être pris en compte :
     
    - Vous aurez besoin publier un chemin d’accès pour la **Publication interne**, puis entrez le nom de domaine complet de l' **adresse IP virtuelle** du programme d’équilibrage de charge de votre pool frontal, un exemple serait sfb_pool01.contoso.local.
     
-   - Vous devez taper ** / ** comme le chemin d’accès à publier, mais vous devez également **transmettre l’en-tête d’hôte d’origine**.
+   - Vous devez taper ** / *** comme le chemin d’accès à publier, mais vous devez également **transmettre l’en-tête d’hôte d’origine**.
     
    - Une option vous permettra de sélectionner les informations du **nom public ou externe**. À cet endroit, vous pourrez saisir les informations suivantes :
     
@@ -361,7 +361,7 @@ Deux points essentiels doivent être pris en compte :
     
    - Pour le **Nom**, vous devez saisir **lyncdiscover.** <sipdomain>(c’est l’URL externe du Service de découverte automatique).
     
-   - Il y aura une option de **chemin d’accès** , et vous devrez saisir ** / ** ici.
+   - Il y aura une option de **chemin d’accès** , et vous devrez saisir ** / *** ici.
     
    - Vous devez sélectionner un port d’écoute web, ou autoriser votre proxy inverse créer une pour vous.
     
@@ -390,15 +390,15 @@ Pour permettre aux clients mobiles de découvrir où est localisé un utilisateu
     
 2. Exécutez la procédure suivante pour obtenir la valeur de l’attribut **ProxyFQDN** pour votre Skype pour un environnement Business Server :
     
-  ```
-  Get-CsHostingProvider
-  ```
+   ```
+   Get-CsHostingProvider
+   ```
 
 3. Puis, toujours dans la fenêtre de shell, exécutez :
     
-  ```
-  Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
-  ```
+   ```
+   Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
+   ```
 
     Où [identity] est remplacé par le nom de domaine de l’espace d’adresses SIP partagé.
     
@@ -410,7 +410,7 @@ Une fois que vous avez déployé Skype pour Service de mobilité Business Server
 Pour les clients Lync Server 2010 sur Skype pour Business Server 2015, vous devrez exécuter **Test-CsMcxP2PIM** pour tester. Vos utilisateurs de Lync Server 2010 devra toujours être réels utilisateurs ou aux utilisateurs de test prédéfinies, et vous aurez besoin de leurs informations d’identification de mot de passe.
 
 > [!NOTE]
-> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.
+> Prise en charge MCX (Service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités MCX doivent mettre à niveau vers un client actuel.
   
 ### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>Conférence test pour clients mobiles Skype Entreprise et Lync 2013
 
@@ -437,7 +437,7 @@ Pour les clients Lync Server 2010 sur Skype pour Business Server 2015, vous devr
 ### <a name="test-conferencing-for-lync-2010-mobile-clients"></a>Conférence test pour clients mobiles Lync 2010
 
 > [!NOTE]
-> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.
+> Prise en charge MCX (Service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités MCX doivent mettre à niveau vers un client actuel.
 
 1. Ouvrez une session en tant que membre du rôle **CsAdministrator** sur n’importe quel ordinateur où **Skype pour Business Server Management Shell** et **Ocscore** sont installés.
     
@@ -451,13 +451,13 @@ Pour les clients Lync Server 2010 sur Skype pour Business Server 2015, vous devr
 
    Il est également possible de définir des informations d’identification dans un script et de les transmettre à l'applet de commande de test. Un exemple est fourni ci-dessous.
     
-  ```
-  $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
-  $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
-  $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
-  $tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
-  Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
-  ```
+   ```
+   $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
+   $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
+   $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
+   $tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
+   Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
+   ```
 
 Pour passer en revue les procédures de commande, vous pouvez extraire [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) et [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps).
   

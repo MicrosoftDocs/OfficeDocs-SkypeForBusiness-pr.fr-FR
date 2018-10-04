@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
 description: 'Résumé : Découvrez l’opération obtenir les paramètres utilisateur, qui fait partie du Service de paramètres utilisateur. Le Service de paramètres utilisateur fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 7342cce07a0ec327f4216a6ed690b1d753bf8cdc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 41bc45f63366337000ad8c263ff8e6dbcb36a3b3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569469"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375378"
 ---
 # <a name="get-user-settings"></a>Obtenir les paramètres utilisateur
  
@@ -35,19 +35,19 @@ Obtenir les paramètres utilisateur renvoie une liste des paramètres pour un ut
    
  **Paramètres de l’URI**
   
--  *efficace* : facultatif. Ce paramètre s’applique uniquement lorsque la valeur par défaut des ID utilisateur spécial est utilisé. Dans les autres cas, il sera ignoré. `True`Renvoie les paramètres utilisateur efficaces et `false` renvoie uniquement les paramètres utilisateur (par défaut).
+- *efficace* : facultatif. Ce paramètre s’applique uniquement lorsque la valeur par défaut des ID utilisateur spécial est utilisé. Dans les autres cas, il sera ignoré. `True`Renvoie les paramètres utilisateur efficaces et `false` renvoie uniquement les paramètres utilisateur (par défaut).
     
- **En-têtes de demande** - aucun en-tête supplémentaire.
+  **En-têtes de demande** - aucun en-tête supplémentaire.
   
- **Corps de requête** - None.
+  **Corps de requête** - None.
   
- **Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
+  **Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
   
- **Code d’état** - une opération réussie retourne un code d’état 200 (OK).
+  **Code d’état** - une opération réussie retourne un code d’état 200 (OK).
   
- **En-têtes de réponse** - aucun en-tête supplémentaire.
+  **En-têtes de réponse** - aucun en-tête supplémentaire.
   
- **Corps de réponse** - vous trouverez ci-dessous une charge utile d’exemple réponse au format JSON.
+  **Corps de réponse** - vous trouverez ci-dessous une charge utile d’exemple réponse au format JSON.
   
 ```
 [{

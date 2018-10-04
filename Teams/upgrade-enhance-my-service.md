@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b28d68b849b6b4eb621cdf702c7f13bdd7d68f78
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 56c33c6c4a31da1fbfffbb903c2200cf4afedf07
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017848"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375818"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -40,6 +40,6 @@ Lorsque vous ne voyez pas les opportunités pour améliorer votre service, prene
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Décidez qui surveillera parcours publics et autres annonces de service pour les nouvelles fonctionnalités ou des services qui peut-être bénéficier de votre organisation.</li><li>Déterminez la cadence dans lequel un compte-rendu les nouvelles fonctionnalités ou les services pour les principales parties prenantes, via votre comité directeur.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Implémenter une stratégie pour les mises à jour avec vos services pour tirer le meilleur parti de votre organisation.</li><li>Améliorations des services via un cycle de vie de projet complet pour vous assurer que vous avez correctement pris en compte l’impact sur le déploiement du lecteur.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décidez qui surveillera parcours publics et autres annonces de service pour les nouvelles fonctionnalités ou des services qui peut-être bénéficier de votre organisation.</li><li>Déterminez la cadence dans lequel un compte-rendu les nouvelles fonctionnalités ou les services pour les principales parties prenantes, via votre comité directeur.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Implémenter une stratégie pour les mises à jour avec vos services pour tirer le meilleur parti de votre organisation.</li><li>Améliorations des services via un cycle de vie de projet complet pour vous assurer que vous avez correctement pris en compte l’impact sur le déploiement du lecteur.</li></ul></td></tr>
 </table>

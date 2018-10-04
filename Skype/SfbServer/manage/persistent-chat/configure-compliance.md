@@ -10,92 +10,92 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Résumé : Découvrez comment configurer le service de conformité de serveur de conversation permanente dans Skype pour Business Server 2015.'
-ms.openlocfilehash: e41afe6b9d6d36a73d818af7fc297e7b20006dcf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8d6fff09a59870c8550627bcf4222192e405c871
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026615"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375928"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration du service de conformité du serveur de conversation permanente dans Skype Entreprise Server 2015
- 
+
 **Résumé :** Découvrez comment configurer le service de conformité de serveur de conversation permanente dans Skype pour Business Server 2015.
-  
+
 La conformité de conversation permanente permet aux administrateurs d’archiver les messages de conversation permanente, ainsi que les activités. Le service de conformité enregistre et archive les données relatives à chaque serveur de conversation permanente, y compris lorsqu’un participant :
-  
+
 - Rejoint une salle de conversation permanente
-    
+
 - Quitte une salle de conversation
-    
+
 - Publie un message
-    
+
 - Consulte l’historique d’une conversation
-    
+
 - Transfère un fichier
-    
+
 - Télécharge un fichier
-    
+
 Ces informations sont récupérables au besoin à partir de la base de données SQL de conformité. 
 
 > [!NOTE]
 > Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [parcours de Skype pour les entreprises aux équipes de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si vous devez utiliser la conversation permanente, vos choix est pour migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes, ou pour continuer à utiliser Skype pour Business Server 2015. 
-  
+
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configurez le service de conformité à l’aide de Windows PowerShell
 
 Une fois que le service de conformité a été activé à l’aide du générateur de topologie, vous pouvez configurer le service à l’aide de l’applet de commande **Set-CsPersistenChatComplianceConfiguration** :
-  
+
 ```
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
 ou
-  
+
 ```
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
 ```
 
 Vous pouvez définir les paramètres suivants :
-  
+
 - AdapterType : permet de définir le type d’adaptateur. Un adaptateur est un produit tiers qui convertit les données dans la base de données de conformité dans un format spécifique. XML est le format par défaut.
-    
+
 - OneChatRoomPerOutputFile - ce paramètre vous permet de spécifier que des rapports doivent être créés pour chaque salle de conversation.
-    
+
 - AddChatRoomDetails : lorsque ce paramètre est activé, des détails supplémentaires sont enregistrés sur chaque salle de conversation dans la base de données. Comme ce paramètre peut considérablement augmenter la taille de la base de données, il est désactivé par défaut.
-    
+
 - AddUserDetails : lorsque ce paramètre est activé, des détails supplémentaires sont enregistrés sur chaque salle de conversation dans la base de données. Comme ce paramètre peut considérablement augmenter la taille de la base de données, il est désactivé par défaut.
-    
+
 - Identity : ce paramètre permet d’étendre les paramètres de conformité à un ensemble particulier, y compris aux niveaux global, du site et du service. Il est défini sur le niveau global par défaut. 
-    
+
 - RunInterval : ce paramètre précise le délai avant que le serveur ne crée un nouveau fichier de sortie de conformité (le délai est défini sur 15 minutes par défaut).
-    
+
 ## <a name="use-a-customized-compliance-adapter"></a>Utilisez un adaptateur de conformité personnalisé
 
 Vous pouvez écrire un adaptateur personnalisé au lieu d’utiliser XmlAdapter qui est installé avec le serveur de conversation permanente. Pour ce faire, vous devez fournir un assembly .NET Framework contenant une classe publique qui implémente l’interface **IComplianceAdapter**. Vous devez placer cet assembly dans le dossier d’installation de serveur de conversation permanente de chaque serveur dans votre pool de serveurs de conversation permanente. Chacun des serveurs de conformité peut fournir des données de conformité à votre adaptateur, mais ils ne délivrent aucun duplicata des données de conformité à plusieurs instances de votre adaptateur.
-  
+
 L’interface est définie dans l’assembly Compliance.dll dans l’espace de noms `Microsoft.Rtc.Internal.Chat.Server.Compliance`. Elle définit deux méthodes que votre adaptateur personnalisé doit implémenter.
-  
+
 Le serveur de conformité de conversation permanente appelle la méthode suivante lors du premier charge de la carte. Le `AdapterConfig` contient la configuration de conformité de conversation permanente correspondant à la carte de conformité :
-  
+
 ```
 void SetConfig(AdapterConfig config)
 ```
 
 Le serveur de conformité de conversation permanente appelle la méthode suivante à intervalles réguliers tant que nouvelles données à traduire. Cet intervalle de temps est égal à la `RunInterval` tels que définis dans la configuration de conformité de conversation permanente :
-  
+
 ```
 void Translate(ConversationCollection conversations)
 ```
 
 Le `ConversationCollection` contient les informations de conversation qui ont été collectées à partir de la dernière fois que cette méthode a été appelée.
-  
+
 ## <a name="customize-the-xslt-definition-file"></a>Personnaliser le fichier de définition XSLT
 
 Les données de conformité sont fournies au format XML, que vous pouvez transformer dans le format le mieux adapté à votre organisation, à l’aide du fichier de définition XSLT. Cette rubrique décrit le fichier XML que le service de conformité crée. Elle fournit également des échantillons de fichiers de définition XSLT et de sortie.
-  
+
 ### <a name="output-format"></a>Format de sortie
 
 La sortie du service de conformité est classée par conversation (l’élément Conversation) puis par message (l’élément Messages), comme illustré dans l’exemple de code suivant :
-  
+
 ```
 <?xml version="1.0" encoding="utf-8" ?> 
 <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -112,7 +112,7 @@ La sortie du service de conformité est classée par conversation (l’élément
 ```
 
 Un élément Conversation contient quatre éléments (Channel, FirstMessage, StartTimeUTC et EndTimeUTC). L’élément Channel contient l’URI (Uniform Resource Identifier) de la salle de conversation et l’élément FirstMessage décrit le premier message de l’élément Messages. Les éléments StartTimeUTC et EndTimeUTC fournissent les heures de début et de fin pour la conversation, comme illustré dans l’exemple de code suivant :
-  
+
 ```
 <<FirstMessage type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -121,7 +121,7 @@ Un élément Conversation contient quatre éléments (Channel, FirstMessage, Sta
 ```
 
 Un élément Message contient deux éléments (Sender et DateTimeUTC) et trois attributs (Type, Content et ID). L’élément Sender représente l’utilisateur qui envoie le message, et l’élément DateTimeUTC le moment où se produit un événement, comme illustré dans l’exemple de code suivant :
-  
+
 ```
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -130,7 +130,7 @@ Un élément Message contient deux éléments (Sender et DateTimeUTC) et trois a
 ```
 
 Le tableau suivant décrit les attributs de message Type, Content, et ID.
-  
+
 **Attributs de l’élément Messages**
 
 |**Attribut**|**Description**|**Facultatif/obligatoire**|
@@ -138,9 +138,9 @@ Le tableau suivant décrit les attributs de message Type, Content, et ID.
 |Type  <br/> |Spécifie le type de message. Les types de message sont décrits dans la table Éléments de message Types de message.  <br/> |Obligatoire  <br/> |
 |Contenu  <br/> |Contient le contenu du message. Les messages de type Join ou Part n’utilisent pas cet attribut.  <br/> |Facultatif  <br/> |
 |ID  <br/> |Spécifie l’ID unique du contenu. Cet attribut est utilisé uniquement avec les messages de type Chat.  <br/> |Facultatif  <br/> |
-   
+
 Chaque élément Sender contient cinq attributs : username, ID, email, internal et URI. Ces attributs sont décrits dans la table suivante.
-  
+
 **Attributs de l’élément Sender**
 
 |**Attribut**|**Description**|**Facultatif/obligatoire**|
@@ -150,11 +150,11 @@ Chaque élément Sender contient cinq attributs : username, ID, email, internal
 |Email  <br/> |Adresse de messagerie de l’expéditeur.  <br/> |Facultatif  <br/> |
 |Interne  <br/> |Détermine si l’utilisateur est un utilisateur interne ou fédéré. Si la valeur est Vraie, l’utilisateur est interne.  <br/> |Facultatif  <br/> |
 |Uri  <br/> |URI SIP de l’utilisateur.  <br/> |Obligatoire  <br/> |
-   
+
 Les exemples suivants montrent les types de messages que l’élément Messages peut contenir. Elle fournit également des exemples de la manière avec laquelle chaque élément est utilisé.
-  
+
 Jointure - un utilisateur rejoint une salle de conversation.
-  
+
 ```
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -163,7 +163,7 @@ Jointure - un utilisateur rejoint une salle de conversation.
 ```
 
 Composant - un utilisateur quitte une salle de conversation.
-  
+
 ```
 <Message type="PART" content="" id="0">
   < Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -172,7 +172,7 @@ Composant - un utilisateur quitte une salle de conversation.
 ```
 
 Conversation - adresse de messagerie de l’expéditeur.
-  
+
 ```
 <Message type="CHAT" content="hello" id="1">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -181,7 +181,7 @@ Conversation - adresse de messagerie de l’expéditeur.
 ```
 
 Sauvegarde de conversation - un utilisateur demande du contenu à partir de l’historique des conversations.
-  
+
 ```
 <Message type="BACKCHAT" content="backchatcontent" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -190,7 +190,7 @@ Sauvegarde de conversation - un utilisateur demande du contenu à partir de l’
 ```
 
 Téléchargement de fichier - un utilisateur télécharge un fichier.
-  
+
 ```
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -199,7 +199,7 @@ Téléchargement de fichier - un utilisateur télécharge un fichier.
 ```
 
 Téléchargement de fichier - un utilisateur télécharge un fichier.
-  
+
 ```
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
   <Sender UserName="kazuto@litwareinc.com" id="10" email="" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -210,7 +210,7 @@ Téléchargement de fichier - un utilisateur télécharge un fichier.
 ### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Conversation permanente sortie XSD et exemple de transformation XSL par défaut
 
 L’exemple de code suivant contient la sortie par défaut du serveur de conformité :
-  
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="Conversations" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -224,7 +224,7 @@ L’exemple de code suivant contient la sortie par défaut du serveur de conform
         <xs:enumeration value="FILEDOWNLOAD"/>
       </xs:restriction>
     </xs:simpleType>
-  
+
   <xs:element name="Sender">
     <xs:complexType>
       <xs:attribute name="UserName" type="xs:string" />
@@ -309,7 +309,7 @@ L’exemple de code suivant contient la sortie par défaut du serveur de conform
 ```
 
 L’exemple de code suivant contient un exemple de transformation XSL :
-  
+
 ```
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
    <xsl:output method="xml" encoding="UTF-8" indent="yes" />
@@ -378,5 +378,4 @@ L’exemple de code suivant contient un exemple de transformation XSL :
       <DateTimeUTC><xsl:value-of select="DateTimeUTC/@since1970" /></DateTimeUTC>
    </xsl:template>
 </xsl:stylesheet>
-
 ```

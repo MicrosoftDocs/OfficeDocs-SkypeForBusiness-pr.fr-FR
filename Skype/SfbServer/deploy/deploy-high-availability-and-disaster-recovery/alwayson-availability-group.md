@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Déployer le déploiement (installation) un toujours sur groupe de disponibilité dans votre Skype pour Business Server.
-ms.openlocfilehash: 93d27fc86393a28f4c0e546d034cbf9819ecce87
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: eaf0c935f246cfdd00aa0707475442c88dc89b8a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026731"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374371"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Déployer un groupe de disponibilité toujours actif sur un serveur principal dans Skype pour Business Server
  
@@ -57,7 +57,7 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
     
    - Dans la zone**Résumé** , vérifiez les erreurs de rapports de l’Assistant. Cliquez sur **Terminer** pour terminer la validation.
     
-    L’Assistant signalera probablement plusieurs avertissements, notamment si vous n’utilisez pas le stockage partagé. Vous n’avez pas besoin d’utiliser le stockage partagé. Toutefois, si des messages **Erreur** s’affichent, vous devez corriger ces problèmes avant de poursuivre.
+     L’Assistant signalera probablement plusieurs avertissements, notamment si vous n’utilisez pas le stockage partagé. Vous n’avez pas besoin d’utiliser le stockage partagé. Toutefois, si des messages **Erreur** s’affichent, vous devez corriger ces problèmes avant de poursuivre.
     
 3. Créer un Cluster de basculement Windows Server (WSFC).
     
@@ -101,7 +101,7 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
     
    - Dans la page Sélectionner les bases de données, sélectionnez les bases de données que vous souhaitez inclure dans le groupe de disponibilité AlwaysOn. Then click **Next**.
     
-    N’incluez pas le **ReportServer**, **ReportServerTempDB**ou bases de données de conversation permanente dans le groupe de disponibilité AlwaysOn, comme ils ne sont pas pris en charge dans ce scénario. Vous pouvez inclure tous les autres Skype pour les bases de données Business Server dans le groupe de disponibilité AlwaysOn.
+     N’incluez pas le **ReportServer**, **ReportServerTempDB**ou bases de données de conversation permanente dans le groupe de disponibilité AlwaysOn, comme ils ne sont pas pris en charge dans ce scénario. Vous pouvez inclure tous les autres Skype pour les bases de données Business Server dans le groupe de disponibilité AlwaysOn.
     
    - Dans la page **Spécifier des réplicas**, cliquez sur l’onglet **Réplicas**. Cliquez ensuite sur le bouton **Ajouter des réplicas**, puis connectez-vous aux autres instances SQL que vous avez jointes comme nœuds du cluster de basculement Windows Server.
     
@@ -115,7 +115,7 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
     
    - Dans la page **Sélectionner la synchronisation de données initiale**, sélectionnez Complète et spécifiez un dossier accessible aux réplicas et que le compte de service SQL Server a utilisé et sur lequel il a des autorisations d’écriture. Ensuite, cliquez sur **Suivant**.
     
-    Ce partage de fichiers sera utilisé temporairement lorsque vous initialiserez les bases de données. Si vous devez gérer de grandes bases de données, nous vous recommandons de les initialiser manuellement au cas où votre bande passante réseau ne pourrait pas prendre en charge la taille des sauvegardes de bases de données.
+     Ce partage de fichiers sera utilisé temporairement lorsque vous initialiserez les bases de données. Si vous devez gérer de grandes bases de données, nous vous recommandons de les initialiser manuellement au cas où votre bande passante réseau ne pourrait pas prendre en charge la taille des sauvegardes de bases de données.
     
    - Dans la page Validation, vérifiez que toutes les vérifications de validation sont réussies, puis cliquez sur **Suivant**.
     
@@ -129,7 +129,7 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
     
    - Développez Skype Entreprise Server, développez votre topologie, puis développez **Magasins SQL Server**. Cliquez sur le magasin SQL du nouveau groupe de disponibilité AlwaysOn, puis cliquez sur **Modifier les propriétés**.
     
-    - En bas de la page, dans la zone **Nom de domaine complet de SQL Server** , modifiez la valeur pour le nom de domaine complet de l’écouteur de l’AG.
+     - En bas de la page, dans la zone **Nom de domaine complet de SQL Server** , modifiez la valeur pour le nom de domaine complet de l’écouteur de l’AG.
     
    - Publiez la topologie. Dans le menu **Action**, cliquez sur **Topologie**, puis sur **Publier**. Ensuite, dans la page de confirmation, cliquez sur **Suivant**. Attendez que la nouvelle topologie soit répliquée. L’opération peut prendre quelques minutes.
     
@@ -197,7 +197,7 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
     
    - Dans la zone**Résumé** , vérifiez les erreurs de rapports de l’Assistant. Cliquez sur **Terminer** pour terminer la validation.
     
-    L’Assistant signalera probablement plusieurs avertissements, notamment si vous n’utilisez pas le stockage partagé. Vous n’avez pas besoin d’utiliser le stockage partagé. Toutefois, si des messages **Erreur** s’affichent, vous devez corriger ces problèmes avant de poursuivre.
+     L’Assistant signalera probablement plusieurs avertissements, notamment si vous n’utilisez pas le stockage partagé. Vous n’avez pas besoin d’utiliser le stockage partagé. Toutefois, si des messages **Erreur** s’affichent, vous devez corriger ces problèmes avant de poursuivre.
     
 7. Créer un Cluster de basculement Windows Server.
     
@@ -249,7 +249,7 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
     
     - Cliquez sur l’onglet **Points de terminaison** et vérifiez que le **Numéro de port** est défini sur 5022.
     
-     - Cliquez sur l’onglet **Port d’écoute**, puis sélectionnez l’onglet **Créer un port de d’écoute de groupe de disponibilité**. Sous cette option, tapez un nom pour le port d’écouteur et définissez le **Port** sur 1433 (les autres ports ne sont pas pris en charge pour cette option).
+      - Cliquez sur l’onglet **Port d’écoute**, puis sélectionnez l’onglet **Créer un port de d’écoute de groupe de disponibilité**. Sous cette option, tapez un nom pour le port d’écouteur et définissez le **Port** sur 1433 (les autres ports ne sont pas pris en charge pour cette option).
     
     - Cliquez sur **Ajouter**, puis dans la zone **Adresse IPv4**, fournissez votre adresse IP virtuelle préférée, puis cliquez sur **OK**.
     
@@ -329,7 +329,7 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
     
    - Dans la zone**Résumé** , vérifiez les erreurs de rapports de l’Assistant. Cliquez sur **Terminer** pour terminer la validation.
     
-    L’Assistant signalera probablement plusieurs avertissements, notamment si vous n’utilisez pas le stockage partagé. Vous n’avez pas besoin d’utiliser le stockage partagé. Toutefois, si des messages **Erreur** s’affichent, vous devez corriger ces problèmes avant de poursuivre.
+     L’Assistant signalera probablement plusieurs avertissements, notamment si vous n’utilisez pas le stockage partagé. Vous n’avez pas besoin d’utiliser le stockage partagé. Toutefois, si des messages **Erreur** s’affichent, vous devez corriger ces problèmes avant de poursuivre.
     
 3. Créer un Cluster de basculement Windows Server (WSFC).
     
@@ -373,7 +373,7 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
     
    - Dans la page Sélectionner les bases de données, sélectionnez les bases de données que vous souhaitez inclure dans le AG. Then click **Next**.
     
-    N’incluez pas le **ReportServer**, **ReportServerTempDB**ou bases de données de conversation permanente du groupe AG, comme ils ne sont pas pris en charge dans ce scénario. Vous pouvez inclure tous les autres Skype pour les bases de données Business Server du groupe AG.
+     N’incluez pas le **ReportServer**, **ReportServerTempDB**ou bases de données de conversation permanente du groupe AG, comme ils ne sont pas pris en charge dans ce scénario. Vous pouvez inclure tous les autres Skype pour les bases de données Business Server du groupe AG.
     
    - Dans la page **Spécifier les réplicas** , cliquez sur l’onglet **réplicas** . Cliquez sur le bouton **Ajouter les réplicas** , puis se connecter à d’autres instances SQL que vous avez rejoint sous forme de nœuds de la WSFC.
     
@@ -387,9 +387,9 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
     
    - Dans la page **Sélectionner la synchronisation de données initiale**, sélectionnez Complète et spécifiez un dossier accessible aux réplicas et que le compte de service SQL Server a utilisé et sur lequel il a des autorisations d’écriture. Ensuite, cliquez sur **Suivant**.
     
-    Ce partage de fichiers sera utilisé temporairement lorsque vous initialiserez les bases de données. Si vous devez gérer de grandes bases de données, nous vous recommandons de les initialiser manuellement au cas où votre bande passante réseau ne pourrait pas prendre en charge la taille des sauvegardes de bases de données.
+     Ce partage de fichiers sera utilisé temporairement lorsque vous initialiserez les bases de données. Si vous devez gérer de grandes bases de données, nous vous recommandons de les initialiser manuellement au cas où votre bande passante réseau ne pourrait pas prendre en charge la taille des sauvegardes de bases de données.
     
-    - Dans la page Validation, vérifiez que toutes les vérifications de validation sont réussies, puis cliquez sur **Suivant**.
+     - Dans la page Validation, vérifiez que toutes les vérifications de validation sont réussies, puis cliquez sur **Suivant**.
     
    - Dans la page **Résumé**, vérifiez tous les paramètres et cliquez sur Terminer.
     
@@ -427,8 +427,8 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
     
     - Ouvrez Skype pour Business Server Management Shell et entrez l’applet de commande suivante pour créer les connexions SQL sur le réplica :
     
-     ```
-     Install-CsDatabase -Update
-     ```
+      ```
+      Install-CsDatabase -Update
+      ```
 
-     - Répétez les deux étapes précédentes (bascule vers le groupe à un réplica secondaire, puis utilisez `Install-CsDatabase -Update`) pour chaque réplica dans le groupe.
+      - Répétez les deux étapes précédentes (bascule vers le groupe à un réplica secondaire, puis utilisez `Install-CsDatabase -Update`) pour chaque réplica dans le groupe.

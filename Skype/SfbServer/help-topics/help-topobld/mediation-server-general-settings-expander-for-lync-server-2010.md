@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Vous modifiez les propriétés des serveurs de médiation dans cette boîte de dialogue. Sur le côté gauche est un ensemble de liens rapides pour les paramètres pour les paramètres généraux, paramètres du tronçon suivant et les paramètres de la passerelle PSTN. Dans chaque section sont les paramètres suivants :'
-ms.openlocfilehash: 262cdcbbbf4c4cfcf35a01de91c88c6511da3360
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bc26a6b92746e2cf1453d9ee789500011469527f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260474"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375970"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres de général du serveur de médiation pour Lync Server 2010
 
@@ -29,13 +29,13 @@ Vous modifiez les propriétés des serveurs de médiation dans cette boîte de d
 
 - **Associations**: activez la case à cocher **pool Edge associé (pour les composants médias)** et sélectionnez un serveur Edge ou pool de serveurs Edge pour le serveur de médiation à utiliser en tant que le chemin d’accès des médias pour l’accès externe.
 
- **Tronçon suivant**:
+  **Tronçon suivant**:
 
 - **Sélection du tronçon suivant**: sélectionnez dans la liste le pool frontal ou serveur frontal à utiliser en tant que le chemin d’accès du serveur de médiation à utiliser pour communiquer avec votre déploiement.
 
- **Passerelle PSTN**:
+  **Passerelle PSTN**:
 
- **Passerelle PSTN de serveur de médiation**:
+  **Passerelle PSTN de serveur de médiation**:
 
 - **Ports d’écoute**: définir les ports d’écoute sur le serveur de médiation. Vous pouvez définir un port pour **TLS** ou transport layer security, ou **TCP**, ou le protocole de transport. Pour l’entrée de port TCP soit disponible, vous devez sélectionner la case à cocher pour **le port TCP activer**.
 

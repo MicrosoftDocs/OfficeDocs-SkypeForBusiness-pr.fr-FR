@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Cette section explique la procédure d’attribution d’une licence de conférence rendez-vous et d’un ID de conférence Microsoft Teams à un utilisateur, ainsi que les autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 1cf3240a2b6cf286e14a8180346f8db0ed755a46
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: b63650833c7c844de11ecb833288b6568604f919
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019093"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375862"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de mon organisation dans Microsoft Teams
 
@@ -37,7 +37,7 @@ Il peut être plus simple pour vous d'afficher tous les paramètres de conféren
 ## <a name="assign-an-audio-conferencing-license"></a>Attribuer une licence d’audioconférence
 
 > [!NOTE]
-> Vous ne pouvez pas affecter des licences à l’aide des équipes. Vous devez utiliser le centre d’administration Office 365. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). 
+> Vous ne pouvez pas attribuer de licences par le biais de Teams. Vous devez utiliser le centre d'administration Office 365. Reportez-vous à la rubrique [Attribuer des licences Skype Entreprise et Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) 
   
  **Pour attribuer une licence à un utilisateur**
   
@@ -74,7 +74,7 @@ Pour des informations complémentaires, consultez la rubrique [Microsoft Teams P
     
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Modifier les coordonnées de l'expéditeur dans les courriers électroniques envoyés aux utilisateurs
 
-Vous pouvez modifier le message électronique qui est envoyé automatiquement à vos utilisateurs, y compris l’adresse de messagerie réelle et le nom complet d’informations de contact de l’expéditeur. Par défaut, l’expéditeur des e-mails est Office 365, mais vous pouvez modifier l’adresse de messagerie et affiche le nom de l’aide de Windows PowerShell. Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
+Vous pouvez apporter des modifications aux courriers électroniques envoyés automatiquement à vos utilisateurs, dont l'adresse électronique et le nom d'affichage figurant dans les informations de contact de l’expéditeur. Par défaut, l'envoi des courriers électroniques se fera à partir d'Office 365, mais vous pouvez modifier l'adresse électronique et le nom d'affichage à l'aide de Windows PowerShell. Pour des informations complémentaires, consultez la rubrique [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
   
 ## <a name="reset-the-meeting-conference-id"></a>Réinitialiser l’ID de conférence
 
@@ -84,13 +84,13 @@ Vous pouvez modifier le message électronique qui est envoyé automatiquement à
 
 2. Sous **Audioconférence**, cliquez sur **Réinitialiser l’ID de conférence**.  
 
-3. Dans le **Réinitialiser l’ID de conférence ?** fenêtre, cliquez sur **Réinitialiser**. Un ID de conférence sera créé automatiquement et un message électronique sera envoyé à l’utilisateur avec le nouvel ID de conférence, si l’envoi de courrier électronique à vos utilisateurs est activé. Il est activé par défaut.
+3. Dans la fenêtre **Réinitialiser l’ID de conférence ?**, cliquez sur **Réinitialiser**. Un ID de conférence sera créé automatiquement et un message électronique sera envoyé à l’utilisateur avec le nouvel ID de conférence, si l’envoi de courrier électronique à vos utilisateurs est activé. Cette option est activée par défaut.
 
 Reportez-vous à la section [Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user-in-teams.md).
   
 ## <a name="reset-a-conference-organizers-pin"></a>Réinitialiser le code confidentiel d’un organisateur de conférence
 
-Chaque réunion planifie un utilisateur sera se voit attribuer un ID de conférence unique. Bien qu’un ID de conférence est automatiquement créé et affecté à un utilisateur, il peut arriver lorsqu’un utilisateur ne souhaite pas utiliser cette et vous voulez lui attribuer un certain nombre, ou vos utilisateurs ne vous souvenez pas ou ont perdu leur ID de conférence. 
+Chaque réunion qu'un utilisateur planifie obtient un ID de conférence unique. Bien qu'un ID de conférence soit automatiquement créé et attribué à un utilisateur, il arrive qu'un utilisateur ne souhaite pas utiliser cet ID et préfère le définir sur un numéro spécifique, ou qu’il ne se rappelle pas de son ID de conférence ou l’ait perdu. 
 
 ![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
 
@@ -98,7 +98,7 @@ Chaque réunion planifie un utilisateur sera se voit attribuer un ID de confére
 
 2. Sous **Audioconférence**, cliquez sur **Réinitialiser le code confidentiel**, puis cliquez sur **Réinitialiser**. 
   
-Les utilisateurs recevront un message électronique avec leur code confidentiel lorsqu’ils sont activés pour les services d’audioconférence ou lorsque le code confidentiel est réinitialisé. Mais si vous avez désactivé automatiquement l’envoi d’e-mails, un message électronique de réinitialisation du code confidentiel ne seront pas envoyé et vous devez envoyer manuellement le code confidentiel à l’utilisateur. Le code confidentiel ne sera affiché qu'après avoir été réinitialisé. Une fois qu’il est affiché juste après la réinitialisation, le code confidentiel ne s’affichera plus sur les propriétés de l’utilisateur ; au lieu de cela, *** s’affichera. 
+Les utilisateurs recevront un courrier électronique avec leur code confidentiel lorsqu'ils seront activés pour l’audioconférence ou lorsque le code confidentiel sera réinitialisé. Si vous avez désactivé l'envoi automatique de courriers électroniques, aucun message de réinitialisation du code confidentiel ne sera envoyé, ce qui vous obligera à lui envoyer manuellement. Le code confidentiel ne sera affiché qu'après avoir été réinitialisé. Lorsqu'il s'affiche après sa réinitialisation, le code confidentiel n'apparaît plus dans les propriétés de l'utilisateur. Il apparaît à la place sous la forme *****. 
   
 Reportez-vous à la section [Réinitialiser le code confidentiel d'audioconférence](reset-the-audio-conferencing-pin-in-teams.md).
   
@@ -205,9 +205,9 @@ Vous pouvez également définir la langue principale et les langues secondaires 
 
 2. Sélectionnez un numéro de téléphone dans la liste, cliquez sur **Modifier**. Depuis cette section, vous pouvez :
     
-  - Afficher les numéros de téléphone qui sont définis par Office 365 à utiliser pour une audioconférence. 
+   - Afficher les numéros de téléphone qui sont définis par Office 365 à utiliser pour une audioconférence. 
     
-  - Afficher l’emplacement et la langue principale, qui sera utilisée par le standard automatique de conférence Audio.
+   - Afficher l’emplacement et la langue principale, qui sera utilisée par le standard automatique de conférence Audio.
 
   
 Consultez la rubrique [Afficher la liste des numéros de conférence Audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).

@@ -11,31 +11,32 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume la configuration requise pour la prise en charge des systèmes de salle Skype v2.
-ms.openlocfilehash: a5003186b8057804920ee5d56dd5b71516bf547f
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
-ms.translationtype: HT
+ms.openlocfilehash: b349e5dc617ffe9b5247fc38d86c339f3031ceb0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965967"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373792"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
- 
+
 Cet article résume la configuration requise pour la prise en charge des systèmes de salle Skype v2. 
-  
+
 Votre déploiement implique la création de compte comme décrit dans [déployer Skype salle systèmes v2](../../deploy/deploy-clients/room-systems-v2.md) et la configuration d’une console de réunion, comme indiqué dans [Configure une console v2 de systèmes de salle Skype](../../deploy/deploy-clients/console.md). Vous devez également faire référence à [Skype pour les licences d’entreprise module complémentaire](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
 
 > [!NOTE]
-> Systèmes de salle Skype v2 est destinée aux Skype pour Business Server 2019, Skype pour Business Server 2015, Microsoft Teams ou Skype pour Business Online.  <br><br>Les plateformes antérieures, telles que Lync Server 2013, ne sont pas prévues pour fonctionner avec les systèmes de salle Skype v2. 
-  
+> Systèmes de salle Skype v2 est destinée aux Skype pour Business Server 2019, Skype pour Business Server 2015, Microsoft Teams ou Skype pour Business Online.  <br><br>Plates-formes de versions antérieures à Lync Server 2013 ne sont pas prévus pour fonctionner avec les systèmes de salle Skype v2. 
+
 ## <a name="hardware-requirements"></a>Configuration matérielle requise
 
 Systèmes de salle Skype v2 capable de s’adapter aux tailles différentes salles au moyen d’accessoires selon les périphériques audio et vidéo. Les périphériques audio et vidéo se connecter à v2 Skype salle systèmes via une connexion USB ou HDMI sur le périphérique d’accueil. Vous aurez également besoin des éléments suivants :
-  
+
 - 32 Go de disque de plus grande capacité USB, vous allez configurer en tant que le support d’installation Windows pour Windows 10 Enterprise. 
-    
+
 - Un des tablettes ou consoles suivantes :
-    
+
 **Tablettes pris en charge**
+
 |Tablet PC|Processeur|MÉMOIRE RAM|Disque|
 |:-----|:-----|:-----|:-----|
 |Surface Pro 4       |Principaux i5  |4 GO  |128 GO  |
@@ -45,27 +46,29 @@ Systèmes de salle Skype v2 capable de s’adapter aux tailles différentes sall
 |Surface Pro (2017)  |Core i7  |8 GO  |128 GO  |
 |Surface Pro (2017)  |Core i7  |16 GO |512 GO  |
 |Surface Pro (2017)  |Core i7  |16 GO |1 TO    |
-   
+
 > [!NOTE]
 > M3 processeurs ne sont pas pris en charge.
 
 **Consoles pris en charge**
+
 |Console|Processeur|MÉMOIRE RAM|Disque|
 |:-----|:-----|:-----|:-----|
 |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Principaux i5  |8 GO  |128 GO  |  
 |[Secteur privilégiée HP pour G2 salles de réunion](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Principaux i5  |8 GO  |128 GO  |  
 
 - Une des options de la station d’accueil suivantes pour sécuriser une tablette à la réunion de l’espace table. 
-    
+
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
-    
+
   - [SR Crestron](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-    
+
   - [Série de Polycom MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 
- 
+
 **Certifié versions du microprogramme pour les périphériques audio et vidéos USB**
+
 |Périphériques v2 de systèmes de salle de Skype|Version de microprogramme certifiée pour les systèmes de salle Skype v2|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
@@ -84,27 +87,27 @@ Systèmes de salle Skype v2 capable de s’adapter aux tailles différentes sall
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0  <br/> |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) <br/> |100c  <br/> |
-   
+
 - **Extensions USB**:
-    
+
   - Ports USB s’ancre Tablet PC sont 3.0 USB compatible. Vous pouvez utiliser une extension 2.x USB, mais cela donc limitera à la vitesse de 2.x USB sur l’extrémité et cela n’est donc pas recommandé pour les périphériques USB 3.0.
-    
+
   - Une extension doit satisfaire USB 2.0 ou des spécifications plus récentes.
-    
+
   - S’ancre Tablet PC prend en charge au moins deux étapes de l’extension du concentrateur USB externe. Si nécessaire pour se connecter plus de deux concentrateurs USB de série, vous devrez contactez le fabricant de la station d’accueil pour vérifier cela donc est pris en charge.
-    
+
 - Connexion câblée Gigabit dans la salle. Câble Ethernet de longueur appropriée.
-    
+
 - Affiche 1080p jusqu'à deux connexions HDMI. Câbles HDMI de longueur appropriée.
-    
+
     > [!NOTE]
     > Télévision utilisée comme un plan de salle d’affichage pour la prise en charge/activer la fonctionnalité de contrôle de Electronics consommateur (CCE) de HDMI afin qu’il peut basculer automatiquement à une source vidéo active du mode veille. Cette fonctionnalité n’est pas pris en charge sur tous les TV. 
-  
+
 > [!NOTE]
 > Systèmes de salle Skype v2 n’utilise pas un clavier. Si nécessaire, l’administrateur doit utiliser le clavier visuel. Un clavier ou souris USB seront requise lors de l’appareil v2 Skype salle systèmes d’imagerie. 
-  
+
 Les tableaux suivants fournissent des recommandations pour les périphériques en fonction de la taille de la pièce :
-  
+
 **Salle Skype systèmes v2 certifié périphériques Audio**
 
 |**Type de salle**|**Nombre de personnes**|**Distance maximum recommandée du microphone à la personne parlant**|**Appareil par taille de salle maximum**|**Commentaires**|
@@ -113,7 +116,7 @@ Les tableaux suivants fournissent des recommandations pour les périphériques e
 |**Petite** <br/> 16' x 16'  <br/> |4-6  <br/> |m 2.0  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Le volume de lecture peut être limité pour des salles plus grandes.  <br/> |
 |**Moyenne** <br/> 18' x 20'  <br/> |6-12  <br/> |2,4 m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |Le Logitech MeetUp inclut une caméra afin qu’il doit se situer sur le plan de salle (pas le centre de table pour capturer les participants à la réunion local).  <br/> En règle générale, les salles de tables longues rectangulaires ou en forme de u peuvent bénéficier de microphones satellite supplémentaires.  <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  <br/> |
 |**Grande** <br/> 15' x 32'  <br/> |12-16  <br/> |3M  <br/> La distance s’applique également à la zone couverte par chaque microphone satellite supplémentaire connecté au périphérique audio en question.   <br/> |Groupe Logitech + micros satellites  <br/> Trois Polycom + satellites micros  <br/> Polycom CX5100 + micros satellites  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS + micros satellites  <br/> |Tous les périphériques audio répertoriés dans cette ligne prennent en charge les options de microphone satellite.  <br/> CX5100 comprend une caméra 360 degrés intégrée de manière à ce que le périphérique puisse être positionné au centre de la table.  <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  <br/> |
-   
+
 **Salle Skype systèmes v2 certifié périphériques vidéo**
 
 |Type de salle|Nombre de personnes|Périphérique par taille optimale de salle|Commentaires|
@@ -122,7 +125,7 @@ Les tableaux suivants fournissent des recommandations pour les périphériques e
 |**Petite** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> MSR Polycom  <br/> Polycom CX5100   <br/> |Logitech PTZ Pro souvent fourni avec le groupe Logitech  <br/> |
 |**Moyen** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> MSR Polycom  <br/> Polycom CX5100   <br/> ||
 |**Grande** <br/> 15' x 32'  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> MSR Polycom  <br/> Polycom CX5100   <br/> ||
-   
+
  > [!NOTE]
  > Avant de résolution d’affichage salle doit être défini ne supérieure à 1920x1080p.
 
@@ -135,15 +138,15 @@ Pour créer votre propre image v2 de systèmes de salle Skype, suivez les instru
 
 En outre, vous voudrez probablement une copie de [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), souvent utilisés pour mettre en service des comptes v2 de systèmes de salle Skype.
 
-  
+
 ## <a name="see-also"></a>Voir aussi
 
 [Planification de Skype Room Systems v2](skype-room-systems-v2-0.md)
-  
+
 [Déploiement de Skype Room System v2](../../deploy/deploy-clients/room-systems-v2.md)
-  
+
 [Configuration d’une console Skype Room Systems v2](../../deploy/deploy-clients/console.md)
-  
+
 [Gestion de Skype Room System v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Licences de module complémentaire Skype Entreprise](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

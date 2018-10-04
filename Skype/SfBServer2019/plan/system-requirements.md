@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Résumé : Préparez votre Skype Business Server 2019 serveurs et l’infrastructure de domaine avec cette rubrique. Configuration matérielle, du système d’exploitation, bases de données, logiciel, tous les la configuration système requise et recommandations, ainsi que les certificats DNS, partage de fichiers et informations Active Directory, sont ici afin de garantir une installation réussie et le déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: eb6e0b4207d266e8b3a12ab62332fd99c717c1ec
-ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
+ms.openlocfilehash: a5422f52e9158d01f821c0a2abd051917fbed7b1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "25030643"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375126"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2019"></a>Configuration du serveur pour Skype pour Business Server 2019
 
@@ -79,9 +79,9 @@ Matériel recommandé pour les serveurs de périphérie, les serveurs de médiat
 
 > [!NOTE]
 > Quel que soit le rôle de serveur, nous vous recommandons également les paramètres matériels suivants pour Skype pour Business Server 2019 (Cela peut varier en fonction de la marque de matériel acheté, que reportez-vous à la documentation du fabricant pour caractéristiques) :
-- Configuration BIOS - doit être définie sur plat NUMA.
-- Activer l’Hyperthreading.
-- Le paramètre de file d’attente RSS doit être défini à 8 de file d’attente.
+> - Configuration BIOS - doit être définie sur plat NUMA.
+> - Activer l’Hyperthreading.
+> - Le paramètre de file d’attente RSS doit être défini à 8 de file d’attente.
 
    
 ## <a name="operating-systems-for-skype-for-business-server-2019"></a>Systèmes d’exploitation pour Skype pour Business Server 2019

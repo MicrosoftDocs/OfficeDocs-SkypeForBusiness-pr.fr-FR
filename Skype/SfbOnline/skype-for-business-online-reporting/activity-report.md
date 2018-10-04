@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: d13ca7f70880d7ad0f3c6376e167c6222682887d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 26b835162f0db82a7ea4631d8add24dcd9ec79dc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855574"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374491"
 ---
 # <a name="activity-report"></a>Rapport d'activités
 
@@ -65,7 +65,7 @@ Le rapport d’activité de messagerie **Skype pour activité** peut être affic
 ![Numéro 2](../images/sfbcallout2.png)<br/>
 Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
 ***
-![Nombre 3](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total d'activités de conférence actuellement tenues dans votre organisation. Cela vous indiquera le nombre et les types d' **organisations**, de **participations** et de sessions de conférence d' **égal à égal** sein de votre organisation.  
+![Numéro 3](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total d'activités de conférence actuellement tenues dans votre organisation. Cela vous indiquera le nombre et les types d' **organisations**, de **participations** et de sessions de conférence d' **égal à égal** sein de votre organisation.  
 ***
 ![Numéro 4](../images/sfbcallout4.png)<br/>
 Use the interactive chart data on the **Users** chart to understand usage trends and to see the number of unique users that are participating in conference activities that are being held in your organization. Il vous indiquera le nombre total d’utilisateurs ainsi que les types de **sessions d’égal à égal**, **organisé**et **Participated** dans des sessions de conférence.
@@ -82,17 +82,17 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 ***
 ![N ° 7](../images/sfbcallout7.png)<br/>
 Le tableau présente une répartition de toutes les activités de conférence par utilisateur. Affiche tous les utilisateurs disposant de Skype pour les entreprises affecté et leurs activités de conférence. Vous pouvez ajouter des colonnes supplémentaires au tableau.
-*    **Nom d’utilisateur** est le nom de l’utilisateur.
-*    **Supprimé** indique que la licence de l'utilisateur a été supprimée.<br/><br/>
-    > [!NOTE]
-    > Activité pour un utilisateur supprimé apparaît toujours dans un état dans la mesure où il ou elle était sous licence au cours de la période sélectionnée. La colonne **Supprimé** vous permet d'observer que l'utilisateur n'est peut-être plus actif, mais a contribué aux données du rapport.
+* **Nom d’utilisateur** est le nom de l’utilisateur.
+* **Supprimé** indique que la licence de l'utilisateur a été supprimée.<br/><br/>
+  > [!NOTE]
+  > Activité pour un utilisateur supprimé apparaît toujours dans un état dans la mesure où il ou elle était sous licence au cours de la période sélectionnée. La colonne **Supprimé** vous permet d'observer que l'utilisateur n'est peut-être plus actif, mais a contribué aux données du rapport.
      
-*    La **date de suppression** correspond à la date à laquelle la licence de l'utilisateur a été supprimée.
-*    **Dernière date d'activité (UTC)** représente la dernière fois que l'utilisateur a participé à une session d'égal à égal, a organisé une conférence ou a participé à une conférence.
-*    **Égal à égal** indique le nombre total de sessions de conférence d’égal-à-l’utilisateur est utilisé.
-*    **Conférences organisées** indique le nombre total de conférences organisées par cet utilisateur.
-*    **Participations-à des conférences** indique le nombre total de conférences auxquelles l'utilisateur a participé.
-*    **Produit affecté** indique les produits Office 365 affectés à cet utilisateur.<br/>
+* La **date de suppression** correspond à la date à laquelle la licence de l'utilisateur a été supprimée.
+* **Dernière date d'activité (UTC)** représente la dernière fois que l'utilisateur a participé à une session d'égal à égal, a organisé une conférence ou a participé à une conférence.
+* **Égal à égal** indique le nombre total de sessions de conférence d’égal-à-l’utilisateur est utilisé.
+* **Conférences organisées** indique le nombre total de conférences organisées par cet utilisateur.
+* **Participations-à des conférences** indique le nombre total de conférences auxquelles l'utilisateur a participé.
+* **Produit affecté** indique les produits Office 365 affectés à cet utilisateur.<br/>
 
 Si les stratégies de votre organisation empêchent l’affichage des rapports où les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **Masquer les détails de l’utilisateur dans les rapports** dans les [Rapports d’activité dans le centre d’administration d’Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***

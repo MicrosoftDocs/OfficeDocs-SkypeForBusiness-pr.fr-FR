@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Résumé : Découvrez comment récupérer, mettre à jour et créer des paramètres de configuration pour le Service de journalisation centralisée dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 163ac9607e3b690aac2f069c38e967692721d819
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 62902a25e50043f2e03eda907f4ba572249b1a60
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253117"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375600"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Gestion des paramètres de configuration du service de journalisation centralisée dans Skype Entreprise Server 2015
 
@@ -66,9 +66,9 @@ Site et Global étendues sont définies dans les applets de commande **New -**, 
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 
-  ```
-  Get-CsClsConfiguration
-  ```
+   ```
+   Get-CsClsConfiguration
+   ```
 
 Utilisez les applets de commande **New-CsClsConfiguration** et **Set-CsClsConfiguration** pour créer une nouvelle configuration ou mettre à jour une configuration existante. Lorsque vous exécutez **Get-CsClsConfiguration**, il affiche des informations similaires à l’écran suivant, où le déploiement a actuellement la configuration globale par défaut, mais aucune configuration de site :
 
@@ -80,9 +80,9 @@ Utilisez les applets de commande **New-CsClsConfiguration** et **Set-CsClsConfig
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 
-  ```
-  Get-CsClsConfiguration -LocalStore
-  ```
+   ```
+   Get-CsClsConfiguration -LocalStore
+   ```
 
 Lorsque vous utilisez le premier exemple où **Get-CsClsConfiguration** ne spécifie pas tous les paramètres, les références de commande du magasin Central de gestion des données. Si vous spécifiez le paramètre - LocalStore, la commande fait référence à l’ordinateur LocalStore au lieu du magasin Central de gestion.
 ### <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>Pour récupérer une liste des scénarios actuellement définis
@@ -91,15 +91,15 @@ Lorsque vous utilisez le premier exemple où **Get-CsClsConfiguration** ne spéc
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 
-  ```
-  Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
+   ```
 
     Par exemple, pour récupérer les scénarios définis au niveau global :
 
-  ```
-  Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
+   ```
 
 L’applet de commande **Get-CsClsConfiguration** affiche toujours les scénarios qui font partie de la configuration d’une étendue donnée. Dans la plupart des cas, tous les scénarios ne sont pas affichés et sont tronqués. La commande utilisée ici répertorie tous les scénarios et des informations partielles concernant les fournisseurs, les paramètres et les indicateurs utilisés.
 ### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Pour mettre à jour une étendue globale pour le Service de journalisation centralisée à l’aide de Windows PowerShell
@@ -108,15 +108,15 @@ L’applet de commande **Get-CsClsConfiguration** affiche toujours les scénario
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 
-  ```
-  Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  Exemple :
+   Exemple :
 
-  ```
-  Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
+   ```
 
 La commande indique au CLSAgent de chaque ordinateur et pool du déploiement de définir la valeur de substitution dans le fichier de suivi à 40 mégaoctets. Les ordinateurs et les pools de tous les sites sont affectés par cette commande, et définiront la valeur de substitution du journal de suivi configuré à 40 mégaoctets.
 ### <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Pour mettre à jour une étendue de site pour le Service de journalisation centralisée à l’aide de Windows PowerShell
@@ -125,15 +125,15 @@ La commande indique au CLSAgent de chaque ordinateur et pool du déploiement de 
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 
-  ```
-  Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  Exemple :
+   Exemple :
 
-  ```
-  Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
+   ```
 
 > [!NOTE]
 > Comme indiqué dans l’exemple, l’emplacement par défaut des fichiers journaux est %TEMP%\Tracing. Cependant, dans la mesure où CLSAgent écrit dans le fichier et qu’il s’exécute en tant que service réseau, la variable %TEMP% devient %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.
@@ -145,9 +145,9 @@ Cette commande indique au CLSAgent de chaque ordinateur et pool du site Redmond 
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 
-  ```
-  New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
-  ```
+   ```
+   New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
+   ```
 
     > [!NOTE]
     > New-CsClsConfiguration permet dʼaccéder à un grand nombre de paramètres de configuration facultatifs. Pour plus d’informations sur les options de configuration, voir [Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps) et [Présentation centralisée Logging Service de paramètres de Configuration](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx).
@@ -165,9 +165,9 @@ Vous devez planifier avec soin la création de nouvelles configurations et comme
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 
-  ```
-  Remove-CsClsConfiguration -Identity <scope and name>
-  ```
+   ```
+   Remove-CsClsConfiguration -Identity <scope and name>
+   ```
 
 Par exemple, pour supprimer une configuration de Service de journalisation centralisée que vous avez créé pour augmenter le temps de substitution du fichier journal, augmentez la taille du fichier journal survol et définissez l’emplacement du cache du fichier journal sur un partage réseau comme suit :
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Résumé : En savoir plus sur le tableau de bord de surveillance dans Skype pour Business Server.'
-ms.openlocfilehash: a3896f7ed80ec058c2ed2476e98ce61f85e78229
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e12c9faed684121def2e1a4b175f2f7a9fcb534e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969388"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375272"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>À l’aide du tableau de bord de surveillance dans Skype pour Business Server
  
@@ -42,7 +42,7 @@ Par défaut, le Tableau de bord de suivi affiche les données des mesures suivan
   
 - Ouvertures de sessions à utilisateur unique
     
- **Égal à égal**
+  **Égal à égal**
   
 - Nombre total de sessions
     
@@ -58,7 +58,7 @@ Par défaut, le Tableau de bord de suivi affiche les données des mesures suivan
     
 - Nombre moyen de minutes de session audio
     
- **Conférence**
+  **Conférence**
   
 - Nombre total de conférences
     
@@ -92,7 +92,7 @@ Outre les mesures d’utilisation du système, les mesures suivantes indiquent l
     
 - Organisateurs de conférence ayant rencontré des problèmes d’appel
     
- **Utilisateurs ayant eu des appels de qualité médiocre**
+  **Utilisateurs ayant eu des appels de qualité médiocre**
   
 - Nombre total d’utilisateurs ayant eu des appels de qualité médiocre
     

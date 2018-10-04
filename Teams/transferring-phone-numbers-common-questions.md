@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Les éléments suivants sont questions fréquemment posées sur le transfert des numéros de téléphone à Skype pour les entreprises. Après avoir examiné les réponses, vous devez être prêt à créer un ordre de port et de transférer vos numéros de téléphone. Voir les numéros de téléphone transfert vers Office 365 pour obtenir des instructions.
-ms.openlocfilehash: 62829fff57b234380d93240183ddf8700855cb39
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8a260d1d59668a583f6bdda24bb88472a68c1f43
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015300"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375870"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Questions fréquentes à propos du transfert de numéros de téléphone
 
@@ -69,7 +69,7 @@ En général, vous pouvez transférer n'importe quel numéro de téléphone qui 
     
 - Skype pour les numéros de téléphone professionnels hybride. Si vous souhaitez transférer ces numéros, vous devez envoyer à nous <ptn@microsoft.com>.
     
- **ÉLÉMENTS IMPOSSIBLES À TRANSFÉRER**:
+  **ÉLÉMENTS IMPOSSIBLES À TRANSFÉRER**:
   
 > [!NOTE]
 > Pour le moment, vous ne pouvez pas transférer de numéro de téléphone extérieur aux régions et pays pris en charge, y compris les numéros de téléphone d'un fournisseur de ligne VoIP. Pour afficher une liste de pays/régions pris en charge, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

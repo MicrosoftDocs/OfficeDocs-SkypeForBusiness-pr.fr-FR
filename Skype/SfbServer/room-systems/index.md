@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Les considérations de planification pertinentes pour le déploiement de systèmes de salle Skype v2 et comment déployer et gérer le système.
-ms.openlocfilehash: 02dcbb2ccdd1b7737dff25475fa8f623d5cff926
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: 49fb892e6621c3bd601425fc2ccee84313b4444c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21249228"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374808"
 ---
 <h2>Salle Skype systèmes v2 & #x 2013 ; <br>la nouvelle génération de systèmes de salle de Skype </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -25,7 +25,7 @@ ms.locfileid: "21249228"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Salles de réunion de transformation allant de zones clin de œil petites salles de conférence de grande taille avec une riche, collaborative Skype pour une expérience qui est simple à utiliser, à déployer et à gérer. </p>
+                        <p>Salles de réunion de transformation allant de zones clin de œil petites salles de conférence de grande taille avec une riche, collaborative Skype pour une expérience qui & #39 ; s simples à utiliser, déployer et gérer. </p>
                         <p>Démarrer les réunions sur temps avec une jointure de touches de raccourci, puis projet instantanément à l’affichage dans la salle et partager des participants à distance. </p>
                         <p>Sélectionnez le bon système et les périphériques vidéo audio dans un de ses partenaires : Logitech, Crestron, Polycom, Lenovo et HP.</p>
                         <p></p>

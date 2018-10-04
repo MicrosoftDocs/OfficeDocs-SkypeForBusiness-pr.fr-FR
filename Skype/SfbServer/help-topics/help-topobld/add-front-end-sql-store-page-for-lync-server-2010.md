@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: Vous définissez les propriétés des magasins SQL Server pour le nouveau pool frontal que vous configurez.
-ms.openlocfilehash: 95b5f33e400947b6e1990179f9838d6418a2bece
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d0d8207d45425e84d20f62bc19adadc7337684ff
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006914"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375833"
 ---
 # <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Ajouter une Page devant magasin Sql pour Lync Server 2010
  
@@ -36,12 +36,12 @@ Paramètres que vous pouvez configurer :
     
     L' **instance par défaut** est sélectionné à l’origine. Si vous souhaitez définir une instance, sélectionnez **instance nommée** et tapez le nom de l’instance que vous devez créer.
     
- **Précédent**: revient à la boîte de dialogue précédente
+  **Précédent**: revient à la boîte de dialogue précédente
   
- **Suivant**: valide les modifications et le déplace vers la boîte de dialogue étape suivante
+  **Suivant**: valide les modifications et le déplace vers la boîte de dialogue étape suivante
   
- **Annuler**: ignore les modifications et annule la configuration
+  **Annuler**: ignore les modifications et annule la configuration
   
- **Aide**: affiche des informations, telles que cette rubrique d’aide
+  **Aide**: affiche des informations, telles que cette rubrique d’aide
   
 

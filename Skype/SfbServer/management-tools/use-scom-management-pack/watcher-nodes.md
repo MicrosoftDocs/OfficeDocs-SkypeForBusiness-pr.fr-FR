@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Résumé : Installez et configurez les nœuds observateurs pour Skype pour les transactions synthétiques Business Server.'
-ms.openlocfilehash: 4e7b0b8c1874a2491cc34d26a8ef6870c412b760
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6719826515954290f30eac272f638b846f45142a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015637"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375985"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Installation et configuration des nœuds observateurs
  
@@ -281,9 +281,9 @@ L’étape suivante consiste à exécuter le fichier Watchernode.msi :
     
 2. Dans Skype Entreprise Server Management Shell, tapez la commande ci-dessous, puis appuyez sur Entrée (veillez à spécifier le chemin d’accès réel de votre copie de Watchernode.msi) :
     
-  ```
-  c:\Tools\Watchernode.msi Authentication=Negotiate
-  ```
+   ```
+   c:\Tools\Watchernode.msi Authentication=Negotiate
+   ```
 
 > [!NOTE]
 > Comme indiqué précédemment, vous pouvez également exécuter Watchernode.msi à partir d’une fenêtre de commande. Pour ouvrir une fenêtre de commande, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**. Lorsque la fenêtre de commande s’affiche, tapez la commande utilisée lors de l’étape 2 ci-dessus. 

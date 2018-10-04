@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Déploiement de l’outil SEFAUtil dans Skype pour Business Server.
-ms.openlocfilehash: dfb2b1e4634332fcf88fdce7b09a02f925dd120e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fc8b26dbc0f81be3ea7dd9f0fc3f5c728d49e965
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884799"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375258"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Déploiement de l’outil SEFAUtil dans Skype pour les entreprises
  
@@ -57,9 +57,9 @@ Vous pouvez exécuter l’outil SEFAUtil dans n’importe quel pool frontal dans
   
 5. Activez la topologie avec vos modifications. Sur la ligne de commande, exécutez :
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
 6. Si vous n’avez pas déjà, téléchargez le Skype pour la version de l’outil SEFAUtil Business Server à partir de [cet emplacement](https://www.microsoft.com/en-us/download/details.aspx?id=52631)et les installer sur le pool d’applications approuvées créé à l’étape 3.
     
@@ -69,9 +69,9 @@ Vous pouvez exécuter l’outil SEFAUtil dans n’importe quel pool frontal dans
     
     b. Affichez les paramètres de transfert d’appel d’un utilisateur. Sur la ligne de commande, exécutez :
     
-  ```
-  SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
-  ```
+   ```
+   SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
+   ```
 
 Les paramètres de transfert d’appel de l’utilisateur s’afficheront.
     

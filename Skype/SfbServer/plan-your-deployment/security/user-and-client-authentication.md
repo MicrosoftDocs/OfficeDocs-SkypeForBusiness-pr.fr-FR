@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Un utilisateur approuvé est un dont les informations d’identification ont été authentifiées par un serveur approuvé dans Skype pour Business Server. Ce serveur est généralement un serveur Standard Edition, Enterprise Edition serveur frontal ou un directeur. Skype pour Business Server s’appuie sur les Services de domaine Active Directory comme référentiel principal unique approuvé, des informations d’identification de l’utilisateur.
-ms.openlocfilehash: c16e70641d2ce6e25b932904e9371f7ddf03bdd8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9616774bf721863503c2ebd9145c6860f7068ef3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010645"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375481"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Authentification utilisateur et client pour Skype pour Business Server
  
@@ -57,5 +57,5 @@ Autres valeurs prises en charge sont :
     
 - HMACSHA512
     
- Les valeurs MD5, 3DES et AES ne sont plus autorisées, comme une seule fois dans ASP.NET 4. [Améliorations de chiffrement dans ASP.NET 4.5, pt 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) a plus de détails.
+  Les valeurs MD5, 3DES et AES ne sont plus autorisées, comme une seule fois dans ASP.NET 4. [Améliorations de chiffrement dans ASP.NET 4.5, pt 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) a plus de détails.
   

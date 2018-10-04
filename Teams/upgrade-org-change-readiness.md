@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f302ddca1470d0e35a6b983ae52afa08f2533c8
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5ed741eff5ff095107693a2c94bb8438c60e7c9f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016244"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374379"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs] (media/upgrade-banner-user-readiness.png "Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs")
 
@@ -63,6 +63,7 @@ Utilisez les démarreurs de conversation suivantes pour réaliser une évaluatio
 | *Informed users* accept the solution as soon as its value is demonstrated.    |       |
 | *Laggards* reject the solution, even when pushed into change. |       |
 -->
+
 | Premiers  | Utilisateurs informés  | Suiveurs (traînards) |
 |-----------------|-----------------|----------|
 | Ces utilisateurs demandent la solution avant qu’il soit disponible. | Ces utilisateurs acceptent la solution dès que sa valeur est indiquée. | Ces utilisateurs rejeter la solution, même si poussé à modifier. |
@@ -80,6 +81,7 @@ Utilisez les démarreurs de conversation suivantes pour réaliser une évaluatio
 | *Team-players* enjoy group and interactive training; they’ll go along with coworkers. |       |
 | *Hand-holding* seekers expect “white glove” or one-on-one assistance.      |       |
 -->
+
 | Motivé automatique  | Équipe  | Main-exploitation demandeurs |
 |-----------------|-----------------|----------|
 | Ces stagiaires les ressources de recherche, d’apprendre. | Ces utilisateurs bénéficient de groupe et formation interactive ; ils accédez avec vos collègues. | Ces utilisateurs prévoient « GANT blanc » ou assistance en tête-à-tête. |
@@ -109,10 +111,10 @@ Le tableau suivant montre des exemples de cas d’utilisation universelle pour l
 
 <table>
 <tbody>
-<tr><th width="10%">**Cas d’utilisation**</th><th width="30%">**Caractéristiques**</th><th width="30%">**Défis**</th><th width="30%">**Avec des équipes**</th></tr>
-<tr><td>**Productivité personnelle**</td><td><ul><li>Quotidienne « faire » liste</li><li>Dépendance sur d’autres personnes à votre travail</li></ul></td><td><ul><li>Les messages électroniques et les pièces jointes sont perdus</li><li>Diriger les appels vers la messagerie vocale</li><li>Collègues sont en mode hors connexion</li><li>Copies locales périmés s’accumulent sur le bureau</li></ul></td><td><ul><li>Envoyer en ligne et des messages en mode hors connexion, atténue devoir effectuer le suivi de personnes vers le bas</li><li>Conversation permanente avec des pièces jointes réduire la nécessité de plusieurs emplacements de recherche ou gérer plusieurs versions</li></ul></td></tr>
-<tr><td>**Réunions**</td><td><ul><li>Appels de conférence ou des réunions en ligne</li><li>Participants internes et/ou externes</li><li>Participants office/distants</li></ul></td><td><ul><li>Peu ou pas de contexte fourni avant les réunions </li><li>Participants distants sentent derrière</li><li>Absence de connexion visual</li><li>Un défi pour rattraper si vous avez manqué la réunion</li><li>Après la réunion momentum est perdue</li></ul></td><td><ul><li>Créer des momentum avant la réunion avec la conversation et le partage de contenu</li><li>Participer à tous les périphériques</li><li>Se connecter avec vidéo et partage d’application, en vous assurant d’alignement</li><li>Enregistrer les réunions d’absence de participants</li><li>Capturer des notes, des actions (& #64 ; mentions) pour la responsabilité et facile suivi</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _Tout dans une interface !_</td></tr>
-<tr><td>**Projets de groupe**</td><td><ul><li>Travail de projet avec plusieurs participants</li><li>Informations et partage de documents</li><li>À l’aide de plusieurs applications</li></ul> </td><td><ul><li>Cause de conversations de couloir déconnecter avec le groupe</li><li>Frustration sur l’emplacement du document et le contrôle de version</li><li>Risque de confusion accountability</li></ul> </td><td><ul><li>Blocage de toutes les conversations dans l’équipe/canal garantir la transparence</li><li>Lien vers les documents pertinents ; code confidentiel critique ceux à assurer la visibilité</li><li>Simplifier la gestion des versions des documents</li><li>Accéder à Office et les applications tierces, rendant un concentrateur de la valeur true pour le travail d’équipe</li></ul> </td></tr>
+<tr><th width="10%"><strong>Cas d’utilisation</strong></th><th width="30%"><strong>Caractéristiques</strong></th><th width="30%"><strong>Défis</strong></th><th width="30%"><strong>Avec des équipes</strong></th></tr>
+<tr><td><strong>Productivité personnelle</strong></td><td><ul><li>Quotidienne « faire » liste</li><li>Dépendance sur d’autres personnes à votre travail</li></ul></td><td><ul><li>Les messages électroniques et les pièces jointes sont perdus</li><li>Diriger les appels vers la messagerie vocale</li><li>Collègues sont en mode hors connexion</li><li>Copies locales périmés s’accumulent sur le bureau</li></ul></td><td><ul><li>Envoyer en ligne et des messages en mode hors connexion, atténue devoir effectuer le suivi de personnes vers le bas</li><li>Conversation permanente avec des pièces jointes réduire la nécessité de plusieurs emplacements de recherche ou gérer plusieurs versions</li></ul></td></tr>
+<tr><td><strong>Réunions</strong></td><td><ul><li>Appels de conférence ou des réunions en ligne</li><li>Participants internes et/ou externes</li><li>Participants office/distants</li></ul></td><td><ul><li>Peu ou pas de contexte fourni avant les réunions </li><li>Participants distants sentent derrière</li><li>Absence de connexion visual</li><li>Un défi pour rattraper si vous avez manqué la réunion</li><li>Après la réunion momentum est perdue</li></ul></td><td><ul><li>Créer des momentum avant la réunion avec la conversation et le partage de contenu</li><li>Participer à tous les périphériques</li><li>Se connecter avec vidéo et partage d’application, en vous assurant d’alignement</li><li>Enregistrer les réunions d’absence de participants</li><li>Capturer des notes, des actions (& #64 ; mentions) pour la responsabilité et facile suivi</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <em>Tout dans une interface !</em></td></tr>
+<tr><td><strong>Projets de groupe</strong></td><td><ul><li>Travail de projet avec plusieurs participants</li><li>Informations et partage de documents</li><li>À l’aide de plusieurs applications</li></ul> </td><td><ul><li>Cause de conversations de couloir déconnecter avec le groupe</li><li>Frustration sur l’emplacement du document et le contrôle de version</li><li>Risque de confusion accountability</li></ul> </td><td><ul><li>Blocage de toutes les conversations dans l’équipe/canal garantir la transparence</li><li>Lien vers les documents pertinents ; code confidentiel critique ceux à assurer la visibilité</li><li>Simplifier la gestion des versions des documents</li><li>Accéder à Office et les applications tierces, rendant un concentrateur de la valeur true pour le travail d’équipe</li></ul> </td></tr>
 </tbody>
 </table>
 

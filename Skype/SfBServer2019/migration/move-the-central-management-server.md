@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après avoir migré vers Skype pour Business Server 2019, vous devez déplacer le serveur d’administration centrale à le Skype pour Business Server 2019 serveur frontal ou un pool, avant de pouvoir supprimer le serveur hérité.
-ms.openlocfilehash: 805b5c506fdda11bdc24144a0622e674e8ef281b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6a358b11d7d319d5dafbb82f4391cdc3d0ae1562
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030524"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373442"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Atteindre le serveur de gestion centralisée hérité Skype pour Business Server 2019
 
@@ -35,9 +35,9 @@ Utilisez les procédures de cette section pour préparer le Skype Business Serve
     
 3. Pour créer un nouveau magasin Central de gestion dans le Skype pour la base de données Business Server 2019 SQL Server, dans la Skype pour Business Server Management Shell, tapez :
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
+   ```
 
 4. Vérifiez que l’état du service **Skype pour Business Server frontal** est **démarré**.
     
@@ -56,9 +56,9 @@ Utilisez les procédures de cette section pour préparer le Skype Business Serve
   
 5. Pour créer le nouveau magasin Central de gestion sur le Skype pour Business Server 2019 Standard Edition serveur frontal, le Skype pour Business Server Management Shell, tapez : 
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
+   ```
 
 6. Vérifiez que l’état du service **Skype pour Business Server frontal** est **démarré**.
     
@@ -70,18 +70,18 @@ Utilisez les procédures de cette section pour préparer le Skype Business Serve
     
 3. Dans Skype pour Business Server Management Shell, tapez : 
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
     > [!CAUTION]
     > Si `Enable-CsTopology` n’a pas réussi, résoudre le problème qui empêchent la commande avant de poursuivre. Si **Enable-CsTopology** ne réussit pas, le déplacement échoue et il peut laisser votre topologie dans un état où il n’y a aucun magasin Central de gestion. 
   
 4. Sur la Skype pour un pool frontal ou Business Server 2019 serveur frontal, dans le Skype pour Business Server Management Shell, tapez : 
     
-  ```
-  Move-CsManagementServer
-  ```
+   ```
+   Move-CsManagementServer
+   ```
 
 5. Skype pour Business Server Management Shell affiche les serveurs, magasins de fichiers, les magasins de base de données et les points de connexion de service de l’état actuel et l’état proposé. Lisez attentivement les informations et confirmez qu’il s’agit de la destination source et destination. Tapez **Y** pour continuer ou **N** pour arrêter le déplacement. 
     
@@ -99,9 +99,9 @@ Utilisez les procédures de cette section pour préparer le Skype Business Serve
     
 12. Pour confirmer que la réplication avec la gestion centralisée nouveau magasin est en cours, dans le Skype pour Business Server Management Shell, tapez : 
     
-  ```
-  Get-CsManagementStoreReplicationStatus
-  ```
+    ```
+    Get-CsManagementStoreReplicationStatus
+    ```
 
     > [!NOTE]
     > La réplication peut prendre un certain temps pour mettre à jour tous les réplicas. 
@@ -117,15 +117,15 @@ Utilisez les procédures de cette section pour préparer le Skype Business Serve
   
 3. Pour supprimer les fichiers de base de données du magasin Central de gestion de l’installation héritée de serveur de gestion centralisée, tapez :
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
+   ```
 
     Par exemple :
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
+   ```
 
     Où les _ \<nom de domaine complet de SQL Server\> _ est hérité soit installer un serveur principal dans un déploiement Enterprise Edition ou le nom de domaine complet du serveur Standard Edition. 
     

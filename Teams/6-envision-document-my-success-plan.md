@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07cea763c3287106f2a6c98472dea0ef43ea7e28
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 271faa8ffc4a4e6c3977382cf5a1153513bd1ba5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013794"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374209"
 ---
 # <a name="document-my-success-plan"></a>Mon plan de réussite de documents
 
@@ -46,10 +46,10 @@ Modèles de déploiement potentiels sont les suivants :
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Choisir le modèle d’exécution déploiement équipes qui s’applique à votre organisation.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Le modèle d’exécution de déploiement équipes que vous avez choisi de documents et et entreprise justification technique.</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Choisir le modèle d’exécution déploiement équipes qui s’applique à votre organisation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Le modèle d’exécution de déploiement équipes que vous avez choisi de documents et et entreprise justification technique.</li></ul></td></tr></table>
 
-##<a name="raci-modeling"></a>Modélisation RACI
+## <a name="raci-modeling"></a>Modélisation RACI
 
 Pour vérifier que vous avez sélectionné plus de clarté pour qui est responsable de quoi dans votre projet, utilisez une matrice d’affectation de responsabilité (également appelé RACI — responsable, dirigeant, consulté et informé : matrice). Liste de la personne ou groupe chargés de chaque tâche, ainsi que les parties prenantes à être consultés dans le processus de décision et les parties prenantes pour être informé de chaque décision et l’action lors de l’exécution du projet.
 
@@ -70,8 +70,8 @@ Voici un exemple d’une matrice RACI pour une implémentation de la voix dans l
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Déterminer les activités/rôles pertinents pour le projet d’implémentation de voix dans le nuage.</li><li>Décider des équipes ou des personnes à affecter à la matrice d’affectation de responsabilité (matrice RACI) du projet d’implémentation de voix dans le nuage.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>La matrice RACI du document.</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminer les activités/rôles pertinents pour le projet d’implémentation de voix dans le nuage.</li><li>Décider des équipes ou des personnes à affecter à la matrice d’affectation de responsabilité (matrice RACI) du projet d’implémentation de voix dans le nuage.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>La matrice RACI du document.</li></ul></td></tr></table>
 
 ## <a name="quarterly-execution-plan"></a>Plan d’exécution trimestrielle
 
@@ -95,8 +95,8 @@ Voici un exemple d’un plan d’exécution trimestriels pour la phase de prévo
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Déterminer le plan d’exécution trimestrielles pour obtenir les résultats principaux objectifs (OKRs).</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Le plan d’exécution trimestrielle du document.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminer le plan d’exécution trimestrielles pour obtenir les résultats principaux objectifs (OKRs).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Le plan d’exécution trimestrielle du document.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -117,9 +117,9 @@ Voici un exemple d’un plan de gouvernance et de communications que vous pouvez
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Décider de communication et de plan de gouvernance, y compris la fréquence des mises à jour régulière de l’état (quotidienne, hebdomadaire, mensuelles ou trimestrielles), de méthodes de mener des réunions de mise à jour du statut et le propriétaire de chaque réunion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décider de communication et de plan de gouvernance, y compris la fréquence des mises à jour régulière de l’état (quotidienne, hebdomadaire, mensuelles ou trimestrielles), de méthodes de mener des réunions de mise à jour du statut et le propriétaire de chaque réunion.</li></ul></td></tr>
 
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Le plan de communication et de la gouvernance du document.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Le plan de communication et de la gouvernance du document.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -178,8 +178,8 @@ Vous devez effectuer cette étape et inclure le plan opérationnel dans le plan 
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Décidez comment vous serez documenter votre planification de toute opération réussie pour proposer votre nuage des charges de travail voix.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Vérifiez que tous les composants de votre plan de réussite ont été documentés.</li><li>Les composants individuels de votre plan de réussite d’agrégation dans un seul document récapitulatif (facultatif).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décidez comment vous serez documenter votre planification de toute opération réussie pour proposer votre nuage des charges de travail voix.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Vérifiez que tous les composants de votre plan de réussite ont été documentés.</li><li>Les composants individuels de votre plan de réussite d’agrégation dans un seul document récapitulatif (facultatif).</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 836ebb663c4d3062b2cce942228d35aa6c227d07
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c680dccb697030cf0dbf7dcb75a4b26daf1ce6d3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016452"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374170"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation] (media/upgrade-banner-deployment.png "Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation")
 
@@ -85,8 +85,8 @@ Vous trouverez un exemple d’un trajet de mise à niveau progressif dans le dia
 
 Au fil du temps, groupes d’utilisateurs peuvent être mis à niveau en mode **uniquement les équipes** , suivi par le reste de l’organisation. Finalement, l’organisation toute entière sera prête à retirer Skype pour les entreprises et d’utiliser des équipes uniquement pour les communications et la collaboration, ou, si les exigences commerciales imposent que Skype pour les entreprises être conservé pour un groupe spécifique — la majorité des utilisateurs dans le organisation peut utiliser uniquement les équipes. <br><br>
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Point de décision</td><td><ul> Les parcours de mise à niveau est adapté aux besoins de votre organisation ?<br><br></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étape suivante</td><td><ul> Identifier votre modèle de déploiement actuel, utilisez des cas et des considérations importantes pour votre organisation informe voyage aux équipes qui est la mieux adapté à votre organisation.<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Point de décision</td><td><ul> Les parcours de mise à niveau est adapté à votre organisation & #39 ; les impératifs de s ?<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étape suivante</td><td><ul> Identifier votre modèle de déploiement actuel, utilisez des cas et des considérations importantes pour votre organisation informe voyage aux équipes qui est la mieux adapté à votre organisation.<br><br></ul></td></tr>
 </table>
 
 ## <a name="upgrade-scenarios"></a>Scénarios de mise à niveau
@@ -100,8 +100,8 @@ Les recommandations suivantes en fonction des mise à niveau trajets décrites p
 |Skype pour Business Server (on-premises) |Client Office 365 avec Azure AD Connect et Exchange Online<br><br> SharePoint et Skype pour les entreprises sont déployés en local|Fonctionnalité de voix entreprise complète défini (Skype pour Business Server 2015) actuellement en cours d’utilisation<br><br> Centre de contact déployé<br><br> Les réunions sont effectuées avec les utilisateurs fédérés internes et externes, à l’aide de VoIP et conférence rendez-vous<br><br> Messagerie avec des utilisateurs internes et externes|Déployer SharePoint Online<br><br> Configurer Skype pour hybride Business (domaine fractionné)<br><br>**Feuille de route de la messagerie**: fonctionnalité de fédération ciblée pour la version R2 de 2018<br><br> **Feuille de route de réunions**: fédérés de participation aux réunions, fonctionnalité de salle d’attente PSTN ciblée pour la version R2 de 2018<br><br> **Feuille de route l’appel**: fonctionnalité prévue de sortir T4 2018 et à<br><br>Blocs de construction :<ul><li>Mode <b>îles</b> (pilote)</li><li>Mode <b>Skype pour les entreprises avec la collaboration des équipes uniquement</b></li><li>Mode <b>Skype pour l’entreprise grâce à des réunions et la collaboration des équipes</b></li><li>Modes <b>d’équipes uniquement</b> et <b>Skype pour les entreprises uniquement</b></li></ul><br>Examiner la mise à niveau vers Skype pour Business Server 2019|
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Point de décision</td><td><ul> Quel scénario de mise à niveau est applicable à votre organisation ?<br><br></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul> Décider du scénario du parcours de mise à niveau de votre organisation en fonction de la messagerie, réunions et les impératifs de l’appel.<br><br> Déterminez le travail supplémentaire requis pour effectuer votre parcours de mise à niveau.<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Point de décision</td><td><ul> Quel scénario de mise à niveau est applicable à votre organisation ?<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul> Déterminer la chronologie de votre organisation & #39 ; voyage au pays de la mise à niveau s en fonction de la messagerie, réunions et les impératifs de l’appel.<br><br> Déterminez le travail supplémentaire requis pour effectuer votre parcours de mise à niveau.<br><br></ul></td></tr>
 </table>
 
 Après avoir choisi la meilleur voyage mise à niveau pour votre organisation, [effectuez la mise à niveau pour les équipes](https://aka.ms/SkypeToTeams-Upgrade).

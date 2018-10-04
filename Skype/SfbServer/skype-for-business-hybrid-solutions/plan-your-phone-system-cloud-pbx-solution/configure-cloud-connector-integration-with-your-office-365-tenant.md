@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Découvrez comment configurer l’intégration de nuage connecteur avec votre client Office 365.
-ms.openlocfilehash: 6971858b4e31fb7f98a98f5c80b9bb983a11802a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 01e5135a4b0ac6de391140bc6fc0d80bcc00e2ce
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886171"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375768"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurer l’intégration Cloud Connector avec votre client Office 365
  
@@ -42,9 +42,9 @@ Si vous utilisez TLS entre les serveurs de médiation et les passerelles, vous d
     
 3. Importez le certificat de l’AC racine pour le certificat délivré pour votre passerelle sur les serveurs de médiation. Si vous avez besoin d’obtenir un certificat SSL pour la passerelle, vous pouvez utiliser le service de certification de l’ordinateur ActivePSTNDirectory du CloudPSTNConnector comme suit :
     
-  - Modifier le modèle de serveur Web existant pour permettre aux utilisateurs authentifiés d’inscrire ou créer un nouveau modèle de serveur Web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificats](https://technet.microsoft.com/en-us/library/cc730705.aspx).
+   - Modifier le modèle de serveur Web existant pour permettre aux utilisateurs authentifiés d’inscrire ou créer un nouveau modèle de serveur Web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificats](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
-  - Demandez un certificat à l’aide du composant logiciel enfichable Certificats, en sélectionnant le modèle de serveur Web que vous avez autorisé. Assurez-vous d’indiquer le nom commun dans la section Sujet et le nom DNS dans la section Nom alternatif avec le FQDN de la passerelle, et confirmez sur la Clé privée que Rendre la clé privée exportable est bien sélectionné dans les options de clé. 
+   - Demandez un certificat à l’aide du composant logiciel enfichable Certificats, en sélectionnant le modèle de serveur Web que vous avez autorisé. Assurez-vous d’indiquer le nom commun dans la section Sujet et le nom DNS dans la section Nom alternatif avec le FQDN de la passerelle, et confirmez sur la Clé privée que Rendre la clé privée exportable est bien sélectionné dans les options de clé. 
     
 4. Exportez le certificat SSL avec la Clé privée et suivez les instructions depuis votre fournisseur de passerelle RTC pour importer le certificat.
     
@@ -88,9 +88,9 @@ Si vous utilisez TLS entre les serveurs de médiation et les passerelles, vous d
     
 3. Importez le certificat de l’AC racine pour le certificat délivré pour votre passerelle sur les serveurs de médiation. Si vous avez besoin d’obtenir un certificat SSL pour la passerelle, vous pouvez utiliser le service de certification de l’ordinateur ActivePSTNDirectory du CloudPSTNConnector comme suit :
     
-  - Modifiez le modèle Serveur web existant pour permettre aux utilisateurs authentifiés de s’inscrire ou de créer un modèle Serveur web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificats](https://technet.microsoft.com/library/cc730705.aspx).
+   - Modifiez le modèle Serveur web existant pour permettre aux utilisateurs authentifiés de s’inscrire ou de créer un modèle Serveur web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificats](https://technet.microsoft.com/library/cc730705.aspx).
     
-  - Demandez un certificat à l’aide du composant logiciel enfichable Certificats, en sélectionnant le modèle de serveur Web que vous avez autorisé. Assurez-vous d’indiquer le nom commun dans la section Sujet et le nom DNS dans la section Nom alternatif avec le FQDN de la passerelle, et confirmez sur la Clé privée que Rendre la clé privée exportable est bien sélectionné dans les options de clé. 
+   - Demandez un certificat à l’aide du composant logiciel enfichable Certificats, en sélectionnant le modèle de serveur Web que vous avez autorisé. Assurez-vous d’indiquer le nom commun dans la section Sujet et le nom DNS dans la section Nom alternatif avec le FQDN de la passerelle, et confirmez sur la Clé privée que Rendre la clé privée exportable est bien sélectionné dans les options de clé. 
     
 4. Exportez le certificat SSL avec la Clé privée et suivez les instructions depuis votre fournisseur de passerelle RTC pour importer le certificat.
     
@@ -170,15 +170,15 @@ Lorsqu’un appel P2P est transmis à une conférence PSTN, le Skype pour le ser
     
 2. Démarrer une session PowerShell distante client Azure AD à l’aide de vos paramètres globaux ou les informations d’identification d’administration, puis exécutez l’applet de commande suivante pour définir le service pour le compte d’utilisateur AD Azure configuré dans l’étape 1 à « HybridMediationServer » :
 
- ```
-  Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
-  ```
+   ```
+   Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+   ```
 
 3. Démarrez un client Skype pour session PowerShell distante métiers à l’aide de votre Skype pour les informations d’identification d’administration de Business client et puis exécutez l’applet de commande suivante pour définir le serveur de médiation et le FQDN du serveur Edge à cet utilisateur de compte, remplaçant \<DisplayName\> avec le nom complet de l’utilisateur pour le compte que vous avez créé à l’étape 1 :
     
-  ```
-  Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
-  ```
+   ```
+   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
+   ```
 
     Pour l’identité, utilisez le nom d’affichage du compte utilisateur Office 365 que vous avez créé pour ce serveur de médiation.
     
@@ -186,6 +186,6 @@ Lorsqu’un appel P2P est transmis à une conférence PSTN, le Skype pour le ser
     
     Pour *EdgeServerExternalFQDN* , utilisez le nom de domaine complet externe définie pour le Proxy d’accès serveur Edge. Si plusieurs sites RTC Cloud Connector existent, choisissez le FQDN du proxy du serveur Edge d’accès affecté au site qui contient la localisation du serveur de médiation.
     
-3. Si plusieurs serveurs de médiation Cloud Connector existent (plusieurs sites en haute disponibilité), veuillez répéter les étapes précédentes pour chacun d’entre eux.
+4. Si plusieurs serveurs de médiation Cloud Connector existent (plusieurs sites en haute disponibilité), veuillez répéter les étapes précédentes pour chacun d’entre eux.
     
 

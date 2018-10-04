@@ -11,12 +11,12 @@ description: Guide pratique pour le déploiement de la fonctionnalité vocale cl
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 068ddc726a366f5ee34b23dca0f76699d4c76afc
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: e78abdbe7d0cc2680917f2aae7920883837a2ac9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019075"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375978"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de la réunion équipes sur le nuage
 
@@ -75,13 +75,13 @@ Pour modifier la valeur de AllowCloudRecording dans la stratégie globale, utili
 </br>
 
 
-|Scénario|Étapes |
-|---|---|
-|Je veux tous les utilisateurs de votre société pour être en mesure d’enregistrer des réunions |<ol><li>Confirmer Global CsTeamsMeetingPolicy a AllowCloudRecording = True<li>Tous les utilisateurs ont la globale ou CsTeamsMeetingPolicy l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = True </ol>|
-|Je souhaite la majorité des utilisateurs à être en mesure d’enregistrer des réunions, mais désactiver des utilisateurs spécifiques qui ne sont pas autorisés à enregistrer |<ol><li>Vérifiez GlobalCsTeamsMeetingPolicy a AllowCloudRecording = True<li>Majorité des utilisateurs ont le Global CsTeamsMeetingPolicy ou une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = True<li>Tous les autres utilisateurs ont été accordées à l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False</ol>|
-|Je veux enregistrement pour qu’il soit désactivé 100 %| <ol><li>Confirmer Global CsTeamsMeetingPolicy a AllowCloudRecording = False<li>Tous les utilisateurs ont été accordées le Global CsTeamsMeetingPolicy ou l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False|
-|Je veux enregistrement pour être désactivée pour la plupart des utilisateurs sans activer des utilisateurs spécifiques qui sont autorisés à enregistrer|<ol><li>Confirmer Global CsTeamsMeetingPolicy a AllowCloudRecording = False<li>La majorité des utilisateurs ont été accordées le Global CsTeamsMeetingPolicy ou une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False<li>Tous les autres utilisateurs ont été accordées à l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = True <ol>|
-|||
+|                                                                 Scénario                                                                 |                                                                                                                                                                         Étapes                                                                                                                                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                    Je veux tous les utilisateurs de votre société pour être en mesure d’enregistrer des réunions                                    |                                                                     <ol><li>Confirmer Global CsTeamsMeetingPolicy a AllowCloudRecording = True<li>Tous les utilisateurs ont la globale ou CsTeamsMeetingPolicy l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = True </ol>                                                                     |
+| Je souhaite la majorité des utilisateurs à être en mesure d’enregistrer des réunions, mais désactiver des utilisateurs spécifiques qui ne sont pas autorisés à enregistrer |        <ol><li>Vérifiez GlobalCsTeamsMeetingPolicy a AllowCloudRecording = True<li>Majorité des utilisateurs ont le Global CsTeamsMeetingPolicy ou une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = True<li>Tous les autres utilisateurs ont été accordées à l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False</ol>         |
+|                                                   Je veux enregistrement pour qu’il soit désactivé 100 %                                                   |                                                                <ol><li>Confirmer Global CsTeamsMeetingPolicy a AllowCloudRecording = False<li>Tous les utilisateurs ont été accordées le Global CsTeamsMeetingPolicy ou l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False                                                                 |
+|      Je veux enregistrement pour être désactivée pour la plupart des utilisateurs sans activer des utilisateurs spécifiques qui sont autorisés à enregistrer       | <ol><li>Confirmer Global CsTeamsMeetingPolicy a AllowCloudRecording = False<li>La majorité des utilisateurs ont été accordées le Global CsTeamsMeetingPolicy ou une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False<li>Tous les autres utilisateurs ont été accordées à l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = True <ol> |
+|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
 ### <a name="enabledisable-recording-transcription-for-users"></a>Activer/désactiver l’enregistrement transcription pour les utilisateurs
 

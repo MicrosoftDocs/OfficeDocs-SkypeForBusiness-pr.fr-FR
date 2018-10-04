@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Résumé : Découvrez l’API de référentiel pour le tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 67378b6b0e927f45605a1ca0f7cdddffafac3022
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7881766de0daf05c85c7dfe8bb85a0ef1344c7c9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989093"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374722"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>API de référentiel pour le tableau de bord (CQD) appel qualité dans Skype pour Business Server 2015
  
@@ -46,7 +46,7 @@ Tableau de bord qualité appel utilise l’API de référentiel pour gérer les 
     
 - Le **Paramètre utilisateur** - décrit un comportement d’application facultative pour l’utilisateur.
     
- **Ressources Cross-Origin (CORS) prise en charge pour l’API de référentiel de partage**
+  **Ressources Cross-Origin (CORS) prise en charge pour l’API de référentiel de partage**
   
 API de référentiel prend en charge le partage de ressources Cross-Origin (CORS). CORS est une fonctionnalité HTTP qui permet à une application web en cours d’exécution dans un domaine d’accéder aux ressources dans un autre domaine. Navigateurs Web implémentent une restriction de sécurité de stratégie de même origine [Stratégie de même origine](https://www.w3.org/Security/wiki/Same_Origin_Policy) qui empêche une page web d’appeler des API dans un domaine différent. CORS fournit un moyen sécurisé pour autoriser un domaine (le domaine d’origine) appeler des API dans un autre domaine. Voir les [spécifications CORS](https://www.w3.org/TR/cors/) pour plus d’informations sur CORS.
   

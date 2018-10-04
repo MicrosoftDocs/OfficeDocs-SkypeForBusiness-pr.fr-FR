@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee65362d6215faac0575425d0c7a6f0dfbc0b67b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 2bca4d2bb757f8fdcece40f82ad0ddce54c1d246
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017928"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375565"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -45,8 +45,8 @@ Diagramme de ![A montrant une liste de catégories de tâches et les activités 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Choisir le mode d’implémentation des opérations pour les équipes.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Consultez le Guide des opérations dans leur intégralité.</li><li>Implémenter une stratégie d’opérations qui s’aligne sur les objectifs de votre organisation pour offrir la qualité et la fiabilité des charges de travail équipes.</li><li>Consultez le guide de l’examen de la qualité de l’expérience.</li><li> Implémenter une stratégie d’opérations pour effectuer régulièrement la qualité d’expérience avis pour vous assurer que votre déploiement équipes fonctionne à ses fonctionnalités de pointe.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Choisir le mode d’implémentation des opérations pour les équipes.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Consultez le Guide des opérations dans leur intégralité.</li><li>Implémenter une stratégie d’opérations qui s’aligne sur les objectifs de votre organisation pour offrir la qualité et la fiabilité des charges de travail équipes.</li><li>Consultez le guide de l’examen de la qualité de l’expérience.</li><li> Implémenter une stratégie d’opérations pour effectuer régulièrement la qualité d’expérience avis pour vous assurer que votre déploiement équipes fonctionne à ses fonctionnalités de pointe.</li></ul></td></tr>
 </table>
 
 
@@ -65,7 +65,7 @@ Assurez-vous que chaque équipe responsable dispose d’une bonne compréhension
 Une fois un accord est en place, les équipes correspondants doivent commencer à mettre leurs rôles.
 
 <table>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td>
 <td><ul><li>Utilisez ce document pour faciliter l’exercice de mappage de rôle opérationnel.</li><li>Rencontrez les équipes de support respectifs pour attribuer des noms à chaque élément dans la liste des activités requises.</li><li>Obtenir l’acceptation ou approbation sur les rôles attribués.</li><li>Vous assurer que les équipes correspondantes les formations appropriées, préparation et les ressources pour effectuer les activités requises d'entre eux.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dépendances de service d’équipes
@@ -184,17 +184,21 @@ Maintenant que vous êtes au courant des modifications à venir pour le service 
 #### <a name="feature-cloud-recording-release-date-january-2018"></a>Fonctionnalité : Enregistrement en nuage (date de publication : janvier 2018)
 
 **Suivi général**
+
 | Préparation de la modification | État   | Notes/étapes suivantes | Propriétaire |
 |----|----|----|-----|
 | Révision légale   | Terminé     | Cette fonctionnalité est une condition préalable à la formation de l’équipe d’intégration. | Équipe de projet  |
 
 **Gestion des modifications techniques**
-| Préparation de la modification | État   | Notes/étapes suivantes | Propriétaire |
-|----|----|----|-----|
-| Modifications informatiques requises          | Oui                  | Administrateur doit activer l’enregistrement identifiés uniquement aux utilisateurs.      | Équipe de support technique           |
-| Préparation technique complète | Oui                  |                                                                 | Équipe de support technique  
-         |
+
+|       Préparation de la modification       | État |                      Notes/étapes suivantes                      |    Propriétaire     |
+|------------------------------|--------|------------------------------------------------------------|--------------|
+|     Modifications informatiques requises      |  Oui   | Administrateur doit activer l’enregistrement identifiés uniquement aux utilisateurs. | Équipe de support technique |
+| Préparation technique complète |  Oui   |                                                            | Équipe de support technique |
+|                              |        |                                                            |              |
+
 **Gestion des modifications** 
+
 | Préparation de la modification | État   | Notes/étapes suivantes | Propriétaire |
 |----|----|----|-----|
 | Impact sur l’utilisateur                  | Bas                  |                                                                 |                        |
@@ -203,6 +207,7 @@ Maintenant que vous êtes au courant des modifications à venir pour le service 
 | Formation prêt               | Oui                  | Formation s’appuiera sur vidéo Microsoft existant.                | Formation de l’équipe          |
 
 **Suivi du statut**
+
 | Préparation de la modification | État   | Notes/étapes suivantes | Propriétaire |
 |----|----|----|-----|
 | Statut de lancement               | en cours          | Révision en attente par sponsor exécutif.               | Équipe de gestion des modifications |

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Résumé : Passez en revue cette rubrique pour plus d’informations sur l’intégration de Skype pour Business Server avec Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: 0fc7975e35d84cf6fda75addacee9ffbb8f25b52
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e46775a7a57702cd71293f2343aa2bf089491393
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013236"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374216"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Planifier l’intégration de Skype Entreprise et d’Exchange
  
@@ -71,10 +71,10 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 
 > [!NOTE]
 > Le paramètre Identity dans la commande précédente est facultatif ; C’est parce que Skype pour Business Server vous permet uniquement d’avoir une collection unique et globale de paramètres de configuration OAuth. Entre autres choses, cela signifie que vous pouvez configurer l’URL de découverte automatique à l’aide de cette commande légèrement plus simple : 
-  
+> 
 > [!NOTE]
-> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl «https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc» 
-  
+> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl «<https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc>» 
+> 
 > [!NOTE]
 > Si vous ne connaissez pas cette technologie, OAuth est un protocole d’autorisation standard utilisé par nombre des plus importants sites web. Grâce à OAuth, les informations d’identification et les mots de passe d’utilisateur ne sont pas transmis d’un ordinateur à un autre. L’authentification et l’autorisation sont basées sur l’échange de jetons de sécurité. Ces jetons octroient l’accès à un ensemble de ressources spécifique pour une durée spécifique. 
   

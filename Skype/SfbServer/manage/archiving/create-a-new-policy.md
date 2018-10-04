@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Résumé : Découvrez comment créer une stratégie d’archivage pour Skype pour Business Server.'
-ms.openlocfilehash: e900bd9ac73a6e192eba7a506d713a56a69e794d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 70c955d78e6c7b259732d50c47c53e8b3bedf97c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970357"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374408"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Créer une stratégie d’archivage dans Skype pour Business Server
 
@@ -46,7 +46,7 @@ Pour créer une nouvelle stratégie d’archivage à l’aide du panneau de conf
     
    - Pour contrôler l’archivage des communications avec les utilisateurs internes, activez ou désactivez la case à cocher **Archiver les communications internes**.
     
-  - Pour contrôler l’archivage des communications avec les utilisateurs externes, activez ou désactivez la case à cocher **Archiver les communications externes**.
+   - Pour contrôler l’archivage des communications avec les utilisateurs externes, activez ou désactivez la case à cocher **Archiver les communications externes**.
     
 6. Cliquez sur **Valider**.
     

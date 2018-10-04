@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f82788d34e492b6dd3fe54c60168b8d83b3c09e2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d97c95ed3fd4d398a4422645ab1e1491e1df6e3c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018008"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375236"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurer les crédits de communication pour votre organisation
 
@@ -67,18 +67,18 @@ Pour plus d’informations, voir [Skype pour les professionnels et les équipes 
     
 4. Dans la page d’abonnement **Communications crédits** , renseignez vos informations, puis cliquez sur **suivant**:
     
-  - **Ajouter fonds** Entrez le montant que vous souhaitez ajouter à votre compte. Si vous n’activez pas auto-recharge, une fois ces fonds épuisement, l’appel de fonctionnalités qui sont activées à l’aide de Communications crédits est interrompue (tel que service gratuit entrant). Pour éviter de réapprovisionnement manuellement votre compte Communications crédits chaque fois que votre compte atteint la valeur 0 (zéro), nous vous recommandons de que vous activez la fonctionnalité auto-recharge.
+   - **Ajouter fonds** Entrez le montant que vous souhaitez ajouter à votre compte. Si vous n’activez pas auto-recharge, une fois ces fonds épuisement, l’appel de fonctionnalités qui sont activées à l’aide de Communications crédits est interrompue (tel que service gratuit entrant). Pour éviter de réapprovisionnement manuellement votre compte Communications crédits chaque fois que votre compte atteint la valeur 0 (zéro), nous vous recommandons de que vous activez la fonctionnalité auto-recharge.
     
-  - **Recharge automatique** Activer la recharge automatique permet de recharger automatiquement votre compte lorsque son solde passe en dessous d'un seuil que vous avez défini.
+   - **Recharge automatique** Activer la recharge automatique permet de recharger automatiquement votre compte lorsque son solde passe en dessous d'un seuil que vous avez défini.
     
-    Il est recommandé d’utiliser le paramètre **recharge automatique** pour éviter toute perturbation du service de votre compte Communications crédits doit parvenir à 0 (zéro). Vous recevrez un message électronique lors de transactions recharge réussissent, lorsque les transactions recharge échouent (par exemple, une carte de crédit arrivés à expiration) et lorsque votre compte Communications crédits atteint 0 (zéro).
+     Il est recommandé d’utiliser le paramètre **recharge automatique** pour éviter toute perturbation du service de votre compte Communications crédits doit parvenir à 0 (zéro). Vous recevrez un message électronique lors de transactions recharge réussissent, lorsque les transactions recharge échouent (par exemple, une carte de crédit arrivés à expiration) et lorsque votre compte Communications crédits atteint 0 (zéro).
     
-  - **Rechargez le montant** Entrez le montant dans la zone **Recharger avec** que vous souhaitez ajouter à votre compte une fois qu’elle atteint la quantité de déclencheur ci-dessous.
+   - **Rechargez le montant** Entrez le montant dans la zone **Recharger avec** que vous souhaitez ajouter à votre compte une fois qu’elle atteint la quantité de déclencheur ci-dessous.
     
-  - **Quantité de déclencheur** Entrez le montant dans la zone **lorsque l’équilibre tombe en dessous** qui sera utilisé pour ' *déclencheur* ' le rechargement de standard automatique. Une fois que votre compte est inférieur à ce montant, le montant recharge sera automatiquement ajouté à votre compte.
+   - **Quantité de déclencheur** Entrez le montant dans la zone **lorsque l’équilibre tombe en dessous** qui sera utilisé pour ' *déclencheur* ' le rechargement de standard automatique. Une fois que votre compte est inférieur à ce montant, le montant recharge sera automatiquement ajouté à votre compte.
 
       > [!NOTE]
-    > Fonds seront appliquées uniquement aux Communications crédits chez Microsoft publié taux lorsque les services sont utilisés. Tout fond non utilisé dans les 12 mois suivant la date d'achat expire et est perdu. 
+     > Fonds seront appliquées uniquement aux Communications crédits chez Microsoft publié taux lorsque les services sont utilisés. Tout fond non utilisé dans les 12 mois suivant la date d'achat expire et est perdu. 
     
 5. Entrez vos informations de paiement, cliquez sur **passer la commande**.
     >[!IMPORTANT]

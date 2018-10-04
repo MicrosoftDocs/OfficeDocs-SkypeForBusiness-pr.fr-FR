@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e09816666e17f657b67f8b28aa36efa3ef95e60f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 335d5baac6f13d899b8d6f9875a419d86da1b6af
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013562"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374316"
 ---
 # <a name="prepare-my-service"></a>Préparer mon service
 
@@ -53,8 +53,8 @@ Lorsque vous êtes embarquement utilisateurs sur site par site, que nous vous re
 >La plupart des paramètres de configuration sont communes entre les équipes et Skype pour Business Online. Vous utilisez le centre d’administration d’Office 365, équipes et Skype entreprise centre d’administration pour configurer ces paramètres.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Qui sera responsable de la surveillance de l’exécution de l’intégration des listes de contrôle ?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Télécharger les listes de vérification embarquement.</li><li>Parcourez les éléments de liste de vérification embarquement détaillées conformément au plan de déploiement de votre organisation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Qui sera responsable de la surveillance de l’exécution de l’intégration des listes de contrôle ?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Télécharger les listes de vérification embarquement.</li><li>Parcourez les éléments de liste de vérification embarquement détaillées conformément au plan de déploiement de votre organisation.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -180,8 +180,8 @@ Une fois que l’environnement de l’utilisateur et le service ont été config
 -   Exigences de conformité de routage directs ont été identifiés et configurés.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Déterminer les fonctionnalités de conférence Audio seront déployées (décision de service).</li><li>Identifiez les exigences de fonctionnalités utilisateur pour une audioconférence.</li><li>Identifiez les exigences de configuration de service pour une audioconférence.</li><br><li>Décider si routage Direct ou des Plans de l’appel sera déployés et configurés.<li>Déterminer les fonctionnalités du système téléphonique seront déployées (décision de service).</li><li>Identifiez les exigences de fonctionnalités utilisateur pour l’appel des Plans ou routage Direct.</li><li>Identifier le besoin de configuration de service pour l’appel des Plans ou routage Direct.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Développez et documentez votre approche de plan de test.</li><li>Préparer votre environnement de service et les utilisateurs dans la portée de fonctionnalités de conférence Audio.</li><li>Préparer votre environnement de service et les utilisateurs dans l’étendue pour les fonctionnalités de routage Direct ou de Plans de l’appel.</li><li>Exécuter le test de validation pour les fonctionnalités de conférence Audio que vous souhaitez activer.</li><li>Exécuter le test de validation pour les fonctionnalités de routage Direct ou de Plans de l’appel que vous souhaitez activer.</li><li>Pour les échecs de test, vérifiez que votre configuration est correcte, passez en revue les articles de la Communauté, et, si nécessaire, génère une demande de support.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminer les fonctionnalités de conférence Audio seront déployées (décision de service).</li><li>Identifiez les exigences de fonctionnalités utilisateur pour une audioconférence.</li><li>Identifiez les exigences de configuration de service pour une audioconférence.</li><br><li>Décider si routage Direct ou des Plans de l’appel sera déployés et configurés.<li>Déterminer les fonctionnalités du système téléphonique seront déployées (décision de service).</li><li>Identifiez les exigences de fonctionnalités utilisateur pour l’appel des Plans ou routage Direct.</li><li>Identifier le besoin de configuration de service pour l’appel des Plans ou routage Direct.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Développez et documentez votre approche de plan de test.</li><li>Préparer votre environnement de service et les utilisateurs dans la portée de fonctionnalités de conférence Audio.</li><li>Préparer votre environnement de service et les utilisateurs dans l’étendue pour les fonctionnalités de routage Direct ou de Plans de l’appel.</li><li>Exécuter le test de validation pour les fonctionnalités de conférence Audio que vous souhaitez activer.</li><li>Exécuter le test de validation pour les fonctionnalités de routage Direct ou de Plans de l’appel que vous souhaitez activer.</li><li>Pour les échecs de test, vérifiez que votre configuration est correcte, passez en revue les articles de la Communauté, et, si nécessaire, génère une demande de support.</li></ul></td></tr>
 </table>
 
 

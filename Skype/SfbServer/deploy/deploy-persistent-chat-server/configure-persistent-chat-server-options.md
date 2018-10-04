@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Résumé : Apprenez à configurer les options de serveur de conversation permanente au niveau global, site ou au niveau du pool Skype pour Business Server 2015.'
-ms.openlocfilehash: 1da6acc83c051e2de3b2453aae04f40c5b18d456
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5d8bf63332ca991117e0fbd3beddc97855617274
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988838"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375999"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configuration des options de serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -57,8 +57,8 @@ Pour configurer les options globales du serveur de conversation permanente :
     
    - Dans **Historique de conversation par défaut**, définissez le nombre de messages de conversation traités pour chaque salle lors de la première demande. Par défaut, 30 messages seront traités. Il s’agit de la valeur par défaut globale : les administrateurs peuvent désactiver l’historique de conversation par catégorie.
     
-    > [!IMPORTANT]
-    > Persistent Chat Server met en cache les messages en mémoire, donc si vous augmentez ce numéro, plus de messages sont mis en cache. Vous pouvez toujours accéder au contenu de l’historique à l’aide de la recherche. Le nombre par défaut détermine simplement la quantité maximale de messages visibles initialement lors de la connexion à une salle de conversation. 
+     > [!IMPORTANT]
+     > Persistent Chat Server met en cache les messages en mémoire, donc si vous augmentez ce numéro, plus de messages sont mis en cache. Vous pouvez toujours accéder au contenu de l’historique à l’aide de la recherche. Le nombre par défaut détermine simplement la quantité maximale de messages visibles initialement lors de la connexion à une salle de conversation. 
   
    - Dans **Taille de fichier maximale (Ko)**, sélectionnez la taille de fichier maximale de chaque historique de conversation. Par défaut, la taille maximale est de 20 Mo (20 000 Ko). Il s’agit de la taille maximale de fichier qui peut être téléchargée dans une salle de conversation sur le système (pour lequel les téléchargements de fichiers sont activés à l’aide du paramètre **Catégorie** correspondant).
     
@@ -66,7 +66,7 @@ Pour configurer les options globales du serveur de conversation permanente :
     
    - (Facultatif). Dans l' **URL de gestion de salle**, sélectionnez l’URL de gestion de salle. Il s’agit de l’URL pour une gestion de salle de personnalisée basée sur le web. Si vous n’avez pas besoin de personnaliser la gestion de salle et que vous utilisez simplement le paramètre par défaut, laissez cette option vide. Une fois que l’URL est définie, elle est appliquée en tant que l’URL gestion salle internes et externes.
     
-    Si vous souhaitez personnaliser votre expérience de création de salle et inclure votre flux de travail spécifiques de l’entreprise, vous pouvez créer une solution de gestion de salle personnalisé à l’aide de la Persistent Chat Server logiciel Kit de développement (SDK), héberger quelque part et placez l’URL ici. Cette URL est envoyée au client, de sorte que lorsqu’un utilisateur essaie d’afficher ou de créer une salle, il est dirigé vers votre solution de gestion de salle personnalisée.
+     Si vous souhaitez personnaliser votre expérience de création de salle et inclure votre flux de travail spécifiques de l’entreprise, vous pouvez créer une solution de gestion de salle personnalisé à l’aide de la Persistent Chat Server logiciel Kit de développement (SDK), héberger quelque part et placez l’URL ici. Cette URL est envoyée au client, de sorte que lorsqu’un utilisateur essaie d’afficher ou de créer une salle, il est dirigé vers votre solution de gestion de salle personnalisée.
     
 7. Cliquez sur **Valider**.
     
@@ -90,8 +90,8 @@ Pour configurer les options pour un pool de serveurs de conversation permanente 
     
    - Dans **Historique de conversation par défaut**, définissez le nombre de messages de conversation traités pour chaque salle lors de la première demande. Par défaut, 30 messages seront traités. Il s’agit de la valeur par défaut globale : les administrateurs peuvent désactiver l’historique de conversation par catégorie.
     
-    > [!IMPORTANT]
-    > Persistent Chat Server met en cache les messages en mémoire, donc si vous augmentez ce numéro, plus de messages sont mis en cache. Vous pouvez toujours accéder au contenu de l’historique à l’aide de la recherche. Le nombre par défaut détermine simplement la quantité maximale de messages visibles initialement lors de la connexion à une salle de conversation. 
+     > [!IMPORTANT]
+     > Persistent Chat Server met en cache les messages en mémoire, donc si vous augmentez ce numéro, plus de messages sont mis en cache. Vous pouvez toujours accéder au contenu de l’historique à l’aide de la recherche. Le nombre par défaut détermine simplement la quantité maximale de messages visibles initialement lors de la connexion à une salle de conversation. 
   
    - Dans **Taille de fichier maximale (Ko)**, sélectionnez la taille de fichier maximale de chaque historique de conversation. Par défaut, la taille maximale est de 20 Mo (20 000 Ko). Il s’agit de la taille maximale de fichier qui peut être téléchargée dans une salle de conversation sur le système (pour lequel les téléchargements de fichiers sont activés à l’aide du paramètre **Catégorie** correspondant).
     
@@ -99,7 +99,7 @@ Pour configurer les options pour un pool de serveurs de conversation permanente 
     
    - Dans **URL de gestion de salle**, sélectionnez l’URL de gestion de salle. Il s’agit de l’URL d’un déploiement de salle personnalisé basé sur le web. Si vous n’avez pas besoin de personnaliser la gestion de salle et que vous utilisez simplement le paramètre par défaut, laissez cette option vide.
     
-    Si vous souhaitez personnaliser votre expérience de création de salle et inclure votre flux de travail spécifiques de l’entreprise, vous pouvez créer une solution de gestion de salle personnalisé à l’aide de la Persistent Chat Server logiciel Kit de développement (SDK), héberger quelque part et placez l’URL ici. Cette URL est envoyée au client de sorte que lorsqu’un utilisateur essaie de visualiser ou de créer une salle, il est dirigé vers votre solution de gestion de salle personnalisée.
+     Si vous souhaitez personnaliser votre expérience de création de salle et inclure votre flux de travail spécifiques de l’entreprise, vous pouvez créer une solution de gestion de salle personnalisé à l’aide de la Persistent Chat Server logiciel Kit de développement (SDK), héberger quelque part et placez l’URL ici. Cette URL est envoyée au client de sorte que lorsqu’un utilisateur essaie de visualiser ou de créer une salle, il est dirigé vers votre solution de gestion de salle personnalisée.
     
 7. Cliquez sur **Valider**.
     

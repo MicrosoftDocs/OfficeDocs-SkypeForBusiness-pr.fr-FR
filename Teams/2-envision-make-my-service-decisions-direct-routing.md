@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82063cc595694c2bf60c3f6af6ab550f647c05cd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1d79b6e0423ddb94b29a9d82ea1e6d6d1f173cf3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015324"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374441"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -51,6 +51,7 @@ Après avoir confirmé que votre organisation peut obtenir la fonctionnalité sy
 
 > [!TIP]
 > Voici un exemple d’une liste d’activation site routage Direct.
+> 
 > | **Bureau**                     | **Emplacement**   | **Service de système téléphonique** |
 > |--------------------------------|----------------|--------------------------|
 > | 1 Eppîng Road                | Australie      | Service PSTN hérité |
@@ -67,17 +68,18 @@ Système téléphonique, chaque utilisateur dans votre organisation doit dispose
 
 > [!NOTE]
 > Avec le routage Direct, vos utilisateurs peuvent continuer à l’aide de leurs propres numéros de téléphone, fourni par le fournisseur de services PSTN.
-
+> 
 > [!TIP]
 > Vous pouvez utiliser le modèle suivant pour documenter les détails de numéros de téléphone.
->|Utilisateur |Numéro de téléphone |
->|-----|-------------|
->|Emily Braun | + 44 23 4567 8901 |
->|Lidia Holloway | + 44 23 4567 89112 |
->|Louis Lahr | + 44 23 4567 8921 |
->|Marcel Beauchamp | TBA |
->|Rachelle Cormier | TBA |
->|Isabell Potvin | TBA |
+> 
+> |Utilisateur |Numéro de téléphone |
+> |-----|-------------|
+> |Emily Braun | + 44 23 4567 8901 |
+> |Lidia Holloway | + 44 23 4567 89112 |
+> |Louis Lahr | + 44 23 4567 8921 |
+> |Marcel Beauchamp | TBA |
+> |Rachelle Cormier | TBA |
+> |Isabell Potvin | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -96,6 +98,7 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 
 > [!TIP]
 > Téléphone les détails du système de la messagerie vocale pour l’implémentation des Plans de l’appel peuvent être documentés comme dans le tableau suivant.
+> 
 > | **Utilisateur**         | **Boîte aux lettres Exchange** | **Activer la messagerie vocale ?** | **Transcription de la messagerie vocale** | **Masquage de la messagerie vocale transcription gratuites** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
 > | Emily Braun      | En ligne               | Oui                   | Activé                     | Activé                                       |
@@ -104,7 +107,7 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 > | Marcel Beauchamp | Local          | Oui                   | Désactivé                    | N/D                                           |
 > | Rachelle Cormier | En ligne               | Oui                   | Désactivé                    | N/D                                           |
 > | Isabell Potvin   | Local          | Oui                   | Désactivé                    | N/D                                           |
-
+> 
 > [!NOTE]
 > Pour utiliser la messagerie vocale et les équipes, vos utilisateurs doivent disposer de boîtes aux lettres Exchange. Pour plus d’informations, voir [comment Exchange et les équipes Microsoft interagir](https://docs.microsoft.com/microsoftteams/exchange-teams-interact) .
 
@@ -201,6 +204,7 @@ Pour plus d’informations, voir [de signalisation SIP : noms de domaine comple
 
 > [!TIP]
 > Utilisez le modèle suivant pour documenter les détails SBC pour votre déploiement de routage Direct.
+> 
 > | **Nom DNS SBC (FQDN)** | **SBC marque et un modèle** | **Certificat** | **Emplacement**  | **Adresse IP** | **Port de signalisation SIP** | **NAT ?** | **Sessions simultanées maximales** | **Le contournement de média activé ?** |
 > |-------------------------|------------------------|-----------------|---------------|----------------|------------------------|----------|-----------------------------|---------------------------|
 > | SBC-Europe.contoso.com | TBD | \*. contoso.com | Amsterdam | TBD | TBD | Oui | TBD | Non |
@@ -240,13 +244,14 @@ Vous pouvez configurer vos itinéraires de communications vocales avec le routag
 
 > [!TIP]
 > Utilisez le modèle suivant pour documenter les stratégies de voix pour votre déploiement de routage Direct.
+> 
 > | **Utilisation PSTN** | **Itinéraire de communications vocales** | **Schéma de numéro** | **Priorité** | **SBC** | **Description** |
 > |----------------|-----------------|----------------------------|--------------|-----------------------------------|-----------------------------------------------------------------------------------------|
 > | Nous uniquement | « Redmond 1 » | \^\\+ 1 (425\|206) (\\d{7})\$ | 1 | sbc1.contoso.com sbc2.contoso.com | Itinéraire actif pour les numéros appelés XXX-XX-XX +1 425 ou XXX-XX-XX +1 206 |
 > | Nous uniquement | « Redmond 2 » | \^\\+ 1 (425\|206) (\\d{7})\$ | 2 | SBC3.contoso.com sbc4.contoso.com | Itinéraire alternatif pour les numéros appelés XXX-XX-XX +1 425 ou XXX-XX-XX +1 206 |
 > | Nous uniquement | « Autres + 1 » | \^\\+ 1 (\\d{10})\$ | 3 | sbc5.contoso.com sbc6.contoso.com | Routage de numéros appelés + 1 XXX XXX XX XX (sauf XXX-XX-XX +1 425 ou XXX-XX-XX +1 206) |
 > | International | International | \\+ d | 4 | sbc2.contoso.com sbc5.contoso.com | Itinéraire pour n’importe quel modèle de numéro |
-
+> 
 > [!IMPORTANT]
 > Les utilisations PSTN dans les stratégies de routage voix sont appliquées dans l’ordre, et si une correspondance est trouvée dans la première utilisation, les autres utilisations ne sont jamais évaluées.
 

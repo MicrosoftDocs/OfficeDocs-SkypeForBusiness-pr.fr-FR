@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lisez cette rubrique pour en savoir plus sur les étapes nécessaires pour déployer le contournement de média avec le nuage connecteur Edition version 2.0 et versions ultérieure.
-ms.openlocfilehash: ec6647c5d95701ea18a6d403132d50ae8e8ad8dc
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890641"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375498"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Déployer le contournement de média dans le nuage connecteur Edition
  
@@ -150,33 +150,33 @@ En utilisant la gestion du trafic basée sur la géolocalisation, les serveurs D
     
     Amsterdam
     
-  - Type A ;
+   - Type A ;
     
-  - Nom : hybridvoice dans l'étendue de zone DNS adatum.biz
+   - Nom : hybridvoice dans l'étendue de zone DNS adatum.biz
     
-  - Cible : 192.168.1.45
+   - Cible : 192.168.1.45
     
-    Créez des enregistrements supplémentaires pour les serveurs de médiation supplémentaires
+     Créez des enregistrements supplémentaires pour les serveurs de médiation supplémentaires
     
-  - 192.168.1.46
+   - 192.168.1.46
     
-  - 192.168.1.47
+   - 192.168.1.47
     
-  - 192.168.1.48
+   - 192.168.1.48
     
-    Seattle
+     Seattle
     
-  - Type A
+   - Type A
     
-  - Nom : hybridvoice dans l'étendue de zone DNS adatum.biz
+   - Nom : hybridvoice dans l'étendue de zone DNS adatum.biz
     
-  - Cible : 10.10.1.8
+   - Cible : 10.10.1.8
     
-    Créez des enregistrements supplémentaires pour les serveurs de médiation supplémentaires
+     Créez des enregistrements supplémentaires pour les serveurs de médiation supplémentaires
     
-  - 10.10.1.9
+   - 10.10.1.9
     
-  - 10.10.1.10
+   - 10.10.1.10
     
 4. Créez une stratégie DNS qui relie les sous-réseaux du client à l'étendue de zone appropriée pour assurer la résolution DNS souhaitée.
     

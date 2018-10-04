@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise Voice planification concepts de base dans Skype Business Server, y compris les sites, les régions, les liaisons réseau entre les sites et l’estimation du trafic de voix d’utilisation.
-ms.openlocfilehash: 3c5cad1b37b4f3bfe3fe73cad1d185b0116a68a0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: afff1ccffbc6e967f3b18b0746d29db9085fe82c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885336"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373705"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planifier Business Server pour Enterprise Voice sur Skype
  
@@ -41,9 +41,9 @@ Vous devez également prendre en compte l’utilisation de la bande passante que
 L’outil de planification, de Microsoft Lync Server 2013 utilise la mesure suivante pour estimer le trafic utilisateur sur chaque site et le nombre de ports requis pour prendre en charge de ce trafic.
   
 > Pour **Faible trafic** (1 appel PSTN par utilisateur et par heure), 15 utilisateurs par port.
-    
+> 
 > Pour **Trafic moyen** (2 appels PSTN par utilisateur et par heure), 10 utilisateurs par port.
-    
+> 
 > Pour **Trafic important** (au moins 3 appels PSTN par utilisateur et par heure), 5 utilisateurs par port.
     
 À son tour, le nombre de ports détermine le nombre de serveurs de médiation et passerelles qui seront requises. La taille des passerelles de réseau téléphonique commuté (PSTN) que la plupart des organisations envisagent de déployer peut aller de 2 à 960 ports. (Il existe des passerelles encore plus importantes, mais celles-ci sont principalement utilisées par des fournisseurs de services téléphoniques.)

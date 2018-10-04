@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Résumé : Passez en revue les considérations de composant réseau ci-dessous avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: 3b052977d605c923a333097ad073ad59d7d6a586
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ad0e3b48a320997ddce0559e388d5cfdcab861d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886360"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375081"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -77,6 +77,7 @@ Pour les réseaux d’entreprise où ne sécurité du protocole Internet (IPsec)
 Le tableau suivant présente les paramètres recommandés pour les exceptions IPsec.
 
 **Exceptions recommandées pour IPsec**
+
 |Nom de la règle |Adresse IP source |Adresse IP de destination |Protocole |Port source |Port de destination |Besoin d’authentification |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
 |Serveur Edge A/V, ports internes/entrants|Indifférente  |Serveur Edge A/V - interne|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|

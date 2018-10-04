@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Connexions SIP directes sont prises en charge entre Skype pour Business Server et les passerelles PSTN et IP-PBX dans Enterprise Voice.
-ms.openlocfilehash: a8af9b5a2809e175d861d3781c91ff1610c32db7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 041009c5299f441e1b0e1a05c2af1e855f13f2b8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889682"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374580"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Connexions SIP directes dans Skype pour Business Server
 
@@ -117,7 +117,7 @@ Voici les principales questions à prendre en compte. N’oubliez pas que les r�
 
 - Où les passerelles doivent se trouver ? La réponse dépend en partie de la topologie et en partie de la répartition géographique de votre organisation.
 
- Vous devez également tenir compte votre passerelle options de topologie (pour plus d’informations, consultez Topologies de passerelles plus loin dans cette rubrique).
+  Vous devez également tenir compte votre passerelle options de topologie (pour plus d’informations, consultez Topologies de passerelles plus loin dans cette rubrique).
 
 #### <a name="mn-trunk-support"></a>M:N Prise en charge des jonctions
 

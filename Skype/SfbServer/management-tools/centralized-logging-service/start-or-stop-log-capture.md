@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Résumé : Découvrez comment démarrer ou arrêter une session de capture des journaux de Service de journalisation centralisée dans Skype pour Business Server 2015.'
-ms.openlocfilehash: dee3a9cd1b5feaf241795de6595f755b3f321409
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: c0b65fddcb5036cf41866ce79d82ae0bc49a79e3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570156"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373763"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Début ou arrêt de la capture dʼun journal CLS dans Skype Entreprise Server 2015
  
@@ -36,15 +36,15 @@ Le Service de journalisation centralisée fournit deux méthodes pour envoyer de
     
 2. Démarrer un scénario de journalisation avec le Service de journalisation centralisée en tapant ce qui suit :
     
-  ```
-  Start-CsClsLogging -Scenario <name of scenario>
-  ```
+   ```
+   Start-CsClsLogging -Scenario <name of scenario>
+   ```
 
     Pour lancer le scénario **AlwaysOn**, par exemple, tapez :
     
-  ```
-  Start-CsClsLogging -Scenario AlwaysOn
-  ```
+   ```
+   Start-CsClsLogging -Scenario AlwaysOn
+   ```
 
     > [!NOTE]
     > Le scénario AlwaysOn n’a pas de durée par défaut. Ce scénario s’exécute jusqu'à ce que vous l’interrompiez explicitement avec l’applet de commande **Stop-CsClsLogging** . Pour plus d’informations, voir [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Pour tous les autres scénarios, la durée par défaut est de 4 heures. 
@@ -58,9 +58,9 @@ Le Service de journalisation centralisée fournit deux méthodes pour envoyer de
   
 4. Pour lancer un autre scénario, utilisez l’applet de commande **Start-CsClsLogging** avec le nom de ce scénario à exécuter comme suit (par exemple, le scénario **authentification**) :
     
-  ```
-  Start-CsClsLogging -Scenario Authentication
-  ```
+   ```
+   Start-CsClsLogging -Scenario Authentication
+   ```
 
     > [!IMPORTANT]
     > Deux scénarios peuvent s’exécuter sur un ordinateur donné à tout moment. Si l’étendue de la commande est globale, tous les ordinateurs dans votre déploiement exécuteront un scénario ou les deux. Pour lancer un troisième scénario, vous devez arrêter la journalisation sur l’ordinateur, le pool, le site ou l’étendue globale sur lequel vous souhaitez exécuter le nouveau scénario. Si vous avez lancé la commande pour une étendue globale, vous pouvez arrêter la journalisation pour un scénario ou les deux sur un ou plusieurs ordinateurs et pools. 
@@ -73,9 +73,9 @@ Le Service de journalisation centralisée fournit deux méthodes pour envoyer de
     
     Vous démarrez une session de journalisation pour le scénario UserReplicator sur le pool « pool01.contoso.net ». Vous définissez également la durée de la session de journalisation à 8 heures. Pour cela, tapez :
     
-  ```
-  Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
-  ```
+   ```
+   Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
+   ```
 
     L’exécution de ce scénario renvoie un résultat similaire à ce qui suit :
     
@@ -111,26 +111,26 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. Requête the Centralized Logging Service permettant de savoir quel scénarios sont en cours d’exécution en tapant la commande suivante :
     
-  ```
-  Show-CsClsLogging
-  ```
+   ```
+   Show-CsClsLogging
+   ```
 
-  ![Console Windows PowerShell après appel de Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Console Windows PowerShell après appel de Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-  Show-CsClsLogging affiche une synthèse des scénarios en cours d’exécution et de leur étendue d’application. Pour plus d’informations, voir [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
+   Show-CsClsLogging affiche une synthèse des scénarios en cours d’exécution et de leur étendue d’application. Pour plus d’informations, voir [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
     
 3. Pour arrêter une session de journalisation en cours avec un scénario spécifique, tapez :
     
-  ```
-  Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
-  ```
-  Exemple :
+   ```
+   Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
+   ```
+   Exemple :
     
-  ```
-  Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
-  ```
+   ```
+   Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
+   ```
 
-  Cette commande arrête la journalisation avec le scénario UserReplicatior sur pool01.contoso.net.
+   Cette commande arrête la journalisation avec le scénario UserReplicatior sur pool01.contoso.net.
     
     > [!NOTE]
     > Les journaux créés au cours de cette session de journalisation à l’aide du scénario UserReplicator sont conservés. Vous pouvez continuer à effectuer des recherches avec la journalisation à l’aide de la commande Search-CsClsLogging. Pour plus d’informations, consultez la rubrique [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
@@ -139,4 +139,4 @@ Faisant pendant à l’applet de commande Start-CsClsLogging, l’applet de comm
 ## <a name="see-also"></a>Voir aussi
 <a name="stop"> </a>
 
-[Service de journalisation centralisée dans Skype pour Business 2015](centralized-logging-service.md)
+[Service de journalisation centralisée pour Skype Entreprise 2015](centralized-logging-service.md)

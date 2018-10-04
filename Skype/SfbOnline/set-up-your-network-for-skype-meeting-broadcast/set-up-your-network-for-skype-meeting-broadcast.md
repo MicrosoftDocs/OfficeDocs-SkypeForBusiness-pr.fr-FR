@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: e1f10ad5036e2866cc480491e98bd2dd7396895a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7c22b4b0911935ffd90d10e65d2fff0d71018910
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862214"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374553"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Configurer votre réseau pour la Diffusion de réunion Skype
 
@@ -37,7 +37,7 @@ Pour ignorer cette étape et l’ajouter à la place une autre entreprise de vot
 
 Utilisez l' **une** des méthodes suivantes pour configurer des domaines autorisés :
 
-###
+## #
 
  **Méthode 1 : Utiliser le centre d’administration Office 365**
 
@@ -45,17 +45,17 @@ Utilisez l' **une** des méthodes suivantes pour configurer des domaines autoris
 
 2. Dans la page **partage externe** sous **exceptions du domaine**, sélectionnez **tous les domaines bloqués à l’exception**, puis entrez les domaines suivants, séparés par une virgule (,) :
 
-  - noammeetings.Lync.com
+   - noammeetings.Lync.com
 
-  - emeameetings.Lync.com
+   - emeameetings.Lync.com
 
-  - apacmeetings.Lync.com
+   - apacmeetings.Lync.com
 
-  - Resources.Lync.com
+   - Resources.Lync.com
 
 3. Cliquez sur **Enregistrer**.
 
-###
+## #
 
  **Méthode 2 : Utiliser Windows PowerShell**
 

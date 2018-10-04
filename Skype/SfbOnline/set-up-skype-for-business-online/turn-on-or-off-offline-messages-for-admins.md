@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 653bde65bb5ba0fa7bc736de0e01979cf55ed63b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 6722f68da55ef9a9db7783727aaf010cd5df39ed
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860912"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374178"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activation ou désactivation des messages hors connexion pour les administrateurs
 
@@ -40,7 +40,7 @@ Pour plus d’informations, voir [utiliser la messagerie en mode hors connexion 
 
 ## <a name="to-get-you-started"></a>Pour commencer
 
-###
+## #
 
  **Vérifiez que vous exécutez la version 3.0 ou une version ultérieure de Windows PowerShell**
 
@@ -54,7 +54,7 @@ Pour plus d’informations, voir [utiliser la messagerie en mode hors connexion 
 
 Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
 
-###
+## #
 
  **Démarrez une session Windows PowerShell**
 
@@ -97,7 +97,7 @@ Pour activer ou désactiver l’envoi des Messages en mode hors connexion en mod
   Grant -CsClientPolicy -Identity "Tony Smith" - PolicyName OfflineIM
   ```
 
-## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
+## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
 - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
 

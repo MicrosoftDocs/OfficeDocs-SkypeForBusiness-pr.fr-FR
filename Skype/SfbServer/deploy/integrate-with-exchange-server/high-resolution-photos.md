@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Résumé : Configurez l’utilisation de photos haute résolution dans Exchange Server 2016 ou Exchange Server 2013 et Skype pour Business Server.'
-ms.openlocfilehash: 224c8dc238d8427deddc706b883614fd04c9b133
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 47e9e0f4d2d1c49a7d3fe916cbffa8e87d1b277b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007236"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375854"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Configurer l’utilisation de photos haute résolution dans Skype pour Business Server
  
@@ -37,7 +37,7 @@ Photos haute résolution, qui sont accessibles à l’aide des Services Web Exch
   
 ```
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
-Set-UserPhoto -Identity "Ken Myer" -PictureData -Preview $photo -Confirm:$False
+Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Preview -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 

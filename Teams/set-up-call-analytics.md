@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurer et utiliser Analytique appeler pour identifier et résoudre les problèmes de Skype pour professionnels et Microsoft Teams problèmes de qualité d’appel.
-ms.openlocfilehash: 1e7c7eaa769ba1e08a46b539b15e673d35891f5c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ff1323ad94381119dc9651d353d57988f0ff5876
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016908"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375900"
 ---
 # <a name="set-up-call-analytics"></a>Configurer Analytique d’appel
 
@@ -81,7 +81,7 @@ Gérer les agents de support technique de niveau 1 des problèmes fondamentaux d
     
      ![Capture d’écran montre la page autorisations pour appeler les Analytique avec les options pour les autorisations de niveau 1 et niveau 2.](media/setup-call-analytics-image1.png)
   
- Les utilisateurs avec une de ces niveaux d’autorisation accéder à appeler l’Analytique via l’URL dédié *https://adminportal.services.skypeforbusiness.com*.
+   Les utilisateurs avec une de ces niveaux d’autorisation accéder à appeler l’Analytique via l’URL dédié *https://adminportal.services.skypeforbusiness.com*.
   
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Télécharger un fichier .tsv ou .csv pour ajouter la création de sites et informations des clients
 <a name="BKMK_UploadFiles"> </a>
