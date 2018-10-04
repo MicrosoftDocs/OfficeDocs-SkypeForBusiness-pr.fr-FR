@@ -4,12 +4,12 @@ hide_bc: true
 title: Documentation de Microsoft Teams et guide pratique
 description: Documentation de Microsoft Teams et guide pratique
 ms.topic: hub-page
-ms.openlocfilehash: 6f4ba9227e383039968e9fa84321c9ec0628d7f5
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 60f174ab661537e398292ac222ceae839e373fac
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843780"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372387"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -109,7 +109,7 @@ ms.locfileid: "23843780"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Sécurité &amp; conformité</h3>
-                                                    <p>Teams est basé sur le cloud Office 365, ce qui signifie qu’il dispose de la sécurité et de la conformité au niveau de l’entreprise dont vous avez besoin.</p>
+                                                    <p>Les équipes repose sur le nuage Office 365, ce qui signifie qu’il les fonctionnalités de la sécurité de niveau entreprise &amp; dont vous avez besoin de conformité</p>
                                                 </div>
                                             </div>
                                         </div>

@@ -13,12 +13,12 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: 3ec47c32dec98f0e72c1f0274893dfcf2764dc5e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 6393cf6b3ffce8139272e7d00df0b389b4c9eeb5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860998"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372249"
 ---
 # <a name="skype-for-business-online-admin"></a>Administration de Skype Entreprise Online
 
@@ -54,7 +54,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Nous sommes là pour vous aider !</h3>
+                        <h3>Nous & #39 ; re ici pour aider à</h3>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
 
 ---
 
-<h2>Quelles sont les nouveautés</h2>
+<h2>Quel & #39 ; s nouveau</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -236,7 +236,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardText">
                         <h3>Système téléphonique</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Qu'est-ce que le système téléphonique dans Office 365 ?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Voici les avantages du système téléphonique dans Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Qu'est-ce que le système téléphonique dans Office 365 ?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Voici & #39 ; s vous obtenez avec un système téléphonique dans Office 365</a></p>
                </div>
                 </div>
             </div>
