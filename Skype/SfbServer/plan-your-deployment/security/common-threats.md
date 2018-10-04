@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Skype pour Business Server étant un système de communications d’entreprise, vous devez être conscient des attaques de sécurité courantes susceptibles d’affecter son infrastructure et les communications.
-ms.openlocfilehash: 59f65a6a9a4d56850908fa0749e4a672b23b7a85
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5609fda3fd3d58a5e5ed5df34c1c5e39e7843e85
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967826"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373063"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Menaces fréquentes pour la sécurité dans l’informatique moderne
  
@@ -101,9 +101,9 @@ Les tableaux suivants répertorient les données exposées sur un réseau public
    
 **Données obligatoires**
 
-|**Données divulguées**|**Exemples d’informations**|
-|:-----|:-----|
-|Adresse IP  <br/> |Adresse réelle de l’ordinateur ou adresse traduite via NAT  <br/> |
-|URI SIP  <br/> |jeremylos@litwareinc.com  <br/> |
-   
+
+| **Données divulguées** | **Exemples d’informations**                            |
+|:-------------------|:---------------------------------------------------|
+| Adresse IP  <br/>  | Adresse réelle de l’ordinateur ou adresse traduite via NAT  <br/> |
+| URI SIP  <br/>     | jeremylos@litwareinc.com  <br/>                    |
 

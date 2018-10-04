@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Cet article explique les préparations de l’infrastructure pour le déploiement de systèmes de salle Skype v2.
-ms.openlocfilehash: 8b31889d70dae54736648905204b721127b668f1
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 24ad623b81df5735c9034d8526e6b028e82dfb83
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965981"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371881"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -26,24 +26,24 @@ Cette section contient une vue d’ensemble des étapes requises pour préparer 
     
 2. Vérifiez qu’une connexion réseau/Internet fonctionne et peut être utilisée par l’appareil.  
     
-  - Il doit être en mesure de recevoir une adresse IP à l’aide de DHCP (Remarque : Skype salle systèmes v2 ne peut pas être configuré avec une adresse IP statique au premier démarrage de l’unité)
+   - Il doit être en mesure de recevoir une adresse IP à l’aide de DHCP (Remarque : Skype salle systèmes v2 ne peut pas être configuré avec une adresse IP statique au premier démarrage de l’unité)
     
-  - Les ports suivants doivent être ouverts (en plus de l’ouverture des ports normaux pour le support de Skype Entreprise) :
+   - Les ports suivants doivent être ouverts (en plus de l’ouverture des ports normaux pour le support de Skype Entreprise) :
     
-  - HTTPS : 443
+   - HTTPS : 443
     
-  - HTTP : 80
+   - HTTP : 80
     
-  - Si votre réseau fonctionne via un proxy, vous aurez également besoin de l’adresse du proxy ou des informations de script.
+   - Si votre réseau fonctionne via un proxy, vous aurez également besoin de l’adresse du proxy ou des informations de script.
     
-    > [!NOTE]
-    > Systèmes de salle Skype v2 ne prend pas en charge entrée HDCP, qui a été observée pour provoquer des problèmes avec HDMI acquisition des fonctionnalités (vidéo, audio). Veiller à ce que les commutateurs connectés à des systèmes de salle Skype v2 ont options HDCP désactivées. 
+     > [!NOTE]
+     > Systèmes de salle Skype v2 ne prend pas en charge entrée HDCP, qui a été observée pour provoquer des problèmes avec HDMI acquisition des fonctionnalités (vidéo, audio). Veiller à ce que les commutateurs connectés à des systèmes de salle Skype v2 ont options HDCP désactivées. 
   
 3. Pour améliorer votre expérience, Microsoft collecte des données. Pour collecter des données, les sites suivants doivent figurer dans la liste approuvée :
     
-  - Point de terminaison client télémétrie :https://vortex.data.microsoft.com/
+   - Point de terminaison client télémétrie :https://vortex.data.microsoft.com/
     
-  - Point de terminaison de télémétrie paramètres :https://settings.data.microsoft.com/
+   - Point de terminaison de télémétrie paramètres :https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>Création et test d’un compte d’appareil
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Résumé : Découvrez comment gérer les serveurs de conversation permanente haute disponibilité et récupération d’urgence dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 3c3da985f8d68f257257909fbc06e93868233468
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 477897362a01ae3ac6097c50eaed8f9ece31f49d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008222"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371633"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Gestion de la haute disponibilité et de la récupération d’urgence du serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -48,15 +48,15 @@ Basculer vers un serveur de conversation permanente :
   
 1. Supprimer des journaux de transaction de la base de données Persistent Chat Server sauvegarde l’envoi de journaux.
     
-  - À l’aide de SQL Server Management Studio, connectez-vous à l’instance de base de données où se trouve la base de données mgc de sauvegarde Persistent Chat Server.
+   - À l’aide de SQL Server Management Studio, connectez-vous à l’instance de base de données où se trouve la base de données mgc de sauvegarde Persistent Chat Server.
     
-  - Ouvrez une fenêtre de requête pour la base de données principale.
+   - Ouvrez une fenêtre de requête pour la base de données principale.
     
-  - Utilisez la commande suivante pour annuler la copie des journaux de transaction :
+   - Utilisez la commande suivante pour annuler la copie des journaux de transaction :
     
-  ```
-  exec sp_delete_log_shipping_secondary_database mgc
-  ```
+   ```
+   exec sp_delete_log_shipping_secondary_database mgc
+   ```
 
 2. Copiez tous les fichiers de sauvegarde non copiés se trouvant sur le partage de sauvegarde vers le dossier de destination de la copie du serveur de sauvegarde.
     
@@ -64,15 +64,15 @@ Basculer vers un serveur de conversation permanente :
     
 4. Mettez en ligne la base de données mgc de sauvegarde. Dans la fenêtre de requête ouverte à l’étape 1b, procédez comme suit :
     
-  - Mettez fin à toutes les connexions à la base de données mgc, le cas échéant :
+   - Mettez fin à toutes les connexions à la base de données mgc, le cas échéant :
     
-  - **exec sp_who2** pour identifier les connexions à la base de données mgc.
+   - **exec sp_who2** pour identifier les connexions à la base de données mgc.
     
-  - **kill \<spid\> ** pour mettre fin à ces connexions.
+   - **kill \<spid\> ** pour mettre fin à ces connexions.
     
-  - Mettez en ligne la base de données :
+   - Mettez en ligne la base de données :
     
-  - **restaurer la base de données mgc avec récupération**.
+   - **restaurer la base de données mgc avec récupération**.
     
 5. Dans Skype pour Business Server Management Shell, utilisez la commande **Set-CsPersistentChatState-Identity « service : atl-cs-001.litwareinc.com » - PoolState FailedOver** pour faire basculer la base de données mgc sauvegarde. Veillez à remplacer le nom de domaine complet de votre pool de conversation permanente par atl-cs-001.litwareinc.com.
     

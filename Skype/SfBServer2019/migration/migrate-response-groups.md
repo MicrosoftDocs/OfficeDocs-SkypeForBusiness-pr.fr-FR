@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Une fois que vos utilisateurs sont déplacés vers Skype pour les pools d’entreprise Server 2019, vous pouvez migrer vos groupes Response Group. Migration de Response Group groupes comprend la copie des groupes d’agents, les files d’attente, les flux de travail, les fichiers audio et déplacer les objets de contact de Response Group à partir du déploiement hérité vers le Skype pour Business Server 2019 pool. Après avoir fait migrer vos groupes Response Group hérités, les appels vers les groupes Response Group sont gérés par l’application Response Group dans le Skype pour Business Server 2019 pool. Les appels vers les groupes Response Group sont ne sont plus gérés par le pool hérité.
-ms.openlocfilehash: bdff9b96b73e925fb68b4a2f9bebb9b23edb4b56
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 89149210e8041fbc84834cec83e1c1fe13d0765c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028018"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372936"
 ---
 # <a name="migrate-response-groups"></a>Migrer des groupes de réponses
 
@@ -56,15 +56,15 @@ La procédure suivante pour migrer des configurations Response Group suppose que
     
 3. Exécutez :
     
-  ```
-  Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
-  ```
+   ```
+   Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
+   ```
 
     Par exemple :
     
-  ```
-  Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
-  ```
+   ```
+   Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
+   ```
 
 4. Après avoir migré les groupes de réponses et les agents à la Skype pour le pool d’entreprise Server 2019, l’URL que les agents utilisent pour se connecter et se déconnecter est un Skype pour Business 2019 URL et est disponible dans le menu **Outils** . Rappeler les agents à mettre à jour toutes les références, telles que des signets, vers la nouvelle URL. 
     
@@ -90,31 +90,31 @@ La procédure suivante pour migrer des configurations Response Group suppose que
     
     Pour plus d’informations sur les applets de commande suivantes, exécutez :
     
-  ```
-  Get-Help <cmdlet name> -Detailed
-  ```
+   ```
+   Get-Help <cmdlet name> -Detailed
+   ```
 
 3. Exécutez :
     
-  ```
-  Get-CsRgsAgentGroup
-  ```
+   ```
+   Get-CsRgsAgentGroup
+   ```
 
 4. Vérifiez que tous les groupes d’agents de votre environnement hérité sont inclus dans la liste.
     
 5. Exécutez :
     
-  ```
-  Get-CsRgsQueue
-  ```
+   ```
+   Get-CsRgsQueue
+   ```
 
 6. Vérifiez que toutes les files d’attente dans votre environnement hérité sont inclus dans la liste.
     
 7. Exécutez :
     
-  ```
-  Get-CsRgsWorkflow
-  ```
+   ```
+   Get-CsRgsWorkflow
+   ```
 
 8. Vérifiez que tous les flux de travail de votre environnement hérité est inclus dans la liste.
     

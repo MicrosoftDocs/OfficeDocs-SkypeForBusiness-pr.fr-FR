@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Modifier les paramètres de résilience et de configurer les propriétés suivantes :'
-ms.openlocfilehash: b4394ae2a7244ae818335bd7c4b21c6d8930f03d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: db69f930dfa747e7537e529ede3b90405867ca27
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260670"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372705"
 ---
 # <a name="registrar-sba-settings-expander"></a>Expanseur des paramètres du serveur d’inscriptions SBA
 
@@ -32,11 +32,11 @@ Modifier les paramètres de **résilience** et de configurer les propriétés su
     > [!CAUTION]
     > Le nombre de secondes que vous définissez pour les intervalles de basculement et de restauration doit être testé avec soin pour vous assurer que la résilience fonctionne comme prévu. Définir l’intervalle à faible (autrement dit, moins de 120 secondes) ou le basculement et la restauration définir trop près peuvent entraîner le basculement réel et la restauration automatique ne fonctionne ne pas comme prévu.
 
- **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
+  **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
 
- **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
+  **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
 
- **Aide** : permet d’afficher cet écran d’aide.
+  **Aide** : permet d’afficher cet écran d’aide.
 
 ## <a name="see-also"></a>Voir aussi
 

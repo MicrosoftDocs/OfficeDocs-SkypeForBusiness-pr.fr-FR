@@ -13,12 +13,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a83382ff46e5a698e3755f2c1d2d859dddd65f0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0b89d75f07ecfac6e37f33c27a9272187b0794a6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013200"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371505"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Définition de vos paramètres de mise à niveau et de coexistence
 
@@ -57,13 +57,13 @@ Paramètres assignés à un niveau de l’utilisateur sont prioritaires sur les 
 
 1. Dans la navigation de gauche, accédez à des **utilisateurs**, puis sélectionnez l’utilisateur dans la liste. 
 2. Sous l’onglet **compte** pour l’utilisateur, sous **mise à niveau des équipes**, cliquez sur **Modifier**.
-- Vous pouvez définir le **mode de Coexistence**. Choisissez parmi les options suivantes :
-    - **Paramètres d’utilisation à l’échelle de l’organisation** - Utilisez ce paramètre si vous souhaitez que l’utilisateur à utiliser les paramètres dans les paramètres **au niveau de l’organisation** . 
-    - **(Îles)** - Utilisez ce paramètre si vous souhaitez que l’utilisateur pour être en mesure d’utiliser les deux Skype pour professionnels et les équipes. 
-    - **Skype pour les entreprises uniquement** - Utilisez ce paramètre si vous souhaitez que l’utilisateur d’utiliser Skype pour les entreprises. 
-    - Les **équipes uniquement** - Utilisez ce paramètre si vous souhaitez que l’utilisateur à utiliser uniquement les équipes. L’utilisateur sera toujours en mesure de joindre Skype pour les réunions d’entreprise.
-3. Si vous sélectionnez un **mode de Coexistence** autres que les **paramètres d’utilisation à l’échelle de l’organisation**, vous avez la possibilité d’activer les notifications de Skype l’utilisateur pour l’application de gestion de mise à niveau pour les équipes est bientôt disponible. Vous pouvez activer cette notification de l’utilisateur à activer l’option **notifier le Skype pour l’utilisateur d’entreprise** .
-4. Une fois que vous apportez vos modifications, cliquez sur **Enregistrer** .
+3. Vous pouvez définir le **mode de Coexistence**. Choisissez parmi les options suivantes :
+     - **Paramètres d’utilisation à l’échelle de l’organisation** - Utilisez ce paramètre si vous souhaitez que l’utilisateur à utiliser les paramètres dans les paramètres **au niveau de l’organisation** . 
+     - **(Îles)** - Utilisez ce paramètre si vous souhaitez que l’utilisateur pour être en mesure d’utiliser les deux Skype pour professionnels et les équipes. 
+     - **Skype pour les entreprises uniquement** - Utilisez ce paramètre si vous souhaitez que l’utilisateur d’utiliser Skype pour les entreprises. 
+     - Les **équipes uniquement** - Utilisez ce paramètre si vous souhaitez que l’utilisateur à utiliser uniquement les équipes. L’utilisateur sera toujours en mesure de joindre Skype pour les réunions d’entreprise.
+4. Si vous sélectionnez un **mode de Coexistence** autres que les **paramètres d’utilisation à l’échelle de l’organisation**, vous avez la possibilité d’activer les notifications de Skype l’utilisateur pour l’application de gestion de mise à niveau pour les équipes est bientôt disponible. Vous pouvez activer cette notification de l’utilisateur à activer l’option **notifier le Skype pour l’utilisateur d’entreprise** .
+5. Une fois que vous apportez vos modifications, cliquez sur **Enregistrer** .
 
 ### <a name="related-topics"></a>Rubriques connexes
 [Planifier le voyage](upgrade-plan-journey.md)

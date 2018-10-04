@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planification de routage par emplacement pour les conférences dans Skype pour Business Server Enterprise Voice, y compris appel consultatif transfère.
-ms.openlocfilehash: 97ceaeb4f7e6e24cdffe3f1fd8c737de2e429e17
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888359"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373241"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Routage par emplacement pour les conférences dans Skype pour Business Server
 
@@ -47,6 +47,7 @@ Routage basé sur un emplacement pour l’application de conférence empêche la
 Ces restrictions de routage en fonction de conférence sont résumées dans le tableau suivant.
 
 | |
+
 |**Utilisateur(s) dans une conférence à un moment donné**|**Utilisateur(s) autorisés à rejoindre la conférence**|**Utilisateur(s) non autorisés à rejoindre la conférence**|
 |:-----|:-----|:-----|
 |Skype pour VoIP Business client ou les utilisateurs d’un site réseau unique  <br/> |Skype pour l’utilisateur du client à partir du même site réseau VoIP d’entreprise  <br/> Skype pour l’utilisateur du client à partir d’un site autre réseau VoIP d’entreprise  <br/> Skype pour l’utilisateur du client VoIP d’entreprise à partir d’un site réseau inconnu  <br/> Skype fédéré pour l’utilisateur du client VoIP d’entreprise  <br/> Utilisateur rejoignant la conférence à partir d’un point de terminaison PSTN  <br/> |Aucune  <br/> |
@@ -141,7 +142,7 @@ Par exemple, si l’application « UdcAgent » a une valeur de priorité de «
 
 Après avoir trouvé la valeur de priorité approprié pour le routage basé sur l’emplacement pour l’application de conférence, tapez l’applet de commande pour chaque pool frontal ou serveur Standard Edition Server que les utilisateurs particuliers activés pour le routage basé sur l’emplacement suivant :
 
-New-CsServerApplication-identité Service : Registrar :<Pool FQDN>/LBRouting-priorité <Application Priority> -Enabled $true-critique $true - Uri https://www.microsoft.com/LCS/LBRoutingFor exemple :
+New-CsServerApplication-identité Service : Registrar :<Pool FQDN>/LBRouting-priorité <Application Priority> -Enabled $true-critique $true - Uri <https://www.microsoft.com/LCS/LBRoutingFor> exemple :
 
 New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-priorité 3 - $true activé-critique $true - Uri https://www.microsoft.com/LCS/LBRoutingAfter à l’aide de cette applet de commande, redémarrez tous les serveurs frontaux dans le pool ou les serveurs Standard Edition Server où le Emplacement de routage pour l’application de conférence a été activé.
 

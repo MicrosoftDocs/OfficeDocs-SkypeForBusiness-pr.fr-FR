@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8521816fe8aaa74c45028d962d024ab4bfd1b467
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d6e25d8e4d28a40bed33483d3ebdd6b5499f9ec1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013986"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372021"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
@@ -90,15 +90,17 @@ La figure suivante indique le flux d’ingestion des équipes de réunions et de
 
 En ce qui concerne les fonctionnalités de protection des informations, les abonnements Office 365 et les licences autonomes associées détermineront l'ensemble de fonctionnalités disponibles.
 
-|Fonctionnalité de protection des informations   |Office 365 Business Essentials   |Office 365 Business Premium   |Office 365 Entreprise E1   |Office 365 Entreprise E3/E4   |Office 365 Entreprise E5   |
-|---|---|---|---|---|---|
-|Archivage|-  |-   |-   |Oui   |Oui   |
-|eDiscovery en place|-   |-   |-   |Oui   |Oui   |
-|eDiscovery avancée|-   |-   |-   |-   |Oui   |
-|Conservation légale|-   |-   |-   |Oui   |Oui   |
-|Recherche de contenu de conformité|- |- |- |Oui |Oui |
-|Audit et rapports|Oui |Oui |Oui |Oui |Oui |
-|Accès conditionnel* |Oui |Oui |Oui |Oui |Oui |
+
+| Fonctionnalité de protection des informations | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Entreprise E1 | Office 365 Entreprise E3/E4 | Office 365 Entreprise E5 |
+|-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
+|              Archivage              |               -                |              -              |            -             |             Oui             |           Oui            |
+|        eDiscovery en place        |               -                |              -              |            -             |             Oui             |           Oui            |
+|        eDiscovery avancée        |               -                |              -              |            -             |              -              |           Oui            |
+|            Conservation légale             |               -                |              -              |            -             |             Oui             |           Oui            |
+|     Recherche de contenu de conformité     |               -                |              -              |            -             |             Oui             |           Oui            |
+|      Audit et rapports       |              Oui               |             Oui             |           Oui            |             Oui             |           Oui            |
+|       Accès conditionnel\*        |              Oui               |             Oui             |           Oui            |             Oui             |           Oui            |
+
 > [!NOTE]
 > \*L'accès conditionnel requiert d'autres licences
 

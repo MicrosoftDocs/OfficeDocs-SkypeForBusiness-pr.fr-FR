@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instructions pour configurer le connecteur de données d’appel, qui permet de télémétrie à partir de Skype pour Business locale pour être affichés à l’aide de Skype pour les outils professionnels en ligne.
-ms.openlocfilehash: 38e74e76e09d03036419f16807841a67fdf3433a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7c64ff1cfb7c300c575fb1b4512c590d1ddb867d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030573"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373298"
 ---
 # <a name="configure-call-data-connector"></a>Configurer le connecteur de données d’appel
 
@@ -99,7 +99,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 ```
 
 En plus des paramètres globaux, les paramètres de configuration de connecteur de données d’appel peuvent être attribués au niveau du site. Cela offre la souplesse de gestion supplémentaires lorsqu’il s’agit de surveillance. Par exemple, un administrateur peut activer le transfert d’appel de connecteur de données pour le site Redmond mais désactiver le transfert d’appel de connecteur de données pour le site de Dublin, comme illustré dans l’exemple suivant :
-  
+
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
 ```
@@ -111,6 +111,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 (Les paramètres configurés au niveau du site sont prioritaires sur les paramètres configurés au niveau global.) Par exemple, supposons que le transfert d’appel de connecteur de données est activée dans l’étendue globale, mais désactivé au niveau du site (pour le site de Redmond). Ce qui signifie que les appels enregistrement des détails et informations QoE n’est pas transférés pour les utilisateurs du site de Redmond. Cependant, les utilisateurs d’autres sites (autrement dit, les utilisateurs gérés par les paramètres globaux plutôt que les paramètres du site Redmond) auront leur enregistrement des détails des appels et les informations QoE transféré.
 
 Valeurs pour les paramètres fréquemment utilisés par le connecteur de données d’appel sont indiqués dans le tableau suivant :  
+
 |Propriété|Description|Valeur par défaut|
 |:-----|:-----|:-----|
 |EnableCallDataConnector  <br/> |Indique si le connecteur de données d’appel est activée. Si True, surveillance des enregistrements est transféré à l’analyse en ligne.  <br/> |$False  <br/> |
@@ -121,7 +122,7 @@ Valeurs pour les paramètres fréquemment utilisés par le connecteur de donnée
 Désactivation de connecteur de données d’appel dissocier pas au magasin d’analyse à partir du pool frontal, ni ne désinstaller affecter la base de données de surveillance de serveur principal. Lorsque vous désactivez le connecteur de données d’appel, vous arrêtez Skype pour Business Server à partir du téléchargement de données de l’appel vers le nuage. 
 
 Vous désactivez appeler un connecteur de données à l’aide de l’applet de commande Set-CsCloudCallDataConnectorConfiguration à partir de la Skype pour shell de gestion Business Server. Par exemple, la commande suivante désactive le connecteur de données d’appel dans l’étendue globale en définissant la propriété EnableCallDataConnector sur $False :
-  
+
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
 ```
@@ -140,7 +141,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 ## <a name="for-more-information"></a>Pour plus d'informations
 
 Pour plus d’informations sur les applets de commande, vous pouvez utiliser la commande Get-Help le Skype pour Business Server Management Shell. Par exemple :
-  
+
 Get-Help Get-CsCloudCallDataConnector | plus
 
 Get-Help Set-CsCloudCallDataConnector | plus

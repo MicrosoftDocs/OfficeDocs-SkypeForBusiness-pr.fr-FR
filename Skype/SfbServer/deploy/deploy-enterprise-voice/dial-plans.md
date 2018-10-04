@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Résumé : Apprenez à créer ou modifier un plan de numérotation à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 8c4a8013268c878390fdcea08dc79e094d8fa4dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dc60b2b2f922e5f6581f6742d055243ccfe06113
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884256"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371067"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Créer ou modifier un plan de numérotation dans Skype pour Business Server
 
@@ -38,8 +38,8 @@ ms.locfileid: "23884256"
 
    - **Plan de numérotation de l’utilisateur** peut s’appliquer à des utilisateurs ou des groupes spécifiques.
 
-    > [!NOTE]
-    > Vous ne pouvez pas modifier l’étendue du plan de numérotation que vous avez sélectionnée.
+     > [!NOTE]
+     > Vous ne pouvez pas modifier l’étendue du plan de numérotation que vous avez sélectionnée.
 
 4. Si vous créez le plan de numérotation d’un utilisateur, entrez un nom descriptif dans le champ **Nom** de la boîte de dialogue **Nouveau plan de numérotation**. Une fois enregistré, ce nom ne peut pas être modifié.
 
@@ -48,8 +48,8 @@ ms.locfileid: "23884256"
 
 5. Le champ **Nom simple** contient déjà le nom qui figure dans le champ **Nom**. Si vous le souhaitez, vous pouvez modifier ce champ pour spécifier un nom qui reflète mieux le site, le service ou l’utilisateur auquel le plan de numérotation s’applique.
 
-    > [!IMPORTANT]
-    > Le **nom Simple** doit être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas dépasser 256 caractères Unicode, chacun d'entre eux peut être des caractères alphabétiques ou numériques, un trait d’union (-), un point (.) ou un trait de soulignement (_). > caractères **non pris en charge** comprennent les espaces et les caractères réservés comme défini dans RFC 3966 (http://www.ietf.org/rfc/rfc3966.txt). Des caractères réservés sont **pas pris en charge** dans le **Nom Simple** sont les suivants : > « ; » « / » « ? » « : » « @ » «&amp;» « = » « + « « $», » »
+   > [!IMPORTANT]
+   > Le **nom Simple** doit être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas dépasser 256 caractères Unicode, chacun d'entre eux peut être des caractères alphabétiques ou numériques, un trait d’union (-), un point (.) ou un trait de soulignement (_). > caractères **non pris en charge** comprennent les espaces et les caractères réservés comme défini dans RFC 3966 (<http://www.ietf.org/rfc/rfc3966.txt>). Des caractères réservés sont **pas pris en charge** dans le **Nom Simple** sont les suivants : > « ; » « / » « ? » « : » « @ » «&amp;» « = » « + « « $», » »
 
 6. (Facultatif) Dans le champ **Description**, vous pouvez taper des informations descriptives supplémentaires concernant le plan de numérotation.
 
@@ -94,7 +94,7 @@ ms.locfileid: "23884256"
 
 ### <a name="to-modify-a-dial-plan"></a>Pour modifier un plan de numérotation
 
-1.  Ouvrez une session l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, voir **Delegate Setup Permissions**.
+1. Ouvrez une session l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, voir **Delegate Setup Permissions**.
 
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
 
@@ -134,8 +134,8 @@ ms.locfileid: "23884256"
 
    - Pour supprimer une règle de normalisation du plan de numérotation, mettez en surbrillance le nom de la règle et cliquez sur **Supprimer**.
 
-    > [!NOTE]
-    > Chaque plan de numérotation doit être associé à au moins une règle de normalisation. Pour plus d’informations sur la façon de déterminer toutes les règles de normalisation un numérotation plan nécessite, voir [Plan for vocaux sortants routage dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) dans la documentation de planification.
+     > [!NOTE]
+     > Chaque plan de numérotation doit être associé à au moins une règle de normalisation. Pour plus d’informations sur la façon de déterminer toutes les règles de normalisation un numérotation plan nécessite, voir [Plan for vocaux sortants routage dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) dans la documentation de planification.
 
 10. Vérifiez que les règles de normalisation du plan numérotation sont organisées dans l’ordre correct. Pour modifier la position d’une règle dans la liste, mettez en surbrillance le nom de la règle et cliquez sur l’ou flèche vers le bas.
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Créer ou modifier une table de plage des orbites de parcage d’appel dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 8c9ff275e384148fb6e40f96bd26e7273809f25a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6892c48c95b7c5e84242a1456855e869a70e532b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883879"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370690"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Créer ou modifier une plage d’orbites de parcage d’appel dans Skype pour les entreprises
 
@@ -46,12 +46,12 @@ Pour créer ou modifier une plage d’orbites de parcage d’appel, utilisez l�
 
 4. Dans la page **Parcage d’appel**, effectuez l’une des opérations suivantes :
 
-  - Pour créer une plage d’orbites, cliquez sur **Nouveau**. Dans **Nom**, tapez un nom permettant d’identifier cette plage de numéros.
+   - Pour créer une plage d’orbites, cliquez sur **Nouveau**. Dans **Nom**, tapez un nom permettant d’identifier cette plage de numéros.
 
-    > [!NOTE]
-    > Une fois que vous avez validé la plage d’orbites dans la base de données, vous ne pouvez plus modifier ce nom.
+     > [!NOTE]
+     > Une fois que vous avez validé la plage d’orbites dans la base de données, vous ne pouvez plus modifier ce nom.
 
-  - Pour modifier une plage d’orbites existante, tapez une partie ou l’ensemble du nom de la plage d’orbites dans le champ de recherche. Dans la liste des orbites, cliquez sur l’orbite voulue, cliquez sur **Modifier**, puis sur **Afficher les détails**.
+   - Pour modifier une plage d’orbites existante, tapez une partie ou l’ensemble du nom de la plage d’orbites dans le champ de recherche. Dans la liste des orbites, cliquez sur l’orbite voulue, cliquez sur **Modifier**, puis sur **Afficher les détails**.
 
 5. Dans le premier champ **Plage de numéros**, tapez le premier numéro de la plage de postes pour cette orbite de parcage d’appel et, dans le deuxième champ **Plage de numéros**, tapez le dernier numéro de la plage. Gardez à l’esprit :
 

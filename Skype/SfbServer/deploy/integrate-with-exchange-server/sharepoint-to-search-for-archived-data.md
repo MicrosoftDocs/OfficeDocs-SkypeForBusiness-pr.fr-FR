@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Résumé : Configurer SharePoint Server pour rechercher des données archivées par Exchange Server et Skype pour Business Server.'
-ms.openlocfilehash: efd3fc67faacba503736968786988aaf01f45073
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0663874985063f4cf051aec69792ea0bdb32bb26
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971798"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373320"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurer SharePoint Server pour rechercher des données Skype Entreprise archivées
  
@@ -125,7 +125,7 @@ Enfin, créez un nouveau cas eDiscovery et un nouvel ensemble eDiscovery en proc
     
 4. Lorsque la page de l’ensemble eDiscovery apparaît, cliquez sur **nouvel élément** sous **Identité et préservation : Ensembles de découverte**.
     
-5. Dans la page Nouveau : Ensemble de découverte, entrez l’alias de messagerie de l’utilisateur dans la zone **Nom de l’ensemble eDiscovery**. Entrez **eDiscovery Lync\* ** dans le **filtre de** zone, puis cliquez sur **Ajouter &amp; gérer les Sources de**.
+5. Dans la page Nouveau : Ensemble de découverte, entrez l’alias de messagerie de l’utilisateur dans la zone **Nom de l’ensemble eDiscovery**. Entrez **eDiscovery Lync\\*** dans le **filtre de** zone, puis cliquez sur **Ajouter &amp; gérer les Sources de**.
     
 6. Dans la zone Ajouter &amp; gérer les Sources de page, entrez l’alias de messagerie de l’utilisateur dans la première zone de texte sous **boîtes aux lettres**. Cliquez sur l’icône Vérifier la boîte aux lettres située en regard du manuel pour vérifier que SharePoint peut se connecter à la boîte aux lettres spécifiée.
     

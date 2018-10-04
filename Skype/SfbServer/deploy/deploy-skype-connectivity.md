@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Résumé : Découvrez comment connecter Skype pour Business Server Skype consommateur. Également appelé Skype connectivité.'
-ms.openlocfilehash: f40b109fe63c05b3e7b0f2dc6a2b58b9a42d4434
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 33b24ff4ea609240bbb1a1bbea4a8e25154dc14a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988500"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372452"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Déployer une connectivité Skype dans Skype pour Business Server
  
@@ -200,17 +200,17 @@ Vous pouvez également configurer la connectivité Skype à l’aide uniquement 
 
     À quoi servent les paramètres les moins évidents ?
     
-  - ProxyFqdn : emplacement du serveur Edge de fédération Skype (détenu/géré par Microsoft)
+   - ProxyFqdn : emplacement du serveur Edge de fédération Skype (détenu/géré par Microsoft)
     
-  - IconURL : icône utilisé par Lync &amp; Skype pour client d’entreprise identifier les contacts Skype
+   - IconURL : icône utilisé par Lync &amp; Skype pour client d’entreprise identifier les contacts Skype
     
-  - NameDecorationRoutingDomain et NameDecorationExcludedDomainList : le paramétrage de ces permet aux utilisateurs d’entrer MSAs des utilisateurs Skype sans avoir besoin de savoir à propos de « décoration « domaines non Microsoft « msn.com ». Cela évite d’avoir à taper « @msn.com utilisateur (contoso.com) » pour tous les domaines qui ne sont pas dans le ExcludedDomainList. Le client Skype Entreprise formate automatiquement le compte Microsoft si le domaine ne figure PAS dans la liste Exclus. Nous avons ajouté les domaines Account Microsoft les plus courants à la liste d’exclusion.
+   - NameDecorationRoutingDomain et NameDecorationExcludedDomainList : le paramétrage de ces permet aux utilisateurs d’entrer MSAs des utilisateurs Skype sans avoir besoin de savoir à propos de « décoration « domaines non Microsoft « msn.com ». Cela évite d’avoir à taper « @msn.com utilisateur (contoso.com) » pour tous les domaines qui ne sont pas dans le ExcludedDomainList. Le client Skype Entreprise formate automatiquement le compte Microsoft si le domaine ne figure PAS dans la liste Exclus. Nous avons ajouté les domaines Account Microsoft les plus courants à la liste d’exclusion.
     
-    > [!NOTE]
-    > Il est nécessaire de supprimer le fournisseur public puis de le rajouter en cas de nouvelles modifications. Aucune modification sur place n’est admise. 
+     > [!NOTE]
+     > Il est nécessaire de supprimer le fournisseur public puis de le rajouter en cas de nouvelles modifications. Aucune modification sur place n’est admise. 
   
-    > [!NOTE]
-    > Ajouté dans Lync Server 2013 CU5 &amp; client de bureau Lync dans Office 2013 SP1, NameDecorationRoutingDomain et NameDecorationExcludedDomainList améliorer la situation où Ajout de contacts Skype nécessaires pour les utilisateurs de Lync » décorent « domaines non Microsoft identifier et les acheminer vers Skype (le format de : user(contoso.com)@msn.com). Ces nouveaux paramètres permettra la mise en forme automatique de l’utilisateur de l’adresse de l’entrer dans la boîte de dialogue « Ajouter le contact Skype » avec le NameDecorationRoutingDomain (qui doit être définie sur msn.com) si elle ne contient-elle pas les domaines de la (NameDecorationExcludedDomainList Nous actuellement pouvons prennent en charge msn.com, live.com, Hotmail.com, outlook.com). 
+     > [!NOTE]
+     > Ajouté dans Lync Server 2013 CU5 &amp; client de bureau Lync dans Office 2013 SP1, NameDecorationRoutingDomain et NameDecorationExcludedDomainList améliorer la situation où Ajout de contacts Skype nécessaires pour les utilisateurs de Lync » décorent « domaines non Microsoft identifier et les acheminer vers Skype (le format de : user(contoso.com)@msn.com). Ces nouveaux paramètres permettra la mise en forme automatique de l’utilisateur de l’adresse de l’entrer dans la boîte de dialogue « Ajouter le contact Skype » avec le NameDecorationRoutingDomain (qui doit être définie sur msn.com) si elle ne contient-elle pas les domaines de la (NameDecorationExcludedDomainList Nous actuellement pouvons prennent en charge msn.com, live.com, Hotmail.com, outlook.com). 
   
 3. À partir d’un client Skype Entreprise, les utilisateurs peuvent maintenant rechercher et ajouter un utilisateur Skype.
     

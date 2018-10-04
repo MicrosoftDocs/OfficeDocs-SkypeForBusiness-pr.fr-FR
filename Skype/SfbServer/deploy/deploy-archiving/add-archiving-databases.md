@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Résumé : Lisez cette rubrique pour savoir comment ajouter des bases de données d’archivage à votre Skype pour le déploiement de serveur d’entreprise.'
-ms.openlocfilehash: 1b6aef3d1b00a6736206cd3cf4c0061f0e720ad6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c2e92b1da9dd5e9827b362bf4979ffba075c4402
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969123"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372950"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Ajouter des bases de données d’archivage à un déploiement existant dans Skype pour Business Server
  
@@ -63,19 +63,19 @@ Vous devez incorporer l’archivage dans votre topologie avant de configurer vot
     
    - Pour spécifier un nouveau magasin SQL Server pour la mise en miroir, cliquez sur **Nouveau**, puis dans la boîte de dialogue **Définir nouveau magasin SQL Server** , effectuez l’une des options suivantes :
     
-    a. Dans **Nom de domaine complet de SQL Server**, spécifiez le nom de domaine complet du serveur SQL sur lequel vous souhaitez créer le nouveau magasin SQL Server.
+     a. Dans **Nom de domaine complet de SQL Server**, spécifiez le nom de domaine complet du serveur SQL sur lequel vous souhaitez créer le nouveau magasin SQL Server.
     
-    b. Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou, pour définir une instance différente, cliquez sur **Instance nommée** et spécifiez l’instance à utiliser.
+     b. Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou, pour définir une instance différente, cliquez sur **Instance nommée** et spécifiez l’instance à utiliser.
     
-    c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL se trouve dans la relation de mise en miroir** , puis, dans le **numéro de port de mise en miroir**, spécifiez le numéro de port.
+     c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL se trouve dans la relation de mise en miroir** , puis, dans le **numéro de port de mise en miroir**, spécifiez le numéro de port.
     
    - Si vous activez la mise en miroir SQL Server et que vous souhaitez inclure un témoin (une troisième et distincte instance SQL Server qui peut détecter l’intégrité des instances de SQL Server et miroir principales) de la mise en miroir de SQL Server, sélectionnez le **témoin de mise en miroir utiliser SQL Server pour activer automatique basculement** case à cocher, puis effectuez l’une des opérations suivantes :
     
-    a. Dans **Nom de domaine complet de SQL Server**, spécifiez le nom de domaine complet du serveur sur lequel vous souhaitez créer le nouveau serveur SQL témoin de mise en miroir.
+     a. Dans **Nom de domaine complet de SQL Server**, spécifiez le nom de domaine complet du serveur sur lequel vous souhaitez créer le nouveau serveur SQL témoin de mise en miroir.
     
-    b. Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou sur **Instance nommée** pour définir une instance différente, puis spécifiez l’instance à utiliser comme témoin de mise en miroir.
+     b. Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou sur **Instance nommée** pour définir une instance différente, puis spécifiez l’instance à utiliser comme témoin de mise en miroir.
     
-    c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL se trouve dans la relation de mise en miroir** , puis, dans le **numéro de port de mise en miroir**, spécifiez le numéro de port.
+     c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL se trouve dans la relation de mise en miroir** , puis, dans le **numéro de port de mise en miroir**, spécifiez le numéro de port.
     
 10. Pour enregistrer la configuration, cliquez sur **OK**.
     

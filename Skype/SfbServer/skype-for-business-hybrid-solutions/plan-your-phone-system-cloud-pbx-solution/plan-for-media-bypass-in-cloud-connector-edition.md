@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Consultez cette rubrique pour consulter les facteurs de planification pour implémenter la déviation du trafic multimédia avec les versions 2.0 et suivantes de Cloud Connector. Pour plus d’informations sur le déploiement de médias contournement de média, voir Deploy multimédia dans le nuage connecteur Edition de contournement.
-ms.openlocfilehash: da6432f20690162a8de2a9d63438a4c4a5bf162b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a3cfaea8d963efa4f7774b8b589fcd0ecc61d3bc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886135"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371000"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planification de la déviation du trafic multimédia dans la version Cloud Connector
  
@@ -64,7 +64,7 @@ Le contournement de média est également utile lorsque vous souhaitez fournir d
     
 4. La passerelle centrale à Amsterdam prend les décisions de routage appropriées et envoie ensuite le trafic à un contrôleur SBC ou une passerelle à Zurich, tout en flux multimédias directement entre le Skype pour Business et SBC ou passerelle à Amsterdam.
     
- Cette approche permet de traiter davantage d’utilisateurs par un déploiement en nuage connecteur où nuage connecteur est centralisée. Même si le nuage connecteur est éliminé du chemin d’accès des médias, dans un scénario de plusieurs site centralisé multimédia peut toujours parcourir le réseau étendu à deux reprises selon les besoins de flux via le contrôleur SBC centralisée ou une passerelle.
+   Cette approche permet de traiter davantage d’utilisateurs par un déploiement en nuage connecteur où nuage connecteur est centralisée. Même si le nuage connecteur est éliminé du chemin d’accès des médias, dans un scénario de plusieurs site centralisé multimédia peut toujours parcourir le réseau étendu à deux reprises selon les besoins de flux via le contrôleur SBC centralisée ou une passerelle.
   
 Si un client est en dehors du réseau d’entreprise un appel sortant, le trafic multimédia transite via les serveurs de périphérie et de médiation du lien de nuage connecteur et des liaisons réseau étendu entre Zurich et Amsterdam, comme illustré dans le diagramme suivant :
   

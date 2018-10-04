@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Découvrez comment afficher une liste de tous les numéros de téléphone dans votre organisation, tous les numéros affectés aux utilisateurs et tous les numéros qui sont affectées aux utilisateurs de voix à partir de la Skype entreprise centre d’administration.
-ms.openlocfilehash: c257991c0b867cb42b5b56af0e5595257260b25a
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: a6ab8115e1b336f2ccc77548fdfe501852efbda7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347080"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370698"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Affichage de la liste des numéros de téléphone de votre organisation
 
@@ -50,17 +50,17 @@ Il existe différents types de numéros de téléphone que vous pouvez affecter 
     
 5. Vous pouvez utiliser la liste déroulante pour filtrer l’affichage par :
     
-  - **Tous** les numéros de téléphone y compris les numéros de service
+   - **Tous** les numéros de téléphone y compris les numéros de service
     
-  - Téléphone **plage de numéros** que vous avez définie.
+   - Téléphone **plage de numéros** que vous avez définie.
     
-  - Numéros de téléphone qui sont **affectées à l’utilisateur**.
+   - Numéros de téléphone qui sont **affectées à l’utilisateur**.
     
-  - Numéros de téléphone **affecté à la conférence** pour les conférences rendez-vous.
+   - Numéros de téléphone **affecté à la conférence** pour les conférences rendez-vous.
     
-  - Numéros de téléphone **non affectés**.
+   - Numéros de téléphone **non affectés**.
     
-  - L' **emplacement** des numéros de téléphone.
+   - L' **emplacement** des numéros de téléphone.
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>Pour afficher tous les numéros de téléphone affectés aux utilisateurs
 
@@ -78,13 +78,13 @@ Lorsque vous configurez des utilisateurs, vous voudrez peut-être afficher uniqu
     > [!IMPORTANT]
     > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
-4. Vous pouvez filtrer l’affichage pour les numéros de téléphone qui sont affectés à des utilisateurs ou des numéros de téléphone que vous pouvez affecter à un utilisateur. Vous pouvez filtrer par :
+4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
     
-  - **Tous** les numéros de téléphone y compris les numéros de service
+   - **Tous** les numéros de téléphone y compris les numéros de service
     
-  - **Numéro attribué** à l’utilisateur.
+   - **Numéro attribué** à l’utilisateur.
     
-  - **Aucun numéro attribué** à l’utilisateur.
+   - **Aucun numéro attribué** à l’utilisateur.
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>Pour afficher les numéros de téléphone affectés aux utilisateurs Voix
 
@@ -102,11 +102,11 @@ Lorsque vous configurez des utilisateurs de votre organisation pour passer et re
     > [!IMPORTANT]
     > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
-4. Si l’utilisateur est en ligne ou sur site, ou l’état et le type de licence pour un utilisateur, vous pouvez utiliser la liste déroulante pour filtrer l’affichage pour les utilisateurs actifs. Vous pouvez filtrer par :
+4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
     
-  - **Utilisateurs actifs** et utilisateurs en ligne ou sur site
+   - **Utilisateurs actifs** et utilisateurs en ligne ou sur site
     
-  - **Licences en attente** et utilisateurs en ligne ou sur site
+   - **Licences en attente** et utilisateurs en ligne ou sur site
     
 ## <a name="related-topics"></a>Rubriques connexes
 [Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)

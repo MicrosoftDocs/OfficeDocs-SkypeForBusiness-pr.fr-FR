@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a219226ca5fa7664cc83539ee4faeb9f57125c00
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4222fb19b95b9014a488d8176c63f79b6fda20be
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013296"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371194"
 ---
 # <a name="quality-of-service-qos-in-microsoft-teams"></a>Qualité de service (QoS) dans Microsoft Teams
 
@@ -28,7 +28,7 @@ QoS est un mécanisme qui que vous permet de définir la priorité certains type
 ![La relation entre les réseaux d’une organisation et les services Office 365 : réseau et périphériques de se connectent à un réseau d’interconnexion, qui se connecte à son tour avec les services Office 365 Cloud voix et de conférence sur site.] (media/Qos-in-Teams-Image1.png "La relation entre les réseaux d’une organisation et les services Office 365 : réseau et périphériques de se connectent à un réseau d’interconnexion, qui se connecte à son tour avec les services Office 365 Cloud voix et de conférence sur site.")
 
 _La figure 1. La relation entre les réseaux d’une organisation et les services Office 365_
- 
+
 
 Dans la plupart des cas, le réseau d’interconnexion sera une connexion internet de réseau non géré. Une seule option disponible pour résoudre QoS de bout en bout est [ExpressRoute Azure](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). Nous vous recommandons d’implémenter QoS sur les parties du réseau, vous pouvez contrôler, à savoir votre réseau local. Cette augmentation de la qualité des charges de travail de communication en temps réel au sein de votre déploiement et éviter les goulots d’étranglement dans votre déploiement existant. 
 
@@ -40,7 +40,7 @@ Cet article explique comment définir la priorité le trafic des communications 
 Il existe plusieurs façons de classer le trafic par ordre de priorité, mais la plus courante consiste à utiliser des marquages DSCP (Differentiated Services Code Point). Elles peuvent être appliquées (« balisage ») en fonction des plages de ports et également via des objets de stratégie de groupe. Sujets abordés dans cet article. Nous vous recommandons d’utiliser le balisage basé sur les plages de ports, car elle fonctionne pour tous les périphériques, pas seulement ceux liés au domaine.
 
 Contrôler le marquage DSCP via des objets de stratégie de groupe garantit que les ordinateurs à un domaine recevant les paramètres corrects et que seul un administrateur peut gérer.
- 
+
 Il est important de comprendre la qualité de service fonctionne uniquement lorsqu’elle est implémentée sur tous les liens qui se connectent de l’appelant vers l’appelé. Si vous utilisez QoS sur le réseau interne et un utilisateur se connecte à partir d’un emplacement distant, vous pouvez classer uniquement au sein de votre réseau interne, gérée. Bien que les sites distants peuvent recevoir une connexion gérée en implémentant un réseau privé virtuel (VPN), nous vous recommandons d’éviter d’exécuter le trafic des communications en temps réel via la connexion VPN.
 
 > [!NOTE]
@@ -71,7 +71,7 @@ Les instructions pour l’implémentation de QoS pour les équipes repose sur qu
 *  **Scénario 2 :** Vous avez déployé, ou déployez, équipes et envisagez d’implémenter QoS par le biais de la liaison d’objet de stratégie de groupe. Cette méthode est parfois utilisée en conjonction avec le scénario 1. Bien que ce scénario est entièrement valide, il est important de comprendre qu’il fonctionne uniquement pour les clients à un domaine Windows. Tous les périphériques qui n’est pas un client Windows à un domaine ne sont pas être activé pour le marquage DSCP marquage.
 
 *  **Scénario 3 :** Vous avez déployé Skype pour Business en ligne, y compris QoS mise en réseau et déployez maintenant équipes. Si tel est le cas, Teams respectera la configuration existante et utilisera les même plages de ports et marquage que le client Skype Entreprise. Dans la plupart des cas, aucune configuration supplémentaire n’est nécessaire. 
- 
+
     > [!NOTE]
     > Si vous utilisez des applications nom QoS balisage via la stratégie de groupe, vous devez ajouter Teams.exe comme nom d’application.
 
@@ -87,7 +87,7 @@ Le tableau 1 présente le marquage DSCP requis lors de l’utilisation d’équi
 
 
 _Le tableau 1. Marquage DSCP_
-    
+
 | Plage de ports client source |Protocole|Catégorie de médias|Valeur DSCP|Classe DSCP|
 |---------|---------|---------|---------|---------|
 | 50 000 – 50,019|TCP/UDP|Audio|46|Acheminement accéléré (EF)|
@@ -95,14 +95,14 @@ _Le tableau 1. Marquage DSCP_
 | 50,040 – 50,059|TCP/UDP|Application/partage du bureau|18|Assured Forwarding (AF21)|
 
 Voici quelques précisions à comprendre lorsque vous utilisez les informations du tableau 1 :
-    
+
 -  Si vous envisagez d’implémenter ExpressRoute dans le futur et n’ont pas encore implémenté QoS, nous vous recommandons que vous suivez les instructions dans le tableau 1 afin que les valeurs DSCP sont les mêmes à partir de l’expéditeur au récepteur. 
 
 -  Tous les clients, y compris les clients mobiles et les périphériques d’équipes, utiliseront ces plages de ports et seront affectés par une stratégie DSCP que vous implémentez qui utilise ces plages de ports source. Seuls les clients qui continueront à utiliser des ports dynamiques sont les clients basés sur navigateur (autrement dit, les clients qui permettent aux participants de participer à des réunions à l’aide de leurs navigateurs).
 
 -  Même si le client Mac n’utilise pas les mêmes plages de ports, le client Mac utilise également des valeurs codées en dur audio (EF) et vidéo (AF41). Ces valeurs ne sont pas configurables.
- 
-    
+
+
 ## <a name="source-ports-used-by-teams"></a>Ports sources utilisés par Teams
 
 Dans Teams, la qualité de service doit être configurée selon les ports sources utilisés par les différentes charges de travail. Aucun des deux plages de ports côté serveur et côté client sont actuellement configurables. 
@@ -129,12 +129,13 @@ Il existe plusieurs approches pour définir les marques DSCP appropriées pour l
 -  **Le marquage DSCP au point de terminaison :** C’est généralement l’option recommandée, car le point de terminaison fournit les inscriptions appropriées. Actuellement cela à l’aide d’un objet de stratégie de groupe, mais il peut uniquement être utilisé sur les clients à un domaine Windows. Les clients mobiles ne fournissent un mécanisme pour marquer le trafic à l’aide de valeurs DSCP. Bien que vous ne pouvez pas configurer non&ndash;à un domaine clients au trafic balise, clients tels que Mac OS les balises codé en dur et Windows sera balise toujours le trafic comme indiqué ci-dessus.
 
 -  **DSCP basée sur le port de liaison à l’aide de listes de contrôle d’accès (ACL) sur les routeurs :** Il s’agit d’une option très courante rencontrée dans les environnements hétérogènes Windows et Mac. Dans ce scénario, l’équipe réseau marque le trafic sur les routeurs d’entrée/sortie (généralement situé sur le réseau étendu) basé sur les plages de ports source définies pour chaque modalité. Bien que cela fonctionne sur plusieurs plates-formes, il marque uniquement le trafic sur le bord WAN — pas tout à fait à l’ordinateur client et par conséquent entraîne une surcharge de gestion.
-    
+
 -  **Une combinaison de marquage DSCP au point de terminaison et ACL basées sur des ports sur les routeurs :** Nous vous recommandons de cette combinaison, si possible dans votre environnement. Utilisez un objet de stratégie de groupe pour intercepter la plupart des clients et également utiliser DSCP basée sur le port de marquage pour vous assurer que mobile, Mac et les autres clients seront toujours traitement QoS (au moins partiellement).
-    
+
 Vous pouvez utiliser QoS basée sur les stratégies au sein de la stratégie de groupe pour définir la valeur DSCP pour la plage de ports source prédéfinis dans le client d’équipes. Pour créer une stratégie pour chaque charge de travail, utilisez les plages de ports spécifiés dans le tableau 3.
 
 _Le tableau 3. Plages de ports par type de trafic_
+
 | Type de trafic du client|Début de la plage de ports|Fin de la plage de ports|Valeur DSCP|
 |---------|---------|---------|--------|
 | Audio|50000|50019|46|
@@ -153,52 +154,54 @@ Les nouvelles stratégies que vous avez créé ne prennent effet tant que la str
 1. Sur chaque ordinateur pour lequel vous voulez actualiser la stratégie de groupe, ouvrez une console de commande. Assurez-vous que la console de commande est définie sur Exécuter en tant qu’administrateur.
 
 2. À l’invite de commandes, entrez
-```
+   ```
     gpudate.exe /force
-```
+   ```
 
 ## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Vérifier le marquage DSCP dans l’objet de stratégie de groupe
 
 Pour vérifier que les valeurs de l’objet de stratégie de groupe ont été définies, procédez comme suit.
 
-1.  Ouvrez une console de commande. Assurez-vous que la console de commande est définie sur Exécuter en tant qu’administrateur.
+1. Ouvrez une console de commande. Assurez-vous que la console de commande est définie sur Exécuter en tant qu’administrateur.
 
-2.  À l’invite de commandes, entrez 
-    ```
-    gpresult /R >gp.txt
-    ```
+2. À l’invite de commandes, entrez 
+   ```
+   gpresult /R >gp.txt
+   ```
 
-    Cela générer un rapport et envoyez-le à un fichier texte nommé gp.txt. Vous pouvez également entrer la commande suivante pour produire les mêmes données dans un rapport HTML plus lisible nommé gp.html :
-    ```
-    gpresult /H >gp.html
-    ```
- 
+   Cela générer un rapport et envoyez-le à un fichier texte nommé gp.txt. Vous pouvez également entrer la commande suivante pour produire les mêmes données dans un rapport HTML plus lisible nommé gp.html :
+   ```
+   gpresult /H >gp.html
+   ```
+
    ![Capture d’écran de la fenêtre de console exécutant la commande gpresult.] (media/Qos-in-Teams-Image3.png "Capture d’écran de la fenêtre de console exécutant la commande gpresult.")
 
-3.  Dans le fichier généré, recherchez l’en-tête **Appliqué des objets de stratégie de groupe** et vérifiez que les noms des objets de stratégie de groupe créés précédemment sont dans la liste des stratégies appliquées. 
+3. Dans le fichier généré, recherchez l’en-tête **Appliqué des objets de stratégie de groupe** et vérifiez que les noms des objets de stratégie de groupe créés précédemment sont dans la liste des stratégies appliquées. 
 
-4.  Ouvrez l’Éditeur du Registre et accédez à :
+4. Ouvrez l’Éditeur du Registre et accédez à :
 
-    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
+   HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
 
-    Vérifiez les valeurs pour les entrées de Registre répertoriées dans le tableau 3.
+   Vérifiez les valeurs pour les entrées de Registre répertoriées dans le tableau 3.
 
-    _Le tableau 3. Valeurs des entrées du Registre Windows pour QoS_
-    
-    | Nom | Type | Données|
-    |---------|---------|---------
-    | Nom de l’application|REG_SZ|Teams.exe|
-    | Valeur DSCP|REG_SZ|46|
-    | Adresse IP locale|REG_SZ|*|
-    | Longueur du préfixe de l’adresse IP locale|REG_SZ|*|
-    | Port local|REG_SZ|50000-50019|
-    | Protocole|REG_SZ|*|
-    | Adresse IP distante|REG_SZ|*|
-    | Préfixe de l’adresse IP distante|REG_SZ|*|
-    | Port distant|REG_SZ|*|
-    | Taux d’accélération|REG_SZ|-1|
-    
-5.  Vérifiez que la valeur de l’entrée de nom de l’Application est correcte pour le client que vous utilisez, puis vérifiez que la valeur DSCP et le Port Local entrées reflètent les paramètres de l’objet de stratégie de groupe.
+   _Le tableau 3. Valeurs des entrées du Registre Windows pour QoS_
+
+
+   |          Nom          |  Type  |    Données     |
+   |------------------------|--------|-------------|
+   |    Nom de l’application    | REG_SZ |  Teams.exe  |
+   |       Valeur DSCP       | REG_SZ |     46      |
+   |        Adresse IP locale        | REG_SZ |     \*      |
+   | Longueur du préfixe de l’adresse IP locale | REG_SZ |     \*      |
+   |       Port local       | REG_SZ | 50000-50019 |
+   |        Protocole        | REG_SZ |     \*      |
+   |       Adresse IP distante        | REG_SZ |     \*      |
+   |    Préfixe de l’adresse IP distante    | REG_SZ |     \*      |
+   |      Port distant       | REG_SZ |     \*      |
+   |     Taux d’accélération      | REG_SZ |     -1      |
+
+
+5. Vérifiez que la valeur de l’entrée de nom de l’Application est correcte pour le client que vous utilisez, puis vérifiez que la valeur DSCP et le Port Local entrées reflètent les paramètres de l’objet de stratégie de groupe.
 
 ## <a name="validate-qos-by-analyzing-teams-traffic-on-the-network"></a>Valider la qualité de service en analysant les équipes le trafic sur le réseau
 

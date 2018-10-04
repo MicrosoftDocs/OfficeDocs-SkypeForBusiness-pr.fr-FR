@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Résumé : Découvrez comment installer les outils d’administration requis pour une installation de Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: a51de57ca8eaa7d303af4240b5d30e8a5ca51f70
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5f5e00075f34a6a09d36dede7c4cf2ac2a6ab60f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882129"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373056"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Installer les outils d’administration dans Skype pour Business Server
  
@@ -56,13 +56,13 @@ Visionnez les étapes présentées dans la vidéo pour l’**installation des ou
     
     ![Composants centraux dans l’écran Apps.](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-  - **Skype pour l’Assistant de déploiement Business Server** Un programme de déploiement qui fournit une zone de lancement pour installer les différents composants de Skype pour Business Server.
+   - **Skype pour l’Assistant de déploiement Business Server** Un programme de déploiement qui fournit une zone de lancement pour installer les différents composants de Skype pour Business Server.
     
-  - **Skype pour Business Server Management Shell** Un programme PowerShell préconfiguré qui permet la gestion de Skype pour Business Server.
+   - **Skype pour Business Server Management Shell** Un programme PowerShell préconfiguré qui permet la gestion de Skype pour Business Server.
     
-    Une fois l’installation des composants principaux est terminée, le Skype pour l’Assistant de déploiement Business Server lance automatiquement, comme le montre la figure. 
+     Une fois l’installation des composants principaux est terminée, le Skype pour l’Assistant de déploiement Business Server lance automatiquement, comme le montre la figure. 
     
-    ![Assistant Déploiement de Skype Entreprise Server](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
+     ![Assistant Déploiement de Skype Entreprise Server](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
 6. Outre les composants principaux, vous devez également installer Skype pour le Générateur de topologie du serveur Business et Skype pour le panneau de configuration serveur Business au moins un serveur dans l’environnement. Cliquez sur **Installer les outils d’administration** dans l’assistant Déploiement.
     

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Créer, modifier ou supprimer des plages de numéros non attribués pour l’application d’annonce dans Skype pour Business Server Enterprise Voice. Cela affecte le traitement des appels à des numéros non attribués.
-ms.openlocfilehash: 2acfa15ac6a5fdcdea2dc56fd74a067712875218
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ca8b3e621da3b479bcc650584ed2aea7669f07e1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886267"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372712"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Créer ou modifier une plage de numéros non attribuée dans Skype pour Business Server
  
@@ -50,8 +50,8 @@ Utilisez une des procédures suivantes pour configurer les plages de numéros no
     
    - Pour créer une nouvelle plage de numéros, cliquez sur **Nouveau**. Dans **Nom**, tapez le nom de cette plage de numéros.
     
-    > [!NOTE]
-    > Une fois que vous avez validé la nouvelle plage de numéros non attribués dans la base de données, vous ne pouvez plus modifier ce nom. 
+     > [!NOTE]
+     > Une fois que vous avez validé la nouvelle plage de numéros non attribués dans la base de données, vous ne pouvez plus modifier ce nom. 
   
    - Pour modifier une plage de numéros existante, tapez tout ou une partie du nom de la plage de numéros dans le champ de recherche. Dans la liste des plages de numéros résultante, cliquez sur celle voulue, cliquez sur **Modifier**, puis sur **Afficher les détails**.
     
@@ -99,7 +99,7 @@ Utilisez une des procédures suivantes pour configurer les plages de numéros no
   
     Dans la ligne de commande, effectuez l’une des opérations suivantes :
     
-     - Pour créer une plage de numéros pour un service Annonces, exécutez :
+   - Pour créer une plage de numéros pour un service Annonces, exécutez :
     
      ```
      New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
@@ -123,7 +123,7 @@ Utilisez une des procédures suivantes pour configurer les plages de numéros no
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber "+12065551234" -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100"
      ```
 
-    L’exemple suivant montre comment modifier les numéros d’une plage de numéros non attribués existante :
+     L’exemple suivant montre comment modifier les numéros d’une plage de numéros non attribués existante :
     
      ```
      Set-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551900"

@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 264e3ae4573531cebf8723294f42ee66453bfa73
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fa50607a01888f776c480b33af52fccd67a1b7b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013810"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373174"
 ---
 # <a name="quality-of-experience-review-guide"></a>Qualité de consulter le Guide de l’expérience
 
@@ -134,14 +134,14 @@ _Tableau 2 - mesures d’évaluation principaux cible d’intégrité_
 <tr>
 <th rowspan="2" colspan="2" valign="center">Type de réseau</th><th rowspan="1">Objectifs de qualité</th><th colspan="2">Objectifs de fiabilité</th></tr>
 <tr><th>Taux de flux de données audio médiocre</th><th>Taux d’échec du programme d’installation</th><th>Taux d’échec de dépôt</th></tr>
-<tr><td rowspan="2">**All**</td><td>Interne</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
+<tr><td rowspan="2"><strong>All</strong></td><td>Interne</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Global</td><td>3.0 %</td><td>1,0 %</td><td>3.0 %</td></tr>
-<tr><td rowspan="5">**Conférence**</td><td>Interne</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
+<tr><td rowspan="5"><strong>Conférence</strong></td><td>Interne</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Filaire interne</td><td>1,0 %</td><td>0,5 %</td><td>1,0 %</td></tr>
 <tr><td>Wi-Fi 5 GHz interne</td><td>1,0 %</td><td>0,5 %</td><td>1,0 %</td></tr>
 <tr><td>Wi-Fi 2,4 GHz interne</td><td>% de 4.0</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Global</td><td>2.0 %</td><td>0,5 %</td><td>3.0 %</td></tr>
-<tr><td rowspan="4">**P2P**</td><td>Interne</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
+<tr><td rowspan="4"><strong>P2P</strong></td><td>Interne</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Filaire/Wi-Fi 5 GHz interne</td><td>1,0 %</td><td>0,5 %</td><td>1,0 %</td></tr>
 <tr><td>Filaire/Wi-Fi 5 GHz globale</td><td>2.0 %</td><td>1,0 %</td><td>1,0 %</td></tr>
 <tr><td>Global</td><td>2.0 %</td><td>1,0 %</td><td>3.0 %</td></tr>
@@ -314,15 +314,15 @@ Certains rapports CQD nécessitent que vous incluez un filtre pour votre ID de c
 
 #### <a name="azure-powershell"></a>Azure PowerShell
 
-1.  [Installer le module de gestion des services Microsoft Azure PowerShell](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
+1. [Installer le module de gestion des services Microsoft Azure PowerShell](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
 
-2.  Ouvrez une fenêtre de commande Windows Azure PowerShell et exécutez le script suivant, entrez vos informations d’identification Office 365 à l’invite : 
+2. Ouvrez une fenêtre de commande Windows Azure PowerShell et exécutez le script suivant, entrez vos informations d’identification Office 365 à l’invite : 
 
-  ```
-  Login-AzureRmAccount
-  ```
+   ```
+   Login-AzureRmAccount
+   ```
 
-3.  L’ID de client est répertorié dans la sortie.
+3. L’ID de client est répertorié dans la sortie.
 
 #### <a name="skype-for-business-online-admin-center"></a>Skype Business Online Centre d’administration
 
@@ -336,15 +336,15 @@ Certains rapports CQD nécessitent que vous incluez un filtre pour votre ID de c
 
 #### <a name="skype-for-business-online-using-powershell"></a>Skype pour Business Online à l’aide de PowerShell
 
-1.  [Configurer votre ordinateur pour Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+1. [Configurer votre ordinateur pour Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-2.  Exécutez la commande suivante :
+2. Exécutez la commande suivante :
 
-  ```
-  (Get-cstenant).tenantid
-  ```
+   ```
+   (Get-cstenant).tenantid
+   ```
 
-3.  L’ID de client est affiché sous forme de GUID.
+3. L’ID de client est affiché sous forme de GUID.
 
 ### <a name="teams-vs-skype-for-business"></a>Équipes et Skype pour les entreprises
 
@@ -580,22 +580,22 @@ Ce guide inclut [deux modèles CQD curated](https://aka.ms/qertemplates). Ces mo
 
 **Pour importer les modèles (. CQDX) en CQD en ligne**
 
-1.  Accédez à <https://cqd.lync.com>.
+1. Accédez à <https://cqd.lync.com>.
 
-2.  Authentification à l’aide de vos informations d’identification d’administration Office 365.
+2. Authentification à l’aide de vos informations d’identification d’administration Office 365.
 
-  > [!NOTE]
-  > Vous devez disposer d’Office 365 administrateur Global, Skype pour l’administrateur d’entreprise ou rôle lecteurs de rapports accéder aux CQD. 
+   > [!NOTE]
+   > Vous devez disposer d’Office 365 administrateur Global, Skype pour l’administrateur d’entreprise ou rôle lecteurs de rapports accéder aux CQD. 
 
-3.  Sélectionnez le menu de **Rapports de synthèse** dans la partie supérieure de la page, puis choisissez **Des rapports détaillés**.
+3. Sélectionnez le menu de **Rapports de synthèse** dans la partie supérieure de la page, puis choisissez **Des rapports détaillés**.
 
-4.  Dans le volet Résumé, sélectionnez **Importer**. Accédez à la CQDX enregistré emplacement, sélectionnez le modèle CQDX et sélectionnez **Ouvrir**.
+4. Dans le volet Résumé, sélectionnez **Importer**. Accédez à la CQDX enregistré emplacement, sélectionnez le modèle CQDX et sélectionnez **Ouvrir**.
 
-5.  Une fois que le modèle est téléchargé, une fenêtre indépendante affiche le message « rapport importation a réussi. » Sélectionnez **OK.**
+5. Une fois que le modèle est téléchargé, une fenêtre indépendante affiche le message « rapport importation a réussi. » Sélectionnez **OK.**
 
-  ![Notification que le modèle a été correctement importé] (media/qerguide-image-importmessage.png "Notification que le modèle a été correctement importé")
+   ![Notification que le modèle a été correctement importé] (media/qerguide-image-importmessage.png "Notification que le modèle a été correctement importé")
 
-6.  Répétez les étapes 4 et 5 pour le deuxième modèle CQD.
+6. Répétez les étapes 4 et 5 pour le deuxième modèle CQD.
 
 > [!NOTE]
 > Importer les modèles CQD par utilisateur. Si d’autres utilisateurs doivent utiliser le rapport, ils doivent se connecter et importer les modèles dans leur instance CQD. 
@@ -677,13 +677,13 @@ Voici quelques points à prendre en compte avant d’implémenter super-réseaux
 
 Les données de qualité de l’expérience (QoE) qui envoient des clients à Office 365, qui est où sont issues des données CQD — inclut un indicateur VPN. CQD verrez ceci en tant que dimensions VPN première et deuxième VPN. Toutefois, cet indicateur s’appuie sur fournisseurs VPN reporting Windows que la carte du réseau VPN enregistrée est une carte d’accès à distance. Pas de tous les fournisseurs VPN enregistrement correctement les cartes d’accès à distance. Pour cette raison, vous pourrez pas utiliser les filtres de requête VPN intégrés. Il existe deux approches pour les sous-réseaux de réseau privé virtuel dans la création de fichier d’informations :
 
--   Définir un **Nom de réseau** en utilisant le texte « VPN » dans ce champ pour les sous-réseaux de réseau privé virtuel.
+- Définir un **Nom de réseau** en utilisant le texte « VPN » dans ce champ pour les sous-réseaux de réseau privé virtuel.
 
   ![Rapport CQD qui définit la création d’un sous-réseau de réseau privé virtuel](media/qerguide-image-vpnnetworkname.png)
 
   _La figure 12 - VPN à l’aide du nom de réseau_
 
--   Définir le **Nom de la construction** en utilisant le texte « VPN » dans ce champ pour les sous-réseaux de réseau privé virtuel.
+- Définir le **Nom de la construction** en utilisant le texte « VPN » dans ce champ pour les sous-réseaux de réseau privé virtuel.
 
   ![Rapport CQD qui définit comment créer une définition de construction qui comprend un sous-réseau de réseau privé virtuel.](media/qerguide-image-vpnbuildingname.png)
 
@@ -700,31 +700,31 @@ Les données de qualité de l’expérience (QoE) qui envoient des clients à Of
 
 Le tableau de bord des rapports de synthèse CQD comprend une page **De téléchargement de données client** , accédée en sélectionnant la balise de lien **De téléchargement de données client** dans le coin supérieur droit (recherchez l’icône représentant un engrenage). Cette page est utilisée pour les administrateurs à télécharger leurs propres informations, telles que le mappage de l’adresse IP et les informations géographiques, mappage de chaque point d’accès sans fil et son adresse MAC et ainsi de suite.
 
-1.  Accédez à CQD en ligne en accédant à <https://cqd.lync.com>.
+1. Accédez à CQD en ligne en accédant à <https://cqd.lync.com>.
 
-2.  Sélectionnez l’icône représentant un engrenage dans le coin supérieur droit et choisissez **De téléchargement de données client** dans la page **Rapports de synthèse** .
+2. Sélectionnez l’icône représentant un engrenage dans le coin supérieur droit et choisissez **De téléchargement de données client** dans la page **Rapports de synthèse** .
 
-  ![Boîte de dialogue qui s’affiche lors du téléchargement de données](media/qerguide-image-tenantdataupload.png)
+   ![Boîte de dialogue qui s’affiche lors du téléchargement de données](media/qerguide-image-tenantdataupload.png)
 
-  _Figure 14 : menu télécharger des données client_
+   _Figure 14 : menu télécharger des données client_
 
-3.  Autrement, s’il s’agit de votre première visite CQD, vous devez télécharger les données de création. Vous pouvez sélectionner **Télécharger** pour accéder rapidement à la page **De téléchargement de données client** .
+3. Autrement, s’il s’agit de votre première visite CQD, vous devez télécharger les données de création. Vous pouvez sélectionner **Télécharger** pour accéder rapidement à la page **De téléchargement de données client** .
 
-  ![Bannière qui signale un utilisateur de télécharger des données de création](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Bannière qui signale un utilisateur de télécharger des données de création](media/qerguide-image-buildingdatauploadbanner.png)
 
-  _Figure 15 : création de bannière de téléchargement de données_
+   _Figure 15 : création de bannière de téléchargement de données_
 
-4.  Dans la page **De téléchargement de données client** , sélectionnez **Parcourir** pour choisir un fichier de données.
+4. Dans la page **De téléchargement de données client** , sélectionnez **Parcourir** pour choisir un fichier de données.
 
-5.  Après avoir sélectionné un fichier de données, spécifiez la **date de début** et, le cas échéant, spécifiez une date de fin.
+5. Après avoir sélectionné un fichier de données, spécifiez la **date de début** et, le cas échéant, spécifiez une date de fin.
 
-6.  Après avoir sélectionné la **date de début**, sélectionnez **Télécharger** pour télécharger le fichier vers CQD. <br><br>Avant que le fichier est téléchargé, il est validé. Si la validation échoue, un message d’erreur s’affiche demandant de corriger le fichier. La figure suivante illustre une erreur ne se produise lorsque le nombre de colonnes dans le fichier de données est incorrect.
+6. Après avoir sélectionné la **date de début**, sélectionnez **Télécharger** pour télécharger le fichier vers CQD. <br><br>Avant que le fichier est téléchargé, il est validé. Si la validation échoue, un message d’erreur s’affiche demandant de corriger le fichier. La figure suivante illustre une erreur ne se produise lorsque le nombre de colonnes dans le fichier de données est incorrect.
 
-  ![Exemple d’une boîte de dialogue qui affiche un message d’erreur lors de l’importation de données de création](media/qerguide-image-buildingdatauploaderror.png)
+   ![Exemple d’une boîte de dialogue qui affiche un message d’erreur lors de l’importation de données de création](media/qerguide-image-buildingdatauploaderror.png)
  
-  _Figure 16 : erreur de chargement de données de création_
+   _Figure 16 : erreur de chargement de données de création_
 
-7.  Si aucune erreur ne se produire lors de la validation, le téléchargement du fichier réussit. Vous pouvez voir le fichier de données téléchargées dans la table **Mes téléchargements** , qui affiche la liste complète de tous les fichiers téléchargés pour le client au bas de la page actuels.
+7. Si aucune erreur ne se produire lors de la validation, le téléchargement du fichier réussit. Vous pouvez voir le fichier de données téléchargées dans la table **Mes téléchargements** , qui affiche la liste complète de tous les fichiers téléchargés pour le client au bas de la page actuels.
 
 > [!NOTE]
 > Cela peut prendre jusqu'à quatre heures pour terminer la création du fichier de traitement. <br><br> Si vous avez téléchargé un fichier de construction et pour ajouter les sous-réseaux qui peuvent avoir manquées ou exclus, modifier le fichier d’origine en ajoutant les nouveaux sous-réseaux, supprimez le fichier actuel et téléchargez de nouveau le fichier nouvellement modifié. Il peut y avoir qu’une construction active CQD fichier de données. 
@@ -898,11 +898,11 @@ Maintenant que vous commencez votre mise à jour, vous pouvez vous concentrer vo
 
 _Le tableau 8 - étapes suivantes pour l’appel du programme d’installation de la correction d’erreur_
 
-| Mise à jour           | Conseils     |
-|-----------------------|--------------|
-| Configurer l’ou les pare-feu | Travailler avec votre équipe réseau et vérifiez votre configuration ou les pare-feu par rapport à [la liste d’adresses IP de Office 365](https://aka.ms/o365ips).<br><br>Vérifiez que les ports et les [sous-réseaux multimédia](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) sont inclus dans les règles de pare-feu. <br><br>Vérifiez que les ports nécessaires (énumérés ci-dessous) sont ouverts dans le pare-feu. UDP doit être la priorité car TCP est considéré comme un protocole de la restauration automatique pour l’audio, vidéo et partage d’écran vidéo et son utilisation n’affectera la qualité de l’appel. Partage d’application RDP hérité utilise TCP uniquement.<br><ul><li>**TCP :** le port 443</li><li>**UDP :** ports – 3481 3478</li><ul> |
-| Vérifier                | Utiliser l' [Outil d’évaluation de réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) pour vérifier la connectivité à partir du bâtiment concerné ou d’un sous-réseau à l’aide de la fonction de vérification de connectivité.    |
 
+|      Mise à jour      |                                                                                                                                                                                                                                                                                                                                                                   Conseils                                                                                                                                                                                                                                                                                                                                                                   |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Configurer l’ou les pare-feu | Travailler avec votre équipe réseau et vérifiez votre configuration ou les pare-feu par rapport à [la liste d’adresses IP de Office 365](https://aka.ms/o365ips).<br><br>Vérifiez que les ports et les [sous-réseaux multimédia](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) sont inclus dans les règles de pare-feu. <br><br>Vérifiez que les ports nécessaires (énumérés ci-dessous) sont ouverts dans le pare-feu. UDP doit être la priorité car TCP est considéré comme un protocole de la restauration automatique pour l’audio, vidéo et partage d’écran vidéo et son utilisation n’affectera la qualité de l’appel. Partage d’application RDP hérité utilise TCP uniquement.<br><ul><li>**TCP :** le port 443</li><li>**UDP :** ports – 3481 3478</li><ul> |
+|        Vérifier         |                                                                                                                                                                                                                                                                 Utiliser l' [Outil d’évaluation de réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) pour vérifier la connectivité à partir du bâtiment concerné ou d’un sous-réseau à l’aide de la fonction de vérification de connectivité.                                                                                                                                                                                                                                                                  |
 
 ### <a name="drop-failures"></a>Échecs de dépôt
 

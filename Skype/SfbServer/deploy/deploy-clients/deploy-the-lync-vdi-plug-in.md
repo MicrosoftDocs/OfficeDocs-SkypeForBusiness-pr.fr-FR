@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: Cette rubrique décrit les procédures de déploiement pour l’utilisation de Skype pour les entreprises lors de la connexion à un bureau virtuel distant.
-ms.openlocfilehash: d939d2b269d6488de1df09e3f8aff08e2b83458e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 08f676632e11c4bf95beee9b97be03703978a4a6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986102"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373343"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Déployer le Lync VDI plug-in avec Skype pour Business Server
  
@@ -50,11 +50,11 @@ Pour préparer la connexion Bureau à distance pour le plug-in Lync VDI, procéd
     
 4. Cliquez sur l’onglet **Ressources locales**. Sous **Sortie audio de l’ordinateur distant **, cliquez sur **Paramètres**, puis procédez comme suit :
     
-  - Sous **Lecture audio à distance**, sélectionnez **Lire sur cet ordinateur **.
+   - Sous **Lecture audio à distance**, sélectionnez **Lire sur cet ordinateur **.
     
-  - Sous **Enregistrement audio à distance**, sélectionnez **Ne pas enregistrer **.
+   - Sous **Enregistrement audio à distance**, sélectionnez **Ne pas enregistrer **.
     
-  - Cliquez sur **OK**.
+   - Cliquez sur **OK**.
     
 5. Cliquez sur l’onglet **Expérience**. Sous **Performance **, désactivez la case à cocher **Mise en cache permanente des bitmaps **.
     

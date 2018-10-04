@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 'Vous modifiez les propriétés des paramètres de la passerelle PSTN de serveur de médiation dans cette boîte de dialogue. Vous définissez les paramètres suivants :'
-ms.openlocfilehash: fa3038e8480fb11430388c95914750ab1d9ca68c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a70ec5e569b60c28e8ec91e86d09ac5f5285ee00
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971987"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371490"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres du Service de Front-End médiation pour Lync Server 2010
  
@@ -34,10 +34,10 @@ Vous modifiez les propriétés des paramètres de la **passerelle PSTN de serveu
     
 - Sélectionnez une jonction, une passerelle et un site et cliquez sur **Utiliser par défaut** pour définir la sélection comme valeur par défaut pour ce service de médiation. Sélectionnez la valeur par défaut actuelle, puis cliquez sur **Annuler par défaut** pour supprimer la sélection comme valeur par défaut actuelle. Sélectionnez ensuite une nouvelle valeur par défaut et cliquez sur **Utiliser par défaut**.
     
- **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
+  **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
   
- **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
+  **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
   
- **Aide** : permet d’afficher cet écran d’aide.
+  **Aide** : permet d’afficher cet écran d’aide.
   
 

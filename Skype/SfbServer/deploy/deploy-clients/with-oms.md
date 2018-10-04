@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article explique comment déployer la gestion des systèmes de salle Skype v2 périphériques d’une manière intégrée, de bout en bout à l’aide de Microsoft Operations Management Suite.
-ms.openlocfilehash: 4e52c416f9f35aaee1ccb3b5e8c75c29246a1c5d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5ef935f30bfdb5036c87fe24d9456af1b52925e5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891247"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371379"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Déploiement de la gestion de Skype Room Systems v2 avec OMS
 
@@ -110,27 +110,27 @@ Vous utilisez des champs personnalisés pour extraire des données spécifiques 
 
 Pour extraire vos champs personnalisés hors les journaux des événements capturés, procédez comme suit :
 
-1.  Connectez-vous au [portail Microsoft Operations Management Suite](https://aka.ms/omsportal).
+1. Connectez-vous au [portail Microsoft Operations Management Suite](https://aka.ms/omsportal).
 
-2.  Répertorie les événements générés par un appareil v2 de systèmes de salle de Skype :
-    1.  Accédez à la **Recherche des journaux** et utiliser une requête pour récupérer les enregistrements dont le champ personnalisé.
-    2.  Exemple de requête :`Event | where Source == "SRS-App"`
+2. Répertorie les événements générés par un appareil v2 de systèmes de salle de Skype :
+   1.  Accédez à la **Recherche des journaux** et utiliser une requête pour récupérer les enregistrements dont le champ personnalisé.
+   2.  Exemple de requête :`Event | where Source == "SRS-App"`
 
-3.  Sélectionnez une des enregistrements, sélectionnez le bouton situé à gauche et démarrer l’Assistant d’extraction de champ.
+3. Sélectionnez une des enregistrements, sélectionnez le bouton situé à gauche et démarrer l’Assistant d’extraction de champ.
 
    ![Assistant d’extraction de champ] (../../media/Deploy_OMS_3.png "Assistant d’extraction de champ")
 
-4.  Mettez en surbrillance les données que vous souhaitez extraire la RenderedDescription et fournir un champ de titre. Les noms de champ que vous devez utiliser sont fournies dans le tableau 1.
+4. Mettez en surbrillance les données que vous souhaitez extraire la RenderedDescription et fournir un champ de titre. Les noms de champ que vous devez utiliser sont fournies dans le tableau 1.
 
    ![Définition de champ personnalisé] (../../media/Deploy_OMS_4.png "Définition de champ personnalisé")
 
-5.  Utilisez les mappages indiqués dans le *tableau 1*. Opérations Management Suite ajoute automatiquement le ** \_trésorerie** lorsque vous définissez le nouveau champ de chaîne.
+5. Utilisez les mappages indiqués dans le *tableau 1*. Opérations Management Suite ajoute automatiquement le ** \_trésorerie** lorsque vous définissez le nouveau champ de chaîne.
 
 > [!IMPORTANT]
 > N’oubliez pas que tous les champs JSON et opérations Management Suite respectent la casse.
-
+> 
 > Prêtez attention à l’état de la case à cocher EventID dans le tableau ci-dessous. Assurez-vous que vous vérifiez l’état de cette case à cocher pour la Suite de gestion des opérations extraire des valeurs de champ personnalisé avec succès.
->
+> 
 > ![Définition de champ personnalisé] (../../media/Deploy_OMS_5.png "Définition de champ personnalisé")
 
 **Le tableau 1**
@@ -462,48 +462,50 @@ Si vous déjà déployé vos périphériques v2 de systèmes de salle Skype avan
 7.  Les appareils v2 Skype salle systèmes doivent installer et configurer l’agent Microsoft Monitoring du deuxième redémarrage.
 
 
-    ```
-    # Install-OMSAgent.ps1
-    <#
-    Date:        04/20/2018
-    Script:      Install-OMSAgent.ps1
-    Version:     1.0
-    #>
+~~~
+```
+# Install-OMSAgent.ps1
+<#
+Date:        04/20/2018
+Script:      Install-OMSAgent.ps1
+Version:     1.0
+#>
 
-    # Set the parameters
-    $WorkspaceId = "<your workspace id>"
-    $WorkspaceKey = "<your workspace key>"
-    $SetupPath = "\\Server\Share"
+# Set the parameters
+$WorkspaceId = "<your workspace id>"
+$WorkspaceKey = "<your workspace key>"
+$SetupPath = "\\Server\Share"
 
-    $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
+$SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
 
-    # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
+# $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
 
-    # Start PowerShell logging
-    Start-Transcript -Path C:\OMSAgentInstall.Log
+# Start PowerShell logging
+Start-Transcript -Path C:\OMSAgentInstall.Log
 
-    # Check if the Microsoft Monitoring Agent is installed
-    $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
+# Check if the Microsoft Monitoring Agent is installed
+$mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
 
-    # Check if the Microsoft Monitoring agent is installed
-    if (!$mma)
-    {
-        #Install agent
-        Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
-    }
+# Check if the Microsoft Monitoring agent is installed
+if (!$mma)
+{
+    #Install agent
+    Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
+}
 
-    # Check if the agent has a valid configuration
-    $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
-    if (!$CheckOMS)
-    {
-        # Apply new configuration
-        $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
-        $mma.ReloadConfiguration()
-    }
+# Check if the agent has a valid configuration
+$CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
+if (!$CheckOMS)
+{
+    # Apply new configuration
+    $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
+    $mma.ReloadConfiguration()
+}
 
-    Stop-Transcript
+Stop-Transcript
 
-    ```
+```
+~~~
 
 > [!NOTE]
 > Vous pouvez faire référence à l’article [gestion et maintenance de l’agent de journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage) lorsque vous devez reconfigurer un agent, déplacer vers un autre espace de travail ou modifier les paramètres de proxy après l’installation initiale.

@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29d362771b970c7c654a5bddcd51f2f6c0be257f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8529adfafcac9e00bf97dc358944d83f31cd7722
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017710"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371857"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planifier la gouvernance dans les équipes
 
@@ -29,24 +29,26 @@ Les équipes fournit un ensemble complet d’outils permettant de mettre en œuv
 Votre organisation peut nécessiter que vous implémentez des contrôles stricts sur comment les équipes sont nommés et classés, que les invités peuvent être ajoutées en tant que membres de l’équipe et qui peut créer des équipes. Vous pouvez configurer chacun de ces domaines à l’aide d’Azure Active Directory (AD Azure). 
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Votre organisation a besoin d’une convention d’affectation de noms spécifique pour les équipes ?</li><li>Créateurs d’équipe est nécessaire d’affecter des classifications spécifiques aux équipes ?</li><li>Avez-vous besoin restreindre la possibilité d’ajouter des invités aux équipes sur par l’équipe ?</li><li>Votre organisation a besoin limitation qui peut créer des équipes ?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documenter les besoins de votre organisation pour la création de l’équipe, d’affectation de noms, classification et l’accès invité.</li><li>Envisagez d’implémenter ces exigences dans le cadre de votre déploiement d’équipes.</li><li>Communiquer et publier vos stratégies pour informer les utilisateurs des équipes du comportement qu'ils pourront.</li></ul>|
 
 > [!TIP]
-Le tableau suivant permet de capturer les besoins de votre organisation.
-|Fonctionnalité |Détails |Azure AD Premium <br> licence requise |Décision |
-|---------|---------|---------|---------|
-|Stratégie d’attribution de noms d’équipe | Utilisez des mots bloqué personnalisée, basée sur le suffixe de préfixe. |P1 |TBD |
-|Classement de l’équipe |Affecter des classifications aux équipes. |P1 |TBD |
-|Accès invité de l’équipe |Autoriser ou empêcher l’ajout aux équipes invités. |Non |TBD |
-|Création d'une équipe |Limite de création d’équipe pour les administrateurs. |Non |TBD|
-|Création d'une équipe |Limite de la création de l’équipe aux membres de groupe de sécurité. |P1 |TBD|
-
+> Le tableau suivant permet de capturer les besoins de votre organisation.
+> 
+> |Fonctionnalité |Détails |Azure AD Premium <br> licence requise |Décision |
+> |---------|---------|---------|---------|
+> |Stratégie d’attribution de noms d’équipe | Utilisez des mots bloqué personnalisée, basée sur le suffixe de préfixe. |P1 |TBD |
+> |Classement de l’équipe |Affecter des classifications aux équipes. |P1 |TBD |
+> |Accès invité de l’équipe |Autoriser ou empêcher l’ajout aux équipes invités. |Non |TBD |
+> |Création d'une équipe |Limite de création d’équipe pour les administrateurs. |Non |TBD|
+> |Création d'une équipe |Limite de la création de l’équipe aux membres de groupe de sécurité. |P1 |TBD|
+> 
 > [!NOTE]
 > Pour vous aider à planifier [en savoir plus sur la définition de ces stratégies et les licences qu’ils nécessitent](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
-
+> 
 > [!NOTE]
 > Limitation de la création de groupe et de l’équipe peut ralentir la productivité des utilisateurs, car de nombreux services Office 365 nécessitent que les groupes créés pour le fonctionnement du service. Pour plus d’informations, accédez à et développez [Pourquoi contrôler qui crée des groupes d’Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
@@ -72,13 +74,14 @@ Votre organisation peut avoir des exigences supplémentaires pour la définition
 | ![](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Les besoins de votre organisation d’expiration de l’équipe, de rétention des données et de l’archivage du document.</li><li>Envisagez d’implémenter ces exigences dans le cadre de votre déploiement d’équipes.</li><li>Communiquer et publier vos stratégies pour informer les utilisateurs des équipes du comportement qu'ils pourront.</li></ul>|
 
 > [!TIP]
-Le tableau suivant permet de capturer les besoins de votre organisation.
-|Fonctionnalité |Détails |Azure AD Premium <br>licence requise |Décision |
-|---------|---------|---------|---------|
-|Stratégie d’expiration |Gérer le cycle de vie des groupes d’Office 365 en définissant une stratégie d’expiration. |P1 |TBD|
-|Stratégie de rétention |Conserver ou supprimer des données (fichiers de canal et les messages de canal équipes) pour une période spécifique en définissant des stratégies de rétention pour les équipes dans le centre de sécurité et conformité. **Remarque**: à l’aide de cette fonctionnalité nécessite une licence d’Office 365 entreprise E3 ou supérieure. |Non |TBD |
-|Archivage et restauration |Archiver une équipe lorsqu’il n’est plus actif, mais vous souhaitez conserver pour référence ou réactiver ultérieurement. |Non |TBD |
-
+> Le tableau suivant permet de capturer les besoins de votre organisation.
+> 
+> |Fonctionnalité |Détails |Azure AD Premium <br>licence requise |Décision |
+> |---------|---------|---------|---------|
+> |Stratégie d’expiration |Gérer le cycle de vie des groupes d’Office 365 en définissant une stratégie d’expiration. |P1 |TBD|
+> |Stratégie de rétention |Conserver ou supprimer des données (fichiers de canal et les messages de canal équipes) pour une période spécifique en définissant des stratégies de rétention pour les équipes dans le centre de sécurité et conformité. **Remarque**: à l’aide de cette fonctionnalité nécessite une licence d’Office 365 entreprise E3 ou supérieure. |Non |TBD |
+> |Archivage et restauration |Archiver une équipe lorsqu’il n’est plus actif, mais vous souhaitez conserver pour référence ou réactiver ultérieurement. |Non |TBD |
+> 
 > [!Note]
 > Expiration de groupe est une fonctionnalité d’Azure AD Premium. Pour cette fonctionnalité soit disponible, votre client doit avoir un abonnement Azure AD Premium et les licences de l’administrateur qui configure les paramètres et les membres des groupes concernés.
 

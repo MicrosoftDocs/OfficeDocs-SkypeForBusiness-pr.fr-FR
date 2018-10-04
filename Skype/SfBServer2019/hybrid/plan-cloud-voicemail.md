@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Cet article décrit les avantages, considérations relatives à la planification et configuration requise pour l’implémentation du Service de messagerie vocale de Microsoft dans le nuage. Pour plus d’informations sur la configuration de la messagerie vocale dans le nuage, voir Configuration de la messagerie vocale dans le nuage.
-ms.openlocfilehash: e307ddcb5159e51ebe26e6a5bee10f9b2ee716e9
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: 8f7c2e394aa7d3f5a04961088202d1d9055eef9e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "25030622"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370633"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planifier le service de messagerie vocale dans le nuage
 
@@ -81,7 +81,7 @@ Outre les conditions ci-dessus, la sous exigences doit être configuré pour se 
 
 -  Si vous avez un déploiement uniquement localement--qui est, uniquement Exchange et Skype pour les entreprises serveurs locaux, mais vous souhaitez profiter de la messagerie vocale dans le nuage, vous devez la licence de suite-PREM. 
 
-##<a name="migration-and-interoperability"></a>Migration et interopérabilité
+## <a name="migration-and-interoperability"></a>Migration et interopérabilité
 
 Si vous envisagez de déployer Skype pour Business Server 2019 et/ou 2019 du serveur Exchange, vous devez planifier votre migration avec soin pour en garantir continue du service de messagerie vocale. Tenez compte des points suivants :
 

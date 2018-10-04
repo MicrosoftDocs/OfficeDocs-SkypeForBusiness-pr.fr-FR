@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Résumé : Apprenez à créer, publier et vérifiez une nouvelle topologie avant d’installer Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: e6013003f9ff6b4e3f39a500df9e489292264599
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c2879b2323ffe85624c852d70028ab2388b4feb7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885031"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371333"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Créer et publier la nouvelle topologie dans Skype pour Business Server
  
@@ -101,7 +101,7 @@ Vous pouvez utiliser Skype pour Business Server Générateur de topologies pour 
     
    - Sélectionnez les rôles à installer, puis configurez le matériel en fonction des rôles sélectionnés.
     
-    Dans le deuxième scénario, vous disposez déjà d’un déploiement et votre infrastructure est prête pour de nouveaux rôles, ou vous devez associer des rôles existants à un nouveau serveur frontal.
+     Dans le deuxième scénario, vous disposez déjà d’un déploiement et votre infrastructure est prête pour de nouveaux rôles, ou vous devez associer des rôles existants à un nouveau serveur frontal.
     
    - Dans ce cas, sélectionnez les rôles que vous souhaitez déployer ou associer avec le nouveau serveur frontal. Dans les deux cas, vous devez définir les rôles, configurer le matériel nécessaire et effectuer l’installation.
     
@@ -117,10 +117,10 @@ Vous pouvez utiliser Skype pour Business Server Générateur de topologies pour 
     
    - Pour utiliser la mise en miroir SQL, sélectionnez **Activer la mise en miroir SQL** et sélectionnez une instance existante ou créez-en une nouvelle.
 
-    > [!NOTE]
-    > La mise en miroir SQL est disponible dans Skype pour Business Server 2015 mais n’est plus pris en charge dans Skype pour Business Server 2019. Les méthodes de clustering avec basculement SQL, les Instances de Cluster de basculement AlwaysOn (FCI) et les groupes de disponibilité AlwaysOn sont préférés avec Skype pour Business Server 2019.
+     > [!NOTE]
+     > La mise en miroir SQL est disponible dans Skype pour Business Server 2015 mais n’est plus pris en charge dans Skype pour Business Server 2019. Les méthodes de clustering avec basculement SQL, les Instances de Cluster de basculement AlwaysOn (FCI) et les groupes de disponibilité AlwaysOn sont préférés avec Skype pour Business Server 2019.
     
-    Pour cet exemple, entrez **Nom de domaine complet de SQL Server**, configurez les paramètres de haute disponibilité, puis cliquez sur **OK**, comme mentionné dans le schéma.
+     Pour cet exemple, entrez **Nom de domaine complet de SQL Server**, configurez les paramètres de haute disponibilité, puis cliquez sur **OK**, comme mentionné dans le schéma.
     
      ![Créez un magasin SQL Server.](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
   
@@ -132,10 +132,10 @@ Vous pouvez utiliser Skype pour Business Server Générateur de topologies pour 
     
    - Pour définir un nouveau partage de fichiers, sélectionnez **Définir un nouveau partage de fichiers**. Dans la zone **Nom de domaine complet du serveur de fichiers**, entrez le nom de domaine complet (FQDN) du serveur de fichiers existant où le partage de fichiers doit être placé, puis entrez un nom pour le partage de fichiers dans la zone **Partage de fichiers**.
     
-    Pour cet exemple, cliquez sur **Définir un nouveau magasin de fichiers**, entrez le **Nom de domaine complet du serveur de fichiers** et le **Partage de fichiers**, puis cliquez sur **Suivant**.
+     Pour cet exemple, cliquez sur **Définir un nouveau magasin de fichiers**, entrez le **Nom de domaine complet du serveur de fichiers** et le **Partage de fichiers**, puis cliquez sur **Suivant**.
     
-    > [!NOTE]
-    > Le partage de fichiers pour Skype pour Business Server peut être colocalisé, mais il n’est pas recommandé pour des raisons de performances. Notez que, dans cet exemple, le partage de fichiers se situait sur un seul serveur dédié servant de partage de fichiers. Cependant, d’autres systèmes de partage de fichiers plus robustes, comme DFS sur Windows Server 2012 R2, sont recommandées. Pour plus d’informations sur les systèmes de partage de fichiers pris en charge, voir [Configuration requise pour votre Skype pour un environnement d’entreprise](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Pour plus d’informations sur la création du partage de fichiers, voir [créer un partage de fichiers dans Skype pour Business Server](create-a-file-share.md). Vous pouvez définir le partage de fichiers sans avoir à le créer. Vous devrez créer le partage de fichiers à l’emplacement défini avant de publier la topologie. 
+     > [!NOTE]
+     > Le partage de fichiers pour Skype pour Business Server peut être colocalisé, mais il n’est pas recommandé pour des raisons de performances. Notez que, dans cet exemple, le partage de fichiers se situait sur un seul serveur dédié servant de partage de fichiers. Cependant, d’autres systèmes de partage de fichiers plus robustes, comme DFS sur Windows Server 2012 R2, sont recommandées. Pour plus d’informations sur les systèmes de partage de fichiers pris en charge, voir [Configuration requise pour votre Skype pour un environnement d’entreprise](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Pour plus d’informations sur la création du partage de fichiers, voir [créer un partage de fichiers dans Skype pour Business Server](create-a-file-share.md). Vous pouvez définir le partage de fichiers sans avoir à le créer. Vous devrez créer le partage de fichiers à l’emplacement défini avant de publier la topologie. 
   
 10. Sur la page Spécifier l’URL des services Web, vous devez décider si vous avez besoin de remplacer l’URL interne du pool des services Web. La raison de ce remplacement est liée à l’équilibrage de la charge. Le trafic SIP de base peut être équilibré via un équilibrage DNS simple. Cependant, le trafic du réseau de services Web HTTP/S doit utiliser une solution d’équilibrage de la charge sur un logiciel ou un matériel. Pour les programmes d’équilibrage de charge prises en charge, consultez [Infrastructure pour Skype pour les entreprises](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). Dans cet exemple, nous avons utilisé l’équilibrage DNS pour le trafic SIP et une solution d’équilibrage de la charge sur un logiciel. Étant donné que nous divisons le trafic de cette manière, nous devons remplacer le nom de domaine complet (FQDN) du pool des services Web internes. Si nous avions eu un équilibreur de charge de ligne supérieure et si nous avions envoyé tout le trafic par ce biais au lieu d’utiliser un équilibrage de charge DNS pour le trafic SIP, nous n’aurions pas eu besoin de remplacer l’URL des services Web. 
     
@@ -151,7 +151,7 @@ Vous pouvez utiliser Skype pour Business Server Générateur de topologies pour 
   
     - Vous pouvez aussi entrer l’URL de base externe dans **URL de base externe**. Entrez l’URL de base externe pour la différencier de votre nom de domaine interne. Par exemple, votre domaine interne est contoso.local, mais votre nom de domaine externe est contoso.com. Définissez alors l’URL à l’aide du nom de domaine contoso.com puisque cela peut être résolu à partir d’un DNS public. Cela est également important dans le cas d’un proxy inverse. Le nom de domaine de l’URL de base externe est le même que le nom de domaine du nom de domaine complet du proxy inverse. L’accès HTTP au pool frontal est requis pour la messagerie instantanée et la présence des clients Mobile.
     
-     ![Remplacez les services web.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
+      ![Remplacez les services web.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
 11. Si vous sélectionnez **Conférence** dans la page **Sélectionner les fonctionnalités**, vous devrez ensuite sélectionner un serveur Office Web Apps. Cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
     

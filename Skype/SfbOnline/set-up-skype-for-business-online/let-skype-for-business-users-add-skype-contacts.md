@@ -18,12 +18,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 98701f55bd1cdf2c6a5f8177d05a95030a4a04a5
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3961aaa5bfe8ca17a28fa736f64a91a48414a494
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850088"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371950"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype
 
@@ -75,9 +75,9 @@ Pour tester votre configuration, vous devez disposer d'un contact qui ne soit pa
     
 4. Une autre solution permettant de vérifier si le problème se situe au niveau de votre pare-feu consiste à utiliser Skype Entreprise à partir d'un emplacement Wi-Fi non situé derrière votre pare-feu, par exemple un café, pour envoyer une demande de conversation à votre contact Skype. 
     
-  - **Si votre contact Skype ne reçoit pas votre demande**, demandez-lui de vous envoyer une demande de conversation. Si le problème était lié à l'établissement de connexion entre Skype et Skype Entreprise, cela permettra de le résoudre.
+   - **Si votre contact Skype ne reçoit pas votre demande**, demandez-lui de vous envoyer une demande de conversation. Si le problème était lié à l'établissement de connexion entre Skype et Skype Entreprise, cela permettra de le résoudre.
     
-  - Si le message a pu être envoyé depuis le café et non depuis votre bureau, vous savez alors que le problème est lié à votre pare-feu. 
+   - Si le message a pu être envoyé depuis le café et non depuis votre bureau, vous savez alors que le problème est lié à votre pare-feu. 
     
 ## <a name="what-you-can-and-cant-do"></a>Opérations possibles et impossibles
 

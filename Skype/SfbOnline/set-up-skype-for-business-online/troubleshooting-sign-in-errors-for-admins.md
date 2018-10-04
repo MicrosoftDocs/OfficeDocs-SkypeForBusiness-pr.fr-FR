@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Découvrez les causes fréquentes de Skype pour Business Online pour les erreurs de connexion et de travail par le biais de ces problèmes. '
-ms.openlocfilehash: 63bcd69fa4db2266647960c119c198797c154f75
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: df34252281bebe429a85fb1a778b6d28023eb9d4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850212"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371148"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Dépannage Skype pour les erreurs de connexion Business Online pour les administrateurs
 
@@ -32,23 +32,23 @@ Pour résoudre les Skype pour les erreurs de connexion en ligne Business, démar
 <a name="top"> </a>
 
 > [Rechercher les causes fréquentes de Skype pour les erreurs de connexion Business en ligne](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
-
+> 
 > [Suivez les étapes de résolution d’une erreur spécifique (Enterprise uniquement)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
-
+> 
 > [Ajouter une entrée de pare-feu pour msoidsvc.exe à votre serveur proxy](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
-
+> 
 > [Mettre à jour les paramètres DNS](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
-
+> 
 > [Installer un certificat SSL de tiers sur votre serveur AD FS](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
-
+> 
 > [Mettre à jour les informations d’identification de sécurité](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
-
+> 
 > [Modifier les clés de Registre TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)
-
+> 
 > [Mise à jour des paramètres utilisateur dans Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
-
+> 
 > [Utiliser le guide de dépannage du Support de Microsoft](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
-
+> 
 > [Recueillir plus d’informations et pour obtenir une assistance supplémentaire](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
 
 ## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Rechercher les causes fréquentes de Skype pour les erreurs de connexion Business en ligne
@@ -56,16 +56,17 @@ Pour résoudre les Skype pour les erreurs de connexion en ligne Business, démar
 
 La plupart des problèmes de connexion peuvent être suivis pour un petit nombre de causes et la plupart de ces sont faciles à corriger. Le tableau ci-dessous répertorie certaines causes courantes des erreurs de connexion et certaines étapes que vous ou les utilisateurs peuvent suivre pour les résoudre.
 
-|**Cause possible**|**Résolution**|
-|:-----|:-----|
-|Lors de la connexion, une boîte de dialogue qui contient l’expression suivante apparaît : **ne peut pas vérifier que le serveur est approuvé pour votre adresse de connexion. Quand même vous connecter ?** <br/> |Vérifiez que le nom de domaine dans la boîte de dialogue est un serveur approuvé dans votre organisation, par exemple, **domainName.contoso.com**. Demandez à l’utilisateur pour sélectionner la case à cocher **toujours faire confiance à ce serveur** , puis cliquez sur **se connecter**. <br/> Les clients d’entreprise peuvent empêcher ce message lorsqu’un utilisateur se connecte pour la première fois en modifiant le Registre Windows sur l’ordinateur de chaque utilisateur. Pour plus d’informations, voir [TrustModelData modifier les clés de Registre](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
-|Adresse de connexion faute de frappe, nom d’utilisateur ou mot de passe  <br/> | Vérifiez que le nom d’utilisateur et mot de passe de l’utilisateur sont correctes. <br/>  Vérifiez que le nom de connexion de l’utilisateur est formaté comme suit : **bobk@contoso.com**. Cela peut être différent du format que vous utilisez pour vous connecter au réseau de votre organisation.  <br/>  Demandez à l’utilisateur de réessayer de vous connecter. <br/> |
-|Mot de passe oublié  <br/> |Réinitialiser le mot de passe et informer du nouveau mot de passe temporaire.  <br/> |
-|Pas de licence pour utiliser Skype pour Business en ligne  <br/> |Vérifiez que l’utilisateur est enregistré en tant qu’un Skype pour l’utilisateur d’entreprise en ligne. Dans le cas contraire, enregistrer l’utilisateur, puis lui demander à vous reconnecter.  <br/> |
-|Skype pour Business Online installé une version incorrecte  <br/> |Ce problème est généralement associé à un message d’erreur qui contient l’expression suivante : **le service d’authentification peut être incompatible avec cette version du programme**.  <br/> Demandez à l’utilisateur pour désinstaller et réinstaller Skype pour Business Online à partir du portail Office 365.  <br/> |
-|Problème d’acquisition d’un certificat personnel est requis pour se connecter  <br/> |Si l’adresse de connexion de l’utilisateur a récemment modifié, il faudra supprimer les données de connexion mises en cache. Demandez aux utilisateurs de se déconnecter, cliquez sur Supprimer mes informations de connexion lier sur l’écran de connexion, puis réessayez.  <br/> |
-|Définir un nom de domaine personnalisé et les modifications ne peuvent pas fini de se propager dans le système.  <br/> |Tout d’abord, assurez-vous que vous avez modifié les enregistrements de nom de domaine DNS (Domain Name Service) pour refléter les modifications.  <br/> Si vous avez déjà apporté les modifications DNS nécessaires, informer l’utilisateur à essayez de vous connecter ultérieurement. Les modifications DNS peuvent prendre jusqu'à 72 heures pour être répercutées dans le système.  <br/> |
-|Système d’horloge pas synchronisé avec l’horloge du serveur  <br/> |Assurez-vous que le contrôleur de domaine de votre réseau est en cours de synchronisation avec une source externe fiable. Pour plus d’informations, consultez l’article 816042 de la Base de connaissances Microsoft [Comment faire pour configurer un serveur de temps faisant autorité dans Windows Server](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/> |
+
+| **Cause possible**                                                                                                                                                    | **Résolution**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Lors de la connexion, une boîte de dialogue qui contient l’expression suivante apparaît : **ne peut pas vérifier que le serveur est approuvé pour votre adresse de connexion. Quand même vous connecter ?** <br/> | Vérifiez que le nom de domaine dans la boîte de dialogue est un serveur approuvé dans votre organisation, par exemple, **domainName.contoso.com**. Demandez à l’utilisateur pour sélectionner la case à cocher **toujours faire confiance à ce serveur** , puis cliquez sur **se connecter**. <br/> Les clients d’entreprise peuvent empêcher ce message lorsqu’un utilisateur se connecte pour la première fois en modifiant le Registre Windows sur l’ordinateur de chaque utilisateur. Pour plus d’informations, voir [TrustModelData modifier les clés de Registre](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
+| Adresse de connexion faute de frappe, nom d’utilisateur ou mot de passe  <br/>                                                                                                               | Vérifiez que le nom d’utilisateur et mot de passe de l’utilisateur sont correctes. <br/>  Vérifiez que le nom de connexion de l’utilisateur est formaté comme suit : <strong>bobk@contoso.com</strong>. Cela peut être différent du format que vous utilisez pour vous connecter au réseau de votre organisation.  <br/>  Demandez à l’utilisateur de réessayer de vous connecter. <br/>                                                                                                                                                                                                                             |
+| Mot de passe oublié  <br/>                                                                                                                                             | Réinitialiser le mot de passe et informer du nouveau mot de passe temporaire.  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Pas de licence pour utiliser Skype pour Business en ligne  <br/>                                                                                                                  | Vérifiez que l’utilisateur est enregistré en tant qu’un Skype pour l’utilisateur d’entreprise en ligne. Dans le cas contraire, enregistrer l’utilisateur, puis lui demander à vous reconnecter.  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
+| Skype pour Business Online installé une version incorrecte  <br/>                                                                                                           | Ce problème est généralement associé à un message d’erreur qui contient l’expression suivante : **le service d’authentification peut être incompatible avec cette version du programme**.  <br/> Demandez à l’utilisateur pour désinstaller et réinstaller Skype pour Business Online à partir du portail Office 365.  <br/>                                                                                                                                                                                                                                                    |
+| Problème d’acquisition d’un certificat personnel est requis pour se connecter  <br/>                                                                                           | Si l’adresse de connexion de l’utilisateur a récemment modifié, il faudra supprimer les données de connexion mises en cache. Demandez aux utilisateurs de se déconnecter, cliquez sur Supprimer mes informations de connexion lier sur l’écran de connexion, puis réessayez.  <br/>                                                                                                                                                                                                                                                                                                                                |
+| Définir un nom de domaine personnalisé et les modifications ne peuvent pas fini de se propager dans le système.  <br/>                                                         | Tout d’abord, assurez-vous que vous avez modifié les enregistrements de nom de domaine DNS (Domain Name Service) pour refléter les modifications.  <br/> Si vous avez déjà apporté les modifications DNS nécessaires, informer l’utilisateur à essayez de vous connecter ultérieurement. Les modifications DNS peuvent prendre jusqu'à 72 heures pour être répercutées dans le système.  <br/>                                                                                                                                                                                                                                                        |
+| Système d’horloge pas synchronisé avec l’horloge du serveur  <br/>                                                                                                                     | Assurez-vous que le contrôleur de domaine de votre réseau est en cours de synchronisation avec une source externe fiable. Pour plus d’informations, consultez l’article 816042 de la Base de connaissances Microsoft [Comment faire pour configurer un serveur de temps faisant autorité dans Windows Server](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/>                                                                                                                                                                                                                                          |
 
 Pour résoudre les Skype pour les erreurs de connexion en ligne Business, démarrez en éliminant les causes les plus courantes des difficultés de connexion. Si nécessaire, vous pouvez alors suivre les étapes en fonction du type d’erreur de résolution spécifique. Si l’utilisateur toujours ne peut pas se connecter, recueillir des informations supplémentaires, puis demander une assistance supplémentaire.
 

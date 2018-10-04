@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: Pour configurer les notifications push Microsoft et les notifications push Apple, vous devez créer une stratégie pour définir les types de notification push que vous avez besoin.
-ms.openlocfilehash: 1e3c132fe030bd238fbb01af6fa53a1fce2657d7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4b0da70e5d66f31ed1c912efcdd7a13660c396f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975941"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371475"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Client mobile : Configuration des notifications Push
  
@@ -34,14 +34,14 @@ Deux options sont disponibles pour la création d’une stratégie et de modific
     
 2. **Modifier**: sélectionnez une stratégie, cliquez sur Modifier pour sélectionner une action à partir d’une liste déroulante. Vous ne pouvez modifier que les sites que vous avez déjà créé ou modifiez la stratégie globale :
     
-  - **Afficher les détails...**: affiche des informations sur la stratégie sélectionnée. Vous serez en mesure d’apporter des modifications à la stratégie existante.
+   - **Afficher les détails...**: affiche des informations sur la stratégie sélectionnée. Vous serez en mesure d’apporter des modifications à la stratégie existante.
     
-  - **Sélectionner tout**: Si vous disposez d’un certain nombre de stratégies et que vous devez sélectionner toutes les stratégies, cliquez sur Sélectionner tout
+   - **Sélectionner tout**: Si vous disposez d’un certain nombre de stratégies et que vous devez sélectionner toutes les stratégies, cliquez sur Sélectionner tout
     
-  - **Supprimer**: supprime la stratégie sélectionnée. Supprime toutes les stratégies à l’aide de **toutes les sélectionner** et **Supprimer**
+   - **Supprimer**: supprime la stratégie sélectionnée. Supprime toutes les stratégies à l’aide de **toutes les sélectionner** et **Supprimer**
     
-    > [!NOTE]
-    > Vous ne pouvez pas supprimer la stratégie **globale** par défaut. Si vous tentez de supprimer, vous êtes averti que la stratégie globale a été renvoyée pour les valeurs par défaut (autrement dit, tous les paramètres sont vides), mais la stratégie ne peut pas être supprimée.
+     > [!NOTE]
+     > Vous ne pouvez pas supprimer la stratégie **globale** par défaut. Si vous tentez de supprimer, vous êtes averti que la stratégie globale a été renvoyée pour les valeurs par défaut (autrement dit, tous les paramètres sont vides), mais la stratégie ne peut pas être supprimée.
   
 Création d’une nouvelle stratégie ou modifier une stratégie existante est associé à deux actions :
   

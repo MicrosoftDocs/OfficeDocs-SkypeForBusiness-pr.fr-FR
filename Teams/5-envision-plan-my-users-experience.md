@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fa7f3450f563dad6be2bfc857724e7c6fe2ba16
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 76bacfe85fce14b2d5b1469295134e560c14c54a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016764"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373291"
 ---
 # <a name="plan-my-users-experience"></a>Planifier l’expérience des utilisateurs
 
@@ -85,8 +85,8 @@ Certaines organisations préfèrent éviter Wi-Fi. Parfois ce guide est fourni p
 Si votre organisation utilise des points d’accès sans fil ou des routeurs qui ne prennent pas en charge le protocole d’économie d’énergie 802.11, vous pouvez être confronté appels abandonnés ou la qualité des appels médiocre dans Teams Microsoft en cours d’exécution sur les périphériques Windows. Si elle n’est pas possible de mettre à niveau votre point d’accès sans fil ou les routeurs, vous devez mettre à jour Windows Power planifier les paramètres sur les appareils qui s’exécutent sur la batterie. Conseils de détail et de configuration supplémentaire est fournie dans le suivants [prennent en charge de l’article](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Les clients équipes seront déployés dans votre organisation ?</li><li>Comment allez-vous initialement déployer les clients équipes à vos utilisateurs ?</li><li>Qui est responsable de l’évaluation des systèmes d’extrémité et des périphériques pour valider ils répondent aux exigences d’équipes pour une bonne qualité ?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Documenter la procédure à suivre pour déployer des clients équipes.</li><li>Évaluer les points de terminaison et les périphériques et effectuer et correction requis.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Les clients équipes seront déployés dans votre organisation ?</li><li>Comment allez-vous initialement déployer les clients équipes à vos utilisateurs ?</li><li>Qui est responsable de l’évaluation des systèmes d’extrémité et des périphériques pour valider ils répondent aux exigences d’équipes pour une bonne qualité ?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documenter la procédure à suivre pour déployer des clients équipes.</li><li>Évaluer les points de terminaison et les périphériques et effectuer et correction requis.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -106,8 +106,8 @@ Une fois que vous avez sélectionné les périphériques, les inclure dans le pl
 > À ce stade, nous recommandons l’utilisation de périphériques audio qui ont été certifiés par le biais de la Skype pour le programme de Certification d’entreprise. Pour rechercher des périphériques certifiés sous ce programme, voir le catalogue de solutions [Certifiés de périphériques USB pour Skype pour les entreprises](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) .
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Déterminez la stratégie de périphérique globale de votre organisation pour des utilisateurs et les expériences de salle de réunion.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Effectuer un exercice personnage-à mappage des périphériques pour votre organisation.</li><li>Le processus permettant d’obtenir des périphériques pour les utilisateurs et les salles de réunion du document.</li><li>Le processus de déploiement et configuration des périphériques pour les utilisateurs et les salles de réunion du document.</li><li>Se procurer les appareils pour commencer votre déploiement initiales.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez la stratégie de périphérique globale de votre organisation pour des utilisateurs et les expériences de salle de réunion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Effectuer un exercice personnage-à mappage des périphériques pour votre organisation.</li><li>Le processus permettant d’obtenir des périphériques pour les utilisateurs et les salles de réunion du document.</li><li>Le processus de déploiement et configuration des périphériques pour les utilisateurs et les salles de réunion du document.</li><li>Se procurer les appareils pour commencer votre déploiement initiales.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

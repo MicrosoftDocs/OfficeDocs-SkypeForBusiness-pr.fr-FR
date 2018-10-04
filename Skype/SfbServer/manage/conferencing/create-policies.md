@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Résumé : Apprenez à créer des stratégies de conférence dans Skype pour Business Server.'
-ms.openlocfilehash: 3c71962e42e083ada13b14bdecbefafbbc44f72b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4a481d8853fdb8f022da3539c5ebeb49c3b49402
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996600"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372286"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Créer des stratégies de conférence dans Skype pour Business Server
  
@@ -26,7 +26,7 @@ Vous pouvez créer des stratégies de conférence à l’aide de Skype pour le p
 
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2.  Ouvrez le panneau de configuration serveur Business Skype.
+2. Ouvrez le panneau de configuration serveur Business Skype.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de conférence**.
     
@@ -36,8 +36,8 @@ Vous pouvez créer des stratégies de conférence à l’aide de Skype pour le p
     
    - Pour créer une stratégie au niveau site, cliquez sur **Stratégie de site**. Dans la zone de recherche **Sélectionner un site**, tapez entièrement ou partiellement le nom du site pour lequel vous voulez créer une stratégie. Dans la liste des sites, cliquez sur le site voulu, puis sur **OK**.
     
-    > [!NOTE]
-    > Le nom du site devient le nom de la stratégie de conférence. Il ne peut pas être modifié. 
+     > [!NOTE]
+     > Le nom du site devient le nom de la stratégie de conférence. Il ne peut pas être modifié. 
   
 5. Dans **Description**, tapez la description de la stratégie.
     

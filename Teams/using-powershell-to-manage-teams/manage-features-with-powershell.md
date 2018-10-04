@@ -10,12 +10,12 @@ search.appverid: MET150
 description: Apprenez à utiliser Windows PowerShell pour gérer l’ensemble des fonctionnalités disponibles dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51c3bf4f2f1ad7e2d391617d37051e1b09610a5c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: eccd04023324256e40d9e06315fcd80081ffe565
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015844"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371349"
 ---
 # <a name="using-powershell-to-manage-teams"></a>Utilisation de PowerShell pour gérer des équipes
 J’ai serait représenter ceci comme une rubrique de référence configurer selon la fonctionnalité. Puis chaque jeu de fonctions aurait toutes les applets de commande répertoriées dans le tableau avec des liens vers la rubrique Get-Help.
@@ -23,6 +23,7 @@ J’ai serait représenter ceci comme une rubrique de référence configurer sel
 # <a name="managing-teams-features-using-powershell"></a>Gérer les fonctionnalités des équipes à l’aide de PowerShell
 
 ## <a name="admin-roles"></a>Rôles d’administrateur
+
 |Rôle |Exemple |Lien de l’aide de l’applet de commande  |
 |---------|---------|---------|
 |Administrateur global     |         |         |
@@ -33,6 +34,7 @@ J’ai serait représenter ceci comme une rubrique de référence configurer sel
 lien vers doc d’Isabella
 
 ## <a name="audio-conferencing"></a>Services d’audioconférence
+
 |Nom de l’applet de commande |Description |Lien de l’aide de l’applet de commande  |
 |---------|---------|---------|
 |Nom de l’applet de commande   |    Action  |    Lien vers la cmdlet Get-Help PS     |

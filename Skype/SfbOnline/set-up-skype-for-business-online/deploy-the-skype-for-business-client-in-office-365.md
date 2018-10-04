@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Découvrez comment planifier et déployer Skype pour les entreprises de petites, moyennes et grandes entreprises et la disposition de vos utilisateurs. '
-ms.openlocfilehash: 6af2ed700783fef853052b39c60270baf86919e9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c96d4759e25370997b9af8d42d8130d7964962df
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858794"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372570"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Déployer le Skype pour client d’entreprise dans Office 365
 
@@ -136,7 +136,7 @@ Pour plus d’informations sur le fonctionnement des mises à jour pour le logic
     
 - [Configurer les paramètres de mise à jour pour Office 365 ProPlus](https://technet.microsoft.com/en-us/library/dn761708.aspx)
     
- **La fréquence d’obtenir des mises à jour de la fonctionnalité**
+  **La fréquence d’obtenir des mises à jour de la fonctionnalité**
   
 Outre où obtenir des mises à jour, vous pouvez également contrôler la fréquence à laquelle vous obtenez les nouvelles fonctionnalités pour la Skype pour client d’entreprise. Les deux options sont les suivantes :
   

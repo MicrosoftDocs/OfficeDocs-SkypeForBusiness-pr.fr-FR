@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft établit des partenariats avec certains fournisseurs SBC afin de certifier leur SBC pour une utilisation avec le routage direct.
-ms.openlocfilehash: 65b36e9b09b77c2752b1bc8dd25af8de9070b541
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 375c5ca46e8af7bb31ad50b8c55a4fa629b8d2dd
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014402"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371795"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs SBC certifiés pour le routage direct
 
@@ -32,7 +32,7 @@ Avec chaque fournisseur, Microsoft :
 - Mène des tests intensifs via un laboratoire tiers ; seuls les périphériques qui passent les tests sont certifiés. 
 - Mène des tests quotidiens avec tous les périphériques certifiés en environnements de production et de préproduction. La validation des périphériques en préproduction permet de s'assurer que les nouvelles versions de code de routage direct dans le cloud fonctionneront avec les SBC certifiés. 
 - Dispose d'une procédure de support commun avec les fournisseurs SBC.
- 
+
 
   > [!NOTE]
   > Microsoft ne prend en charge un système téléphonique que si un ou plusieurs périphériques certifiés sont connectés en routage direct. Microsoft se réserve le droit de rejeter les cas de support où un périphérique non certifié est connecté au système téléphonique en routage direct. 
@@ -42,21 +42,22 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 [En savoir plus sur le routage direct](https://aka.ms/dr). Si vous avez des questions sur le programme de certification des SBC pour le routage direct, envoyez un e-mail à l'adresse drsbccertification@microsoft.com
 
 
-|Fournisseur  |Produit  |Contournement autre que média  |Contournement de média  |Version du logiciel|
-|---------|---------|---------|---------|---------|
-|[CodesAudio](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |    &#10004;     |    En attente      |     7.20A.200.055     |
-|  |   Mediant 800 SBC       |    &#10004;      |     En attente    |      7.20A.200.055    |
-|     |      Mediant 2600 SBC    |     &#10004;     |    En attente     |    7.20A.200.055      |
-|     |   Mediant 4000 SBC       |     &#10004;     |    En attente     |    7.20A.200.055      |
-|     |    Mediant 1000B SBC   |    &#10004;      |  En attente       |    7.20A.200.055   |
-|     |   Virtual Edition SBC    |   &#10004;   |En attente         |     7.20A.200.055     |
-|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    &#10004;      |   En attente      |     V6.2     |
-|     |SBC 5210     |     &#10004;     |    En attente     |    V6.2      |
-|     | SBC 5400     |    &#10004;  |    En attente     |   V6.2    |
-|     |SBC 7000     |     &#10004;  |    En attente     |    V6.2      |
-|     | SBC SWe  |   &#10004;    |    En attente     |    V6.2      |
-|     |SBC 1000   |     &#10004;   |     En attente    |    V7.0.2   |&#10004; 
-|     | SBC 2000    |     &#10004;   |    En attente     |    V7.0.2      |
-|     | SBC SWe Lite     |&#10004; | En attente | V7.0.4
-|[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    Think 365 SBC      |  &#10004;       |    En attente     |   V1.4       |
-|     |         |         |         |         |
+|                                                       Fournisseur                                                        |       Produit       | Contournement autre que média | Contournement de média | Version du logiciel |
+|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
+| [CodesAudio](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways) |   Mediant 500 SBC   |     &#10004;     |   En attente    |  7.20A.200.055   |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   En attente    |  7.20A.200.055   |
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   En attente    |  7.20A.200.055   |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   En attente    |  7.20A.200.055   |
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   En attente    |  7.20A.200.055   |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   En attente    |  7.20A.200.055   |
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   En attente    |       V6.2       |
+|                                                                                                                     |      SBC 5210       |     &#10004;     |   En attente    |       V6.2       |
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   En attente    |       V6.2       |
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   En attente    |       V6.2       |
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   En attente    |       V6.2       |
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   En attente    |      V7.0.2      |
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   En attente    |      V7.0.2      |
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |   En attente    |      V7.0.4      |
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   En attente    |       V1.4       |
+|                                                                                                                     |                     |                  |              |                  |
+

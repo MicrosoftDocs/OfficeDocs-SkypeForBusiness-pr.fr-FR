@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: a65cd85c98f59f562aa8a2db37fe71090174cb25
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 7c44e6be750e4793083a0fa931874db2e6b09b80
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958110"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371872"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Envoi manuel d'une demande de service personnalisé
 
@@ -56,13 +56,13 @@ Dans certains pays/régions, vous devrez également soumettre manuellement une d
     
 5. Dans la page **Identifier le problème**, sélectionnez et renseignez les éléments suivants :
     
-  - **Fonctionnalité :** sélectionnez **Forfait d'appels national** et/ou **Forfait d'appels national et international**.
+   - **Fonctionnalité :** sélectionnez **Forfait d'appels national** et/ou **Forfait d'appels national et international**.
     
-  - **Symptôme :** entrez **Appels d'urgence**.
+   - **Symptôme :** entrez **Appels d'urgence**.
     
-  - **Récapitulatif du problème :** entrez **Validation d'adresse**.
+   - **Récapitulatif du problème :** entrez **Validation d'adresse**.
     
-  - **Détails du problème :** entrez les détails relatifs à la ou aux adresses que vous souhaitez valider tels que :
+   - **Détails du problème :** entrez les détails relatifs à la ou aux adresses que vous souhaitez valider tels que :
     
       - Numéro de rue
     
@@ -72,8 +72,8 @@ Dans certains pays/régions, vous devrez également soumettre manuellement une d
     
       - Pays ou région
     
-    > [!IMPORTANT]
-    > **Entrez le pays ou la région dans lequel ou laquelle se trouvent les forfaits d'appels dans Office 365 que vous souhaitez valider comme adresse d'urgence lorsque vous attribuez un numéro de téléphone.**
+     > [!IMPORTANT]
+     > **Entrez le pays ou la région dans lequel ou laquelle se trouvent les forfaits d'appels dans Office 365 que vous souhaitez valider comme adresse d'urgence lorsque vous attribuez un numéro de téléphone.**
   
       - Code postal
     
@@ -81,19 +81,19 @@ Dans certains pays/régions, vous devrez également soumettre manuellement une d
     
 7. Dans la page **Ajouter des détails**, sélectionnez et entrez les informations suivantes :
     
-  - **Votre service est-il disponible ?** Sélectionnez **Non**.
+   - **Votre service est-il disponible ?** Sélectionnez **Non**.
     
-  - **Combien d'utilisateurs sont affectés ?** Sélectionnez **Certains utilisateurs**.
+   - **Combien d'utilisateurs sont affectés ?** Sélectionnez **Certains utilisateurs**.
     
-  - **Entrez l'adresse de messagerie d'une personne affectée par ce problème** ou laissez ce champ vide.
+   - **Entrez l'adresse de messagerie d'une personne affectée par ce problème** ou laissez ce champ vide.
     
-  - **Sélectionnez le ou les domaines à répertorier**
+   - **Sélectionnez le ou les domaines à répertorier**
     
-  - **Joignez un fichier** si plusieurs adresses doivent être validées.
+   - **Joignez un fichier** si plusieurs adresses doivent être validées.
     
-  - Cliquez sur **Suivant**.
+   - Cliquez sur **Suivant**.
     
-  - Entrez votre numéro de téléphone de contact.
+   - Entrez votre numéro de téléphone de contact.
     
 8. Passez en revue les informations, puis cliquez sur **Envoyer la demande**.
     

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Cette section décrit les paramètres globaux et les objets et les groupes universels de service et d’administration qui sont créés à l’étape de préparation de la forêt.
-ms.openlocfilehash: 9ceece01d6f5184eb58f0906dd61540c2dcf2084
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6c031bf06310c6aba2ee18f532e95438bd495936
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244336"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373534"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Modifications apportées par la préparation de la forêt dans Skype pour Business Server
 
@@ -111,13 +111,14 @@ Préparation de la forêt crée ACE privée et publique. Il crée ACE privé sur
 
 **ACE public créé par la préparation de la forêt**
 
-|**ACE**|**RTCUniversalGlobalReadOnlyGroup**|
-|:-----|:-----|
-|Lire le conteneur système (non héritée) du domaine racine**\*** <br/> |X  <br/> |
-|Conteneur DisplaySpecifiers de la Configuration de lecture (non hérité)  <br/> |X  <br/> |
+
+| **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
+|:------------------------------------------------------------------------|:------------------------------------|
+| Lire le conteneur système (non héritée) du domaine racine**\\**\* <br/>        | X  <br/>                            |
+| Conteneur DisplaySpecifiers de la Configuration de lecture (non hérité)  <br/> | X  <br/>                            |
 
 > [!NOTE]
-> **\*** ACE qui n’est pas héritées n’accordez pas d’accès à des objets enfants dans ces conteneurs. ACE héritées accorder l’accès à des objets enfants dans ces conteneurs.
+> <strong>\\</strong>* Les entrées ne sont pas héritées n’accordent pas d’accès à des objets enfants dans ces conteneurs. ACE héritées accorder l’accès à des objets enfants dans ces conteneurs.
 
 Dans le conteneur de Configuration, sous le contexte d’appellation de Configuration, la préparation de la forêt exécute les tâches suivantes :
 

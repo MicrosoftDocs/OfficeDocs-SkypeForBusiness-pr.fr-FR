@@ -20,24 +20,24 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: cb808cb8271cfb32174106e2692793aa41a64d50
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c78a3fb140431dd46b3850e1d01e7fb29fb29210
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882112"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372819"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Définir la liste des numéros de téléphone inclus sur invite dans Skype Entreprise Online
 
 > [!Note]
 > Pour plus d’informations sur comment faire des conférences avec des numéros de téléphone inclus sur invite dans Microsoft Teams, voir [Définir les numéros de téléphone inclus sur invite dans les Microsoft Teams](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams).
 
-Le service d’audioconférence dans Office 365 permet aux utilisateurs de votre organisation de créer des réunions sur Skype Entreprise, et les autorise à se connecter à ces réunions à l’aide d’un téléphone. Dans Office 365, vous avez la possibilité d’utiliser un pont de conférence audio Microsoft ou un pont de conférence audio tiers qui est hébergé par un fournisseur de services d’audioconférence approuvé (ACP).
+Audio Conferencing in Office 365 enables users in your organization to create Skype for Business meetings, and then allow users to dial in to those meetings using a phone. In Office 365, you have the option of using a Microsoft audio conferencing bridge or a third-party audio conferencing bridge that is hosted by an approved audio conferencing provider (ACP).
   
 > [!NOTE]
-> Il n'existe pas de ressource qui rassemble tous les numéros de connexion pour l'audioconférence. Si vous souhaitez pour voir s’il existe des numéros de téléphone entrant dans votre région ou le pays/région, utilisez le **Skype pour le centre d’administration de Business** > **vocale** > de**Numéros de téléphone**, cliquez sur **Ajouter** puis **nouveaux numéros de Service **. |||UNTRANSLATED_CONTENT_START|||Use the lists for **Country/Region**, **State/Region** and **City** to filter your search.> Also, if you are looking for toll free service numbers, select **Toll-Free** from the **State/Region** list.|||UNTRANSLATED_CONTENT_END|||
+> There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. If you are looking to see if there are dial-in phone numbers available in your area or country/region, use the **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add** then **New Service Numbers**. Use the lists for **Country/Region**, **State/Region** and **City** to filter your search.> Also, if you are looking for toll free service numbers, select **Toll-Free** from the **State/Region** list.
   
-Un pont de conférence vous offre un ensemble de numéros de téléphone pour votre organisation. Tous ces ponts peuvent servir à participer à des réunions créées par un organisateur de réunion, mais vous pouvez sélectionner ceux qui doivent être inclus dans les invitations de réunion.
+A conferencing bridge gives you a set of dial-in phone numbers for your organization. All of them can be used to join the meetings that a meeting organizer has created, but you can select which ones will be included on their meeting invites.
   
 > [!NOTE]
 > Il peut y avoir au maximum une ligne simple et une ligne de téléphone gratuite dont les numéros apparaissent sur l’invitation à la réunion pour un organisateur de réunion, mais il existe également un lien situé en bas de chaque invitation à une réunion qui ouvre la liste complète de tous les numéros de téléphone qui peuvent être utilisés pour participer à une réunion. 
@@ -57,11 +57,11 @@ Un pont de conférence vous offre un ensemble de numéros de téléphone pour vo
   
 4. Choisir les utilisateurs à modifier :
     
-  - Pour sélectionner un seul utilisateur, sélectionnez le nom de l’utilisateur.
+   - Pour sélectionner un seul utilisateur, sélectionnez le nom de l’utilisateur.
     
-  - Pour sélectionner tous les utilisateurs sur la page, cochez la case à côté de **Afficher le nom** en haut de la liste.
+   - Pour sélectionner tous les utilisateurs sur la page, cochez la case à côté de **Afficher le nom** en haut de la liste.
     
-  - Pour sélectionner plusieurs utilisateurs, cochez la case en regard de chaque nom d’utilisateur.
+   - Pour sélectionner plusieurs utilisateurs, cochez la case en regard de chaque nom d’utilisateur.
     
 5. Dans le volet de droite, sélectionnez **Modifier**.
     
@@ -69,14 +69,14 @@ Un pont de conférence vous offre un ensemble de numéros de téléphone pour vo
   
 6. Choisissez **Audioconférence**.
     
-7. Dans la page **Propriétés**, dans la liste **Nom du fournisseur**, sélectionnez le fournisseur pour l’utilisateur. Selon le fournisseur, complétez les champs suivants.
+7. On the **Properties** page, in the **Provider name** list, choose the provider for the user. Depending on the provider, complete the following boxes.
     
-  - **Microsoft est le fournisseur**: utilisez les listes de **numéro de téléphone payant par défaut** et de **numéro d’appel gratuit par défaut** pour sélectionner les numéros par défaut pour l’utilisateur.
+   - **Microsoft est le fournisseur**: utilisez les listes de **numéro de téléphone payant par défaut** et de **numéro d’appel gratuit par défaut** pour sélectionner les numéros par défaut pour l’utilisateur.
     
-    > [!NOTE]
-    > Au moins un numéro d’appel gratuit doit être affecté à votre pont de conférence avant qu’il ne puisse être défini comme étant le numéro d’appel gratuit par défaut d’un utilisateur. Pour obtenir un numéro gratuit, voir les [numéros de téléphone de service de mise en route pour Skype pour les entreprises](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
+     > [!NOTE]
+     > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
-  - **Le fournisseur est un tiers**: utiliser les champs de **Numéro de téléphone payant** et de**Numéro d'appel gratuit** pour indiquer les numéros pour l'utilisateur.
+   - **Le fournisseur est un tiers**: utiliser les champs de **Numéro de téléphone payant** et de**Numéro d'appel gratuit** pour indiquer les numéros pour l'utilisateur.
 
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>Réinitialiser les numéros de téléphone des services d’audioconférence
@@ -87,7 +87,7 @@ Un pont de conférence vous offre un ensemble de numéros de téléphone pour vo
     
 3. Sélectionnez les utilisateurs que vous souhaitez réinitialiser, puis dans le volet Actions, cliquez sur **Effacer**.
     
-Par défaut, lorsque vous modifiez les paramètres de conférence d’un utilisateur, un message électronique est envoyé à l’utilisateur. Pour modifier ce paramètre, voir [Activer ou désactiver l’envoi de messages électroniques lors de la modifient des paramètres de conférence Audio](enable-or-disable-sending-emails-when-their-settings-change.md).
+By default, when you change a user's conferencing settings, an email is sent to the user. To change this, see [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change.md).
   
 > [!IMPORTANT]
 > Lorsque vous modifiez les paramètres d'audioconférence d’un utilisateur, les réunions Skype Entreprise périodiques et futures doivent être mises à jour et envoyées aux participants. 
@@ -130,7 +130,7 @@ Par défaut, lorsque vous modifiez les paramètres de conférence d’un utilisa
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-## <a name="want-to-learn-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
+  ## <a name="want-to-learn-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 - Windows PowerShell permet de gérer les utilisateurs et ce qu'ils sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)

@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62eb0e6fbae734a83fd96f89203db0547938e9d3
-ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
+ms.openlocfilehash: aca03693a7abea6e26f175cc49f0142894749160
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018585"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372180"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer les équipes Microsoft Surface concentrateur
 ======================================
@@ -65,7 +65,7 @@ Les packages se trouvent sur cette [page de téléchargement](https://1drv.ms/f/
 5. Cliquez sur **Ajouter ou supprimer un package de mise en service**. 
 6. Cliquez sur **Ajouter un Package**.
 7. Sélectionnez l’option **Support amovible** dans le menu déroulant. 
-8. Ajoutez le package **TeamsRTMMode*.ppkg** approprié qui a été précédemment copié à la clé USB. 
+8. Ajoutez le package <strong>TeamsRTMMode*.ppkg</strong> approprié qui a été précédemment copié à la clé USB. 
 9. Redémarrez le dispositif Hub de la surface d’exposition. 
 10. Après le redémarrage de l’appareil, vous devez être en mesure de démarrer l’application des équipes à partir de l’écran d’accueil et participer à une réunion à partir du calendrier. 
 

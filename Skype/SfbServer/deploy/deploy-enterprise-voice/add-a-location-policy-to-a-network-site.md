@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: Affecter des stratégies d’emplacement E9-1-1 aux sites du réseau dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: e8ff532d66531cbe92ca661d9eaa5780e5b9f56c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caf7de4816c30ba77a4215457b503ac0f8fe9640
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885741"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370881"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Ajouter une stratégie d’emplacement à un site réseau dans Skype pour Business Server
  
@@ -44,9 +44,9 @@ Pour plus d’informations sur l’utilisation des sites réseau, voir la docume
     
     Affectez la stratégie d’emplacement balisée **Redmond** à un site réseau existant appelé **Redmond**.
     
-  ```
-  Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
-  ```
+   ```
+   Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
+   ```
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>Pour affecter une stratégie d’emplacement à un nouveau site réseau
 

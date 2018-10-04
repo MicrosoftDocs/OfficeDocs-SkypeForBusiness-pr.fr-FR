@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Pour modifier les propriétés pour les ordinateurs de serveur de transport Edge en tant qu’un serveur de périphérie unique ou en tant qu’ordinateurs membres d’un pool de serveurs Edge, vous configurez le nom du serveur et les paramètres de configuration d’adresses IP :'
-ms.openlocfilehash: ca1e53809c4f59a7b050d5cb2ae47906aa39f82f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 10709088aee9d1b5ec247804122520afa3b29dee
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001368"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373384"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres l’ordinateur Edge pour Lync Server 2010
  
@@ -41,10 +41,10 @@ Pour modifier les propriétés pour les ordinateurs de serveur de transport Edge
     > [!IMPORTANT]
     > La propriété de configuration pour **laquelle NAT est activé les adresse IPv4 publique** ne seront disponible pour modifier si vous avez choisi pour fournir la traduction d’adresses réseau (NAT) a / V Edge service
   
- **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
+  **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
   
- **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
+  **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
   
- **Aide** : permet d’afficher cet écran d’aide.
+  **Aide** : permet d’afficher cet écran d’aide.
   
 

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Vous modifiez les paramètres pour le serveur Edge ou le pool de serveurs Edge en configurant les propriétés suivantes :'
-ms.openlocfilehash: e09f20840627af19f1f9f2fa33dc5ab5f6b342f3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3a3dd5fa1521bf23252bef85c3c26842258413f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975927"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371580"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Modifier l’expanseur des paramètres du serveur Edge pour Lync Server 2010
  
@@ -34,14 +34,14 @@ Vous modifiez les paramètres pour le serveur Edge ou le pool de serveurs Edge e
   
 - Le **Port de réplication interne Configuration (HTTPS)**, par défaut sur le port TCP 4443, est le port que l’ordinateur local (autrement dit, local pour les serveurs de périphérie) copie du magasin Central de gestion est répliquée sur. La copie locale du magasin Central de gestion est dans la base de données **RTCLOCAL** dans SQL Server sur chaque ordinateur. La réplication est à sens unique, initiée à partir du serveur de gestion centralisée (ou, le pool frontal ou serveur frontal qui joue le rôle de serveur de gestion centralisée) pour les serveurs de périphérie et un port de l’interface interne.
     
- **Sélection du tronçon suivant**
+  **Sélection du tronçon suivant**
   
 - Pour la liste, sélectionnez le **pool du tronçon suivant**. Vous définissez le directeur, pool directeur, un pool frontal ou serveur frontal à ce rôle. Le pool du tronçon suivant est le serveur ou le pool de serveurs qui accepte les messages SIP entrantes à partir du serveur Edge ou interface interne du pool Edge et envoi sortant SIP à l’interface interne du serveur Edge.
     
     > [!NOTE]
     > Le directeur est un rôle facultatif et si vous décidez de ne pas déployer les directeurs, les serveurs frontaux (ordinateur unique ou pool) assumeront le rôle de directeur. 
   
- **Paramètres externes**
+  **Paramètres externes**
   
 Cette section des propriétés vous permet de modifier des propriétés pour les paramètres du serveur Edge ou du pool de serveurs Edge externes. Les propriétés suivantes sont disponibles pour modifier :
   
@@ -61,10 +61,10 @@ Cette section des propriétés vous permet de modifier des propriétés pour les
     > [!IMPORTANT]
     > Si vous avez sélectionné la **Activer distinct nom de domaine complet et l’adresse IP pour les conférences web et A / V** case à cocher, seul le service Edge d’accès nom complet du Pool sera disponible pour la modification. Affecter des ports distincts pour chacun des trois services de périphérie.
   
- **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
+  **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
   
- **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
+  **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
   
- **Aide** : permet d’afficher cet écran d’aide.
+  **Aide** : permet d’afficher cet écran d’aide.
   
 

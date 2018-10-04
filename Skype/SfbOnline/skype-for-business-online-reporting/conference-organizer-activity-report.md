@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 5e2d38c3576cd39769fd3b150ad905f37421e9bc
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: ac3c65a19d80e5218e121c1cf582753e5f5eecc5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854260"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372590"
 ---
 # <a name="conference-organizer-activity-report"></a>Rapport d'activités de l'organisateur de conférence
 
@@ -63,7 +63,7 @@ Vous pouvez obtenir une vue dans votre Skype pour des conférences qui ont été
 ***
 ![Numéro 2](../images/sfbcallout2.png)<br/>Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
 ***
-![Nombre 3](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total de conférences qui ont été organisées ainsi que le type de conférences qui se tient actuellement dans votre organisation. Cela vous indiquera le nombre total et le type de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'application**, le **web**, une **fonction d'appels entrants/sortants tierce** et la **fonction d'appels entrants/sortants de Microsoft**, pour l'ensemble de votre organisation.   
+![Numéro 3](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total de conférences qui ont été organisées ainsi que le type de conférences qui se tient actuellement dans votre organisation. Cela vous indiquera le nombre total et le type de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'application**, le **web**, une **fonction d'appels entrants/sortants tierce** et la **fonction d'appels entrants/sortants de Microsoft**, pour l'ensemble de votre organisation.   
 ***
 ![Numéro 4](../images/sfbcallout4.png)<br/>Utilisez les données en temps réel et du graphique interactif **Utilisateurs** pour comprendre les tendances d'utilisation et afficher le nombre total d'utilisateurs uniques qui ont organisé des conférences qui se sont tenues dans votre organisation. Cela vous indiquera le nombre total d'utilisateurs ainsi que les types de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'application**, le **web**, une **fonction d'appels entrants/sortants tierce** et la **fonction d'appels entrants/sortants de Microsoft** qui ont été organisées.  
 ***
@@ -80,22 +80,22 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 ![N ° 7](../images/sfbcallout7.png)<br/>Vous pouvez filtrer la série présentée dans le graphique en cliquant sur un élément dans la légende. Par exemple, dans le graphique **Activité**, cliquez ou appuyez sur **Messagerie instantanée**, **Audio/vidéo**, **Partage d'application**, **Web**, une **fonction d'appels entrants/sortants tierce** et la **fonction d'appels entrants/sortants de Microsoft** pour afficher uniquement les informations liées à chaque catégorie. Modifier cette sélection ne change pas les informations dans le tableau. 
 ***
 ![N ° 8](../images/sfbcallout8.png)<br/>Le tableau vous présente une répartition par utilisateur des activités de conférences organisées. Il vous indique tous les utilisateurs auxquels est attribué Skype Entreprise et les conférences qu'ils ont organisées. Vous pouvez ajouter des colonnes supplémentaires au tableau. 
-*    **Nom d'utilisateur** est le nom de l'utilisateur. 
-*    **Supprimé** indique que la licence de l'utilisateur a été supprimée.<br/><br/>
-    > [!NOTE]
-    > Activité pour un utilisateur supprimé apparaît toujours dans un état dans la mesure où il ou elle était sous licence au cours de la période sélectionnée. La colonne **Supprimé** vous permet d'observer que l'utilisateur n'est peut-être plus actif, mais a contribué aux données du rapport.
+* **Nom d'utilisateur** est le nom de l'utilisateur. 
+* **Supprimé** indique que la licence de l'utilisateur a été supprimée.<br/><br/>
+  > [!NOTE]
+  > Activité pour un utilisateur supprimé apparaît toujours dans un état dans la mesure où il ou elle était sous licence au cours de la période sélectionnée. La colonne **Supprimé** vous permet d'observer que l'utilisateur n'est peut-être plus actif, mais a contribué aux données du rapport.
      
-*    La **date de suppression** correspond à la date à laquelle la licence de l'utilisateur a été supprimée. 
-*    **Dernière date d'activité (UTC)** est la dernière date d'activité (UTC) pour cet utilisateur. 
-*    **Messagerie instantanée** indique le nombre total de conférences de messagerie instantanée organisées. 
-*    **Audio/vidéo** indique le nombre total de conférences audio/vidéo organisées.
-*    **Partage d'application** indique le nombre total de conférences en partage d'application organisées. 
-*    **Web** indique le nombre total de conférences web organisées. 
-*    **Connexion/déconnexion - 3e partie** indique le nombre total de connexion/déconnexion les conférences Audio qui ont été organisés qui utilisent un fournisseur de services d’audioconférence tiers 3e. 
-*    **Connexion/déconnexion Microsoft** indique le nombre total de conférences Audio dial-in/out qui ont été organisés. 
-*    **Minutes audio/vidéo** indique le nombre total de minutes utilisées lors de conférences audio/vidéo organisées. 
-*    **Minutes Dial-in Microsoft** indique le nombre total de minutes rendez-vous utilisés dans les réunions qui ont été organisées utilisent Microsoft comme fournisseur d’audioconférence. 
-*    **Minutes d’appel sortant Microsoft** indique le nombre total de minutes d’appel sortant utilisé dans les réunions qui ont été organisées utilisent Microsoft comme fournisseur d’audioconférence. 
+* La **date de suppression** correspond à la date à laquelle la licence de l'utilisateur a été supprimée. 
+* **Dernière date d'activité (UTC)** est la dernière date d'activité (UTC) pour cet utilisateur. 
+* **Messagerie instantanée** indique le nombre total de conférences de messagerie instantanée organisées. 
+* **Audio/vidéo** indique le nombre total de conférences audio/vidéo organisées.
+* **Partage d'application** indique le nombre total de conférences en partage d'application organisées. 
+* **Web** indique le nombre total de conférences web organisées. 
+* **Connexion/déconnexion - 3e partie** indique le nombre total de connexion/déconnexion les conférences Audio qui ont été organisés qui utilisent un fournisseur de services d’audioconférence tiers 3e. 
+* **Connexion/déconnexion Microsoft** indique le nombre total de conférences Audio dial-in/out qui ont été organisés. 
+* **Minutes audio/vidéo** indique le nombre total de minutes utilisées lors de conférences audio/vidéo organisées. 
+* **Minutes Dial-in Microsoft** indique le nombre total de minutes rendez-vous utilisés dans les réunions qui ont été organisées utilisent Microsoft comme fournisseur d’audioconférence. 
+* **Minutes d’appel sortant Microsoft** indique le nombre total de minutes d’appel sortant utilisé dans les réunions qui ont été organisées utilisent Microsoft comme fournisseur d’audioconférence. 
 
 Si les stratégies de votre organisation vous empêche l’affichage des rapports où les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Extraire le **comment masquer les détails de niveau utilisateur ?** section dans les [Rapports d’activité dans le centre d’administration d’Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***

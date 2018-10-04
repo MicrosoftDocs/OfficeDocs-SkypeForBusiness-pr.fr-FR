@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: 930837f7d6accc4d7ff9d1533296267605097828
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: dc1bf738f301dfc800b0e0e4975322fae6a1568e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958090"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370708"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>Pourquoi l’activation de numéro est-elle indiquée comme étant en cours de mise à jour ?
 
@@ -51,13 +51,13 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
     
 5. Dans la page **Identifier le problème**, sélectionnez et renseignez les éléments suivants :
     
-  - **Fonctionnalité :** sélectionnez **Forfait d'appels national** et/ou **Forfait d'appels national et international**.
+   - **Fonctionnalité :** sélectionnez **Forfait d'appels national** et/ou **Forfait d'appels national et international**.
     
-  - **Symptôme :** entrez **Appels d'urgence**.
+   - **Symptôme :** entrez **Appels d'urgence**.
     
-  - **Récapitulatif du problème :** entrez **Validation d'adresse**.
+   - **Récapitulatif du problème :** entrez **Validation d'adresse**.
     
-  - **Détails du problème :** entrez les détails relatifs à la ou aux adresses que vous souhaitez valider tels que :
+   - **Détails du problème :** entrez les détails relatifs à la ou aux adresses que vous souhaitez valider tels que :
     
       - Numéro de rue
     
@@ -67,8 +67,8 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
     
       - Pays ou région
     
-    > [!IMPORTANT]
-    > **Entrez le pays ou la région dans lequel ou laquelle se trouvent les forfaits d'appels dans Office 365 que vous souhaitez valider comme adresse d'urgence lorsque vous attribuez un numéro de téléphone.**
+     > [!IMPORTANT]
+     > **Entrez le pays ou la région dans lequel ou laquelle se trouvent les forfaits d'appels dans Office 365 que vous souhaitez valider comme adresse d'urgence lorsque vous attribuez un numéro de téléphone.**
   
       - Code postal
     
@@ -76,19 +76,19 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
     
 7. Dans la page **Ajouter des détails**, sélectionnez et entrez les informations suivantes :
     
-  - **Votre service est-il disponible ?** Sélectionnez **Non**.
+   - **Votre service est-il disponible ?** Sélectionnez **Non**.
     
-  - **Combien d'utilisateurs sont affectés ?** Sélectionnez **Certains utilisateurs**.
+   - **Combien d'utilisateurs sont affectés ?** Sélectionnez **Certains utilisateurs**.
     
-  - **Entrez l'adresse de messagerie d'une personne affectée par ce problème** ou laissez ce champ vide.
+   - **Entrez l'adresse de messagerie d'une personne affectée par ce problème** ou laissez ce champ vide.
     
-  - **Sélectionnez le ou les domaines à répertorier**
+   - **Sélectionnez le ou les domaines à répertorier**
     
-  - **Joignez un fichier** si plusieurs adresses doivent être validées.
+   - **Joignez un fichier** si plusieurs adresses doivent être validées.
     
-  - Cliquez sur **Suivant**.
+   - Cliquez sur **Suivant**.
     
-  - Entrez votre numéro de téléphone de contact.
+   - Entrez votre numéro de téléphone de contact.
     
 8. Passez en revue les informations, puis cliquez sur **Envoyer la demande**.
     

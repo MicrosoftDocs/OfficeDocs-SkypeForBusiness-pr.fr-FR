@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Découvrez comment installer et configurer les Options de disponibilité dans Skype pour Business Server.
-ms.openlocfilehash: 2cca6c3b1075e1f5c7f1674a8e5609b49300bba6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3cf197f58dda13ab0c1af2077a6eb0fb59dafcc4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884102"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370807"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installer et configurer les options Occupé pour Skype Entreprise Server
 
@@ -49,9 +49,9 @@ Le programme d’installation déploiera la version la plus récente de l’appl
 
 1. Exécutez l’applet de commande [Set-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) pour activer globalement Options occupé (e) comme indiqué dans l’exemple suivant :
 
-  ```
-  Set-CsVoicePolicy -EnableBusyOptions $true
-  ```
+   ```
+   Set-CsVoicePolicy -EnableBusyOptions $true
+   ```
 
 2. Si une stratégie de voix est en place sur le site, activez ensuite Busy Options pour la stratégie de voix de la manière suivante :
 

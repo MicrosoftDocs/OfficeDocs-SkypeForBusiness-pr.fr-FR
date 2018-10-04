@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Résumé : Découvrez comment définir une règle de traduction à l’aide de la version un outil de la règle de traduction dans Skype pour Business Server.'
-ms.openlocfilehash: 1d1d8fff6c4ab114c2c12d71ec52017d5c491bef
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c50b16f2753569b1a47b37f6615ef0e7f6d26cae
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886260"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370829"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Créer ou modifier une règle de traduction pour présentation ID appelée Skype pour Business Server
 
@@ -46,19 +46,19 @@ Suivez ces étapes si vous souhaitez définir une règle de traduction en entran
 
    - **Chiffres à ajouter** : (Facultatif) précisez les chiffres à ajouter aux numéros traduits. Par exemple, entrez 011 si vous souhaitez ajouter 011 aux numéros traduits au moment d’appliquer la règle.
 
-    Les valeurs saisies dans ces champs sont reproduites dans les champs **Modèle à suivre** et **Règle de traduction**. Par exemple, si vous appliquez les valeurs de l’exemple précédent, l’expression régulière obtenue dans le champ **Modèle à suivre** est :
+     Les valeurs saisies dans ces champs sont reproduites dans les champs **Modèle à suivre** et **Règle de traduction**. Par exemple, si vous appliquez les valeurs de l’exemple précédent, l’expression régulière obtenue dans le champ **Modèle à suivre** est :
 
-    ^\+(\d{9}\d+)$
+     ^\+(\d{9}\d+)$
 
-    Le champ **Règle de traduction** spécifie un modèle pour le format des numéros traduits. Ce modèle comprend deux parties :
+     Le champ **Règle de traduction** spécifie un modèle pour le format des numéros traduits. Ce modèle comprend deux parties :
 
    - Une valeur (par exemple, $1) qui représente le nombre de chiffres dans le modèle correspondant.
 
    - (Facultatif) Une valeur que vous pouvez ajouter par simple saisie dans le champ **Chiffres à ajouter**.
 
-    Si vous utilisez les valeurs de l’exemple précédent, 011$1 apparaît dans le champ **Règle de traduction**.
+     Si vous utilisez les valeurs de l’exemple précédent, 011$1 apparaît dans le champ **Règle de traduction**.
 
-    Lorsque cette règle de traduction est appliquée, +441235551010 devient 011441235551010.
+     Lorsque cette règle de traduction est appliquée, +441235551010 devient 011441235551010.
 
 6. Cliquez sur **OK** pour enregistrer la règle de traduction.
 
@@ -87,7 +87,7 @@ Suivez ces étapes si vous souhaitez définir une règle de traduction en entran
 
    - Dans **Règle de traduction**, spécifiez un modèle pour le format des numéros traduits.
 
-    Par exemple, si vous entrez ^\+(\d{9}\d+)$ dans **ce modèle de correspondance** and011$ 1 dans **règle de traduction**, la règle traduira le numéro + 441235551010 comme suit, 011441235551010.
+     Par exemple, si vous entrez ^\+(\d{9}\d+)$ dans **ce modèle de correspondance** and011$ 1 dans **règle de traduction**, la règle traduira le numéro + 441235551010 comme suit, 011441235551010.
 
 7. Cliquez sur **OK** pour enregistrer la règle de traduction.
 

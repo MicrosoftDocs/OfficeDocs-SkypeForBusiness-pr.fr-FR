@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Résumé : Créer ou modifier des stratégies de voix et configurer les enregistrements d’utilisation PSTN à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: c1fb142718008bd2a53582a3952bd9b0b9477ca6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 53414afd6fcf3ee365caad9a168c88f101e8788b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888240"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371709"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour les entreprises
 
@@ -50,8 +50,8 @@ ms.locfileid: "23888240"
 
    - **Redirection vers la messagerie vocale** empêche les appels acheminés immédiatement vers le système de messagerie vocale de l’utilisateur téléphone mobile lors de la sonnerie simultanée est configuré et le téléphone est éteint, en dehors de la batterie ou en dehors des limites.
 
-    > [!NOTE]
-    > Cette fonctionnalité est uniquement configurable par le biais de la Skype pour Business Server Management Shell
+     > [!NOTE]
+     > Cette fonctionnalité est uniquement configurable par le biais de la Skype pour Business Server Management Shell
 
    - **Transfert d’appels** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype pour Business Server fournit une plage beaucoup plue d’options de configuration pour le transfert d’appel. Par exemple, si une entreprise ne souhaite pas autoriser le transfert des appels entrants en externe vers le RTC, un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Cette fonctionnalité est activée par défaut.
 
@@ -69,8 +69,8 @@ ms.locfileid: "23888240"
 
    - **Remplacement de stratégie de bande passante** permet aux administrateurs de remplacer les décisions de stratégie du contrôle d’admission des appels pour un utilisateur particulier. Cette fonctionnalité est désactivée par défaut.
 
-    > [!NOTE]
-    > La stratégie ne sera remplacée que pour les appels entrants vers l’utilisateur et non pour les appels sortants passés par l’utilisateur. Une fois la session établie, la consommation de bande passante est enregistrée avec précision. Ce paramètre doit être utilisé avec modération et doit être réservé à des décisions appropriées en matière de contrôle d’admission des appels.
+     > [!NOTE]
+     > La stratégie ne sera remplacée que pour les appels entrants vers l’utilisateur et non pour les appels sortants passés par l’utilisateur. Une fois la session établie, la consommation de bande passante est enregistrée avec précision. Ce paramètre doit être utilisé avec modération et doit être réservé à des décisions appropriées en matière de contrôle d’admission des appels.
 
    - **Suivi des appels malveillants** permet aux utilisateurs de consigner des appels malveillants (du type menace) à l’aide de l’interface utilisateur du client, qui signale ensuite ces appels dans les enregistrements des détails des appels (CDR). Cette fonctionnalité est désactivée par défaut.
 
@@ -84,14 +84,14 @@ ms.locfileid: "23888240"
 
    - Pour définir un nouvel enregistrement d’utilisation RTC et l’associer à cette stratégie de voix, procédez comme suit :
 
-    a. Cliquez sur **Nouveau**.
+     a. Cliquez sur **Nouveau**.
 
-    b. Dans le champ **Nom**, entrez un nom descriptif unique pour l’enregistrement. Par exemple, vous souhaiterez peut-être créer un namedRedmond d’enregistrement d’utilisation PSTN pour les employés à temps plein à Redmond et namedRedmondTemps un autre pour les employés temporaires.
+     b. Dans le champ **Nom**, entrez un nom descriptif unique pour l’enregistrement. Par exemple, vous souhaiterez peut-être créer un namedRedmond d’enregistrement d’utilisation PSTN pour les employés à temps plein à Redmond et namedRedmondTemps un autre pour les employés temporaires.
 
-    > [!NOTE]
-    > Le nom de l’enregistrement d’utilisation RTC doit être unique dans le déploiement Voix Entreprise. Une fois que vous avez enregistré l’enregistrement, vous ne pouvez plus modifier le champ **Nom**.
+     > [!NOTE]
+     > Le nom de l’enregistrement d’utilisation RTC doit être unique dans le déploiement Voix Entreprise. Une fois que vous avez enregistré l’enregistrement, vous ne pouvez plus modifier le champ **Nom**.
 
-    c. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
+     c. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
 
    - Pour sélectionner un ou plusieurs itinéraires dans la liste de tous les itinéraires disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner**, sélectionnez les itinéraires à associer à cet enregistrement d’utilisation RTC, puis cliquez sur **OK**.
 
@@ -101,13 +101,13 @@ ms.locfileid: "23888240"
 
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
-    d. Cliquez sur **OK**.
+     d. Cliquez sur **OK**.
 
    - Pour modifier un enregistrement d’utilisation RTC déjà associé à cette stratégie de voix, procédez comme suit :
 
-    a. Sélectionnez l’enregistrement d’utilisation RTC à modifier, puis cliquez sur **Afficher les détails**.
+     a. Sélectionnez l’enregistrement d’utilisation RTC à modifier, puis cliquez sur **Afficher les détails**.
 
-    b. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
+     b. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
 
    - Pour sélectionner un ou plusieurs itinéraires dans la liste de tous les itinéraires disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner**, sélectionnez les itinéraires à associer à cet enregistrement d’utilisation RTC, puis cliquez sur **OK**.
 
@@ -117,7 +117,7 @@ ms.locfileid: "23888240"
 
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
-    c. Cliquez sur **OK**.
+     c. Cliquez sur **OK**.
 
 8. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillance le nom de l’enregistrement et cliquez sur la flèche vers le bas.
 
@@ -138,14 +138,14 @@ ms.locfileid: "23888240"
 
    - Pour définir un nouvel enregistrement d’utilisation RTC et l’associer à cette stratégie de transfert d’appels et de sonnerie simultanée, procédez comme suit :
 
-    a. Cliquez sur **Nouveau**.
+     a. Cliquez sur **Nouveau**.
 
-    b. Dans le champ **Nom**, entrez un nom descriptif unique pour l’enregistrement.
+     b. Dans le champ **Nom**, entrez un nom descriptif unique pour l’enregistrement.
 
-    > [!NOTE]
-    > Le nom de l’enregistrement d’utilisation RTC doit être unique dans le déploiement Voix Entreprise. Une fois que vous avez enregistré l’enregistrement, vous ne pouvez plus modifier le champ **Nom**.
+     > [!NOTE]
+     > Le nom de l’enregistrement d’utilisation RTC doit être unique dans le déploiement Voix Entreprise. Une fois que vous avez enregistré l’enregistrement, vous ne pouvez plus modifier le champ **Nom**.
 
-    c. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
+     c. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
 
    - Pour sélectionner un ou plusieurs itinéraires dans la liste de tous les itinéraires disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner**, sélectionnez les itinéraires à associer à cet enregistrement d’utilisation RTC, puis cliquez sur **OK**.
 
@@ -155,13 +155,13 @@ ms.locfileid: "23888240"
 
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
-    d. Cliquez sur **OK**.
+     d. Cliquez sur **OK**.
 
    - Pour modifier un enregistrement d’utilisation RTC déjà associé à cette stratégie de voix, procédez comme suit :
 
-    a. Sélectionnez l’enregistrement d’utilisation RTC à modifier, puis cliquez sur **Afficher les détails**.
+     a. Sélectionnez l’enregistrement d’utilisation RTC à modifier, puis cliquez sur **Afficher les détails**.
 
-    b. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
+     b. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
 
    - Pour sélectionner un ou plusieurs itinéraires dans la liste de tous les itinéraires disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner**, sélectionnez les itinéraires à associer à cet enregistrement d’utilisation RTC, puis cliquez sur **OK**.
 
@@ -171,7 +171,7 @@ ms.locfileid: "23888240"
 
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
-    c. Cliquez sur **OK**.
+     c. Cliquez sur **OK**.
 
 10. (Facultatif) Entrez un numéro pour tester la stratégie de voix, puis cliquez sur **OK**. Les résultats du test s’affichent dans **Numéro converti à tester**.
 
@@ -201,8 +201,8 @@ ms.locfileid: "23888240"
 
    - **Redirection vers la messagerie vocale** empêche les appels acheminés immédiatement vers le système de messagerie vocale de l’utilisateur téléphone mobile lors de la sonnerie simultanée est configuré et le téléphone est éteint, en dehors de la batterie ou en dehors des limites.
 
-    > [!NOTE]
-    > Cette fonctionnalité est uniquement configurable par le biais de la Skype pour Business Server Management Shell
+     > [!NOTE]
+     > Cette fonctionnalité est uniquement configurable par le biais de la Skype pour Business Server Management Shell
 
    - **Transfert d’appels** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype pour Business Server fournit une plage beaucoup plue d’options de configuration pour le transfert d’appel. Par exemple, si une entreprise ne souhaite pas autoriser le transfert des appels entrants en externe vers le RTC, un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Cette fonctionnalité est activée par défaut.
 
@@ -233,14 +233,14 @@ ms.locfileid: "23888240"
 
    - Pour définir un nouvel enregistrement d’utilisation RTC et l’associer à cette stratégie de voix, procédez comme suit :
 
-    a. Cliquez sur **Nouveau**.
+     a. Cliquez sur **Nouveau**.
 
-    b. Dans le champ **Nom**, entrez un nom descriptif unique pour l’enregistrement. Par exemple, vous souhaiterez peut-être créer un namedRedmond d’enregistrement d’utilisation PSTN pour les employés à plein temps situés à Redmond et un autre enregistrement namedRedmondTemps pour les employés temporaires.
+     b. Dans le champ **Nom**, entrez un nom descriptif unique pour l’enregistrement. Par exemple, vous souhaiterez peut-être créer un namedRedmond d’enregistrement d’utilisation PSTN pour les employés à plein temps situés à Redmond et un autre enregistrement namedRedmondTemps pour les employés temporaires.
 
-    > [!NOTE]
-    > Le nom de l’enregistrement d’utilisation RTC doit être unique dans le déploiement Voix Entreprise. Une fois que vous avez enregistré l’enregistrement, vous ne pouvez plus modifier le champ **Nom**.
+     > [!NOTE]
+     > Le nom de l’enregistrement d’utilisation RTC doit être unique dans le déploiement Voix Entreprise. Une fois que vous avez enregistré l’enregistrement, vous ne pouvez plus modifier le champ **Nom**.
 
-    c. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
+     c. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
 
    - Pour sélectionner un ou plusieurs itinéraires dans la liste de tous les itinéraires disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner**, sélectionnez les itinéraires à associer à cet enregistrement d’utilisation RTC, puis cliquez sur **OK**.
 
@@ -250,13 +250,13 @@ ms.locfileid: "23888240"
 
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
-    d. Cliquez sur **OK**.
+     d. Cliquez sur **OK**.
 
    - Pour modifier un enregistrement d’utilisation RTC déjà associé à cette stratégie de voix, procédez comme suit :
 
-    a. Sélectionnez l’enregistrement d’utilisation RTC à modifier, puis cliquez sur **Afficher les détails**.
+     a. Sélectionnez l’enregistrement d’utilisation RTC à modifier, puis cliquez sur **Afficher les détails**.
 
-    b. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
+     b. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
 
    - Pour sélectionner un ou plusieurs itinéraires dans la liste de tous les itinéraires disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner**, sélectionnez les itinéraires à associer à cet enregistrement d’utilisation RTC, puis cliquez sur **OK**.
 
@@ -266,7 +266,7 @@ ms.locfileid: "23888240"
 
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
-    c. Cliquez sur **OK**.
+     c. Cliquez sur **OK**.
 
 7. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillance le nom de l’enregistrement et cliquez sur la flèche vers le bas.
 
@@ -287,14 +287,14 @@ ms.locfileid: "23888240"
 
    - Pour définir un nouvel enregistrement d’utilisation RTC et l’associer à cette stratégie de transfert d’appels et de sonnerie simultanée, procédez comme suit :
 
-    a. Cliquez sur **Nouveau**.
+     a. Cliquez sur **Nouveau**.
 
-    b. Dans le champ **Nom**, entrez un nom descriptif unique pour l’enregistrement.
+     b. Dans le champ **Nom**, entrez un nom descriptif unique pour l’enregistrement.
 
-    > [!NOTE]
-    > Le nom de l’enregistrement d’utilisation RTC doit être unique dans le déploiement Voix Entreprise. Une fois que vous avez enregistré l’enregistrement, vous ne pouvez plus modifier le champ **Nom**.
+     > [!NOTE]
+     > Le nom de l’enregistrement d’utilisation RTC doit être unique dans le déploiement Voix Entreprise. Une fois que vous avez enregistré l’enregistrement, vous ne pouvez plus modifier le champ **Nom**.
 
-    c. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
+     c. Utilisez l’une des méthodes ci-dessous pour associer et configurer les itinéraires de cet enregistrement d’utilisation RTC :
 
    - Pour sélectionner un ou plusieurs itinéraires dans la liste de tous les itinéraires disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner**, sélectionnez les itinéraires à associer à cet enregistrement d’utilisation RTC, puis cliquez sur **OK**.
 
@@ -304,7 +304,7 @@ ms.locfileid: "23888240"
 
    - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. Pour plus d’informations, voir [Modifier un itinéraire de communications vocales](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
 
-    d. Cliquez sur **OK**.
+     d. Cliquez sur **OK**.
 
    - Pour modifier un enregistrement d’utilisation RTC déjà associé à cette stratégie de voix, procédez comme suit :
 

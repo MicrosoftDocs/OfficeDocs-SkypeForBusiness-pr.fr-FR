@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Résumé : Préparer et implémenter la désactivation TLS 1.0 et 1.1 dans votre environnement.'
-ms.openlocfilehash: e1e345da45c60637a8c6cf20061f8b0274a1474d
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: e220a6615ef259e5ccba5b47a9e0f992289e6af4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347455"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373070"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Désactiver TLS 1.0/1.1 dans Skype pour Business Server 2015
 
@@ -487,9 +487,9 @@ Sinon, vous pouvez utiliser Internet Explorer pour tester les connexions TLS aux
 
 1. [Installer les éléments prérequis pour Skype pour Business Server](../../deploy/install/install-prerequisites.md)  
 2. 2. Installer .NET 4.7 : 
-    - **Remarque :** Tout d’abord, nous avons introduit la prise en charge de .NET 4.7 dans Skype pour Business Server 2015 CU5 + (6.0.9319.281). Par conséquent, dans les étapes ultérieures ci-dessous nous mettrons à jour des composants principaux avant l’installation principale.
-    - Téléchargement : https://www.microsoft.com/en-us/download/details.aspx?id=55167.
-    - Référence : [logiciel qui doit être installé avant un Skype pour le déploiement de Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
+      - **Remarque :** Tout d’abord, nous avons introduit la prise en charge de .NET 4.7 dans Skype pour Business Server 2015 CU5 + (6.0.9319.281). Par conséquent, dans les étapes ultérieures ci-dessous nous mettrons à jour des composants principaux avant l’installation principale.
+      - Téléchargement : https://www.microsoft.com/en-us/download/details.aspx?id=55167.
+      - Référence : [logiciel qui doit être installé avant un Skype pour le déploiement de Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
 3. Copiez les fichiers/dossiers ISO : 
     - Skype pour Business Server 2015 ISO attaché, ouvrez le répertoire racine du lecteur, il est joint sous (Ex : d :\) dans l’Explorateur de fichiers.
     - Copiez tous les fichiers et dossiers dans un dossier sur un disque local (Ex : C:\SkypeForBusiness2015ISO).

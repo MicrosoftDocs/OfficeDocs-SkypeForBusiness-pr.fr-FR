@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Résumé : Découvrez comment définir et de déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server.'
-ms.openlocfilehash: fd83ecb44726f151dea83c19b9745446653ca33b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5e4221230fbaf993b5bf3d2b647e6d7e6e7ada51
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883723"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371920"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server
  
@@ -79,8 +79,8 @@ Vous pouvez ajouter un serveur de médiation en tant qu’un rôle colocalisé s
     
    - Si vous souhaitez déployer plusieurs serveurs de médiation du pool pour fournir une haute disponibilité, puis sélectionnez le **pool de plusieurs ordinateurs**.
     
-    > [!NOTE]
-    > Vous devez [déployer](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) pour prendre en charge les pools de serveurs de médiation contient plusieurs serveurs de médiation.
+     > [!NOTE]
+     > Vous devez [déployer](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) pour prendre en charge les pools de serveurs de médiation contient plusieurs serveurs de médiation.
   
    - Si vous souhaitez ne déployer qu’un seul serveur de médiation du pool, car vous n’avez pas besoin de haute disponibilité, puis sélectionnez le **pool d’un seul ordinateur**. Ignorez l’étape suivante.
     

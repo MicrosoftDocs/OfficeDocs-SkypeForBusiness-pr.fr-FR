@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Résumé : Lisez cette rubrique pour savoir comment ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie.'
-ms.openlocfilehash: 9d6845b7239056ec18be780060ba6ef96756f743
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff2486db39546e88c4a75e27875a84a2c3b939ae
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973009"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371981"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Ajouter des serveurs de conversation permanente à votre Skype pour Business Server 2015 topologie
  
@@ -71,8 +71,8 @@ Pour déployer plusieurs pools de serveurs de conversation permanente, répétez
     
    - Sélectionnez **Instance par défaut** pour utiliser l’instance par défaut ou, pour spécifier une autre instance, sélectionnez **Instance nommée**, et spécifiez l’instance que vous voulez utiliser.
     
-    > [!NOTE]
-    > Pour plus d’informations sur la façon de configurer les bases de données de sauvegarde SQL Server pour la récupération d’urgence, voir [configurer une haute disponibilité et récupération d’urgence pour les serveurs de conversation permanente dans Skype pour Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+     > [!NOTE]
+     > Pour plus d’informations sur la façon de configurer les bases de données de sauvegarde SQL Server pour la récupération d’urgence, voir [configurer une haute disponibilité et récupération d’urgence pour les serveurs de conversation permanente dans Skype pour Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 9. Définir le magasin de conformité SQL Server si vous avez activé la conformité.
     
@@ -87,8 +87,8 @@ Pour déployer plusieurs pools de serveurs de conversation permanente, répétez
     
     - Dans **Partage de fichiers**, indiquez le magasin de fichiers à utiliser.
     
-     > [!IMPORTANT]
-     > Vous pouvez définir le magasin de fichiers dans le Générateur de topologie avant que vous créez le magasin de fichiers, mais vous devez créer le magasin de fichiers à l’emplacement défini, que vous définissez avant de publier la topologie. Si le magasin de fichiers n’existe pas déjà, les tentatives de publication de la topologie échoueront. 
+      > [!IMPORTANT]
+      > Vous pouvez définir le magasin de fichiers dans le Générateur de topologie avant que vous créez le magasin de fichiers, mais vous devez créer le magasin de fichiers à l’emplacement défini, que vous définissez avant de publier la topologie. Si le magasin de fichiers n’existe pas déjà, les tentatives de publication de la topologie échoueront. 
   
 11. Sélectionnez le pool de serveur frontal à utiliser comme tronçon suivant pour ce pool de serveurs de conversation permanente. Il s’agit du pool de serveurs frontaux qui est en mesure d’acheminer les requêtes de serveur de conversation permanente à ce pool.
     

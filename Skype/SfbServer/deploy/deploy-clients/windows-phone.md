@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Résumé : Découvrez comment installer et tester Skype pour les entreprises sur votre Windows Phone.'
-ms.openlocfilehash: 90e8b99532e51399f9f76e5e12d60a3eeab84481
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0e135441a711655e42c37d0a9bd7ff4870da1d0d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978046"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372929"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype Entreprise Server 2015 : installation et test de Skype Entreprise pour Windows Phone
  
@@ -46,12 +46,12 @@ Avant de diriger les utilisateurs dans votre organisation pour télécharger l�
     
 5. Cliquez sur **suivant** et passez en revue la notification et les paramètres d’accès de l’annuaire :
     
-  - **Notifications Push** Obtention d’une alerte lorsque vous recevez un appel ou un nouveau message. Cette option est **activée** par défaut (recommandé).
+   - **Notifications Push** Obtention d’une alerte lorsque vous recevez un appel ou un nouveau message. Cette option est **activée** par défaut (recommandé).
     
-    > [!IMPORTANT]
-    > Si vous activez ce paramètre, vous ne serez pas averti des messages instantanés, des appels ou autres Skype pour les alertes d’entreprise pour Windows Phone, sauf si l’application est active. 
+     > [!IMPORTANT]
+     > Si vous activez ce paramètre, vous ne serez pas averti des messages instantanés, des appels ou autres Skype pour les alertes d’entreprise pour Windows Phone, sauf si l’application est active. 
   
-  - **Autoriser l’accès annuaire** Rechercher des contacts sur votre téléphone mobile lorsque vous recherchez des contacts dans Skype Business pour Windows Phone.
+   - **Autoriser l’accès annuaire** Rechercher des contacts sur votre téléphone mobile lorsque vous recherchez des contacts dans Skype Business pour Windows Phone.
     
 6. Cliquez sur **suivant** pour commencer à utiliser Skype pour Business pour Windows Phone.
     

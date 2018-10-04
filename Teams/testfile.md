@@ -1,11 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: e287cc1b6c987e29067d75e344710104cd9c2c4b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: da7786e9ae43fe6021a8358622eedcac22514e57
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246889"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370651"
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Bienvenue dans le contenu Office de docs.microsoft.com
 ## <a name="this-is-a-level-2-heading"></a>Il s'agit d'un titre de niveau 2
@@ -43,7 +43,7 @@ Il est possible d’amener une table promotions à rechercher comme il contient 
 <p>J’afficherai &#9744;</p>
 <p>J’afficherai &#x2610;</p>
 
-###<a name="this-is-heading-3"></a>Cela est heading 3
+### <a name="this-is-heading-3"></a>Cela est heading 3
 
 Le contenu Microsoft Teams est désormais disponible.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)

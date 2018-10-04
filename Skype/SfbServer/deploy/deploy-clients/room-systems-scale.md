@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cette rubrique pour en savoir plus sur le déploiement de systèmes de salle Skype v2 sur les déploiements à grande échelle.
-ms.openlocfilehash: 3b34d584bf98326257964e30431f622a0be6dee2
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c84517ba5ceb7eea582b379c8cabe5014dde43d5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247456"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372751"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Déployer des systèmes de salle Skype v2 à l’aide de System Center Configuration Manager
 
@@ -172,63 +172,63 @@ Créez la structure de dossier suivante sur le site administration centrale de S
 
 ### <a name="create-the-microsoft-operations-management-suite-agent-package"></a>Créer le package de l’agent Microsoft Operations Management Suite
 
-1.  Télécharger l’agent Operations Management Suite X-64 <https://go.microsoft.com/fwlink/?LinkId=828603>.
+1. Télécharger l’agent Operations Management Suite X-64 <https://go.microsoft.com/fwlink/?LinkId=828603>.
 
-2.  Extraire le package dans le dossier **SRS v2 - Package de l’Agent Microsoft OMS** en ouvrant une fenêtre d’invite de commandes et en **saisissant/C: MMASetup-AMD64.exe** à l’invite de commandes.
+2. Extraire le package dans le dossier **SRS v2 - Package de l’Agent Microsoft OMS** en ouvrant une fenêtre d’invite de commandes et en **saisissant/C: MMASetup-AMD64.exe** à l’invite de commandes.
 
-3.  Dans la console Configuration Manager, accédez à la **Bibliothèque de logiciels** \> **Gestion des applications** \> **Packages**, puis sélectionnez **Créer un Package**.
+3. Dans la console Configuration Manager, accédez à la **Bibliothèque de logiciels** \> **Gestion des applications** \> **Packages**, puis sélectionnez **Créer un Package**.
 
-4.  Entrez les informations suivantes pour créer le package :
+4. Entrez les informations suivantes pour créer le package :
 
-    -   Nom **: SRS v2 - Package de l’Agent Microsoft OMS**
+   - Nom<strong>: SRS v2 - Package de l’Agent Microsoft OMS</strong>
 
-    -   Fabricant **: Microsoft Corporation**
+   - Fabricant<strong>: Microsoft Corporation</strong>
 
-    -   Version **: 8.1.11081.0** (entrez la version du fichier d’installation téléchargé)
+   - Version<strong>: 8.1.11081.0</strong> (entrez la version du fichier d’installation téléchargé)
 
-    -   Activez la case à cocher **ce package contient des fichiers source** , entrez le chemin d’accès du dossier **SRS v2 - Package de l’Agent Microsoft OMS** , puis cliquez sur **suivant**.
+   - Activez la case à cocher **ce package contient des fichiers source** , entrez le chemin d’accès du dossier **SRS v2 - Package de l’Agent Microsoft OMS** , puis cliquez sur **suivant**.
 
-5.  Sélectionnez **ne pas créer un programme**, puis cliquez sur **suivant**.
+5. Sélectionnez **ne pas créer un programme**, puis cliquez sur **suivant**.
 
-6.  Passez en revue la page **vérifier les paramètres** , puis cliquez sur **suivant**.
+6. Passez en revue la page **vérifier les paramètres** , puis cliquez sur **suivant**.
 
-7.  Sélectionnez **Fermer**.
+7. Sélectionnez **Fermer**.
 
 ### <a name="create-the-operating-system-updates-package"></a>Créer le package de mises à jour de système d’exploitation
 
-1.  Dans le dossier **SRS v2 - Package de mises à jour du système d’exploitation** , créez un nouveau script PowerShell nommé **Install-SRSv2-OS-Updates.ps1**.
+1. Dans le dossier **SRS v2 - Package de mises à jour du système d’exploitation** , créez un nouveau script PowerShell nommé **Install-SRSv2-OS-Updates.ps1**.
 
-2.  Copiez le script ci-dessous dans le script **Install-SRSv2-OS-Updates.ps1** . Vous pouvez également télécharger le script Install-SRSv2-OS-Updates.ps1 [ici](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
-```
+2. Copiez le script ci-dessous dans le script **Install-SRSv2-OS-Updates.ps1** . Vous pouvez également télécharger le script Install-SRSv2-OS-Updates.ps1 [ici](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
+   ```
    # Install-SRSv2-OS-Updates.ps1
    $strPath = split-path -parent $MyInvocation.MyCommand.Definition
    $total = gci $strPath *.msu | measure | Select-Object -expand Count
    $i = 0
    gci $strPath *.msu | ForEach-Object {
-      $i++
-      WUSA ""$_.FullName /quiet /norestart""
-      Write-Progress -activity "Applying Mandatory Updates" -status "Installing
-      $_ .. $i of $total" -percentComplete (($i / $total) * 100)
-      Wait-Process -name wusa
+     $i++
+     WUSA ""$_.FullName /quiet /norestart""
+     Write-Progress -activity "Applying Mandatory Updates" -status "Installing
+     $_ .. $i of $total" -percentComplete (($i / $total) * 100)
+     Wait-Process -name wusa
    }
-```
-3.  Téléchargez les packages de mise à jour Windows obligatoires dans le même dossier.
-    > [!NOTE]
-    > Au moment de que cet article a été publié, uniquement [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) était requis. Vérifiez [Configure une console v2 de systèmes de salle Skype](console.md), pour voir si des mises à jour sont requises.
+   ```
+3. Téléchargez les packages de mise à jour Windows obligatoires dans le même dossier.
+   > [!NOTE]
+   > Au moment de que cet article a été publié, uniquement [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) était requis. Vérifiez [Configure une console v2 de systèmes de salle Skype](console.md), pour voir si des mises à jour sont requises.
 
-4.  Dans la console Configuration Manager, accédez à la **Bibliothèque de logiciels** \> **Gestion des applications** \> **Packages**, puis sélectionnez **Créer un Package**.
+4. Dans la console Configuration Manager, accédez à la **Bibliothèque de logiciels** \> **Gestion des applications** \> **Packages**, puis sélectionnez **Créer un Package**.
 
-5.  Entrez les informations suivantes pour créer le package :
-    -   Nom : **SRS v2 – du système d’exploitation met à jour le Package**
-    -   Fabricant : **Microsoft Corporation**
-    -   Version : **1.0.0**
-    -   Activez la case à cocher **ce package contient des fichiers source** , entrez le chemin d’accès du dossier **SRS v2 - Package de mises à jour du système d’exploitation** , puis cliquez sur **suivant**.
+5. Entrez les informations suivantes pour créer le package :
+   -   Nom : **SRS v2 – du système d’exploitation met à jour le Package**
+   -   Fabricant : **Microsoft Corporation**
+   -   Version : **1.0.0**
+   -   Activez la case à cocher **ce package contient des fichiers source** , entrez le chemin d’accès du dossier **SRS v2 - Package de mises à jour du système d’exploitation** , puis cliquez sur **suivant**.
 
-6.  Sélectionnez **ne pas créer un programme**, puis cliquez sur **suivant**.
+6. Sélectionnez **ne pas créer un programme**, puis cliquez sur **suivant**.
 
-7.  Passez en revue la page **vérifier les paramètres** , puis cliquez sur **suivant**.
+7. Passez en revue la page **vérifier les paramètres** , puis cliquez sur **suivant**.
 
-8.  Sélectionnez **Fermer**.
+8. Sélectionnez **Fermer**.
 
 ### <a name="create-the-root-certificate-package-optional"></a>Créer le package de certificat racine (facultatif)
 
@@ -383,72 +383,72 @@ Vous créez ce package pour distribuer le certificat racine pour les périphéri
 
 ### <a name="create-the-sysprep-package"></a>Créer le package Sysprep
 
-1.  Dans le dossier **SRS v2 – Sysprep Package** , créez un nouveau fichier XML nommé **Unattend.xml** .
+1. Dans le dossier **SRS v2 – Sysprep Package** , créez un nouveau fichier XML nommé **Unattend.xml** .
 
-2.  Copiez le texte suivant dans le fichier **Unattend.xml** . Vous pouvez également télécharger le fichier Unattend.xml [ici](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
-```
-<?xml version="1.0" encoding="utf-8"?>
-<unattend xmlns="urn:schemas-microsoft-com:unattend">
-    <settings pass="specialize">
-        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <DisableBootMenu>1</DisableBootMenu>
-            <DisplayDisabled>1</DisplayDisabled>
-        </component>
-        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
-        </component>
-    </settings>
-    <settings pass="oobeSystem">
-        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <OOBE>
-                <HideEULAPage>true</HideEULAPage>
-                <HideLocalAccountScreen>true</HideLocalAccountScreen>
-                <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
-                <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
-                <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
-                <SkipMachineOOBE>true</SkipMachineOOBE>
-                <SkipUserOOBE>true</SkipUserOOBE>
-                <ProtectYourPC>1</ProtectYourPC>
-            </OOBE>
-            <AutoLogon>
-                <Enabled>true</Enabled>
-                <Username>Skype</Username>
-                <Password>
-                    <Value>UABhAHMAcwB3AG8AcgBkAA==</Value>
-                    <PlainText>false</PlainText>
-                </Password>
-            </AutoLogon>
-            <UserAccounts>
-                <LocalAccounts>
-                    <LocalAccount wcm:action="add">
-                        <Password>
-                            <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
-                            <PlainText>false</PlainText>
-                        </Password>
-                        <Name>Admin</Name>
-                        <Group>Administrators</Group>
-                        <DisplayName>Administrator</DisplayName>
-                        <Description>Administrator</Description>
-                    </LocalAccount>
-                </LocalAccounts>
-            </UserAccounts>
-        </component>
-    </settings>
-    <cpi:offlineImage cpi:source="wim:h:/install.wim#Windows 10 Enterprise" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
-</unattend>
-```
-3.  Dans la console Configuration Manager, accédez à la **Bibliothèque de logiciels** \> **Gestion des applications** \> **Packages**, puis sélectionnez **Créer un Package**.
+2. Copiez le texte suivant dans le fichier **Unattend.xml** . Vous pouvez également télécharger le fichier Unattend.xml [ici](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
+   ```
+   <?xml version="1.0" encoding="utf-8"?>
+   <unattend xmlns="urn:schemas-microsoft-com:unattend">
+   <settings pass="specialize">
+       <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           <DisableBootMenu>1</DisableBootMenu>
+           <DisplayDisabled>1</DisplayDisabled>
+       </component>
+       <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
+       </component>
+   </settings>
+   <settings pass="oobeSystem">
+       <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           <OOBE>
+               <HideEULAPage>true</HideEULAPage>
+               <HideLocalAccountScreen>true</HideLocalAccountScreen>
+               <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
+               <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+               <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+               <SkipMachineOOBE>true</SkipMachineOOBE>
+               <SkipUserOOBE>true</SkipUserOOBE>
+               <ProtectYourPC>1</ProtectYourPC>
+           </OOBE>
+           <AutoLogon>
+               <Enabled>true</Enabled>
+               <Username>Skype</Username>
+               <Password>
+                   <Value>UABhAHMAcwB3AG8AcgBkAA==</Value>
+                   <PlainText>false</PlainText>
+               </Password>
+           </AutoLogon>
+           <UserAccounts>
+               <LocalAccounts>
+                   <LocalAccount wcm:action="add">
+                       <Password>
+                           <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                           <PlainText>false</PlainText>
+                       </Password>
+                       <Name>Admin</Name>
+                       <Group>Administrators</Group>
+                       <DisplayName>Administrator</DisplayName>
+                       <Description>Administrator</Description>
+                   </LocalAccount>
+               </LocalAccounts>
+           </UserAccounts>
+       </component>
+   </settings>
+   <cpi:offlineImage cpi:source="wim:h:/install.wim#Windows 10 Enterprise" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+   </unattend>
+   ```
+3. Dans la console Configuration Manager, accédez à la **Bibliothèque de logiciels** \> **Gestion des applications** \> **Packages**, puis sélectionnez **Créer un Package**.
 
-4.  Entrez les informations suivantes pour créer le package :
-    -   Nom : **SRS v2 - Package Sysprep**
-    -   Fabricant : **Microsoft Corporation**
-    -   Version : **1.0.0**
-    -   Activez la case à cocher **ce package contient des fichiers source** , entrez le chemin d’accès du dossier **SRS v2 – Sysprep Package** , puis cliquez sur **suivant**.
-5.  Sélectionnez **ne pas créer un programme**, puis cliquez sur **suivant**.
+4. Entrez les informations suivantes pour créer le package :
+   -   Nom : **SRS v2 - Package Sysprep**
+   -   Fabricant : **Microsoft Corporation**
+   -   Version : **1.0.0**
+   -   Activez la case à cocher **ce package contient des fichiers source** , entrez le chemin d’accès du dossier **SRS v2 – Sysprep Package** , puis cliquez sur **suivant**.
+5. Sélectionnez **ne pas créer un programme**, puis cliquez sur **suivant**.
 
-6.  Passez en revue la page **vérifier les paramètres** , puis cliquez sur **suivant**.
+6. Passez en revue la page **vérifier les paramètres** , puis cliquez sur **suivant**.
 
-7.  Sélectionnez **Fermer**.
+7. Sélectionnez **Fermer**.
 
 ### <a name="create-the-windows-10-enterprise-package"></a>Créer le package Windows 10 Enterprise
 
@@ -540,9 +540,9 @@ Tous les packages doivent être distribués sur les serveurs qui ont été attri
 
 > [!NOTE]
 > Distribution de package peut prendre un certain temps, en fonction de la taille du package, le Gestionnaire de Configuration hiérarchie, nombre de serveurs de point de distribution et la bande passante disponible dans votre réseau.
-
+> 
 > Tous les packages doivent être distribuées avant de pouvoir commencer le déploiement d’une unité de v2 Skype salle systèmes.
-
+> 
 > Vous pouvez consulter l’état de la distribution de package dans la console Configuration Manager en accédant à la **surveillance** \> **État de la Distribution** \> **État du contenu**.
 
 ## <a name="configuration-manager-task-sequences"></a>Séquences de tâches Configuration Manager
@@ -566,66 +566,66 @@ Vous pouvez télécharger facilement importer une séquence de tâches exemple e
 
 ### <a name="validate-that-the-reference-packages-are-correctly-linked-to-each-task-sequence-step"></a>Vérifiez que les packages de référence sont correctement liés à chaque étape de séquence de tâches.
 
-1.  Sélectionnez la séquence de tâches importés, puis sélectionnez **Modifier**.
+1. Sélectionnez la séquence de tâches importés, puis sélectionnez **Modifier**.
 
-     L’éditeur de séquence de tâches s’ouvre et affiche chaque étape séquentiel dont vous avez besoin pour déployer et configurer une unité de v2 Skype salle systèmes.
+    L’éditeur de séquence de tâches s’ouvre et affiche chaque étape séquentiel dont vous avez besoin pour déployer et configurer une unité de v2 Skype salle systèmes.
 
-1.  Passez en revue chaque étape et effectuer les mises à jour recommandées :
+2. Passez en revue chaque étape et effectuer les mises à jour recommandées :
 
-    1.  **Redémarrez dans Windows PE**: cette étape redémarre et PXE Windows puis démarre l’ordinateur. Aucune modification n’est requise pour cette étape.
+   1. **Redémarrez dans Windows PE**: cette étape redémarre et PXE Windows puis démarre l’ordinateur. Aucune modification n’est requise pour cette étape.
 
-    2.  **Partition de disque 0 – UEFI**: cette étape efface la configuration du disque et crée des partitions en fonction des paramètres configurés. Il est recommandé que vous apportez aucune modification à cette étape.
+   2. **Partition de disque 0 – UEFI**: cette étape efface la configuration du disque et crée des partitions en fonction des paramètres configurés. Il est recommandé que vous apportez aucune modification à cette étape.
 
-    3.  **Nom de l’ordinateur SRS défini**: cette étape inclut une application HTML pour fournir une interface utilisateur pour définir un nom d’ordinateur de l’unité de v2 Skype salle systèmes lors du déploiement.
-        -  Il s’agit d’une étape facultative, mais elle peut être désactivée uniquement si vous souhaitez gérer l’ordinateur d’attribution de noms via un processus de substitution.
-        -  Vérifiez que le package **SRS v2 - Set-SRSComputerName** est activée. Si elle n’est pas le cas, accédez au package et sélectionnez-le.
+   3. **Nom de l’ordinateur SRS défini**: cette étape inclut une application HTML pour fournir une interface utilisateur pour définir un nom d’ordinateur de l’unité de v2 Skype salle systèmes lors du déploiement.
+      -  Il s’agit d’une étape facultative, mais elle peut être désactivée uniquement si vous souhaitez gérer l’ordinateur d’attribution de noms via un processus de substitution.
+      -  Vérifiez que le package **SRS v2 - Set-SRSComputerName** est activée. Si elle n’est pas le cas, accédez au package et sélectionnez-le.
 
-    4.  **Appliquer un système d’exploitation**: cette étape spécifie l’image de système d’exploitation à déployer et le fichier de réponses Sysprep automatisé à utiliser.
-        -  Vérifiez que le fichier d’image de système d’exploitation Windows 10 entreprise approprié est sélectionné.
-        -  Vérifiez que **utiliser une autonome ou le fichier de réponses Sysprep pour une installation personnalisée** est activée et le **SRS v2 - Sysprep Package** est sélectionnée. Vérifiez également que le **Nom de fichier** est définie sur **unattend.xml**.
+   4. **Appliquer un système d’exploitation**: cette étape spécifie l’image de système d’exploitation à déployer et le fichier de réponses Sysprep automatisé à utiliser.
+      -  Vérifiez que le fichier d’image de système d’exploitation Windows 10 entreprise approprié est sélectionné.
+      -  Vérifiez que **utiliser une autonome ou le fichier de réponses Sysprep pour une installation personnalisée** est activée et le **SRS v2 - Sysprep Package** est sélectionnée. Vérifiez également que le **Nom de fichier** est définie sur **unattend.xml**.
 
-    5.  **Appliquer les paramètres Windows**: cette étape rassemble des informations sur l’installation de Windows.
-        -  Fournissent des informations de gestion des licences et d’enregistrement, y compris la clé de produit, le mot de passe du compte administrateur local et le fuseau horaire (selon vos besoins).
+   5. **Appliquer les paramètres Windows**: cette étape rassemble des informations sur l’installation de Windows.
+      -  Fournissent des informations de gestion des licences et d’enregistrement, y compris la clé de produit, le mot de passe du compte administrateur local et le fuseau horaire (selon vos besoins).
 
-    6.  **Appliquer les paramètres réseau**: cette étape vous permet de spécifier un groupe de travail ou le nom de domaine Active Directory et l’unité d’organisation.
-    > [!NOTE]
-    > Pour les mesures recommandées à suivre dans le déploiement des unités de v2 Skype salle systèmes en tant que membres d’un domaine Active Directory, consultez la rubrique [Considérations en matière de système de salle Skype domaine rejoindre](domain-joining-considerations.md) .
-    7.  **Appliquer les pilotes :** Cette étape et ses sous-étapes sont utilisés pour déployer des pilotes de périphériques et de microprogrammes basée sur le modèle de Surface Pro que vous avez. Mettre à jour chaque étape pour spécifier le package de pilotes pertinents associé à ce déploiement.
-        -   Chaque package de pilote est configuré pour tirer parti des filtres Windows Management Instrumentation (WMI) pour déployer les pilotes pertinents et microprogramme en fonction de la Surface Pro marque et le modèle.
-        -   Nous vous recommandons vivement que vous ne modifiez pas la configuration de ces pilotes, sinon le déploiement peut échouer.
+   6. **Appliquer les paramètres réseau**: cette étape vous permet de spécifier un groupe de travail ou le nom de domaine Active Directory et l’unité d’organisation.
+      > [!NOTE]
+      > Pour les mesures recommandées à suivre dans le déploiement des unités de v2 Skype salle systèmes en tant que membres d’un domaine Active Directory, consultez la rubrique [Considérations en matière de système de salle Skype domaine rejoindre](domain-joining-considerations.md) .
+   7. **Appliquer les pilotes :** Cette étape et ses sous-étapes sont utilisés pour déployer des pilotes de périphériques et de microprogrammes basée sur le modèle de Surface Pro que vous avez. Mettre à jour chaque étape pour spécifier le package de pilotes pertinents associé à ce déploiement.
+      -   Chaque package de pilote est configuré pour tirer parti des filtres Windows Management Instrumentation (WMI) pour déployer les pilotes pertinents et microprogramme en fonction de la Surface Pro marque et le modèle.
+      -   Nous vous recommandons vivement que vous ne modifiez pas la configuration de ces pilotes, sinon le déploiement peut échouer.
 
-    8.  **Configurer Windows et le Gestionnaire de Configuration**: cette étape déploie et configure le client Gestionnaire de Configuration. Mettre à jour cette étape pour spécifier le Package du Client Gestionnaire de Configuration intégrés.
+   8. **Configurer Windows et le Gestionnaire de Configuration**: cette étape déploie et configure le client Gestionnaire de Configuration. Mettre à jour cette étape pour spécifier le Package du Client Gestionnaire de Configuration intégrés.
 
-    9.  **Installer le certificat racine**: cette étape distribue le certificat racine pour les périphériques non joints au domaine et par conséquent est facultative et désactivée par défaut.
-        -   Activer cette étape si vous avez besoin déployer un certificat racine pour les unités de v2 Skype salle systèmes.
-        -   Si vous n’avez pas besoin d’effectuer cette étape, vérifiez que le **SRS v2 – Package du certificat racine** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
+   9. **Installer le certificat racine**: cette étape distribue le certificat racine pour les périphériques non joints au domaine et par conséquent est facultative et désactivée par défaut.
+      -   Activer cette étape si vous avez besoin déployer un certificat racine pour les unités de v2 Skype salle systèmes.
+      -   Si vous n’avez pas besoin d’effectuer cette étape, vérifiez que le **SRS v2 – Package du certificat racine** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
 
-    10. **Installer et configurer l’Agent de OMS**: cette étape installe la version 64 bits de l’agent Microsoft Operations Management Suite et configure l’agent pour se connecter à votre espace de travail de journal Analytique.
-        -   Cette étape est désactivée par défaut. Activer cette étape uniquement si vous prévoyez d’utiliser OMS pour surveiller l’intégrité de vos unités de v2 Skype salle systèmes.
-        -   Modifier cette étape et mettre à jour les paramètres de ligne de commande pour spécifier votre **Clé de l’espace de travail**et **l’ID de l’espace de travail** .
-        -   Pour plus d’informations sur l’obtention de l’ID d’espace de travail Suite opérations de gestion et de la clé primaire, voir [ordinateurs Windows de se connecter au service journal Analytique dans Azure](with-oms.md#configure-test-devices-for-operations-management-suite-setup) .
-        -   Vérifiez que le **SRS v2 – Package de l’Agent Microsoft OMS** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
-        -   Pour plus d’informations sur la surveillance de l’intégrité de votre déploiement de v2 Skype salle systèmes, voir [planifier Skype salle systèmes v2 gestion avec OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) et [déployer les systèmes salle Skype v2 avec OMS](with-oms.md#configure-test-devices-for-operations-management-suite-setup).
+   10. **Installer et configurer l’Agent de OMS**: cette étape installe la version 64 bits de l’agent Microsoft Operations Management Suite et configure l’agent pour se connecter à votre espace de travail de journal Analytique.
+       -   Cette étape est désactivée par défaut. Activer cette étape uniquement si vous prévoyez d’utiliser OMS pour surveiller l’intégrité de vos unités de v2 Skype salle systèmes.
+       -   Modifier cette étape et mettre à jour les paramètres de ligne de commande pour spécifier votre **Clé de l’espace de travail**et **l’ID de l’espace de travail** .
+       -   Pour plus d’informations sur l’obtention de l’ID d’espace de travail Suite opérations de gestion et de la clé primaire, voir [ordinateurs Windows de se connecter au service journal Analytique dans Azure](with-oms.md#configure-test-devices-for-operations-management-suite-setup) .
+       -   Vérifiez que le **SRS v2 – Package de l’Agent Microsoft OMS** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
+       -   Pour plus d’informations sur la surveillance de l’intégrité de votre déploiement de v2 Skype salle systèmes, voir [planifier Skype salle systèmes v2 gestion avec OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) et [déployer les systèmes salle Skype v2 avec OMS](with-oms.md#configure-test-devices-for-operations-management-suite-setup).
 
-    11. **Fichiers de Configuration de copie SRS v2**: cette étape copie les fichiers requis du programme d’installation et de configuration à partir du kit de déploiement de systèmes de salle Skype v2 sur le disque dur local. Aucune personnalisation n’est requise pour cette étape.
-        -   Vérifiez que le **SRS v2 – SRS Package d’Application** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
+   11. **Fichiers de Configuration de copie SRS v2**: cette étape copie les fichiers requis du programme d’installation et de configuration à partir du kit de déploiement de systèmes de salle Skype v2 sur le disque dur local. Aucune personnalisation n’est requise pour cette étape.
+       -   Vérifiez que le **SRS v2 – SRS Package d’Application** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
 
-    12. **Install-SRSv2-OS mises à jour**: cette étape déploie les mises à jour de système d’exploitation obligatoire requis avec le déploiement de v2 Skype salle systèmes. Procédez comme suit :
-        -   Vérifiez la [console Configure un v2 de systèmes de salle Skype](console.md) pour vérifier les mises à jour sont nécessaires.
-        -   Vérifiez que votre **SRS v2 – Package de mises à jour du système d’exploitation** inclut toutes les mises à jour requises.
-        -   Vérifiez que le **SRS v2 – Package de mises à jour du système d’exploitation** est activée.
-        -   Vérifiez que la stratégie d’exécution PowerShell est définie sur **Ignorer**.
+   12. **Install-SRSv2-OS mises à jour**: cette étape déploie les mises à jour de système d’exploitation obligatoire requis avec le déploiement de v2 Skype salle systèmes. Procédez comme suit :
+       -   Vérifiez la [console Configure un v2 de systèmes de salle Skype](console.md) pour vérifier les mises à jour sont nécessaires.
+       -   Vérifiez que votre **SRS v2 – Package de mises à jour du système d’exploitation** inclut toutes les mises à jour requises.
+       -   Vérifiez que le **SRS v2 – Package de mises à jour du système d’exploitation** est activée.
+       -   Vérifiez que la stratégie d’exécution PowerShell est définie sur **Ignorer**.
 
-    13. **Redémarrer l’ordinateur**: cette étape redémarre l’ordinateur une fois que les mises à jour de système d’exploitation obligatoires sont installés. Aucune personnalisation n’est requise pour cette étape.
+   13. **Redémarrer l’ordinateur**: cette étape redémarre l’ordinateur une fois que les mises à jour de système d’exploitation obligatoires sont installés. Aucune personnalisation n’est requise pour cette étape.
 
-    14. **Configurer les composants Windows**: cette étape configure les fonctionnalités Windows requises. Aucune personnalisation n’est requise pour cette étape.
+   14. **Configurer les composants Windows**: cette étape configure les fonctionnalités Windows requises. Aucune personnalisation n’est requise pour cette étape.
 
-    15. **Redémarrer l’ordinateur**: cette étape redémarre l’ordinateur après avoir configuré les fonctionnalités de Windows. Aucune personnalisation n’est requise pour cette étape.
+   15. **Redémarrer l’ordinateur**: cette étape redémarre l’ordinateur après avoir configuré les fonctionnalités de Windows. Aucune personnalisation n’est requise pour cette étape.
 
-    16. **Ajouter un utilisateur Local Skype**: cette étape crée le compte Skype local utilisé pour se connecter à Windows et démarrer l’application v2 de systèmes de salle Skype automatiquement. Cette étape ne possède pas de tout logiciel associé, et aucune personnalisation n’est nécessaire pour qu’il.
+   16. **Ajouter un utilisateur Local Skype**: cette étape crée le compte Skype local utilisé pour se connecter à Windows et démarrer l’application v2 de systèmes de salle Skype automatiquement. Cette étape ne possède pas de tout logiciel associé, et aucune personnalisation n’est nécessaire pour qu’il.
 
-    17. **Définir vers le haut et configurer l’application SRS**: cette étape configure l’installation d’applications Skype salle systèmes v2 pour le redémarrage du système d’exploitation.
-        -   Vérifiez que le **SRS v2 – configurer un Package d’installation SRS** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
+   17. **Définir vers le haut et configurer l’application SRS**: cette étape configure l’installation d’applications Skype salle systèmes v2 pour le redémarrage du système d’exploitation.
+       -   Vérifiez que le **SRS v2 – configurer un Package d’installation SRS** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
 
 > [!IMPORTANT]
 > Il est très important que les étapes de séquence de tâches doivent être dans l’ordre indiqué. Modification de l’ordre des étapes, ou la configuration des étapes supplémentaires peut empêcher le déploiement.
@@ -634,32 +634,32 @@ Vous pouvez télécharger facilement importer une séquence de tâches exemple e
 
 ### <a name="create-deployment-for-the-task-sequence"></a>Créer le déploiement de la séquence de tâches
 
-1.  Sélectionnez la séquence de tâches, puis sélectionnez **déployer**.
+1. Sélectionnez la séquence de tâches, puis sélectionnez **déployer**.
 
-2.  Sélectionnez **Parcourir** pour sélectionner le regroupement cible pour le déploiement.
+2. Sélectionnez **Parcourir** pour sélectionner le regroupement cible pour le déploiement.
 
-3.  Sélectionnez **Tous les ordinateurs inconnus** , puis sélectionnez **OK**.
+3. Sélectionnez **Tous les ordinateurs inconnus** , puis sélectionnez **OK**.
 
-4.  Cliquez sur **suivant**.
+4. Cliquez sur **suivant**.
 
-5.  Dans la liste déroulante **objet** , sélectionnez **disponible** .
+5. Dans la liste déroulante **objet** , sélectionnez **disponible** .
 
-6.  Sélectionnez **uniquement multimédia et PXE** dans la liste **mettre à disposition de ce qui suit** , puis cliquez sur **suivant**.
-> [!WARNING]
-> Il est très important que le **rôle** est défini sur **disponible**. Assurez-vous que l' **objet** n’est **pas** la valeur **obligatoire**. Assurez-vous également que vous sélectionnez **uniquement multimédia et PXE** dans le **rendre disponible pour les éléments suivants**.
->
-> Définition de ces valeurs à une chose risque de tous les ordinateurs obtenir l’image de déploiement de systèmes de salle Skype lors du démarrage.
-7.  Ne pas spécifier un calendrier et cliquez sur **suivant**.
+6. Sélectionnez **uniquement multimédia et PXE** dans la liste **mettre à disposition de ce qui suit** , puis cliquez sur **suivant**.
+   > [!WARNING]
+   > Il est très important que le **rôle** est défini sur **disponible**. Assurez-vous que l' **objet** n’est **pas** la valeur **obligatoire**. Assurez-vous également que vous sélectionnez **uniquement multimédia et PXE** dans le **rendre disponible pour les éléments suivants**.
+   >
+   > Définition de ces valeurs à une chose risque de tous les ordinateurs obtenir l’image de déploiement de systèmes de salle Skype lors du démarrage.
+7. Ne pas spécifier un calendrier et cliquez sur **suivant**.
 
-8.  Ne pas modifier tous les éléments dans la section **Expérience utilisateur** et cliquez sur **suivant**.
+8. Ne pas modifier tous les éléments dans la section **Expérience utilisateur** et cliquez sur **suivant**.
 
-9.  Ne pas modifier tous les éléments dans la section **alertes** et cliquez sur **suivant**.
+9. Ne pas modifier tous les éléments dans la section **alertes** et cliquez sur **suivant**.
 
-10.  Ne pas modifier tous les éléments dans la section **Points de Distribution** et cliquez sur **suivant**.
+10. Ne pas modifier tous les éléments dans la section **Points de Distribution** et cliquez sur **suivant**.
 
-11.  Vérifier les paramètres, puis sélectionnez **suivant**.
+11. Vérifier les paramètres, puis sélectionnez **suivant**.
 
-12.  Sélectionnez **Fermer**.
+12. Sélectionnez **Fermer**.
 
 <a name="validate-and-troubleshoot-the-solution"></a>Valider et résoudre les problèmes de la solution
 --------------------------------------

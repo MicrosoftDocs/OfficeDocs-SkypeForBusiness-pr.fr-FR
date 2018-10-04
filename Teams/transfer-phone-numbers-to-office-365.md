@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 660854bc851be4409962f1177917e86f2ae3482d
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 6b67688c352ca58f863db051f5883973d221261a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347544"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371989"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Transférer des numéros de téléphone vers Office 365
 
@@ -61,25 +61,25 @@ Avant de commencer le transfert des numéros de téléphone, nous vous recommand
     
 5. Dans la page **Informations sur le compte**, entrez les informations ci-dessous, puis cliquez sur **Suivant**:
     
-  - **Numéro de compte** Numéro de compte du fournisseur de services ou de l'opérateur.
+   - **Numéro de compte** Numéro de compte du fournisseur de services ou de l'opérateur.
     
-  - Le **numéro de téléphone de facturation** doit être au format E.164 (un signe + est obligatoire comme préfixe du numéro). Par exemple, pour un numéro en Amérique du Nord, utilisez le format + 1XXXYYYZZZZ.
+   - Le **numéro de téléphone de facturation** doit être au format E.164 (un signe + est obligatoire comme préfixe du numéro). Par exemple, pour un numéro en Amérique du Nord, utilisez le format + 1XXXYYYZZZZ.
     
-  - **Code confidentiel pour débloquer le numéro** Code confidentiel : si nécessaire pour votre fournisseur de services ou votre opérateur actuel.
+   - **Code confidentiel pour débloquer le numéro** Code confidentiel : si nécessaire pour votre fournisseur de services ou votre opérateur actuel.
     
-  - **Nom de la société** Il s'agit du nom de votre entreprise ou organisation.
+   - **Nom de la société** Il s'agit du nom de votre entreprise ou organisation.
     
-    > [!NOTE]
-    > La zone **Nom de la société** n'accepte que 25 caractères, espaces compris. Si le nom de la société comporte plus de 25 caractères, les 25 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout.
+     > [!NOTE]
+     > La zone **Nom de la société** n'accepte que 25 caractères, espaces compris. Si le nom de la société comporte plus de 25 caractères, les 25 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout.
   
-  - **Personne autorisant** Nom de l'utilisateur autorisé
+   - **Personne autorisant** Nom de l'utilisateur autorisé
     
-    > [!NOTE]
-    > La zone **Personne autorisant** n'accepte que 15 caractères, espaces compris. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout.
+     > [!NOTE]
+     > La zone **Personne autorisant** n'accepte que 15 caractères, espaces compris. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout.
   
-  - **Adresse du service** Adresse du service pour le compte. Elle figurera sur la facture de votre fournisseur ou de votre opérateur de services.
+   - **Adresse du service** Adresse du service pour le compte. Elle figurera sur la facture de votre fournisseur ou de votre opérateur de services.
     
-  - **Ville**, **État**, **Code postal** de l'adresse du service.
+   - **Ville**, **État**, **Code postal** de l'adresse du service.
     
 6. Dans la page **Numéros**, entrez les numéros de téléphone que vous souhaitez transférer au format E.164. Par exemple, pour un numéro en Amérique du Nord, utilisez le format + 1XXXYYYZZZZ. Utilisez une virgule pour séparer plusieurs numéros de téléphone.
     

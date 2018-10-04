@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: Les numéros non attribués sont des numéros de téléphone valides pour votre organisation, mais qui ne sont pas attribués à un utilisateur ou à un téléphone. Le tableau des numéros non attribués identifie le mode de traitement des appels vers les numéros non attribués.
-ms.openlocfilehash: 8983c52691eec7945f431be3efdce56be025ee6b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5e8648b94950750e6f750044ba4033fdf637c6f4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261405"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373669"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Numéro de téléphone non attribués : Créer une nouvelle ou en modifier une existant
 
@@ -48,7 +48,7 @@ La liste ci-dessous décrit les champs de la page.
 
   - **Annonce** Sélectionnez l’annonce à associer à cette plage de numéros non attribués.
 
--  Si vous avez sélectionné **La messagerie unifiée Exchange** pour **le service d’annonce**:
+- Si vous avez sélectionné **La messagerie unifiée Exchange** pour **le service d’annonce**:
 
   - **Numéro de téléphone de standard automatique** Sélectionnez le numéro de téléphone du standard automatique Exchange UM.
 

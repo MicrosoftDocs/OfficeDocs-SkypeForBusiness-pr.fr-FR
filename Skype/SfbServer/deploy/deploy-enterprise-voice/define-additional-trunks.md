@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Résumé : Découvrez comment définir un tronçon supplémentaire entre un serveur de médiation et un homologue de passerelle dans le Générateur de topologie dans Skype pour Business Server.'
-ms.openlocfilehash: 6099f0542634b19bcee989e985f5a8829749daef
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 1f70a1d99ebff1bbc1fbd162b322185b3cd21690
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883938"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370658"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Définition de jonctions supplémentaires dans le Générateur de topologie dans Skype pour Business Server
  
@@ -36,22 +36,22 @@ Une jonction est une connexion logique entre un serveur de médiation et une pas
 1. Démarrer le Générateur de topologies : Cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business Server 2015**, puis cliquez sur **Skype pour le Générateur de 2015Topology Business Server**.
     
 2. Sous Skype pour Business Server, le nom de votre site, **Composants partagés**, cliquez sur le nœud **tronçons** , puis cliquez sur **Nouvelle jonction**.
-    3. Dans **Définir un nouveau tronçon**, spécifiez un nom convivial pour identifier le tronçon de manière unique. Deux tronçons ne peuvent pas porter le même nom.
+   1. Dans **Définir un nouveau tronçon**, spécifiez un nom convivial pour identifier le tronçon de manière unique. Deux tronçons ne peuvent pas porter le même nom.
     
-    > [!NOTE]
-    > Si vous spécifiez Transport Layer Security (TLS) comme type de transport, vous devez spécifier le nom de domaine complet au lieu de l’adresse IP de l’homologue du serveur de médiation. 
+      > [!NOTE]
+      > Si vous spécifiez Transport Layer Security (TLS) comme type de transport, vous devez spécifier le nom de domaine complet au lieu de l’adresse IP de l’homologue du serveur de médiation. 
   
-4. Sous **Passerelle RTC associée**, sélectionnez l’homologue de passerelle RTC à associer à ce tronçon.
+3. Sous **Passerelle RTC associée**, sélectionnez l’homologue de passerelle RTC à associer à ce tronçon.
     5. Sous **Port d’écoute pour passerelle PSTN**, tapez le port d’écoute que l’homologue (passerelle PSTN, IP-PBX ou SBC) recevoir des messages SIP à partir du serveur de médiation doit être associé à ce tronçon. Les ports homologues par défaut sont 5066 pour TCP (Transmission Control Protocol) et 5067 pour TLS (Transport Layer Security). Les ports de Survivable Branch Appliance par défaut sont 5081 pour TCP et 5082 pour TLS.
     
-6. Dans **Protocole de transport SIP**, cliquez sur le type de transport utilisé par l’homologue.
+4. Dans **Protocole de transport SIP**, cliquez sur le type de transport utilisé par l’homologue.
     
     > [!NOTE]
     > Pour des raisons de sécurité, il est vivement recommandé de déployer un homologue pour le serveur de médiation pouvant utiliser TLS. 
   
-7. Sous **Serveur de médiation associé**, sélectionnez le pool de serveur de médiation à associer à la jonction racine de cet homologue
+5. Sous **Serveur de médiation associé**, sélectionnez le pool de serveur de médiation à associer à la jonction racine de cet homologue
     
-8. Sous **port du serveur de médiation associé**, tapez le port d’écoute que le serveur de médiation recevoir des messages SIP de l’homologue.
+6. Sous **port du serveur de médiation associé**, tapez le port d’écoute que le serveur de médiation recevoir des messages SIP de l’homologue.
     
     > [!NOTE]
     > Plusieurs jonction prend en charge Skype pour Business Server, deux tronçons ayant des noms différents ne peuvent pas être configurés avec le même **port du serveur de médiation associé** et le **Port d’écoute pour passerelle IP/RTC**
@@ -59,6 +59,6 @@ Une jonction est une connexion logique entre un serveur de médiation et une pas
     > [!NOTE]
     > Plusieurs jonction prend en charge Skype pour Business Server, SIP plusieurs voies de signalisation peut être définie sur le serveur de médiation pour la communication avec plusieurs homologues. Lors de la définition d’une jonction, le numéro de **port du serveur de médiation associé** doit se trouver dans la plage de ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie sous Skype pour les pools Business Server et le serveur de médiation. Le pool de serveur de médiation pertinent d’avec le bouton droit et sélectionnez **Modifier les propriétés**. Spécifiez la plage de ports dans le champ **Ports d’écoute**.
   
-9. Cliquez sur **OK**. 
+7. Cliquez sur **OK**. 
     
 

@@ -14,12 +14,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e6ed0f5a93f2ba3ea46c88bbdf0fa93ebb843f9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fc88190df03ed7087013c196ac32279c88c58801
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016876"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372539"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation] (media/upgrade-banner-deployment.png "Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation")
 
@@ -101,11 +101,11 @@ Une fois que votre pilote est terminé, il est temps de rassembler toutes les en
 
 Si les résultats indiquent :
 
--   **Les objectifs de votre pilotes (par exemple, satisfaction des utilisateurs et la qualité du réseau) ont été atteints**, vous devez être prêt à passer à la phase suivante du déploiement. Selon les objectifs de votre projet, cela peut être une des options suivantes :
-   -   Extension du pilote de participants supplémentaires
-   -   [Activation des équipes à côté de Skype pour les entreprises (**îles** mode) pour tout ou partie de votre organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
-   -   [Mise à niveau aux utilisateurs de Skype pour les entreprises d’équipes (mode**d’équipes uniquement** ) pour tout ou partie de votre organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
--   **Votre pilote n’a pas obtenir les résultats que vous souhaitiez (par exemple, de satisfaction des utilisateurs et de qualité réseau)**, prendre le temps d’effectuer les ajustements nécessaires à votre projet et de vérifier votre pilote.
+- **Les objectifs de votre pilotes (par exemple, satisfaction des utilisateurs et la qualité du réseau) ont été atteints**, vous devez être prêt à passer à la phase suivante du déploiement. Selon les objectifs de votre projet, cela peut être une des options suivantes :
+  -   Extension du pilote de participants supplémentaires
+  -   [Activation des équipes à côté de Skype pour les entreprises (**îles** mode) pour tout ou partie de votre organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
+  -   [Mise à niveau aux utilisateurs de Skype pour les entreprises d’équipes (mode**d’équipes uniquement** ) pour tout ou partie de votre organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
+- **Votre pilote n’a pas obtenir les résultats que vous souhaitiez (par exemple, de satisfaction des utilisateurs et de qualité réseau)**, prendre le temps d’effectuer les ajustements nécessaires à votre projet et de vérifier votre pilote.
 
 > [!Tip]
 > Inscrire votre pilotes participants comme champions homologue pour aider à faire connaître et intégrée de nouvelle utilisateurs aux équipes. Champions homologue peuvent facilement se référer à d’autres utilisateurs, partage de leur propre expérience et les connaissances et offre une prise en charge et des conseils avec leurs collègues. Pour plus d’informations sur les [champions](https://go.microsoft.com/fwlink/?linkid=859068) et comment vous pouvez les utiliser dans votre propre déploiement. 

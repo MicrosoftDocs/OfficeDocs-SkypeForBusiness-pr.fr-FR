@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: Vous pouvez utiliser la section de la page de conversation permanente à associer les URL des salles de conversation permanente. Ces URL s’affichent sur le client dans la salle de conversation, dans le volet d’extensibilité de conversation. Un administrateur doit ajouter Compléments à la liste des compléments enregistrés et les créateurs/responsables de salles de conversation doivent associer les salles à l’un des compléments enregistrés pour que les utilisateurs puissent voir cette mise à niveau sur leur client.
-ms.openlocfilehash: 2efac9a17082c3aadb1f26a24f30e711ce976abc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a7a0ded39539a85c146912da8f7cf2815b6292a2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23251241"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371526"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Complément de conversation permanente – Page principale
 
@@ -51,9 +51,9 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 
 6. Dans **Nouveau complément**, procédez comme suit :
 
-  - Dans **Nom**, spécifiez un nom pour le nouveau complément.
+   - Dans **Nom**, spécifiez un nom pour le nouveau complément.
 
-  - Dans **URL**, spécifiez l’URL à associer au complément. Les URL sont limitées aux protocoles http et https.
+   - Dans **URL**, spécifiez l’URL à associer au complément. Les URL sont limitées aux protocoles http et https.
 
 7. Cliquez sur **Valider**.
 

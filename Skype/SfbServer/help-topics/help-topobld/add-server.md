@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 'Pour ajouter un nouveau serveur à un pool existant de serveurs, où le pool est une des opérations suivantes :'
-ms.openlocfilehash: 07684b98bf2820b6a72006219b380c972985b303
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6e45048eba1758f6944ea822113622c03703d315
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974584"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372964"
 ---
 # <a name="add-server"></a>Ajouter un serveur
  
@@ -45,13 +45,13 @@ Chacun des nouveaux serveurs de pool a des exigences différentes. Dans les sect
     
 - Sélectionnez **Activer IPv6** pour activer IPv6 pour ce serveur.
     
- **Serveur directeur**
+  **Serveur directeur**
   
 - Le nom de domaine complet du nouveau serveur tel qu’il est défini dans DNS.
     
 - Sélectionnez **utiliser toutes les adresses IP**, ce qui signifie que n’importe quelle adresse IP définie sur l’ordinateur est utilisé. Vous pouvez également vous sélectionnez **limiter l’utilisation de service pour les adresses IP sélectionnées** et entrez une adresse IP spécifique sur le nouveau serveur. L’adresse IP saisie est la seule adresse IP qui répondra pour les services hébergés.
     
- **Serveur de médiation**
+  **Serveur de médiation**
   
 - Le nom de domaine complet du nouveau serveur tel qu’il est défini dans DNS.
     
@@ -60,13 +60,13 @@ Chacun des nouveaux serveurs de pool a des exigences différentes. Dans les sect
     > [!NOTE]
     > Le serveur de médiation, l’adresse IP entrée pour l’adresse IP principale et l’adresse IP PSTN est le même par défaut. Les adresses IP peuvent être définies séparément si vous utilisez les interfaces réseau dédié ou des adresses IP séparées sur la même interface réseau. Si vous avez des interfaces réseau deux, l’autre pour la connexion au réseau local et l’autre pour la connexion PSTN, vous devez assigner des adresses IP différentes. 
   
- **Serveur de conférence audio/vidéo**
+  **Serveur de conférence audio/vidéo**
   
 - Le nom de domaine complet du nouveau serveur tel qu’il est défini dans DNS.
     
 - Sélectionnez **utiliser toutes les adresses IP**, ce qui signifie que n’importe quelle adresse IP définie sur l’ordinateur peut être utilisée. Sinon, vous pouvez sélectionner **limiter l’utilisation de service pour les adresses IP sélectionnées** et entrez une adresse spécifique sur le nouveau serveur. L’adresse IP saisie est la seule adresse IP qui répondra pour les services hébergés.
     
- **Serveur d’applications approuvées**
+  **Serveur d’applications approuvées**
   
 - Le nom de domaine complet du nouveau serveur tel qu’il est défini dans DNS.
     

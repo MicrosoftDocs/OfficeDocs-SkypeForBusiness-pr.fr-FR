@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Résoudre les problèmes de votre déploiement en nuage connecteur Edition.
-ms.openlocfilehash: 5d34cc78c7afa9a0d4e459e87d885c82b437bae0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882287"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371312"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Identification et résolution des problèmes de votre déploiement Cloud Connector
  
@@ -122,17 +122,17 @@ Voici des solutions aux problèmes couramment rencontrés :
     
 1. Sur le serveur hôte, démarrez une console PowerShell en tant qu’administrateur, puis exécutez :
     
-  ```
-  Enter-CcUpdate
-  ```
+   ```
+   Enter-CcUpdate
+   ```
 
 2. Vérifiez si des mises à jour sont disponibles et installez-les.
     
 3. Dans la console PowerShell, exécutez l’applet de commande suivante :
     
-  ```
-  Exit-CcUpdate
-  ```
+   ```
+   Exit-CcUpdate
+   ```
 
 - 
     
@@ -177,11 +177,11 @@ Voici des solutions aux problèmes couramment rencontrés :
   ```
 
     
--    **Problème : L’applet de commande Get-CcRunningVersion renvoie une valeur vide s’il existe une solution déployée en cours d’exécution sur l’hôte.**
+- **Problème : L’applet de commande Get-CcRunningVersion renvoie une valeur vide s’il existe une solution déployée en cours d’exécution sur l’hôte.**
     
-    **Résolution :** Cela peut arriver quand vous passez de la version 1.3.4 ou 1.3.8 à la version 1.4.1. Après l’installation de la 1.4.1 avec le .msi, vous devez exécuter `Register-CcAppliance` avant d’exécuter une quelconque autre applet de commande. `Register-CcAppliance` fera migrer le module du fichier .ini de %UserProfile%\CloudConnector vers %ProgramData%\CloudConnector. Si vous l’avez manqué, un nouveau module .ini sera créé dans le dossier %ProgramData%\CloudConnector et remplacera les informations de la version exécutée ou de sauvegarde pour la version 1.3.4 ou la 1.3.8.
+  **Résolution :** Cela peut arriver quand vous passez de la version 1.3.4 ou 1.3.8 à la version 1.4.1. Après l’installation de la 1.4.1 avec le .msi, vous devez exécuter `Register-CcAppliance` avant d’exécuter une quelconque autre applet de commande. `Register-CcAppliance` fera migrer le module du fichier .ini de %UserProfile%\CloudConnector vers %ProgramData%\CloudConnector. Si vous l’avez manqué, un nouveau module .ini sera créé dans le dossier %ProgramData%\CloudConnector et remplacera les informations de la version exécutée ou de sauvegarde pour la version 1.3.4 ou la 1.3.8.
     
-    Comparez les modules des fichier .ini dans les dossiers %UserProfile%\CloudConnector et %ProgramData%\CloudConnector. S’il existe des différences, supprimez le fichier module.ini %ProgramData%\CloudConnector et relancez `Register-CcAppliance`. Vous pouvez également modifier le fichier manuellement à la version de sauvegarde et le fonctionnement correct.
+  Comparez les modules des fichier .ini dans les dossiers %UserProfile%\CloudConnector et %ProgramData%\CloudConnector. S’il existe des différences, supprimez le fichier module.ini %ProgramData%\CloudConnector et relancez `Register-CcAppliance`. Vous pouvez également modifier le fichier manuellement à la version de sauvegarde et le fonctionnement correct.
     
 - **Problème : Après avoir exécuté l’applet de commande commutateur-CcVersion pour basculer vers une ancienne version qui est différente de la version actuelle de script, il n’est aucune prise en charge de haute disponibilité pour cette version ancienne.**
     
@@ -230,37 +230,37 @@ Voici des solutions aux problèmes couramment rencontrés :
     
     Microsoft recommande que vous suivez ces étapes pendant les heures non pics d’utilisation.
     
-  - Sur la première application, exécutez l’applet de commande Remove-CcCertificationAuthorityFile pour le nettoyage de l’autorité de certification sauvegarder des fichiers dans le \<SiteRoot\> directory.
+   - Sur la première application, exécutez l’applet de commande Remove-CcCertificationAuthorityFile pour le nettoyage de l’autorité de certification sauvegarder des fichiers dans le \<SiteRoot\> directory.
     
-  - Exécutez l’applet de commande entrée-CcUpdate pour décharger les services et placer chaque application en mode maintenance.
+   - Exécutez l’applet de commande entrée-CcUpdate pour décharger les services et placer chaque application en mode maintenance.
     
-  - Exécutez les applets de commande suivantes afin de réinitialiser et de créer les nouveaux certificats de l’autorité de certification et tous les certificats du serveur interne :
+   - Exécutez les applets de commande suivantes afin de réinitialiser et de créer les nouveaux certificats de l’autorité de certification et tous les certificats du serveur interne :
     
-    Pour les versions de nuage connecteur avant 2.0 :
+     Pour les versions de nuage connecteur avant 2.0 :
     
-    ```
-    Reset-CcCACertificate
-    Renew-CcServerCertificate
-    Remove-CcLegacyServerCertificate 
-    ```
+     ```
+     Reset-CcCACertificate
+     Renew-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
 
-    Ou pour le nuage connecteur version 2.0 et versions ultérieure :
+     Ou pour le nuage connecteur version 2.0 et versions ultérieure :
     
-    ```
-    Reset-CcCACertificate
-    Update-CcServerCertificate
-    Remove-CcLegacyServerCertificate 
-    ```
+     ```
+     Reset-CcCACertificate
+     Update-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
 
-  - Sur la première application, exécutez la cmdlet suivante pour sauvegarder les fichiers de l’autorité de certification pour le \<SiteRoot\> dossier. Ultérieurement, sur tous les autres matériels dans le même site, l’applet de commande Reset-CcCACertificate consomme automatiquement les fichiers de sauvegarde d’autorité de certification et équipements utiliseront le même certificat racine.
+   - Sur la première application, exécutez la cmdlet suivante pour sauvegarder les fichiers de l’autorité de certification pour le \<SiteRoot\> dossier. Ultérieurement, sur tous les autres matériels dans le même site, l’applet de commande Reset-CcCACertificate consomme automatiquement les fichiers de sauvegarde d’autorité de certification et équipements utiliseront le même certificat racine.
     
-    ```
-    Backup-CcCertificationAuthority
-    ```
+     ```
+     Backup-CcCertificationAuthority
+     ```
 
-  - Exécutez l’applet de commande Exit-CcUpdate pour démarrer les services et quitter le mode maintenance. 
+   - Exécutez l’applet de commande Exit-CcUpdate pour démarrer les services et quitter le mode maintenance. 
     
-  - Si TLS est utilisé entre la passerelle et le serveur de médiation, exécutez l’applet de commande Export-CcRootCertificate à partir de n’importe quel matériel dans le site, puis installez le certificat exporté dans vos passerelles PSTN. 
+   - Si TLS est utilisé entre la passerelle et le serveur de médiation, exécutez l’applet de commande Export-CcRootCertificate à partir de n’importe quel matériel dans le site, puis installez le certificat exporté dans vos passerelles PSTN. 
     
 - **Problème : Vous recevez le message d’erreur suivant dans le journal du Service de gestion de connecteur dans le nuage, « C:\Program Files\Skype pour Business nuage connecteur Edition\ManagementService\CceManagementService.log » : erreur CceService : 0 : exception inattendue lorsque rapports d’état en ligne : System.Management.Automation.CmdletInvocationException : Échec de l’ouverture de session de l’utilisateur \<administrateur client Global\>. Créez un nouvel objet d’informations d’identification, en veillant à ce que vous avez utilisé le nom d’utilisateur et le mot de passe. ---\>**
     
@@ -276,43 +276,43 @@ Voici des solutions aux problèmes couramment rencontrés :
     
     **Si vous exécutez la version 1.4.2 de Cloud Connector,** renouvelez tous les mots de passe Cloud Connector en suivant les étapes suivantes :
     
-    1. redémarrez le serveur hôte.
+  1. redémarrez le serveur hôte.
     
-    2. Supprimez le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ».
+  2. Supprimez le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ».
     
-    3. Lancer une console PowerShell en tant qu’administrateur et exécutez « Register-CcAppliance-Local » à entrer les mots de passe suivant la description. Entrez les mots de passe même que vous avez entré avant le déploiement dans le nuage connecteur.
+  3. Lancer une console PowerShell en tant qu’administrateur et exécutez « Register-CcAppliance-Local » à entrer les mots de passe suivant la description. Entrez les mots de passe même que vous avez entré avant le déploiement dans le nuage connecteur.
     
-    **Si vous exécutez nuage connecteur 2.0 ou version ultérieure,** régénérez tous les mots de passe dans le nuage connecteur en suivant ces étapes :
+     **Si vous exécutez nuage connecteur 2.0 ou version ultérieure,** régénérez tous les mots de passe dans le nuage connecteur en suivant ces étapes :
     
-    1. redémarrez le serveur hôte.
+  4. redémarrez le serveur hôte.
     
-    2. Supprimez le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ».
+  5. Supprimez le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ».
     
-    3. Lancer une console PowerShell en tant qu’administrateur et exécutez « Register-CcAppliance-Local » à entrer les mots de passe suivant la description. 
+  6. Lancer une console PowerShell en tant qu’administrateur et exécutez « Register-CcAppliance-Local » à entrer les mots de passe suivant la description. 
     
-    Si le fichier du mot de passe en mémoire a été généré avec la version 1.4.2 de Cloud Connector, utilisez le mot de passe VMAdmin pour le mot de passe CceService lorsque vous y serez invité. Saisissez le même mot de passe que vous avez saisi pour le déploiement de Cloud Connector pour tous les autres comptes.
+     Si le fichier du mot de passe en mémoire a été généré avec la version 1.4.2 de Cloud Connector, utilisez le mot de passe VMAdmin pour le mot de passe CceService lorsque vous y serez invité. Saisissez le même mot de passe que vous avez saisi pour le déploiement de Cloud Connector pour tous les autres comptes.
     
-    Si le fichier du mot de passe en mémoire a été généré avec la version 1.4.2 de Cloud Connector et que les mots de passe DomainAdmin et VMAdmin sont différents, suivez les étapes suivantes :
+     Si le fichier du mot de passe en mémoire a été généré avec la version 1.4.2 de Cloud Connector et que les mots de passe DomainAdmin et VMAdmin sont différents, suivez les étapes suivantes :
     
-    1. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
+  7. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
     
-    2. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService.
+  8. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService.
     
-    3. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin que vous avez utilisé auparavant.
+  9. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin que vous avez utilisé auparavant.
     
-    Si le fichier de mot de passe mis en cache a été généré avec le nuage connecteur version 2.0 ou version ultérieure, par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe en tant que CceService. Si vous avez modifié les mots de passe DomainAdmin et VMAdmin, vous devez effectuer les étapes suivantes :
+     Si le fichier de mot de passe mis en cache a été généré avec le nuage connecteur version 2.0 ou version ultérieure, par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe en tant que CceService. Si vous avez modifié les mots de passe DomainAdmin et VMAdmin, vous devez effectuer les étapes suivantes :
     
-    1. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
+  10. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
     
-        1. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService
+       1. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService
     
-        2. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin que vous avez utilisé auparavant.
+       2. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin que vous avez utilisé auparavant.
     
-    2. Exécutez Set-CcCredential -AccountType VmAdmin comme suit :
+  11. Exécutez Set-CcCredential -AccountType VmAdmin comme suit :
     
-        1. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService
+       1. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService
     
-        2. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe VmAdmin que vous avez utilisé auparavant.  
+       2. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe VmAdmin que vous avez utilisé auparavant.  
     
 - **Problème : Avec le nuage connecteur version 2.1 et version ultérieure, lors de l’exécution Register-CcAppliance ou autres applets de commande sur le matériel, vous recevez un message d’erreur tel : » pour chaque objet : la propriété « Commune » est introuvable sur cet objet. Vérifiez que la propriété existe. À C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 caractère : 14 »**
     
@@ -344,23 +344,40 @@ Voici des solutions aux problèmes couramment rencontrés :
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
--  **Problème : Vous devez vérifier et installer les mises à jour de Windows manuellement sur le serveur hôte ou les machines virtuelles.**
+- **Problème : Vous devez vérifier et installer les mises à jour de Windows manuellement sur le serveur hôte ou les machines virtuelles.**
     
-    **Résolution ** Nous vous conseillons de profiter des avantages des mises à jour automatiques du système d’exploitation fournies par la version Cloud Connector de Skype Entreprise. Une fois qu’un appareil est inscrit pour une gestion en ligne et que la mise à jour automatique du système d’exploitation est activée, le serveur hôte et les machines virtuelles vérifieront et installeront automatiquement les mises à jour de Windows en fonction des paramètres d’heure de mise à jour du système d’exploitation.
+   **Résolution ** Nous vous conseillons de profiter des avantages des mises à jour automatiques du système d’exploitation fournies par la version Cloud Connector de Skype Entreprise. Une fois qu’un appareil est inscrit pour une gestion en ligne et que la mise à jour automatique du système d’exploitation est activée, le serveur hôte et les machines virtuelles vérifieront et installeront automatiquement les mises à jour de Windows en fonction des paramètres d’heure de mise à jour du système d’exploitation.
     
-    Si vous devez vérifier et installer les mises à jour de Windows manuellement, suivez les étapes de cette rubrique qui s’appliquent à votre type de déploiement. Vous devriez mettre à jour le serveur hôte en même temps que les machines virtuelles qui sont exécutées dessus pour réduire le temps d’arrêt nécessaire aux mises à jour.
+   Si vous devez vérifier et installer les mises à jour de Windows manuellement, suivez les étapes de cette rubrique qui s’appliquent à votre type de déploiement. Vous devriez mettre à jour le serveur hôte en même temps que les machines virtuelles qui sont exécutées dessus pour réduire le temps d’arrêt nécessaire aux mises à jour.
     
-    Si vous préférez, vous pouvez utiliser un serveur WSUS (services de mises à jour de serveur Windows) pour qu’il fournisse les mises à jour aux serveurs Cloud Connector. Assurez-vous simplement de configurer Windows Update de sorte qu’il n’effectue **pas** d’installation automatique.
+   Si vous préférez, vous pouvez utiliser un serveur WSUS (services de mises à jour de serveur Windows) pour qu’il fournisse les mises à jour aux serveurs Cloud Connector. Assurez-vous simplement de configurer Windows Update de sorte qu’il n’effectue **pas** d’installation automatique.
     
-    Pour en savoir plus sur la mise à jour de votre déploiement Cloud Collector manuellement, consultez la rubrique suivante.
+   Pour en savoir plus sur la mise à jour de votre déploiement Cloud Collector manuellement, consultez la rubrique suivante.
     
--   **Problème : Lorsque le nuage connecteur mises à jour vers une nouvelle version, cmdlets de connecteur de nuage ne sont pas mis à jour.** Cela se produit parfois si une fenêtre PowerShell reste ouverte lors de la mise à jour automatique se produit.
+- **Problème : Lorsque le nuage connecteur mises à jour vers une nouvelle version, cmdlets de connecteur de nuage ne sont pas mis à jour.** Cela se produit parfois si une fenêtre PowerShell reste ouverte lors de la mise à jour automatique se produit.
     
-    **Résolution :** Pour charger les applets de commande mis à jour, vous pouvez effectuer une des opérations suivantes :
+  **Résolution :** Pour charger les applets de commande mis à jour, vous pouvez effectuer une des opérations suivantes :
     
-     - Fermez PowerShell sur le matériel de nuage connecteur, puis rouvrez PowerShell.
+   - Fermez PowerShell sur le matériel de nuage connecteur, puis rouvrez PowerShell.
     
      - Vous pouvez également exécuter Import-Module CloudConnector-Force. 
+ 
+-   **Problème : « le terme 'Stop-CsWindowsService' n’est pas reconnu comme nom de l’applet de commande, fonction, fichier de script ou programme exécutable. » erreur lorsque vous essayez d’exécuter l’applet de commande entrée-CcUpdate.**
+
+    **Résolution :** Supprimez le fichier de HOME\AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache $.
+PowerShell crée ce fichier comme un cache des applets de commande de modules qu’il trouve afin qu’il ne doit pas recommencer l’analyse chaque fois que tous les modules que choses vraiment lente. Probablement, il a été une corruption de fichiers qui fournie résultats trompeuses PowerShell lors de la lecture depuis la mémoire cache.
+
+-   **Problème : « Import-Module CloudConnector » génère l’erreur « Import-Module : le module spécifié est « CloudConnector » n’a pas été chargé, car aucun fichier de module valide a été trouvé dans n’importe quel répertoire module »**
+
+    **Résolution :**
+    - Valider que fait le module CloudConnector existe sous c:\Program Files\WindowsPowerShell\Modules
+    
+    - Une fois la validation de ce module CloudConnector existe sous cet emplacement, la variable d’environnement PSModulePath stocker le chemin d’accès vers les emplacements des modules peut être modifiée :
+    
+     a. Modification temporaire : Démarrer Powershell en tant qu’administrateur et exécutez la commande suivante : $env : PSModulePath = $env : PSModulePath + « ; C:\Program Files\WindowsPowerShell\Modules\"
+        
+     b. Changement persistent, démarrer le PowerShell en tant qu’administrateur et exécutez les commandes suivantes, un par un : $CurrentValue = [Environment] :: GetEnvironmentVariable("PSModulePath", "Machine") SetEnvironmentVariable("PSModulePath", $CurrentValue + "; C:\Program Files\WindowsPowerShell\Modules », « Machine »)
+
     
 ## <a name="install-windows-updates-manually"></a>Installer manuellement les mises à jour Windows
 
@@ -376,9 +393,9 @@ Pour vérifier et installer manuellement les mises à jours, connectez-vous à c
     
 2. Supprimez l’instance de la haute disponibilité à l’aide de l’applet de commande suivante :
     
-  ```
-  Enter-CcUpdate
-  ```
+   ```
+   Enter-CcUpdate
+   ```
 
 3. 
     
@@ -386,9 +403,9 @@ Pour vérifier et installer manuellement les mises à jours, connectez-vous à c
     
 4. Définissez à nouveau l’instance en haute disponibilité grâce à l’applet de commande suivante :
     
-  ```
-  Exit-CcUpdate
-  ```
+   ```
+   Exit-CcUpdate
+   ```
 
 Pour des déploiements sur plusieurs sites, suivez les étapes pour un site unique pour chaque site du déploiement, en appliquant les mises à jour un site à la fois.
   

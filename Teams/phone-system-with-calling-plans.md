@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: e4c86bb7d918a30b0abe185d67b717904702bc93
-ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.openlocfilehash: cbe14840f53d01c491159bfb3e44fe837d047558
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25352297"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371372"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Guide pratique des systèmes téléphoniques avec forfaits d'appels dans Microsoft Teams
 =========================================================================
@@ -63,12 +63,13 @@ Les cas d'utilisation sont destinés à documenter des résultats attendus et me
 
 > [!TIP]
 > Voici un exemple d'une étude de cas d'entreprise réalisée :
->|         |
->|---------|
->|**Description du processus d’entreprise actuel**<p>La configuration standard des espaces de travail Contoso inclut un numéro de téléphone pour chaque bureau. Chaque employé reçoit un numéro de téléphone de ligne entrante directe. Les téléphones de bureau sont connectés à un système PBX et connectés au PSTN via une jonction SIP. Les employés peuvent uniquement passer et recevoir des appels sur le téléphone de bureau qui leur a été attribué.|
->|**Difficultés par rapport au processus d’entreprise existant**<p>L'analyse de l'utilisation des téléphones de bureau indique que seulement 10 % des téléphones de bureau sont activement utilisés, le reste étant configuré soit pour transférer des appels vers des téléphones mobiles, soit pour faire sonner en même temps des téléphones mobiles. La maintenance du système PBX existant et des téléphones de bureau associés contribue aux 20 % des coûts de service téléphonique mensuels.|
->|**Comment la technologie peut surmonter ces difficultés**<p>Les systèmes téléphoniques avec forfaits d'appels permettent à l'ordinateur personnel de l'utilisateur final de recevoir et de passer des appels téléphoniques via le réseau de données en tirant profit de l'application Microsoft Teams native et en supprimant la nécessité de déployer et de maintenir des téléphones de bureau. Ils offrent également la possibilité de désactiver le système PBX existant, étant donné que le service téléphonique peut être fourni via le cloud sur le réseau sans dépendance sur le système téléphonique traditionnel.|
->|**Résultats de l’entreprise attendus et mesurables**<p>La suppression des besoins de maintenance et la mise hors service des téléphones PBX et de bureau existants entraînent une réduction de 20 % des dépenses de service téléphonique mensuelles. Les systèmes téléphoniques avec forfaits d'appels simplifient les espaces de travail de bureau et permettent à Contoso de développer ses opérations, en établissant de nouveaux bureaux avec des coûts de téléphonie initiaux minimes.|
+> 
+> |         |
+> |---------|
+> |**Description du processus d’entreprise actuel**<p>La configuration standard des espaces de travail Contoso inclut un numéro de téléphone pour chaque bureau. Chaque employé reçoit un numéro de téléphone de ligne entrante directe. Les téléphones de bureau sont connectés à un système PBX et connectés au PSTN via une jonction SIP. Les employés peuvent uniquement passer et recevoir des appels sur le téléphone de bureau qui leur a été attribué.|
+> |**Difficultés par rapport au processus d’entreprise existant**<p>L'analyse de l'utilisation des téléphones de bureau indique que seulement 10 % des téléphones de bureau sont activement utilisés, le reste étant configuré soit pour transférer des appels vers des téléphones mobiles, soit pour faire sonner en même temps des téléphones mobiles. La maintenance du système PBX existant et des téléphones de bureau associés contribue aux 20 % des coûts de service téléphonique mensuels.|
+> |**Comment la technologie peut surmonter ces difficultés**<p>Les systèmes téléphoniques avec forfaits d'appels permettent à l'ordinateur personnel de l'utilisateur final de recevoir et de passer des appels téléphoniques via le réseau de données en tirant profit de l'application Microsoft Teams native et en supprimant la nécessité de déployer et de maintenir des téléphones de bureau. Ils offrent également la possibilité de désactiver le système PBX existant, étant donné que le service téléphonique peut être fourni via le cloud sur le réseau sans dépendance sur le système téléphonique traditionnel.|
+> |**Résultats de l’entreprise attendus et mesurables**<p>La suppression des besoins de maintenance et la mise hors service des téléphones PBX et de bureau existants entraînent une réduction de 20 % des dépenses de service téléphonique mensuelles. Les systèmes téléphoniques avec forfaits d'appels simplifient les espaces de travail de bureau et permettent à Contoso de développer ses opérations, en établissant de nouveaux bureaux avec des coûts de téléphonie initiaux minimes.|
 
 Au cours de la phase Planifier, en plus de définir vos cas d'utilisation, vous devez également clarifier les éléments suivants :
 - Portée organisationnelle
@@ -81,24 +82,25 @@ Les cas d'utilisation définis à l'étape précédente incluront la portée org
 
 > [!TIP]
 > Voici un exemple de modèle de matrice des parties prenantes que vous pouvez utiliser pour documenter les parties prenantes intégrées dans le projet :
->|Rôle  |Description  |Nom, informations de contact, emplacement  |
->|---------|---------|---------|
->|Sponsor exécutif du projet|<ul><li>Autorité et responsabilité ultimes du projet et réalisation des objectifs du projet</li><li>Aide à résoudre les problèmes transmis par le chef de projet</li><li>Organise la communication au sein de l’entreprise au sujet des objectifs du projet</li><li>Chargé de prendre les décisions stratégiques clés</li><li>Chargé de la disponibilité des ressources nécessaires et du budget</li><li>Principale évaluation trimestrielle des activités</li><li>Adhésion et appui à la campagne de sensibilisation</li><li>Est le sponsor du projet pour le lancement du programme</li></ul>|TBA|
->|Chef de projet|<ul><li>Gestion et direction de l’équipe du projet</li><li>Coordonne les partenaires et les équipes qui participent au projet</li><li>Responsable de la création et de la gestion des plans du projet pour obtenir les principaux résultats trimestriels</li><li>Résoudre les problèmes fonctionnels croisés</li><li>Fournir des informations actualisées périodiques aux sponsors du projet</li><li>Incorporer les aspects relatifs à l’adoption dans l’ensemble du plan du projet</li><li>Diriger les évaluations mensuelles des activités et opérationnelles, contribuer aux évaluations trimestrielles des activités</li></ul>|TBA|
->|Chef/architecte de la collaboration|<ul><li>Chargé de l’exécution de la stratégie de collaboration définie par la direction de l’entreprise</li><li>Analyse et choisit les produits de collaboration pour l’entreprise permettant d’atteindre les objectifs professionnels</li><li>Chargé de la conception des opérations des produits de collaboration</li><li>Définit un modèle d'opération et de prise en charge</li><li>Contribue aux évaluations mensuelles et trimestrielles des activités</li><ul>|TBA|
->|Consultant|<ul><li>Chargé des services de configuration</li><li>Contribue à l'architecture de solutions globale</li></ul>|TBA|
->|Gestionnaire de projets|<ul><li>Élaborer et tenir à jour les plans de projet</li><li>Gérer les livrables du projet conformément au plan et au budget du projet</li><li>Noter et gérer les problèmes liés au projet, y compris les remontées</li><li>Effectuer des appels d'intervention hebdomadaires</li><li>Assurer la liaison avec, et fournir des informations actualisées aux sponsors exécutifs du projet</li><li>Collaborer avec l’architecte pour définir le mode de gestion des changements et les plans de communication</li></ul>|TBA|
->|Spécialiste en gestion des changements/adoption|<ul><li>Formuler des recommandations lors de la phase de découverte sur les processus d’adoption et de formation</li><li>Participer à l’atelier sur la stratégie d’adoption</li><li>Développer et être responsable de la stratégie d’adoption</li><li>Développer et exécuter le plan de communication</li><li>Chargé de dispenser des formations aux utilisateurs finaux</li><li>Recueillir les commentaires et réaliser des enquêtes</li></ul>|TBA|
->|Directeur de réseau|<ul><li>Formuler des recommandations lors de la phase de découverte sur la conception du réseau</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe de mise en réseau lors de l’exécution du projet</li></ul>|TBA|
->|Directeur de la sécurité|<ul><li>Formuler des recommandations lors de la phase de découverte sur les processus et la conception de la sécurité</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe chargée de la sécurité lors de l’exécution du projet</li></ul>|TBA|
->|Directeur de la téléphonie|<ul><li>Formuler des recommandations lors de la phase de découverte sur la conception de la téléphonie</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe chargée de la téléphonie lors de l’exécution du projet</li></ul>|TBA|
->|Directeur de bureau|<ul><li>Formuler des recommandations lors de la phase de découverte sur les clients et le processus de mise à jour</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe chargée des bureaux lors de l’exécution du projet</li></ul>|TBA|
->|Responsable du support|<ul><li>Formuler des recommandations lors de la phase de découverte sur le modèle opérationnel et de prise en charge</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Participer à la planification du modèle de prise en charge</li><li>Coordonner le travail de l’équipe chargée de la prise en charge/des ressources lors de l’exécution du projet</li></ul>|TBA|
->|Représentants d'unité commerciale|<ul><li>Contribuer aux guides et supports d’adoption basés sur les utilisateurs finaux</li><li>Évaluer et contribuer aux cas d’utilisation professionnelle</li></ul>|TBA|
->|Directeur du déploiement|<ul><li>S’assurer que les conditions préalables au déploiement sont remplies</li><li>Impliquer des ressources des clients dans l’affectation, la préparation et le déploiement des activités de l’étape</li><li>Participer à des réunions pour évaluer l’état de préparation et du déploiement</li></ul>|TBA|
->|Administrateurs informatiques|<ul><li>Spécialistes des technologies de l'information pour aider à la planification et l’exécution des tests</li></ul>|TBA|
->|Propriétaire de service|<ul><li>Responsable du fonctionnement de l'ensemble du service de systèmes téléphoniques avec forfaits d'appels</li><li>Propriétaire du service de systèmes téléphoniques avec forfaits d'appels</li></ul>|TBA|
->|Ambassadeurs de la qualité|<ul><li>Génère des commentaires sur la qualité, la fiabilité et des utilisateurs</li><li>Identifie les tendances en matière de qualité et génère les corrections avec les équipes respectives</li><li>Fait des rapports par le biais du comité de pilotage à la direction</li><li>Fait des rapports sur la qualité, la fiabilité et l’opinion des utilisateurs par l’intermédiaire de Rate My Call et de Net Promoter Score</li></ul>|TBA|
+> 
+> |                 Rôle                  |                                                                                                                                                                                                                                                                Description                                                                                                                                                                                                                                                                 | Nom, informations de contact, emplacement |
+> |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+> |       Sponsor exécutif du projet       | <ul><li>Autorité et responsabilité ultimes du projet et réalisation des objectifs du projet</li><li>Aide à résoudre les problèmes transmis par le chef de projet</li><li>Organise la communication au sein de l’entreprise au sujet des objectifs du projet</li><li>Chargé de prendre les décisions stratégiques clés</li><li>Chargé de la disponibilité des ressources nécessaires et du budget</li><li>Principale évaluation trimestrielle des activités</li><li>Adhésion et appui à la campagne de sensibilisation</li><li>Est le sponsor du projet pour le lancement du programme</li></ul> |                 TBA                 |
+> |             Chef de projet              |                   <ul><li>Gestion et direction de l’équipe du projet</li><li>Coordonne les partenaires et les équipes qui participent au projet</li><li>Responsable de la création et de la gestion des plans du projet pour obtenir les principaux résultats trimestriels</li><li>Résoudre les problèmes fonctionnels croisés</li><li>Fournir des informations actualisées périodiques aux sponsors du projet</li><li>Incorporer les aspects relatifs à l’adoption dans l’ensemble du plan du projet</li><li>Diriger les évaluations mensuelles des activités et opérationnelles, contribuer aux évaluations trimestrielles des activités</li></ul>                   |                 TBA                 |
+> |     Chef/architecte de la collaboration      |                                                                       <ul><li>Chargé de l’exécution de la stratégie de collaboration définie par la direction de l’entreprise</li><li>Analyse et choisit les produits de collaboration pour l’entreprise permettant d’atteindre les objectifs professionnels</li><li>Chargé de la conception des opérations des produits de collaboration</li><li>Définit un modèle d'opération et de prise en charge</li><li>Contribue aux évaluations mensuelles et trimestrielles des activités</li><ul>                                                                        |                 TBA                 |
+> |              Consultant               |                                                                                                                                                                                                               <ul><li>Chargé des services de configuration</li><li>Contribue à l'architecture de solutions globale</li></ul>                                                                                                                                                                                                                |                 TBA                 |
+> |            Gestionnaire de projets            |                                                      <ul><li>Élaborer et tenir à jour les plans de projet</li><li>Gérer les livrables du projet conformément au plan et au budget du projet</li><li>Noter et gérer les problèmes liés au projet, y compris les remontées</li><li>Effectuer des appels d'intervention hebdomadaires</li><li>Assurer la liaison avec, et fournir des informations actualisées aux sponsors exécutifs du projet</li><li>Collaborer avec l’architecte pour définir le mode de gestion des changements et les plans de communication</li></ul>                                                       |                 TBA                 |
+> | Spécialiste en gestion des changements/adoption |                                                                                       <ul><li>Formuler des recommandations lors de la phase de découverte sur les processus d’adoption et de formation</li><li>Participer à l’atelier sur la stratégie d’adoption</li><li>Développer et être responsable de la stratégie d’adoption</li><li>Développer et exécuter le plan de communication</li><li>Chargé de dispenser des formations aux utilisateurs finaux</li><li>Recueillir les commentaires et réaliser des enquêtes</li></ul>                                                                                        |                 TBA                 |
+> |             Directeur de réseau              |                                                                                                                                                              <ul><li>Formuler des recommandations lors de la phase de découverte sur la conception du réseau</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe de mise en réseau lors de l’exécution du projet</li></ul>                                                                                                                                                               |                 TBA                 |
+> |             Directeur de la sécurité             |                                                                                                                                                        <ul><li>Formuler des recommandations lors de la phase de découverte sur les processus et la conception de la sécurité</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe chargée de la sécurité lors de l’exécution du projet</li></ul>                                                                                                                                                        |                 TBA                 |
+> |            Directeur de la téléphonie             |                                                                                                                                                              <ul><li>Formuler des recommandations lors de la phase de découverte sur la conception de la téléphonie</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe chargée de la téléphonie lors de l’exécution du projet</li></ul>                                                                                                                                                              |                 TBA                 |
+> |             Directeur de bureau              |                                                                                                                                                          <ul><li>Formuler des recommandations lors de la phase de découverte sur les clients et le processus de mise à jour</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe chargée des bureaux lors de l’exécution du projet</li></ul>                                                                                                                                                          |                 TBA                 |
+> |        Responsable du support         |                                                                                                                          <ul><li>Formuler des recommandations lors de la phase de découverte sur le modèle opérationnel et de prise en charge</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Participer à la planification du modèle de prise en charge</li><li>Coordonner le travail de l’équipe chargée de la prise en charge/des ressources lors de l’exécution du projet</li></ul>                                                                                                                          |                 TBA                 |
+> |     Représentants d'unité commerciale     |                                                                                                                                                                                                      <ul><li>Contribuer aux guides et supports d’adoption basés sur les utilisateurs finaux</li><li>Évaluer et contribuer aux cas d’utilisation professionnelle</li></ul>                                                                                                                                                                                                      |                 TBA                 |
+> |            Directeur du déploiement            |                                                                                                                                                           <ul><li>S’assurer que les conditions préalables au déploiement sont remplies</li><li>Impliquer des ressources des clients dans l’affectation, la préparation et le déploiement des activités de l’étape</li><li>Participer à des réunions pour évaluer l’état de préparation et du déploiement</li></ul>                                                                                                                                                            |                 TBA                 |
+> |               Administrateurs informatiques               |                                                                                                                                                                                                                           <ul><li>Spécialistes des technologies de l'information pour aider à la planification et l’exécution des tests</li></ul>                                                                                                                                                                                                                            |                 TBA                 |
+> |             Propriétaire de service             |                                                                                                                                                                                     <ul><li>Responsable du fonctionnement de l'ensemble du service de systèmes téléphoniques avec forfaits d'appels</li><li>Propriétaire du service de systèmes téléphoniques avec forfaits d'appels</li></ul>                                                                                                                                                                                      |                 TBA                 |
+> |           Ambassadeurs de la qualité           |                                                                                                      <ul><li>Génère des commentaires sur la qualité, la fiabilité et des utilisateurs</li><li>Identifie les tendances en matière de qualité et génère les corrections avec les équipes respectives</li><li>Fait des rapports par le biais du comité de pilotage à la direction</li><li>Fait des rapports sur la qualité, la fiabilité et l’opinion des utilisateurs par l’intermédiaire de Rate My Call et de Net Promoter Score</li></ul>                                                                                                       |                 TBA                 |
 
 <a name="define-objectives-and-key-results-key-success-indicators-and-risks"></a>Définir les objectifs et les résultats clés, les indicateurs de succès clés et les risques
 --------------------------------------------------------------------
@@ -111,37 +113,40 @@ Les objectifs et résultats clés contiennent la liste des objectifs définis au
 
 > [!TIP]
 > Un exemple d'objectifs et résultats clés appropriés à l'implémentation d'un système téléphonique avec forfaits d'appels peut être référencé ci-après :
-><br>
->
->**Vision : augmenter la productivité an optimisant les investissements dans Office 365**
->|Objectifs  |Résultats clés  |Action  |
->|---------|---------|---------|
->|Déployer les systèmes téléphoniques avec forfaits d'appels dans les filiales européennes d'ici la fin de l'exercice fiscal 2018|T3, 2018 : Déployer les systèmes téléphoniques avec forfaits d'appels dans les bureaux londoniens|Planifier<ul><li>Créer un plan de réussite</li><li>Créer un plan d’implémentation technique détaillé</li></ul><p>Intégrer<ul><li>Exécuter le plan de réussite</li><li>Exécuter le plan d’implémentation technique</li></ul>|
->|Désactiver le système PBX hérité dans les bureaux londoniens d'ici la fin de l'exercice fiscal 2018|T4, 2018 : Désactiver le système PBX hérité dans les bureaux londoniens|Générer une valeur ajoutée<ul><li>Favoriser l’implication des utilisateurs et encourager l'adoption</li><li>Gérer et préparer le changement</li><li>Mesurer, partager la réussite et retravailler</li>|
+> <br>
+> 
+> **Vision : augmenter la productivité an optimisant les investissements dans Office 365**
+> 
+> |Objectifs  |Résultats clés  |Action  |
+> |---------|---------|---------|
+> |Déployer les systèmes téléphoniques avec forfaits d'appels dans les filiales européennes d'ici la fin de l'exercice fiscal 2018|T3, 2018 : Déployer les systèmes téléphoniques avec forfaits d'appels dans les bureaux londoniens|Planifier<ul><li>Créer un plan de réussite</li><li>Créer un plan d’implémentation technique détaillé</li></ul><p>Intégrer<ul><li>Exécuter le plan de réussite</li><li>Exécuter le plan d’implémentation technique</li></ul>|
+> |Désactiver le système PBX hérité dans les bureaux londoniens d'ici la fin de l'exercice fiscal 2018|T4, 2018 : Désactiver le système PBX hérité dans les bureaux londoniens|Générer une valeur ajoutée<ul><li>Favoriser l’implication des utilisateurs et encourager l'adoption</li><li>Gérer et préparer le changement</li><li>Mesurer, partager la réussite et retravailler</li>|
 
 Les indicateurs de succès clés mesurent la qualité et la réussite des résultats clés et complètent la nature binaire des objectifs et résultats clés (obtenus ou non), en détaillant les bons et les mauvais résultats. Lors de la définition des indicateurs de réussite clés, nous recommandons d’utiliser les critères « spécifique, mesurable, attribuable, réaliste, temporel » ou SMART.
 
 > [!TIP]
 > Voici un exemple d'indicateur de succès clé approprié à ce projet :
->|Type  |Questions sur l'indicateur de succès clé et critères  |Comment les mesurer  |Critères de réussite  |Mesurés  |Responsable  |
->|---------|---------|---------|---------|---------|---------|
->|Utilisation/adoption|La qualité des appels est égale ou meilleure qu’avec la solution précédente|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable des technologies de l’information|
->|Utilisation/adoption|Microsoft Teams a facilité le processus de communication|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable de la gestion des changements|
->|Utilisation/adoption|Les utilisateurs utilisent activement la solution|Rapports Office 365, tableau de bord de la qualité des appels|80 % des utilisateurs l’utilisent quotidiennement|Chaque jour|Équipe responsable de la gestion des changements|
->|Utilisation/qualité|Le pourcentage d’appels/conférences médiocres doit être minimal|Tableau de bord de la qualité des appels|< 5 % d'appels médiocres par mois|Chaque jour|Équipe responsable des technologies de l’information|
->|Utilisation/support|Je sais comment obtenir le support technique|Enquête|90% des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable de la gestion des changements|
->|Utilisation/support|Je suis satisfait de la qualité du support technique|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après chaque incident|Équipe responsable des technologies de l’information|
->|Financier|Réduction des dépenses de service téléphonique mensuelles|Système financier|Atteindre le retour sur investissement défini|Basé sur le retour sur investissement|Équipe responsable de la gestion des changements|
+> 
+> |Type  |Questions sur l'indicateur de succès clé et critères  |Comment les mesurer  |Critères de réussite  |Mesurés  |Responsable  |
+> |---------|---------|---------|---------|---------|---------|
+> |Utilisation/adoption|La qualité des appels est égale ou meilleure qu’avec la solution précédente|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable des technologies de l’information|
+> |Utilisation/adoption|Microsoft Teams a facilité le processus de communication|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable de la gestion des changements|
+> |Utilisation/adoption|Les utilisateurs utilisent activement la solution|Rapports Office 365, tableau de bord de la qualité des appels|80 % des utilisateurs l’utilisent quotidiennement|Chaque jour|Équipe responsable de la gestion des changements|
+> |Utilisation/qualité|Le pourcentage d’appels/conférences médiocres doit être minimal|Tableau de bord de la qualité des appels|< 5 % d'appels médiocres par mois|Chaque jour|Équipe responsable des technologies de l’information|
+> |Utilisation/support|Je sais comment obtenir le support technique|Enquête|90% des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable de la gestion des changements|
+> |Utilisation/support|Je suis satisfait de la qualité du support technique|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après chaque incident|Équipe responsable des technologies de l’information|
+> |Financier|Réduction des dépenses de service téléphonique mensuelles|Système financier|Atteindre le retour sur investissement défini|Basé sur le retour sur investissement|Équipe responsable de la gestion des changements|
 
 Vous devez identifier les risques d’entreprise dans le cadre de cette activité et définir un plan d’atténuation pour chaque risque identifié. Capturez ces informations dans un plan de gestion des risques.
 
 > [!TIP]
 > Votre plan de gestion des risques peut être documenté comme l'exemple ci-après :
->|Risque  |Probabilité  |Impact  |Global  |Plan d’atténuation  |
->|---------|---------|---------|---------|---------|
->|Une fusion prochaine ajoutera jusqu’à 1000 personnes|Élevée|Élevée|Élevée|<ul><li>Pour les entreprises ayant fusionné, différenciez l’objectif et résultat clé avec le processus propre (Planifier, Intégrer, Générer une valeur ajoutée)</li><li>Ne les incluez pas dans les objectifs et résultats clés existants</li></ul>|
->|Le transfert des numéros de téléphone retardera la réalisation du projet|Élevée|Élevée|Élevée|<ul><li>Préparer toutes les informations nécessaires pour prendre en charge le transfert des numéros de téléphone au préalable (enregistrement de service client, informations de facturation, courrier d’autorisation)</li><li>Ajuster le planning du projet pour concilier la durée de bouclage de l’exécution du transfert des numéros de téléphone</li><li>Utiliser les numéros de téléphone provisoires avec la manipulation de l'ID de l'appelant</li></ul>|
->|Reconception du réseau planifiée|Élevée|Moyenne|Moyenne|<ul><li>Avant d’implémenter Teams comme plate-forme de communication et de collaboration moderne, exécuter l’évaluation de la préparation du réseau pour les sites dans le champ du projet</li></ul>|
+> 
+> |Risque  |Probabilité  |Impact  |Global  |Plan d’atténuation  |
+> |---------|---------|---------|---------|---------|
+> |Une fusion prochaine ajoutera jusqu’à 1000 personnes|Élevée|Élevée|Élevée|<ul><li>Pour les entreprises ayant fusionné, différenciez l’objectif et résultat clé avec le processus propre (Planifier, Intégrer, Générer une valeur ajoutée)</li><li>Ne les incluez pas dans les objectifs et résultats clés existants</li></ul>|
+> |Le transfert des numéros de téléphone retardera la réalisation du projet|Élevée|Élevée|Élevée|<ul><li>Préparer toutes les informations nécessaires pour prendre en charge le transfert des numéros de téléphone au préalable (enregistrement de service client, informations de facturation, courrier d’autorisation)</li><li>Ajuster le planning du projet pour concilier la durée de bouclage de l’exécution du transfert des numéros de téléphone</li><li>Utiliser les numéros de téléphone provisoires avec la manipulation de l'ID de l'appelant</li></ul>|
+> |Reconception du réseau planifiée|Élevée|Moyenne|Moyenne|<ul><li>Avant d’implémenter Teams comme plate-forme de communication et de collaboration moderne, exécuter l’évaluation de la préparation du réseau pour les sites dans le champ du projet</li></ul>|
 
 <a name="assess-environment-and-evaluate-adoption-readiness"></a>Évaluer l'environnement et la préparation à l'adoption
 --------------------------------------------------
@@ -176,17 +181,18 @@ La planification des opérations et l'identification des équipes qui utiliseron
 
 > [!TIP]
 > Voici un exemple de modèle de documentation du résultat de l'activité de mappage des rôles opérationnels que vous avez réalisée pour prendre en charge ce projet :
->|Rôle opérationnel  |Description  |Équipe  |Détails du contact  |
->|---------|---------|---------|---------|
->|Propriétaire de service|Propriétaire de service, interface avec les divisions de l’entreprise, stratégie|TBA|TBA|
->|Fonctionnement des systèmes téléphoniques avec forfaits d'appels|Opérations quotidiennes, déplacement/ajout/modification des comptes d’utilisateurs et d’appareils, supervision|TBA|TBA|
->|Administration des clients|Modifier les paramètres à l'échelle du client, activer les nouvelles fonctions|TBA|TBA|
->|Support technique|Interface permettant aux utilisateurs finaux d’obtenir un support|TBA|TBA|
->|Opérations réseau|Exécution du réseau local, étendu, Wi-Fi et accès à Internet|TBA|TBA|
->|Équipe responsable des points de terminaison de client|Gérer les déploiements de bureau|TBA|TBA|
->|Opérations d’identité|Gérer l’infrastructure d’identité (AD, ADFS, Azure AD)|TBA|TBA|
->|Adoption/gestion des changements|Gérer la sensibilisation, la formation et l’adoption de la solution|TBA|TBA|
->|Opérations Exchange|Gère l’environnement Exchange|TBA|TBA|
+> 
+> |Rôle opérationnel  |Description  |Équipe  |Détails du contact  |
+> |---------|---------|---------|---------|
+> |Propriétaire de service|Propriétaire de service, interface avec les divisions de l’entreprise, stratégie|TBA|TBA|
+> |Fonctionnement des systèmes téléphoniques avec forfaits d'appels|Opérations quotidiennes, déplacement/ajout/modification des comptes d’utilisateurs et d’appareils, supervision|TBA|TBA|
+> |Administration des clients|Modifier les paramètres à l'échelle du client, activer les nouvelles fonctions|TBA|TBA|
+> |Support technique|Interface permettant aux utilisateurs finaux d’obtenir un support|TBA|TBA|
+> |Opérations réseau|Exécution du réseau local, étendu, Wi-Fi et accès à Internet|TBA|TBA|
+> |Équipe responsable des points de terminaison de client|Gérer les déploiements de bureau|TBA|TBA|
+> |Opérations d’identité|Gérer l’infrastructure d’identité (AD, ADFS, Azure AD)|TBA|TBA|
+> |Adoption/gestion des changements|Gérer la sensibilisation, la formation et l’adoption de la solution|TBA|TBA|
+> |Opérations Exchange|Gère l’environnement Exchange|TBA|TBA|
 
 Pour permettre un mappage des rôles opérationnels plus détaillé, incluant les tâches associées à chaque rôle opérationnel, vous pouvez utiliser le [Classeur de mappage des rôles opérationnels](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) pour capturer les détails qui permettront d'obtenir une vision claire des rôles et responsabilités pour la prise en charge du service de systèmes téléphoniques avec forfaits d'appels.
 
@@ -243,6 +249,7 @@ Pour connaître les pays et régions dans lesquels les services de forfaits d'ap
 Après avoir vérifié l'admissibilité de votre organisation à obtenir le service de forfaits d'appels, établissez la liste des emplacements des utilisateurs ou des bureaux où le service de forfaits d'appels sera implémenté en vous basant sur la liste des pays et régions disponibles.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Choisissez les emplacements des utilisateurs ou les bureaux dans lesquels le service de forfaits d'appels sera implémenté.</li></ul>|
@@ -250,13 +257,14 @@ Après avoir vérifié l'admissibilité de votre organisation à obtenir le serv
 
 > [!TIP]
 > Voici un exemple de modèle de liste d'habilitation des sites pour les systèmes téléphoniques avec forfaits d'appels :
->|Bureau   |Emplacement |Service de système téléphonique  |
->|---------|---------|---------|
->|1 Eppîng Road|Australie|Service PSTN hérité|
->|100 Cyberport Road|Hong Kong R.A.S.|Service PSTN hérité|
->|1 Marina Boulevard|Singapour|Service PSTN hérité|
->|32 London Bridge Street|Royaume-Uni|Système téléphonique avec forfaits d’appels|
->|39 quai du Président Roosevelt|France|Système téléphonique avec forfaits d’appels|
+> 
+> |Bureau   |Emplacement |Service de système téléphonique  |
+> |---------|---------|---------|
+> |1 Eppîng Road|Australie|Service PSTN hérité|
+> |100 Cyberport Road|Hong Kong R.A.S.|Service PSTN hérité|
+> |1 Marina Boulevard|Singapour|Service PSTN hérité|
+> |32 London Bridge Street|Royaume-Uni|Système téléphonique avec forfaits d’appels|
+> |39 quai du Président Roosevelt|France|Système téléphonique avec forfaits d’appels|
 
 ## <a name="licensing-for-calling-plans"></a>Licence de forfaits d'appels
 
@@ -286,6 +294,7 @@ Si votre organisation choisit d'utiliser la recharge automatique, une recommanda
 L'utilisation des crédits de communication est contrôlable au niveau de chaque utilisateur pour vous permettre de satisfaire les exigences professionnelles spécifiques à chaque employé de l'organisation.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Si votre organisation ne dispose pas de la licence de système téléphonique requise, déterminez si la licence de système téléphonique sera acquise en passant à des niveaux d'abonnement Office 365 supérieurs ou en achetant des compléments pour le système téléphonique.</li><li>Déterminez les utilisateurs qui requièrent une licence de forfait d'appels nationaux et les utilisateurs nécessitant une licence de forfait d'appels nationaux et internationaux</li><li>Déterminez si des crédits de communication sont requis pour l'implémentation des forfaits d'appels. Si c’est le cas, déterminez le montant initial des fonds qui doit être acheté. Le cas échéant, déterminez le montant déclencheur et celui de la recharge automatique.</li><li>Déterminez les utilisateurs qui requièrent l'utilisation d'une licence de crédits de communication.</li></ul>|
@@ -293,23 +302,20 @@ L'utilisation des crédits de communication est contrôlable au niveau de chaque
 
 > [!TIP]
 > Vous pouvez documenter la liste d'attribution des licences du système téléphonique avec les utilisateurs des forfaits d'appels à l'aide de l'exemple suivant :
->|Utilisateur  |Bureau  |Licence Office 365  |Crédits de communication  |
->|---------|---------|---------|---------|
->|Emily Braun|32 London Bridge Street|Office 365 E5, forfait d'appels nationaux et internationaux|Activé|
->|Lidia Holloway|32 London Bridge Street|Office 365 E5, forfait d'appels nationaux|Désactivé|
->|Pradeep Gupta|32 London Bridge Street|Office 365 E5, forfait d'appels nationaux|Activé|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, compléments du système téléphonique, forfait d'appels nationaux|Désactivé|
->|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5, forfait d'appels nationaux et internationaux|Activé|
->|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, compléments du système téléphonique, forfait d'appels nationaux|Désactivé|
+> 
+> |Utilisateur  |Bureau  |Licence Office 365  |Crédits de communication  |
+> |---------|---------|---------|---------|
+> |Emily Braun|32 London Bridge Street|Office 365 E5, forfait d'appels nationaux et internationaux|Activé|
+> |Lidia Holloway|32 London Bridge Street|Office 365 E5, forfait d'appels nationaux|Désactivé|
+> |Pradeep Gupta|32 London Bridge Street|Office 365 E5, forfait d'appels nationaux|Activé|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, compléments du système téléphonique, forfait d'appels nationaux|Désactivé|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5, forfait d'appels nationaux et internationaux|Activé|
+> |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, compléments du système téléphonique, forfait d'appels nationaux|Désactivé|
 
 <br>
-> [!TIP]
-> Vous pouvez documenter les numéros de planification de vos crédits de communication comme suit :
->|         |         |
->|---------|---------|
->|Montant initial|1 000 $|
->|Montant déclencheur|400 $|
->|Montant de la recharge automatique|TBA|
+&gt; [!TIP]
+&gt;Votre crédits Communications planification de numéros peut être documentés comme suit : &gt;|         |         | &gt;|---------|---------|
+&gt;| Quantité initiale | 1 000$ | &gt;| Quantité de déclencheur | 400 | &gt;| Montant auto-recharge | À DÉTERMINER |
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Numéros de téléphone et emplacements d'urgence
 
@@ -324,7 +330,7 @@ Pour obtenir des numéros de téléphone directement auprès de Microsoft, utili
 
 - [Centre d'administration Skype Entreprise](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Applets de commande de Windows PowerShell à distance](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Soumettre un formulaire de demande de nouveau numéro de téléphone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Envoyer un formulaire nouvelle demande de numéro de téléphone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 Le formulaire de demande de nouveau numéro de téléphone convient mieux à l'acquisition d'un numéro de téléphone planifié car vous pouvez demander un ensemble de numéros de téléphone consécutifs. L'obtention de numéros de téléphone à l'aide du centre d'administration Skype Entreprise ou de Windows PowerShell à distance n'est pas disponible dans tous les pays ou régions.
 
@@ -341,6 +347,7 @@ Lors de la configuration des numéros de téléphone pour les forfaits d'appels,
 En plus d'une adresse d'urgence validée, les emplacements d'urgence peuvent être définis et associés à une adresse d'urgence validée pour indiquer plus précisément l'emplacement d'une adresse. Un emplacement d'urgence correspond généralement à un numéro de bâtiment, un étage, une aile de bâtiment ou un numéro de bureau où se trouve l'utilisateur.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez comment les numéros de téléphone seront obtenus pour les emplacements des utilisateurs ou les bureaux concernés par l'implémentation des forfaits d'appels (les obtenir auprès de Microsoft ou transférer des numéros de téléphone existants).</li><li>Si vous choisissez de les obtenir auprès de Microsoft, décidez de la méthode pour les obtenir (envoi de formulaire ou automatisé) pour les emplacements des utilisateurs ou les bureaux concernés par l'implémentation des forfaits d'appels.</li><li>Déterminez la granularité des informations sur les emplacements d'urgence à collecter relatifs aux emplacements des utilisateurs ou des bureaux concernés par l'implémentation des forfaits d'appels.</li></ul>|
@@ -348,14 +355,15 @@ En plus d'une adresse d'urgence validée, les emplacements d'urgence peuvent êt
 
 > [!TIP]
 > Les détails relatifs à l'acquisition des numéros de téléphone, aux numéros de téléphone et aux emplacements d'urgence sont documentables à l'aide du modèle suivant :
->|Utilisateur  |Adresse et emplacement d'urgence  |Acquisition du numéro de téléphone  |Numéro de téléphone  |
->|---------|---------|---------|---------|
->|Emily Braun|1034/32 London Bridge Street, Londres, SE1, Royaume-Uni|Port existant|+44 20 7946 0034|
->|Lidia Holloway|1023/32 London Bridge Street, Londres, SE1, Royaume-Uni|Port existant|+44 20 7946 0065|
->|Pradeep Gupta|1023/32 London Bridge Street, Londres, SE1, Royaume-Uni|Port existant|+44 20 7946 0023|
->|Marcel Beauchamp|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France|Acquérir|TBA|
->|Rachelle Cormier|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France|Acquérir|TBA|
->|Isabell Potvin|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France|Acquérir|TBA|
+> 
+> |Utilisateur  |Adresse et emplacement d'urgence  |Acquisition du numéro de téléphone  |Numéro de téléphone  |
+> |---------|---------|---------|---------|
+> |Emily Braun|1034/32 London Bridge Street, Londres, SE1, Royaume-Uni|Port existant|+44 20 7946 0034|
+> |Lidia Holloway|1023/32 London Bridge Street, Londres, SE1, Royaume-Uni|Port existant|+44 20 7946 0065|
+> |Pradeep Gupta|1023/32 London Bridge Street, Londres, SE1, Royaume-Uni|Port existant|+44 20 7946 0023|
+> |Marcel Beauchamp|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France|Acquérir|TBA|
+> |Rachelle Cormier|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France|Acquérir|TBA|
+> |Isabell Potvin|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France|Acquérir|TBA|
 
 ## <a name="voicemail"></a>Messagerie vocale
 
@@ -369,6 +377,7 @@ La messagerie vocale du système téléphonique intègre la transcription des me
 > Un mécanisme de secours a été implémenté permettant à la messagerie vocale du système téléphonique de renvoyer des messages via SMTP. Ainsi les utilisateurs qui possèdent une messagerie électronique sur un système tiers recevront les messages vocaux. La disponibilité du service et d'autres fonctionnalités de la messagerie vocale, notamment la modification des messages d'accueil et d'autres paramètres, n'est pas garantie.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez si la messagerie vocale du système téléphonique sera activée pour l'implémentation des forfaits d'appels.</li><li>Si vous utilisez Exchange sur site et que le déploiement existant n'est pas conforme aux exigences de prise en charge de la messagerie vocale du système téléphonique, déterminez les options disponibles (mise à niveau et configuration de l'assistance de la messagerie vocale du système téléphonique ou migration vers Exchange Online avec le recours à un mécanisme de secours).</li><li>Déterminez si la transcription des messages vocaux doit être activée/désactivée dans l'organisation ou pour des utilisateurs spécifiques.</li></ul>|
@@ -376,20 +385,22 @@ La messagerie vocale du système téléphonique intègre la transcription des me
 
 > [!TIP]
 > Vous pouvez documenter les détails relatifs à la messagerie vocale du système téléphonique concernant l'implémentation d'un système téléphonique avec forfaits d'appels comme suit :
->|Utilisateur  |Boîte de messagerie Exchange  |Activer la messagerie vocale  |Transcription de la messagerie vocale  |
->|---------|---------|---------|---------|
->|Emily Braun|En ligne|Oui|Activé|
->|Lidia Holloway|En ligne|Oui|Activé|
->|Pradeep Gupta|Local|Oui|Activé|
->|Marcel Beauchamp|Local|Oui|Désactivé|
->|Rachelle Cormier|En ligne|Oui|Désactivé|
->|Isabell Potvin|Local|Oui|Désactivé|
+> 
+> |Utilisateur  |Boîte de messagerie Exchange  |Activer la messagerie vocale  |Transcription de la messagerie vocale  |
+> |---------|---------|---------|---------|
+> |Emily Braun|En ligne|Oui|Activé|
+> |Lidia Holloway|En ligne|Oui|Activé|
+> |Pradeep Gupta|Local|Oui|Activé|
+> |Marcel Beauchamp|Local|Oui|Désactivé|
+> |Rachelle Cormier|En ligne|Oui|Désactivé|
+> |Isabell Potvin|Local|Oui|Désactivé|
 
 ## <a name="calling-identity"></a>Identité d'appel
 
 Par défaut, tous les appels sortants utilisent le numéro de téléphone attribué en tant qu'identité d'appel (ID de l'appelant). Le destinataire de l'appel peut rapidement identifier l'appelant et décider d'accepter ou de refuser l'appel. Dans certains cas, des exigences professionnelles légitimes imposent de masquer l'ID de l'appelant pour protéger l'identité de l'appelant au moyen d'un numéro de ligne professionnelle principal (il s'agit généralement d'un numéro de service géré par la configuration d'un [standard automatique](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)) utilisé en tant qu'ID de l'appelant ou pour bloquer totalement la présentation de l'ID de l'appelant.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez si la manipulation de l'ID de l'appelant est requise pour l'implémentation des forfaits d'appels.</li><li>Le cas échéant, déterminez les types de manipulations de l'ID de l'appelant (masquage avec numéro de service ou anonymisation) à implémenter.</li><li>Le cas échéant, déterminez l'utilisateur nécessitant une manipulation de l'ID de l'appelant et le type de cette dernière à attribuer à chaque utilisateur.</li></ul>|
@@ -397,14 +408,15 @@ Par défaut, tous les appels sortants utilisent le numéro de téléphone attrib
 
 > [!TIP]
 > Voici un exemple de modèle de documentation des détails de l'ID de l'appelant :
->|Utilisateur  |Activer le masquage de l'ID de l'appelant sortant  |Type de masquage de l'ID de l'appelant  |Autoriser le remplacement de l'utilisateur  | Activer le masquage de l'ID de l'appelant entrant  |
->|---------|---------|---------|---------|---------|
->|Emily Braun|Non|N/A|Oui|Non|
->|Lidia Holloway|Oui|Numéro de service (OrgAA, +44 20 7946 0000)|Non|Oui|
->|Pradeep Gupta|Non|N/A|Oui|Non|
->|Marcel Beauchamp|Oui|Numéro de service (OrgAA, TBA)|Non|Oui|
->|Rachelle Cormier|Oui|Anonymiser|Oui|Non|
->|Isabell Potvin|Oui|Numéro de service (OrgAA, TBA)|Non|Oui|
+> 
+> |Utilisateur  |Activer le masquage de l'ID de l'appelant sortant  |Type de masquage de l'ID de l'appelant  |Autoriser le remplacement de l'utilisateur  | Activer le masquage de l'ID de l'appelant entrant  |
+> |---------|---------|---------|---------|---------|
+> |Emily Braun|Non|N/A|Oui|Non|
+> |Lidia Holloway|Oui|Numéro de service (OrgAA, +44 20 7946 0000)|Non|Oui|
+> |Pradeep Gupta|Non|N/A|Oui|Non|
+> |Marcel Beauchamp|Oui|Numéro de service (OrgAA, TBA)|Non|Oui|
+> |Rachelle Cormier|Oui|Anonymiser|Oui|Non|
+> |Isabell Potvin|Oui|Numéro de service (OrgAA, TBA)|Non|Oui|
 
 ## <a name="dial-plans"></a>Plan de numérotation
 
@@ -429,30 +441,25 @@ Le plan de numérotation efficace affecté aux utilisateurs est la combinaison d
 Il existe 25 règles de normalisation au maximum dans chaque plan de numérotation de client, et le double emploi des règles de normalisation déjà disponibles dans le plan de numérotation de service doit donc être évité.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez si votre organisation requiert des plans de numérotation personnalisés (besoins de l'organisation, exigences en matière d'adoption, etc.).</li><li>Le cas échéant, déterminez la portée du plan de numérotation de client (global au sein du client ou utilisateurs du client) pour prendre en charge les exigences des plans de numérotation personnalisés.</li><li>Le cas échéant, déterminez les plans de numérotation de client qui seront créés pour prendre en charge les emplacements des utilisateurs ou les bureaux concernés par l'implémentation des forfaits d'appels.</li><li>Le cas échéant, déterminez le plan de numérotation personnalisé et le plan de numérotation de client qui doit être affecté à chaque utilisateur.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer si votre organisation requiert des plans de numérotation personnalisés (besoins de l'organisation, exigences en matière d'adoption, etc.)</li><li>Le cas échéant, déterminez la portée du plan de numérotation de client (global au sein du client ou utilisateurs du client) pour prendre en charge les exigences des plans de numérotation personnalisés.</li><li>Le cas échéant, déterminez les plans de numérotation de client qui seront créés pour prendre en charge les emplacements des utilisateurs ou les bureaux concernés par l'implémentation des forfaits d'appels.</li><li>Le cas échéant, déterminez le plan de numérotation personnalisé et le plan de numérotation de client qui doit être affecté à chaque utilisateur.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Consignez les plans de numérotation personnalisés et les règles de normalisation associées à configurer dans le cadre de l'implémentation des forfaits d'appels.</li><li>Consignez les utilisateurs auxquels le plan de numérotation personnalisé sera affecté et le plan de numérotation de client qui doit être affecté à chaque utilisateur.</li></ul>|
 
 > [!TIP]
 > Si cela est applicable à votre projet, vous pouvez utiliser les modèles suivants pour documenter les configurations de plans de numérotation de client :
->|Nom du plan de numérotation de client<br>_Description  |Nom des règles de normalisation<br>_Description_  |Modèle<br>Conversion<br>IsInternalExtension  |
->|---------|---------|---------|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000 – x7999) du bureau 39 quai du Président Roosevelt, Issy-les-Moulineaux, France_|^(7\j{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^0?(80\j{7})\d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^(1\j{1,2}\|11[68]\j{3}\|10\jj{2}\|3\j{3})$<br>$1<br>False|
+> 
+> |Nom du plan de numérotation de client<br>_Description  |Nom des règles de normalisation<br>_Description_  |Modèle<br>Conversion<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000 – x7999) du bureau 39 quai du Président Roosevelt, Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-> [!TIP]
-> Le modèle d'exemple ci-après peut être utilisé pour documenter les attributions de plan de numérotation afin de prendre en charge votre projet :
->|Utilisateur  |Bureau  |Type de plan de numérotation  |Nom du plan de numérotation  |
->|---------|---------|---------|---------|
->|Emily Braun|32 London Bridge Street|Plan de numérotation de service|N/A|
->|Lidia Holloway|32 London Bridge Street|Plan de numérotation de service|N/A|
->|Pradeep Gupta|32 London Bridge Street|Plan de numérotation de service|N/A|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-39qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-39qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-39qdPR|
+&gt; [!TIP]
+&gt;L’exemple de modèle ci-dessous peut servir à des affectations de plan de numérotation de document pour prendre en charge de votre projet : &gt;| Utilisateur | Office | Type de Plan de numérotation | Nom du Plan de numérotation | &gt;|---------|---------|---------|---------|
+&gt;| Emily Braun | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Lidia Holloway | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Pradeep Gupta | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-39qdPR | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-39qdPR | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-39qdPR |
 
 ## <a name="document-technical-implementation-plan"></a>Documenter le plan d’implémentation technique
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Résumé : Découvrez le processus de déploiement pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 860792fc39deed592f0d4369018cf85dd7de4a74
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 31e1dc8d5508c7d3d31de0ec3af0b9c8c06a6c40
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988985"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372640"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Déployer le tableau de bord appel qualité pour Skype pour Business Server 2015
  
@@ -78,15 +78,15 @@ Déploiement du tableau de bord qualité des appels implique la configuration de
     
    - **Utilisez plusieurs Partitions :** La valeur par défaut est défini sur « Plusieurs partition », ce qui nécessite l’édition Business Intelligence ou Enterprise edition de SQL Server. Pour Standard edition, sélectionnez l’option « Partition unique ». Notez que les performances de traitement du cube peuvent être affectés si seule Partition est utilisée.
     
-    > [!NOTE]
-    > La sélection pour l’option d’utilisation de plusieurs Partitions ne peut pas être modifiée une fois l’installation terminée. Pour modifier, le Cube doit être la première fonctionnalité désinstallé et réinstallé utilisant l’option « Modifier » dans le panneau de configuration. 
+     > [!NOTE]
+     > La sélection pour l’option d’utilisation de plusieurs Partitions ne peut pas être modifiée une fois l’installation terminée. Pour modifier, le Cube doit être la première fonctionnalité désinstallé et réinstallé utilisant l’option « Modifier » dans le panneau de configuration. 
   
    - **Répertoire du fichier de partition :** Chemin d’accès où les partitions pour cette base de données QoE doivent être placées. Il doit s’agir sur un lecteur distinct (HDD3 dans la configuration matérielle recommandée) du lecteur de système d’exploitation et d’un lecteur de fichiers du journal de base de données SQL. Notez que les noms de fichier sont corrigés dans l’installation, afin d’éviter tout conflit potentiel, il est recommandé qu’un répertoire vide avec aucun fichier n’est utilisé.
     
    - **Utilisateur de travail de l’Agent SQL - nom d’utilisateur &amp; le mot de passe :** Nom de compte de service de domaine et le mot de passe (masqué) qui sera utilisé pour exécuter l’étape « Archive les données QoE » de la tâche de l’Agent SQL Server (qui s’exécute la procédure stockée pour extraire les données de base de données de mesures QoE dans base de données Archive, ce compte doit avoir accès en lecture à la base de données QoE mesures,  comme indiqué dans la section comptes. Ce compte doit également disposer d’une connexion dans l’Instance de SQL Server Archive QoE).
     
-    > [!NOTE]
-    > L’instance SQL Server s’exécutant sous, telles que NT SERVICE\MSSQLSERVER, le compte doit avoir accès aux répertoires donné ci-dessus pour réussir l’installation. Pour plus d’informations, voir [Configurer des autorisations de système de fichiers pour l’accès au moteur de base de données](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
+     > [!NOTE]
+     > L’instance SQL Server s’exécutant sous, telles que NT SERVICE\MSSQLSERVER, le compte doit avoir accès aux répertoires donné ci-dessus pour réussir l’installation. Pour plus d’informations, voir [Configurer des autorisations de système de fichiers pour l’accès au moteur de base de données](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
   
 7. Lorsque vous cliquez sur Suivant, le programme d’installation effectue les vérifications préalables et rapport si des problèmes sont rencontrés. Lorsque les vérifications préalables toutes les pass, le programme d’installation est dirigés vers la page Configuration du Cube. 
     
@@ -101,13 +101,13 @@ Déploiement du tableau de bord qualité des appels implique la configuration de
     
    - **Cube Analysis Server :** Nom de l’instance SQL Server Analysis Services pour lequel le cube doit être créé. Il peut s’agir d’un autre ordinateur, mais l’utilisateur de l’installation doit être un membre du groupe Administrateurs de serveur de l’instance de SQL Server Analysis Services cible.
     
-    > [!NOTE]
-    >  Pour plus d’informations sur la configuration des autorisations d’administrateur de serveur Analysis Services, voir [Accorder des autorisations administrateur du serveur (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
+     > [!NOTE]
+     >  Pour plus d’informations sur la configuration des autorisations d’administrateur de serveur Analysis Services, voir [Accorder des autorisations administrateur du serveur (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
   
    - **Utilisez plusieurs Partitions :** La valeur par défaut est défini sur « Plusieurs partition », ce qui nécessite l’édition Business Intelligence ou Enterprise edition de SQL Server. Pour Standard edition, sélectionnez l’option « Partition unique ». Notez que les performances de traitement du cube peuvent être affectés si seule Partition est utilisée.
     
-    > [!NOTE]
-    >  La sélection pour l’option d’utilisation de plusieurs Partitions ne peut pas être modifiée une fois l’installation terminée. Pour modifier, le Cube doit être la première fonctionnalité désinstallé et réinstallé utilisant l’option « Modifier » dans le panneau de configuration.
+     > [!NOTE]
+     >  La sélection pour l’option d’utilisation de plusieurs Partitions ne peut pas être modifiée une fois l’installation terminée. Pour modifier, le Cube doit être la première fonctionnalité désinstallé et réinstallé utilisant l’option « Modifier » dans le panneau de configuration.
   
    - **Utilisateur - nom d’utilisateur de cube &amp; le mot de passe :** Nom de compte de service de domaine et le mot de passe (masqué) qui déclenche le traitement du cube. Si le composant QoE Archive a été sélectionné pour l’installation, ce champ est prérempli avec la valeur fournie dans la page Configuration de l’archivage pour l’utilisateur de travail de l’Agent SQL, mais nous vous recommandons de spécifier un compte de service de domaine différent afin que le programme d’installation peut accorder le Privilège requis à celui-ci.
     
@@ -259,7 +259,7 @@ Exemples
     
 - Emplacement de l’entreprise commune
     
- **Exemple de syntaxe SQL**
+  **Exemple de syntaxe SQL**
   
 ```
 INSERT INTO
@@ -290,7 +290,7 @@ Exemples
     
 - Filiale spécialisée
     
- **Exemple de syntaxe SQL**
+  **Exemple de syntaxe SQL**
   
 ```
 INSERT INTO
@@ -320,7 +320,7 @@ Exemples
     
 - ATELIER
     
- **Exemple de syntaxe SQL**
+  **Exemple de syntaxe SQL**
   
 ```
 INSERT INTO [dbo].[CqdNetworkName] 

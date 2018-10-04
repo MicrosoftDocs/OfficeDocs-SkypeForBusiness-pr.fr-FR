@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vous pouvez déplacer plusieurs utilisateurs à partir de votre pool hérité vers votre Skype pour le pool pilote Business Server 2019 à l’aide de Skype pour Business Server 2019 le panneau de configuration ou Skype pour Business Server 2019 Management Shell.
-ms.openlocfilehash: e96ef658f566f0e069f4db6e4f2f08e0410ea260
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3b01613e16e41ed2ee7aac7bc6c443e19db933c2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028655"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372508"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Déplacer plusieurs utilisateurs vers le pool pilote
 
@@ -54,19 +54,19 @@ Vous pouvez déplacer plusieurs utilisateurs à partir de votre pool hérité ve
 
 1. Ouvrez le Skype pour Business Server 2019 Management Shell. 
     
-2.  Sur la ligne de commande, tapez la commande suivante et remplacez **User1** et **User2** par les noms d’utilisateur spécifiques à déplacer et **pool_fqdn par le nom du pool de destination** . Dans cet exemple nous déplace les utilisateurs Hao Chen et Katie Jordan. 
+2. Sur la ligne de commande, tapez la commande suivante et remplacez **User1** et **User2** par les noms d’utilisateur spécifiques à déplacer et **pool_fqdn par le nom du pool de destination** . Dans cet exemple nous déplace les utilisateurs Hao Chen et Katie Jordan. 
     
-  ```
-  Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
-  ```
+   ```
+   Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
+   ```
 
-     ![Exemple d’applet de commande PowerShell Get-CsUser](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![Exemple d’applet de commande PowerShell Get-CsUser](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. Dans la ligne de commande, tapez ce qui suit : 
     
-  ```
-  Get-CsUser -Identity "User1"
-  ```
+   ```
+   Get-CsUser -Identity "User1"
+   ```
 
 4. L’identité du **Pool de serveurs d’inscriptions** doit désormais pointer vers le pool que vous avez spécifié comme **pool_FQDN** à l’étape précédente. La présence de cette identité confirme que l’utilisateur a été déplacé avec succès. Répétez l’étape pour vérifier que **l’utilisateur 2** a été déplacé. 
     
@@ -81,17 +81,17 @@ Dans cet exemple, tous les utilisateurs ont été renvoyés vers le pool hérit�
     
 2. Dans la ligne de commande, tapez ce qui suit : 
     
-  ```
-  Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
-  ```
+   ```
+   Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
+   ```
 
      ![Applet de commande PowerShell et les résultats dans Management Shell](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
 3. Exécutez **Get-CsUser** pour un des utilisateurs pilotes. 
     
-  ```
-  Get-CsUser -Identity "Hao Chen"
-  ```
+   ```
+   Get-CsUser -Identity "Hao Chen"
+   ```
 
 4. L’identité du **Pool de serveurs d’inscriptions** pour chaque utilisateur pointe désormais vers le pool que vous avez spécifié comme **pool_FQDN** à l’étape précédente. La présence de cette identité confirme que l’utilisateur a été déplacé avec succès. 
     

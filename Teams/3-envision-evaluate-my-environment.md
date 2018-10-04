@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66b86ef8789f959de9887cc1f0b3c7c1e2e8ffa3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a00bf784b283f1f2d948e82d90ce54b0a67a6439
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015572"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373313"
 ---
 # <a name="evaluate-my-environment"></a>Évaluer mon environnement
 
@@ -43,8 +43,8 @@ Découverte de l’environnement peut révéler également si vous devez [transf
 Sachant cela aideront votre organisation ajuster son plan de projet en conséquence et préparer les informations nécessaires au numéro portage. Vous pouvez utiliser la [détection de l’environnement pour le déploiement des équipes Microsoft](environmental-discovery-for-microsoft-teams-rollout.md) de MyAdvisor pour effectuer la recherche de l’environnement.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Qui sera responsable de l’évaluation de l’environnement ?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Les résultats de l’évaluation de l’environnement du document.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Qui sera responsable de l’évaluation de l’environnement ?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Les résultats de l’évaluation de l’environnement du document.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -60,8 +60,8 @@ Déploiement sur une nouvelle technologie place à portée de main d’un utilis
 Utilisez les considérations suivantes pour évaluer la préparation de votre organisation à la gestion de modification adresse utilisateur.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Avez-vous eu succès précédent avec l’adoption par les utilisateurs de logiciels ou services ?</li><li>Vous pouvez suivre pour comprendre l’utilisation ?</li><li>Avez-vous besoin de ressources pour concevoir et gérer un initial&mdash;et&mdash;campagne d’adoption (sensibilisation, des formations et prise en charge) ?</li><li>Disposez-vous d’une équipe de gestion d’adoption/Modifier utilisateur dédié, ou si vous pouvez investir dans ces ressources afin de garantir des résultats commerciaux ?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Si vous avez répondu « Oui » à tous les éléments ci-dessus, identifier les parties prenantes gestion d’utilisateur change et commencez votre planification de la disponibilité utilisateur.</li><li>Si vous avez répondu « non » à tout ou partie des éléments ci-dessus, envisagez d’engager des ressources externes pour vous aider à conduite des activités d’adoption pour votre organisation et la gestion des modifications.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Avez-vous eu succès précédent avec l’adoption par les utilisateurs de logiciels ou services ?</li><li>Vous pouvez suivre pour comprendre l’utilisation ?</li><li>Avez-vous besoin de ressources pour concevoir et gérer un initial&mdash;et&mdash;campagne d’adoption (sensibilisation, des formations et prise en charge) ?</li><li>Disposez-vous d’une équipe de gestion d’adoption/Modifier utilisateur dédié, ou si vous pouvez investir dans ces ressources afin de garantir des résultats commerciaux ?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Si vous avez répondu &quot;Oui&quot; à tous les éléments ci-dessus, identifier les parties prenantes gestion utilisateur change et commencer votre planification de la disponibilité utilisateur.</li><li>Si vous avez répondu &quot;aucun&quot; à tout ou partie des éléments ci-dessus, tenez compte des agréable à l’extérieur des ressources pour vous aider à conduite des activités d’adoption pour votre organisation et la gestion des modifications.</li></ol></td></tr>
 </table>
 
 
@@ -216,8 +216,8 @@ Pour plus d’informations, consultez [Qualité de Service dans les équipes Mic
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Qui sera responsable des évaluations réseau appropriés sur tous les segments de réseau et les emplacements de l’organisation ?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Vous pouvez effectuer une évaluation de réseau détaillé pour vous assurer de que votre réseau est prêt pour le déploiement de Microsoft Teams. Pour plus d’informations, voir [Évaluation de préparation de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness).</li><li>Effectuer la mise à jour du réseau en fonction des résultats de l’évaluation de la disponibilité du réseau pour chaque segment de réseau.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Qui sera responsable des évaluations réseau appropriés sur tous les segments de réseau et les emplacements de l’organisation ?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Vous pouvez effectuer une évaluation de réseau détaillé pour vous assurer de que votre réseau est prêt pour le déploiement de Microsoft Teams. Pour plus d’informations, voir <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Évaluation de préparation de réseau</a>.</li><li>Effectuer la mise à jour du réseau en fonction des résultats de l’évaluation de la disponibilité du réseau pour chaque segment de réseau.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

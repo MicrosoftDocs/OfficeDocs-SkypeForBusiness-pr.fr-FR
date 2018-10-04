@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations, voir Cumulative mise à jour de package 9 pour SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 37444cb9825c473657722a0b4e61745385730d7e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9ea6e8a48fbcc3f5938c33e9d06db3c882f28de2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254605"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373799"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Déployer la mise en miroir SQL pour le serveur principal une haute disponibilité dans Skype pour Business server 2015
 
@@ -138,8 +138,8 @@ Le moyen le plus simple pour configurer la mise en miroir est à l’aide du Gé
 
     Les informations suivantes s’affichent :
 
- <pre>
-  Database Name:rtcxds
+   <pre>
+   Database Name:rtcxds
         Data File:D:\CsData\BackendStore\rtc\DbPath\rtcxds.mdf
          Log File:D:\CsData\BackendStore\rtc\LogPath\rtcxds.ldf
       Primary SQL: e04-ocs.los_a.lsipt.local\rtc
@@ -211,8 +211,8 @@ Le moyen le plus simple pour configurer la mise en miroir est à l’aide du Gé
           Account: LOS_A\K16-ocs$
      Witness SQL : AB14-lct.los_a.lsipt.local\rtc
           Account: LOS_A\AB14-lct$
-[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"):
-</pre>
+   [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"):
+   </pre>
 
 2. Vérifiez les éléments suivants :
 

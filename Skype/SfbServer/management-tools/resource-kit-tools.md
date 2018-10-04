@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Cette rubrique décrit les outils dans le Skype pour le Kit de ressources 2015 Business Server, y compris l’objectif de chaque outil et des exemples de son utilisation. Le Skype pour le Kit de ressources Business Server 2015 contribue à simplifier les tâches de routine pour les administrateurs informatiques qui déploient et gèrent Skype pour Business Server 2015. Par exemple, l’outil Web Conf Data permet de contrôler aisément les données téléchargées par les utilisateurs au cours d’une réunion en ligne. L’outil SEFAUtil permet de définir le transfert des appels de délégué et le répondeur automatique pour les utilisateurs. Nous recommandons d’utiliser ces outils pour gérer plus efficacement Skype pour Business Server 2015, les administrateurs informatiques.
-ms.openlocfilehash: e259e4252274621ac3593cfb379ddc89ee37544c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3f36edc42541dfcc9b652eb16d5062277277cbc0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257807"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372779"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentation sur les outils du Kit de ressources techniques Skype Entreprise Server 2015
 
@@ -305,11 +305,11 @@ Les filtres suivants peuvent être appliqués à l’affichage du rapport :
 
 1. **Name (Nom)** Filtrage des liaisons de réseau étendu (le filtre apparaît dans la partie droite du graphique). Le préfixe représente les types de liaisons suivants (voir l’encadré bleu vertical) :
 
-  - **S Site (S (site))** Liaison de réseau étendu entre un site réseau et une région réseau
+   - **S Site (S (site))** Liaison de réseau étendu entre un site réseau et une région réseau
 
-  - **IS Inter-Site (IS (intersite))** Liaison de réseau étendu entre deux sites réseau
+   - **IS Inter-Site (IS (intersite))** Liaison de réseau étendu entre deux sites réseau
 
-  - **R Inter-Region (R (inter-régions))** Liaison de réseau étendu entre deux régions réseau
+   - **R Inter-Region (R (inter-régions))** Liaison de réseau étendu entre deux régions réseau
 
 2. **Exceeded limit (Limite dépassée)** Filtrage des liaisons de réseau étendu pour lesquelles l’utilisation de la bande passante est supérieure à la capacité de bande passante
 
@@ -319,11 +319,11 @@ Les filtres suivants peuvent être appliqués à l’affichage du rapport :
 
 5. **Link type (Type de liaison)** Filtrage des types de liaisons de réseau étendu suivants :
 
-  - **Network site (Site réseau)**
+   - **Network site (Site réseau)**
 
-  - **Inter-site (intersite)**
+   - **Inter-site (intersite)**
 
-  - **Inter-Region (Inter-régions)**
+   - **Inter-Region (Inter-régions)**
 
 6. **Region (Région)** Filtrage de la région réseau
 
@@ -794,15 +794,15 @@ L’outil permet d’effectuer les tests suivants :
 
 1. Test des serveurs Edge A/V : l’outil effectue des tests sur tous les serveurs Edge A/V dans la topologie comme suit :
 
-  - Vérification que le Skype pour le service d’authentification de Business Server Audio/vidéo est démarré et qu’il peut émettre des informations d’identification appropriées.
+   - Vérification que le Skype pour le service d’authentification de Business Server Audio/vidéo est démarré et qu’il peut émettre des informations d’identification appropriées.
 
-  - Vérification que le Skype pour le service Business serveur Edge Audio/vidéo est démarré et peut affecter les ressources du périmètre externe avec succès.
+   - Vérification que le Skype pour le service Business serveur Edge Audio/vidéo est démarré et peut affecter les ressources du périmètre externe avec succès.
 
 2. Test des services de stratégie de bande passante : l’outil effectue des tests sur tous les serveurs exécutant les services de stratégie de bande passante dans la topologie comme suit :
 
-  - Vérification que le Skype pour le Service de stratégie de bande passante Business Server (authentification) est démarré et qu’il peut émettre des informations d’identification appropriées.
+   - Vérification que le Skype pour le Service de stratégie de bande passante Business Server (authentification) est démarré et qu’il peut émettre des informations d’identification appropriées.
 
-  - Vérification que le Skype pour le Service de stratégie de bande passante Business Server (principal) est démarré et peut effectuer la vérification de la bande passante avec succès.
+   - Vérification que le Skype pour le Service de stratégie de bande passante Business Server (principal) est démarré et peut effectuer la vérification de la bande passante avec succès.
 
 Cet outil doit être exécuté à partir d’un ordinateur qui fait partie de la topologie et sur lequel le magasin local est installé. 
 
@@ -889,7 +889,7 @@ Enregistrer et diagramme de topologie réseau CAC magasin au format JPG ou BMP 
 
 ![Enregistrement de la configuration réseau en tant qu’image.](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- **Données de configuration de topologie réseau CAC affichage :** Skype pour les administrateurs d’entreprise Server 2015 peut afficher les données de configuration réseau associés tels que des régions réseau, les sites réseau, les profils de bande passante et les adresses IP de sous-réseau site sous forme de texte à l’aide de l’option de données de Configuration du réseau comme ci-dessous.
+ <strong>Données de configuration de topologie réseau CAC affichage :</strong> Skype pour les administrateurs d’entreprise Server 2015 peut afficher les données de configuration réseau associés tels que des régions réseau, les sites réseau, les profils de bande passante et les adresses IP de sous-réseau site sous forme de texte à l’aide de l’option de données de Configuration du réseau comme ci-dessous.
 
 ![Affichage des données de configuration réseau.](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
@@ -1044,35 +1044,35 @@ L’outil SEFAUtil peut seulement être exécuté sur un ordinateur faisant part
 
 1. L’outil SEFAUtil ne peut être exécuté que sur un ordinateur qui fait partie d’un pool d’applications approuvées. Le cas échéant, ajout d’un pool en tant qu’un nouveau pool d’applications approuvées peut être effectué via le Skype pour Business Server Management Shell avec l’applet de commande suivante :
 
-  ```
-  New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
-  ```
+   ```
+   New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
+   ```
 
     > [!NOTE]
     > UCMA 3.0 doit être installé sur les ordinateurs qui seront utilisés pour exécuter l’outil SEFAUtil.
 
 2. Une application approuvée doit être définie dans la topologie pour l’outil SEFAUtil. Pour définir SEFAUtil comme une nouvelle application approuvée, utilisez le Skype pour Business Server Management Shell et exécutez l’applet de commande suivante :
 
-  ```
-  New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
-  ```
+   ```
+   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
+   ```
 
     > [!NOTE]
     > Un autre port peut être utilisé au besoin.
 
 3. Les modifications apportées à la topologie doivent être activées. Les modifications de topologie peut être activé via le Skype pour Business Server Management Shell en exécutant l’applet de commande suivante :
 
-  ```
-  Enable-CsToplogy
-  ```
+   ```
+   Enable-CsToplogy
+   ```
 
 4. Si nécessaire, installez le Skype pour les outils du Kit de ressources Business Server 2015 sur le serveur qui sera utilisé pour exécuter l’outil SEFAUtil (le serveur doit faire partie d’un pool d’applications approuvées).
 
 5. Vérifiez que SEFAUtil est correctement exécuté. Pour ce faire, exécutez l’outil à partir d’une invite de commandes de Windows avec des privilèges d’administrateur pour afficher les paramètres de transfert d’appel d’un utilisateur dans le déploiement. Par défaut, l’outil sera situé dans : « ...\Program Files\Skype pour 2015\Reskit Business Server ». Pour afficher les paramètres de transfert d’appel d’un utilisateur, utilisez la commande suivante :
 
-  ```
-  SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
-  ```
+   ```
+   SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
+   ```
 
     Les paramètres de transfert d’appel de l’utilisateur doivent s’afficher.
 
@@ -1414,21 +1414,22 @@ SYSPrep.ps1 est un script Windows PowerShell qui installe le Skype pour les comp
 
 - Skype pour les fichiers Business Server Core 2015
 
- Si le nom du script est semblable à l’outil de préparation du système pour les systèmes d’exploitation Microsoft Windows, ils sont toutefois différents. Ce script installera uniquement les composants requis pour Skype pour Business Server 2015. Une fois ceux-ci installés, l’outil Windows SYSPrep peut ensuite être utilisé pour créer une image du serveur.
+  Si le nom du script est semblable à l’outil de préparation du système pour les systèmes d’exploitation Microsoft Windows, ils sont toutefois différents. Ce script installera uniquement les composants requis pour Skype pour Business Server 2015. Une fois ceux-ci installés, l’outil Windows SYSPrep peut ensuite être utilisé pour créer une image du serveur.
 
 ### <a name="requirements"></a>Configuration requise
 
 Avant d’exécuter le script SYSPrep.ps1, vous devez copier les fichiers requis dans un dossier local sur l’ordinateur du système d’exploitation Windows Server 2008 (par exemple **D:\Setup)**. Ce dossier doit également inclure une copie de la Skype pour les fichiers Business Server 2015, spécifiquement **Setup.exe.** Les fichiers des logiciels prérequis peuvent être téléchargés aux emplacements suivants :
 
-|**Logiciels prérequis**|**Emplacement**|
-|:-----|:-----|
-|Microsoft .Net Framework 4.5  <br/> |https://go.microsoft.com/?linkid=9816306  <br/> |
-|Microsoft SQL Server Express 2008 R2  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=23650  <br/> |
-|Windows Powershell version 3.0  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=34595  <br/> |
-|Visual C++ 2010 Redistributable  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=5555  <br/> |
-|Mises à jour d’Internet Information Services  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=34869  <br/> |
-|Windows Identity Foundation  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=17331  <br/> |
-|Skype pour Business Server 2015 Setup.exe  <br/> |Copie de Skype Business Server 2015 multimédia  <br/> |
+
+| **Logiciels prérequis**                                | **Emplacement**                                                            |
+|:------------------------------------------------|:------------------------------------------------------------------------|
+| Microsoft .Net Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
+| Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/en-us/download/details.aspx?id=23650>  <br/> |
+| Windows Powershell version 3.0  <br/>           | <https://www.microsoft.com/en-us/download/details.aspx?id=34595>  <br/> |
+| Visual C++ 2010 Redistributable  <br/>          | <https://www.microsoft.com/en-us/download/details.aspx?id=5555>  <br/>  |
+| Mises à jour d’Internet Information Services  <br/>      | <https://www.microsoft.com/en-us/download/details.aspx?id=34869>  <br/> |
+| Windows Identity Foundation  <br/>              | <https://www.microsoft.com/en-us/download/details.aspx?id=17331>  <br/> |
+| Skype pour Business Server 2015 Setup.exe  <br/> | Copie de Skype Business Server 2015 multimédia  <br/>                   |
 
 ### <a name="parameter"></a>Paramètre
 
@@ -1502,7 +1503,6 @@ Cet exemple déplace les annonces de numéros non attribués dans le pool source
 
 ```
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
-
 ```
 
 #### <a name="moving-the-unassigned-number-announcements-configuration-from-a-skype-for-business-server-2015-pool-to-a-lync-server-2013-pool"></a>Glissant la Configuration des numéros non affectés d’annonces un Skype pour Business Server 2015 Pool vers un Pool Lync Server 2013

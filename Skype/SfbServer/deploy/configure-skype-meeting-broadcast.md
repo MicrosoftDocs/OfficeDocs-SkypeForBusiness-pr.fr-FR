@@ -14,12 +14,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Résumé : Découvrez les différentes étapes à effectuer pour configurer la diffusion de réunion Skype pour votre Skype sur site pour le déploiement hybride Business Server.'
-ms.openlocfilehash: 55b7c5c1e97c2e059ead73384ae2914b07d47c4b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bae25dae268dd5ad3b3ab7862feb1156df850953
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004692"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371393"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configuration de votre déploiement local pour la diffusion de réunion Skype
  
@@ -68,13 +68,13 @@ Ensuite, vous devez ajouter des domaines fédérés SIP à la liste des domaines
     
 3. Dans le champ **Nom de domaine (ou nom de domaine complet) :**, entrez le domaine, en répétant cette procédure pour chacun des domaines suivants :
     
-  - noammeetings.Lync.com
+   - noammeetings.Lync.com
     
-  - emeameetings.Lync.com
+   - emeameetings.Lync.com
     
-  - apacmeetings.Lync.com
+   - apacmeetings.Lync.com
     
-  - Resources.Lync.com
+   - Resources.Lync.com
     
 Vous pouvez également configurer l’accès externe pour les domaines fédérés SIP en exécutant les cmdlets suivantes dans le Skype pour Business Server Management Shell :
   

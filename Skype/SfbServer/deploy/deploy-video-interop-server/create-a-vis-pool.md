@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Résumé : Créez un pool de serveurs d’interopérabilité vidéo dans Skype pour Business Server à l’aide du Générateur de topologie.'
-ms.openlocfilehash: f284163bc52f4e62c3ec5b1c7966f3c663ee09f7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 65771e72250ad1d5e9625bdd6cc1a8d47b5dabe2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978815"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373457"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Créer un pool VIS dans Skype pour Business Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "20978815"
     
    - Sur la page suivante, pour l’élément **Définir les ordinateurs dans ce pool**, entrez le **nom de domaine complet de l’ordinateur** pour chaque serveur du pool dans la zone de texte, puis cliquez sur **Ajouter**. Répétez cette étape pour ajouter un autre serveur d’interopérabilité vidéo vers le pool. Quand vous avez défini tous les ordinateurs du pool, appuyez sur **Suivant**.
     
-    Si vous souhaitez ne déployer qu’un seul serveur d’interopérabilité vidéo dans le pool, car vous n’avez pas besoin de haute disponibilité, sélectionnez **ce pool possède un seul serveur** , puis cliquez sur **suivant**.
+     Si vous souhaitez ne déployer qu’un seul serveur d’interopérabilité vidéo dans le pool, car vous n’avez pas besoin de haute disponibilité, sélectionnez **ce pool possède un seul serveur** , puis cliquez sur **suivant**.
     
 3. Sélectionnez le pool du tronçon suivant/FE dans la liste déroulante et appuyez sur **Suivant**.
     

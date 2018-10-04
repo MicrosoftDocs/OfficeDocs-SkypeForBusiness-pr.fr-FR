@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Résumé : Lisez cette rubrique pour savoir comment configurer les conférences rendez-vous dans Skype pour Business Server.'
-ms.openlocfilehash: a0ac408fbdf221d565f17c2d714d7aa1765d5097
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3c4460761fadd1dee523eb15949da8fc1bf69f14
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982005"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372401"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurer des conférences rendez-vous Skype pour Business Server
  
@@ -137,7 +137,7 @@ Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez
 
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2.  Ouvrez le panneau de configuration serveur Business Skype.
+2. Ouvrez le panneau de configuration serveur Business Skype.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Numéro d’accès entrant**.
     
@@ -147,8 +147,8 @@ Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez
     
    - Cliquez sur l’un des numéros d’accès entrant dans la liste, cliquez sur **Modifier**, puis sur **Afficher les détails**.
     
-    > [!NOTE]
-    > Utiliser le champ de recherche pour rechercher le contenu d’une colonne dans la liste des numéros d’accès entrant peut ne pas produire les résultats que vous attendez. Par conséquent, triez la liste selon la colonne qui vous intéresse pour identifier le numéro d’accès entrant que vous voulez afficher ou modifier. 
+     > [!NOTE]
+     > Utiliser le champ de recherche pour rechercher le contenu d’une colonne dans la liste des numéros d’accès entrant peut ne pas produire les résultats que vous attendez. Par conséquent, triez la liste selon la colonne qui vous intéresse pour identifier le numéro d’accès entrant que vous voulez afficher ou modifier. 
   
 5. Dans **Numéro affiché**, tapez le numéro de téléphone que les utilisateurs du réseau téléphonique commuté (RTC) composent pour rejoindre une conférence. Ce numéro est affiché dans les invitations aux réunions et dans la page web des paramètres des conférences rendez-vous.
     
@@ -163,8 +163,8 @@ Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez
     
    - Dans la zone de texte, tapez un URI SIP (Session Initiation Protocol) unique pour ce numéro d’accès à une conférence rendez-vous. Cet URI SIP est affiché à différents endroits, y compris mais non limité pour appeler les messages de notification et les versions antérieures de clients Lync.
     
-    > [!NOTE]
-    > Le même URI SIP ne peut pas être réutilisé par un autre numéro d’accès à une conférence rendez-vous. Il n’est pas possible de modifier l’URI SIP une fois que le numéro d’accès est créé. Le seul moyen de modifier l’URI SIP est de supprimer et de recréer le numéro d’accès. 
+     > [!NOTE]
+     > Le même URI SIP ne peut pas être réutilisé par un autre numéro d’accès à une conférence rendez-vous. Il n’est pas possible de modifier l’URI SIP une fois que le numéro d’accès est créé. Le seul moyen de modifier l’URI SIP est de supprimer et de recréer le numéro d’accès. 
   
    - Dans la zone de liste déroulante, cliquez sur le domaine de l’application intendant Conférence qui prend en charge ce numéro d’accès à distance.
     

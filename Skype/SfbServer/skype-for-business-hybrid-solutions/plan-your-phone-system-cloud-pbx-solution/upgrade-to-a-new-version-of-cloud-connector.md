@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Découvrez comment mettre à niveau votre déploiement en nuage connecteur Edition.
-ms.openlocfilehash: b727f3cb7feea7f080f2e75278294e855c65b197
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c0946cf26181df81327412c2dc0efc227b5a5586
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887536"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370626"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Effectuer une mise à niveau vers une nouvelle version de Cloud Connector
  
@@ -76,27 +76,27 @@ Si le site comporte un seul équipement que vous souhaitez mettre à niveau, pro
     
 4. Démarrez une console PowerShell en tant qu’administrateur et exécutez l’applet de commande suivante pour enregistrer l’appliance actuelle :
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 5. Exécutez l’applet de commande suivante pour télécharger la dernière version :
     
-  ```
-  Start-CcDownload
-  ```
+   ```
+   Start-CcDownload
+   ```
 
 6. Exécutez l’applet de commande suivante pour démarrer l’installation : 
     
-  ```
-  Install-CcAppliance -Upgrade
-  ```
+   ```
+   Install-CcAppliance -Upgrade
+   ```
 
 7. Exécutez l’applet de commande suivante pour activer le nouveau déploiement et désactiver la version précédente :
     
-  ```
-  Switch-CcVersion
-  ```
+   ```
+   Switch-CcVersion
+   ```
 
 Si le site comporte plusieurs équipements, suivez la procédure précédente pour les mettre à niveau l’un après l’autre.
   

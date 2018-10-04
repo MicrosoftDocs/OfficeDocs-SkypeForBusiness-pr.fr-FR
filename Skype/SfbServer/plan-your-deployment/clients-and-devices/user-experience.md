@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Résumé : Découvrez la nouvelle Skype pour les entreprises et les étapes à suivre pour préparer votre environnement et vos utilisateurs pour la mise à jour, si vous utilisez Skype pour Business Online, Skype pour Business Server 2015, Skype pour Business Server 2015, Lync Server 2013, ou Lync Server 2010.'
-ms.openlocfilehash: b5bfd0c48cb1e850fdaa88a991772306430a0b9f
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 99a1be886c257c58f007b42ee549b31a2340721a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965676"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371172"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planifier la Skype pour l’expérience client Business 2015 pour vos utilisateurs
  
@@ -80,9 +80,9 @@ Suivez la procédure décrite dans cette section si vous voulez configurer l’e
     
 - **Lync Server 2010** - vous devez exécuter la février 2015 mise à jour Cumulative (4.0.7577.710) pour Lync Server 2010 ou d’une mise à jour ultérieur. Pour plus d’informations, voir [mises à jour pour Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771).
     
- **Étape 2 :** Ensuite, utilisez une stratégie de client pour définir l’expérience du client Skype avec la Skype pour client d’entreprise. Il existe **trois options** pour utiliser une stratégie client afin de définir l’expérience client.
+  **Étape 2 :** Ensuite, utilisez une stratégie de client pour définir l’expérience du client Skype avec la Skype pour client d’entreprise. Il existe **trois options** pour utiliser une stratégie client afin de définir l’expérience client.
   
- **Option 1 :** définissez l’expérience client Skype à l’aide d’une stratégie globale. Notez que la stratégie globale s’applique à tous les utilisateurs de votre déploiement, mais les stratégies de niveau utilisateur et site ont priorité sur la stratégie globale :
+  **Option 1 :** définissez l’expérience client Skype à l’aide d’une stratégie globale. Notez que la stratégie globale s’applique à tous les utilisateurs de votre déploiement, mais les stratégies de niveau utilisateur et site ont priorité sur la stratégie globale :
   
 ```
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $True
