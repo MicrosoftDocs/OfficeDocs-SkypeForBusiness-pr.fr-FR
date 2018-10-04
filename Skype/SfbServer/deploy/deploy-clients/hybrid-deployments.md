@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Lisez cette rubrique pour savoir comment déployer Skype salle système dans un environnement hybride.
-ms.openlocfilehash: ce57178a03a466b76edfbafdcc467d9458028845
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4e73b182f7e957f6f8a45e2ba0ccaa113a96411f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997292"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375279"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Déploiements hybrides de Skype Room System
  
@@ -28,9 +28,9 @@ Si votre topologie a Skype pour Business Server et Exchange Online, et que vous 
   
 1. Créer une boîte aux lettres de ressources dans le centre d’administration Exchange (LyncSample.ccsctp.net) à se connecter à Exchange Online Management shell, comme décrit dans la mise en service en ligne d’Exchange.
     
-  ```
-  New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
-  ```
+   ```
+   New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
+   ```
 
     Vous pouvez vérifier la connectivité OWA pour se connecter à l’aide de lrstest5@LyncSample.ccsctp.net.
     
@@ -44,8 +44,8 @@ Si votre topologie a Skype pour Business Server et Exchange Online, et que vous 
     
     Après avoir créé la boîte aux lettres, vous pouvez utiliser Set-CalendarProcessing dans l’Exchange Online Management Shell pour configurer la boîte aux lettres. Reportez-vous aux étapes 3 à 6 sous Déploiements locaux dans une forêt unique pour plus d’informations.
     
-    > [!NOTE]
-    > Si vous avez un environnement hybride avec Exchange Server et Exchange Online, accédez à la lrstest5@LyncSample.mail.ccsctp.net Exchange Management Shell et Enable-RemoteMailbox lrstest5@LyncSample.com - RemoteRoutingAddress-salle. Puis enclenchez la synchronisation d’annuaires. 
+   > [!NOTE]
+   > Si vous avez un environnement hybride avec Exchange Server et Exchange Online, accédez à la lrstest5@LyncSample.mail.ccsctp.net Exchange Management Shell et Enable-RemoteMailbox lrstest5@LyncSample.com - RemoteRoutingAddress-salle. Puis enclenchez la synchronisation d’annuaires. 
   
     Si vous souhaitez héberger la boîte aux lettres système de salle Skype dans Exchange Online, ces étapes Exchange Management Shell ne sont pas requis et vous pouvez passer à l’étape 6.
     

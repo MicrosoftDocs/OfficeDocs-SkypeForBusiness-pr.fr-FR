@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: be420b43ed1b826865bbe8b6f0a0c3e314fc1201
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7e587c92e979c7985ccbd9f05bbb5ae1115d176a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013738"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374649"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage Direct
 
@@ -456,31 +456,31 @@ Le tableau suivant récapitule les itinéraires de communications vocales et de 
 Stratégie de routage « No Restrictions, » vocale itinéraire « International », vocale à la procédure de création d’utilisation PSTN « International », et puis en l’affectant à l’utilisateur « John Woods » sont les suivantes.
 
 
-1.  Tout d’abord, créez l’utilisation PSTN « International ». Dans une session PowerShell distante dans Skype pour Business Online, entrez :
+1. Tout d’abord, créez l’utilisation PSTN « International ». Dans une session PowerShell distante dans Skype pour Business Online, entrez :
 
-  ```
-  Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
-  ```
+   ```
+   Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
+   ```
 
-2.  Ensuite, créez l’itinéraire des communications vocales « International ».
+2. Ensuite, créez l’itinéraire des communications vocales « International ».
 
-  ```
-  New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
-  ```
-  Qui retourne :
+   ```
+   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+   ```
+   Qui retourne :
 
-  <pre>
-  Identity                  : International 
-  Priority                      : 5
-  Description                   : 
-  NumberPattern                 : \d+
-  OnlinePstnUsages          : {International}    
-  OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
-  Name                            : International
-  SupressCallerId           :
-  AlternateCallerId         :
-</pre>
-3.  Ensuite, ne créez une stratégie de routage voix « Aucune restriction ». L’utilisation PSTN « Redmond 1 » et « Redmond » sont réutilisés dans cette stratégie de routage voix pour conserver les appels vers le numéro « +1 425 XX XXX XX » et « +1 206 XX XXX XX » comme des appels locaux ou dans les locaux de traitement particulier.
+   <pre>
+   Identity                  : International 
+   Priority                      : 5
+   Description                   : 
+   NumberPattern                 : \d+
+   OnlinePstnUsages          : {International}    
+   OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
+   Name                            : International
+   SupressCallerId           :
+   AlternateCallerId         :
+   </pre>
+3. Ensuite, ne créez une stratégie de routage voix « Aucune restriction ». L’utilisation PSTN « Redmond 1 » et « Redmond » sont réutilisés dans cette stratégie de routage voix pour conserver les appels vers le numéro « +1 425 XX XXX XX » et « +1 206 XX XXX XX » comme des appels locaux ou dans les locaux de traitement particulier.
 
 ```
 New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
@@ -503,18 +503,18 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
    RouteType        : BYOT
   </pre>
 
-4.  Attribuer la stratégie de routage voix à l’utilisateur « John Woods » à l’aide de la commande suivante.
+4. Attribuer la stratégie de routage voix à l’utilisateur « John Woods » à l’aide de la commande suivante.
 
-  ```
-  Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
-  ```
+   ```
+   Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+   ```
 
-  Vérifiez l’affectation à l’aide de la commande :   
+   Vérifiez l’affectation à l’aide de la commande :   
 
-  ```
-  Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
-  ```
-  Qui retourne :
+   ```
+   Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
+   ```
+   Qui retourne :
 
 <pre>
     OnlineVoiceRoutingPolicy

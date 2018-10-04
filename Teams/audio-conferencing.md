@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: d3f16e8eecb9396b4258094e761464625c2db548
-ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.openlocfilehash: 3d05c35929e966b150f61fe18480380dc9840d81
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25352305"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375386"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Guide pratique pour l’audioconférence dans Microsoft Teams
 ============================================================
@@ -63,12 +63,13 @@ Les cas d’utilisation professionnelle sont destinés à définir et documenter
 
 > [!TIP]
 > Voici un exemple d'une étude de cas d'entreprise réalisée :
->|         |
->|---------|
->|**Description du processus d’entreprise actuel**<br>Contoso fait actuellement appel à des services de conférence PSTN fournis par le fournisseur de téléphonie local titulaire facturés par minutes de réunion pour les réunions internes et celles impliquant des parties externes.|
->|**Difficultés par rapport au processus d’entreprise existant**<br>Contoso dépense environ 1 million de dollars par an pour le service de conférence PSTN actuel, les réunions internes représentant 75 % du coût.<br>L’utilisation de points de terminaison de téléphonie traditionnels pour participer aux réunions hébergées par le service de conférence PSTN ne correspond pas au plan pour que l’organisation adopte Teams comme plate-forme de communication et de collaboration moderne.|
->|**Comment la technologie peut surmonter ces difficultés**<br>Avec l’adoption de Microsoft Teams comme plate-forme de communication et de collaboration moderne, les utilisateurs internes devraient principalement rejoindre les réunions en utilisant leurs PC équipés de casques optimisés et de dispositifs de salle de réunion. Le service d’audioconférence sera disponible pour prendre en charge les participants externes ou les situations où l’utilisation de l’audio sur PC n’est pas avantageuse pour les participants internes.|
->|**Résultats de l’entreprise attendus et mesurables**<br>Le passage à Teams comme plate-forme de communication et de collaboration moderne, combinée au service d’audioconférence, réduira considérablement le coût de la prestation du service de conférence PSTN, Contoso devant dépenser seulement 20 % environ du coût annuel du service de conférence PSTN existant.|
+> 
+> |         |
+> |---------|
+> |**Description du processus d’entreprise actuel**<br>Contoso fait actuellement appel à des services de conférence PSTN fournis par le fournisseur de téléphonie local titulaire facturés par minutes de réunion pour les réunions internes et celles impliquant des parties externes.|
+> |**Difficultés par rapport au processus d’entreprise existant**<br>Contoso dépense environ 1 million de dollars par an pour le service de conférence PSTN actuel, les réunions internes représentant 75 % du coût.<br>L’utilisation de points de terminaison de téléphonie traditionnels pour participer aux réunions hébergées par le service de conférence PSTN ne correspond pas au plan pour que l’organisation adopte Teams comme plate-forme de communication et de collaboration moderne.|
+> |**Comment la technologie peut surmonter ces difficultés**<br>Avec l’adoption de Microsoft Teams comme plate-forme de communication et de collaboration moderne, les utilisateurs internes devraient principalement rejoindre les réunions en utilisant leurs PC équipés de casques optimisés et de dispositifs de salle de réunion. Le service d’audioconférence sera disponible pour prendre en charge les participants externes ou les situations où l’utilisation de l’audio sur PC n’est pas avantageuse pour les participants internes.|
+> |**Résultats de l’entreprise attendus et mesurables**<br>Le passage à Teams comme plate-forme de communication et de collaboration moderne, combinée au service d’audioconférence, réduira considérablement le coût de la prestation du service de conférence PSTN, Contoso devant dépenser seulement 20 % environ du coût annuel du service de conférence PSTN existant.|
 
 En plus de définir vos cas d'utilisation, lorsque vous passez à l’étape suivante de la phase Planifier, vous devez également clarifier les éléments suivants :
 - portée organisationnelle et
@@ -81,24 +82,25 @@ Les cas d’utilisation professionnelle définis à l’étape précédente incl
 
 > [!TIP]
 > Voici un exemple de modèle de matrice des parties prenantes que vous pouvez utiliser pour documenter les parties prenantes intégrées dans le projet :
->|Rôle  |Description  |Nom, informations de contact, emplacement  |
->|---------|---------|---------|
->|Sponsor exécutif du projet|<ul><li>Autorité et responsabilité ultimes du projet et réalisation des objectifs du projet</li><li>Aide à résoudre les problèmes transmis par le chef de projet</li><li>Organise la communication au sein de l’entreprise au sujet des objectifs du projet</li><li>Chargé de prendre les décisions stratégiques clés</li><li>Chargé de la disponibilité des ressources nécessaires et du budget</li><li>Principale évaluation trimestrielle des activités</li><li>Adhésion et appui à la campagne de sensibilisation</li><li>Est le sponsor du projet pour le lancement du programme</li></ul>|TBA|
->|Chef de projet|<ul><li>Gestion et direction de l’équipe du projet</li><li>Coordonne les partenaires et les équipes qui participent au projet</li><li>Responsable de la création et de la gestion des plans du projet pour obtenir les principaux résultats trimestriels</li><li>Résoudre les problèmes fonctionnels croisés</li><li>Fournir des informations actualisées périodiques aux sponsors du projet</li><li>Incorporer les aspects relatifs à l’adoption dans l’ensemble du plan du projet</li><li>Diriger les évaluations mensuelles des activités et opérationnelles, contribuer aux évaluations trimestrielles des activités</li></ul>|TBA|
->|Chef/architecte de la collaboration|<ul><li>Chargé de l’exécution de la stratégie de collaboration définie par la direction de l’entreprise</li><li>Analyse et choisit les produits de collaboration pour l’entreprise permettant d’atteindre les objectifs professionnels</li><li>Chargé de la conception des opérations des produits de collaboration</li><li>Définit un modèle d'opération et de prise en charge</li><li>Contribue aux évaluations mensuelles et trimestrielles des activités</li><ul>|TBA|
->|Consultant|<ul><li>Chargé des services de configuration</li><li>Contribue à l'architecture de solutions globale</li></ul>|TBA|
->|Gestionnaire de projets|<ul><li>Élaborer et tenir à jour les plans de projet</li><li>Gérer les livrables du projet conformément au plan et au budget du projet</li><li>Noter et gérer les problèmes liés au projet, y compris les remontées</li><li>Effectuer des appels d'intervention hebdomadaires</li><li>Assurer la liaison avec, et fournir des informations actualisées aux sponsors exécutifs du projet</li><li>Collaborer avec l’architecte pour définir le mode de gestion des changements et les plans de communication</li></ul>|TBA|
->|Spécialiste en gestion des changements/adoption|<ul><li>Formuler des recommandations lors de la phase de découverte sur les processus d’adoption et de formation</li><li>Participer à l’atelier sur la stratégie d’adoption</li><li>Développer et être responsable de la stratégie d’adoption</li><li>Développer et exécuter le plan de communication</li><li>Chargé de dispenser des formations aux utilisateurs finaux</li><li>Recueillir les commentaires et réaliser des enquêtes</li></ul>|TBA|
->|Directeur de réseau|<ul><li>Formuler des recommandations lors de la phase de découverte sur la conception du réseau</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe de mise en réseau lors de l’exécution du projet</li></ul>|TBA|
->|Directeur de la sécurité|<ul><li>Formuler des recommandations lors de la phase de découverte sur les processus et la conception de la sécurité</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe chargée de la sécurité lors de l’exécution du projet</li></ul>|TBA|
->|Directeur de la téléphonie|<ul><li>Formuler des recommandations lors de la phase de découverte sur la conception de la téléphonie</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe chargée de la téléphonie lors de l’exécution du projet</li></ul>|TBA|
->|Directeur de bureau|<ul><li>Formuler des recommandations lors de la phase de découverte sur les clients et le processus de mise à jour</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe chargée des bureaux lors de l’exécution du projet</li></ul>|TBA|
->|Responsable du support|<ul><li>Formuler des recommandations lors de la phase de découverte sur le modèle opérationnel et de prise en charge</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Participer à la planification du modèle de prise en charge</li><li>Coordonner le travail de l’équipe chargée de la prise en charge/des ressources lors de l’exécution du projet</li></ul>|TBA|
->|Représentants d'unité commerciale|<ul><li>Contribuer aux guides et supports d’adoption basés sur les utilisateurs finaux</li><li>Évaluer et contribuer aux cas d’utilisation professionnelle</li></ul>|TBA|
->|Directeur du déploiement|<ul><li>S’assurer que les conditions préalables au déploiement sont remplies</li><li>Impliquer des ressources des clients dans l’affectation, la préparation et le déploiement des activités de l’étape</li><li>Participer à des réunions pour évaluer l’état de préparation et du déploiement</li></ul>|TBA|
->|Administrateurs informatiques|<ul><li>Spécialistes des technologies de l'information pour aider à la planification et l’exécution des tests</li></ul>|TBA|
->|Propriétaire de service|<ul><li>Responsable du fonctionnement de l’ensemble du service d’audioconférence</li><li>Propriétaire du service d’audioconférence</li></ul>|TBA|
->|Ambassadeurs de la qualité|<ul><li>Génère des commentaires sur la qualité, la fiabilité et des utilisateurs</li><li>Identifie les tendances en matière de qualité et génère les corrections avec les équipes respectives</li><li>Fait des rapports par le biais du comité de pilotage à la direction</li><li>Fait des rapports sur la qualité, la fiabilité et l’opinion des utilisateurs par l’intermédiaire de Rate My Call et de Net Promoter Score</li></ul>|TBA|
+> 
+> |                 Rôle                  |                                                                                                                                                                                                                                                                Description                                                                                                                                                                                                                                                                 | Nom, informations de contact, emplacement |
+> |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+> |       Sponsor exécutif du projet       | <ul><li>Autorité et responsabilité ultimes du projet et réalisation des objectifs du projet</li><li>Aide à résoudre les problèmes transmis par le chef de projet</li><li>Organise la communication au sein de l’entreprise au sujet des objectifs du projet</li><li>Chargé de prendre les décisions stratégiques clés</li><li>Chargé de la disponibilité des ressources nécessaires et du budget</li><li>Principale évaluation trimestrielle des activités</li><li>Adhésion et appui à la campagne de sensibilisation</li><li>Est le sponsor du projet pour le lancement du programme</li></ul> |                 TBA                 |
+> |             Chef de projet              |                   <ul><li>Gestion et direction de l’équipe du projet</li><li>Coordonne les partenaires et les équipes qui participent au projet</li><li>Responsable de la création et de la gestion des plans du projet pour obtenir les principaux résultats trimestriels</li><li>Résoudre les problèmes fonctionnels croisés</li><li>Fournir des informations actualisées périodiques aux sponsors du projet</li><li>Incorporer les aspects relatifs à l’adoption dans l’ensemble du plan du projet</li><li>Diriger les évaluations mensuelles des activités et opérationnelles, contribuer aux évaluations trimestrielles des activités</li></ul>                   |                 TBA                 |
+> |     Chef/architecte de la collaboration      |                                                                       <ul><li>Chargé de l’exécution de la stratégie de collaboration définie par la direction de l’entreprise</li><li>Analyse et choisit les produits de collaboration pour l’entreprise permettant d’atteindre les objectifs professionnels</li><li>Chargé de la conception des opérations des produits de collaboration</li><li>Définit un modèle d'opération et de prise en charge</li><li>Contribue aux évaluations mensuelles et trimestrielles des activités</li><ul>                                                                        |                 TBA                 |
+> |              Consultant               |                                                                                                                                                                                                               <ul><li>Chargé des services de configuration</li><li>Contribue à l'architecture de solutions globale</li></ul>                                                                                                                                                                                                                |                 TBA                 |
+> |            Gestionnaire de projets            |                                                      <ul><li>Élaborer et tenir à jour les plans de projet</li><li>Gérer les livrables du projet conformément au plan et au budget du projet</li><li>Noter et gérer les problèmes liés au projet, y compris les remontées</li><li>Effectuer des appels d'intervention hebdomadaires</li><li>Assurer la liaison avec, et fournir des informations actualisées aux sponsors exécutifs du projet</li><li>Collaborer avec l’architecte pour définir le mode de gestion des changements et les plans de communication</li></ul>                                                       |                 TBA                 |
+> | Spécialiste en gestion des changements/adoption |                                                                                       <ul><li>Formuler des recommandations lors de la phase de découverte sur les processus d’adoption et de formation</li><li>Participer à l’atelier sur la stratégie d’adoption</li><li>Développer et être responsable de la stratégie d’adoption</li><li>Développer et exécuter le plan de communication</li><li>Chargé de dispenser des formations aux utilisateurs finaux</li><li>Recueillir les commentaires et réaliser des enquêtes</li></ul>                                                                                        |                 TBA                 |
+> |             Directeur de réseau              |                                                                                                                                                              <ul><li>Formuler des recommandations lors de la phase de découverte sur la conception du réseau</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe de mise en réseau lors de l’exécution du projet</li></ul>                                                                                                                                                               |                 TBA                 |
+> |             Directeur de la sécurité             |                                                                                                                                                        <ul><li>Formuler des recommandations lors de la phase de découverte sur les processus et la conception de la sécurité</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe chargée de la sécurité lors de l’exécution du projet</li></ul>                                                                                                                                                        |                 TBA                 |
+> |            Directeur de la téléphonie             |                                                                                                                                                              <ul><li>Formuler des recommandations lors de la phase de découverte sur la conception de la téléphonie</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe chargée de la téléphonie lors de l’exécution du projet</li></ul>                                                                                                                                                              |                 TBA                 |
+> |             Directeur de bureau              |                                                                                                                                                          <ul><li>Formuler des recommandations lors de la phase de découverte sur les clients et le processus de mise à jour</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Coordonner le travail de l’équipe chargée des bureaux lors de l’exécution du projet</li></ul>                                                                                                                                                          |                 TBA                 |
+> |        Responsable du support         |                                                                                                                          <ul><li>Formuler des recommandations lors de la phase de découverte sur le modèle opérationnel et de prise en charge</li><li>Participer à la planification lors de l’atelier sur la planification</li><li>Participer à la planification du modèle de prise en charge</li><li>Coordonner le travail de l’équipe chargée de la prise en charge/des ressources lors de l’exécution du projet</li></ul>                                                                                                                          |                 TBA                 |
+> |     Représentants d'unité commerciale     |                                                                                                                                                                                                      <ul><li>Contribuer aux guides et supports d’adoption basés sur les utilisateurs finaux</li><li>Évaluer et contribuer aux cas d’utilisation professionnelle</li></ul>                                                                                                                                                                                                      |                 TBA                 |
+> |            Directeur du déploiement            |                                                                                                                                                           <ul><li>S’assurer que les conditions préalables au déploiement sont remplies</li><li>Impliquer des ressources des clients dans l’affectation, la préparation et le déploiement des activités de l’étape</li><li>Participer à des réunions pour évaluer l’état de préparation et du déploiement</li></ul>                                                                                                                                                            |                 TBA                 |
+> |               Administrateurs informatiques               |                                                                                                                                                                                                                           <ul><li>Spécialistes des technologies de l'information pour aider à la planification et l’exécution des tests</li></ul>                                                                                                                                                                                                                            |                 TBA                 |
+> |             Propriétaire de service             |                                                                                                                                                                                                  <ul><li>Responsable du fonctionnement de l’ensemble du service d’audioconférence</li><li>Propriétaire du service d’audioconférence</li></ul>                                                                                                                                                                                                   |                 TBA                 |
+> |           Ambassadeurs de la qualité           |                                                                                                      <ul><li>Génère des commentaires sur la qualité, la fiabilité et des utilisateurs</li><li>Identifie les tendances en matière de qualité et génère les corrections avec les équipes respectives</li><li>Fait des rapports par le biais du comité de pilotage à la direction</li><li>Fait des rapports sur la qualité, la fiabilité et l’opinion des utilisateurs par l’intermédiaire de Rate My Call et de Net Promoter Score</li></ul>                                                                                                       |                 TBA                 |
 
 <a name="define-objectives-and-key-results-key-success-indicators-and-risks"></a>Définir les objectifs et les résultats clés, les indicateurs de succès clés et les risques
 --------------------------------------------------------------------
@@ -111,37 +113,40 @@ Les objectifs et résultats clés contiennent la liste des objectifs définis au
 
 > [!TIP]
 > Un exemple d'objectifs et résultats clés appropriés à l'implémentation de l’audioconférence peut être référencé ci-après :
-><br>
->
->**Vision : augmenter la productivité an optimisant les investissements dans Office 365**
->|Objectifs  |Résultats clés  |Action  |
->|---------|---------|---------|
->|Déployer l’audioconférence dans Teams d’ici la fin de l’exercice fiscal 2018|T1 de l’exercice 2018 : déployer l’audioconférence dans Teams globalement|Concevoir<ul><li>Créer un plan de réussite</li><li>Créer un plan d’implémentation technique détaillé</li></ul><p>Intégrer<ul><li>Exécuter le plan de réussite</li><li>Exécuter le plan d’implémentation technique</li></ul>|
->|Désactiver l’ancien service de conférence PSTN à l’échelle globale d'ici la fin de l’exercice fiscal 2018|T2 de l’exercice 2018 : désactiver l’ancien service de conférence PSTN à l’échelle globale|Générer une valeur ajoutée<ul><li>Favoriser l’implication des utilisateurs et encourager l'adoption</li><li>Gérer et préparer le changement</li><li>Mesurer, partager la réussite et retravailler</li>|
+> <br>
+> 
+> **Vision : augmenter la productivité an optimisant les investissements dans Office 365**
+> 
+> |Objectifs  |Résultats clés  |Action  |
+> |---------|---------|---------|
+> |Déployer l’audioconférence dans Teams d’ici la fin de l’exercice fiscal 2018|T1 de l’exercice 2018 : déployer l’audioconférence dans Teams globalement|Concevoir<ul><li>Créer un plan de réussite</li><li>Créer un plan d’implémentation technique détaillé</li></ul><p>Intégrer<ul><li>Exécuter le plan de réussite</li><li>Exécuter le plan d’implémentation technique</li></ul>|
+> |Désactiver l’ancien service de conférence PSTN à l’échelle globale d'ici la fin de l’exercice fiscal 2018|T2 de l’exercice 2018 : désactiver l’ancien service de conférence PSTN à l’échelle globale|Générer une valeur ajoutée<ul><li>Favoriser l’implication des utilisateurs et encourager l'adoption</li><li>Gérer et préparer le changement</li><li>Mesurer, partager la réussite et retravailler</li>|
 
 Les indicateurs de succès clés mesurent la qualité et la réussite des résultats clés et complètent la nature binaire des objectifs et résultats clés (obtenus ou non), en détaillant les bons et les mauvais résultats. Lors de la définition des indicateurs de réussite clés, nous recommandons d’utiliser les critères « spécifique, mesurable, attribuable, réaliste, temporel » ou SMART.
 
 > [!TIP]
 > Voici un exemple d'indicateur de succès clé approprié à ce projet :
->|Type  |Questions sur l'indicateur de succès clé et critères  |Comment les mesurer  |Critères de réussite  |Mesurés  |Responsable  |
->|---------|---------|---------|---------|---------|---------|
->|Utilisation/adoption|La qualité des appels est égale ou meilleure qu’avec la solution précédente|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable des technologies de l’information|
->|Utilisation/adoption|Microsoft Teams a facilité le processus de communication|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable de la gestion des changements|
->|Utilisation/adoption|Les utilisateurs utilisent activement la solution|Rapports Office 365, tableau de bord de la qualité des appels|80 % des utilisateurs l’utilisent quotidiennement|Chaque jour|Équipe responsable de la gestion des changements|
->|Utilisation/qualité|Le pourcentage d’appels/conférences médiocres doit être minimal|Tableau de bord de la qualité des appels|< 5 % d'appels médiocres par mois|Chaque jour|Équipe responsable des technologies de l’information|
->|Utilisation/support|Je sais comment obtenir le support technique|Enquête|90% des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable de la gestion des changements|
->|Utilisation/support|Je suis satisfait de la qualité du support technique|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après chaque incident|Équipe responsable des technologies de l’information|
->|Financier|Réduction du nombre de minutes de conférence héritée|Système financier|Atteindre le retour sur investissement défini|Basé sur le retour sur investissement|Équipe responsable de la gestion des changements|
+> 
+> |Type  |Questions sur l'indicateur de succès clé et critères  |Comment les mesurer  |Critères de réussite  |Mesurés  |Responsable  |
+> |---------|---------|---------|---------|---------|---------|
+> |Utilisation/adoption|La qualité des appels est égale ou meilleure qu’avec la solution précédente|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable des technologies de l’information|
+> |Utilisation/adoption|Microsoft Teams a facilité le processus de communication|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable de la gestion des changements|
+> |Utilisation/adoption|Les utilisateurs utilisent activement la solution|Rapports Office 365, tableau de bord de la qualité des appels|80 % des utilisateurs l’utilisent quotidiennement|Chaque jour|Équipe responsable de la gestion des changements|
+> |Utilisation/qualité|Le pourcentage d’appels/conférences médiocres doit être minimal|Tableau de bord de la qualité des appels|< 5 % d'appels médiocres par mois|Chaque jour|Équipe responsable des technologies de l’information|
+> |Utilisation/support|Je sais comment obtenir le support technique|Enquête|90% des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable de la gestion des changements|
+> |Utilisation/support|Je suis satisfait de la qualité du support technique|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après chaque incident|Équipe responsable des technologies de l’information|
+> |Financier|Réduction du nombre de minutes de conférence héritée|Système financier|Atteindre le retour sur investissement défini|Basé sur le retour sur investissement|Équipe responsable de la gestion des changements|
 
 Vous devez identifier les risques d’entreprise dans le cadre de cette activité et définir un plan d’atténuation pour chaque risque identifié. Ces informations peuvent être consignées dans un plan de gestion des risques
 
 > [!TIP]
 > Votre plan de gestion des risques peut être documenté comme l'exemple ci-après :
->|Risque  |Probabilité  |Impact  |Global  |Plan d’atténuation  |
->|---------|---------|---------|---------|---------|
->|Une fusion prochaine ajoutera jusqu’à 1000 personnes|Élevée|Élevée|Élevée|<ul><li>Pour les entreprises ayant fusionné, différenciez l’objectif et résultat clé avec le processus propre (Planifier, Intégrer, Générer une valeur ajoutée)</li><li>Ne les incluez pas dans les objectifs et résultats clés existants</li></ul>|
->|Le transfert des numéros de téléphone retardera la réalisation du projet|Élevée|Élevée|Élevée|<ul><li>Préparer toutes les informations nécessaires pour prendre en charge le transfert des numéros de téléphone au préalable (enregistrement de service client, informations de facturation, courrier d’autorisation)</li><li>Ajuster le planning du projet pour concilier la durée de bouclage de l’exécution du transfert des numéros de téléphone</li><li>Communiquer l’utilisation de nouveaux numéros de conférence rendez-vous aux participants externes</li></ul>|
->|Reconception du réseau planifiée|Élevée|Moyenne|Moyenne|<ul><li>Avant d’implémenter Teams comme plate-forme de communication et de collaboration moderne, exécuter l’évaluation de la préparation du réseau pour les sites dans le champ du projet</li></ul>|
+> 
+> |Risque  |Probabilité  |Impact  |Global  |Plan d’atténuation  |
+> |---------|---------|---------|---------|---------|
+> |Une fusion prochaine ajoutera jusqu’à 1000 personnes|Élevée|Élevée|Élevée|<ul><li>Pour les entreprises ayant fusionné, différenciez l’objectif et résultat clé avec le processus propre (Planifier, Intégrer, Générer une valeur ajoutée)</li><li>Ne les incluez pas dans les objectifs et résultats clés existants</li></ul>|
+> |Le transfert des numéros de téléphone retardera la réalisation du projet|Élevée|Élevée|Élevée|<ul><li>Préparer toutes les informations nécessaires pour prendre en charge le transfert des numéros de téléphone au préalable (enregistrement de service client, informations de facturation, courrier d’autorisation)</li><li>Ajuster le planning du projet pour concilier la durée de bouclage de l’exécution du transfert des numéros de téléphone</li><li>Communiquer l’utilisation de nouveaux numéros de conférence rendez-vous aux participants externes</li></ul>|
+> |Reconception du réseau planifiée|Élevée|Moyenne|Moyenne|<ul><li>Avant d’implémenter Teams comme plate-forme de communication et de collaboration moderne, exécuter l’évaluation de la préparation du réseau pour les sites dans le champ du projet</li></ul>|
 
 <a name="assess-environment-and-evaluate-adoption-readiness"></a>Évaluer l'environnement et la préparation à l'adoption
 --------------------------------------------------
@@ -174,17 +179,18 @@ La planification des opérations et l identification des équipes qui utilisero
 
 > [!TIP]
 > Voici un exemple de modèle de documentation du résultat de l'activité de mappage des rôles opérationnels que vous avez réalisée pour prendre en charge ce projet :
->|Rôle opérationnel  |Description  |Équipe  |Détails du contact  |
->|---------|---------|---------|---------|
->|Propriétaire de service|Propriétaire de service, interface avec les divisions de l’entreprise, stratégie|TBA|TBA|
->|Opérations d’audioconférence|Opérations quotidiennes, déplacement/ajout/modification des comptes d’utilisateurs et d’appareils, supervision|TBA|TBA|
->|Administration des clients|Modifier les paramètres à l'échelle du client, activer les nouvelles fonctions|TBA|TBA|
->|Support technique|Interface permettant aux utilisateurs finaux d’obtenir un support|TBA|TBA|
->|Opérations réseau|Exécution du réseau local, étendu, Wi-Fi et accès à Internet|TBA|TBA|
->|Équipe responsable des points de terminaison de client|Gérer les déploiements de bureau|TBA|TBA|
->|Opérations d’identité|Gérer l’infrastructure d’identité (AD, ADFS, Azure AD)|TBA|TBA|
->|Adoption/gestion des changements|Gérer la sensibilisation, la formation et l’adoption de la solution|TBA|TBA|
->|Opérations Exchange|Gère l’environnement Exchange|TBA|TBA|
+> 
+> |Rôle opérationnel  |Description  |Équipe  |Détails du contact  |
+> |---------|---------|---------|---------|
+> |Propriétaire de service|Propriétaire de service, interface avec les divisions de l’entreprise, stratégie|TBA|TBA|
+> |Opérations d’audioconférence|Opérations quotidiennes, déplacement/ajout/modification des comptes d’utilisateurs et d’appareils, supervision|TBA|TBA|
+> |Administration des clients|Modifier les paramètres à l'échelle du client, activer les nouvelles fonctions|TBA|TBA|
+> |Support technique|Interface permettant aux utilisateurs finaux d’obtenir un support|TBA|TBA|
+> |Opérations réseau|Exécution du réseau local, étendu, Wi-Fi et accès à Internet|TBA|TBA|
+> |Équipe responsable des points de terminaison de client|Gérer les déploiements de bureau|TBA|TBA|
+> |Opérations d’identité|Gérer l’infrastructure d’identité (AD, ADFS, Azure AD)|TBA|TBA|
+> |Adoption/gestion des changements|Gérer la sensibilisation, la formation et l’adoption de la solution|TBA|TBA|
+> |Opérations Exchange|Gère l’environnement Exchange|TBA|TBA|
 
 Pour permettre un mappage des rôles opérationnels plus détaillé, incluant les tâches associées à chaque rôle opérationnel, vous pouvez utiliser le [Classeur de mappage des rôles opérationnels](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) pour capturer les détails qui permettront d’avoir une vision claire des rôles et responsabilités pour la prise en charge du service d’audioconférence.
 
@@ -241,6 +247,7 @@ L’audioconférence est disponible dans les [pays et régions suivants :](coun
 Après avoir vérifié l’admissibilité de votre organisation à obtenir le service d’audioconférence, établissez la liste des emplacements des utilisateurs ou des bureaux où le service d’audioconférence sera implémenté en vous basant sur la liste des pays et régions disponibles.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer les emplacements des utilisateurs ou les bureaux qui implémenteront le service d’audioconférence</li></ul>|
@@ -248,13 +255,14 @@ Après avoir vérifié l’admissibilité de votre organisation à obtenir le se
 
 > [!TIP]
 > Voici un exemple de modèle de liste d'habilitation des sites pour les systèmes téléphoniques avec forfaits d'appels :
->|Bureau   |Emplacement |Service de conférence PSTN  |
->|---------|---------|---------|
->|1 Eppîng Road|Australie|Audioconférence|
->|100 Cyberport Road|Hong Kong R.A.S.|Conférence PSTN héritée|
->|1 Marina Boulevard|Singapour|Audioconférence|
->|32 London Bridge Street|Royaume-Uni|Audioconférence|
->|39 quai du Président Roosevelt|France|Audioconférence|
+> 
+> |Bureau   |Emplacement |Service de conférence PSTN  |
+> |---------|---------|---------|
+> |1 Eppîng Road|Australie|Audioconférence|
+> |100 Cyberport Road|Hong Kong R.A.S.|Conférence PSTN héritée|
+> |1 Marina Boulevard|Singapour|Audioconférence|
+> |32 London Bridge Street|Royaume-Uni|Audioconférence|
+> |39 quai du Président Roosevelt|France|Audioconférence|
 
 ## <a name="licensing-for-audio-conferencing"></a>Licences pour l’audioconférence
 
@@ -273,6 +281,7 @@ Le premier élément à prendre en compte lors de l’implémentation de crédit
 Si votre organisation choisit d'utiliser la recharge automatique, une recommandation sur le déclencheur (montant des fonds le moins élevé) est également incluse dans l'article sur les [crédits de communication](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits). Le montant de la recharge automatique doit être déterminé par l’utilisation réelle. L'utilisation des crédits de communication doit être régulièrement contrôlée et le montant de la recharge doit être ajusté en fonction des besoins.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Si votre organisation n’a pas déjà acheté les licences requises pour l’audioconférence, déterminez si les licences seront acquises en passant à des niveaux d’abonnement Office 365 supérieurs ou en achetant des compléments pour l’audioconférence.</li><li>Déterminez si des crédits de communication sont requis pour l’implémentation de l’audioconférence. Si c’est le cas, déterminez le montant initial des fonds qui doit être acheté. Le cas échéant, déterminez le montant déclencheur et celui de la recharge automatique.</li></ul>|
@@ -280,29 +289,26 @@ Si votre organisation choisit d'utiliser la recharge automatique, une recommanda
 
 > [!TIP]
 > Vous pouvez documenter la liste d'attribution des licences pour les utilisateurs du service d’audioconférence à l'aide de l'exemple suivant :
->|Utilisateur  |Bureau  |Licence Office 365  |
->|---------|---------|---------|
->|Adele Vance|1 Eppîng Road|Office 365 E5|
->|Alex Wilber|1 Eppîng Road|Office 365 E3, complément pour l’audioconférence|
->|Ben Walters|1 Eppîng Road|Office 365 E3, complément pour l’audioconférence|
->|Christie Cline|1 Marina Boulevard|Office 365 E3, complément pour l’audioconférence|
->|Debra Berger|1 Marina Boulevard|Office 365 E5|
->|Lee Gu|1 Marina Boulevard|Office 365 E5|
->|Emily Braun|32 London Bridge Street|Office 365 E5|
->|Lidia Holloway|32 London Bridge Street|Office 365 E5|
->|Pradeep Gupta|32 London Bridge Street|Office 365 E5|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, complément pour l’audioconférence|
->|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
->|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complément pour l’audioconférence|
+> 
+> |Utilisateur  |Bureau  |Licence Office 365  |
+> |---------|---------|---------|
+> |Adele Vance|1 Eppîng Road|Office 365 E5|
+> |Alex Wilber|1 Eppîng Road|Office 365 E3, complément pour l’audioconférence|
+> |Ben Walters|1 Eppîng Road|Office 365 E3, complément pour l’audioconférence|
+> |Christie Cline|1 Marina Boulevard|Office 365 E3, complément pour l’audioconférence|
+> |Debra Berger|1 Marina Boulevard|Office 365 E5|
+> |Lee Gu|1 Marina Boulevard|Office 365 E5|
+> |Emily Braun|32 London Bridge Street|Office 365 E5|
+> |Lidia Holloway|32 London Bridge Street|Office 365 E5|
+> |Pradeep Gupta|32 London Bridge Street|Office 365 E5|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, complément pour l’audioconférence|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
+> |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complément pour l’audioconférence|
 
 <br>
-> [!TIP]
-> Vous pouvez documenter les numéros de planification de vos crédits de communication comme suit :
->|         |         |
->|---------|---------|
->|Montant initial|1 000 $|
->|Montant déclencheur|400 $|
->|Montant de la recharge automatique|TBA|
+&gt; [!TIP]
+&gt;Votre crédits Communications planification de numéros peut être documentés comme suit : &gt;|         |         | &gt;|---------|---------|
+&gt;| Quantité initiale | 1 000$ | &gt;| Quantité de déclencheur | 400 | &gt;| Montant auto-recharge | À DÉTERMINER |
 
 ## <a name="conference-bridge-phone-numbers"></a>Numéros de pont de téléconférence
 
@@ -326,6 +332,7 @@ Si des numéros de pont de téléconférence existants doivent être transféré
 Vous trouverez des informations complémentaires sur le transfert de numéros de téléphone vers le service d’audioconférence dans la rubrique [Transférer des numéros de téléphone vers Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer si l’organisation a besoin de numéros de pont de téléconférence dédiés</li><li>Déterminer comment les numéros de pont de téléconférence dédiés seront obtenus pour les emplacements des utilisateurs ou les bureaux concernés par l’implémentation de l’audioconférence (les obtenir auprès de Microsoft ou transférer des numéros de téléphone existants)</li><li>Si vous choisissez de les obtenir auprès de Microsoft, décider de la méthode pour les obtenir (envoi de formulaire ou automatisé) pour les emplacements des utilisateurs ou les bureaux concernés par l’implémentation de l’audioconférence</li><li>Déterminer les préférences de langue à configurer pour chaque numéro de pont de téléconférence dédié</li><li>Décider du numéro de pont de téléconférence par défaut du client</li></ul>|
@@ -333,12 +340,13 @@ Vous trouverez des informations complémentaires sur le transfert de numéros de
 
 > [!TIP]
 > Voici un exemple de modèle pour capturer les détails du pont de téléconférence :
->|Bureau   |Acquisition de numéro de pont de téléconférence et type de pont |Numéro du pont  |Langue du pont|
->|---------|---------|---------|---------|
->|1 Eppîng Road|Acquisition d'un nouveau numéro de pont dédié|TBA|Anglais (Australie)|
->|1 Marina Boulevard|Acquisition d'un nouveau numéro de pont partagé|TBA|Anglais (États-Unis), Chinois (simplifié, RPC)|
->|32 London Bridge Street|Port existant, dédié|+44 20 7946 0001|Anglais (Royaume-Uni)|
->|39 quai du Président Roosevelt|Acquisition d'un nouveau numéro de pont dédié|TBA|Français (France), Anglais (Royaume-Uni)|
+> 
+> |Bureau   |Acquisition de numéro de pont de téléconférence et type de pont |Numéro du pont  |Langue du pont|
+> |---------|---------|---------|---------|
+> |1 Eppîng Road|Acquisition d'un nouveau numéro de pont dédié|TBA|Anglais (Australie)|
+> |1 Marina Boulevard|Acquisition d'un nouveau numéro de pont partagé|TBA|Anglais (États-Unis), Chinois (simplifié, RPC)|
+> |32 London Bridge Street|Port existant, dédié|+44 20 7946 0001|Anglais (Royaume-Uni)|
+> |39 quai du Président Roosevelt|Acquisition d'un nouveau numéro de pont dédié|TBA|Français (France), Anglais (Royaume-Uni)|
 
 ## <a name="conference-bridge-settings"></a>Paramètres du pont de téléconférence
 
@@ -368,6 +376,7 @@ Des configurations supplémentaires pouvant être appliquées pour chaque utilis
 Ces contrôles vous permettent de déterminer si les organisateurs de réunions peuvent fournir des numéros de pont de téléconférence gratuits pour les réunions qu’ils organisent, et de contrôler si les participants peuvent composer des numéros depuis les réunions qu'ils ont organisées. Les niveaux de contrôle sont les suivants : ne pas autoriser la composition de numéros, autoriser uniquement la composition de numéros nationaux, autoriser la composition de numéros nationaux et internationaux.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer si l’organisation requiert des notifications d’accès et de sortie de réunion et, le cas échéant, le type de notification à implémenter (tonalités, numéro de téléphone ou nom enregistré)</li><li>Déterminer la longueur du code PIN pour l’audioconférence qui correspond aux exigences de sécurité de l'organisation</li><li>Déterminer si l’organisation souhaite contrôler les communications des utilisateurs finaux liées au service d’audioconférence</li><li>Déterminer les numéros de pont de téléconférence à attribuer à chaque organisateur de réunions</li><li>Déterminer si certains organisateurs de réunions doivent pouvoir utiliser des numéros de pont de téléconférence gratuits pour leurs réunions</li><li>Déterminer si certains organisateurs de réunions doivent pouvoir autoriser les appelants non authentifiés à démarrer une réunion</li><li>Déterminer si la composition des numéros doit être contrôlée pour certains organisateurs de réunions</li></ul>|
@@ -375,31 +384,19 @@ Ces contrôles vous permettent de déterminer si les organisateurs de réunions 
 
 > [!TIP]
 > Vous pouvez documenter les paramètres de pont de téléconférence comme suit :
->|         |         |
->|---------|---------|
->|Activer les notifications d’accès et de sortie de réunion|Activé|
->|Type d’annonce d’accès/sortie|Tonalités|
->|Demander aux appelants d’enregistrer leur nom avant de rejoindre la réunion|Désactivé|
->|Longueur du code PIN|5|
->|Envoyer automatiquement des e-mails aux utilisateurs si leurs paramètres de numérotation changent|Désactivé|
+> 
+> |         |         |
+> |---------|---------|
+> |Activer les notifications d’accès et de sortie de réunion|Activé|
+> |Type d’annonce d’accès/sortie|Tonalités|
+> |Demander aux appelants d’enregistrer leur nom avant de rejoindre la réunion|Désactivé|
+> |Longueur du code PIN|5|
+> |Envoyer automatiquement des e-mails aux utilisateurs si leurs paramètres de numérotation changent|Désactivé|
 
 <br>
-> [!TIP]
-> Vous pouvez documenter la liste d'attribution des paramètres de pont de téléconférence pour les utilisateurs du service d’audioconférence à l'aide de l'exemple suivant :
->|Utilisateur  |Bureau  |Numéro payant par défaut  |Numéro gratuit par défaut  |Autoriser le numéro gratuit  |Les appelants non authentifiés contournent la salle d’attente  |Composition de numéros depuis la conférence  |
->|---------|---------|---------|---------|---------|---------|---------|
->|Adele Vance|1 Eppîng Road|TBA|TBA|Oui|Activé|Internationaux et nationaux|
->|Alex Wilber|1 Eppîng Road|TBA|TBA|Non|Désactivé|Non autorisé|
->|Ben Walters|1 Eppîng Road|TBA|TBA|Non|Désactivé|Non autorisé|
->|Christie Cline|1 Marina Boulevard|TBA|TBA|Oui|Désactivé|Nationaux|
->|Debra Berger|1 Marina Boulevard|TBA|TBA|Oui|Activé|Nationaux|
->|Lee Gu|1 Marina Boulevard|TBA|TBA|Oui|Activé|Nationaux|
->|Emily Braun|32 London Bridge Street|+44 20 7946 0001|TBA|Oui|Activé|Non autorisé|
->|Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|TBA|Oui|Désactivé|Non autorisé|
->|Pradeep Gupta|32 London Bridge Street|+44 20 7946 0001|TBA|Oui|Désactivé|Non autorisé|
->|Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|Non|Désactivé|Nationaux|
->|Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|Oui|Activé|Internationaux et nationaux|
->|Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|Non|Désactivé|Nationaux|
+&gt; [!TIP]
+&gt;Vous pouvez documenter la liste d’affectation de paramètres de conférence pont pour les utilisateurs de conférence Audio à l’aide de l’exemple suivant : &gt;| Utilisateur | Office | Par défaut le numéro de téléphone payant | Par défaut le numéro gratuit | Autoriser gratuit | Les appelants non authentifiés ignorer la salle d’attente | Appel de conférence sortant | &gt;|---------|---------|---------|---------|---------|---------|---------|
+&gt;| Adele Vance | Un Epping route | À DÉTERMINER | À DÉTERMINER | Oui | Activé | Et internationales | &gt;| Alex Wilber | Un Epping route | À DÉTERMINER | À DÉTERMINER | Ne | Désactivé | Interdit | &gt;| Famille Ben | Un Epping route | À DÉTERMINER | À DÉTERMINER | Ne | Désactivé | Interdit | &gt;| Pierre efuser | Un Marina Boulevard | À DÉTERMINER | À DÉTERMINER | Oui | Désactivé | Intérieur | &gt;| Marie Dubois Berger | Un Marina Boulevard | À DÉTERMINER | À DÉTERMINER | Oui | Activé | Intérieur | &gt;| Lee Gu | Un Marina Boulevard | À DÉTERMINER | À DÉTERMINER | Oui | Activé | Intérieur | &gt;| Emily Braun | 32 Londres pont rue | + 44 20 7946 0001 | À DÉTERMINER | Oui | Activé | Interdit | &gt;| Lidia Holloway | 32 Londres pont rue | + 44 20 7946 0001 | À DÉTERMINER | Oui | Désactivé | Interdit | &gt;| Pradeep Gupta | 32 Londres pont rue | + 44 20 7946 0001 | À DÉTERMINER | Oui | Désactivé | Interdit | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | À DÉTERMINER | À DÉTERMINER | Ne | Désactivé | Intérieur | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | À DÉTERMINER | À DÉTERMINER | Oui | Activé | Et internationales | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | À DÉTERMINER | À DÉTERMINER | Ne | Désactivé | Intérieur |
 
 ## <a name="dial-plans"></a>Plan de numérotation
 
@@ -424,6 +421,7 @@ Le plan de numérotation efficace affecté aux utilisateurs est la combinaison d
 Il existe 25 règles de normalisation au maximum dans chaque plan de numérotation de client, et le double emploi des règles de normalisation déjà disponibles dans le plan de numérotation de service doit donc être évité.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer si votre organisation requiert des plans de numérotation personnalisés (besoins de l'organisation, exigences en matière d'adoption, etc.)</li><li>Le cas échéant, déterminer la portée du plan de numérotation de client (global au sein du client ou utilisateurs du client) pour prendre en charge les exigences des plans de numérotation personnalisés</li><li>Le cas échéant, déterminer les plans de numérotation de client qui seront créés pour prendre en charge les emplacements des utilisateurs ou les bureaux concernés par l’implémentation de l’audioconférence</li><li>Le cas échéant, déterminer le plan de numérotation personnalisé et le plan de numérotation de client qui doit être affecté à chaque utilisateur</li></ul>|
@@ -431,36 +429,24 @@ Il existe 25 règles de normalisation au maximum dans chaque plan de numérotat
 
 > [!TIP]
 > Si cela est applicable à votre projet, vous pouvez utiliser les modèles suivants pour documenter les configurations de plans de numérotation de client :
->|Nom du plan de numérotation de client<br>_Description_  |Nom des règles de normalisation<br>_Description_  |Modèle<br>Conversion<br>IsInternalExtension  |
->|---------|---------|---------|
->|**AU-NSW-NorthRyde-OER**<br>_1 Epping Road North Ryde, NSW, plan de numérotation AU_|**AU-NSW-NorthRyde-OER-Internal**<br>_Numéro interne (x7000 - x7999) du 1 Epping Road office, North Ryde, NSW, Australie_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_Normalisation du numéro local pour NSW, Australie_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
->||**AU-TollFree**<br>_Normalisation du numéro gratuit pour l’Australie_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
->||**AU-Service**<br>_Normalisation du numéro de service pour l’Australie_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
->|**SG-Singapore-OMB**<br>_OMB Singapour, plan de numérotation SG_|**SG-OMB-Internal**<br>_Numéro interne (x8000 – x8999) du bureau OMB, Singapour_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_Normalisation du numéro gratuit pour Singapour_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
->||**SG-Service**<br>_Normalisation du numéro de service pour Singapour_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000 – x7999) du bureau 39 quai du Président Roosevelt, Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> 
+> |Nom du plan de numérotation de client<br>_Description_  |Nom des règles de normalisation<br>_Description_  |Modèle<br>Conversion<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**AU-NSW-NorthRyde-OER**<br>_1 Epping Road North Ryde, NSW, plan de numérotation AU_|**AU-NSW-NorthRyde-OER-Internal**<br>_Numéro interne (x7000 - x7999) du 1 Epping Road office, North Ryde, NSW, Australie_|^(7\d{3})$<br>+6125550$1<br>True|
+> ||**AU-NSW-Local**<br>_Normalisation du numéro local pour NSW, Australie_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+> ||**AU-TollFree**<br>_Normalisation du numéro gratuit pour l’Australie_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+> ||**AU-Service**<br>_Normalisation du numéro de service pour l’Australie_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
+> |**SG-Singapore-OMB**<br>_OMB Singapour, plan de numérotation SG_|**SG-OMB-Internal**<br>_Numéro interne (x8000 – x8999) du bureau OMB, Singapour_|^(8\d{3})$<br>+656888$1<br>True|
+> ||**SG-TollFree**<br>_Normalisation du numéro gratuit pour Singapour_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+> ||**SG-Service**<br>_Normalisation du numéro de service pour Singapour_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000 – x7999) du bureau 39 quai du Président Roosevelt, Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-> [!TIP]
-> Le modèle d'exemple ci-après peut être utilisé pour documenter les attributions de plan de numérotation afin de prendre en charge votre projet :
->|Utilisateur  |Bureau  |Type de plan de numérotation  |Nom du plan de numérotation  |
->|---------|---------|---------|---------|
->|Adele Vance|1 Eppîng Road|Plan de numérotation de client|AU-NSW-NorthRyde-OER|
->|Alex Wilber|1 Eppîng Road|Plan de numérotation de client|AU-NSW-NorthRyde-OER|
->|Ben Walters|1 Eppîng Road|Plan de numérotation de client|AU-NSW-NorthRyde-OER|
->|Christie Cline|1 Marina Boulevard|Plan de numérotation de client|SG-Singapore-OMB|
->|Debra Berger|1 Marina Boulevard|Plan de numérotation de client|SG-Singapore-OMB|
->|Lee Gu|1 Marina Boulevard|Plan de numérotation de client|SG-Singapore-OMB|
->|Emily Braun|32 London Bridge Street|Plan de numérotation de service|N/A|
->|Lidia Holloway|32 London Bridge Street|Plan de numérotation de service|N/A|
->|Pradeep Gupta|32 London Bridge Street|Plan de numérotation de service|N/A|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-30qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-30qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-30qdPR|
+&gt; [!TIP]
+&gt;L’exemple de modèle ci-dessous peut servir à des affectations de plan de numérotation de document pour prendre en charge de votre projet : &gt;| Utilisateur | Office | Type de Plan de numérotation | Nom du Plan de numérotation | &gt;|---------|---------|---------|---------|
+&gt;| Adele Vance | Un Epping route | Plan de numérotation client | AU-CA-NorthRyde-OER | &gt;| Alex Wilber | Un Epping route | Plan de numérotation client | AU-CA-NorthRyde-OER | &gt;| Famille Ben | Un Epping route | Plan de numérotation client | AU-CA-NorthRyde-OER | &gt;| Pierre efuser | Un Marina Boulevard | Plan de numérotation client | GS-Singapour-OMB | &gt;| Marie Dubois Berger | Un Marina Boulevard | Plan de numérotation client | GS-Singapour-OMB | &gt;| Lee Gu | Un Marina Boulevard | Plan de numérotation client | GS-Singapour-OMB | &gt;| Emily Braun | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Lidia Holloway | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Pradeep Gupta | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-30qdPR | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-30qdPR | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-30qdPR |
 
 ## <a name="microsoft-teams-configurations"></a>Configurations de Microsoft Teams
 
@@ -473,6 +459,7 @@ La prise en charge de l’audioconférence est disponible pour les réunions pon
 Les paramètres, disponibles en tant que configurations au niveau du client, s’appliquent à tous les utilisateurs dans l’organisation et auront une incidence sur toutes les planifications de réunions dans Teams, et non pas uniquement aux réunions Teams **avec** l’audioconférence.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer si l’organisation requiert que la planification de réunions privées soit activée ou désactivée</li><li>Déterminer si l’organisation requiert que la planification de réunions de canal soit activée ou désactivée</li></ul>|
@@ -480,10 +467,11 @@ Les paramètres, disponibles en tant que configurations au niveau du client, s�
 
 > [!TIP]
 > Vous pouvez documenter les configurations des réunions comme suit :
->|         |         |
->|---------|---------|
->|Autoriser la planification de réunions privées|Activé|
->|Autoriser la planification de réunions de canal|Désactivé|
+> 
+> |         |         |
+> |---------|---------|
+> |Autoriser la planification de réunions privées|Activé|
+> |Autoriser la planification de réunions de canal|Désactivé|
 
 ## <a name="document-technical-implementation-plan"></a>Documenter le plan d’implémentation technique
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Résumé : Lisez cette rubrique pour savoir comment configurer l’expérience du client pour Skype pour les utilisateurs professionnels.'
-ms.openlocfilehash: 18fb67b88673dd2edfe3816d485a8cb05c84f3ae
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9e2a7d53788eda36fc18cb9094cde096864ce2ba
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018187"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375357"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurer l’expérience du client avec Skype pour Business 2015
  
@@ -88,13 +88,13 @@ Si vous souhaitez afficher l'interface utilisateur Lync lorsque les utilisateurs
     
     La clé doit se présenter comme celle-ci :
     
- <pre>
-[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
-"CanSharePptInCollab"=dword:00000001
-"CanShareOneNoteInCollab"=dword:00000001
-"CanAppShareInCollab"=dword:00000001
-"EnableSkypeUI"=hex:00,00,00,00
-</pre>
+   <pre>
+   [HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
+   "CanSharePptInCollab"=dword:00000001
+   "CanShareOneNoteInCollab"=dword:00000001
+   "CanAppShareInCollab"=dword:00000001
+   "EnableSkypeUI"=hex:00,00,00,00
+   </pre>
 
 L'interface utilisateur de Lync s'affiche maintenant lorsque les utilisateurs lancent le client Skype Entreprise pour la première fois.
   

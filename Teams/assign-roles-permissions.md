@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d5b3f52caf7de455d2b579a3360d17e18602450
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 523530647834fa2c54d18d983f25733bbe25d1be
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014290"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372648"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires de l’équipe et des membres dans Microsoft Teams
 =================================================
@@ -30,19 +30,21 @@ Dans Microsoft Teams, il existe deux rôles d’utilisateur : **propriétaire**
 
 Le tableau ci-après présente les différences d'autorisations entre un propriétaire et un membre :
 
-|  |Propriétaire d'équipe  |Membre d'équipe  |
-|---------|---------|---------|
-|**Créer une équipe**     |Oui        |Non         |
-|**Quitter une équipe**     |Oui         |Oui         |
-|**Modifier le nom/la description d'une équipe**      |Oui         |Non         |
-|**Supprimer une équipe**      |Oui         |Non         |
-|**Ajouter un canal**      |Oui         |Oui*         |
-|**Modifier le nom/la description d'un canal**      |Oui         |Oui*         |
-|**Supprimer un canal**      |Oui         |Oui*         |
-|**Ajouter des membres**      |Oui**         |Non         |
-|**Ajouter des onglets**      |Oui         |Oui*         |
-|**Ajouter des connecteurs**      |Oui         |Oui*         |
-|**Ajouter des bots**      |Oui         |Oui*         |
+
+|                                   | Propriétaire d'équipe | Membre d'équipe |
+|-----------------------------------|------------|-------------|
+|          **Créer une équipe**          |    Oui     |     Non      |
+|          **Quitter une équipe**           |    Oui     |     Oui     |
+|  **Modifier le nom/la description d'une équipe**   |    Oui     |     Non      |
+|          **Supprimer une équipe**          |    Oui     |     Non      |
+|          **Ajouter un canal**          |    Oui     |    Oui\*    |
+| **Modifier le nom/la description d'un canal** |    Oui     |    Oui\*    |
+|        **Supprimer un canal**         |    Oui     |    Oui\*    |
+|          **Ajouter des membres**          |  Oui\*\*   |     Non      |
+|           **Ajouter des onglets**            |    Oui     |    Oui\*    |
+|        **Ajouter des connecteurs**         |    Oui     |    Oui\*    |
+|           **Ajouter des bots**            |    Oui     |    Oui\*    |
+
 \*Ces éléments peuvent être désactivées par un propriétaire à un niveau équipe, dans ce cas membres auront pas accès à ces derniers.
 
 \*\*Après avoir ajouté un membre à une équipe, un propriétaire peut également promouvoir un membre au statut de Propriétaire. Il est également possible pour un propriétaire de rétrograder son propre statut à celui de membre.

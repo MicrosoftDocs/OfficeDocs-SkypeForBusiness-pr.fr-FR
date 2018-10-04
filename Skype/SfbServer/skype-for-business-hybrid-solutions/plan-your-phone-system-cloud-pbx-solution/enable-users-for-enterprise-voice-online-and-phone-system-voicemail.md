@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Découvrez comment activer le système téléphonique dans les services de téléphonie Office 365 pour votre Skype pour les utilisateurs professionnels.
-ms.openlocfilehash: ef1e7b98ad4a6080d07dc4abca717aef49a725ed
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ec0e37c0597f81001075f144dd38b58acfbb1159
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887903"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372669"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Activer les utilisateurs pour Enterprise Voice en ligne et le système téléphonique dans la messagerie Office 365
  
@@ -41,15 +41,15 @@ Pour activer un utilisateur pour le système téléphonique dans Office 365 Voic
     
 3. Tapez la commande ci-dessous, puis appuyez sur Entrée :
     
-  ```
-  Import-Module skypeonlineconnector
-  ```
+   ```
+   Import-Module skypeonlineconnector
+   ```
 
 4. Tapez la commande ci-dessous, puis appuyez sur Entrée :
     
-  ```
-  $cred = Get-Credential
-  ```
+   ```
+   $cred = Get-Credential
+   ```
 
     Lorsque vous appuyez sur Entrée, la boîte de dialogue d’informations d’identification Windows PowerShell s’affiche.
     
@@ -57,29 +57,29 @@ Pour activer un utilisateur pour le système téléphonique dans Office 365 Voic
     
 6. Dans la fenêtre PowerShell, tapez la commande ci-dessous, puis appuyez sur Entrée :
     
-  ```
-  $Session = New-CsOnlineSession -Credential $cred -Verbose
-  ```
+   ```
+   $Session = New-CsOnlineSession -Credential $cred -Verbose
+   ```
 
 7. Importez la session en tapant l’applet de commande suivante :
     
-  ```
-  Import-PSSession $Session -AllowClobber
-  ```
+   ```
+   Import-PSSession $Session -AllowClobber
+   ```
 
     Lors de l’exécution de PowerShell sur un Skype pour Business Server, le Skype local pour les applets de commande Business sont déjà chargés lorsque vous ouvrez PowerShell. Vous devez spécifier le paramètre - AllowClobber pour autoriser les applets de commande en ligne remplacer les applets de commande locale portant le même nom.
     
 8. Utilisez l’applet de commande Set-CsUser pour affecter les propriétés $EnterpriseVoiceEnabled et $HostedVoiceMail à votre utilisateur comme suit :
     
-  ```
-  Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-  ```
+   ```
+   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+   ```
 
     Par exemple :
     
-  ```
-  Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-  ```
+   ```
+   Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+   ```
 
     > [!NOTE]
     > Vous pouvez également spécifier un utilisateur par son adresse SIP, nom d’utilisateur principal (UPN), nom de domaine et nom d’utilisateur (domaine\nom d’utilisateur) et le nom d’affichage dans Active Directory (« Bob Kelly »). 

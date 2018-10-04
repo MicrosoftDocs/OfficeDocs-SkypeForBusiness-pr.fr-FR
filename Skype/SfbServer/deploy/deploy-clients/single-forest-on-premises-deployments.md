@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Consultez cette rubrique pour découvrir comment déployer Skype Room System dans la forêt unique d’un environnement local.
-ms.openlocfilehash: 8c931aca8505aa4d41175dbf5e1a138b668323d0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0c3f76d94e54c616068303a08e4e4254f5f8347
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967904"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375300"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Déploiements locaux d’une forêt Skype Room System unique
  
@@ -30,17 +30,17 @@ Pour utiliser un compte de boîte aux lettres de ressources (par exemple, LRS-01
   
 1. Exécutez la commande PowerShell Exchange Management suivante :
     
-  ```
-  Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
 2. Si vous prévoyez de créer une nouvelle boîte aux lettres, exécutez la commande suivante pour une organisation Exchange locale à forêt unique :
     
-  ```
-  New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
-  Dans l’exemple ci-dessus, on crée un compte d’utilisateur activé dans Active Directory et une boîte aux lettres pour salle de conférence dans une organisation Exchange locale. Le paramètre RoomMailboxPassword spécifie le mot de passe du compte d’utilisateur.
+   Dans l’exemple ci-dessus, on crée un compte d’utilisateur activé dans Active Directory et une boîte aux lettres pour salle de conférence dans une organisation Exchange locale. Le paramètre RoomMailboxPassword spécifie le mot de passe du compte d’utilisateur.
     
 3. Configurez le compte pour résoudre automatiquement les conflits en acceptant/rejetant des réunions. Skype équipé d’un système de salle salle comptes dans Exchange peuvent être gérés par des personnes, mais notez que jusqu'à ce que la personne accepte une réunion n’apparaîtra pas dans le calendrier d’écran d’accueil Skype salle système.
     

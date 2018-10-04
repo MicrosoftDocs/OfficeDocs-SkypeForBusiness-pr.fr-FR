@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d16c55ac5e307192f93e593bca9910e1be9393d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 79d9fcde21b6d6f7d0c169efd852629fb43ae9b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017134"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373785"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Définissez et documentez votre conférence Audio dans le plan de test des équipes pour les entreprises 
 ===============================================================================
@@ -63,8 +63,8 @@ Lorsque vous préparez évaluer les fonctionnalités de conférence Audio, crée
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Déterminez quels rôles prise en charge et des parties prenantes tests, vous avez besoin pour tester les fonctionnalités de conférence Audio dans votre environnement.</li><li>Choisir les ressources qui vous affecterez pour les rôles des parties prenantes et prise en charge de test que vous avez identifié.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Les rôles de prise en charge et des parties prenantes tests requis dans votre matrice des parties prenantes test de Support du document.</li><li>Informations de contact et les détails de l’emplacement pour chaque ressource que dans la matrice de parties prenantes de prise en charge de test de la liste de documents.
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez quels rôles prise en charge et des parties prenantes tests, vous avez besoin pour tester les fonctionnalités de conférence Audio dans votre environnement.</li><li>Choisir les ressources qui vous affecterez pour les rôles des parties prenantes et prise en charge de test que vous avez identifié.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Les rôles de prise en charge et des parties prenantes tests requis dans votre matrice des parties prenantes test de Support du document.</li><li>Informations de contact et les détails de l’emplacement pour chaque ressource que dans la matrice de parties prenantes de prise en charge de test de la liste de documents.
 </table>
 
 
@@ -87,7 +87,7 @@ Maintenant que les personnages d’audioconférence et les fonctionnalités ont 
 #### <a name="audio-conferencing-feature-definition"></a>Définition de fonctionnalité de conférence audio
 
 > [!TIP]
-
+> 
 > Voici un exemple d’un modèle de définition de conférence audio que vous pouvez utiliser pour l’administration de services d’audioconférence de document et les fonctionnalités de groupe utilisateur à évaluer.
 
 | Échelle de l’entreprise   | Réunions de collaboration    | Plateforme et appareils   | Professionnels de l’informatique  | Groupe supplémentaires, spécifiques au site  | Conditions sont remplies par la dernière feuille de route équipes |
@@ -103,11 +103,11 @@ Maintenant que les personnages d’audioconférence et les fonctionnalités ont 
 |----------------------------------------------|--------------------------------------------------|------------------------------------------|
 | <ul><li>Créer des équipes (création d’un groupe Office activée)</li><li>Rejoindre des équipes</li><li>Créer des canaux</li><li>Créer et afficher des réunions</li><li>Modifier une image de profil utilisateur</li><li>Ajouter et configurer des connecteurs</li><li>Ajouter et configurer des onglets</li><li>Ajouter et configurer des bots</li></ul> | <ul><li>Stocker et partager des fichiers dans des conversations d’équipes</li><li>Magasin et de partage et de fichiers dans les salles de conversation privées (basés sur OneDrive)</li></ul> | <ul><li>ChatDefaultClient : par défaut</li><li>CallingDefaultClient : par défaut</li></ul>      |
 
- 
+
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li> Choisir les fonctionnalités de catégorie de conférence Audio que vous allez déployer dans votre environnement.</li><li>Identifier vos besoins de fonctionnalités utilisateur audioconférence donnés votre actuel Skype pour paysage de déploiement d’entreprise, Exchange et SharePoint.</li><li>Décidez que vous envisagez de déployer l’expérience interopérabilité équipes.</li><li>Passez en revue la feuille de route public équipes le plus récent et déterminer si les fonctionnalités de la charge de travail en cours répondent à votre scénario de déploiement.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Les fonctionnalités de catégorie de conférence Audio requises pour prendre en charge votre déploiement de conférence Audio du document.</li><li>Services d’audioconférence fonctionnalité et interopérabilité besoins des utilisateurs donnés votre actuel Skype pour SharePoint, Exchange et Business paysage de déploiement du document.</li><li>Si l’équipes public actualisé qui représente les fonctionnalités de conférence Audio respecte les besoins et les exigences de minutage de votre déploiement du document.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li> Choisir les fonctionnalités de catégorie de conférence Audio que vous allez déployer dans votre environnement.</li><li>Identifier vos besoins de fonctionnalités utilisateur audioconférence donnés votre actuel Skype pour paysage de déploiement d’entreprise, Exchange et SharePoint.</li><li>Décidez que vous envisagez de déployer l’expérience interopérabilité équipes.</li><li>Passez en revue la feuille de route public équipes le plus récent et déterminer si les fonctionnalités de la charge de travail en cours répondent à votre scénario de déploiement.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Les fonctionnalités de catégorie de conférence Audio requises pour prendre en charge votre déploiement de conférence Audio du document.</li><li>Services d’audioconférence fonctionnalité et interopérabilité besoins des utilisateurs donnés votre actuel Skype pour SharePoint, Exchange et Business paysage de déploiement du document.</li><li>Si l’équipes public actualisé qui représente les fonctionnalités de conférence Audio respecte les besoins et les exigences de minutage de votre déploiement du document.</li></ul></td></tr>
 </table>
 
 <a name="define-and-document-your-audio-conferencing-test-plan"></a>Définissez et documentez votre plan de test Audio conférence
@@ -134,7 +134,7 @@ Une fois que vous avez défini les fonctionnalités de conférence Audio dans la
 -   **Tester livrables :** Résumé dont résultats seront développés et remis pour prendre en charge à l’acceptation et quitter le processus de test
 
 > [!TIP]
-
+> 
 >   Une méthodologie de test peut déjà exister dans votre organisation, mais les conseils ci-dessous indique les meilleures pratiques qui peuvent être incluses ou exploitées séparément pour les fonctionnalités d’équipes tests dans votre environnement.
 
 Dans les sections qui suivent vous trouverez des instructions prescrites supplémentaires qui vous aideront à des décisions spécifiques et les modèles et les rubriques vous permet de prendre en compte lorsque vous avez terminé votre plan de test.
@@ -162,10 +162,10 @@ L’étendue pour correctement évaluer les fonctionnalités de conférence Audi
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Décider de conférence Audio test étendue en identifiant les fonctionnalités doit être évaluée par sujet.</li><li>Décider supplémentaires buts et objectifs pour l’évaluation.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Les fonctionnalités de conférence Audio doit être évaluée par sujet du document.</li><li>Autres buts et objectifs pour l’évaluation du document.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décider de conférence Audio test étendue en identifiant les fonctionnalités doit être évaluée par sujet.</li><li>Décider supplémentaires buts et objectifs pour l’évaluation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Les fonctionnalités de conférence Audio doit être évaluée par sujet du document.</li><li>Autres buts et objectifs pour l’évaluation du document.</li></ul></td></tr>
 </table>
- 
+
 
 ### <a name="define-and-document-audio-conferencing-test-cases"></a>Définissez et documentez les cas de test d’audioconférence
 
@@ -206,8 +206,8 @@ Validation de services d’audioconférence
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Déterminer les fonctionnalités d’administration et d’audioconférence seront évaluées.</li><li>Décider quel environnement de test est requis pour prendre en charge l’exécution de cas de test.</li><li>Déterminez les étapes requises pour l’évaluation des cas de test.</li><li>Choisir les ressources requises pour la bonne exécution du test.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Documenter les cas de test à évaluer, basé sur le modèle de cas de test fourni.</li><li>Inclure le modèle terminé dans le cadre de votre plan de test global.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminer les fonctionnalités d’administration et d’audioconférence seront évaluées.</li><li>Décider quel environnement de test est requis pour prendre en charge l’exécution de cas de test.</li><li>Déterminez les étapes requises pour l’évaluation des cas de test.</li><li>Choisir les ressources requises pour la bonne exécution du test.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documenter les cas de test à évaluer, basé sur le modèle de cas de test fourni.</li><li>Inclure le modèle terminé dans le cadre de votre plan de test global.</li></ul></td></tr>
 </table>
 
 
@@ -236,12 +236,12 @@ Pour prendre en charge de la phase de test, il est important de développer un p
 | Technologie    | Accès à Office 365 avec les services suivants activé :<ul><li>Office 365 E5 licences affectés</li><li>Plan d’appel nationales et internationales affecté</li></ul>    | TBD                  |
 | support       | Responsable de prise en charge de Test administrateur technicien Test de test | TBD                  |
 
-   
+
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Choisir les types de ressources (personnes, la technologie et prise en charge) que vous aurez besoin pour prendre en charge de la phase de test.</li><li>Choisir les ressources spécifiques requis pour les types de ressources que vous avez identifié.</li><li>Décider si vous devez fournir plus de détails pour décrire les types de ressources dont vous avez besoin.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Les types de ressources (personnes, la technologie et prise en charge) que vous aurez besoin pour prendre en charge de la phase de test du document.</li><li>Documenter les ressources spécifiques requis pour les types de ressources que vous avez identifié.</li><li>Si vous décidez qu’il est nécessaire, des détails supplémentaires sur les types de ressources que nécessaires pour prendre en charge de la phase de test du document.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Choisir les types de ressources (personnes, la technologie et prise en charge) que vous aurez besoin pour prendre en charge de la phase de test.</li><li>Choisir les ressources spécifiques requis pour les types de ressources que vous avez identifié.</li><li>Décider si vous devez fournir plus de détails pour décrire les types de ressources dont vous avez besoin.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Les types de ressources (personnes, la technologie et prise en charge) que vous aurez besoin pour prendre en charge de la phase de test du document.</li><li>Documenter les ressources spécifiques requis pour les types de ressources que vous avez identifié.</li><li>Si vous décidez qu’il est nécessaire, des détails supplémentaires sur les types de ressources que nécessaires pour prendre en charge de la phase de test du document.</li></ul></td></tr>
 </table>
 
 ### <a name="define-and-document-a-testing-timeline"></a>Définissez et documentez un scénario de test
@@ -277,8 +277,8 @@ Dans le cadre de la définition de plan de test, créez une chronologie qui déc
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Décider d’activité de chronologie, jalon et les tâches dont vous avez besoin pour effectuer le suivi.</li><li>Choisir les ressources que vous devrez affecter.</li><li>Choisir la date à que laquelle à effectuer.</li><li>Identifier le propriétaire de la remise.</li><li>Déterminer combien de temps faut-il pour effectuer l’activité, un jalon ou une tâche.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Documenter votre scénario de test à l’aide du modèle fourni et incluent :<ul><li>Activité de chronologie, de jalon et les tâches qui doivent être suivis.</li><li>Ressources qui doivent être attribués.</li><li>Date de fin prévue.</li><li>Propriétaire de remise.</li><li>Temps nécessaire pour effectuer l’activité, un jalon ou une tâche.</li></ul></li><li>Inclure le modèle terminé dans le cadre de votre plan de test global.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décider d’activité de chronologie, jalon et les tâches dont vous avez besoin pour effectuer le suivi.</li><li>Choisir les ressources que vous devrez affecter.</li><li>Choisir la date à que laquelle à effectuer.</li><li>Identifier le propriétaire de la remise.</li><li>Déterminer combien de temps faut-il pour effectuer l’activité, un jalon ou une tâche.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documenter votre scénario de test à l’aide du modèle fourni et incluent :<ul><li>Activité de chronologie, de jalon et les tâches qui doivent être suivis.</li><li>Ressources qui doivent être attribués.</li><li>Date de fin prévue.</li><li>Propriétaire de remise.</li><li>Temps nécessaire pour effectuer l’activité, un jalon ou une tâche.</li></ul></li><li>Inclure le modèle terminé dans le cadre de votre plan de test global.</li></ul></td></tr>
 </table>
 
 
@@ -329,11 +329,11 @@ Cela met en évidence impact potentiel qui pourrait entraver ou même interrompr
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Déterminez les niveaux de gravité critères défaut vous affecterez pour prendre en charge de l’effort de test.</li><li>Décider quels défaut test critères, que vous devez documenter si des problèmes se produisent pendant les tests de création de rapports.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Documenter l’erreur test de création de rapports critères requis dans le modèle fourni.</li><li>Inclure le modèle terminé dans le cadre de votre plan de test global.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez les niveaux de gravité critères défaut vous affecterez pour prendre en charge de l’effort de test.</li><li>Décider quels défaut test critères, que vous devez documenter si des problèmes se produisent pendant les tests de création de rapports.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documenter l’erreur test de création de rapports critères requis dans le modèle fourni.</li><li>Inclure le modèle terminé dans le cadre de votre plan de test global.</li></ul></td></tr>
 </table>
 
- 
+
 ### <a name="define-and-document-exit-and-suspension-criteria"></a>Définissez et documentez les critères de sortie et de suspension
 
 Dans le cadre du processus de l’exécution du test plan global, vous devez définir des critères pour indiquer le point auquel vous devez suspendre les efforts de test par rapport à des exigences qui doivent être remplies pour l’obtention d’approbation et de fermeture de la phase de test.
@@ -350,8 +350,8 @@ Dans le cadre du processus de l’exécution du test plan global, vous devez dé
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Déterminez les critères de suspension qui doivent être remplies si les problèmes de test sont identifiés.</li><li>Déterminez les critères de sortie qui doivent être remplies pour obtenir test approbation et prennent en charge la sortie de la phase de test après tout test activités sont terminées.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Critères de suspension et la sortie test requis dans les modèles de test et de sortie fournies du document.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez les critères de suspension qui doivent être remplies si les problèmes de test sont identifiés.</li><li>Déterminez les critères de sortie qui doivent être remplies pour obtenir test approbation et prennent en charge la sortie de la phase de test après tout test activités sont terminées.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Critères de suspension et la sortie test requis dans les modèles de test et de sortie fournies du document.</li></ul></td></tr>
 </table>
 
 
@@ -397,11 +397,11 @@ En règle générale, un plan de rapport et de correction de défaut inclut les 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Décider et accord sur les priorités défauts pour prendre en charge votre plan de test.</li><li>Décider du point d’escalade pour chaque zone de défaillance.</li><li>Décider du plan de triage à suivre et une erreur de réaffectation en fonction de la priorité.</li><li>Décider de rapports d’erreur et triage du plan de communication pour escalade.</li><li>Déterminez la cadence de réunion de triage défauts.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Les priorités convenues défaut du document.</li><li>Le point d’escalade pour chaque zone focus potentiels du document.</li><li>Documenter la planification défaut escalade et trier en fonction des critères convenues.</li><li>Documenter votre défaut instructions de création de rapports.</li><li>Planifier la série de réunions de tri défauts.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décider et accord sur les priorités défauts pour prendre en charge votre plan de test.</li><li>Décider du point d’escalade pour chaque zone de défaillance.</li><li>Décider du plan de triage à suivre et une erreur de réaffectation en fonction de la priorité.</li><li>Décider de rapports d’erreur et triage du plan de communication pour escalade.</li><li>Déterminez la cadence de réunion de triage défauts.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Les priorités convenues défaut du document.</li><li>Le point d’escalade pour chaque zone focus potentiels du document.</li><li>Documenter la planification défaut escalade et trier en fonction des critères convenues.</li><li>Documenter votre défaut instructions de création de rapports.</li><li>Planifier la série de réunions de tri défauts.</li></ul></td></tr>
 </table>
 
-   
+
 
 ### <a name="define-and-document-testing-deliverables"></a>Définissez et documentez les livrables tests
 
@@ -434,8 +434,8 @@ Le composant dernière lors de la création d’un plan de test consiste à iden
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Déterminer les livrables doivent être créés et capturé en sortie de chaque phase de test. Pour chaque livrable, décider de son :<ul><li>Format</li><li>Propriétaire</li><li>Réviseur</li><li>Approbateur</li></ul></li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Un plan du livrable création et la fourniture de matrice de test du document.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminer les livrables doivent être créés et capturé en sortie de chaque phase de test. Pour chaque livrable, décider de son :<ul><li>Format</li><li>Propriétaire</li><li>Réviseur</li><li>Approbateur</li></ul></li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Un plan du livrable création et la fourniture de matrice de test du document.</li></ul></td></tr>
 </table>
 
 
@@ -463,8 +463,8 @@ Pour aider à déterminer la quantité de bande passante et le niveau d’optimi
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Points de décision</td><td><ul><li>Déterminer les sites de réseau dans la portée de déploiement des équipes de services.</li><li>Déterminez les personnages requis pour les modalités d’équipes dans l’étendue.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Renseignez le Gestionnaire de réseau (via MyAdvisor) pour la liste des sites qui se trouvent dans l’étendue.</li><li>Résultats de la validation de réseau Planificateur de document dans le modèle de résultats de plan de test fourni.</li><li>Valider ExpressRoute (le cas échéant), internet et la bande passante WAN qui a été calculée pour les sites dans l’étendue s’aligne sur les valeurs de bande passante qui sont actuellement attribuées.</li><li>Pour les sites qui n’ont pas la bande passante adéquate, exécuter des plans de réaffectation et de correction pour résoudre les problèmes de bande passante.</li><li>Établir un réseau de surveillance solution pour les sites dans l’étendue pour surveiller l’utilisation de la bande passante et QoS pour ExpressRoute (le cas échéant), internet et les segments de réseau étendu.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats du Planificateur de réseau.</li><li>Présenter la bande passante de la planification des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminer les sites de réseau dans la portée de déploiement des équipes de services.</li><li>Déterminez les personnages requis pour les modalités d’équipes dans l’étendue.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Renseignez le Gestionnaire de réseau (via MyAdvisor) pour la liste des sites qui se trouvent dans l’étendue.</li><li>Résultats de la validation de réseau Planificateur de document dans le modèle de résultats de plan de test fourni.</li><li>Valider ExpressRoute (le cas échéant), internet et la bande passante WAN qui a été calculée pour les sites dans l’étendue s’aligne sur les valeurs de bande passante qui sont actuellement attribuées.</li><li>Pour les sites qui n’ont pas la bande passante adéquate, exécuter des plans de réaffectation et de correction pour résoudre les problèmes de bande passante.</li><li>Établir un réseau de surveillance solution pour les sites dans l’étendue pour surveiller l’utilisation de la bande passante et QoS pour ExpressRoute (le cas échéant), internet et les segments de réseau étendu.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats du Planificateur de réseau.</li><li>Présenter la bande passante de la planification des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
 </table>
 
 
@@ -477,11 +477,11 @@ Pour plus d’instructions sur la façon de configurer, déployer et valider la 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Points de décision</td><td><ul><li>Déterminez la configuration de la qualité de service à mettre en œuvre.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Configurer la qualité de service.</li><li>Exécuter le contrôle de la qualité de service comme indiqué dans les étapes répertoriées via la « valider via la stratégie de groupe » et « valider à l’aide de l’Analyseur de Message » les sections ci-dessus.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminez la configuration de la qualité de service à mettre en œuvre.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Configurer la qualité de service.</li><li>Exécuter le contrôle de la qualité de service comme indiqué dans les étapes répertoriées via la « valider via la stratégie de groupe » et « valider à l’aide de l’Analyseur de Message » les sections ci-dessus.</li></ul></td></tr>
 </table>
 
- 
+
 
 ### <a name="document-qos-configuration-validation-test-results"></a>Résultats des tests QoS configuration validation de document
 
@@ -499,10 +499,9 @@ Une fois que vous avez terminé le test à l’aide de la stratégie de groupe p
 <table>
 <tr><th colspan="2">Test d’actualités </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Enseignements de test  </th></tr>  
-<tr><td>**Problème**: TBD</td><td>**Correction :** TBD</td></tr>
+<tr><th colspan="2">Enseignements de test  </th></tr><br/><tr><td><strong>Problème</strong>: TBD</td><td><strong>Correction :</strong> TBD</td></tr>
 <tr><th colspan="2">BLOQUEURS identifiés </td></tr>
-<tr><td>**Bloqueur de fenêtres publicitaires**: TBD</td><td>**Correction**: TBD</td></tr>
+<tr><td><strong>Bloqueur de fenêtres publicitaires</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
 </table>
 
 > [!TIP]
@@ -510,8 +509,8 @@ Une fois que vous avez terminé le test à l’aide de la stratégie de groupe p
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Points de décision</td><td><ul><li>Évaluer les résultats des tests de qualité de service pour vous assurer que les équipes correctement le trafic multimédia en temps réel est marquée et la priorité.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Résultats des tests QoS de document dans le modèle de résultat de plan de test fourni.</li><li>Exécuter des plans de réaffectation et de correction pour résoudre les problèmes où QoS ne peut pas être configuré correctement ou n’est pas travaille comme prévu pour prendre en charge le trafic multimédia équipes.</li></ul></td></tr><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Il est présent test synthèse des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluer les résultats des tests de qualité de service pour vous assurer que les équipes correctement le trafic multimédia en temps réel est marquée et la priorité.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Résultats des tests QoS de document dans le modèle de résultat de plan de test fourni.</li><li>Exécuter des plans de réaffectation et de correction pour résoudre les problèmes où QoS ne peut pas être configuré correctement ou n’est pas travaille comme prévu pour prendre en charge le trafic multimédia équipes.</li></ul></td></tr><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Il est présent test synthèse des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li>
 </table>
 
 
@@ -532,8 +531,8 @@ Pour plus d’instructions sur la façon de configurer et valider la préparatio
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Points de décision</td><td><ul><li>Déterminez la configuration de double-tunnel à implémenter.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Mettre en œuvre de la configuration de double-tunnel.</li><li>Tester et valider la configuration du double-tunnel.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminez la configuration de double-tunnel à implémenter.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Mettre en œuvre de la configuration de double-tunnel.</li><li>Tester et valider la configuration du double-tunnel.</li></ul></td></tr>
 </table>
 
 
@@ -553,10 +552,9 @@ Après avoir réalisé test configuration split-tunnel pour les sites dans la po
 <table>
 <tr><th colspan="2">Test d’actualités </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Enseignements de test  </th></tr>  
-<tr><td>**Problème**: TBD</td><td>**Correction :** TBD</td></tr>
+<tr><th colspan="2">Enseignements de test  </th></tr><br/><tr><td><strong>Problème</strong>: TBD</td><td><strong>Correction :</strong> TBD</td></tr>
 <tr><th colspan="2">BLOQUEURS identifiés </td></tr>
-<tr><td>**Bloqueur de fenêtres publicitaires**: TBD</td><td>**Correction**: TBD</td></tr>
+<tr><td><strong>Bloqueur de fenêtres publicitaires</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
 </table>
 
 > [!TIP]
@@ -565,11 +563,11 @@ Après avoir réalisé test configuration split-tunnel pour les sites dans la po
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Points de décision</td><td><ul><li>Évaluer les résultats de tests split-tunnel pour vous assurer que le trafic en temps réel équipes est exclu de la solution d’accès à distance.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Documenter les résultats des tests de connectivité tunnel fractionné dans le modèle de résultat de plan de test fourni.</li><li>Exécuter des plans de réaffectation et de correction pour résoudre les problèmes où un routage correct n’existe pas de prise en charge multimédia équipes au sein d’une configuration de double-tunnel.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Il est présent test synthèse des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluer les résultats de tests split-tunnel pour vous assurer que le trafic en temps réel équipes est exclu de la solution d’accès à distance.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documenter les résultats des tests de connectivité tunnel fractionné dans le modèle de résultat de plan de test fourni.</li><li>Exécuter des plans de réaffectation et de correction pour résoudre les problèmes où un routage correct n’existe pas de prise en charge multimédia équipes au sein d’une configuration de double-tunnel.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Il est présent test synthèse des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
 </table>
 
-   
+
 
 <a name="execute-network-connectivity-and-performance-validation-by-using-the-network-assessment-tool-from-microsoft"></a>Exécuter le contrôle de performances et de connectivité réseau à l’aide de l’outil d’évaluation de réseau à partir de Microsoft
 -----------------------------------------------------------------------------------------------------------
@@ -582,11 +580,11 @@ Pour plus d’instructions sur la façon de vérifier et d’évaluer la prépar
 > Pour effectuer une analyse de disponibilité du réseau et de préparation des sites dans l’étendue, désigner un responsable pour chaque site qui peut vous aider à vos efforts d’évaluation de préparation au réseau.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Points de décision</td><td><ul><li>Décider de l’évaluation de réseau et d’un profil de test de connectivité pour les sites dans l’étendue.</li><li>Décider d’évaluation de la configuration réseau fichier requise pour les sites dans l’étendue.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Configurer l’évaluation de la configuration réseau fichier requise pour les sites dans l’étendue.</li><li>Exécuter la validation de performances et de connectivité réseau pour les sites dans l’étendue.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Décider de l’évaluation de réseau et d’un profil de test de connectivité pour les sites dans l’étendue.</li><li>Décider d’évaluation de la configuration réseau fichier requise pour les sites dans l’étendue.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Configurer l’évaluation de la configuration réseau fichier requise pour les sites dans l’étendue.</li><li>Exécuter la validation de performances et de connectivité réseau pour les sites dans l’étendue.</li></ul></td></tr>
 </table>
 
- 
+
 
 ### <a name="document-network-connectivity-and-performance-validation-test-results"></a>Document réseau connectivité et performances validation résultats des tests
 
@@ -616,21 +614,20 @@ Une fois que vous avez terminé toutes les connectivité réseau et test de perf
 <table>
 <tr><th colspan="2">Test d’actualités </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Enseignements de test  </th></tr>  
-<tr><td>**Problème**: latence élevée</td><td>**Correction :** Examiner le routage de paquets et implémentez l’itinéraire idéal.</td></tr>
-<tr><td>**Problème**: temps d’aller-retour n’est pas le double de la latence</td><td>**Correction :** Recherchez un problème de configuration du pare-feu ou votre routeur possible. Examinez les chemins de trafic.</td></tr>
-<tr><td>**Problème**: la perte de paquets haute </td><td>**Correction :** Via le Planificateur de réseau, vérifiez que la bande passante requise a été affecté. </td></tr>
-<tr><td>**Problème**: gigue haute </td><td> **Correction :** Vérifiez si les valeurs de point (DSCP) de code de services différenciés corrects sont utilisés. </td></tr>
-<tr><td>**Problème**: la perte de paquets haute </td><td>**Correction :** Examinez la perte de paquets. </td></tr>
-<tr><td>**Problème**: réorganiser les paquets haute </td><td>**Correction :** Examinez la bande passante et la file d’attente routeur. </td></tr>
+<tr><th colspan="2">Enseignements de test  </th></tr><br/><tr><td><strong>Problème</strong>: latence élevée</td><td><strong>Correction :</strong> Examiner le routage de paquets et implémentez l’itinéraire idéal.</td></tr>
+<tr><td><strong>Problème</strong>: aller-retour n’est heure & #39 ; t double de la latence</td><td><strong>Correction :</strong> Recherchez un problème de configuration du pare-feu ou votre routeur possible. Examinez les chemins de trafic.</td></tr>
+<tr><td><strong>Problème</strong>: la perte de paquets haute </td><td><strong>Correction :</strong> Via le Planificateur de réseau, vérifiez que la bande passante requise a été affecté. </td></tr>
+<tr><td><strong>Problème</strong>: gigue haute </td><td> <strong>Correction :</strong> Vérifiez si les valeurs de point (DSCP) de code de services différenciés corrects sont utilisés. </td></tr>
+<tr><td><strong>Problème</strong>: la perte de paquets haute </td><td><strong>Correction :</strong> Examinez la perte de paquets. </td></tr>
+<tr><td><strong>Problème</strong>: réorganiser les paquets haute </td><td><strong>Correction :</strong> Examinez la bande passante et la file d’attente routeur. </td></tr>
 <tr><th colspan="2">BLOQUEURS identifiés </td></tr>
-<tr><td>**Bloqueur de fenêtres publicitaires**: TBD</td><td>**Correction**: TBD</td></tr>
+<tr><td><strong>Bloqueur de fenêtres publicitaires</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
 </table>
 
- 
+
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Points de décision</td><td><ul><li>Évaluer l’évaluation du réseau et garantir la que satisfaction des exigences décrites dans les [performances de connectivité réseau et de qualité multimédia](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) du segment edge et les segments client résultats des tests de connectivité.</li><li>Avez-vous évalué pour prendre en charge des médias en temps réel pour tous les sites dans la portée des fonctionnalités de réseau ?</li><li> Si votre réseau n’a pas été correctement évalué, ou si vous connaissez qu'il ne prend pas en charge les médias en temps réel, désactivera vidéo et les fonctionnalités de partage d’écran afin de réduire le réseau impact et améliorent l’expérience des équipes pour les utilisateurs ?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Performances du réseau et les résultats des tests de connectivité du document.</li><li>Exécuter des plans de réaffectation et de correction pour résoudre les problèmes avec les sites où il n’est pas suffisamment de bande passante, ou les exigences de performances et de connectivité réseau ne sont pas respectées.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Il est présent test synthèse des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluer l’évaluation du réseau et garantir la que satisfaction des exigences décrites dans les <a href="https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance" data-raw-source="[Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)">performances de connectivité réseau et de qualité multimédia</a> du segment edge et les segments client résultats des tests de connectivité.</li><li>Avez-vous évalué pour prendre en charge des médias en temps réel pour tous les sites dans la portée des fonctionnalités de réseau ?</li><li> Si votre réseau n’a pas été correctement évalué, ou si vous connaissez qu'il ne prend pas en charge les médias en temps réel, désactivera vidéo et les fonctionnalités de partage d’écran afin de réduire le réseau impact et améliorent l’expérience des équipes pour les utilisateurs ?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Performances du réseau et les résultats des tests de connectivité du document.</li><li>Exécuter des plans de réaffectation et de correction pour résoudre les problèmes avec les sites où il n’est pas suffisamment de bande passante, ou les exigences de performances et de connectivité réseau ne sont pas respectées.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Il est présent test synthèse des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
 </table>
 
 
@@ -701,10 +698,10 @@ Maintenant que vous avez affecté le nombre de ports de service pour le service 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Points de décision</td><td><ul><li>Déterminer les numéros de service local que vous devrez port, par pays/région.</li><li>Décider si vous allez port les numéros de téléphone gratuit.</li><li>Choisir le modèle de lettre d’accord que vous allez utiliser.</li><li>Déterminer si votre opérateur actuel (opérateur perdre) autorise la fragmentation numérique de téléphone (autrement dit, permet de commandes port partielle).</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Collecter les informations nécessaires et préparez accord.</li><li>Télécharger et terminez les modèles de lettre d’accord que vous avez besoin.</li><li>Envoi de service et/ou le nombre de requêtes portage gratuit.</li><li>Exécuter le test de validation pour les numéros de ports en leur attribuant au service de conférence Audio pour l’accès à distance et vérifiez qu’ils fonctionnent, comme indiqué à l’étape 6, plus haut dans cette section.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminer les numéros de service local que vous devrez port, par pays/région.</li><li>Décider si vous allez port les numéros de téléphone gratuit.</li><li>Choisir le modèle de lettre d’accord que vous allez utiliser.</li><li>Déterminer si votre opérateur actuel (opérateur perdre) autorise la fragmentation numérique de téléphone (autrement dit, permet de commandes port partielle).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Collecter les informations nécessaires et préparez accord.</li><li>Télécharger et terminez les modèles de lettre d’accord que vous avez besoin.</li><li>Envoi de service et/ou le nombre de requêtes portage gratuit.</li><li>Exécuter le test de validation pour les numéros de ports en leur attribuant au service de conférence Audio pour l’accès à distance et vérifiez qu’ils fonctionnent, comme indiqué à l’étape 6, plus haut dans cette section.</li></ul></td></tr>
 </table>
-   
+
 
 ### <a name="document-service-number-porting-test-results"></a>Numéro de service portage des résultats des tests de document
 
@@ -722,10 +719,9 @@ Après avoir réalisé les tests portage des nombres, créez un rapport qui rés
 <table>
 <tr><th colspan="2">Test d’actualités </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Enseignements de test  </th></tr>  
-<tr><td>**Problème**: TBD</td><td>**Correction :** TBD</td></tr>
+<tr><th colspan="2">Enseignements de test  </th></tr><br/><tr><td><strong>Problème</strong>: TBD</td><td><strong>Correction :</strong> TBD</td></tr>
 <tr><th colspan="2">BLOQUEURS identifiés </td></tr>
-<tr><td>**Bloqueur de fenêtres publicitaires**: TBD</td><td>**Correction**: TBD</td></tr>
+<tr><td><strong>Bloqueur de fenêtres publicitaires</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
 </table>
 
 > [!TIP]
@@ -733,8 +729,8 @@ Après avoir réalisé les tests portage des nombres, créez un rapport qui rés
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Points de décision</td><td><ul><li>Déterminez si soumis à la migration des numéros de service ont été correctement prise en charge par le service de conférence Audio.</li><li>Déterminez si vous avez réussi à affecter le nombre de ports de service pour le service de conférence Audio.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Votre numéro de portage des résultats des tests du document.</li><li>Exécuter des plans de réaffectation et de correction pour résoudre les problèmes que vous avez rencontré avec le processus portage numéro, le cas échéant.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Présenter les résultats des tests résumé au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminez si soumis à la migration des numéros de service ont été correctement prise en charge par le service de conférence Audio.</li><li>Déterminez si vous avez réussi à affecter le nombre de ports de service pour le service de conférence Audio.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Votre numéro de portage des résultats des tests du document.</li><li>Exécuter des plans de réaffectation et de correction pour résoudre les problèmes que vous avez rencontré avec le processus portage numéro, le cas échéant.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Présenter les résultats des tests résumé au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
 </table>
 
 
@@ -782,8 +778,8 @@ Comme des cas de test sont évalués pour les équipes d’administration et les
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Points de décision</td><td><ul><li>Évaluer l’état de réussite/échec de haut niveau des cas de test par site pour les fonctionnalités de conférence Audio dans la portée.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Les résultats de l’état cas de test pour tous les cas de test effectuées dans la portée du document.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Présenter les résultats de l’état de cas de test au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluer l’état de réussite/échec de haut niveau des cas de test par site pour les fonctionnalités de conférence Audio dans la portée.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Les résultats de l’état cas de test pour tous les cas de test effectuées dans la portée du document.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Présenter les résultats de l’état de cas de test au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
 </table>
 
 
@@ -803,10 +799,9 @@ Une fois que tous les cas de test dans la portée de prise en charge des fonctio
 <table>
 <tr><th colspan="2">Test d’actualités </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Enseignements de test  </th></tr>  
-<tr><td>**Problème**: TBD</td><td>**Correction :** TBD</td></tr>
+<tr><th colspan="2">Enseignements de test  </th></tr><br/><tr><td><strong>Problème</strong>: TBD</td><td><strong>Correction :</strong> TBD</td></tr>
 <tr><th colspan="2">BLOQUEURS identifiés </td></tr>
-<tr><td>**Bloqueur de fenêtres publicitaires**: TBD</td><td>**Correction**: TBD</td></tr>
+<tr><td><strong>Bloqueur de fenêtres publicitaires</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
 </table>
 
 
@@ -816,8 +811,8 @@ Une fois que tous les cas de test dans la portée de prise en charge des fonctio
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Points de décision</td><td><ul><li>Évaluer les résultats de synthèse de test de haut niveau par site pour les fonctionnalités de conférence Audio dans la portée.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Une fois que tous les résultats de cas de test ont été effectuées du document du rapport récapitulatif des cas de test.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Il est présent test synthèse des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluer les résultats de synthèse de test de haut niveau par site pour les fonctionnalités de conférence Audio dans la portée.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Une fois que tous les résultats de cas de test ont été effectuées du document du rapport récapitulatif des cas de test.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Il est présent test synthèse des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
 </table>
 
 
@@ -847,8 +842,8 @@ Une fois toutes les activités de tests ont été effectuées et défauts ayant 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Points de décision</td><td><ul><li>Déterminer l’état des tests résumé.</li><li>Identifier les tests actualités et enseignements.</li><li>Identifier les enseignements.</li><li>Décider quels correction actions restent, le cas échéant.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>Document test synthèse des résultats à inclure :<ul><li>Résumé de l’état</li><li>Actualités/enseignements</li><li>Enseignements</li></ul></li><li>Organiser une réunion du comité finale pour passer en revue les résultats des tests.</li><li>Passez en revue présent test synthèse des résultats pendant un comité directeur pour obtenir la signature finale pour la phase de test en quittant l’application.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminer l’état des tests résumé.</li><li>Identifier les tests actualités et enseignements.</li><li>Identifier les enseignements.</li><li>Décider quels correction actions restent, le cas échéant.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Document test synthèse des résultats à inclure :<ul><li>Résumé de l’état</li><li>Actualités/enseignements</li><li>Enseignements</li></ul></li><li>Organiser une réunion du comité finale pour passer en revue les résultats des tests.</li><li>Passez en revue présent test synthèse des résultats pendant un comité directeur pour obtenir la signature finale pour la phase de test en quittant l’application.</li></ul></td></tr>
 </table>
 
 

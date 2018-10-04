@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Résumé : Découvrez les éléments que vous devez prendre en compte lorsque vous planifiez une mise à niveau vers Skype Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 437c54513865ceb28f717f50b4619a735720c98b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dd62ee7b8b7721b8ace7c3e49dd69df60d3229f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882739"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375133"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Plan de mise à niveau vers Skype Entreprise Server 2015
  
@@ -138,13 +138,13 @@ Pour utiliser cette méthode, déplacez les utilisateurs vers un autre pool avan
     
 5. Installer la nouvelle configuration requise pour Skype pour Business Server.
     
-6.  Sur chaque serveur frontal, lancez la mise à niveau sur place.
+6. Sur chaque serveur frontal, lancez la mise à niveau sur place.
     
 7. Lorsque la mise à niveau est terminée, redémarrez tous les services.
     
-  - Pour le pool frontal, redémarrez les services en utilisant la commande Start-CsPool.
+   - Pour le pool frontal, redémarrez les services en utilisant la commande Start-CsPool.
     
-  - Pour les serveurs frontaux, utilisez Start-CSWindowsService.
+   - Pour les serveurs frontaux, utilisez Start-CSWindowsService.
     
 > [!NOTE]
 >  Si vous ne souhaitez pas mettre à niveaux vos bases de données d’archivage et de surveillance existants, supprimez la dépendance avant la mise à niveau de la topologie. Si vous voulez créer de nouvelles bases de données de surveillance et d’archivage, lors de la mise à niveau, vous pouvez créer un nouveau magasin SQL et l’associer au pool. Vous trouverez la procédure à suivre pour procéder ainsi dans la rubrique[mise à niveau vers Skype pour Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > Mise à niveau ne gère pas haute disponibilité et récupération d’urgence pour Skype pour Business Server. Pour éviter d’interrompre des services d’utilisateurs, utilisez la [méthode déplacer des utilisateurs (sans interruption de l’utilisateur)](upgrade.md#bkmk_MoveUsersMethod) à la mise à niveau. > au cours du processus de mise à niveau le réplica-xds est placé dans le dossier partagé local sur le lecteur de disque avec le plus d’espace libre. Si ce disque est supprimé par la suite, vous pouvez rencontrer des problèmes, comme des services qui ne démarrent pas.

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Concevoir et créer des flux de travail Response Group dans Skype pour Business Server Enterprise Voice. Les flux de travail de groupe de recherche et les flux de travail interactifs sont tous les deux couverts.
-ms.openlocfilehash: 3f653e7f4489a5125b7132354dade6740bc30981
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c141c5e933a54bc0d6234093441d1b66331713d9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882347"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372272"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Concevoir et créer des flux de travail de groupe de réponse dans Skype pour les entreprises
 
@@ -101,12 +101,12 @@ Un flux de travail définit également des paramètres, comme un message de bien
 
 17. Si vous souhaitez configurer un message de bienvenue, dans **Étape 3 Configuration d’un message de bienvenue**, activez la case à cocher **Lisez un message de bienvenue**, puis effectuez l’une des opérations suivantes :
 
-   - Pour entrer le message de bienvenue sous forme de texte converti en message vocal pour les appelants, cliquez sur **Utiliser la synthèse vocale**, puis tapez le message de bienvenue dans la zone de texte.
+    - Pour entrer le message de bienvenue sous forme de texte converti en message vocal pour les appelants, cliquez sur **Utiliser la synthèse vocale**, puis tapez le message de bienvenue dans la zone de texte.
 
     > [!NOTE]
     > N’incluez pas de balises HTML dans le texte que vous entrez. Si vous incluez des balises HTML, vous recevrez un message d’erreur.
 
-   - Pour utiliser un enregistrement de fichier son (.wav) ou audio Windows Media (.wma) pour le message de bienvenue, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier audio à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
+    - Pour utiliser un enregistrement de fichier son (.wav) ou audio Windows Media (.wma) pour le message de bienvenue, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier audio à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
     > [!NOTE]
     > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
@@ -118,15 +118,15 @@ Un flux de travail définit également des paramètres, comme un message de bien
 
 19. Sélectionnez le type d’heures d’ouverture à utiliser en effectuant l’une des opérations suivantes :
 
-   - Pour utiliser un planning prédéfini d’heures d’ouverture, cliquez sur **Utiliser un planning prédéfini**, puis sélectionnez le planning souhaité dans la liste déroulante.
+    - Pour utiliser un planning prédéfini d’heures d’ouverture, cliquez sur **Utiliser un planning prédéfini**, puis sélectionnez le planning souhaité dans la liste déroulante.
 
-     > [!NOTE]
-     > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Vous pouvez spécifier des plannings prédéfinis à l’aide de l’applet de commande **New-CSRgsHoursOfBusiness**. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour les entreprises](optional-define-response-group-business-hours.md).
+      > [!NOTE]
+      > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Vous pouvez spécifier des plannings prédéfinis à l’aide de l’applet de commande **New-CSRgsHoursOfBusiness**. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour les entreprises](optional-define-response-group-business-hours.md).
 
-     > [!NOTE]
-     > Lorsque vous sélectionnez un planning prédéfini, les champs **Jour**, **Ouverture** et **Fermeture** sont renseignés automatiquement avec les jours et les heures de disponibilité du groupe Response Group.
+      > [!NOTE]
+      > Lorsque vous sélectionnez un planning prédéfini, les champs **Jour**, **Ouverture** et **Fermeture** sont renseignés automatiquement avec les jours et les heures de disponibilité du groupe Response Group.
 
-   - Pour utiliser un planning personnalisé qui ne s’applique qu’à ce flux de travail, cliquez sur **Utiliser un planning personnalisé**.
+    - Pour utiliser un planning personnalisé qui ne s’applique qu’à ce flux de travail, cliquez sur **Utiliser un planning personnalisé**.
 
 20. Si vous créez un planning personnalisé pour ce flux de travail, activez les cases à cocher correspondant aux jours de la semaine pendant lesquels le groupe Response Group est disponible.
 
@@ -137,25 +137,25 @@ Un flux de travail définit également des paramètres, comme un message de bien
 
 22. Si vous souhaitez que la lecture d’un message se déclenche lorsque le bureau est fermé, activez la case à cocher **Lisez un message lorsque le service Response Group est en dehors des heures d’ouverture**, puis spécifiez le message à lire en effectuant l’une des opérations suivantes :
 
-   - Pour entrer le message sous forme de texte converti en message vocal pour l’appelant, cliquez sur **Utiliser la synthèse vocale**, puis tapez le message dans la zone de texte.
+    - Pour entrer le message sous forme de texte converti en message vocal pour l’appelant, cliquez sur **Utiliser la synthèse vocale**, puis tapez le message dans la zone de texte.
 
-     > [!NOTE]
-     > N’incluez pas de balises HTML dans le texte que vous entrez. Si vous incluez des balises HTML, vous recevrez un message d’erreur.
+      > [!NOTE]
+      > N’incluez pas de balises HTML dans le texte que vous entrez. Si vous incluez des balises HTML, vous recevrez un message d’erreur.
 
-   - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
+    - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
-     > [!NOTE]
-     > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers audio pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers audio pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 23. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
 
-   - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
+    - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
 
-   - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est _ \<nom d’utilisateur\>_@ _\<domainName\> _ (par exemple, bob@contoso.com).
+    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@ *\<domainName\> * (par exemple, bob@contoso.com).
 
-   - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@ _\<domainName\>_.
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@ _\<domainName\>_.
 
-   - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est _ \<numéro\>_@ _\<domainName\> _ (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
+    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@ *\<domainName\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
 
 24. Dans **Étape 5 Spécification de vos congés**, activez les cases à cocher correspondant à une ou plusieurs périodes de congés définissant les jours de fermeture du groupe Response Group.
 
@@ -164,36 +164,36 @@ Un flux de travail définit également des paramètres, comme un message de bien
 
 25. Si vous souhaitez que la lecture d’un message se déclenche pendant les congés, activez la case à cocher **Lisez un message pendant les congés**, puis spécifiez le message à lire en effectuant l’une des opérations suivantes :
 
-  - Pour entrer le message sous forme de texte converti en message vocal pour l’appelant, cliquez sur **Utiliser la synthèse vocale**, puis tapez le message dans la zone de texte.
+    - Pour entrer le message sous forme de texte converti en message vocal pour l’appelant, cliquez sur **Utiliser la synthèse vocale**, puis tapez le message dans la zone de texte.
 
     > [!NOTE]
     > N’incluez pas de balises HTML dans le texte que vous entrez. Si vous incluez des balises HTML, vous recevrez un message d’erreur.
 
-   - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
+    - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
-     > [!NOTE]
-     > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers audio pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers audio pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 26. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
 
-   - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
+    - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
 
-   - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est _ \<nom d’utilisateur\>_@ _\<domainName\> _ (par exemple, bob@contoso.com).
+    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@ *\<domainName\> * (par exemple, bob@contoso.com).
 
-   - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@ _\<domainName\>_.
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@ _\<domainName\>_.
 
-   - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est _ \<numéro\>_@ _\<domainName\> _ (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
+    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@ *\<domainName\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
 
 27. Dans **Étape 6 Configuration d’une file d’attente**, dans **Sélectionnez la file d’attente qui reçoit les appels**, sélectionnez la file d’attente dans laquelle mettre les appelants en attendant qu’un agent soit disponible.
 
 28. Dans **Étape 7 Configuration d’une attente musicale**, choisissez la musique que les appelants entendront pendant qu’ils attendent un agent. Pour cela, procédez de l’une des façons suivantes :
 
-   - Pour utiliser l’enregistrement d’attente musicale par défaut, cliquez sur **Utiliser la valeur par défaut**.
+    - Pour utiliser l’enregistrement d’attente musicale par défaut, cliquez sur **Utiliser la valeur par défaut**.
 
-   - Pour utiliser un enregistrement de fichier audio pour l’attente musicale, cliquez sur **Sélectionner un fichier de musique**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un fichier de musique**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
+    - Pour utiliser un enregistrement de fichier audio pour l’attente musicale, cliquez sur **Sélectionner un fichier de musique**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un fichier de musique**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
-     > [!NOTE]
-     > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers audio pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers audio pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 29. Cliquez sur **Déployer**.
 
@@ -448,12 +448,12 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
 19. Sélectionnez le type d’heures d’ouverture à utiliser en effectuant l’une des opérations suivantes :
 
-   - Pour utiliser un planning prédéfini d’heures d’ouverture, cliquez sur **Utiliser un planning prédéfini**, puis sélectionnez le planning souhaité dans la liste déroulante.
+    - Pour utiliser un planning prédéfini d’heures d’ouverture, cliquez sur **Utiliser un planning prédéfini**, puis sélectionnez le planning souhaité dans la liste déroulante.
 
-     > [!NOTE]
-     > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Vous pouvez spécifier des plannings prédéfinis à l’aide de l’applet de commande **New-CSRgsHoursOfBusiness**. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour les entreprises](optional-define-response-group-business-hours.md). Lorsque vous sélectionnez un planning prédéfini, les champs **Jour**, **Ouverture** et **Fermeture** sont renseignés automatiquement avec les jours et les heures de disponibilité du groupe Response Group.
+      > [!NOTE]
+      > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Vous pouvez spécifier des plannings prédéfinis à l’aide de l’applet de commande **New-CSRgsHoursOfBusiness**. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour les entreprises](optional-define-response-group-business-hours.md). Lorsque vous sélectionnez un planning prédéfini, les champs **Jour**, **Ouverture** et **Fermeture** sont renseignés automatiquement avec les jours et les heures de disponibilité du groupe Response Group.
 
-   - Pour utiliser un planning personnalisé qui ne s’applique qu’à ce flux de travail, cliquez sur **Utiliser un planning personnalisé**.
+    - Pour utiliser un planning personnalisé qui ne s’applique qu’à ce flux de travail, cliquez sur **Utiliser un planning personnalisé**.
 
 20. Si vous créez un planning personnalisé pour ce flux de travail, activez les cases à cocher correspondant aux jours de la semaine pendant lesquels le groupe Response Group est disponible.
 
@@ -466,8 +466,8 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
     - Pour entrer le message sous forme de texte converti en message vocal pour l’appelant, cliquez sur **Utiliser la synthèse vocale**, puis tapez le message dans la zone de texte.
 
-     > [!NOTE]
-     > N’incluez pas de balises HTML dans le texte que vous entrez. Si vous incluez des balises HTML, vous recevrez un message d’erreur.
+      > [!NOTE]
+      > N’incluez pas de balises HTML dans le texte que vous entrez. Si vous incluez des balises HTML, vous recevrez un message d’erreur.
 
     - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
@@ -476,13 +476,13 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
 23. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
 
-     - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
+    - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
 
-     - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est _ \<nom d’utilisateur\>_@ _\<domainname\> _ (par exemple, bob@contoso.com).
+    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@ *\<domainname\> * (par exemple, bob@contoso.com).
 
-     - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@ _\<domainname\>_.
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@ _\<domainname\>_.
 
-     - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est _ \<numéro\>_@ _\<domainname\> _ (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
+    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@ *\<domainname\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
 
 24. Dans **Étape 5 Spécification de vos congés**, activez les cases à cocher correspondant à une ou plusieurs périodes de congés définissant les jours de fermeture du groupe Response Group.
 
@@ -491,25 +491,25 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
 25. Si vous souhaitez que la lecture d’un message se déclenche pendant les congés, activez la case à cocher **Lisez un message pendant les congés**, puis spécifiez le message à lire en effectuant l’une des opérations suivantes :
 
-   - Pour entrer le message sous forme de texte converti en message vocal pour l’appelant, cliquez sur **Utiliser la synthèse vocale**, puis tapez le message dans la zone de texte.
+    - Pour entrer le message sous forme de texte converti en message vocal pour l’appelant, cliquez sur **Utiliser la synthèse vocale**, puis tapez le message dans la zone de texte.
 
-     > [!NOTE]
-     > N’incluez pas de balises HTML dans le texte que vous entrez. Si vous incluez des balises HTML, vous recevrez un message d’erreur.
+      > [!NOTE]
+      > N’incluez pas de balises HTML dans le texte que vous entrez. Si vous incluez des balises HTML, vous recevrez un message d’erreur.
 
-   - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
+    - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
-     > [!NOTE]
-     > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers audio pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers audio pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 26. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
 
     - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
 
-    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est _ \<nom d’utilisateur\>_@ _\<domainname\> _ (par exemple, bob@contoso.com).
+    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@ *\<domainname\> * (par exemple, bob@contoso.com).
 
     - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@ _\<domainname\>_.
 
-    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est _ \<numéro\>_@ _\<domainname\> _ (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
+    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@ *\<domainname\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
 
 27. Dans **Étape 6 Configuration d’une attente musicale**, indiquez ce que les appelants doivent entendre pendant qu’ils attendent un agent. Pour cela, procédez de l’une des façons suivantes :
 
@@ -530,10 +530,10 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
     > [!NOTE]
     > Le moteur de synthèse vocale convertit le symbole « # » par le mot « numéro ». Pour faire référence à la touche #, utilisez le nom de celle-ci au lieu de son symbole dans votre message d’invite. Par exemple, « Pour être mis en relation avec le service commercial, appuyez sur la touche dièse ».
 
-   - Pour utiliser un fichier audio préenregistré contenant la question, cliquez sur **Sélectionner un enregistrement**, puis cliquez sur le lien **un enregistrement** pour télécharger le fichier. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier audio, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier, puis vous pouvez taper la question dans la zone de texte (Cela permet la question et réponse de l’appelant, à transmettre à l’agent qui répond).
+    - Pour utiliser un fichier audio préenregistré contenant la question, cliquez sur **Sélectionner un enregistrement**, puis cliquez sur le lien **un enregistrement** pour télécharger le fichier. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier audio, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier, puis vous pouvez taper la question dans la zone de texte (Cela permet la question et réponse de l’appelant, à transmettre à l’agent qui répond).
 
-     > [!NOTE]
-     > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 29. Dans **Réponse 1**, spécifiez la première réponse possible à la question, comme suit :
 

@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40ed3d2cef71077dcc098ab42c5ecf3518d3c5fc
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9aeeab6f84b222500829282d29ac06ec73d42ecc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015820"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373335"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams 
 =========================================
@@ -65,9 +65,9 @@ Informations complémentaires :
 
 > [!NOTE]
 > Actuellement, si votre organisation a des exigences de conformité exigeant que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres sur site Exchange.
-
+> 
 > [!IMPORTANT]
-  Les utilisateurs de participer à des conversations qui font partie de la liste de conversation dans Microsoft Teams doivent avoir une Exchange Online (en nuage) boîte aux lettres pour un administrateur pour rechercher des conversations. C’est parce que les conversations qui font partie de la liste de conversation sont stockées dans les boîtes aux lettres en nuage de participants à la conversation. Si un participant de conversation ne possède une boîte aux lettres Exchange Online, l’administrateur sera en mesure de rechercher ou de placer une suspension des conversations. Par exemple, dans un déploiement Exchange hybride, les utilisateurs avec des boîtes aux lettres locales peuvent être en mesure de participer à des conversations qui font partie de la liste de conversation dans Microsoft Teams. Toutefois, dans ce cas, le contenu à partir de ces conversations n’est pas disponible pour la recherche et ne peut pas être mis en attente, car les utilisateurs ne possèdent des boîtes aux lettres en nuage. Pour plus d’informations sur les recherches de contenu et Teams Microsoft, voir [exécuter une recherche de contenu de la sécurité pour Microsoft Office 365 et le centre de conformité](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
-
+>   Les utilisateurs de participer à des conversations qui font partie de la liste de conversation dans Microsoft Teams doivent avoir une Exchange Online (en nuage) boîte aux lettres pour un administrateur pour rechercher des conversations. C’est parce que les conversations qui font partie de la liste de conversation sont stockées dans les boîtes aux lettres en nuage de participants à la conversation. Si un participant de conversation ne possède une boîte aux lettres Exchange Online, l’administrateur sera en mesure de rechercher ou de placer une suspension des conversations. Par exemple, dans un déploiement Exchange hybride, les utilisateurs avec des boîtes aux lettres locales peuvent être en mesure de participer à des conversations qui font partie de la liste de conversation dans Microsoft Teams. Toutefois, dans ce cas, le contenu à partir de ces conversations n’est pas disponible pour la recherche et ne peut pas être mis en attente, car les utilisateurs ne possèdent des boîtes aux lettres en nuage. Pour plus d’informations sur les recherches de contenu et Teams Microsoft, voir [exécuter une recherche de contenu de la sécurité pour Microsoft Office 365 et le centre de conformité](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+> 
 > [!TIP]
-  Pour plus d’informations sur l’utilisation d’Azure AD se connecter à synchroniser avec Azure Active Directory, voir [*intégration des identités avec Azure Active Directory local*](https://go.microsoft.com/fwlink/?linkid=854600).
+>   Pour plus d’informations sur l’utilisation d’Azure AD se connecter à synchroniser avec Azure Active Directory, voir [*intégration des identités avec Azure Active Directory local*](https://go.microsoft.com/fwlink/?linkid=854600).

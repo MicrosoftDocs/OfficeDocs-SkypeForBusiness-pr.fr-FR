@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Résumé : Passez en revue les considérations de type d’adresse IP ci-dessous avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: 4882ee24b0fb490dca4a2a961faa9b060663fcd0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 46d448e0004c9a83921f0c92d12513e39f076dc3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885412"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375202"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configuration des types d’adresse IP dans Skype Entreprise
 
@@ -38,19 +38,19 @@ Vous déployez des types d’adresses IP à l’aide des paramètres de topologi
 
    **Boîte de dialogue Modifier les propriétés du pool de serveurs frontaux**
 
-  - **Utiliser toutes les adresses IP configurées** : sélectionnez cette option pour autoriser l’utilisation de n’importe quelle adresse IP définie sur l’ordinateur à utiliser.
+   - **Utiliser toutes les adresses IP configurées** : sélectionnez cette option pour autoriser l’utilisation de n’importe quelle adresse IP définie sur l’ordinateur à utiliser.
 
-    > [!NOTE]
-    > Cette option est recommandée pour les configurations IP version 6 (IPv6).
+     > [!NOTE]
+     > Cette option est recommandée pour les configurations IP version 6 (IPv6).
 
-  - **Limiter l’utilisation des services aux adresses IP sélectionnées** : sélectionnez cette option pour spécifier une adresse spécifique à utiliser sur le nouveau serveur. Si vous la sélectionnez, vous devez entrer une valeur pour **Adresse IP principale**.
+   - **Limiter l’utilisation des services aux adresses IP sélectionnées** : sélectionnez cette option pour spécifier une adresse spécifique à utiliser sur le nouveau serveur. Si vous la sélectionnez, vous devez entrer une valeur pour **Adresse IP principale**.
 
-  - **Adresse IP principale** : entrez l’adresse IP que le serveur utilisera pour toutes les communications autres que celles effectuées via le réseau téléphonique commuté (RTC). Cette adresse IP doit correspondre au format du type d’adresse que vous avez sélectionné.
+   - **Adresse IP principale** : entrez l’adresse IP que le serveur utilisera pour toutes les communications autres que celles effectuées via le réseau téléphonique commuté (RTC). Cette adresse IP doit correspondre au format du type d’adresse que vous avez sélectionné.
 
-  - **Adresse IP RTC** : entrez l’adresse IP RTC à utiliser lorsqu’un serveur de médiation est colocalisé sur le serveur frontal. Cette adresse IP doit correspondre au format du type d’adresse que vous avez sélectionné.
+   - **Adresse IP RTC** : entrez l’adresse IP RTC à utiliser lorsqu’un serveur de médiation est colocalisé sur le serveur frontal. Cette adresse IP doit correspondre au format du type d’adresse que vous avez sélectionné.
 
-    > [!NOTE]
-    > L’installation de cartes d’interface réseau supplémentaire (NIC) pour prendre en charge la configuration d’adresse IP PSTN sur les serveurs frontaux n’est pas pris en charge. Pour plus d’informations sur les configurations de carte réseau pris en charge pour Skype pour Business Server, voir [plateformes matérielles de serveur pour Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+     > [!NOTE]
+     > L’installation de cartes d’interface réseau supplémentaire (NIC) pour prendre en charge la configuration d’adresse IP PSTN sur les serveurs frontaux n’est pas pris en charge. Pour plus d’informations sur les configurations de carte réseau pris en charge pour Skype pour Business Server, voir [plateformes matérielles de serveur pour Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Déploiement des types d’adresse IP sur un serveur de médiation
 

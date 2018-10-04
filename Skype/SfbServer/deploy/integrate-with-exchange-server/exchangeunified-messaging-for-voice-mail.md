@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Résumé : Configurez messagerie unifiée Exchange Server pour Skype pour la messagerie vocale Business Server.'
-ms.openlocfilehash: 21664f50b657324b4e70e86da83a4abbe1c14239
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 09ff81c170713f1dd3235f3968d586afc80929fd
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979310"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375810"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configuration de la messagerie unifiée d’Exchange Server pour la messagerie vocale de Skype Entreprise Server
  
@@ -109,8 +109,8 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 Pour configurer Exchange messagerie unifiée (MU) pour travailler avec Enterprise Voice, vous devez effectuer les tâches suivantes :
 
 - Configurer des certificats sur le serveur exécutant les services de messagerie unifiée Exchange (MU)
-> [!NOTE]
-> Ajoutez tous les accès au Client et les serveurs de boîtes aux lettres à tous les plans de numérotation de messagerie unifiée les URI SIP. Si, le routage des appels sortants ne fonctionne pas comme prévu. 
+  > [!NOTE]
+  > Ajoutez tous les accès au Client et les serveurs de boîtes aux lettres à tous les plans de numérotation de messagerie unifiée les URI SIP. Si, le routage des appels sortants ne fonctionne pas comme prévu. 
 - Créez un ou plusieurs plans de numérotation de MU les URI SIP, ainsi que de l’abonné accéder aux numéros de téléphone, selon vos besoins, puis créer des plans de numérotation L correspondants.
 
 - Utilisez le script exchucutil.ps1 pour :
@@ -128,8 +128,8 @@ Avant de commencer, la documentation de cette section suppose que vous avez dép
 Notez également les éléments suivants :
 - Si la messagerie unifiée Exchange est installée dans plusieurs forêts, les étapes d’intégration Exchange Server doivent être effectuées pour chaque forêt de messagerie unifiée. En outre, chaque forêt de messagerie unifiée doit être configuré pour approuver la forêt dans laquelle Skype pour Business Server est déployé et la forêt dans whichSkype pour Business Server est déployé doit être configurée pour l’approbation de chaque forêt de messagerie unifiée.
 - Étapes d’intégration sont effectuées sur les deux les rôles de serveur Exchange exécutant des services de messagerie unifiée et sur le serveur exécutant Skype pour Business Server. Vous devez effectuer les étapes d’intégration de messagerie unifiée Exchange Server avant d’effectuer les étapes d’intégration de Lync Server 2013.
-> [!NOTE]
-> Pour voir quelles étapes d’intégration sont effectuées sur quels serveurs et par quels rôles d’administrateur, voir [vue d’ensemble du processus de déploiement pour l’intégration de la messagerie unifiée et locaux Skype pour les entreprises](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md). 
+  > [!NOTE]
+  > Pour voir quelles étapes d’intégration sont effectuées sur quels serveurs et par quels rôles d’administrateur, voir [vue d’ensemble du processus de déploiement pour l’intégration de la messagerie unifiée et locaux Skype pour les entreprises](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md). 
 
 Les outils suivants doivent être disponibles sur chaque serveur exécutant la messagerie unifiée Exchange :
 - Exchange Management Shell
@@ -151,8 +151,8 @@ Lorsque vous êtes intégration Microsoft Skype pour Business Server avec Exchan
 
 - Crée un groupement de postes de messagerie unifiée pour chaque passerelle IP de messagerie unifiée. L’identificateur pilote de chaque groupe de recherche spécifie le plan de numérotation de messagerie unifiée les URI SIP utilisé par le Skype pour Business Server frontal ou serveur Standard Edition server qui est associé à la passerelle IP de messagerie unifiée.
 - Accorde Skype pour Business Server l’autorisation de lecture de numérotation de messagerie unifiée Active Directory des objets conteneurs tels que la messagerie unifiée plans, les standards automatiques, les passerelles IP de messagerie unifiée et groupements de postes de messagerie unifiée.
-> [!IMPORTANT]
-> Chacune des forêts doivent être configuré pour approuver la forêt dans laquelle Skype pour Business Server est déployé et la forêt dans laquelle est déployé Skype pour Business Server 2013 doit être configurée pour l’approbation de chaque forêt de messagerie unifiée. Si la messagerie unifiée Exchange est installée dans plusieurs forêts, les étapes d’intégration Exchange Server doivent être effectuées pour chaque forêt de messagerie unifiée ou vous devrez spécifier le Skype pour le domaine du serveur d’entreprise. Par exemple, ExchUcUtil.ps1 – forêt : < lync-domaine-contrôleur-nom de domaine complet >. 
+  > [!IMPORTANT]
+  > Chacune des forêts doivent être configuré pour approuver la forêt dans laquelle Skype pour Business Server est déployé et la forêt dans laquelle est déployé Skype pour Business Server 2013 doit être configurée pour l’approbation de chaque forêt de messagerie unifiée. Si la messagerie unifiée Exchange est installée dans plusieurs forêts, les étapes d’intégration Exchange Server doivent être effectuées pour chaque forêt de messagerie unifiée ou vous devrez spécifier le Skype pour le domaine du serveur d’entreprise. Par exemple, ExchUcUtil.ps1 – forêt : < lync-domaine-contrôleur-nom de domaine complet >. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Utiliser le Shell pour exécuter le script ExchUcUtil.ps1
 
@@ -191,8 +191,8 @@ Le serveur Exchange doit être configuré avec un certificat de serveur afin de 
 1. Sur le serveur exécutant la messagerie unifiée Exchange, cliquez sur **Démarrer**, sur **exécuter**, type **http://\<nom de votre serveur d’autorité de certification émettrice > / certsrv**, puis cliquez sur **OK**.
 2. Sous Sélectionnez une tâche, cliquez sur **télécharger un certificat autorité de certification, chaîne de certificats ou une liste de révocation**.
 3. Sous **télécharger un certificat d’autorité de certification, la chaîne de certificats ou la révocation de certificats**, sélectionnez la **Méthode de codage Base 64**, puis cliquez sur**Télécharger l’autorité de certification**.
-> [!NOTE]
-> Vous pouvez également spécifier de codage unique codage DER (Rules). Si vous sélectionnez cette méthode, le type de fichier à l’étape suivante de cette procédure et à l’étape 10 **pour installer l’autorité de certification le certificat** est .p7b et non .cer. 
+   > [!NOTE]
+   > Vous pouvez également spécifier de codage unique codage DER (Rules). Si vous sélectionnez cette méthode, le type de fichier à l’étape suivante de cette procédure et à l’étape 10 **pour installer l’autorité de certification le certificat** est .p7b et non .cer. 
 4. Dans la boîte de dialogue **Téléchargement de fichier** , cliquez sur **Enregistrer**, puis enregistrez le fichier sur le disque dur sur le serveur. (Le fichier aura .cer ou une extension de fichier .p7b, selon la méthode de codage que vous avez sélectionné à l’étape précédente.)
 
 **Pour installer le certificat d’autorité de certification :**

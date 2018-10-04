@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lisez cette rubrique pour en savoir plus sur la gestion des systèmes de salle Skype v2, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 52e02ff1f87d06088636b2f44706ec03c62675f3
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 5dcfcf13b22e7ad110b675d5d202f1ad53d32687
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965890"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373646"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Opérations et maintenance v2 de systèmes de salle de Skype 
  
@@ -234,9 +234,9 @@ La console est désormais dans son mode de fonctionnement normal. La procédure 
     
 4. Redémarrez l’ordinateur lorsque vous avez terminé.
     
- Redémarrage de la console dans son mode de fonctionnement normal, l’application v2 de systèmes de salle Skype en cours d’exécution. Vous pouvez supprimer le clavier, si elle a été attachée afin que vous puissiez effectuer cette procédure.
-## <a name="troubleshooting-tips"></a>Astuces de dépannage
-<a name="TS"> </a>
+   Redémarrage de la console dans son mode de fonctionnement normal, l’application v2 de systèmes de salle Skype en cours d’exécution. Vous pouvez supprimer le clavier, si elle a été attachée afin que vous puissiez effectuer cette procédure.
+   ## <a name="troubleshooting-tips"></a>Astuces de dépannage
+   <a name="TS"> </a>
 
 - Les invitations aux réunions peut ne pas apparaîtront lors de l’envoi au-delà des frontières du domaine (par exemple, entre les deux sociétés). Dans ce cas, les administrateurs informatiques doivent décider s’il faut autoriser les utilisateurs externes organiser une réunion.
     

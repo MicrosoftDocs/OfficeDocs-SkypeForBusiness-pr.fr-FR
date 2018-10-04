@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
-ms.openlocfilehash: af4f7621f9b5a70bc9b8a7ce87e50a6e6791ea63
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: ddcc4da301d491d763baf736053fd8eaeaee1b87
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358978"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375505"
 ---
 # <a name="release-notes"></a>Notes de publication 
 
@@ -161,7 +161,7 @@ Introduite dans cette mise à jour :
 - Invitez des contacts via votre annuaire qui vous indiquera leur disponibilité, ou via un appel téléphonique
 - Prise en charge de la conférence PSTN Skype Entreprise et de la fonction d’appel PSTN pour remplacer le téléphone de conférence autonome de votre salle de réunion
     
- **Conversion d’un espace de réunion**
+  **Conversion d’un espace de réunion**
   
 - Optimisation de l’application de réunion Skype dédiée pour le centre du contrôleur tactile et large écran d’affichage
 - Réutilisation des investissements existants de votre écran d’affichage ou vos projecteurs
@@ -169,7 +169,7 @@ Introduite dans cette mise à jour :
 - Des périphériques audio et vidéo Skype Entreprise certifiés sont disponibles pour différentes tailles d’espace
 - Réception par câble intégrée pour la projection du bureau partagé vers la salle et la réunion Skype
     
- **Facilité de déploiement, simplicité de gestion**
+  **Facilité de déploiement, simplicité de gestion**
   
 - Appareil fonctionnant en continu qui active l’écran d’affichage lorsqu’il détecte des personnes dans la salle
 - Déploiement simple et mise à jour de l’application de réunion Skype UWP (plateforme Windows universelle)

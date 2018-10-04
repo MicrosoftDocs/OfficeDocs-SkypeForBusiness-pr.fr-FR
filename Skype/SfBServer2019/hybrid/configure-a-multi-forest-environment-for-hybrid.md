@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: Les sections suivantes fournissent des instructions sur la façon de configurer un environnement comprenant plusieurs forêts dans un modèle de forêt de ressources/de l’utilisateur à fournir Skype pour les fonctionnalités dans un scénario hybride.
-ms.openlocfilehash: c07dde4db2457821a34a5419a259bfe611c3db1a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 72c0a91c3a5a90b4ec83eb5f71a5601ccfb48bb1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030727"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375105"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configuration d’un environnement à forêts multiples pour un environnement hybride Skype pour les entreprises
  
@@ -64,7 +64,7 @@ Le [choisi d’attribut de lien compte](https://azure.microsoft.com/en-us/docume
   
 Ne pas synchroniser l’UPN entre les forêts. Lors des tests, nous avons découvert qu’il fallait utiliser un UPN unique pour chaque forêt d’utilisateurs, car il est impossible d’utiliser le même UPN dans plusieurs forêts. Il reste par conséquent deux possibilités : synchroniser l’UPN ou non. 
   
--  Si l’UPN unique à partir de chaque forêt d’utilisateur n’a pas été synchronisé à l’objet associé désactivé dans la forêt de ressources, authentification unique (SSO) doit être fractionné au moins la tentative de connexion initiale (en supposant que l’utilisateur a sélectionné l’option Enregistrer le mot de passe). Dans Skype pour client d’entreprise, nous partons du principe que les valeurs SIP/UPN sont les mêmes. Étant donné que l’adresse SIP dans ce scénario est user@company.com, mais que l’UPN de l’objet activé dans la forêt est en fait user@contoso.company.com, la tentative de connexion initiale échouera et l’utilisateur sera invité à entrer ses informations d’identification. En entrant l’UPN correct/réel, la demande d’authentification sera effectuée sur les contrôleurs de domaine dans la forêt d’utilisateurs, et la connexion aboutira.
+- Si l’UPN unique à partir de chaque forêt d’utilisateur n’a pas été synchronisé à l’objet associé désactivé dans la forêt de ressources, authentification unique (SSO) doit être fractionné au moins la tentative de connexion initiale (en supposant que l’utilisateur a sélectionné l’option Enregistrer le mot de passe). Dans Skype pour client d’entreprise, nous partons du principe que les valeurs SIP/UPN sont les mêmes. Étant donné que l’adresse SIP dans ce scénario est user@company.com, mais que l’UPN de l’objet activé dans la forêt est en fait user@contoso.company.com, la tentative de connexion initiale échouera et l’utilisateur sera invité à entrer ses informations d’identification. En entrant l’UPN correct/réel, la demande d’authentification sera effectuée sur les contrôleurs de domaine dans la forêt d’utilisateurs, et la connexion aboutira.
     
 - Si l’UPN unique à partir de chaque forêt d’utilisateurs a été synchronisé avec l’objet désactivé associé dans la forêt de ressources, l’authentification AD FS échouent. La règle de correspondance recherchera l’UPN principal sur l’objet dans la forêt de ressources, qui a été désactivé et ne peut être utilisé pour l’authentification. 
     

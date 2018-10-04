@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Découvrez comment activer et utiliser le Skype pour Business Online Dashboard qualité des appels et obtenir des rapports de synthèse de la qualité des appels. '
-ms.openlocfilehash: bf7540d7c83fb8a3f7507fb4a8fcbcd8e820e2e2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 008fbeca5ae9b81d74e9a38f60c12a6fc1f919cc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017888"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373807"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et à l’aide de tableau de bord qualité d’appel pour Microsoft Teams et Skype pour Business Online
 
@@ -186,11 +186,11 @@ Le tableau de bord des rapports de synthèse CQD comprend une page **De téléch
     
 2. Après avoir sélectionné le type de données de fichier, cliquez sur **Parcourir** pour choisir un fichier de données.
     
-  - Le fichier de données doit être un fichier .tsv (valeurs séparées par des tabulations) ou .csv (valeurs séparées par des virgules). Si vous utilisez un fichier .csv, un champ qui contient une virgule doivent être entourées de guillemets ou que la virgule supprimée. Par exemple, si votre nom est NY, NY, dans le fichier .csv elle doit être saisie comme « NY, NY ».
+   - Le fichier de données doit être un fichier .tsv (valeurs séparées par des tabulations) ou .csv (valeurs séparées par des virgules). Si vous utilisez un fichier .csv, un champ qui contient une virgule doivent être entourées de guillemets ou que la virgule supprimée. Par exemple, si votre nom est NY, NY, dans le fichier .csv elle doit être saisie comme « NY, NY ».
     
-  - Le fichier de données doit être non supérieur à 50 Mo.
+   - Le fichier de données doit être non supérieur à 50 Mo.
     
-  - Pour chaque fichier de données, chaque colonne dans le fichier doit correspondre à un type de données prédéfini, décrit plus loin dans cette rubrique.
+   - Pour chaque fichier de données, chaque colonne dans le fichier doit correspondre à un type de données prédéfini, décrit plus loin dans cette rubrique.
     
 3. Après avoir sélectionné un fichier de données, spécifiez la **date de début** et, éventuellement, **Spécifiez une date de fin**.
     

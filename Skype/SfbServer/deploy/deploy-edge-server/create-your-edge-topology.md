@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Résumé : Apprenez à créer, publier et exporter votre topologie de serveur de transport Edge dans Skype pour Business Server.'
-ms.openlocfilehash: 772a37437af902513d7245a1e8bd18a565fca5e9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b01f0c107207d79f62a092acc2e287e632969234
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883914"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372772"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Créer votre topologie du périmètre pour Skype pour Business Server
  
@@ -144,7 +144,7 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
     
    - Activer IPv6 sur l’interface externe
     
-    Ils sont suffisamment explicites, si vous utilisez des adresses IPv4 ou IPv6, et que vous appliquez ces adresses sur votre serveur Edge interne ou externe (vous devez pour cela n’oubliez pas de l’étape 11). Vous avez également la possibilité de configurer votre serveur Edge ou votre pool de serveurs Edge à utiliser une adresse NAT (traduction) de réseau pour l’adresse IP externe. Pour cela, activez la case à cocher **L’adresse IP externe de ce pool Edge est convertie par NAT**. Cliquez sur **Suivant** lorsque vous avez terminé.
+     Ils sont suffisamment explicites, si vous utilisez des adresses IPv4 ou IPv6, et que vous appliquez ces adresses sur votre serveur Edge interne ou externe (vous devez pour cela n’oubliez pas de l’étape 11). Vous avez également la possibilité de configurer votre serveur Edge ou votre pool de serveurs Edge à utiliser une adresse NAT (traduction) de réseau pour l’adresse IP externe. Pour cela, activez la case à cocher **L’adresse IP externe de ce pool Edge est convertie par NAT**. Cliquez sur **Suivant** lorsque vous avez terminé.
     
 9. Dans l’écran de noms de domaine complets externes, vos options dépendent de la sélection effectuée lors de l’étape 7 ci-dessus.
     
@@ -212,10 +212,10 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
     
    - Activer IPv6 sur l’interface externe
     
-    Ils sont suffisamment explicites, si vous utilisez des adresses IPv4 ou IPv6, et que vous appliquez ces adresses sur votre serveur Edge interne ou externe (vous devez pour cela n’oubliez pas de l’étape 11).
+     Ils sont suffisamment explicites, si vous utilisez des adresses IPv4 ou IPv6, et que vous appliquez ces adresses sur votre serveur Edge interne ou externe (vous devez pour cela n’oubliez pas de l’étape 11).
     
-    > [!NOTE]
-    > Contrairement à l’autres deux options de topologie, lors de l’utilisation d’un mécanisme d’équilibrage de charge, vous **Ne doit pas** sélectionner l’option **l’adresse IP externe du Pool Edge est traduit par NAT**. Il s’agit **pas pris en charge**.
+     > [!NOTE]
+     > Contrairement à l’autres deux options de topologie, lors de l’utilisation d’un mécanisme d’équilibrage de charge, vous **Ne doit pas** sélectionner l’option **l’adresse IP externe du Pool Edge est traduit par NAT**. Il s’agit **pas pris en charge**.
   
 9. Dans l’écran de noms de domaine complets externes, vos options dépendent de la sélection effectuée lors de l’étape 7 ci-dessus.
     

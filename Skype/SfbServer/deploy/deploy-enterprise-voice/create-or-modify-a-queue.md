@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Créer ou modifier une file d’attente Response Group, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: cdddb57c3f0e06e851f39cba4b6f8322a28fd3fa
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a77940bae3dd720594619ebffc1858dae2a161ba
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888150"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374514"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Créer ou modifier une file d’attente dans Skype pour les entreprises
  
@@ -57,8 +57,8 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
    - Pour modifier l’ordre de recherche des agents, cliquez sur un groupe dans la liste des groupes d’agents, puis sur la flèche vers le haut ou vers le bas.
     
-    > [!NOTE]
-    > Lorsque le serveur recherche un agent disponible pour la file d’attente, il suit l’ordre des groupes. Autrement dit, la recherche s’effectue d’abord dans le premier groupe de la liste, puis dans le deuxième, et ainsi de suite. 
+     > [!NOTE]
+     > Lorsque le serveur recherche un agent disponible pour la file d’attente, il suit l’ordre des groupes. Autrement dit, la recherche s’effectue d’abord dans le premier groupe de la liste, puis dans le deuxième, et ainsi de suite. 
   
 8. Pour spécifier une durée maximale pendant laquelle un appelant peut être mis en attente avant qu’un agent prenne l’appel, activez la case à cocher **Activer le délai d’expiration de la file d’attente**, puis procédez comme suit :
     
@@ -66,15 +66,15 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
     b. Dans **Action d’appel**, sélectionnez l’action effectuée lorsqu’un appel arrive à expiration, comme suit :
     
-     - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
+   - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-     - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis, dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format sip : _ \<nom d’utilisateur\>_@ _\<domainname\> _ (pour exemple, sip:bob@contoso.com).
+   - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis, dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format sip : * \<nom d’utilisateur\>*@ *\<domainname\> * (pour exemple, sip:bob@contoso.com).
     
-     - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis, dans le champ **adresse SIP** , tapez le numéro de téléphone au format sip : _ \<numéro\>_@ _\<domainname\>_ (par exemple, sip:+14255550121@contoso.com).
+   - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis, dans le champ **adresse SIP** , tapez le numéro de téléphone au format sip : * \<numéro\>*@ *\<domainname\>* (par exemple, sip:+14255550121@contoso.com).
     
-     - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’adresse SIP**, puis, dans le champ **adresse IP** , tapez l’URI de l’utilisateur au format sip : _ \<nom d’utilisateur\>_@ _\<domainname\>_.
+   - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’adresse SIP**, puis, dans le champ **adresse IP** , tapez l’URI de l’utilisateur au format sip : _ \<nom d’utilisateur\>_@ _\<domainname\>_.
     
-     - Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.
+   - Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.
     
 9. Pour spécifier un nombre maximal d’appels pouvant être stockés dans la file d’attente, activez la case à cocher **Activer le débordement de la file d’attente**, puis procédez comme suit :
     
@@ -84,15 +84,15 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
     c. Dans **Action d’appel**, sélectionnez l’action à effectuer lorsque le seuil de saturation est atteint :
     
-     - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
+   - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-     - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis, dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format sip : _ \<nom d’utilisateur\>_@ _\<domainname\> _ (pour exemple, sip:bob@contoso.com).
+   - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis, dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format sip : * \<nom d’utilisateur\>*@ *\<domainname\> * (pour exemple, sip:bob@contoso.com).
     
-     - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis, dans le champ **adresse SIP** , tapez le numéro de téléphone au format sip : _ \<numéro\>_@ _\<domainname\>_ (par exemple, sip:+14255550121@contoso.com).
+   - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis, dans le champ **adresse SIP** , tapez le numéro de téléphone au format sip : * \<numéro\>*@ *\<domainname\>* (par exemple, sip:+14255550121@contoso.com).
     
-     - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’adresse SIP**, puis, dans le champ **adresse IP** , tapez l’URI de l’utilisateur au format sip : _ \<nom d’utilisateur\>_@ _\<domainname\>_.
+   - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’adresse SIP**, puis, dans le champ **adresse IP** , tapez l’URI de l’utilisateur au format sip : _ \<nom d’utilisateur\>_@ _\<domainname\>_.
     
-     - Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.
+   - Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.
     
 10. Cliquez sur **Valider**.
     
@@ -137,24 +137,24 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
 
 5. Créez le message à lire lorsque le seuil de saturation de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
-  ```
-  $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
-  ```
+   ```
+   $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
+   ```
 
    Exemple :
     
-  ```
-  $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
-  ```
+   ```
+   $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
+   ```
 
       > [!NOTE]
       > Pour utiliser un fichier audio pour l’invite, utilisez la cmdlet **Import-CsRgsAudioFile** . Pour plus d’informations, voir [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Définissez l’action à exécuter lorsque le seuil de saturation de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
-  ```
-  $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
-  ```
+   ```
+   $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
+   ```
 
     > [!NOTE]
     > Pour plus d’informations sur les actions possibles et leur syntaxe, voir [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
@@ -194,9 +194,9 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
 
 10. Vérifiez que la file d’attente est créée. Exécutez la commande suivante :
     
-   ```
-   Get-CsRgsQueue -Name "Help Desk"
-   ```
+    ```
+    Get-CsRgsQueue -Name "Help Desk"
+    ```
 
 ## <a name="see-also"></a>Voir aussi
 

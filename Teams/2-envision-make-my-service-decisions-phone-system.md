@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0794af6763dd91005bbe8dcd8b19e5a97db55d20
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1f73c61b1c02f9560e3419d8993d998fa8f0ba9d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014442"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374794"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -67,6 +67,7 @@ Avant de planifier l’implémentation de l’appel des Plans dans les équipes,
 Après avoir confirmé que votre organisation peut obtenir le service d’appel de Plans, compiler la liste des emplacements de l’utilisateur ou de bureaux où vous allez être implémentant le service des Plans de l’appel, en fonction de la liste des pays et régions disponibles.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer les emplacements de l’utilisateur ou les bureaux, vous allez implémenter l’appel des Plans de service dans.</li></ul>|
@@ -74,6 +75,7 @@ Après avoir confirmé que votre organisation peut obtenir le service d’appel 
 
 > [!TIP]
 > Voici un exemple d’un système téléphonique avec la liste des activation appelant des Plans de site.
+> 
 > | **Bureau**                     | **Emplacement**   | **Service de système téléphonique** |
 > |--------------------------------|----------------|--------------------------|
 > | 1 Eppîng Road                | Australie      | Service PSTN hérité |
@@ -102,6 +104,7 @@ Pour en savoir plus sur les emplacements d’urgence par rapport à l’appelant
 -   [Conditions générales relatives aux appels d'urgence](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez la granularité des informations sur l’emplacement d’urgence à collecter pour les emplacements de l’utilisateur ou de bureaux dans la portée de l’implémentation des Plans de l’appel.</li></ul>|
@@ -109,14 +112,15 @@ Pour en savoir plus sur les emplacements d’urgence par rapport à l’appelant
 
 > [!TIP]
 > Vous pouvez utiliser le modèle suivant pour documenter les détails des numéros de téléphone et les détails de l’emplacement en cas d’urgence.
->|Utilisateur |Adresse et l’emplacement en cas d’urgence |Numéro de téléphone |
->|-----|-------------------------------|-------------|
->|Emily Braun |1034/32 London Bridge Street, Londres, SE1, Royaume-Uni |+ 44 23 4567 8901 |
->|Lidia Holloway |1065/32 Londres pont rue, London, SE1, Royaume-Uni |+ 44 23 4567 89112 |
->|Louis Lahr |1023/32 London Bridge Street, Londres, SE1, Royaume-Uni |+ 44 23 4567 8921 |
->|Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
->|Rachelle Cormier |07N15D/39 quai du Président Roosevelt, Issy 92130-les-Moulineaux, France | TBA |
->|Isabell Potvin |07F05E/39 quai du Président Roosevelt, Issy 92130-les-Moulineaux, France | TBA |
+> 
+> |Utilisateur |Adresse et l’emplacement en cas d’urgence |Numéro de téléphone |
+> |-----|-------------------------------|-------------|
+> |Emily Braun |1034/32 London Bridge Street, Londres, SE1, Royaume-Uni |+ 44 23 4567 8901 |
+> |Lidia Holloway |1065/32 Londres pont rue, London, SE1, Royaume-Uni |+ 44 23 4567 89112 |
+> |Louis Lahr |1023/32 London Bridge Street, Londres, SE1, Royaume-Uni |+ 44 23 4567 8921 |
+> |Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
+> |Rachelle Cormier |07N15D/39 quai du Président Roosevelt, Issy 92130-les-Moulineaux, France | TBA |
+> |Isabell Potvin |07F05E/39 quai du Président Roosevelt, Issy 92130-les-Moulineaux, France | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -134,6 +138,7 @@ La messagerie vocale du système téléphonique inclut la transcription des mess
 Pour plus d’informations sur la messagerie vocale dans une implémentation du système téléphonique, voir [messagerie vocale PBX Azure prend en charge pour Exchange Server](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans).
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si vous devez activer la messagerie vocale système téléphonique dans votre implémentation de Plans de l’appel.</li><li>Si l’aide d’Exchange sur site et votre déploiement existant ne répond pas à vos besoins pour prendre en charge le système téléphonique de la messagerie vocale, choisissez parmi les options disponibles (mise à niveau et d’installation pour la prise en charge de système téléphonique de la messagerie vocale, migrer vers Exchange Online ou exploiter les mécanisme de secours décrit plus haut).</li><li>Décider si vous activer ou désactiver la transcription de la messagerie vocale et masquage de gratuites transcription de la messagerie vocale dans toute l’organisation ou des utilisateurs spécifiques.</li></ul>|
@@ -141,14 +146,15 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 
 > [!TIP]
 > Détails de la messagerie vocale du système de téléphone pour le système téléphonique avec l’appel des Plans de mise en œuvre peut être documenté comme suit.
->|Utilisateur |Boîte aux lettres Exchange |Activer la messagerie vocale ? |Transcription de la messagerie vocale |Masquage de la messagerie vocale transcription gratuites |
->|------------------|------------------|-------------------|----------|----------|
->|Emily Braun      |En ligne      |Oui |Activé |Activé |
->|Lidia Holloway   |En ligne      |Oui |Activé |Désactivé |
->|Louis Lahr       |Local |Oui |Activé |Activé |
->|Marcel Beauchamp |Local |Oui |Désactivé |N/D |
->|Rachelle Cormier |En ligne      |Oui |Désactivé |N/D |
->|Isabell Potvin   |Local |Oui |Désactivé |N/D |
+> 
+> |Utilisateur |Boîte aux lettres Exchange |Activer la messagerie vocale ? |Transcription de la messagerie vocale |Masquage de la messagerie vocale transcription gratuites |
+> |------------------|------------------|-------------------|----------|----------|
+> |Emily Braun      |En ligne      |Oui |Activé |Activé |
+> |Lidia Holloway   |En ligne      |Oui |Activé |Désactivé |
+> |Louis Lahr       |Local |Oui |Activé |Activé |
+> |Marcel Beauchamp |Local |Oui |Désactivé |N/D |
+> |Rachelle Cormier |En ligne      |Oui |Désactivé |N/D |
+> |Isabell Potvin   |Local |Oui |Désactivé |N/D |
 
 <!--ENDOFSECTION-->
 
@@ -157,6 +163,7 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 Par défaut, tous les appels sortants utilisent le numéro de téléphone attribué en tant qu'identité d'appel (ID de l'appelant). Le destinataire de l'appel peut rapidement identifier l'appelant et décider d'accepter ou de refuser l'appel. Dans certains cas, il existe des besoins légitimes pour masquer l’ID d’appelant pour protéger l’identité des appelants en utilisant le numéro de ligne principale office — il s’agit généralement d’un numéro de service pris en charge par la configuration du standard automatique — en tant qu’ID d’appelant ou bloquer des ID de l’appelant présentation entièrement.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si manipulation de l’ID de l’appelant est requise pour l’implémentation de Plans de l’appel.</li><li>Le cas échéant, déterminez les types de manipulation de l’ID de l’appelant (masque de numéro de service ou Anonymiser) à mettre en œuvre.</li><li>Le cas échéant, décider quels utilisateurs ont besoin de manipulation de l’ID de l’appelant et le type de manipulation de l’ID de l’appelant à affecter à chaque utilisateur.</li></ul>|
@@ -164,14 +171,15 @@ Par défaut, tous les appels sortants utilisent le numéro de téléphone attrib
 
 > [!TIP]
 > Voici un exemple de la documentation plus d’informations de masquage des ID de l’appelant.
->|Utilisateur  |Activer le masquage de l'ID de l'appelant sortant  |Type de masquage de l'ID de l'appelant  |Autoriser le remplacement de l'utilisateur  | Activer le masquage de l'ID de l'appelant entrant  |
->|---------|---------|---------|---------|---------|
->|Emily Braun|Non|N/A|Oui|Non|
->|Lidia Holloway|Oui|Numéro de service (OrgAA, +44 20 7946 0000)|Non|Oui|
->|Louis Lahr|Non|N/A|Oui|Non|
->|Marcel Beauchamp|Oui|Numéro de service (OrgAA, TBA)|Non|Oui|
->|Rachelle Cormier|Oui|Anonymiser|Oui|Non|
->|Isabell Potvin|Oui|Numéro de service (OrgAA, TBA)|Non|Oui|
+> 
+> |Utilisateur  |Activer le masquage de l'ID de l'appelant sortant  |Type de masquage de l'ID de l'appelant  |Autoriser le remplacement de l'utilisateur  | Activer le masquage de l'ID de l'appelant entrant  |
+> |---------|---------|---------|---------|---------|
+> |Emily Braun|Non|N/A|Oui|Non|
+> |Lidia Holloway|Oui|Numéro de service (OrgAA, +44 20 7946 0000)|Non|Oui|
+> |Louis Lahr|Non|N/A|Oui|Non|
+> |Marcel Beauchamp|Oui|Numéro de service (OrgAA, TBA)|Non|Oui|
+> |Rachelle Cormier|Oui|Anonymiser|Oui|Non|
+> |Isabell Potvin|Oui|Numéro de service (OrgAA, TBA)|Non|Oui|
 
 <!--ENDOFSECTION-->
 
@@ -211,6 +219,7 @@ Pour en savoir plus sur le système téléphonique et Plans de l’appel, lisez 
 -   [Offres d'appels](https://products.office.com/skype-for-business/calling-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Si votre organisation ne possède pas la licence de système téléphonique nécessaire, décidez si vous permet d’acquérir la licence du système téléphonique par le renforcement de vos abonnements Office 365 existants ou à acquérir le service complémentaire système téléphonique.</li><li>Décider quels utilisateurs ont besoin d’une licence nationales appelant planifier et qui nécessitent une licence national et International appelant planifier.</li><li>Décider si vous devez crédits Communications pour votre mise en œuvre des Plans de l’appel.</li></ul>|
@@ -218,14 +227,15 @@ Pour en savoir plus sur le système téléphonique et Plans de l’appel, lisez 
 
 > [!TIP]
 > Vous pouvez utiliser l’exemple suivant l’attribution de licence pour le système téléphonique avec des utilisateurs d’appeler des Plans de document.
->|Utilisateur |Bureau |Licence Office 365 |Appel de Plan |
->|----|----|----|----|
->|Emily Braun |32 London Bridge Street |Office 365 E5 |Forfait d'appels nationaux et internationaux |
->|Lidia Holloway |32 London Bridge Street |Office 365 E5 |Forfait d'appels nationaux |
->|Louis Lahr |32 London Bridge Street |Office 365 E5 |Forfait d'appels nationaux |
->|Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3, module complémentaire système téléphonique |Forfait d'appels nationaux |
->|Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |Forfait d'appels nationaux et internationaux |
->|Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3, module complémentaire système téléphonique |Forfait d'appels nationaux |
+> 
+> |Utilisateur |Bureau |Licence Office 365 |Appel de Plan |
+> |----|----|----|----|
+> |Emily Braun |32 London Bridge Street |Office 365 E5 |Forfait d'appels nationaux et internationaux |
+> |Lidia Holloway |32 London Bridge Street |Office 365 E5 |Forfait d'appels nationaux |
+> |Louis Lahr |32 London Bridge Street |Office 365 E5 |Forfait d'appels nationaux |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3, module complémentaire système téléphonique |Forfait d'appels nationaux |
+> |Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |Forfait d'appels nationaux et internationaux |
+> |Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3, module complémentaire système téléphonique |Forfait d'appels nationaux |
 
 <!--ENDOFSECTION-->
 
@@ -240,6 +250,7 @@ Pour votre implémentation de Plans de l’appel, vous pouvez contrôler l’uti
 Pour en savoir plus sur les Communications crédits, passez en revue [Quelles sont les Communications crédits ?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si vous devez crédits Communications pour votre implémentation d’audioconférence ou des Plans de l’appel.</li></ul>|
@@ -247,23 +258,21 @@ Pour en savoir plus sur les Communications crédits, passez en revue [Quelles so
 
 > [!TIP]
 > L’exemple suivant vous permet de documenter la liste des affectations Communications générique pour les utilisateurs de Plans de l’appel.
->|Utilisateur |Bureau |Appel de Plan |Crédits de communication |
->|----|----|----|----|
->|Emily Braun |32 London Bridge Street |Forfait d'appels nationaux et internationaux |Activé |
->|Lidia Holloway |32 London Bridge Street |Forfait d'appels nationaux |Désactivé |
->|Louis Lahr |32 London Bridge Street |Forfait d'appels nationaux |Activé |
->|Marcel Beauchamp |39 quai du Président Roosevelt |Forfait d'appels nationaux |Désactivé |
->|Rachelle Cormier |39 quai du Président Roosevelt |Forfait d'appels nationaux et internationaux |Activé |
->|Isabell Potvin |39 quai du Président Roosevelt |Forfait d'appels nationaux |Désactivé |
+> 
+> |Utilisateur |Bureau |Appel de Plan |Crédits de communication |
+> |----|----|----|----|
+> |Emily Braun |32 London Bridge Street |Forfait d'appels nationaux et internationaux |Activé |
+> |Lidia Holloway |32 London Bridge Street |Forfait d'appels nationaux |Désactivé |
+> |Louis Lahr |32 London Bridge Street |Forfait d'appels nationaux |Activé |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Forfait d'appels nationaux |Désactivé |
+> |Rachelle Cormier |39 quai du Président Roosevelt |Forfait d'appels nationaux et internationaux |Activé |
+> |Isabell Potvin |39 quai du Président Roosevelt |Forfait d'appels nationaux |Désactivé |
 
 <br>
-> [!TIP]
-> Votre planification des numéros des crédits Communications pouvant être documentés comme dans l’exemple suivant.
->|         |         |
->|---------|---------|
->|Montant initial|1 000 $|
->|Montant déclencheur|400 $|
->|Montant de la recharge automatique|TBA|
+&gt; [!TIP]
+&gt;Votre planification des numéros des crédits Communications pouvant être documentés comme dans l’exemple suivant.
+&gt;|         |         | &gt;|---------|---------|
+&gt;| Quantité initiale | 1 000$ | &gt;| Quantité de déclencheur | 400 | &gt;| Montant auto-recharge | À DÉTERMINER |
 
 <!--ENDOFSECTION-->
 
@@ -290,6 +299,7 @@ Le nombre total de numéros de téléphone que vous pouvez obtenir dépendent du
 Pour plus d’informations sur le nombre total de numéros de téléphone que vous pouvez obtenir, voir [combien de numéros de téléphone peut obtenir ?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer les emplacements de l’utilisateur ou les bureaux où nouveaux numéros de téléphone seront acquis à partir de Microsoft.</li><li>Choisir le type de numéros de téléphone à acquérir de Microsoft.</li></ul>|
@@ -312,6 +322,7 @@ Portage numéro de téléphone est un sujet complexe et nécessite une planifica
 -   [Questions fréquentes à propos du transfert de numéros de téléphone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer les emplacements de l’utilisateur ou les bureaux où les numéros de téléphone existant seront transférés vers Microsoft.</li><li>Choisir le type de numéros de téléphone à transférer à Microsoft.</li></ul>|
@@ -343,6 +354,7 @@ Le plan de numérotation effectives attribué aux utilisateurs est la combinaiso
 Pour plus d’informations sur les plans de numérotation, voir [Quels sont les plans de numérotation ?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez si votre organisation nécessite des plans de numérotation personnalisé (impératifs d’entreprise, configuration requise d’adoption et ainsi de suite).</li><li>Le cas échéant, décider de l’étendue du plan de numérotation client (client globale ou utilisateur client) pour prendre en charge votre configuration requise pour les plans de numérotation personnalisé.</li><li>Le cas échéant, déterminez les plans de numérotation client que vous créerez pour prendre en charge des bureaux ou emplacements de l’utilisateur dans la portée de l’implémentation de la voix dans le nuage.</li><li>Le cas échéant, décider quels utilisateurs ont besoin d’un plan de numérotation personnalisé et le plan de numérotation client pour être attribué à chaque utilisateur.</li></ul>|
@@ -350,36 +362,24 @@ Pour plus d’informations sur les plans de numérotation, voir [Quels sont les 
 
 > [!TIP]
 > Si elle est applicable à votre projet, vous pouvez utiliser le modèle suivant pour documenter les configurations de plan de numérotation client.
->|Nom du plan de numérotation de client<br>_Description_  |Nom des règles de normalisation<br>_Description_  |Modèle<br>Conversion<br>IsInternalExtension  |
->|---------|---------|---------|
->|**AU-NSW-NorthRyde-OER**<br>_1 Epping Road North Ryde, NSW, plan de numérotation AU_|**AU-NSW-NorthRyde-OER-Internal**<br>_Numéro interne (x7000 - x7999) du 1 Epping Road office, North Ryde, NSW, Australie_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_Normalisation du numéro local pour NSW, Australie_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
->||**AU-TollFree**<br>_Normalisation du numéro gratuit pour l’Australie_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
->||**AU-Service**<br>_Normalisation du numéro de service pour l’Australie_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
->|**SG-Singapore-OMB**<br>_OMB Singapour, plan de numérotation SG_|**SG-OMB-Internal**<br>_Numéro interne (x8000 â « x 8999) pour office OMB, Singapour_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_Normalisation du numéro gratuit pour Singapour_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
->||**SG-Service**<br>_Normalisation du numéro de service pour Singapour_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000 d’â « x 7999) pour 39 quai du Président Roosevelt office, les Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> 
+> |Nom du plan de numérotation de client<br>_Description_  |Nom des règles de normalisation<br>_Description_  |Modèle<br>Conversion<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**AU-NSW-NorthRyde-OER**<br>_1 Epping Road North Ryde, NSW, plan de numérotation AU_|**AU-NSW-NorthRyde-OER-Internal**<br>_Numéro interne (x7000 - x7999) du 1 Epping Road office, North Ryde, NSW, Australie_|^(7\d{3})$<br>+6125550$1<br>True|
+> ||**AU-NSW-Local**<br>_Normalisation du numéro local pour NSW, Australie_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+> ||**AU-TollFree**<br>_Normalisation du numéro gratuit pour l’Australie_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+> ||**AU-Service**<br>_Normalisation du numéro de service pour l’Australie_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
+> |**SG-Singapore-OMB**<br>_OMB Singapour, plan de numérotation SG_|**SG-OMB-Internal**<br>_Numéro interne (x8000 â « x 8999) pour office OMB, Singapour_|^(8\d{3})$<br>+656888$1<br>True|
+> ||**SG-TollFree**<br>_Normalisation du numéro gratuit pour Singapour_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+> ||**SG-Service**<br>_Normalisation du numéro de service pour Singapour_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000 d’â « x 7999) pour 39 quai du Président Roosevelt office, les Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-> [!TIP]
-> Le modèle d'exemple ci-après peut être utilisé pour documenter les attributions de plan de numérotation afin de prendre en charge votre projet :
->|Utilisateur  |Bureau  |Type de plan de numérotation  |Nom du plan de numérotation  |
->|---------|---------|---------|---------|
->|Adele Vance|1 Eppîng Road|Plan de numérotation de client|AU-NSW-NorthRyde-OER|
->|Alex Wilber|1 Eppîng Road|Plan de numérotation de client|AU-NSW-NorthRyde-OER|
->|Ben Walters|1 Eppîng Road|Plan de numérotation de client|AU-NSW-NorthRyde-OER|
->|Christie Cline|1 Marina Boulevard|Plan de numérotation de client|SG-Singapore-OMB|
->|Debra Berger|1 Marina Boulevard|Plan de numérotation de client|SG-Singapore-OMB|
->|Lee Gu|1 Marina Boulevard|Plan de numérotation de client|SG-Singapore-OMB|
->|Emily Braun|32 London Bridge Street|Plan de numérotation de service|N/A|
->|Lidia Holloway|32 London Bridge Street|Plan de numérotation de service|N/A|
->|Louis Lahr|32 London Bridge Street|Plan de numérotation de service|N/A|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-30qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-30qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-30qdPR|
+&gt; [!TIP]
+&gt;L’exemple de modèle ci-dessous peut servir à des affectations de plan de numérotation de document pour prendre en charge de votre projet : &gt;| Utilisateur | Office | Type de Plan de numérotation | Nom du Plan de numérotation | &gt;|---------|---------|---------|---------|
+&gt;| Adele Vance | Un Epping route | Plan de numérotation client | AU-CA-NorthRyde-OER | &gt;| Alex Wilber | Un Epping route | Plan de numérotation client | AU-CA-NorthRyde-OER | &gt;| Famille Ben | Un Epping route | Plan de numérotation client | AU-CA-NorthRyde-OER | &gt;| Pierre efuser | Un Marina Boulevard | Plan de numérotation client | GS-Singapour-OMB | &gt;| Marie Dubois Berger | Un Marina Boulevard | Plan de numérotation client | GS-Singapour-OMB | &gt;| Lee Gu | Un Marina Boulevard | Plan de numérotation client | GS-Singapour-OMB | &gt;| Emily Braun | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Lidia Holloway | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Louis Lahr | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-30qdPR | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-30qdPR | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-30qdPR |
 
 <!--ENDOFSECTION-->
 

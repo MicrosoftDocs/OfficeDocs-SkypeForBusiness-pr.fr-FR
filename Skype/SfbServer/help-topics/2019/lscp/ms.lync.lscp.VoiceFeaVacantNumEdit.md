@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les numéros non attribués sont des numéros de téléphone valides pour votre organisation, mais qui ne sont pas attribués à un utilisateur ou à un téléphone. Le tableau des numéros non attribués identifie le mode de traitement des appels vers les numéros non attribués.
-ms.openlocfilehash: 6df9574bb6d999e4800c727f6cbabe0aa68818e9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f4428a0f3ec5e1da5267c23f9064815206262893
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244194"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373842"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Numéro de téléphone non attribués : Créer une nouvelle ou en modifier une existant
 
@@ -51,7 +51,7 @@ La liste ci-dessous décrit les champs de la page.
 
   - **Annonce** Sélectionnez l’annonce à associer à cette plage de numéros non attribués.
 
--  Si vous avez sélectionné **La messagerie unifiée Exchange** pour **le service d’annonce**:
+- Si vous avez sélectionné **La messagerie unifiée Exchange** pour **le service d’annonce**:
 
   - **Numéro de téléphone de standard automatique** Sélectionnez le numéro de téléphone du standard automatique Exchange UM.
 

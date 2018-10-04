@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Vidéos de formation, didacticiels et autres ressources pour les utilisateurs de votre organisation apprendre à utiliser des équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 584b812317d347f416f57dae3f8d65db37717af4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0c5caebccdf2617172ec90f1ea5d0f271455a26a
+ms.sourcegitcommit: 0cb35fd6e93939f2252d0729c7c08bac50e6cd6b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017150"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25402068"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les utilisateurs finaux
 
@@ -129,7 +129,7 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Passer aux équipes de Skype pour les entreprises</h3>
-                         <p>[Article : Passer aux équipes de Skype pour les entreprises](https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</p>
+                         <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">Article : Passer aux équipes de Skype pour les entreprises</a></p>
                     </div>
                 </div>
             </div>
@@ -140,10 +140,10 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Configurer des associations</h3>
-                         <p>[Vidéo : Démarrer votre équipe et en cours d’exécution](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
-                         <p>[Vidéo : Accédez à guide pour les propriétaires de l’équipe](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547)</p>
-                         <p>[Vidéo : Organiser votre liste des équipes](https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542)</p>
-                         <p>[Vidéo : Conseils pour la configuration des onglets, des canaux et des équipes](https://www.youtube.com/watch?v=hjJWtoaRJeE)</p> 
+                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Vidéo : Démarrer votre équipe et en cours d’exécution</a></p>
+                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Vidéo : Accédez à guide pour les propriétaires de l’équipe</a></p>
+                         <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">Vidéo : Organiser votre liste des équipes</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">Vidéo : Conseils pour la configuration des onglets, des canaux et des équipes</a></p> 
                     </div>
                 </div>
             </div>
@@ -154,10 +154,10 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Équipes et canaux</h3>
-                         <p>[Vidéo : Vue d’ensemble des équipes et canaux](https://support.office.com/article/video-overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46)</p>
-                         <p>[Vidéo : Favori et suivre des canaux](https://support.office.com/article/favorite-and-follow-channels-3f76dffd-78a8-49ca-b8de-28671cb444ba)</p>
-                         <p>[Vidéo : Utilisation de canaux](https://support.office.com/article/video-work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e)</p>
-                         <p>[Conseil vidéo : - Envoyer un message électronique à un canal](https://support.office.com/article/tip-send-email-to-a-channel-2c17dbae-acdf-4209-a761-b463bdaaa4ca)</p>
+                         <p><a href="https://support.office.com/article/video-overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46">Vidéo : Vue d’ensemble des équipes et canaux</a></p>
+                         <p><a href="https://support.office.com/article/favorite-and-follow-channels-3f76dffd-78a8-49ca-b8de-28671cb444ba">Vidéo : Favori et suivre des canaux</a></p>
+                         <p><a href="https://support.office.com/article/video-work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e">Vidéo : Utilisation de canaux</a></p>
+                         <p><a href="https://support.office.com/article/tip-send-email-to-a-channel-2c17dbae-acdf-4209-a761-b463bdaaa4ca">Conseil vidéo : - Envoyer un message électronique à un canal</a></p>
                     </div>
                 </div>
             </div>
@@ -169,9 +169,9 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Messages & billets</h3>
-                         <p>[Vidéo : Créer et mettre en forme une publication](https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885)</p>
-                         <p>[Vidéo : Obtenir une attention avec @mentions](https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b)</p>
-                         <p>[Vidéo : Enregistrer un billet ou un message](https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)</a></p>
+                         <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Vidéo : Créer et mettre en forme une publication</a></p>
+                         <p><a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Vidéo : Obtenir une attention avec @mentions</a></p>
+                         <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Vidéo : Enregistrer un billet ou un message</a></p>
                     </div>
                 </div>
             </div>
@@ -182,9 +182,9 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Réunions, appels et conversations</h3>
-                       <p>[Vidéo : Démarrer des conversations et émettre des appels](https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5)</p>
-                       <p>[Vidéo : Créer instantanément avec conférence maintenant](https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf)</p>
-                       <p>[Vidéo : Gérer des réunions](https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137)</p>
+                       <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">Vidéo : Démarrer des conversations et émettre des appels</a></p>
+                       <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">Vidéo : Créer instantanément avec conférence maintenant</a></p>
+                       <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">Vidéo : Gérer des réunions</a></p>
                     </div>
                 </div>
             </div>
@@ -196,10 +196,10 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Applications et outils</h3>
-                        <p>[Vidéo : Ajouter des outils avec onglets](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
-                         <p>[Vidéo : Activer un fichier dans un onglet](https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05)</p>
-                        <p>[Vidéo : Utilisez la boîte de commande](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b)</p>
-                        <p>[Vidéo : Présentation de barre de commandes](https://www.youtube.com/watch?v=wYrRCRphrp0)</p>
+                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Vidéo : Ajouter des outils avec onglets</a></p>
+                        <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">Vidéo : Activer un fichier dans un onglet</a></p>
+                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Vidéo : Utilisez la boîte de commande</a></p>
+                        <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">Vidéo : Présentation de barre de commandes</a></p>
                     </div>
                 </div>
             </div>
@@ -211,8 +211,8 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Informations sur les activités</h3>
-                         <p>[Vidéo : Filtrer votre flux d’activité](https://support.office.com/article/filter-your-activity-feed-02b9ece4-6086-4daa-b4c0-627beeacbf08)</p>
-                         <p>[Vidéo : Gérer les paramètres de notification](https://support.office.com/article/manage-notification-settings-348672f7-9ed0-4b96-86ed-d6fdcecb4096)</p>
+                         <p><a href="https://support.office.com/article/filter-your-activity-feed-02b9ece4-6086-4daa-b4c0-627beeacbf08">Vidéo : Filtrer votre flux d’activité</a></p>
+                         <p><a href="https://support.office.com/article/manage-notification-settings-348672f7-9ed0-4b96-86ed-d6fdcecb4096">Vidéo : Gérer les paramètres de notification</a></p>
                     </div>
                 </div>
             </div>
@@ -223,7 +223,7 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Les équipes conseils et astuces</h3>
-                        <p>[Article : Conseils et astuces pour les équipes](https://support.office.com/office-training-center/Teams-tips)</p>
+                        <p><a href="https://support.office.com/office-training-center/Teams-tips">Article : Conseils et astuces pour les équipes</a></p>
                     </div>
                 </div>
             </div>

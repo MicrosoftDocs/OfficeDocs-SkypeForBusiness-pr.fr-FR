@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Résumé : Découvrez les exigences pour les serveurs de périphérie de Skype pour Business Server.'
-ms.openlocfilehash: 8b384b91c90997b5008f79f44de42fe9bf35876e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 30bab83832d92fa77742bdaba39757f25e496c36
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891047"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373435"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Edge exigences Server dans Skype pour Business Server
  
@@ -223,23 +223,23 @@ Ces paramètres seront les enregistrements DNS que vous aurez besoin pour un ser
     
   - Nœud 2
     
-     - Adresses IP publiques :
+    - Adresses IP publiques :
     
-       - Serveur Edge d’accès : 131.107.155.11 (il s’agit du principal, avec la passerelle par défaut définie sur votre routeur public, ex : 131.107.155.1)
+      - Serveur Edge d’accès : 131.107.155.11 (il s’agit du principal, avec la passerelle par défaut définie sur votre routeur public, ex : 131.107.155.1)
     
-       - Serveur Edge de conférence Web : 131.107.155.21 (secondaire)
+      - Serveur Edge de conférence Web : 131.107.155.21 (secondaire)
     
-       - A / V Edge : et 131.107.155.31 (secondaire)
+      - A / V Edge : et 131.107.155.31 (secondaire)
     
       Conférence Web et A / adresses IP publiques V Edge sont des adresses IP supplémentaires (secondaires) dans la section des propriétés de protocole Internet Version 4 (TCP/IPv4) et Internet Protocol Version 6 (TCP/IPv6) de la feuille de propriétés dans Options avancées Windows Server.
     
   - Adresses IP privées :
     
-      - Serveur Edge d’accès : 10.45.16.11 (il s’agit du principal, avec la passerelle par défaut définie sur votre routeur, ex : 10.45.16.1)
+    - Serveur Edge d’accès : 10.45.16.11 (il s’agit du principal, avec la passerelle par défaut définie sur votre routeur, ex : 10.45.16.1)
     
-      - Serveur Edge de conférence Web : 10.45.16.21 (secondaire)
+    - Serveur Edge de conférence Web : 10.45.16.21 (secondaire)
     
-      - A / V Edge : et 10.45.16.31 (secondaire)
+    - A / V Edge : et 10.45.16.31 (secondaire)
     
       Conférence Web et A / adresses IP publiques V Edge sont des adresses IP supplémentaires (secondaires) dans la section des propriétés de protocole Internet Version 4 (TCP/IPv4) et Internet Protocol Version 6 (TCP/IPv6) de la feuille de propriétés dans Options avancées Windows Server.
     

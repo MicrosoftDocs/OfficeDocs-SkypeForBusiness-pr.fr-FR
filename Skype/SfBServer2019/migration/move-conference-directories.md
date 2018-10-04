@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Avant de désaffecter un pool, vous devez effectuer la procédure suivante pour chaque annuaire des conférences dans votre pool hérité.
-ms.openlocfilehash: 18cbada5833a5160fc1eb81560c56bc9fcff3e2a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b7526d8c3c032bf8b1f9052dce7da7e8a87b66b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028011"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372804"
 ---
 # <a name="move-conference-directories"></a>Déplacement des annuaires de conférences
 
@@ -25,35 +25,35 @@ Avant de désaffecter un pool, vous devez effectuer la procédure suivante pour 
     
 2. Pour obtenir l’identité des annuaires de conférence dans votre organisation, exécutez la commande suivante :
     
-  ```
-  Get-CsConferenceDirectory
-  ```
+   ```
+   Get-CsConferenceDirectory
+   ```
 
     La commande précédente renvoie tous les annuaires des conférences dans votre organisation. Pour cette raison, vous voudrez limiter les résultats vers le pool est désactivé. Par exemple, si vous mettez hors service le pool avec la pool01.contoso.net (FQDN) de nom de domaine complet, utilisez cette commande pour limiter les données renvoyées dans les répertoires de conférence à partir de ce pool :
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
+   ```
 
     Cette commande renvoie uniquement les annuaires des conférences où la propriété ServiceID contient le FQDN pool01.contoso.net.
     
 3. Pour déplacer les annuaires des conférences, exécutez la commande suivante pour chaque annuaire des conférences dans le pool :
     
-  ```
-  Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
+   ```
 
     Par exemple, pour déplacer un annuaire des conférences 3, utilisez cette commande, en spécifiant un Skype pour Business Server 2019 pool comme le TargetPool :
     
-  ```
-  Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
+   ```
 
     Si vous souhaitez déplacer tous les annuaires de conférence sur un pool, utilisez une commande semblable à ce qui suit :
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
+   ```
 
 Télécharger [Microsoft désinstallation hérité et suppression de rôles de serveur](https://go.microsoft.com/fwlink/p/?linkId=246227) pour des instructions détaillées sur la mise hors service des pools hérités complètes.
   

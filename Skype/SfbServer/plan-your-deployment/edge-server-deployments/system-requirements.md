@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Résumé : Découvrez la configuration système requise pour le serveur de périphérie dans Skype pour Business Server.'
-ms.openlocfilehash: 3e5bdd5ad47004f7908a8bd39cb122d1f03ce96f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 05adb2fb0a4224699cf4465932eba1e7a85761e5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886968"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374870"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Edge requise serveur dans Skype pour Business Server
  
@@ -99,7 +99,7 @@ Nos recommandations en cours de proxy inverse, vous pouvez trouver dans la page 
     
 - publier un site web hébergé en interne à l’aide d’un nom de domaine complet ;
     
-- publier tout le contenu du site web hébergé. Par défaut, vous pouvez utiliser la ** / ** directive, qui est reconnue par la plupart des serveurs web pour signifier « Publier tout le contenu sur le serveur web ». Vous pouvez également modifier la directive — par exemple, **/Uwca/\***, ce qui signifie « publie tout le contenu sous le répertoire virtuel Ucwa. »
+- publier tout le contenu du site web hébergé. Par défaut, vous pouvez utiliser la ** / *** directive, qui est reconnue par la plupart des serveurs web pour signifier « Publier tout le contenu sur le serveur web ». Vous pouvez également modifier la directive — par exemple, ** /Uwca/\\***, ce qui signifie « publie tout le contenu sous le répertoire virtuel Ucwa. »
     
 - exiger des connexions TLS avec les clients qui demandent du contenu à partir de votre site web publié ;
     

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45d74a26b65f788e914587b521a5bb14ea606567
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 021f69644701fb68a8122219b3f98bc4fd2f390d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012304"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372610"
 ---
 # <a name="deploy-my-service"></a>Déployer mon service
 
@@ -73,23 +73,23 @@ La [Lecture d’activation de Site pour la voix (lecture)](https://github.com/Mi
 
 Quelle que soit la taille et la complexité de l’emplacement, l’activation de chaque site nécessite que vous envisagez de vos tâches et des activités suffisamment tôt — et de les exécuter dans l’ordre optimal — avant, pendant et après le déploiement de service. Nous vous conseillons de suivre ces étapes lorsque vous planifiez et exécutez votre propre voyage vers voix Teams Microsoft.
 
-1.  Téléchargez la [lecture d’activation de Site pour la voix (lecture)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) pour les équipes Microsoft Voice.
+1. Téléchargez la [lecture d’activation de Site pour la voix (lecture)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) pour les équipes Microsoft Voice.
 
-2.  Créez un exemplaire distinct de la lecture pour chaque site.
+2. Créez un exemplaire distinct de la lecture pour chaque site.
 
-3.  Sous l’onglet de la feuille de **lecture pour {Code SiteName}**, remplacez **{Code SiteName}** par le nom de site pertinente et/ou le code de site.
+3. Sous l’onglet de la feuille de **lecture pour {Code SiteName}**, remplacez **{Code SiteName}** par le nom de site pertinente et/ou le code de site.
 
-4.  Entrez le **nom du Site, le code de Site**et la **date de lancement prévu**, comme illustré ci-dessous. Il s’agit d’une étape importante, car elle ajuste les délais recommandées pour toutes les activités de la lecture.
+4. Entrez le **nom du Site, le code de Site**et la **date de lancement prévu**, comme illustré ci-dessous. Il s’agit d’une étape importante, car elle ajuste les délais recommandées pour toutes les activités de la lecture.
 
-    ![Exemple avec le nom du site de New York, NY01, le code de site et date de lancement prévue de 20-Mar-18] (media/deploy-my-service-image2.png "Exemple avec le nom du site de New York, NY01, le code de site et date de lancement prévue de 20-Mar-18")
+   ![Exemple avec le nom du site de New York, NY01, le code de site et date de lancement prévue de 20-Mar-18] (media/deploy-my-service-image2.png "Exemple avec le nom du site de New York, NY01, le code de site et date de lancement prévue de 20-Mar-18")
 
-5.  Passez en revue chaque activité, prenez les mesures nécessaires et mettre à jour le statut que vous passez en revue la chronologie. État est représenté sous forme graphique, comme décrit ci-dessous :
-    <ul>
-    <li>![Coche verte](media/deploy-my-service-image3.png) **Oui ou non applicable (vert) :** l’activité terminée, ou il n’est pas applicable pour ce site, et aucune action supplémentaire n’est nécessaire.</li>
-    <li>![Point d’exclamation jaune](media/deploy-my-service-image4.png) **l’activité n’est pas achevée encore (jaune) :** l’activité n’a pas encore été terminée et doit être mis à jour à Oui ou non sur sa planification.</li>
-    <li>![X rouge](media/deploy-my-service-image5.png) **Aucune (rouge) :** l’activité ne peut pas aboutir en raison d’un problème et doit être exécutée à la réunion.</li></ul>
+5. Passez en revue chaque activité, prenez les mesures nécessaires et mettre à jour le statut que vous passez en revue la chronologie. État est représenté sous forme graphique, comme décrit ci-dessous :
+   <ul>
+   <li>![Coche verte](media/deploy-my-service-image3.png) <strong>Oui ou non applicable (vert) :</strong> l’activité terminée, ou il n’est pas applicable pour ce site, et aucune action supplémentaire n’est nécessaire.</li>
+   <li>![Point d’exclamation jaune](media/deploy-my-service-image4.png) <strong>l’activité n’est pas achevée encore (jaune) :</strong> l’activité n’a pas encore été terminée et doit être mis à jour à Oui ou non sur sa planification.</li>
+   <li>![X rouge](media/deploy-my-service-image5.png) <strong>Aucune (rouge) :</strong> l’activité ne peut pas aboutir en raison d’un problème et doit être exécutée à la réunion.</li></ul>
 
-6.  L’état est reportée dans chaque section, et l’en-tête de section est mis en forme avec une de ces indicateurs d’état. **Hebdomadaire** est également mis à jour automatiquement.
+6. L’état est reportée dans chaque section, et l’en-tête de section est mis en forme avec une de ces indicateurs d’état. **Hebdomadaire** est également mis à jour automatiquement.
 
 ![Capture d’écran des semaine état - Reports dans la lecture] (media/deploy-my-service-image6.png "Capture d’écran des semaine état - Reports dans la lecture")
 
@@ -101,8 +101,8 @@ Quelle que soit la taille et la complexité de l’emplacement, l’activation d
 Attention aux activités qui peuvent prendre plus de temps que vous avez planifié, telles que le numéro portage et des activités d’approvisionnement. Ces activités peuvent affecter négativement le planning de déploiement de site. Veillez à consulter et de mettre à jour la liste des activités et la chronologie associé à toutes les semaines et de les présenter aux [réunions du comité directeur](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) pour s’assurer que les parties prenantes sont informés de l’état de chaque site ainsi que les écarts possibles à partir de la planification du déploiement.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Points de décision</td><td><ul><li>Déterminez si la lecture d’activation de Site est requise pour votre déploiement.</li><li>Déterminer qui sera responsable de la personnalisation de la lecture d’activation de Site pour Microsoft Teams pour chaque site que vous envisagez de déployer.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Étapes suivantes</td><td><ul><li>[Télécharger le manuel d’activation de Site](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true).</li><li>Personnaliser la lecture d’activation de Site pour votre site premier.</li><li>Répétez pour des sites supplémentaires.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez si la lecture d’activation de Site est requise pour votre déploiement.</li><li>Déterminer qui sera responsable de la personnalisation de la lecture d’activation de Site pour Microsoft Teams pour chaque site que vous envisagez de déployer.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Télécharger le manuel d’activation de Site</a>.</li><li>Personnaliser la lecture d’activation de Site pour votre site premier.</li><li>Répétez pour des sites supplémentaires.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

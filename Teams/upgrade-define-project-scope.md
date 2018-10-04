@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccfd6da7af2905485a6c8deb7a2dd1ae433b8da3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9830605dad592a147c22a60d1c7c275cbf969a64
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017936"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375218"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet] (media/upgrade-banner-project-definition.png "Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet")
 
@@ -68,13 +68,13 @@ Votre vision peut uniquement être réalisée au fil du temps, par le biais de d
 
 Vos objectifs de définissent le résultat que vous souhaitez et vous permettent d’évaluer la réussite du projet. Objectifs peuvent être définis comme des _objectifs et des résultats de la clé_ (OKRs) et les mesures de réussite du projet peuvent être définis comme _indicateurs de réussite clés_ (KSIs). Il est essentiel que vous obtenez pleine participation parties prenantes du projet dans la définition de OKRs et KSIs, pour garantir un sentiment de possession et de l’alignement de ces mesures de réussite aux tâches du projet défini. Objectifs doivent inclure une combinaison de réussite technique et centré sur l’utilisateur. 
 
--   **OKRs** contiennent les objectifs que vous définissez au début du projet et les résultats de la clé vous mesurez sur une cadence défini (par exemple, tous les mois ou trimestres). En examinant les résultats de votre clés, vous êtes sûr de livrables de votre projet se trouvent sur la planification, ou identifient et atténuer les problèmes pour obtenir votre projet sur le suivi. OKRs sont généralement classés en tant que « réalisé » ou « pas atteint ».
--    **KSIs** mesurer la qualité et la réussite des résultats et compléter le caractère binaire de OKRs par détaillant les résultats de la bonne et/ou incorrectes. Lors de la définition KSIs, nous vous conseillons d’utiliser « spécifiques, mesurables, peut être assignés, réalistes, liées au temps » (dynamique) critères :
-    -   Spécifiques : cibler une zone spécifique pour d’amélioration du produit
-    -   Mesurable : quantifier ou proposer au moins un indicateur de progression
-    -   Peut être assigné : spécifiez qui fera
-    -   Realistic : indiquer ce que les résultats peuvent réaliste atteint, compte tenu des ressources disponibles
-    -   Liées au temps : spécifiez si les résultats peuvent être obtenus
+- **OKRs** contiennent les objectifs que vous définissez au début du projet et les résultats de la clé vous mesurez sur une cadence défini (par exemple, tous les mois ou trimestres). En examinant les résultats de votre clés, vous êtes sûr de livrables de votre projet se trouvent sur la planification, ou identifient et atténuer les problèmes pour obtenir votre projet sur le suivi. OKRs sont généralement classés en tant que « réalisé » ou « pas atteint ».
+- **KSIs** mesurer la qualité et la réussite des résultats et compléter le caractère binaire de OKRs par détaillant les résultats de la bonne et/ou incorrectes. Lors de la définition KSIs, nous vous conseillons d’utiliser « spécifiques, mesurables, peut être assignés, réalistes, liées au temps » (dynamique) critères :
+  -   Spécifiques : cibler une zone spécifique pour d’amélioration du produit
+  -   Mesurable : quantifier ou proposer au moins un indicateur de progression
+  -   Peut être assigné : spécifiez qui fera
+  -   Realistic : indiquer ce que les résultats peuvent réaliste atteint, compte tenu des ressources disponibles
+  -   Liées au temps : spécifiez si les résultats peuvent être obtenus
 
 Le tableau suivant présente des exemples de OKRs et KSIs pour les phases initiales d’un Skype pour les entreprises aux équipes de projet de mise à niveau.
 

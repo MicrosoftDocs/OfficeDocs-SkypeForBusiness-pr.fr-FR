@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenez des informations sur la version Cloud Connector de Skype Entreprise, un ensemble de machines virtuelles (VM) qui met en œuvre une connectivité PSTN locale avec un système téléphonique d'Office 365 (Cloud PBX).
-ms.openlocfilehash: 58b84f083f77dde134dc0b2d7bab7fe60dcac5ea
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b98ba65555e8e94c743a87299b920f9ffd5efbfb
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883618"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372523"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planification pour Skype Entreprise, version Cloud Connector
 
@@ -568,7 +568,7 @@ Vous devez ajouter sip.sipdomain.com pour chaque domaine SIP, ainsi que le nom 
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
-- **Option 2.** Si vous souhaitez utiliser un certificat générique unique sur tous les serveurs de pool Edge vous déployez, puis vous pouvez utiliser une entrée de SAN générique de \*. sipdomain.com plutôt que le nom du pool Edge dans le certificat. Le nom de sujet peut être le nom d’un des pools Edge d’accès que vous avez déployés :
+- <strong>Option 2.</strong> Si vous souhaitez utiliser un certificat générique unique sur tous les serveurs de pool Edge vous déployez, puis vous pouvez utiliser une entrée de SAN générique de \*. sipdomain.com plutôt que le nom du pool Edge dans le certificat. Le nom de sujet peut être le nom d’un des pools Edge d’accès que vous avez déployés :
 
   ```
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
