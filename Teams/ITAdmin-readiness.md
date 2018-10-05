@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vidéos de formation, didacticiels et autres ressources pour les administrateurs à planifier, déploiement et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2750f99e47517e0b1e516b89673106b44f0c96c
-ms.sourcegitcommit: 0cb35fd6e93939f2252d0729c7c08bac50e6cd6b
+ms.openlocfilehash: 2bce73966b8aa15717e3c96e91f703059428127b
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/04/2018
-ms.locfileid: "25402076"
+ms.locfileid: "25405159"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -119,7 +119,8 @@ Utilisez ces didacticiels, vidéos et autres ressources de formation pour en sav
 
     
 </ul>
-****************
+
+---
 
 <h2>Formations</h2>
 <ul class="panelContent cardsW">
@@ -130,6 +131,17 @@ Utilisez ces didacticiels, vidéos et autres ressources de formation pour en sav
                     <div class="cardText">
                         <h3>Transition de Skype Entreprise à Teams</h3>
                          <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Didacticiel : Transition de Skype Entreprise à Teams</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Travail d’équipe</h3>
+                         <p><a href="https://aka.ms/edx-cld267x-about">Cours : Activation de l’équipe avec les équipes Microsoft</a></p>
                     </div>
                 </div>
             </div>
