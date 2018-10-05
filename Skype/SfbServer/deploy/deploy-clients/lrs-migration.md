@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Lisez cette rubrique pour savoir comment migrer des périphériques de système de salle de Lync pour utiliser le système de salle Skype v2 logiciel.
-ms.openlocfilehash: 18cc3f954480a000bfe962e0a4b461e05568479b
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: c87081ccd40765b10929a0d2762d834ce6a1b2ab
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354003"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429451"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrer les appareils Lync salle système (KR) au système de salle Skype v2 
 Les appareils Lync salle système (KR) avec le logiciel système Version 1 (v1 SRS) Skype salle atteindra [la fin de la prise en charge sur le 9 octobre 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018). Cela signifie que le logiciel de v1 Skype salle systèmes ne recevra pas les mises à jour ou les correctifs après cette date. Il est conseillé aux utilisateurs avec des périphériques de système de salle Lync l’utilisation du système de salle Skype v1 logiciel pour mettre à niveau leurs périphériques au système de salle Skype version 2 (v2 SRS).
@@ -42,8 +42,8 @@ Crestron fournira une mise à niveau pour le [système SR Crestron](https://www.
 Les clients existants Crestron RL2 (également appelé Crestron RL200) peuvent obtenir un package de mise à niveau pour mettre à niveau en cours RL2 à l’aide de RL3 un pour un coût minimal par périphérique. Afficher les détails de ce programme [ici](https://support.crestron.com/app/answers/answer_view/a_id/1000220) ou <!-- For details, --> [messagerie](mailto:lrsupgrade@crestron.com) prise en charge Crestron LRS.  
 
 
-### <a name="smart-room-systems-upgrade--diy-program"></a>Systèmes de salle actives programme de mise à niveau & personnalisé
-Pour les clients KR actives, en dehors du programme de reprise Crestron matériel, Microsoft et à puce fonctionnent également à fournir une solution de mise à niveau vers le système de salle Skype v2. Microsoft teste également une solution personnalisée pour les clients KR actives. Plus de détails de ces programmes seront fournies dans anticipée 2018 octobre sur cette page. Veillez à vérifier les mises à jour sur ces options de mise à niveau.
+### <a name="smart-room-systems-upgrade"></a>Mise à niveau des systèmes de salle Active 
+Pour les clients KR actives, en dehors du programme de reprise Crestron matériel, Microsoft et à puce fonctionnent également à fournir une solution de mise à niveau vers le système de salle Skype v2. Cette mise à niveau sera proposée par puce pour tous les clients existants de kr actives. Plus de détails de ce programme seront fournies dans 2018 octobre sur cette page. Assurez-vous que retour des mises à jour.
 
 <!--  
 For later 

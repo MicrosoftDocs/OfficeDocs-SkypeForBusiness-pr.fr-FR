@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume la configuration requise pour la prise en charge des systèmes de salle Skype v2.
-ms.openlocfilehash: b349e5dc617ffe9b5247fc38d86c339f3031ceb0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 857b48d0dc7a14243a1bc246cff9c7b06e1e0da6
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373792"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429458"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
 
@@ -25,11 +25,11 @@ Cet article résume la configuration requise pour la prise en charge des systèm
 Votre déploiement implique la création de compte comme décrit dans [déployer Skype salle systèmes v2](../../deploy/deploy-clients/room-systems-v2.md) et la configuration d’une console de réunion, comme indiqué dans [Configure une console v2 de systèmes de salle Skype](../../deploy/deploy-clients/console.md). Vous devez également faire référence à [Skype pour les licences d’entreprise module complémentaire](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
 
 > [!NOTE]
-> Systèmes de salle Skype v2 est destinée aux Skype pour Business Server 2019, Skype pour Business Server 2015, Microsoft Teams ou Skype pour Business Online.  <br><br>Plates-formes de versions antérieures à Lync Server 2013 ne sont pas prévus pour fonctionner avec les systèmes de salle Skype v2. 
+> Systèmes de salle Skype v2 est destinée aux Skype pour Business Server 2019, Skype pour Business Server 2015, Microsoft Teams ou Skype pour Business Online. <br><br>Plates-formes de versions antérieures à Lync Server 2013 ne sont pas prévus pour fonctionner avec les systèmes de salle Skype v2. 
 
 ## <a name="hardware-requirements"></a>Configuration matérielle requise
 
-Systèmes de salle Skype v2 capable de s’adapter aux tailles différentes salles au moyen d’accessoires selon les périphériques audio et vidéo. Les périphériques audio et vidéo se connecter à v2 Skype salle systèmes via une connexion USB ou HDMI sur le périphérique d’accueil. Vous aurez également besoin des éléments suivants :
+Systèmes de salle Skype v2 capable de s’adapter aux tailles différentes salles au moyen d’accessoires selon les périphériques audio et vidéo. Le matériel répertorié dans cet article prend en charge les modes de réunion Skype et aux équipes.  Les périphériques audio et vidéo se connecter à v2 Skype salle systèmes via une connexion USB ou HDMI sur le périphérique d’accueil. Vous aurez également besoin des éléments suivants :
 
 - 32 Go de disque de plus grande capacité USB, vous allez configurer en tant que le support d’installation Windows pour Windows 10 Enterprise. 
 
