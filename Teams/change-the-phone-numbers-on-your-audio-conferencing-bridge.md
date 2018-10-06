@@ -24,41 +24,46 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: 26a6e8dcb467ceea990b974d1687e0a5998eeb4b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7bd00f23a54780c94cdebeb413a8897e572ec47d
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372241"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25436603"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone de votre pont d'audioconférence
 
-When you buy **Audio Conferencing** licenses, Microsoft is hosting your *audio conferencing bridge*  for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
+Lorsque vous achetez des licences de **Services d’audioconférence** , Microsoft héberge votre pont de conférence audio pour votre organisation. Le pont de conférence audio permet aux numéros de téléphone à partir de différents emplacements afin que les organisateurs de réunions et les participants peuvent utiliser les joindre Skype pour les réunions Microsoft Teams ou de l’entreprise à l’aide d’un téléphone.
   
-Outre les numéros de téléphone déjà affectés à votre pont de conférence, vous pouvez [obtenir les numéros de service supplémentaires](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) (payants et gratuits utilisés pour la conférence audio) issus d’autres emplacements et le puis attribuer à la conférence un pont afin de pouvoir Développez la couverture pour vos utilisateurs.
+Outre les numéros de téléphone déjà affectés à votre pont de conférence, vous pouvez [obtenir les numéros de service supplémentaires](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) (payants et gratuits utilisés pour la conférence audio) à partir d’autres emplacements, puis attribuer à la conférence un pont afin de pouvoir Développez la couverture pour vos utilisateurs.
   
 > [!NOTE]
-> To be able to assign/unassign a phone number for a conferencing bridge, the phone number must be a '*service*' number. You can see the type of number it is by navigating to **Voice** > **Phone numbers** and looking in the **Number Type** column. Office 365 Communications Credits must be set up first in order for users to dial into the bridge on a toll free number.
+> Pour pouvoir affecter/annuler l’affectation d’un numéro de téléphone pour un pont de conférence, le numéro de téléphone doit être un nombre de «*service*». Vous pouvez voir le type de numéro en accédant à **voix** > hérité portail et en recherche dans la colonne **Type de numéro de** **numéros de téléphone** . Les crédits de communication Office 365 doivent être configurés en premier pour permettre aux utilisateurs de se connecter au pont via un numéro gratuit.
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
-  
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Procédure d'affectation d'un nouveau numéro de téléphone de service à votre pont de conférence
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Étape 1 : attribuer le numéro de téléphone à votre pont de conférence audio
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel.
 
-2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **équipes & Skype** > **portail hérité** > **vocale** > **numéros de téléphone**.
+2. Accédez au **Centre d’administration Office 365** > **Admin centres** > **équipes & Skype** > **portail hérité** > **vocale** > **numéros de téléphone**.
 
 3. Sélectionnez le numéro de téléphone dans la liste, puis dans le volet Actions, cliquez sur **affecter**.
 
 4. Sur la page **Affecter**, cliquez sur **Enregistrer**.
 
-    Only a service toll number can be set as the default number for your conferencing bridge; **service toll-free numbers can't be set as the default number of your conferencing bridge**. If you are assigning a service toll number and you would like to set it as the new default number for your audio conferencing bridge, select **Use this number as the default**.
+Uniquement un numéro de service peut être défini en tant que le numéro par défaut pour votre pont de conférence ; **numéros gratuits service ne peut pas être définis en tant que le numéro par défaut de votre pont de conférence**. Si vous affectez un numéro de service et que vous souhaitez définir en tant que le nouveau numéro par défaut pour votre pont de conférence audio, procédez comme suit :
 
-    > [!NOTE]
-    > Après avoir affecté un nouveau numéro de téléphone, même si le numéro est devenu le nouveau numéro par défaut, le numéro par défaut pour les utilisateurs existants ne changera pas. Pour définir le numéro par défaut ou un numéro gratuit qui est ajouté au invitations de réunion un organisateur, voir les instructions pour les [Équipes Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md) ou les instructions pour [Skype pour Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites). 
+1. Connectez-vous à Office 365 à l'aide de votre compte professionnel.
+
+2. Accédez au **Centre d’administration Office 365** > **Admin centres** > **équipes & Skype** > **réunions** > **Ponts de conférence**.
+
+3. Mettez en surbrillance le numéro de service que vous souhaitez configurer en tant que la valeur par défaut.
+
+4. Sélectionnez **Définir par défaut**.
+
+> [!NOTE]
+> Après avoir affecté un nouveau numéro de téléphone, même si le numéro est devenu le nouveau numéro par défaut, le numéro par défaut pour les utilisateurs existants ne changera pas. Pour définir le numéro par défaut ou un numéro gratuit qui est ajouté au invitations de réunion un organisateur, voir les instructions pour les [Équipes Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md) ou les instructions pour [Skype pour Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites). 
   
 
 
@@ -68,7 +73,7 @@ Les numéros de téléphone par défaut pour les utilisateurs sont inclus dans l
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **équipes & Skype** > **portail hérité** > **audioconférence** > **utilisateurs** et sélectionnez les utilisateurs dans la liste.
+2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **équipes & Skype** > **portail hérité** > **audioconférence** > **les utilisateurs**, puis sélectionnez les utilisateurs dans la liste.
 
 3. Cliquez sur **Modifier** dans le volet Action.
 
@@ -80,9 +85,9 @@ Une fois que les modifications ont été enregistrées, l’autre numéro de té
 
 Pour les deux étapes suivantes, vous devrez démarrer de Windows PowerShell.
   
-Using the Meeting Migration Service, you can optionally update meeting invites that were already sent to users in your organization before their default phone numbers were changed. For additional information, see [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+À l’aide du Service de Migration de réunion, vous pouvez éventuellement mettre à jour des invitations de réunion qui ont déjà été envoyées aux utilisateurs de votre organisation avant que leurs numéros de téléphone par défaut ont été modifiées. Pour plus d'informations, reportez-vous à la rubrique [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
-- Run the Meeting Migration Service (MMS) for the users who had their default phone numbers changed in Step 2. To do this, run the following command:
+- Exécutez le Service de Migration de réunion (MMS) pour les utilisateurs qui avaient leurs numéros de téléphone par défaut modifié à l’étape 2. Pour cela, exécutez la commande suivante :
 
 ```
     Start-CsExMeetingMigration user@contoso.com
@@ -97,21 +102,21 @@ Using the Meeting Migration Service, you can optionally update meeting invites t
 ## <a name="steps-when-you-are-unassigning-a-service-phone-number-for-a-conferencing-bridge"></a>Procédure d'annulation d'affectation d'un numéro de téléphone de service dans votre pont de conférence
 
 
-When you unassign a phone number from a conferencing bridge, users won't be able to join any meetings using that phone number anymore. Because the phone number is changing, it's important to update all users that could have a phone number as their default number (if any) and to update their existing meeting invites before the phone number is unassigned from the audio conferencing bridge.
+Lorsque vous annulez l'affectation d'un numéro de téléphone dans votre pont de conférence, les utilisateurs ne peuvent plus rejoindre aucune réunion à l'aide de ce numéro. Étant donné que le numéro de téléphone est modifié, il est important pour mettre à jour tous les utilisateurs qui peuvent avoir un numéro de téléphone comme leur numéro par défaut (le cas échéant) et mettre à jour les invitations aux réunions avant le numéro de téléphone non attribué dans le pont de conférence audio existant.
 
-Si le numéro de téléphone est supprimé sans ces mises à jour, leurs invitations risquent de contenir un numéro qui ne leur permettra plus de rejoindre les réunions..
+Si le numéro de téléphone est supprimé sans mettre à jour les utilisateurs et leurs réunions, les invitations aux réunions existante peut contenir un numéro de téléphone qui ne fonctionne pas pour participer à des réunions.
 
-For the first three steps, you will need to start Windows PowerShell. To see how to do this, click [Want to know how to manage with Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#bkPowerShell)
+Dans le cas de ces trois premières étapes, vous devrez démarrer Windows PowerShell. Pour consulter l’aide à ce sujet, cliquez sur [Vous souhaitez savoir comment gérer avec Windows PowerShell ?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#bkPowerShell)
 
-### <a name="step-1---update-users-that-have-the-phone-number-to-be-unassigned-as-one-of-their-default-numbers"></a>Étape 1 : Mise à jour des utilisateurs dont l'affectation de numéro de téléphone comme numéro par défaut doit être annulée
+### <a name="step-1---update-users-who-have-the-phone-number-to-be-unassigned-as-one-of-their-default-numbers"></a>Étape 1 : les utilisateurs de mise à jour qui ont le numéro de téléphone à non affectés en tant qu’un de leurs numéros par défaut
 
-Remplacez le numéro payant ou gratuit par défaut de tous les utilisateurs dont l'affectation de numéro de téléphone comme numéro par défaut doit être annulée et lancez le processus de nouvelle planification de leurs réunions. Pour cela, exécutez la commande suivante :
+Remplacez le numéro payant par défaut ou un numéro gratuit pour tous les utilisateurs qui ont le numéro non attribué par défaut et démarrer le processus de replanification des réunions. Pour cela, exécutez la commande suivante :
 
 ```
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
- >You can also change the default toll or toll-free number of users in the Skype for Business admin center. However, this won't automatically reschedule their meetings. 
+ >Vous pouvez également modifier le numéro payant par défaut ou le numéro gratuit d’utilisateurs dans le Skype entreprise centre d’administration. Toutefois, cela ne replanifiera pas leurs réunions de manière automatique. 
  
  Pour plus d’informations, voir [définir le téléphone numéros inclus sur invite dans les équipes Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md) ou [le téléphone numéros inclus sur invite dans Skype pour Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
 
@@ -154,7 +159,8 @@ Pour plus d'informations sur le service Meeting Migration Service (MMS), reporte
 
 3. Si vous n'utilisez pas la version 3.0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4.0, consultez [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845). Redémarrez votre ordinateur lorsque vous y êtes invité.
 
-4. You also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module is supported only on 64-bit computers and can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.
+4. Vous devez également installer le module Windows PowerShell pour Skype pour Business en ligne qui vous permet de créer une session Windows PowerShell à distance qui se connecte à Skype pour Business Online. Ce module est pris en charge uniquement sur les ordinateurs 64 bits et peut être téléchargé depuis le Center Download Microsoft sur [Le Module Windows PowerShell pour Skype pour Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
+Redémarrez votre ordinateur si vous y êtes invité.
 
 Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
 
@@ -166,9 +172,6 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
 
 2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
 
-    > [!NOTE]
-    > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
-
 >
   ```
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
@@ -177,6 +180,8 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
     Import-PSSession $session
   ```
 
+> [!NOTE]
+> Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
 Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [Connecting to Skype pour Business Online à l’aide de Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
 
 ### <a name="save-time-and-automate"></a>Gagner du temps et automatiser
@@ -219,7 +224,7 @@ Pour gagner du temps en l’automatisation de ce processus, vous pouvez utiliser
 
 ## <a name="about-windows-powershell"></a>À propos de Windows PowerShell
 
-With Windows PowerShell you can manage users and what they are or are not allowed to do. Windows PowerShell  can help you manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, especially when you've got multiple tasks to do. To get started with Windows PowerShell, see these topics:
+Avec Windows PowerShell, vous pouvez gérer les utilisateurs et leurs autorisations. Windows PowerShell peut vous aider à gérer Office 365 et Skype pour Business Online à l’aide d’un point unique d’administration qui peut simplifier votre travail quotidien, en particulier lorsque vous avez plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
 
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 

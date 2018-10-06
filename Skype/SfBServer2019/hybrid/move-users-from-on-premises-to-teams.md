@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Résumé : Découvrez comment migrer les paramètres utilisateur et de déplacer les utilisateurs à des équipes.'
-ms.openlocfilehash: 27e8ac831f7009a373b2ed28d484f00f9462ef12
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030783"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25436564"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Déplacer les utilisateurs locaux vers des équipes
 
@@ -27,8 +27,6 @@ Gardez à l’esprit qu’après le déplacement de vos utilisateurs à des équ
 - Ils peuvent participer à des réunions Skype via le Skype pour le client riche Business (les utilisateurs ne sont pas invités pour la connexion chaque fois) ou par le biais de l’application de réunions Skype (requiert un téléchargement unique et une connexion). Lorsqu’un utilisateur clique sur un Skype pour le lien de la réunion métiers au sein des équipes, la réunion est lancé dans l’application appropriée.
 
 - Sur Mobile, vos utilisateurs pourront participer à Skype existant pour les réunions d’entreprise à l’aide de l’application native uniquement.
-
-    ![Réunion mobile Skype](../media/mobile-skype-meeting.png)
 
 > [!NOTE]
 > Une fois un utilisateur est déplacé vers le mode TeamsOnly, l’utilisateur est hébergé dans Skype pour Business Online.
