@@ -16,7 +16,7 @@
 ## [Limites et les spécifications d’équipes](limits-specifications-teams.md)
 ## [Planifier les groupes Office 365 lors de la création d'équipes dans Teams](plan-office-365-groups.md)
 ## [Obtenir des outils d'assistance pour le lancement de Teams](rollout-tools.md)
-## [Planifier la gestion du cycle de vie dans les équipes](plan-teams-lifecycle.md)
+## [Planifier la gestion du cycle de vie dans Teams](plan-teams-lifecycle.md)
 ## [Planifier la gouvernance dans les équipes](plan-teams-governance.md)
 ## [Plan pour Microsoft 365 gouvernement - déploiements GCC](plan-for-government-gcc.md)
 ## [Créer la stratégie de gestion des modifications](change-management-strategy.md)
@@ -37,6 +37,7 @@
 ### [Déployer des équipes pour exposer Hub](teams-surface-hub.md)
 ## [Exécuter des équipes dans un environnement virtuel](virtual-environment-teams.md)
 ## [Permettent aux équipes de votre organisation](Office-365-set-up.md)
+## [Utiliser Microsoft Teams étendue de recherche dans l’annuaire](teams-scoped-directory-search.md)
 ## [Gérer les fonctionnalités des équipes au sein de votre organisation.](enable-features-office-365.md)
 ### [Gérer les équipes pendant la transition vers le nouveau Microsoft Teams & Skype entreprise centre d’administration](manage-teams-skypeforbusiness-admin-center.md)
 ### [Gérer les équipes dans les équipes Microsoft & Skype entreprise centre d’administration](manage-teams-in-modern-portal.md)
@@ -221,6 +222,7 @@
 ### [Utiliser T-Bot pour aider les utilisateurs à utiliser Microsoft Teams](t-bot.md)
 ### [Utiliser des rapports d’activité pour les équipes](teams-activity-reports.md)
 ### [Utiliser la traduction d’un message en ligne dans les équipes](inline-message-translation-teams.md)
+
 ## Voix cloud
 ### [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Argentine](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
