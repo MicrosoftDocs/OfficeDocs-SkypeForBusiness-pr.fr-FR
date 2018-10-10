@@ -3,7 +3,7 @@ title: Dimensions et mesures disponibles dans le tableau de bord de qualité des
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: siunies
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
@@ -23,16 +23,19 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: dec3548ab1f34e70d6e30aca2397791cfaa16674
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8708151be58e386650458ed882a24c1f6e4e628a
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375021"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456906"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 
 Le tableau de bord de la qualité des appels (CQD) pour Microsoft Teams et Skype pour Business Online vous permet d’obtenir des informations sur la qualité des appels effectués à l’aide de Microsoft Teams et Skype pour les services. Cette rubrique fournit des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord. Pour en savoir plus sur les CQD et comment l’activer, voir [activation et à l’aide d’appels de tableau de bord qualité pour les équipes Microsoft et Skype pour Business Online](turning-on-and-using-call-quality-dashboard.md).
+
+> [!NOTE]
+> Améliore la gestion de bande passante équipes sur Skype pour Business Online : pour une haute qualité appelant ou l’expérience (audio, vidéo et partage) de la réunion, les équipes nécessite uniquement 1,2 Mbits/s. Il peut également évoluer davantage de très haute qualité s’il existe suffisamment de bande passante disponible. Lorsqu’une demande d’équipes rencontre une condition de faible bande passante, les équipes peuvent rapidement Ajustez à nouveau l’utilisation de la bande passante pour s’adapter à la bande passante disponible.
 
 ## <a name="first-and-second-endpoint-classification"></a>Classification du premier et du deuxième point de terminaison
 
