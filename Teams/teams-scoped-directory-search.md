@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b62b3e27cf0aa10ea6719cb1f27980ee83f4421
-ms.sourcegitcommit: c4254b6119bbce274f895e20d30cb3c513d5a2de
+ms.openlocfilehash: 3e9cddc12a5ef4de6dfb42a714b83e29b6fb4f5f
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25455966"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456890"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser Microsoft Teams étendue de recherche dans l’annuaire
 
@@ -28,7 +28,7 @@ Recherche dans l’annuaire étendue Microsoft Teams permet aux organisations de
 
 Microsoft Teams permet aux entreprises de fournir des vues personnalisées du répertoire à leurs utilisateurs. Teams Microsoft utilise les [stratégies de carnet d’adresses Exchange](https://docs.microsoft.com/en-us/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) pour prendre en charge ces affichages personnalisés. Une fois que les stratégies sont activées, les résultats renvoyés par la recherche pour d’autres utilisateurs (par exemple, pour lancer une conversation ou pour ajouter des membres à une équipe) seront étendus en fonction des stratégies configurées. Les utilisateurs ne sera pas en mesure de rechercher ou de détecter et de rejoindre des équipes de nouveau à l’extérieur de ces stratégies. 
 
-## <a name="when-should-you-use-scroped-directory-searches"></a>Quand utiliser les recherches dans l’annuaire scroped ?
+## <a name="when-should-you-use-scoped-directory-searches"></a>Quand utiliser les recherches dans l’annuaire étendue ?
 
 Scénarios qui tirent parti des recherches dans l’annuaire étendue définie sont similaires aux scénarios téléchargeable stratégie. Par exemple, vous souhaiterez peut-être utiliser la recherche dans l’annuaire étendue dans les situations suivantes :
 
