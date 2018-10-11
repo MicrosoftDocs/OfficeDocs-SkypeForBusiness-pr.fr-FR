@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume la configuration requise pour la prise en charge des systèmes de salle Skype v2.
-ms.openlocfilehash: 857b48d0dc7a14243a1bc246cff9c7b06e1e0da6
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: fcf108de8ac6d344061b4c95dcbe7438dc034d3b
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429458"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495612"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
 
@@ -42,10 +42,8 @@ Systèmes de salle Skype v2 capable de s’adapter aux tailles différentes sall
 |Surface Pro 4       |Principaux i5  |4 GO  |128 GO  |
 |Surface Pro 4       |Principaux i5  |8 GO  |256 GO  |    
 |Surface Pro (2017)  |Principaux i5  |4 GO  |128 GO  |
+|Surface Pro (2017)  |Principaux i5  |8 GO  |128 GO  |
 |Surface Pro (2017)  |Principaux i5  |8 GO  |256 GO  |
-|Surface Pro (2017)  |Core i7  |8 GO  |128 GO  |
-|Surface Pro (2017)  |Core i7  |16 GO |512 GO  |
-|Surface Pro (2017)  |Core i7  |16 GO |1 TO    |
 
 > [!NOTE]
 > M3 processeurs ne sont pas pris en charge.

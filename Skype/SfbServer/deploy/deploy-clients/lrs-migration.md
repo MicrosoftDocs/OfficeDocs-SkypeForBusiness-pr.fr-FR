@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Lisez cette rubrique pour savoir comment migrer des périphériques de système de salle de Lync pour utiliser le système de salle Skype v2 logiciel.
-ms.openlocfilehash: b6c11e101ab3984f934dab1a9e06d80df3ce5e4f
-ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
+ms.openlocfilehash: 790872ceaf919d4b58bdbd753dc32e1303b2da63
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450647"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495589"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrer les appareils Lync salle système (KR) au système de salle Skype v2 
-Les appareils Lync salle système (KR) avec le logiciel système Version 1 (v1 SRS) Skype salle atteindra [la fin de la prise en charge sur le 9 octobre 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018). Cela signifie que le logiciel de v1 Skype salle systèmes ne recevra pas les mises à jour ou les correctifs après cette date. Il est conseillé aux utilisateurs avec des périphériques de système de salle Lync l’utilisation du système de salle Skype v1 logiciel pour mettre à niveau leurs périphériques au système de salle Skype version 2 (v2 SRS).
+Les appareils Lync salle système (KR) avec le logiciel système Version 1 (v1 SRS) Skype salle a atteint la [fin de la prise en charge sur le 9 octobre 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018). Cela signifie que logiciel v1 de systèmes de salle Skype n’est plus aura les mises à jour ou les correctifs plus. Il est conseillé aux utilisateurs avec des périphériques de système de salle Lync l’utilisation du système de salle Skype v1 logiciel pour mettre à niveau leurs périphériques au système de salle Skype version 2 (v2 SRS).
 
 Logiciel système Version 2 (v2 SRS) Skype salle fonctionne avec Microsoft Teams outre Skype pour les services Business Server et en ligne pour les réunions et les appeler sur tous les périphériques de SRS v2 pris en charge.
 
-Votre de périphériques existant **peut** continuer à fonctionner après la fin d’un système de salle de Skype v1 prennent en charge. Ce logiciel sera atteint finalement un bogue logiciel dont a besoin Microsoft publie un correctif, ou peut-être un cas où un protocole de communication existant utilisé par les modifications du logiciel système de salle Skype v1 ou n’est plus pris en charge. Un tel changement connu est désapprobation de TLS 1.0 / 1.1 dans Microsoft Office 365. Pour plus d’informations sur [la préparation pour TLS 1.0/1.1 désapprobation](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608).  
+Votre de périphériques existant **peut** continuer à fonctionner après la fin d’un système de salle de Skype v1 prennent en charge. Toutefois, si ce logiciel accède à un bogue doit Microsoft publie un correctif logiciel, il ne sera pas être pris en charge. Logiciel Skype salle système V1 n’est également pas être mise à niveau pour prendre en charge TLS 1.2. Pour plus d’informations sur [la préparation pour TLS 1.0/1.1 désapprobation](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). Skype salle système V2 consiste à ajouter la prise en charge pour TLS 1.2 et continueront de fonctionner sans aucun impact à partir de cette désapprobation.   
 
 ## <a name="which-devices-are-affected"></a>Les périphériques sont affectés ?
 Voici la liste des périphériques qui sont affectées par cette modification :
@@ -43,7 +43,7 @@ Les clients existants Crestron RL2 (également appelé Crestron RL200) peuvent o
 
 
 ### <a name="smart-room-systems-upgrade"></a>Mise à niveau des systèmes de salle Active 
-Pour les clients KR actives, en dehors du programme de reprise Crestron matériel, Microsoft et à puce fonctionnent également à fournir une solution de mise à niveau vers le système de salle Skype v2. Cette mise à niveau sera proposée par puce pour tous les clients existants de kr actives. Plus de détails de ce programme seront fournies dans 2018 octobre sur cette page. Assurez-vous que retour des mises à jour.
+Pour les clients KR actives, en dehors du programme de reprise Crestron matériel, Microsoft et à puce fonctionnent également à fournir une solution de mise à niveau vers le système de salle Skype v2. Cette mise à niveau sera fournie par actives Technologies Inc. Veuillez consulter plus d’informations sur cette [ici](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
 
 <!--  
 For later 

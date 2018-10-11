@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada.
-ms.openlocfilehash: 357d3324013b5c7dd1bffaeba215d5ef0a7af765
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5f0f75a747ccc80bbe4a6e0a10a925c3e6b91bdb
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372516"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495597"
 ---
 # <a name="availability-in-canada"></a>Disponibilité au Canada
 
@@ -61,7 +61,7 @@ Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponi
 | **Fonctionnalité**                                        | **Détails**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/>    | Oui  <br/>                                                                                                                                                                                                                                                                  |
-| Minutes disponibles pour les Plans de l’appel.               | Il existe quatre options de plan par mois : <ul><li>120 minutes planifier l’appel interne </li><li>240 minutes planifier l’appel interne</li></li><li>3000 minute de planifier l’appel interne </li></li><li>minute 600 national et International des Plans de l’appel</li></li> |
+| Minutes disponibles pour les Plans de l’appel.               | Il existe quatre options de plan par mois : <ul><li>120 minutes planifier l’appel interne </li><li>240 minutes planifier l’appel interne</li></li><li>3000 minute de planifier l’appel interne </li></li><li>3000 national et 600 international minute intérieures et des Plans de l’appel International</li></li> |
 | Peut passer des appels sortants vers les numéros ?  <br/> | Non pris en charge pour l’instant.<br/>                                                                                                                                                                                                                                            |
 | Est-il possible de passer des appels sortants ?  <br/>                 | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                  |
 

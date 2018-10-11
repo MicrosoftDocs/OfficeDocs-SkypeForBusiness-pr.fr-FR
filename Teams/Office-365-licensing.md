@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 272dd768dfa56871db8f0241ed6c046b350717d4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: dbdbaf0241da85489173d7eda0c36aac90c935e9
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016852"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495528"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licence Office 365 pour Microsoft Teams
 ========================================
@@ -36,12 +36,15 @@ Les abonnements Office 365 suivants permettent aux utilisateurs pour les équipe
 |Office 365 Business Premium     |Office 365 Entreprise E3         |Office 365 Éducation Plus         |      |
 |     |Office 365 Entreprise E4 (retiré)         |Office 365 Éducation E3 (retiré)         |  |
 |     |Office 365 Entreprise E5         |Office 365 Éducation E5  | 
-|     |Office 365 Entreprise F1 |    |     |
+|     |Office 365 Entreprise F1 |    |     | 
 
 Pour plus d’informations sur l’obtention des équipes, consultez la rubrique [comment obtenir les accès à Microsoft Teams ?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
 > Teams est également disponible pour les organisations à but non lucratif. Les équipes seront commencer présentant pour nous gouvernement nuage communautaire (chargé) 17 juillet et être disponible pour tous les clients éligibles à la fin de 2018 août. Nous essayons Alliance Teams Microsoft avec les autres nuages de gouvernement américain (GCC haute et DoD) seront prochainement disponibles. En plus, consultez le blog Microsoft Teams [ici](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
+
+> [!NOTE]
+> Démarrage 2018, octobre 1, nouveaux clients Office 365 avec 500 utilisateurs ou moins seront onboarded aux équipes et n’auront pas accès à Skype pour Business Online. Les clients qui utilisent déjà Skype pour Business Online seront en mesure de continuer cette procédure tel (y compris la mise en service de nouveaux utilisateurs) jusqu'à ce qu’ils s’exécutent leur transition vers les équipes. Pour plus d’informations, voir [Les équipes Microsoft maintenant le client principal pour les réunions et appel dans Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
         
 En termes de fonctionnalités principal d’équipes, il n’existe aucune différence entre les abonnements Office 365. La disponibilité des fonctionnalités de conformité dépend du niveau d'abonnement correct. Pour plus d'informations, consultez la rubrique [Présentation de la sécurité et de la conformité dans Teams](security-compliance-overview.md). Pour obtenir une liste détaillée des fonctionnalités disponibles dans chaque abonnement, consultez la [Description de Service de plateforme Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 

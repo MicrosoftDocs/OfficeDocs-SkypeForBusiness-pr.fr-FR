@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ffcab1a80f17bc4adc929f7e5efe63ef5ab6918
-ms.sourcegitcommit: c4254b6119bbce274f895e20d30cb3c513d5a2de
+ms.openlocfilehash: dd12b4e5f054d3410f1e62e7ed09476ffac6754b
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454026"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495605"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guide de migration et d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises
 
@@ -66,7 +66,7 @@ Les modes planifiées sont répertoriés ci-dessous. SfBWithTeamsCollab et SfBWi
 
 |Mode|Comportement de routage|Planification de la réunion|Expérience du client|
 |---|---|---|---|
-|(Îles)|VOIP entrant appelle et conversations terrestre dans le même client en tant qu’expéditeur, sauf si le destinataire est fédéré et mode des îles, auquel cas ils atterrissent SfB.<sup>1</sup>|Les deux|Les utilisateurs finaux peuvent lancer des appels et les salles de conversation à partir d’un client et permet de planifier des réunions à partir d’un client.|
+|(Îles)|VOIP entrant appelle et conversations terrestre dans le même client en tant qu’expéditeur, sauf si le destinataire est fédéré et en mode (îles), auquel cas ils atterrissent SfB.<sup>1</sup>|Les deux|Les utilisateurs finaux peuvent lancer des appels et les salles de conversation à partir d’un client et permet de planifier des réunions à partir d’un client.|
 |SfBOnly|Conversations et les appels entrants sont routées vers Skype pour les entreprises|Skype pour les entreprises uniquement|Les utilisateurs finaux peuvent lancer des appels et des conversations de Skype pour les entreprises et planifier uniquement Skype pour les réunions d’entreprise. (PAS ENCORE APPLIQUÉE)|
 |SfBWithTeamsCollab<sup>2</sup>|Conversations et les appels entrants sont routées vers Skype pour les entreprises|Skype pour les entreprises uniquement|Les utilisateurs finaux peuvent lancer des appels et des conversations de Skype pour les entreprises et planifier uniquement Skype pour les réunions d’entreprise. Ils peuvent également utiliser des canaux dans les équipes. (PAS ENCORE APPLIQUÉE)|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|Conversations et les appels entrants sont routées vers Skype pour les entreprises|Équipes uniquement|Les utilisateurs finaux peuvent passer des appels et conversations Skype pour les entreprises uniquement et uniquement à partir de planifient des réunions d’équipes. Ils peuvent également utiliser des canaux dans les équipes. (PAS ENCORE APPLIQUÉE)|
@@ -147,7 +147,7 @@ Utilisez la syntaxe de commande suivante, où $policy est une des valeurs d’id
 
 Fédération des équipes à un autre utilisateur à l’aide de Skype entreprise requiert l’utilisateur équipes hébergés en ligne dans Skype pour les entreprises. Finalement, équipes, les utilisateurs hébergés dans Skype pour Business locale sera vous fédérer avec d’autres utilisateurs d’équipes.
 
-TeamsUpgradePolicy gère le routage des appels et des conversations fédérées entrantes. Le comportement du routage fédéré les mêmes que pour scnearios du même client, est, sauf en mode de (îles).  Lorsque les destinataires sont en mode (îles) : 
+TeamsUpgradePolicy gère le routage des appels et des conversations fédérées entrantes. Le comportement du routage fédéré est la même que pour les scénarios de même client, *sauf en mode (îles)*.  Lorsque les destinataires sont en mode (îles) : 
 - Conversations et les appels démarrés à partir des équipes atteindre dans SfB si le destinataire se trouve dans un *client fédéré*.
 - Conversations et les appels démarrés à partir des équipes atteindre dans les équipes si le destinataire se trouve dans le *même client*.
 - Conversations et les appels démarrés à partir de SfB toujours atteindre dans SfB.
