@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42b5827e6690817f62c0146800f9e38992666cf2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d8b1497a864a1dbd271af81363151275ffe7de1e
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372555"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502231"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -28,6 +28,10 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Journaux d’audit peuvent indiquer un nom d’utilisateur incorrecte en tant qu’initiateur lorsqu’une personne a été supprimée d’une équipe  <br/> |Équipes équipe est un groupe moderne DAS. Lorsque vous ajoutez/supprimer un membre par le biais de l’interface utilisateur d’équipes, le flux sait exactement l’utilisateur ayant initié la modification et le journal d’Audit reflète les informations correctes. Toutefois, si un utilisateur ajoute/supprime un membre par le biais de DAS, la modification est synchronisée avec le serveur principal d’équipes sans indiquant les équipes qui a initié l’action. Microsoft Teams sélectionne le premier propriétaire de l’équipe en tant qu’initiateur, ce qui est finalement répercutée dans le journal d’Audit.    <br/> |  <br/> |5/11/18  <br/> |
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Stratégie EAF dans le Enhanced atténuation expérience Toolkit (EMET) peut identifier incorrectement optimisations de bac à sable chrome comme des menaces. <br/> |Il existe un problème avec un bac à sable chrome dans laquelle la stratégie exporter adresse Table Access filtrage (EAF) dans le Enhanced atténuation expérience Toolkit (EMET) peut identifier incorrectement optimisations de bac à sable chrome comme des menaces. Cela empêche les onglets dans l’affichage web équipes de rendu correct. <br/> | Désactiver les lignes directrices Englobent de Chrome. Vous pouvez en savoir plus sur le problème [instructions des facteurs atténuants EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) <br/> |10/11/18 <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
