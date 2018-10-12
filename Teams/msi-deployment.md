@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8230cb0cd03e1ba0b11c43c16d8817fdb80c31ec
-ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.openlocfilehash: 7d197d431bb08027da27dd7ae61e421c9519aad1
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25352281"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502197"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installer Microsoft Teams à l’aide de MSI
 =================================
@@ -65,5 +65,7 @@ Si un utilisateur désinstalle des équipes de leur profil utilisateur, le progr
 
 Si vous souhaitez désactiver le démarrage automatique, entrez l’invite de commandes suivante :
 
-`msiexec /i Teams_windows.exe OPTIONS="noAutoStart=true"`
+```
+msiexec /i Teams_windows.exe OPTIONS="noAutoStart=true"
+```
 

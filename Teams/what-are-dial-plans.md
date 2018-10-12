@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment choisir votre organisation et quel type de numérotation appelant plans (plans de numérotation appel PSTN) sont disponibles avec Office 365.  '
-ms.openlocfilehash: d9503655c6f836f0dc50d63133acddd6bc7474b4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 28e0b3d282cba17061f0573b5bd9efe7e27de786
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371817"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502357"
 ---
 # <a name="what-are-dial-plans"></a>Qu'est-ce que les plans de numérotation ?
 
@@ -37,7 +37,7 @@ Un plan de numérotation est un jeu nommé de règles de normalisation qui conve
 
 Un plan de numérotation se compose d’une ou plusieurs règles de normalisation qui définissent comment les numéros de téléphone exprimés sous différents formats sont converties en un autre format. La même chaîne de numérotation peut être interprétée et convertie différemment dans différents plans de numérotation, afin que, selon le plan de numérotation est attribué à un utilisateur donné, les mêmes composé numéro peut être traduit routé différemment.
 
-Voir [créer et gérer des plans de numérotation](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) pour créer et gérer des plans de numérotation client.
+Voir [créer et gérer des plans de numérotation](create-and-manage-dial-plans.md) pour créer et gérer des plans de numérotation client.
 
 ## <a name="tenant-dial-plan-scope"></a>Étendue du plan de numérotation client
 
@@ -59,7 +59,7 @@ Voici les différents plans de numérotation efficace possibles :
 
  **Client utilisateur - pays de Service** Si un plan de numérotation utilisateur client est défini et affecté à un utilisateur, l’utilisateur mis en service reçoit un plan de numérotation effectives comprenant le plan de numérotation utilisateur fusionnée client et le plan de numérotation pays service associé à leur emplacement d’utilisation Office 365.
 
-Voir [créer et gérer des plans de numérotation](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) pour créer des plans de numérotation de votre client.
+Voir [créer et gérer des plans de numérotation](create-and-manage-dial-plans.md) pour créer des plans de numérotation de votre client.
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planification des plans de numérotation utilisateur
 
@@ -97,7 +97,7 @@ Vous pouvez spécifier un préfixe d'accès extérieur de 1 à 4 caractères (#,
 > [!NOTE]
 > Si vous spécifiez un préfixe d'accès extérieur, vous n'avez pas besoin de créer une règle de normalisation supplémentaire pour vous adapter au préfixe. 
 
-Voir [créer et gérer des plans de numérotation](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) pour créer des plans de numérotation de votre client.
+Voir [créer et gérer des plans de numérotation](create-and-manage-dial-plans.md) pour créer des plans de numérotation de votre client.
 
 ## <a name="normalization-rules"></a>Règles de normalisation
 
@@ -115,7 +115,7 @@ Les règles de normalisation utilisent les expressions régulières du .NET Fram
 
 Pour plus d’informations sur l’utilisation d’expressions régulières .NET Framework, consultez [Expressions régulières .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
-Voir [créer et gérer des plans de numérotation](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) pour créer et gérer la normalisation des plans de numérotation règles pour votre client.
+Voir [créer et gérer des plans de numérotation](create-and-manage-dial-plans.md) pour créer et gérer la normalisation des plans de numérotation règles pour votre client.
 
 ### <a name="sample-normalization-rules"></a>Exemples de règles de normalisation
 
@@ -152,7 +152,7 @@ Le tableau ci-dessous illustre des exemples de règles de normalisation écrites
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Créer et gérer les plans de numérotation](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
+[Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
 
 [Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
 

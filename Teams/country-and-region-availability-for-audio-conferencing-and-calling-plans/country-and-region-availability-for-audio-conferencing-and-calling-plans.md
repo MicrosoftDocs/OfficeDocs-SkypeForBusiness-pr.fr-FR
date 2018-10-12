@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner un pays ou une région pour consulter la disponibilité de l'audioconférence, du système téléphonique, des forfaits d'appel, des crédits de communication ainsi que des numéros payants et gratuits.
-ms.openlocfilehash: bc39b239128ffacea5c4d58d1055f57d5088fb11
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d669e6a64efe3d31b7259a3c7f7eabd447d95a65
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372484"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502365"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays
 
@@ -144,7 +144,7 @@ Après avoir consulté la disponibilité d'un service Skype Entreprise ou Micro
 
 ### <a name="audio-conferencing"></a>Audioconférence
 
-Parfois, les membres de votre organisation devront utiliser un téléphone pour composer le numéro de la réunion. Skype Entreprise et Microsoft Teams possèdent la fonctionnalité d'audioconférence pour ce type de situation ! Les utilisateurs peuvent composer le numéro d'une réunion à l'aide d'un téléphone au lieu d'utiliser les applications Skype Entreprise et Microsoft Teams depuis un dispositif mobile ou un ordinateur. Après avoir décidé d’utiliser l'audioconférence dans votre organisation, vous devez acheter 1 licence d'**audioconférence** pour chaque personne dans votre organisation qui planifiera ou organisera des audioconférences.
+Parfois, les membres de votre organisation devront utiliser un téléphone pour composer le numéro de la réunion. Skype Entreprise et Microsoft Teams possèdent la fonctionnalité d'audioconférence pour ce type de situation ! Les utilisateurs peuvent composer le numéro d'une réunion à l'aide d'un téléphone au lieu d'utiliser les applications Skype Entreprise et Microsoft Teams depuis un dispositif mobile ou un ordinateur. Une fois que vous avez décidé de conférence Audio pour votre organisation, vous devez acheter une licence de **Services d’audioconférence** pour chaque personne de votre organisation qui est sur le point d’une réunion audio de planification/hôte.
   
 Avec l'audioconférence, des numéros de téléphone payants et gratuits peuvent être utilisés par vos utilisateurs pour rejoindre des réunions par composition du numéro. Les numéros payants des régions et des pays suivants sont automatiquement attribués en tant que numéros d'audioconférence partagés aux organisations lorsque l'audioconférence est activée. Des numéros payants et gratuits dédiés peuvent être attribués à votre organisation pour des villes supplémentaires.
 

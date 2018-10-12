@@ -15,22 +15,24 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1dbfddf2f9cfba12943b8b2e18326de1877e1de3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b8d517ce7f2fb614a22c45fcf63d59a7d46b606f
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018822"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502333"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Gérer les équipes Microsoft Teams et Skype entreprise centre d’administration
 ==========================================
+
+[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>Vue d’ensemble
 
 En tant qu’un administrateur informatique, vous devrez peut-être afficher ou mettre à jour les équipes de votre organisation a configuré pour la collaboration, ou vous devrez effectuer des actions telles que l’affectation de propriétaires pour les équipes ownerless correction. Vous pouvez gérer les équipes utilisés dans votre organisation via le module PowerShell d’équipes Microsoft et les Microsoft Teams & Skype entreprise centre d’administration. Pour les fonctionnalités d’administration complète à l’aide de ces deux ensembles d’outils, assurez-vous que vous sont affectés à un des rôles suivants :
 
 - Administrateur global
-- Administrateur de Service des équipes
+- Administrateur du service Teams
 
 Vous en apprendrez plus sur les rôles d’administrateur dans Microsoft Teams [ici](using-admin-roles.md), et vous pouvez en savoir plus sur la façon d’utiliser les applets de commande PowerShell pour la gestion des équipes dans la [référence d’applet de commande équipes Microsoft](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps).  
 

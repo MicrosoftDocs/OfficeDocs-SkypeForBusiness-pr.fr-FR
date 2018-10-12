@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f86cf706d7bf507fb77fac7becf9bd48168eac6
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 1882e18bdf746acc6b6991e4c574ca28cb3176a6
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25348207"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502325"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -38,7 +38,7 @@ Lors de la création d’une équipe à l’échelle de l’organisation, les ad
 ## <a name="best-practices"></a>Meilleures pratiques
 Pour obtenir le meilleur parti de votre équipe à l’échelle de l’organisation, nous vous recommandons de propriétaires d’équipe, procédez comme suit.
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Autoriser uniquement les propriétaires de l’équipe à publier le canal général
-Réduire le bruit de canal par l’équipe uniquement de publier des propriétaires pour le canal d’échange général. Accédez à l’équipe et cliquez sur **autres options (...)**  >  **Gérer l’équipe**. Dans l’onglet **paramètres** , cliquez sur **autorisations de membre** > sélectionnez **peuvent publier des propriétaires uniquement**.
+Réduire le bruit de canal par l’équipe uniquement de publier des propriétaires pour le canal d’échange général. Accédez à l’équipe et cliquez sur **autres options (...)**  >  **Gérer l’équipe**. Dans l’onglet **paramètres** , cliquez sur **autorisations de membre** > sélectionnez **propriétaires uniquement peuvent publier des messages**.
 ### <a name="turn-off-team-and-team-name-mentions"></a>Désactiver @team et @ mentions de [nom de l’équipe]
  Réduire @mentions pour empêcher toute la surcharge de l’organisation toute entière. Accédez à l’équipe et cliquez sur **autres options (...)**  >  **Gérer l’équipe**. Dans l’onglet **paramètres** , cliquez sur **@mentions** > désactiver **Afficher les membres de l’option à @team ou @[nom de l’équipe]**. 
 ### <a name="automatically-favorite-important-channels"></a>Canaux importantes automatiquement favoris
