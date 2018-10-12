@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Office 365.
-ms.openlocfilehash: 3114b3f663cc4a439ace8d5f0338b182a8b38a3b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6c59ff1aa7f32998efb5f7693d4e46b417b3fd84
+ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374951"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25501493"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Déploiement de Skype Room Systems v2 avec Office 365 
 
@@ -37,7 +37,7 @@ Pour activer Skype pour les entreprises, vous devez disposer les éléments suiv
 
 - Les utilisateurs de client doivent avoir des boîtes aux lettres Exchange.
 
-- Votre compte v2 de systèmes de salle Skype nécessite-t-il au moins un Skype pour licence entreprise Online (Plan 2), mais il ne nécessite pas une licence Exchange Online.
+- Votre compte v2 de systèmes de salle Skype nécessite-t-il au moins un Skype pour licence entreprise Online (Plan 2), mais il ne nécessite pas une licence Exchange Online. Pour plus d’informations, voir [systèmes de salle Skype v2 licences](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) .
 
 Pour plus d’informations sur Skype pour Business Online Plans, voir le [Skype pour Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
 
