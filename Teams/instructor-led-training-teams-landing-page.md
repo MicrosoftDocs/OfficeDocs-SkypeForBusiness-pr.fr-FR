@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: d6eeea78106e13cafee5096be04d344ad216c65a
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: 281a864091714c1614b86b7f4f45ea48245d8108
+ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429437"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25501486"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -43,7 +43,7 @@ ms.locfileid: "25429437"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>#ThisIsTeams - vue d’ensemble de Microsoft Teams</h3>
-                                                    <p>Qu'est ce que Microsoft Teams ? Rejoignez-nous pour cette orientation de 30 minutes découvrir les nouveautés des équipes et comment il peut faire pour vous.</p>
+                                                    <p>Qu'est ce que Microsoft Teams ? Rejoignez-nous pour cette orientation de 30 minutes découvrir les nouveautés des équipes et comment il peut faire pour vous. (Audience : tous les)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -62,7 +62,7 @@ ms.locfileid: "25429437"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Mise en route avec des équipes</h3>
-                                                    <p>À partir de la conversation et des réunions à l’utilisation de canaux et les équipes, les utilisateurs laisse cette session avec foundation à utiliser des équipes en toute confiance.</p>
+                                                    <p>À partir de la conversation et des réunions à l’utilisation de canaux et les équipes, les utilisateurs laisse cette session avec foundation à utiliser des équipes en toute confiance. (Audience : les utilisateurs finaux)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -81,7 +81,7 @@ ms.locfileid: "25429437"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Gérer votre mise à niveau à partir de Skype pour les entreprises à des équipes</h3>
-                                                <p>Obtenir des informations sur la planification et l’implémentation d’une mise à niveau réussie de Skype pour les entreprises aux équipes. </p>
+                                                <p>Planifier et implémenter une mise à niveau réussie de Skype pour les entreprises aux équipes (public : professionnels de l’informatique, les gestionnaires de changements d’adoption)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@ ms.locfileid: "25429437"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Passer de Skype pour les entreprises à équipes : Guide de l’utilisateur final</h3>
-                                                    <p>Obtenez ce que vous devez démarrer rapidement la conversation, la réunion et appel dans les équipes pendant la transition à partir de Skype pour les entreprises aux équipes.</p>
+                                                    <p>Obtenez ce que vous devez commencer rapidement à l’aide des équipes pendant la transition à partir de Skype pour les entreprises aux équipes. (Audience : les utilisateurs finaux)</p>
                                             </div>
                                         </div>
                                     </div>
