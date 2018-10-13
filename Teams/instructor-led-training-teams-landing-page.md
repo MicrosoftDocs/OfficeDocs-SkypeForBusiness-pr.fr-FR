@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: 281a864091714c1614b86b7f4f45ea48245d8108
-ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
+ms.openlocfilehash: 4909c14205cd34b664603a33fcc469fc260674b9
+ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25501486"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25540284"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -127,6 +127,7 @@ ms.locfileid: "25501486"
                             </a>
                         </li>
                         <li>
+                            <a href="https://aka.ms/TeamsEduWebinars">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -136,8 +137,8 @@ ms.locfileid: "25501486"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Plus de formations bientôt disponible !</h3>
-                                                <p>Vérification de conserver précédent pour prendre formateurs supplémentaires comme leur lancement.</p>
+                                                <h3>Équipes de formation - conférences Web</h3>
+                                                <p>Découvrez comment utiliser les équipes de l’enseignement supérieur. (Audience : personnel, étudiants, formation universitaire, recherche universitaire, professionnels de l’informatique)</p>
                                             </div>
                                         </div>
                                     </div>
