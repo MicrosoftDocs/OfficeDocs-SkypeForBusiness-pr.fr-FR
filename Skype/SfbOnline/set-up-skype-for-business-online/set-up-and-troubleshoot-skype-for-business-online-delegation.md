@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Cet article explique comment configurer et dépanner Skype pour la délégation d’entreprise en ligne. Cet article vous donne des conseils pour les étapes de dépannage, meilleures pratiques et recommandations pour le programme d’installation.
-ms.openlocfilehash: 5af84a6731d1f1e95a8d9da70fcd7c2677f36d7d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e3131b28be1ad01e0965b2739dc152a627826d5e
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370889"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546674"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurer et résoudre les problèmes de délégation pour Skype Entreprise Online
 
@@ -89,13 +89,13 @@ Pour configurer Skype pour la délégation d’entreprise en ligne, procédez co
     
 3. Sélectionnez **Ajouter**, sélectionnez le délégué que vous souhaitez ajouter, puis sélectionnez **OK**.
     
-   **Aucun onglet transfert d’appel**
+ **Aucun onglet transfert d’appel**
   
-4. Dans Outlook, sélectionnez le **fichier** > **Paramètres du compte** > **Accès délégué** > **Ajouter**.
+1. Dans Outlook, sélectionnez le **fichier** > **Paramètres du compte** > **Accès délégué** > **Ajouter**.
     
-5. Recherchez, puis ajoutez le nom de la personne qui doit être le délégué.
+2. Recherchez, puis ajoutez le nom de la personne qui doit être le délégué.
     
-6. Sélectionnez le menu **calendrier** , puis sélectionnez **éditeur (peut lire, créer et modifier des éléments)**.
+3. Sélectionnez le menu **calendrier** , puis sélectionnez **éditeur (peut lire, créer et modifier des éléments)**.
     
 ### <a name="for-mac-clients---lync"></a>Pour les clients Mac - Lync
 

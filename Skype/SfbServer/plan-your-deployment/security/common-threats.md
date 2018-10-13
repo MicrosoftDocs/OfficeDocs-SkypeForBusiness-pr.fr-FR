@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Skype pour Business Server étant un système de communications d’entreprise, vous devez être conscient des attaques de sécurité courantes susceptibles d’affecter son infrastructure et les communications.
-ms.openlocfilehash: 5609fda3fd3d58a5e5ed5df34c1c5e39e7843e85
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 594bde9b01a61586364034ba026db91aea49ef88
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373063"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546782"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Menaces fréquentes pour la sécurité dans l’informatique moderne
  
@@ -48,21 +48,25 @@ Une attaque par déni de service se produit lorsqu’une personne malveillante e
     
 ## <a name="eavesdropping-sniffing-snooping"></a>Attaque par écoute (Eavesdropping)
 
-Une attaque par écoute peut se produire lorsqu’une personne malveillante parvient à accéder au chemin d’accès des données d’un réseau et qu’elle peut ainsi surveiller et lire le trafic. C’est également calledsniffing orsnooping. Si le trafic consiste en du texte simple, l’intrus peut lire le trafic lorsqu’il accède au chemin d’accès des données. Par exemple, une attaque peut être lancée en contrôlant un routeur sur le chemin de données. 
+Une attaque par écoute peut se produire lorsqu’une personne malveillante parvient à accéder au chemin d’accès des données d’un réseau et qu’elle peut ainsi surveiller et lire le trafic. Cette attaque est également appelée reniflage (« sniffing ») ou surveillance (« snooping »). Si le trafic consiste en du texte simple, l’intrus peut lire le trafic lorsqu’il accède au chemin d’accès des données. Par exemple, une attaque peut être lancée en contrôlant un routeur sur le chemin de données. 
   
 La recommandation par défaut et le paramètre pour le trafic dans Skype pour Business Server consiste à utiliser (Mutual TLS) entre serveurs approuvés et TLS à partir du client au serveur. Cette mesure de protection rend ce type d’attaque difficile, voire impossible, durant le laps de temps pendant lequel une conversation donnée peut être attaquée. Le protocole TLS authentifie toutes les parties et chiffre le trafic. Ceci n’empêche pas les attaques par écoute, mais l’intrus ne peut pas lire le trafic à moins que le chiffrement ne soit rompu.
   
 Le protocole TURN (Traversal Using Relay NAT) n’exige pas que le trafic soit chiffré. Les informations acheminées sont protégées par l’intégrité des messages. Bien qu’elles puissent faire l’objet d’une attaque par écoute, les informations acheminées (autrement dit, les adresses IP et le port) peuvent être extraites directement, en observant simplement les adresses source et de destination des paquets. Le service Edge A/V s’assure que les données sont valides en vérifiant l’intégrité du message à l’aide d’une clé dérivée de plusieurs éléments, dont un mot de passe TURN, qui n’est jamais transmise en texte en clair. Si le protocole SRTP (Secure Real Time Protocol) est utilisé, le trafic multimédia est également chiffré.
   
-## <a name="identity-spoofing-ip-address-spoofing"></a>Usurpation d’identité (usurpation d’adresse IP)
+## <a name="identity-spoofing-ip-address-and-caller-id-spoofing"></a>Usurpation d’identité (adresse IP et l’appelant usurpation d’Id)
 
-On parle d’usurpation d’identité lorsqu’une personne malveillante parvient à déterminer et à utiliser l’adresse IP d’un réseau, d’un ordinateur ou d’un composant réseau, sans y avoir été autorisée. Si l’attaque réussit, l’intrus peut opérer comme s’il était l’utilisateur habituellement identifié par l’adresse IP. Dans le contexte de Skype pour Business Server, cette situation intervient uniquement si un administrateur a effectué les deux opérations suivantes :
+Identité l’usurpation d’identité se produit lorsque l’intrus détermine utilise un numéro de téléphone d’un utilisateur valid (id de l’appelant) ou une adresse IP d’un réseau, un ordinateur ou un composant réseau sans être autorisé au pour faire. Une attaque permet à l’intrus peut opérer comme si l’intrus est l’entité habituellement identifiée par le numéro de téléphone (id de l’appelant) ou l’adresse IP.
+
+Dans le contexte de Skype pour Business Server, usurpation d’adresse IP intervient uniquement si un administrateur a effectué les deux opérations suivantes :
   
 - configuré des connexions qui prennent uniquement en charge le protocole TCP (Transmission Control Protocol), ce qui n’est pas recommandé car les communications TCP ne sont pas chiffrées ;
     
 - marqué les adresses IP de ces connexions en tant qu’hôtes approuvés.
     
 Ce problème est moins grave pour les connexions TLS (Transport Layer Security), car TLS authentifie toutes les parties et chiffre le trafic. L’utilisation du protocole TLS empêche une personne malveillante d’usurper une adresse IP sur une connexion spécifique (par exemple, les connexions Mutual TLS). Mais une personne malveillante peut usurper toujours l’adresse du serveur DNS qui utilise Skype pour Business Server. Toutefois, étant donné que l’authentification dans Skype pour les entreprises est effectuée avec des certificats, une personne malveillante aurait pas un certificat valide requis usurper une des parties de la communication.
+
+En revanche, l’usurpation d’identité des Id d’appelant intervient lorsque vous avez établi une jonction SIP entre un fournisseur, passerelle PSTN ou un autre système PBX et Skype pour Business Server. Dans ces cas-là, Skype pour Business Server n’offre pas de protection à se prémunir contre l’usurpation des id d’appelant. Cela signifie qu’un Skype pour l’utilisateur d’entreprise peut recevoir un appel à partir de la jonction SIP avec un id d’appelant usurpés affichant le numéro de téléphone d’un autre Skype pour l’utilisateur d’entreprise. Protection à celle-ci doit être appliquée sur le côté fournisseur, passerelle PSTN ou PBX.
   
 ## <a name="man-in-the-middle-attack"></a>Attaque de l’intercepteur (« man-in-the-middle »)
 
