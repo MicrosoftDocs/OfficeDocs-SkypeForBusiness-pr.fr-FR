@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: 4909c14205cd34b664603a33fcc469fc260674b9
-ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
+ms.openlocfilehash: 8944a17bb083dd5af17b8d217f31567fc27e83fe
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540284"
+ms.locfileid: "25546775"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -81,7 +81,7 @@ ms.locfileid: "25540284"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Gérer votre mise à niveau à partir de Skype pour les entreprises à des équipes</h3>
-                                                <p>Planifier et implémenter une mise à niveau réussie de Skype pour les entreprises aux équipes (public : professionnels de l’informatique, les gestionnaires de changements d’adoption)</p>
+                                                <p>Planifier et implémenter une mise à niveau réussie aux équipes (public : professionnels de l’informatique, les gestionnaires de changements d’adoption)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -137,7 +137,7 @@ ms.locfileid: "25540284"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Équipes de formation - conférences Web</h3>
+                                                <h3>Équipes pour l’éducation - conférences Web</h3>
                                                 <p>Découvrez comment utiliser les équipes de l’enseignement supérieur. (Audience : personnel, étudiants, formation universitaire, recherche universitaire, professionnels de l’informatique)</p>
                                             </div>
                                         </div>
