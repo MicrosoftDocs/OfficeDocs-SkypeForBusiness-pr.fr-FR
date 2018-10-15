@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Skype Entreprise
 description: Skype Entreprise
-ms.openlocfilehash: da72536d6c9f0238b301f0fbf3bbd14abc372c46
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cbb9765c358047b628be45759e2002cdc5a46f02
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373878"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546664"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -180,7 +180,7 @@ ms.locfileid: "25373878"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Utilisateurs finaux</h3>
-                                                    <p>Trouvez de l’aide, de la formation et du support technique pour les utilisateurs de Skype Entreprise sur support.office.com.</p>
+                                                    <p>Obtenez de l’aide, de la formation et du support technique pour les utilisateurs de Skype Entreprise sur <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>
