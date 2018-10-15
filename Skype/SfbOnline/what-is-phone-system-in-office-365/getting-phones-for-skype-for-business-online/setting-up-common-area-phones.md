@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, mettre à jour si nécessaire, attribuer des licences et configurer les paramètres pour les téléphones en zone commune.
-ms.openlocfilehash: 3faa66235f3c3364a0da6560a6dc52daa252915b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d741b2ea76b8824ed36252d1d53e3f66e0118401
+ms.sourcegitcommit: cba568455949deab3c47777cb6504b4ed889bdbd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370674"
+ms.lasthandoff: 10/14/2018
+ms.locfileid: "25552437"
 ---
 # <a name="set-up-common-area-phones"></a>Configuration des téléphones de zone commune
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -66,11 +66,7 @@ Pour plus d’informations sur les licences, consultez la section [Licences comp
 3. Saisissez un **Nom d’affichage**, s’il n’est pas généré automatiquement, comme « Reception Principale ».
 4. Saisissez un **Nom d'utilisateur** comme « RéceptionPrincipale » ou « HallPrincipal ».
 5. For common area phones, you might want to set a password manually or have the same password for all of you common area phones. Also, you might think about unselecting **Make this user change their password when they first sign in**.
-
-    > [!Tip]
-    > WAIT!! Don't click **Add**!! Ugh, if you did click **Add** the do this: Office 365 admin center > **Users** > **Active users** and then find the user. Then on the user's properties page, click **Product licenses** and then click **Edit**. On the **Product licenses** page, turn on **Common Area Phone** and pick either a **Domestic Calling Plan** or a Domestic and **International Calling Plan**.
-
-6. If you are still there, assign the licenses to this user. On the same page, click to expand **Product licenses**. Turn on the following:
+6. Si vous êtes toujours là, attribuez les licences à cet utilisateur. Sur la même page, cliquez pour développer **Licences produit**. Activez l’élément suivant :
    - Téléphone de zone commune
    - Ensuite, vous devez choisir soit un **Forfait d’appels nationaux** soit un **Forfait d’appels internationaux** et nationaux.
 
@@ -91,23 +87,23 @@ Pour plus de détails, reportez-vous à la section [Ajouter un utilisateur](http
 2. Dans le **Centre d’administration Skype Entreprise** >  **Voix** > **Numéros de téléphone**.
 3. Sélectionnez un numéro dans la liste des numéros de téléphone et cliquez sur **Attribuer**.
 4. Sur la page **Attribuer**, dans la zone **Utilisateur vocal**, entrez le nom de l’utilisateur utilisé pour le téléphone, puis sélectionnez l'utilisateur dans la liste déroulante **Sélectionner un utilisateur vocal**.
-5. While you're there you will need to add an emergency address. Once you search, look under the **Select emergency address** to pick the right one for you.
+5. Pendant que vous êtes là, vous devrez ajouter une adresse d’urgence. Une fois la recherche effectuée, regardez sous **Sélectionner l’adresse d’urgence** pour choisir celle qui vous convient.
 6. Cliquez sur **Enregistrer** et votre utilisateur devrait ressembler à ceci :
 
     ![cap-user-number.png](../../images/cap-user-number.png)
 
    > [!Note]
-   > Users will only show up if they have a **Phone System** licence applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.
+   > Les utilisateurs apparaîtront seulement s’ils possèdent une licence **Système téléphonique**. Si vous venez d’attribuer, il faudra parfois attendre un moment pour que l’utilisateur apparaisse dans la liste.
 
 Pour plus de détails, reportez-vous à la section [Obtenir des numéros de téléphone pour vos utilisateurs](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).
 
-If you're wondering, you can also take your phone number that you have with another carrier and "*port*" or transfer them over to Office 365. See, [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
+Sachez que vous pouvez également prendre le numéro de téléphone que vous avez avec un autre opérateur et le « *Porter* » ou le transférer sur Office 365. Consultez [transfert des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
 
 ### <a name="step-4---setting-up-your-phone"></a>Étape 4 - Configuration de votre téléphone
 
 **Réglage du mode sur un téléphone**
 
-The phone or phones you have must have the **Common Area Phone mode** turned on. You might want to check on that to make sure they do.
+Le téléphone ou les téléphones que vous avez doivent avoir le **Mode de téléphone de zone commune** activé. Il serait interessant de vous assurer que ce mode soit bien activé.
 
 **Voici un exemple de configuration d’un téléphone Polycom VVX**
 
@@ -116,7 +112,7 @@ The phone or phones you have must have the **Common Area Phone mode** turned on.
     2. Ensuite aller sur **Réglage** et dans l’option **Paramètre Skype Entreprise**, sélectionnez **Téléphone de zone commune**.
     3. Cliquez sur **OK** pour enregistrer vos paramètres.
 
-- Now that CAP mode is enabled, set up the phone using the phone's display. The display should show **CaAP is enabled**. Then do the following:
+- Maintenant que le mode TZC est activé, configurez le téléphone en utilisant l’affichage du téléphone. L’affichage devrait montrer **TZC est activé**. Faites ensuite ceci :
 
     1. Cliquez sur **Paramètres**.
     2. Sélectionnez **Avancé**.
@@ -141,7 +137,7 @@ The phone or phones you have must have the **Common Area Phone mode** turned on.
 
 
 > [!NOTE]
-> The CAP provisioning site states it will reset the CAP account's password to a random password. Take note that the account the CAP is referring is the Azure Active Directory (AAD) account. If you created the account in AAD only then the process is straightforward. If you have synced an on premises Active Directory to AAD make sure to take note of the credentials you are using that will be changed by CAP provisioning.
+> Le site d'attribution de privilèges d'accès CAP indique qu'il réinitialisera le mot de passe du compte CAP à un mot de passe aléatoire. Notez que le compte auquel fait référence le CAP est le compte Azure Active Directory (AAD). Si vous avez créé le compte dans AAD uniquement, le processus est simple. Si vous avez synchronisé un Active Directory local avec AAD, assurez-vous de prendre note des informations d'identification que vous utilisez et qui seront modifiées par l'attribution de privilèges d'accès CAP.
 
 
 ### <a name="related-topics"></a>Rubriques connexes
