@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les fonctionnalités disponibles dans les systèmes de salle Skype v2. '
-ms.openlocfilehash: 3f1a72bdbbe640a615bbf17c0525d3ece00295ad
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 504666aef333ea3dec8f5b217396d75285ea628a
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546654"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576509"
 ---
 # <a name="skype-room-systems-v2"></a>Skype Room System v2
 <a name="bkmk_srs"> </a>
@@ -44,7 +44,4 @@ Le tableau suivant indique les fonctionnalités disponibles dans les [Aide pour 
 |Lancer une réunion ad hoc et les appels sortants à partir d’une réunion aux numéros de téléphone.  <br/> |Skype pour Business, Plan autonome 2 avec les services d’audioconférence  <br/> **Remarque :** Communications crédits sont facultatifs.           |E1 ou E3 avec les services d’audioconférence  <br/> OU  <br/> E5  <br/> |Skype Entreprise Licence d'accès client standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise  <br/> |
 |Donner à la salle un numéro de téléphone et émettre ou recevoir un appel à partir de la salle ou participer à une conférence audio à l’aide d’un numéro de téléphone.  <br/> |Skype pour Business autonome 2 avec Office 365 Phone System et un Plan d’appel  <br/> **Remarque :** Communications crédits sont facultatifs.           |E1 ou E3 avec Office 365 téléphone système et un Plan d’appel Office 365  <br/> OU  <br/> E5  <br/> |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Plus  <br/> |
    
- **Utiliser la version appropriée de Windows 10**: pour les clients qui souhaitent déployer Windows 10 images à leurs périphériques, une version spécifique de Windows 10 est requise, et cette version est uniquement disponible pour les clients de licence en volume. Vous devez utiliser **Windows 10 entreprise 1709 ou version ultérieure** Skype salle système v2.0 périphériques d’imagerie. Vous pouvez obtenir une copie à partir du [Centre de gestion des licences en Volume](https://www.microsoft.com/Licensing/servicecenter/).
-  
-
-    
+ **Utiliser la version appropriée de Windows 10**: pour les clients qui souhaitent déployer Windows 10 images à leurs périphériques, une version spécifique de Windows 10 est requise, et cette version est uniquement disponible pour les clients de licence en volume.  Vous pouvez obtenir une copie à partir du [Centre de gestion des licences en Volume](https://www.microsoft.com/Licensing/servicecenter/). Utiliser les conseils fournis dans le [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842) permettant de savoir version Windows 10 nécessaire pour créer votre support pour Skype salle système Version 2.   

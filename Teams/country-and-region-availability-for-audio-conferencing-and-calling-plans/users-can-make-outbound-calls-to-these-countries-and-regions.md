@@ -25,16 +25,16 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Cette rubrique contient tous les pays et régions que les utilisateurs peuvent effectuer des appels sortants vers s’ils disposent d’un Plan de l’appel.
-ms.openlocfilehash: 1b9e088c33fde71fa07ec405c088ad179708cb6e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 987379350d2605702d0e9e080f6a7a3a6d3a0383
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014612"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576575"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Les utilisateurs peuvent passer des appels sortants dans ces pays et régions
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>Voir quels utilisateurs pays/régions peuvent passer des appels sortants à si l’utilisateur a nationale ou interne et licence International appelant planifier
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Voir quels utilisateurs pays/régions peuvent passer des appels sortants à si l’utilisateur dispose de la licence national et International appelant planifier
 
 |**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
 ---|---|---|---|---|---|

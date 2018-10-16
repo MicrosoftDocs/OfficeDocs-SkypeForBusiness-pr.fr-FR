@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Lisez cette rubrique pour savoir comment planifier vos sites nuage connecteur Edition PSTN pour garantir le routage des appels efficace et économique.
-ms.openlocfilehash: 2f3c624dce8fa406724e54a405b72939951c849e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fa224bd4fa3dc1d0be5db8104e414f9a78d01b30
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890394"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576518"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Planification pour sites RTC, version Cloud Connector
  
@@ -64,9 +64,9 @@ L’exemple suivant montre comment grouper les jonctions aux sites PSTN et comme
     
   -  Portland (indicatif régional 503)
     
-Étant donné que l’utilisateur A à Redmond et l’utilisateur B à Bellevue sont dans des banlieues proches l’un de l’autre et ont le même indicateur régional (425), l’opérateur A devrait pouvoir prendre un appel d’urgence de l’utilisateur A à Redmond sur la jonction à Bellevue.   
+Étant utilisateur A à Redmond (centre de données A) et l’utilisateur B à Bellevue (B du centre de données) dans banlieues en regard de l’autre et dans le même indicatif régional (425), opérateur A doit être en mesure d’effectuer un appel d’urgence de l’utilisateur A à Redmond sur la jonction à Bellevue. 
   
-Par conséquent, les utilisateurs A et B et les jonctions nuage connecteur pour Bellevue et Redmond, peuvent sera probablement dans le même site PSTN comme indiqué dans le diagramme suivant. Les appels d’urgence des utilisateurs dans un bureau peuvent être acheminés vers les jonctions dans l’autre. Toutefois, vérifiez auprès de votre opérateur que cela fonctionne.
+Par conséquent, les utilisateurs A et B et les jonctions nuage connecteur pour Bellevue et Redmond, peuvent sera probablement dans le même site nuage connecteur PSTN comme indiqué dans le diagramme suivant. Les appels d’urgence des utilisateurs dans un bureau peuvent être acheminés vers les jonctions dans l’autre. Toutefois, vérifiez auprès de votre opérateur que cela fonctionne.
   
 ![Procédure de configuration de sites RTC](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
   

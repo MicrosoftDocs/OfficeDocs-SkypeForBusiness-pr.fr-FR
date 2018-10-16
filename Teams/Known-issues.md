@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca30bce0c5a0b96ba4ebf25d71e838aa88e4a602
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546752"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576552"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -117,6 +117,10 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |:-----|:-----|:-----|:-----|
 |Changement de nom d’un canal dans Microsoft Teams ne renomme pas le dossier correspondant dans SharePoint Online  <br/> |Si un canal est renommé dans Microsoft Teams, le dossier dans la bibliothèque de documents SharePoint Online correspondant à l’équipe ne change pas pour correspondre. Le nom du dossier SharePoint Online correct s’affiche en haut de l’onglet fichiers de canal renommée.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
 
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Aperçu de l’URL peut ne pas affiche de toutes les URL  <br/> |Certaines URL peut ne pas affiche un aperçu.  Il s’agit de l’URL d’origine ayant la possibilité d’afficher un aperçu. <br/> |Aucune solution. <br/> |9/1/18 <br/> |
+
 ## <a name="chat"></a>Conversation
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
@@ -172,6 +176,10 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Réunions non disponibles  <br/> |Fonctionnalités de réunion n’est pas disponible lors de la boîte aux lettres Exchange est hébergée (hébergés) locale dans la version est antérieure à Exchange 2016 CU3.  <br/> |Effectuez une mise à niveau vers Exchange 2016 CU3 ou une version suivante pour le déploiement sur site.  <br/> |28.02.2017  <br/> |
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Aucun son lors du partage de contenu pendant une réunion de diffusion  <br/> |Lorsque le partage de contenu pendant une réunion de diffusion, audio du contenu partagé (lien youtube ou un fichier vidéo enregistré) ne peut pas être entendre par les participants.  <br/> |Aucun comme cela est normal.  Équipes ne prend pas en charge l’audio à partir du partage de contenu  <br/> |10/9/18  <br/> |
 
 ## <a name="mobile"></a>Mobile
 
