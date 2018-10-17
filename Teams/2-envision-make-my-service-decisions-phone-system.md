@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f73c61b1c02f9560e3419d8993d998fa8f0ba9d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ccf53509b01341b482c5a687dfa3dcee66a928dc
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374794"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593702"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -269,10 +269,13 @@ Pour en savoir plus sur les Communications crédits, passez en revue [Quelles so
 > |Isabell Potvin |39 quai du Président Roosevelt |Forfait d'appels nationaux |Désactivé |
 
 <br>
-&gt; [!TIP]
-&gt;Votre planification des numéros des crédits Communications pouvant être documentés comme dans l’exemple suivant.
-&gt;|         |         | &gt;|---------|---------|
-&gt;| Quantité initiale | 1 000$ | &gt;| Quantité de déclencheur | 400 | &gt;| Montant auto-recharge | À DÉTERMINER |
+> [!TIP]
+> Votre planification des numéros des crédits Communications pouvant être documentés comme dans l’exemple suivant.
+> |         |         |
+> |---------|---------|
+> |Montant initial|1 000 $|
+> |Montant déclencheur|400 $|
+> |Montant de la recharge automatique|TBA|
 
 <!--ENDOFSECTION-->
 
@@ -377,9 +380,23 @@ Pour plus d’informations sur les plans de numérotation, voir [Quels sont les 
 > ||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;L’exemple de modèle ci-dessous peut servir à des affectations de plan de numérotation de document pour prendre en charge de votre projet : &gt;| Utilisateur | Office | Type de Plan de numérotation | Nom du Plan de numérotation | &gt;|---------|---------|---------|---------|
-&gt;| Adele Vance | Un Epping route | Plan de numérotation client | AU-CA-NorthRyde-OER | &gt;| Alex Wilber | Un Epping route | Plan de numérotation client | AU-CA-NorthRyde-OER | &gt;| Famille Ben | Un Epping route | Plan de numérotation client | AU-CA-NorthRyde-OER | &gt;| Pierre efuser | Un Marina Boulevard | Plan de numérotation client | GS-Singapour-OMB | &gt;| Marie Dubois Berger | Un Marina Boulevard | Plan de numérotation client | GS-Singapour-OMB | &gt;| Lee Gu | Un Marina Boulevard | Plan de numérotation client | GS-Singapour-OMB | &gt;| Emily Braun | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Lidia Holloway | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Louis Lahr | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-30qdPR | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-30qdPR | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-30qdPR |
+> [!TIP]
+> Le modèle d'exemple ci-après peut être utilisé pour documenter les attributions de plan de numérotation afin de prendre en charge votre projet :
+>
+> |Utilisateur  |Bureau  |Type de plan de numérotation  |Nom du plan de numérotation  |
+> |---------|---------|---------|---------|
+> |Adele Vance|1 Eppîng Road|Plan de numérotation de client|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|1 Eppîng Road|Plan de numérotation de client|AU-NSW-NorthRyde-OER|
+> |Ben Walters|1 Eppîng Road|Plan de numérotation de client|AU-NSW-NorthRyde-OER|
+> |Christie Cline|1 Marina Boulevard|Plan de numérotation de client|SG-Singapore-OMB|
+> |Debra Berger|1 Marina Boulevard|Plan de numérotation de client|SG-Singapore-OMB|
+> |Lee Gu|1 Marina Boulevard|Plan de numérotation de client|SG-Singapore-OMB|
+> |Emily Braun|32 London Bridge Street|Plan de numérotation de service|N/A|
+> |Lidia Holloway|32 London Bridge Street|Plan de numérotation de service|N/A|
+> |Louis Lahr|32 London Bridge Street|Plan de numérotation de service|N/A|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-30qdPR|
 
 <!--ENDOFSECTION-->
 

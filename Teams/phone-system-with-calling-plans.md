@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: cbe14840f53d01c491159bfb3e44fe837d047558
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dce3118f79723bd6838579a9cda722dd4dc7bb90
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371372"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593726"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Guide pratique des systèmes téléphoniques avec forfaits d'appels dans Microsoft Teams
 =========================================================================
@@ -313,9 +313,14 @@ L'utilisation des crédits de communication est contrôlable au niveau de chaque
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, compléments du système téléphonique, forfait d'appels nationaux|Désactivé|
 
 <br>
-&gt; [!TIP]
-&gt;Votre crédits Communications planification de numéros peut être documentés comme suit : &gt;|         |         | &gt;|---------|---------|
-&gt;| Quantité initiale | 1 000$ | &gt;| Quantité de déclencheur | 400 | &gt;| Montant auto-recharge | À DÉTERMINER |
+
+> [!TIP]
+> Vous pouvez documenter les numéros de planification de vos crédits de communication comme suit :
+> |         |         |
+> |---------|---------|
+> |Montant initial|1 000 $|
+> |Montant déclencheur|400 $|
+> |Montant de la recharge automatique|TBA|
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Numéros de téléphone et emplacements d'urgence
 
@@ -330,7 +335,7 @@ Pour obtenir des numéros de téléphone directement auprès de Microsoft, utili
 
 - [Centre d'administration Skype Entreprise](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Applets de commande de Windows PowerShell à distance](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Envoyer un formulaire nouvelle demande de numéro de téléphone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Soumettre un formulaire de demande de nouveau numéro de téléphone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 Le formulaire de demande de nouveau numéro de téléphone convient mieux à l'acquisition d'un numéro de téléphone planifié car vous pouvez demander un ensemble de numéros de téléphone consécutifs. L'obtention de numéros de téléphone à l'aide du centre d'administration Skype Entreprise ou de Windows PowerShell à distance n'est pas disponible dans tous les pays ou régions.
 
@@ -444,7 +449,7 @@ Il existe 25 règles de normalisation au maximum dans chaque plan de numérotat
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer si votre organisation requiert des plans de numérotation personnalisés (besoins de l'organisation, exigences en matière d'adoption, etc.)</li><li>Le cas échéant, déterminez la portée du plan de numérotation de client (global au sein du client ou utilisateurs du client) pour prendre en charge les exigences des plans de numérotation personnalisés.</li><li>Le cas échéant, déterminez les plans de numérotation de client qui seront créés pour prendre en charge les emplacements des utilisateurs ou les bureaux concernés par l'implémentation des forfaits d'appels.</li><li>Le cas échéant, déterminez le plan de numérotation personnalisé et le plan de numérotation de client qui doit être affecté à chaque utilisateur.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez si votre organisation requiert des plans de numérotation personnalisés (besoins de l'organisation, exigences en matière d'adoption, etc.).</li><li>Le cas échéant, déterminez la portée du plan de numérotation de client (global au sein du client ou utilisateurs du client) pour prendre en charge les exigences des plans de numérotation personnalisés.</li><li>Le cas échéant, déterminez les plans de numérotation de client qui seront créés pour prendre en charge les emplacements des utilisateurs ou les bureaux concernés par l'implémentation des forfaits d'appels.</li><li>Le cas échéant, déterminez le plan de numérotation personnalisé et le plan de numérotation de client qui doit être affecté à chaque utilisateur.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Consignez les plans de numérotation personnalisés et les règles de normalisation associées à configurer dans le cadre de l'implémentation des forfaits d'appels.</li><li>Consignez les utilisateurs auxquels le plan de numérotation personnalisé sera affecté et le plan de numérotation de client qui doit être affecté à chaque utilisateur.</li></ul>|
 
 > [!TIP]
@@ -452,14 +457,22 @@ Il existe 25 règles de normalisation au maximum dans chaque plan de numérotat
 > 
 > |Nom du plan de numérotation de client<br>_Description  |Nom des règles de normalisation<br>_Description_  |Modèle<br>Conversion<br>IsInternalExtension  |
 > |---------|---------|---------|
-> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000 – x7999) du bureau 39 quai du Président Roosevelt, Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
-> ||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
-> ||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000 – x7999) du bureau 39 quai du Président Roosevelt, Issy-les-Moulineaux, France_|^(7\j{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^0?(80\j{7})\d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^(1\j{1,2}\|11[68]\j{3}\|10\jj{2}\|3\j{3})$<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;L’exemple de modèle ci-dessous peut servir à des affectations de plan de numérotation de document pour prendre en charge de votre projet : &gt;| Utilisateur | Office | Type de Plan de numérotation | Nom du Plan de numérotation | &gt;|---------|---------|---------|---------|
-&gt;| Emily Braun | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Lidia Holloway | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Pradeep Gupta | 32 Londres pont rue | Plan de numérotation service | N/A | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-39qdPR | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-39qdPR | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | Plan de numérotation client | FR-Paris-Issy-39qdPR |
+
+> [!TIP]
+> Le modèle d'exemple ci-après peut être utilisé pour documenter les attributions de plan de numérotation afin de prendre en charge votre projet :
+> |Utilisateur  |Bureau  |Type de plan de numérotation  |Nom du plan de numérotation  |
+> |---------|---------|---------|---------|
+> |Emily Braun|32 London Bridge Street|Plan de numérotation de service|N/A|
+> |Lidia Holloway|32 London Bridge Street|Plan de numérotation de service|N/A|
+> |Pradeep Gupta|32 London Bridge Street|Plan de numérotation de service|N/A|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-39qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-39qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Plan de numérotation de client|FR-Paris-Issy-39qdPR|
 
 ## <a name="document-technical-implementation-plan"></a>Documenter le plan d’implémentation technique
 

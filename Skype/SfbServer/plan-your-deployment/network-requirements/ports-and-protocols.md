@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Résumé : Passez en revue les considérations de l’utilisation du port avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: 4355bc35e5e8ddcf881e322c39661389f78dce1a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6587bcfa9721362067d70bfc2e15549fa2a8e326
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884992"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593694"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Ports et protocoles requis pour les serveurs
  
@@ -31,7 +31,7 @@ Alors que cela peut sembler un bit complexe dans un premier temps, l’essentiel
   
 Vous trouverez également les informations dans ces tables sous forme de diagramme en examinant le poster des charges de protocole lié déconnecte l’article [Technical diagrams pour Skype pour Business Server 2015](../../technical-diagrams.md) .
 > [!NOTE]
-> - Skype pour les utilisateurs professionnels Online doit faire référence à [Office 365 URL et plages d’adresses IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). 
+> - Si vous implémentez Skype pour Business Online (O365) faire référence à [Office 365 URL et plages d’adresses IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Environnements hybrides vous devrez faire référence à cette rubrique et également le [Port et le protocole requise](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#port-and-protocol-requirements)hybride.
 > - Vous peut avoir des pare-feu matériels ou logiciels, nous ne nécessitent pas de modèles spécifiques ou des versions. Important est quels ports sont autorisés pour le pare-feu ne nuit au fonctionnement de Skype pour Business Server.
   
 ## <a name="port-and-protocol-details"></a>Détails sur les ports et protocoles
