@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Lisez cette rubrique pour savoir comment migrer des périphériques de système de salle de Lync pour utiliser le système de salle Skype v2 logiciel.
-ms.openlocfilehash: 790872ceaf919d4b58bdbd753dc32e1303b2da63
-ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
+ms.openlocfilehash: a04eb857ee876b52507d21d5ee791ea327175921
+ms.sourcegitcommit: f2b89fea199e7a1d2a3c90c153c94b0a35965e6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495589"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25599203"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrer les appareils Lync salle système (KR) au système de salle Skype v2 
 Les appareils Lync salle système (KR) avec le logiciel système Version 1 (v1 SRS) Skype salle a atteint la [fin de la prise en charge sur le 9 octobre 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018). Cela signifie que logiciel v1 de systèmes de salle Skype n’est plus aura les mises à jour ou les correctifs plus. Il est conseillé aux utilisateurs avec des périphériques de système de salle Lync l’utilisation du système de salle Skype v1 logiciel pour mettre à niveau leurs périphériques au système de salle Skype version 2 (v2 SRS).
 
 Logiciel système Version 2 (v2 SRS) Skype salle fonctionne avec Microsoft Teams outre Skype pour les services Business Server et en ligne pour les réunions et les appeler sur tous les périphériques de SRS v2 pris en charge.
 
-Votre de périphériques existant **peut** continuer à fonctionner après la fin d’un système de salle de Skype v1 prennent en charge. Toutefois, si ce logiciel accède à un bogue doit Microsoft publie un correctif logiciel, il ne sera pas être pris en charge. Logiciel Skype salle système V1 n’est également pas être mise à niveau pour prendre en charge TLS 1.2. Pour plus d’informations sur [la préparation pour TLS 1.0/1.1 désapprobation](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). Skype salle système V2 consiste à ajouter la prise en charge pour TLS 1.2 et continueront de fonctionner sans aucun impact à partir de cette désapprobation.   
+Votre de périphériques existant **peut** continuer à fonctionner après la fin d’un système de salle de Skype v1 prennent en charge. Toutefois, si ce logiciel accède à un bogue doit Microsoft publie un correctif logiciel, il ne sera pas être pris en charge. V1 SRS utilise TLS 1.0 / 1.1 qui sera déconseillé dans les futures par Microsoft. Pour plus d’informations sur [la préparation pour TLS 1.0/1.1 désapprobation](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). Skype salle système V2 consiste à ajouter la prise en charge pour TLS 1.2 et continueront de fonctionner après le 31 octobre 2018. Skype pour les entreprises sur les clients de site ne désactivez pas TLS 1.0/1.1 jusqu'à ce que Skype salle système V2 annouces prise en charge pour TLS 1.2 indépendamment des instructions générales sur désapprobation TLS 1.0/1.1.
 
 ## <a name="which-devices-are-affected"></a>Les périphériques sont affectés ?
 Voici la liste des périphériques qui sont affectées par cette modification :
@@ -74,4 +74,4 @@ Nous vous recommandons de que vous envisagez de mettre à jour des périphériqu
 > Fonctionnalité tactile et le tableau blanc n’est pas encore pris en charge dans le système de salle Skype v2. Prise en charge tactile et tableau blanc se trouve dans la file d’attente pour le système de salle Skype v2 et est ajouté dans CY2019 H1.
 
 > [!NOTE]
-> Logiciel Skype salle système V2 n’autorise pas actuellement protocole TLS 1.2. Prise en charge TLS 1.2 est en cours de traitement et sera exécuté avant TLS 0/1/1.1 désapprobation. Clients upgradging à SRS v2 ne s’affiche pas n’importe quel impact de désapprobation TLS 1.0/1.1 sur les appareils de salle version la plus récente de SRS v2 application en cours d’exécution.
+> Logiciel Skype salle système V2 n’autorise pas actuellement protocole TLS 1.2. Prise en charge TLS 1.2 est en cours de traitement et sera exécuté avant désapprobation TLS 1.0/1.1. Clients upgradging à SRS v2 ne s’affiche pas n’importe quel impact de désapprobation TLS 1.0/1.1 sur les appareils de salle version la plus récente de SRS v2 application en cours d’exécution. Skype pour les entreprises sur les clients de site ne désactivez pas TLS 1.0/1.1 jusqu'à ce que la prise en charge annouces Skype salle système V2 pour TLS 1.2. 

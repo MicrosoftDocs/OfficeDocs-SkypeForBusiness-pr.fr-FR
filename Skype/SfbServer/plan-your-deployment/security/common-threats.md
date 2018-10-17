@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Skype pour Business Server étant un système de communications d’entreprise, vous devez être conscient des attaques de sécurité courantes susceptibles d’affecter son infrastructure et les communications.
-ms.openlocfilehash: 594bde9b01a61586364034ba026db91aea49ef88
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 354e537a7e927ed6825b5909107c80fe59e04996
+ms.sourcegitcommit: f2b89fea199e7a1d2a3c90c153c94b0a35965e6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546782"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25599210"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Menaces fréquentes pour la sécurité dans l’informatique moderne
  
@@ -66,7 +66,7 @@ Dans le contexte de Skype pour Business Server, usurpation d’adresse IP interv
     
 Ce problème est moins grave pour les connexions TLS (Transport Layer Security), car TLS authentifie toutes les parties et chiffre le trafic. L’utilisation du protocole TLS empêche une personne malveillante d’usurper une adresse IP sur une connexion spécifique (par exemple, les connexions Mutual TLS). Mais une personne malveillante peut usurper toujours l’adresse du serveur DNS qui utilise Skype pour Business Server. Toutefois, étant donné que l’authentification dans Skype pour les entreprises est effectuée avec des certificats, une personne malveillante aurait pas un certificat valide requis usurper une des parties de la communication.
 
-En revanche, l’usurpation d’identité des Id d’appelant intervient lorsque vous avez établi une jonction SIP entre un fournisseur, passerelle PSTN ou un autre système PBX et Skype pour Business Server. Dans ces cas-là, Skype pour Business Server n’offre pas de protection à se prémunir contre l’usurpation des id d’appelant. Cela signifie qu’un Skype pour l’utilisateur d’entreprise peut recevoir un appel à partir de la jonction SIP avec un id d’appelant usurpés affichant le numéro de téléphone d’un autre Skype pour l’utilisateur d’entreprise. Protection à celle-ci doit être appliquée sur le côté fournisseur, passerelle PSTN ou PBX.
+En revanche, l’usurpation d’identité des Id d’appelant intervient lorsque vous avez établi une jonction SIP entre un fournisseur, passerelle PSTN ou un autre système PBX et Skype pour Business Server. Dans ces cas-là, Skype pour Business Server n’offre pas de protection à se prémunir contre l’usurpation des id d’appelant. Cela signifie qu’un Skype pour l’utilisateur d’entreprise peut recevoir un appel de la jonction SIP avec un id d’appelant usurpés affichant le numéro de téléphone ou le nom complet (si la recherche inversée de numéros s’applique) d’une autre Skype pour l’utilisateur d’entreprise. Protection à celle-ci doit être appliquée sur le côté fournisseur, passerelle PSTN ou PBX.
   
 ## <a name="man-in-the-middle-attack"></a>Attaque de l’intercepteur (« man-in-the-middle »)
 
