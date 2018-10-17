@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 516437ac9def60b1c06304429ca3bbe9eca63a3f
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: ff0db687ed25f756a3ba3d184b7408c5d2784b46
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593710"
+ms.locfileid: "25597853"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Guide pratique pour l’audioconférence dans Microsoft Teams
 ============================================================
@@ -399,6 +399,7 @@ Ces contrôles vous permettent de déterminer si les organisateurs de réunions 
 > |Envoyer automatiquement des e-mails aux utilisateurs si leurs paramètres de numérotation changent|Désactivé|
 
 <br>
+
 > [!TIP]
 > Vous pouvez documenter la liste d'attribution des paramètres de pont de téléconférence pour les utilisateurs du service d’audioconférence à l'aide de l'exemple suivant :
 >

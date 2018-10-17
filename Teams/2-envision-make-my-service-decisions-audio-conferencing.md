@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b50baa8ddb7e29c4484adea7d9d0f0c6cab957dd
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 81dca894a378c5331c34b5840108e63536c8ac37
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593718"
+ms.locfileid: "25597837"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -128,6 +128,7 @@ Vous en apprendrez plus sur les Communications crédits [ici](https://docs.micro
 
 > [!TIP]
 > Vous pouvez documenter les numéros de planification de vos crédits de communication comme suit :
+>
 > |         |         |
 > |---------|---------|
 > |Montant initial|1 000 $|
@@ -237,6 +238,7 @@ Avec ces contrôles, vous pouvez décider si les organisateurs de réunion peuve
 > |Envoyer automatiquement des e-mails aux utilisateurs si leurs paramètres de numérotation changent|Désactivé|
 
 <br>
+
 > [!TIP]
 > Vous pouvez documenter la liste d’affectation de paramètres de conférence pont pour les utilisateurs de conférence Audio à l’aide de l’exemple suivant.
 >

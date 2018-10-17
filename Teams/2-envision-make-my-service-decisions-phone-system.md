@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccf53509b01341b482c5a687dfa3dcee66a928dc
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 1bf0d5514f4202029acabe44268e8e7e7d671f60
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593702"
+ms.locfileid: "25597845"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -269,8 +269,10 @@ Pour en savoir plus sur les Communications crédits, passez en revue [Quelles so
 > |Isabell Potvin |39 quai du Président Roosevelt |Forfait d'appels nationaux |Désactivé |
 
 <br>
+
 > [!TIP]
 > Votre planification des numéros des crédits Communications pouvant être documentés comme dans l’exemple suivant.
+>
 > |         |         |
 > |---------|---------|
 > |Montant initial|1 000 $|
@@ -380,6 +382,7 @@ Pour plus d’informations sur les plans de numérotation, voir [Quels sont les 
 > ||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
+
 > [!TIP]
 > Le modèle d'exemple ci-après peut être utilisé pour documenter les attributions de plan de numérotation afin de prendre en charge votre projet :
 >
