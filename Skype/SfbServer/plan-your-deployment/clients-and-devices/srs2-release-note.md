@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
-ms.openlocfilehash: ddcc4da301d491d763baf736053fd8eaeaee1b87
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b4b7e8f238ce0963908b5aba1984bbd3f6d18a9f
+ms.sourcegitcommit: 19daa277829019807532e4ccb88cad1fdac6ee85
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375505"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "25607381"
 ---
 # <a name="release-notes"></a>Notes de publication 
 
@@ -26,6 +26,7 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 
 | Version | Publié sur <br>Magasin de Microsoft | 
 | ---     | ---  |
+| 4.0.31.0 | 16/10/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
 | 4.0.19.0 |  08/31/2018    |   
 | 4.0.18.0 |  27/08/2018    |   
@@ -47,6 +48,10 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Systèmes de salle Skype v2 fonctionnalité introduction et problème résolution
+
+### <a name="40310-10162018"></a>4.0.31.0 (16/10/2018)
+Introduite dans cette mise à jour :
+- Correctifs de qualité et la fiabilité 
 
 ### <a name="40270-1012018"></a>4.0.27.0 (10/1/2018)
 Introduite dans cette mise à jour : 
