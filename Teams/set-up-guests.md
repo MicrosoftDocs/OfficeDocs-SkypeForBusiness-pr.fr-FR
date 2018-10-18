@@ -3,7 +3,7 @@ title: Activer ou désactiver l'accès invité de Microsoft Teams
 author: LaithAlShamri
 ms.author: lolaj
 manager: serdars
-ms.date: 10/11/2018
+ms.date: 10/18/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab67b3fa9ad58c1aa3e8fdd254e3b3515743b4c
-ms.sourcegitcommit: 9dd5d8fe6888f0c7d2df1e40fdd8b4c80512f8f9
+ms.openlocfilehash: 532886659d88707d8cd63c7c268dc9929f937b1c
+ms.sourcegitcommit: 4f93bad9696db15de86c98a55398537c476e55d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25498120"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "25633750"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activer ou désactiver l'accès invité de Microsoft Teams
 ======================================
@@ -42,7 +42,26 @@ Les paramètres d'invité sont définis dans Azure Active Directory. Il faut e
 
     ![Autoriser le commutateur d’accès invité activé ](media/set-up-guests-image1.png)
 
-4.  Définir la bascule pour **appel**, la **réunion**et **messagerie** **sur** ou **désactiver**, en fonction de l’accès que vous souhaitez autoriser.
+4.  La valeur la bascule sous **l’appel**, la **réunion**et **de messagerie** **ou **désactiver**,** selon les fonctionnalités que vous souhaitez autoriser pour les utilisateurs invités.
+
+    - **Émettre des appels privées** – activer ce paramètre **sur** pour qu’ils puissent effectuer des appels d’égal à égal.
+    - **IP Autoriser vidéo** - activer ce paramètre **sur** pour qu’ils puissent utiliser la vidéo dans leurs appels et les réunions.
+    - **Mode de partage d’écran** – ce paramètre contrôle la disponibilité de partage pour les utilisateurs invités de l’écran. 
+       - Activer ce paramètre sur **désactivé** pour supprimer la capacité pour les visiteurs à partager leurs écrans dans les équipes. 
+       - Activer ce paramètre pour une **seule application** pour autoriser le partage d’applications individuelles. 
+       - Activer ce paramètre à l' **écran ensemble** pour permettre le partage d’écran terminée.
+    - **Autoriser la conférence maintenant** – activer ce paramètre **sur** pour qu’ils puissent utiliser la fonctionnalité Conférence maintenant dans Microsoft Teams.
+    - **Modifier les messages envoyés** : activer ce paramètre **sur** pour qu’ils puissent modifier les messages qu’ils précédemment envoyés.
+    - **Les invités peuvent supprimer des messages envoyés** – activer ce paramètre **sur** pour qu’ils puissent supprimer les messages qu’ils précédemment envoyé.
+    - **Conversation** – activer ce paramètre **sur** donner invités la possibilité d’utiliser la conversation dans les équipes.
+    - **Utiliser des Giphys dans des conversations** – activer ce paramètre **sur** pour qu’ils puissent utiliser Giphys dans des conversations. Giphy est une base de données en ligne et le moteur de recherche qui permet aux utilisateurs de rechercher et partager les fichiers GIF animés. Chaque Giphy est affecté à une classification de contenu.
+    - **Évaluation du contenu Giphy** – sélectionnez une évaluation dans la liste déroulante :
+       - **Autoriser tout le contenu** - invités pourront insérer tous les Giphys dans les salles de conversation, quelle que soit la classification du contenu.
+       - **Modéré** - invités sera en mesure d’insérer Giphys dans les salles de conversation, mais seront limitées moyennement du contenu pour adultes.
+       - **Strict** – invités sera en mesure d’insérer Giphys dans les salles de conversation, mais seront strictement limitées à partir de l’insertion de contenu pour adultes.
+    - **Utilisez les Memes conversations** - activer ce paramètre **sur** pour qu’ils puissent utiliser Memes dans des conversations.
+    - **Utiliser des autocollants conversations** – activer ce paramètre **sur** pour qu’ils puissent utiliser autocollants dans des conversations. 
+
 
 5.  Cliquez sur **Enregistrer**.
 
@@ -83,7 +102,7 @@ Les paramètres d'invité sont définis dans Azure Active Directory. Il faut e
     ```
 Vous pouvez maintenant avoir des utilisateurs invités dans les équipes de votre organisation.
 
-## <a name="more-information"></a>Informations complémentaires
+## <a name="more-information"></a>Plus d’informations
 
 Regardez la vidéo suivante pour plus d’informations sur l’accès invité.
 
