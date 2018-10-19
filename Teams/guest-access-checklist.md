@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58dd3bb4e0f870cfcfff0f1297acdab7a82eb4a9
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 256ca09b8da5ccaed3ab5797e9d67246cebfee4e
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546684"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678140"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de vérification de l’accès invité équipes
 ==========================================
@@ -32,7 +32,7 @@ Utilisez cette liste de vérification pour vous aider à activer et configurer l
 
 Atteindre les équipes & Skype entreprise centre d’administration, via https://admin.teams.microsoft.com. À partir de là, sélectionnez les paramètres de l’organisation à l’échelle et sélectionner l’onglet 'Accès invité' Enfin, dans cet onglet, sélectionnez « Autoriser l’accès invité dans Microsoft Teams » à activé. 
 
-## <a name="need-a-new-screenshot-for-new-admin-center-enablement"></a>Besoin d’une nouvelle capture d’écran pour la nouvelle activation de centre d’administration. 
+## <Need to display a photo of the new admin center>
 
 ## <a name="-enable-specific-settings-for-channels"></a>□ Activer des paramètres spécifiques pour les canaux 
 Dans l’application d’équipes, au niveau équipe individuels, configurez des autorisations invité afin que les invités peuvent créer, mettre à jour et supprimer des chaînes. En plus des administrateurs, les propriétaires de l’équipe peuvent configurer ce paramètre.
@@ -133,7 +133,7 @@ Pour plus d’informations, voir [Nouveautés de l’expérience de l’invité]
 
 
 
-## <a name="troubleshooting"></a>Identification et résolution des problèmes
+## <a name="troubleshooting"></a>Résolution des problèmes
 
 Si vous avez des problèmes avec ajout invités dans Microsoft Teams, consultez le [Guide de dépannage de l’accès invité](https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/td-p/119797).
 

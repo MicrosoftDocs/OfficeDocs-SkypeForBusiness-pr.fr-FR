@@ -24,16 +24,16 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collecte des données de recensement, d’utilisation et d’erreur pour comprendre comment Skype pour les entreprises est utilisé et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations de produit.
-ms.openlocfilehash: 198c78b2c6b484d3d68c7d001de4d0db12658a2c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: df56d2321a2f3c2d7f4159e3f1b782254cf1a64b
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012840"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678377"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype pour les pratiques de collection de données métiers et Microsoft Teams
 
-Skype pour Business Server 2015, Skype pour Business Online, ainsi que Skype pour les applications métiers et Microsoft Teams collecter des données afin de permettre à Microsoft de comprendre comment ces produits sont utilisés et les types d’erreurs, telles que des erreurs de connexion, se sont produites. Ces informations nous aident à comprendre les modèles d’utilisation, planifier des nouvelles fonctionnalités et résoudre les problèmes et corriger les problèmes.
+Skype pour Business Server et Skype pour Business Online, ainsi que Skype pour les applications métiers et Microsoft Teams, collecter des données pour permettre à Microsoft de comprendre comment ces produits sont utilisés et les types d’erreurs, telles que des erreurs de connexion, se sont produites. Ces informations nous aident à comprendre les modèles d’utilisation, planifier des nouvelles fonctionnalités et résoudre les problèmes et corriger les problèmes.
 
 Alors que l’utilisation des données collectées automatiquement, autres données ne peuvent être générées lorsque l’administrateur et/ou l’utilisateur choisit pour lui permettre de. Collecte de données se divise en trois catégories :
 
@@ -78,7 +78,7 @@ Les données d’utilisation peuvent contenir des informations qui identifient v
 
 Ne prend pas les données d’utilisation contiennent des informations qui identifie les utilisateurs.
 
-Collecte des données d’utilisation est activée par défaut, mais local Administrateurs peuvent désactiver utilisant le paramètre de stratégie de groupe DisableAutomaticSendTracing sur Skype pour Business Server 2015. Désactivation de ce paramètre affecte tous les utilisateurs dans l’organisation. Pour plus d’informations, voir [configuration de stratégies de démarrage du client dans Skype pour Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) .
+Collecte des données d’utilisation est activée par défaut, mais administrateurs peuvent désactiver utilisant le paramètre de stratégie de groupe DisableAutomaticSendTracing sur Skype pour Business Server local. Désactivation de ce paramètre affecte tous les utilisateurs dans l’organisation. Pour plus d’informations, voir [configuration de stratégies de démarrage du client](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
 
 Les utilisateurs finaux ne peuvent pas activer la collecte de données ou désactiver.
 
@@ -103,7 +103,7 @@ Données de création de rapports d’erreur peuvent également contenir des inf
 
 Rapport d’erreurs nécessite deux éléments :
 
-- Le paramètre de stratégie de groupe DisableAutomaticSendTracing est défini sur False sur le serveur ou dans le centre d’administration de client (il s’agit de l’état par défaut). Pour plus d’informations, voir [configuration de stratégies de démarrage du client dans Skype pour Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) .
+- Le paramètre de stratégie de groupe DisableAutomaticSendTracing est défini sur False sur le serveur ou dans le centre d’administration de client (il s’agit de l’état par défaut). Pour plus d’informations, voir [configuration de stratégies de démarrage du client](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
     
 - Les utilisateurs finaux participer individuellement à partir de l’onglet Général (cliquez sur l’icône d’engrenage ![icône d’engrenage](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) et ouvre la boîte de dialogue **Options** avec l’onglet **Général** ) dans le Skype pour client d’entreprise.
     

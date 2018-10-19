@@ -14,17 +14,17 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-description: Microsoft établit des partenariats avec certains fournisseurs SBC afin de certifier leur SBC pour une utilisation avec le routage direct.
-ms.openlocfilehash: 375c5ca46e8af7bb31ad50b8c55a4fa629b8d2dd
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: Partenaires de Microsoft avec des fournisseurs pour valider leurs SBCs SBC fonctionnent avec le routage Direct.
+ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371795"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678449"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs SBC certifiés pour le routage direct
 
-Microsoft établit des partenariats avec certains fournisseurs de contrôleurs SBC afin de certifier leurs SBC pour une utilisation avec le routage direct. 
+Partenaires de Microsoft avec des fournisseurs contrôleurs de Session en périphérie (SBC) attestent que leur travail SBCs avec le routage Direct. 
 
 Avec chaque fournisseur, Microsoft : 
 

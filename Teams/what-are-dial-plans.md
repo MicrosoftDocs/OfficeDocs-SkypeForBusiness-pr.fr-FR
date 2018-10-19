@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment choisir votre organisation et quel type de numérotation appelant plans (plans de numérotation appel PSTN) sont disponibles avec Office 365.  '
-ms.openlocfilehash: 28e0b3d282cba17061f0573b5bd9efe7e27de786
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: a823e3665229eeb1292c4f027bda7d7e8eff79a9
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502357"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678425"
 ---
 # <a name="what-are-dial-plans"></a>Qu'est-ce que les plans de numérotation ?
 
@@ -41,7 +41,7 @@ Voir [créer et gérer des plans de numérotation](create-and-manage-dial-plans.
 
 ## <a name="tenant-dial-plan-scope"></a>Étendue du plan de numérotation client
 
-L'étendue d'un plan de numérotation détermine le niveau hiérarchique auquel celui-ci est appliqué. Les étendues sont différentes de celles dans un Skype pour Business Server 2015 déploiement local. Les clients obtiennent le plan de numérotation approprié via les paramètres dʼapprovisionnement qui sont automatiquement fournis lorsque les utilisateurs se connectent à Skype Entreprise Online. En tant qu'administrateur, vous pouvez gérer et attribuer les niveaux d'étendue des plans de numérotation en utilisant une session PowerShell à distance.
+L'étendue d'un plan de numérotation détermine le niveau hiérarchique auquel celui-ci est appliqué. Les étendues sont différentes de celles d’un Skype pour le déploiement local de Business Server. Les clients obtiennent le plan de numérotation approprié via les paramètres dʼapprovisionnement qui sont automatiquement fournis lorsque les utilisateurs se connectent à Skype Entreprise Online. En tant qu'administrateur, vous pouvez gérer et attribuer les niveaux d'étendue des plans de numérotation en utilisant une session PowerShell à distance.
 
 Dans Skype pour Business Online, il existe deux types de plans de numérotation - service étendue et le client (c'est-à-dire pour votre organisation) étendue. Un plan de numérotation service étendue est défini pour chaque pays/région dans lequel le système de téléphone Office 365 est disponible. Le plan de numérotation pays service qui correspond à l’emplacement de l’utilisation de Office 365 attribuées à l’utilisateur est automatiquement affecté à chaque utilisateur. Vous ne pouvez pas modifier le plan de numérotation de pays de service, mais vous pouvez créer des plans de numérotation client étendue, lesquels augmentent le plan de numérotation service pays. Comme les clients sont configurés, ils obtiennent un « plan de numérotation effectives, » qui est une combinaison du plan de numérotation de pays de service et le plan de numérotation client correctement sur lesquelles porte. Il nʼest donc pas nécessaire de définir toutes les règles de normalisation dans les plans de numérotation client car elles peuvent déjà exister dans le plan de numérotation du pays de service.
 
@@ -126,14 +126,14 @@ Le tableau ci-dessous illustre des exemples de règles de normalisation écrites
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Nom de la règle** <br/> |**Description** <br/> |**Schéma de numéro** <br/> |**Conversion** <br/> |**Exemple** <br/> |
-|4digitExtension  <br/> |Convertit les extensions à 4 chiffres.  <br/> |^ (\\d{4}) $  <br/> |+1425555$1  <br/> |0100 est converti en +14255550100  <br/> |
-|5digitExtension  <br/> |Convertit les extensions à 5 chiffres.  <br/> |^ 5 (\\d{4}) $  <br/> |+1425555$1  <br/> |50100 est converti en +14255550100  <br/> |
-|7digitcallingRedmond  <br/> |Convertit les numéros à 7 chiffres en numéros locaux à Redmond.  <br/> |^ (\\d{7}) $  <br/> |+1425$1  <br/> |5550100 est converti en +14255550100  <br/>|
+|4digitExtension  <br/> |Convertit les extensions à 4 chiffres.  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 est converti en +14255550100  <br/> |
+|5digitExtension  <br/> |Convertit les extensions à 5 chiffres.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 est converti en +14255550100  <br/> |
+|7digitcallingRedmond  <br/> |Convertit les numéros à 7 chiffres en numéros locaux à Redmond.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 est converti en +14255550100  <br/>|
 |RedmondOperator  <br/> |Convertit 0 vers l'Opérateur de Redmond.  <br/> |^0$  <br/> |+14255550100  <br/> |0 est converti en +14255550100  <br/> |
-|RedmondSitePrefix  <br/> |Convertit les numéros avec un préfixe on-net (6) et le code du site de Redmond (222).  <br/> |^ 6222 (\\d{4}) $  <br/> |+1425555$1  <br/> |62220100 est converti en +14255550100  <br/> |
-|5digitRange  <br/> |Convertit les extensions à 5 chiffres avec la plage de chiffres 3-7 inclusive.  <br/> |^ ([3-7]\\d{4}) $  <br/> |+ 142555$ 1 <br/> |54567 est converti en +14255554567  <br/> |
-|PrefixAdded  <br/> |Ajoute un préfixe pays devant un numéro à 9 chiffres avec des restrictions sur le premier et le troisième chiffre.  <br/> |^ ([2-9]\\d\\d [2-9]\\d{6}) $  <br/> |1$1  <br/> |4255554567 est converti en 14255554567  <br/> |
-|NoTranslation  <br/> |Fait correspondre 5 chiffres mais sans conversion.  <br/> |^ (\\d{5}) $  <br/> |$1  <br/> |34567 est converti en 34567  <br/> |
+|RedmondSitePrefix  <br/> |Convertit les numéros avec un préfixe on-net (6) et le code du site de Redmond (222).  <br/> |^6222(\\d{4})$  <br/> |+1425555$1  <br/> |62220100 est converti en +14255550100  <br/> |
+|5digitRange  <br/> |Convertit les extensions à 5 chiffres avec la plage de chiffres 3-7 inclusive.  <br/> |^([3-7]\\d{4})$  <br/> |+ 142555$ 1 <br/> |54567 est converti en +14255554567  <br/> |
+|PrefixAdded  <br/> |Ajoute un préfixe pays devant un numéro à 9 chiffres avec des restrictions sur le premier et le troisième chiffre.  <br/> |^([2-9]\\d\\d[2-9]\\d{6})$  <br/> |1$1  <br/> |4255554567 est converti en 14255554567  <br/> |
+|NoTranslation  <br/> |Fait correspondre 5 chiffres mais sans conversion.  <br/> |^(\\d{5})$  <br/> |$1  <br/> |34567 est converti en 34567  <br/> |
 
  **Plan de numérotation de Redmond basé sur les règles de normalisation indiquées ci-dessus.**
 

@@ -9,12 +9,12 @@ ms.service: msteams
 description: Découvrez comment utiliser les rôles d’administration différents pour gérer les équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 279fed07554589fda4d302b893e5136815963399
-ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
+ms.openlocfilehash: 0e09aa4146588cf32a6dd7cf0816a89cb4bdd696
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24025269"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678441"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Utiliser les rôles d’administration Microsoft Teams pour gérer des équipes
 
@@ -28,10 +28,10 @@ Il existe quatre rôles d’administrateur équipes : administrateur de service
 
 | Rôle | Peuvent effectuer ces tâches | Les outils suivants peuvent accéder à |
 |----- | ------------------ | ------------------------------ |
-| Administrateur de Service des équipes | Gérer le service Microsoft Teams, gérer et créer des groupes de 365 Office (Notez que les autorisations pour gérer Office 365 groupes arriveront octobre 2018) | Tous les éléments dans le Microsoft Teams & Skype pour Business Admin Center et contrôles PowerShell associés, notamment :<br><br> Gérer des réunions, y compris des réunions de conférence, les configurations et les stratégies de ponts<sup>1,3</sup><br><br> Gérer la voix, notamment l’appel de stratégies et téléphone inventaire et affectation numéro<sup>1</sup><br><br> Gérer la messagerie, y compris la messagerie stratégies<sup>1,3</sup><br><br> Gérer tous les paramètres à l’échelle de l’organisation, y compris la fédération, la mise à niveau des équipes et équipes client paramètres<sup>1,3</sup><br><br> Gérer les équipes dans l’organisation et leurs paramètres associés, y compris l’appartenance (arrivent octobre 2018) <sup>23</sup><br><br> Afficher la page de profil utilisateur et de résoudre les problèmes de qualité des appels utilisateur à l’aide de diagnostic<sup>3</sup> dépannage avancé |
-| Administrateur de Communications d’équipes | Gérer les appels et les fonctionnalités des réunions au sein du service Microsoft Teams | Gérer des réunions, y compris des réunions de conférence, les configurations et les stratégies de ponts<sup>1,3</sup><br><br> Gérer la voix, notamment l’appel de stratégies et téléphone inventaire et affectation numéro<sup>1</sup><br><br> Afficher la page de profil utilisateur et de résoudre les problèmes de qualité des appels utilisateur à l’aide de diagnostic<sup>1,3</sup> dépannage avancé |
-| Ingénieur du Support technique équipes Communications | Résoudre les problèmes de communication au sein des équipes à l’aide des outils **avancés** . | Accès à la page de profil utilisateur pour résoudre les problèmes des appels dans Analytique d’appel. Afficher les informations enregistrement appel complète. <sup>3</sup> |
-| Spécialiste des équipes Communications prise en charge | Résoudre les problèmes de communication au sein des équipes à l’aide des outils de **base** .| Accès à la page de profil utilisateur pour résoudre les problèmes des appels dans Analytique d’appel. Peut uniquement afficher les informations utilisateur pour l’utilisateur spécifique à rechercher. <sup>3</sup>
+| Administrateur du service Teams | Gérer le service Microsoft Teams, gérer et créer des groupes Office 365 | Tous les éléments dans le Microsoft Teams & Skype pour Business Admin Center et contrôles PowerShell associés, notamment :<br><br> Gérer des réunions, y compris des réunions de conférence, les configurations et les stratégies de ponts<sup>1,3</sup><br><br> Gérer la voix, notamment l’appel de stratégies et téléphone inventaire et affectation numéro<sup>1</sup><br><br> Gérer la messagerie, y compris la messagerie stratégies<sup>1,3</sup><br><br> Gérer tous les paramètres à l’échelle de l’organisation, y compris la fédération, la mise à niveau des équipes et équipes client paramètres<sup>1,3</sup><br><br> Gérer les équipes dans l’organisation et leurs paramètres associés, y compris l’appartenance (gestion de groupe prises en charge par le biais de PowerShell, gestion de l’équipe dans le portail d’administration présentant) <sup>23</sup><br><br> Afficher la page de profil utilisateur et de résoudre les problèmes de qualité des appels utilisateur à l’aide de diagnostic<sup>3</sup> dépannage avancé |
+| Administrateur des communications Teams | Gérer les fonctionnalités d’appels et de réunions au sein du service Microsoft Teams | Gérer des réunions, y compris des réunions de conférence, les configurations et les stratégies de ponts<sup>1,3</sup><br><br> Gérer la voix, notamment l’appel de stratégies et téléphone inventaire et affectation numéro<sup>1</sup><br><br> Afficher la page de profil utilisateur et de résoudre les problèmes de qualité des appels utilisateur à l’aide de diagnostic<sup>1,3</sup> dépannage avancé |
+| Ingénieur du support technique pour les communications Teams | Résoudre les problèmes de communication au sein des équipes à l’aide des outils **avancés** . | Accès à la page de profil utilisateur pour résoudre les problèmes des appels dans Analytique d’appel. Afficher les informations enregistrement appel complète. <sup>3</sup> |
+| Spécialiste des équipes Communications prise en charge | Résoudre les problèmes de communication au sein des équipes à l’aide des outils de **base** .| Accès à la page de profil utilisateur pour résoudre les problèmes des appels dans Analytique d’appel. Peut afficher uniquement les informations de l’utilisateur spécifique recherché.<sup>3</sup>
 
 <sup>1</sup> [PowerShell - Skype pour le module d’entreprise](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell - module équipes Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>

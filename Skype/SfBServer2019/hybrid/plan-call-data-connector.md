@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Présentation de l’utilisation de Skype pour Business Online outils de télémétrie pour surveiller une implémentation sur site dans un scénario hybride.
-ms.openlocfilehash: 2c491a217f02af77a25f362697e6f89aceb9470c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 523ec9905243eaf6f2a4eb26e3757fb431f21489
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "25030699"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678132"
 ---
 # <a name="plan-call-data-connector"></a>Planifier le connecteur de données d’appel
 
@@ -57,18 +57,23 @@ Bien sûr, vous pouvez souhaiter conserver des données de qualité d’appel su
 
 ## <a name="requirements"></a>Conditions requises
 
-Les conditions suivantes supposent que vous avez déjà Skype pour Business Server déployé dans une topologie prise en charge.  Pour plus d’informations sur le déploiement de Skype pour Business Server et les topologies prises en charge, voir [Les concepts de topologie](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics).
+Les conditions suivantes supposent que vous avez déjà Skype pour Business Server déployé dans une topologie prise en charge.  Pour plus d’informations sur le déploiement de Skype pour Business Server et les topologies prises en charge, voir [Les concepts de topologie](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Pour configurer le connecteur de données d’appel, vous devez :
 
-- Connectivité hybride. Si vous avez déjà Skype pour Business Server est déployé et que vous souhaitez activer le connecteur de données d’appel, vous devez vous assurer que vous disposez de connectivité hybride entre votre organisation locale et environnements en ligne. Il est parfois appelée une configuration de domaine fractionné. 
+- Activer la connectivité hybride. Si vous avez déjà Skype pour Business Server est déployé et que vous souhaitez activer le connecteur de données d’appel, vous devez vous assurer que vous disposez de connectivité hybride entre votre organisation locale et environnements en ligne. Il est parfois appelée une configuration de domaine fractionné. 
 
    Pour plus d’informations, voir [planification de la connectivité hybride entre Skype pour Business Server et Office 365](plan-hybrid-connectivity.md) et de [configurer la connectivité hybride entre Skype pour Business Server et Office 365](configure-hybrid-connectivity.md).
 
-- Pour configurer le connecteur de données d’appel, vous devez s’authentifient auprès de votre client Office 365 et vérifiez que les rôles suivants activés :
+-  S’authentifient auprès de votre client Office 365 et vérifiez que vous avez activés rôles suivants :
 
    - Administrateur du serveur pour les professionnels de Skype 
    - Administrateur Global d’Office 365 
 
 - Si vous n’avez pas déjà fait, allumez appel du tableau de bord qualité comme décrit dans la [mise sous tension et à l’aide d’appels de tableau de bord qualité pour les équipes Microsoft et Skype pour Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
+ 
+- Activer le pool frontal pour la surveillance, avec des bases de données LCSCdr et QoEMetrics locales. Sans cela, appelez un connecteur de données aurez pour travailler avec des données de mesure. 
+ 
+> [!IMPORTANT]
+> Connecteur de données d’appel ne fonctionne pas si l’analyse n’est pas activé sur le pool frontal.
 
 ## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>Rapports de comparaison des locaux et en ligne du tableau de bord de la qualité des appels (CQD)
 
@@ -84,22 +89,4 @@ Les conditions suivantes supposent que vous avez déjà Skype pour Business Serv
 | Personnalisation de rapports <br> (ajouter, supprimer, modifier des rapports) | Oui | Oui |
 | Partage des mesures d’écran vidéo | Oui | Non |
 | API de données pour l’accès par programme <br> pour CQD | Non | Oui |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+||||

@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer Skype Entreprise afin d’utiliser une autre langue pour le message d’accueil vocal par défaut de votre organisation. '
-ms.openlocfilehash: b88fa5692d0a4a87968a5998f58b144aa31bcb9b
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: aeebc9907e0f2933921e449a7915bd8cced9cd66
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347384"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678353"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Modifier la langue par défaut des messages d'accueil et des courriers électroniques
 
@@ -48,7 +48,7 @@ Si vous êtes un [administrateur général d'Office 365](https://support.office
 
 - **Vous souhaitez modifier la langue d’invite de la messagerie vocale** Accédez à [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) et choisir une nouvelle langue sous **Langue d’invite**.
     
-## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Modification de la langue pour l'ensemble des utilisateurs de votre organisation
+## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Modifier la langue du système pour l'ensemble des utilisateurs de votre organisation
 
 1. Connectez-vous avec votre compte [d’administrateur général Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) à[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
@@ -70,7 +70,7 @@ Si vous êtes un [administrateur général d'Office 365](https://support.office
     
 - [Configurer des offres d'appels](set-up-calling-plans.md)
     
-- [Planification du système téléphonique d'Office 365 avec la connectivité PSTN locale dans Skype Entreprise Server 2015 ou Lync Server 2013](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Planifier Business Server système téléphonique dans Office 365 avec une connectivité PSTN local dans Skype](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## <a name="related-topics"></a>Rubriques connexes
 

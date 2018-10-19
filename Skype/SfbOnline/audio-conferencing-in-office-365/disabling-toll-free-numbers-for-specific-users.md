@@ -19,15 +19,15 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler les organisateurs utilisation numéros gratuits pour leurs réunions.
-ms.openlocfilehash: 316497b6b4569ffef4419b6ed2ce6994c604d16a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ee8274dd30b246da513d0597bf39964b94be8ca
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370610"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678155"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Désactivation des numéros de téléphone gratuits pour Skype spécifique pour les utilisateurs professionnels en ligne
-
+ 
 > [!Note]
 > Pour plus d’informations sur la désactivation numéros sans outil pour les utilisateurs d’équipes, voir [désactivation des numéros gratuits pour les utilisateurs des équipes spécifiques](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).
 
@@ -48,14 +48,15 @@ Lorsque les numéros gratuits sont désactivés pour un organisateur donné :
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactivation des numéros de téléphone gratuits pour des utilisateurs spécifiques 
 
+Les **équipes Microsoft & Skype entreprise centre d’administration**:
 
-1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **les utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles. 
+1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-2. Dans le volet Action, cliquez sur **Modifier**. 
+2. A côté de **Conférence Audio**, cliquez sur **Modifier**.
 
-3. Désactivez **Autoriser à l’aide des numéros de téléphone gratuits pour participer à des réunions de cet utilisateur**. 
- 
-4. Cliquez sur **Enregistrer**. 
+3. Pour **désactiver**la valeur **inclure les numéros gratuits dans les demandes de cet utilisateur de réunion** . 
+
+4. Cliquez sur **Enregistrer.** 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

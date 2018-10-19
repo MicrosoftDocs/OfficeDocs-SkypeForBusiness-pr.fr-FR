@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez les différentes combinaisons de création de l’utilisateur et les combinaisons suivantes sont prises en charge ou non pris en charge.
-ms.openlocfilehash: aa2d5b7b98b4a683f7f79ee9fb9b76e04a40263b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f6662a6a61e34a691cc058f20c356720a61dab54
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014210"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678409"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Comptes d’utilisateurs dans un environnement hybride avec une connectivité PSTN
 
@@ -28,7 +28,7 @@ ms.locfileid: "25014210"
 
 Cet article s’applique aux environnements dans lesquels vous avez tous les éléments suivants : 
  
-- Skype pour Business Server 2015 ou de Lync Server 2013 
+- Skype pour Business Server ou de Lync Server 2013 
 - Un client Office 365 
 - Connectivité hybride configurée entre le Skype pour Business Server et Skype pour client Business Online ou Microsoft Teams 
 - Utilisateurs activés pour émettre et recevoir des appels publics réseau de téléphonique commuté (RTC) et à partir du client
@@ -57,14 +57,14 @@ Un Skype pour un environnement hybride avec une connectivité PSTN flexibilité 
 
 |**Objet utilisateur créé dans**  |**Skype l’utilisateur pour le fournisseur de services d’entreprise**|**Client de l’utilisateur**|**Option voix**|**Prise en charge**|
 |---------|---------|---------|---------|--------|
-|Sur le site AD| En local |Skype Entreprise   | Voix Entreprise   |Oui|
-|Sur le site AD|En ligne| Skype Entreprise  | Connectivité de voix hybride   |Oui |
-|Sur le site AD|En ligne |Microsoft Teams |Routage direct  |Oui |
+|Sur le site AD| En local |Skype Entreprise   | Voix Entreprise   |Oui|
+|Sur le site AD|Online| Skype Entreprise  | Connectivité de voix hybride   |Oui |
+|Sur le site AD|Online |Microsoft Teams |Routage direct  |Oui |
 |**Combinaisons non pris en charge**    | |         |         |
 |Azure AD| Sur le site/en ligne | Skype pour les équipes/Microsoft Business|Enterprise Voice de voix hybride/connectivité/Direct routage  |Non, l’objet utilisateur doit être créé dans AD sur site tout d’abord |
 |Sur le site AD  |En local| Microsoft Teams| Enterprise Voice de voix hybride/connectivité/Direct routage   |Non, client Microsoft Teams n’est pas pris en charge avec Skype sur site pour les entreprises |
-|Sur le site AD  |En ligne |Skype Entreprise | Routage direct  | Non, Skype pour client d’entreprise n’est pas pris en charge avec le routage Direct  |
-|Sur le site AD  |En ligne |Skype Entreprise  | Routage direct  |Non, routage Direct n'est pas pris en charge avec Skype pour Business client et utilisateur doit être activé pour Enterprise Voice sur Skype pour les entreprises tout d’abord  |
+|Sur le site AD  |Online |Skype Entreprise | Routage direct  | Non, Skype pour client d’entreprise n’est pas pris en charge avec le routage Direct  |
+|Sur le site AD  |Online |Skype Entreprise  | Routage direct  |Non, routage Direct n'est pas pris en charge avec Skype pour Business client et utilisateur doit être activé pour Enterprise Voice sur Skype pour les entreprises tout d’abord  |
 |   |         |         |         ||
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Déclaration de prise en charge de l’environnement hybride avec PSTN

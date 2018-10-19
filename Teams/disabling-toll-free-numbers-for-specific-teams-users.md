@@ -19,18 +19,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler si les organisateurs peuvent utiliser des numéros gratuits pour leurs réunions.
-ms.openlocfilehash: 158a4b31b0aaf65414af0d2119b3b6931a1f74ac
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cc179ff20d3bd523952ce57a79553025092532a9
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014692"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678337"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Désactiver les numéros gratuits pour des utilisateurs de Teams spécifiques
 
 Si votre organisation possède des numéros gratuits dans son pont d’audioconférence Microsoft, vous pouvez autoriser ou interdire leur utilisation dans les réunions d’organisateurs spécifiques.  
 
-Par défaut, tous les utilisateurs de votre organisation sont activés pour l’utilisation de numéros gratuits, ce qui signifie que ces numéros, le cas échéant, peut être utilisé par les participants à participer à des réunions. Si ce n’est pas le comportement souhaité pour certains utilisateurs au sein de votre organisation, vous pouvez empêcher des utilisateurs spécifiques d’à l’aide de ces numéros dans leurs réunions via un contrôle activation du numéro gratuit. 
+Par défaut, tous les utilisateurs de votre organisation peuvent utiliser des numéros gratuits, ce qui signifie que si ces numéros sont disponibles, ils peuvent les utiliser pour participer à leurs réunions. Si vous souhaitez que certains utilisateurs de votre organisation ne puissent pas utiliser les numéros gratuits, vous pouvez leur interdire d’utiliser ces numéros dans leurs réunions via une commande d’activation des numéros gratuits. 
 
 Si les numéros gratuits sont désactivés pour un organisateur spécifique : 
  - Un numéro gratuit ne sera plus inclus dans ses invitations à participer à une réunion. 
@@ -45,15 +45,15 @@ Si les numéros gratuits sont désactivés pour un organisateur spécifique :
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactiver les numéros gratuits pour des utilisateurs spécifiques 
 
-1. Dans le volet de navigation de gauche, cliquez sur **Utilisateurs** et sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+Les **équipes Microsoft & Skype entreprise centre d’administration**:
 
-2. En haut de la page, cliquez sur **Modifier**.
+1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-3. En regard de l’option **Audioconférence**, cliquez sur **Modifier**.
+2. En regard de l’option **Audioconférence**, cliquez sur **Modifier**.
 
-4. Désactivez l’option **Include toll-free numbers in meeting requests from this user** (Inclure des numéros gratuits dans les demandes de réunion envoyées par cet utilisateur). 
+3. Pour **désactiver**la valeur **inclure les numéros gratuits dans les demandes de cet utilisateur de réunion** . 
 
-5. Cliquez sur **Enregistrer**. 
+4. Cliquez sur **Enregistrer**. 
 
  
 > [!Note]

@@ -19,19 +19,19 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, mettre à jour si nécessaire, attribuer des licences et configurer les paramètres pour les téléphones en zone commune.
-ms.openlocfilehash: d741b2ea76b8824ed36252d1d53e3f66e0118401
-ms.sourcegitcommit: cba568455949deab3c47777cb6504b4ed889bdbd
+ms.openlocfilehash: b92cef4234823c53faf6193d2e9e90fe3e5b60f0
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2018
-ms.locfileid: "25552437"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678165"
 ---
 # <a name="set-up-common-area-phones"></a>Configuration des téléphones de zone commune
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
 
 ## <a name="prerequisites-for-common-area-phones"></a>Conditions préalables pour les téléphones de la zone commune
 
-La première chose à faire est de confirmer que vous avez :
+La première chose à faire est de confirmer que vous avez :
 
 - acheté une licence de téléphone de zone commune et un Forfait d'appels.
 - recherché et acheté des téléphones approuvés (voir la liste [ici](deploying-skype-for-business-online-phones.md)).
@@ -46,7 +46,7 @@ La première chose à faire est de confirmer que vous avez :
     Depending on the inactivity time on the phone and polling intervals, phones will automatically download and install the latest certified builds. You can disable the device update settings by using the  [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) cmdlet and setting the *EnableDeviceUpdate* parameter to `false`.
 
 ## <a name="setting-up-a-common-area-phone"></a>Configuration d’un téléphone de zone commune
-Vous devrez suivre les étapes suivantes :
+Vous devrez suivre les étapes suivantes :
 
 ### <a name="step-1---buy-the-licenses"></a>Étape 1 - Acheter les licences
 1. Dans le centre d’administration Office 365, accédez à **Facturation** > **Services d’achats**, et ajouter **D’autres forfaits**.
@@ -62,9 +62,9 @@ Pour plus d’informations sur les licences, consultez la section [Licences comp
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Étape 2 - Créer un nouveau compte utilisateur pour le téléphone et attribuer les licences
 1. Dans le centre d’administration Office 365, accédez à **Utilisateurs** > **Utilisateurs actifs** > **Ajouter un utilisateur**.
-2. Saisissez un **Nom d'utilisateur** comme « Réception » pour le prénom et « Principale » pour le nom.
-3. Saisissez un **Nom d’affichage**, s’il n’est pas généré automatiquement, comme « Reception Principale ».
-4. Saisissez un **Nom d'utilisateur** comme « RéceptionPrincipale » ou « HallPrincipal ».
+2. Saisissez un **Nom d'utilisateur** comme « Réception » pour le prénom et « Principale » pour le nom.
+3. Saisissez un **Nom d’affichage**, s’il n’est pas généré automatiquement, comme « Reception Principale ».
+4. Saisissez un **Nom d'utilisateur** comme « RéceptionPrincipale » ou « HallPrincipal ».
 5. For common area phones, you might want to set a password manually or have the same password for all of you common area phones. Also, you might think about unselecting **Make this user change their password when they first sign in**.
 6. Si vous êtes toujours là, attribuez les licences à cet utilisateur. Sur la même page, cliquez pour développer **Licences produit**. Activez l’élément suivant :
    - Téléphone de zone commune
@@ -137,12 +137,12 @@ Le téléphone ou les téléphones que vous avez doivent avoir le **Mode de tél
 
 
 > [!NOTE]
-> Le site d'attribution de privilèges d'accès CAP indique qu'il réinitialisera le mot de passe du compte CAP à un mot de passe aléatoire. Notez que le compte auquel fait référence le CAP est le compte Azure Active Directory (AAD). Si vous avez créé le compte dans AAD uniquement, le processus est simple. Si vous avez synchronisé un Active Directory local avec AAD, assurez-vous de prendre note des informations d'identification que vous utilisez et qui seront modifiées par l'attribution de privilèges d'accès CAP.
+> Le site d'attribution de privilèges d'accès CAP indique qu'il réinitialisera le mot de passe du compte CAP à un mot de passe aléatoire. Notez que le compte auquel fait référence le CAP est le compte Azure Active Directory (AAD). Si vous avez créé le compte dans AAD uniquement, le processus est simple. Si vous avez synchronisé un DAS Active Directory local et que vous utilisez un tiers IDP ou ADFS, mise en service du CAP échouera. Dans ce cas, vous devez utiliser un compte Active Directory uniquement (par exemple, un compte avec un domaine **onmicrosoft.com** ) Office 365/Azure pour délimiter mise en service pour fonctionner.
 
 
 ### <a name="related-topics"></a>Rubriques connexes
 
 - En savoir plus sur les téléphones disponibles sur [Déploiement des téléphones Skype Entreprise Online](deploying-skype-for-business-online-phones.md).
-- [Obtention de numéros de téléphone pour Skype Entreprise Online](getting-phones-for-skype-for-business-online.md)
+- [Obtention de téléphones pour Skype Entreprise Online](getting-phones-for-skype-for-business-online.md)
 
 

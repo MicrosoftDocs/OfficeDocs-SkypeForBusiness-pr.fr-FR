@@ -3,7 +3,7 @@ title: Autorisations d’applications Microsoft Teams et points à prendre en c
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
-ms.date: 08/20/2018
+ms.date: 10/18/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_PracticalGuidance
@@ -13,12 +13,12 @@ description: Cette section explique quelles données et autorisations sont deman
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3ea7aaa57f6784487d662174554ec0086a87346
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: da1c22852f12bad79413d8b1f57d129be4e0ffcd
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375747"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678401"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -75,66 +75,66 @@ Les autorisations répertoriées ci-dessous en majuscules, comme par exemple REC
 <tfoot>
 <tr><td align="right"><sup>1</sup></td><td colspan="3">Certains bots envoient seulement des messages (POST_MESSAGE_USER). Ils & #39 ; re appelée &quot;notification seule&quot; robots, mais le terme n & #39 ; t font référence à un robot de rôle est autorisé ou non autorisé à faire, cela signifie que le robot ne & #39 ; t souhaitez exposer une expérience CONVERSATIONNELLE. Les équipes utilise ce champ pour désactiver la fonctionnalité dans l’interface utilisateur qui serait normalement activé ; le robot n & #39 ; t restreint dans quel & #39 ; est autorisé à faire par rapport aux composants WebBot qui expose une expérience CONVERSATIONNELLE.</td></tr>
 <tr><td align="right"><sup>2</sup></td><td colspan="3">Actuellement dans la version préliminaire pour les développeurs.</td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">Actuellement dans la version préliminaire pour les développeurs. Régi par la propriété booléenne <code>supportsFiles</code> sur l'objet bot dans le fichier manifest.json de l’application.</td>
+<tr><td align="right"><sup>3</sup></td><td colspan="3">Régi par le <code>supportsFiles</code> propriété booléenne sur l’objet bot dans le fichier manifest.json pour l’application.</td>
 </tr>
 </tfoot>
 </table>
 
 > [!Note]
-> <ul><li>Si un bot a sa propre connexion, il y a une seconde expérience - différente - lors de la première connexion de l’utilisateur.</li><li>Actuellement, les autorisations Azure AD associées avec des fonctionnalités dans une application Teams (bot, onglet, connecteur ou extension de messagerie) sont complètement séparées des autorisations Teams répertoriées ici.</li></ul>
+> <ul><li>Si un robot possède sa propre connexion dans, il est une seconde — différents : expérience de consentement de l’utilisateur la première fois que l’utilisateur se connecte.</li><li>Actuellement, les autorisations d’Azure AD associées à une des fonctionnalités à l’intérieur d’une application d’équipes (robot, onglet, connecteur ou extension de messagerie) sont complètement séparées les autorisations équipes répertoriées ici.</li></ul>
 
 
 ## <a name="tabs"></a>Onglets
 
-Un onglet est un site Web au sein de Teams.
+Un objet tab est un site Web en cours d’exécution à l’intérieur des équipes.
 
 <table>
   <tr>
     <th width="25%">Autorisations requises</th>
     <th width="25%">Autorisations facultatives</th>
-    <th width="50%">Points à prendre en compte</th>
+    <th width="50%">Inconvénients</th>
   </tr>
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
-    <td valign="top">Aucune (actuellement).</td>
-    <td valign="top"><ul><li>Le profil de risque d’un onglet est presque identique à ce même site Web qui s’exécute dans un onglet de navigateur. </li><li>Un onglet obtient également le contexte dans lequel elle & #39 ; est en cours d’exécution, y compris le nom de connexion et le nom UPN de l’utilisateur actuel, l’ID de l’objet Azure AD pour l’utilisateur actuel, l’ID du groupe Office 365 (équipe) dans lequel il réside, l’ID de client et les paramètres régionaux de l’utilisateur. Cependant, afin de mapper les ID utilisateur & #39 ; informations s, l’onglet aurait pour qu’un utilisateur se connecter à Azure AD.</li></ul></td>
+    <td valign="top">None (actuellement).</td>
+    <td valign="top"><ul><li>Le profil de risque d’un onglet est pratiquement identique à ce même site en cours d’exécution dans un onglet du navigateur. </li><li>Un onglet obtient également le contexte dans lequel elle & #39 ; est en cours d’exécution, y compris le nom de connexion et le nom UPN de l’utilisateur actuel, l’ID de l’objet Azure AD pour l’utilisateur actuel, l’ID du groupe Office 365 (équipe) dans lequel il réside, l’ID de client et les paramètres régionaux de l’utilisateur. Cependant, afin de mapper les ID utilisateur & #39 ; informations s, l’onglet aurait pour qu’un utilisateur se connecter à Azure AD.</li></ul></td>
   </tr>
   </table>
 
 ## <a name="connectors"></a>Connecteurs
 
-Un connecteur publie les messages dans un canal lorsque des événements dans un système externe se produisent.
+Un connecteur publie des messages sur un canal lorsque les événements se produisent dans un système externe.
 
   <table>
   <tr>
     <th width="25%">Autorisations requises</th>
     <th width="25%">Autorisations facultatives</th>
-    <th width="50%">Points à prendre en compte</th>
+    <th width="50%">Inconvénients</th>
   </tr>
   <tr>
     <td valign="top">POST_MESSAGE_CHANNEL</td>
-    <td valign="top">REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs prennent en charge les <em>messages exploitables</em>, qui permettent aux utilisateurs de publier des réponses ciblées dans le connecteur de messages, en ajoutant une réponse à une question GitHub ou en ajoutant une date à une carte Trello par exemple.</td>
-    <td valign="top"><ul><li>Le système qui publie le connecteur messages ne & #39 ; t sait & #39 ; s de validation ou qui reçoit les messages : aucune information sur le destinataire n’est divulguée. (Microsoft est le destinataire réel, pas le client ; c’est Microsoft qui publie les messages dans le cana;).</li><li>Aucune donnée ne quitte le réseau d’entreprise lorsque les messages du connecteur sont publiés dans un canal.</li><li>Les connecteurs qui prennent en charge des messages exploitables (autorisation REPLYTO_CONNECTOR_MESSAGE) également don & #39 ; t voir IP du point d’accès informations d’adresse et ; Ces informations sont envoyées à Microsoft et ensuite acheminées vers les points de terminaison HTTP qui ont été précédemment inscrit auprès de Microsoft dans le portail de connecteurs.</li><li>Chaque fois qu’un connecteur est configuré pour un canal, une URL unique pour cette instance du connecteur est créée. Si cette instance du connecteur est supprimée, l’URL ne peut plus être utilisée.</li><li>Connecteur messages peuvent & #39 ; t contiennent des pièces jointes.</li><li>L’URL de l’instance du connecteur doit être traitée comme étant secrète/confidentielle : toutes les personnes qui ont cette URL peuvent publier dessus, comme une adresse e-mail. Par conséquent, il & #39 ; s risque de courrier indésirable ou des liens vers les sites de phishing ou un programme malveillant. Si cela se produit, les propriétaires d’équipe peuvent supprimer l’instance du connecteur.</li><li>Si le service qui envoie les messages des connecteurs était compromis et commençait à envoyer des liens de spam/hameçonnage/logiciel malveillant, l’administrateur du client peut empêcher la création de nouvelles instances du connecteur et Microsoft peut les bloquer de manière centrale.</li></ul></td>
+    <td valign="top">REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs prennent en charge <em>des messages</em>, qui permettent aux utilisateurs de publier des réponses ciblées sur le message de connecteur, par exemple en ajoutant une réponse à un problème de référentiels ou une date pour une carte de Trello.</td>
+    <td valign="top"><ul><li>Le système qui publie le connecteur messages ne & #39 ; t sait & #39 ; s de validation ou qui reçoit les messages : aucune information sur le destinataire n’est divulguée. (Microsoft est le destinataire réel, pas le client ; Microsoft effectue la publication sur le canal réelle.)</li><li>Aucune donnée ne quitte le réseau d’entreprise lors de la validation des messages du connecteur à un canal.</li><li>Les connecteurs qui prennent en charge des messages exploitables (autorisation REPLYTO_CONNECTOR_MESSAGE) également don & #39 ; t voir IP du point d’accès informations d’adresse et ; Ces informations sont envoyées à Microsoft et ensuite acheminées vers les points de terminaison HTTP qui ont été précédemment inscrit auprès de Microsoft dans le portail de connecteurs.</li><li>Chaque fois qu’un connecteur est configuré pour une chaîne, une URL unique pour cette instance de connecteur est créée. Si cette instance de connecteur est supprimée, l’URL peut ne plus être utilisée.</li><li>Connecteur messages peuvent & #39 ; t contiennent des pièces jointes.</li><li>L’instance du connecteur URL doit être traitée comme une clé secrète/confidentielles : toute personne ayant que peut publier des URL, comme une adresse de messagerie. Par conséquent, il & #39 ; s risque de courrier indésirable ou des liens vers les sites de phishing ou un programme malveillant. Si qui était le cas, les propriétaires de l’équipe peuvent supprimer l’instance du connecteur.</li><li>Si le service qui envoie des messages du connecteur ont été plus sécurisé et commencer à envoyer des liens de courrier indésirable/hameçonnage/programmes malveillants, un administrateur de clients permettre empêcher la création des instances de connecteur d’et Microsoft les bloquer centralisée.</li></ul></td>
   </tr>
 </table>
 
 > [!Note]
-> Il n’est pas possible actuellement de savoir quels connecteurs prennent en charge les messages exploitables (autorisation REPLYTO_CONNECTOR_MESSAGE).
+> Il n’est pas actuellement possible de savoir quels connecteurs prennent en charge des messages (autorisation REPLYTO_CONNECTOR_MESSAGE).
 
 
-## <a name="outgoing-webhooks"></a>Webhooks sortants
+## <a name="outgoing-webhooks"></a>Webhooks sortant
 
-Les _webhooks sortants_ sont créés à la volée par les propriétaires d’équipe ou les membres d’une équipe si le chargement indépendant est activé pour un client. Il ne s’agit pas de fonctionnalités des applications Teams ; ces informations sont incluses par souci d'exhaustivité.
+_Webhooks sortant_ sont créés par les propriétaires de l’équipe ou les membres de l’équipe à la volée si chargement de version test est activé pour un client. Ils ne sont pas des fonctionnalités des applications d’équipes ; Cette information est incluse par souci d’intégralité.
 
 <table>
   <tr>
     <th width="25%">Autorisations requises</th>
     <th width="25%">Autorisations facultatives</th>
-    <th width="50%">Points à prendre en compte</th>
+    <th width="50%">Inconvénients</th>
   </tr>
     <tr>
-    <td valign="top">RECEIVE_MESSAGE, REPLYTO_MESSAGE. Peut recevoir des messages des utilisateurs et leur répondre.</td>
+    <td valign="top">RECEIVE_MESSAGE, REPLYTO_MESSAGE. Peut recevoir des messages des utilisateurs et y répondre.</td>
     <td valign="top">Aucun</td>
-    <td valign="top"><ul><li>Les webhooks sortants sont similaires aux bots mais ont moins de privilèges. Ils doivent être mentionnés explicitement, comme les bots.</li><li>Lorsqu’un webhook sortant est enregistré, une <em>clé secrète</em> est générée, qui lui permet de vérifier que l’expéditeur est Microsoft Teams et pas une personne malveillante. Ce code secret doit rester secret ; toutes les personnes qui y ont accès peuvent emprunter l’identité Microsoft Teams. Si le code secret est compromis, le webhook sortant peut être supprimé puis créé à nouveau, et un nouveau code secret sera généré.</li><li>Bien qu’il & #39 ; s possible de créer un webhook sortant qui ne se & #39 ; t valider la clé secrète, il est recommandé par rapport à celui-ci.</li><li>Autre que la réception et la réponse aux messages, sortant peut webhooks & #39 ; pas à le faire beaucoup : ils peuvent & #39 ; t proactive envoyer des messages, qu’ils peuvent & #39 ; t envoyer ou recevoir des fichiers, ils peuvent & #39 ; t tout robots peuvent à l’exception de réception et répondez à faire messages.</li></ul></td>
+    <td valign="top"><ul><li>Webhooks sortants sont similaires aux composants WebBot mais ont moins de privilèges. Elles doivent être explicitement mentionnées, à l’instar des robots.</li><li>Lorsqu’un webhook sortant est inscrit, une <em>clé secrète</em> est généré, qui permet la webhook sortant vérifier que l’expéditeur est Microsoft Teams par opposition à un utilisateur malveillant. Ce mot de passe doit rester secret ; toute personne ayant accès à celui-ci peut emprunter l’identité Teams Microsoft. Si la clé secrète est compromise, le webhook sortant peut être supprimé et recréé et une nouvelle clé secrète sera générée.</li><li>Bien qu’il & #39 ; s possible de créer un webhook sortant qui ne se & #39 ; t valider la clé secrète, il est recommandé par rapport à celui-ci.</li><li>Autre que la réception et la réponse aux messages, sortant peut webhooks & #39 ; pas à le faire beaucoup : ils peuvent & #39 ; t proactive envoyer des messages, qu’ils peuvent & #39 ; t envoyer ou recevoir des fichiers, ils peuvent & #39 ; t tout robots peuvent à l’exception de réception et répondez à faire messages.</li></ul></td>
   </tr>
 </table>

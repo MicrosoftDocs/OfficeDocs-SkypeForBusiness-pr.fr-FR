@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1882e18bdf746acc6b6991e4c574ca28cb3176a6
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: 3ef4426e2dca1a6ce20657e3e7480b9ee118bfa1
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502325"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678361"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -28,7 +28,7 @@ Avec les équipes à l’échelle de l’organisation, les administrateurs globa
 ![Capture d’écran de l’option d’échelle de l’organisation pour créer une équipe à l’échelle de l’organisation] (media/create-org-wide-team.png "Capture d’écran de l’option d’échelle de l’organisation pour créer une équipe à l’échelle de l’organisation")
 
 > [!NOTE]
-> Si vous ne voyez pas l’option **d’échelle de l’organisation** lors de la création d’une équipe et que vous êtes un administrateur global, la fonctionnalité peut toujours être présentant ou votre organisation peut avoir plus de la limite de taille de 1000 membres. Nous recherchons pour augmenter cette limite à l’avenir.
+> Si vous ne voyez pas l’option **d’échelle de l’organisation** lors de la création d’une équipe et que vous êtes un administrateur global, la fonctionnalité peut toujours être présentant ou votre organisation peut avoir plus de la limite de taille de 1 000 membres. Nous recherchons pour augmenter cette limite à l’avenir.
 
 Lors de la création d’une équipe à l’échelle de l’organisation, les administrateurs globaux sont ajoutés en tant que les propriétaires de l’équipe et tous les utilisateurs actifs sont ajoutés en tant que membres de l’équipe. Les utilisateurs qui sont désactivés pour les équipes, les utilisateurs invités et la plupart des salles ne sont pas ajoutés à l’équipe. Annuaire de votre organisation est mis à jour pour inclure les nouveaux utilisateurs actifs, ou si les utilisateurs ne fonctionnent plus dans votre société et sa licence équipes est désactivée, les modifications sont automatiquement synchronisés et les utilisateurs sont ajoutés ou supprimés de l’équipe. Membres de l’équipe ne peut pas quitter une équipe à l’échelle de l’organisation. En tant que propriétaire de l’équipe, vous pouvez manuellement ajouter ou supprimer des utilisateurs si nécessaire.
 
@@ -37,9 +37,13 @@ Lors de la création d’une équipe à l’échelle de l’organisation, les ad
 
 ## <a name="best-practices"></a>Meilleures pratiques
 Pour obtenir le meilleur parti de votre équipe à l’échelle de l’organisation, nous vous recommandons de propriétaires d’équipe, procédez comme suit.
+
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Autoriser uniquement les propriétaires de l’équipe à publier le canal général
 Réduire le bruit de canal par l’équipe uniquement de publier des propriétaires pour le canal d’échange général. Accédez à l’équipe et cliquez sur **autres options (...)**  >  **Gérer l’équipe**. Dans l’onglet **paramètres** , cliquez sur **autorisations de membre** > sélectionnez **propriétaires uniquement peuvent publier des messages**.
 ### <a name="turn-off-team-and-team-name-mentions"></a>Désactiver @team et @ mentions de [nom de l’équipe]
  Réduire @mentions pour empêcher toute la surcharge de l’organisation toute entière. Accédez à l’équipe et cliquez sur **autres options (...)**  >  **Gérer l’équipe**. Dans l’onglet **paramètres** , cliquez sur **@mentions** > désactiver **Afficher les membres de l’option à @team ou @[nom de l’équipe]**. 
 ### <a name="automatically-favorite-important-channels"></a>Canaux importantes automatiquement favoris
  Conversations spécifiques engage favoris canaux importantes pour tout le monde dans votre organisation. Pour plus d’informations, voir [canaux Auto-favori pour l’ensemble de l’équipe](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+
+### <a name="remove-accounts-that-might-not-belong"></a>Supprimer des comptes qui ne peuvent pas appartenir
+Même si les membres ne peut pas quitter une équipe à l’échelle de l’organisation, en tant que propriétaire de l’équipe, vous pouvez gérer la liste de l’équipe en supprimant des comptes qui n’appartiennent pas. Assurez-vous que les équipes vous permet de supprimer des utilisateurs de votre équipe à l’échelle de l’organisation.  Si vous utilisez une autre façon de supprimer un utilisateur, telles que le centre d’administration Microsoft 365 ou d’un groupe dans Outlook, l’utilisateur peut être ajouté à l’équipe de l’échelle de l’organisation. 
