@@ -3,7 +3,7 @@ title: Mise à niveau de professionnels de l’informatique pour les équipes Mi
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 10/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3faa5874071f7587f94cf4f1719b877a9aed1d4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c2613bd346a8780b23e1ca37fd37e148502e020c
+ms.sourcegitcommit: 4f848bba1b3522f1de573e3dac081906d47eb5ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013666"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25719126"
 ---
 # <a name="upgrade-pro"></a>Mise à niveau des professionnels de l’informatique
 
@@ -27,12 +27,13 @@ Conçu pour les grandes entreprises ou celles des déploiements complexes de Sky
 
 Subdivisé en trois phases, mise à niveau Pro couvre :
 
--   **Avant mise à niveau**: démarrer l’optimisation des équipes que vous préparez la mise à niveau au fil du temps. Prendre en compte ces étapes une condition préalable mise à niveau afin de garantir une expérience positive transition entre équipes lorsque celle-ci est prête pour vous. Si votre organisation a déjà été en cours d’exécution équipes avec Skype pour les entreprises, vous pouvez utiliser ces activités pré-mise à niveau comme un point de contrôle de validation pour la préparation de votre organisation pour mettre à niveau des utilisateurs aux équipes.
--    **Mise à niveau**: lorsque votre organisation est prête pour les utilisateurs de cesser d’utiliser Skype pour les entreprises, vous souhaiterez pour s’assurer qu’ils ont suffisamment avis de formation et de démarrer à l’aide des équipes (s’ils n’ont pas déjà). Vous devez également prendre des mesures telles que le déplacement leur Skype pour les réunions d’entreprise aux équipes pour garantir une expérience optimale.
--    **Après mise à niveau**: une fois votre organisation sur les équipes, mettre en œuvre un plan pour optimiser la valeur. Cela inclut la surveillance de la qualité de votre réseau, la promotion d’adoption des équipes tout en garantissant que Skype pour l’utilisation de Business s’essouffler et planification de fonctionnalités étendues comme les équipes de feuille de route continue d’évoluer.
+|**[Avant mise à niveau](#pre-upgrade)** |**[Mise à niveau](#upgrade)**  |**[Après mise à niveau](#post-upgrade)**  |
+|---------|---------|---------|
+|Tirer parti d’équipes<ul><li>Préparer votre environnement</li><li>Adopter des équipes pour collaboration, réunions, et/ou d’appel</li><li>Planifier votre Skype pour les entreprises à la mise à niveau des équipes au fil du temps</li></ul> |Migrer les utilisateurs de Skype pour les entreprises<ul><li>Informer et préparer vos utilisateurs</li><li>Déplacer les utilisateurs en mode équipes uniquement</li><li>Suivre la progression vis-à-vis des objectifs d’utilisation</li></ul>       | Augmenter le retour sur investissement  <ul><li>Surveiller l’intégrité/qualité de votre réseau</li><li>Mettre à jour de périphérique</li><li>Planifier des innovations équipes en cours</li></ul>|
  
 > [!NOTE]
-> Nous savons que votre voyage aux équipes peut impliquer en tirant parti de plusieurs [modes](https://aka.ms/skypetoteams-coexist) et mise à niveau des groupes d’utilisateurs à des moments différents, ce qui vous permet de contrôler l’expérience de mise à niveau utilisateur tout en conservant momentum avec des équipes. Afin d’illustrer comment votre parcours de mise à niveau peut se déroulent, vous découvrirez un exemple de plan ci-dessous qui définit un trajet allant Skype pour les entreprises **(îles)** en mode aux équipes uniquement. En outre, l’exemple de plan présente une organisation qui a divisé en quatre groupes de mise à niveau ou _cohortes_de leurs utilisateurs. Utilisez cette option en tant que modèle, personnaliser englober votre parcours spécifiques aux équipes, comprenant les différents [modes](https://aka.ms/skypetoteams-coexist) que vous allez utiliser et le nombre de groupes mise à niveau, dans que vous allez segment vos utilisateurs la planification.
+> Nous savons que votre voyage aux équipes peut impliquer en tirant parti de plusieurs [modes](https://aka.ms/skypetoteams-coexist) et mise à niveau des groupes d’utilisateurs à des moments différents, ce qui vous permet de contrôler l’expérience de mise à niveau utilisateur tout en conservant momentum avec des équipes. <br><br>
+Afin d’illustrer comment votre parcours de mise à niveau peut se déroulent, vous découvrirez un exemple de plan ci-dessous qui définit un trajet allant Skype pour les entreprises **(îles)** en mode aux équipes uniquement. En outre, l’exemple de plan présente une organisation qui a divisé en quatre groupes de mise à niveau ou _cohortes_de leurs utilisateurs. Utilisez cette option en tant que modèle, personnaliser englober votre parcours spécifiques aux équipes, comprenant les différents [modes](https://aka.ms/skypetoteams-coexist) que vous allez utiliser et le nombre de groupes mise à niveau, dans que vous allez segment vos utilisateurs la planification.
 
 ## <a name="pre-upgrade"></a>Avant mise à niveau
 
@@ -41,73 +42,82 @@ Subdivisé en trois phases, mise à niveau Pro couvre :
 > [!Tip]
 > Téléchargez le [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit) pour les supports de préparation au modèle utilisateur, telles que les communications et les enquêtes effectuées auprès, outre un exemple de plan de projet de mise à niveau et le plan de test pilote. Les éléments qui sont disponibles dans le kit sont indiqués par un astérisque (\*) dans la liste ci-dessous.  
 
-Jours 1&ndash;7 : créer votre plan de mise à niveau pour vous assurer de votre organisation est configurée pour succès à long terme. 
--   [Rassembler les parties prenantes du projet](upgrade-enlist-stakeholders.md).
--   [Définir la portée de votre projet](https://aka.ms/SkypetoTeams-Scope).
--   [Comprendre les modes de mise à niveau et de coexistence](https://aka.ms/SkypeToTeams-Coexist).
--   [Découvrez les équipes et les canaux](teams-channels-overview.md).
+### <a name="days-1ndash7-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Jours 1&ndash;7 : créer votre plan de mise à niveau pour vous assurer de votre organisation est configurée pour succès à long terme
 
-Jours 8&ndash;15 : évaluer la préparation de votre organisation pour les équipes.
--   [Préparer votre environnement pour les équipes](https://aka.ms/SkypeToTeams-TechnicalReadiness).
--   [Préparer votre organisation](https://aka.ms/SkypeToTeams-UserReadiness).
--   Annonce du lancement de Microsoft Teams en attente.\*
--   Avertir le support technique qui lui sont nécessaires pour préparer la prise en charge des équipes.\*
--   Organiser une event.* de lancement
+|Étape||Résumé  |Ressource  |
+|---------|---------|---------|---------|
+|**1**     |**Définir les parties prenantes**         |Prendre en compte l’étendue de votre projet et identifier les parties concernées sur la préparation des technique et de préparation des utilisateurs à la responsabilisation et la réussite.         |[Inscrire les parties prenantes](upgrade-enlist-stakeholders.md)         |
+|**2**     |**Définissez votre projet**         |Votre vision est la « présentation » ou l’éventuelle état qui répond à la question, « Pourquoi nous faisons ce projet ? » Une adresse de vision idéale pilotes d’entreprise et des utilisateurs de votre organisation à valeur ajoutée perspectives.         |[Vision du projet](upgrade-define-project-scope.md#project-vision)         |
+|**3**     |**Définir l’étendue de votre projet**        |Votre vision peut uniquement être réalisée au fil du temps, par le biais de différentes phases. La portée du projet définit l’objectif de votre projet à ce stade et sert à votre équipe de projet principalement sur leurs tâches en cours, ce qui vous permet de réaliser votre vision à long terme.         |[Portée du projet](upgrade-define-project-scope.md#project-scope)       |
+|**4**     |**Définir les objectifs de votre projet**         |Vos objectifs de définissent le résultat que vous souhaitez et vous permettent d’évaluer la réussite du projet. Objectifs peuvent être définis comme des objectifs et des résultats de la clé (OKRs) et les mesures de réussite du projet peuvent être définis comme indicateurs de réussite clés (KSIs). Il est essentiel que vous obtenez pleine participation parties prenantes du projet dans la définition de OKRs et KSIs, pour garantir un sentiment de possession et de l’alignement de ces mesures de réussite aux tâches du projet défini. Objectifs doivent inclure une combinaison de réussite technique et centré sur l’utilisateur.          |[Objectifs du projet](upgrade-define-project-scope.md#project-goals)        |
+|**5**     |**Identifier les risques et atténuation**         |Il est important d’évaluer les risques potentiels de manière proactive et de définir un plan d’atténuation pour surmonter les problèmes qui peuvent survenir, afin que votre projet peut continuer vos objectifs. Un registre des risques est un excellent outil pour le suivi des risques du projet, ainsi qu’il est probable qu’ils sont et leur impact potentiel — et capturer votre plan d’atténuation. Le tableau suivant présente un exemple Registre des risques.         |[Risques et atténuation](upgrade-define-project-scope.md#risks-and-mitigation)      |
+|**6**    |**Définir votre barre de planning**         |Définir un planning de clés (par exemple, activation équipes avec Skype pour les entreprises pour tous les utilisateurs ou démarrer la mise à niveau progressive d’utilisateurs) en plus de la date de fin. Une chronologie définie contribue votre équipe de projet vers un état final cohérente et informe la planification de travail différée à droite, afin de garantir que votre projet est respectée. Envisagez une chronologie qui n’est pas trop accélérée (où les tâches peuvent être liste).          |[Chronologie](upgrade-define-project-scope.md#timeline)<br><br>[Kit de mise à niveau de réussite](https://aka.ms/UpgradeSuccessKit)|
+|**7**     |**Définir le Skype appropriée pour les professionnels et les équipes stratégie de mise à niveau et coexistence**          |Comme un Skype existante pour le client d’entreprise, votre transition aux équipes complète peut prendre du temps. Toutefois, vous pouvez commencer l’optimisation des équipes aujourd'hui, grâce à vos utilisateurs d’utiliser des équipes à côté de Skype pour les entreprises. Étant donné qu’il existe certaines fonctionnalités communes entre les deux applications, nous vous recommandons de consulter la coexistence disponible et de mise à niveau des modes pour aider à déterminer le chemin d’accès est adapté à votre organisation. Pour une expérience optimale, piloter votre stratégie de coexistence planifiées avant de déployer largement à tous les utilisateurs.         |[Comprendre Microsoft Teams et Skype pour l’interopérabilité et coexistence d’entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md)<br><br>[Choisissez votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)|
 
-Jours 16&ndash;60 : exécution d’un projet pilote pour confirmer que votre organisation est prête et informer votre parcours optimale aux équipes.
--   [Mener un projet pilote utilisateur des équipes à côté de Skype pour les entreprises](https://aka.ms/SkypeToTeams-Pilot).\*
+### <a name="days-8ndash15-evaluate-your-organizations-readiness-for-teams"></a>Jours 8&ndash;15 : évaluer la préparation de votre organisation pour les équipes
 
-60 jours : Déployer des équipes largement à tous les utilisateurs.
--   Annonce du lancement officiel des équipes.\*
--   [Activer le mode de coexistence approprié pour vos utilisateurs](https://aka.ms/SkypeToTeams-SetCoexistence).\*
--   Inscrire votre champions équipes.
+|Étape  | |Résumé  |Ressource  |
+|---------|---------|---------|---------|
+|**1**     |**Évaluer l’environnement existant pour identifier les exigences et les risques**         |En évaluant votre environnement, vous identifiez les risques et les exigences qui influencent votre déploiement global. En identifiant ces éléments de manière proactive, vous pouvez ajuster votre planification afin de garantir la réussite.         |[Évaluer l’environnement avant la mise à niveau vers des équipes](upgrade-plan-journey-evaluate-environment.md)         |
+|**2**     |**Intégration complète de technique Office 365 et les équipes**        |Utilisation de listes de contrôle embarquement existantes pour identifier les tâches et activités pour réaliser la préparation des technique de collaboration et de communication vocale avec des équipes.         |[Préparer votre service de mise à niveau pour les équipes](upgrade-prepare-environment-prepare-service.md)         |
+|**3**     |**Optimiser les performances réseau d’équipes, notamment pour les scénarios de médias en temps réel**         |Si vous déployez audio, vidéo ou des réunions, vous pouvez tirer quelques étapes supplémentaires pour optimiser votre réseau pour cette fonctionnalité. Équipes utilise audio et vidéo technologie (codecs) qui peut s’adapter aux&mdash;et par conséquent exécuter mieux sous&mdash;plus des conditions de réseau. Pour garantir des performances optimales et cohérentes, vous devez préparer votre réseau pour les équipes.          |[Préparation du réseau pour la mise à niveau vers des équipes](upgrade-prepare-environment-prepare-network.md)         |
+|**4**     |**Évaluer la préparation de la modification de l’organisation et des exemples d’utilisation et des personnages**        |Pour tirer profit des équipes, les utilisateurs doivent effectivement l’utiliser. Simplement permettant aux équipes ne garantit pas le faire. Les utilisateurs ont différents cas d’usage et des différents types de formation, et ils s’adapter aux nouvelles technologies différentes vitesses.  Présentation de votre base d’utilisateurs permet de vous permettent de préparer le niveau de formation de faciliter et d’accélérer l’adoption de l’utilisateur.         |[Préparation de la modification de l’organisation](upgrade-org-change-readiness.md#organizational-change-readiness)<br><br>[Cas d’utilisation](upgrade-org-change-readiness.md#use-cases)<br><br>[Personnages](upgrade-org-change-readiness.md#personas)           |
+|**5**     |**Préparation d’un plan de préparation des utilisateurs pour définir la communiquer, formation et la prise en charge des utilisateurs**         |Pour garantir la receptiveness optimale pour la nouvelle technologie, utilisez une combinaison de large portée messagerie (qui incluent la messagerie vision/valeur et cas d’utilisation universel) et la messagerie, de formation et prend en charge adaptée à cohortes que vous avez défini les personnages et également à votre suiveurs (traînards), le cas échéant. Ce plan personnalisé aident à faciliter l’adoption par les utilisateurs en permettant aux utilisateurs d’associer plus rapidement aux équipes, lors de la présentation de bien comprendre leurs besoins. Cela peut servir pilote, intégrée et mise à niveau vers les équipes.         |[Préparation d’un plan de préparation des utilisateurs](upgrade-user-readiness.md)<br><br>[Kit de mise à niveau de réussite](https://aka.ms/UpgradeSuccessKit)<br><br>[Formation vidéo équipes](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)<br><br>[Passer aux équipes de Skype pour les entreprises](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)       |
+|**6**     |**Annoncer le lancement de Microsoft Teams en attente**       |Communiquer avec vos utilisateurs au plus tôt permet aux utilisateurs la convivialité incluse, réduit la confusion génère enthousiasme Teams Microsoft, vous aider à accélérer la mise à niveau à partir de Skype pour les entreprises au fil du temps.          | [Kit de mise à niveau de réussite](https://aka.ms/UpgradeSuccessKit)         |
+|**7**     |**Préparer votre personnel informatique pour les équipes**         |Vos administrateurs du client Office 365, les responsables techniques et le support technique sont responsables de la conduite d’une expérience utilisateur de qualité. Cela inclut en vous assurant que votre réseau est prêt à prendre en charge des équipes, la configuration des équipes pour vos utilisateurs et pouvoir efficacement à résoudre des problèmes qui peuvent survenir.         |[Préparer votre personnel informatique pour Microsoft Teams](https://docs.microsoft.com/microsoftteams/upgrade-prepare-it-pros)<br><br>[Kit de mise à niveau de réussite](https://aka.ms/UpgradeSuccessKit)       |
 
-60 jours au début de la mise à niveau :
--   Créer un plan pour surveiller les équipes [feuille de route](https://aka.ms/skype2teamsroadmap) et en permanence Évaluez d’organisation, pour identifier le bon moment pour votre organisation à déplacer vers les équipes.
--   Envoyer les communications supplémentaires à envie de lecteur et d’adoption des équipes.\*
+### <a name="days-16ndash60-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>Jours 16&ndash;60 : exécution d’un projet pilote pour confirmer que votre organisation est prête et informer votre parcours optimale aux équipes
+
+|Étape  |  |Résumé  |Ressource |
+|---------|---------|---------|---------|
+|**1**     |**Plan pilote logistique**         |Un pilote réussi a défini les dates de début et de fin et clairement objectifs pour mesurer la réussite. Ces objectifs doivent s’aligner avec l’étendue de votre projet plus vaste et seront utilisés pour informer les transférer votre chemin d’accès après votre pilote.          |[Plan pilote logistique](pilot-essentials.md#1-outline-pilot-logistics)         |
+|**2**     |**Sélectionnez votre pilotes participants et scénarios de test**         |Sélectionnez participants pilotes pas uniquement en se basant sur les rôles ou les personnages, mais également en fonction de leur projet et le travail entre les équipes. Le pilote doit s’étendre à des personnes clés dans informatique, la formation et le support technique, afin que vous pouvez valider soigneusement la solution tout en optimisant les ressources de gestion de projet entièrement veillez à inclure Skype supérieure pour les utilisateurs professionnels.         |[Sélectionnez votre pilotes participants et scénarios de test](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios)         |
+|**3**     |**Concevoir votre sondage de test plan et commentaires**         |Identifier les tâches clairement définis pour les participants à effectuer ainsi qu’un moyen de partager leurs commentaires. Regrouper les tâches pour offrir des scénarios réels à vos utilisateurs, illustrant la pertinence de leurs activités quotidiennes.          |[Concevoir votre sondage de test plan et commentaires](pilot-essentials.md#3-design-your-test-plan-and-feedback-survey)         |
+|**4**     |**Créer votre plan de communication pilote**        |Informer les participants au pilotes sur ce qui se passe, quand et pourquoi, et qu’on attend d’eux. Lecteur enthousiasme et la participation maximale, veillez à inclure la valeur utilisateur de messagerie en plus des liens vers la formation et de support où les utilisateurs peuvent obtenir des informations supplémentaires pendant leur progression dans le pilote.          |[Créer votre plan de communication](pilot-essentials.md#4-create-your-communications-plan)<br><br>[Kit de mise à niveau de réussite](https://aka.ms/UpgradeSuccessKit)         |
+|**5**     |**Organiser votre pilote**         |Élaboration du projet pilote inclut la communication avec les utilisateurs, la surveillance de votre réseau et l’utilisation pour garantir les performances de votre réseau et la qualité des appels restent sains, en recueillant des commentaires des participants, et examen des tickets de support technique pour les questions relatives aux Équipes.         |[Organiser votre pilote](pilot-essentials.md#5-conduct-your-pilot)         |
+|**6**     |**Évaluer les connaissances et évaluer votre plan aller de transfert**         |Rassemblez tous les commentaires enquêtes, les statistiques réseau finale et prend en charge les tickets d’analyse par rapport à vos objectifs et déterminer si vous mettez en œuvre votre plan atteindre-avant.          |[Évaluer les connaissances et évaluer votre plan aller de transfert](pilot-essentials.md#6-assess-learnings-and-evaluate-your-go-forward-plan)         |
+
+### <a name="day-60-until-upgrade-deploy-teams-in-coexistence-with-skype-for-business"></a>60 jours avant la mise à niveau : déployer des équipes en coexistence avec Skype pour les entreprises
+
+|Étape  |  |Résumé |Ressource |
+|---------|---------|---------|---------|
+|**1**     |**Annonce du lancement officiel des équipes**       |Communiquer avec vos utilisateurs sur le début de votre lancement d’organisation des équipes pour assurer la valeur sensibilisation et terrestre et bénéficier avec les utilisateurs. Prendre en compte plusieurs modes de communication, y compris un événement de lancement et au courrier électronique.         |[Kit de mise à niveau de réussite](https://aka.ms/UpgradeSuccessKit)          |
+|**2**     |**Activer le mode de coexistence approprié pour vos utilisateurs**         |Procédez comme suit pour définir l’ou les modes coexistence droite pour votre organisation.         |[Définition de vos paramètres de mise à niveau et de coexistence](setting-your-coexistence-and-upgrade-settings.md)         |
+|**3**     |**Être informé sur la feuille de route des équipes**       |Surveiller la feuille de route des équipes et continuellement Évaluez la compatibilité d’organisation pour identifier le bon moment pour votre organisation à déplacer vers les équipes.         |[Feuille de route équipes](https://aka.ms/teamsroadmap)         |
+|**4**     |**Envoyer des communications supplémentaires et prendre part champions équipes au lecteur** enthousiasme et l’adoption des équipes       |Encourager l’adoption de l’utilisateur et maintenir enthousiasme des équipes de communication en cours et Champions.          |[Programme Champions de Microsoft 365](https://aka.ms/O365Champions)         |
 
 ## <a name="upgrade"></a>Mise à niveau
 
 **Franchir les équipes officiel.** Lorsque vous mettez à niveau vos utilisateurs, vous déplacez dans les **équipes uniquement** de cohabitation. Les équipes devient leur application principale pour la conversation, réunions, appel et la collaboration et l’accès à la Skype pour l’application de gestion est désactivé. Bien que les aspects techniques de cette phase sont assez simples, prenez en compte l’impact de la modification sur l’expérience utilisateur et de permettre aux utilisateurs de leurs activités de Skype pour les entreprises aux équipes de transition officiellement. Pour réduire les utilisateurs d’une autre expérience avec différents clients, essayez de limiter la fenêtre de mise à niveau de bout en bout à 45 jours ou.
 
-Jours 1&ndash;2 : Vérifiez que votre organisation est prête pour la mise à niveau.
--   Vérifiez que vous avez terminé les activités de pré-mise à niveau décrites ci-dessus.
--   Segment de votre base d’utilisateurs en quatre groupes de mise à niveau.
--   Envoyer des notifications de la mise à niveau à tous les utilisateurs.\*
--   Définissez [Skype de notification pour les utilisateurs professionnels, équipes est disponible pour la mise à niveau](https://aka.ms/SkypeToTeams-SetCoexistence) pour tous les utilisateurs.
+### <a name="days-1ndash45-implement-your-upgrade-from-skype-for-business-to-teams"></a>Jours 1&ndash;45 : implémenter votre mise à niveau à partir de Skype pour les entreprises à des équipes
 
-_Jours 7 à 45 : implémenter votre mise à niveau à partir de Skype pour les entreprises aux équipes._
-
-7 jours
--   Envoyer une notification de mise à niveau de groupe 1 leur mise à niveau va commencer dans deux semaines.\*
--   Contrôler les appels de support technique et d’intégrité du réseau pour les problèmes de mise à niveau technique ou d’un utilisateur et de limiter les selon vos besoins.
-
-14 jours
--   Envoyer un rappel à la mise à niveau de groupe 1 qui commence dans une semaine leur mise à niveau.\*
--   Contrôler les appels de support technique et d’intégrité du réseau pour les problèmes de mise à niveau technique ou d’un utilisateur et de limiter les selon vos besoins.
-
-21 jours
--   [Définir le mode de coexistence pour le groupe de mise à niveau 1 pour **Les équipes uniquement**](https://aka.ms/SkypeToTeams-SetCoexistence).
--   Envoyer une notification « Équipes » mise à niveau de groupe 1.\*
-
-Jours 14&ndash;42
--   Répétez les activités de mise à niveau précédentes pour les autres groupes de mise à niveau sur un cycle continu. Commencer par exemple, les notifications de mise à niveau de groupe 2 sur jour 14, mise à niveau des notifications de groupe 3 sur jour 21 et mise à niveau des notifications de groupe 4 jour 28. Il doit autoriser toutes les mises à niveau soit terminée par jour 42.
-
-45 jours
--   Envoyer des [enquêtes de commentaires de post-mise à niveau](https://aka.ms/UpgradeSuccessKit) à tous les utilisateurs.\*
+|Étape |  |Résumé |Ressource  |
+|---------|---------|---------|---------|
+|**1**     |**Valider que vous avez terminé les activités de pré-mise à niveau décrites ci-dessus**         |Garantir la réussite de mise à niveau en vérifiant la réalisation de toutes les activités de planification et de préparation.         |Tous les éléments ci-dessus         |
+|**2**     |**Initier des communications avec les utilisateurs de votre premier groupe de mise à niveau**         |Démarrer l’exécution de votre plan de communication avant, pendant et après mise au lecteur de sensibilisation, définissez les attentes et partager l’avantage d’équipes avec des utilisateurs avant leur mise à niveau.          |[Préparation d’un plan de préparation des utilisateurs](upgrade-user-readiness.md)<br><br>[Kit de mise à niveau de réussite](https://aka.ms/UpgradeSuccessKit)<br><br>[Formation vidéo équipes](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)<br><br>[Passer aux équipes de Skype pour les entreprises](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)        |
+|**3**     |**Activer le mode de coexistence pour les équipes uniquement pour les utilisateurs de votre premier groupe de mise à niveau**         |Suivez la procédure correspondant à votre Skype pour un environnement d’entreprise pour effectuer la migration des utilisateurs techniques.         |[Mise à niveau à partir de Skype pour les entreprises en ligne aux équipes](upgrade-to-teams-execute-skypeforbusinessonline.md)<br><br>[Mise à niveau à partir d’un Skype pour un déploiement hybride Business aux équipes](upgrade-to-teams-execute-skypeforbusinesshybrid.md)<br><br>[Mise à niveau à partir d’un Skype pour le déploiement local de Business aux équipes](upgrade-to-teams-execute-skypeforbusinessonpremises.md)       |
+|**4**     |**Répétez les activités de mise à niveau précédentes pour les autres groupes de mise à niveau sur un cycle continu**         |Continuez à votre plan de communication en cours du lecteur et groupes d’utilisateurs en fonction de votre plan de mise à niveau.         |         |
+|**5**     |**Envoyer des commentaires de post-mise à niveau enquêtes à tous les utilisateurs**        |Exploiter un sondage pour capturer les commentaires et les vues d’ensemble des utilisateurs.         |[Kit de mise à niveau de réussite](https://aka.ms/UpgradeSuccessKit)         |
 
 ## <a name="post-upgrade"></a>Après mise à niveau
 
 **Optimiser la valeur d’entreprise avec des équipes.** Une fois que votre organisation est entièrement mis à niveau vers les équipes, prendre le temps d’évaluer votre réussite par rapport à vos objectifs et implémenter un plan de momentum avant de continuer.
 
-Jours 1&ndash;14 : mesurer votre mise à niveau a réussi.
--   Évaluer le succès de votre mise à niveau initial contre les objectifs que vous avez établi dans la phase de pré-mise à niveau.
--   Implémenter un plan d’atténuation pour les objectifs qui ne figurent pas dans le suivi.
+### <a name="days-1ndash14-measure-the-success-of-your-upgrade"></a>Jours 1&ndash;14 : mesurer la réussite de la mise à niveau
 
-En cours : Mettre à jour dynamique et du bon fonctionnement de votre déploiement d’équipes.
--   Contrôler les appels de support technique et d’intégrité du réseau pour les problèmes de mise à niveau technique ou d’un utilisateur et de limiter les selon vos besoins.
--   [Lecteur momentum utilisateur par courrier électronique, de bulletins d’information ou d’autres communications qui se concentrer sur les nouvelles fonctionnalités à venir, réussites et ainsi de suite](https://aka.ms/successwithteams).
--   Planifier les initiatives de préparation technique et utilisateur afin de préparer pour les nouvelles fonctionnalités et optimisation Microsoft 365. <!-- (point to blog??)-->
+|Étape  | |Résumé |Ressource  |
+|---------|---------|---------|---------|
+|**1**     |**Évaluer le succès de votre mise à niveau initial**         |Évaluer l’avancement aux objectifs définie dans la phase de pré-mise à niveau.         |[Objectifs du projet](upgrade-define-project-scope.md#project-goals)         |
+|**2**     |**Implémenter un plan d’atténuation pour les objectifs qui ne figurent pas dans le suivi.**         |Définir atténuation ou des stratégies de correction des cours pour les objectifs ne sont pas remplies.         |[Objectifs du projet](upgrade-define-project-scope.md#project-goals)          |
+
+### <a name="ongoing"></a>En cours
+
+|Étape  | |Résumé |Ressource  |
+|---------|---------|---------|---------|
+|**1**     |**Surveiller l’intégrité du réseau et de qualité**         |Implémentation d’un plan pour surveiller et limiter l’intégrité du réseau afin de garantir une expérience utilisateur positive outre réduisant les appels à votre support technique.          |[Surveiller l’intégrité du réseau et de qualité](continue-journey.md#monitor-for-network-health-and-quality)         |
+|**2**     |**Lecteur d’adoption et de momentum utilisateur**         |Encourager l’adoption de l’utilisateur et maintenir enthousiasme des équipes avec un plan d’adoption en cours.         |[Lecteur d’adoption et de momentum utilisateur](continue-journey.md#drive-user-momentum-and-adoption)         |
+|**3**     |**Préparer pour la nouvelle fonctionnalité**         |Établissement d’un cycle de modification au sein de votre organisation permet de garantir que vous êtes prêt à gérer les améliorations de la collaboration continue et réaliser la valeur maximale.          |[Préparer pour la nouvelle fonctionnalité](continue-journey.md#prepare-for-new-functionality)        |
 
 > [!Note]
 > Nos professionnels de l’informatique de mise à niveau est en constante évolution. Veillez à vérifier les conseils les plus récents et lire le [blog des équipes](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
