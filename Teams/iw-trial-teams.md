@@ -3,10 +3,10 @@ title: Gérer l’offre d’évaluation de Cloud Microsoft équipes commerciales
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/10/2018
+ms.date: 10/23/2018
 ms.topic: article
 audience: Admin
-ms.reviewer: alchen
+ms.reviewer: annikae
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
@@ -14,20 +14,17 @@ description: Les utilisateurs Office 365 qui ne sont pas une licence de Microsof
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6de25e5fe4bf844841c66f7bf797e0edb5f8844e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 891e87c69e6cd998a715ded901de15e6b7cd267e
+ms.sourcegitcommit: f9485c9b89d94da7aaed1fab94254c794b407164
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017912"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25697461"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’évaluation de Cloud Microsoft équipes commerciales
 =======================================================
 
-Microsoft Teams est un excellent outil de collaboration pour votre organisation. Il permet aux personnes et aux équipes de discuter, innover et partager des idées à l’aide de la puissance d’Office 365. Les équipes commerciales Cloud version d’évaluation Microsoft offre Office 365 les utilisateurs existants dans votre organisation qui ne sont pas une licence de Microsoft Teams initier une version d’évaluation de 1 an du produit. Administrateurs ont la possibilité d’activer ou désactiver cette fonctionnalité pour les utilisateurs au sein de leur client.
-
-> [!NOTE]
-> Cette offre n’est pas disponible publiquement, mais présentant le mois suivant.
+Microsoft Teams est un excellent outil de collaboration pour votre organisation. Il permet aux personnes et aux équipes de discuter, innover et partager des idées à l’aide de la puissance d’Office 365. Les équipes commerciales Cloud version d’évaluation Microsoft offre Office 365 les utilisateurs existants dans votre organisation qui ne sont pas une licence de Microsoft Teams initier une version d’évaluation de 1 an du produit. Administrateurs ont la possibilité d’activer ou désactiver cette fonctionnalité pour les utilisateurs au sein de leur organisation.
 
 ## <a name="whats-in-the-offer"></a>Nouveautés de l’offre
 
@@ -43,20 +40,20 @@ Les plans de service inclus dans cette offre sont les suivants :
 - Balancement
 - Yammer Enterprise
 
-L’offre peut être affectée à un maximum de 500 000 utilisateurs par client. La licence d’évaluation alloue 2 Go de stockage SharePoint Online pour chaque utilisateur d’évaluation.
+L’offre peut être affectée à un maximum de 500 000 utilisateurs par l’organisation. La licence d’évaluation alloue 2 Go de stockage SharePoint Online pour chaque utilisateur d’évaluation.
 
 ## <a name="who-is-eligible"></a>Qui est éligible
 
 Les utilisateurs qui ne possèdent pas d’une licence Office 365 qui inclut les équipes peuvent lancer l’offre d’évaluation de Cloud Microsoft équipes commerciale. Par exemple, si un utilisateur a Office 365 entreprise Premium (qui inclut les équipes) et le plan de service équipes est désactivé, ils ne sont pas éligibles pour la version d’évaluation.
 
-En outre, votre client n’est pas éligibles pour la version d’évaluation if : 
+En outre, votre organisation n’est pas éligibles pour la version d’évaluation if : 
 - Vous êtes un client de partenaire de Syndication
 - Vous êtes un client de partenaire revendeur
 - Vous êtes un client EDU, GOV ou GCC
 
-En outre, si votre client n’est pour la Microsoft équipes commerciales Cloud d’évaluation, vous verrez pas le commutateur **aux utilisateurs d’installer les services et applications d’évaluation** .
+En outre, si votre organisation n’est pour la Microsoft équipes commerciales Cloud d’évaluation, vous verrez pas le commutateur **aux utilisateurs d’installer les services et applications d’évaluation** .
 
-Au niveau du client, équipes en tant que service doit être activé (dans le centre d’administration équipes). Pour plus d’informations, voir [fonctionnalités de gestion des équipes Microsoft dans votre organisation Office 365](enable-features-office-365.md). En outre, les utilisateurs doivent être activés pour s’inscrire pour les applications et versions d’évaluation (dans le centre d’administration Office 365). Pour plus d’informations, voir [Gérer la version d’évaluation](#manage-the-trial) plus loin dans cet article.
+Au niveau de l’organisation, les équipes en tant que service doit être activé (dans le centre d’administration équipes). Pour plus d’informations, voir [fonctionnalités de gestion des équipes Microsoft dans votre organisation Office 365](enable-features-office-365.md). En outre, les utilisateurs doivent être activés pour s’inscrire pour les applications et versions d’évaluation (dans le centre d’administration Office 365). Pour plus d’informations, voir [Gérer la version d’évaluation](#manage-the-trial) plus loin dans cet article.
 
 ## <a name="how-users-sign-up-for-the-trial"></a>Comment les utilisateurs s’inscrire à la version d’évaluation
 
@@ -72,7 +69,7 @@ La première personne qui a souscrit à la version d’évaluation est « propr
 
 ## <a name="manage-the-trial"></a>Gérer la version d’évaluation
 
-Administrateurs peuvent désactiver la possibilité pour les utilisateurs finaux demander des applications d’évaluation et services au sein de leur client. Actuellement, la version d’évaluation des équipes est uniquement trial dans cette catégorie, mais elle s’applique à d’autres programmes similaires à l’avenir. 
+Administrateurs peuvent désactiver la possibilité pour les utilisateurs finaux demander des applications d’évaluation et services au sein de leur organisation. Actuellement, la version d’évaluation des équipes est uniquement trial dans cette catégorie, mais elle s’applique à d’autres programmes similaires à l’avenir. 
 
 1\. À partir du [Centre d’administration Office 365](https://portal.office.com/adminportal/home), accédez à **Services et compléments** > **utilisateur propriétaire des applications et Services**.
 
@@ -82,7 +79,7 @@ Administrateurs peuvent désactiver la possibilité pour les utilisateurs finaux
 
 ![Capture d’écran de l’utilisateur appartient la page Services et applications dans le centre d’administration d’Office 365.](media/iw-trial-enable-2.png)
 
-3\. Vous pouvez désactiver les équipes pour le client en accédant au portail d’administration équipes. Lorsque cette option est désactivée, les utilisateurs ne peuvent pas prétendre qu'offrent les équipes d’évaluation.
+3\. Vous pouvez désactiver les équipes de votre organisation en accédant au portail d’administration équipes. Lorsque cette option est désactivée, les utilisateurs ne peuvent pas prétendre qu'offrent les équipes d’évaluation.
 
 4\. Si vous avez désactivé le plan de service équipes pour un utilisateur qui dispose d’une licence éligible, que l’utilisateur n’est pas autorisé à demander une licence d’évaluation.
 

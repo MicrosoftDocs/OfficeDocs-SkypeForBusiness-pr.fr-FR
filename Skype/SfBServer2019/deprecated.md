@@ -10,16 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités ont été supprimées de Skype pour Business Server 2019.'
-ms.openlocfilehash: cf91b468fe1482c7348634553b6e9b196b864b2c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 926f5539a31dbcb37ff4ccb5494ccaa7be517d30
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028760"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696162"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Ce qui est déconseillé de Skype pour Business Server 2019 
-
-[!INCLUDE [disclaimer](disclaimer.md)]
 
 Découvrez les fonctionnalités qui sont déconseillées dans Skype pour Business Server 2019. Pour plus d’informations sur les nouvelles fonctionnalités dans Skype pour Business Server 2019, voir [Nouveautés de Skype pour Business Server 2019](whats-new.md).
 
@@ -71,8 +69,8 @@ Les outils suivants ne sont pas pris en charge avec Skype pour Business Server 2
 
 - Tableau de bord méthodologie de qualité des appels
 - Carte de performance Microsoft appel qualité méthodologie, v1.5
-- Outil de planification de Skype Entreprise Server 2015
-- Skype pour Business Server 2015 Stress and Performance Tool
+- Skype for Business Server 2015 Planning Tool
+- Skype for Business Server 2015 Stress and Performance Tool
 
 ### <a name="see-also"></a>Voir aussi
 

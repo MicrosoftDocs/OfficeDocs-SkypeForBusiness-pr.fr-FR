@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Résumé : Gérer l’authentification à deux facteurs dans Skype pour Business Server.'
-ms.openlocfilehash: f6ea9eb228a0c36df3c1ab9318f766a68a370cad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a9ebeaa5f8f012d66fb62357e8378010d0a74865
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002856"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692739"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Gérer l’authentification à deux facteurs dans Skype pour Business Server
  
@@ -37,8 +37,8 @@ Les clients sont vivement encouragées à déployer l’authentification à deux
   
 |**Type de configuration**|**Type de service**|**Rôle de serveur**|**Type d’authentification à désactiver**|
 |:-----|:-----|:-----|:-----|
-|Service web  <br/> |Serveur Web  <br/> |Directeur  <br/> |Kerberos, NTLM et par certificat  <br/> |
-|Service web  <br/> |Serveur Web  <br/> |Serveur frontal  <br/> |Kerberos, NTLM et par certificat  <br/> |
+|Service web  <br/> |WebServer  <br/> |Directeur  <br/> |Kerberos, NTLM et par certificat  <br/> |
+|Service web  <br/> |WebServer  <br/> |Serveur frontal  <br/> |Kerberos, NTLM et par certificat  <br/> |
 |Proxy  <br/> |EdgeServer  <br/> |Edge  <br/> |Kerberos et NTLM  <br/> |
 |Proxy  <br/> |Serveur d’inscriptions avancé  <br/> |Serveur frontal  <br/> |Kerberos et NTLM  <br/> |
    
@@ -100,7 +100,7 @@ Le paramètre de Registre **SavePassword** doit être désactivé lorsque Skype 
 
 La fonctionnalité d’AD FS 2.0 de détection de relecture des jetons détecte et rejette les demandes de jeton multiples effectuées à l’aide d’un même jeton. Lorsqu’elle est activée, elle protège l’intégrité des demandes d’authentification dans le profil passif WS-Federation et le profil SAML WebSSO en vérifiant que le même jeton n’est pas utilisé plusieurs fois.
   
-Cette fonctionnalité doit être activée dans les cas dans lesquels la sécurité constitue un aspect essentiel, par exemple, dans le cadre de l’utilisation des kiosques. Pour plus d’informations sur la détection de relecture de jeton, voir [Meilleures pratiques pour sécuriser la planification et le déploiement d’AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
+Cette fonctionnalité doit être activée dans les cas dans lesquels la sécurité constitue un aspect essentiel, par exemple, dans le cadre de l’utilisation des kiosques. Pour plus d’informations sur la détection de relecture des jetons, reportez-vous à l’article [Meilleures pratiques pour la planification et le déploiement sécurisé de AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
   
 ## <a name="external-user-access"></a>Accès des utilisateurs externes
 
@@ -108,5 +108,5 @@ Configuration d’un Proxy AD FS ou un Proxy inverse pour prendre en charge Skyp
   
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer l’authentification à deux facteurs Skype pour Business Server](configure.md)
+[Configurer l’authentification à deux facteurs Skype pour Business Server](configure-two-factor.md)
   

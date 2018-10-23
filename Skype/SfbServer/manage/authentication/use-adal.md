@@ -10,50 +10,24 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: Cet article explique comment utiliser modernes d’authentification (qui est basé sur la bibliothèque de l’authentification Active Directory (ADAL) et OAuth 2.0) qui peuvent se trouver dans le 2016 mars mise à jour Cumulative pour Skype pour les entreprises pour Skype pour Business Server 2015.
-ms.openlocfilehash: 4bf802d2710c9c271c54cf2e127cf51b24875db1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 70878092baaee9414c8acada21a89ceea6587658
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966572"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692760"
 ---
-# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Comment utiliser l’authentification moderne (ADAL) avec Skype Entreprise
+# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>How to use Modern Authentication (ADAL) with Skype for Business
  
-Cet article explique comment utiliser modernes d’authentification (qui est basé sur la bibliothèque de l’authentification Active Directory (ADAL) et OAuth 2.0) qui peuvent se trouver dans le 2016 mars mise à jour Cumulative pour Skype pour les entreprises pour Skype pour Business Server 2015.
+Cet article explique comment utiliser modernes d’authentification (qui est basé sur la bibliothèque de l’authentification Active Directory (ADAL) et OAuth 2.0) qui peuvent se trouver dans le 2016 mars mise à jour Cumulative pour Skype pour les entreprises pour Skype pour Business Server 2015, ou d’initial version de Skype pour Business Server 2019.
   
 ## <a name="whats-in-this-article"></a>Quel est le contenu de cet article ?
 
-[Qu’est-ce que la bibliothèque ADAL ?](use-adal.md#BKMK_ADAL)
-  
 [Configurez la bibliothèque ADAL dans votre pool et définissez ADFS en tant que serveur de jetons de sécurité](use-adal.md#BKMK_Config)
   
 [Autres options d'activation de la connexion à la bibliothèque ADAL (par exemple, applications clientes Office)](use-adal.md#BKMK_Options)
   
 [Clients pour lesquels l’authentification moderne/la bibliothèque ADAL n’est pas prise en charge](use-adal.md#BKMK_Support)
-  
-## <a name="what-is-adal"></a>Qu’est-ce que la bibliothèque ADAL ?
-<a name="BKMK_ADAL"> </a>
-
-ADAL est l’acronyme de « Active Directory authentification Library », et ainsi que OAuth 2.0, il s’agit d’une base d’authentification moderne. Cette bibliothèque de code est conçue pour libérer des ressources sécurisées dans votre répertoire vers des applications clientes (par exemple, Skype pour les entreprises) par le biais des jetons de sécurité. ADAL fonctionne avec OAuth 2.0 pour activer les autres scénarios d’authentification et d’autorisation, telles que l’authentification multifacteur (MFA) et plusieurs formes d’authentification SAML
-  
-Diverses applications qui agissent en tant que clients peuvent exploiter l’authentification moderne afin d’obtenir de l’aide pour sécuriser des ressources. Dans Skype pour Business Server, cette technologie est utilisée entre les clients locaux et les serveurs locaux afin de donner aux utilisateurs un niveau d’autorisation aux ressources approprié.
-  
-Les conversations d’authentification moderne (qui sont basées sur la bibliothèque ADAL et OAuth 2.0) ont certains éléments en commun.
-  
-- Il existe un client effectue une demande pour une ressource, dans ce cas, le client est Skype pour les entreprises.
-    
-- Il existe une ressource à laquelle le client a besoin d’un niveau spécifique d’accès, et cette ressource est sécurisée par un service d’annuaire, dans ce cas la ressource est Skype pour Business Server.
-    
-- Il existe une connexion OAuth, en d’autres termes, une connexion est dédiée *à* un utilisateur pour accéder à une ressource. (OAuth est également connue sous le nom plus descriptif d’authentification « serveur à serveur » et est souvent abrégée S2S.)
-    
-Dans Skype pour les conversations Business Server modernes d’authentification (ADAL), Skype pour Business Server communique par le biais de services ADFS (3.0 ADFS dans Windows Server 2012 R2). L’authentification peut se produire à l’aide d’un autre fournisseur d’identité (IdP), mais Skype pour Business server doit être configuré pour communiquer avec ADFS, directement. Si vous n’avez pas configuré pour fonctionner avec Skype pour Business Server ADFS, veuillez effectuer l' [installation des services AD FS](https://technet.microsoft.com/en-us/library/adfs2-step-by-step-guides%28v=ws.10%29.aspx).
-  
-ADAL est incluse dans le 2016 mars mise à jour Cumulative pour Skype pour Business Server 2015 et le 2016 mars mise à jour Cumulative pour Skype pour Business **doit** être installé et est nécessaire pour la configuration réussie.
-  
-> [!NOTE]
-> Dans la version initiale, l’authentification moderne dans un environnement local est uniquement prise en charge s’il n’y a pas de topologie Skype mixte impliquée. Par exemple, si l’environnement est purement Skype pour Business Server. Cet énoncé pourrait être modifié. 
-  
-Un package PowerShell comprenant des fichiers .ps1 avec les commandes utilisées par la bibliothèque ADAL doit être téléchargé pour que la configuration aboutisse.
   
 ### <a name="configure-adal-in-your-pool-and-set-adfs-as-security-token-server"></a>Configurez la bibliothèque ADAL dans votre pool et définissez ADFS en tant que serveur de jetons de sécurité
 <a name="BKMK_Config"> </a>
@@ -62,7 +36,7 @@ Dans ce processus, vous vous connectez votre installation des services AD FS pou
   
 1. Installer le 2016 mars mise à jour Cumulative pour Skype pour Business Server 2015 à votre Skype pour le pool de serveurs d’entreprise ou serveur Standard Edition server. (Programmez les fenêtres de maintenance si nécessaire, pour exécuter Windows Update en vue de l’installation automatique.)
     
-2. Sur vos serveurs ADFS sur site, [Téléchargez](https://aka.ms/sfbadalscripts) le AdfsOAuthTrustForSfB-le programme d’installation. (Cela doit être effectué par une batterie de serveurs ADFS ou des serveurs ADFS indépendants. Cela ne doit pas être effectué sur un proxy ou des proxys ADFS).
+2. Sur vos serveurs ADFS locaux, [téléchargez le script Setup-Adfs OAuthTrustForSfB](https://aka.ms/sfbadalscripts). (Cela doit être effectué par une batterie de serveurs ADFS ou des serveurs ADFS indépendants. Cela ne doit pas être effectué sur un proxy ou des proxys ADFS).
     
 3. Prenez note des interne et externe Service Web de noms de domaine complets (FQDN) pour votre Skype pour le pool de serveurs d’entreprise ou serveur Standard Edition server. Cela doit être effectué pour tous les pools Skype Entreprise.
     
@@ -73,7 +47,7 @@ Dans ce processus, vous vous connectez votre installation des services AD FS pou
     Pour des pools supplémentaires, vous devez ajouter manuellement les URL de Services Web Pool à la Skype Business Server Relying Party faire confiance dans ADFS.
     
     > [!IMPORTANT]
-    > Il n’est pas possible d’utiliser l’authentification passive pour un pool et d’utiliser également la bibliothèque ADAL. Vous devez désactiver l’authentification passive afin d’utiliser la bibliothèque ADAL. Pour les applets de commande PowerShell comment configurer l’authentification pour un Pool, consultez [cet](https://technet.microsoft.com/en-us/library/gg398396.aspx) article.
+    > Il n’est pas possible d’utiliser l’authentification passive pour un pool et d’utiliser également la bibliothèque ADAL. Vous devez désactiver l’authentification passive afin d’utiliser la bibliothèque ADAL. Afin d’obtenir des applets de commande PowerShell sur la manière de définir l’authentification pour un pool, reportez-vous à [cet article](https://technet.microsoft.com/en-us/library/gg398396.aspx).
   
     > [!TIP]
     > Si vous avez des pools supplémentaires vous devez les ajouter en tant [qu’identificateurs](https://technet.microsoft.com/en-us/library/gg557759%28v=ws.10%29.aspx) le Relying Party approuver dans ADFS. > accédez à votre serveur AD FS et ouvrir la gestion des services AD FS. Développez des relations d’approbation \> approbations de parties de confiance. Avec le bouton droit de la partie de confiance approbation indiqué et avec le bouton droit pour les propriétés \> identificateurs \> tapez l’URL de Pool supplémentaires \> cliquez sur Ajouter. 

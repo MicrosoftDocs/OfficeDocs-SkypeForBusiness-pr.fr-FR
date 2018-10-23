@@ -14,22 +14,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Résumé : Explorez ces liens pour découvrir comment développer conceptuelles, logiques et physiques conceptions pour la configuration de Skype pour les fonctionnalités Business Server 2019, des serveurs et des topologies.'
-ms.openlocfilehash: e7f104de66782d2aafd5947fbc3bca7badfd17c1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 85b8dc6b4326a565e40331d4ba89cbed1d4edb59
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030776"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696190"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Planifier votre Skype pour le déploiement de Business Server 2019
  
 **Résumé :** Explorez ces liens pour découvrir comment développer conceptuelles, logiques et physiques conceptions pour la configuration de Skype pour les fonctionnalités Business Server 2019, des serveurs et des topologies.
   
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 Skype pour Business Server propose la messagerie instantanée, présence, conférence, vidéo et les solutions de téléphonie pouvant prendre en charge les besoins de collaboration au niveau de l’entreprise. Cette rubrique fournit des liens vers des informations sur la façon de planifier une réussite Skype pour le déploiement de serveur d’entreprise. 
   
-Les articles sont actualisés en permanence, à mesure que de nouvelles informations sont mises à disposition et que les utilisateurs transmettent leurs commentaires. Cette page est mise à jour fréquemment, alors ne manquez pas de la consulter aussi souvent que possible.
+Les rédacteurs mettent à jour les articles en continu au fur et à mesure que de nouvelles informations sont disponibles et en fonction des retours des utilisateurs. Cette page étant mise à jour régulièrement, consultez-la souvent.
 ## <a name="visual-resources-about-how-to-plan-for-skype-for-business-server"></a>Ressources Visual sur la planification de Skype pour Business Server
 
 Afficher les ressources suivantes pour plus d’informations sur la planification de votre Skype pour le déploiement de serveur d’entreprise.
@@ -60,6 +58,6 @@ Les ressources suivantes sur la planification de Skype pour Business Server sont
   
 ||**Contenu**|**Description**|
 |:--- |:--- |:--- |
-|![Icône de DMC](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Skype pour Business Server pour les professionnels de l’informatique](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Visitez les centres de docs.microsoft.com et des ressources pour les vidéos access, sites de Communauté, documentation, téléchargements et plus d’informations.    |
+|![Icône de DMC](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Skype Entreprise Server pour les professionnels de l’informatique](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Visitez les centres de docs.microsoft.com et des ressources pour les vidéos access, sites de Communauté, documentation, téléchargements et plus d’informations.    |
 |![Icône du contenu de développeur](https://docs.microsoft.com/en-us/office/media/icons/developer-blue.svg)|[Plateforme de développement Skype](https://go.microsoft.com/fwlink/?LinkId=619775)   |Trouvez des ressources pour les développeurs pour Skype pour Business Server, y compris des exemples de code, des formations et des kits de développement logiciel.    |
 |![Icône des actualités, blogs, etc.](https://docs.microsoft.com/en-us/office/media/icons/blog-site-blue.svg)|[Kit d’adoption et de gestion des modifications](https://go.microsoft.com/fwlink/p/?LinkId=532796) [Blogs Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) [Blog technique Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) [Blog de l’équipe Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818)            |Tenez-vous informé des équipes qui créent et document Skype pour Business Server.    |

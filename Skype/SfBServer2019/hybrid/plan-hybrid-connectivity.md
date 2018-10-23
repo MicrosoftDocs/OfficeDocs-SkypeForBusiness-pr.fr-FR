@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Considérations pour l’implémentation de connectivité hybride entre Skype pour Business Server et Skype pour Business Online ou équipes de planification.
-ms.openlocfilehash: 90ea0b5ee73cba718c81e5614b02b5332e223acf
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 34df2639ed57376549b2a8bde2e4b0e071d08957
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "25030678"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696232"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planification de la connectivité hybride entre Skype pour Business Server et Office 365
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -61,7 +59,7 @@ Active Directory fait autorité, procédez donc comme indiqué ci-après pour p
 
 - Si vous souhaitent que vos utilisateurs à tirer parti des fonctionnalités en ligne supplémentaires, tels que Skype diffusion de réunion ou de la messagerie vocale dans le nuage, vous devez affecter la licence appropriée dans Office 365.
 
-- Une fois la licence Skype Entreprise Online affectée aux utilisateurs, vous devez les activer pour Skype Entreprise ou pour Voix Entreprise sur site. Pour plus d’informations, voir [Activer les utilisateurs pour Enterprise Voice sur site](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). Pour plus d’informations sur la configuration requise de voix hybride, voir [Planifier le système téléphonique dans Office 365 avec une connectivité PSTN dans Skype pour Business Server local](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
+- Une fois la licence Skype Entreprise Online affectée aux utilisateurs, vous devez les activer pour Skype Entreprise ou pour Voix Entreprise sur site. Pour plus d’informations, voir [Activer les utilisateurs pour Enterprise Voice sur site](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). Pour plus d'informations sur les conditions requises pour la solution vocale hybride, reportez-vous à l'article [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 
 ## <a name="infrastructure-requirements"></a>Conditions requises pour l'infrastructure
@@ -76,11 +74,11 @@ Pour implémenter la connectivité hybride entre votre environnement local et le
     > [!NOTE]
     > Vous ne pouvez utiliser qu'un seul client pour une configuration hybride avec votre déploiement local.
 
-- Skype pour les outils d’administration Business Server. (Si vous utilisez Lync Server 2013 ou Lync Server 2010, vous pouvez utiliser les outils d’administration Lync Server 2013. Pour plus d’informations, voir [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
+- Skype pour les outils d’administration Business Server. (Si vous utilisez Lync Server 2013 ou Lync Server 2010, vous pouvez utiliser les outils d’administration Lync Server 2013. Pour plus d'informations, reportez-vous à l'article [Lync Server 2013 hybride](https://go.microsoft.com/fwlink/p/?LinkId=617360).
 
 - Azure Active Directory Connect pour synchroniser votre répertoire sur site avec Office 365. Pour plus d’informations, voir [Azure AD Connect : comptes et autorisations](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
-    Pour prendre en charge l'authentification unique Office 365 afin que les utilisateurs puissent utiliser les mêmes informations d'identification de connexion sur site, vous pouvez utiliser les fonctionnalités de synchronisation des mots de passe Azure Active Directory (AAD) Connect. Vous pouvez également utiliser AD FS (Active Directory Federation Services) avec l’authentification unique pour Office 365.
+    Pour prendre en charge l'authentification unique Office 365 afin que les utilisateurs puissent utiliser les mêmes informations d'identification de connexion sur site, vous pouvez utiliser les fonctionnalités de synchronisation des mots de passe Azure Active Directory (AAD) Connect. Vous pouvez également utiliser AD FS (Active Directory Federation Services) avec l’authentification unique pour Office 365. 
 
 Pour configurer la connectivité hybride, vous devez également configurer la fédération entre votre organisation locale et environnements en ligne et de configurer votre Skype pour Business Online client pour un espace d’adressage partagé protocole SIP (Session Initiation). Pour plus d’informations sur les étapes nécessaires pour configurer la connectivité hybride, voir [connectivité de configuration hybride](configure-hybrid-connectivity.md).
 
@@ -112,9 +110,9 @@ Les administrateurs ont désormais la possibilité d’utiliser Windows PowerShe
 
 Des différences existent dans les fonctionnalités prises en charge dans les clients, ainsi que dans les fonctionnalités disponibles dans des environnements locaux et en ligne. Les clients suivants sont pris en charge avec Skype pour Business Online dans un déploiement hybride :
 
-- Skype Entreprise
+- Skype Entreprise
 
-- Lync 2013
+- Lync 2013
 
 - Lync 2010
 
@@ -122,7 +120,7 @@ Des différences existent dans les fonctionnalités prises en charge dans les cl
 
 - Lync Web App
 
-- Lync Mobile
+- Lync Mobile
 
 - Lync pour Mac 2011
 
@@ -182,7 +180,7 @@ Pour configurer votre déploiement hybride avec Skype pour Business Online, vous
 ## <a name="federation-allowedblocked-lists-requirements"></a>Configuration requise pour les listes de fédération autorisées/bloquées
 <a name="BKMK_Federation"> </a>
 
-La liste des domaines autorisés comprend les domaines pour lesquels un nom de domaine complet Edge partenaire est configuré (parfois appelé serveur partenaire autorisé ou partenaire de fédération direct). Vous devez connaitre la différence entre la fédération ouverte et la fédération fermée, appelée découverte de partenaire et liste de domaines partenaires autorisés, dans les déploiements locaux.
+La liste des domaines autorisés inclut les domaines qui ont un nom de domaine complet de serveur Edge partenaire (FQDN) configuré. Ceux-ci sont parfois appelés serveurs partenaire autorisé ou diriger les partenaires de la fédération. Vous devez connaître la différence entre la fédération ouverte et fermée la fédération, appelé découverte des partenaires et liste de domaine partenaire autorisé, respectivement, dans les déploiements sur site.
 
 La configuration ci-dessous est requise pour configurer un déploiement hybride :
 
@@ -215,7 +213,7 @@ Les ordinateurs du réseau doivent être en mesure d'effectuer des recherches DN
 
 Selon l’emplacement de votre centre de données Microsoft Online Services, vous devez également configurer vos périphériques de pare-feu réseau pour accepter les connexions basées sur des noms de domaine générique (par exemple, tout le trafic \*. outlook.com). Si le pare-feu de votre organisation ne prennent pas en charge les génériques des configurations de nom, vous devez déterminer manuellement les plages d’adresses IP que vous souhaitez autoriser et les ports spécifiés.
 
-Pour plus d’informations, voir [Office 365 URL et plages d’adresses IP](https://go.microsoft.com/fwlink/p/?LinkId=252942).
+Pour plus d'informations, reportez-vous à la rubrique [URL et plages d'adresses IP Office 365](https://go.microsoft.com/fwlink/p/?LinkId=252942).
 
 ## <a name="port-and-protocol-requirements"></a>Configuration requise pour les ports et les protocoles
 <a name="BKMK_Ports"> </a>
@@ -232,7 +230,7 @@ En plus de la configuration requise pour les ports pour les communications inter
 |STUN  <br/> |UDP  <br/> |Edge A/V  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Ouvrir pour les sessions audio, vidéo  <br/> |
 |STUN  <br/> |UDP  <br/> |Office 365  <br/> |Edge A/V  <br/> |3478  <br/> |3478  <br/> |Ouvrir pour les sessions audio, vidéo  <br/> |
 
-Pour plus d’informations sur le port et de planification pour le serveur Edge de pare-feu, consultez [exigences de serveur de transport Edge dans Skype pour Business Server](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). Voir aussi [ports et protocoles requis pour les serveurs](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md) et le [diagramme de protocole des charges de travail](https://go.microsoft.com/fwlink/p/?LinkId=550989).
+Pour plus d’informations sur le port et de planification pour le serveur Edge de pare-feu, consultez [exigences de serveur de transport Edge dans Skype pour Business Server](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). Reportez-vous également à l'article [Port and protocol requirements for servers](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md) et au [Digramme des charges de travail de protocole](https://go.microsoft.com/fwlink/p/?LinkId=550989).
 
 ## <a name="user-accounts-and-data"></a>Comptes et données utilisateur
 <a name="BKMK_UserAccounts"> </a>
@@ -259,4 +257,4 @@ Vous devez également tenir compte les problèmes suivants relatifs à l’utili
 
 - **Prise en charge du client** Certains utilisateurs peuvent nécessiter une nouvelle version de client lorsqu’ils sont déplacés vers Skype pour Business Online. Pour Office Communications Server 2007 R2, les utilisateurs doivent être déplacés vers un Skype pour Business Server ou Microsoft Lync Server 2013 pool avant la migration vers Skype pour Business Online.
 
-- **Configuration (non utilisateur) et les stratégies local** En ligne et locales stratégies nécessitent une configuration distincte. Vous ne pouvez pas définir des stratégies globales qui s’appliquent au deux.
+- **Configuration (non utilisateur) et les stratégies local** En ligne et locales stratégies nécessitent une configuration distincte. Vous ne pouvez pas définir des stratégies globales qui s'appliquent au deux.
