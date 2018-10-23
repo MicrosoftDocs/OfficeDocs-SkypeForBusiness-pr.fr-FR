@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3abecace4a15a85e4a0f8b895b44cd799b3c794f
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358892"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699309"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 =================================================
@@ -41,9 +41,11 @@ Une équipe est destinée à réunir un groupe de personnes qui travaillent en �
 <a name="membership-roles-and-settings"></a>L’appartenance, les rôles et les paramètres
 ------------------------------
 
-**Appartenance aux équipes** Lorsque Microsoft Teams est activé pour l’ensemble de votre organisation, des propriétaires d’équipe désignés peuvent inviter n’importe quel employé avec lequel ils travaillent à rejoindre leur équipe. Microsoft Teams permet aux propriétaires d’équipe d’ajouter facilement des personnes de l’organisation selon leur nom. En fonction des paramètres de votre organisation, des invités qui sont membres d’une équipe mais externes à votre organisation peuvent également être ajoutés à vos équipes. Reportez-vous à la rubrique [Accès invité dans Microsoft Teams](guest-access.md) pour plus d’informations. Les propriétaires d’équipe peuvent également créer une équipe basée sur un groupe Office 365 existant. Toutes les modifications apportées au groupe seront synchronisées automatiquement avec Microsoft Teams. Créer une équipe basée sur un groupe Office 365 existant simplifie non seulement le processus d’invitation et de gestion des membres, mais synchronise également les fichiers du groupe au sein de Microsoft Teams.
+**Appartenance aux équipes** Lorsque Microsoft Teams est activé pour l’ensemble de votre organisation, des propriétaires d’équipe désignés peuvent inviter n’importe quel employé avec lequel ils travaillent à rejoindre leur équipe. Microsoft Teams permet aux propriétaires d’équipe d’ajouter facilement des personnes de l’organisation selon leur nom. En fonction des paramètres de votre organisation, des invités qui sont membres d’une équipe mais externes à votre organisation peuvent également être ajoutés à vos équipes. Reportez-vous à la rubrique [Accès invité dans Microsoft Teams](guest-access.md) pour plus d’informations. 
 
-**Rôles d’équipe** Il existe deux rôles principaux dans Microsoft Teams : un propriétaire d’équipe, - la personne qui crée l’équipe - et les membres de l’équipe, les personnes invitées à rejoindre l’équipe. Les propriétaires d’équipe peuvent définir n’importe quel membre de leur équipe comme copropriétaire lorsqu'ils 'l’invitent à rejoindre l'équipe ou à n’importe quel moment une fois qu'il a rejoint l’équipe. Avoir plusieurs propriétaires d’équipe vous permet de partager les responsabilités de gestion des paramètres et d’appartenance, y compris les invitations.   
+Les propriétaires d’équipe peuvent également créer une équipe basée sur un groupe Office 365 existant. Toutes les modifications apportées au groupe seront synchronisées automatiquement avec Microsoft Teams. Créer une équipe basée sur un groupe Office 365 existant simplifie non seulement le processus d’invitation et de gestion des membres, mais synchronise également les fichiers du groupe au sein de Microsoft Teams.
+
+**Rôles d’équipe** Il existe deux rôles principaux dans Microsoft Teams : un propriétaire d’équipe, - la personne qui crée l’équipe - et les membres de l’équipe, les personnes invitées à rejoindre l’équipe. Les propriétaires d’équipe peuvent définir n’importe quel membre de leur équipe comme copropriétaire lorsqu'ils 'l’invitent à rejoindre l'équipe ou à n’importe quel moment une fois qu'il a rejoint l’équipe. Avoir plusieurs propriétaires d’équipe vous permet de partager les responsabilités de gestion des paramètres et d’appartenance, y compris les invitations.
 
 **Paramètres de l’équipe** Les propriétaires d’équipe peuvent gérer les paramètres à l’échelle de l’équipe directement dans Microsoft Teams. Les paramètres incluent la possibilité d’ajouter une image de l’équipe, de définir les autorisations entre les membres pour créer des canaux, ajouter des onglets et connecteurs, @mentionner toute l’équipe ou le canal et l’utilisation de fichiers GIF, autocollants et mèmes. 
 

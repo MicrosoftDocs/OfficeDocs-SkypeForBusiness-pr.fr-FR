@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Consultez cette rubrique pour découvrir comment procéder pour vérifier si vous disposez d’une licence en volume de Skype Entreprise.
-ms.openlocfilehash: ba582174483eb511387ae085aba97d02631665fc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e4ba03dacdce0056cb130299f551921042a6790d
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965421"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699258"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype Room System : licence du logiciel Skype Entreprise
  
@@ -30,7 +31,7 @@ Si KMS est en place et distribuera Skype des activations de licence en Volume Bu
   
 Pour plus d’informations, voir [comment identifier les hôtes Office et Windows KMS via le DNS et supprimer des instances non autorisés](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx). 
   
-Pour configurer un KMS, voir [l’activation KMS d’Office 2013](https://technet.microsoft.com/library/ee624357.aspx) et [Gvlk pour l’activation KMS et Active Directory d’Office 2013](https://technet.microsoft.com/library/dn385360.aspx)
+Pour configurer un KMS, voir [activation KMS d’Office 2013](https://technet.microsoft.com/library/ee624357.aspx) et [Clés de licence en volume générique (GVLK) pour KMS et activation Active Directory d’Office 2013](https://technet.microsoft.com/library/dn385360.aspx)
   
 Clé de licence en Volume Office 2013 générique pour Lync : 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (cette clé, le système de salle Skype rechercher un KMS sur le réseau.)
   
@@ -40,7 +41,7 @@ Si le client utilise un autre logiciel avec une licence en volume, le service in
   
 Un client disposant d’un VLA doit connaître ses informations d’identification VLSC, qui seront utilisées pour administrer le contrat et obtenir une MAK. Si l’incertitude, finances du client doit être en mesure de confirmer si le client a payé une VLA.
   
-Pour obtenir une MAK, accédez au Centre de service de licences en volume pour afficher les contrats et télécharger des clés de produit (MAK). Pour plus d’informations, accédez au [Centre de gestion des licences en Volume](https://www.microsoft.com/Licensing/servicecenter/default.aspx). 
+Pour obtenir une MAK, accédez au Centre de service de licences en volume pour afficher les contrats et télécharger des clés de produit (MAK). Pour plus d’informations, reportez-vous au [Centre de service de licences en volume](https://www.microsoft.com/Licensing/servicecenter/default.aspx). 
   
 ## <a name="mak-for-office-365-without-vlsc-access"></a>MAK pour Office 365 sans accès au VLSC
 

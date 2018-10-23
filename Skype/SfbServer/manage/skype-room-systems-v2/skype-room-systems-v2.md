@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Vue d’ensemble de la gestion de systèmes de salle Skype v2.
-ms.openlocfilehash: d79c04c69e320f404c8ce245120e9b01bd8de1ca
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: b30406c9f186fad699056a78ed1b18da9f59537a
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965655"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699351"
 ---
 # <a name="management-overview"></a>Vue d’ensemble de la gestion 
 
@@ -41,9 +41,9 @@ Plus d’informations sur l’état de l’application v2 de Skype salle systèm
 |:-----|:-----|
 |HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |V2 de systèmes de salle Skype permet de démarrer  <br/> |
 |Gestion - de l’alimentation\> sur CA, désactiver écran au bout de 10 minutes  <br/> Gestion - de l’alimentation\> sur CA, placez jamais système en mode veille  <br/> |Permet de systèmes de salle Skype v2 activer affiche attaché et réactiver automatiquement  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.   <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
+|net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.  <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
    
-Transfert de fichiers à l’aide de stratégies de groupe est traitée dans [un élément de fichier de configuration](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
+La procédure de transfert de fichiers en utilisant des stratégies de groupe est traitée dans la section [Configurer un élément de fichier](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
 ## <a name="remote-management-using-powershell"></a>Gestion distante à l’aide de PowerShell
 <a name="RemotePS"> </a>
@@ -70,17 +70,23 @@ Nous vous recommandons de consulter et suivre le [Guide Quality of Experience pa
 
 Il est recommandé que vous mettez à jour Skype salle systèmes v2 OS Skype salle systèmes v2 à l’application et tirent parti des améliorations et des mises à jour de produit. Pour obtenir des instructions détaillées, voir [Gérer les systèmes de salle Skype v2](room-systems-v2-operations.md#software-updates). 
 
-## <a name="troubleshooting"></a>Identification et résolution des problèmes
+## <a name="windows-updates"></a>Mises à jour Windows
+
+Système de salle Skype v2 (SRS v2) s’exécute sur Windows 10 entreprise IoT ou entreprise de 10 Windows (VL) et reçoit les même versions mises à jour Windows et du système d’exploitation de bureau standard. Pour plus d’informations, voir [Gérer les mises à jour de Windows](updates.md) .
+
+
+## <a name="troubleshooting"></a>Résolution des problèmes
 
 Nous vous recommandons de configurer Suite de gestion des opérations d’alerte comme décrit dans la section ci-dessus afin que votre équipe chargée des opérations et le support technique seront informés de tous les systèmes de salle Skype v2 problèmes. Les options dont vous disposez pour la gestion à distance PowerShell sont décrits dans la [gestion à distance à l’aide de PowerShell](room-systems-v2-operations.md#remote-management-using-powershell). Dans le cas où un périphérique est déconnecté, vous devrez peut-être s’appuient sur locales mains « actives » ou la prise en charge de l’informatique d’analyser et reconnectez les périphériques. 
 
 Pour plus d’informations sur le mode de résolution des problèmes et d’administration, voir [Gérer les systèmes de salle Skype v2](room-systems-v2-operations.md#admin-mode-and-device-management). 
 
+
 ## <a name="see-also"></a>Voir aussi
 
 [Systèmes de salle Skype version 2](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Planification de Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
 [Déploiement de Skype Room System v2](../../deploy/deploy-clients/room-systems-v2.md)
 

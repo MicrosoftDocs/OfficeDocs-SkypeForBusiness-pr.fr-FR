@@ -4,18 +4,19 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 dans un environnement hybride avec Exchange sur site.
-ms.openlocfilehash: 930cc8916459562af89c15aefb60a2bf2c33c7e4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 49e0b85cc38de91ed269ca103ef995507a6d1e37
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965449"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699359"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Déploiement de Skype Room Systems v2 avec Exchange sur site
  
@@ -27,7 +28,7 @@ Microsoft propose [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwl
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Déploiement de Skype Room Systems v2 avec Exchange sur site
 
-Avant de déployer des systèmes de salle Skype v2 avec Exchange sur site, assurez-vous que vous remplissez les conditions. Pour plus d’informations, voir [v2 Skype salle requise](../../plan-your-deployment/clients-and-devices/requirements.md).
+Avant de déployer des systèmes de salle Skype v2 avec Exchange sur site, assurez-vous que vous remplissez les conditions. Pour plus d’informations, reportez-vous à la rubrique [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
 Si vous déployez des systèmes de salle Skype v2 avec Exchange sur site, vous utiliserez les outils d’administration Active Directory pour ajouter une adresse de messagerie pour votre compte de domaine local. Ce compte sera synchronisé avec Office 365. Vous devrez réaliser les opérations suivantes :
   
@@ -150,7 +151,7 @@ Pour la validation, vous devez être en mesure d’utiliser n’importe quel Sky
 
 [Configurer des comptes pour les systèmes de salle Skype v2](room-systems-v2-configure-accounts.md)
 
-[Planification de Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Déploiement de Skype Room System v2](room-systems-v2.md)
   

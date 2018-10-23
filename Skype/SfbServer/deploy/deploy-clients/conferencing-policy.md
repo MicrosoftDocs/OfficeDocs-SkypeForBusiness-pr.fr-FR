@@ -3,18 +3,19 @@ title: Stratégie de conférence pour les comptes Skype Room System
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: davgroom
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Consultez cette rubrique pour découvrir comment attribuer des stratégies de conférence pour Skype Room System.
-ms.openlocfilehash: a9eb05c8e29a3db216bc74e5e016c2c6a8413a33
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a56bf9f6b8ba70a4f9ec1f28e84dfa67b1e71aa9
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973422"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699572"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Stratégie de conférence pour les comptes Skype Room System
  
@@ -53,10 +54,10 @@ La stratégie de conférence affectée au compte Skype salle système doit avoir
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |Ignoré par Skype pour Business Server, le système de salle de Skype utilise HD1080  <br/> |
 |MaxMeetingSize  <br/> |250  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |Voir la Remarque à la fin de la table\*  <br/> |
-|VideoBitRateKb  <br/> |5000  <br/> |Il s’agit de la vitesse maximale de transmission vidéo sortante autorisée. Système de salle Skype peut envoyer un flux 1080 ainsi que l’utilisation (si RoundTable est utilisé) à cette vitesse de transmission. \*  <br/> |
+|VideoBitRateKB  <br/> |5000  <br/> |Il s’agit de la vitesse maximale de transmission vidéo sortante autorisée. Système de salle Skype peut envoyer un flux 1080 ainsi que l’utilisation (si RoundTable est utilisé) à cette vitesse de transmission. \*  <br/> |
 |AppSharingBitRateKb  <br/> |5000  <br/> |Voir la Remarque à la fin de la table\*  <br/> |
 |FileTransferBitRateKb  <br/> |5000  <br/> |N/A  <br/> |
-|TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |Nous vous conseillons de régler ce paramètre à un niveau aussi élevé que possible. Conditions de réseau dépend de la bande passante effective au moment de la conférence.\*  <br/> |
+|TotalReceiveVideoBitRateKB  <br/> |20000  <br/> |Nous vous conseillons de régler ce paramètre à un niveau aussi élevé que possible. Conditions de réseau dépend de la bande passante effective au moment de la conférence.\*  <br/> |
 |EnableMultiViewJoin  <br/> |TRUE  <br/> |Doit avoir la valeur TRUE pour système de salle Skype garantir le flux vidéo multivue  <br/> |
    
 * Pour plus d’informations sur la planification de la bande passante, voir les [besoins en bande passante pour le trafic multimédia](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic).

@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de systèmes de salle Skype v2.
-ms.openlocfilehash: 2aac9e0701372fd6f0fdfd9035dca21fbaef1c9f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dac4929338ded6fdb3b7af1dadfb3b1ce5675b97
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890956"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699629"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -118,7 +119,7 @@ Planification de la configuration et de déploiement couvre les domaines clés s
 -   Installation des logiciels de périphérique
 -   Déploiement des périphériques
 -   Application de systèmes de salle Skype v2 et configuration du périphérique
--   Test
+-    Tests
 -   Gestion des biens
 
 ### <a name="account-provisioning"></a>Mise en service de compte 
@@ -193,7 +194,7 @@ Vous pouvez utiliser [PowerShell à distance](../../manage/skype-room-systems-v2
 | ![](../../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décider si vous allez manuellement configurer chaque système v2 de systèmes de salle Skype ou utiliser un fichier XML central (une par appareil v2 de systèmes de salle Skype).</li></ul>| 
 | ![](../../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Définir votre approche de gestion à distance.</li></ul>| 
 
-### <a name="testing"></a>Test
+### <a name="testing"></a> Tests
 
 Une fois que le système v2 Skype salle systèmes a été déployé, vous devez le tester. Vérifiez que les fonctionnalités répertoriées dans [l’aide de systèmes de salle Skype v2](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) fonctionnent sur l’appareil déployé. Il est vivement recommandé que l’équipe de déploiement vérifie que les systèmes de salle Skype v2 se connecte à la Suite de gestion des opérations Microsoft (le cas échéant). Il est également important d’effectuer un nombre de réunions et appels de test pour vérifier la qualité. Pour plus d’informations, voir cette [liste de vérification du déploiement utiles](console.md#skype-room-systems-v2-deployment-checklist). 
 

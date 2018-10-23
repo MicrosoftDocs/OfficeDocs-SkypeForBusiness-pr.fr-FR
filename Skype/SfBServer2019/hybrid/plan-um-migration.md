@@ -7,16 +7,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skypeforbusiness-server-itpro
 description: Cette rubrique décrit ce que vous devez prendre en compte lorsque vous décidez de migrer votre Skype pour les déploiements Business Server ou Exchange Server existante vers la dernière version ou Skype pour Business Online ou Exchange Online.
-ms.openlocfilehash: 3678b7531d60324bd557acdd762f428b048d99fc
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 64d489a944e7b56315e4b600893b46f5c1cc3355
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696218"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699287"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planifier Skype pour la migration Business Server et Exchange Server
 
-Cette rubrique décrit ce que vous devez prendre en compte lorsque vous décidez de migrer votre Skype pour les déploiements Business Server ou Exchange Server existante vers la dernière version ou Skype pour Business Online ou Exchange Online. Vous pouvez migrer et quand, fortement dépend de ce que vous avez déjà a été configuré dans votre organisation. Aperçu, nous allons vous concentrer sur quelques scénarios spécifiques, avec d’autres scénarios devienne disponible à disponibilité générale de prise en charge.
+Cette rubrique décrit ce que vous devez prendre en compte lorsque vous décidez de migrer votre Skype pour les déploiements Business Server ou Exchange Server existante vers la dernière version ou Skype pour Business Online ou Exchange Online. Vous pouvez migrer et quand, fortement dépend de ce que vous avez déjà a été configuré dans votre organisation. Certaines fonctionnalités, telles que le standard automatique d’organisation ne sont pas disponibles au niveau de disponibilité général (GA) mais seront bientôt plus loin dans 2018.
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Modifications de fonctionnalités dans Exchange 2019 et Skype pour Business Server 2019
 
@@ -29,7 +29,7 @@ La messagerie unifiée (MU) est déconseillée dans Exchange 2019. Cela signifie
 - Messagerie vocale
 - Standard automatique
 
-Si vous avez déployé le rôle de messagerie unifiée dans Exchange 2013 ou le service de messagerie unifiée dans Exchange 2016, et que vous souhaitez mettre à niveau vers Exchange 2019, vous devez migrer votre messagerie vocale dans le service de messagerie vocale de Microsoft dans le Cloud dans Office 365. Si vous souhaitez migrer votre messagerie vocale vers la messagerie vocale dans le nuage, jetez un œil à la section [Exchange 2013/Exchange 2016 et Skype pour Business 2015 2019 Exchange et Skype pour Business 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) ci-dessous.
+Si vous avez déployé le rôle de messagerie unifiée dans Exchange 2013 ou le service de messagerie unifiée dans Exchange 2016 et que vous souhaitez mettre à niveau vers Exchange 2019, vous devez migrer votre messagerie vocale dans le service de messagerie vocale de Microsoft dans le Cloud dans Office 365. Si vous souhaitez migrer votre messagerie vocale vers la messagerie vocale dans le nuage, jetez un œil à la section [Exchange 2013/Exchange 2016 et Skype pour Business 2015 2019 Exchange et Skype pour Business 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) ci-dessous.
 > [!IMPORTANT]
 > Si les utilisateurs sur vos serveurs Exchange 2013 ou 2016 Exchange ont des boîtes aux lettres à extension messagerie unifiée, ne pas les déplacer vers Exchange 2019 avant de mettre à niveau votre Skype des serveurs d’entreprise à Skype pour Business Server 2019 et déplacer des utilisateurs vers leur afin d’éviter une panne de messagerie de voix.
 
@@ -41,12 +41,12 @@ Autocommutateurs privés (PBX) de la fonctionnalité de messagerie vocale ne fou
 
 Avec Skype pour Business Server 2019, nous allons déplacement de la messagerie unifiée Exchange Online vers la messagerie vocale dans le nuage. Lorsqu’un utilisateur est déplacé vers un Skype pour 2019 Business server, ils peuvent commencer automatiquement à l’aide de la messagerie vocale dans le nuage lorsque configuré pour la messagerie vocale hébergée. Si vous utilisez actuellement le service de messagerie unifiée Exchange Online, vous n’avez pas besoin de faire tout ce qu’autres que de déplacer un utilisateur de Skype pour Business Server 2019 à utiliser la messagerie vocale dans le nuage. Toutefois, il existe certaines modifications apportées à la fonctionnalité, que vous devez connaître :
 
-- Pour l’aperçu, d’organisation surveillance automatique (remplacement de standard automatique de messagerie unifiée Exchange Online) n’est pas disponible. Standard automatique d’organisation sera disponible à GA.
+- Organisation surveillance automatique (remplacement de standard automatique de messagerie unifiée Exchange Online) n’est pas disponible à l’adresse GA mais sera disponible plus tard 2018.
 - Les paramètres utilisateur de la messagerie vocale dans Outlook sur le Web ne s’appliquent à la messagerie vocale dans le nuage.
 
 ## <a name="on-premises-um-migration-scenarios"></a>Scénarios de migration de messagerie unifiée sur site
 
-Aperçu, nous sommes en charge les scénarios suivants qui vous permet de migrer des utilisateurs à 2019 Exchange et à la messagerie vocale dans le nuage. MISE à disposition nous allons prennent en charge des scénarios supplémentaires qui vous permettront de migration à partir d’autres versions d’Exchange et Skype pour Business server. Nous allons également fournissent des fonctionnalités supplémentaires telles que d’organisation standard automatique.
+Il prend en charge les scénarios suivants qui vous permet de migrer des utilisateurs à 2019 Exchange et à la messagerie vocale dans le nuage. Plus loin dans 2018, nous allons prennent en charge des scénarios supplémentaires permettant de migrer à partir d’autres versions d’Exchange et Skype pour Business server. Nous allons également fournissent des fonctionnalités supplémentaires telles que d’organisation standard automatique.
 
 - Exchange 2013/Exchange 2016 et Skype pour Business Server 2015 à Exchange 2019 et Skype pour Business Server 2019
 - Skype pour Business Server 2015 Skype pour Business Server 2019 avec Exchange 2013/Exchange 2016
@@ -63,12 +63,12 @@ L’ordre dans lequel vous déplacez les utilisateurs vers Exchange 2019 et Skyp
 
 | Boîte aux lettres située sur :            | Utilisateur situé sur Skype pour Business Server 2015 | Utilisateur situé sur Skype pour Business Server 2019  |
 |--------------------------------|-----------------------------------------|------------------------------------------|
-| Exchange 2013/Exchange 2016    | messagerie unifiée Exchange                             | Messagerie vocale dans le nuage                          |
+| Exchange 2013/Exchange 2016    | messagerie unifiée Exchange                             | messagerie unifiée Exchange                              |
 | 2019 Exchange                  | Non pris en charge                           | Messagerie vocale dans le nuage                          |
 
 Avant de commencer votre migration vers Skype pour Business Server 2019 et Exchange 2019, gardez les points suivants à l’esprit :
 
-- Messagerie vocale dans le nuage ne prend pas en charge d’organisation standard automatique aperçu. Si vous souhaitez que les boîtes aux lettres déplacées vers la messagerie vocale dans le nuage pour continuer à être disponibles par le biais de standard automatique, vous devez conserver au moins un serveur Exchange 2013 ou 2016 Exchange exécutant le rôle de messagerie unifiée ou le service disponible.
+- Messagerie vocale dans le nuage ne prend pas en charge d’organisation standard automatique à GA. Si vous souhaitez que les boîtes aux lettres déplacées vers la messagerie vocale dans le nuage pour continuer à être disponibles par le biais de standard automatique, vous devez conserver au moins un serveur Exchange 2013 ou 2016 Exchange exécutant le rôle de messagerie unifiée ou le service disponible.
 - Vous devez configurer au moins un Skype pour 2019 Business server **et** déplacer les utilisateurs vers ce serveur avant de déplacer leurs boîtes aux lettres vers Exchange 2019. Impossibilité de faire entraînera ces boîtes aux lettres en cours ne peut pas recevoir de messages de messagerie vocale.
 - Appels envoyés vers la messagerie vocale seront transférés vers la messagerie vocale dans le nuage où ils seront enregistrées. Une fois l’appel terminé, le message vocal sera envoyé à la boîte aux lettres sur le serveur de 2019 Exchange sur site. Vous devez tenir compte de ce trafic voix pour déterminer si votre connexion Internet est suffisante pour prendre en charge de la messagerie vocale dans le nuage.
 
@@ -99,7 +99,7 @@ Quel que soit ou non la messagerie unifiée Exchange ou messagerie vocale dans l
 
 Avant de commencer votre migration vers Skype pour Business Server 2019, gardez les points suivants à l’esprit :
 
-- Messagerie vocale dans le nuage ne prend pas en charge d’organisation standard automatique aperçu. Si vous souhaitez que les boîtes aux lettres déplacées vers la messagerie vocale dans le nuage pour continuer à être disponibles par le biais de standard automatique, vous devez conserver au moins un serveur Exchange 2013 ou 2016 Exchange exécutant le rôle de messagerie unifiée ou le service disponible.
+- Messagerie vocale dans le nuage ne prend pas en charge d’organisation standard automatique à GA. Si vous souhaitez que les boîtes aux lettres déplacées vers la messagerie vocale dans le nuage pour continuer à être disponibles par le biais de standard automatique, vous devez conserver au moins un serveur Exchange 2013 ou 2016 Exchange exécutant le rôle de messagerie unifiée ou le service disponible.
 - Appels envoyés vers la messagerie vocale seront transférés vers la messagerie vocale dans le nuage où ils seront enregistrées. Une fois l’appel terminé, le message de la messagerie vocale sera envoyé à la boîte aux lettres sur le serveur Exchange local. Vous devez tenir compte de ce trafic voix pour déterminer si votre connexion Internet est suffisante pour prendre en charge de la messagerie vocale dans le nuage.
 
 Voici les principales étapes à suivre pour effectuer cette migration.

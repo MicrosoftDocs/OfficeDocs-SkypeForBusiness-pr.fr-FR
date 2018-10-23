@@ -4,24 +4,25 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: Consultez cette rubrique pour apprendre à déployer Skype Room System dans un environnement local à plusieurs forêts.
-ms.openlocfilehash: 35a6d5401b2e554cbfaa1e97c42e9a88bc3558ed
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 507040a1d8274817e7a4a0780135ee8f6642c77c
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966058"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699650"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Déploiements locaux de plusieurs forêts Skype Room System
  
 Consultez cette rubrique pour apprendre à déployer Skype Room System dans un environnement local à plusieurs forêts.
   
 > [!NOTE]
-> Pour pouvoir déployer dans plusieurs forêts, Skype salle système requiert Exchange Server 2013 CU6 publié le 26 août 2014. Évitez de réutilisation d’une boîte aux lettres existant pour le système de salle Skype. Utiliser une nouvelle (ancienne boîte aux lettres de supprimer et recréer) boîte aux lettres de ressources de système de salle Skype. Pour restaurer les réunions perdues en supprimant la boîte aux lettres, voir [Connect ou restaurer une boîte aux lettres supprimée](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx). 
+> Pour pouvoir déployer dans plusieurs forêts, Skype salle système requiert Exchange Server 2013 CU6 publié le 26 août 2014. Évitez de réutilisation d’une boîte aux lettres existant pour le système de salle Skype. Utiliser une nouvelle (ancienne boîte aux lettres de supprimer et recréer) boîte aux lettres de ressources de système de salle Skype. Pour restaurer les réunions perdues en supprimant la boîte aux lettres, reportez-vous à la rubrique [Se connecter ou restaurer une boîte aux lettres supprimée](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx). 
   
 Après la création de la boîte aux lettres, vous pouvez utiliser Set-CalendarProcessing pour configurer la boîte aux lettres. Reportez-vous aux étapes 3 à 6 sous Déploiements locaux dans une forêt unique pour plus d’informations. Après avoir créé une boîte aux lettres de ressources Exchange Skype salle système, activez le compte pour Skype pour les entreprises en suivant les étapes de l’activation de comptes de système salle Skype pour Skype pour les entreprises dans les déploiements sur site de forêt unique.
   

@@ -4,17 +4,18 @@ ms.author: chucked
 author: chuckedmonson
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Résumé : Vue d’ensemble des méthodes d’installation de client entreprise pour Skype pour les entreprises.'
-ms.openlocfilehash: 31eb109f80379487ba50342817759f8d9b30acda
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7b58b712f5b6dec7383bcb8a58e1b17b0ed4d870
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985686"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699280"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Déploiement de clients pour Skype pour Business Server
  
@@ -38,15 +39,15 @@ Les rubriques de cette section décrivent comment utiliser et personnaliser le p
 
 - [Personnaliser l’installation du client Windows dans Skype pour Business Server](customize-windows-client-installation.md)
     
-- [Configuration de l’expérience client avec Skype Entreprise](configure-the-client-experience.md)
+- [Configure the client experience with Skype for Business](configure-the-client-experience.md)
     
 - [Configuration de la liste de contacts dynamiques dans Skype Entreprise Server](configure-smart-contacts-list.md)
     
 ## <a name="installing-device-clients"></a>Installation de périphériques clients
 
-- [Skype Entreprise Server 2015 : installation et test de Skype Entreprise pour Windows Phone](windows-phone.md)
+- [Install and test Skype for Business for Windows Phone](windows-phone.md)
     
-- [Installation et test de Skype Entreprise pour iOS](ios.md)
+- [Install and test Skype for Business for iOS](ios.md)
     
 - [Déploiement de Skype Room System dans Skype Entreprise Server](deploy-skype-room-system.md)
     

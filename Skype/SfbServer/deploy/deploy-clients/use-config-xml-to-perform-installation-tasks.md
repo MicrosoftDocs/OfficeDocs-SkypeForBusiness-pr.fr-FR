@@ -4,17 +4,18 @@ ms.author: chucked
 author: chuckedmonson
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 'Résumé : comment utiliser le fichier Config.xml pour fournir des instructions d’installation supplémentaires.'
-ms.openlocfilehash: a6234424240dc0d7ebb70762598467bfcee997e2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dfb6625146261b1bbf22e0f563717899c68beaae
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371512"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699557"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Utiliser Config.xml pour effectuer des tâches d’installation dans Skype pour les clients d’entreprise
 
@@ -48,7 +49,7 @@ Les éléments de Config.xml plus couramment utilisées pour Skype pour l’inst
 | **Élément**              | **Description**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configuration  <br/>     | Élément de niveau supérieur (obligatoire). Contient l’attribut Product, par exemple : Product=Lync (cela fonctionne pour les clients Skype Entreprise)  <br/>                                                                                                                                                          |
-| Élément OptionState  <br/>       | Spécifie la façon dont des fonctionnalités de produits spécifiques sont gérées lors de l’installation. Pour empêcher l’installation de Business Connectivity Services, qui inclut des composants partagés interféreront avec Outlook, utilisez les attributs suivants : <br/>  ID = « LOBiMain » <br/>  State="Absent" <br/>  Children="Force" <br/> |
+| OptionState  <br/>       | Spécifie la façon dont des fonctionnalités de produits spécifiques sont gérées lors de l’installation. Pour empêcher l’installation de Business Connectivity Services, qui inclut des composants partagés interféreront avec Outlook, utilisez les attributs suivants : <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | Display  <br/>           | Niveau d’interface utilisateur affiché pour l’utilisateur par le programme d’installation. Les attributs type sont les suivants : <br/>  CompletionNotice = « Yes »                                                                                                                                                                                |
 | Journalisation  <br/>           | Options déterminant le type de journalisation mis en œuvre par le programme d’installation. Les attributs types sont les suivants : <br/>  Type = « Off »                                                                                                                                                                                       |
 | Paramètre  <br/>           | Spécifie les valeurs des propriétés de Windows Installer. Les attributs type sont les suivants :<br/>  Setting Id = « *nom*» (le nom de la propriété Windows Installer)  <br/>  Valeur = » *valeur*"(valeur à attribuer à la propriété)  <br/>                                                             |

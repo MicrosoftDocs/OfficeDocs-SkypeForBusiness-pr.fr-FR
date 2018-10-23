@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Exchange Online.
-ms.openlocfilehash: 51a1f4089dfb3453802e8d3241869c3c325c904c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7e9e7dbf0c1ec29444b9ba783acd2e5cd0987440
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883243"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699699"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Déploiement de Skype Room Systems v2 avec Exchange Online 
  
@@ -31,7 +32,7 @@ Pour configurer des comptes d’utilisateurs, la plus simple consiste à configu
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Déploiement de Skype Room Systems v2 avec Exchange Online
 
-Avant de déployer des systèmes de salle Skype v2 avec Exchange Online, assurez-vous que vous remplissez les conditions. Pour plus d’informations, voir [v2 Skype salle requise](../../plan-your-deployment/clients-and-devices/requirements.md).
+Avant de déployer des systèmes de salle Skype v2 avec Exchange Online, assurez-vous que vous remplissez les conditions. Pour plus d’informations, reportez-vous à la rubrique [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
 Pour déployer des systèmes de salle Skype v2 avec Exchange Online, procédez comme suit. Assurez-vous de disposer des autorisations adéquates pour exécuter les applets de commande associées. 
   
@@ -147,7 +148,7 @@ Pour la validation, vous devez être en mesure d’utiliser n’importe quel Sky
 
 [Configurer des comptes pour les systèmes de salle Skype v2](room-systems-v2-configure-accounts.md)
 
-[Planification de Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Déploiement de Skype Room System v2](room-systems-v2.md)
   

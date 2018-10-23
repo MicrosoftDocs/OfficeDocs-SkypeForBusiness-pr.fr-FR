@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Office 365.
-ms.openlocfilehash: 6c59ff1aa7f32998efb5f7693d4e46b417b3fd84
-ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
+ms.openlocfilehash: 7b3afbb0dbefb29a5cef7a9729254c1024c0369f
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25501493"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699615"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Déploiement de Skype Room Systems v2 avec Office 365 
 
@@ -27,7 +28,7 @@ Pour configurer des comptes d’utilisateurs, la plus simple consiste à configu
 
 ## <a name="deploy-skype-room-systems-v2-with-office-365"></a>Déploiement de Skype Room Systems v2 avec Office 365 
 
-Avant de déployer des systèmes de salle Skype v2 avec Office 365, assurez-vous que vous remplissez les conditions. Pour plus d’informations, voir [v2 Skype salle requise](../../plan-your-deployment/clients-and-devices/requirements.md).
+Avant de déployer des systèmes de salle Skype v2 avec Office 365, assurez-vous que vous remplissez les conditions. Pour plus d’informations, reportez-vous à la rubrique [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
 
 Pour activer Skype pour les entreprises, vous devez disposer les éléments suivants :
 
@@ -111,7 +112,7 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```
 
-7. Ensuite, vous devez activer le compte de l’appareil avec Skype pour les entreprises. Assurez-vous que votre environnement répond aux exigences définies dans [v2 Skype salle requise](../../plan-your-deployment/clients-and-devices/requirements.md).
+7. Ensuite, vous devez activer le compte de l’appareil avec Skype pour les entreprises. Assurez-vous que votre environnement est conforme à la configuration définie dans [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
 
    Démarrer une session Windows PowerShell à distance comme suit (veillez à installer Skype pour les composants Business Online PowerShell) :
 
@@ -188,7 +189,7 @@ Pour la validation, vous devez être en mesure d’utiliser n’importe quel Sky
 
 [Configurer des comptes pour les systèmes de salle Skype v2](room-systems-v2-configure-accounts.md)
 
-[Planification de Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
 [Déploiement de Skype Room System v2](room-systems-v2.md)
 

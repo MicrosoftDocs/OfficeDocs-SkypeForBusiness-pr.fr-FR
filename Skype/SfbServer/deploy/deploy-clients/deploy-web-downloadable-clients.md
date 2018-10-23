@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Résumé : Déployez le Skype pour l’application Web de gestion et application de réunions Skype utilisé avec Skype pour les entreprises.'
-ms.openlocfilehash: 5789b239abd5acebca24b2d11b0747e6dd3bf9b5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261034"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699536"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Déployer des clients Web téléchargeables Skype pour Business Server
 
@@ -132,7 +133,7 @@ Cette procédure est facultative et s’applique à Skype pour Business Server 2
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Les informations envoyées à Microsoft sont en stricte conformité avec [Skype pour entreprise de collecte de données](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Informations transmises à Microsoft conformément aux [Pratique de collecte de données de Skype Entreprise](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Définir le délai d’attente avant le passage à la Skype hébergé localement pour l’expérience de l’application Web de gestion CDN n’est pas disponible. La valeur par défaut est de 6 secondes. Si celle-ci est définie sur 0, il n'y a pas de délai.
 
