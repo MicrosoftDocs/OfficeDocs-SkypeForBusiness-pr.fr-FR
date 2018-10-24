@@ -6,16 +6,18 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en temps réel dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ebee93a6a4e238e988e1e4ffcb796252d61eeb1
-ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
+ms.openlocfilehash: 0c0ee1ed41f1d906e43f119e6683f772bde32be3
+ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405255"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25748164"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en temps réel dans Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -67,12 +69,12 @@ Le tableau suivant met en évidence les fonctionnalités principales et les fonc
 |Client producteur sur Windows |& #x 2714 ; (Skype pour les entreprises) |& #x 2714 ; (Équipes) |& #x 2714 ; (Incorporer des équipes via le flux de flux) |
 |Client producteur sur Mac |X  | & #x 2714 ; (Équipes) |& #x 2714 ; (Incorporer des équipes via le flux de flux) |
 |Nombre de participants dans l’interface utilisateur producteur |X  |& #x 2714 ; (Équipes) |& #x 2714 ; (Incorporer des équipes via le flux de flux) |
-|Permet à plusieurs présentateurs |& #x 2714 ; (Skype pour les entreprises) |& #x 2714 ; (Équipes) |N/D  |
-Inviter un présentateur au cours de la réunion |& #x 2714 ; (Skype pour les entreprises) |X |N/D |
-|Jointure présentateur sur le Web et Mobile |& #x 2714 ; (Skype pour les entreprises)  |X |N/D |
-|Présentateur – accès PSTN |X |& #x 2714 ; (Équipes) |N/D |
-|Présenter un écran |X |& #x 2714 ; (Équipes) |N/D |
-|Présenter un fichier PowerPoint (PPT partage) |& #x 2714 ; |X (atténué via le partage d’écran) |N/D |
+|Permet à plusieurs présentateurs |& #x 2714 ; (Skype pour les entreprises) |& #x 2714 ; (Équipes) |N/A  |
+Inviter un présentateur au cours de la réunion |& #x 2714 ; (Skype pour les entreprises) |X |N/A |
+|Jointure présentateur sur le Web et Mobile |& #x 2714 ; (Skype pour les entreprises)  |X |N/A |
+|Présentateur – accès PSTN |X |& #x 2714 ; (Équipes) |N/A |
+|Présenter un écran |X |& #x 2714 ; (Équipes) |N/A |
+|Présenter un fichier PowerPoint (PPT partage) |& #x 2714 ; |X (atténué via le partage d’écran) |N/A |
 |Enregistrement de la réunion en fonction de nuage |& #x 2714 ; |& #x 2714 ; |& #x 2714 ; |
 |Automatique publier un enregistrement dans le flux de Microsoft |X |X |& #x 2714 ; |
 |Traduction et légendes en temps réel |& #x 2714 ; |& #x 2714 ; (bientôt disponible) |X |
@@ -103,3 +105,9 @@ Vous pouvez utiliser événements live équipes dans plusieurs régions du monde
 
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez à [configurer pour les événements live équipes](set-up-for-teams-live-events.md).
+
+### <a name="related-topics"></a>Rubriques connexes
+- [Quelles sont les équipes live événements ?](what-are-teams-live-events.md)
+- [Configurer des équipes événements en direct](set-up-for-teams-live-events.md)
+- [Confgure live paramètres des événements dans les équipes](configure-teams-live-events.md)
+
