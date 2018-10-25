@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez comment configurer un contrôleur de Session bordure (SBC) pour prendre en charge plusieurs clients.
-ms.openlocfilehash: 292a3e675455d112fdade04018e670b9a5f9c38f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7b085661e659e7836c5e463b24c9cc0a6f071aaa
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013424"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784815"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de Session en périphérie pour plusieurs locataires
 
@@ -90,7 +90,7 @@ Le tableau suivant est un exemple d’une configuration.
 |---------|---------|---------|---------|---------|---------|
 |Customers.adatum.biz|    Base de     |     Dans le client de l’opérateur  |    \*. customers.adatum.biz  |   adatum.biz      |NA, il s’agit d’un client de service, pas d’utilisateurs |
 |sbc1.Customers.adatum.biz|    Sous-domaine  |    Dans un client de client  |    \*. customers.adatum.biz  | woodgrovebank.us  |  sbc1.Customers.adatum.biz|
-|sbc2.Customers.adatum.biz  |   Sous-domaine | Dans un client de client   |   \*. customers.adatum.biz   |Contoso.com   |sbc2.Customers.adatum.biz |
+|sbc2.Customers.adatum.biz  |   Sous-domaine | Dans un client de client   |   \*. customers.adatum.biz   |contoso.com   |sbc2.Customers.adatum.biz |
 |SBC3.Customers.adatum.biz |   Sous-domaine | Dans un client de client |   \*. customers.adatum.biz  |  AdventureWorks.com | SBC3.Customers.adatum.biz |
 ||         |         |         |         |         |
 
@@ -127,7 +127,7 @@ Pour plus d’informations sur les rôles d’administrateur et comment affecter
 
 ### <a name="activate-the-domain-name"></a>Activer le nom de domaine
 
-Une fois que vous avez enregistré un nom de domaine, vous devez l’activer en ajoutant au moins un utilisateur et attribuer une adresse SIP avec la partie nom de domaine complet de l’adresse SIP correspondant à ce domaine de base créé.
+Une fois que vous avez enregistré un nom de domaine, vous devez l’activer en ajoutant au moins un E1, E3, ou E5 sous licence utilisateur et attribution d’une adresse SIP avec la partie nom de domaine complet du SIP d’adresse correspondant à ce domaine de base créé. 
 
 *Consultez [obtenir de l’aide avec les domaines d’Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) pour plus d’informations sur l’ajout d’utilisateurs dans les clients Office 365.*
 

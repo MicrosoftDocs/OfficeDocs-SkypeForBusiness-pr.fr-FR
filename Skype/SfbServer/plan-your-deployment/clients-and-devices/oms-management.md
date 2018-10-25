@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: Cet article décrit les considérations de planification pour l’utilisation de la Suite de gestion des opérations pour administrer les périphériques v2 de systèmes de salle Skype dans votre Skype d’implémentation Business Server.
-ms.openlocfilehash: 14f6ba95e5b2bcf7619002bb2dbc1e9ae3eb474a
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 64f1d91840a34ed9c9845e7fb0aae1e322fab68e
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965939"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784799"
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>Planification de la gestion de Skype Room Systems v2 avec OMS
  
@@ -38,13 +38,13 @@ Un administrateur à l’aide d’OMS peut obtenir des notifications de Skype sa
   
 ## <a name="oms-requirements"></a>Configuration requise pour OMS
 
-Vous devez posséder un abonnement valide pour OMS pour utiliser cette fonctionnalité. Voir [commencer avec un espace de travail journal Analytique](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json) pour créer un abonnement pour votre organisation.
+Vous devez posséder un abonnement valide pour OMS pour utiliser cette fonctionnalité. Consultez [Prise en main d’un espace de travail Log Analytics](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json) pour créer un abonnement pour votre entreprise.
   
-Vous devez vous familiariser autant que nécessaire avec l’utilisation du concepteur de vue d’OMS. Pour les plus d’informations, voir [vues dans les solutions de gestion des opérations de gestion de Suite (OMS)](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-solutions-resources-views) .
+Vous devez vous familiariser autant que nécessaire avec l’utilisation du concepteur de vue d’OMS. Consultez [Vues dans des solutions de gestion dans Operations Management Suite (OMS)](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-solutions-resources-views) pour en savoir plus.
   
 ### <a name="related-tasks"></a>Tâches connexes
 
-1. Une fois abonné à OMS, créer des champs (comme décrit dans les [champs personnalisés](../../deploy/deploy-clients/with-oms.md#Custom_fields)) nécessaires pour analyser les informations qui seront envoyées à partir de consoles v2 de systèmes de salle Skype. Cela inclut la présentation du schéma JSON documenté dans [comprendre les entrées du journal](../../manage/skype-room-systems-v2/oms.md#Telemetry).
+1. Une fois abonné à OMS, créer des champs (comme décrit dans les [champs personnalisés](../../deploy/deploy-clients/with-oms.md#Custom_fields)) nécessaires pour analyser les informations qui seront envoyées à partir de consoles v2 de systèmes de salle Skype. Cela inclut la présentation du schéma JSON documenté dans [comprendre les entrées du journal](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries).
     
 2. Développer un affichage de gestion des systèmes de salle Skype v2 dans OMS. Vous pouvez [créer un tableau de bord v2 Skype salle de systèmes à l’aide de la méthode import](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-by-using-the-import-method) ) ou [créer un tableau de bord v2 Skype salle systèmes manuellement](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-manually).
     
@@ -54,11 +54,11 @@ Chaque console v2 de systèmes de salle Skype est une application en cours d’e
   
 ## <a name="ongoing-management"></a>Gestion continue
 
-Lorsque vous utilisez OMS pour gérer vos périphériques de conférence Skype salle systèmes v2, vous devez comprendre les informations contenues dans les journaux des événements utilisés par OMS. Pour plus d’informations sur ces messages d’intégrité, voir [comprendre les entrées du journal](../../manage/skype-room-systems-v2/oms.md#Telemetry) .
+Lorsque vous utilisez OMS pour gérer vos périphériques de conférence Skype salle systèmes v2, vous devez comprendre les informations contenues dans les journaux des événements utilisés par OMS. Pour plus d’informations sur ces messages d’intégrité, voir [comprendre les entrées du journal](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries) .
   
 ### <a name="related-tasks"></a>Tâches connexes
 
-- Comprendre les alertes générées par des systèmes de salle Skype v2 et comment les résoudre (voir la section intitulée [comprendre les entrées du journal](../../manage/skype-room-systems-v2/oms.md#Telemetry))
+- Comprendre les alertes générées par des systèmes de salle Skype v2 et comment les résoudre (voir la section intitulée [comprendre les entrées du journal](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries))
     
 ## <a name="see-also"></a>Voir aussi
 
