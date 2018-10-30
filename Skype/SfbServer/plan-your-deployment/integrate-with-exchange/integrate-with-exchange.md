@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Résumé : Passez en revue cette rubrique pour plus d’informations sur l’intégration de Skype pour Business Server avec Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: e46775a7a57702cd71293f2343aa2bf089491393
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 901bfd35ef0e781d12c8f4f455912e9ad47d0bdd
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374216"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839100"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Planifier l’intégration de Skype Entreprise et d’Exchange
  
@@ -63,7 +63,7 @@ Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri 
 
 Pour plus d’informations sur le service de découverte automatique, voir [Service de découverte automatique](https://go.microsoft.com/fwlink/p/?LinkId=268542).
   
-Une fois que le service de découverte automatique a été configuré, vous devez modifier puis le Skype pour les paramètres de configuration OAuth de serveur d’entreprise ; Cela garantit que ce Skype pour Business Server sait où trouver le service de découverte automatique. Pour modifier les paramètres de configuration OAuth dans Skype pour Business Server, exécutez la commande suivante à partir de la Skype pour Business Server Management Shell. Lorsque vous exécutez cette commande, assurez-vous que vous spécifiez l’URI du service de découverte automatique en cours d’exécution sur votre serveur Exchange, et que vous utilisez **autodiscover.svc** pour pointer vers l’emplacement de service au lieu **autodiscover.xml** (qui pointe vers le fichier XML utilisé par le service) :
+Une fois que le service de découverte automatique a été configuré, vous devez modifier puis le Skype pour les paramètres de configuration OAuth de serveur d’entreprise ; Cela garantit que Skype pour Business Server sait où trouver le service de découverte automatique. Pour modifier les paramètres de configuration OAuth dans Skype pour Business Server, exécutez la commande suivante à partir de la Skype pour Business Server Management Shell. Lorsque vous exécutez cette commande, assurez-vous que vous spécifiez l’URI du service de découverte automatique en cours d’exécution sur votre serveur Exchange, et que vous utilisez **autodiscover.svc** pour pointer vers l’emplacement de service au lieu **autodiscover.xml** (qui pointe vers le fichier XML utilisé par le service) :
   
 ```
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 

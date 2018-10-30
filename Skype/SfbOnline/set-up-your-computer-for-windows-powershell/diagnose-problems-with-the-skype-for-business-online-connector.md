@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Résoudre les problèmes de création d’une session PowerShell distante pour se connecter à Skype pour Business Online, notamment Import-Module, shell simultané, Live ID et les erreurs d’autorisation.
-ms.openlocfilehash: 651afa58513819eb57914bfa1cd92bc38a46298f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 223886b68c22f3713118eaed4a556743df2c7cf1
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372903"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839187"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostiquer des problèmes de connexion avec le connecteur Skype Entreprise Online
 
@@ -112,7 +112,7 @@ Lorsque vous essayez d’établir une connexion à Skype pour Business Online, v
 
 Impossible d’effectuer une toSkype de connexion à distance PowerShell pour l’entreprise en ligne, sauf si vous êtes membre du groupe Administrateurs de clients. Si vous n’êtes pas le cas, votre tentative de connexion échoue et vous recevez le message d’erreur suivant :
 
-- **Erreur**: *New-PSSession : [admin.vdomain.com] traitement des données à partir du serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : l’utilisateur 'user@foo.com' n’est pas autorisé à gérer ce client. Autorisations peuvent être accordées en affectant l’utilisateur au rôle RBAC approprié. Pour plus d’informations, voir le [Dépannage à distance](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Erreur**: *New-PSSession : [admin.vdomain.com] traitement des données à partir du serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : l’utilisateur 'user@foo.com' n’est pas autorisé à gérer ce client. Autorisations peuvent être accordées en affectant l’utilisateur au rôle RBAC approprié. Pour plus d’informations, voir le [Dépannage à distance](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
 - **Résolution**: Si vous pensez que vous, ou sont censés être, un membre du groupe Administrateurs de clients, vous devez contacter le support technique de Office 365.
   
@@ -121,7 +121,7 @@ Impossible d’effectuer une toSkype de connexion à distance PowerShell pour l�
 
 Pour utiliser PowerShell pour gérer Skype pour Business en ligne, la propriété de EnableRemotePowerShellAccess de votre client PowerShell stratégie doit être définie `True`. S’il n’est pas le cas, la connexion échoue et vous recevez le message d’erreur suivant :
 
-- **Erreur**: *New-PSSession : [admin.vdomain.com] traitement des données à partir du serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : la possibilité de se connecter à ce client à l’aide d’une session PowerShell distante a été désactivée. Contactez l’aide de Lync pour vérifier la stratégie de Powershell client de ce client. Pour plus d’informations, voir le [Dépannage à distance](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Erreur**: *New-PSSession : [admin.vdomain.com] traitement des données à partir du serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : la possibilité de se connecter à ce client à l’aide d’une session PowerShell distante a été désactivée. Contactez l’aide de Lync pour vérifier la stratégie de Powershell client de ce client. Pour plus d’informations, voir le [Dépannage à distance](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
 - **Résolution**: Si vous voyez ce message d’erreur, vous devez contacter le support technique de Office 365 et d’accéder à distance PowerShell activé.
   
@@ -130,7 +130,7 @@ Pour utiliser PowerShell pour gérer Skype pour Business en ligne, la propriét�
 
 Chaque administrateur est autorisé à un maximum de trois connexions à distance simultanées à Skype pour Business Online. Si vous avez trois sessions PowerShell distantes haut et en cours d’exécution, toute tentative d’effectuer une quatrième simultanées connexion échoue, avec le message d’erreur suivant :
 
-- **Erreur**: *New-PSSession : Échec de la connexion au serveur distant admin.vdomain.com [admin.vdomain.com] avec le message d’erreur suivant : service de la gestion des services Web ne peut pas traiter la demande. Le nombre maximal de shells simultanés pour cet utilisateur a été dépassé. Fermez les environnements existants ou augmenter le quota de cet utilisateur. Pour plus d’informations, voir le [dépannage à distance] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
+- **Erreur**: *New-PSSession : Échec de la connexion au serveur distant admin.vdomain.com [admin.vdomain.com] avec le message d’erreur suivant : service de la gestion des services Web ne peut pas traiter la demande. Le nombre maximal de shells simultanés pour cet utilisateur a été dépassé. Fermez les environnements existants ou augmenter le quota de cet utilisateur. Pour plus d’informations, voir le [dépannage à distance] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Résolution**: la seule façon de résoudre ce problème est de fermer une ou plusieurs des connexions précédentes. Lorsque vous avez terminé avec un Skype pour la session Business en ligne, nous vous recommandons d’utiliser l’applet de commande **Remove-PSSession** pour mettre fin à la session. Cela vous aidera à éviter ce problème.
   
@@ -139,7 +139,7 @@ Chaque administrateur est autorisé à un maximum de trois connexions à distanc
 
 Bien que chaque administrateur est autorisé à avoir jusqu'à trois connexions simultanées à un Skype pour client d’entreprise en ligne, sans un seul client est autorisé à avoir plus de 20 connexions simultanées. Par exemple, six administrateurs peuvent chacun avoir trois sessions ouvertes. Si un administrateur quatrième tente d’établir des connexions plus de 2 (soit un total de connexions simultanées 21), cette tentative échouera, avec le message d’erreur suivant :
   
-- **Erreur**: *New-PSSession : Échec de la connexion au serveur distant admin.vdomain.com [admin.vdomain.com] avec le message d’erreur suivant : service de la gestion des services Web ne peut pas traiter la demande. Le nombre maximal de shells simultanés pour ce client a été dépassé. Fermez les environnements existants ou augmenter le quota pour ce client. Pour plus d’informations, voir le [dépannage à distance] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
+- **Erreur**: *New-PSSession : Échec de la connexion au serveur distant admin.vdomain.com [admin.vdomain.com] avec le message d’erreur suivant : service de la gestion des services Web ne peut pas traiter la demande. Le nombre maximal de shells simultanés pour ce client a été dépassé. Fermez les environnements existants ou augmenter le quota pour ce client. Pour plus d’informations, voir le [dépannage à distance] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Résolution**: la seule façon de résoudre ce problème est de fermer une ou plusieurs des connexions précédentes. Lorsque vous avez terminé avec un Skype pour la session Business en ligne, nous vous recommandons d’utiliser l’applet de commande **Remove-PSSession** pour mettre fin à cette session. Cela vous aidera à éviter ce problème.  
  

@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 844fdb83a1219a23b66a3f65bc1bde69475b3eb4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3786d74d7708887e680fccc813c3cf245dc7d468
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864578"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839170"
 ---
 # <a name="conference-participant-activity-report"></a>Rapport d'activités de participant à la conférence
 
-En tant qu’un administrateur Office 365, le nouveau tableau de bord **rapports** vous présente des données sur l’utilisation des produits Office 365 au sein de votre organisation. Vous pouvez utiliser le rapport **Skype pour activité participant de conférence** pour afficher le nombre par messagerie instantanée, audio/vidéo, partage d’applications, Web et et conférences dial-in/out sont participés par les utilisateurs de votre organisation.
+En tant qu’un administrateur Office 365, le nouveau tableau de bord **rapports** vous présente des données sur l’utilisation des produits Office 365 au sein de votre organisation. Vous pouvez utiliser le rapport **Skype pour activité participant de conférence** pour afficher le nombre par messagerie instantanée, audio/vidéo, partage d’applications, Web et conférences dial-in/out sont participés par les utilisateurs de votre organisation.
 
 Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour en savoir plus.
   

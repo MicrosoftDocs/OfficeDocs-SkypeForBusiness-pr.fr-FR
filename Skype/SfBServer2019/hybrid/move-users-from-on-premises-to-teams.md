@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Résumé : Découvrez comment migrer les paramètres utilisateur et de déplacer les utilisateurs à des équipes.'
-ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 76baa9cdc87535e68cc0bff4e9397a91d1090439
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436564"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838716"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Déplacer les utilisateurs locaux vers des équipes
 
@@ -79,7 +79,7 @@ Si vos utilisateurs locaux ont vocal sur site, vous avez deux options :
 -  **Migrer des utilisateurs grâce à des fonctionnalités de téléphonie.** Les utilisateurs peuvent émettre et recevoir des appels à l’aide du client équipes.  Vous pouvez choisir Microsoft appelant planifier ou routage Direct pour connecter les services de téléphonie aux équipes.  
 
     -  Appel de Plan de Microsoft fournit une solution vocale tout-en nuage. Pour plus d’informations sur l’appel de Plan de Microsoft, voir (lien bientôt disponible). 
-    -  Routage direct vous permet d’utiliser pratiquement n’importe quel jonction PSTN, et vous pouvez configurer l’interopérabilité entre équipement téléphonique appartenant à un client et le système téléphonique de Microsoft.  Pour plus d’informations, voir [Planifier le routage Direct](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan) et [Configurer le routage Direct](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-configure).
+    -  Routage direct vous permet d’utiliser pratiquement n’importe quel jonction PSTN, et vous pouvez configurer l’interopérabilité entre équipement téléphonique appartenant à un client et le système téléphonique de Microsoft.  Pour plus d’informations, voir [Planifier le routage Direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan) et [Configurer le routage Direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-configure).
 
 -  **Migrer les utilisateurs sans fonctionnalités de téléphonie.** Si vous migrez des utilisateurs sans conserver les fonctionnalités de téléphonie, assurez-vous que les utilisateurs ont des licences appropriés dans le nuage. 
 

@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: ddfada14916b14c374479109732dbe1fa35a0174
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c0aa89e8e1900aefd069b132e8e082aa477e2786
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017614"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839478"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage Direct
 
@@ -74,9 +74,9 @@ Exigences d’infrastructure pour le SBCs pris en charge, les domaines et les au
 |Publique entrée DNS pour le contrôleur SBC |Une entrée DNS publique le FQDN SBC à mapper sur l’adresse IP publique. |
 |Certificat de confiance public pour le contrôleur SBC |Un certificat pour le contrôleur SBC à utiliser pour toutes les communications avec le routage Direct. Pour plus d’informations, consultez la rubrique [Public certificat approuvé pour le contrôleur SBC](#public-trusted-certificate-for-the-sbc).|
 |Points de connexion pour le routage Direct |Les points de connexion pour le routage Direct sont les noms de domaine trois complets suivants :<br/><br/>`sip.pstnhub.microsoft.com`– Nom de domaine complet global, doit être tenté en premier.<br/>`sip2.pstnhub.microsoft.com`– Nom de domaine complet secondaire, géographiquement mappe à la seconde région priorité.<br/>`sip3.pstnhub.microsoft.com`– Nom de domaine complet de troisième niveau, mappe géographiquement à la région de priorité de la troisième.<br/><br/>Pour plus d’informations sur la configuration requise, voir [de signalisation SIP : noms de domaine complets et les ports de pare-feu](#sip-signaling-fqdns-and-firewall-ports).|
-|Adresses IP de pare-feu et les ports pour le média routage Direct |Le contrôleur SBC communique avec les services suivants dans le nuage :<br/><br/>Proxy qui gère la signalisation SIP<br/>Processeur multimédia, qui gère les données multimédias-sauf lorsque le contournement de média est activé<br/><br/>Ces deux services ont des adresses IP séparées dans le Cloud Microsoft, décrit plus loin dans ce document.<br/><br/>Pour plus d’informations, voir la [section équipes Microsoft](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) dans [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+|Adresses IP de pare-feu et les ports pour le média routage Direct |Le contrôleur SBC communique avec les services suivants dans le nuage :<br/><br/>Proxy qui gère la signalisation SIP<br/>Processeur multimédia, qui gère les données multimédias-sauf lorsque le contournement de média est activé<br/><br/>Ces deux services ont des adresses IP séparées dans le Cloud Microsoft, décrit plus loin dans ce document.<br/><br/>Pour plus d’informations, voir la [section équipes Microsoft](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) dans [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Profil de Transport de média|TCP/RTP/SAVP <br/>RTP/UDP/SAVP|
-Adresses IP de pare-feu et les ports pour le média Microsoft Teams |Pour plus d’informations, voir [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+Adresses IP de pare-feu et les ports pour le média Microsoft Teams |Pour plus d'informations, reportez-vous à la rubrique [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Gestion des licences et autres composants requis 
@@ -113,7 +113,7 @@ Le tableau suivant montre des exemples de noms DNS enregistrés pour le client, 
 
 |**Nom DNS**|**Peut être utilisé pour SBC FQDN**|**Exemples de noms de domaine complets**|
 |:--- |:--- |:--- |
-Contoso.com|Oui|**Noms valides :**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>Europe.contoso.com|
+contoso.com|Oui|**Noms valides :**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>Europe.contoso.com|
 |Contoso.onmicrosoft.com|Non|<br/>À l’aide de *. onmicrosoft.com domaines n’est pas pris en charge pour les noms de SBC
 
 Supposons que vous souhaitez utiliser un nouveau nom de domaine. Par exemple, votre client a contoso.com comme un nom de domaine enregistré dans votre client, et que vous souhaitez utiliser sbc1.sip.contoso.com. Avant de vous pouvez coupler un contrôleur SBC avec le nom sbc1.sip.contoso.com, vous devez enregistrer le sip.contoso.com de nom de domaine dans « Domaines » dans votre client. Si vous essayez de jumelage un contrôleur SBC avec sbc1.sip.contoso.com avant d’enregistrer le nom de domaine, vous obtiendrez le message d’erreur suivant : « Impossible d’utiliser le domaine « sbc1.sip.contoso.com » comme il n’a pas été configuré pour ce client. »

@@ -26,12 +26,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: b18c4d3f04cab78b48039bcd33dae00a960132ea
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: eaac8426677268e526f622b477caff062d81deef
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502205"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839037"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise
 
@@ -55,7 +55,7 @@ Vous devez disposer des [autorisations d’administrateur](https://support.offic
   
 1. Connectez-vous avec votre compte d’administrateur Office 365. 
     
-2. Dans le Centre d'administration Office 365, allez dans **Centres d'administration** > **Skype Entreprise**.
+2. Dans le Centre d’administration Office 365, accédez à **Centres d’administration** > **Skype Entreprise**.
     
     ![Sélectionnez le centre d'administration de Skype Entreprise.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
@@ -71,9 +71,9 @@ Vous devez disposer des [autorisations d’administrateur](https://support.offic
     
 7. Si vous utilisez le pare-feu Windows, Skype Entreprise ouvre automatiquement les ports nécessaires.
     
-    Si votre organisation utilise un pare-feu différent pour restreindre l'accès à Internet des ordinateurs de votre réseau, assurez-vous que vos ordinateurs clients peuvent accéder aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) suivants. Vous devrez peut-être ajouter des noms de domaines complets pour la sortie autorisés dans votre pare-feu ou votre proxy de configuration de l’infrastructure : ** \*. api.skype.com**, \* **. users.storage.live.com**et **graph.skype.com**. Pour obtenir des instructions sur la façon d’ouvrir ces ports sur votre pare-feu, consultez la documentation fournie avec ce dernier.
+    Si votre organisation utilise un pare-feu différent pour restreindre l'accès à Internet des ordinateurs de votre réseau, assurez-vous que vos ordinateurs clients peuvent accéder aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) suivants. Vous devrez peut-être ajouter des noms de domaines complets pour la sortie autorisés dans votre pare-feu ou votre proxy de configuration de l’infrastructure : ** \*. api.skype.com**, \* **. users.storage.live.com**et **graph.skype.com**. Pour obtenir des instructions sur la façon d’ouvrir ces ports sur votre pare-feu, consultez la documentation fournie avec ce dernier.
     
-    Pour obtenir la liste de tous les ports à ouvrir, consultez [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+    Pour obtenir la liste de tous les ports à ouvrir, consultez [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
 
 8. Assurez-vous que l’administrateur de l’organisation a également suivi ces étapes.
     
@@ -84,7 +84,7 @@ Vous devez disposer des [autorisations d’administrateur](https://support.offic
 ## <a name="test-and-troubleshoot"></a>Test et dépannage
 <a name="bk_preview"> </a>
 
- **Le problème que les utilisateurs rencontrent le plus souvent lors de la configuration de la communication entre entreprises est lié aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).**
+ **Le problème que les utilisateurs rencontrent le plus souvent lors de la configuration de la communication entre entreprises est lié aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).**
   
 Pour tester votre configuration, vous devez disposer d'un contact Skype Entreprise qui ne soit pas situé derrière le pare-feu de votre entreprise.
   
@@ -92,7 +92,7 @@ Pour tester votre configuration, vous devez disposer d'un contact Skype Entrepri
     
 2. Dans Skype Entreprise, recherchez votre contact dans Skype Entreprise et envoyer une demande de discussion.
     
-    Si vous recevez un message qui est n’a pas pu être envoyée en raison de la stratégie d’entreprise, vous devez vérifier votre [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+    Si vous recevez un message qui est n’a pas pu être envoyée en raison de la stratégie d’entreprise, vous devez vérifier votre [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
     
 3. Demandez à votre contact Skype Entreprise de vous envoyer une demande de discussion. Si vous ne la recevez pas, le problème se situe au niveau de vos paramètres de pare-feu (en supposant que votre contact a confirmé que ses paramètres sont corrects).
     
@@ -101,7 +101,7 @@ Pour tester votre configuration, vous devez disposer d'un contact Skype Entrepri
 ## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>Comment trouver des personnes et être trouvé lors d'une connexion avec une autre entreprise.
 <a name="bk_preview"> </a>
 
-Après avoir activé la communication externe avec les autres Skype pour les utilisateurs professionnels, vos utilisateurs trouverez Skype fédéré pour les utilisateurs professionnels en recherchant leur nom de connexion : par exemple, Rob@contoso.com. Ils devrez ensuite ajouter cette personne à sa liste des contacts.
+Après avoir activé la communication externe avec les autres Skype pour les utilisateurs professionnels, vos utilisateurs trouverez Skype fédéré pour les utilisateurs professionnels en recherchant leur nom de connexion : par exemple, Rob@contoso.com. Ils devront ensuite ajouter la personne à leurs listes de contacts.
   
 ![Pour rechercher un utilisateur dans une entreprise fédérée, vous devez rechercher leur adresse de messagerie (il s’agit généralement également leur nom de connexion).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   

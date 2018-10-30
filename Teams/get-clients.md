@@ -16,17 +16,20 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a24f4ba3c9470827c8a73bf8ac234cf7ae8467e8
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: d1eeb32f86f678672a14d42b241e56eb9ab92b02
+ms.sourcegitcommit: 9138325ba2652a9ee3602d259de811082080e358
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25372787"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25842083"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 ===========================
 
 Microsoft Teams dispose de clients mobiles et disponibles pour les web (Windows et Mac) du bureau (Android, iOS et Windows Phone). Ces clients requièrent une connexion Internet active et ne prennent pas en charge le mode hors connexion.
+
+> [!NOTE]
+> À compter du que 29 novembre 2018, vous ne serez en mesure d’utiliser le Teams Microsoft pour une application Windows 10 S (Preview), disponible à partir de Microsoft Store. Nous vous recommandons d’utiliser une des applications équipes décrites ci-dessous dans cet article après 29 novembre.
 
 <a name="desktop-client"></a>Client de bureau
 --------------

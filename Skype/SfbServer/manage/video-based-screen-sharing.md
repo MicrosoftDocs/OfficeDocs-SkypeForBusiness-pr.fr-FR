@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype pour les informations de planification et la configuration de Business Server pour le partage d’écran vidéo (VbSS)
-ms.openlocfilehash: a7ea07f02b73b1092a11f61757318d0d653e048a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375907"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839746"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vidéo en fonction de partage d’écran pour Skype pour Business Server 
  
@@ -99,9 +99,9 @@ Les chiffres figurant dans cette table subissent l’influence des réseaux indi
   
 |**Contenu 1080p **|**RDP moyenne**|**Pic RDP**|**Moyenne VbSS**|**Pic VbSS**|
 |:-----|:-----|:-----|:-----|:-----|
-|PPT  <br/> |200 Kbits/s  <br/> |12  <br/> |100 Kbits/s  <br/> |3mbps  <br/> |
-|CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1 Mbits/s  <br/> |3mbps  <br/> |
-|Vidéo  <br/> |5Mbps  <br/> |7mbps  <br/> |1.3mbps  <br/> |2.2mbps  <br/> |
+|PPT  <br/> |200kbps  <br/> |12mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
+|CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
+|Vidéo  <br/> |5mbps  <br/> |7mbps  <br/> |1.3mbps  <br/> |2.2mbps  <br/> |
    
 ### <a name="network-bandwidth-requirements-for-media-traffic"></a>Configuration requise de la bande passante pour le trafic multimédia
 
@@ -150,7 +150,7 @@ L’avantage est une fois que vous avez installé le Skype pour Business Server 
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    Pour plus d’informations sur cette commande, voir [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    Pour plus d’informations sur cette commande, voir [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Si vous souhaitez désactiver complètement VbSS, exécutez la commande suivante :
     
@@ -158,7 +158,7 @@ L’avantage est une fois que vous avez installé le Skype pour Business Server 
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    Pour plus d’informations sur cette commande, voir [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    Pour plus d’informations sur cette commande, voir [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > Dans un à plusieurs Skype pour une réunion d’affaires, tous les points de terminaison clients respecte le paramètre de stratégie pour l’organisateur de la réunion. 
@@ -177,7 +177,7 @@ L’avantage est une fois que vous avez installé le Skype pour Business Server 
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    Pour plus d’informations sur cette commande, voir [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    Pour plus d’informations sur cette commande, voir [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Si vous souhaitez rétablir VbSS après l'avoir désactivé (la fonctionnalité est activée par défaut), vous pouvez exécuter la commande suivante :
     
@@ -185,7 +185,7 @@ L’avantage est une fois que vous avez installé le Skype pour Business Server 
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    Pour plus d’informations sur cette commande, voir [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    Pour plus d’informations sur cette commande, voir [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > Dans un à plusieurs Skype pour une réunion d’affaires, tous les points de terminaison clients respecte le paramètre de stratégie pour l’organisateur de la réunion. 

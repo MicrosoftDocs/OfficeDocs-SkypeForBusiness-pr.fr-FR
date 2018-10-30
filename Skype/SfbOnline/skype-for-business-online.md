@@ -1,6 +1,6 @@
 ---
-title: Administration de Skype Entreprise Online
-description: Découvrez comment gérer Skype Entreprise Online pour votre organisation.
+title: Administration de Skype Entreprise Online
+description: Découvrez comment gérer Skype Entreprise Online pour votre organisation.
 services: skype-for-business-online-admin
 author: tonysmit
 manager: serdars
@@ -13,16 +13,16 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: 6393cf6b3ffce8139272e7d00df0b389b4c9eeb5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: db174b9e9df8fb6a819930babfaae9422f3ffe30
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372249"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839503"
 ---
-# <a name="skype-for-business-online-admin"></a>Administration de Skype Entreprise Online
+# <a name="skype-for-business-online-admin"></a>Administration de Skype Entreprise Online
 
-Découvrez comment gérer Skype Entreprise Online pour votre organisation.
+Découvrez comment gérer Skype Entreprise Online pour votre organisation.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -32,11 +32,11 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Prise en main de Skype Entreprise</h3>
+                        <h3>Prise en main de Skype Entreprise</h3>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -68,11 +68,11 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/user-accounts.svg" alt="User account" />
+                            <img src="https://docs.microsoft.com/office/media/icons/user-accounts.svg" alt="User account" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Avez-vous besoin d’aide pour vous connecter à Skype Entreprise ?</h3>
+                        <h3>Avez-vous besoin d’aide pour vous connecter à Skype Entreprise ?</h3>
                     </div>
                 </div>
             </div>
@@ -86,11 +86,11 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Troubleshoot" />
+                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="Troubleshoot" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Résolution des problèmes liés à Skype Entreprise Online</h3>
+                        <h3>Résolution des problèmes liés à Skype Entreprise Online</h3>
                     </div>
                 </div>
             </div>
@@ -98,13 +98,13 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
+                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -128,7 +128,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg" alt="Article" />
+                            <img src="https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg" alt="Article" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -147,7 +147,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -165,7 +165,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/connector-blue.svg" alt="Updates" />
+                            <img src="https://docs.microsoft.com/office/media/icons/connector-blue.svg" alt="Updates" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -212,7 +212,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardText">
                         <h3>Licence de compléments</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Licences de compléments pour Skype Entreprise et Microsoft Teams</a></p><p><a href="/MicrosoftTeams/what-are-communications-credits">Qu'est-ce que les crédits de communication ?</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Licences de compléments pour Skype Entreprise et Microsoft Teams</a></p><p><a href="/MicrosoftTeams/what-are-communications-credits">Qu'est-ce que les crédits de communication ?</a></p>
                     </div>
                 </div>
             </div>

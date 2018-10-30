@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez comment configurer un contrôleur de Session bordure (SBC) pour prendre en charge plusieurs clients.
-ms.openlocfilehash: 7b085661e659e7836c5e463b24c9cc0a6f071aaa
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784815"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839086"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de Session en périphérie pour plusieurs locataires
 
@@ -56,7 +56,7 @@ Voici les étapes de mise en œuvre technique pour configurer le scénario.
 Pour obtenir les étapes détaillées sur la façon de déployer et configurer SBC pour un scénario d’hébergement SBC, reportez-vous à la documentation de SBC.
 
 - **AudioCodes :** [Notes de Configuration de routage direct](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuration de la SBC hébergeant le scénario décrit dans « Connexion AudioCodes SBC à Microsoft Teams Direct routage hébergement modèle Configuration Note ». 
-- **Communications de ruban :**  Reportez-vous au [Guide de Configuration du ruban Communications SBC principaux Microsoft équipes](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) pour la documentation sur la configuration du ruban principal série SBCs et à cette page [ruban meilleures conseillée - opérateurs de configuration pour le routage Direct des équipes Microsoft SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Communications de ruban :**  Reportez-vous au [Guide de Configuration du ruban Communications SBC principaux Microsoft équipes](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) pour la documentation sur la configuration du ruban principal série SBCs et à cette page [conseillée ruban - configuration d’opérateurs de SBC de routage Direct Microsoft équipes Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > Prêtez attention à la configuration de l’en-tête « Contacts ». L’en-tête de Contact est utilisé pour trouver le client du client sur le message invite entrant. 

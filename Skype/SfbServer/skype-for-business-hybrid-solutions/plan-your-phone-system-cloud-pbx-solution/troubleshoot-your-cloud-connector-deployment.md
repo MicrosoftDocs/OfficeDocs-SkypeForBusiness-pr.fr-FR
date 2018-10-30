@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Résoudre les problèmes de votre déploiement en nuage connecteur Edition.
-ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371312"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838620"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Identification et résolution des problèmes de votre déploiement Cloud Connector
  
@@ -67,11 +67,11 @@ Connecteur de cloud fournit des mécanismes intégrés pour la résolution des p
     
   - Si le service de gestion est redémarré, le nombre de l’intervalle et réessayez est réinitialisé à leurs valeurs initiales.
     
-## <a name="troubleshooting"></a>Identification et résolution des problèmes
+## <a name="troubleshooting"></a>Résolution des problèmes
 
 Voici des solutions aux problèmes couramment rencontrés :
   
-- **Problème : le déploiement échoue ou ne répond plus lors de l’exécution des scripts de déploiement. Après la connexion à chaque machine virtuelle, l’adresse IP est manquante ou incorrecte pour la carte d’interface réseau (NIC) de gestion/interne/externe.**
+- **Problème : le déploiement échoue ou cesse de répondre pendant l’exécution des scripts de déploiement. Après s’être connectée sur chaque machine virtuelle, l’adresse IP est manquante ou incorrecte pour la NIC Externe/Interne/Gestion.**
     
     **Résolution :** Ce problème ne peut pas être résolu automatiquement. Les NIC ne peuvent pas être ajoutées aux machines virtuelles tant qu’elles sont en cours d’exécution. Veuillez éteindre et retirer ces machines virtuelles dans le gestionnaire hyper-v, puis exécuter l’applet de commande suivante :
     
@@ -87,7 +87,7 @@ Voici des solutions aux problèmes couramment rencontrés :
     
     **Problème : après l'installation du serveur et de la forêt Active Directory, le serveur CMS et/ou le serveur de médiation n'ont pas correctement rejoint le domaine.**
     
-    **Résolution :** Pour résoudre ce problème, procédez comme suit :
+    **Résolution :** Pour résoudre ce problème, suivez les étapes suivantes :
     
   - Connectez-vous au serveur Active Directory et vérifiez que le domaine a été correctement créé.
     
@@ -118,15 +118,15 @@ Voici des solutions aux problèmes couramment rencontrés :
     
     **Problème : le serveur hôte a redémarré à l’application des mises à jour de Windows, et les appels qu’il gérait échouent.**
     
-    **Résolution :** Si vous avez déployé un environnement de haute disponibilité, Microsoft fournit – quand vous vérifiez et installez les mises à jour de Windows manuellement – une applet de commande pour vous aider à déplacer un ordinateur hôte (instance de déploiement) vers ou en dehors de la topologie actuelle. Pour cela, veuillez suivre les étapes suivantes :
+    **Résolution :** Si vous avez déployé un environnement de haute disponibilité, Microsoft propose une applet de commande qui permettent de déplacer un ordinateur hôte (instance de déploiement) vers ou depuis la topologie actuelle lorsque vous vérifiez et installez manuellement les mises à jour de Windows. Pour cela, veuillez suivre les étapes suivantes :
     
-1. Sur le serveur hôte, démarrez une console PowerShell en tant qu’administrateur, puis exécutez :
+1. Sur le serveur hôte, lancez une console PowerShell en tant qu’administrateur, et exécutez :
     
    ```
    Enter-CcUpdate
    ```
 
-2. Vérifiez si des mises à jour sont disponibles et installez-les.
+2. Vérifiez la présence de mise à jour, et installez toutes celles qui sont disponibles.
     
 3. Dans la console PowerShell, exécutez l’applet de commande suivante :
     
@@ -222,7 +222,7 @@ Voici des solutions aux problèmes couramment rencontrés :
     Remove-CcLegacyServerCertificate 
     ```
 
-3. Exécutez l’applet de commande Exit-CcUpdate afin de démarrer les services et de quitter le mode maintenance.
+3. Exécutez l’applet de commande Exit-CcUpdate pour démarrer les services et quitter le mode maintenance.
     
 4. Exécutez l’applet de commande Export-CcRootCertificate sur le fichier local dans l’appliance, puis copiez et installez le certificat exporté vers vos passerelles RTC.
     
@@ -369,7 +369,7 @@ PowerShell crée ce fichier comme un cache des applets de commande de modules qu
 
 -   **Problème : « Import-Module CloudConnector » génère l’erreur « Import-Module : le module spécifié est « CloudConnector » n’a pas été chargé, car aucun fichier de module valide a été trouvé dans n’importe quel répertoire module »**
 
-    **Résolution :**
+    **Résolution **
     - Valider que fait le module CloudConnector existe sous c:\Program Files\WindowsPowerShell\Modules
     
     - Une fois la validation de ce module CloudConnector existe sous cet emplacement, la variable d’environnement PSModulePath stocker le chemin d’accès vers les emplacements des modules peut être modifiée :
@@ -391,7 +391,7 @@ Pour vérifier et installer manuellement les mises à jours, connectez-vous à c
     
 1. Sur chaque serveur hôte, ouvrez une console PowerShell en tant qu’administrateur.
     
-2. Supprimez l’instance de la haute disponibilité à l’aide de l’applet de commande suivante :
+2. Supprimez l’instance de la haute disponibilité grâce à l’applet de commande suivante :
     
    ```
    Enter-CcUpdate
@@ -399,7 +399,7 @@ Pour vérifier et installer manuellement les mises à jours, connectez-vous à c
 
 3. 
     
-    Suivez la procédure applicable à une instance unique pour installer manuellement les mises à jour et redémarrer la machine virtuelle.
+    Suivez les étapes pour une instance unique afin d’appliquer manuellement les mises à jour et redémarrer la machine virtuelle.
     
 4. Définissez à nouveau l’instance en haute disponibilité grâce à l’applet de commande suivante :
     

@@ -9,16 +9,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 a logiciel intégré qui peut fournir des services DNS, vous pouvez donc à consulter la documentation disponible telles que le Guide de scénario de stratégie DNS. Vous pouvez choisir une solution tierce si vous préférez.
-ms.openlocfilehash: 545b196320ae3b4297d9944ff29c105eb1ce219b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 297dc905a308806aec9228a9514f8e1bd65a245b
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981078"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839054"
 ---
 # <a name="dns-basics"></a>Notions de base sur DNS
  
-Windows Server 2016 a logiciel intégré qui peut fournir des services DNS, vous pouvez donc à consulter la documentation disponible telles que le [Guide de scénario de stratégie DNS](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/dns-policy-scenario-guide). Vous pouvez choisir une solution tierce si vous préférez.
+Windows Server 2016 a logiciel intégré qui peut fournir des services DNS, vous pouvez donc à consulter la documentation disponible telles que le [Guide de scénario de stratégie DNS](https://docs.microsoft.com/windows-server/networking/dns/deploy/dns-policy-scenario-guide). Vous pouvez choisir une solution tierce si vous préférez.
   
 Nous vous recommandons de meilleure pratique dédier un serveur spécifique dans votre implémentation de fournir le DNS. Vous pouvez éventuellement configurer il sur un des serveurs dédiés à un de la Skype pour les rôles de serveur Business, mais si ce serveur a été également partie d’un pool et a été désactivé par accident Skype pour Business serait mal fonctionner jusqu'à ce que les services DNS ont été rétablies.
   
@@ -27,7 +27,7 @@ Nous vous recommandons de meilleure pratique dédier un serveur spécifique dans
 Chaque mappage de nom à une adresse IP (et qui peut être une adresse IPv4 ou IPv6) est stocké dans un enregistrement DNS sur le serveur DNS. Le nom est décrit dans le rapport DNS spécifiquement comme nom de domaine complet, un nom de domaine complet. *Contoso.com* est un nom de domaine valide, il est l’abréviation de * \*. contoso.com* , de sorte qu’il est ambigu et peut éventuellement faire référence à n’importe quel serveur du domaine. Un exemple de nom de domaine complet qui fait référence à un serveur unique dans votre domaine peut être **meeting01.contoso.com**.
   
 > [!IMPORTANT]
-> Par défaut, le nom d’un ordinateur qui n’est pas joint à un domaine est un nom d’hôte, et non un nom de domaine complet. Le Générateur de topologie utilise des noms de domaine complets, pas les noms d’hôte. Vous devez donc configurer un suffixe DNS sur le nom de l’ordinateur à déployer en tant que serveur Edge non joint à un domaine. **Utiliser des caractères standard uniquement** (y compris les A-Z, a-z, 0-9 et tirets) lors de l’affectation de noms de domaine complets pour vos serveurs exécutant Skype pour Business Server. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard dans les noms de domaine complets ne sont généralement pas pris en charge par les systèmes DNS externes et les autorités publiques de certification (lorsque le nom de domaine complet doit être affecté à l’élément SN (Subject Name) du certificat).
+> Par défaut, le nom d’un ordinateur qui n’est pas joint à un domaine est un nom d’hôte, et non un nom de domaine complet. Le Générateur de topologie utilise des noms de domaine complets, pas les noms d’hôte. Vous devez donc configurer un suffixe DNS sur le nom de l’ordinateur qui sera déployé en tant que serveur de périphérie non lié à un domaine. **Utiliser des caractères standard uniquement** (y compris les A-Z, a-z, 0-9 et tirets) lors de l’affectation de noms de domaine complets pour vos serveurs exécutant Skype pour Business Server. N’utilisez pas les caractères ou traits de soulignement Unicode. Souvent, les caractères non standard dans un FQDN ne sont pas pris en charge par le DNS externe et les autorités de certification publique (quand le FQDN doit être assigné au SN dans le certificat).
   
 En plus d’une adresse IP, le nom de domaine complet peut mapper à une **adresse IP virtuelle** — une adresse IP virtuelle. Une adresse IP virtuelle est une adresse IP qui ne correspond pas à une interface réseau physique. Souvent, une adresse IP virtuelle pointe vers un pool de serveurs qui effectuent un rôle de serveur, ou à une paire de serveurs configurés pour la redondance et la tolérance de panne.
   
@@ -50,7 +50,7 @@ Nom de domaine SIP d’une organisation s’aligne généralement sur les adress
 
  Votre organisation devront dans certains cas, plusieurs domaines SIP. Par exemple, si Fabrikam.com a été acquis par contoso.com, vous devrez peut-être créer un domaine SIP que Skype pour Business Server reconnaît et accepte les connexions à partir de. Lorsque vous effectuez cette opération, vous devez créer un ensemble de tous les enregistrements DNS qui utilisent contoso.com, avec le nouveau nom de domaine complet qui indiquent où envoyer les demandes de Fabrikam supplémentaire.
   
-## <a name="dns-load-balancing"></a>Équilibrage de charge DNS
+## <a name="dns-load-balancing"></a>DNS Load Balancing
 <a name="BK_NameSIP"> </a>
 
 Vous pouvez utiliser DNS pour partager la charge du trafic entre plusieurs serveurs qui sont configurés comme un pool de serveurs. Pour ce faire, vous créez plusieurs enregistrements A pour le nom de domaine complet du pool, chacun d'entre eux pointe vers l’adresse IP d’un nœud du pool.

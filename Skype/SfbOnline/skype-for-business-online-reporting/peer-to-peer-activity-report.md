@@ -21,16 +21,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 2ee918cb82ea42a321af9b91ac9a4526fa849a65
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e2499cb2d1432c4b9ad48be3333e798a3a8b1574
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860642"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838707"
 ---
 # <a name="peer-to-peer-activity-report"></a>Rapport d'activités pair à pair
 
-Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour l’activité d’égal à égal** pour voir combien vos utilisateurs sont à l’aide de messagerie instantanée, application d’audio, vidéo, partage et transfert de fichiers. 
+**Rapports**, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour l’activité d’égal à égal** pour voir combien vos utilisateurs sont à l’aide de messagerie instantanée, application d’audio, vidéo, partage et transfert de fichiers. 
 
 Consultez la rubrique [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
   
@@ -78,7 +78,7 @@ Vous pouvez obtenir un aperçu de l'activité P2P Skype Entreprise en consultant
 
 L'axe X sur les deux graphiques représente la plage de dates sélectionnée pour ce rapport particulier.
 ***
-![N ° 7](../images/sfbcallout7.png)<br/>Vous pouvez filtrer la série présentée dans le graphique en cliquant sur un élément dans la légende. Par exemple, dans le graphique de **l’activité** , cliquez sur ou appuyez sur la **messagerie instantanée**, **Audio**, **vidéo**, **partage d’Application**et **les transferts de fichiers** pour afficher uniquement les informations relatives à chacun d’eux. Modifier cette sélection ne change pas les informations dans le tableau. 
+![N ° 7](../images/sfbcallout7.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. Par exemple, dans le graphique de **l’activité** , cliquez sur ou appuyez sur la **messagerie instantanée**, **Audio**, **vidéo**, **partage d’Application**et **les transferts de fichiers** pour afficher uniquement les informations relatives à chacun d’eux. Changing this selection doesn't change the info in the grid table. 
 ***
 ![N ° 8](../images/sfbcallout8.png)<br/>Le tableau présente une répartition par utilisateur des activités P2P. Il vous indique tous les utilisateurs auxquels Skype Entreprise a été affecté ainsi que leurs activités P2P. Vous pouvez ajouter des colonnes supplémentaires dans ce tableau.
 *    **Nom d'utilisateur** est le nom de l'utilisateur.
@@ -107,7 +107,7 @@ Si les stratégies de votre organisation vous empêche l’affichage des rapport
     
 - [Skype Business conférence organisateur rapport d’activité](conference-organizer-activity-report.md) Vous pouvez voir combien vos utilisateurs sont organiser des conférences qui utilisent la messagerie instantanée, audio/vidéo, partage d’applications, le site Web, dial-in/out - 3ème partie et dial-in/out - Microsoft.
     
-- [Skype Business conférence participant rapport d’activité](conference-participant-activity-report.md) Vous pouvez voir combien par messagerie instantanée, audio/vidéo, partage d’applications, Web et et les conférences rendez-vous dans/conférence sont participés.
+- [Skype Business conférence participant rapport d’activité](conference-participant-activity-report.md) Vous pouvez voir le partage d’application audio/vidéo, messagerie instantanée, le nombre, Web et les conférences rendez-vous dans/conférence sont en cours ont participé.
     
 - [Skype pour les utilisateurs professionnels bloqués de rapport](users-blocked-report.md) Vous pouvez voir les utilisateurs de votre organisation qui ont été bloqués à partir de l’émission d’appels PSTN.
     

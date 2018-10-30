@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Résumé : Découvrez comment configurer l’interopérabilité entre votre déploiement sur site et les Skype pour Business en ligne.'
-ms.openlocfilehash: fb04ecd53c93ae7bd64fca760b752d2d69324c3d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: df5fed224484a3c8f8957365f5304095a115b7b1
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030720"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839148"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Configurer Skype pour un environnement hybride Business
 
@@ -72,11 +72,11 @@ $CSSession = New-CsOnlineSession -Credential $cred
 Import-PSSession $CSSession -AllowClobber
 ```
 
-Pour plus d’informations sur la façon d’établir une session PowerShell distante avec Skype pour Business en ligne et comment utiliser la Skype pour le module Business Connector en ligne, voir [configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Pour plus d’informations sur la façon d’établir une session PowerShell distante avec Skype pour Business en ligne et comment utiliser la Skype pour le module Business Connector en ligne, voir [configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
 ## <a name="configure-server-to-server-authentication-if-required"></a>Configurer l’authentification de serveur à serveur, si nécessaire
 
-Selon le type d’environnement hybride que vous configurez, vous devrez peut-être configurer l’authentification de serveur à serveur.  Pour plus d’informations, voir [gérer l’authentification de serveur à serveur dans Skype pour Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).
+Selon le type d’environnement hybride que vous configurez, vous devrez peut-être configurer l’authentification de serveur à serveur.  Pour plus d’informations, voir [gérer l’authentification de serveur à serveur dans Skype pour Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).
 
 
 ## <a name="see-also"></a>Voir aussi

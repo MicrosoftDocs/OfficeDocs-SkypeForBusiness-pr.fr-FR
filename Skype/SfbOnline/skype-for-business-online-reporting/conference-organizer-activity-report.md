@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: ac3c65a19d80e5218e121c1cf582753e5f5eecc5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 871af1f9ec06f24b7c2ef6248c1d48b859bb4563
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372590"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838553"
 ---
 # <a name="conference-organizer-activity-report"></a>Rapport d'activités de l'organisateur de conférence
 
-Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d' **activité Skype Entreprise** pour visualiser combien de fois vos employés organisent des conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web la fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft. 
+**Rapports**, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d' **activité Skype Entreprise** pour visualiser combien de fois vos employés organisent des conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web la fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft. 
 
 Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour en savoir plus.
   
@@ -63,7 +63,7 @@ Vous pouvez obtenir une vue dans votre Skype pour des conférences qui ont été
 ***
 ![Numéro 2](../images/sfbcallout2.png)<br/>Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
 ***
-![Numéro 3](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total de conférences qui ont été organisées ainsi que le type de conférences qui se tient actuellement dans votre organisation. Cela vous indiquera le nombre total et le type de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'application**, le **web**, une **fonction d'appels entrants/sortants tierce** et la **fonction d'appels entrants/sortants de Microsoft**, pour l'ensemble de votre organisation.   
+![Nombre 3](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total de conférences qui ont été organisées ainsi que le type de conférences qui se tient actuellement dans votre organisation. Cela vous indiquera le nombre total et le type de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'application**, le **web**, une **fonction d'appels entrants/sortants tierce** et la **fonction d'appels entrants/sortants de Microsoft**, pour l'ensemble de votre organisation.   
 ***
 ![Numéro 4](../images/sfbcallout4.png)<br/>Utilisez les données en temps réel et du graphique interactif **Utilisateurs** pour comprendre les tendances d'utilisation et afficher le nombre total d'utilisateurs uniques qui ont organisé des conférences qui se sont tenues dans votre organisation. Cela vous indiquera le nombre total d'utilisateurs ainsi que les types de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'application**, le **web**, une **fonction d'appels entrants/sortants tierce** et la **fonction d'appels entrants/sortants de Microsoft** qui ont été organisées.  
 ***
@@ -109,7 +109,7 @@ Si les stratégies de votre organisation vous empêche l’affichage des rapport
     
 - [Skype pour le rapport d’utilisation des périphériques Business](device-usage-report.md) Vous pouvez pour voir les périphériques, y compris les systèmes d’exploitation Windows et les appareils mobiles qui ont le Skype pour l’application de gestion installés et utilisent pour la messagerie instantanée et réunions.
     
-- [Skype Business conférence participant rapport d’activité](conference-participant-activity-report.md) Vous pouvez voir combien par messagerie instantanée, audio/vidéo, partage d’applications, Web et et les conférences rendez-vous dans/conférence sont participés.
+- [Skype Business conférence participant rapport d’activité](conference-participant-activity-report.md) Vous pouvez voir le partage d’application audio/vidéo, messagerie instantanée, le nombre, Web et les conférences rendez-vous dans/conférence sont en cours ont participé.
     
 - [Skype pour le rapport des activités d’égal à égal professionnels](peer-to-peer-activity-report.md) Vous pouvez voir combien vos utilisateurs utilisent application d’audio/vidéo, messagerie instantanée, le partage et transfert de fichiers.
     
