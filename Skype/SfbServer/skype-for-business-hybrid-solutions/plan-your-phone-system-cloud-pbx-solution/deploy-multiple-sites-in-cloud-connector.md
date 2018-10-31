@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: En savoir plus sur le déploiement de plusieurs sites PSTN dans le nuage connecteur Edition.
-ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
+ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889712"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25851489"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Déployer plusieurs sites dans Cloud Connector
  
@@ -74,13 +74,14 @@ Pour chaque site PSTN que vous souhaitez ajouter, suivez les étapes de [déploi
 ## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>Site unique à haute disponibilité comparé aux déploiements multi-sites
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>
 
-Le tableau suivant présente les différences entre un site unique avec prise en charge de la haute disponibilité et un déploiement multisite.
+Le tableau suivant établit la liste des différences entre un site unique à haute disponibilité et un déploiement de plusieurs sites.
   
-|**Catégorie**|**Option**|**Site unique avec haute disponibilité**|**Multisite**|
+|**Catégorie**|**Option**|**Site unique à haute disponibilité**|**Plusieurs sites**|
 |:-----|:-----|:-----|:-----|
-|Installation  <br/> |Dossier partagé  <br/> |Requiert le **même** dossier partagé sur appliances <br/> |Nécessite un répertoire partagé **différent** pour toutes les appliances <br/> |
+|Configuration  <br/> |Nom de l’application hôte <br/> |**Différent** pour chaque appliance <br/> |**Différent** pour chaque site RTC <br/> |
+|Installation  <br/> |Répertoire partagé  <br/> |Requiert le **même** dossier partagé sur appliances <br/> |Nécessite un répertoire partagé **différent** pour toutes les appliances <br/> |
 |Configuration  <br/> |VirtualMachineDomain  <br/> |Nécessite le **même** domaine pour toutes les appliances <br/> |Nécessite le **même** domaine pour tous les sites RTC <br/> |
-|Configuration  <br/> |Domaines SIP  <br/> |Ordre et les noms de domaine doivent être le **même** sur des appareils <br/> |Ordre et les noms de domaine doivent être le **même** entre les sites PSTN <br/> |
+|Configuration  <br/> |Domaines SIP  <br/> |Ordre et les noms de domaine doivent être le **même** sur des appareils <br/> |Ordre et les noms de domaine doivent être le **même** entre les sites PSTN <br/> |
 |Configuration  <br/> |Nom du site  <br/> |
             Le **même** nom de site pour toutes les appliances <br/> |
             Nom de site **différent** pour chaque site RTC <br/> |
@@ -91,7 +92,7 @@ Le tableau suivant présente les différences entre un site unique avec prise en
 |Configuration  <br/> |FQDN externe  <br/> |**Identique** pour chaque appliance <br/> |**Différent** pour chaque site RTC <br/> |
 |Configuration  <br/> |Adresses IP externes  <br/> |**Différent** pour chaque appliance <br/> |**Différent** pour chaque site RTC <br/> |
 |Configuration  <br/> |Paramètres de la passerelle RTC  <br/> |**Identique** pour chaque appliance <br/> |**Différent** pour chaque site RTC <br/> |
-|Configuration  <br/> |Enregistrement DNS  <br/> |Ajouter des enregistrements avec le **même** FQDN de l’accès externe et des adresses IP **différentes** <br/> |Ajoutez des enregistrements avec **différents** noms de domaine complets d’accès externes et **différentes** adresses IP. <br/> |
+|Configuration  <br/> |Enregistrement DNS  <br/> |Ajouter des enregistrements avec le **même** FQDN de l’accès externe et des adresses IP **différentes** <br/> |Ajout d’enregistrements avec des FQDN d'accès externe **différents** et des adresses IP **différentes** <br/> |
 |Installation  <br/> |Client hybride  <br/> |Site RTC hybride défini  <br/> Destination de secours des pairs définie  <br/> |Site RTC hybride défini  <br/> Destination de secours des pairs définie  <br/> |
 |Installation  <br/> |Passerelle  <br/> |Mappage dans ce site de passerelle MS **M : N** <br/> |La ou les passerelle(s) RTC de chaque site RTC devrai(en)t uniquement être connectée(s) au(x) serveur(s) de médiation dans le même site  <br/> |
 |Installation  <br/> |Utilisateur  <br/> |Paramètres RTC utilisateur défini  <br/> |Paramètres RTC utilisateur défini  <br/> |
