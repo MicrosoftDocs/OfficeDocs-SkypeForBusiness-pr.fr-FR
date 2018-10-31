@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: c0aa89e8e1900aefd069b132e8e082aa477e2786
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
+ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839478"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25849405"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage Direct
 
@@ -221,16 +221,12 @@ La plage de ports des processeurs multimédia est indiquée dans le tableau suiv
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Prise en charge des contrôleurs de frontière de Session (SBC)
 
-Microsoft prend uniquement en charge le contrôleur SBC certifié pour établir une association avec le routage Direct. Enterprise Voice est essentielle pour les entreprises, Microsoft exécute des tests intensives avec les SBCs sélectionnés et fonctionne avec les fournisseurs SBC pour garantir les deux systèmes est compatibles. 
+Microsoft prend uniquement en charge SBCs certifiées pour établir une association avec le routage Direct. Enterprise Voice est essentielle pour les entreprises, Microsoft exécute des tests intensives avec les SBCs sélectionnés et fonctionne avec les fournisseurs SBC pour garantir les deux systèmes est compatibles. 
 
-Les périphériques qui ont été validées sont répertoriés comme certifié pour les équipes de routage Direct. Les périphériques certifiés sont garanties pour fonctionner dans tous les scénarios. Il existe également un processus de support commun entre Microsoft et les fournisseurs SBC établies.  
+Les périphériques qui ont été validées sont répertoriés comme certifié pour les équipes de routage Direct. Les périphériques certifiés sont garanties pour fonctionner dans tous les scénarios. 
 
-Les fournisseurs suivants sont en cours de certification :
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Communications de ruban (anciennement Sonus) :
-   - [Série de SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC Core Series](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
-- ThinkTel : ThinkTel ne vend pas les SBCs pour les entreprises, mais leur SBC est en cours certifié.  
+Pour plus d’informations sur SBCs pris en charge, voir [liste de contrôleurs de frontière de Session certifié pour le routage Direct](direct-routing-border-controllers.md).
+
  
 ## <a name="see-also"></a>Voir aussi
 
