@@ -15,18 +15,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65952539ceb52ec62f0c6cd2520f8b898a6a89b5
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 4c8173445fff6acaa3a5381199220a376401076c
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839261"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890696"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser Microsoft Teams étendue de recherche dans l’annuaire
 
 Recherche dans l’annuaire étendue Microsoft Teams permet aux organisations de créer des limites virtuels qui contrôlent la façon dont les utilisateurs peuvent rechercher et communiquer avec d’autres utilisateurs dans leur organisation. 
 
-Microsoft Teams permet aux entreprises de fournir des vues personnalisées du répertoire à leurs utilisateurs. Teams Microsoft utilise les [stratégies de carnet d’adresses Exchange](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) pour prendre en charge ces affichages personnalisés. Une fois que les stratégies sont activées, les résultats renvoyés par la recherche pour d’autres utilisateurs (par exemple, pour lancer une conversation ou pour ajouter des membres à une équipe) seront étendus en fonction des stratégies configurées. Les utilisateurs ne sera pas en mesure de rechercher ou de détecter et de rejoindre des équipes de nouveau à l’extérieur de ces stratégies. 
+Microsoft Teams permet aux entreprises de fournir des vues personnalisées du répertoire à leurs utilisateurs. Teams Microsoft utilise les [stratégies de carnet d’adresses Exchange](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) pour prendre en charge ces affichages personnalisés. Une fois que les stratégies sont activées, les résultats renvoyés par la recherche pour d’autres utilisateurs (par exemple, pour lancer une conversation ou pour ajouter des membres à une équipe) seront étendus en fonction des stratégies configurées. Les utilisateurs ne sera pas en mesure de rechercher ou de découvrir les équipes lors de la recherche à étendue définie est en vigueur. 
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>Quand utiliser les recherches dans l’annuaire étendue ?
 

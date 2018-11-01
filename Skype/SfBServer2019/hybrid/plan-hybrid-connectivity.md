@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Considérations pour l’implémentation de connectivité hybride entre Skype pour Business Server et Skype pour Business Online ou équipes de planification.
-ms.openlocfilehash: d3726c2975056499ec61e12b4dd8d63f63beb3e9
-ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
+ms.openlocfilehash: 55a6fd1d59e8e5af578b9a1c35c61204f925d866
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25849361"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890570"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planification de la connectivité hybride entre Skype pour Business Server et Office 365
 
@@ -22,7 +22,7 @@ ms.locfileid: "25849361"
 
 Lisez cette rubrique pour savoir comment planifier la connectivité hybride entre Skype pour Business Server et les équipes ou Skype pour Business Online. Configurer la connectivité hybride est la première étape de déplacement de votre environnement local vers le nuage.
 
-Si vous avez un environnement local et que vous utilisez des équipes, les utilisateurs qui sont hébergés sur Skype pour les entreprises en local n’ont pas la possibilité d’interagir avec Skype pour les utilisateurs professionnels, ni communiquer avec les utilisateurs dans les organisations fédérées. Pour bénéficier de cette fonctionnalité dans les équipes, ces utilisateurs doivent être déplacés à partir de Skype pour Business local vers le nuage, qui requiert la configuration Skype pour le mode hybride Business. En outre, pour une meilleure pratique, ces utilisateurs doivent être en mode uniquement les équipes qui garantit tous les appels entrants et conversations à partir de n’importe quel terrestre utilisateur dans le client de l’utilisateur aux équipes.
+Si vous avez Skype sur site pour les utilisateurs professionnels qui utilisent également des équipes (côte à côte), ces utilisateurs n’ont pas la possibilité d’interagir avec Skype pour les utilisateurs professionnels à partir du client de leurs équipes, ni communiquer avec les utilisateurs dans les organisations fédérées, à partir de leur Client d’équipes. Pour bénéficier de cette fonctionnalité dans les équipes, ces utilisateurs doivent être déplacés à partir de Skype pour Business local vers le nuage, qui requiert la configuration Skype pour le mode hybride Business. En outre, pour une meilleure pratique, ces utilisateurs doivent être en mode uniquement les équipes qui garantit tous les appels entrants et conversations à partir de n’importe quel terrestre utilisateur dans le client de l’utilisateur aux équipes.
 
 Configurer la connectivité hybride et de déplacement de tous les utilisateurs vers le nuage sont également requis avant que vous désactiviez votre Skype sur site pour le déploiement d’entreprise.  Connectivité hybride configurer, vous pouvez choisir à déplacer les utilisateurs vers le nuage en fonction des besoins de votre calendrier et d’entreprise. Avec le routage Direct, vous pouvez exploiter votre infrastructure de voix sur site pendant que vous déplacez vers le nuage et après que la migration est terminée.
 
@@ -83,59 +83,25 @@ Après avoir configuré la connectivité hybride, vous pouvez déplacer des util
 ## <a name="topology-requirements"></a>Conditions requises pour la topologie
 <a name="BKMK_Topology"> </a>
 
-Pour configurer votre déploiement hybride avec des équipes ou Skype pour Business Online, vous devez disposer d’un des topologies prises en charge suivantes :
+Pour configurer votre déploiement hybride avec **des équipes ou Skype pour Business Online**, vous devez disposer d’un des topologies prises en charge suivantes :
 
 - Un Skype pour le déploiement d’entreprise Server 2019 avec tous les serveurs exécutant Skype pour Business Server 2019. 
-
 - Un Skype pour le déploiement d’entreprise Server 2015 avec tous les serveurs exécutant Skype pour Business Server 2015.
+- Un déploiement de Lync Server 2013 avec tous les serveurs exécutant Lync Server 2013.  Toutefois, si la connectivité de voix hybride est requise, vous devez utiliser une topologie mixte version, comme indiqué ci-dessous.
+- Un déploiement avec un maximum de 2 différentes versions serveur comme indiqué ci-dessous :
+  - Skype pour Business Server 2015 et Skype pour Business Server 2019
+  - Lync Server 2013 et Skype pour Business Server 2019
+  - Lync Server 2013 et Skype pour Business Server 2015
 
-- Un déploiement de Lync Server 2013 avec tous les serveurs exécutant Lync Server 2013.
+*Si vous souhaitez voix hybride dans n’importe quelle topologie*, le serveur de périphérie qui est désigné comme la fédération Edge, ainsi que le pool associé à la fédération SIP doit exécuter Skype pour Business 2015 ou version ultérieure. Les utilisateurs peuvent rester dans un Pool Lync 2013 si elle existe. Pour plus d’informations, voir [Planifier le système téléphonique avec une connectivité PSTN dans Skype pour Business Server](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
 
-    Pour la connectivité de voix hybride, le serveur de périphérie est désigné comme serveur Edge de fédération doit être Skype pour Business 2015 ; le bord requiert également une Skype pour Business Server principal. Vous pouvez disposer d'un pool sans utilisateur.
+Les topologies suivantes qui incluent **Lync Server 2010 sont pris en charge avec Skype pour Business en ligne** pour la messagerie instantanée et les réunions.  Topologies qui incluent des **Lync Server 2010 ne sont pas pris en charge pour la voix hybride ni les équipes**.
 
-- Un mixte Lync Server 2015 et Skype pour le déploiement de Business Server 2019 avec les rôles serveur suivants : 
+- Un mixte Lync Server 2010 et Skype pour le déploiement de Business Server 2015
+- Un déploiement de Lync Server 2010 et Lync Server 2013 mixte
+-   Un déploiement Lync Server 2010 avec tous les serveurs exécutant Lync Server 2010 avec les dernières mises à jour cumulatives.
+La fédération Edge Server et le serveur du tronçon suivant de la fédération de serveur de transport Edge doivent exécuter Lync Server 2010 avec les dernières mises à jour cumulatives. Le Skype pour Business Server 2015 ou les outils d’administration de Lync Server 2013 doit être installé sur au moins un serveur ou station de travail de gestion.
 
-  - Au moins un pool d'entreprise ou serveur Standard Edition  
-
-  - Pool directeur associé à la fédération SIP, le cas échéant 
-
-  - Pool Edge associé à la fédération SIP 
-
-- Lync Server 2013 et Skype pour le déploiement de Business Server 2019 avec les rôles de serveur suivants au moins un site exécutant Skype pour Business Server 2019 mixte : 
-
-  - Au moins un pool d'entreprise ou serveur Standard Edition  
-  - Pool directeur associé à la fédération SIP, le cas échéant 
-  - Pool Edge associé à la fédération SIP 
-
-- Lync Server 2013 et Skype pour le déploiement de Business Server 2015 avec les rôles de serveur suivants au moins un site exécutant Skype pour Business Server 2015 mixte :
-
-  - Au moins un pool d'entreprise ou serveur Standard Edition 
-
-  - Pool directeur associé à la fédération SIP, le cas échéant
-
-  - Pool Edge associé à la fédération SIP
-
-- Lync Server 2010 et Skype pour le déploiement de Business Server 2015 avec les rôles de serveur suivants au moins un site exécutant Skype pour Business Server 2015 mixte :
-
-  - Au moins un pool d'entreprise ou serveur Standard Edition 
-
-  - Pool directeur associé à la fédération SIP, le cas échéant
-
-  - Pool Edge associé à la fédération SIP pour le site
-
-- Un déploiement de Lync Server 2010 et Lync Server 2013 mixte avec les rôles de serveur suivants au moins un site exécutant Lync Server 2013 :
-
-  - Au moins un pool d'entreprise ou serveur Standard Edition dans le site
-
-  - Pool directeur associé à la fédération SIP, si elle existe dans le site
-
-  - Pool Edge associé à la fédération SIP pour le site
-
-- Un déploiement Lync Server 2010 avec tous les serveurs exécutant Lync Server 2010 avec les dernières mises à jour cumulatives.
-
-  - La fédération Edge Server et le serveur du tronçon suivant de la fédération de serveur de transport Edge doivent exécuter Lync Server 2010 avec les dernières mises à jour cumulatives.
-
-  - Le Skype pour Business Server 2015 ou les outils d’administration de Lync Server 2013 doit être installé sur au moins un serveur ou station de travail de gestion.
 
 
  ## <a name="multi-forest-support"></a>Prise en charge des environnements multi-forêts

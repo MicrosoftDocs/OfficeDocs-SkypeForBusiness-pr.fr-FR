@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Résumé : clients et applications pris en charge pour Skype Entreprise.'
-ms.openlocfilehash: 4e51c442ea50bf911eac4e83a700141cd999cdb9
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839155"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890592"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planifier des clients et des appareils
 
@@ -139,7 +139,7 @@ MSI est une méthode d'installation plus traditionnelle, utilisée sur les clien
 
 Skype Entreprise Server 2019 et Skype Entreprise Online prennent en charge les versions précédentes des clients suivantes : Skype Entreprise 2016, Skype Entreprise 2015 et Lync 2013.
 
-Skype Entreprise Server 2015 prend en charge les versions précédentes des clients suivantes: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Lync 2010 Attendant. Pour plus d'informations sur ces clients lorsqu'ils sont utilisés avec d’autres serveurs, reportez-vous aux [tableaux de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et [tableaux de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+Skype Entreprise Server 2015 est compatible avec les clients précédemment lancés : Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Intendant Lync 2010. Pour plus d'informations sur ces clients lorsqu'ils sont utilisés avec d’autres serveurs, reportez-vous aux [tableaux de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et [tableaux de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## <a name="client-system-requirements"></a>Configuration requise pour le client

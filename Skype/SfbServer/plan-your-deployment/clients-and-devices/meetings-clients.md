@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Résumé : Les professionnels de l’informatique doivent vérifier les exigences de prise en charge pour la Skype pour Business Web App et Skype réunions application lors de la planification pour Skype pour Business Server. Cet article n’est pas destiné aux utilisateurs de ces applications.'
-ms.openlocfilehash: c76770d570aaa1d1c686df7b0845e41a767cfbef
-ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
+ms.openlocfilehash: 6b0b8df34530005e7baf14cef4aa38c4536d4673
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450633"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890614"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planifier pour les clients de réunions (application Web et application de réunions)
  
@@ -38,7 +38,7 @@ Ces utilisateurs peuvent créer des réunions et inviter des utilisateurs extern
   
 Par défaut, le serveur qui héberge la réunion vous dirige l’utilisateur à télécharger et installer Skype pour Business Web App joindre la réunion. Le Skype pour l’application Web de gestion est stockée sur le serveur frontal et est envoyée au participant à la réunion. 
   
-Skype pour Business Server 2015, Skype réunions application est disponible sous forme d’une solution de remplacement pour Skype pour début Business Web App avec CU5, mais l’application de réunions Skype exige la configuration supplémentaire décrite dans [Activer Skype réunions App pour remplacer Skype pour l’application Web de gestion (facultative)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si l’application de réunions Skype est activée, les utilisateurs seront télécharger la dernière version de l’application à partir de l’Office 365 réseau CDN (Content Delivery) plutôt que votre Skype pour Business server. Skype pour Business Server 2019 Skype réunions application est la seule option.
+Skype pour Business Server, Skype réunions application est disponible sous forme d’une solution de remplacement pour Skype pour début Business Web App avec CU5, mais l’application de réunions Skype exige la configuration supplémentaire décrite dans [Activer Skype réunions application remplacer Skype pour l’application Web de gestion (facultative)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si l’application de réunions Skype est activée, les utilisateurs seront télécharger la dernière version de l’application à partir de l’Office 365 réseau CDN (Content Delivery) plutôt que votre Skype pour Business server. Skype pour Business Server 2019 Skype réunions application est la seule option.
   
 Application de réunions Skype offre une expérience de navigation simplifiée pour le téléchargement et installation de l’application et participer à des réunions, y compris la participation d’un clic pour les utilisateurs d’Internet Explorer. Application de réunions Skype également a nombreuses améliorations sur theSkype pour l’application Web de gestion de fiabilité et de l’expérience. 
   
@@ -58,7 +58,7 @@ Pour utiliser le Skype pour application de gestion Web, un utilisateur doit avoi
 |Windows 8.1 & #x 2776 ; <br/> |N/A  <br/> |Oui  <br/> |N/A  <br/> |N/A  <br/> |N/A <br/> |Oui & #x 2778 ; <br/> |
 |Windows 8 (processeur Intel) & #x 2776 ; <br/> |N/A  <br/> |N/A  <br/> |Oui  <br/> |N/A <br/> |N/A  <br/> |Oui & #x 2778 ; <br/> |
 |Windows 7 avec SP1 & #x 2777 ; <br/> |N/A  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |N/A <br/>|Oui & #x 2778 ; <br/> |
-|Windows Server 2008 R2 avec SP1 & #x 2777 ; <br/> |N/A  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |N/D <br/>|Oui & #x 2778 ; <br/> |
+|Windows Server 2008 R2 avec SP1 & #x 2777 ; <br/> |N/A  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |N/A <br/>|Oui & #x 2778 ; <br/> |
 |Mac OS 10,8 et versions ultérieures (processeur Intel) & #x 2777 ; <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |Oui  <br/> |Oui <br/> |
    
 & #x 2776 ; Le Skype plug-in du navigateur Web Business App requiert un plug-in de partage spécifique à utiliser basés sur ordinateur de voix, vidéo, partage et affichage de partage d’écran en cours et autres fonctionnalités. Participant à une réunion donné la possibilité d’installer le partage du plug-in lorsqu’ils rejoignent la réunion ou lorsqu’ils initient une de ces fonctionnalités. Sur Windows 8 et Windows 8.1, le plug-in de partage peut être installé uniquement si vous utilisez Internet Explorer 10 ou Internet Explorer 11 pour le bureau. Ces fonctionnalités ne sont pas disponibles avec Internet Explorer 10 ou Internet Explorer 11, version non-bureau. Notez que Firefox et Safari version 12.0 ou ultérieure n’est plus pris en charge.
@@ -76,7 +76,7 @@ L’application de réunions Skype s’exécute comme une application sur des or
   
 L’application s’exécute également sur Mac OS des systèmes d’exploitation 10.10 ou version ultérieures avec aucune dépendance de navigateur spécifique. 
   
-Pour toutes les autres dépendances, voir [plates-formes prises en charge pour l’application de réunions Skype](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+Pour tout autre couplage, veuillez consulter les [plateformes prises en charge pour l’application Réunions Skype ](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
 ## <a name="hardware-requirements"></a>Configuration matérielle requise
 <a name="OS-Browser"> </a>
@@ -95,7 +95,7 @@ Si l’utilisateur est sur un réseau n’est ne pas configuré comme indiqué, 
 
 Ce tableau compare les fonctionnalités de réunions accessibles aux utilisateurs de Skype pour client d’entreprise, Skype pour Lync Web App, Skype réunions application et application Web de gestion. Lync Web App est répertorié à des fins de comparaison de fonctionnalité : un utilisateur souhaite uniquement le téléchargement, à l’aide de Lync Web App si la réunion a été hébergée sur un serveur Lync 2013.
 
-| Fonctionnalité | Skype pour 2016 Business ou 2019 client | Skype pour les entreprises sur client Mac | Application Réunions Skype | Application web Skype Entreprise | Lync Web App |
+| Fonctionnalité | Skype pour 2016 Business ou 2019 client | Skype pour les entreprises sur client Mac | Application Réunions Skype | Skype Entreprise Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Ajouter l'audio de l'ordinateur  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ; (nécessite un plug-in)  <br/> |& #x 2714 ; (nécessite un plug-in)  <br/> |& #x 2714 ; (nécessite un plug-in)  <br/> |
 |Ajouter la vidéo  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ; (nécessite un plug-in)  <br/> |& #x 2714 ; (nécessite un plug-in)  <br/> |& #x 2714 ; (nécessite un plug-in)  <br/> |
