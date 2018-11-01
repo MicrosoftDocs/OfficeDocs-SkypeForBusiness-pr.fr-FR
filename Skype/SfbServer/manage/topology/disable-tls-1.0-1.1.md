@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Résumé : Préparer et implémenter la désactivation TLS 1.0 et 1.1 dans votre environnement.'
-ms.openlocfilehash: 784b6b307275516a18b396864d1a2c4f40c285e8
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: 50d4da536bbfcd112057464b3d4142b3eeed2b44
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429444"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839690"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Désactiver TLS 1.0/1.1 dans Skype pour Business Server 2015
 
@@ -49,7 +49,7 @@ Microsoft a produit un livre blanc sur TLS disponible [ici](https://cloudblogs.m
 
 - Client de bureau Lync 2013 (Skype pour les entreprises), MSI et C2R, y compris Basic [15.0.5023.1000 et plus](https://support.microsoft.com/en-us/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
 - Skype pour le Client de bureau Business 2016, MSI [16.0.4678.1000 et versions ultérieures](https://support.microsoft.com/en-us/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323), y compris Basic
-- Skype pour Business 2016, cliquez sur Exécuter nécessitent les mises à jour [d’avril 2018](https://docs.microsoft.com/en-us/officeupdates/release-notes-office365-proplus) : 
+- Skype pour Business 2016, cliquez sur Exécuter nécessitent les mises à jour [d’avril 2018](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus) : 
     - Tous les mois et annuel séparées ciblé, 16\.0\.9126\.2152 et versions ultérieures
     - Annuel séparées et canal différé, 16\.0\.8431\.2242 et versions ultérieures
 - Skype pour les entreprises des 16.15 Mac
@@ -237,7 +237,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-Pour SQL back désactiver extrémités pour TLS, les conditions préalables et les Pools d’entreprise Edition doit être traitée comme le feriez pour les mises à jour SQL ou du système d’exploitation ; reportez-vous à :[https://docs.microsoft.com/en-us/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/en-us/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
+Pour SQL back désactiver extrémités pour TLS, les conditions préalables et les Pools d’entreprise Edition doit être traitée comme le feriez pour les mises à jour SQL ou du système d’exploitation ; reportez-vous à :[https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
 
 Alors que l’application requise et TLS désactivation des étapes peuvent être combinés, nous vous recommandons vivement d’appliquer toutes les conditions préalables avant de procéder à la désactivation de TLS 1.0 et 1.1 au niveau du système d’exploitation. La meilleure pratique serait pour préparer l’environnement en déployant tous les éléments prérequis, valider que toutes les charges de travail fonctionnent comme prévu et correctement, puis continuer avec TLS 1.0/1.1 désactiver à une date ultérieure.
 

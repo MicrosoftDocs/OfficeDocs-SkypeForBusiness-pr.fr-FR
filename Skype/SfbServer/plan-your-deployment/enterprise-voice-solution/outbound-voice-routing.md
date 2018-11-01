@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: En savoir plus sur le routage des communications vocales sortantes dans Skype pour Business Server Enterprise Voice, notamment les paramètres de routage d’appel, les plans de numérotation, les règles de normalisation, les stratégies de voix, enregistrements d’utilisation PSTN et itinéraires de communications vocales.
-ms.openlocfilehash: 60a1041bee0f235a232c7516dd9e0122ea7b7b65
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8b7ef6c4e07bd7618645606c777b257e1d32691f
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883654"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838815"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planifier le routage des communications vocales sortantes dans Skype pour Business Server
  
@@ -44,7 +44,7 @@ Les règles de normalisation définissent la façon dont les numéros de télép
   
 ### <a name="dial-plan-scope"></a>Étendue du plan de numérotation
 
-L'étendue d'un plan de numérotation détermine le niveau hiérarchique auquel celui-ci est appliqué. Dans Skype pour Business Server, un utilisateur peut être affecté à un plan de numérotation utilisateur spécifique. Si un plan de numérotation utilisateur n’est pas attribué, le plan de numérotation de pool frontal est appliqué. S’il n’existe aucun plan de numérotation de pool pool frontal, le plan de numérotation de site est appliqué. Enfin, si aucun autre plan de numérotation ne peut être appliqué à l’utilisateur, le plan de numérotation global est appliqué.
+L'étendue d'un plan de numérotation détermine le niveau hiérarchique auquel celui-ci est appliqué. Dans Skype pour Business Server, un utilisateur peut être affecté à un plan de numérotation utilisateur spécifique. Si un plan de numérotation utilisateur n’est pas attribué, le plan de numérotation de pool frontal est appliqué. S’il n’existe aucun plan de numérotation de pool frontal, le plan de numérotation de site est appliqué. Enfin, si aucun autre plan de numérotation ne peut être appliqué à l’utilisateur, le plan de numérotation global est appliqué.
   
 Les clients obtiennent des niveaux d’étendue dial plan via les paramètres de mise en service intrabande fournis lorsque les utilisateurs ouvrent Skype pour les entreprises. En tant qu’administrateur, vous pouvez gérer et affecter des niveaux d’étendue de plan de numérotation à l’aide de Skype pour le panneau de configuration serveur Business.
   
@@ -81,7 +81,7 @@ Pour planifier un plan de numérotation, procédez comme suit :
     
     Si votre organisation gère un seul plan de numérotation sur plusieurs sites, vous devrez toujours créer un plan de numérotation distincts pour les utilisateurs d’Enterprise Voice qui migrez à partir d’un autocommutateur privé (PBX) et qui ont besoin d’avoir leurs extensions existantes conservées.
     
-- Déterminez la nécessité de plans de numérotation par utilisateur. Par exemple, si vous avez des utilisateurs sur un site de succursale inscrit avec le site central ou si vous avez des utilisateurs qui sont enregistrés sur un serveur Survivable Branch Appliance, vous pouvez envisager spécial des scénarios de numérotation pour ces utilisateurs par utilisateur à l’aide de plans de numérotation et règles de normalisation . Pour plus d’informations, voir [Plan for Enterprise Voice resiliency dans Skype pour Business Server](enterprise-voice-resiliency.md).
+- Déterminez la nécessité de plans de numérotation par utilisateur. Par exemple, si vous avez des utilisateurs sur un site de succursale inscrit avec le site central ou si vous avez des utilisateurs qui sont enregistrés sur un serveur Survivable Branch Appliance, vous pouvez envisager spécial des scénarios de numérotation pour ces utilisateurs par utilisateur à l’aide de plans de numérotation et règles de normalisation . Pour plus d’informations, reportez-vous à [Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md).
     
 - Déterminez l’étendue d’un plan de numérotation (tel que décrit plus haut dans cette rubrique).
     
@@ -228,9 +228,9 @@ Vous pouvez activer ou désactiver les fonctionnalités d’appel suivantes pour
     
 - **Remplacement de stratégie de bande passante** permet aux administrateurs de remplacer les décisions de stratégie du contrôle d’admission des appels pour un utilisateur particulier. Désactivée par défaut.
     
-- **Le suivi des appels malveillants** permet aux utilisateurs de signaler des appels malveillants à l’aide de la Skype pour client d’entreprise, puis signale des appels dans les enregistrements des détails des appels. Cette fonctionnalité est désactivée par défaut.
+- **Le suivi des appels malveillants** permet aux utilisateurs de signaler des appels malveillants à l’aide de la Skype pour client d’entreprise, puis signale des appels dans les enregistrements des détails des appels. Désactivé par défaut.
     
-- **Messagerie vocale échappement** empêche les appels acheminés immédiatement au système de messagerie vocale de téléphone mobile de l’utilisateur lors de la sonnerie simultanée est configuré et le téléphone est éteint, en dehors de la batterie ou en dehors des limites et est basé sur une valeur du minuteur. Ce paramètre active et désactive l’horloge et définit la valeur de la minuterie. Il peut être configuré uniquement à l’aide de la Skype pour Business Server Management Shell. Cette fonctionnalité est désactivée par défaut.
+- **Messagerie vocale échappement** empêche les appels acheminés immédiatement au système de messagerie vocale de téléphone mobile de l’utilisateur lors de la sonnerie simultanée est configuré et le téléphone est éteint, en dehors de la batterie ou en dehors des limites et est basé sur une valeur du minuteur. Ce paramètre active et désactive l’horloge et définit la valeur de la minuterie. Il peut être configuré uniquement à l’aide de la Skype pour Business Server Management Shell. Désactivé par défaut.
     
 - **Transfert et simultanées utilisations PSTN sonneries d’appel** permet aux administrateurs de spécifier l’utilisation PSTN de même que la stratégie de voix pour le transfert d’appel et la sonnerie simultanée, limiter le transfert d’appel et la sonnerie simultanée à interne Skype pour Utilisateurs professionnels uniquement, ou spécifiez une utilisation RTC personnalisée qui est différente de l’utilisation de la stratégie voix PSTN. L’utilisation de la même utilisation PSTN que la stratégie de voix pour le transfert d’appel et la sonnerie simultanée est la valeur par défaut.
     

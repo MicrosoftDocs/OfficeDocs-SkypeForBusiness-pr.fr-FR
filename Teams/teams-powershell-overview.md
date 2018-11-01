@@ -9,12 +9,12 @@ ms.service: msteams
 description: Découvrez comment utiliser les contrôles de PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 181655609fd031da177a21e10684186ca5c52066
-ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
+ms.openlocfilehash: 84de597cc5cc6a00227cf48d9d8559f9dcb3778e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24025270"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839610"
 ---
 # <a name="teams-powershell-overview"></a>Vue d’ensemble de PowerShell équipes
 
@@ -78,10 +78,10 @@ Les configurations sont des compartiments de paramètres conservés dans le serv
 
 ## <a name="other-powershell-tools"></a>Autres outils de PowerShell
 
-Vous trouverez des instructions détaillées sur l’utilisation de tous les contrôles de PowerShell pour gérer Microsoft Teams et Skype pour les entreprises, notamment des descriptions détaillées des paramètres de chaque stratégie, dans la [référence d’applet de commande Microsoft équipes](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps) et [Skype pour Référence de l’entreprise](https://docs.microsoft.com/en-us/powershell/skype/intro?view=skype-ps).
+Vous trouverez des instructions détaillées sur l’utilisation de tous les contrôles de PowerShell pour gérer Microsoft Teams et Skype pour les entreprises, notamment des descriptions détaillées des paramètres de chaque stratégie, dans la [référence d’applet de commande Microsoft équipes](https://docs.microsoft.com/powershell/teams/?view=teams-ps) et [Skype pour Référence de l’entreprise](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
 ## <a name="learn-more"></a>En savoir plus
 
-- [Référence d’applet de commande Microsoft Teams](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)
-- [Skype pour la référence de l’entreprise](https://docs.microsoft.com/en-us/powershell/skype/intro?view=skype-ps)
+- [Référence d’applet de commande Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+- [Skype pour la référence de l’entreprise](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
 - [Utiliser les rôles d’administration Microsoft Teams pour gérer des équipes](using-admin-roles.md)

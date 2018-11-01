@@ -10,26 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: La table AppSharingStream contient des mesures de qualité de l’expérience pour les flux de réseau utilisés pour le partage d’application. Ce tableau a été introduit dans Microsoft Lync Server 2013.
-ms.openlocfilehash: e3b2f19810fbd9f68ebe848e78c032035fb49978
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: 3505467fd5e163fe2c26aca4b1ba13681c0d4ee6
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19881534"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839711"
 ---
 # <a name="appsharingstream-table"></a>Table AppSharingStream
  
 La table AppSharingStream contient des mesures de qualité de l’expérience pour les flux de réseau utilisés pour le partage d’application. Ce tableau a été introduit dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Index de la clé**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**Paramètre ConferenceDateTime** <br/> |dateTime  <br/> |Primaire, étrangère  <br/> |Date et heure de début de la session.  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Identificateur séquentiel utilisé pour faire la distinction entre les sessions qui ont débuté à la même date et en même temps.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primaire, étrangère  <br/> | Voir [Table MediaLine](https://docs.microsoft.com/en-us/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primaire, étrangère  <br/> | Voir [Table MediaLine](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
 |**StreamID** <br/> |int  <br/> |Principal  <br/> |Identificateur unique de l’application de flux de partage.  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||Gigue moyenne détectée entre les arrivées de paquets RTP. (La gigue permet de mesurer les fluctuations d’un appel.) Les valeurs de gigue élevées peuvent provenir d’une congestion ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||Gigue maximale détectée entre l’arrivée de paquets RTP. (Gigue est une mesure de « tremblement » d’un appel). Valeurs de gigue haute sont généralement causés par congestion ou un serveur multimédia surchargée et entraîner audio déformé ou perdue.  <br/> |
-|**Aller-retour** <br/> |int  <br/> ||Temps moyen (en millisecondes) nécessaire à un paquet RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre système d’extrémité. Des boucles de 200 millisecondes ou moins sont considérées qualitativement acceptables.  <br/> Des boucles de durée plus élevée peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les durées d’aller-retour élevées créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.  <br/> |
+|**RoundTrip** <br/> |int  <br/> ||Temps moyen (en millisecondes) nécessaire à un paquet RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre système d’extrémité. Des boucles de 200 millisecondes ou moins sont considérées qualitativement acceptables.  <br/> Des boucles de durée plus élevée peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les durées d’aller-retour élevées créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.  <br/> |
 |**RoundTripMax** <br/> |int  <br/> ||Quantité maximale de (en millisecondes) requise pour un paquet de Real-Time Transport Protocol à se déplacent vers un autre point de terminaison. Des boucles de 200 millisecondes ou moins sont considérées qualitativement acceptables.  <br/> Des boucles de durée plus élevée peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les durées d’aller-retour élevées créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.  <br/> |
 |**PacketLossRate** <br/> |float  <br/> ||Taux moyen de pertes de paquets RTP. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**PacketLossRateMax** <br/> |float  <br/> ||Taux maximal de perte de paquets RTP (Real-Time Transport Protocol). (La perte de paquets se produit lorsque les paquets RTP, un protocole utilisé pour la transmission audio et vidéo via Internet, n’a pas pu atteindre leur destination.) Taux de perte haute sont généralement provoquées par la congestion ; manque de bande passante ; congestion sans fil ou interférences ; ou un serveur multimédia surchargée. Perte de paquets entraîne audio déformé ou perdue.  <br/> |

@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: ddfada14916b14c374479109732dbe1fa35a0174
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
+ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017614"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25849405"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage Direct
 
@@ -74,9 +74,9 @@ Exigences d’infrastructure pour le SBCs pris en charge, les domaines et les au
 |Publique entrée DNS pour le contrôleur SBC |Une entrée DNS publique le FQDN SBC à mapper sur l’adresse IP publique. |
 |Certificat de confiance public pour le contrôleur SBC |Un certificat pour le contrôleur SBC à utiliser pour toutes les communications avec le routage Direct. Pour plus d’informations, consultez la rubrique [Public certificat approuvé pour le contrôleur SBC](#public-trusted-certificate-for-the-sbc).|
 |Points de connexion pour le routage Direct |Les points de connexion pour le routage Direct sont les noms de domaine trois complets suivants :<br/><br/>`sip.pstnhub.microsoft.com`– Nom de domaine complet global, doit être tenté en premier.<br/>`sip2.pstnhub.microsoft.com`– Nom de domaine complet secondaire, géographiquement mappe à la seconde région priorité.<br/>`sip3.pstnhub.microsoft.com`– Nom de domaine complet de troisième niveau, mappe géographiquement à la région de priorité de la troisième.<br/><br/>Pour plus d’informations sur la configuration requise, voir [de signalisation SIP : noms de domaine complets et les ports de pare-feu](#sip-signaling-fqdns-and-firewall-ports).|
-|Adresses IP de pare-feu et les ports pour le média routage Direct |Le contrôleur SBC communique avec les services suivants dans le nuage :<br/><br/>Proxy qui gère la signalisation SIP<br/>Processeur multimédia, qui gère les données multimédias-sauf lorsque le contournement de média est activé<br/><br/>Ces deux services ont des adresses IP séparées dans le Cloud Microsoft, décrit plus loin dans ce document.<br/><br/>Pour plus d’informations, voir la [section équipes Microsoft](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) dans [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+|Adresses IP de pare-feu et les ports pour le média routage Direct |Le contrôleur SBC communique avec les services suivants dans le nuage :<br/><br/>Proxy qui gère la signalisation SIP<br/>Processeur multimédia, qui gère les données multimédias-sauf lorsque le contournement de média est activé<br/><br/>Ces deux services ont des adresses IP séparées dans le Cloud Microsoft, décrit plus loin dans ce document.<br/><br/>Pour plus d’informations, voir la [section équipes Microsoft](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) dans [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Profil de Transport de média|TCP/RTP/SAVP <br/>RTP/UDP/SAVP|
-Adresses IP de pare-feu et les ports pour le média Microsoft Teams |Pour plus d’informations, voir [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+Adresses IP de pare-feu et les ports pour le média Microsoft Teams |Pour plus d'informations, reportez-vous à la rubrique [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Gestion des licences et autres composants requis 
@@ -113,7 +113,7 @@ Le tableau suivant montre des exemples de noms DNS enregistrés pour le client, 
 
 |**Nom DNS**|**Peut être utilisé pour SBC FQDN**|**Exemples de noms de domaine complets**|
 |:--- |:--- |:--- |
-Contoso.com|Oui|**Noms valides :**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>Europe.contoso.com|
+contoso.com|Oui|**Noms valides :**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>Europe.contoso.com|
 |Contoso.onmicrosoft.com|Non|<br/>À l’aide de *. onmicrosoft.com domaines n’est pas pris en charge pour les noms de SBC
 
 Supposons que vous souhaitez utiliser un nouveau nom de domaine. Par exemple, votre client a contoso.com comme un nom de domaine enregistré dans votre client, et que vous souhaitez utiliser sbc1.sip.contoso.com. Avant de vous pouvez coupler un contrôleur SBC avec le nom sbc1.sip.contoso.com, vous devez enregistrer le sip.contoso.com de nom de domaine dans « Domaines » dans votre client. Si vous essayez de jumelage un contrôleur SBC avec sbc1.sip.contoso.com avant d’enregistrer le nom de domaine, vous obtiendrez le message d’erreur suivant : « Impossible d’utiliser le domaine « sbc1.sip.contoso.com » comme il n’a pas été configuré pour ce client. »
@@ -221,16 +221,12 @@ La plage de ports des processeurs multimédia est indiquée dans le tableau suiv
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Prise en charge des contrôleurs de frontière de Session (SBC)
 
-Microsoft prend uniquement en charge le contrôleur SBC certifié pour établir une association avec le routage Direct. Enterprise Voice est essentielle pour les entreprises, Microsoft exécute des tests intensives avec les SBCs sélectionnés et fonctionne avec les fournisseurs SBC pour garantir les deux systèmes est compatibles. 
+Microsoft prend uniquement en charge SBCs certifiées pour établir une association avec le routage Direct. Enterprise Voice est essentielle pour les entreprises, Microsoft exécute des tests intensives avec les SBCs sélectionnés et fonctionne avec les fournisseurs SBC pour garantir les deux systèmes est compatibles. 
 
-Les périphériques qui ont été validées sont répertoriés comme certifié pour les équipes de routage Direct. Les périphériques certifiés sont garanties pour fonctionner dans tous les scénarios. Il existe également un processus de support commun entre Microsoft et les fournisseurs SBC établies.  
+Les périphériques qui ont été validées sont répertoriés comme certifié pour les équipes de routage Direct. Les périphériques certifiés sont garanties pour fonctionner dans tous les scénarios. 
 
-Les fournisseurs suivants sont en cours de certification :
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Communications de ruban (anciennement Sonus) :
-   - [Série de SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC Core Series](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
-- ThinkTel : ThinkTel ne vend pas les SBCs pour les entreprises, mais leur SBC est en cours certifié.  
+Pour plus d’informations sur SBCs pris en charge, voir [liste de contrôleurs de frontière de Session certifié pour le routage Direct](direct-routing-border-controllers.md).
+
  
 ## <a name="see-also"></a>Voir aussi
 

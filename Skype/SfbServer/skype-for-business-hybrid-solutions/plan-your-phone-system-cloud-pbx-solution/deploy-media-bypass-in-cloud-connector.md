@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lisez cette rubrique pour en savoir plus sur les étapes nécessaires pour déployer le contournement de média avec le nuage connecteur Edition version 2.0 et versions ultérieure.
-ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375498"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839071"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Déployer le contournement de média dans le nuage connecteur Edition
  
@@ -28,11 +28,11 @@ Le contournement de média permet au client d’envoyer des données multimédia
   
 ## <a name="enable-media-bypass"></a>Activer la déviation du trafic multimédia
 
-Pour activer le contournement de média, vous devez configurer le nom DNS du service web de contournement de média et activer le contournement de média dans la configuration du client. Le service web de déviation du trafic multimédia déploie automatiquement sur chaque serveur de médiation. Un administrateur doit choisir un nom d’un service de voix hybride (site), et ce nom doit être d’un domaine SIP enregistré pour voix hybride. Le nom du service doit être la même sur tous les appareils de nuage connecteur et tous les sites PSTN quel que soit l’emplacement du client. Le service web doit être uniquement disponible en interne sur le réseau.
+Pour activer la déviation du trafic multimédia, vous devez configurer le nom DNS du service web de déviation du trafic multimédia et activer la déviation du trafic multimédia dans la configuration de client. Le service web de déviation du trafic multimédia se déploie automatiquement sur chaque serveur de médiation. Un administrateur de client doit choisir un nom pour un service de voix hybride (site) et ce nom doit provenir d'un domaine SIP inscrit pour la voix hybride. Le nom du service doit être la même sur tous les appareils de nuage connecteur et tous les sites PSTN quel que soit l’emplacement du client. Le service web doit être disponible uniquement en interne sur le réseau.
   
-Un administrateur doit configurer un enregistrement DNS A dans la production Active Directory interne. Si vous avez un environnement complexe de plusieurs site, consultez l’exemple dans [exemple : site web les enregistrements DNS dans les environnements multisites du contournement de média](deploy-media-bypass-in-cloud-connector.md#Example). L’enregistrement DNS doit résoudre uniquement pour les clients du réseau interne ; Il ne doit pas résolu pour les clients de réseau externe.
+Un administrateur client doit configurer un enregistrement DNS A dans la production interne Active Directory. Si vous avez un environnement complexe de plusieurs site, consultez l’exemple dans [exemple : site web les enregistrements DNS dans les environnements multisites du contournement de média](deploy-media-bypass-in-cloud-connector.md#Example). L'enregistrement DNS doit uniquement résoudre les clients du réseau interne, il ne doit pas résoudre les clients du réseau externe.
   
-Après la configuration de DNS, connectez-vous à Skype pour Business Online à l’aide de PowerShell à distance avec Skype pour les informations d’identification d’administrateur d’entreprise. Pour plus d’informations, consultez [connexion à Skype pour Business Online à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Après avoir configuré le DNS, connectez-vous à Skype Entreprise Online en utilisant PowerShell à distance avec les informations d'identification d'administrateur Skype Entreprise. Pour plus d'informations, reportez-vous à la rubrique [Se connecter à Skype Entreprise Online en utilisant Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 Dans la session PowerShell, entrez les commandes suivantes pour activer la déviation du trafic multimédia :
   
@@ -42,10 +42,9 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enable
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-Activer le contournement de média est un processus en deux étapes. L’applet de commande New-CsNetworkMedia n’enregistre pas immédiatement la nouvelle configuration ; Il crée les paramètres en mémoire. L’objet créé par cette applet de commande doit être enregistré dans une variable, puis affecté à la propriété MediaBypassSettings de la configuration réseau. Pour plus d’informations, voir [exemple : site web les enregistrements DNS dans les environnements multisites du contournement de média](deploy-media-bypass-in-cloud-connector.md#Example).
+Activer la déviation du trafic multimédia en deux étapes. L'applet de commande New-CsNetworkMedia n'enregistre pas immédiatement la nouvelle configuration, elle crée uniquement les paramètres en mémoire. L'objet créé par cette applet de commande doit être enregistré vers une variable, puis affecté à la propriété MediaBypassSettings de la configuration réseau. Pour plus d’informations, voir [exemple : site web les enregistrements DNS dans les environnements multisites du contournement de média](deploy-media-bypass-in-cloud-connector.md#Example).
   
-La réplication entre les composants locaux et en ligne peut prendre jusqu'à 24 heures, c'est pourquoi Microsoft vous recommande d'exécuter les commandes nécessaires avant d'activer les utilisateurs. 
-
+La réplication entre les composants locaux et en ligne peut prendre jusqu'à 24 heures, c'est pourquoi Microsoft vous recommande d'exécuter les commandes nécessaires avant d'activer les utilisateurs.
   
 ## <a name="confirm-media-bypass-settings"></a>Confirmer les paramètres de déviation du trafic multimédia
 
@@ -66,10 +65,9 @@ Get-CsNetworkConfiguration -LocalStore
 
 Pour vérifier les paramètres du client, vous déconnecter le Skype pour client d’entreprise, vous reconnecter et vérifiez que le client a reçu l’URL de service comme suit :
   
-1. Ouvrez %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog.  
+1. Ouvrez %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog. 
     
 2. Recherchez hybridconfigserviceinternalurl et confirmez que l'URL correspond à celle que vous avez définie.
-
     
 ## <a name="change-media-bypass-parameters"></a>Modifier les paramètres de déviation du trafic multimédia
 
@@ -91,7 +89,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-Après avoir apporté les modifications, elle peut prendre du temps pour les modifications soient répliquées dans tous les connecteurs dans le nuage. Pour vérifier l’état de réplication, exécutez la cmdlet suivante dans PowerShell sur les serveurs de médiation de connecteur dans le nuage : 
+Après avoir effectué la modification, la réplication de toutes les modifications sur tous les Cloud Connectors peut prendre du temps. Pour vérifier l’état de réplication, exécutez la cmdlet suivante dans PowerShell sur les serveurs de médiation de connecteur dans le nuage : 
   
 ```
 Get- CsNetworkConfiguration -LocalStore
@@ -101,7 +99,7 @@ Lorsque les modifications sont répliquées, le service web sur le serveur de m�
   
 ## <a name="disable-media-bypass-permanently"></a>Désactiver la déviation du trafic multimédia de façon permanente
 
-Pour désactiver la déviation du trafic multimédia de façon permanente, un administrateur client doit exécuter les commandes suivantes :  
+Pour désactiver la déviation du trafic multimédia de façon permanente, un administrateur client doit exécuter les commandes suivantes : 
   
 ```
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
@@ -109,14 +107,14 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 
 ```
 
-Un administrateur devra également supprimer les adresses web pour le contournement de média à partir des serveurs DNS internes. Après avoir apporté les modifications, elle peut prendre du temps pour les modifications soient répliquées dans tous les appareils de nuage connecteur. 
+Un administrateur devra également supprimer les adresses web pour la déviation du trafic multimédia des serveurs DNS internes. Après avoir apporté les modifications, elle peut prendre du temps pour les modifications soient répliquées dans tous les appareils de nuage connecteur. 
   
 ## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>Exemple : enregistrements DNS de sites seb de déviation du trafic multimédia dans des environnements multisites complexes
 <a name="Example"> </a>
 
-Les clients recevront l’adresse web du service web de contournement de média à partir d’un serveur DNS interne. Le nom du service web sera la même pour tous les appareils nuage connecteur et sites nuage connecteur PSTN. Dans un environnement à plusieurs site complexe, nous vous recommandons d’à l’aide de la stratégie de DNS Windows 2016 pour la gestion de trafic en fonction de géolocalisation, afin que les clients peuvent être redirigés vers le service web qui est local pour leur réseau. 
+Les clients recevront l'adresse web du service web de déviation du trafic multimédia depuis un serveur DNS interne. Le nom du service web sera la même pour tous les appareils nuage connecteur et sites nuage connecteur PSTN. Dans un environnement multisite complexe, nous vous recommandons d'utiliser la stratégie DNS de gestion du trafic basée sur la géolocalisation de Windows Server 2016 afin que les clients puissent être redirigés vers le service web local de leur réseau. 
   
-Pour plus d’informations sur les stratégies de DNS Windows 2016, voir [Utiliser la stratégie DNS pour la gestion d’un trafic en fonction de géolocalisation avec les serveurs principaux](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/primary-geo-location).
+Pour plus d’informations sur les stratégies de DNS Windows 2016, voir [Utiliser la stratégie DNS pour la gestion d’un trafic en fonction de géolocalisation avec les serveurs principaux](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).
   
 Voici un exemple de configuration pour une entreprise avec plusieurs sites utilisant une stratégie DNS de gestion du trafic basée sur la géolocalisation de Windows Server 2016.
   

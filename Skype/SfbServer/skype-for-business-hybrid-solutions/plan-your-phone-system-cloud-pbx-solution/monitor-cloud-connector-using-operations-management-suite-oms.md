@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lisez cette rubrique pour savoir comment surveiller votre version de nuage connecteur 2.1 et de déploiement ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 19946c0d7701d2fd31c1b41cae58e08cfdf4c52d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 36d70a1504eab085d319e46d03c3c6f0bd9d14f3
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372187"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839822"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Surveiller le connecteur de nuage à l’aide de la Suite de gestion des opérations (OMS)
 
 Lisez cette rubrique pour savoir comment surveiller votre version de nuage connecteur 2.1 et de déploiement ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
 
-Vous pouvez maintenant surveiller votre version de nuage connecteur 2.1 et de déploiement ultérieure à l’aide des opérations de gestion de Suite (OMS), un solution de gestion informatique en nuage de Microsoft. OMS journal Analytique vous permet de surveiller et d’analyser la disponibilité et les performances des ressources, y compris physiques et les machines virtuelles. Pour plus d’informations sur OMS et journal Analytique, voir [Quelle est la Suite de gestion des opérations (OMS) ?](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview).
+Vous pouvez maintenant surveiller votre version de nuage connecteur 2.1 et de déploiement ultérieure à l’aide des opérations de gestion de Suite (OMS), un solution de gestion informatique en nuage de Microsoft. OMS journal Analytique vous permet de surveiller et d’analyser la disponibilité et les performances des ressources, y compris physiques et les machines virtuelles. Pour plus d’informations sur OMS et journal Analytique, voir [Quelle est la Suite de gestion des opérations (OMS) ?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview).
 
 Cette rubrique contient les sections suivantes :
 
@@ -39,11 +39,11 @@ Cette rubrique contient les sections suivantes :
 
 Avant de pouvoir utiliser OMS pour analyser votre déploiement en nuage connecteur, vous devez les éléments suivants :
 
-- **Un compte Azure et un espace de travail OMS.** Si vous ne disposez pas d’un compte Azure, vous devrez créer un pour utiliser OMS journal Analytique. Pour plus d’informations sur la façon de créer un compte Azure et configurer un espace de travail OMS, voir [Démarrer avec un espace de travail journal Analytique](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started).
+- **Un compte Azure et un espace de travail OMS.** Si vous ne disposez pas d’un compte Azure, vous devrez créer un pour utiliser OMS journal Analytique. Pour plus d’informations sur la façon de créer un compte Azure et configurer un espace de travail OMS, voir [Démarrer avec un espace de travail journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started).
 
 - **Nuage connecteur 2.1 ou version ultérieure**
 
-- **Recherche de journal de journal Analytique** est requis pour la surveillance du connecteur sur le nuage. Pour plus d’informations, voir [l’espace de travail Azure journal Analytique nouvelle recherche de journal de mise à niveau](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-search-upgrade).
+- **Recherche de journal de journal Analytique** est requis pour la surveillance du connecteur sur le nuage. Pour plus d’informations, voir [l’espace de travail Azure journal Analytique nouvelle recherche de journal de mise à niveau](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search-upgrade).
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>Configurer le connecteur sur le nuage pour utiliser OMS
 
@@ -103,7 +103,7 @@ Dans le portail OMS, vous devez spécifier les informations sur les journaux des
      > [!NOTE]
      > Vous devez entrer manuellement Lync Server dans la zone de texte. Il n’apparaît pas en tant qu’option dans la liste déroulante. 
 
-     Pour plus d’informations, voir [les sources de données de journal des événements Windows dans le journal Analytique](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-windows-events)
+     Pour plus d’informations, voir [les sources de données de journal des événements Windows dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
 
 2. Accédez à paramètres -\>données -\> les compteurs de performances de Windows, et ajoutez des compteurs de performance pour : 
 
@@ -126,11 +126,11 @@ Dans le portail OMS, vous devez spécifier les informations sur les journaux des
      > [!NOTE]
      > Vous devez entrer manuellement les compteurs de performance dans la zone de texte. Ils n’apparaissent pas en tant qu’options dans la liste déroulante. 
 
-     Pour plus d’informations, voir les [sources de données de performances Windows et Linux dans journal Analytique](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     Pour plus d’informations, voir les [sources de données de performances Windows et Linux dans journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### <a name="create-alerts"></a>Créer des alertes
 
-Il existe deux types d’alertes dans OMS : nombre de résultats alertes et mesure métrique. Pour plus d’informations sur la création des alertes, voir [utilisation des règles d’alerte dans le journal Analytique](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts-creating).
+Il existe deux types d’alertes dans OMS : nombre de résultats alertes et mesure métrique. Pour plus d’informations sur la création des alertes, voir [utilisation des règles d’alerte dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts-creating).
 
 Lors de la création des alertes, tenez compte des éléments suivants :
 
@@ -158,7 +158,7 @@ Pour créer cette paire de l’alerte :
 
     La requête utilise le filtre d’ordinateur *où ordinateur contient « MediationServer »* . Le filtre sélectionne uniquement l’ordinateur dont le nom contient la chaîne « MediationServer ».
 
-     Vous souhaiteriez remplacer le filtre par le filtre de votre propre ordinateur ou simplement le supprimer. Vous pouvez créer des filtres de chaîne complexe sans les expressions régulières. Pour plus d’informations, voir [opérateurs de chaîne](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). Vous pouvez également choisir d’utiliser des expressions régulières. En outre, vous pouvez créer un groupe d’ordinateurs en enregistrant une requête de recherche à l’aide de ce groupe comme filtre de votre ordinateur dans votre requête de l’alerte. Pour plus d’informations, voir [groupes d’ordinateurs dans le journal Analytique connecter des recherches](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-computer-groups).
+     Vous souhaiteriez remplacer le filtre par le filtre de votre propre ordinateur ou simplement le supprimer. Vous pouvez créer des filtres de chaîne complexe sans les expressions régulières. Pour plus d’informations, voir [opérateurs de chaîne](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). Vous pouvez également choisir d’utiliser des expressions régulières. En outre, vous pouvez créer un groupe d’ordinateurs en enregistrant une requête de recherche à l’aide de ce groupe comme filtre de votre ordinateur dans votre requête de l’alerte. Pour plus d’informations, voir [groupes d’ordinateurs dans le journal Analytique connecter des recherches](https://docs.microsoft.com/azure/log-analytics/log-analytics-computer-groups).
 
     Pour chaque ordinateur, l’erreur de la requête sera obtenir le dernier journal des événements pour les deux le démarrage du service RTCMEDSRV et arrêt de service. Il renverra une session si le dernier événement est l’événement stop service ; Il ne renvoie rien si le dernier événement est l’événement de démarrage du service. En résumé, la requête retourne une liste de serveurs dont RTCMEDSRV est arrêté dans la fenêtre de temps. 
 
@@ -202,7 +202,7 @@ La requête obtiendra tous les compteurs d’utilisation de processeur et évén
 
 ## <a name="analyze-the-alerts-in-your-log-analytics-repository"></a>Analyser les alertes dans le référentiel de journal Analytique
 
-Pour analyser les alertes dans le référentiel, utilisez la solution de gestion des alertes. Pour plus d’informations, voir la [solution de gestion de l’alerte dans la Suite Gestion des opérations (OMS)](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-solution-alert-management)
+Pour analyser les alertes dans le référentiel, utilisez la solution de gestion des alertes. Pour plus d’informations, voir la [solution de gestion de l’alerte dans la Suite Gestion des opérations (OMS)](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management)
 
 ## <a name="recommended-minimal-monitoring-set"></a>Jeu de surveillance minimum recommandé
 
@@ -216,7 +216,7 @@ Le tableau suivant répertorie les services que Microsoft vous recommande de sur
 
 |Nom de service  <br/> |Rôle de serveur cible  <br/> |Arrêter l’ID d’événement  <br/> |ID d’événement Démarrer  <br/> |
 |:-----|:-----|:-----|:-----|
-|RTCMEDSRV  <br/> |Serveur de médiation  <br/> |25003  <br/> |25002  <br/> |
+|RTCMEDSRV  <br/> |serveur de médiation  <br/> |25003  <br/> |25002  <br/> |
 |RTCSRV  <br/> |Serveur Edge  <br/> |12289  <br/> |12288  <br/> |
 |RTCMRAUTH  <br/> |Serveur Edge  <br/> |19003  <br/> |19002  <br/> |
 |RTCMEDIARELAY  <br/> |Serveur Edge  <br/> |22003  <br/> |22002  <br/> |
@@ -226,8 +226,8 @@ Le tableau suivant répertorie les problèmes de réseau Microsoft vous recomman
 
 | Nom de l’analyseur  <br/>                                        | Rôle de serveur cible  <br/> | Expression d’ID d’événement de réussite  <br/> | Expression de l’ID d’événement d’erreur  <br/> | Exemple de défaillance  <br/> |
 |:-----------------------------------------------------------|:--------------------------|:-----------------------------------|:---------------------------------|:-----------------------|
-| Échec de connectivité de passerelle du serveur de médiation  <br/>    | Serveur de médiation  <br/>   | 25062                              |                                  | 25002  <br/>           |
-| Serveur de médiation vers passerelle Échec de fin d’appel  <br/> | Serveur de médiation  <br/>   | 25064                              |                                  | 25002  <br/>           |
+| Échec de connectivité de passerelle du serveur de médiation  <br/>    | serveur de médiation  <br/>   | 25062                              |                                  | 25002  <br/>           |
+| Serveur de médiation vers passerelle Échec de fin d’appel  <br/> | serveur de médiation  <br/>   | 25064                              |                                  | 25002  <br/>           |
 | Problèmes de réseau  <br/>                           | Serveur Edge  <br/>        | 14353                              |                                  | 12288  <br/>           |
 
 Voici les compteurs de la capacité d’appel qui doivent être surveillées. Ces numéros doit être inférieure 500 pour standard edition de nuage connecteur ; inférieur à 50 pour édition minimale nuage connecteur.
@@ -244,12 +244,12 @@ Voici les compteurs de la capacité d’appel qui doivent être surveillées. Ce
 
 Pour plus d’informations sur l’utilisation des OMS, voir :
 
-- [Rechercher des données à l’aide de recherches de journal dans le journal Analytique](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-searches)
+- [Rechercher des données à l’aide de recherches de journal dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-searches)
 
 - [Référence du langage Analytique journal Azure](https://docs.loganalytics.io/docs/Language-Reference)
 
-- [Présentation des alertes dans le journal Analytique](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts)
+- [Présentation des alertes dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)
 
-- [Connecter des ordinateurs Windows au service journal Analytique dans Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents)
+- [Connecter des ordinateurs Windows au service journal Analytique dans Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)
 
 

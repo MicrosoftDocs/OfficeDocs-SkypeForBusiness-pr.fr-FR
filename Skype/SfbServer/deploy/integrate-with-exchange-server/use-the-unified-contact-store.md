@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 'Résumé : Configurez le magasin de contacts unifié pour Exchange Server et Skype pour Business Server.'
-ms.openlocfilehash: 6dccf6b2e6461ede26f49fa9efb3386bd04a9db3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ebed3e81b12718ae053b4482455cf38bd844799c
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988768"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839837"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Configuration de Skype Entreprise Server pour utiliser le magasin de contacts unifié
  
@@ -31,7 +31,7 @@ Les utilisateurs à l’aide du magasin de contacts unifié, mettre à jour une 
 
 Si l’authentification de serveur à serveur entre Skype pour Business Server et Exchange Server est déjà configurée, puis vous avez également activé le magasin de contacts unifié ; Aucune configuration de serveur supplémentaire est requise. Cependant, il est nécessaire de configurer des comptes utilisateur supplémentaires pour déplacer les contacts d’un utilisateur dans le magasin de contacts unifié. Par défaut, les contacts de l’utilisateur sont conservés dans Skype pour Business Server et non dans le magasin de contacts unifié.
   
-Accès au magasin de contacts unifié est géré à l’aide de Skype pour les stratégies des services Business Server utilisateur. Les stratégies de services d’utilisateurs ne possèdent qu’une seule propriété (UcsAllowed) ; celle-ci permet de déterminer l’emplacement dans lequel les contacts de l’utilisateur sont stockés. Si un utilisateur est géré par une stratégie de services d’utilisateurs où UcsAllowed a la valeur True ($True), les contacts de l’utilisateur sont stockés dans le magasin de contacts unifié. Si l’utilisateur est géré par stratégie où paramètre UcsAllowed a la valeur False ($False), puis ses contacts seront stockés dans Skype pour Business Server de services d’un utilisateur.
+Accès au magasin de contacts unifié est géré à l’aide de Skype pour les stratégies des services Business Server utilisateur. Les stratégies de services d’utilisateurs ne possèdent qu’une seule propriété (UcsAllowed) ; celle-ci permet de déterminer l’emplacement dans lequel les contacts de l’utilisateur sont stockés. Si un utilisateur est géré par une stratégie de services utilisateur où le paramètre UcsAllowed a été défini sur True ($True) contacts de l’utilisateur seront stockés dans le magasin de contacts unifié. Si l’utilisateur est géré par stratégie où paramètre UcsAllowed a la valeur False ($False), puis ses contacts seront stockés dans Skype pour Business Server de services d’un utilisateur.
   
 Lorsque vous installez Skype pour Business Server, une stratégie de services utilisateur unique (configurée dans l’étendue globale) est également installée. La valeur UcsAllowed dans cette stratégie a la valeur True, ce qui signifie que les contacts de l’utilisateur sont stockés par défaut dans le magasin de contacts unifié (en supposant que celui-ci ait été déployé et configuré). Si vous voulez migrer tous vos contacts utilisateurs vers le magasin de contacts unifié, vous n’avez aucune tâche à effectuer. 
   

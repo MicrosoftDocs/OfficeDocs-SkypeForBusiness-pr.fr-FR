@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Gérer les mises à jour Windows pour salle Skype systèmes v2
-ms.openlocfilehash: 5765f99a247edcb6287878d4cda1154ec00782f4
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 4b1b0bc27be3f8277fde0c641efe5359ca002d65
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25705669"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839704"
 ---
 # <a name="manage-windows-updates"></a>Gérer les mises à jour Windows
 
@@ -30,13 +30,13 @@ Mises à jour Windows peut être géré de différentes manières :
 - Qualité des mises à jour et des pilotes de télécharger et installer le premier jour automatiquement. 
 - Mises à jour de la fonctionnalité. Voir les remarques supplémentaires ci-dessous. 
 
-## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomen-uswindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Mises à jour de Windows pour les entreprises](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-wufb) (Stratégie de groupe ou Intune)   
+## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Mises à jour de Windows pour les entreprises](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (Stratégie de groupe ou Intune)   
 - Mises à jour sont téléchargées à partir de Windows Update ou votre WSUS, mais avec des retards configurés après la date de publication d’origine de la base de connaissances. 
 - Combinée à plusieurs unités d’organisation ou filtrée des stratégies, il permet la création de déploiement « sonne », où les administrateurs peuvent spécifier quels appareils installez d’abord les mises à jour de la qualité et qui ceux installe ultérieurement. Ainsi, la fiabilité et les performances test sur un sous-ensemble de systèmes avant de déployer des mises à jour sur l’ensemble du déploiement sans la charge de la gestion des mises à jour dans SCCM par exemple.
-- WSUS et mises à jour de Windows pour les entreprises peuvent être [configuré en même temps](https://docs.microsoft.com/en-us/windows/deployment/update/waas-integrate-wufb) si vous le souhaitez à la fois gestion de bande passante et le contrôle des mises à jour Windows pour les entreprises fournit.
+- WSUS et mises à jour de Windows pour les entreprises peuvent être [configuré en même temps](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) si vous le souhaitez à la fois gestion de bande passante et le contrôle des mises à jour Windows pour les entreprises fournit.
 - Mises à jour de la fonctionnalité. Voir les remarques supplémentaires ci-dessous.
 
-## <a name="wsussccmhttpsdocsmicrosoftcomen-uswindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-configuration-manager)
+## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 - Comme Windows Update pour les entreprises, mais avec l’option supplémentaire de ciblage spécifique Ko dans chaque « anneau » ou la totalité du déploiement. Chaque mise à jour peut être individuellement déployés et testée à volonté, plutôt que d’utiliser sur un retard seulement. 
 - Mises à jour de la fonctionnalité. Voir les remarques supplémentaires ci-dessous.
 

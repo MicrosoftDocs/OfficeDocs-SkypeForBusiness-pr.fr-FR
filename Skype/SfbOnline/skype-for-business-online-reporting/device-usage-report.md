@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser la Skype pour le rapport d’utilisation des périphériques Business pour afficher les périphériques, y compris les systèmes d’exploitation Windows et les appareils mobiles, dont le Skype pour l’application de gestion installés et utilisent pour la messagerie instantanée et réunions. Consultez la rubrique Rapports sur les activités dans le centre d’administration d’Office 365 pour en savoir plus.
-ms.openlocfilehash: 72d700f5e3c63fde3f4a17f6a652643695303a8d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3d5561bfe0f2a2c5b6900c7cf6a1e92d63741992
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863382"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838679"
 ---
 # <a name="device-usage-report"></a>Rapport d'utilisation de dispositif
 
-Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour l’utilisation du périphérique Business** pour afficher les périphériques, y compris les systèmes d’exploitation Windows et les appareils mobiles, dont le Skype pour l’application de gestion installés et utilisent pour la messagerie instantanée et réunions. 
+**Rapports**, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour l’utilisation du périphérique Business** pour afficher les périphériques, y compris les systèmes d’exploitation Windows et les appareils mobiles, dont le Skype pour l’application de gestion installés et utilisent pour la messagerie instantanée et réunions. 
 
 Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour en savoir plus.
   
@@ -67,7 +67,7 @@ Chaque rapport comporte la date à laquelle il a été généré. Les rapports r
 ***
 ![Numéro 4](../images/sfbcallout4.png)<br/>Utiliser les données de graphique interactif sur le graphique à barres **Distribution** de comprendre l’utilisation pour afficher le nombre d’utilisateurs à l’aide de périphériques uniques dans votre organisation. Il vous indiquera le nombre total de **Windows**, **Windows Phone**, **Android phone**, **iPhone**et **iPad** utilisateurs avec un appareil utilisé. 
 ***
-!["Nombre 5"](../images/sfbcallout5.png)<br/>Vous pouvez filtrer la série présentée dans le graphique en cliquant sur un élément dans la légende. Par exemple, dans le graphique **d’utilisateurs** , cliquez sur ou cliquez sur **Windows**, **Windows Phone**, **téléphone Android**, **iPhone**, **iPad** pour afficher uniquement les informations relatives à chacun d’eux. Modifier cette sélection ne change pas les informations dans le tableau. 
+!["Nombre 5"](../images/sfbcallout5.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. Par exemple, dans le graphique **d’utilisateurs** , cliquez sur ou cliquez sur **Windows**, **Windows Phone**, **téléphone Android**, **iPhone**, **iPad** pour afficher uniquement les informations relatives à chacun d’eux. Changing this selection doesn't change the info in the grid table. 
 ***
 ![Numéro 6](../images/sfbcallout6.png)<br/>Chaque graphique a un axe « X » (horizontal) et « Y » (vertical).
 *    Dans le graphique **d’utilisateurs** , l’axe des Y sont le nombre total d’utilisateurs connectés à un périphérique dont le Skype pour Business application installée.
@@ -96,7 +96,7 @@ Si les stratégies de votre organisation vous empêche l’affichage des rapport
     
 - [Skype Business conférence organisateur rapport d’activité](conference-organizer-activity-report.md) Vous pouvez voir combien vos utilisateurs sont organiser des conférences qui utilisent la messagerie instantanée, audio/vidéo, partage d’applications, le site Web, dial-in/out - 3ème partie et dial-in/out - Microsoft.
     
-- [Skype Business conférence participant rapport d’activité](conference-participant-activity-report.md) Vous pouvez voir combien par messagerie instantanée, audio/vidéo, partage d’applications, Web et et les conférences rendez-vous dans/conférence sont participés.
+- [Skype Business conférence participant rapport d’activité](conference-participant-activity-report.md) Vous pouvez voir le partage d’application audio/vidéo, messagerie instantanée, le nombre, Web et les conférences rendez-vous dans/conférence sont en cours ont participé.
     
 - [Skype pour le rapport des activités d’égal à égal professionnels](peer-to-peer-activity-report.md) Vous pouvez voir combien vos utilisateurs sont à l’aide de messagerie instantanée, audio/vidéo, partage d’application et de transfert de fichiers.
     
