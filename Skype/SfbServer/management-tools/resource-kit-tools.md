@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Cette rubrique décrit les outils dans le Skype pour le Kit de ressources 2015 Business Server, y compris l’objectif de chaque outil et des exemples de son utilisation. Le Skype pour le Kit de ressources Business Server 2015 contribue à simplifier les tâches de routine pour les administrateurs informatiques qui déploient et gèrent Skype pour Business Server 2015. Par exemple, l’outil Web Conf Data permet de contrôler aisément les données téléchargées par les utilisateurs au cours d’une réunion en ligne. L’outil SEFAUtil permet de définir le transfert des appels de délégué et le répondeur automatique pour les utilisateurs. Nous recommandons d’utiliser ces outils pour gérer plus efficacement Skype pour Business Server 2015, les administrateurs informatiques.
-ms.openlocfilehash: 3f36edc42541dfcc9b652eb16d5062277277cbc0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d58ba07a06b29ffe03eadc38beb55d3cb623b8cd
+ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372779"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25942871"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentation sur les outils du Kit de ressources techniques Skype Entreprise Server 2015
 
@@ -1054,11 +1054,16 @@ L’outil SEFAUtil peut seulement être exécuté sur un ordinateur faisant part
 2. Une application approuvée doit être définie dans la topologie pour l’outil SEFAUtil. Pour définir SEFAUtil comme une nouvelle application approuvée, utilisez le Skype pour Business Server Management Shell et exécutez l’applet de commande suivante :
 
    ```
-   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
+   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
    ```
 
     > [!NOTE]
     > Un autre port peut être utilisé au besoin.
+    
+    > [!NOTE]
+    > Nom de domaine complet de pool : Nom de domaine complet du serveur ou du pool qui hébergera l’application SEFAUtil (généralement un Skype pour le serveur frontal Business > ou du pool).
+    > Registrar nom de domaine complet de pool : Nom de domaine complet de le Skype pour Business frontal ou pool associé à ce pool d’applications.
+    > Site de pool : L’ID de Site du site sur lequel ce pool est hébergé.
 
 3. Les modifications apportées à la topologie doivent être activées. Les modifications de topologie peut être activé via le Skype pour Business Server Management Shell en exécutant l’applet de commande suivante :
 

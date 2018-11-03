@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Vérifier le succès de votre déploiement Response Group, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 4832b64d6bf4d26dd9d4cba10e46ef78b3f3b396
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ebf8e9960b26dfa0da256e0ea26e356648cbe356
+ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374815"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25942850"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Facultatif) Déploiement d’un groupe de réponse vérifier dans Skype pour les entreprises
  
@@ -38,5 +38,8 @@ Après avoir configuré Response Group, vous devez vérifier la configuration po
 - L’utilisateur externe appelle le service Response Group.
     
 - Un utilisateur appelle le service Response Group pendant que l’agent traite un autre appel. L’appel de l’utilisateur est alors transmis à la file d’attente.
+
+    > [!NOTE]
+    > Si le service response group ne fonctionne pas comme prévu, consultez lien suivant :https://support.office.com/en-us/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
     
 

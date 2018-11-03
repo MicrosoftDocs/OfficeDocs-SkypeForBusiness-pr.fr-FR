@@ -3,7 +3,7 @@ title: Présentation des équipes et des canaux dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 11/02/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 552d6f084de369ce87f3e1e44d4e3ebc968b06ea
+ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699309"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25942814"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 =================================================
@@ -83,3 +83,6 @@ Il est possible de créer des équipes alignées sur la structure de l’organis
 
 ![Diagramme d'une hiérarchie de l'organisation des équipes et des canaux dans Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
+## <a name="org-wide-teams"></a>Équipes à l’échelle de l’organisation
+
+Si votre organisation a pas plus de 1 000 utilisateurs, vous pouvez créer une équipe à l’échelle de l’organisation. Les équipes à l’échelle de l’organisation offrent un moyen automatique pour tout le monde dans une organisation doit faire partie d’une équipe unique pour la collaboration. Pour plus d’informations, notamment les meilleures pratiques pour la création et gestion d’une équipe à l’échelle de l’organisation, voir [créer une équipe à l’échelle de l’organisation dans les équipes Microsoft](create-an-org-wide-team.md).

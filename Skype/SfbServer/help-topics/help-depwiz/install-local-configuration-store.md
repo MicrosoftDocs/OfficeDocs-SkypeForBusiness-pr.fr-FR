@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 description: Pour commencer l’installation d’un nouveau Skype pour le serveur de rôle Business Server 2015, vous devez d’abord installer le serveur SQL local qui va héberger le magasin de configurations local. Le magasin de configurations local agira comme un réplica en lecture seule de la Skype pour le magasin Central de gestion de Business Server (CMS). Vous devez être connecté au serveur décrit à l’étape Installer le magasin de configurations local en tant qu’administrateur local de l’ordinateur ; en outre, vous devez être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Si vous effectuez l’installation sur un serveur Edge, vous n’avez pas besoin d’être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Le document de définition du Générateur de topologie est lu à partir du document exporté définition plutôt qu’à partir du magasin Central de gestion. Pour exporter le document de définition du Générateur de topologie et la rendre disponible pour les serveurs de périphérie, consultez la rubrique Exporter votre topologie et les copie il sur un support externe de l’Installation Edge.
-ms.openlocfilehash: e25e43fbcd1001460d7b001d914e1801558af4f1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f9abb450b03aae7b7b188f527069a6a5b268a30f
+ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253096"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25942857"
 ---
 # <a name="install-local-configuration-store"></a>Installer le magasin de configurations local
 
-Pour commencer l’installation d’un nouveau Skype pour le serveur de rôle Business Server 2015, vous devez d’abord installer le serveur SQL local qui va héberger le magasin de configurations local. Le magasin de configurations local agira comme un réplica en lecture seule de la Skype pour le magasin Central de gestion de Business Server (CMS). Vous devez être connecté au serveur décrit à l’étape **Installer le magasin de configurations local** en tant qu’administrateur local de l’ordinateur ; en outre, vous devez être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Si vous effectuez l’installation sur un serveur Edge, vous n’avez pas besoin d’être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Le document de définition du Générateur de topologie est lu à partir du document exporté définition plutôt qu’à partir du magasin Central de gestion. Pour exporter le document de définition du Générateur de topologie et la rendre disponible pour les serveurs de périphérie, consultez la rubrique[exporter votre topologie et copie sur un support externe de l’Installation Edge](https://technet.microsoft.com/library/def9f416-c519-4a72-b242-7d3057d9c1fd.aspx).
+Pour commencer l’installation d’un nouveau Skype pour le serveur de rôle Business Server 2015, vous devez d’abord installer le serveur SQL local qui va héberger le magasin de configurations local. Le magasin de configurations local agira comme un réplica en lecture seule de la Skype pour le magasin Central de gestion de Business Server (CMS). Vous devez être connecté au serveur décrit à l’étape **Installer le magasin de configurations local** en tant qu’administrateur local de l’ordinateur ; en outre, vous devez être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Si vous effectuez l’installation sur un serveur Edge, vous n’avez pas besoin d’être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Le document de définition du Générateur de topologie est lu à partir du document exporté définition plutôt qu’à partir du magasin Central de gestion. Pour exporter le document de définition du Générateur de topologie et la rendre disponible pour les serveurs de périphérie, consultez la rubrique [exporter votre topologie et copie sur un support externe de l’Installation Edge](https://technet.microsoft.com/library/def9f416-c519-4a72-b242-7d3057d9c1fd.aspx).
 
 Pour commencer l’installation :
 
