@@ -1,11 +1,15 @@
 <!-- ============================================================ -->
-# Prise en main
-
-## [Présentation de Teams](Teams-overview.md)
-## [Outils et ateliers : planifier, fournir et utiliser Teams](planning-workshop-practical-guide.md)
-## [Obtenir de l’aide dans Microsoft Teams](get-help-in-microsoft-teams.md)
+# [Bienvenue dans Teams](teams-overview.md)
 <!-- ============================================================ -->
 
+# [Prise en main](get-started-with-teams-landing-page.md)
+## [Démarrage rapide - équipes](get-started-with-teams-quick-start.md)
+## [Créer votre première équipes et canaux](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Premiers intégrés](get-started-with-teams-onboard-early-adopters.md)
+## [Surveiller l’utilisation et les commentaires](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Où souhaitez-vous aller ?](get-started-with-teams-resources-for-org-wide-rollout.md)
+## [Obtenir de l’aide dans Microsoft Teams](get-help-in-microsoft-teams.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Planifier

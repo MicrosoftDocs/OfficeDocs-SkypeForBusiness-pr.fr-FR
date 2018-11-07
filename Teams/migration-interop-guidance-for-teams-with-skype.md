@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 279985565bb7a8097f67e259f04f056433ccda64
-ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
+ms.openlocfilehash: ff664c630f5c8da8e3f63700d018b40ab9f0ef70
+ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540292"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "26005512"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guide de migration et d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises
 
@@ -36,7 +36,7 @@ Comme précédemment annoncé dans 2018 avril, TeamsInteropPolicy a été retir�
     - Les utilisateurs déjà à l’aide de Skype pour Business/Lync local utilisent leur compte local existant.
     - Les utilisateurs pour lesquels nous ne pouvons pas détecter un Skype existant pour le compte professionnel aura une Skype pour Business Online compte configuré automatiquement lors de la création de l’utilisateur d’équipes. Aucun Skype pour la licence entreprise n’est requis.
 
-4.  Si vous disposez d’un déploiement local de soit Skype pour Lync ou de l’entreprise et que vous souhaitez que ces utilisateurs à des utilisateurs des équipes, vous devez au minimum vous assurer que Azure AD Connect est en cours de synchronisation du msRTCSIP-DeploymentLocator attribut dans DAS, ainsi que les équipes/Skype pour les entreprises Online correctement détecte votre environnement local. En outre, pour déplacer des utilisateurs vers les équipes seule (autrement dit, mettre à niveau un utilisateur), *vous devez configurer Skype pour le mode hybride Business*.
+4.  Si vous disposez d’un déploiement local de soit Skype pour Lync ou de l’entreprise et que vous souhaitez que ces utilisateurs à des utilisateurs des équipes, vous devez au minimum vous assurer que Azure AD Connect est en cours de synchronisation du msRTCSIP-DeploymentLocator attribut dans DAS, ainsi que les équipes/Skype pour les entreprises Online correctement détecte votre environnement local. En outre, pour déplacer des utilisateurs vers les équipes seule (autrement dit, mettre à niveau un utilisateur), *vous devez configurer Skype pour le mode hybride Business*. Pour plus d’informations, voir [configurer les Azure AD Connect pour Skype pour professionnels et les équipes](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
 5.  Interopérabilité entre équipes et Skype pour les utilisateurs professionnels n’est possible que *Si l’utilisateur équipes est hébergé en ligne dans Skype pour les entreprises*. Le destinataire Skype pour l’utilisateur d’entreprise peut être hébergé soit localement (et nécessite la configuration Skype pour un environnement hybride Business) ou en ligne. Permettent aux utilisateurs qui sont hébergés dans Skype pour Business local équipes en mode îles (défini plus loin dans ce document), mais ils ne peuvent pas permet aux équipes interop ou fédérer avec d’autres utilisateurs qui utilisent Skype pour les entreprises.  
 
@@ -99,17 +99,17 @@ Les équipes fournit toutes les instances appropriées de TeamsUpgradePolicy par
 
 |Identity |Mode|NotifySfbUsers|Action|Commentaires|
 |---|---|---|---|---|
-|(Îles)|(Îles)|Faux|Aucun||
+|(Îles)|(Îles)|False|Aucun||
 |IslandsWithNotify|(Îles)|True|Avertir||
-|SfBOnly|SfBOnly|Faux|Aucun|Pour l’instant, ce mode est effectivement la même que le client par défaut du paramètre = SfB. Nous pensons à l’avenir que cela restreint la fonctionnalité d’équipes.|
+|SfBOnly|SfBOnly|False|Aucun|Pour l’instant, ce mode est effectivement la même que le client par défaut du paramètre = SfB. Nous pensons à l’avenir que cela restreint la fonctionnalité d’équipes.|
 |SfBOnlyWithNotify|SfBOnly|True|Avertir|Pour l’instant, ce mode est effectivement la même que le client par défaut du paramètre = SfB. Nous pensons à l’avenir que cela restreint la fonctionnalité d’équipes.|
-|SfBWithTeamsCollab|SfBWithTeamsCollab|Faux|Aucun|Ce mode existe au niveau de la couche PowerShell mais n’est pas encore exposé dans l’expérience utilisateur d’administration. À partir d’un point de vue de routage, il s’agit identique au mode SfBOnly. Lorsque TeamsAppPolicy est disponible, cela n’autorisera que canaux dans l’application des équipes.|
+|SfBWithTeamsCollab|SfBWithTeamsCollab|False|Aucun|Ce mode existe au niveau de la couche PowerShell mais n’est pas encore exposé dans l’expérience utilisateur d’administration. À partir d’un point de vue de routage, il s’agit identique au mode SfBOnly. Lorsque TeamsAppPolicy est disponible, cela n’autorisera que canaux dans l’application des équipes.|
 |SfBWithTeamsCollabWithNotify|SfBWithTeamsCollab|True|Avertir|Ce mode existe au niveau de la couche PowerShell mais n’est pas encore exposé dans l’expérience utilisateur d’administration. À partir d’un point de vue de routage, il s’agit identique au mode SfBOnly. Lorsque TeamsAppPolicy est disponible, cela n’autorisera que canaux dans l’application des équipes.|
-|SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|Faux|Aucun|Ce mode existe au niveau de la couche PowerShell mais n’est pas encore exposé dans l’expérience utilisateur d’administration. À partir d’un point de vue de routage, il s’agit identique au mode SfBOnly. Lorsque TeamsAppPolicy est disponible, cela permettra canaux et réunion dans les équipes de planification.|
+|SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|False|Aucun|Ce mode existe au niveau de la couche PowerShell mais n’est pas encore exposé dans l’expérience utilisateur d’administration. À partir d’un point de vue de routage, il s’agit identique au mode SfBOnly. Lorsque TeamsAppPolicy est disponible, cela permettra canaux et réunion dans les équipes de planification.|
 |SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|True|Avertir|Ce mode existe au niveau de la couche PowerShell mais n’est pas encore exposé dans l’expérience utilisateur d’administration. À partir d’un point de vue de routage, il s’agit identique au mode SfBOnly. Lorsque TeamsAppPolicy est disponible, cela permettra canaux et réunion dans les équipes de planification.|
-|UpgradeToTeams|TeamsOnly|Faux|Mise à niveau|Utilisez ce mode pour mettre à niveau des utilisateurs aux équipes et empêcher conversation, appel et planifier des réunions dans Skype pour les entreprises.|
-|Globale|Hérité|Faux|Aucun|Le mode met à jour dans un avenir proche des îles.|
-|NoUpgrade|Hérité|Faux|Aucun|Cette instance sera bientôt être retirée.|
+|UpgradeToTeams|TeamsOnly|False|Mise à niveau|Utilisez ce mode pour mettre à niveau des utilisateurs aux équipes et empêcher conversation, appel et planifier des réunions dans Skype pour les entreprises.|
+|Globale|(Îles)|False|Aucun|La stratégie par défaut.|
+|NoUpgrade|Hérité|False|Aucun|Cette instance sera bientôt être retirée.|
 |NotifyForTeams|Hérité|True|Avertir|Cette instance sera bientôt être retirée.|
 ||||||
 
@@ -136,9 +136,9 @@ Les clients qui utilisent toujours en mode hérité reçoivent un rappel que seu
 
 |Identity |AllowEndUserClientOverride|CallingDefaultClient|ChatDefaultClient|
 |---|---|---|---|
-|`DisallowOverrideCallingDefaultChatDefault`|Faux|Par défaut|Par défaut|
-|`DisallowOverrideCallingSfbChatSfb`|Faux|SFB|SFB|
-|`DisallowOverrideCallingTeamsChatTeams`|Faux|Teams|Teams|
+|`DisallowOverrideCallingDefaultChatDefault`|False|Valeur par défaut|Valeur par défaut|
+|`DisallowOverrideCallingSfbChatSfb`|False|SFB|SFB|
+|`DisallowOverrideCallingTeamsChatTeams`|False|Teams|Teams|
 |||||
 
 Utilisez la syntaxe de commande suivante, où $policy est une des valeurs d’identité ci-dessus :`Grant-CsTeamsInteropPolicy -PolicyName $policy -Identity $SipAddress`
@@ -168,9 +168,9 @@ Les clients qui utilisent toujours TeamsInteropPolicy :
 
    |Identity |AllowEndUserClientOverride |CallingDefaultClient|ChatDefaultClient|
    |---|---|---|---|
-   |`DisallowOverrideCallingDefaultChatDefault`|Faux|Par défaut|Par défaut|
-   |`DisallowOverrideCallingSfbChatSfb`|Faux|SFB|SFB|
-   |`DisallowOverrideCallingTeamsChatTeams`|Faux|Teams|Teams|
+   |`DisallowOverrideCallingDefaultChatDefault`|False|Valeur par défaut|Valeur par défaut|
+   |`DisallowOverrideCallingSfbChatSfb`|False|SFB|SFB|
+   |`DisallowOverrideCallingTeamsChatTeams`|False|Teams|Teams|
    |||||
 
     Utilisez la syntaxe de commande suivante, où $policy est une des valeurs d’identité ci-dessus :
@@ -186,9 +186,9 @@ Les clients qui utilisent toujours TeamsInteropPolicy :
 
     |Paramètre|Valeur|
     |---|---|
-    |`AllowEndUserClientOverride`|Faux|
-    |`CallingDefaultClient`|Par défaut|
-    |`ChatDefaultClient`|Par défaut|
+    |`AllowEndUserClientOverride`|False|
+    |`CallingDefaultClient`|Valeur par défaut|
+    |`ChatDefaultClient`|Valeur par défaut|
     |||
 
     Si une des valeurs est différente de celle ci-dessus, exécutez ce qui suit pour supprimer toutes les personnalisations spécifiques au client :

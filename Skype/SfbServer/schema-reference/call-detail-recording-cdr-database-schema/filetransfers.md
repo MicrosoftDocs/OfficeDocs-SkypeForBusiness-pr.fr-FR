@@ -1,5 +1,5 @@
 ---
-title: Vue de FileTransfers
+title: Vue filetransfers
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,27 +9,28 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-description: La vue FileTranfer stocke des informations sur les sessions de transfert de fichier de peer-to-peer. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 69b986c24a3a8f3646738eb3e1e3e97794be8e9e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Le mode de transfert de fichiers stocke des informations sur les sessions de transfert de fichiers d’égal à égal. Cet affichage a été introduit dans Microsoft Lync Server 2013.
+ms.openlocfilehash: 97bc5f957192c8a2c6d888f81fce0891aa2b4f75
+ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025156"
 ---
-# <a name="filetransfers-view"></a>Vue de FileTransfers
+# <a name="filetransfers-view"></a>Vue filetransfers
  
-La vue FileTranfer stocke des informations sur les sessions de transfert de fichier de peer-to-peer. Cette vue a été introduite dans Microsoft Lync Server 2013.
+Le mode de transfert de fichiers stocke des informations sur les sessions de transfert de fichiers d’égal à égal. Cet affichage a été introduit dans Microsoft Lync Server 2013.
   
 > [!NOTE]
-> La vue FileTransfers contient toutes les colonnes dans la [vue de le SessionDetails](sessiondetails-0.md) en outre les colonnes répertoriées ci-dessous.
+> La vue filetransfers contient toutes les colonnes de [SessionDetails view](sessiondetails-0.md) en outre les colonnes répertoriées ci-dessous.
   
 |**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
-|**Nom de fichier** <br/> |nvarchar(256)  <br/> |Nom du fichier transféré.  <br/> |
-|**Cookie** <br/> |nvarchar (128)  <br/> |Utilisé pour identifier chaque message suivi comme étant associée à celui-ci.  <br/> |
-|**FileIdentity** <br/> |uniqueidentifier  <br/> |Identificateur unique pour faire la distinction entre les transferts de fichiers portant le même nom de fichier.  <br/> |
-|**Accepter** <br/> |bit  <br/> |Peut être TRUE ou la valeur NULL. Si TRUE, refuser et annuler sera NULL.  <br/> |
-|**Rejeter** <br/> |bit  <br/> |Peut être TRUE ou la valeur NULL. Si TRUE, alors accepter et annuler sera NULL.  <br/> |
-|**Annuler** <br/> |bit  <br/> |Peut être TRUE ou la valeur NULL. Si TRUE, alors accepter et rejeter sera NULL.  <br/> |
+|**FileName** <br/> |nvarchar(256)  <br/> |Nom du fichier transféré.  <br/> |
+|**Cookie** <br/> |nvarchar (128)  <br/> |Utilisé pour identifier chaque message de suivi comme étant associé à celle-ci.  <br/> |
+|**FileIdentity** <br/> |uniqueidentifier  <br/> |Identificateur unique pour distinguer les transferts de fichiers impliquant le même nom de fichier.  <br/> |
+|**Accepter** <br/> |bit  <br/> |Peut avoir la valeur TRUE ou NULL. Si TRUE, refuser et annuler sera NULL.  <br/> |
+|**Rejeter** <br/> |bit  <br/> |Peut avoir la valeur TRUE ou NULL. Si la valeur TRUE, puis accepter et annuler sera NULL.  <br/> |
+|**Annuler** <br/> |bit  <br/> |Peut avoir la valeur TRUE ou NULL. Si la valeur TRUE, puis accepter et rejeter sera NULL.  <br/> |
    
 
