@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa0b8971e6809b2488f6926f4acf0df898760f4
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: 9c1c60552dc4ef889b312e3055ff99a412362a22
+ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238135"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26031729"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Premiers intégrés à Microsoft Teams
 
@@ -91,7 +91,7 @@ Les utilisateurs qui exécutent Android 4.4 ou version ultérieure peuvent tél�
 
 Il est important d’encourager vos premiers à utiliser activement les équipes pour promouvoir la nouvelle expérience de collaboration et de développer des champions équipes. Nous recommandons l’utilisation de la chaîne « Comment faire » dans l’équipe de « Découvrir équipes » vous avez créé pour partager le Guide avec vos utilisateurs à l’aide de l’adoption du lecteur. 
 
-Pour obtenir des instructions détaillées sur l’adoption d’équipes conduite pour votre organisation, voir [Adopter les équipes](adopt-microsoft-teams-landing-page.md).
+Pour obtenir des instructions détaillées sur la conduite adoption équipes pour votre organisation, consultez [Création d’une stratégie de gestion des modifications pour les équipes](change-management-strategy.md). 
 
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez à des [commentaires et surveiller l’utilisation](get-started-with-teams-monitor-usage-and-feedback.md).
