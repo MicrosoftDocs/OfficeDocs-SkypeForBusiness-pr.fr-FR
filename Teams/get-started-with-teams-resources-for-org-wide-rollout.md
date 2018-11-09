@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 381e246edc164b5c5a3a6d88b1f5bbf4d1d868cf
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: 6907814b8eb1226f151658fbd784641cb8edbf9d
+ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238143"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26031725"
 ---
 # <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a>Accédez à votre déploiement de l’entreprise de Microsoft Teams du plan des ressources
 
@@ -28,4 +28,5 @@ Maintenant que vous avez correctement configuré vos équipes premier, onboarded
 La section [Déployer les équipes](deployment-overview.md) de notre documentation fournit des professionnels de l’informatique avec les conseils pour prendre les meilleures décisions pour un déploiement de l’organisation.
 
 ## <a name="adopt-teams"></a>Adopter des équipes
-La section [Adopter des équipes](adopt-microsoft-teams-landing-page.md) de notre documentation explique comment comment adopter correctement des équipes au sein de votre organisation.
+Pour obtenir des instructions sur la façon d’adopter avec succès des équipes au sein de votre organisation, voir [créer une stratégie de gestion des modifications pour les équipes](change-management-strategy.md) . 
+
