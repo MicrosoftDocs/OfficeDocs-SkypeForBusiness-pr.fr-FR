@@ -3,24 +3,23 @@ title: Exécuter la requête
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
-description: 'Résumé : Découvrez l’opération d’exécuter la requête, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 720bcc16b89ed2cd2b92eababb389d6c363d734d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 'Résumé : Découvrez l’opération d’exécuter la requête, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
+ms.openlocfilehash: ac9f042a8d5b8e016a398a0daf9595ffcb9d2fcb
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375638"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035700"
 ---
 # <a name="run-query"></a>Exécuter la requête
 
-**Résumé :** Obtenir des informations sur l’opération d’exécuter la requête, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur l’opération d’exécuter la requête, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
 
 L’opération d’exécuter la requête fait partie de l’API de données pour le tableau de bord qualité des appels.
 

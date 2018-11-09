@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 552d6f084de369ce87f3e1e44d4e3ebc968b06ea
-ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
+ms.openlocfilehash: a5e3ec3bf4fc8f3f3a84ccec5558134b3bca43b7
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25942814"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038808"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 =================================================
@@ -30,13 +30,15 @@ Commençons par nous pencher sur la façon dont Microsoft Teams permet aux équ
 
     -   Les équipes peuvent également être créées pour être publiques et ouvertes à tous les utilisateurs d’une organisation (jusqu'à 2 500 membres).
     
-Une équipe est destinée à réunir un groupe de personnes qui travaillent en étroite collaboration pour atteindre leurs objectifs. Les équipes peuvent être dynamiques pour un travail de projet (lancer un produit ou créer un centre de crise numérique par exemple) et être courantes, pour refléter la structure interne de votre organisation (services et bureaux par exemple). Les conversations, les fichiers et les notes ne sont visibles que pour les membres de l’équipe.
+    Une équipe est destinée à réunir un groupe de personnes qui travaillent en étroite collaboration pour atteindre leurs objectifs. Les équipes peuvent être dynamiques pour un travail de projet (lancer un produit ou créer un centre de crise numérique par exemple) et être courantes, pour refléter la structure interne de votre organisation (services et bureaux par exemple). Les conversations, les fichiers et les notes ne sont visibles que pour les membres de l’équipe.
 
 -   Les **canaux** sont des sections dédiées dans une équipe pour stocker des conversations organisées par sujets, projets et disciplines spécifiques ; à votre équipe de décider !
 
     -   Les canaux d'une équipe sont des endroits où chaque membre dans l'équipe peut mener des conversations ouvertes. Les discussions privées ne sont accessibles qu'aux personnes qui participent à cette conversation.
 
     -   Les canaux sont plus importantes lorsque étendu avec des applications qui incluent des onglets, des connecteurs et des robots qui augmente leur valeur aux membres de l’équipe.
+
+[Afficher cette courte vidéo](https://youtu.be/hjJWtoaRJeE) pour en savoir plus sur les meilleures pratiques pour la création d’équipes et canaux.
 
 <a name="membership-roles-and-settings"></a>L’appartenance, les rôles et les paramètres
 ------------------------------

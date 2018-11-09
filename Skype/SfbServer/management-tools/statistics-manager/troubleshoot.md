@@ -1,26 +1,25 @@
 ---
-title: Dépannage du gestionnaire de statistiques pour Skype Entreprise Server 2015
+title: Résoudre les statistiques du gestionnaire pour Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 5/23/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 'Résumé : Lisez cette rubrique pour résoudre les problèmes de votre déploiement du Gestionnaire de statistiques de Skype pour Business Server 2015.'
-ms.openlocfilehash: 3af372effd41fd679733324e1615de6b2c49ce0b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Résumé : Lisez cette rubrique pour résoudre les problèmes de votre déploiement du Gestionnaire de statistiques de Skype pour Business Server.'
+ms.openlocfilehash: 3edff5ea17c4a787456ff212b65d99f0ad5bb67f
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569832"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035707"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server-2015"></a>Dépannage du gestionnaire de statistiques pour Skype Entreprise Server 2015
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Résoudre les statistiques du gestionnaire pour Skype pour Business Server
  
-**Résumé :** Lisez cette rubrique pour résoudre les problèmes de votre déploiement du Gestionnaire de statistiques de Skype pour Business Server 2015.
+**Résumé :** Lisez cette rubrique pour résoudre les problèmes de votre déploiement du Gestionnaire de statistiques de Skype pour Business Server.
   
 Cette rubrique décrit comment résoudre les problèmes de votre déploiement de gestionnaire de statistiques en décrivant les événements que vous pouvez voir dans le journal des événements et les actions appropriées, que vous pouvez prendre pour résoudre l’événement. Cette rubrique contient les sections suivantes :
   
@@ -171,14 +170,14 @@ Cette rubrique décrit comment résoudre les problèmes de votre déploiement de
 ## <a name="for-more-information"></a>Pour plus d’informations
 <a name="BKMK_Website"> </a>
 
-Pour plus d'informations, voir les articles suivants :
+Pour plus d’informations, voir les articles suivants :
   
-- [Planifier pour le Gestionnaire de statistiques de Skype Business Server 2015](plan.md)
+- [Planifier Business Server pour le Gestionnaire de statistiques de Skype](plan.md)
     
-- [Déployer des statistiques responsable Skype pour Business Server 2015](deploy.md)
+- [Déployer des statistiques responsable Skype pour Business Server](deploy.md)
     
-- [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server 2015](upgrade.md)
+- [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server](upgrade.md)
     
-- [Skype pour Business Server Manager statistiques de blog](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog du gestionnaire de statistiques de Skype Entreprise Server ](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/07/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vidéos de formation, didacticiels et autres ressources pour les administrateurs à planifier, déploiement et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4036e6b740b059dc1075afe4b7ad3da7b9277c88
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 73c2163557706066f079f3ce61c1d4d3c58ed906
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838512"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038793"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -213,6 +213,7 @@ Utilisez ces didacticiels, vidéos et autres ressources de formation pour en sav
                     <div class="cardText">
                         <h3>Réunions</h3>
                         <p><a href="tutorial-meetings-in-teams.yml">Didacticiel : Réunions dans Teams</a></p>
+                        <p><a href="https://aka.ms/teams-meetings-intro">Vidéo : Présentation de réunions dans les équipes Microsoft</a></p>
                     </div>
                 </div>
             </div>
@@ -250,7 +251,8 @@ Utilisez ces didacticiels, vidéos et autres ressources de formation pour en sav
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Offres d'appels</h3>
+                        <h3>Système téléphonique</h3>
+                         <p><a href="https://aka.ms/teams-phone-system">Vidéo : Présentation du système téléphonique dans les équipes Microsoft</a></p>
                          <p><a href="configuring-teams-calling-quickstartguide.md">Démarrage rapide : configuration des Plans de l’appel dans les équipes</a></p>
                          <p><a href="tutorial-calling-in-teams.yml">Didacticiel : Découvrir les appels dans Teams</a></p>
                     </div>
@@ -263,7 +265,7 @@ Utilisez ces didacticiels, vidéos et autres ressources de formation pour en sav
                 <div class="card">
                     <div class="cardText">
                         <h3>Routage direct</h3>
-                        <p><a href="https://www.youtube.com/watch?v=dVkc5Bs926Q">Vidéo : Direct de routage pour les équipes - aperçu</a></p>
+                        <p><a href="https://aka.ms/teams-direct-routing">Vidéo : Direct de routage dans les équipes Microsoft</a></p>
                     </div>
                 </div>
             </div>

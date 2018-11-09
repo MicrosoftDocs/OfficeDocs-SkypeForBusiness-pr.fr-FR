@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Considérations pour l’implémentation de connectivité hybride entre Skype pour Business Server et Skype pour Business Online ou équipes de planification.
-ms.openlocfilehash: 55a6fd1d59e8e5af578b9a1c35c61204f925d866
-ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
+ms.openlocfilehash: 2f702989a0d40e7bce9b0f3612d67fd374d0813c
+ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890570"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238058"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planification de la connectivité hybride entre Skype pour Business Server et Office 365
 
@@ -25,8 +25,6 @@ Lisez cette rubrique pour savoir comment planifier la connectivité hybride entr
 Si vous avez Skype sur site pour les utilisateurs professionnels qui utilisent également des équipes (côte à côte), ces utilisateurs n’ont pas la possibilité d’interagir avec Skype pour les utilisateurs professionnels à partir du client de leurs équipes, ni communiquer avec les utilisateurs dans les organisations fédérées, à partir de leur Client d’équipes. Pour bénéficier de cette fonctionnalité dans les équipes, ces utilisateurs doivent être déplacés à partir de Skype pour Business local vers le nuage, qui requiert la configuration Skype pour le mode hybride Business. En outre, pour une meilleure pratique, ces utilisateurs doivent être en mode uniquement les équipes qui garantit tous les appels entrants et conversations à partir de n’importe quel terrestre utilisateur dans le client de l’utilisateur aux équipes.
 
 Configurer la connectivité hybride et de déplacement de tous les utilisateurs vers le nuage sont également requis avant que vous désactiviez votre Skype sur site pour le déploiement d’entreprise.  Connectivité hybride configurer, vous pouvez choisir à déplacer les utilisateurs vers le nuage en fonction des besoins de votre calendrier et d’entreprise. Avec le routage Direct, vous pouvez exploiter votre infrastructure de voix sur site pendant que vous déplacez vers le nuage et après que la migration est terminée.
-
-Cette rubrique décrit la configuration requise système et infrastructure que nécessaires pour configurer la connectivité hybride entre votre Skype local existant pour le déploiement de Business Server--avec des utilisateurs qui ont été créés dans Active Directory local--et des équipes ou Skype pour les entreprises en ligne. 
 
 Cette rubrique décrit l’infrastructure et vous devez configurer la connectivité hybride entre votre configuration requise locaux Skype pour le déploiement de serveurs d’entreprise et des équipes ou Skype pour Business Online.
 

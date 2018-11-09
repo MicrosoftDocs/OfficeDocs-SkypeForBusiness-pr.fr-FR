@@ -1,26 +1,25 @@
 ---
-title: Déployer le tableau de bord appel qualité pour Skype pour Business Server 2015
+title: Déployer le tableau de bord appel qualité pour Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
-description: 'Résumé : Découvrez le processus de déploiement pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 31e1dc8d5508c7d3d31de0ec3af0b9c8c06a6c40
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 'Résumé : Découvrez le processus de déploiement pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
+ms.openlocfilehash: c9d641a8202560e558e33014670b4b1060795477
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372640"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035749"
 ---
-# <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Déployer le tableau de bord appel qualité pour Skype pour Business Server 2015
+# <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Déployer le tableau de bord appel qualité pour Skype pour Business Server
  
-**Résumé :** Découvrez le processus de déploiement pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.
+**Résumé :** Découvrez le processus de déploiement pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
   
 ## <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -185,6 +184,27 @@ L’étape suivante consiste à configurer le tableau de bord de la CQD. Une foi
 4. Cliquez sur **Appliquer** dans la partie droite de la page.
     
 ## <a name="known-issues"></a>Problèmes connus
+
+### <a name="the-cqd-shows-no-data-after-deployment"></a>La CQD n’indique qu’aucune donnée après le déploiement
+
+Vous pouvez recevoir le message d’erreur suivant :
+
+*Nous n’exécuter la requête pendant son exécution sur le Cube. Utilisez l’éditeur de requête pour modifier la requête et résoudre les problèmes. Assurez-vous également que le Cube est accessible.*
+
+Cela signifie que le cube doit être traité dans SQL Server Analysis Services avant utilisées dans CQD. Vous pouvez résoudre ce problème en procédant comme suit :
+
+1. Ouvrez SQL Management Studio et sélectionnez **Analysis Services**.
+
+2. Développez le droit objet, sélectionnez **Mesure QoE**, **QoECube** , puis cliquez sur **Parcourir**. 
+
+    Si ce script renvoie navigateur vide, le cube n’a pas été passez encore.
+
+3. Avec le bouton droit angain **Mesure QoE** et cliquez sur **traiter**.
+
+4. Lorsque le traitement est terminé, cliquez à nouveau sur l’objet et cliquez sur **Parcourir** pour confirmer que la page du navigateur affiche maintenant les données. 
+
+
+### <a name="users-have-trouble-logging-in-because-installer-fails-to-create-the-correct-settings-in-iis"></a>Les utilisateurs ont des problèmes de connexion, car le programme d’installation ne parvient pas à créer les paramètres appropriés dans IIS
 
 Dans les cas rares, le programme d’installation ne peut pas créer les paramètres appropriés dans IIS. Modification manuelle est nécessaire pour permettre aux utilisateurs de se connecter à la CQD. Si les utilisateurs rencontrent des problèmes de connexion, procédez comme suit :
   
