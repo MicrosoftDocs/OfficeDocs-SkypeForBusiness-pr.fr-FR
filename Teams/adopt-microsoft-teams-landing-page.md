@@ -12,12 +12,12 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11865d4e4258be9df2d3a8201945bffbc9117b67
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: bd69ba3592b23acdc963b8438e35ef998a3ceec1
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238097"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255740"
 ---
 # <a name="adopt-microsoft-teams"></a>Arrête les équipes Microsoft
 
@@ -25,7 +25,7 @@ Si vous êtes une petite entreprise, ou si vous souhaitez déployer les équipes
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-quick-start-checklist">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -177,6 +177,7 @@ Plans d’adoption peuvent être simples à complexe, en fonction de votre envir
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Définir le résultat et la réussite</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Optimiser les commentaires et création de rapports</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Présentation du lecteur et implémenter la formation</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">Planifier les analyses d’intégrité de service</a></p>
                     </div>
                 </div>
             </div>
