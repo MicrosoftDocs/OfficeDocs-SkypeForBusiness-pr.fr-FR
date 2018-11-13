@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aba79f52984b243aa0a10c425f5c5741119daf50
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 239a90c295035da629b74711a41f7cec59f4c0a9
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215836"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255719"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Phase d’adoption Microsoft Teams 1 - Démarrer
 
@@ -66,6 +66,5 @@ La [Communauté technique Microsoft](https://aka.ms/TechCommunity) offre insight
 - [Communauté technique des équipes de Microsoft](https://aka.ms/TeamsCommunity) – obtenir des réponses à des questions de produit, à l’occasion d’autres clients équipes et suivez notre blog pour rester à jour sur les nouvelles fonctionnalités et cas d’utilisation pour les équipes. 
 - [Programme de Champions Office 365](https://aka.ms/O365Champions) et de la Communauté Adoption conduite – enseignements de vos homologues sur la meilleure encourager l’adoption des charges de travail Office 365 comme les équipes, SharePoint, Yammer et autres produits. Ouvrez pour les professionnels de l’informatique, les utilisateurs professionnels, le développeur « accidentels », et toute personne souhaitant adoption de services en nuage.  
 
-[Formation personnalisée pour Office 365](https://aka.ms/CLO365) inclut un modèle de SharePoint Online et le composant webpart personnalisé que vous pouvez utiliser pour créer un portail de formation pour votre organisation. Cette ouvrir gratuitement, permet de solution source flux de ressources de formation directement dans Office 365 client de Microsoft. Vous pouvez personnaliser pour les services que vous utilisez et ajoutez du contenu de formation supplémentaire pour l’expérience du site. Si vous disposez déjà d’un portail de formation SharePoint Online, vous pouvez télécharger simplement le composant webpart pour installer directement sur le site de votre société et puis configurez-le selon vos besoins de mise en œuvre.  
 
 ![Icône d’étapes suivante](media/teams-adoption-next-icon.png) suivant : [canaux et comprendre les équipes](teams-adoption-understand-teams-and-channels.md)

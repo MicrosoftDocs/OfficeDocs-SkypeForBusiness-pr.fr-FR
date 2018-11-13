@@ -1,5 +1,5 @@
 ---
-title: Planifier pour le Gestionnaire de statistiques de Skype Business Server 2015
+title: Planifier Business Server pour le Gestionnaire de statistiques de Skype
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,29 +10,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques de Skype pour Business Server 2015.'
-ms.openlocfilehash: de4f2bedcbd03191b852366504423ebb031cf5f1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques de Skype pour Business Server.'
+ms.openlocfilehash: a7cd9fd3dd3eff7f1c9b0326d45475f95f9a909c
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244005"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283200"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server-2015"></a>Planifier pour le Gestionnaire de statistiques de Skype Business Server 2015
+# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planifier Business Server pour le Gestionnaire de statistiques de Skype
 
-**Résumé :** Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques de Skype pour Business Server 2015.
+**Résumé :** Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques de Skype pour Business Server.
 
  Gestionnaire de statistiques pour Skype pour Business Server est un outil puissant qui vous permet d’afficher Skype pour les données de performances et d’intégrité Business Server en temps réel. Vous pouvez interroger les données de performance sur des centaines de serveurs après quelques secondes et afficher les résultats instantanément sur le site Web de gestionnaire de statistiques.
 
 Vous pouvez utiliser le Gestionnaire de statistiques pour identifier les problèmes de performances en cours, afficher les résultats d’une modification planifiée dans votre environnement, effectuer le suivi de la résolution des pannes et bien plus encore. L’emploi, Gestionnaire de statistiques est configuré avec les seuils d’indicateur de l’intégrité de clé (KHI) et peuvent être personnalisé en fonction des besoins de votre déploiement.
 
-Vous pouvez déployer le Gestionnaire de statistiques dans un déploiement sur site dans lequel un seul serveur héberge tous les composants du Gestionnaire de statistiques côté serveur. Pour plus d’informations sur le déploiement du Gestionnaire de statistiques, voir [Déployer des statistiques responsable Skype pour Business Server 2015](deploy.md). Si vous disposez déjà d’un déploiement existant du Gestionnaire de statistiques, mais vous ne disposez pas encore mis à niveau vers version 1.1, voir [Nouveautés de version 1.1](plan.md#BKMK_WhatsNew) et [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server 2015](upgrade.md).
+Vous pouvez déployer le Gestionnaire de statistiques dans un déploiement sur site dans lequel un seul serveur héberge tous les composants du Gestionnaire de statistiques côté serveur. Pour plus d’informations sur le déploiement du Gestionnaire de statistiques, voir [Déployer des statistiques responsable Skype pour Business Server](deploy.md). Si vous disposez déjà d’un déploiement existant du Gestionnaire de statistiques, mais vous ne disposez pas encore mis à niveau vers version 2.0, voir [Nouveautés de version 2.0](plan.md#BKMK_WhatsNew) et la [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server](upgrade.md).
 
 Cette rubrique contient les sections suivantes :
 
 - [Fonctions et fonctionnalités](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
 
-- [Quelles sont les nouveautés dans la version 1.1](plan.md#BKMK_WhatsNew)
+- [Quelles sont les nouveautés dans la version 2.0](plan.md#BKMK_WhatsNew)
 
 - [Composants](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
 
@@ -77,16 +77,14 @@ Gestionnaire de statistiques vous permet de :
 
   - Définitions d’affichage KHI
 
-## <a name="whats-new-in-release-11"></a>Quelles sont les nouveautés dans la version 1.1
+## <a name="whats-new-in-release-20"></a>Quelles sont les nouveautés dans la version 2.0
 <a name="BKMK_WhatsNew"> </a>
 
-La section suivante décrit les nouveautés dans la version 1.1. Si vous avez un déploiement existant de statistiques Manager et vous n’avez pas encore mis à niveau, voir [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server 2015](upgrade.md).
+La section suivante décrit les nouveautés dans la version 2.0. Si vous avez un déploiement existant de statistiques Manager et vous n’avez pas encore mis à niveau, voir [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server](upgrade.md).
 
 - Vues de scénario ont été ajoutées pour le média Edge, d’intégrité Fabric, le basculement et scénarios d’inscription.
 
-- Ligne de commande PerfAgentStorageManager.exe (installé avec le port d’écoute) peuvent désormais exporter des données de compteur en tant qu’un fichier CSV.
-
-- Nombre de nouveaux compteurs ont été ajoutées pour les serveurs SQL, compteurs Windows Fabric, plus Skype pour des compteurs d’utilisation de Business et ainsi de suite.
+- Nombre de nouveaux compteurs ont été ajoutées pour les serveurs SQL, plus Skype pour des compteurs d’utilisation de Business et ainsi de suite.
 
 - Intégration de nœud observateur pour l’Agent de gestionnaire de statistiques - si l’Agent est installé sur un nœud Observateur, il renverra un compte-rendu statistiques sur les transactions synthétiques en tant que compteurs au Gestionnaire de statistiques.
 
@@ -131,7 +129,7 @@ Vous devez prendre en compte la configuration requise matérielle, logicielle et
 
 ### <a name="software-requirements"></a>Configuration logicielle requise
 
-- Windows Server 2012 R2
+- Windows Server 2012 R2
 
 - IIS (installé automatiquement)
 
@@ -141,9 +139,7 @@ Vous devez prendre en compte la configuration requise matérielle, logicielle et
 
 - PSExec - nécessaire pour exécuter le déploiement de l’agent à distance
 
-- .NET 4.5 (inclus avec 2012 R2) - requis pour les composants côté serveur
-
-- .NET 4.0 - requis pour les agents
+- .NET 4.5 (inclus avec 2012 R2) - requis pour les agents et les composants côté serveur
 
 ### <a name="networking-requirements"></a>Exigences de mise en réseau
 
@@ -175,17 +171,17 @@ Tout le trafic entre les serveurs est chiffré.
 
 - L’Agent commence la transmission de données de performances sur la connexion à l’écouteur.
 
-## <a name="for-more-information"></a>Pour plus d'informations
+## <a name="for-more-information"></a>Pour plus d’informations
 <a name="BKMK_Security"> </a>
 
-Pour plus d'informations, voir les articles suivants :
+Pour plus d’informations, voir les articles suivants :
 
-- [Déploiement du gestionnaire de statistiques pour Skype Entreprise Server 2015](deploy.md)
+- [Déployer des statistiques responsable Skype pour Business Server](deploy.md)
 
-- [Mise à niveau du gestionnaire de statistiques pour Skype Entreprise Server 2015](upgrade.md)
+- [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server](upgrade.md)
 
-- [Dépannage du gestionnaire de statistiques pour Skype Entreprise Server 2015](troubleshoot.md)
+- [Résoudre les statistiques du gestionnaire pour Skype pour Business Server](troubleshoot.md)
 
-- [Skype pour Business Server Manager statistiques de blog](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog du gestionnaire de statistiques de Skype Entreprise Server ](https://blogs.technet.microsoft.com/skypestatsman/)
 
 

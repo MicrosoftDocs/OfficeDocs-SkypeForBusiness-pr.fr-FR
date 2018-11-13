@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1f73a709ae6235859cbdccab493d8fa6d198823
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8336c3a8899e7719ae8ff50bb2bcdb9c6565c438
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011928"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282964"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gérer l'accès des utilisateurs à Microsoft Teams
 =====================================
@@ -66,7 +66,7 @@ Pour désactiver les équipes pour tous les utilisateurs disposant d’une licen
 | | | |
 |---------|---------|---------|
 |![Icône Point de décision.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Point de décision         |<ul><li>Quel est le plan de votre organisation pour l’intégration des équipes au sein de l’organisation ?  (Pilote ou ouvrir)</li></ul>         |
-|![Icône Étapes suivantes.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Étapes suivantes         |<ul><li>Si l'intégration est effectuée via un projet pilote fermé, choisissez entre l'affectation de licence ou une communication ciblée.</li><li>Selon la décision, procédez comme suit pour vous assurer que pilote uniquement les utilisateurs autorisés à accéder aux équipes (le cas échéant).</li><li>Les instructions pour les utilisateurs qui seront (ou pourront) de documents ont accès aux équipes.</li></ul>         |
+|![Icône Étapes suivantes.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Étapes suivantes         |<ul><li>Si embarquement via un pilote fermé, décider si vous souhaitez faire par le biais de la gestion des licences ou ciblés de communication.</li><li>Selon la décision, procédez comme suit pour vous assurer que pilote uniquement les utilisateurs autorisés à accéder aux équipes (le cas échéant).</li><li>Les instructions pour les utilisateurs qui seront (ou pourront) de documents ont accès aux équipes.</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-tenant-level"></a>Gérer les équipes au niveau client Office 365
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

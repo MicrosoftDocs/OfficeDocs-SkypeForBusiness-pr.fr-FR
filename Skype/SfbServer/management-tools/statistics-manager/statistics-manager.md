@@ -1,5 +1,5 @@
 ---
-title: Gestionnaire de statistiques pour Skype pour Business Server 2015
+title: Gestionnaire de statistiques pour Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,25 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3b945656-8241-40ed-a34d-0910bd9d3529
-description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques pour Skype pour Business Server 2015, un outil puissant qui vous permet d’afficher les Skype pour les données de santé et les performances de serveur d’entreprise en temps réel.'
-ms.openlocfilehash: 8fd35232f997ae4681b8b46c057e8706999f471a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques de Skype pour Business Server, un outil puissant qui vous permet d’afficher Skype pour les données de performances et d’intégrité Business Server en temps réel.'
+ms.openlocfilehash: 8b7020b3e7a173fd2be3aeb5eecb390e43827737
+ms.sourcegitcommit: 388f82c36e1c7bddf38298867882d992be989b87
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26281418"
 ---
-# <a name="statistics-manager-for-skype-for-business-server-2015"></a>Gestionnaire de statistiques pour Skype pour Business Server 2015
+# <a name="statistics-manager-for-skype-for-business-server"></a>Gestionnaire de statistiques pour Skype pour Business Server
  
-**Résumé :** Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques pour Skype pour Business Server 2015, un outil puissant qui vous permet d’afficher les Skype pour les données de santé et les performances de serveur d’entreprise en temps réel.
+**Résumé :** Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques de Skype pour Business Server, un outil puissant qui vous permet d’afficher Skype pour les données de performances et d’intégrité Business Server en temps réel.
   
 Cette section contient les rubriques suivantes :
   
-- [Planification pour le Gestionnaire de statistiques pour Skype pour Business Server 2015](plan.md)
+- [Planifier Business Server pour le Gestionnaire de statistiques de Skype](plan.md)
     
-- [Déployer le Gestionnaire de statistiques pour Skype pour Business Server 2015](deploy.md)
+- [Déployer des statistiques responsable Skype pour Business Server](deploy.md)
     
-- [Mise à jour des statistiques responsable Skype pour Business Server 2015](upgrade.md)
+- [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server](upgrade.md)
     
-- [Résoudre les problèmes de statistiques responsable Skype pour Business Server 2015](troubleshoot.md)
+- [Résoudre les statistiques du gestionnaire pour Skype pour Business Server](troubleshoot.md)
     
 

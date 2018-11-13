@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d86183ecb8209da15edd7f97511d6297bd0910c
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215801"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255764"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimiser les commentaires et création de rapports pour adopter Microsoft Teams
 
@@ -50,8 +50,8 @@ Meilleure pratique : représentants ave à partir de votre service de support t
 
 Il existe trois types de rapports vous invitons à lire lorsque vous déployez et adoptent Teams Microsoft :
 
-- Service d’intégrité – à partir d’Office 365 et votre support technique interne département.
-- Activité de service – à partir d’Office 365 afficher les rapports sur Microsoft Teams. Vous pouvez également utiliser les informations provenant d’autres systèmes au sein de votre organisation.
+- [Intégrité du Service](https://status.office365.com/) – à partir d’Office 365 et votre support technique interne département.
+- [Activité de Service](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – d’Office 365 afficher les [rapports sur les équipes Microsoft](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Vous pouvez également utiliser les informations provenant d’autres systèmes au sein de votre organisation.
 - Satisfaction de service – collectées à partir des forums de discussion interne et d’enquêtes sur des expériences spécifiques
 
 ![Icône d’étapes suivante](media/teams-adoption-next-icon.png) suivante : [Présentation du lecteur et implémenter la formation](teams-adoption-drive-awareness.md)

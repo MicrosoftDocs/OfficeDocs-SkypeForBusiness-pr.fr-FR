@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envoyez à vos utilisateurs un courrier électronique qui contient leurs informations d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: 3b1cb1eb4fcf654a4ab3d3cb227416b0cf700817
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 78fc4c0c071c4cc66c4bc20339dcda52b2be2890
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347463"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283162"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Envoyer à un utilisateur un courrier électronique qui contient ses informations d’audioconférence dans Microsoft Teams
 
-Parfois les utilisateurs Microsoft Teams deviez vous permet de les envoyer à leurs informations de conférence Audio. Vous pouvez procéder en cliquant sur **Envoyer les informations de conférence par courrier électronique** sous les propriétés d’un utilisateur. Lorsque vous envoyez ce message, il contient toutes les informations de conférence audio, y compris :
+Parfois, les utilisateurs de Microsoft Teams peuvent avoir besoin que vous leur envoyiez leurs informations d’audioconférence. Vous pouvez le faire en cliquant sur **Envoyer les informations de la conférence dans un courrier électronique** sous les propriétés d'un utilisateur. Le courrier électronique que vous envoyez contiendra toutes les informations d’audioconférence, dont :
   
 - Le numéro de téléphone de conférence ou le numéro de téléphone à composer pour l'utilisateur.
     
@@ -69,8 +69,6 @@ Voici un exemple de courrier électronique envoyé :
   - Lorsque le fournisseur de services d’audioconférence pour un utilisateur est modifié à partir de Microsoft vers un autre fournisseur ou **Aucun**.
     
   - Lorsque le fournisseur de services d’audioconférence pour un utilisateur est remplacé par Microsoft.
-    
-- Par défaut, l’expéditeur des e-mails sera d’Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom complet à l’aide de Windows PowerShell. Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour plus d’informations.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c95eec7d05d0acb8e49c8236b1e9d5f498869c95
-ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
+ms.openlocfilehash: 4983f8089a5d221a29f67ae25dfa6766751a7394
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540252"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282956"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installer Microsoft Teams à l’aide de MSI
 =================================
@@ -39,7 +39,7 @@ Pour utiliser System Center Configuration Manager ou la stratégie de groupe ou 
 
 Le fichier MSI équipes place un programme d’installation dans les fichiers de programme. Chaque fois qu’un utilisateur se connecte à un nouveau profil d’utilisateur Windows, le programme d’installation est lancé et une copie de l’application des équipes sera installée dans le dossier appdata de l’utilisateur. Si l’utilisateur a déjà l’application équipes installée dans le dossier appdata, le programme d’installation MSI ignore le processus de cet utilisateur.
 
-N’utilisez pas le fichier MSI pour déployer des mises à jour, car le client sera automatiquement mise à jour lorsqu’il détecte qu'une nouvelle version est disponible à partir du service. Pour redéployer le programme d’installation le plus récent utiliser le processus de redéploiement MSI décrite ci-dessous. Si vous déployez une version antérieure du package MSI, le client mettra automatiquement à jour lorsque cela est possible pour l’utilisateur. Si une version ancienne très obtient déployée, le fichier MSI déclenche une mise à jour de l’application avant que l’utilisateur est en mesure d’utiliser des équipes. 
+N’utilisez pas le fichier MSI pour déployer des mises à jour, car le client sera automatiquement mise à jour lorsqu’il détecte qu'une nouvelle version est disponible à partir du service. Pour redéployer le programme d’installation le plus récent utiliser le processus de redéploiement MSI décrite ci-dessous.Si vous déployez une version antérieure du package MSI, le client mettra automatiquement à jour lorsque cela est possible pour l’utilisateur. Si une version ancienne très obtient déployée, le fichier MSI déclenche une mise à jour de l’application avant que l’utilisateur est en mesure d’utiliser des équipes. 
 
 > [!Important] 
 > Nous ne pas recommandé de modifier les emplacements d’installation par défaut, comme ceci risque de perturber le flux de mise à jour. Trop ancienne une version empêchera finira par les utilisateurs d’accéder au service. 
@@ -54,8 +54,8 @@ N’utilisez pas le fichier MSI pour déployer des mises à jour, car le client 
 ## <a name="clean-up-and-redeployment-procedure"></a>Nettoyage et procédure redéploiement
 Si un utilisateur désinstalle des équipes de leur profil utilisateur, le programme d’installation MSI effectue le suivi que l’utilisateur a désinstallé l’application équipes et n’est plus installer équipes pour ce profil utilisateur. Pour redéployer les équipes pour cet utilisateur sur un ordinateur particulier où il a été désinstallé, procédez comme suit :
 
-1. Désinstallation d’une application d’équipes installé pour chaque profil utilisateur. 
-2. Après la désinstallation, supprimez le répertoire de manière récursive sous % localappdata%\Microsoft\Teams\. 
+1. Désinstallation d’une application d’équipes installé pour chaque profil utilisateur. 
+2. Après la désinstallation, supprimez le répertoire de manière récursive sous % localappdata%\Microsoft\Teams\. 
 3. Redéployer le package MSI sur cet ordinateur.
 
 > [!TIP] 
@@ -63,9 +63,20 @@ Si un utilisateur désinstalle des équipes de leur profil utilisateur, le progr
                     
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>Désactiver le démarrage automatique pour le programme d’installation MSI
 
-Si vous souhaitez désactiver le démarrage automatique, entrez l’invite de commandes suivante :
+Comportement par défaut de MSI consiste à installer le client équipes dès qu’un utilisateur se connecte et puis démarrer automatiquement les équipes. Vous pouvez modifier ce comportement avec les paramètres ci-dessous comme suit :
 
+- Lorsqu’un utilisateur se connecte à Windows, équipes seront installés avec le fichier MSI
+- Toutefois, le client équipes ne démarrera pas jusqu'à ce que l’utilisateur a démarré manuellement les équipes
+- Un raccourci pour démarrer des équipes sera ajouté sur le bureau de l’utilisateur
+- Une fois que le démarrage manuel, équipes seront démarrage automatique chaque fois que l’utilisateur se connecte en
+
+Pour la version 32 bits
 ```
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
-
+Pour la version 64 bits
+```
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+```
+> [!Note] 
+>  Si vous exécutez manuellement le fichier MSI, veillez à exécuter avec des autorisations élevées. Même si vous l’exécutez en tant qu’administrateur, sans l’exécuter avec des autorisations élevées, le programme d’installation ne sera pas en mesure de configurer l’option pour désactiver le démarrage automatique.

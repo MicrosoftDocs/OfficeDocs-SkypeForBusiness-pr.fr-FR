@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Apprenez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Office 365 afin de mettre en place des conférences téléphoniques auxquelles les gens peuvent se connecter. '
-ms.openlocfilehash: 8a5484aee9e8a5a9b8a3e1a0c0cf3e3f264b17d1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371974"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283177"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Essayez ou achetez conférence dans Office 365 pour Microsoft Teams
 
@@ -46,9 +46,9 @@ Pour effectuer ces étapes, vous devez être un [administrateur global ou admini
     
 2. Obtenir vos licences d’**Audioconférence**. Si vous souhaitez :
 
-   - **Essayer** avant d’acheter, vous pouvez vous inscrire pour un essai gratuit d’Office 365 Entreprise E5 qui inclut l’audioconférence. Voir l’[Essai d’Office 365 Entreprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
+   - **Essayez-le** avant de l’acheter : vous pouvez vous inscrire pour une version d’évaluation gratuite d’Office 365 entreprise E5 qui inclut l’audioconférence. Voir l’[Essai d’Office 365 Entreprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Acheter**, voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+   - **Acheter**: voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 3. [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) que vous avez achetées aux collègues qui vont planifier ou animer des réunions.
 
@@ -74,7 +74,9 @@ Si vous êtes un client Volume et Gestion des licences, vous pouvez obtenir des 
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Étape 2 : Définir le fournisseur de services d’audioconférence pour les utilisateurs qui mènent ou planifient des réunions
 
-Lorsque vous attribuez une licence d’**audioconférence** à des personnes dans votre organisation qui dirigent ou planifient des réunions, elles sont totalement configurées et prêtes à commencer ! (Vous n’avez pas à définir leur fournisseur de services d’audioconférence.)
+Lorsque vous attribuez une licence de **Conférence Audio** à des personnes de votre organisation qui ne possèdent pas Skype pour entreprise intégré à un fournisseur de services d’audioconférence tiers 3e, ils sont tous paramétrés et prêt à passer ! (Vous n’avez pas à définir leur fournisseur de services d’audioconférence.)
+
+Si vous avez des utilisateurs activés avec un fournisseur de services d’audioconférence tiers 3e, vous devez modifier le fournisseur de ces utilisateurs à Microsoft. Pour modifier le fournisseur de l’utilisateur, voir [Attribuer de Microsoft en tant que le fournisseur de services d’audioconférence](assign-microsoft-as-the-audio-conferencing-provider.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Étape 3 : Autres tâches d’administration
 
@@ -94,7 +96,7 @@ Les étapes suivantes sont **facultatives**, mais un grand nombre d’administra
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer Skype Entreprise Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Permettent aux équipes de votre organisation](office-365-set-up.md)
 
 [Numéros de téléphone pour l'audioconférence](phone-numbers-for-audio-conferencing-in-teams.md)
 
