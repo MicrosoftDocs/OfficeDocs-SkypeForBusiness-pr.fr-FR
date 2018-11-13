@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54f7805e4e6db4416601ea01bcb5fc66e57ead17
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.openlocfilehash: 10de89c43a653cd090f313ec368bde42bd774b03
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255653"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282987"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 =================================================
@@ -40,7 +40,7 @@ Commençons par nous pencher sur la façon dont Microsoft Teams permet aux équ
 
 Afficher cette courte vidéo pour en savoir plus sur les meilleures pratiques pour la création d’équipes et canaux.
 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
 <a name="membership-roles-and-settings"></a>L’appartenance, les rôles et les paramètres
 ------------------------------
@@ -54,7 +54,8 @@ Les propriétaires d’équipe peuvent également créer une équipe basée sur 
 **Paramètres de l’équipe** Les propriétaires d’équipe peuvent gérer les paramètres à l’échelle de l’équipe directement dans Microsoft Teams. Les paramètres incluent la possibilité d’ajouter une image de l’équipe, de définir les autorisations entre les membres pour créer des canaux, ajouter des onglets et connecteurs, @mentionner toute l’équipe ou le canal et l’utilisation de fichiers GIF, autocollants et mèmes. 
 
 Prendre trois minutes pour extraire ce atteindre guide vidéo pour les propriétaires de l’équipe : 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
 Si vous êtes un administrateur de Microsoft Teams dans Office 365, vous avez accès à des paramètres système dans les équipes & Skype entreprise centre d’administration. Ces paramètres peuvent avoir une incidence sur les options et valeurs par défaut que les propriétaires d'équipe voient sous les paramètres de l’équipe. Par exemple, vous pouvez activer un canal par défaut, « Général », pour les annonces, discussions et ressources de l’équipe, qui s’afficheront pour toutes les équipes.
 
@@ -68,7 +69,6 @@ Pour faire adopter Microsoft Teams par les utilisateurs, une activité clé de 
 Voici quelques exemples fonctionnels de configuration d'équipes, de canaux et d'applications (onglets/connecteurs/bots) par différents types d'utilisateurs. Ils peuvent être utilisés pour initier une conversation sur Microsoft Teams avec votre communauté d'utilisateurs. Lorsque vous réfléchissez sur l'implémentation de Microsoft Teams dans votre organisation, rappelez-vous que vous pouvez fournir des conseils sur la structuration des équipes, bien que les utilisateurs puissent décider de leur propre organisation. Ces configurations sont fournies à titre d'exemples uniquement, pour permettre d'initier une réflexion sur les différentes possibilités.
 
 Microsoft Teams permet d'aplanir efficacement les silos organisationnels et de promouvoir la formation d'équipes inter-fonctionnelles ; invitez donc vos utilisateurs à réfléchir en tant qu'équipes fonctionnelles et non en tant que silos organisationnels.
-
 
 |Types d'équipes  |Canaux potentiels  |Applications (Onglets ![Icône Onglets.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connecteurs ![Icône Connecteurs.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Icône Bots.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
