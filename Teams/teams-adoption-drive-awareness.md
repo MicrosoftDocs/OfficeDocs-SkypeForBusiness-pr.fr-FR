@@ -3,7 +3,7 @@ title: Présentation du lecteur et implémenter une formation pour Microsoft Tea
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/01/2018
+ms.date: 11/09/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5fe5e2cb270efa81b6b773d193d6a48f63c19cc0
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 91468e121e80255249d4f8a3d9676f6c3069a319
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215825"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255720"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Présentation du lecteur et implémenter une formation pour Microsoft Teams
 
@@ -65,13 +65,4 @@ Partager les informations que vous obtenir à partir de vos canaux de commentair
 
 [Pour plus d’informations sur les rapports d’utilisation de Microsoft Teams dans le centre d’administration d’Office 365.](teams-activity-reports.md)
 
-## <a name="ongoing-improvements"></a>Améliorations en cours
-
-En collaboration avec votre équipe de mise en œuvre technique, plan destiné à contenir tous les mois service d’intégrité critiques pour Microsoft Teams. Dans ces révisions vous allez partager des idées sur les mesures suivantes :
-
-- Utilisation des services – données d’utilisation Active. Peut inclure des informations sur les services déconseillées ou la consommation réduite à la suite de passage à Microsoft Teams.  Un instructeur normalement par le Gestionnaire des services ou le propriétaire du produit pour les services de collaboration.
-- Service d’intégrité – la qualité des appels, d’intégrité, de la réunion et d’intégrité globale du service. Révision des incidents prise en charge et les niveaux de ticket de support technique. Description des rubriques de sécurité et de gouvernance. Normalement conduit par les équipes de support et de protection des informations. 
-- Feuille de route fonctionnalité/project – quelle est la planification d’autres employé embarquement ou davantage les projets d’amélioration du produit collaboration ? Les fonctionnalités supplémentaires votre organisation prévoit d’activer ? Un instructeur normalement par le Gestionnaire des services ou le propriétaire du produit pour les services de collaboration en collaboration avec les parties prenantes professionnelles. 
-- Sensibilisation campagne et les formations réussite mesure mise à jour – comprend l’appel, la participation, les thèmes, les principaux problèmes signalés et ouvrir des problèmes. Inclure wins clés et réussites.
- 
-Avis mensuels peuvent être assez formels dans les grandes organisations, ou ils peuvent être des réunions virtuelles dans les petites entreprises. Il est important de partager et analyser ces données pour garantir une implémentation saine et vives plus en plus de Microsoft Teams. 
+![Icône d’étapes suivante](media/teams-adoption-next-icon.png) suivant : [passe en revue de l’intégrité du service planification](teams-adoption-schedule-service-health-reviews.md)

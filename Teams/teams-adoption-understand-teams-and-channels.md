@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6012193592b915c3f49ff5e50466c74d370e9835
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 979c288f58bfde0d65a923030f81750f90e69ba3
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215800"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255732"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Comprendre les équipes et les canaux dans Microsoft Teams
 
@@ -32,7 +32,11 @@ Les concepts des équipes et les canaux sont essentielles dans une implémentati
 
 Pour lire des informations supplémentaires sur les équipes et les canaux, consultez la [vue d’ensemble des équipes et de canaux dans les équipes Microsoft](teams-channels-overview.md). Pour en savoir plus sur les équipes et les groupes d’Office 365, voir [groupes de Office 365 et les équipes Microsoft](office-365-groups.md) et [en savoir plus sur Office 365 groupes](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
-[Afficher cette courte vidéo](https://youtu.be/hjJWtoaRJeE) pour en savoir plus sur les meilleures pratiques pour la création d’équipes et canaux.
+
+|  |  |
+|---------|---------|
+| Afficher cette courte vidéo   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+
 
 Types d’accès équipe déterminent qui peut participer à une équipe :
 

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Résumé : Lisez cette rubrique pour résoudre les problèmes de votre déploiement du Gestionnaire de statistiques de Skype pour Business Server.'
-ms.openlocfilehash: 3edff5ea17c4a787456ff212b65d99f0ad5bb67f
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+ms.openlocfilehash: 3a0bb2530e0b19685f28a747660e59b1fceec4e8
+ms.sourcegitcommit: 8536a34cb13d40b30f84d95e6df10542ef85c36d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035707"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26292982"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Résoudre les statistiques du gestionnaire pour Skype pour Business Server
  
@@ -178,6 +178,6 @@ Pour plus d’informations, voir les articles suivants :
     
 - [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server](upgrade.md)
     
-- [Blog du gestionnaire de statistiques de Skype Entreprise Server ](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog du gestionnaire de statistiques de Skype Entreprise Server ](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
     
 

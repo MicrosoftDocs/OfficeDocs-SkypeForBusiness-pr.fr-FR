@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2683c2f116fd37f756cd111f6e3a4cc4639b629
-ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
+ms.openlocfilehash: d5cb52aa679144f2dc9673106addf1125a908d70
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26031728"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283138"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Surveiller l’utilisation et les commentaires dans Microsoft Teams
 Il est important de savoir comment les utilisateurs utilisent des équipes et quel est votre expérience avec les équipes. Rapports d’utilisation peuvent vous aider à mieux comprendre les modèles d’utilisation et ainsi que les commentaires des utilisateurs, donnez insights pour informer votre déploiement plus large et où les hiérarchiser les efforts de formation et de communication.
@@ -35,7 +35,7 @@ Rapports d’activité équipes dans le centre d’administration Office 365 vou
 
 Pour afficher ces rapports, vous devez être un administrateur global dans Office 365, un administrateur du service équipes ou un lecteur de rapports. Accédez au centre d’administration Office 365, cliquez sur **rapports** > **l’utilisation**. Sous **Sélectionnez un rapport**, cliquez sur **Les équipes Microsoft**. À partir de là, sélectionnez le rapport que vous souhaitez afficher.
 
-- **Rapport d’actvity équipes utilisateur**: ce rapport présente les types d’activités de communication utilisateurs participer, telles que le nombre de personnes converser dans un canal et combien de personnes communiquer par le biais de chat privé.  
+- **Rapport d’activité utilisateur équipes**: ce rapport présente les types d’activités de communication utilisateurs participer, telles que le nombre de personnes converser dans un canal et combien de personnes communiquer par le biais de chat privé.  
 
     ![Rapport d’activité utilisateur équipes] (media/get-started-with-teams-user-activity-report.png "Capture d’écran du rapport d’activité utilisateur équipes, affichant un graphique qui indique le nombre d’utilisateurs par type d’activité, ce qui inclut les messages de canal, messages de conversation, les appels, réunions. et autres") 
 - **Rapport d’utilisation des équipes périphérique**: ce rapport vous montre comment les utilisateurs se connectent aux équipes, notamment comment de nombreuses personnes utilisent les équipes lorsque sur OK.

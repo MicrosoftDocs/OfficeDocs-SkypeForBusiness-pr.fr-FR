@@ -10,18 +10,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: 'Résumé : Découvrez l’appel qualité du tableau de bord, qui est un outil de création de rapports pour Skype pour Business Server.'
-ms.openlocfilehash: 0b88a001e9d8c72e059469a9e9d5c12c6eee135d
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+ms.openlocfilehash: ec0924ff5e1c2d2099b004b0fd357d5e70b1f151
+ms.sourcegitcommit: 388f82c36e1c7bddf38298867882d992be989b87
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035539"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26281410"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Appeler le tableau de bord qualité de Skype pour Business Server
  
 **Résumé :** Découvrez l’appel qualité du tableau de bord, qui est un outil de création de rapports pour Skype pour Business Server.
  
-Le Skype pour le module Business Server appeler qualité du tableau de bord (CQD) est une couche de création de rapports sur la qualité de l’expérience de base de données dans le serveur de surveillance dans Skype pour Business Server. CQD utilise Microsoft SQL Server Analysis Services pour fournir l’utilisation d’agrégat et appeler des informations sur la qualité, ainsi que le filtrage et glissement sur l’ensemble de données.
+Le Skype pour le module Business Server appeler qualité du tableau de bord (CQD) est une couche de création de rapports sur la qualité de l’expérience de base de données dans le serveur de surveillance dans Skype pour Business Server et Lync Server 2013. CQD utilise Microsoft SQL Server Analysis Services pour fournir l’utilisation d’agrégat et appeler des informations sur la qualité, ainsi que le filtrage et glissement sur l’ensemble de données.
   
 Les rubriques suivantes sont incluses dans cette section et doivent être examinées avant de déployer le tableau de bord qualité des appels.
   
