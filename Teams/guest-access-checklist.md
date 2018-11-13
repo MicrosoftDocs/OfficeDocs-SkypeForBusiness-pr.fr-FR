@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e335210a3d7b209984cee5319dd1e7e3b1bd24e4
-ms.sourcegitcommit: 0c360c68d7841e85b89e3d92baff80c42d685e81
+ms.openlocfilehash: 9bd95dc0d928a049adad06b43b9f6cacaf2c65d1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "25797318"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293579"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de vérification de l’accès invité équipes
 ==========================================
@@ -61,7 +61,7 @@ N’oubliez pas les opérations suivantes :
 
       ![Capture d’écran montre un exemple d’un bouton bascule paramètres DAS. ](media/guest-access-checklist-AADSettings1.png)
 
-    Pour prendre en charge les visiteurs, **les membres peuvent inviter** doit être définie sur **Oui**. 
+    Au minimum pour prendre en charge les visiteurs, **les membres peuvent inviter** doit être définie sur **Oui**. 
    
 > [!NOTE] 
 > Si vous la valeur **membres peuvent inviter** **non** et ensuite activez l’accès invité dans Office 365 groupes et Teams Microsoft, les administrateurs peuvent contrôler les invitations aux invités dans votre répertoire. Une fois que les invités sont dans le répertoire, ils peuvent être ajoutés aux équipes par les membres non-admin qui sont propriétaires d’équipe.

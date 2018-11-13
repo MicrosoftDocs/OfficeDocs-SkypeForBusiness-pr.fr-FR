@@ -13,12 +13,12 @@ description: Cette section explique quelles données et autorisations sont deman
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da1c22852f12bad79413d8b1f57d129be4e0ffcd
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 39c104d10e14e602da21761667312a917d9a9ce0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678401"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295766"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -97,7 +97,7 @@ Un objet tab est un site Web en cours d’exécution à l’intérieur des équi
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
     <td valign="top">None (actuellement).</td>
-    <td valign="top"><ul><li>Le profil de risque d’un onglet est pratiquement identique à ce même site en cours d’exécution dans un onglet du navigateur. </li><li>Un onglet obtient également le contexte dans lequel elle & #39 ; est en cours d’exécution, y compris le nom de connexion et le nom UPN de l’utilisateur actuel, l’ID de l’objet Azure AD pour l’utilisateur actuel, l’ID du groupe Office 365 (équipe) dans lequel il réside, l’ID de client et les paramètres régionaux de l’utilisateur. Cependant, afin de mapper les ID utilisateur & #39 ; informations s, l’onglet aurait pour qu’un utilisateur se connecter à Azure AD.</li></ul></td>
+    <td valign="top"><ul><li>Le profil de risque d’un onglet est pratiquement identique à ce même site en cours d’exécution dans un onglet du navigateur. </li><li>Un onglet obtient également le contexte dans lequel elle & #39 ; est en cours d’exécution, y compris le nom de connexion et le nom UPN de l’utilisateur actuel, l’ID de l’objet Azure AD pour l’utilisateur actuel, l’ID du groupe Office 365 dans lequel il réside (s’il s’agit d’une équipe) , l’ID de client et les paramètres régionaux de l’utilisateur. Cependant, afin de mapper les ID utilisateur & #39 ; informations s, l’onglet aurait pour qu’un utilisateur se connecter à Azure AD.</li></ul></td>
   </tr>
   </table>
 

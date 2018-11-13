@@ -13,20 +13,16 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85e7749bda08b1dbbf7a5afad5fc138facb62940
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 0c537f37534c616965b74f5ea268f547cff28d41
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26038855"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294875"
 ---
 # <a name="cloud-voice-deployment"></a>Déploiement de la fonctionnalité vocale cloud
 
 Microsoft Teams, le concentrateur de travail d’équipe et les communications dans Office 365, fournit à présent de conférence Audio, système téléphonique avec des Plans de l’appel, et système téléphonique Direct des fonctionnalités de routage pour répondre aux besoins métiers supplémentaires en étendant la réunion équipes et l’appel de l’expérience pour inclure les parties externes connectés via le réseau téléphonique commuté (RTC).
-
-
-> [!Tip] 
-> Regarder la session pour une introduction aux systèmes téléphoniques suivante : [Introduction au système téléphonique dans les équipes Microsoft](https://aka.ms/teams-phone-system)
  
 Nous allons mettre à jour cette page fonctionnalités de voix sur le nuage supplémentaires pour les équipes sont libérées au fil du temps.
 

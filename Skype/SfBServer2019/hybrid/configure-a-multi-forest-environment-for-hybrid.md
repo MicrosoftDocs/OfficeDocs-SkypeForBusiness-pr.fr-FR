@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: Les sections suivantes fournissent des instructions sur la façon de configurer un environnement comprenant plusieurs forêts dans un modèle de forêt de ressources/de l’utilisateur à fournir Skype pour les fonctionnalités dans un scénario hybride.
-ms.openlocfilehash: ef2b57d1f89e4d5479cacce57ce9a6c47c495f21
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 72c0a91c3a5a90b4ec83eb5f71a5601ccfb48bb1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839544"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295361"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configuration d’un environnement à forêts multiples pour un environnement hybride Skype pour les entreprises
  
@@ -60,7 +60,7 @@ Pour une synchronisation correcte des identités, les attributs suivants doivent
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-L’[attribut de lien de compte choisi](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) sera utilisé comme ancre source. Si vous avez un attribut différents et immuable que vous préférez utiliser, vous devez ; Veillez à modifier la règle basée sur les revendications AD FS, puis sélectionnez l’attribut lors de la configuration DAS se connecter.
+L’[attribut de lien de compte choisi](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/) sera utilisé comme ancre source. Si vous avez un attribut différents et immuable que vous préférez utiliser, vous devez ; Veillez à modifier la règle basée sur les revendications AD FS, puis sélectionnez l’attribut lors de la configuration DAS se connecter.
   
 Ne pas synchroniser l’UPN entre les forêts. Lors des tests, nous avons découvert qu’il fallait utiliser un UPN unique pour chaque forêt d’utilisateurs, car il est impossible d’utiliser le même UPN dans plusieurs forêts. Il reste par conséquent deux possibilités : synchroniser l’UPN ou non. 
   
@@ -70,7 +70,7 @@ Ne pas synchroniser l’UPN entre les forêts. Lors des tests, nous avons décou
     
 ## <a name="create-an-office-365-tenant"></a>Création d’un client Office 365
 
-Vous devez ensuite fournir un client Office 365 pour le déploiement. Pour plus d’informations, consultez [abonnements, licences et des comptes et clients pour les offres de cloud de Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+Vous devez ensuite fournir un client Office 365 pour le déploiement. Pour plus d’informations, consultez [abonnements, licences et des comptes et clients pour les offres de cloud de Microsoft](https://docs.microsoft.com/en-us/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## <a name="configure-active-directory-federation-services"></a>Configurer Active Directory Federation Services
 
@@ -106,7 +106,7 @@ Vert en surbrillance attributs ont été fusionnées à partir d’Office 365, l
   
 Il s’agit d’un utilisateur test, et vous pouvez voir que DAS se connecter a identifié la sourceAnchor et le cloudSourceAnchor à partir de l’utilisateur et les objets de forêt de ressources d’Office 365, dans notre cas 1101, c'est-à-dire employeeNumber sélectionnée précédemment. Il était puis en mesure de fusionner cet objet dans ce que vous voyez ci-dessus. 
   
-Pour plus d’informations, voir [répertoires intégrer votre locale avec Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
+Pour plus d’informations, voir [répertoires intégrer votre locale avec Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/). 
   
 Connexion DAS doivent être installé à l’aide des valeurs par défaut, à l’exception des suivantes : 
   
@@ -116,7 +116,7 @@ Connexion DAS doivent être installé à l’aide des valeurs par défaut, à l�
     
 3. Identifier les utilisateurs dans les annuaires locaux : sélectionnez **les identités utilisateur existent dans plusieurs répertoires**, puis sélectionnez les attributs **ObjectSID** et **msExchangeMasterAccountSID** .
     
-4. Identifier les utilisateurs dans Azure AD : ancrage Source : sélectionnez l’attribut que vous avez choisi après avoir lu la [sélection d’un attribut sourceAnchor bonne](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), nom d’utilisateur Principal - **userPrincipalName**.
+4. Identifier les utilisateurs dans Azure AD : ancrage Source : sélectionnez l’attribut que vous avez choisi après avoir lu la [sélection d’un attribut sourceAnchor bonne](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/), nom d’utilisateur Principal - **userPrincipalName**.
     
 5.  Fonctionnalités facultatives : indiquez si vous avez Exchange hybride est déployé.
     

@@ -4,11 +4,11 @@ hide_bc: true
 title: Skype Entreprise
 description: Skype Entreprise
 ms.openlocfilehash: cbb9765c358047b628be45759e2002cdc5a46f02
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
-ms.translationtype: HT
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546664"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293646"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -51,7 +51,7 @@ ms.locfileid: "25546664"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Solutions hybrides</h3>
-                                                    <p>Obtenez des informations sur la planification d’un déploiement hybride de Skype Entreprise.</p>
+                                                    <p>Trouvez des informations sur la planification d’un Skype pour un déploiement hybride Business.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -106,7 +106,7 @@ ms.locfileid: "25546664"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft Teams</h3>
+                                                    <h3>Microsoft Teams</h3>
                                                     <p>Obtenez la planification, la procédure et l’aide pratique dont vous avez besoin pour déployer avec succès Microsoft Teams.</p>
                                                 </div>
                                             </div>
@@ -125,8 +125,8 @@ ms.locfileid: "25546664"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Transition de Skype Entreprise à Microsoft Teams</h3>
-                                                    <p>Recherchez de l’aide et les outils pour suivre le chemin d'accès optimal vers Teams.</p>
+                                                    <h3>Transition de Skype Entreprise à Microsoft Teams</h3>
+                                                    <p>Trouvez des conseils et des outils pour Explorer votre chemin d’accès optimal aux équipes.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -143,7 +143,7 @@ ms.locfileid: "25546664"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Systèmes Skype Room v2</h3>
+                                                    <h3>Skype Room System v2</h3>
                                                     <p>Découvrez comment planifier, déployer et gérer les systèmes Skype Room v2.</p>
                                                 </div>
                                             </div>
@@ -180,7 +180,7 @@ ms.locfileid: "25546664"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Utilisateurs finaux</h3>
-                                                    <p>Obtenez de l’aide, de la formation et du support technique pour les utilisateurs de Skype Entreprise sur <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
+                                                    <p>Rechercher l’aide, de formation et de support technique pour Skype pour les utilisateurs professionnels sur <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: En savoir plus sur le déploiement de plusieurs sites PSTN dans le nuage connecteur Edition.
-ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
-ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
+ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25851489"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295712"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Déployer plusieurs sites dans Cloud Connector
  
@@ -78,7 +78,6 @@ Le tableau suivant établit la liste des différences entre un site unique à ha
   
 |**Catégorie**|**Option**|**Site unique à haute disponibilité**|**Plusieurs sites**|
 |:-----|:-----|:-----|:-----|
-|Configuration  <br/> |Nom de l’application hôte <br/> |**Différent** pour chaque appliance <br/> |**Différent** pour chaque site RTC <br/> |
 |Installation  <br/> |Répertoire partagé  <br/> |Requiert le **même** dossier partagé sur appliances <br/> |Nécessite un répertoire partagé **différent** pour toutes les appliances <br/> |
 |Configuration  <br/> |VirtualMachineDomain  <br/> |Nécessite le **même** domaine pour toutes les appliances <br/> |Nécessite le **même** domaine pour tous les sites RTC <br/> |
 |Configuration  <br/> |Domaines SIP  <br/> |Ordre et les noms de domaine doivent être le **même** sur des appareils <br/> |Ordre et les noms de domaine doivent être le **même** entre les sites PSTN <br/> |

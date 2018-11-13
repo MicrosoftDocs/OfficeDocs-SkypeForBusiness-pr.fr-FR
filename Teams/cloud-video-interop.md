@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dc13f9ff6fd391d84a5a461badc7edbc8abbdb
-ms.sourcegitcommit: afc415ad4d0c2ed013eaf5f68a72418e66734ff0
+ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25898134"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294928"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité vidéo cloud pour les équipes Microsoft
 
@@ -30,11 +30,11 @@ Vidéoconférence avec la collaboration de contenu vous permettra de tirer le me
 Les partenaires suivants ont des solutions d’interopérabilité vidéo pour Microsoft Teams. Votre société peut choisir de travailler avec n’importe quelle combinaison de ces partenaires au sein de votre entreprise. 
 
 
-|Partenaire|Solution d’un partenaire|
-|----|---|
-|![RealConnect de Polycom](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Service RealConnect de Polycom</a> |
-|![Infini Pexip](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Infini Pexip pour les équipes Microsoft</a> | 
-|![Passerelle blueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Passerelle blueJeans pour les équipes Microsoft</a> |
+|Partenaire|Solution d’un partenaire|Disponibilité|
+|----|---|----|
+|![RealConnect de Polycom](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Service RealConnect de Polycom</a> |Désormais disponible|
+|![Infini Pexip](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Infini Pexip pour les équipes Microsoft</a> | 19 octobre 2018|
+|![Passerelle blueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Passerelle blueJeans pour les équipes Microsoft</a> | 31 octobre 2018|
 
 ## <a name="partner-solutions"></a>Solutions de partenaires
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instructions pour configurer le connecteur de données d’appel, qui permet de télémétrie à partir de Skype pour Business locale pour être affichés à l’aide de Skype pour les outils professionnels en ligne.
-ms.openlocfilehash: 959bb182da91029fd43ebc3ccb99fb5a69d820b2
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: adc1c9a1e50130796c4749a958e9030c10a09fd0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838822"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293615"
 ---
 # <a name="configure-call-data-connector"></a>Configurer le connecteur de données d’appel
 
@@ -46,7 +46,7 @@ Pour configurer et activer le connecteur de données d’appel, vous allez utili
 
 ### <a name="configure-your-environment"></a>Configurer votre environnement 
 
-Pour configurer votre environnement pour activer un collecteur de données en ligne, vous devez tout d’abord vous connecter à Skype pour Business Online PowerShell en tant qu’administrateur. Pour plus d’informations, voir [Gérer les Skype pour Business en ligne avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+Pour configurer votre environnement pour activer un collecteur de données en ligne, vous devez tout d’abord vous connecter à Skype pour Business Online PowerShell en tant qu’administrateur. Pour plus d’informations, voir [Gérer les Skype pour Business en ligne avec Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 Il existe deux méthodes pour la connexion à Skype pour Business Online PowerShell :
 
@@ -135,7 +135,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>Affichage de données via le tableau de bord en ligne sur site
 
- Une fois que le connecteur de données d’appel est activé, vous pouvez afficher vos données d’appel local sur le tableau de bord Analytique appel comme décrit dans [Utilisation appeler Analytique pour résoudre les problèmes de qualité médiocre](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
+ Une fois que le connecteur de données d’appel est activé, vous pouvez afficher vos données d’appel local sur le tableau de bord Analytique appel comme décrit dans [Utilisation appeler Analytique pour résoudre les problèmes de qualité médiocre](https://docs.microsoft.com/en-us/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
 
 
 ## <a name="for-more-information"></a>Pour plus d’informations

@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Apprenez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Office 365 afin de mettre en place des conférences téléphoniques auxquelles les gens peuvent se connecter. '
-ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: 566cdfdcea7c12c053f8dac43d68ef75a3b29e4b
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283177"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296049"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Essayez ou achetez conférence dans Office 365 pour Microsoft Teams
 
@@ -74,9 +74,7 @@ Si vous êtes un client Volume et Gestion des licences, vous pouvez obtenir des 
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Étape 2 : Définir le fournisseur de services d’audioconférence pour les utilisateurs qui mènent ou planifient des réunions
 
-Lorsque vous attribuez une licence de **Conférence Audio** à des personnes de votre organisation qui ne possèdent pas Skype pour entreprise intégré à un fournisseur de services d’audioconférence tiers 3e, ils sont tous paramétrés et prêt à passer ! (Vous n’avez pas à définir leur fournisseur de services d’audioconférence.)
-
-Si vous avez des utilisateurs activés avec un fournisseur de services d’audioconférence tiers 3e, vous devez modifier le fournisseur de ces utilisateurs à Microsoft. Pour modifier le fournisseur de l’utilisateur, voir [Attribuer de Microsoft en tant que le fournisseur de services d’audioconférence](assign-microsoft-as-the-audio-conferencing-provider.md).
+Lorsque vous attribuez une licence d’**audioconférence** à des personnes dans votre organisation qui dirigent ou planifient des réunions, elles sont totalement configurées et prêtes à commencer ! (Vous n’avez pas à définir leur fournisseur de services d’audioconférence.)
 
 ## <a name="step-3-other-admin-tasks"></a>Étape 3 : Autres tâches d’administration
 

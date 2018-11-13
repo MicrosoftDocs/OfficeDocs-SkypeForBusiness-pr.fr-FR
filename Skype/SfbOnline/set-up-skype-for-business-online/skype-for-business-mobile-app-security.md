@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Apprenez à configurer la sécurité des applications mobiles pour vos utilisateurs. '
-ms.openlocfilehash: 03b6575826defd5bd4c8c7739a1975edaabe0752
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: a87719bc4135ab429fca8425812b285a2eed5b5e
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838494"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294486"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Sécurité de l'application mobile Skype Entreprise
 
@@ -37,7 +37,7 @@ Cet article contient des informations relatives au chiffrement des données dans
 |**iOS** <br/> |La combinaison nom d'utilisateur/mot de passe n'est PAS chiffrée dans le trousseau. Toutefois, le trousseau lui-même est chiffré.  <br/> |Nous utilisons déjà le système de protection des données [NSFileProtectionCompleteUntilFirstUserAuthentication](https://developer.apple.com/reference/foundation/fileprotectiontype/1616633-completeuntilfirstuserauthentica) pour tous les fichiers stockés dans l'application. Cela signifie que les fichiers sont chiffrés jusqu'à ce que l'utilisateur déverrouille l'appareil pour la première fois après son redémarrage.<br/> |Cette information n'est pas chiffrée.  <br/> |
 |**Windows Phone** <br/> |Windows Phone utilise DPAPI (API de protection des données) pour sécuriser les mots de passe dans Windows. Il me semble que la méthode de chiffrement utilisée est AES. Windows n'offre pas la possibilité de configurer la taille de la clé (ou la méthode). Il faut s'en remettre à ce que DPAPI propose. Cette méthode utilise le TPM de l'appareil pour sécuriser les clés propres à l'utilisateur et à l'appareil. Notez que les clés DPAPI ne sont pas propres à l'application.  <br/> |Les données d'application Windows Phone sont protégées par [DPAP](https://msdn.microsoft.com/en-us/library/windows/apps/hh487164%28v=vs.105%29.aspx)I, à l'instar des informations d'authentification. Selon le niveau de détail souhaité, puisque certaines informations de l'index pour les données d'application sont protégées par un chiffrement AES (pas DPAPI) pour éviter le salting, nous pouvons donc les consulter sans procéder au déchiffrement et la clé est à son tour protégée par DPAPI. Les données mises en cache peuvent être lues par n'importe quelle méthode par le même téléphone, si celui-ci est en mesure d'accéder à notre dossier de données. Le chiffrement Windows ne protège pas des tentatives d'accès via le bac à sable, uniquement des tentatives d'accès externes.<br/> |Cette information n'est pas chiffrée.  <br/> |
    
-**Remarque :** Reportez-vous à [cette documentation publique](https://docs.microsoft.com/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) pour l’application de code confidentiel périphérique disponible sur chacun des plateformes mobiles ci-dessus
+**Remarque :** Reportez-vous à [cette documentation publique](https://docs.microsoft.com/en-us/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) pour l’application de code confidentiel périphérique disponible sur chacun des plateformes mobiles ci-dessus
   
 ## <a name="related-topics"></a>Rubriques connexes
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)

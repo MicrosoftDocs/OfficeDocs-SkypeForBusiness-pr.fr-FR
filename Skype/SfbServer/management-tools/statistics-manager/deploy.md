@@ -1,5 +1,5 @@
 ---
-title: Déployer des statistiques responsable Skype pour Business Server
+title: Déploiement du gestionnaire de statistiques pour Skype Entreprise Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,24 +10,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: 'Résumé : Lisez cette rubrique pour savoir comment déployer des statistiques Manager pour Skype pour Business Server.'
-ms.openlocfilehash: 4d32c10852091d494f59c65648cb370878fc3413
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+description: 'Résumé : Lisez cette rubrique pour savoir comment déployer des statistiques Manager pour Skype pour Business Server 2015.'
+ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282979"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295181"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Déployer des statistiques responsable Skype pour Business Server
+# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Deploy Statistics Manager for Skype for Business Server 2015
  
-**Résumé :** Lisez cette rubrique pour savoir comment déployer des statistiques Manager pour Skype pour Business Server.
+**Résumé :** Lisez cette rubrique pour savoir comment déployer des statistiques Manager pour Skype pour Business Server 2015.
   
  Gestionnaire de statistiques pour Skype pour Business Server est un outil puissant qui vous permet d’afficher Skype pour les données de performances et d’intégrité Business Server en temps réel. Vous pouvez interroger les données de performance sur des centaines de serveurs après quelques secondes et afficher les résultats instantanément sur le site Web de gestionnaire de statistiques.
   
-Avant d’essayer d’installer le Gestionnaire de statistiques, assurez-vous que vous êtes familiarisé avec la configuration requise matérielle, logicielle et réseau. Pour plus d’informations, voir [planification pour le Gestionnaire de statistiques de Skype pour Business Server](plan.md).
+Avant d’essayer d’installer le Gestionnaire de statistiques, assurez-vous que vous êtes familiarisé avec la configuration requise matérielle, logicielle et réseau. Pour plus d’informations, voir [planification pour le Gestionnaire de statistiques de Skype pour Business Server 2015](plan.md).
   
 > [!NOTE]
-> Si vous mettez à niveau depuis une version précédente du Gestionnaire de statistiques, voir [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server](upgrade.md). 
+> Si vous mettez à niveau depuis une version précédente du Gestionnaire de statistiques, voir [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server 2015](upgrade.md). 
   
 > [!NOTE]
 > Le site Web du gestionnaire de statistiques a été testé et fonctionne correctement sur Internet Explorer 11+, Edge 20.10240+ et Chrome 46+ (version Evergreen actuelle). 
@@ -62,7 +62,7 @@ Pour déployer les statistiques Manager, procédez comme suit :
   
 ### <a name="prepare-the-listener-host-machine"></a>Préparation de l’ordinateur hôte
 
-Pour préparer la machine hôte, vous devez installer le système de mise en cache en mémoire Redis et vous assurer qu’un certificat valide sur l’ordinateur. Microsoft recommande d’installer la dernière version stable de 3.0 Redis. Gestionnaire de statistiques version 2.0 a été testée avec Redis 3.2.100. 
+Pour préparer la machine hôte, vous devez installer le système de mise en cache en mémoire Redis et vous assurer qu’un certificat valide sur l’ordinateur. Microsoft recommande d’installer la dernière version stable de 3.0 Redis. Gestionnaire de statistiques version 1.1 a été testée avec Redis 3.0.501 et Redis 2.8.2400. 
   
 1. Téléchargez Redis à partir du site suivant : [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis). 
     
@@ -212,7 +212,7 @@ La commande suivante permet d’afficher toutes les options :
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-Pour voir vos informations de serveur actuellement importé, exécutez le script suivant : 
+Pour consulter les informations du serveur importé, exécutez le script suivant :  
   
 ```
 .\Get-StatsManServerInfo.ps1
@@ -265,7 +265,7 @@ Si un agent ne démarre pas, vérifiez les points suivants :
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-Pour plus d’informations sur tous les événements que vous pouvez voir dans le journal des événements, voir [Résoudre les statistiques responsable Skype pour Business Server](troubleshoot.md).
+Pour plus d’informations sur tous les événements que vous pouvez voir dans le journal des événements, voir [Résoudre les statistiques responsable Skype pour Business Server 2015](troubleshoot.md).
   
 ## <a name="create-a-self-signed-certificate"></a>Création d’un certificat auto-signé
 <a name="BKMK_SelfCert"> </a>
@@ -299,12 +299,12 @@ Microsoft recommande vivement d’utiliser un certificat signé par une autorit�
 
 Pour plus d’informations, voir les articles suivants :
   
-- [Planifier Business Server pour le Gestionnaire de statistiques de Skype](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
-- [Résoudre les statistiques du gestionnaire pour Skype pour Business Server](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     
-- [Blog du gestionnaire de statistiques de Skype Entreprise Server ](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog du gestionnaire de statistiques Skype Entreprise Server](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

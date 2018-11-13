@@ -10,23 +10,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Résumé : Déployez le Skype pour l’application Web de gestion et application de réunions Skype utilisé avec Skype pour les entreprises.'
-ms.openlocfilehash: 7fabbbbd279e2f72f3468fbe73a55b86e532f6cf
-ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
+ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890688"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295113"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Déployer des clients Web téléchargeables Skype pour Business Server
 
-**Résumé :** Déployer le Skype pour Business 2015 Web App et application de réunions Skype utilisé avec Skype pour Business Server.
+**Résumé :** Déployer le Skype pour Business 2015 Web App et application de réunions Skype utilisé avec Skype pour Business Server 2015.
 
-Skype pour Business Web App est un client web Internet Information Services (IIS) qui est installé sur le serveur exécutant Skype pour Business Server et par défaut, il est déployé sur la demande aux utilisateurs de réunion qui n’ont pas encore le Skype pour client d’entreprise. Ces utilisateurs de réunion sont le plus souvent que ne pas connexion depuis l’extérieur de votre réseau. Chaque fois qu’un utilisateur clique sur une URL de réunion, mais n’a pas la Skype pour Business client est installé, l’utilisateur voit s’afficher avec la possibilité de participer à la réunion à l’aide de la dernière version de Skype pour Business Web App ou réunions Skype.
+Skype pour Business Web App est un client web Internet Information Services (IIS) qui est installé sur le serveur exécutant Skype pour Business Server 2015 et par défaut, il est déployé sur la demande aux utilisateurs de réunion qui n’ont pas encore le Skype pour client d’entreprise. Ces utilisateurs de réunion sont le plus souvent que ne pas connexion depuis l’extérieur de votre réseau. Chaque fois qu’un utilisateur clique sur une URL de réunion, mais n’a pas la Skype pour Business client est installé, l’utilisateur voit s’afficher avec la possibilité de participer à la réunion à l’aide de la dernière version de Skype pour Business Web App ou réunions Skype.
 
 Les fonctionnalités de la voix, vidéo et partage dans Skype pour l’application Web de gestion nécessitent un contrôle Microsoft ActiveX qui est utilisé comme un plug-in par le navigateur de l’utilisateur. Vous pouvez installer le contrôle ActiveX à l’avance ou autoriser les utilisateurs à installer lorsque vous y êtes invité, ce qui se produit la première fois qu’ils utilisent Skype pour Business Web App ou la première fois qu’ils accèdent à une fonctionnalité qui requiert le contrôle ActiveX.
 
 > [!NOTE]
-> Dans Skype pour les déploiements de serveur de périphérie Business Server, un proxy inverse HTTPS dans le réseau de périmètre est requis pour Skype pour l’accès client Business Web App. Vous devez également publier des URL simples. Pour plus d’informations, voir [Configuration des serveurs Proxy inverse](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) et les [enregistrements DNS requis pour les URL simples dans Skype pour Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
+> Dans Skype pour les déploiements de serveur de périphérie Business Server 2015, un proxy inverse HTTPS dans le réseau de périmètre est requis pour Skype pour l’accès client Business Web App. Vous devez également publier des URL simples. Pour plus d’informations, voir [Configuration des serveurs Proxy inverse](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) et les [enregistrements DNS requis pour les URL simples dans Skype pour Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Activer l’authentification multifacteur pour Skype pour Business Web App
 <a name="MFA"> </a>
@@ -75,7 +75,7 @@ Le Skype pour l’application Web de gestion et application de réunions Skype p
 
 La fonctionnalité BranchCache dans Windows 7 et Windows Server 2008 R2 peut interférer avec Skype pour les composants WebPart Business Web App. Pour éviter les problèmes de Skype pour les utilisateurs professionnels Web App, assurez-vous que BranchCache n’est pas activé.
 
-Pour plus d’informations sur la désactivation de BranchCache, voir le [Guide de déploiement de BranchCache](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
+Pour plus d’informations sur la désactivation de BranchCache, voir le [Guide de déploiement de BranchCache](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
 
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Vérification de Skype pour le déploiement d’applications métiers Web
 <a name="MFA"> </a>
@@ -133,7 +133,7 @@ Cette procédure est facultative et s’applique à Skype pour Business Server 2
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Informations transmises à Microsoft conformément aux [Pratique de collecte de données de Skype Entreprise](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Informations transmises à Microsoft conformément aux [Pratique de collecte de données de Skype Entreprise](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Définir le délai d’attente avant le passage à la Skype hébergé localement pour l’expérience de l’application Web de gestion CDN n’est pas disponible. La valeur par défaut est de 6 secondes. Si celle-ci est définie sur 0, il n'y a pas de délai.
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume la configuration requise pour la prise en charge des systèmes de salle Skype v2.
-ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.openlocfilehash: fcf108de8ac6d344061b4c95dcbe7438dc034d3b
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255771"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296357"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
 
@@ -25,10 +25,7 @@ Cet article résume la configuration requise pour la prise en charge des systèm
 Votre déploiement implique la création de compte comme décrit dans [déployer Skype salle systèmes v2](../../deploy/deploy-clients/room-systems-v2.md) et la configuration d’une console de réunion, comme indiqué dans [Configure une console v2 de systèmes de salle Skype](../../deploy/deploy-clients/console.md). Vous devez également faire référence à [Skype pour les licences d’entreprise module complémentaire](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
 
 > [!NOTE]
-> Systèmes de salle Skype v2 est destinée aux Skype pour Business Server 2019, Skype pour Business Server 2015, Microsoft Teams ou Skype pour Business Online. <br><br>Les plateformes antérieures, telles que Lync Server 2013, ne sont pas prévues pour fonctionner avec les systèmes de salle Skype v2. 
-
-> [!NOTE]
-> Si vous utilisez un serveur d’Exchange sur prem, Skype salle systèmes v2 requiert l’utilisation d’Exchange Server 2013 SP1 ou version ultérieure.
+> Systèmes de salle Skype v2 est destinée aux Skype pour Business Server 2019, Skype pour Business Server 2015, Microsoft Teams ou Skype pour Business Online. <br><br>Plates-formes de versions antérieures à Lync Server 2013 ne sont pas prévus pour fonctionner avec les systèmes de salle Skype v2. 
 
 ## <a name="hardware-requirements"></a>Configuration matérielle requise
 
@@ -42,11 +39,11 @@ Systèmes de salle Skype v2 capable de s’adapter aux tailles différentes sall
 
 |Tablet PC|Processeur|MÉMOIRE RAM|Disque|
 |:-----|:-----|:-----|:-----|
-|Surface Pro (2017)  |Principaux i5  |8 GO  |256 GO  |
-|Surface Pro (2017)  |Principaux i5  |8 GO  |128 GO  |
-|Surface Pro (2017)  |Principaux i5  |4 GO  |128 GO  |
-|Surface Pro 4       |Principaux i5  |8 GO  |256 GO  |
 |Surface Pro 4       |Principaux i5  |4 GO  |128 GO  |
+|Surface Pro 4       |Principaux i5  |8 GO  |256 GO  |    
+|Surface Pro (2017)  |Principaux i5  |4 GO  |128 GO  |
+|Surface Pro (2017)  |Principaux i5  |8 GO  |128 GO  |
+|Surface Pro (2017)  |Principaux i5  |8 GO  |256 GO  |
 
 > [!NOTE]
 > M3 processeurs ne sont pas pris en charge.

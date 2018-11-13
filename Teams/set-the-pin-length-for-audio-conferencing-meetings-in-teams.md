@@ -19,13 +19,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Découvrez les paramètres de la longueur et la configuration requise d’un code confidentiel et comment définir la longueur des réunions dans Microsoft Teams.
-ms.openlocfilehash: 94be2277b631df9e8c65c9ce2936faeb961a42d7
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+description: Découvrez les paramètres définissant la longueur et les exigences d’un code confidentiel et comment définir sa longueur pour les réunions dans Microsoft Teams.
+ms.openlocfilehash: 8e0be3a904f4172aa0f92c1632ad37992a36ab5f
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838926"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296425"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Définir la longueur du code confidentiel pour les réunions d'audioconférence dans Microsoft Teams
 

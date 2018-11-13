@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Résumé : Passez en revue les considérations de l’utilisation du port avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: 3de98f096215c8f703f23081d2b102d3d5c9ffac
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 6587bcfa9721362067d70bfc2e15549fa2a8e326
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838606"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293860"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Ports et protocoles requis pour les serveurs
  
@@ -49,8 +49,8 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 
 |Rôle serveur|Nom du service|Port|Protocole|Remarques|
 |:-----|:-----|:-----|:-----|:-----|
-|Tous les serveurs  |SQL Browser  |1434  |UDP  |SQL Browser pour la copie répliquée locale de la base de données du magasin Central de gestion.  |
-|serveurs frontaux  |Skype pour le service Business Server frontal  |5060  |TCP  |Utilisé facultativement par les serveurs Standard Edition Server et les serveurs frontaux pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.  |
+|Tous les serveurs  |SQL Browser  |1434  |UDP  |SQL Browser pour la copie répliquée locale de la base de données du magasin central de gestion.  |
+|Serveurs frontaux  |Skype pour le service Business Server frontal  |5060  |TCP  |Utilisé facultativement par les serveurs Standard Edition Server et les serveurs frontaux pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.  |
 |Serveurs frontaux  |Skype pour le service Business Server frontal  |5061  | TCP (TLS) |Utilisé par les serveurs Standard Edition Server et les pools frontaux pour toutes les communications SIP internes entre serveurs (MTLS), pour les communications SIP entre serveurs et clients (TLS) et pour les communications SIP entre serveurs frontaux et serveurs de médiation (MTLS). Également utilisé pour les communications avec le serveur de surveillance.  |
 | Serveurs frontaux |Skype pour le service Business Server frontal  |444  | HTTPS <br/> TCP  |Utilisé pour les communications HTTPS entre le Focus (le Skype pour composant Business Server qui gère l’état des conférences) et les serveurs individuels.  <br/> Ce port est également utilisé pour les communications TCP entre Survivable Branch Appliances et les serveurs frontaux.  |
 |serveurs frontaux  |Skype pour le service Business Server frontal  |135  |DCOM et appel de procédure distante (RPC)  |Utilisé pour les opérations DCOM, telles que le déplacement des utilisateurs, la synchronisation du réplicateur d’utilisateurs et la synchronisation du carnet d’adresses.  |

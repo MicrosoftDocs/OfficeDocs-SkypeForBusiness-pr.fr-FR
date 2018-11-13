@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Royaume-Uni.
-ms.openlocfilehash: ada6f7c5d4919a3c114488da8b30e7b58f9d6821
-ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
+ms.openlocfilehash: f3e83adc835f003091ed0a1aa38953269dbe4b95
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25851575"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293987"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Disponibilité au Royaume-Uni (Royaume-Uni)
 
@@ -62,7 +62,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
 |Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes planifier l’appel interne </li><li>240 minutes planifier l’appel interne</li></li><li>1200 minute de planifier l’appel interne </li></li><li>minute 600 national et International des Plans de l’appel</li></li> 
-|Peut passer des appels sortants vers les numéros ? <br/> | Partiellement pris en charge : appels partagé des numéros de coûts (préfixes 44843, 44844, 44845, 44870, 44871, 44872) sont pris en charge à l’aide de Communications crédits à payer par minute.  Les appels vers les préfixes 449XX ne sont pas pris en charge. <br/> |
+|Peut passer des appels sortants vers les numéros ? <br/> | Partiellement pris en charge : appels partagé des numéros de coûts (préfixes 44843, 44844, 44845, 44870, 44871, 44872) sont pris en charge.  Les appels vers les préfixes 449XX ne sont pas pris en charge. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services

@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: d90daec99ced371aae3ef0685d1138656a6ab138
-ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
+ms.openlocfilehash: 7bd00f23a54780c94cdebeb413a8897e572ec47d
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "26005504"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294860"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone de votre pont d'audioconférence
 
@@ -52,10 +52,6 @@ Outre les numéros de téléphone déjà affectés à votre pont de conférence,
 
 4. Sur la page **Affecter**, cliquez sur **Enregistrer**.
 
-### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>Étape 2 : modifier le numéro de téléphone par défaut de votre pont de conférence (facultatif)
-
-Le numéro de téléphone par défaut de votre pont de conférence définit l’ID d’appelant qui sera utilisé lorsqu’un appel sortant est placé par l’organisateur à partir d’une réunion ou d’un participant.
-
 Uniquement un numéro de service peut être défini en tant que le numéro par défaut pour votre pont de conférence ; **numéros gratuits service ne peut pas être définis en tant que le numéro par défaut de votre pont de conférence**. Si vous affectez un numéro de service et que vous souhaitez définir en tant que le nouveau numéro par défaut pour votre pont de conférence audio, procédez comme suit :
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel.
@@ -65,10 +61,15 @@ Uniquement un numéro de service peut être défini en tant que le numéro par d
 3. Mettez en surbrillance le numéro de service que vous souhaitez configurer en tant que la valeur par défaut.
 
 4. Sélectionnez **Définir par défaut**.
- 
-### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Étape 3 : modifier les numéros de téléphone par défaut qui sont inclus dans la réunion invite d’utilisateurs (facultatifs)
 
-Les numéros de téléphone par défaut d’un utilisateur sont ceux qui est inclus dans leur réunion invite lorsqu’ils planifient une réunion. Pour plus d’informations, notamment le mode d’attribution des numéros de téléphone par défaut pour les nouveaux utilisateurs, voir [définir le téléphone numéros inclus sur invite dans les équipes Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md) ou [le téléphone numéros inclus sur invite dans Skype pour Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+> [!NOTE]
+> Après avoir affecté un nouveau numéro de téléphone, même si le numéro est devenu le nouveau numéro par défaut, le numéro par défaut pour les utilisateurs existants ne changera pas. Pour définir le numéro par défaut ou un numéro gratuit qui est ajouté au invitations de réunion un organisateur, voir les instructions pour les [Équipes Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md) ou les instructions pour [Skype pour Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites). 
+  
+
+
+### <a name="step-2---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Étape 2 : Modification des numéros de téléphone par défaut inclus dans les invitations aux réunions (facultatif)
+
+Les numéros de téléphone par défaut pour les utilisateurs sont inclus dans leur invitation lorsqu'ils planifient une réunion. Pour plus d’informations, voir [définir le téléphone numéros inclus sur invite dans les équipes Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md) ou [le téléphone numéros inclus sur invite dans Skype pour Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
@@ -80,11 +81,11 @@ Les numéros de téléphone par défaut d’un utilisateur sont ceux qui est inc
 
 Une fois que les modifications ont été enregistrées, l’autre numéro de téléphone par défaut numéros doivent être incluses dans la réunion invite des organisateurs la prochaine fois qu’il planifie une nouvelle réunion.
 
-### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Étape 4 : mise à jour existant meeting invite d’utilisateurs à l’aide du Service de Migration de réunion (facultatif)
+### <a name="step-3---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Étape 3 : Mise à jour des invitations aux réunions des utilisateurs à l'aide du service Meeting Migration Service (MMS) (facultatif)
 
 Pour les deux étapes suivantes, vous devrez démarrer de Windows PowerShell.
   
-Si la mise à jour de téléphone par défaut invite les numéros qui sont inclus dans la réunion pour tout ou partie de vos utilisateurs, vous pouvez éventuellement mettre à jour des invitations de réunion qui ont déjà été envoyées aux utilisateurs de votre organisation avant que leurs numéros de téléphone par défaut ont été modifiées à l’aide de la Service de Migration de réunion. Pour plus d'informations, reportez-vous à la rubrique [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+À l’aide du Service de Migration de réunion, vous pouvez éventuellement mettre à jour des invitations de réunion qui ont déjà été envoyées aux utilisateurs de votre organisation avant que leurs numéros de téléphone par défaut ont été modifiées. Pour plus d'informations, reportez-vous à la rubrique [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Exécutez le Service de Migration de réunion (MMS) pour les utilisateurs qui avaient leurs numéros de téléphone par défaut modifié à l’étape 2. Pour cela, exécutez la commande suivante :
 

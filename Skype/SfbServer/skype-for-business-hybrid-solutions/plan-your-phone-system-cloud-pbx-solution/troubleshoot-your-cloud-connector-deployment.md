@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Résoudre les problèmes de votre déploiement en nuage connecteur Edition.
-ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838620"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295470"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Identification et résolution des problèmes de votre déploiement Cloud Connector
  
@@ -222,7 +222,7 @@ Voici des solutions aux problèmes couramment rencontrés :
     Remove-CcLegacyServerCertificate 
     ```
 
-3. Exécutez l’applet de commande Exit-CcUpdate pour démarrer les services et quitter le mode maintenance.
+3. Exécutez l’applet de commande Exit-CcUpdate afin de démarrer les services et de quitter le mode maintenance.
     
 4. Exécutez l’applet de commande Export-CcRootCertificate sur le fichier local dans l’appliance, puis copiez et installez le certificat exporté vers vos passerelles RTC.
     

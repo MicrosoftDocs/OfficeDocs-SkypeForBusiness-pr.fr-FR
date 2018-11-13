@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: Trouvez des informations sur la planification d’un Skype pour un déploiement hybride Business.
-ms.openlocfilehash: 736902ba25fe0f2d6aa569ba6f454aa773fec202
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: af15627feaf3dca84f78e657bf71055a7a68f4c0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839443"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294633"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>Skype pour des solutions professionnelles hybride
  
@@ -208,7 +208,7 @@ Pour plus d’informations, consultez les ressources suivantes :
   
 - [Ressources pour l’architecture IT du cloud Microsoft](https://aka.ms/clouditarch)
     
-- [Identité du cloud Microsoft pour architectes d’entreprise](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [Identité du cloud Microsoft pour architectes d’entreprise](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [Préparez votre organisation pour Office 365 Entreprise](https://aka.ms/O365EntPrep)
     

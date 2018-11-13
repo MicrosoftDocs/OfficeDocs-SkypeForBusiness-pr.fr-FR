@@ -3,23 +3,24 @@ title: Exemples de développement du tableau de bord de qualité des appels
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: 'Résumé : Passez en revue un didacticiel et développement les exemples de tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 994a26af99ec141b531ed3011a42f626c0c62886
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 'Résumé : Passez en revue un didacticiel et développement les exemples de tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
+ms.openlocfilehash: 6bd6031e1d7fc94ed463c53efb068fd1e2e51378
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035742"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296125"
 ---
 # <a name="cqd-development-samples"></a>Exemples de développement du tableau de bord de qualité des appels
 
-**Résumé :** Passez en revue un didacticiel et développement les exemples de tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
+**Résumé :** consultez un didacticiel et des exemples de développement du tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil de Skype Entreprise Server 2015.
 
 Cet article propose un didacticiel et des exemples sur le développement du tableau de bord de qualité des appels.
 
@@ -31,9 +32,9 @@ Didacticiel : créez une présentation de rapport personnalisé à l’aide des
 
 Le tableau de bord de qualité des appels contient des informations agrégées, accessibles rapidement, sur la qualité des appels pour les déploiements Skype Entreprise Server locaux. Le tableau de bord de qualité des appels comprend trois éléments : la base de données d’archivage QoE, le cube et le portail. Le portail, qui est la principale couche de présentation, peut également être divisé en trois composants :
 
-1. Service de données, qui est accessible pour les utilisateurs authentifiés par le biais de l' [API de données pour appeler la qualité du tableau de bord (CQD) dans Skype pour Business Server](data-api.md).
+1. Service de données, qui est accessible pour les utilisateurs authentifiés par le biais de l' [API de données pour appeler la qualité du tableau de bord (CQD) dans Skype pour Business Server 2015](data-api.md).
 
-2. Service de référentiel, qui est accessible pour les utilisateurs authentifiés par le biais de l' [API de référentiel pour appeler la qualité du tableau de bord (CQD) dans Skype pour Business Server](repository-api.md).
+2. Service de référentiel, qui est accessible pour les utilisateurs authentifiés par le biais de l' [API de référentiel pour appeler la qualité du tableau de bord (CQD) dans Skype pour Business Server 2015](repository-api.md).
 
 3. Interface que les utilisateurs CQD afficher et interagiront avec basée sur le portail Web, qui est la HTML5. Il est accessible pour les utilisateurs authentifiés.
 

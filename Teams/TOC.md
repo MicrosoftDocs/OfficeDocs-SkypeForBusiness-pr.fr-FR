@@ -1,15 +1,11 @@
+<!-- ============================================================ -->
+# Prise en main
 
-<!-- ============================================================ -->
-# [Bienvenue dans Teams](teams-overview.md)
-<!-- ============================================================ -->
-# [Prise en main](get-started-with-teams-landing-page.md)
-## [Démarrage rapide - équipes](get-started-with-teams-quick-start.md)
-## [Créer votre première équipes et canaux](get-started-with-teams-create-your-first-teams-and-channels.md)
-## [Premiers intégrés](get-started-with-teams-onboard-early-adopters.md)
-## [Surveiller l’utilisation et les commentaires](get-started-with-teams-monitor-usage-and-feedback.md)
-## [Où souhaitez-vous aller ?](get-started-with-teams-resources-for-org-wide-rollout.md)
+## [Présentation de Teams](Teams-overview.md)
+## [Outils et ateliers : planifier, fournir et utiliser Teams](planning-workshop-practical-guide.md)
 ## [Obtenir de l’aide dans Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
+
 
 <!-- ============================================================ -->
 # Planifier
@@ -27,26 +23,7 @@
 ## [Créer la stratégie de gestion des modifications](change-management-strategy.md)
 <!-- ============================================================ -->
 
-<!-- ============================================================ -->
-# [Adopter](adopt-microsoft-teams-landing-page.md) 
 
-## [Prise en main](teams-adoption-get-started.md)
-## [Phase 1 : Démarrer](teams-adoption-phase1.md)
-### [Comprendre les équipes et les canaux](teams-adoption-understand-teams-and-channels.md)
-### [Créer votre premières équipes](teams-adoption-your-first-teams.md)
-### [L’état de préparation est votre organisation pour les équipes ?](teams-adoption-assess-readiness.md)
-## [Phase 2 : expérience](teams-adoption-phase2-experiment.md)
-### [Créer votre programme champions](teams-adoption-create-champions-program.md)
-### [Démarrage rapide de la gouvernance](teams-adoption-governance-quick-start.md)
-### [Définir des scénarios d’utilisation](teams-adoption-define-usage-scenarios.md)
-### [Premiers intégrées et les commentaires de collecter des informations](teams-adoption-onboard-early-adopters.md)
-### [Prise en charge intégrée](teams-adoption-onboard-support.md)
-## [Phase 3 : échelle](teams-adoption-phase3-enable.md)
-### [Définir les objectifs et la réussite](teams-adoption-define-outcomes.md)
-### [Optimiser les commentaires et création de rapports](teams-adoption-optimize-feedback-and-reporting.md)
-### [Présentation du lecteur et implémenter la formation](teams-adoption-drive-awareness.md)
-### [Planifier les analyses d’intégrité de service](teams-adoption-schedule-service-health-reviews.md)
-<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Configurer et déployer
@@ -134,7 +111,6 @@
 <!-- ============================================================ -->
 # Interopérabilité avec Office 365
 ## [Migration et interopérabilité avec Skype pour les entreprises](migration-interop-guidance-for-teams-with-skype.md)
-## [Coexistence avec Skype pour les entreprises](coexistence-chat-calls-presence.md)
 ## [Définir votre coexistence et les paramètres de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
 ## [Groupes Office 365 et Microsoft Teams](office-365-groups.md)
 ## [Améliorer les groupes Office 365 existants avec Teams](enhance-office-365-groups.md)
@@ -206,7 +182,6 @@
 ### [Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams](best-practices-organizing.md)
 ### [Créer une équipe à l’échelle de l’organisation dans les équipes](create-an-org-wide-team.md)
 ### [Vue d’ensemble de membres dynamiques pour les équipes](dynamic-memberships.md)
-## [Présence](presence-admins.md)
 ## [Accès invité](guest-access.md)
 ### [Comment un invité rejoint une équipe](guest-joins.md)
 ### [À quoi ressemble l'expérience des invités](guest-experience.md)
@@ -236,8 +211,7 @@
 #### [Quelles sont les équipes live événements ?](teams-live-events/what-are-teams-live-events.md)
 #### [Planifier des équipes événements en direct](teams-live-events/plan-for-teams-live-events.md)
 #### [Configurer des équipes événements en direct](teams-live-events/set-up-for-teams-live-events.md)
-#### [Utilisation de PowerShell pour définir des stratégies d’événements en direct équipes](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-#### [Configurer les paramètres d’événements en direct équipes](teams-live-events/configure-teams-live-events.md)
+#### [Configurer des événements en direct équipes](teams-live-events/configure-teams-live-events.md)
 
 
 
@@ -354,7 +328,7 @@
 #### [Gestion des numéros de téléphone pour les Pays-Bas](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Gestion des numéros de téléphone pour le Royaume-Uni](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Gestion des numéros de téléphone pour les États-Unis](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-### Gérer les Communications générique
+### Gérer les crédits de Communication
 #### [Qu'est-ce que les crédits de communication ?](what-are-communications-credits.md)
 #### [Configurer les crédits de communication pour votre organisation](set-up-communications-credits-for-your-organization.md)
 #### [Ajouter des fonds et gérer les crédits de communication](add-funds-and-manage-communications-credits.md)
@@ -372,7 +346,7 @@
 #### [Activer ou désactiver l'envoi de messages électroniques en cas de modification des paramètres d’audioconférence](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [Gérer les paramètres d'audioconférence d'un utilisateur](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-#### [Gérer les paramètres de conférence Audio pour votre organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [Gérer les paramètres d'audioconférence de mon organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [Numéros de téléphone pour l'audioconférence](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user-in-teams.md)

@@ -9,12 +9,12 @@ ms.service: msteams
 description: Découvrez comment utiliser les rôles d’administration différents pour gérer les équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f70b1035600079d4a4f746fe33fa03c6eab287a7
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 0e09aa4146588cf32a6dd7cf0816a89cb4bdd696
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838990"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295865"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Utiliser les rôles d’administration Microsoft Teams pour gérer des équipes
 
@@ -33,17 +33,17 @@ Il existe quatre rôles d’administrateur équipes : administrateur de service
 | Ingénieur du support technique pour les communications Teams | Résoudre les problèmes de communication au sein des équipes à l’aide des outils **avancés** . | Accès à la page de profil utilisateur pour résoudre les problèmes des appels dans Analytique d’appel. Afficher les informations enregistrement appel complète. <sup>3</sup> |
 | Spécialiste des équipes Communications prise en charge | Résoudre les problèmes de communication au sein des équipes à l’aide des outils de **base** .| Accès à la page de profil utilisateur pour résoudre les problèmes des appels dans Analytique d’appel. Peut afficher uniquement les informations de l’utilisateur spécifique recherché.<sup>3</sup>
 
-<sup>1</sup> [PowerShell - Skype pour le module d’entreprise](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
+<sup>1</sup> [PowerShell - Skype pour le module d’entreprise](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell - module équipes Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
-<sup>3</sup> [les équipes Microsoft et Skype entreprise centre d’administration](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>3</sup> [les équipes Microsoft et Skype entreprise centre d’administration](https://docs.microsoft.com/en-us/microsoftteams/manage-teams-skypeforbusiness-admin-center)
 <!-- <sup>4</sup> Azure Active Directory Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
-Pour plus d’informations sur les outils d’administration disponibles pour la gestion de Microsoft Teams, voir [Gestion des équipes Microsoft](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
+Pour plus d’informations sur les outils d’administration disponibles pour la gestion de Microsoft Teams, voir [Gestion des équipes Microsoft](https://docs.microsoft.com/en-us/microsoftteams/manage-teams-skypeforbusiness-admin-center).
 
 ## <a name="assign-users-to-each-role"></a>Affecter des utilisateurs à chaque rôle
 
-Vous pouvez affecter des utilisateurs à ces rôles dans Azure Active Directory. Pour savoir comment attribuer des rôles administratifs à un utilisateur dans Azure Active Directory, consultez la rubrique [affecter un utilisateur à des rôles d’administrateur dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+Vous pouvez affecter des utilisateurs à ces rôles dans Azure Active Directory. Pour savoir comment attribuer des rôles administratifs à un utilisateur dans Azure Active Directory, consultez la rubrique [affecter un utilisateur à des rôles d’administrateur dans Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 ## <a name="cmdlets-available-for-each-role"></a>Applets de commande disponibles pour chaque rôle.
 
@@ -59,6 +59,6 @@ La plupart des outils de PowerShell pour ces rôles d’administrateur live dans
 ### <a name="related-topics"></a>Rubriques connexes
 
 - [Vue d’ensemble d’équipes Microsoft PowerShell](teams-powershell-overview.md)
-- [Les équipes Microsoft PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-- [Affecter des propriétaires de l’équipe et des membres dans Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
+- [Les équipes Microsoft PowerShell](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)
+- [Affecter des propriétaires de l’équipe et des membres dans Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/assign-roles-permissions)
 

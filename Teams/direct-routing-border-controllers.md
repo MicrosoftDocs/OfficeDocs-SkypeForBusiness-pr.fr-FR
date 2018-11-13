@@ -1,7 +1,6 @@
 ---
 title: Liste des contrôleurs SBC certifiés pour le routage direct
 ms.author: jambirk
-ms.reviewer: NMuravlyannikov
 author: jambirk
 manager: serdars
 ms.audience: ITPro
@@ -16,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Partenaires de Microsoft avec des fournisseurs pour valider leurs SBCs SBC fonctionnent avec le routage Direct.
-ms.openlocfilehash: 2d0873916585cab3eed6295e9be499f0eab39d53
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26038902"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294810"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs SBC certifiés pour le routage direct
 
@@ -60,7 +59,5 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   En attente    |      V7.0.2      |
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |   En attente    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   En attente    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    PA 3900       |   En attente    |   En attente  |   En attente    |
-|                                                                                                                     |      PA 4600         |    En attente    |   En attente    |      En attente      |
-|                                                                                                                     |      ENVIRONNEMENT DE MIGRATION VIRTUEL             |    En attente    |   En attente    |      En attente      |
-|                     [SYSTÈMES DE NOTE](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |    En attente    |   En attente    |      En attente      |
+|                                                                                                                     |                     |                  |              |                  |
+
