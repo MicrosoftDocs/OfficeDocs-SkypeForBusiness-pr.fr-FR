@@ -10,77 +10,76 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Résumé : Découvrez comment configurer l’interopérabilité entre votre déploiement sur site et les Skype pour Business en ligne.'
-ms.openlocfilehash: db03636d412caa72a3b7a38d0c1d691c83d96a5b
-ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
+ms.openlocfilehash: fb04ecd53c93ae7bd64fca760b752d2d69324c3d
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25849347"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295354"
 ---
-# <a name="configure-skype-for-business-hybrid"></a><span data-ttu-id="8ca38-103">Configurer Skype pour un environnement hybride Business</span><span class="sxs-lookup"><span data-stu-id="8ca38-103">Configure Skype for Business hybrid</span></span>
+# <a name="configure-skype-for-business-hybrid"></a><span data-ttu-id="a491f-103">Configurer Skype pour un environnement hybride Business</span><span class="sxs-lookup"><span data-stu-id="a491f-103">Configure Skype for Business hybrid</span></span>
 
-<span data-ttu-id="8ca38-104">Pour configurer Skype pour hybride d’entreprise, vous devez :</span><span class="sxs-lookup"><span data-stu-id="8ca38-104">To configure Skype for Business hybrid, you need to:</span></span>
+<span data-ttu-id="a491f-104">Pour configurer Skype pour hybride d’entreprise, vous devez :</span><span class="sxs-lookup"><span data-stu-id="a491f-104">To configure Skype for Business hybrid, you need to:</span></span>
 
-- [<span data-ttu-id="8ca38-105">Configurer votre environnement local à fédérer avec Office 365.</span><span class="sxs-lookup"><span data-stu-id="8ca38-105">Configure your on-premises environment to federate with Office 365.</span></span>](#configure-your-on-premises-edge-service-to-federate-with-Office-365)
-- [<span data-ttu-id="8ca38-106">Configurer votre environnement local pour la gestion de la confidentialité Office 365 et activer l’espace d’adressage SIP partagé avec Office 365.</span><span class="sxs-lookup"><span data-stu-id="8ca38-106">Configure your on-premises environment to trust Office 365 and enable shared SIP address space with Office 365.</span></span>](#configure-your-on-premises-environment-to-share-your-SIP-address-space-with-Office-365)
-- [<span data-ttu-id="8ca38-107">Activer l’espace d’adressage SIP partagé dans votre organisation cliente Office 365.</span><span class="sxs-lookup"><span data-stu-id="8ca38-107">Enable shared SIP address space in your Office 365 tenant.</span></span>](#configure-server-to-server-authentication-if-required)
-
-> [!NOTE]
-> <span data-ttu-id="8ca38-108">Si vous avez Exchange sur site, vous souhaiterez peut-être configurer OAuth entre votre Exchange locale et Skype pour les environnements d’entreprise en ligne.</span><span class="sxs-lookup"><span data-stu-id="8ca38-108">If you have Exchange on-premises, then you may want to configure OAuth between your Exchange on-premises and Skype for Business Online environments.</span></span> <span data-ttu-id="8ca38-109">Pour plus d’informations, voir [gérer l’authentification serveur à serveur dans Skype pour Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) et [planifier l’intégration Skype pour les entreprises et Exchange](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support).</span><span class="sxs-lookup"><span data-stu-id="8ca38-109">For more information, see  [Manage server-to-server authentication in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) and [Plan to integrate Skype for Business and Exchange](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support).</span></span> 
+- [<span data-ttu-id="a491f-105">Configurer la fédération</span><span class="sxs-lookup"><span data-stu-id="a491f-105">Configure federation</span></span>](#configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online)
+- [<span data-ttu-id="a491f-106">Configurer un espace d’adressage partagé protocole SIP (Session Initiation)</span><span class="sxs-lookup"><span data-stu-id="a491f-106">Configure a shared Session Initiation Protocol (SIP) address space</span></span>](#configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space)
+- [<span data-ttu-id="a491f-107">Configurer l’authentification de serveur à serveur, si nécessaire</span><span class="sxs-lookup"><span data-stu-id="a491f-107">Configure server-to-server authentication if required</span></span>](#configure-server-to-server-authentication-if-required)
   
-## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365"></a><span data-ttu-id="8ca38-110">Configurer le service Edge de local à fédérer avec Office 365</span><span class="sxs-lookup"><span data-stu-id="8ca38-110">Configure your on-premises Edge service to federate with Office 365</span></span>
+## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a><span data-ttu-id="a491f-108">Configurer votre service de périphérie sur site pour la fédération avec Skype pour Business Online</span><span class="sxs-lookup"><span data-stu-id="a491f-108">Configure your on-premises Edge service for federation with Skype for Business Online</span></span>
 
-<span data-ttu-id="8ca38-111">La fédération permet aux utilisateurs de votre déploiement local de communiquer avec des utilisateurs Office 365 dans votre organisation.</span><span class="sxs-lookup"><span data-stu-id="8ca38-111">Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization.</span></span> <span data-ttu-id="8ca38-112">Pour configurer la fédération, exécutez l’applet de commande suivante dans le Skype pour Business Server Management Shell :</span><span class="sxs-lookup"><span data-stu-id="8ca38-112">To configure federation, run the following cmdlet in the Skype for Business Server Management Shell:</span></span>
+<span data-ttu-id="a491f-109">La fédération permet aux utilisateurs de votre déploiement local de communiquer avec des utilisateurs Office 365 dans votre organisation.</span><span class="sxs-lookup"><span data-stu-id="a491f-109">Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization.</span></span> <span data-ttu-id="a491f-110">Pour configurer la fédération, exécutez les cmdlets suivantes dans le Skype pour Business Server Management Shell :</span><span class="sxs-lookup"><span data-stu-id="a491f-110">To configure federation, run the following cmdlets in the Skype for Business Server Management Shell:</span></span>
   
 ```
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -EnablePartnerDiscovery 1 -UseDnsSrvRouting
 ```
 
-
-
-## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365"></a><span data-ttu-id="8ca38-113">Configurer votre environnement local pour permettre l’espace d’adressage SIP partagé avec Office 365</span><span class="sxs-lookup"><span data-stu-id="8ca38-113">Configure your on-premises environment to enable shared SIP address space with Office 365</span></span>
-
-<span data-ttu-id="8ca38-114">Vous devez également configurer votre environnement local pour la gestion de la confidentialité Office 365 et activer l’espace d’adressage SIP partagé avec Office 365.</span><span class="sxs-lookup"><span data-stu-id="8ca38-114">You must also configure your on-premises environment to trust Office 365 and enable shared SIP address space with Office 365.</span></span> <span data-ttu-id="8ca38-115">Cela signifie Office 365 peuvent potentiellement héberger des comptes d’utilisateurs pour le même ensemble de domaines SIP que votre environnement local et les messages peuvent être routés entre les utilisateurs hébergés sur site et en ligne.</span><span class="sxs-lookup"><span data-stu-id="8ca38-115">This means Office 365 can potentially host user accounts for the same set of SIP domains as your on-premises environment, and messages can be routed between users hosted on premises and online.</span></span>  <span data-ttu-id="8ca38-116">Pour cela, en configurant un fournisseur d’hébergement avec ProxyFqdn=sipfed.online.lync.com comme indiqué ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="8ca38-116">You do this by configuring a hosting provider with ProxyFqdn=sipfed.online.lync.com as described below.</span></span>
-
-<span data-ttu-id="8ca38-117">Tout d’abord, vérifiez si vous disposez déjà d’un fournisseur d’hébergement avec ProxyFqdn=sipfed.online.lync.com.</span><span class="sxs-lookup"><span data-stu-id="8ca38-117">First, check if you already have a hosting provider with ProxyFqdn=sipfed.online.lync.com.</span></span> <span data-ttu-id="8ca38-118">Si elle existe, puis supprimez-le à l’aide de la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="8ca38-118">If one exists, then remove it by using the following command:</span></span>
-
 ```
-Get-CsHostingProvider | ?{ $_.ProxyFqdn -eq "sipfed.online.lync.com" } | Remove-CsHostingProvider
+New-CSHostingProvider -Identity SkypeforBusinessOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
 ```
 
-<span data-ttu-id="8ca38-119">Puis créez un nouveau fournisseur d’hébergement, utilisez l’applet de commande New-CsHostingProvider comme suit :</span><span class="sxs-lookup"><span data-stu-id="8ca38-119">Then create a new hosting provider, use the New-CsHostingProvider cmdlet as follows:</span></span> 
+## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a><span data-ttu-id="a491f-111">Configurer votre Skype pour Business Online client pour un espace d’adressage SIP partagé</span><span class="sxs-lookup"><span data-stu-id="a491f-111">Configure your Skype for Business Online tenant for a shared SIP address space</span></span>
 
-```
-New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
-```
-
- ## <a name="enable-shared-sip-address-space-in-your-office-365-tenant"></a><span data-ttu-id="8ca38-120">Activer l’espace d’adressage SIP partagé dans votre organisation cliente Office 365</span><span class="sxs-lookup"><span data-stu-id="8ca38-120">Enable shared SIP address space in your Office 365 tenant</span></span>
+<span data-ttu-id="a491f-112">Une adresse SIP (Session Initiation Protocol) est un identificateur unique pour chaque utilisateur d’un réseau, semblable à un numéro de téléphone ou à une adresse de messagerie.</span><span class="sxs-lookup"><span data-stu-id="a491f-112">A Session Initiation Protocol (SIP) address is a unique identifier for each user on a network, similar to a phone number or an email address.</span></span> <span data-ttu-id="a491f-113">Avant d’essayer de déplacer les utilisateurs locaux vers Skype pour Business Online, vous devez configurer votre client Office 365 pour partager l’espace d’adressage partagé protocole SIP (Session Initiation) avec votre déploiement sur site.</span><span class="sxs-lookup"><span data-stu-id="a491f-113">Before you try to move users from on-premises to Skype for Business Online, you'll need to configure your Office 365 tenant to share the Shared Session Initiation Protocol (SIP) address space with your on-premises deployment.</span></span> <span data-ttu-id="a491f-114">S’il n’est pas configuré, le message d’erreur ci-dessous peut s’afficher :</span><span class="sxs-lookup"><span data-stu-id="a491f-114">If this is not configured, you may see the following error message:</span></span>
   
-<span data-ttu-id="8ca38-121">Outre les modifications apportées dans votre déploiement sur site, vous devez effectuer la modification correspondante dans votre organisation cliente Office 365 à activé espace d’adressage SIP partagé avec votre déploiement sur site.</span><span class="sxs-lookup"><span data-stu-id="8ca38-121">In addition to the change you made in your on-premises deployment, you'll need to make the corresponding change in your Office 365 tenant to enabled shared SIP address space with your on-premises deployment.</span></span>  
-
-<span data-ttu-id="8ca38-122">Pour activer l’espace d’adressage SIP partagé dans votre organisation cliente Office 365, établir une session PowerShell distante avec Skype pour Business Online, puis exécutez l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="8ca38-122">To enable shared SIP address space in your Office 365 tenant, establish a remote PowerShell session with Skype for Business Online, and then run the following cmdlet:</span></span>
+<span data-ttu-id="a491f-115">Move-CsUser : HostedMigration tolérance : Error=(510), Description = (client de cet utilisateur n’est pas activé pour l’espace d’adressage sip partagé).</span><span class="sxs-lookup"><span data-stu-id="a491f-115">Move-CsUser : HostedMigration fault: Error=(510), Description=(This user's tenant is not enabled for shared sip address space.)</span></span>
+  
+<span data-ttu-id="a491f-116">Pour configurer un espace d’adressage SIP partagé, établir une session PowerShell distante avec Skype pour Business Online, puis exécutez l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="a491f-116">To configure a shared SIP address space, establish a remote PowerShell session with Skype for Business Online, and then run the following cmdlet:</span></span>
   
 ```
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
 
 > [!NOTE]
-> <span data-ttu-id="8ca38-123">L’attribut SharedSipAddressSpace doit demeurer défini sur True jusqu’à ce que le déplacement vers Online soit finalisé et qu’aucun utilisateur ne soit hébergé en local.</span><span class="sxs-lookup"><span data-stu-id="8ca38-123">The SharedSipAddressSpace attribute needs to remain "True" until moving to online is final, and no users remain on-premises.</span></span> 
+> <span data-ttu-id="a491f-117">L’attribut SharedSipAddressSpace doit demeurer défini sur True jusqu’à ce que le déplacement vers Online soit finalisé et qu’aucun utilisateur ne soit hébergé en local.</span><span class="sxs-lookup"><span data-stu-id="a491f-117">The SharedSipAddressSpace attribute needs to remain "True" until moving to online is final, and no users remain on-premises.</span></span> 
   
-<span data-ttu-id="8ca38-124">Pour établir une session PowerShell distante avec des équipes ou Skype pour Business Online, vous devez d’abord installer le Skype pour module connecteur Business en ligne pour Windows PowerShell, vous pouvez obtenir [ici](https://go.microsoft.com/fwlink/p/?LinkId=391911).</span><span class="sxs-lookup"><span data-stu-id="8ca38-124">To establish a remote PowerShell session with Teams or Skype for Business Online, you first need to install the Skype for Business Online connector module for Windows PowerShell, which you can get [here](https://go.microsoft.com/fwlink/p/?LinkId=391911).</span></span>
+<span data-ttu-id="a491f-118">Pour établir une session PowerShell distante avec Skype pour Business Online, vous devez d’abord installer le Skype pour module connecteur Business en ligne pour Windows PowerShell, vous pouvez obtenir [ici](https://go.microsoft.com/fwlink/p/?LinkId=391911).</span><span class="sxs-lookup"><span data-stu-id="a491f-118">To establish a remote PowerShell session with Skype for Business Online, you first need to install the Skype for Business Online connector module for Windows PowerShell, which you can get [here](https://go.microsoft.com/fwlink/p/?LinkId=391911).</span></span>
   
-<span data-ttu-id="8ca38-125">Après avoir installé le module, vous pouvez établir une session distante avec les applets de commande suivantes :</span><span class="sxs-lookup"><span data-stu-id="8ca38-125">After you install the module, you can establish a remote session with the following cmdlets:</span></span>
+<span data-ttu-id="a491f-119">Après avoir installé le module, vous pouvez établir une session distante avec les applets de commande suivantes :</span><span class="sxs-lookup"><span data-stu-id="a491f-119">After you install the module, you can establish a remote session with the following cmdlets:</span></span>
   
+```
+Import-Module SkypeOnlineConnector
+```
+
 ```
 $cred = Get-Credential
-Import-PSSession (New-CsOnlineSession -Credential $cred) -AllowClobber
 ```
 
-<span data-ttu-id="8ca38-126">Pour plus d’informations sur la façon d’établir une session PowerShell distante avec Skype pour Business en ligne et comment utiliser la Skype pour le module Business Connector en ligne, voir [configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="8ca38-126">For more information about how to establish a remote PowerShell session with Skype for Business Online, and how to use the Skype for Business Online Connector module, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+```
+$CSSession = New-CsOnlineSession -Credential $cred
+```
+
+```
+Import-PSSession $CSSession -AllowClobber
+```
+
+<span data-ttu-id="a491f-120">Pour plus d’informations sur la façon d’établir une session PowerShell distante avec Skype pour Business en ligne et comment utiliser la Skype pour le module Business Connector en ligne, voir [configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="a491f-120">For more information about how to establish a remote PowerShell session with Skype for Business Online, and how to use the Skype for Business Online Connector module, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
   
+## <a name="configure-server-to-server-authentication-if-required"></a><span data-ttu-id="a491f-121">Configurer l’authentification de serveur à serveur, si nécessaire</span><span class="sxs-lookup"><span data-stu-id="a491f-121">Configure server-to-server authentication if required</span></span>
+
+<span data-ttu-id="a491f-122">Selon le type d’environnement hybride que vous configurez, vous devrez peut-être configurer l’authentification de serveur à serveur.</span><span class="sxs-lookup"><span data-stu-id="a491f-122">Depending on the type of hybrid environment you are configuring, you may need to configure server-to-server authentication.</span></span>  <span data-ttu-id="a491f-123">Pour plus d’informations, voir [gérer l’authentification de serveur à serveur dans Skype pour Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).</span><span class="sxs-lookup"><span data-stu-id="a491f-123">For more information, see  [Manage server-to-server authentication in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="8ca38-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8ca38-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a491f-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a491f-124">See also</span></span>
 
-[<span data-ttu-id="8ca38-128">Nouvelle-CsHostingProvider</span><span class="sxs-lookup"><span data-stu-id="8ca38-128">New-CsHostingProvider</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
+[<span data-ttu-id="a491f-125">Nouvelle-CsHostingProvider</span><span class="sxs-lookup"><span data-stu-id="a491f-125">New-CsHostingProvider</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
 

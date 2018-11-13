@@ -12,87 +12,87 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dc13f9ff6fd391d84a5a461badc7edbc8abbdb
-ms.sourcegitcommit: afc415ad4d0c2ed013eaf5f68a72418e66734ff0
+ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25898134"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294928"
 ---
-# <a name="cloud-video-interop-for-microsoft-teams"></a><span data-ttu-id="f7d18-103">Interopérabilité vidéo cloud pour les équipes Microsoft</span><span class="sxs-lookup"><span data-stu-id="f7d18-103">Cloud Video Interop for Microsoft Teams</span></span>
+# <a name="cloud-video-interop-for-microsoft-teams"></a><span data-ttu-id="96d51-103">Interopérabilité vidéo cloud pour les équipes Microsoft</span><span class="sxs-lookup"><span data-stu-id="96d51-103">Cloud Video Interop for Microsoft Teams</span></span>
 
-<span data-ttu-id="f7d18-104">Nuage vidéo Interop permet de tiers équipements de salle pour participer à des réunions Teams Microsoft de la réunion.</span><span class="sxs-lookup"><span data-stu-id="f7d18-104">Cloud Video Interop enables third-party meeting room devices to join Microsoft Teams meetings.</span></span>
+<span data-ttu-id="96d51-104">Nuage vidéo Interop permet de tiers équipements de salle pour participer à des réunions Teams Microsoft de la réunion.</span><span class="sxs-lookup"><span data-stu-id="96d51-104">Cloud Video Interop enables third-party meeting room devices to join Microsoft Teams meetings.</span></span>
 
-<span data-ttu-id="f7d18-105">Vidéoconférence avec la collaboration de contenu vous permettra de tirer le meilleur parti des réunions.</span><span class="sxs-lookup"><span data-stu-id="f7d18-105">Video teleconferencing with content collaboration helps you make the most out of meetings.</span></span> <span data-ttu-id="f7d18-106">Salle de réunion, toutefois, les systèmes et périphériques sont coûteux en termes de mise à niveau.</span><span class="sxs-lookup"><span data-stu-id="f7d18-106">However, meeting room systems and devices are expensive to upgrade.</span></span> <span data-ttu-id="f7d18-107">Interopérabilité de vidéo dans le nuage pour Microsoft Teams fonctionne avec les systèmes et offre une expérience de réunion natif pour tous les participants – dans les salles de réunion ou à l’intérieur clients équipes.</span><span class="sxs-lookup"><span data-stu-id="f7d18-107">Cloud Video Interop for Microsoft Teams works with systems and delivers a native meeting experience for all participants – in meeting rooms or inside of Teams clients.</span></span> 
+<span data-ttu-id="96d51-105">Vidéoconférence avec la collaboration de contenu vous permettra de tirer le meilleur parti des réunions.</span><span class="sxs-lookup"><span data-stu-id="96d51-105">Video teleconferencing with content collaboration helps you make the most out of meetings.</span></span> <span data-ttu-id="96d51-106">Salle de réunion, toutefois, les systèmes et périphériques sont coûteux en termes de mise à niveau.</span><span class="sxs-lookup"><span data-stu-id="96d51-106">However, meeting room systems and devices are expensive to upgrade.</span></span> <span data-ttu-id="96d51-107">Interopérabilité de vidéo dans le nuage pour Microsoft Teams fonctionne avec les systèmes et offre une expérience de réunion natif pour tous les participants – dans les salles de réunion ou à l’intérieur clients équipes.</span><span class="sxs-lookup"><span data-stu-id="96d51-107">Cloud Video Interop for Microsoft Teams works with systems and delivers a native meeting experience for all participants – in meeting rooms or inside of Teams clients.</span></span> 
 
-## <a name="partners-certified-for-microsoft-teams"></a><span data-ttu-id="f7d18-108">Partenaires certifiés pour les équipes Microsoft</span><span class="sxs-lookup"><span data-stu-id="f7d18-108">Partners Certified for Microsoft Teams</span></span>
+## <a name="partners-certified-for-microsoft-teams"></a><span data-ttu-id="96d51-108">Partenaires certifiés pour les équipes Microsoft</span><span class="sxs-lookup"><span data-stu-id="96d51-108">Partners Certified for Microsoft Teams</span></span>
 
-<span data-ttu-id="f7d18-109">Les partenaires suivants ont des solutions d’interopérabilité vidéo pour Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="f7d18-109">The following partners have video interop solutions for Microsoft Teams.</span></span> <span data-ttu-id="f7d18-110">Votre société peut choisir de travailler avec n’importe quelle combinaison de ces partenaires au sein de votre entreprise.</span><span class="sxs-lookup"><span data-stu-id="f7d18-110">Your company may choose to work with any combination of these partners within your enterprise.</span></span> 
+<span data-ttu-id="96d51-109">Les partenaires suivants ont des solutions d’interopérabilité vidéo pour Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="96d51-109">The following partners have video interop solutions for Microsoft Teams.</span></span> <span data-ttu-id="96d51-110">Votre société peut choisir de travailler avec n’importe quelle combinaison de ces partenaires au sein de votre entreprise.</span><span class="sxs-lookup"><span data-stu-id="96d51-110">Your company may choose to work with any combination of these partners within your enterprise.</span></span> 
 
 
-|<span data-ttu-id="f7d18-111">Partenaire</span><span class="sxs-lookup"><span data-stu-id="f7d18-111">Partner</span></span>|<span data-ttu-id="f7d18-112">Solution d’un partenaire</span><span class="sxs-lookup"><span data-stu-id="f7d18-112">Partner solution</span></span>|
-|----|---|
-|![RealConnect de Polycom](media/polycom.png) | <span data-ttu-id="f7d18-114"><a href="https://aka.ms/PolycomRealConnect" target="_blank">Service RealConnect de Polycom</a></span><span class="sxs-lookup"><span data-stu-id="f7d18-114"><a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect Service</a></span></span> |
-|![Infini Pexip](media/pexip.png)| <span data-ttu-id="f7d18-116"><a href="https://aka.ms/PexipInfinity" target="_blank">Infini Pexip pour les équipes Microsoft</a></span><span class="sxs-lookup"><span data-stu-id="f7d18-116"><a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a></span></span> | 
-|![Passerelle blueJeans](media/bluejeans.png)| <span data-ttu-id="f7d18-118"><a href="https://aka.ms/BluejeansGateway" target="_blank">Passerelle blueJeans pour les équipes Microsoft</a></span><span class="sxs-lookup"><span data-stu-id="f7d18-118"><a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a></span></span> |
+|<span data-ttu-id="96d51-111">Partenaire</span><span class="sxs-lookup"><span data-stu-id="96d51-111">Partner</span></span>|<span data-ttu-id="96d51-112">Solution d’un partenaire</span><span class="sxs-lookup"><span data-stu-id="96d51-112">Partner solution</span></span>|<span data-ttu-id="96d51-113">Disponibilité</span><span class="sxs-lookup"><span data-stu-id="96d51-113">Availability</span></span>|
+|----|---|----|
+|![RealConnect de Polycom](media/polycom.png) | <span data-ttu-id="96d51-115"><a href="https://aka.ms/PolycomRealConnect" target="_blank">Service RealConnect de Polycom</a></span><span class="sxs-lookup"><span data-stu-id="96d51-115"><a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect Service</a></span></span> |<span data-ttu-id="96d51-116">Désormais disponible</span><span class="sxs-lookup"><span data-stu-id="96d51-116">Available now</span></span>|
+|![Infini Pexip](media/pexip.png)| <span data-ttu-id="96d51-118"><a href="https://aka.ms/PexipInfinity" target="_blank">Infini Pexip pour les équipes Microsoft</a></span><span class="sxs-lookup"><span data-stu-id="96d51-118"><a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a></span></span> | <span data-ttu-id="96d51-119">19 octobre 2018</span><span class="sxs-lookup"><span data-stu-id="96d51-119">October 19, 2018</span></span>|
+|![Passerelle blueJeans](media/bluejeans.png)| <span data-ttu-id="96d51-121"><a href="https://aka.ms/BluejeansGateway" target="_blank">Passerelle blueJeans pour les équipes Microsoft</a></span><span class="sxs-lookup"><span data-stu-id="96d51-121"><a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a></span></span> | <span data-ttu-id="96d51-122">31 octobre 2018</span><span class="sxs-lookup"><span data-stu-id="96d51-122">October 31, 2018</span></span>|
 
-## <a name="partner-solutions"></a><span data-ttu-id="f7d18-119">Solutions de partenaires</span><span class="sxs-lookup"><span data-stu-id="f7d18-119">Partner solutions</span></span>
+## <a name="partner-solutions"></a><span data-ttu-id="96d51-123">Solutions de partenaires</span><span class="sxs-lookup"><span data-stu-id="96d51-123">Partner solutions</span></span>
 
-<span data-ttu-id="f7d18-120">Nos partenaires ont développé des solutions de passerelle pour connecter des périphériques tiers basés sur des normes SIP et H.323 aux réunions Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="f7d18-120">Our partners have developed gateway solutions to connect third-party standards-based SIP and H.323 devices to Microsoft Teams meetings.</span></span>  
+<span data-ttu-id="96d51-124">Nos partenaires ont développé des solutions de passerelle pour connecter des périphériques tiers basés sur des normes SIP et H.323 aux réunions Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="96d51-124">Our partners have developed gateway solutions to connect third-party standards-based SIP and H.323 devices to Microsoft Teams meetings.</span></span>  
  
-<span data-ttu-id="f7d18-121">**Certifié et pris en charge par Microsoft**</span><span class="sxs-lookup"><span data-stu-id="f7d18-121">**Certified and supported by Microsoft**</span></span>
+<span data-ttu-id="96d51-125">**Certifié et pris en charge par Microsoft**</span><span class="sxs-lookup"><span data-stu-id="96d51-125">**Certified and supported by Microsoft**</span></span>
 
-- <span data-ttu-id="f7d18-122">Disponible uniquement via les Solutions de partenaires certifiés</span><span class="sxs-lookup"><span data-stu-id="f7d18-122">Only available via Certified Partner Solutions</span></span>
-- <span data-ttu-id="f7d18-123">CO-conçu avec Microsoft</span><span class="sxs-lookup"><span data-stu-id="f7d18-123">Co-engineered with Microsoft</span></span>
-- <span data-ttu-id="f7d18-124">Client TAP avant de certification</span><span class="sxs-lookup"><span data-stu-id="f7d18-124">Customer TAP prior to certification</span></span>
+- <span data-ttu-id="96d51-126">Disponible uniquement via les Solutions de partenaires certifiés</span><span class="sxs-lookup"><span data-stu-id="96d51-126">Only available via Certified Partner Solutions</span></span>
+- <span data-ttu-id="96d51-127">CO-conçu avec Microsoft</span><span class="sxs-lookup"><span data-stu-id="96d51-127">Co-engineered with Microsoft</span></span>
+- <span data-ttu-id="96d51-128">Client TAP avant de certification</span><span class="sxs-lookup"><span data-stu-id="96d51-128">Customer TAP prior to certification</span></span>
 
-<span data-ttu-id="f7d18-125">**Prêt d’entreprise**</span><span class="sxs-lookup"><span data-stu-id="f7d18-125">**Enterprise Ready**</span></span>
+<span data-ttu-id="96d51-129">**Prêt d’entreprise**</span><span class="sxs-lookup"><span data-stu-id="96d51-129">**Enterprise Ready**</span></span>
 
-- <span data-ttu-id="f7d18-126">Vidéo HD (1080p) et contenu (VBSS)</span><span class="sxs-lookup"><span data-stu-id="f7d18-126">HD video (1080p) and Content (VBSS)</span></span>
-- <span data-ttu-id="f7d18-127">Prise en charge H.323 et SIP équipements de salle de réunion</span><span class="sxs-lookup"><span data-stu-id="f7d18-127">Support for H.323 and SIP meeting room devices</span></span>
-- <span data-ttu-id="f7d18-128">Planification des équipes/Exchange native</span><span class="sxs-lookup"><span data-stu-id="f7d18-128">Native Teams/Exchange scheduling</span></span>
-- <span data-ttu-id="f7d18-129">Conception de passerelle au lieu de VMR</span><span class="sxs-lookup"><span data-stu-id="f7d18-129">Gateway design instead of VMR</span></span>
+- <span data-ttu-id="96d51-130">Vidéo HD (1080p) et contenu (VBSS)</span><span class="sxs-lookup"><span data-stu-id="96d51-130">HD video (1080p) and Content (VBSS)</span></span>
+- <span data-ttu-id="96d51-131">Prise en charge H.323 et SIP équipements de salle de réunion</span><span class="sxs-lookup"><span data-stu-id="96d51-131">Support for H.323 and SIP meeting room devices</span></span>
+- <span data-ttu-id="96d51-132">Planification des équipes/Exchange native</span><span class="sxs-lookup"><span data-stu-id="96d51-132">Native Teams/Exchange scheduling</span></span>
+- <span data-ttu-id="96d51-133">Conception de passerelle au lieu de VMR</span><span class="sxs-lookup"><span data-stu-id="96d51-133">Gateway design instead of VMR</span></span>
 
-<span data-ttu-id="f7d18-130">**Évolutivité pour le cloud**</span><span class="sxs-lookup"><span data-stu-id="f7d18-130">**Scales for the cloud**</span></span>
+<span data-ttu-id="96d51-134">**Évolutivité pour le cloud**</span><span class="sxs-lookup"><span data-stu-id="96d51-134">**Scales for the cloud**</span></span>
 
-- <span data-ttu-id="f7d18-131">Déployée et gérée dans Azure</span><span class="sxs-lookup"><span data-stu-id="f7d18-131">Deployed and managed in Azure</span></span>
-- <span data-ttu-id="f7d18-132">À l’échelle automatique avec des solutions de nuage</span><span class="sxs-lookup"><span data-stu-id="f7d18-132">Auto scale with cloud solutions</span></span>
+- <span data-ttu-id="96d51-135">Déployée et gérée dans Azure</span><span class="sxs-lookup"><span data-stu-id="96d51-135">Deployed and managed in Azure</span></span>
+- <span data-ttu-id="96d51-136">À l’échelle automatique avec des solutions de nuage</span><span class="sxs-lookup"><span data-stu-id="96d51-136">Auto scale with cloud solutions</span></span>
 
  
-## <a name="reference-architecture"></a><span data-ttu-id="f7d18-133">Architecture de référence</span><span class="sxs-lookup"><span data-stu-id="f7d18-133">Reference architecture</span></span>
+## <a name="reference-architecture"></a><span data-ttu-id="96d51-137">Architecture de référence</span><span class="sxs-lookup"><span data-stu-id="96d51-137">Reference architecture</span></span>
 
-<span data-ttu-id="f7d18-134">Le diagramme suivant décrit l’architecture de haut niveau d’une solution de partenaire équipes.</span><span class="sxs-lookup"><span data-stu-id="f7d18-134">The following diagram describes the high-level architecture of a Teams partner solution.</span></span>
+<span data-ttu-id="96d51-138">Le diagramme suivant décrit l’architecture de haut niveau d’une solution de partenaire équipes.</span><span class="sxs-lookup"><span data-stu-id="96d51-138">The following diagram describes the high-level architecture of a Teams partner solution.</span></span>
 
 ![Solution d’un partenaire en nuage vidéo Interop équipes](media/teams-cloud-video-interop-partner-solution.png)
 
-## <a name="key-business-considerations"></a><span data-ttu-id="f7d18-136">Considérations relatives à la clé d’entreprise</span><span class="sxs-lookup"><span data-stu-id="f7d18-136">Key business considerations</span></span>
+## <a name="key-business-considerations"></a><span data-ttu-id="96d51-140">Considérations relatives à la clé d’entreprise</span><span class="sxs-lookup"><span data-stu-id="96d51-140">Key business considerations</span></span>
 
-<span data-ttu-id="f7d18-137">**Microsoft Teams à côté de l’infrastructure vidéo 3P**</span><span class="sxs-lookup"><span data-stu-id="f7d18-137">**Microsoft Teams alongside 3P video infrastructure**</span></span>
+<span data-ttu-id="96d51-141">**Microsoft Teams à côté de l’infrastructure vidéo 3P**</span><span class="sxs-lookup"><span data-stu-id="96d51-141">**Microsoft Teams alongside 3P video infrastructure**</span></span>
 
-- <span data-ttu-id="f7d18-138">Avez-vous besoin d’un déploiement important des périphériques vidéo 3P ?</span><span class="sxs-lookup"><span data-stu-id="f7d18-138">Do you have a large deployment of 3P video devices?</span></span>
-- <span data-ttu-id="f7d18-139">Existe-t-il un 3P contrôleur d’appel dans votre organisation ?</span><span class="sxs-lookup"><span data-stu-id="f7d18-139">Do you have a 3P call controller in your organization?</span></span>
-- <span data-ttu-id="f7d18-140">Vous prévoyez de conserver votre contrôleur d’appel en cours avec Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="f7d18-140">Do you plan on keeping your current call controller alongside Microsoft Teams?</span></span>
-- <span data-ttu-id="f7d18-141">Vous souhaitez exécuter votre propre vidéo infra ou hébergée ?</span><span class="sxs-lookup"><span data-stu-id="f7d18-141">Do you want to run your own video infra or hosted?</span></span> 
-- <span data-ttu-id="f7d18-142">Avez-vous prévu sur le déploiement de systèmes de salle équipes ?</span><span class="sxs-lookup"><span data-stu-id="f7d18-142">Do you plan on deploying Teams Room Systems?</span></span> <span data-ttu-id="f7d18-143">Quand ?</span><span class="sxs-lookup"><span data-stu-id="f7d18-143">When?</span></span>
+- <span data-ttu-id="96d51-142">Avez-vous besoin d’un déploiement important des périphériques vidéo 3P ?</span><span class="sxs-lookup"><span data-stu-id="96d51-142">Do you have a large deployment of 3P video devices?</span></span>
+- <span data-ttu-id="96d51-143">Existe-t-il un 3P contrôleur d’appel dans votre organisation ?</span><span class="sxs-lookup"><span data-stu-id="96d51-143">Do you have a 3P call controller in your organization?</span></span>
+- <span data-ttu-id="96d51-144">Vous prévoyez de conserver votre contrôleur d’appel en cours avec Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="96d51-144">Do you plan on keeping your current call controller alongside Microsoft Teams?</span></span>
+- <span data-ttu-id="96d51-145">Vous souhaitez exécuter votre propre vidéo infra ou hébergée ?</span><span class="sxs-lookup"><span data-stu-id="96d51-145">Do you want to run your own video infra or hosted?</span></span> 
+- <span data-ttu-id="96d51-146">Avez-vous prévu sur le déploiement de systèmes de salle équipes ?</span><span class="sxs-lookup"><span data-stu-id="96d51-146">Do you plan on deploying Teams Room Systems?</span></span> <span data-ttu-id="96d51-147">Quand ?</span><span class="sxs-lookup"><span data-stu-id="96d51-147">When?</span></span>
 
-<span data-ttu-id="f7d18-144">**Préexistant certifié fournisseur d’interopérabilité de base**</span><span class="sxs-lookup"><span data-stu-id="f7d18-144">**Pre-existing certified interop provider**</span></span>
+<span data-ttu-id="96d51-148">**Préexistant certifié fournisseur d’interopérabilité de base**</span><span class="sxs-lookup"><span data-stu-id="96d51-148">**Pre-existing certified interop provider**</span></span>
 
-- <span data-ttu-id="f7d18-145">Vous souhaitez poursuivre votre partenaire certifié actuel ?</span><span class="sxs-lookup"><span data-stu-id="f7d18-145">Do you want to continue with your current certified partner?</span></span>
-- <span data-ttu-id="f7d18-146">Avez-vous besoin continuer la prise en charge de l’environnement intégré (Exchange, une numérotation tactile) ?</span><span class="sxs-lookup"><span data-stu-id="f7d18-146">Do you need to continue support for integrated room environment (Exchange, One Touch Dial)?</span></span>
+- <span data-ttu-id="96d51-149">Vous souhaitez poursuivre votre partenaire certifié actuel ?</span><span class="sxs-lookup"><span data-stu-id="96d51-149">Do you want to continue with your current certified partner?</span></span>
+- <span data-ttu-id="96d51-150">Avez-vous besoin continuer la prise en charge de l’environnement intégré (Exchange, une numérotation tactile) ?</span><span class="sxs-lookup"><span data-stu-id="96d51-150">Do you need to continue support for integrated room environment (Exchange, One Touch Dial)?</span></span>
 
-<span data-ttu-id="f7d18-147">**Autres composants requis**</span><span class="sxs-lookup"><span data-stu-id="f7d18-147">**Other requirements**</span></span>
+<span data-ttu-id="96d51-151">**Autres composants requis**</span><span class="sxs-lookup"><span data-stu-id="96d51-151">**Other requirements**</span></span>
 
-- <span data-ttu-id="f7d18-148">Avez-vous besoin de surveillance en temps réel, dépannage et fonctionnalités de création de rapports ?</span><span class="sxs-lookup"><span data-stu-id="f7d18-148">Do you need real-time monitoring, troubleshooting, and reporting capabilities?</span></span>
-- <span data-ttu-id="f7d18-149">Vous devez être disponibles dans les nuages souverains ou gouvernement ?</span><span class="sxs-lookup"><span data-stu-id="f7d18-149">Do you need to be available in sovereign or government clouds?</span></span>
-- <span data-ttu-id="f7d18-150">Avez-vous besoin de participer à des réunions de vos équipes de sociétés externes ?</span><span class="sxs-lookup"><span data-stu-id="f7d18-150">Do you have external companies joining your Teams meetings?</span></span> 
+- <span data-ttu-id="96d51-152">Avez-vous besoin de surveillance en temps réel, dépannage et fonctionnalités de création de rapports ?</span><span class="sxs-lookup"><span data-stu-id="96d51-152">Do you need real-time monitoring, troubleshooting, and reporting capabilities?</span></span>
+- <span data-ttu-id="96d51-153">Vous devez être disponibles dans les nuages souverains ou gouvernement ?</span><span class="sxs-lookup"><span data-stu-id="96d51-153">Do you need to be available in sovereign or government clouds?</span></span>
+- <span data-ttu-id="96d51-154">Avez-vous besoin de participer à des réunions de vos équipes de sociétés externes ?</span><span class="sxs-lookup"><span data-stu-id="96d51-154">Do you have external companies joining your Teams meetings?</span></span> 
 
-## <a name="business-workflow-scenarios"></a><span data-ttu-id="f7d18-151">Les scénarios de flux de travail</span><span class="sxs-lookup"><span data-stu-id="f7d18-151">Business workflow scenarios</span></span>
+## <a name="business-workflow-scenarios"></a><span data-ttu-id="96d51-155">Les scénarios de flux de travail</span><span class="sxs-lookup"><span data-stu-id="96d51-155">Business workflow scenarios</span></span>
 
-- <span data-ttu-id="f7d18-152">**Skype pour Business Server -> équipes Microsoft :** Votre organisation a des périphériques tiers et glissant Skype pour Business sur prem server à Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="f7d18-152">**Skype for Business Server -> Microsoft Teams:** Your organization has third-party devices and moving from Skype for Business on-prem server to Microsoft Teams.</span></span>  
-- <span data-ttu-id="f7d18-153">**Skype pour les entreprises-en ligne > Microsoft Teams :** Votre organisation est migré vers Microsoft Teams Skype pour Business Online.</span><span class="sxs-lookup"><span data-stu-id="f7d18-153">**Skype for Business online -> Microsoft Teams:** Your organization is migrating to Microsoft Teams from Skype for Business Online.</span></span>
-- <span data-ttu-id="f7d18-154">**Cisco UC -> équipes Microsoft :** Votre organisation est déplacé à partir de Cisco à Microsoft Teams, mais pas prêt à remplacer vos périphériques Cisco.</span><span class="sxs-lookup"><span data-stu-id="f7d18-154">**Cisco UC -> Microsoft Teams:** Your organization is moving from Cisco to Microsoft Teams, but not ready to replace your Cisco devices.</span></span>
-- <span data-ttu-id="f7d18-155">**Englobant des systèmes -> équipes Microsoft :** Votre organisation dispose de plusieurs systèmes dans votre environnement côte à côte (Cisco, BroadSoft, SfB Server, SfBO).</span><span class="sxs-lookup"><span data-stu-id="f7d18-155">**Mixed Systems -> Microsoft Teams:** Your organization has several systems in your environment side by side (Cisco, BroadSoft, SfB Server, SfBO).</span></span>
-- <span data-ttu-id="f7d18-156">**Un autre fournisseur de conférence dans le nuage -> Microsoft Teams :** Votre organisation a été d’un utilisateur pour un autre fournisseur de conférence dans le nuage migration vers Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="f7d18-156">**Another cloud meeting provider -> Microsoft Teams:** Your organization has been a user for another cloud meeting provider migrating to Microsoft Teams.</span></span>
+- <span data-ttu-id="96d51-156">**Skype pour Business Server -> équipes Microsoft :** Votre organisation a des périphériques tiers et glissant Skype pour Business sur prem server à Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="96d51-156">**Skype for Business Server -> Microsoft Teams:** Your organization has third-party devices and moving from Skype for Business on-prem server to Microsoft Teams.</span></span>  
+- <span data-ttu-id="96d51-157">**Skype pour les entreprises-en ligne > Microsoft Teams :** Votre organisation est migré vers Microsoft Teams Skype pour Business Online.</span><span class="sxs-lookup"><span data-stu-id="96d51-157">**Skype for Business online -> Microsoft Teams:** Your organization is migrating to Microsoft Teams from Skype for Business Online.</span></span>
+- <span data-ttu-id="96d51-158">**Cisco UC -> équipes Microsoft :** Votre organisation est déplacé à partir de Cisco à Microsoft Teams, mais pas prêt à remplacer vos périphériques Cisco.</span><span class="sxs-lookup"><span data-stu-id="96d51-158">**Cisco UC -> Microsoft Teams:** Your organization is moving from Cisco to Microsoft Teams, but not ready to replace your Cisco devices.</span></span>
+- <span data-ttu-id="96d51-159">**Englobant des systèmes -> équipes Microsoft :** Votre organisation dispose de plusieurs systèmes dans votre environnement côte à côte (Cisco, BroadSoft, SfB Server, SfBO).</span><span class="sxs-lookup"><span data-stu-id="96d51-159">**Mixed Systems -> Microsoft Teams:** Your organization has several systems in your environment side by side (Cisco, BroadSoft, SfB Server, SfBO).</span></span>
+- <span data-ttu-id="96d51-160">**Un autre fournisseur de conférence dans le nuage -> Microsoft Teams :** Votre organisation a été d’un utilisateur pour un autre fournisseur de conférence dans le nuage migration vers Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="96d51-160">**Another cloud meeting provider -> Microsoft Teams:** Your organization has been a user for another cloud meeting provider migrating to Microsoft Teams.</span></span>
 
 
-<span data-ttu-id="f7d18-157">Après avoir choisi un partenaire ou partenaires, vous êtes prêt à [configurer sur le nuage vidéo Interop pour les équipes Microsoft](cloud-video-interop-for-teams-set-up.md).</span><span class="sxs-lookup"><span data-stu-id="f7d18-157">After choosing a partner or partners, you're ready to [Set up Cloud Video Interop for Microsoft Teams](cloud-video-interop-for-teams-set-up.md).</span></span> 
+<span data-ttu-id="96d51-161">Après avoir choisi un partenaire ou partenaires, vous êtes prêt à [configurer sur le nuage vidéo Interop pour les équipes Microsoft](cloud-video-interop-for-teams-set-up.md).</span><span class="sxs-lookup"><span data-stu-id="96d51-161">After choosing a partner or partners, you're ready to [Set up Cloud Video Interop for Microsoft Teams](cloud-video-interop-for-teams-set-up.md).</span></span> 

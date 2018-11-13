@@ -12,11 +12,11 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: dearbeen
 ms.openlocfilehash: dc9193e7dba01c353c7e21f31d4b94a54b64cf6b
-ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25019345"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293770"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
