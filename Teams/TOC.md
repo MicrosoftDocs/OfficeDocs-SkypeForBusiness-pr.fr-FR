@@ -1,8 +1,12 @@
 <!-- ============================================================ -->
-# Prise en main
-
-## [Présentation de Teams](Teams-overview.md)
-## [Outils et ateliers : planifier, fournir et utiliser Teams](planning-workshop-practical-guide.md)
+# [Bienvenue dans Teams](teams-overview.md)
+<!-- ============================================================ -->
+# [Prise en main](get-started-with-teams-landing-page.md)
+## [Démarrage rapide - équipes](get-started-with-teams-quick-start.md)
+## [Créer votre première équipes et canaux](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Premiers intégrés](get-started-with-teams-onboard-early-adopters.md)
+## [Surveiller l’utilisation et les commentaires](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Où souhaitez-vous aller ?](get-started-with-teams-resources-for-org-wide-rollout.md)
 ## [Obtenir de l’aide dans Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
@@ -20,10 +24,28 @@
 ## [Planifier la gestion du cycle de vie dans Teams](plan-teams-lifecycle.md)
 ## [Planifier la gouvernance dans les équipes](plan-teams-governance.md)
 ## [Plan pour Microsoft 365 gouvernement - déploiements GCC](plan-for-government-gcc.md)
-## [Créer la stratégie de gestion des modifications](change-management-strategy.md)
 <!-- ============================================================ -->
 
+<!-- ============================================================ -->
+# [Adopter](adopt-microsoft-teams-landing-page.md) 
 
+## [Prise en main](teams-adoption-get-started.md)
+## [Phase 1 : Démarrer](teams-adoption-phase1.md)
+### [Comprendre les équipes et les canaux](teams-adoption-understand-teams-and-channels.md)
+### [Créer votre premières équipes](teams-adoption-your-first-teams.md)
+### [L’état de préparation est votre organisation pour les équipes ?](teams-adoption-assess-readiness.md)
+## [Phase 2 : expérience](teams-adoption-phase2-experiment.md)
+### [Créer votre programme champions](teams-adoption-create-champions-program.md)
+### [Démarrage rapide de la gouvernance](teams-adoption-governance-quick-start.md)
+### [Définir des scénarios d’utilisation](teams-adoption-define-usage-scenarios.md)
+### [Premiers intégrées et les commentaires de collecter des informations](teams-adoption-onboard-early-adopters.md)
+### [Prise en charge intégrée](teams-adoption-onboard-support.md)
+## [Phase 3 : échelle](teams-adoption-phase3-enable.md)
+### [Définir les objectifs et la réussite](teams-adoption-define-outcomes.md)
+### [Optimiser les commentaires et création de rapports](teams-adoption-optimize-feedback-and-reporting.md)
+### [Présentation du lecteur et implémenter la formation](teams-adoption-drive-awareness.md)
+### [Planifier les analyses d’intégrité de service](teams-adoption-schedule-service-health-reviews.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Configurer et déployer
@@ -127,9 +149,10 @@
 ## Surveiller la qualité des appels et qualité de service
 ### [Qualité de service (QoS) dans Teams](QoS-in-Teams.md)
 ### [Appel Analytique et tableau de bord de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Configurer Analytique d’appel](set-up-call-analytics.md)
 ### [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Activation et utilisation du tableau de bord Qualité des appels](turning-on-and-using-call-quality-dashboard.md)
+### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Classification des flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md)
 ## Dépannage et assistance
 ### [Problèmes connus dans Teams](Known-issues.md)
