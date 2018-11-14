@@ -1,7 +1,7 @@
 ---
 title: Déploiement de Skype Room System v2
-ms.author: jambirk
-author: jambirk
+ms.author: Turgayo
+author: Turgayo
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de systèmes de salle Skype v2.
-ms.openlocfilehash: dac4929338ded6fdb3b7af1dadfb3b1ce5675b97
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 39704e044d5a5210d47a0347790f5602a3086270
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699629"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510644"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -128,7 +128,7 @@ Chaque périphérique v2 de systèmes de salle Skype nécessite un compte dédi�
 
 **Conseil pro** – Assurez-vous l’affichage des noms pour ces comptes descriptif et facile à comprendre. Voici les noms qui s’affiche lors de la recherche et ajout de Skype salle systèmes v2 à des réunions. Certaines organisations utilisent la convention de *Site*-*Nom de la salle*(*Capacité maximale*)-RS, par exemple Curie — une salle de conférence 12-personne à Londres — peut avoir le nom d’affichage LON-CURIE (12)-RS. 
 
-Si votre organisation possède plusieurs salles de conférence qui nécessitent plusieurs, les comptes approvisionnés, vous souhaiterez à utiliser des [Scripts de mise en service de comptes Skype salle de systèmes](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) à la disposition en bloc plusieurs comptes de service de manière automatique. 
+<!-- If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. -->
 
 
 |    |     |

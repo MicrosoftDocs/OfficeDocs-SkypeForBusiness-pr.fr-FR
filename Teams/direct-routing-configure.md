@@ -15,14 +15,17 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: 7e587c92e979c7985ccbd9f05bbb5ae1115d176a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 994d9d25c41f5f403873a0069564f675e0020d61
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374649"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510667"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage Direct
+
+> [!Tip]
+> Regarder la session suivante pour en savoir plus sur les avantages de Direct routage, comment planifier et comment le déployer : [Routage Direct dans les équipes Microsoft](https://aka.ms/teams-direct-routing)
 
 Si vous n’avez pas déjà fait, lisez la [Planifier le routage Direct](direct-routing-plan.md) pour les composants requis et pour passer en revue les autres étapes, vous devrez prendre avant de configurer votre réseau de système téléphonique de Microsoft. 
 
@@ -101,17 +104,17 @@ Il existe des options supplémentaires qui peuvent être définies lors de l’a
  
 Le tableau suivant répertorie les paramètres supplémentaires que vous pouvez utiliser dans la définition des paramètres de *New-CsOnlinePstnGateway*. 
 
-|Obligatoire ?|Nom|Description|Par défaut|Valeurs possibles|Type et restrictions|
+|Obligatoire ?|Nom|Description|Valeur par défaut|Valeurs possibles|Type et restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Oui|FQDN|Le nom de domaine complet de le SBC |Aucun|Nom de NoneFQDN, limite 63 caractères|Chaîne, liste de caractères autorisés et non autorisés sur [les conventions d’attribution de noms dans Active Directory pour les ordinateurs, les domaines, les sites et les unités d’organisation](https://support.microsoft.com/help/909264)|
-|Non|MediaBypass |Le paramètre est réservé pour une utilisation future. Paramètre indiqué du contrôleur SBC prend en charge le contournement de média et l’administrateur souhaite l’utiliser.|Aucun|True<br/>Faux|Boléen|
+|Non|MediaBypass |Le paramètre est réservé pour une utilisation future. Paramètre indiqué du contrôleur SBC prend en charge le contournement de média et l’administrateur souhaite l’utiliser.|Aucun|True<br/>False|Boléen|
 |Oui|SipSignallingPort |Port d’écoute utilisé pour communiquer avec les services de routage Direct à l’aide du protocole de Transport Layer Security (TLS).|Aucun|N’importe quel port|comprise entre 0 et 65535 |
-|Non|FailoverTimeSeconds |Lorsque la valeur 10 (valeur par défaut), les appels sortants qui ne sont pas traitées par la passerelle dans les 10 secondes sont routés vers le tronçon suivant disponible ; s’il n’y a aucune jonctions supplémentaires, l’appel est automatiquement supprimé. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels. La valeur par défaut est 10.|10|Numéro|Int|
-|Non|ForwardCallHistory |Indique si les informations d’historique d’appel sont transférées par le biais de la jonction. Si activé, le Proxy de PSTN Office 365 envoie deux en-têtes : historique-info et visé par. La valeur par défaut est **False** ($False). |Faux|True<br/>Faux|Boléen|
-|Non|ForwardPAI|Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI est un moyen de vérifier l’identité de l’appelant. La valeur par défaut est **False** ($False).|Faux|True<br/>Faux|Boléen|
-|Non|SendSIPOptions |Définit si un contrôleur SBC sera ou n’envoie pas les options SIP. Si désactivé, le contrôleur SBC sera exclu de système de surveillance et d’alerte. Il est vivement recommandé d’activer les options de SIP. Valeur par défaut est **True**. |True|True<br/>Faux|Boléen|
+|Non|FailoverTimeSeconds |Lorsque la valeur 10 (valeur par défaut), les appels sortants qui ne sont pas traitées par la passerelle dans les 10 secondes sont routés vers le tronçon suivant disponible ; s’il n’y a aucune jonctions supplémentaires, l’appel est automatiquement supprimé. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels. La valeur par défaut est 10.| 10|Numéro|Int|
+|Non|ForwardCallHistory |Indique si les informations d’historique d’appel sont transférées par le biais de la jonction. Si activé, le Proxy de PSTN Office 365 envoie deux en-têtes : historique-info et visé par. La valeur par défaut est **False** ($False). |False|True<br/>False|Boléen|
+|Non|ForwardPAI|Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant. La valeur par défaut est **False** ($False).|False|True<br/>False|Boléen|
+|Non|SendSIPOptions |Définit si un contrôleur SBC sera ou n’envoie pas les options SIP. Si désactivé, le contrôleur SBC sera exclu de système de surveillance et d’alerte. Il est vivement recommandé d’activer les options de SIP. Valeur par défaut est **True**. |True|True<br/>False|Boléen|
 |Non|MaxConcurrentSessions |Utilisé par le système d’alerte. Lorsqu’une valeur est définie, le système d’alerte génère une alerte à l’administrateur de clients lorsque le nombre de sessions simultanées est 90 % ou supérieure à cette valeur. Si le paramètre n’est pas défini, les alertes ne sont pas générés. Toutefois, le système de surveillance signalera nombre de sessions simultanées toutes les 24 heures. |Null|Null<br/>1 et 100 000 ||
-|Non|Activé *|Permet d’activer cette SBC pour les appels sortants. Peut être utilisée pour supprimer temporairement le contrôleur SBC, pendant qu’il est en cours de mise à jour ou lors de la maintenance. |Faux|True<br/>Faux|Boléen|
+|Non|Activé *|Permet d’activer cette SBC pour les appels sortants. Peut être utilisée pour supprimer temporairement le contrôleur SBC, pendant qu’il est en cours de mise à jour ou lors de la maintenance. |False|True<br/>False|Boléen|
  
 ### <a name="verify-the-sbc-pairing"></a>Vérifiez l’appariement SBC 
 

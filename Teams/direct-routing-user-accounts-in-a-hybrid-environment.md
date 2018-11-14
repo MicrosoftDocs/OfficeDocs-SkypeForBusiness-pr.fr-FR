@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez les différentes combinaisons de création de l’utilisateur et les combinaisons suivantes sont prises en charge ou non pris en charge.
-ms.openlocfilehash: f6662a6a61e34a691cc058f20c356720a61dab54
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: f742efc18de05997f73a33b96800cc10a9a9d124
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678409"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510621"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Comptes d’utilisateurs dans un environnement hybride avec une connectivité PSTN
 
@@ -57,19 +57,16 @@ Un Skype pour un environnement hybride avec une connectivité PSTN flexibilité 
 
 |**Objet utilisateur créé dans**  |**Skype l’utilisateur pour le fournisseur de services d’entreprise**|**Client de l’utilisateur**|**Option voix**|**Prise en charge**|
 |---------|---------|---------|---------|--------|
-|Sur le site AD| En local |Skype Entreprise   | Voix Entreprise   |Oui|
-|Sur le site AD|Online| Skype Entreprise  | Connectivité de voix hybride   |Oui |
+|Sur le site AD| En local |Skype Entreprise   | Voix Entreprise   |Oui|
+|Sur le site AD|Online| Skype Entreprise  | Connectivité de voix hybride   |Oui |
 |Sur le site AD|Online |Microsoft Teams |Routage direct  |Oui |
 |**Combinaisons non pris en charge**    | |         |         |
 |Azure AD| Sur le site/en ligne | Skype pour les équipes/Microsoft Business|Enterprise Voice de voix hybride/connectivité/Direct routage  |Non, l’objet utilisateur doit être créé dans AD sur site tout d’abord |
 |Sur le site AD  |En local| Microsoft Teams| Enterprise Voice de voix hybride/connectivité/Direct routage   |Non, client Microsoft Teams n’est pas pris en charge avec Skype sur site pour les entreprises |
-|Sur le site AD  |Online |Skype Entreprise | Routage direct  | Non, Skype pour client d’entreprise n’est pas pris en charge avec le routage Direct  |
-|Sur le site AD  |Online |Skype Entreprise  | Routage direct  |Non, routage Direct n'est pas pris en charge avec Skype pour Business client et utilisateur doit être activé pour Enterprise Voice sur Skype pour les entreprises tout d’abord  |
+|Sur le site AD  |Online |Skype Entreprise | Routage direct  | Non, Skype pour client d’entreprise n’est pas pris en charge avec le routage Direct  |
+|Sur le site AD  |Online |Skype Entreprise  | Routage direct  |Non, routage Direct n'est pas pris en charge avec Skype pour Business client et utilisateur doit être activé pour Enterprise Voice sur Skype pour les entreprises tout d’abord  |
 |   |         |         |         ||
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Déclaration de prise en charge de l’environnement hybride avec PSTN
 
-Pour tous les utilisateurs, l’utilisateur d’objet **doit** être créé dans l’environnement local AD et synchronisés vers Azure AD à l’aide de l’outil Azure AD se connecter. Activation des utilisateurs pour les équipes/Skype pour l’entreprise **n’est pas pris en charge** si l’objet utilisateur est créé directement dans Azure AD dans une configuration hybride. Pour les nouveaux utilisateurs, par exemple un nouvel employé qui sera activé pour les équipes, l’utilisateur doit être hébergé à l’origine dans Skype pour les entreprises dans les locaux et déplacé vers le serveur d’inscriptions en ligne. Création d’utilisateurs dans Skype en ligne pour les professionnels ou équipes sans premier leur permettant de pool locale avec Enterprise Voice **n’est pas pris en charge**.
-  
-
-L’utilisateur doit être activé pour Skype pour les entreprises et à l’aide de Enterprise Voice locaux Skype pour les outils de gestion utilisateur. Activation d’utilisateurs pour Skype pour Business online uniquement **n’est pas pris en charge**. Consultez [cet article](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) pour plus d’informations sur la façon de permettre aux utilisateurs de Skype pour les entreprises dans configuration hybride.
+Pour tous les utilisateurs, l’utilisateur d’objet **doit** être créé dans l’environnement local AD et synchronisés vers Azure AD à l’aide de l’outil Azure AD se connecter. Activation des utilisateurs pour les équipes/Skype pour l’entreprise **n’est pas pris en charge** si l’objet utilisateur est créé directement dans Azure AD dans une configuration hybride. Pour les nouveaux utilisateurs, par exemple un nouvel employé qui sera activé pour les équipes, l’utilisateur doit être activé pour Skype pour les entreprises utilisant sur site Skype pour les outils d’administration. Création d’utilisateurs dans Skype en ligne pour les professionnels ou équipes sans premier leur permettant de pool locale avec Enterprise Voice **n’est pas pris en charge**. Consultez [cet article](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) pour plus d’informations sur la façon de permettre aux utilisateurs de Skype pour les entreprises dans configuration hybride.
