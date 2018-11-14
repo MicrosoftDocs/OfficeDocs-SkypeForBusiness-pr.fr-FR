@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b8af87c00d15242296416f7bead06c873e75161e
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215802"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519801"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Créer votre premières équipes dans Microsoft Teams
 

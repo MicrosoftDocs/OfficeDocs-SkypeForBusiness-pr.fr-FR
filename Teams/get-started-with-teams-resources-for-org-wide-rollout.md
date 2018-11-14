@@ -14,11 +14,11 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 381e246edc164b5c5a3a6d88b1f5bbf4d1d868cf
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238143"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519783"
 ---
 # <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a>Accédez à votre déploiement de l’entreprise de Microsoft Teams du plan des ressources
 

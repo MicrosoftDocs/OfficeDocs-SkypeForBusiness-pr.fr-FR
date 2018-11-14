@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 627d6ca502731c058b1737e5ae50346e5b4ca2be
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215810"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519796"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>L’état de préparation est votre organisation pour Teams Microsoft ?
 
