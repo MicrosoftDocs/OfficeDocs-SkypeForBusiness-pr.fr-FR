@@ -5,14 +5,14 @@
 ### [Notes de publication](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [Préparer votre environnement](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Configuration requise](../plan-your-deployment/clients-and-devices/requirements.md)
-### [Gestion des licences en ligne](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+### [Gestion des licences en ligne](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 ### [Planifier la gestion avec OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
 
 ## Déployer 
 ### [Vue d’ensemble du déploiement](../deploy/deploy-clients/room-systems-v2.md)
 ### [Configurer les comptes](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
 ### [Avec Office 365](../deploy/deploy-clients/with-office-365.md)
-### [Avec Skype pour Business Server 2015](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
+### [Avec Skype pour Business Server](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
 ### [Avec Exchange Online (hybride)](../deploy/deploy-clients/with-exchange-online.md)
 ### [Avec Exchange sur site (hybride)](../deploy/deploy-clients/with-exchange-on-premises.md)
 ### [Configurer une console](../deploy/deploy-clients/console.md)
