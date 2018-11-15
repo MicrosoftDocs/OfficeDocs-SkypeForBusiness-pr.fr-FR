@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Un utilisateur approuvé est un dont les informations d’identification ont été authentifiées par un serveur approuvé dans Skype pour Business Server. Ce serveur est généralement un serveur Standard Edition, Enterprise Edition serveur frontal ou un directeur. Skype pour Business Server s’appuie sur les Services de domaine Active Directory comme référentiel principal unique approuvé, des informations d’identification de l’utilisateur.
-ms.openlocfilehash: 9616774bf721863503c2ebd9145c6860f7068ef3
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: a4f8661ba7f56e2bc5704af383dbd80e6a6869ac
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294339"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532323"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Authentification utilisateur et client pour Skype pour Business Server
  
@@ -47,7 +47,7 @@ Les certificats clients permettent également aux utilisateurs d’être authent
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Exigences de chiffrement en raison d’ASP .NET 4.5 
 
-À compter de Skype pour Business Server 2015 CU5, AES n’est pas pris en charge pour ASP.NET 4.6 et cela peut entraîner Skype réunions application Échec de démarrage. Si un client utilise AES en tant que la valeur de validation de la clé d’ordinateur, vous devrez rétablir la valeur de clé d’ordinateur SHA-1 ou un autre algorithme pris en charge au niveau du site d’application de réunions Skype sur IIS. Si nécessaire, consultez [Gestion de la Configuration IIS 8.0 ASP.NET](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) pour obtenir des instructions.
+À compter de Skype pour Business Server 2015 CU5, AES n’est pas pris en charge pour ASP.NET 4.6 et cela peut entraîner Skype réunions application Échec de démarrage. Si un client utilise AES en tant que la valeur de validation de la clé d’ordinateur, vous devrez rétablir la valeur de clé d’ordinateur SHA-1 ou un autre algorithme pris en charge au niveau du site d’application de réunions Skype sur IIS. Si nécessaire, consultez [Gestion de la Configuration IIS 8.0 ASP.NET](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) pour obtenir des instructions.
   
 Autres valeurs prises en charge sont :
   

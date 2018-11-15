@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: 'Résumé : Gérer les applications OAuth et partenaire dans Skype pour Business Server.'
-ms.openlocfilehash: c4b4e7344351563219f0f64e0fa0c2e34e5829b2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6b7701ff91f323b13a97613f57f7228da18d9773
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294688"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532838"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>Gérer l’authentification de serveur à serveur (OAuth) et les applications partenaires dans Skype pour Business Server
  
@@ -23,7 +23,7 @@ ms.locfileid: "26294688"
   
 Skype pour Business Server doit être en mesure d’en toute sécurité et en toute transparence, de communiquer avec d’autres applications et les produits serveur. Par exemple, vous pouvez configurer Skype pour Business Server afin que les données et les données d’archivage le contact est stocké dans Microsoft Exchange Server 2013 ; Toutefois, cela n’est possible si Skype pour Business Server et Exchange est en mesure de communiquer en toute sécurité entre eux. De même, vous pouvez planifier une Skype pour conférence Business Server à partir d’Office Web Apps Server ; là encore, cela n’est possible si les deux serveurs (SharePoint et Skype pour Business Server) une relation d’approbation. Bien qu’il soit possible d’utiliser un mécanisme d’authentification pour la communication entre Skype pour Business Server et Exchange mais un mécanisme distinct de Skype pour les communications Business Server et SharePoint, une meilleure et plus efficace consiste à utiliser un méthode standardisé pour tous les autorisation et d’authentification de serveur à serveur.
   
-À l’aide d’un seul, méthode standardisée pour l’authentification de serveur à serveur est l’approche Skype pour Business Server. À compter de la 2013 version, Skype pour Business Server (ainsi qu’autres produits Microsoft Server, notamment Exchange 2013 et SharePoint Server) pris en charge le protocole OAuth (Open Authorization) pour l’autorisation et authentification de serveur à serveur. Avec OAuth, un protocole standard d’autorisation utilisé par un nombre de sites principaux, les informations d’identification utilisateur et les mots de passe ne sont pas transmis d’un ordinateur à un autre. Au lieu de cela, l’authentification et autorisation repose sur l’échange de jetons de sécurité ; Ces jetons accordent l’accès à un ensemble spécifique de ressources pour une durée spécifique.
+À l’aide d’un seul, méthode standardisée pour l’authentification de serveur à serveur est l’approche Skype pour Business Server. Participer à une version d’Office 2013 de serveurs, Skype pour Business Server (ainsi que d’autres produits Microsoft Server, y compris Exchange Server et SharePoint Server) pris en charge le protocole OAuth (Open Authorization) pour l’authentification de serveur à serveur et autorisation. Avec OAuth, un protocole standard d’autorisation utilisé par un nombre de sites principaux, les informations d’identification utilisateur et les mots de passe ne sont pas transmis d’un ordinateur à un autre. Au lieu de cela, l’authentification et autorisation repose sur l’échange de jetons de sécurité ; Ces jetons accordent l’accès à un ensemble spécifique de ressources pour une durée spécifique.
   
 Authentification OAuth implique trois parties : un serveur d’autorisation unique et les deux domaines qui doivent communiquer entre eux. (Vous pouvez également faire authentification de serveur à serveur sans l’aide d’un serveur d’autorisation, un processus qui seront abordé plus loin dans ce document). Jetons de sécurité émis par le serveur d’autorisation (également appelé un jeton serveur de sécurité) pour les deux domaines qui doivent communiquer ; Ces jetons de vérifier que les communications provenant d’un domaine doit être approuvées par le domaine d’autres. Par exemple, le serveur d’autorisation peut-être émettre des jetons de vérifier que les utilisateurs d’un Skype spécifique pour le domaine du serveur d’entreprise sont en mesure d’accéder à un domaine Exchange spécifié et vice versa.
   

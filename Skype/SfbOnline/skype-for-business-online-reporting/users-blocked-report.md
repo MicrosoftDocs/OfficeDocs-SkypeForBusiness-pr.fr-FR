@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Ce rapport, ainsi que d’autres Skype pour les rapports d’entreprise, vous donne plus d’informations sur l’activité, y compris l’utilisation PSTN au sein de votre organisation. '
-ms.openlocfilehash: 508d41de4a8b67e1a266bead6f91445acd041a7e
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 789f881aff2f80603ac440250bc769d6c7b989c0
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294737"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532684"
 ---
 # <a name="users-blocked-report"></a>Rapport d'utilisateurs bloqués
 
@@ -74,7 +74,7 @@ Cela exportera les données de tous les utilisateurs et vous permettra de trier 
     
 - [Skype Business conférence organisateur rapport d’activité](conference-organizer-activity-report.md) Vous pouvez voir combien vos utilisateurs sont organiser des conférences qui utilisent la messagerie instantanée, audio/vidéo, partage d’applications, le site Web, dial-in/out - 3ème partie et dial-in/out - Microsoft.
     
-- [Skype Business conférence participant rapport d’activité](conference-participant-activity-report.md) Vous pouvez voir combien par messagerie instantanée, audio/vidéo, partage d’applications, Web et et les conférences rendez-vous dans/conférence sont participés.
+- [Skype Business conférence participant rapport d’activité](conference-participant-activity-report.md) Vous pouvez voir le partage d’application audio/vidéo, messagerie instantanée, le nombre, Web et les conférences rendez-vous dans/conférence sont en cours ont participé.
     
 - [Skype pour le rapport des activités d’égal à égal professionnels](peer-to-peer-activity-report.md) Vous pouvez voir combien vos utilisateurs sont à l’aide de messagerie instantanée, audio/vidéo, partage d’application et de transfert de fichiers.
     

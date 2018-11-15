@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: Les sections suivantes fournissent des instructions sur la façon de configurer un environnement comprenant plusieurs forêts dans un modèle de forêt de ressources/de l’utilisateur à fournir Skype pour les fonctionnalités dans un scénario hybride.
-ms.openlocfilehash: 772b93aab0d8adf08345870ac97a8e1487e240e2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295241"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531551"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configuration d’un environnement à forêts multiples pour un environnement hybride Skype pour les entreprises
  
@@ -66,7 +66,7 @@ Pour une synchronisation correcte des identités, les attributs suivants doivent
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-L’[attribut de lien de compte choisi](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/) sera utilisé comme ancre source. Si vous préférez utiliser un autre attribut immuable, c’est possible, mais veillez à modifier la règle des revendications AD FS et à sélectionner l’attribut lors de la configuration d’AAD Connect.
+L’[attribut de lien de compte choisi](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) sera utilisé comme ancre source. Si vous préférez utiliser un autre attribut immuable, c’est possible, mais veillez à modifier la règle des revendications AD FS et à sélectionner l’attribut lors de la configuration d’AAD Connect.
   
 Ne pas synchroniser l’UPN entre les forêts. Lors des tests, nous avons découvert qu’il fallait utiliser un UPN unique pour chaque forêt d’utilisateurs, car il est impossible d’utiliser le même UPN dans plusieurs forêts. Il reste par conséquent deux possibilités : synchroniser l’UPN ou non. 
   
@@ -112,7 +112,7 @@ Les attributs surlignés en vert ont été fusionnés à partir d’Office 365,
   
 Il s’agit d’un utilisateur test. Vous pouvez voir qu’AAD Connect a identifié le sourceAnchor et le cloudSourceAnchor des objets de forêts utilisateur/ressource et d’Office 365, en l’occurrence 1101, qui est l’employeeNumber précédemment sélectionné. Il a ensuite pu fusionner cet objet dans ce que vous voyez ci-dessus. 
   
-Pour plus d’informations, reportez-vous à l’article [Intégration de vos identités locales à Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/). 
+Pour plus d’informations, reportez-vous à l’article [Intégration de vos identités locales à Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
   
 Connexion DAS doivent être installé à l’aide de principalement les valeurs par défaut. À l’exception de la procédure suivante : 
   
@@ -122,7 +122,7 @@ Connexion DAS doivent être installé à l’aide de principalement les valeurs 
     
 3.  Identifier les utilisateurs dans les annuaires locaux : sélectionnez **les identités utilisateur existent sur plusieurs annuaires** et sélectionnez attributs **ObjectSID** et **msExchangeMasterAccountSID**
     
-4. Identifier les utilisateurs dans Azure AD : Source d’ancrage - sélectionnez l’attribut que vous avez choisi après avoir lu la [sélection d’un attribut sourceAnchor bonne](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/), nom d’utilisateur Principal - **userPrincipalName**
+4. Identifier les utilisateurs dans Azure AD : Source d’ancrage - sélectionnez l’attribut que vous avez choisi après avoir lu la [sélection d’un attribut sourceAnchor bonne](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), nom d’utilisateur Principal - **userPrincipalName**
     
 5.  Fonctionnalités facultatives - Sélectionnez si vous avez déployé ou non de Exchange hybride.
     

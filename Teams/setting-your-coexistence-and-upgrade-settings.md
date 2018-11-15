@@ -13,47 +13,47 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b89d75f07ecfac6e37f33c27a9272187b0794a6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 28d5cd4a967245f1df18530d58ed1c2679e910e3
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371505"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531861"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Définition de vos paramètres de mise à niveau et de coexistence
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Lorsque vous mettez à niveau votre Skype pour les utilisateurs professionnels équipes, vous disposez de plusieurs options pour vous aider à faire un processus transparent pour vos utilisateurs. Vous avez la possibilité d’effectuer de coexistence et mise à niveau des paramètres pour tous les utilisateurs de votre organisation en une seule fois, ou vous pouvez modifier les paramètres pour un seul ou un ensemble d’utilisateurs dans votre organisation. Notez que les versions antérieures de Skype pour les clients d’entreprise ne pas appliquer ces paramètres.
+Lorsque vous mettez à niveau votre Skype pour les utilisateurs d’utiliser des équipes, vous disposez de plusieurs options pour vous aider à faire un processus transparent pour vos utilisateurs. Vous avez la possibilité d’effectuer de coexistence et mise à niveau des paramètres pour tous les utilisateurs de votre organisation en une seule fois, ou vous pouvez modifier les paramètres pour un seul ou un ensemble d’utilisateurs dans votre organisation. Notez que les versions antérieures de Skype pour les clients d’entreprise ne pas appliquer ces paramètres. Pour plus d’informations sur Skype pour les versions de client d’entreprise, accédez à [Skype pour les entreprises télécharge et met à jour de la page](https://docs.microsoft.com/en-us/skypeforbusiness/software-updates). 
 
-Paramètres assignés à un niveau de l’utilisateur sont prioritaires sur les paramètres appliqués au niveau de l’organisation. Vous pouvez obtenir une meilleure compréhension des types de modes sont à votre disposition en lisant l’article [comprendre la coexistence et voyage Skype pour professionnels et les équipes de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).  
+Vous pouvez obtenir une meilleure compréhension des types de modes sont à votre disposition en lisant l’article [Skype pour l’interopérabilité et coexistence d’entreprise et comprendre les équipes Microsoft](teams-and-skypeforbusiness-coexistence-and-interoperability.md).  
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 
-## <a name="setting-upgrade-options-for-all-users-in-your-organization"></a>Définition des options de mise à niveau pour tous les utilisateurs de votre organisation
+## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>Définir les options de mise à niveau pour tous les utilisateurs de votre organisation
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide les équipes Microsoft & Skype entreprise centre d’administration**
 
 1. Dans la navigation de gauche, accédez à **paramètres à l’échelle de la société** > **équipes de mise à niveau**. 
 
-2. En haut de la page de la **page de mise à niveau des équipes** , apportez les modifications suivantes si elles ne fonctionnera pour vous.
+2. En haut de la page **mise à niveau des équipes** , apportez les modifications suivantes si elles ne fonctionnera pour vous.
     - Définir le mode de **Coexistence** .
         - **(Îles)** - Utilisez ce paramètre si vous souhaitez que les utilisateurs soient en mesure d’utiliser les deux Skype pour professionnels et les équipes simultanément.
         - **Skype pour les entreprises uniquement** - Utilisez ce paramètre si vous souhaitez que vos utilisateurs uniquement utiliser Skype pour les entreprises.
-        - **Équipes uniquement** - Utilisez ce paramètre si vous souhaitez que vos utilisateurs d’utiliser uniquement les équipes. Notez que même si ce paramètre, les utilisateurs peuvent toujours participer aux réunions hébergées dans Skype pour les entreprises.
+        - **Équipes uniquement** (dans l’aperçu pour certaines organisations) - Utilisez ce paramètre si vous souhaitez que vos utilisateurs d’utiliser uniquement les équipes. Notez que même si ce paramètre, les utilisateurs peuvent toujours participer aux réunions hébergées dans Skype pour les entreprises.
     - Définissez **Skype de notification pour les utilisateurs professionnels, équipes est disponible pour la mise à niveau**. Si vous activez ce, elle indique la Skype pour les utilisateurs professionnels qu’ils seront bientôt être mis à niveau à l’application d’équipes.
     - Définir l' **application par défaut pour les utilisateurs à participer à Skype pour les réunions d’entreprise**. Ce paramètre détermine l’application qui est utilisée pour participer à des Skype pour les réunions d’entreprise et est respecté, quelle que soit la valeur de mode de coexistence.
       - **Application de réunions Skype**
       - **Skype pour les entreprises avec des fonctionnalités limitées**
-    - Définir s’il faut **Télécharger l’application d’équipes en arrière-plan pour Skype pour les utilisateurs professionnels**.  Ce paramètre télécharge en mode silencieux l’application équipes pour les utilisateurs Skype pour les entreprises en cours d’exécution sur un ordinateur Windows. Elle est respectée uniquement si le mode de coexistence pour l’utilisateur est équipes uniquement ou si des notifications en attente de mise à niveau sont activées dans Skype pour les entreprises.
+    - Définir s’il faut **Télécharger l’application d’équipes en arrière-plan pour Skype pour les utilisateurs professionnels**.  Ce paramètre télécharge en mode silencieux l’application équipes pour les utilisateurs Skype pour les entreprises en cours d’exécution sur un ordinateur Windows. Elle est respectée uniquement si le mode de coexistence pour l’utilisateur est uniquement les équipes ou si des notifications en attente de mise à niveau sont activées dans Skype pour les entreprises.
 3. Une fois que vous apportez vos modifications, cliquez sur **Enregistrer** .
 
-## <a name="setting-upgrade-options-for-a-single-user-in-your-organization"></a>Définition des options de mise à niveau pour un seul utilisateur dans votre organisation
+## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>Définir les options de mise à niveau pour un seul utilisateur dans votre organisation
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide les équipes Microsoft & Skype entreprise centre d’administration**
 
 1. Dans la navigation de gauche, accédez à des **utilisateurs**, puis sélectionnez l’utilisateur dans la liste. 
 2. Sous l’onglet **compte** pour l’utilisateur, sous **mise à niveau des équipes**, cliquez sur **Modifier**.
@@ -70,4 +70,4 @@ Paramètres assignés à un niveau de l’utilisateur sont prioritaires sur les 
 
 [Comprendre la coexistence et la mise à niveau de voyage pour Skype pour professionnels et les équipes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-[Guide de migration et d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[Guide de migration et d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](migration-interop-guidance-for-teams-with-skype.md)

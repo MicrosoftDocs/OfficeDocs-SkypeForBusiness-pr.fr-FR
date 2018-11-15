@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2090036aa5e1a05e46581d365d9b6b4aeb94b32
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 5e0663553f6dbd3374245ba2ab370e4b5a369701
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294135"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531963"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurer une interopérabilité vidéo dans le nuage pour Microsoft Teams
 
@@ -57,19 +57,19 @@ La clé client seront les appels sortants vers le service partenaire. Dans l’e
 Vous devrez exécuter les applets de commande suivantes pour configurer la clé client et permettent également aux utilisateurs de sélectionner ou toute l’organisation créer des réunions avec des coordonnées interopérabilitées vidéo.
 
  
-- ** [Get-CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft propose construit à partir des stratégies pour chacun des partenaires pris en charge qui vous permettent de désigner les partenaires qui à utiliser pour l’interopérabilité vidéo dans le nuage.
+- ** [Get-CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft propose construit à partir des stratégies pour chacun des partenaires pris en charge qui vous permettent de désigner les partenaires qui à utiliser pour l’interopérabilité vidéo dans le nuage.
 
     Cette cmdlet vous permet d’identifier les construit à partir des stratégies que vous pouvez utiliser dans votre organisation. Vous pouvez assigner cette stratégie à un ou plusieurs de vos utilisateurs de tirer parti de l’applet de commande Grant-CsTeamsVideoInteropServicePolicy.
  
-- ** [Grant-CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** L’applet de commande Grant-CsTeamsVideoInteropServicePolicy permet d’affecter une stratégie construite préalable pour une utilisation dans votre organisation ou la stratégie à des utilisateurs spécifiques.
+- ** [Grant-CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** L’applet de commande Grant-CsTeamsVideoInteropServicePolicy permet d’affecter une stratégie construite préalable pour une utilisation dans votre organisation ou la stratégie à des utilisateurs spécifiques.
  
-- ** [Nouveau CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/new-csvideointeropserviceprovider):** Le nouveau-CsVideoInteropServiceProvider permet de spécifier des informations sur un partenaire CVI pris en charge que votre organisation souhaite utiliser.
+- ** [Nouveau CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** Le nouveau-CsVideoInteropServiceProvider permet de spécifier des informations sur un partenaire CVI pris en charge que votre organisation souhaite utiliser.
  
-- ** [Set-CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/set-csvideointeropserviceprovider):** Utiliser la Set-CsVideoInteropServiceProvider pour mettre à jour des informations sur un partenaire CVI pris en charge que votre organisation utilise.
+- ** [Set-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** Utiliser la Set-CsVideoInteropServiceProvider pour mettre à jour des informations sur un partenaire CVI pris en charge que votre organisation utilise.
  
-- ** [Get-CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/get-csvideointeropserviceprovider):** Obtenir tous les fournisseurs qui ont été configurés pour une utilisation au sein de l’organisation.
+- ** [Get-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/get-csvideointeropserviceprovider):** Obtenir tous les fournisseurs qui ont été configurés pour une utilisation au sein de l’organisation.
  
-- ** [Remove-CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csvideointeropserviceprovider):** Remove-CsVideoInteropServiceProvider permet de supprimer toutes les informations fournisseur sur un fournisseur que votre organisation n’utilise plus.  
+- ** [Remove-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/remove-csvideointeropserviceprovider):** Remove-CsVideoInteropServiceProvider permet de supprimer toutes les informations fournisseur sur un fournisseur que votre organisation n’utilise plus.  
  
 ## <a name="consent"></a>Consentement de l’utilisateur
 

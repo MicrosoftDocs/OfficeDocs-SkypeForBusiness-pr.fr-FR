@@ -1,28 +1,27 @@
 ---
-title: API de référentiel pour le tableau de bord (CQD) appel qualité dans Skype pour Business Server 2015
+title: API de référentiel pour l’appel de tableau de bord qualité (CQD) dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
-description: 'Résumé : Découvrez l’API de référentiel pour le tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 7881766de0daf05c85c7dfe8bb85a0ef1344c7c9
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Résumé : Découvrez l’API de référentiel pour le tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
+ms.openlocfilehash: de933063e5768b12af5ae8dc678ec7aa2da5f168
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294428"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530912"
 ---
-# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>API de référentiel pour le tableau de bord (CQD) appel qualité dans Skype pour Business Server 2015
+# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de référentiel pour l’appel de tableau de bord qualité (CQD) dans Skype pour Business Server
  
-**Résumé :** Découvrez l’API de référentiel pour le tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.
+**Résumé :** Découvrez l’API de référentiel pour le tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
   
-L’API de référentiel fournit l’accès par programme pour appeler le tableau de bord qualité pour Skype pour Business Server 2015.
+L’API de référentiel fournit l’accès par programme pour appeler le tableau de bord qualité pour Skype pour Business Server.
   
 ## <a name="repository-api-for-call-quality-dashboard"></a>API de référentiel pour le tableau de bord de qualité des appels
 

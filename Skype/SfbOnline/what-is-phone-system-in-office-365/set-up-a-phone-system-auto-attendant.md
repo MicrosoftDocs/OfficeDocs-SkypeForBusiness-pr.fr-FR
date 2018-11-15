@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer et tester les standards automatiques de système téléphonique (PBX nuage) pour efficace gestion des appels pour votre organisation. '
-ms.openlocfilehash: 41a4f7d3536e3a92104c98eaee057a47a21aeb9e
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 0bf312734c788e0bd02bc4fce40dbea4267850d4
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294572"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531577"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurer un standard automatique pour le système téléphonique
 
@@ -49,10 +49,9 @@ Si vous souhaitez en savoir plus sur les standards automatiques, voir [Quelles s
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Étape 2 : création d'un standard automatique
 
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+ **À l’aide les équipes Microsoft & Skype entreprise centre d’administration**
 
-
-Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage des appels** > **Standards automatiques**, puis cliquez sur **Ajouter nouveau**:
+Dans les **équipes Microsoft & Skype entreprise centre d’administration**, cliquez sur ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Portail hérité** >  **routage des appels** > **standards automatiques**, puis cliquez sur **+ Nouveau**:
 
 ### <a name="edit-general-info-page"></a>Page de modification des informations générales
 
@@ -77,11 +76,11 @@ Dans le **Centre d'administration de Skype Entreprise**, cliquez sur **Routage d
 ![Numéro 6](../images/sfbcallout6.png)<br/>**Opérateur** Cette option est facultative ne doit pas nécessairement être définie pour le standard automatique. Toutefois, vous pouvez définir l’option **opérateur** des personnes appellent pour sortir les menus de parler à une personne pour leur permettre de pouvoir. <br/> <br/> La touche 0 est automatiquement affectée à l'option Opérateur. <br/> <br/> Si vous configurer ce paramètre, vous devez également indiquer aux personnes qui appellent que ceci est une option disponible dans le **menu options d’édition** dans la page **Gestion des appels en heures** . Si vous définissez un opérateur pour le standard automatique, vous devrez entrer le texte du message correspondant dans la zone **appelants entendront** ou modifier votre fichier audio pour inclure cette option. Par exemple, « pour l’opérateur, appuyez sur zéro. » <br/><br/>  L'opérateur peut être défini comme suit : 
 *    **Personne de votre société** avec une licence de **Système téléphonique** qui est activée pour Enterprise Voice ou affectée Plans de l’appel dans Office 365. <br/>
 
-        > [!Note] 
-        > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013. Lync Server 2010 n’est pas pris en charge. <br/> 
+     > [!Note] 
+     > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013. Lync Server 2010 n’est pas pris en charge. <br/> 
 
-*    Une **file d'attente d'appels** que vous avez configurée. 
-*    Vous pouvez la configurer de manière qu'une personne appelant soit renvoyée sur la messagerie. Pour ce faire, sélectionnez la **personne de votre société** et définir les appels de cette personne à transférer directement vers la messagerie vocale. 
+* Une **file d'attente d'appels** que vous avez configurée. 
+* Vous pouvez la configurer de manière qu'une personne appelant soit renvoyée sur la messagerie. Pour ce faire, sélectionnez la **personne de votre société** et définir les appels de cette personne à transférer directement vers la messagerie vocale. 
 
 ### <a name="select-hours-of-operation-page"></a>Page de sélection des heures d'ouverture
 
@@ -105,14 +104,14 @@ Vous pouvez configurer le message d’accueil et invites menus que les personnes
 
 ***
 ![Numéro 1](../images/sfbcallout1.png)<br/>**Message d'accueil de l'entreprise** Le message d'accueil pendant les heures d'ouverture est facultatif et peut être défini sur **Aucun**. Dans ce cas, l'appelant n'entendra aucun message ou salutation avant le traitement de son appel par l'une des options sélectionnées. Vous pouvez également charger un fichier audio (au format .wav, mp3 ou .wma), ou créer un messager d'accueil personnalisé à l'aide de la synthèse vocale.
-*    **Aucun** Aucun message d’accueil ne sera lu quand personnes appellent au numéro de téléphone du standard automatique.
+* **Aucun** Aucun message d’accueil ne sera lu quand personnes appellent au numéro de téléphone du standard automatique.
 *    **Message d’accueil de créer un fichier personnalisé** Si vous choisissez cette option, entrez le texte que vous souhaitez que le système pour lire (1000 caractères maximum). Par exemple, vous pouvez entrer « Bienvenue dans Contoso. Votre appel est important pour nous. dans la zone **appelants** .
-*    **Télécharger un fichier audio** Si vous choisissez cette option, enregistrer le message d’accueil et puis téléchargez votre fichier audio (au format .wav, .mp3 ou .wma).
+* **Télécharger un fichier audio** Si vous choisissez cette option, enregistrer le message d’accueil et puis téléchargez votre fichier audio (au format .wav, .mp3 ou .wma).
 ***
 ![Numéro 2](../images/sfbcallout2.png)<br/>Vous pouvez sélectionner que se passe-t-il pour les appels qui arrivent pendant les heures ouvrées. Vous pouvez choisir parmi les options suivantes :
 * **Se déconnecter** Si vous l’activez, la personne l’appel sera déconnectée après audition un accueil pendant les heures.
 * **Rediriger un appel** Cela peut servir à envoyer automatiquement l’appel vers :
-  * **Personne de votre société** avec une licence de **Système téléphonique** qui est activée pour Enterprise Voice ou affectée Plans de l’appel dans Office 365. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour ce faire, sélectionnez la **personne de votre société** et définissez cette personne pour que leurs appels transférés directement vers la messagerie vocale. <br/><br/>   
+  * **Personne de votre société** avec une licence de **Système téléphonique** qui est activée pour Enterprise Voice ou affectée Plans de l’appel dans Office 365. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour ce faire, sélectionnez la **personne de votre société** et définissez cette personne pour que leurs appels transférés directement vers la messagerie vocale. <br/><br/>
     > [!Note]
     > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013. Lync Server 2010 n’est pas pris en charge. <br/><br/>
 
@@ -148,9 +147,9 @@ Pour configurer vos options de menu, une fois que vous sélectionnez le(s) clé(
     - Un autre **standard automatique** , vous pouvez utiliser un fichier automatique standard pour créer un second niveau d’options de menu qui contient un sous-menu. Il s’agit des standards automatiques imbriqués.<br/><br/>
 
         > [!Note]
-        > Les **heures d’ouverture** de standards automatiques imbriqués (ou de second niveau) seront également utilisé, y compris pour les appels envoyés à partir d’autres standards automatiques qui ont été définis.         
+        > Les **heures d’ouverture** de standards automatiques imbriqués (ou de second niveau) seront également utilisé, y compris pour les appels envoyés à partir d’autres standards automatiques qui ont été définis.
 
-### <a name="select-holidays-page"></a>Sélectionnez page de congés 
+### <a name="select-holidays-page"></a>Sélectionnez page de congés
 
 Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automatique.
 
@@ -160,9 +159,9 @@ Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automati
 ![Numéro 1](../images/sfbcallout1.png)<br/>**Ajouter un jour férié** Entrez un nom pour votre nouveau congé dans le champ **nom du congé** .<br/><br/> Noms des jours fériés peuvent contenir jusqu'à 64 caractères et doivent être unique pour le même standard automatique. Par exemple, vous ne pouvez pas de jours fériés nommés « Actiondegrâce » dans le même standard automatique.  
 ***
 ![Numéro 2](../images/sfbcallout2.png)<br/>**Message d’accueil de congé** Le message d’accueil du congé est facultatif et peut être définie sur **None**. Dans ce cas, l'appelant n'entendra aucun message ou salutation avant le traitement de son appel par l'une des options sélectionnées. Vous pouvez également charger un fichier audio (au format .wav, mp3 ou .wma), ou créer un messager d'accueil personnalisé à l'aide de la synthèse vocale.
-*    **Aucun** Aucun message d’accueil ne sera lu quand personnes appellent au numéro de téléphone du standard automatique.
-*    **Message d’accueil de créer un fichier personnalisé** Si vous choisissez cette option, entrez le texte que vous souhaitez que le système pour lire (1000 caractères maximum). Par exemple, vous pouvez entrer « bonne année ! Nos bureaux sont actuellement fermés. dans la zone **appelants** .
-*    **Télécharger un fichier audio** Si vous choisissez cette option, enregistrer le message d’accueil de congé et puis téléchargez votre fichier audio (au format .wav, .mp3 ou .wma).  
+* **Aucun** Aucun message d’accueil ne sera lu quand personnes appellent au numéro de téléphone du standard automatique.
+* **Message d’accueil de créer un fichier personnalisé** Si vous choisissez cette option, entrez le texte que vous souhaitez que le système pour lire (1000 caractères maximum). Par exemple, vous pouvez entrer « bonne année ! Nos bureaux sont actuellement fermés. dans la zone **appelants** .
+* **Télécharger un fichier audio** Si vous choisissez cette option, enregistrer le message d’accueil de congé et puis téléchargez votre fichier audio (au format .wav, .mp3 ou .wma).  
 ***
 ![Nombre 3](../images/sfbcallout3.png)<br/>**Que se passe-t-il pour les appels après le message d’accueil ?** Vous pouvez sélectionner que se passe-t-il pour les appels qui arrivent pendant cette période de congé. Vous pouvez choisir parmi les options suivantes :
 * **Se déconnecter** La personne qui appel sera déconnectée après avoir entendu le message d’accueil du congé.
@@ -180,9 +179,9 @@ Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automati
 
 ***
 ![Numéro 4](../images/sfbcallout4.png)<br/>**Quand souhaiterez-vous que le congé commence et finisse?** Entrez la date de début du congé au format jj/mm/aaaa, puis sélectionnez une heure de début, date de fin et l’heure de fin, à l’invite de la table de plage de date.<br/><br/>Vous pouvez spécifier jusqu'à 10 différentes plages de dates pour une période de congé. Par exemple, vous pouvez ajouter des plages de dates pour les jours fériés réveillon du nouvel an jusqu'à dix ans. Une période de congé peut s’étendre sur plusieurs jours.<br/><br/>Pour ajouter d’autres plages de jours fériés (par exemple, pour l’année suivante), cliquez sur **Ajouter un autre**, puis entrez un nouveau jeu de dates de début et de fin pour la période de congé.<br/><br/>Jours fériés imbriqués sont également pris en charge. Par exemple, vous pouvez imbriquer plusieurs congés dans un délai de « vacances » : 
-*    **24 décembre par le biais du 3 janvier :** « Bonnes vacances ! Nos bureaux sont actuellement fermés. Il s’ouvre à nouveau le 4 janvier. »
-*    ** 25 décembre : **     « Joyeux Noël ! Nos bureaux sont actuellement fermés. Il s’ouvre à nouveau le 4 janvier. »
-*    **Le 1er janvier :** « Heureuse année ! Nos bureaux sont actuellement fermés. Il s’ouvre à nouveau le 4 janvier. »
+* **24 décembre par le biais du 3 janvier :** « Bonnes vacances ! Nos bureaux sont actuellement fermés. Il s’ouvre à nouveau le 4 janvier. »
+* ** 25 décembre : **     « Joyeux Noël ! Nos bureaux sont actuellement fermés. Il s’ouvre à nouveau le 4 janvier. »
+* **Le 1er janvier :** « Heureuse année ! Nos bureaux sont actuellement fermés. Il s’ouvre à nouveau le 4 janvier. »
 
 Après avoir enregistré votre standard automatique, vos congés apparaissent sous l’onglet de **congés** , où vous pouvez modifier, ajouter ou modifier les paramètres de la période de congé.
 
@@ -205,7 +204,7 @@ Dans cette page, vous pouvez configurer les utilisateurs de votre organisation s
 * **Personnalisé** Si vous utilisez cette option, vous pouvez rechercher un groupe dans Office 365, liste de distribution ou un groupe de sécurité qui a été créé dans votre organisation, et tous les utilisateurs ajoutés à ce groupe d’Office 365, liste de distribution, ou groupes de sécurité seront exclus de la recherche dans l’annuaire. Vous pouvez ajouter plusieurs groupes d’Office 365, les listes de distribution et les groupes de sécurité. <br/><br/> 
 
   > [!Caution]
-  > Les utilisateurs locaux des déploiements de Lync Server 2010 ne s’affichera lorsqu’un utilisateur recherche l’annuaire à l’aide de la numérotation par nom.          
+  > Les utilisateurs locaux des déploiements de Lync Server 2010 ne s’affichera lorsqu’un utilisateur recherche l’annuaire à l’aide de la numérotation par nom.
 
 > [!NOTE]
 > Cela peut prendre jusqu'à 36 heures pour un nouvel utilisateur à leur nom apparaît dans le répertoire lorsqu’une personne utilise la numérotation par un nom pour la reconnaissance vocale. 
@@ -228,19 +227,18 @@ Vous pouvez également utiliser PowerShell Windows pour créer et configurer des
 
 Voici les applets de commande requis pour gérer un standard automatique.
 
-
-|                                                                                                                                                               |                                                                                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                   [Nouvelle CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx)                                    |                                [Nouvelle CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx)                                 |
-|                                   [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx)                                    |                              [Nouvelle CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx)                               |
-|                                   [Get-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx)                                    |    [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps)    |
-|                                  [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx)                                  |                                 [Nouvelle CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx)                                  |
-|                                         [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx)                                         |                               [Nouvelle CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx)                                |
-| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) |                                         [Nouvelle CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx)                                          |
-|                    [Nouvelle CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)                    |                                          [Nouvelle CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx)                                          |
-|                           [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx)                           |                        [Nouvelle CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx)                        |
-|                           [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx)                           | [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
-|                            [Nouvelle CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx)                             |                                                                                                                                                               |
+|| |
+|---  |---  |
+| [Nouvelle CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx) | [Nouvelle CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx) |
+| [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx) | [Nouvelle CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx) |
+| [Get-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx) | [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps) |
+| [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx) | [Nouvelle CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx) |
+| [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx) | [Nouvelle CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx) |
+| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) | [Nouvelle CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx) |
+| [Nouvelle CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) | [Nouvelle CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx) |
+| [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx) | [Nouvelle CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx) |
+| [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx) | [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
+| [Nouvelle CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx) | |
 
 ### <a name="more-about-windows-powershell"></a>Informations supplémentaires sur PowerShell Windows
 

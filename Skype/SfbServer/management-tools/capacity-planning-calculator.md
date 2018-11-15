@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Résumé : comment utiliser l’outil calculateur de capacité.'
-ms.openlocfilehash: bb17bc7b024900627318dd64b41249c21ff8488b
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: c55c42942ef14d7ec1904fb8b43340d6a2babb50
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295525"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533412"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype pour calculateur de planification de la capacité de serveur Business
  
@@ -26,7 +26,7 @@ ms.locfileid: "26295525"
 > - Skype pour Business Server 2019.
 > - Skype pour Business Server 2015.
   
-[Skype pour des capacités Business Server](https://www.microsoft.com/en-us/download/details.aspx?id=51196) augmente le [Skype pour l’outil de planification d’entreprise](https://www.microsoft.com/en-us/download/details.aspx?id=50357) et la documentation à [planifier votre Skype pour le déploiement de serveur d’entreprise](https://technet.microsoft.com/en-us/library/dn951427). Utilisez le calculateur après avoir consulté le guide et créé une topologie recommandée à l’aide de l’outil de planification.
+Le [Skype pour des capacités Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196) et [Skype pour des capacités Business Server 2019](https://www.microsoft.com/en-in/download/details.aspx?id=57510) augmentent la [Skype pour l’outil de planification d’entreprise](https://www.microsoft.com/en-us/download/details.aspx?id=50357) et la documentation de déploiement ([planifier votre Skype pour les entreprises Déploiement de serveur 2015](../plan-your-deployment/plan-your-deployment.md) et à [planifier votre Skype pour le déploiement de Business Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) respectivement). Utilisez le calculateur après avoir consulté le guide et créé une topologie recommandée à l’aide de l’outil de planification.
   
 Le Skype pour vous aide à capacités Business Server vous déterminez les besoins de serveur en fonction du nombre d’utilisateurs et les outils de communication que votre organisation utilise. Une fois que vous avez déterminé votre profil d’utilisateur et les fonctions que vous voulez activer pour vos utilisateurs, utilisez le calculateur pour déterminer le nombre de serveurs, la quantité de mémoire et la bande passante dont vous aurez besoin. Cette version du calculateur ne fournit pas de recommandations concernant les spécifications des E/S du disque.
   
@@ -36,13 +36,13 @@ Une fois que vous avez utilisé l’outil de planification et de la planificatio
   
 ## <a name="using-the-capacity-calculator"></a>Utilisation du calculateur de capacité
 
-Le calculateur est une feuille de calcul Microsoft Excel. Vos cellules d’entrée sont de couleur orange. Valeurs par défaut sont entrés dans les cellules (tel que 80 000 utilisateurs dans un pool avec douze serveurs frontaux), mais vous devez modifier ces valeurs pour répondre aux besoins de votre organisation. 
+Le calculateur est une feuille de calcul Microsoft Excel. Vos cellules d’entrée sont de couleur orange. Valeurs par défaut sont entrés dans les cellules (pour Skype pour Business Server 2015, 80 000 utilisateurs dans un pool avec douze serveurs frontaux, tandis que pour Skype pour Business Server 2019, 106 000 utilisateurs dans un pool de serveurs frontaux seize), mais vous devez modifier ces valeurs répondre aux besoins de votre organisation.
   
 Le modèle d’utilisation contient les sections suivantes. Pour calculer la capacité requise, entrez les données en suivant les instructions, en commençant par le haut de la feuille et en descendant ligne par ligne : 
   
  **Messagerie instantanée et présence**
   
-- Sous **Nombre d’utilisateurs**, tapez le nombre d’utilisateurs qui seront connectés simultanément. Ce nombre représente généralement 80 % du nombre total des utilisateurs approvisionnés. Le plus souvent, 100 % de vos utilisateurs simultanés seront activés pour la messagerie instantanée et la présence. La valeur par défaut est 80 000.
+- Sous **Nombre d’utilisateurs**, tapez le nombre d’utilisateurs qui seront connectés simultanément. Ce nombre représente généralement 80 % du nombre total des utilisateurs approvisionnés. Le plus souvent, 100 % de vos utilisateurs simultanés seront activés pour la messagerie instantanée et la présence. La valeur par défaut est 80 000 pour Skype pour Business Server 2015 et Skype pour Business Server 2019 106 000 utilisateurs.
     
 - **Nombre moyen de contacts dans la liste de contacts** indique le nombre de contacts utilisé pour valider votre configuration système. Ce nombre est fixe et n’est pas modifiable.
     
@@ -90,7 +90,7 @@ Lorsque vous avez entré toutes les informations nécessaires, les capacités es
     
 Les cellules vertes indiquent les recommandations pour le modèle d’utilisation que vous avez entré. 
   
-- **Serveurs frontaux total**: le nombre de serveurs physiques est basé sur des serveurs dédiés exécutant Skype pour Business Server avec biprocesseur, hexa-cœur, 2,260 mégacycles.
+- **Serveurs frontaux total**: le nombre de serveurs physiques est basé sur des serveurs dédiés exécutant Skype pour Business Server 2015 avec biprocesseur, hexa-cœur, avec 2,260 mégacycles ou Skype pour Business Server 2019 avec Intel Xeon E5-2673 v3, double processeur, hexa-cœur.
     
     Il est recommandé d’activer l’hyperthreading. Il a été démontré que cette technologie améliore les performances des serveurs prenant en charge le son et la vidéo.
     
@@ -110,8 +110,7 @@ Dans la ligne en regard de Nombre total de serveurs frontaux, des informations s
     
 ### <a name="adjusting-for-your-processors"></a>Ajustement de vos processeurs
 
-Tous les chiffres relatifs à l’utilisation du processeur dans la feuille de calcul partent du principe que chaque serveur est équipé d’un biprocesseur, hexa-cœur avec 2,26 GHz, 32 Go de mémoire au minimum, et 8 (ou plus) disques durs d’une vitesse de 10 000 RPM avec au moins 72 Go d’espace disponible. 
+Toutes les statistiques d’utilisation du processeur dans la feuille de calcul partent du principe que chaque Skype pour serveur Business Server 2015 a biprocesseur, hexa-cœur, 2,26 GHz, au moins 32 Go de mémoire, et libérer 8 ou plus de 10 000 RPM des disques durs avec au moins 72 Go d’espace disque. Pour chaque Skype pour serveur Business Server 2019, toutes les statistiques d’utilisation du processeur dans la feuille de calcul partent du principe que chaque serveur possède un biprocesseur, hexa-cœur avec Intel Xeon E5-2673 v3, au moins 64 Go de mémoire, et 8 ou plus de 10 000 RPM des disques durs avec au moins 72 Go libre s de disque rythme.
   
 Si vos serveurs ont d’autres processeurs, vous pouvez modifier les chiffres pour les adapter à votre matériel.
   
-

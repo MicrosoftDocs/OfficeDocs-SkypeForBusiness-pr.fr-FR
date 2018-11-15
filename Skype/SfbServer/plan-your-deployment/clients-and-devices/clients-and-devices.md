@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Résumé : clients et applications pris en charge pour Skype Entreprise.'
-ms.openlocfilehash: 63981e9fbdc19eeeebc6b19b37f51f901a9493a2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293655"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530812"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planifier des clients et des appareils
 
@@ -84,7 +84,7 @@ Skype Room System v2 est la solution de conférence la plus récente de Micro
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype Entreprise sur Surface Hub
 
-Microsoft Surface Hub est un périphérique de productivité tout-en-un destiné aux séances de réflexion, à la collaboration et aux présentations. Il dispose de sa propre version du client Skype Entreprise, documentée dans le [Guide d’administration de Microsoft Surface Hub](https://docs.microsoft.com/en-us/surface-hub/).
+Microsoft Surface Hub est un périphérique de productivité tout-en-un destiné aux séances de réflexion, à la collaboration et aux présentations. Il dispose de sa propre version du client Skype Entreprise, documentée dans le [Guide d’administration de Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
 
 ## <a name="choosing-your-organizations-preferred-client"></a>Choisir le client préféré de votre organisation
 <a name="BK_client_choose"> </a>
@@ -139,7 +139,7 @@ MSI est une méthode d'installation plus traditionnelle, utilisée sur les clien
 
 Skype Entreprise Server 2019 et Skype Entreprise Online prennent en charge les versions précédentes des clients suivantes : Skype Entreprise 2016, Skype Entreprise 2015 et Lync 2013.
 
-Skype Entreprise Server 2015 prend en charge les versions précédentes des clients suivantes: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Lync 2010 Attendant. Pour plus d'informations sur ces clients lorsqu'ils sont utilisés avec d’autres serveurs, reportez-vous aux [tableaux de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et [tableaux de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+Skype Entreprise Server 2015 est compatible avec les clients précédemment lancés : Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Intendant Lync 2010. Pour plus d'informations sur ces clients lorsqu'ils sont utilisés avec d’autres serveurs, reportez-vous aux [tableaux de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et [tableaux de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## <a name="client-system-requirements"></a>Configuration requise pour le client

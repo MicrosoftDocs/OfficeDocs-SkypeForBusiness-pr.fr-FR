@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez comment configurer un contrôleur de Session bordure (SBC) pour prendre en charge plusieurs clients.
-ms.openlocfilehash: 292a3e675455d112fdade04018e670b9a5f9c38f
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295743"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532823"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de Session en périphérie pour plusieurs locataires
 
@@ -56,7 +56,7 @@ Voici les étapes de mise en œuvre technique pour configurer le scénario.
 Pour obtenir les étapes détaillées sur la façon de déployer et configurer SBC pour un scénario d’hébergement SBC, reportez-vous à la documentation de SBC.
 
 - **AudioCodes :** [Notes de Configuration de routage direct](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuration de la SBC hébergeant le scénario décrit dans « Connexion AudioCodes SBC à Microsoft Teams Direct routage hébergement modèle Configuration Note ». 
-- **Communications de ruban :**  Reportez-vous au [Guide de Configuration du ruban Communications SBC principaux Microsoft équipes](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) pour la documentation sur la configuration du ruban principal série SBCs et à cette page [ruban meilleures conseillée - opérateurs de configuration pour le routage Direct des équipes Microsoft SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Communications de ruban :**  Reportez-vous au [Guide de Configuration du ruban Communications SBC principaux Microsoft équipes](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) pour la documentation sur la configuration du ruban principal série SBCs et à cette page [conseillée ruban - configuration d’opérateurs de SBC de routage Direct Microsoft équipes Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > Prêtez attention à la configuration de l’en-tête « Contacts ». L’en-tête de Contact est utilisé pour trouver le client du client sur le message invite entrant. 
@@ -127,7 +127,7 @@ Pour plus d’informations sur les rôles d’administrateur et comment affecter
 
 ### <a name="activate-the-domain-name"></a>Activer le nom de domaine
 
-Une fois que vous avez enregistré un nom de domaine, vous devez l’activer en ajoutant au moins un utilisateur et attribuer une adresse SIP avec la partie nom de domaine complet de l’adresse SIP correspondant à ce domaine de base créé.
+Une fois que vous avez enregistré un nom de domaine, vous devez l’activer en ajoutant au moins un E1, E3, ou E5 sous licence utilisateur et attribution d’une adresse SIP avec la partie nom de domaine complet du SIP d’adresse correspondant à ce domaine de base créé. 
 
 *Consultez [obtenir de l’aide avec les domaines d’Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) pour plus d’informations sur l’ajout d’utilisateurs dans les clients Office 365.*
 

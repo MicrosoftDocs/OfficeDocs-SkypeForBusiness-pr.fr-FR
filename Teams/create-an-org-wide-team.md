@@ -2,6 +2,7 @@
 title: Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
+ms.reviewer: phlouie
 manager: serdars
 ms.date: 09/27/2018
 ms.topic: article
@@ -12,23 +13,23 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ef4426e2dca1a6ce20657e3e7480b9ee118bfa1
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3980a73c817b83466c8c93c29fb60e7e20f4df48
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296278"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532808"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
 Les équipes à l’échelle de l’organisation offrent un moyen automatique pour tout le monde dans une petite ou moyenne organisation soit une partie d’une équipe unique pour la collaboration. 
  
-Avec les équipes à l’échelle de l’organisation, les administrateurs globaux peuvent créer facilement une équipe publique qui extrait tous les utilisateurs de l’organisation et conserve l’appartenance à jour avec Active Directory en tant qu’utilisateurs join et laissez l’organisation. Seuls les administrateurs globaux peuvent créer des équipes à l’échelle de l’organisation et actuellement une équipe à l’échelle de l’organisation est limitée aux organisations comptant pas plus de 1 000 utilisateurs. Si ces conditions sont remplies, les administrateurs voir **à l’échelle de l’organisation** comme option de **confidentialité** lors de la création d’une équipe.
+Avec les équipes à l’échelle de l’organisation, les administrateurs globaux peuvent créer facilement une équipe publique qui extrait tous les utilisateurs de l’organisation et conserve l’appartenance à jour avec Active Directory en tant qu’utilisateurs join et laissez l’organisation. Seuls les administrateurs globaux peuvent créer des équipes à l’échelle de l’organisation et actuellement une équipe à l’échelle de l’organisation est limitée aux organisations comptant pas plus de 2 500 utilisateurs. Si ces conditions sont remplies, les administrateurs voir **à l’échelle de l’organisation** comme option de **confidentialité** lors de la création d’une équipe.
 
 ![Capture d’écran de l’option d’échelle de l’organisation pour créer une équipe à l’échelle de l’organisation] (media/create-org-wide-team.png "Capture d’écran de l’option d’échelle de l’organisation pour créer une équipe à l’échelle de l’organisation")
 
 > [!NOTE]
-> Si vous ne voyez pas l’option **d’échelle de l’organisation** lors de la création d’une équipe et que vous êtes un administrateur global, la fonctionnalité peut toujours être présentant ou votre organisation peut avoir plus de la limite de taille de 1 000 membres. Nous recherchons pour augmenter cette limite à l’avenir.
+> Si vous ne voyez pas l’option **d’échelle de l’organisation** lors de la création d’une équipe et que vous êtes un administrateur global, la fonctionnalité peut toujours être présentant ou votre organisation peut avoir plus de la limite de taille de 2 500 membres. Nous recherchons pour augmenter cette limite à l’avenir.
 
 Lors de la création d’une équipe à l’échelle de l’organisation, les administrateurs globaux sont ajoutés en tant que les propriétaires de l’équipe et tous les utilisateurs actifs sont ajoutés en tant que membres de l’équipe. Les utilisateurs qui sont désactivés pour les équipes, les utilisateurs invités et la plupart des salles ne sont pas ajoutés à l’équipe. Annuaire de votre organisation est mis à jour pour inclure les nouveaux utilisateurs actifs, ou si les utilisateurs ne fonctionnent plus dans votre société et sa licence équipes est désactivée, les modifications sont automatiquement synchronisés et les utilisateurs sont ajoutés ou supprimés de l’équipe. Membres de l’équipe ne peut pas quitter une équipe à l’échelle de l’organisation. En tant que propriétaire de l’équipe, vous pouvez manuellement ajouter ou supprimer des utilisateurs si nécessaire.
 

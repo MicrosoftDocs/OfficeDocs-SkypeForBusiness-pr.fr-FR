@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Présentation de l’utilisation de Skype pour Business Online outils de télémétrie pour surveiller une implémentation sur site dans un scénario hybride.
-ms.openlocfilehash: e9039d3865e3baf5740f4f7489b1a7cfec6dea98
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: d704f23f9b8260e8d755c4d1f0f48da927859ba1
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295174"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530534"
 ---
 # <a name="plan-call-data-connector"></a>Planifier le connecteur de données d’appel
 
@@ -46,7 +46,7 @@ Les outils CQD Analytique d’appel permettent de surveiller la qualité des app
 
 - Tableau de bord qualité appel se concentre sur les performances réseau et problèmes à travers une organisation. Skype pour les administrateurs et les ingénieurs réseau utiliser cet outil pour résoudre les problèmes et optimiser les performances réseau.
 
-Pour plus d’informations, voir [Analytique d’appel et appel du tableau de bord qualité](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
+Pour plus d’informations, voir [Analytique d’appel et appel du tableau de bord qualité](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
 
 Bien sûr, vous pouvez souhaiter conserver des données de qualité d’appel sur site. Ce peut être le cas, par exemple, si vous utilisez une solution tierce avec flux de travail et des rapports personnalisés.  Connecteur de données d’appel permet de configurer le service online envoie des données tout en gardant une copie des données sur votre serveur local, comme illustré dans le diagramme suivant :
 
@@ -55,7 +55,7 @@ Bien sûr, vous pouvez souhaiter conserver des données de qualité d’appel su
 
 ## <a name="requirements"></a>Conditions requises
 
-Les conditions suivantes supposent que vous avez déjà Skype pour Business Server déployé dans une topologie prise en charge.  Pour plus d’informations sur le déploiement de Skype pour Business Server et les topologies prises en charge, voir [Les concepts de topologie](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Pour configurer le connecteur de données d’appel, vous devez :
+Les conditions suivantes supposent que vous avez déjà Skype pour Business Server déployé dans une topologie prise en charge.  Pour plus d’informations sur le déploiement de Skype pour Business Server et les topologies prises en charge, voir [Les concepts de topologie](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Pour configurer le connecteur de données d’appel, vous devez :
 
 - Activer la connectivité hybride. Si vous avez déjà Skype pour Business Server est déployé et que vous souhaitez activer le connecteur de données d’appel, vous devez vous assurer que vous disposez de connectivité hybride entre votre organisation locale et environnements en ligne. Il est parfois appelée une configuration de domaine fractionné. 
 

@@ -14,13 +14,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 'Résumé : Découvrez la nouvelle Skype pour les entreprises et les étapes à suivre pour préparer votre environnement et vos utilisateurs pour la mise à jour, si vous utilisez Skype pour Business Online, Skype pour Business Server 2015, Skype pour Business Server 2015, Lync Server 2013, ou Lync Server 2010.'
-ms.openlocfilehash: 99a1be886c257c58f007b42ee549b31a2340721a
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Résumé : Découvrez la nouvelle Skype pour les entreprises et les étapes à suivre pour préparer votre environnement et vos utilisateurs pour la mise à jour, si vous utilisez Skype pour Business Online, Skype pour Business Server 2019, Skype pour Business Server 2015, Lync Server 2013, ou Lync Server 2010.'
+ms.openlocfilehash: 351582e7a7619541d5401acfb46854f61c9e052d
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294626"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531166"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planifier la Skype pour l’expérience client Business 2015 pour vos utilisateurs
  
@@ -120,11 +120,11 @@ Il s’agit de l’expérience par défaut lorsque le Skype pour client d’entr
 ## <a name="use-the-lync-client-experience-with-skype-for-business-server-on-premises"></a>Utilisation de l’expérience client Lync avec Skype Entreprise Server en local
 <a name="LyncwithSfBServer"> </a>
 
-Suivez les étapes décrites dans cette section si vous souhaitez configurer l’expérience du client Lync dans un Skype sur site pour le déploiement de Business Server 2015.
+Suivez les étapes décrites dans cette section si vous souhaitez configurer l’expérience du client Lync dans un Skype sur site pour le déploiement de serveur d’entreprise.
   
 Suivez la procédure décrite dans cette section si vous voulez configurer l’expérience client Skype dans un déploiement local. L’expérience par défaut est le mode en local.
   
- **Étape 1 :** Tout d’abord, déployez Skype pour Business Server 2015.
+ **Étape 1 :** Tout d’abord, déployez Skype pour Business Server.
   
  **Étape 2 :** Ensuite, utilisez une stratégie de client pour définir l’expérience du client Lync avec le Skype pour client d’entreprise. Il existe **trois options** pour utiliser une stratégie client afin de définir l’expérience client.
   

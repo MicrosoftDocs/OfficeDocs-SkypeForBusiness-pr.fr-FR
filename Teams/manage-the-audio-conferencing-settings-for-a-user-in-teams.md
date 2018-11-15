@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "En tant qu’administrateur d’Office 365, vous pouvez modifier les paramètres d’audioconférence Microsoft Teams tels que le fournisseur, le numéro payant ou gratuit par défaut, l’ID de conférence ou le code confidentiel d'un utilisateur dans votre organisation. "
-ms.openlocfilehash: 0be1276bbcba42cdf2b38c4ec1e54845608824e6
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 61b0cf5db964af19001069318f275ac237012cb4
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296187"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532087"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence d'un utilisateur dans Microsoft Teams
 
-En tant qu’administrateur Office 365, vous pouvez modifier les paramètres d’Audioconférence, tels que le fournisseur, le numéro payant ou gratuit par défaut, l’identifiant de conférence ou le code confidentiel — pour un utilisateur individuel dans votre organisation. Si vous souhaitez modifier les paramètres pour votre organisation, reportez-vous à la section [Gérer les paramètres d’audioconférence pour mon organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
+En tant qu’administrateur Office 365, vous pouvez modifier les paramètres d’Audioconférence, tels que le fournisseur, le numéro payant ou gratuit par défaut, l’identifiant de conférence ou le code confidentiel — pour un utilisateur individuel dans votre organisation. Si vous souhaitez modifier les paramètres de votre organisation, voir [Gérer les paramètres de conférence Audio pour votre organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
 ## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de Skype les équipes Microsoft Business centre d’administration
 
@@ -58,6 +58,6 @@ En tant qu’administrateur Office 365, vous pouvez modifier les paramètres d�
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Gestion des paramètres d'audioconférence de mon organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+[Gérer les paramètres de conférence Audio pour votre organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
 [Questions fréquentes à propos de l'audioconférence](audio-conferencing-common-questions.md)

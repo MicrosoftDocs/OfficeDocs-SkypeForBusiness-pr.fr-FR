@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ba794c49543740c2b436320d6639454ffb447659
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295332"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532277"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -31,7 +31,7 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Stratégie EAF dans le Enhanced atténuation expérience Toolkit (EMET) peut identifier incorrectement optimisations de bac à sable chrome comme des menaces. <br/> |Il existe un problème avec un bac à sable chrome dans laquelle la stratégie exporter adresse Table Access filtrage (EAF) dans le Enhanced atténuation expérience Toolkit (EMET) peut identifier incorrectement optimisations de bac à sable chrome comme des menaces. Cela empêche les onglets dans l’affichage web équipes de rendu correct. <br/> | Désactiver les lignes directrices Englobent de Chrome. Vous pouvez en savoir plus sur le problème [instructions des facteurs atténuants EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) <br/> |10/11/18 <br/> |
+|Stratégie EAF dans le Enhanced atténuation expérience Toolkit (EMET) peut identifier incorrectement optimisations de bac à sable chrome comme des menaces. <br/> |Il existe un problème avec le bac à sable chrome dans laquelle la stratégie exporter adresse Table Access filtrage (EAF) dans le Enhanced atténuation expérience Toolkit (EMET) et dans le module Windows Defender Advanced Threat Protection (DAV) peut identifier incorrectement sandbox de chrome optimisations comme des menaces. Ainsi, les équipes ne fonctionne ne pas correctement.  <br/> | Pour contourner ce problème, désactiver EAF pour les équipes. Vous pouvez en savoir plus sur le problème [instructions des facteurs atténuants EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) pour plus d’informations sur Windows Defender DAV et lignes directrices Englobent la stratégie, voir [Personnaliser protection contre les risques](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |10/11/18 <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|

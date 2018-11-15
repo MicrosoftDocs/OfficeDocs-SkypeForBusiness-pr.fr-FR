@@ -26,12 +26,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: b18c4d3f04cab78b48039bcd33dae00a960132ea
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: eaac8426677268e526f622b477caff062d81deef
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293753"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533197"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise
 
@@ -71,9 +71,9 @@ Vous devez disposer des [autorisations d’administrateur](https://support.offic
     
 7. Si vous utilisez le pare-feu Windows, Skype Entreprise ouvre automatiquement les ports nécessaires.
     
-    Si votre organisation utilise un pare-feu différent pour restreindre l'accès à Internet des ordinateurs de votre réseau, assurez-vous que vos ordinateurs clients peuvent accéder aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) suivants. Vous devrez peut-être ajouter des noms de domaines complets pour la sortie autorisés dans votre pare-feu ou votre proxy de configuration de l’infrastructure : ** \*. api.skype.com**, \* **. users.storage.live.com**et **graph.skype.com**. Pour obtenir des instructions sur la façon d’ouvrir ces ports sur votre pare-feu, consultez la documentation fournie avec ce dernier.
+    Si votre organisation utilise un pare-feu différent pour restreindre l'accès à Internet des ordinateurs de votre réseau, assurez-vous que vos ordinateurs clients peuvent accéder aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) suivants. Vous devrez peut-être ajouter des noms de domaines complets pour la sortie autorisés dans votre pare-feu ou votre proxy de configuration de l’infrastructure : ** \*. api.skype.com**, \* **. users.storage.live.com**et **graph.skype.com**. Pour obtenir des instructions sur la façon d’ouvrir ces ports sur votre pare-feu, consultez la documentation fournie avec ce dernier.
     
-    Pour obtenir la liste de tous les ports à ouvrir, consultez [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+    Pour obtenir la liste de tous les ports à ouvrir, consultez [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
 
 8. Assurez-vous que l’administrateur de l’organisation a également suivi ces étapes.
     
@@ -84,7 +84,7 @@ Vous devez disposer des [autorisations d’administrateur](https://support.offic
 ## <a name="test-and-troubleshoot"></a>Test et dépannage
 <a name="bk_preview"> </a>
 
- **Le problème que les utilisateurs rencontrent le plus souvent lors de la configuration de la communication entre entreprises est lié aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).**
+ **Le problème que les utilisateurs rencontrent le plus souvent lors de la configuration de la communication entre entreprises est lié aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).**
   
 Pour tester votre configuration, vous devez disposer d'un contact Skype Entreprise qui ne soit pas situé derrière le pare-feu de votre entreprise.
   
@@ -92,7 +92,7 @@ Pour tester votre configuration, vous devez disposer d'un contact Skype Entrepri
     
 2. Dans Skype Entreprise, recherchez votre contact dans Skype Entreprise et envoyer une demande de discussion.
     
-    Si vous recevez un message qui est n’a pas pu être envoyée en raison de la stratégie d’entreprise, vous devez vérifier votre [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+    Si vous recevez un message qui est n’a pas pu être envoyée en raison de la stratégie d’entreprise, vous devez vérifier votre [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
     
 3. Demandez à votre contact Skype Entreprise de vous envoyer une demande de discussion. Si vous ne la recevez pas, le problème se situe au niveau de vos paramètres de pare-feu (en supposant que votre contact a confirmé que ses paramètres sont corrects).
     

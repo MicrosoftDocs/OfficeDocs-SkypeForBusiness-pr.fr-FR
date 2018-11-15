@@ -1,28 +1,27 @@
 ---
-title: API de données pour le tableau de bord (CQD) appel qualité dans Skype pour Business Server 2015
+title: API de données pour l’appel de tableau de bord qualité (CQD) dans Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: 'Résumé : Découvrez l’API Rata pour le tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: e48d1a6719f77e5f91167aa76ce4f58704883fc9
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Résumé : Découvrez l’API Rata pour le tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
+ms.openlocfilehash: 0af168c46e8b2732d5c967550391ab52459ddf95
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293845"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531756"
 ---
-# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>API de données pour le tableau de bord (CQD) appel qualité dans Skype pour Business Server 2015
+# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de données pour l’appel de tableau de bord qualité (CQD) dans Skype pour Business Server
  
-**Résumé :** Découvrez l’API Rata pour le tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.
+**Résumé :** Découvrez l’API Rata pour le tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
   
-L’API de données fournit l’accès par programme pour appeler le tableau de bord qualité pour Skype pour Business Server 2015.
+L’API de données fournit l’accès par programme pour appeler le tableau de bord qualité pour Skype pour Business Server.
   
 ## <a name="data-api-for-call-quality-dashboard"></a>API de données pour le tableau de bord de qualité des appels
 

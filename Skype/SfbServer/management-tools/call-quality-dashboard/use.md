@@ -1,26 +1,25 @@
 ---
-title: Utiliser le Tableau de bord de la qualité des appels pour Skype Entreprise Server 2015
+title: Utiliser le tableau de bord appel qualité pour Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 'Résumé : Découvrez comment utiliser le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 2aafd5c92a6b0b7a7985c76a20c9377fce44a5e7
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Résumé : Découvrez comment utiliser le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
+ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294897"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533426"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server-2015"></a>Utiliser le Tableau de bord de la qualité des appels pour Skype Entreprise Server 2015
+# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Utiliser le tableau de bord appel qualité pour Skype pour Business Server
  
-**Résumé :** Découvrez comment utiliser le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.
+**Résumé :** Découvrez comment utiliser le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
   
 Le Tableau de bord de la qualité des appels permet aux professionnels de l’informatique d’utiliser des données agrégées pour identifier des secteurs cibles dans leur environnement rencontrant des problèmes de qualité multimédia. Il permet à un professionnel de l’informatique de comparer des statistiques de différents groupes d’utilisateurs et d’identifier des tendances et modèles. Le tableau n’est pas utilisé pour résoudre des problèmes d’appel spécifiques, mais pour identifier les problèmes et les solutions qui concernent de nombreux utilisateurs dans un environnement donné.
   

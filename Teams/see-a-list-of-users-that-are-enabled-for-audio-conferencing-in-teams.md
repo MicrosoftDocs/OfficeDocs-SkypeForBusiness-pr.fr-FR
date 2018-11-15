@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment afficher la liste des utilisateurs dans votre organisation pour lesquels la conférence rendez-vous est activée dans Microsoft Teams. '
-ms.openlocfilehash: a05aa000b2289499c030ac564a5f09eeefdd865a
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 47e8f6879a16f9ee56e9050a07764800d4dba12b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296350"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533110"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Afficher la liste des utilisateurs pour lesquels l'audioconférence est activée dans Microsoft Teams
 
-Une fois que vous avez activé la fonction d’audioconférence pour les utilisateurs de votre organisation, vous pouvez afficher la liste de ces utilisateurs. Lorsque vous consultez la liste, vous découvrez également pour chaque utilisateur le type de fournisseur de services de d’audioconférence qu’il utilise, le numéro par défaut qu’il doit composer et si des ID de conférence dynamiques sont activés pour votre organisation, ainsi que les ID de conférence statiques des réunions d’audioconférence qu'il organise.
+Une fois que vous avez activé les utilisateurs de Microsoft Teams dans votre organisation pour une audioconférence, vous pouvez afficher la liste des utilisateurs qui ont été activés. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -41,12 +41,9 @@ Une fois que vous avez activé la fonction d’audioconférence pour les utilisa
 
 ## <a name="what-else-should-i-know"></a>Informations supplémentaires
 
-- Lorsque vous affichez la liste des utilisateurs activés, vous pouvez sélectionner un utilisateur et modifier ses paramètres d’audioconférence.
+- Lorsque vous affichez la liste des utilisateurs sont activés, vous pouvez sélectionner un utilisateur dans la liste pour modifier les paramètres de conférence audio pour cet utilisateur.
     
-- Lorsque vous sélectionnez un utilisateur unique configuré pour utiliser Microsoft comme fournisseur de services d’audioconférence, vous pouvez afficher le numéro de téléphone par défaut et voir si des ID de conférence dynamiques sont activés pour votre organisation, et également réinitialiser l'ID de conférence des réunions que l'utilisateur organise.
-    
-- Lorsque vous sélectionnez un utilisateur unique configuré pour utiliser un fournisseur de services d’audioconférence tiers, vous pouvez afficher le nom du fournisseur, le numéro de téléphone payant et le numéro de téléphone gratuit (si ces paramètres sont configurés).
-    
+- Lorsque vous sélectionnez un utilisateur unique, vous pouvez afficher le numéro de téléphone par défaut affecté à l’utilisateur et les autres paramètres de conférence audio pertinents.    
    
 - Vous pouvez utiliser le bouton Rechercher pour rechercher un utilisateur dans la liste.
     

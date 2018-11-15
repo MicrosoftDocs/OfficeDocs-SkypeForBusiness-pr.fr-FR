@@ -3,24 +3,23 @@ title: Obtenir les membres de Dimension
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
-description: 'Résumé : Découvrez l’opération obtenir les membres de Dimension. L’opération obtenir les membres de Dimension fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.'
-ms.openlocfilehash: 6d3f5f30ccb3b79aabe9faa37f7c960b846ef0cd
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Résumé : Découvrez l’opération obtenir les membres de Dimension. L’opération obtenir les membres de Dimension fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
+ms.openlocfilehash: 4c53e809d13b1ceb386c6727805402be9dfaf7f8
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295961"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532986"
 ---
 # <a name="get-dimension-members"></a>Obtenir les membres de Dimension
  
-**Résumé :** Obtenir des informations sur l’opération obtenir les membres de Dimension. L’opération obtenir les membres de Dimension fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server 2015.
+**Résumé :** Obtenir des informations sur l’opération obtenir les membres de Dimension. L’opération obtenir les membres de Dimension fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
   
 L’opération obtenir les membres de Dimension fait partie de l’API de données pour le tableau de bord qualité des appels.
   

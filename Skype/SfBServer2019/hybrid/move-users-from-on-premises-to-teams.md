@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Résumé : Découvrez comment migrer les paramètres utilisateur et de déplacer les utilisateurs à des équipes.'
-ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: af0867bfdc2e12a248baf7cc07746845154d27fd
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293564"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533140"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Déplacer les utilisateurs locaux vers des équipes
 
@@ -79,7 +79,7 @@ Si vos utilisateurs locaux ont vocal sur site, vous avez deux options :
 -  **Migrer des utilisateurs grâce à des fonctionnalités de téléphonie.** Les utilisateurs peuvent émettre et recevoir des appels à l’aide du client équipes.  Vous pouvez choisir Microsoft appelant planifier ou routage Direct pour connecter les services de téléphonie aux équipes.  
 
     -  Appel de Plan de Microsoft fournit une solution vocale tout-en nuage. Pour plus d’informations sur l’appel de Plan de Microsoft, voir (lien bientôt disponible). 
-    -  Routage direct vous permet d’utiliser pratiquement n’importe quel jonction PSTN, et vous pouvez configurer l’interopérabilité entre équipement téléphonique appartenant à un client et le système téléphonique de Microsoft.  Pour plus d’informations, voir [Planifier le routage Direct](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan) et [Configurer le routage Direct](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-configure).
+    -  Routage direct vous permet d’utiliser pratiquement n’importe quel jonction PSTN, et vous pouvez configurer l’interopérabilité entre équipement téléphonique appartenant à un client et le système téléphonique de Microsoft.  Pour plus d’informations, voir [Planifier le routage Direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan) et [Configurer le routage Direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-configure).
 
 -  **Migrer les utilisateurs sans fonctionnalités de téléphonie.** Si vous migrez des utilisateurs sans conserver les fonctionnalités de téléphonie, assurez-vous que les utilisateurs ont des licences appropriés dans le nuage. 
 
@@ -100,7 +100,7 @@ Move-CsUser -Identity user0 -Target sipfed.online.lync.com -moveToTeams -credent
 ($cred = get-informations d’identification. Vous devez fournir les informations d’identification d’administration Office 365.)
 
 > [!NOTE]
-> Cette commande définit la TeamsInteropPolicy aux équipes et définit le TeamsUpgradePolicy en mode TeamsOnly. 
+> Cette commande définit la TeamsUpgradePolicy en mode TeamsOnly. 
  
 Après que le déplacement aux équipes se déroule correctement, Skype l’utilisateur pour client Business affichera le message suivant : 
 

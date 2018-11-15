@@ -1,9 +1,8 @@
 ---
-title: Planifier pour le tableau de bord qualité appel Skype pour Business Server 2015
+title: Planifier pour le tableau de bord qualité appel Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/27/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,20 +10,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Résumé : Découvrez les éléments à prendre en compte lorsque vous planifiez le tableau de bord qualité des appels.'
-ms.openlocfilehash: 05411bb62e36350dc9109ca0f8b9d74fc0541946
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6df705b4d3b39bdd9f75d328277d9aa1c5fc23d1
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296056"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531232"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server-2015"></a>Planifier pour le tableau de bord qualité appel Skype pour Business Server 2015
+# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planifier pour le tableau de bord qualité appel Skype pour Business Server 
  
 **Résumé :** Découvrez les éléments à prendre en compte lorsque vous planifiez le tableau de bord qualité des appels.
   
-## <a name="overview-of-the-skype-for-business-server-2015-call-quality-dashboard"></a>Vue d’ensemble de la Skype pour le tableau de bord qualité Business Server 2015 appel
+## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>Vue d’ensemble de la Skype pour le tableau de bord qualité Business Server appel
 
-Le Skype pour Business Server 2015 appeler qualité du tableau de bord (CQD) est une couche de création de rapports sur la qualité de l’expérience de base de données dans le serveur de surveillance dans Skype pour Business Server 2015 et Lync Server 2013. CQD utilise Microsoft SQL Server Analysis Services pour fournir l’utilisation d’agrégat et informations sur la qualité ainsi que pour le filtrage et pivotant sur le jeu de données d’appel. Fonctionnalités CQD sont les suivantes :
+Le Skype pour le module Business Server appeler qualité du tableau de bord (CQD) est une couche de création de rapports sur la qualité de l’expérience de base de données dans le serveur de surveillance dans Skype pour Business Server. CQD utilise Microsoft SQL Server Analysis Services pour fournir l’utilisation d’agrégat et informations sur la qualité ainsi que pour le filtrage et pivotant sur le jeu de données d’appel. Fonctionnalités CQD sont les suivantes :
   
 - **Archivage des données de QoE via le composant QoE Archive de CQD.** Le composant QoE Archive peut stocker les données QoE beaucoup plus longtemps que le serveur de surveillance peut. Ainsi, pour l’analyse des tendances et création de rapports pour jusqu'à sept mois de données à la fois, avec la possibilité de la fenêtre de création de rapports autant back que la diapositive donnée.
     
@@ -82,7 +81,7 @@ Les données CQD peuvent être visionnées via le portail CQD et accessibles par
   
 ### <a name="cqd-portal"></a>Portail CQD
 
-Le portail est le moyen le plus rapide pour afficher les données dans le Cube. Le portail est livré avec plusieurs rapports intégrés qui sont utilisables immédiatement. Les rapports intégrés sont liées de manière structurée pour guider l’utilisateur à successivement les plus petits segments de données d’appel. Les rapports intégrés également en surbrillance les différentes méthodes que les données peuvent être affichées en montrant une combinaison des graphiques et des tableaux avec différents tableaux croisés dynamiques, des filtres et des mesures. Chaque utilisateur qui accède au portail peut avoir son propre ensemble de rapports qui il peut modifier et partager. Pour plus d’informations sur l’utilisation du portail Web CQD, voir [Utilisation d’appel qualité de tableau de bord pour Skype pour Business Server 2015](use.md).
+Le portail est le moyen le plus rapide pour afficher les données dans le Cube. Le portail est livré avec plusieurs rapports intégrés qui sont utilisables immédiatement. Les rapports intégrés sont liées de manière structurée pour guider l’utilisateur à successivement les plus petits segments de données d’appel. Les rapports intégrés également en surbrillance les différentes méthodes que les données peuvent être affichées en montrant une combinaison des graphiques et des tableaux avec différents tableaux croisés dynamiques, des filtres et des mesures. Chaque utilisateur qui accède au portail peut avoir son propre ensemble de rapports qui il peut modifier et partager. Pour plus d’informations sur l’utilisation du portail Web CQD, voir [Utilisation d’appel qualité de tableau de bord pour Skype pour Business Server](use.md).
   
 Prise en charge des systèmes d’exploitation pour CQD Portal : Windows 8.1, Windows 8, Windows Server 2012 R2 et Windows Server 2012.
   
@@ -90,7 +89,7 @@ Navigateurs pris en charge pour CQD Portal : Internet Explorer 11, Internet Exp
   
 ### <a name="rest-apis"></a>API REST
 
-Les données du Cube sont également accessibles via des appels d’API REST. Les données récupérées par le biais de l’API REST peuvent être affichées par le biais des pages HTML. Utilisateurs peuvent tirer parti de la vitesse de requête et le schéma de haut niveau de CQD pendant toujours créer des rapports personnalisés adaptés à leurs besoins. Pour plus d’informations sur les API et les exemples, voir [Développer appeler tableau de bord qualité pour Skype pour Business Server 2015](develop.md). 
+Les données du Cube sont également accessibles via des appels d’API REST. Les données récupérées par le biais de l’API REST peuvent être affichées par le biais des pages HTML. Utilisateurs peuvent tirer parti de la vitesse de requête et le schéma de haut niveau de CQD pendant toujours créer des rapports personnalisés adaptés à leurs besoins. Pour plus d’informations sur les API et les exemples, voir [Développer appeler tableau de bord qualité pour Skype pour Business Server](develop.md). 
   
 ## <a name="defining-your-organizations-requirements-for-cqd"></a>Définition des besoins de votre organisation pour CQD
 
@@ -133,7 +132,7 @@ CQD est fourni avec plusieurs composants, et il est utile de comprendre les exig
 
 Tous les composants CQD et dépendant peut être installé sur un ordinateur. La configuration d’une zone unique est la configuration la plus simple et CQD à être autonomes. CQD devez uniquement accès à la base de données de mesures QoE sur le serveur de surveillance. Le serveur CQD peut être un ordinateur autonome, un ordinateur virtuel, ou il peut même être le serveur de surveillance, selon les ressources disponibles de l’ordinateur hôte et les exigences de performances. 
   
-Pendant l’installation, l’utilisateur effectue que l’installation doit simplement fournir Microsoft SQL Server et les instances de Microsoft SQL Server Analysis Services qui ont été définies sur l’ordinateur où le CQD doit être installé. Pour plus d’informations, reportez-vous à [Déployer appeler tableau de bord qualité pour Skype pour Business Server 2015](deploy-0.md) .
+Pendant l’installation, l’utilisateur effectue que l’installation doit simplement fournir Microsoft SQL Server et les instances de Microsoft SQL Server Analysis Services qui ont été définies sur l’ordinateur où le CQD doit être installé. Pour plus d’informations, reportez-vous à [Déployer appeler tableau de bord qualité pour Skype pour Business Server](deploy-0.md) .
   
 ### <a name="multiserver-configuration"></a>Configuration multiserveur
 
@@ -238,6 +237,8 @@ Les systèmes d’exploitation suivants sont requis pour CQD :
 - Windows Server 2012 avec IIS 8.0
     
 - Windows Server 2012 R2 avec IIS 8,5
+
+- Windows Server 2016 avec IIS
     
 Voici les services de rôle IIS requis (par ordre hiérarchique) :
   
@@ -289,6 +290,8 @@ Les versions suivantes de SQL Server sont prises en charge :
 - SQL Server 2012
     
 - SQL Server 2014
+
+- SQL Server 2016
     
 Business Intelligence ou Enterprise edition est recommandée pour des raisons de performances. Ces éditions autorisent l’utilisation de plusieurs fichiers de partition qui peuvent être traités en parallèle, ce qui est utile pour le traitement des données répartis sur plusieurs mois ou plus. 
   

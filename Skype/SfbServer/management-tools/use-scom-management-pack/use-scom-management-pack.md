@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Résumé : Découvrez comment configurer votre Skype pour infrastructure Business Server 2015 pour travailler avec System Center Operations Manager.'
-ms.openlocfilehash: b94490c60234f76b0e07f0b7732d76cc2354eaad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a1d1b87e3f28fbbb2b8023093a9781bb0dc2627
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994961"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533286"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Gestion de Skype Entreprise Server 2015 à l’aide d’un pack d’administration SCOM
  
@@ -38,7 +38,7 @@ Identifier et [configurer le serveur d’administration principal](configure-the
   
 ## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>Serveur d’administration System Center Operations Manager racine et prise en charge de l’Agent
 
-Les Packs d’administration peuvent être utilisés avec System Center Operations Manager 2007 R2 (64 bits) (pris en charge uniquement à des fins de Migration) ou System Center Operations Manager 2012 SP1 &amp; R2 (64 bits). Le tableau suivant indique les configurations prises en charge pour les Packs d’administration pour Skype pour Business Server 2015 : 
+Les Packs d’administration peuvent être utilisés avec System Center Operations Manager 2007 R2 (64 bits) (pris en charge uniquement à des fins de Migration) ou System Center Operations Manager 2012 SP1 &amp; R2 (64 bits) ou System Centre Operations Manager 2016 (64 bits). Le tableau suivant indique les configurations prises en charge pour les Packs d’administration pour Skype pour Business Server 2015 : 
   
 |**Configuration**|**Prise en charge ?**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ Le tableau ci-dessous détaille la capacité et la configuration de système d�
 |:-----|:-----|
 |Processeur  <br/> |L’un des éléments suivants :  <br/> Processeur 64 bits, quadruple cœur 2,33 GHz ou supérieur  <br/> Processeur 64 bits à deux voies, double cœur, 2,33 GHz ou supérieur  <br/> |
 |Mémoire  <br/> |8 Go  <br/> |
-|Système d’exploitation  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
+|Système d’exploitation  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |Réseau  <br/> |1 carte réseau 1 Gbits/s  <br/> |
    
 ## <a name="prerequisites"></a>Conditions requises
@@ -137,14 +137,14 @@ Skype pour les Packs d’administration Business Server 2015 offrent une couvert
 |8  <br/> |Messagerie instantanée d’égal à égal MCX (mobile)  <br/> |Disponible dans la version de septembre 2011 de Lync Server 2010 pour Skype pour Business 2015  <br/> |
  
 > [!NOTE]
-> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.
+> Prise en charge MCX (Service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités MCX doivent mettre à niveau vers un client actuel.
   
 **Transactions synthétiques prises en charge pour les conférences et la conversation permanente**
 
 ||||
 |:-----|:-----|:-----|
 |9  <br/> |Conférence audio-vidéo  <br/> |Disponible dans Lync Server 2010 et versions ultérieures  <br/> |
-|10  <br/> |Conférence de données  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
+| 10  <br/> |Conférence de données  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
 |11  <br/> |Conférence par messages instantanés  <br/> |Disponible dans Lync Server 2010 et versions ultérieures  <br/> |
 |12  <br/> | Conversation permanente <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
 |13  <br/> |Lanceur de participation (réunions planifiées)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
@@ -201,53 +201,53 @@ La création d’un nouveau pack d’administration pour le stockage des personn
 
 Les liens suivants vous permettent d’accéder à des informations sur les tâches courantes associées aux packs de surveillance System Center 2012 :
   
-- [Cycle de vie de Pack de gestion](https://technet.microsoft.com/en-us/library/hh212732.aspx)
+- [Cycle de vie du pack d’administration](https://technet.microsoft.com/en-us/library/hh212732.aspx)
     
-- [Comment importer un Pack d’administration dans Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212691.aspx)
+- [Comment faire pour importer un Pack d’administration Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212691.aspx)
     
-- [Comment remplacer un moniteur ou une règle](https://technet.microsoft.com/en-us/library/hh212869.aspx)
+- [Comment faire pour remplacer une règle ou un moniteur ](https://technet.microsoft.com/en-us/library/hh212869.aspx)
     
-- [La création d’une exécution en tant que compte dans Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
+- [Comment faire pour créer une série de tests en tant que compte dans Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
     
-- [Exécuter la gestion des comptes et les profils](https://technet.microsoft.com/en-us/library/hh212714.aspx)
+- [Gestion des comptes et des profils d’identification](https://technet.microsoft.com/en-us/library/hh212714.aspx)
     
-- [Comment exporter un Pack d’administration Operations Manager](https://technet.microsoft.com/en-us/library/hh320149.aspx)
+- [Comment faire pour exporter un Pack d’administration Operations Manager](https://technet.microsoft.com/en-us/library/hh320149.aspx)
     
-- [Comment faire pour supprimer un Pack d’administration Operations Manager](https://technet.microsoft.com/en-us/library/hh230746.aspx)
+- [Comment faire pour supprimer un Pack d’administration Operations Manager](https://technet.microsoft.com/en-us/library/hh230746.aspx)
     
 Les liens suivants vous permettent d’accéder à des informations sur les tâches courantes associées aux packs de surveillance System Center 2007 :
   
-- [Administration du Cycle de vie de Pack de gestion](https://go.microsoft.com/fwlink/p/?LinkId=211463)
+- [Administration du cycle de vie des packs d’administration](https://go.microsoft.com/fwlink/p/?LinkId=211463)
     
-- [Comment importer un Pack d’administration Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
+- [Procédure d’importation d’un pack d’administration dans Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
     
-- [Remplace la surveillance à l’aide](https://go.microsoft.com/fwlink/p/?LinkID=117777)
+- [Procédure d’analyse à l’aide de remplacements](https://go.microsoft.com/fwlink/p/?LinkID=117777)
     
-- [La création d’une exécution en tant que compte dans Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=165410)
+- [Procédure de création d’un compte d’identification dans Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=165410)
     
-- [Comment modifier une exécution en tant que profil existante](https://go.microsoft.com/fwlink/p/?LinkID=165412)
+- [Procédure de modification d’un profil d’identification existant](https://go.microsoft.com/fwlink/p/?LinkID=165412)
     
-- [Comment exporter les personnalisations de Pack de gestion](https://go.microsoft.com/fwlink/p/?LinkId=209940)
+- [Procédure d’exportation des personnalisations de packs d’administration](https://go.microsoft.com/fwlink/p/?LinkId=209940)
     
-- [Comment faire pour supprimer un Pack d’administration](https://go.microsoft.com/fwlink/p/?LinkId=209941)
+- [Procédure de suppression d’un pack d’administration](https://go.microsoft.com/fwlink/p/?LinkId=209941)
     
-Pour toute question sur Operations Manager et les modules de surveillance, consultez le [forum de la Communauté System Center Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
+Pour toute question relative à Operations Manager et aux packs de surveillance, consultez le [forum de la communauté System Center Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
   
 Une ressource utile est le blog de [System Center Operations Manager Unleashed](https://opsmgrunleashed.wordpress.com/) , qui contient les publications « Par exemple » pour les packs de surveillance spécifiques.
   
 Pour plus d’informations sur Operations Manager, reportez-vous aux blogs suivants : 
   
-- [Blog de l’équipe Operations Manager](https://blogs.technet.com/momteam/default.aspx)
+- [Blog de l’équipe Operations Manager](https://blogs.technet.com/momteam/default.aspx)
     
-- [Blog d’Operations Manager de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
+- [Kevin Holman’s OpsMgr Blog](https://blogs.technet.com/kevinholman/default.aspx)
     
-- [Réflexions sur Operations Manager](https://thoughtsonopsmgr.blogspot.com/)
+- [Thoughts on OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
 - [Blog de Raphael Burri](https://rburri.wordpress.com/)
     
-- [Espace de gestion de BWren](https://blogs.technet.com/brianwren/default.aspx)
+- [BWren’s Management Space](https://blogs.technet.com/brianwren/default.aspx)
     
-- [Operations Manager ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
+- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
 > Toutes les informations et le contenu figurant sur des sites non-Microsoft sont fournis par le propriétaire ou les utilisateurs de ces sites web. Microsoft exclut toute garantie expresse, implicite ou légale concernant les informations qu’ils contiennent. 

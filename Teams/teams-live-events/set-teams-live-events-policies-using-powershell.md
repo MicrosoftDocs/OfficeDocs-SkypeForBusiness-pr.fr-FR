@@ -14,11 +14,11 @@ description: Exemples illustrant comment utiliser PowerShell pour définir des s
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f802c2b67c0a4cd4b0838dd9aeec9c4bbf884968
-ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25749166"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26535912"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utilisation de PowerShell pour définir des stratégies d’événements en direct dans Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]

@@ -3,7 +3,7 @@ title: Présentation des équipes et des canaux dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 11/02/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 10de89c43a653cd090f313ec368bde42bd774b03
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295518"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530559"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 =================================================
@@ -30,13 +30,17 @@ Commençons par nous pencher sur la façon dont Microsoft Teams permet aux équ
 
     -   Les équipes peuvent également être créées pour être publiques et ouvertes à tous les utilisateurs d’une organisation (jusqu'à 2 500 membres).
     
-Une équipe est destinée à réunir un groupe de personnes qui travaillent en étroite collaboration pour atteindre leurs objectifs. Les équipes peuvent être dynamiques pour un travail de projet (lancer un produit ou créer un centre de crise numérique par exemple) et être courantes, pour refléter la structure interne de votre organisation (services et bureaux par exemple). Les conversations, les fichiers et les notes ne sont visibles que pour les membres de l’équipe.
+    Une équipe est destinée à réunir un groupe de personnes qui travaillent en étroite collaboration pour atteindre leurs objectifs. Les équipes peuvent être dynamiques pour un travail de projet (lancer un produit ou créer un centre de crise numérique par exemple) et être courantes, pour refléter la structure interne de votre organisation (services et bureaux par exemple). Les conversations, les fichiers et les notes ne sont visibles que pour les membres de l’équipe.
 
 -   Les **canaux** sont des sections dédiées dans une équipe pour stocker des conversations organisées par sujets, projets et disciplines spécifiques ; à votre équipe de décider !
 
     -   Les canaux d'une équipe sont des endroits où chaque membre dans l'équipe peut mener des conversations ouvertes. Les discussions privées ne sont accessibles qu'aux personnes qui participent à cette conversation.
 
     -   Les canaux sont plus importantes lorsque étendu avec des applications qui incluent des onglets, des connecteurs et des robots qui augmente leur valeur aux membres de l’équipe.
+
+Afficher cette courte vidéo pour en savoir plus sur les meilleures pratiques pour la création d’équipes et canaux.
+
+   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
 <a name="membership-roles-and-settings"></a>L’appartenance, les rôles et les paramètres
 ------------------------------
@@ -50,7 +54,8 @@ Les propriétaires d’équipe peuvent également créer une équipe basée sur 
 **Paramètres de l’équipe** Les propriétaires d’équipe peuvent gérer les paramètres à l’échelle de l’équipe directement dans Microsoft Teams. Les paramètres incluent la possibilité d’ajouter une image de l’équipe, de définir les autorisations entre les membres pour créer des canaux, ajouter des onglets et connecteurs, @mentionner toute l’équipe ou le canal et l’utilisation de fichiers GIF, autocollants et mèmes. 
 
 Prendre trois minutes pour extraire ce atteindre guide vidéo pour les propriétaires de l’équipe : 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
 Si vous êtes un administrateur de Microsoft Teams dans Office 365, vous avez accès à des paramètres système dans les équipes & Skype entreprise centre d’administration. Ces paramètres peuvent avoir une incidence sur les options et valeurs par défaut que les propriétaires d'équipe voient sous les paramètres de l’équipe. Par exemple, vous pouvez activer un canal par défaut, « Général », pour les annonces, discussions et ressources de l’équipe, qui s’afficheront pour toutes les équipes.
 
@@ -64,7 +69,6 @@ Pour faire adopter Microsoft Teams par les utilisateurs, une activité clé de 
 Voici quelques exemples fonctionnels de configuration d'équipes, de canaux et d'applications (onglets/connecteurs/bots) par différents types d'utilisateurs. Ils peuvent être utilisés pour initier une conversation sur Microsoft Teams avec votre communauté d'utilisateurs. Lorsque vous réfléchissez sur l'implémentation de Microsoft Teams dans votre organisation, rappelez-vous que vous pouvez fournir des conseils sur la structuration des équipes, bien que les utilisateurs puissent décider de leur propre organisation. Ces configurations sont fournies à titre d'exemples uniquement, pour permettre d'initier une réflexion sur les différentes possibilités.
 
 Microsoft Teams permet d'aplanir efficacement les silos organisationnels et de promouvoir la formation d'équipes inter-fonctionnelles ; invitez donc vos utilisateurs à réfléchir en tant qu'équipes fonctionnelles et non en tant que silos organisationnels.
-
 
 |Types d'équipes  |Canaux potentiels  |Applications (Onglets ![Icône Onglets.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connecteurs ![Icône Connecteurs.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Icône Bots.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
@@ -83,3 +87,6 @@ Il est possible de créer des équipes alignées sur la structure de l’organis
 
 ![Diagramme d'une hiérarchie de l'organisation des équipes et des canaux dans Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
+## <a name="org-wide-teams"></a>Équipes à l’échelle de l’organisation
+
+Si votre organisation a pas plus de 1 000 utilisateurs, vous pouvez créer une équipe à l’échelle de l’organisation. Les équipes à l’échelle de l’organisation offrent un moyen automatique pour tout le monde dans une organisation doit faire partie d’une équipe unique pour la collaboration. Pour plus d’informations, notamment les meilleures pratiques pour la création et gestion d’une équipe à l’échelle de l’organisation, voir [créer une équipe à l’échelle de l’organisation dans les équipes Microsoft](create-an-org-wide-team.md).

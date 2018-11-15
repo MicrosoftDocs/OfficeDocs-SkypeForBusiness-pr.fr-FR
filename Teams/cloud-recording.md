@@ -11,12 +11,12 @@ description: Guide pratique pour le déploiement de la fonctionnalité vocale cl
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e78abdbe7d0cc2680917f2aae7920883837a2ac9
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 5ae144405375daa818f334fdf5be85e75cd4f6b1
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296387"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532883"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de la réunion équipes sur le nuage
 
@@ -31,7 +31,7 @@ Connexes : [Enregistrement de documentation de l’utilisateur final de la réu
 
 Pour les réunions d’un utilisateur d’équipes à enregistrer, Stream Microsoft doit être activé pour le client. En outre, les conditions préalables suivantes sont requises pour l’organisateur de la réunion et de la personne qui lance l’enregistrement :
 
-- Utilisateur possède une licence Office 365 entreprise E1, E3 ou E5
+- Utilisateur a un Office 365 E1, E3, E5, A1, A3, A5, M365 Professionnel, entreprise Premium ou Business Essentials
 - L’utilisateur doit être autorisé pour Microsoft Stream
 - Utilisateur a Microsoft Stream télécharger autorisations vidéo
 - Utilisateur a accepté les instructions de la société, si définie par l’administrateur

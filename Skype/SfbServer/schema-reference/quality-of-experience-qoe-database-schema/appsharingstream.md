@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: La table AppSharingStream contient des mesures de qualité de l’expérience pour les flux de réseau utilisés pour le partage d’application. Ce tableau a été introduit dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 4eeac3f7b082d4a798736bd9897b90668a1d44b2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3505467fd5e163fe2c26aca4b1ba13681c0d4ee6
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294302"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532769"
 ---
 # <a name="appsharingstream-table"></a>Table AppSharingStream
  
@@ -25,7 +25,7 @@ La table AppSharingStream contient des mesures de qualité de l’expérience po
 |:-----|:-----|:-----|:-----|
 |**Paramètre ConferenceDateTime** <br/> |dateTime  <br/> |Primaire, étrangère  <br/> |Date et heure de début de la session.  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Identificateur séquentiel utilisé pour faire la distinction entre les sessions qui ont débuté à la même date et en même temps.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primaire, étrangère  <br/> | Voir [Table MediaLine](https://docs.microsoft.com/en-us/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primaire, étrangère  <br/> | Voir [Table MediaLine](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
 |**StreamID** <br/> |int  <br/> |Principal  <br/> |Identificateur unique de l’application de flux de partage.  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||Gigue moyenne détectée entre les arrivées de paquets RTP. (La gigue permet de mesurer les fluctuations d’un appel.) Les valeurs de gigue élevées peuvent provenir d’une congestion ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||Gigue maximale détectée entre l’arrivée de paquets RTP. (Gigue est une mesure de « tremblement » d’un appel). Valeurs de gigue haute sont généralement causés par congestion ou un serveur multimédia surchargée et entraîner audio déformé ou perdue.  <br/> |

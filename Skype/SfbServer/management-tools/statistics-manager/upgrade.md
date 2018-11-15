@@ -1,30 +1,29 @@
 ---
-title: Mise à niveau du gestionnaire de statistiques pour Skype Entreprise Server 2015
+title: Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/10/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: 'Résumé : Lisez cette rubrique pour savoir comment mettre à niveau des statistiques de gestionnaire de Skype pour Business Server 2015.'
-ms.openlocfilehash: d10dd5cd92fc0d7dbbb3285c43df78e8149f58c0
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Résumé : Lisez cette rubrique pour savoir comment mettre à niveau des statistiques de gestionnaire de Skype pour Business Server.'
+ms.openlocfilehash: f783534c52b59b5910dbd975c4e29642e18b67b7
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295705"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531475"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server-2015"></a>Upgrade Statistics Manager for Skype for Business Server 2015
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server
  
-**Résumé :** Lisez cette rubrique pour savoir comment mettre à niveau des statistiques de gestionnaire de Skype pour Business Server 2015.
+**Résumé :** Lisez cette rubrique pour savoir comment mettre à niveau des statistiques de gestionnaire de Skype pour Business Server.
   
 Cette rubrique décrit comment mettre à niveau une installation existante du Gestionnaire de statistiques de Skype pour Business Server, un outil puissant qui vous permet d’afficher Skype pour les données de performances et d’intégrité Business Server en temps réel. Vous pouvez interroger les données de performance sur des centaines de serveurs après quelques secondes et afficher les résultats instantanément sur le site Web de gestionnaire de statistiques. 
   
-Pour plus d’informations sur les statistiques Manager et les nouvelles fonctionnalités de la version 1.1, voir [planification pour le Gestionnaire de statistiques de Skype pour Business Server 2015](plan.md) et [Déployer des statistiques responsable Skype pour Business Server 2015](deploy.md). Pour plus d'informations sur les problèmes connus résolus dans la version 1.1, reportez-vous à la rubrique [Problèmes connus résolus dans la version 1.1](upgrade.md#BKMK_Fixed).
+Pour plus d’informations sur les statistiques Manager et les nouvelles fonctionnalités dans la version 2.0, voir [Planifier pour le Gestionnaire de statistiques de Skype pour Business Server](plan.md) et [Déployer des statistiques responsable Skype pour Business Server](deploy.md).
   
 Il existe deux méthodes de mise à niveau :
   
@@ -100,35 +99,19 @@ Si, pour une raison ou pour une autre, la mise à niveau automatique échoue, vo
     >   Ne désinstallez pas Redis, afin que les données dans la mémoire cache soient conservées pendant le processus de mise à niveau.
   
 2. 	Installez les nouvelles versions de ces composants, y compris les valeurs que vous avez enregistrées précédemment lorsqu’elles vous sont demandées. Pour plus d’informations sur l’installation des composants, consultez la rubrique [Deploy Statistics Manager](deploy.md#BKMK_Deploy)
-    
-## <a name="known-issues-fixed-in-release-11"></a>Problèmes connus résolus dans la version 1.1
-<a name="BKMK_Fixed"> </a>
 
-Les problèmes connus suivants ont été corrigés dans la version 1.1 :
-  
-- L’interface utilisateur/serveur/Agent - nombreuses la fiabilité et performances
-    
-- L’interface utilisateur - contrôle de filtre principal maintenant trie correctement avec différents cas (a été entraînant des personnes à prendre en compte certains serveurs n’ont pas été dans le système lorsqu’elles étaient)
-    
-- Server : les composants du serveur peuvent désormais être installés sur des serveurs qui ne sont pas en anglais.
-    
-- Serveur/Agent : dans certains cas, les composants de l’agent et du serveur ne pouvaient pas être installés à cause d’erreurs .NET dues à une version spécifique de .NET 4.0. Ce problème est résolu.
-    
-- Agent - enregistrement des événements étendu ajoutée pour le StatsMan Agent. L’agent ne se bloque plus lorsqu’il est installé sur un serveur qui n’est pas dans la topologie ; cette situation est désormais consignée dans le journal d’événements, avec de nombreuses autres conditions d’erreurs possibles.
-    
-- L’interface utilisateur - les clients Web à l’aide du navigateur Chrome voir plusieurs invites d’ouverture de session lorsqu’à l’aide d’un ordinateur client non lié à la même groupe de travail ou domaine que le serveur Web de gestionnaire de statistiques. Désormais, une seule connexion par session suffit.
     
 ## <a name="for-more-information"></a>Pour plus d’informations
 <a name="BKMK_Fixed"> </a>
 
 Pour plus d’informations, voir les articles suivants :
   
-- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
+- [Planifier Business Server pour le Gestionnaire de statistiques de Skype](plan.md)
     
-- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
+- [Déployer des statistiques responsable Skype pour Business Server](deploy.md)
     
-- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
+- [Résoudre les statistiques du gestionnaire pour Skype pour Business Server](troubleshoot.md)
     
-- [Blog du gestionnaire de statistiques Skype Entreprise Server](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog du gestionnaire de statistiques de Skype Entreprise Server ](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
     
 

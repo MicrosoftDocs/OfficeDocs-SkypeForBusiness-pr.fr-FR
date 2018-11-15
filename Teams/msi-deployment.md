@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c95eec7d05d0acb8e49c8236b1e9d5f498869c95
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4983f8089a5d221a29f67ae25dfa6766751a7394
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295287"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530589"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installer Microsoft Teams à l’aide de MSI
 =================================
@@ -63,9 +63,20 @@ Si un utilisateur désinstalle des équipes de leur profil utilisateur, le progr
                     
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>Désactiver le démarrage automatique pour le programme d’installation MSI
 
-Si vous souhaitez désactiver le démarrage automatique, entrez l’invite de commandes suivante :
+Comportement par défaut de MSI consiste à installer le client équipes dès qu’un utilisateur se connecte et puis démarrer automatiquement les équipes. Vous pouvez modifier ce comportement avec les paramètres ci-dessous comme suit :
 
+- Lorsqu’un utilisateur se connecte à Windows, équipes seront installés avec le fichier MSI
+- Toutefois, le client équipes ne démarrera pas jusqu'à ce que l’utilisateur a démarré manuellement les équipes
+- Un raccourci pour démarrer des équipes sera ajouté sur le bureau de l’utilisateur
+- Une fois que le démarrage manuel, équipes seront démarrage automatique chaque fois que l’utilisateur se connecte en
+
+Pour la version 32 bits
 ```
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
-
+Pour la version 64 bits
+```
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+```
+> [!Note] 
+>  Si vous exécutez manuellement le fichier MSI, veillez à exécuter avec des autorisations élevées. Même si vous l’exécutez en tant qu’administrateur, sans l’exécuter avec des autorisations élevées, le programme d’installation ne sera pas en mesure de configurer l’option pour désactiver le démarrage automatique.

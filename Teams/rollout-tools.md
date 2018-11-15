@@ -12,17 +12,17 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71b1a01472448c6a0d8a1bdc2ba06ff88d3a8cfd
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 94c35dbf18b3afdeb62cb4bb463e040f38f37f65
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293540"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532292"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Obtenir des outils d'assistance pour le lancement de Microsoft Teams
 =================================================
 
-Le kit de réussite des clients de Microsoft Teams fournit des outils pour aider votre organisation à lancer Microsoft Teams. Ils comprennent des modèles d'e-mails d'annonces, des brochures, des affiches, un compte à rebours et des e-mails de conseils et astuces. Des guides de prise en main sont également inclus et destinés aux responsables d'équipe et administrateurs informatiques. Téléchargez dès aujourd'hui le [Kit de réussite des clients](https://go.microsoft.com/fwlink/?linkid=854598).
+Le kit de réussite des clients de Microsoft Teams fournit des outils pour aider votre organisation à lancer Microsoft Teams. Ils comprennent des modèles d'e-mails d'annonces, des brochures, des affiches, un compte à rebours et des e-mails de conseils et astuces. Des guides de prise en main sont également inclus et destinés aux responsables d'équipe et administrateurs informatiques. Téléchargez le [Kit de réussite client équipes](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) aujourd'hui.
 
 ### <a name="learn-adjust-and-repeat"></a>Apprendre, adapter et recommencer
 

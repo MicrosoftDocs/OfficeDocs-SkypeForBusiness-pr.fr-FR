@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: ff0db687ed25f756a3ba3d184b7408c5d2784b46
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: a3ce04974eec062360bb6b0663255f079e097554
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293962"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532232"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Guide pratique pour l’audioconférence dans Microsoft Teams
 ============================================================
@@ -29,7 +29,7 @@ L’audioconférence dans Office 365 permet aux participants de rejoindre vos r
 
 Voici les avantages de [l’audioconférence](https://go.microsoft.com/fwlink/?linkid=858992) dans Office 365.
 
-Ce guide pratique vous oriente dans la structure du client FastTrack d'Office 365 et ses trois phases, planifier, intégrer et générer une valeur ajoutée, pour vous aider à planifier, livrer et exécuter une implémentation réussie de l’audioconférence.
+Ce guide pratique vous accédez via le client Office 365 FastTrack framework voyage et ses trois phases, prévoir, intégrée et valeur lecteur, pour vous aider à planifier, fournir et utiliser une implémentation de conférence Audio vers fructueuse résultats commerciaux.
 
 > [!TIP]
 > Dans ce guide pratique, nous fournissons des exemples de résultats pour chaque activité et theme principal. Les exemples fournis tout au long de ce document sont intégrés aux légendes des astuces et peuvent être utilisés comme modèles. « TBA » (à ajouter) est affiché en regard des informations que vous devez remplir dans le cadre de votre processus de planification.
