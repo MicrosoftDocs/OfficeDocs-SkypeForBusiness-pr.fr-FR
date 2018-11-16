@@ -1,5 +1,5 @@
 ---
-title: Configurer des événements live dans Microsoft Teams
+title: Configurer des événements en direct dans Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -14,14 +14,14 @@ description: Découvrez les étapes pour configurer live pour les événements d
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a92f227b7f625da02e003622c8ff87e744206443
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 08dd8c431f31fef8dc30f72f4944c2ba907850cc
+ms.sourcegitcommit: 2be5458d05fab32771845f855201126a87303b95
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532662"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "26548829"
 ---
-# <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements live dans Microsoft Teams
+# <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
@@ -31,7 +31,7 @@ Lorsque vous configurez des événements en direct, il existe plusieurs étapes 
 Démarrage rapide des événements live requièrent pour [préparer le réseau de votre organisation pour les équipes Microsoft](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Étape 2 : Obtenir et attribuer des licences
-Disposer des attributions de licence approprié pour [qui peut créer et planifier les événements live ?](#who-can-create-and-schedule-live-events) et [qui peut surveiller les événements en direct ?](#who-can-watch-live-events).
+Vérifiez les attributions de licence approprié pour [qui peut créer et planifier les événements en direct](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) et [qui peut surveiller les événements en direct](plan-for-teams-live-events.md#who-can-watch-live-events).
 
 ## <a name="step-3-set-up-live-events-policies"></a>Étape 3 : Configurer les stratégies d’événements en direct
 Les stratégies sont utilisées pour contrôler les personnes de votre organisation peuvent contenir des événements en direct et les fonctionnalités qui sont disponibles dans les événements qu’ils créent des événements en direct. Vous pouvez utiliser la stratégie par défaut ou créer un ou plus personnalisé live stratégies d’événements. Après avoir créé une stratégie personnalisée, assignez-le à un utilisateur ou des groupes d’utilisateurs de votre organisation.
