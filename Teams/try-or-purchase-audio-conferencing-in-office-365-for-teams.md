@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Apprenez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Office 365 afin de mettre en place des conférences téléphoniques auxquelles les gens peuvent se connecter. '
-ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1b04a2506bd495165afcdf3e9f41ed6db6cd9252
+ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533092"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "26544403"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Essayez ou achetez conférence dans Office 365 pour Microsoft Teams
 
@@ -76,7 +76,7 @@ Si vous êtes un client Volume et Gestion des licences, vous pouvez obtenir des 
 
 Lorsque vous attribuez une licence de **Conférence Audio** à des personnes de votre organisation qui ne possèdent pas Skype pour entreprise intégré à un fournisseur de services d’audioconférence tiers 3e, ils sont tous paramétrés et prêt à passer ! (Vous n’avez pas à définir leur fournisseur de services d’audioconférence.)
 
-Si vous avez des utilisateurs activés avec un fournisseur de services d’audioconférence tiers 3e, vous devez modifier le fournisseur de ces utilisateurs à Microsoft. Pour modifier le fournisseur de l’utilisateur, voir [Attribuer de Microsoft en tant que le fournisseur de services d’audioconférence](assign-microsoft-as-the-audio-conferencing-provider.md).
+Si vous avez des utilisateurs activés avec un fournisseur de services d’audioconférence tiers 3e, vous devez modifier le fournisseur de ces utilisateurs à Microsoft. Pour modifier le fournisseur pour un utilisateur, voir [Attribuer de Microsoft en tant que le fournisseur de services d’audioconférence](/Skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Étape 3 : Autres tâches d’administration
 

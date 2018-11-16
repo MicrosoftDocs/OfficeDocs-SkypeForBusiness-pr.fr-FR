@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de systèmes de salle Skype v2.
-ms.openlocfilehash: 39704e044d5a5210d47a0347790f5602a3086270
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 7d9a24b69c1e91c5193f67b6bdc321981265cda7
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510644"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539071"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -100,7 +100,7 @@ Pour pouvoir gérer et créer des rapports sur votre ordinateur de v2 Skype sall
 Définir un groupe d’Active Directory ou Azure AD sur site pour ajouter tous les systèmes de salle Skype v2 (utilisateur) comptes de service, puis créez les rapports d’utilisation à l’aide de l’applet de commande Get-CSUserSession PowerShell dans votre déploiement de v2 Skype salle systèmes. Par exemple, créez un groupe nommé SkypeRoomSystemsv2 de comptes de Service. 
 
 
-Définir une unité d’organisation dans votre hiérarchie d’Active Directory ou Azure AD sur site destiné à contenir tous les comptes d’ordinateur Skype salle systèmes v2 (s’ils sont joints au domaine) et une unité d’organisation pour contenir tous les comptes d’utilisateur Skype salle systèmes v2. Si vous créez une unité d’organisation pour les comptes d’ordinateur Skype salle systèmes v2, envisagez de désactiver l’héritage des autorisations pour vous assurer que vous appliquez uniquement les stratégies que à appliquer à la Systemsv2 à un domaine de salle Skype voulu. 
+Définir une unité d’organisation dans votre hiérarchie d’Active Directory ou Azure AD sur site destiné à contenir tous les comptes d’ordinateur Skype salle systèmes v2 (s’ils sont joints au domaine) et une unité d’organisation pour contenir tous les comptes d’utilisateur Skype salle systèmes v2. Si vous créez une unité d’organisation pour les comptes d’ordinateur Skype salle systèmes v2, envisagez de désactiver l’héritage des autorisations pour vous assurer que vous appliquez uniquement les stratégies que vous destiné à appliquer à la v2 Skype salle systèmes liés à un domaine. 
 
 Créer un objet de stratégie de groupe affecté à l’unité d’organisation qui contient vos comptes d’ordinateur Skype salle systèmes. Utilisez cette option pour : 
 
@@ -128,7 +128,7 @@ Chaque périphérique v2 de systèmes de salle Skype nécessite un compte dédi�
 
 **Conseil pro** – Assurez-vous l’affichage des noms pour ces comptes descriptif et facile à comprendre. Voici les noms qui s’affiche lors de la recherche et ajout de Skype salle systèmes v2 à des réunions. Certaines organisations utilisent la convention de *Site*-*Nom de la salle*(*Capacité maximale*)-RS, par exemple Curie — une salle de conférence 12-personne à Londres — peut avoir le nom d’affichage LON-CURIE (12)-RS. 
 
-<!-- If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. -->
+Si votre organisation possède plusieurs salles de conférence qui nécessitent plusieurs, les comptes approvisionnés, vous souhaiterez à utiliser des [Scripts de mise en service de comptes Skype salle de systèmes](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) à la disposition en bloc plusieurs comptes de service de manière automatique.
 
 
 |    |     |

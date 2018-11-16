@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 381e246edc164b5c5a3a6d88b1f5bbf4d1d868cf
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: b2b831f419cb5f78f19248aaeaf9f8b12cb8765e
+ms.sourcegitcommit: 9928fd21818ecd031f0bdde1124401dc3d2a933f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519783"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26538036"
 ---
 # <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a>Accédez à votre déploiement de l’entreprise de Microsoft Teams du plan des ressources
 
@@ -29,3 +29,9 @@ La section [Déployer les équipes](deployment-overview.md) de notre documentati
 
 ## <a name="adopt-teams"></a>Adopter des équipes
 La section [Adopter des équipes](adopt-microsoft-teams-landing-page.md) de notre documentation explique comment comment adopter correctement des équipes au sein de votre organisation.
+
+## <a name="let-us-know-what-you-think"></a>Faites-le nous savoir ce que vous pensez
+
+Prendre une minute pour partager vos idées sur cette Get started section en procédant de [cette brève enquête](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u). Il est entièrement anonyme. 
+
+Vous pouvez également attribuer des commentaires pour un article spécifique en accédant à la section des **commentaires** de cet article. 

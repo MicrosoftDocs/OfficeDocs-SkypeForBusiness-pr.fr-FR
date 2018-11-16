@@ -20,13 +20,14 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Découvrez comment changer l’adresse et le numéro de téléphone d’urgence d’un utilisateur pour qu’ils fonctionnent avec le réseau téléphone commuté public (RTCP) aux États-Unis et en Europe. '
-ms.openlocfilehash: e27ea228972ceead0838cff481a0db983c503b02
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Comment modifier l’adresse d’urgence pour un utilisateur de travailler avec les publics téléphone réseau commuté (RTC) aux États-Unis et en Europe. '
+ROBOTS: NOINDEX
+ms.openlocfilehash: 8dac43120fafa1a98e441b983b673e78d2a24d75
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347100"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26538958"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>Modification de l'adresse d'urgence d'un utilisateur
 
@@ -71,7 +72,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
