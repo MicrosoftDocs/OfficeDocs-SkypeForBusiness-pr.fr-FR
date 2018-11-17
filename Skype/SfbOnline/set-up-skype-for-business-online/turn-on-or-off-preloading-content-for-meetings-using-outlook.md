@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: d5a0e6f9d512e585e370268d3e21daef177e3923
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1f3a3356000041f6155f7356ebe23bc1df11ce8e
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850126"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561591"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Activation ou désactivation de l'autorisation de préchargement de contenu pour les réunions à l'aide d'Outlook
 
@@ -51,7 +51,7 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
 
  **Démarrez une session Windows PowerShell**
   
-1. Depuis le **Menu Démarrer** > **Windows PowerShell**.
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
     
@@ -65,7 +65,7 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session
 ```
 
-Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Connecting to Skype pour Business Online à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="turning-it-on-or-off"></a>Activation ou désactivation des applications intégrées
 
@@ -86,7 +86,7 @@ Grant-CsGraphPolicy -PolicyName GraphDisabled
 Grant-CsGraphPolicy -PolicyName GraphEnabled 
 ```
 
-## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
+## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
 - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
@@ -96,7 +96,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
 - Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
-  - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures méthodes de gestion d’Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

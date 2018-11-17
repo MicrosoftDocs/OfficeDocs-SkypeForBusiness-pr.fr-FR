@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype pour les informations de planification et la configuration de Business Server pour le partage d’écran vidéo (VbSS)
-ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 450a6ab5550c00e91e2d9772d954dc8f51d38156
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531623"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561920"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vidéo en fonction de partage d’écran pour Skype pour Business Server 
  
@@ -60,7 +60,7 @@ Sachez également que la fiabilité, la vitesse et l'efficacité prévalent gén
 Si QoS est activé pour les ports multimédias suivants et VbSS est également activé, pendant une conférence qui inclut le partage du bureau que MCU en tant qu’utilisera les paramètres de port vidéo illustrés en gras ci-dessous pour le trafic de partage d’écran. 
   
 > [!IMPORTANT]
-> Ces paramètres sont un cas spécial, et ces paramètres exactes doivent être utilisés lors de l’implémentation de ces deux fonctionnalités. Cela remplace les autres paramètres recommandés dans la [documentation de qualité de service](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx). Application des sites de partage vous devez également spécifier ASMCUSVC.exe dans la stratégie de groupe QoS en plus de définir ces valeurs de port. 
+> Ces paramètres sont un cas spécial, et ces paramètres exactes doivent être utilisés lors de l’implémentation de ces deux fonctionnalités. Cela remplace les autres paramètres recommandés dans la [documentation de qualité de service](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx). Partage d’application, vous devez également spécifier ASMCUSVC.exe dans l’objet GPO QoS en plus de définir ces valeurs de port. 
   
 **Application serveur QoS/VbSS les paramètres requis**
 

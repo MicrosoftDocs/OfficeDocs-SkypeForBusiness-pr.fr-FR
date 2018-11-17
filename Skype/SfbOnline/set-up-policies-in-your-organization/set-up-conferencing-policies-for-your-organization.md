@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "La fonctionnalité Conférence est une partie importante de Skype Entreprise Online : elle permet à des groupes d'utilisateurs de se retrouver en ligne pour visionner des diapositives et des vidéos, partager des applications, échanger des fichiers, communiquer et collaborer."
-ms.openlocfilehash: 7e53f03a78b1e018323540daa22f8b4af72fb0ac
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 35cbafdbd69f3241cc1634e4edff455b4c35926d
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373116"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561655"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Configurer les stratégies de conférence pour votre organisation
 
@@ -69,7 +69,7 @@ Paramètres de stratégie peuvent être configurées au niveau de la création d
     Import-PSSession $session
    ```
 
-   Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Connecting to Skype pour Business Online à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+   Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Bloquer les transferts de fichiers et le partage de bureau pendant les réunions
 
@@ -137,7 +137,7 @@ Si vous avez déjà créé une stratégie, vous pourrez utiliser l’applet de c
     
 - Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
-  - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures méthodes de gestion d’Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Vous pouvez activer votre Skype pour les utilisateurs professionnels à utiliser le Skype pour l’outil de commentaires d’applications métiers intégrée pour permettre aux utilisateurs de signaler les problèmes et fournir des commentaires directement à Microsoft sur leur expérience.
-ms.openlocfilehash: f681a3745f44745083abc4b1750870aa7d3c4efe
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3dcb003c23ca1a96a646851358d21aca5a47e674
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370791"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561618"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Activer ou désactiver les commentaires client sur Skype Entreprise
 
@@ -57,7 +57,7 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
     
 - **Démarrez une session Windows PowerShell**
     
-1. Depuis le **Menu Démarrer** > **Windows PowerShell**.
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
     
@@ -70,7 +70,7 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
-   Pour plus d'informations sur le démarrage de Windows PowerShell, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou[Connexion à Skype Entreprise Online à l'aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+   Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou[configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>Activer l'outil de commentaires client de l'application pour tous les utilisateurs au sein de votre organisation
 

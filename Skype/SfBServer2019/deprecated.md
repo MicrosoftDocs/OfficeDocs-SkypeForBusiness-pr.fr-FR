@@ -3,25 +3,24 @@ title: Ce qui est déconseillé de Skype pour Business Server 2019
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/10/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités ont été supprimées de Skype pour Business Server 2019.'
-ms.openlocfilehash: 66366c2272db8d6f605fde6dc066f730543883b6
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 399c5f219ae5a088c4e7f8aa40f40344885d571e
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530541"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561610"
 ---
-# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Ce qui est déconseillé de Skype pour Business Server 2019 
+# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Ce qui est déconseillé de Skype pour Business Server 2019
 
 Découvrez les fonctionnalités qui sont déconseillées dans Skype pour Business Server 2019. Pour plus d’informations sur les nouvelles fonctionnalités dans Skype pour Business Server 2019, voir [Nouveautés de Skype pour Business Server 2019](whats-new.md).
 
-Certaines fonctionnalités de retrait emphasised sont incluses dans Skype pour Business Server 2019 pour la compatibilité avec les versions antérieures du produit. 
+Certaines fonctionnalités de retrait emphasised sont incluses dans Skype pour Business Server 2019 pour la compatibilité avec les versions antérieures du produit.
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Fonctionnalités déconseillées dans Skype pour Business Server 2019 
 
@@ -31,12 +30,11 @@ Certaines fonctionnalités de retrait emphasised sont incluses dans Skype pour B
 
 Skype pour Business Server 2015 et ses prédécesseurs autorisés vous permet de configurer un proxy XMPP et de présence Protocol (XMPP) sur le serveur de périphérie et une passerelle XMPP sur le pool frontal ou serveur frontal. Cette fonctionnalité n’est plus disponible dans Skype pour Business Server 2019.
 
-
 ### <a name="persistent-chat-for-skype-for-business-server"></a>Conversation permanente pour Skype pour Business Server
 
 Serveur de conversation permanente est un rôle facultatif qui permet à plusieurs utilisateurs dans votre organisation participer à des conversations de salle de conversation persistant. Conversation permanente ne peuvent pas être déployée avec Skype pour Business Server 2019. Ce rôle de serveur est supprimé du Générateur de topologie, ainsi que du code. 
 
-La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [parcours de Skype pour les entreprises aux équipes de Microsoft](/microsoftteams/journey-skypeforbusiness-teams).   
+La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [parcours de Skype pour les entreprises aux équipes de Microsoft](/microsoftteams/journey-skypeforbusiness-teams).
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>Mise en miroir de SQL pour Skype pour Business Server
 
@@ -46,7 +44,7 @@ La mise en miroir SQL ne peut pas être déployé avec Skype pour Business Serve
 
 Mises à niveau sur place étaient disponibles dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. Côte à côte mise à niveau et la coexistence, consultez [Migration vers Skype pour Business Server 2019](migration/migration-to-skype-for-business-server-2019.md) pour plus d’informations.
 
-###  <a name="mobility-service-mcx"></a>Service de mobilité (Mcx)
+### <a name="mobility-service-mcx"></a>Service de mobilité (Mcx)
 
 Prise en charge du Service Mobility utilisé par les clients hérités mobiles n’est plus disponible dans Skype pour Business Server 2019. Il a été précédemment annoncé dans Skype pour Business Server 2015.
 

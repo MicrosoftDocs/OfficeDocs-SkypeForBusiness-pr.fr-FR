@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Vous pouvez configurer comment vos utilisateurs se connectent à Skype pour Business Online à l’aide de la Skype pour application de gestion sur des appareils mobiles, tels que d’une fonctionnalité qui permet aux utilisateurs d’émettre et recevoir des appels téléphoniques sur son téléphone mobile à l’aide de leur numéro de téléphone professionnel plutôt que de leur nu téléphone mobile bre. Des stratégies de mobilité peuvent également être utilisées pour exiger des connexions Wi-Fi lorsque les utilisateurs passent ou reçoivent des appels.
-ms.openlocfilehash: 73699cb2c608b7a161b371d86458a18a9c9d3c40
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7985dc1a1dcdbad63d1c302be8054efb904ac15b
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372029"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561601"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Configurer les stratégies mobiles pour votre organisation
 
@@ -65,7 +65,7 @@ Paramètres de stratégie mobile peuvent être configurés au niveau de la créa
     Import-PSSession $session
    ```
 
-   Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Connecting to Skype pour Business Online à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+   Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>Exiger d'un utilisateur une connexion Wi-Fi pour les vidéos
 
@@ -131,7 +131,7 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de co
     
 - Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
-  - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures méthodes de gestion d’Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

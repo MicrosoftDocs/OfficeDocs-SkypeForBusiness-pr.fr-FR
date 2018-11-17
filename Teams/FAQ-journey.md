@@ -1,5 +1,5 @@
 ---
-title: Forum aux questions - voyage mise à niveau à partir de Skype pour les entreprises aux équipes Microsoft - Microsoft équipes
+title: FAQ - Transition de Skype Entreprise à Microsoft Teams - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6371e0a13bc029706b25cdb576602f18ab9b43b0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e733d38bf914080274332abfffbd33c5eaddba50
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533148"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561739"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>FAQ - Transition de Skype Entreprise à Microsoft Teams
 
@@ -35,7 +35,7 @@ Comme les utilisateurs travaillent dans des équipes de plus, nous constatons la
 
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>Les clients doivent-ils passer de Skype Enteprise Online à Teams à une date précise ?
 
-Nous avons notre feuille de route pour les équipes disponibles afin que les clients peuvent évaluer les fonctionnalités pour les équipes par rapport à leurs besoins et planifier leur migration vers des équipes. Les clients peuvent définir le calendrier qui leur convient au mieux pour passer à Teams. Idéal pour maîtriser des informations sur le parcours de Skype pour entreprises aux équipes le [Skype pour les entreprises à des fonctions de feuille de route les équipes Microsoft](https://aka.ms/skype2teamsroadmap)— un fichier PDF téléchargeable (dans anglais uniquement, au moins pour le moment) qui permet aux attentes actuelles de Microsoft sur Skype pour bientôt aux équipes des fonctionnalités.
+Les clients peuvent définir le calendrier qui leur convient au mieux pour passer à Teams. Pour les clients pas encore prêts à mettre à niveau, ils peuvent toujours bénéficier des avantages des équipes par l’adoption ainsi que Skype pour les entreprises. Pour en savoir plus, lisez [comprendre les équipes et Skype pour l’interopérabilité et coexistence d’entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Qu'adviendra-t-il de Skype Entreprise Server ?
 

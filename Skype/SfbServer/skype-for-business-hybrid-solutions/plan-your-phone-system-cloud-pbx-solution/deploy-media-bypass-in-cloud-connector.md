@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lisez cette rubrique pour en savoir plus sur les étapes nécessaires pour déployer le contournement de média avec le nuage connecteur Edition version 2.0 et versions ultérieure.
-ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a764c17af7c23d27305f9e2f3e88eaed6edc33cf
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531702"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561913"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Déployer le contournement de média dans le nuage connecteur Edition
  
@@ -32,7 +32,7 @@ Pour activer la déviation du trafic multimédia, vous devez configurer le nom D
   
 Un administrateur client doit configurer un enregistrement DNS A dans la production interne Active Directory. Si vous avez un environnement complexe de plusieurs site, consultez l’exemple dans [exemple : site web les enregistrements DNS dans les environnements multisites du contournement de média](deploy-media-bypass-in-cloud-connector.md#Example). L'enregistrement DNS doit uniquement résoudre les clients du réseau interne, il ne doit pas résoudre les clients du réseau externe.
   
-Après avoir configuré le DNS, connectez-vous à Skype Entreprise Online en utilisant PowerShell à distance avec les informations d'identification d'administrateur Skype Entreprise. Pour plus d'informations, reportez-vous à la rubrique [Se connecter à Skype Entreprise Online en utilisant Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Après avoir configuré le DNS, connectez-vous à Skype Entreprise Online en utilisant PowerShell à distance avec les informations d'identification d'administrateur Skype Entreprise. Pour plus d’informations, voir [configurer votre ordinateur pour Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
   
 Dans la session PowerShell, entrez les commandes suivantes pour activer la déviation du trafic multimédia :
   

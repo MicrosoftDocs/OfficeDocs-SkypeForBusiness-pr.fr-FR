@@ -20,16 +20,16 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization.
-ms.openlocfilehash: 2f86e28a99c1c129943d97d58e97e73a355719ab
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: Le système téléphonique dans Office 365 fournit un ID d’appelant par défaut qui est le numéro de téléphone attribué. Vous pouvez modifier ou bloquer l'ID d'appelant (également appelé ID de ligne d'appel). Pour plus d’informations sur l’utilisation des ID de l’appelant dans votre organisation en sélectionnant successivement l’ID d’appelant utilisation dans votre organisation.
+ms.openlocfilehash: 2d2684e79008d63cc625020e8fcbc35061332b13
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371732"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561628"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Définir l'ID d'appelant d'un utilisateur
-The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
+Le système téléphonique dans Office 365 fournit un ID d’appelant par défaut qui est le numéro de téléphone attribué. Vous pouvez modifier ou bloquer l'ID d'appelant (également appelé ID de ligne d'appel). Pour plus d’informations sur l’utilisation des ID de l’appelant dans votre organisation en accédant à [l’ID d’appelant utilisation dans votre organisation](how-can-caller-id-be-used-in-your-organization.md).
   
 > [!TIP]
 > Vous ne pouvez actuellement pas bloquer les appels entrants dans Skype Entreprise Online. 
@@ -44,7 +44,7 @@ Vous pouvez changer les paramètres suivants :
     > [!NOTE]
     > Si vous souhaitez utiliser le paramètre  _Service_, vous devez spécifier un numéro de service valide.
   
-- **Block their outbound caller ID** You can block the outgoing Caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called.
+- **Bloc de leur ID d’appelant sortant** Vous pouvez bloquer l’ID d’appelant sortants d’être envoyés sur les appels PSTN sortants d’un utilisateur. Ce faisant, vous empêchez son numéro de téléphone d'être affiché sur le téléphone d'une personne contactée.
     
 - **Bloc de leur ID de l’appelant entrant** Vous pouvez bloquer un utilisateur de recevoir des ID d’appelant sur tous les appels PSTN entrants.
     
@@ -76,7 +76,7 @@ Pour en savoir plus sur ces paramètres et leur utilisation, cliquez [Comment ut
     
 - **Démarrez une session Windows PowerShell**
     
-1. Depuis le **Menu Démarrer** > **Windows PowerShell**.
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
     
@@ -99,7 +99,7 @@ Pour en savoir plus sur ces paramètres et leur utilisation, cliquez [Comment ut
    > Import-PSSession $session
    > ```
 
-Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Connecting to Skype pour Business Online à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Voir l'ensemble des paramètres de stratégie d'ID d'appelant de votre organisation
 
@@ -160,9 +160,9 @@ Pour supprimer une stratégie dʼun utilisateur, exécutez :
 ```
 Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $null
 ```
-## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
+## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -170,7 +170,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
     
 - Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
-  - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures méthodes de gestion d’Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -188,5 +188,5 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
  

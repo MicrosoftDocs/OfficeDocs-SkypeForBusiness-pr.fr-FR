@@ -3,19 +3,18 @@ title: Nouveautés de Skype Entreprise Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/10/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités sont nouvelles dans Skype pour Business Server 2019.'
-ms.openlocfilehash: 411ca0705fa06d0b5720656cec2fcb3cbda50eeb
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: b0a7040b0d63866bffd2e86a68a7447463485b1e
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696155"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561573"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Nouveautés dans Skype pour Business Server 2019 
 
@@ -26,7 +25,6 @@ Nouvelles fonctionnalités de Skype pour Business Server 2019 sont les suivantes
 - Messagerie vocale dans le nuage  
 - Connecteur de données d’appel
 - Migration côte à côte
-- Migration vers des équipes
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>Les services de messagerie unifiés : messagerie vocale dans le nuage 
 
@@ -50,14 +48,6 @@ Avec le connecteur de données d’appel, vous pouvez effectuer les tâches suiv
 - Assigner des rôles de support technique et administrateur appeler Analytique, afin que vous donner des travailleurs de support technique pour afficher et résoudre les problèmes de leurs domaines de responsabilité. 
 
 Pour plus d’informations, voir [Planification de connecteur de données d’appel](hybrid/plan-call-data-connector.md) .
-  
-
-
-## <a name="installation-and-upgrade-side-by-side-migration"></a>Installation et mise à niveau : migration côte à côte
-
-Dans une migration côte à côte, vous déployez un nouveau serveur exécutant Skype pour Business Server 2019 parallèlement à un serveur qui exécute une version précédente (Skype pour Business Server 2015 ou Lync Server 2013) correspondant et opérations transférez vers le nouveau serveur. Si vous devez revenir à la version précédente, vous devez uniquement retransférer les opérations vers les serveurs d’origine. 
-
-Pour plus d’informations, voir [Migration to Skype pour Business Server 2019](migration/migration-to-skype-for-business-server-2019.md).
 
 ### <a name="see-also"></a>Voir aussi
 

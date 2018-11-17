@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 6722f68da55ef9a9db7783727aaf010cd5df39ed
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7401d1690f85fcfcc0cefe157b4335da63181693
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374178"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561581"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activation ou désactivation des messages hors connexion pour les administrateurs
 
@@ -58,7 +58,7 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
 
  **Démarrez une session Windows PowerShell**
 
-1. Depuis le **Menu Démarrer** > **Windows PowerShell**.
+1. From the **Start Menu** > **Windows PowerShell**.
 
 2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
 
@@ -73,7 +73,7 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
   Import-PSSession $session
   ```
 
-Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Connecting to Skype pour Business Online à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 ## <a name="turning-on-or-off-offline-im"></a>Activation ou désactivation de la messagerie instantanée hors connexion
 
@@ -107,7 +107,7 @@ Pour activer ou désactiver l’envoi des Messages en mode hors connexion en mod
 
 - Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
 
-  - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures méthodes de gestion d’Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
 

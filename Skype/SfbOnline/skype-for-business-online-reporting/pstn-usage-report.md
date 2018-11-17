@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: La nouvelle Skype de zone de rapports du centre d’administration Business affiche vous appeler et audio conférence activité dans votre organisation. Elle vous permet des détails des rapports pour vous donnent plus granulaires sur les activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de conférence Audio, y compris le coût de l’appel afin que vous puissiez comprendre l’utilisation et appeler les détails de facturation pour déterminer l’usage au sein de votre organisation.
-ms.openlocfilehash: 6003199b69395001dc47d77f83927ac32e06e5a4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e4af77832cca1cd2a9d9de49aa83f4400c359277
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862240"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561645"
 ---
 # <a name="pstn-usage-report"></a>Rapport d'utilisation RTC
 
@@ -92,7 +92,9 @@ Voici une illustration du rapport.
      *    **MCOPSTN5** - intérieur appelant Plan (plan appelant 120 min) 
      *    **MCOPSTN6** - nationales appelant Plan (plan appelant de 240 minutes) Remarque : disponibilité limitée
      *    **MCOMEETADD** - services d’audioconférence
-     *    **MCOMEETACPEA** - salaire par Minute services d’audioconférence 
+     *    **MCOMEETACPEA** - salaire par Minute services d’audioconférence
+> [!NOTE]
+> Vous ne pouvez également voir « aucune donnée » dans certains champs. « Aucune donnée » signifie que le champ n’est pas applicable au type d’appel ou fonctionnalité. 
 ***
 ![Numéro 2](../images/sfbcallout2.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes.
  ***

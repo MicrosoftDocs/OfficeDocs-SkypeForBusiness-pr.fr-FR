@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: Cette rubrique décrit les instructions de planification pour le déploiement du serveur de médiation.
-ms.openlocfilehash: 0e5568b93e0edb0b30bf3edf0893f5eb43ac8d19
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0b22a285be9e04929d53faffb58e0f7a3f8f3750
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967932"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561899"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Instructions de déploiement pour le serveur de médiation dans Skype pour Business Server
  
@@ -41,14 +41,14 @@ Si vous avez déployé des passerelles PSTN, IP-PBX ou des contrôleurs de front
     
 Vous pouvez utiliser la Skype pour l’outil de planification d’entreprise à évaluer si colocaliser le serveur de médiation avec votre pool frontal peut gérer la charge. Si votre environnement ne peut pas ces exigences, vous devrez déployer un pool de serveur de médiation autonome.
   
-## <a name="central-site-and-branch-site-considerations"></a>Considérations relatives au site central et aux sites de succursale
+## <a name="central-site-and-branch-site-considerations"></a>Aspects relatifs au site central et aux sites de succursale
 
  Serveurs de médiation sur le site central peuvent servir à acheminer les appels pour IP-PBX ou des passerelles PSTN au niveau des sites de succursale. Toutefois, si vous déployez les jonctions SIP, vous devez déployer un serveur de médiation au niveau du site dans lequel chaque jonction se termine. Un serveur de médiation sur le site central acheminer des appels pour un IP-PBX ou passerelle PSTN sur un site de succursale ne nécessite pas l’utilisation de supports de contournement, mais un le contournement de média est recommandé. Cependant, si vous pouvez l’activer, vous pourrez réduire la latence du chemin d’accès du trafic multimédia et bénéficier ainsi d’une meilleure qualité du trafic multimédia, car le chemin d’accès au contenu multimédia n’est plus nécessaire pour suivre le chemin de signalisation. La déviation du trafic multimédia réduira également la charge de traitement sur le pool.
   
 > [!NOTE]
 > La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle RTC, système IP-PBX et contrôleur SBC. Microsoft a testé plusieurs passerelles RTC et contrôleurs SBC en collaboration avec des partenaires agréés et a effectué différents tests avec les systèmes IP-PBX de Cisco. Le contournement de média est pris en charge uniquement avec les produits et les versions répertoriés dans Unified Communications programme Open Interoperability - Lync Server à [Explorer testé appareils, infrastructure et outils qui prennent en charge et étendent votre Skype pour une expérience](http://partnersolutions.skypeforbusiness.com/solutionscatalog). 
   
-Si la résilience de site de succursale est requise, un Survivable Branch Appliance ou une combinaison d’un serveur frontal, un serveur de médiation et une passerelle doit être déployé sur le site de succursale. (En partant du principe avec résilience de site de succursale est que de présence et de conférence ne sont pas résistantes au niveau du site.) Pour obtenir des instructions sur le site de succursale planification de voix, voir notre documentation de [planification pour la résistance vocale du Site de succursale](https://technet.microsoft.com/en-us/library/gg398477%28v=ocs.15%29.aspx) , tel qu’il doit toujours être pertinent pour Skype pour Business Server 2015.
+Si la résilience de site de succursale est requise, un Survivable Branch Appliance ou une combinaison d’un serveur frontal, un serveur de médiation et une passerelle doit être déployé sur le site de succursale. (En partant du principe avec résilience de site de succursale est que de présence et de conférence ne sont pas résistantes au niveau du site.) Pour obtenir des instructions sur le site de succursale planification de voix, voir [Plan for Enterprise Voice resiliency dans Skype pour Business Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
   
 Pour interagir avec un PBX IP, si le système IP-PBX ne prend pas correctement en charge les interactions multimédias au plus tôt avec plusieurs boîtes de dialogue préliminaires et interactions RFC 3960, il peut y avoir écrêtage du premier premiers mots du message d’accueil pour les appels entrants à partir de l’IP-PBX aux points de terminaison Lync. Ce problème peut être plus grave si un serveur de médiation sur un site central est routage des appels pour un IP-PBX où l’itinéraire s’arrête sur un site de succursale, car davantage de temps est nécessaire pour la signalisation à effectuer. Si vous rencontrez ce problème, déployez un serveur de médiation sur le site de succursale est la seule façon de réduire le découpage de la première premiers mots.
   

@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype pour Business Online vous permet de créer des stratégies d’accès externe supplémentaires. Contrairement aux stratégies de client ou de conférence, où vous pouvez avoir plusieurs combinaisons, il existe trois stratégies d’accès externe prédéfini qui peuvent couvrir la plupart des scénarios.
-ms.openlocfilehash: ad40319330a66c1f0ec141531ae0ccb16a01ae07
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a822e09875bbef1fcd1472ac988a32cadfaf5850
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372600"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561695"
 ---
 # <a name="create-custom-external-access-policies"></a>Créer des stratégies d'accès externe personnalisées
 
@@ -63,7 +63,7 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge de 2016
     
 - **Démarrez une session Windows PowerShell**
     
-1. Depuis le **Menu Démarrer** > **Windows PowerShell**.
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
     
@@ -77,7 +77,7 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge de 2016
     Import-PSSession $session
    ```
 
-   Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Connecting to Skype pour Business Online à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+   Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>Créer une stratégie d’accès externe personnalisé pour un utilisateur
 
@@ -101,9 +101,9 @@ Pour ce faire, exécutez :
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l’utilisation du centre d’administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
-  - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures méthodes de gestion d’Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
