@@ -1,22 +1,23 @@
 ---
-title: Utiliser les rôles d’administration Microsoft Teams pour gérer des équipes
+title: Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
 ms.service: msteams
-description: Découvrez comment utiliser les rôles d’administration différents pour gérer les équipes.
+ms.reviewer: islubin
+description: Découvrez comment utiliser les différents rôles d’administration pour gérer les équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f70b1035600079d4a4f746fe33fa03c6eab287a7
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 895c0992ea15ebff65ff2e4c5cd47823afc81be1
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531350"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620074"
 ---
-# <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Utiliser les rôles d’administration Microsoft Teams pour gérer des équipes
+# <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams
 
 À l’aide d’Azure Active Directory (AD Azure), vous pouvez désigner les administrateurs qui ont besoin de différents niveaux d’accès pour gérer Microsoft Teams. Les administrateurs peuvent gérer la charge de travail d’équipes entière, ou ils peuvent avez délégué des autorisations pour la résolution des problèmes d’appel des problèmes de qualité ou de la gestion des besoins de téléphonie de votre organisation. 
 

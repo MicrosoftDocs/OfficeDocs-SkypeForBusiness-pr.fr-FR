@@ -1,5 +1,5 @@
 ---
-title: Premiers intégrés à Microsoft Teams
+title: Intégrer des utilisateurs précoces dans Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa0b8971e6809b2488f6926f4acf0df898760f4
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 4f5f4b0732aab299a2cf4038547dfa9b6bf4562d
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519800"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620098"
 ---
-# <a name="onboard-early-adopters-to-microsoft-teams"></a>Premiers intégrés à Microsoft Teams
+# <a name="onboard-early-adopters-to-microsoft-teams"></a>Intégrer des utilisateurs précoces dans Microsoft Teams
 
 ## <a name="invite-users-to-teams"></a>Inviter des utilisateurs à des équipes
 
@@ -52,7 +52,7 @@ Atteindre : [Équipes pour Windows](#teams-for-windows) | [équipes pour Mac](#
 Le client de bureau équipes permet aux utilisateurs de Windows et Mac la meilleure expérience globale. Pour plus d’informations, voir [obtenir des clients pour les équipes (client de bureau)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) et la [configuration matérielle requise pour l’application des équipes Microsoft](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
 
 > [!NOTE]
-> En tant qu’administrateur, vous pouvez choisir la méthode pour distribuer les fichiers d’installation sur les ordinateurs de votre organisation, comme System Center Configuration Manager (Windows) ou Jamf Pro (Mac OS). Pour obtenir la
+> En tant qu’administrateur, vous pouvez choisir la méthode pour distribuer les fichiers d’installation sur les ordinateurs de votre organisation, comme System Center Configuration Manager (Windows) ou Jamf Pro (Mac OS).
 
 #### <a name="teams-for-windows"></a>Équipes pour Windows 
 Pour installer le client de bureau Windows, la plus simple consiste à :
