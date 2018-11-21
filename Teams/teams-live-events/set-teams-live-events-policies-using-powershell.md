@@ -1,5 +1,5 @@
 ---
-title: Utilisation de PowerShell pour définir des stratégies d’événements en direct dans Microsoft Teams
+title: Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 description: Exemples illustrant comment utiliser PowerShell pour définir des stratégies dans les équipes pour contrôler qui peut contenir des événements en direct dans votre organisation et les fonctionnalités qui sont disponibles dans les événements qu’ils créent
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f802c2b67c0a4cd4b0838dd9aeec9c4bbf884968
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c198711d918914bbd6a1929514d7c2e9aa7dfe00
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26535912"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626222"
 ---
-# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utilisation de PowerShell pour définir des stratégies d’événements en direct dans Microsoft Teams
+# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Vous pouvez utiliser les applets de commande Windows PowerShell suivante pour configurer et affecter des paramètres de stratégie pour les événements en temps réel dans les équipes : 
@@ -82,15 +82,15 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 Créer une nouvelle stratégie qui n’autorise pas la planification d’événements en direct, exécutez :
 ```
-New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingpolicy
+New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
 Désactiver la planification d’événements en direct, exécutez :
 ```
-Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingpolicy -AllowBroadcastScheduling $false
+Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
 Puis affecter des utilisateurs à cette stratégie, exécutez :
 ```
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingpolicy -Verbose
+Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
 **Pour désactiver des événements live planification pour un grand nombre d’utilisateurs en autorisant un ensemble d’utilisateurs à l’échéancier**
 

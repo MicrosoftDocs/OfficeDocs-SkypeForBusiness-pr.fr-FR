@@ -1,5 +1,5 @@
 ---
-title: Qu'est-ce que les crédits de communication ?
+title: Qu'est-ce que les crédits de communication ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: badafff1ec2ca596828bdbcb7547cf777e08b432
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a987b6079b10a3deaf6a76dd2629be59b52a2007
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016556"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626238"
 ---
-# <a name="what-are-communications-credits"></a>Qu'est-ce que les crédits de communication ?
+# <a name="what-are-communications-credits"></a>Qu'est-ce que les crédits de communication ?
 
 Communications crédits sont un moyen pratique de payer minutes d’audioconférence et planifier l’appel. Il permet de garantir que vous et vos utilisateurs ne sont jamais interceptées n’est pas en mesure de :
   
@@ -55,7 +55,7 @@ Communications crédits sont un moyen pratique de payer minutes d’audioconfér
   
 ## <a name="what-are-the-communications-credits-rates"></a>Quelles sont les taux de Communications crédits ?
 
-Si vous vous demandez comment ce que le coût des appels sont pour l’appel des Plans, voir Plans de Communications crédits [taux d’appel](https://products.office.com/skype-for-business/pstn-calling-plans#Rates) .
+Si vous vous demandez comment ce que le coût des appels sont pour l’appel des Plans, voir Plans de Communications crédits [taux d’appel](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates) .
   
 ## <a name="what-is-it"></a>Description
 
@@ -89,7 +89,7 @@ Si vous êtes prêt pour la définir ascendants, voir [configurer les Communicat
 
 Vous pouvez voir les plans et les prix à partir d’un des liens suivants :
   
-- [Offres d'appels](https://go.microsoft.com/fwlink/?linkid=799761)
+- [Plans d’appel](https://go.microsoft.com/fwlink/?linkid=799761)
     
 - [Audioconférence](https://go.microsoft.com/fwlink/?linkid=799762)
     

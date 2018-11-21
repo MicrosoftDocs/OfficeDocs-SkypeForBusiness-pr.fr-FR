@@ -1,5 +1,5 @@
 ---
-title: Planifier des événements en temps réel dans Microsoft Teams
+title: Planifier des événements en direct dans Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -12,14 +12,14 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en temps réel dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c0ee1ed41f1d906e43f119e6683f772bde32be3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 40722ee1e58e7524184408819932d9a2cfdc1275
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532316"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626261"
 ---
-# <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en temps réel dans Microsoft Teams
+# <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Lorsque vous planifiez les événements en direct équipes destiné à contenir des grandes réunions dans votre organisation, il existe plusieurs facteurs que vous devez prendre en compte avant de commencer à définir ascendants. 
@@ -109,5 +109,5 @@ Accédez à [configurer pour les événements live équipes](set-up-for-teams-li
 ### <a name="related-topics"></a>Rubriques connexes
 - [Quelles sont les équipes live événements ?](what-are-teams-live-events.md)
 - [Configurer des équipes événements en direct](set-up-for-teams-live-events.md)
-- [Confgure live paramètres des événements dans les équipes](configure-teams-live-events.md)
+- [Configurer les paramètres d’événements en direct dans les équipes](configure-teams-live-events.md)
 

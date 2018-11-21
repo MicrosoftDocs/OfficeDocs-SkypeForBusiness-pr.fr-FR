@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Résumé : Passez en revue le considérations relatives à équilibrage avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: cb0b1d8c77a4953ed7950d85bd198bfdd4823961
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 9c0153d9b366731a85070c42ed11ea1a061ee409
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882265"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626190"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Configuration requise pour l’équilibrage de charge pour Skype Entreprise
  
@@ -34,7 +34,7 @@ Décider quelle solution d’équilibrage de charge est appropriée pour chaque 
     
 - Certains types de trafic nécessitent un programme dʼéquilibrage de charge matérielle. Par exemple, le trafic HTTP requiert un équilibrage de charge matérielle plutôt que l’équilibrage de charge DNS. Celui-ci ne fonctionne pas avec le trafic web client à serveur.
     
-Si vous décidez d’utiliser l’équilibrage de la charge DNS pour un pool mais que vous souhaitez quand même implémenter des équilibreurs de la charge matérielle pour certains types de trafics, tels que le trafic HTTP, l’administration des équilibreurs de la charge matérielle est grandement simplifiée. Par exemple, l’équilibreur de charge matérielle sera plus simple car il ne gérera que le trafic HTTP et HTTPS, alors que tous les autres protocoles seront gérés par l’équilibrage de charge DNS. Pour plus d’informations, voir [Équilibrage de charge DNS](load-balancing.md#BKMK_DNSLoadBalancing). 
+Si vous décidez d’utiliser l’équilibrage de la charge DNS pour un pool mais que vous souhaitez quand même implémenter des équilibreurs de la charge matérielle pour certains types de trafics, tels que le trafic HTTP, l’administration des équilibreurs de la charge matérielle est grandement simplifiée. Par exemple, l’équilibreur de charge matérielle sera plus simple car il ne gérera que le trafic HTTP et HTTPS, alors que tous les autres protocoles seront gérés par l’équilibrage de charge DNS. Pour plus d’informations, voir [DNS Load Balancing](load-balancing.md#BKMK_DNSLoadBalancing). 
   
 Pour le trafic de serveur à serveur, Skype pour Business Server utilise l’équilibrage de charge compatibles avec la topologie. Les serveurs lire la topologie publiée dans le magasin Central de gestion pour obtenir les noms de domaine complets des serveurs de la topologie et distribuent automatiquement le trafic entre les serveurs. Les administrateurs n’ont pas besoin de configurer ou de gérer ce type d’équilibrage de charge. 
   
@@ -109,7 +109,7 @@ Si vous déployez des appareils mobiles, votre équilibreur de la charge matéri
 > Les programmes d’équilibrage de la charge matérielle F5 possèdent une fonctionnalité appelée OneConnect qui permet de veiller à ce que la charge de chaque requête au sein d’une connexion TCP soit individuellement équilibrée. Si vous déployez des appareils mobiles, veillez à ce que le fournisseur de votre équilibreur de la charge matérielle prenne en charge la même fonctionnalité. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security). F5 fournit les paramètres spécifiques pour cela. 
   
 > [!CAUTION]
-> Pour plus d’informations sur les équilibreurs de charge matérielle tiers, consultez [Infrastructure de Skype pour les entreprises](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
+> Pour en savoir plus sur les programmes tiers d’équilibrage de la charge matérielle, reportez-vous à [Infrastructure Skype Entreprise](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 La configuration requise de l’équilibreur de la charge matérielle des services web du directeur et du pool de serveurs frontaux est la suivante :
   
@@ -145,7 +145,7 @@ Vous définissez la surveillance des ports sur les équilibreurs de la charge ma
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucune  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucune  <br/> |HTTP  <br/> |
    
-## <a name="dns-load-balancing"></a>Équilibrage de charge DNS
+## <a name="dns-load-balancing"></a>DNS Load Balancing
 <a name="BKMK_DNSLoadBalancing"> </a>
 
 Skype pour Business Server Active DNS équilibrage de charge, une solution logicielle qui permet de réduire la surcharge administrative liée à équilibrage de charge sur votre réseau. Équilibrage de charge DNS répartit le trafic réseau qui est unique à Skype pour le serveur d’entreprise, telles que le trafic SIP et le trafic multimédia.
@@ -284,7 +284,7 @@ Pour déployer l’équilibrage de la charge DNS sur un pool de serveurs de mé
 ### <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>Blocage du trafic vers un serveur avec équilibrage de charge DNS
 <a name="BK_Mediation"> </a>
 
-Si vous utilisez l’équilibrage de la charge DNS et que vous voulez bloquer le trafic vers un ordinateur particulier, vous devez supprimer les adresses IP dans le nom de domaine complet du pool, mais également supprimer l’entrée DNS associée à l’ordinateur. 
+Si vous utilisez l’équilibrage de charge DNS et que vous voulez bloquer le trafic vers un ordinateur particulier, vous devez supprimer les adresses IP dans le nom de domaine complet du pool, mais également l’entrée DNS associée à l’ordinateur. 
   
 Notez que pour le trafic de serveur à serveur, Skype pour Business Server utilise l’équilibrage de charge compatibles avec la topologie. Les serveurs lire la topologie publiée dans le magasin Central de gestion pour obtenir les noms de domaine complets des serveurs de la topologie et distribuent automatiquement le trafic entre les serveurs. Pour bloquer la réception du trafic serveur à serveur pour un serveur, vous devez supprimer le serveur de la topologie. 
   
