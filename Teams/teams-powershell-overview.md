@@ -9,12 +9,12 @@ ms.service: msteams
 description: Découvrez comment utiliser les contrôles de PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84de597cc5cc6a00227cf48d9d8559f9dcb3778e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a898a4eca8d96ef2da44f17695472301d6332724
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531609"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625750"
 ---
 # <a name="teams-powershell-overview"></a>Vue d’ensemble de PowerShell équipes
 
@@ -22,7 +22,7 @@ Microsoft Teams possède un ensemble d’outils pour les administrateurs informa
 
 ## <a name="which-modules-do-you-need-to-use"></a>Les modules devez-vous utiliser ?
 
-Les contrôles de PowerShell pour gérer Microsoft Teams se trouvent dans deux modules PowerShell différents : le [module PowerShell d’équipes Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3) (aperçu public) et le [Skype pour le module PowerShell Business](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Le module PowerShell équipes contient toutes les applets de commande que vous avez besoin pour créer et gérer les équipes elle-même, tandis que la Skype pour le module PowerShell Business contient les contrôles de gestion des stratégies, les configurations et autres outils d’équipes. Les documents de référence pour les contrôles PowerShell indique quel module contient l’applet de commande que vous êtes étudier. (Éventuellement, les deux modules sont combinés.)
+Les contrôles de PowerShell pour gérer Microsoft Teams se trouvent dans deux modules PowerShell différents : le [module PowerShell d’équipes Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (aperçu public) et le [Skype pour le module PowerShell Business](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Le module PowerShell équipes contient toutes les applets de commande que vous avez besoin pour créer et gérer les équipes elle-même, tandis que la Skype pour le module PowerShell Business contient les contrôles de gestion des stratégies, les configurations et autres outils d’équipes. Les documents de référence pour les contrôles PowerShell indique quel module contient l’applet de commande que vous êtes étudier. (Éventuellement, les deux modules sont combinés.)
 
 ## <a name="what-can-each-admin-role-do"></a>Que peut faire chaque rôle d’administration ?
 
@@ -32,7 +32,7 @@ Lecture des [équipes de Microsoft utiliser les rôles d’administrateur pour g
 
 Les applets de commande pour la création et la gestion des équipes se trouvent dans le [module PowerShell d’équipes Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3). 
 
-Les équipes sont sauvegardés par groupes O365, donc lorsque vous créez une équipe, vous créez un groupe. Il existe un ensemble d’applets de commande fournies pour l’exploitation de l’équipe de base et de ses paramètres (``new-team``, ``get-team``, ``set-teamfunsettings``), ainsi que des applets de commande pour gérer les canaux de l’équipe (``new-teamchannel``, ``remove-teamchannel``). Toutes ces applets de commande peuvent être exécutée en tant que les utilisateurs finaux, mais qu’elles fonctionnent uniquement sur les équipes que vous possédez ou que vous êtes membre. Si vous êtes un administrateur Global ou un administrateur de Service d’équipes, vous serez en mesure d’agir sur toutes les équipes de votre organisation.
+Les équipes sont sauvegardés par groupes O365, donc lorsque vous créez une équipe, vous créez un groupe. Il existe un ensemble d’applets de commande fournies pour l’exploitation de l’équipe de base et de ses paramètres (``new-team``, ``get-team``, ``set-teamfunsettings``, ``set-teammessagingsettings``, ``set-teamguestsettings``, ``set-teammembersettings``), la gestion des utilisateurs de l’équipe (``add-teamuser``, ``remove-teamuser``), ainsi que des applets de commande pour gérer les canaux de l’équipe (``new-teamchannel`` , ``remove-teamchannel``). Toutes ces applets de commande peuvent être exécutée en tant que les utilisateurs finaux, mais qu’elles fonctionnent uniquement sur les équipes que vous possédez ou que vous êtes membre. Si vous êtes un administrateur Global ou un administrateur de Service d’équipes, vous serez en mesure d’agir sur toutes les équipes de votre organisation.
 
 > **GroupId** utilisé dans les applets de commande PowerShell d’équipes Microsoft module est identique à la propriété **Identity** retournée par ``Get-UnifiedGroup`` dans le module PowerShell Exchange.
 
@@ -84,4 +84,4 @@ Vous trouverez des instructions détaillées sur l’utilisation de tous les con
 
 - [Référence d’applet de commande Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 - [Skype pour la référence de l’entreprise](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
-- [Utiliser les rôles d’administration Microsoft Teams pour gérer des équipes](using-admin-roles.md)
+- [Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](using-admin-roles.md)

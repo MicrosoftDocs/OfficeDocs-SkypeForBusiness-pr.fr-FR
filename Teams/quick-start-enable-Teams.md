@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f7f4dcc7ce15549384bbdd5485bed9fbe7b7ef5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 98112579a33d633e4303bbf4f395f508b955eb8e
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012408"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625673"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Guide de démarrage rapide : guide de planification de Microsoft Teams
 ==========================================================
@@ -49,7 +49,7 @@ Regardez cette courte vidéo avec des conseils pratiques à prendre en compte lo
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Si Microsoft Teams n’est pas activé dans votre client Office 365 et que vous êtes un administrateur d’Office 365, suivez les instructions de notre article [Gérer l’accès des utilisateurs à Teams](user-access.md) pour vous assurer que vos utilisateurs ont accès à l’application.
+Si Microsoft Teams n’est pas activée dans votre organisation cliente Office 365 et que vous êtes un administrateur de procéder de Office 365 les instructions de notre article [gérer l’accès utilisateur aux équipes](user-access.md) pour vérifier vos utilisateurs ont accès à l’application.
 
 ## <a name="step-3-complete-technical-planning"></a>Étape 3 : effectuer une planification technique
 
@@ -60,7 +60,7 @@ Une planification technique efficace est le fondement d’une expérience utilis
 3.  [URL et plages d'adresses IP Office 365](office-365-urls-ip-address-ranges.md)
 4.  [Accès invité dans Teams](guest-access.md)
 
-Certaines organisations peuvent également consulter la rubrique [Présentation de la sécurité et de la conformité dans Teams.](security-compliance-overview.md)
+En outre, certaines entreprises souhaitent passer en revue la [vue d’ensemble de la sécurité et de conformité dans les équipes](security-compliance-overview.md).
 
 
 ## <a name="step-4-conduct-pilots-and-deploy-teams"></a>Étape 4 : exécuter vos projets pilotes et déployer Teams
