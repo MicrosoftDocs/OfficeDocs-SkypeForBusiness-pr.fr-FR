@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8e81a20d5c3e792f2a249b86d95a0ca22ab042e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 91608a65530c7f57772b0fe544394a669e67b2a4
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016260"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649524"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -33,9 +33,9 @@ Technologie est innovation une augmentation sans précédent. Se mettre à jour 
 
 L’état de votre réseau affecte l’expérience de l’utilisateur. Lorsqu’un utilisateur a une mauvaise expérience (par exemple, appel projections ou retard temps lors de la participation à des réunions), ils ce correspondent à la technologie elle-même, ce qui les rend avec l’impression que la technologie ne fonctionne pas et ouvre la porte pour les applications non prises en charge. Implémentation d’un plan pour surveiller et limiter l’intégrité du réseau afin de garantir une expérience utilisateur positive outre réduisant les appels à votre support technique. Pour plus d’informations, voir les articles suivants :
 
--   [Utiliser mon service](upgrade-operate-my-service.md)
+-   [Utiliser votre service](upgrade-operate-my-service.md)
 -   [Contrôler la qualité](upgrade-monitor-quality.md)
--   [Améliorer mon service](upgrade-enhance-my-service.md)
+-   [Améliorer votre service](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>Lecteur d’adoption et de momentum utilisateur
 

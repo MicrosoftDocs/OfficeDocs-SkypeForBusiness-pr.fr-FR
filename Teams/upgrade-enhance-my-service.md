@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f000a81c0762b11b06e81fd2fcca18915ce1233
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 278e6200547966e5a41983bf3a0f76ecb0e5ca11
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532354"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649683"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -29,7 +29,7 @@ Cet article fait partie de la phase d’Excellence opérationnelle de votre parc
 
 Cet article donne une vue d’ensemble de la configuration requise pour tirer le meilleur parti d’exploitation équipes après la mise à niveau. En analysant en permanence des fonctionnalités de service d’équipes, vous pouvez être que vous fournit le plus de valeur pour votre organisation.
 
-## <a name="enhance-my-service-overview"></a>Améliorer la vue d’ensemble de mon service
+## <a name="enhance-your-service-overview"></a>Améliorer votre vue d’ensemble du service
 Une fois que vous avez déployé avec succès des équipes à votre organisation et utilisez le service avec la qualité et la fiabilité, l’étape suivante consiste à évaluer régulièrement si vous avez des opportunités pour améliorer vos services. Il s’agit d’un composant d’amélioration continue de service de planification qui est une norme moderne pour la gestion des services en nuage. 
 
 Idéal pour vous assurer que vous obtenez toujours le meilleur parti de vos services consiste à surveiller le [parcours publics équipes](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de nouvelles améliorations des fonctionnalités qui peuvent être intéressantes pour votre organisation. Si vous avez accès au portail d’administration d’Office 365, vous recevrez des mises à jour régulières de notre part sur les fonctionnalités nouvelles et modifiées par le biais de notre centre de messages. 

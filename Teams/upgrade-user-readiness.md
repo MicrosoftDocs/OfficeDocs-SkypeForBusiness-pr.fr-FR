@@ -1,5 +1,5 @@
 ---
-title: Préparer mon plan de préparation utilisateur avant mise à niveau à partir de Skype pour Business Teams Microsoft - Microsoft Teams
+title: Préparer un plan de préparation des utilisateurs avant mise à niveau à partir de Skype pour Business Teams Microsoft - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eba3174e8bce17f66a7e990c0066bc886aed9f9b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: de13a3775c9ffae4fde1ffcd71be23ffab4e4a96
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374096"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649691"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs] (media/upgrade-banner-user-readiness.png "Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs")
 
@@ -47,7 +47,7 @@ Un plan de préparation utilisateur intègre comment vous allez communiquer avec
 <table>
 <tbody>
 <tr><th>Les canaux de communication vous faites ?</th><th>Les chaînes de formation vous faites ?</th><th>Quel support canaux vont vous utilisez ?</th></tr>
-<tr><td><ul><li>Email<br><strong>Conseil :</strong> Utilisez notre coexistence pilote, exemples et les messages électroniques pour personnaliser votre campagne de mise à niveau.</li><li>Affiches ou signalisation numérique</li><li>Événements de lancement</li><li>Responsables de service</li><li>Champions</li><li>Les équipes/canaux</li><li>Gamification</li></ul></td><td><ul><li>Vidéos et des articles en ligne publié de Microsoft</li><li>Ressources :<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Passer aux équipes de Skype pour les entreprises</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Formation vidéo équipes</a></li></ul></li><li>Assistance de produit (T-Bot)</li><li>Formation interne de l’équipe</li><li>Formation de l’équipe partenaire</li></ul></td><td><ul><li>Support technique interne</li><li>Support technique externalisé</li><li>Libre-service (site intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Aide et procédures en ligne</a></li><li>Floor-déambulateurs et des champions</li><li>Commentaires (enquêtes, évaluations)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>Conseil :</strong> Utilisez notre coexistence pilote, exemples et les messages électroniques pour personnaliser votre campagne de mise à niveau.</li><li>Affiches ou signalisation numérique</li><li>Événements de lancement</li><li>Responsables de service</li><li>Champions</li><li>Les équipes/canaux</li><li>Gamification</li></ul></td><td><ul><li>Vidéos et des articles en ligne publié de Microsoft</li><li>Ressources :<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Passer aux équipes de Skype pour les entreprises</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Formation vidéo équipes</a></li></ul></li><li>Assistance de produit (aide)</li><li>Formation interne de l’équipe</li><li>Formation de l’équipe partenaire</li></ul></td><td><ul><li>Support technique interne</li><li>Support technique externalisé</li><li>Libre-service (site intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Aide et procédures en ligne</a></li><li>Floor-déambulateurs et des champions</li><li>Commentaires (enquêtes, évaluations)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

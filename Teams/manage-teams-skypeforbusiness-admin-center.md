@@ -16,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 3dec789d31737eeb4585da5e28737a15ca679a5b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b3305efee9636dfff391fc9a851227cf215b719a
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530574"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649532"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Gérer les équipes pendant la transition vers le nouveau Microsoft Teams & Skype entreprise centre d’administration
 ======================================================
@@ -43,7 +43,6 @@ Le tableau suivant identifie les sections de l’expérience des équipes qui on
 |---------|---------|---------|---------|
 |Général     |Afficher la conversation d’organisation dans le profil personnel        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Client       |
 |Général     |Utilisez Skype pour les entreprises pour les destinataires qui ne possèdent pas les équipes         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Général     |Autoriser les messages d’aide proactive T-Bot         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
 |Intégration de la messagerie     |Autoriser les utilisateurs à envoyer des messages électroniques à canaux         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
 |Intégration de la messagerie     |Autoriser les expéditeurs liste         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Client         |
 |Stockage cloud personnalisé     |Zone         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |

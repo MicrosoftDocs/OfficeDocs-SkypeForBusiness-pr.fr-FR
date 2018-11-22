@@ -1,5 +1,5 @@
 ---
-title: Guide des opérations pour les équipes Microsoft
+title: Guides des opérations de Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -14,12 +14,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5f0c1f83eca9bd7f48920eb603aaeabb8e1429e
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: f87ab06fd867d216a8668d9bbb9e3ad1e807b463
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502266"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649596"
 ---
 # <a name="operate-my-service"></a>Utiliser mon service
 
@@ -169,7 +169,7 @@ La première étape de la gestion des modifications consiste à surveiller les m
 Dans le [blog des équipes Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog), vous pouvez Découvrez les meilleures pratiques, les tendances et les informations sur les mises à jour les équipes. Prévu rechercher les mises à jour principales aux équipes à annoncer ici. Vous pouvez également vous abonner au blog via un flux RSS. Vous pouvez ensuite ajouter [le flux RSS](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) directement dans un canal d’équipes, afin que toutes les informations importantes sont remises directement à l’intérieur d’équipes.
 
 Toutes les fonctionnalités qui sont publiées sont décrits dans les [Notes de publication pour les équipes Microsoft](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de).
-Vous trouverez une liste des fonctionnalités qui ont été publiées pour le bureau, web et les appareils mobiles. Le même ensemble de notes de publication sont également disponibles dans l’onglet Notes de publication dans le [Microsoft équipes T-Bot](t-bot.md).
+Vous trouverez une liste des fonctionnalités qui ont été publiées pour le bureau, web et les appareils mobiles. Le même ensemble de notes de publication sont également disponibles dans l’onglet [aide](get-help-in-microsoft-teams.md)de **ce qui est nouveau** .
 
 Vous familiariser avec les ressources disponibles et assurez-vous que vous affectez propriétaires applicables à surveiller pour modification.
 
@@ -216,7 +216,7 @@ Pour plus d’informations sur la planification de la gestion des modifications 
 
 | Activité               | Description                                                                                                                                                                                                                | Cadence   | Équipe affecté |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
-| Surveiller les modifications     | Surveiller les modifications à venir au service Microsoft Teams.                                                                                                                                                                   | Chaque jour     |               |
+| Surveiller les modifications     | Surveiller les modifications à venir au service Microsoft Teams.                                                                                                                                                                   | Jour     |               |
 | Planification de modification    | Évaluer et planifier des nouvelles fonctionnalités et fonctions, y compris les plans de communication, campagnes de sensibilisation et des formations.                                                                                                     | Selon vos besoins |               |
 | Préparation des utilisateurs             | Effectuez communication ciblée, sensibilisation ou campagnes de formation pour les utilisateurs sont prêts pour que les modifications à venir.                                                                                                        | Selon vos besoins |               |
 | Prise en charge de la préparation de l’équipe | Effectuer communication ciblée, sensibilisation ou campagnes de formation pour s’assurer de que l’équipe de support est prête. Équipes de support technique peuvent inclure l’équipe « GANT blanc », services, niveau 2 ou niveau 3 prise en charge, partenaires externes et ainsi de suite. | Selon vos besoins |               |
@@ -349,21 +349,21 @@ Pour vérifier l’intégrité de votre réseau, un nombre d’opérations activ
 
 | Activité                                                       | Description                                                                                                                                                                                                                                                                                                                                                                 | Cadence                | Équipe affecté |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|---------------|
-| Surveiller Office 365 IP et des URL                                | Surveiller des modifications apportées à [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips) à l’aide fournie sur les [flux RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) et que vous lancez une demande de modification à des groupes réseau applicables.                                                                                                                                | Chaque jour                  |               |
+| Surveiller Office 365 IP et des URL                                | Surveiller des modifications apportées à [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips) à l’aide fournie sur les [flux RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) et que vous lancez une demande de modification à des groupes réseau applicables.                                                                                                                                | Jour                  |               |
 | Mise à jour du réseau en fonction des modifications apportées à Office 365 IP et des URL | Mettre à jour les composants réseau applicable (pare-feu, serveurs proxy, VPN, pare-feu côté client et ainsi de suite) afin de refléter les modifications apportées à [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips).                                                                                                                                                              | Selon vos besoins              |               |
 | Fournir des données de création                                          | Fournir les informations de sous-réseau mis à jour le poids lourd qualité (ou concernées) pour garantir que la [Création de définitions de CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) sont à jour. | Selon vos besoins              |               |
 | Implémenter des modifications                                               | Implémenter les modifications sur le réseau pour la prise en charge des variables équipes exigences commerciales et techniques. Éléments du réseau peuvent inclure :<ul><li>Pare-feu</li><li>Réseaux privés virtuels</li><li>Filaire et les réseaux Wi-Fi</li><li>La connectivité Internet et ExpressRoute</li><li>DNS</li></ul>     | Selon vos besoins              |               |
 | Création de rapports et de surveillance de réseau                               | Surveiller le réseau de bout en bout de disponibilité, l’utilisation et les tendances de capacité à l’aide de vos outils de gestion réseau tiers existants et création de rapports disponibles auprès de fournisseurs de votre réseau. Utilisez les tendances des données pour la planification de la capacité réseau.                                                                                                            | Daily, weekly, monthly |               |
 | Planification de capacité                                              | Collaborer avec les propriétaires des services aux équipes de comprendre l’évolution des besoins métiers et techniques qui peuvent entraîner des modifications de la capacité supplémentaire. Exploiter les résultats à partir de [Planificateur réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) pour s’assurer que suffisamment de bande passante est disponible pour Microsoft Teams.                               | Selon vos besoins              |               |
 | Résolution des problèmes de réseau et de correction                        | Aider les services équipes, les propriétaires de services et les principales parties prenantes à résoudre les problèmes et à résoudre les problèmes liés aux équipes connectivity, la fiabilité ou la qualité. Éléments du réseau peuvent inclure :<ul><li>Pare-feu</li><li>Réseaux privés virtuels</li><li>Filaire et les réseaux Wi-Fi</li><li>La connectivité Internet et ExpressRoute</li><li>DNS</li></ul>    | Selon vos besoins              |               |
-| Test de la haute disponibilité et de la récupération d’urgence                | Effectuez régulière haute disponibilité et récupération d’urgence test sur l’infrastructure réseau pour vous assurer qu’il répond aux objectifs de niveau de service indiquée (SLA) les contrats de niveau de service (SLA) pour le service d’équipes.                                                                                                                                                  | Tous les mois                |               |
+| Test de la haute disponibilité et de la récupération d’urgence                | Effectuez régulière haute disponibilité et récupération d’urgence test sur l’infrastructure réseau pour vous assurer qu’il répond aux objectifs de niveau de service indiquée (SLA) les contrats de niveau de service (SLA) pour le service d’équipes.                                                                                                                                                  | Mois                |               |
 
 
 ### <a name="references"></a>Références 
 
 [Planificateur de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
-[URL et plages d'adresses IP Office 365](https://aka.ms/o365ips)
+[URL et plages d'adresses IP Office 365](https://aka.ms/o365ips)
 
 [Schéma des données de création](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
@@ -389,7 +389,7 @@ Nous vous recommandons vivement de vous désigner le poids lourd qualité dès l
 | Effectuer la qualité de l’expérience avis (QERs)     | Effectuer un QER pour identifier les tendances de qualité et de fiabilité, passez en revue par rapport à des objectifs définis et rapport principales parties prenantes dans l’organisation.                                                                                                                            | Tous les mois (toutes les semaines au cours des déploiements) |               |
 | Lecteur de correction                      | Coordonner les efforts de correction de l’organisation en fonction des résultats et évaluations QER.                                                                                                                                                                                                           | Selon vos besoins                           |               |
 | Mettre à jour des données de création de CQD            | Mettre à jour ou ajouter de nouvelles définitions de construction dans CQD lorsque des modifications sont apportées au réseau (voir [les informations de construction de téléchargement](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)). | Selon vos besoins                           |               |
-| Remplir le rôle Champion de qualité      | Responsables de bout en bout de la qualité de l’organisation. Cela inclut :<ul><li>Assurez-vous que le QER est mené régulièrement.</li><li>Signaler pour les principales parties prenantes sur l’état de la qualité.</li><li>Vérifiez que les données de création de définitions sont à jour.</li><li>Coordonner les efforts de correction de l’organisation pour vous assurer que les utilisateurs ont une expérience de haute qualité avec des équipes.</li></ul>          | Chaque jour                               |               |
+| Remplir le rôle Champion de qualité      | Responsables de bout en bout de la qualité de l’organisation. Cela inclut :<ul><li>Assurez-vous que le QER est mené régulièrement.</li><li>Signaler pour les principales parties prenantes sur l’état de la qualité.</li><li>Vérifiez que les données de création de définitions sont à jour.</li><li>Coordonner les efforts de correction de l’organisation pour vous assurer que les utilisateurs ont une expérience de haute qualité avec des équipes.</li></ul>          | Jour                               |               |
 
 
 
@@ -446,21 +446,21 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 
 | Activité                 | Description                                                                                                                                                                                                                                                                                                                                                                     | Cadence   | Équipe affecté |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
-| Configuration requise du point de terminaison    | Vérifiez que les équipes de point de terminaison continue pour répondre à tous les logiciels requis pour les équipes répertoriés dans [obtenir des clients pour les équipes Microsoft](get-clients.md).                                                                                                                                                                                       | Tous les mois   |               |
+| Configuration requise du point de terminaison    | Vérifiez que les équipes de point de terminaison continue pour répondre à tous les logiciels requis pour les équipes répertoriés dans [obtenir des clients pour les équipes Microsoft](get-clients.md).                                                                                                                                                                                       | Mois   |               |
 | Pare-feu de point de terminaison       | Mettre à jour les exclusions appropriées sur le pare-feu du point de terminaison en fonction des informations dans [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips). Votre fournisseur tiers auront des instructions spécifiques à la maintenance des exclusions. S’abonner à ce [flux RSS](https://support.office.com/o365ip/rss) pour être averti automatiquement des modifications. | Selon vos besoins |               |
 | Pilotes Wi-Fi            | Tester et mettre à jour les pilotes Wi-Fi sur le PC. Valider les résultats à l’aide de CQD ([Guide Quality of Experience révision](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Selon vos besoins |               |
-| Gestion de point de terminaison      | Gérer le catalogue de points de terminaison pris en charge et les périphériques d’interface (par exemple, casques). Gérer les contrats fournisseurs, garantie, distribution, remplacement et réparer les stratégies.                                                                                                                                                                                                        | Tous les mois   |               |
+| Gestion de point de terminaison      | Gérer le catalogue de points de terminaison pris en charge et les périphériques d’interface (par exemple, casques). Gérer les contrats fournisseurs, garantie, distribution, remplacement et réparer les stratégies.                                                                                                                                                                                                        | Mois   |               |
 | Résolution des problèmes de point de terminaison | Résolution des problèmes de tâches peuvent inclure la vérification de la connectivité, consultation de la liste de problèmes connus, collecte des journaux, analyse et mise à niveau vers le Support de Microsoft ou des fournisseurs tiers.                                                                                                                                                                                               | Selon vos besoins |               |
 
 ### <a name="references"></a>Références 
 
-[URL et plages d'adresses IP Office 365](https://aka.ms/o365ips)
+[URL et plages d'adresses IP Office 365](https://aka.ms/o365ips)
 
 [Obtenir des clients pour Microsoft Teams](get-clients.md)
 
 [Communauté Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[Problèmes connus pour Microsoft Teams](known-issues.md)
+[Problèmes connus concernant Microsoft Teams](known-issues.md)
 
 [Vérifier l'intégrité du service pour Microsoft Teams](service-health.md)
 
