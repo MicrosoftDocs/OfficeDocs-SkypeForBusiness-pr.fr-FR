@@ -1,0 +1,82 @@
+---
+title: Gérer les paramètres de réunion dans Microsoft Teams
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.reviewer: sonua
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+ms.audience: Admin
+appliesto:
+- Microsoft Teams
+localization_priority: Normal
+search.appverid: MET150
+f1keywords: ms.teamsadmincenter.meetingsettings.overview
+MS.collection: Teams_ITAdmin_Help
+description: Découvrez comment gérer les paramètres pour les réunions d’équipes qui planifient des utilisateurs dans votre organisation.
+ms.openlocfilehash: bf7350d94f61fcbaff60dacb161d5096b8f549e7
+ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26671023"
+---
+# <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
+
+En tant qu’administrateur, vous utilisez les paramètres de réunion équipes pour contrôler si les utilisateurs anonymes peuvent participer à des réunions d’équipes, personnaliser les invitations aux réunions et si vous souhaitez activer la qualité de Service (QoS), définir les ports pour le trafic en temps réel. Ces paramètres s’appliquent à toutes les réunions d’équipes cette planification, les utilisateurs de votre organisation. Vous gérer ces paramètres à partir de **réunions** > **paramètres de réunion** dans le Microsoft Teams & Skype entreprise centre d’administration. 
+
+## <a name="allow-anonymous-users-to-join-meetings"></a>Autoriser les utilisateurs anonymes à participer à des réunions
+
+Avec la participation anonyme, tout le monde peut joindre la réunion en tant qu’utilisateur anonyme en cliquant sur le lien dans l’invitation à la réunion. 
+
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide les équipes Microsoft & Skype entreprise centre d’administration
+1. Dans la navigation de gauche, accédez à des **réunions** > **paramètres de réunion**. 
+2. Sous **Participants**, activez **les utilisateurs anonymes peuvent participer à une réunion**. 
+
+    ![réunion-paramètres-participants.png] (media/meeting-settings-participants.png "Capture d’écran des paramètres des participants pour les réunions d’équipes dans les équipes Microsoft & Skype entreprise centre d’administration")
+
+Si vous ne voulez pas que les utilisateurs anonymes à participer à des réunions planifiées par les utilisateurs de votre organisation, désactivez ce paramètre. 
+## <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
+
+Vous pouvez personnaliser les invitations à des équipes pour répondre aux besoins de votre organisation. Vous pouvez ajouter le logo de votre organisation et inclure des informations utiles, telles que des liens vers votre site Web de support et exclusion de responsabilité et un pied de page en lecture seule. 
+
+### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Conseils pour la création d’un logo pour les invitations aux réunions  
+
+1. Créer une image qui n’est pas plus de 188 pixels de large par 30 pixels de haut (il s’agit très petite). 
+2. Enregistrez l’image au format JPG. 
+3. Stocker l’image dans un emplacement central tout le monde dans votre organisation permettre accéder, par exemple un partage réseau. 
+
+### <a name="customize-your-meeting-invitations"></a>Personnaliser vos invitations aux réunions
+
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide les équipes Microsoft & Skype entreprise centre d’administration
+
+1. Dans la navigation de gauche, accédez à des **réunions** > **paramètres de réunion**.
+2. Sous **invitation par courrier électronique**, procédez comme suit : 
+
+    ![réunion-paramètres-invitation.png] (media/meeting-settings-invitation.png "Capture d’écran de la réunion paramètres de l’invitation que vous pouvez personnaliser pour les réunions des équipes") 
+
+    - **URL du logo** Entrez l’URL où est stockée votre logo. 
+    - **URL juridique** Si votre organisation dispose d’un site Web juridique que vous souhaitez communiquer à atteindre pour n’importe quel des implications juridiques, entrez l’URL ici. 
+    - **URL de l’aide** Si votre organisation dispose d’un site Web que vous souhaitez atteindre en cas de problèmes de personnes, entrez l’URL ici.
+    - **Pied de page** Entrez le texte que vous souhaitez inclure dans le pied de page. 
+3. Attendez une heure pour propager les modifications. Planifier une réunion équipes pour afficher un aperçu de l’invitation à la réunion.  
+
+## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings-coming-soon"></a>Définir la façon dont vous souhaitez gérer le trafic multimédia en temps réel pour les réunions d’équipes (bientôt disponible) 
+Si vous utilisez la qualité de Service (QoS) pour définir la priorité du trafic réseau, vous pouvez activer les indicateurs de qualité de service et vous pouvez définir des plages de ports pour chaque type de trafic multimédia. 
+
+ ![les équipes-logo-30x30.png](media/teams-logo-30x30.png) Avec le modèle Microsoft Teams & Skype entreprise centre d’administration
+
+1. Dans la navigation de gauche, accédez à des **réunions** > **paramètres de réunion**. 
+2. Sous **réseau**, procédez comme suit :
+
+    ![réunion-paramètres-network.png] (media/meeting-settings-network.png "Capture d’écran des paramètres du réseau pour les réunions d’équipes dans les équipes Microsoft & Skype entreprise centre d’administration")
+
+    - Pour activer les indicateurs de qualité de service, activer **marqueurs insérer qualité de Service (QoS) pour le trafic multimédia en temps réel**.
+    - Pour spécifier les plages de ports, en regard de **Sélectionner une plage de ports pour chaque type de trafic multimédia en temps réel**, sélectionnez **spécifier les plages de ports**, puis entrez les ports de départ et de fin pour l’audio, vidéo et partage d’écran. 
+    
+        Si vous choisissez **d’utiliser automatiquement les ports disponibles**, les ports disponibles entre 1024 et 65535 sont utilisés. 
+
+ ### <a name="related-topics"></a>Rubriques connexes
+- [Qualité de Service (QoS) dans les équipes](qos-in-teams.md)
+
