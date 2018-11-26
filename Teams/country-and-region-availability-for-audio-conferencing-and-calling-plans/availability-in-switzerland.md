@@ -26,14 +26,17 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Suisse.
-ms.openlocfilehash: 022908195a6de8aacc4ba26ebe5397b14cb763e0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 22ec9173e00621694512f939818ed0987f5988d5
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012384"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674697"
 ---
 # <a name="availability-in-switzerland"></a>Disponibilité en Suisse
+
+> [!NOTE]
+> Vous pouvez obtenir les numéros de **SERVICE** en Suisse pour une utilisation avec la conférence, standard automatique et files d’attente des appels, mais vous ne peuvent pas obtenir les numéros des **utilisateurs** en Suisse comme plans d’appel ne sont pas disponibles.
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 

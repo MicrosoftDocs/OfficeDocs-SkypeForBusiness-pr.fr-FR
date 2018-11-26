@@ -3,21 +3,21 @@ title: Ajouter un invité à une équipe
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
-ms.reviewer: laal
+ms.reviewer: sbhatta
 description: Découvrez les outils disponibles pour qu'un administrateur ajoute de nouveaux utilisateurs invités à une organisation, y compris les clients web et de bureau de Microsoft Teams et le portail de collaboration Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86a124cea08a69c01f33c99c16546c5f7bc3440f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0671774d01ce8b2dfeea78fff36dde117931ff00
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016092"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674464"
 ---
 <a name="add-a-guest-to-a-team"></a>Ajouter un invité à une équipe
 =====================
@@ -46,3 +46,8 @@ Les utilisateurs invités que vous avez déjà été ajoutés par le biais d’A
 
 Vous pouvez suivre l'ajout d'invités dans Azure Active Directory ou dans le Centre de sécurité &amp; conformité d'Office 365. L'ajout d'un invité dans Microsoft Teams est audité et journalisé comme activité d'administration de groupe Azure AD « Membre ajouté au groupe ». Pour plus de détails, reportez-vous aux documents [Audit et création de rapports relatifs à un utilisateur B2B Collaboration](https://go.microsoft.com/fwlink/p/?linkid=858884) et [Effectuer des recherches dans le journal d'audit dans le Centre de sécurité &amp; conformité d'Office 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
+## <a name="more-information"></a>Plus d’informations
+
+[Autoriser l’accès invité dans Microsoft Teams](teams-dependencies.md)
+[Activer ou désactiver l’accès invité dans les équipes Microsoft](set-up-guests.md)
+[Utilisation de PowerShell pour contrôler l’accès invité à une équipe](guest-access-powershell.md)

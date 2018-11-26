@@ -1,5 +1,5 @@
 ---
-title: Disponibilité au Royaume-Uni (Royaume-Uni)
+title: Disponibilité au Royaume-Uni
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Royaume-Uni.
-ms.openlocfilehash: ada6f7c5d4919a3c114488da8b30e7b58f9d6821
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ec3b6f1f9bb298e00b0d8786f7b8a04c8ab59352
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531134"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674769"
 ---
-# <a name="availability-in-the-united-kingdom-uk"></a>Disponibilité au Royaume-Uni (Royaume-Uni)
+# <a name="availability-in-the-united-kingdom-uk"></a>Disponibilité au Royaume-Uni
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
@@ -61,7 +61,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes planifier l’appel interne </li><li>240 minutes planifier l’appel interne</li></li><li>1200 minute de planifier l’appel interne </li></li><li>minute 600 national et International des Plans de l’appel</li></li> 
+|Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes planifier l’appel interne </li><li>240 minutes planifier l’appel interne</li></li><li>1200 minute de planifier l’appel interne </li></li><li>Nationales et internationales appelant planifier : 1200 minutes d’intérieurs - ou-600 minutes d’appels internationaux (si elle est atteinte premier dans le mois)</li></li> 
 |Peut passer des appels sortants vers les numéros ? <br/> | Partiellement pris en charge : appels partagé des numéros de coûts (préfixes 44843, 44844, 44845, 44870, 44871, 44872) sont pris en charge à l’aide de Communications crédits à payer par minute.  Les appels vers les préfixes 449XX ne sont pas pris en charge. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    

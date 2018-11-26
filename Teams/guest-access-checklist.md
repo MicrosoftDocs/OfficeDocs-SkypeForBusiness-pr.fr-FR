@@ -1,9 +1,9 @@
 ---
-title: Liste de vérification Microsoft équipes invité Access
+title: Liste de contrôle de l’accès invité Microsoft Teams
 author: romanma
 ms.author: romanma
 manager: serdars
-ms.date: 10/19/18
+ms.date: 11/09/18
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e335210a3d7b209984cee5319dd1e7e3b1bd24e4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4051c2db43f3aa1cdb2d26af07076496c4838a94
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531302"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674488"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de vérification de l’accès invité équipes
 ==========================================

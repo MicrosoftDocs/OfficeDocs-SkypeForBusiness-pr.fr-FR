@@ -3,22 +3,22 @@ title: À quoi ressemble l'expérience des invités
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 10/20/17
+ms.date: 11/26/18
 ms.topic: article
 ms.service: msteams
-ms.reviewer: laal
+ms.reviewer: sbhatta
 search.appverid: MET150
 description: Découvrez la fonctionnalité Microsoft Teams disponible pour les utilisateurs invités.
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 921617c2f9a4a1bcc9f38030bdcea0d72c7f54aa
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 55f1a2ae8c958dba9dbdd71b9b271944dad1f50c
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016516"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674552"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -31,7 +31,7 @@ Lorsqu'un invité est convié à rejoindre une équipe, il reçoit un e-mail de 
   
     
     
-![La capture d'écran illustre un exemple d'e-mail de bienvenue envoyé par le propriétaire d'une équipe dans Microsoft Teams à un utilisateur invité. Le message inclut du texte qui peut être personnalisé par le propriétaire de l'équipe et des descriptions brèves des fonctionnalités de Teams telles que les conversations, les appels et les réunions.](media/bc0deb82-6394-4280-8fed-312645c8fefe.png)
+![Exemple de message électronique de bienvenue message envoyé par un propriétaire de l’équipe dans Microsoft Teams à un utilisateur invité. Le message inclut du texte qui peut être personnalisé par le propriétaire de l'équipe et des descriptions brèves des fonctionnalités de Teams telles que les conversations, les appels et les réunions.](media/guest-experience-image1.png)
   
     
     
@@ -43,7 +43,7 @@ Tous les membres de l'équipe voient un message dans le fil des canaux informant
   
     
     
-![La capture d'écran illustre une partie du canal Marketing de Northwind Traders, avec une notification dans la bannière supérieure indiquant : « Cette équipe contient des invités » ainsi que les utilisateurs invités identifiés par le mot « INVITÉ » près de leur nom.](media/33394a31-7d10-4950-8b39-b7d9953397c3.png)
+![La capture d'écran illustre une partie du canal Marketing de Northwind Traders, avec une notification dans la bannière supérieure indiquant : « Cette équipe contient des invités » ainsi que les utilisateurs invités identifiés par le mot « INVITÉ » près de leur nom.](media/guest-experience-image2.png)
   
     
     
@@ -70,8 +70,57 @@ Le tableau suivant compare la fonctionnalité de Microsoft Teams disponible pou
 |Rechercher et rejoindre une équipe publique  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Afficher l'organigramme  <br/> |![coche](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
+Le tableau suivant montre les fonctionnalités de réunion et appel disponibles pour les invités.
 
-    
+| Fonctionnalité d’appel | Invité | E1 et E3 utilisateur | Utilisateur E5 et EV |
+| --------------- | ----- | -------------- | -------------- |
+| Appel VOIP | Oui | Oui | Oui |
+| Appel d’un groupe | Oui | Oui | Oui |
+| Contrôles d’appel principaux pris en charge (suspension, activé/désactivé, partage d’écran le vidéo désactiver le microphone) | Oui | Oui | Oui |
+| Cible de transfert | Oui | Oui | Oui |
+| Pouvez transférer un appel | Oui | Oui | Oui |
+| Peut transfert consultatif | Oui | Oui | Oui |
+| Peut ajouter d’autres utilisateurs à un appel VoIP | Oui | Oui | Oui |
+| Peut ajouter des utilisateurs par numéro de téléphone à un appel | Non | Non | Oui |
+| Transférer cible | Non | Oui | Oui |
+| Appel de groupe cible | Non | Oui | Oui |
+| Cible sans réponse | Non | Oui | Oui |
+| Peut être la cible d’un appel fédéré | Non | Oui | Oui |
+| Peut émettre un appel fédéré | Non | Oui | Oui |
+| Peuvent transférer immédiatement leurs appels | Non | Non | Oui |
+| Peut faire sonner simultanément les appels | Non | Non | Oui |
+| Peut acheminer les appels sans réponse | Non | Non | Oui |
+| Appels manqués peuvent accéder à la messagerie vocale | Non | Aucun<sup>1</sup> |Oui |
+| Un numéro de téléphone qui peuvent recevoir des appels | Non | Non | Oui |
+| Peuvent composer des numéros de téléphone | Non | Non | Oui |
+| Accès peuvent appeler des paramètres | Non | Non | Oui |
+| Peut modifier message d’accueil de la messagerie vocale | Non | Aucun<sup>1</sup> | Oui |
+| Modifier les sonneries | Non | Non  | Oui |
+| Prend en charge TTY | Non | Non | Oui |
+| Des délégués peuvent être | Non | Non | Oui |
+|  Peut être délégué | Non | Non | Oui |
+
+
+<sup>1</sup> cette fonctionnalité sera disponible prochainement.
+
+
+
 > [!NOTE]
 > Les administrateurs d'Office 365 contrôlent les fonctionnalités disponibles pour les invités. 
   
+## <a name="frequently-asked-questions"></a>Forum aux questions
+  
+Q. Les invités ont des mêmes fonctionnalités que les membres de l’équipe ? A. n° Pour plus d’informations sur un rôle Invité peut et ne peut pas faire, accédez à fonctionnalités invité dans les équipes.
+
+Q. Les invités combien puis-je inviter ? R. vous pouvez ajouter jusqu'à 5 invités par l’utilisateur sous licence.
+
+Q. Invités ont accès à OneDrive entreprise ? A. n°
+
+Q. Invités ont accès aux fichiers SharePoint ? R. Oui.
+
+Q. Les invités peuvent rechercher dans les fichiers ? A. n°
+
+Q. Les invités peuvent joindre des fichiers ? R. Oui, invité permettre joindre des fichiers de ces deux manières : • sélectionnez fichiers dans le volet gauche, puis accédez à l’emplacement du fichier.
+• Téléchargement à partir de leur ordinateur.
+
+Q. Pouvez invité télécharger un fichier dans une conversation privée ? R. Oui, qu’ils peuvent recevoir un fichier d’un membre d’une conversation privée, puis le télécharger sur leur bureau.
