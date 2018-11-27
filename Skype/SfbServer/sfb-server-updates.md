@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype Entreprise Server 2015 et Lync 2013 à partir d'un seul emplacement. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 6bc575a5f2ae981a6f3ea613f8a262d048c5fde0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9c7d14e1439d3f7fd88ad6246495fccc1e7ef441
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531616"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699436"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -26,6 +26,7 @@ Recherchez et gérez les mises à jour de [Skype Entreprise Server 2015](#sky
 Pour les dernières mises à jour de Skype Entreprise Online et Office 365, reportez-vous à la [Feuille de route Office 365](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Historique des mises à jour de Skype Entreprise Server 2015
+[KB 3061064](https://support.microsoft.com/kb/3061064) contient la liste de toutes les mises à jour cumulatives qui a été publiée. La date indique la dernière date de publication. 
 
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:--- |:--- |:--- |

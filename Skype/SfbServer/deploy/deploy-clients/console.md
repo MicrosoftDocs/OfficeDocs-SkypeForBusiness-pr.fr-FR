@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article explique comment configurer la console v2 Skype salle systèmes et périphériques.
-ms.openlocfilehash: bb23f0dad26f37554657a101dc68dc7d776080b2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 01bc2fe49fc56a4926563ad18e384455ef437b77
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371060"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699429"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configuration d’une console Skype Room Systems v2
  
@@ -47,14 +47,17 @@ Installation de l’application de console Skype salle systèmes v2 requiert un 
 > Impossible de créer votre support d’installation v2 Skype salle systèmes en fonction de ces instructions aura un comportement inattendu. Mise à jour Windows 10 entreprise anniversaire (Version 1607) est plus pris en charge pour la création de systèmes de salle Skype v2 installation multimédia.
   
 > [!NOTE]
-> Un v2 Skype salle systèmes existants avec 10 entreprise anniversaire mise à jour Windows déplacement vers les systèmes de salle Skype v2 mise à jour 3 par l’entremise du Windows Store fonctionnera, mais une nouvelle installation doit être effectuée comme indiqué ci-dessous. 
+> Un v2 Skype salle systèmes existants avec Windows 10 entreprise déplacement vers les systèmes de salle Skype v2 mise à jour 3 par l’entremise du Windows Store fonctionnera, mais une nouvelle installation doit être effectuée comme indiqué ci-dessous. 
   
-1. Télécharger le [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
+1. Télécharger le script [CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842). 
 2. (Facultatif) Téléchargez et placer les fichiers CAB du pack langue de votre choix dans le même répertoire que le script. Le script indique où vous pouvez télécharger les fichiers de pack de langue appropriés pour le type de média que vous créez, si vous ne savez pas où se procurer les modules linguistiques de.
 3. Exécutez le script CreateSrsMedia.ps1 à partir d'une invite avec élévation de privilèges sur un ordinateur Windows 10.
 
 
 Suivez les instructions du script pour créer un disque d’installation de systèmes de salle Skype v2 USB. Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur et passez à [10 de Windows Installer et de l’application de console Skype salle systèmes v2](console.md#Reimage).
+
+> [!TIP]
+> Vous avez sans doute remarqué que nous n’appelons plus des versions spécifiques de pilotes, les systèmes de salle Skype v2 client ou Windows 10 Enterprise. Il s’agit intentionnelle, nous voulons le script pour associer et de vérifier la compatibilité pour tous les programmes d’installation. Le script et automatiquement obtenir les outils nécessaires pour une configuration prises en charge.  
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Installation de Windows 10 et de l’application de console Skype Room Systems v2
 <a name="Reimage"> </a>
@@ -117,7 +120,7 @@ Dans la mise à jour du créateur, vous devez utiliser le script ApplyCurrentReg
     
 11. Lancez une invite de commande avec élévation de privilèges.
     
-12. Exécutez la commande suivante :  
+12. Exécutez la commande suivante : 
     
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     
@@ -244,8 +247,8 @@ Utilisez la liste de vérification suivante tout en effectuant une vérification
 
 [Planification de Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Déploiement de Skype Room System v2](room-systems-v2.md)
+[Déploiement des systèmes Skype Room version 2](room-systems-v2.md)
   
-[Configuration d’une console Skype Room Systems v2](console.md)
+[Configuration d’une console pour les systèmes Skype Room version 2](console.md)
   
-[Gestion de Skype Room System v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gestion des systèmes Skype Room version 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

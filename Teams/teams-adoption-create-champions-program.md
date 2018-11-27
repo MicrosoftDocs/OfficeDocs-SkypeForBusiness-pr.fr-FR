@@ -1,28 +1,28 @@
 ---
-title: Créer votre programme champions pour Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Créer votre programme d’ambassadeurs de Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment former une équipe de champions pour promouvoir l’adoption d’équipes.
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 754ffc617fb310deac244a10160f435a0ba7f6ea
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 6961c55f1ea75410e5b7e807a40d9a4512ad5249
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519793"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699866"
 ---
-# <a name="create-your-champions-program-for-microsoft-teams"></a>Créer votre programme champions pour Microsoft Teams
+# <a name="create-your-champions-program-for-microsoft-teams"></a>Créer votre programme d’ambassadeurs de Microsoft Teams
 
 Champions sont indispensables pour conduite de sensibilisation, d’adoption et de formation dans votre organisation. Un spécialiste est une personne, principalement motivée par à vous aider, qui s’intéresse à la nouvelle technologie (en particulier les équipes) et d’aider les autres employés à utiliser dans alignement avec vos meilleures pratiques. Selon la taille de votre organisation, vous pouvez avoir un cadre formel du rôle de la personne, mais souvent employés prennent ce rôle eux-mêmes en raison de leur pertinence principaux pour aider les autres.
 

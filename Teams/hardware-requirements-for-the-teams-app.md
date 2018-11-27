@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b30ca95bb3ff5a01d5e8d991dda8e696148ab85c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c97ce12f2dd55807cd806afa05ea6d1813ad457b
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372318"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699408"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Configuration matérielle requise pour l’application Microsoft Teams
 
@@ -33,11 +33,11 @@ ms.locfileid: "25372318"
 |Disque dur    | 3.0 Go d’espace disque disponible        |
 |Display    |   résolution d’écran 1024 x 768 |
 |Matériel graphique |  Minimum de 128 Mo de mémoire graphique
-|Système d’exploitation  |    10 Windows, Windows 8.1, Windows 8 ou Windows 7 Service Pack 1 en 32 bits et 64 bits.  Pour optimiser les performances, utilisez la dernière version de n’importe quel système d’exploitation.|
+|Système d’exploitation  |    10 Windows, Windows 8.1, Windows 8 ou Windows 7 Service Pack 1 en 32 bits et 64 bits. Pour optimiser les performances, utilisez la dernière version de n’importe quel système d’exploitation.|
 |Version .NET    |  Requiert le CLR de .NET 4.5 ou version ultérieure       |
 |Vidéo    |  Caméra vidéo USB 2.0       |
 |Périphériques    |   Caméra portable standard, le microphone et haut-parleurs    | 
-|Réunions et les appels vidéo | Pour améliorer l’expérience avec les appels vidéo et des réunions en ligne, nous recommandons d’utiliser un ordinateur dont le processeur 2,0 GHz et 4.0 Go de RAM (minimum).
+|Réunions et les appels vidéo | Pour améliorer l’expérience avec les appels vidéo et des réunions en ligne, nous recommandons d’utiliser un ordinateur dont le processeur 2,0 GHz et 4.0 Go de RAM (minimum). L’option blur mon arrière-plan effet vidéo nécessite un processeur avec prise en charge avancée Vector Extensions 2 (AVX2).
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Configuration matérielle requise pour l’application de bureau équipes sur un Mac
 
@@ -50,7 +50,7 @@ ms.locfileid: "25372318"
 |Système d’exploitation  |    Mac OS X 10.11 El Capitan ou version ultérieure     |
 |Vidéo  |    Webcam compatible     |
 |Voix    |  Compatible avec microphone et haut-parleurs, casque avec microphone ou périphérique équivalent       |
-|Réunions et les appels vidéo | Pour améliorer l’expérience avec les appels vidéo et des réunions en ligne, nous recommandons d’utiliser un ordinateur dont le processeur 2,0 GHz et 4.0 Go de RAM (minimum).
+|Réunions et les appels vidéo | Pour améliorer l’expérience avec les appels vidéo et des réunions en ligne, nous recommandons d’utiliser un ordinateur dont le processeur 2,0 GHz et 4.0 Go de RAM (minimum). L’option flou mon arrière-plan effet vidéo nécessite un processeur avec prise en charge avancée Vector Extensions 2 (AVX2), pris en charge sur la plupart des périphériques Mac au plus tard 2013 et versions ultérieures.
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Configuration matérielle requise pour l’application des équipes sur les appareils mobiles
 

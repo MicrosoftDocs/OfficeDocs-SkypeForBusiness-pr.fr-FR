@@ -123,8 +123,8 @@
 
 ## [Offres d'appels dans Office 365](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Problèmes connus relatifs aux forfaits d'appels](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
-### [Ajouter, modifier ou supprimer un emplacement d'urgence pour votre organisation](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
-### [Ajouter, modifier ou supprimer une adresse d'urgence pour votre organisation](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
+### [Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
+### [Ajouter, modifier ou supprimer une adresse d’urgence pour votre organisation](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Attribuer, modifier ou supprimer un numéro de téléphone pour un utilisateur](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Attribuer ou modifier une adresse d'urgence d'un utilisateur](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
 ### [Pour affecter ou modifier l’emplacement en cas d’urgence pour un utilisateur](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)

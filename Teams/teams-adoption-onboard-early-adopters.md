@@ -1,7 +1,7 @@
 ---
-title: Premiers intégrées et collecte des commentaires pour Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Intégrer des utilisateurs précoces et recueillir des commentaires sur Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Choisir les premiers pour la phase de l’expérience de l’adoption de vos équipes, puis recueillir les commentaires pour votre projet.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c1c85fead1bd1f1295a4ff3370d1b188f79eb73
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 58547d5f4577d9bca71317573677a56453188634
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519798"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699669"
 ---
-# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Premiers intégrées et collecte des commentaires pour Microsoft Teams
+# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Intégrer des utilisateurs précoces et recueillir des commentaires sur Microsoft Teams
 
 Revenir à la liste d’employés exprimée intérêt dans votre programme pour premiers utilisateurs. Déterminez lequel de ces personnes doivent participer à vos expériences initiales avec des équipes. Il peut être tout ou partie des personnes qui vous intéressent. Même si vous n’activez pas les pour ces projets initiales, continuer à communiquer avec eux afin qu’ils restent intéressées et seront accepte de participer à l’avenir. Ils seront une partie du processus embarquement pour les projets que vous avez sélectionné en fonction de vos discussions avec les parties prenantes métier, votre équipe technique et votre exercice de définition des priorités ci-dessus. 
 

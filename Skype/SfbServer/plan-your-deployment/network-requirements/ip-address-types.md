@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Résumé : Passez en revue les considérations de type d’adresse IP ci-dessous avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: 46d448e0004c9a83921f0c92d12513e39f076dc3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 58d359b626334b49ed08904134c758128f78673e
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375202"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699415"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configuration des types d’adresse IP dans Skype Entreprise
 
@@ -34,7 +34,7 @@ Vous déployez des types d’adresses IP à l’aide des paramètres de topologi
 
 1. Sous **Pools frontaux Enterprise Edition**, cliquez avec le bouton droit sur le serveur d’un pool, puis sélectionnez **Modifier les propriétés**. (Vous pouvez également sélectionner le serveur, puis cliquer sur **Modifier les propriétés** dans le menu **Action**.)
 
-2. Dans la boîte de dialogue **Modifier les propriétés**, sélectionnez le type d’adresse IP à configurer. S’il s’agit d’une configuration double pile, sélectionnez **Activer IPv4** et **Activer IPv6**, comme illustré dans la figure suivante.
+2. Dans la boîte de dialogue **Modifier les propriétés**, sélectionnez le type d’adresse IP à configurer. Pour une configuration double pile, sélectionnez **Activer le IPv4** et **Activer IPv6**.
 
    **Boîte de dialogue Modifier les propriétés du pool de serveurs frontaux**
 
@@ -49,8 +49,8 @@ Vous déployez des types d’adresses IP à l’aide des paramètres de topologi
 
    - **Adresse IP RTC** : entrez l’adresse IP RTC à utiliser lorsqu’un serveur de médiation est colocalisé sur le serveur frontal. Cette adresse IP doit correspondre au format du type d’adresse que vous avez sélectionné.
 
-     > [!NOTE]
-     > L’installation de cartes d’interface réseau supplémentaire (NIC) pour prendre en charge la configuration d’adresse IP PSTN sur les serveurs frontaux n’est pas pris en charge. Pour plus d’informations sur les configurations de carte réseau pris en charge pour Skype pour Business Server, voir [plateformes matérielles de serveur pour Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+> [!NOTE]
+> L’installation de cartes d’interface réseau supplémentaire (NIC) pour prendre en charge la configuration d’adresse IP PSTN sur les serveurs frontaux n’est pas pris en charge. Pour plus d’informations sur les configurations de carte réseau pris en charge pour Skype pour Business Server, voir [plateformes matérielles de serveur pour Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Déploiement des types d’adresse IP sur un serveur de médiation
 
@@ -74,9 +74,14 @@ Vous déployez des types d’adresses IP à l’aide des paramètres de topologi
   - **Adresse IP principale** : entrez l’adresse IP que le serveur utilisera pour toutes les communications autres que celles effectuées via le réseau téléphonique commuté (RTC). Cette adresse IP doit correspondre au format du type d’adresse que vous avez sélectionné.
 
   - **Adresse IP RTC** : entrez l’adresse IP RTC à utiliser lorsqu’un serveur de médiation est colocalisé sur le serveur frontal. Cette adresse IP doit correspondre au format du type d’adresse que vous avez sélectionné.
+> [!IMPORTANT]
+> Nous seulement prend en charge deux cartes réseau *dédié* serveurs de médiation. Si le rôle Sserveur de médiation est colocalisé sur le serveur frontal, puis les cartes réseau doubles ne sont pas pris en charge. 
 
-    > [!NOTE]
-    > L’installation de cartes réseau supplémentaires pour prendre en charge la configuration d’adresse IP PSTN sur des serveurs de médiation autonomes n’est pas pris en charge. Pour plus d’informations sur les configurations de carte réseau pris en charge pour Skype pour Business Server, voir [plateformes matérielles de serveur pour Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+> [!NOTE]
+> - Pour plus d’informations sur les configurations de carte réseau pris en charge pour Skype pour Business Server 2015, voir [configuration matérielle pour Skype pour Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
+> - Pour plus d’informations sur les configurations de carte réseau pris en charge pour Skype pour Business Server 2019, voir [configuration matérielle pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+
+
 
 ## <a name="deploy-ip-address-types-on-an-edge-server"></a>Déploiement des types d’adresse IP sur un serveur Edge
 

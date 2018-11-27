@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: d4347610238230e5e509dab998b99fbd7b496833
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: cf6f2118ff147e6c126db6fcbbd0af9dbe155e21
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676406"
+ms.locfileid: "26699398"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Ajouter, modifier ou supprimer une adresse d’urgence pour votre organisation
 
@@ -73,7 +73,7 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
 
 5. Cliquez sur **Enregistrer**.
 
-## <a name="to-remove-an-emergency-address"></a>Pour supprimer une adresse de secours
+## <a name="remove-an-emergency-address"></a>Supprimer une adresse d’urgence
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     

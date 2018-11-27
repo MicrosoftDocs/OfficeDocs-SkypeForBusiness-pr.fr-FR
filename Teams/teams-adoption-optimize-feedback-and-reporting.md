@@ -1,7 +1,7 @@
 ---
-title: Optimiser les commentaires et création de rapports pour adopter Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Optimiser les retours d’expérience et les comptes-rendus pour votre adoption de Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment obtenir les commentaires des utilisateurs et d’utiliser des rapports dans votre kit d’adoption des équipes intégrité du service.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 5ab7a061b4f45564c6be42f708a0ded3ea00f268
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519794"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699836"
 ---
-# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimiser les commentaires et création de rapports pour adopter Microsoft Teams
+# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimiser les retours d’expérience et les comptes-rendus pour votre adoption de Microsoft Teams
 
 Assurez-vous que vous obtenez des signaux retour à partir de votre service et vos employés en suivant nos meilleures pratiques pour les commentaires des utilisateurs et la création de rapports d’intégrité service.  Dans certains cas, vous devrez peut-être des droits d’administrateur pour accéder à certains rapports d’utilisation et d’intégrité du service Office 365. Si vous n’êtes pas l’administrateur Office 365 pour votre organisation, travailler avec cette personne à accorder le rôle de lecteur de rapport dans le centre d’administration Microsoft 365 d’accéder à certains de ces données. 
 

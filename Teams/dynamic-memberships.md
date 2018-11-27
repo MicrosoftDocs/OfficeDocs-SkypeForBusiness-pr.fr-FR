@@ -1,9 +1,9 @@
 ---
-title: Vue d’ensemble de membres dynamiques pour les équipes
+title: Présentation de l’appartenance dynamique pour les équipes
 author: jambirk
 ms.author: jambirk
 manager: serdars
-ms.date: 10/10/2018
+ms.reviewer: kblevens, phlouie
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,14 +12,14 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a98009237d6575e97705ae7a8eea4b444ac77a0
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 7a96205f1971207f81d6191ef46e1be25e063f4c
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25682365"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699771"
 ---
-# <a name="overview-of-dynamic-membership-for-teams"></a>Vue d’ensemble de membres dynamiques pour les équipes
+# <a name="overview-of-dynamic-membership-for-teams"></a>Présentation de l’appartenance dynamique pour les équipes
 
 Teams Microsoft prend en charge les équipes associées aux groupes de Office 365 à l’aide de membres dynamiques. Membres dynamiques permet l’appartenance d’une équipe à être définis par une ou plusieurs règles qui vérifient pour certains attributs de l’utilisateur dans Azure Active Directory (DAS). Les utilisateurs sont automatiquement ajoutées ou supprimées pour les équipes corrects que modifier les attributs de l’utilisateur ou les utilisateurs rejoignent ou quittent de client.
 
@@ -28,12 +28,13 @@ Avec appartenance dynamique, que vous pouvez le programme d’installation des �
 - Une université peut créer une équipe pour tous les enseignants au sein d’une université particulier, y compris une faculté auxiliaire du qui change fréquemment.
 - Une compagnie souhaite créer une équipe pour chaque vol (par exemple une mardi MIDI sans interruption de Chicago à Atlanta) et disposer d’une équipe de vol régulièrement modifié automatiquement affectées ou supprimés selon les besoins.
 
-À l’aide de cette fonctionnalité, mise à jour des membres d’une équipe donnée automatiquement selon un ensemble spécifique de critères, au lieu de gérer manuellement les appartenances. Cela nécessite des licences d’Azure AD Premium P1 et l’appartenance de l’équipe peut être [attribué par un administrateur du client](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) pour les propriétés de l’utilisateur DAS à condition qu’un client et un compte d’administrateur.
+À l’aide de cette fonctionnalité, mise à jour des membres d’une équipe donnée automatiquement selon un ensemble spécifique de critères, au lieu de gérer manuellement les appartenances. Cela nécessite des licences d’Azure AD Premium P1 et l’appartenance de l’équipe peut être [attribué par un administrateur du client](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) pour les propriétés de l’utilisateur DAS à condition qu’un client et un compte d’administrateur. 
 
-Microsoft Teams peut prendre de quelques minutes à 2 heures pour refléter les modifications d’appartenance dynamique une fois qu’ils prennent effet dans le groupe d’Office 365 pour une équipe.
+Microsoft Teams peut prendre de quelques minutes à 2 heures pour refléter les modifications d’appartenance dynamique une fois qu’ils prennent effet dans le groupe d’Office 365 pour une équipe. 
 
 > [!NOTE]
-> Les règles peuvent définir des membres de l’équipe, mais pas les propriétaires de l’équipe.
+> - Les règles peuvent définir des membres de l’équipe, mais pas les propriétaires de l’équipe.
+> - Les limites en cours sur la taille de l’équipe et de canal, voir [limites et les spécifications pour les équipes Microsoft](limits-specifications-teams.md) .
 
 ## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Création et gestion d’un groupe d’Office 365 avec appartenance dynamique
 En étant connecté le client d’administration, suivez les instructions de [Création d’un groupe dynamique et de vérifier l’état](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Selon vos besoins, font référence aux [règles de membres dynamiques pour les groupes dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).

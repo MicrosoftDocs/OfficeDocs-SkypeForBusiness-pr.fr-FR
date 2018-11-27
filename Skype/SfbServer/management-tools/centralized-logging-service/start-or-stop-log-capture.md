@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Résumé : Découvrez comment démarrer ou arrêter une session de capture des journaux de Service de journalisation centralisée dans Skype pour Business Server 2015.'
-ms.openlocfilehash: c0b65fddcb5036cf41866ce79d82ae0bc49a79e3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d3dc2ca58964908bda0d8c2de845297bb0cb951b
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373763"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699858"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Début ou arrêt de la capture dʼun journal CLS dans Skype Entreprise Server 2015
  
@@ -86,7 +86,7 @@ Notez que dans cet exemple, les scénarios AlwaysOn et UserReplicator sont exéc
 ## <a name="stop-the-centralized-logging-service-log-capture"></a>Arrêter la capture du journal du Service de journalisation centralisée
 <a name="stop"> </a>
 
-Vous pouvez arrêter une session de journalisation en cours à l’aide de l’applet de commande Stop-CsClsLogging. En règle générale, il n’existe pas de nombreuses situations dans lesquelles vous devrez arrêter une session de journalisation. Par exemple, vous n’avez pas à arrêter une séance de journalisation pour effectuer une recherche dans les journaux ou modifier les paramètres. Si deux scénarios sont en cours d’exécution, par exemple AlwaysOn et UserReplicator, alors que vous devez recueillir des informations relatives à l’authentification, vous devez arrêter un de ces deux scénarios (au niveau global, du site, du pool ou de l’ordinateur) avant de pouvoir lancer l’exécution du scénario Authentication. Pour plus d’informations, voir [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps).
+Vous pouvez arrêter une session de journalisation en cours à l’aide de l’applet de commande Stop-CsClsLogging. En règle générale, il n’existe pas de nombreuses situations dans lesquelles vous devrez arrêter une session de journalisation. Par exemple, vous n’avez pas à arrêter une séance de journalisation pour effectuer une recherche dans les journaux ou modifier les paramètres. Si deux scénarios sont en cours d’exécution, par exemple AlwaysOn et UserReplicator, alors que vous devez recueillir des informations relatives à l’authentification, vous devez arrêter un de ces deux scénarios (au niveau global, du site, du pool ou de l’ordinateur) avant de pouvoir lancer l’exécution du scénario Authentication. Pour en savoir plus, voir [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps).
   
 > [!NOTE]
 > Lorsque vous souhaitez déterminer les scénarios que vous pouvez exécuter sur un déploiement, un pool ou un ordinateur donné, gardez à l’esprit que vous ne pouvez exécuter plus de deux scénarios **par ordinateur** : AlwaysOn et un scénario personnalisé. Si vous effectuez la journalisation de l’activité d’un pool, vous devrez considérer ce pool globalement. Dans la plupart des cas, il n’est pas judicieux d’exécuter différents scénarios sur chaque ordinateur dans un pool. Il n’est pas non plus logique d’examiner le problème pour lequel vous recherchez des données et vous demander alors quel scénario convient le mieux pour un ordinateur donné dans le déploiement entier. Par exemple, si vous considérez le scénario UserReplicator, il est très peu valeur dans UserReplicator en cours d’exécution sur un serveur Edge ou pool de serveurs Edge. 
@@ -104,6 +104,9 @@ Par exemple :
 ```
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
+
+> [!NOTE]
+> Afin que vous vous demandez peut-être : maintenant que vous avez activé la journalisation, où sont les journaux conservés ? Dans la mesure où vous allez accéder aux informations stockées dans les journaux à l’aide de management shell de requêtes envoyées vers les Agents CLS et vous pouvez exporter les résultats vers plusieurs formats de fichier, où sur chaque serveur d’un Agent CLS conserve ses enregistrements n’est pas réellement important de connaître.  Les fichiers journaux peuvent être enregistrés dans un emplacement que vous spécifiez et lu et analysées à l’aide de divers outils, y compris **Snooper.exe** et n’importe quel outil qui peut lire un fichier texte, tel que **Notepad.exe**. Snooper.exe fait partie de la Skype pour les outils de débogage Business Server 2015 et est disponible en [téléchargement Web](https://go.microsoft.com/fwlink/p/?LinkId=285257).
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>Pour arrêter une session de Service de journalisation centralisée actuellement en cours d’exécution
 
@@ -133,10 +136,10 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Cette commande arrête la journalisation avec le scénario UserReplicatior sur pool01.contoso.net.
     
     > [!NOTE]
-    > Les journaux créés au cours de cette session de journalisation à l’aide du scénario UserReplicator sont conservés. Vous pouvez continuer à effectuer des recherches avec la journalisation à l’aide de la commande Search-CsClsLogging. Pour plus d’informations, consultez la rubrique [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
+    > Les journaux créés au cours de cette session de journalisation à l’aide du scénario UserReplicator sont conservés. Vous pouvez continuer à effectuer des recherches avec la journalisation à l’aide de la commande Search-CsClsLogging. Pour plus d’informations, voir [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
   
 Faisant pendant à l’applet de commande Start-CsClsLogging, l’applet de commande Stop-CsClsLogging arrête la session de journalisation, définie par des scénarios, et conserve les journaux créés par celle-ci. Vous pouvez exécuter deux scénarios sur un ordinateur donné à tout moment. La méthode d’arrêt d’un scénario pour recueillir des informations à l’aide d’un autre scénario est une tâche courante que vous pouvez effectuer au cours du dépannage de la plupart des charges de travail.
 ## <a name="see-also"></a>Voir aussi
 <a name="stop"> </a>
 
-[Service de journalisation centralisée pour Skype Entreprise 2015](centralized-logging-service.md)
+[Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)
