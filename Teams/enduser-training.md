@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/26/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Vidéos de formation, didacticiels et autres ressources pour les utilisateurs de votre organisation apprendre à utiliser des équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa9555476fbf429d49c624365fd81fd9d548f06a
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: f46eabe142ae62f1a231a14a919089e80e0c27b8
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533118"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676426"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les utilisateurs finaux
 
@@ -132,6 +132,7 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
                         <h3>Démarrages rapides</h3>
                          <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">Téléchargez ce guide de démarrage rapide (PDF) pour découvrir les notions de base</a></p>
                         <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">Suivez les articles de ce démarrage rapide pour devenir rapidement opérationnel</a></p>
+                        <p><a href="https://teamsdemo.office.com/">Démo interactive équipes</a></p>
                     </div>
                 </div>
             </div>
