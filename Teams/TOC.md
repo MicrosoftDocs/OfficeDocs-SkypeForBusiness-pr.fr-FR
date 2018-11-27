@@ -8,7 +8,7 @@
 ## [Premiers intégrés](get-started-with-teams-onboard-early-adopters.md)
 ## [Surveiller l’utilisation et les commentaires](get-started-with-teams-monitor-usage-and-feedback.md)
 ## [Où souhaitez-vous aller ?](get-started-with-teams-resources-for-org-wide-rollout.md)
-## [Obtenir de l’aide dans Microsoft Teams](get-help-in-microsoft-teams.md)
+## [Obtenir de l’aide dans Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
@@ -52,7 +52,7 @@
 
 ## [Présentation d'un déploiement de Teams](deployment-overview.md)
 ## [Gérer l'accès des utilisateurs à Microsoft Teams](user-access.md)
-## [Utiliser les rôles d’administration Microsoft Teams pour gérer des équipes](using-admin-roles.md)
+## [Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](using-admin-roles.md)
 ## [Vue d’ensemble de PowerShell équipes](teams-powershell-overview.md)
 ## [Obtenir des clients pour Teams](get-clients.md)
 ### [Configuration matérielle requise pour l’application d’équipes](hardware-requirements-for-the-teams-app.md)
@@ -60,7 +60,7 @@
 ### [Déployer des équipes pour exposer Hub](teams-surface-hub.md)
 ## [Exécuter des équipes dans un environnement virtuel](virtual-environment-teams.md)
 ## [Permettent aux équipes de votre organisation](Office-365-set-up.md)
-## [Utiliser Microsoft Teams étendue de recherche dans l’annuaire](teams-scoped-directory-search.md)
+## [Utiliser la recherche d’annuaire étendue Microsoft Teams](teams-scoped-directory-search.md)
 ## [Gérer les fonctionnalités des équipes au sein de votre organisation.](enable-features-office-365.md)
 ### [Gérer les équipes pendant la transition vers le nouveau Microsoft Teams & Skype entreprise centre d’administration](manage-teams-skypeforbusiness-admin-center.md)
 ### [Gérer les équipes dans les équipes Microsoft & Skype entreprise centre d’administration](manage-teams-in-modern-portal.md)
@@ -133,7 +133,7 @@
 <!-- ============================================================ -->
 # Interopérabilité avec Office 365
 ## [Migration et interopérabilité avec Skype pour les entreprises](migration-interop-guidance-for-teams-with-skype.md)
-## [Coexistence avec Skype pour les entreprises](coexistence-chat-calls-presence.md)
+## [Coexistence avec Skype Entreprise](coexistence-chat-calls-presence.md)
 ## [Définir votre coexistence et les paramètres de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
 ## [Groupes Office 365 et Microsoft Teams](office-365-groups.md)
 ## [Améliorer les groupes Office 365 existants avec Teams](enhance-office-365-groups.md)
@@ -205,7 +205,7 @@
 ### [Affecter des propriétaires de l’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md)
 ### [Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams](best-practices-organizing.md)
 ### [Créer une équipe à l’échelle de l’organisation dans les équipes](create-an-org-wide-team.md)
-### [Vue d’ensemble de membres dynamiques pour les équipes](dynamic-memberships.md)
+### [Présentation de l’appartenance dynamique pour les équipes](dynamic-memberships.md)
 ## [Présence](presence-admins.md)
 ## [Accès invité](guest-access.md)
 ### [Comment un invité rejoint une équipe](guest-joins.md)
@@ -227,7 +227,7 @@
 ### [Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ### [Activer ou désactiver les annonces d'entrée et de sortie de réunions](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 
-### [Enregistrement de la réunion équipes sur le nuage](cloud-recording.md)
+### [Enregistrement de réunion cloud Teams](cloud-recording.md)
 ### [Utiliser le complément Réunion Teams dans Outlook](teams-add-in-for-outlook.md)
 ### [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Interopérabilité vidéo sur le nuage](cloud-video-interop.md)
@@ -252,7 +252,7 @@
 ### [Utiliser la traduction d’un message en ligne dans les équipes](inline-message-translation-teams.md)
 
 ## Voix cloud
-### [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### [Disponibilité des forfaits d'appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Argentine](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [Australie](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 #### [Autriche](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -344,7 +344,7 @@
 
 ### [Obtenir des numéros de téléphone de service](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-#### [Gestion de numéro de téléphone pour l’Australie](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [Gestion des numéros de téléphone pour l’Australie](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 #### [Gestion des numéros de téléphone pour la Belgique](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [Gestion des numéros de téléphone pour le Canada](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 #### [Gestion des numéros de téléphone pour la France](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
@@ -393,18 +393,17 @@
 #### [Guide de démarrage rapide : Configuration des forfaits d'appels dans Teams](configuring-teams-calling-quickstartguide.md)
 #### [Didacticiel : L’appel dans les équipes](Tutorial-calling-in-teams.yml)
 #### [Configurer des forfaits d'appels](set-up-calling-plans.md)
-#### [Ajouter, modifier ou supprimer une adresse d'urgence pour votre organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Ajouter, modifier ou supprimer une adresse d’urgence pour votre organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Attribuer ou modifier l’adresse d'urgence d'un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Attribuer, modifier ou supprimer le numéro de téléphone d’un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Pour affecter ou modifier l’emplacement en cas d’urgence pour un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Attribuer, modifier ou supprimer un numéro de téléphone pour un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Forfaits d'appels pour Office 365](calling-plans-for-office-365.md)
-#### [Modifier l'adresse d'urgence d'un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Modifier l'emplacement d'urgence d'un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 #### [Obtenir des numéros de téléphone pour vos utilisateurs](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Combien de numéros de téléphone pouvez-vous obtenir ?](how-many-phone-numbers-can-you-get.md)
 #### [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-##### [Gestion de numéro de téléphone pour l’Australie](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+##### [Gestion des numéros de téléphone pour l’Australie](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 ##### [Gestion des numéros de téléphone pour la Belgique](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 ##### [Gestion des numéros de téléphone pour le Canada](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 ##### [Gestion des numéros de téléphone pour la France](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
@@ -504,13 +503,13 @@
 #### [Que sont les standards automatiques de système téléphonique ?](what-are-phone-system-auto-attendants.md)
 #### [Répondre de standard automatique et appels de file d’attente directement à partir d’équipes](answer-auto-attendant-and-call-queue-calls.md)
 ### Routage d’un système téléphonique Direct
-#### [Planifier le routage Direct](direct-routing-plan.md)
-#### [Configurer le routage Direct](direct-routing-configure.md)
+#### [Planifier le routage direct](direct-routing-plan.md)
+#### [Configurer le routage direct](direct-routing-configure.md)
 #### [Migration vers le routage Direct](direct-routing-migrating.md)
 #### [Surveiller et résoudre les problèmes de routage Direct](direct-routing-monitor-and-troubleshoot.md)
-#### [Comptes d’utilisateurs dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
-#### [Configurer un contrôleur de Session en périphérie pour plusieurs locataires](direct-routing-sbc-multiple-tenants.md)
-#### [Liste des contrôleurs SBC certifiés pour le routage direct](direct-routing-border-controllers.md)
+#### [Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
+#### [Configurer un contrôleur de frontière de session pour plusieurs clients](direct-routing-sbc-multiple-tenants.md)
+#### [Liste des contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md)
 ### [Flux des appels équipes Microsoft Online](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 

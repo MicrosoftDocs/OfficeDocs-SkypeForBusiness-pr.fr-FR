@@ -1,5 +1,5 @@
 ---
-title: Modification de l’emplacement d’urgence d’un utilisateur
+title: Pour affecter ou modifier l’emplacement en cas d’urgence pour un utilisateur
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,21 +20,21 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Découvrez comment modifier l’emplacement d’urgence pour vos utilisateurs. Avec un nombre illimité d’emplacements, vous pouvez modifier les emplacements d’urgence quand les employés se déplacement dans les étages ou les bâtiments. '
-ms.openlocfilehash: 7ebec7ca6a2180702eec9e24b3165eb501d4a097
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
+ms.openlocfilehash: 292789b19899f01478e44a183236960282ac6330
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347110"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676416"
 ---
-# <a name="change-the-emergency-location-for-a-user"></a>Modification de l'emplacement d'urgence d'un utilisateur
+# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Pour affecter ou modifier l’emplacement en cas d’urgence pour un utilisateur
 
-Chaque numéro de téléphone actif doit avoir une adresse d’urgence (associée lorsque vous recevez un numéro de téléphone dans Office 365 ou lorsque vous transférez un numéro de téléphone) lorsque le numéro de téléphone est attribué à l’utilisateur. Lorsque vous associez le numéro à une adresse d’urgence, vous pouvez également ajouter un emplacement d’urgence pour fournir un emplacement plus précis au sein d’un emplacement physique. Un emplacement d'urgence peut être l'étage, l'aile d'un bâtiment ou le numéro du bureau où se trouve l'utilisateur. Vous pouvez avoir un nombre illimité d’emplacements pour une adresse donnée en cas d’urgence, et vous pouvez modifier l’emplacement d’urgence si l’utilisateur se déplace vers une autre bureau ou bâtiment — par exemple, si l’utilisateur se déplace de l’étage 34 à l’étage 35.
+Chaque numéro de téléphone active doit disposer d’une adresse d’urgence associée lorsque vous attribuez le numéro de téléphone à un utilisateur. (Vous associez l’adresse lorsque vous recevez un numéro de téléphone dans Office 365, ou lorsque vous transférez un numéro de téléphone). Lorsque vous associez le nombre à une adresse d’urgence, vous pouvez également ajouter un emplacement d’urgence pour fournir un emplacement plus précis au sein d’un emplacement physique. Un emplacement d'urgence peut être l'étage, l'aile d'un bâtiment ou le numéro du bureau où se trouve l'utilisateur. Vous pouvez avoir un nombre illimité d’emplacements pour une adresse donnée en cas d’urgence, et vous pouvez modifier l’emplacement d’urgence si l’utilisateur se déplace vers une autre bureau ou bâtiment — par exemple, si l’utilisateur se déplace de l’étage 34 à l’étage 35.
   
 Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coût, consultez la rubrique [Licences de modules complémentaires pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-## <a name="change-the-emergency-location-for-a-user"></a>Modification de l’emplacement d’urgence d’un utilisateur
+## <a name="assign-or-change-the-emergency-location"></a>Pour affecter ou modifier l’emplacement en cas d’urgence
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
@@ -52,10 +52,12 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
 6. Dans la page **Attribuer un numéro**, cliquez sur **Changer l'emplacement**. 
     
 7. Sous **Modifier l’adresse d’urgence à**, entrez le nom de la ville dans la zone, cliquez sur **Rechercher**.
+
+8. Sélectionnez **Rechercher par emplacement** dans la liste déroulante, entrez un nom partiel de l’emplacement (par exemple, entrez **floor**), puis cliquez sur **Rechercher**. 
     
 8. Sélectionnez l’emplacement d’urgence dans la liste, puis cliquez sur **Enregistrer**.
     
-    Si vous souhaitez ajouter un nouvel emplacement d’urgence, voir [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-or-remove-an-emergency-location-for-your-organization.md).
+    Si vous souhaitez ajouter un nouvel emplacement en cas d’urgence qui apparaîtra dans la liste, voir [Ajouter, modifier ou supprimer un emplacement en cas d’urgence pour votre organisation](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
 ## <a name="related-topics"></a>Rubriques connexes
 [Ajout ou suppression d'une adresse d'urgence pour votre organisation](add-or-remove-an-emergency-address-for-your-organization.md)
@@ -68,7 +70,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

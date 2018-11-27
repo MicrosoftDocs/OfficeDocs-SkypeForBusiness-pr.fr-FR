@@ -1,5 +1,5 @@
 ---
-title: Ajout ou suppression d’une adresse d’urgence pour votre organisation
+title: Ajouter, modifier ou supprimer une adresse d’urgence pour votre organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,27 +20,27 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "Découvrez comment ajouter une adresse d'urgence à votre compte Skype Entreprise. "
-ms.openlocfilehash: a4edcfa5673ac20c571bfae4d26f41facb9f0c80
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Learn how to add an emergency address to your Skype for Business account. '
+ms.openlocfilehash: d4347610238230e5e509dab998b99fbd7b496833
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347057"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676406"
 ---
-# <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Ajout ou suppression d'une adresse d'urgence pour votre organisation
+# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Ajouter, modifier ou supprimer une adresse d’urgence pour votre organisation
 
-Une adresse d’urgence doit être associée à un numéro de téléphone – mais le moment de cette association peut varier selon les pays/régions. Aux États-Unis par exemple, vous devez associer une adresse d'urgence lorsque vous attribuez le numéro de téléphone à l'utilisateur. Au Royaume-Uni, vous devez associer une adresse d'urgence au numéro de téléphone lorsque vous obtenez les numéros de téléphone à partir d'Office 365 ou que vous les transférez à partir de votre fournisseur de services actuel.
+Une adresse d’urgence doit être associée à un numéro de téléphone, mais lorsque cela se produit peut varier entre les pays/régions. Aux États-Unis par exemple, vous devez associer une adresse d'urgence lorsque vous attribuez le numéro de téléphone à l'utilisateur. Au Royaume-Uni, vous devez associer une adresse d'urgence au numéro de téléphone lorsque vous obtenez les numéros de téléphone à partir d'Office 365 ou que vous les transférez à partir de votre fournisseur de services actuel.
   
 Quel que soit votre pays/région, il est possible d’ajouter une ou des localisations à une adresse d'urgence ou de supprimer une adresse d’urgence. Selon le nombre d’emplacements physiques au sein de votre organisation, vous pouvez les créer pour les bureaux, étages et bâtiments. Voir [Quels sont les emplacements d’urgence, les adresses et le routage des appels ?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) pour plus d’informations.
   
 Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [Licences de modules complémentaires pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-## <a name="to-add-an-emergency-address"></a>Pour ajouter une adresse de secours
+## <a name="add-an-emergency-address"></a>Ajouter une adresse d’urgence
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accédez au site **Microsoft équipes & Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans le volet de navigation de gauche, sélectionnez **Voix** > **Localisations d'urgence**, puis cliquez sur le bouton **Ajouter une nouvelle adresse**.
     
@@ -58,6 +58,21 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
     
 6. Une fois l'adresse validée, cliquez sur **Enregistrer**.
     
+## <a name="change-an-emergency-address"></a>Modifier une adresse d’urgence
+
+1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+    
+2. Accédez au site **Microsoft équipes & Skype pour le centre d’administration Business** > **portail hérité**.
+    
+3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, sélectionnez l’adresse que vous souhaitez modifier, dans le volet Actions, cliquez sur **Modifier**.
+    
+    > [!IMPORTANT]
+    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
+
+4. Apportez les modifications souhaitées, puis cliquez sur **Valider**.
+
+5. Cliquez sur **Enregistrer**.
+
 ## <a name="to-remove-an-emergency-address"></a>Pour supprimer une adresse de secours
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
@@ -76,7 +91,7 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

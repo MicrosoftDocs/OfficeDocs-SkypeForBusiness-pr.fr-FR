@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Apprenez à ajouter, modifier ou supprimer un emplacement d’urgence utilisé par Skype Entreprise sur le réseau téléphonique commuté public (RTCP) pour votre organisation. '
-ms.openlocfilehash: 43a8ac0759fd8dc949953fe22cb73c00a96f4314
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
+ms.openlocfilehash: 81a70264e5b8a7f316a9c64e3fa6104d193dec66
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347051"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676434"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
@@ -38,7 +38,7 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubriq
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accédez au site **Microsoft équipes & Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence que vous souhaitez ajouter un emplacement pour.
     
@@ -55,7 +55,7 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubriq
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accédez au site **Microsoft équipes & Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence pour lequel vous souhaitez modifier un emplacement.
     
@@ -69,7 +69,7 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubriq
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accédez au site **Microsoft équipes & Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence que vous souhaitez supprimer un emplacement pour.
     
@@ -86,7 +86,7 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubriq
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

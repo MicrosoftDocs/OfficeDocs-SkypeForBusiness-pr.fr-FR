@@ -1,5 +1,5 @@
 ---
-title: Planifier le routage Direct
+title: Planifier le routage direct
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: a26dfc51e1a885569a37200d8613879e8f3bd484
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: d3b102dc09011e5990a42c608d78c6bb3f414ff7
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531986"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676551"
 ---
-# <a name="plan-direct-routing"></a>Planifier le routage Direct
+# <a name="plan-direct-routing"></a>Planifier le routage direct
 
 > [!Tip]
 > Regarder la session suivante pour en savoir plus sur les avantages de Direct routage, comment planifier et comment le déployer : [Routage Direct dans les équipes Microsoft](https://aka.ms/teams-direct-routing)
@@ -222,6 +222,21 @@ La plage de ports des processeurs multimédia est indiquée dans le tableau suiv
   > [!NOTE]
   > Microsoft recommande au moins deux ports par appel simultané sur le contrôleur SBC.
 
+## <a name="media-traffic-codecs"></a>Le trafic multimédia : Codecs
+
+### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Segment entre le client SBC et processeur média de nuage ou Teams Microsoft.
+S’applique aux cas de déviation du trafic multimédia et sans contournement cas
+
+L’interface de routage Direct sur le segment entre le contrôleur de Session en périphérie et le processeur de médias dans le nuage (sans le contournement de média) ou entre le client d’équipes et le contrôleur SBC (si le contournement de média activé) permettre utiliser les codecs suivants : • Non-Media contournement (SBC sur un support en nuage Processeur) : soie, G.711, G.722, G, 729 • le contournement de média (SBC client équipes) : soie, G.711, G.722, G, 729, signature
+
+Vous pouvez forcer l’utilisation du codec spécifique sur la Session Border Controller par codecs indésirables à exclure de l’offre.
+
+### <a name="leg-between-microsoft-teams-client--and-cloud-media-processor"></a>Segment entre les équipes Microsoft Client et processeur de média sur le nuage
+S’applique aux non-le contournement de média cas uniquement. Avec le contournement de média les flux multimédias directement entre le client d’équipes et SBC
+
+Sur le segment entre le processeur de média sur le nuage et le client Microsoft Teams soie ou G.722 utilisé. Le choix de codec sur ce segment basé sur les algorithmes de Microsoft, qui prennent en considération plusieurs paramètres. 
+
+
 ## <a name="supported-session-border-controllers-sbcs"></a>Prise en charge des contrôleurs de frontière de Session (SBC)
 
 Microsoft prend uniquement en charge SBCs certifiées pour établir une association avec le routage Direct. Enterprise Voice est essentielle pour les entreprises, Microsoft exécute des tests intensives avec les SBCs sélectionnés et fonctionne avec les fournisseurs SBC pour garantir les deux systèmes est compatibles. 
@@ -233,7 +248,7 @@ Pour plus d’informations sur SBCs pris en charge, voir [liste de contrôleurs 
  
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer le routage Direct](direct-routing-configure.md)
+[Configurer le routage direct](direct-routing-configure.md)
 
 
 
