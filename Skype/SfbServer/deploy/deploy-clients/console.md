@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article explique comment configurer la console v2 Skype salle systèmes et périphériques.
-ms.openlocfilehash: 01bc2fe49fc56a4926563ad18e384455ef437b77
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 4218365e7cb4b396d3e93d3fa969546138ace33d
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699429"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716373"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configuration d’une console Skype Room Systems v2
  
@@ -36,7 +36,7 @@ Vous devez uniquement effectuer ces étapes si la Skype nécessaire pour les com
 - [Liste de vérification de déploiement de systèmes de salle Skype v2](console.md#Checklist)
     
 > [!NOTE]
-> Systèmes de salle Skype v2 fonctionne uniquement dans un Skype correctement configurée pour un environnement d’entreprise où les comptes de périphériques sont correctement configurés comme décrit dans [déployer Skype salle systèmes v2](room-systems-v2.md). 
+> Systèmes de salle Skype v2 fonctionne uniquement dans un Skype correctement configurée pour un environnement d’entreprise où les comptes de périphériques sont correctement configurés comme décrit dans [déployer Skype salle systèmes v2](room-systems-v2.md).
   
 ## <a name="prepare-the-installation-media"></a>Préparer le support d’installation
 <a name="Prep_Media"> </a>
@@ -45,14 +45,13 @@ Installation de l’application de console Skype salle systèmes v2 requiert un 
   
 > [!NOTE]
 > Impossible de créer votre support d’installation v2 Skype salle systèmes en fonction de ces instructions aura un comportement inattendu. Mise à jour Windows 10 entreprise anniversaire (Version 1607) est plus pris en charge pour la création de systèmes de salle Skype v2 installation multimédia.
-  
+
 > [!NOTE]
-> Un v2 Skype salle systèmes existants avec Windows 10 entreprise déplacement vers les systèmes de salle Skype v2 mise à jour 3 par l’entremise du Windows Store fonctionnera, mais une nouvelle installation doit être effectuée comme indiqué ci-dessous. 
+> Un v2 Skype salle systèmes existants avec Windows 10 entreprise déplacement vers les systèmes de salle Skype v2 mise à jour 3 par l’entremise du Windows Store fonctionnera, mais une nouvelle installation doit être effectuée comme indiqué ci-dessous.
   
 1. Télécharger le script [CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842). 
 2. (Facultatif) Téléchargez et placer les fichiers CAB du pack langue de votre choix dans le même répertoire que le script. Le script indique où vous pouvez télécharger les fichiers de pack de langue appropriés pour le type de média que vous créez, si vous ne savez pas où se procurer les modules linguistiques de.
 3. Exécutez le script CreateSrsMedia.ps1 à partir d'une invite avec élévation de privilèges sur un ordinateur Windows 10.
-
 
 Suivez les instructions du script pour créer un disque d’installation de systèmes de salle Skype v2 USB. Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur et passez à [10 de Windows Installer et de l’application de console Skype salle systèmes v2](console.md#Reimage).
 
@@ -82,10 +81,9 @@ Vous devez maintenant appliquer le support d’installation que vous avez créé
 
 8. Le système s’arrêtera une fois l’installation terminée.
     
-Une fois que le système est arrêté, il est recommandé supprimer le disque du programme d’installation USB. À ce stade, vous pourrez placer le devcie cible dans sa station d’accueil (si vous utilisez un produit basé sur une station d’accueil), attacher les périphériques nécessaires pour votre salle de réunion et connexion au réseau. Reportez-vous aux instructions de fabricant.
+Une fois que le système est arrêté, il est recommandé supprimer le disque du programme d’installation USB. À ce stade, vous pourrez placer le périphérique cible dans sa station d’accueil (si vous utilisez un produit basé sur une station d’accueil), attacher les périphériques nécessaires pour votre salle de réunion et connexion au réseau. Reportez-vous aux instructions de fabricant.
   
- 
-### <a name="selecting-a-language-in-creators-update"></a>Sélection de la langue pour la mise à jour de Creator
+### <a name="selecting-a-language"></a>Sélection d’une langue 
 
 Dans la mise à jour du créateur, vous devez utiliser le script ApplyCurrentRegionAndLanguage.ps1 dans des scénarios où la sélection de la langue implicite ne fournit pas l’utilisateur dont la langue de l’application réelle qu’ils souhaitent (par exemple, qu’ils souhaitent l’application de console pour élaborer en Français, mais elle suit en anglais).
   
@@ -121,8 +119,9 @@ Dans la mise à jour du créateur, vous devez utiliser le script ApplyCurrentReg
 11. Lancez une invite de commande avec élévation de privilèges.
     
 12. Exécutez la commande suivante : 
-    
+    ```
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
+    ```
     
 13. Redémarrez le système.
     

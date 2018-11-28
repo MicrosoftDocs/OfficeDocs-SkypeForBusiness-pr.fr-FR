@@ -11,21 +11,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume les conditions requises pour prendre en charge les systèmes Skype Room version 2.
-ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
-ms.translationtype: HT
+ms.openlocfilehash: 8cadbed89be0301071c2c8a30c715f786b549d36
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532072"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716450"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
 
 Cet article résume les conditions requises pour prendre en charge les systèmes Skype Room version 2. 
 
-Votre déploiement impliquera la création d'un compte, tel que décrit dans la rubrique [Déployer des systèmes Skype Room version 2](../../deploy/deploy-clients/room-systems-v2.md) et l’installation d’une console de réunion, tel que décrit dans la rubrique [Configurer une console pour les systèmes Skype Room version 2](../../deploy/deploy-clients/console.md). Vous devrez peut-être également vous reportezr àla rubrique [Licences de module complémentaire Skype Entreprise](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
+Votre déploiement impliquera la création d'un compte, tel que décrit dans la rubrique [Déployer des systèmes Skype Room version 2](../../deploy/deploy-clients/room-systems-v2.md) et l’installation d’une console de réunion, tel que décrit dans la rubrique [Configurer une console pour les systèmes Skype Room version 2](../../deploy/deploy-clients/console.md). 
+
+Vous devez également faire référence à :
+
+- [Licences de module complémentaire Skype Entreprise](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [Options en fonction de votre plan de licence : v2 de systèmes de salle de Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Les systèmes Skype Room version 2 sont destinés à être utilisés avec Skype Entreprise Server 2019, Skype Entreprise Server 2015, Microsoft Teams ou Skype Entreprise Online. <br><br>Les plateformes antérieures comme Lync Server 2013 ne sont pas supposées fonctionner avec les systèmes Skype Room version 2. 
+> Les systèmes Skype Room version 2 sont destinés à être utilisés avec Skype Entreprise Server 2019, Skype Entreprise Server 2015, Microsoft Teams ou Skype Entreprise Online.<br><br>Les plateformes antérieures comme Lync Server 2013 ne sont pas supposées fonctionner avec les systèmes Skype Room version 2.
 
 > [!NOTE]
 > Si vous utilisez un serveur Exchange sur site, les systèmes Skype Room version 2 nécessitent l'utilisation d'Exchange Server 2013 SP1 ou version ultérieure.
@@ -115,7 +120,7 @@ Le tableau suivant fournit des recommandations pour les périphériques en fonct
 |:-----|:-----|:-----|:-----|:-----|
 |**Focus** <br/> 10' x 9'  <br/> |2-4  <br/> |1,5 m   <br/> |Logitech Connect  <br/> |Les périphériques Logitech Connect comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion.  <br/> |
 |**Petite** <br/> 16' x 16'  <br/> |4-6  <br/> |2,0 m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Le volume de lecture peut être limité pour des salles plus grandes.  <br/> |
-|**Moyenne** <br/> 18' x 20'  <br/> |6-12  <br/> |2,4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |Les périphériques Logitech MeetUp comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion.  <br/> En général, les salles avec des tables longues ou en U peuvent bénéficier de microphones satellitaires supplémentaires.  <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  <br/> |
+|**Moyenne** <br/> 18' x 20'  <br/> |6-12  <br/> |2,4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |Les périphériques Logitech MeetUp comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion.  <br/> En général, les salles avec des tables longues ou en U peuvent bénéficier de microphones satellitaires supplémentaires.  <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  <br/> |
 |**Grande** <br/> 15' x 32'  <br/> |12-16  <br/> |3 m  <br/> La distance s’applique également à la zone couverte par chaque microphone satellite supplémentaire connecté au périphérique audio en question.   <br/> |Logitech Group + microphones satellitaires  <br/> Polycom Trio+ microphones satellitaires  <br/> Polycom CX5100 + microphones satellitaires  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS + microphones satellitaires  <br/> |Tous les périphériques audio répertoriés dans cette ligne prennent en charge les options de microphone satellite.  <br/> CX5100 comprend une caméra 360 degrés intégrée de manière à ce que le périphérique puisse être positionné au centre de la table.  <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  <br/> |
 
 **Périphériques vidéo certifiés pour les systèmes Skype Room version 2**

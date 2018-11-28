@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, des médias et du bureau générés par Microsoft Teams, où les trouver et comment ils peuvent vous assister dans vos opérations de dépannage.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95d28bac036476c417ccbe7929a23ab9fb37f3a8
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: 6a14d6db6c03b540a6495b9028a4f0342ff92636
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25018899"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716334"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser des fichiers journaux pour le dépannage de Microsoft Teams
 =================================================
@@ -41,7 +41,6 @@ Le tableau suivant présente les différents clients et les journaux associés. 
 |Mac OSX     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
-|Windows Phone     |-         |-         |-         |
 
 Pour obtenir la liste complète des systèmes d’exploitation et navigateurs pris en charge, consultez la rubrique [Obtenir des clients pour Microsoft Teams](get-clients.md).
 
