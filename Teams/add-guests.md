@@ -12,12 +12,12 @@ ms.reviewer: sbhatta
 description: Découvrez les outils disponibles pour qu'un administrateur ajoute de nouveaux utilisateurs invités à une organisation, y compris les clients web et de bureau de Microsoft Teams et le portail de collaboration Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0671774d01ce8b2dfeea78fff36dde117931ff00
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 729490af1c1e15b82d62dc35386e9ad4344d863a
+ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674464"
+ms.lasthandoff: 11/29/2018
+ms.locfileid: "26984733"
 ---
 <a name="add-a-guest-to-a-team"></a>Ajouter un invité à une équipe
 =====================
@@ -48,6 +48,6 @@ Vous pouvez suivre l'ajout d'invités dans Azure Active Directory ou dans le C
 
 ## <a name="more-information"></a>Plus d’informations
 
-[Autoriser l’accès invité dans Microsoft Teams](teams-dependencies.md)
-[Activer ou désactiver l’accès invité dans les équipes Microsoft](set-up-guests.md)
-[Utilisation de PowerShell pour contrôler l’accès invité à une équipe](guest-access-powershell.md)
+[Autoriser l'accès invité dans Microsoft Teams](teams-dependencies.md)</br>
+[Activer ou désactiver l’accès invité dans Microsoft Teams](set-up-guests.md)</br>
+[Utiliser PowerShell pour contrôler l'accès invité à une équipe](guest-access-powershell.md)

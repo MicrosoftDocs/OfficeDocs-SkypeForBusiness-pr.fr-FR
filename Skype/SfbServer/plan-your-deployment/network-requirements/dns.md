@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Résumé : Passez en revue les considérations relatives au DNS dans cette rubrique avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: d7f1cf424b98700eed7b2474e3c06db6d585fb30
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 20e520d0ecb43d098855c434db740592eb7c760c
+ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887889"
+ms.lasthandoff: 11/29/2018
+ms.locfileid: "26984747"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Enregistrements DNS requis pour Skype pour Business Server
 
@@ -43,7 +43,7 @@ Les tableaux suivants indiquent les enregistrements DNS que Skype pour Business 
 
 |Type d'enregistrement|Valeur|Résolu en|Objectif|Obligatoire|
 |:-----|:-----|:-----|:-----|:-----|
-|A/AAAA   |Nom de domaine complet pool frontal  <br/> *FE-pool. <span> </span>contoso<span></span>.com*   |Adresses IP des serveurs frontaux pool de serveurs frontaux  <br/>  DNS kg à *192.168.21.122 192.168.21.123 192.168.21.124*   |Équilibrage de charge DNS des pools frontaux Mappe le nom du pool frontal vers un ensemble d'adresses IP.  <br/> Reportez-vous à la section [Déploiement de l'équilibrage de la charge DNS dans les pools frontaux et les pools directeurs](load-balancing.md#BK_FE_Dir).  |Y   |
+|A/AAAA   |Nom de domaine complet pool frontal  <br/> *FE-pool. <span> </span>contoso<span></span>.com*   |Adresses IP des serveurs frontaux pool de serveurs frontaux  <br/>  DNS kg à *192.168.21.122 192.168.21.123 192.168.21.124*   |Équilibrage de charge DNS des pools frontaux Mappe le nom du pool frontal vers un ensemble d'adresses IP. <br/> Reportez-vous à la section [Déploiement de l'équilibrage de la charge DNS dans les pools frontaux et les pools directeurs](load-balancing.md#BK_FE_Dir).  |Y   |
 |A/AAAA   | Nom de domaine complet de chaque serveur frontal ou Standard Edition server dans un pool ou un serveur autonome <br/>  *FE01. <span> </span>contoso. <span> </span>FE02 com. <span> </span>contoso<span></span>.com FE03. <span> </span>contoso<span></span>.com*   |IP correspondant de chaque serveur  <br/> *192.168.21.122 192.168.21.123 192.168.21.124*   |Mappe le nom du serveur vers son adresse IP.   |Y   |
 |A/AAAA   |FQDN de remplacement de services Web internes pour pool d'entreprise  <br/> *Web-int<span></span>contoso<span></span>.com*   |Adresse IP virtuelle du services Web internes de serveur frontal  <br/> *192.168.21.120*   |Requis pour permettre le trafic web server, telles que le téléchargement de la Skype pour l’application Web de gestion client. Également requis pour les clients mobiles.   |Y   |
 |A/AAAA   |FQDN de remplacement de services Web externes pour pool d'entreprise  <br/> *Web-ext<span></span>contoso<span></span>.com*   |Adresse IP virtuelle pour les Services Web externes de serveur frontal  <br/>*68.123.56.90*   |Requis pour permettre le trafic web server, telles que le téléchargement de la Skype pour l’application Web de gestion client. Requis si les clients mobiles résoudront le DNS en interne. Peut être converti en adresse IP Internet ou adresse IP de proxy inverse DMZ.   ||
@@ -58,16 +58,16 @@ Les tableaux suivants indiquent les enregistrements DNS que Skype pour Business 
 |CNAME   |lyncdiscoverinternal. * \<sipdomain\>* <br/> lyncdiscoverinternal. *<span></span>Contoso<span></span>.com*   |FQDN de pool HLB FE ou FQDN de serveur directeur  <br/> Web-int<span></span>contoso<span></span>.com   |Service1 de découverte automatique interne <br/> Si vous le souhaitez, vous pouvez l'implémenter comme CNAME (nom canonique) au lieu d'un enregistrement A.   ||
 |A/AAAA   |SIP. * \<sipdomain\>* <br/> SIP. * <span> </span>contoso<span></span>.com*  |Adresses IP de serveur (ou un chaque IP directeur adresse) un pool de serveurs frontaux  <br/>  DNS kg à *192.168.21.122 192.168.21.123 192.168.21.124*   |Requis pour la configuration automatique, voir [services de localisation de Skype de procédure pas à pas pour les clients d’entreprise](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype) <br/> Un ou des enregistrements qui pointe vers les serveurs du pool frontal ou directeur serveurs sur le réseau interne, ou le service Edge d’accès lorsque le client est externe   |& #x 2777 ;  |
 |A/AAAA   |UCUpdates-r2. * \<sipdomain\>* <br/> UCUpdates-r2. * <span> </span>contoso<span></span>.com*  |Adresse VIP de pool HLB FE ou VIP HLB de pool de serveurs directeur, ou IP de serveur directeur/SE  <br/>  192.168.21.121  |Déploiement de cet enregistrement est facultatif & #x 2778 ;  ||
-|A/AAAA   |\_sipinternaltls. \_tcp. * \<sipdomain\> * <br/>Port 5061 <br/>\_sipinternaltls. \_tcp. * <span> </span>contoso<span></span>.com* <br/>Port 5061  |Nom de domaine complet pool frontal  <br/>*FE-Pool. <span> </span>contoso<span></span>.com*  |Permet la connexion automatique interne des utilisateurs 1 au serveur/pool frontal ou au serveur/pool SE, qui authentifie et redirige les demandes client de connexion.  |& #x 2777 ; |
-|A/AAAA |\_sipinternal. * \<sipdomain\>* <br/>\_sipinternal. <span> </span> *contoso<span></span>.com*  |Nom de domaine complet pool frontal  <br/>_FE-Pool. <span> </span>contoso<span></span>.com_  |L’accès des utilisateurs internes et #x 2776 ;  |& #x 2777 ;  |
-|SRV   | \_NTP. \_udp. * \<sipdomain\> * <br/> \_NTP. \_udp. <span> </span> *contoso<span></span>.com*  |FQDN de serveur de temps  <br/> Nord-america.pool.ntp.org   |Source NTP nécessaire pour les appareils Lync Phone Edition   |Cette opération est obligatoire pour prendre en charge des téléphones de bureau.   |
+|SRV   |\_sipinternaltls. \_tcp. * \<sipdomain\> * <br/>Port 5061 <br/>\_sipinternaltls. \_tcp. * <span> </span>contoso<span></span>.com* <br/>Port 5061  |Nom de domaine complet pool frontal  <br/>*FE-Pool. <span> </span>contoso<span></span>.com*  |Permet la connexion automatique interne des utilisateurs 1 au serveur/pool frontal ou au serveur/pool SE, qui authentifie et redirige les demandes client de connexion.    |& #x 2777 ; |
+|A/AAAA |sipinternal. * \<sipdomain\>* <br/>sipinternal. <span> </span> *contoso<span></span>.com*  |Nom de domaine complet pool frontal  <br/>_FE-Pool. <span> </span>contoso<span></span>.com_  |L’accès des utilisateurs internes et #x 2776 ;  |& #x 2777 ;  |
+|SRV   | \_NTP. \_udp. * \<sipdomain\> * <br/> \_NTP. \_udp. <span> </span> *contoso<span></span>.com*  |FQDN de serveur de temps  <br/> north-america.pool.ntp.org   |Source NTP nécessaire pour les appareils Lync Phone Edition   |Cette opération est obligatoire pour prendre en charge des téléphones de bureau.   |
 |SRV   |\_sipfederationtls. \_tcp. * \<sipdomain\> * <br/>\_sipfederationtls. \_tcp. <span> </span> *contoso<span></span>.com*  | Nom de domaine complet service Edge d’accès <br/> Int-EdgePool<span></span>*contoso<span></span>.com*  |Créez un enregistrement SRV pour chaque domaine SIP comptant des clients mobiles iOS ou Windows Phone.   |Prise en charge des clients mobiles   |
 |A/AAAA   |URL d'administration  <br/>*Web-int<span></span>contoso<span></span>.com*  |Adresse VIP de pool HLB FE  <br/> 192.168.21.121   |Skype pour Business Server le panneau de configuration, voir les [URL simples](dns.md#BK_Simple)  ||
 |A/AAAA   |URL de réunion  <br/>*Web-int<span></span>contoso<span></span>.com*  |Adresse VIP de pool HLB FE  <br/> 192.168.21.121   |Les réunions en ligne, voir les [URL simples](dns.md#BK_Simple)  ||
 |A/AAAA   |URL d'accès à distance  <br/>*Web-int<span></span>contoso<span></span>.com*  |Adresse VIP de pool HLB FE  <br/> 192.168.21.121   |Conférence rendez-vous, voir les [URL simples](dns.md#BK_Simple)  ||
 |A/AAAA   |FQDN des services Web internes  <br/>*Web-int<span></span>contoso<span></span>.com*  |Adresse VIP de pool HLB FE  <br/> 192.168.21.121   |Skype pour le Service Web utilisé par Skype pour l’application Web de gestion d’entreprise   ||
 |A/AAAA   |FQDN du pool de serveur d’applications Web Office  <br/> OWA. <span> </span>contoso<span></span>.com   | Pool de serveur d’applications Web Office adresse IP virtuelle <br/> 192.168.1.5   |Définit le nom de domaine complet du pool Office Web Apps Server   ||
-|A/AAAA   | FQDN web interne <br/> Web-int<span></span>contoso<span></span>.com   | Adresse IP virtuelle pool frontal <br/> 192.168.21.121   |Définit le FQDN Web interne utilisé par Skype pour Business Web App  <br/> Si vous avez recours à l'équilibrage de la charge DNS dans ce pool, votre pool frontal et votre batterie de serveurs Web internes ne peuvent pas avoir le même nom de domaine complet.   ||
+|A/AAAA   |  FQDN web interne <br/> Web-int<span></span>contoso<span></span>.com   | Adresse IP virtuelle pool frontal <br/> 192.168.21.121   |Définit le FQDN Web interne utilisé par Skype pour Business Web App  <br/> Si vous avez recours à l'équilibrage de la charge DNS dans ce pool, votre pool frontal et votre batterie de serveurs Web internes ne peuvent pas avoir le même nom de domaine complet.   ||
 
 & #x 2776 ; Utilisé par un client pour découvrir le pool frontal ou serveur frontal et être authentifié et connecté en tant qu’utilisateur. Plus de détails sur ce est sur la [localisation des services Skype de procédure pas à pas pour les clients d’entreprise](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype).
 
@@ -75,7 +75,7 @@ Les tableaux suivants indiquent les enregistrements DNS que Skype pour Business 
 
 & #x 2778 ; Dans le cas où un périphérique de Communications unifiées est activé, mais un utilisateur n’est jamais connecté le périphérique, l’enregistrement A permet de détecter le serveur hébergeant le service Web de mise à jour des périphériques et d’obtenir des mises à jour. Les périphériques peuvent autrement se procurer ces informations via une mise en service de la bande entrante la première fois qu’un utilisateur se connecte.
 
-Le diagramme suivant illustre un exemple incluant des enregistrements DNS à la fois internes et externes, ainsi que de divers enregistrements indiqués dans les tableaux de cet article :
+Le diagramme suivant illustre un exemple incluant des enregistrements DNS à la fois internes et externes, ainsi que de divers enregistrements indiqués dans les tableaux de cet article : 
 
 **Diagramme réseau Edge utilisant des adresses IPv4 publiques**
 
@@ -93,7 +93,7 @@ Le diagramme suivant illustre un exemple incluant des enregistrements DNS à la 
 |CNAME   |SIP. * \<sipdomain\>* <br/> SIP. * <span> </span>contoso<span></span>.com*  |FQDN du pool Edge d'accès externe  <br/>*Access1. <span> </span>contoso<span></span>.com*  |Localise le pool de serveurs Edge. Voir [services de localisation de Skype de procédure pas à pas pour les clients d’entreprise](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)  |Y   |
 |SRV   |\_SIP. \_tls. * \<sipdomain\> * <br/>\_SIP. \_tls. <span> </span> *contoso<span></span>.com*  |Serveur Edge d’accès externe nom de domaine complet  <br/>_Access1. <span> </span>contoso<span></span>.com_  |Utilisé pour l'accès externe des utilisateurs. Voir [services de localisation de Skype de procédure pas à pas pour les clients d’entreprise](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)  |Y   |
 |SRV   |\_sipfederationtls. \_tcp. * \<sipdomain\> * <br/>\_sipfederationtls. \_tcp. <span> </span> *contoso<span></span>.com*  |Serveur Edge d’accès externe nom de domaine complet  <br/>*Access1. <span> </span>contoso<span></span>.com*  |Utilisé pour la fédération et la connectivité PIC   |& #x 2776 ;  |
-|SRV   |\_serveur-XMPP. \_tcp. *< sipdomain\> * <br/>\_serveur-XMPP. \_tcp. * <span> </span>contoso<span></span>.com*  |Serveur Edge d’accès externe nom de domaine complet  <br/>*Access1. <span> </span>contoso<span></span>.com*  |Le service Proxy XMPP accepte et envoie XMPP et des messages de protocole (XMPP) de présence avec des partenaires fédérés XMPP configurés.   |Oui, pour déployer la fédération ; sinon, facultatif  <br/> Non disponible dans Skype pour Business Server 2019.|
+|SRV   |\_serveur-XMPP. \_tcp. *<sipdomain\> * <br/>\_serveur-XMPP. \_tcp. * <span> </span>contoso<span></span>.com*  |Serveur Edge d’accès externe nom de domaine complet  <br/>*Access1. <span> </span>contoso<span></span>.com*  |Le service Proxy XMPP accepte et envoie XMPP et des messages de protocole (XMPP) de présence avec des partenaires fédérés XMPP configurés.   |Oui, pour déployer la fédération ; sinon, facultatif  <br/> Non disponible dans Skype pour Business Server 2019.|
 |SRV   |\_sipfederationtls. \_tcp. * \<sipdomain\> * <br/>\_sipfederationtls. \_tcp. * <span> </span>contoso<span></span>.com*  |Serveur Edge d’accès externe nom de domaine complet  <br/>*Access1. <span> </span>contoso<span></span>.com*  |Pour prendre en charge le Service de notifications Push et service de notifications Push Apple, vous créez un enregistrement SRV pour chaque domaine SIP. & #x 2778 ;  ||
 |A/AAAA   |Nom de domaine complet des services web du pool frontal externe  <br/>*Web-ext<span></span>contoso<span></span>.com*  |Adresse IP publique proxy inverse, proxys pour l’adresse IP virtuelle de Services Web externes de votre pool frontal #x 2776 ; <br/> 131.107.155.1 proxy d’à 192.168.21.120   |Front End pool externe interface utilisée par Skype pour Business Web App   |Y   |
 |A/AAAA/CNAME   |lyncdiscover. * \<sipdomain\>* <br/> lyncdiscover. * <span> </span>contoso<span></span>.com*  |Reverse proxy adresse IP publique correspond à l’adresse IP virtuelle de Services Web externes pour votre pool directeur, si vous en avez un, ou pour votre pool frontal si vous n’avez pas un directeur et un #x 2777 ; <br/> 131.107.155.1 proxy d’à 192.168.21.120   | Enregistrement externe pour le client de découverte automatique, également utilisée par la mobilité, Skype pour Business Web App et Planificateur Web app, résolu par le serveur proxy inverse <br/> Pour prendre en charge le Service de notifications Push et service de notifications Push Apple, vous créez un enregistrement SRV pour chaque domaine SIP dont les clients Microsoft Lync Mobile. 3  |Y   |
@@ -110,10 +110,10 @@ Le diagramme suivant illustre un exemple incluant des enregistrements DNS à la 
  Pour plus d’informations sur les serveurs de périphérie et les réseaux de périmètre, consultez le contenu de [planification DNS](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#DNSPlan) du serveur Edge.
 
 > [!IMPORTANT]
-> Skype pour Business Server prend en charge l’utilisation de l’adressage IPv6. Pour plus d’informations, consultez [planification d’IPv6 dans Skype pour les entreprises](ipv6.md) .
+> Skype pour Business Server prend en charge l’utilisation de l’adressage IPv6. Pour plus d'informations, consultez l'article [Plan for IPv6 in Skype for Business](ipv6.md).
 
 > [!IMPORTANT]
-> Pour plus d’informations sur les noms de domaine complets, voir [Notions de base sur DNS](basics.md).
+> Pour plus d'informations sur les FQDN, consultez l'article [DNS basics](basics.md). 
 
 **Split brain DNS** 
  <a name="BK_split"> </a>
@@ -130,7 +130,7 @@ Vous devez également vous reporter à « URL d’Office 365 et l’adresse IP 
 ## <a name="simple-urls"></a>URL simples 
 <a name="BK_Simple"> </a>
 
-Une URL (Uniform Resource Locator) est une référence à une ressource Web qui spécifie son emplacement dans un réseau informatique et un protocole utilisé pour le récupérer.
+Une URL (Uniform Resource Locator) est une référence à une ressource Web qui spécifie son emplacement dans un réseau informatique et un protocole utilisé pour le récupérer. 
 
 Skype pour Business Server prend en charge trois URL « simples » pour accéder aux services :
 
@@ -151,14 +151,14 @@ Vous pouvez définir les noms de ces pools et serveurs comme bon vous semble, fa
 
 ### <a name="dns-records-for-individual-servers-or-pools"></a>Enregistrements DNS pour des serveurs ou pools spécifiques
 
-Ces exigences enregistrement générique s’appliquent à un rôle de serveur utilisé par Skype pour les entreprises. Un pool est un ensemble de serveurs exécutant les mêmes services qui fonctionnent ensemble pour traiter les demandes client qu'ils reçoivent via un équilibreur de charge. Voir [Configuration requise pour Skype pour les entreprises l’équilibrage de charge](load-balancing.md) pour plus d’informations
+Ces exigences enregistrement générique s’appliquent à un rôle de serveur utilisé par Skype pour les entreprises. Un pool est un ensemble de serveurs exécutant les mêmes services qui fonctionnent ensemble pour traiter les demandes client qu'ils reçoivent via un équilibreur de charge. Pour plus d'informations, consultez la rubrique [Load balancing requirements for Skype for Business](load-balancing.md).
 
 **Conditions requises relatives aux enregistrements DNS pour les rôles de serveur/pool (avec équilibrage de charge DNS)**
 
 |Scénario de déploiement|Enregistrement DNS requis|
 |:-----|:-----|
 |Un serveur :  <br/> Conversation permanente, directeur, serveur de médiation, serveur frontal   |Un enregistrement interne A qui associe le nom de domaine complet (FQDN) du serveur à son adresse IP.  <br/> ServerRole. <span> </span>contoso<span></span>.com 10.10.10.0   |
-|Pool :  <br/> Conversation permanente, directeur, serveur Edge, serveur de médiation, serveur frontal   |Un enregistrement interne A qui résout le nom de domaine complet (FQDN) de chaque nœud de serveur dans le pool sur son adresse IP.  <br/>**Exemple** <br/> ServerRole01. <span> </span>contoso<span></span>.com 10.10.10.1  <br/> ServerRole02. <span> </span>contoso<span></span>.com 10.10.10.2  <br/> Plusieurs enregistrements internes A qui résolvent le nom de domaine complet (FQDN) du pool sur les adresses IP des nœuds de serveurs dans le pool.  <br/>**Exemple** <br/> ServerPool. <span> </span>contoso<span></span>.com 10.10.10.1  <br/> ServerPool. <span> </span>contoso<span></span>.com 10.10.10.2   |
+|Pool :  <br/> Conversation permanente, directeur, serveur Edge, serveur de médiation, serveur frontal    |Un enregistrement interne A qui résout le nom de domaine complet (FQDN) de chaque nœud de serveur dans le pool sur son adresse IP.  <br/>**Exemple** <br/> ServerRole01. <span> </span>contoso<span></span>.com 10.10.10.1  <br/> ServerRole02. <span> </span>contoso<span></span>.com 10.10.10.2  <br/> Plusieurs enregistrements internes A qui résolvent le nom de domaine complet (FQDN) du pool sur les adresses IP des nœuds de serveurs dans le pool.  <br/>**Exemple** <br/> ServerPool. <span> </span>contoso<span></span>.com 10.10.10.1  <br/> ServerPool. <span> </span>contoso<span></span>.com 10.10.10.2   |
 
 ### <a name="edge-server-specific-dns-topics"></a>Rubriques sur les DNS spécifiques au serveur Edge
 
