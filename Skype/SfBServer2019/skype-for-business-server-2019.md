@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Résumé : Explorez ces liens pour découvrir comment mettre en œuvre Skype pour Business Server 2019.'
-ms.openlocfilehash: 1467f27a0560a27f386e7368fdf654831a65c0a6
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 66c3f4651a6423d7e8938c8c063c98aa5aeaaf47
+ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532375"
+ms.lasthandoff: 11/29/2018
+ms.locfileid: "26984740"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype pour Business Server 2019
 
@@ -113,7 +113,7 @@ ms.locfileid: "26532375"
         </div>
         </a>
     </li>
-    <li>
+    <li> 
         <a href="https://go.microsoft.com/fwlink/?linkid=2005336">
         <div class="cardSize">
             <div class="cardPadding">
@@ -132,9 +132,6 @@ ms.locfileid: "26532375"
         </a>
     </li>
 </ul>
-
-
-
 
 <!-- 
 
