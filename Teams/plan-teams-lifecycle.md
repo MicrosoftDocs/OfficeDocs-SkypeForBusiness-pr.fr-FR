@@ -12,18 +12,22 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb337853af524e9733d56dcb428f63268bd65b62
-ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
+ms.openlocfilehash: 56add7d27a367c5320243455d6891fa178526b4f
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25092699"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699740"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planifier la gestion du cycle de vie dans Teams
 
 Teams fournit un ensemble complet d’outils pour implémenter les processus de gestion du cycle de vie de la collaboration de votre organisation. Cet article expose aux spécialistes des technologies de l’information les éléments à prendre en compte pour déterminer leurs besoins en matière de gestion du cycle de vie, ainsi que les outils à utiliser pour y répondre. 
 
-La planification du cycle de vie est importante, car cela signifie que vous établissez un plan pour accomplir vos tâches efficacement. La plupart des projets s’articulent autour d’un début, d’un milieu et d'une fin. Les équipes également, mais elles peuvent être constituées et utilisées de tant de manières différentes que déterminer à quel stade de leur cycle de vie elles se trouvent n’est pas toujours évident. Disposer d’un plan de gestion du cycle de vie vous permettra de suivre les projets de votre organisation au fur et à mesure qu’ils passent par ces stades.
+La planification du cycle de vie est importante, car cela signifie que vous établissez un plan pour accomplir vos tâches efficacement. La plupart des projets s’articulent autour d’un début, d’un milieu et d'une fin. Les équipes également, mais elles peuvent être constituées et utilisées de tellement de façons différentes qu’il n’est pas toujours évident de savoir à quelle étape de leur cycle de vie elles sont. Avoir un plan de gestion du cycle de vie vous permettra de suivre les projets de votre organisation au fur et à mesure qu’elles passent par ces étapes.
+
+> [!Tip]
+> Regardez la session suivante pour en savoir plus sur le cycle de vie dans Microsoft Teams : [Gouvernance, gestion et cycle de vie dans Microsoft Teams](https://aka.ms/teams-governance)
+
 
 ## <a name="lifecycle-concepts"></a>Concepts de cycle de vie
 
