@@ -1,9 +1,8 @@
 ---
-title: Coexistence avec Skype pour les entreprises
+title: Coexistence avec Skype Entreprise
 author: jambirk
 ms.author: francoid
 manager: Serdars
-ms.date: 11/7/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: francoid
@@ -13,113 +12,150 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0d6e4ad171ffc99e1f0aaa1c3b93e0fd61443bc
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2965c876424820f31e50e4a7df7b5ea7cf2f7294
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26535905"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993425"
 ---
-# <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype pour les entreprises
+# <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
-Coexistence et l’interopérabilité entre les équipes et Skype pour les entreprises est défini par les modes TeamsUpgrade, décrits la [Migration et l’interopérabilité pour les organisations](migration-interop-guidance-for-teams-with-skype.md)à l’aide d’équipes avec Skype pour les entreprises.
+Coexistence et l’interopérabilité entre les utilisateurs et Skype pour les clients professionnels et les équipes est défini par les modes TeamsUpgrade, décrites dans la [Migration et l’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](migration-interop-guidance-for-teams-with-skype.md).
 
-Mode TeamsUpgrade, par défaut ou explicitement par l’administrateur système toujours être affecté à un utilisateur donné. La valeur par défaut est *(îles)*. Les utilisateurs de la mise à niveau vers les équipes ont le mode de *TeamsOnly*.
+Mode TeamsUpgrade, par défaut ou explicitement par l’administrateur système toujours être affecté à un utilisateur donné. La valeur par défaut est *(îles)*. Les utilisateurs de la mise à niveau vers les équipes ont le mode de *TeamsOnly*. *SfBOnly*, *SfBWithTeamsCollab*et *SfBWithTeamsCollabAndMeetings* sont également possibles modes.
 
 > [!NOTE]
-> Mode *hérité* est déconseillé ; les utilisateurs reste en mode *hérité* seront convertis en mode *(îles)* après le 15 novembre 2018.
+> Mode *hérité* est déconseillé ; les utilisateurs qui ont été mode *hérité* ont été convertis en mode *(îles)* .
 
 ## <a name="routing-parameters"></a>Paramètres de routage
 
 Le mode TeamsUpgrade du destinataire est la clé pour déterminer le comportement des conversations, appels et la présence, à la fois au sein d’un client et dans les clients fédérés.
 
-Si l’expéditeur est à l’aide des équipes, la décision de routage est effectuée lors de la création d’un nouveau thread de conversation. Threads de conversation existants dans les équipes conservent toujours la méthode de routage déterminée lorsque le thread a été créé. Les équipes prend en charge les threads permanents.
+Si l’expéditeur est à l’aide des équipes, la décision de routage est effectuée lors de la création d’un nouveau thread de conversation. Threads de conversation existants dans les équipes toujours conservent la méthode de routage déterminée lorsque le thread a été créé : prend en charge les équipes threads permanents.
 
  Méthodes de routage de thread sont les suivants :  
-* *native* permettant aux équipes conversation équipes-client
-* *interopérabilité* aux équipes de Skype pour conversation entreprise-client
-* *fédérés* pour une conversation fédérée entre les clients.
+
+- *native* permettant aux équipes conversation équipes-client
+- *interopérabilité* aux équipes de Skype pour conversation entreprise-client
+- *fédérés* pour une conversation fédérée entre les clients
 
 Les paramètres qui déterminent la méthode de routage de thread sont les suivants :
-* Le mode TeamsUpgrade du destinataire
-* Le client utilisé par l’expéditeur
-* Si la conversation est nouveau, ou une partie d’un thread existant
-* Si la conversation est fédérés ou de client
-* Si la conversation est possible
-    * Interopérabilité de client et la fédération des équipes requiert que le client de l’expéditeur est soit pur en ligne ou Skype pour un environnement hybride Business. Locataires purement locaux ne peut pas avoir de client interopérabilité ou équipes de la fédération.
-    * Si le Skype pour un compte professionnel de l’expéditeur est hébergée sur site, que l’utilisateur ne peut pas utiliser le client d’équipes pour l’interopérabilité in client et pour la fédération. Que l’utilisateur doit utiliser le Skype pour client d’entreprise au lieu de cela pour l’interopérabilité et la fédération.
-    * Aux équipes de communication équipes est toujours possible de client.
+
+- Le mode TeamsUpgrade du destinataire
+- Le client utilisé par l’expéditeur
+- Si la conversation est nouveau, ou une partie d’un thread existant
+- Si la conversation est fédérés ou de client
+- Si la conversation est possible
+    - Interopérabilité de client et la fédération des équipes requiert que le client de l’expéditeur est soit pur en ligne ou Skype pour un environnement hybride Business. Locataires purement locaux ne peut pas avoir de client interopérabilité ou équipes de la fédération.
+    - Si le Skype pour un compte professionnel de l’expéditeur est hébergée sur site, que l’utilisateur ne peut pas utiliser le client d’équipes pour l’interopérabilité in client et pour la fédération. Que l’utilisateur doit utiliser le Skype pour client d’entreprise au lieu de cela pour l’interopérabilité et la fédération.
+    - Aux équipes de communication équipes est toujours possible de client
 
 # <a name="chat-and-call-routing"></a>Conversation et le routage des appels
 
 ## <a name="in-tenant-routing-for-new-chats-or-calls"></a>Routage des appels ou conversations nouveau client 
 
-Le tableau suivant illustre la pratique actuelle pour le client de conversation et le routage des appels. Ce tableau est valide pour les nouveaux appels ou des conversations qui ne sont pas démarrées à partir d’un thread existant préexistant. Il décrit client auquel un nouvel appel (ou chat) est acheminé, si à l’origine par un utilisateur sur la gauche, à un utilisateur de client cible sur la droite.
+Les tableaux ci-dessous capturer le routage des appels et le client de conversation et sont valides pour les nouveaux appels ou des conversations qui ne sont pas démarrées à partir d’un thread préexistant. Il décrit également le client reçoit un nouvel appel ou une conversation, si à l’origine par un utilisateur à un utilisateur destinataire dans client sur la droite, gauche.
 
-Messages envoyés aux utilisateurs TeamsOnly seront toujours atteindre dans les équipes. Messages envoyés aux utilisateurs SfB * seront toujours atteindre dans Skype pour les entreprises, si la conversation n’est possible, comme indiqué ci-dessus. Messages envoyés aux utilisateurs (îles) seront toujours atteindre dans le client à partir de laquelle ils ont été à l’origine.
+Messages envoyés aux utilisateurs TeamsOnly acheminera toujours aux équipes. Les messages envoyés au SfB\* utilisateurs acheminera toujours à Skype pour les entreprises, si la conversation n’est possible, comme indiqué ci-dessus. Messages envoyés aux utilisateurs (îles) achemine toujours sur le même client à partir de laquelle ils ont été envoyés.
 
-**Tableau 1 : routage d’appel ou de nouvelle conversation dans le client**
+Les tableaux ci-dessous montrent les clients dans un mode donné reçoit un appel à partir de l’expéditeur (trois colonnes à l’extrême gauche), selon le mode de l’expéditeur, le client choisi, et dans lequel est hébergé leur Skype pour client d’entreprise (sur prem ou en ligne).
 
-| <br/> Mode   | À partir de&nbsp;expéditeur <br/> Client | <br/> SfB&nbsp;hébergés | | <br/> (Îles)  | Pour&nbsp;cible <br/> SfB\*   | <br/> TeamsOnly  |
-|--- |--- |--- |--- |--- |--- |--- |
-| (Îles) <br/>(Îles) <br/>(Îles) <br/>(Îles)<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>SfB <br/>Teams <br/>SfB <br/>SfB <br/>SfB <br/>Teams|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/> Online<br/> Sur prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>|Teams <br/> SfB <br/> Teams <br/> SfB <br/>  SfB <br/> SfB <br/> Teams | *SfB* <br/> SfB <br/> **NA** <br/>SfB <br/> SfB <br/>SfB <br/>*SfB* <br/>  | Teams <br/>*Teams* <br/>Teams <br/>*Teams* <br/> *Teams*  <br/>*Teams* <br/>Teams <br/> |
-|  | | | | | | |
+Dans les tableaux qui suivent : 
+- **SfB\* ** représente les modes suivants : *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 
-Dans le tableau, SfB * représente les modes suivants : *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
+- *Texte italique* met en évidence une conversation d’interopérabilité de base.
 
-*Texte en italique* dans le tableau indique une conversation d’interopérabilité de base.
+- **N’est pas Possible** représente une situation dans laquelle la conversation ou un appel n’est pas possible. L’expéditeur doit utiliser Skype pour les entreprises à la place dans ces cas. C’est une des raisons pourquoi les conseils normatifs de Microsoft pour les clients hybride/le prem consiste à utiliser un mode autre qu’îles (généralement SfBWithTeamsCollab) comme point de départ de leur parcours aux équipes de mise à niveau.
 
-**Mise en gras** dans la table représente une situation dans laquelle la conversation ou un appel n’est pas possible. C’est parce que l’infrastructure d’interopérabilité est uniquement disponible en ligne et requiert la Skype pour le compte professionnel associé au compte d’équipes à un compte en ligne. L’expéditeur doit utiliser Skype pour les entreprises à la place dans ces cas. Il s’agit une des raisons pour lesquelles des conseils normatifs de Microsoft pour les clients hybride/le prem à utiliser un autre mode qu’îles (généralement *SfBWithTeamsCollab*) comme point de départ de leur parcours aux équipes de mise à niveau.
+**Tableau 1 : nouvelle conversation dans le client ou un appel de routage à un destinataire de mode (îles)**
+
+| <br/><br/> Mode | Expéditeur <br/><br/> Client | <br/><br/> SfB&nbsp;hébergés | | Destinataire <br/><br/> (Îles)  |
+|--- |--- |--- |--- |--- |
+| (Îles) | Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise| En ligne<br/> En ligne<br/> Sur prem<br/>Sur prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise|
+|SfB\* <br/> | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Sur prem<br/> |&boxv;<br/>&boxv;|Skype Entreprise<br/>Skype Entreprise<br/>|
+|TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
+| | | | | |
+
+**Tableau 1 b : nouvelle conversation dans le client ou un appel de routage à un destinataire dans un SfB\* mode**
+
+| <br/><br/> Mode   | Expéditeur <br/><br/> Client | <br/><br/> SfB&nbsp;hébergés | |   Destinataire <br/><br/> SfB\*   |
+|--- |--- |--- |---   |--- |
+| (Îles) |Teams<br/>Skype Entreprise<br/>Teams <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise<br/> **N’est pas Possible** <br/>Skype Entreprise<br/> |
+|SfB\* <br/> | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Sur prem<br/> |&boxv;<br/>&boxv; |  Skype Entreprise<br/>Skype Entreprise<br/> |
+|TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *Skype Entreprise* <br/>| 
+| | | | | |
+
+**Tableau 1c : nouvelle conversation dans le client ou à un destinataire de mode TeamsOnly le routage d’appel**
+
+| <br/><br/> Mode   | Expéditeur <br/><br/> Client | <br/><br/> SfB&nbsp;hébergés | |   Destinataire <br/><br/> TeamsOnly  |
+|--- |--- |--- |--- | --- |
+| (Îles)   |Teams<br/>Skype Entreprise<br/>Teams <br/>Skype Entreprise<br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+|SfB\*  | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Sur prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
+|TeamsOnly  | Teams | Online |  &boxv; |Teams   |
+|  |  |  | | |
 
 ## <a name="federated-routing-for-new-chats-or-calls"></a>Fédérés de routage des appels ou conversations nouveau
   
-Le tableau ci-dessous capture en cours pratiques appel (et de conversation) routage fédérés. Ce tableau est valide pour les nouveaux appels ou des conversations. Il décrit client auquel un nouvel appel (ou chat) est acheminé, si à l’origine par un utilisateur sur la gauche, à un utilisateur fédéré cible sur la droite.
+Les tableaux ci-dessous capturer le routage des appels fédérés et de salles de conversation et sont valides pour les nouveaux appels ou des conversations. Ils décrivent le client reçoit un nouvel appel ou une conversation, si à l’origine par un utilisateur sur la gauche, à un utilisateur fédéré cible sur la droite.
 
-En résumé, si la conversation n’est possible, comme indiqué ci-dessus, les messages envoyés aux utilisateurs TeamsOnly seront toujours atteindre dans les équipes ; messages envoyés aux utilisateurs SfB * seront toujours atteindre dans Skype pour les entreprises ; messages envoyés aux utilisateurs (îles) seront toujours atteindre dans Skype pour les entreprises, quel que soit le client à partir de laquelle ils ont été à l’origine. Routage pour fédérés des conversations et appels diffère in client routage dans la mesure où les utilisateurs (îles) reçoit toujours une communication fédérée dans Skype pour les entreprises.
+En résumé, si la conversation n’est possible, comme indiqué ci-dessus, les messages envoyés aux utilisateurs TeamsOnly seront toujours atteindre dans les équipes ; les messages envoyés au SfB\* les utilisateurs seront toujours atteindre dans Skype pour les entreprises ; messages envoyés aux utilisateurs (îles) seront toujours atteindre dans Skype pour les entreprises, quel que soit le client à partir de laquelle ils ont été envoyés. Routage pour fédérés des conversations et appels diffère in client routage dans la mesure où les utilisateurs (îles) reçoit toujours une communication fédérée dans Skype pour les entreprises.
 
-La cause de ce dernier point est que nous ne pouvons partons du principe qu’un Skype des partenaires fédéré utilise déjà équipes s’ils sont en mode (îles). (Îles) est le mode par défaut, mais nous ne pouvons supposent que tous les utilisateurs (îles) exécutent équipes. Par le routage Skype pour les entreprises, nous vous assurer qu’aucune communication à un utilisateur (îles) n’échoue. Si nous acheminés vers les équipes, que la communication peut manquer si la cible n’utilisez pas les équipes. Routage à Skype pour les entreprises garantit que le message sera toujours reçu.  
+Il s’agit, car nous ne pouvons partons du principe qu’un Skype des partenaires fédéré utilise déjà équipes s’ils sont en mode (îles). (Îles) est le mode par défaut, mais nous ne pouvons supposent que tous les utilisateurs (îles) exécutent équipes. Par le routage Skype pour les entreprises, nous vous assurer qu’aucune communication à un utilisateur (îles) n’échoue. Si nous acheminés vers les équipes, que la communication peut manquer si la cible n’utilisez pas les équipes. Routage à Skype pour les entreprises garantit que le message sera toujours reçu.  
 
 > [!NOTE]
-> Implémentation en cours de fédération équipes repose sur Skype pour la fédération de l’entreprise, par conséquent, il s’appuie sur l’infrastructure d’interopérabilité (qui requiert le client de l’expéditeur s’agir pur en ligne ou SfB hybride) et fournit un ensemble de réduction fonctionnalités par rapport à un thread natif. Nous prévoyons de fournir des équipes natives équipes fédération à l’avenir, à partir de laquelle le thread sera native et fournissent des fonctions complètes.
+> Implémentation en cours de fédération équipes repose sur Skype pour la fédération de l’entreprise, par conséquent, il s’appuie sur l’infrastructure d’interopérabilité (qui requiert le client de l’expéditeur s’agir pur en ligne ou Skype pour un environnement hybride Business) et fournit un jeu de fonctionnalités par rapport à un thread natif réduit. Nous prévoyons de fournir des équipes natives équipes fédération à l’avenir, à partir de laquelle le thread sera native et fournissent des fonctions complètes.
 
-**Tableau 2 : nouvelle conversation fédérée ou le routage des appels**
+Les tableaux ci-dessous décrivent le client reçoit un appel à partir de l’expéditeur (trois colonnes à l’extrême gauche), selon le mode de l’expéditeur, choisi client, et dans lequel est hébergé leur Skype pour client d’entreprise (sur prem ou en ligne).
 
-| <br/>Mode   | À partir de l’expéditeur<br/> Client| <br/>SfB hébergés| | <br/> (Îles) | Ciblage<br/> SfB\* | <br/> TeamsOnly  |
-|--- |--- |--- |--- |--- |--- |---|
-| (Îles) <br/>(Îles) <br/>(Îles) <br/>(Îles)<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>SfB <br/>Teams <br/>SfB <br/>SfB <br/>SfB <br/>Teams|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/> Online<br/> Sur prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *SfB* <br/> SfB <br/> **NA** <br/>SfB <br/> SfB <br/>SfB <br/>SfB <br/> | *SfB* <br/> SfB <br/> **NA** <br/>SfB <br/> SfB <br/>SfB <br/>SfB <br/>  | Teams <br/>Teams <br/>**NA** <br/>*Les équipes <br/>équipes <br/>équipes* <br/>Teams <br/> |
-|  | | | | | |
+**Tableau 2 : fédérés nouvelle conversation ou le routage des appels à un destinataire (îles)**
 
-Dans le tableau, SfB * représente les modes suivants : *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
+| <br/><br/>Mode   | Expéditeur<br/><br/> Client| <br/><br/>SfB hébergés| | Destinataire<br/><br/> (Îles) |
+|--- |--- |--- |--- |--- |
+| (Îles) |Teams<br/>Skype Entreprise <br/>Teams <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **N’est pas Possible**   <br/> Skype Entreprise |
+| SfB\* |Skype Entreprise <br/>Skype Entreprise |Online<br/> Sur prem<br/> | &boxv;<br/>&boxv;|Skype Entreprise <br/>Skype Entreprise |
+| TeamsOnly |Teams |Online| &boxv;|*Skype Entreprise* |
+|  | | | | 
 
-*Texte italique* met en évidence une conversation d’interopérabilité de base.
+**2 b table : fédérés nouvelle conversation ou le routage des appels à un destinataire dans un SfB\* mode**
 
-**Mise en gras** représente une situation dans laquelle la conversation ou un appel n’est pas possible. L’expéditeur doit utiliser Skype pour les entreprises à la place dans ces cas. Il s’agit une des raisons pour lesquelles des conseils normatifs de Microsoft pour les clients hybride/le prem à utiliser un autre mode qu’îles (généralement SfBWithTeamsCollab) comme point de départ de leur parcours aux équipes de mise à niveau.
+| <br/><br/>Mode   | Expéditeur<br/><br/> Client| <br/><br/>SfB hébergés| |  Destinataire<br/><br/> SfB\* |  
+|--- |--- |--- |--- |--- |
+| (Îles) |Teams<br/>Skype Entreprise <br/>Teams <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **N’est pas Possible** <br/>Skype Entreprise <br/> |  
+| SfB\* |Skype Entreprise <br/>Skype Entreprise  |Online<br/> Sur prem<br/>  |&boxv;<br/>&boxv; | Skype Entreprise <br/>Skype Entreprise  |
+| TeamsOnly | Teams|Online |&boxv; |*Skype Entreprise*  |
+|  | | | | |
+
+**Tableau 2c : fédérés nouvelle conversation ou le routage des appels à un destinataire de mode TeamsOnly**
+
+| <br/><br/>Mode | Expéditeur<br/><br/> Client| <br/><br/>SfB hébergés| |  Destinataire<br/>  <br/> TeamsOnly  |
+|--- |--- |--- |--- |--- |
+| (Îles)  |Teams<br/>Skype Entreprise <br/>Teams <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**N’est pas Possible** <br/>*Teams* |
+| SfB\* |Skype Entreprise <br/>Skype Entreprise  | Online<br/> Sur prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
+| TeamsOnly |Teams |Online |&boxv; |Teams |
+|  | | | | |
 
 ## <a name="chats-and-calls-from-pre-existing-threads"></a>Conversations et les appels de threads existants
 
 ### <a name="from-teams"></a>Des équipes
 
-Les appels ou conversations lancé depuis un préexistant thread persistant dans les équipes est routé de la même manière que ce thread, si cette option de routage est toujours disponible. 
+Les appels ou conversations lancé depuis un préexistant thread persistant dans les équipes est routé de la même manière que ce thread, si cette option de routage est toujours disponible.
 
 Si le thread permanent existant dans les équipes a un thread natif (c'est-à-dire acheminé vers les équipes), les appels à partir de ce thread et les messages de conversation supplémentaires seront dirigés vers les équipes. S’il s’agissait d’un thread d’interopérabilité de base (c'est-à-dire acheminé vers Skype pour les entreprises), les appels et les messages de conversation supplémentaires seront dirigés vers Skype pour les entreprises (à nouveau en supposant que les options de routage sont disponibles).
 
 > [!NOTE]
-> Threads existants dans les équipes peuvent ne plus être routables. Par exemple, cela peut arriver si le thread a un thread d’interopérabilité de base à un utilisateur qui est maintenant mise à niveau pour les équipes. Puisqu’il s’agit d’un thread d’interopérabilité de base, le thread de route pour Skype pour les entreprises mais que l’utilisateur n’est plus peut utiliser Skype pour les entreprises de conversation et d’appel. Dans ce cas, le thread sera désactivé et ne pas permettre les communications.
+> Il est possible de threads existants dans les équipes ne peut plus être routable, telles que lorsque le thread a un thread d’interopérabilité de base à un utilisateur qui est maintenant mise à niveau pour les équipes. Car il a été créé en tant qu’un thread d’interopérabilité de base, achemine le thread à Skype pour les entreprises, mais que l’utilisateur n’est plus peut utiliser Skype pour les entreprises de conversation et d’appel. Dans ce cas, le thread sera désactivé et ne pas permettre les communications.
 
 ### <a name="from-skype-for-business"></a>À partir de Skype pour les entreprises
 
-Skype pour les entreprises ne dispose pas de persistance de thread au-delà du délai d’expiration de session SIP (10 minutes). Seront acheminés dans la même manière que le thread de conversations et les appels à partir d’un thread existant dans Skype pour les entreprises avant l’expiration de la session SIP. Les appels et les conversations d’un thread existant dans Skype pour les entreprises au-delà de l’expiration de la session SIP sont acheminées vers Skype de tiers pour les entreprises, quel que soit le client que le thread d’origine provenance située à l’autre partie.
+Skype pour les threads de l’entreprise ne sont pas conservées au-delà de l’expiration de la session SIP 10 min. Seront acheminés dans la même manière que le thread de conversations et les appels à partir d’un thread existant dans Skype pour les entreprises avant l’expiration de la session SIP. Les appels et les conversations d’un thread existant dans Skype pour les entreprises au-delà de l’expiration de la session SIP sont acheminées vers Skype de tiers pour les entreprises, quel que soit le client que le thread d’origine provenance située à l’autre partie.
 
 ## <a name="availability"></a>Disponibilité
 
-Le comportement de client décrit ci-dessus est disponible en production aujourd'hui.
+Les deux comportements de client et fédérés décrits ci-dessus sont disponibles, ainsi que les limitations suivantes :
 
-Le comportement fédéré décrit ci-dessus est principalement disponible en production aujourd'hui. Les éléments suivants en cours de déploiement et sont uniquement disponibles pour les clients sur les premiers : 
-* Fédération avec un client local avec la visibilité de présence
-* Affichage des contacts fédérés dans la liste des contacts client équipes migrés
-* Possibilité d’utiliser l’URI SIP ou une adresse SMTP pour découvrir un contact fédéré.
-
-Déploiement pour ces a commencé et générale de la disponibilité est attendue avant la fin de novembre 2018.
+- Les participants externes dont les clients se trouvent dans un autre déploiement GoLocal ou zone géographique ne verra par messagerie instantanée conversation dans une réunion « fédérée »
+- Fédération et l’interopérabilité entre O365 pouvant être partagée et nuages souverains n’est pas pris en charge
 
 # <a name="presence"></a>Présence
 
@@ -147,9 +183,10 @@ Le tableau décrit la présence de l’éditeur qui peuvent être vus par un obs
 
 **Tableau 3 : présence (nouveau thread) de client**
 
-|Observateur <br/>Client| |<br/>(Îles) |Publisher <br/>SfB\* |<br/>Équipes uniquement|
+|Observateur <br/><br/>Client| |<br/><br/>(Îles) |Publisher <br/><br/>SfB\* |<br/>Équipes uniquement|
 |--- |--- |--- |--- |---|
-|SfB <br/> Teams|&boxv;<br/>&boxv;<br/> |SfB <br/>Teams | SfB <br/>SfB | Teams  <br/> Teams |
+|Skype Entreprise |&boxv;|Skype Entreprise | Skype Entreprise | Teams|
+|Teams |&boxv; |Teams |Skype Entreprise |Teams |
 | | | | |
 
 ## <a name="federated-presence"></a>Présence fédéré
@@ -160,13 +197,14 @@ Le tableau ci-dessous décrit la présence de l’éditeur qui peuvent être vus
 
 **Tableau 4 : fédéré présence (nouveau thread)**
 
-|Observateur <br/> Client | |<br/> (Îles)  |Publisher <br/> SfB\* |<br/> Équipes uniquement  |
+|Observateur <br/><br/> Client | |<br/><br/> (Îles)  |Publisher <br/><br/> SfB\* |<br/><br/> Équipes uniquement |
 |--- |--- |--- |--- |---|
-|SfB <br/> Teams|&boxv;<br/>&boxv; |SfB <br/> SfB | SfB <br/> SfB | Teams <br/> Teams |
+|Skype Entreprise |&boxv; |Skype Entreprise  | Skype Entreprise  | Teams  |
+|Teams | &boxv;|Skype Entreprise |Skype Entreprise |Teams|
 | | | | ||
 
 ## <a name="presence-in-pre-existing-threads"></a>Présence dans les threads existants
 
 Pour aligner la présence et l’accessibilité dans les threads existants, la présence de la cible exposé dans cette thread a besoin d’être aligné avec le routage du thread, en supposant que le routage est possible.
 
-En particulier, si un destinataire précédemment un thread de conversation interopérabilité permanente avec est par la suite mis à niveau vers des équipes que thread ne reflète plus précis présence et ne pourra plus être routable. Vous devez démarrer un nouveau thread.
+En particulier, si un destinataire précédemment un thread de conversation interopérabilité permanente avec a été mis à niveau vers des équipes que thread ne reflète plus précis présence et ne pourra plus être routable. Vous devez démarrer un nouveau thread.

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype pour les informations de planification et la configuration de Business Server pour le partage d’écran vidéo (VbSS)
-ms.openlocfilehash: 450a6ab5550c00e91e2d9772d954dc8f51d38156
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 84547168eb883522005480fb07ff2bfb9abd54f6
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561920"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993432"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vidéo en fonction de partage d’écran pour Skype pour Business Server 
  
@@ -120,14 +120,13 @@ Il existe des situations où le partage d’écran passera à RDP, comme celles-
 - Si votre compte est hébergé dans un environnement où l'ASMCU n'est pas conforme à la version minimale prenant en charge VbSS.
 - Si une personne qui utilise une version antérieure de la Skype pour client Business rejoint la session, par exemple tout le monde à l’aide de n’importe quelle version de client Windows qui est inférieure à 16.0.6330.1000, Skype pour les périphériques de système métier salle ou Skype pour les applications métier Mobile. 
 - Si un utilisateur partage à partir de la Skype pour l’application Web de gestion.
-- Si une personne utilise Skype pour les entreprises sur Mac et pas est hébergée sur Skype pour Business Online.
+- Si une personne utilise Skype pour les entreprises sur Mac et n’est pas hébergée sur Skype pour Business Online ou Skype pour Business Server 2015 avec la mise à jour cumulative juillet, 2018 (ou version ultérieure).
 - Si un utilisateur démarre un partage de programme/Windows.
 - Si un utilisateur démarre la session d’enregistrement.
-- Si un utilisateur appelle le contrôle d'appel distant lors de la session.
-
-    Sachez qu'une fois que la session passe à RDP, elle ne reviendra pas à VbSS. Encore une fois, la transition depuis VbSS est censée être transparente et, si possible, elle ne sera pas facile à détecter dans la plupart des situations.
-  
+- Si un utilisateur appelle le contrôle d'appel distant lors de la session. 
 - Réunions avec plus de 250 participants (où VbSS n'est actuellement pas pris en charge).
+
+Sachez qu'une fois que la session passe à RDP, elle ne reviendra pas à VbSS. Encore une fois, la transition depuis VbSS est censée être transparente et, si possible, elle ne sera pas facile à détecter dans la plupart des situations.
     
 > [!NOTE]
 > Il n’a pas pris en charge pour bloquer ou tentent de bloquer, passage de VbSS à RDP dans Skype pour le partage d’écran Business. 
