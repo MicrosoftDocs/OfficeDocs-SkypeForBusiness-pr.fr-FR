@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: d3b102dc09011e5990a42c608d78c6bb3f414ff7
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: f5634a65d6648d34671c372bc20c2145abdbfc96
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676551"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131309"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -227,7 +227,9 @@ La plage de ports des processeurs multimédia est indiquée dans le tableau suiv
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Segment entre le client SBC et processeur média de nuage ou Teams Microsoft.
 S’applique aux cas de déviation du trafic multimédia et sans contournement cas
 
-L’interface de routage Direct sur le segment entre le contrôleur de Session en périphérie et le processeur de médias dans le nuage (sans le contournement de média) ou entre le client d’équipes et le contrôleur SBC (si le contournement de média activé) permettre utiliser les codecs suivants : • Non-Media contournement (SBC sur un support en nuage Processeur) : soie, G.711, G.722, G, 729 • le contournement de média (SBC client équipes) : soie, G.711, G.722, G, 729, signature
+L’interface de routage Direct sur le segment entre le contrôleur de Session en périphérie et le processeur de médias dans le nuage (sans le contournement de média) ou entre le client d’équipes et le contrôleur SBC (si le contournement de média activé) peut utiliser les codecs suivants :
+- Non-le contournement de média (SBC au processeur de médias dans le nuage) : soie, G.711, G.722, G, 729
+- Le contournement de média (SBC client équipes) : soie, G.711, G.722, G, 729, signature
 
 Vous pouvez forcer l’utilisation du codec spécifique sur la Session Border Controller par codecs indésirables à exclure de l’offre.
 

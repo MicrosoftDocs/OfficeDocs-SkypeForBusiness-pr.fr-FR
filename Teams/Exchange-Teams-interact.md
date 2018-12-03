@@ -3,7 +3,6 @@ title: Interaction entre Exchange et Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
@@ -13,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aeeab6f84b222500829282d29ac06ec73d42ecc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1fc28a19f8ebccc494f59416cec0faa21a2b6d8f
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373335"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131237"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams 
 =========================================
@@ -40,8 +39,8 @@ Le tableau suivant fournit des informations aux utilisateurs pour lesquels Excha
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Oui<sup>2</sup>|Oui<sup>2</sup>|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
 |**vNext Exchange Online dédié**|Oui<sup>2</sup>|Oui<sup>2</sup>|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
-|**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Oui<sup>2, 3</sup>|Non|Oui|Non|Non|Oui|Oui|Non|Non|Non|Oui|Oui|
-|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui ([liste autorisée](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Oui<sup>2, 3</sup>|Non|Oui|Oui (Exchange 2016 CU3 +)|Non|Oui|Oui|Non|Non|Non|Non|Oui|
+|**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui <sup>2</sup>|Oui<sup>2, 3</sup>|Non|Oui|Non|Non|Oui|Oui|Non|Non|Non|Oui|Oui|
+|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui <sup>2</sup>|Oui<sup>2, 3</sup>|Non|Oui|Oui (Exchange 2016 CU3 +)|Non|Oui|Oui|Non|Non|Non|Non|Oui|
                                                             
 <sup>1</sup> exchange CU3 2016 et ci-dessus pris en charge  
 <sup>2</sup> eDiscovery et juridiques pour la conformité des messages de canal est pris en charge pour toutes les options d’hébergement.  
@@ -67,7 +66,7 @@ Informations complémentaires :
 > Actuellement, si votre organisation a des exigences de conformité exigeant que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres sur site Exchange.
 > 
 > [!IMPORTANT]
->   Les utilisateurs de participer à des conversations qui font partie de la liste de conversation dans Microsoft Teams doivent avoir une Exchange Online (en nuage) boîte aux lettres pour un administrateur pour rechercher des conversations. C’est parce que les conversations qui font partie de la liste de conversation sont stockées dans les boîtes aux lettres en nuage de participants à la conversation. Si un participant de conversation ne possède une boîte aux lettres Exchange Online, l’administrateur sera en mesure de rechercher ou de placer une suspension des conversations. Par exemple, dans un déploiement Exchange hybride, les utilisateurs avec des boîtes aux lettres locales peuvent être en mesure de participer à des conversations qui font partie de la liste de conversation dans Microsoft Teams. Toutefois, dans ce cas, le contenu à partir de ces conversations n’est pas disponible pour la recherche et ne peut pas être mis en attente, car les utilisateurs ne possèdent des boîtes aux lettres en nuage. Pour plus d’informations sur les recherches de contenu et Teams Microsoft, voir [exécuter une recherche de contenu de la sécurité pour Microsoft Office 365 et le centre de conformité](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+> Dans un déploiement Exchange hybride, le contenu des messages de conversation est consultable que participants conversation disposent d’une boîte aux lettres en nuage ou une boîte aux lettres locale. Pour plus d’informations, consultez [recherche basée sur le cloud boîtes aux lettres pour les utilisateurs locaux dans Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour en savoir plus sur la recherche de contenu dans les équipes, lisez la [Recherche de contenu dans la sécurité pour Microsoft Office 365 et le centre de conformité](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 > 
 > [!TIP]
->   Pour plus d’informations sur l’utilisation d’Azure AD se connecter à synchroniser avec Azure Active Directory, voir [*intégration des identités avec Azure Active Directory local*](https://go.microsoft.com/fwlink/?linkid=854600).
+> Pour plus d’informations sur l’utilisation d’Azure AD se connecter à synchroniser avec Azure Active Directory, voir [intégration des identités avec Azure Active Directory local](https://go.microsoft.com/fwlink/?linkid=854600).

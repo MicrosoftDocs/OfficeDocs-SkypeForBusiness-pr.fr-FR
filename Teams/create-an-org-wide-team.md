@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cefcf6cb4d1710935e6448e4babd7a284165e767
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: 8d7e8654ed1f3dd7c10376a21d3c48563b688381
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993417"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131301"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -55,4 +55,4 @@ Même si les membres ne peut pas quitter une équipe à l’échelle de l’orga
 
 Les administrateurs globaux peuvent uniquement créer une équipe à l’échelle de l’organisation à l’aide du client équipes. Si votre organisation limite la création d’équipes à l’aide de PowerShell, la solution recommandée consiste à ajouter votre Administrateurs global au groupe de sécurité d’utilisateurs qui peut créer une équipe. Pour plus d'informations, reportez-vous à l’article [Gérer qui peut créer des groupes Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). 
 
-Si ce n’est pas une option, vous pouvez créer une équipe public à l’aide de PowerShell et ajouter un administrateur global en tant que propriétaire de l’équipe. Puis, demandez à l’administrateur global de cliquer sur **... Plus d’options** en regard du nom de l’équipe, cliquez sur **Modifier l’équipe**, puis modifier la confidentialité pour **toute l’organisation - tout le monde dans votre organisation sera automatiquement ajouté**. Notez que seuls les propriétaires de l’équipe peuvent accéder à l’option **Modifier l’équipe** et les administrateurs globaux uniquement peuvent voir l’option **d’échelle de l’organisation** .
+Si ce n’est pas une option, vous pouvez créer une équipe public à l’aide de PowerShell et ajouter un administrateur global en tant que propriétaire de l’équipe. Ensuite, ont l’administrateur global cliquez sur **˙˙˙ options plus** en regard du nom de l’équipe et cliquez sur **Modifier l’équipe**, puis modifier la confidentialité pour **toute l’organisation - tout le monde dans votre organisation sera automatiquement ajoutée**. Notez que seuls les propriétaires de l’équipe peuvent accéder à l’option **Modifier l’équipe** et les administrateurs globaux uniquement peuvent voir l’option **d’échelle de l’organisation** .
