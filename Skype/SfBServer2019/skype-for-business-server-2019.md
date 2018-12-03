@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Résumé : Explorez ces liens pour découvrir comment mettre en œuvre Skype pour Business Server 2019.'
-ms.openlocfilehash: 66c3f4651a6423d7e8938c8c063c98aa5aeaaf47
-ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
+ms.openlocfilehash: 882338dc02f8db9c73415e73938a116ee3ea6171
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/29/2018
-ms.locfileid: "26984740"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131214"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype pour Business Server 2019
 
@@ -205,7 +205,7 @@ ms.locfileid: "26984740"
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Avant de commencer** <br>[Configuration système requise](plan/system-requirements.md) <br>[Conditions de réseau requises](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Installation ** <br>[Installation de Skype Entreprise Server](../SfbServer/deploy/install/install.md) <br> [Migrer vers Skype pour Business 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Voix Entreprise**<br>[Planifier](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Déployer](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
-| **Nouvelles fonctionnalités**<br>[Quelles sont les nouveautés](whats-new.md)                                                                                                                                         | **Solutions hybrides**<br>[Planification de la connectivité hybride](hybrid/plan-hybrid-connectivity.md)<br> [Planifier le service de messagerie vocale dans le nuage](hybrid/plan-cloud-voicemail.md)<br>[Planifier le connecteur de données d’appel](hybrid/plan-call-data-connector.md) |                                                                                                                                                                                                     |
+| **Nouvelles fonctionnalités**<br>[Quelles sont les nouveautés](whats-new.md)                                                                                                                                         | **Solutions hybrides**<br>[Planification de la connectivité hybride](hybrid/plan-hybrid-connectivity.md)<br> [Planifier le service de messagerie vocale dans le nuage](hybrid/plan-cloud-voicemail.md)<br>[Planifier le connecteur de données d’appel](hybrid/plan-call-data-connector.md) |  **Les versions précédentes**<br/>  [Skype pour la documentation sur Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Documentation de Lync Server 2013](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 
-* * *   
+* * *
