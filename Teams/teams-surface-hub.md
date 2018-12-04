@@ -3,7 +3,7 @@ title: Déployer les équipes Microsoft Surface concentrateur
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/26/2018
+ms.date: 12/04/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,17 +16,20 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aca03693a7abea6e26f175cc49f0142894749160
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 485e4063c523608421955b86e0be680d5dc10b9a
+ms.sourcegitcommit: 5742301cdd28e5e26107920f18e70f41b0f67cfb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372180"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27132002"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer les équipes Microsoft Surface concentrateur
 ======================================
 
 Avant de déployer Microsoft Teams Microsoft Surface concentrateur, assurez-vous que le matériel, système d’exploitation et autres conditions sont réunies. Pour plus d’informations, consultez le [guide d’administration de Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
+
+> [!NOTE]
+> Si vous faites passer de Skype pour Business Online, vous devez vérifier qu’une licence de Microsoft Teams est attribuée à l’utilisateur.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installer des équipes pour exposer Hub à partir du magasin de Microsoft 
 
@@ -39,7 +42,7 @@ Ces instructions sont pour l’installation des équipes concentrateur de Surfac
 3. Une fois l’installation terminée, redémarrez le Hub de la surface d’exposition. 
 
 > [!NOTE]
-> Ne cliquez pas sur la **barre de lancement** de la page de liste des magasins.
+> Ne cliquez pas la **barre de lancement** de la page de liste des magasins.
 
 ## <a name="make-teams-the-default-calling-and-meetings-application"></a>Rendre les équipes l’appel par défaut et l’application de réunions
  
