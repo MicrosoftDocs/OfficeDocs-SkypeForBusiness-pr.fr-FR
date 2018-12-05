@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 865da90f5b6c9ffc13694692a67ab092d05c755a
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: ec2db02fe8b91736675027aee2a08a7a8587105c
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626175"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156076"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>FAQ - Transition de Skype Entreprise à Microsoft Teams
 
@@ -97,7 +97,7 @@ Une mise à niveau réussie inclura validation technique préparation en plus de
  
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>Mon organisation est déjà en cours d’exécution équipes avec Skype pour les entreprises. Puis-je simplement désactiver Skype pour les entreprises ?
 
-Non, vous souhaiterez basculer les utilisateurs au mode **d’équipes uniquement** pour effectuer la mise à niveau leur équipes. Si votre organisation est prête pour une transition aux équipes, prendre le temps de communiquer aux utilisateurs pour les informer que se passe-t-il et leur permettre de peu de temps prolonger l’acclimatation aux équipes. Ceci afin de garantir qu’ils ont positive expérience de mise à niveau et atténuer les appels vers le support technique. Pour des exemples de modèles de communication, téléchargez notre [Kit de réussite de mise à niveau](https://aka.ms/skypetoteams-UpgradeSuccessKit).
+Non, vous souhaiterez basculer les utilisateurs au mode **d’équipes uniquement** pour effectuer la mise à niveau leur équipes. Si votre organisation est prête pour une transition aux équipes, prendre le temps de communiquer aux utilisateurs pour les informer que se passe-t-il et leur permettre de peu de temps prolonger l’acclimatation aux équipes. Ceci afin de garantir qu’ils ont positive expérience de mise à niveau et atténuer les appels vers le support technique. Pour des exemples de modèles de communication, téléchargez notre [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit).
  
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>Qui faut-il contacter si j’ai des questions sur le processus de mise à niveau ?
 

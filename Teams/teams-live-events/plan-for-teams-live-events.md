@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en temps réel dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40722ee1e58e7524184408819932d9a2cfdc1275
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 590246808849b2cf25bdc0fb114352977973410f
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626261"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156132"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -44,17 +44,20 @@ L’utilisateur doit avoir :
 - Autorisations pour créer des événements en temps réel dans Microsoft Stream (pour la [production de codage externe](#production)).
 
 > [!IMPORTANT]
-> Office 365 invités, les utilisateurs fédérés et anonymes ne peuvent pas être invitées en tant que producteurs ou présentateurs dans les événements live équipes. Toutefois, vous pouvant joindre invités et des utilisateurs fédérés en tant que participants anonymes événement en direct. 
+> Office 365 invités, les utilisateurs fédérés et anonymes ne peuvent pas être invitées en tant que producteurs ou présentateurs dans les événements live équipes. Invité Office 365 et les utilisateurs fédérés peuvent regarder uniquement anonymement événements en direct. 
  
 ## <a name="who-can-watch-live-events"></a>Qui peut voir les événements en direct ?
 
-|**Visibilité de participant**           |**Guide de démarrage rapide** |**Codage externe**  |
-|------------------------------|-------------|------------------|
-|Public (utilisateurs anonymes)      |  Oui        |  Non              |
-|Utilisateurs invités                   |  Non         |  Non              |
-|Tout le monde dans une entreprise fédérée |  Non         |  Non              |
-|Tout le monde de société           |  Oui        |  Oui             |
-|Propres groupes / personnes      |  Oui        |  Oui             |
+|**Visibilité de participant**       |**Guide de démarrage rapide**  |**Codage externe**  |
+|------------------------------|-----------------|----------------------|
+|Public (utilisateurs anonymes)      |  Oui            |  Non                  |
+|Utilisateurs invités                   |  Aucun<sup>1</sup> |  Non                  |
+|Tout le monde dans une entreprise fédérée |  Aucun<sup>1</sup> |  Non                  |
+|Tout le monde de société           |  Oui            |  Oui                 |
+|Propres groupes / personnes      |  Oui            |  Oui                 |
+
+<sup>1</sup> peut surveiller uniquement les événements en direct en tant qu’utilisateurs anonymes.
+
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Événements en direct équipes et la diffusion de réunion Skype
 Le tableau suivant met en évidence les fonctionnalités principales et les fonctionnalités offertes par les événements en direct et les différences entre la diffusion de réunion Skype. 

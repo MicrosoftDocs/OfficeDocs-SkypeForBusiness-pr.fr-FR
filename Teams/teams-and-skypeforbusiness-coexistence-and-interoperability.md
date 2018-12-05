@@ -1,5 +1,5 @@
 ---
-title: Comprendre la coexistence et l’interopérabilité de Skype pour les entreprises et Microsoft Teams
+title: Comprendre la coexistence et l’interopérabilité de Skype Entreprise et Microsoft Teams
 author: lsomi
 ms.author: lsomi
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be6cb8b6154c67e75a84bbb2e44add6109b3108c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 67f12156fbdb6bf619b1c6a7406b4bb104ec725b
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532438"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156124"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet] (media/upgrade-banner-project-definition.png "Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet")
 
@@ -54,7 +54,7 @@ Dans ce mode de coexistence, appelé **(îles)**, chacune des applications clien
 
 Dans ce mode de coexistence, les utilisateurs restent dans Skype pour les entreprises — pas les équipes — pour la conversation, réunion et appel des fonctions et qu’ils n’utilisent pas les équipes pour les équipes et les canaux. Ce mode est disponible. Toutefois, dans l’implémentation actuelle modalités d’équipes ne sont pas désactivées pour l’utilisateur automatiquement. Cette fonctionnalité est à venir. En attendant, administrateurs peuvent supprimer la licence équipes pour tous les utilisateurs qui ont besoin de rester dans Skype pour les entreprises en tant que leur application communications uniquement.
 
-### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>Les équipes uniquement (ce mode démarrer le déploiement vers l’arrière été 2018 et aboutir à l’automne 2018 à tous les clients)
+### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>Les équipes uniquement (ce mode démarrer le déploiement vers l’arrière été 2018 et sera effectuée sur tous les clients de l’année civile 2019)
 
 Dès que votre organisation est prête pour certains ou tous les utilisateurs d’utiliser les équipes leur seul outil de communication et de collaboration, vous pouvez mettre à niveau ces utilisateurs **Équipes uniquement** en mode.
 
