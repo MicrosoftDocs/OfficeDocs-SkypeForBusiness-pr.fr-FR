@@ -301,3 +301,65 @@
 | 21/11/2018 | [Préparer un plan de préparation des utilisateurs avant la mise à niveau de Skype Entreprise vers Microsoft Teams - Microsoft Teams](/MicrosoftTeams/upgrade-user-readiness) | modifié |
 | 22/11/2018 | [Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams](/MicrosoftTeams/best-practices-organizing) | modifié |
 | 22/11/2018 | [Gérer les paramètres de réunion dans Microsoft Teams](/MicrosoftTeams/meeting-settings-in-teams) | ajouté |
+
+
+## <a name="week-of-november-26-2018"></a>Semaine du lundi 26 novembre 2018
+
+
+| Publié le |Titre de la rubrique | MODIFIER |
+|------|------------|--------|
+| 26/11/2018 | [Disponibilité au Canada](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada) | modifié |
+| 26/11/2018 | [Disponibilité en France](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | modifié |
+| 26/11/2018 | [Disponibilité en Allemagne](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany) | modifié |
+| 26/11/2018 | [Disponibilité en Irlande](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland) | modifié |
+| 26/11/2018 | [Disponibilité en Espagne](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain) | modifié |
+| 26/11/2018 | [Disponibilité aux Pays-Bas](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands) | modifié |
+| 26/11/2018 | [Disponibilité au Royaume-Uni](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k) | modifié |
+| 26/11/2018 | [Disponibilité aux États-Unis](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s) | modifié |
+| 26/11/2018 | [Autoriser l'accès invité dans Microsoft Teams](/MicrosoftTeams/teams-dependencies) | modifié |
+| 26/11/2018 | [Ajouter un invité à une équipe](/MicrosoftTeams/add-guests) | modifié |
+| 26/11/2018 | [Modifier les informations d'un utilisateur invité](/MicrosoftTeams/edit-guests-information) | modifié |
+| 26/11/2018 | [Utiliser PowerShell pour contrôler l'accès invité à une équipe](/MicrosoftTeams/guest-access-powershell) | modifié |
+| 26/11/2018 | [Liste de contrôle de l’accès invité Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | modifié |
+| 26/11/2018 | [Accès invité dans Microsoft Teams](/MicrosoftTeams/guest-access) | modifié |
+| 26/11/2018 | [À quoi ressemble l'expérience des invités](/MicrosoftTeams/guest-experience) | modifié |
+| 26/11/2018 | [Comment un invité rejoint une équipe](/MicrosoftTeams/guest-joins) | modifié |
+| 26/11/2018 | [Gérer l'accès invité dans Microsoft Teams](/MicrosoftTeams/manage-guests) | modifié |
+| 26/11/2018 | [Afficher les utilisateurs invités d'une équipe](/MicrosoftTeams/view-guests) | modifié |
+| 26/11/2018 | [Disponibilité en Suisse](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland) | modifié |
+| 26/11/2018 | [Gérer l'offre d’évaluation de cloud commercial Microsoft Teams](/MicrosoftTeams/iw-trial-teams) | modifié |
+| 26/11/2018 | [Publier des applications dans le catalogue d’applications de locataire Microsoft Teams](/MicrosoftTeams/tenant-apps-catalog-teams) | modifié |
+| 26/11/2018 | [Planifier le routage direct](/MicrosoftTeams/direct-routing-plan) | modifié |
+| 26/11/2018 | [Formation à Microsoft Teams pour les utilisateurs finaux](/MicrosoftTeams/enduser-training) | modifié |
+| 26/11/2018 | [Que sont les emplacements, les adresses et le routage d'appel d'urgence ?](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | modifié |
+| 26/11/2018 | [Adopter Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | modifié |
+| 26/11/2018 | [Outils et téléchargements pour l’adoption](/MicrosoftTeams/adopt-tools-and-downloads) | modifié |
+| 26/11/2018 | [Présentation de l’appartenance dynamique pour les équipes](/MicrosoftTeams/dynamic-memberships) | modifié |
+| 26/11/2018 | [Configuration matérielle requise pour l’application Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modifié |
+| 26/11/2018 | [Planifier la gestion du cycle de vie dans Teams - Microsoft Teams](/MicrosoftTeams/plan-teams-lifecycle) | modifié |
+| 26/11/2018 | [Votre organisation est-elle prête pour Microsoft Teams ?](/MicrosoftTeams/teams-adoption-assess-readiness) | modifié |
+| 26/11/2018 | [Créer votre programme d’ambassadeurs de Microsoft Teams](/MicrosoftTeams/teams-adoption-create-champions-program) | modifié |
+| 26/11/2018 | [Définir les résultats et la réussite de votre adoption de Microsoft Teams](/MicrosoftTeams/teams-adoption-define-outcomes) | modifié |
+| 26/11/2018 | [Définir des scénarios d’utilisation de Microsoft Teams](/MicrosoftTeams/teams-adoption-define-usage-scenarios) | modifié |
+| 26/11/2018 | [Faire connaître et implémenter une formation à Microsoft Teams](/MicrosoftTeams/teams-adoption-drive-awareness) | modifié |
+| 26/11/2018 | [Commencer à faire adopter Microsoft Teams](/MicrosoftTeams/teams-adoption-get-started) | modifié |
+| 26/11/2018 | [Démarrage rapide pour la gouvernance de Microsoft Teams](/MicrosoftTeams/teams-adoption-governance-quick-start) | modifié |
+| 26/11/2018 | [Intégrer des utilisateurs précoces et recueillir des commentaires sur Microsoft Teams](/MicrosoftTeams/teams-adoption-onboard-early-adopters) | modifié |
+| 26/11/2018 | [Intégrer le support de Microsoft Teams](/MicrosoftTeams/teams-adoption-onboard-support) | modifié |
+| 26/11/2018 | [Optimiser les retours d’expérience et les comptes-rendus pour votre adoption de Microsoft Teams](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) | modifié |
+| 26/11/2018 | [Phase 1 de l’adoption de Microsoft Teams - Démarrer](/MicrosoftTeams/teams-adoption-phase1) | modifié |
+| 26/11/2018 | [Phase 2 de l’adoption de Microsoft Teams - Expérimenter](/MicrosoftTeams/teams-adoption-phase2-experiment) | modifié |
+| 26/11/2018 | [Phase 3 de l’adoption de Microsoft Teams - Mettre à l’échelle](/MicrosoftTeams/teams-adoption-phase3-enable) | modifié |
+| 26/11/2018 | [Liste de contrôle de démarrage rapide pour l’adoption de Microsoft Teams](/MicrosoftTeams/teams-adoption-quick-start-checklist) | modifié |
+| 26/11/2018 | [Planifier des vérifications de l’état du service pour votre adoption de Microsoft Teams](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) | modifié |
+| 26/11/2018 | [Comprendre les équipes et les canaux dans Microsoft Teams](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | modifié |
+| 26/11/2018 | [Créer vos premières équipes dans Microsoft Teams](/MicrosoftTeams/teams-adoption-your-first-teams) | modifié |
+| 27/11/2018 | [Planifier l’expérience des utilisateurs de Microsoft Teams](/MicrosoftTeams/5-envision-plan-my-users-experience) | modifié |
+| 27/11/2018 | [Guide de démarrage rapide : administrateurs de Microsoft Teams pour l’éducation](/MicrosoftTeams/teams-quick-start-edu) | modifié |
+| 27/11/2018 | [Obtenir des clients pour Microsoft Teams](/MicrosoftTeams/get-clients) | modifié |
+| 27/11/2018 | [Intégrer des utilisateurs précoces dans Microsoft Teams](/MicrosoftTeams/get-started-with-teams-onboard-early-adopters) | modifié |
+| 27/11/2018 | [Utiliser les fichiers journaux pour le dépannage de Microsoft Teams](/MicrosoftTeams/log-files) | modifié |
+| 27/11/2018 | [Préparer le réseau de votre organisation pour Microsoft Teams](/MicrosoftTeams/prepare-network) | modifié |
+| 29/11/2018 | [Ajouter un invité à une équipe](/MicrosoftTeams/add-guests) | modifié |
+| 29/11/2018 | [Coexistence avec Skype Entreprise](/MicrosoftTeams/coexistence-chat-calls-presence) | modifié |
+| 29/11/2018 | [Créer une équipe à l’échelle de l’organisation dans Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | modifié |
