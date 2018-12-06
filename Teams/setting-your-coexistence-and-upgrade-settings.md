@@ -1,5 +1,5 @@
 ---
-title: Définition de vos paramètres de mise à niveau et de coexistence
+title: Configuration de vos paramètres de coexistence et de mise à niveau
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -13,21 +13,21 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28d5cd4a967245f1df18530d58ed1c2679e910e3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: fb2e7ba5f854c392d86006fdb6bd313b3fd87c68
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531861"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182454"
 ---
-# <a name="setting-your-coexistence-and-upgrade-settings"></a>Définition de vos paramètres de mise à niveau et de coexistence
+# <a name="setting-your-coexistence-and-upgrade-settings"></a>Configuration de vos paramètres de coexistence et de mise à niveau
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Lorsque vous mettez à niveau votre Skype pour les utilisateurs d’utiliser des équipes, vous disposez de plusieurs options pour vous aider à faire un processus transparent pour vos utilisateurs. Vous avez la possibilité d’effectuer de coexistence et mise à niveau des paramètres pour tous les utilisateurs de votre organisation en une seule fois, ou vous pouvez modifier les paramètres pour un seul ou un ensemble d’utilisateurs dans votre organisation. Notez que les versions antérieures de Skype pour les clients d’entreprise ne pas appliquer ces paramètres. Pour plus d’informations sur Skype pour les versions de client d’entreprise, accédez à [Skype pour les entreprises télécharge et met à jour de la page](https://docs.microsoft.com/en-us/skypeforbusiness/software-updates). 
 
-Vous pouvez obtenir une meilleure compréhension des types de modes sont à votre disposition en lisant l’article [Skype pour l’interopérabilité et coexistence d’entreprise et comprendre les équipes Microsoft](teams-and-skypeforbusiness-coexistence-and-interoperability.md).  
+Vous pouvez obtenir une meilleure compréhension des types de modes sont à votre disposition en lisant l’article [Skype pour l’interopérabilité et coexistence d’entreprise et comprendre les équipes Microsoft](teams-and-skypeforbusiness-coexistence-and-interoperability.md) ou la [Coexistence avec Skype pour les entreprises](coexistence-chat-calls-presence.md).  
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -70,4 +70,4 @@ Vous pouvez obtenir une meilleure compréhension des types de modes sont à votr
 
 [Comprendre la coexistence et la mise à niveau de voyage pour Skype pour professionnels et les équipes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-[Guide de migration et d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](migration-interop-guidance-for-teams-with-skype.md)
+[Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md)

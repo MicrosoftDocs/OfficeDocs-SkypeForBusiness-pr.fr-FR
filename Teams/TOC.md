@@ -58,11 +58,10 @@
 ### [Configuration matérielle requise pour l’application d’équipes](hardware-requirements-for-the-teams-app.md)
 ### [Installer les équipes utilisant MSI](msi-deployment.md)
 ### [Déployer des équipes pour exposer Hub](teams-surface-hub.md)
-## [Exécuter des équipes dans un environnement virtuel](virtual-environment-teams.md)
 ## [Permettent aux équipes de votre organisation](Office-365-set-up.md)
 ## [Utiliser la recherche d’annuaire étendue Microsoft Teams](teams-scoped-directory-search.md)
 ## [Gérer les fonctionnalités des équipes au sein de votre organisation.](enable-features-office-365.md)
-### [Gérer les équipes pendant la transition vers le nouveau Microsoft Teams & Skype entreprise centre d’administration](manage-teams-skypeforbusiness-admin-center.md)
+### [Gérer les équipes lors de la transition vers le nouveau Centre d’administration de Microsoft Teams et Skype Entreprise](manage-teams-skypeforbusiness-admin-center.md)
 ### [Gérer les équipes dans les équipes Microsoft & Skype entreprise centre d’administration](manage-teams-in-modern-portal.md)
 ### [Affecter des propriétaires d’équipe et membres d’équipes](assign-roles-permissions.md)
 ### [Publier des applications dans le catalogue d’applications client équipes](tenant-apps-catalog-teams.md)
@@ -202,7 +201,7 @@
 # Fonctionnalités
 ## Équipes et canaux
 ### [Présentation des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md)
-### [Affecter des propriétaires de l’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md)
+### [Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md)
 ### [Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams](best-practices-organizing.md)
 ### [Créer une équipe à l’échelle de l’organisation dans les équipes](create-an-org-wide-team.md)
 ### [Présentation de l’appartenance dynamique pour les équipes](dynamic-memberships.md)

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c427f1cb342b64211aeabf042b0cb00d4a89759f
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: 9eb5626e9b4094ec814e0b55f4bb4fd3d0a42da8
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156116"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182503"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
@@ -47,12 +47,13 @@ Les paramètres qui déterminent la méthode de routage de thread sont les suiva
 - Si la conversation est nouveau, ou une partie d’un thread existant
 - Si la conversation est fédérés ou de client
 - Si la conversation est possible
-    - Interopérabilité de client nécessite que le client est exclusivement en ligne ou Skype pour un environnement hybride Business. Clients purement locaux ne peut pas avoir d’interopérabilité de client.
-    - Si le Skype pour un compte professionnel de l’expéditeur est hébergée sur site, que l’utilisateur ne peut pas utiliser le client d’équipes pour l’interopérabilité in client ou pour la fédération. Qui peut utiliser uniquement la Skype pour client d’entreprise pour l’interopérabilité et la fédération.
-    - Aux équipes de communication équipes est toujours possible de client
+    - Interopérabilité *de client* nécessite que le client est exclusivement en ligne ou Skype pour un environnement hybride Business. Clients purement locaux ne peut pas avoir d’interopérabilité de client.
+    - *Fédération entre client* requiert toujours Skype approprié pour configuration de fédération Business ainsi que de configuration de fédération équipes correcte dans les deux clients. Skype pour un environnement hybride Business n’est pas nécessaire d’un client.
+    - Si le Skype pour un compte professionnel de l’expéditeur est hébergée sur site, que l’utilisateur ne peut pas utiliser le client d’équipes pour l’interopérabilité in client ou pour la fédération. Cet utilisateur peut utiliser uniquement la Skype pour client d’entreprise pour l’interopérabilité et la fédération.
+    - Aux équipes de communication équipes est toujours possible de client.
 
 > [!NOTE]
-> Actuellement, toutes les fédérations impliquant des équipes exploitent le Skype pour le pipeline de fédération Business ainsi que les équipes – Skype pour l’interopérabilité de l’entreprise. Nous préparons équipes natives – fédération des équipes. Le présent document mis à jour dès la commercialisation de fédération native
+> Actuellement, toutes les fédérations impliquant des équipes exploitent le Skype pour le pipeline de fédération Business ainsi que les équipes – Skype pour l’interopérabilité de l’entreprise. Nous préparons équipes natives – fédération des équipes. Le présent document met à jour dès la commercialisation de fédération native.
 
 # <a name="chat-and-call-routing"></a>Conversation et le routage des appels
 

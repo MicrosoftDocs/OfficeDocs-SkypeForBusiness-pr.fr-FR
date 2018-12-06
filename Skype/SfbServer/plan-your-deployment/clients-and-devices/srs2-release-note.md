@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
-ms.openlocfilehash: b4b7e8f238ce0963908b5aba1984bbd3f6d18a9f
-ms.sourcegitcommit: 19daa277829019807532e4ccb88cad1fdac6ee85
+ms.openlocfilehash: d37cf7561f2728dafa850aaa38d6e322fda7cfb9
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "25607381"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182479"
 ---
 # <a name="release-notes"></a>Notes de publication 
 
@@ -26,6 +26,7 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 
 | Version | Publié sur <br>Magasin de Microsoft | 
 | ---     | ---  |
+| 4.0.51.0 | 17/11/2018   | 
 | 4.0.31.0 | 16/10/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
 | 4.0.19.0 |  08/31/2018    |   
@@ -48,6 +49,10 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Systèmes de salle Skype v2 fonctionnalité introduction et problème résolution
+
+### <a name="40510-11172018"></a>4.0.51.0 (17/11/2018)
+Introduite dans cette mise à jour :
+- Prise en charge du double affichage (avant de salle) pour les réunions d’équipes 
 
 ### <a name="40310-10162018"></a>4.0.31.0 (16/10/2018)
 Introduite dans cette mise à jour :
@@ -198,4 +203,4 @@ Introduite dans cette mise à jour :
 
 [Planification de Skype Room Systems v2](skype-room-systems-v2-0.md)
 
-[Gestion de Skype Room System v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gestion des systèmes Skype Room version 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

@@ -3,7 +3,7 @@ title: Ajouter des bots à des conversations et des canaux privés dans Microsof
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 12/05/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ ms.reviewer: lucarras
 description: Découvrez comment ajouter des bots dans Microsoft Teams pour des conversations et des canaux privés, créer des bots personnalisés et charger une version test de votre propre bot pour une conversation privée.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ff6cf5af3a1a2129ee22ae0ff51ac4216ccaefe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 548da99413714f3947cec909ea51301eb68d2c0d
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013360"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182384"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Ajouter des bots à des conversations et des canaux privés dans Microsoft Teams
 ==========================================================
@@ -56,3 +56,14 @@ Les bots peuvent être testés à l'aide de l'[émulateur Bot Framework](https:/
 
 
 3.  L'ID d'application sera converti en **nom de bot** et vous pourrez démarrer une conversation avec ce bot.
+
+<a name="side-load-your-bot-for-channels"></a>Côté charger votre robot pour les canaux
+-----------------------------------
+
+Si vous souhaitez partager votre robot avec vos collègues, voici comment procéder pour l’ajouter à des canaux de différentes équipes :
+
+1. Une fois que vous avez [créé un package d’application pour votre robot](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload), ouvrez équipes et accédez à l’équipe dans lequel vous allez être côté-chargement du robot.
+2. Sélectionnez **plus** (...) en regard du nom de l’équipe.
+3. Sélectionnez **l’équipe de gestion** , puis sélectionnez l’onglet **applications** .
+4. En bas à droite de votre écran, sélectionnez **télécharger une application personnalisée**.
+5. Accédez à l’emplacement de votre package d’application, sélectionnez-le, puis cliquez sur **Ouvrir**.

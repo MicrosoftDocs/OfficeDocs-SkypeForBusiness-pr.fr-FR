@@ -13,18 +13,18 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d7e8654ed1f3dd7c10376a21d3c48563b688381
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: 2b838652ee68895d8c2be3768316aa200a203945
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131301"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182519"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
 Les équipes à l’échelle de l’organisation offrent un moyen automatique pour tout le monde dans une petite ou moyenne organisation soit une partie d’une équipe unique pour la collaboration. 
  
-Avec les équipes à l’échelle de l’organisation, les administrateurs globaux peuvent créer facilement une équipe publique qui extrait tous les utilisateurs de l’organisation et conserve l’appartenance à jour avec Active Directory en tant qu’utilisateurs join et laissez l’organisation. Seuls les administrateurs globaux peuvent créer des équipes à l’échelle de l’organisation et actuellement une équipe à l’échelle de l’organisation est limitée aux organisations comptant pas plus de 2 500 utilisateurs. Si ces conditions sont remplies, les administrateurs globaux voir **à l’échelle de l’organisation** en tant qu’option sous **confidentialité** lors de la création d’une équipe.
+Avec les équipes à l’échelle de l’organisation, les administrateurs globaux peuvent créer facilement une équipe publique qui extrait tous les utilisateurs de l’organisation et conserve l’appartenance à jour avec Active Directory en tant qu’utilisateurs join et laissez l’organisation. Seuls les administrateurs globaux peuvent créer des équipes à l’échelle de l’organisation et actuellement une équipe à l’échelle de l’organisation est limitée aux organisations comptant pas plus de 2 500 utilisateurs. Si ces conditions sont remplies, les administrateurs globaux voir **à l’échelle de l’organisation** en tant qu’option sous **confidentialité** lors de la création d’une équipe. 
 
 ![Capture d’écran de l’option d’échelle de l’organisation pour créer une équipe à l’échelle de l’organisation] (media/create-org-wide-team.png "Capture d’écran de l’option d’échelle de l’organisation pour créer une équipe à l’échelle de l’organisation")
 

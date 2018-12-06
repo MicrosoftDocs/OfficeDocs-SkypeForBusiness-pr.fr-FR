@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67f12156fbdb6bf619b1c6a7406b4bb104ec725b
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: 4b2fa0d1631a3feb6d993b23a57cf084c3774c42
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156124"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182462"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet] (media/upgrade-banner-project-definition.png "Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet")
 
@@ -128,4 +128,4 @@ Pour toutes ces limites (à l’exception de conversation permanente), une solut
 > [!Important]
 > Ce qui démarre une conversation simple (IM) peut-être rapidement transformer un appel ou une réunion ad hoc. Bien que ces scénarios sont essentielles pour la facilité d’utilisation et l’expérience utilisateur, et nous sommes en constante évolution des expériences interopérabilités entre Skype pour les utilisateurs professionnels et les équipes. Rechercher dans les informations les plus récentes.
 
-Après avoir lu cet article, voir [Choisir votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [Migration et des conseils d’interopérabilité](https://aka.ms/SkypeToTeams-Interop)et [définir votre coexistence et les paramètres de mise à niveau](https://aka.ms/SkypeToTeams-SetCoexistence) pour plus d’informations de mise en œuvre.
+Après avoir lu cet article, voir [Choisir votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [Migration et des conseils d’interopérabilité](https://aka.ms/SkypeToTeams-Interop), [la Coexistence avec Skype pour les entreprises](coexistence-chat-calls-presence.md)et [définir votre coexistence et les paramètres de mise à niveau](https://aka.ms/SkypeToTeams-SetCoexistence) d’implémentation plus d’informations.

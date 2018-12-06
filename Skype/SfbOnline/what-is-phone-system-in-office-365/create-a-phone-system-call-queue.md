@@ -3,7 +3,7 @@ title: Créer une file d’attente de système téléphonique
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: phans, wasseemh
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 742fdbf38aeb64426ad1781d552c580385dc8117
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ec3cbc89a0a8ab07d7936d604d1f38a5d99ed2b6
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531833"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182392"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente de système téléphonique
 
@@ -156,7 +156,7 @@ Dans les **équipes Microsoft & Skype entreprise centre d’administration**, cl
 ![Set up call queues.](../images/skype-for-business-add-agents-to-call-queue.png)
   
 ***
-![Numéro 1](../images/sfbcallout1.png)<br/><br/>Les téléopérateurs (50 maximum) peuvent être :
+![Numéro 1](../images/sfbcallout1.png)<br/><br/>Agents d’appel (200 maximale) peuvent être :
 * Un utilisateur en ligne avec une licence de **Système téléphonique** et enregistré pour Enterprise Voice ou avec un forfait d'appel. <br/><br/> **Remarque :**  Pour rediriger les appels vers des personnes dans votre organisation en ligne, ils doivent disposer d’une licence de **Système téléphonique** et être activés pour Enterprise Voice ou un Plan de l’appel. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Pour les activer pour Entreprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez : `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
 * Les utilisateurs en ligne avec une licence de **Système téléphonique** et un forfait d’appels qui sont ajoutés à un groupe Office 365, une liste de distribution avec messagerie activée, ou un groupe de sécurité. Jusqu'à 30 minutes peuvent être nécessaires pour qu'un nouvel agent ajouté à une liste de distribution ou à un groupe de sécurité commence à recevoir des appels depuis une file d'attente. Un groupe de sécurité ou de la liste de distribution nouvellement créé peut prendre jusqu'à 48 heures soit disponible pour être utilisé avec les files d’attente de l’appel. Les groupes Office 365 nouvellement créés sont presqu'immédiatement disponibles. <br/> 
 
