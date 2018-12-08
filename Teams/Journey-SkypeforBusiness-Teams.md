@@ -14,21 +14,27 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59e1723e388ef58c48650a916d73d2ac09b13d00
-ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
+ms.openlocfilehash: 1ac410d5248149641cb29461bb6c0f73e6cbfb8d
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25012072"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201348"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype pour les entreprises à la mise à niveau de Microsoft Teams
-
 
 Prise en charge la vision de Microsoft communications intelligent, Microsoft Teams est de pivot pour le travail d’équipe, réunissant conversation, réunions, appel, la collaboration, l’intégration d’app et stockage des fichiers. Comme un Skype existante pour le client d’entreprise, vous êtes invité à mettre à niveau vers Teams Microsoft, bénéficient de cette suite complète des fonctionnalités de communication et de collaboration dans une expérience client unique.
 
 Voyage au pays de votre mise à niveau peut prendre un certain temps, et nous sommes là pour vous aider à chaque étape de la façon dont. Si vous êtes simplement mise en route avec les équipes utilisant déjà des équipes à côté de Skype pour les entreprises, ou prêt à mettre à niveau, s’engage à vous mettre le niveau de conseils pour votre organisation et vous encourage à passer aux étapes suivantes pour commencer à réaliser le valeur équipes peuvent offrir à votre organisation.
 
 Afficher cette [vue d’ensemble](https://aka.ms/UpgradeOverview) pour une introduction à la Skype pour les entreprises à parcours de mise à niveau les équipes, y compris les concepts de base, framework et chemins de mise à niveau.
+
+> [!Tip]
+> Regardez la session pour en savoir plus sur la mise à niveau à partir de Skype pour Business Teams Microsoft suivante : 
+> - [Introduction à la mise à niveau](https://aka.ms/teams-upgrade-intro)
+> - [Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)
+> - [Interopérabilité et coexistence](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Expérience de l’administrateur](https://aka.ms/teams-upgrade-admin)
 
 ## <a name="upgrade-journey-framework"></a>Infrastructure de mise à niveau voyage
 

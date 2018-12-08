@@ -13,19 +13,19 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6e25d8e4d28a40bed33483d3ebdd6b5499f9ec1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f080d90f0a384bfdc4010a80d7c84a1b51a10754
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372021"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201364"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
 
 Microsoft Teams est conçu sur le cloud d'entreprise à très grande échelle Office 365, fournissant à nos clients les fonctionnalités de sécurité avancée et de conformité qu'ils attendent.
 
-Teams est conforme au niveau C à son lancement. Cela comprend les normes suivantes : ISO 27001, ISO 27018, SSAE16 SOC 1 et SOC 2, HIPAA, et les clauses contractuelles types de l'UE (EUMC). Dans son cadre de conformité, Microsoft classe les applications et services Office 365 en quatre catégories. Chaque catégorie est définie par des conditions de conformité spécifiques qui doivent être satisfaites par tout service Office 365, ou tout service Microsoft associé appartenant à ladite catégorie.
+Les équipes est compatible avec niveau D. Cela inclut les normes suivantes : ISO 27001, ISO 27018, SSAE16 sociale 1 et 2 de sécurité sociale, HIPAA et Clauses de modèle de l’Union européenne (CMUE). Dans le cadre de conformité de Microsoft, Microsoft classifie les services et applications Office 365 en quatre catégories. Chaque catégorie est définie par les engagements de conformité spécifique qui doivent être remplies pour un service Office 365 ou un service Microsoft associé, répertoriées dans cette catégorie.
 
 Les services qui appartiennent aux catégories de conformité C et D, et qui se soumettent à des conditions de conformité applicables au secteur sont activés par défaut. Les services qui appartiennent aux catégories A et B sont dotés de commandes qui permettent leur activation ou désactivation au niveau de toute l'organisation. Pour obtenir plus d'informations, consultez le document sur le [cadre de conformité aux normes et réglementations du secteur](https://go.microsoft.com/fwlink/?linkid=855777). Teams prend également en charge la conformité à la Cloud Security Alliance.
 
@@ -41,7 +41,7 @@ Recherche des journaux d’audit se connecte à droite dans la sécurité pour M
 
 Recherche de contenu pouvant être utilisée pour rechercher toutes les données d’équipes par le biais de riches fonctionnalités de filtrage et exportée vers un conteneur spécifique pour la prise en charge pour litige et conformité. Cela peut être effectuée avec ou sans un cas eDiscovery. Cela permet aux administrateurs de conformité recueillir des données d’équipes pour tous les utilisateurs, passez en revue et exportez-le pour un traitement supplémentaire. Reportez-vous à ce [lien](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) pour en savoir plus sur la façon d’effectuer une recherche de contenu de la conformité pour le contenu Teams Microsoft Office 365 sécurité et centre de conformité. 
 
-Conseil : Le type MicrosoftTeams peut servir à filtrer à Microsoft Teams contenu uniquement c'est-à-dire conversation et les Messages de canal, les réunions et les appels. 
+Conseil : Le type Teams Microsoft permettre servir à filtrer par le biais d’à Microsoft Teams contenu uniquement c'est-à-dire conversation et les Messages de canal, les réunions et les appels. 
 
 ## <a name="ediscovery"></a>eDiscovery
 
@@ -70,7 +70,7 @@ Les clients peuvent exploiter la découverte électronique locale ou [eDiscovery
 
 ## <a name="legal-hold"></a>Conservation légale
 
-Pendant un litige, il est souvent nécessaire que toutes les données associées à un utilisateur (dépositaire) ou une équipe est conservée immuable, donc il peut être utilisé comme preuve pour le cas. Pour cela, vous devez placer un utilisateur (boîte aux lettres de l’utilisateur) ou à une équipe en conservation légale. Lorsqu’une équipe au sein des équipes est placée sur le blocage sur Place (sous-ensemble de la collection de site ou de la boîte aux lettres via des requêtes ciblés ou du contenu filtré) ou litige (toute boîte aux lettres ou site collection), la suspension est placée sur la boîte aux lettres de groupes. Cela garantit que même si les utilisateurs finaux, supprimer ou modifier les messages de canal sont ingérés dans la boîte aux lettres de groupe, immuables copies de ce contenu sont disponibles dans la recherche eDisscovery et conservées. Les conservations légales sont généralement appliquées dans le contexte d'un cas eDiscovery. Consultez [cette](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) aide de l’article pour en savoir plus sur la conservation et suspensions dans la sécurité pour Microsoft Office 365 et le centre de conformité. 
+Pendant un litige, il est souvent nécessaire que toutes les données associées à un utilisateur (dépositaire) ou une équipe est conservée immuable, donc il peut être utilisé comme preuve pour le cas. Pour cela, vous devez placer un utilisateur (boîte aux lettres de l’utilisateur) ou à une équipe en conservation légale. Lorsqu’une équipe au sein des équipes est placée sur le blocage sur Place (sous-ensemble de la collection de site ou de la boîte aux lettres via des requêtes ciblés ou du contenu filtré) ou litige (toute boîte aux lettres ou site collection), la suspension est placée sur la boîte aux lettres de groupes. Cela garantit que même si les utilisateurs finaux, supprimer ou modifier les messages de canal sont ingérés dans la boîte aux lettres de groupe, immuables copies de ce contenu sont disponibles dans la recherche de découverte électronique et conservées. Les conservations légales sont généralement appliquées dans le contexte d'un cas eDiscovery. Consultez [cette](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) aide de l’article pour en savoir plus sur la conservation et suspensions dans la sécurité pour Microsoft Office 365 et le centre de conformité. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Architecture de Protection des informations pour les équipes Microsoft. 
 

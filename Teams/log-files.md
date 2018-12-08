@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, des médias et du bureau générés par Microsoft Teams, où les trouver et comment ils peuvent vous assister dans vos opérations de dépannage.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a14d6db6c03b540a6495b9028a4f0342ff92636
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: bf42d76e1e17dc81b1c3d0ab603050c6e2d25d71
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716334"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201332"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser des fichiers journaux pour le dépannage de Microsoft Teams
 =================================================
@@ -61,17 +61,11 @@ Les journaux de débogage sont générés à l'aide des méthodes propres aux sy
 
 -   Windows :
 
-    1.  Cliquez avec le bouton droit sur l'**icône de Microsoft Teams dans** la barre d'applications et sélectionnez **Obtenir les journaux**.
-
-    2.  Sélectionnez **Obtenir les journaux** dans le menu déroulant **Aide**.
-
-    3.  Raccourci clavier : Ctrl + Alt + Maj + 1
+      Raccourci clavier : Ctrl + Alt + Maj + 1
 
 -   Mac OSX :
 
-    1.  Sélectionnez **Obtenir les journaux** dans le menu déroulant **Aide**.
-
-    2.  Raccourci clavier : Option + Commande + Maj t+1
+      Raccourci clavier : Option + Commande + Maj t+1
 
 Les journaux de débogage sont automatiquement téléchargés dans les dossiers suivants.
 
@@ -97,6 +91,16 @@ Les journaux des médias contiennent des données de diagnostic sur les appels a
 ---------------------
 
 Les journaux du bureau, également appelés journaux de programme d'amorçage, contiennent des données d'événements survenant entre le client de bureau et le navigateur. À l'instar des journaux des médias, ces journaux sont requis uniquement sur demande de Microsoft. Il s'agit de journaux texte qui peuvent être affichés à l'aide d'un éditeur de texte et lus de haut en bas.
+
+Windows :
+
+  1.  Cliquez avec le bouton droit sur l'**icône de Microsoft Teams dans** la barre d'applications et sélectionnez **Obtenir les journaux**.
+
+  2.  Sélectionnez **Obtenir les journaux** dans le menu déroulant **Aide**.
+
+Mac OsX :
+
+1.  Sélectionnez **Obtenir les journaux** dans le menu déroulant **Aide**.
 
 |Client |Emplacement |
 |---------|---------|
