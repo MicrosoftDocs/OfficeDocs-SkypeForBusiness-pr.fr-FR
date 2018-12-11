@@ -1,12 +1,12 @@
 ---
-title: Choisissez votre parcours de mise à niveau - Microsoft Teams
+title: Choisir votre parcours de mise à niveau - Microsoft Teams
 author: lsomi
 ms.author: lsomi
 manager: serdars
 ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: dearbeen, bjwhalen
 description: Détails de Skype pour les options de coexistence Business et Microsoft Teams modes et trajets mise à niveau pour les équipes de Skype pour les entreprises avec des exemples de scénarios.
 localization_priority: Normal
 search.appverid: MET150
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f78cab154dd2b697cbee851a06ef8633b742dbf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: bdf8ee99b276603329682ce2a1749f946d209fbf
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533189"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214488"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation] (media/upgrade-banner-deployment.png "Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation")
 
@@ -85,7 +85,7 @@ Vous trouverez un exemple d’un trajet de mise à niveau progressif dans le dia
 
 Au fil du temps, groupes d’utilisateurs peuvent être mis à niveau en mode **Équipes uniquement** , suivi par le reste de l’organisation. Finalement, l’organisation toute entière sera prête à retirer Skype pour les entreprises et d’utiliser des équipes uniquement pour les communications et la collaboration, ou, si les exigences commerciales imposent que Skype pour les entreprises être conservé pour un groupe spécifique — la majorité des utilisateurs dans le organisation peut utiliser uniquement les équipes. <br><br>
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Point de décision</td><td><ul> Les parcours de mise à niveau est adapté à votre organisation & #39 ; les impératifs de s ?<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Point de décision</td><td><ul> Les parcours de mise à niveau est adapté aux besoins de votre organisation ?<br><br></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étape suivante</td><td><ul> Identifier votre modèle de déploiement actuel, utilisez des cas et des considérations importantes pour votre organisation informe voyage aux équipes qui est la mieux adapté à votre organisation.<br><br></ul></td></tr>
 </table>
 
@@ -93,7 +93,7 @@ Au fil du temps, groupes d’utilisateurs peuvent être mis à niveau en mode **
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Point de décision</td><td><ul> Quel scénario de mise à niveau est applicable à votre organisation ?<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul> Déterminer la chronologie de votre organisation & #39 ; voyage au pays de la mise à niveau s en fonction de la messagerie, réunions et les impératifs de l’appel.<br><br> Déterminez le travail supplémentaire requis pour effectuer votre parcours de mise à niveau.<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul> Décider du scénario du parcours de mise à niveau de votre organisation en fonction de la messagerie, réunions et les impératifs de l’appel.<br><br> Déterminez le travail supplémentaire requis pour effectuer votre parcours de mise à niveau.<br><br></ul></td></tr>
 </table>
 
 Après avoir choisi la meilleur voyage mise à niveau pour votre organisation, [effectuez la mise à niveau pour les équipes](https://aka.ms/SkypeToTeams-Upgrade).

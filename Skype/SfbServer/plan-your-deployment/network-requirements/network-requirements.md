@@ -13,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Résumé : Passez en revue les considérations de composant réseau ci-dessous avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: ad0e3b48a320997ddce0559e388d5cfdcab861d1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: fd21ada12a8e2b05654fe6809dd5147480b0e306
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375081"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214511"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
 **Résumé :** Passez en revue les considérations de composant réseau ci-dessous avant d’implémenter Skype pour Business Server.
 
-Les informations contenues dans ces rubriques sont également abordés dans le livre blanc sur la [Planification du réseau, de surveillance et dépannage avec Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) avec des détails supplémentaires et la profondeur. Alors que le contenu fait référence explicitement à Lync 2010 et Lync 2013, les considérations de Skype pour Business Server restent inchangées.
+Les informations fournies dans ces rubriques sont également abordées de manière plus approfondie dans le livre blanc [Planification réseau, surveillance et résolution de problèmes avec Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084). Alors que le contenu fait référence explicitement à Lync 2010 et Lync 2013, les considérations de Skype pour Business Server restent inchangées.
 
 De même, si votre réseau implique wi-fi ainsi qu’un accès câblé, le livre blanc [Proposer Lync 2013 Real-Time Communications en Wi-Fi](https://www.microsoft.com/en-us/download/details.aspx?id=36494) est une bonne référence et s’applique également aux Skype pour Business Server.
 
@@ -56,15 +56,15 @@ Configuration réseau requise pour l’audio/vidéo (A / V) dans un Skype pour B
 
 - Si vous utilisez le protocole IPSec, nous vous recommandons de le désactiver sur les plages de ports utilisées pour le trafic A/V. Pour plus d’informations, consultez [exceptions IPsec](#ipsec-exceptions).
 
-Pour fournir une qualité optimale lors de l’utilisation des fonctionnalités multimédias, procédez comme suit :
+Pour fournir une qualité optimale lors de l'utilisation des fonctionnalités multimédias, procédez comme suit :
 
-- Configurez les liens réseau pour qu’ils prennent en charge un débit de 65 kilobits par seconde (Kbits/s) par flux audio et 500 Kbits/s par flux vidéo, s’ils sont activés, pendant les périodes d’utilisation de pointe. Une session audio ou vidéo bidirectionnelle utilise deux flux, aussi une connexion audio/ téléphonique simple aura besoin de 130 Kbits/s pour couvrir chaque flux. Vidéo de la même manière utilise 1 000 Kbits/s total pour effectuer une connexion en amont et en aval.
+- Configurez les liens réseau pour qu'ils prennent en charge un débit de 65 kilobits par seconde (Kbits/s) par flux audio et 500 Kbits/s par flux vidéo, s'ils sont activés, pendant les périodes d'utilisation de pointe. Une session audio ou vidéo bidirectionnelle utilise deux flux, aussi une connexion audio/ téléphonique simple aura besoin de 130 Kbits/s pour couvrir chaque flux. Vidéo de la même manière utilise 1 000 Kbits/s total pour effectuer une connexion en amont et en aval.
 
 - Pour prendre en charge inattendues pointes de trafic et l’utilisation accrue au fil du temps, Skype pour les points de terminaison multimédia Business Server peut s’adapter aux différentes conditions réseau et prend en charge trois fois le débit pour l’audio et vidéo tout en conservant une qualité acceptable. Ne pensez pas que ce adaptabilité sera masque le problème lorsque le réseau est configuré sous. Dans un réseau configurées sous, la possibilité du Skype pour les points de terminaison multimédia Business Server faire dynamiquement des différentes conditions de réseau (par exemple, la perte de paquets haute temporaire) est réduite.
 
-- Pour les liaisons réseau dont la mise en service s’avère à la fois coûteuse et difficile, vous serez peut-être contraint à prendre en charge un trafic moins important. Dans ce scénario, laissez l’élasticité de la Skype pour les points de terminaison multimédia Business Server absorber la différence entre le volume de trafic et le niveau de trafic de pointe, au détriment de certains réduction de la qualité de voix. En outre, on constatera une réduction de la capacité de traitement supplémentaire pouvant normalement absorber les soudaines augmentations de trafic.
+- Pour les liaisons réseau dont la mise en service s'avère à la fois coûteuse et difficile, vous serez peut-être contraint à prendre en charge un trafic moins important. Dans ce scénario, laissez l’élasticité de la Skype pour les points de terminaison multimédia Business Server absorber la différence entre le volume de trafic et le niveau de trafic de pointe, au détriment de certains réduction de la qualité de voix. En outre, on constatera une réduction de la capacité de traitement supplémentaire pouvant normalement absorber les soudaines augmentations de trafic.
 
-- Dans le cas des liaisons ne pouvant pas bénéficier d’un débit optimal à court terme, par exemple dans un réseau étendu utilisant des liaisons de qualité médiocre, vous devez envisager de désactiver les fonctionnalités vidéo pour certains utilisateurs.
+- Dans le cas des liaisons ne pouvant pas bénéficier d'un débit optimal à court terme, par exemple dans un réseau étendu utilisant des liaisons de qualité médiocre, vous devez envisager de désactiver les fonctionnalités vidéo pour certains utilisateurs.
 
 - Configurez le réseau pour garantir un retard maximal (temps de réponse) de 150 millisecondes (ms) de bout en bout en cas de pic de charge. Latence est atteinte à un réseau qui Skype pour les composants multimédias Business Server ne peuvent pas compenser, et il est important de trouver et d’éliminer les points faibles.
 
@@ -101,7 +101,7 @@ Le tableau suivant présente les paramètres recommandés pour les exceptions IP
 ## <a name="conferencing-network-requirements"></a>Conditions de réseau requises pour les fonctionnalités de conférence web
 <a name="Conf_req"> </a>
 
-La bande passante utilisée pour télécharger le contenu de conférence à partir du serveur Internet Information Services (IIS) dépend de la taille du contenu. Vous pouvez surveiller l’utilisation réelle de la bande passante et ajuster la planification de la bande passante en conséquence.
+La bande passante utilisée pour télécharger le contenu de conférence à partir du serveur Internet Information Services (IIS) dépend de la taille du contenu. Vous pouvez surveiller l'utilisation réelle de la bande passante et ajuster la planification de la bande passante en conséquence.
 
 ## <a name="network-bandwidth-requirements-for-media-traffic"></a>Configuration requise de la bande passante pour le trafic multimédia
 <a name="Conf_req"> </a>
@@ -111,21 +111,21 @@ Une part importante de la planification du réseau est de vous assurer que votre
 ### <a name="media-traffic-network-usage"></a>Utilisation du réseau pour le trafic multimédia
 <a name="Net_req"> </a>
 
-L’utilisation de la bande passante par le trafic multimédia peut être difficile à calculer en raison du nombre de variables différentes, comme l’utilisation du codec, la résolution et les niveaux d’activité. L’utilisation de la bande passante est une fonction du codec utilisé et de l’activité du flux, pouvant varier d’un scénario à l’autre. Le tableau suivant répertorie les codecs audio généralement utilisés dans Skype pour les scénarios de serveur d’entreprise.
+L'utilisation de la bande passante par le trafic multimédia peut être difficile à calculer en raison du nombre de variables différentes, comme l'utilisation du codec, la résolution et les niveaux d'activité. L'utilisation de la bande passante est une fonction du codec utilisé et de l'activité du flux, pouvant varier d'un scénario à l'autre. Le tableau suivant répertorie les codecs audio généralement utilisés dans Skype pour les scénarios de serveur d’entreprise.
 
 **Bande passante du codec audio**
 
 |**Codec audio**|**Scénario**|**Vitesse de transmission de la charge utile audio (Kbits/s)**|**Charge utile audio de la bande passante et en-tête IP uniquement (Kbits/s)**|**Charge utile audio de la bande passante, en-tête IP, UDP, RTP et SRTP (Kbits/s)**|**Charge utile audio de la bande passante, en-tête IP, UDP, RTP, SRTP et correction d'erreur de transfert (Kbits/s)**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Large bande RTAudio  <br/> |Égal à égal  <br/> |29.0  <br/> |45.0  <br/> |57,0  <br/> |86.0  <br/> |
-|Bande étroite RTAudio  <br/> |Égal à égal, PSTN  <br/> |11.8  <br/> |27,8  <br/> |39,8  <br/> |51.6  <br/> |
-|G.722  <br/> |Téléconférence  <br/> |64,0  <br/> |80,0  <br/> |95.6  <br/> |159.6  <br/> |
+|Large bande RTAudio  <br/> |Égal à égal  <br/> |29.0  <br/> |45.0  <br/> |57.0  <br/> |86.0  <br/> |
+|Bande étroite RTAudio  <br/> |Égal à égal, PSTN  <br/> |11.8  <br/> |27.8  <br/> |39.8  <br/> |51.6  <br/> |
+|G.722  <br/> |Téléconférence  <br/> |64.0  <br/> |80.0  <br/> |95.6  <br/> |159.6  <br/> |
 |Stéréo G.722  <br/> |Égal à égal, conférence  <br/> |128.0  <br/> |144.0  <br/> |159.6  <br/> |223.6  <br/> |
-|G.711  <br/> |RTC, conférence  <br/> |64,0  <br/> |80,0  <br/> |92.0  <br/> |156.0  <br/> |
+|G.711  <br/> |RTC, conférence  <br/> |64.0  <br/> |80.0  <br/> |92.0  <br/> |156.0  <br/> |
 |Siren  <br/> |Téléconférence  <br/> |16.0  <br/> |32.0  <br/> |47.6  <br/> |63.6  <br/> |
-|SILK bande large  <br/> |Égal à égal  <br/> |36.0  <br/> |52.0  <br/> |64,0  <br/> |100.0  <br/> |
-|SILK bande large  <br/> |Égal à égal  <br/> |26.0  <br/> |42.0  <br/> |54.0  <br/> |80,0  <br/> |
-|SILK bande large  <br/> |Égal à égal  <br/> |20,0  <br/> |36.0  <br/> |48.0  <br/> |68.0  <br/> |
+|SILK bande large  <br/> |Égal à égal  <br/> |36.0  <br/> |52.0  <br/> |64.0  <br/> |100.0  <br/> |
+|SILK bande large  <br/> |Égal à égal  <br/> |26.0  <br/> |42.0  <br/> |54.0  <br/> |80.0  <br/> |
+|SILK bande large  <br/> |Égal à égal  <br/> |20.0  <br/> |36.0  <br/> |48.0  <br/> |68.0  <br/> |
 |Large bande/à bande étroite soie  <br/> |Égal à égal  <br/> |13.0  <br/> |29.0  <br/> |41.0  <br/> |54.0  <br/> |
 
 Les valeurs de bande passante contenues dans le tableau ci-dessus reposent sur la mise en paquets 20 ms (50 paquets par seconde) et pour Siren et G.722 incluent le protocole SRTP (Secure Real-Time Transport Protocol) en plus des scénarios de conférence et supposent que le flux est entièrement actif. La correction d'erreur de transfert (FEC) est utilisée dynamiquement en cas de perte de paquet sur la liaison afin de maintenir la qualité du flux audio. 
@@ -143,7 +143,7 @@ La version stéréo du codec G.722 est utilisée par les systèmes basés sur Ly
 |H.264  <br/> |848x480 (16:9)  <br/> |1500  <br/> |400  <br/> |
 |H.264  <br/> |960x540 (16:9)  <br/> |2000  <br/> |500  <br/> |
 |H.264/RTVideo  <br/> |1 280 x 720 (16:9)  <br/> |2500  <br/> |700  <br/> |
-|H.264  <br/> |1 920 x 1 080 (16:9)  <br/> |4000  <br/> |1500  <br/> |
+|H.264  <br/> |1 920x1 080 (16:9)  <br/> |4000  <br/> |1500  <br/> |
 |H.264/RTVideo  <br/> |960x144 (20:3)  <br/> |500  <br/> |15  <br/> |
 |H.264  <br/> |1 280 x 192 (20:3)  <br/> |1000  <br/> |250  <br/> |
 |H.264  <br/> |1 920 x 288 (20:3)  <br/> |2000  <br/> |500  <br/> |
@@ -176,9 +176,9 @@ Dans un scénario de conférence :
 
 - Tous les participants reçoivent des flux audio.
 
-- Si la vidéo est utilisée, tous les participants peuvent recevoir jusqu’à cinq flux vidéo entrants et un flux panoramique (par exemple, proportions 20:3). Par défaut, les cinq flux vidéo entrants sont basés sur l’historique du haut-parleur actif, mais les utilisateurs peuvent également manuellement sélectionner les participants desquels ils souhaitent recevoir un flux vidéo. Si la multi-vidéo est activée, la configuration requise pour la résolution et la bande passante peut être inférieure pour chaque flux vidéo.
+- Si la vidéo est utilisée, tous les participants peuvent recevoir jusqu'à cinq flux vidéo entrants et un flux panoramique (par exemple, proportions 20:3). Par défaut, les cinq flux vidéo entrants sont basés sur l'historique du haut-parleur actif, mais les utilisateurs peuvent également manuellement sélectionner les participants desquels ils souhaitent recevoir un flux vidéo. Si la multi-vidéo est activée, la configuration requise pour la résolution et la bande passante peut être inférieure pour chaque flux vidéo.
 
-- Chaque participant qui active l’utilisateur envoyer le flux vidéo permet d’envoyer un ou plusieurs flux vidéo. Skype pour Business Server a la possibilité d’envoyer des flux vidéo jusqu'à cinq afin d’optimiser la qualité vidéo pour tous les clients de réception. Le nombre réel de flux vidéo envoyé est déterminé par l’émetteur en fonction de la capacité du processeur, de la bande passante montante disponible et du nombre de clients de réception qui demandent un flux vidéo spécifique. Dans le cas le plus courant, un flux vidéo H.264 et un flux vidéo RTVideo sont envoyés quand un client hérité participe à une conférence. Il se peut également que plusieurs flux vidéo H.264 (par exemple, avec différentes résolutions vidéo) soient envoyés pour différentes demandes.
+- Chaque participant qui active l’utilisateur envoyer le flux vidéo permet d’envoyer un ou plusieurs flux vidéo. Skype pour Business Server a la possibilité d’envoyer des flux vidéo jusqu'à cinq afin d’optimiser la qualité vidéo pour tous les clients de réception. Le nombre réel de flux vidéo envoyé est déterminé par l'émetteur en fonction de la capacité du processeur, de la bande passante montante disponible et du nombre de clients de réception qui demandent un flux vidéo spécifique. Dans le cas le plus courant, un flux vidéo H.264 et un flux vidéo RTVideo sont envoyés quand un client hérité participe à une conférence. Il se peut également que plusieurs flux vidéo H.264 (par exemple, avec différentes résolutions vidéo) soient envoyés pour différentes demandes.
 
 Outre la bande passante requise pour le trafic RTP (Real-Time Transport Protocol) pour les supports audio et vidéo, le protocole RTCP (Real-Time Transport Control Protocol) a lui aussi besoin de bande passante. RTCP est utilisé pour le signalement des statistiques et le contrôle hors-bande du flux RTP. Pour la planification, utilisez les valeurs de bande passante contenues dans le tableau ci-dessous pour le trafic RTCP. Ces valeurs représentent la bande passante maximale utilisée pour le trafic RTCP et varient pour les flux audio et vidéo en raison des différences dans les données de contrôle.
 
@@ -187,7 +187,7 @@ Outre la bande passante requise pour le trafic RTP (Real-Time Transport Protocol
 |**Media**|**Bande passante maximale RTCP (Kbits/s)**|
 |:-----|:-----|
 |Audio  <br/> |5  <br/> |
-|Vidéo (uniquement H.264 ou RTVideo envoyé/reçu)  <br/> |10  <br/> |
+|Vidéo (uniquement H.264 ou RTVideo envoyé/reçu)  <br/> | 10  <br/> |
 |Vidéo (H.264 et RTVideo envoyé/reçu)  <br/> |15  <br/> |
 
 Pour planifier la capacité, les deux statistiques suivantes sont intéressantes :
@@ -204,8 +204,8 @@ Les tableaux ci-dessous fournissent les valeurs pour les divers scénarios.
 
 |**Media**|**Codec**|**Bande passante pour un flux type ( Kbits/s)**|**Bande passante maximale sans correction d'erreur de transfert**|**Bande passante maximale avec correction d'erreur de transfert**|
 |:-----|:-----|:-----|:-----|:-----|
-|Audio  <br/> |Large bande RTAudio  <br/> |39,8  <br/> |62  <br/> |91  <br/> |
-|Audio  <br/> |Bande étroite RTAudio  <br/> |29.3  <br/> |44,8  <br/> |56,6  <br/> |
+|Audio  <br/> |Large bande RTAudio  <br/> |39.8  <br/> |62  <br/> |91  <br/> |
+|Audio  <br/> |Bande étroite RTAudio  <br/> |29.3  <br/> |44.8  <br/> |56.6  <br/> |
 |Audio  <br/> |SILK bande large  <br/> |44.3  <br/> |69  <br/> |105  <br/> |
 |Vidéo principale lors de l’appel Skype pour systèmes d’extrémité Business Server  <br/> |H.264  <br/> |460  <br/> |4 010 (pour une résolution maximale de 1 920 x 1 080)  <br/> |Déjà inclus  <br/> |
 |Vidéo principale lors de l’appel des points de terminaison Lync 2010 ou Office Communicator 2007 R2  <br/> |RTVideo  <br/> |460  <br/> |2 510 (pour une résolution maximale de 1 280 x 720)  <br/> |Déjà inclus  <br/> |
@@ -217,7 +217,7 @@ Les tableaux ci-dessous fournissent les valeurs pour les divers scénarios.
 |**Media**|**Codec type**|**Bande passante pour un flux type ( Kbits/s)**|**Bande passante maximale sans correction d'erreur de transfert**|**Bande passante maximale avec correction d'erreur de transfert**|
 |:-----|:-----|:-----|:-----|:-----|
 |Audio  <br/> |G.722  <br/> |46.1  <br/> |100.6  <br/> |164.6  <br/> |
-|Audio  <br/> |Siren  <br/> |25,5  <br/> |52.6  <br/> |68.6  <br/> |
+|Audio  <br/> |Siren  <br/> |25.5  <br/> |52.6  <br/> |68.6  <br/> |
 |Réception vidéo principale  <br/> |H.264 et RTVideo¹  <br/> |260  <br/> |8015  <br/> |Non applicable  <br/> |
 |Envoi vidéo principal  <br/> |H.264 et RTVideo  <br/> |270  <br/> |8015  <br/> |Non applicable  <br/> |
 |Réception vidéo panoramique  <br/> |H.264 et RTVideo  <br/> |190  <br/> |2 010 (pour une résolution maximale de 1 920 x 288)  <br/> |Non applicable  <br/> |
@@ -233,7 +233,7 @@ Lors de la création d’une conférence à plusieurs qui utilise la fonctionnal
 
 ||**2 participants**|**3 participants**|**4 participants**|**5 participants**|**6 participants**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Résolutions maximales reçues** <br/> |1920 x 1080  <br/> |1280 x 720  <br/> |640 x 360  <br/> |640 x 360 320 x 240  <br/> |640 x 360 320 x 240  <br/> |
+|**Résolutions maximales reçues** <br/> |1920x1080  <br/> |1280x720  <br/> |640x360  <br/> |640x360 320x240  <br/> |640x360 320x240  <br/> |
 |**Débit moyen total** <br/> |2128  <br/> |4050  <br/> |1304  <br/> |1224  <br/> |1565  <br/> |
 |**Débit maximal total** <br/> |4063  <br/> |5890  <br/> |2860  <br/> |2699  <br/> |3017  <br/> |
 
@@ -244,7 +244,7 @@ La bande passante de flux type pour la vidéo panoramique est basée sur les pé
 |**Media**|**Codec type**|**Bande passante pour un flux type ( Kbits/s)**|**Bande passante maximale sans correction d'erreur de transfert**|**Bande passante maximale avec correction d'erreur de transfert**|
 |:-----|:-----|:-----|:-----|:-----|
 |Audio  <br/> |G.711 (y compris dans les conférences de participants PSTN)  <br/> |64.8  <br/> |97  <br/> |161  <br/> |
-|Audio  <br/> |Bande étroite RTAudio  <br/> |30,9  <br/> |44,8  <br/> |56,6  <br/> |
+|Audio  <br/> |Bande étroite RTAudio  <br/> |30.9  <br/> |44.8  <br/> |56.6  <br/> |
 
 Les valeurs de bande passante pour le réseau contenues dans ces tableaux représentent uniquement le trafic unidirectionnel et incluent 5 Kbits/s pour le trafic RTCP pour chaque flux.
 
@@ -254,27 +254,20 @@ Les valeurs de bande passante pour le réseau contenues dans ces tableaux repré
 La Qualité de service (QoS) est une technologie réseau utilisée dans certaines organisations afin de fournir des performances optimales à l'utilisateur final pour les communications audio et vidéo. QoS est le plus souvent utilisée sur les réseaux où la bande passante est limitée : avec un grand nombre de paquets réseau simultanés pour une quantité de bande passante disponible relativement faible, QoS permet aux administrateurs d'affecter une priorité supérieure aux paquets transportant des données audio ou vidéo. Le fait d'affecter une priorité supérieure à ces paquets permet aux communications audio et vidéo de s'effectuer plus rapidement, et avec moins d'interruption, que les sessions réseau impliquant des opérations telles que des transferts de fichiers, de la navigation web ou des sauvegardes de bases de données. C'est la raison pour laquelle la priorité « Meilleur effort » est affectée aux paquets réseau utilisés pour les transferts de fichiers ou les sauvegardes de bases de données.
 
 > [!NOTE]
-> En règle générale, la QoS s’applique uniquement aux sessions de communication sur votre réseau interne. Lorsque vous implémentez QoS, vous configurez vos serveurs et routeurs afin de prendre en charge le marquage de paquets qui ne peut pas être pris en charge sur Internet et d’autres réseaux. Même si la qualité de Service est pris en charge sur d’autres réseaux, il n’existe aucune garantie que QoS vont être configurés dans exactement la même manière que vous avez configuré le service. Si vous utilisez MPLS, vous devrez contacter votre fournisseur MPLS
+> En règle générale, la QoS s'applique uniquement aux sessions de communication sur votre réseau interne. Lorsque vous implémentez QoS, vous configurez vos serveurs et routeurs afin de prendre en charge le marquage de paquets qui ne peut pas être pris en charge sur Internet et d'autres réseaux. Même si la qualité de Service est pris en charge sur d’autres réseaux, il n’existe aucune garantie que QoS vont être configurés dans exactement la même manière que vous avez configuré le service. Si vous utilisez MPLS, vous devrez contacter votre fournisseur MPLS
 
-Skype pour Business Server ne nécessite pas de qualité de service, mais il est fortement recommandé. Si vous rencontrez des problèmes de perte de paquets sur le réseau de vos solutions disponibles sont à ajouter plus de bande passante ou pour implémenter QoS. Si l’ajout de bande passante n’est pas possible, l’implémentation de QoS peut constituer la seule solution au problème.
+Skype pour Business Server ne nécessite pas de qualité de service, mais il est fortement recommandé. Si vous rencontrez des problèmes de perte de paquets sur le réseau de vos solutions disponibles sont à ajouter plus de bande passante ou pour implémenter QoS. Si l'ajout de bande passante n'est pas possible, l'implémentation de QoS peut constituer la seule solution au problème.
 
 Skype pour Business Server offre une prise en charge complète pour QoS : que signifie que les organisations qui utilisent déjà QoS peuvent facilement intégrer Skype pour Business Server dans son infrastructure réseau existante. Pour ce faire, procédez comme suit :
 
-- [Activation de QoS pour les périphériques Non Windows](https://technet.microsoft.com/library/26f793df-aef8-4028-9e3b-6c2c37ea61b9.aspx). Par défaut, QoS est désactivée pour les ordinateurs et autres appareils (tels que les iPhones) qui exécutent d’autres systèmes d’exploitation. Bien que vous pouvez utiliser Skype pour Business Server pour activer et désactiver la qualité de service pour les périphériques, vous pouvez généralement utiliser le produit pour modifier les codes DSCP utilisés par ces périphériques.
+- [Activation de QoS dans Skype pour Business Server pour les appareils non basés sur Windows](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md). Par défaut, QoS est désactivée pour les ordinateurs et autres appareils (tels que les iPhones) qui exécutent d'autres systèmes d'exploitation. Bien que vous pouvez utiliser Skype pour Business Server pour activer et désactiver la qualité de Service pour les périphériques, vous pouvez généralement utiliser le produit pour modifier les codes DSCP utilisés par ces périphériques.
 
-- [Configuration des plages de ports de conférence, votre Application et des serveurs de médiation](https://technet.microsoft.com/library/4d6eaa5d-0127-453f-be6a-e55384772d83.aspx). Vous devez réserver un ensemble unique de ports pour différents types de paquets, tels que les paquets audio et vidéo. À l’aide de Skype pour Business Server ne pas activer ou désactiver la qualité de service en définissant une valeur de propriété la valeur True ou False. Au lieu de cela, vous activez QoS en configurant des plages de ports, puis en créant et en appliquant une stratégie de groupe. Si vous décidez ultérieurement ne pas utiliser QoS vous pouvez « désactiver » QoS en supprimant les objets de stratégie de groupe appropriés.
+- [Configuration des plages de ports et une stratégie de qualité de Service pour vos serveurs de conférence, Application et de médiation](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). Vous devez réserver un ensemble unique de ports pour différents types de paquets, tels que les paquets audio et vidéo. À l’aide de Skype pour Business Server ne pas activer ou désactiver la qualité de service en définissant une valeur de propriété la valeur True ou False. Au lieu de cela, vous activez QoS en configurant des plages de ports, puis en créant et en appliquant une stratégie de groupe. Si vous décidez ultérieurement ne pas utiliser QoS vous pouvez « désactiver » QoS en supprimant les objets de stratégie de groupe appropriés.
 
-- [Configuration des plages de ports pour vos serveurs Edge](https://technet.microsoft.com/library/6f0ae442-6624-4e3f-849a-5b9e387fb8cf.aspx). Bien que cela ne soit pas requis, vous pouvez configurer vos serveurs Edge de façon à utiliser les mêmes plages de ports que vos autres serveurs.
+- [Plages de ports de configuration et une stratégie de qualité de Service pour vos serveurs Edge](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md). Bien que cela ne soit pas requis, vous pouvez configurer vos serveurs Edge de façon à utiliser les mêmes plages de ports que vos autres serveurs. Configuration d’une stratégie de QoS uniquement être effectuée pour le côté interne des serveurs de périphérie. En effet, la QoS est conçue pour être utilisée sur votre réseau interne, et non sur Internet.
 
-- [Configuration des plages de ports pour vos Clients Microsoft Lync](https://technet.microsoft.com/library/287d5cea-7ada-461c-9b4a-9da2af315e71.aspx). Ces plages de ports s’appliquent uniquement aux ordinateurs clients et sont généralement différents des plages de ports configurées sur vos serveurs.
+- [Plages de ports de configuration et une stratégie de qualité de Service pour vos clients dans Skype pour Business Server](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md). Ces plages de ports s'appliquent uniquement aux ordinateurs clients et sont généralement différents des plages de ports configurées sur vos serveurs. Notez que Skype pour Business Server ne prend pas en charge QoS pour Windows les systèmes d’exploitation autres que Windows 10.
 
-- [Configuration d’une stratégie de qualité de Service de conférence, votre Application et des serveurs de médiation](https://technet.microsoft.com/library/8adcbbc5-c9f5-476d-ab7f-72e61859cacf.aspx). Ces stratégies déterminent les codes DSCP appliqués aux différents types de paquets.
-
-- [Configuration d’une stratégie de qualité de Service pour votre A Edge a / V serveurs](https://technet.microsoft.com/library/119ee1f5-45b9-40ba-98e5-c694dd2fc5c2.aspx). Cette opération ne doit être effectuée que pour le côté interne de vos serveurs Edge. En effet, la QoS est conçue pour être utilisée sur votre réseau interne, et non sur Internet.
-
-- [Configuration de la qualité d’égal à égal de stratégies de Service pour les Clients s’exécutant sur Windows 7 ou Windows 8](https://technet.microsoft.com/library/efff2b98-b3fb-4183-a4f0-329a9105ce2c.aspx). Notez que Skype pour Business Server n’est pas compatible QoS pour les autres systèmes d’exploitation Windows, tels que Windows Vista ou Windows XP.
-
-- [Configuration de la qualité de Service sur les périphériques Microsoft Lync Phone Edition](https://technet.microsoft.com/library/a6eb2620-a512-4ab6-bdfd-eb76be43bbfe.aspx). Par défaut, QoS est activé pour les appareils Lync Phone Edition. Vous pouvez modifier la valeur DSCP par défaut afin de garantir que tous les paquets audio de votre organisation utilisent le même code DSCP.
 
 > [!NOTE]
 > Si vous utilisez Windows Server 2012 ou Windows Server 2012 R2 vous intéresser dans le nouvel ensemble d’applets de commande Windows PowerShell disponibles pour la gestion de la qualité de service sur cette plateforme. Pour plus d’informations, voir [Réseau QoS Cmdlets dans Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=285379).

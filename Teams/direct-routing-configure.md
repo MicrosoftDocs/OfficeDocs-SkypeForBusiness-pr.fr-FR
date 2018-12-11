@@ -1,5 +1,5 @@
 ---
-title: Configurer le routage Direct
+title: Configurer le routage direct
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: 994d9d25c41f5f403873a0069564f675e0020d61
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 3b023262971e9dcae111ed82d49d101437bbcda3
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510667"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214610"
 ---
-# <a name="configure-direct-routing"></a>Configurer le routage Direct
+# <a name="configure-direct-routing"></a>Configurer le routage direct
 
 > [!Tip]
 > Regarder la session suivante pour en savoir plus sur les avantages de Direct routage, comment planifier et comment le déployer : [Routage Direct dans les équipes Microsoft](https://aka.ms/teams-direct-routing)
@@ -33,8 +33,8 @@ Cet article explique comment configurer le routage Direct de Microsoft Phone Sys
 
 Nous vous recommandons de vérifier que votre contrôleur SBC a déjà été configuré comme recommandé par votre fournisseur SBC : 
 
-- Documentation de déploiement AudioCodes 
-- Documentation de déploiement de Communications de ruban
+- [Documentation de déploiement AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Documentation de déploiement de Communications de ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 
 Vous pouvez configurer votre système téléphonique de Microsoft et permettre aux utilisateurs d’utiliser le routage Direct, puis configurer Teams Microsoft en tant que client appelant par défaut en procédant comme suit : 
 
@@ -209,7 +209,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 Par exemple, pour ajouter un numéro de téléphone pour l’utilisateur « Spencer faible », entrez ce qui suit : 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser -Identity “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 Le numéro de téléphone utilisé doit être configuré comme un numéro de téléphone E.164 complète avec le code de pays. 
@@ -534,4 +534,4 @@ Routage direct achemine uniquement les appels vers et depuis les utilisateurs s�
 
 ## <a name="see-also"></a>Voir aussi
 
-[Planifier le routage Direct](direct-routing-plan.md)
+[Planifier le routage direct](direct-routing-plan.md)
