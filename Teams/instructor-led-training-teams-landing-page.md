@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: ea7ccef2f9411e0a851b421e131a77f454470132
-ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
+ms.openlocfilehash: efb105e3d6b5ab1c2ec87df6520c52eeb7ded90d
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/19/2018
-ms.locfileid: "26618594"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214557"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -28,7 +28,7 @@ ms.locfileid: "26618594"
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Microsoft est heureux d’héberger une série de classes de formation en ligne gratuite, live, conçu pour vous aider et en cours d’exécution avec des équipes.Si vous êtes un décisionnaire, admin, IT Pro ou utilisateur final, vous trouverez une classe qui vous convient. Nous vous invitons à voir des équipes en action, obtenir des réponses à vos questions et d’interagir avec nos instructeurs live. Recherchez <a href="https://docs.microsoft.com/microsoftteams/enduser-training">la demande en formation des utilisateurs finaux</a>?<br><br>Cliquez sur une vignette pour inscrire.</p>
+                                    <p>Microsoft est heureux d’héberger une série de classes de formation en ligne gratuite, live, conçu pour vous aider et en cours d’exécution avec des équipes.Si vous êtes un décisionnaire, admin, IT Pro ou utilisateur final, vous trouverez une classe qui vous convient. Nous vous invitons à voir des équipes en action, obtenir des réponses à vos questions et d’interagir avec nos instructeurs live. Plusieurs opportunités de formation, y compris les versions de la demande de formation en ligne, consultez la rubrique notre <a href="https://docs.microsoft.com/microsoftteams/enduser-training">formation de l’utilisateur final à la demande</a>.<br><br>Cliquez sur une vignette pour inscrire.</p>
                                 </div>
                             </li>
                             <li>
@@ -70,6 +70,25 @@ ms.locfileid: "26618594"
                                 </a>
                             </li>
                             <li>
+                             <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Les équipes conseils et astuces</h3>
+                                                <p>Comprendre les méthodes creative optimiser et organiser des équipes dans votre travail quotidien. (Audience : les utilisateurs finaux)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
                             <a href="https://microsoftteams.eventbuilder.com/Upgrade%20101:%20Understanding%20your%20upgrade%20from%20Skype">
                                 <div class="cardSize">
                                     <div class="cardPadding">
@@ -101,25 +120,6 @@ ms.locfileid: "26618594"
                                             <div class="cardText">
                                                 <h3>Passer de Skype pour les entreprises à équipes : Guide de l’utilisateur final</h3>
                                                     <p>Obtenez ce que vous devez commencer rapidement à l’aide des équipes pendant la transition à partir de Skype pour les entreprises aux équipes. (Audience : les utilisateurs finaux)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Conseils et astuces</h3>
-                                                <p>Comprendre les méthodes creative optimiser et organiser des équipes dans votre travail quotidien. (Audience : les utilisateurs finaux)</p>
                                             </div>
                                         </div>
                                     </div>

@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Vidéos de formation, didacticiels et autres ressources pour les utilisateurs de votre organisation apprendre à utiliser des équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f46eabe142ae62f1a231a14a919089e80e0c27b8
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 4754a20c38c16c78744d44d78647f0efdede83e6
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676426"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214442"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les utilisateurs finaux
 
@@ -132,18 +132,33 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
                         <h3>Démarrages rapides</h3>
                          <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">Téléchargez ce guide de démarrage rapide (PDF) pour découvrir les notions de base</a></p>
                         <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">Suivez les articles de ce démarrage rapide pour devenir rapidement opérationnel</a></p>
-                        <p><a href="https://teamsdemo.office.com/">Démo interactive équipes</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
+    </li> <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Vue d’ensemble des équipes</h3>
+                        <p><a href="https://teamsdemo.office.com/">Démo interactive équipes</a></p>  
+                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">Formation en ligne à la demande : #ThisisTeams - comment les équipes peuvent utiliser</a></p>
+                        <p><a href="https://aka.ms/teamsgettingstartedondemand">Formation en ligne à la demande : mise en route avec des équipes</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+       <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
                         <h3>Passer aux équipes de Skype pour les entreprises</h3>
                          <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">Article : Passer aux équipes de Skype pour les entreprises</a></p>
+                         <p><a href="https://aka.ms/upgrade101ondemand">Formation en ligne à la demande : 101 mise à niveau : présentation de la mise à niveau Skype pour les entreprises à des équipes</a></p>
+                        <p><a href="https://aka.ms/fromskypetoteamsondemand">Formation en ligne à la demande : à partir de Skype pour les entreprises à des équipes</a></p>
                     </div>
                 </div>
             </div>
@@ -158,17 +173,6 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
                          <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Vidéo : Accédez à guide pour les propriétaires de l’équipe</a></p>
                          <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">Vidéo : Organiser votre liste des équipes</a></p>
                          <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">Vidéo : Conseils pour la configuration des onglets, des canaux et des équipes</a></p> 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Formation en ligne à la demande</h3>
-                         <p><a href="https://microsoftteams.eventbuilder.com/event/1772">#ThisisTeams - comment les équipes peuvent travailler pour vous</a></p>
                     </div>
                 </div>
             </div>
