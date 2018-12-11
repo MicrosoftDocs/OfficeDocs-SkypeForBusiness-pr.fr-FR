@@ -1,0 +1,68 @@
+---
+title: Activation de QoS pour les appareils non basés sur Windows
+ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
+ms:contentKeyID: 48183661
+mtps_version: v=OCS.15
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: Découvrez comment activer QoS pour les appareils utilisés dans votre organisation qui utilisent un système d’exploitation autre que Windows.
+ms.openlocfilehash: 0dc870080b3cfcd5f73eaf6e45aee841b9c8b488
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27222771"
+---
+# <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a><span data-ttu-id="12dbb-103">Activation de QoS dans Skype pour Business Server pour les périphériques qui ne sont pas basés sur Windows</span><span class="sxs-lookup"><span data-stu-id="12dbb-103">Enabling QoS in Skype for Business Server for devices that are not based on Windows</span></span>
+
+
+<span data-ttu-id="12dbb-104">Lorsque vous installez Skype pour Business Server, qualité de Service (QoS) ne sera pas activée pour tous les périphériques utilisés dans votre organisation qui utilisent un système d’exploitation autre que Windows.</span><span class="sxs-lookup"><span data-stu-id="12dbb-104">When you install Skype for Business Server, Quality of Service (QoS) will not be enabled for any devices used in your organization that use an operating system other than Windows.</span></span> <span data-ttu-id="12dbb-105">Vous pouvez le vérifier en exécutant la commande suivante à partir de la Skype pour Business ServerManagement Shell :</span><span class="sxs-lookup"><span data-stu-id="12dbb-105">You can verify this by running the following command from within the Skype for Business ServerManagement Shell:</span></span>
+
+    Get-CsMediaConfiguration
+
+<span data-ttu-id="12dbb-106">En supposant que vous n’avez apporté des modifications à vos paramètres de configuration multimédia, vous devriez obtenir des informations semblables à ceci :</span><span class="sxs-lookup"><span data-stu-id="12dbb-106">Assuming you have not made any changes to your media configuration settings, you should get back information similar to this:</span></span>
+
+    Identity                          : Global
+    EnableQoS                         : False
+    EncryptionLevel                   : RequireEncryption
+    EnableSiren                       : False
+    MaxVideoRateAllowed               : VGA600K
+    EnableG722StereoCodec             : True
+    EnableH264Codec                   : True
+    EnableAdaptiveBandwidthEstimation : True
+
+<span data-ttu-id="12dbb-107">Si la propriété EnableQoS est définie sur False (comme dans la sortie précédente), cela signifie que la qualité de Service n’est pas activée pour les ordinateurs et périphériques qui utilisent un système d’exploitation autre que Windows.</span><span class="sxs-lookup"><span data-stu-id="12dbb-107">If the EnableQoS property is set to False (as in the preceding output) that means that Quality of Service is not enabled for computers and devices that use an operating system other than Windows.</span></span>
+
+<span data-ttu-id="12dbb-108">Pour activer la qualité de Service dans l’étendue globale, exécutez la commande suivante à partir de la Skype pour Business Server Management Shell :</span><span class="sxs-lookup"><span data-stu-id="12dbb-108">To enable Quality of Service at the global scope, run the following command from within the Skype for Business Server Management Shell:</span></span>
+
+    Set-CsMediaConfiguration -EnableQoS $True
+
+<span data-ttu-id="12dbb-109">La commande précédente Active QoS dans l’étendue globale ; Toutefois, il est important de noter que les paramètres de configuration multimédia peuvent également s’appliquer à l’étendue du site.</span><span class="sxs-lookup"><span data-stu-id="12dbb-109">The preceding command enables QoS at the global scope; however, it's important to note that media configuration settings can also be applied to the site scope.</span></span> <span data-ttu-id="12dbb-110">Si vous souhaitez activer la qualité de Service pour un site, vous devez inclure l’identité des paramètres de configuration lors de l’appel de Set-CsMediaConfiguration.</span><span class="sxs-lookup"><span data-stu-id="12dbb-110">If you need to enable Quality of Service for a site, you must include the Identity of the configuration settings when calling Set-CsMediaConfiguration.</span></span> <span data-ttu-id="12dbb-111">Par exemple, cette commande permet de qualité de service pour le site Redmond :</span><span class="sxs-lookup"><span data-stu-id="12dbb-111">For example, this command enables QoS for the Redmond site:</span></span>
+
+    Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $True
+
+
+
+> [!NOTE]  
+> <span data-ttu-id="12dbb-112">Vous devez activer QoS au niveau du site ?</span><span class="sxs-lookup"><span data-stu-id="12dbb-112">Do you need to enable QoS at the site scope?</span></span> <span data-ttu-id="12dbb-113">Cela dépend.</span><span class="sxs-lookup"><span data-stu-id="12dbb-113">That depends.</span></span> <span data-ttu-id="12dbb-114">Les paramètres définis au niveau du site sont prioritaires sur les paramètres assignés à l’étendue globale.</span><span class="sxs-lookup"><span data-stu-id="12dbb-114">Settings assigned to the site scope take precedence over settings assigned to the global scope.</span></span> <span data-ttu-id="12dbb-115">Supposons que vous ayez QoS activée dans l’étendue globale, mais désactivé au niveau du site (pour le site de Redmond).</span><span class="sxs-lookup"><span data-stu-id="12dbb-115">Suppose you have QoS enabled at the global scope but disabled at the site scope (for the Redmond site).</span></span> <span data-ttu-id="12dbb-116">Dans ce cas, la qualité de Service serait désactivée pour le site de Redmond. C’est parce que les paramètres du site sont prioritaires.</span><span class="sxs-lookup"><span data-stu-id="12dbb-116">In that case, Quality of Service would be disabled for the Redmond site; that's because the site settings take precedence.</span></span> <span data-ttu-id="12dbb-117">Pour activer QoS pour le site Redmond, vous devrez faire à l’aide des paramètres de configuration multimédia appliqué à ce site.</span><span class="sxs-lookup"><span data-stu-id="12dbb-117">To enable QoS for the Redmond site, you would have to do so using the media configuration settings applied to that site.</span></span>
+
+
+<span data-ttu-id="12dbb-118">Si vous souhaitez activer simultanément la QoS pour tous vos paramètres de configuration multimédia (indépendamment de l’étendue), exécutez cette commande à partir de la LSkype pour Business Server Management Shell :</span><span class="sxs-lookup"><span data-stu-id="12dbb-118">If you want to simultaneously enable QoS for all your media configuration settings (regardless of scope), run this command from within the LSkype for Business Server Management Shell:</span></span>
+
+    Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True
+
+<span data-ttu-id="12dbb-119">Vous pouvez désactiver la qualité de service pour les périphériques qui utilisent un système d’exploitation autre que Windows en définissant la valeur de la propriété EnableQoS sur False.</span><span class="sxs-lookup"><span data-stu-id="12dbb-119">You can disable QoS for devices that use an operating system other than Windows by setting the value of the EnableQoS property to False.</span></span> <span data-ttu-id="12dbb-120">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="12dbb-120">For example:</span></span>
+
+    Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False
+
+<span data-ttu-id="12dbb-121">Cela vous donne la possibilité de mettre en œuvre QoS sur certaines parties de votre réseau (par exemple, sur le site de Redmond) tout en laissant la qualité de Service désactivé sur d’autres parties de votre réseau.</span><span class="sxs-lookup"><span data-stu-id="12dbb-121">This gives you the ability to implement QoS on some portions of your network (for example, on the Redmond site) while leaving Quality of Service disabled on other portions of your network.</span></span>
+
+<span data-ttu-id="12dbb-122">Qualité de service peut uniquement être activée et désactivée à l’aide de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="12dbb-122">QoS can only be enabled and disabled by using Windows PowerShell.</span></span> <span data-ttu-id="12dbb-123">Ces options ne sont pas disponibles dans le Skype pour le panneau de configuration serveur Business.</span><span class="sxs-lookup"><span data-stu-id="12dbb-123">These options are not available in the Skype for Business Server Control Panel.</span></span>
+
+
