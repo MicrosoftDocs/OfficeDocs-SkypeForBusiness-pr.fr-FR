@@ -9,13 +9,28 @@
 
 ## Solutions hybrides pour les équipes et Skype pour les entreprises
 ### [Planification de la connectivité hybride](../hybrid/plan-hybrid-connectivity.md)
+
 ### [Configurer la connectivité hybride](../hybrid/configure-hybrid-connectivity.md)
 #### [Configurer Azure AD Connect pour les environnements hybrides](../hybrid/configure-azure-ad-connect.md)
 #### [Configurer Skype pour un environnement hybride Business](../hybrid/configure-federation-with-skype-for-business-online.md)
-#### [Configuration d’un environnement à forêts multiples](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
-### [Déplacer les utilisateurs locaux vers Skype pour Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-### [Déplacer les utilisateurs locaux vers des équipes](../hybrid/move-users-from-on-premises-to-teams.md)
-### [Intégration dans Exchange et SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+
+### [Déplacer des utilisateurs entre local et le nuage](../hybrid/move-users-between-on-premises-and-cloud.md)
+#### [Déplacer les utilisateurs locaux vers des équipes](../hybrid/move-users-from-on-premises-to-teams.md)
+#### [Déplacer les utilisateurs vers Skype Entreprise Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
+#### [Déplacer les utilisateurs du nuage vers sur site](../hybrid/move-users-from-the-cloud-to-on-premises.md)
+#### [Gérer la migration de la réunion](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+
+### [Désactiver hybride pour effectuer la migration vers le nuage](../hybrid/cloud-consolidation-disabling-hybrid.md)
+
+### [Déploiement d’une topologie de forêt de ressources](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
+
+### [Consolidation de cloud pour les équipes et Skype pour les entreprises](../hybrid/cloud-consolidation.md)
+#### [Mettre à jour le certificat de serveur edge](../hybrid/cloud-consolidation-edge-certificates.md)
+
+#### [Mise à jour DAS se connecter à inclure plusieurs forêts](../hybrid/cloud-consolidation-aad-connect.md)
+
+### [Intégration à Exchange et SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/hybrid/hybrid/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/breadcrumb/toc.json)
+
 
 ## Planifier
 ### [Notions de base de la topologie](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
