@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cette rubrique pour en savoir plus sur le déploiement de systèmes de salle Skype v2 sur les déploiements à grande échelle.
-ms.openlocfilehash: 536530fa7836389d8c621f7c81287bfb564f024d
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: ce3a857971fd60988e89608391cc3ec7d3d0c3ae
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699550"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240963"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Déployer des systèmes de salle Skype v2 à l’aide de System Center Configuration Manager
 
@@ -145,7 +145,7 @@ Vous devez créer et configurer les packages suivants, puis les distribuer aux s
 | SRS v2 - Package WinPE arrière-plan    | Package de logiciels       | Nom du package de l’image d’arrière-plan personnalisé à utiliser avec les images de démarrage                           |
 | Entreprise Windows 10                | Image du système d’exploitation | Package pour le fichier d’installation de système d’exploitation (install.wim)                          |
 | Surface Pro                          | Package de pilotes         | Package pour les pilotes de périphériques et le microprogramme Microsoft Surface Pro                     |
-| Surface Pro 4                        | Package de pilotes         | Package pour les pilotes de périphériques et de microprogrammes pour Microsoft Surface Pro 4                   |
+| Surface Pro 4                        | Package de pilotes         | Package pour les pilotes de périphériques et de microprogrammes pour Microsoft Surface Pro 4                   |
 
 Pour plus d’informations, voir [Packages et des programmes dans System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
 
@@ -164,7 +164,7 @@ Créez la structure de dossier suivante sur le site administration centrale de S
 -   SRS v2 - Package Sysprep
 -   Pilotes
     -   Surface Pro
-    -   Surface Pro 4
+    -   Surface Pro 4
 -   Systèmes d’exploitation
     -   Entreprise Windows 10
 
@@ -504,6 +504,28 @@ Systèmes de salle Skype v2 est pris en charge pour la Surface Pro et Surface Pr
 
 > [!NOTE]
 > Répétez les étapes pour les autres modèles de Surface Pro, que vous devrez peut-être. Pour plus d’informations, voir [Gérer les pilotes dans System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
+
+### <a name="create-skype-room-system-configuration-package"></a>Créer le Package de Configuration de système de salle de Skype
+
+1.  Dans la console Configuration Manager, accédez à la **Bibliothèque de logiciels** \> **Gestion des applications** \> **Packages**, puis sélectionnez **Créer un Package**.
+
+2.  Entrez les informations suivantes pour créer le package :
+
+    -   Nom : **SRS v2 - configurer le Package d’installation SRS**
+
+    -   Fabricant : **Microsoft Corporation**
+
+    -   Version : **1.0.0**
+
+    -   Activez la case à cocher **ce package contient des fichiers source** , entrez le chemin d’accès du dossier **SRS v2 - configurer le programme d’installation de SRS** , puis cliquez sur **suivant**.
+
+3.  Sélectionnez **ne pas créer un programme**, puis cliquez sur **suivant**.
+
+4.  Passez en revue la page **vérifier les paramètres** , puis cliquez sur **suivant**.
+
+5.  Sélectionnez **Fermer**.
+
+
 
 ## <a name="distribute-configuration-manager-packages"></a>Distribuer des packages de gestionnaire de Configuration
 

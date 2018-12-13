@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: 3b023262971e9dcae111ed82d49d101437bbcda3
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: b56816d57b628c92e4c7f412b306ca1161021a66
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214610"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240932"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -515,7 +515,7 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
    Vérifiez l’affectation à l’aide de la commande :   
 
    ```
-   Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
+   Get-CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
    ```
    Qui retourne :
 

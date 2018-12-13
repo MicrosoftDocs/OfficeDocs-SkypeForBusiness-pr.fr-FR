@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planification de routage par emplacement pour les conférences dans Skype pour Business Server Enterprise Voice, y compris appel consultatif transfère.
-ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373241"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240737"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Routage par emplacement pour les conférences dans Skype pour Business Server
 
@@ -90,7 +90,7 @@ Le tableau suivant décrit comment basé sur l’emplacement de routage restrict
 
 |**Site réseau de la partie dont l’appel est transféré**|**Site réseau de la cible de transfert d’appel**|**Comportement**|
 |:-----|:-----|:-----|
-|Point de terminaison RTC  <br/> |Skype pour l’utilisateur d’entreprise dans le même site réseau (autrement dit, le site 1)  <br/> |Le transfert consultatif est autorisé  <br/> |
+|Point de terminaison PSTN  <br/> |Skype pour l’utilisateur d’entreprise dans le même site réseau (autrement dit, le site 1)  <br/> |Le transfert consultatif est autorisé  <br/> |
 |Point de terminaison PSTN  <br/> |Skype pour l’utilisateur d’entreprise dans les sites de réseau différents (autrement dit, le site 2)  <br/> |Le transfert consultatif n’est pas autorisé  <br/> |
 |Point de terminaison PSTN  <br/> |Skype pour l’utilisateur d’entreprise dans un site réseau inconnu  <br/> |Le transfert consultatif n’est pas autorisé  <br/> |
 |Point de terminaison PSTN  <br/> |Skype fédéré pour l’utilisateur d’entreprise  <br/> |Le transfert consultatif n’est pas autorisé  <br/> |
@@ -142,9 +142,13 @@ Par exemple, si l’application « UdcAgent » a une valeur de priorité de «
 
 Après avoir trouvé la valeur de priorité approprié pour le routage basé sur l’emplacement pour l’application de conférence, tapez l’applet de commande pour chaque pool frontal ou serveur Standard Edition Server que les utilisateurs particuliers activés pour le routage basé sur l’emplacement suivant :
 
-New-CsServerApplication-identité Service : Registrar :<Pool FQDN>/LBRouting-priorité <Application Priority> -Enabled $true-critique $true - Uri <https://www.microsoft.com/LCS/LBRoutingFor> exemple :
+New-CsServerApplication-identité Service : Registrar :`<Pool FQDN`> / LBRouting-priorité \<priorité\> -Enabled $true-$true - Uri critique<http://www.microsoft.com/LCS/LBRouting> 
 
-New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-priorité 3 - $true activé-critique $true - Uri https://www.microsoft.com/LCS/LBRoutingAfter à l’aide de cette applet de commande, redémarrez tous les serveurs frontaux dans le pool ou les serveurs Standard Edition Server où le Emplacement de routage pour l’application de conférence a été activé.
+Par exemple :
+
+New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-priorité 3 - $true activé-$true - Uri critiquehttp://www.microsoft.com/LCS/LBRouting 
+
+Après avoir exécuté cette applet de commande, redémarrez tous les serveurs frontaux dans le pool ou les serveurs Standard Edition Server où le routage basé sur l’emplacement pour l’application de conférence a été activé.
 
 > [!IMPORTANT]
 > En fonction des applications de routage pour les conférences ou les transferts consultatifs ne sont pas appliquées jusqu'à ce que tous les serveurs frontaux dans les pools applicables ou les serveurs Standard Edition Server sont redémarrés. Si vous définissez **-critique** sur **$true** dans les applets de commande ci-dessus, votre Skype pour les services Business Server va être redémarré immédiatement. Si vous ne souhaitez pas que ces services pour redémarrer immédiatement, définissez **-critique** sur **$false** pour maintenant, puis utilisez **Set-CsServerApplication** pour modifier **-critique** sur **$true** ultérieurement, une fois que les services ont été redémarrés.

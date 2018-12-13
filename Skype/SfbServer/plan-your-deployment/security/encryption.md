@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype pour Business Server utilise TLS et MTLS pour chiffrer les messages instantanés. L’ensemble du trafic serveur à serveur nécessite MTLS, et ce que le trafic soit confiné au réseau interne ou qu’il traverse le périmètre du réseau interne. Lorsque la connexion Skype pour Business Server 3ème systèmes tiers de IPPBX ou jonctions SIP TLS est facultatif mais fortement recommandé entre le serveur de médiation et passerelle multimédia. Si TLS est configuré sur cette liaison, MTLS est requis. Par conséquent, la passerelle doit être configurée avec un certificat à partir d’une autorité de certification approuvée par le serveur de médiation.
-ms.openlocfilehash: cdb5953253f10659747d0556d905de43d1d839b0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff2aa0a3d0727aa5ed579413fe03593568f9f773
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21019730"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240894"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Chiffrement pour Skype pour Business Server
  
@@ -24,7 +24,7 @@ Skype pour Business Server utilise TLS et MTLS pour chiffrer les messages instan
 > [!NOTE]
 > Un avis de sécurité relatif à SSL 3.0 a été publié en 2014. Désactivation de SSL 3.0 dans Skype pour Business Server 2015 est une option de prise en charge. Pour en savoir plus sur l’avis de sécurité, voir [désactivation SSL 3.0 dans Lync Server 2013 et Skype pour Business Server 2015](https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/).<br/>
 **Remarque sur la sécurité :** Pour vérifier que le protocole de chiffrement puissant est utilisé, Skype pour Business Server 2015 offre les protocoles de chiffrement TLS dans l’ordre suivant aux clients : **TLS 1.2, TLS 1.1, TLS 1.0**. TLS est un aspect critique de Skype pour Business Server 2015 et par conséquent, il est nécessaire afin de conserver un environnement pris en charge.<br/>
-**Remarque sur la sécurité :** Pour vérifier que le protocole de chiffrement puissant est utilisé, Skype pour Business Server 2019 offre les protocoles de chiffrement TLS dans l’ordre suivant aux clients : **2.0 TLS, TLS 1.2**. TLS est un aspect critique de Skype pour Business Server 2019 et par conséquent, il est nécessaire afin de conserver un environnement pris en charge. 
+**Remarque sur la sécurité :** Pour vérifier que le protocole de chiffrement puissant est utilisé, Skype pour Business Server 2019 offre les protocoles de chiffrement TLS dans l’ordre suivant aux clients : **1.3 TLS, TLS 1.2**. TLS est un aspect critique de Skype pour Business Server 2019 et par conséquent, il est nécessaire afin de conserver un environnement pris en charge. 
   
 Le tableau suivant résume les exigences de protocole pour chaque type de trafic. 
   

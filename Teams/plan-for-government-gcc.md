@@ -3,10 +3,10 @@ title: Planification de Microsoft pour le gouvernement 365 - déploiements GCC -
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 09/14/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lehewe
+ms.reviewer: daro
 description: Conseils pour les professionnels de l’informatique pour les déploiements de lecteur Office 365 dans les entités qui gèrent les données soumis à la réglementation américaine officielle
 localization_priority: Normal
 search.appverid: MET150
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 410edd32855c85d2efa5a631cb893c1a5307a5e6
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cf9571a52d99e9993161b6de99a190bc9b675f78
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015124"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240909"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan pour Microsoft 365 gouvernement - déploiements GCC
 
@@ -57,16 +57,74 @@ La [description du service Office 365 américaine](https://technet.microsoft.com
 
 ## <a name="step-2-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Étape 2. Comprendre les fonctionnalités sont actuellement pas disponible ou désactivé par défaut. 
 
-Pour prendre en compte les exigences de nos clients du nuage gouvernement, il existe quelques différences entre Microsoft 365 gouvernement - GCC et plans de l’entreprise. Les fonctionnalités répertoriées dans le tableau suivant ne sont pas disponibles.
+Pour prendre en compte les exigences de nos clients du nuage gouvernement, il existe quelques différences entre Microsoft 365 gouvernement - GCC et plans de l’entreprise. Reportez-vous au tableau suivant pour voir quelles fonctionnalités sont disponibles.
 
-| Fonctionnalité                     | Raison            |
-|-----------------------------|-------------------|
-| Appel et enregistrement de la réunion  | Enregistrement dépend du Stream Microsoft, qui sera disponible dans les plans américains à l’avenir. |
-| Applications       | Applications (tels que des robots, les onglets et les connecteurs) ne sont pas disponibles à l’origine, mais nous allons fonctionne pour les rendre disponibles dès que tous leurs composants répondent à la barre de conformité FedRAMP modéré. |
-| Un canal de messagerie             | L’architecture actuelle de la fonctionnalité n’est pas pris en charge dans les plans pour le gouvernement. |
-| Présence unifiée            | Nous sommes travail fin de nos clients professionnels tout d’abord pour cette fonctionnalité importante. Il sera disponible pour les clients pour le gouvernement à l’avenir. |
-| Conversation interopérabilitée entre équipes & SfB utilisateurs            | Interopérabilité dépend de Service de présence unifiée (UPS) et ne peut pas fonctionner tant que GCC équipes clients sont activées pour l’onduleur. |
-| Notifications par courrier électronique         | L’architecture actuelle de la fonctionnalité n’est pas pris en charge dans les plans américains. Le travail est en cours pour rendre cette fonctionnalité accessible aux clients américains des plans à l’avenir. |
+|                             | Fonctionnalité                     | GCC            |
+|-----------------------------|-----------------------------|----------------|
+| Base de | Connexion | Disponibles |
+| | Présence | Disponibles |
+| | Présence unifiée (Skype pour professionnels et les équipes unifiées) | Sur la file d’attente pour le gouvernement |
+| Activité | Flux | Disponibles |
+|  | Mon activité | Disponibles |
+| Conversation | Conversation | Disponibles |
+| | Fichiers | Disponibles |
+| | Organigramme hiérarchique | Disponibles |
+| | Activité | Disponibles |
+| | Interopérabilité (1:1 équipes-Skype pour la conversation de l’entreprise) | Sur la file d’attente pour le gouvernement |
+| Teams | Message de canal | Disponibles |
+| | Fichiers de canal | Disponibles |
+| | Onglet OneNote | Sur la file d’attente pour le gouvernement |
+| | Un canal de messagerie | Non disponibles |
+| | Ajouter des membres | Disponibles |
+| | Accès invité | Disponibles |
+| Réunions | Organiser une réunion | Disponibles |
+| | Participer à la réunion | Disponibles |
+| | Réunion VoIP | Disponibles |
+| | Partage de Bureau | Disponibles |
+| | Prendre d’et céder le contrôle dans le partage | Disponibles |
+| | Se connecter à partir d’une salle de conférence | Disponibles |
+| | Participation anonyme | Disponibles |
+| | Enregistrement de nuage | Sur la file d’attente pour le gouvernement |
+| | Notes de réunion | Disponibles |
+| | Diffusion des réunions | Sur la file d’attente pour le gouvernement |
+| | Réunions fédérées | Disponibles |
+| | Prise en charge de surface Hub (preview) | Disponibles |
+| Appels | Contacts | Disponibles |
+| | Historique | Disponibles |
+| | Messagerie vocale | Disponibles |
+| | Appel VoIP | Disponibles |
+| | Skype pour les entreprises - équipes appelant | Disponibles |
+| | Forfaits d'appels | Disponibles |
+| | Services d’audioconférence (en autorisant les participants à la réunion joindre via PSTN) | Disponibles |
+| | Système téléphonique de Microsoft direct de routage | Disponibles |
+| | Salle d’attente pour les appelants PSTN | Disponibles |
+| | File d’attente des appels | Disponibles |
+| | Prise en charge patron et délégué | Disponibles |
+| | Transfert consultatif et fiable | Disponibles |
+| | Ne pas déranger avancée | Disponibles |
+| | Sonnerie distincte | Disponibles |
+| | 1:1 pour l’escalade d’appel de groupe avec Skype pour les entreprises, des équipes et aux participants PSTN | Disponibles |
+| | Transférer vers un groupe | Disponibles |
+| | Transférer vers un appel RTC | Disponibles |
+| | Appel d’urgence - appel de Plans | Disponibles |
+| | Prise en charge pour les téléphones SIP certifiés existants | Disponibles |
+| | USB HID | Disponibles |
+| | découverte électronique pour les appels et les réunions | Disponibles |
+| | Standard automatique d’organisation | Disponibles |
+| | Consommateur de Skype - prise en charge des appels aux équipes | Disponibles |
+| Fichiers | Récents | Disponibles |
+| | Microsoft Teams | Disponibles |
+| Magasin | Magasin d’applications | Sur la file d’attente pour le gouvernement |
+| Recherche | Messages | Disponibles |
+| | Personnes | Disponibles |
+| | Fichiers | Disponibles |
+| | Commandes de barre oblique | Disponibles |
+| Conformité | Recherche de contenu de la conformité | Disponibles |
+| | Rétention | Disponibles |
+| | Recherche des journaux d’audit | Disponibles |
+| | Conservation légale | Disponibles |
+| | eDiscovery | Disponibles |
+
 
 
 |    |     |

@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Découvrez comment configurer des équipes pour permettre aux utilisateurs de communiquer avec les utilisateurs d’une autre organisation.
-ms.openlocfilehash: 3c01724d10867c210ff5fe13981b9ddfb801f8f1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6fb71e4c9e1461ca920d480336288b06e3111eb2
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013304"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240839"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Laissez votre conversation d’utilisateurs équipes et communiquer avec les utilisateurs d’une autre organisation d’équipes
 
@@ -51,11 +51,11 @@ Suivez ces étapes.
 
    3. Si vous souhaitez autoriser toutes les organisations d’équipes de communiquer avec les utilisateurs de votre organisation, passez à l’étape 5. 
    
-   4. Si vous souhaitez limiter les organisations peuvent communiquer avec des utilisateurs dans votre organisation, vous pouvez ajouter domaine de l’autre organisation à la liste autorisée en cliquant sur **Ajouter domaine**. Dans le volet **Ajouter un domaine** , placez dans le domaine, cliquez sur nom **autorisé** , puis sur **terminé**.
+   4. Si vous souhaitez limiter les organisations peuvent communiquer avec les utilisateurs de votre organisation vous pouvez autoriser tous les mais certains domaines ou autoriser uniquement les organisations spécifiques. Pour autoriser tous les mais certains domaines, ajoutez les domaines que vous souhaitez bloquer en cliquant sur **Ajouter domaine**. Dans le volet **Ajouter un domaine** , placez le nom de domaine, cliquez sur **bloqué** , puis sur **terminé**. Pour limiter les communications à organizatioins spécifique, ajoutez ces domaines à la liste avec l’état **Alowed**. Une fois que vous avez ajouté un domaine à la liste verte, les communications à d’autres organisations seront limitées pour que les organisations dont les domaines sont dans la liste verte. 
+   
+   5. Cliquez sur **Enregistrer**. 
 
-   4. Cliquez sur **Enregistrer**. 
-
-   5. Vérifiez que l’administrateur de l’autre organisation équipes est ces étapes. Par exemple, dans leur liste des **domaines autorisés** , leur administrateur a besoin d’entrer le domaine de votre entreprise si elles définir les organisations peuvent communiquer avec leurs utilisateurs. 
+   6. Vérifiez que l’administrateur de l’autre organisation équipes est ces étapes. Par exemple, dans leur liste des **domaines autorisés** , leur administrateur a besoin d’entrer le domaine de votre entreprise si elles définir les organisations peuvent communiquer avec leurs utilisateurs. 
 
 ### <a name="step-3---test-it"></a>Étape 3 : tester
 Pour tester votre configuration, vous avez besoin d’un utilisateur d’équipes qui n’est pas derrière votre pare-feu.

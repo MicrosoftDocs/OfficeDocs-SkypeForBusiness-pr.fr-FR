@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Résumé : consultez cette rubrique pour découvrir comment planifier la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online.  La première étape du déploiement de nombreuses solutions hybrides Skype Entreprise consiste à configurer une connectivité hybride.'
-ms.openlocfilehash: 909d8be38bd03291268c7fa3b2b091072a47970e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6b0456c115e1d1fc9b1a341b17cfc9711f2a6bb7
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530887"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240762"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planification de la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online
 
@@ -329,11 +329,11 @@ Lorsque vous synchronisez les comptes d’utilisateurs entre votre déploiement 
 
 Lors de la planification d'un déploiement hybride, prenez en compte les aspects suivants liés aux utilisateurs.
 
-- **Contacts de l’utilisateur** La limite des contacts pour les utilisateurs de Lync Online est de 250. Les contacts au-delà de ce numéro seront retirés liste des contacts de l’utilisateur lorsque le compte est déplacé vers Lync Online.
+- **Contacts de l’utilisateur** La limite pour les contacts Skype pour les utilisateurs professionnels en ligne est de 250. Les contacts au-delà de ce numéro seront retirés liste des contacts de l’utilisateur lorsque le compte est déplacé à Skype pour Business Online.
 
 - **Messagerie instantanée et présence** Listes des contacts utilisateur, des groupes et des listes de contrôle d’accès (ACL) sont migrées avec le compte d’utilisateur.
 
-- **Données de conférence, contenu de réunion et les réunions planifiées** Ce contenu n’est pas migré avec le compte d’utilisateur. Les utilisateurs doivent replanifier les réunions une fois leur compte migré sur Lync Online.
+- **Données de conférence, contenu de réunion et les réunions planifiées** Ce contenu n’est pas migré avec le compte d’utilisateur. Les utilisateurs doivent replanifier les réunions après que leurs comptes sont migrés vers Skype pour Business Online.
 
 ## <a name="user-policies-and-features"></a>Fonctionnalités et stratégies utilisateur
 <a name="BKMK_UserPolicies"> </a>

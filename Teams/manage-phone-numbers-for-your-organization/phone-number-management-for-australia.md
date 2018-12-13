@@ -1,5 +1,5 @@
 ---
-title: Gestion de numéro de téléphone pour l’Australie
+title: Gestion des numéros de téléphone pour l’Australie
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone en Australie pour Skype pour Business Online et Microsoft Teams.
-ms.openlocfilehash: 88db4b1410071793622c5bab7e528c51180c7a80
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4d4a175e75b053a1966a8dff85b5dda539cd9ad0
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532755"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240880"
 ---
-# <a name="phone-number-management-for-australia"></a>Gestion de numéro de téléphone pour l’Australie
+# <a name="phone-number-management-for-australia"></a>Gestion des numéros de téléphone pour l’Australie
 Nous sommes associés en Australie avec Telstra pour l’achat et la configuration des forfaits d’appels. Telstra vend des forfaits d’appel et fournit la prise en charge pour la gestion des numéros de téléphone pour les numéros d’utilisateur et de service pour les standards automatiques et les files d’attente d'appel. Toutefois, les numéros de service et des licences pour une audioconférence seront toujours être vendus et gérées par Office 365.
 
 Pour plus d’informations, voir [Telstra Calling pour Office 365](https://aka.ms/TelstraVoicePlan).
@@ -42,7 +42,7 @@ Pour plus d’informations, voir [Gérer les numéros de téléphone pour votre 
 |**Que voulez-vous faire ?**|**Suivez la procédure suivante et téléchargez les formulaires corrects**|
 |:-----|:-----|
 |Obtenir les nouveaux numéros de téléphone pour des forfaits d'appels en Australie.   <br/> |Veuillez contacter [Telstra Calling pour Office 365](https://aka.ms/TelstraVoicePlan) pour les nouveaux numéros de téléphone pour vos utilisateurs. Ils ajouteront alors ces numéros à votre organisation de sorte que vous les affectiez à vos utilisateurs. <br/>
-|Obtenir les nouveaux numéros de téléphone de service qui peuvent être utilisés avec les standards automatiques de système téléphonique et appeler des files d’attente pour l’Australie. <br/> |Veuillez contacter [Telstra Calling pour Office 365](https://aka.ms/TelstraVoicePlan) pour les nouveaux numéros de téléphone. Ils ajouteront alors ces numéros à votre organisation de sorte que vous les affectiez à vos standards automatiques et files d'attente d'appel. <br/>|
+|Si vous utilisez Telstra d’appel pour Office 365, vous pouvez obtenir les nouveaux numéros de téléphone du service qui peuvent être utilisés avec les standards automatiques de système téléphonique et appeler des files d’attente pour l’Australie depuis Telstra. <br/> |Veuillez contacter [Telstra Calling pour Office 365](https://aka.ms/TelstraVoicePlan) pour les nouveaux numéros de téléphone. Ils ajouteront alors ces numéros à votre organisation de sorte que vous les affectiez à vos standards automatiques et files d'attente d'appel. Si vous n’utilisez pas Telstra l’appel, vous pouvez contacter notre bureau Microsoft numéro ManagementService pour obtenir les numéros de service à partir de Microsoft [Veuillez nous contacter](mailto:ptnapac@microsoft.com). <br/>|
 |Obtenir les nouveaux numéros de téléphone de service pour une audioconférence en Australie.   <br/> |[Veuillez nous contacter](mailto:ptnapac@microsoft.com).|
 |Vous devez obtenir les numéros de téléphone transférés vers Office 365 pour les utilisateurs, les standards automatiques et les files d’attente d’appel.  <br/> |Veuillez contacter [Telstra Calling pour Office 365](https://aka.ms/TelstraVoicePlan) pour transférer des numéros de téléphone. Ils ajouteront alors ces numéros à votre organisation.  <br/> |
 |Vous devez obtenir les numéros de téléphone transférés vers Office 365 pour une utilisation avec l’audioconférence.  |[Veuillez nous contacter](mailto:ptnapac@microsoft.com) |

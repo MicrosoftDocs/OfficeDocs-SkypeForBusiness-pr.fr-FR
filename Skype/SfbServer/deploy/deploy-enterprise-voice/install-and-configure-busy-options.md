@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Découvrez comment installer et configurer les Options de disponibilité dans Skype pour Business Server.
-ms.openlocfilehash: 3cf197f58dda13ab0c1af2077a6eb0fb59dafcc4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a5fdd117f2c812bba69978a7d2943321b940bcc4
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370807"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240658"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installer et configurer les options Occupé pour Skype Entreprise Server
 
@@ -33,7 +33,7 @@ Si Busy Options est activée pour l'organisation, l'ensemble des utilisateurs de
 
 Quelle que soit la manière dont ils ont configuré Busy Option, les utilisateurs participant à un appel ou une conférence, ou ceux ayant mis un appel en absence, peuvent toujours lancer de nouveaux appels ou de nouvelles conférences.  
 
-Pour plus d’informations sur la fonctionnalité de disponibilité, voir [planifier la disponibilité d’Options de Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
+Pour plus d'informations sur la fonctionnalité Busy Options, reportez-vous à la rubrique [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
 
 ## <a name="install"></a>Installation 
 
@@ -76,7 +76,7 @@ Le programme d’installation déploiera la version la plus récente de l’appl
 3. Ensuite, exécutez l’applet de commande [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) pour ajouter des Options occupé (e) à la liste des applications de serveur comme indiqué dans l’exemple suivant :
 
    ```
-   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri https://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]
@@ -96,7 +96,7 @@ Le programme d’installation déploiera la version la plus récente de l’appl
 
 ## <a name="configure"></a>Configuration
 
-Pour configurer les Options de disponibilité, utilisez l’applet de commande [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) .
+Pour configurer la fonctionnalité Busy Options, utilisez l'applet de commande [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx).  
 
 Par exemple, la commande suivante configure la fonctionnalité Busy Options pour l'utilisateur « Ken Myer ». Dans cette configuration, les appels vers « Ken Myer » seront retournés avec une tonalité d’occupation lorsqu'il sera déjà en communication :
 
@@ -106,18 +106,17 @@ Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 
 Dans l'exemple suivant, la commande configure la fonctionnalité Busy Options pour l'utilisateur « Chrystal Velasquez ». Dans cette configuration, les nouveaux appels entrants vers « Chrystal Velasquez » seront transférés vers la messagerie vocale lorsqu'elle sera déjà en communication :
 
-
 ```
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Vous pouvez récupérer les informations de configuration des Options de disponibilité à l’aide de l’applet de commande [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) . L’exemple suivant renvoie le paramètre Options de disponibilité pour « KenMyer@Contoso.com » :
+Vous pouvez récupérer les informations relatives à la configuration de Busy Options à l'aide de l'applet de commande [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx). L’exemple suivant renvoie le paramètre Options de disponibilité pour « KenMyer@Contoso.com » :
 
 ```
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
-Vous pouvez supprimer les Options de disponibilité à l’aide de l’applet de commande [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) . La commande suivante supprime la fonctionnalité Busy Options pour « Ken Myer » :
+Vous pouvez supprimer Busy Options à l'aide de l'applet de commande [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx). La commande suivante supprime la fonctionnalité Busy Options pour « Ken Myer » :
 
 ```
 Remove-CsBusyOptions -Identity "Ken Myer"
@@ -144,7 +143,7 @@ Après avoir installé les Options de disponibilité, vous pouvez vérifier que 
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions
 Priority   : 5
-Uri        : https://www.microsoft.com/LCS/BusyOptions
+Uri        : http://www.microsoft.com/LCS/BusyOptions
 Name       : BusyOptions
 Enabled    : True
 Critical   : False

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : Skype pour Business Server 2015 ou Skype pour les administrateurs d’entreprise en ligne peut utiliser ces tables pour comprendre les fonctionnalités sont prises en charge sur les clients.'
-ms.openlocfilehash: 1dc94b9cb6b723d344994babe655921045b2acb0
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 35db705545dbec988a29b2025b4c3f1817923093
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25002388"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240800"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparaison des fonctionnalités client de bureau pour Skype pour Business Server 2015
  
@@ -32,16 +32,16 @@ Certaines fonctionnalités disponibles avec Skype pour Business Server 2015 ne s
 
 Voir [comparaison des fonctionnalités client de bureau pour Skype pour Business 2019](../../../SfBServer2019/plan/feature-comparison.md) pour client prise en charge sur Skype pour Business Server 2019.
   
-Les tableaux suivants répertorient les fonctionnalités disponibles avec chaque client qui fonctionne avec Skype pour Business Server 2015 ou Skype pour Business Online. Vous souhaiterez également pour Smartphone et tablette comparaison des fonctionnalités des clients, voir [comparaison des fonctionnalités de client Mobile pour Skype pour les entreprises](mobile-feature-comparison.md) . Les licences d’accès client ou USL (User Subscription License) qu’achète votre organisation auront également un impact sur les fonctionnalités auxquelles les utilisateurs ont accès. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Consultez le [Guide de gestion des licences](https://products.office.com/en-us/skype-for-business/it-pros) pour plus d’informations.
+Les tableaux suivants répertorient les fonctionnalités disponibles avec chaque client qui fonctionne avec Skype pour Business Server 2015 ou Skype pour Business Online. Vous souhaiterez également pour Smartphone et tablette comparaison des fonctionnalités des clients, voir [comparaison des fonctionnalités de client Mobile pour Skype pour les entreprises](mobile-feature-comparison.md) . Les licences d’accès client ou USL (User Subscription License) qu’achète votre organisation auront également un impact sur les fonctionnalités auxquelles les utilisateurs ont accès. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Consultez le [Guide sur la gestion des licences](https://products.office.com/en-us/skype-for-business/it-pros) pour en savoir plus.
   
 > [!IMPORTANT]
-> Skype pour Business Server 2015 et Skype pour Business Online prend en charge les clients suivants précédemment publiés : Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Microsoft Lync 2010 Attendant. Pour plus d’informations sur ces clients lorsqu’elle est utilisée avec d’autres serveurs, voir le [tableau de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et le [tableau de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx). 
+> Skype pour Business Server 2015 et Skype pour Business Online prend en charge les clients suivants précédemment publiés : Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Microsoft Lync 2010 Attendant. Pour plus d’informations sur ces clients lorsqu’ils sont utilisés avec d’autres serveurs, consultez les [tableaux de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et les [tableaux de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx). 
   
 > [!NOTE]
 > Le client **Lync 2010 Attendant** n’est pas pris en charge dans Skype pour Business Online.
   
 > [!NOTE]
-> Le Skype pour le client du navigateur Business Web App et application application Windows 10 Skype réunions fournissent uniquement la [prise en charge des réunions](desktop-feature-comparison.md#BKMK_Conferencing). Pour plus d’informations sur ces clients, reportez-vous à [planifier les réunions clients (application Web et application de réunions)](meetings-clients.md) .
+> Le Skype pour le client du navigateur Business Web App et application application Windows 10 Skype réunions fournissent uniquement la [prise en charge des réunions](desktop-feature-comparison.md#BKMK_Conferencing). Reportez-vous à la rubrique [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md) pour en savoir plus sur ces clients.
   
 ## <a name="enhanced-presence-support"></a>Prise en charge de la présence avancée
 <a name="BKMK_EnhancedPresence"> </a>
@@ -117,7 +117,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des réunion
 Dans les sessions Skype-à-Skype, un utilisateur du plan 1 de Skype Entreprise Online peut participer au partage de bureau et d'applications s'il est invité par un utilisateur qui a accès aux fonctionnalités de partage.   
 Pour plus d’informations, voir le [Skype pour Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 
   
-|Fonctionnalité | Skype pour 2016 Business client | Skype Entreprise sur Mac | Application web Skype Entreprise | Skype pour client Business 2015 | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Intendant Lync 2010 | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 | 
+|Fonctionnalité | Skype pour 2016 Business client | Skype Entreprise sur Mac | Skype Entreprise Web App | Skype pour client Business 2015 | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Intendant Lync 2010 | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Ajouter l’audio de l’ordinateur  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;(requires plug-in)  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Ajouter la vidéo  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;(requires plug-in)  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||& #x 2714 ;|& #x 2714 ;|
@@ -269,6 +269,8 @@ Les fonctionnalités ci-après sont disponibles avec le client complet. Elles ne
 - Changer le message d’accueil
     
 - Prise d’appel de groupe
+
+- Messages de notification d’appel manqué ne sont pas générés lorsque le statut d’un utilisateur est désactivé de la messagerie unifiée et qu’ils utilisent un Client Outlook hérité (2013 ou version antérieure)
     
 ### <a name="online-or-hybrid-user-account-limitations"></a>Restrictions relatives aux comptes d’utilisateur en ligne ou hybrides
 <a name="Online-Hybrid"> </a>
