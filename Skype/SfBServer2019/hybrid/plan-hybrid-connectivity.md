@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Considérations pour l’implémentation de connectivité hybride entre Skype pour Business Server et Skype pour Business Online ou équipes de planification.
-ms.openlocfilehash: 825057f84300d9e47427eea5b27117d168b4126f
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: ef74a0b2dcc4943b5e95ddd8ba15005e50ec6cd6
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625688"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244024"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planification de la connectivité hybride entre Skype pour Business Server et Office 365
 
@@ -31,7 +31,7 @@ Cette rubrique décrit l’infrastructure et vous devez configurer la connectivi
 Une fois que vous avez lu cet article et que vous êtes prêt à configurer la connectivité hybride, consultez [configurer la connectivité hybride entre Skype pour Business Server et Office 365](configure-hybrid-connectivity.md). Les rubriques de configuration fournissent des instructions détaillées pour la configuration de la connectivité hybride entre votre déploiement sur site et les équipes ou Skype pour Business en ligne.
 
 
-## <a name="about-split-domain-functionality"></a>Les fonctionnalités de domaine fractionné
+## <a name="about-shared-sip-address-space-functionality"></a>Les fonctionnalités de l’espace d’adressage SIP partagé
 <a name="BKMK_Overview"> </a>
 
  Connectivité hybride entre un déploiement local de Skype pour Business Server et les équipes ou Skype pour Business Online, vous pouvez avoir certains utilisateurs hébergés sur un système local et certains utilisateurs hébergement en ligne.
@@ -43,13 +43,9 @@ Ce type de configuration s’appuie sur les fonctionnalités de l’espace adres
 Lorsque l’espace d’adressage SIP partagé est configuré :
 
 - Azure Active Directory se connecter permet de synchroniser votre annuaire local avec Office 365.
-
 - Les utilisateurs qui sont hébergés sur site interagissent avec Skype locaux des serveurs d’entreprise. 
-
 - Les utilisateurs hébergés en ligne peuvent interagir avec Skype pour des services professionnels en ligne ou des équipes.
-
 - Les utilisateurs à partir des deux environnements peuvent communiquer entre eux. 
-
 - Active Directory local fait autorité. Tous les utilisateurs doivent être créés dans Active Directory local en premier et puis synchronisés avec Azure AD. Même si vous avez l’intention de l’utilisateur à être hébergé en ligne, vous devez d’abord créer l’utilisateur dans l’environnement local et puis déplacer l’utilisateur en ligne pour s’assurer de que l’utilisateur est détectable par les utilisateurs locaux. 
 
 Avant d’un utilisateur peut être déplacé en ligne, l’utilisateur doit être affecté un Skype licence entreprise Online (Plan 2). Si l’utilisateur utilise des équipes, l’utilisateur doit également être affecté à une licence équipes (et la Skype licence entreprise doit demeurer activé). Si vous souhaitent que vos utilisateurs à tirer parti des fonctionnalités en ligne supplémentaires, telles que la conférence Audio ou système téléphonique, vous devez affecter la licence appropriée dans Office 365.
@@ -61,24 +57,18 @@ Avant d’un utilisateur peut être déplacé en ligne, l’utilisateur doit êt
 Pour implémenter la connectivité hybride entre votre environnement local et les services de communication Office 365, vous devez remplir les conditions d’infrastructure suivantes :
 
 - Un seul déploiement local de Skype pour Business Server ou un serveur Lync qui est déployé dans une topologie prise en charge. Dans cette rubrique, voir [Configuration requise de topologie](plan-hybrid-connectivity.md#BKMK_Topology) .
-
 - Un client Microsoft Office 365 avec Skype pour Business Online activé.
-
     > [!NOTE]
     > Vous ne pouvez utiliser qu'un seul client pour une configuration hybride avec votre déploiement local.
-
 - Azure Active Directory Connect pour synchroniser votre répertoire sur site avec Office 365. Pour plus d’informations, voir [Azure AD Connect : comptes et autorisations](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
-
 - Skype pour les outils d’administration Business Server.  Elles sont requises pour déplacer les utilisateurs locaux vers le nuage. Ces outils doivent être installés sur un serveur ayant accès à un déploiement local et internet. 
-
 - Outils d’administration en ligne.  Vous pouvez utiliser les équipes et le Skype pour le centre d’administration Business ou de Windows PowerShell pour gérer des équipes et Skype pour Business Online. Pour utiliser PowerShell pour gérer des équipes ou Skype pour Business Online, téléchargez et installez le Skype pour Business Connector en ligne. 
-
 - Espace d’adressage SIP partagé doit être activé, et que votre déploiement sur site doit être configuré pour utiliser Office 365 comme fournisseur d’hébergement. Pour plus d’informations sur les étapes nécessaires pour configurer la connectivité hybride, voir [connectivité de configuration hybride](configure-hybrid-connectivity.md).
 
 Après avoir configuré la connectivité hybride, vous pouvez déplacer des utilisateurs à des équipes ou Skype pour Business Online. Pour plus d’informations, voir [déplacer des utilisateurs sur site aux équipes](move-users-from-on-premises-to-teams.md) et [déplacer les utilisateurs à partir de sur site à Skype pour Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
 
 
-## <a name="topology-requirements"></a>Conditions requises pour la topologie
+## <a name="server-version-requirements"></a>Exigences de version serveur
 <a name="BKMK_Topology"> </a>
 
 Pour configurer votre déploiement hybride avec **des équipes ou Skype pour Business Online**, vous devez disposer d’un des topologies prises en charge suivantes :
@@ -105,13 +95,18 @@ La fédération Edge Server et le serveur du tronçon suivant de la fédération
  ## <a name="multi-forest-support"></a>Prise en charge des environnements multi-forêts
 <a name="BKMK_MultiForest"> </a>
 
-Les utilisateurs peuvent accéder aux fonctionnalités Skype Entreprise dans une autre forêt si les conditions suivantes sont réunies :
+Microsoft prend en charge les types de scénarios hybrides à forêts multiples suivants :
 
-- Les utilisateurs sont correctement synchronisés dans la forêt qui héberge Skype Entreprise ; dans les configurations hybrides, cela signifie que les utilisateurs doivent être synchronisés en tant qu'objets utilisateurs désactivés.
+- **Topologie de forêt de ressources.** Dans ce type de topologie, il existe une seule forêt hébergeant Skype pour Business Server (la forêt de ressources) et il existe une ou plusieurs forêts autres qu’identités compte hôte, qui accèdent à la Skype pour Business Server dans la forêt de ressources. En règle générale, les utilisateurs peuvent accéder Skype pour les fonctionnalités d’entreprise dans une autre forêt si les conditions suivantes sont remplies :
+    - Les utilisateurs sont correctement synchronisés dans la forêt qui héberge Skype pour les entreprises. Dans les configurations hybrides, cela signifie que les utilisateurs doivent être synchronisées en tant qu’objets utilisateur désactivés.
+    - La forêt hébergeant Skype Entreprise doit approuver la forêt contenant les utilisateurs.
+    Pour plus d’informations sur les scénarios de hybride de forêt de ressources, voir [déploiement d’une topologie de forêt de ressources pour un environnement hybride Skype pour les entreprises](configure-a-multi-forest-environment-for-hybrid.md).
+- **Plusieurs déploiements de Skype pour Business Server dans plusieurs forêts.** Cette configuration peut se produire à la suite de fusion et acquisition de scénarios, ainsi que dans les entreprises plus complexes.  Consolidation de tous les utilisateurs sur site vers le nuage dans un seul client Office 365 peut être réalisée pour une organisation avec plusieurs Skype pour les déploiements d’entreprise, à condition que les conditions clées suivantes sont remplies : 
+    - Il doit exister au maximum un client Office 365 impliqués. Consolidation de serveurs dans les scénarios avec plus d’un client Office 365 n’est pas pris en charge.
+    - À un moment donné, une seule locale Skype pour la forêt de l’entreprise peut être en mode hybride (espace d’adressage SIP partagé). Tous les autres Skype sur site pour les forêts d’entreprise doit demeurer entièrement sur site (et sans doute fédérée avec eux). Notez que ces autres organisations locales peuvent synchroniser avec DAS si vous le souhaitez avec les [nouvelles fonctionnalités pour désactiver les domaines SIP en ligne](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) disponibles à compter de décembre 2018.
 
-- La forêt hébergeant Skype Entreprise doit approuver la forêt contenant les utilisateurs.
+    Clients de déploiements de Skype pour les entreprises dans plusieurs forêts doivent entièrement migrer chaque Skype pour la forêt Business individuellement dans le client Office 365 à l’aide de la fonctionnalité de double-domaine (Shared SIP espace d’adressage) et désactivez hybride avec le déploiement sur site, avant de passer à migrer la prochaine locale Skype pour le déploiement d’entreprise. En outre, avant sont migrées vers le nuage, les utilisateurs locaux est restent dans un état fédéré avec tous les utilisateurs qui ne sont pas représentés dans le même répertoire de l’utilisateur local. Pour plus d’informations, voir [consolidation Cloud pour les équipes et Skype pour les entreprises](cloud-consolidation.md).
 
-Pour plus d’informations sur les scénarios hybrides à forêts multiples, consultez [configurer un environnement à forêts multiples pour un environnement hybride Skype pour les entreprises](configure-a-multi-forest-environment-for-hybrid.md).
 
 
 ## <a name="federation-requirements"></a>Exigences de fédération
@@ -122,11 +117,8 @@ Lors de la configuration hybride, vous devez vous assurer que votre organisation
 La configuration ci-dessous est requise pour configurer un déploiement hybride :
 
 - La correspondance de domaine doit être identique pour votre déploiement local et votre client Office 365. Si la découverte de partenaire est activée sur le déploiement local, la fédération ouverte doit être configurée pour votre client en ligne. Si la découverte de partenaire n'est pas activée, alors la fédération fermée doit être configurée pour votre client en ligne.
-
 - La liste des domaines bloqués dans le déploiement local doit correspondre exactement à la liste des domaines bloqués pour votre client en ligne.
-
 - La liste des domaines autorisés dans le déploiement local doit correspondre exactement à la liste des domaines autorisés pour votre client en ligne.
-
 - Fédération doit être activée pour les communications externes pour le client en ligne.
 
 

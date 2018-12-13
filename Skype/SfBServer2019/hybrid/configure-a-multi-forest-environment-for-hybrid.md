@@ -1,5 +1,5 @@
 ---
-title: Configuration d’un environnement à forêts multiples pour un environnement hybride Skype pour les entreprises
+title: Déploiement d’une topologie de forêt de ressources
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,32 +10,29 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: Les sections suivantes fournissent des instructions sur la façon de configurer un environnement comprenant plusieurs forêts dans un modèle de forêt de ressources/de l’utilisateur à fournir Skype pour les fonctionnalités dans un scénario hybride.
-ms.openlocfilehash: ef2b57d1f89e4d5479cacce57ce9a6c47c495f21
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2e9e3d9f1f6d276ff99ee1e346bb1812ef0c3ea7
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532430"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244010"
 ---
-# <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configuration d’un environnement à forêts multiples pour un environnement hybride Skype pour les entreprises
+# <a name="deploy-a-resource-forest-topology"></a>Déploiement d’une topologie de forêt de ressources
  
 Les sections suivantes fournissent des instructions sur la façon de configurer un environnement comprenant plusieurs forêts dans un modèle de forêt de ressources/de l’utilisateur à fournir Skype pour les fonctionnalités dans un scénario hybride. 
   
 ![Environnement multi-forêt pour une utilisation hybride](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
-## <a name="validate-the-forest-topology"></a>Valider la topologie à forêt
+## <a name="topology-requirements"></a>Conditions requises pour la topologie
 
 Les forêts d’utilisateurs multiples sont prises en charge. Tenez compte des points suivants : 
-  
-- Pour un utilisateur unique forêt ou un déploiement à forêts multiples utilisateur, il doit exister un déploiement unique de Skype pour Business Server.
     
-- Pour les versions prises en charge de Lync Server et Skype pour Business Server dans une configuration hybride, voir [pour la topologie](plan-hybrid-connectivity.md#BKMK_Topology) de [planification de la connectivité hybride entre Skype pour Business Server et Office 365](plan-hybrid-connectivity.md).
+- Pour les versions prises en charge de Lync Server et Skype pour Business Server dans une configuration hybride, voir [Server versions requises pour](plan-hybrid-connectivity.md#server-version-requirements) [planifier la connectivité hybride entre Skype pour Business Server et Office 365](plan-hybrid-connectivity.md).
     
 - Exchange Server peut être déployé dans une ou plusieurs forêts, qui peut ou ne peuvent pas inclure la forêt contenant Skype pour Business Server. Assurez-vous que vous avez appliqué la mise à jour Cumulative le plus récent.
     
 - Pour plus de détails sur la coexistence avec Exchange Server, notamment sur les critères de prise en charge et les limitations de plusieurs combinaisons locales et en ligne, reportez-vous à la rubrique [Fonctionnalités prises en charge](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) dans [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
     
-Pour plus d’informations, reportez-vous à la [configuration système requise](../plan/system-requirements.md).
   
 ## <a name="user-homing-considerations"></a>Aspects relatifs à l’hébergement des utilisateurs
 
@@ -43,7 +40,7 @@ Skype pour les utilisateurs hébergement sur site peut avoir Exchange hébergé 
   
 ## <a name="configure-forest-trusts"></a>Configurer les approbations de forêt
 
-Les approbations nécessaires sont des approbations transitives bidirectionnelles entre la forêt de ressources et chacune des forêts d’utilisateurs. Si vous disposez de plusieurs forêts d’utilisateurs, il est important que le routage des suffixes de noms soit activé pour chacune de ces approbations de forêt pour pouvoir utiliser l’authentification inter-forêt. Pour obtenir des instructions, reportez-vous à [Gestion des approbations de forêt](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
+Dans une topologie de forêt de ressources, les forêts de ressources héberge Skype pour Business Server doivent approuver chaque forêt de compte qui contient les comptes d’utilisateurs qui seront y accéder. Si vous disposez de plusieurs forêts d’utilisateurs, il est important que le routage des suffixes de noms soit activé pour chacune de ces approbations de forêt pour pouvoir utiliser l’authentification inter-forêt. Pour obtenir des instructions, reportez-vous à [Gestion des approbations de forêt](https://technet.microsoft.com/en-us/library/cc772440.aspx). Si vous avez Exchange Server déployé dans une autre forêt et sa fonctionnalité de Skype pour les utilisateurs professionnels, la forêt hébergeant Exchange doit approuver la forêt hébergeant Skype pour Business Server. Par exemple, si Exchange ont été déployé dans la forêt de compte, cela efficacement signifie qu'une approbation bidirectionnelle entre le compte et Skype pour les forêts Business est nécessaire dans cette configuration.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Synchroniser les comptes dans la forêt hébergeant Skype pour les entreprises
 
@@ -94,9 +91,9 @@ Une fois le déploiement effectué, vous devez modifier la règle des revendicat
   
 ## <a name="configure-aad-connect"></a>Configuration d’AAD Connect
 
-AAD Connect fusionnera les comptes entre les différentes forêts et entre les forêts et Office 365. Vous devez déployer AAD Connect dans la forêt de ressources. Ceci est nécessaire pour pouvoir synchroniser plusieurs forêts et Office 365, en l’absence de prise en charge par DirSync. 
-  
-AAD Connect ne synchronise pas les comptes entre forêts locales. Il utilise des connecteurs AD pour lire les objets qui sont déjà synchronisés entre les forêts locales (par FIM ou produits similaires). Il tire ensuite parti des règles de filtrage pour créer une représentation unique des objets activé et désactivé correspondants dans son métaverse, et réplique cet objet unique fusionné dans Office 365. 
+Dans les topologies de forêt de ressources, il est nécessaire que les attributs de l’utilisateur de la forêt de ressources et les forêts compte (s) sont synchronisées dans Azure AD. La plus simple et recommandée pour ce faire consiste à avoir Azure AD Connect synchroniser et fusionner les identités des utilisateurs à partir de *toutes les* forêts que vous ont activé les comptes d’utilisateurs et de la forêt qui contient Skype pour les entreprises. Pour plus d’informations, consultez [configurer les Azure AD Connect pour Skype pour professionnels et les équipes](configure-azure-ad-connect.md).
+
+Notez que la connexion DAS ne fournit pas la synchronisation localement entre les forêts de comptes et de ressources. Qui doit être configuré séparément à l’aide de Microsoft Identity Manager ou produit similaire, comme décrit précédemment.
   
 Lorsque vous avez terminé et qu’AAD Connect est en cours de fusion, un objet examiné dans le métaverse ressemble à ceci : 
   

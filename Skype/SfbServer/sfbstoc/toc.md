@@ -16,7 +16,7 @@
 ##### [Activer les utilisateurs pour Enterprise Voice sur site](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
 ##### [Affectation d’une stratégie de routage des communications vocales](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
 ##### [Synchronisation des utilisateurs avec le cloud et affectation des licences](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/synchronize-users-to-the-cloud-and-assign-licenses.md)
-##### [Déplacer les utilisateurs locaux à Skype pour Business en ligne](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/move-on-premises-users-to-skype-for-business-online.md)
+##### [Déplacer les utilisateurs locaux à Skype pour Business en ligne](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/move-on-premises-users-to-skype-for-business-online.md) 
 ##### [Activer les utilisateurs pour Enterprise Voice en ligne et de la messagerie vocale système téléphonique](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
 #### [Planifier Business nuage connecteur Edition Skype](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
 ##### [Planification pour sites RTC, version Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)

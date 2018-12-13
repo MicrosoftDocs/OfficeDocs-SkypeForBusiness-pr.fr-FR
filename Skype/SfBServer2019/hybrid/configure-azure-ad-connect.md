@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instructions pour configurer Azure Connect AD dans un environnement hybride.
-ms.openlocfilehash: c2a57f9b58d88274dde8f9218faddabdee4342be
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5d27de4786c588d5d2f2a276dc20c25436bada98
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536028"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244115"
 ---
 # <a name="configure-azure-ad-connect-for-skype-for-business-and-teams"></a>Configurer Azure AD Connect pour Skype pour les professionnels et les équipes 
  
@@ -35,9 +35,9 @@ Si vous avez une forêt d’Active Directory sur site ou de plusieurs forêts, A
 
 1. Une forêt unique, qui contient les identités utilisateur faisant autorité et héberge Skype pour Business Server. 
 
-2. Plusieurs forêts, seul héberge Skype pour Business Server, ainsi qu’un ou plusieurs autres forêts qui contiennent les identités utilisateur faisant autorité. 
+2. Plusieurs forêts, seul héberge Skype pour Business Server, ainsi qu’un ou plusieurs autres forêts qui contiennent les identités des utilisateurs faisant autorité (les forêts compte). 
 
-3. Plusieurs déploiements de Skype pour Business Server dans plusieurs forêts. Prise en charge pour ce scénario complex sera bientôt annoncé.
+3. Plusieurs déploiements de Skype pour Business Server dans plusieurs forêts. Condition certaines conditions sont remplies, les entreprises peuvent consolider leurs ces plusieurs déploiements dans un seul client Office 365.
 
 ### <a name="single-forest"></a>Forêt unique 
 
@@ -58,7 +58,7 @@ Ce scénario est souvent appelé une topologie de forêt de ressources. Les iden
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>Plusieurs Skype pour les déploiements de serveur d’entreprise dans plusieurs forêts 
 
-Microsoft sera bientôt être annonce la prise en charge pour la synchronisation Skype plusieurs forêts d’entreprise dans un seul client en ligne, sous réserve qu’un seul déploiement est en mode hybride à tout moment dans le temps. Plus de détails bientôt disponible. 
+Dans ce scénario, il existe plusieurs forêts, chaque conteneur Skype pour Business Server et un seul client Office 365.  Chaque forêt contenant Skype pour Business Server peut être synchronisé dans Azure AD pour ce client à l’aide de DAS se connecter. Au plus qu’une seule forêt peut être configurée pour Skype pour un environnement hybride Business à un moment donné. Avant d’activer la configuration hybride dans une forêt, tous les domaines SIP de toutes les autres forêts doivent être désactivées à l’aide de [disable-csonlineSipDomain](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain). Pour plus d’informations sur la façon de consolider un tel environnement dans Office 365, voir [consolidation Cloud pour les équipes et Skype pour les entreprises](cloud-consolidation.md).
 
 ## <a name="general-requirements"></a>Exigences générales 
 

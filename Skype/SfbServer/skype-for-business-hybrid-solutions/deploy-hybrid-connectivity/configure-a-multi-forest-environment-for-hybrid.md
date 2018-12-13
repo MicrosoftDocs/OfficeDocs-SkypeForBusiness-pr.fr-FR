@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: Les sections suivantes fournissent des instructions sur la façon de configurer un environnement comprenant plusieurs forêts dans un modèle de forêt de ressources/de l’utilisateur à fournir Skype pour les fonctionnalités dans un scénario hybride.
-ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 0c5e3e25e8ba9ae5b044093be53f25a37db28525
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531551"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244017"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configuration d’un environnement à forêts multiples pour un environnement hybride Skype pour les entreprises
  
@@ -49,7 +49,7 @@ Skype pour les utilisateurs hébergement sur site peut avoir Exchange hébergé 
   
 ## <a name="configure-forest-trusts"></a>Configuration des approbations de forêt
 
-Les approbations nécessaires sont des approbations transitives bidirectionnelles entre la forêt de ressources et chacune des forêts d’utilisateurs. Si vous disposez de plusieurs forêts d’utilisateurs, il est important que le routage des suffixes de noms soit activé pour chacune de ces approbations de forêt pour pouvoir utiliser l’authentification inter-forêt. Pour obtenir des instructions, reportez-vous à [Gestion des approbations de forêt](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
+Les approbations nécessaires sont des approbations transitives bidirectionnelles entre la forêt de ressources et chacune des forêts d’utilisateurs. Si vous disposez de plusieurs forêts d’utilisateurs, il est important que le routage des suffixes de noms soit activé pour chacune de ces approbations de forêt pour pouvoir utiliser l’authentification inter-forêt. Pour obtenir des instructions, reportez-vous à [Gestion des approbations de forêt](https://technet.microsoft.com/en-us/library/cc772440.aspx). Si vous avez Exchange Server déployé dans une autre forêt et sa fonctionnalité de Skype pour les utilisateurs professionnels, la forêt hébergeant Exchange doit approuver la forêt hébergeant Skype pour Business Server. Par exemple, si Exchange ont été déployé dans la forêt de compte, cela efficacement signifie qu’une approbation bidirectionnelle entre le compte et Skype pour les forêts d’entreprise est requis dans cette configuration.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Synchroniser les comptes dans la forêt hébergeant Skype pour les entreprises
 
