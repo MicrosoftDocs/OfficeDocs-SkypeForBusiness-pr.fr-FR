@@ -13,16 +13,16 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33791cc16a7d2a45e16a41e4dfefe0efff8534b1
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 4c21eb588b899c6a0b4acd4e25eb79d54750e956
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699661"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264909"
 ---
 # <a name="adopt-microsoft-teams"></a>Adopter Microsoft Teams
 
-Si vous êtes une petite entreprise, ou si vous souhaitez déployer les équipes commençant par conversation, les équipes & canaux et réunions, utilisez nos conseils normatifs démarrage rapide, qui est conçu pour devenir rapidement. Si vous êtes une organisation de grande taille avec une hybride local Skype pour la configuration de l’entreprise ou si vous souhaitez déployer des fonctionnalités vocales (par exemple, Office 365 appelant plans ou système téléphonique), vous pouvez démarrer avec notre Guide de démarrage rapide, mais vous devez supplémentaires instructions ci-dessous, sous **les instructions d’adoption plus approfondie**.
+Si vous êtes une petite entreprise, ou si vous souhaitez déployer les équipes commençant par conversation, équipes et canaux et les réunions, utilisent notre normatifs [obtenir en route conseils](get-started-with-teams-landing-page.md), qui est conçu pour vous aider à rapidement opérationnel. Si vous êtes une organisation de grande taille avec une hybride ou locale Skype pour la configuration de l’entreprise, ou si vous souhaitez déployer les fonctionnalités vocales (par exemple, Office 365 appelant plans ou système téléphonique), vous pouvez démarrer avec notre Guide de commencer, mais vous devez supplémentaires instructions ci-dessous, sous **les instructions d’adoption plus approfondie**.
 
 <ul class="panelContent cardsFTitle">
     <li>

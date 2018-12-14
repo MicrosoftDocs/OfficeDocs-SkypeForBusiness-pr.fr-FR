@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Concevoir et créer des flux de travail Response Group dans Skype pour Business Server Enterprise Voice. Les flux de travail de groupe de recherche et les flux de travail interactifs sont tous les deux couverts.
-ms.openlocfilehash: c141c5e933a54bc0d6234093441d1b66331713d9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9bb701cf3d4894ff46127b04a3132b6b1fb5895a
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372272"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264859"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Concevoir et créer des flux de travail de groupe de réponse dans Skype pour les entreprises
 
@@ -43,26 +43,26 @@ Un flux de travail définit également des paramètres, comme un message de bien
 
 4. Dans la page **Flux de travail**, cliquez sur **Créer ou modifier un flux de travail**.
 
-5. Dans le champ **Sélectionner un Service** de recherche, tapez entièrement ou partiellement le nom du service **ApplicationServer** qui héberge le flux de travail que vous souhaitez créer ou modifier. Dans la liste de services qui s’affiche, cliquez sur le service de votre choix, puis sur **OK**.
+5. Dans le champ **Sélectionner un Service** de recherche, tapez entièrement ou partiellement le nom du service **ApplicationServer** qui héberge le flux de travail que vous souhaitez créer ou modifier. Dans la liste des services obtenus, cliquez sur le service de votre choix, puis sur **OK**.
 
     > [!NOTE]
-    > L’outil de Configuration Response Group s’ouvre. Vous pouvez également ouvrir l’outil de Configuration Response Group directement à partir d’un navigateur web en tapant l’URL suivante : https:// _ \<webPoolFqdn\>_/RgsConfig.
+    > L’outil de Configuration Response Group s’ouvre. Vous pouvez également ouvrir l’outil de Configuration Response Group directement à partir d’un navigateur web en tapant l’URL suivante : https://\<webPoolFqdn\>/RgsConfig.
 
 6. Effectuez l’une des actions suivantes :
 
-   - Sous **Créer un flux de travail**, en regard de **Groupe de recherche, cliquez sur Créer**.
+   - Sous **créer un flux de travail**, en regard du **Groupe de recherche**, cliquez sur **créer**.
 
    - Sous **Gérer un flux de travail existant**, recherchez le flux de travail à modifier, puis sous **Action**, cliquez sur **Modifier**.
 
 7. Si vous êtes prêt et que les utilisateurs peuvent commencer à appeler le flux de travail, activez la case à cocher **Activer le flux de travail**.
 
     > [!NOTE]
-    >  Si vous créez un flux de travail géré, vous devez sélectionner **Activer le flux de travail**. Une fois que vous avez enregistré le flux de travail géré actif, vous pouvez le modifier et le désactiver.
+    >  Si vous créez un flux de travail géré, vous devez sélectionner **Activer le flux de travail**. Une fois le flux de travail géré actif enregistré, vous pouvez le modifier et le désactiver.
 
 8. Pour autoriser les utilisateurs fédérés à appeler le groupe, activez la case à cocher **Activer pour la fédération**. Vous devez également disposer d’une stratégie d’accès externe qui s’applique à l’application Response Group configurée pour la fédération.
 
     > [!NOTE]
-    > La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la fédération de groupe de réponse à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de l’applet de commande **Set-CsExternalAccessPolicy** pour définir le paramètre EnableOutsideAccess sur True. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils sont affectés à un site ou une stratégie d’utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur comment appliquent des stratégies pour les utilisateurs, voir [Gestion d’une stratégie d’accès externe pour votre organisation](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Pour plus d’informations sur le paramètre de fédération, voir [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+    > La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la fédération de groupe de réponse à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de l’applet de commande **Set-CsExternalAccessPolicy** pour définir le paramètre EnableOutsideAccess sur True. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils sont affectés à un site ou une stratégie d’utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur l’application des stratégies aux utilisateurs, reportez-vous à la rubrique [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Pour plus d’informations sur le paramètre de fédération, voir [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
     > [!NOTE]
     > Les utilisateurs qui sont hébergées dans Skype pour Business Online ne peuvent pas passer des appels à des groupes de réponses qui sont hébergées dans un déploiement sur site. Cela est vrai dans les deux déploiements hybrides et dans les cas où un déploiement sur site est fédéré avec une Skype pour le déploiement d’entreprise en ligne.
@@ -109,7 +109,7 @@ Un flux de travail définit également des paramètres, comme un message de bien
     - Pour utiliser un enregistrement de fichier son (.wav) ou audio Windows Media (.wma) pour le message de bienvenue, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier audio à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
     > [!NOTE]
-    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, reportez-vous à la rubrique [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 18. Dans **Étape 4 Spécification de vos heures d’ouverture**, dans la zone **Votre fuseau horaire**, sélectionnez le fuseau horaire du flux de travail.
 
@@ -130,7 +130,7 @@ Un flux de travail définit également des paramètres, comme un message de bien
 
 20. Si vous créez un planning personnalisé pour ce flux de travail, activez les cases à cocher correspondant aux jours de la semaine pendant lesquels le groupe Response Group est disponible.
 
-21. Si vous créez un planning personnalisé, tapez les heures d’**ouverture** et de **fermeture** pour chaque jour de la semaine pendant lesquelles le groupe Response Group est disponible.
+21. Si vous créez un planning personnalisé, tapez les heures **d’ouverture** et de **fermeture** pour chaque jour de la semaine où le service response group est disponible.
 
     > [!NOTE]
     > Les heures **Ouverture** et **Fermeture** doivent être au format 24 heures. Par exemple, si votre bureau est ouvert de 9 heures à 17 heures et fermé à midi pour le déjeuner, les heures d’ouverture sont spécifiées comme suit : **Ouverture** 9:00, **Fermeture** 12:00, **Ouverture** 13:00 et **Fermeture** 17:00.
@@ -145,17 +145,17 @@ Un flux de travail définit également des paramètres, comme un message de bien
     - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
       > [!NOTE]
-      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers audio pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier audio pris en charge, reportez-vous à la rubrique [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 23. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
 
     - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
 
-    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@ *\<domainName\> * (par exemple, bob@contoso.com).
+    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@*\<domainName\> * (par exemple, bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@ _\<domainName\>_.
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@_\<domainName\>_.
 
-    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@ *\<domainName\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
+    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@*\<domainName\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
 
 24. Dans **Étape 5 Spécification de vos congés**, activez les cases à cocher correspondant à une ou plusieurs périodes de congés définissant les jours de fermeture du groupe Response Group.
 
@@ -172,17 +172,17 @@ Un flux de travail définit également des paramètres, comme un message de bien
     - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
       > [!NOTE]
-      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers audio pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier audio pris en charge, reportez-vous à la rubrique [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 26. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
 
     - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
 
-    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@ *\<domainName\> * (par exemple, bob@contoso.com).
+    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@*\<domainName\> * (par exemple, bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@ _\<domainName\>_.
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@_\<domainName\>_.
 
-    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@ *\<domainName\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
+    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@*\<domainName\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
 
 27. Dans **Étape 6 Configuration d’une file d’attente**, dans **Sélectionnez la file d’attente qui reçoit les appels**, sélectionnez la file d’attente dans laquelle mettre les appelants en attendant qu’un agent soit disponible.
 
@@ -193,7 +193,7 @@ Un flux de travail définit également des paramètres, comme un message de bien
     - Pour utiliser un enregistrement de fichier audio pour l’attente musicale, cliquez sur **Sélectionner un fichier de musique**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un fichier de musique**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
       > [!NOTE]
-      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers audio pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier audio pris en charge, reportez-vous à la rubrique [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 29. Cliquez sur **Déployer**.
 
@@ -233,7 +233,7 @@ Un flux de travail définit également des paramètres, comme un message de bien
    ```
 
     > [!NOTE]
-    > Pour les flux de travail de groupe de recherche, l’action par défaut doit rediriger l’appel vers une file d’attente. Ce paramètre est obligatoire pour les flux de travail actifs. Il ne l’est pas pour les flux de travail inactifs.
+    > Pour les flux de travail de groupe de recherche, l’action par défaut doit rediriger l’appel vers une file d’attente. Ce paramètre est requis pour les flux de travail actifs. Il ne l’est pas pour les flux de travail inactifs.
 
     Exemple :
 
@@ -248,13 +248,13 @@ Un flux de travail définit également des paramètres, comme un message de bien
 8. Récupérer le nom de service pour le service Response Group Lync Server et l’assigner à une variable. Dans la ligne de commande, exécutez la commande suivante :
 
    ```
-   $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}).ServiceId;
+   $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 9. Créez ou modifiez le flux de travail. Pour créer un flux de travail, utilisez **New-CsRgsWorkflow**. Pour modifier un flux de travail, utilisez **La cmdlet Set-CsRgsWorkflow**. Dans la ligne de commande, tapez :
 
    ```
-   $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-MangersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
+   $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
    ```
 
     Exemple :
@@ -280,7 +280,7 @@ L’application Response Group offre des fonctions vocales dans 26 langues et re
 Flux de travail interactif prend en charge jusqu'à deux niveaux de questions, chaque question ayant quatre réponses possibles. La réponse vocale interactive demande à l’appelant une question et en fonction de la réponse de l’appelant, achemine l’appelant vers une file d’attente ou pose une deuxième question. La deuxième question peut également avoir des quatre réponses possibles. Selon la réponse à la question de second niveau, l’appelant est acheminé vers la file d’attente appropriée.
 
 > [!NOTE]
-> Lorsque vous concevez un flux d’appels à l’aide de Skype pour Business Server Management Shell, vous pouvez définir n’importe quel nombre de niveaux de questions de réponse vocale interactive et n’importe quel nombre de réponses. Cependant, pour faciliter l’utilisation par l’appelant, nous vous conseillons de vous limiter à trois niveaux de questions et cinq réponses par niveau. En outre, si vous concevez un flux d’appels ayant plus de deux niveaux de questions avec plus de quatre réponses chaque, vous ne pouvez pas modifier le flux des appels à l’aide de Skype pour le panneau de configuration serveur Business.
+> Lorsque vous concevez un flux d’appels à l’aide de Skype pour Business Server Management Shell, vous pouvez définir un nombre quelconque de niveaux de questions de réponse vocale interactive et n’importe quel nombre de réponses. Cependant, pour faciliter l’utilisation par l’appelant, nous vous conseillons de vous limiter à trois niveaux de questions et cinq réponses par niveau. En outre, si vous concevez un flux d’appels ayant plus de deux niveaux de questions avec plus de quatre réponses chaque, vous ne pouvez pas modifier le flux des appels à l’aide de Skype pour le panneau de configuration serveur Business.
 
 Les questions à réponse vocale interactive et les réponses de l’appelant sont fournies à l’agent qui accepte l’appel répond.
 
@@ -376,10 +376,10 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
 4. Dans la page **Flux de travail**, cliquez sur **Créer ou modifier un flux de travail**.
 
-5. Dans le champ **Sélectionner un Service** de recherche, tapez entièrement ou partiellement le nom du service **ApplicationServer** qui héberge le flux de travail que vous souhaitez créer ou modifier. Dans la liste de services qui s’affiche, cliquez sur le service de votre choix, puis sur **OK**.
+5. Dans le champ **Sélectionner un Service** de recherche, tapez entièrement ou partiellement le nom du service **ApplicationServer** qui héberge le flux de travail que vous souhaitez créer ou modifier. Dans la liste des services obtenus, cliquez sur le service de votre choix, puis sur **OK**.
 
     > [!NOTE]
-    > L’outil de Configuration Response Group s’ouvre. Vous pouvez également ouvrir l’outil de Configuration Response Group directement à partir d’un navigateur web en tapant l’URL suivante : https:// _ \<webPoolFqdn\>_/RgsConfig.
+    > L’outil de Configuration Response Group s’ouvre. Vous pouvez également ouvrir l’outil de Configuration Response Group directement à partir d’un navigateur web en tapant l’URL suivante : https://\<webPoolFqdn\>/RgsConfig.
 
 6. Effectuez l’une des actions suivantes :
 
@@ -395,7 +395,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 8. Pour autoriser les utilisateurs fédérés à appeler le groupe, activez la case à cocher **Activer pour la fédération**. Vous devez également disposer d’une stratégie d’accès externe qui s’applique à l’application Response Group configurée pour la fédération.
 
     > [!NOTE]
-    > La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la fédération de groupe de réponse à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de l’applet de commande **Set-CsExternalAccessPolicy** pour définir le paramètre EnableOutsideAccess sur True. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils sont affectés à un site ou une stratégie d’utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur comment appliquent des stratégies pour les utilisateurs, voir [Gestion d’une stratégie d’accès externe pour votre organisation](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Pour plus d’informations sur le paramètre de fédération, voir **Set-CsExternalAccessPolicy** dans la documentation...
+    > La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la fédération de groupe de réponse à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de l’applet de commande **Set-CsExternalAccessPolicy** pour définir le paramètre EnableOutsideAccess sur True. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils sont affectés à un site ou une stratégie d’utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur l’application des stratégies aux utilisateurs, reportez-vous à la rubrique [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Pour plus d’informations sur le paramètre de fédération, voir **Set-CsExternalAccessPolicy** dans la documentation...
 
     > [!NOTE]
     > Les utilisateurs qui sont hébergées dans Skype pour Business Online ne peuvent pas passer des appels à des groupes de réponses qui sont hébergées dans un déploiement sur site. Cela est vrai dans les deux déploiements hybrides et dans les cas où un déploiement sur site est fédéré avec une Skype pour le déploiement d’entreprise en ligne.
@@ -410,7 +410,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 11. Dans **Nom d’affichage**, tapez le nom que vous souhaitez afficher pour le flux de travail (par exemple, Sales IVR Response Group).
 
     > [!NOTE]
-    > N’incluez pas le «\<« ou »\>» caractères dans le nom complet. N’utilisez pas les noms d’affichage ci-dessous, car ils sont réservés : RGS Presence Watcher ou Service d’annonce.
+    > N’incluez pas le «\<« ou »\>» caractères dans le nom complet. N’utilisez pas les noms d’affichage ci-dessous, car ils sont réservés : **RGS Presence Watcher** ou **Service d’annonce**.
 
 12. Dans **Numéro de téléphone**, tapez l’URI de ligne pour le groupe Response Group (par exemple, +14255550165).
 
@@ -439,7 +439,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
     - Pour utiliser un enregistrement au format de fichier Wave ou Windows Media Audio pour le message de bienvenue, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier audio à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
     > [!NOTE]
-    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, reportez-vous à la rubrique [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 18. Dans **Étape 4 Indication de vos heures d’ouverture**, dans la zone **Votre fuseau horaire**, cliquez sur le fuseau horaire du flux de travail.
 
@@ -451,13 +451,13 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
     - Pour utiliser un planning prédéfini d’heures d’ouverture, cliquez sur **Utiliser un planning prédéfini**, puis sélectionnez le planning souhaité dans la liste déroulante.
 
       > [!NOTE]
-      > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Vous pouvez spécifier des plannings prédéfinis à l’aide de l’applet de commande **New-CSRgsHoursOfBusiness**. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour les entreprises](optional-define-response-group-business-hours.md). Lorsque vous sélectionnez un planning prédéfini, les champs **Jour**, **Ouverture** et **Fermeture** sont renseignés automatiquement avec les jours et les heures de disponibilité du groupe Response Group.
+      > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Vous définissez des planifications prédéfinies à l’aide de l’applet de commande **New-CsRgsHoursOfBusiness** . Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour les entreprises](optional-define-response-group-business-hours.md). Lorsque vous sélectionnez un planning prédéfini, les champs **Jour**, **Ouverture** et **Fermeture** sont renseignés automatiquement avec les jours et les heures de disponibilité du groupe Response Group.
 
     - Pour utiliser un planning personnalisé qui ne s’applique qu’à ce flux de travail, cliquez sur **Utiliser un planning personnalisé**.
 
 20. Si vous créez un planning personnalisé pour ce flux de travail, activez les cases à cocher correspondant aux jours de la semaine pendant lesquels le groupe Response Group est disponible.
 
-21. Si vous créez un planning personnalisé, tapez les heures **Ouverture** et **Fermeture** auxquelles le groupe Response Group est disponible.
+21. Si vous créez un planning personnalisé, tapez les heures **d’ouverture** et de **fermeture** lorsque le service response group sera disponible.
 
      > [!NOTE]
      > Les heures **Ouverture** et **Fermeture** doivent être au format 24 heures. Par exemple, si votre bureau est ouvert de 9 heures à 17 heures et fermé à midi pour le déjeuner, les heures d’ouverture sont spécifiées comme suit : **Ouverture** 9:00, **Fermeture** 12:00, **Ouverture** 13:00 et **Fermeture** 17:00.
@@ -472,17 +472,17 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
     - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
     > [!NOTE]
-    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, reportez-vous à la rubrique [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 23. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
 
     - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
 
-    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@ *\<domainname\> * (par exemple, bob@contoso.com).
+    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@*\<domainname\> * (par exemple, bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@ _\<domainname\>_.
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@_\<domainname\>_.
 
-    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@ *\<domainname\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
+    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@*\<domainname\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
 
 24. Dans **Étape 5 Spécification de vos congés**, activez les cases à cocher correspondant à une ou plusieurs périodes de congés définissant les jours de fermeture du groupe Response Group.
 
@@ -499,17 +499,17 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
     - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
       > [!NOTE]
-      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers audio pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier audio pris en charge, reportez-vous à la rubrique [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 26. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
 
     - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
 
-    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@ *\<domainname\> * (par exemple, bob@contoso.com).
+    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@*\<domainname\> * (par exemple, bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@ _\<domainname\>_.
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@_\<domainname\>_.
 
-    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@ *\<domainname\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
+    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@*\<domainname\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
 
 27. Dans **Étape 6 Configuration d’une attente musicale**, indiquez ce que les appelants doivent entendre pendant qu’ils attendent un agent. Pour cela, procédez de l’une des façons suivantes :
 
@@ -518,7 +518,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
     - Pour utiliser un enregistrement audio pour l’attente musicale, cliquez sur **Sélectionner un fichier de musique**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un fichier de musique**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
     > [!NOTE]
-    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, reportez-vous à la rubrique [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 28. Dans **Étape 7 Configuration de la réponse vocale interactive**, dans l’en-tête **L’utilisateur entendra le texte ou message enregistré suivant**, spécifiez la question à poser aux appelants :
 
@@ -533,7 +533,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
     - Pour utiliser un fichier audio préenregistré contenant la question, cliquez sur **Sélectionner un enregistrement**, puis cliquez sur le lien **un enregistrement** pour télécharger le fichier. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier audio, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier, puis vous pouvez taper la question dans la zone de texte (Cela permet la question et réponse de l’appelant, à transmettre à l’agent qui répond).
 
       > [!NOTE]
-      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichiers pris en charge, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, reportez-vous à la rubrique [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 29. Dans **Réponse 1**, spécifiez la première réponse possible à la question, comme suit :
 
@@ -566,7 +566,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 3. Extrayez le nom de service du service Response Group et affectez-le à une variable. À partir de la ligne de commande, exécutez la commande suivante :
 
    ```
-   $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}) .ServiceId;
+   $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 4. Un flux de travail interactif nécessite au moins deux files d’attente et plusieurs groupes d’agents. Commencez par créer les groupes d’agents. Exécutez le code suivant :
@@ -639,7 +639,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
     ```
 
      > [!NOTE]
-     > Tous les utilisateurs désignés comme responsables d’un groupe Response Group doivent posséder le rôle CsResponseGroupManager qui leur est affecté. Dans le cas contraire, ils ne peuvent pas gérer de groupe Response Group.
+     > Tous les utilisateurs qui ont été désignés en tant que gestionnaire d’un groupe de réponse doivent être affectés au rôle CsResponseGroupManager. Dans le cas contraire, ils ne peuvent pas gérer de groupe Response Group.
 
 ## <a name="see-also"></a>Voir aussi
 

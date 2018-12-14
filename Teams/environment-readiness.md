@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b02cea9763207c9a756d98b3eecf1e4c579fdc3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 057493f42a4bbfa012fb57c2394c372dfc25c9fc
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013176"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264827"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Vérifier la préparation de votre environnement pour Microsoft Teams
 ===========================================
@@ -27,7 +27,7 @@ La transition vers le cloud varie pour chaque organisation et l'état actuel peu
 
 Les établissements d’enseignement sont vivement recommandés de [déployer la synchronisation des données de l’école](https://docs.microsoft.com/schooldatasync/) avant de déployer Microsoft Teams. Synchronisation des données de l’école utilise les données de liste de votre école SIS pour créer automatiquement les classes et les groupes pour Teams Microsoft et d’autres applications.
 
-Pour profiter au mieux de Teams, votre organisation doit d'abord déployer Exchange Online et SharePoint Online. Si vous n’avez pas déployé ces services, ou si votre configuration est différente, consultez les liens suivants pour obtenir de l'aide :
+Pour obtenir la meilleure expérience sur les équipes, votre organisation doit avoir déployé Exchange Online et SharePoint Online. Vous devez également vous assurer que votre environnement est prêt pour les équipes.  Reportez-vous à ces liens pour une assistance :
 
 -   Si votre organisation n'a déployé aucune charge de travail Office 365, reportez-vous à l'article [Prise en main d'Office 365 pour les entreprises.](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)
 
@@ -41,4 +41,4 @@ Pour profiter au mieux de Teams, votre organisation doit d'abord déployer Excha
 
 - Si votre organisation est un établissement scolaire et que vous utilisez un étudiant informations système (SIS), [déployer la synchronisation des données de l’école](https://docs.microsoft.com/schooldatasync/) avant de déployer Microsoft Teams.
 
-                                                                               
+- Si votre organisation a un Skype local existant pour le déploiement de serveur d’entreprise (ou Lync Server), vous devez configurer Azure AD se connecter pour synchroniser votre annuaire local avec Office 365.  Pour plus d’informations, voir [configurer les Azure AD Connect pour les équipes et Skype pour les entreprises](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect).

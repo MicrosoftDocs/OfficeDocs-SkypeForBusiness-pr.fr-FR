@@ -9,14 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instructions pour configurer Azure Connect AD dans un environnement hybride.
-ms.openlocfilehash: 5d27de4786c588d5d2f2a276dc20c25436bada98
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: a63f5bde6db1f9d04e2a1fbf03dd4434d1b7c8b3
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27244115"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264924"
 ---
-# <a name="configure-azure-ad-connect-for-skype-for-business-and-teams"></a>Configurer Azure AD Connect pour Skype pour les professionnels et les équipes 
+# <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>Configurer Azure AD Connect pour les équipes et Skype pour les entreprises
  
 Les organisations qui ont Skype pour Business Server (ou Lync Server) local et qui sont envisagez d’utiliser des équipes ou Skype pour Business Online doivent configurer Azure AD se connecter pour synchroniser leur répertoire local avec Office 365, comme décrit dans ce document.  Cela inclut les organisations déplacement directement à partir de Skype pour l’entreprise locale aux équipes. En particulier, organisations avec Skype pour Business local doivent vous assurer que les attributs msRTCSIP appropriés sont synchronisées dans Azure AD. 
 

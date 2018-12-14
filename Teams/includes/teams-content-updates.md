@@ -36,7 +36,7 @@
 | 07/11/2018 | [Déployer des réunions dans Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | ajouté |
 | 07/11/2018 | [Déployer Microsoft Teams](/MicrosoftTeams/deploy-microsoft-teams-landing-page) | ajouté |
 | 07/11/2018 | [Déployer les fonctionnalités vocales de Microsoft Teams](/MicrosoftTeams/deploy-voice-microsoft-teams-landing-page) | ajouté |
-| 07/11/2018 | [Prise en main de Microsoft Teams](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | ajouté |
+| 07/11/2018 | [Prise en main de Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | ajouté |
 | 07/11/2018 | [Votre organisation est-elle prête pour Microsoft Teams ?](/MicrosoftTeams/teams-adoption-assess-readiness) | ajouté |
 | 07/11/2018 | [Créer votre programme d’ambassadeurs de Microsoft Teams](/MicrosoftTeams/teams-adoption-create-champions-program) | ajouté |
 | 07/11/2018 | [Définir les résultats et la réussite de votre adoption de Microsoft Teams](/MicrosoftTeams/teams-adoption-define-outcomes) | ajouté |
@@ -88,7 +88,7 @@
 | 12/11/2018 | [Gérer l'accès des utilisateurs à Microsoft Teams](/MicrosoftTeams/user-access) | modifié |
 | 12/11/2018 | [Gérer vos périphériques dans Microsoft Teams](/MicrosoftTeams/device-management) | modifié |
 | 13/11/2018 | [Adopter Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | ajouté |
-| 13/11/2018 | [Prise en main de Microsoft Teams](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | ajouté |
+| 13/11/2018 | [Prise en main de Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | ajouté |
 | 13/11/2018 | [Créer vos premiers canaux et équipes dans Microsoft Teams](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | ajouté |
 | 13/11/2018 | [Prise en main de Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | ajouté |
 | 13/11/2018 | [Surveiller l’utilisation et les commentaires dans Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | ajouté |

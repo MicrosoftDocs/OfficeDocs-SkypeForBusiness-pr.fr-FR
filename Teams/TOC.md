@@ -500,6 +500,7 @@
 #### [Configurer la messagerie vocale du système téléphonique](set-up-phone-system-voicemail.md)
 #### [Que sont les standards automatiques de système téléphonique ?](what-are-phone-system-auto-attendants.md)
 #### [Répondre de standard automatique et appels de file d’attente directement à partir d’équipes](answer-auto-attendant-and-call-queue-calls.md)
+#### [Configurer des téléphones en zone commune dans Microsoft Teams](set-up-common-area-phones.md)
 ### Routage d’un système téléphonique Direct
 #### [Planifier le routage direct](direct-routing-plan.md)
 #### [Configurer le routage direct](direct-routing-configure.md)
