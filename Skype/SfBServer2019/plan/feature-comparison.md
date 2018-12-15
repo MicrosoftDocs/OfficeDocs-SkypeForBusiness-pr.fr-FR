@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : Skype pour Business Server 2019 ou Skype pour les administrateurs d’entreprise en ligne peut utiliser ces tables pour comprendre les fonctionnalités sont prises en charge sur les clients.'
-ms.openlocfilehash: 9d19920e16a6b9ffbeab0d1d3597fadf8a4a48b9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c7933e37582314db431c14c99a188d4b962cadf7
+ms.sourcegitcommit: f69b5dbdbd61f77ffc0494886516effe35a0c338
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371319"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27282593"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparaison des fonctionnalités client de bureau pour Skype pour Business Server 2019
 
@@ -29,14 +29,14 @@ ms.locfileid: "25371319"
 
 Certaines fonctionnalités disponibles avec Skype pour Business Server 2019 ne sont pas disponibles dans Skype pour Business Online ; voir [limitations de compte d’utilisateur en ligne ou hybride](feature-comparison.md#Online-Hybrid) de détail. Vous souhaiterez Skype pour les administrateurs de l’entreprise en ligne faire référence à [Skype pour Business Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) pour plus d’informations sur les différents plans disponibles pour les.
 
-Les tableaux suivants répertorient les fonctionnalités disponibles avec chaque client qui fonctionne avec Skype pour Business Server 2019 ou Skype pour Business Online. Vous souhaiterez également pour Smartphone et tablette comparaison des fonctionnalités des clients, voir [comparaison des fonctionnalités de client Mobile pour Skype pour les entreprises](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) . Les licences d’accès client ou USL (User Subscription License) qu’achète votre organisation auront également un impact sur les fonctionnalités auxquelles les utilisateurs ont accès. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Consultez le [Guide de gestion des licences](https://products.office.com/en-us/skype-for-business/it-pros) pour plus d’informations.
+Les tableaux suivants répertorient les fonctionnalités disponibles avec chaque client qui fonctionne avec Skype pour Business Server 2019 ou Skype pour Business Online. Vous souhaiterez également pour Smartphone et tablette comparaison des fonctionnalités des clients, voir [comparaison des fonctionnalités de client Mobile pour Skype pour les entreprises](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) . Les licences d’accès client ou USL (User Subscription License) qu’achète votre organisation auront également un impact sur les fonctionnalités auxquelles les utilisateurs ont accès. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Consultez le [Guide sur la gestion des licences](https://products.office.com/en-us/skype-for-business/it-pros) pour en savoir plus.
 
 > [!IMPORTANT]
 > Skype pour Business Server 2019 et Skype pour Business Online prend en charge les clients suivants précédemment publiés : Lync 2013, Skype pour Business 2015 et Skype pour Business 2016, ainsi que la Skype pour Business 2019 client. Pour plus d’informations sur ces clients lorsqu’elle est utilisée avec d’autres serveurs, consultez le [tableau de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et la [comparaison des fonctionnalités client de bureau pour Skype pour Business 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
 
 
 > [!NOTE]
-> Le Skype pour le client du navigateur Business Web App et application application Windows 10 Skype réunions fournissent uniquement la [prise en charge des réunions](feature-comparison.md#BKMK_Conferencing). Pour plus d’informations sur ces clients, reportez-vous à [planifier les réunions clients (application Web et application de réunions)](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md) .
+> Le Skype pour le client du navigateur Business Web App et application application Windows 10 Skype réunions fournissent uniquement la [prise en charge des réunions](feature-comparison.md#BKMK_Conferencing). Reportez-vous à la rubrique [Plan for Meetings clients (Web App and Meetings App)](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md) pour en savoir plus sur ces clients.
 
 ## <a name="enhanced-presence-support"></a>Prise en charge de la présence avancée
 <a name="BKMK_EnhancedPresence"> </a>
@@ -109,7 +109,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des réunion
 Dans les sessions Skype-à-Skype, un utilisateur du plan 1 de Skype Entreprise Online peut participer au partage de bureau et d'applications s'il est invité par un utilisateur qui a accès aux fonctionnalités de partage.
 Pour plus d’informations, voir le [Skype pour Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 
 
-|Fonctionnalité | Skype pour 2016 Business client | Skype Entreprise sur Mac | Application web Skype Entreprise | Skype pour client Business 2015 | Client Lync 2013 | 
+|Fonctionnalité | Skype pour 2016 Business client | Skype Entreprise sur Mac | Skype Entreprise Web App | Skype pour client Business 2015 | Client Lync 2013 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|  
 |Ajouter l'audio de l'ordinateur  |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;(requires plug-in)  |& #x 2714 ;|& #x 2714 ;| 
 |Ajouter la vidéo |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;(requires plug-in) |& #x 2714 ;|& #x 2714 ;| 
@@ -121,7 +121,7 @@ Pour plus d’informations, voir le [Skype pour Business Online Service Descript
 |Partager le bureau (si option activée)  |& #x 2714 ;|& #x 2714 ; & #x 2776 ; |& #x 2714 ; & #x 2776 ; (nécessite un plug-in) |& #x 2714 ;| & #x 2714 ;|
 |Partager un programme (si option activée) |& #x 2714 ;|Afficher uniquement   |& #x 2714 ;(requires plug-in)  |& #x 2714 ;|& #x 2714 ;|   
 |Ajouter des participants anonymes (si option activée) |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
-|Utiliser les réunions audio rendez-vous |& #x 2714 ; & #x 2777 ; |& #x 2714 ;|& #x 2714 ; & #x 2777 ; |& #x 2714 ;|& #x 2714 ; & #x 2777 ; |
+|Utilisez les rendez-vous audio réunions & #x 2777 ;|& #x 2714 ; |& #x 2714 ;|& #x 2714 ;  |& #x 2714 ;|& #x 2714 ;  |
 |Démarrer une réunion Conférence maintenant|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|  
 |Ajouter et présenter des fichiers Microsoft PowerPoint |& #x 2714 ;| & #x 2778 ; Annotations non disponibles   |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;| 
 |Parcourir des fichiers Microsoft PowerPoint |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;| 
