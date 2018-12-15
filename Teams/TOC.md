@@ -501,6 +501,9 @@
 #### [Que sont les standards automatiques de système téléphonique ?](what-are-phone-system-auto-attendants.md)
 #### [Répondre de standard automatique et appels de file d’attente directement à partir d’équipes](answer-auto-attendant-and-call-queue-calls.md)
 #### [Configurer des téléphones en zone commune dans Microsoft Teams](set-up-common-area-phones.md)
+#### [Mise en garde d’appels et de récupération](call-park-and-retrieve.md)
+#### [Appel de partage et de groupe ou d’appel](call-sharing-and-group-call-pickup.md)
+#### [Apparence de la ligne partagé](shared-line-appearance.md)
 ### Routage d’un système téléphonique Direct
 #### [Planifier le routage direct](direct-routing-plan.md)
 #### [Configurer le routage direct](direct-routing-configure.md)
