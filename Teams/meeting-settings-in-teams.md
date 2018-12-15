@@ -1,5 +1,5 @@
 ---
-title: Gérer les paramètres de réunion dans Microsoft Teams
+title: Gérer les paramètres de réunion dans Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,14 +15,14 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.meetingsettings.overview
 MS.collection: Teams_ITAdmin_Help
 description: Découvrez comment gérer les paramètres pour les réunions d’équipes qui planifient des utilisateurs dans votre organisation.
-ms.openlocfilehash: bf7350d94f61fcbaff60dacb161d5096b8f549e7
-ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
+ms.openlocfilehash: 1e3415b1fd17a863e14a79fcc66b32e6749b39e7
+ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26671023"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27283548"
 ---
-# <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
+# <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
 En tant qu’administrateur, vous utilisez les paramètres de réunion équipes pour contrôler si les utilisateurs anonymes peuvent participer à des réunions d’équipes, personnaliser les invitations aux réunions et si vous souhaitez activer la qualité de Service (QoS), définir les ports pour le trafic en temps réel. Ces paramètres s’appliquent à toutes les réunions d’équipes cette planification, les utilisateurs de votre organisation. Vous gérer ces paramètres à partir de **réunions** > **paramètres de réunion** dans le Microsoft Teams & Skype entreprise centre d’administration. 
 
@@ -62,7 +62,7 @@ Vous pouvez personnaliser les invitations à des équipes pour répondre aux bes
     - **Pied de page** Entrez le texte que vous souhaitez inclure dans le pied de page. 
 3. Attendez une heure pour propager les modifications. Planifier une réunion équipes pour afficher un aperçu de l’invitation à la réunion.  
 
-## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings-coming-soon"></a>Définir la façon dont vous souhaitez gérer le trafic multimédia en temps réel pour les réunions d’équipes (bientôt disponible) 
+## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Définir la manière dont vous souhaitez gérer le trafic multimédia en temps réel pour les réunions d’équipes
 Si vous utilisez la qualité de Service (QoS) pour définir la priorité du trafic réseau, vous pouvez activer les indicateurs de qualité de service et vous pouvez définir des plages de ports pour chaque type de trafic multimédia. 
 
  ![les équipes-logo-30x30.png](media/teams-logo-30x30.png) Avec le modèle Microsoft Teams & Skype entreprise centre d’administration

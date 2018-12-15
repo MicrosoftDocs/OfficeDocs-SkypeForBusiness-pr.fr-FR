@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Apprenez à gérer les paramètres de stratégie dans les équipes de réunion.
-ms.openlocfilehash: 52efb73cb1d7774dcafe417c7a51ec7117daceec
-ms.sourcegitcommit: 2fee995f69e81ea67a93c1f6554f05815b21ff25
+ms.openlocfilehash: 03c983e98d5bcb349a7a2796ad59cb22c03e22bd
+ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2018
-ms.locfileid: "25348602"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27283540"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de la réunion dans les équipes
 
@@ -41,7 +41,7 @@ Stratégies de réunion sont utilisés pour contrôler les fonctionnalités qui 
    - **Transcription autoriser** Si vous activez ce, la transcription de la réunion sera disponible pour les utilisateurs.
    - **Enregistrement du nuage autoriser** Activer cette fonctionnalité permettra d’enregistrements d’être enregistrées dans le nuage.
    - **IP Autoriser la vidéo** Activer cette fonctionnalité permettra de vidéos IP au cours des réunions.
-   - **[Bientôt disponible]** **Media vitesse (Kbits/s)** Vous pouvez définir la vitesse de transmission pour les réunions. La valeur par défaut est 50 Mo.
+   - **Media vitesse (Kbits/s)** Vous pouvez définir la vitesse de transmission pour les réunions. La valeur par défaut est 50 Mo.
 
 <a name="bkcontentsharing"> </a>
 
