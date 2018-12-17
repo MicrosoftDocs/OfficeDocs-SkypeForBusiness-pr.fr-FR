@@ -8,54 +8,55 @@ ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 ms.reviewer: marcl
+localization_priority: Priority
 search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98d8ec4eb6f6ab943f1515900aa20debbb7933b8
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
-ms.translationtype: MT
+ms.openlocfilehash: c5a6875ae8c30b81b6a063bb2ae59a0f72e9c677
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620002"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240793"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
-Cet article répertorie les problèmes connus pour Teams Microsoft, par fonctionnalité.
+Cet article répertorie les problèmes connus concernant Microsoft Teams, par fonctionnalité spécifique.
 
 ## <a name="administration"></a>Administration
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Journaux d’audit peuvent indiquer un nom d’utilisateur incorrecte en tant qu’initiateur lorsqu’une personne a été supprimée d’une équipe  <br/> |Équipes équipe est un groupe moderne DAS. Lorsque vous ajoutez/supprimer un membre par le biais de l’interface utilisateur d’équipes, le flux sait exactement l’utilisateur ayant initié la modification et le journal d’Audit reflète les informations correctes. Toutefois, si un utilisateur ajoute/supprime un membre par le biais de DAS, la modification est synchronisée avec le serveur principal d’équipes sans indiquant les équipes qui a initié l’action. Microsoft Teams sélectionne le premier propriétaire de l’équipe en tant qu’initiateur, ce qui est finalement répercutée dans le journal d’Audit.    <br/> |  <br/> |5/11/18  <br/> |
+|Les journaux d’audit peuvent indiquer un nom d’utilisateur incorrect comme initiateur lorsqu’une personne a été supprimée de Teams  <br/> |Une équipe Teams est un groupe moderne dans AAD. Lorsque vous ajoutez/supprimez un membre par l’intermédiaire de l'interface utilisateur de Teams, le flux sait exactement quel utilisateur a initialisé la modification, et le journal d’audit reflète les informations correctes. Cependant, si un utilisateur ajoute ou supprime un membre via AAD, la modification est synchronisée sur le serveur principal de Teams sans indiquer à Teams qui a initialisé l’action. Microsoft Teams sélectionne le premier propriétaire de Teams comme initiateur, ce qui est finalement répercuté dans le journal d’audit également.    <br/> |  <br/> |11/05/2018  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Stratégie EAF dans le Enhanced atténuation expérience Toolkit (EMET) peut identifier incorrectement optimisations de bac à sable chrome comme des menaces. <br/> |Il existe un problème avec le bac à sable chrome dans laquelle la stratégie exporter adresse Table Access filtrage (EAF) dans le Enhanced atténuation expérience Toolkit (EMET) et dans le module Windows Defender Advanced Threat Protection (DAV) peut identifier incorrectement sandbox de chrome optimisations comme des menaces. Ainsi, les équipes ne fonctionne ne pas correctement.  <br/> | Pour contourner ce problème, désactiver EAF pour les équipes. Vous pouvez en savoir plus sur le problème [instructions des facteurs atténuants EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) pour plus d’informations sur Windows Defender DAV et lignes directrices Englobent la stratégie, voir [Personnaliser protection contre les risques](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |10/11/18 <br/> |
+|La stratégie EAF dans le kit de ressources pour une expérience de migration améliorée (EMET) peut identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. <br/> |Un problème a été identifié avec le sandbox Chromium, la stratégie de filtrage de l’accès à la table d’exportation des adresses (EAF) dans le kit de ressources pour une expérience de migration améliorée (EMET) et dans la protection avancée contre les menaces Windows Defender (ATP) pouvant identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. Cela entraîne un fonctionnement incorrect de Teams.  <br/> | Pour résoudre ce problème, désactivez EAF pour Teams. Vous trouverez plus d'informations sur le problème dans les [Directives d’atténuation EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) Pour des informations complémentaires sur Windows Defender ATP et la stratégie EAF, reportez-vous à la rubrique [Personnaliser la protection contre les attaques](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Impossible d’ajouter des membres aux équipes lorsque UsersPermissionToReadOtherUsersEnabled est défini sur false  <br/> |Lorsque cette valeur est définie sur false dans DAS, client ne parvient pas à ajouter des membres interne/externe dans Microsoft Teams et le message d’erreur suivant s’affiche : « nous n’ajouter des membres. Nous avons rencontré un problème. Réessayez ultérieurement. » Toutefois, les membres peuvent être ajoutés directement à des groupes d’Office 365.    <br/> |Modifier ce paramètre sur true dans DAS.  <br/> |4/10/18  <br/> |
+|Impossible d’ajouter des membres aux équipes lorsque UsersPermissionToReadOtherUsersEnabled est défini sur false  <br/> |Lorsque cette valeur est définie sur false dans AAD, le client ne peut pas ajouter de membres internes ou externes dans Microsoft Teams, et le message d’erreur suivant s’affiche : « Nous n’avons pas pu ajouter le membre. Nous avons rencontré un problème. Réessayez ultérieurement. » Cependant, des membres peuvent être ajoutés directement à des groupes Office 365.    <br/> |Définissez ce paramètre sur true dans AAD.  <br/> |10/04/2018  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Gestion des administrateurs de connecteurs de client à l’échelle n’est plus disponible  <br/> |Lorsque vous essayez d’ajouter un connecteur dans le client et une version en ligne nous obtenir l’erreur : une erreur inattendue s’est produite. Réessayez ultérieurement. Set-OrganizationConfig - ConnectorsEnabled = True   <br/> |Désactiver les paramètres d’équipes. Consultez cet article du support technique :https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21.06.2017  <br/> |
+|La gestion des administrateurs des connecteurs à l’échelle du client n’est plus disponible  <br/> |Lorsque l’on tente d’ajouter un connecteur dans le client et la version en ligne, l’erreur suivante s’affiche : Une erreur inattendue s'est produite. Veuillez réessayer. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Désactivez les paramètres avec Teams. Reportez-vous à cet article de l’assistance. https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21.06.2017  <br/> |
 
 ## <a name="apps"></a>Applications
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Options de connecteur est manquante pour certaines équipes  <br/> |Lorsque vous cliquez avec le bouton droit sur un canal, l'option Connecteurs ne s'affiche pour aucun membre de l'équipe.  <br/> |Le créateur de l'équipe doit posséder une boîte aux lettres en ligne. Sinon, l'option Connecteur n'est pas disponible. Il s'agit d'un comportement normal.  <br/> |26.06.2017  <br/> |
+|Les options de connecteur ne sont pas disponibles pour certaines équipes  <br/> |Lorsque vous cliquez avec le bouton droit sur un canal, l'option Connecteurs ne s'affiche pour aucun membre de l'équipe.  <br/> |Le créateur de l'équipe doit posséder une boîte aux lettres en ligne. Sinon, l'option Connecteur n'est pas disponible. Il s'agit d'un comportement normal.  <br/> |26.06.2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|« Affectations » application reste visibles lorsque désactivé  <br/> |Lorsque l’application « Affectations » est désactivée dans le centre d’administration, il reste visible dans le client équipes pour les utilisateurs sous licence EDU. Sélectionnant Lorsque désactivée renvoie une erreur indiquant, « Doh ! Un problème... »  <br/> |Aucune solution.  <br/> |29/12/17  <br/> |
+|L’application « Affectations » reste visible lorsqu’elle est désactivée  <br/> |Lorsque l’application « Affectations » est désactivée dans le centre d’administration, elle reste visible au sein du client Teams pour les utilisateurs disposant d'une licence EDU. Si elle est sélectionnée lorsqu’elle est désactivée, le message d’erreur suivant s’affiche : « Oh ! Une erreur s’est produite... »  <br/> |Aucune solution.  <br/> |29/12/2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Impossible de supprimer les connecteurs tant que propriétaire de l’équipe  <br/> |Toute tentative de suppression d’un connecteur en tant que propriétaire, qui peut ajouter sinon un connecteur, alors que « Autoriser les membres à créer, mettre à jour et supprimer des connecteurs » sont désactivé lève une erreur indiquant que l’utilisateur n’est pas autorisé à le faire. <br/> |L’activation de temporairement « Autoriser les membres à créer, mettre à jour et supprimer des connecteurs » permet le propriétaire de supprimer le connecteur.  <br/> |7/27/18  <br/> |
+|Impossible de supprimer les connecteur en tant que propriétaire d’équipe  <br/> |Si vous essayez de supprimer un connecteur en tant que propriétaire, alors que vous pouvez ajouter un connecteur, lorsque l’option « Autoriser les membres à créer, mettre à jour et supprimer des connecteurs » est désactivée, une erreur indiquant que l’utilisateur n'est pas autorisé à effectuer cette action est déclenchée. <br/> |Pour autoriser le propriétaire à supprimer le connecteur, activez temporairement l’option « Autoriser les membres à créer, mettre à jour et supprimer des connecteurs ».  <br/> |27/07/2018  <br/> |
 
-## <a name="audio-conferencing"></a>Audioconférence
+## <a name="audio-conferencing"></a>Audioconférence,
 
 |**Problème**|**Comportement/symptômes**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -64,14 +65,14 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |Les invitations à des réunions à partir du complément Outlook affichent des caractères anormaux dans les coordonnées RTC pour les paramètres régionaux non américains.  <br/> |Lors de la planification de réunions privées à l'aide du complément Outlook pour Microsoft Teams sur un ordinateur avec des paramètres régionaux non américains, les coordonnées RTC peuvent contenir des caractères anormaux.  <br/> |Aucune solution.  <br/> |25/9/2017  <br/> |
 |La sortie de numérotation doit utiliser 5 chiffres ou plus.  <br/> |Les utilisateurs qui tentent de composer un numéro à partir d'une réunion doivent taper 5 chiffres ou plus, même si la règle de normalisation du forfait de numérotation est disponible pour normaliser la numérotation des numéros courts à E.164.  <br/> |Appelez en tapant le numéro SDA complet ou le format de numéro local, au lieu du numéro de poste interne.  <br/> |25/9/2017  <br/> |
 |Le contrôle d'appel sortant ne s'affiche pas de façon intermittente.  <br/> |Le contrôle d'appel sortant peut ne pas être visible à partir du panneau Informations sur la réunion.  <br/> |Aucune solution.  <br/> |25/9/2017  <br/> |
-|L'ID de conférence statique n'est pas pris en charge pour les réunions Microsoft Teams.  <br/> |Si l'administrateur remplace le paramètre par défaut de l'ID de conférence dynamique par l'ID de conférence statique, ce paramètre ne s'applique pas aux réunions Microsoft Teams. Voir [ID dynamiques à l’aide de conférence dans votre organisation](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Aucune solution.  <br/> |25/9/2017  <br/> |
+|L'ID de conférence statique n'est pas pris en charge pour les réunions Microsoft Teams.  <br/> |Si l'administrateur remplace le paramètre par défaut de l'ID de conférence dynamique par l'ID de conférence statique, ce paramètre ne s'applique pas aux réunions Microsoft Teams. Reportez-vous à la rubrique [Utiliser des ID dynamiques d’audioconférence dans votre organisation](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Aucune solution.  <br/> |25/9/2017  <br/> |
 |Les coordonnées de réunion RTC ne sont pas disponibles pour les utilisateurs locaux de Skype Entreprise.  <br/> |Si l'utilisateur est un utilisateur local de Skype Entreprise, à qui on a attribué Skype Entreprise Online, une audioconférence et des licences Teams, toutes les réunions programmées à l'aide de Teams n'incluront pas les coordonnées de réunion RTC. <br/> |Aucune solution.  <br/> |1/2/2018  <br/> |
 
 ## <a name="authentication"></a>Authentification
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Lorsque vous tentez d'ouvrir Teams sur Internet Explorer ou Edge, une boucle se produit ou le programme se bloque et ne se connecte pas.   <br/> | Votre organisation utilises la fonction de sites approuvés dans Internet Explorer et l'application Web Teams n'est pas correctement journalisée car les sites approuvés pour Teams ne sont pas autorisés. <br/>|Apportez les modifications suivantes pour les paramètres d’Internet Explorer ou depuis le panneau de configuration, avec des droits d’administrateur ou un objet de stratégie de groupe :<br/><ol><li>Sous **Options Internet** &gt; **confidentialité** &gt; **Avancé**, accepter les cookies internes et tiers et activez la case à cocher pour **toujours autoriser les cookies de session**.</li><li>Cliquez sur **Options Internet** &gt; **sécurité** &gt; **Sites de confiance** &gt; **Sites**et ajoutez tous les éléments suivants :<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>REMARQUE</b> : Validez et autorisez toujours les URL approuvées pour Teams et les conditions requises figurant dans le document suivant : [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01.11.2017  <br/> |
+|Lorsque vous tentez d'ouvrir Teams sur Internet Explorer ou Edge, une boucle se produit ou le programme se bloque et ne se connecte pas.   <br/> | Votre organisation utilises la fonction de sites approuvés dans Internet Explorer et l'application Web Teams n'est pas correctement journalisée car les sites approuvés pour Teams ne sont pas autorisés. <br/>|Dans les paramètres d'IE, effectuez les modifications suivantes en utilisant des droits d'administrateur ou un objet de stratégie de groupe :<br/><ol><li>Sous **Options Internet** &gt; **Confidentialité** &gt; **Avancé**, acceptez les cookies internes et tierce partie et cochez la case **Toujours autoriser les cookies de la session**.</li><li>Cliquez sur **Options Internet** &gt; **Sécurité** &gt; **Sites de confiance** &gt; **Sites** et ajoutez l’adresse suivante :<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>REMARQUE</b> : Validez et autorisez toujours les URL approuvées pour Teams et les conditions requises figurant dans le document suivant : [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01.11.2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -79,35 +80,35 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Microsoft Teams se connectera toujours dans le compte d’ordinateur joint au domaine.   <br/> |Si un utilisateur a deux comptes différents d’équipes et a un ordinateur à un domaine activé, équipes utilisera le profil à un domaine sur l’ordinateur pour vous connecter automatiquement l’utilisateur à équipes. Pour basculer vers l’autre compte d’équipes, l’utilisateur doit manuellement se déconnecter de l’application et entrez les informations d’identification pour le deuxième compte pour vous connecter. Si l’utilisateur se connecte en dehors des équipes et redémarre l’ordinateur, lors du redémarrage, équipes seront connectera automatiquement à l’aide du profil à un domaine. <br/> | Aucune solution. <br/> |02.08.2017  <br/> |
+|Microsoft Teams se connectera toujours au compte de l’ordinateur lié à un domaine.   <br/> |Si un utilisateur qui a deux comptes Teams différents et une machine avec la jonction à un domaine activée, Teams utilisera le profil lié à un domaine pour connecter automatiquement l’utilisateur à Teams. Pour basculer sur l’autre compte Teams, l’utilisateur doit se déconnecter manuellement de l’application et entrer les informations d'identification du second compte pour se connecter. Si l’utilisateur se déconnecte de Teams et redémarre la machine, au redémarrage, Teams le connectera automatiquement en utilisant le profil lié à un domaine. <br/> | Aucune solution. <br/> |02.08.2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Erreur d’authentification moderne - authentification par formulaire ne pas activé  <br/> |Si l'authentification multifacteur échoue, réalisez l'authentification depuis l'application web.  <br/> Pour plus d'informations, voir [Prise en charge du paramètre des services ADFS prompt=login](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login).  <br/> |Vérifiez ce paramètre : `Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled`.  <br/> |19.06.2017  <br/> |
+|Échec de l’authentification moderne - Authentification par formulaire désactivée  <br/> |Si l'authentification multifacteur échoue, réalisez l'authentification depuis l'application web.  <br/> Pour plus d'informations, voir [Prise en charge du paramètre des services ADFS prompt=login](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login).  <br/> |Vérifiez ce paramètre : `Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled`.  <br/> |19/06/2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Planificateur de build authentification unique (SSO) <br/> |L'authentification unique (SSO) ne s'applique pas au planificateur. Vous devrez vous reconnecter à la première utilisation du planificateur sur chaque client.  <br/> |Aucune solution. Nous travaillons actuellement sur d'autres améliorations du système d'authentification.  <br/> |28.02.2017  <br/> |
+|Planificateur sur la version d’authentification unique (SSO) <br/> |L'authentification unique (SSO) ne s'applique pas au planificateur. Vous devrez vous reconnecter à la première utilisation du planificateur sur chaque client.  <br/> |Aucune solution. Nous travaillons actuellement sur d'autres améliorations du système d'authentification.  <br/> |28.02.2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Impossible d'enregistrer la photo de profil  <br/> |Les utilisateurs ne peuvent pas enregistrer leurs images de profil lorsque la boîte aux lettres Exchange est (hébergée hébergés) localement sur Exchange 2016 CU2 ou inférieure.  <br/> |Aucune solution.  <br/> |28.02.2017  <br/> |
+|Impossible d'enregistrer la photo de profil  <br/> |Les utilisateurs ne peuvent pas enregistrer leur photo de profil lorsque la boîte aux lettres Exchange est hébergée sur site sur Exchange 2016 CU2 ou une version inférieure.  <br/> |Aucune solution.  <br/> |28.02.2017  <br/> |
 
 ## <a name="browser"></a>Navigateur
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Artéfacts verts dans le rendu vidéo Chrome  <br/> |Artefacts verts s’affichent lors de la vidéo ou de partage de l’écran dans un appel ou meetup chrome.  <br/> |Désactivez le paramètre d'accélération matérielle dans Chrome.  <br/> |03.08.2017  <br/> |
+|Artéfacts verts dans le rendu vidéo Chrome  <br/> |Des artéfacts verts apparaissent lors du visionnement d'une vidéo ou du partage de l'écran dans un appel ou une réunion dans Chrome.  <br/> |Désactivez le paramètre d'accélération matérielle dans Chrome.  <br/> |03.08.2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Prise en charge du client web par Safari  <br/> |Les utilisateurs qui essayent d'ouvrir le client web de Microsoft Teams dans Safari sont redirigés pour télécharger le client de bureau. Microsoft étudie la prise en charge de Safari et communiquera les mises à jour au moyen de [la Feuille de route de Teams](https://aka.ms/TeamsRoadmap).  <br/> |Utilisation prise en charge des navigateurs internet, notamment : Internet Explorer 11 +, Microsoft Edge 12 +, Chrome 51.0 + et Firefox 47.0 +.  <br/> |02.11.2016  <br/> |
+|Prise en charge du client web par Safari  <br/> |Les utilisateurs qui essayent d'ouvrir le client web de Microsoft Teams dans Safari sont redirigés pour télécharger le client de bureau. Microsoft étudie la prise en charge de Safari et communiquera les mises à jour au moyen de [la Feuille de route de Teams](https://aka.ms/TeamsRoadmap).  <br/> |Utilisez les navigateurs internet pris en charge, qui incluent : Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+ et Firefox 47.0+.  <br/> |02/11/2016  <br/> |
 
 ## <a name="channels"></a>Canaux
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Lorsqu’un utilisateur quitte l’entreprise, il s’affiche dans Microsoft Teams en tant que « Utilisateur inconnu »<br/> |Lorsqu’un utilisateur quitte l’entreprise, il s’affiche dans Microsoft Teams en tant que « Utilisateur inconnu ». En outre, l’onglet conversation affiche : « utilisateur inconnu a été ajouté à l’équipe ». <br/> |Aucune solution.  <br/> |9/12/17  <br/> |
+|Lorsqu'un utilisateur quitte l’entreprise, il apparaît dans Microsoft Teams comme « Utilisateur inconnu »<br/> |Lorsqu'un utilisateur quitte l’entreprise, il apparaît dans Microsoft Teams comme « Utilisateur inconnu ». L'onglet de conversation affiche également : « Un utilisateur inconnu a été ajouté à l’équipe ». <br/> |Aucune solution.  <br/> |12/09/2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -115,32 +116,32 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Changement de nom d’un canal dans Microsoft Teams ne renomme pas le dossier correspondant dans SharePoint Online  <br/> |Si un canal est renommé dans Microsoft Teams, le dossier dans la bibliothèque de documents SharePoint Online correspondant à l’équipe ne change pas pour correspondre. Le nom du dossier SharePoint Online correct s’affiche en haut de l’onglet fichiers de canal renommée.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
+|Renommer un canal dans Microsoft Teams ne renomme pas le dossier correspondant dans SharePoint Online.  <br/> |Si un canal est renommé dans Microsoft Teams, le dossier dans la bibliothèque de documents SharePoint Online correspondant à l’équipe ne reflète pas la modification. Le nom du dossier SharePoint Online apparaît en haut de l’onglet Fichiers du canal renommé.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Aperçu de l’URL peut ne pas affiche de toutes les URL  <br/> |Certaines URL peut ne pas affiche un aperçu.  Il s’agit de l’URL d’origine ayant la possibilité d’afficher un aperçu. <br/> |Aucune solution. <br/> |9/1/18 <br/> |
+|L’aperçu de l’URL peut ne pas s’afficher pour toutes les URL  <br/> |Certaines URL peuvent ne pas afficher d’aperçu.  Cela dépend de la capacité d’afficher un aperçu de l’URL d’origine. <br/> |Aucune solution. <br/> |01/09/2018 <br/> |
 
 ## <a name="chat"></a>Conversation
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Mentions @ pour message supprimé envoyer une notification par un lien de canal  <br/> |Il existe une limitation connue de notification lorsque vous êtes au-mentionné dans un message est supprimé. la notification dans le flux de navigation pour le canal mais pas pour un message spécifique. <br/> | Par défaut <br/> | 3/28/17  <br/>|
+|Les @mentions de message supprimé envoient une notification avec le lien du canal  <br/> |Il existe une restriction connue lorsque vous êtes @mentionné dans un message qui est supprimé ; la notification dans le flux accédera au canal mais pas au message spécifique. <br/> | Par défaut <br/> | 28/03/2017  <br/>|
 
 
 ## <a name="client"></a>Client
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Les équipes ne met pas automatiquement à jour   <br/> | Lorsque Microsoft Teams est installé à l’aide de scripts d’installation des fichiers de programme plutôt que vers l’emplacement par défaut, le client ne-mise à jour automatique lorsque de nouvelles versions sont disponibles.    <br/> | À la conception. Veillez à installer l’application dans l’emplacement par défaut : `user\Appdata`.  <br/> | 9/7/17  <br/> |
+|Teams ne se met pas à jour automatiquement   <br/> | Lorsque Microsoft Teams est installé dans Program Files à l’aide des scripts d'installation au lieu de l’emplacement par défaut, le client ne se met pas à jour automatiquement lorsque de nouvelles versions sont disponibles.    <br/> | Par défaut. Assurez-vous d'installer l’application dans l’emplacement par défaut : `user\Appdata`.  <br/> | 07/09/2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Lien symbolique ou mappying un lecteur à C:\users entraîne l’application de lancement écran blanc  <br/> | Lorsque Microsoft Teams est installé à l’aide de scripts d’installation des fichiers de programme plutôt que vers l’emplacement par défaut, le client ne-mise à jour automatique lorsque de nouvelles versions sont disponibles.   <br/> | À la conception. Veillez à installer l’application dans l’emplacement par défaut : `user\Appdata`. Si le mappage doit exister, vous devez utiliser la version web de Microsoft Teams.  <br/> | 9/7/17  <br/> |
+|Un lien symbolique ou le mappage d’un lecteur sur C:\utilisateurs lance l’application sur un écran blanc  <br/> | Lorsque Microsoft Teams est installé dans Program Files à l’aide des scripts d'installation au lieu de l’emplacement par défaut, le client ne se met pas à jour automatiquement lorsque de nouvelles versions sont disponibles.   <br/> | Par défaut. Assurez-vous d'installer l’application dans l’emplacement par défaut : `user\Appdata`. Si le mappage doit exister, vous devez utiliser la version web de Microsoft Teams.  <br/> | 07/09/2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Lien symbolique ou mapper un lecteur sur c:\users entraîne l’application de lancement écran blanc  <br/> |Lors de l’emplacement par défaut de `C:\users\<user>\appData` est modifié en déplaçant la `C:\users` dossier ou à l’aide du lien symbolique, l’application est lancé avec un écran blanc.   <br/> |Il n’existe aucune solution de contournement connue. Si le mappage doit exister, vous devez utiliser la version web de Microsoft Teams.   <br/> |13.03.2017  <br/> |
+|Un lien symbolique ou le mappage d’un lecteur sur C:\utilisateurs lance l’application sur un écran blanc  <br/> |Si l’emplacement par défaut de `C:\users\<user>\appData` est modifié en déplaçant le dossier `C:\users` ou en utilisant un lien symbolique, l’application se lance avec un écran blanc.   <br/> |Il n’existe pas de solution de contournement. Si le mappage doit exister, vous devez utiliser la version web de Microsoft Teams.   <br/> |13/03/2017  <br/> |
 
 ## <a name="environment"></a>Environnement
 
@@ -162,7 +163,7 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Les utilisateurs ne peuvent pas accéder aux réunions/connecteurs, mais les boîtes aux lettres Exchange Online. <br/> |Client activement bloque EWS à partir des services dans Exchange Online, mais doit être MS Teams conforme au sein de stratégies EWS. <br/> |Pour rendre MS Teams conforme, vous devez ajouter la chaîne d’Agent utilisateur pour Teams MS au sein de la EWSAllowList : `*skypespaces*`, y compris les astérisques. La commande complète est la suivante :`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Pour plus d’informations :https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
+|Les utilisateurs ne peuvent pas accéder aux réunions/connecteurs mais ont des boîtes aux lettres Exchange Online. <br/> |Le client bloque activement EWS des services dans Exchange Online mais MS Teams doit être compatible au sein des stratégies EWS. <br/> |Pour rendre MS Teams compatible, vous devez ajouter la chaîne de l’agent utilisateur suivantes pour MS Teams dans EWSAllowList : `*skypespaces*`, astérisques inclus. La commande complète est la suivante : `set-organizationconfig -ewsallowlist *skypespaces*`<br/> Pour plus d'informations : https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30/05/2017  <br/>|
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -175,17 +176,17 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Réunions non disponibles  <br/> |Fonctionnalités de réunion n’est pas disponible lors de la boîte aux lettres Exchange est hébergée (hébergés) locale dans la version est antérieure à Exchange 2016 CU3.  <br/> |Effectuez une mise à niveau vers Exchange 2016 CU3 ou une version suivante pour le déploiement sur site.  <br/> |28.02.2017  <br/> |
+|Réunions non disponibles  <br/> |La fonctionnalité de réunion n’est pas disponible lorsque la boîte aux lettres Exchange est hébergée sur site dans une version inférieure à Exchange 2016 CU3.  <br/> |Effectuez une mise à niveau vers Exchange 2016 CU3 ou une version suivante pour le déploiement sur site.  <br/> |28.02.2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Aucun son lors du partage de contenu pendant une réunion de diffusion  <br/> |Lorsque le partage de contenu pendant une réunion de diffusion, audio du contenu partagé (lien youtube ou un fichier vidéo enregistré) ne peut pas être entendre par les participants.  <br/> |Aucun comme cela est normal.  Équipes ne prend pas en charge l’audio à partir du partage de contenu  <br/> |10/9/18  <br/> |
+|Aucun son lors du partage de contenu pendant une réunion de diffusion  <br/> |Lors du partage de contenu pendant une réunion de diffusion, le son du contenu partagé (lien youtube ou fichier vidéo enregistré) ne peut pas être entendu par les participants.  <br/> |Il ne s’agit pas d'un comportement par défaut.  Teams ne prend pas en charge actuellement le son du contenu partagé  <br/> |09/10/2018  <br/> |
 
 ## <a name="mobile"></a>Mobile
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Impossible de voir les canaux auto-favorited  <br/> |Certains membres ne sont pas en mesure de voir les canaux auto-favorited sur l’application mobile.  <br/> |Membres doivent se connecter à l’application web ou de bureau tout d’abord Voir canaux auto-favorited sur leur application mobile.  <br/> |30/4/18  <br/>|
+|Impossible de voir les canaux ajoutés automatiquement aux favoris  <br/> |Certains membres ne peuvent pas voir les canaux ajoutés automatiquement aux favoris sur l’application mobile.  <br/> |Pour afficher les canaux ajoutés automatiquement aux favoris sur leur application mobile, les membres doivent se connecter au préalable l’application de bureau ou web.  <br/> |30/04/2018  <br/>|
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -193,19 +194,19 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Impossible d’utiliser le plaisir sélecteur ou Giphys ou autocollants dans une application mobile  <br/> |Vous ne pouvez pas utiliser les fichiers GIF, emojis ou autocollants sur les clients mobiles.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
+|Impossible d’utiliser le sélecteur de divertissement ou des images giphy ou des autocolllants dans l’application mobile  <br/> |Vous ne pouvez pas utiliser de gif, d’emojis ou d’autocollants sur les clients mobiles.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Différences de mise en page des équipes de Client mobile  <br/> |Les équipes sont répertoriées dans l’ordre alphabétique et les canaux ne peuvent pas être réduits sur le client mobile.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/>|
+|Différences de disposition des équipes sur le client mobile  <br/> |Les équipes s'affichent dans l'ordre alphabétique et les canaux ne peuvent pas être réduits sur le client mobile.  <br/> |Aucune solution.  <br/> |13.03.2017  <br/>|
 
 
 ## <a name="people"></a>Personnes
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Photos de profil utilisateur  <br/> | Actuellement équipes ne dispose pas d’un mécanisme pour empêcher les utilisateurs de modifier des photos. L’équipe BizTalk Server a atteint avec l’équipe de développement qui a archivé ce qui suit pour considération : fonctionnalité 108874 : stratégie de l’informatique pour désactiver le téléchargement de photos de profil   <br/> | Si vous avez les clients souhaitant la possibilité d’empêcher le téléchargement de photos de profil dans les équipes, demandez-leur d’ajouter leurs cas de voix et de l’entreprise aux commentaires ici :https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
- <br/> |1/3/17 <br/> |
+|Photos de profil des utilisateurs  <br/> | Teams ne comporte pas actuellement de mécanisme permettant d’empêcher les utilisateurs de changer leur photo. L’équipe BTS a rencontré l’équipe de développement qui a consigné le point suivant à prendre en considération : Fonctionnalité 108874 : stratégie IT pour désactiver le chargement de photos de profil   <br/> | Si vous avez des clients qui souhaiteraient avoir la possibilité d’empêcher le chargement de photos de profil dans Teams, veuillez ajouter leur vote et leur script commercial aux commentaires ici : https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
+ <br/> |01/03/2017 <br/> |
 
 ## <a name="provisioning"></a>Mise en service
 
@@ -217,15 +218,20 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 |:-----|:-----|:-----|:-----|
 |Les utilisateurs n'arrivent pas à créer une équipe.  <br/> |Votre entreprise peut avoir défini une politique limitant les personnes qui peuvent créer des groupes ou des équipes Office 365.  <br/> |Consultez votre administrateur informatique pour comprendre la politique de votre entreprise en matière de création de groupes et d'équipes.  <br/> |13.03.2017  <br/> |
 
+## <a name="skype-for-business-to-teams-upgrade"></a>Mise à niveau de Skype Entreprise vers Microsoft Teams
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+
 ## <a name="tabs"></a>Onglets
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Onglet site Web conduisant à confusion chez le client  <br/> |Onglets du site Web ne sont pas équivalents à votre navigateur. Un nombre de sites, notamment celles nécessitant une authentification ou en utilisant les fenêtres publicitaires intempestives, ne fonctionne pas lorsque épinglés dans un onglet de site Web.  <br/> |Nous cherchons à l’amélioration de l’interface utilisateur pour le rendre plus clair pour les clients.  <br/> |5/2/18  <br/> |
+|Onglet de site web source de confusion pour les clients  <br/> |Les onglets de site web ne sont pas équivalents à votre navigateur. Un certain nombre de sites, particulièrement ceux qui requièrent une authentification ou l’utilisation de fenêtres contextuelles, ne fonctionneront pas s’ils sont épinglés en tant qu’onglet de site web.  <br/> |Nous nous efforçons d’améliorer l’interface utilisateur pour que cela soit plus clair pour les clients.  <br/> |02/05/2018  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Onglets ne fonctionnent ne pas depuis l’activation de l’accès conditionnel <br/> |Certains onglets ne se chargent pas plus dans le Client de bureau dans la mesure où l’accès conditionnel a été activé sur le client. Les onglets de charge lorsque vous utilisez le Client Web. Certains onglets qui peuvent être affectées sont : PowerBI, formulaires, VSTS, PowerApps et liste SharePoint.  <br/> |Pour afficher les onglets concernés, vous devez utiliser des équipes de périphérie, Internet Explorer ou Chrome avec l’extension Windows 10 comptes installée. Certains onglets dépendent toujours l’authentification web, qui ne fonctionne pas dans le Client de bureau lors de l’autorité de certification est activée. Nous effectuons travailler avec des partenaires pour activer ces scénarios. jusqu'à présent, nous avons activé planificateur, OneNote et Stream. <br/> |4/5/18  <br/>|
+|Onglets qui ne fonctionnent pas depuis l’accès conditionnel a été activé <br/> |Certains onglets peuvent ne plus se charger dans le client de bureau depuis que l’accès conditionnel a été activé sur le client. Les onglets se chargent lorsque le client web est utilisé. Certains onglets pouvant être affectés sont les suivants : PowerBI, VSTS, PowerApps et liste SharePoint.  <br/> |Pour afficher les onglets concernés, vous devez utiliser Teams dans Edge, IE ou Chrome avec l’extension de comptes Windows 10 installée. Certains onglets dépendent toujours de l’authentification web, qui ne fonctionne pas dans le client de bureau lorsqu’une autorité de certification est activée. Nous travaillons avec des partenaires pour activer ces scénarios ; nous avons activé jusqu’à présent le Planificateur, OneNote et Stream. <br/> |05/04/2018  <br/>|
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -237,17 +243,17 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Les équipes planificateur intégration planificateur en ligne <br/> |Compartiments dans le Planificateur de tâches n’apparaissent pas dans l’expérience en ligne du planificateur.  <br/> |Aucune solution. <br/> |28.02.2017  <br/>|
+|Intégration du Planificateur Teams avec le Planificateur en ligne <br/> |Les paquets de tâches dans le Planificateur ne s’affichent pas dans l’expérience en ligne du Planificateur.  <br/> |Aucune solution. <br/> |28.02.2017  <br/>|
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Onglet de la page SharePoint affiche l’écran vide<br/> |SharePoint Online domaines redirection ne sont pas actuellement pris en charge. L’expérience utilisateur est un écran vide lorsque attemting pour ajouter un SharePoint page onglet. <br/> |Aucune solution. <br/> |20/8/18  <br/>|
+|L’onglet de page SharePoint affiche un écran blanc<br/> |Les domaines de redirection SharePoint Online ne sont pas pris en charge actuellement. L’expérience utilisateur est un écran blanc lorsque l'on tente d’ajouter un onglet SharePoint. <br/> |Aucune solution. <br/> |20/08/2018  <br/>|
 
-## <a name="teams"></a>Teams
+## <a name="teams"></a>Équipes
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Journaux d’audit peuvent indiquer un nom d’utilisateur incorrecte en tant qu’initiateur lorsqu’une personne a été supprimée d’une équipe  <br/> |Équipes équipe est un groupe moderne DAS. Lorsque vous ajoutez/supprimer un membre par le biais de l’interface utilisateur d’équipes, le flux sait exactement l’utilisateur ayant initié la modification et le journal d’Audit reflète les informations correctes. Toutefois, si un utilisateur ajoute/supprime un membre par le biais de DAS, la modification est synchronisée avec le serveur principal d’équipes sans indiquant les équipes qui a initié l’action. Microsoft Teams sélectionne le premier propriétaire de l’équipe en tant qu’initiateur, ce qui est finalement répercutée dans le journal d’Audit.    <br/> |  <br/> |5/11/18  <br/> |
+|Les journaux d’audit peuvent indiquer un nom d’utilisateur incorrect comme initiateur lorsqu’une personne a été supprimée de Teams  <br/> |Une équipe Teams est un groupe moderne dans AAD. Lorsque vous ajoutez/supprimez un membre par l’intermédiaire de l'interface utilisateur de Teams, le flux sait exactement quel utilisateur a initialisé la modification, et le journal d’audit reflète les informations correctes. Cependant, si un utilisateur ajoute ou supprime un membre via AAD, la modification est synchronisée sur le serveur principal de Teams sans indiquer à Teams qui a initialisé l’action. Microsoft Teams sélectionne le premier propriétaire de Teams comme initiateur, ce qui est finalement répercuté dans le journal d’audit également.    <br/> |  <br/> |11/05/2018  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -255,15 +261,15 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|La liste d'équipes publiques n'affiche pas toutes les équipes  <br/> |La liste des équipes publiques repose sur Microsoft Graph.  <br/> |Si une équipe n'est pas affichée, essayez de la rechercher au moyen du champ de recherche situé dans le coin supérieur droit. En outre, les propriétaires de l’équipe doivent communiquer les noms d’équipe par vos collègues depuis de nombreuses équipes pourraient s’affichent-ils dans les résultats de recherche. <br/> | 21.07.2017  <br/>|
+|La liste d'équipes publiques n'affiche pas toutes les équipes  <br/> |La liste des équipes publiques repose sur Microsoft Graph.  <br/> |Si une équipe n'est pas affichée, essayez de la rechercher au moyen du champ de recherche situé dans le coin supérieur droit. Les propriétaires d’équipe doivent en outre communiquer les noms des équipes à leurs collègues, plusieurs équipes peuvent s’afficher dans les résultats de recherche. <br/> | 21/07/2017  <br/>|
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Les noms d’équipe qui contiennent des caractères spéciaux peuvent créer des erreurs pour la création de la réunion  <br/> |Utilisateur message **d’erreur s’est produite** en rouge lors de la tentative de création d’une réunion pour une équipe ayant des caractères spéciaux dans le nom.   <br/> |Renommer ou recréer l’équipe avec un nom qui ne contient-elle pas un « / ».  <br/> |13.07.2017  <br/> |
+|Les noms d’équipes contenant des caractères spéciaux peuvent créer des erreurs lors de la création de réunions  <br/> |L’utilisateur recevra le message **Une erreur s’est produite** en rouge s’il tente de créer une réunion pour une équipe dont le nom contient des caractères spéciaux.   <br/> |Renommez ou créez à nouveau l’équipe avec un nom qui ne contient pas le caractère « / ».  <br/> |13/07/2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Un nom de l’équipe avec un &amp; symbole qu’il annule fonctionnalité connector  <br/> |Lorsqu'un nom d'équipe est créé avec le symbole &amp;, les connecteurs de l'équipe ou du groupe ne peuvent pas être établis.  <br/> |N'utilisez pas de caractères spéciaux dans le nom des équipes.  <br/> |21.06.2017  <br/> |
+|Un nom d'équipe contenant un symbole &amp; interrompt la fonctionnalité du connecteur  <br/> |Lorsqu'un nom d'équipe est créé avec le symbole &amp;, les connecteurs de l'équipe ou du groupe ne peuvent pas être établis.  <br/> |N'utilisez pas de caractères spéciaux dans le nom des équipes.  <br/> |21.06.2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -271,9 +277,9 @@ Cet article répertorie les problèmes connus pour Teams Microsoft, par fonction
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|La suppression d'une équipe supprime également le groupe associé à celle-ci  <br/> |Il est possible que les utilisateurs ne réalisent pas que le groupe Office 365 sous-jacent est supprimé lorsque l'équipe est supprimée. En outre, si le groupe Office 365 sous-jacent est supprimé, l'équipe l'est également.  <br/> |Les langues supplémentaire dans Microsoft Teams fournissent cette information à l'utilisateur. Cette information n'est pas disponible dans l'interface Groupes Office 365. Votre support technique peut récupérer une groupe/équipe supprimé.  <br/> |13.03.2017  <br/> |
+|La suppression d'une équipe supprime également le groupe associé à celle-ci  <br/> |Il est possible que les utilisateurs ne réalisent pas que le groupe Office 365 sous-jacent est supprimé lorsque l'équipe est supprimée. En outre, si le groupe Office 365 sous-jacent est supprimé, l'équipe l'est également.  <br/> |Les langues supplémentaire dans Microsoft Teams fournissent cette information à l'utilisateur. Cette information n'est pas disponible dans l'interface Groupes Office 365. Votre service d’assistance peut récupérer un groupe ou une équipe supprimé(e).  <br/> |13/03/2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Application de bureau équipes affichant l’écran blanc  <br/> | <br/> |Essayez de supprimer ou réinstaller les pilotes graphiques sur l’ordinateur, ou démarrer des équipes à partir d’une ligne de commande avec un indicateur de désactivation de processeur :<ul><li>Pour Windows : Ouvrez l’invite de commandes et entrez les informations suivantes :`cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>Pour Mac : Démarrer Terminal et entrez la commande suivante :`cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
+|Application de bureau Teams affichant un écran blanc  <br/> | <br/> |Essayez de supprimer ou de réinstaller les pilotes graphiques sur l’ordinateur, ou démarrez Teams depuis une ligne de commande avec un indicateur de désactivation du GPU :<ul><li>Pour Windows : ouvrez l'invite de commande et entrez la commande suivante : `cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>Pour Mac : démarrez le Terminal et entrez la commande suivante : `cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 
