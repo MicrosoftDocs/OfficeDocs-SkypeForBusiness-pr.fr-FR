@@ -1,5 +1,5 @@
 ---
-title: Basculement de jonction sur les appels sortants
+title: Basculement de jonction pour les appels sortants
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment gérer les basculements de jonction pour les appels sortants à partir des équipes pour le contrôleur de Session en périphérie (SBC).
-ms.openlocfilehash: 1f8e7dfd5064b9c3d857165a9a4e2d39565dfeef
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: 620230ca3be07bb54386f54a983539716d07b2e9
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27271148"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297808"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Basculement de jonction pour les appels sortants
 

@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en temps réel dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 590246808849b2cf25bdc0fb114352977973410f
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: e0c71258ee0285c4c00f69e63be1f2efbfc5e4ab
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156132"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297816"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -28,7 +28,7 @@ Lorsque vous planifiez les événements en direct équipes destiné à contenir 
 Les conditions préalables suivantes sont requises pour l’utilisateur planifier un événement live équipes.
 
 Voici les licences qui doivent être affectés :  
-- Une licence Office 365 entreprise E1, E3 ou E5 ou une licence Office 365 A3 ou A5. 
+- Une licence Office 365 entreprise E3 ou E5 ou une licence Office 365 A3 ou A5. 
 - Un Teams Microsoft, les Skype pour les entreprises et de licence Microsoft Stream.
 
 Il est important de savoir qu’une licence Office 365 est nécessaire pour participer à un événement live en tant qu’utilisateur authentifié mais cela dépend de la méthode de production utilisée :

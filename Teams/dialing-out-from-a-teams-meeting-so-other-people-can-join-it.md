@@ -21,39 +21,44 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Cette section présente les informations nécessaires et explique comment les organisateurs de réunions peuvent composer le numéro d’autres personnes par le biais de Teams.
-ms.openlocfilehash: 7fe3cbdca38c04b498806d3bd05a4f7bef5ea290
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: adb4d9ae492c324937dbe552fc138933428cc466
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012736"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297790"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Passer un appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
 
-En tant qu’organisateur de la réunion, vous pouvez vous connecter à l’aide de l’application des équipes pour permettre aux autres personnes à participer à la même réunion à l’aide de leur téléphone. Même si ce n'est pas obligatoire, lorsque vous appelez quelqu'un, il est recommandé de composer le numéro complet, avec l'indicatif du pays ou de la région. Pour que l'appel sortant aboutisse :
+En tant qu’organisateur de la réunion, vous pouvez vous connecter à l’aide de l’application des équipes pour permettre aux autres personnes à participer à la même réunion à l’aide de leurs téléphones.
+
+Lorsque vous connecter à une personne, nous vous recommandons de le faire qu’à l’aide de leurs numéros de téléphone complet (y compris le code de pays/région).
   
-- Vous ne pouvez passer un appel sortant que si vous participez à une réunion par le biais de Teams.
-    
-- En tant qu'organisateur de la réunion, vous avez été activé pour la conférence rendez-vous.
+  Veuillez noter que :
+
+- Vous pouvez vous connecter uniquement si vous participez à une réunion à l’aide des équipes.
+- Vous, en tant qu’organisateur de la réunion, avez été activés pour l’audioconférence.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
- **Étape 1: ** dans la réunion, utilisez l'option **Ajouter des personnes** ![bouton Ajouter des personnes](media/add-people-button.png) pour composer un numéro de téléphone.
+Voici comment procéder accéder à distance à utiliser :
+
+ **Étape 1 :** Dans la réunion, utilisez les **Ajouter des personnes** ![bouton Ajouter un personnes](media/add-people-button.png) option pour appeler un numéro de téléphone.
+ **Étape 2 :** Entrez le numéro de téléphone complet, y compris le code de pays/région dans la zone **Inviter une personne ou composer un numéro** .
   
-  
- **Étape 2 :** entrez le numéro de téléphone complet, avec l’indicatif du pays ou de la région, dans la zone **Inviter quelqu'un ou composer un numéro**.
-  
-![Zone Inviter quelqu'un ou composer un numéro](media/invite-someone-box.png)
-  
+![Inviter une personne ou composer un numéro](media/invite-someone-box.png)
+    
 ## <a name="supported-countries-and-regions"></a>Pays et régions pris en charge
 
 La mise en conférence n'est disponible que vers certains pays ou certaines régions. Pour la liste complète, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-  
-## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur l’audioconférence ?
+
+## <a name="allow-users-to-dial-in"></a>Autoriser les utilisateurs à se connecter
+
+Si vous recherchez des instructions sur la façon de permettre à vos utilisateurs de se connecter à une réunion d’équipes, consultez les [numéros de téléphone pour les conférences Audio dans les équipes Microsoft](/Teams/phone-numbers-for-audio-conferencing-in-teams.md).
+
+## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur les conférences rendez-vous ?
 
 [Tester ou acheter l'audioconférence dans Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
     
-[Licences de compléments pour Skype Entreprise et Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-    
-
+[Licences de compléments pour Skype Entreprise et Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)

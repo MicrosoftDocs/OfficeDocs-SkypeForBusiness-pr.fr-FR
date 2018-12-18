@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: f5634a65d6648d34671c372bc20c2145abdbfc96
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: dbc3de5c6eb7a9f45be1165614cd14fcb2d6d8c9
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131309"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297880"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -147,7 +147,8 @@ Le certificat doit être généré par un des autorités de certification racine
 - Autorité de Certification publique principale de classe 3
 - Autorité de certification racine sécurisé Comodo
 - Deutsche Telekom 
-- Autorité de certification racine globale DigiCert 
+- Autorité de certification racine globale DigiCert
+- Autorité de certification racine DigiCert High Assurance EV
 - Confier
 - GlobalSign
 - Go daddy

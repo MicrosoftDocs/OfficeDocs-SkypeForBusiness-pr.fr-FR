@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: b56816d57b628c92e4c7f412b306ca1161021a66
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cf856989cd4f87f4b46e1eb36cbeb403bf92b029
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240932"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297910"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -82,8 +82,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > [!NOTE]
   > 1. Nous vous recommandons la définition d’une limite pour le contrôleur SBC, en utilisant les informations que vous trouverez dans la documentation de SBC. La limite de déclencher une notification si le contrôleur SBC est au niveau de la capacité.
   > 2. Vous pouvez uniquement paire le contrôleur SBC avec le nom de domaine complet, où la partie domaine du nom correspond à l’un des domaines enregistrés dans votre client, à l’exception de \*. onmicrosoft.com. À l’aide de \*. omicrosoft.com les noms de domaine n’est pas pris en charge pour les noms FQDN SBC. Par exemple, si vous avez deux noms de domaine :<br/><br/>
-  > .xyz **ABC**<br/>**ABC**. onmicrosoft.com<br/><br/>
-  > Pour le nom SBC, vous pouvez utiliser le nom sbc.abc.xyz. Si vous essayez de paire le contrôleur SBC avec un nom de sbc.xyz.abc, le système ne vous permettra pas, comme le domaine n’est pas détenu par ce client.
+  > **Contoso**.com<br/>**Contoso**. onmicrosoft.com<br/><br/>
+  > Pour le nom SBC, vous pouvez utiliser le nom sbc.contoso.com. Si vous essayez de paire le contrôleur SBC avec un nom de sbc.contoso.abc, le système ne vous permettra pas, comme le domaine n’est pas détenu par ce client.
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
@@ -180,7 +180,7 @@ Licences requises :
 Licences facultatifs : 
 
 - Appel de Plan 
-- Audioconférence 
+- Audioconférence, 
 
 ### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Assurez-vous que l’utilisateur est hébergé dans Skype pour Business Online 
 
@@ -310,7 +310,7 @@ Dans l’exemple ci-dessous, vous pouvez voir le résultat de l’exécution de 
 Pour créer l’itinéraire « Redmond 1 », entrez :
 
   ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
+  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
   (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
   ```
 
@@ -336,7 +336,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 Pour créer l’itinéraire de + 1 autres, entrez :
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -377,7 +377,7 @@ Name            : Redmond 2
 Identity        : Other +1 
 Priority            : 4
 Description     : 
-NumberPattern       : ^\\+1(\d{10})$
+NumberPattern       : ^\+1(\d{10})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
@@ -444,9 +444,9 @@ Le tableau suivant récapitule les itinéraires de communications vocales et de 
 
 |**Utilisation PSTN**|**Itinéraire de communications vocales**|**Schéma de numéro**|**Priorité**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Nous uniquement|« Redmond 1 »|^ + 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Gamme active pour les numéros appelé XXX-XX-XX +1 425 ou XXX-XX-XX +1 206|
-|Nous uniquement|« Redmond 2 »|^ + 1 (425\|206)(\d{7})$|2|SBC3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Itinéraire alternatif pour les numéros appelé XXX-XX-XX +1 425 ou XXX-XX-XX +1 206|
-|Nous uniquement|« Autres + 1 »|^ + 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|Itinéraire pour appelé numéros + 1 XXX XXX XX XX (sauf XXX-XX-XX +1 425 ou XXX-XX-XX +1 206)|
+|Nous uniquement|« Redmond 1 »|^\\+ 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Gamme active pour les numéros appelé XXX-XX-XX +1 425 ou XXX-XX-XX +1 206|
+|Nous uniquement|« Redmond 2 »|^\\+ 1 (425\|206)(\d{7})$|2|SBC3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Itinéraire alternatif pour les numéros appelé XXX-XX-XX +1 425 ou XXX-XX-XX +1 206|
+|Nous uniquement|« Autres + 1 »|^\\+ 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|Itinéraire pour appelé numéros + 1 XXX XXX XX XX (sauf XXX-XX-XX +1 425 ou XXX-XX-XX +1 206)|
 |International|International|\d+|4|sbc2<span></span>. contoso.biz<br/>sbc5<span></span>. contoso.biz|Itinéraire pour n’importe quel modèle de numéro |
 
 

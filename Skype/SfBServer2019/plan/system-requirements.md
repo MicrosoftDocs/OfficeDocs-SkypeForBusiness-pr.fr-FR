@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Résumé : Préparez votre Skype Business Server 2019 serveurs et l’infrastructure de domaine avec cette rubrique. Configuration matérielle, du système d’exploitation, bases de données, logiciel, tous les la configuration système requise et recommandations, ainsi que les certificats DNS, partage de fichiers et informations Active Directory, sont ici afin de garantir une installation réussie et le déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: 0cacba46f438f84c75aa80d1e73d9b4f7fa6c0ff
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: db5bada7b89de2fafc4d72c9fa5fcac05d8611ce
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530973"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297767"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Configuration système requise pour Skype pour Business Server 2019
  
@@ -193,7 +193,7 @@ Skype pour Business Server 2019 Enterprise Edition nécessite complète de SQL S
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 (Édition 64 bits) et vous devez exécuter avec les dernières mises à jour et de groupes de disponibilité AlwaysOn.  <br/> ||
+|Microsoft SQL Server 2016 (Édition 64 bits) et que vous devez exécuter avec les dernières mises à jour.  <br/> ||
  |
    
 Si vous ne voyez pas l’édition de SQL Server que vous souhaitez utiliser répertoriés ici, vous ne pouvez pas l’utiliser.

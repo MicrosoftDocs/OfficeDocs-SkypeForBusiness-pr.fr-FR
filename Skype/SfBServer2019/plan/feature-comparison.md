@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : Skype pour Business Server 2019 ou Skype pour les administrateurs d’entreprise en ligne peut utiliser ces tables pour comprendre les fonctionnalités sont prises en charge sur les clients.'
-ms.openlocfilehash: c7933e37582314db431c14c99a188d4b962cadf7
-ms.sourcegitcommit: f69b5dbdbd61f77ffc0494886516effe35a0c338
+ms.openlocfilehash: dfc9e568ae9d600e03e1473aff7bcf6571b68f38
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27282593"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297691"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparaison des fonctionnalités client de bureau pour Skype pour Business Server 2019
 
@@ -135,7 +135,7 @@ Pour plus d’informations, voir le [Skype pour Business Online Service Descript
 |Désactiver la messagerie instantanée pour la réunion |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Désactiver le son des participants |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Inviter tout le monde à participer |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
-|Produire une diffusion de réunion Skype |& #x 2714 ;|||||
+|Produire une diffusion de réunion Skype |& #x 2714 ; & #x 2779 ;|||& #x 2714 ; & #x 2780 ;||
 |Un délégué peut planifier une réunion pour le compte d'un délégant |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||
 |Synchroniser les délégués entre Skype Entreprise et Outlook |& #x 2714 ;||& #x 2714 ;||| 
 |Définir la vidéo à la une (verrouiller la vidéo) |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;| 
@@ -146,6 +146,10 @@ Pour plus d’informations, voir le [Skype pour Business Online Service Descript
  & #x 2777 ;  Pour Skype pour Business Online, cette fonctionnalité nécessite Microsoft PSTN conférence, la messagerie unifiée Exchange ou un fournisseur de services d’audioconférence tiers.
 
  & #x 2778 ;  Lync pour Mac 2011 client ne peut pas afficher les présentations Microsoft Office PowerPoint 2013 lorsqu’ils ont été partagées dans une conférence par le Skype pour l’application Web de gestion.
+
+& #x 2779 ;  Pour Skype pour les applications métiers 2016, vous devez utiliser Click-to-Run, version 16.0.4227 ou version ultérieure.
+
+& #x 2780 ;  Pour Skype pour les applications métiers 2015, vous devez avoir la mise à jour de septembre, générer 15.0.4747 ou version ultérieure.
 
 ## <a name="voice-telephony-support"></a>Prise en charge de la voix (téléphonie)
 <a name="BKMK_Telephony"> </a>
