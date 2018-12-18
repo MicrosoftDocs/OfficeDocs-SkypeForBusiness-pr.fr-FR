@@ -96,7 +96,7 @@
 
 
 <!-- ============================================================ -->
-# [Mise à niveau à partir de Skype pour les entreprises aux équipes](Journey-SkypeforBusiness-Teams.md)
+# [Mise à niveau de Skype Entreprise vers Teams](Journey-SkypeforBusiness-Teams.md)
 ## [Didacticiel : Transition de Skype Entreprise à Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Mise à niveau de base](upgrade-basic.md)
 ### [Enquêtes et e-mails exemples](upgrade-emails-surveys.md)
@@ -507,11 +507,13 @@
 ### Routage d’un système téléphonique Direct
 #### [Planifier le routage direct](direct-routing-plan.md)
 #### [Configurer le routage direct](direct-routing-configure.md)
-#### [Migration vers le routage Direct](direct-routing-migrating.md)
+#### [Migrer vers le routage Direct](direct-routing-migrating.md)
 #### [Surveiller et résoudre les problèmes de routage Direct](direct-routing-monitor-and-troubleshoot.md)
 #### [Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Configurer un contrôleur de frontière de session pour plusieurs clients](direct-routing-sbc-multiple-tenants.md)
 #### [Liste des contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md)
+#### Référence technique pour le routage Direct
+##### [Basculement de jonction pour les appels sortants](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Flux des appels équipes Microsoft Online](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
