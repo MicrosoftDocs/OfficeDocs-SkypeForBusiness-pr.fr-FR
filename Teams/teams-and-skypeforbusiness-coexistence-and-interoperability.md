@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2296d7eb423d1d268742be184e7e724e69dc0965
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: c70519fc328b74a6269d4ed767d9223b8deca83d
+ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201476"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27371178"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet] (media/upgrade-banner-project-definition.png "Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet")
 
@@ -51,7 +51,7 @@ Par défaut, les utilisateurs peuvent exécuter des équipes à côté de Skype 
 Dans ce mode de coexistence, appelé **(îles)**, chacune des applications clientes fonctionne comme un îlot séparé. Skype pour parle d’entreprise à Skype pour professionnels et les équipes communique avec les équipes. Les utilisateurs exécutent les deux clients et peuvent communiquer en mode natif dans le client à partir de laquelle la communication a été lancée. Par conséquent, il n’est pas nécessaire pour l’interopérabilité en mode **(îles)** .
 
 > [!Tip]
-> Skype pour Business Online clients recommandée consiste à démarrer avec le mode par défaut **(îles)** , dans l’organisation du lecteur saturation d’adoption et déplacez **Équipes uniquement** en mode rapide. Sur site et hybride clients tireront parti de déploiement du mode **Skype pour les entreprises avec la collaboration des équipes** à venir en tant que point de départ plutôt que (îles) et la progression à partir de là, **Équipes uniquement** en mode lors de l’organisation est prête à adopter Équipes. 
+> Skype pour Business Online clients recommandée consiste à démarrer avec le mode par défaut **(îles)** , dans l’organisation du lecteur saturation d’adoption et déplacez **Équipes uniquement** en mode rapide. Sur site et hybride clients peuvent bénéficier de déployer le mode **Skype pour les entreprises avec la collaboration des équipes** à venir en tant que point de départ plutôt que (îles) et la progression à partir de là, **Équipes uniquement** en mode lors de l’organisation est prête à adopter Équipes. 
 
 ### <a name="skype-for-business-only"></a>Skype pour les entreprises uniquement
 

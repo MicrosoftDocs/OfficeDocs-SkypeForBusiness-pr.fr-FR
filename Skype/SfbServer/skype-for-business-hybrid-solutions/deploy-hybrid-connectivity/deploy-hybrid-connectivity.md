@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0d16ec3a-28f0-4483-96e7-8e68f30398fa
 description: 'Résumé : consultez cette rubrique pour découvrir comment déployer la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online.'
-ms.openlocfilehash: 1e42b0c582f186b785db691e66b9ee88aa6d6a74
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7a63858650990d7c1dc7dbcb168bf3070908c19b
+ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886195"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27371148"
 ---
 # <a name="deploy-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Déploiement de la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online
  
@@ -36,7 +36,11 @@ Le tableau suivant répertorie les étapes requises pour préparer votre environ
   
 |**Étape**|**Description**|
 |:-----|:-----|
-|Créer un compte client pour Office 365 et activer des Skype pour Business en ligne  <br/> |Découvrez Office 365 et Skype pour les entreprises en ligne sur [Office 365](https://go.microsoft.com/fwlink/p/?LinkId=254980).  <br/> Pour vous assurer que votre environnement est prêt pour Office 365, voir la [Configuration système requise](https://products.office.com/en-US/office-system-requirements).  <br/> Pour plus d’informations sur la configuration d’Office 365, voir [Mise en route avec Office 365](https://go.microsoft.com/fwlink/p/?LinkId=254982).  <br/> |
-|Ajouter votre domaine à votre client Office 365 et vérifier la propriété  <br/> | Vous devez l’ajouter à votre client Office 365, puis suivre la procédure de validation avec Office 365. Cela permet de confirmer que vous êtes bien le propriétaire du domaine. <br/> Pour ajouter votre domaine à votre client Office 365, suivez les étapes décrites à [Ajouter votre domaine à Office 365](https://support.office.com/en-us/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US).  <br/> |
-|Préparer la synchronisation Active Directory  <br/> |La synchronisation Active Directory maintient votre Active Directory local en permanence synchronisé avec Office 365. Cela vous permet de créer des versions synchronisées de chaque groupe et compte d’utilisateur et de synchroniser la liste d’adresses globale de votre environnement Microsoft Exchange Server local vers Microsoft Exchange Online. Pour plus d’informations, voir [Outils de l’intégration d’annuaire](https://go.microsoft.com/fwlink/p/?LinkId=530320).  <br/>  **IMPORTANT** Vous devez synchroniser les comptes Active Directory pour tous les Skype pour les utilisateurs professionnels de votre organisation entre votre organisation locale et les déploiements en ligne, même si les utilisateurs ne sont pas déplacés vers Skype pour Business Online. Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et en ligne dans votre organisation risque de ne pas fonctionner comme vous le souhaitez.           |
+|Créer un compte client pour Office 365 et activer des Skype pour Business en ligne  <br/> |Découvrez Office 365 et Skype pour les entreprises en ligne sur [Office 365](https://go.microsoft.com/fwlink/p/?LinkId=254980).  <br/> Pour vérifier que votre environnement est prêt pour Office 365, reportez-vous à l’article [Configuration système requise](https://products.office.com/en-US/office-system-requirements).  <br/> Pour plus d’informations sur la configuration d’Office 365, reportez-vous à l’article [Prise en main d’Office 365](https://go.microsoft.com/fwlink/p/?LinkId=254982).  <br/> |
+|Ajouter votre domaine à votre client Office 365 et vérifier la propriété  <br/> | Vous devez l’ajouter à votre client Office 365, puis suivre la procédure de validation avec Office 365. Cela permet de confirmer que vous êtes bien le propriétaire du domaine. <br/> Pour ajouter votre domaine à votre client Office 365, suivez la procédure décrite dans l’article [Ajout de mon domaine à Office 365](https://support.office.com/en-us/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US).  <br/> |
+|Préparer la synchronisation Active Directory  <br/> |La synchronisation Active Directory maintient votre Active Directory local en permanence synchronisé avec Office 365. Cela vous permet de créer des versions synchronisées de chaque groupe et compte d’utilisateur et de synchroniser la liste d’adresses globale de votre environnement Microsoft Exchange Server local vers Microsoft Exchange Online. Pour plus d’informations, reportez-vous à l’article [Outils d’intégration d’annuaire](https://go.microsoft.com/fwlink/p/?LinkId=530320).  <br/>  **IMPORTANT** Vous devez synchroniser les comptes Active Directory pour tous les Skype pour les utilisateurs professionnels de votre organisation entre votre organisation locale et les déploiements en ligne, même si les utilisateurs ne sont pas déplacés vers Skype pour Business Online. Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et en ligne dans votre organisation risque de ne pas fonctionner comme vous le souhaitez.           |
 |Déplacement des utilisateurs pilotes  <br/> |Après avoir terminé les étapes pour préparer et configurer votre environnement pour Skype pour Business Online, vous pouvez démarrer le déplacement d’utilisateurs pilotes vers votre client Office 365 en ligne. Voir [déplacer des utilisateurs à partir de sur site à Skype pour Business Online](move-users-from-on-premises-to-skype-for-business-online.md).  <br/> |
+
+## <a name="related-content"></a>Contenu connexe :
+
+Pour plus d’informations sur la configuration de la connectivité hybride entre Skype pour Business Server et Office 365, voir [configurer la connectivité hybride entre Skype pour Business Server et Office 365](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-hybrid-connectivity).
