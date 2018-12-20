@@ -3,7 +3,7 @@ title: Planification de Microsoft pour le gouvernement 365 - déploiement haute 
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 12/18/2018
+ms.date: 12/19/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -14,19 +14,19 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08e2c2d93aa38d41c8965b622aaa5a5b51652061
-ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
+ms.openlocfilehash: fe90163f53de63c0c0b4c82c510c0c4049188de4
+ms.sourcegitcommit: b4c7f2a0c5660610469fbb67e9810dd3fdcedbaa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 12/19/2018
-ms.locfileid: "27374779"
+ms.locfileid: "27378584"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan pour Microsoft 365 gouvernement - déploiements GCC haute
 
 Ce guide est pour les professionnels de l’informatique qui poussent les déploiements d’Office 365 dans nous entités gouvernementales ou d’autres entités qui gèrent les données est soumis aux réglementations en matière de, où l’utilisation de l’administration de Microsoft 365 – GCC haute est appropriée pour répondre à ces exigences.
 
 > [!NOTE]
-> Si votre organisation a déjà remplies gouvernement 365 Microsoft – conditions GCC haute et appliqués pour et acceptation dans le programme, vous pouvez ignorer les étapes 1 à 4 et passez directement à l’étape 5 pour commencer le déploiement.
+> Si votre organisation a déjà remplies gouvernement 365 Microsoft – conditions GCC haute et appliqués pour et acceptation dans le programme, vous pouvez ignorer les étapes 1 et 2 et passer directement à l’étape 3.
 
 ## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-high-and-meets-eligibility-requirements"></a>Étape 1. Déterminer si votre organisation a besoin pour le gouvernement 365 Microsoft - haute GCC et répond aux conditions requises. 
 
@@ -49,14 +49,27 @@ La [description du service Office 365 américaine](https://docs.microsoft.com/en
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décider si Microsoft 365 gouvernement - haute GCC est approprié pour votre organisation.</li><li>Vérifiez que votre organisation répond aux conditions requises.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Comprendre les fonctionnalités fournies par Microsoft 365 gouvernement - haute GCC.</li></ul>|
 
 > [!Note]
 > Pour le gouvernement Microsoft 365 - haute GCC n’est disponible aux États-Unis. La possibilité à partir d’un certain nombre de [plans Office 365 pour](https://products.office.com/en/government/compare-office-365-government-plans)les clients non – américaine.
 
-## <a name="step-2-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Étape 2. Comprendre les fonctionnalités sont actuellement pas disponible ou désactivé par défaut. 
+## <a name="step-2-apply-for-microsoft-365-government---gcc-high"></a>Étape 2. Appliquer pour le gouvernement Microsoft 365 - GCC haute
 
-Pour prendre en compte les exigences de nos clients du nuage gouvernement, il existe quelques différences entre Microsoft 365 gouvernement - haute GCC et plans d’entreprise. Reportez-vous au tableau suivant pour voir quelles fonctionnalités sont disponibles.
+Ayant décidé que ce service est le bon choix pour votre organisation, démarrer le processus de [l’application de ce service](https://products.office.com/government/eligibility-validation).
+
+
+## <a name="step-3-understand-microsoft-365-government---gcc-high-default-security-settings"></a>Étape 3. Comprendre Microsoft 365 gouvernement - haute GCC paramètres de sécurité par défaut.
+
+Nous vous conseillons temps Lisez attentivement vos [paramètres de sécurité et d’administration](enable-features-office-365.md) avant de les modifier, tenez compte des conséquences sur la conformité avant d’apporter des modifications aux paramètres de sécurité par défaut.
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Décider que si vous devez modifier la valeur par défaut Microsoft 365 gouvernement - paramètres de sécurité élevée GCC, résolu en adresse IP d’abord comprendre l’impact des modifications vous pouvez effectuer.</li></ul> |
+
+
+## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---gcc-high"></a>Étape 4. Comprendre les capacités d’équipes sont actuellement disponibles dans Microsoft 365 gouvernement - haute GCC
+
+Pour prendre en compte les exigences de nos clients du nuage gouvernement, il existe certaines différences entre les équipes Microsoft 365 administrations - haute GCC et les équipes dans les plans d’entreprise. Reportez-vous au tableau suivant pour voir quelles fonctionnalités sont disponibles.
 
 |                             | Fonctionnalité                     | GCC haute       |
 |-----------------------------|-----------------------------|----------------|
@@ -126,24 +139,15 @@ Pour prendre en compte les exigences de nos clients du nuage gouvernement, il ex
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Décider si le gouvernement 365 Microsoft - jeu de fonctions haute GCC répond aux besoins de votre organisation.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Comprendre les paramètres de sécurité par défaut.</li></ul>|
-
-## <a name="step-3-understand-microsoft-365-government---gcc-high-default-security-settings"></a>Étape 3. Comprendre Microsoft 365 gouvernement - haute GCC paramètres de sécurité par défaut.
-
-Nous vous conseillons temps Lisez attentivement vos [paramètres de sécurité et d’administration](enable-features-office-365.md) avant de les modifier, tenez compte des conséquences sur la conformité avant d’apporter des modifications aux paramètres de sécurité par défaut.
-
-|    |     |
-|-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Décider que si vous allez modifier la valeur par défaut Microsoft 365 gouvernement - paramètres de sécurité élevée GCC, résolu en adresse IP d’abord comprendre l’impact des modifications peut avoir.</li></ul> |
-
-## <a name="step-4-apply-for-microsoft-365-government---gcc-high"></a>Étape 4. Appliquer pour le gouvernement Microsoft 365 - GCC haute
-
-Ayant décidé que ce service est le bon choix pour votre organisation, démarrer le processus de [l’application de ce service](https://products.office.com/government/eligibility-validation).
+| ![](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Décider si le jeu de fonctions équipes répond aux besoins de votre organisation.</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>Étape 5. Planifier la gouvernance
 
 Déterminer vos besoins en matière de gouvernance et comment y répondre. Pour plus d’informations, accédez à [planifier la gouvernance dans les équipes](plan-teams-governance.md) .
+
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Point de décision |<ul><li>Déterminer et documenter vos besoins de gouvernance, selon les instructions de [planification de la gouvernance dans les équipes](plan-teams-governance.md). </li></ul>|
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Étape 6. Déployer des équipes pour la collaboration
 
