@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Résumé : Passez en revue les considérations relatives au DNS dans cette rubrique avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: 20e520d0ecb43d098855c434db740592eb7c760c
-ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
+ms.openlocfilehash: 8f47d7de61521c3908a8094bb7c6c866a55c4842
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/29/2018
-ms.locfileid: "26984747"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382853"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Enregistrements DNS requis pour Skype pour Business Server
 
@@ -123,7 +123,7 @@ DNS Split-Brain est une configuration DNS dans laquelle deux zones DNS ont le m�
 ## <a name="hybrid-considerations"></a>Remarque sur les environnements hybrides
 <a name="BK_Hybrid"> </a>
 
-Si vous voulez que certains utilisateurs hébergement en ligne et certains hébergés sur site, reportez-vous à la connectivité hybride articles de planification pour [Skype pour Business Server 2015](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#BKMK_DNS) et [Skype pour Business server 2019](../../../SfBServer2019/hybrid/hybrid-solutions.md). Vous devez configurer DNS comme d’habitude pour Skype pour Business Server 2015 et ajouter des enregistrements DNS supplémentaires.
+Si vous voulez que certains utilisateurs hébergement en ligne et certains hébergés sur site, reportez-vous à la connectivité hybride planification article [Skype pour Business server 2019](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md). Vous devez configurer DNS comme d’habitude pour Skype pour Business Server 2015 et ajouter des enregistrements DNS supplémentaires.
 
 Vous devez également vous reporter à « URL d’Office 365 et l’adresse IP plages » au [https://aka.ms/o365ips](https://aka.ms/o365ips) pour vérifier que vos utilisateurs auront accès aux ressources en ligne dont ils auront besoin.
 
