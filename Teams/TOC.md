@@ -488,6 +488,9 @@
 #### [Qu'est-ce que les plans de numérotation ?](what-are-dial-plans.md)
 #### [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
 ### Système téléphonique
+#### Téléphones pour les équipes
+##### [Téléphones pour les équipes Microsoft](phones-for-teams.md)
+##### [L’achat et le déploiement des téléphones IP des équipes Microsoft](buying-and-deploying-teams-ip-phones.md)
 #### [Qu'est-ce que le système téléphonique dans Office 365 ?](what-is-phone-system-in-office-365.md)
 #### [Configurer le système téléphonique de votre organisation](setting-up-your-phone-system.md)
 #### [Modifier la langue par défaut des messages d'accueil de la messagerie vocale et des courriers électroniques](change-the-default-language-for-greetings-and-emails.md)
