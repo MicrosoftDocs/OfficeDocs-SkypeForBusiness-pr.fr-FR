@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la France.
-ms.openlocfilehash: d1956b9970a84ee9e1e66e6f745a29a0de04d354
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 4845b612b3a1316f8d7ac3da527ae118c6d6681c
+ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674785"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "27382661"
 ---
 # <a name="availability-in-france"></a>Disponibilité en France
 
@@ -62,7 +62,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
 |Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes planifier l’appel interne </li><li>240 minutes planifier l’appel interne</li></li><li>1200 minute de planifier l’appel interne </li></li><li>Nationales et internationales appelant planifier : 1200 minutes d’intérieurs - ou-600 minutes d’appels internationaux (si elle est atteinte premier dans le mois)</li></li> 
-|Peut passer des appels sortants vers les numéros ? <br/> | Oui, entièrement pris en charge pour l’instant. <br/> |
+|Peut passer des appels sortants vers les numéros Français ? <br/> | Oui, entièrement pris en charge lors de l’utilisation de Communications crédits à payer par minute. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
