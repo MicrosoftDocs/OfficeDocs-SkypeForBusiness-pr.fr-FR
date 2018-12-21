@@ -2,6 +2,7 @@
 
 ## [Quelles sont les nouveautés](../whats-new.md)
 ## [Quel est déconseillée](../deprecated.md)
+## [Solutions de téléphonie Microsoft](../hybrid/msft-telephony-solutions.md)
 
 ## [Skype pour les entreprises télécharge et met à jour](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Mises à jour du client](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
