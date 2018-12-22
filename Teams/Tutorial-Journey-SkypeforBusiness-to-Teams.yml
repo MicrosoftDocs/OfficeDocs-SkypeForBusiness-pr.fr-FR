@@ -18,12 +18,12 @@ metadata:
   - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 9bb08e55c9bf84b9402ace38235f870a13af1194
-  ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+  ms.openlocfilehash: d81b5f71c87b69f68f3bdbf4083a828a1c08fccf
+  ms.sourcegitcommit: d00b85ace80af0403efb85b71e5bcc66e76f837b
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 09/25/2018
-  ms.locfileid: "25012488"
+  ms.lasthandoff: 12/22/2018
+  ms.locfileid: "27411124"
 items:
 - durationInMinutes: 1
   content: "Ce didacticiel est une introduction à la Skype pour les entreprises et parcours de mise à niveau de Microsoft Teams notre infrastructure de réussite de mise à niveau de bout en bout. Ce didacticiel vous aideront rapidement à la mise à niveau recommandée et les ressources disponibles pour vous aider dans votre parcours, si vous êtes uniquement prise en main de planification, équipes avec Skype pour les entreprises, en cours d’exécution ou prêts à mettre à niveau vers les équipes.\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]\n\nCette formation vous est destinée si :\n-   INFORMATIQUE chargé de la planification, le déploiement ou la gestion Skype pour les entreprises.\n-   Responsable de la planification de la gestion de changement d’utilisateur au sein de votre organisation.\n-   Intéressé par la présentation de l’approche une mise à niveau à partir de Skype pour les entreprises aux équipes de votre organisation.\n\nNous allons le voir dans les détails sur la façon dont ces deux produits se retrouvent et expliquent les étapes à suivre aujourd'hui pour préparer un Skype existant pour un environnement d’entreprise pour les équipes. \n\nNous allons aborder le cadre pour vous aider à planifier et exécuter votre mise à niveau, avec une vue d’ensemble des activités clées pour une expérience optimale parmi préparation technique et utilisateur.\n\nLes principaux objectifs de ce didacticiel sont les suivants :\n-   Explorez les chemins de mise à niveau disponibles pour vous aider à planifier votre mise à niveau.\n-   Découvrez les étapes essentielles requises pour préparer et implémenter votre mise à niveau.\n-   Identifier les instructions approfondie, les modèles et les ressources disponibles pour vous aider dans votre parcours.\n-   Partager des étapes suivantes pour commencer à utiliser notre guide.\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\nSi vous avez des questions ou des commentaires sur cette formation, Veuillez publier dans la section des commentaires en bas de la page « Étapes » de ce didacticiel.\n\nPour nous faire part de vos commentaires sur Teams, tels que des idées de nouvelles fonctionnalités, visitez [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"
@@ -97,24 +97,4 @@ items:
   content: "\nMaintenant que vous avez déplacé tous les utilisateurs à des équipes, vous devez obtenir assurer que le service fournit de grande qualité et que les utilisateurs sont réellement l’utiliser. Lecture [du lecteur optimal avec les équipes Microsoft](https://aka.ms/SkypeToTeams-Operate) (durée estimée lecture 3 minutes) pour en savoir plus sur l’utilisation et la qualité de mesure pour les équipes.\n"
 - title: En savoir plus
   durationInMinutes: 1
-  content: >
-    Au cours de cette formation, nous avons abordé les sujets suivants :
-
-    -   Explorez les chemins de mise à niveau disponibles pour vous aider à planifier votre mise à niveau.
-
-    -   Découvrez les étapes essentielles requises pour préparer et implémenter votre mise à niveau.
-
-    -   Identifier les instructions approfondie, les modèles et les ressources disponibles pour vous aider dans votre parcours.
-
-    -   Partager des étapes suivantes pour commencer à utiliser notre guide.
-
-
-    ### <a name="next-steps"></a>Étapes suivantes
-
-    1.  Visiter la page [http://SkypeandTeams.com](http://skypeandteams.com/) pour obtenir les informations les plus récentes sur Skype Entreprise et Teams
-
-    2.  Planifier votre parcours de Skype pour les entreprises à des équipes
-
-    3.  Nous faire part de vos commentaires
-        -    Publiez-les dans la section Commentaires au bas de cette page.
-        -   Pour nous faire part de vos commentaires sur le produit Teams, ou pour demander une nouvelle fonctionnalité, rendez-vous sur [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+  content: "Au cours de cette formation, nous avons abordé les sujets suivants :\n-   Explorez les chemins de mise à niveau disponibles pour vous aider à planifier votre mise à niveau.\n-   Découvrez les étapes essentielles requises pour préparer et implémenter votre mise à niveau.\n-   Identifier les instructions approfondie, les modèles et les ressources disponibles pour vous aider dans votre parcours.\n-   Partager des étapes suivantes pour commencer à utiliser notre guide.\n\n### <a name=\"next-steps\"></a>Étapes suivantes\n1.  Visiter la page [http://SkypeandTeams.com](http://skypeandteams.com/) pour obtenir les informations les plus récentes sur Skype Entreprise et Teams\n2.  Planifier votre parcours de Skype pour les entreprises à des équipes\n3.  Nous faire part de vos commentaires\n    -    Publiez-les dans la section Commentaires au bas de cette page.\n    -   Pour nous faire part de vos commentaires sur le produit Teams, ou pour demander une nouvelle fonctionnalité, rendez-vous sur [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n \n Si vous avez besoin d’aide à la planification et de déploiement, vous pouvez demander l’aide de [FastTrack](https://fasttrack.microsoft.com/en-us/portal.html#/register) (vous devez vous connecter).\n\n Revenez à la [mise à niveau à partir de Skype pour les entreprises aux équipes](journey-skypeforbusiness-teams.md).\n"
