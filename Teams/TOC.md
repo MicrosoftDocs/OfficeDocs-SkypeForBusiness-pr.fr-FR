@@ -90,6 +90,7 @@
 ### [Gérer l’offre de la version d’évaluation des équipes](iw-trial-teams.md)
 ### [Équipes gratuits de mise à niveau vers la version d’abonnement Office 365](upgrade-freemium.md)
 ## Appareils pris en charge
+### [Gérer vos périphériques dans les équipes](device-management.md)
 ### [Téléphones IP](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Périphériques audio et vidéo USB](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Solutions et appareils de salle de réunion](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -490,7 +491,7 @@
 #### [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
 ### Système téléphonique
 #### Téléphones pour les équipes
-##### [Téléphones pour les équipes Microsoft](phones-for-teams.md)
+##### [Téléphones pour Microsoft Teams](phones-for-teams.md)
 ##### [L’achat et le déploiement des téléphones IP des équipes Microsoft](buying-and-deploying-teams-ip-phones.md)
 #### [Qu'est-ce que le système téléphonique dans Office 365 ?](what-is-phone-system-in-office-365.md)
 #### [Configurer le système téléphonique de votre organisation](setting-up-your-phone-system.md)
@@ -518,7 +519,7 @@
 #### [Configurer un contrôleur de frontière de session pour plusieurs clients](direct-routing-sbc-multiple-tenants.md)
 #### [Liste des contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md)
 #### Référence technique pour le routage Direct
-##### [Basculement de jonction pour les appels sortants](direct-routing-trunk-failover-on-outbound-call.md)
+##### [Basculement de jonction sur les appels sortants](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Flux des appels équipes Microsoft Online](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
