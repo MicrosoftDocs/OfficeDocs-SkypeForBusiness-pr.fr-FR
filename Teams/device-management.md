@@ -1,5 +1,5 @@
 ---
-title: Gérer vos périphériques dans Microsoft Teams
+title: Gérer vos périphériques dans Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,19 +12,19 @@ description: Découvrez comment gérer les périphériques utilisés dans les é
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97fd4b8d7f613c6d3f435f2d505bbd2cf99d4b10
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: dff307b1bd4ede3e8999a78a5e6a8df36b8a1411
+ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531775"
+ms.lasthandoff: 12/28/2018
+ms.locfileid: "27458549"
 ---
-# <a name="manage-your-devices-in-microsoft-teams"></a>Gérer vos périphériques dans Microsoft Teams
+# <a name="manage-your-devices-in-microsoft-teams"></a>Gérer vos périphériques dans Microsoft Teams
 
  En tant qu’administrateur, vous gérez tous les périphériques utilisés dans les équipes de votre organisation depuis le centre Microsoft Teams & Skype pour entreprise centre d’administration. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation et effectuer des tâches telles que la mise à jour, de redémarrage et surveiller les diagnostics pour les appareils. Vous pouvez également créer et affecter des profils de configuration pour un périphérique ou des groupes de périphériques. 
 
 ## <a name="what-devices-can-you-manage"></a>Quels appareils pouvez-vous gérer ?
-Appareils doivent être certifiées pour les équipes et inscrit dans les équipes. Un périphérique est inscrit automatiquement la première fois qu’un utilisateur se connecte aux équipes sur l’appareil. 
+Appareils doivent être certifiées pour les équipes et inscrit dans les équipes. Un périphérique est inscrit automatiquement la première fois qu’un utilisateur se connecte aux équipes sur l’appareil. Pour obtenir la liste des périphériques certifiés qui peuvent être gérés, voir [téléphones de conférence](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=ddb1bc66-7499-4823-8d2b-a2c6dbe4f716) et les [téléphones de bureau](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=c6536b33-f554-4b55-bd3d-c98733ebc017&page=1&filters=).
 
 > [!NOTE]
 > Si vous avez Microsoft Intune, périphériques sont automatiquement inscrits dans Intune. Une fois un périphérique est inscrit, conformité périphérique est confirmée et stratégies d’accès conditionnel sont appliquées à l’appareil. 

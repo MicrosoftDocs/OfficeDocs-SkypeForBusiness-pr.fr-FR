@@ -1,9 +1,9 @@
 ---
-title: Prendre des décisions de service de conférence Audio - Microsoft Teams
+title: Prendre des décisions pour le service d’audioconférence - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 03/13/2018
+ms.date: 12/28/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81dca894a378c5331c34b5840108e63536c8ac37
-ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
+ms.openlocfilehash: 0057f18d334c89f745ec74952fd01796c8b30880
+ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25597837"
+ms.lasthandoff: 12/28/2018
+ms.locfileid: "27458501"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -360,6 +360,7 @@ Pour en savoir plus sur les plans de numérotation, voir [Quels sont les plans d
 > ||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
+
 > [!TIP]
 > Le modèle d'exemple ci-après peut être utilisé pour documenter les attributions de plan de numérotation afin de prendre en charge votre projet :
 >
