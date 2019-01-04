@@ -1,9 +1,9 @@
 ---
-title: Planification de Microsoft pour le gouvernement 365 - déploiements GCC - Microsoft Teams
+title: Se préparer pour Microsoft 365 Secteur public - Déploiements GCC - Microsoft Teams
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 12/19/2018
+ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 978f9d6b298bb1376b236a883dad836d6e6b5860
-ms.sourcegitcommit: b4c7f2a0c5660610469fbb67e9810dd3fdcedbaa
+ms.openlocfilehash: 28827be78c93a3ea3a922d16bb9d985d3439ad7a
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27378576"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544199"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan pour Microsoft 365 gouvernement - déploiements GCC
 
@@ -151,7 +151,7 @@ Déterminer vos besoins en matière de gouvernance et comment y répondre. Pour 
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Étape 6. Déployer des équipes pour la collaboration
 
-Une fois que vous avez été onboarded Microsoft 365 gouvernement - GCC, vous pouvez suivre l’approche de déploiement standard de l’utilisation [FastTrack](https://fasttrack.microsoft.com/fasttrack-faq) et votre partenaire intégré au service que vous avez choisie.
+Une fois que vous avez été onboarded Microsoft 365 gouvernement - GCC, vous pouvez suivre l’approche de déploiement standard de l’utilisation [FastTrack](https://www.microsoft.com/fasttrack) et votre partenaire intégré au service que vous avez choisie.
 
 Lorsque vous êtes prêt, déployez équipes pour [Activer la collaboration au sein de votre organisation via les équipes et les canaux](teams-overview.md). Veillez à prendre part avec votre équipe d’Adoption et de gestion des modifications ou les champions équipes.
 

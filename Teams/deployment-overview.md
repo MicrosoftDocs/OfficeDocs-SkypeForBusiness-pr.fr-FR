@@ -3,7 +3,7 @@ title: Présentation d'un déploiement de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5e00eb139e25061726dfe080c90457efd87da96
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e878fb50157e3c62c3425dfcea6d45e29a3be781
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016468"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544135"
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Présentation d'un déploiement de Microsoft Teams
 ========================================
@@ -45,7 +45,7 @@ Voici un exemple de la configuration d'une structure d'équipe / de canal vous p
 
 |Nom de l'équipe |Canaux  |Onglets  |
 |---------|---------|---------|
-|Déploiement des équipes<br></br>Membres :<ul><li>Organisateur du projet</li><li>Analyste commercial</li><li>Gestionnaire de projets</li><li>Professionnel informatique pour la collaboration</li><li>Professionnel informatique pour la mise en réseau</li><li>Responsable de l'adoption </li><li>Responsable du support</li></ul>Propriétaires : <ul><li>Gestionnaire de projets</li><li>Professionnel informatique pour la collaboration</li></ul>      |Planification et préparation<br></br> Adoption<br></br> Lancement<br></br> support<br></br> Aperçus<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Lien vers la page Web du guide pratique de Microsoft Teams ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
+|Déploiement des équipes<br></br>Membres :<ul><li>Organisateur du projet</li><li>Analyste commercial</li><li>Gestionnaire de projets</li><li>Professionnel informatique pour la collaboration</li><li>Professionnel informatique pour la mise en réseau</li><li>Responsable de l'adoption </li><li>Responsable du support</li></ul>Propriétaires : <ul><li>Gestionnaire de projets</li><li>Professionnel informatique pour la collaboration</li></ul>      |Planification et préparation<br></br> Adoption<br></br> Lancement<br></br> support<br></br> Aperçus<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Lier des conseils pratiques pour la page web de Microsoft Teams ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
 
 Cette configuration se présenterait comme suit dans Microsoft Teams :
 
@@ -61,3 +61,11 @@ Cette configuration se présenterait comme suit dans Microsoft Teams :
 
 
 Pour effectuer le suivi de ces points de décision, téléchargez le questionnaire de planification technique dans le [Guide de démarrage rapide : Activation réussie de Teams](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
+
+## <a name="how-microsoft-deployed-teams"></a>Comment Microsoft a déployé les équipes
+
+Pour voir comment Microsoft a déployé et est à l’aide de Microsoft Teams pour la collaboration, voir :
+
+- [Déploiement de Microsoft Teams simplifie la collaboration et améliore le travail d’équipe](https://www.microsoft.com/itshowcase/Article/Content/1013/Deploying-Microsoft-Teams-streamlines-collaboration-and-improves-teamwork)
+- [Microsoft Teams augmente la collaboration dans l’espace de travail moderne chez Microsoft](https://www.microsoft.com/itshowcase/Article/Content/1012/Microsoft-Teams-increases-collaboration-in-the-modern-workplace-at-Microsoft)
+

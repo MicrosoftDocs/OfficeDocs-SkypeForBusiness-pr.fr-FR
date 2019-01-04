@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55f1a2ae8c958dba9dbdd71b9b271944dad1f50c
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 51d0de81701983fb64c60c5c4e29b9e6511b6357
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674552"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544143"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -110,17 +110,24 @@ Le tableau suivant montre les fonctionnalités de réunion et appel disponibles 
   
 ## <a name="frequently-asked-questions"></a>Forum aux questions
   
-Q. Les invités ont des mêmes fonctionnalités que les membres de l’équipe ? A. n° Pour plus d’informations sur un rôle Invité peut et ne peut pas faire, accédez à fonctionnalités invité dans les équipes.
+Q. Les invités ont des mêmes fonctionnalités que les membres de l’équipe ?<br>
+A. Non Pour plus d’informations sur un rôle Invité peut et ne peut pas faire, accédez à fonctionnalités invité dans les équipes.
 
-Q. Les invités combien puis-je inviter ? R. vous pouvez ajouter jusqu'à 5 invités par l’utilisateur sous licence.
+Q. Les invités combien puis-je inviter ?<br>
+A. Vous pouvez ajouter jusqu'à 5 invités par l’utilisateur sous licence.
 
-Q. Invités ont accès à OneDrive entreprise ? A. n°
+Q. Invités ont accès à OneDrive entreprise ?<br>
+A. Non
 
-Q. Invités ont accès aux fichiers SharePoint ? R. Oui.
+Q. Invités ont accès aux fichiers SharePoint ?<br>
+A. Oui.
 
-Q. Les invités peuvent rechercher dans les fichiers ? A. n°
+Q. Les invités peuvent rechercher dans les fichiers ?<br>
+A. Non
 
-Q. Les invités peuvent joindre des fichiers ? R. Oui, invité permettre joindre des fichiers de ces deux manières : • sélectionnez fichiers dans le volet gauche, puis accédez à l’emplacement du fichier.
+Q. Les invités peuvent joindre des fichiers ?<br>
+A. Oui, invité permettre joindre des fichiers de ces deux manières : • sélectionnez fichiers dans le volet gauche, puis accédez à l’emplacement du fichier.
 • Téléchargement à partir de leur ordinateur.
 
-Q. Pouvez invité télécharger un fichier dans une conversation privée ? R. Oui, qu’ils peuvent recevoir un fichier d’un membre d’une conversation privée, puis le télécharger sur leur bureau.
+Q. Pouvez invité télécharger un fichier dans une conversation privée ?<br>
+A. Oui, ils peuvent recevoir un fichier d’un membre d’une conversation privée, puis le télécharger sur leur bureau.
