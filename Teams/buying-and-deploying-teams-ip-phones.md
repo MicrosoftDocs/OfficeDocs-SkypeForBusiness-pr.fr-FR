@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Pour les clients qui ont besoin des téléphones de bureau et des téléphones de salle de conférence pour émettre et recevoir des appels audio ou participer à des réunions, Teams Microsoft offre un portefeuille croissant de périphériques. Les clients peuvent acheter directement ces périphériques nos équipes Marketplace.
-ms.openlocfilehash: b5dda1a8deb88278d1a3be1caefa7ef8eb90d933
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: f84bf50e7139b82c97af47e62fc128f5a178b5d0
+ms.sourcegitcommit: a4fed143f0e906c2b70933dd2db8f751e4eb46ba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27383121"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27747968"
 ---
 # <a name="buying-and-deploying-microsoft-teams-ip-phones"></a>L’achat et le déploiement des téléphones IP des équipes Microsoft
 
@@ -33,8 +33,8 @@ Téléphones doivent être sur une version de microprogramme minimale répertori
 |Crestron flexible P100-T/P110-T    |Bientôt disponible|Bientôt disponible
 |Crestron M100|2.3875.00068|2018 déc|       
 |Polycom Trio   |Bientôt disponible|Bientôt disponible|   
-|Yealink CP 960 |73.15.0.11|2018 déc
-|Série Yealink T58/T56 |58.15.0.11|2018 déc|
+|Yealink CP 960 |73.15.0.20|2018 déc
+|Série Yealink T58/T56 |58.15.0.20|2018 déc|
 
 
 La version de microprogramme minimale peut être archivée sur la page de connexion équipes en choisissant l’icône **paramètres** dans le coin supérieur droit, puis sur **à propos**.
@@ -56,4 +56,4 @@ Pour plus d’informations sur l’obtention des équipes, consultez la rubrique
 
 ## <a name="see-also"></a>Voir aussi
 
-[Téléphones pour les équipes Microsoft](phones-for-teams.md)
+[Téléphones pour Microsoft Teams](phones-for-teams.md)
