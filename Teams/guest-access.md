@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8db3f5e451e9b1a68588af637f10a908f7fa5ff9
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: a486fb17e5ce09d7084d013479ab3087bcbe3f07
+ms.sourcegitcommit: 370741f97ed8ea5026f73ec97de2f89b223df9fa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674504"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27760534"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 ======================================
@@ -33,7 +33,7 @@ L’accès invité est une des fonctionnalités de clients ont demandé le plus.
 - Partagez votre expérience dans la section Commentaires ci-dessous.
 
 
-Accès invité permet aux équipes de votre organisation de collaborer avec des personnes extérieures à votre organisation par leur accorder l’accès pour les équipes et les canaux sur un ou plusieurs de vos clients. Toute personne possédant un compte de messagerie consommateur ou de l’entreprise, comme Outlook, Gmail ou d’autres personnes, peut participer à en tant qu’invité dans les équipes avec accès total aux conversations de l’équipe, des réunions et des fichiers.
+Accès invité permet aux équipes de votre organisation de collaborer avec des personnes extérieures à votre organisation par leur accorder l’accès pour les équipes et les canaux sur un ou plusieurs de vos clients. Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes.
 
 L’accès invité est inclus avec Office 365 entreprise Premium, Office 365 pour entreprises et Office 365 éducation tous les abonnements avec aucune exigence supplémentaire pour les licences. Vous pouvez avoir jusqu'à 5 invités par l’utilisateur sous licence sur votre client. Pour plus d’informations sur les licences, consultez les [instructions de gestion des licences de collaboration Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance). 
 
@@ -44,7 +44,7 @@ L'accès invité est un paramètre de niveau client dans Microsoft Teams, désa
 
 ## <a name="who-is-a-guest"></a>Qui est invité ?
 
-Un invité est une personne qui n'est ni un employé, ni un étudiant ni un membre de votre organisation. Il ne dispose pas d'aucun compte scolaire ni professionnel lié à votre organisation. Il peut par exemple s'agir de partenaires, sous-traitants, fournisseurs ou consultants. Toute personne qui ne fait pas partie de votre organisation peut être ajouté en tant qu’invité dans les équipes. Cela signifie que toute personne possédant un compte professionnel (c'est-à-dire un compte Azure Active Directory) ou le compte de messagerie consommateur (avec Outlook.com, Gmail.com ou d’autres personnes) peut participer à en tant qu’invité dans les équipes, avec un accès complet aux équipes et une expérience de canal. (Vous pouvez en savoir plus sur les restrictions invité dans [Autoriser l’accès invité dans les équipes Microsoft](teams-dependencies.md).) Tous les invités dans les équipes sont couverts par la même conformité et audit protection en tant que le reste d’Office 365 et peuvent être gérées de manière sécurisée dans Azure AD. Tous les invités dans les équipes sont couverts par la même conformité et audit protection en tant que le reste d’Office 365 et peuvent être gérées de manière sécurisée dans Azure AD.
+Un invité est une personne qui n'est ni un employé, ni un étudiant ni un membre de votre organisation. Il ne dispose pas d'aucun compte scolaire ni professionnel lié à votre organisation. Il peut par exemple s'agir de partenaires, sous-traitants, fournisseurs ou consultants. Toute personne qui ne fait pas partie de votre organisation peut être ajouté en tant qu’invité dans les équipes. Cela signifie que toute personne possédant un compte professionnel (c'est-à-dire un compte Azure Active Directory) ou le compte de messagerie consommateur (avec Outlook.com, Gmail.com ou d’autres personnes) peut participer à en tant qu’invité dans les équipes, avec un accès complet aux équipes et une expérience de canal. (Vous pouvez en savoir plus sur les restrictions invité dans [Autoriser l’accès invité dans les équipes Microsoft](teams-dependencies.md).) Tous les invités dans les équipes sont couverts par la même conformité et audit protection en tant que le reste d’Office 365 et peuvent être gérées de manière sécurisée dans Azure AD. 
 
 ## <a name="why-use-guest-access"></a>Pourquoi utiliser l’accès invité ?
       

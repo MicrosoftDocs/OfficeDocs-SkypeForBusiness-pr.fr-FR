@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Pour les clients qui ont besoin des téléphones de bureau et des téléphones de salle de conférence pour émettre et recevoir des appels audio ou participer à des réunions, Teams Microsoft offre un portefeuille croissant de périphériques. Les clients peuvent acheter directement ces périphériques nos équipes Marketplace.
-ms.openlocfilehash: f84bf50e7139b82c97af47e62fc128f5a178b5d0
-ms.sourcegitcommit: a4fed143f0e906c2b70933dd2db8f751e4eb46ba
+ms.openlocfilehash: c91a20f100e8edf9b7a6d9897b693ec0f511657f
+ms.sourcegitcommit: 370741f97ed8ea5026f73ec97de2f89b223df9fa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/08/2019
-ms.locfileid: "27747968"
+ms.locfileid: "27760558"
 ---
 # <a name="buying-and-deploying-microsoft-teams-ip-phones"></a>L’achat et le déploiement des téléphones IP des équipes Microsoft
 
@@ -27,7 +27,7 @@ Pour les clients qui ont besoin des téléphones de bureau et des téléphones d
 
 Téléphones doivent être sur une version de microprogramme minimale répertoriés dans le tableau ci-dessous pour exécuter Microsoft Teams en mode natif.
 
-|Modèle de téléphone|Version du microprogramme|Date de publication|
+|Modèle de téléphone|Version du microprogramme|Date de publication |
 |---|---|---|---|
 |AudioCodes C450HD| Bientôt disponible |Bientôt disponible|
 |Crestron flexible P100-T/P110-T    |Bientôt disponible|Bientôt disponible
