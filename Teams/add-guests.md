@@ -1,7 +1,7 @@
 ---
 title: Ajouter un invité à une équipe
-author: LaithAlShamri
-ms.author: laal
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.reviewer: sbhatta
 description: Découvrez les outils disponibles pour qu'un administrateur ajoute de nouveaux utilisateurs invités à une organisation, y compris les clients web et de bureau de Microsoft Teams et le portail de collaboration Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 729490af1c1e15b82d62dc35386e9ad4344d863a
-ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
+ms.openlocfilehash: efd44fade33f611148dc2ab4ca9afb4040705123
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/29/2018
-ms.locfileid: "26984733"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772739"
 ---
 <a name="add-a-guest-to-a-team"></a>Ajouter un invité à une équipe
 =====================

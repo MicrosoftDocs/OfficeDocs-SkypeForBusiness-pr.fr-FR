@@ -1,7 +1,7 @@
 ---
 title: Comment un invité rejoint une équipe
-author: LolaJacobsen
-ms.author: rramesan
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 10/20/17
 ms.topic: article
@@ -12,17 +12,17 @@ search.appverid: MET150
 description: Obtenez une brève présentation générale de la manière dont un invité est invité à rejoindre une équipe dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1d1de994792aa683e6ed202c54586cd985e8ab3
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 2360d6985b3d047dc6b5159a8dd45d0f1da38223
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674472"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772752"
 ---
 <a name="how-a-guest-joins-a-team"></a>Comment un invité rejoint une équipe
 ========================
 
-Dans Microsoft Teams, le propriétaire d'une équipe peut ajouter et gérer des invités dans ses équipes via le client Web ou de bureau. Toute personne possédant un compte de messagerie consommateur ou de l’entreprise, comme Outlook, Gmail ou d’autres personnes, peut participer à en tant qu’invité dans les équipes avec accès total aux conversations de l’équipe, des réunions et des fichiers. Seules des personnes externes à votre organisation, comme des partenaires ou des consultants, peuvent être ajoutées en tant qu'invités. Les personnes au sein de l'organisation peuvent rejoindre une équipe en tant que membres ordinaires.
+Dans Microsoft Teams, le propriétaire d'une équipe peut ajouter et gérer des invités dans ses équipes via le client Web ou de bureau. Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes. Seules des personnes externes à votre organisation, comme des partenaires ou des consultants, peuvent être ajoutées en tant qu'invités. Les personnes au sein de l'organisation peuvent rejoindre une équipe en tant que membres ordinaires.
   
     
     
