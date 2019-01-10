@@ -99,11 +99,9 @@
 
 
 <!-- ============================================================ -->
-# [Mise à niveau de Skype Entreprise vers Teams](Journey-SkypeforBusiness-Teams.md)
-## [Didacticiel : Transition de Skype Entreprise à Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Mise à niveau de base](upgrade-basic.md)
-### [Enquêtes et e-mails exemples](upgrade-emails-surveys.md)
-## [Mise à niveau des professionnels de l’informatique](upgrade-pro.md)
+# [Mise à niveau vers des équipes](upgrade-introduction.md)
+## [Prise en main](upgrade-start-here.md)
+## [À propos de l’infrastructure de mise à niveau](upgrade-framework.md)
 ## [Planifier votre voyage au pays de mise à niveau](upgrade-plan-journey.md)
 ### [Inscrire les parties prenantes du projet](upgrade-enlist-stakeholders.md)
 ### [Définir l’étendue de votre projet](upgrade-define-project-scope.md)
@@ -120,22 +118,22 @@
 ### [Évaluer la préparation de la modification de l’organisation](upgrade-org-change-readiness.md)
 ### [Préparation d’un plan de préparation des utilisateurs](upgrade-user-readiness.md)
 ## [Réaliser un pilote d’utilisateur](pilot-essentials.md)
-## [Effectuer la mise à niveau pour les équipes](upgrade-to-teams.md)
-### [Mise à niveau à partir de Skype pour les entreprises en ligne aux équipes](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-### [Mise à niveau à partir de Skype pour un environnement hybride Business équipes](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [Mise à niveau à partir de Skype pour l’entreprise locale aux équipes](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
-## [Valeur de lecteur par le biais d’adoption d’utilisateur](continue-journey.md)
+## [Mise à niveau à partir de Skype pour les entreprises en ligne aux équipes](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+## [Mise à niveau à partir de Skype pour hybride Business ou locale aux équipes](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+## [Faire fonctionner, d’adoption et optimiser](continue-journey.md)
 ### [Utiliser votre service](upgrade-operate-my-service.md)
 ### [Contrôler la qualité](upgrade-monitor-quality.md)
 ### [Améliorer votre service](upgrade-enhance-my-service.md)
+## [Didacticiel : Transition de Skype Entreprise à Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
-
+## Informations supplémentaires
+### [Migration et interopérabilité avec Skype pour les entreprises](migration-interop-guidance-for-teams-with-skype.md)
+### [Coexistence avec Skype Entreprise](coexistence-chat-calls-presence.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Interopérabilité avec Office 365
-## [Migration et interopérabilité avec Skype pour les entreprises](migration-interop-guidance-for-teams-with-skype.md)
-## [Coexistence avec Skype Entreprise](coexistence-chat-calls-presence.md)
+
 ## [Définir votre coexistence et les paramètres de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
 ## [Groupes Office 365 et Microsoft Teams](office-365-groups.md)
 ## [Améliorer les groupes Office 365 existants avec Teams](enhance-office-365-groups.md)
