@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Découvrez comment utiliser les onglets intégrés et personnalisés pour inclure des fonctionnalités telles des conversations, des fichiers, des mappages, et plus encore.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01e74b526058842819e219fcaa34109a7f954ad4
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: dca1d1a49a749991c97e2e8807557c457f1b67f6
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294674"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788956"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Utiliser les onglets intégrés et personnalisés dans Microsoft Teams
 ==================================================
@@ -51,7 +51,7 @@ Les propriétaires et les membres de l’équipe peuvent ajouter des onglets à 
 
 ## <a name="develop-custom-tabs"></a>Développer des onglets personnalisés
 
-Outre les onglets intégrés, vous pouvez concevoir et développer vos propres onglets pour intégrer des équipes ou partager avec le reste de la Communauté.
+Outre les onglets intégrés, vous pouvez concevoir et développer vos propres onglets pour intégrer des équipes ou partager avec le reste de la Communauté. Vous pouvez [contrôler l’accès à l’onglet personnalisé](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access) en configurant les groupes appropriés Office 365.
 
 Microsoft Developer Network fournit des [instructions détaillées](https://go.microsoft.com/fwlink/?linkid=855786) pour concevoir et créer vos propres onglets et les [onglets exemple](https://go.microsoft.com/fwlink/?linkid=855787) développé par Microsoft que vous pouvez télécharger.
 

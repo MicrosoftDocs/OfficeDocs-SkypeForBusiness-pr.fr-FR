@@ -8,26 +8,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'En règle générale, le carnet d’adresses est migré avec le reste de votre topologie. Toutefois, vous devrez peut-être effectuer certaines étapes postérieures à la migration si vous avez personnalisé les éléments suivants dans votre environnement hérité :'
-ms.openlocfilehash: 01279284086499b112028644ea0e1ca2fc708dd0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 081246acaaede37ab7f7f204a3f7204d9b25fbcc
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370768"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788993"
 ---
 # <a name="migrate-address-book"></a>Migrer le carnet d’adresses
 
 En règle générale, le carnet d’adresses est migré avec le reste de votre topologie. Toutefois, vous devrez peut-être effectuer certaines étapes postérieures à la migration si vous avez personnalisé les éléments suivants dans votre environnement hérité : 
 
-- Définissez la propriété WMI **PartitionbyOU** pour regrouper les entrées du carnet d’adresses par unité d’organisation (UO). 
-
 - Personnaliser les règles de normalisation du carnet d’adresses.
 
 - Modifié la valeur par défaut pour le paramètre **UseNormalizationRules** sur False. 
 
-  **Entrées de carnet d’adresses groupées**
-
-Si vous définissez la propriété WMI **PartitionbyOU** sur True pour créer des carnets d’adresses pour chaque unité d’organisation, vous devez définir l’attribut Active Directory **msRTCSIP-GroupingId** sur les utilisateurs et les contacts si vous souhaitez continuer le regroupement des entrées de carnet d’adresses. Vous souhaitez entrées de carnet d’adresses de groupe pour limiter l’étendue des recherches de carnet d’adresses. Pour utiliser l’attribut **msRTCSIP-GroupingId** , écrire un script pour renseigner l’attribut affecter la même valeur pour tous les utilisateurs que vous souhaitez regrouper. Par exemple, affecter une valeur pour tous les utilisateurs dans une unité d’organisation. 
 
  **Règles de normalisation de carnet d’adresses**
 
@@ -67,7 +62,7 @@ Si vous définissez la valeur de **UseNormalizationRules** sur False afin que le
 
 1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Microsoft Skype pour Business Server 2019**, puis cliquez sur **Skype pour Business Server Management Shell**.
 
-2. Procédez selon l'une des méthodes suivantes :
+2. Effectuez l’une des actions suivantes :
 
    - Si votre déploiement comprend uniquement Skype pour Business Server 2019, exécutez la cmdlet suivante au niveau global pour modifier les valeurs des **paramètres UseNormalizationRules** et **IgnoreGenericRules** sur True : 
 

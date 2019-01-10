@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Cet article fournit des instructions sur le nombre de serveurs vous avez besoin sur un site pour le nombre d’utilisateurs sur le site, en fonction de l’utilisation décrite dans modèles utilisateur Skype pour Business Server.
-ms.openlocfilehash: 3a1838200e4590649fd290530a50fba3015b670f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1e802bc130086bcefc8fd06cbacd3f21222d6d0a
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261601"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789404"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Planification de capacité l’utilisation du modèle utilisateur pour Skype pour Business Server
 
@@ -33,9 +33,9 @@ Nous avons réalisé nos tests de performances sur le matériel décrit dans le 
 |**Composant matériel**|**Recommandation**|
 |:-----|:-----|
 |Processeur  <br/> |Biprocesseur 64 bits, six cœurs, 2,26 GHz ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype pour les rôles de serveur Business Server.  <br/> |
-|Mémoire  <br/> |32 giga-octets (Go).  <br/> &bull;&nbsp;&nbsp;lecteurs de disque dur 8 ou plus de 10 000 RPM avec au moins 72 Go d’espace.  <br/> Deux de ces disques doivent utiliser RAID 1 et six doivent utiliser RAID 10.  <br/> - OU -  <br/> &bull;&nbsp;&nbsp;SSD (Solid) qui fournit des performances similaires à 8 10 000 RPM disques durs mécaniques.  <br/> |
-|Disque  <br/> ||
-|Réseau  <br/> |&bull;&nbsp;&nbsp;1 carte réseau double port, 1 Gbits/s ou supérieur (2 recommandé, ce qui nécessite l’association avec une adresse MAC unique et une adresse IP unique).  <br/> |
+|Mémoire  <br/> |32 giga-octets (Go).  <br/> |
+|Disque  <br/> |8 disques durs ou plus 10 000 tr/min avec au moins 72 Go d’espace disponible. Deux de ces disques doivent utiliser RAID 1 et six doivent utiliser RAID 10.  <br/> - OU - <br/>SSD (Solid) qui fournit des performances similaires à 8 10 000 RPM disques durs mécaniques. <br/> |
+|Réseau  <br/> |1 carte réseau double port, 1 Gbits/s ou supérieur (2 recommandé, ce qui nécessite l’association à une seule adresse MAC et une seule adresse IP).  <br/> |
 
 ## <a name="summary-of-results"></a>Résumé des résultats
 
@@ -81,7 +81,7 @@ Le tableau suivant montre la bande passante moyenne pour la messagerie instantan
 |1,3 Kbits/s  <br/> |13 Mbits/s  <br/> |
 
 > [!NOTE]
-> Pour améliorer les performances multimédias de localisée au même emplacement A / V conférence et le serveur de médiation fonctionnalité sur vos serveurs frontaux, vous devez activer la côté réception montée en puissance (RSS) sur les cartes réseau sur vos serveurs frontaux. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, voir [Côté réception mise à l’échelle (RSS) dans la documentation de Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Pour plus d’informations sur l’activation de RSS, vous devrez vous reporter à la documentation de votre carte réseau.
+> Pour améliorer les performances multimédias de localisée au même emplacement A / V conférence et le serveur de médiation fonctionnalité sur vos serveurs frontaux, vous devez activer la côté réception montée en puissance (RSS) sur les cartes réseau sur vos serveurs frontaux. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la rubrique [Receive Side Scaling (RSS) de la documentation de Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Pour plus d’informations sur l’activation de RSS, vous devrez vous reporter à la documentation de votre carte réseau.
 
 ## <a name="conferencing-maximums"></a>Nombre maximal de conférences
 
@@ -116,7 +116,7 @@ Si vous déployez le rôle serveur directeur, nous vous recommandons de déploye
 
 Lorsque vous comptez le nombre d’utilisateurs pour les directeurs, ajoutez les utilisateurs hébergés sur Survivable Branch Appliances et serveurs Survivable Branch Server dans les succursales qui sont associés à un pool frontal sur ce site.
 
-## <a name="mediation-server"></a>Serveur de médiation
+## <a name="mediation-server"></a>serveur de médiation
 
 > [!NOTE]
 > Les pools étendus ne sont pas pris en charge pour ce rôle serveur.
@@ -155,7 +155,7 @@ Tous les tableaux suivants présupposent une utilisation résumées dans [modèl
 
 Bien que la plupart des informations de base de données est stockée principalement sur les serveurs frontaux, vous devez vous assurer que vos serveurs principaux répondent aux recommandations matérielles répertoriées plus haut dans cette section et [Plateformes matérielles de serveur](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
-Pour fournir une haute disponibilité de votre serveur principal, nous vous recommandons de déployer des groupes de disponibilité AlwaysOn ou la mise en miroir du serveur. Pour plus d’informations, voir [serveur principal de haute disponibilité dans Skype pour Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
+Pour fournir une haute disponibilité de votre serveur principal, nous vous recommandons de déployer des groupes de disponibilité AlwaysOn ou la mise en miroir du serveur. Pour plus d’informations, reportez-vous à la rubrique [Back End Server high availability in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 
 ## <a name="monitoring-and-archiving"></a>Surveillance et archivage
 

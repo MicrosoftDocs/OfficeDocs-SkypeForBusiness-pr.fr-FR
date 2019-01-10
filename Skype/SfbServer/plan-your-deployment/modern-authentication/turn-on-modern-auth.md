@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Cet article plans les applets de commande qui offrent des administrateurs plus de contrôle des méthodes d’authentification utilisée à l’intérieur et en dehors d’une entreprise. Les administrateurs peuvent activer des méthodes d’authentification soit désactivée en interne ou externe à leur réseau.
-ms.openlocfilehash: 8350e1b6f3bae27c3b8355b0dee3b737bccaf655
-ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
+ms.openlocfilehash: 1761722bca624451b1cfc6acc28bed7b00eabe6d
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27371185"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789259"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Envisagez de désactiver les méthodes d’authentification Legacy internes et externes à votre réseau.
 
@@ -82,6 +82,10 @@ En outre, s’il n'existe qu’un seul rôle pour un pool :
 * Si les deux rôles sont présents pour un pool, mais les stratégies ne sont pas définis au niveau du pool, Get-sera retourne un message d’erreur.
 
 Il peut être préférable d’effectuer un Get-pour ces valeurs et pour la capture d’écran ou d’enregistrer leur état initial avant d’apporter des modifications. Vous pouvez également envisager de conserver un journal des modifications apportées dans un OneNote.
+
+> [!NOTE]
+> 
+> Remarque : Après avoir configuré le CsAuthConfig, vous devez exécuter Enable-CsComputer sur chaque ordinateur pour que les paramètres prennent effet.
 
 > [!IMPORTANT]
 > Si vous utilisez Lync Web Access (LWA) et que vous devez utiliser Access basée sur les formulaires (FBA) pour l’accès externe, reconfigurez LWA afin que les clients puissent y accéder avec un accès anonyme pour prendre en charge ces scénarios. De même, si vous utilisez le code d’appel confidentiel, FBA est bloquée pour les utilisateurs externes. S’ils ont besoin de modifier leur code confidentiel, ils seront doivent se connecter à leur entreprise à le faire en interne.

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Découvrez les options de haute disponibilité du serveur principal prises en charge dans Skype pour Business Server, y compris les groupes de disponibilité AlwaysOn, Instances de Cluster de basculement AlwaysOn, la mise en miroir de base de données et le clustering avec basculement SQL.
-ms.openlocfilehash: 57cc09765ab8f753e60a5f76f5d93b385c7fd406
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c17d4afb20a0aeef2a1dacc40080a1092fbda357
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983183"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789291"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Arrière serveur haute disponibilité dans Skype pour Business Server
  
@@ -41,11 +41,16 @@ Si vous utilisez une haute disponibilité du serveur principal sur un pool front
 
 Skype pour Business Server prend en charge la mise en miroir avec le logiciel de base de données suivantes :
   
+- SQL Server 2016, Enterprise Edition et Standard Edition
+
 - SQL Server 2014, Enterprise Edition et Standard Edition
     
 - SQL Server 2012 SP2 et CU2, Enterprise Edition et Standard Edition
     
 - SQL Server 2008 R2 SP2, Enterprise Edition et Standard Edition
+
+> [!NOTE]
+> SQL Server 2016 est la seule version prise en charge par Skype pour Business Server 2019.
     
 La mise en miroir de base de données asynchrone n’est pas pris en charge pour la haute disponibilité de serveur principal dans Skype pour Business Server. Dans le reste du document, sauf mention explicite, la mise en miroir sous-entend une mise en miroir synchrone. 
   
@@ -108,13 +113,18 @@ Pour connaître les étapes pour le déploiement de groupes de disponibilité Al
 
 Skype pour Business Server prend en charge les clusters SQL Server avec le logiciel de base de données suivantes :
   
+- SQL Server 2016, Enterprise Edition et Standard Edition
+
 - SQL Server 2014, Enterprise Edition et Standard Edition
     
 - SQL Server 2012 SP2 et CU2, Enterprise Edition et Standard Edition
     
 - SQL Server 2008 R2 SP2, Enterprise Edition et Standard Edition
+
+> [!NOTE]
+> SQL Server 2016 est la seule version prise en charge par Skype pour Business Server 2019.
     
-Pour utiliser le clustering avec basculement SQL, vous devez tout d’abord installer et configurer le cluster SQL Server avant de déployer votre pool frontal. Pour meilleures pratiques et des instructions d’installation pour le cluster de basculement dans SQL Server 2012, voir [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx). Clustering de basculement de SQL Server 2008, voir [https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
+Pour utiliser le clustering avec basculement SQL, vous devez tout d’abord installer et configurer le cluster SQL Server avant de déployer votre pool frontal. Pour meilleures pratiques et des instructions d’installation pour le cluster de basculement dans SQL Server 2014 et 2016, voir [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx). Clustering de basculement de SQL Server 2008, voir [https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
   
 Lorsque vous installez SQL Server, vous devez installer SQL Server Management Studio pour gérer les emplacements des bases de données et des fichiers journaux. SQL Server Management Studio est installé en tant que composant facultatif lorsque vous installez SQL Server.
   

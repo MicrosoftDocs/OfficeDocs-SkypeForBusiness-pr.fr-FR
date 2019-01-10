@@ -1,5 +1,5 @@
 ---
-title: Créer votre première équipes et canaux dans Microsoft Teams
+title: Créer vos premiers canaux et équipes dans Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 496d5f941f245d513aefbf165e37c33d9e431780
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: c2cb8fb04f244139255cb363a6779379824cb709
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519822"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789322"
 ---
-# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Créer votre première équipes et canaux dans Microsoft Teams
+# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Créer vos premiers canaux et équipes dans Microsoft Teams
 
 Configurer et utiliser votre premier ensemble d’équipes et de canaux crée votre expérience avec les équipes et identifiant les champions qui peuvent aider à encourager l’adoption équipes au sein de votre organisation. 
 
@@ -41,7 +41,7 @@ Voici une structure de l’équipe.
 | ------------ | -------------------- | -------------------- |
 | Général | Toutes les équipes démarrer avec un canal général. Utilisez ce canal pour que les annonces que vous commencez à connaître les équipes. |  |
 | Dire Bonjour | Vous présenter à l’équipe et partagez ce que vous souhaitez obtenir des équipes. |  |
-| Comment faire ? | Un canal pour poser des questions sur les procédures.</br>Étape 1 : installer les clients mobiles et de bureau.</br>Étape 2 – saut dans les équipes.| Onglet épinglé qui lie à l' [aide des équipes](https://support.office.com/teams)</br>Onglet épinglé qui fournit des liens vers [des vidéos de formation des équipes](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</br>Onglet épinglé qui lie aux [équipes des liens de téléchargement client mobile et de bureau](https://teams.microsoft.com/downloads) |
+| Comment faire | Un canal pour poser des questions sur les procédures.</br>Étape 1 : installer les clients mobiles et de bureau.</br>Étape 2 – saut dans les équipes.| Onglet épinglé qui lie à l' [aide des équipes](https://support.office.com/teams)</br>Onglet épinglé qui fournit des liens vers [des vidéos de formation des équipes](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</br>Onglet épinglé qui lie aux [équipes des liens de téléchargement client mobile et de bureau](https://teams.microsoft.com/downloads) |
 | Commentaires | Partager vos idées sur votre expérience des équipes. | Onglet épinglé avec Polly sondage|
 | Idées pour les équipes futures | Partager vos idées sur où les équipes peuvent offrir davantage de valeur dans votre organisation. Ce qui peuvent ces équipes être appelées ? Qui seraient membres ? ||
 | support | Si quelque chose ne fonctionne pas comme prévu, utilisez cette chaîne pour obtenir de l’aide. ||

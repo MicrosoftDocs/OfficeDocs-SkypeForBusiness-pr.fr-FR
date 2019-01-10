@@ -17,18 +17,18 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Découvrez les causes fréquentes de Skype pour Business Online pour les erreurs de connexion et de travail par le biais de ces problèmes. '
-ms.openlocfilehash: df34252281bebe429a85fb1a778b6d28023eb9d4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b9eccd817fbb9a67fcbce61d73b4a701c6b063de
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371148"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789083"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Dépannage Skype pour les erreurs de connexion Business Online pour les administrateurs
 
 Pour résoudre les Skype pour les erreurs de connexion en ligne Business, démarrez en éliminant les causes les plus courantes des difficultés de connexion. Si nécessaire, vous pouvez alors suivre les étapes en fonction du type d’erreur de résolution spécifique. Si l’utilisateur toujours ne peut pas se connecter, recueillir des informations supplémentaires, puis demander une assistance supplémentaire.
 
-## <a name="what-do-you-want-to-do"></a>Que voulez-vous faire ?
+## <a name="what-do-you-want-to-do"></a>Que voulez-vous faire ?
 <a name="top"> </a>
 
 > [Rechercher les causes fréquentes de Skype pour les erreurs de connexion Business en ligne](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
@@ -124,7 +124,7 @@ Si votre organisation a un domaine personnalisé, cette procédure est un correc
 
   - **Nom**: sip
 
-  - **Valeur/Destination**: sipdir.online.microsoft.com
+  - **Valeur/Destination**: sipdir.online.lync.com
 
 Pour plus d’informations, voir l’article de la Base de connaissances Microsoft 2566790, [Skype de dépannage pour les problèmes de configuration DNS en ligne d’entreprise dans Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
 

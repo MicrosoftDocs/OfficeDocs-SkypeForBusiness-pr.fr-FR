@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Résumé : Découvrez les éléments à prendre en compte lorsque vous planifiez le tableau de bord qualité des appels.'
-ms.openlocfilehash: 6df705b4d3b39bdd9f75d328277d9aa1c5fc23d1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b524bd344ead2dbc526265f6421881cc6a848b76
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531232"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789368"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planifier pour le tableau de bord qualité appel Skype pour Business Server 
  
@@ -83,7 +83,7 @@ Les données CQD peuvent être visionnées via le portail CQD et accessibles par
 
 Le portail est le moyen le plus rapide pour afficher les données dans le Cube. Le portail est livré avec plusieurs rapports intégrés qui sont utilisables immédiatement. Les rapports intégrés sont liées de manière structurée pour guider l’utilisateur à successivement les plus petits segments de données d’appel. Les rapports intégrés également en surbrillance les différentes méthodes que les données peuvent être affichées en montrant une combinaison des graphiques et des tableaux avec différents tableaux croisés dynamiques, des filtres et des mesures. Chaque utilisateur qui accède au portail peut avoir son propre ensemble de rapports qui il peut modifier et partager. Pour plus d’informations sur l’utilisation du portail Web CQD, voir [Utilisation d’appel qualité de tableau de bord pour Skype pour Business Server](use.md).
   
-Prise en charge des systèmes d’exploitation pour CQD Portal : Windows 8.1, Windows 8, Windows Server 2012 R2 et Windows Server 2012.
+Prise en charge des systèmes d’exploitation pour CQD Portal : Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 et Windows Server 2016 (Skype pour Business Server 2019 CQD uniquement).
   
 Navigateurs pris en charge pour CQD Portal : Internet Explorer 11, Internet Explorer 10 et Internet Explorer 9.
   
@@ -184,7 +184,7 @@ Cette section, en partant du principe qu’il existe une seule base de données 
   
 **Profils de l’ordinateur**
 
-|**Machine**|**Cœurs de processeur**|**MÉMOIRE RAM**|**QoE Archive et Cube sur le même disque**|**QoE Archive et la base de données SQL Temp sur le même disque**|
+|**Machine**|**Cœurs de processeur**|**RAM**|**QoE Archive et Cube sur le même disque**|**QoE Archive et la base de données SQL Temp sur le même disque**|
 |:-----|:-----|:-----|:-----|:-----|
 |Ordinateur virtuel  <br/> |4  <br/> |7 GO  <br/> |Oui  <br/> |Oui  <br/> |
 |4 cœurs  <br/> |4  <br/> |20 GO  <br/> |Oui  <br/> |Non  <br/> |
@@ -238,7 +238,7 @@ Les systèmes d’exploitation suivants sont requis pour CQD :
     
 - Windows Server 2012 R2 avec IIS 8,5
 
-- Windows Server 2016 avec IIS
+- Windows Server 2016 avec IIS 10.0 (Skype pour Business Server 2019 CQD uniquement)
     
 Voici les services de rôle IIS requis (par ordre hiérarchique) :
   

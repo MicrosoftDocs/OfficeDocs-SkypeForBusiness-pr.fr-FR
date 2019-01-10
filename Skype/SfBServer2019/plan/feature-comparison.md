@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : Skype pour Business Server 2019 ou Skype pour les administrateurs d’entreprise en ligne peut utiliser ces tables pour comprendre les fonctionnalités sont prises en charge sur les clients.'
-ms.openlocfilehash: dfc9e568ae9d600e03e1473aff7bcf6571b68f38
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 296e96af455b7cea8cddf833acff19a665349933
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297691"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789110"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparaison des fonctionnalités client de bureau pour Skype pour Business Server 2019
 
@@ -135,9 +135,9 @@ Pour plus d’informations, voir le [Skype pour Business Online Service Descript
 |Désactiver la messagerie instantanée pour la réunion |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Désactiver le son des participants |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Inviter tout le monde à participer |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
-|Produire une diffusion de réunion Skype |& #x 2714 ; & #x 2779 ;|||& #x 2714 ; & #x 2780 ;||
+|Produire une diffusion de réunion Skype |& #x 2714 ;|||||
 |Un délégué peut planifier une réunion pour le compte d'un délégant |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||
-|Synchroniser les délégués entre Skype Entreprise et Outlook |& #x 2714 ;||& #x 2714 ;||| 
+|Synchroniser les délégués entre Skype Entreprise et Outlook |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|| 
 |Définir la vidéo à la une (verrouiller la vidéo) |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;| 
 |Donner/prendre le contrôle du partage d'écran  |& #x 2714 ;||& #x 2714 ;|||
 

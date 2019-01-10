@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Résumé : Passez en revue cette rubrique pour plus d’informations sur l’intégration de Skype pour Business Server avec Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: 901bfd35ef0e781d12c8f4f455912e9ad47d0bdd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 327a564e9c7a0a73ef178866f511c75388ac14bc
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532534"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789397"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Planifier l’intégration de Skype Entreprise et d’Exchange
  
@@ -104,9 +104,13 @@ Le tableau suivant décrit en détail les fonctionnalités prises en charge sous
 |L’historique des Conversations et journaux d’appels manqués sont écrites dans la boîte aux lettres exchange de l’utilisateur  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |
 |Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |O (Exchange 2016/2013 requis)  <br/> |O  <br/> |N  <br/> |N  <br/> |O  <br/> |
 |Recherche de contenu archivé  <br/> |O (Exchange 2016/2013 requis)  <br/> |O  <br/> |N  <br/> |N  <br/> |O  <br/> |
-|Messagerie vocale unifiée Exchange  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |
+|Messagerie vocale unifiée Exchange  <br/> |O  <br/> |O  <br/> |N  <br/> |N  <br/> |N  <br/> |
 |Historique des conversations côté serveur  <br/> |O  <br/> |O  <br/> |N  <br/> |O  <br/> |O  <br/> |
-   
+
+> [!NOTE]
+> Il est un service de messagerie vocale dans le nuage qui est pris en charge pour Skype pour Business Online, Skype pour Business Server 2019, Skype pour Business Server 2015 et Skype pour Business Server 2013.
+> 
+
 ## <a name="see-also"></a>Voir aussi
 <a name="feature_support"> </a>
 

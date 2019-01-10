@@ -1,5 +1,5 @@
 ---
-title: Qualité de Service dans les équipes Microsoft - équipes Microsoft
+title: Qualité de service dans Microsoft Teams - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68a11fcc519b63fe04bf6eedfbf9d87b3b80b0b
-ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
+ms.openlocfilehash: d5e6b37a0daff06a4676a7ecba1b67ecdd03649a
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27294179"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789093"
 ---
 # <a name="quality-of-service-qos-in-microsoft-teams"></a>Qualité de service (QoS) dans Microsoft Teams
 
@@ -248,7 +248,7 @@ Les nouvelles stratégies que vous avez créé ne prennent effet tant que la str
 
 2. À l’invite de commandes, entrez
    ```
-    gpudate.exe /force
+    gpupdate.exe /force
    ```
 
 ## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Vérifier le marquage DSCP dans l’objet de stratégie de groupe
@@ -259,7 +259,7 @@ Pour vérifier que les valeurs de l’objet de stratégie de groupe ont été d�
 
 2. À l’invite de commandes, entrez 
    ```
-   gpresult /R >gp.txt
+   gpresult /R > gp.txt
    ```
 
    Cela générer un rapport et envoyez-le à un fichier texte nommé gp.txt. Vous pouvez également entrer la commande suivante pour produire les mêmes données dans un rapport HTML plus lisible nommé gp.html :

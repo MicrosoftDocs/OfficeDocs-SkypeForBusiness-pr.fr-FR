@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: d4ff0ab207d5526fe8b24f4ec791de5f952a83e3
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 49130a14391e014d1e7aea21c62abaf2385296d8
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182341"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788946"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Appels sortants à partir d’un Skype pour une réunion professionnelle afin que les autres personnes peut joindre
 
@@ -38,7 +38,7 @@ En tant qu’organisateur de la réunion, vous pouvez vous connecter à l’aide
     
 - En tant qu'organisateur de la réunion, vous avez été activé pour la conférence rendez-vous.
 
-Pour ajouter d’autres participants par le biais d’appel sortant aux réunions de votre organisation, au moins un utilisateur authentifié à partir de la même organisation que l’organisateur (votre organisation) est requise dans la réunion dans d’autres pour permettre l’ajout d’autres participants via un appel sortant. 
+Pour ajouter d’autres participants par le biais d’appel sortant aux réunions de votre organisation, au moins un utilisateur authentifié à partir de la même organisation que l’organisateur (votre organisation) doit être présent dans la réunion afin de permettre l’ajout d’autres participants via un appel sortant. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 'Résumé : Configurez des comptes d’utilisateurs de test et les paramètres du nœud observateur pour Skype pour les transactions synthétiques Business Server.'
-ms.openlocfilehash: 3881fc1878ed3b248aa3109b79a3e384ec4a5fb7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 257814108a276d049ed4ac9173fde6dfa4473ff2
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989887"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789390"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configuration des paramètres et des utilisateurs test de nœud observateur
  
@@ -33,12 +33,11 @@ Après avoir configuré l’ordinateur qui jouera le rôle de nœud observateur,
 
 Comptes de test n’avez pas besoin représenter les personnes réelle, mais ils doivent être des comptes Active Directory valides. En outre, ces comptes doivent être activés pour Skype pour Business Server, ils doivent avoir des adresses SIP valides, et ils doivent être activés pour Enterprise Voice (utiliser la transaction synthétique Test-CsPstnPeerToPeerCall). 
   
-Si vous utilisez la méthode d’authentification TrustedServer, il vous suffit de vous assurer que ces comptes existent et configurez-les comme indiqué. Vous devez assigner au moins trois utilisateurs tests pour chaque pool que vous souhaitez tester. Si vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande Set-cstestusercredential n’et le Skype pour Business Server Management Shell activer ces comptes pour travailler avec les transactions synthétiques de test. Cela en exécutant une commande semblable à ce qui suit (les commandes suivantes partent du principe que les trois comptes d’utilisateur Active Directory ont été créés et que ces comptes sont activés pour Skype pour Business Server) :
+Si vous utilisez la méthode d’authentification TrustedServer, il vous suffit de vous assurer que ces comptes existent et configurez-les comme indiqué. Vous devez affecter au moins deux utilisateurs test pour chaque pool que vous souhaitez tester. Si vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande Set-cstestusercredential n’et le Skype pour Business Server Management Shell activer ces comptes pour travailler avec les transactions synthétiques de test. Cela en exécutant une commande semblable à ce qui suit (les commandes suivantes partent du principe que les deux comptes d’utilisateur Active Directory ont été créés et que ces comptes sont activés pour Skype pour Business Server) :
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
-Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
 Vous devez inclure non seulement l’adresse SIP, mais également le nom d’utilisateur et le mot de passe. Si vous omettez le mot de passe, l’applet de commande Set-CsTestUserCredential vous invitera à entrer ces informations. Le nom d’utilisateur peut être spécifié au format nom de domaine/nom d’utilisateur indiqué ci-dessus dans le bloc de code précédent.
@@ -48,7 +47,6 @@ Pour vérifier que les informations d’identification utilisateur de test ont �
 ```
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
-Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
 ```
 
 Des informations semblables aux suivantes sont retournées pour chaque utilisateur :
@@ -62,15 +60,15 @@ Des informations semblables aux suivantes sont retournées pour chaque utilisate
 Une fois les utilisateurs tests créés, vous pouvez créer un nœud observateur en exécutant une commande semblable à la suivante :
   
 ```
-New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
+New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
-Cette commande crée un nœud observateur qui utilise les paramètres par défaut et exécute le jeu de transactions synthétiques par défaut. Le nouveau nœud observateur utilise également les utilisateurs tests watcher1@litwareinc.com, watcher2@litwareinc.com et watcher3@litwareinc.com. Si le nœud observateur utilise l’authentification TrustedServer, les trois comptes tests peuvent être n’importe quels comptes d’utilisateurs valides pour Active Directory et Skype Entreprise Server. Si le nœud observateur utilise la méthode d’authentification Negotiate, vous devez également activer ces comptes d’utilisateurs pour le nœud observateur à l’aide de l’applet de commande Set-CsTestUserCredential.
+Cette commande crée un nœud observateur qui utilise les paramètres par défaut et exécute le jeu de transactions synthétiques par défaut. Le nouveau nœud Observateur utilise également le test utilisateurs watcher1@litwareinc.com et watcher2@litwareinc.com. Si le nœud Observateur utilise l’authentification TrustedServer, les comptes de deux test peuvent être des comptes d’utilisateur valide pour Active Directory et Skype pour Business Server. Si le nœud observateur utilise la méthode d’authentification Negotiate, vous devez également activer ces comptes d’utilisateurs pour le nœud observateur à l’aide de l’applet de commande Set-CsTestUserCredential.
   
 Pour vérifier que la découverte automatique du pool cible pour se connecter est correctement configurée, au lieu de cibler un pool directement, utilisez les étapes suivantes :
   
 ```
-New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
+New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
 ### <a name="configuring-extended-tests"></a>Configuration de tests étendus
@@ -78,16 +76,16 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 Si vous souhaitez activer le test PSTN, qui vérifie la connectivité avec le réseau téléphonique commuté, vous devez effectuer certaines tâches de configuration supplémentaires lors de la configuration du nœud observateur. Tout d’abord, vous devez associer vos utilisateurs test au type de test PSTN en exécutant une commande semblable à la suivante à partir de Skype Entreprise Server Management Shell :
   
 ```
-$pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
+$pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
 ```
 
 > [!NOTE]
 > Les résultats de cette commande doivent être stockés dans une variable. Dans cet exemple, il s’agit de la variable nommée $pstnTest. 
   
-Ensuite, vous pouvez utiliser l’applet de commande **New-CsWatcherNodeConfiguration** pour associer le type de test (stocké dans la variable $pstnTest) à un Skype pour le pool de serveurs d’entreprise. Par exemple, la commande suivante crée une configuration de nœud observateur pour le pool atl-cs-001.litwareinc.com, ajoute les trois utilisateurs test créés précédemment et ajoute également le type de test PSTN :
+Ensuite, vous pouvez utiliser l’applet de commande **New-CsWatcherNodeConfiguration** pour associer le type de test (stocké dans la variable $pstnTest) à un Skype pour le pool de serveurs d’entreprise. Par exemple, la commande suivante crée une nouvelle configuration de nœud observateur pour le pool atl-cs-001, ajout de deux utilisateurs test créés précédemment, et ajout de la passerelle PSTN type de test :
   
 ```
-New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
+New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
 La commande précédente échoue si vous n’avez pas installé les fichiers principaux de Skype Entreprise Server et la base de données RTCLocal sur l’ordinateur nœud observateur. 
@@ -102,7 +100,7 @@ Dans la mesure où l’applet de commande **New-CsWatcherNodeConfiguration** est
     
 - IM
     
-- GroupIM
+- GroupIM (messagerie instantanée de groupe)
     
 - P2PAV (sessions audio/vidéo d’égal à égal)
     
@@ -122,7 +120,7 @@ Les composants suivants ne seront pas testés par défaut :
     
 - DataConference
     
-- DialinConferencing
+- DialInConferencing
     
 - ExumConnectivity (Messagerie unifiée Exchange)
     
@@ -202,7 +200,13 @@ Get-CsWatcherNodeConfiguration
 
 Des informations semblables aux suivantes sont retournées :
   
-Identité : atl-cs-001 TestUsers : {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...} TargetFqdn : atl-cs-001 numéro_port : 5061To Vérifiez que le nœud observateur a été configuré correctement, tapez la commande suivante à partir de la Skype pour Business Server Management Shell :
+Identité : atl-cs-001 <br/>
+TestUsers : {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...}<br/>
+ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...}<br/>
+TargetFqdn : atl-cs-001<br/>
+Numéro_port : 5061<br/>
+
+Pour vérifier que le nœud observateur a été correctement configuré, tapez la commande suivante à partir de Skype Entreprise Server Management Shell :
   
 ```
 Test-CsWatcherNodeConfiguration
@@ -210,15 +214,15 @@ Test-CsWatcherNodeConfiguration
 
 Cette commande teste chaque nœud observateur de votre déploiement et vérifie si :
   
-- le rôle de serveur d’inscriptions requis est installé ;
+- Le rôle de serveur d’inscriptions requis est installé.
     
-- la clé de Registre nécessaire est créée (opération effectuée lors de l’exécution de l’applet de commande Set-CsWatcherNodeConfiguration) ;
+- La clé de Registre obligatoire est créée (terminée lorsque vous avez exécuté l’applet de commande Set-CsWatcherNodeConfiguration).
     
-- vos serveurs exécutent la version correcte de Skype Entreprise Server ;
+- Vos serveurs exécutent la version correcte de Skype pour Business Server.
     
-- vos ports ont été correctement configurés ;
+- Si vos ports sont correctement configurés.
     
-- vos utilisateurs de test assignés disposent des informations d’identification requises.
+- Vos utilisateurs de test assignés disposent les informations d’identification requises.
     
 ## <a name="managing-watcher-nodes"></a>Gestion des nœuds observateurs
 <a name="testuser"> </a>
@@ -365,7 +369,7 @@ Dans cet exemple, un Skype pour règle Business Server devrez exister pour route
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transaction synthétique VIS (Serveur d’interopérabilité vidéo)
 
-La transaction synthétique vidéo Interop Server (pouces) nécessite que vous téléchargez et installez les fichiers de prise en charge les transactions synthétiques ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+La transaction synthétique de serveur d’interopérabilité vidéo (VIS) requiert le téléchargement et l’installation des fichiers de support ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
   
 Pour installer VISSTSupportPackage.msi, assurez-vous que les dépendances (sous Configuration logicielle requise) du msi sont déjà installées. Exécutez VISSTSupportPackage.msi pour effectuer une installation simple. Le fichier .msi installe tous les fichiers dans le chemin d’accès suivant : « %ProgramFiles%\VIS Package de prise en charge des transactions synthétiques ».
   
@@ -380,15 +384,15 @@ Si vous souhaitez exécuter les transactions synthétiques plus fréquemment, il
   
 Pour modifier la fréquence à laquelle les transactions synthétiques sont exécutées, procédez comme suit :
   
-1. Ouvrir System Center Operations Manager. Cliquez sur Création. Cliquez sur règles section (création)
+1. Ouvrir System Center Operations Manager. Cliquez sur Création. Cliquez sur règles section (création).
     
-2. Dans la section règles, recherchez la règle avec le nom « Main synthétique règle de Collection performances de Transaction canal d’injection »
+2. Dans la section règles, recherchez la règle avec le nom « Main synthétique règle de Collection performances de Transaction canal d’injection ».
     
-3. Cliquez avec le bouton droit sur la règle et sélectionnez substitutions, sélectionnez Remplacer la règle, puis sélectionnez « pour tous les objets de classe : Observateur Pool »
+3. Cliquez avec le bouton droit sur la règle et sélectionnez substitutions, sélectionnez Remplacer la règle, puis sélectionnez « pour tous les objets de classe : Observateur Pool ».
     
 4. Dans la fenêtre Propriétés remplacer, sélectionnez le nom du paramètre « Fréquence » et définir la valeur Override à celui souhaité.
     
-5. Dans la même fenêtre, sélectionnez le pack d’administration auquel ce remplacement doit s’appliquer.
+5. Dans la même fenêtre, sélectionnez le pack d’administration sur lequel cette substitution doit être appliquée.
     
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>Utilisation de la journalisation enrichie pour les transactions synthétiques
 <a name="special_synthetictrans"> </a>
@@ -403,7 +407,7 @@ Pour cette raison, les transactions synthétiques fournissent une journalisation
     
 - L’action effectuée (par exemple, création, participation ou fin de participation à une conférence, connexion à Skype Entreprise Server, envoi d’un message instantané).
     
-- Les messages informatifs, détaillés, d’avertissement ou d’erreur générés pendant l’exécution de l’activité.
+- Informatif, détaillé, avertissement ou messages d’erreur générés pendant l’exécution de l’activité.
     
 - Les messages d’inscription SIP.
     
@@ -420,11 +424,13 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
 ```
 
 > [!NOTE]
-> : Ne pas faire précéder le nom de la variable par le caractère $. Utilisez un nom de variable comme RegistrationTest (et non $RegistrationTest). 
+> Précéder pas le nom de la variable par le caractère $. Utilisez un nom de variable comme RegistrationTest (et non $RegistrationTest). 
   
 Lorsque vous exécutez cette commande, vous obtenez un résultat semblable à celui-ci :
   
-Nom de domaine complet cible : atl-cs-001 résultat : Échec de latence : 00:00:00 Message d’erreur : cet ordinateur ne dispose pas de tous les certificats affectés. Diagnostic : vous pouvez accéder à des informations plus détaillées pour cette erreur que simplement le message d’erreur indiqué ici. Pour obtenir ces informations au format HTML, utilisez une commande de ce type pour enregistrer les informations stockées dans la variable RegistrationTest dans un fichier HTML :
+Nom de domaine complet cible : atl-cs-001 résultat : Échec de latence : 00:00:00 Message d’erreur : cet ordinateur ne dispose pas de tous les certificats affectés. Diagnostic : vous pouvez accéder à des informations plus détaillées pour cette erreur que simplement le message d’erreur indiqué ici.
+
+Pour obtenir ces informations au format HTML, utilisez une commande de ce type pour enregistrer les informations stockées dans la variable RegistrationTest dans un fichier HTML :
   
 ```
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html

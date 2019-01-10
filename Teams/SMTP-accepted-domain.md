@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Apprenez à ajouter le domaine SMTP des équipes Microsoft comme domaine de l’expéditeur autorisés dans Exchange Online pour envoyer des notifications aux membres de l’équipe.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f99503d91f9d2c674cea6ec1aaf9c5b747a1047
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f94b18994e277b90f96bc4fdbdefaa0b1f7a72e8
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014708"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789049"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Ajouter le domaine SMTP des équipes Microsoft comme domaine de l’expéditeur autorisés dans Exchange Online 
 =============================================================================
@@ -26,7 +26,7 @@ Si vous créez un groupe Office 365 dans la console d'administration ou à l'ai
 
 ![Capture d'écran d'un en-tête de message e-mail Outlook d'exemple indiquant qu'un utilisateur a été ajouté à un groupe.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-Les équipes utilise également Microsoft Exchange Online pour envoyer des notifications aux membres de l’équipe lorsqu’ils ont été ajoutés. La différence est le nom de domaine complet du message SMTP du domaine est « @email.teams.microsoft.com » et peut être interceptée par le filtrage du courrier indésirable.
+Les équipes utilise également Microsoft Exchange Online pour envoyer des notifications aux membres de l’équipe lorsqu’ils ont été ajoutés. La différence est le nom de domaine complet du message SMTP du domaine est « @email.teams.microsoft.com » pour les clients commercial/Business et « @GCC-email.teams.com » pour les clients pour le gouvernement et peut être interceptée par le filtrage du courrier indésirable.
 
 ![Capture d'écran d'un en-tête de message e-mail Outlook d'exemple indiquant qu'un utilisateur a été ajouté à un groupe.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 
