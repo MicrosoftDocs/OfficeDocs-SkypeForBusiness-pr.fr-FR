@@ -1,5 +1,5 @@
 ---
-title: Démarrage rapide - Microsoft Teams
+title: Démarrage rapide - Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 929e669cc360f5f072399b1e533db00758e1416e
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: b99dc3b0aff15c417ef58affb6ac4fab5638f61c
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519784"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896130"
 ---
 # <a name="quick-start---microsoft-teams"></a>Démarrage rapide - Microsoft Teams
 
@@ -43,3 +43,5 @@ Assurez-vous que vous disposez de licences équipes pour tout le monde. Consulte
 
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez à [créer votre première équipes et canaux](get-started-with-teams-create-your-first-teams-and-channels.md).
+
+Consultez le [Guide d’Adoption d’équipes](https://aka.ms/teamstoolkit).

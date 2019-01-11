@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1facd38b3ae5e55b0928127aa054d80e7445210
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: e205eeb00373e66271c98405209df69b272f89a4
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791704"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896146"
 ---
 # <a name="about-the-upgrade-framework"></a>À propos de l’infrastructure de mise à niveau
 
@@ -44,7 +44,8 @@ Afin d’illustrer comment votre parcours de mise à niveau peut se déroulent, 
 
 **Préparer votre organisation pour les équipes**. Pour garantir une mise à niveau réussie aux équipes, il est important d’allouez suffisamment de temps pour la préparation. Non seulement votre organisation soit en mesure de démarrer rapidement l’optimisation des équipes, vous serez en mesure d’accélérer votre mise à niveau à partir de Skype pour les entreprises dès que les équipes est prête pour vous. Si vous avez déjà activé équipes avec Skype pour les entreprises, vous pouvez utiliser ces activités pré-mise à niveau comme un point de contrôle pour valider la préparation de votre organisation avant de passer les utilisateurs à des équipes. 
 
-> [CONSEIL] Téléchargez le [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit) pour supports de préparation au modèle utilisateur, telles que les communications et les enquêtes effectuées auprès, outre un exemple de plan de projet de mise à niveau et pilote plan de test. Les éléments qui sont disponibles dans le kit sont marqués avec un astérisque (*) dans les listes ci-dessous.
+> [!TIP]
+> Téléchargez le [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit) pour supports de préparation au modèle utilisateur, telles que les communications et les enquêtes effectuées auprès, outre un exemple de plan de projet de mise à niveau et pilote plan de test. Les éléments qui sont disponibles dans le kit sont marqués avec un astérisque (*) dans les listes ci-dessous.
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Planifier : Créer votre plan de mise à niveau pour vous assurer de que votre organisation est configurée pour succès à long terme
 

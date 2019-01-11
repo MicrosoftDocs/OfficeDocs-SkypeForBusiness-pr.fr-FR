@@ -15,12 +15,12 @@ ms.custom: Adopt
 ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b59da606f908334768fbe249bc40df87282caf5a
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: d8413bdf3bbcc2bcb4b172d46a84b7a46bd7d190
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699716"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896122"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Comprendre les équipes et les canaux dans Microsoft Teams
 
@@ -30,12 +30,13 @@ Les concepts des équipes et les canaux sont essentielles dans une implémentati
 
 - Les chaînes sont les espaces de collaboration au sein d’une équipe dans laquelle le travail réel est terminé. 
 
-Pour lire des informations supplémentaires sur les équipes et les canaux, consultez la [vue d’ensemble des équipes et de canaux dans les équipes Microsoft](teams-channels-overview.md). Pour en savoir plus sur les équipes et les groupes d’Office 365, voir [groupes de Office 365 et les équipes Microsoft](office-365-groups.md) et [en savoir plus sur Office 365 groupes](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Pour lire des informations supplémentaires sur les équipes et les canaux, consultez la [vue d’ensemble des équipes et de canaux dans les équipes Microsoft](teams-channels-overview.md). Pour des conseils d’adoption équipes complète, obtenez le [Guide d’Adoption d’équipes](https:aka.ms/teamstoolkit). Pour en savoir plus sur les équipes et les groupes d’Office 365, voir [groupes de Office 365 et les équipes Microsoft](office-365-groups.md) et [en savoir plus sur Office 365 groupes](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
 |---------|---------|
 | Afficher cette courte vidéo   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+
 
 
 Types d’accès équipe déterminent qui peut participer à une équipe :
