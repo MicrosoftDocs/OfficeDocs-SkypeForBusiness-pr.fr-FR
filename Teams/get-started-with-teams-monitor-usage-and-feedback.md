@@ -1,5 +1,5 @@
 ---
-title: Surveiller l’utilisation et les commentaires dans Microsoft Teams
+title: Surveiller l’utilisation et les commentaires dans Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,34 +13,48 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5cb52aa679144f2dc9673106addf1125a908d70
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 9189e2293e123b8a8b7db7a754d259ec3b67e1ab
+ms.sourcegitcommit: 768c7b5f0aaa4b38a0b98c7c9ff904ffedd2e9b9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519795"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27802602"
 ---
-# <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Surveiller l’utilisation et les commentaires dans Microsoft Teams
+# <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Surveiller l’utilisation et les commentaires dans Microsoft Teams
 Il est important de savoir comment les utilisateurs utilisent des équipes et quel est votre expérience avec les équipes. Rapports d’utilisation peuvent vous aider à mieux comprendre les modèles d’utilisation et ainsi que les commentaires des utilisateurs, donnez insights pour informer votre déploiement plus large et où les hiérarchiser les efforts de formation et de communication.
 
 ## <a name="monitor-usage"></a>Surveiller l’utilisation
 Pour votre premier jeu d’équipes, nous vous recommandons de que consulter des rapports de deux fois par semaine pour comprendre les nouvelles tendances. 
 
-Par exemple, les rapports d’utilisation montrent que la plupart des utilisateurs ne sont qu’à l’aide du client web équipes. Cela peut indiquer que les utilisateurs ne savez pas comment installer d’autres clients. Validation des instructions d’installation dans un canal peut-être aider à l’utilisation du lecteur d’un large éventail de clients. Ou bien, les rapports d’utilisation montrent que les utilisateurs utilisent principalement équipes pour une conversation privée. Dans cet exemple, vous souhaiterez peut-être consulter vos scénarios d’équipe, car les utilisateurs sont en conversation en dehors des équipes initiales et canaux qui ont été configurés. 
+Par exemple, les rapports d’utilisation montrent que pas de nombreux utilisateurs utilisent les clients mobiles équipes. Cela peut indiquer que les utilisateurs ne savez pas comment installer les clients. Validation des instructions d’installation dans un canal peut-être aider à l’utilisation du lecteur d’un large éventail de clients. Ou bien, les rapports d’utilisation montrent que les utilisateurs utilisent principalement équipes pour une conversation privée. Dans cet exemple, vous souhaiterez peut-être consulter vos scénarios d’équipe, car les utilisateurs sont en conversation en dehors des équipes initiales et canaux qui ont été configurés. 
 
-Voici deux façons d’obtenir des rapports pour afficher l’utilisation des équipes. 
+Voici comment obtenir des rapports pour afficher l’utilisation des équipes. 
 
-### <a name="teams-activity-reports"></a>Rapports d’activité équipes 
-Rapports d’activité équipes dans le centre d’administration Office 365 vous expliqueront activité de l’utilisateur et l’utilisation du périphérique. 
+### <a name="teams-analytics--reports-microsoft-teams--skype-for-business-admin-center"></a>Les équipes analytique & rapports (Microsoft Teams & Skype pour Business Admin Center)
 
-Pour afficher ces rapports, vous devez être un administrateur global dans Office 365, un administrateur du service équipes ou un lecteur de rapports. Accédez au centre d’administration Office 365, cliquez sur **rapports** > **l’utilisation**. Sous **Sélectionnez un rapport**, cliquez sur **Les équipes Microsoft**. À partir de là, sélectionnez le rapport que vous souhaitez afficher.
+Rapports d’équipes dans le Microsoft Teams & Skype entreprise centre d’administration vous expliqueront comment les équipes est utilisé dans votre organisation. Utilisation des rapports pour obtenir une vue d’utilisation, activité de l’utilisateur et utilisation du périphérique équipes au sein de votre organisation. 
 
-- **Rapport d’activité utilisateur équipes**: ce rapport présente les types d’activités de communication utilisateurs participer, telles que le nombre de personnes converser dans un canal et combien de personnes communiquer par le biais de chat privé.  
+Pour afficher ces rapports, vous devez être un administrateur global dans Office 365, un administrateur du service équipes ou Skype pour l’administrateur d’entreprise Accédez au portail Microsoft Teams & Skype pour la navigation de gauche, du centre d’administration Business sélectionnez **Analytique et rapports**, puis, sous **état**, sélectionnez le rapport que vous souhaitez exécuter.
 
-    ![Rapport d’activité utilisateur équipes] (media/get-started-with-teams-user-activity-report.png "Capture d’écran du rapport d’activité utilisateur équipes, affichant un graphique qui indique le nombre d’utilisateurs par type d’activité, ce qui inclut les messages de canal, messages de conversation, les appels, réunions. et autres") 
-- **Rapport d’utilisation des équipes périphérique**: ce rapport vous montre comment les utilisateurs se connectent aux équipes, notamment comment de nombreuses personnes utilisent les équipes lorsque sur OK.
+- **Rapport d’utilisation des équipes**: ce rapport vous donne une vue d’ensemble de l’activité d’utilisation dans les équipes, y compris le nombre total d’utilisateurs actif et le nombre d’utilisateurs actifs et les canaux des invités, canaux et des messages dans chaque équipe. 
 
-     ![Rapport d’utilisation des équipes périphérique] (media/get-started-with-teams-device-usage-report.png "Capture d’écran de l’état de l’utilisation de périphérique équipes, affichant un graphique qui indique le nombre d’utilisateurs par type de périphérique, qui inclut Windows, Mac, web, iOS et Android")  
+    ![Rapport d’utilisation des équipes] (media/teams-reports-teams-usage.png "Capture d’écran de l’état de l’utilisation des équipes dans les équipes Microsoft & Skype entreprise centre d’administration")     
+- **Rapport d’activité utilisateur équipes**: ce rapport vous procure les types d’activités des utilisateurs participer, telles que le nombre de personnes communiquer via des appels de 1:1, les messages de canal et les messages de conversation privée. 
+
+    ![Rapport d’activité utilisateur équipes] (media/teams-reports-user-activity.png "Capture d’écran de l’état d’activité utilisateur équipes dans les équipes Microsoft & Skype entreprise centre d’administration") 
+`
+- **Rapport d’utilisation des équipes périphérique**: ce rapport vous montre comment les utilisateurs se connectent aux équipes, notamment comment de nombreuses personnes utilisent les équipes sur leurs appareils mobiles lorsque sur OK. 
+
+    ![Rapport d’utilisation des équipes périphérique] (media/teams-reports-device-usage.png "Capture d’écran du rapport d’utilisation équipes périphérique dans les équipes Microsoft & Skype entreprise centre d’administration")
+
+Pour plus d’informations, consultez la rubrique [analytique équipes et création de rapports](teams-analytics-and-reports/teams-reporting-reference.md). 
+
+### <a name="teams-activity-reports-office-365-admin-center"></a>Rapports d’activité équipes (centre d’administration Office 365)
+Vous pouvez également afficher les activités des équipes par le biais de rapports qui sont disponibles dans le centre d’administration Office 365. Ces rapports font partie des rapports Office 365 dans le centre d’administration d’Office 365 et fournissent des informations sur l’utilisation de périphériques et de l’activité de l’utilisateur. 
+
+Pour afficher ces rapports, accédez au centre d’administration Office 365, cliquez sur **rapports** > **l’utilisation**. Sous **Sélectionnez un rapport**, cliquez sur **Les équipes Microsoft**. À partir de là, sélectionnez le rapport que vous souhaitez afficher.
+
+Pour plus d’informations, accédez à [utiliser des rapports pour les équipes activité](teams-activity-reports.md).
 
 ### <a name="microsoft-365-usage-analytics"></a>Analytique de l’utilisation de Microsoft 365
 

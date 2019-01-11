@@ -239,8 +239,6 @@
 #### [Utilisation de PowerShell pour définir des stratégies d’événements en direct équipes](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 #### [Configurer les paramètres d’événements en direct équipes](teams-live-events/configure-teams-live-events.md)
 
-
-
 ## Applications et services
 ### [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md)
 ### [Autorisations des applications équipes et considérations](app-permissions.md)
@@ -519,6 +517,10 @@
 #### Référence technique pour le routage Direct
 ##### [Basculement de jonction sur les appels sortants](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Flux des appels équipes Microsoft Online](microsoft-teams-online-call-flows.md)
+## [Création de rapports et des équipes analytique](teams-analytics-and-reports/teams-reporting-reference.md)
+### [Rapport d’utilisation des équipes](teams-analytics-and-reports/teams-usage-report.md)
+### [Rapport d’activité utilisateur équipes](teams-analytics-and-reports/user-activity-report.md) 
+### [Rapport d’utilisation des équipes périphérique](teams-analytics-and-reports/device-usage-report.md)
 <!-- ============================================================ -->
 
 
@@ -529,6 +531,8 @@
 ## [Gouvernance Microsoft Education FAQ pour les administrateurs](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
+# Équipes pour les travailleurs firstline
+## [Gérer l’application des équipes de votre organisation dans les équipes](manage-the-shifts-app-for-your-organization-in-teams.md)
 # [Référence d'applet de commande PowerShell pour Teams](https://docs.microsoft.com/powershell/module/teams)
 
 # [Documentation destinée aux développeurs pour Teams](https://docs.microsoft.com/microsoftteams/platform)
