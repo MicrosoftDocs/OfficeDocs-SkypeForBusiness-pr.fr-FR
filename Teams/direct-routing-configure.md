@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: cf856989cd4f87f4b46e1eb36cbeb403bf92b029
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: d7744841b99e343339624314a94d95ab9472fa85
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297910"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988286"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -81,7 +81,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 ```
   > [!NOTE]
   > 1. Nous vous recommandons la définition d’une limite pour le contrôleur SBC, en utilisant les informations que vous trouverez dans la documentation de SBC. La limite de déclencher une notification si le contrôleur SBC est au niveau de la capacité.
-  > 2. Vous pouvez uniquement paire le contrôleur SBC avec le nom de domaine complet, où la partie domaine du nom correspond à l’un des domaines enregistrés dans votre client, à l’exception de \*. onmicrosoft.com. À l’aide de \*. omicrosoft.com les noms de domaine n’est pas pris en charge pour les noms FQDN SBC. Par exemple, si vous avez deux noms de domaine :<br/><br/>
+  > 2. Vous pouvez uniquement paire le contrôleur SBC avec le nom de domaine complet, où la partie domaine du nom correspond à l’un des domaines enregistrés dans votre client, à l’exception de \*. onmicrosoft.com. À l’aide de \*. onmicrosoft.com les noms de domaine n’est pas pris en charge pour les noms FQDN SBC. Par exemple, si vous avez deux noms de domaine :<br/><br/>
   > **Contoso**.com<br/>**Contoso**. onmicrosoft.com<br/><br/>
   > Pour le nom SBC, vous pouvez utiliser le nom sbc.contoso.com. Si vous essayez de paire le contrôleur SBC avec un nom de sbc.contoso.abc, le système ne vous permettra pas, comme le domaine n’est pas détenu par ce client.
 

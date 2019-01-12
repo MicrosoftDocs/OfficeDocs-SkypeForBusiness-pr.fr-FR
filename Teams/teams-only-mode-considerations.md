@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 024ed8c0248d26f803c0b8cd7a4114c2c255cdd5
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 39212613b7ecf86e7138c90adfbf5dc3a021ac46
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791705"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988239"
 ---
 # <a name="teams-only-mode-considerations"></a>Considérations relatives au mode uniquement des équipes
 
@@ -32,7 +32,7 @@ Alors que des milliers de clients ont été mis à niveau vers Microsoft Teams, 
 > [!IMPORTANT]
 > Si vous débutez votre planification de la mise à niveau, veillez à consulter notre Guide de mise à niveau complète et la planification des ressources. [Commencez ici](upgrade-introduction.md). 
 
-**Considérations relatives à la coexistence**: les organisations qui utilisent déjà Skype pour Business Online et/ou Skype pour Business Server peuvent introduire des équipes dans leur environnement à un rythme qui répond à leurs besoins. Les organisations peuvent incrémentielle déployer équipes à un ensemble d’utilisateurs souhaité selon vos besoins et utilisateurs qui utilisent les équipes peuvent communiquer avec les utilisateurs qui utilisent Skype pour les entreprises, et inversement. Pour gérer cette expérience, les modes de coexistence utiliser administrateurs, qui définissent l’expérience du client utilisateur final, le comportement de routage d’entrant conversations et les appels, ainsi que si les nouvelles réunions sont planifiées dans des équipes ou Skype pour les entreprises. Les utilisateurs peuvent se fédérer avec d’autres organisations si l’utilisateur est mis à niveau vers **Les équipes uniquement**; Toutefois, la meilleure expérience est fournie lorsque les deux utilisateurs utilisent des équipes. Les utilisateurs qui sont mis à niveau pour que les équipes peuvent tout de même rejoindre Skype pour les réunions des entreprises. 
+**Considérations relatives à la coexistence**: les organisations qui utilisent déjà Skype pour Business Online et/ou Skype pour Business Server peuvent introduire des équipes dans leur environnement à un rythme qui répond à leurs besoins. Les organisations peuvent incrémentielle déployer équipes à un ensemble d’utilisateurs souhaité selon vos besoins et utilisateurs qui utilisent les équipes peuvent communiquer avec les utilisateurs qui utilisent Skype pour les entreprises, et inversement. Pour gérer cette expérience, les modes de coexistence utiliser administrateurs, qui définissent l’expérience du client utilisateur final, le comportement de routage d’entrant conversations et les appels, ainsi que si les nouvelles réunions sont planifiées dans des équipes ou Skype pour les entreprises. Les utilisateurs peuvent se fédérer avec d’autres organisations si l’utilisateur est mis à niveau vers **Les équipes uniquement**; Toutefois, la meilleure expérience est fournie lorsque les deux utilisateurs utilisent des équipes. Les utilisateurs qui sont mis à niveau pour que les équipes peuvent tout de même rejoindre Skype pour les réunions d’entreprise. 
 
 > [!NOTE]
 > Les utilisateurs qui sont mis à niveau pour que les équipes ne peuvent pas communiquer avec des utilisateurs qui utilisent Skype pour consommateur.

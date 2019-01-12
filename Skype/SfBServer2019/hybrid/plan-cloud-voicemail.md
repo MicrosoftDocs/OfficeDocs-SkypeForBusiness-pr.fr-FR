@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Cet article décrit les avantages, considérations relatives à la planification et configuration requise pour l’implémentation du Service de messagerie vocale de Microsoft dans le nuage. Pour plus d’informations sur la configuration de la messagerie vocale dans le nuage, voir Configuration de la messagerie vocale dans le nuage.
-ms.openlocfilehash: 14df7c3d8fbe7cab0bff9482c1543e7a6084039e
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 1cf4376becb9826e7403b22e621843de7426abb6
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696204"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988169"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planifier le service de messagerie vocale dans le nuage
 
@@ -77,7 +77,7 @@ Outre les conditions ci-dessus, la sous exigences doit être configuré pour se 
 
 - Un externe Exchange Web Services (EWS) URL et la découverte automatique doivent être le programme d’installation ou certaines fonctionnalités de messagerie vocale dans le nuage seront limitées.
 
--  Si vous avez un déploiement uniquement localement--qui est, uniquement Exchange et Skype pour les entreprises serveurs locaux, mais vous souhaitez profiter de la messagerie vocale dans le nuage, vous devez la licence de suite-PREM. 
+-  Si vous disposez d’un déploiement local d’uniquement & le #x 2014 ; c'est-à-dire seulement Exchange et Skype pour les entreprises local serveurs & #x 2014 ; mais vous souhaitez profiter de la messagerie vocale dans le nuage, vous devez la licence de suite-PREM. 
 
 ## <a name="migration-and-interoperability"></a>Migration et interopérabilité
 
@@ -86,7 +86,8 @@ Si vous envisagez de déployer Skype pour Business Server 2019 et/ou 2019 du ser
 - Exchange Server 2019 ne fournit plus de fonctionnalités de messagerie unifiée Exchange
 - Skype pour Business Server 2019 intègre n’est plus avec la messagerie unifiée Exchange Online
 
-Interopérabilité de la version et les topologies prises en charge pour la messagerie vocale dans le nuage sont répertoriés dans le tableau suivant. Pour la version preview, la messagerie vocale dans le nuage fonctionne uniquement avec Skype pour Business Server et Exchange Server 2019 ou Exchange Online.
+Interopérabilité de la version et les topologies prises en charge pour la messagerie vocale dans le nuage sont répertoriés dans le tableau suivant, qui permet de comparer le Skype pour les versions Business Server, l’utilisateur peut être hébergé sur avec la version possible de fournir leur boîte aux lettres Exchange. Messagerie vocale dans le nuage fonctionne uniquement avec Skype pour Business Server et Exchange Server 2019 ou Exchange Online.
+
 
 
 |                               | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |

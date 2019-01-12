@@ -25,6 +25,7 @@
 ## [Planifier la gouvernance dans les équipes](plan-teams-governance.md)
 ## [Plan pour Microsoft 365 gouvernement - déploiements GCC](plan-for-government-gcc.md)
 ## [Plan pour Microsoft 365 gouvernement - déploiements GCC haute](plan-for-government-gcc-high.md)
+## [Plan pour Microsoft 365 gouvernement - déploiements DoD](plan-for-government-dod.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->

@@ -15,24 +15,23 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5172781911a944b5fd25042260cebdd77a48ddaa
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6e50992aa8489d93b577e957cffc98c18e7cc15e
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013866"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988177"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Paramètres d'administration pour les applications dans Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Les applications sont des onglets, les connecteurs, robots ou n’importe quelle combinaison de ces trois fournie par un service tiers. Des équipes d’administration stratégies peuvent être configurés dans le centre d’administration Office 365 pour contrôler les applications de tiers externes autorisées. Ces stratégies permettent de spécifier les applications qui sont autorisées et non autorisées, le nouveau comportement de l’application externe, et si les applications côté-chargement est autorisé.
+Les applications sont des onglets, des connecteurs, des robots ou n’importe quelle combinaison de ces trois fournies par les équipes (applications internes et également appelé applications par défaut) ou par un tiers (également appelées applications externes). Dans le centre d’administration Microsoft 365, vous pouvez activer et désactiver des applications par défaut et configurer les paramètres pour contrôler les applications externes. Ces paramètres vous permettent de spécifier les applications externes sont autorisées et non autorisées, le nouveau comportement de l’application externe, et si les applications côté-chargement est autorisé.
 
-> [!NOTE]
-> Pour gérer les paramètres d’administration dans Teams, accédez au centre d’administration Office 365 et ouvrez l’option **Paramètres** > **Services et compléments**, puis sélectionnez **Microsoft Teams**. Si vous êtes connecté en tant qu’administrateur d’Office 365, ce lien vous dirige sur cette option :
-> 
-> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+ Pour gérer les paramètres d’administration pour les applications dans les équipes, accédez au centre d’administration Microsoft 365 et choisissez **paramètres** > **Services et compléments** > **Équipes Microsoft**. Si vous êtes connecté en tant qu’administrateur d’Office 365, ce lien vous dirige sur cette option :
+
+https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
 Pour en savoir plus sur les paramètres d’administration, regardez la vidéo suivante : 
  
@@ -42,7 +41,7 @@ Pour en savoir plus sur les paramètres d’administration, regardez la vidéo s
 
 ## <a name="allow-external-apps-in-teams"></a>Autoriser les applications externes dans Teams
 
-Par défaut, le paramètre **Autoriser les applications externes dans Microsoft Teams** est activé avec toutes les applications sélectionnées.  Si vous désactivez cette option, tous les applications tierces externes sont désactivées. 
+Par défaut, le paramètre **Autoriser les applications externes dans Microsoft Teams** est activé avec toutes les applications sélectionnées.  Si vous désactivez ce paramètre, toutes les applications tierces externes sont désactivées. 
 
 ## <a name="enable-new-external-apps-by-default"></a>Activer les applications externes nouvelles par défaut
 
@@ -53,13 +52,13 @@ Pour activer certaines applications (et en désactiver d'autres), désactivez l'
 > [!NOTE]
 > Applications par défaut, telles que celles créées par Microsoft, ne sont pas affectées par le paramètre **activer de nouvelles applications externes par défaut** . Nouvelles applications sont activées par défaut lorsque l’utilisateur relâche par Microsoft.
 
-Lorsque cette option est activée, les utilisateurs peuvent activer les nouvelles applications dès qu'elles sont ajoutées au catalogue d'applications Teams. Pour ouvrir le catalogue d'applications Teams, cliquez sur **Store** en bas de Teams et cliquez sur **Applications**. Si vous souhaitez contrôler la disponibilité des applications, désactivez cette option. Bien sûr, si vous la désactivez, n'oubliez pas de vérifier régulièrement les nouvelles applications afin que votre organisation ne passe pas à côté de nouvelles applications intéressantes. 
+Lorsque ce paramètre est activé, les utilisateurs peuvent activer des nouvelles applications dès qu’elles sont ajoutées au catalogue d’applications équipes. Pour ouvrir le catalogue d'applications Teams, cliquez sur **Store** en bas de Teams et cliquez sur **Applications**. Si vous souhaitez contrôler les applications qui sont disponibles, désactivez ce paramètre. Bien sûr, si vous la désactivez, n'oubliez pas de vérifier régulièrement les nouvelles applications afin que votre organisation ne passe pas à côté de nouvelles applications intéressantes. 
 
 Le chargement de version test consiste à ajouter un application à Teams en chargeant un fichier .zip directement dans une équipe. Le chargement de version test vous permet de tester une application au fur et à mesure qu'elle est développée. Il vous permet également de créer une application à des fins d'utilisation interne uniquement et de la partager avec votre équipe sans l'envoyer dans le catalogue d'applications Teams dans l'Office Store. 
 
 Seuls les propriétaires ou membres d'équipes autorisés peuvent charger la version test d'une application dans Teams.  
 
-![Capture d’écran de la section applications de développé dans les paramètres au niveau du client.](media/Admin_settings_for_apps_in_Microsoft_Teams_image2.png)
+![Capture d’écran de la section applications externes développée.] (media/teams-tenant-wide-settings-external-apps.png "Capture d’écran de la section applications externes développée avec des applications externes")
 
 ## <a name="creating-and-uploading-app-packages"></a>Création et chargement de packages d'application 
 
