@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Réunion Migration MMS (Service) est un service qui s’exécute en arrière-plan et met à jour automatiquement Skype pour les réunions d’entreprise et Teams Microsoft pour les utilisateurs. MMS est conçu pour éliminer le besoin pour les utilisateurs d’exécuter l’outil de Migration de réunion pour mettre à jour leur Skype pour les réunions d’entreprise et Teams Microsoft.
-ms.openlocfilehash: 94f3d315810e6fdee93ffa8abfe6a657ca8b43fd
-ms.sourcegitcommit: 1b9f19b1bd8f33ee2f011cd5ea2d0d75bf8647c9
+ms.openlocfilehash: e700725fc95957647bea8fe44d6a73a34bd16ab8
+ms.sourcegitcommit: 2d79898281258e123a86d9a0a2bc1211ee6b039e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27783516"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28019575"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Utilisation du Service de Migration de réunion (MMS)
 
@@ -34,7 +34,9 @@ Le Service de Migration de réunion (MMS) est un service qui met à jour des ré
 
 - Lorsqu’un utilisateur est migré local vers le nuage (s’il faut Skype pour Business Online ou TeamsOnly).
 - Lorsqu’un administrateur modifie les paramètres de conférence audio de l’utilisateur 
-- Lorsqu’un utilisateur est mise à niveau vers le mode TeamsOnly (clients technologie du programme d’Adoption [TAP] uniquement)
+- Lorsqu’un utilisateur en ligne est mise à niveau pour les équipes uniquement, ou lorsque le mode d’un utilisateur dans TeamsUpgradePolicy est défini sur SfBwithTeamsCollabAndMeetings (appuyez sur clients uniquement)
+- Lorsque vous utilisez PowerShell 
+
 
 Par défaut, MMS est automatiquement déclenché dans chacun de ces cas, bien que les administrateurs peuvent désactiver au niveau du client. En outre, les administrateurs peuvent utiliser une applet de commande PowerShell pour déclencher manuellement la migration de réunion pour un utilisateur donné.
 
@@ -76,7 +78,7 @@ Cette section décrit ce qui se produit lors du déclenchement MMS dans chacun d
 
 - Lorsqu’un utilisateur est migré local vers le nuage
 - Lorsqu’un administrateur modifie les paramètres de conférence audio de l’utilisateur 
-- Lorsqu’un utilisateur est mise à niveau vers le mode TeamsOnly (appuyez sur clients uniquement)
+- Lorsque le mode de l’utilisateur dans TeamsUpgradePolicy est défini sur TeamsOnly ou SfBWithTeamsCollabAndMeetings (appuyez sur clients uniquement)
 - Lorsque vous utilisez PowerShell 
 
 ### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>Mise à jour de réunions lorsque vous déplacez un utilisateur local vers le nuage
@@ -111,7 +113,7 @@ Toutes les modifications aux paramètres de conférence audio d’un utilisateur
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>Mise à jour des réunions lors de l’affectation TeamsUpgradePolicy
 
 > [!NOTE]
-> Cette section décrit les fonctionnalités à venir qui seront tout d’abord disponibles pour les clients TAP.
+> Cette section décrit la fonctionnalité qui n’est actuellement disponible pour les clients TAP.
 
 Par défaut, migration de la réunion sera automatiquement déclenchée lorsqu’un utilisateur est accordé à une instance de `TeamsUpgradePolicy` avec `mode=TeamsOnly` ou `mode= SfBWithTeamsCollabAndMeetings`. Si vous ne souhaitez pas migrer des réunions lors de l’octroi d’un de ces modes, puis spécifiez `MigrateMeetingsToTeams $false` dans `Grant-CsTeamsUpgradePolicy`.
 
