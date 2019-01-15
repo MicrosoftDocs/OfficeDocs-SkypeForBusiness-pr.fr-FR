@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Résumé : consultez cette rubrique pour découvrir comment planifier la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online.  La première étape du déploiement de nombreuses solutions hybrides Skype Entreprise consiste à configurer une connectivité hybride.'
-ms.openlocfilehash: 6b0456c115e1d1fc9b1a341b17cfc9711f2a6bb7
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 8fd32e8b70f2fc63919b9ec8abca2d0b70c90107
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240762"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015284"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planification de la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online
 
@@ -333,7 +333,8 @@ Lors de la planification d'un déploiement hybride, prenez en compte les aspects
 
 - **Messagerie instantanée et présence** Listes des contacts utilisateur, des groupes et des listes de contrôle d’accès (ACL) sont migrées avec le compte d’utilisateur.
 
-- **Données de conférence, contenu de réunion et les réunions planifiées** Ce contenu n’est pas migré avec le compte d’utilisateur. Les utilisateurs doivent replanifier les réunions après que leurs comptes sont migrés vers Skype pour Business Online.
+- **Données de conférence, contenu de réunion et les réunions planifiées** Ce contenu n’est pas migré avec le compte d’utilisateur. Les utilisateurs doivent replanifier les réunions après que leurs comptes sont migrés vers Skype pour Business Online. Le Service de Migration de réunion sera cela automatiquement lors de la migration à partir d’un Skype pour Business server à Skype pour Business en ligne ou les équipes, voir [l’aide du Service de Migration de réunion](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+
 
 ## <a name="user-policies-and-features"></a>Fonctionnalités et stratégies utilisateur
 <a name="BKMK_UserPolicies"> </a>

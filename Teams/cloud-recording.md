@@ -12,12 +12,12 @@ description: Guide pratique pour le déploiement de la fonctionnalité vocale cl
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1819aa33dd951483754f4c00377865460a3765ff
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: 085f2ff382c33f6914454fd1633054fd3e4602ca
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620082"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015332"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -38,8 +38,10 @@ Pour les réunions d’un utilisateur d’équipes à enregistrer, Stream Micros
 - Utilisateur a accepté les instructions de la société, si définie par l’administrateur
 - L’utilisateur a un espace suffisant dans Stream Microsoft pour les enregistrements d’être enregistrées
 - Utilisateur a TeamsMeetingPolicy-AllowCloudRecording paramètre défini sur true
-- Utilisateur a TeamsMeetingPolicy-AllowTranscription paramètre défini sur true, afin que l’utilisateur peut choisir s’il faut transcrire automatiquement les enregistrements
 - Utilisateur n’est pas anonyme, invité ou utilisateur fédéré de la réunion
+
+> [!NOTE]
+> En outre, pour permettre à la personne qui effectue l’enregistrement à décider de transcrire automatiquement l’enregistrement, le paramètre l’utilisateur TeamsMeetingPolicy - AllowTranscription doit être défini sur true
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configuration d’enregistrement de réunion équipes cloud pour les utilisateurs de votre organisation
 
@@ -90,7 +92,7 @@ Lorsque les utilisateurs enregistrement leurs réunions d’équipes, ils peuven
 
 Utilisez le paramètre AllowTranscription dans TeamsMeetingPolicy dans PowerShell équipes pour contrôler si un initiateur enregistrement Obtient la possibilité d’effectuer une transcription de l’enregistrement de la réunion. Vous pouvez en savoir plus sur la gestion des TeamsMeetingPolicy avec Office 365 PowerShell [ici](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
-Sauf si vous avez assigné une stratégie personnalisée pour les utilisateurs, ils obtiennent stratégie globale, qui est désactivé par défaut.
+Sauf si vous avez assigné une stratégie personnalisée pour les utilisateurs, ils obtiennent la stratégie globale, qui a AllowTranscription désactivée par défaut.
 
 Pour un utilisateur de revenir à la stratégie globale, utilisez l’applet de commande suivante pour supprimer l’affectation d’une stratégie spécifique pour un utilisateur :
 

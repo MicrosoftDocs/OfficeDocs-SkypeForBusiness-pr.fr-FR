@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Résumé : Passez en revue cette rubrique pour plus d’informations sur l’intégration de Skype pour Business Server avec Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: 327a564e9c7a0a73ef178866f511c75388ac14bc
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 13be5cf29369b84db74052b36dec288220b91395
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789397"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015339"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Planifier l’intégration de Skype Entreprise et d’Exchange
  
@@ -108,7 +108,7 @@ Le tableau suivant décrit en détail les fonctionnalités prises en charge sous
 |Historique des conversations côté serveur  <br/> |O  <br/> |O  <br/> |N  <br/> |O  <br/> |O  <br/> |
 
 > [!NOTE]
-> Il est un service de messagerie vocale dans le nuage qui est pris en charge pour Skype pour Business Online, Skype pour Business Server 2019, Skype pour Business Server 2015 et Skype pour Business Server 2013.
+> Il est un service de messagerie vocale dans le nuage qui est pris en charge pour Skype pour Business Online, Skype pour Business Server 2019, Skype pour Business Server 2015 et Lync Server 2013.
 > 
 
 ## <a name="see-also"></a>Voir aussi

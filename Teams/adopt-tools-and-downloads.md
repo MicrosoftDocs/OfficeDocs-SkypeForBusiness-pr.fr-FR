@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a01c837924f0499b9378d88b9ed6d7e70c9ba91
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 64041c7cf66e880374d8d52f68c7ec5def0de61c
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896138"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015324"
 ---
 # <a name="tools-for-driving-adoption"></a>Outils pour la conduite d’Adoption 
 
@@ -146,4 +146,7 @@ Utilisez les outils ci-dessous pour prendre en charge de chaque phase de votre p
 Le programme champions Office 365 est un programme gratuit qui permet aux utilisateurs qui souhaitent optimiser Teams Microsoft et d’autres services Office 365. Nous avons combiné notre communauté en ligne de la [Communauté technique Microsoft](https://aka.ms/DriveAdoption) avec les appels de la Communauté mensuel qui met en surbrillance tous les composants de conduite d’adoption de gouvernance pour les meilleures pratiques pour les nouvelles fonctionnalités. Participer à notre communauté https://aka.ms/O365Champions et accéder à la version au plus tôt, entendre d’autres clients et à l’occasion d’experts de Microsoft.  
 
 ### <a name="teams-adoption-guide"></a>Guide d’Adoption d’équipes
-Extraction de ce guide en ligne qui vous aideront à déployer des équipes de votre société. Il inclut de nombreux outils téléchargeables, les modèles et autres ressources pour vous aider au long de votre parcours d’adoption équipes.
+Extraction du [livret d’adoption équipes](https://aka.ms/teamstoolkit), un guide en ligne qui vous aideront à déployer des équipes de votre société. Il inclut de nombreux outils téléchargeables, les modèles et autres ressources pour vous aider au long de votre parcours d’adoption équipes.
+
+### <a name="teams-customer-success-kit"></a>Kit de réussite client équipes
+Le [Kit de réussite client équipes](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) fournit des outils pour vous aider à déployer des équipes au sein de votre organisation. Elle comprend des modèles de courrier électronique pour les annonces, affiches affichettes, compte à rebours et conseils et astuces. Il inclut également des repères de mise en route pour les administrateurs informatiques et les responsables d’équipe.
