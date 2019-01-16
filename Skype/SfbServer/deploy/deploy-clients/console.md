@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article explique comment configurer la console v2 Skype salle systèmes et périphériques.
-ms.openlocfilehash: 4218365e7cb4b396d3e93d3fa969546138ace33d
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: fab2854406e22b156c8fcca76e6701214199f62c
+ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716373"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28324933"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configuration d’une console Skype Room Systems v2
  
@@ -41,22 +41,20 @@ Vous devez uniquement effectuer ces étapes si la Skype nécessaire pour les com
 ## <a name="prepare-the-installation-media"></a>Préparer le support d’installation
 <a name="Prep_Media"> </a>
 
-Installation de l’application de console Skype salle systèmes v2 requiert un périphérique de stockage USB avec au moins 32 Go de mémoire en un disque FAT32. Il ne doit y avoir aucun fichier sur le dispositif de stockage USB, car ceux-ci seraient perdus.
+Installation de l’application de console Skype salle systèmes v2 requiert un périphérique de stockage USB avec au moins 32 Go de la capacité. Il ne doit y avoir aucun autre fichier sur le périphérique ; les fichiers existants sur le stockage USB seront perdues.
   
 > [!NOTE]
-> Impossible de créer votre support d’installation v2 Skype salle systèmes en fonction de ces instructions aura un comportement inattendu. Mise à jour Windows 10 entreprise anniversaire (Version 1607) est plus pris en charge pour la création de systèmes de salle Skype v2 installation multimédia.
+> Impossible de créer votre support d’installation v2 Skype salle systèmes en fonction de ces instructions aura un comportement inattendu.
 
 > [!NOTE]
-> Un v2 Skype salle systèmes existants avec Windows 10 entreprise déplacement vers les systèmes de salle Skype v2 mise à jour 3 par l’entremise du Windows Store fonctionnera, mais une nouvelle installation doit être effectuée comme indiqué ci-dessous.
+> La procédure ci-dessous est pour la création du support d’installation vers de nouveaux périphériques de v2 Skype salle System image. Périphériques existants, par défaut, mettre à jour automatiquement à partir de Windows Update et Windows Store.
   
 1. Télécharger le script [CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842). 
-2. (Facultatif) Téléchargez et placer les fichiers CAB du pack langue de votre choix dans le même répertoire que le script. Le script indique où vous pouvez télécharger les fichiers de pack de langue appropriés pour le type de média que vous créez, si vous ne savez pas où se procurer les modules linguistiques de.
-3. Exécutez le script CreateSrsMedia.ps1 à partir d'une invite avec élévation de privilèges sur un ordinateur Windows 10.
+2. Exécutez le script CreateSrsMedia.ps1 à partir d'une invite avec élévation de privilèges sur un ordinateur Windows 10.
+3. Suivez les instructions du script pour créer un disque d’installation de systèmes de salle Skype v2 USB.
 
-Suivez les instructions du script pour créer un disque d’installation de systèmes de salle Skype v2 USB. Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur et passez à [10 de Windows Installer et de l’application de console Skype salle systèmes v2](console.md#Reimage).
+Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur et passez à [10 de Windows Installer et de l’application de console Skype salle systèmes v2](console.md#Reimage).
 
-> [!TIP]
-> Vous avez sans doute remarqué que nous n’appelons plus des versions spécifiques de pilotes, les systèmes de salle Skype v2 client ou Windows 10 Enterprise. Il s’agit intentionnelle, nous voulons le script pour associer et de vérifier la compatibilité pour tous les programmes d’installation. Le script et automatiquement obtenir les outils nécessaires pour une configuration prises en charge.  
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Installation de Windows 10 et de l’application de console Skype Room Systems v2
 <a name="Reimage"> </a>
