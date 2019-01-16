@@ -1,5 +1,5 @@
 ---
-title: Qualité de service dans Microsoft Teams - Microsoft Teams
+title: Implémenter la qualité de Service dans les équipes Microsoft
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5e6b37a0daff06a4676a7ecba1b67ecdd03649a
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: b519327b37c61a126c5101080f0c1eee9f8582f5
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789093"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326731"
 ---
-# <a name="quality-of-service-qos-in-microsoft-teams"></a>Qualité de service (QoS) dans Microsoft Teams
+# <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implémenter la qualité de Service (QoS) dans les équipes Microsoft
 
 Cet article vous aide à préparer le réseau de votre organisation de qualité de Service (QoS) dans Microsoft Teams.
 
@@ -33,15 +33,15 @@ Lorsque vous le trafic des communications en temps réel telles que les appels o
 
 QoS être vraiment efficace, cohérentes paramètres QoS doivent être appliquée de bout en bout dans votre organisation (les ordinateurs des utilisateurs, commutateurs réseau et routeurs vers le nuage), parce que n’importe quelle partie du chemin d’accès ne parvient pas à prendre en charge vos priorités QoS peut diminuer la qualité des appels , vidéo et partage d’écran.
 
-![La relation entre les réseaux d’une organisation et les services Office 365 : réseau et périphériques de se connectent à un réseau d’interconnexion, qui se connecte à son tour avec les services Office 365 Cloud voix et de conférence sur site.] (media/Qos-in-Teams-Image1.png "La relation entre les réseaux d’une organisation et les services Office 365 : réseau et périphériques de se connectent à un réseau d’interconnexion, qui se connecte à son tour avec les services Office 365 Cloud voix et de conférence sur site.")
+QoS est un mécanisme que vous pouvez utiliser pour définir la priorité certains types de trafic réseau qui sont sensibles aux délais réseau trafic est moins sensible. Analogie est que QoS crée virtuel « voies covoiturage » dans vos données réseau, donc certains types de données jamais ou rarement rencontrer les retards.
 
-_La figure 1. La relation entre les réseaux d’une organisation et les services Office 365_
+Lorsque vous le trafic des communications en temps réel telles que les appels ou réunions partagées dans les équipes, vous pouvez classer par priorité plus proposer fiable une expérience utilisateur de qualité professionnelle. Lorsque vous n’implémentez QoS, gel des écrans partagés dans les réunions, vidéo peut pixellate et décalage de couleurs et les appels vocaux peuvent devenir instable et difficiles ou impossibles à comprendre. QoS être vraiment efficace, cohérentes paramètres QoS doivent être appliquée de bout en bout dans votre organisation (les ordinateurs des utilisateurs, commutateurs réseau et routeurs vers le nuage), parce que n’importe quelle partie du chemin d’accès ne parvient pas à prendre en charge vos priorités QoS peut diminuer la qualité des appels , vidéo et partage d’écran.
 
-
-Dans la plupart des cas, le réseau d’interconnexion sera une connexion internet de réseau non géré. 
+![La relation entre les réseaux d’une organisation et les services Office 365 : réseau et périphériques de se connectent à un réseau d’interconnexion, qui se connecte à son tour avec les services Office 365 Cloud voix et de conférence sur site.](media/Qos-in-Teams-Image1.png) 
 
 Une seule option disponible pour résoudre QoS de bout en bout est [ExpressRoute Azure](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). Nous vous recommandons de mettre en œuvre QoS sur votre réseau local. Cette augmentation de la qualité des charges de travail de communication en temps réel au sein de votre déploiement et éviter les goulots d’étranglement. 
 
+Dans la plupart des cas, le réseau de connexion de votre entreprise vers le nuage sera une connexion internet de réseau non géré où vous ne serez pas en mesure de définir de manière fiable QoS. Une des options disponibles pour QoS réellement au bout en bout est [ExpressRoute Azure](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). Nous vous recommandons d’implémenter QoS sur les parties du réseau de bout en bout, vous pouvez contrôler, à savoir votre réseau local. Cette augmentation de la qualité des charges de travail de communication en temps réel au sein de votre déploiement et éviter les goulots d’étranglement dans votre déploiement existant.
 
 ## <a name="prioritize-teams-network-traffic-for-qos"></a>Hiérarchiser les équipes le trafic pour QoS 
 
@@ -70,7 +70,7 @@ Le trafic réseau quand un routeur, le trafic est placé dans une file d’atten
 
 _La figure 2. Exemples de files d’attente de QoS_
 
-Une fois ces éléments sont en place, il est possible de remettre QoS prévisible parce que le réseau géré sous-jacent comprend désormais comment classer, de marquer et de définir la priorité du trafic. Du point de vue des équipes, l’étape de configuration plus importante est la classification et le marquage des paquets, mais pour QoS de bout en bout aboutisse, vous devez également Alignez soigneusement la configuration de l’application avec la configuration réseau sous-jacente.
+Une fois ces éléments sont en place, il est possible de remettre QoS prévisible parce que le réseau comprend désormais comment classer, de marquer et de définir la priorité du trafic. Du point de vue des équipes, l’étape de configuration plus importante est la classification et le marquage des paquets, mais pour QoS de bout en bout aboutisse, vous devez également Alignez soigneusement la configuration de l’application avec la configuration réseau sous-jacente.
 
 ## <a name="teams-qos-scenarios"></a>Scénarios de QoS des équipes
 
@@ -266,8 +266,7 @@ Pour vérifier que les valeurs de l’objet de stratégie de groupe ont été d�
    ```
    gpresult /H >gp.html
    ```
-
-   ![Capture d’écran de la fenêtre de console exécutant la commande gpresult.] (media/Qos-in-Teams-Image3.png "Capture d’écran de la fenêtre de console exécutant la commande gpresult.")
+ ![Capture d’écran de la fenêtre de console exécutant la commande gpresult.] (media/Qos-in-Teams-Image3.png "Capture d’écran de la fenêtre de console exécutant la commande gpresult.")
 
 3. Dans le fichier généré, recherchez l’en-tête **Appliqué des objets de stratégie de groupe** et vérifiez que les noms des objets de stratégie de groupe créés précédemment sont dans la liste des stratégies appliquées. 
 

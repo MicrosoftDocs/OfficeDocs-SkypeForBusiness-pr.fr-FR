@@ -23,13 +23,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Découvrez comment créer des plans de numérotation d’appels (plans de numérotation d’appels RTC) dans Office 365 et comment les gérer. '
-ms.openlocfilehash: 1bf059f096e6e66c9f5b10913cc6754e3f9e247f
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
+ms.openlocfilehash: 49ce76cc723b120fce4fd259304e6bb066b10f6e
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25506801"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326826"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
@@ -54,7 +54,7 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
   
  **Démarrez une session Windows PowerShell**
   
-1. Depuis le **Menu Démarrer** > **Windows PowerShell**.
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
     
@@ -155,7 +155,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
 ```
 
-Run the following when you want to also examine the existing normalization rules, determine which one you want to delete, and then use its index to remove it. The array of normalization rules starts with index 0. We would like to remove the 3-digit normalization rule, so that is index 1.
+Exécutez ce qui suit lorsque vous souhaitez examiner également les règles de normalisation existante, déterminez celui que vous souhaitez supprimer, puis utilisez son index pour le supprimer. Le tableau des règles de normalisation commence par index 0. Nous aimerions supprimer la règle de normalisation 3 chiffres, pour qu’elle soit index 1.
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -181,7 +181,12 @@ Exécutez l'élément suivant pour rechercher tous les utilisateurs disposant d'
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial plan for your organization. You need to first save the on-premises dial plan to an .xml file, and then use it to create the new tenant dial plan.
+Exécutez ce bouton pour supprimer policyname pour tous les utilisateurs qui ont HostingProvider sipfed.online.lync.com.
+```
+Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
+```
+
+Exécutez l'élément suivant pour ajouter le plan de numérotation local nommé OPDP1 comme plan de numérotation client pour votre organisation. Vous devez tout d’abord enregistrer l’environnement local de numérotation de plan vers un fichier .xml, puis l’utiliser pour créer le plan de numérotation client.
   
 Exécutez cette macro pour enregistrer le plan de numérotation local dans le fichier .xml.
   
@@ -207,15 +212,15 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l’utilisation du centre d’administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
-  - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures méthodes de gestion d’Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -230,7 +235,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

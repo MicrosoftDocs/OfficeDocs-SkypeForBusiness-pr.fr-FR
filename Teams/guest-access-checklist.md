@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7fa7e7d7999bd42748e1997a4ec73b37ca14a67
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: efb5b4394ae7659982a747e79ace2296dbdf2345
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772768"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326708"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de vérification de l’accès invité équipes
 ==========================================
@@ -71,7 +71,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Autoriser l’accès inv
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Étape 2 : configurer des groupes d’Office 365
 
-1. Dans le centre d’administration Microsoft 365, accédez à **paramètres** > **Services et compléments** > **Groupes d’Office 365**.
+1. Dans le centre d’administration Microsoft 365, accédez à **paramètres** > **& Services complémentaires** > **Groupes d’Office 365**.
 2. Assurez-vous que **laisser les membres du groupe en dehors du contenu de groupe organisation access** est **activé**. Si ce paramètre est désactivé, les invités sera en mesure d’accéder au contenu de groupe.
 3. Assurez-vous que **vous permettent d’ajouter des personnes à l’extérieur de l’organisation aux groupes de propriétaires de groupe** est **activé**. Si ce paramètre est désactivé, les propriétaires de l’équipe sera en mesure d’ajouter de nouveaux invités. Au minimum, ce paramètre doit correspondre à la prise en charge l’accès invité.
 
@@ -82,7 +82,7 @@ Pour obtenir des instructions détaillées sur la configuration de ces paramètr
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Étape 3 : activer l’accès invité au niveau du client
 
-Au minimum, vous devez activer Microsoft Teams pour tous les utilisateurs du type de licence **invité**. 
+Au minimum, vous devez activer l’accès invité pour Microsoft Teams sous les **équipes Microsoft & Skype entreprise centre d’administration**. 
 
 1. Dans les équipes & Skype entreprise centre d’administration, sélectionnez **paramètres à l’échelle de la société** > **accès invité**.
 2. Configurer le commutateur **Autoriser l’accès invité dans les équipes Microsoft** **sur**.
@@ -99,7 +99,7 @@ Pour obtenir des instructions détaillées, voir [Activer ou désactiver l’acc
 
 Assurez-vous que les utilisateurs peuvent ajouter des invités. Voici comment :
 
-1. Dans le centre d’administration Microsoft 365, accédez à **paramètres** > **sécurité et confidentialité**.
+1. Dans le centre d’administration Microsoft 365, accédez à **paramètres** > **sécurité & confidentialité**.
 
      ![Capture d’écran montre un exemple de paramètres de Services](media/guest-access-checklist-Office365Admin_Services_addins.png)
 

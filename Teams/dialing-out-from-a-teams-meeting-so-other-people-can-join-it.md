@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Cette section présente les informations nécessaires et explique comment les organisateurs de réunions peuvent composer le numéro d’autres personnes par le biais de Teams.
-ms.openlocfilehash: adb4d9ae492c324937dbe552fc138933428cc466
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: a1d06d75d48c45cfc13490c5c6562451909120dd
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297790"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326857"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Passer un appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
 
 En tant qu’organisateur de la réunion, vous pouvez vous connecter à l’aide de l’application des équipes pour permettre aux autres personnes à participer à la même réunion à l’aide de leurs téléphones.
 
-Lorsque vous connecter à une personne, nous vous recommandons de le faire qu’à l’aide de leurs numéros de téléphone complet (y compris le code de pays/région).
+Lorsque vous connecter à une personne, nous vous recommandons de le faire qu’à l’aide de leurs numéros de téléphone complet (y compris le code de pays/région - format E.164).
   
   Veuillez noter que :
 

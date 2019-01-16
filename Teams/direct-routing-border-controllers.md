@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Partenaires de Microsoft avec des fournisseurs pour valider leurs SBCs SBC fonctionnent avec le routage Direct.
-ms.openlocfilehash: feed9c228f1bdc0fb4bb8beb8f403617e9907b9f
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 0230828c9aef49f8979c30d19c1d2d5e15779d84
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214549"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326842"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs SBC certifiés pour le routage direct
 
@@ -63,4 +63,4 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    PA 3900       |   En attente    |   En attente  |   En attente    |
 |                                                                                                                     |      PA 4600         |    En attente    |   En attente    |      En attente      |
 |                                                                                                                     |      ENVIRONNEMENT DE MIGRATION VIRTUEL             |    En attente    |   En attente    |      En attente      |
-|                     [SYSTÈMES DE NOTE](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |    En attente    |   En attente    |      En attente      |
+|                     [SYSTÈMES DE NOTE](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   En attente    |      V3.16.2      |

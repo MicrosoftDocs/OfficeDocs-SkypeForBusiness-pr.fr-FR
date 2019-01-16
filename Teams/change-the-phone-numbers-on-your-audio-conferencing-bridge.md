@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: d90daec99ced371aae3ef0685d1138656a6ab138
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c1590fe63a712ece4c2f073dc6642b09ac273d32
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531774"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326873"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone de votre pont d'audioconférence
 
@@ -46,7 +46,7 @@ Outre les numéros de téléphone déjà affectés à votre pont de conférence,
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel.
 
-2. Accédez au **Centre d’administration Office 365** > **Admin centres** > **équipes & Skype** > **portail hérité** > **vocale** > **numéros de téléphone**.
+2. Accédez au **Centre d’administration Office 365** > **Admin centres** > **& équipes Skype** > **portail hérité** > **vocale** > **numéros de téléphone**.
 
 3. Sélectionnez le numéro de téléphone dans la liste, puis dans le volet Actions, cliquez sur **affecter**.
 
@@ -60,7 +60,7 @@ Uniquement un numéro de service peut être défini en tant que le numéro par d
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel.
 
-2. Accédez au **Centre d’administration Office 365** > **Admin centres** > **équipes & Skype** > **réunions** > **Ponts de conférence**.
+2. Accédez au **Centre d’administration Office 365** > **Admin centres** > **& équipes Skype** > **réunions** > **Ponts de conférence**.
 
 3. Mettez en surbrillance le numéro de service que vous souhaitez configurer en tant que la valeur par défaut.
 
@@ -72,7 +72,7 @@ Les numéros de téléphone par défaut d’un utilisateur sont ceux qui est inc
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **équipes & Skype** > **portail hérité** > **audioconférence** > **les utilisateurs**, puis sélectionnez les utilisateurs dans la liste.
+2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **& équipes Skype** > **portail hérité** > **audioconférence** > **les utilisateurs**, puis sélectionnez les utilisateurs dans la liste.
 
 3. Cliquez sur **Modifier** dans le volet Action.
 
@@ -136,7 +136,7 @@ Pour plus d'informations sur le service Meeting Migration Service (MMS), reporte
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **équipes & Skype** > **portail hérité** > **vocale** > **numéros de téléphone**.
+2. Accéder au **Centre d’administration Office 365** > **Admin centres** > **& équipes Skype** > **portail hérité** > **vocale** > **numéros de téléphone**.
 
 3. Sélectionnez le numéro de téléphone dans la liste, puis dans le volet Actions, cliquez sur **Supprimer l’attribution**.
 
@@ -220,6 +220,24 @@ Pour gagner du temps en l’automatisation de ce processus, vous pouvez utiliser
 
     > [!NOTE]
     > L'emplacement utilisé ci-dessus doit correspondre aux coordonnées des utilisateurs qui sont définies dans le Centre d'administration Office 365.
+
+## <a name="troubleshooting"></a>Résolution des problèmes
+
+**Annuler l’affectation bouton est grisé**
+
+Vous souhaitez annuler l’affectation d’un nombre, mais le bouton est grisé et si tout en hoovering dessus, vous êtes redirigé pour contacter le Support avec le message suivant _« par défaut ou numéros partagé can´t être non affectés à partir de la passerelle. Pour annuler l’affectation de numéros payants dédié, contactez le support technique._».
+
+Pour obtenir plus d’informations sur la bridge(s), exécutez la Powershell suivante :
+```
+Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
+```
+
+Le résultat, côté d’autres informations comme identité, le nom et la région, doit également contenir le DefaultServiceNumber.
+
+**Exemple**, pour annuler l’affectation, la DefaultServiceNumber « 8005551234 »
+```
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
+```
 
 ## <a name="about-windows-powershell"></a>À propos de Windows PowerShell
 

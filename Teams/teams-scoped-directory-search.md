@@ -1,5 +1,5 @@
 ---
-title: Utiliser Microsoft Teams étendue de recherche dans l’annuaire
+title: Utiliser la recherche d’annuaire étendue Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c8173445fff6acaa3a5381199220a376401076c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6260651dfa48dc07a15dbc1bbcf41297ecc281cf
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531825"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326818"
 ---
-# <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser Microsoft Teams étendue de recherche dans l’annuaire
+# <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser la recherche d’annuaire étendue Microsoft Teams
 
 Recherche dans l’annuaire étendue Microsoft Teams permet aux organisations de créer des limites virtuels qui contrôlent la façon dont les utilisateurs peuvent rechercher et communiquer avec d’autres utilisateurs dans leur organisation. 
 
@@ -32,21 +32,21 @@ Microsoft Teams permet aux entreprises de fournir des vues personnalisées du r�
 
 Scénarios qui tirent parti des recherches dans l’annuaire étendue définie sont similaires aux scénarios téléchargeable stratégie. Par exemple, vous souhaiterez peut-être utiliser la recherche dans l’annuaire étendue dans les situations suivantes :
 
-- Votre organisation possède plusieurs sociétés dans son client que vous souhaitez conserver séparément. 
-- Votre école veut limiter les conversations entre la faculté et aux étudiants. 
+- Votre organisation comporte plusieurs entreprises au sein de son client que vous souhaitez garder séparées. 
+- Votre école souhaite limiter les conversations entre la faculté et les étudiants. 
  
 Vous pouvez en savoir plus sur l’utilisation des stratégies de carnet d’adresses [ici](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019).
 
 > [!IMPORTANT]
-> Stratégies de carnet d’adresses fournissent uniquement une séparation virtuelle d’utilisateurs du point de vue de répertoire. Les utilisateurs peuvent lancer toujours les communications avec d’autres personnes en fournissant des adresses de messagerie complète. 
+> Stratégies de carnet d’adresses fournissent uniquement une séparation virtuelle d’utilisateurs du point de vue de répertoire. Les utilisateurs peuvent lancer toujours les communications avec d’autres personnes en fournissant des adresses de messagerie complète. Il est également important de noter que toutes les données utilisateur qui avaient déjà été mis en cache, avant l’application des stratégies de carnet d’adresses de nouveau ou mis à jour, reste accessibles aux utilisateurs de 30 jours.
 
 ## <a name="enable-scoped-directory-search"></a>Activer la recherche de répertoire sur lesquelles porte
 
 1.  Stratégies de carnet d’adresses permet de configurer votre organisation en sous-groupes virtuels. Pour plus d’informations, voir [procédures de stratégies de carnet d’adresses](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-procedures?view=exchserver-2019).
 
-2.  Se connecter au centre d’administration Microsoft 365, sélectionnez **centre Admin**et sélectionnez **équipes & Skype**.
+2.  Se connecter au centre d’administration Microsoft 365, sélectionnez **centre Admin**et sélectionnez **& équipes Skype**.
  
-3.  Dans Microsoft Teams & Skype entreprise centre d’administration, sélectionnez **paramètres à l’échelle de la société** > **paramètres équipes**.
+3.  Dans la & Microsoft Teams Skype entreprise centre d’administration, sélectionnez **paramètres à l’échelle de l’organisation** > **paramètres équipes**.
 
 4.  Sous **recherche**, en regard de **recherche dans l’annuaire étendue dans les équipes à l’aide d’une stratégie de carnet d’adresses Exchange (APB)**, activez la bascule **sur**. 
 

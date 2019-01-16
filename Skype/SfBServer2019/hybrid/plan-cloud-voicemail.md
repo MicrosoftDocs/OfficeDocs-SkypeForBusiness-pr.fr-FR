@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Cet article décrit les avantages, considérations relatives à la planification et configuration requise pour l’implémentation du Service de messagerie vocale de Microsoft dans le nuage. Pour plus d’informations sur la configuration de la messagerie vocale dans le nuage, voir Configuration de la messagerie vocale dans le nuage.
-ms.openlocfilehash: 1cf4376becb9826e7403b22e621843de7426abb6
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: 0ea27643acce66484081034b8685c7dcad9aa311
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988169"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326770"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planifier le service de messagerie vocale dans le nuage
 
@@ -75,9 +75,9 @@ Outre les conditions ci-dessus, la sous exigences doit être configuré pour se 
 
 - Les utilisateurs doivent être activés pour Enterprise Voice et de la messagerie vocale hébergée dans Skype pour Business Server sur site.
 
-- Un externe Exchange Web Services (EWS) URL et la découverte automatique doivent être le programme d’installation ou certaines fonctionnalités de messagerie vocale dans le nuage seront limitées.
+- Un externe Exchange Web Services (EWS) URL et la découverte automatique doivent être définie ou certaines fonctionnalités de messagerie vocale dans le nuage seront limitées.
 
--  Si vous disposez d’un déploiement local d’uniquement & le #x 2014 ; c'est-à-dire seulement Exchange et Skype pour les entreprises local serveurs & #x 2014 ; mais vous souhaitez profiter de la messagerie vocale dans le nuage, vous devez la licence de suite-PREM. 
+-  Si vous disposez d’un deployment& d’uniquement localement #x 2014 ; autrement dit, uniquement Exchange et Skype pour les entreprises locale servers& #x 2014 ; mais vous souhaitez profiter de la messagerie vocale dans le nuage, vous n’aurez pas des licences supplémentaires.
 
 ## <a name="migration-and-interoperability"></a>Migration et interopérabilité
 

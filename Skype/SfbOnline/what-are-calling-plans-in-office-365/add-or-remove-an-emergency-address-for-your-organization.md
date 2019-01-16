@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: cf6f2118ff147e6c126db6fcbbd0af9dbe155e21
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: f4d66c58066cd5547a8692066763675006d97920
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699398"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326698"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Ajouter, modifier ou supprimer une adresse d’urgence pour votre organisation
 
@@ -40,7 +40,7 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au site **Microsoft équipes & Skype pour le centre d’administration Business** > **portail hérité**.
+2. Atteindre les **équipes Microsoft & Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans le volet de navigation de gauche, sélectionnez **Voix** > **Localisations d'urgence**, puis cliquez sur le bouton **Ajouter une nouvelle adresse**.
     
@@ -62,7 +62,7 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au site **Microsoft équipes & Skype pour le centre d’administration Business** > **portail hérité**.
+2. Atteindre les **équipes Microsoft & Skype pour le centre d’administration Business** > **portail hérité**.
     
 3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, sélectionnez l’adresse que vous souhaitez modifier, dans le volet Actions, cliquez sur **Modifier**.
     
@@ -83,7 +83,34 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
     
     > [!IMPORTANT]
     > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
+
+## <a name="troubleshooting"></a>Résolution des problèmes
+
+**Numéro de l’état « Échec ».**
+
+Après avoir acquis un numéro à partir du portail Office 365, le statut de **« Mise en service »** à **« Échec »**.
+
+Ce problème se produit souvent lorsqu’un nombre est ajouté à partir du portail, à l’aide d’une adresse d’urgence pointant vers un emplacement qui ne correspond pas au code de zone du téléphone.
+
+Pour obtenir plus d’informations sur les numéros qui n’a pas été correctement activés, exécutez le Powershell suivant :
+ 
+> [! SYNTAXE] Get-CsOnlineTelephoneNumber | Where-Object {$_. « Activé » ActivationState - cnotcontains} | fl *
+
+Le résultat, côté d’autres informations telles que la région, id et ActivationState, doit également contenir le CityCode.
+
+**Exemple**, pour un nombre Madrid, la CityCode renvoyée sera « EMEA-ES-tous-M_MA ».
+
+Si en effet une adresse d’urgence incorrecte a été utilisée, assurez-vous que vous avez créé une nouvelle adresse d’urgence correspondant à l’indicatif du nombre et l’affectez au nombre.
+
+1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
+2. Atteindre les **équipes Microsoft & Skype pour le centre d’administration Business** > **portail hérité**.
+    
+3. Dans la navigation de gauche, accédez à la **voix** > **Numéros de téléphone**, puis double-cliquez sur celui-ci dans l’état **« Échec »** et dans le menu site droite, sélectionnez **Nouvelle adresse d’urgence**.
+
+
+Notez qu’après modification de l’adresse en cas d’urgence, statut son devient **« affectation en attente »** et elle peut prendre jusqu'à 24 heures pour activer correctement.
+
 ## <a name="related-topics"></a>Rubriques connexes
 [Que sont les emplacements, les adresses et le routage d'appel d'urgence ?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
