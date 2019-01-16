@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fdd9c47e54c9ce51e736363eb47227614824a4c
-ms.sourcegitcommit: 768c7b5f0aaa4b38a0b98c7c9ff904ffedd2e9b9
+ms.openlocfilehash: 7f761e36712b94274ccf88aa03bd3658c039d438
+ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27893356"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28022914"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application des équipes de votre organisation dans Microsoft Teams
 
@@ -36,7 +36,11 @@ Il est important de savoir qu’équipes actuellement ne prennent en charge les 
 
 Déplacements est disponible dans tous les abonnements Office 365 qui incluent des équipes, avec quelques exceptions. Les exceptions sont nous gouvernement nuage communautaire (GCC) et les équipes libres. Équipes n’est pas disponible dans Office 365 américains ou équipes libre offres.
 
-Pour en savoir plus sur la gestion des licences pour les équipes, voir [Gestion des licences Office 365 pour les équipes](Office-365-licensing.md).
+Pour plus d’informations sur la gestion des licences pour les équipes, notamment la liste des abonnements Office 365 qui inclut des équipes, voir [Gestion des licences Office 365 pour les équipes](Office-365-licensing.md).
+
+## <a name="location-of-shifts-data"></a>Emplacement des données d’équipes
+
+Équipes données sont actuellement stockées dans Azure dans les centres de données en Amérique du Nord et Europe occidentale Asie-Pacifique. Pour plus d’informations sur le stockage des données, voir [où se trouvent mes données](http://o365datacentermap.azurewebsites.net/)?
 
 ## <a name="set-up-shifts"></a>Configurer des équipes
 
