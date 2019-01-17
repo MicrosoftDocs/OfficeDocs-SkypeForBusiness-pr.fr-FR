@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article explique comment configurer la console v2 Skype salle systèmes et périphériques.
-ms.openlocfilehash: 162aaaed5472fefc3c23cc11800b166ed4b26bc2
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 00203c8aa781c489d8a1cc8c2bf91a364bea057f
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326715"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694719"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configuration d’une console Skype Room Systems v2
  
@@ -56,6 +56,13 @@ Installation de l’application de console Skype salle systèmes v2 requiert un 
 > [!CAUTION]
 > Le nom du dossier dans lequel vous exécutez le support de script de création de ne peut pas contenir un espace. S’il existe un espace de nom de dossier, le script échouera.
 
+Le script CreateSrsMedia.ps1 automatise les tâches suivantes :
+
+1. Téléchargez le programme d’installation MSI le plus récent pour les systèmes de salle Skype v2.
+2. Déterminer la version de Windows que l’utilisateur doit fournir. Les versions la plus récentes peuvent ou ne peut pas être testées et pris en charge pour une utilisation avec des périphériques v2 Skype salle système.
+3. Télécharger les composants de prise en charge nécessaires.
+4. Assembler les composants nécessaires sur le support d’installation.
+
 Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur et passez à [10 de Windows Installer et de l’application de console Skype salle systèmes v2](console.md#Reimage).
 
     
@@ -74,11 +81,11 @@ Vous devez maintenant appliquer le support d’installation que vous avez créé
 
 5. Démarrez le disque d’installation USB. Reportez-vous aux instructions de fabricant. Si votre périphérique cible est une Surface Pro, procédez comme suit pour démarrer sur le disque d’installation USB :
 
-    1. Appuyez sur et maintenez le volume vers le bas du bouton (-).
+    a. Appuyez sur et maintenez le volume vers le bas du bouton (-).
 
-    2. Appuyez puis relâchez le bouton d’alimentation.
+    b. Appuyez puis relâchez le bouton d’alimentation.
 
-    3. Une fois l’installation Windows démarrée, relâchez le bouton de diminution du volume (-).
+    c. Une fois l’installation Windows démarrée, relâchez le bouton de diminution du volume (-).
 
 8. Le système s’arrêtera une fois l’installation terminée.
     

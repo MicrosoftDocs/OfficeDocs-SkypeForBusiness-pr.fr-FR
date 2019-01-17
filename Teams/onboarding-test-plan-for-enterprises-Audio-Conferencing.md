@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79d9fcde21b6d6f7d0c169efd852629fb43ae9b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1f9fea1e2d3f8dcf4fc966d1392a38168fc1656e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373785"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694860"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Définissez et documentez votre conférence Audio dans le plan de test des équipes pour les entreprises 
 ===============================================================================
@@ -80,7 +80,7 @@ Dans le cadre de la définition des conditions requises de fonctionnalité de co
 -   Si vous pouvez confirmer que les fonctionnalités de conférence Audio décrites dans la feuille de route public le plus récent répondent à vos utilisateurs, les fonctionnalités et exigences d’étendue dans la chronologie de votre déploiement
 
 > [!TIP]
-> La feuille de route équipes le plus récent pour identifier les fonctionnalités de conférence Audio dans la portée de votre déploiement se trouvent à <https://aka.ms/skype2teamsroadmap>.
+> La feuille de route équipes le plus récent pour identifier les fonctionnalités de conférence Audio dans la portée de votre déploiement se trouvent à <https://aka.ms/O365Roadmap>.
 
 Maintenant que les personnages d’audioconférence et les fonctionnalités ont été définies, les critères d’évaluation suivant sera l’expérience de l’interopérabilité avec des équipes. Pour plus d’informations sur l’expérience de l’interopérabilité avec les options de configuration disponibles, consultez [les équipes Microsoft et Skype pour l’interopérabilité de l’entreprise](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
 
@@ -426,9 +426,9 @@ Le composant dernière lors de la création d’un plan de test consiste à iden
 
 | Plan de test du livrable                    | Format du livrable de plan de test | Propriétaire du livrable du plan de test                                                                                                      | Réviseur du livrable de plan de test | Approbateur du livrable de plan de test | Plan du livrable approbation date de test |
 |------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------|--------------------------------|-------------------------------------|
-| Plan de test                                | Word                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
-| Rapports de gestion des défauts                | Word                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
-| Test des rapports d’état                   | Word                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
+| Plan de test                                | Mot                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
+| Rapports de gestion des défauts                | Mot                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
+| Test des rapports d’état                   | Mot                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
 | Synthèse des résultats                     | Word PPTX                    | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
 
 
@@ -601,7 +601,7 @@ Une fois que vous avez terminé toutes les connectivité réseau et test de perf
 
 
 
-| Mesure                                                        | Cible                                                                                                            | Weekday : heures de bureau 9 h 30 à 11:00                                                                                                                                                                                                                                                                                                 | Weekday : heures de bureau 2:30 PM à 4:30 PM | Weekday : après les heures de 10 h 30 à 12:30 AM | Week-end : après les heures de 9 h 30 à 11:30 AM | Week-end : après les heures de 2:30 PM à 4:30 PM |
+| Mesure                                                        | Cible                                                                                                             | Weekday : heures de bureau 9 h 30 à 11:00                                                                                                                                                                                                                                                                                                 | Weekday : heures de bureau 2:30 PM à 4:30 PM | Weekday : après les heures de 10 h 30 à 12:30 AM | Week-end : après les heures de 9 h 30 à 11:30 AM | Week-end : après les heures de 2:30 PM à 4:30 PM |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------
 | Latence (unidirectionnelle)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
 | Latence (temps d’aller-retour ou durée aller-retour)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
@@ -615,7 +615,7 @@ Une fois que vous avez terminé toutes les connectivité réseau et test de perf
 <tr><th colspan="2">Test d’actualités </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">Enseignements de test  </th></tr><br/><tr><td><strong>Problème</strong>: latence élevée</td><td><strong>Correction :</strong> Examiner le routage de paquets et implémentez l’itinéraire idéal.</td></tr>
-<tr><td><strong>Problème</strong>: aller-retour n’est heure & #39 ; t double de la latence</td><td><strong>Correction :</strong> Recherchez un problème de configuration du pare-feu ou votre routeur possible. Examinez les chemins de trafic.</td></tr>
+<tr><td><strong>Problème</strong>: temps d’aller-retour isn& #39 ; t double de la latence</td><td><strong>Correction :</strong> Recherchez un problème de configuration du pare-feu ou votre routeur possible. Examinez les chemins de trafic.</td></tr>
 <tr><td><strong>Problème</strong>: la perte de paquets haute </td><td><strong>Correction :</strong> Via le Planificateur de réseau, vérifiez que la bande passante requise a été affecté. </td></tr>
 <tr><td><strong>Problème</strong>: gigue haute </td><td> <strong>Correction :</strong> Vérifiez si les valeurs de point (DSCP) de code de services différenciés corrects sont utilisés. </td></tr>
 <tr><td><strong>Problème</strong>: la perte de paquets haute </td><td><strong>Correction :</strong> Examinez la perte de paquets. </td></tr>
@@ -653,7 +653,7 @@ Identifier et documenter toutes les informations de compte (y compris le nom uti
 En règle générale, vous pouvez trouver les informations que vous avez besoin dans la dernière lettre ou la facture à partir de votre fournisseur de services en cours.
 
 > [!TIP]
-> Vous pouvez déplacer ou transfert des numéros de téléphone dans toutes les actuellement pris en charge pays/régions ; Toutefois, la manière de vous soumettez une demande de commande de port peut-être différer en fonction du pays ou région dans lequel les numéros de téléphone sont issus. Pour connaître la liste des pays/régions actuellement pris en charge, consultez la rubrique [pays et disponibilité dans la région de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). < /br/ ><br/>
+> Vous pouvez déplacer ou transfert des numéros de téléphone dans toutes les actuellement pris en charge pays/régions ; Toutefois, la manière de vous soumettez une demande de commande de port peut-être différer en fonction du pays ou région dans lequel les numéros de téléphone sont issus. Pour connaître la liste des pays/régions actuellement pris en charge, consultez la rubrique .</br/> [pays et disponibilité dans la région de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)<br/>
 >   Pour plus d’informations sur le transfert des numéros de téléphone à la conférence Audio, ainsi que les restrictions potentielles — voir [transférer des numéros de téléphone vers Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) et [composer le numéro payant restrictions dans Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
 
 #### <a name="step-3"></a>Étape 3

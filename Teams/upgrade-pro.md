@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a849e9c6ab5934252f5bae1cbd26542f3393d57
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 6f1068a2e77211542fd56971615bab7cf23af39e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789383"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694914"
 ---
 # <a name="upgrade-pro"></a>Mise à niveau des professionnels de l’informatique
 
@@ -37,7 +37,7 @@ Afin d’illustrer comment votre parcours de mise à niveau peut se déroulent, 
 
 ## <a name="pre-upgrade"></a>Avant mise à niveau
 
-**Préparation de votre organisation pour les équipes.**  Pour garantir une mise à niveau réussie aux équipes, il est important d’allouez suffisamment de temps pour la préparation. Non seulement votre organisation soit en mesure de démarrer rapidement l’optimisation des équipes, vous serez en mesure d’accélérer votre mise à niveau à partir de Skype pour les entreprises dès que les équipes est prête pour vous. Surveiller la [feuille de route](https://aka.ms/skype2teamsroadmap) pour les améliorations qui sont planifiés pour les équipes ; Cela vous permet d’identifier le planning de mise à niveau à droite de votre organisation. Si vous avez déjà activé équipes avec Skype pour les entreprises, vous pouvez utiliser ces activités pré-mise à niveau comme un point de contrôle pour valider la préparation de votre organisation avant de passer les utilisateurs à des équipes. 
+**Préparation de votre organisation pour les équipes.**  Pour garantir une mise à niveau réussie aux équipes, il est important d’allouez suffisamment de temps pour la préparation. Non seulement votre organisation soit en mesure de démarrer rapidement l’optimisation des équipes, vous serez en mesure d’accélérer votre mise à niveau à partir de Skype pour les entreprises dès que les équipes est prête pour vous. Surveiller la [feuille de route](https://aka.ms/O365Roadmap) pour les améliorations qui sont planifiés pour les équipes ; Cela vous permet d’identifier le planning de mise à niveau à droite de votre organisation. Si vous avez déjà activé équipes avec Skype pour les entreprises, vous pouvez utiliser ces activités pré-mise à niveau comme un point de contrôle pour valider la préparation de votre organisation avant de passer les utilisateurs à des équipes. 
 
 > [!Tip]
 > Téléchargez le [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit) pour les supports de préparation au modèle utilisateur, telles que les communications et les enquêtes effectuées auprès, outre un exemple de plan de projet de mise à niveau et le plan de test pilote. Les éléments qui sont disponibles dans le kit sont indiqués par un astérisque (\*) dans la liste ci-dessous.  
@@ -123,5 +123,5 @@ Afin d’illustrer comment votre parcours de mise à niveau peut se déroulent, 
 > Nos professionnels de l’informatique de mise à niveau est en constante évolution. Veillez à vérifier les conseils les plus récents et lire le [blog des équipes](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Si vous êtes un administrateur sur votre client Office 365, vous pouvez commencer à voir les options de mise à niveau dans votre applet de commande PowerShell & ou équipes de Skype entreprise centre d’administration. La possibilité de mise à niveau ne signifie pas nécessairement que votre organisation est prête pour que cette modification. Pour une expérience utilisateur optimale, vérifiez que les équipes répond à vos besoins de collaboration et de communication, vérifiez que votre réseau est prêt à prendre en charge des équipes et implémenter votre plan de préparation utilisateur avant la mise à niveau des utilisateurs aux équipes.
+> Si vous êtes un administrateur sur votre client Office 365, vous pouvez commencer à voir les options de mise à niveau dans votre applet de commande PowerShell ou les équipes & Skype entreprise centre d’administration. La possibilité de mise à niveau ne signifie pas nécessairement que votre organisation est prête pour que cette modification. Pour une expérience utilisateur optimale, vérifiez que les équipes répond à vos besoins de collaboration et de communication, vérifiez que votre réseau est prêt à prendre en charge des équipes et implémenter votre plan de préparation utilisateur avant la mise à niveau des utilisateurs aux équipes.
  

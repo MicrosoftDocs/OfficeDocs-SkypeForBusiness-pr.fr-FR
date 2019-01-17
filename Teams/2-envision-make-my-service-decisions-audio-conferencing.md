@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0057f18d334c89f745ec74952fd01796c8b30880
-ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
+ms.openlocfilehash: ad00f5df93cb91cc878a0b75a413b9299cde9a88
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/28/2018
-ms.locfileid: "27458501"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694774"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -35,7 +35,7 @@ Dans le cadre de la définition des fonctionnalités de conférence Audio requis
 -   Confirmation que les fonctionnalités de conférence Audio dans les équipes décrits dans la feuille de route public le plus récent répondent à vos utilisateurs, les fonctionnalités et exigences d’étendue, dans la chronologie de votre déploiement.
 
 > [!NOTE]
-> La feuille de route équipes le plus récent pour identifier les fonctionnalités d’audioconférence équipes dans l’étendue de votre déploiement se trouvent à <https://aka.ms/skype2teamsroadmap>.
+> La feuille de route équipes le plus récent pour identifier les fonctionnalités d’audioconférence équipes dans l’étendue de votre déploiement se trouvent à <https://aka.ms/O365Roadmap>.
 
 ## <a name="meetings-in-teams"></a>Réunions dans Teams
 
@@ -44,7 +44,7 @@ Dans le cadre de la définition des fonctionnalités de conférence Audio requis
 Réunions peuvent être programmées en tant que les réunions privées (seules les parties invités peuvent rejoindre) ou canal réunions (ouvert pour tous les utilisateurs ayant accès à la chaîne) et vos utilisateurs peuvent également démarrer des réunions virtuelles impromptues canaux.
 
 > [!NOTE]
-> Pour plus d’informations sur les fonctionnalités de réunions dans les équipes, voir [Skype pour les entreprises à des fonctions de feuille de route les équipes Microsoft] https://aka.ms/skype2teamsroadmap).
+> Pour plus d’informations sur les fonctionnalités de réunions dans les équipes, voir la [Feuille de route Microsoft 365](https://aka.ms/O365Roadmap).
 
 Participants à la réunion peut participer à vos réunions d’équipes en appelant le numéro payant ou le pont de conférence rendez-vous gratuit par le biais des réseaux terrestres ou des téléphones mobiles, les numéros de téléphone. En outre, les utilisateurs peuvent laisser le service de conférence Audio initier la fonctionnalité « m’appeler » afin qu’ils peuvent participer à une réunion en ayant le pont de conférence appeler leurs téléphones (utile lors de la connexion de données n’est pas fiable), ou une réunion permettent aux organisateurs inviter de réunion participants à la connexion à leurs téléphones.
 

@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f3145455553c8126d66b3e56b69ec646f5f19ad
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: cc1c20f87103dc91a317e58dac03389275b255f2
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530695"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694696"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 ==============================================================
@@ -48,7 +48,7 @@ Pour activer l’onglet **Pavé de numérotation** dans les équipes et autorise
 > Vous pouvez également utiliser le routage Direct pour autoriser les utilisateurs à ext et de recevoir des appels PSTN. Pour savoir comment configurer le routage Direct, consultez [Configurer le routage Direct](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
 
 ## <a name="teams-interop-policy-configuration"></a>Configuration de la stratégie d'interopérabilité de Teams
-Pour activer les équipes commencer à recevoir des appels, vous devez mettre à jour la stratégie de mise à niveau d’équipes et équipes interopérabilité la stratégie, à l’aide des [équipes Microsoft & Skype entreprise centre d’administration](https://aka.ms/teamsadmincenter) ou une session Windows PowerShell à distance avec le Skype pour les entreprises [ `*-CsTeamsUpgradePolicy`et `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) applets de commande pour rediriger les appels vers les équipes.
+Pour activer les équipes commencer à recevoir des appels, vous devez mettre à jour la stratégie de mise à niveau d’équipes et équipes interopérabilité la stratégie, à l’aide des [équipes Microsoft & Skype entreprise centre d’administration](https://aka.ms/teamsadmincenter) ou à l’aide d’une session Windows PowerShell à distance avec le Skype pour les entreprises [ `*-CsTeamsUpgradePolicy`et `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) applets de commande pour rediriger les appels vers les équipes.
 
 Pour plus d’informations sur la stratégie de mise à niveau équipes et équipes PIA, voir [Migration et l’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
 
@@ -97,14 +97,14 @@ Comportements de la stratégie ci-dessus :
 * **Pour les clients sans Skype Entreprise**, le cas échéant, les appels PSTN seront reçus dans Teams.
 
 > [!WARNING]
-> Basculer de `CallingDefaultClient` vers Teams affectera également les appels vers les téléphones IP Skype Entreprise. Les appels entrants ne seront pas reçus sur les téléphones et seuls les clients Teams entendront la sonnerie. Consultez la [Feuille de route de l'évolution des fonctionnalités entre Skype Entreprise et Microsoft Teams](https://aka.ms/skype2teamsroadmap) pour en savoir plus sur la prise en charge des téléphones SIP certifiés existants.
+> Basculer de `CallingDefaultClient` vers Teams affectera également les appels vers les téléphones IP Skype Entreprise. Les appels entrants ne seront pas reçus sur les téléphones et seuls les clients Teams entendront la sonnerie. Veuillez consulter la [Feuille de route 365 Microsoft](https://aka.ms/O365Roadmap) pour plus d’informations sur la prise en charge pour les téléphones SIP certifiés existants.
 
 ### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Comment configurer les utilisateurs pour la réception de PSTN des appels dans les équipes
 Lorsque vous utilisez la stratégie de mise à niveau équipes héritée, appliquer la stratégie de PIA équipes comme indiqué ci-dessus par le biais de Skype pour la session Windows PowerShell à distance Business pour rediriger les appels vers les équipes :
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-Si vous choisissez d’utiliser le mode TeamsOnly, vous pouvez modifier le mode de coexistence de l’utilisateur à TeamsOnly via Microsoft Teams & Skype entreprise centre d’administration ou Skype pour la session Windows PowerShell à distance Business pour rediriger les appels vers les équipes :
+Si vous choisissez d’utiliser le mode TeamsOnly, vous pouvez modifier en mode de coexistence de l’utilisateur à TeamsOnly via Microsoft Teams & Skype entreprise centre d’administration ou Skype pour la session Windows PowerShell à distance Business pour rediriger les appels vers les équipes :
 
     Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
@@ -112,7 +112,7 @@ Si vous choisissez d’utiliser le mode TeamsOnly, vous pouvez modifier le mode 
 ## <a name="see-also"></a>Voir aussi
 [Configurer des forfaits d'appels](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-[Guide de migration et d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 [Guide pratique des systèmes téléphoniques avec forfaits d'appels dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
 

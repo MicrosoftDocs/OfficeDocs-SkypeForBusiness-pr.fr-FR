@@ -17,12 +17,12 @@ metadata:
   - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3c125870dc05f68bdf9baaeeb80630a98ffd62bb
-  ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+  ms.openlocfilehash: 4bb36fc10afbd9e0061da905d64999bf62bbfb4e
+  ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 11/15/2018
-  ms.locfileid: "26530981"
+  ms.lasthandoff: 01/17/2019
+  ms.locfileid: "28694766"
 items:
 - durationInMinutes: 1
   content: >
@@ -86,7 +86,7 @@ items:
     La fonction d'appel dans Teams prend en charge les fonctionnalités de système téléphonique de base, comme répondre à un appel et démarrer un appel (par le nom et le numéro) avec un pavé de numérotation intégré, mettre en attente et récupérer un appel, le transfert d'appel et la sonnerie simultanée, l'historique des appels, la messagerie vocale et appeler les services d'urgence.
 
 
-    Des fonctionnalités plus avancées seront ajoutées au fil du temps. Pour plus d'informations, consultez la [Feuille de route de l'évolution des fonctionnalités entre Skype Entreprise et Microsoft Teams](https://aka.ms/skype2teamsroadmap).
+    Des fonctionnalités plus avancées seront ajoutées au fil du temps. Pour plus d’informations, voir [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap).
 
 
     La fonction d'appel dans Teams est fournie par le système téléphonique (appelé auparavant Cloud PBX), le service dans Office 365 qui permet d'utiliser les fonctionnalités d'appel PSTN dans Skype Entreprise Online.
@@ -98,7 +98,7 @@ items:
     <span style="color:red">**Action** :</span> pour connaître les fonctionnalités disponibles actuellement et les calendriers de celles que nous prévoyons de développer, consultez les ressources suivantes :
 
 
-    - Dans la [feuille de route publique](https://aka.ms/skype2teamsroadmap), consultez la diapositive « Feuille de route de la fonction d'appel » pour avoir un aperçu des prévisions de dates de publication des fonctionnalités.
+    - Dans la [feuille de route publique](https://aka.ms/O365Roadmap), consultez la diapositive « Feuille de route de la fonction d'appel » pour avoir un aperçu des prévisions de dates de publication des fonctionnalités.
 
     - Consultez la rubrique [Voici les avantages du système téléphonique d'Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system) pour obtenir une description des fonctionnalités de système téléphonique. Notez que dans ce document, certaines de ces fonctionnalités peuvent être disponibles uniquement pour Skype Entreprise.
 
@@ -247,4 +247,4 @@ items:
   content: "\nMaintenant que vous avez planifié et implémenté correctement le système téléphonique dans votre environnement, vous devez vous assurer qu'il est utilisé et offre une expérience utilisateur optimale. Des détails complets dépasseraient le cadre de cette formation, mais nous voulons mettre l'accent sur les points d'implication les plus importants :\n\n-   Gestion d’adoption et de modifier les utilisateurs peut-être démarrer simplement à l’aide du service lorsque vous l’offrent les. Ou non. Il est donc important d'exécuter la gestion de l'adoption et des changements qui convient.\n\n-   Surveillance et nous recommandons que l’un des vos KSIs le nombre d’utilisateurs actifs, pour vous aider à mesurer les équipes degrés de l’utilisation de la commande sont acceptée en tant que téléphone client.\n\n-   Supervision et suivi de la qualité\n\nLa satisfaction de vos utilisateurs est directement liée à la qualité de leurs appels. Il est donc important que vous supervisiez la qualité des appels et l'amélioriez au besoin. Pour savoir comment rendre compte de la qualité des appels, visitez la formation Tableau de bord de la qualité des appels. Bien que ces vidéos ont été générés pour Skype pour les entreprises, elles s’appliquent aux équipes ainsi : <https://aka.ms/sof-cqd>.\n"
 - title: Étapes suivantes
   durationInMinutes: 1
-  content: "\nAu cours de cette formation, nous avons abordé les sujets suivants :\n-   Ce qu'est la fonction d'appel dans Teams.\n\n-   Comment planifier les appels dans Teams\n\n-   Comment configurer la fonction d'appel dans Teams\n\nPour en savoir plus, reportez-vous à la rubrique :\n\n-   [Guide pratique des systèmes téléphoniques avec forfaits d'appels dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\nÉtapes suivantes\n\n1.  Inscrivez-vous à [MyAdvisor](https://aka.ms/myadvisor) pour obtenir des conseils de déploiement personnalisés.\n2.  Commencer votre déploiement de système téléphonique pour Teams\n3.  Faites-nous part de vos commentaires :\n    - Publiez-les dans la section Commentaires au bas de cette page.\n    - Pour nous faire part de vos commentaires sur Teams, ou de vos idées de nouvelles fonctionnalités, visitez [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n4.  Rester à jour :\n    - Suivez le [Blog des équipes](https://aka.ms/teamsblog).\n    - Lisez la [feuille de route équipes](https://aka.ms/skype2teamsroadmap).\n    - Découvrez les dernières fonctionnalités publiées dans les [Notes de publication](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).\n5.  Explorez [les autres formations et didacticiels](https://aka.ms/Teamsacademy).\n"
+  content: "\nAu cours de cette formation, nous avons abordé les sujets suivants :\n-   Ce qu'est la fonction d'appel dans Teams.\n\n-   Comment planifier les appels dans Teams\n\n-   Comment configurer la fonction d'appel dans Teams\n\nPour en savoir plus, reportez-vous à la rubrique :\n\n-   [Guide pratique des systèmes téléphoniques avec forfaits d'appels dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\nÉtapes suivantes\n\n1.  Inscrivez-vous à [MyAdvisor](https://aka.ms/myadvisor) pour obtenir des conseils de déploiement personnalisés.\n2.  Commencer votre déploiement de système téléphonique pour Teams\n3.  Faites-nous part de vos commentaires :\n    - Publiez-les dans la section Commentaires au bas de cette page.\n    - Pour nous faire part de vos commentaires sur Teams, ou de vos idées de nouvelles fonctionnalités, visitez [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n4.  Rester à jour :\n    - Suivez le [Blog des équipes](https://aka.ms/teamsblog).\n    - Lisez la [feuille de route équipes](https://aka.ms/O365Roadmap).\n    - Découvrez les dernières fonctionnalités publiées dans les [Notes de publication](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).\n5.  Explorez [les autres formations et didacticiels](https://aka.ms/Teamsacademy).\n"

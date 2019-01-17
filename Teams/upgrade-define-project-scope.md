@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9830605dad592a147c22a60d1c7c275cbf969a64
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 833720e28fd53032ca9cb65fadc39b8cb753799e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375218"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694845"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet] (media/upgrade-banner-project-definition.png "Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet")
 
@@ -96,7 +96,7 @@ Le tableau suivant présente des exemples de OKRs et KSIs pour les phases initia
 
 
 > [!TIP]
-> Pour vous aider à garantir que votre projet reste sur le suivi, envisagez de définir des jalons plus petits, à court terme en plus des objectifs plus grands, à long terme. Cela peut inclure des mesures que vous allez capturer dans le cadre de votre pilote de l’utilisateur. Lorsque vous envisagez de votre barre de planning, utilisez le [Skype pour la feuille de route équipes](https://aka.ms/skype2teamsroadmap) si vous êtes en attente pour les fonctionnalités qui ne sont pas encore disponibles dans les équipes.
+> Pour vous aider à garantir que votre projet reste sur le suivi, envisagez de définir des jalons plus petits, à court terme en plus des objectifs plus grands, à long terme. Cela peut inclure des mesures que vous allez capturer dans le cadre de votre pilote de l’utilisateur. Lorsque vous envisagez de votre barre de planning, utilisez la [Feuille de route Microsoft 365](https://aka.ms/O365Roadmap) si vous êtes en attente pour les fonctionnalités qui ne sont pas encore disponibles dans les équipes.
 
 ## <a name="risks-and-mitigation"></a>Risques et atténuation
 
@@ -112,7 +112,7 @@ Le tableau suivant présente des exemples de OKRs et KSIs pour les phases initia
 
 Comme vous définissez l’étendue votre parcours de mise à niveau, veillez à définir un planning de clés (par exemple, l’activation équipes avec Skype pour les entreprises pour tous les utilisateurs) en plus de la date de fin. Une chronologie définie contribue votre équipe de projet vers un état final cohérente et informe la planification de travail différée à droite, afin de garantir que votre projet est respectée. Prendre en compte une chronologie qui n’est pas trop accélérée (où les tâches peuvent être ignorées) ou trop distants (où momentum risquent d’être perdue). Les comptes de chronologie idéal pour :
  
--   **Préparation des produits de la conformité et utilisateur requise de scénario**: faire référence à la [feuille de route du produit](https://aka.ms/skype2teamsroadmap) pour déterminer quand les équipes seront prêts pour votre organisation.
+-   **Préparation des produits de la conformité et utilisateur requise de scénario**: faire référence à la [feuille de route du produit](https://aka.ms/O365Roadmap) pour déterminer quand les équipes seront prêts pour votre organisation.
 -   **Mise à niveau de groupes**: déterminer si vous allez permettant aux équipes ou mise à niveau des utilisateurs en groupes de mise à niveau, qui pourraient affecter la chronologie de votre trajet globale mise à niveau.
 -   **Organisation des facteurs tels que la modification figer, fin de l’année fiscale, cycles de vie de déploiement**: discuter et de compte pour tous les processus internes peuvent influer sur votre barre de planning de mise à niveau.
 -   **Autres modifications qui sont produisent au niveau ou en même temps**: prendre en compte les modifications de regroupement ou leur espacement afin de faciliter un utilisateur positif expérience et réduire l’impact sur la productivité.

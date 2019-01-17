@@ -1,5 +1,5 @@
 ---
-title: Rendre le système téléphonique des décisions service - Microsoft Teams en appelant des Plans
+title: Prendre des décisions pour le service de systèmes téléphoniques avec forfaits d’appels - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bf0d5514f4202029acabe44268e8e7e7d671f60
-ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
+ms.openlocfilehash: 702b126ac065b3fd84737cd0a6bb00f47c6d4991
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25597845"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694758"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -29,7 +29,7 @@ Pour planifier l’implémentation du système téléphonique technique avec des
 Avec Microsoft Teams, vos utilisateurs peuvent passer et recevoir des appels vers ou depuis le réseau téléphonique commuté (RTC). Vos utilisateurs peuvent utiliser leurs propres numéros de téléphone dédié pour l’émission et réception d’appels téléphoniques nationales et internationales des applications clientes équipes, avec des fonctionnalités avancées qui incluent la messagerie vocale.
 
 > [!NOTE]
-> La feuille de route équipes le plus récent pour identifier les équipes téléphone système avec l’appel de planifier les fonctionnalités d’étendue pour votre déploiement, voir <https://aka.ms/skype2teamsroadmap>.
+> La feuille de route équipes le plus récent pour identifier les équipes téléphone système avec l’appel de planifier les fonctionnalités d’étendue pour votre déploiement, voir <https://aka.ms/O365Roadmap>.
 
 ## <a name="phone-system-in-teams"></a>Système téléphonique dans les équipes
 
@@ -76,7 +76,7 @@ Après avoir confirmé que votre organisation peut obtenir le service d’appel 
 > [!TIP]
 > Voici un exemple d’un système téléphonique avec la liste des activation appelant des Plans de site.
 > 
-> | **Bureau**                     | **Emplacement**   | **Service de système téléphonique** |
+> | **Office**                     | **Emplacement**   | **Service de système téléphonique** |
 > |--------------------------------|----------------|--------------------------|
 > | 1 Eppîng Road                | Australie      | Service PSTN hérité |
 > | 100 Cyberport Road             | Hong Kong R.A.S.  | Routage d’un système téléphonique Direct |
@@ -152,9 +152,9 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 > |Emily Braun      |En ligne      |Oui |Activé |Activé |
 > |Lidia Holloway   |En ligne      |Oui |Activé |Désactivé |
 > |Louis Lahr       |Local |Oui |Activé |Activé |
-> |Marcel Beauchamp |Local |Oui |Désactivé |N/D |
-> |Rachelle Cormier |En ligne      |Oui |Désactivé |N/D |
-> |Isabell Potvin   |Local |Oui |Désactivé |N/D |
+> |Marcel Beauchamp |Local |Oui |Désactivé |N/A |
+> |Rachelle Cormier |En ligne      |Oui |Désactivé |N/A |
+> |Isabell Potvin   |Local |Oui |Désactivé |N/A |
 
 <!--ENDOFSECTION-->
 
@@ -216,7 +216,7 @@ Pour en savoir plus sur le système téléphonique et Plans de l’appel, lisez 
 
 -   [Système téléphonique](https://products.office.com/skype-for-business/phone-system)
 
--   [Offres d'appels](https://products.office.com/skype-for-business/calling-plans)
+-   [Plans d’appel](https://products.office.com/skype-for-business/calling-plans)
 
 <br>
 
