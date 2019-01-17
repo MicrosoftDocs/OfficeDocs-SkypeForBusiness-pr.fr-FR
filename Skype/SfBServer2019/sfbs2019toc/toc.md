@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 6296e5ea0dde283dc46418d42db97c524277267b
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328284"
+---
 # [Skype pour Business Server 2019](../skype-for-business-server-2019.md)
 
 ## [Quelles sont les nouveautés](../whats-new.md)
@@ -151,7 +159,6 @@
 ##### [Chiffrement](../../SfbServer/plan-your-deployment/security/encryption.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Outils de gestion](../../SfbServer/plan-your-deployment/security/management-tools.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Protection contre les menaces](../../SfbServer/plan-your-deployment/security/addressing-threats.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-##### [Meilleures pratiques](../../SfbServer/plan-your-deployment/security/best-practices.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Capacité](../../SfbServer/plan-your-deployment/capacity/capacity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Modèle utilisateur](../plan/user-model-2019.md)
 ##### [Estimer le trafic vocal](../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -315,7 +322,7 @@
 #### [Exécutez l’outil Best Practices Analyzer](../migration/run-best-practices-analyzer.md)
 #### [Sauvegarder des systèmes et des données](../migration/back-up-systems-and-data.md)
 #### [Configurer des clients pour la migration](../migration/configure-clients-for-migration.md)
-#### [Vérification de l’environnement hérité de que sont de migration à partir](../migration/verify-environment.md)
+#### [Vérification de l’environnement hérité, de que vous effectuez une migration à partir](../migration/verify-environment.md)
 ### [Phase 3 : Déployer le pool pilote](../migration/phase-3-deploy-pilot-pool.md)
 #### [Préparer Active Directory pour le pool pilote](../migration/prepare-active-directory.md)
 #### [Téléchargement de la topologie à partir d’un déploiement existant](../migration/download-topology-from-existing-deployment.md)
