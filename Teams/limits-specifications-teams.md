@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f77de0515cc026b0d225100e7528a6eae4a7965
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: aa699ebabd57299ef2ced07c2c6d0fc551ac6b17
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240684"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328254"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 =============================================
@@ -30,14 +30,14 @@ Cet article décrit certaines des limites, les spécifications et autres conditi
 
 |Fonctionnalité    | Limite maximale |
 |-----------|---------------|
-|Nombre d’un utilisateur peut créer des équipes | Soumis à une limite de 250 objet & le sup1 ;         |
+|Nombre d’un utilisateur peut créer des équipes | Soumis à une limit&sup1 250 objet ;         |
 |Nombre de membres dans une équipe | 2 500       |
 |Nombre de membres dans une [équipe à l’échelle de l’organisation](create-an-org-wide-team.md) | 2 500       |
-|Nombre d’un administrateur global peut créer des équipes        | 500 000   |
+|Nombre d’un administrateur global peut créer des équipes        |  500 000   |
 |Nombre d’équipes que non attribuable à un client Office 365    | 500 000     |
-|Nombre de canaux par l’équipe    | 200         |
+|Nombre de canaux par l’équipe    | 200 (inclut les canaux supprimés)         |
 
-& sup1 ; N’importe quel objet d’annuaire dans Azure Active Directory compte dans cette limite.
+&sup1 ; N’importe quel objet d’annuaire dans Azure Active Directory compte dans cette limite.
 
 <a name="meetings-and-calls"></a>Réunions et appels 
 ------------------

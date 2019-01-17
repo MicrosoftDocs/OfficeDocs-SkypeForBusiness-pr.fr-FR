@@ -15,44 +15,50 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a36c0a23076c5aa172824fe85103c57a8494dbf
-ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
+ms.openlocfilehash: 383a4a18d466e367a31e4b99f9975b51cc5f559a
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/28/2018
-ms.locfileid: "27458477"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988185"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gérer les fonctionnalités de Microsoft Teams dans votre organisation Office 365
 
-Tous les paramètres de Teams seront bientôt migrés vers le nouveau Centre d’administration de Microsoft Teams et Skype Entreprise. A seule fonctionnalité de Teams qui est gérée dans le centre d’administration Office 365 est Applications. 
+Tous les paramètres de Teams seront bientôt migrés vers le nouveau Centre d’administration de Microsoft Teams et Skype Entreprise. La seule fonctionnalité de Teams qui est gérée dans le centre d’administration Office 365 est Applications. 
 
 Sauf indication contraire, la valeur par défaut d'une option est **Activée**.
 
-## <a name="office-365-tenant-wide-settings"></a>Paramètres à l'échelle du client Office 365 
+## <a name="tenant-wide-settings"></a>Paramètres à l'échelle du client 
 
-Dans **Paramètres à l'échelle du client**, vous pouvez activer ou désactiver des applications.
+Vous pouvez désactiver ou activer les applications pour Teams dans **Paramètres à l’échelle du client** dans le centre d’administration Microsoft 365. 
 
-Pour modifier les **paramètres à l’échelle du client** de Teams, accédez au Centre d’administration de Microsoft Teams et Skype Entreprise et sélectionnez **Portail existant**. Sélectionnez **Paramètres** > **Services et compléments** > **Microsoft Teams**. Si vous êtes connecté en tant qu’administrateur d’Office 365, ce lien vous dirige sur cette option : 
->  
-> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
+Pour modifier les **paramètres à l’échelle du client** de Teams, accédez au centre d’administration Microsoft 365, sélectionnez **Paramètres** > **Services et compléments** > **Microsoft Teams**. Si vous êtes connecté en tant qu’administrateur d’Office 365, ce lien doit vous diriger vers l’emplacement suivant : 
+
+https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
 
 ### <a name="apps"></a>Applications
 
-Les applications sont des onglets, des connecteurs, des bots ou n'importe quelle combinaison de ces éléments, fournis par un service tiers. Des stratégies d'administration de Teams peuvent être configurées dans le Centre d'administration Office 365 pour contrôler l'autorisation d'applications tierces externes. Ces stratégies vous permettent de spécifier les applications autorisées et non autorisées, le comportement d'une nouvelle application externe, ainsi que l'autorisation du chargement de version test d'applications. 
+Les applications sont des onglets, des connecteurs, des bots ou une combinaison des trois, fournies par Teams (applications internes, appelées également applications par défaut) ou par un tiers (appelées également applications externes). Sous **Applications**, vous pouvez activer et désactiver les applications par défaut et configurer les paramètres pour contrôler les applications externes.  
 
-La section **Applications** vous permet de configurer les paramètres suivants pour votre organisation : 
+#### <a name="default-apps"></a>Applications par défaut
 
-![Capture d'écran de la section Applications.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
+Ces applications, comme le Planificateur, Compliment et Météo sont fournies par Teams. Pour activer une application, cochez la case correspondante. Pour désactiver une application, décochez la case. 
 
-- **Autoriser les applications externes dans Microsoft Teams :** lorsque cette option est activée, les utilisateurs peuvent ajouter des onglets et des bots disponibles pour le client Office 365. 
- 
-    ![Capture d'écran de la commande Autoriser les applications externes dans la section Applications.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
+![Capture d’écran de la section Applications par défaut.](media/teams-tenant-wide-settings-default-apps.png "Capture d’écran de la section Applications par défaut")
 
-- **Activer les applications externes nouvelles par défaut** : lorsque cette option est activée, les utilisateurs peuvent activer les nouvelles applications dès qu'elles sont ajoutées au catalogue d'applications Teams. Désactivez cette option si vous souhaitez contrôler les nouvelles applications. Bien sûr, si vous la désactivez, n'oubliez pas de vérifier régulièrement les nouvelles applications afin que votre organisation ne passe pas à côté de nouvelles applications intéressantes. 
+#### <a name="external-apps"></a>Applications externes
 
-- **Autoriser le chargement des versions de test d'applications externes** : lorsque cette option est activée, les utilisateurs peuvent installer et activer des bots et onglets personnalisés. 
+Ces applications sont fournies par des tiers. Vous pouvez configurer les paramètres suivants pour les applications externes.
 
-Pour en savoir plus, consultez la rubrique [Paramètres d'administration dans Teams](admin-settings.md). 
+![Capture d’écran de la section Applications par défaut.](media/teams-tenant-wide-settings-external-apps-settings.png "Capture d’écran de la section Applications par défaut, montrant les paramètres que vous pouvez activer et désactiver")
+
+- **Autoriser les applications externes dans Microsoft Teams :** lorsque ce paramètre est activé, les utilisateurs peuvent ajouter les applications externes qui sont disponibles pour votre organisation. 
+
+- **Activer les applications externes nouvelles par défaut** : lorsque ce paramètre est activé, les utilisateurs peuvent activer les nouvelles applications dès qu'elles sont ajoutées au catalogue d'applications Teams. Désactivez ce paramètre si vous souhaitez contrôler les nouvelles applications. Bien sûr, si vous le désactivez, n'oubliez pas de vérifier régulièrement les nouvelles applications afin que votre organisation ne passe pas à côté de nouvelles applications intéressantes. 
+
+- **Autoriser le chargement indépendant d’applications externes** : Si vous souhaitez activer certaines applications externes et en désactiver d’autres, désactivez ce paramètre et, dans la liste des applications externes, désactivez les applications auxquelles vous ne voulez pas que les utilisateurs accèdent. Lorsque ce paramètre est activé, les propriétaires d’équipes et les membres autorisés peuvent charger une version test des applications dans Teams. 
+
+Pour en savoir plus, consultez la rubrique [Paramètres d'administration des applications dans Teams](admin-settings.md). 
 
 ## <a name="teams-org-wide-settings"></a>Paramètres à l’échelle de l'organisation de Teams
 
@@ -64,7 +70,7 @@ L’**accès externe** permet à vos utilisateurs de Teams et Skype Entreprise 
 
 ### <a name="guest-access"></a>Accès invité
 
-L’**accès invité** dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes à l’extérieur de votre organisation en leur accordant l'accès aux équipes et aux canaux.. Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes. Pour pour plus d’informations, reportez-vous à la rubrique [Accès invité dans Microsoft Teams](guest-access.md).
+L’**accès invité** dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes à l’extérieur de votre organisation en leur accordant l'accès aux équipes et aux canaux.Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes. Pour plus d’informations, reportez-vous à la rubrique [Accès invité dans Microsoft Teams](guest-access.md).
 
 ### <a name="teams-settings"></a>Paramètres de Teams
 
@@ -82,11 +88,7 @@ Les utilisateurs peuvent charger et partager des fichiers à partir de services 
 
 #### <a name="organization"></a>Organisation
 
-Cette option vous permet d’activer l'onglet **Organisation**, qui affiche l'organigramme détaillé de l'organisation de l’utilisateur. Pour pour plus d’informations, reportez-vous à la rubrique [Utiliser l’onglet Organisation dans Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
-
-#### <a name="skype-for-business-interop"></a>Interopérabilité de Skype Entreprise
-
-Utilisez ce paramètre pour permettre aux utilisateurs de Teams de discuter avec des utilisateurs de Skype Entreprise. Pour des informations détaillées sur l’interopérabilité entre Teams et Skype Entreprise, accédez à la rubrique [Comprendre la coexistence et l’interopérabilité de Microsoft Teams et Skype Entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+Cette option vous permet d’activer l'onglet **Organisation**, qui affiche l'organigramme détaillé de l'organisation de l’utilisateur. Pour plus d’informations, reportez-vous à la rubrique [Utiliser l’onglet Organisation dans Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
 
 #### <a name="devices"></a>Périphériques
 

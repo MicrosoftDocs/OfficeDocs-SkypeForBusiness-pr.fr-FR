@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article explique comment déployer la gestion des systèmes de salle Skype v2 périphériques d’une manière intégrée, de bout en bout à l’aide de Microsoft Operations Management Suite.
-ms.openlocfilehash: 5f370c7e222f75b11b41a39e99b9cba568d58241
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: 9a55238296452119679ff3c07147961fcec3eb7a
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450488"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328277"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Déploiement de la gestion de Skype Room Systems v2 avec OMS
 
@@ -140,7 +140,7 @@ Pour extraire vos champs personnalisés hors les journaux des événements captu
 |:-----------------------------|:---------------------------|:----------------|
 | Description                  | SRSEventDescription_CF     | Non sélectionnée    |
 | ResourceState                | SRSResourceState_CF        | Non sélectionnée    |
-| NomOpération                | SRSOperationName_CF        | Non sélectionnée    |
+| OperationName                | SRSOperationName_CF        | Non sélectionnée    |
 | OperationResult              | SRSOperationResult_CF      | Non sélectionnée    |
 | OS                           | SRSOSVersion_CF            | Non sélectionnée    |
 | OSVersion                    | SRSOSLongVersion_CF        | Non sélectionnée    |
@@ -195,7 +195,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>Créer une mosaïque qui affiche les périphériques actives
 1.  Sélectionnez **Afficher le tableau de bord** à ajouter votre mosaïques.
-2.  Sélectionnez le **nombre et la liste** dans la galerie
+2.  Sélectionnez **numéro & liste** dans la galerie
 3.  Définir les propriétés **générales** :<br>
     **Titre de groupe :** État de pulsation<br>
     **Nouveau groupe :** Sélectionné
@@ -212,7 +212,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 8.  Sélectionnez **Appliquer**, puis sur **Fermer**.
 
 ### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>Créer une mosaïque qui affiche les périphériques qui ont des problèmes de connectivité
-1.  Sélectionnez le **nombre et la liste** dans la galerie, puis ajoutez une nouvelle mosaïque.
+1.  Sélectionnez **numéro & liste** dans la galerie, puis ajoutez une nouvelle mosaïque.
 2.  Définir les propriétés **générales** :<br>
     **Titre de groupe :** Laissez vide<br>
     **Nouveau groupe :** Non sélectionnée
@@ -230,7 +230,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 
 ### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>Créer une mosaïque qui affiche les périphériques qui ont une erreur matérielle
 
-1.  Sélectionnez le **nombre et la liste** dans la galerie, puis ajoutez une nouvelle mosaïque.
+1.  Sélectionnez **numéro & liste** dans la galerie, puis ajoutez une nouvelle mosaïque.
 2.  Définir les propriétés **générales** :<br>
     **Titre de groupe :** État du matériel<br>
     **Nouveau groupe :** Sélectionné
@@ -248,7 +248,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-operating-system-versions"></a>Créer une mosaïque qui affiche les versions de système d’exploitation de systèmes de salle Skype v2
 
-1.  Sélectionnez **café et la liste** de la galerie, puis ajoutez une nouvelle mosaïque.
+1.  Sélectionnez **liste de & café** à partir de la galerie, puis ajoutez une nouvelle mosaïque.
 2.  Définir les propriétés **générales** :<br>
     **Titre de groupe :** Détails de Syetem d’exploitation <br>
     **Nouveau groupe :** Sélectionné
@@ -272,7 +272,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-application-versions"></a>Créer une mosaïque qui affiche les versions de l’application v2 systèmes de salle de Skype
 
-1.  Sélectionnez **café et la liste** de la galerie, puis ajoutez une nouvelle mosaïque.
+1.  Sélectionnez **liste de & café** à partir de la galerie, puis ajoutez une nouvelle mosaïque.
 2.  Définir les propriétés **générales** :<br>
     **Titre de groupe :** Détails de l’application v2 systèmes de salle de Skype <br>
     **Nouveau groupe :** Sélectionné
@@ -296,7 +296,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 
 ### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>Créer une mosaïque qui affiche les périphériques qui ont une erreur d’application
 
-1.  Sélectionnez le **nombre et la liste** dans la galerie, puis ajoutez une nouvelle mosaïque.
+1.  Sélectionnez **numéro & liste** dans la galerie, puis ajoutez une nouvelle mosaïque.
 2.  Définir les propriétés **générales** .<br>
     **Titre de groupe :** Laissez vide<br>
     **Nouveau groupe :** Non sélectionnée
@@ -314,7 +314,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 
 ### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>Créer une mosaïque qui affiche les périphériques qui ont été redémarrés.
 
-1.  Sélectionnez le **nombre et la liste** dans la galerie, puis ajoutez une nouvelle mosaïque.
+1.  Sélectionnez **numéro & liste** dans la galerie, puis ajoutez une nouvelle mosaïque.
 2.  Définir les propriétés **générales** .<br>
     **Titre de groupe :** Laissez vide<br>
     **Nouveau groupe :** Non sélectionnée
@@ -392,7 +392,7 @@ Configurer une règle d’alerte qui vérifie les périphériques v2 qui ont des
 2.  Entrez la requête suivante, puis sélectionnez **exécuter**.<br>
     ```
     Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(10h)
+    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
     | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
     | sort by TimeGenerated desc

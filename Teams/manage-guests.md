@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les stratégies d'utilisateurs invités et les autorisations, déterminer quels utilisateurs peuvent convier des invités et extraire des rapports sur l'activité des utilisateurs invités.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4375f6e9eb0d36d05d20f96da2410767465fcc2
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: c43309a6e4ae287181f6e363a40d99a0650984cc
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772776"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328246"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
 ======================================
@@ -26,7 +26,7 @@ ms.locfileid: "27772776"
 
 Une fois que le type de licence d’utilisateur **invité** est activé, vous pouvez configurer les paramètres pour les invités via les contrôles décrites dans [les fonctionnalités de gérer les équipes Microsoft dans votre organisation Office 365](enable-features-office-365.md) et [gérer des équipes pendant la transition vers le nouveau Microsoft Les équipes et Skype pour le centre d’administration de Business](manage-teams-skypeforbusiness-admin-center.md).     
     
-Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les autorisations et les stratégies d’utilisateur invité et extrait les rapports sur les activités de l’utilisateur invité. Ces contrôles sont disponibles dans le Microsoft Teams & Skype entreprise centre d’administration. Le contenu et les activités des utilisateurs invités font l'objet de la même protection en matière de conformité et de vérification que le reste d'Office 365.
+Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les autorisations et les stratégies d’utilisateur invité et extrait les rapports sur les activités de l’utilisateur invité. Ces contrôles sont disponibles par le biais de la & Microsoft Teams Skype entreprise centre d’administration. Le contenu et les activités des utilisateurs invités font l'objet de la même protection en matière de conformité et de vérification que le reste d'Office 365.
 
 Propriétaires de l’équipe peuvent inviter de nouveaux invités et ajoutez utilisateurs invité existant à leurs équipes. Les propriétaires de l’équipe permettant d’identifier les utilisateurs invités par le biais des **équipes** > **Gérer les équipes**et fonctionnalités canal ensemble pour les visiteurs par le biais des **paramètres de l’organisation** > **accès invité**, y compris ce qui permet de créer, mettre à jour, les invités et supprimer des chaînes, comme illustré dans la capture d’écran suivante.
 
@@ -47,7 +47,7 @@ Vous pouvez effectuer un examen de l’accès invité vous-même, demandez aux i
 
 Accès révisions sont disponibles avec l’édition Premium P2 d’Azure AD, qui est inclus dans Microsoft Enterprise mobilité + sécurité, E5. Pour plus d’informations, voir « Choisissez une édition » dans les [éditions d’Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis). Chaque utilisateur qui interagit avec cette fonctionnalité en créant un examen, remplissez un examen ou leur accès, confirmant le bon fonctionnement doit avoir une licence. 
 
-Si vous envisagez de demander aux utilisateurs invités pour examiner leurs propres access, lisez sur les licences d’utilisateur invité. Pour plus d’informations, voir [Gestion des licences de collaboration Azure AD B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
+Les équipes ne limiter le nombre de visiteurs, vous pouvez ajouter. Toutefois, le nombre total d’invités qui peuvent être ajoutés à votre client repose sur quels vos licences de DAS permet. Pour plus d’informations, voir [Gestion des licences de collaboration Azure AD B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
 
 ## <a name="guest-access-latencies"></a>Latences d’accès invité
 

@@ -1,9 +1,9 @@
 ---
-title: Le parcage d’appel et de récupérer dans Microsoft Teams
+title: Parcage et récupération d’appel dans Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/17/2018
+ms.date: 01/16/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Utilisez parcage d’appel et de récupération pour passer un appel en attente dans le service d’équipes dans le nuage.
-ms.openlocfilehash: 004a5b12e178a6460ef05f7c6f5c5738c8ced042
-ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
+ms.openlocfilehash: 2433a8836a037b530fbd895f7a37567f24d63b50
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27294187"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328308"
 ---
-# <a name="call-park-and-retrieve-in-microsoft-teams"></a>Le parcage d’appel et de récupérer dans Microsoft Teams
+# <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 
 Mise en garde d’appels et de récupération est une fonctionnalité qui permet à un utilisateur de passer un appel en attente dans le service d’équipes dans le nuage. Lors de la mise en garde un appel, le service génère un code unique pour la récupération de l’appel. L’utilisateur qui a été mis en garde l’appel ou une autre personne peut ensuite utiliser ce code et une applications pris en charge ou périphérique pour récupérer l’appel. 
 
@@ -50,9 +50,9 @@ Parcage d’appel et de récupérer est actuellement pris en charge par les pér
 
 | Fonctionnalité | Bureau des équipes | Les équipes Mac application | Les équipes Web App (périmètre) |Les équipes mobile iOS/Android application | Téléphone IP d’équipes | Skype pour téléphone IP d’entreprise |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| Mise en garde d’un appel | Oui | Oui | Oui | Bientôt disponible | Bientôt disponible| Non |
-| Récupérer un appel mis en garde | Oui | Oui | Oui | Bientôt disponible | Bientôt disponible| Non |
-| Sonnerie d’appel non récupérées précédent | Oui | Oui | Oui | Bientôt disponible | Bientôt disponible| Non |
+| Mise en garde d’un appel | Oui | Oui | Oui | Oui | Bientôt disponible| Non |
+| Récupérer un appel mis en garde | Oui | Oui | Oui | Oui | Bientôt disponible| Non |
+| Sonnerie d’appel non récupérées précédent | Oui | Oui | Oui | Oui | Bientôt disponible| Non |
 
 ## <a name="configuring-call-park-and-retrieve"></a>Configuration de mise en garde d’appels et de récupération
 

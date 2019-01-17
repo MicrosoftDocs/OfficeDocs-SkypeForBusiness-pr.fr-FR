@@ -1,9 +1,9 @@
 ---
-title: Appel de partage et de groupe ou d’appel dans Microsoft Teams
+title: Partage d’appel et prise d’appel de groupe dans Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 01/16/19
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Appeler le partage et de groupe ou d’appel permettre aux utilisateurs de partager les appels entrants avec vos collègues afin que les appels peuvent être capturés lorsque l’utilisateur n’est pas disponible.
-ms.openlocfilehash: 7f05484f0ba780eb8ed00df68b455d8555c1e4c0
-ms.sourcegitcommit: 5f7e078125f810a9e9a89052854ef63916afe7d3
+ms.openlocfilehash: 31df45d0420457528fd517c851b845a09cab32e0
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27283150"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328316"
 ---
-# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Appel de partage et de groupe ou d’appel dans Microsoft Teams
+# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Partage d’appel et prise d’appel de groupe dans Microsoft Teams
 
 L’appel de partage et le groupe d’appel pickup fonctionnalités de partage permettent aux utilisateurs de Microsoft Teams appels leur entrants avec vos collègues afin que les collègues peuvent répondre aux appels qui se produisent lorsque l’utilisateur n’est pas disponible.
 
@@ -44,7 +44,7 @@ Les utilisateurs doivent être Enterprise Voice est activé pour configurer et u
 
 ## <a name="configure-group-call-pickup"></a>Configurer le groupe ou d’appel
 
-Pour configurer le groupe ou d’appel, un utilisateur configure d’abord un groupe d’appel, puis ajoute les utilisateurs qu’ils souhaitent partager leurs appels avec. Ensuite, ils choisir une sonnerie simultanée ou paramètres de transfert d’appel. Pour plus d’informations, voir [appel sonnerie simultanée et de transfert dans les équipes](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
+Pour configurer le groupe ou d’appel, un utilisateur configure d’abord un groupe d’appel (il n’est pas le même en tant qu’un groupe de sécurité ou un groupe d’Office 365), puis ajoute les utilisateurs qu’ils souhaitent partager leurs appels avec. Ensuite, ils choisir une sonnerie simultanée ou paramètres de transfert d’appel. Pour plus d’informations et procédures pas à pas, voir [appel sonnerie simultanée et de transfert dans les équipes](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
 Appels création d’un groupe et notification préférences sont effectuées par les utilisateurs des fonctionnalités ; les administrateurs inutile de configurer ces fonctionnalités pour les utilisateurs. Groupes d’appel ne peut pas être créés à partir des groupes de sécurité ou Office 365 ; ils doivent être créés dans les équipes.
 
