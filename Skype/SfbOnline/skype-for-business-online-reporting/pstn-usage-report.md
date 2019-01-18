@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: La nouvelle Skype de zone de rapports du centre d’administration Business affiche vous appeler et audio conférence activité dans votre organisation. Elle vous permet des détails des rapports pour vous donnent plus granulaires sur les activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de conférence Audio, y compris le coût de l’appel afin que vous puissiez comprendre l’utilisation et appeler les détails de facturation pour déterminer l’usage au sein de votre organisation.
-ms.openlocfilehash: e4af77832cca1cd2a9d9de49aa83f4400c359277
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: c0a207681db425bd411bfdbda1bb9f380fbb70a1
+ms.sourcegitcommit: 5f289e4ca3ba40013d38c352bd34eff96d6421b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561645"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726624"
 ---
 # <a name="pstn-usage-report"></a>Rapport d'utilisation RTC
 
@@ -76,7 +76,7 @@ Voici une illustration du rapport.
      **Applications de communications unifiées (UCAP)** 
      *    **ucap_in** (un appel RTC entrant à l’application de communications unifiées telles que de la file d’attente standard ou un appel automatique) 
      *    **ucap_out** (un appel RTC sortant de l’application de communications unifiées telles que de la file d’attente standard ou un appel automatique)
-     *    **Remarque :** Les appels qui ont été transférés à un utilisateur de l’application de communications unifiées comme une file d’attente standard ou un appel automatique n’apparaît pas dans le rapport d’utilisation PSTN que les branches d’appel sont les appels audio d’égal à égal (P2P). Vous pouvez accéder aux appels P2P dans le Skype pour Business Admin Center sous « Outils > Skype pour Business appeler Analytique » et rechercher par nom d’utilisateur ou SIP adresse corrélation l’appel par date/heure et/ou d’origine CLID (ID de ligne de l’appel). 
+     *    **Remarque :** Les appels qui ont été transférés à un utilisateur de l’application de communications unifiées comme une file d’attente standard ou un appel automatique n’apparaît pas dans le rapport d’utilisation PSTN que les branches d’appel sont les appels audio d’égal à égal (P2P). Vous pouvez accéder aux appels P2P dans le Skype pour le centre d’administration de Business sous « Outils > Skype pour Business appel Analytique » et rechercher par nom d’utilisateur ou SIP adresse corrélation l’appel par date/heure et/ou d’origine CLID (ID de ligne de l’appel). 
 *     
      **Internes et internationaux** indique si l’appel a été placé a été pris en compte interne (au sein d’une pays/région) ou international (en dehors d’une pays/région) basée sur l’emplacement de l’utilisateur. 
 *    **Destination composée** est le nom de la destination de pays/région est composé comme France, Allemagne ou États-Unis (États-Unis). 
@@ -93,6 +93,9 @@ Voici une illustration du rapport.
      *    **MCOPSTN6** - nationales appelant Plan (plan appelant de 240 minutes) Remarque : disponibilité limitée
      *    **MCOMEETADD** - services d’audioconférence
      *    **MCOMEETACPEA** - salaire par Minute services d’audioconférence
+> [!NOTE]
+> Si vous souhaitez exécuter un rapport pour inclure la paie uniquement par minutes appels qui ne sont pas inclus dans votre abonnement de conférence ou un appel, filtrer le rapport avec la fonctionnalité « MCOPSTNPP ». Cela fournit une liste détaillée des tous les salaires par minutes appels.  Paie par minute audioconférence, filtrer par « MCOMEETACPEA » au lieu de « MCOPSTNPP ».  
+***
 > [!NOTE]
 > Vous ne pouvez également voir « aucune donnée » dans certains champs. « Aucune donnée » signifie que le champ n’est pas applicable au type d’appel ou fonctionnalité. 
 ***
