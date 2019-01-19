@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c273868a07099ce0aaed60cb16e698adbdd13f
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 7cbce74cdc06a2f37f628dd32f6f36356c1ad27a
+ms.sourcegitcommit: 708e691b00f490da45d8d7f1d6594be29f45023b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349520"
+ms.locfileid: "29354499"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise
 
@@ -44,11 +44,10 @@ Une organisation avec Skype pour les entreprises au démarrage d’adopter les �
 
 6.  Le comportement de mise à niveau et d’interopérabilité de base sont déterminés en fonction d’un utilisateur, qui est gérée par TeamsUpgradePolicy de cohabitation. TeamsInteropPolicy n’est plus pris en compte et accorder le mode = hérité n’est plus autorisée. 
 
-7.  Mise à niveau d’un utilisateur vers le mode TeamsOnly garantit que tous les appels et les conversations entrantes seront toujours atteindre dans le client de l’utilisateur équipes, quel que soit le client il orignated à partir de. Ces utilisateurs seront également planifier toutes les réunions dans les équipes. Pour être en mode TeamsOnly, un utilisateur doit être hébergé en ligne dans Skype pour les entreprises. Cette opération est obligatoire pour garantir l’interopérabilité, la fédération et l’administration complète de l’utilisateur d’équipes. Mise à niveau un utilisateur vers TeamsOnly :
-    - Si l’utilisateur est hébergé dans Skype pour les entreprises en ligne (ou jamais eu de n’importe quel compte Skype), leur accorder TeamsUpgradePolicy avec Mode = TeamsOnly à l’aide de l’instance de « UpgradeToTeams » à l’aide de PowerShell, ou utiliser le centre d’administration équipes pour sélectionner le mode TeamsOnly.
-    - Si l’utilisateur est hébergés localement, utilisez `Move-CsUser` à partir de l’environnement local administrateur des outils pour déplacer vers le premier l’utilisateur de Skype pour Business Online. Il existe 2 options lorsque vous déplacez des utilisateurs sur site :  
-     - Si vous avez Skype pour Business Server 2019 ou CU8 pour Skype pour Business Server 2015, vous pouvez spécifier le `-MoveToTeams` basculer dans `Move-CsUser` pour déplacer l’utilisateur directement aux équipes. Cette option sera également migrer des réunions de l’utilisateur aux équipes (bien que pour l’instant, migration de réunion ne fonctionne uniquement pour les clients TAP). 
-      - Dans le cas contraire, après `Move-CsUser` se termine, affectez TeamsOnly mode à cet utilisateur à l’aide de PowerShell ou le centre d’administration équipes.  
+7.  Mise à niveau d’un utilisateur vers le mode TeamsOnly garantit que tous les appels et les conversations entrantes seront toujours atteindre dans le client de l’utilisateur équipes, quel que soit le client il orignated à partir de. Ces utilisateurs seront également planifier toutes les réunions dans les équipes. Pour être en mode TeamsOnly, un utilisateur doit être hébergé en ligne dans Skype pour les entreprises. Cette opération est obligatoire pour garantir l’interopérabilité, la fédération et l’administration complète de l’utilisateur d’équipes. Mise à niveau d’un utilisateur vers TeamsOnly : r. Si l’utilisateur est hébergé dans Skype pour les entreprises en ligne (ou jamais eu de n’importe quel compte Skype), leur accorder TeamsUpgradePolicy avec Mode = TeamsOnly à l’aide de l’instance de « UpgradeToTeams » à l’aide de PowerShell, ou utilisez le centre d’administration équipes pour sélectionner le Mode TeamsOnly.
+    B. Si l’utilisateur est hébergés localement, utilisez `Move-CsUser` à partir de l’environnement local administrateur des outils pour déplacer vers le premier l’utilisateur de Skype pour Business Online. Il existe 2 options lorsque vous déplacez des utilisateurs sur site :  
+      - Si vous avez Skype pour Business Server 2019 ou CU8 pour Skype pour Business Server 2015, vous pouvez spécifier le `-MoveToTeams` basculer dans `Move-CsUser` pour déplacer l’utilisateur directement aux équipes. Cette option sera également migrer des réunions de l’utilisateur aux équipes (bien que pour l’instant, migration de réunion ne fonctionne uniquement pour les clients TAP). 
+       - Dans le cas contraire, après `Move-CsUser` se termine, affectez TeamsOnly mode à cet utilisateur à l’aide de PowerShell ou le centre d’administration équipes.  
      Pour plus d’informations, voir [déplacer des utilisateurs entre locaux et en nuage](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Pour plus d’informations sur la migration de la réunion, reportez-vous [à l’aide de la réunion Migration MMS (Service)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 
@@ -137,18 +136,8 @@ Lorsque les utilisateurs dans le Skype pour les modes d’entreprise (SfBOnly, S
 
 Jusqu'à ce que cette solution est remise, les administrateurs peuvent appliquer l’expérience du client concerné du mode TeamsUpgradePolicy en configurant manuellement les valeurs de TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy. En outre, lorsque vous utilisez `Grant-CsTeamsUpgradePolicy` dans PowerShell, l’applet de commande vérifie automatiquement la configuration des paramètres correspondants dans TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy à determmine si ces paramètres sont compatibles avec le mode spécifié. Si les ne sont pas configurés correctement, l’octroi réussira, mais est fourni un avertissement indiquant les paramètres ne sont pas configurés correctement. L’administrateur doit mettre à jour ultérieurement les stratégies indiqués afin d’offrir une expérience utilisateur final compatible dans les équipes. Si l’administrateur décide de vous n’avez rien à la suite de l’avertissement, les utilisateurs peuvent toujours accéder à la conversation, appel et/ou des fonctions de planification dans les équipes en fonction des valeurs de TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy, de la réunion qui peut entraîner une expérience utilisateur final confus.
 
-
-`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
-WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
-PS C:\Users\janedoe>`
-
-
-Avant la remise de l’exécution automatique du comportement du client décrite ci-dessus, chacun des modes SfB ont essentiellement les mêmes. Les modes SfBOnly, SfBWithTeamsCollab et SfBWithTeamsCollabAndMeetings sont toutes identiques dans la façon dont ils sont positionnés les conversations et les appels entrants. La seule différence pour l’instant, est dans les compléments Outlook pour les équipes et Skype pour les entreprises sont activé ou non. Jusqu'à ce que le client différenciés documenter est remis, 1 uniquement sur les modes SfB est activé dans le portail d’administration. Mais tous les modes sont disponibles dans PowerShell.
-
-
-### <a name="powershell-warning-matrix"></a>Matrice d’avertissement de PowerShell
-
-Ce tableau présente les paramètres de stratégie qui sont en cours lorsque TeamsUpgradeMode est accordé. À l’avenir, l’objectif étant pour le mode SfBOnly également désactiver canaux dans les équipes ; Toutefois, il n’existe actuellement aucun paramètre qui permet à la fonctionnalité de canaux dans les équipes à désactiver.
+### <a name="expected-values-of-workload-policy-settings-per-mode"></a>Valeurs attendues des paramètres de stratégie de charges de travail par mode
+Le tableau présente les paramètres de stratégie qui sont en cours lorsque TeamsUpgradeMode est accordé. À l’avenir, l’objectif étant pour le mode SfBOnly également désactiver canaux dans les équipes ; Toutefois, il n’existe actuellement aucun paramètre qui permet à la fonctionnalité de canaux dans les équipes à désactiver.
 
 
 |**Modalité (application)**|**Policy.Setting**|
@@ -158,9 +147,27 @@ Ce tableau présente les paramètres de stratégie qui sont en cours lorsque Tea
 |Planification de la réunion|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
+L’affiche ci-dessous indique, pour un mode donné, les valeurs attendues de ces paramètres :
 
-Un avertissement s’affiche à l’administrateur s’il existe une déconnexion entre l’activation de la charge de travail et le mode de votre choix. Temporairement, l’administrateur doit activer/désactiver la charge de travail par le biais de la stratégie de charges de travail principal.  Une fois l’application automatique en fonction de TeamsUpgradePolicy implémentée, les avertissements PowerShell seront mis à jour pour informer l’administrateur qui applique automatiquement l’expérience du client. Dans ce cas, les valeurs de TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy restent inchangées – mais TeamsUpgradePolicy en fonction de l’expérience du client concerné est appliquée.
+|Mode|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
+|---|---|---|---|---|
+|TeamsOnly ou (îles)|Activé|Activé|Activé|Activé|
+|SfBWithTeamsCollabAndMeetings|Désactivé|Désactivé|Activé|Activé|
+|SfBWithTeamsCollab ou SfBOnly|Désactivé|Désactivé|Désactivé|Désactivé|
+||||||
 
+
+Si toute autre combinaison de ces paramètres est détectée au cours de Grant-CsTeamsUpgradePolicy, l’octroi réussira, mais un avertissement s’affichera indiquant les paramètres spécifiques qui ne sont pas conformes le comportement attendu. Temporairement, l’administrateur doit activer/désactiver la charge de travail par le biais de la stratégie de charges de travail principal.  Une fois l’application automatique en fonction de TeamsUpgradePolicy implémentée, les avertissements PowerShell seront mis à jour pour informer l’administrateur qui applique automatiquement l’expérience du client. Dans ce cas, les valeurs de TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy restent inchangées – mais TeamsUpgradePolicy en fonction de l’expérience du client concerné est appliquée.
+
+Voici un exemple de ce que l’avertissement PowerShell pourrait ressembler à :
+
+
+`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
+WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
+PS C:\Users\janedoe>`
+
+
+Avant la remise de l’exécution automatique du comportement du client décrite ci-dessus, chacun des modes SfB ont essentiellement les mêmes. Les modes SfBOnly, SfBWithTeamsCollab et SfBWithTeamsCollabAndMeetings sont toutes identiques dans la façon dont ils sont positionnés les conversations et les appels entrants. La seule différence pour l’instant, est dans les compléments Outlook pour les équipes et Skype pour les entreprises sont activé ou non. Jusqu'à ce que le client différenciés documenter est remis, 1 uniquement sur les modes SfB est activé dans le portail d’administration. Mais tous les modes sont disponibles dans PowerShell.
 
 
 ## <a name="teamsinteroppolicy-and-legacy-mode-being-retired"></a>TeamsInteropPolicy et Mode hérité est obsolète 
