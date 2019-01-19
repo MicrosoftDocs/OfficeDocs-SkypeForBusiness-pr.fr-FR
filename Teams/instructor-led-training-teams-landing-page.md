@@ -1,20 +1,19 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Formation dirigée par un instructeur pour Microsoft Teams
-description: Inscrivez-vous pour instructeur découvrir tous les équipes Microsoft.
+title: Formation dirigée par un instructeur et des vidéos pour les administrateurs des équipes Microsoft
+description: Inscrivez-vous pour instructeur pour en savoir plus sur Microsoft Teams.
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
-ms.date: 08/24/2018
-ms.openlocfilehash: efb105e3d6b5ab1c2ec87df6520c52eeb7ded90d
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 35b8a75e1c19acbe66e05c6d163b55cd4ab9f904
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214557"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349310"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -80,7 +79,7 @@ ms.locfileid: "27214557"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Les équipes conseils et astuces</h3>
+                                                <h3>Les équipes conseils & astuces</h3>
                                                 <p>Comprendre les méthodes creative optimiser et organiser des équipes dans votre travail quotidien. (Audience : les utilisateurs finaux)</p>
                                             </div>
                                         </div>
@@ -100,7 +99,7 @@ ms.locfileid: "27214557"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Gérer votre mise à niveau à partir de Skype pour les entreprises à des équipes</h3>
-                                                <p>Planifier et implémenter une mise à niveau réussie aux équipes (public : professionnels de l’informatique, les gestionnaires de changements d’adoption)</p>
+                                                <p>Plan & implémenter une mise à niveau réussie aux équipes (public : professionnels de l’informatique, les gestionnaires de changements d’adoption)</p>
                                             </div>
                                         </div>
                                     </div>
