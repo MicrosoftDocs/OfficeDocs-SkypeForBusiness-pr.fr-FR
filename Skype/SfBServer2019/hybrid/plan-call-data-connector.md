@@ -1,5 +1,5 @@
 ---
-title: Planifier le connecteur de données d’appel
+title: Planifier le connecteur de données appel | Appel de tableau de bord qualité Analytique hybride de surveillance
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +9,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Présentation de l’utilisation de Skype pour Business Online outils de télémétrie pour surveiller une implémentation sur site dans un scénario hybride.
-ms.openlocfilehash: d704f23f9b8260e8d755c4d1f0f48da927859ba1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6bcf1e26ca005a30e4f1c940f655a3277e18001e
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530534"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349535"
 ---
 # <a name="plan-call-data-connector"></a>Planifier le connecteur de données d’appel
 
 ## <a name="overview"></a>Vue d’ensemble
+
 Cette rubrique décrit les avantages, considérations relatives à la planification et configuration requise pour l’implémentation de Skype Business Server appeler connecteur de données. Pour plus d’informations sur la configuration de connecteur de données d’appel, voir [Configurer appeler un connecteur de données](configure-call-data-connector.md).
 
 > [!NOTE]
@@ -32,7 +33,7 @@ Avec le connecteur de données d’appel, vous pouvez effectuer les tâches suiv
 
 - Afficher et résoudre les problèmes de votre réseau.
 
-- Assigner des rôles de support technique et administrateur appeler Analytique, afin que vous donner des travailleurs de support technique pour afficher et résoudre les problèmes de leurs domaines de responsabilité. 
+- Assigner des rôles de support technique et administrateur appeler Analytique, afin que vous donner des travailleurs de support technique pour afficher et résoudre les problèmes de leurs domaines de responsabilité.
 
 Avec le connecteur de données d’appel, le Skype pour Business Server envoie les données d’appel au service cloud afin que vous pouvez tirer parti de la Skype pour les outils professionnels en ligne appel Analytique (CA) et du tableau de bord de la qualité des appels (CQD), comme illustré dans le diagramme suivant :
 
@@ -52,24 +53,23 @@ Bien sûr, vous pouvez souhaiter conserver des données de qualité d’appel su
 
 ![Messagerie vocale SfB Cloud](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-
 ## <a name="requirements"></a>Conditions requises
 
 Les conditions suivantes supposent que vous avez déjà Skype pour Business Server déployé dans une topologie prise en charge.  Pour plus d’informations sur le déploiement de Skype pour Business Server et les topologies prises en charge, voir [Les concepts de topologie](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Pour configurer le connecteur de données d’appel, vous devez :
 
-- Activer la connectivité hybride. Si vous avez déjà Skype pour Business Server est déployé et que vous souhaitez activer le connecteur de données d’appel, vous devez vous assurer que vous disposez de connectivité hybride entre votre organisation locale et environnements en ligne. Il est parfois appelée une configuration de domaine fractionné. 
+- Activer la connectivité hybride. Si vous avez déjà Skype pour Business Server est déployé et que vous souhaitez activer le connecteur de données d’appel, vous devez vous assurer que vous disposez de connectivité hybride entre votre organisation locale et environnements en ligne. Il est parfois appelée une configuration de domaine fractionné.
 
    Pour plus d’informations, voir [planification de la connectivité hybride entre Skype pour Business Server et Office 365](plan-hybrid-connectivity.md) et de [configurer la connectivité hybride entre Skype pour Business Server et Office 365](configure-hybrid-connectivity.md).
 
--  S’authentifient auprès de votre client Office 365 et vérifiez que vous avez activés rôles suivants :
+- S’authentifient auprès de votre client Office 365 et vérifiez que vous avez activés rôles suivants :
 
-   - Administrateur du serveur pour les professionnels de Skype 
-   - Administrateur Global d’Office 365 
+  - Administrateur du serveur pour les professionnels de Skype
+  - Administrateur Global d’Office 365
 
 - Si vous n’avez pas déjà fait, allumez appel du tableau de bord qualité comme décrit dans la [mise sous tension et à l’aide d’appels de tableau de bord qualité pour les équipes Microsoft et Skype pour Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
- 
-- Activer le pool frontal pour la surveillance, avec des bases de données LCSCdr et QoEMetrics locales. Sans cela, appelez un connecteur de données aurez pour travailler avec des données de mesure. 
- 
+
+- Activer le pool frontal pour la surveillance, avec des bases de données LCSCdr et QoEMetrics locales. Sans cela, appelez un connecteur de données aurez pour travailler avec des données de mesure.
+
 > [!IMPORTANT]
 > Connecteur de données d’appel ne fonctionne pas si l’analyse n’est pas activé sur le pool frontal.
 

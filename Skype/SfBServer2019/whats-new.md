@@ -1,5 +1,5 @@
 ---
-title: Nouveautés de Skype Entreprise Server
+title: Quelles sont les nouveautés dans Skype pour Business Server 2019 | Fonctionnalités
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,14 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités sont nouvelles dans Skype pour Business Server 2019.'
-ms.openlocfilehash: b0a7040b0d63866bffd2e86a68a7447463485b1e
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 044901b134c71c1cae004f9930bedeae0057578d
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561573"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29348883"
 ---
-# <a name="whats-in-skype-for-business-server-2019"></a>Nouveautés dans Skype pour Business Server 2019 
+# <a name="whats-in-skype-for-business-server-2019"></a>Nouveautés dans Skype pour Business Server 2019
 
 **Résumé :** Lisez cette rubrique pour en savoir plus sur les nouvelles fonctionnalités de Skype pour Business Server 2019.  
 
@@ -26,13 +26,13 @@ Nouvelles fonctionnalités de Skype pour Business Server 2019 sont les suivantes
 - Connecteur de données d’appel
 - Migration côte à côte
 
-## <a name="unified-messaging-services-cloud-voicemail"></a>Les services de messagerie unifiés : messagerie vocale dans le nuage 
+## <a name="unified-messaging-services-cloud-voicemail"></a>Les services de messagerie unifiés : messagerie vocale dans le nuage
 
 Messagerie unifiée Exchange reste disponible dans Skype pour Business Server 2019 lorsque vous intégrez Skype pour les entreprises 2019 avec Exchange 2013 ou 2016 Exchange. En raison des modifications apportées à la prise en charge dans Exchange 2019, l’intégration de la messagerie unifiée Exchange est la déduplication emphasised au profit des fonctionnalités de la messagerie vocale dans le nuage et de standard automatique de nuage.  
 
-Messagerie vocale dans le nuage permet à tous vos Skype pour les utilisateurs professionnels 2019 & #x 2014 ; si elles sont hébergés sur site ou en ligne & #x 2014 ; d’avoir accès au même service de messagerie vocale dans le Cloud Microsoft. Messagerie vocale dans le nuage offre les avantages suivants pour vos utilisateurs en ligne et sur site :
+Messagerie vocale dans le nuage permet à tous vos Skype pour Business 2019 users& #x 2014 ; si elles sont hébergés sur site ou online& #x 2014 ; pour accéder au même service de messagerie vocale dans le Cloud Microsoft. Messagerie vocale dans le nuage offre les avantages suivants pour vos utilisateurs en ligne et sur site :
 
-- Accès à la messagerie vocale dans leur boîte aux lettres Exchange à l’aide de la Skype pour les clients professionnels en ligne, équipes ou Outlook 
+- Accès à la messagerie vocale dans leur boîte aux lettres Exchange à l’aide de la Skype pour les clients professionnels en ligne, équipes ou Outlook
 - Possibilité d’utiliser le portail web afin de gérer leurs options de la messagerie vocale
 
 Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](hybrid/plan-cloud-voicemail.md) et la [planification de Skype pour Business Server et de migration d’Exchange Server](hybrid/plan-um-migration.md) .
@@ -45,7 +45,7 @@ Avec le connecteur de données d’appel, vous pouvez effectuer les tâches suiv
 
 - Surveiller votre expérience utilisateur dans Microsoft Teams, Skype pour Business Online et Skype pour Business Server.
 - Afficher et résoudre les problèmes de votre réseau
-- Assigner des rôles de support technique et administrateur appeler Analytique, afin que vous donner des travailleurs de support technique pour afficher et résoudre les problèmes de leurs domaines de responsabilité. 
+- Assigner des rôles de support technique et administrateur appeler Analytique, afin que vous donner des travailleurs de support technique pour afficher et résoudre les problèmes de leurs domaines de responsabilité.
 
 Pour plus d’informations, voir [Planification de connecteur de données d’appel](hybrid/plan-call-data-connector.md) .
 

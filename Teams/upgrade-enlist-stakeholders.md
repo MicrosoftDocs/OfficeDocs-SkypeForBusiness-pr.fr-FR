@@ -1,9 +1,8 @@
 ---
-title: S’inscrire aux parties prenantes pour votre Skype pour les entreprises de voyage équipes - Microsoft Teams
+title: Inscrire les parties prenantes | Mise à niveau de Skype pour les entreprises aux équipes de planification
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,16 +13,16 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2c47a0dec91605dea8ab9b92ffa529ed942ddcd
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 072161fed4d28ec045156c34acbcc3cbc37d7635
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375739"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349326"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur la collecte de votre équipe de parties prenantes du projet] (media/upgrade-banner-stakeholders.png "Étapes du voyage mise à niveau, en mettant l’accent sur la collecte de votre équipe de parties prenantes du projet")
 
-Cet article fait partie de la phase de parties prenantes du projet de votre parcours de mise à niveau, l’activité premier et essentielle que vous effectuez pour la réussite de votre projet. 
+Cet article fait partie de la phase de parties prenantes du projet de votre parcours de mise à niveau, l’activité premier et essentielle que vous effectuez pour la réussite de votre projet.
 
 # <a name="enlist-your-project-stakeholders"></a>Inscrire les parties prenantes du projet
 
@@ -34,37 +33,33 @@ Cet article fait partie de la phase de parties prenantes du projet de votre parc
 
 Si vous le souhaitez, vous pouvez créer un comité directeur. Projets volumineux parfois ou plus complexes vous retrouver avec « trop cuisiniers dans la cuisine », ce qui se déconnecte entre les groupes des parties prenantes. Pour ces projets, vous pouvez souhaiter un comité directeur de formulaire. Un comité de direction est responsable de décisions, supervision stratégique, prise en charge des initiatives du projet, et, lorsque cela est nécessaire, bloqueurs de suppression. Vous trouverez plus d’informations sur l’implémentation d’un comité dans le [guide du comité directeur](https://aka.ms/SteeringCommittee).
 
+| | |
+|---|---|
+| ![](media/audio_conferencing_image7.png) <br/>Points de décision | <ul><li>Quels sont les personnes appropriées en guise de votre équipe des parties prenantes de ce projet ?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Étapes suivantes | <ul><li>Prendre en compte l’étendue de votre projet et affecter les parties concernées.</li><li>Utilisez le tableau suivant en règle générale, mais notez que cette liste n’est pas exhaustive.<br><strong>Info-bulle</strong><br>Créer un responsable relèvent-consulté-informée [matrice (RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) pour mieux distinguer ceux qui sont jugés de ceux qui souhaitent être informés dans une zone particulière du projet.</li> |
+| <li>Décider s’il faut créer un comité et assigner des rôles comme il convient.</li></ul> | |
 
-|                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                 ![](media/audio_conferencing_image7.png) <br/>Points de décision                 |                                                                                                                                                                                                 <ul><li>Quels sont les personnes appropriées en guise de votre équipe des parties prenantes de ce projet ?</li></ul>                                                                                                                                                                                                 |
-|                    ![](media/audio_conferencing_image9.png)<br/>Étapes suivantes                    | <ul><li>Prendre en compte l’étendue de votre projet et affecter les parties concernées.</li><li>Utilisez le tableau suivant en règle générale, mais notez que cette liste n’est pas exhaustive.<br><strong>Info-bulle</strong><br>Créer un responsable relèvent-consulté-informée [matrice (RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) pour mieux distinguer ceux qui sont jugés de ceux qui souhaitent être informés dans une zone particulière du projet.</li> |
-| <li>Décider s’il faut créer un comité et assigner des rôles comme il convient.</li></ul> |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-
-| Rôles                           | Responsabilité                                                                  |
-|---------------------------------|---------------------------------------------------------------------------------|
-| **Coalition soutien**       |                                                                                 | 
-| Sponsor exécutif               | Lecteurs de messagerie globale et la responsabilité                                     |
-| Sponsor de l’entreprise                | Permet de nouvelles demandes de la technologie de division                     |
-| Responsables de service             | Représente les équipes plus concernées par cette modification                               | 
-| Gestionnaire des ressources humaines         | Responsable de la gestion des compétences                                            | 
-| Responsable de projet            | Surveille le projet de transition, garantit l’achèvement de toutes les tâches                | 
-| **Équipe de projet**                |                                                                                 | 
-| Collaboration Lead / architecture   | Crée et met en œuvre l’architecture de solution                                | 
-| Directeur de réseau                    | Fournit des informations sur la conception du réseau et de l’exécution                             | 
-| Directeur de la sécurité                   | Fournit des informations sur la conception de la sécurité, processus et d’implémentation             | 
-| Les Communications synchrones prospect | Propriétaire de présence, telles que la conversation, réunions, d’outils et l’appel                       | 
-| Responsable de la Collaboration asynchrone  | Propriétaire asynchrone d’outils tels que SharePoint, OneDrive et ainsi de suite               | 
-| Directeur de la téléphonie                  | Fournit des informations sur la conception de téléphonie et d’implémentation                      | 
-| Propriétaire de service / Champion de qualité | Propriétaire de l’opération de toutes les équipes-haut, y compris la qualité de l’expérience utilisateur | 
-| Responsable de périphériques et de bureau        | Fournit l’entrée dans les applications de bureau, clients et périphériques                          | 
-| IT Pro/client Admin             | S’assure que la préparation du réseau et Office 365 configurations portails sont en place | 
-| Responsable du support          | Gère la préparation de votre support technique                                      | 
-| Modifier le responsable de la direction          | Surveille le programme d’adoption et de gestion du changement utilisateur                        | 
-| Responsable marketing                  | Conceptions et met en œuvre de campagnes de communication                                 | 
-| Responsable de la formation                   | Conceptions et met en œuvre des plans de formation                                           |
-
-
+| Rôles | Responsabilité |
+|---|---|
+| **Coalition soutien** | |
+| Sponsor exécutif | Lecteurs de messagerie globale et la responsabilité |
+| Sponsor de l’entreprise | Permet de nouvelles demandes de la technologie de division |
+| Responsables de service | Représente les équipes plus concernées par cette modification |
+| Gestionnaire des ressources humaines | Responsable de la gestion des compétences |
+| Responsable de projet | Surveille le projet de transition, garantit l’achèvement de toutes les tâches |
+| **Équipe de projet** | |
+| Collaboration Lead / architecture | Crée et met en œuvre l’architecture de solution |
+| Directeur de réseau | Fournit des informations sur la conception du réseau et de l’exécution |
+| Directeur de la sécurité | Fournit des informations sur la conception de la sécurité, processus et d’implémentation |
+| Les Communications synchrones prospect | Propriétaire de présence, telles que la conversation, réunions, d’outils et l’appel |
+| Responsable de la Collaboration asynchrone | Propriétaire asynchrone d’outils tels que SharePoint, OneDrive et ainsi de suite |
+| Directeur de la téléphonie | Fournit des informations sur la conception de téléphonie et d’implémentation |
+| Propriétaire de service / Champion de qualité | Propriétaire de l’opération de toutes les équipes-haut, y compris la qualité de l’expérience utilisateur |
+| Responsable de périphériques et de bureau | Fournit l’entrée dans les applications de bureau, clients et périphériques |
+| IT Pro/client Admin | S’assure que la préparation du réseau et Office 365 configurations portails sont en place |
+| Responsable du support | Gère la préparation de votre support technique |
+| Modifier le responsable de la direction | Surveille le programme d’adoption et de gestion du changement utilisateur |
+| Responsable marketing | Conceptions et met en œuvre de campagnes de communication |
+| Responsable de la formation | Conceptions et met en œuvre des plans de formation |
 
 Une fois que vous avez rassemblé les parties prenantes, passez à l’étape suivante : [définir la portée de votre projet](https://aka.ms/SkypetoTeams-Scope).
-

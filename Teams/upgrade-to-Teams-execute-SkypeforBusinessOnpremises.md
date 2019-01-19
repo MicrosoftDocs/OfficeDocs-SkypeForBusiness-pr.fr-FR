@@ -1,9 +1,8 @@
 ---
-title: Mise à niveau à partir d’un Skype pour le déploiement local de Business aux équipes - Microsoft Teams
+title: Mise à niveau Skype pour l’entreprise locale aux équipes Microsoft | Déployer | Lync
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,25 +13,24 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd0d0f1536f509f2cdc9e379e398168f86d9b514
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5628b0bb382ef12580bb7bab12dca13e288fead7
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016780"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349334"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation] (media/upgrade-banner-deployment.png "Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation")
 
 Cet article fait partie de la phase de déploiement et l’implémentation de votre parcours de mise à niveau. Avant de continuer, vérifiez que vous avez effectué les activités suivantes :
 
--   [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
--   [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
--   [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
--   [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
--   [Préparer votre environnement](https://aka.ms/SkypeToTeams-TechnicalReadiness)
--   [Préparation de votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
--   [Mené un projet pilote](https://aka.ms/SkypeToTeams-Pilot)
-
+- [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
+- [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
+- [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Préparer votre environnement](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Préparation de votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Mené un projet pilote](https://aka.ms/SkypeToTeams-Pilot)
 
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Mise à niveau à partir d’un Skype pour le déploiement local de Business aux équipes
 
@@ -49,7 +47,7 @@ Pour plus d’informations, voir [déployer la connectivité hybride entre Skype
 
 ## <a name="step-2-move-users-to-skype-for-business-online"></a>Étape 2 : Déplacer les utilisateurs vers Skype pour Business Online
 
-Une fois que vous avez terminé votre configuration hybride, déplacer des utilisateurs vers Skype pour Business Online. 
+Une fois que vous avez terminé votre configuration hybride, déplacer des utilisateurs vers Skype pour Business Online.
 
 Pour plus d’informations, voir [déplacer des utilisateurs à partir de sur site à Skype pour Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 

@@ -1,9 +1,8 @@
 ---
-title: Mise à niveau de la liste de contrôle de base - Microsoft Teams
+title: Mise à niveau | Business Skype pour la mise à niveau des équipes | Étapes de base
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,15 +13,16 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ba3471b2a51a4629d316a4507a08cd02e30022a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b77f53398eda22ec2f3b7313d8c2b641228c5b5e
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015644"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349412"
 ---
 <a name="about-upgrade-basic"></a>
-# <a name="upgrade-basic"></a>Mise à niveau de base 
+
+# <a name="upgrade-basic"></a>Mise à niveau de base
 
 Conçu pour les organisations de petite taille ou ceux qui utilisent Skype pour Business en ligne pour la messagerie instantanée (conversation) et des réunions, la liste de contrôle de mise à niveau de base est un plan d’action accéléré qui inclut les principaux, recommandé d’activités et des ressources pour l’implémentation associées une Déplacement réussi de Skype pour les entreprises aux équipes.
 
@@ -30,10 +30,10 @@ Ces dix étapes fournissent tout ce dont vous avez besoin pour une mise à nivea
 
 Que se passe-t-il à Skype pour les entreprises après la mise à niveau ? Une fois que vos utilisateurs sont mis à niveau vers les équipes (mode**d’Équipes uniquement** ) :
 
--   Leur Skype pour Business client est désactivée, et toutes les conversations et les appels accédez aux équipes. Notez que cela ne sera pas désinstallé le client sur leurs bureaux.
--   N’importe quel Skype pour les réunions professionnels qui ont été planifiée avant le travail de mise à niveau comme prévu, mais toutes les nouvelles réunions sont planifiées dans les équipes.
--   Si les utilisateurs tentent de se connecter à Skype pour les entreprises, ils recevoir une notification à partir de leurs clients qu’ils ont été mis à niveau vers les équipes.
--   Les utilisateurs doivent désinstaller manuellement le Skype pour Business client sur leurs appareils mobiles.
+- Leur Skype pour Business client est désactivée, et toutes les conversations et les appels accédez aux équipes. Notez que cela ne sera pas désinstallé le client sur leurs bureaux.
+- N’importe quel Skype pour les réunions professionnels qui ont été planifiée avant le travail de mise à niveau comme prévu, mais toutes les nouvelles réunions sont planifiées dans les équipes.
+- Si les utilisateurs tentent de se connecter à Skype pour les entreprises, ils recevoir une notification à partir de leurs clients qu’ils ont été mis à niveau vers les équipes.
+- Les utilisateurs doivent désinstaller manuellement le Skype pour Business client sur leurs appareils mobiles.
 
 Consultez notre [FAQ](https://aka.ms/SkypeToTeams-FAQ) pour des questions supplémentaires sur la mise à niveau.
 
@@ -51,8 +51,8 @@ Différents directeurs sont responsables de la réussite de l’entreprise ; Ve
 
 **Ressources :**
 
--   [Exemple de courrier électronique : communication des parties prenantes](upgrade-emails-surveys.md#step-1-email)
- 
+- [Exemple de courrier électronique : communication des parties prenantes](upgrade-emails-surveys.md#step-1-email)
+
 [Retour au début](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
@@ -70,10 +70,10 @@ Différents directeurs sont responsables de la réussite de l’entreprise ; Ve
 
 **Ressources :**
 
--   [Présentation de Teams](Teams-overview.md)
--   [En savoir plus sur les équipes et les canaux](teams-channels-overview.md)
--   [Effectuer une planification technique](quick-start-enable-teams.md#step-3-complete-technical-planning)
--   [Gérer les systèmes de salle de Skype](https://aka.ms/srsdocs)
+- [Présentation de Teams](Teams-overview.md)
+- [En savoir plus sur les équipes et les canaux](teams-channels-overview.md)
+- [Effectuer une planification technique](quick-start-enable-teams.md#step-3-complete-technical-planning)
+- [Gérer les systèmes de salle de Skype](https://aka.ms/srsdocs)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -89,7 +89,7 @@ Les utilisateurs qui sont profondément adoptées Skype pour les entreprises peu
 
 **Ressources :**
 
--   [Afficher les données d’utilisation dans les rapports d’activité dans Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [Afficher les données d’utilisation dans les rapports d’activité dans Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -108,8 +108,8 @@ Fournir une notification à vos utilisateurs sera en mesure de fournir les temps
 
 **Ressources :**
 
--   [Gérer les fonctionnalités des équipes au sein de votre organisation.](enable-features-office-365.md)
--   [Exemple de courrier électronique : annonce aux utilisateurs sur Skype pour les entreprises](upgrade-emails-surveys.md#step-4-email)
+- [Gérer les fonctionnalités des équipes au sein de votre organisation.](enable-features-office-365.md)
+- [Exemple de courrier électronique : annonce aux utilisateurs sur Skype pour les entreprises](upgrade-emails-surveys.md#step-4-email)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -118,13 +118,14 @@ Fournir une notification à vos utilisateurs sera en mesure de fournir les temps
 <a name="step-5"></a>
 
 ## <a name="step-5-activate-the-user-upgrade-notification"></a>Étape 5. Activer la notification de mise à niveau utilisateur
+
 *(Environ une semaine avant la mise à niveau)*
 
 Mettre à jour momentum mise à niveau en activant la notification de mise à niveau utilisateur via le portail d’administration, fournissant une alerte visuelle dans le Skype pour client d’entreprise que les utilisateurs sont en cours mis à niveau à partir de Skype pour les entreprises aux équipes.
 
 **Ressources :**
 
--   [Définition de vos paramètres de mise à niveau et de coexistence](setting-your-coexistence-and-upgrade-settings.md)
+- [Configuration de vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -133,13 +134,14 @@ Mettre à jour momentum mise à niveau en activant la notification de mise à ni
 <a name="step-6"></a>
 
 ## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Étape 6. Rappelez à vos utilisateurs qu’ils vous mise à niveau de Skype pour les entreprises à des équipes
+
 *(Environ cinq jours avant la mise à niveau)*
 
 Les utilisateurs sont occupés avec leurs responsabilités quotidiennes. Rappeler les la mise à niveau en attente afin de garantir qu’ils n’oubliez pas de prendre les mesures que nécessaires pour préparer les équipes. Il s’agit de l’occasion pour rappeler aux utilisateurs la formation disponible et comment prendre en main équipes.
 
 **Ressources :**
 
--   [Exemple de courrier électronique : rappeler aux utilisateurs de prendre en main équipes](upgrade-emails-surveys.md#step-6-email)
+- [Exemple de courrier électronique : rappeler aux utilisateurs de prendre en main équipes](upgrade-emails-surveys.md#step-6-email)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -157,8 +159,8 @@ Nous vous recommandons qu’une fois que tout le monde a été mis à niveau, vo
 
 **Ressources :**
 
--   [Définir votre coexistence et les paramètres de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
--   [Exemple de courrier électronique : accueillir les utilisateurs à des équipes](upgrade-emails-surveys.md#step-7-email)
+- [Définir votre coexistence et les paramètres de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
+- [Exemple de courrier électronique : accueillir les utilisateurs à des équipes](upgrade-emails-surveys.md#step-7-email)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -174,7 +176,7 @@ Ajuster à une nouvelle technologie peut prendre un certain temps. Vérifiez l�
 
 **Ressources :**
 
--   [Voir les données d’utilisation](https://portal.office.com/AdminPortal/Home#/reportsUsage)
+- [Voir les données d’utilisation](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -190,7 +192,7 @@ Satisfaction des employés permettre influer sur la productivité, la rétention
 
 **Ressources :**
 
--   [Exemple de courrier électronique : vérifier avec les utilisateurs](upgrade-emails-surveys.md#step-9-email), plus [les enquêtes effectuées auprès](upgrade-emails-surveys.md#step-9-surveys)
+- [Exemple de courrier électronique : vérifier avec les utilisateurs](upgrade-emails-surveys.md#step-9-email), plus [les enquêtes effectuées auprès](upgrade-emails-surveys.md#step-9-surveys)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -198,14 +200,14 @@ Satisfaction des employés permettre influer sur la productivité, la rétention
 
 <a name="step-10"></a>
 
-## <a name="step-10-maximize-your-roi-with-teams"></a>Étape 10. Optimiser le retour sur investissement avec des équipes 
+## <a name="step-10-maximize-your-roi-with-teams"></a>Étape 10. Optimiser le retour sur investissement avec des équipes
+
 *(En cours)*
-    
+
 Une fois que les utilisateurs sont à l’aise avec la messagerie instantanée (conversation) et des réunions dans les équipes, les inciter à étendre leurs cas d’utilisation à l’intégration de collaboration et d’application des équipes, réellement optimiser leur solution nouvelle et optimisation d’un retour sur investissement.
 
 **Ressources :**
 
--   [Exemple de courrier électronique : encourager les utilisateurs à explorer davantage les équipes](upgrade-emails-surveys.md#step-10-email)
+- [Exemple de courrier électronique : encourager les utilisateurs à explorer davantage les équipes](upgrade-emails-surveys.md#step-10-email)
 
 [Retour au début](#about-upgrade-basic)
-

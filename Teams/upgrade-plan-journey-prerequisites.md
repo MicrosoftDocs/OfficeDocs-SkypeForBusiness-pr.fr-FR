@@ -1,9 +1,8 @@
 ---
-title: Conditions préalables et les dépendances de l’environnement pour Microsoft Teams - Microsoft Teams
+title: Conditions préalables des équipes Microsoft | Mise à niveau de dépendances d’Adoption
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: turgayo
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f54a86dba3f7e939d9e2471761f2dce031280eb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 397f3b5017c571a1f58a8b974c288c61704e5ac3
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016340"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349216"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
 Cet article fait partie de la phase de préparation technique de votre parcours de mise à niveau, une activité que vous effectuez en parallèle à l’étape de préparation des utilisateurs. Avant de continuer, vérifiez que vous avez terminé ces activités à partir des étapes précédentes :
 
--   [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
--   [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
--   [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
--   [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
+- [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
+- [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Conditions préalables et les dépendances de l’environnement pour les équipes
 
@@ -38,19 +37,18 @@ Bien que tous les services sont nécessaires, nous vous recommandons vivement de
 
 Voir les articles suivants pour en savoir plus sur les conditions préalables et la façon dont les équipes interagit avec d’autres technologies :
 
--   Si votre organisation n’a pas déployé les charges de travail Office 365, voir [Mise en route avec Office 365 pour entreprises](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
+- Si votre organisation n’a pas déployé les charges de travail Office 365, voir [Mise en route avec Office 365 pour entreprises](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
 
--   Si votre organisation n’a pas ajouté ou configuré un domaine vérifié pour Office 365, voir [vérifier votre domaine à Office 365](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
+- Si votre organisation n’a pas ajouté ou configuré un domaine vérifié pour Office 365, voir [vérifier votre domaine à Office 365](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
 
--   Si votre organisation n’a pas synchronisé identités pour Azure Active Directory, voir [modèles d’identité et authentification dans les équipes Microsoft](identify-models-authentication.md).
+- Si votre organisation n’a pas synchronisé identités pour Azure Active Directory, voir [modèles d’identité et authentification dans les équipes Microsoft](identify-models-authentication.md).
 
--   Si vous disposez d’un doesn¹t de votre organisation Exchange Online, voir [comprendre interagissent entre Exchange et les équipes Microsoft](Exchange-Teams-interact.md).
+- Si vous disposez d’un doesn¹t de votre organisation Exchange Online, voir [comprendre interagissent entre Exchange et les équipes Microsoft](Exchange-Teams-interact.md).
 
--   Si votre organisation ne possède pas SharePoint Online, voir [comprendre comment SharePoint Online et OneDrive entreprise interagissent avec les équipes Microsoft](SharePoint-OneDrive-interact.md).
+- Si votre organisation ne possède pas SharePoint Online, voir [comprendre comment SharePoint Online et OneDrive entreprise interagissent avec les équipes Microsoft](SharePoint-OneDrive-interact.md).
 
--   Découvrez comment [interagissent groupes Office 365 et les équipes Microsoft](Office-365-groups.md).
+- Découvrez comment [interagissent groupes Office 365 et les équipes Microsoft](Office-365-groups.md).
 
--   Si votre organisation est un établissement scolaire et que vous utilisez un système d’Information pour l’étudiant, [déployer la synchronisation des données de l’école](https://docs.microsoft.com/schooldatasync) avant de déployer Microsoft Teams.
-                                                                           
+- Si votre organisation est un établissement scolaire et que vous utilisez un système d’Information pour l’étudiant, [déployer la synchronisation des données de l’école](https://docs.microsoft.com/schooldatasync) avant de déployer Microsoft Teams.
 
 Après avoir vérifié que votre environnement remplit les conditions préalables d’applicables tous, [évaluer l’environnement actuel pour les équipes](upgrade-plan-journey-evaluate-environment.md).

@@ -1,9 +1,8 @@
 ---
-title: Préparer un plan de préparation des utilisateurs avant mise à niveau à partir de Skype pour Business Teams Microsoft - Microsoft Teams
+title: Préparation d’un plan de préparation des utilisateurs ; mise à niveau à partir de Skype pour les entreprises aux équipes
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de13a3775c9ffae4fde1ffcd71be23ffab4e4a96
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 48bc1527b5f57219ecf062f1ab7025d969c13182
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649691"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349446"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs] (media/upgrade-banner-user-readiness.png "Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs")
 
 Cet article fait partie de la phase de préparation des utilisateurs de votre parcours de mise à niveau, une activité que vous effectuez en parallèle à l’étape de préparation technique. Avant de continuer, vérifiez que vous avez terminé ces activités à partir des étapes précédentes :
 
--   [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
--   [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
--   [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
--   [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
+- [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
+- [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-a-user-readiness-plan"></a>Préparation d’un plan de préparation des utilisateurs
 
@@ -37,11 +36,10 @@ Un plan de préparation utilisateur intègre comment vous allez communiquer avec
 > [!Tip]
 > Téléchargez le [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit) pour les supports de préparation au modèle utilisateur, telles que les communications et les enquêtes effectuées auprès, outre un exemple de plan de projet de mise à niveau et le plan de test pilote.
 
-|    |     |
-|-----------|------------|
+| | |
+|---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Comment vous pouvez créer un plan de préparation de faciliter et d’accélérer l’adoption d’utilisateur de la nouvelle solution ?</li><li>Vous avez le droite sensibilisation, de formation et des ressources de support adaptés à la capacité de vos utilisateurs à traiter les modifications et les personnages d’utilisateur que vous avez définie ?</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Utilisez la liste ci-dessous pour générer des idées pour votre plan de préparation. Sélectionnez les activités les plus pertinents, ou ajouter vos propres — à concevoir un plan de préparation optimisé pour votre organisation. N’oubliez pas d’utiliser une combinaison de large portée (pour toute l’organisation) et campagnes ciblées (pour suiveurs (traînards) ou personnages spécifiques) pour le nombre maximal de résultats.</li></ul>|
-
 
 <div class="mx-tableFixed">
 <table>
@@ -53,6 +51,3 @@ Un plan de préparation utilisateur intègre comment vous allez communiquer avec
 </div>
 
 Une fois que vous avez créé votre plan de préparation des utilisateurs et les ressources associées et vos compétences techniques est en place, passez aux [équipes de pilotes dans votre organisation](https://aka.ms/SkypeToTeams-Pilot).
-
-
-

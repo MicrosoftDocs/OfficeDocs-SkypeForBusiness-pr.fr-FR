@@ -1,9 +1,8 @@
 ---
-title: Comprendre la coexistence et l’interopérabilité de Skype Entreprise et Microsoft Teams
+title: Les équipes Microsoft | Mise à niveau, Mode (îles), stratégie d’interopérabilité de base, uniquement
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,19 +13,19 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f27acda0494a436cf4d4bb7b47f91fda2bb42f22
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 41ff5d3329d46ee9f716e09145c94ad8e2dbaea8
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789361"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349497"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet] (media/upgrade-banner-project-definition.png "Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet")
 
 Cet article fait partie de la phase de définition de projet de votre parcours de mise à niveau, une activité effectuer après avoir créé une équipe de projet et coalition soutien et que vous définissez l’étendue, les objectifs et mission pour votre projet. Avant de continuer, vérifiez que vous avez effectué les activités suivantes :
 
--   [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
--   [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
+- [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
 
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprendre Microsoft Teams et Skype pour l’interopérabilité et coexistence d’entreprise
 
@@ -42,7 +41,7 @@ Outre les fonctionnalités de collaboration, les équipes offre conversation, ap
 Nous vous recommandons de consulter les modes de coexistence décrits ci-dessous pour vous aider à déterminer le chemin d’accès est adapté à votre organisation.
 
 > [!Important]
-> Présentation de la nouvelle technologie ou apporter des modifications à votre Skype existant et familier pour un environnement d’entreprise, tout en fournissant une nouvelle avantages, peut être sans interruption de service pour les utilisateurs. Prendre le temps d’évaluer la préparation de l’utilisateur et implémenter un plan de formation et de communication avant d’implémenter les modifications décrites dans cet article. En outre, nous vous invitons à piloter votre plan avec un groupe d’utilisateurs avant l’implémentation de votre organisation. 
+> Présentation de la nouvelle technologie ou apporter des modifications à votre Skype existant et familier pour un environnement d’entreprise, tout en fournissant une nouvelle avantages, peut être sans interruption de service pour les utilisateurs. Prendre le temps d’évaluer la préparation de l’utilisateur et implémenter un plan de formation et de communication avant d’implémenter les modifications décrites dans cet article. En outre, nous vous invitons à piloter votre plan avec un groupe d’utilisateurs avant l’implémentation de votre organisation.
 
 ### <a name="islands-mode"></a>Mode (îles)
 
@@ -51,7 +50,7 @@ Par défaut, les utilisateurs peuvent exécuter des équipes à côté de Skype 
 Dans ce mode de coexistence, appelé **(îles)**, chacune des applications clientes fonctionne comme un îlot séparé. Skype pour parle d’entreprise à Skype pour professionnels et les équipes communique avec les équipes. Les utilisateurs exécutent les deux clients et peuvent communiquer en mode natif dans le client à partir de laquelle la communication a été lancée. Par conséquent, il n’est pas nécessaire pour l’interopérabilité en mode **(îles)** .
 
 > [!Tip]
-> Skype pour Business Online clients recommandée consiste à démarrer avec le mode par défaut **(îles)** , dans l’organisation du lecteur saturation d’adoption et déplacez **Équipes uniquement** en mode rapide. Sur site et hybride clients peuvent bénéficier de déployer le mode **Skype pour les entreprises avec la collaboration des équipes** à venir en tant que point de départ plutôt que (îles) et la progression à partir de là, **Équipes uniquement** en mode lors de l’organisation est prête à adopter Équipes. 
+> Skype pour Business Online clients recommandée consiste à démarrer avec le mode par défaut **(îles)** , dans l’organisation du lecteur saturation d’adoption et déplacez **Équipes uniquement** en mode rapide. Sur site et hybride clients peuvent bénéficier de déployer le mode **Skype pour les entreprises avec la collaboration des équipes** à venir en tant que point de départ plutôt que (îles) et la progression à partir de là, **Équipes uniquement** en mode lors de l’organisation est prête à adopter Équipes.
 
 ### <a name="skype-for-business-only"></a>Skype pour les entreprises uniquement
 
@@ -82,32 +81,32 @@ Ainsi qu’à l’aide des équipes pour les équipes et basée sur les canaux d
 
 Pour plus d’informations sur la gestion, les conditions préalables et les modes de coexistence, consultez [Migration et conseils d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](https://aka.ms/SkypeToTeams-Interop) et [définir votre coexistence et les paramètres de mise à niveau](https://aka.ms/SkypeToTeams-SetCoexistence).
 
-
-|         |         |         |
-|---------|---------|---------|
+| | | |
+|---|---|---|
 |<img src="media/audio_conferencing_image7.png" />|Point de décision|<ul><li>Les meilleures coexistence mode (s) adaptées aux besoins de votre organisation et des utilisateurs ?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Étape suivante|<ul><li>Choisir la meilleure approche pour votre parcours de mise à niveau.</li></ul>|
-
 
 ## <a name="interoperability-of-teams-and-skype-for-business"></a>Interopérabilité des équipes et Skype pour les entreprises
 
 L’interopérabilité est la capacité pour les équipes et Skype pour les utilisateurs professionnels dans la même organisation de communiquer entre équipes et Skype pour les entreprises.
 
-
 ### <a name="native-interop-and-interop-escalation"></a>Escalade interopérabilité et interopérabilité native
 
 Il existe deux types d’interopérabilité de base expériences : escalade natif et d’interopérabilité de base.
 
--   Une expérience _d’interopérabilité native_ se produit dans le client qui est utilisé par l’utilisateur. Un utilisateur sera dans le Skype pour client d’entreprise, l’autre dans les équipes. Une expérience d’interopérabilité native ne prendre les vers un autre client pour communiquer, les utilisateurs seront en mesure de gérer leur conversation dans le client qu’ils utilisent actuellement. Les expériences interopérabilités natives sont une conversation et l’appel.
--   Une expérience _d’escalade interopérabilité_ signifie que dans le cadre d’aider les utilisateurs à effectuer une action avancée (telles que le partage de leur bureau), le service peut faciliter la création d’une réunion et continuer l’expérience de cette réunion. La conférence est créée sur la plateforme de l’initiateur de l’action. Les utilisateurs qui ne sont pas sur cette plateforme reçoivent la réunion joindre les coordonnées et participer à la réunion (après le passage de clients).
+- Une expérience _d’interopérabilité native_ se produit dans le client qui est utilisé par l’utilisateur. Un utilisateur sera dans le Skype pour client d’entreprise, l’autre dans les équipes. Une expérience d’interopérabilité native ne prendre les vers un autre client pour communiquer, les utilisateurs seront en mesure de gérer leur conversation dans le client qu’ils utilisent actuellement. Les expériences interopérabilités natives sont une conversation et l’appel.
+- Une expérience _d’escalade interopérabilité_ signifie que dans le cadre d’aider les utilisateurs à effectuer une action avancée (telles que le partage de leur bureau), le service peut faciliter la création d’une réunion et continuer l’expérience de cette réunion. La conférence est créée sur la plateforme de l’initiateur de l’action. Les utilisateurs qui ne sont pas sur cette plateforme reçoivent la réunion joindre les coordonnées et participer à la réunion (après le passage de clients).
 
 ### <a name="native-interop-experiences"></a>Interopérabilité native expérience améliorée
 
 Selon les modes de coexistence attribués à des utilisateurs (comme décrit ci-dessus), les expériences interopérabilité native suivantes sont disponibles :
 
--   Skype pour les utilisateurs professionnels peut converser en tête-à-tête avec les utilisateurs des équipes et vice versa. Une conversation interopérabilitée doit passer par une passerelle d’interopérabilité de base qui fait partie des équipes cloud services (et par conséquent existe uniquement en ligne). Interopérabilité conversations sont en texte brut : texte enrichi et des émoticônes ne sont pas pris en charge. Les utilisateurs dans les équipes sont avertis que la conversation est une conversation d’interopérabilité de base ; une notification similaire pour Skype pour les utilisateurs professionnels est fournie rapidement.
+- Skype pour les utilisateurs professionnels peut converser en tête-à-tête avec les utilisateurs des équipes et vice versa. Une conversation interopérabilitée doit passer par une passerelle d’interopérabilité de base qui fait partie des équipes cloud services (et par conséquent existe uniquement en ligne). Interopérabilité conversations sont en texte brut : texte enrichi et des émoticônes ne sont pas pris en charge. Les utilisateurs dans les équipes sont avertis que la conversation est une conversation d’interopérabilité de base ; une notification similaire pour Skype pour les utilisateurs professionnels est fournie rapidement.
+
 ![Interopérabilité conversation expérience des équipes] (media/Interop_chat_experience_from_Teams.png "Interopérabilité conversation expérience des équipes")
--   Skype pour les utilisateurs professionnels peut-il en tête-à-tête appels vocaux et vidéo pour les utilisateurs d’équipes et vice versa.
+
+- Skype pour les utilisateurs professionnels peut-il en tête-à-tête appels vocaux et vidéo pour les utilisateurs d’équipes et vice versa.
+
 ![Interopérabilité appelant expérience des équipes] (media/Interop_calling_experience_from_Teams.png "Interopérabilité appelant expérience des équipes")
 
 > [!Important]
@@ -115,18 +114,17 @@ Selon les modes de coexistence attribués à des utilisateurs (comme décrit ci-
 
 Les fonctionnalités d’interopérabilité de base sont disponibles pour et entre les utilisateurs qui ont l’un des modes de coexistence suivants affecté : **Skype pour les entreprises avec la Collaboration des équipes**, **Skype pour l’entreprise grâce à des réunions et la Collaboration des équipes**, **Skype pour Business uniquement**, ou les **équipes uniquement**. Il n’existe aucune interopérabilité pour les utilisateurs en mode (îles).
 
-
 ### <a name="native-interop-experience-limitations"></a>Limitations de l’expérience interopérabilité native
 
 Certaines fonctionnalités ne sont pas disponibles pour la conversation interopérabilitée et expérience appelant interopérabilité entre les équipes et Skype pour les entreprises :
 
--   Le jeu d’émoticônes complète, texte enrichi et promotions ne sont pas pris en charge à partir des équipes ou Skype pour les entreprises. Autres fonctionnalités natives de la boîte de message à des conversations équipes ne sont pas pris en charge.
--   Écran de partage entre équipes et Skype pour les entreprises (bureau ou partage d’application) n’est pas pris en charge.
--   Conversations de groupe (tiers plusieurs conversations) dans les équipes ne peuvent inclure que les participants qui utilisent des équipes.
--   Conversations de messagerie instantanée plusieurs tiers (salles de conversation de groupe) dans Skype pour les entreprises ne peuvent inclure que les participants qui utilisent Skype pour les entreprises.
--   Passage d’un appel vidéo à un appel plusieurs tiers impliquant des équipes et Skype pour les utilisateurs professionnels ou vocales d’égal à égal en cours n’est pas pris en charge.
--   Transfert de deux conversations de fichier ou de pièce jointe à des conversations de groupe, des équipes à Skype pour les entreprises et inversement, ne sont pas pris en charge.
--   Il n’existe aucune interopérabilité avec Skype pour la conversation permanente Business.
+- Le jeu d’émoticônes complète, texte enrichi et promotions ne sont pas pris en charge à partir des équipes ou Skype pour les entreprises. Autres fonctionnalités natives de la boîte de message à des conversations équipes ne sont pas pris en charge.
+- Écran de partage entre équipes et Skype pour les entreprises (bureau ou partage d’application) n’est pas pris en charge.
+- Conversations de groupe (tiers plusieurs conversations) dans les équipes ne peuvent inclure que les participants qui utilisent des équipes.
+- Conversations de messagerie instantanée plusieurs tiers (salles de conversation de groupe) dans Skype pour les entreprises ne peuvent inclure que les participants qui utilisent Skype pour les entreprises.
+- Passage d’un appel vidéo à un appel plusieurs tiers impliquant des équipes et Skype pour les utilisateurs professionnels ou vocales d’égal à égal en cours n’est pas pris en charge.
+- Transfert de deux conversations de fichier ou de pièce jointe à des conversations de groupe, des équipes à Skype pour les entreprises et inversement, ne sont pas pris en charge.
+- Il n’existe aucune interopérabilité avec Skype pour la conversation permanente Business.
 
 Pour toutes ces limites (à l’exception de conversation permanente), une solution de contournement possible est pour un utilisateur démarrer une réunion et inviter à rejoindre l’autre utilisateur. Cette solution de contournement est la base d’escalade d’interopérabilité de base.
 

@@ -1,9 +1,8 @@
 ---
-title: Qualité de l’expérience des équipes de Microsoft - consulter le Guide
+title: Qualité de l’expérience utilisateur | Les équipes Microsoft | QoS | Qualité des appels
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bf538dc4e68d3068d6ae0875ec916cdd1f8fd52
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 59acafa7555b793555b504b1555b0d6969a12b4b
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017984"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349318"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -33,17 +32,17 @@ La [Qualité d’expérience consulter le Guide](https://aka.ms/qerguide) inclut
 
 En continuellement évaluer et de corriger les zones décrites dans le guide, vous pouvez réduire leur potentiel pour un impact négatif sur l’expérience utilisateur. La plupart des problèmes d’expérience utilisateur dans un déploiement peuvent être regroupées dans les catégories suivantes :
 
--   Configuration de pare-feu ou proxy incomplète
+- Configuration de pare-feu ou proxy incomplète
 
--   Une mauvaise couverture Wi-Fi
+- Une mauvaise couverture Wi-Fi
 
--   Bande passante insuffisante
+- Bande passante insuffisante
 
--   VPN
+- VPN
 
--   Utilisation de périphériques audio non optimisées ou intégrés
+- Utilisation de périphériques audio non optimisées ou intégrés
 
--   Sous-réseaux problématiques ou périphériques réseau
+- Sous-réseaux problématiques ou périphériques réseau
 
 Les instructions fournies dans le Guide Quality of Experience passer en revue les se concentre sur l’utilisation en ligne de tableau de bord de la qualité des appels (CQD) comme le principal outil d’examiner chaque zone décrite, en mettant l’accent sur l’audio à optimiser l’impact d’adoption et de signaler. Les optimisations apportées au réseau pour améliorer l’expérience audio auront également directement des améliorations dans le partage du bureau et vidéo.
 

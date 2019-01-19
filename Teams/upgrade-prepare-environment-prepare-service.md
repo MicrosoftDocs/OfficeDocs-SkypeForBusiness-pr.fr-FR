@@ -1,9 +1,8 @@
 ---
-title: Préparer votre service de mise à niveau pour les équipes - Microsoft Teams
+title: Préparez la mise à niveau de Microsoft Teams |  Liste de vérification du déploiement d’intégration
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7858737dc69f076ca059aca9de5437cb3cb88e52
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2243e1420e2bd1046789669168834cff2125c4ac
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374595"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349459"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
 Cet article fait partie de la phase de préparation technique de votre parcours de mise à niveau, une activité que vous effectuez en parallèle à l’étape de préparation des utilisateurs. Avant de continuer, vérifiez que vous avez terminé ces activités à partir des étapes précédentes :
 
--   [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
--   [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
--   [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
--   [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
+- [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
+- [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Préparer votre service de mise à niveau pour les équipes
 
@@ -38,17 +37,17 @@ Cet article donne une vue d’ensemble de la configuration requise pour la prép
 
 Listes de vérification suivantes vous guident dans les étapes de déploiement de Microsoft Teams dans votre organisation :
 
--  [Préparation d’Office 365 pour les équipes](onboarding-checklist-enable-office-365.md)
+- [Préparation d’Office 365 pour les équipes](onboarding-checklist-enable-office-365.md)
 
--  [Configurer les fonctionnalités principales d’équipes](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
+- [Configurer les fonctionnalités principales d’équipes](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
--  [Configurer la mise en réseau](onboarding-checklist-configure-networking.md)
+- [Configurer la mise en réseau](onboarding-checklist-configure-networking.md)
 
--  [Configurer des charges de travail dans le nuage vocale dans les équipes](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [Configurer des charges de travail dans le nuage vocale dans les équipes](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 
--  [Configurer le routage Direct dans les équipes](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [Configurer le routage Direct dans les équipes](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
 
-Les tâches et activités dans ces listes de contrôle sont les éléments principaux « tâches » qui s’appliquent à chaque déploiement de collaboration et de communication vocale avec des équipes. Vous pouvez personnaliser les listes de vérification pour inclure les activités et les tâches qui sont spécifiques à votre propre parcours équipes. 
+Les tâches et activités dans ces listes de contrôle sont les éléments principaux « tâches » qui s’appliquent à chaque déploiement de collaboration et de communication vocale avec des équipes. Vous pouvez personnaliser les listes de vérification pour inclure les activités et les tâches qui sont spécifiques à votre propre parcours équipes.
 
 Utilisez les listes de vérification fournies pour suivre l’état de chaque tâche et de l’activité individuelle et effectué pour vous assurer que toutes les étapes critiques. Chaque activité comprend une description détaillée des actions requises et des références à des informations supplémentaires que vous pouvez utiliser pour effectuer cette activité.
 
@@ -57,7 +56,7 @@ Bien que nous vous conseillons de suivre les listes de contrôle dans l’ordre,
 Lorsque vous êtes embarquement utilisateurs sur site par site, que nous vous recommandons vivement d’utiliser la [Lecture d’activation de Site pour la voix (lecture)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) comme un guide supplémentaire à ces listes de contrôle.
 
 >[!NOTE]
->La plupart des paramètres de configuration sont communes entre les équipes et Skype pour Business Online. Vous utilisez le Microsoft Teams & Skype entreprise centre d’administration pour configurer ces paramètres.
+>La plupart des paramètres de configuration sont communes entre les équipes et Skype pour Business Online. Le & Microsoft Teams Skype entreprise centre d’administration vous permet de configurer ces paramètres.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Point de décision</td><td><ul><li>Qui sera responsable de la surveillance de l’exécution de l’intégration des listes de contrôle ?</li></ul></td></tr>

@@ -1,9 +1,8 @@
 ---
-title: Préparation du personnel informatique pour Microsoft Teams - Microsoft Teams
+title: Formation pour les équipes Microsoft | Support technique aux problèmes Admin
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7a552affaf0a50325e8a90c9f6c1f7f60d2c3b2
-ms.sourcegitcommit: e49e9e8e6f42738a153306ae6f2a1d0a2e46d736
+ms.openlocfilehash: 8d7030c8695ccfcbfd34fb01772eabc1f68ebf12
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25354339"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349302"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
 Cet article fait partie de la phase de préparation technique de votre parcours de mise à niveau, une activité que vous effectuez en parallèle à l’étape de préparation des utilisateurs. Avant de continuer, vérifiez que vous avez terminé ces activités à partir des étapes précédentes :
 
--   [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
--   [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
--   [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
--   [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
+- [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
+- [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Préparer votre personnel informatique pour Microsoft Teams
 
@@ -36,18 +35,15 @@ Vos administrateurs du client Office 365, les responsables techniques et le supp
 
 Partager les ressources suivantes avec votre équipe informatique et assurez-vous qu’ils sont prêts à prendre en charge des utilisateurs avant de commencer votre mise à niveau vers les équipes :
 
--   [Formation à Microsoft Teams pour les administrateurs](itadmin-readiness.md)
- 
--   [Ressources de support pour Microsoft Teams](support-resources.md)
- 
--   [Dépannage des problèmes de connectivité avec le client Microsoft Teams](connectivity-issues.md)
- 
--   [Utiliser des fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
+- [Formation à Microsoft Teams pour les administrateurs](itadmin-readiness.md)
+- [Ressources de support pour Microsoft Teams](support-resources.md)
+- [Dépannage des problèmes de connectivité avec le client Microsoft Teams](connectivity-issues.md)
+- [Utiliser des fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
 
 [//]: # (Demandez à Debbie à examiner :)
 
-|    |     |
-|-----------|------------|
+| | |
+|---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Ont impliqué personnel de support toutes les personnes est susceptible d’être impliqués dans le déploiement et la prise en charge des équipes ?</li><li>Ont développé un plan de formation du personnel supplémentaire embarquement fur et à votre mise à niveau ?</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Vérifiez que les informations que dont ils ont besoin du personnel informatique.</li><li>Revoir vos plans de formation et préparation comme nouvelles fonctionnalités sont publiées.</li></ul>|
 

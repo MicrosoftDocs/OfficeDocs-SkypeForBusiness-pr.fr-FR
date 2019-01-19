@@ -1,5 +1,5 @@
 ---
-title: Déplacer les utilisateurs locaux vers des équipes
+title: Déplacer les utilisateurs de Skype pour Business Server 2019 aux équipes
 ms.author: crowe
 author: CarolynRowe
 manager: serdars--
@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Résumé : Découvrez comment migrer les paramètres utilisateur et de déplacer les utilisateurs à des équipes.'
-ms.openlocfilehash: 6bee0562b38ce3119306e23b11ea50ebdb8ac3e9
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: 75af7109de60c3d978914585105e4d2fbaad9302
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27244031"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29348912"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Déplacer les utilisateurs locaux vers des équipes
 
 Lorsqu’un utilisateur est déplacé à partir de sur site pour les équipes uniquement, de l’utilisateur Skype pour accueil Business est déplacé sur site vers en ligne et l’utilisateur est affecté TeamsUpgradePolicy avec mode = TeamsOnly.  Après qu’un utilisateur est déplacé sur site vers le mode TeamsOnly :
 
 - Entrant tous les appels et conversations par d’autres utilisateurs (si envoyé à partir de Skype pour les équipes ou de l’entreprise), sera atteindre dans le client de l’utilisateur équipes.
-- L’utilisateur sera en mesure d’interagir avec d’autres utilisateurs qui utilisent Skype pour les entreprises (en ligne ou sur site). 
+- L’utilisateur sera en mesure d’interagir avec d’autres utilisateurs qui utilisent Skype pour les entreprises (en ligne ou sur site).
 - L’utilisateur sera en mesure de communiquer avec les utilisateurs des organisations fédérées.
 - Nouvelles réunions planifiées par l’utilisateur sont des réunions d’équipes.
 - Utilisateur peut tout de même rejoindre n’importe quel Skype pour les réunions d’entreprise.
@@ -36,8 +36,8 @@ Avant de déplacer des utilisateurs, veillez à consulter les [conditions requis
 Il existe deux méthodes pour déplacer un utilisateur à partir de sur site aux équipes :
 
 - Si vous utilisez une version antérieure à Skype pour Business Server 2015 CU8, le déplacement nécessite deux étapes (qui peuvent être scriptées à faire dans une seule étape, si vous le souhaitez) :
-    - [Déplacer l’utilisateur à partir de Skype pour Business Server (localement) Skype pour Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
-    - Une fois que l’utilisateur est hébergé dans Skype pour l’activité en ligne, affectez l’utilisateur TeamsUpgradePolicy avec mode = TeamsOnly. Pour accorder TeamsOnly mode, exécutez l’applet de commande suivante à partir d’un Skype pour fenêtre Business Online PowerShell :`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
+  - [Déplacer l’utilisateur à partir de Skype pour Business Server (localement) Skype pour Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
+  - Une fois que l’utilisateur est hébergé dans Skype pour l’activité en ligne, affectez l’utilisateur TeamsUpgradePolicy avec mode = TeamsOnly. Pour accorder TeamsOnly mode, exécutez l’applet de commande suivante à partir d’un Skype pour fenêtre Business Online PowerShell :`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
 - Si vous disposez des outils d’administration de Skype pour Business Server 2015 CU8 ou version ultérieure, vous pouvez utiliser la méthode ci-dessus, ou vous pouvez effectuer cette modification en une seule étape, comme indiqué ci-dessous. En outre, vous pouvez éventuellement fournir une notification au sein de la Skype pour client d’entreprise avant de les déplacer vers les équipes uniquement ainsi éventuellement que le client d’équipes en mode silencieux téléchargé par le Skype pour le client Business.
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>Déplacer un utilisateur directement à partir de Skype pour les entreprises dans les locaux pour les équipes uniquement
@@ -68,13 +68,13 @@ La séquence d’applet de commande suivante peut être utilisée pour déplacer
 
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>Déplacer vers les équipes utilisant Skype pour Business Server Control Panel
 
-1.  Ouvrez le Skype pour le contrôle serveur Business application du Panneau de configuration.
-2.  Dans la navigation de gauche, choisissez **utilisateurs**.
-3.  Utiliser la **recherche** pour localiser les utilisateurs que vous souhaitez déplacer vers les équipes.
-4.  Sélectionnez l’ou les utilisateurs, puis, dans la liste déroulante **Action** au-dessus de la liste, cliquez sur **déplacer les utilisateurs sélectionnés aux équipes**.
-5.  Dans l’Assistant, cliquez sur **suivant**.
-6.  Si vous y êtes invité, connectez-vous à Office 365, avec un compte qui se termine par. onmicrosoft.com et dispose des autorisations suffisantes.
-7.  Cliquez sur **suivant**, puis **suivant** une fois plus de déplacer l’utilisateur.
+1. Ouvrez le Skype pour le contrôle serveur Business application du Panneau de configuration.
+2. Dans la navigation de gauche, choisissez **utilisateurs**.
+3. Utiliser la **recherche** pour localiser les utilisateurs que vous souhaitez déplacer vers les équipes.
+4. Sélectionnez l’ou les utilisateurs, puis, dans la liste déroulante **Action** au-dessus de la liste, cliquez sur **déplacer les utilisateurs sélectionnés aux équipes**.
+5. Dans l’Assistant, cliquez sur **suivant**.
+6. Si vous y êtes invité, connectez-vous à Office 365, avec un compte qui se termine par. onmicrosoft.com et dispose des autorisations suffisantes.
+7. Cliquez sur **suivant**, puis **suivant** une fois plus de déplacer l’utilisateur.
 8. Notez que les messages d’état en ce qui concerne la réussite ou l’échec sont fournis dans la partie supérieure de l’application le panneau de configuration principale, pas dans l’Assistant.
 
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Avertir votre Skype pour les utilisateurs locaux professionnels du déplacement aux équipes à venir
@@ -86,7 +86,7 @@ Les outils d’administration locale dans Skype pour Business Server 2015 avec C
 Pour avertir les utilisateurs locaux qu’ils seront bientôt être mis à niveau aux équipes, créer une nouvelle instance de TeamsUpgradePolicy avec NotifySfBUsers = true. Puis assigner cette stratégie aux utilisateurs auxquels vous souhaitez signaler, en affectant la stratégie directement à l’utilisateur ou en définissant la stratégie au niveau global, pool ou site. Les applets de commande suivantes créer et accorder une stratégie au niveau de l’utilisateur :
 
 ```
-New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true 
+New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true
 Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
@@ -95,7 +95,6 @@ Le téléchargement automatique des équipes via le Skype pour Win32 Business cl
 `New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”`
 
 Par défaut, la valeur de DownloadTeams a la valeur True ; Toutefois, il est *uniquement* respecté si NotifySfbUser = True pour un utilisateur donné.
-
 
 ## <a name="see-also"></a>Voir aussi
 
