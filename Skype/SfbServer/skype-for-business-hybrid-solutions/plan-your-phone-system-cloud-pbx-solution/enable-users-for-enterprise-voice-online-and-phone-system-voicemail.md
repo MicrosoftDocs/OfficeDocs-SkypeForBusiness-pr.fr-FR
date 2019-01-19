@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Découvrez comment activer le système téléphonique dans les services de téléphonie Office 365 pour votre Skype pour les utilisateurs professionnels.
-ms.openlocfilehash: ec0e37c0597f81001075f144dd38b58acfbb1159
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9f11e52a3992e484643cfea06d0720d12e3f0e77
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372669"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729292"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Activer les utilisateurs pour Enterprise Voice en ligne et le système téléphonique dans la messagerie Office 365
  
@@ -31,11 +31,11 @@ La dernière étape de déploiement système téléphonique dans Office 365 avec
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>Activer le système téléphonique dans les services de téléphonie Office 365
 
-Pour activer un utilisateur pour le système téléphonique dans Office 365 Voice et de la messagerie vocale, vous devez effectuer certaines étapes initiales, comme la vérification de voir de la Skype pour Business Connector en ligne est déployé sur vos serveurs et de permettre à vos utilisateurs pour la messagerie vocale hébergée.
+Pour activer un utilisateur pour le système téléphonique dans Office 365 Voice et de la messagerie vocale, vous devez effectuer certaines étapes initiales, comme la vérification de voir si le Skype pour Business Connector en ligne est déployé sur vos serveurs et de permettre à vos utilisateurs pour la messagerie vocale hébergée.
   
 ### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Pour autoriser les utilisateurs pour le système téléphonique dans la messagerie vocale et vocale d’Office 365
 
-1. Avant de commencer, vérifiez que le Skype pour Business Connector en ligne (module Windows PowerShell) est déployée sur vos serveurs frontaux. S’il n’est pas le cas, vous pouvez le télécharger à partir [du centre de téléchargement](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Vous trouverez plus d’informations sur l’utilisation de ce module sur la [configuration de votre ordinateur pour Skype pour la gestion de l’entreprise en ligne](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
+1. Avant de commencer, vérifiez que le Skype pour Business Connector en ligne (module Windows PowerShell) est déployée sur vos serveurs frontaux. Si ce n’est pas le cas, vous pouvez le télécharger à partir du [Centre de téléchargement](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Vous trouverez plus d’informations sur l’utilisation de ce module sur la [configuration de votre ordinateur pour Skype pour la gestion de l’entreprise en ligne](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
     
 2. Démarrez Windows PowerShell en tant qu’administrateur.
     
@@ -140,7 +140,7 @@ Plans de numérotation avec Windows PowerShell et l’applet de commande [Grant-
 
 Cette section décrit comment mettre à jour des stratégies de routage voix pour les utilisateurs activés pour le système téléphonique dans Office 365.
   
-Système téléphonique dans la zone utilisateurs Office 365 doit avoir une stratégie de routage voix affectée pour acheminer correctement les appels. Cette affectation diffère de l’affectation d’une stratégie de voix aux utilisateurs professionnels de communications vocales, également nécessaire pour que les appels soient acheminés correctement. La stratégie de routage voix doit contenir les utilisations PSTN qui définissent des appels autorisés et les itinéraires pour le système téléphonique dans les utilisateurs d’Office 365. Vous pouvez copier les utilisations PSTN des stratégies de voix existantes pour les nouvelles stratégies de routage des communications vocales. Pour plus d’informations, voir [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Système téléphonique dans la zone utilisateurs Office 365 doit avoir une stratégie de routage voix affectée pour acheminer correctement les appels. Cette affectation diffère de l’affectation d’une stratégie de voix aux utilisateurs professionnels de communications vocales, également nécessaire pour que les appels soient acheminés correctement. La stratégie de routage voix doit contenir les utilisations PSTN qui définissent des appels autorisés et les itinéraires pour le système téléphonique dans les utilisateurs d’Office 365. Vous pouvez copier les utilisations PSTN des stratégies de voix existantes pour les nouvelles stratégies de routage des communications vocales. Pour plus d’informations, consultez la rubrique [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
 > Tous les système téléphonique dans Office 365 des utilisateurs sont affectés à la même stratégie de voix en ligne nommé BusinessVoice qui définit les fonctionnalités d’appel autorisées ; par exemple, autoriser la sonnerie simultanée. 
@@ -172,6 +172,6 @@ Système téléphonique dans la zone utilisateurs Office 365 doit avoir une stra
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    Pour plus d’informations, voir [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).
+    Pour plus d’informations, reportez-vous à la rubrique [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).
     
 

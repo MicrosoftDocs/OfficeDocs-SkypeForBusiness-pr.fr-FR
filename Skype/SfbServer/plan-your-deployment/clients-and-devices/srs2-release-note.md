@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
-ms.openlocfilehash: cdc180c0caa8cfe581d02a206d9b13e255214bfd
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 7eb6eb3c9bcd2cbbbe72a6fc96d619303216cd37
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297887"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729399"
 ---
 # <a name="release-notes"></a>Notes de publication 
 
@@ -55,6 +55,7 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 Introduite dans cette mise à jour :
 - Afficher le contenu sur les deux salle de frontal (pour) affiche sur les systèmes de salle double écran
 - Améliorations de l’interface utilisateur avant de salle et de thèmes
+- TLS 1.2 prise en charge de côté client. Pour sur les clients du site, l’activation intersites sur TLS 1.2 Skype salle système v2 nécessite Skype pour Business Server 2015 Cummulative mise à jour 9 (cumulative 9) ou Skype pour les entreprises Server 2019 Cummulative mise à jour 1 (CU1).
 
 ### <a name="40510-11172018"></a>4.0.51.0 (17/11/2018)
 Introduite dans cette mise à jour :

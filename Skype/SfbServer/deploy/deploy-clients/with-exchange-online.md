@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Exchange Online.
-ms.openlocfilehash: 7e9e7dbf0c1ec29444b9ba783acd2e5cd0987440
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 0581834666476f2635785a48b189396c9240ac8f
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699699"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729385"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Déploiement de Skype Room Systems v2 avec Exchange Online 
  
@@ -148,11 +148,11 @@ Pour la validation, vous devez être en mesure d’utiliser n’importe quel Sky
 
 [Configurer des comptes pour les systèmes de salle Skype v2](room-systems-v2-configure-accounts.md)
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planification de Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Déploiement de Skype Room System v2](room-systems-v2.md)
+[Déploiement des systèmes Skype Room version 2](room-systems-v2.md)
   
-[Configuration d’une console Skype Room Systems v2](console.md)
+[Configuration d’une console pour les systèmes Skype Room version 2](console.md)
   
-[Gestion de Skype Room System v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gestion des systèmes Skype Room version 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

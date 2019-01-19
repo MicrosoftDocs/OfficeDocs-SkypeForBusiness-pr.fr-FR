@@ -13,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Découvrez comment configurer l’intégration de nuage connecteur avec votre client Office 365.
-ms.openlocfilehash: 01e5135a4b0ac6de391140bc6fc0d80bcc00e2ce
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 837775fea5a128dbbb8d143f15064e08d9267756
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375768"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729378"
 ---
-# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurer l’intégration Cloud Connector avec votre client Office 365
+# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
 Découvrez comment configurer l’intégration de nuage connecteur avec votre client Office 365.
   
@@ -42,7 +42,7 @@ Si vous utilisez TLS entre les serveurs de médiation et les passerelles, vous d
     
 3. Importez le certificat de l’AC racine pour le certificat délivré pour votre passerelle sur les serveurs de médiation. Si vous avez besoin d’obtenir un certificat SSL pour la passerelle, vous pouvez utiliser le service de certification de l’ordinateur ActivePSTNDirectory du CloudPSTNConnector comme suit :
     
-   - Modifier le modèle de serveur Web existant pour permettre aux utilisateurs authentifiés d’inscrire ou créer un nouveau modèle de serveur Web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificats](https://technet.microsoft.com/en-us/library/cc730705.aspx).
+   - Modifier le modèle de serveur Web existant pour permettre aux utilisateurs authentifiés d’inscrire ou créer un nouveau modèle de serveur Web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, reportez-vous à la page [Modèles de certificats](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
    - Demandez un certificat à l’aide du composant logiciel enfichable Certificats, en sélectionnant le modèle de serveur Web que vous avez autorisé. Assurez-vous d’indiquer le nom commun dans la section Sujet et le nom DNS dans la section Nom alternatif avec le FQDN de la passerelle, et confirmez sur la Clé privée que Rendre la clé privée exportable est bien sélectionné dans les options de clé. 
     
@@ -54,7 +54,7 @@ Assurez-vous d’avoir accompli les étapes pour mettre à jour votre domaine da
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Ajouter des enregistrements dans Office 365 pour Edge
 
-Ajoutez les enregistrements DNS suivants à votre client Office 365. Pour plus d’informations sur la façon d’ajouter des enregistrements DNS pour votre client Office 365, voir [Ajouter ou modifier des enregistrements DNS personnalisés dans Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
+Ajoutez les enregistrements DNS suivants à votre client Office 365. Pour obtenir des informations sur l'ajout d'enregistrements DNS à votre client Office 365, consultez [Ajouter ou modifier des enregistrements DNS personnalisés dans Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
   
 1. Ajouter un enregistrement DNS A pour le serveur Edge d’accès.
     
@@ -74,7 +74,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
 
 > [!NOTE]
-> Externe Access Edge nom de domaine complet utilisé pour la Destination de l’homologue doit être défini à un site PSTN qui sera uniquement utilisé comme un secours au cas où un utilisateur n’est pas affecté à un site PSTN. Pour plus d’informations, voir [déployer un seul site dans le nuage connecteur](deploy-a-single-site-in-cloud-connector.md) et le [déploiement de plusieurs sites dans le nuage connecteur](deploy-multiple-sites-in-cloud-connector.md). 
+> Externe Access Edge nom de domaine complet utilisé pour la Destination de l’homologue doit être défini à un site PSTN qui sera uniquement utilisé comme un secours au cas où un utilisateur n’est pas affecté à un site PSTN. Pour plus d’informations, reportez-vous à la rubrique [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) et [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 ## <a name="set-up-pstn-gateways"></a>Configurer les passerelles RTC
 
@@ -88,7 +88,7 @@ Si vous utilisez TLS entre les serveurs de médiation et les passerelles, vous d
     
 3. Importez le certificat de l’AC racine pour le certificat délivré pour votre passerelle sur les serveurs de médiation. Si vous avez besoin d’obtenir un certificat SSL pour la passerelle, vous pouvez utiliser le service de certification de l’ordinateur ActivePSTNDirectory du CloudPSTNConnector comme suit :
     
-   - Modifiez le modèle Serveur web existant pour permettre aux utilisateurs authentifiés de s’inscrire ou de créer un modèle Serveur web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificats](https://technet.microsoft.com/library/cc730705.aspx).
+   - Modifiez le modèle Serveur web existant pour permettre aux utilisateurs authentifiés de s’inscrire ou de créer un modèle Serveur web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, reportez-vous à la page [Modèles de certificats](https://technet.microsoft.com/library/cc730705.aspx).
     
    - Demandez un certificat à l’aide du composant logiciel enfichable Certificats, en sélectionnant le modèle de serveur Web que vous avez autorisé. Assurez-vous d’indiquer le nom commun dans la section Sujet et le nom DNS dans la section Nom alternatif avec le FQDN de la passerelle, et confirmez sur la Clé privée que Rendre la clé privée exportable est bien sélectionné dans les options de clé. 
     
@@ -166,7 +166,10 @@ Lorsqu’un appel P2P est transmis à une conférence PSTN, le Skype pour le ser
     
     Utilisez le domaine SIP par défaut du nuage connecteur (le premier domaine SIP dans le fichier .ini) en tant que le domaine de l’utilisateur.
     
-    Veuillez noter qu’affectation de licence n’est requis pour la propagation de l’utilisateur dans le Skype pour annuaire d’entreprise en ligne. Attribuer une licence Office 365 (par exemple, E5) pour le compte que vous créez, autoriser une heure pour propager les modifications, puis supprimez la licence de ce compte.
+    Veuillez noter qu’affectation de licence n’est requis pour la propagation de l’utilisateur dans le Skype pour annuaire d’entreprise en ligne. Affecter un Office 365 sous licence (par exemple, E5) pour le compte que vous créez, autoriser une heure pour que les modifications à propager, vérifiez les comptes d’utilisateur a été configuré correctement pour la Skype pour annuaire d’entreprise en ligne par l’applet de commande suivante en cours d’exécution, puis supprimez le licence de ce compte.
+    ```
+   Gets-CsOnlineUser -Identity <UserPrincipalName>
+   ```
     
 2. Démarrer une session PowerShell distante client Azure AD à l’aide de vos paramètres globaux ou les informations d’identification d’administration, puis exécutez l’applet de commande suivante pour définir le service pour le compte d’utilisateur AD Azure configuré dans l’étape 1 à « HybridMediationServer » :
 
