@@ -2,14 +2,14 @@
 ## Planifier
 ### [Vue d’ensemble de la planification de systèmes de salle Skype v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ### [Prise en charge de la version](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
-### [Notes de publication](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
+### Notes de publication
 ### [Préparer votre environnement](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Configuration requise](../plan-your-deployment/clients-and-devices/requirements.md)
 ### [Gestion des licences en ligne](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
-### [Planifier la gestion avec OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
+### [Planifier la gestion avec Azure moniteur](../plan-your-deployment/clients-and-devices/azure-monitor.md)
 
 ## Déployer 
-### [Vue d’ensemble du déploiement](../deploy/deploy-clients/room-systems-v2.md)
+### Vue d’ensemble du déploiement
 ### [Configurer les comptes](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
 ### [Avec Office 365](../deploy/deploy-clients/with-office-365.md)
 ### [Avec Skype pour Business Server](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
@@ -17,32 +17,31 @@
 ### [Avec Exchange sur site (hybride)](../deploy/deploy-clients/with-exchange-on-premises.md)
 ### [Configurer une console](../deploy/deploy-clients/console.md)
 ### [À l’aide de System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
-### [Gestion avec OMS](../deploy/deploy-clients/with-oms.md)
-
+### [Gestion avec moniteur Azure](../deploy/deploy-clients/azure-monitor.md)
 ## Gérer
 ### [Vue d’ensemble de la gestion](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 ### [Maintenance et opérations](../manage/skype-room-systems-v2/room-systems-v2-operations.md)
 ### [Problèmes connus](../manage/skype-room-systems-v2/known-issues.md)
-### [Appareils avec OMS](../manage/skype-room-systems-v2/oms.md)
+### [Appareils avec écran Azure](../manage/skype-room-systems-v2/azure-monitor.md)
 ### [Paramètres avec un fichier XML](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [Utiliser l’outil de récupération](../manage/skype-room-systems-v2/recovery-tool.md)
 # Système de salle Lync (SRS v1)
 ## Planifier
-### [Déploiement de Skype Room System dans Skype Entreprise Server](../deploy/deploy-clients/deploy-skype-room-system.md)
+### Déploiement de Skype Room System dans Skype Entreprise Server
 ## Déployer 
-### [Mise en service de comptes Exchange et Skype dans Skype Room System](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
-#### [Forêt unique Skype salle système déploiements sur site](../deploy/deploy-clients/single-forest-on-premises-deployments.md)
-#### [Système de salle Skype forêt plusieurs déploiements sur site](../deploy/deploy-clients/multiple-forest-on-premises-deployments.md)
-#### [Mise en service de comptes Skype Room System dans Office 365](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
-#### [Déploiements hybrides de système de salle de Skype](../deploy/deploy-clients/hybrid-deployments.md)
-#### [Partenaires fédérés de Skype Room System et Skype Entreprise](../deploy/deploy-clients/room-system-and-federated-partners.md)
-### [Stratégie de conférence pour les comptes Skype Room System](../deploy/deploy-clients/conferencing-policy.md)
-### [Domaines Skype salle système approuvés](../deploy/deploy-clients/trusted-domains.md)
-### [Considérations relatives à la migration système de salle de Skype](../deploy/deploy-clients/migration-considerations.md)
-### [Domaine du système de salle Skype considérations en matière de jonction](../deploy/deploy-clients/domain-joining-considerations.md)
-### [Système de salle Skype : Skype pour la licence du logiciel Business](../deploy/deploy-clients/skype-for-business-software-liicense.md)
-### [Outils et la gestion du système de salle de Skype](../deploy/deploy-clients/manageability-and-tools.md)
-### [Scripts d’installation de salle Skype salle système](../deploy/deploy-clients/room-setup-scripts.md)
+### Mise en service de comptes Exchange et Skype dans Skype Room System
+#### Skype Room System : déploiements locaux d’une forêt unique
+#### Skype Room System : déploiements locaux de plusieurs forêts
+#### Mise en service de comptes Skype Room System dans Office 365
+#### Skype Room System : déploiements hybrides
+#### Partenaires fédérés de Skype Room System et Skype Entreprise
+### Stratégie de conférence pour les comptes Skype Room System
+### Skype Room System : domaines approuvés
+### Skype Room System : remarques sur la migration
+### Skype Room System : remarques relatives à la jonction du domaine
+### Skype Room System : licence du logiciel Skype Entreprise
+### Skype Room System : facilité de gestion et outils
+### Skype Room System : scripts de configuration de la salle
 ## Gérer
-### [Gestion des comptes Skype Room System](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
+### Gestion des comptes Skype Room System
 ## [Migrer](../deploy/deploy-clients/lrs-migration.md)

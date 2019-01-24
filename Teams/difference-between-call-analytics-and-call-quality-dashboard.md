@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Découvrez les Analytique d’appel et appel du tableau de bord qualité quand et comment les utiliser pour analyser et résoudre les problèmes de qualité des appels.
-ms.openlocfilehash: 8d41e051a7f55c24c3388e707648970bb1ab64df
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a212afea9f8d5010fa68af66ce72b39280a7d11c
+ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013546"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29442436"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Appel Analytique et tableau de bord de qualité des appels
 
@@ -43,7 +43,7 @@ Microsoft Teams et Skype pour les entreprises permettent de deux manières pour 
 
 Appel Analytique affiche des informations détaillées sur les périphériques, les réseaux et connectivité liés aux appels spécifiques et des réunions pour chaque utilisateur de Microsoft Teams Skype pour un compte professionnel. Si vous êtes un administrateur Office 365, vous pouvez utiliser Analytique appeler pour résoudre les problèmes de qualité et connexion appel dans Microsoft Teams et Skype pour les entreprises.
 
-Pour afficher ces informations pour un utilisateur dans le Microsoft Teams et Skype entreprise centre d’administration, cliquez sur l’onglet **Historique des appels** pour cet utilisateur dans la page de détails utilisateur, en affichant tous les appels et les réunions que l’utilisateur a participé à des 30 derniers jours.
+Pour afficher ces informations pour un utilisateur dans le & Microsoft Teams Skype entreprise centre d’administration, cliquez sur l’onglet **Historique des appels** pour cet utilisateur dans la page de détails utilisateur, en affichant tous les appels et les réunions que l’utilisateur a participé à des 30 derniers jours.
 
 ![Données utilisateur d’appel analytique.](media/call-analytics-user-data.png)
 
@@ -51,14 +51,19 @@ Pour obtenir des informations supplémentaires sur une session donnée, y compri
 
 ![Appeler des données de session utilisateur analytique.](media/call-analytics-user-data-session.png)
 
-Si vous souhaitez que non-Admin, tels que les agents de support technique d’un fournisseur externe, pour utiliser l’appel Analytique, vous pouvez attribuer les autorisations afin qu’ils peuvent utiliser Analytique appel mais ils ne peuvent pas accéder le reste de la Skype pour le centre d’administration Business : 
+Si vous souhaitez que non-Admin, tels que les agents de support technique d’un fournisseur externe, pour utiliser appel Analytique, vous pouvez attribuer les autorisations afin qu’ils peuvent utiliser Analytique appeler, mais ils ne peuvent pas accéder le reste de la & Microsoft Teams Skype entreprise centre d’administration : 
   
-- **Les agents de support technique disposant des autorisations de niveau 1**: Agents voir un ensemble limité de données et les informations d’identification personnelle (PII) dans l’appel d’Analytique. Ils peuvent résoudre les appels, mais ils transmet des problèmes avec les réunions pour un agent de niveau 2.
+- **Prend en charge les agents de support technique avec communications autorisations spécialiste**: Agents voir un ensemble limité de données et les informations d’identification personnelle (PII) dans l’appel d’Analytique. Ils peuvent résoudre les appels, mais ils transmet des problèmes avec les réunions pour un ingénieur du support technique communications.
     
-- **Les agents de support technique disposant des autorisations de niveau 2**: Agents voir toutes les données disponibles dans Analytique appeler et résoudre les problèmes d’appels et les réunions. Ils ont un accès total à appeler des journaux et des informations sur le client.
+- **Prend en charge les agents de support technique avec communications ingénieur autorisations**: Agents voir toutes les données disponibles dans Analytique appeler et résoudre les problèmes d’appels et les réunions. Ils ont un accès total à appeler des journaux et des informations sur le client.
+
+> [!NOTE]
+> Le rôle de spécialiste de prise en charge des communications est équivalent au support de niveau 1 et le rôle ingénieur de prise en charge des communications est équivalent au support de niveau 2.
+
+Pour plus d’informations sur les communications spécialiste prise en charge et les communications prennent en charge les rôles ingénieur, voir [utiliser les équipes Microsoft des rôles d’administration pour gérer les équipes](using-admin-roles.md).
 
 > [!IMPORTANT]
-> Autorisations de l’agent de support technique et le téléchargement de topologie réseau seront disponibles dans le nouveau portail d’administration dans les mois à venir. En attendant, vous pouvez continuer à utiliser https://adminportal.services.skypeforbusiness.com pour l’accès de support technique de niveau 1 et niveau 2.
+> Autorisations de l’agent de support technique et le téléchargement de topologie réseau sont disponibles dans le & Microsoft Teams Skype entreprise centre d’administration. Spécialistes du Support de communications et de Communications ingénieurs du support technique peuvent utiliser ce portail pour accéder aux Analytique des appels et le tableau de bord qualité des appels.
     
 Pour plus d’informations sur la configuration Analytique d’appel, voir [Set up Skype pour Business appeler Analytique](set-up-call-analytics.md). Pour plus d’informations sur comment les agents du support technique peuvent fonctionner avec Analytique d’appel, voir [Utiliser appel Analytique pour résoudre les problèmes d’appel de mauvaise qualité](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   
@@ -74,11 +79,14 @@ La qualité des appels médiocres Tony est peut-être en raison d’un problème
   
 Pour plus d’informations, voir [fonctionnalités du tableau de bord qualité des appels pour Skype pour Business Online](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
   
-Appel Analytique CQD s’exécuter en parallèle et peuvent être utilisés indépendamment ou ensemble. Par exemple, qu'un agent de niveau 1 détermine qu’ils ont besoin d’aide pour résoudre un problème d’appel. L’agent de niveau 1 transmet l’appel à un agent de niveau 2, qui a accès à plus d’informations dans Analytique appeler que l’agent de niveau 1. À son tour, l’agent de niveau 2 peut alerter un ingénieur réseau à un problème. L’ingénieur réseau peut vérifier CQD pour voir si un problème général liés au site peut être une contribue cause de problèmes d’appel.
+Appel Analytique CQD s’exécuter en parallèle et peuvent être utilisés indépendamment ou ensemble. Par exemple, un spécialiste du support détermine qu’ils ont besoin d’aide pour résoudre un problème d’appel de communications. Les spécialistes de prise en charge des communications passe l’appel vers un ingénieur du support communications, qui a accès à plus d’informations à prendre en charge les communications spécialiste dans Analytique appeler. À son tour, l’ingénieur du support technique communications alerte ingénieur réseau à un problème. L’ingénieur réseau peut vérifier CQD pour voir si un problème général liés au site peut être une contribue cause de problèmes d’appel.
   
 Pour plus d’informations sur CQD, voir [activation et à l’aide d’appels de tableau de bord qualité pour les équipes Microsoft et Skype pour Business Online](turning-on-and-using-call-quality-dashboard.md) et les [Dimensions et mesures disponibles dans les appels de tableau de bord qualité pour les équipes Microsoft et Skype pour Business Online](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 ## <a name="related-topics"></a>Rubriques connexes
+
 [Configurer Analytique d’appel](set-up-call-analytics.md)
 
 [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+
+[Activation et à l’aide de tableau de bord qualité d’appel pour Microsoft Teams et Skype pour Business Online](turning-on-and-using-call-quality-dashboard.md)
