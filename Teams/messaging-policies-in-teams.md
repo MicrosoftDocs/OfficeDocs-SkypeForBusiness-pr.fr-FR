@@ -1,5 +1,5 @@
 ---
-title: Ce que sont les stratégies dans les équipes de messagerie ?
+title: Que sont les stratégies de messagerie dans Teams ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,14 +16,14 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Découvrez les stratégies de messagerie et comment ils peuvent être utilisés pour contrôler la conversation de messagerie dans les équipes.
-ms.openlocfilehash: 7b9cb8a6a5c30806d44f5056e4dee0de79823841
-ms.sourcegitcommit: c6b62a64d198fe18ae53cf849d125c5143053456
+ms.openlocfilehash: 203acb58113d162e6752ca5d327b8575c58a7133
+ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25453793"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29530935"
 ---
-# <a name="what-are-messaging-policies-in-teams"></a>Ce que sont les stratégies dans les équipes de messagerie ?
+# <a name="what-are-messaging-policies-in-teams"></a>Que sont les stratégies de messagerie dans Teams ?
 
 Les stratégies de messagerie sont utilisés pour contrôler les conversation et le canal des fonctionnalités de messagerie sont disponibles pour les utilisateurs de Microsoft Teams. Vous pouvez utiliser la stratégie par défaut qui est créée ou créer une ou plusieurs stratégies de messagerie personnalisés des personnes de votre organisation. Après avoir créé une stratégie, vous allez l’attribuer un utilisateur ou groupes d’utilisateurs dans votre organisation.
 
@@ -37,6 +37,8 @@ Les paramètres disponibles pour la stratégie sont décrits ci-dessous :
 - **Les utilisateurs peuvent supprimer des messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de supprimer les messages qu’ils envoient dans la conversation.
 - **Les utilisateurs peuvent modifier les messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de modifier les messages qu’ils envoient dans la conversation.
 - **Confirmations de lecture** Utilisez ce paramètre pour spécifier si des confirmations de lecture utilisateur contrôlé, activé pour tout le monde ou désactivé.
+<a name="bkchat"> </a>
+
 - **Conversation**  Activez ce paramètre si vous souhaitez que les utilisateurs de votre organisation à être en mesure d’utiliser l’application équipes pour converser avec d’autres personnes.
 - **Utiliser Giphys dans des conversations**  Si vous activez ce, les utilisateurs peuvent inclure Giphys dans des conversations avec d’autres personnes. Giphy est une base de données en ligne et le moteur de recherche qui permet aux utilisateurs de rechercher et partager les fichiers GIF animés. Chaque Giphy est affecté à une classification de contenu.
 - **Évaluation du contenu Giphy** 
@@ -51,4 +53,4 @@ Les paramètres disponibles pour la stratégie sont décrits ci-dessous :
 Si vous avez créé une stratégie de messagerie personnalisée, il ne sera active pour un utilisateur si cette stratégie est affectée à un utilisateur.  Pour affecter une stratégie personnalisée à un utilisateur dans le centre d’administration d’équipes, cliquez sur **utilisateurs** dans le volet de navigation gauche, sélectionnez l’utilisateur que vous voulez attribuer la stratégie à, puis cliquez sur **Modifier** sous **Stratégies affectées**.
 
 ### <a name="related-topics"></a>Rubriques connexes
-[Stratégies de la réunion dans les équipes](meeting-policies-in-teams.md)
+[Stratégies de réunion dans Teams](meeting-policies-in-teams.md)

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: Découvrez comment déplacer des utilisateurs Skype pour Business en ligne et sur site.
-ms.openlocfilehash: fadb3a485cac691a97f0786aea78000b6b48c344
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: 7032e7f2968b7861a7fac199fd8ba949980fe770
+ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27247643"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29530942"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Déplacer les utilisateurs du nuage vers sur site 
 
@@ -35,7 +35,7 @@ Si nécessaire, vous pouvez déplacer un utilisateur qui a déjà été migré �
 Une fois que vous déplacez un utilisateur du nuage vers locale :
 
 - L’utilisateur interagit avec votre Skype pour le déploiement de serveur d’entreprise pour ses fonctionnalités. 
-- Les contacts qui existaient dans Skype pour Business Online sont migrés vers Skype pour Business Server. Actuellement, les contacts qui se trouvent dans les équipes ne sont pas migrées vers localement.
+- Les contacts qui existaient dans soit Skype pour Business en ligne ou les équipes sont migrés vers Skype pour Business Server. Ces deux jeux de contacts est fusionnées et migrées vers localement.  En outre, les contacts existants dans les équipes restent dans les équipes.
 - Si l’utilisateur utilise également des équipes, n’ont pas la possibilité d’interagir avec Skype pour les utilisateurs professionnels, ni qu’ils seront en mesure de communiquer avec les utilisateurs des organisations fédérées.
 - Réunions dans Skype pour Business Online ne sont *pas* migrés automatiquement à localement. Les utilisateurs doivent soit replanifier leurs réunions ou, si vous le souhaitez, utiliser l' [Outil de Migration de réunion](https://support.office.com/en-us/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4).
 
@@ -82,4 +82,4 @@ Autrement, à une autre instance de TeamsUpgradePolicy qui n’a pas le mode = T
 
 ## <a name="see-also"></a>Voir aussi
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+Move-CsUser
