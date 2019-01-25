@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957d1d3b708d0d35c2743b9382af3ad12aba6632
-ms.sourcegitcommit: 38f225d59929a08923e801f334fea7b3d28f537d
+ms.openlocfilehash: f50a41333956458b3db36a13b9133c1cabcc163d
+ms.sourcegitcommit: ee8996ce081039f61c070f5b0b3fd6294ea4a5f5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29454575"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29561990"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 =============================================
@@ -31,8 +31,8 @@ Cet article décrit certaines des limites, les spécifications et autres conditi
 |Fonctionnalité    | Limite maximale |
 |-----------|---------------|
 |Nombre d’un utilisateur peut créer des équipes | Soumis à une limit&sup1 250 objet ;         |
-|Nombre de membres dans une équipe | 2 500 $       |
-|Nombre de membres dans une [équipe à l’échelle de l’organisation](create-an-org-wide-team.md) | 2 500 $       |
+|Nombre de membres dans une équipe | 2 500       |
+|Nombre de membres dans une [équipe à l’échelle de l’organisation](create-an-org-wide-team.md) | 2 500       |
 |Nombre d’un administrateur global peut créer des équipes        |  500 000   |
 |Nombre d’équipes que non attribuable à un client Office 365    | 500 000     |
 |Nombre de canaux par l’équipe    | 200 (inclut les canaux supprimés)         |
@@ -45,15 +45,12 @@ Cet article décrit certaines des limites, les spécifications et autres conditi
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
 |Nombre de personnes à une réunion  | 250    |
-|Nombre de personnes à une conversation privée  | 50%    |
+|Nombre de personnes à une conversation privée  | 50    |
 
-> [!IMPORTANT]
-> Travailleurs Kiosk n’aura la possibilité de planifier des réunions d’équipes, comme par défaut, AllowChannelMeetingScheduling et AllowPrivateMeetingScheduling ne sont pas inclus avec la mise en service intrabande en ce qui concerne la TeamsMeetingPolicy. Cela s’applique uniquement aux travailleurs Kiosk. 
-
-<a name="storage"></a>Stockage 
+<a name="storage"></a>Stockage
 -------
 
-Chaque équipe dans Microsoft Teams dispose d’un site d’équipe dans SharePoint Online, et chaque canal dans une équipe Obtient un dossier dans la bibliothèque de documents du site de l’équipe par défaut. Fichiers partagés au sein d’une conversation sont automatiquement ajoutés à la bibliothèque de documents et des options de sécurité de fichier définies dans SharePoint et les autorisations sont automatiquement répercutées au sein des équipes.
+Dans Microsoft Teams, chaque équipe dispose d'un site dans SharePoint Online, et chaque canal d'une équipe reçoit un dossier dans la bibliothèque de documents par défaut du site de l'équipe. Les fichiers partagés dans une conversation sont automatiquement ajoutés à la bibliothèque de documents, et les autorisations et options de sécurité de fichier définies dans SharePoint sont automatiquement appliquées à Teams.
 
 Si vous ne disposez pas SharePoint Online activée sur votre client, les utilisateurs Microsoft Teams toujours ne peuvent pas partager des fichiers dans les équipes. Également les utilisateurs de chat privé ne peuvent pas partager des fichiers car OneDrive entreprise (qui est lié à la licence SharePoint) est requis pour cette fonctionnalité.
 
@@ -63,7 +60,7 @@ En stockant les fichiers dans la bibliothèque de documents SharePoint Online e
 
 |Fonctionnalité                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Entreprise E1  |Office 365 Entreprise E3  |Office 365 Entreprise E5  |Office 365 Entreprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-|Stockage                  |1 To par organisation plus de 10 Go par licence acheté  |1 To par organisation plus de 10 Go par licence acheté  |1 To par organisation plus de 10 Go par licence acheté   |1 To par organisation plus de 10 Go par licence acheté |1 To par organisation plus de 10 Go par licence acheté  |1 To par l’organisation           |
+|Stockage                 |1 To par organisation plus de 10 Go par licence acheté  |1 To par organisation plus de 10 Go par licence acheté  |1 To par organisation plus de 10 Go par licence acheté   |1 To par organisation plus de 10 Go par licence acheté |1 To par organisation plus de 10 Go par licence acheté  |1 To par l’organisation           |
 |Stockage des fichiers d’équipes |Jusqu'à 25 To par collection de sites ou un groupe |Jusqu'à 25 To par collection de sites ou un groupe |Jusqu'à 25 To par collection de sites ou un groupe |Jusqu'à 25 To par collection de sites ou un groupe |Jusqu'à 25 To par collection de sites ou un groupe |Jusqu'à 25 To par collection de sites ou un groupe |
 |Limite de téléchargement de fichier       |15 GO    |15 GO    |15 GO    |15 GO    |15 GO    |15 GO    |
 
@@ -82,7 +79,7 @@ Fonction de conversation Microsoft Teams fonctionne sur un serveur principal Mic
 |---------|---------|---------|---------|---------|
 |Limite de taille de message&dagger;  |25 KO   |25 KO   |25 KO   |25 KO   |
 |Limite des pièces jointes de fichier&Dagger;  | 10     | 10     | 10     | 10    |
-|Limite des images en ligne&Dagger; |50%   |50%   |50%   |50%   |
+|Limite des images en ligne&Dagger; |50   |50   |50   |50   |
 
 &dagger;Si le message dépasse cette limite, un aperçu du message est généré et l’utilisateur est invité à consulter/télécharger le courrier électronique d’origine à partir du lien fourni.
 
