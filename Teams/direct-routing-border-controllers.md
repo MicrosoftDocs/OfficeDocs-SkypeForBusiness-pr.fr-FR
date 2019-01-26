@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Partenaires de Microsoft avec des fournisseurs pour valider leurs SBCs SBC fonctionnent avec le routage Direct.
-ms.openlocfilehash: 0230828c9aef49f8979c30d19c1d2d5e15779d84
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 611c7a4b7315b2c463ffffe8166eaeee7b6b7b7a
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326842"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562767"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs SBC certifiés pour le routage direct
 
@@ -60,7 +60,7 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   En attente    |      V7.0.2      |
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |   En attente    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   En attente    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    PA 3900       |   En attente    |   En attente  |   En attente    |
-|                                                                                                                     |      PA 4600         |    En attente    |   En attente    |      En attente      |
-|                                                                                                                     |      ENVIRONNEMENT DE MIGRATION VIRTUEL             |    En attente    |   En attente    |      En attente      |
+|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    PA 3900       |    &#10004;     |   En attente  |   GA ECZ8.1.0 MR-1 (Build 145)  |
+|                                                                                                                     |      PA 4600         |    &#10004;   |   En attente    |     GA ECZ8.1.0 MR-1 (Build 145)  |
+|                                                                                                                     |      ENVIRONNEMENT DE MIGRATION VIRTUEL             |    &#10004;    |   En attente    |     GA ECZ8.1.0 MR-1 (Build 145)     |
 |                     [SYSTÈMES DE NOTE](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   En attente    |      V3.16.2      |

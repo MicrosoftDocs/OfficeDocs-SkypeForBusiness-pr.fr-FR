@@ -1,5 +1,5 @@
 ---
-title: Gérer les équipes Microsoft Teams et Skype entreprise centre d’administration
+title: Gérer les équipes dans le & Microsoft Teams Skype entreprise centre d’administration
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,39 +8,39 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: islubin
-description: Découvrez comment afficher ou mettre à jour vos équipes Microsoft Teams et Skype entreprise centre d’administration.
+description: Découvrez comment afficher ou mettre à jour vos équipes dans le & Microsoft Teams Skype entreprise centre d’administration.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14ab474289e5a677e1125df7146ba7c5a6fc2ca1
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: 210824858d953a99844817b3ef27265626d91928
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539056"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562782"
 ---
-<a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Gérer les équipes Microsoft Teams et Skype entreprise centre d’administration
+<a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Gérer les équipes dans le & Microsoft Teams Skype entreprise centre d’administration
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>Vue d’ensemble
 
-En tant qu’un administrateur informatique, vous devrez peut-être afficher ou mettre à jour les équipes de votre organisation a configuré pour la collaboration, ou vous devrez effectuer des actions telles que l’affectation de propriétaires pour les équipes ownerless correction. Vous pouvez gérer les équipes utilisés dans votre organisation via le module PowerShell d’équipes Microsoft et les Microsoft Teams & Skype entreprise centre d’administration. Pour les fonctionnalités d’administration complète à l’aide de ces deux ensembles d’outils, assurez-vous que vous sont affectés à un des rôles suivants :
+En tant qu’un administrateur informatique, vous devrez peut-être afficher ou mettre à jour les équipes de votre organisation a configuré pour la collaboration, ou vous devrez effectuer des actions telles que l’affectation de propriétaires pour les équipes ownerless correction. Vous pouvez gérer les équipes utilisés dans votre organisation via le module PowerShell d’équipes Microsoft et la & Microsoft Teams Skype entreprise centre d’administration. Pour les fonctionnalités d’administration complète à l’aide de ces deux ensembles d’outils, assurez-vous que vous sont affectés à un des rôles suivants :
 
 - Administrateur global
 - Administrateur du service Teams
 
 Vous devez également vous assurer que votre compte a été attribué une licence d’équipes non-version d’évaluation pour la gestion. Dans le cadre d’un problème connu, vous devez vous assurer que votre compte qu' **un** administrateur rôle a été attribué.  Vous en apprendrez plus sur les rôles d’administrateur dans Microsoft Teams dans [utiliser des équipes Microsoft des rôles d’administration pour gérer des équipes](using-admin-roles.md), et vous pouvez en savoir plus sur la façon d’utiliser les applets de commande PowerShell pour la gestion des équipes dans la [référence d’applet de commande équipes Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
-Cet article fournit une vue d’ensemble des outils de gestion pour les équipes Microsoft Teams et Skype entreprise centre d’administration.
+Cet article fournit une vue d’ensemble des outils de gestion des équipes dans le & Microsoft Teams Skype entreprise centre d’administration.
 
 ## <a name="teams-overview-grid"></a>Vue d’ensemble des équipes
 
-Outils de gestion pour les équipes sont sous le nœud **équipes** Microsoft Teams et Skype entreprise centre d’administration. (Dans le centre d’administration, sélectionnez **les équipes** > **Gérer les équipes**.) Chaque équipe bénéficie d’un groupe d’Office 365, et ce nœud fournit une vue des groupes qui ont été Microsoft équipes activées dans votre organisation.
+Outils de gestion pour les équipes sont sous le nœud **d’équipes** dans le & Microsoft Teams Skype entreprise centre d’administration. (Dans le centre d’administration, sélectionnez **les équipes** > **Gérer les équipes**.) Chaque équipe bénéficie d’un groupe d’Office 365, et ce nœud fournit une vue des groupes qui ont été Microsoft équipes activées dans votre organisation.
 
 > [!NOTE]
 > Est en cours de renvoi créé précédemment équipes pour vous assurer qu’ils s’affichent dans cette vue.
@@ -89,6 +89,30 @@ Vous pouvez modifier les éléments d’une équipe suivants :
 
 
 Les modifications que vous apportez à une équipe sont consignées. Si vous modifiez les paramètres de groupe (modifier le nom, description, photo, confidentialité, classement ou membres de l’équipe), ces modifications à attribuer à votre via le pipeline d’audit. Si vous effectuez des actions sur les paramètres spécifiques d’équipes, vos modifications seront suivies et attribuer aux vous dans le canal généraux de l’équipe.
+
+## <a name="troubleshooting"></a>Résolution des problèmes
+
+**Problème : Les équipes manquantes dans la grille de vue d’ensemble de l’équipe**
+
+Lorsque vous entrez les & Microsoft Teams Skype entreprise centre d’administration, sous l’option **équipes** manque certains de vos équipes à partir de la liste dans la vue d’ensemble des équipes.
+
+**Cause**: ce problème se produit lorsque l’équipe a été incorrectement (ou non) de profilage par le système qui peut entraîner une propriété manquante pour qu’il puisse être reconnu.
+
+**Solution : Définissez manuellement la propriété à la valeur correcte via MS Graph**
+
+Remplacez **{groupid}** dans la requête de GroupId réel en question, que vous pouvez obtenir via le Exchange Online powershell, l’applet de commande **«[Get-UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)»** , en tant que l’attribut «**ExternalDirectoryObjectId**».
+
+1. Accès [graphique Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
+
+2. Se connecter à l’Explorateur de graphique dans le menu de gauche
+
+3. Modifiez la ligne de requête : correctif > v1.0 >https://graph.microsoft.com/v1.0/groups/{groupid}
+
+4. Ajoutez la valeur suivante dans le corps de la demande : {« resourceProvisioningOptions » : [« Team »]}
+
+5. Exécutez la requête sur le coin supérieur droit.
+
+6. Vérifiez que l’équipe s’affiche correctement sur la & Microsoft Teams Skype pour Business Admin Center - vue d’ensemble de l’équipe
 
 
 ## <a name="learn-more"></a>En savoir plus

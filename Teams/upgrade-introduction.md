@@ -1,5 +1,5 @@
 ---
-title: Mise à niveau vers les équipes - équipes Microsoft
+title: Effectuer la mise à niveau vers Teams - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3136aa7ee7fb4aedf65f814ed3a482e0acd5e0b2
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: a42eec3f5e5271f34cdab10893953753c3896369
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791701"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562741"
 ---
 # <a name="upgrade-to-teams"></a>Mise à niveau vers des équipes
 
@@ -30,3 +30,10 @@ Félicitations pour votre mise à niveau en attente de Skype pour les entreprise
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+
+> [!Tip]
+> Regardez la session suivante pour en savoir plus sur la mise à niveau de Skype Entreprise vers Microsoft Teams :
+> - [Présentation de la mise à niveau](https://aka.ms/teams-upgrade-intro)
+> - [Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)
+> - [Coexistence et interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Expérience de l’administrateur](https://aka.ms/teams-upgrade-admin)

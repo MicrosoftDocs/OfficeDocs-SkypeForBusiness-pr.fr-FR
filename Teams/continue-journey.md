@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66a5a75d31b06976cd59d40f189fc87bf96c316e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: ac7466df9000eba2ea2689c717a2012fd252e150
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348905"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562604"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -51,5 +51,6 @@ Le cycle de vie d’une technologie donnée a déplacé vers un cycle de croissa
 
 - Surveiller les équipes [feuille de route](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams).
 - Mettre en œuvre une modification de planification de l’écran (comme illustré ci-dessous) préparer et implémenter les nouvelles fonctionnalités. Veillez à inclure des activités de préparation technique et utilisateur.
+
 
 ![Exemple de formulaire affichant des notes sur les nouvelles fonctionnalités, accompagnée des étapes suivantes et les propriétaires et les dates de sortie attendue] (media/upgrade-change-plan-form.png "Exemple de formulaire affichant des notes sur les nouvelles fonctionnalités, accompagnée des étapes suivantes et les propriétaires et les dates de sortie attendue")

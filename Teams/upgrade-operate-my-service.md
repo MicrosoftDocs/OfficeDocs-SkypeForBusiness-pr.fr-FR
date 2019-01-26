@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ee02c2d8b8303bb353c2ebf1e30a72cc0e4f17
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 9b455d7599f5de8e2eb76f560e593eb5e409ecae
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349388"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562798"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -165,7 +165,7 @@ Mises à jour des équipes sont déployées automatiquement à vos utilisateurs.
 
 ### <a name="monitoring-for-change"></a>Changement de surveillance
 
-La première étape de la gestion des modifications consiste à surveiller les modifications qui sont planifiées pour les équipes. La meilleure source pour la surveillance de ces modifications est la [Feuille de route Office 365](https://products.office.com/business/office-365-roadmap), qui répertorie les fonctionnalités qui sont actuellement en développement, en cours de déploiement pour les clients, ou ont lancé entièrement. Vous pouvez rechercher des fonctionnalités spécifiques aux équipes à l’aide du filtre fourni, ou vous pouvez télécharger la feuille de route pour un fichier Excel pour une analyse approfondie. Pour chaque fonctionnalité, la feuille de route donne une brève description, ainsi que la date de publication prévue.
+La première étape de la gestion des modifications consiste à surveiller les modifications qui sont planifiées pour les équipes. La meilleure source pour la surveillance de ces modifications est la [Feuille de route Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap), qui répertorie les fonctionnalités qui sont actuellement en développement, en cours de déploiement pour les clients, ou ont lancé entièrement. Vous pouvez rechercher des fonctionnalités spécifiques aux équipes à l’aide du filtre fourni, ou vous pouvez télécharger la feuille de route pour un fichier Excel pour une analyse approfondie. Pour chaque fonctionnalité, la feuille de route donne une brève description, ainsi que la date de publication prévue.
 
 Dans le [blog des équipes Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog), vous pouvez Découvrez les meilleures pratiques, les tendances et les informations sur les mises à jour les équipes. Prévu rechercher les mises à jour principales aux équipes à annoncer ici. Vous pouvez également vous abonner au blog via un flux RSS. Vous pouvez ensuite ajouter [le flux RSS](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) directement dans un canal d’équipes, afin que toutes les informations importantes sont remises directement à l’intérieur d’équipes.
 

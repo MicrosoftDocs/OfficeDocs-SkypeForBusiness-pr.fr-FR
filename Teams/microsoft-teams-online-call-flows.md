@@ -13,14 +13,17 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Décrit comment la charge de travail équipes utilise Office 365 flux dans diverses topologies.
-ms.openlocfilehash: 7bb107d58290798a2f075f4c789b788c6b5080f2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 455e90d05a26ce387f916f531991ccaf664860d2
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013618"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562806"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Flux des appels équipes Microsoft Online
+
+> [!Tip]
+> Regarder la session suivante pour en savoir comment les équipes s’appuie sur votre réseau et comment mieux planifier la connectivité réseau optimale : [Planification des équipes réseau](https://aka.ms/teams-networking)
 
 ## <a name="overview"></a>Vue d’ensemble
 Ce document décrit comment la charge de travail équipes utilise Office 365 flux dans diverses topologies. En outre, il spécifie uniques flux équipes qui sont utilisés pour les communications multimédias d’égal à égal. Le document énumère ces flux et décrit leurs rôles et leurs réseaux d’origine et d’arrêt. Par exemple, flux de X est utilisé par le client Office 365 sur site pour communiquer avec le service Office 365 dans le nuage, à l’origine à partir du réseau client et se termine par un point de terminaison dans le nuage Office 365, et flux Y est utilisé par le client Office 365 sur site pour communiquer avec un service sur Internet, Office 365 a un lien de dépendance, à l’origine à partir du réseau client et se termine par un point de terminaison sur Internet.
