@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 335d5baac6f13d899b8d6f9875a419d86da1b6af
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cdcf5bd3da33463d39f8681a41d7299f3d66e727
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374316"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593933"
 ---
 # <a name="prepare-my-service"></a>Préparer mon service
 
@@ -41,7 +41,7 @@ Listes de vérification suivantes vous guident tout au long de la procédure pou
 Les tâches et activités dans ces listes de contrôle sont les éléments principaux « tâches » qui s’appliquent à chaque déploiement de fonctionnalités vocales de nuage avec les équipes. Vous pouvez personnaliser les listes de vérification pour inclure les activités et les tâches qui sont spécifiques à votre propre parcours équipes.
 
 >[!NOTE]
->Ce guide porte uniquement sur les Plans de l’appel, conférence Audio et au routage Direct. Si vous êtes novice en équipes, consultez [Vue d’ensemble des équipes de Microsoft](teams-overview.md). Pour obtenir des instructions générales pour la planification de votre déploiement d’équipes, consultez le [Guide de planification équipes Microsoft](quick-start-enable-teams.md).
+>Ce guide porte uniquement sur les Plans de l’appel, conférence Audio et au routage Direct. Si vous êtes novice en équipes, consultez [Vue d’ensemble des équipes de Microsoft](teams-overview.md). Pour obtenir des instructions générales pour la planification de votre déploiement d’équipes, commencer par [déployer conversation, équipes, les canaux et applications dans les équipes Microsoft](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
 
 Utilisez les listes de vérification fournies pour suivre l’état de chaque tâche et de l’activité individuelle et effectué pour vous assurer que toutes les étapes critiques. Chaque activité comprend une description détaillée des actions requises et des références à des informations supplémentaires que vous pouvez utiliser pour effectuer cette activité.
 
@@ -50,7 +50,7 @@ Bien que nous vous conseillons de suivre les listes de contrôle dans l’ordre,
 Lorsque vous êtes embarquement utilisateurs sur site par site, que nous vous recommandons vivement d’utiliser la [Lecture d’activation de Site pour la voix (lecture)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) comme un guide supplémentaire à ces listes de contrôle.
 
 >[!NOTE]
->La plupart des paramètres de configuration sont communes entre les équipes et Skype pour Business Online. Vous utilisez le centre d’administration d’Office 365, équipes et Skype entreprise centre d’administration pour configurer ces paramètres.
+>La plupart des paramètres de configuration sont communes entre les équipes et Skype pour Business Online. Le & centre d’administration d’Office 365 et les équipes Skype entreprise centre d’administration vous permet de configurer ces paramètres.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Qui sera responsable de la surveillance de l’exécution de l’intégration des listes de contrôle ?</li></ul></td></tr>
@@ -114,18 +114,18 @@ Pour plus d’informations, voir :
 
 - [Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
 
-- [Techniques de planification du système téléphonique avec les Plans d’appel](phone-system-with-calling-plans.md#technical-planning-for-phone-system-with-calling-plans)
+- [Techniques de planification du système téléphonique avec les Plans d’appel](calling-plan-landing-page.md)
 
 - [Configurer des Plans de l’appel pour Skype pour les entreprises et Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-- [Planifier le routage Direct](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
+- [Planifier le routage direct](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
 
-- [Configurer le routage Direct](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
+- [Configurer le routage direct](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
 
 ### <a name="execute-the-test-plan"></a>Exécuter le plan de test
 
 [//]: # (OK modifier ? « Utilisateur » semblaient un peu ambigu pour moi.)
-Une fois que l’environnement de l’utilisateur et le service ont été configurés, la dernière étape de test inclut l’exécution du plan de test ayant le focus sur la validation des fonctionnalités. 
+Une fois que l’environnement de l’utilisateur et le service ont été configurés, la dernière étape de test inclut l’exécution du plan de test ayant le focus sur la validation des fonctionnalités. 
 
 **Test des conditions préalables et hypothèses pour les utilisateurs et les sites dans l’étendue de conférence audio :**
 
@@ -137,7 +137,7 @@ Une fois que l’environnement de l’utilisateur et le service ont été config
 
 -   La liste des dédié et partagés audioconférence rendez-vous numéros avec préférence linguistique ont été identifiés et configuré.
 
--   [Communications générique](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (si nécessaire) ont été configurés pour votre organisation.
+-   [Communications générique](what-are-communications-credits.md) (si nécessaire) ont été configurés pour votre organisation.
 
 -   Paramètres pont de conférence audio conférence ont été identifiés et configuré (longueur du code confidentiel, les notifications d’entrée/sortie, préférence de notification d’activation).
 
@@ -155,7 +155,7 @@ Une fois que l’environnement de l’utilisateur et le service ont été config
 
 -   Numéros de téléphone à attribuer aux utilisateurs qui ont été acquis ou prise en charge par Microsoft et qui sont disponibles dans le portail client.
 
--   [Communications générique](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (si nécessaire) ont été configurés pour votre organisation.
+-   [Communications générique](what-are-communications-credits.md) (si nécessaire) ont été configurés pour votre organisation.
 
 -   Stratégies de client utilisateur et les paramètres de plan de numérotation qui prennent en charge les scénarios d’appel de Plans ont été identifiés, configurés et appliqués.
 

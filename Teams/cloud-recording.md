@@ -12,12 +12,12 @@ description: Guide pratique pour le déploiement de la fonctionnalité vocale cl
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 085f2ff382c33f6914454fd1633054fd3e4602ca
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: b2b57b7c39dc129c485943c5048a8d4b6441d942
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015332"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594197"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -61,7 +61,7 @@ Par défaut, tout le monde peut créer du contenu dans le flux de données, une 
 
 Si un administrateur de Microsoft Stream a [configurer la stratégie de règle d’entreprise](https://docs.microsoft.com/stream/company-policy-and-consent) et exige que les employés accepter cette stratégie avant d’enregistrer le contenu, les utilisateurs doivent le faire avant l’enregistrement dans Microsoft Teams. Avant de déployer la fonctionnalité d’enregistrement dans l’organisation, assurez-vous que les utilisateurs ont accepté à la stratégie.
 
-### <a name="enabledisable-cloud-recording-for-users"></a>Activer/désactiver l’enregistrement pour les utilisateurs de nuage
+### <a name="turn-on-or-turn-off-cloud-recording"></a>Activer ou désactiver le nuage d’enregistrement
 
 Utiliser le paramètre AllowCloudRecording de TeamsMeetingPolicy dans PowerShell équipes pour contrôler si les réunions d’un utilisateur sont autorisées à être enregistrée ou non. Vous pouvez en savoir plus sur la gestion des TeamsMeetingPolicy avec Office 365 PowerShell [ici](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
@@ -86,7 +86,7 @@ Pour modifier la valeur de AllowCloudRecording dans la stratégie globale, utili
 |      Je veux enregistrement pour être désactivée pour la plupart des utilisateurs sans activer des utilisateurs spécifiques qui sont autorisés à enregistrer       | <ol><li>Confirmer Global CsTeamsMeetingPolicy a AllowCloudRecording = False<li>La majorité des utilisateurs ont été accordées le Global CsTeamsMeetingPolicy ou une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False<li>Tous les autres utilisateurs ont été accordées à l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = True <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
-### <a name="enabledisable-recording-transcription-for-users"></a>Activer/désactiver l’enregistrement transcription pour les utilisateurs
+### <a name="turn-on-or-turn-off-recording-transcription"></a>Activer ou désactiver l’enregistrement de transcription
 
 Lorsque les utilisateurs enregistrement leurs réunions d’équipes, ils peuvent confirmer si une transcription doit être générée automatiquement après l’enregistrement de la réunion. Si admins avez désactivé fonctionnalité transcription pour l’organisateur de la réunion et l’initiateur d’enregistrement, l’initiateur d’enregistrement ne recevra pas un choix transcrire les enregistrements de la réunion.
 

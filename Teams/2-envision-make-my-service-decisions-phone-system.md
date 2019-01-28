@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 702b126ac065b3fd84737cd0a6bb00f47c6d4991
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: eb254de21bfaf0ffb66a9c9177e5109a1b4eafc1
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694758"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593965"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -135,7 +135,7 @@ La messagerie vocale du système téléphonique inclut la transcription des mess
 >[!NOTE]
 > Un mécanisme de secours a été implémenté, qui permet à la messagerie vocale du système téléphonique de renvoyer les messages via SMTP. Ainsi les utilisateurs qui possèdent une boîte aux lettres sur un système tiers recevront les messages vocaux. Ce mécanisme n’inclut pas les temps de fonctionnement de service garanti ou d’autres fonctionnalités de messagerie vocale, telle que la modification du message d’accueil de la messagerie vocale.
 
-Pour plus d’informations sur la messagerie vocale dans une implémentation du système téléphonique, voir [messagerie vocale PBX Azure prend en charge pour Exchange Server](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans).
+Pour plus d’informations sur la messagerie vocale dans une implémentation du système téléphonique, voir [Système téléphonique avec des Plans de l’appel](calling-plan-landing-page.md).
 
 <br>
 

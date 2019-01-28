@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc1c20f87103dc91a317e58dac03389275b255f2
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 3e66005ca69a08cd0cf944455e73c155d20bfea9
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694696"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593925"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 ==============================================================
@@ -30,7 +30,7 @@ Ce guide vous aidera à définir un ensemble d'utilisateurs prêts à utiliser l
 Lisez l'annonce du 12 décembre 2017 sur les forfaits d'appels dans Teams : [Les communications intelligentes passent la vitesse supérieure avec les appels dans Teams](https://aka.ms/ipyqus)
 
 > [!NOTE]
-> En parallèle de ce guide de démarrage rapide, nous vous recommandons de consulter notre [guide pratique](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans) et [FastTrack](https://aka.ms/cloudvoice) pour planifier et réaliser un lancement réussi.
+> Nous vous recommandons, en parallèle avec ce guide de démarrage rapide, lire [Système téléphonique avec des Plans de l’appel](calling-plan-landing-page.md) et [FastTrack](https://aka.ms/cloudvoice) plan et lecteur de réussir votre déploiement.
 
 En ajoutant les forfaits d'appels (une fonction Office 365 avec Skype Entreprise), vous pouvez désormais utiliser Teams pour passer et recevoir des appels téléphoniques de ou vers des lignes fixes et mobiles via le réseau téléphonique commuté (PSTN).
 
@@ -114,7 +114,7 @@ Si vous choisissez d’utiliser le mode TeamsOnly, vous pouvez modifier en mode 
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[Guide pratique des systèmes téléphoniques avec forfaits d'appels dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
+[Système téléphonique avec forfaits d’appels](calling-plan-landing-page.md)
 
 [Référence de l'applet de commande PowerShell de Skype Entreprise](https://docs.microsoft.com/powershell/module/skype)
 

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c619f8d053d0d06b9b5494d812eea541869922
-ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
+ms.openlocfilehash: a4a839e7f903e232a3ebfe76056cfb97f2bc8219
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26670930"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594109"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams
 ======================================================
@@ -51,7 +51,7 @@ Le **canal générales** est créée pour vous lorsque vous créez l’équipe p
 -  Utilisez-le pour les annonces ou configurer le connecteur de SharePoint News afin de publier vos rapports d’état moderne à cette chaîne.  
 -  Pour les équipes de rôle nouveaux ou unique, il peut être le canal uniquement au début lorsque vous décidez comment les équipes peuvent mieux en charge vos objectifs.
 
-Actuellement, vous ne pouvez pas supprimer ou unfavorite le canal général. Lorsque vous nommez des canaux, n’oubliez pas que les canaux sont classés par ordre alphabétique après le canal général.  Dans les équipes avec le nombre de canaux utiliser la fonctionnalité de « Favori un canal » pour contrôler les canaux de que vous voir automatiquement lors de la navigation vers l’équipe. 
+Actuellement, vous ne pouvez pas supprimer ou unfavorite le canal général. Lorsque vous nommez des canaux, n’oubliez pas que les canaux sont classés par ordre alphabétique après le canal général. Dans les équipes avec le nombre de canaux utiliser la fonctionnalité de « Favori un canal » pour contrôler les canaux de que vous voir automatiquement lors de la navigation vers l’équipe. 
 
 En savoir plus sur l' [utilisation de canaux](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) avec ces conseils rapides pour les utilisateurs finaux. 
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb6aeca0892bb3ccd07c5d4dd60508424845b4c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 66f7aafe353227c9602fbaecbd386a897aa021ea
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532168"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593885"
 ---
 # <a name="enhance-my-service"></a>Améliorer mon service
 
@@ -31,7 +31,7 @@ Idéal pour vous assurer que vous obtenez toujours le meilleur parti de vos serv
 
 En outre, étant donné que les organisations agrandir et modifient, vous devez prendre temps pour revoir et mettre à jour vos études de cas d’utilisation à intervalles réguliers pour vous assurer que le service est configuré pour répondre aux besoins actuels de votre organisation.  Vérifiez que vous obtenez des commentaires réels de vos utilisateurs et les champions internes en établissant les canaux de commentaires dans votre organisation. Ces peuvent être des conversations informelles, réunions régulières ou via un équipes de canal ou Yammer de la Communauté. 
 
-Lorsque vous ne voyez pas les opportunités pour améliorer votre service, prenez le temps de le faire à droite. Revoir les phases d’implémentation (https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams) et appliquer la même recommandation de bout en bout. Lors de la création de petites modifications incrémentielles, il est peu probable que vous aurez besoin effectuer toutes les activités et tâches en totalité, mais veillez à évaluer chaque tâche de route pour pouvoir chances à un résultat réussi et l’activité.
+Lorsque vous ne voyez pas les opportunités pour améliorer votre service, prenez le temps de le faire à droite. Revoir [conversation déployer, équipes, les canaux et applications dans les équipes Microsoft](deploy-chat-teams-channels-microsoft-teams-landing-page.md) et appliquez les instructions même de bout en bout. Lors de la création de petites modifications incrémentielles, il est peu probable que vous aurez besoin effectuer toutes les activités et tâches en totalité, mais veillez à évaluer chaque tâche de route pour pouvoir chances à un résultat réussi et l’activité.
 
 
 <table>

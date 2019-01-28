@@ -8,7 +8,6 @@ ms.topic: article
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service:
-- skype-for-business-online
 - msteams
 ms.collection:
 - Adm_Skype4B_Online
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Cette rubrique contient tous les pays et régions que les utilisateurs peuvent effectuer des appels sortants vers s’ils disposent d’un Plan de l’appel.
-ms.openlocfilehash: 987379350d2605702d0e9e080f6a7a3a6d3a0383
-ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
+ms.openlocfilehash: 6843d06d99e049cdd7576c4c5618c1f5d0297133
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25576575"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594325"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Les utilisateurs peuvent passer des appels sortants dans ces pays et régions
 
@@ -51,19 +50,19 @@ ms.locfileid: "25576575"
 |Aruba |France |Jordanie |Mexique |Qatar | Ukraine   |
 |Australie |Guyane française |Kazakhstan |Micronésie |Réunion |Émirats arabes unis  |
 |Autriche |Polynésie française |Kenya |Moldavie |Roumanie |Royaume-Uni (R.-U.) |
-|Azerbaïdjan |Géorgie |Corée du Sud |Monaco | Russie |États-Unis  |
+|Azerbaïdjan |Géorgie |Corée du Sud |Monaco | Russie |États-Unis (USA)  |
 |Bahamas |Allemagne |Koweït |Mongolie |Rwanda | Uruguay |
 |Bahreïn |Ghana |Kirghizstan |Monténégro | Saint-Christophe-et-Niévès |Ouzbékistan  |
 |Bangladesh |Gialtar |Laos |Montserrat | Sainte Lucie |Vatican  |
 |Barbade |Grèce |Lettonie |Maroc |Saint-Vincent-et-les-Grenadines |Venezuela   |
-|Biélorussie |Groenland |Liban |Mozambique | Saint-Marin |Vietnam  |
+|Belarus |Groenland |Liban |Mozambique | Saint-Marin |Vietnam  |
 |Belgique |Grenade |Lesotho |Birmanie | Arabie saoudite | Les îles Vierges britanniques |
 |Belize |Guadeloupe |Libye |Namibie |Sénégal | Les îles Vierges américaines  |
 |Bénin |Guam |Liechtenstein |Népal | Serbie | Wallis-et-Futuna  |
 |Les Bermudes |Guatemala |Lituanie |Pays-Bas |Singapour |Yémen |
 |Bhoutan |Guinée |Luxembourg |Les Antilles néerlandaises |Slovaquie |Zambie  |
 |Bolivie |Guyana| |Nouvelle-Calédonie |Slovénie |Zimbabwe |
-|Bosnie-Herzégovine |Haïti ||Nouvelle-Zélande |Afrique du Sud | 
+|Bosnia and Herzegovina (Bosna i Hercegovina) |Haïti ||Nouvelle-Zélande |Afrique du Sud | 
 |Botswana |Honduras ||Nicaragua |Espagne |
 |Brésil |Hong Kong ||Niger |Sri Lanka | 
 |Bunei Darussalam |Hongrie ||Nigeria |St. Pierre et Miquelon | 

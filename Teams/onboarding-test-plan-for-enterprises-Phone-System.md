@@ -1,5 +1,5 @@
 ---
-title: Entreprise plan de test pour le système téléphonique avec des Plans de l’appel dans Microsoft Teams
+title: Plan de test d’entreprise du système téléphonique avec forfaits d'appels dans Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995635ed8a7f3c9a9a5d4291652208246c3f9697
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 85774296ad871d7d9d036a660299cc88099c4de6
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694789"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594061"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Définissez et documentez votre système téléphonique avec des Plans de l’appel dans le plan de test des équipes pour les entreprises 
 ============================================================================================
@@ -72,8 +72,8 @@ Lorsque vous préparez à évaluer le système téléphonique avec des fonctionn
 <a name="define-phone-system-with-calling-plans-feature-requirements"></a>Définir le système téléphonique avec les exigences de la fonction appel de Plans 
 ------------------------------------------------------------
 
-Dans le cadre de la définition de système téléphonique avec des Plans de l’appel des fonctionnalités requises pour les utilisateurs dans la portée, une des premières étapes que vous devez avoir effectué pendant la phase de prévoir a été l' [Analyse personnage](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#assess-environment-and-evaluate-adoption-readiness), où vous avez défini votre système téléphonique avec des Plans de l’appel personnage et scénarios.
-Avec cette base identifiée, l’étape suivante consiste à évaluer la dernière équipes public feuille de route pour déterminer :
+Dans le cadre de la définition de système téléphonique avec des Plans de l’appel des fonctionnalités requises pour les utilisateurs dans l’étendue, consultez la rubrique [Système téléphonique avec des Plans de l’appel](calling-plan-landing-page.md).
+Ensuite, évaluer la dernière équipes public feuille de route pour déterminer :
 
 -   Le système téléphonique avec des fonctionnalités d’appel de Plans vous envisagez de déployer pour les utilisateurs dans l’étendue.
 

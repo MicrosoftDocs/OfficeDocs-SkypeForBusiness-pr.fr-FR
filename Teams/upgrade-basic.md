@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b77f53398eda22ec2f3b7313d8c2b641228c5b5e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: d0b6940a2e58a0a459c6f7858c0d7bd19f53ca39
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349412"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594413"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -72,7 +72,7 @@ Différents directeurs sont responsables de la réussite de l’entreprise ; Ve
 
 - [Présentation de Teams](Teams-overview.md)
 - [En savoir plus sur les équipes et les canaux](teams-channels-overview.md)
-- [Effectuer une planification technique](quick-start-enable-teams.md#step-3-complete-technical-planning)
+- [Effectuer une planification technique](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [Gérer les systèmes de salle de Skype](https://aka.ms/srsdocs)
 
 [Retour au début](#about-upgrade-basic)

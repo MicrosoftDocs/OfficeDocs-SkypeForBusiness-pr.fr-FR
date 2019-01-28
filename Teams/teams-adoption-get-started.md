@@ -15,12 +15,12 @@ ms.custom: Adopt
 ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75cecfd5050ce964fd7b2dbc9dff97da2fb920b3
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 1817e11e0b628625aa1ae35695f60e2b80c4ab3c
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699748"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594261"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Commencer à faire adopter Microsoft Teams
 
@@ -30,7 +30,7 @@ En tirant l’adoption de Microsoft Teams, vous pourrez offrir une expérience u
 
 Avant de commencer, assurez-vous que :
 
-- [Équipes est activée](quick-start-enable-teams.md) et les licences sont attribuées dans votre environnement. À un licences minimale doivent être attribué à votre équipe et les premiers utilisateurs qui participeront à cette phase initiale de projet.
+- [Les équipes est installé](get-clients.md) et [l’attribution des licences](office-365-licensing.md) dans votre environnement. À un licences minimale doivent être attribué à votre équipe et les premiers utilisateurs qui participeront à cette phase initiale de projet.
 
 - Vous avez téléchargé les applications mobiles et de bureau. 
 

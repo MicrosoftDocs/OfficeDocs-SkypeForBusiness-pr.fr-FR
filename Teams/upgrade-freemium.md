@@ -1,5 +1,5 @@
 ---
-title: Mettre à niveau la version gratuite de Microsoft Teams vers la version avec abonnement Microsoft 365
+title: Mettre à niveau la version gratuite de Microsoft Teams vers la version avec abonnement d'Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: cb8770b0929b46aa0e98e1429a11874756ed07e1
-ms.sourcegitcommit: d9059e8cb0a9b968ee16508f6bfcb5d949575590
+ms.openlocfilehash: 468a3c60b83784fb308165a5da835d451f2bc780
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "27733202"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594229"
 ---
-<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Mettre à niveau la version gratuite de Microsoft Teams vers la version avec abonnement Microsoft 365
+<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Mettre à niveau la version gratuite de Microsoft Teams vers la version avec abonnement d'Office 365
 ======================================================
 
 Si votre organisation utilise la version gratuite de Microsoft Teams, vous pouvez facilement mettre à niveau vers la version complète en achetant un plan d’abonnement Office 365 pour vos utilisateurs. La version complète fournit des fonctionnalités supplémentaires aux équipes, telles que la planification, services d’audioconférence, administration améliorée et des fonctionnalités de sécurité, qui ne fournit pas la version gratuite. Office 365 allie la suite bureautique Microsoft Office familier avec les versions de communications nouvelle génération de Microsoft et les services de collaboration basée sur le cloud, notamment Exchange Online, SharePoint Online et Office Online : pour aider les utilisateurs à être productifs depuis pratiquement n’importe où via internet. Lorsque vous mettez à niveau des équipes, vos données équipes existantes ne seront pas perdues ; tous vos équipes, canaux, conversations, fichiers et les autorisations sont fournis avec vous. 
@@ -86,7 +86,7 @@ Entrez l’adresse de messagerie que vous utilisez pour vous connecter à des é
 
 ## <a name="whats-next"></a>Quel est le suivant ?
 
-Une fois la mise à niveau terminée, voir [prendre en main les équipes Microsoft](get-started-with-teams-landing-page.md) pour la première procédure [Adopter les équipes Microsoft](adopt-microsoft-teams-landing-page.md) pour une approche progressive à l’adoption des équipes au sein de votre organisation.
+Une fois la mise à niveau terminée, voir [prendre en main les équipes Microsoft](get-started-with-teams-quick-start.md) pour la première procédure [Adopter les équipes Microsoft](adopt-microsoft-teams-landing-page.md) pour une approche progressive à l’adoption des équipes au sein de votre organisation.
 
 ## <a name="more-information"></a>Plus d’informations
 

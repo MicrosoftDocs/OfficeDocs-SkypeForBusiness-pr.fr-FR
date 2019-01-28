@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bb2ed4352b8a3fa1bfcb4d17527ca2272f06b3c
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 5f93a3ad801e72adaa7514fef83572f7766b0ee6
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349278"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594365"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -34,9 +34,9 @@ Une fois que vous avez déployé avec succès des équipes à votre organisation
 
 Idéal pour vous assurer que vous obtenez toujours le meilleur parti de vos services consiste à surveiller le [parcours publics équipes](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de nouvelles améliorations des fonctionnalités qui peuvent être intéressantes pour votre organisation. Si vous avez accès au portail d’administration d’Office 365, vous recevrez des mises à jour régulières de notre part sur les fonctionnalités nouvelles et modifiées par le biais de notre centre de messages.
 
-En outre, étant donné que les organisations agrandir et modifient, vous devez prendre temps pour revoir et mettre à jour vos études de cas d’utilisation à intervalles réguliers pour vous assurer que le service est configuré pour répondre aux besoins actuels de votre organisation. Vous garantit commentaires réels de vos utilisateurs et les champions internes en établissant les canaux de commentaires dans votre organisation. Ces vous pouvez conversations informelles, réunions régulières, ou par un équipes de canal ou Yammer de la Communauté.
+Lorsque vous ne voyez pas les opportunités pour améliorer votre service, prenez le temps de le faire à droite. Revoir [conversation déployer, équipes, les canaux et applications dans les équipes Microsoft](deploy-chat-teams-channels-microsoft-teams-landing-page.md) et appliquez les instructions même de bout en bout. Lors de la création de petites modifications incrémentielles, il est peu probable que vous aurez besoin effectuer toutes les activités et tâches en totalité, mais veillez à évaluer chaque tâche de route pour pouvoir chances à un résultat réussi et l’activité.
 
-Lorsque vous ne voyez pas les opportunités pour améliorer votre service, prenez le temps de le faire à droite. Revoir notre [phases d’implémentation](quick-start-enable-teams.md) et appliquer la même recommandation de bout en bout. Lors de la création de petites modifications incrémentielles, il est peu probable que vous aurez besoin effectuer toutes les activités et tâches en totalité, mais veillez à évaluer chaque tâche de route pour pouvoir chances à un résultat réussi et l’activité.
+Lorsque vous ne voyez pas les opportunités pour améliorer votre service, prenez le temps de le faire à droite. Revoir notre [phases d’implémentation](deploy-chat-teams-channels-microsoft-teams-landing-page.md) et appliquer la même recommandation de bout en bout. Lors de la création de petites modifications incrémentielles, il est peu probable que vous aurez besoin effectuer toutes les activités et tâches en totalité, mais veillez à évaluer chaque tâche de route pour pouvoir chances à un résultat réussi et l’activité.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décidez qui surveillera parcours publics et autres annonces de service pour les nouvelles fonctionnalités ou des services qui peut-être bénéficier de votre organisation.</li><li>Déterminez la cadence dans lequel un compte-rendu les nouvelles fonctionnalités ou les services pour les principales parties prenantes, via votre comité directeur.</li></ul></td></tr>
