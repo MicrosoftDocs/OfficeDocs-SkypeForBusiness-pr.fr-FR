@@ -3,7 +3,7 @@ title: Prise en main de votre mise à niveau de Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 01/14/2019
+ms.date: 01/30/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc428a6e4e256a38248e66a99d5a95b668e5eeb6
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 3881990e6c6906f59ceef2c2c4055399457d6952
+ms.sourcegitcommit: 784dcab3923adec61449b3b901e22a991f0c262d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562759"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29662469"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Prise en main de votre mise à niveau de Microsoft Teams
 
@@ -34,6 +34,8 @@ Microsoft encourage à mettre à niveau vers les équipes aussi rapidement que p
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Comment Microsoft permet aux clients avec leur mise à niveau équipes ? 
 
 Microsoft s’engage à votre réussite et fournit des conseils robuste construites autour d’un cadre éprouvées, de bout en bout réussite de mise à niveau pour vous aider à planifier et exécuter la mise à niveau pour les équipes. Notre est conçue pour chaque étape du voyage au pays de la mise à niveau, si vous commencez à la planification, équipes avec Skype pour les entreprises, en cours d’exécution ou prêt à mettre à niveau vers les équipes.
+
+Pour faciliter votre planification de mise à niveau et d’implémentation, Microsoft héberge une formation en ligne gratuite, conçue pour vous familiariser avec notre infrastructure de mise à niveau, partager des informations sur la préparation de vos utilisateurs pour la mise à niveau et vous orienter rapidement la différentes options de coexistence votre organisation peut prendre sur vos équipes. Rejoignez-nous pour une mise à niveau planification session vue d’ensemble : [https://aka.ms/Upgrade101](https://aka.ms/upgrade101).
  
 ## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>Pourquoi puis-je doivent mettre à niveau des instructions ? Impossible I seulement supprimer/mettre hors service Skype pour les entreprises ? 
 
