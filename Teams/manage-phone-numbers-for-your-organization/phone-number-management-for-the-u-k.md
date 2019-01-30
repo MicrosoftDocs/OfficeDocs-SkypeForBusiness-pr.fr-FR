@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone au Royaume-Uni pour Skype Entreprise Online et Microsoft Teams.
-ms.openlocfilehash: 7baf7418947cea114697439373a0df08c6c0e1b2
-ms.sourcegitcommit: 08ab8b02c717be65d79a945301518c3528184609
+ms.openlocfilehash: 7e6aec80123c28593bcadbe0fc587ba013d1f3d7
+ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27292908"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29651072"
 ---
 # <a name="phone-number-management-for-the-uk"></a>Gestion des numéros de téléphone pour le Royaume-Uni
 
@@ -39,11 +39,10 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenir nouveau les numéros de téléphone qui ne sont pas répertoriés dans le Skype entreprise centre d’administration.   <br/> |Téléchargez ce formulaire.  [Nouvelle demande de numéro de téléphone pour le Royaume-Uni (numéros géographiques) (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-u.k.-(v.4.0)-(en-us).pdf?raw=true) </br>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
-|Obtenir les nouveaux numéros de téléphone du service qui ne sont pas répertoriés dans le Skype entreprise centre d’administration. <br/> |Pour les numéros de service en dehors des États-Unis, téléchargez [ce formulaire](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true), extraire et [envoyez-le à nous](mailto:ptneu@microsoft.com)de remplissage.
-|Vous devez obtenir des numéros de téléphone qui nous sont transférés.  <br/> |Téléchargez un des formulaires suivants : <br/> [Courrier d'autorisation (LOA) pour le Royaume-Uni (numéros géographiques) (v.2.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en-us).pdf?raw=true) <br/> [Courrier d'autorisation (LOA) pour le Royaume-Uni (numéros non géographiques) (v.2.1)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en-us).pdf?raw=true) <br/> <br/> Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
-|Vous devez publier/annuler la publication des numéros de téléphone dans l'annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
-|Vous devez remplacer le numéro d'un utilisateur par un numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
+|Obtenir les numéros de téléphone de service qui ne sont pas répertoriés dans le Skype entreprise centre d’administration ou de nouvel utilisateur.   <br/> |Téléchargez ce formulaire.  [Nouvelle demande de numéro de téléphone pour le Royaume-Uni (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-u.k.-(v.4.0)-(en-us).pdf?raw=true) </br>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
+|Obtenir les numéros de téléphone transférés à nous.  <br/> |Téléchargez un des formulaires suivants : <br/> [Courrier d'autorisation (LOA) pour le Royaume-Uni (numéros géographiques) (v.2.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en-us).pdf?raw=true) <br/> [Courrier d'autorisation (LOA) pour le Royaume-Uni (numéros non géographiques) (v.2.1)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en-us).pdf?raw=true) <br/> <br/> Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
+|Publier/Annuler la publication ou les numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
+|Modifier un numéro de l’utilisateur à un numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
    
 ## <a name="related-topics"></a>Rubriques connexes
 
