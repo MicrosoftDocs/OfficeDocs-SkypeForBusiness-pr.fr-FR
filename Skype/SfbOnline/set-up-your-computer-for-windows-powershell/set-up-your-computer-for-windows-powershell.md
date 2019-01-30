@@ -17,26 +17,28 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Découvrez la configuration requise pour la gestion à distance de Skype pour Business Online via Windows PowerShell, y compris les systèmes d’exploitation pris en charge.
-ms.openlocfilehash: 001e8da26daaff65a1761519073667e530688243
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 01fa2856149bb7718fc34bb83f48e03a307496b8
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862592"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635627"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Configurer votre ordinateur pour Windows PowerShell
 
 Gestion à distance de Skype pour Business Online à l’aide de Microsoft PowerShell est pris en charge uniquement sur les ordinateurs 64 bits qui exécute un des systèmes d’exploitation suivants :
-  
+
+- Windows Server 2016
+
 - Windows 10
     
 - Windows 8.1
     
 - Windows 8
     
-- Windows Server 2012 R2
+- Windows Server 2012 R2
     
-- Windows Server 2012
+- Windows Server 2012
     
 - Windows Server 2008
     

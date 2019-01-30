@@ -620,7 +620,7 @@
 ### [Vérifier l'intégrité du service pour Microsoft Teams](service-health.md)
 ### [Restrictions de caractères spéciaux dans les stratégies d’équipes](special-character-restrictions-in-policy-names.md)
 
-### Surveiller la qualité des appels
+### [Surveiller la qualité des appels](monitor-call-quality-qos.md)
 #### [Qualité de consulter le Guide de l’expérience](quality-of-experience-review-guide.md)
 #### [Configurer la qualité de service dans les équipes](QoS-in-Teams.md)
 #### [Mettre en œuvre QoS et surveiller la qualité des appels](monitor-call-quality-qos.md)

@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Partenaires de Microsoft avec des fournisseurs pour valider leurs SBCs SBC fonctionnent avec le routage Direct.
-ms.openlocfilehash: cf62dd1d19ec5404bda756b190502e00078d80db
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: dee7420f01cf3adbf6ef818e6161213ec0eaf89b
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594173"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635698"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs SBC certifiés pour le routage direct
 
@@ -60,7 +60,9 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   En attente    |      V7.0.2      |
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |   En attente    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   En attente    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    PA 3900       |    &#10004;     |   En attente  |   GA ECZ8.1.0 MR-1 (Build 145)  |
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    PA 3900       |    &#10004;     |   En attente  |   GA ECZ8.1.0 MR-1 (Build 145)  |
 |                                                                                                                     |      PA 4600         |    &#10004;   |   En attente    |     GA ECZ8.1.0 MR-1 (Build 145)  |
-|                                                                                                                     |      ENVIRONNEMENT DE MIGRATION VIRTUEL             |    &#10004;    |   En attente    |     GA ECZ8.1.0 MR-1 (Build 145)     |
+|                                                                                                                    |      PA 6300         |    &#10004;   |   En attente    |     GA ECZ8.1.0 MR-1 (Build 145)  |
+|                                                                                                                   |      PA 6350           |    &#10004;   |   En attente    |     GA ECZ8.1.0 MR-1 (Build 145)  |                                             
+|                                                                                                                    |      ENVIRONNEMENT DE MIGRATION VIRTUEL           |    &#10004;    |   En attente    |     GA ECZ8.1.0 MR-1 (Build 145)   |
 |                     [SYSTÈMES DE NOTE](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   En attente    |      V3.16.2      |

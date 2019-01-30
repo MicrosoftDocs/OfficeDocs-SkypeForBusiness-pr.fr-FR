@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: f4d66c58066cd5547a8692066763675006d97920
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: a1e1421e79b25da37f26c09b271abb67f7b3340b
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326698"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635753"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Ajouter, modifier ou supprimer une adresse d’urgence pour votre organisation
 
@@ -53,6 +53,8 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
     
     > [!IMPORTANT]
     > La validation d'une adresse postale ou d'une adresse géographique implique de vérifier sa légitimité et son format. Il est possible qu’une adresse partiellement correcte d’urgence, tels que si vous orthographié le nom de la ville, peuvent toujours validée. Bien que le nom soit mal orthographié et que la validation ait été effectuée, la combinaison du nom de ville erroné et des autres parties correctes de l'adresse est suffisante pour acheminer l'appel vers le centre d'urgence approprié. 
+    
+    > Remarque : Belgique, France, Allemagne, Irlande, pays-bas et en Espagne, il est important de comprendre que pour l’activation d’un numéro de téléphone dans Office 365 à l’emplacement d’urgence, qui doit être utilisé pour obtenir le nombre, la configuration de l’adresse doivent correspondre à la indicatif du numéro de téléphone.
   
     Si l’adresse ne peut être validée, vous pouvez envoyer une demande de validation manuelle en cliquant sur **Envoyer une demande de validation** pour une adresse américaine, ou cliquer sur **Ouvrir une requête de service d’aide pour la validation d'adresse** si vous êtes hors des États-Unis.
     
