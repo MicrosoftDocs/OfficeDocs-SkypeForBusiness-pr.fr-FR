@@ -12,12 +12,12 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f67a641898ca305662b5ea4b06bf772146a19a9f
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 29cfb69af17387ad5ca9b9cf4f1ceff11fe09117
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29595391"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635690"
 ---
 # <a name="microsoft-teams-training"></a>Formation des équipes de Microsoft
 
@@ -116,7 +116,7 @@ Vérifier les sauvegarder fréquemment, nous allons conserver mise à jour de ce
                 <div class="card">
                     <div class="cardText">
                         <h3>Certification de spécialistes d’adoption</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">Dans début janvier 2019, nous publié un cours Certification spécialiste de Microsoft Service Adoption, avec des équipes, est conçu pour apprendre à bien l’adoption des services de Microsoft dans votre société.</a></p>
+                        <p><a href="http://aka.ms/AdoptionCert">En au plus tôt 2019 janvier, nous avons publié un cours Certification spécialiste de Microsoft Service Adoption, visionnez des équipes. Vous apprenez comment lecteur d’adoption des services de Microsoft dans votre organisation.</a></p>
                     </div>
                 </div>
             </div>
