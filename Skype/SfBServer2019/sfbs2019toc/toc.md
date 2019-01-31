@@ -30,7 +30,8 @@
 
 #### [Mise à jour DAS se connecter à inclure plusieurs forêts](../hybrid/cloud-consolidation-aad-connect.md)
 
-### [Intégration à Exchange et SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/hybrid/hybrid/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/breadcrumb/toc.json)
+### [Intégration à Exchange et SharePoint](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+
 
 
 ## Planifier

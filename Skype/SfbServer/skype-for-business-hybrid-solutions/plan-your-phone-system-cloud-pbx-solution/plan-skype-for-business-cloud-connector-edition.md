@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenez des informations sur la version Cloud Connector de Skype Entreprise, un ensemble de machines virtuelles (VM) qui met en œuvre une connectivité PSTN locale avec un système téléphonique d'Office 365 (Cloud PBX).
-ms.openlocfilehash: 6fcdaf3d3186effa5bb88f1252d51537dd1dba5f
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676477"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686507"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planification pour Skype Entreprise, version Cloud Connector
 
 Obtenez des informations sur la version Cloud Connector de Skype Entreprise, un ensemble de machines virtuelles (VM) qui met en œuvre une connectivité PSTN locale avec un système téléphonique d'Office 365 (Cloud PBX).
 
-Si vous ne figure pas une existante Lync Server ou les Skype pour le déploiement de serveur d’entreprise dans le nuage connecteur Edition est peut-être la solution idéale pour votre organisation. Si vous êtes toujours étudier qui système téléphonique dans les solutions Office 365 est adaptée à votre entreprise, voir [planification de votre système téléphonique dans les solutions Office 365 (en nuage PBX)](plan-your-phone-system-cloud-pbx-solution.md).
+Si vous ne figure pas une existante Lync Server ou les Skype pour le déploiement de serveur d’entreprise dans le nuage connecteur Edition est peut-être la solution idéale pour votre organisation. Si vous êtes toujours étudier qui système téléphonique dans les solutions Office 365 est adaptée à votre entreprise, voir [solutions de téléphonie Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
 Ce document décrit les exigences de nuage connecteur Edition et les topologies prises en charge et vous aide à planifier votre déploiement en nuage connecteur Edition. Veillez à lire cette rubrique avant de configurer votre environnement en nuage connecteur. Lorsque vous êtes prêt à déployer et configurer le nuage connecteur Edition, voir [configurer et gérer des Skype pour édition dans le nuage connecteur](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -262,7 +262,7 @@ Avant de déployer sur le nuage connecteur Edition, assurez-vous que les paramè
 - Un client Office 365 avec toutes les enregistrements DNS et SRV créés.
 
     > [!IMPORTANT]
-    > Lorsque vous intégrez votre client en nuage connecteur Edition, l’utilisation du suffixe de domaine par défaut,. onmicrosoft.com, comme un domaine SIP de votre organisation n'est pas pris en charge. > Vous ne pouvez pas utiliser sip. \<Nom de domaine\> comme nom de votre connecteur de périphérie dans le nuage accès proxy interface car cet enregistrement DNS est utilisé par Office 365.
+    > Lorsque vous intégrez votre client en nuage connecteur Edition, l’utilisation du suffixe de domaine par défaut,. onmicrosoft.com, comme un domaine SIP de votre organisation n'est pas pris en charge. > vous ne pouvez pas utiliser sip. \<Nom de domaine\> comme nom de votre connecteur de périphérie dans le nuage accès proxy interface car cet enregistrement DNS est utilisé par Office 365.
 
 - Un certificat pour le serveur Edge externe obtenu auprès d'une autorité de certification publique (CA).
 
@@ -380,10 +380,10 @@ Dans ce cas, tout le trafic multimédia à internet passera par le biais de la b
 |**Adresse IP source**|**Adresse IP de destination**|**Port source**|**Port de destination**|
 |:-----|:-----|:-----|:-----|
 |Indifférente  <br/> |Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |TCP (MTLS) 5061  <br/> |
-|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |Indifférente  <br/> |TCP (MTLS) 5061  <br/> |
-|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |Indifférente  <br/> |TCP 80  <br/> |
-|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |Indifférente  <br/> |UDP 53  <br/> |
-|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |Indifférente  <br/> |TCP 53  <br/> |
+|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente   <br/> |Indifférente  <br/> |TCP (MTLS) 5061  <br/> |
+|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente   <br/> |Indifférente  <br/> |TCP 80  <br/> |
+|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente   <br/> |Indifférente  <br/> |UDP 53  <br/> |
+|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente   <br/> |Indifférente  <br/> |TCP 53  <br/> |
 |Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
 |Indifférente  <br/> |Interface externe du serveur Edge nuage connecteur  <br/> |TCP 50 000 à 59 999  <br/> |TCP 443  <br/> |
 |Indifférente  <br/> |Interface externe du serveur Edge nuage connecteur  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
@@ -402,12 +402,12 @@ Dans ce cas ensemble du trafic multimédia du point de terminaison dans internet
 |**Adresse IP source**|**Adresse IP de destination**|**Port source**|**Port de destination**|
 |:-----|:-----|:-----|:-----|
 |Indifférente  <br/> |Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |TCP (MTLS) 5061  <br/> |
-|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |Indifférente  <br/> |TCP (MTLS) 5061  <br/> |
-|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |Indifférente  <br/> |TCP 80  <br/> |
-|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |Indifférente  <br/> |UDP 53  <br/> |
-|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |Indifférente  <br/> |TCP 53  <br/> |
+|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente   <br/> |Indifférente  <br/> |TCP (MTLS) 5061  <br/> |
+|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente   <br/> |Indifférente  <br/> |TCP 80  <br/> |
+|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente   <br/> |Indifférente  <br/> |UDP 53  <br/> |
+|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente   <br/> |Indifférente  <br/> |TCP 53  <br/> |
 |Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |TCP 50 000 à 59 999  <br/> |Indifférente  <br/> |
-|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |UDP 3 478 ; UDP 50 000 à 59 999  <br/> |Indifférente  <br/> |
+|Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |UDP 3 478 ; UDP 50 000 à 59 999  <br/> |Indifférente   <br/> |
 |Indifférente  <br/> |Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |TCP 443 ; TCP 50 000 à 59 999  <br/> |
 |Indifférente  <br/> |Interface externe du serveur Edge nuage connecteur  <br/> |Indifférente  <br/> |UDP 3478 ; UDP 50 000 à 59 999  <br/> |
 
@@ -497,10 +497,10 @@ Lorsque vous configurez les informations de la passerelle, gardez à l'esprit le
 |Ordinateur du magasin central de gestion (CMS)  <br/> |Nom de domaine complet unique utilisé pour le magasin central de gestion (CMS). Le nom du domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nom du fichier .ini : « Nomserveur » sous « paramètres de principal Service de gestion centralisée  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> (Nom du pool CMS = Nom du serveur)  <br/> |
 |Adresse IP de la machine du magasin central de gestion  <br/> |Adresse IP de serveur CMS (interne dans le réseau de périmètre).  <br/> Nom de fichier INI : « IP » sous « paramètres de principal Service de gestion centralisée  <br/> ||
 |Nom du partage de fichiers   <br/> |Nom de partage de fichier à créer sur le serveur CMS Skype pour les données métiers réplication (par exemple, CmsFileStore).  <br/> Dans la plupart des cas, la valeur suggérée par défaut peut être utilisée.  <br/> Nom du fichier .ini : « CmsFileStore » sous « paramètres de principal Service de gestion centralisée  <br/> ||
-|Composant de médiation nom du Pool  <br/> |Nom du pool du composant de médiation. Entrez un nom Netbios uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nom du fichier .ini : « PoolName » sous « Paramètres pour un pool de serveurs de médiation »  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
-|Nom de composant de médiation  <br/> |Nom du composant de médiation 1. Entrez un nom Netbios uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nom du fichier .ini : « Nomserveur » sous « Paramètres pour un pool de serveurs de médiation »  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
+|Composant de médiation nom du Pool  <br/> |Nom du pool du composant de médiation. Entrez le nom NETBIOS uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nom du fichier .ini : « PoolName » sous « Paramètres pour un pool de serveurs de médiation »  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
+|Nom de composant de médiation  <br/> |Nom du composant de médiation 1. Entrez le nom NETBIOS uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nom du fichier .ini : « Nomserveur » sous « Paramètres pour un pool de serveurs de médiation »  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
 |Adresse IP de l’ordinateur du composant médiation  <br/> |IP Corpnet interne pour le composant de médiation (interne dans le réseau de périmètre).  <br/> Nom du fichier .ini : « IP » sous « Paramètres pour un pool de serveurs de médiation »  <br/> ||
-|Nom interne du pool du serveur Edge  <br/> |Nom du pool du composant Edge. Entrez un nom Netbios uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nom du fichier .ini : « InternalPoolName » sous « Paramètres pour un pool de serveurs de périphérie »  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
+|Nom interne du pool du serveur Edge  <br/> |Nom du pool du composant Edge. Entrez le nom NETBIOS uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nom du fichier .ini : « InternalPoolName » sous « Paramètres pour un pool de serveurs de périphérie »  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
 |Nom interne du serveur Edge  <br/> |Nom du composant Edge. Entrez un nom Netbios uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.   <br/> Nom du fichier .ini : « InternalServerName » sous « Paramètres pour un pool de serveurs de périphérie »  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
 |Adresse IP interne du serveur Edge   <br/> |Composant IP de périphérie du réseau périmètre interne de communiquer avec d’autres composants du nuage connecteur.  <br/> Nom du fichier .ini : « InternalServerIPs » sous « Paramètres pour un pool de serveurs de périphérie »  <br/> ||
 |Nom externe du pool d'accès  <br/> |Nom du serveur Edge d'accès, par exemple, AP. Ce nom doit correspondre au nom indiqué pour le certificat SSL. Entrez un nom Netbios uniquement. Le nom de domaine SIP sera utilisé pour générer le nom de domaine complet. Un nom de pool externe serviront pour tous les composants Edge du pool. Un pool Edge d’accès est requis par site PSTN.  <br/> Nom du fichier .ini : « ExternalSIPPoolName » sous « Paramètres pour un pool de serveurs de périphérie »  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> « sip » est réservé et ne peut donc pas être utilisé comme nom.  <br/> Le nom de domaine complet généré doit correspondre au nom fourni pour le certificat SSL.   <br/> |
@@ -705,7 +705,7 @@ Cloud Connector 2.1 et les versions ultérieures prennent en charge la surveill
 
 Pour plus d’informations, voir les articles suivants :
 
-- [Planifier votre système téléphonique dans les solutions Office 365 (en nuage PBX)](plan-your-phone-system-cloud-pbx-solution.md)
+- [Solutions de téléphonie Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Configuration et gestion de Skype Entreprise, version Cloud Connector](configure-skype-for-business-cloud-connector-edition.md)
 

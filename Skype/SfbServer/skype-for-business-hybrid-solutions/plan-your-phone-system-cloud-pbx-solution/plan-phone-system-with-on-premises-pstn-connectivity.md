@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Obtenir des informations sur les considérations de planification pour le système téléphonique dans Office 365 (en nuage PBX) avec une connectivité PSTN sur site.
-ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 978da546961188c54c7e08e2ed140f8d01986e44
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531601"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686471"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planifier Business Server système téléphonique dans Office 365 avec une connectivité PSTN local dans Skype
 
 Obtenir des informations sur les considérations de planification pour le système téléphonique dans Office 365 (en nuage PBX) avec une connectivité PSTN sur site.
 
-Ce contenu est utile si vous avez déjà Skype pour Business Server ou Microsoft Lync Server 2013 déployés en local. Pour d’autres scénarios, voir [planification de votre système téléphonique dans les solutions Office 365 (en nuage PBX)](plan-your-phone-system-cloud-pbx-solution.md).
+Ce contenu est utile si vous avez déjà Skype pour Business Server ou Microsoft Lync Server 2013 déployés en local. Pour d’autres scénarios, voir [solutions de téléphonie Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
  Système téléphonique dans Office 365 avec une connectivité PSTN sur site vous permet de bénéficier de fonctionnalités du système téléphonique (PBX nuage) pour vos utilisateurs. Cela peut vous être utile dans les scénarios suivants :
 
@@ -105,12 +105,12 @@ En outre, vous devez vérifier les éléments suivants :
     > [!NOTE]
     > La version AAD Connect que vous utilisez doit être la version 1.0.9125.0 ou une version ultérieure. Si vous utilisez des outils d'une version antérieure d'AAD Connect ou de DirSync, effectuez une mise à niveau vers la version prise en charge. Vous pouvez mettre à niveau votre installation actuelle et conserver les règles personnalisées définies dans votre environnement. 
 
-- **Configurer votre déploiement hybride** Si tous vos Skype pour les utilisateurs professionnels sont actuellement hébergement soit en ligne ou sur site, ou si vous avez actuellement une combinaison, vous devez effectuer les étapes pour configurer un déploiement hybride de Skype pour Business Server ou de Lync Server 2013, comme indiqué dans [Déploiement hybride connectivité entre Skype pour Business Server et Skype pour Business Online](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Pour plus d’informations sur les déploiements hybrides, voir [planification de la connectivité hybride entre Skype pour Business Server et Skype pour Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). 
+- **Configurer votre déploiement hybride** Si tous vos Skype pour les utilisateurs professionnels sont actuellement hébergement soit en ligne ou sur site, ou si vous avez actuellement une combinaison, vous devez effectuer les étapes pour configurer un déploiement hybride de Skype pour Business Server ou de Lync Server 2013, comme indiqué dans [Déploiement hybride connectivité entre Skype pour Business Server et Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Pour plus d’informations sur les déploiements hybrides, voir [planification de la connectivité hybride entre Skype pour Business Server et Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). 
 
     Si vous utilisez Lync Server 2013, voir [Lync Server 2013 hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 
 - **Active Directory Federation Services (ADFS) (recommandé)** Nous vous recommandons de déployer AD FS pour prendre en charge de l’authentification unique. Pour plus d’informations, voir [Active Directory Federation Services (ADFS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
-Pour plus d’informations sur le déploiement du système téléphonique dans Office 365, voir [Activer les utilisateurs pour le système téléphonique dans Office 365 avec une connectivité PSTN dans Skype pour Business Server local](enable-users-for-phone-system.md).
+Pour plus d’informations sur le déploiement du système téléphonique dans Office 365, voir [la configuration système téléphonique de votre organisation](https://docs.microsoft.com/en-us/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 

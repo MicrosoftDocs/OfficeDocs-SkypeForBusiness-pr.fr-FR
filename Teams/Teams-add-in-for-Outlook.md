@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6acb497937ad7548f8ffc745d12b0ddd813b3e46
-ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
+ms.openlocfilehash: ba75e2efa5ce96a30f868bef44349468753abeec
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25353190"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686464"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -51,9 +51,9 @@ Pour savoir comment configurer l'authentification, reportez-vous à la rubrique 
 
 ## <a name="enable-private-meetings"></a>Activer les réunions privées
 
-Autoriser la planification pour les réunions privées doit être activée dans le modèle équipes & Skype entreprise centre d’administration pour le plug-in à déployer. Dans le centre d’administration, accédez à des **réunions** > de**Stratégies de réunion**et dans la section **Général** , bascule **Autoriser la planification de réunions privées** on.)
+Autoriser la planification pour les réunions privées doit être activée dans le & équipes Skype entreprise centre d’administration pour le plug-in à déployer. Dans le centre d’administration, accédez à des **réunions** > de**Stratégies de réunion**et dans la section **Général** , bascule **Autoriser la planification de réunions privées** on.)
 
-![Capture d’écran des paramètres dans les équipes & Skype entreprise centre d’administration.](media/teams-add-in-for-outlook-image1.png)
+![Capture d’écran des paramètres de la & équipes Skype entreprise centre d’administration.](media/teams-add-in-for-outlook-image1.png)
 
 Le client Teams installe le complément correct en déterminant si les utilisateurs ont besoin de la version 32 bits ou 64 bits.
 
@@ -65,12 +65,11 @@ Le client Teams installe le complément correct en déterminant si les utilisate
 Certaines fonctionnalités du complément Réunion Teams sont encore en cours de création. Tenez compte des points suivants :
 - Certaines fonctionnalités de réunion en ligne, comme l'enregistrement, les sondages et l'utilisation du tableau blanc ne sont pas encore disponibles.
 - Des options de réunion ne sont pas disponibles pour le moment.
-- Actuellement, vous pouvez uniquement inviter des personnes de votre entreprise, car les utilisateurs externes ne peuvent pas encore participer aux réunions.
 - Le complément concerne les réunions planifiées avec des participants spécifiques, pas les réunions dans un canal. Les réunions de canal doivent être planifiées au sein de Teams. Actuellement, le complément Réunion Teams dans Outlook est disponible uniquement pour les utilisateurs Windows, mais il sera pris en charge sur Mac prochainement.
 - Le complément ne fonctionnera pas si un proxy d'authentification se trouve dans le chemin d'accès réseau de l'ordinateur de l'utilisateur et des services Teams.
 - Le complément est déployée incrémentielle et peuvent ne pas être disponible pour votre organisation encore.
 
-## <a name="troubleshooting"></a>Identification et résolution des problèmes
+## <a name="troubleshooting"></a>Résolution des problèmes
 
 Si vous ne peut pas obtenir la réunion équipes de complément pour Outlook pour installer, essayez les étapes de dépannage.
 
