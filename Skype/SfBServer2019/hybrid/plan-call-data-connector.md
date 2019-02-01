@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Présentation de l’utilisation de Skype pour Business Online outils de télémétrie pour surveiller une implémentation sur site dans un scénario hybride.
-ms.openlocfilehash: 6bcf1e26ca005a30e4f1c940f655a3277e18001e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4e38f7d190cd30c1f0e39dc4cdfa5166ba6a929d
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349535"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690444"
 ---
 # <a name="plan-call-data-connector"></a>Planifier le connecteur de données d’appel
 
@@ -68,7 +68,7 @@ Les conditions suivantes supposent que vous avez déjà Skype pour Business Serv
 
 - Si vous n’avez pas déjà fait, allumez appel du tableau de bord qualité comme décrit dans la [mise sous tension et à l’aide d’appels de tableau de bord qualité pour les équipes Microsoft et Skype pour Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 
-- Activer le pool frontal pour la surveillance, avec des bases de données LCSCdr et QoEMetrics locales. Sans cela, appelez un connecteur de données aurez pour travailler avec des données de mesure.
+- Activer le pool frontal pour la surveillance, avec des bases de données LcsCDR et QoEMetrics locales. Sans cela, appelez un connecteur de données aurez pour travailler avec des données de mesure.
 
 > [!IMPORTANT]
 > Connecteur de données d’appel ne fonctionne pas si l’analyse n’est pas activé sur le pool frontal.
@@ -78,13 +78,13 @@ Les conditions suivantes supposent que vous avez déjà Skype pour Business Serv
 | Rapports de fonctionnalité | Skype Entreprise Online | Skype Entreprise Server   |
 |:---------------------------|:---------------------|:---------------------|:------------------|
 | Mesure de partage d’application |Oui | Limitée |
-| Informations de création de client| Oui | Oui |
+| Informations de création de client| Oui  | Oui  |
 | Exploration analytique | Oui | Non |
 | Mesures de la fiabilité du média | Oui | Limitée |
-| Rapports out-of-the-box | Oui | Oui |
+| Rapports out-of-the-box | Oui  | Oui  |
 | Vue d’ensemble des rapports | Oui | Non |
-| Par rapports utilisateur | Oui | Oui |
-| Personnalisation de rapports <br> (ajouter, supprimer, modifier des rapports) | Oui | Oui |
+| Par rapports utilisateur | Oui  | Oui  |
+| Personnalisation de rapports <br> (ajouter, supprimer, modifier des rapports) | Oui  | Oui  |
 | Partage des mesures d’écran vidéo | Oui | Non |
 | API de données pour l’accès par programme <br> pour CQD | Non | Oui |
 ||||

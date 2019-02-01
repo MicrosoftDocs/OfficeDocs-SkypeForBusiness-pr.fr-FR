@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: dbc3de5c6eb7a9f45be1165614cd14fcb2d6d8c9
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 77c4e21b2be0f8d4729924484102ba31becbfbe7
+ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297880"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690571"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -135,7 +135,7 @@ Microsoft recommande vivement que vous demandez le certificat pour le contrôleu
 
 Le certificat doit avoir le FQDN SBC dans l’objet, nom commun ou champs de l’autre nom du sujet.
 
-Vous pouvez également routage Direct prend en charge un caractère générique dans le nom ou le SAN courantes et le caractère générique doit être conforme à la norme [RFC HTTP sur TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Utilise un exemple *. contoso.com SAN, qui correspond à la sbc.contoso.com FQDN SBC, mais ne correspond au sbc.test.contoso.com.
+Vous pouvez également routage Direct prend en charge un caractère générique dans le SAN et le caractère générique doit être conforme à la norme [RFC HTTP sur TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Utilise un exemple *. contoso.com SAN, qui correspond à la sbc.contoso.com FQDN SBC, mais ne correspond au sbc.test.contoso.com.
 
 Le certificat doit être généré par un des autorités de certification racine suivantes :
 

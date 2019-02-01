@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instructions pour configurer le connecteur de données d’appel, qui permet de télémétrie à partir de Skype pour Business locale pour être affichés à l’aide de Skype pour les outils professionnels en ligne.
-ms.openlocfilehash: 959bb182da91029fd43ebc3ccb99fb5a69d820b2
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4b358562838cfd1412891514e999f2c8544f3a4f
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533133"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690458"
 ---
 # <a name="configure-call-data-connector"></a>Configurer le connecteur de données d’appel
 
@@ -27,7 +27,7 @@ Pour plus d’informations sur les avantages de l’appel de connecteur de donn�
 
 ## <a name="enable-monitoring"></a>Activer la surveillance
  
-Vous devez configurer l’enregistrement de données appels (CDR) et qualité de l’expérience (QoE) collecte des données dans votre serveur frontal du pool surveillance, locales bases de données LCSCdr et QoEMetrics ; dans le cas contraire, les tableaux de bord qualité des appels Analytique appel n’obtenir des données pour fonctionner avec. Avant que vous configurer appel données connecteur, suivez les étapes fournies dans [Deploy surveillance dans Skype pour Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) pour configurer à la fois des détails des appels et QoE ainsi que surveillance de base.
+Vous devez configurer l’enregistrement de données appels (CDR) et qualité de l’expérience (QoE) collecte des données dans votre serveur frontal du pool surveillance, locales bases de données LcsCDR et QoEMetrics ; dans le cas contraire, les tableaux de bord qualité des appels Analytique appel n’obtenir des données pour fonctionner avec. Avant que vous configurer appel données connecteur, suivez les étapes fournies dans [Deploy surveillance dans Skype pour Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) pour configurer à la fois des détails des appels et QoE ainsi que surveillance de base.
 
 > [!IMPORTANT]
 > Connecteur de données d’appel ne fonctionne pas si l’analyse n’est pas activé sur le pool frontal.

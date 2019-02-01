@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Résumé : Découvrez les Skype pour Business Server 2015 l’intégration avec Exchange et SharePoint.'
-ms.openlocfilehash: 8d080174ab5560384478c1320d09bc218ef8543b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: f0437e4a93bfd897fb04e29ce2729a30789ce889
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530606"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690451"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Intégration à Exchange et SharePoint
 
@@ -106,7 +106,7 @@ Les tableaux suivants répertorient les fonctionnalités prises en charge dans u
 |L’historique des Conversations et journaux d’appels manqués sont écrites dans la boîte aux lettres exchange de l’utilisateur  <br/> ||
 |Liste de contacts (par le biais du magasin de contacts unifié)  <br/> |Lync Server 2013 ou Skype pour Business client requis  <br/> |
 |Haute résolution Photo Contact dans Lync 2013, Skype pour Business client et Lync Web App  <br/> ||
-|Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local. Pour plus d’informations, voir [Skype pour des solutions professionnelles hybride](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Délégation de réunion  <br/> |Prise en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt, ou les deux sont hébergés sur site. Pour plus d’informations, voir [Skype pour des solutions professionnelles hybride](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> ||
 |Recherche de contenu archivé  <br/> ||
 |Messagerie vocale  <br/> ||

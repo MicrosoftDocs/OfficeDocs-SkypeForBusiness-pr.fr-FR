@@ -3,7 +3,7 @@ title: Limites et spécifications de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/05/2018
+ms.date: 01/31/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65f3730cdb6ad8fbca6e8f665c5ce7e919c690e4
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: f397dd63cfa50069d6072686ae3650b837ca53a1
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594117"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690466"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 =============================================
@@ -38,6 +38,9 @@ Cet article décrit certaines des limites, les spécifications et autres conditi
 |Nombre de canaux par l’équipe    | 200 (inclut les canaux supprimés)         |
 
 &sup1 ; N’importe quel objet d’annuaire dans Azure Active Directory compte dans cette limite.
+
+> [!NOTE]
+> Canaux ne prend pas en charge les caractères spéciaux tels que ~ # % & * {} + / \ : < > ? | ' « dans le nom du canal.  
 
 <a name="meetings-and-calls"></a>Réunions et appels 
 ------------------

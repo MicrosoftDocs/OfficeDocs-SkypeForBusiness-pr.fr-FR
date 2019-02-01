@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Résumé : Passez en revue les considérations de l’utilisation du port avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: 3de98f096215c8f703f23081d2b102d3d5c9ffac
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b02f329fdc8209fa9143a966181180ed7cf3b0be
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530872"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690473"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Ports et protocoles requis pour les serveurs
  
@@ -31,7 +31,7 @@ Alors que cela peut sembler un bit complexe dans un premier temps, l’essentiel
   
 Vous trouverez également les informations dans ces tables sous forme de diagramme en examinant le poster des charges de protocole lié déconnecte l’article [Technical diagrams pour Skype pour Business Server 2015](../../technical-diagrams.md) .
 > [!NOTE]
-> - Si vous implémentez Skype pour Business Online (O365) faire référence à [Office 365 URL et plages d’adresses IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Environnements hybrides vous devrez faire référence à cette rubrique et également le [Port et le protocole requise](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#port-and-protocol-requirements)hybride.
+> - Si vous implémentez Skype pour Business Online (O365) faire référence à [Office 365 URL et plages d’adresses IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Environnements hybrides vous devrez faire référence à cette rubrique et également [planifier la connectivité hybride](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md).
 > - Vous peut avoir des pare-feu matériels ou logiciels, nous ne nécessitent pas de modèles spécifiques ou des versions. Important est quels ports sont autorisés pour le pare-feu ne nuit au fonctionnement de Skype pour Business Server.
   
 ## <a name="port-and-protocol-details"></a>Détails sur les ports et protocoles
@@ -51,37 +51,37 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 |:-----|:-----|:-----|:-----|:-----|
 |Tous les serveurs  |SQL Browser  |1434  |UDP  |SQL Browser pour la copie répliquée locale de la base de données du magasin Central de gestion.  |
 |serveurs frontaux  |Skype pour le service Business Server frontal  |5060  |TCP  |Utilisé facultativement par les serveurs Standard Edition Server et les serveurs frontaux pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.  |
-|Serveurs frontaux  |Skype pour le service Business Server frontal  |5061  | TCP (TLS) |Utilisé par les serveurs Standard Edition Server et les pools frontaux pour toutes les communications SIP internes entre serveurs (MTLS), pour les communications SIP entre serveurs et clients (TLS) et pour les communications SIP entre serveurs frontaux et serveurs de médiation (MTLS). Également utilisé pour les communications avec le serveur de surveillance.  |
+|serveurs frontaux  |Skype pour le service Business Server frontal  |5061  | TCP (TLS) |Utilisé par les serveurs Standard Edition Server et les pools frontaux pour toutes les communications SIP internes entre serveurs (MTLS), pour les communications SIP entre serveurs et clients (TLS) et pour les communications SIP entre serveurs frontaux et serveurs de médiation (MTLS). Également utilisé pour les communications avec le serveur de surveillance.  |
 | Serveurs frontaux |Skype pour le service Business Server frontal  |444  | HTTPS <br/> TCP  |Utilisé pour les communications HTTPS entre le Focus (le Skype pour composant Business Server qui gère l’état des conférences) et les serveurs individuels.  <br/> Ce port est également utilisé pour les communications TCP entre Survivable Branch Appliances et les serveurs frontaux.  |
 |serveurs frontaux  |Skype pour le service Business Server frontal  |135  |DCOM et appel de procédure distante (RPC)  |Utilisé pour les opérations DCOM, telles que le déplacement des utilisateurs, la synchronisation du réplicateur d’utilisateurs et la synchronisation du carnet d’adresses.  |
-|Serveurs frontaux  |Skype pour le service de conférence par messagerie instantanée Business Server  |5062  |TCP  |Utilisé pour les demandes SIP entrantes dans le cadre de conférences de messagerie instantanée.  |
-|Serveurs frontaux  |Skype pour le service de conférence Web Business Server  |8057  |TCP (TLS)  |Utilisé pour l’écoute des connexions PSOM (Persistent Shared Object Model) à partir d’un client.  |
-|Serveurs frontaux  |Skype pour le service de compatibilité de conférence Web Business Server  |8058  |TCP (TLS)  |Utilisé pour l’écoute des connexions de l’objet modèle PSOM (Persistent Shared) à partir du client Live Meeting et les versions antérieures de Skype pour Business Server.  |
+|serveurs frontaux  |Skype pour le service de conférence par messagerie instantanée Business Server  |5062  |TCP  |Utilisé pour les demandes SIP entrantes dans le cadre de conférences de messagerie instantanée.  |
+|serveurs frontaux  |Skype pour le service de conférence Web Business Server  |8057  |TCP (TLS)  |Utilisé pour l’écoute des connexions PSOM (Persistent Shared Object Model) à partir d’un client.  |
+|serveurs frontaux  |Skype pour le service de compatibilité de conférence Web Business Server  |8058  |TCP (TLS)  |Utilisé pour l’écoute des connexions de l’objet modèle PSOM (Persistent Shared) à partir du client Live Meeting et les versions antérieures de Skype pour Business Server.  |
 |serveurs frontaux  |Skype pour le service de conférence Audio/vidéo Business Server  |5063  |TCP  |Utilisé pour les demandes SIP entrantes dans le cadre de conférences audio/vidéo (A/V).  |
-|Serveurs frontaux  |Skype pour le service de conférence Audio/vidéo Business Server  |57501-65535  |TCP/UDP  |Plage de ports multimédias utilisée pour les conférences vidéo.  |
-|Serveurs frontaux  |Skype pour le service Business Server Web compatibilité  |80  |HTTP  |Utilisé pour les communications à partir des serveurs frontaux vers les noms de domaine complets des batteries de serveurs Web (URL utilisées par les composants Web IIS) lorsque HTTPS n’est pas utilisé.  |
-|Serveurs frontaux  |Skype pour le service Business Server Web compatibilité  |443  |HTTPS  |Utilisé pour les communications à partir des serveurs frontaux vers les noms de domaine complets des batteries de serveurs Web (URL utilisées par les composants Web IIS).  |
-|Serveurs frontaux  |Skype pour le service Business Server Web compatibilité  |8080  |TCP et HTTP  |Utilisé par les composants web pour l’accès externe.  |
+|serveurs frontaux  |Skype pour le service de conférence Audio/vidéo Business Server  |57501-65535  |TCP/UDP  |Plage de ports multimédias utilisée pour les conférences vidéo.  |
+|serveurs frontaux  |Skype pour le service Business Server Web compatibilité  |80  |HTTP  |Utilisé pour les communications à partir des serveurs frontaux vers les noms de domaine complets des batteries de serveurs Web (URL utilisées par les composants Web IIS) lorsque HTTPS n’est pas utilisé.  |
+|serveurs frontaux  |Skype pour le service Business Server Web compatibilité  |443  |HTTPS  |Utilisé pour les communications à partir des serveurs frontaux vers les noms de domaine complets des batteries de serveurs Web (URL utilisées par les composants Web IIS).  |
+|serveurs frontaux  |Skype pour le service Business Server Web compatibilité  |8080  |TCP et HTTP  |Utilisé par les composants web pour l’accès externe.  |
 |Serveurs frontaux  |Composant de serveur web  |4443  |HTTPS  |Communications HTTPS (du proxy inverse) et HTTPS inter-pool frontal pour connexion à la découverte automatique.  |
 |Serveurs frontaux  |Composant de serveur web  |8060  |TCP (MTLS)  ||
-|Serveurs frontaux  |Composant de serveur web  |8061  |TCP (MTLS)  ||
-|Serveurs frontaux  |Composant des services de mobilité  |5086  |TCP (MTLS)  |Port SIP utilisé pour les processus internes des services de mobilité.  |
-|Serveurs frontaux  |Composant des services de mobilité  |5087  |TCP (MTLS)  |Port SIP utilisé pour les processus internes des services de mobilité.  |
-|Serveurs frontaux  |Composant des services de mobilité  |443  |HTTPS  ||
-|Serveurs frontaux  |Skype pour le service Business Server intendant (conférence rendez-vous)  |5064  |TCP  |Utilisé pour les demandes SIP entrantes dans le cadre de conférences rendez-vous.  |
-|Serveurs frontaux  |Skype pour le service Business Server intendant (conférence rendez-vous)  |5072  |TCP  |Utilisé pour les demandes SIP entrantes pour Attendant (conférences rendez-vous).  |
+|serveurs frontaux  |Composant de serveur web  |8061  |TCP (MTLS)  ||
+|serveurs frontaux  |Composant des services de mobilité  |5086  |TCP (MTLS)  |Port SIP utilisé pour les processus internes des services de mobilité.  |
+|serveurs frontaux  |Composant des services de mobilité  |5087  |TCP (MTLS)  |Port SIP utilisé pour les processus internes des services de mobilité.  |
+|serveurs frontaux  |Composant des services de mobilité  |443  |HTTPS  ||
+|serveurs frontaux  |Skype pour le service Business Server intendant (conférence rendez-vous)  |5064  |TCP  |Utilisé pour les demandes SIP entrantes dans le cadre de conférences rendez-vous.  |
+|serveurs frontaux  |Skype pour le service Business Server intendant (conférence rendez-vous)  |5072  |TCP  |Utilisé pour les demandes SIP entrantes pour Attendant (conférences rendez-vous).  |
 |Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype pour le service de médiation de serveur d’entreprise  |5070  |TCP  |Utilisé par le serveur de médiation pour les demandes entrantes du serveur frontal vers le serveur de médiation.  |
 |Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype pour le service de médiation de serveur d’entreprise  |5067  |TCP (TLS)  |Utilisé pour les demandes SIP entrantes de la passerelle PSTN vers le serveur de médiation.  |
 |Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype pour le service de médiation de serveur d’entreprise  |5068  |TCP  |Utilisé pour les demandes SIP entrantes de la passerelle PSTN vers le serveur de médiation.  |
 |Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype pour le service de médiation de serveur d’entreprise  |5081  |TCP  |Utilisé pour les demandes SIP sortantes du serveur de médiation vers la passerelle PSTN.  |
 |Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype pour le service de médiation de serveur d’entreprise  |5082  |TCP (TLS)  |Utilisé pour les demandes SIP sortantes du serveur de médiation vers la passerelle PSTN.  |
-|Serveurs frontaux  |Skype pour le service de partage d’Application Business Server  |5065  |TCP  |Utilisé pour les demandes d’écoute SIP entrantes dans le cadre du partage d’application.  |
-|Serveurs frontaux  |Skype pour le service de partage d’Application Business Server  |49152-65535  |TCP  |Plage de ports multimédias utilisée pour le partage d’application.  |
-|Serveurs frontaux  |Skype pour le service d’annonce de conférence Business Server  |5073  |TCP  |Utilisé pour les demandes SIP entrantes pour le Skype pour le service d’annonce de conférence Business Server (autrement dit, pour les conférences rendez-vous).  |
+|serveurs frontaux  |Skype pour le service de partage d’Application Business Server  |5065  |TCP  |Utilisé pour les demandes d’écoute SIP entrantes dans le cadre du partage d’application.  |
+|serveurs frontaux  |Skype pour le service de partage d’Application Business Server  |49152-65535  |TCP  |Plage de ports multimédias utilisée pour le partage d’application.  |
+|serveurs frontaux  |Skype pour le service d’annonce de conférence Business Server  |5073  |TCP  |Utilisé pour les demandes SIP entrantes pour le Skype pour le service d’annonce de conférence Business Server (autrement dit, pour les conférences rendez-vous).  |
 |serveurs frontaux  |Skype pour le service Business Server Call Park  |5075  |TCP  |Utilisé pour les demandes SIP entrantes de l’application de parcage d’appel.  |
-|Serveurs frontaux  |Skype pour le service de Test Audio du serveur Business  |5076  |TCP  |Utilisé pour les demandes SIP entrantes du service de test audio.  |
+|serveurs frontaux  |Skype pour le service de Test Audio du serveur Business  |5076  |TCP  |Utilisé pour les demandes SIP entrantes du service de test audio.  |
 |Serveurs frontaux  |Non applicable  |5066  |TCP  |Utilisé pour la passerelle Enhanced 9-1-1 (E9-1-1) sortante.  |
-|Serveurs frontaux  |Skype pour le service Response Group Business Server  |5071  |TCP  |Utilisé pour les demandes SIP entrantes de l’application Response Group.  |
+|serveurs frontaux  |Skype pour le service Response Group Business Server  |5071  |TCP  |Utilisé pour les demandes SIP entrantes de l’application Response Group.  |
 |Serveurs frontaux  |Skype pour le service Response Group Business Server  |8404  |TCP (MTLS)  |Utilisé pour les demandes SIP entrantes de l’application Response Group.  |
 |Serveurs frontaux  |Skype pour le Service de stratégie de bande passante Business Server  |5080  |TCP  |Utilisé pour le contrôle d’admission des appels par le service de stratégie de bande passante, lui-même utilisé pour le trafic TURN Edge A/V.  |
 |Serveurs frontaux  |Skype pour accéder au serveur de partage de fichiers Business Server  |445   |SMB/TCP  | Utilisé pour récupérer le carnet d’adresses, contenu de la réunion et autres éléments stockés sur le serveur de partage de fichiers.  |
@@ -91,12 +91,12 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 |Tous les serveurs internes  |Divers  |49152-57500  |TCP/UDP  |Plage de ports multimédias utilisée pour les conférences audio sur tous les serveurs internes. Utilisée par tous les serveurs qui se termine audio : serveurs frontaux (pour Skype pour le service Business Server intendant, Skype pour le service d’annonce de conférence Business Server et Skype pour le service de conférence Audio/vidéo Business Server), et Serveur de médiation.  |
 |Serveurs Office Web Apps Server  ||443  ||Utilisé par Skype pour Business Server pour se connecter à Office Web Apps Server.  |
 |directeurs  |Skype pour le service Business Server frontal  |5060  |TCP  |Utilisé facultativement pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.  |
-|Directeurs  |Skype pour le service Business Server frontal  |444  |HTTPS  <br/> TCP  |Communication entre serveurs frontaux et directeurs. En outre, le certificat client publier (sur les serveurs frontaux) ou valider si le certificat client a déjà été publié.  |
+|directeurs  |Skype pour le service Business Server frontal  |444  |HTTPS  <br/> TCP  |Communication entre serveurs frontaux et directeurs. En outre, le certificat client publier (sur les serveurs frontaux) ou valider si le certificat client a déjà été publié.  |
 |directeurs  |Skype pour le service Business Server Web compatibilité  |80  |TCP  |Utilisé pour les communications initiales entre les directeurs et les noms de domaine complets des batteries de serveurs Web (URL utilisées par les composants Web IIS). En fonctionnement normal, bascule vers le trafic HTTPS en utilisant le port 443 et le type de protocole TCP.  |
 |Directeurs  |Skype pour le service Business Server Web compatibilité  |443  |HTTPS  |Utilisé pour les communications entre les directeurs et les noms de domaine complets des batteries de serveurs Web (URL utilisées par les composants Web IIS).  |
-|Directeurs  |Skype pour le service Business Server frontal  |5061  |TCP  |Utilisé pour les communications internes entre serveurs et pour les connexions client.  |
-|Serveurs de médiation  |Skype pour le service de médiation de serveur d’entreprise  |5070  |TCP  |Utilisé par le serveur de médiation pour les demandes entrantes du serveur frontal.  |
-|Serveurs de médiation  |Skype pour le service de médiation de serveur d’entreprise  |5067  |TCP (TLS)  |Utilisé pour les demandes SIP entrantes de la passerelle PSTN.  |
+|directeurs  |Skype pour le service Business Server frontal  |5061  |TCP  |Utilisé pour les communications internes entre serveurs et pour les connexions client.  |
+|serveurs de médiation  |Skype pour le service de médiation de serveur d’entreprise  |5070  |TCP  |Utilisé par le serveur de médiation pour les demandes entrantes du serveur frontal.  |
+|serveurs de médiation  |Skype pour le service de médiation de serveur d’entreprise  |5067  |TCP (TLS)  |Utilisé pour les demandes SIP entrantes de la passerelle PSTN.  |
 |Serveurs de médiation  |Skype pour le service de médiation de serveur d’entreprise  |5068  |TCP  |Utilisé pour les demandes SIP entrantes de la passerelle PSTN.  |
 |Serveurs de médiation  |Skype pour le service de médiation de serveur d’entreprise  |5070  |TCP (MTLS)  |Utilisé pour les demandes SIP des serveurs frontaux.  |
 |Serveur frontal de conversation permanente  |SIP de conversation permanente  |5041  |TCP (MTLS)  ||
@@ -181,18 +181,18 @@ Le tableau suivant présente les paramètres recommandés pour les exceptions IP
 
 |Nom de la règle|Adresse IP source|Adresse IP de destination|Protocole|Port source|Port de destination|Besoin d’authentification|
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-|Serveur Edge A/V, ports internes/entrants  |Indifférente  |Serveur Edge A/V - interne  |UDP et TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Serveur Edge A/V, ports externes/entrants  |Indifférente  |Serveur Edge A/V - externe  |UDP et TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Serveur Edge A/V, ports internes/sortants  |Serveur Edge A/V - interne  |Indifférente  |UDP &amp; TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Serveur Edge A/V, ports externes/sortants  |Serveur Edge A/V - externe  |Indifférente  |UDP et TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Serveur de médiation, ports entrants  |Indifférente  |Serveur(s)  <br/> de médiation  |UDP et TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Serveur de médiation, ports sortants  |Serveur(s)  <br/> de médiation  |Indifférente  |UDP et TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Intendant Conférence entrant  |Indifférente  |Serveur frontal exécutant l’Intendant Conférence  |UDP et TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Intendant Conférence sortant  |Serveur frontal exécutant l’Intendant Conférence  |Indifférente  |UDP et TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Serveur de conférence A/V, ports entrants  |Indifférente  |Serveurs frontaux  |UDP et TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Conférence A/V, ports sortants  |Serveurs frontaux  |Indifférente  |UDP et TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Exchange, ports entrants  |Indifférente  |Messagerie unifiée Exchange  |UDP et TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Serveurs de partage d’application, ports entrants  |Indifférente  |Serveurs de partage d’application  |TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Serveur de partage d’application, ports sortants  |Serveurs de partage d’application  |Indifférente  |TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Exchange, ports sortants  |Messagerie unifiée Exchange  |Indifférente  |UDP et TCP  |Indifférente  |Indifférente  |Ne pas authentifier  |
-|Clients  |Indifférente  |Indifférente  |UDP  |Plage de ports multimédias définie  |Indifférente  |Ne pas authentifier  |
+|Serveur Edge A/V, ports internes/entrants  |Indifférente  |Serveur Edge A/V - interne  |UDP et TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Serveur Edge A/V, ports externes/entrants  |Indifférente  |Serveur Edge A/V - externe  |UDP et TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Serveur Edge A/V, ports internes/sortants  |Serveur Edge A/V - interne  |Indifférente  |UDP &amp; TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Serveur Edge A/V, ports externes/sortants  |Serveur Edge A/V - externe  |Indifférente  |UDP et TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Serveur de médiation, ports entrants  |Indifférente  |Serveur(s)  <br/> de médiation  |UDP et TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Serveur de médiation, ports sortants  |Serveur(s)  <br/> de médiation  |Indifférente  |UDP et TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Intendant Conférence entrant  |Indifférente  |Serveur frontal exécutant l’Intendant Conférence  |UDP et TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Intendant Conférence sortant  |Serveur frontal exécutant l’Intendant Conférence  |Indifférente  |UDP et TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Serveur de conférence A/V, ports entrants  |Indifférente  |serveurs frontaux  |UDP et TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Conférence A/V, ports sortants  |Serveurs frontaux  |Indifférente  |UDP et TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Exchange, ports entrants  |Indifférente  |Messagerie unifiée Exchange  |UDP et TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Serveurs de partage d’application, ports entrants  |Indifférente  |Serveurs de partage d’application  |TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Serveur de partage d’application, ports sortants  |Serveurs de partage d’application  |Indifférente  |TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Exchange, ports sortants  |Messagerie unifiée Exchange  |Indifférente  |UDP et TCP  |Indifférente   |Indifférente  |Ne pas authentifier  |
+|Clients  |Indifférente   |Indifférente  |UDP  |Plage de ports multimédias définie  |Indifférente  |Ne pas authentifier  |
