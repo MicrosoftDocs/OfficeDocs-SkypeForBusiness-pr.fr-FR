@@ -15,7 +15,7 @@ ms.topic: landing-page
 ms.author: tonysmit
 ms.openlocfilehash: db174b9e9df8fb6a819930babfaae9422f3ffe30
 ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/25/2019
 ms.locfileid: "26531747"
@@ -54,7 +54,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>We& #39 ; re ici pour aider à</h3>
+                        <h3>Nous sommes là pour vous aider</h3>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
 
 ---
 
-<h2>What& #39 ; est nouvelle</h2>
+<h2>Nouveautés</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -236,7 +236,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardText">
                         <h3>Système téléphonique</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Qu'est-ce que le système téléphonique dans Office 365 ?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39 ; est ce que vous obtenez avec un système téléphonique dans Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Qu'est-ce que le système téléphonique dans Office 365 ?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Voici les avantages du système téléphonique dans Office 365</a></p>
                </div>
                 </div>
             </div>
