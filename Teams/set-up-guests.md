@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42fead56b8064d2697ca4e8b115eefd0116a5e36
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: bc01f54229e5a2644fc004b4014ad41e3c0f8d73
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772760"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706258"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activer ou désactiver l'accès invité de Microsoft Teams
 ======================================
@@ -28,13 +28,16 @@ En tant qu'administrateur d'Office 365, vous devez activer la fonctionnalité I
 
 Les paramètres d'invité sont définis dans Azure Active Directory. Il faut environ 2 à 24 heures pour que les modifications prennent effet dans votre organisation Office 365. Si un utilisateur voit le message « Contactez votre administrateur » lorsqu’ils essaient d’ajouter un invité à leur équipe, il est probable que la fonctionnalité invité n’a pas été activée ou que les paramètres ne sont pas encore efficaces.
 
-
 > [!IMPORTANT]
 > Pour activer l’expérience complète de la fonctionnalité d’accès invité, il est important de comprendre la dépendance des autorisations principales entre Microsfot Teams, Azure Active Directory et Office 365. Pour plus d'informations, reportez-vous à la rubrique [Autoriser l’accès invité dans Microsoft Teams](Teams-dependencies.md).
 
+## <a name="guest-access-vs-external-access-federation"></a>Accès invité et l’accès externe (fédération)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
 ## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Configurer l’accès invité dans les équipes & Skype entreprise centre d’administration
 
-1.  Connectez-vous au portail les équipes & Skype entreprise centre d’administration.
+1.  Connectez-vous à le & équipes Skype entreprise centre d’administration.
 
 2.  Sélectionnez les **paramètres à l’échelle de la société** > **accès invité**.
 

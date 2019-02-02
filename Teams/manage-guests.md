@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les stratégies d'utilisateurs invités et les autorisations, déterminer quels utilisateurs peuvent convier des invités et extraire des rapports sur l'activité des utilisateurs invités.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c43309a6e4ae287181f6e363a40d99a0650984cc
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 3866e4c3f8e63e9fe8518917193d4587e670ad93
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328246"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706290"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
 ======================================
@@ -37,6 +37,10 @@ Vous pouvez utiliser le portail d’Azure Active Directory pour gérer les invit
 > [!NOTE]
 > Microsoft Teams respecte toujours les paramètres externes Azure Active Directory pour autoriser ou empêcher les ajouts d’utilisateur invité au client. Pour plus d’informations, voir [Autoriser l’accès invité dans les équipes Microsoft](Teams-dependencies.md).
   
+## <a name="guest-access-vs-external-access-federation"></a>Accès invité et l’accès externe (fédération)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
 ## <a name="review-guest-access-periodically"></a>Passez en revue les accès invité régulièrement
 
 Dans les équipes, vous pouvez ajouter des 5 invités pour chaque utilisateur sous licence. En raison de cette limitation, ou parce que vous souhaitez conserver votre client à jour, vous devez consulter accès invité régulièrement pour identifier les utilisateurs qui ont accès qu’ils n’avez plus besoin. Vous pouvez utiliser Azure Active Directory (AD Azure) pour créer un contrôle d’accès pour les membres du groupe ou les utilisateurs affectés à une application. Création périodique accès révisions peut faire gagner du temps. Si vous devez consulter régulièrement les utilisateurs qui ont accès à une application ou qui sont membres d’un groupe, vous pouvez définir la fréquence de ces examens. 

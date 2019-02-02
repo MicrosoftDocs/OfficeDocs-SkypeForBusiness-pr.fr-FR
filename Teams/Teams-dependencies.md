@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Gérez les fonctionnalités d’accès invité dans Microsoft Teams par le biais de quatre niveaux d’autorisation différents.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e07bfc162f2d3fbc59aa26dcf2cabd1bcf003e74
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: 396650240c1d7b10e2fd6716ec52c13a649839e5
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772784"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706322"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autoriser l'accès invité dans Microsoft Teams
 ===========================================
@@ -75,7 +75,7 @@ Le Gestionnaire de licences Azure AD vous permet d’ajouter jusqu'à 5 invités
 
 Dans les équipes, vous pouvez contrôler si l’expérience de l’invité est activé ou désactivé pour votre organisation. Le paramètre est désactivé par défaut et s’applique au niveau du client uniquement pour les équipes.
 
-Vous pouvez gérer les paramètres d’accès invité équipes depuis le centre Microsoft Teams & Skype entreprise centre d’administration. Pour plus d'informations, reportez-vous à la rubrique [Activer ou désactiver l'accès invité de Microsoft Teams](set-up-guests.md). 
+Vous pouvez gérer les paramètres d’accès aux équipes invité à partir de la & Microsoft Teams Skype entreprise centre d’administration. Pour plus d'informations, reportez-vous à la rubrique [Activer ou désactiver l'accès invité de Microsoft Teams](set-up-guests.md). 
 
 
 ## <a name="control-guest-access-in-office-365-groups"></a>Contrôler l’accès invité dans Office 365 groupes
@@ -116,3 +116,6 @@ Ces paramètres s’appliquent au niveau du client et contrôlent l’expérienc
 
 Vous pouvez gérer les paramètres d'utilisateur externe de SharePoint Online pour le site des équipes connectées à Microsoft Teams. Pour plus d'informations, reportez-vous à la rubrique [Gérer les paramètres de votre site des équipes SharePoint](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).
 
+## <a name="guest-access-vs-external-access-federation"></a>Accès invité et l’accès externe (fédération)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

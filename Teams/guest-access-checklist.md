@@ -3,7 +3,7 @@ title: Liste de contrôle de l’accès invité Microsoft Teams
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 11/09/18
+ms.date: 01/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efb5b4394ae7659982a747e79ace2296dbdf2345
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 0e51042d5478dbaeb89691b9ad482955055a58ac
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326708"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706370"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de vérification de l’accès invité équipes
 ==========================================
@@ -39,6 +39,10 @@ L’expérience de l’invité présente les limitations par sa conception. Assu
 - Télécharger les fichiers dans une conversation de personne à personne
 
 Pour plus d’informations, voir [Nouveautés de l’expérience de l’invité](guest-experience.md) et [l’accès invité dans des groupes d’Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+
+### <a name="guest-access-vs-external-access-federation"></a>Accès invité et l’accès externe (fédération)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Si vos invités constatez des erreurs de licence
 

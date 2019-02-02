@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Découvrez comment un administrateur peut afficher les informations relatives aux utilisateurs invités dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a10269076275a16f18a9cda8471a669688a1ab4
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: 2b842a2434a5555fe7f65d6119750cff36e9513d
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772740"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706274"
 ---
 <a name="view-guest-users-in-a-team"></a>Afficher les utilisateurs invités d'une équipe
 ==========================
@@ -26,9 +26,11 @@ Dans une équipe tout le monde peut voir tous les membres d’une équipe, y com
 Pour identifier les utilisateurs invités :
 
 1.  Connectez-vous au centre d’administration Microsoft 365.
-2.  Sélectionnez le **Centre d’administration** > **équipes & Skype**.
-3.  Dans Microsoft Teams & Skype Admin Center, sélectionnez **les utilisateurs**. Vous verrez **invité** ajouté au nom de l’affichage de tous les utilisateurs invités.
+2.  Sélectionnez le **Centre d’administration** > **& équipes Skype**.
+3.  Dans le centre d’administration de Skype & Teams Microsoft, sélectionnez **les utilisateurs**. Vous verrez **invité** ajouté au nom de l’affichage de tous les utilisateurs invités.
   
 Vous pouvez également identifier des utilisateurs invités à partir d’une équipe que vous possédez.  
 
+## <a name="guest-access-vs-external-access-federation"></a>Accès invité et l’accès externe (fédération)
 
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e50992aa8489d93b577e957cffc98c18e7cc15e
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: da73768f69159c32543d0843139facc2b9ef4f9a
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988177"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706354"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Paramètres d'administration pour les applications dans Microsoft Teams
 ==========================================
@@ -29,7 +29,7 @@ ms.locfileid: "27988177"
 
 Les applications sont des onglets, des connecteurs, des robots ou n’importe quelle combinaison de ces trois fournies par les équipes (applications internes et également appelé applications par défaut) ou par un tiers (également appelées applications externes). Dans le centre d’administration Microsoft 365, vous pouvez activer et désactiver des applications par défaut et configurer les paramètres pour contrôler les applications externes. Ces paramètres vous permettent de spécifier les applications externes sont autorisées et non autorisées, le nouveau comportement de l’application externe, et si les applications côté-chargement est autorisé.
 
- Pour gérer les paramètres d’administration pour les applications dans les équipes, accédez au centre d’administration Microsoft 365 et choisissez **paramètres** > **Services et compléments** > **Équipes Microsoft**. Si vous êtes connecté en tant qu’administrateur d’Office 365, ce lien vous dirige sur cette option :
+ Pour gérer les paramètres d’administration pour les applications dans les équipes, accédez au centre d’administration Microsoft 365 et choisissez **paramètres** > **compléments Services &** > **Équipes Microsoft**. Si vous êtes connecté en tant qu’administrateur d’Office 365, ce lien vous dirige sur cette option :
 
 https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
