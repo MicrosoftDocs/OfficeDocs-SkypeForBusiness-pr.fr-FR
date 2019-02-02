@@ -302,6 +302,11 @@
 ### [Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Configurer un contrôleur de frontière de session pour plusieurs clients](direct-routing-sbc-multiple-tenants.md)
 ### [Liste des contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md)
+### Routage géodépendant
+#### [Terminologie de routage basée sur l’emplacement](location-based-routing-terminology.md)
+#### [Planifier le routage par emplacement pour le routage Direct](location-based-routing-plan.md)
+#### [Configurer les paramètres réseau pour le routage basé sur l’emplacement](location-based-routing-configure-network-settings.md)
+#### [Activer le routage par emplacement pour le routage Direct](location-based-routing-enable.md)
 ### Référence technique pour le routage Direct
 #### [Basculement de jonction sur les appels sortants](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -641,6 +646,7 @@
 
 ## Équipes pour les travailleurs firstline
 ### [Gérer l’application des équipes de votre organisation dans les équipes](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Les modèles d’équipe de vente au détail en main](get-started-with-retail-teams-templates.md)
 
 ## [Planifier pour le gouvernement Microsoft 365 - GCC](plan-for-government-gcc.md)
 ### [Planifier pour le gouvernement Microsoft 365 - GCC haute](plan-for-government-gcc-high.md)

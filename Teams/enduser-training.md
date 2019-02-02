@@ -13,16 +13,16 @@ search.appverid: MET150
 description: Vidéos de formation, didacticiels et autres ressources pour les utilisateurs de votre organisation apprendre à utiliser des équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4754a20c38c16c78744d44d78647f0efdede83e6
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 85500815e191363dcf8a5cd9b9c1cdd90aa769cd
+ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214442"
+ms.lasthandoff: 02/02/2019
+ms.locfileid: "29708551"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les utilisateurs finaux
 
-Utilisez ces ressources de formation pour aider les utilisateurs de votre organisation à tirer le meilleur parti des équipes. 
+Utilisez ces ressources de formation pour aider les utilisateurs de votre organisation à tirer le meilleur parti des équipes.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -197,7 +197,7 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Messages & billets</h3>
+                        <h3>Billets de messages &</h3>
                          <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Vidéo : Créer et mettre en forme une publication</a></p>
                          <p><a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Vidéo : Obtenir une attention avec @mentions</a></p>
                          <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Vidéo : Enregistrer un billet ou un message</a></p>
@@ -210,7 +210,7 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Réunions, appels et conversations</h3>
+                        <h3>Conversations, appels & réunions</h3>
                        <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">Vidéo : Démarrer des conversations et émettre des appels</a></p>
                        <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">Vidéo : Créer instantanément avec conférence maintenant</a></p>
                        <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">Vidéo : Gérer des réunions</a></p>
@@ -224,7 +224,7 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Applications et outils</h3>
+                        <h3>Outils de & d’applications</h3>
                         <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Vidéo : Ajouter des outils avec onglets</a></p>
                         <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">Vidéo : Activer un fichier dans un onglet</a></p>
                         <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Vidéo : Utilisez la boîte de commande</a></p>
@@ -251,8 +251,8 @@ Regardez cette courte vidéo de présentation pour les équipes</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Les équipes conseils et astuces</h3>
-                        <p><a href="https://support.office.com/office-training-center/Teams-tips">Article : Conseils et astuces pour les équipes</a></p>
+                        <h3>Les équipes conseils & astuces</h3>
+                        <p><a href="https://support.office.com/office-training-center/Teams-tips">L’article : Conseils & astuces des équipes</a></p>
                     </div>
                 </div>
             </div>
