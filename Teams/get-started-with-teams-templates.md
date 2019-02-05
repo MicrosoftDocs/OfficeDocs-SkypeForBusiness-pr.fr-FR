@@ -9,19 +9,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
 localization_priority: Normal
-robots: NOINDEX, NOFOLLOW
 search.appverid: MET150
 description: Découvrez comment utiliser les modèles d’équipe pour créer une équipe avec des canaux prédéfinis.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6b5059e5c0a4a7f49553758762905a1a3523389
-ms.sourcegitcommit: bb5fe98e73a794eb8154551a40276d9cd68bc2af
+ms.openlocfilehash: 6b4e0ad44904a14d6a1296ea17080f668a3ab461
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29603801"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735205"
 ---
 # <a name="get-started-with-teams-templates"></a>Prise en main des modèles Teams 
 
@@ -81,3 +80,5 @@ Par défaut, le modèle de base est défini à **Standard** qui ne contient pas 
 - [Équipe de création](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (en aperçu)
 - [Nouvelle équipe](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Formation à Microsoft Teams pour les administrateurs](itadmin-readiness.md)
+- [Les modèles d’équipe de vente au détail en main](get-started-with-retail-teams-templates.md)
+- [Commencer avec les modèles d’équipe de santé](healthcare/healthcare-templates.md)

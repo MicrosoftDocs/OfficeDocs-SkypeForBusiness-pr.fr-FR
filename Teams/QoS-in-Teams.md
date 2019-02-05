@@ -1,5 +1,5 @@
 ---
-title: Implémenter la qualité de Service dans les équipes Microsoft
+title: Implémenter la qualité de service dans Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b519327b37c61a126c5101080f0c1eee9f8582f5
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 5667374b52561af8809ab136646ffaf9d6077ad1
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326731"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735129"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implémenter la qualité de Service (QoS) dans les équipes Microsoft
 
@@ -232,13 +232,15 @@ Pour créer une stratégie audio de qualité de service pour les ordinateurs Win
 
 6. Dans la boîte de dialogue **QoS basée** sur la page de démarrage, tapez un nom pour la nouvelle stratégie dans la zone **nom** . Sélectionnez **Spécifier la valeur DSCP** , définissez la valeur à **46**. Laissez **Spécifier le taux d’accélération sortant** non sélectionné, puis cliquez sur **suivant**.
 
-7. Dans la page suivante, vérifiez que **toutes les applications** est sélectionné, puis cliquez sur **suivant**. Ce paramètre indique le réseau pour rechercher tous les paquets avec un marquage DSCP des paquets pas seulement 46, créé par une application spécifique.
+7. Dans la page suivante, sélectionnez **uniquement les applications portant ce nom exécutable** et entrez le nom **Teams.exe**, puis cliquez sur **suivant**. Ce paramètre indique à la stratégie pour définir la priorité uniquement le trafic correspondant à partir du client équipes.
 
 8. Dans la troisième page, assurez-vous que **toute adresse IP source** et **n’importe quelle adresse IP de destination** sont sélectionnés, puis cliquez sur **suivant**. Ces deux paramètres de vous assurer que les paquets sont gérés indépendamment de l’ordinateur (adresse IP) envoyé les paquets et l’ordinateur (adresse IP) reçoit les paquets.
 
 9. Sur la page quatre, sélectionnez **TCP et UDP** dans la liste déroulante **Sélectionnez le protocole d’à que cette stratégie de QoS s’applique** . TCP (Transmission Control Protocol) et UDP (User Datagram Protocol) sont les deux protocoles réseau les plus couramment utilisées.
 
 10. Sous le titre, **Spécifiez le numéro de port source**, sélectionnez **à partir de ce port source ou de la plage**. Dans la zone de texte correspondante, tapez la plage de ports réservée pour les transmissions audio. Par exemple, si vous réservé ports 50000 par le biais de ports 50019 pour le trafic audio, entrez la plage de ports à l’aide de ce format : **50000:50019**. Cliquez sur **Terminer**.
+
+11. Répétez les étapes 5 à 10 pour créer des stratégies pour la vidéo et l’Application/partage du bureau, en remplaçant les valeurs appropriées dans les étapes 6 et 10.
 
 Les nouvelles stratégies que vous avez créé ne prennent effet tant que la stratégie de groupe a été actualisée sur vos ordinateurs clients. Bien que la stratégie de groupe est actualisée régulièrement sur son propre, vous pouvez forcer une actualisation immédiate.
 
