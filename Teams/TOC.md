@@ -23,6 +23,7 @@
 ## [Créer une équipe à l’échelle de l’organisation dans les équipes](create-an-org-wide-team.md)
 ## [Ce que sont les stratégies de messagerie ?](messaging-policies-in-teams.md)
 ## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
+## [Commencer avec les modèles de santé des équipes Microsoft](healthcare/healthcare-templates.md)
 ## [Présentation de l’appartenance dynamique pour les équipes](dynamic-memberships.md)
 ## [Présence](presence-admins.md)
 ## [Communiquer avec les utilisateurs d’équipes dans d’autres organisations](let-your-teams-users-communicate-with-other-people.md)
