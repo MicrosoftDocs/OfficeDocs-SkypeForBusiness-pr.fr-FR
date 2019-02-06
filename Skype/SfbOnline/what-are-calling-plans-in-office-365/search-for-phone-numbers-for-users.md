@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Découvrez comment rechercher des numéros de téléphone à attribuer à vos utilisateurs, par pays/région, département/région ou ville et indiquer le nombre de numéros dont vous avez besoin. '
-ms.openlocfilehash: 0edf61b52869eff4a52e7b109085e02d4b380742
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. '
+ms.openlocfilehash: eeae7ad4bcafea1f8a1f86d36e59d2f57a2edff1
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347070"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753515"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Rechercher des numéros de téléphone pour les utilisateurs
 
 Lorsque vous configurez les utilisateurs dans votre organisation pour émettre et recevoir des appels téléphoniques, vous devez utiliser le **Skype entreprise centre d’administration** et tout d’abord obtenir les numéros de téléphone qui peuvent être affectés aux utilisateurs. Le numéro de téléphone que vous attribuez à un utilisateur sera un numéro de téléphone que vous avez choisi pour votre organisation et apparaît dans la liste déroulante lorsque vous modifiez les propriétés de l’utilisateur et cliquez sur **affecter**.
   
-Pour pouvoir attribuer des numéros de téléphone à vos utilisateurs, vous devez utiliser la page **Nouveaux numéros** pour rechercher les numéros disponibles dans une zone donnée. Vous pouvez rechercher par **pays/région**, **état**et **Ville**et puis entrez le nombre de numéros de téléphone que vous aurez besoin pour vos utilisateurs. 
+Avant de pouvoir affecter des numéros de téléphone à vos utilisateurs, vous devez utiliser la **nouveaux numéros de** page pour rechercher des numéros qui sont disponibles pour vous dans une zone. Vous pouvez rechercher par **pays/région**, **état**et **Ville**et puis entrez le nombre de numéros de téléphone que vous aurez besoin pour vos utilisateurs. 
   
 Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vous pouvez consulter [Gérer les numéros de téléphone pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization) ou [Contacter le support pour les produits métiers : aide d’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
@@ -44,7 +44,7 @@ Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vou
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans le volet de navigation gauche, accédez à **voix** > de**numéros de téléphone**, puis cliquez sur **Ajouter un nouveau numéro** > **nouveaux numéros utilisateur**.
   
@@ -75,7 +75,7 @@ Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vou
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

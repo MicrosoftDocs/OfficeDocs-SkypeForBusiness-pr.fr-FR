@@ -1,5 +1,5 @@
 ---
-title: Communiquer avec les utilisateurs d’équipes dans une autre organisation
+title: Communiquer avec des utilisateurs de Teams dans une autre organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Découvrez comment configurer des équipes pour permettre aux utilisateurs de communiquer avec les utilisateurs d’une autre organisation.
-ms.openlocfilehash: 6fb71e4c9e1461ca920d480336288b06e3111eb2
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 39fa6de27b6ff4f662955ac3cf36d7826379d753
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240839"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754727"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Laissez votre conversation d’utilisateurs équipes et communiquer avec les utilisateurs d’une autre organisation d’équipes
 
@@ -43,7 +43,7 @@ Suivez ces étapes.
 
 ### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>Étape 2 : activer votre organisation de communiquer avec une autre organisation d’équipes
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
 
    1. Dans la navigation de gauche, accédez à **paramètres à l’échelle de la société** > **l’accès externe**. 
 
@@ -76,7 +76,7 @@ Si vous le configurez pour laisser votre recherche d’utilisateurs équipes et 
 
 Disposer de l’administrateur dans cette organisation procédez comme suit :
     
-1. Dans le centre d’administration Office 365, accédez au **Centre d’administration** > **équipes & Skype** > **portail hérité**.
+1. Dans le centre d’administration Office 365, accédez au **Centre d’administration** > **& équipes Skype** > **portail hérité**.
   
 2. Dans le **centre d'administration de Skype Entreprise**, sélectionnez **Organisation** > **Communications externes**.
     

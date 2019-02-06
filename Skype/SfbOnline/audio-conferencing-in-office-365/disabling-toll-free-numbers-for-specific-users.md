@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler les organisateurs utilisation numéros gratuits pour leurs réunions.
-ms.openlocfilehash: 0ee8274dd30b246da513d0597bf39964b94be8ca
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: f553cc3abad8f4490d06099554c188881ef47e24
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678155"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753757"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Désactivation des numéros de téléphone gratuits pour Skype spécifique pour les utilisateurs professionnels en ligne
  
@@ -48,7 +48,7 @@ Lorsque les numéros gratuits sont désactivés pour un organisateur donné :
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactivation des numéros de téléphone gratuits pour des utilisateurs spécifiques 
 
-Les **équipes Microsoft & Skype entreprise centre d’administration**:
+À partir du **Centre d’administration de Microsoft équipes**:
 
 1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 

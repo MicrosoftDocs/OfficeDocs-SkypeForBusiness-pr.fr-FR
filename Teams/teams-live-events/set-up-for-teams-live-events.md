@@ -14,12 +14,12 @@ description: Découvrez les étapes pour configurer live pour les événements d
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fe13722bfc8b5aa7a9f57d0dfd39c67146e6c31
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 078374652325d177e30db1d320f22e5d814ac548
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626269"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754783"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -41,7 +41,7 @@ Les stratégies sont utilisées pour contrôler les personnes de votre organisat
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Créer ou modifier une stratégie d’événements en direct
 
-**![les équipes-logo-30x30.png](../media/teams-logo-30x30.png) avec le modèle Microsoft Teams & Skype entreprise centre d’administration**
+**![les équipes-logo-30x30.png](../media/teams-logo-30x30.png) à l’aide du centre d’administration Microsoft Teams**
 
 1. Dans la navigation de gauche, accédez à des **réunions** > **stratégies d’événements en direct**. 
 2. Effectuez l’une des actions suivantes :
@@ -51,7 +51,7 @@ Les stratégies sont utilisées pour contrôler les personnes de votre organisat
 
     Voici les paramètres que vous pouvez modifier pour répondre aux besoins de votre organisation.
 
-    ![Capture d’écran de live les paramètres de stratégie des événements] (../media/teams-live-events-policies.png "Capture d’écran de live les paramètres de stratégie des événements dans les équipes Microsoft & Skype entreprise centre d’administration") 
+    ![Capture d’écran de live les paramètres de stratégie des événements] (../media/teams-live-events-policies.png "Capture d’écran de live les paramètres de stratégie des événements dans le centre d’administration Microsoft équipes") 
 
 |Paramètre  |Description  |
 |---------|---------|
@@ -68,7 +68,7 @@ Vous pouvez également procéder ainsi à l’aide de Windows PowerShell. Pour p
 
 Si vous avez créé une stratégie d’événements personnalisés en direct, attribuer aux utilisateurs de la stratégie soit actif. 
 
-![les équipes-logo-30x30.png](../media/teams-logo-30x30.png) Avec le modèle Microsoft Teams & Skype entreprise centre d’administration
+![les équipes-logo-30x30.png](../media/teams-logo-30x30.png) À l’aide du centre d’administration Microsoft Teams
 
 1. Dans la navigation de gauche, accédez à des **utilisateurs**, puis sélectionnez l’utilisateur.
 2. En regard de **stratégies attribuées**, cliquez **sur Modifier**. 

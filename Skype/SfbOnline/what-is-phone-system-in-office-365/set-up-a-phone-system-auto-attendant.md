@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer et tester les standards automatiques de système téléphonique (PBX nuage) pour efficace gestion des appels pour votre organisation. '
-ms.openlocfilehash: 0bf312734c788e0bd02bc4fce40dbea4267850d4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9e84ea2130238866db61fa222169435772cc7758
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531577"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754152"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurer un standard automatique pour le système téléphonique
 
@@ -49,9 +49,9 @@ Si vous souhaitez en savoir plus sur les standards automatiques, voir [Quelles s
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Étape 2 : création d'un standard automatique
 
- **À l’aide les équipes Microsoft & Skype entreprise centre d’administration**
+ **À l’aide du centre d’administration Microsoft Teams**
 
-Dans les **équipes Microsoft & Skype entreprise centre d’administration**, cliquez sur ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Portail hérité** >  **routage des appels** > **standards automatiques**, puis cliquez sur **+ Nouveau**:
+Dans le **Centre d’administration équipes Microsoft**, cliquez sur ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Portail hérité** >  **routage des appels** > **standards automatiques**, puis cliquez sur **+ Nouveau**:
 
 ### <a name="edit-general-info-page"></a>Page de modification des informations générales
 

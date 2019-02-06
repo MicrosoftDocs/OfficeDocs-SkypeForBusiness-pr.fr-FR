@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
-ms.openlocfilehash: 81a70264e5b8a7f316a9c64e3fa6104d193dec66
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 8c03808dfecd8093f4bf8f8545d3fed1554e237c
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676434"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753525"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
@@ -38,7 +38,7 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubriq
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au site **Microsoft équipes & Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence que vous souhaitez ajouter un emplacement pour.
     
@@ -55,7 +55,7 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubriq
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au site **Microsoft équipes & Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence pour lequel vous souhaitez modifier un emplacement.
     
@@ -69,7 +69,7 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubriq
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au site **Microsoft équipes & Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence que vous souhaitez supprimer un emplacement pour.
     

@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Découvrez comment attribuer, modifier ou supprimer le numéro de téléphone professionnel de vos utilisateurs Skype Entreprise pour que les entreprises et les clients extérieurs puissent appeler.
-ms.openlocfilehash: 40c067657132781d29b8f20a3738d6d28ce36331
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
+ms.openlocfilehash: 4e0189f29b2e7f8324e378c4ad314f8a55a8fa0b
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374657"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754867"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affecter, modifier ou supprimer un numéro de téléphone d’un utilisateur
 
@@ -50,7 +50,7 @@ Lorsque vous configurez les utilisateurs afin qu’ils peuvent émettre et recev
 Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coût, consultez la rubrique [Licences de modules complémentaires pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
+> Pour savoir si un utilisateur possède une licence est en accédant à **Skype pour le centre d’administration Business** > **vocale** > **utilisateurs Enterprise Voice** et en sélectionnant l’utilisateur. Si une licence est attribuée, il est indiqué sous **licence affecté**. Vous pouvez également utiliser le centre d’administration Office 365. 
   
  ## <a name="assign-a-phone-number-to-a-user"></a>Attribution d'un numéro de téléphone à un utilisateur
  
@@ -58,7 +58,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
  
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez à des **équipes Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accédez au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans la navigation de gauche, cliquez sur **voix** > **utilisateurs Enterprise Voice**.
    > [!NOTE]
@@ -80,7 +80,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
 8. Après avoir choisi le numéro de téléphone et l'adresse de secours, cliquez sur **Enregistrer**.
     
     > [!NOTE]
-    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
+    > En raison de la latence entre Office 365 et Skype pour Business Online, il peut éventuellement prendre jusqu'à 24 heures pour les utilisateurs à activer. Si après 24 heures, si le numéro de téléphone n’est pas correctement affecté, veuillez [contacter le support technique pour les produits métiers : aide d’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Nous sommes là pour vous aider ! 
   
 
 
@@ -90,7 +90,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
  
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez à des **équipes Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accédez au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans la navigation de gauche, cliquez sur **voix** > **utilisateurs Enterprise Voice**.
     
@@ -114,7 +114,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
  
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez à des **équipes Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accédez au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans la navigation de gauche, cliquez sur **voix** > **utilisateurs Enterprise Voice**.
     
@@ -132,7 +132,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

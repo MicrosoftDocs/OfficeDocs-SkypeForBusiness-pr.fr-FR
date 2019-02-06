@@ -12,21 +12,21 @@ search.appverid: MET150
 description: Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les stratégies d'utilisateurs invités et les autorisations, déterminer quels utilisateurs peuvent convier des invités et extraire des rapports sur l'activité des utilisateurs invités.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3866e4c3f8e63e9fe8518917193d4587e670ad93
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: ef7a62f46a767271f96de6f8540867aa2e8bd917
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706290"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753609"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
 ======================================
 
 **Invité** est un type de licence d’utilisateur dans Microsoft Teams qui est inclus avec tous les abonnements Office 365 entreprise Premium, Office 365 pour entreprises et Office 365 éducation. Aucune licence Office 365 supplémentaire n'est requise. L'accès invité de Teams est un paramètre de niveau client et est désactivé par défaut. Pour plus d’informations sur la façon d’activer l’accès invité, voir [Activer ou désactiver l’accès invité aux équipes de Microsoft](set-up-guests.md).
 
-Une fois que le type de licence d’utilisateur **invité** est activé, vous pouvez configurer les paramètres pour les invités via les contrôles décrites dans [les fonctionnalités de gérer les équipes Microsoft dans votre organisation Office 365](enable-features-office-365.md) et [gérer des équipes pendant la transition vers le nouveau Microsoft Les équipes et Skype pour le centre d’administration de Business](manage-teams-skypeforbusiness-admin-center.md).     
+Une fois que le type de licence d’utilisateur **invité** est activé, vous pouvez configurer les paramètres pour les invités via les contrôles décrites dans [les fonctionnalités de gérer les équipes Microsoft dans votre organisation Office 365](enable-features-office-365.md) et [gérer des équipes pendant la transition vers le nouveau Microsoft Centre d’administration équipes](manage-teams-skypeforbusiness-admin-center.md).     
     
-Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les autorisations et les stratégies d’utilisateur invité et extrait les rapports sur les activités de l’utilisateur invité. Ces contrôles sont disponibles par le biais de la & Microsoft Teams Skype entreprise centre d’administration. Le contenu et les activités des utilisateurs invités font l'objet de la même protection en matière de conformité et de vérification que le reste d'Office 365.
+Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les autorisations et les stratégies d’utilisateur invité et extrait les rapports sur les activités de l’utilisateur invité. Ces contrôles sont disponibles dans le centre d’administration Microsoft Teams. Le contenu et les activités des utilisateurs invités font l'objet de la même protection en matière de conformité et de vérification que le reste d'Office 365.
 
 Propriétaires de l’équipe peuvent inviter de nouveaux invités et ajoutez utilisateurs invité existant à leurs équipes. Les propriétaires de l’équipe permettant d’identifier les utilisateurs invités par le biais des **équipes** > **Gérer les équipes**et fonctionnalités canal ensemble pour les visiteurs par le biais des **paramètres de l’organisation** > **accès invité**, y compris ce qui permet de créer, mettre à jour, les invités et supprimer des chaînes, comme illustré dans la capture d’écran suivante.
 

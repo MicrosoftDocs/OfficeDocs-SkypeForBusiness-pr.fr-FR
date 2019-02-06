@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Learn how to set up an emergency address and phone number for each of your users that works with the Public Switched Telephone Network (PSTN).
-ms.openlocfilehash: c16e53df15d46457501c75ad5adcb0882d8fe875
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 4778009ddcd004f37c5ed0f0566d64dae6648997
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676396"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753435"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Affectation ou modification d'une adresse d'urgence pour un utilisateur
 
@@ -38,7 +38,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au site **Microsoft équipes & Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans le volet de navigation gauche atteindre la **voix**, puis cliquez sur **utilisateurs Enterprise Voice**.
     

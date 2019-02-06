@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2243e1420e2bd1046789669168834cff2125c4ac
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: b4b80b514961057eaba1c3a11d49b0e1696110d1
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349459"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754801"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
@@ -56,7 +56,7 @@ Bien que nous vous conseillons de suivre les listes de contrôle dans l’ordre,
 Lorsque vous êtes embarquement utilisateurs sur site par site, que nous vous recommandons vivement d’utiliser la [Lecture d’activation de Site pour la voix (lecture)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) comme un guide supplémentaire à ces listes de contrôle.
 
 >[!NOTE]
->La plupart des paramètres de configuration sont communes entre les équipes et Skype pour Business Online. Le & Microsoft Teams Skype entreprise centre d’administration vous permet de configurer ces paramètres.
+>La plupart des paramètres de configuration sont communes entre les équipes et Skype pour Business Online. Vous utilisez le centre d’administration Microsoft Teams pour configurer ces paramètres.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Point de décision</td><td><ul><li>Qui sera responsable de la surveillance de l’exécution de l’intégration des listes de contrôle ?</li></ul></td></tr>

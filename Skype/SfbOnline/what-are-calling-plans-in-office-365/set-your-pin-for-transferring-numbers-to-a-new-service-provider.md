@@ -20,17 +20,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Pour transférer ou exporter des numéros de téléphone de Skype Entreprise Online vers un autre fournisseur de services téléphoniques ou un autre opérateur, vous devez définir manuellement un code confidentiel. Une fois le code confidentiel défini, vous devez l'inclure lorsque vous demandez à transférer un numéro de téléphone.
-ms.openlocfilehash: 3a3744a4b1272bab987add10039c89c6e3983927
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.
+ms.openlocfilehash: bcab4a05e7e24fd301563627a82f739ca169ecc2
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347090"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753453"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Définir votre code confidentiel pour transférer des numéros vers un nouveau fournisseur de service
 
-Pour transférer ou *exporter*  des numéros de téléphone de Skype Entreprise Online vers un autre fournisseur de services téléphoniques ou un autre opérateur, vous devez définir manuellement un code confidentiel. Une fois le code confidentiel défini, vous devez l'inclure lorsque vous demandez à transférer un numéro de téléphone. 
+To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. 
   
 > [!IMPORTANT]
 > Un code confidentiel de transfert est utilisé uniquement pour les organisations aux États-Unis. 
@@ -55,7 +55,7 @@ Voici quelques informations spécifiques sur ce code confidentiel que vous devez
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans la navigation de gauche, choisissez **voix** > **commandes Port**.
     

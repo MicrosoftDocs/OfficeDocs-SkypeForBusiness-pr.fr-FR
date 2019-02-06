@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdcf5bd3da33463d39f8681a41d7299f3d66e727
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 21cd36632f04060a50bd4fa6f742a5e7972ebec6
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593933"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753499"
 ---
 # <a name="prepare-my-service"></a>Préparer mon service
 
@@ -50,7 +50,7 @@ Bien que nous vous conseillons de suivre les listes de contrôle dans l’ordre,
 Lorsque vous êtes embarquement utilisateurs sur site par site, que nous vous recommandons vivement d’utiliser la [Lecture d’activation de Site pour la voix (lecture)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) comme un guide supplémentaire à ces listes de contrôle.
 
 >[!NOTE]
->La plupart des paramètres de configuration sont communes entre les équipes et Skype pour Business Online. Le & centre d’administration d’Office 365 et les équipes Skype entreprise centre d’administration vous permet de configurer ces paramètres.
+>La plupart des paramètres de configuration sont communes entre les équipes et Skype pour Business Online. Vous utilisez le centre d’administration centre d’administration d’Office 365 et Microsoft Teams pour configurer ces paramètres.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Qui sera responsable de la surveillance de l’exécution de l’intégration des listes de contrôle ?</li></ul></td></tr>

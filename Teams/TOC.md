@@ -58,8 +58,8 @@
 
 ## [Gestion des équipes](using-admin-roles.md)
 ### [Gérer les fonctionnalités des équipes au sein de votre organisation.](enable-features-office-365.md)
-### [Gérer les équipes lors de la transition vers le nouveau Centre d’administration de Microsoft Teams et Skype Entreprise](manage-teams-skypeforbusiness-admin-center.md)
-### [Gérer les équipes dans le Skype & équipes Microsoft Business centre d’administration](manage-teams-in-modern-portal.md)
+### [Gérer les équipes pendant la transition vers le nouveau centre d’administration de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+### [Gérer les équipes dans le centre d’administration Microsoft Teams](manage-teams-in-modern-portal.md)
 ### [Affecter des propriétaires d’équipe et membres d’équipes](assign-roles-permissions.md)
 ### [Configurer l’application de réunions Skype pour travailler avec des équipes](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Communiquer avec les utilisateurs d’équipes dans d’autres organisations](let-your-teams-users-communicate-with-other-people.md)

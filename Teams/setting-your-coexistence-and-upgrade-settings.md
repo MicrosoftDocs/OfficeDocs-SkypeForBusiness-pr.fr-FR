@@ -13,12 +13,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb2e7ba5f854c392d86006fdb6bd313b3fd87c68
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 5195b929cb5da2fc462cc2ed6826300d835c2b35
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182454"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753996"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Configuration de vos paramètres de coexistence et de mise à niveau
 
@@ -35,7 +35,7 @@ Vous pouvez obtenir une meilleure compréhension des types de modes sont à votr
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>Définir les options de mise à niveau pour tous les utilisateurs de votre organisation
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide les équipes Microsoft & Skype entreprise centre d’administration**
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
 
 1. Dans la navigation de gauche, accédez à **paramètres à l’échelle de la société** > **équipes de mise à niveau**. 
 
@@ -53,7 +53,7 @@ Vous pouvez obtenir une meilleure compréhension des types de modes sont à votr
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>Définir les options de mise à niveau pour un seul utilisateur dans votre organisation
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide les équipes Microsoft & Skype entreprise centre d’administration**
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
 
 1. Dans la navigation de gauche, accédez à des **utilisateurs**, puis sélectionnez l’utilisateur dans la liste. 
 2. Sous l’onglet **compte** pour l’utilisateur, sous **mise à niveau des équipes**, cliquez sur **Modifier**.

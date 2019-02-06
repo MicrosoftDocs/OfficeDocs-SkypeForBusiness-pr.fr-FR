@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e66005ca69a08cd0cf944455e73c155d20bfea9
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 0aa397b7a859e24beaf5f8455ef054b7d5a18222
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593925"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753617"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 ==============================================================
@@ -48,7 +48,7 @@ Pour activer l’onglet **Pavé de numérotation** dans les équipes et autorise
 > Vous pouvez également utiliser le routage Direct pour autoriser les utilisateurs à ext et de recevoir des appels PSTN. Pour savoir comment configurer le routage Direct, consultez [Configurer le routage Direct](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
 
 ## <a name="teams-interop-policy-configuration"></a>Configuration de la stratégie d'interopérabilité de Teams
-Pour activer les équipes commencer à recevoir des appels, vous devez mettre à jour la stratégie de mise à niveau d’équipes et équipes interopérabilité la stratégie, à l’aide des [équipes Microsoft & Skype entreprise centre d’administration](https://aka.ms/teamsadmincenter) ou à l’aide d’une session Windows PowerShell à distance avec le Skype pour les entreprises [ `*-CsTeamsUpgradePolicy`et `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) applets de commande pour rediriger les appels vers les équipes.
+Pour activer les équipes commencer à recevoir des appels, vous devez mettre à jour la stratégie de mise à niveau d’équipes et équipes interopérabilité la stratégie, à l’aide du [Centre d’administration de Microsoft équipes](https://aka.ms/teamsadmincenter) ou à l’aide d’une session Windows PowerShell à distance avec le Skype pour les entreprises [ `*-CsTeamsUpgradePolicy` et `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) applets de commande, pour rediriger les appels vers les équipes.
 
 Pour plus d’informations sur la stratégie de mise à niveau équipes et équipes PIA, voir [Migration et l’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
 
@@ -90,7 +90,7 @@ Si vous choisissez de continuer à utiliser la stratégie de mise à niveau équ
     CallingDefaultClient       : Teams
     ChatDefaultClient          : Teams
 
-Si vous choisissez d’utiliser la stratégie de mise à niveau équipes mis à jour, vous devez affecter le mode TeamsOnly à vos utilisateurs.
+Si vous choisissez d’utiliser la stratégie de mise à niveau équipes mis à jour, vous devez affecter des équipes uniquement en mode à vos utilisateurs.
 
 Comportements de la stratégie ci-dessus :
 * **Pour les clients Skype Entreprise existants**, cette stratégie est conçue pour rediriger les appels vers Teams. Elle comprend les appels de type Voix sur IP (de Teams et Skype Entreprise) et les appels PSTN. 
@@ -104,7 +104,7 @@ Lorsque vous utilisez la stratégie de mise à niveau équipes héritée, appliq
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-Si vous choisissez d’utiliser le mode TeamsOnly, vous pouvez modifier en mode de coexistence de l’utilisateur à TeamsOnly via Microsoft Teams & Skype entreprise centre d’administration ou Skype pour la session Windows PowerShell à distance Business pour rediriger les appels vers les équipes :
+Si vous choisissez d’utiliser le mode équipes uniquement, vous pouvez modifier en mode de coexistence de l’utilisateur aux équipes uniquement via le centre d’acmin Microsoft Teams ou un Skype pour la session Windows PowerShell à distance Business pour rediriger les appels vers les équipes :
 
     Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com

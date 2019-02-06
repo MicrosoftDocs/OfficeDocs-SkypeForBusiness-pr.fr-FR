@@ -12,17 +12,14 @@ description: Guide pratique pour le déploiement de la fonctionnalité vocale cl
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2b57b7c39dc129c485943c5048a8d4b6441d942
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: f773c88c16f77e6879adb29852514ef7548790fa
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594197"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754751"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
-
-> [!Note]
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Dans Microsoft Teams, les utilisateurs peuvent enregistrer leurs réunions d’équipes et les appels de groupe de capture audio, vidéo et partage d’activité de l’écran. Il existe également une option pour les enregistrements d’avoir une transcription automatique, afin que les utilisateurs peuvent lire des enregistrements de réunions avec légendes et rechercher des éléments de discussion important dans la transcription. L’enregistrement se produit dans le nuage et est enregistré dans le [Flux de Microsoft](https://docs.microsoft.com/stream/), afin que les utilisateurs peuvent partager en toute sécurité au sein de leur organisation.
 

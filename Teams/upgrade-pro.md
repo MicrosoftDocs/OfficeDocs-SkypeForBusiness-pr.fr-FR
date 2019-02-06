@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bff0bc862313ecf5ef85152797266b8cc40b2be
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: e948685a1a49920ca7cf200435266e2cbaaf165d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349380"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754833"
 ---
 # <a name="upgrade-pro"></a>Mise à niveau des professionnels de l’informatique
 
@@ -122,4 +122,4 @@ Afin d’illustrer comment votre parcours de mise à niveau peut se déroulent, 
 > Nos professionnels de l’informatique de mise à niveau est en constante évolution. Veillez à vérifier les conseils les plus récents et lire le [blog des équipes](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog).
 
 > [!Important]
-> Si vous êtes un administrateur sur votre client Office 365, vous pouvez commencer à voir les options de mise à niveau dans votre applet de commande PowerShell ou les équipes & Skype entreprise centre d’administration. La possibilité de mise à niveau ne signifie pas nécessairement que votre organisation est prête pour que cette modification. Pour une expérience utilisateur optimale, vérifiez que les équipes répond à vos besoins de collaboration et de communication, vérifiez que votre réseau est prêt à prendre en charge des équipes et implémenter votre plan de préparation utilisateur avant la mise à niveau des utilisateurs aux équipes.
+> Si vous êtes un administrateur sur votre client Office 365, vous pouvez commencer à voir les options de mise à niveau dans votre applet de commande PowerShell ou le centre d’administration de Microsoft Teams. Avoir la possibilité d’effectuer la mise à niveau ne signifie pas nécessairement que votre organisation est prête pour ce changement. Pour une expérience utilisateur optimale, vérifiez que les équipes répond à vos besoins de collaboration et de communication, vérifiez que votre réseau est prêt à prendre en charge des équipes et implémenter votre plan de préparation utilisateur avant la mise à niveau des utilisateurs aux équipes.

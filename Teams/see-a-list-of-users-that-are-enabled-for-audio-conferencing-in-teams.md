@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment afficher la liste des utilisateurs dans votre organisation pour lesquels la conférence rendez-vous est activée dans Microsoft Teams. '
-ms.openlocfilehash: 47e8f6879a16f9ee56e9050a07764800d4dba12b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e9c8b594af6201200585a5633cfbd745e73dd483
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533110"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754202"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Afficher la liste des utilisateurs pour lesquels l'audioconférence est activée dans Microsoft Teams
 
@@ -36,7 +36,7 @@ Une fois que vous avez activé les utilisateurs de Microsoft Teams dans votre or
   
 ## <a name="viewing-a-list-of-users"></a>Afficher une liste d'utilisateurs
 
-- Skype pour la navigation de gauche, du centre d’administration Business Teams Microsoft et cliquez sur **utilisateurs**.
+- Dans le centre d’administration Microsoft Teams, dans la navigation de gauche, cliquez sur **utilisateurs**.
 
 
 ## <a name="what-else-should-i-know"></a>Informations supplémentaires

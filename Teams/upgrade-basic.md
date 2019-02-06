@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0b6940a2e58a0a459c6f7858c0d7bd19f53ca39
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: ccc958aaba8546f1af8f8bb1644d0fdeea8f0860
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594413"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754298"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -153,7 +153,7 @@ Les utilisateurs sont occupés avec leurs responsabilités quotidiennes. Rappele
 
 *(Mise à niveau jour)*
 
-Aujourd'hui est le jour de que votre organisation officiellement met à niveau aux équipes comme solution de communication et de collaboration. Dans les équipes & Skype entreprise centre d’administration, activez le commutateur de mise à niveau en configurant le mode de coexistence pour **Les équipes uniquement**. (Dans le centre d’administration, accédez à **paramètres à l’échelle de la société** > **Équipes de mise à niveau**.) Les utilisateurs recevront une notification dans leur Skype pour client Business qu’ils ont été mis à niveau vers les équipes.
+Aujourd'hui est le jour de que votre organisation officiellement met à niveau aux équipes comme solution de communication et de collaboration. Dans le centre d’administration Microsoft Teams, activez le commutateur de mise à niveau en configurant le mode de coexistence pour **Les équipes uniquement**. (Dans le centre d’administration, accédez à **paramètres à l’échelle de la société** > **Équipes de mise à niveau**.) Les utilisateurs recevront une notification dans leur Skype pour client Business qu’ils ont été mis à niveau vers les équipes.
 
 Nous vous recommandons qu’une fois que tout le monde a été mis à niveau, vous envoyer un message électronique accueillir les équipes.
 

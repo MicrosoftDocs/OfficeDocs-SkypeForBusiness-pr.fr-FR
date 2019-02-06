@@ -23,18 +23,18 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Découvrez les Analytique d’appel et appel du tableau de bord qualité quand et comment les utiliser pour analyser et résoudre les problèmes de qualité des appels.
-ms.openlocfilehash: 8f664dfc8a609e23485f1dd935c00d8e5a745943
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: b4c009d356453b11ecf4af70380491f69f843188
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742988"
+ms.locfileid: "29754637"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Appel Analytique et tableau de bord de qualité des appels
 
 Microsoft Teams et Skype pour les entreprises permettent de deux manières pour surveiller et résoudre les problèmes de qualité des appels : Analytique d’appel et appel du tableau de bord qualité. Cet article décrit les deux et vous indique quand utiliser chacune d’elles.
   
-**Appel Analytique est maintenant disponible dans le Microsoft Teams et Skype entreprise centre d’administration.** Pour afficher toutes les informations d’appel et les données d’un utilisateur, utilisez l’onglet **Historique des appels** . Vous pouvez procéder par la recherche sur la page de profil utilisateur par une recherche de l’utilisateur du tableau de bord ou la recherche de l’utilisateur des **utilisateurs** dans le volet de navigation gauche.
+**Appel Analytique est désormais disponible dans le centre d’administration Microsoft Teams.** Pour afficher toutes les informations d’appel et les données d’un utilisateur, utilisez l’onglet **Historique des appels** . Vous pouvez procéder par la recherche sur la page de profil utilisateur par une recherche de l’utilisateur du tableau de bord ou la recherche de l’utilisateur des **utilisateurs** dans le volet de navigation gauche.
 
 > [!IMPORTANT]
 > Autorisations de l’agent de support technique et le téléchargement de topologie réseau seront disponibles dans le nouveau portail d’administration dans les mois à venir. En attendant, vous pouvez continuer à utiliser https://adminportal.services.skypeforbusiness.com pour l’accès de support technique de niveau 1 et niveau 2.
@@ -43,7 +43,7 @@ Microsoft Teams et Skype pour les entreprises permettent de deux manières pour 
 
 Appel Analytique affiche des informations détaillées sur les périphériques, les réseaux et connectivité liés aux appels spécifiques et des réunions pour chaque utilisateur de Microsoft Teams Skype pour un compte professionnel. Si vous êtes un administrateur Office 365, vous pouvez utiliser Analytique appeler pour résoudre les problèmes de qualité et connexion appel dans Microsoft Teams et Skype pour les entreprises.
 
-Pour afficher ces informations pour un utilisateur dans le & Microsoft Teams Skype entreprise centre d’administration, cliquez sur l’onglet **Historique des appels** pour cet utilisateur dans la page de détails utilisateur, en affichant tous les appels et les réunions que l’utilisateur a participé à des 30 derniers jours.
+Pour afficher ces informations pour un utilisateur dans le centre d’administration Microsoft Teams, cliquez sur l’onglet **Historique des appels** pour cet utilisateur dans la page de détails utilisateur, en affichant tous les appels et les réunions que l’utilisateur a participé à des 30 derniers jours.
 
 ![Données utilisateur d’appel analytique.](media/call-analytics-user-data.png)
 
@@ -51,7 +51,7 @@ Pour obtenir des informations supplémentaires sur une session donnée, y compri
 
 ![Appeler des données de session utilisateur analytique.](media/call-analytics-user-data-session.png)
 
-Si vous souhaitez que non-Admin, tels que les agents de support technique d’un fournisseur externe, pour utiliser appel Analytique, vous pouvez attribuer les autorisations afin qu’ils peuvent utiliser Analytique appeler, mais ils ne peuvent pas accéder le reste de la & Microsoft Teams Skype entreprise centre d’administration : 
+Si vous souhaitez que non-Admin, tels que les agents de support technique d’un fournisseur externe, pour utiliser l’appel Analytique, vous pouvez attribuer les autorisations afin qu’ils peuvent utiliser Analytique d’appel, mais ils ne peuvent pas accéder le reste du centre d’administration Microsoft Teams : 
   
 - **Prend en charge les agents de support technique avec communications autorisations spécialiste**: Agents voir un ensemble limité de données et les informations d’identification personnelle (PII) dans l’appel d’Analytique. Ils peuvent résoudre les appels, mais ils transmet des problèmes avec les réunions pour un ingénieur du support technique communications.
     
@@ -63,7 +63,7 @@ Si vous souhaitez que non-Admin, tels que les agents de support technique d’un
 Pour plus d’informations sur les communications spécialiste prise en charge et les communications prennent en charge les rôles ingénieur, voir [utiliser les équipes Microsoft des rôles d’administration pour gérer les équipes](using-admin-roles.md).
 
 > [!IMPORTANT]
-> Autorisations de l’agent de support technique et le téléchargement de topologie réseau sont disponibles dans le & Microsoft Teams Skype entreprise centre d’administration. Spécialistes du Support de communications et de Communications ingénieurs du support technique peuvent utiliser ce portail pour accéder aux Analytique des appels et le tableau de bord qualité des appels.
+> Autorisations de l’agent de support technique et téléchargement de topologie réseau sont disponibles dans le centre d’administration Microsoft Teams. Spécialistes du Support de communications et de Communications ingénieurs du support technique peuvent utiliser ce portail pour accéder aux Analytique des appels et le tableau de bord qualité des appels.
     
 Pour plus d’informations sur la configuration Analytique d’appel, voir [Set up Skype pour Business appeler Analytique](set-up-call-analytics.md). Pour plus d’informations sur comment les agents du support technique peuvent fonctionner avec Analytique d’appel, voir [Utiliser appel Analytique pour résoudre les problèmes d’appel de mauvaise qualité](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   

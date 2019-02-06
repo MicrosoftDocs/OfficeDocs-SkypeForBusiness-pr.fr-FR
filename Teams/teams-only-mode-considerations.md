@@ -1,5 +1,5 @@
 ---
-title: Considérations relatives au mode uniquement des équipes
+title: Considérations relatives au mode Teams uniquement
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,20 +14,20 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39212613b7ecf86e7138c90adfbf5dc3a021ac46
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: d6342ba15ac05e9b26b2f62499c84fe43631ca94
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988239"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754510"
 ---
-# <a name="teams-only-mode-considerations"></a>Considérations relatives au mode uniquement des équipes
+# <a name="teams-only-mode-considerations"></a>Considérations relatives au mode Teams uniquement
 
-Si vous êtes un administrateur sur votre client Office 365, vous verrez maintenant l’option de mise à niveau vers le mode équipes uniquement dans le Microsoft Teams & Skype entreprise centre d’administration.  Grâce à cette fonctionnalité vous pouvez mettre à niveau des utilisateurs individuels, soit également le client entière.  
+Si vous êtes un administrateur sur votre client Office 365, vous verrez maintenant l’option de mise à niveau vers le mode équipes uniquement dans le centre d’administration Microsoft Teams. Grâce à cette fonctionnalité vous pouvez mettre à niveau des utilisateurs individuels, soit également le client entière.  
 
 Mise à niveau vers les équipes uniquement en mode offre aux utilisateurs le meilleur parti de Microsoft Teams, le concentrateur de travail d’équipe dans Office 365, via une expérience client unique. En outre, les utilisateurs en mode équipes uniquement recevra tous les appels et conversations dans les équipes, indépendamment de si l’expéditeur est à l’aide de Skype pour les équipes ou de l’entreprise et bénéficier de la prise en charge de l’interopérabilité et la fédération.
 
-Alors que des milliers de clients ont été mis à niveau vers Microsoft Teams, il existe des considérations peuvent influer sur votre organisation mise à niveau chronologie et l’expérience utilisateur tout au long du processus. En particulier, la possibilité de mise à niveau ne signifie pas nécessairement que votre organisation est prête pour que cette modification. Pour la meilleure expérience utilisateur, vérifiez que les équipes répond à vos besoins de collaboration et de communication, assurez-vous que votre réseau est prêt à prendre en charge des équipes et implémenter votre plan de préparation utilisateur avant la mise à niveau des utilisateurs aux équipes. 
+Alors que des milliers de clients ont été mis à niveau vers Microsoft Teams, il existe des considérations peuvent influer sur votre organisation mise à niveau chronologie et l’expérience utilisateur tout au long du processus. En particulier, la possibilité de mise à niveau ne signifie pas nécessairement que votre organisation est prête pour que cette modification. Pour bénéficier de la meilleure expérience utilisateur, vérifiez que Teams répond à vos besoins en matière de collaboration et de communication, assurez-vous que votre réseau est prêt à prendre en charge Teams et implémentez votre plan de préparation des utilisateurs avant de les mettre à niveau vers Teams. 
 
 > [!IMPORTANT]
 > Si vous débutez votre planification de la mise à niveau, veillez à consulter notre Guide de mise à niveau complète et la planification des ressources. [Commencez ici](upgrade-introduction.md). 

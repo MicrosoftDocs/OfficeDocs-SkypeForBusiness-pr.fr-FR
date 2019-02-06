@@ -15,28 +15,29 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.meetingsettings.overview
 MS.collection: Teams_ITAdmin_Help
 description: Découvrez comment gérer les paramètres pour les réunions d’équipes qui planifient des utilisateurs dans votre organisation.
-ms.openlocfilehash: 1e3415b1fd17a863e14a79fcc66b32e6749b39e7
-ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
+ms.openlocfilehash: e4eba5f585f7621add95101d06194bebead507e2
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27283548"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754416"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
-En tant qu’administrateur, vous utilisez les paramètres de réunion équipes pour contrôler si les utilisateurs anonymes peuvent participer à des réunions d’équipes, personnaliser les invitations aux réunions et si vous souhaitez activer la qualité de Service (QoS), définir les ports pour le trafic en temps réel. Ces paramètres s’appliquent à toutes les réunions d’équipes cette planification, les utilisateurs de votre organisation. Vous gérer ces paramètres à partir de **réunions** > **paramètres de réunion** dans le Microsoft Teams & Skype entreprise centre d’administration. 
+En tant qu’administrateur, vous utilisez les paramètres de réunion équipes pour contrôler si les utilisateurs anonymes peuvent participer à des réunions d’équipes, personnaliser les invitations aux réunions et si vous souhaitez activer la qualité de Service (QoS), définir les ports pour le trafic en temps réel. Ces paramètres s’appliquent à toutes les réunions d’équipes cette planification, les utilisateurs de votre organisation. Vous gérer ces paramètres à partir de **réunions** > **paramètres de réunion** dans le centre d’administration Microsoft Teams. 
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Autoriser les utilisateurs anonymes à participer à des réunions
 
 Avec la participation anonyme, tout le monde peut joindre la réunion en tant qu’utilisateur anonyme en cliquant sur le lien dans l’invitation à la réunion. 
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide les équipes Microsoft & Skype entreprise centre d’administration
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
 1. Dans la navigation de gauche, accédez à des **réunions** > **paramètres de réunion**. 
 2. Sous **Participants**, activez **les utilisateurs anonymes peuvent participer à une réunion**. 
 
-    ![réunion-paramètres-participants.png] (media/meeting-settings-participants.png "Capture d’écran des paramètres des participants pour les réunions d’équipes dans les équipes Microsoft & Skype entreprise centre d’administration")
+    ![réunion-paramètres-participants.png] (media/meeting-settings-participants.png "Capture d’écran des paramètres des participants pour les réunions d’équipes dans le centre d’administration Microsoft équipes")
 
 Si vous ne voulez pas que les utilisateurs anonymes à participer à des réunions planifiées par les utilisateurs de votre organisation, désactivez ce paramètre. 
+
 ## <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
 Vous pouvez personnaliser les invitations à des équipes pour répondre aux besoins de votre organisation. Vous pouvez ajouter le logo de votre organisation et inclure des informations utiles, telles que des liens vers votre site Web de support et exclusion de responsabilité et un pied de page en lecture seule. 
@@ -49,7 +50,7 @@ Vous pouvez personnaliser les invitations à des équipes pour répondre aux bes
 
 ### <a name="customize-your-meeting-invitations"></a>Personnaliser vos invitations aux réunions
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide les équipes Microsoft & Skype entreprise centre d’administration
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
 
 1. Dans la navigation de gauche, accédez à des **réunions** > **paramètres de réunion**.
 2. Sous **invitation par courrier électronique**, procédez comme suit : 
@@ -65,12 +66,12 @@ Vous pouvez personnaliser les invitations à des équipes pour répondre aux bes
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Définir la manière dont vous souhaitez gérer le trafic multimédia en temps réel pour les réunions d’équipes
 Si vous utilisez la qualité de Service (QoS) pour définir la priorité du trafic réseau, vous pouvez activer les indicateurs de qualité de service et vous pouvez définir des plages de ports pour chaque type de trafic multimédia. 
 
- ![les équipes-logo-30x30.png](media/teams-logo-30x30.png) Avec le modèle Microsoft Teams & Skype entreprise centre d’administration
+ ![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
 
 1. Dans la navigation de gauche, accédez à des **réunions** > **paramètres de réunion**. 
 2. Sous **réseau**, procédez comme suit :
 
-    ![réunion-paramètres-network.png] (media/meeting-settings-network.png "Capture d’écran des paramètres du réseau pour les réunions d’équipes dans les équipes Microsoft & Skype entreprise centre d’administration")
+    ![réunion-paramètres-network.png] (media/meeting-settings-network.png "Capture d’écran des paramètres du réseau pour les réunions d’équipes dans le centre d’administration Microsoft équipes")
 
     - Pour activer les indicateurs de qualité de service, activer **marqueurs insérer qualité de Service (QoS) pour le trafic multimédia en temps réel**.
     - Pour spécifier les plages de ports, en regard de **Sélectionner une plage de ports pour chaque type de trafic multimédia en temps réel**, sélectionnez **spécifier les plages de ports**, puis entrez les ports de départ et de fin pour l’audio, vidéo et partage d’écran. 

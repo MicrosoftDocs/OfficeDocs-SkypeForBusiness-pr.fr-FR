@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e51042d5478dbaeb89691b9ad482955055a58ac
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 660b838c38da478be2f1226fcdd1b104c3b10b54
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706370"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753931"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de vérification de l’accès invité équipes
 ==========================================
@@ -86,9 +86,9 @@ Pour obtenir des instructions détaillées sur la configuration de ces paramètr
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Étape 3 : activer l’accès invité au niveau du client
 
-Au minimum, vous devez activer l’accès invité pour Microsoft Teams sous les **équipes Microsoft & Skype entreprise centre d’administration**. 
+Au minimum, vous devez activer l’accès invité pour Teams Microsoft dans le **Centre d’administration équipes Microsoft**. 
 
-1. Dans les équipes & Skype entreprise centre d’administration, sélectionnez **paramètres à l’échelle de la société** > **accès invité**.
+1. Dans le centre d’administration équipes, sélectionnez **paramètres à l’échelle de la société** > **accès invité**.
 2. Configurer le commutateur **Autoriser l’accès invité dans les équipes Microsoft** **sur**.
 
     ![Capture d’écran montre un exemple d’un bouton Paramètres d’équipes](media/set-up-guests-image1.png)

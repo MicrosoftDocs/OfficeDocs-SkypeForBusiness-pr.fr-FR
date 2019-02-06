@@ -1,5 +1,5 @@
 ---
-title: Création de rapports et analytique Microsoft Teams
+title: Analyses et rapports Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -11,32 +11,32 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
-description: Découvrez les rapports des équipes qui sont disponibles dans le Microsoft Teams & Skype entreprise centre d’administration.
+description: Découvrez les rapports des équipes qui sont disponibles dans le centre d’administration Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a61078b3b883f4abadf415fa295d9739067124
-ms.sourcegitcommit: 768c7b5f0aaa4b38a0b98c7c9ff904ffedd2e9b9
+ms.openlocfilehash: 8759de65058c6f2c418622df05028b3c03c94aa6
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27893268"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754622"
 ---
-# <a name="microsoft-teams-analytics-and-reporting"></a>Création de rapports et analytique Microsoft Teams
+# <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
-Un nouveau analytique et les rapports d’expérience pour Microsoft Teams est disponible dans le Microsoft Teams & Skype entreprise centre d’administration. Vous pouvez exécuter différents rapports pour obtenir des informations sur comment les utilisateurs de votre organisation utilisent les équipes. Par exemple, vous pouvez voir combien d’utilisateurs communiquer par le biais de canal et les messages de conversation et les types d’appareils qu'ils utilisent pour se connecter aux équipes. Votre organisation peut utiliser les informations provenant de rapports pour mieux comprendre les modèles d’utilisation, prendre des décisions et informer les efforts de formation et de communication.
+Un nouveau analytique et les rapports d’expérience pour Microsoft Teams est disponible dans le centre d’administration Microsoft Teams. Vous pouvez exécuter différents rapports pour obtenir des informations sur comment les utilisateurs de votre organisation utilisent les équipes. Par exemple, vous pouvez voir combien d’utilisateurs communiquer par le biais de canal et les messages de conversation et les types d’appareils qu'ils utilisent pour se connecter aux équipes. Votre organisation peut utiliser les informations provenant de rapports pour mieux comprendre les modèles d’utilisation, prendre des décisions et informer les efforts de formation et de communication.
 
 ## <a name="how-to-access-the-reports"></a>Comment accéder aux rapports
 
-Pour accéder aux rapports, vous devez être un administrateur global dans Office 365, un administrateur du service équipes ou Skype pour l’administrateur d’entreprise  Accédez au portail Microsoft Teams & Skype pour la navigation de gauche, du centre d’administration Business sélectionnez **Analytique et rapports**, puis, sous **état**, sélectionnez le rapport que vous souhaitez exécuter.
+Pour accéder aux rapports, vous devez être un administrateur global dans Office 365, un administrateur du service équipes ou Skype pour l’administrateur d’entreprise  Accédez au centre d’administration Microsoft Teams, dans la navigation de gauche, sélectionnez **rapports de & Analytique**, puis, sous **état**, sélectionnez le rapport que vous souhaitez exécuter.
 
 > [!NOTE]
-> Les rapports dans le Microsoft Teams & Skype entreprise centre d’administration sont séparés des rapports d’activité pour les équipes qui font partie des rapports Office 365 dans le centre d’administration d’Office 365. Pour plus d’informations sur les rapports d’activité dans le centre d’administration d’Office 365, voir [utiliser des rapports pour les équipes Microsoft activité](../teams-activity-reports.md)
+> Les rapports dans le centre d’administration Microsoft Teams sont séparés des rapports d’activité pour les équipes qui font partie des rapports Office 365 dans le centre d’administration d’Office 365. Pour plus d’informations sur les rapports d’activité dans le centre d’administration d’Office 365, voir [utiliser des rapports pour les équipes Microsoft activité](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Équipes de référence de création de rapports
 
-Voici une liste des rapports équipes disponibles dans le Microsoft Teams & Skype pour le centre d’administration Business et une vue d’ensemble des informations disponibles dans chaque rapport.
+Voici une liste des équipes rapports disponibles dans le centre d’administration Microsoft Teams et une vue d’ensemble des informations disponibles dans chaque rapport.
 
-Nous allons amélioration continue les équipes expérience de création de rapports et ajout de fonctionnalités. Au fil du temps, nous à intégrer des fonctionnalités supplémentaires dans les rapports et ajout de nouveaux rapports dans le Microsoft Teams & Skype entreprise centre d’administration.
+Nous allons amélioration continue les équipes expérience de création de rapports et ajout de fonctionnalités. Au fil du temps, nous à intégrer des fonctionnalités supplémentaires dans les rapports et ajout de nouveaux rapports dans le centre d’administration Microsoft Teams.
 
 |Rapport  |Quelles données sont mesurées ? |
 |---------|---------|

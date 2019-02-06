@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Analytique appeler plus d’informations sur les appareils, les réseaux et connectivité permet de résoudre les problèmes d’utilisateur avec Microsoft Teams et Skype pour les réunions et les appels professionnels.
-ms.openlocfilehash: 45512012beb07403239ccd2f681edb7f0f9eff41
-ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
+ms.openlocfilehash: 3e35a72150d74580d1f44623583419b37e3ad1c5
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29442412"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754064"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels
 
@@ -37,17 +37,17 @@ Appel Analytique vous permet de résoudre les problèmes de connexion ou appel a
   
 ## <a name="call-analytics-permissions"></a>Autorisations d’appel Analytique
 
-En tant que l’administrateur, vous obtenez un accès total à toutes les fonctionnalités d’appel d’Analytique. En outre, vous pouvez assigner des rôles d’Azure Active Directory au personnel de support. Attribuer le rôle de spécialiste de prise en charge de communications équipes aux utilisateurs qui doivent avoir une vue limitée d’Analytique d’appel. Attribuer le rôle de technicien de prise en charge de communications équipes aux utilisateurs qui ont besoin d’accéder à toutes les fonctionnalités d’appel d’Analytique. Les deux niveaux d’autorisation empêche l’accès au reste du & Microsoft Teams Skype entreprise centre d’administration.
+En tant que l’administrateur, vous obtenez un accès total à toutes les fonctionnalités d’appel d’Analytique. En outre, vous pouvez assigner des rôles d’Azure Active Directory au personnel de support. Attribuer le rôle de spécialiste de prise en charge de communications équipes aux utilisateurs qui doivent avoir une vue limitée d’Analytique d’appel. Attribuer le rôle de technicien de prise en charge de communications équipes aux utilisateurs qui ont besoin d’accéder à toutes les fonctionnalités d’appel d’Analytique. Les deux niveaux d’autorisation empêche l’accès au reste du centre d’administration Microsoft Teams.
 
 Gérer les spécialistes du support de communications des problèmes fondamentaux de la qualité des appels. Ils n’examiner les problèmes liés à des réunions. Au lieu de cela, ils collecter des informations connexes et puis réaffecter à un ingénieur du support technique communications. Ingénieurs du support technique communications affichent les informations dans les journaux d’appels détaillées a masqué communications spécialistes du support. Le tableau suivant donne une vue d’ensemble des informations disponibles à communications prise en charge des spécialistes et communications ingénieurs lorsqu’ils utilisent Analytique d’appel.
 
 Le niveau d’autorisation attribué détermine le type d’informations que vous avez accès à dans Analytique des appels :
   
-- **Les équipes de service de communications administrateur ou équipes**: vous avez accès à toutes les informations dans Analytique des appels et le & équipes Skype entreprise centre d’administration.
+- **Les équipes de service de communications administrateur ou équipes**: vous avez accès à toutes les informations dans Analytique d’appel et dans le centre d’administration Microsoft Teams.
     
-- **Spécialiste du support communications équipes**: vous voyez un ensemble limité de données d’appel d’Analytique. Vous pouvez résoudre les appels, mais vous allez remettre des problèmes avec les réunions à un ingénieur du support technique équipes communications. Vous n’avez pas accès au reste du & équipes Skype entreprise centre d’administration.
+- **Spécialiste du support communications équipes**: vous voyez un ensemble limité de données d’appel d’Analytique. Vous pouvez résoudre les appels, mais vous allez remettre des problèmes avec les réunions à un ingénieur du support technique équipes communications. Vous n’avez pas accès au reste du centre d’administration Microsoft Teams.
     
-- **Prend en charge les équipes communications ingénieur**: vous voir toutes les données disponibles dans Analytique appeler et peuvent aider à résoudre des problèmes avec les appels et les réunions. Vous n’avez pas accès au reste du & équipes Skype entreprise centre d’administration.
+- **Prend en charge les équipes communications ingénieur**: vous voir toutes les données disponibles dans Analytique appeler et peuvent aider à résoudre des problèmes avec les appels et les réunions. Vous n’avez pas accès au reste du centre d’administration Microsoft Teams.
     
 > [!NOTE]
 > Le rôle de spécialiste de prise en charge des communications est équivalent au support de niveau 1 et le rôle ingénieur de prise en charge des communications est équivalent au support de niveau 2.
@@ -66,7 +66,7 @@ Voir les équipes Skype pour administrateur d’entreprise si vous avez besoin d
     
 4. Dans le **tableau de bord**, de la **Recherche d’un utilisateur**, commencez à taper le nom ou adresse sip de l’utilisateur dont les appels pour résoudre les problèmes ou sélectionnez **Afficher les utilisateurs** de voir une liste d’utilisateurs.
     
-    ![Capture d’écran de la zone de recherche d’un utilisateur d’Analytique appeler dans la & équipes Skype entreprise centre d’administration.](media/use-call-analytics-to-troubleshoot-image-1.png)
+    ![Capture d’écran de la zone de recherche d’un utilisateur de l’appel d’Analytique dans le centre d’administration Microsoft Teams.](media/use-call-analytics-to-troubleshoot-image-1.png)
   
 5. Sélectionnez l’utilisateur dans la liste.
 

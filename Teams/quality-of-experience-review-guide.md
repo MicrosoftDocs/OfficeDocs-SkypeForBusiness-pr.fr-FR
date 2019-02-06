@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa50607a01888f776c480b33af52fccd67a1b7b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 34ec9518c8f5406b3bb6c489d571d89f50f34b34
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373174"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754825"
 ---
 # <a name="quality-of-experience-review-guide"></a>Qualité de consulter le Guide de l’expérience
 
@@ -463,11 +463,11 @@ Vous pouvez accéder CQD de trois manières :
 
 -   Accédez à <https://cqd.lync.com>.
 
--   Accédez à des **équipes Microsoft & Skype entreprise centre d’administration** et sélectionnez le lien vers CQD, comme indiqué dans l’illustration suivante.
+-   Accédez au **Centre d’administration d’équipes Microsoft** et sélectionnez le lien vers CQD, comme indiqué dans l’illustration suivante.
 
 ![Dans le volet de navigation de gauche, le lien vers le tableau de bord de qualité des appels est sélectionné.] (media/qerguide-image-mopo.png "Dans le volet de navigation de gauche, le lien vers le tableau de bord de qualité des appels est sélectionné.")
 
-_La figure 7 – l’accès à CQD via les équipes Microsoft & Skype entreprise centre d’administration_
+_La figure 7 – accès CQD via le centre d’administration Microsoft Teams_
 
 -   Accédez à la hérité **Skype pour le centre d’administration de Business** > **Outils**, puis sélectionnez le lien vers CQD, comme indiqué dans l’illustration suivante.
 
@@ -627,18 +627,18 @@ _Tableau 5 : création de structure de fichier_
 
 | Nom de la colonne        | Type de données | Exemple                   | Conseils    |
 |--------------------|-----------|---------------------------|-------------|
-| Réseau            | Chaîne    | 192.168.1.0               | Obligatoire    |
-| Nom_réseau        | Chaîne    | États-Unis/Seattle/SEATTLE-marin-1 | Obligatoire\*  |
+| Réseau            | String    | 192.168.1.0               | Obligatoire    |
+| Nom_réseau        | String    | États-Unis/Seattle/SEATTLE-marin-1 | Obligatoire\*  |
 | NetworkRange       | Numéro    | 26                        | Obligatoire    |
-| BuildingName       | Chaîne    | SEATTLE-MARIN-1             | Obligatoire\*  |
-| OwnershipType      | Chaîne    | Contoso                   | Facultatif    |
-| BuildingType       | Chaîne    | Arrêt de l’informatique            | Facultatif    |
-| BuildingOfficeType | Chaîne    | Ingénierie               | Facultatif    |
-| Ville               | Chaîne    | Seattle                   | Recommandation |
-| Code postal            | Chaîne    | 98001                     | Recommandation |
-| Pays            | Chaîne    | NOUS                        | Recommandation |
-| État              | Chaîne    | WA                        | Recommandation |
-| Région             | Chaîne    | MSUS                      | Recommandation |
+| BuildingName       | String    | SEATTLE-MARIN-1             | Obligatoire\*  |
+| OwnershipType      | String    | Contoso                   | Facultatif    |
+| BuildingType       | String    | Arrêt de l’informatique            | Facultatif    |
+| BuildingOfficeType | String    | Ingénierie               | Facultatif    |
+| Ville               | String    | Seattle                   | Recommandation |
+| ZipCode            | String    | 98001                     | Recommandation |
+| Pays            | String    | NOUS                        | Recommandation |
+| État              | String    | WA                        | Recommandation |
+| Région             | String    | MSUS                      | Recommandation |
 | InsideCorp         | Bool      | 1                         | Obligatoire    |
 | ExpressRoute       | Bool      | 0                         | Obligatoire    |
 
@@ -786,7 +786,7 @@ Ces outils sont basés sur PowerShell et peuvent tirer parti des Sites Active Di
 
 Pour plus d’informations sur cet outil, voir [ce billet de blog](https://aka.ms/cqdtools).
 
-#### <a name="network-planner"></a>Planificateur de réseau
+#### <a name="network-planner"></a> Planificateur de réseau
 
 Le Planificateur de réseau détermine et organise des besoins de votre réseau pour votre déploiement de voix dans le nuage en quelques étapes simples. Grâce à que votre organisation de l’accès réseau détails et utilisation de la voix dans le nuage, vous pouvez obtenir un calcul approximatif de la configuration réseau requise pour votre déploiement de voix dans le nuage, gérer et exporter ces informations pour la création de rapports et afficher des zones pour une analyse plus poussée et suivre les étapes ci-après.
 
@@ -801,7 +801,7 @@ Microsoft surveillance proactive télémétrie CQD pour créer des alertes de di
 
 _Tableau 6 - alertes de Diagnostic_
 
-| Alerte                                                                | Informations complémentaires             |
+| Alerte                                                                | Plus d’informations             |
 |----------------------------------------------------------------------|------------------------------|
 | Connus médiocres versions du client sont en cours d’utilisation                   | [Versions du client](#client-versions)              |
 | Pilotes audio sont à l’origine de projections d’appel                                 | [Périphériques](#devices)                      |
@@ -1206,7 +1206,7 @@ _La figure 30 - état de la version de Client_
 
 #### <a name="diagnostic-alert"></a>Alerte de diagnostic
 
-Si vous avez reçu un diagnostic l’alerte « connus médiocres versions du client sont en cours d’utilisation », vous concentrer tout d’abord la mise à jour des clients. L’alerte a identifié que ces clients sont affecter négativement la qualité des appels. Vous pouvez utiliser le rapport du Client et les périphériques (illustré ci-dessus) pour vous assurer que les clients qui ont des problèmes connus sont ne sont plus mis à jour.
+Si vous avez reçu un diagnostic l’alerte « connus médiocres versions du client sont en cours d’utilisation », vous concentrer tout d’abord la mise à jour des clients. L’alerte a identifié que ces clients sont affecter négativement la qualité des appels. Vous pouvez utiliser la & Client rapport d’appareils (illustré ci-dessus) pour vous assurer que les clients qui ont des problèmes connus sont ne sont plus mis à jour.
 
 #### <a name="remediation"></a>Mise à jour
 
@@ -1245,7 +1245,7 @@ Le jeu disponible de MOS et mesures associé fournit une vue de la qualité de l
 
 En fournissant aux utilisateurs des périphériques certifiés pour les équipes et Skype pour les entreprises, vous réduisez la probabilité de rencontrer des expériences négatives en raison de l’appareil lui-même (qui est plus probable, par exemple, avec les microphones et les haut-parleurs intégrés). Pour plus d’informations, voir ces articles sur le [programme de certification](/SkypeForBusiness/certification/overview) et le [catalogue des solutions partenaires](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs).
 
-Les rapports de périphériques sont utilisés pour évaluer l’utilisation du périphérique en volume et MOS score (audio uniquement) et se trouve dans les modèles d’accompagnement sous Clients et périphériques. 
+Les rapports de périphériques sont utilisés pour évaluer l’utilisation du périphérique en volume et MOS score (audio uniquement) et se trouve dans les modèles d’accompagnement sous Clients & périphériques. 
 
 > [!IMPORTANT]
 > Sauf si vous excluez les données de participants fédérées, ces rapports inclura télémétrie client à partir de points de terminaison fédérés. Pour exclure les points de terminaison fédérés, vous devez ajouter un filtre de requête pour **Second ID client** de votre organisation [d’ID de client](#tenant-id). Autrement, vous pouvez utiliser un [filtre d’URL](#url-filter) à exclure télémétrie participant fédéré.
@@ -1262,7 +1262,7 @@ _Figure 31 - signalent des périphériques (Microphone)_
 
 ##### <a name="diagnostic-alert"></a>Alerte de diagnostic
 
-Si vous avez reçu une alerte de diagnostic « pilotes Audio sont à l’origine de projections d’appel, » concentré sur corriger ces pilotes tout d’abord. L’alerte a identifié que mauvais pilotes connus sont à l’origine des appels pour supprimer et sont affecter la fiabilité des appels. Vous pouvez utiliser le rapport de pilotes Microphone (illustré ci-dessus), qui se trouve dans la section Client et les périphériques, pour faciliter le processus.
+Si vous avez reçu une alerte de diagnostic « pilotes Audio sont à l’origine de projections d’appel, » concentré sur corriger ces pilotes tout d’abord. L’alerte a identifié que mauvais pilotes connus sont à l’origine des appels pour supprimer et sont affecter la fiabilité des appels. Vous pouvez utiliser le Microphone-rapport sur les pilotes (illustré ci-dessus), qui se trouve dans la section périphériques de & Client, pour faciliter le processus.
 
 ##### <a name="remediation"></a>Mise à jour
 
@@ -1351,7 +1351,7 @@ Pour plus d’informations, consultez [cet article sur média qualité et les pe
 
 ### <a name="devices"></a>Périphériques
 
--   [Skype pour les Solutions métiers du catalogue de périphériques personnels & PC](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
+-   [Skype pour Business Solutions catalogue périphériques personnels & PC](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
 ### <a name="tenant-reporting"></a>Création de rapports de client
 

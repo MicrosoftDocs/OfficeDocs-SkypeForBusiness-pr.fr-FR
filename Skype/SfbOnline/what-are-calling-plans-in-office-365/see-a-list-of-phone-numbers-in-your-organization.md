@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Découvrez comment afficher une liste de tous les numéros de téléphone dans votre organisation, tous les numéros affectés aux utilisateurs et tous les numéros qui sont affectées aux utilisateurs de voix à partir de la Skype entreprise centre d’administration.
-ms.openlocfilehash: a6ab8115e1b336f2ccc77548fdfe501852efbda7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7cda5c0ae791436d9f584cc4af802bfbc3649fcc
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370698"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753481"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Affichage de la liste des numéros de téléphone de votre organisation
 
@@ -39,7 +39,7 @@ Il existe différents types de numéros de téléphone que vous pouvez affecter 
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans le panneau de navigation de gauche de **Centre d'administration Skype Entreprise**, sélectionnez **Voix** > **Numéros de téléphone**.
     
@@ -71,14 +71,14 @@ Lorsque vous configurez des utilisateurs, vous voudrez peut-être afficher uniqu
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans le panneau de navigation de gauche de **Centre d'administration Skype Entreprise**, sélectionnez **Voix** > **Utilisateurs Voix**.
     
     > [!IMPORTANT]
     > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
-4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
+4. Vous pouvez filtrer l’affichage pour les numéros de téléphone qui sont affectés à des utilisateurs ou des numéros de téléphone que vous pouvez affecter à un utilisateur. Vous pouvez filtrer par :
     
    - **Tous** les numéros de téléphone y compris les numéros de service
     
@@ -95,14 +95,14 @@ Lorsque vous configurez des utilisateurs de votre organisation pour passer et re
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans le panneau de navigation de gauche de **Centre d'administration Skype Entreprise**, sélectionnez **Voix** > **Utilisateurs Voix**.
     
     > [!IMPORTANT]
     > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
-4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
+4. Si l’utilisateur est en ligne ou sur site, ou l’état et le type de licence pour un utilisateur, vous pouvez utiliser la liste déroulante pour filtrer l’affichage pour les utilisateurs actifs. Vous pouvez filtrer par :
     
    - **Utilisateurs actifs** et utilisateurs en ligne ou sur site
     
@@ -117,6 +117,6 @@ Lorsque vous configurez des utilisateurs de votre organisation pour passer et re
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

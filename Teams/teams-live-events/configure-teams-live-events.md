@@ -1,5 +1,5 @@
 ---
-title: Configurer les paramètres de l’événement en direct dans Microsoft Teams
+title: Configurer les paramètres d’événements en direct dans Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -14,32 +14,32 @@ description: Découvrez comment gérer les paramètres pour les événements liv
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8e12b6b85b61bb8c6312054be07dc37365c62c0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5dec5d34721bc30001972590c4501045a6e46ca8
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532248"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754478"
 ---
-# <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurer les paramètres de l’événement en direct dans Microsoft Teams
+# <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurer les paramètres d’événements en direct dans Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Utilisez les paramètres d’événements en direct équipes pour configurer les paramètres pour les événements live qui sont stockés dans votre organisation. Vous pouvez configurer une URL de prise en charge et configurer un fournisseur de distribution vidéo tiers. Ces paramètres s’appliquent à tous les événements live qui sont créés dans votre organisation. 
 
-Vous pouvez facilement gérer ces paramètres dans le Microsoft Teams & Skype entreprise centre d’administration. Dans la navigation de gauche, accédez à des **réunions** > **paramètres d’événements en direct**. 
+Vous pouvez facilement gérer ces paramètres dans le centre d’administration Microsoft Teams. Dans la navigation de gauche, accédez à des **réunions** > **paramètres d’événements en direct**. 
 
-![settings.png-événement Live] (../media/teams-live-events-settings.png "Capture d’écran des équipes live paramètres des événements que vous pouvez configurer dans les équipes Microsoft & Skype entreprise centre d’administration") 
+![settings.png-événement Live] (../media/teams-live-events-settings.png "Capture d’écran des équipes live paramètres des événements que vous pouvez configurer dans le centre d’administration Microsoft équipes") 
 
 ## <a name="set-up-event-support-url"></a>Configurer des URL de support d’événements
 
 Cette URL est affichée en direct des participants de l’événement. Ajoutez l’URL de la prise en charge pour votre organisation pour donner à un moyen de contacter le support pendant un événement live participants.
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![les équipes-logo-30x30.png](../media/teams-logo-30x30.png) Avec le modèle Microsoft Teams & Skype entreprise centre d’administration
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![les équipes-logo-30x30.png](../media/teams-logo-30x30.png) À l’aide du centre d’administration Microsoft Teams
 
 1. Dans la navigation de gauche, accédez à des **réunions** > **paramètres événements Live**.
 2. Sous **Prennent en charge les URL**, entrez les URL de support de votre organisation. 
 
-    ![Paramètre d’URL de support pour les événements dans les équipes Microsoft & Skype entreprise centre d’administration en direct] (../media/teams-live-events-settings-supporturl.png "Capture d’écran de l’URL définition d’événements en direct pour les équipes de support")
+    ![Paramètre d’URL de support pour les événements dans le centre d’administration Microsoft équipes en direct] (../media/teams-live-events-settings-supporturl.png "Capture d’écran de l’URL définition d’événements en direct pour les équipes de support")
 
 ### <a name="using-windows-powershell"></a>Utilisation de Windows PowerShell
 Exécutez la commande suivante :
@@ -51,12 +51,12 @@ Pour plus d’informations, voir [Set-CsTeamsMeetingBroadcastConfiguration](http
 
 Si vous avez acheté et configurez une solution logicielle défini de network (SDN) ou une solution réseau (eCDN) de distribution de contenu d’entreprise par un partenaire de remise vidéo Microsoft, configurez le fournisseur pour les événements live dans les équipes. 
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![les équipes-logo-30x30.png](../media/teams-logo-30x30.png) Avec le modèle Microsoft Teams & Skype entreprise centre d’administration
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![les équipes-logo-30x30.png](../media/teams-logo-30x30.png) À l’aide du centre d’administration Microsoft Teams
 
 1. Dans la navigation de gauche, accédez à des **réunions** > **paramètres événements Live**.
 2. Sous les **fournisseurs de distribution vidéo tiers**, procédez comme suit : 
 
-    ![Paramètres du fournisseur tiers distribution vidéo dans les équipes Microsoft & Skype entreprise centre d’administration] (../media/teams-live-events-settings-distribution-provider.png "Capture d’écran de distribution vidéo tiers fournisseur décrivant les événements en direct")
+    ![Paramètres du fournisseur tiers distribution vidéo dans le centre d’administration Microsoft équipes] (../media/teams-live-events-settings-distribution-provider.png "Capture d’écran de distribution vidéo tiers fournisseur décrivant les événements en direct")
 
     - **Utilisation d’un fournisseur tiers distribution** Désactivez cette option actif pour activer le fournisseur de distribution vidéo tiers.
     - **Nom du fournisseur SDN** Sélectionnez le fournisseur que vous utilisez.

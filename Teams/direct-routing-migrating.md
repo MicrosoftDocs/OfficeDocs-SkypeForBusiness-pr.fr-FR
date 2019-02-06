@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez ce qui est nécessaire pour migrer vers routage Direct à partir d’un Skype pour Business en ligne et la perspective de configuration d’équipes.
-ms.openlocfilehash: 21ca5c94e07a6ff3ae7f5eb59d3f82c3aa78cc83
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4aeb9a2a2ba1bc8398896b2040276f08658194f5
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016188"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754470"
 ---
 # <a name="migrating-to-direct-routing"></a>Migration vers le routage Direct
 
@@ -39,18 +39,18 @@ Le tableau suivant indique l’état de fin d’un utilisateur mis en service po
 
 |Attributs d’objet utilisateur |Système téléphonique avec forfaits d’appels|Téléphone système localement avec une connectivité PSTN via Skype pour Business Server|Système de téléphone localement avec une connectivité PSTN via le connecteur sur le nuage|Système de téléphone localement avec une connectivité PSTN via le routage Direct|
 |---|---|---|---|---|
-|Client|Skype pour les équipes ou de l’entreprise |Skype Entreprise |Skype Entreprise |Teams|
-|Licences|Activité Skype en ligne</br>Plan 2</br></br>MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)</br></br></br>Offres d'appels</br>Teams|Skype Business Online Plan 2 (MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)|Skype Business Online Plan 2 (MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)|Skype Business Online Plan 2 (MCOProfessional ou MCOSTANDARD</br></br></br>Système téléphonique (MCOEV)</br></br>Teams|
-OnPremLineURI |N/D|Le numéro de téléphone doit être synchronisé depuis le site Active Directory. |Le numéro de téléphone peut être géré dans Active Directory de locale ou dans Azure Active Directory.|Le numéro de téléphone peut être géré dans Active Directory de locale ou dans Azure Active Directory. Toutefois, si l’organisation a Skype sur site pour les entreprises, le nombre doit être synchronisé à partir d’Active Directory local.|
+|Client|Skype pour les équipes ou de l’entreprise |Skype Entreprise |Skype Entreprise |Teams|
+|Licences|Activité Skype en ligne</br>Plan 2</br></br>MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)</br></br></br>Offres d'appels</br>Équipes|Skype Business Online Plan 2 (MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)|Skype Business Online Plan 2 (MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)|Skype Business Online Plan 2 (MCOProfessional ou MCOSTANDARD</br></br></br>Système téléphonique (MCOEV)</br></br>Équipes|
+OnPremLineURI |N/A|Le numéro de téléphone doit être synchronisé depuis le site Active Directory. |Le numéro de téléphone peut être géré dans Active Directory de locale ou dans Azure Active Directory.|Le numéro de téléphone peut être géré dans Active Directory de locale ou dans Azure Active Directory. Toutefois, si l’organisation a Skype sur site pour les entreprises, le nombre doit être synchronisé à partir d’Active Directory local.|
 |LineURI|Numéro de téléphone PSTN appelant|Définir automatiquement à partir du paramètre OnPremLineURI|Définir automatiquement à partir du paramètre OnPremLineURI|Définir automatiquement à partir du paramètre OnPremLineURI|
 |EnterpriseVoiceEnabled|True|True|True|True|
 |HostedVoiceMail |True|True|True|True|
 |VoicePolicy|BusinessVoice|HybridVoice|HybridVoice|HybridVoice|
 |HostedVoiceMailPolicy |BusinessVoice|BusinessVoice|BusinessVoice|BusinessVoice|
-|VoiceRoutingPolicy|A la valeur|A la valeur|A la valeur|N/D|
+|VoiceRoutingPolicy|A la valeur|A la valeur|A la valeur|N/A|
 |OnlineVoiceRoutingPolicy|$Null|$Null|$Null|A la valeur|
 |TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly ou (îles)|$Null|$Null|Îles ou TeamsOnly|
-|TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient – Veuillez lire la Remarque ci-dessous.|Des équipes ou SfB |SfB|SfB|Teams|
+|TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient – Veuillez lire la Remarque ci-dessous.|Des équipes ou SfB |SfB|SfB|Équipes|
 |TeamsCallingPolicy</br>AllowPrivateCalling|True|N/A|N/A|True|
 |TeamsCallingPolicy</br>AllowGroupCalling|True|N/A|N/A|True|
 ||||||
@@ -59,7 +59,7 @@ OnPremLineURI |N/D|Le numéro de téléphone doit être synchronisé depuis le s
 
 <sup>2</sup> Comme précédemment annoncé, TeamsInteropPolicy retirer (ciblé pour la fin de T3), et ses fonctionnalités sont consolidées dans TeamsUpgradePolicy. Interopérabilité et la migration sont gérés à l’aide du mode « coexistence » tel que déterminé par TeamsUpgradePolicy, qui est désormais disponible. Sélection du mode de l’utilisateur est déterminants de routage des conversations et les appels entrants et dans le client que l’utilisateur peut démarrer des conversations et les appels ou planifier des réunions. Tandis que TeamsInteropPolicy sera supprimé, il doit être défini en parallèle avec TeamsUpgradePolicy pendant la phaseout.  
 
-Dans le cadre de cette initiative, Microsoft a récemment mis le « Microsoft équipes & Skype pour entreprise centre d’administration » (également appelé Portal moderne) pour refléter le nouveau modèle de gestion basé sur les modes de coexistence. Dans le portail moderne, configuration TeamsUpgradePolicy vont désormais automatiquement également affecter TeamsInteropPolicy valeur cohérente, afin que TeamsInteropPolicy est n’est plus exposé dans l’interface utilisateur. Toutefois, les administrateurs à l’aide de PowerShell doit toujours définir à la fois TeamsUpgradePolicy et TeamsInteropPolicy pour garantir un routage correct. Une fois la transition vers TeamsUpgradePolicy terminée, il ne sera plus nécessaire de définir également TeamsInteropPolicy.
+Dans le cadre de cette initiative, Microsoft récemment mis à jour le « centre d’administration Microsoft Teams » (également appelé portail moderne) pour refléter le nouveau modèle de gestion basé sur les modes de coexistence. Dans le portail moderne, configuration TeamsUpgradePolicy vont désormais automatiquement également affecter TeamsInteropPolicy valeur cohérente, afin que TeamsInteropPolicy est n’est plus exposé dans l’interface utilisateur. Toutefois, les administrateurs à l’aide de PowerShell doit toujours définir à la fois TeamsUpgradePolicy et TeamsInteropPolicy pour garantir un routage correct. Une fois la transition vers TeamsUpgradePolicy terminée, il ne sera plus nécessaire de définir également TeamsInteropPolicy.
 
 Pour plus d’informations, reportez-vous à la [Migration et interopérabilité des instructions pour les organisations à l’aide des équipes avec Skype pour les entreprises](migration-interop-guidance-for-teams-with-skype.md).
 
@@ -111,7 +111,7 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 ## <a name="related-links"></a>LIENS CONNEXES
 
-[Guide de migration et d’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](migration-interop-guidance-for-teams-with-skype.md)
+[Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md)
 
 [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
 

@@ -1,5 +1,5 @@
 ---
-title: À propos de l’infrastructure de mise à niveau
+title: À propos du cadre de mise à niveau
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,14 +14,14 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e205eeb00373e66271c98405209df69b272f89a4
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 5a9a2bd4bfe1122fe31951f4382340a7bbd57b1f
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896146"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754566"
 ---
-# <a name="about-the-upgrade-framework"></a>À propos de l’infrastructure de mise à niveau
+# <a name="about-the-upgrade-framework"></a>À propos du cadre de mise à niveau
 
 Pour vous aider à incertitude sur votre parcours de mise à niveau, nous avons employé une infrastructure éprouvée pour l’implémentation de modification. Comme illustré ci-dessous, chaque étape de l’infrastructure s’appuie sur l’avant de l’étape et, pour des résultats optimaux, nous vous recommandons de suivant les étapes dans l’ordre.  
 
@@ -123,5 +123,5 @@ Afin d’illustrer comment votre parcours de mise à niveau peut se déroulent, 
 > Nos de mise à niveau est en constante évolution. Veillez à vérifier les conseils les plus récents et lire le [blog des équipes](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Si vous êtes un administrateur sur votre client Office 365, vous pouvez commencer à voir les options de mise à niveau dans votre applet de commande PowerShell & ou équipes de Skype entreprise centre d’administration. La possibilité de mise à niveau ne signifie pas nécessairement que votre organisation est prête pour que cette modification. Pour une expérience utilisateur optimale, vérifiez que les équipes répond à vos besoins de collaboration et de communication, vérifiez que votre réseau est prêt à prendre en charge des équipes et implémenter votre plan de préparation utilisateur avant la mise à niveau des utilisateurs aux équipes.
+> Si vous êtes un administrateur sur votre client Office 365, vous pouvez commencer à voir les options de mise à niveau dans votre applet de commande PowerShell ou le centre d’administration de Microsoft Teams. Avoir la possibilité d’effectuer la mise à niveau ne signifie pas nécessairement que votre organisation est prête pour ce changement. Pour une expérience utilisateur optimale, vérifiez que les équipes répond à vos besoins de collaboration et de communication, vérifiez que votre réseau est prêt à prendre en charge des équipes et implémenter votre plan de préparation utilisateur avant la mise à niveau des utilisateurs aux équipes.
  

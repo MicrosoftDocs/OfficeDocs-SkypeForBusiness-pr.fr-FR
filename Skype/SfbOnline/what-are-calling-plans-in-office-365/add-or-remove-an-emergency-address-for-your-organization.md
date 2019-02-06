@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: a1e1421e79b25da37f26c09b271abb67f7b3340b
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: d2eddc3812919a187fffa01279136be2a7735095
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635753"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753675"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Ajouter, modifier ou supprimer une adresse d’urgence pour votre organisation
 
@@ -40,7 +40,7 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Atteindre les **équipes Microsoft & Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans le volet de navigation de gauche, sélectionnez **Voix** > **Localisations d'urgence**, puis cliquez sur le bouton **Ajouter une nouvelle adresse**.
     
@@ -64,7 +64,7 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Atteindre les **équipes Microsoft & Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, sélectionnez l’adresse que vous souhaitez modifier, dans le volet Actions, cliquez sur **Modifier**.
     
@@ -79,7 +79,7 @@ Pour savoir comment obtenir un forfait d’appel et connaître son coût, voir [
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez aux **équipes de Microsoft et Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, sélectionnez l’adresse que vous souhaitez supprimer et dans le volet Actions, cliquez sur **Supprimer**.
     
@@ -106,7 +106,7 @@ Si en effet une adresse d’urgence incorrecte a été utilisée, assurez-vous q
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Atteindre les **équipes Microsoft & Skype pour le centre d’administration Business** > **portail hérité**.
+2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
     
 3. Dans la navigation de gauche, accédez à la **voix** > **Numéros de téléphone**, puis double-cliquez sur celui-ci dans l’état **« Échec »** et dans le menu site droite, sélectionnez **Nouvelle adresse d’urgence**.
 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: ec3cbc89a0a8ab07d7936d604d1f38a5d99ed2b6
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 84134809d11b8175dca6369afdf552543ffc07d0
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182392"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753970"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente de système téléphonique
 
@@ -104,9 +104,9 @@ Avant de pouvoir créer et configurer les files d'attente, vous devrez transfér
   
 ## <a name="step-3---create-a-new-call-queue"></a>Étape 3 : création d'une file d'attente d'appels
 
- **À l’aide les équipes Microsoft & Skype entreprise centre d’administration**
+ **À l’aide du centre d’administration Microsoft Teams**
 
-Dans les **équipes Microsoft & Skype entreprise centre d’administration**, cliquez sur ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Portail hérité** >  **routage des appels** > **files d’attente des appels**, puis cliquez sur **+ Nouveau**:
+Dans le **Centre d’administration équipes Microsoft**, cliquez sur ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Portail hérité** >  **routage des appels** > **files d’attente des appels**, puis cliquez sur **+ Nouveau**:
   
 ### <a name="set-the-call-queue-display-name-phone-number-and-domain-if-any"></a>Définissez le nom d'affichage de la file d'attente, un numéro de téléphone et un domaine (le cas échéant).
 

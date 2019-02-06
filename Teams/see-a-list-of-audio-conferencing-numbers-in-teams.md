@@ -20,20 +20,20 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment afficher vos numéros de conférence rendez-vous dans Microsoft Teams. '
-ms.openlocfilehash: e2a3684e7f2c0264e36a6e30ce2df4adf2537895
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 5c28e8555dc2c90454798a5cfc4eab2319a98184
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347376"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754921"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Afficher la liste des numéros d'audioconférence dans Microsoft Teams
 
-Lorsque vous configurez des services d’audioconférence pour les utilisateurs Microsoft Teams, vous pouvez afficher les numéros de téléphone qui sont disponibles pour l’audioconférence. Cette liste auront tous les numéros de téléphone de conférence audio sont disponibles pour votre organisation.
+Lorsque vous configurez l’audioconférence pour les utilisateurs de Microsoft Teams, vous pouvez afficher les numéros de téléphone à leur disposition pour l’audioconférence. Cette liste comporte tous les numéros de téléphone d’audioconférence qui sont disponibles pour votre organisation.
   
- **Vous recherchez les prix ?** Consultez [tarification pour l’audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+ **Vous recherchez les prix ?** Reportez-vous à la section [Tarifs pour l'audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
   
-S'il n'existe qu'un numéro de téléphone disponible pour votre organisation, il est utilisé comme numéro par défaut pour tous vos utilisateurs. Lorsque plusieurs numéros de téléphone sont disponibles, vous pouvez sélectionner le numéro de téléphone par défaut pour chaque utilisateur. Ce numéro par défaut sera être inclus dans les invitations à une réunion Microsoft Teams.
+S'il n'existe qu'un numéro de téléphone disponible pour votre organisation, il est utilisé comme numéro par défaut pour tous vos utilisateurs. Lorsque plusieurs numéros de téléphone sont disponibles, vous pouvez sélectionner le numéro de téléphone par défaut pour chaque utilisateur. Ce numéro par défaut sera inclus dans les invitations aux réunions Microsoft Teams.
   
 Pour modifier le numéro de téléphone à composer pour un utilisateur unique, reportez-vous à la rubrique [Définir les numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites-in-teams.md).
   
@@ -45,7 +45,7 @@ Pour modifier le numéro de téléphone à composer pour un utilisateur unique, 
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Pour afficher vos numéros d'audioconférence
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de Skype les équipes Microsoft Business centre d’administration
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
 
 1. Dans la navigation de gauche, accédez à des **réunions** > **ponts de conférence**. 
 2. Afficher les numéros de téléphone qui sont disponibles pour l’audioconférence.

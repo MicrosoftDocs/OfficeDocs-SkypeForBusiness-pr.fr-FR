@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenir les étapes que vous devez modifier les paramètres d’un pont de conférence qui permet de demander des appelants et recueillir les noms et les codes confidentiels pour les organisateurs de réunion lorsqu’ils utilisent pas Skype pour les applications Microsoft Teams ou de l’entreprise. '
-ms.openlocfilehash: 4c9a932a8ae084466756d2af5f72874d274aea2e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c6e4a0e04b1e63e02dd477e1c1d2e70cc7234052
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371619"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754719"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres pour un pont d'audioconférence
 
@@ -43,7 +43,7 @@ Le pont de conférence répond à un appel et demande à l’appelant avec les i
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de Skype les équipes Microsoft Business centre d’administration
+## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide du centre d’administration Microsoft Teams
 
 1. Dans la navigation de gauche, accédez à des **réunions** > **ponts de conférence**. 
 
@@ -92,7 +92,7 @@ Le pont de conférence répond à un appel et demande à l’appelant avec les i
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.**** > ****
+2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.** ** > **  **.
     
 3. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **paramètres de pont de Microsoft**.
     
@@ -105,7 +105,7 @@ Le pont de conférence répond à un appel et demande à l’appelant avec les i
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.**** > ****
+2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.** ** > **  **.
     
 3. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **paramètres de pont de Microsoft**.
     

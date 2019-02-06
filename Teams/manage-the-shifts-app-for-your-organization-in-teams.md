@@ -1,5 +1,5 @@
 ---
-title: Gérer l’application des équipes de votre organisation dans Microsoft Teams
+title: Gérer l’application Shifts pour votre organisation dans Microsoft Teams.
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -12,14 +12,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f761e36712b94274ccf88aa03bd3658c039d438
-ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
+ms.openlocfilehash: 204dc5899a72b1bc1516441ca8654e7341f19942
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28022914"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754526"
 ---
-# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application des équipes de votre organisation dans Microsoft Teams
+# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Shifts pour votre organisation dans Microsoft Teams.
 
 > [!IMPORTANT]
 > Effet 2019, octobre 1, Microsoft StaffHub sera être retirée. Nous créons StaffHub fonctionnalités, notamment la gestion de tâches et calendrier dans Microsoft Teams. Des fonctionnalités supplémentaires pour les travailleurs firstline mettra en place pour les équipes au fil du temps. Pour plus d’informations, voir [Microsoft StaffHub à retirer](https://support.office.com/article/microsoft-staffhub-to-be-retired-30ca17f3-5502-4bc9-bb0a-bed04bb362f0).  
@@ -49,7 +49,7 @@ Pour plus d’informations sur la gestion des licences pour les équipes, notamm
 Équipes est activée par défaut pour tous les utilisateurs d’équipes au sein de votre organisation. Vous pouvez désactiver ou activer l’application pour votre organisation dans le centre d’administration Microsoft 365.
 
 1. Connectez-vous au centre d’administration Microsoft 365 avec votre compte d’administration d’Office 365.
-2. Accédez à **paramètres** > **Services et compléments** > **Équipes Microsoft**. 
+2. Accédez à **paramètres** > **compléments Services &** > **Équipes Microsoft**. 
 3. Sous **paramètres au niveau du client**, sélectionnez **applications**, puis sous **Applications par défaut**, désactivez ou sélectionnez la case à cocher **équipes** pour activer ou désactiver l’application. 
 
     ![Capture d’écran de la section applications par défaut] (media/firstline-worker-enable-disable-shifts.png "Capture d’écran de la section par défaut des applications dans le centre d’administration Microsoft 365, affichant la liste des applications, notamment les déplacements des applications")
@@ -62,13 +62,13 @@ Stratégies d’application du programme d’installation vous permettent de per
  
 Équipes inclut une stratégie de configuration d’une application de FirstLineWorker intégrée que vous pouvez attribuer aux travailleurs firstline dans votre organisation. Par défaut, la stratégie inclut les applications de l’activité, équipes, la conversation et appeler. 
 
-Pour afficher la stratégie FirstLineWorker, dans le volet de navigation gauche de Microsoft Teams & Skype entreprise centre d’administration, accédez à **l’application des équipes** > **stratégies du programme d’installation des applications**.
+Pour afficher la stratégie FirstLineWorker, dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **l’application des équipes** > **stratégies du programme d’installation des applications**.
 
-![Capture d’écran de la stratégie du programme d’installation d’application FirstLineWorker dans les équipes Microsoft & Skype entreprise centre d’administration] (media/firstline-worker-app-setup-policy.png "Capture d’écran de la stratégie du programme d’installation d’application FirstLineWorker dans les équipes Microsoft & Skype entreprise centre d’administration")
+![Capture d’écran de la stratégie du programme d’installation d’application FirstLineWorker dans le centre d’administration Microsoft équipes] (media/firstline-worker-app-setup-policy.png "Capture d’écran de la stratégie du programme d’installation d’application FirstLineWorker dans le centre d’administration Microsoft équipes")
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Affecter la stratégie FirstLineWorker à des utilisateurs individuels
 
-1. Dans la navigation de gauche du Microsoft Teams & Skype entreprise centre d’administration, accédez à des **utilisateurs**, puis cliquez sur l’utilisateur.
+1. Dans la navigation de gauche du centre d’administration Microsoft Teams, accédez à des **utilisateurs**, puis cliquez sur l’utilisateur.
 2. En regard de **stratégies attribuées**, cliquez **sur Modifier**.
 3. Sous **stratégie de l’installation des applications d’équipes**, sélectionnez **FirstLineWorker**, puis cliquez sur **Enregistrer**.
 

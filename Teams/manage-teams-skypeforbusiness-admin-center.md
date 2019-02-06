@@ -1,5 +1,5 @@
 ---
-title: Gérer les équipes pendant la transition vers le nouveau Microsoft Teams & Skype entreprise centre d’administration
+title: Gérer les équipes pendant la transition vers le nouveau centre d’administration de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Comprendre comment gérer les clients à l’échelle et les paramètres utilisateur pour les équipes pendant la transition entre les équipes expérience dans le centre d’administration Office 365 au nouveau Microsoft Teams & Skype entreprise centre d’administration.
+description: Comprendre comment gérer les clients à l’échelle et les paramètres utilisateur pour les équipes pendant la transition entre les équipes expérience dans le centre d’administration Office 365 pour le nouveau centre d’administration de Microsoft Teams.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -16,30 +16,30 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: b3305efee9636dfff391fc9a851227cf215b719a
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: e695c54427dbe80daa179ad6d02e99a2556d9782
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649532"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753535"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Gérer les équipes pendant la transition vers le nouveau Microsoft Teams & Skype entreprise centre d’administration
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gérer les équipes pendant la transition vers le nouveau centre d’administration de Microsoft Teams
 ======================================================
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams--skype-for-business-admin-center"></a>Quel est le nouveau Microsoft Teams & Skype entreprise centre d’administration ?  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Quel est le nouveau centre d’administration de Microsoft Teams ?  
 
 La nouvelle expérience du centre d’administration vous fournira une expérience unifiée pour gérer des équipes et Skype pour les entreprises. Offrir des fonctionnalités supplémentaires, détails de bout en bout et la possibilité de gérer les paramètres des équipes sur un niveau de l’utilisateur.
 
-![Capture d’écran des équipes Microsoft et Skype entreprise centre d’administration.](media/manage-teams-skype-for-business-admin-center-portal.png)
+![Capture d’écran du centre d’administration équipes Microsoft.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
-## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Paramètres migrés vers le nouveau Microsoft Teams & Skype entreprise centre d’administration
+## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Paramètres migrés vers le nouveau centre d’administration de Microsoft Teams
 
 Le tableau suivant identifie les sections de l’expérience des équipes qui ont été migrées et indique la relation entre les paramètres et les stratégies dans le nouveau portail d’administration.
 
-|Section d’équipes dans le centre d’administration Office 365  |Nom du paramètre (niveau client)  |Microsoft Teams & Skype pour la stratégie d’entreprise centre d’administration   |Niveau : Client ou utilisateur   |
+|Section d’équipes dans le centre d’administration Office 365  |Nom du paramètre (niveau client)  |Stratégie de centre d’administration Microsoft Teams   |Niveau : Client ou utilisateur   |
 |---------|---------|---------|---------|
 |Général     |Afficher la conversation d’organisation dans le profil personnel        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Client       |
 |Général     |Utilisez Skype pour les entreprises pour les destinataires qui ne possèdent pas les équipes         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
@@ -67,7 +67,7 @@ Le tableau suivant identifie les sections de l’expérience des équipes qui on
 |Messagerie     |Autoriser les utilisateurs à supprimer leurs propres messages         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
 |Messagerie     |Permet aux utilisateurs de chat privé         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
 
-<sup>1</sup> déconseillée pour invité. Activation/désactivation de l’invité peut être géré maintenant dans le Microsoft Teams & Skype entreprise centre d’administration. Activation/désactivation des équipes pour l’entreprise, Edu étudiant, et Université Edu sera bientôt déconseillée. Il doit être gérée par l’attribution de licences dans le centre d’administration d’Office 365. Consultez la rubrique [gérer l’accès utilisateur aux équipes de Microsoft](user-access.md).
+<sup>1</sup> déconseillée pour invité. Activation/désactivation de l’invité peuvent maintenant être géré dans le centre d’administration Microsoft Teams. Activation/désactivation des équipes pour l’entreprise, Edu étudiant, et Université Edu sera bientôt déconseillée. Il doit être gérée par l’attribution de licences dans le centre d’administration d’Office 365. Consultez la rubrique [gérer l’accès utilisateur aux équipes de Microsoft](user-access.md).
 
 > [!NOTE]
 > Vous allez continuer à utiliser le tableau de bord de groupes dans le centre d’administration d’Office 365 pour configuration relatives aux équipes et canaux. Paramètres pour les applications restent dans la zone équipes du centre d’administration Office 365 et doit être migrés ultérieurement. 
@@ -78,7 +78,7 @@ Vous pouvez continuer à modifier les paramètres dans le centre d’administrat
 
 Le tableau suivant montre où vous pouvez gérer les fonctionnalités pendant la migration.
 
-|Fonctionnalité  |Les équipes Microsoft & Skype entreprise centre d’administration                       |Skype pour Business admin center (hérité)  |Centre d’administration Office 365  |
+|Fonctionnalité  |Centre d’administration de Microsoft Teams                      |Skype pour Business admin center (hérité)  |Centre d’administration Office 365  |
 |---------|:---------:|:---------:|:---------:|
 |Stratégies de messagerie, les réunions et les événements Live des équipes     |     X    |         |         |
 |Stratégie de mise à niveau d’équipes     |    X     |         |         |
@@ -97,6 +97,6 @@ Le tableau suivant montre où vous pouvez gérer les fonctionnalités pendant la
 
 ## <a name="manage-settings-after-the-migration"></a>Gérer les paramètres après la migration
 
-Lors de la migration de ces paramètres est terminée, nous allons désactiver dans le centre d’administration Office 365 et le Skype pour le centre d’administration de Business, et ils peuvent être gérés dans le nouveau Microsoft Teams & Skype entreprise centre d’administration.
+Lors de la migration de ces paramètres est terminée, nous allons désactiver dans le centre d’administration Office 365 et le Skype pour le centre d’administration de Business, et ils peuvent être gérées dans le centre d’administration Microsoft Teams nouveau.
 
 

@@ -19,18 +19,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler le type de conférence audio et d'appels RTC d’utilisateur final pouvant être effectuées par les utilisateurs.
-ms.openlocfilehash: ed61dc5c131dd38d59820f3ccda9682dcf7fd886
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 97df093168e896eabbc210545d516f386e1a6d25
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882011"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753471"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs
 
 En tant qu'administrateur, vous pouvez utiliser les contrôles d'appels sortants pour restreindre le type de conférence audio et d'appels RTC d'utilisateur final pouvant être effectués par les utilisateurs de votre organisation. 
 
-Les contrôles d’appel sortant peuvent être appliqués par utilisateur et fournissent les deux contrôles suivants pour limiter indépendamment chaque type d’appels sortants. Par défaut, les deux contrôles sont définis pour autoriser les appels sortants internationaux et nationaux. 
+Outbound call controls can be applied on a per-user basis and provide the following two controls to independently restrict each type of outbound calls. By default, both controls are set to allow international and domestic outbound calls. 
 
 |Contrôle|Description|Options de contrôle|
 |:-----|:-----|:-----|
@@ -45,7 +45,7 @@ Les contrôles d’appel sortant peuvent être appliqués par utilisateur et fou
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restreindre les appels sortants de conférence audio 
 
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide les équipes Microsoft Skype entreprise centre d’administration**
+![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
 
 1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -74,9 +74,9 @@ Les contrôles d’appel sortant peuvent être appliqués par utilisateur et fou
 
 **À l’aide de PowerShell**
 
-Les restrictions des appels sortants sont contrôlées par une stratégie unique appelée OnlineDialOutPolicy qui possède un attribut de restriction pour chacun. La stratégie ne peut pas être personnalisée, mais il existe des instances de stratégie prédéfinies pour chaque combinaison de paramètres. 
+Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings. 
 
-Vous pouvez utiliser la cmdlet Get-CSOnlineDialOutPolicy pour afficher les stratégies d'appels sortants et les affecter aux utilisateurs à l'aide de la cmdlet Grant-CSDialOutPolicy. (Notez que l’applet de commande Grant ne contient pas le mot "Connecté" comme l’applet de commande Get.) 
+You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and assign them to users by using the Grant-CSDialOutPolicy cmdlet. (Please note that the Grant cmdlet doesn’t contain the word “Online” as the Get cmdlet does.) 
 
 Le tableau suivant fournit une vue d’ensemble de chaque stratégie.
 

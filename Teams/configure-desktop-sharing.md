@@ -1,5 +1,5 @@
 ---
-title: Configurer le partage du bureau dans Microsoft Teams
+title: Configurer le partage du bureau dans Microsoft Teams
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
@@ -12,21 +12,21 @@ description: Configurer une stratégie de réunion pour permettre aux utilisateu
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 422d5fb3a19dad2e14e0cdf54a532b0afc6eed67
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: fcc76f79d288844611e17154359e8c9c3ab4ed23
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27202496"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754767"
 ---
-<a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurer le partage du bureau dans Microsoft Teams
+<a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurer le partage du bureau dans Microsoft Teams
 ============================================
 
 Le partage du bureau permet aux utilisateurs de présenter un écran ou une application pendant une réunion ou une conversation. Les administrateurs peuvent configurer Microsoft Teams pour permettre aux utilisateurs de partager un ensemble de l’écran, une application ou un fichier de partage d’écran. Vous pouvez permettre aux utilisateurs donner ou demander le contrôle, autoriser le partage de PowerPoint, ajouter un tableau blanc et les notes partagées. Vous pouvez également configurer si les utilisateurs anonymes ou externes peuvent demander le contrôle de l’écran partagé.
 
 Pour configurer le partage d’écran, vous créez une nouvelle stratégie de réunions et puis attribuez-le aux utilisateurs que vous souhaitez gérer.
 
-Dans les équipes Microsoft & Skype entreprise centre d’administration :
+**Dans le centre d’administration Microsoft Teams**
 
 1. Sélectionnez les **réunions** > **stratégies de la réunion**.
 

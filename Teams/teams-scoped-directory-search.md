@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6260651dfa48dc07a15dbc1bbcf41297ecc281cf
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 2a4a36de9b535d7c95f93175a97ce5266fdc37ec
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326818"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754306"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser la recherche d’annuaire étendue Microsoft Teams
 
@@ -46,11 +46,11 @@ Vous pouvez en savoir plus sur l’utilisation des stratégies de carnet d’adr
 
 2.  Se connecter au centre d’administration Microsoft 365, sélectionnez **centre Admin**et sélectionnez **& équipes Skype**.
  
-3.  Dans la & Microsoft Teams Skype entreprise centre d’administration, sélectionnez **paramètres à l’échelle de l’organisation** > **paramètres équipes**.
+3.  Dans le centre d’administration Microsoft Teams, sélectionnez **paramètres à l’échelle de la société** > **paramètres équipes**.
 
 4.  Sous **recherche**, en regard de **recherche dans l’annuaire étendue dans les équipes à l’aide d’une stratégie de carnet d’adresses Exchange (APB)**, activez la bascule **sur**. 
 
-    ![Étendue de recherche dans l’annuaire dans les équipes & Skype entreprise centre d’administration](media/teams-scoped-directory-search-image1.png)
+    ![Étendue de recherche dans le répertoire dans le centre d’administration de Microsoft Teams](media/teams-scoped-directory-search-image1.png)
 
 > [!NOTE]
 > Configurations hybrides (équipes avec Exchange local) ne prennent pas charge en mode de recherche à étendue définie. 

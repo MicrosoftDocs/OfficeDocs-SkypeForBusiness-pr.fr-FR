@@ -22,26 +22,24 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Voir existe avec des caractères spéciaux dans les noms des stratégies et ce que vous pouvez faire pour résoudre des problèmes.
-ms.openlocfilehash: e1d46f70b42b96b2f3811c97d0110946fd013cd7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ffb6082a613587b654f997bc2b2154bfeade15bf
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017502"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754735"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quelles sont les restrictions de caractère spécial dans les stratégies d’équipes ?
 
-**Vous ne pouvez pas créer ou modifier des stratégies (pour la messagerie, réunions, etc.) qui ont un caractère spécial dans le nom des Skype Teams Microsoft Business centre d’administration.** 
+**Vous ne pouvez pas créer ou des stratégies de modifier (pour la messagerie, réunions, etc.) qui ont un caractère spécial dans le nom de l’administrateur des équipes Microsoft Centre**. 
 
-Si un nom de stratégie contient des caractères spéciaux, vous serez limité dans la gestion de ces stratégies dans le Microsoft Teams et Skype entreprise centre d’administration. **Par conséquent, il est fortement recommandé que les noms de stratégie ne pas inclure des caractères spéciaux**. 
+Si un nom de stratégie contient des caractères spéciaux, vous serez limité dans la gestion de ces stratégies dans le centre d’administration Microsoft Teams. **Par conséquent, il est fortement recommandé que les noms de stratégie ne pas inclure des caractères spéciaux**. 
 
-Les noms de stratégie qui ont été créés à l’aide de PowerShell pour les réunions et messagerie dans les équipes peuvent avoir des caractères spéciaux tels que @, #, $. Toutefois, si vous souhaitez apporter des modifications à la stratégie dans le Microsoft Teams et Skype entreprise centre d’administration, vous ne pourrez. 
+Les noms de stratégie qui ont été créés à l’aide de PowerShell pour les réunions et messagerie dans les équipes peuvent avoir des caractères spéciaux tels que @, #, $. Toutefois, si vous souhaitez apporter des modifications à la stratégie dans le centre d’administration Microsoft Teams, vous ne pourrez. 
 
-Si vous disposez d’une stratégie avec des caractères spéciaux, vous devez soit modifier la stratégie à l’aide de Windows PowerShell (toujours) ou créer une nouvelle stratégie dans le Microsoft Teams et Skype entreprise centre d’administration de la même manière que l’ancienne stratégie et l’affecter à la même grou p d’utilisateurs.
+Si vous disposez d’une stratégie avec des caractères spéciaux, vous devrez soit modifier la stratégie à l’aide de Windows PowerShell (toujours) ou créer une nouvelle stratégie dans le centre d’administration Microsoft Teams avec les mêmes paramètres que l’ancienne stratégie et l’affecter au même groupe d’utilisateurs.
 
 ## <a name="to-remove-special-characters"></a>Pour supprimer les caractères spéciaux
-
-
 
 **Étape 1 : établir une connexion à distance PowerShell.** 
  [Configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) si vous n’avez pas encore.
@@ -65,7 +63,7 @@ Si vous disposez d’une stratégie avec des caractères spéciaux, vous devez s
 
 **Étape 3 : créer une nouvelle stratégie.**
 
-Vous pouvez créer la nouvelle stratégie avec le même paramètre à l’aide de la Teams Microsoft et Skype pour le centre d’administration Business ou PowerShell.
+Vous pouvez créer la nouvelle stratégie avec le même paramètre à l’aide du centre d’administration de Microsoft Teams ou de PowerShell.
 
 Exécuter cette crée une nouvelle stratégie pour vous, mais vous devez ajouter les paramètres corrects en consultant la rubrique [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) et puis de l’exécuter :
 
@@ -97,7 +95,7 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
     
   - [Pourquoi vous devez utiliser Office 365 PowerShell ?](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures méthodes de gestion d’Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell présente de nombreux avantages dans vitesse, la simplicité et la productivité sur qu’à l’aide du centre d’administration Office 365, tels que lorsque vous modifiez les paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
@@ -110,4 +108,4 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
     > [!NOTE]
     > Le module Windows PowerShell pour Skype pour Business Online permet de vous permet de créer une session Windows PowerShell à distance qui se connecte à Skype pour Business Online et Microsoft Teams. Ce module, qui est pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé depuis le Center Download Microsoft à [le Module Windows PowerShell pour Skype pour Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-### <a name="related-topics"></a>Rubriques connexes
+

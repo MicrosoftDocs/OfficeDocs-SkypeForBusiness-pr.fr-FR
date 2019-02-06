@@ -12,16 +12,16 @@ description: Découvrez comment gérer les périphériques utilisés dans les é
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb2c6b9f0693246d9d8a724d12a33bb05805fb83
-ms.sourcegitcommit: d83da643f5e25e5287961fe723012a6ce9bb9738
+ms.openlocfilehash: eb306930b4adca9c50e46ad1515324bbac2a2e2d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29598812"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754194"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gérer vos périphériques dans Microsoft Teams
 
- En tant qu’administrateur, vous gérez tous les périphériques utilisés dans les équipes de votre organisation à partir de la & Microsoft Teams Skype pour entreprise centre d’administration. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation et effectuer des tâches telles que la mise à jour, de redémarrage et surveiller les diagnostics pour les appareils. Vous pouvez également créer et affecter des profils de configuration pour un périphérique ou des groupes de périphériques. 
+ En tant qu’administrateur, vous gérez tous les périphériques utilisés dans les équipes de votre organisation à partir du centre d’administration de Microsoft Teams. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation et effectuer des tâches telles que la mise à jour, de redémarrage et surveiller les diagnostics pour les appareils. Vous pouvez également créer et affecter des profils de configuration pour un périphérique ou des groupes de périphériques. 
 
 ## <a name="what-devices-can-you-manage"></a>Quels appareils pouvez-vous gérer ?
 Appareils doivent être certifiées pour les équipes et inscrit dans les équipes. Un périphérique est inscrit automatiquement la première fois qu’un utilisateur se connecte aux équipes sur l’appareil. Pour obtenir la liste des périphériques certifiés qui peuvent être gérés, voir [téléphones de conférence](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) et les [téléphones de bureau](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
@@ -31,7 +31,7 @@ Appareils doivent être certifiées pour les équipes et inscrit dans les équip
 
 ## <a name="manage-devices-in-teams"></a>Gérer les périphériques dans les équipes
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de la & Microsoft Teams Skype entreprise centre d’administration
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
 
 1. Dans la navigation de gauche, accédez à des **périphériques** > **Gestion de périphériques**.
 2. Sélectionnez **tous les périphériques**.  
@@ -54,7 +54,7 @@ Utilisez les profils de configuration pour gérer les paramètres et les fonctio
 
 ### <a name="create-a-configuration-profile"></a>Créer un profil de configuration
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de la & Microsoft Teams Skype entreprise centre d’administration
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
 
 1. Dans la navigation de gauche, accédez à des **périphériques** > **Gestion de périphériques**.
 2. Sélectionnez **les profils de Configuration**, puis sélectionnez le **profil de configuration**.
@@ -63,7 +63,7 @@ Utilisez les profils de configuration pour gérer les paramètres et les fonctio
 
 ### <a name="assign-a-configuration-profile"></a>Affecter un profil de configuration
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de la & Microsoft Teams Skype entreprise centre d’administration
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
 
 1. Dans la navigation de gauche, accédez à des **périphériques** > **Gestion de périphériques**.
 2. Sélectionnez le **profil de Configuration**, puis cliquez sur le lien sous **affecté à** dans le profil que vous voulez affecter.  

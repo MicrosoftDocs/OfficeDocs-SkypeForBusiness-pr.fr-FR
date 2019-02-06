@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2afc1d0374333fdbb0bec9246d04224c6a82f032
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 466160616adea80a2fcb6a3bfd035ca397d73754
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532701"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754425"
 ---
 <a name="use-inline-message-translation-in-microsoft-teams"></a>Utiliser la traduction des messages incorporée dans Microsoft Teams 
 =================================================
@@ -40,9 +40,9 @@ Vous pouvez activer la fonctionnalité de traduction de messages incorporés à 
 1. Activer la stratégie à l’aide de l’applet de commande [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) .
 2. La stratégie prend quelques minutes à appliquer. Vous devrez vous déconnecter et vous reconnecter aux équipes des utilisateurs.
 
-## <a name="enable-by-using-the-microsoft-teams--skype-for-business-admin-center"></a>Activer à l’aide du Microsoft Teams & Skype entreprise centre d’administration
+## <a name="enable-by-using-the-microsoft-teams-admin-center"></a>Activer à l’aide du centre d’administration Microsoft Teams
 
-Dans les **équipes Microsoft & Skype entreprise centre d’administration**, sélectionnez les **Stratégies de messagerie** dans la barre de gauche, soit créer une nouvelle stratégie ou modifier une stratégie existante, puis définir l’option **Autoriser les utilisateurs à convertir des messages** à ** **.
+Dans le **Centre d’administration de Microsoft équipes**, sélectionnez **Stratégies de messagerie** dans la barre de gauche, soit créer une nouvelle stratégie ou modifier une stratégie existante, puis définissez l’option **Autoriser les utilisateurs à convertir des messages** **sur**.
 
 > [!NOTE]
 >Traduction est effectuée par le service et remise au client avec aucun effet sur le contenu capturé dans les enregistrements de conformité. Pour plus d’informations sur la traduction, voir [What ' s Microsoft Translator ?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).
