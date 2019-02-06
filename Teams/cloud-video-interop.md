@@ -1,5 +1,5 @@
 ---
-title: Interopérabilité vidéo cloud pour les équipes Microsoft
+title: Interopérabilité de la vidéo cloud de Microsoft Teams
 author: lolaj
 ms.author: lolaj
 manager: serdars
@@ -12,14 +12,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dc13f9ff6fd391d84a5a461badc7edbc8abbdb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e038a4618bd456336681c2fff95936a821c770ea
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533358"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742965"
 ---
-# <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité vidéo cloud pour les équipes Microsoft
+# <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 
 Nuage vidéo Interop permet de tiers équipements de salle pour participer à des réunions Teams Microsoft de la réunion.
 
@@ -67,10 +67,10 @@ Le diagramme suivant décrit l’architecture de haut niveau d’une solution de
 
 ## <a name="key-business-considerations"></a>Considérations relatives à la clé d’entreprise
 
-**Microsoft Teams à côté de l’infrastructure vidéo 3P**
+**Microsoft Teams à côté de l’infrastructure vidéo tiers**
 
-- Avez-vous besoin d’un déploiement important des périphériques vidéo 3P ?
-- Existe-t-il un 3P contrôleur d’appel dans votre organisation ?
+- Avez-vous besoin d’un déploiement important des périphériques vidéo tiers ?
+- Vous avez un contrôleur d’appel tiers dans votre organisation ?
 - Vous prévoyez de conserver votre contrôleur d’appel en cours avec Microsoft Teams
 - Vous souhaitez exécuter votre propre vidéo infra ou hébergée ? 
 - Avez-vous prévu sur le déploiement de systèmes de salle équipes ? Quand ?
@@ -88,11 +88,11 @@ Le diagramme suivant décrit l’architecture de haut niveau d’une solution de
 
 ## <a name="business-workflow-scenarios"></a>Les scénarios de flux de travail
 
-- **Skype pour Business Server -> équipes Microsoft :** Votre organisation a des périphériques tiers et glissant Skype pour Business sur prem server à Microsoft Teams.  
-- **Skype pour les entreprises-en ligne > Microsoft Teams :** Votre organisation est migré vers Microsoft Teams Skype pour Business Online.
-- **Cisco UC -> équipes Microsoft :** Votre organisation est déplacé à partir de Cisco à Microsoft Teams, mais pas prêt à remplacer vos périphériques Cisco.
-- **Englobant des systèmes -> équipes Microsoft :** Votre organisation dispose de plusieurs systèmes dans votre environnement côte à côte (Cisco, BroadSoft, SfB Server, SfBO).
-- **Un autre fournisseur de conférence dans le nuage -> Microsoft Teams :** Votre organisation a été d’un utilisateur pour un autre fournisseur de conférence dans le nuage migration vers Microsoft Teams.
+- **Skype pour Business Server-les équipes Microsoft > :** Votre organisation a des périphériques tiers et glissant Skype pour Business sur prem server à Microsoft Teams.  
+- **Skype pour les entreprises en ligne - > Teams Microsoft :** Votre organisation est migré vers Microsoft Teams Skype pour Business Online.
+- **Cisco UC-> les équipes Microsoft :** Votre organisation est déplacé à partir de Cisco à Microsoft Teams, mais pas prêt à remplacer vos périphériques Cisco.
+- **Mixte systèmes-> les équipes Microsoft :** Votre organisation dispose de plusieurs systèmes dans votre environnement côte à côte (Cisco, BroadSoft, SfB Server, SfBO).
+- **Un autre fournisseur de conférence dans le nuage-> Teams Microsoft :** Votre organisation a été d’un utilisateur pour un autre fournisseur de conférence dans le nuage migration vers Microsoft Teams.
 
 
 Après avoir choisi un partenaire ou partenaires, vous êtes prêt à [configurer sur le nuage vidéo Interop pour les équipes Microsoft](cloud-video-interop-for-teams-set-up.md). 

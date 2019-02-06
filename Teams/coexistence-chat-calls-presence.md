@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9eb5626e9b4094ec814e0b55f4bb4fd3d0a42da8
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 67c2e403511c3329d37fa3712bc8f559dcc16c38
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182503"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742996"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
@@ -76,27 +76,27 @@ Dans les tableaux qui suivent :
 
 | <br/><br/> Mode | Expéditeur <br/><br/> Client | <br/><br/> SfB&nbsp;hébergés | | Destinataire <br/><br/> (Îles)  |
 |--- |--- |--- |--- |--- |
-| (Îles) | Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise| En ligne<br/> En ligne<br/> Sur prem<br/>Sur prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise|
+| (Îles) | Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise| En ligne<br/> En ligne<br/> Sur prem<br/>Sur prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise|
 |SfB\* <br/> | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Sur prem<br/> |&boxv;<br/>&boxv;|Skype Entreprise<br/>Skype Entreprise<br/>|
-|TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
+|TeamsOnly |Équipes| Online<br/>|&boxv;<br/>|Équipes|
 | | | | | |
 
 **Tableau 1 b : nouvelle conversation dans le client ou un appel de routage à un destinataire dans un SfB\* mode**
 
 | <br/><br/> Mode   | Expéditeur <br/><br/> Client | <br/><br/> SfB&nbsp;hébergés | |   Destinataire <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| (Îles) |Teams<br/>Skype Entreprise<br/>Teams <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise<br/> **N’est pas Possible** <br/>Skype Entreprise<br/> |
+| (Îles) |Teams<br/>Skype Entreprise<br/>Teams <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise<br/> **N’est pas Possible** <br/>Skype Entreprise<br/> |
 |SfB\* <br/> | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Sur prem<br/> |&boxv;<br/>&boxv; |  Skype Entreprise<br/>Skype Entreprise<br/> |
-|TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *Skype Entreprise* <br/>| 
+|TeamsOnly |Équipes| Online<br/>|&boxv;<br/> |  *Skype Entreprise* <br/>| 
 | | | | | |
 
 **Tableau 1c : nouvelle conversation dans le client ou à un destinataire de mode TeamsOnly le routage d’appel**
 
 | <br/><br/> Mode   | Expéditeur <br/><br/> Client | <br/><br/> SfB&nbsp;hébergés | |   Destinataire <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| (Îles)   |Teams<br/>Skype Entreprise<br/>Teams <br/>Skype Entreprise<br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+| (Îles)   |Équipes<br/>Skype Entreprise<br/>Équipes <br/>Skype Entreprise<br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Équipes <br/>*Teams* <br/>Équipes <br/>*Teams*  |
 |SfB\*  | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Sur prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
-|TeamsOnly  | Teams | Online |  &boxv; |Teams   |
+|TeamsOnly  | Équipes | Online |  &boxv; |Équipes   |
 |  |  |  | | |
 
 ## <a name="federated-routing-for-new-chats-or-calls"></a>Fédérés de routage des appels ou conversations nouveau
@@ -116,27 +116,27 @@ Les tableaux ci-dessous décrivent le client reçoit un appel à partir de l’e
 
 | <br/><br/>Mode   | Expéditeur<br/><br/> Client| <br/><br/>SfB hébergés| | Destinataire<br/><br/> (Îles) |
 |--- |--- |--- |--- |--- |
-| (Îles) |Teams<br/>Skype Entreprise <br/>Teams <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **N’est pas Possible**   <br/> Skype Entreprise |
+| (Îles) |Équipes<br/>Skype Entreprise <br/>Équipes <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **N’est pas Possible**   <br/> Skype Entreprise |
 | SfB\* |Skype Entreprise <br/>Skype Entreprise |Online<br/> Sur prem<br/> | &boxv;<br/>&boxv;|Skype Entreprise <br/>Skype Entreprise |
-| TeamsOnly |Teams |Online| &boxv;|*Skype Entreprise* |
+| TeamsOnly |Équipes |Online| &boxv;|*Skype Entreprise* |
 |  | | | | 
 
 **2 b table : fédérés nouvelle conversation ou le routage des appels à un destinataire dans un SfB\* mode**
 
 | <br/><br/>Mode   | Expéditeur<br/><br/> Client| <br/><br/>SfB hébergés| |  Destinataire<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| (Îles) |Teams<br/>Skype Entreprise <br/>Teams <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **N’est pas Possible** <br/>Skype Entreprise <br/> |  
+| (Îles) |Équipes<br/>Skype Entreprise <br/>Équipes <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **N’est pas Possible** <br/>Skype Entreprise <br/> |  
 | SfB\* |Skype Entreprise <br/>Skype Entreprise  |Online<br/> Sur prem<br/>  |&boxv;<br/>&boxv; | Skype Entreprise <br/>Skype Entreprise  |
-| TeamsOnly | Teams|Online |&boxv; |*Skype Entreprise*  |
+| TeamsOnly | Équipes|Online |&boxv; |*Skype Entreprise*  |
 |  | | | | |
 
 **Tableau 2c : fédérés nouvelle conversation ou le routage des appels à un destinataire de mode TeamsOnly**
 
 | <br/><br/>Mode | Expéditeur<br/><br/> Client| <br/><br/>SfB hébergés| |  Destinataire<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| (Îles)  |Teams<br/>Skype Entreprise <br/>Teams <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**N’est pas Possible** <br/>*Teams* |
+| (Îles)  |Équipes<br/>Skype Entreprise <br/>Équipes <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Équipes <br/>*Teams* <br/>**N’est pas Possible** <br/>*Teams* |
 | SfB\* |Skype Entreprise <br/>Skype Entreprise  | Online<br/> Sur prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
-| TeamsOnly |Teams |Online |&boxv; |Teams |
+| TeamsOnly |Équipes |Online |&boxv; |Équipes |
 |  | | | | |
 
 ## <a name="chats-and-calls-from-pre-existing-threads"></a>Conversations et les appels de threads existants
@@ -189,8 +189,8 @@ Le tableau décrit la présence de l’éditeur qui peuvent être vus par un obs
 
 |Observateur <br/><br/>Client| |<br/><br/>(Îles) |Publisher <br/><br/>SfB\* |<br/>Équipes uniquement|
 |--- |--- |--- |--- |---|
-|Skype Entreprise |&boxv;|Skype Entreprise | Skype Entreprise | Teams|
-|Teams |&boxv; |Teams |Skype Entreprise |Teams |
+|Skype Entreprise |&boxv;|Skype Entreprise | Skype Entreprise | Teams|
+|Teams |&boxv; |Teams |Skype Entreprise |Équipes |
 | | | | |
 
 ## <a name="federated-presence"></a>Présence fédéré
@@ -203,8 +203,8 @@ Le tableau ci-dessous décrit la présence de l’éditeur qui peuvent être vus
 
 |Observateur <br/><br/> Client | |<br/><br/> (Îles)  |Publisher <br/><br/> SfB\* |<br/><br/> Équipes uniquement |
 |--- |--- |--- |--- |---|
-|Skype Entreprise |&boxv; |Skype Entreprise  | Skype Entreprise  | Teams  |
-|Teams | &boxv;|Skype Entreprise |Skype Entreprise |Teams|
+|Skype Entreprise |&boxv; |Skype Entreprise  | Skype Entreprise  | Teams  |
+|Teams | &boxv;|Skype Entreprise |Skype Entreprise |Équipes|
 | | | | ||
 
 ## <a name="presence-in-pre-existing-threads"></a>Présence dans les threads existants
@@ -212,3 +212,7 @@ Le tableau ci-dessous décrit la présence de l’éditeur qui peuvent être vus
 Pour aligner la présence et l’accessibilité dans les threads existants, la présence de la cible exposé dans cette thread a besoin d’être aligné avec le routage du thread, en supposant que le routage est possible.
 
 En particulier, si un destinataire précédemment un thread de conversation interopérabilité permanente avec a été mis à niveau vers des équipes que thread ne reflète plus précis présence et ne pourra plus être routable. Vous devez démarrer un nouveau thread.
+
+## <a name="related-links"></a>Liens connexes
+
+[Vidéo : Gérer la Coexistence et l’interopérabilité entre les équipes et SfB](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

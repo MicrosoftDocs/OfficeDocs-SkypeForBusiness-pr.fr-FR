@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41ff5d3329d46ee9f716e09145c94ad8e2dbaea8
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 11e08837aa7f9eeb4b74d8f8d98e05dc33d2ea49
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349497"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29743004"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet] (media/upgrade-banner-project-definition.png "Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet")
 
@@ -132,3 +132,7 @@ Pour toutes ces limites (à l’exception de conversation permanente), une solut
 > Ce qui démarre une conversation simple (IM) peut-être rapidement transformer un appel ou une réunion ad hoc. Bien que ces scénarios sont essentielles pour la facilité d’utilisation et l’expérience utilisateur, et nous sommes en constante évolution des expériences interopérabilités entre Skype pour les utilisateurs professionnels et les équipes. Rechercher dans les informations les plus récentes.
 
 Après avoir lu cet article, voir [Choisir votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [Migration et des conseils d’interopérabilité](https://aka.ms/SkypeToTeams-Interop), [la Coexistence avec Skype pour les entreprises](coexistence-chat-calls-presence.md)et [définir votre coexistence et les paramètres de mise à niveau](https://aka.ms/SkypeToTeams-SetCoexistence) d’implémentation plus d’informations.
+
+## <a name="related-links"></a>Liens connexes
+
+[Vidéo : Gérer la Coexistence et l’interopérabilité entre les équipes et SfB](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

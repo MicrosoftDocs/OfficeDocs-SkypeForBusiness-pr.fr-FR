@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3df6bf5654e29adf794c2d8c8337a2460e95550c
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 9cb83e60748cd36cc88256862a76131eb12d93ec
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562830"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29743019"
 ---
 ![Étapes du parcours de mise à niveau, avec un accent sur l’étape de préparation technique](media/upgrade-banner-tech-readiness.png "Étapes du parcours de mise à niveau, avec un accent sur l’étape de préparation technique")
 
@@ -222,3 +222,7 @@ Voici les principaux points à partir de ce guide. Il le faut :
 - Assurez-vous que vous disposez de suffisamment de bande passante pour le déploiement d’équipes en effectuant le [Planificateur de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
 
 - Exécutez l' [Outil d’évaluation de réseau](https://www.microsoft.com/download/details.aspx?id=53885) et vérifiez que vous respectez les exigences décrites dans les [performances de connectivité réseau et de qualité multimédia](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) à partir du segment edge et le segment client.
+
+## <a name="related-topics"></a>Rubriques connexes
+
+[Vidéo : Planification du réseau](https://aka.ms/teams-networking)

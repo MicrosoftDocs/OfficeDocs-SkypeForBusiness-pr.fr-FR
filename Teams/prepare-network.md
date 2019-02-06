@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2af8872253e2962322712a013cb3043a7da2d81b
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: b6b95da8ee416d4f64d22a8c0622acd417b7bb1d
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562628"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742847"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams
 =================================================
@@ -117,3 +117,6 @@ Si les critères ne sont pas remplis, il convient d'interrompre le projet pour v
 |![Icône Point de décision.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Point de décision         |Avez-vous évalué les capacités de votre réseau pour la prise en charge multimédia en temps réel ?<br></br>Si votre réseau n'est pas correctement évalué ou que vous êtes conscient qu'il ne prendra pas en charge le trafic multimédia en temps réel, désactiverez-vous les fonctionnalités vidéo et de partage d'écran pour limiter l'impact sur le réseau et la qualité médiocre de l'expérience avec Teams ?         |
 |![Icône Étapes suivantes.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Étapes suivantes         |Qualité réseau inconnue : suivez les instructions sur [l’évaluation de la préparation du réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness) pour déterminer si votre réseau est préparé pour le trafic multimédia en temps réel.<br></br>Qualité réseau médiocre : Réalisez les étapes de correction du réseau pour mettre à disposition un environnement adéquat pour le trafic multimédia en temps réel de haute qualité.<br></br>Réseau satisfaisant : Vérifiez que l'ensemble des adresses IP et des ports sont accessibles.           |
 
+## <a name="related-topics"></a>Rubriques connexes
+
+[Vidéo : Planification du réseau](https://aka.ms/teams-networking)
