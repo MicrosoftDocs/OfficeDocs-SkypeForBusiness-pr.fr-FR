@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Découvrez les stratégies de messagerie et comment ils peuvent être utilisés pour contrôler la conversation de messagerie dans les équipes.
-ms.openlocfilehash: 5292d88c148e2bd23242f96a3593d98178b9a923
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+ms.openlocfilehash: d4d2a4f424de1750c70ea851d1d1d35a2aaf9e44
+ms.sourcegitcommit: dfd075d092db9826c792cf947c83c33cfcd8ef4e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760582"
+ms.locfileid: "29763715"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>Que sont les stratégies de messagerie dans Teams ?
 ::: zone target="docs"
@@ -32,7 +32,6 @@ Les stratégies peuvent être facilement gérés dans le centre d’administrati
 ![Stratégies de messagerie dans les équipes](media/messaging-policies.png)
 ::: zone-end
 
-::: zone target="chromeless"
 Les paramètres disponibles pour la stratégie sont décrits ci-dessous : 
 
 - **Les propriétaires peuvent supprimer des messages envoyés**  Utilisez ce paramètre pour permettre aux propriétaires de supprimer des messages que les utilisateurs envoient dans la conversation.
@@ -51,12 +50,10 @@ Les paramètres disponibles pour la stratégie sont décrits ci-dessous :
 - **Autocollants d’utilisation dans des conversations** Si vous activez ce, les utilisateurs peuvent inclure des autocollants conversation avec d’autres personnes.
 - **Autoriser les URL aperçus** Utilisez ce paramètre pour activer automatique URL aperçu activé ou désactivé dans les messages.
 - **Autoriser les utilisateurs à convertir des messages** Activez ce paramètre pour permettre aux utilisateurs de traduire automatiquement des messages d’équipes dans la langue spécifiée par leurs paramètres personnels de langue pour Office 365.
-::: zone-end
 
 ::: zone target="docs"
 Si vous avez créé une stratégie de messagerie personnalisée, il ne sera active pour un utilisateur si cette stratégie est affectée à un utilisateur.  Pour affecter une stratégie personnalisée à un utilisateur dans le centre d’administration d’équipes, cliquez sur **utilisateurs** dans le volet de navigation gauche, sélectionnez l’utilisateur que vous voulez attribuer la stratégie à, puis cliquez sur **Modifier** sous **Stratégies affectées**.
-
+::: zone-end
 
 ### <a name="related-topics"></a>Rubriques connexes
 [Stratégies de réunion dans Teams](meeting-policies-in-teams.md)
-::: zone-end
