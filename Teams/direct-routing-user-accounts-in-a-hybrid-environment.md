@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez les différentes combinaisons de création de l’utilisateur et les combinaisons suivantes sont prises en charge ou non pris en charge.
-ms.openlocfilehash: f85a9903c2b1d35d110c26b276305ed4c9ce949a
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: 6f1cdbfc012026d7a41f5ca96e730aeb861eeb40
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635723"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760558"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN
 
@@ -34,7 +34,7 @@ Cet article s’applique aux environnements dans lesquels vous avez tous les él
 - Utilisateurs activés pour émettre et recevoir des appels publics réseau de téléphonique commuté (RTC) et à partir du client
 
  
-Si vous avez un environnement différent (tel que Skype pour l’édition de connecteur Business Cloud), hybride n’est pas configuré, ou vos utilisateurs ne seront pas activés pour les appels RTC, la matrice de prise en charge sera différente.  
+Si vous avez un environnement différent (tel que Skype pour l’édition de connecteur Business Cloud), hybride n’est pas configuré, ou les utilisateurs ne sont pas activés pour les appels RTC, la matrice de prise en charge sera différente.  
 
 ## <a name="about-the-combinations-and-the-supportability-statement"></a>Sur les combinaisons et la déclaration de prise en charge  
 
@@ -43,12 +43,12 @@ Un Skype pour un environnement hybride avec une connectivité PSTN flexibilité 
 
 **Définitions de :**   
 - **Enterprise Voice :** Option pour fournir l’accès PSTN pour les utilisateurs de Skype locale pour le compte d’utilisateur Business. Skype sur site pour le serveur de médiation Business fournit interconnectivité PSTN.  
-- **Connectivité de voix hybride :** Option pour fournir l’accès PSTN pour avec Skype en ligne pour un compte professionnel. Skype sur site pour le serveur de médiation Business fournit interconnectivité PSTN. 
+- **Connectivité de voix hybride :** Option pour fournir l’accès PSTN pour les utilisateurs de Skype pour un compte Business en ligne. Skype sur site pour le serveur de médiation Business fournit interconnectivité PSTN. 
 - **Routage direct :** Option pour fournir l’accès PSTN pour les utilisateurs de Skype en ligne pour un compte professionnel, licence Teams Microsoft, à l’aide du client Microsoft Teams. Le contrôleur SBC est connecté au Proxy SIP dans Office 365 sans avoir besoin de n’importe quel logiciel sur site de Microsoft.
 
   
 **L’environnement prend en charge les combinaisons suivantes :**
-- **Scénario 1 :** Utilisateur compte dans Skype pour les entreprises dans les locaux et utilisera le Skype pour client d’entreprise avec Enterprise Voice
+- **Scénario 1 :** Utilisateur compte dans Skype pour les professionnels sur site et utilisera le Skype pour client d’entreprise avec Enterprise Voice
 - **Scénario 2 :** Utilisateur compte dans Skype pour les entreprises en ligne et utilisera le Skype pour client d’entreprise avec connectivité de voix hybride
 - **Scénario 3 :** Utilisateur compte dans Skype pour les entreprises en ligne avec licence Microsoft Teams et utilisera le client d’équipes
  

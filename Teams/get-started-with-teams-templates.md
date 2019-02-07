@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08abde935b69aa58e5e54bd50b31f1c9d554552e
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 27c27aabd9463287c15a98282d6efe114642a8a1
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742957"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760574"
 ---
 # <a name="get-started-with-teams-templates"></a>Prise en main des modèles Teams 
 
@@ -67,8 +67,8 @@ Par défaut, le modèle de base est défini à **Standard** qui ne contient pas 
 |Formation-<br>Équipe PLC |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Applications :<ul><li>Bloc-notes OneNote de PLC (épinglés sur l’onglet **Général** )</ul></li>|
 | Vente au détail-<br>Magasin | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Canaux :<ul><li>Remise MAJ</li><li>Formation</li></ul>Propriétés de l’équipe<ul><li>Visibilité de l’équipe définie sur Public</li></ul>Autorisations de membre<ul><li>Empêcher les membres de création, mise à jour ou suppression de chaînes</li><li>Empêcher les membres d’ajouter ou supprimer des applications</li><li>Empêcher les membres de création, mise à jour ou suppression des connecteurs</li></ul> |
 | Vente au détail-<br>Collaboration de gestionnaire | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Canaux :<ul><li>Remise MAJ</li><li>Formation</li></ul>Propriétés de l’équipe :<ul><li>Visibilité de l’équipe privée</li></ul>Autorisations de membre :<ul><li>Empêcher les membres de création, mise à jour ou suppression de chaînes</li><li>Empêcher les membres d’ajouter ou supprimer des applications</li><li>Empêcher les membres de création, mise à jour ou suppression des connecteurs</li></ul>|
-| Prestataires-<br>Comté |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |Canaux : <ul><li>Annonces\*</li><li>Appel de lumières</li><li>Sélections amusante\*</li><li>Huddles\*</li><li>Arrondit</li><li>Formation\*</li></ul>\*Canaux auto-favorited |
-|Prestataires-<br>Hôpital | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |Canaux :<ul><li>Annonces\*</li><li>Conformité\*</li><li>Garde</li><li>Finances</li><li>Sélections amusante\*</li><li>Ressources humaines</li><li>Laboratoire</li></li><li>Pharmacie</li></ul>\*Canal auto-favorited|
+| Prestataires-<br>Comté |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWard` |Canaux : <ul><li>Annonces\*</li><li>Huddles\*</li><li>Arrondit</li><li>Personnel\*</li><li>Formation\*</li></ul>\*Canaux auto-favorited |
+|Prestataires-<br>Hôpital | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |Canaux :<ul><li>Annonces\*</li><li>Conformité\*</li><li>Garde</li><li>Ressources humaines</li></li><li>Pharmacie</li></ul>\*Canal auto-favorited|
 |||
 
 > [!NOTE]

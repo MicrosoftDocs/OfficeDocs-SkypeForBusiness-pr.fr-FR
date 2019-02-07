@@ -23,13 +23,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
-description: En plus de la licence utilisateur standard de conférence Audio en Volume et la gestion des licences des organisations peuvent également choisir une offre de salaire par minute pour activer les fonctionnalités de conférence Audio pour leurs organisations.
-ms.openlocfilehash: 17a27c8426356b985168b26c6d19eabd88e306fa
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+description: Outre la licence standard par utilisateur de conférence Audio, organisations utilisant des licences en Volume Microsoft peuvent également choisir une offre de salaire par minute pour activer les fonctionnalités de conférence Audio pour leurs organisations.
+ms.openlocfilehash: 7366ea4186d045b75847fd7397becefcf150b8a6
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530855"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760550"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 

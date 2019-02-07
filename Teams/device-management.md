@@ -12,16 +12,17 @@ description: Découvrez comment gérer les périphériques utilisés dans les é
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb306930b4adca9c50e46ad1515324bbac2a2e2d
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: f1cf2dcc1d300490d1b3049c9513d0c4e16c3f83
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754194"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760590"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gérer vos périphériques dans Microsoft Teams
 
- En tant qu’administrateur, vous gérez tous les périphériques utilisés dans les équipes de votre organisation à partir du centre d’administration de Microsoft Teams. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation et effectuer des tâches telles que la mise à jour, de redémarrage et surveiller les diagnostics pour les appareils. Vous pouvez également créer et affecter des profils de configuration pour un périphérique ou des groupes de périphériques. 
+::: zone target="docs"
+En tant qu’administrateur, vous gérez tous les périphériques utilisés dans les équipes de votre organisation à partir de la & Microsoft Teams Skype pour entreprise centre d’administration. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation et effectuer des tâches telles que la mise à jour, de redémarrage et surveiller les diagnostics pour les appareils. Vous pouvez également créer et affecter des profils de configuration pour un périphérique ou des groupes de périphériques. 
 
 ## <a name="what-devices-can-you-manage"></a>Quels appareils pouvez-vous gérer ?
 Appareils doivent être certifiées pour les équipes et inscrit dans les équipes. Un périphérique est inscrit automatiquement la première fois qu’un utilisateur se connecte aux équipes sur l’appareil. Pour obtenir la liste des périphériques certifiés qui peuvent être gérés, voir [téléphones de conférence](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) et les [téléphones de bureau](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
@@ -35,6 +36,8 @@ Appareils doivent être certifiées pour les équipes et inscrit dans les équip
 
 1. Dans la navigation de gauche, accédez à des **périphériques** > **Gestion de périphériques**.
 2. Sélectionnez **tous les périphériques**.  
+
+::: zone-end
 
  À partir de là, vous pouvez afficher et gérer tous les périphériques inscrits dans les équipes de votre organisation. Les informations qui s’affichent pour chaque périphérique incluent l’historique, fabricant, modèle, utilisateur, état, action, dernière apparaît et nom du périphérique. Vous pouvez personnaliser l’affichage pour afficher les informations qui correspond le mieux à vos besoins.
 
@@ -54,18 +57,28 @@ Utilisez les profils de configuration pour gérer les paramètres et les fonctio
 
 ### <a name="create-a-configuration-profile"></a>Créer un profil de configuration
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
+::: zone target="docs"
+
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de la & Microsoft Teams Skype entreprise centre d’administration
 
 1. Dans la navigation de gauche, accédez à des **périphériques** > **Gestion de périphériques**.
+
+::: zone-end
+
 2. Sélectionnez **les profils de Configuration**, puis sélectionnez le **profil de configuration**.
 3. Entrez un nom pour le profil et si vous le souhaitez, ajoutez une description conviviale.
 4. Spécifier les paramètres souhaités pour le profil, puis cliquez sur **Enregistrer**.
 
 ### <a name="assign-a-configuration-profile"></a>Affecter un profil de configuration
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
+::: zone target="docs"
+
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de la & Microsoft Teams Skype entreprise centre d’administration
 
 1. Dans la navigation de gauche, accédez à des **périphériques** > **Gestion de périphériques**.
+
+::: zone-end
+
 2. Sélectionnez le **profil de Configuration**, puis cliquez sur le lien sous **affecté à** dans le profil que vous voulez affecter.  
 3. Dans le volet **affecter des périphériques à un profil de configuration** , recherchez et sélectionnez les périphériques que vous voulez attribuer.
 4. Cliquez sur **Enregistrer**.

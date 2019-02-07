@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Commencer avec les modèles de santé des équipes Microsoft
-ms.openlocfilehash: 7d55d2d6a5f062bc5eb85b6bfc5227f7813c91ca
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735631"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760566"
 ---
 # <a name="get-started-with-microsoft-teams-healthcare-templates"></a>Commencer avec les modèles de santé des équipes Microsoft
 
@@ -34,7 +34,7 @@ Le modèle comté est destiné à la communication et de collaboration au sein d
 
 |Type de modèle de base |baseTemplateId |Canaux de modèle de base|
 |:--- |:---|:---|
-|Prestataires - comté | https://<span></span>graphique<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Annonces\* <br> Appel de lumières\* <br> Sélections amusante\* <br> Huddles\* <br>Arrondit\* <br>Formation\* |
+|Prestataires - comté | https://<span></span>graphique<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Annonces\* <br> Huddles\* <br> Arrondit\* <br> Personnel\* <br> Formation\* |
 |     | |         |
 
 \*Auto-favorited 
@@ -45,7 +45,7 @@ Le modèle hôpital est destiné à la communication et la collaboration entre p
 
 |Type de modèle de base |baseTemplateId |Canaux de modèle de base|
 |:--- |:---|:---|
-|Prestataires - hôpital | https://<span></span>graphique<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Annonces\* <br> Conformité\* <br> Sélections amusante\* <br>Garde<br>Finances<br>Ressources humaines <br>Laboratoire<br> Pharmacie |
+|Prestataires - hôpital | https://<span></span>graphique<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | Annonces\* <br> Conformité\* <br> Garde <br> Ressources humaines <br> Pharmacie |
 | | |  |
 
 \*Auto-favorited 
@@ -58,7 +58,7 @@ Pour utiliser ces modèles, modifiez simplement la propriété 'template@odata.b
 
 ``` Powershell
 { 
-          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospitalWide",
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospital",
           "DisplayName": "Contoso Hospital",
           "Description": "Team for all staff in Contoso Hospital",
           "Channels": [

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Cet article résume les conditions requises pour prendre en charge les systèmes Skype Room version 2.
-ms.openlocfilehash: 8cadbed89be0301071c2c8a30c715f786b549d36
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: d54ace878e45344075a166c257efa18aa150b0e3
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716450"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760605"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
 
@@ -47,11 +47,10 @@ Les systèmes Skype Room version 2 peuvent s’adapter à différentes tailles
 
 |Tablette|Processeur|RAM|Disque|
 |:-----|:-----|:-----|:-----|
-|Surface Pro (2017)  |Core i5  |8 Go  |256 Go  |
-|Surface Pro (2017)  |Core i5  |8 Go  |128 Go  |
-|Surface Pro (2017)  |Core i5  |4 Go  |128 Go  |
-|Surface Pro 4       |Core i5  |8 Go  |256 Go  |
-|Surface Pro 4       |Core i5  |4 Go  |128 Go  |
+|Surface Pro 6  |Principaux i5 (8350U)  |16 Go ou 8 Go  | 128 Go ou plus  |
+|Surface Pro 6  |Core i7 (8650U) |16 Go ou 8 Go  |128 Go ou plus  |
+|Surface Pro (2017)  |Core i5  |8 Go ou 4 Go  |128 Go ou plus  |
+|Surface Pro 4       |Core i5  |8 Go ou 4 Go  |128 Go ou plus  |
 
 > [!NOTE]
 > Les processeurs Core M3 ne sont pas pris en charge.
@@ -116,7 +115,7 @@ Le tableau suivant fournit des recommandations pour les périphériques en fonct
 
 **Périphériques audio certifiés pour les systèmes Skype Room version 2**
 
-|**Type de salle**|**Nombre de personnes**|**Distance maximale recommandée du microphone à la personne qui parle**|**Appareil par taille de salle maximum**|**Commentaires**|
+|Type de salle|Nombre de personnes|Distance maximum recommandée du microphone à la personne parlant|Appareil par taille de salle maximum|Commentaires|
 |:-----|:-----|:-----|:-----|:-----|
 |**Focus** <br/> 10' x 9'  <br/> |2-4  <br/> |1,5 m   <br/> |Logitech Connect  <br/> |Les périphériques Logitech Connect comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion.  <br/> |
 |**Petite** <br/> 16' x 16'  <br/> |4-6  <br/> |2,0 m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Le volume de lecture peut être limité pour des salles plus grandes.  <br/> |
@@ -143,7 +142,6 @@ Pour créer votre propre image de systèmes Skype Room version 2, suivez les i
 > Des professionnels de l'informatique devront accéder aux fichiers ISO Windows 10 Entreprise via leur contrat de licences en volume.
 
 En outre, vous souhaiterez probablement une copie de [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), utilisé souvent pour provisionner les comptes des systèmes Skype Room version 2.
-
 
 ## <a name="see-also"></a>Voir aussi
 
