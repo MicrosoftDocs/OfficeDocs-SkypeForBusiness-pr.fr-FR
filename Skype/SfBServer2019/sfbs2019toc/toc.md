@@ -126,6 +126,8 @@
 ##### [Vue d’ensemble du déploiement](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Magasin de contacts unifié](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Planifier Skype pour la migration Business Server et Exchange Server](../hybrid/plan-um-migration.md)
+#### [Prise en charge de migration Exchange Unified Messaging en ligne](../plan/exchange-unified-messaging-online-migration-support.md)
+
 ### [Surveillance](../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Archivage](../../SfbServer/plan-your-deployment/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Conférence](../../SfbServer/plan-your-deployment/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -452,7 +454,7 @@
 
 ### [Conférence](../../SfbServer/manage/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Stratégies de conférence](../../SfbServer/manage/conferencing/conferencing-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-##### [Affichage](../../SfbServer/manage/conferencing/view.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+##### [Vue](../../SfbServer/manage/conferencing/view.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Créer des stratégies](../../SfbServer/manage/conferencing/create-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Modifier des stratégies](../../SfbServer/manage/conferencing/modify-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Affecter des stratégies](../../SfbServer/manage/conferencing/assign-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
