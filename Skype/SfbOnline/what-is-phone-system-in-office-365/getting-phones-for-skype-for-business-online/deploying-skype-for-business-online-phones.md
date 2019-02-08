@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez les étapes du déploiement pour obtenir le microprogramme approprié, mettre à jour si nécessaire, attribuer des licences et configurer les paramètres pour Skype pour les téléphones en ligne Business
-ms.openlocfilehash: f036f2fa47c99d1ea206192c15c901fc9391c1ee
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 04cb3aa17574f56d9069f07a10c1c6ae95f9576d
+ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297656"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29770361"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Déploiement de téléphones Skype Entreprise Online
 
@@ -184,7 +184,7 @@ Vous pouvez trouver plus d’informations sur les Plans d'appels en lisant [Quel
     
 - **-Verrouillage du téléphone** est une fonctionnalité récemment introduite dans Skype pour les entreprises certifié téléphones qui est utilisé pour sécuriser un téléphone. Si activé, les utilisateurs devront créer un code confidentiel lorsque l’authentification réussit. Une fois créée, téléphones verrouillera lors de l’expiration du délai d’inactivité que vous définissez, un utilisateur verrouille manuellement son téléphone ou synchronisation leur verrouillage de téléphone avec leur verrouillage de PC à l’aide de jumelage de téléphone. Si le téléphone-verrouiller le code confidentiel est entré incorrect plusieurs fois, le téléphone sera déconnecter l’utilisateur ou code l’administrateur du nécessaire pour déverrouiller le téléphone, mais cette valeur peut varier selon le partenaire de téléphone. Code confidentiel de l’utilisateur doit être entre 6 et 15 chiffres.
     
-    Vous pouvez désactiver verrouillage de téléphone pour votre organisation (qui est activée par défaut), modifier le délai d’inactivité et choisir si les utilisateurs peuvent effectuer des appels téléphoniques pendant qu’ils sont des paramètres intrabande verrouillés ou non à l’aide. Pour plus de détails sur ces paramètres, consultez [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx).
+    Vous pouvez désactiver verrouillage de téléphone pour votre organisation (qui est activée par défaut), modifier le délai d’inactivité et choisir si les utilisateurs peuvent effectuer des appels téléphoniques pendant qu’ils sont des paramètres intrabande verrouillés ou non à l’aide. Pour plus d’informations sur ces paramètres, voir [Set-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) .
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>Étape 7 : si vous disposez du couplage d'appareil et de Better Together over Ethernet (BToE) (facultatif)
 <a name="BK_BTOE"> </a>
