@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3468b413fedc5d3e24871a632f50b5d58c7c5467
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715452"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771007"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage par emplacement pour le routage Direct
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Avant de suivre les étapes décrites dans cet article, assurez-vous que vous avez lu [Plan Location-Based de routage pour le routage Direct](location-based-routing-plan.md) et effectué les étapes dans [configurer les paramètres réseau pour le routage basé sur l’emplacement](location-based-routing-configure-network-settings.md).
 
@@ -34,7 +36,7 @@ Cet article décrit comment activer le routage basé sur un emplacement pour le 
 
 ## <a name="enable-location-based-routing-for-users"></a>Activer le routage emplacement pour les utilisateurs
 
-1. Utiliser le ``Set-CsOnlinPstnUsages`` applet de commande pour définir les utilisations RTC. Pour plusieurs utilisations, séparez chaque d’utilisation par une virgule.
+1. Utiliser le ``Set-CsOnlinePstnUsages`` applet de commande pour définir les utilisations RTC. Pour plusieurs utilisations, séparez chaque d’utilisation par une virgule.
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 

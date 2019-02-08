@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb84f58c48292c13bd4af6f355f5e4da22458c9
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 6b99e21d172e35eb8e2ceb2aaabacee78cf45ef9
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715476"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771015"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a>Configurer les paramètres réseau pour le routage basé sur l’emplacement 
+# <a name="configure-network-settings-for-location-based-routing"></a>Configurer les paramètres réseau pour le routage basé sur l’emplacement
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
 Si vous n’avez pas déjà fait, lisez [Plan Location-Based de routage pour le routage Direct](location-based-routing-plan.md) pour passer en revue les autres étapes, vous devez effectuer avant de déployer les paramètres réseau pour le routage basé sur l’emplacement.
 
@@ -59,7 +61,7 @@ Le tableau suivant indique les sites de réseau définis dans cet exemple.
 
 ## <a name="define-network-subnets"></a>Définir les sous-réseaux
 
-Utiliser le ``New-Cs-TenantNetworkSubnet`` applet de commande pour définir les sous-réseaux et les associer aux sites du réseau. Chaque sous-réseau interne ne peut être associé à un site. 
+Utiliser le ``New-CsTenantNetworkSubnet`` applet de commande pour définir les sous-réseaux et les associer aux sites du réseau. Chaque sous-réseau interne ne peut être associé à un site. 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
@@ -89,7 +91,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## <a name="define-external-subnets"></a>Définir les sous-réseaux externes
-Utiliser le ``New-Cs-TenantTrustedIPAddress`` applet de commande pour définir les sous-réseaux externes et les assigner au client. Vous pouvez définir un nombre illimité de sous-réseaux pour un client. 
+Utiliser le ``New-CsTenantTrustedIPAddress`` applet de commande pour définir les sous-réseaux externes et les assigner au client. Vous pouvez définir un nombre illimité de sous-réseaux pour un client. 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <Subnet IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```

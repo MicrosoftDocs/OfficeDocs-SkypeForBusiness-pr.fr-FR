@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0f399dab4097a69ef9d7a90865b81eeb206b54
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 7bcf4341d171f8b9faf8c11bbe8d85503cf2240b
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715444"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770999"
 ---
-# <a name="location-based-routing-terminology"></a>Terminologie de routage basée sur l’emplacement 
+# <a name="location-based-routing-terminology"></a>Terminologie de routage basée sur l’emplacement
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
 Voici quelques termes et les concepts utilisés dans la documentation de routage basé sur l’emplacement. Il est judicieux de vous familiariser avec ces concepts et termes avant d’arriver plus loin dans la documentation.
 

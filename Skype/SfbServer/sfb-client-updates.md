@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Fournit aux professionnels de l’informatique des informations sur les dernières mises à jour des versions perpétuelles de Skype Entreprise 2016 pour les clients Entreprise 2015 et Lync 2013
-ms.openlocfilehash: 25bab2e73da7bf08ed91da4534e79b1fc6bd7b92
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 62aa604385b76df94c647199994211f25f265d56
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743011"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771038"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Dernières versions de Skype Entreprise qui utilisent Windows Installer (MSI)
 
@@ -42,7 +42,12 @@ La compatibilité de Skype Entreprise avec Office 365 et votre environnement l
 
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:---  |:---  |:---  |
-|Mise à jour de sécurité pour Skype Entreprise 2016 |[Article 4022221](https://support.microsoft.com/kb/4022221)| Juillet 2018 |
+|Mise à jour de Skype Entreprise 2016 |[KB4461586](https://support.microsoft.com/kb/4461586/) | Janvier 2018|
+|Mise à jour de Skype Entreprise 2016 |[KB4461545](https://support.microsoft.com/kb/4461545/) | 2018 décembre|
+|Mise à jour de sécurité pour Skype Entreprise 2016 |[KB4461473](https://support.microsoft.com/kb/4461473/) | Novembre 2018|
+|Mise à jour de Skype Entreprise 2016 |[KB4092445](https://support.microsoft.com/kb/4092445/) | 2018 octobre|
+|Mise à jour de Skype Entreprise 2016 |[KB4032255](https://support.microsoft.com/kb/4032255/) | 2018 août|
+|Mise à jour de sécurité pour Skype Entreprise 2016 |[Article 4022221](https://support.microsoft.com/kb/4022221) | Juillet 2018 |
 |Mise à jour de Skype Entreprise 2016 |[Article 4022155](https://support.microsoft.com/en-us/help/4022155) | Juin 2018|
 |Mise à jour de Skype Entreprise 2016 |[Article 4018367](https://support.microsoft.com/kb/4018367) | Mai 2018|
 |Mise à jour de Skype Entreprise 2016 |[Article 4018323](https://support.microsoft.com/kb/4018323) | Avril 2018|

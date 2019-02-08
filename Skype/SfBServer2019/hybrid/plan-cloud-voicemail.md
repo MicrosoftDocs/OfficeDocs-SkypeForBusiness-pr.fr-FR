@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Cet article décrit les avantages, considérations relatives à la planification et configuration requise pour l’implémentation du Service de messagerie vocale de Microsoft dans le nuage. Pour plus d’informations sur la configuration de la messagerie vocale dans le nuage, voir Configuration de la messagerie vocale dans le nuage.
-ms.openlocfilehash: d1e962f36cdefafdd1efa2d02a719eed1d2e93fd
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: e16ad9fb123342f7ac7e780f43bffd9b54b82ce6
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349022"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770914"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planifier le service de messagerie vocale dans le nuage
 
@@ -93,7 +93,7 @@ Interopérabilité de la version et les topologies prises en charge pour la mess
 Skype Entreprise Server 2015 | Serveur de messagerie unifiée Exchange | Serveur de messagerie unifiée Exchange |  | Messagerie vocale dans le nuage <br> Exchange Online MU * |
 Lync Server 2013 <br>  | Serveur de messagerie unifiée Exchange | Serveur de messagerie unifiée Exchange | | Messagerie vocale dans le nuage <br> Exchange Online MU * |
 
-\*Jusqu'à ce qu’obsolète.
+\*Jusqu'à ce qu’obsolète. Pour plus d’informations, consultez [migration Exchange Unified Messaging Online prend en charge](../plan/exchange-unified-messaging-online-migration-support.md) . 
 
 Microsoft recommande les chemins de migration suivants :
 

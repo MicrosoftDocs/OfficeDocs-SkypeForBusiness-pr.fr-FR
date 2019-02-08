@@ -1,5 +1,5 @@
 ---
-title: Configurer un contrôleur de Session en périphérie pour plusieurs locataires
+title: Configurer un contrôleur de frontière de session pour plusieurs clients
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,14 +14,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Découvrez comment configurer un contrôleur de Session bordure (SBC) pour prendre en charge plusieurs clients.
-ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8c962647645b742f6c7b612e25873c6486bb51a0
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532823"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771023"
 ---
-# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de Session en périphérie pour plusieurs locataires
+# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
 Routage direct prend en charge la configuration une bordure contrôleur Session (SBC) pour prendre en charge plusieurs clients.
 
@@ -206,7 +206,9 @@ Créer une jonction dans le domaine de client à l’aide de la commande New-CSo
 
 Par exemple :
 
-*Nouvelle-CSOnlinePSTNGateway – nom de domaine complet sbc1.customers.adatum.biz - SipSignallingPort 5068*
+```
+New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
+```
 
 Configurer les utilisateurs avec les numéros de téléphone et configurer le routage des communications vocales.
 
