@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67c2e403511c3329d37fa3712bc8f559dcc16c38
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: c7dee2921e6458c797a09f5b3fa78118992766b2
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742996"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29786398"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
@@ -177,7 +177,7 @@ Pour savoir quel comportement s’attendre, vous devez comprendre que la présen
     * À partir de Skype pour les entreprises, les autres utilisateurs verront Skype de l’utilisateur (îles) pour la présence d’entreprise (dans client et fédéré) ; Il est aligné sur les tables de routage ci-dessus
 
 > [!NOTE]
-> Il s’agit d’une modification récente de l’implémentation précédente (appelée présence unifiée) montrant la présence d’un combiné, agrégée des équipes et Skype de la cible pour les clients d’entreprise. Cette approche précédente est la confusion pour les utilisateurs car elle produirait fréquemment dans l’affichage de présence précise, par exemple, un utilisateur n’est pas accessible même si leur présence montré les en ligne.
+> Il s’agit d’une modification récente de l’implémentation précédente (appelée présence unifiée) montrant la présence d’un combiné, agrégée des équipes et Skype de la cible pour les clients d’entreprise. Cette approche précédente est la confusion pour les utilisateurs car elle produirait fréquemment dans l’affichage de présence imprécises, c'est-à-dire un utilisateur n’est pas accessible même si leur présence montré les en ligne.
 
 ## <a name="in-tenant-presence"></a>Présence dans le client
 

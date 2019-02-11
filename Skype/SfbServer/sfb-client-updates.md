@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Fournit aux professionnels de l’informatique des informations sur les dernières mises à jour des versions perpétuelles de Skype Entreprise 2016 pour les clients Entreprise 2015 et Lync 2013
-ms.openlocfilehash: 62aa604385b76df94c647199994211f25f265d56
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: f3cf01aeec5117a210207cb958f7255f6592c606
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771038"
+ms.locfileid: "29786405"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Dernières versions de Skype Entreprise qui utilisent Windows Installer (MSI)
 
@@ -42,7 +42,7 @@ La compatibilité de Skype Entreprise avec Office 365 et votre environnement l
 
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:---  |:---  |:---  |
-|Mise à jour de Skype Entreprise 2016 |[KB4461586](https://support.microsoft.com/kb/4461586/) | Janvier 2018|
+|Mise à jour de Skype Entreprise 2016 |[KB4461586](https://support.microsoft.com/kb/4461586/) | Janvier 2019|
 |Mise à jour de Skype Entreprise 2016 |[KB4461545](https://support.microsoft.com/kb/4461545/) | 2018 décembre|
 |Mise à jour de sécurité pour Skype Entreprise 2016 |[KB4461473](https://support.microsoft.com/kb/4461473/) | Novembre 2018|
 |Mise à jour de Skype Entreprise 2016 |[KB4092445](https://support.microsoft.com/kb/4092445/) | 2018 octobre|
@@ -83,6 +83,11 @@ La compatibilité de Skype Entreprise avec Office 365 et votre environnement l
 
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:--- |:--- |:--- |
+|Mise à jour de Skype Entreprise 2015/Lync 2013 |[KB4461557](https://support.microsoft.com/kb/4461557/)| Janvier 2019 |
+|Mise à jour de sécurité pour Skype Entreprise 2015/Lync 2013 |[KB4461487](https://support.microsoft.com/kb/4461487/)| Novembre 2018 |
+|Mise à jour de Skype Entreprise 2015/Lync 2013 |[KB4461446](https://support.microsoft.com/kb/4461446/)| 2018 octobre |
+|Mise à jour de Skype Entreprise 2015/Lync 2013 |[KB4092457](https://support.microsoft.com/kb/4092457/)| Septembre 2018 |
+|Mise à jour de Skype Entreprise 2015/Lync 2013 |[KB4032250](https://support.microsoft.com/kb/4032250/)| 2018 août |
 |Mise à jour de sécurité pour Skype Entreprise 2015/Lync 2013 |[ Article 4022225 ](https://support.microsoft.com/kb/4022225) | Juillet 2018 |
 |Mise à jour de Skype Entreprise 2015/Lync 2013 |[Article 4022170 ](https://support.microsoft.com/kb/4022170) | Juin 2018 |
 |Mise à jour de Skype Entreprise 2015/Lync 2013 |[Article 4018377 ](https://support.microsoft.com/kb/4018377) | Mai 2018 |
@@ -135,6 +140,11 @@ La compatibilité de Skype Entreprise avec Office 365 et votre environnement l
 
 Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:--- |:--- |:--- |
+|Mise à jour de Skype Entreprise 2015/Lync 2013 |[KB4461557](https://support.microsoft.com/kb/4461557/)| Janvier 2019 |
+|Mise à jour de sécurité pour Skype Entreprise 2015/Lync 2013 |[KB4461487](https://support.microsoft.com/kb/4461487/)| Novembre 2018 |
+|Mise à jour de Skype Entreprise 2015/Lync 2013 |[KB4461446](https://support.microsoft.com/kb/4461446/)| 2018 octobre |
+|Mise à jour de Skype Entreprise 2015/Lync 2013 |[KB4092457](https://support.microsoft.com/kb/4092457/)| Septembre 2018 |
+|Mise à jour de Skype Entreprise 2015/Lync 2013 |[KB4032250](https://support.microsoft.com/kb/4032250/)| 2018 août |
 |Mise à jour de sécurité pour Skype Entreprise/Lync 2013 |[Article 4022225 ](https://support.microsoft.com/kb/4022225)| Juillet 2018 |
 |Mise à jour de Skype Entreprise 2015/Lync 2013|[Article 4022170 ](https://support.microsoft.com/kb/4022170) | Juin 2018 |
 |Mise à jour de Skype Entreprise 2015/Lync 2013|[Article 4018377 ](https://support.microsoft.com/kb/4018377) | Mai 2018 |
