@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28827be78c93a3ea3a922d16bb9d985d3439ad7a
-ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
+ms.openlocfilehash: 24ceb6ff76bb84f8de9d9248fc4c10a73ee454f4
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "27544199"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890763"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan pour Microsoft 365 gouvernement - déploiements GCC
 
@@ -74,14 +74,14 @@ Pour prendre en compte les exigences de nos clients du nuage gouvernement, il ex
 |-----------------------------|-----------------------------|----------------|
 | Base de | Connexion | Disponibles |
 | | Présence | Disponibles |
-| | Présence unifiée (Skype pour professionnels et les équipes unifiées) | Sur la file d’attente pour le gouvernement |
+| | Présence unifiée (Skype pour professionnels et les équipes unifiées) | Disponibles |
 | Activité | Flux | Disponibles |
 |  | Mon activité | Disponibles |
 | Conversation | Conversation | Disponibles |
 | | Fichiers | Disponibles |
 | | Organigramme hiérarchique | Disponibles |
 | | Activité | Disponibles |
-| | Interopérabilité (1:1 équipes-Skype pour la conversation de l’entreprise) | Sur la file d’attente pour le gouvernement |
+| | Interopérabilité (1:1 équipes-Skype pour la conversation de l’entreprise) | Disponibles |
 | Équipes | Message de canal | Disponibles |
 | | Fichiers de canal | Disponibles |
 | | Onglet OneNote | Sur la file d’attente pour le gouvernement |
@@ -125,7 +125,7 @@ Pour prendre en compte les exigences de nos clients du nuage gouvernement, il ex
 | | Consommateur de Skype - prise en charge des appels aux équipes | Disponibles |
 | Fichiers | Récents | Disponibles |
 | | Microsoft Teams | Disponibles |
-| Magasin | Magasin d’applications | Sur la file d’attente pour le gouvernement |
+| boutique | Magasin d’applications | Sur la file d’attente pour le gouvernement |
 | Recherche | Messages | Disponibles |
 | | Personnes | Disponibles |
 | | Fichiers | Disponibles |

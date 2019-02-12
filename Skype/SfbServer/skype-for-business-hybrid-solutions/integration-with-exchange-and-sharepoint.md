@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Résumé : Découvrez les Skype pour Business Server 2015 l’intégration avec Exchange et SharePoint.'
-ms.openlocfilehash: f0437e4a93bfd897fb04e29ce2729a30789ce889
-ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
+ms.openlocfilehash: 6bd76957a18c8cfcbff02bf1d92f944bb76cb8b2
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690451"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890716"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Intégration à Exchange et SharePoint
 
@@ -47,7 +47,7 @@ Les tableaux suivants répertorient les fonctionnalités prises en charge dans u
 |Participation à des réunions en ligne dans les clients mobiles  <br/> |Pour plus d’informations, voir [Déploiement de mobilité](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx).  <br/> |
 |Publication du statut en fonction des informations de disponibilité du calendrier Outlook  <br/> ||
 |Liste de contacts (par le biais du magasin de contacts unifié)  <br/> |Requiert Exchange 2016 ou Exchange 2013.  <br/> Skype pour le client de bureau d’entreprise de Lync 2013 est nécessaire.  <br/>  Pour plus d’informations, voir [Configurer les Skype pour Business Server 2015 à utiliser le magasin de contacts unifié](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
-|Photo du Contact haute résolution dans le client Lync 2013, Skype pour Business client et Lync Web App.  <br/> |Requiert Exchange 2016 ou Exchange 2013.  <br/> Pour plus d’informations, voir [Configure l’utilisation de photos haute résolution dans Skype pour Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
+|Photo du Contact haute résolution dans le client Lync 2013, Skype pour Business client et Lync Web App.  <br/> |Requiert Exchange 2016 ou Exchange 2013.  <br/> Pour plus d’informations, voir [Configure l’utilisation de photos haute résolution dans Skype pour Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> Pour les photos sur le Skype pour l’application de gestion pour MAC et Mobile, l’intégration entre Skype pour Business Server 2015 et Exchange Server doit être configurée comme décrit dans [configurer les applications partenaires dans Skype pour Business Server et Exchange Server](../deploy/integrate-with-exchange-server/configure-partner-applications.md). <br/> |
 |Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local. Pour plus d’informations, voir [Skype pour des solutions professionnelles hybride](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |L’historique des Conversations et journaux d’appels manqués sont écrites dans la boîte aux lettres exchange de l’utilisateur  <br/> ||
 |Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |Requiert Exchange 2016 ou Exchange 2013.  <br/> Pour plus d’informations, voir [Liste de vérification du déploiement pour l’archivage](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
@@ -67,7 +67,7 @@ Les tableaux suivants répertorient les fonctionnalités prises en charge dans u
 |Participation à une réunion en ligne dans les clients mobiles  <br/> ||
 |Publication du statut en fonction des informations de disponibilité du calendrier Outlook  <br/> ||
 |Liste de contacts (par le biais du magasin de contacts unifié).  <br/> |Lync Server 2013 uniquement. Skype pour le client de bureau d’entreprise de Lync 2013 est nécessaire.  <br/> Pour plus d’informations, voir [Configurer les Skype pour Business Server 2015 à utiliser le magasin de contacts unifié](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
-|Photo du Contact haute résolution dans le client Lync 2013, Skype pour Business client et Lync Web App.  <br/> |Pour plus d’informations, voir [Configure l’utilisation de photos haute résolution dans Skype pour Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
+|Photo du Contact haute résolution dans le client Lync 2013, Skype pour Business client et Lync Web App.  <br/> |Pour plus d’informations, voir [Configure l’utilisation de photos haute résolution dans Skype pour Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> Pour les photos sur le Skype pour l’application de gestion pour MAC et Mobile, l’intégration entre Skype pour Business Server 2015 et Exchange Server doit être configurée comme décrit dans [configurer l’intégration entre locale Skype pour Business Server et Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md). <br/> |
 |Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local. Pour plus d’informations, voir [Skype pour des solutions professionnelles hybride](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |L’historique des Conversations et journaux d’appels manqués sont écrites dans la boîte aux lettres Exchange de l’utilisateur  <br/> ||
 |Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |Pour plus d’informations, voir [Liste de vérification du déploiement pour l’archivage](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |

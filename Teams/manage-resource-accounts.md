@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: La gestion des comptes de ressource dans Microsoft Teams
-ms.openlocfilehash: 53d335b4f345967494767445ec206efcb6f78388
-ms.sourcegitcommit: e091201f2bcb86bee011e7ac0de741a6c673cedd
+ms.openlocfilehash: a40d281349f6b5f8cdc8a95dbb77a7d3f9da8cc4
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770715"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890755"
 ---
 # <a name="manage-resource-accounts-in-teams"></a>Gérer les comptes de ressources dans les équipes 
 
@@ -33,7 +33,7 @@ Système d’exploitation Microsoft Teams Skype pour Business en ligne, chaque f
 
 Mise en route il est important de garder à l’esprit quelques points :
   
-- Votre organisation doit avoir (au minimum), une licence entreprise E3 plus **Système téléphonique** ou une licence Enterprise E5. Le nombre de licences utilisateur **Système téléphonique** qui sont assignés affecte le nombre de numéros de service qui sont disponibles pour être utilisés pour les comptes de ressources affectées à appeler des files d’attente ou les standards automatiques. Le nombre de comptes de ressources que vous pouvez avoir est varie selon le nombre de licences **Système téléphonique** et de **Conférence** qui sont assignés au sein de votre organisation. Pour plus d’informations sur les licences, voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Votre organisation doit avoir (au minimum), une licence entreprise E3 plus **Système téléphonique** ou une licence Enterprise E5. Le nombre de licences utilisateur **Système téléphonique** qui sont assignés affecte le nombre de numéros de service qui sont disponibles pour être utilisés pour les comptes de ressources affectées à appeler des files d’attente ou les standards automatiques. Le nombre de comptes de ressources que vous pouvez avoir est varie selon le nombre de licences **Système téléphonique** et de **Conférence** qui sont assignés au sein de votre organisation. Pour plus d’informations sur les licences, voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
     > [!NOTE]
     > Pour rediriger les appels vers des personnes dans votre organisation en ligne, ils doivent disposer d’une licence de **Système téléphonique** et être activés pour Enterprise Voice ou Office 365 appelant Plans. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Pour les activer pour Entreprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez : `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -89,19 +89,19 @@ Lorsque vous avez terminé, cliquez sur **Enregistrer**.
 
 Pour les implémentations qui sont hybride avec Skype pour Business Server :
 
-[Planifier le standard automatique de nuage](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant.md)
+[Planifier le standard automatique de nuage](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
 
-[Configurer des standards automatiques de nuage](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant.md)
+[Configurer des standards automatiques de nuage](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
 
 Pour les implémentations d’équipes ou Skype pour Business Online :
 
-[Que sont les standards automatiques de système téléphonique ?](what-are-phone-system-auto-attendants.md)
+[Que sont les standards automatiques de système téléphonique ?](what-are-phone-system-auto-attendants)
 
-[Configurer un standard automatique pour le système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[Configurer un standard automatique pour le système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [Exemple de petite entreprise - configurer un standard automatique](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Créer une file d’attente de système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
+[Créer une file d’attente de système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [Nouvelle CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
