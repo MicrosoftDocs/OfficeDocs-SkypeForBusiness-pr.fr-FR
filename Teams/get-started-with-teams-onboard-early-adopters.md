@@ -1,5 +1,5 @@
 ---
-title: Intégrer des utilisateurs précoces dans Microsoft Teams
+title: Intégrer des premiers utilisateurs dans Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -7,30 +7,30 @@ ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
-description: Premiers intégrés à la première des équipes et de canaux que vous avez créé dans Microsoft Teams.
-localization_priority: Normal
+description: Intégrez les premiers utilisateurs à la première série d’équipes et de canaux que vous avez créés dans Microsoft Teams.
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 966768e447e236d7b9d313d3fd699fd788914c1f
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
-ms.translationtype: MT
+ms.openlocfilehash: 108979714eea2b6e39a7e40539b4d049d3b64f6c
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716436"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594349"
 ---
-# <a name="onboard-early-adopters-to-microsoft-teams"></a>Intégrer des utilisateurs précoces dans Microsoft Teams
+# <a name="onboard-early-adopters-to-microsoft-teams"></a>Intégrer des premiers utilisateurs dans Microsoft Teams
 
-## <a name="invite-users-to-teams"></a>Inviter des utilisateurs à des équipes
+## <a name="invite-users-to-teams"></a>Inviter des utilisateurs à rejoindre Teams
 
-Envoyer un message électronique de bienvenue aux utilisateurs avec les noms et descriptions des équipes que vous avez créé et les inviter à participer à des conversations dans les équipes. Veillez à inclure les liens suivants dans le courrier électronique afin qu’ils connaissent l’obtention des clients d’équipes, des formations et prise en charge :
-- [Client web d’équipes](https://teams.microsoft.com)
-- [Liens de téléchargement client mobile et de bureau](https://teams.microsoft.com/downloads)
-- [Vidéos de formation des équipes](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [Documentation d’aide équipes](https://support.office.com/teams)
+Envoyez un message de bienvenue aux utilisateurs avec les noms et les descriptions des équipes que vous avez créées et invitez-les à rejoindre les conversations dans Teams. N’oubliez pas d’inclure les liens suivants dans le courrier électronique pour qu’ils sachent où obtenir la prise en charge, les formations et le support :
+- [Client Web Teams](https://teams.microsoft.com)
+- [Liens de téléchargement du client de bureau et mobile](https://teams.microsoft.com/downloads)
+- [Vidéos de formation Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+- [Documentation d'aide Teams](https://support.office.com/teams)
 
-Par exemple, de l’équipe « Apprendre à connaître les équipes », vous pouvez souhaiter démarrer votre courrier électronique comme suit :
+Par exemple, pour l’équipe « Découvrez Teams », vous pouvez démarrer votre message comme suit :
 
    ```
    Welcome to Microsoft Teams for <insert_company_name>. Teams is a chat-based workspace that brings together chat, files, people, and tools in one place. 
@@ -40,58 +40,58 @@ Par exemple, de l’équipe « Apprendre à connaître les équipes », vous p
    To join, click <link to the team>.
    ```
 
-Collaborez avec les utilisateurs lorsqu’ils rejoignent tout d’abord. Publier un message de Bienvenue dans les équipes et de démarrer une conversation dans un canal. Cela définit le ton et encourage les utilisateurs à modifier le commutateur équipes. Dans le message de bienvenue, incluez les mêmes liens que vous avez envoyée dans le message électronique afin que les utilisateurs sachent où obtenir des équipes ainsi que d’autres informations utiles pour les utilisateurs de configurer et d’utiliser rapidement. Tactile de base avec les utilisateurs pour s’assurer qu’ils savent comment télécharger, installer et se connecter aux équipes afin de démarrer conversation, de partage de fichiers et de collaboration entre eux.  
+Veillez à interagir avec les utilisateurs lorsqu’ils se connectent pour la première fois. Publiez un message de bienvenue dans Teams et démarrez une conversation dans un canal. De cette façon, vous donnez le ton et encouragez les utilisateurs à passer à Teams. Dans le message de bienvenue, inclure les mêmes liens que vous avez envoyés dans un courrier électronique afin que les utilisateurs sachent où se procurer Teams et où recevoir d’autres informations utiles pour que les utilisateurs soient opérationnels rapidement. Communiquez avec les utilisateurs pour vous assurer qu’ils sachent bien comment télécharger, installer et se connecter à Teams, pour qu’il puisse commencer à avoir des conversations, à partager des fichiers et à collaborer les uns avec les autres.  
 
-## <a name="get-teams-clients"></a>Obtenir les clients d’équipes
-Équipes a des clients de bureau web (Windows et Mac) et mobile (iOS et Android). Il est recommandé que les utilisateurs installent les clients mobiles et de bureau à l’expérience avec les équipes. 
+## <a name="get-teams-clients"></a>Obtenir les clients Teams
+Teams a des clients pour le bureau (Windows et Mac), pour le web et pour les applications mobile (iOS et Android). Nous recommandons que les utilisateurs installent le client bureau et le client mobile pour profiter au mieux de Teams. 
 
-Atteindre : [Équipes pour Windows](#teams-for-windows) | [équipes pour Mac](#teams-for-mac) | [équipes pour navigateurs web](#web-client) | [équipes pour iOS](#teams-for-ios) | [équipes pour Android](#teams-for-android)
+Accédez à : [Teams pour Windows](#teams-for-windows) | [Teams pour Mac](#teams-for-mac) | [Teams pour les navigateurs internet](#web-client) | [Teams pour iOS](#teams-for-ios)  |  [Teams pour Android](#teams-for-android)
 
-### <a name="desktop-client"></a>Client de bureau
+### <a name="desktop-client"></a>Client de bureau 
 
-Le client de bureau équipes permet aux utilisateurs de Windows et Mac la meilleure expérience globale. Pour plus d’informations, voir [obtenir des clients pour les équipes (client de bureau)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) et la [configuration matérielle requise pour l’application des équipes Microsoft](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
-
-> [!NOTE]
-> En tant qu’administrateur, vous pouvez choisir la méthode pour distribuer les fichiers d’installation sur les ordinateurs de votre organisation, comme System Center Configuration Manager (Windows) ou Jamf Pro (Mac OS).
-
-#### <a name="teams-for-windows"></a>Équipes pour Windows 
-Pour installer le client de bureau Windows, la plus simple consiste à :
-
-1. Télécharger le client de bureau Windows à partir de [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads).
-2. Exécutez le programme d’installation (ne nécessite des autorisations d’administrateur). 
-3. Démarrez équipes après l’installation.
+Le client de bureau Teams assure aux utilisateurs de Windows et Mac la meilleure expérience générale possible. Pour plus d’informations, voir [Obtenez des clients pour Teams (client de bureau)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) et [Configurations matérielles requises pour l’application Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
 
 > [!NOTE]
-> Plus tard, lorsque vous envisagez un déploiement plus formel, masse des équipes au sein de votre organisation, regardez la vidéo [client de bureau Windows équipes](http://aka.ms/teams-clients) pour apprendre à planifier et déployer. 
+> En tant qu’administrateur, vous pouvez choisir la méthode de distribution des fichiers d’installation sur les ordinateurs dans votre organisation, tels que System Center Configuration Manager (Windows) ou Jamf Pro (macOS).
 
-#### <a name="teams-for-mac"></a>Équipes pour Mac 
-Pour installer le client de bureau Mac, la plus simple consiste à :
+#### <a name="teams-for-windows"></a>Teams pour Windows 
+Pour installer le client de bureau Windows, le plus simple consiste à :
 
-1. Télécharger le client de bureau Mac de [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads).
-2. Exécutez le programme d’installation (requiert des autorisations d’administrateur). 
-3. Démarrez équipes après l’installation.
+1. Télécharger le client de bureau Windows à partir de [ https://teams.microsoft.com/downloads ](https://teams.microsoft.com/downloads).
+2. Exécuter le programme d’installation (ne nécessite pas d’autorisations d’administrateur). 
+3. Démarrer Teams une fois que l’installation est terminée.
+
+> [!NOTE]
+> Plus tard, lorsque vous envisagez un déploiement plus formel en masse de Teams au sein de votre organisation, consultez la vidéo [Client de bureau Windows pour Teams](http://aka.ms/teams-clients) pour découvrir comment planifier et le déployer. 
+
+#### <a name="teams-for-mac"></a>Teams pour Mac 
+Pour installer le client de bureau Mac, le plus simple consiste à :
+
+1. Télécharger le client de bureau Mac à partir de [ https://teams.microsoft.com/downloads ](https://teams.microsoft.com/downloads).
+2. Exécuter le programme d’installation (nécessite une autorisation d’administrateur). 
+3. Démarrer Teams une fois que l’installation est terminée.
 
 ### <a name="web-client"></a>Client Web
-Les équipes fournit un client web riche, [https://teams.microsoft.com](https://teams.microsoft.com), qui prend en charge de nombreux navigateurs.
+Teams fournit un client web riche en fonctionnalités[https://teams.microsoft.com](https://teams.microsoft.com), qui prend en charge un large éventail de navigateurs.
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-### <a name="mobile-client"></a>Client mobile
+### <a name="mobile-client"></a>Clients mobiles
 
-Les clients mobiles équipes pour iOS et Android empêcher les utilisateurs connectés et productifs lorsqu’ils sont sur OK. Pour plus d’informations, voir [obtenir des clients pour les équipes (les clients mobiles)](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients).
+Les clients mobiles Teams pour iOS et Android maintiennent les utilisateurs connectés et productifs pendant leurs déplacements. Pour plus d’informations, voir [Obtenir des clients pour Teams (clients mobiles)](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients).
 
-#### <a name="teams-for-ios"></a>Équipes pour iOS 
+#### <a name="teams-for-ios"></a>Teams pour iOS 
 
-Les utilisateurs qui exécutent iOS 10.0 ou version ultérieure peuvent télécharger l’application mobile équipes à partir de l’App Store Apple et commencer immédiatement.  
+Les utilisateurs exécutant iOS 10.0 ou version ultérieure peuvent télécharger l’application mobile Teams depuis l’App Store Apple et commencer immédiatement.  
 
-#### <a name="teams-for-android"></a>Équipes pour Android 
-Les utilisateurs qui exécutent Android 4.4 ou version ultérieure peuvent télécharger l’application mobile équipes à partir du magasin de lire Google et commencer immédiatement.  
+#### <a name="teams-for-android"></a>Teams pour Android 
+Les utilisateurs exécutant Android 4.4 ou version ultérieure peuvent télécharger l’application mobile Teams depuis le Google Play Store et commencer immédiatement.  
 
-## <a name="drive-initial-adoption"></a>Encourager l’adoption initiale
+## <a name="drive-initial-adoption"></a>Favoriser l’adoption initiale
 
-Il est important d’encourager vos premiers à utiliser activement les équipes pour promouvoir la nouvelle expérience de collaboration et de développer des champions équipes. Nous recommandons l’utilisation de la chaîne « Comment faire » dans l’équipe de « Découvrir équipes » vous avez créé pour partager le Guide avec vos utilisateurs à l’aide de l’adoption du lecteur. 
+Il est important d’encourager activement les premiers clients à utiliser Teams pour promouvoir les nouvelles expériences de collaboration et développer des spécialistes enthousiastes de Teams. Nous vous recommandons d’utiliser le canal « Comment » dans l’équipe « Découvrir Teams » créé pour partager des conseils avec vos utilisateurs et de favoriser l’adoption. 
 
-Pour obtenir des instructions détaillées sur l’adoption d’équipes conduite pour votre organisation, voir [Adopter les équipes](adopt-microsoft-teams-landing-page.md).
+Pour obtenir une aide détaillée sur l’adoption de Teams dans votre organisation, voir [Adopter Teams](adopt-microsoft-teams-landing-page.md).
 
 ## <a name="next-steps"></a>Étapes suivantes
-Accédez à des [commentaires et surveiller l’utilisation](get-started-with-teams-monitor-usage-and-feedback.md).
+Aller à [Surveiller l’utilisation et les commentaires](get-started-with-teams-monitor-usage-and-feedback.md).

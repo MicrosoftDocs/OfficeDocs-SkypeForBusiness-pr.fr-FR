@@ -1,47 +1,50 @@
 ---
-title: Démarrage rapide - Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+title: Prise en main de Microsoft Teams
+author: LolaJacobsen
+ms.author: lolaj
 manager: serdars
-ms.date: 11/06/2018
+ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
-description: Prendre en main Teams Microsoft par le déploiement de votre premier équipes et canaux afin de pouvoir créer votre expérience avec les équipes avant de déployer largement au sein de votre organisation.
-localization_priority: Normal
+description: Commencer à utiliser Microsoft Teams en déployant vos premières équipes et premiers canaux afin de gagner de l’expérience avant de le déployer largement au sein de votre organisation.
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b99dc3b0aff15c417ef58affb6ac4fab5638f61c
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
-ms.translationtype: MT
+ms.openlocfilehash: 62d00335948e164302eb46cdf81a51f3edd802d3
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896130"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594373"
 ---
-# <a name="quick-start---microsoft-teams"></a>Démarrage rapide - Microsoft Teams
+# <a name="get-started-with-microsoft-teams"></a>Prise en main de Microsoft Teams
 
-Pour commencer rapidement sur les équipes, nous vous recommandons de que vous créez deux ou trois équipes et canaux pour un groupe particulier de premiers. En premier présentant les équipes à petite échelle, vous découvrez les équipes à l’aide des équipes et acquérir une excellente pour indiquer comment déployer des équipes au sein de votre organisation entière. 
+Pour commencer rapidement avec Teams, nous vous recommandons de créer deux ou trois équipes et canaux pour un groupe de premiers utilisateurs. Avec un premier déploiement de Teams à petite échelle, vous allez apprendre Teams en utilisant Teams. Vous obtenez des informations précieuses sur la façon dont vous pouvez déployer Teams au sein de toute votre organisation. Si vous êtes une petite entreprise, ce guide de démarrage rapide est suffisant pour déployer Teams auprès de toute l’organisation.
 
-Utilisez des équipes rapidement rassembler une équipe avec des personnes à l’intérieur et à l’extérieur de votre organisation, converser avec d’autres personnes à des conversations incluses et rapides du lecteur, en toute sécurité partager co-auteur des documents et effectuer une itération sur des projets. Personnaliser les équipes en ajoutant accédez à des applications, des pages Web et les notes partagées. Utilisez réunions et l’appel à la collaboration en temps réel à partir de l’emplacement auquel les utilisateurs sont. Les équipes simplifie l’accès aux services Office 365 et les applications tierces à nouveau centre de gravité pour vos besoins de collaboration et de communication. 
 
-![Prendre en main équipes] (media/get-started-microsoft-teams.png "Capture d’écran montrant le client de bureau équipes et l’interface utilisateur du client mobile" ) 
+Teams vous permet de mettre rapidement sur pied une équipe avec du personnel interne ou externe à votre organisation, de discuter avec d’autres personnes pour lancer des conversations rapides et inclusives, de partager et co-créer en toute sécurité des documents et de coopérer sur des projets. Vous pouvez personnaliser Teams en ajoutant des accès pratiques à des notes partagées, des pages web et des applications. Utiliser les réunions et des appels pour collaborer en temps réel où que se trouvent les utilisateurs. Teams simplifiera votre accès aux services Office 365 et à des applications tierces, pour être le nouveau centre de gravité de vos besoins de communication et de collaboration. Encouragez vos premiers utilisateurs à installer les applications mobiles et de bureau pour une meilleure expérience et pour recevoir des commentaires plus précis.
 
-Voici la procédure de déploiement de votre premier ensemble d’équipes et de canaux afin que vos premiers peuvent de démarrer conversation, de partage de fichiers et de collaboration.
+![Prise en main de Teams](media/get-started-microsoft-teams.png "Capture d’écran avec le client de bureau Teams et l’interface utilisateur du client mobile" ) 
 
-- Étape 1 : [créer votre première équipes et canaux](get-started-with-teams-create-your-first-teams-and-channels.md)
-- Étape 2 : [premiers intégrés](get-started-with-teams-onboard-early-adopters.md)
-- Étape 3 : [commentaires et surveiller l’utilisation](get-started-with-teams-monitor-usage-and-feedback.md)
-- Étape 4 : [accédez à votre déploiement de l’organisation du plan des ressources](get-started-with-teams-resources-for-org-wide-rollout.md)
+Voici comment mettre en place votre première série d’équipes et canaux pour que les premiers utilisateurs puisse discuter, partager des fichiers et collaborer.
 
-Si vous êtes une organisation de grande taille, ont une hybride ou Skype local de la configuration de l’entreprise, ont des exigences réglementaires ou de conformité stricts ou si vous souhaitez déployer des réunions ou vocale des fonctionnalités (telles que l’appelant plans ou système téléphonique), consultez notre [détaillés ressources](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) planification de ces fonctionnalités plus complexes. Nous vous recommandons de que cette section pour développer vos compétences et la planification des équipes avec les équipes de toujours commencer. Démarrez petit en présentant des équipes avec la conversation, les équipes et les canaux et base de données &ndash; ces premières expériences peuvent aider à connaître l’existence des équipes de génération enthousiasme dans toute l’organisation pour la phase suivante de la barre de lancement. 
+- Étape 1 : [Créer vos premiers canaux et premières équipes dans Microsoft Teams](get-started-with-teams-create-your-first-teams-and-channels.md)
+- Étape 2 : [Intégrer les premiers utilisateurs](get-started-with-teams-onboard-early-adopters.md)
+- Étape 3 : [Surveiller l’utilisation et les commentaires](get-started-with-teams-monitor-usage-and-feedback.md).
+- Étape 4 : [Obtenir des ressources pour planifier le déploiement à l’échelle de votre organisation](get-started-with-teams-resources-for-org-wide-rollout.md)
+
+Si vous êtes une grande organisation, si vous avez une configuration hybride ou Skype Entreprise en local, si vous avez des exigences réglementaires ou de conformité strictes, ou si vous voulez mettre en place des réunions ou des fonctionnalités vocales (par exemple, plans d’appel ou système téléphonique), commencez par lire [ Comment mettre en place Teams](how-to-roll-out-teams.md). Nous vous recommandons de toujours commencer avec cette section **Prise en main** pour développer vos compétences et commencer à planifier le déploiement à l’échelle de l’organisation. « Planifiez Teams avec Teams. » Commencez modestement en déployant Teams avec le module conversations, les équipes, les canaux et les applications, puis développez-les. Ces expériences initiales vous permettront de faire passer le mot sur Teams et susciter de l'enthousiasme dans l'ensemble de l'organisation pour la phase de lancement suivante. 
+
+Si vous êtes une petite entreprise, vous pourrez utiliser ce guide de prise en main pour déployer entièrement Teams dans votre organisation. Les petites entreprises n’ont peut-être pas besoin d’effectuer un déploiement progressif de Teams.
 
 ## <a name="before-you-get-started"></a>Avant de commencer
 
-Assurez-vous que vous disposez de licences équipes pour tout le monde. Consultez la rubrique [équipes comparer les plans](https://products.office.com/microsoft-teams/free) et [Gestion des licences Office 365 pour les équipes](office-365-licensing.md). 
+Vérifiez que tout le monde a bien les licences Teams appropriées. Consultez l’article [Comparaison des offres Teams](https://products.office.com/microsoft-teams/free) et [Gestion des licences Office 365 pour Teams](office-365-licensing.md). 
 
 ## <a name="next-steps"></a>Étapes suivantes
-Accédez à [créer votre première équipes et canaux](get-started-with-teams-create-your-first-teams-and-channels.md).
+[Créer vos premiers canaux et premières équipes](get-started-with-teams-create-your-first-teams-and-channels.md).
 
-Consultez le [Guide d’Adoption d’équipes](https://aka.ms/teamstoolkit).
+En savoir plus avec notre guide interactif [Guide d’adoption de Teams](https://aka.ms/teamstoolkit).

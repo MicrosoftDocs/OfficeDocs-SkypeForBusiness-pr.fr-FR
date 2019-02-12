@@ -15,20 +15,20 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 383a4a18d466e367a31e4b99f9975b51cc5f559a
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: dfa908418061b4a9cc1d899d2ed64a9564b6f181
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988185"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753507"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gérer les fonctionnalités de Microsoft Teams dans votre organisation Office 365
 
-Tous les paramètres de Teams seront bientôt migrés vers le nouveau Centre d’administration de Microsoft Teams et Skype Entreprise. La seule fonctionnalité de Teams qui est gérée dans le centre d’administration Office 365 est Applications. 
+Tous les paramètres de Teams seront bientôt migrés vers le nouveau centre d’administration de Microsoft Teams. La seule fonctionnalité de Teams qui est gérée dans le centre d’administration Office 365 est Applications. 
 
 Sauf indication contraire, la valeur par défaut d'une option est **Activée**.
 
-## <a name="tenant-wide-settings"></a>Paramètres à l'échelle du client 
+## <a name="tenant-wide-settings"></a>Paramètres à l’échelle du client 
 
 Vous pouvez désactiver ou activer les applications pour Teams dans **Paramètres à l’échelle du client** dans le centre d’administration Microsoft 365. 
 
@@ -38,31 +38,31 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="apps"></a>Applications
 
-Les applications sont des onglets, des connecteurs, des bots ou une combinaison des trois, fournies par Teams (applications internes, appelées également applications par défaut) ou par un tiers (appelées également applications externes). Sous **Applications**, vous pouvez activer et désactiver les applications par défaut et configurer les paramètres pour contrôler les applications externes.  
+Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
 
 #### <a name="default-apps"></a>Applications par défaut
 
-Ces applications, comme le Planificateur, Compliment et Météo sont fournies par Teams. Pour activer une application, cochez la case correspondante. Pour désactiver une application, décochez la case. 
+These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
 ![Capture d’écran de la section Applications par défaut.](media/teams-tenant-wide-settings-default-apps.png "Capture d’écran de la section Applications par défaut")
 
 #### <a name="external-apps"></a>Applications externes
 
-Ces applications sont fournies par des tiers. Vous pouvez configurer les paramètres suivants pour les applications externes.
+These apps are provided by third parties. You can configure the following settings for external apps.
 
 ![Capture d’écran de la section Applications par défaut.](media/teams-tenant-wide-settings-external-apps-settings.png "Capture d’écran de la section Applications par défaut, montrant les paramètres que vous pouvez activer et désactiver")
 
 - **Autoriser les applications externes dans Microsoft Teams :** lorsque ce paramètre est activé, les utilisateurs peuvent ajouter les applications externes qui sont disponibles pour votre organisation. 
 
-- **Activer les applications externes nouvelles par défaut** : lorsque ce paramètre est activé, les utilisateurs peuvent activer les nouvelles applications dès qu'elles sont ajoutées au catalogue d'applications Teams. Désactivez ce paramètre si vous souhaitez contrôler les nouvelles applications. Bien sûr, si vous le désactivez, n'oubliez pas de vérifier régulièrement les nouvelles applications afin que votre organisation ne passe pas à côté de nouvelles applications intéressantes. 
+- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
 
-- **Autoriser le chargement indépendant d’applications externes** : Si vous souhaitez activer certaines applications externes et en désactiver d’autres, désactivez ce paramètre et, dans la liste des applications externes, désactivez les applications auxquelles vous ne voulez pas que les utilisateurs accèdent. Lorsque ce paramètre est activé, les propriétaires d’équipes et les membres autorisés peuvent charger une version test des applications dans Teams. 
+- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
 
 Pour en savoir plus, consultez la rubrique [Paramètres d'administration des applications dans Teams](admin-settings.md). 
 
 ## <a name="teams-org-wide-settings"></a>Paramètres à l’échelle de l'organisation de Teams
 
-Vous pouvez contrôler les paramètres utilisateur à l’échelle de l’organisation dans le Centre d'administration de Microsoft Teams et Skype Entreprise. Pour modifier les paramètres à l’échelle de l’organisation, accédez au Centre d’administration de Microsoft Teams et Skype Entreprise et sélectionnez **Paramètres à l’échelle de l'organisation**. Vous pouvez configurer les paramètres suivants.
+Vous pouvez contrôler les paramètres utilisateur à l’échelle de l’organisation dans le centre d’administration de Microsoft Teams. Pour modifier les paramètres à l’échelle de l’organisation, accédez au centre d’administration de Microsoft Teams, puis sélectionnez **Paramètres à l’échelle de l’organisation**. Vous pouvez configurer les paramètres suivants.
 
 ### <a name="external-access"></a>Accès externe
 
@@ -76,7 +76,7 @@ L’**accès invité** dans Microsoft Teams permet aux équipes de votre organi
 
 Dans les **paramètres de Teams**, vous pouvez configurer l'intégration de la messagerie, les options de stockage cloud, l’interopérabilité de Skype Entreprise et les périphériques.
 
-#### <a name="email-integration"></a>Intégration de la messagerie
+#### <a name="email-integration"></a>Intégration de courrier électronique
 
 Activez cette fonctionnalité pour que les utilisateurs puissent envoyer des e-mails à un canal dans Teams, en utilisant l’adresse de messagerie du canal. Les utilisateurs peuvent envoyer des e-mails pour tous les canaux appartenant à une équipe dont ils sont propriétaires. Ils peuvent également envoyer des e-mails à n’importe quel canal dans une équipe pour laquelle la fonction d’ajout de connecteurs est activée pour les membres de l’équipe. Pour activer l’intégration de la messagerie, assurez-vous que l’option **Autoriser les utilisateurs à envoyer des e-mails à une adresse e-mail de canal** est **activée**. 
 
@@ -90,7 +90,7 @@ Les utilisateurs peuvent charger et partager des fichiers à partir de services 
 
 Cette option vous permet d’activer l'onglet **Organisation**, qui affiche l'organigramme détaillé de l'organisation de l’utilisateur. Pour plus d’informations, reportez-vous à la rubrique [Utiliser l’onglet Organisation dans Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
 
-#### <a name="devices"></a>Périphériques
+#### <a name="devices"></a>Appareils
 
 Ces paramètres contrôlent le comportement du compte de ressource pour les périphériques Surface Hub qui participent aux réunions Teams. Utilisez ces paramètres pour configurer les exigences d’authentification, demander un code confidentiel de contenu et activer les comptes de ressource Surface Hub pour envoyer des messages.
 
@@ -98,7 +98,7 @@ Ces paramètres contrôlent le comportement du compte de ressource pour les pér
 - **Définir le code confidentiel de contenu** : les utilisateurs doivent entrer ce code confidentiel pour empêcher l’accès non autorisé aux documents. Ce paramètre empêche un utilisateur non autorisé de rejoindre les prochaines réunions et d’accéder aux pièces jointes.
 - **Les comptes de ressource peuvent envoyer des messages** : **activez** ce paramètre pour autoriser l’envoi de messages depuis le compte de ressource Surface Hub.
 
-#### <a name="search"></a>Recherche
+#### <a name="search"></a>Rechercher
 
 La fonction de recherche d’annuaire étendue de Microsoft Teams utilise la stratégie de carnet d’adresses (APB) pour permettre aux organisations de créer des limites virtuelles qui contrôlent comment les utilisateurs peuvent trouver d’autres utilisateurs dans leur organisation et communiquer avec eux. Vous pouvez utiliser une recherche d’annuaire étendue dans les situations suivantes :
 
@@ -116,11 +116,11 @@ Vous pouvez spécifier un mode de coexistence : **Teams uniquement**, **Îles**
 
 #### <a name="app-preferences"></a>Préférences d’application
 
-Cette option vous permet de sélectionnez l’application que les utilisateurs utiliseront pour participer à des réunions Skype Entreprise (Skype Entreprise ou [l’application Réunions Skype](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Ce paramètre ne dépend pas du paramètre de mode de coexistence.
+Cette option vous permet de sélectionnez l’application que les utilisateurs utiliseront pour participer à des réunions Skype Entreprise (Skype Entreprise ou [l’application Réunions Skype](https://support.office.com/fr-FR/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Ce paramètre ne dépend pas du paramètre de mode de coexistence.
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Comment puis-je savoir quelles fonctionnalités sont disponibles ?
 
-Pour des informations sur les nouvelles fonctionnalités de Teams, reportez-vous à la [Feuille de route Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Pour plus d'informations sur les fonctionnalités nouvelles et à venir, consultez la page [Nouveautés](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams et le [blog Microsoft Teams de la communauté technique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Pour des informations sur les nouvelles fonctionnalités de Teams, reportez-vous à la [Feuille de route Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Pour plus d'informations sur les fonctionnalités nouvelles et à venir, consultez la page [Nouveautés](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams et le [blog Microsoft Teams de la communauté technique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Plus d’informations
 
