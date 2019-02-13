@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34ec9518c8f5406b3bb6c489d571d89f50f34b34
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 3b19fe5dce5c728880c54321e5d6dbb1901d0aac
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754825"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964449"
 ---
 # <a name="quality-of-experience-review-guide"></a>Qualité de consulter le Guide de l’expérience
 
@@ -625,7 +625,7 @@ Le format du fichier de données que vous téléchargez doit respecter les condi
 
 _Tableau 5 : création de structure de fichier_
 
-| Nom de la colonne        | Type de données | Exemple                   | Conseils    |
+| Nom de la colonne        | Type de données | Exemple                   | Aide    |
 |--------------------|-----------|---------------------------|-------------|
 | Réseau            | String    | 192.168.1.0               | Obligatoire    |
 | Nom_réseau        | String    | États-Unis/Seattle/SEATTLE-marin-1 | Obligatoire\*  |
@@ -804,7 +804,7 @@ _Tableau 6 - alertes de Diagnostic_
 | Alerte                                                                | Plus d’informations             |
 |----------------------------------------------------------------------|------------------------------|
 | Connus médiocres versions du client sont en cours d’utilisation                   | [Versions du client](#client-versions)              |
-| Pilotes audio sont à l’origine de projections d’appel                                 | [Périphériques](#devices)                      |
+| Pilotes audio sont à l’origine de projections d’appel                                 | [Appareils](#devices)                      |
 | Restrictions dans le pare-feu sont à l’origine des échecs d’appel du programme d’installation         | [Enquêtes de défaillance du programme d’installation](#setup-failure-investigations) |
 | Approfondie des paquets sont à l’origine des échecs d’appel du programme d’installation                | [Enquêtes de défaillance du programme d’installation](#setup-failure-investigations) |
 | Appareils de salle de réunion sur les réseaux Wi-Fi sont à l’origine de la qualité des appels médiocres | [Enquêtes de qualité](#quality-investigations)       |
@@ -899,7 +899,7 @@ Maintenant que vous commencez votre mise à jour, vous pouvez vous concentrer vo
 _Le tableau 8 - étapes suivantes pour l’appel du programme d’installation de la correction d’erreur_
 
 
-|      Mise à jour      |                                                                                                                                                                                                                                                                                                                                                                   Conseils                                                                                                                                                                                                                                                                                                                                                                   |
+|      Mise à jour      |                                                                                                                                                                                                                                                                                                                                                                   Aide                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configurer l’ou les pare-feu | Travailler avec votre équipe réseau et vérifiez votre configuration ou les pare-feu par rapport à [la liste d’adresses IP de Office 365](https://aka.ms/o365ips).<br><br>Vérifiez que les ports et les [sous-réseaux multimédia](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) sont inclus dans les règles de pare-feu. <br><br>Vérifiez que les ports nécessaires (énumérés ci-dessous) sont ouverts dans le pare-feu. UDP doit être la priorité car TCP est considéré comme un protocole de la restauration automatique pour l’audio, vidéo et partage d’écran vidéo et son utilisation n’affectera la qualité de l’appel. Partage d’application RDP hérité utilise TCP uniquement.<br><ul><li>**TCP :** le port 443</li><li>**UDP :** ports – 3481 3478</li><ul> |
 |        Vérifier         |                                                                                                                                                                                                                                                                 Utiliser l' [Outil d’évaluation de réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) pour vérifier la connectivité à partir du bâtiment concerné ou d’un sous-réseau à l’aide de la fonction de vérification de connectivité.                                                                                                                                                                                                                                                                  |
@@ -958,11 +958,11 @@ Le tableau suivant répertorie certaines méthodes courantes pour gérer et rés
 
 _Le tableau 9 - étapes suivantes pour l’appel drop correction_
 
-| Mise à jour                              | Conseils                      |
+| Mise à jour                              | Aide                      |
 |------------------------------------------|-------------------------------|
 | **Réseau à internet**                         | **Congestion**: travailler avec votre équipe réseau pour surveiller la bande passante à bâtiments/sous-réseaux spécifiques pour confirmer qu’il existe des problèmes liés à l’utilisation abusive. Si vous confirmez qu’il existe une surcharge réseau, envisagez l’augmentation de la bande passante à la création ou l’application QoS. Utilisez l’inclus les [rapports de synthèse de flux de mauvaise qualité](#quality-investigations) pour passer en revue les sous-réseaux problème aux problèmes gigue, la latence et la perte de paquets, car ces précède souvent un flux de données déplacée.<br><br>Vous pouvez également utiliser l' [Outil de planification de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) pour aider à mieux comprendre les besoins en bande passante de votre organisation.<br><br>**QoS**: si l’augmentation de la bande passante n’est pas pratique ou envisageable, envisagez l’implémentation de QoS. Cet outil est très efficace pour gérer le trafic saturé et garantie que les paquets de médias sur le réseau géré sont classés par priorité au-dessus du trafic multimédia non. Ou bien, s’il n’existe aucune clairement que la bande passante est défaillant, prenez en compte ces solutions :<ul><li>[Conseils de QoS des équipes Microsoft](qos-in-teams.md)</li><li>[Skype pour obtenir des instructions Business QoS](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**Effectuer une évaluation de préparation du réseau**: une évaluation réseau fournit des détails sur l’utilisation de la bande passante attendue, comment faire face à la bande passante et réseau change, réseau pratiques recommandées pour les équipes et Skype pour les entreprises. À l’aide du tableau précédent comme source, vous disposez d’une liste de bâtiments ou les sous-réseaux qui sont une excellente candidats pour une évaluation.<ul><li>[Évaluation de préparation du réseau équipes Microsoft](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype pour l’évaluation de préparation du réseau Business](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Outil d’évaluation de Microsoft Network :** Utilisez cet outil pour un simple test des performances du réseau pour déterminer comment exécuter le réseau pour une équipes ou Skype pour les appels professionnels en ligne. L’outil vous permet d’évaluer les performances d’un sous-réseau et valider la préparation du réseau par rapport à des [exigences](https://aka.ms/performancerequirements)de performances Microsoft.<ul><li>[Télécharger l’outil d’évaluation réseau](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul> |
 | **Clients (Skype pour les entreprises en ligne uniquement)** | Certains clients antérieurs ont connu, documentée problèmes avec la fiabilité des supports. Examinez les rapports Analytique appeler à partir de plusieurs utilisateurs concernés, ou créer un rapport de tableau de Version du Client personnalisé dans CQD filtré bâtiments spécifiques ou les sous-réseaux avec mesure de % échec Total appel rejeté. Ces informations vous aideront à comprendre l’existence d’une relation entre projections d’appel dans un bâtiment en particulier et une version spécifique du client.     |
-| **Périphériques**                                  | Nous recommandons que tous les utilisateurs qui rencontrent appellent projections — ou médiocres appelle en général et sont à l’aide de périphériques intégrés doit être mis en service un [certifié casque ou interphone](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) afin d’éliminer cette source potentielle de mauvaise qualité et la fiabilité. |
+| **Appareils**                                  | Nous recommandons que tous les utilisateurs qui rencontrent appellent projections — ou médiocres appelle en général et sont à l’aide de périphériques intégrés doit être mis en service un [certifié casque ou interphone](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) afin d’éliminer cette source potentielle de mauvaise qualité et la fiabilité. |
 | **Comportement de l’utilisateur**                            | Si vous avez déterminé que ni réseau, des périphériques ou des clients sont le problème, envisagez d’engager [Mon Advisor](https://aka.ms/myadvisor) pour obtenir des conseils dans le développement d’une stratégie utilisateur d’adoption apprendre aux utilisateurs comment meilleures joindre et quitter des réunions. Vie équipes et Skype pour utilisateur professionnel produira une meilleure expérience utilisateur pour tous les participants à la réunion. Un utilisateur qui met leur ordinateur portable en mode veille (à la fermeture du capot) sans quitter la réunion est considéré comme une liste d’appel inattendu.   |
 
 ## <a name="quality-investigations"></a>Enquêtes de qualité
@@ -1040,7 +1040,7 @@ N’oubliez pas d’informer le service d’assistance que ces réseaux rencontr
 
 _Tableau 10 - courantes collaborateurs à haute qui_
 
-| Mise à jour                              | Conseils                         |
+| Mise à jour                              | Aide                         |
 |------------------------------------------|----------------------------------|
 | **Réseaux**                                 | **Congestion**: un utilisation excessive ou configurées sous réseau peut entraîner des problèmes avec la qualité des médias. Travail avec l’équipe réseau pour déterminer si les connexions réseau à partir de l’utilisateur à la sortie internet point a suffisamment de bande passante pour prendre en charge multimédia. Le [Planificateur de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) peut vous aider à mieux comprendre les besoins en bande passante de votre organisation.<br><br>**Effectuer une évaluation de préparation du réseau**: une évaluation réseau fournit des détails sur l’utilisation de la bande passante attendue, comment faire face à la bande passante et réseau change, réseau pratiques recommandées pour les équipes et Skype pour les entreprises. À l’aide du tableau précédent comme source, vous disposez d’une liste de bâtiments ou les sous-réseaux qui sont une excellente candidats pour une évaluation.<ul><li>[Évaluation de préparation du réseau équipes Microsoft](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype pour l’évaluation de préparation du réseau Business](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Outil d’évaluation de Microsoft Network :** Utilisez cet outil pour un simple test des performances du réseau pour déterminer comment exécuter le réseau pour une équipes ou Skype pour les appels professionnels en ligne. L’outil vous permet d’évaluer les performances d’un sous-réseau et valider la préparation du réseau par rapport à des [exigences](https://aka.ms/performancerequirements)de performances Microsoft.<ul><li>[Télécharger l’outil d’évaluation réseau](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
 | **Qualité de Service (QoS)**  | QoS est un outil éprouvé pour aider à définir la priorité des paquets sur un réseau saturé pour s’assurer qu’ils arrivent à destination intacte et sur le temps. Envisagez d’implémenter la qualité de service au sein de votre organisation afin d’optimiser la qualité de l’expérience utilisateur dans lequel la bande passante est limitée. QoS vous aideront à résoudre les problèmes généralement associés avec un niveau élevé de perte de paquets, et, dans une moindre mesure : temps de gigue et aller-retour.<ul><li>[Conseils de QoS des équipes Microsoft](qos-in-teams.md)</li><li>[Skype pour obtenir des instructions Business QoS](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul> |
@@ -1048,7 +1048,7 @@ _Tableau 10 - courantes collaborateurs à haute qui_
 |**Périphérique de réseau** | Organisations de grande taille peuvent avoir des centaines de périphériques répartis sur le réseau. Travailler avec votre équipe réseau afin de vous assurer que les périphériques réseau à partir de l’utilisateur à internet sont gérées et à jour. |
 | **VPN**  | Appareils VPN ne sont pas généralement conçus pour gérer les charges de travail de médias en temps réel. Certaines configurations VPN interdisent l’utilisation de UDP (qui est le protocole par défaut pour les médias), ils s’appuient sur TCP uniquement. Envisagez d’implémenter une [solution de fractionnement-tunnel VPN](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) pour réduire VPN en tant que source de qualité médiocre. |
 | **Clients** <br>(Skype pour les entreprises en ligne uniquement) | Clients antérieurs ont été identifiés pour provoquer des problèmes de support. Assurez-vous que les clients corrigés dans les six mois de version. Utilisez [MyAdvisor](https://aka.ms/myadvisor) pour obtenir des instructions sur le développement d’une stratégie de préparation des clients et deploy [Click-to-Run](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus). |
-| **Périphériques** | L’utilisation de [optimisé périphériques](https://partnersolutions.skypeforbusiness.com/solutionscatalog) peut aider à améliorer sensiblement l’expérience utilisateur. Tout ce qui est égal, périphériques optimisés sont conçus pour optimiser l’expérience utilisateur avec des équipes et Skype pour les entreprises et de qualité supérieure. Utilisez [MyAdvisor](https://aka.ms/myadvisor) pour obtenir des instructions sur le développement d’une stratégie de disponibilité du périphérique. |
+| **Appareils** | L’utilisation de [optimisé périphériques](https://partnersolutions.skypeforbusiness.com/solutionscatalog) peut aider à améliorer sensiblement l’expérience utilisateur. Tout ce qui est égal, périphériques optimisés sont conçus pour optimiser l’expérience utilisateur avec des équipes et Skype pour les entreprises et de qualité supérieure. Utilisez [MyAdvisor](https://aka.ms/myadvisor) pour obtenir des instructions sur le développement d’une stratégie de disponibilité du périphérique. |
 | **Pilotes** | Mise à jour corrective réseau (Ethernet et Wi-Fi), audio, vidéo et pilotes USB doit faire partie de votre stratégie globale de gestion des correctifs. Nombre de problèmes de qualité sont résolus en mettant à jour les pilotes. |
 | **Salles de réunion Wi-Fi** | Il est fortement recommandé que les réunions équipements de salle être connecté au réseau à l’aide d’au moins une connexion de Ethernet 1 Gbit/s. Périphériques de la salle de réunion incluent généralement plusieurs flux audio et vidéo, ainsi que de telles que le partage d’écran, contenu de la réunion et supérieur réseau exige d’autres équipes ou de Skype pour systèmes d’extrémité Business. Salles de réunion sont, par définition, périphériques fixes où Wi-Fi offre un avantage uniquement pendant l’installation.<br><br>Salles de réunion doivent être traités avec précaution et attention pour s’assurer que l’expérience de l’utilisation de ces périphériques est de réunion ou attentes. Problèmes de qualité avec les salles de réunion sont généralement sur le point d’être modifiée rapidement, car ils sont souvent utilisés par le personnel de haut niveau.<br><br>Tout ce qui est égal (à l’exception commodité), performances Wi-Fi est souvent inférieur à une connexion câblée. Avec l’augmentation de stratégies « apportez votre propre appareil » et la prolifération des ordinateurs portables, les points d’accès Wi-Fi sont souvent trop utilisées. Médias en temps réel ne peut pas être prioritaires sur les réseaux Wi-Fi, ce qui peuvent entraîner des problèmes de qualité pendant les heures d’utilisation maximale. Cette utilisation intensive peut coïncider avec une réunion où il existe une dizaine personnes de présence, chacun avec leur propre ordinateur portable et un smartphone, tous connecté au même point d’accès Wi-Fi comme réunion périphérique.<br><br>Wi-Fi seulement doit être considéré comme solution temporaire, pour une installation mobile ou Wi-Fi a été correctement configurée pour prendre en charge multimédia professionnelles, basé sur le temps réel. |
 
@@ -1123,7 +1123,7 @@ La cause la plus courante de l’utilisation TCP n’a pas de règles d’except
 
 _Le tableau 11 - instructions de correction pour les flux TCP en créant et en sous-réseau_
 
-| Mise à jour        | Conseils     |
+| Mise à jour        | Aide     |
 |--------------------|--------------------------------------|
 | Configurer le pare-feu | Vérifiez que les [adresses et les ports d’Office 365 IP](https://aka.ms/o365ips) sont exclus à partir de votre pare-feu. Pour les problèmes TCP relatifs aux médias, concentrer initiale sur les éléments suivants :<ul><li>Vérifiez que le client multimédia sous-réseaux 13.107.64.0/18 et 52.112.0.0/14 se trouvent dans vos règles de pare-feu.</li><li>Les ports UDP 3478 – 3481 sont les ports multimédias obligatoire et doivent être ouvert, sinon le client est restauré sur le port TCP 443.</li></ul> |
 | Vérifier             | Utiliser l' [Outil d’évaluation de réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) pour vérifier les problèmes de connectivité à des ports et adresses Office 365 IP spécifiques à partir de la construction concernée ou le sous-réseau.    |
@@ -1172,13 +1172,13 @@ _Figure 29 – utilisation de Proxy HTTP en créant et sous-réseau_
 
 ##### <a name="remediation"></a>Mise à jour
 
-Nous [vous recommandons de](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online) toujours ignorer les proxys de Skype pour les professionnels et les équipes, notamment le trafic multimédia. Proxys ne sécuriser Skype pour les entreprises, car le trafic est déjà chiffré. Des problèmes de performances peuvent s'introduire dans l'environnement par le biais de la latence et la perte de paquets. Problèmes tels que ceux-ci entraînera une expérience négative audio, vidéo et partage d’écran, où les flux de données en temps réel est essentielles.
+Nous [vous recommandons de](proxy-servers-for-skype-for-business-online.md) toujours ignorer les proxys de Skype pour les professionnels et les équipes, notamment le trafic multimédia. Proxys ne sécuriser Skype pour les entreprises, car le trafic est déjà chiffré. Des problèmes de performances peuvent s'introduire dans l'environnement par le biais de la latence et la perte de paquets. Problèmes tels que ceux-ci entraînera une expérience négative audio, vidéo et partage d’écran, où les flux de données en temps réel est essentielles.
 
 La cause la plus courante de l’utilisation HTTP n’a pas de règles d’exception de proxy. Contournement de média à l’aide de la création ou le sous-réseau fourni, vous pouvez déterminer rapidement le proxy doit être configuré pour le média.
 
 Vérifiez que le requis [Office 365 complets](https://aka.ms/o365ips) sont autorisés dans votre serveur proxy.
 
-Pour plus d’informations sur l’utilisation des proxys avec Skype pour Business en ligne et les équipes, consultez [cet article](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online).
+Pour plus d’informations sur l’utilisation des proxys avec Skype pour Business en ligne et les équipes, consultez [cet article](proxy-servers-for-skype-for-business-online.md).
 
 ## <a name="endpoint-investigations"></a>Enquêtes de point de terminaison
 
@@ -1231,7 +1231,7 @@ Vous pouvez trouver les numéros de version de Skype pour les entreprises via le
 -   [Historique de mise à jour pour Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [Skype pour les entreprises télécharge et met à jour](/SkypeForBusiness/software-updates)
 
-### <a name="devices"></a>Périphériques
+### <a name="devices"></a>Appareils
 
 Faire utiliser le rapport de périphérique microphone, nous devons comprendre le concept de la moyenne d’opinion (MOS). MOS est la mesure standard or pour évaluer la qualité audio. Il est représenté sous la forme d’une note de nombre entier de 0 à 5.
 
@@ -1349,7 +1349,7 @@ Pour plus d’informations, consultez [cet article sur média qualité et les pe
 
 -   Pour obtenir une assistance, connectez-vous à notre portail de preview [www.skypepreview.com](http://www.skypepreview.com), sélectionnez **un problème de rapport**et utiliser l’option **Créer un nouveau bogue** pour signaler un problème. Veuillez noter que les techniciens du support technique sont disponibles pour prendre en charge du lundi au vendredi, entre 6 h et 9 h fuseau horaire (États-Unis). Demandes en dehors de ces heures triage seront le jour suivant.
 
-### <a name="devices"></a>Périphériques
+### <a name="devices"></a>Appareils
 
 -   [Skype pour Business Solutions catalogue périphériques personnels & PC](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
@@ -1357,7 +1357,7 @@ Pour plus d’informations, consultez [cet article sur média qualité et les pe
 
 -   [Pack de contenu Office 365 d’Adoption](https://www.microsoft.com/microsoft-365/blog/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
 
--   [Analytique de l’utilisation de Microsoft 365](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f)
+-   [Analyse de l'utilisation de Microsoft 365](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f)
 
 -   [Création de rapports Skype Entreprise Online](/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 

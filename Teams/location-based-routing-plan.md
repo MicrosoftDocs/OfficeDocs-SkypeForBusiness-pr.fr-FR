@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82e11cb47aeeaf0c88ba0f6179f99195af9a7473
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 8faf0f70b509a851b8365bea5ce4a69a57f198d1
+ms.sourcegitcommit: 09c2094104ee055cb1cb047a5fab8f9fd02b123e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771031"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29967455"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage par emplacement pour le routage Direct
 
@@ -235,7 +235,7 @@ Les clients équipes suivants sont pris en charge :
 - Clients mobiles équipes (iOS et Android)
 - Les équipes des téléphones IP
 
-Skype pour les clients d’entreprise ne sont pas pris en charge.
+Le client web d’équipes et Skype pour les clients d’entreprise ne sont pas pris en charge.
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>Fonctionnalités non prises en charge par le routage géodépendant
 

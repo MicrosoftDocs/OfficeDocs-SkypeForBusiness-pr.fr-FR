@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59c881c6c40b8877fee46e3956970a0c305d0a4a
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 81b47a5a77a04becee748e4285641ce341fb65d4
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349528"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964425"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
@@ -211,7 +211,7 @@ La configuration requise pour contourner le serveur proxy varie selon les fourni
 
 Certains fournisseurs de serveurs proxy fournissent un processus automatisé pour garantir la configuration est à jour. Si votre fournisseur ne fournit pas ce processus automatique, vous pouvez télécharger un fichier PAC mis à jour à partir de <https://aka.ms/o365proxies>.
 
-[Serveurs proxy de Skype pour des activités en ligne et les équipes](/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[Serveurs proxy pour les équipes ou Skype pour les entreprises en ligne et des équipes](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>Pare-feu
 
