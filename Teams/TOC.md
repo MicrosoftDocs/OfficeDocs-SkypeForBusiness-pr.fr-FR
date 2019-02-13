@@ -16,10 +16,10 @@
 <!-- ============================================================ -->
 
 
-# [Conversation, les équipes, les canaux, les applications &](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+# [Les conversations, les équipes, les canaux et les applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Vue d’ensemble des équipes et canaux](teams-channels-overview.md)
 ## [Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md)
-## [Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams](best-practices-organizing.md)
+## [Meilleurs pratiques d'organisation d'équipe dans Teams](best-practices-organizing.md)
 ## [Créer une équipe à l’échelle de l’organisation dans les équipes](create-an-org-wide-team.md)
 ## [Ce que sont les stratégies de messagerie ?](messaging-policies-in-teams.md)
 ## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
@@ -58,8 +58,8 @@
 
 ## [Gestion des équipes](using-admin-roles.md)
 ### [Gérer les fonctionnalités des équipes au sein de votre organisation.](enable-features-office-365.md)
-### [Gérer les équipes pendant la transition vers le nouveau centre d’administration de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
-### [Gérer les équipes dans le centre d’administration Microsoft Teams](manage-teams-in-modern-portal.md)
+### [Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+### [Gérer Teams dans le centre d’administration Microsoft Teams](manage-teams-in-modern-portal.md)
 ### [Affecter des propriétaires d’équipe et membres d’équipes](assign-roles-permissions.md)
 ### [Configurer l’application de réunions Skype pour travailler avec des équipes](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Communiquer avec les utilisateurs d’équipes dans d’autres organisations](let-your-teams-users-communicate-with-other-people.md)
@@ -76,6 +76,7 @@
 ### Préparez-vous aux équipes de déploiement
 #### [Vérifier la préparation de votre environnement pour Teams](environment-readiness.md)
 #### [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
+#### [Serveurs proxy pour les équipes ou Skype pour Business Online](proxy-servers-for-skype-for-business-online.md)
 #### [Limites et les spécifications d’équipes](limits-specifications-teams.md)
 #### [Planifier les groupes Office 365 lors de la création d'équipes dans Teams](plan-office-365-groups.md)
 #### [Obtenir des outils d'assistance pour le lancement de Teams](rollout-tools.md)
@@ -98,7 +99,7 @@
 #### [Configuration matérielle requise pour l’application d’équipes](hardware-requirements-for-the-teams-app.md)
 #### [Installer les équipes utilisant MSI](msi-deployment.md)
 #### [Activer les équipes de votre organisation](Office-365-set-up.md)
-#### [URL et plages d'adresses IP Office 365](office-365-urls-ip-address-ranges.md)
+#### [URL et plages d’adresses IP Office 365](office-365-urls-ip-address-ranges.md)
 #### [Déployer des équipes pour exposer Hub](teams-surface-hub.md)
 
 ### Licences
@@ -114,7 +115,7 @@
 <!-- ============================================================ -->
 
 
-# [Conférence & de réunions](deploy-meetings-microsoft-teams-landing-page.md)
+# [Réunions et conférences](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Didacticiel : Réunions dans Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Gérer les paramètres de réunions](meeting-settings-in-teams.md)
 ## [Messages électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -268,7 +269,7 @@
 <!-- ============================================================ -->
 
 
-# [Voix cloud](cloud-voice-landing-page.md)
+# [Appels vocaux par le nuage](cloud-voice-landing-page.md)
 ## Système téléphonique
 ### [Quel est le système téléphonique](what-is-phone-system-in-office-365.md)
 ### [Voilà ce que vous obtenez avec le système téléphonique](here-s-what-you-get-with-phone-system.md)
@@ -574,6 +575,7 @@
 ### [Utiliser votre service](upgrade-operate-my-service.md)
 ### [Contrôler la qualité](upgrade-monitor-quality.md)
 ### [Améliorer votre service](upgrade-enhance-my-service.md)
+
 ## [Didacticiel : Transition de Skype Entreprise à Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
 ## Informations supplémentaires
@@ -642,7 +644,7 @@
 
 ## Teams pour l’éducation
 ### [Guide de démarrage rapide : administrateurs de Teams pour l’éducation](teams-quick-start-edu.yml)
-### [Ressources d’équipes pour les administrateurs de formation](resources-teams-edu.md)
+### [Administrateurs de ressources Teams pour l’éducation](resources-teams-edu.md)
 ### [Gouvernance Microsoft Education FAQ pour les administrateurs](plan-teams-governance-edu.md)
 
 ## Équipes pour les travailleurs firstline
