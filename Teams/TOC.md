@@ -65,11 +65,11 @@
 ### [Communiquer avec les utilisateurs d’équipes dans d’autres organisations](let-your-teams-users-communicate-with-other-people.md)
 ### [Utiliser la traduction des messages incorporés](inline-message-translation-teams.md)
 ### [Utiliser la recherche d’annuaire étendue Microsoft Teams](teams-scoped-directory-search.md)
-### [Création de rapports et des équipes analytique](teams-analytics-and-reports/teams-reporting-reference.md)
+### [Les équipes analytique et création de rapports dans le centre d’administration Microsoft Teams](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Rapport d’utilisation des équipes](teams-analytics-and-reports/teams-usage-report.md)
 #### [Rapport d’activité utilisateur équipes](teams-analytics-and-reports/user-activity-report.md) 
 #### [Rapport d’utilisation des équipes périphérique](teams-analytics-and-reports/device-usage-report.md)
-#### [Utiliser des rapports d’activité pour les équipes](teams-activity-reports.md)
+### [Rapports sur les activités dans le centre d’administration Microsoft 365 équipes](teams-activity-reports.md)
 
 
 ## Référence
@@ -129,34 +129,58 @@
 
 ## [Audioconférence](deploy-audio-conferencing-teams-landing-page.md)
 
-### [Didacticiel : Services d’audioconférence dans les équipes](Tutorial-Audio-Conferencing.yml)
 ### [Audioconférence dans Office 365](audio-conferencing-in-office-365.md)
-### [Affecter Microsoft comme fournisseur de services d'audioconférence](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Questions fréquentes à propos de l'audioconférence](audio-conferencing-common-questions.md)
-### [Audioconférence en paiement à la minute](audio-conferencing-pay-per-minute.md)
-### [Modifier les paramètres pour un pont d'audioconférence](change-the-settings-for-an-audio-conferencing-bridge.md)
-### [Modifier les numéros de téléphone de votre pont d'audioconférence](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
-### [Utilisation d'un appel sortant pour permettre à d'autres personnes de participer à une réunion](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
-### [Désactivation des numéros de téléphone gratuits pour des utilisateurs spécifiques](disabling-toll-free-numbers-for-specific-teams-users.md)
-### [Courriers électroniques envoyés automatiquement aux utilisateurs en cas de modification de leurs paramètres](emails-sent-to-users-when-their-settings-change-in-teams.md)
-### [Activer ou désactiver l'envoi de messages électroniques en cas de modification des paramètres d’audioconférence](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
-### [Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-### [Gérer les paramètres d'audioconférence d'un utilisateur](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-### [Gérer les paramètres de conférence Audio pour votre organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
-### [Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user-in-teams.md)
-### [Réinitialiser le code confidentiel d'audioconférence d'un utilisateur](reset-the-audio-conferencing-pin-in-teams.md)
-### [Afficher la liste des numéros d'audioconférence](see-a-list-of-audio-conferencing-numbers-in-teams.md)
-### [Afficher la liste des utilisateurs pour lesquels l'audioconférence est activée](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
-### [Afficher et réinitialiser un ID de conférence affecté à un utilisateur](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
-### [Envoyer un message électronique à un utilisateur avec ses informations d’audioconférence](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
-### [Définir les langues du standard automatique pour les conférences audio](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
-### [Définir les numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites-in-teams.md)
-### [Définir la longueur du code confidentiel pour les réunions d'audioconférence](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
-### [Démarrer une audioconférence par téléphone sans code confidentiel](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
+### [Didacticiel : Services d’audioconférence dans les équipes](Tutorial-Audio-Conferencing.yml)
 ### [Tester ou acheter l'audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
-### [Activer ou désactiver les annonces d'entrée et de sortie de réunions](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 ### [Période de numérotation gratuite pour l’audioconférence](complimentary-dial-out-period.md)
+
+
+### [Configurer conférence Audio pour Skype pour les entreprises et Microsoft Teams](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
+### [Affecter Microsoft comme fournisseur de services d'audioconférence](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
+### Gérer votre pont de conférence audio
+#### [Modifier les numéros de téléphone de votre pont d'audioconférence](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+#### [Modifier les paramètres d’un pont d’audioconférence.](change-the-settings-for-an-audio-conferencing-bridge.md)
+#### [Afficher la liste des numéros d'audioconférence](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+#### [Définir les langues du standard automatique pour les conférences audio](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+
+### [Gérer les paramètres de conférence Audio pour votre organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [Audioconférence en paiement à la minute](audio-conferencing-pay-per-minute.md)
+
+
+### [Gérer les paramètres de conférence Audio pour les utilisateurs](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+
+#### [Afficher la liste des utilisateurs pour lesquels l'audioconférence est activée](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
+
+#### [Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
+#### [Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user-in-teams.md)
+#### [Réinitialiser le code confidentiel d'audioconférence d'un utilisateur](reset-the-audio-conferencing-pin-in-teams.md)
+#### [Courriers électroniques envoyés automatiquement aux utilisateurs en cas de modification de leurs paramètres](emails-sent-to-users-when-their-settings-change-in-teams.md)
+#### [Activer ou désactiver l'envoi de messages électroniques en cas de modification des paramètres d’audioconférence](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
+#### [Désactivation des numéros de téléphone gratuits pour des utilisateurs spécifiques](disabling-toll-free-numbers-for-specific-teams-users.md)
+#### [Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Afficher et réinitialiser un ID de conférence affecté à un utilisateur](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
+#### [Envoyer un message électronique à un utilisateur avec ses informations d’audioconférence](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
+
+### Gérer les paramètres de réunions de conférence audio
+
+#### [Utilisation d'un appel sortant pour permettre à d'autres personnes de participer à une réunion](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
+#### [Activer ou désactiver les annonces d'entrée et de sortie de réunions](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+#### [Définir la longueur du code confidentiel pour les réunions d'audioconférence](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
+#### [Définir les numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites-in-teams.md)
+#### [Démarrer une audioconférence par téléphone sans code confidentiel](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
+
+
+
+
+
+
+
+
+
+
 
 
 ## [Interopérabilité vidéo sur le nuage](cloud-video-interop.md)
