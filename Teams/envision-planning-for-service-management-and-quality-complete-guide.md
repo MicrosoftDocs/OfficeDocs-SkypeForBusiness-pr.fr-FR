@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29b17157178f8e7565fd6f484d6d95262c76ce05
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e30eed7432a628bbd4951867e77883143f9290eb
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015580"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964457"
 ---
 # <a name="plan-for-service-management-and-quality"></a>Plan de gestion du service et de la qualité
 
@@ -204,7 +204,7 @@ La configuration requise pour contourner le serveur proxy varie d'un fournisseur
 
 Certains fournisseurs de serveurs proxy proposent un processus automatisé pour s'assurer que la configuration est à jour. Si votre fournisseur ne fournit pas ce processus automatique, vous pouvez télécharger un fichier PAC mis à jour à partir de <https://aka.ms/o365proxies>.
 
-[Serveurs proxy pour Skype Entreprise Online et Teams](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[Serveurs proxy pour Skype Entreprise Online et Teams](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>Pare-feu
 
@@ -216,7 +216,7 @@ En raison de sa nature dynamique, TCP n'est pas préféré pour les médias en t
 
 Des conseils complets sur l'ouverture du pare-feu pour Microsoft Teams sont fournis dans l'article [Plages d'adresses URL et IP d’Office 365](https://aka.ms/o365ips).
 
-Après l'ouverture du pare-feu, vous pouvez utiliser [l'Outil d'évaluation du réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) pour valider la connectivité des capacités de Cloud Voice.
+Après l'ouverture du pare-feu, vous pouvez utiliser  [l'Outil d'évaluation du réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885)  pour valider la connectivité des capacités de Cloud Voice.
 
 > [!IMPORTANT]
 > Les adresses IP et URL de Microsoft Office 365 changeront au fil du temps. Dans le cadre de la planification de la gestion des services, il est important de s'assurer qu'un processus opérationnel est en place et qu'un groupe est responsable de surveiller les [Plages d'adresses URL et IP d’Office 365](https://aka.ms/o365ips) et d'effectuer les mises à jour en conséquence.
@@ -332,7 +332,7 @@ Une organisation n'a aucun contrôle ou accès à un paramètre de stratégie po
 
 Ce tableau comprend un résumé des activités de planification avec des liens vers des contenus connexes.
 
-| Zone | Détails | Références |
+| Domaine | Détails | Références |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Plan de gestion des services | Mener un exercice de mappage des rôles opérationnels <br/> Se déconnecter des équipes responsables <br/> Préparation des rôles | [Guide des opérations](1-drive-value-operate-my-service.md) |
 | | Nommer un ou plusieurs Champions de la qualité <br/> Préparation du Champion de la qualité| [Apprendre le CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Guide d'examen de l'expérience de qualité](https://aka.ms/qerguide) |
@@ -347,6 +347,6 @@ Ce tableau comprend un résumé des activités de planification avec des liens v
 | | | [Outil d'évaluation du réseau](https://www.microsoft.com/download/details.aspx?id=53885) |
 | | Effectuer l'évaluation du réseau | [Évaluation de la préparation réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
 | Planifier la qualité des points de terminaison | Mettre à jour les pare-feu des points de terminaison | [URL et plages d'adresses IP Office 365](https://aka.ms/o365ips) |
-| | Valider les exigences logicielles | [Obtenir des clients pour Microsoft Teams](get-clients.md) |
+| | Valider les exigences logicielles | [Obtenir des clients pour Microsoft Teams](get-clients.md) |
 | | Mettre en œuvre les recommandations Wi-Fi pour les points de terminaison | Consulter les fournisseurs tiers |
 | | Effectuer le mappage de la personne vers les appareils <br/> Prévoir des appareils et les piloter | [Client et appareils - Atelier de préparation](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Catalogue d'appareils](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
