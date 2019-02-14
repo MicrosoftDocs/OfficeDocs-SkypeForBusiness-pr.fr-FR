@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e1140fd30baa027ded92494b7455aab5500a726
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 7c251255807e1c673c672db20a85b7f56c4a64d6
+ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770899"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29992816"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams 
 =========================================
@@ -46,7 +46,7 @@ Le tableau suivant fournit des informations aux utilisateurs pour lesquels Excha
 <sup>2</sup> eDiscovery et juridiques pour la conformité des messages de canal est pris en charge pour toutes les options d’hébergement.  
 <sup>3</sup> messages de conversation privée d’équipes ne sont pas encore pris en charge pour suspens pour raisons juridiques pour cette option d’hébergement.
 
-<sup>4</sup> rétention utilise une boîte aux lettres de l’ombre pour l’utilisateur en ligne pour stocker des messages. [Prend en charge des équipes Microsoft eDiscover pour l’utilisateur d’équipes dans un environnement Exchange hybride](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
+<sup>4</sup> rétention utilise une boîte aux lettres de l’ombre pour l’utilisateur en ligne pour stocker des messages. [Prend en charge des équipes Microsoft eDiscovery pour l’utilisateur d’équipes dans un environnement Exchange hybride](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
 
 <sup>5</sup> utilisateurs équipes avec sur site de boîte aux lettres Exchange peut utiliser la messagerie vocale avec des équipes et recevoir des messages de messagerie vocale dans Outlook, mais les messages vocaux ne sera pas disponibles pour afficher ou lire dans le client d’équipes.
 

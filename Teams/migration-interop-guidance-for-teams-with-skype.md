@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e924311188e077e10e844b55e4a429ab5344dca
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+ms.openlocfilehash: 062b90003c1c1529ff3be3b05bf752fb73ad37bb
+ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786428"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29992864"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise
 
@@ -42,12 +42,11 @@ Une organisation avec Skype pour les entreprises au démarrage d’adopter les �
 
 5.  Interopérabilité entre équipes et Skype pour les utilisateurs professionnels n’est possible que *Si l’utilisateur équipes est hébergé en ligne dans Skype pour les entreprises*. Le destinataire Skype pour l’utilisateur d’entreprise peut être hébergé soit localement (et nécessite la configuration Skype pour un environnement hybride Business) ou en ligne. Permettent aux utilisateurs qui sont hébergés dans Skype pour Business local équipes en mode îles (défini plus loin dans ce document), mais ils ne peuvent pas permet aux équipes interop ou fédérer avec d’autres utilisateurs qui utilisent Skype pour les entreprises.  
 
-6.  Le comportement de mise à niveau et d’interopérabilité de base sont déterminés en fonction d’un utilisateur, qui est gérée par TeamsUpgradePolicy de cohabitation. TeamsInteropPolicy n’est plus pris en compte et accorder le mode = hérité n’est plus autorisée. 
+6.  Le comportement de mise à niveau et d’interopérabilité de base sont déterminés basée sur le mode de la Coexistence d’un utilisateur, décrit ci-dessous. Mode est géré par TeamsUpgradePolicy. TeamsInteropPolicy n’est plus pris en compte et accorder le mode = hérité n’est plus autorisée. 
 
 7.  Mise à niveau d’un utilisateur vers le mode TeamsOnly garantit que tous les appels et les conversations entrantes seront toujours atteindre dans le client de l’utilisateur équipes, quel que soit le client il orignated à partir de. Ces utilisateurs seront également planifier toutes les réunions dans les équipes. Pour être en mode TeamsOnly, un utilisateur doit être hébergé en ligne dans Skype pour les entreprises. Cette opération est obligatoire pour garantir l’interopérabilité, la fédération et l’administration complète de l’utilisateur d’équipes. Mise à niveau un utilisateur vers TeamsOnly :
     - Si l’utilisateur est hébergé dans Skype pour les entreprises en ligne (ou jamais eu de n’importe quel compte Skype), leur accorder TeamsUpgradePolicy avec Mode = TeamsOnly à l’aide de l’instance de « UpgradeToTeams » à l’aide de PowerShell, ou utiliser le centre d’administration équipes pour sélectionner le mode TeamsOnly.
-    - Si l’utilisateur est hébergés localement, utilisez `Move-CsUser` à partir de l’environnement local administrateur des outils pour déplacer vers le premier l’utilisateur de Skype pour Business Online.  Si vous avez Skype pour Business Server 2019 ou CU8 pour Skype pour Business Server 2015, vous pouvez spécifier le `-MoveToTeams` basculer dans `Move-CsUser` pour déplacer l’utilisateur directement aux équipes dans le cadre du déplacement en ligne. Cette option sera également migrer des réunions de l’utilisateur aux équipes (bien que pour l’instant, migration de réunion ne fonctionne uniquement pour les clients TAP). Si `-MoveToTeams` n’est pas spécifié ou n’est disponible, puis après `Move-CsUser` se termine, affectez TeamsOnly mode à cet utilisateur à l’aide de PowerShell ou le centre d’administration équipes.  
-     Pour plus d’informations, voir [déplacer des utilisateurs entre locaux et en nuage](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Pour plus d’informations sur la migration de la réunion, reportez-vous [à l’aide de la réunion Migration MMS (Service)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+    - Si l’utilisateur est hébergés localement, utilisez `Move-CsUser` à partir de l’environnement local administrateur des outils pour déplacer vers le premier l’utilisateur de Skype pour Business Online.  Si vous avez Skype pour Business Server 2019 ou CU8 pour Skype pour Business Server 2015, vous pouvez spécifier le `-MoveToTeams` basculer dans `Move-CsUser` pour déplacer l’utilisateur directement aux équipes dans le cadre du déplacement en ligne. Cette option sera également migrer des réunions de l’utilisateur aux équipes (bien que pour l’instant, migration de réunion ne fonctionne uniquement pour les clients TAP). Si `-MoveToTeams` n’est pas spécifié ou n’est disponible, puis après `Move-CsUser` se termine, affectez TeamsOnly mode à cet utilisateur à l’aide de PowerShell ou le centre d’administration équipes. Pour plus d’informations, voir [déplacer des utilisateurs entre locaux et en nuage](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Pour plus d’informations sur la migration de la réunion, reportez-vous [à l’aide de la réunion Migration MMS (Service)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 8.  Pour utiliser les fonctionnalités de système téléphonique d’équipes avec les équipes, les utilisateurs doivent être en mode TeamsOnly (autrement dit, hébergés dans Skype pour Business Online et mis à niveau vers les équipes), et ils doivent être configurés pour le système téléphonique de Microsoft [Routage Direct](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (qui vous permet d’utiliser le système téléphonique avec vos propres jonctions SIP et SBC) ou possèdent un Office 365 appelant Plan de.   
 
@@ -56,30 +55,48 @@ Une organisation avec Skype pour les entreprises au démarrage d’adopter les �
 
 ## <a name="coexistence-modes"></a>Modes de coexistence
 
-Interopérabilité et la migration sont gérés en fonction de « mode de coexistence » à l’aide de TeamsUpgradePolicy. Mode d’un utilisateur détermine :
+Interopérabilité et la migration sont gérés en fonction de « mode de coexistence » à l’aide de TeamsUpgradePolicy. Modes de coexistence fournissent une expérience prévisible simple pour les utilisateurs finaux en tant que la transition des organisations de Skype pour les entreprises aux équipes. Pour une organisation déplacement aux équipes, le mode TeamsOnly est la destination finale pour chaque utilisateur, même si tous les utilisateurs ne doivent être attribués TeamsOnly (ou n’importe quel mode) en même temps. Avant d’atteindre le mode TeamsOnly des utilisateurs, organisations peuvent utiliser de la Skype pour les modes d’entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) pour assurer la communication entre les utilisateurs qui sont TeamsOnly et ceux qui ne sont pas encore prévisible.
+
+
+À partir d’un point de vue technique, le mode d’un utilisateur régit plusieurs aspects de l’expérience de l’utilisateur :
 
 - *Routage des télécopies entrantes*: dans quels ne client (équipes ou Skype pour les entreprises) entrant conversations et appelle terrain ? 
+- *Publication de présence*: présence de l’utilisateur qui est affiché pour les autres utilisateurs en fonction de leur activité dans des équipes ou Skype pour les entreprises ? 
 - *Planification de la réunion*: le service qui est utilisé pour la planification de réunions et en vous assurant que le complément approprié est présent dans Outlook. Notez que TeamsUpgradePolicy ne gère pas participer à une réunion. Les utilisateurs peuvent toujours *participer à* une réunion, qu’il s’agisse d’un Skype pour conférence Business ou équipes.
-- *L’expérience client*: quelles sont les fonctionnalités sont disponible dans les équipes et/ou Skype pour client d’entreprise ? Ceci est implémenté pour le mode TeamsOnly. Prise en charge pour les autres modes est prévue pour l’avenir. 
+- *L’expérience client*: quelles sont les fonctionnalités sont disponible dans les équipes et/ou Skype pour client d’entreprise ? Les utilisateurs peuvent initier des appels et les conversations d’équipes, Skype pour les entreprises ou les deux ? Est qu'expérience des équipes & canaux disponibles ?  Comme décrit plus loin dans cet article, ce dernier aspect du mode démarre être remis.
 
-Les modes sont répertoriés ci-dessous. SfBWithTeamsCollab et SfBWithTeamsCollabAndMeetings autorisera mixte d’utilisation de ces deux clients, mais aucune fonctionnalité qui se chevauchent. Mode (îles) permet l’utilisation de ces deux clients, mais avec chevauchement des fonctionnalités. Par exemple, en mode (îles), un utilisateur peut lancer une conversation dans soit Skype pour les équipes ou de l’entreprise, mais dans SfBWithTeamsCollab, ils peuvent uniquement converser dans Skype pour les entreprises (bien qu’ils peuvent participer à des conversations de canal équipes). Notez que le Client expeirence pour les modes SfB n’est pas encore entièrement fonctionnelle.  
+Pour plus d’informations sur le comportement de routage et de présence basée sur le mode, consultez [Coexistence avec Skype pour les entreprises](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence).
+
+Toutefois, du point de vue de l’expérience, mode permettre plus simplement décrits comme définissant l’expérience pour :
+- *Conversation et l’appel*: le client utilise-t-il un utilisateur ?
+- *Planification de la réunion*: font utilisateurs planifient des réunions nouvelles équipes ou Skype pour les réunions d’entreprise ?
+- *Disponibilité des fonctionnalités de collaboration dans le client d’équipes*. Fonctionnalité équipes & canaux et les fichiers n’est disponible pendant que les utilisateurs ont toujours Skype pour les entreprises ?
+
+Les modes sont répertoriés ci-dessous.
 </br>
 </br>
 
-|Mode|Comportement de routage|Planification de la réunion|Expérience du client|
-|---|---|---|---|
-|(Îles)|VOIP entrant appelle et conversations terrestre dans le même client en tant qu’expéditeur, sauf si le destinataire est fédéré et en mode (îles), auquel cas ils atterrissent SfB.<sup>1</sup>|Les deux|Les utilisateurs finaux peuvent lancer des appels et les salles de conversation à partir d’un client et permet de planifier des réunions à partir d’un client.|
-|SfBOnly|Conversations et les appels entrants sont routées vers Skype pour les entreprises|Skype pour les entreprises uniquement|Les utilisateurs finaux peuvent lancer des appels et des conversations de Skype pour les entreprises et planifier uniquement Skype pour les réunions d’entreprise. (PAS ENCORE APPLIQUÉE)|
-|SfBWithTeamsCollab<sup>2</sup>|Conversations et les appels entrants sont routées vers Skype pour les entreprises|Skype pour les entreprises uniquement|Les utilisateurs finaux peuvent lancer des appels et des conversations de Skype pour les entreprises et planifier uniquement Skype pour les réunions d’entreprise. Ils peuvent également utiliser des canaux dans les équipes. (PAS ENCORE APPLIQUÉE)|
-|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Conversations et les appels entrants sont routées vers Skype pour les entreprises|Équipes uniquement|Les utilisateurs finaux peuvent passer des appels et conversations Skype pour les entreprises uniquement et uniquement à partir de planifient des réunions d’équipes. Ils peuvent participer aux conversations du canal équipes. (PAS ENCORE APPLIQUÉE)|
-|TeamsOnly|Conversations et les appels entrants sont acheminées vers les équipes|Équipes uniquement|Les utilisateurs finaux peuvent lancer des appels et des conversations des équipes. Skype pour les entreprises est uniquement disponible pour participer à des réunions.|
-|||||
+|Mode|Appel et conversation|Planification de réunion<sup>1</sup>|Les équipes & canaux|Cas d’utilisation|
+|---|---|---|---|---|
+|**TeamsOnly**</br>*Nécessite d’accueil dans Skype pour Business en ligne*|Teams|Teams|Oui|L’état final de la mise à niveau. Également la valeur par défaut pour les nouveaux clients avec <500 sièges.|
+|(Îles)|Soit|Soit|Oui|Configuration par défaut. Permet à un utilisateur unique à évaluer les deux clients côte à côte. Conversations et les appels peuvent atteindre dans un client, afin que les utilisateurs doivent toujours exécuter les deux clients.|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype Entreprise|Équipes|Oui|« Réunions premier ». Principalement pour les organisations sur site bénéficier des fonctionnalités de réunion équipes, si elles ne sont pas encore prêt à mode l’appel vers le nuage.|
+|SfBWithTeamsCollab<sup>2</sup>|Skype Entreprise|Skype Entreprise|Oui|Autre point de départ pour les organisations complexes nécessitant une plus forte du contrôle administratif|
+|SfBOnly|Skype Entreprise|Skype Entreprise|Aucun<sup>3</sup>|Spécialisés scénario pour les organisations ayant de strictes exigences de contrôle de données. Les équipes est utilisée uniquement pour participer à des réunions planifiées par d’autres personnes.|
+||||||
+
+</br>
+</br>
 
 **Notes :**
 
-<sup>1</sup> pour plus d’informations sur PSTN d’appel, voir tableau à la fin de ce document.
+<sup>1</sup> la possibilité de participer à une réunion existante (si planifiées dans des équipes ou Skype pour les entreprises) n’est pas régie par le mode. Par défaut, les utilisateurs peuvent toujours participer à des réunions qu’ils ont été invités.
 
-<sup>2</sup> SfBWithTeamsCollab et SfBWithTeamsCollabAndMeetings ne sont pas encore exposées dans l’expérience utilisateur d’administration car ils actuellement se comportent pas différemment mode SfBOnly, à l’exception de contrôle des compléments Outlook. Une fois que l’expérience du client est remis, ces modes seront disponibles dans le portail d’administration. 
+<sup>2</sup> SfBWithTeamsCollab et SfBWithTeamsCollabAndMeetings sont actuellement disponibles dans PowerShell uniquement.  Une fois que l’expérience du client terminé est remis, ces modes seront disponibles dans le portail d’administration. 
+
+<sup>3</sup> actuellement, les équipes ne dispose pas la possibilité de désactiver la fonctionnalité équipes et canaux afin que cela reste activé pour l’instant.
+
+
 
 ## <a name="teamsupgradepolicy-managing-migration-and-co-existence"></a>TeamsUpgradePolicy : gestion de la migration et coexistence
 
@@ -120,52 +137,28 @@ Ces instances de stratégie peuvent être accordées à des utilisateurs individ
 
 ## <a name="federation-considerations"></a>Considérations relatives à la fédération
 
-Fédération des équipes à un autre utilisateur à l’aide de Skype entreprise requiert l’utilisateur équipes hébergés en ligne dans Skype pour les entreprises. Finalement, équipes, les utilisateurs hébergés dans Skype pour Business locale sera vous fédérer avec d’autres utilisateurs d’équipes.
+Fédération des équipes à un autre utilisateur à l’aide de Skype entreprise requiert l’utilisateur équipes hébergés en ligne dans Skype pour les entreprises. Finalement, équipes, les utilisateurs hébergés dans Skype pour Business locale sera en mesure d’établir une fédération avec des équipes uniquement les utilisateurs.
 
 TeamsUpgradePolicy gère le routage des appels et des conversations fédérées entrantes. Le comportement du routage fédéré est la même que pour les scénarios de même client, *sauf en mode (îles)*.  Lorsque les destinataires sont en mode (îles) : 
 - Conversations et les appels démarrés à partir des équipes atteindre dans SfB si le destinataire se trouve dans un *client fédéré*.
 - Conversations et les appels démarrés à partir des équipes atteindre dans les équipes si le destinataire se trouve dans le *même client*.
-- Conversations et les appels démarrés à partir de SfB toujours atteindre dans SfB.
+- Conversations et les appels démarrés à partir de SfB toujours atteindre dans Skype pour les entreprises.
 
+Pour plus d’informations, consultez [Coexistence avec Skype pour les entreprises](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence).
 
 ## <a name="the-intended-client-user-experience-in-teams-when-using-sfb-modes"></a>L’utilisateur concerné client l’expérience dans les équipes lors de l’utilisation de modes SfB
+Lorsqu’un utilisateur est dans un de la Skype pour les modes d’entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), toutes les conversations entrantes et les appels sont routés vers Skype l’utilisateur pour client d’entreprise. Pour éviter toute confusion d’utilisateur final et garantir un routage correct, la fonctionnalité appel et de conversation dans le client équipes est *destiné à être désactivée lorsqu’un utilisateur est dans un de la Skype pour les modes d’entreprise*. De même, planifier des réunions dans les équipes est *destiné à être désactivé lorsque vous êtes dans les modes SfBOnly ou SfBWithTeamsCollab*et explicitement activées lorsqu’un utilisateur est en mode SfBWithTeamsCollabAndMeetings. 
 
-Lorsque les utilisateurs dans le Skype pour les modes d’entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), les *fonctionnalités d’appel et de conversation dans l’application des équipes sont destinée à être désactivée*, mais actuellement il n’est pas encore désactivé. De même, lorsque les utilisateurs se trouvent dans les modes SfBOnly ou SfBWithTeamsCollab, *planifier des réunions dans les équipes est destiné à être désactivée*, mais il n’est pas actuellement. Une solution pour fournir automatiquement cette expérience est planifiée.
+### <a name="automatic-conformance-of-teams-client-based-on-mode-planned"></a>Mise en conformité automatique du client équipes basée sur le mode (prévu) 
+La fonctionnalité pour désactiver automatiquement la conversation et l’appel des fonctionnalités, ainsi que planifier des réunions activer/désactiver basée sur le mode est maintenant début du déploiement pour les clients TAP mais n’est ne pas encore disponible. Pour plus d’informations sur les nouvelles fonctionnalités, voir [l’expérience client équipes et conformité aux modes de coexistence](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes).
 
-Jusqu'à ce que cette solution est remise, les administrateurs peuvent appliquer l’expérience du client concerné du mode TeamsUpgradePolicy en configurant manuellement les valeurs de TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy. En outre, lorsque vous utilisez `Grant-CsTeamsUpgradePolicy` dans PowerShell, l’applet de commande vérifie automatiquement la configuration des paramètres correspondants dans TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy à determmine si ces paramètres sont compatibles avec le mode spécifié. Si les ne sont pas configurés correctement, l’octroi réussira, mais est fourni un avertissement indiquant les paramètres ne sont pas configurés correctement. L’administrateur doit mettre à jour ultérieurement les stratégies indiqués afin d’offrir une expérience utilisateur final compatible dans les équipes. Si l’administrateur décide de vous n’avez rien à la suite de l’avertissement, les utilisateurs peuvent toujours accéder à la conversation, appel et/ou des fonctions de planification dans les équipes en fonction des valeurs de TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy, de la réunion qui peut entraîner une expérience utilisateur final confus.
+### <a name="manual-configuration-of-workload-policy-settings-prior-to-automatic-conformance"></a>Configuration manuelle des paramètres de stratégie de charges de travail, avant la mise en conformité automatique
+Jusqu'à ce que cette solution de conformité automatique pour les modes de remise, les administrateurs peuvent appliquer l’expérience du client concerné du mode TeamsUpgradePolicy en configurant manuellement les valeurs de TeamsMessagingPolicy, TeamsCallingPolicy, et TeamsMeetingPolicy. En outre, lorsque vous utilisez `Grant-CsTeamsUpgradePolicy` dans PowerShell, l’applet de commande vérifie la configuration des paramètres correspondants dans TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy à determmine si ces paramètres sont compatibles avec le mode spécifié. Si les ne sont pas configurés correctement, l’octroi réussira, mais est fourni un avertissement indiquant les paramètres ne sont pas configurés correctement. L’administrateur doit mettre à jour ultérieurement les stratégies indiqués afin d’offrir une expérience utilisateur final compatible dans les équipes. Si l’administrateur décide de vous n’avez rien à la suite de l’avertissement, les utilisateurs peuvent toujours accéder à la conversation, appel et/ou des fonctions de planification dans les équipes en fonction des valeurs de TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy, de la réunion qui peut entraîner une expérience utilisateur final confus.
 
-### <a name="expected-values-of-workload-policy-settings-per-mode"></a>Valeurs attendues des paramètres de stratégie de charges de travail par mode
-Le tableau présente les paramètres de stratégie qui sont en cours lorsque TeamsUpgradeMode est accordé. À l’avenir, l’objectif étant pour le mode SfBOnly également désactiver canaux dans les équipes ; Toutefois, il n’existe actuellement aucun paramètre qui permet à la fonctionnalité de canaux dans les équipes à désactiver.
-
-
-|**Modalité (application)**|**Policy.Setting**|
-|---|---|
-|Conversation|TeamsMessagingPolicy.AllowUserChat|
-|Appels|TeamsCallingPolicy.AllowPrivateCalling|
-|Planification de la réunion|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
-|||
-
-La ci-dessous indique, pour un mode donné, les valeurs attendues de ces paramètres :
-
-|Mode|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
-|---|---|---|---|---|
-|TeamsOnly ou (îles)|Activé|Activé|Activé|Activé|
-|SfBWithTeamsCollabAndMeetings|Désactivé|Désactivé|Activé|Activé|
-|SfBWithTeamsCollab ou SfBOnly|Désactivé|Désactivé|Désactivé|Désactivé|
-||||||
+Pour plus d’informations sur la stratégie paramètres sont vérifiés lorsque TeamsUpgadePolicy est accordé, voir [l’expérience client équipes et conformité aux modes de coexistence](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes).
 
 
-Si toute autre combinaison de ces paramètres est détectée au cours de Grant-CsTeamsUpgradePolicy, l’octroi réussira, mais un avertissement s’affichera indiquant les paramètres spécifiques qui ne sont pas conformes le comportement attendu. Temporairement, l’administrateur doit activer/désactiver la charge de travail par le biais de la stratégie de charges de travail principal.  Une fois l’application automatique en fonction de TeamsUpgradePolicy implémentée, les avertissements PowerShell seront mis à jour pour informer l’administrateur qui applique automatiquement l’expérience du client. Dans ce cas, les valeurs de TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy restent inchangées – mais TeamsUpgradePolicy en fonction de l’expérience du client concerné est appliquée.
-
-Voici un exemple de ce que l’avertissement PowerShell pourrait ressembler à :
-
-
-`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
-WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
-PS C:\Users\janedoe>`
-
-
-Avant la remise de l’exécution automatique du comportement du client décrite ci-dessus, chacun des modes SfB ont essentiellement les mêmes. Les modes SfBOnly, SfBWithTeamsCollab et SfBWithTeamsCollabAndMeetings sont toutes identiques dans la façon dont ils sont positionnés les conversations et les appels entrants. La seule différence pour l’instant, est dans les compléments Outlook pour les équipes et Skype pour les entreprises sont activé ou non. Jusqu'à ce que le client différenciés documenter est remis, 1 uniquement sur les modes SfB est activé dans le portail d’administration. Mais tous les modes sont disponibles dans PowerShell.
+**Remarque :** Avant la remise de l’exécution automatique du comportement du client décrite ci-dessus, chacun des modes SfB ont essentiellement les mêmes. Les modes SfBOnly, SfBWithTeamsCollab et SfBWithTeamsCollabAndMeetings sont toutes identiques dans la façon dont ils sont positionnés les conversations et les appels entrants. La seule différence pour l’instant, est dans les compléments Outlook pour les équipes et Skype pour les entreprises sont activé ou non. Jusqu'à ce que le client différenciés documenter est remis, 1 uniquement sur les modes SfB est activé dans le portail d’administration. Mais tous les modes sont disponibles dans PowerShell.
 
 
 ## <a name="teamsinteroppolicy-and-legacy-mode-has-been-retired"></a>TeamsInteropPolicy et Mode hérité a été retirée. 
@@ -192,6 +185,8 @@ TeamsInteropPolicy a été remplacée par TeamsUpgradePolicy. Tous les composant
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Coexistence avec Skype Entreprise](https://docs.microsoft.com/en-us/microsoftteams/coexistence-chat-calls-presence)
+
+[Les équipes expérience client et la conformité aux modes de coexistence](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
 
 [Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 
