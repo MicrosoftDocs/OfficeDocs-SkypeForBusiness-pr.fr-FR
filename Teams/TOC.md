@@ -23,7 +23,7 @@
 ## [Créer une équipe à l’échelle de l’organisation dans les équipes](create-an-org-wide-team.md)
 ## [Ce que sont les stratégies de messagerie ?](messaging-policies-in-teams.md)
 ## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
-## [Commencer avec les modèles de santé des équipes Microsoft](healthcare/healthcare-templates.md)
+## [Prise en main des modèles Santé de Microsoft Teams](healthcare/healthcare-templates.md)
 ## [Présentation de l’appartenance dynamique pour les équipes](dynamic-memberships.md)
 ## [Présence](presence-admins.md)
 ## [Communiquer avec les utilisateurs d’équipes dans d’autres organisations](let-your-teams-users-communicate-with-other-people.md)
@@ -38,7 +38,7 @@
 ### [Utilisez les onglets intégrés et personnalisés](built-in-custom-tabs.md)
 ### [Utiliser des connecteurs personnalisés et Office 365](Office-365-custom-connectors.md)
 ### [Publier des applications dans le catalogue d’applications client équipes](tenant-apps-catalog-teams.md)
-### [Configurer l’application de réunions Skype pour travailler avec des équipes](configure-skype-meetings-app-to-work-with-teams.md)
+### [Configurer l’Application Réunions Skype pour fonctionner avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
 
@@ -61,7 +61,7 @@
 ### [Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [Gérer Teams dans le centre d’administration Microsoft Teams](manage-teams-in-modern-portal.md)
 ### [Affecter des propriétaires d’équipe et membres d’équipes](assign-roles-permissions.md)
-### [Configurer l’application de réunions Skype pour travailler avec des équipes](configure-skype-meetings-app-to-work-with-teams.md)
+### [Configurer l’Application Réunions Skype pour fonctionner avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Communiquer avec les utilisateurs d’équipes dans d’autres organisations](let-your-teams-users-communicate-with-other-people.md)
 ### [Utiliser la traduction des messages incorporés](inline-message-translation-teams.md)
 ### [Utiliser la recherche d’annuaire étendue Microsoft Teams](teams-scoped-directory-search.md)
@@ -305,10 +305,10 @@
 ### [Configurer un contrôleur de frontière de session pour plusieurs clients](direct-routing-sbc-multiple-tenants.md)
 ### [Liste des contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md)
 ### Routage géodépendant
-#### [Terminologie de routage basée sur l’emplacement](location-based-routing-terminology.md)
-#### [Planifier le routage par emplacement pour le routage Direct](location-based-routing-plan.md)
-#### [Configurer les paramètres réseau pour le routage basé sur l’emplacement](location-based-routing-configure-network-settings.md)
-#### [Activer le routage par emplacement pour le routage Direct](location-based-routing-enable.md)
+#### [Terminologie du routage géodépendant](location-based-routing-terminology.md)
+#### [Planifier le routage géodépendant pour le routage direct](location-based-routing-plan.md)
+#### [Configurer les paramètres de réseau pour le routage géodépendant](location-based-routing-configure-network-settings.md)
+#### [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
 ### Référence technique pour le routage Direct
 #### [Basculement de jonction sur les appels sortants](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -505,7 +505,7 @@
 #### [Configurer les crédits de communication pour votre organisation](set-up-communications-credits-for-your-organization.md)
 #### [Ajouter des fonds et gérer les crédits de communication](add-funds-and-manage-communications-credits.md)
 
-### [Flux des appels équipes Microsoft Online](microsoft-teams-online-call-flows.md)
+### [Flux d’appel de Microsoft Teams en ligne](microsoft-teams-online-call-flows.md)
 
 ## Conseils pratiques pour les grandes organisations
 ### [Didacticiel : L’appel dans les équipes](Tutorial-calling-in-teams.yml)
@@ -581,6 +581,7 @@
 ## Informations supplémentaires
 ### [Migration et interopérabilité avec Skype pour les entreprises](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence avec Skype Entreprise](coexistence-chat-calls-presence.md)
+### [Les équipes expérience client et la conformité aux modes de coexistence](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
 #       
 #        
@@ -633,9 +634,9 @@
 #### [Qualité de consulter le Guide de l’expérience](quality-of-experience-review-guide.md)
 #### [Configurer la qualité de service dans les équipes](QoS-in-Teams.md)
 #### [Mettre en œuvre QoS et surveiller la qualité des appels](monitor-call-quality-qos.md)
-#### [Appel Analytique et tableau de bord de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
-#### [Configurer Analytique d’appel](set-up-call-analytics.md)
-#### [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+#### [Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
+#### [Configurer Analyse des appels](set-up-call-analytics.md)
+#### [Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 #### [Activation et utilisation du tableau de bord Qualité des appels](turning-on-and-using-call-quality-dashboard.md)
 #### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Classification des flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md)
@@ -649,7 +650,7 @@
 
 ## Équipes pour les travailleurs firstline
 ### [Gérer l’application des équipes de votre organisation dans les équipes](manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Les modèles d’équipe de vente au détail en main](get-started-with-retail-teams-templates.md)
+### [Prise en main des modèles Équipes de vente au détail](get-started-with-retail-teams-templates.md)
 
 ## [Planifier pour le gouvernement Microsoft 365 - GCC](plan-for-government-gcc.md)
 ### [Planifier pour le gouvernement Microsoft 365 - GCC haute](plan-for-government-gcc-high.md)
