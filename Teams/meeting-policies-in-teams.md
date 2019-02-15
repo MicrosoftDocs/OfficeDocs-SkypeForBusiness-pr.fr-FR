@@ -1,5 +1,5 @@
 ---
-title: Stratégies de la réunion dans les équipes
+title: Gérer les stratégies de la réunion
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -12,13 +12,15 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
+f1keywords:
+- ms.teamsadmincenter.meetingpolicies.overview
 description: Apprenez à gérer les paramètres de stratégie dans les équipes de réunion.
-ms.openlocfilehash: 03c983e98d5bcb349a7a2796ad59cb22c03e22bd
-ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
+ms.openlocfilehash: 96b5008ebbdbcad2dc44234d861c4127c77ed69c
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27283540"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056610"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de la réunion dans les équipes
 
@@ -37,7 +39,7 @@ Stratégies de réunion sont utilisés pour contrôler les fonctionnalités qui 
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="audio--video"></a>Audio et vidéo
+## <a name="audio--video"></a>Audio & vidéo
    - **Transcription autoriser** Si vous activez ce, la transcription de la réunion sera disponible pour les utilisateurs.
    - **Enregistrement du nuage autoriser** Activer cette fonctionnalité permettra d’enregistrements d’être enregistrées dans le nuage.
    - **IP Autoriser la vidéo** Activer cette fonctionnalité permettra de vidéos IP au cours des réunions.
@@ -55,7 +57,7 @@ Stratégies de réunion sont utilisés pour contrôler les fonctionnalités qui 
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="participants--guests"></a>Participants & invités
+## <a name="participants--guests"></a>Invités & des participants
    - **Autoriser les utilisateurs anonymes à des appels sortants** Si vous souhaitez que les participants à la réunion pour les appels sortants pour ajouter une autre personne, vous pouvez activer. Si vous la désactivez, aucun des participants à la réunion peuvent établir une connexion depuis la réunion.
    - **Autoriser les utilisateurs anonymes pour démarrer les réunions** Si ce paramètre est désactivé, seule la personne qui a été authentifié à la réunion avec une application d’équipes permettre démarrer la réunion. S’il est activé, tout le monde peut démarrer la réunion.
    - **Accepter automatiquement les utilisateurs** Si vous désactivez cette option, participants à la réunion seront à gauche dans la salle d’attente jusqu'à ce qu’un utilisateur démarre la réunion. S’il est activé, participants à la réunion pourront participer automatiquement à la réunion.

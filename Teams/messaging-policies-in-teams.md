@@ -1,5 +1,5 @@
 ---
-title: Que sont les stratégies de messagerie dans Teams ?
+title: Gérer les stratégies de messagerie
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,21 +16,20 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Découvrez les stratégies de messagerie et comment ils peuvent être utilisés pour contrôler la conversation de messagerie dans les équipes.
-ms.openlocfilehash: d4d2a4f424de1750c70ea851d1d1d35a2aaf9e44
-ms.sourcegitcommit: dfd075d092db9826c792cf947c83c33cfcd8ef4e
+ms.openlocfilehash: 3b360be09f8e35d560b13b40ef25a72a060e6033
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29763715"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056586"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>Que sont les stratégies de messagerie dans Teams ?
-::: zone target="docs"
+
 Les stratégies de messagerie sont utilisés pour contrôler les conversation et le canal des fonctionnalités de messagerie sont disponibles pour les utilisateurs de Microsoft Teams. Vous pouvez utiliser la stratégie par défaut qui est créée ou créer une ou plusieurs stratégies de messagerie personnalisés des personnes de votre organisation. Après avoir créé une stratégie, vous allez l’attribuer un utilisateur ou groupes d’utilisateurs dans votre organisation.
 
 Les stratégies peuvent être facilement gérés dans le centre d’administration équipes (http://admin.teams.microsoft.com) en vous connectant avec les informations d’identification d’administrateur et en cliquant sur les **Stratégies de messagerie** dans le volet de navigation gauche. Pour modifier la stratégie par défaut existant pour votre organisation, sélectionnez la ligne **Global (à l’échelle de l’organisation par défaut)** , cliquez sur **Modifier**. Pour créer une nouvelle stratégie de messagerie, cliquez sur **nouvelle stratégie**.
 
 ![Stratégies de messagerie dans les équipes](media/messaging-policies.png)
-::: zone-end
 
 Les paramètres disponibles pour la stratégie sont décrits ci-dessous : 
 
@@ -51,9 +50,7 @@ Les paramètres disponibles pour la stratégie sont décrits ci-dessous :
 - **Autoriser les URL aperçus** Utilisez ce paramètre pour activer automatique URL aperçu activé ou désactivé dans les messages.
 - **Autoriser les utilisateurs à convertir des messages** Activez ce paramètre pour permettre aux utilisateurs de traduire automatiquement des messages d’équipes dans la langue spécifiée par leurs paramètres personnels de langue pour Office 365.
 
-::: zone target="docs"
 Si vous avez créé une stratégie de messagerie personnalisée, il ne sera active pour un utilisateur si cette stratégie est affectée à un utilisateur.  Pour affecter une stratégie personnalisée à un utilisateur dans le centre d’administration d’équipes, cliquez sur **utilisateurs** dans le volet de navigation gauche, sélectionnez l’utilisateur que vous voulez attribuer la stratégie à, puis cliquez sur **Modifier** sous **Stratégies affectées**.
-::: zone-end
 
 ### <a name="related-topics"></a>Rubriques connexes
 [Stratégies de réunion dans Teams](meeting-policies-in-teams.md)

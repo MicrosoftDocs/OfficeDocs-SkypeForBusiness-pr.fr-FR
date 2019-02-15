@@ -1,5 +1,5 @@
 ---
-title: Basculement de jonction pour les appels sortants
+title: Basculement de jonction sur les appels sortants
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment gérer les basculements de jonction pour les appels sortants à partir des équipes pour le contrôleur de Session en périphérie (SBC).
-ms.openlocfilehash: 620230ca3be07bb54386f54a983539716d07b2e9
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: bab62130c060b4bfadd633c86dd75caf98b07a46
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297808"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056594"
 ---
-# <a name="trunk-failover-on-outbound-calls"></a>Basculement de jonction pour les appels sortants
+# <a name="trunk-failover-on-outbound-calls"></a>Basculement de jonction sur les appels sortants
 
 Cette rubrique explique comment éviter les basculements de jonction pour les appels sortants--des équipes pour le contrôleur de Session en périphérie (SBC).
 
@@ -34,7 +34,7 @@ Par exemple, une connexion peut échouer si une limite l’accès administrateur
 
 ## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>Basculement de codes SIP spécifiques reçu à partir du contrôleur de Session en périphérie (SBC)
 
-Si le routage Direct reçoit les codes d’erreur 4xx ou 6xx SIP en réponse à une invitation sortante, l’appel est considérée comme terminée par défaut. Sortant signifie qu’un appel à partir d’un client équipes pour le Public téléphone réseau commuté (RTC) avec le flux de trafic suivants : Client équipes -> routage Direct -> SBC -> réseau téléphonique.
+Si le routage Direct reçoit les codes d’erreur 4xx ou 6xx SIP en réponse à une invitation sortante, l’appel est considérée comme terminée par défaut. Sortant signifie qu’un appel à partir d’un client équipes pour le Public téléphone réseau commuté (RTC) avec le flux de trafic suivants : Client équipes-> routage Direct-> SBC-réseau de téléphonie >.
 
 Vous trouverez la liste des Codes SIP dans le [Protocole SIP (Session Initiation) RFC](https://tools.ietf.org/html/rfc3261).
 
@@ -48,11 +48,11 @@ Par défaut, l’appel réussira pour l’instant.
 ![Montre SBC Impossible d’atteindre PSTN en raison de problèmes de réseau](media/direct-routing-failover-response-codes1.png)
 
 Mais il existe un SBC plus dans l’itinéraire potentiellement capable de fournir l’appel.
-Si vous configurez le paramètre Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com - ReinviteResponceCode « 408 », la deuxième SBC sera essayé--SBC2.contoso.com dans le diagramme suivant :
+Si vous configurez le paramètre `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`, la deuxième SBC sera tenté--SBC2.contoso.com dans le diagramme suivant :
 
 ![Indique le routage vers le deuxième SBC](media/direct-routing-failover-response-codes2.png)
 
-Le paramètre - FailoverResponceCodes et en spécifiant les codes vous aide à bien paramétrer votre routage et éviter les éventuels problèmes lors d’un contrôleur SBC ne peut pas émettre un appel en raison de réseau ou d’autres problèmes.
+Le paramètre - FailoverResponseCodes et en spécifiant les codes vous aide à bien paramétrer votre routage et éviter les éventuels problèmes lors d’un contrôleur SBC ne peut pas émettre un appel en raison de réseau ou d’autres problèmes.
 
 Valeurs par défaut : 408, 503, 504
 

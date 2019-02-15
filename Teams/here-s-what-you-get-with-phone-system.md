@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 864e687634426fd8fce0d489ef81cc85bbacf5e0
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 9898bcea949c5150667ae502edfa6b1fccd64764
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048204"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056618"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
@@ -74,12 +74,14 @@ Pour plus d’informations, voir [tarification pour le système téléphonique](
 
 Configurer le système téléphonique de la manière de mieux adapté à votre entreprise :
   
-- Vous pouvez utiliser le module complémentaire système téléphonique avec des lignes téléphoniques existantes de votre société, ou le [Quels sont les Plans de l’appel dans Office 365 ?](what-are-calling-plans-in-office-365.md) service pour les appels entrants et sortants.
+- Vous pouvez utiliser le module complémentaire système téléphonique avec des lignes téléphoniques existantes de votre société, ou le service [Système téléphonique avec des Plans de l’appel](calling-plan-landing-page.md) pour les appels entrants et sortants.
     
 - Vous pouvez obtenir de nouveaux numéros de téléphone d'Office 365 ou transférer des numéros de téléphone existants vers Skype Entreprise. 
     
 Voir les articles suivants pour planifier et configurer le système téléphonique de votre entreprise :
-  
+
+- [Système téléphonique avec forfaits d’appels](calling-plan-landing-page.md)
+
 - [Configurer des Plans de l’appel](set-up-calling-plans.md): cet article contient des instructions pas à pas de mettre en place avec vos numéros de téléphone ou transférer vos numéros de téléphone existant pour Skype pour les entreprises.
     
 - [Planifier votre système téléphonique dans les solutions Office 365 (en nuage PBX)](https://go.microsoft.com/fwlink/?LinkId=708645): cet article présente toutes vos options de déploiement. Il contient également des informations sur la planification d'une solution entièrement sur le cloud. 
@@ -89,7 +91,8 @@ Voir les articles suivants pour planifier et configurer le système téléphoniq
 - [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](set-up-phone-system-voicemail.md)
     
 - [Découvrir Skype Entreprise](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba) : Aidez les membres de votre entreprise à apprendre à utiliser les fonctions Skype Entreprise. 
-    
+
+
 ## <a name="availability"></a>Disponibilité
 <a name="bkmk_setup"> </a>
 
