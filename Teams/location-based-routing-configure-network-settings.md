@@ -1,5 +1,5 @@
 ---
-title: Configurer les paramètres réseau pour le routage basé sur l’emplacement
+title: Configurer les paramètres de réseau pour le routage géodépendant
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b99e21d172e35eb8e2ceb2aaabacee78cf45ef9
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 3b818b10a333fbb7cf50cf4e49d521aa224e2d17
+ms.sourcegitcommit: b53d99d06178c26297d1349ff82d05f706dfb479
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771015"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30050763"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a>Configurer les paramètres réseau pour le routage basé sur l’emplacement
+# <a name="configure-network-settings-for-location-based-routing"></a>Configurer les paramètres de réseau pour le routage géodépendant
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
@@ -42,10 +42,10 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 ## <a name="define-network-sites"></a>Définir des sites réseau
 
-Utiliser le ``New-CsTenantNetworkSitePowerShell`` applet de commande PowerShell pour définir des sites réseau. 
+Utiliser le ``New-CsTenantNetworkSite`` applet de commande PowerShell pour définir des sites réseau. 
 
 ```
-New-CsTenantNetworkSite -NetworkRegionID <region ID>  
+New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 Dans cet exemple, nous créons deux nouveaux sites réseau, Delhi et Hyderabad, dans la zone Inde. 
 ```
@@ -93,16 +93,16 @@ Identity, Mask, SiteID
 ## <a name="define-external-subnets"></a>Définir les sous-réseaux externes
 Utiliser le ``New-CsTenantTrustedIPAddress`` applet de commande pour définir les sous-réseaux externes et les assigner au client. Vous pouvez définir un nombre illimité de sous-réseaux pour un client. 
 ```
-New-CsTenantTrustedIPAddress -IPAddress <Subnet IP address> -MaskBits <Subnet bitmask> -Description <description> 
+New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 Par exemple :
 ```
-New-CsTenantTrustedIPAddress -IPAddress 192.168.0.1 -MaskBits 30 -Description "Contoso address"  
+New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description "Contoso address"  
 ```
 
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez à [Activer le routage par emplacement pour le routage Direct](location-based-routing-enable.md).
 
 ### <a name="related-topics"></a>Rubriques connexes
-- [Planifier le routage par emplacement pour le routage Direct](location-based-routing-plan.md)
-- [Terminologie de routage basée sur l’emplacement](location-based-routing-terminology.md)
+- [Planifier le routage géodépendant pour le routage direct](location-based-routing-plan.md)
+- [Terminologie du routage géodépendant](location-based-routing-terminology.md)

@@ -1,7 +1,7 @@
 ---
 title: Disponibilité en Croatie
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Croatie.
-ms.openlocfilehash: e5f6f2cd2db1f1d6a9844646812bf679c61de9cc
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9203fce004d80573161e6c6542d6f6ebfdfbb90a
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014812"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047165"
 ---
 # <a name="availability-in-croatia"></a>Disponibilité en Croatie
 

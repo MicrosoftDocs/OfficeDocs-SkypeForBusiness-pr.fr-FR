@@ -1,7 +1,7 @@
 ---
 title: Configurer le système téléphonique de votre organisation
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
 ms.topic: article
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer le système téléphonique (PBX nuage) pour votre organisation. '
-ms.openlocfilehash: aae5a8e5fc8a0cd2cb20a2e3964c14a89039ce1e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ae2d890e87ecef217bfdafd2c547de7ae35414d
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374449"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047561"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurer le système téléphonique de votre organisation
 
@@ -63,7 +63,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.** ** > ** **
     
 3. Dans le volet de navigation gauche, accédez à **voix** > **numéros de téléphone**, cliquez sur **Ajouter un nouveau numéro** ![Ajouter bouton ](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), puis cliquez sur**nouveaux numéros utilisateur**.
     
@@ -90,7 +90,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.** ** > ** **
 
 3. Dans le volet de navigation gauche, accédez à **voix** > **numéros de téléphone** > **Ajouter un nouveau numéro**, puis cliquez sur **nouveau numéro de service**.
 
@@ -280,7 +280,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 **Pour plus d’informations sur l’attribution de licences Communications crédits, voir [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md).**
 
 ## <a name="related-topics"></a>Rubriques connexes
-[Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
+[Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

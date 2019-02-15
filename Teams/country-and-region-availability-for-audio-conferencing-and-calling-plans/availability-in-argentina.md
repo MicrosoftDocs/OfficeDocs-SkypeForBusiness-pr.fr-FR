@@ -1,7 +1,7 @@
 ---
 title: Disponibilité en Argentine
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Argentine.
-ms.openlocfilehash: 39b17868ba5d8710b2b2807eba8b168b1e90047e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 357e896ca43a77108837a9ed181a57c8461f723f
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013024"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047857"
 ---
 # <a name="availability-in-argentina"></a>Disponibilité en Argentine
 

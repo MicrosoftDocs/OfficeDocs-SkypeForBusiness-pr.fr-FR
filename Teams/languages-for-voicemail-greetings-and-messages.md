@@ -1,7 +1,7 @@
 ---
 title: Langues pour les messages d'accueil et les messages de la messagerie vocale
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez quelles langues vous pouvez configurer dans Skype Entreprise pour les messages système par défaut. '
-ms.openlocfilehash: 77500d8a84dada5f2a5005c214fded7eddb3186e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 601a23efe09a486afdcd88ad2f45ec9b9b666fd7
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013272"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047713"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Langues pour les messages d'accueil et les messages de la messagerie vocale
 
@@ -66,7 +66,7 @@ Pour modifier la langue que Skype Entreprise utilise pour les messages d'accuei
 |Espagnol  <br/> |Espagne  <br/> |es-ES  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Espagnol  <br/> |Mexique  <br/> |es-MX  <br/> |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.  <br/> |
 |Suédois  <br/> |Suède  <br/> |sv-SE  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Turc  <br/> |Turquie  <br/> |tr-TR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Turc  <br/> |Turquie  <br/> |tr-TR  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
    
 ## <a name="related-topics"></a>Rubriques connexes
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

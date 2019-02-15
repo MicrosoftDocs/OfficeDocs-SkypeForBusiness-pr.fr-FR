@@ -1,7 +1,7 @@
 ---
 title: Disponibilité en Hongrie
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Hongrie.
-ms.openlocfilehash: 4f3a90972ea0c489bcb3bf45c2e1569cd42e538d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ef75ba44e0e9c29ff8d0631c06a6fdcc8998709c
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012560"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047005"
 ---
 # <a name="availability-in-hungary"></a>Disponibilité en Hongrie
 

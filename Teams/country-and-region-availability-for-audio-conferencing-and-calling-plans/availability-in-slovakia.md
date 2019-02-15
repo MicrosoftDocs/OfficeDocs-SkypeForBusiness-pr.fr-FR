@@ -1,7 +1,7 @@
 ---
 title: Disponibilité en Slovaquie
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Slovaquie.
-ms.openlocfilehash: 94e266e4ed899ed1d258e6a8abec970655c9a5a4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 943ed836ea806b0ebb6c4107f4adf033227d42d0
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013144"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048721"
 ---
 # <a name="availability-in-slovakia"></a>Disponibilité en Slovaquie
 

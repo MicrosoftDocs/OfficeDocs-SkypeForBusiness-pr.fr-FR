@@ -1,7 +1,7 @@
 ---
 title: Configurer les crédits de communication pour votre organisation
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: d97c95ed3fd4d398a4422645ab1e1491e1df6e3c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0570c454cdc3fc98fa6dfa4a8fe571714263421e
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375236"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048284"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurer les crédits de communication pour votre organisation
 
@@ -53,7 +53,7 @@ Pour cela, **vous devez affecter une conférence Audio ou une licence de systèm
     > [!NOTE]
     > Bien qu’il ne soit pas obligatoire pour les Communications générique, vous devez également affecter un **Intérieur appelant planifier** ou une licence **national et International appelant planifier** .
   
-    Après avoir affecté ces licences, vous devrez obtenir les numéros de téléphone pour votre organisation, puis affecter ces numéros aux personnes de votre organisation. Pour obtenir des instructions pas à pas, consultez [configurer des Plans de l’appel](set-up-calling-plans.md).
+    Après avoir affecté ces licences, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions pas à pas, consultez [configurer des Plans de l’appel](set-up-calling-plans.md).
     
 Pour plus d’informations, voir [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestion des licences](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
   

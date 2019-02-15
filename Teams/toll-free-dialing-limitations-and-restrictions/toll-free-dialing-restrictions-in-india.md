@@ -1,7 +1,7 @@
 ---
 title: Restrictions de composer le numéro gratuit en Inde
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 99b13a33120983c2e57bbe1991a301cb850cf015
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0a1ee2ba5d2c56c626fcab24726997fa1f173205
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012848"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046973"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Restrictions de composer le numéro gratuit en Inde
 

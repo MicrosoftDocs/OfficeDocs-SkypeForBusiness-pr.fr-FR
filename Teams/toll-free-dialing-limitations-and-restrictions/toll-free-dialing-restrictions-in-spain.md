@@ -1,7 +1,7 @@
 ---
 title: Restrictions d’appel gratuit en Espagne
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 890fa7bedf69e6baa6282065e304e274d028c5cd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 65cc612a769d0cc4f5eb24f177f9ae166b8c80dc
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012536"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048753"
 ---
 # <a name="toll-free-dialing-restrictions-in-spain"></a>Restrictions d’appel gratuit en Espagne
 

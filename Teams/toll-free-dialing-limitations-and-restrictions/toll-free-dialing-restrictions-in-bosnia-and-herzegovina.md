@@ -1,7 +1,7 @@
 ---
 title: Restrictions d’appel gratuit dans Bosnie-Herzégovine
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: e1a0f328f893ed2e361732c434db5b43ebf43473
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1ede843eb8cd5b9c854023556a4b3a300e30b2fd
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015404"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046479"
 ---
 # <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>Restrictions d’appel gratuit dans Bosnie-Herzégovine
 

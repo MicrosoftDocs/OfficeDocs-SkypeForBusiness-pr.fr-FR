@@ -1,7 +1,7 @@
 ---
 title: Disponibilité en Corée du Sud
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Corée du Sud.
-ms.openlocfilehash: ff28b64ca6d61dd950098f35fac7cc15b86d49b6
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e59509978e92ff43f70327b570256774967fac4a
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016948"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048785"
 ---
 # <a name="availability-in-south-korea"></a>Disponibilité en Corée du Sud
 

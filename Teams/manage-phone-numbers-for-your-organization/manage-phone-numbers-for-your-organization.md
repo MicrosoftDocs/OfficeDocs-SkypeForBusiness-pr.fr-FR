@@ -1,7 +1,7 @@
 ---
 title: Gérer les numéros de téléphone de votre organisation
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -26,12 +26,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Les instructions pour obtenir des numéros de téléphone pour les utilisateurs de Skype Entreprise et Microsoft Teams sont différentes selon le pays ou la région. Suivez le lien d’accès à votre pays ou région ci-dessous pour obtenir les informations nécessaires.
-ms.openlocfilehash: aca08e4af22eeed2422f88af6c6883a8c4e1a076
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b2f20983051f55464d95ed0a36a4173c68b8b4db
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015452"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048162"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gérer les numéros de téléphone de votre organisation
 Il existe trois façons d’obtenir les numéros d'utilisateur et service (payants et gratuits) pour votre organisation.
@@ -90,4 +90,4 @@ Si vous avez besoin d’aide, faites nous savoir comment nous pouvons vous aider
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

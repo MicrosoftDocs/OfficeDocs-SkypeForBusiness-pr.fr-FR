@@ -1,7 +1,7 @@
 ---
 title: Que sont les standards automatiques de système téléphonique ?
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
 ms.date: 9/1/2018
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez quelles sont les standards automatiques de système téléphonique (PBX en nuage) et comment les utiliser. '
-ms.openlocfilehash: 9a1b99de7d4a1ef10518c632436bf4c3e67732c9
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: bd59a88c0e8a1bd23c0caf23a3a3099e6ad98063
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347560"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048324"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>Que sont les standards automatiques de système téléphonique ?
 
@@ -247,7 +247,7 @@ Pour configurer un standard automatique et les options de menu, consultez [confi
   
 ### <a name="getting-service-numbers-for-an-auto-attendant"></a>Obtention de numéros de service pour un standard automatique
 
-Avant de pouvoir créer et configurer vos standards automatiques, vous devrez transférer vos numéros payants et gratuits existants. Une fois que vous obtenez les numéros de téléphone gratuit service payant, ils s’affichent dans le **Skype pour le centre d’administration Business** > **vocale** > **numéros de téléphone**et la volonté de **type numérique** présent figurer en tant que **Service - numéro gratuit **. Pour obtenir vos numéros de service, voir les [numéros de téléphone de service de mise en route pour Skype pour les professionnels et les équipes Microsoft](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) ou, si vous souhaitez transférer et le numéro de service existant, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
+Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. Une fois que vous obtenez les numéros de téléphone gratuit service payant, ils s’affichent dans le **Skype pour le centre d’administration Business** > **vocale** > **numéros de téléphone**et la volonté de **type numérique** présent figurer en tant que **Service - numéro gratuit **. Pour obtenir vos numéros de service, voir les [numéros de téléphone de service de mise en route pour Skype pour les professionnels et les équipes Microsoft](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) ou, si vous souhaitez transférer et le numéro de service existant, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Si vous êtes en dehors des États-Unis, vous ne pouvez pas utiliser le Skype entreprise centre d’administration pour obtenir les numéros de service. Accédez [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) à la place pour voir comment le faire.
@@ -271,7 +271,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 Vous pouvez obtenir plus d’informations sur la façon d’apporter des modifications aux paramètres d’ID de l’appelant dans votre organisation, [l’ID d’appelant utilisation dans votre organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
+[Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

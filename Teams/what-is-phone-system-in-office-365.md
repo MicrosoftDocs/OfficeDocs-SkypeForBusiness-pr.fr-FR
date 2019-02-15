@@ -1,7 +1,7 @@
 ---
 title: Qu'est-ce que le système téléphonique dans Office 365 ?
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez le système téléphonique qui peut faire pour vous. '
-ms.openlocfilehash: ec9dc331d83a94563851958f5b3bc85f6c264070
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ebf8e5dbf628cf0619df0ab9906c25d75662bdc6
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016604"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048801"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Qu'est-ce que le système téléphonique dans Office 365 ?
 
@@ -77,7 +77,7 @@ Si vous êtes prêt à commencer, consultez [la configuration système télépho
 
 ## <a name="related-topics"></a>Rubriques connexes
 - [Licences de compléments pour Skype Entreprise et Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [Obtention de numéros de téléphone pour Skype Entreprise Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
+- [Obtention de téléphones pour Skype Entreprise Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
 

@@ -1,7 +1,7 @@
 ---
 title: Différents types de numéros de téléphone utilisés pour les offres d'appel
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Skype pour Business Online utilise les types de numéros de téléphone en fonction de l’objectif pour lequel vous souhaitez utiliser le numéro de téléphone.
-ms.openlocfilehash: e99324e31607f628f90eda271584882a109f47cd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9da7fdac03d174e2c503c24658d5c98ef5bdb006
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014394"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047994"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Différents types de numéros de téléphone utilisés pour les offres d'appel
 
@@ -68,7 +68,7 @@ Skype pour Business Online utilise les types de numéros de téléphone en fonct
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

@@ -1,7 +1,7 @@
 ---
 title: Disponibilité en Finlande
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Finlande.
-ms.openlocfilehash: 8dbd34d5d0cdd97451fb6b040f75fb807b6beb80
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0499feb20dc8abf3d62c34278a813b2636ec8e18
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015348"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048881"
 ---
 # <a name="availability-in-finland"></a>Disponibilité en Finlande
 

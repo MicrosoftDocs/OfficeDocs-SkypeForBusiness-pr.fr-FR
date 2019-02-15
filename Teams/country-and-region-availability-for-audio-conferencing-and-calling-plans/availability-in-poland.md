@@ -1,7 +1,7 @@
 ---
 title: Disponibilité de Pologne
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Pologne.
-ms.openlocfilehash: dda96999c8116ebf7b9a09ac9feee13b1cde7103
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 89adc7af044c63a1046f4850d2e64ed64b1795bc
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015860"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048058"
 ---
 # <a name="availability-in-poland"></a>Disponibilité de Pologne
 

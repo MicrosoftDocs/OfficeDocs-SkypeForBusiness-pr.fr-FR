@@ -1,7 +1,7 @@
 ---
 title: Disponibilité en Norvège
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Norvège.
-ms.openlocfilehash: edabd7303358ef1a769a4e47d5a2011d93f56555
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: feb4578c59a24d8909ca8a112b7999966c634d57
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017020"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046861"
 ---
 # <a name="availability-in-norway"></a>Disponibilité en Norvège
 

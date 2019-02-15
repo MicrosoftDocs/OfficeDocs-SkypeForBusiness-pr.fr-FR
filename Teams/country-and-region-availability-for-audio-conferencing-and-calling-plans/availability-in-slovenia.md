@@ -1,7 +1,7 @@
 ---
 title: Disponibilité de Slovénie
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Slovénie.
-ms.openlocfilehash: 804b8158207a27fa80ba618df74b3de88e1c04a9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9146dcbce5e880394aee41f374a24b889e6e89c4
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016236"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048301"
 ---
 # <a name="availability-in-slovenia"></a>Disponibilité de Slovénie
 

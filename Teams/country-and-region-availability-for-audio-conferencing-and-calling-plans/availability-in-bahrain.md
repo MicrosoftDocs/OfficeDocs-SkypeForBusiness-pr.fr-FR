@@ -1,7 +1,7 @@
 ---
-title: Disponibilité dans Bahreïn
-ms.author: tonysmit
-author: tonysmit
+title: Disponibilité au Bahreïn
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Bahreïn.
-ms.openlocfilehash: 78a33a13df4b495313a8e8bb258fe5b383e20f12
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 32544cd54ab636389a3986cb2ccd4e21ced73a53
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789181"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048260"
 ---
-# <a name="availability-in-bahrain"></a>Disponibilité dans Bahreïn
+# <a name="availability-in-bahrain"></a>Disponibilité au Bahreïn
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 

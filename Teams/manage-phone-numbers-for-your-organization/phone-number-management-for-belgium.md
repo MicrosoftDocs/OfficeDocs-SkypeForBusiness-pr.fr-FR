@@ -1,7 +1,7 @@
 ---
 title: Gestion des numéros de téléphone pour la Belgique
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour rechercher des informations sur l'obtention et la gestion de numéros de téléphone en Belgique pour Skype Entreprise Online et Microsoft Teams.
-ms.openlocfilehash: 95abe8e026ef8b28ed9dd91cf65a266820eb484a
-ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
+ms.openlocfilehash: 570732477636eb357999d3e712e087dd05196877
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29651080"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048228"
 ---
 # <a name="phone-number-management-for-belgium"></a>Gestion des numéros de téléphone pour la Belgique
 

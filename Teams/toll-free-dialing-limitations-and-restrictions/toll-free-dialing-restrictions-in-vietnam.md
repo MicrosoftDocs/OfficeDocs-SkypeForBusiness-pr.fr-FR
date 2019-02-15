@@ -1,7 +1,7 @@
 ---
 title: Restrictions d’appel gratuit dans Vietnam
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 171ba2476bc17fcd06f0bc4cc62766c4a2d0d243
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7b1dc043b537b2ab8b4c50e57d640ed7ecf03b0e
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371209"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046431"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>Restrictions d’appel gratuit dans Vietnam
 

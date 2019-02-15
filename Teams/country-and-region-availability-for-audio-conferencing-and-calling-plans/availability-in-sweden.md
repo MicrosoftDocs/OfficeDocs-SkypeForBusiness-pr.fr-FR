@@ -1,7 +1,7 @@
 ---
 title: Disponibilité en Suède
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Suède.
-ms.openlocfilehash: 04f38f6d56898a83f5fec62c75e19c4a17a35cbb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4b8e40bdacf4deb2fee3b3ab9067b9b04ef38647
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013104"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047873"
 ---
 # <a name="availability-in-sweden"></a>Disponibilité en Suède
 

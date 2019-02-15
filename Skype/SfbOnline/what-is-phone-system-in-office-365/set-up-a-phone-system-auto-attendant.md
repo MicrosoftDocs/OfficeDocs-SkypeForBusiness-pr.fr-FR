@@ -1,7 +1,7 @@
 ---
 title: Configurer un standard automatique pour le système téléphonique
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
 ms.date: 9/1/2018
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer et tester les standards automatiques de système téléphonique (PBX nuage) pour efficace gestion des appels pour votre organisation. '
-ms.openlocfilehash: 9e84ea2130238866db61fa222169435772cc7758
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 79a3292ea15781d448f0931c18a9ed98cd351f01
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754152"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046763"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurer un standard automatique pour le système téléphonique
 

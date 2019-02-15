@@ -1,7 +1,7 @@
 ---
-title: Voici les avantages du système téléphonique dans Office 365
-ms.author: tonysmit
-author: tonysmit
+title: Voici les avantages du système téléphonique dans Office 365
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
 ms.topic: article
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: ac97c6d194673087ad90be88e649b7cb067ba89f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 864e687634426fd8fce0d489ef81cc85bbacf5e0
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017478"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048204"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
 Un PBX est un système téléphonique au sein d'une entreprise. Le système téléphonique dans le module complémentaire Office 365 vous offre des capacités de PBX, mais sans le matériel complexe et coûteux. 
   
@@ -96,7 +96,7 @@ Voir les articles suivants pour planifier et configurer le système téléphoniq
 ||||
 |:-----|:-----|:-----|
 |**Clients riches** <br/> |**Clients mobiles** <br/> |**Téléphones IP** <br/> |
-| Fonctionne avec tous les clients PC et Mac pris en charge dans Office 365. <br/> [Installer Skype Entreprise](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Configuration de Skype Entreprise (Lync) pour Mac 2011 pour Office 365](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | Nous avons des clients Skype Entreprise pour : <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Vous avez le choix parmi un grand nombre de téléphones de bureau compatibles avec Skype Entreprise. Consultez [Obtention de numéros de téléphone pour Skype Entreprise Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).<br/> |
+| Fonctionne avec tous les clients PC et Mac pris en charge dans Office 365. <br/> [Installer Skype Entreprise](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Configuration de Skype Entreprise (Lync) pour Mac 2011 pour Office 365](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | Nous avons des clients Skype Entreprise pour : <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Vous avez le choix parmi un grand nombre de téléphones de bureau compatibles avec Skype Entreprise. Consultez [Obtention de numéros de téléphone pour Skype Entreprise Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online). <br/> |
    
 ## <a name="related-topics"></a>Rubriques connexes
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

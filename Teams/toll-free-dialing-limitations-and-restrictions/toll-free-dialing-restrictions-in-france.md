@@ -1,7 +1,7 @@
 ---
 title: Restrictions d’appel gratuit en France
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 13a5856e1b9efcf5aec6d4ec7d44c645add0b7a7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 95ef627f59f07d66346bd8efcf3632a499f0edb8
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012920"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048769"
 ---
 # <a name="toll-free-dialing-restrictions-in-france"></a>Restrictions d’appel gratuit en France
 
@@ -42,7 +42,7 @@ ms.locfileid: "25012920"
 |Formats de numérotation  <br/> |0 800 9XX XXX  <br/> |
 |Code de pays/région ISO  <br/> |FR  <br/> |
 |Île/territoire couvert  <br/> | France métropolitaine et Corse <br/> |
-|Île/territoire non couvert  <br/> |Pas d'accès depuis Monaco, la Réunion, la Martinique, la Guadeloupe, la Guyane, Saint-Pierre-et-Miquelon, Mayotte, la Nouvelle-Calédonie, la Polynésie française, Wallis-et-Futuna.  <br/> |
+|Île/territoire non couvert  <br/> |No access from Monaco, Reunion, Martinique, Guadeloupe, Guyane, St. Pierre-&amp;-Miquelon, Mayotte, New Caledonia, French Polynesia, Wallis &amp; Futuna.  <br/> |
 |Disponibilité de la ligne filaire/fixe  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
 |Commentaires, les restrictions et les problèmes d’accès  <br/> |Accès mobile : Le temps d'accès est facturé.  <br/> |

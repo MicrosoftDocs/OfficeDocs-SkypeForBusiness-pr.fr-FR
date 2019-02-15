@@ -1,7 +1,7 @@
 ---
 title: Configurer des offres d'appels
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: a873c1d21d639917943b1ea3699620f4ef68951d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5f617ecea591d76b5dcd3e7daa308e7f7a74d808
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014972"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047077"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des offres d'appels
 Les appels vers d’autres Skype pour les utilisateurs professionnels sont gratuites, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones en dehors de votre entreprise, obtenir un Plan d’appel interne ou d’un Plan d’appel International dans Office 365. Il est facile pour définir votre entreprise. 
@@ -143,7 +143,7 @@ Pour en savoir plus, consultez [Aide-mémoire :Utiliser Windows PowerShell pour 
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

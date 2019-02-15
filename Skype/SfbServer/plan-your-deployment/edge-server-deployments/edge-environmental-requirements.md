@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Résumé : Découvrez les exigences pour les serveurs de périphérie de Skype pour Business Server.'
-ms.openlocfilehash: 4b8c4d63063e7dcd496d0063eff8e8f8b8027058
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c1a7c9ff9b55d2b5cdf978b87913f50b6521ea77
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532459"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047880"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Edge exigences Server dans Skype pour Business Server
  
@@ -79,11 +79,11 @@ Pour vous aider à choisir, le tableau ci-dessous contient un résumé des optio
 |:-----|:-----|:-----|:-----|:-----|
 |Serveur Edge consolidé unique avec des adresses IP privées et la conversion d’adresses réseau  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |
 |Serveur Edge consolidé unique avec des adresses IP publiques  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |
-|Serveur Edge consolidé ajusté avec des adresses IP privées et de conversion d’adresses réseau (NAT) (charge DNS équilibrée)  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui & sup1 ;  <br/> |
-|Serveur Edge consolidé ajusté avec des adresses IP publiques (charge DNS équilibrée)  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui & sup1 ;  <br/> |
-|Topologie Edge consolidée ajustée avec des équilibreurs de charge matérielle  <br/> |Oui  <br/> |Non (un enregistrement DNS A par VIP)  <br/> |Oui  <br/> |Oui  <br/> |
+|Serveur Edge consolidé ajusté avec des adresses IP privées et de conversion d’adresses réseau (NAT) (charge DNS équilibrée)  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Yes&sup1 ;  <br/> |
+|Serveur Edge consolidé ajusté avec des adresses IP publiques (charge DNS équilibrée)  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Yes&sup1 ;  <br/> |
+|Topologie Edge consolidée ajustée avec des équilibreurs de charge matérielle  <br/> |Oui  <br/> |Non (un enregistrement DNS A par VIP)  <br/> |Oui  <br/> |Oui   <br/> |
    
-& sup1 ; Le basculement des utilisateurs distants de messagerie unifiée Exchange (MU) à l’aide de l’équilibrage de charge DNS requiert Exchange 2013 ou version ultérieure.
+&sup1 ; Le basculement des utilisateurs distants de messagerie unifiée Exchange (MU) à l’aide de l’équilibrage de charge DNS requiert Exchange 2013 ou version ultérieure.
   
 ### <a name="ip-address-requirements"></a>Exigences d’adresse IP
 
@@ -302,7 +302,7 @@ Une fois que vous avez obtenu le certificat, vous devrez continuez et attribuer 
 - Service d’authentification audio/vidéo (ne pas confondre avec A / V Edge service, que n’utiliser un certificat pour chiffrer les flux audio et vidéo)
     
 > [!IMPORTANT]
-> Tous les serveurs Edge doivent comporter exactement le même certificat avec la même clé privée pour le service d’authentification du serveur relais multimédia. 
+> Tous les serveurs Edge (s’ils appartiennent au même pool de serveurs de périphérie) doit être le même certificat exact avec la même clé privée pour le service d’authentification du relais multimédia. 
   
 ### <a name="internal-certificates"></a>Certificats internes
 
@@ -359,15 +359,15 @@ L’adresse IP source et l’adresse IP de destination contiendront des inform
 |Accès/HTTP  <br/> |TCP  <br/> |80  <br/> |**IP privées utilisant NAT :** Service Edge d’accès serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du bord serveur Edge d’accès service <br/> |Indifférente  <br/> |Vérification et extraction de la liste de révocation de certificats.  <br/> |
 |Accès/DNS  <br/> |TCP  <br/> |53  <br/> |**IP privées utilisant NAT :** Service Edge d’accès serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du bord serveur Edge d’accès service <br/> |Indifférente  <br/> |Requête DNS sur TCP.  <br/> |
 |Accès/DNS  <br/> |UDP  <br/> |53  <br/> |**IP privées utilisant NAT :** Service Edge d’accès serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du bord serveur Edge d’accès service <br/> |Indifférente  <br/> |Requête DNS sur UDP  <br/> |
-|Accès/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Indifférente  <br/> |**IP privées utilisant NAT :** Service Edge d’accès serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du bord serveur Edge d’accès service <br/> |Trafic SIP client vers serveur pour l’accès des utilisateurs externes.  <br/> |
+|Accès/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Indifférente   <br/> |**IP privées utilisant NAT :** Service Edge d’accès serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du bord serveur Edge d’accès service <br/> |Trafic SIP client vers serveur pour l’accès des utilisateurs externes.  <br/> |
 |Accès/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Indifférente  <br/> |**IP privées utilisant NAT :** Service Edge d’accès serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du bord serveur Edge d’accès service <br/> |Pour la connectivité fédérée et PIC utilisant le protocole SIP (Session Initiation Protocol).  <br/> |
 |Accès/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**IP privées utilisant NAT :** Service Edge d’accès serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du bord serveur Edge d’accès service <br/> |Indifférente  <br/> |Pour la connectivité fédérée et PIC utilisant le protocole SIP (Session Initiation Protocol).  <br/> |
-|Conférence web/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Indifférente  <br/> |**IP privées utilisant NAT :** Service Edge de conférence Web serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du côté serveur Edge de conférence Web service <br/> |Données multimédias de conférence Web.  <br/> |
+|Conférence web/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Indifférente   <br/> |**IP privées utilisant NAT :** Service Edge de conférence Web serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du côté serveur Edge de conférence Web service <br/> |Données multimédias de conférence Web.  <br/> |
 |A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**IP privées utilisant NAT :** Edge Server A / V Edge service <br/> **Les adresses IP publiques :** Edge Server A / V Edge adresse IP publique du service <br/> |Indifférente  <br/> |Ceci est utilisé pour relayer le trafic multimédia.  <br/> |
 |A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**IP privées utilisant NAT :** Edge Server A / V Edge service <br/> **Les adresses IP publiques :** Edge Server A / V Edge adresse IP publique du service <br/> |Indifférente  <br/> |Ceci est utilisé pour relayer le trafic multimédia.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |**IP privées utilisant NAT :** Edge Server A / V Edge service <br/> **Les adresses IP publiques :** Edge Server A / V Edge adresse IP publique du service <br/> |Indifférente  <br/> |Le port sortant 3478 est :  <br/> • Permet de déterminer la version du serveur de transport Edge par Skype pour Business Server il communique avec.  <br/> • Utilisé pour le trafic multimédia entre les serveurs de périphérie.  <br/> • Requis pour la fédération avec Lync Server 2010.  <br/> • Nécessaire si plusieurs pools Edge sont déployés dans votre organisation.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Indifférente  <br/> |**IP privées utilisant NAT :** Edge Server A / V Edge service <br/> **Les adresses IP publiques :** Edge Server A / V Edge adresse IP publique du service <br/> |Négociation STUN/TURN des candidats sur UDP sur le port 3478.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Indifférente  <br/> |**IP privées utilisant NAT :** Edge Server A / V Edge service <br/> **Les adresses IP publiques :** Edge Server A / V Edge adresse IP publique du service <br/> |Négociation STUN/TURN des candidats sur TCP sur le port 443.  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Indifférente   <br/> |**IP privées utilisant NAT :** Edge Server A / V Edge service <br/> **Les adresses IP publiques :** Edge Server A / V Edge adresse IP publique du service <br/> |Négociation STUN/TURN des candidats sur TCP sur le port 443.  <br/> |
 |A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |**IP privées utilisant NAT :** Edge Server A / V Edge service <br/> **Les adresses IP publiques :** Edge Server A / V Edge adresse IP publique du service <br/> |Indifférente  <br/> |Négociation STUN/TURN des candidats sur TCP sur le port 443.  <br/> |
    
 ### <a name="internal-port-firewall-summary-table"></a>Tableau récapitulatif des pare-feu de port interne
@@ -380,7 +380,7 @@ L’adresse IP source et l’adresse IP de destination contiendront des inform
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Indifféremment :  <br/> • Serveur frontal  <br/> • Chaque serveur frontal  <br/>  dans votre pool frontal <br/> |Interface interne du serveur Edge  <br/> |Trafic de conférence Web à partir de votre serveur frontal ou chaque serveur frontal (si vous avez un pool frontal) pour l’interface interne du serveur Edge.  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Indifféremment :  <br/> • Serveur frontal  <br/> • Le pool frontal  <br/> • Les Survivable Branch Appliance à l’aide de ce serveur Edge  <br/> • N’importe quel serveur Survivable Branch Server à l’aide de ce serveur Edge  <br/> |Interface interne du serveur Edge  <br/> |L’authentification a / utilisateurs V à partir de votre pool frontal ou serveur frontal, ou votre Survivable Branch Appliance ou Survivable Branch Server, à l’aide de votre serveur Edge.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Indifférente  <br/> |Interface interne du serveur Edge  <br/> |Chemin préféré pour / le transfert multimédia entre vos utilisateurs internes et externes et votre Survivable Branch Appliance ou serveur Survivable Branch Server.  <br/> |
-|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Indifférente  <br/> |Interface interne du serveur Edge  <br/> |Chemin d’accès de secours a / le transfert multimédia entre vos utilisateurs internes et externes et votre Survivable Branch Appliance ou Survivable Branch Server, si la communication UDP ne fonctionne pas. En cas d’impossibilité d’établir la communication UDP, le protocole TCP est utilisé pour le transfert de fichiers et le partage du bureau.  <br/> |
+|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Indifférente   <br/> |Interface interne du serveur Edge  <br/> |Chemin d’accès de secours a / le transfert multimédia entre vos utilisateurs internes et externes et votre Survivable Branch Appliance ou Survivable Branch Server, si la communication UDP ne fonctionne pas. En cas d’impossibilité d’établir la communication UDP, le protocole TCP est utilisé pour le transfert de fichiers et le partage du bureau.  <br/> |
 |HTTPS  <br/> |TCP  <br/> |4443  <br/> |Indifféremment :  <br/> • Serveur frontal qui contient le magasin Central de gestion  <br/> • Le pool frontal qui contient le magasin Central de gestion  <br/> |Interface interne du serveur Edge  <br/> |Réplication des modifications depuis le magasin Central de gestion vers votre serveur Edge.  <br/> |
 |MTLS  <br/> |TCP  <br/> |50001  <br/> |Indifférente  <br/> |Interface interne du serveur Edge  <br/> |Contrôleur de Service de journalisation centralisée à l’aide de Skype pour les applets de commande Business Server Management Shell et le Service de journalisation centralisée, ligne de commande ClsController (ClsController.exe) ou commandes de l’agent (ClsAgent.exe) et collection de journal.  <br/> |
 |MTLS  <br/> |TCP  <br/> |50002  <br/> |Indifférente  <br/> |Interface interne du serveur Edge  <br/> |Contrôleur de Service de journalisation centralisée à l’aide de Skype pour les applets de commande Business Server Management Shell et le Service de journalisation centralisée, ligne de commande ClsController (ClsController.exe) ou commandes de l’agent (ClsAgent.exe) et collection de journal.  <br/> |
@@ -403,7 +403,7 @@ L’adresse IP source et l’adresse IP de destination contiendront des inform
 |A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |Edge Server A / V Edge adresse IP publique du service  <br/> |Indifférente  <br/> |Ceci est utilisé pour relayer le trafic multimédia.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Edge Server A / V Edge adresse IP publique du service  <br/> |Indifférente  <br/> |Le port sortant 3478 est :  <br/> • Permet de déterminer la version du serveur de transport Edge par Skype pour Business Server il communique avec.  <br/> • Utilisé pour le trafic multimédia entre les serveurs de périphérie.  <br/> • Requis pour la fédération.  <br/> • Nécessaire si plusieurs pools Edge sont déployés dans votre organisation.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Indifférente  <br/> |Edge Server A / V Edge adresse IP publique du service  <br/> |Négociation STUN/TURN des candidats sur UDP sur le port 3478.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Indifférente  <br/> |Edge Server A / V Edge adresse IP publique du service  <br/> |Négociation STUN/TURN des candidats sur TCP sur le port 443.  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Indifférente   <br/> |Edge Server A / V Edge adresse IP publique du service  <br/> |Négociation STUN/TURN des candidats sur TCP sur le port 443.  <br/> |
 |A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Edge Server A / V Edge adresse IP publique du service  <br/> |Indifférente  <br/> |Négociation STUN/TURN des candidats sur TCP sur le port 443.  <br/> |
    
 #### <a name="internal-port-firewall-summary-table"></a>Tableau récapitulatif des pare-feu de port interne
@@ -425,12 +425,12 @@ L’adresse IP source et l’adresse IP de destination contiendront des inform
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |XMPP  <br/> Non pris en charge dans Skype pour professionnels Server 2019 |TCP  <br/> |5269  <br/> |Indifférente  <br/> |Service Proxy XMPP (partage une adresse IP avec le service Edge d’accès)  <br/> |Le service Proxy XMPP accepte le trafic provenant des contacts XMPP dans les fédérations XMPP définies.  <br/> |
 |XMPP  <br/>Non pris en charge dans Skype pour professionnels Server 2019 |TCP  <br/> |5269  <br/> |Service Proxy XMPP (partage une adresse IP avec le service Edge d’accès)  <br/> |Indifférente  <br/> |Le service Proxy XMPP envoie le trafic provenant des contacts XMPP dans les fédérations XMPP définies.  <br/> |
-|Accès/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Indifférente  <br/> |**IP privées utilisant NAT :** Service Edge d’accès serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du bord serveur Edge d’accès service <br/> |Trafic SIP client vers serveur pour l’accès des utilisateurs externes.  <br/> |
+|Accès/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Indifférente   <br/> |**IP privées utilisant NAT :** Service Edge d’accès serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du bord serveur Edge d’accès service <br/> |Trafic SIP client vers serveur pour l’accès des utilisateurs externes.  <br/> |
 |Accès/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Indifférente  <br/> |**IP privées utilisant NAT :** Service Edge d’accès serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du bord serveur Edge d’accès service <br/> |Pour la connectivité fédérée et PIC utilisant le protocole SIP (Session Initiation Protocol).  <br/> |
 |Accès/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**IP privées utilisant NAT :** Service Edge d’accès serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du bord serveur Edge d’accès service <br/> |Indifférente  <br/> |Pour la connectivité fédérée et PIC utilisant le protocole SIP (Session Initiation Protocol).  <br/> |
-|Conférence web/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Indifférente  <br/> |**IP privées utilisant NAT :** Service Edge de conférence Web serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du côté serveur Edge de conférence Web service <br/> |Données multimédias de conférence Web.  <br/> |
+|Conférence web/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Indifférente   <br/> |**IP privées utilisant NAT :** Service Edge de conférence Web serveur Edge <br/> **Les adresses IP publiques :** Adresse IP publique du côté serveur Edge de conférence Web service <br/> |Données multimédias de conférence Web.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Indifférente  <br/> |**IP privées utilisant NAT :** Edge Server A / V Edge service <br/> **Les adresses IP publiques :** Edge Server A / V Edge adresse IP publique du service <br/> |Négociation STUN/TURN des candidats sur UDP sur le port 3478.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Indifférente  <br/> |**IP privées utilisant NAT :** Edge Server A / V Edge service <br/> **Les adresses IP publiques :** Edge Server A / V Edge adresse IP publique du service <br/> |Négociation STUN/TURN des candidats sur TCP sur le port 443.  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Indifférente   <br/> |**IP privées utilisant NAT :** Edge Server A / V Edge service <br/> **Les adresses IP publiques :** Edge Server A / V Edge adresse IP publique du service <br/> |Négociation STUN/TURN des candidats sur TCP sur le port 443.  <br/> |
    
 #### <a name="internal-interface-virtual-ips"></a>Adresses IP virtuelles d’interface interne
 
@@ -448,4 +448,4 @@ Le tableau suivant donne des conseils pour ces scénarios, mais dans le cas cont
 |Accès/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Interface de l’adresse IP virtuelle interne des serveurs de périphérie  <br/> |Indifféremment :  <br/> • Directeur  <br/> • Pool directeur adresse IP virtuelle  <br/> • Serveur frontal  <br/> • Le pool frontal adresse IP virtuelle  <br/> |Trafic SIP entrant vers votre directeur, adresse IP virtuelle de pool de directeur, serveur frontal ou adresse d’adresse IP virtuelle de pool frontal à partir de l’interface interne du serveur Edge.  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Indifféremment :  <br/> • Les adresse IP du serveur frontal  <br/> Adresse IP de • front End pool  <br/> • Les Survivable Branch Appliance à l’aide de ce serveur Edge  <br/> • N’importe quel serveur Survivable Branch Server à l’aide de ce serveur Edge  <br/> |Interface interne du serveur Edge  <br/> |L’authentification a / utilisateurs V à partir de votre pool frontal ou serveur frontal, ou votre Survivable Branch Appliance ou Survivable Branch Server, à l’aide de votre serveur Edge.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Indifférente  <br/> |Interface interne du serveur Edge  <br/> |Chemin préféré pour le transfert multimédia A/V entre vos utilisateurs internes et externes.  <br/> |
-|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Indifférente  <br/> |Interface de l’adresse IP virtuelle interne des serveurs de périphérie  <br/> |Chemin d’accès de secours pour le transfert multimédia A/V entre vos utilisateurs internes et externes. En cas d’impossibilité d’établir la communication UDP, le protocole TCP est utilisé pour le transfert de fichiers et le partage du bureau.  <br/> |
+|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Indifférente   <br/> |Interface de l’adresse IP virtuelle interne des serveurs de périphérie  <br/> |Chemin d’accès de secours pour le transfert multimédia A/V entre vos utilisateurs internes et externes. En cas d’impossibilité d’établir la communication UDP, le protocole TCP est utilisé pour le transfert de fichiers et le partage du bureau.  <br/> |

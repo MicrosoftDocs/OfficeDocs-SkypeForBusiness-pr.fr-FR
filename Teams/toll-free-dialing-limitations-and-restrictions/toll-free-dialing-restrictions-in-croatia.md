@@ -1,7 +1,7 @@
 ---
 title: Restrictions d’appel gratuit dans Croatie
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 2006d74112131e42f7255a82c7163e9de13da9be
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6b62aee5223a43d8c5141b1f1bbc0f904f452438
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013064"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047133"
 ---
 # <a name="toll-free-dialing-restrictions-in-croatia"></a>Restrictions d’appel gratuit dans Croatie
 
@@ -40,7 +40,7 @@ ms.locfileid: "25013064"
 |:-----|:-----|
 |Est gratuit appelant disponibles ?  <br/> |Oui  <br/> |
 |Formats de numérotation  <br/> | 0800 XXX XXX <br/>  0800 XXXX <br/> |
-|Code de pays/région ISO  <br/> |HR  <br/> |
+|Code de pays/région ISO  <br/> |RH  <br/> |
 |Île/territoire couvert  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
 |Disponibilité de la ligne filaire/fixe  <br/> |Oui  <br/> |

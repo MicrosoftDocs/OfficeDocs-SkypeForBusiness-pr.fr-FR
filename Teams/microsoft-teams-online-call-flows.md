@@ -1,7 +1,7 @@
 ---
-title: Flux des appels équipes Microsoft Online
-author: tonysmit
-ms.author: tonysmit
+title: Flux d’appel de Microsoft Teams en ligne
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.date: 06/08/2018
 ms.topic: article
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Décrit comment la charge de travail équipes utilise Office 365 flux dans diverses topologies.
-ms.openlocfilehash: 455e90d05a26ce387f916f531991ccaf664860d2
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: ce5af3e2f7d14eb0d07fe2838ab1a85954d55ba3
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562806"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048745"
 ---
-# <a name="microsoft-teams-online-call-flows"></a>Flux des appels équipes Microsoft Online
+# <a name="microsoft-teams-online-call-flows"></a>Flux d’appel de Microsoft Teams en ligne
 
 > [!Tip]
 > Regarder la session suivante pour en savoir comment les équipes s’appuie sur votre réseau et comment mieux planifier la connectivité réseau optimale : [Planification des équipes réseau](https://aka.ms/teams-networking)
