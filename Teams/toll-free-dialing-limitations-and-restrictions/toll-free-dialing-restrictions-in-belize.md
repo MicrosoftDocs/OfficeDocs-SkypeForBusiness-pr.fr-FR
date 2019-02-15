@@ -1,7 +1,7 @@
 ---
 title: Restrictions d’appel gratuit dans Belize
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,33 +24,33 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: d071371ee959ad7c6affbabe64aedaffa21b6e63
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 54457fb2dab815f51a16e91b980a3d8a73fec675
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015772"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046562"
 ---
-# <a name="toll-free-dialing-restrictions-in-belize"></a><span data-ttu-id="cb2a1-105">Restrictions d’appel gratuit dans Belize</span><span class="sxs-lookup"><span data-stu-id="cb2a1-105">Toll-free dialing restrictions in Belize</span></span>
+# <a name="toll-free-dialing-restrictions-in-belize"></a><span data-ttu-id="1f8f6-105">Restrictions d’appel gratuit dans Belize</span><span class="sxs-lookup"><span data-stu-id="1f8f6-105">Toll-free dialing restrictions in Belize</span></span>
 
-<span data-ttu-id="cb2a1-106">[Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.</span><span class="sxs-lookup"><span data-stu-id="cb2a1-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="1f8f6-106">[Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.</span><span class="sxs-lookup"><span data-stu-id="1f8f6-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="cb2a1-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="cb2a1-107">**Details**</span></span>|<span data-ttu-id="cb2a1-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="cb2a1-108">**Description**</span></span>|
+|<span data-ttu-id="1f8f6-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="1f8f6-107">**Details**</span></span>|<span data-ttu-id="1f8f6-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="1f8f6-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="cb2a1-109">Est gratuit appelant disponibles ?</span><span class="sxs-lookup"><span data-stu-id="cb2a1-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="cb2a1-110">Oui</span><span class="sxs-lookup"><span data-stu-id="cb2a1-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="cb2a1-111">Formats de numérotation</span><span class="sxs-lookup"><span data-stu-id="cb2a1-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="cb2a1-112">1 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="cb2a1-112">1 800 XXX XXXX</span></span> <br/> |
-|<span data-ttu-id="cb2a1-113">Code de pays/région ISO</span><span class="sxs-lookup"><span data-stu-id="cb2a1-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="cb2a1-114">BZ</span><span class="sxs-lookup"><span data-stu-id="cb2a1-114">BZ</span></span>  <br/> |
-|<span data-ttu-id="cb2a1-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="cb2a1-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="cb2a1-116">Non applicable</span><span class="sxs-lookup"><span data-stu-id="cb2a1-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="cb2a1-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="cb2a1-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="cb2a1-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="cb2a1-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="cb2a1-119">Disponibilité de la ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="cb2a1-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="cb2a1-120">Oui</span><span class="sxs-lookup"><span data-stu-id="cb2a1-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="cb2a1-121">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="cb2a1-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="cb2a1-p102">Partiel. Voir les commentaires.</span><span class="sxs-lookup"><span data-stu-id="cb2a1-p102">Partial. See comments.</span></span>  <br/> |
-|<span data-ttu-id="cb2a1-124">Commentaires, les restrictions et les problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="cb2a1-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="cb2a1-125">Mobile : Disponible via le réseau mobile BTL.</span><span class="sxs-lookup"><span data-stu-id="cb2a1-125">Mobile: Available from the BTL mobile network.</span></span>  <br/> |
+|<span data-ttu-id="1f8f6-109">Est gratuit appelant disponibles ?</span><span class="sxs-lookup"><span data-stu-id="1f8f6-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="1f8f6-110">Oui</span><span class="sxs-lookup"><span data-stu-id="1f8f6-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="1f8f6-111">Formats de numérotation</span><span class="sxs-lookup"><span data-stu-id="1f8f6-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="1f8f6-112">1 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="1f8f6-112">1 800 XXX XXXX</span></span> <br/> |
+|<span data-ttu-id="1f8f6-113">Code de pays/région ISO</span><span class="sxs-lookup"><span data-stu-id="1f8f6-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="1f8f6-114">BZ</span><span class="sxs-lookup"><span data-stu-id="1f8f6-114">BZ</span></span>  <br/> |
+|<span data-ttu-id="1f8f6-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="1f8f6-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="1f8f6-116">Non applicable</span><span class="sxs-lookup"><span data-stu-id="1f8f6-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="1f8f6-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="1f8f6-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="1f8f6-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="1f8f6-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="1f8f6-119">Disponibilité de la ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="1f8f6-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="1f8f6-120">Oui</span><span class="sxs-lookup"><span data-stu-id="1f8f6-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="1f8f6-121">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="1f8f6-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="1f8f6-122">Partiel.</span><span class="sxs-lookup"><span data-stu-id="1f8f6-122">Partial.</span></span> <span data-ttu-id="1f8f6-123">Voir les commentaires.</span><span class="sxs-lookup"><span data-stu-id="1f8f6-123">See comments.</span></span>  <br/> |
+|<span data-ttu-id="1f8f6-124">Commentaires, les restrictions et les problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="1f8f6-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="1f8f6-125">Mobile : Disponible via le réseau mobile BTL.</span><span class="sxs-lookup"><span data-stu-id="1f8f6-125">Mobile: Available from the BTL mobile network.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="cb2a1-126">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="cb2a1-126">Related topics</span></span>
-[<span data-ttu-id="cb2a1-127">Restrictions et les limitations de composer le numéro gratuit</span><span class="sxs-lookup"><span data-stu-id="cb2a1-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="1f8f6-126">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="1f8f6-126">Related topics</span></span>
+[<span data-ttu-id="1f8f6-127">Restrictions et les limitations de composer le numéro gratuit</span><span class="sxs-lookup"><span data-stu-id="1f8f6-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="cb2a1-128">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="cb2a1-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="1f8f6-128">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="1f8f6-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
