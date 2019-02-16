@@ -117,7 +117,7 @@
 
 # [Réunions et conférences](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Didacticiel : Réunions dans Teams](Tutorial-Meetings-in-Teams.yml)
-## [Gérer les stratégies de la réunion](meeting-policies-in-teams.md)]
+## [Gérer les stratégies de la réunion](meeting-policies-in-teams.md)
 ## [Gérer les paramètres de réunions](meeting-settings-in-teams.md)
 ## [Messages électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
