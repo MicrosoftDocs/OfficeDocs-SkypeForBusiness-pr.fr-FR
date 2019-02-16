@@ -14,19 +14,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cet article traite de la liste des téléphones qui sont certifiées pour Teams Microsoft et les fonctionnalités prises en charge dans les téléphones certifiés pour Microsoft Teams.
-ms.openlocfilehash: 8605bbc1ba0f9f69c2115b89ec7332309891253d
-ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
+ms.openlocfilehash: b9f5b85219981f8fa4c67d5f2ed6e666fc7fada2
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770412"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069624"
 ---
 # <a name="phones-for-microsoft-teams"></a>Téléphones pour Microsoft Teams
 
 Teams Microsoft prend en charge une gamme de téléphones de bureau pour les utilisateurs qui ont besoin d’une expérience traditionnels. Cet article traite de la liste des téléphones qui sont certifiées pour Teams Microsoft et les fonctionnalités prises en charge dans les téléphones certifiés pour Microsoft Teams. Pour obtenir les informations à jour et les plus récentes dans des équipes de périphériques certifiés, accédez au [Site Marketplace équipes](http://office.com/teamsdevices).
 
-## <a name="teams-certified-ip-phones"></a>Équipes certifié des téléphones IP
-Afin d’offrir une expérience de Microsoft Teams haute qualité et fiable sur les téléphones, nous effectuons un partenariat et activement avec Yealink, Crestron, Polycom et Audiocodes pour développer et certifiez une large gamme de téléphones de bureau et les périphériques audio de salle de conférence. Voir les [Téléphones IP](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) pour les appareils pris en charge en cours.
+## <a name="teams-certified-ip-phones"></a>Équipes certifié des téléphones IP 
+
+Afin d’offrir une expérience de Microsoft Teams haute qualité et fiable sur les téléphones, nous effectuons un partenariat et activement avec Yealink, Crestron, Polycom et Audiocodes pour développer et certifiez une large gamme de téléphones de bureau et les périphériques audio de salle de conférence. Voir [certifié actuellement les téléphones IP](/SfbPartnerCertification/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) pour les appareils pris en charge en cours.
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Jeu de fonctionnalités des téléphones Microsoft Teams
 
@@ -124,7 +125,7 @@ L’utilisateur de téléphone équipes peut choisir pour se déconnecter en sé
 
 ![Déconnexion d’équipes](media/teams-sign-out.png)
 
-# <a name="finding-the-firmware-version-on-a-mobile-device"></a>Recherche de la version de microprogramme sur un appareil mobile
+## <a name="finding-the-firmware-version-on-a-mobile-device"></a>Recherche de la version de microprogramme sur un appareil mobile
 
 La version de microprogramme minimale peut être archivée sur la page de connexion équipes en choisissant l’icône **paramètres** dans le coin supérieur droit, puis sur **à propos**.
 

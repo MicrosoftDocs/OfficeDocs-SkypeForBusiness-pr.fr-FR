@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft est le retrait Unified Messaging service Exchange Online (ExchUMO) en février 2020. Cet article résume les éléments affectés clients doivent connaître et pour planifier les leur continuité de l’entreprise.
-ms.openlocfilehash: af9418a764780efca07a37f1c0b55415d0305f55
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+ms.openlocfilehash: 8d09a9a16104420bfbe225aefefab57399f8dec5
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786420"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059165"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de migration Exchange Unified Messaging en ligne  
 
@@ -59,7 +59,7 @@ Microsoft a identifié les différents déploiements de clients qui utilisent le
 
 2.  **Établir un Skype pour la topologie hybride Business**
 
-    Si vous n’avez pas un Skype pour la topologie hybride Business établie, vous devez faire pour permettre une migration en douceur de vos utilisateurs de messagerie vocale. Pour plus d’informations, voir [Configurer les Skype pour un environnement hybride Business](../hybrid/configure-federation-with-skype-for-business-online.md) . 
+    Si vous n’avez pas un Skype pour la topologie hybride Business établie, vous devez faire pour permettre une migration en douceur de vos utilisateurs de messagerie vocale. Pour plus d’informations, voir [Configurer les Skype pour un environnement hybride Business](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) . 
 
     > [!Note]
     > Il est inutile de migrer vos utilisateurs en ligne pour la migration de service de messagerie vocale. Toutefois, pour les utilisateurs locaux d’utiliser le service en nuage de la messagerie vocale, une topologie hybride est doit être établie.

@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Découvrez comment activer et utiliser le Skype pour Business Online Dashboard qualité des appels et obtenir des rapports de synthèse de la qualité des appels. '
-ms.openlocfilehash: 008fbeca5ae9b81d74e9a38f60c12a6fc1f919cc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 18c5c87d437235733e9ffc7c8a1ec60883a33305
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373807"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069616"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et à l’aide de tableau de bord qualité d’appel pour Microsoft Teams et Skype pour Business Online
 
@@ -86,17 +86,17 @@ Les rapports de synthèse CQD fournissent un sous-ensemble des fonctionnalités 
 |**Fonctionnalité**|**Rapports de synthèse**|**Rapports détaillés**|
 |:-----|:-----|:-----|
 |Mesure de partage d’application  <br/> |Non  <br/> |Oui  <br/> |
-|Prise en charge des informations de création de client  <br/> |Oui  <br/> |Oui  <br/> |
+|Prise en charge des informations de création de client  <br/> |Oui  <br/> |Oui   <br/> |
 |Prise en charge de l’analyse de l’exploration  <br/> |Non  <br/> |Oui  <br/> |
 |Mesures de la fiabilité du média  <br/> |Non  <br/> |Oui  <br/> |
-|Rapports out-of-the-box  <br/> |Oui  <br/> |Oui  <br/> |
-|Vue d’ensemble des rapports  <br/> |Oui  <br/> |Oui  <br/> |
+|Rapports out-of-the-box  <br/> |Oui  <br/> |Oui   <br/> |
+|Vue d’ensemble des rapports  <br/> |Oui  <br/> |Oui   <br/> |
 |Jeu de rapports par utilisateur  <br/> |Non  <br/> |Oui  <br/> |
 |Rapport définie personnalisation (ajouter, supprimer, modifier des rapports)  <br/> |Non  <br/> |Oui  <br/> |
 |Partage des mesures d’écran vidéo  <br/> |Non  <br/> |Oui  <br/> |
 |Mesures vidéo  <br/> |Non  <br/> |Oui  <br/> |
 |Quantité de données disponibles  <br/> |6 derniers mois  <br/> |6 derniers mois  <br/> |
-|Données Microsoft Teams  <br/> |Oui  <br/> |Oui  <br/> |
+|Données Microsoft Teams  <br/> |Oui  <br/> |Oui   <br/> |
    
 ### <a name="out-of-the-box-reports"></a>Rapports out-of-the-box
 
@@ -167,7 +167,7 @@ Comme les noms indiquent, il s’agit d’un critère de classement en fonction 
 > Étant donné un flux, si un des deux points de terminaison est connecté à un réseau Wi-Fi, puis il est considéré comme Wi-Fi dans CQD. 
   
 ## <a name="selecting-product-data-to-see-in-reports"></a>Sélection de données de produit à afficher dans les rapports
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKProductFilter"></a>
 
 Dans le résumé et emplacement améliorée des rapports, vous pouvez utiliser la liste déroulante **Filtre de produits** pour afficher toutes les données de produit, seules les données Teams Microsoft ou uniquement Skype pour les données métiers en ligne.
   
@@ -176,7 +176,7 @@ Dans le résumé et emplacement améliorée des rapports, vous pouvez utiliser l
 Dans des rapports détaillés, vous pouvez utiliser la dimension **Équipes est** pour filtrer les données à Microsoft Teams ou Skype pour les données métiers en ligne dans le cadre de la définition du rapport.
   
 ## <a name="upload-building-information"></a>Informations de création de téléchargement
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKBuildingInformationUpload"></a>
 
 Le tableau de bord des rapports de synthèse CQD comprend une page **De téléchargement de données client** , accédée en sélectionnant le **Téléchargement des données client** dans le menu Paramètres dans le coin supérieur droit. Cette page est utilisée pour les administrateurs de télécharger leurs propres informations, telles que le mappage des informations géographiques, adresse IP et le mappage de chaque point d’accès sans fil et son adresse MAC, etc..
   
@@ -223,18 +223,18 @@ Le format du fichier de données que vous téléchargez doit répondre à la com
     
 |**Nom de la colonne**|**Type de données**|**Exemple**|
 |:-----|:-----|:-----|
-|Réseau  <br/> |Chaîne  <br/> |192.168.1.0  <br/> |
-|Nom_réseau  <br/> |Chaîne  <br/> |États-Unis/Seattle/SEATTLE-marin-1  <br/> |
+|Réseau  <br/> |String  <br/> |192.168.1.0  <br/> |
+|Nom_réseau  <br/> |String  <br/> |États-Unis/Seattle/SEATTLE-marin-1  <br/> |
 |NetworkRange  <br/> |Numéro  <br/> |26  <br/> |
-|BuildingName  <br/> |Chaîne  <br/> |SEATTLE-MARIN-1  <br/> |
-|OwnershipType  <br/> |Chaîne  <br/> |Contoso  <br/> |
-|BuildingType  <br/> |Chaîne  <br/> |Arrêt de l’informatique  <br/> |
-|BuildingOfficeType  <br/> |Chaîne  <br/> |Ingénierie  <br/> |
-|Ville  <br/> |Chaîne  <br/> |Seattle  <br/> |
-|Code postal  <br/> |Chaîne  <br/> |98001  <br/> |
-|Pays  <br/> |Chaîne  <br/> |NOUS  <br/> |
-|État  <br/> |Chaîne  <br/> |WA  <br/> |
-|Région  <br/> |Chaîne  <br/> |MSUS  <br/> |
+|BuildingName  <br/> |String  <br/> |SEATTLE-MARIN-1  <br/> |
+|OwnershipType  <br/> |String  <br/> |Contoso  <br/> |
+|BuildingType  <br/> |String  <br/> |Arrêt de l’informatique  <br/> |
+|BuildingOfficeType  <br/> |String  <br/> |Ingénierie  <br/> |
+|Ville  <br/> |String  <br/> |Seattle  <br/> |
+|ZipCode  <br/> |String  <br/> |98001  <br/> |
+|Pays  <br/> |String  <br/> |NOUS  <br/> |
+|État  <br/> |String  <br/> |WA  <br/> |
+|Région  <br/> |String  <br/> |MSUS  <br/> |
 |InsideCorp  <br/> |Bool  <br/> |1  <br/> |
 |ExpressRoute  <br/> |Bool  <br/> |0  <br/> |
    
@@ -242,7 +242,7 @@ Le format du fichier de données que vous téléchargez doit répondre à la com
 > La plage réseau peut être utilisée pour représenter un supernet (combinaison de plusieurs sous-réseaux avec un préfixe de routage unique). Tous les téléchargements de construction nouvelle seront vérifiées pour toutes les plages qui se chevauchent. Si vous avez déjà chargé un fichier de construction, téléchargez le fichier en cours et téléchargez de nouveau pour identifier les chevauchements et corriger le problème avant de le télécharger à nouveau. Les mappages de sous-réseaux aux bâtiments dans les rapports incorrectes peut entraîner un chevauchement des fichiers téléchargés précédemment. Certaines implémentations VPN ne signalent pas correctement les informations de sous-réseau. Il est recommandé que lors de l’ajout d’un sous-réseau de réseau privé virtuel pour la création du fichier, au lieu d’une entrée pour le sous-réseau, des entrées sont ajoutées pour chaque adresse de sous-réseau de réseau privé virtuel comme un réseau distinct de 32 bits. Chaque ligne peut avoir les mêmes métadonnées de construction. Par exemple, au lieu d’une ligne pour 172.16.18.0/24, vous devez disposer de 256 lignes, avec une ligne pour chaque adresse entre 172.16.18.0/32 et 172.16.18.255/32, inclus. 
   
 ## <a name="selecting-media-type-in-detailed-reports"></a>Sélection de type de média dans des rapports détaillés
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKMediaType"></a>
 
 Les rapports détaillés prennent en charge la recherche au niveau de fiabilité de qualité et les médias pour l’audio, vidéo, partage d’application et types de supports de partage d’écran vidéo. Dimensions, mesures et des filtres qui sont spécifiques à un seul type de support ont « Audio », « Vidéos », « AppSharing » ou « VBSS » comme préfixe.
   
@@ -257,7 +257,7 @@ Si vous souhaitez afficher les dimensions et les mesures à prendre pour un seul
 
 [Permet de résoudre les problèmes de qualité médiocre appel Analytique d’appel](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Appel Analytique et tableau de bord de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

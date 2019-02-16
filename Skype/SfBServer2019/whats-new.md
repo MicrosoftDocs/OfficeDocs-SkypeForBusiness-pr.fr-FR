@@ -1,5 +1,5 @@
 ---
-title: Quelles sont les nouveautés dans Skype pour Business Server 2019 | Fonctionnalités
+title: Quelles sont les nouveautés dans Skype pour Business Server 2019 | fonctionnalités
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités sont nouvelles dans Skype pour Business Server 2019.'
-ms.openlocfilehash: 044901b134c71c1cae004f9930bedeae0057578d
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4eb674293b152109a9743fce5114fe11e3e97158
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348883"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30058981"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Nouveautés dans Skype pour Business Server 2019
 
@@ -35,7 +35,7 @@ Messagerie vocale dans le nuage permet à tous vos Skype pour Business 2019 user
 - Accès à la messagerie vocale dans leur boîte aux lettres Exchange à l’aide de la Skype pour les clients professionnels en ligne, équipes ou Outlook
 - Possibilité d’utiliser le portail web afin de gérer leurs options de la messagerie vocale
 
-Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](hybrid/plan-cloud-voicemail.md) et la [planification de Skype pour Business Server et de migration d’Exchange Server](hybrid/plan-um-migration.md) .
+Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](../sfbhybrid/hybrid/plan-cloud-voicemail.md) et la [planification de Skype pour Business Server et de migration d’Exchange Server](../sfbhybrid/hybrid/plan-um-migration.md) .
   
 ## <a name="call-monitoring-call-data-connector"></a>Surveillance des appels : connecteur de données d’appel
 
@@ -47,7 +47,7 @@ Avec le connecteur de données d’appel, vous pouvez effectuer les tâches suiv
 - Afficher et résoudre les problèmes de votre réseau
 - Assigner des rôles de support technique et administrateur appeler Analytique, afin que vous donner des travailleurs de support technique pour afficher et résoudre les problèmes de leurs domaines de responsabilité.
 
-Pour plus d’informations, voir [Planification de connecteur de données d’appel](hybrid/plan-call-data-connector.md) .
+Pour plus d’informations, voir [Planification de connecteur de données d’appel](../sfbhybrid/hybrid/plan-call-data-connector.md) .
 
 ### <a name="see-also"></a>Voir aussi
 

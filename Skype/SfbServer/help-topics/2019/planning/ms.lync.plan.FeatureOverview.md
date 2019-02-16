@@ -1,5 +1,5 @@
 ---
-title: Vue d’ensemble de la fonctionnalité (outil de planification)
+title: Feature Overview (Planning Tool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype pour Business Server, l’outil de planification
-ms.openlocfilehash: 22f14c0d31eaed5a6518263b15a9962e4bd136d0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f7a9f7fd0dfc7f4c65d85404bd827aee7b98332b
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082607"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059143"
 ---
-# <a name="feature-overview-planning-tool"></a>Vue d’ensemble de la fonctionnalité (outil de planification)
+# <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
 Skype pour Business Server, l’outil de planification
   
@@ -90,7 +90,7 @@ Les autres éléments ont été remplis avec les réponses fournies aux question
     Skype pour Business Server vous permet d’avoir des messages vocaux stockés dans Exchange messagerie unifiée (MU) ; Ces messages de messagerie vocale seront affiche alors en tant que messages électroniques dans la boîte de réception de vos utilisateurs.
 
     > [!NOTE]
-    > La messagerie unifiée Exchange comme connu précédemment n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser le système téléphonique aux messages d’enregistrement de la messagerie vocale et laissez l’enregistrement dans la boîte aux lettres Exchange de l’utilisateur. Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+    > La messagerie unifiée Exchange comme connu précédemment n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser le système téléphonique aux messages d’enregistrement de la messagerie vocale et laissez l’enregistrement dans la boîte aux lettres Exchange de l’utilisateur. Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
     
 ### <a name="voice"></a>Audio
 
@@ -105,7 +105,7 @@ Les autres éléments ont été remplis avec les réponses fournies aux question
     Messagerie unifiée Exchange (MU) combine la messagerie vocale et électronique en une seule infrastructure de messagerie. Skype pour Business Server 2015 utilise la messagerie unifiée Exchange pour fournir la réponse aux appels, l’accès abonné, notification d’appel et services de standard automatique. Si vous utilisez ces services, vous devrez intégrer la messagerie unifiée Exchange et Skype pour Business Server dans une topologie Active Directory partagée.
 
     > [!NOTE]
-    > La messagerie unifiée Exchange comme connu précédemment n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser le système téléphonique aux messages d’enregistrement de la messagerie vocale et laissez l’enregistrement dans la boîte aux lettres Exchange de l’utilisateur. Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+    > La messagerie unifiée Exchange comme connu précédemment n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser le système téléphonique aux messages d’enregistrement de la messagerie vocale et laissez l’enregistrement dans la boîte aux lettres Exchange de l’utilisateur. Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
     
 ### <a name="additional-deployment-options"></a>Options de déploiement supplémentaires
 

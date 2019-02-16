@@ -12,17 +12,17 @@ localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionnez standard automatique Exchange UM pour sélectionner un standard automatique Exchange UM qui gèrera les appels entrants à une plage de numéros non attribués.
-ms.openlocfilehash: 3ee269d4ab746bb46a658aae5987810d54164b0a
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 3c56e24c7285c4e4518da3101d7926800b8a564f
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22138401"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059136"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Sélectionnez le standard automatique de messagerie unifiée Exchange
 
 > [!NOTE]
-> Messagerie unifiée Exchange reste disponible dans Skype pour Business Server 2019 lorsque vous intégrez Skype pour les entreprises 2019 avec Exchange 2013 ou 2016 Exchange. En raison des modifications apportées à la prise en charge dans Exchange 2019, l’intégration de la messagerie unifiée Exchange est la déduplication emphasised au profit des fonctionnalités de la messagerie vocale dans le nuage et de standard automatique de nuage.  Voir [service de planification de la messagerie vocale dans le nuage](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) [planifier la messagerie vocale dans le Cloud service] et à [planifier Skype pour Business Server et de migration d’Exchange Server](../../../../SfBServer2019/hybrid/plan-um-migration.md) (... /.. /.. / SfBServer2019/hybrid/plan-um-migration.md) pour plus d’informations.
+> Messagerie unifiée Exchange reste disponible dans Skype pour Business Server 2019 lorsque vous intégrez Skype pour les entreprises 2019 avec Exchange 2013 ou 2016 Exchange. En raison des modifications apportées à la prise en charge dans Exchange 2019, l’intégration de la messagerie unifiée Exchange est la déduplication emphasised au profit des fonctionnalités de la messagerie vocale dans le nuage et de standard automatique de nuage.  Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md) et la [planification de Skype pour Business Server et de migration d’Exchange Server](../../../../SfBhybrid/hybrid/plan-um-migration.md) .
  
 Utilisez la boîte de dialogue **Sélectionnez standard automatique Exchange UM** pour sélectionner un standard automatique Exchange UM qui gèrera les appels entrants à une plage de numéros non attribués.
   

@@ -3,7 +3,7 @@ title: Configuration de la messagerie unifiée d’Exchange Server pour la messa
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/19/2016
+ms.date: 2/11/2019
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Résumé : Configurez messagerie unifiée Exchange Server pour Skype pour la messagerie vocale Business Server.'
-ms.openlocfilehash: 09ff81c170713f1dd3235f3968d586afc80929fd
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 03511671e0535e07dbc10e50b427364c3502a674
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375810"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059193"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configuration de la messagerie unifiée d’Exchange Server pour la messagerie vocale de Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "25375810"
 Skype pour Business Server vous permet d’avoir des messages vocaux stockées dans Exchange Server 2016 ou Exchange Server 2013 ; Ces messages de messagerie vocale seront affiche alors en tant que messages électroniques dans la boîte de réception de vos utilisateurs. 
 
 > [!NOTE]
-> La messagerie unifiée Exchange comme connu précédemment n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser le système téléphonique aux messages d’enregistrement de la messagerie vocale et laissez l’enregistrement dans la boîte aux lettres Exchange de l’utilisateur. Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+> La messagerie unifiée Exchange comme connu précédemment n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser le système téléphonique aux messages d’enregistrement de la messagerie vocale et laissez l’enregistrement dans la boîte aux lettres Exchange de l’utilisateur. Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
   
 Si vous avez déjà configuré l’authentification de serveur à serveur entre Skype pour Business Server et Exchange Server 2016 ou Exchange Server 2013, vous êtes prêt à configurer la messagerie unifiée. Pour ce faire, vous devez tout d’abord créer et affecter un plan de numérotation de messagerie unifiée nouveau sur votre serveur Exchange. Par exemple, les deux commandes suivantes (exécutées à partir d’Exchange Management Shell) configurer un nouveau plan de numérotation à 3 chiffres pour Exchange :
   
@@ -93,7 +93,7 @@ $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-Si vous disposez d’un second utilisateur qui a été activé pour la messagerie unifiée, vous pouvez utiliser l’applet de commande [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) pour vérifier que le second utilisateur peut laisser un message de messagerie vocale pour le premier utilisateur.
+Si un second utilisateur a été activé pour la messagerie unifiée, vous pouvez utiliser l’applet de commande [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) pour vous assurer qu’il est en mesure de laisser un message vocal au premier utilisateur.
   
 ```
 $credential = Get-Credential "litwareinc\pilar"
@@ -140,7 +140,7 @@ Les outils suivants doivent être disponibles sur chaque serveur exécutant la m
 
 
 
-### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>Configurer la messagerie unifiée sur Microsoft Exchange avec ExchUCUtil.ps1 
+### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>Configure Unified Messaging on Microsoft Exchange with ExchUCUtil.ps1 
 
 Lorsque vous êtes intégration Microsoft Skype pour Business Server avec Exchange messagerie unifiée (MU), vous devez exécuter le script ExchUcUtil.ps1 dans le Shell. Le script ExchUcUtil.ps1 effectue les opérations suivantes :
 
@@ -152,7 +152,7 @@ Lorsque vous êtes intégration Microsoft Skype pour Business Server avec Exchan
 - Crée un groupement de postes de messagerie unifiée pour chaque passerelle IP de messagerie unifiée. L’identificateur pilote de chaque groupe de recherche spécifie le plan de numérotation de messagerie unifiée les URI SIP utilisé par le Skype pour Business Server frontal ou serveur Standard Edition server qui est associé à la passerelle IP de messagerie unifiée.
 - Accorde Skype pour Business Server l’autorisation de lecture de numérotation de messagerie unifiée Active Directory des objets conteneurs tels que la messagerie unifiée plans, les standards automatiques, les passerelles IP de messagerie unifiée et groupements de postes de messagerie unifiée.
   > [!IMPORTANT]
-  > Chacune des forêts doivent être configuré pour approuver la forêt dans laquelle Skype pour Business Server est déployé et la forêt dans laquelle est déployé Skype pour Business Server 2013 doit être configurée pour l’approbation de chaque forêt de messagerie unifiée. Si la messagerie unifiée Exchange est installée dans plusieurs forêts, les étapes d’intégration Exchange Server doivent être effectuées pour chaque forêt de messagerie unifiée ou vous devrez spécifier le Skype pour le domaine du serveur d’entreprise. Par exemple, ExchUcUtil.ps1 – forêt : < lync-domaine-contrôleur-nom de domaine complet >. 
+  > Chacune des forêts doivent être configuré pour approuver la forêt dans laquelle Skype pour Business Server est déployé et la forêt dans laquelle est déployé Skype pour Business Server 2013 doit être configurée pour l’approbation de chaque forêt de messagerie unifiée. Si la messagerie unifiée Exchange est installée dans plusieurs forêts, les étapes d’intégration Exchange Server doivent être effectuées pour chaque forêt de messagerie unifiée ou vous devrez spécifier le Skype pour le domaine du serveur d’entreprise. Par exemple, ExchUcUtil.ps1 – forêt : <lync-domaine-contrôleur-fqdn>. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Utiliser le Shell pour exécuter le script ExchUcUtil.ps1
 
@@ -163,7 +163,7 @@ Exécutez le script ExchUcUtil.ps1 sur n’importe quel serveur Exchange dans vo
 > Vous devez disposer des autorisations du rôle de gestion de l’organisation Exchange ou être membre du groupe de sécurité administrateurs de l’organisation Exchange pour exécuter le script. 
 
 1. Ouvrez Exchange Management Shell.
-2. À l’invite C:\Windows\System32, tapez cd ** \<lettre de lecteur > : \Program Files\Microsoft\Exchange Server\V15\Scripts >. ExchUcUtil.ps1**, puis appuyez sur ENTRÉE.
+2. À l’invite C:\Windows\System32, tapez cd ** \<letter>:\Program Files\Microsoft\Exchange Server\V15\Scripts> du lecteur. ExchUcUtil.ps1**, puis appuyez sur ENTRÉE.
 
 #### <a name="how-do-you-know-this-worked"></a>Comment savoir si cela a fonctionné ?
 
@@ -188,7 +188,7 @@ Le serveur Exchange doit être configuré avec un certificat de serveur afin de 
 
 **Pour télécharger le certificat d’autorité de certification :**
 
-1. Sur le serveur exécutant la messagerie unifiée Exchange, cliquez sur **Démarrer**, sur **exécuter**, type **http://\<nom de votre serveur d’autorité de certification émettrice > / certsrv**, puis cliquez sur **OK**.
+1. Sur le serveur exécutant la messagerie unifiée Exchange, cliquez sur **Démarrer**, sur **exécuter**, type **http://\<nom de votre autorité de certification émettrice Server>/certsrv**, puis cliquez sur **OK**.
 2. Sous Sélectionnez une tâche, cliquez sur **télécharger un certificat autorité de certification, chaîne de certificats ou une liste de révocation**.
 3. Sous **télécharger un certificat d’autorité de certification, la chaîne de certificats ou la révocation de certificats**, sélectionnez la **Méthode de codage Base 64**, puis cliquez sur**Télécharger l’autorité de certification**.
    > [!NOTE]

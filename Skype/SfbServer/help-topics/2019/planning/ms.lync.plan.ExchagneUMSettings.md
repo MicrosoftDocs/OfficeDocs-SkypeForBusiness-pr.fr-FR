@@ -1,5 +1,5 @@
 ---
-title: (Outil de planification) de paramètres de messagerie unifiée Microsoft Exchange
+title: Exchange Unified Messaging Settings (Planning Tool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,23 +13,23 @@ localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype pour Business Server 2015 prend en charge l’intégration avec Exchange messagerie unifiée (MU) pour la combinaison de messagerie vocale et messagerie électronique en une seule infrastructure de messagerie.
-ms.openlocfilehash: 7e9e830b2b3db47a9cd4440c90d165dc1a9fa9ca
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f27e10fee5384c0718267ab424deacacaf24278a
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261020"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059129"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Paramètres de messagerie unifiées (outil de planification) dans Skype pour Business 2015 Exchange
 
 > [!NOTE]
-> La messagerie unifiée Exchange comme connu précédemment n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser le système téléphonique aux messages d’enregistrement de la messagerie vocale et laissez l’enregistrement dans la boîte aux lettres Exchange de l’utilisateur. Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+> La messagerie unifiée Exchange comme connu précédemment n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser le système téléphonique aux messages d’enregistrement de la messagerie vocale et laissez l’enregistrement dans la boîte aux lettres Exchange de l’utilisateur. Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
 
 Skype pour Business Server 2015 prend en charge l’intégration avec Exchange messagerie unifiée (MU) pour la combinaison de messagerie vocale et messagerie électronique en une seule infrastructure de messagerie.
 
 Pour plus d’informations, consultez :
 
-- [Planification pour Exchange Unified intégration de la messagerie](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
+- [Planning for Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
 
 - « La messagerie unifiée » à[https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)
 

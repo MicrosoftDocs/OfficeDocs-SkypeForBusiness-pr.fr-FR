@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype pour Business Server utilise TLS et MTLS pour chiffrer les messages instantanés. L’ensemble du trafic serveur à serveur nécessite MTLS, et ce que le trafic soit confiné au réseau interne ou qu’il traverse le périmètre du réseau interne. Lorsque la connexion Skype pour Business Server 3ème systèmes tiers de IPPBX ou jonctions SIP TLS est facultatif mais fortement recommandé entre le serveur de médiation et passerelle multimédia. Si TLS est configuré sur cette liaison, MTLS est requis. Par conséquent, la passerelle doit être configurée avec un certificat à partir d’une autorité de certification approuvée par le serveur de médiation.
-ms.openlocfilehash: 1a109bea59644e00b3b010c42d9b12918296b47c
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 7ed4297ef766b769827b6805087d02f0ad708fe7
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789375"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069631"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Chiffrement pour Skype pour Business Server
  
@@ -34,7 +34,7 @@ Le tableau suivant résume les exigences de protocole pour chaque type de trafic
 |:-----|:-----|
 |Serveur à serveur  <br/> |MTLS  <br/> |
 |Client à serveur  <br/> |TLS  <br/> |
-|Messagerie instantanée et présence  <br/> |TLS  <br/> |
+|Messagerie instantanée et présence  <br/> |TLS   <br/> |
 |Partage multimédia audio, vidéo et de bureau  <br/> |SRTP  <br/> |
 |Partage du bureau (signalisation)  <br/> |TLS  <br/> |
 |Conférence web  <br/> |TLS  <br/> |
@@ -45,7 +45,7 @@ Le tableau suivant résume les exigences de protocole pour chaque type de trafic
 Le trafic multimédia est chiffré à l'aide du protocole SRTP (Secure Real-time Transport Protocol), un profil du protocole RTP (Real-Time Transport Protocol) qui offre confidentialité, authentification et protection contre les attaques sur le trafic RTP. De plus, les données multimédias acheminées dans les deux directions entre le serveur de médiation et son tronçon suivant interne sont également chiffrées avec SRTP. Les données multimédias acheminées dans les deux directions entre le serveur de médiation et une passerelle multimédia sont également chiffrées et recommandées. Le serveur de médiation peut prendre en charge le chiffrement sur la passerelle multimédia, mais la passerelle doit prendre en charge MTLS et le stockage d’un certificat.
   
 > [!NOTE]
-> Pour plus d’informations sur la configuration hybride, voir [planification de la connectivité hybride entre Skype pour Business Server et Skype pour Business Online](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md).
+> Pour plus d’informations sur la configuration hybride, consultez [planification de la connectivité hybride](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
   
 ## <a name="fips"></a>FIPS
 
