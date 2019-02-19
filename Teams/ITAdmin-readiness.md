@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vidéos de formation, des supports de présentation PowerPoint, des didacticiels et autres ressources pour les administrateurs à planifier, déploiement et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eda922ce0346a69d657789bdc13a6381254c2b3a
-ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
+ms.openlocfilehash: 58f37fba985817b777ebce7c125b9cd5d80cc425
+ms.sourcegitcommit: 11f95d0df48a23e701ffaf3b26445d736cbbb884
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30062622"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "30079132"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -94,7 +94,7 @@ Utilisez les ressources de formation pour informer sur les équipes, apprendre �
 | Présentation des réunions | [Video](http://aka.ms/teams-meetings-intro) | [Pont](http://aka.ms/teams-meetings-intro-deck) |
 | Présentation du système téléphonique | [Video](http://aka.ms/teams-phone-system) | [Pont](http://aka.ms/teams-phone-system-deck) |
 | Routage direct | [Video](http://aka.ms/teams-direct-routing) | [Pont](http://aka.ms/teams-direct-routing-deck) |
-| Mise à niveau de Skype Entreprise vers Teams | [Vidéo 1 : Introduction à la mise à niveau](https://aka.ms/teams-upgrade-intro)</br>[Vidéo 2 : Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)</br>[Vidéo 3 : Interopérabilité et Coexistence](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vidéo 4 : L’expérience administrateur](https://aka.ms/teams-upgrade-admin) | [Pont](htt://aka.ms/teams-upgrade-deck)|
+| Mise à niveau de Skype Entreprise vers Teams | [Vidéo 1 : Introduction à la mise à niveau](https://aka.ms/teams-upgrade-intro)</br>[Vidéo 2 : Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)</br>[Vidéo 3 : Interopérabilité et Coexistence](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vidéo 4 : L’expérience administrateur](https://aka.ms/teams-upgrade-admin) | [Pont](http://aka.ms/teams-upgrade-deck)|
 
 <h2>Guides de démarrage rapide</h2>
 
