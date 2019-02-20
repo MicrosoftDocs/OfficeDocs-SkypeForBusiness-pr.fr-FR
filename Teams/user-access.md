@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be2e95d7be359856d5aef4f67664ef27ee62fa74
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: cdaa51072df7ffeeb2aeb2c66e73f07b0c0c0569
+ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562612"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "30087819"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gérer l'accès des utilisateurs à Microsoft Teams
 =====================================
@@ -50,7 +50,7 @@ Une licence d’utilisateur équipes peut être désactivée à tout moment. Une
 > [!IMPORTANT]
 > Nouvelle MsolLicenseOptions activer tous les services qui ont été précédemment désactivées à moins qu’explictitly identitied dans votre script personnalisé. Par exemple, si vous souhaitez laisser les deux & Exchange balancement désactivé pendant apporte désactivation des équipes, vous devrez incluent ce dans le script ou les deux & Exchange balancement sera deviennent activé pour les utilisateurs que vous avez identifié. Si vous souhaitez utilisent une interface utilisateur graphique pour gérer cette fonctionnalité, voir : [outil de gestion et de création de rapports de licence de Office 365-attribuer des licences supprimer en bloc](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
 
-L’activation et la désactivation de Teams comme licence de charge de travail via PowerShell sont effectuées comme pour n'importe quelle charge de travail. Le nom du plan de service est TEAMS1 pour Microsoft Teams. Pour le gouvernement le nom de plan de service est TEAMS_GOV. (Voir [Désactiver l'accès aux services avec PowerShell Office 365](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) pour plus d'informations.)
+L’activation et la désactivation de Teams comme licence de charge de travail via PowerShell sont effectuées comme pour n'importe quelle charge de travail. Le nom du plan de service est TEAMS1 pour Microsoft Teams. Pour GCC le nom de plan de service est TEAMS_GOV. High GCC le nom de plan de service est TEAMS_GCCHIGH. Le nom de plan de service est DoD TEAMS_DOD (voir [désactiver l’accès aux services Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) pour plus d’informations.)
 
 **Exemple :** L’exemple suivant est simplement un rapide sur la façon dont vous pouvez le désactiver équipes pour tout le monde dans un type de licence. Vous devez commencer par cette opération. Ensuite, activez Microsoft Teams individuellement pour les utilisateurs devant y avoir accès à des fins de pilote.
 
