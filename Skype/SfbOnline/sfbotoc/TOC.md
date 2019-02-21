@@ -228,11 +228,11 @@
 ### [Voilà ce que vous obtenez avec le système téléphonique](/microsoftteams/here-s-what-you-get-with-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### Messagerie vocale pour système téléphonique
 #### [Modifier la langue par défaut des messages d'accueil de la messagerie vocale et des courriers électroniques dans votre organisation](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Langues pour les messages d'accueil et les messages de la messagerie vocale](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+#### [Langues pour la messagerie vocale accueil et des messages](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Configurer un standard automatique pour le système téléphonique](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-### [Configurer le système téléphonique de votre organisation](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Que sont les standards automatiques de système téléphonique ?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [La configuration système téléphonique de votre organisation](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Quels sont les standards automatiques du système téléphonique?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Configurer un standard automatique pour le système téléphonique](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 #### [Exemple de petite entreprise - configurer un standard automatique](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
 
@@ -242,7 +242,7 @@
 ### [Autoriser la diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
 ### [Modifier les paramètres de diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
-## [Licences de compléments pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+## [Licences de module complémentaire Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 ### Options de licence en fonction de votre forfait
 #### [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
 #### [Premium d’Office 365, Office 365 ProPlus, ou Skype pour les entreprises Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
@@ -252,11 +252,11 @@
 #### [Systèmes de salle Skype v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 #### [GOV, EDU et Organisations à but non lucratif](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 #### [Skype pour retraite Business Online Plan 1](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md)
-### [Ajouter des fonds et gérer les crédits de communication](/microsoftteams/add-funds-and-manage-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Attribuer des licences Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
+### [Ajouter des fonds et gérer les Crédits de Communications](/microsoftteams/add-funds-and-manage-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Affecter Skype pour les licences d’entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [Audioconférence en paiement à la minute](/microsoftteams/audio-conferencing-pay-per-minute?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Configurer les crédits de communication pour votre organisation](/microsoftteams/set-up-communications-credits-for-your-organization?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Forfaits d'appels pour Office 365](/microsoftteams/calling-plans-for-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Plans d’appel dans Office 365](/microsoftteams/calling-plans-for-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Qu'est-ce que les crédits de communication ?](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Configurer Skype Entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
@@ -296,7 +296,7 @@
 ### [Qualité des médias et performances de connectivité réseau](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
 ### [Serveurs proxy de Skype pour les entreprises en ligne](/microsoftteams/proxy-servers-for-skype-for-business-online?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)) 
 
-## [Appel Analytique et tableau de bord de qualité des appels](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+## [Tableau de bord Analyse des appels et Qualité des appels](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](/microsoftteams/dimensions-and-measures-available-in-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Configurer l'analyse des appels pour Skype Entreprise](/microsoftteams/set-up-call-analytics?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Activation et utilisation du tableau de bord Qualité des appels](/microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
@@ -332,5 +332,5 @@
 ### [Code de traitement des réclamations pour le Royaume-Uni](/microsoftteams/complaint-handling-code-for-the-united-kingdom-u-k?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Pratiques de collecte de données](/microsoftteams/data-collection-practices?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Étiquettes appel d’urgence](/microsoftteams/emergency-calling-labels?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Conditions générales d’utilisation des appels d’urgence](/microsoftteams/emergency-calling-terms-and-conditions?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Fin de vie programme pour l’intégration de Skype pour les entreprises avec les services d’audioconférence tiers](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
